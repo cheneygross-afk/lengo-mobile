@@ -32,10 +32,10 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("No digo que ___, solo que entiendo tu punto de vista.", "tengas razón", "I'm not saying [you're right], just that I understand your point of view.", "«No digo que» + subjuntivo suaviza la afirmación y evita la confrontación directa.", ["lleves razón", "estés en lo cierto"]),
   ],
   "c1r-transform-universal-concessive": [
-    fe("___, siempre lo reconocían.", "Fuera donde fuera", "[Wherever he went], people always recognized him.", "Con referencia pasada, la fórmula reduplicativa va en imperfecto de subjuntivo: «fuera donde fuera» (o «fuese donde fuese»).", ["Fuera adonde fuera", "Fuera a donde fuera"]),
+    fe("___, siempre encontraba trabajo.", "Fuera donde fuera", "[Wherever he went], he always found work.", "Con referencia pasada, la fórmula reduplicativa va en imperfecto de subjuntivo: «fuera donde fuera» (o «fuese donde fuese»).", ["Fuera adonde fuera", "Fuera a donde fuera"]),
   ],
   "c1r-workshop-attenuation": [
-    fe("___ comentarle un asunto delicado.", "Quisiera", "[I'd like] to discuss a delicate matter with you.", "«Quisiera» (imperfecto de subjuntivo de cortesía) atenúa la petición frente a «quiero». «Me gustaría» y «querría» son igual de corteses.", ["Me gustaría", "Querría"]),
+    fe("___ consultarle una duda sobre la factura.", "Quisiera", "[I'd like] to ask you a question about the invoice.", "«Quisiera» (imperfecto de subjuntivo de cortesía) atenúa la petición frente a «quiero». «Me gustaría» y «querría» son igual de corteses.", ["Me gustaría", "Querría"]),
   ],
   "subjunctive-mastery-review-5": [
     fe("No creo que ___ todas las opciones antes de decidir.", "hayamos evaluado", "I don't think we [have evaluated] all the options before deciding.", "«No creo que» + subjuntivo; el hecho ya concluido respecto al presente va en perfecto de subjuntivo.", ["hayamos valorado", "hayamos considerado", "hayamos estudiado", "hayamos analizado"]),
@@ -52,28 +52,28 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
 
   // ---- Aunque y otras concesivas ---------------------------------------
   "concessive-aunque-1": [
-    fe("Aunque ___ toda la noche, no aprobó el examen.", "estudió", "Although she [studied] all night, she didn't pass the exam.", "En la narración de hechos pasados ya conocidos, «aunque» va con indicativo.", ["había estudiado", "estuvo estudiando"]),
-    fe("Aunque ___ tarde, todavía podemos llegar.", "es", "Although it [is] late, we can still make it.", "Aunque + indicativo: el hablante afirma como hecho que ya es tarde."),
-    fe("Aunque no lo ___, es una persona muy tímida.", "parece", "Although he doesn't [seem] like it, he is a very shy person.", "Indicativo: se presenta como hecho constatado, no como suposición. También es muy frecuente «aunque no lo parezca», que resta importancia a la apariencia.", ["aparenta", "parezca", "aparente"]),
+    fe("Aunque ___ toda la tarde, no terminó el informe.", "trabajó", "Although she [worked] all afternoon, she didn't finish the report.", "Se narra un hecho pasado cuyo desenlace ya se conoce: «aunque» + indicativo (trabajó). El subjuntivo («trabajara») lo convertiría en una hipótesis.", ["estuvo trabajando", "había trabajado"]),
+    fe("Aunque ya ___ las once, la tienda sigue abierta.", "son", "Although it['s] already eleven, the shop is still open.", "El hablante informa de la hora como un hecho: «aunque» + indicativo. Con «sean» le restaría importancia a algo que el otro ya sabe."),
+    fe("Aunque no lo ___, habla cinco idiomas.", "parece", "Although he doesn't [seem] like it, he speaks five languages.", "Indicativo: se presenta como dato constatado. También es muy frecuente «aunque no lo parezca», que resta importancia a la apariencia.", ["aparenta", "parezca", "aparente"]),
   ],
   "concessive-aunque-2": [
-    fe("Aunque ___ mi jefe, no voy a tolerar ese trato.", "sea", "He may well [be] my boss, but I'm not going to tolerate that treatment.", "El subjuntivo no pone en duda que sea el jefe: presenta ese hecho como irrelevante para la conclusión."),
+    fe("Aunque ___ tu hermano, no tiene derecho a leer tus mensajes.", "sea", "He may well [be] your brother, but he has no right to read your messages.", "Los dos saben que es su hermano: el subjuntivo no pone el hecho en duda, lo presenta como irrelevante para la conclusión. «Es» lo daría como información nueva."),
     fe("Aunque ___ una fortuna, lo compraré.", "cueste", "Even if it [costs] a fortune, I'll buy it.", "Aunque + subjuntivo: el precio, sea cual sea, no altera la decisión.", ["valga"]),
   ],
   "c1r-error-hunt-concessives": [
-    fe("Aunque ___ la respuesta, no la diría.", "supiera", "Even if I [knew] the answer, I wouldn't say it.", "En una concesiva hipotética, aunque + imperfecto de subjuntivo («supiera/supiese»), nunca condicional (✗ aunque sabría)."),
+    fe("Aunque ___ su número, no te lo daría.", "supiera", "Even if I [knew] his number, I wouldn't give it to you.", "En una concesiva hipotética, aunque + imperfecto de subjuntivo («supiera/supiese»), nunca condicional (✗ aunque sabría)."),
   ],
   "concessive-aunque-3": [
-    fe("A pesar de que ___, llegamos a tiempo.", "llovía", "Even though it [was raining], we arrived on time.", "El obstáculo ya se enfrentó y quedó superado: a pesar de que + indicativo.", ["estaba lloviendo", "llovió"]),
-    fe("A pesar de que ___ mañana, mantendremos el evento al aire libre.", "llueva", "Even if it [rains] tomorrow, we'll hold the event outdoors.", "Cuando el obstáculo se proyecta como posibilidad futura, «a pesar de que» lleva subjuntivo."),
+    fe("A pesar de que ___, el concierto empezó puntual.", "llovía", "Even though it [was raining], the concert started on time.", "El obstáculo ya se enfrentó y quedó superado: a pesar de que + indicativo.", ["estaba lloviendo", "llovió"]),
+    fe("A pesar de que mañana ___ huelga de metro, la feria abrirá.", "haya", "Even if there [is] a metro strike tomorrow, the fair will open.", "Cuando el obstáculo se proyecta como posibilidad futura, «a pesar de que» lleva subjuntivo (haya); «hay» daría la huelga por confirmada."),
   ],
   "concessive-aunque-4": [
-    fe("Por más que ___, no cambiaré de opinión.", "insistas", "No matter how much you [insist], I won't change my mind.", "«Por más que» con valor hipotético o general exige subjuntivo."),
-    fe("Por mucho dinero que ___, no podrás comprar su confianza.", "tengas", "No matter how much money you [have], you won't be able to buy his trust.", "Por mucho + sustantivo + que + subjuntivo: la cantidad, por elevada que sea, es irrelevante."),
-    fe("Por más que lo ___, no lograba entenderlo.", "intentara", "However hard he [tried], he couldn't understand it.", "En pasado se usa el imperfecto de subjuntivo («intentara/intentase»); el indicativo («intentaba») también es posible si se presenta el esfuerzo como hecho real.", ["intentaba"]),
+    fe("Por más que ___, no te voy a dar la razón.", "grites", "No matter how much you [shout], I'm not going to say you're right.", "«Por más que» con valor hipotético o general exige subjuntivo (grites); el futuro «gritarás» es imposible tras «que»."),
+    fe("Por mucha prisa que nos ___, no llegaremos a tiempo.", "demos", "No matter how much we [hurry], we won't get there on time.", "Por mucho + sustantivo + que + subjuntivo: «mucha» concuerda con «prisa» (femenino) y la cantidad, por elevada que sea, no cambia el resultado."),
+    fe("Por más que ___ la casa, siempre había polvo.", "limpiaba", "However much I [cleaned] the house, there was always dust.", "En pasado, si el esfuerzo se presenta como hecho real y repetido, va en indicativo (limpiaba); el imperfecto de subjuntivo («limpiara») lo presenta como concesión general.", ["limpiara", "limpiase"]),
   ],
   "c1r-transform-concessive-connectors": [
-    fe("___ su precio, merece la pena.", "Pese a", "[Despite] its price, it's worth it.", "«Pese a» (formal) va seguido de sustantivo o infinitivo; equivale a «a pesar de».", ["A pesar de"]),
+    fe("___ las críticas, la película fue un éxito.", "Pese a", "[Despite] the criticism, the film was a success.", "«Pese a» (formal) va seguido de sustantivo o infinitivo; equivale a «a pesar de».", ["A pesar de"]),
   ],
   "concessive-aunque-5": [
     fe("Quiero ___ lo que dije ayer: no me opongo al proyecto, solo al calendario.", "matizar", "I want to [qualify] what I said yesterday: I'm not against the project, only the timetable.", "«Matizar» es precisar o suavizar una afirmación añadiendo detalles o salvedades.", ["precisar", "puntualizar", "aclarar"]),
@@ -84,13 +84,13 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
 
   // ---- Nominalización ---------------------------------------------------
   "nominalization-part-1-1": [
-    fe("___ los precios hayan subido preocupa a los economistas.", "El hecho de que", "[The fact that] prices have risen worries economists.", "«El hecho de que» convierte la oración en un bloque nominal que funciona como sujeto; la norma más extendida prefiere el subjuntivo («hayan subido»).", ["Que"]),
-    fe("El hecho de que no ___ no significa que se haya olvidado.", "haya llamado", "The fact that he hasn't [called] doesn't mean he has forgotten.", "Dentro de «el hecho de que» se prefiere el subjuntivo; el indicativo («ha llamado») subraya la certeza del hecho.", ["ha llamado"]),
-    fe("Nos sorprende ___ la propuesta haya sido aprobada tan rápido.", "el hecho de que", "We're surprised by [the fact that] the proposal was approved so quickly.", "La aprobación se nominaliza con «el hecho de que» y funciona como sujeto de «sorprender».", ["que"]),
+    fe("___ la fábrica haya cerrado preocupa a todo el pueblo.", "El hecho de que", "[The fact that] the factory has closed worries the whole town.", "«El hecho de que» convierte la oración en un bloque nominal que funciona como sujeto; la norma más extendida prefiere el subjuntivo («hayan subido»).", ["Que"]),
+    fe("El hecho de que no ___ no significa que esté enfadada.", "haya contestado", "The fact that she hasn't [answered] doesn't mean she's angry.", "Dentro de «el hecho de que» se prefiere el subjuntivo; el indicativo («ha contestado») subraya la certeza del hecho.", ["ha contestado", "haya respondido", "ha respondido"]),
+    fe("Nos alegra ___ el proyecto haya recibido financiación.", "el hecho de que", "We're pleased about [the fact that] the project has received funding.", "La financiación recibida se nominaliza con «el hecho de que» y funciona como sujeto de «alegrar».", ["que"]),
   ],
   "nominalization-part-1-2": [
-    fe("___ no es empezar, sino mantener la constancia.", "Lo difícil", "[The hard part] isn't starting, but staying consistent.", "Lo + adjetivo masculino singular convierte la cualidad en un aspecto concreto que funciona como sujeto.", ["Lo complicado", "Lo más difícil"]),
-    fe("No entiendo ___ de este trámite.", "lo complicado", "I don't understand [what's so complicated] about this procedure.", "«Lo complicado de…» aísla un rasgo concreto del trámite sin buscar un sustantivo abstracto.", ["lo complejo", "lo enrevesado"]),
+    fe("___ no es aprobar, sino entender la materia.", "Lo importante", "[The important thing] isn't passing, but understanding the subject.", "Lo + adjetivo masculino singular convierte la cualidad en un aspecto concreto que funciona como sujeto.", ["Lo más importante", "Lo esencial"]),
+    fe("Me sorprendió ___ de su respuesta.", "lo rápido", "I was surprised by [how quick] her answer was.", "«Lo rápido de…» aísla un rasgo concreto de la respuesta sin buscar un sustantivo abstracto («la rapidez»); el adjetivo queda en masculino aunque «respuesta» sea femenino."),
   ],
   "nominalization-part-1-3": [
     fe("La ___ del sistema exige un equipo especializado.", "complejidad", "The [complexity] of the system requires a specialized team.", "Complejo → la complejidad: el sufijo culto -dad forma sustantivos abstractos a partir de adjetivos."),
@@ -102,9 +102,9 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("La ___ de las emisiones es una prioridad del gobierno.", "reducción", "The [reduction] of emissions is a government priority.", "Reducir → la reducción (-ción).", ["disminución"]),
   ],
   "nominalization-part-2-1": [
-    fe("La ___ de la medida se retrasó varios meses.", "implementación", "The [implementation] of the measure was delayed by several months.", "La nominalización elimina el agente explícito y da un tono más objetivo e institucional.", ["implantación", "aplicación", "puesta en marcha"]),
-    fe("El ___ de los plazos afectó a todo el proyecto.", "incumplimiento", "The [failure to meet] the deadlines affected the whole project.", "Incumplir → el incumplimiento: un verbo personal se convierte en sustantivo para condensar la información."),
-    fe("La ___ del contrato quedó pendiente hasta nuevo aviso.", "revisión", "The [review] of the contract remained pending until further notice.", "Revisar → la revisión: el proceso se nominaliza para un tono más formal e impersonal."),
+    fe("La ___ de la nueva tarifa se aplazó hasta enero.", "aplicación", "The [application] of the new rate was postponed until January.", "La nominalización elimina el agente explícito y da un tono más objetivo e institucional.", ["implantación", "aplicación", "puesta en marcha"]),
+    fe("El ___ de las normas de seguridad provocó el accidente.", "incumplimiento", "The [failure to comply with] the safety rules caused the accident.", "Incumplir → el incumplimiento: un verbo personal se convierte en sustantivo para condensar la información."),
+    fe("La ___ de las cuentas se encargó a una auditora externa.", "revisión", "The [review] of the accounts was entrusted to an external auditor.", "Revisar → la revisión: el proceso se nominaliza para un tono más formal e impersonal."),
   ],
   "nominalization-part-2-2": [
     fe("La reciente ___ de la inversión extranjera ha generado un debate.", "reducción", "The recent [reduction] in foreign investment has sparked a debate.", "Sustantivo de proceso con complemento introducido por «de».", ["disminución", "caída", "bajada"]),
@@ -113,7 +113,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Un buen informe debe ___ la información para que el público la entienda.", "sintetizar", "A good report must [summarize] the information so the public can understand it.", "«Sintetizar» es expresar algo de forma breve, reuniendo solo lo esencial.", ["resumir", "condensar"]),
   ],
   "c1r-workshop-formal-register": [
-    fe("La ___ de inversión ha dificultado la modernización del sector.", "falta", "The [lack] of investment has hampered the modernization of the sector.", "Registro formal: un sintagma nominal (la falta de inversión) sustituye a una oración («como no se invierte…»).", ["escasez", "ausencia", "carencia"]),
+    fe("La ___ de personal ha retrasado la apertura del centro.", "falta", "The [lack] of staff has delayed the opening of the centre.", "Registro formal: un sintagma nominal (la falta de personal) sustituye a una oración («como no hay personal…»).", ["escasez", "ausencia", "carencia"]),
   ],
   "c1r-error-hunt-derivation": [
     fe("Envié mi ___ para el puesto de analista.", "solicitud", "I sent my [application] for the analyst position.", "«Application» en este sentido es «solicitud» (o «candidatura»); ✗ «aplicación» es un calco del inglés.", ["candidatura"]),
@@ -125,30 +125,30 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Déjate de ___ y dime claramente qué ha pasado.", "circunloquios", "Stop [beating around the bush] and tell me clearly what happened.", "«El circunloquio» es un rodeo de palabras para decir algo que podría expresarse más brevemente.", ["rodeos"]),
   ],
   "c1r-text-detective-headlines": [
-    fe("«___ de un exalcalde por corrupción»", "Detención", "«[Arrest] of a former mayor for corruption»", "Titular nominal: detener → la detención; el sustantivo de proceso sustituye al verbo.", ["Arresto"]),
-    fe("«___ de las ventas en el sector textil»", "Caída", "«[Drop] in sales in the textile sector»", "Titular nominal: caer → la caída. Equivale a «Las ventas caen en el sector textil».", ["Descenso", "Bajada", "Disminución"]),
+    fe("«___ de un concejal por cohecho»", "Detención", "«[Arrest] of a councillor for bribery»", "Titular nominal: detener → la detención; el sustantivo de proceso sustituye al verbo.", ["Arresto"]),
+    fe("«___ de las exportaciones de aceite»", "Caída", "«[Drop] in olive oil exports»", "Titular nominal: caer → la caída. Equivale a «Las exportaciones de aceite caen».", ["Descenso", "Bajada", "Disminución"]),
   ],
 
   // ---- Gerundio e infinitivo -------------------------------------------
   "gerund-infinitive-advanced-part-1-1": [
-    fe("Salió de la habitación ___ la puerta con cuidado.", "cerrando", "She left the room, [closing] the door carefully.", "Gerundio de simultaneidad, correcto: salir y cerrar la puerta son un mismo movimiento."),
+    fe("Bajó las escaleras ___ la barandilla.", "sujetando", "She went down the stairs [holding] the banister.", "Gerundio de simultaneidad, correcto: bajar y sujetar la barandilla ocurren a la vez, en un mismo fotograma.", ["agarrando"]),
     fe("Se cayó de la bicicleta y ___ el brazo.", "se rompió", "He fell off his bike and [broke] his arm.", "Una consecuencia posterior se coordina con «y» + verbo conjugado; ✗ «rompiéndose el brazo» sería un gerundio de posterioridad.", ["se fracturó"]),
   ],
   "gerund-infinitive-advanced-part-1-2": [
-    fe("___ solo enseña más que cualquier libro.", "Viajar", "[Traveling] alone teaches you more than any book.", "El infinitivo funciona como sujeto: donde el inglés usa la forma en -ing, el español usa el infinitivo, no el gerundio.", ["El viajar"]),
-    fe("No ___ en las instalaciones.", "fumar", "Do not [smoke] on the premises.", "En carteles y avisos, el infinitivo funciona como mandato impersonal, sin destinatario concreto."),
-    fe("___ la distancia de seguridad.", "Mantener", "[Keep] a safe distance.", "Infinitivo de instrucción: formula una norma general, más distante que el imperativo.", ["Guardar", "Respetar"]),
+    fe("___ en público le cuesta muchísimo.", "Hablar", "[Speaking] in public is really hard for him.", "El infinitivo funciona como sujeto: donde el inglés usa la forma en -ing, el español usa el infinitivo, no el gerundio.", ["El hablar"]),
+    fe("No ___ fotos con flash.", "hacer", "Do not [take] flash photos.", "En carteles y avisos, el infinitivo funciona como mandato impersonal, sin destinatario concreto.", ["sacar", "tomar"]),
+    fe("___ el cinturón abrochado durante el vuelo.", "Mantener", "[Keep] your seatbelt fastened during the flight.", "Infinitivo de instrucción: formula una norma general, más distante que el imperativo.", ["Llevar"]),
   ],
   "gerund-infinitive-advanced-part-1-3": [
-    fe("___ trabajando en el mismo proyecto desde hace meses.", "Sigue", "He's [still] working on the same project after months.", "Seguir + gerundio expresa la prolongación ininterrumpida de una acción ya iniciada.", ["Continúa"]),
-    fe("___ de leer el libro antes de dormirse.", "Terminó", "She [finished] reading the book before falling asleep.", "Terminar de + infinitivo marca la conclusión natural y prevista de una acción.", ["Acabó"]),
+    fe("___ estudiando chino aunque ya no va a clase.", "Sigue", "She's [still] studying Chinese even though she doesn't go to class anymore.", "Seguir + gerundio expresa la prolongación ininterrumpida de una acción ya iniciada.", ["Continúa"]),
+    fe("___ de pintar la valla antes de que oscureciera.", "Terminó", "He [finished] painting the fence before it got dark.", "Terminar de + infinitivo marca la conclusión natural y prevista de una tarea.", ["Acabó"]),
   ],
   "c1r-error-hunt-gerund-posteriority": [
-    fe("Se busca secretaria ___ inglés.", "que hable", "Secretary [who speaks] English wanted.", "El gerundio no puede funcionar como adjetivo de un sustantivo (✗ secretaria hablando inglés): se usa una oración de relativo, en subjuntivo porque la persona no está identificada.", ["que sepa"]),
+    fe("Se busca camarero ___ experiencia.", "que tenga", "Waiter [who has] experience wanted.", "El gerundio no puede funcionar como adjetivo de un sustantivo (✗ secretaria hablando inglés): se usa una oración de relativo, en subjuntivo porque la persona no está identificada.", ["que sepa"]),
   ],
   "gerund-infinitive-advanced-part-2-1": [
-    fe("___ dos horas esperando el autobús.", "Llevo", "[I've been] waiting for the bus for two hours.", "Llevar + duración + gerundio mide una acción en curso hasta el presente; equivale al «have been -ing» del inglés."),
-    fe("El paciente ___ mejorando poco a poco desde la operación.", "va", "The patient [has been] getting better bit by bit since the operation.", "Ir + gerundio añade la idea de progresión gradual hacia un resultado.", ["ha ido"]),
+    fe("___ toda la mañana limpiando el garaje.", "Llevo", "[I've been] cleaning the garage all morning.", "Llevar + duración + gerundio mide una acción en curso hasta el presente; equivale al «have been -ing» del inglés."),
+    fe("Mi abuelo ___ recuperándose poco a poco desde la caída.", "va", "My grandfather [has been] recovering bit by bit since the fall.", "Ir + gerundio añade la idea de progresión gradual hacia un resultado.", ["ha ido"]),
     fe("Mi vecino ___ quejándose del ruido desde hace semanas.", "viene", "My neighbor [has been] complaining about the noise for weeks.", "Venir + gerundio subraya la acumulación y persistencia de una actitud desde el pasado hasta el presente; «lleva» mediría la duración, «está» no marca esa acumulación.", ["lleva"]),
   ],
   "gerund-infinitive-advanced-part-2-2": [
@@ -158,7 +158,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Se observa un aumento ___ de los precios.", "paulatino", "A [gradual] rise in prices can be seen.", "«Paulatino» significa que ocurre poco a poco, de forma lenta y gradual.", ["gradual", "progresivo"]),
   ],
   "c1r-transform-infinitive-subject": [
-    fe("___ antes de usar.", "Agitar", "[Shake] before use.", "Infinitivo de instrucción, típico de etiquetas y prospectos."),
+    fe("___ en lugar fresco y seco.", "Conservar", "[Store] in a cool, dry place.", "Infinitivo de instrucción, típico de etiquetas y prospectos: se dirige a cualquier lector. El imperativo «Conserva» interpelaría a una persona concreta.", ["Guardar", "Almacenar"]),
   ],
   "gerund-infinitive-advanced-part-2-3": [
     fe("___, la inversión compensa.", "A la larga", "[In the long run], the investment pays off.", "«A la larga»: con el paso del tiempo, al final.", ["A largo plazo", "Con el tiempo"]),
@@ -169,29 +169,29 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
 
   // ---- Pasiva y se --------------------------------------------------------
   "passive-impersonal-mastery-1": [
-    fe("El puente ___ por el ayuntamiento el mes pasado.", "fue inaugurado", "The bridge [was opened] by the city council last month.", "Pasiva perifrástica (ser + participio) con agente explícito introducido por «por»: registro formal y escrito.", ["fue abierto"]),
-    fe("La ley ___ por unanimidad en el parlamento.", "fue aprobada", "The law [was passed] unanimously in parliament.", "Ser + participio, con el participio concordando con el sujeto paciente (la ley → aprobada).", ["ha sido aprobada"]),
-    fe("El cuadro ___ por un equipo de especialistas.", "fue restaurado", "The painting [was restored] by a team of specialists.", "La pasiva con «ser» funciona bien cuando el agente aporta información relevante.", ["ha sido restaurado"]),
+    fe("El acueducto ___ por los romanos en el siglo I.", "fue construido", "The aqueduct [was built] by the Romans in the first century.", "Pasiva perifrástica con agente explícito («por los romanos»): ser en pretérito + participio concordado con «acueducto» (masculino singular).", ["fue levantado", "fue edificado"]),
+    fe("La propuesta ___ por la mayoría de los socios.", "fue rechazada", "The proposal [was rejected] by most of the members.", "Ser + participio, con el participio en femenino porque concuerda con el sujeto paciente «la propuesta», no con el agente «la mayoría».", ["ha sido rechazada"]),
+    fe("Los heridos ___ por los servicios de emergencia.", "fueron atendidos", "The injured [were treated] by the emergency services.", "Con agente explícito se usa ser + participio; el participio concuerda en masculino plural con «los heridos». Con «se» no podría aparecer «por los servicios de emergencia».", ["han sido atendidos"]),
   ],
   "passive-impersonal-mastery-2": [
-    fe("___ esta casa.", "Se vende", "This house [is for sale].", "Se pasivo: el verbo concuerda con el sujeto paciente singular (esta casa)."),
-    fe("___ los contratos esta mañana.", "Se firmaron", "The contracts [were signed] this morning.", "Se pasivo en plural: el verbo concuerda con «los contratos».", ["Se han firmado"]),
-    fe("Ayer ___ el nuevo hospital.", "se inauguró", "The new hospital [was opened] yesterday.", "El se pasivo sustituye de forma natural a «fue inaugurado» cuando el agente no interesa.", ["se abrió"]),
+    fe("En esta tienda ___ ropa de segunda mano.", "se vende", "Second-hand clothes [are sold] in this shop.", "Se pasivo: el verbo concuerda con el sujeto paciente. «Ropa» es un sustantivo singular (aunque en inglés sea «clothes»), así que «se vende».", ["se compra"]),
+    fe("Esta mañana ___ los resultados de las elecciones.", "se publicaron", "The election results [were published] this morning.", "Se pasivo en plural: el verbo concuerda con el sujeto paciente «los resultados», aunque vaya detrás.", ["se han publicado", "se dieron a conocer", "se han dado a conocer"]),
+    fe("El mes pasado ___ una nueva línea de metro.", "se inauguró", "A new metro line [was opened] last month.", "Se pasivo en singular, concordado con «una nueva línea»: es la opción natural cuando el agente no interesa; «fue inaugurada» sonaría más formal.", ["se abrió"]),
   ],
   "c1r-transform-three-passives": [
-    fe("___ que las obras concluyan antes del verano.", "Se espera", "[It is expected] that the works will be completed before summer.", "Se impersonal con verbo de expectativa («esperar», «prever»); con «se espera que» la subordinada va en subjuntivo («concluyan»).", ["Se prevé"]),
+    fe("___ que el nuevo aeropuerto abra en primavera.", "Se prevé", "[It is expected] that the new airport will open in spring.", "Se impersonal con verbo de previsión: va en singular porque lo que sigue es una oración («que el aeropuerto abra»), y esa subordinada va en subjuntivo por tratarse de algo futuro y no comprobado.", ["Se espera", "Está previsto"]),
   ],
   "c1r-error-hunt-se-agreement": [
     fe("___ habitaciones para estudiantes.", "Se alquilan", "Rooms [for rent] for students.", "Se pasivo: el verbo concuerda con la cosa (habitaciones), así que va en plural; ✗ «se alquila habitaciones»."),
   ],
   "passive-impersonal-mastery-3": [
-    fe("___ a los vecinos sobre las obras.", "Se informó", "The residents [were informed] about the works.", "Complemento de persona con «a»: se impersonal, siempre en singular aunque sean muchos vecinos.", ["Se avisó", "Se ha informado"]),
-    fe("___ a los especialistas en la materia.", "Se necesita", "The specialists in the field [are needed].", "Se impersonal con complemento de persona marcado por «a»: el verbo queda en singular.", ["Se busca", "Se requiere"]),
+    fe("___ a los pasajeros del retraso por megafonía.", "Se informó", "The passengers [were informed] of the delay over the loudspeaker.", "Complemento de persona con «a» (a los pasajeros): se impersonal, siempre en singular aunque sean muchos pasajeros.", ["Se avisó", "Se ha informado", "Se ha avisado"]),
+    fe("___ a dos expertos en ciberseguridad para el nuevo proyecto.", "Se contrató", "Two cybersecurity experts [were hired] for the new project.", "Personas concretas con «a»: se impersonal en singular. Sin «a» («se contrataron dos expertos») sería pasiva refleja, posible con personas indeterminadas; con «a» el plural es un error.", ["Se ha contratado", "Se fichó"]),
   ],
   "passive-impersonal-mastery-4": [
-    fe("La puerta ___ por el vigilante a las diez.", "fue cerrada", "The door [was closed] by the guard at ten.", "Ser + participio narra un proceso con agente y momento concretos."),
-    fe("El informe ya está ___.", "terminado", "The report is already [finished].", "Estar + participio describe el estado resultante, sin interés por el proceso ni el agente.", ["acabado", "hecho", "listo"]),
-    fe("Las tiendas ___ los domingos.", "están cerradas", "The shops [are closed] on Sundays.", "Estado habitual: estar + participio, no un evento con agente."),
+    fe("El museo ___ en 1902 por un arquitecto catalán.", "fue construido", "The museum [was built] in 1902 by a Catalan architect.", "Proceso con agente y fecha: ser + participio. «Está construido» describiría solo el estado actual del edificio y no admitiría «en 1902 por…».", ["fue edificado", "fue levantado"]),
+    fe("Ya puedes pasar: la habitación está ___.", "preparada", "You can come in now: the room is [ready].", "Estado resultante: estar + participio concordado con «habitación» (femenino singular). No importa quién la preparó ni cuándo.", ["lista", "arreglada", "ordenada"]),
+    fe("Lo siento, este asiento ___ ocupado.", "está", "Sorry, this seat [is] taken.", "Estado: estar + participio. «Es ocupado» narraría un proceso (alguien lo ocupa) y aquí solo se describe la situación actual."),
   ],
   "passive-impersonal-mastery-5": [
     fe("El nuevo puente ___ ayer por las autoridades municipales.", "fue inaugurado", "The new bridge [was opened] yesterday by the municipal authorities.", "Pasiva perifrástica con agente explícito, propia del registro periodístico.", ["fue abierto"]),
@@ -206,33 +206,33 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Buscamos al candidato ___ para el puesto.", "idóneo", "We are looking for the [ideal] candidate for the position.", "«Idóneo»: perfectamente adecuado para un propósito.", ["ideal", "adecuado", "más adecuado", "perfecto"]),
   ],
   "c1r-contrast-se-functions": [
-    fe("___ el vaso.", "Se me cayó", "[I dropped] the glass (by accident).", "Se accidental: se + pronombre de la persona afectada (me) + verbo concordado con la cosa. Presenta el hecho como involuntario."),
+    fe("Con las prisas ___ las llaves dentro del coche.", "se me olvidaron", "In the rush [I left] the keys in the car (by accident).", "Se accidental: la cosa («las llaves», plural) es el sujeto y el verbo concuerda con ella; «me» marca a la persona afectada y presenta el olvido como involuntario.", ["se me quedaron"]),
   ],
 
   // ---- Estilo indirecto libre --------------------------------------------
   "free-indirect-style-part-1-1": [
-    fe("María miró el reloj. Ya ___ tarde; ¿por qué tardaba tanto el autobús?", "era", "María looked at the clock. It [was] already late; why was the bus taking so long?", "En el estilo indirecto libre, el presente del pensamiento («ya es tarde») pasa a imperfecto en la voz del narrador."),
-    fe("Ya era tarde; ¿por qué ___ tanto el autobús?", "tardaba", "It was already late; why was the bus [taking] so long?", "La pregunta refleja el pensamiento de María sin verbo introductor ni comillas, con el verbo desplazado al imperfecto."),
-    fe("Pensó que ya era tarde y ___ por qué tardaba tanto el autobús.", "se preguntó", "She thought it was already late and [wondered] why the bus was taking so long.", "Estilo indirecto tradicional: verbo introductor explícito (pensó que, se preguntó por qué)."),
+    fe("Andrés colgó el teléfono. ¿Por qué no lo ___ nadie?", "entendía", "Andrés hung up the phone. Why did nobody [understand] him?", "Estilo indirecto libre: la pregunta del personaje («¿por qué no me entiende nadie?») va sin verbo introductor ni comillas, en tercera persona y con el presente desplazado al imperfecto.", ["comprendía"]),
+    fe("Abrió la nevera. Otra vez vacía; ¿quién se ___ comido todo?", "había", "She opened the fridge. Empty again; who [had] eaten everything?", "El perfecto del pensamiento («¿quién se ha comido todo?») pasa a pluscuamperfecto: la pregunta conserva la voz del personaje pero se integra en el pasado del relato."),
+    fe("Se preguntó ___ alguien había leído su carta.", "si", "She wondered [whether] anyone had read her letter.", "Estilo indirecto tradicional: una pregunta de sí o no («¿alguien ha leído mi carta?») se introduce con «si» tras el verbo «preguntarse»; el estilo indirecto libre suprimiría ese nexo."),
   ],
   "free-indirect-style-part-1-2": [
-    fe("No ___, estaba segura de ello.", "vendría", "He wouldn't [come], she was sure of it.", "El futuro del pensamiento original («no vendrá») se transforma en condicional dentro de la narración en pasado."),
-    fe("Todo ___ perdido; nada tenía ya sentido.", "estaba", "Everything [was] lost; nothing made sense anymore.", "El presente de la conciencia del personaje («todo está perdido») se convierte en imperfecto narrativo."),
-    fe("Mañana ___ un día distinto, pensó sin demasiada convicción.", "sería", "Tomorrow [would be] a different day, she thought without much conviction.", "Futuro del personaje → condicional del relato; el deíctico «mañana» se conserva desde su perspectiva."),
+    fe("No ___ a tiempo, lo sabía de sobra.", "llegarían", "They wouldn't [arrive] in time, she knew it only too well.", "Futuro del pensamiento («no llegarán») → condicional en el relato en pasado, sin verbo introductor que lo anuncie."),
+    fe("Ya no ___ nada que hacer; era demasiado tarde.", "había", "There [was] nothing left to do; it was too late.", "El presente del pensamiento («ya no hay nada que hacer») pasa a imperfecto en el estilo indirecto libre, igual que «es» → «era»."),
+    fe("El lunes ___ a empezar de cero, se prometió.", "volvería", "On Monday he [would start] again from scratch, he promised himself.", "Futuro del personaje («volveré a empezar») → condicional del relato. El verbo introductor puede aparecer al final como inciso sin romper el efecto."),
   ],
   "free-indirect-style-part-1-3": [
-    fe("¡Qué ___ parecía todo ahora!", "ridículo", "How [ridiculous] it all seemed now!", "La exclamación y el adverbio «ahora» delatan la voz subjetiva del personaje.", ["absurdo"]),
-    fe("¿Cómo ___ ser tan ingenua?", "había podido", "How [could she have] been so naive?", "La interrogación retórica revela el reproche interno; el pasado del pensamiento se desplaza a pluscuamperfecto."),
-    fe("___, en este mismo lugar, todo había comenzado.", "Aquí", "[Here], in this very place, it had all begun.", "Los deícticos de proximidad (aquí, este) sitúan la perspectiva en el personaje, no en el narrador."),
+    fe("¡Qué ___ había sido al creerle!", "tonta", "How [stupid] she had been to believe him!", "La exclamación con «qué» + adjetivo valorativo es la voz del personaje, no la del narrador; el adjetivo concuerda con ella (femenino).", ["ingenua", "estúpida", "boba"]),
+    fe("¿Por qué demonios ___ aceptado aquella invitación?", "había", "Why on earth [had she] accepted that invitation?", "La interrogación retórica («por qué demonios») revela el reproche interno; el pasado del pensamiento («¿por qué he aceptado?») se desplaza a pluscuamperfecto."),
+    fe("___ entendía por qué nadie quería hablar de aquello.", "Ahora", "[Now] she understood why nobody wanted to talk about that.", "El deíctico «ahora» (y no el «entonces» del narrador) sitúa la perspectiva en el personaje, aunque el verbo esté en imperfecto narrativo."),
   ],
   "c1r-transform-three-styles": [
-    fe("Se preguntó por qué siempre le ___ eso a él.", "pasaba", "He wondered why that always [happened] to him.", "Estilo indirecto: el presente del original («me pasa») pasa a imperfecto tras un verbo introductor en pasado.", ["ocurría", "sucedía"]),
+    fe("Se preguntó por qué nadie le ___ la verdad.", "había dicho", "She wondered why nobody [had told] her the truth.", "Estilo indirecto: el perfecto del original («¿por qué nadie me ha dicho la verdad?») pasa a pluscuamperfecto tras el verbo introductor en pasado, y «me» pasa a «le».", ["había contado", "decía", "contaba"]),
     fe("Dijo que no ___ volver a ese lugar.", "pensaba", "He said he wasn't [planning] to go back to that place.", "Estilo indirecto: «no pienso volver» → «no pensaba volver».", ["quería", "iba a"]),
   ],
   "free-indirect-style-part-2-1": [
-    fe("Dijo: «No ___ volver a este lugar».", "pienso", "He said: \"I'm not [planning] to come back to this place.\"", "Estilo directo: se conservan el tiempo verbal y la persona originales.", ["quiero", "voy a"]),
-    fe("Dijo que no pensaba volver a ___ lugar.", "ese", "He said he wasn't planning to go back to [that] place.", "En estilo indirecto, el demostrativo de proximidad del personaje (este) pasa a la perspectiva del narrador (ese).", ["aquel"]),
-    fe("No, no pensaba volver a ese lugar, ___.", "nunca más", "No, he had no intention of going back to that place, [never again].", "El estilo indirecto libre conserva la energía expresiva del personaje sin verbo introductor.", ["jamás"]),
+    fe("Le escribió: «Te ___ de menos cada día».", "echo", "She wrote to him: \"I [miss] you every day.\"", "Estilo directo: entre comillas se conservan la persona y el tiempo originales (yo, presente: «te echo de menos»)."),
+    fe("Le escribió que lo ___ de menos cada día.", "echaba", "She wrote to him that she [missed] him every day.", "Estilo indirecto: tras un verbo introductor en pasado, el presente pasa a imperfecto (echo → echaba) y «te» pasa a «lo» (o «le»)."),
+    fe("¿Y él? Él ni siquiera ___ sus cartas. ¡Qué cruel!", "contestaba", "And him? He didn't even [answer] her letters. How cruel!", "Estilo indirecto libre: sin verbo introductor, con la pregunta y la exclamación de ella; el presente del pensamiento («ni siquiera contesta») pasa a imperfecto.", ["respondía"]),
   ],
   "free-indirect-style-part-2-2": [
     fe("Qué absurdo ___ todo aquello, pensándolo bien.", "había sido", "How absurd it all [had been], come to think of it.", "El pasado del pensamiento se desplaza al pluscuamperfecto en el marco narrativo en pasado."),
@@ -241,7 +241,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Le hizo un reproche ___ que nadie más percibió.", "velado", "She made a [veiled] reproach that nobody else noticed.", "«Velado»: oculto o disimulado, no expresado abiertamente.", ["disimulado", "encubierto"]),
   ],
   "c1r-workshop-write-free-indirect": [
-    fe("¡Otra vez tarde! ¿Qué ___ a decirle al jefe?", "iba", "Late again! What [was he going] to tell the boss?", "Monólogo «¿qué voy a decirle?» → estilo indirecto libre «¿qué iba a decirle?»: tercera persona e imperfecto, conservando la pregunta."),
+    fe("¡Por fin viernes! ¿Qué ___ a hacer el fin de semana?", "iba", "Friday at last! What [was she going] to do at the weekend?", "Monólogo «¿qué voy a hacer?» → estilo indirecto libre «¿qué iba a hacer?»: «ir a» pasa al imperfecto y se conservan la exclamación y la pregunta del personaje."),
   ],
   "free-indirect-style-part-2-3": [
     fe("La muerte de su padre fue el ___ de su vida.", "punto de inflexión", "Her father's death was the [turning point] in her life.", "«El punto de inflexión»: el momento en que algo cambia de dirección de forma decisiva."),
@@ -252,33 +252,33 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
 
   // ---- Por y para ---------------------------------------------------------
   "por-para-precision-1": [
-    fe("Hoy trabajo ___ mi compañera, que está de baja.", "por", "Today I'm working [in place of] my colleague, who is on sick leave.", "Trabajar por alguien: sustituirlo temporalmente.", ["en lugar de", "en vez de"]),
-    fe("Llevo cinco años trabajando ___ esta empresa.", "para", "I've been working [for] this company for five years.", "Trabajar para alguien: relación laboral estable de dependencia.", ["en"]),
-    fe("Firmó el contrato ___ su jefe, que estaba de viaje.", "por", "She signed the contract [on behalf of] her boss, who was away.", "Firmar por alguien: actuar en su representación.", ["en nombre de", "en representación de", "en lugar de"]),
+    fe("Esta semana hago el turno de noche ___ Marcos, que está de viaje.", "por", "This week I'm doing the night shift [in place of] Marcos, who is away.", "Hacer algo por alguien: ocupar su lugar mientras no está. «Para Marcos» diría que él es el beneficiario o el jefe.", ["en lugar de", "en vez de"]),
+    fe("Mi padre trabajó cuarenta años ___ la misma compañía de seguros.", "para", "My father worked [for] the same insurance company for forty years.", "Trabajar para una empresa: relación laboral estable con el empleador. «Por la compañía» indicaría sustitución o motivación.", ["en"]),
+    fe("Como el presidente estaba enfermo, el vicepresidente habló ___ él en la rueda de prensa.", "por", "As the president was ill, the vice-president spoke [on his behalf] at the press conference.", "Hablar por alguien: en su lugar o en su representación, igual que firmar o trabajar por alguien.", ["en lugar de", "en vez de"]),
   ],
   "por-para-precision-2": [
-    fe("Se le sancionó ___ incumplir el contrato.", "por", "He was penalized [for] breaching the contract.", "«Por» introduce la causa, el motivo ya dado de la sanción."),
-    fe("Se redactó una cláusula ___ evitar futuros incumplimientos.", "para", "A clause was drafted [to] prevent future breaches.", "«Para» introduce la finalidad prospectiva de la cláusula.", ["con el fin de", "a fin de", "con objeto de"]),
-    fe("La empresa fue multada ___ no respetar la normativa vigente.", "por", "The company was fined [for] not complying with current regulations.", "Causa retrospectiva de una sanción ya impuesta: «por»."),
+    fe("Lo multaron ___ aparcar en una plaza reservada.", "por", "They fined him [for] parking in a reserved space.", "«Por» + infinitivo introduce la causa, ya ocurrida, de la multa. «Para aparcar» sería su objetivo."),
+    fe("Se instalaron cámaras ___ reducir los robos en el aparcamiento.", "para", "Cameras were installed [to] reduce thefts in the car park.", "«Para» + infinitivo introduce la finalidad, todavía por cumplir, de la instalación.", ["con el fin de", "a fin de", "con objeto de"]),
+    fe("La obra se paralizó ___ falta de permisos.", "por", "The building work was halted [due to] a lack of permits.", "«Por» + sustantivo sin artículo expresa la causa de algo ya ocurrido (por falta de, por impago de, por enfermedad)."),
   ],
   "c1r-error-hunt-por-para-c1": [
     fe("Queda mucho ___.", "por hacer", "There is still a lot [to do].", "Quedar / estar + por + infinitivo: algo que todavía no se ha realizado.", ["que hacer"]),
   ],
   "por-para-precision-3": [
-    fe("El informe debe estar listo ___ el viernes.", "para", "The report must be ready [by] Friday.", "«Para» + fecha marca un plazo límite."),
-    fe("Estaré fuera de la oficina ___ unos días.", "por", "I'll be out of the office [for] a few days.", "«Por» indica una duración aproximada, sin fecha exacta de regreso.", ["durante"]),
-    fe("Necesitamos la propuesta ___ el lunes por la mañana.", "para", "We need the proposal [by] Monday morning.", "Plazo límite preciso: «para»."),
+    fe("La traducción tiene que estar terminada ___ el día 15.", "para", "The translation has to be finished [by] the 15th.", "«Para» + fecha marca el plazo límite: como muy tarde ese día."),
+    fe("Viví en Lima ___ unos meses cuando era estudiante.", "por", "I lived in Lima [for] a few months when I was a student.", "«Por» + periodo indica una duración aproximada, sin fecha exacta.", ["durante"]),
+    fe("¿Puedes tenerme el presupuesto ___ mañana a primera hora?", "para", "Can you have the quote ready for me [by] first thing tomorrow?", "Plazo límite: «para». Fíjate en que el «por» de «por la mañana» es otra cosa: solo sitúa en una parte del día."),
   ],
   "por-para-precision-4": [
-    fe("La decisión todavía está ___.", "por tomar", "The decision is still [to be made].", "Estar por + infinitivo: la acción aún no se ha realizado.", ["por tomarse", "sin tomar"]),
-    fe("Llevo un paraguas ___ llueve más tarde.", "por si acaso", "I'm taking an umbrella [in case] it rains later.", "«Por si acaso» (o «por si») + indicativo previene una eventualidad.", ["por si"]),
-    fe("Perdimos el vuelo y, ___, empezó a llover.", "para colmo", "We missed the flight and, [to top it all off], it started raining.", "«Para colmo» introduce un agravante final, a menudo con ironía.", ["encima", "para colmo de males", "por si fuera poco"]),
+    fe("El proyecto sigue ___: nadie lo ha mirado todavía.", "por revisar", "The project is still [to be reviewed]: nobody has looked at it yet.", "Estar / seguir / quedar por + infinitivo: la acción todavía no se ha realizado, está pendiente.", ["sin revisar"]),
+    fe("Guarda el recibo ___ tienes que devolver el regalo.", "por si acaso", "Keep the receipt [in case] you have to return the present.", "«Por si (acaso)» + indicativo previene una eventualidad posible; nunca se forma con «para».", ["por si"]),
+    fe("Se me rompió el móvil y, ___, perdí las llaves.", "para colmo", "My phone broke and, [to top it all], I lost my keys.", "«Para colmo» añade el último agravante de una serie, a menudo con ironía.", ["encima", "para colmo de males", "por si fuera poco"]),
   ],
   "c1r-mission-business-email-por-para": [
     fe("Le enviaremos el presupuesto ___ correo electrónico.", "por", "We'll send you the quote [by] email.", "«Por» indica el medio: por correo, por teléfono, por escrito."),
   ],
   "c1r-contrast-idiomatic-por-para": [
-    fe("Llegó tarde y, ___, sin los documentos.", "para colmo", "He arrived late and, [to top it off], without the documents.", "Expresión fija: «para colmo» añade el último agravante.", ["encima", "para colmo de males", "por si fuera poco", "además"]),
+    fe("___, los bancos cierran a las dos los viernes.", "Por lo general", "[As a rule], banks close at two on Fridays.", "«Por lo general» (= normalmente) es una locución fija con «por»; no se deduce de la regla causa / finalidad, se aprende entera.", ["Normalmente", "En general", "Generalmente"]),
   ],
   "por-para-precision-5": [
     fe("¿___ tendremos lista la propuesta final?", "Para cuándo", "[By when] will we have the final proposal ready?", "«¿Para cuándo?» pregunta por un plazo límite."),
@@ -301,14 +301,14 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
 
   // ---- Ser, estar y haber -------------------------------------------------
   "ser-estar-haber-limits-part-1-1": [
-    fe("La reunión ___ en la sala de juntas.", "es", "The meeting [is] in the boardroom.", "Los eventos se localizan con «ser» (tienen lugar), no con «estar».", ["será"]),
-    fe("La sala de juntas ___ al fondo del pasillo.", "está", "The boardroom [is] at the end of the corridor.", "La ubicación de un lugar u objeto físico se expresa con «estar»."),
-    fe("La boda ___ en el jardín de sus abuelos.", "será", "The wedding [will be] in her grandparents' garden.", "«Boda» es un evento: se localiza con «ser».", ["es"]),
+    fe("El congreso ___ en el palacio de exposiciones.", "es", "The conference [is] at the exhibition centre.", "Un congreso es un evento: se localiza con «ser» (= tiene lugar, se celebra), no con «estar».", ["será"]),
+    fe("El palacio de exposiciones ___ junto a la estación.", "está", "The exhibition centre [is] next to the station.", "Un edificio es un lugar físico: su ubicación se expresa con «estar».", ["se encuentra"]),
+    fe("¿Dónde ___ el funeral? No sé si en la iglesia o en el tanatorio.", "es", "Where [is] the funeral? I don't know if it's at the church or at the funeral home.", "Un funeral es un acto, un evento: se pregunta por su lugar con «ser».", ["será"]),
   ],
   "ser-estar-haber-limits-part-1-2": [
-    fe("Estaba muy ___ durante la cena porque no conocía a nadie.", "violento", "He was very [uncomfortable] at dinner because he didn't know anyone.", "«Estar violento» (sobre todo en España) significa sentirse incómodo o fuera de lugar, no tener un carácter agresivo; ojo: «ponerse violento» suele significar volverse agresivo. También vale «incómodo».", ["incómodo", "tenso"]),
-    fe("___ muy interesado en el proyecto que le propusiste.", "Está", "He [is] very interested in the project you proposed to him.", "Estar interesado: curiosidad puntual por algo concreto; ser interesado es un rasgo de carácter peyorativo."),
-    fe("Es una persona ___ que solo busca su propio beneficio.", "interesada", "She is a [self-serving] person who only looks out for herself.", "Ser interesado/a: rasgo estable de actuar por el propio beneficio.", ["egoísta"]),
+    fe("Cuando empezaron a hablar de su divorcio delante de todos, ___ muy violenta.", "estaba", "When they started talking about her divorce in front of everyone, she [was] very uncomfortable.", "Incomodidad en una situación concreta: «estar violento/a» (sobre todo en España). «Era violenta» la describiría como agresiva.", ["estuvo", "se puso"]),
+    fe("Mi hermana ___ muy interesada en hacer un máster en el extranjero.", "está", "My sister [is] very interested in doing a master's abroad.", "Interés por algo concreto: «estar interesado/a en». «Es interesada» sería un juicio sobre su carácter."),
+    fe("No le pidas favores: ___ muy interesado y siempre quiere algo a cambio.", "es", "Don't ask him for favours: he [is] very self-serving and always wants something in return.", "Rasgo estable y peyorativo: «ser interesado» (actuar solo por el propio beneficio)."),
   ],
   "ser-estar-haber-limits-part-1-3": [
     fe("___ un problema con el pedido de esta semana.", "Hay", "[There's] a problem with this week's order.", "«Hay» introduce una entidad nueva, con artículo indefinido."),
@@ -318,166 +318,170 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("¡Qué alto ___ tu hijo!", "está", "How tall your son [has gotten]!", "Estar + adjetivo de cualidad expresa la percepción del hablante en el momento, a menudo sorpresa ante un cambio.", ["se ha puesto"]),
   ],
   "c1r-error-hunt-location-events": [
-    fe("La conferencia ___ en el aula magna, pero el conferenciante todavía no ha llegado.", "es", "The lecture [is] in the main hall, but the speaker hasn't arrived yet.", "Evento → ser (tiene lugar); la ubicación del conferenciante iría con estar.", ["será"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Pasa la frase al pretérito indefinido.", "source": "La boda es en una finca a las afueras y los invitados están en el jardín.", "answer": "La boda fue en una finca a las afueras y los invitados estuvieron en el jardín.", "altAnswers": ["La boda fue en una finca a las afueras y los invitados estaban en el jardín."], "explanation": "En pasado el evento sigue localizándose con ser: «fue en una finca», nunca «estuvo». Los invitados son personas y conservan estar: «estuvieron» (o «estaban», si describes la escena)."},
   ],
   "ser-estar-haber-limits-part-2-1": [
-    fe("___ claro que necesitamos más tiempo.", "Está", "It [is] clear that we need more time.", "«Está claro que» añade un matiz de evidencia inmediata; «es claro que» presenta una deducción más objetiva. Ambos son correctos.", ["Es"]),
-    fe("Esta sopa ___ buenísima.", "está", "This soup [is] delicious.", "Estar bueno valora una experiencia puntual (lo que acabamos de probar)."),
-    fe("Este restaurante ___ bueno en general.", "es", "This restaurant [is] good in general.", "Ser bueno valora una cualidad estable e inherente."),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Este cocinero está muy bueno: lleva treinta años ganando premios.", "answer": "Este cocinero es muy bueno: lleva treinta años ganando premios.", "explanation": "Su calidad profesional es estable y se demuestra con treinta años de premios: ser. Además, «está bueno» referido a una persona se entiende como «es atractivo», un sentido que aquí no se busca."},
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia el juicio general por una valoración de lo que acabas de probar hoy.", "source": "Este café es bueno.", "answer": "Hoy este café está bueno.", "altAnswers": ["Este café está bueno hoy.", "Hoy el café está bueno.", "El café está bueno hoy."], "explanation": "Al pasar de la calidad general («es bueno») a la experiencia concreta de hoy, ser se convierte en estar."},
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia al registro formal y deductivo de un informe.", "source": "Está claro que el presupuesto no alcanza.", "answer": "Es claro que el presupuesto no alcanza.", "altAnswers": ["Es evidente que el presupuesto no alcanza.", "Resulta evidente que el presupuesto no alcanza.", "Resulta claro que el presupuesto no alcanza."], "explanation": "«Es claro que» es la variante formal y deductiva, propia de la escritura; «está claro que» es la habitual en la conversación. En un informe también valen «resulta evidente que» o «es evidente que»."},
+    {"type": "multiple-choice", "question": "«La mermelada de mi abuela ___ siempre buenísima, pero la de este año ___ un poco ácida.»", "options": ["es … está", "está … es", "es … es", "está … está"], "correctIndex": 0, "explanation": "«Siempre» habla de la calidad habitual de la mermelada: ser («es buenísima»). «La de este año» es lo que se ha probado ahora: estar («está un poco ácida»). Invertirlos convertiría la excepción en la norma."},
   ],
   "ser-estar-haber-limits-part-2-2": [
-    fe("¿Sabes dónde ___ la conferencia de mañana?", "es", "Do you know where tomorrow's lecture [is]?", "Evento → ser.", ["será"]),
-    fe("Es en el auditorio principal, el que ___ al lado de la biblioteca.", "está", "It's in the main auditorium, the one that [is] next to the library.", "Lugar físico → estar."),
-    fe("La boda ___ en la catedral el próximo sábado.", "se celebra", "The wedding [takes place] in the cathedral next Saturday.", "«Celebrarse» (tener lugar) es la alternativa formal a «ser» para eventos.", ["se celebrará", "tendrá lugar", "tiene lugar", "será", "es"]),
-    fe("Tiene un ___ conciliador que facilita las negociaciones.", "talante", "She has a conciliatory [disposition] that makes negotiations easier.", "«El talante»: el carácter o la disposición habitual de una persona.", ["carácter"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Sustituye «es» por un verbo más formal.", "source": "La gala de los premios es en el Teatro Real.", "answer": "La gala de los premios se celebra en el Teatro Real.", "altAnswers": ["La gala de los premios tiene lugar en el Teatro Real."], "explanation": "La gala es un evento: el «es» de localización se sustituye por «se celebra» o «tiene lugar», no por «se halla», que es el equivalente de estar."},
+    {"type": "translate", "direction": "en-es", "prompt": "Sustituye «están» por un verbo más formal.", "source": "Los archivos históricos están en el sótano del ayuntamiento.", "answer": "Los archivos históricos se hallan en el sótano del ayuntamiento.", "altAnswers": ["Los archivos históricos se encuentran en el sótano del ayuntamiento."], "explanation": "Los archivos son objetos: el «están» de ubicación se sustituye por «se hallan» o «se encuentran». «Se celebran» solo vale para eventos."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "El congreso se halla en Sevilla este año.", "answer": "El congreso se celebra en Sevilla este año.", "altAnswers": ["Este año el congreso se celebra en Sevilla.", "El congreso tiene lugar en Sevilla este año.", "Este año el congreso tiene lugar en Sevilla.", "El congreso es en Sevilla este año."], "explanation": "Un congreso es un evento: se localiza con ser o con su equivalente culto «celebrarse/tener lugar». «Hallarse» es el equivalente de estar y presenta el congreso como un objeto que ocupa un lugar."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "El portavoz calificó a la reforma de improvisada.", "answer": "El portavoz calificó la reforma de improvisada.", "altAnswers": ["El portavoz calificó la reforma como improvisada."], "explanation": "«Calificar algo de + adjetivo»: cuando el complemento directo es una cosa, no lleva la «a» personal. Con una persona sí: «calificó al ministro de imprudente»."},
   ],
   "c1r-contrast-hybrid-cases": [
-    fe("Viajar a esa zona ___ seguro ahora.", "es", "Traveling to that area [is] safe now.", "Ser seguro: sin riesgo. Estar seguro: estar convencido."),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "No soy seguro de que el museo abra los lunes.", "answer": "No estoy seguro de que el museo abra los lunes.", "altAnswers": ["No estoy segura de que el museo abra los lunes."], "explanation": "Expresar convicción o duda es describir un estado mental: «estar seguro de que». «Ser seguro» se dice de lugares o acciones sin riesgo («es seguro viajar allí»)."},
   ],
   "c1r-transform-haber-estar-tener": [
-    fe("En la reunión ___ más gente de la esperada.", "había", "There [were] more people at the meeting than expected.", "«Haber» impersonal no tiene plural: había (o hubo) gente, había personas.", ["hubo"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "En la sala habían más sillas de las necesarias.", "answer": "En la sala había más sillas de las necesarias.", "explanation": "«Haber» existencial es impersonal: se usa siempre en singular, aunque lo que existe sea plural («había más sillas»). «Habían sillas» es un error frecuente, también en hablantes nativos, pero la norma culta lo rechaza."},
   ],
   "ser-estar-haber-limits-part-2-3": [
-    fe("Es tímido ___; no es que esté nervioso hoy.", "de por sí", "He's shy [by nature]; it's not that he's nervous today.", "«De por sí»: por su propia naturaleza, sin que influyan las circunstancias.", ["por naturaleza"]),
-    fe("Se trata de un problema ___, no estructural.", "coyuntural", "It's a [temporary] problem, not a structural one.", "«Coyuntural»: que depende de una situación concreta y pasajera.", ["pasajero", "transitorio", "circunstancial", "temporal"]),
-    fe("Los inspectores pudieron ___ que el edificio cumplía la normativa.", "constatar", "The inspectors were able to [confirm] that the building met the regulations.", "«Constatar»: comprobar un hecho y dejar constancia de él.", ["comprobar", "verificar", "confirmar"]),
-    fe("Es un proveedor muy ___; nunca nos ha fallado.", "fiable", "He's a very [reliable] supplier; he's never let us down.", "«Fiable»: que merece confianza.", ["confiable", "de fiar", "serio", "formal"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase con un adjetivo en -al.", "source": "Es un problema que depende de la coyuntura, no de la estructura.", "answer": "Es un problema coyuntural, no estructural.", "altAnswers": ["Se trata de un problema coyuntural, no estructural."], "explanation": "El sufijo -al condensa «que depende de / relativo a» + sustantivo: coyuntura → coyuntural, estructura → estructural."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Este libro se trata de la guerra civil.", "answer": "Este libro trata de la guerra civil.", "altAnswers": ["Este libro trata sobre la guerra civil.", "Este libro habla de la guerra civil."], "explanation": "«Se trata de» es impersonal: no admite sujeto («Se trata de un libro sobre la guerra»). Si hay sujeto, se usa «tratar de» o «tratar sobre» sin «se»."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "La incertidumbre es inherente de cualquier negociación.", "answer": "La incertidumbre es inherente a cualquier negociación.", "explanation": "«Inherente» rige la preposición «a»: algo es inherente a otra cosa, igual que «propio de» rige «de». No se mezclan."},
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase con un adjetivo en -al.", "source": "Fue un éxito que no es normal, fuera de lo común.", "answer": "Fue un éxito excepcional.", "altAnswers": ["Fue un éxito excepcional, fuera de lo común."], "explanation": "Excepción → excepcional: el sufijo -al convierte el sustantivo en adjetivo. Es el mismo patrón de circunstancia → circunstancial."},
   ],
   "c1r-mission-real-estate-listing": [
-    fe("La vivienda ___ situada en pleno centro y tiene vistas al mar.", "está", "The home [is] located right in the center and has sea views.", "Ubicación de un objeto físico: estar situado."),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "El chalé es rodeado de pinos y está de estilo mediterráneo.", "answer": "El chalé está rodeado de pinos y es de estilo mediterráneo.", "explanation": "Dos verbos cruzados: «rodeado» es un participio que describe la situación resultante (estar), mientras que el estilo clasifica la vivienda (ser: «es de estilo mediterráneo»)."},
   ],
 
   // ---- Verbos preposicionales --------------------------------------------
   "prepositional-verbs-part-1-1": [
-    fe("___ contigo para el proyecto de mañana.", "Cuento", "[I'm counting on] you for tomorrow's project.", "Contar con alguien: con + ti se funden en «contigo».", ["Estoy contando"]),
-    fe("El plan ___ reducir los gastos innecesarios.", "consiste en", "The plan [consists of] cutting unnecessary expenses.", "Consistir en (✗ consistir de, calco del inglés)."),
-    fe("___ vivir en otro país algún día.", "Sueño con", "[I dream of] living in another country someday.", "Soñar con (✗ soñar de)."),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "El taller consiste de tres sesiones de dos horas.", "answer": "El taller consiste en tres sesiones de dos horas.", "explanation": "«Consistir» rige siempre «en». «Consistir de» es un calco del inglés consist of."},
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia el complemento por una oración con «que»: «… que tú me ayudes».", "source": "Cuento con tu ayuda.", "answer": "Cuento con que me ayudes.", "altAnswers": ["Cuento con que tú me ayudes."], "explanation": "La preposición del régimen se mantiene delante de que: «contar con que» + subjuntivo, porque se trata de algo que se espera. Quitarla («cuento que me ayudes») es queísmo."},
+    {"type": "translate", "direction": "en-es", "prompt": "Sustituye «mi hermano» por «yo» y haz los cambios necesarios.", "source": "Mis padres siempre han contado con mi hermano.", "answer": "Mis padres siempre han contado conmigo.", "explanation": "Tras «con», el pronombre de primera persona se funde con la preposición: «conmigo» (y «contigo» para tú). «Con mí» no existe."},
   ],
   "prepositional-verbs-part-1-2": [
-    fe("Por fin ___ la solución al problema.", "dimos con", "We finally [found] the solution to the problem.", "Dar con: encontrar algo tras una búsqueda activa.", ["encontramos", "hallamos"]),
-    fe("___ un viejo amigo en el supermercado.", "Me encontré con", "[I ran into] an old friend at the supermarket.", "Encontrarse con: encuentro casual con alguien.", ["Me topé con", "Me crucé con", "Me encontré a"]),
-    fe("Puedes ___ para lo que necesites.", "contar conmigo", "You can [count on me] for whatever you need.", "Contar con alguien: confiar en su apoyo; con + mí = conmigo."),
+    {"type": "translate", "direction": "en-es", "prompt": "Sustituye «encontré» por «dar con».", "source": "Por fin encontré el restaurante que me recomendaste.", "answer": "Por fin di con el restaurante que me recomendaste.", "explanation": "«Dar con» equivale a «encontrar tras buscar» y exige «con» delante de lo encontrado; el verbo se conjuga como dar: «di con»."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Siempre puedes contar en tus amigos.", "answer": "Siempre puedes contar con tus amigos.", "explanation": "«Contar» con el sentido de confiar en el apoyo de alguien rige «con». «Contar en» es un calco de count on."},
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia «enfrentarse con» por «afrontar».", "source": "El Gobierno tendrá que enfrentarse con una crisis energética.", "answer": "El Gobierno tendrá que afrontar una crisis energética.", "altAnswers": ["El gobierno tendrá que afrontar una crisis energética."], "explanation": "«Afrontar» es transitivo: el problema pasa a ser complemento directo, sin preposición. Solo el pronominal «enfrentarse» necesita «con» o «a»."},
   ],
   "prepositional-verbs-part-1-3": [
-    fe("___ vernos a las siete en la plaza.", "Quedamos en", "[We agreed] to meet at seven in the square.", "Quedar en + infinitivo: el contenido de un acuerdo."),
-    fe("___ que revisáramos el contrato de nuevo.", "Insistió en", "[She insisted] that we go over the contract again.", "Insistir en que + subjuntivo (aquí imperfecto, porque «insistió» está en pasado)."),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Quedamos que tú traerías las bebidas.", "answer": "Quedamos en que tú traerías las bebidas.", "altAnswers": ["Quedamos en que traerías las bebidas."], "explanation": "«Quedar» con el sentido de acordar rige «en», también delante de que: «quedamos en que…». Suprimir la preposición es queísmo."},
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia el infinitivo por una oración con «que»: «… que nosotros pagáramos».", "source": "El director insistió en pagar la cena.", "answer": "El director insistió en que nosotros pagáramos la cena.", "altAnswers": ["El director insistió en que pagáramos la cena.", "El director insistió en que nosotros pagásemos la cena.", "El director insistió en que pagásemos la cena."], "explanation": "Al cambiar el sujeto de la acción, el infinitivo pasa a oración con que, pero la preposición «en» se queda. Como es una petición en pasado, el verbo va en imperfecto de subjuntivo."},
   ],
   "prepositional-verbs-part-1-mastery-check": [
     fe("Tuvo que ___ las críticas de todo el equipo.", "enfrentarse con", "He had to [face up to] the criticism from the whole team.", "Enfrentarse con (o a): sostener una confrontación directa.", ["enfrentarse a", "afrontar", "hacer frente a"]),
   ],
   "c1r-sort-prepositional-verbs": [
-    fe("___ firmar eso.", "Me niego a", "[I refuse to] sign that.", "Negarse a + infinitivo."),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Mi hermano no se atreve de pedirle el coche a mi padre.", "answer": "Mi hermano no se atreve a pedirle el coche a mi padre.", "explanation": "«Atreverse» rige «a» ante infinitivo, como los demás verbos que apuntan hacia una acción (negarse a, decidirse a). «De» es un cruce con «tratar de»."},
   ],
   "c1r-contrast-meaning-by-preposition": [
-    fe("La habitación ___ un patio interior muy tranquilo.", "da a", "The room [looks out onto] a very quiet inner courtyard.", "Dar a: tener vistas a. No confundir con dar con (encontrar)."),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Esta tarde he quedado en Marta para tomar un café.", "answer": "Esta tarde he quedado con Marta para tomar un café.", "explanation": "Citarse con una persona es «quedar con»; «quedar en» significa acordar algo («quedamos en vernos a las cinco»)."},
   ],
   "prepositional-verbs-part-2-1": [
-    fe("El resultado ___ varios factores externos.", "depende de", "The result [depends on] several external factors.", "Depender de (✗ depender en, calco de «depend on»)."),
-    fe("La teoría ___ datos recogidos durante años.", "se basa en", "The theory [is based on] data collected over years.", "Basarse en (✗ basarse de).", ["se fundamenta en", "se apoya en", "está basada en"]),
-    fe("¿Qué ___ la propuesta que presentamos?", "piensas de", "What [do you think of] the proposal we presented?", "Pensar de algo: pedir una opinión. Pensar en algo: tenerlo en la mente.", ["opinas de"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "La duración del viaje depende en el tráfico.", "answer": "La duración del viaje depende del tráfico.", "explanation": "«Depender» rige «de» («de + el» = «del»). «Depender en» es un calco del inglés depend on."},
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia «depender de» por «basarse en».", "source": "Su decisión depende de los resultados del análisis.", "answer": "Su decisión se basa en los resultados del análisis.", "explanation": "Al cambiar de verbo cambia también el régimen: «depender de», pero «basarse en». Arrastrar la «de» al nuevo verbo es el error de analogía interna."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "El guion se basa de una novela poco conocida.", "answer": "El guion se basa en una novela poco conocida.", "explanation": "«Basarse» rige «en». La «de» se copia de «depender de», un verbo de sentido parecido: es un error de analogía interna."},
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia la pregunta para pedir una opinión con «pensar de».", "source": "¿Piensas mucho en tu nuevo trabajo?", "answer": "¿Qué piensas de tu nuevo trabajo?", "explanation": "Para pedir una opinión se usa «¿qué piensas de…?»; «pensar en» solo pregunta si algo ocupa tu mente."},
   ],
   "prepositional-verbs-part-2-2": [
-    fe("¿Y ___ el apoyo de la dirección?", "cuentas con", "And [can you count on] management's support?", "Contar con algo: disponer de ello o confiar en su apoyo."),
-    fe("___ presentarlo esta semana.", "Me he empeñado en", "[I'm determined to] present it this week.", "Empeñarse en: insistir con tenacidad en hacer algo.", ["Me empeño en", "Estoy empeñado en", "Estoy empeñada en"]),
-    fe("Hay que ___ el error antes de enviar el informe.", "subsanar", "We need to [correct] the error before sending the report.", "«Subsanar»: corregir un error o reparar un defecto.", ["corregir", "enmendar", "arreglar", "reparar"]),
-    fe("___ practicar, acabó dominando el régimen verbal.", "A fuerza de", "[By dint of] practicing, he ended up mastering verb patterns.", "«A fuerza de» + infinitivo: a base de repetir mucho una acción.", ["A base de"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Transforma el verbo en sustantivo: «La insistencia de su jefe…».", "source": "Su jefe insiste en la puntualidad y eso agobia al equipo.", "answer": "La insistencia de su jefe en la puntualidad agobia al equipo.", "altAnswers": ["La insistencia de su jefe en la puntualidad agobia a todo el equipo."], "explanation": "El sustantivo «insistencia» conserva la preposición del verbo: insistir en → la insistencia en. El sujeto del verbo pasa a complemento con «de»: «de su jefe»."},
+    {"type": "fill-blank", "prompt": "Completa con la preposición que hereda el sustantivo (interesarse por).", "sentence": "Su interés ___ la arqueología empezó en un viaje a México.", "answer": "por", "explanation": "El sustantivo hereda el régimen del verbo: interesarse por → el interés por. «Interés en» también se oye, pero con este patrón no te equivocas."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Es propensa de resfriarse en cuanto cambia el tiempo.", "answer": "Es propensa a resfriarse en cuanto cambia el tiempo.", "explanation": "«Propenso» rige «a», como indica la propia entrada del vocabulario («propenso a»). Se aprende con su preposición, en bloque."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "A fuerza repetir los ejercicios, acabó haciéndolos sin pensar.", "answer": "A fuerza de repetir los ejercicios, acabó haciéndolos sin pensar.", "explanation": "La locución es «a fuerza de» + infinitivo o sustantivo: la «de» forma parte de ella y no se puede omitir."},
   ],
   "c1r-error-hunt-interference": [
-    fe("Se enamoró ___ su profesor de música.", "de", "She fell in love [with] her music teacher.", "Enamorarse de (✗ enamorarse con, calco de «fall in love with»)."),
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia «gustar mucho» por «enamorarse».", "source": "Nos gustó mucho Lisboa desde el primer día.", "answer": "Nos enamoramos de Lisboa desde el primer día.", "explanation": "Con «enamorarse», lo que gusta deja de ser el sujeto y pasa a complemento con «de»: «nos enamoramos de Lisboa». «Enamorarse con» calca el inglés fall in love with."},
   ],
   "c1r-transform-queismo-dequeismo": [
-    fe("___ que habían cancelado el vuelo.", "Me enteré de", "[I found out] that they had cancelled the flight.", "Enterarse de algo → enterarse de que (me enteré de eso → me enteré de que)."),
-    fe("No cabe duda ___ es el mejor candidato.", "de que", "There's no doubt [that] he's the best candidate.", "No cabe duda de algo → no cabe duda de que; omitir «de» sería queísmo."),
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia «creo» por «estoy convencido».", "source": "Creo que el proyecto saldrá adelante.", "answer": "Estoy convencido de que el proyecto saldrá adelante.", "altAnswers": ["Estoy convencida de que el proyecto saldrá adelante."], "explanation": "Prueba de eso: «estoy convencido de eso» → «de que»; en cambio, «creo eso» → «que» solo. Cambiar de verbo obliga a revisar la preposición."},
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia «me acuerdo de» por «recuerdo».", "source": "Me acuerdo de que aquel verano llovió mucho.", "answer": "Recuerdo que aquel verano llovió mucho.", "explanation": "«Recordar» es transitivo: «recuerdo eso» → «recuerdo que», sin «de». Mantener la «de» de «acordarse» sería dequeísmo."},
   ],
   "prepositional-verbs-part-2-3": [
-    fe("El plan ___ fundamento.", "carece de", "The plan [lacks] any basis.", "Carecer de: no tener algo necesario."),
-    fe("___ tu análisis en un punto fundamental.", "Discrepo de", "[I disagree with] your analysis on one key point.", "Discrepar de (también se oye «discrepar con»).", ["Disiento de", "No estoy de acuerdo con", "Discrepo con"]),
-    fe("Nos ___ lo pactado en el contrato.", "atenemos a", "We [abide by] what was agreed in the contract.", "Atenerse a: ajustarse a una norma o un acuerdo.", ["ceñimos a", "ajustamos a"]),
-    fe("La organización ___ reducir la jornada laboral.", "aboga por", "The organization [advocates] reducing working hours.", "Abogar por: defender públicamente una idea.", ["defiende", "propugna"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Sustituye «no tiene» por «carecer».", "source": "La propuesta no tiene un presupuesto detallado.", "answer": "La propuesta carece de un presupuesto detallado.", "altAnswers": ["La propuesta carece de presupuesto detallado."], "explanation": "«Carecer» rige «de»: lo que falta se introduce con esa preposición, mientras que con «tener» es complemento directo."},
+    {"type": "translate", "direction": "en-es", "prompt": "Sustituye «cometió» por «incurrir».", "source": "El testigo cometió varias contradicciones durante el juicio.", "answer": "El testigo incurrió en varias contradicciones durante el juicio.", "explanation": "«Incurrir» rige «en» (incurrir en un error, en una falta, en una contradicción). «Cometer» es transitivo y no lleva preposición."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "El sindicato aboga en una subida de los salarios.", "answer": "El sindicato aboga por una subida de los salarios.", "explanation": "«Abogar» rige «por»: se aboga por una idea o una causa. Es el equivalente culto de «defender», que es transitivo."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Antes de firmar, cerciórate que el texto es correcto.", "answer": "Antes de firmar, cerciórate de que el texto es correcto.", "explanation": "«Cerciorarse» rige «de» también delante de que: «cerciórate de eso» → «de que». Omitirla es queísmo."},
   ],
   "prepositional-verbs-part-2-mastery-check": [
     fe("Antes de firmar, ___ que todas las cifras eran correctas.", "se cercioró de", "Before signing, she [made sure] that all the figures were correct.", "Cerciorarse de que: comprobar algo para tener la seguridad de que es cierto.", ["se aseguró de", "comprobó"]),
   ],
   "c1r-mission-cover-letter-verbs": [
-    fe("___ cinco años de experiencia en el sector.", "Cuento con", "[I have] five years' experience in the sector.", "En una carta de motivación, «contar con» es más formal que «tener».", ["Tengo"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Aspiro un puesto de responsabilidad en su empresa.", "answer": "Aspiro a un puesto de responsabilidad en su empresa.", "explanation": "Con el sentido de pretender o desear, «aspirar» rige «a». Sin preposición, «aspirar algo» significa inhalarlo (aspirar el aire), así que la frase dice otra cosa."},
   ],
 
   // ---- Conectores discursivos --------------------------------------------
   "advanced-discourse-markers-1": [
-    fe("El plan es ambicioso. ___, su coste sigue siendo un obstáculo.", "Ahora bien", "The plan is ambitious. [That said], its cost is still an obstacle.", "«Ahora bien» introduce una salvedad tras aceptar lo dicho, de forma menos abrupta que «pero».", ["Dicho esto", "No obstante", "Sin embargo", "Con todo"]),
-    fe("Reconozco que el argumento tiene fuerza. ___, no comparto la conclusión.", "Dicho esto", "I admit the argument is strong. [Having said that], I don't share the conclusion.", "«Dicho esto» cierra un bloque argumentativo y relativiza lo anterior.", ["Ahora bien", "No obstante", "Sin embargo", "Con todo"]),
-    fe("Es cierto que mejoraron los resultados; ahora bien, todavía ___ del objetivo.", "están lejos", "It's true that results improved; however, they [are] still [far] from the target.", "Concesión parcial seguida de una matización relevante.", ["quedan lejos"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase con «ahora bien» en lugar de «pero».", "source": "El piso es luminoso, pero está lejos del centro.", "answer": "El piso es luminoso; ahora bien, está lejos del centro.", "altAnswers": ["El piso es luminoso. Ahora bien, está lejos del centro."], "explanation": "«Ahora bien» va tras una pausa fuerte (punto o punto y coma) y seguido de coma. Primero se concede la ventaja (luminoso) y luego se restringe (lejos del centro)."},
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase con «dicho esto».", "source": "Entiendo tus motivos, pero no puedo aceptar tu propuesta.", "answer": "Entiendo tus motivos. Dicho esto, no puedo aceptar tu propuesta.", "altAnswers": ["Entiendo tus motivos; dicho esto, no puedo aceptar tu propuesta."], "explanation": "«Dicho esto» cierra lo que se concede (entiendo tus motivos) y abre la objeción. Como «ahora bien», no va tras coma simple, sino tras punto o punto y coma."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "El candidato tiene mucha experiencia. Ahora bien, habla tres idiomas.", "answer": "El candidato tiene mucha experiencia. Además, habla tres idiomas.", "altAnswers": ["El candidato tiene mucha experiencia. Asimismo, habla tres idiomas.", "El candidato tiene mucha experiencia y, además, habla tres idiomas."], "explanation": "«Ahora bien» anuncia una restricción tras conceder algo, pero aquí la segunda frase suma otro mérito. Un argumento que se añade pide un conector aditivo: «además» o «asimismo»."},
   ],
   "advanced-discourse-markers-2": [
-    fe("___ que las ventas crecieron un veinte por ciento este trimestre.", "Cabe destacar", "[It is worth highlighting] that sales grew by twenty percent this quarter.", "«Cabe destacar» pone en primer plano un dato especialmente relevante.", ["Cabe señalar", "Conviene destacar", "Hay que destacar", "Cabe resaltar"]),
-    fe("___ que persisten algunas dudas sobre la viabilidad del proyecto.", "Cabe señalar", "[It should be noted] that some doubts about the project's feasibility remain.", "«Cabe señalar» añade una observación pertinente, con menos énfasis que «cabe destacar».", ["Conviene señalar", "Cabe destacar", "Hay que señalar", "Cabe mencionar"]),
-    fe("___ que esta cifra no incluye los gastos de mantenimiento.", "Conviene precisar", "[It should be made clear] that this figure does not include maintenance costs.", "«Conviene precisar» introduce una aclaración que evita una posible ambigüedad.", ["Cabe precisar", "Conviene aclarar", "Cabe aclarar", "Hay que precisar"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase con «cabe destacar».", "source": "Es muy importante resaltar que la participación se duplicó.", "answer": "Cabe destacar que la participación se duplicó.", "explanation": "«Cabe destacar que» condensa en una fórmula impersonal y formal la idea de «es importante resaltar que». El verbo «caber» va en singular y lleva «que» sin «de»."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Cabe señalar de que el estudio tiene algunas limitaciones.", "answer": "Cabe señalar que el estudio tiene algunas limitaciones.", "explanation": "Prueba de eso: «cabe señalar eso», sin preposición. Por tanto, «cabe señalar que»: añadir «de» es dequeísmo."},
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase con «conviene precisar» para evitar un malentendido.", "source": "Ojo: el precio no incluye el transporte.", "answer": "Conviene precisar que el precio no incluye el transporte.", "explanation": "«Ojo» es coloquial; en un texto formal, la aclaración que previene un error se introduce con «conviene precisar que»."},
   ],
   "c1r-transform-ahora-bien": [
-    fe("Puedes ir; ___, vuelve antes de las doce.", "eso sí", "You can go; [mind you], be back before twelve.", "«Eso sí» añade una condición o salvedad a lo que se acaba de conceder."),
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la condición con «eso sí».", "source": "Te dejo la bici si me la devuelves mañana.", "answer": "Te dejo la bici; eso sí, devuélvemela mañana.", "altAnswers": ["Te dejo la bici; eso sí, me la devuelves mañana.", "Te dejo la bici; eso sí, tienes que devolvérmela mañana."], "explanation": "«Eso sí» introduce la condición o salvedad después de conceder algo; suele ir seguido de un imperativo o de la condición expresa."},
   ],
   "advanced-discourse-markers-3": [
-    fe("___, la decisión depende del presupuesto disponible.", "En última instancia", "[Ultimately], the decision depends on the available budget.", "«En última instancia» señala el criterio final tras considerar otros factores.", ["En último término", "En definitiva", "A fin de cuentas"]),
-    fe("___, el proyecto cumplió con los objetivos previstos.", "En definitiva", "[In short], the project met its planned objectives.", "«En definitiva» ofrece una síntesis neutra de lo expuesto.", ["En resumen", "En suma", "En síntesis"]),
-    fe("___, todos cometemos errores alguna vez.", "Al fin y al cabo", "[After all], we all make mistakes sometimes.", "«Al fin y al cabo» recuerda una verdad de sentido común que relativiza lo discutido.", ["A fin de cuentas", "Después de todo"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "No te enfades con ella; en última instancia, es tu mejor amiga.", "answer": "No te enfades con ella; al fin y al cabo, es tu mejor amiga.", "altAnswers": ["No te enfades con ella; a fin de cuentas, es tu mejor amiga."], "explanation": "Recordar una verdad de fondo que justifica la petición es la función de «al fin y al cabo». «En última instancia» señalaría el factor que decide al final, algo que no encaja aquí."},
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase con «en última instancia».", "source": "Al final, quien decide es el consejo de administración.", "answer": "En última instancia, quien decide es el consejo de administración.", "altAnswers": ["En última instancia, decide el consejo de administración."], "explanation": "«En última instancia» nombra la autoridad o el factor que tiene la última palabra, tras considerar los demás. Es más preciso y formal que «al final»."},
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe el cierre con «en definitiva».", "source": "Resumiendo: el plan es barato, rápido y eficaz.", "answer": "En definitiva, el plan es barato, rápido y eficaz.", "explanation": "«En definitiva» resume y concluye, igual que «resumiendo», pero en un registro más cuidado."},
   ],
   "advanced-discourse-markers-4": [
-    fe("Deberá abandonar el edificio, ___ ser sancionado.", "so pena de", "You must leave the building, [on pain of] being penalized.", "«So pena de» (muy formal, casi arcaico) introduce una sanción impuesta desde fuera."),
-    fe("Queda prohibido fumar en estas instalaciones, ___ multa.", "bajo pena de", "Smoking is prohibited on these premises, [on pain of a] fine.", "«Bajo pena de» + sustantivo: registro jurídico.", ["so pena de"]),
-    fe("Lo diré con claridad, ___ que algunos se sientan incómodos.", "a riesgo de", "I'll say it clearly, [at the risk of] some people feeling uncomfortable.", "«A riesgo de» introduce un riesgo que el propio hablante asume; con «que» lleva subjuntivo.", ["aun a riesgo de"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Los socios deberán pagar la cuota antes del día 5, so pena perder sus derechos.", "answer": "Los socios deberán pagar la cuota antes del día 5, so pena de perder sus derechos.", "explanation": "La locución completa es «so pena de» + infinitivo o sustantivo; la «de» no se puede omitir."},
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe el aviso con «bajo pena de».", "source": "Prohibido aparcar. Quien lo haga será multado.", "answer": "Prohibido aparcar, bajo pena de multa.", "altAnswers": ["Queda prohibido aparcar, bajo pena de multa.", "Prohibido aparcar bajo pena de multa."], "explanation": "«Bajo pena de» + sustantivo condensa la sanción en un aviso formal y jurídico; la segunda oración desaparece."},
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia el riesgo para que afecte a «mis compañeros» (enfadarse).", "source": "Lo diré sin rodeos, a riesgo de parecer antipático.", "answer": "Lo diré sin rodeos, a riesgo de que mis compañeros se enfaden.", "explanation": "Cuando el riesgo recae sobre otra persona, el infinitivo se convierte en «de que» + subjuntivo. La «de» se mantiene: «a riesgo de que»."},
   ],
   "c1r-contrast-conclusion-markers": [
-    fe("___, la decisión es del consejo.", "En última instancia", "[Ultimately], the decision rests with the board.", "«En última instancia» señala quién o qué decide al final.", ["En último término"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Será el árbitro, al fin y al cabo, quien tenga la última palabra.", "answer": "Será el árbitro, en última instancia, quien tenga la última palabra.", "explanation": "Se nombra a quien decide al final: «en última instancia». «Al fin y al cabo» recordaría una verdad de fondo para justificar algo, que no es lo que se dice aquí."},
   ],
   "c1r-error-hunt-risk-markers": [
-    fe("___ parecer pesado, lo repetiré.", "A riesgo de", "[At the risk of] sounding tiresome, I'll repeat it.", "A riesgo de + infinitivo: aceptando el riesgo de.", ["Aun a riesgo de"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la advertencia con «so pena de».", "source": "Hay que renovar el pasaporte antes de junio; si no, no podrás viajar.", "answer": "Hay que renovar el pasaporte antes de junio, so pena de no poder viajar.", "altAnswers": ["Hay que renovar el pasaporte antes de junio so pena de no poder viajar."], "explanation": "«So pena de» + infinitivo condensa la consecuencia negativa («si no, no podrás…») en una advertencia formal. Se mantiene la «de» y el infinitivo no lleva sujeto propio."},
   ],
   "advanced-discourse-markers-5": [
-    fe("Los costos se recuperan a medio plazo; ___ el proyecto sea rentable.", "de ahí que", "The costs are recouped in the medium term; [hence] the project is profitable.", "«De ahí que» introduce una consecuencia y va seguido de subjuntivo («sea»)."),
+    {"type": "translate", "direction": "en-es", "prompt": "Sustituye «por eso» por «de ahí que».", "source": "Los costes se recuperan a medio plazo; por eso el proyecto es rentable.", "answer": "Los costes se recuperan a medio plazo; de ahí que el proyecto sea rentable.", "altAnswers": ["Los costos se recuperan a medio plazo; de ahí que el proyecto sea rentable."], "explanation": "«De ahí que» presenta una consecuencia en registro culto y exige subjuntivo: «sea», no «es»."},
     fe("Ningún proyecto está ___ de riesgos por completo.", "exento", "No project is entirely [free] of risks.", "«Exento de»: libre de una obligación, un riesgo o una carga.", ["libre"]),
     fe("Los ingresos han caído; ___, habrá que recortar gastos.", "por ende", "Revenue has fallen; [therefore], spending will have to be cut.", "«Por ende» (culto) equivale a «por lo tanto».", ["por consiguiente", "por lo tanto", "por tanto", "en consecuencia", "así pues"]),
-    fe("___ el informe es extenso, sus conclusiones son claras.", "Si bien", "[Although] the report is long, its conclusions are clear.", "«Si bien» (culto) introduce una concesión con indicativo.", ["Aunque", "Pese a que", "A pesar de que"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Si bien el informe sea extenso, sus conclusiones son claras.", "answer": "Si bien el informe es extenso, sus conclusiones son claras.", "explanation": "«Si bien» es concesivo de registro culto y va con indicativo: concede un hecho real («es extenso»). A diferencia de «aunque», no admite subjuntivo."},
   ],
   "advanced-discourse-markers-6": [
-    fe("___ que la seguridad es lo primero.", "Huelga decir", "[Needless to say], safety comes first.", "«Huelga decir que»: no hace falta decir que; introduce algo evidente.", ["No hace falta decir", "Ni que decir tiene"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Huelga decir de que la seguridad es lo primero.", "answer": "Huelga decir que la seguridad es lo primero.", "explanation": "«Huelga decir eso», sin preposición: por tanto, «huelga decir que». La «de» es dequeísmo."},
     fe("Hay que ___ las ventajas y los inconvenientes antes de decidir.", "sopesar", "We need to [weigh up] the pros and cons before deciding.", "«Sopesar»: considerar con cuidado ventajas e inconvenientes.", ["ponderar", "valorar", "evaluar", "considerar"]),
     fe("Los tres países fundadores, ___, Francia, Alemania e Italia, firmaron el acuerdo.", "a saber", "The three founding countries, [namely] France, Germany and Italy, signed the agreement.", "«A saber» introduce una enumeración o aclaración.", ["esto es", "es decir"]),
-    fe("Hubo muchos problemas. ___, el balance es positivo.", "Con todo", "There were many problems. [Even so], the overall result is positive.", "«Con todo»: a pesar de lo dicho, aun así.", ["Aun así", "No obstante", "Sin embargo", "Pese a todo", "A pesar de todo"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Sustituye «aun así» por un conector culto equivalente.", "source": "Hubo muchos problemas. Aun así, el balance es positivo.", "answer": "Hubo muchos problemas. Con todo, el balance es positivo.", "altAnswers": ["Hubo muchos problemas. No obstante, el balance es positivo."], "explanation": "«Con todo» y «no obstante» equivalen a «aun así» en registro culto: conceden lo anterior y mantienen la conclusión contraria."},
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase con «en lo que respecta a».", "source": "Sobre los plazos, la dirección no ha dicho nada.", "answer": "En lo que respecta a los plazos, la dirección no ha dicho nada.", "explanation": "«En lo que respecta a» introduce el tema en registro formal y rige «a»; con un sustantivo masculino singular se contrae: «al plazo»."},
   ],
   "c1r-build-cohesive-text": [
-    fe("___, conviene analizar las causas.", "En primer lugar", "[First of all], it's worth analyzing the causes.", "Marcador de estructura que abre la enumeración de ideas.", ["Primero", "Ante todo", "Para empezar"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe el texto con marcadores: «En primer lugar…; por otra parte…».", "source": "Hay que reducir el tráfico. También hay que ampliar las zonas verdes.", "answer": "En primer lugar, hay que reducir el tráfico; por otra parte, hay que ampliar las zonas verdes.", "altAnswers": ["En primer lugar, hay que reducir el tráfico. Por otra parte, hay que ampliar las zonas verdes."], "explanation": "«En primer lugar» ordena el primer argumento y «por otra parte» añade el segundo; los dos van seguidos de coma. «También» desaparece porque «por otra parte» ya expresa la adición."},
   ],
 
   // ---- Estructuras enfáticas ---------------------------------------------
   "emphatic-structures-1": [
-    fe("___ esa decisión la que cambió el rumbo de la empresa.", "Fue", "[It was] that decision that changed the company's course.", "Oración escindida: ser concuerda en tiempo con el verbo de la subordinada (fue… cambió)."),
-    fe("Fue él ___ tomó la decisión final.", "quien", "It was he [who] made the final decision.", "En la escindida, persona → quien o el que.", ["el que"]),
-    fe("Fue en esa reunión ___ se acordaron los nuevos plazos.", "donde", "It was at that meeting [that] the new deadlines were agreed.", "Lugar focalizado → donde (o en la que). El inglés usa «that» para todo; el español elige el relativo según lo destacado.", ["en la que", "en que"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase destacando a la persona.", "source": "Mi vecino encontró a tu perro.", "answer": "Fue mi vecino quien encontró a tu perro.", "altAnswers": ["Fue mi vecino el que encontró a tu perro."], "explanation": "Para destacar a una persona: ser (en el tiempo del verbo, «fue») + la persona + «quien» o «el que» + el resto de la oración."},
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase destacando el momento.", "source": "Me enteré de la noticia al salir del trabajo.", "answer": "Fue al salir del trabajo cuando me enteré de la noticia.", "explanation": "El momento destacado («al salir del trabajo») va tras «fue» y lo retoma el relativo de tiempo «cuando»."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Fueron los alumnos quien organizó la protesta.", "answer": "Fueron los alumnos quienes organizaron la protesta.", "altAnswers": ["Fueron los alumnos los que organizaron la protesta."], "explanation": "Lo destacado es plural («los alumnos»), así que el relativo y el verbo concuerdan en plural: «quienes organizaron» (o «los que organizaron»)."},
   ],
   "emphatic-structures-2": [
-    fe("___ es más tiempo, no más dinero.", "Lo que necesitamos", "[What we need] is more time, not more money.", "Pseudoescindida: lo que + verbo + ser + elemento focalizado."),
-    fe("Lo que deberíamos hacer ___ replantear todo el proyecto.", "es", "What we should do [is] rethink the whole project.", "En la pseudoescindida, «ser» suele ir en presente cuando se habla del ahora, aunque el verbo anterior vaya en condicional; «sería» también es correcto.", ["sería"]),
-    fe("___ me preocupa es el plazo, no el precio.", "Lo que", "[What] worries me is the deadline, not the price.", "«Lo que» es el relativo neutro que abre la pseudoescindida."),
+    {"type": "translate", "direction": "en-es", "prompt": "Transforma la frase en pseudoescindida para destacar la acción: «Lo que hizo…».", "source": "Se fue de la reunión sin decir nada.", "answer": "Lo que hizo fue irse de la reunión sin decir nada.", "altAnswers": ["Lo que hizo fue marcharse de la reunión sin decir nada."], "explanation": "La acción destacada pasa al final, en infinitivo, tras «lo que hizo fue». El pronombre se une al infinitivo: «irse»."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Lo que hizo el árbitro fue anuló el gol.", "answer": "Lo que hizo el árbitro fue anular el gol.", "explanation": "En la pseudoescindida, la acción destacada tras «ser» va en infinitivo: «fue anular». Dos verbos conjugados seguidos («fue anuló») no forman oración."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Lo que más echo de menos son el mar.", "answer": "Lo que más echo de menos es el mar.", "explanation": "«Ser» concuerda con lo destacado: «el mar» es singular, así que «es». El plural solo aparece con un elemento plural («lo que más echo de menos son mis amigos»)."},
   ],
   "c1r-transform-cleft-sentences": [
-    fe("Fue Marta ___ rompió el jarrón.", "quien", "It was Marta [who] broke the vase.", "Persona destacada → quien o la que.", ["la que"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase destacando la causa.", "source": "Me despertó el ruido de la obra.", "answer": "Fue el ruido de la obra lo que me despertó.", "altAnswers": ["Fue el ruido de la obra el que me despertó."], "explanation": "La causa destacada es una cosa: «lo que» o «el que» (concordando con «el ruido»). «Ser» va en pasado porque «despertó» está en pasado."},
   ],
   "c1r-dialogue-lab-correcting-with-emphasis": [
-    fe("—¿Te llamó el jefe? —No, fue su secretaria ___ me llamó.", "la que", "—Did the boss call you? —No, it was his secretary [who] called me.", "La hendida corrige un dato concreto sin repetir toda la frase.", ["quien"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la réplica para rectificar con una oración hendida.", "source": "No, lo eligió Inés.", "answer": "No, fue Inés quien lo eligió.", "altAnswers": ["No, fue Inés la que lo eligió."], "explanation": "Al rectificar, el dato nuevo («Inés») va tras «fue» y el resto («lo eligió») se retoma con «quien» o «la que»."},
   ],
   "emphatic-structures-3": [
-    fe("Ese proyecto, ___ terminamos entre todos.", "lo", "That project, we finished [it] among all of us.", "Al anteponer el complemento directo, un pronombre átono lo retoma (reduplicación)."),
-    fe("A mi hermana ___ llamé antes que a nadie.", "la", "My sister, I called [her] before anyone else.", "Complemento directo de persona antepuesto, reduplicado con «la»."),
-    fe("Eso ___ no lo esperaba.", "sí que", "That I [really] didn't expect.", "«Sí que» refuerza la afirmación del elemento antepuesto.", ["sí"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase anteponiendo el complemento directo.", "source": "Nunca he probado el gazpacho.", "answer": "El gazpacho no lo he probado nunca.", "altAnswers": ["El gazpacho nunca lo he probado."], "explanation": "Al anteponer «el gazpacho», hay que retomarlo con «lo». Con «nunca» detrás del verbo se necesita «no» delante; también vale «el gazpacho nunca lo he probado»."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "A la nueva directora le conocí ayer en la reunión.", "answer": "A la nueva directora la conocí ayer en la reunión.", "explanation": "«Conocer a alguien» lleva complemento directo; si es femenino, el pronombre es «la». «Le» con referente femenino es un leísmo que la norma no admite."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "Ese informe ya entregué ayer.", "answer": "Ese informe ya lo entregué ayer.", "explanation": "El complemento directo antepuesto y conocido («ese informe») se retoma con un pronombre átono: «lo entregué». Sin él, la frase suena incompleta."},
   ],
   "emphatic-structures-4": [
-    fe("No es que no quiera ayudar, ___ no puede hacerlo ahora.", "sino que", "It's not that she doesn't want to help, [but rather that] she can't do it right now.", "«No… sino que» rechaza una posibilidad y afirma la correcta; ante un verbo conjugado se usa «sino que»."),
-    fe("Si algo le sobra a este equipo, ___ talento.", "eso es", "If there's one thing this team has plenty of, [it's] talent.", "«Si algo…, eso es…» aísla el elemento focalizado tras una concesión mínima."),
-    fe("Yo ___ se lo advertí, aunque no me hizo caso.", "sí que", "I [did] warn him, even though he didn't listen to me.", "«Sí que» + verbo refuerza la veracidad frente a una suposición contraria; en inglés equivale al «did» enfático.", ["sí"]),
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "No es que no me gusta tu idea, sino que no tenemos presupuesto.", "answer": "No es que no me guste tu idea, sino que no tenemos presupuesto.", "explanation": "«No es que» descarta una interpretación que no se afirma, así que exige subjuntivo: «no me guste». La parte con «sino que» sí afirma y va en indicativo."},
+    {"type": "translate", "direction": "en-es", "prompt": "Corrige la frase.", "source": "No es que sea difícil, sino requiere mucha práctica.", "answer": "No es que sea difícil, sino que requiere mucha práctica.", "explanation": "Cuando tras «sino» viene un verbo conjugado, se necesita «sino que»: «sino que requiere». «Sino» solo, sin «que», va ante sustantivos o infinitivos."},
+    {"type": "translate", "direction": "en-es", "prompt": "Reescribe la frase con «si algo…, eso es…».", "source": "Lo que más valoro en un amigo es la lealtad.", "answer": "Si algo valoro en un amigo, eso es la lealtad.", "altAnswers": ["Si hay algo que valoro en un amigo, eso es la lealtad."], "explanation": "«Si algo + verbo…, eso es…» presenta lo destacado como lo único que cumple la condición; la idea de «lo que más» queda implícita."},
+    {"type": "translate", "direction": "en-es", "prompt": "Cambia la segunda parte a la forma enfática con «sí que».", "source": "Tú no lo sabías, pero yo lo sabía.", "answer": "Tú no lo sabías, pero yo sí que lo sabía.", "altAnswers": ["Tú no lo sabías, pero yo sí lo sabía."], "explanation": "«Sí que» delante del verbo refuerza la afirmación frente al contraste con «tú no lo sabías». También vale «sí» solo: «yo sí lo sabía»."},
   ],
   "emphatic-structures-5": [
-    fe("Fue en esa reunión ___ entendí que no podía seguir así.", "donde", "It was at that meeting [that] I realized I couldn't go on like that.", "Hendida que focaliza un lugar (donde) o un momento (cuando).", ["en la que", "cuando"]),
-    fe("___ más me pesó fue sentir que nadie valoraba mi esfuerzo.", "Lo que", "[What] weighed on me most was feeling that nobody valued my effort.", "Pseudoescindida: lo que + verbo + ser."),
+    fe("Fue entonces ___ comprendí que tenía que irme.", "cuando", "It was then [that] I understood I had to leave.", "En la escindida, el relativo depende de qué se focaliza: un momento → «cuando», un lugar → «donde», una persona → «quien», una manera → «como». En el español de América también se oye «fue entonces que», pero en registro cuidado se prefiere el relativo que concuerda con el foco.", ["que"]),
+    fe("___ más me sorprendió fue la calma con la que habló.", "Lo que", "[What] surprised me most was how calmly she spoke.", "Pseudoescindida: «lo que» + verbo + «ser» + foco. Se usa el neutro «lo que» porque no se refiere a un sustantivo concreto; «el que» exigiría un sustantivo masculino sobrentendido.", ["Lo que a mí"]),
     fe("El ministro se apresuró a ___ la noticia.", "desmentir", "The minister rushed to [deny] the news.", "«Desmentir»: negar la verdad de algo que se ha dicho o publicado.", ["negar"]),
     fe("Quiero ___ en la importancia de la puntualidad.", "hacer hincapié", "I want to [stress] the importance of punctuality.", "«Hacer hincapié en»: insistir en algo para destacar su importancia.", ["insistir"]),
   ],
@@ -490,33 +494,33 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
 
   // ---- Futuro y condicional de conjetura ------------------------------
   "future-conditional-conjecture-1": [
-    fe("___ las tres de la tarde, más o menos.", "Serán", "[It must be] around three in the afternoon.", "Futuro de probabilidad: conjetura sobre el presente, no predicción.", ["Deben de ser", "Deben ser"]),
-    fe("___ en casa a estas horas, imagino.", "Estará", "[She must be] at home by now, I imagine.", "Futuro simple = «probablemente está».", ["Debe de estar", "Debe estar"]),
-    fe("___ unos cuarenta años, calculo.", "Tendrá", "[He must be] about forty, I reckon.", "La edad aproximada actual se estima con el futuro: tendrá (no «será»).", ["Debe de tener", "Debe tener"]),
+    fe("___ las diez y media; ya ha empezado el telediario.", "Serán", "[It must be] about half past ten; the news has already started.", "La hora actual se estima con el futuro de «ser», que concuerda con la hora: «serán las diez y media», pero «será la una».", ["Deben de ser", "Deben ser"]),
+    fe("Con este tráfico, Inés ___ todavía en la autopista.", "estará", "With this traffic, Inés [must still be] on the motorway.", "Conjetura sobre dónde está alguien ahora: futuro de «estar». «Estaría» desplazaría la suposición al pasado.", ["debe de estar", "debe estar"]),
+    fe("Ese edificio ___ más de cien años; mira la fachada.", "tendrá", "That building [must be] over a hundred years old; look at the façade.", "La antigüedad se dice con «tener», también en la conjetura: «tendrá más de cien años», no «será».", ["debe de tener", "debe tener"]),
   ],
   "future-conditional-conjecture-2": [
-    fe("___ unos treinta años cuando lo conocí.", "Tendría", "[I must have been] about thirty when I met him.", "Condicional de probabilidad: conjetura sobre un momento pasado (= probablemente tenía).", ["Debía de tener", "Debía tener"]),
-    fe("___ muy cansado, porque se durmió enseguida.", "Estaría", "He [must have been] very tired, because he fell asleep right away.", "Conjetura sobre un estado pasado, inferida de un indicio.", ["Debía de estar", "Debía estar"]),
-    fe("¿Dónde ___ Juan anoche? No contestaba al teléfono.", "estaría", "Where [could] Juan [have been] last night? He wasn't answering the phone.", "En preguntas, el condicional expresa que el hablante se pregunta algo sobre el pasado.", ["andaría"]),
+    fe("Mi bisabuela ___ unos quince años cuando emigró a Argentina.", "tendría", "My great-grandmother [must have been] about fifteen when she emigrated to Argentina.", "Edad aproximada en un momento pasado: condicional de «tener» (= probablemente tenía). «Tendrá» situaría la conjetura en el presente.", ["debía de tener", "debía tener"]),
+    fe("___ prisa, porque se fue sin despedirse.", "Tendría", "He [must have been] in a hurry, because he left without saying goodbye.", "Se deduce un estado pasado a partir de un indicio pasado (se fue sin despedirse): condicional de conjetura.", ["Debía de tener", "Debía tener"]),
+    fe("¿Por qué ___ tan enfadada ayer la directora?", "estaría", "Why [could] the director [have been] so angry yesterday?", "En una pregunta sobre el pasado, el condicional expresa que el hablante se lo pregunta sin saber la respuesta (= me pregunto por qué estaba)."),
   ],
   "future-conditional-conjecture-3": [
-    fe("___ ser muy tarde ya; mira cómo está la calle.", "Debe de", "[It must] be very late already; look at the street.", "Según la norma, deber de + infinitivo expresa conjetura. En el habla también se oye «debe» sin «de».", ["Debe"]),
-    fe("___ entregar el informe antes del viernes.", "Debes", "[You must] hand in the report before Friday.", "Deber + infinitivo (sin «de») expresa obligación.", ["Tienes que", "Has de"]),
-    fe("___ haber unas cien personas en la sala.", "Debe de", "[There must] be about a hundred people in the room.", "Estimación conjetural: deber de + haber.", ["Debe"]),
+    fe("Mira qué cola: ese concierto ___ estar agotado.", "debe de", "Look at that queue: that concert [must] be sold out (assumption).", "Conjetura deducida de un indicio (la cola): «deber de» + infinitivo. Sin «de» también se admite hoy con este valor.", ["debe"]),
+    fe("Para votar, ___ presentar el DNI en la mesa electoral.", "debes", "To vote, you [must] show your ID at the polling station (obligation).", "Es un requisito, una obligación: «deber» sin «de». «Debes de presentar» sería el uso que la norma censura.", ["tienes que", "hay que"]),
+    fe("No ___ haber nadie en la oficina; no contesta nadie.", "debe de", "There [must] be nobody in the office (assumption); nobody's answering.", "Conjetura negativa: «no debe de haber». «Haber» impersonal no se pluraliza y la negación va delante de «deber».", ["debe"]),
   ],
   "future-conditional-conjecture-4": [
-    fe("A lo mejor ___ mañana a la reunión.", "viene", "Maybe she [is coming] to the meeting tomorrow.", "«A lo mejor» va siempre con indicativo.", ["va", "vendrá"]),
-    fe("Tal vez ___ que replantear todo el plan.", "tengamos", "Perhaps we [will have] to rethink the whole plan.", "«Tal vez» admite subjuntivo (más incertidumbre) o indicativo.", ["tendremos", "tenemos"]),
-    fe("Quizás no ___ tiempo de terminarlo hoy.", "tenga", "Maybe I won't [have] time to finish it today.", "Quizás + subjuntivo transmite más incertidumbre; con indicativo, algo más de probabilidad.", ["tengo", "tendré"]),
+    fe("A lo mejor ___ el examen el martes; aún no lo sé.", "hacemos", "Maybe we['ll take] the exam on Tuesday; I don't know yet.", "«A lo mejor» va siempre con indicativo (hacemos, haremos); «hagamos» sería un error.", ["haremos", "tenemos"]),
+    fe("Tal vez ___ que cambiar de proveedor el año que viene.", "tengamos", "Perhaps we [will have] to change supplier next year.", "«Tal vez» delante del verbo admite subjuntivo (más incertidumbre: tengamos) o indicativo (más probabilidad: tendremos).", ["tendremos", "tenemos"]),
+    fe("Quizás tu jefe no ___ el cambio.", "apruebe", "Perhaps your boss won't [approve] the change.", "Quizás + subjuntivo transmite más duda (apruebe); con indicativo («aprueba», «aprobará») el hablante lo ve más probable.", ["aprueba", "aprobará", "acepte", "acepta"]),
   ],
   "c1r-contrast-four-conjecture-tenses": [
     fe("No contesta; ___ ya.", "habrá salido", "He's not answering; he [must have gone out] already.", "Futuro perfecto = conjetura sobre un pasado reciente (probablemente ha salido).", ["debe de haber salido", "debe haber salido"]),
   ],
   "future-conditional-conjecture-5": [
-    fe("¿Qué hora ___? No encuentro el reloj.", "será", "What time [could it be]? I can't find my watch.", "En preguntas, el futuro expresa que el hablante se pregunta algo sobre el presente.", ["puede ser"]),
-    fe("___ todavía en el metro; a lo mejor hay algún retraso.", "Estará", "He [must be] still on the metro; maybe there's a delay.", "Futuro de probabilidad sobre el presente.", ["Debe de estar", "Debe estar"]),
-    fe("Quizás ___ un camino distinto esta vez.", "haya tomado", "Maybe he [has taken] a different route this time.", "Quizás + perfecto de subjuntivo (o indicativo) para un hecho reciente incierto.", ["ha tomado", "haya cogido", "ha cogido"]),
-    fe("El director ___ los cincuenta años.", "rondará", "The director [must be around] fifty.", "«Rondar» una cantidad: acercarse a ella. En futuro, añade conjetura.", ["ronda"]),
+    fe("¿Cuánto ___ un piso así en el centro? Ni idea.", "costará", "How much [could] a flat like that in the centre [cost]? No idea.", "En una pregunta sobre el presente, el futuro expresa que el hablante se lo pregunta sin saberlo (= me pregunto cuánto cuesta).", ["valdrá"]),
+    fe("No contesta al teléfono; ___ conduciendo.", "estará", "He isn't answering the phone; he [must be] driving.", "Conjetura sobre una acción en curso ahora: futuro de «estar» + gerundio.", ["debe de estar", "debe estar"]),
+    fe("Tal vez ya ___ la noticia y por eso está tan seria.", "haya oído", "Perhaps she [has heard] the news already, and that's why she's so serious.", "«Tal vez» + perfecto de subjuntivo para un hecho reciente del que se duda; con indicativo («ha oído») el hablante lo ve más probable.", ["ha oído", "se haya enterado de", "sepa"]),
+    fe("La factura de la reforma ___ los diez mil euros.", "rondará", "The bill for the renovation [will be around] ten thousand euros.", "«Rondar» + cifra = acercarse a ella; en futuro, la cifra es además una estimación.", ["ronda"]),
   ],
   "future-conditional-conjecture-6": [
     fe("___ su cara, no le gustó la propuesta.", "A juzgar por", "[Judging by] his face, he didn't like the proposal.", "«A juzgar por»: según lo que se deduce de algo."),
@@ -545,15 +549,15 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Tutear a un profesor universitario puede considerarse ___.", "una falta de educación", "Using tú with a university professor can be considered [rude].", "Según la norma regional, el tuteo puede sonar irrespetuoso.", ["una falta de respeto", "de mala educación", "descortés", "maleducado"]),
   ],
   "formal-informal-register-4": [
-    fe("Tras ganar confianza, ambas partes decidieron ___.", "tutearse", "After gaining trust, both sides decided [to use tú with each other].", "«Tutearse» (recíproco): pasar del usted al tú.", ["tratarse de tú", "hablarse de tú"]),
+    fe("Después de tres reuniones, la abogada y su cliente empezaron a ___.", "tutearse", "After three meetings, the lawyer and her client began [to use tú with each other].", "«Tutearse» es recíproco: los dos se tratan de tú. Con «empezar a» el pronombre se une al infinitivo.", ["tratarse de tú"]),
     fe("Pasó al usted para ___ tras la discusión.", "marcar distancia", "He switched to usted to [put some distance between them] after the argument.", "El paso súbito del tú al usted señala alejamiento o disgusto.", ["marcar distancias", "guardar las distancias"]),
     fe("A medida que avanzaba la reunión, fueron ___ la formalidad.", "relajando", "As the meeting went on, they gradually [relaxed] the formality.", "Ir + gerundio: cambio gradual.", ["reduciendo", "dejando de lado", "abandonando"]),
   ],
   "formal-informal-register-5": [
-    fe("Le agradezco que ___ recibirme con tan poca antelación.", "haya podido", "Thank you for [being able] to see me at such short notice.", "Agradecer que + subjuntivo; perfecto de subjuntivo para un hecho ya cumplido.", ["pudiera"]),
-    fe("Tome asiento, por favor. ¿___ un café?", "Le ofrezco", "Have a seat, please. [Can I offer you] a coffee?", "Con usted, el pronombre es «le».", ["Le puedo ofrecer", "Puedo ofrecerle", "Le apetece", "Quiere", "Desea"]),
-    fe("Se lo agradezco, pero no ___.", "se moleste", "Thank you, but please don't [go to any trouble].", "Imperativo negativo de usted: no se moleste."),
-    fe("Si ___ la última cifra que te envié, verás que el potencial es mayor.", "revisas", "If you [check] the last figure I sent you, you'll see the potential is greater.", "Tras acordar el tuteo, la conversación sigue en tú: revisas, verás, te envié.", ["miras", "consultas"]),
+    fe("Le agradezco que ___ venir a pesar de la lluvia.", "haya podido", "Thank you for [being able] to come despite the rain.", "«Agradecer que» + subjuntivo; para algo ya ocurrido, perfecto de subjuntivo. En usted es «haya» (con tú sería «hayas»).", ["haya querido"]),
+    fe("Siéntese, por favor. ¿Le ___ algo de beber?", "traigo", "Sit down, please. [Shall I bring] you something to drink?", "Para ofrecer algo se usa el presente de indicativo en pregunta («¿le traigo?»); «le» mantiene el usted del «siéntese».", ["sirvo", "ofrezco"]),
+    fe("Muchas gracias, pero no se ___ por mí.", "preocupe", "Thank you very much, but don't [worry] about me.", "Imperativo negativo de usted: «no se preocupe» (presente de subjuntivo + se). Con tú sería «no te preocupes»."),
+    fe("Si ___ el documento que te mandé, verás que todo cuadra.", "lees", "If you [read] the document I sent you, you'll see that everything adds up.", "Tras acordar el tuteo, los verbos van en segunda persona (lees, verás) y el pronombre es «te».", ["revisas", "miras"]),
   ],
   "formal-informal-register-6": [
     fe("Hablaron ___, sin jerarquías.", "de tú a tú", "They spoke [as equals], without hierarchies.", "«De tú a tú»: de igual a igual.", ["de igual a igual"]),
@@ -586,8 +590,8 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Vos ___, che.", "tenés razón", "[You're right], mate. (vos)", "Tener razón con vos: tenés razón."),
   ],
   "voseo-part-2-2": [
-    fe("Che, ¿vos ___ de acá o estás de paso?", "sos", "Hey, [are] you from here or just passing through? (vos)", "Ser con vos: sos."),
-    fe("Una vez que te ___, no cuesta nada entenderlo.", "acostumbrás", "Once you [get used to it], it's not hard at all to understand. (vos)", "Presente voseante de acostumbrarse: te acostumbrás."),
+    fe("Che, ¿vos ___ argentina o uruguaya?", "sos", "Hey, [are] you Argentinian or Uruguayan?", "Presente voseante de «ser»: vos sos (la única forma especial del presente)."),
+    fe("«Al tiro» es un ___: así dicen «enseguida» en Chile.", "chilenismo", "«Al tiro» is a [Chileanism]: that's how they say «right away» in Chile.", "-ismo nombra un rasgo lingüístico propio de un lugar: Chile → chilenismo, como Uruguay → uruguayismo."),
     fe("Las formas agudas del voseo, como «tenés», llevan ___.", "tilde", "Stressed-final voseo forms, like «tenés», carry [a written accent].", "Las formas voseantes de varias sílabas son agudas terminadas en -s: llevan tilde (los monosílabos como «sos» no).", ["acento gráfico", "acento"]),
     fe("En Costa Rica también ___.", "voseamos", "In Costa Rica we [use vos] too.", "«Vosear»: usar vos.", ["usamos el vos", "usamos vos"]),
   ],
@@ -614,7 +618,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Se me olvidó el ___ en el carro.", "celular", "I left my [phone] in the car. (Mexico)", "Móvil (España) / celular (América).", ["teléfono"]),
   ],
   "c1r-mission-market-shopping": [
-    fe("¿A cómo están los ___?", "elotes", "How much is the [corn on the cob]? (Mexico)", "Mazorca de maíz: elote (México), choclo (Cono Sur y Andes)."),
+    fe("Quiero dos ___ con chile y limón.", "elotes", "I want two [corn on the cob] with chili and lime. (Mexico)", "La mazorca de maíz es elote en México y choclo en el Cono Sur y los Andes. Elote viene del náhuatl, como aguacate y chile."),
   ],
   "regional-lexical-variation-3": [
     fe("Las ___ que se comen en el cine se llaman cabritas en Chile.", "palomitas", "The [popcorn] people eat at the cinema is called cabritas in Chile.", "«Palomitas» es la forma de España y México.", ["palomitas de maíz"]),
@@ -623,11 +627,11 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "regional-lexical-variation-4": [
     fe("Vamos a ___ un taxi.", "tomar", "Let's [take] a taxi. (Mexico)", "En México y Argentina, «coger» es malsonante: se dice «tomar» o «agarrar».", ["agarrar"]),
-    fe("Ante la duda, conviene elegir la variante más ___.", "neutra", "When in doubt, it's best to choose the most [neutral] option.", "La variante neutra es la menos marcada regionalmente."),
+    fe("Para un público internacional, lo prudente es usar la palabra más ___.", "neutra", "For an international audience, the prudent thing is to use the most [neutral] word.", "La variante neutra es la menos marcada regionalmente: la que no suena extraña ni malsonante en ningún país."),
     fe("Esa palabra resulta ___ en algunos países.", "malsonante", "That word is [offensive] in some countries.", "«Malsonante»: chocante o inapropiada por su connotación.", ["vulgar", "grosera", "ofensiva"]),
   ],
   "c1r-error-hunt-false-friends-dialectal": [
-    fe("¿Te tomas un ___?", "tinto", "Would you like a [black coffee]? (Bogotá)", "En Colombia, un tinto es un café solo, no un vino.", ["tintico"]),
+    fe("Todas las mañanas me tomo un ___ antes de entrar a la oficina.", "tinto", "Every morning I have a [black coffee] before going into the office. (Bogotá)", "En Colombia un tinto es un café solo, no un vino; en España, un tinto es una copa de vino tinto.", ["tintico"]),
   ],
   "regional-lexical-variation-5": [
     fe("Si no entiendes una palabra local, pregunta ___.", "sin reparos", "If you don't understand a local word, ask [without hesitation].", "«Sin reparos»: sin vergüenza ni temor.", ["sin vergüenza", "sin miedo"]),
@@ -664,7 +668,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Mucha gente ___ con la película.", "se sorprendió", "Many people [were amazed] by the film. (neutral)", "Neutro: «sorprenderse» en lugar del coloquial «flipar».", ["quedó sorprendida", "se quedó sorprendida", "se asombró"]),
   ],
   "c1r-dialogue-lab-filler-words": [
-    fe("—¿Por qué no viniste? —___ tenía fiebre.", "Es que", "—Why didn't you come? —[Well, the thing is,] I had a fever.", "«Es que» introduce una justificación en la conversación.", ["Porque"]),
+    fe("—¿No vas a cenar? —___ comí muy tarde.", "Es que", "—Aren't you having dinner? —[Well, the thing is,] I ate very late.", "Es que introduce una justificación en la respuesta: explica por qué no va a cenar. En un texto formal se diría «porque»."),
   ],
   "neutral-vs-colloquial-3": [
     fe("Un buen periodista sabe ___ con soltura entre registros.", "moverse", "A good journalist knows how to [move] comfortably between registers.", "«Moverse con soltura»: actuar con naturalidad entre opciones.", ["pasar", "cambiar"]),
@@ -692,7 +696,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Sus críticas escondían un ___ velado.", "sarcasmo", "His criticism hid a thinly veiled [sarcasm].", "«El sarcasmo velado»: una burla disimulada."),
   ],
   "c1r-mission-subtitle-neutral": [
-    fe("¿Ustedes ___ dónde dejé mi celular?", "saben", "Do you guys [know] where I left my phone? (neutral)", "En el español neutro se usa ustedes, no vosotros (sabéis)."),
+    fe("¿Ustedes ___ a qué hora empieza la película?", "saben", "Do you guys [know] what time the movie starts? (neutral)", "En el español neutro se usa ustedes con el verbo en tercera persona del plural (saben), no vosotros (sabéis)."),
   ],
 
   // ---- Correspondencia formal -----------------------------------------
@@ -702,7 +706,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Estimada señora: por medio de ___ le comunico mi decisión.", "la presente", "Dear Madam: [by this letter] I wish to inform you of my decision.", "«Por medio de la presente» introduce el motivo de forma solemne."),
   ],
   "formal-correspondence-2": [
-    fe("___ a su disposición para cualquier consulta.", "Quedo", "[I remain] at your disposal for any queries.", "Fórmula de cierre: «Quedo a su disposición».", ["Quedamos"]),
+    fe("___ a su disposición si necesita más información.", "Quedo", "[I remain] at your disposal should you need further information.", "Fórmula de cierre: «Quedo a su disposición» añade una nota de cortesía antes de la despedida. Si escribe una empresa, «Quedamos».", ["Quedamos"]),
     fe("___ señora Gómez:", "Estimada", "[Dear] Mrs. Gómez:", "«Estimado/a» + apellido es una apertura segura; en español va seguida de dos puntos.", ["Apreciada", "Distinguida"]),
   ],
   "c1r-transform-email-openers": [
@@ -747,7 +751,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("La muestra fue pequeña; ___, los resultados deben tomarse con cautela.", "por consiguiente", "The sample was small; [consequently], the results should be treated with caution.", "La muestra pequeña es la causa y la cautela su consecuencia, así que va un conector consecutivo («por consiguiente»), no uno de contraste como «sin embargo».", ["en consecuencia", "por lo tanto", "por tanto", "por ende"]),
   ],
   "academic-essay-writing-part-1-mastery-check": [
-    fe("___, conviene señalar las limitaciones metodológicas del estudio.", "Asimismo", "[Likewise], it is worth pointing out the study's methodological limitations.", "«Asimismo» añade un argumento sin contradecir el anterior.", ["Además", "Igualmente", "Del mismo modo"]),
+    fe("El estudio aporta datos nuevos; ___, propone un método de análisis original.", "asimismo", "The study provides new data; [likewise], it proposes an original method of analysis.", "«Asimismo» añade un argumento sin contradecir el anterior.", ["además", "igualmente", "del mismo modo"]),
   ],
   "c1r-transform-depersonalize": [
     fe("___ los efectos del cambio climático en la agricultura.", "Este ensayo analiza", "[This essay analyzes] the effects of climate change on agriculture.", "Sujeto no humano en lugar de «En este ensayo voy a analizar».", ["El presente ensayo analiza", "Este trabajo analiza", "En este ensayo se analizan"]),
@@ -765,7 +769,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "c1r-story-detective-essay-structure": [
     fe("___ que reduciría la producción; no obstante, los estudios indican lo contrario.", "Podría objetarse", "[It could be objected] that it would reduce production; however, studies indicate the opposite.", "Marcador de refutación: se presenta la objeción antes de rebatirla.", ["Podría argumentarse", "Cabría objetar", "Podría alegarse"]),
-    fe("___, los datos respaldan la tesis inicial.", "En suma", "[In sum], the data support the initial thesis.", "Marcador de conclusión.", ["En definitiva", "En resumen", "En síntesis", "En conclusión"]),
+    fe("___, las pruebas reunidas confirman la hipótesis de partida.", "En suma", "[In sum], the evidence gathered confirms the starting hypothesis.", "Marcador de conclusión: recoge lo argumentado y lo cierra. «En primer lugar» o «asimismo» no sirven aquí, porque ordenan o suman argumentos dentro del desarrollo.", ["En definitiva", "En resumen", "En síntesis", "En conclusión"]),
   ],
   "academic-essay-writing-part-2-3": [
     fe("Conviene tomar estos datos ___.", "con reservas", "These data should be taken [with caution].", "«Con reservas»: con cautela, sin aceptar algo del todo.", ["con cautela", "con precaución"]),
@@ -778,7 +782,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Ese razonamiento parece válido, pero es una ___.", "falacia", "That reasoning seems valid, but it's a [fallacy].", "«La falacia»: razonamiento que parece válido sin serlo."),
   ],
   "c1r-spiral-academic-nominalization": [
-    fe("Tras la ___ de la ley, se observó un descenso del desempleo.", "aprobación", "After the [passing] of the law, a drop in unemployment was observed.", "Nominalización académica: «cuando se aprobó la ley» → «tras la aprobación de la ley»."),
+    fe("Tras la ___ del decreto, aumentaron las contrataciones.", "aprobación", "After the [approval] of the decree, hiring increased.", "Nominalización académica: «cuando se aprobó el decreto» → «tras la aprobación del decreto». El verbo en -ar da el sustantivo en -ación."),
   ],
 
   // ---- Desafíos C1 ---------------------------------------------------------

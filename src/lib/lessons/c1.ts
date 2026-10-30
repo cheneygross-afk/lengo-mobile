@@ -747,22 +747,21 @@ const C1_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración concesiva con «a pesar de que».",
         "words": [
-          "a",
+          "A",
           "pesar",
           "de",
           "que",
           "el",
-          "informe",
-          "era",
-          "extenso",
-          "lo",
-          "terminó",
-          "en",
-          "un",
-          "día"
+          "restaurante",
+          "estaba",
+          "lleno,",
+          "nos",
+          "dieron",
+          "una",
+          "mesa."
         ],
-        "translation": "Even though the report was long, he finished it in a day.",
-        "explanation": "«A pesar de que» + indicativo (era extenso) presenta el obstáculo como un hecho real; la conclusión queda inalterada."
+        "translation": "Even though the restaurant was full, they gave us a table.",
+        "explanation": "«A pesar de que» + indicativo (estaba lleno) presenta el obstáculo como un hecho real ya superado; con subjuntivo («estuviera») sería una posibilidad."
       }
     ]
   },
@@ -865,9 +864,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Vocabulario: la concesión y el contraste",
+        "heading": "La idea: pocas terminaciones, muchas palabras para conceder y matizar",
         "body": [
-          "35 palabras relacionadas con la concesión y el contraste."
+          "Casi todas estas 35 palabras salen de unos pocos sufijos, y conocerlos te deja deducir palabras nuevas: -ción da la acción de un verbo (argumentar → la argumentación); -encia, la cualidad de un adjetivo en -ente (persistente → la persistencia); -dad, la cualidad (fútil → la futilidad); -izar, el verbo de «hacer…» (mínimo → minimizar); in- + -able, «que no se puede…» (salvar → insalvable). El sufijo decide también el género: -ción, -encia y -dad son femeninos; -miento, masculino."
         ],
         "examples": [
           {
@@ -1009,6 +1008,32 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "la insistencia",
             "en": "la acción de repetir con firmeza una petición o una idea"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Si «coherente» da «la coherencia», ¿qué sustantivo sale de «reticente» (que se resiste a algo)?",
+            "options": [
+              "la reticencia",
+              "la reticentidad",
+              "el reticentamiento",
+              "la reticención"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los adjetivos en -ente forman el sustantivo en -encia: reticente → la reticencia, como persistente → la persistencia. -idad, -miento y -ción se combinan con otras bases."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Irrenunciable» no está en la lista. Por su forma, ¿qué significa «un derecho irrenunciable»?",
+            "options": [
+              "Un derecho al que no se puede renunciar.",
+              "Un derecho al que se renuncia con facilidad.",
+              "Un derecho al que ya se ha renunciado.",
+              "Un derecho que obliga a renunciar a otros."
+            ],
+            "correctIndex": 0,
+            "explanation": "in- (ir- delante de r) + verbo + -able = «que no se puede…»: irrenunciable es aquello a lo que no se puede renunciar, igual que insalvable es lo que no se puede salvar."
           }
         ]
       }
@@ -1552,6 +1577,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "En la práctica",
         "body": [
+          "Recuerda la regla y búscala en el texto: cada sustantivo abstracto (reducción, implementación, transformación, retraso, toma de decisiones) resume una oración entera con su verbo; «el hecho de que» convierte un hecho en sujeto y «lo + adjetivo» hace lo mismo con una cualidad. Así el texto gana densidad informativa y suena objetivo, porque casi nunca dice quién hace qué.",
           "La reciente reducción de la inversión extranjera ha generado un debate sobre la sostenibilidad del modelo económico vigente.",
           "El hecho de que varias empresas hayan trasladado su producción a otros países plantea interrogantes sobre la competitividad del sector.",
           "Lo preocupante de esta tendencia no es su magnitud actual, sino su posible aceleración en los próximos años.",
@@ -1565,7 +1591,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: la nominalización",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con la nominalización; las 17 restantes llegan en la Parte 3 de 3 de esta serie, después de unas lecciones de práctica."
+          "Primera tanda: 18 palabras relacionadas con la nominalización; las 17 restantes llegan en la Parte 3 de 3 de esta serie, después de unas lecciones de práctica.",
+          "Fíjate en que el propio vocabulario de la gramática sigue los patrones que estudias: -ción/-sión nombra el proceso de un verbo (nominalizar → la nominalización, sustantivar → la sustantivación, derivar → la derivación, restringir → la restricción); -idad nombra la cualidad de un adjetivo (denso → la densidad, productivo → la productividad); -ismo forma el término especializado (técnico → el tecnicismo). Si conoces la base, puedes deducir la palabra."
         ],
         "examples": [
           {
@@ -1640,6 +1667,32 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "el matiz estilístico",
             "en": "la sutil diferencia de efecto o tono que aporta una elección lingüística"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Si «sustantivar» da «la sustantivación», ¿cómo se llama el proceso de «adjetivar» (convertir una palabra en adjetivo)?",
+            "options": [
+              "la adjetivación",
+              "la adjetividad",
+              "el adjetivamiento",
+              "la adjetiveza"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los verbos en -ar forman su proceso con -ción: adjetivar → la adjetivación, igual que sustantivar → la sustantivación o nominalizar → la nominalización. -idad y -eza nombran cualidades de adjetivos, no procesos."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué sustantivo nombra la cualidad de un texto «conciso»?",
+            "options": [
+              "la concisión",
+              "el concisismo",
+              "la concisación",
+              "el concisamiento"
+            ],
+            "correctIndex": 0,
+            "explanation": "Conciso forma su abstracto en -ión: la concisión (como preciso → la precisión). -ismo nombra doctrinas o términos especializados y -ación, procesos de verbos en -ar."
+          }
         ]
       }
     ],
@@ -1680,7 +1733,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos para analizar el estilo nominal",
         "body": [
-          "Segunda tanda de palabras de la lección: conceptos gramaticales (el sintagma, el núcleo nominal, la cláusula subordinada) y palabras para describir el estilo nominal y sus efectos (condensar, dosificar, farragoso, enrevesado, el circunloquio)."
+          "Segunda tanda de palabras de la lección: conceptos gramaticales (el sintagma, el núcleo nominal, la cláusula subordinada) y palabras para describir el estilo nominal y sus efectos (condensar, dosificar, farragoso, enrevesado, el circunloquio).",
+          "Tres patrones te ayudan a retenerlas y a deducir otras: el prefijo re- significa «volver a» (reformular = volver a formular; también replantear, reescribir); -ción y -idad convierten verbos y adjetivos en sustantivos (abstraer → la abstracción, imparcial → la imparcialidad); y muchos adjetivos de estilo son participios que describen el texto como resultado de un exceso (rebuscado = buscado de más, enrevesado = vuelto del revés, recargado = cargado de más)."
         ],
         "examples": [
           {
@@ -1750,6 +1804,32 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "la fijación léxica",
             "en": "el proceso por el cual una expresión se estabiliza en la lengua con un uso convencional"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Si «reformular» es volver a formular, ¿qué significa «replantear un problema»?",
+            "options": [
+              "Volver a plantearlo, enfocarlo de nuevo.",
+              "Plantearlo por primera vez.",
+              "Dejar de plantearlo.",
+              "Plantearlo con mucha prisa."
+            ],
+            "correctIndex": 0,
+            "explanation": "El prefijo re- significa «volver a»: replantear es plantear de nuevo, igual que reformular es formular de nuevo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Un texto «recargado» (palabra que no está en la lista) es…",
+            "options": [
+              "un texto con demasiados adornos o elementos",
+              "un texto muy breve y claro",
+              "un texto que se ha vuelto a escribir",
+              "un texto sin ningún adjetivo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Como rebuscado (buscado de más), recargado es un participio que describe el resultado de un exceso: cargado de más, con demasiados elementos. «Vuelto a escribir» sería «reescrito»."
           }
         ]
       }
@@ -1977,15 +2057,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             "type": "word-order",
             "prompt": "Ordena las palabras para formar una oración que exprese interrupción de un hábito.",
             "words": [
+              "Mi",
+              "padre",
               "dejó",
               "de",
-              "fumar",
+              "beber",
+              "café",
               "hace",
-              "dos",
-              "años"
+              "un",
+              "mes."
             ],
-            "translation": "He quit smoking two years ago.",
-            "explanation": "«Dejar de fumar» expresa la interrupción de un hábito; aquí, por el contexto, se entiende como abandono."
+            "translation": "My father quit drinking coffee a month ago.",
+            "explanation": "«Dejar de + infinitivo» expresa la interrupción de un hábito; «terminar de» diría que acabó una tarea concreta."
           }
         ]
       }
@@ -2297,14 +2380,14 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Ordena las palabras para formar una oración con llevar + gerundio.",
         "words": [
           "llevo",
-          "dos",
-          "horas",
-          "esperando",
-          "el",
-          "autobús"
+          "una",
+          "semana",
+          "buscando",
+          "mis",
+          "gafas"
         ],
-        "altOrders": [["llevo", "esperando", "el", "autobús", "dos", "horas"]],
-        "translation": "I've been waiting for the bus for two hours.",
+        "altOrders": [["llevo", "buscando", "mis", "gafas", "una", "semana"]],
+        "translation": "I've been looking for my glasses for a week.",
         "explanation": "«Llevar» + tiempo + gerundio expresa la duración de una acción que empezó en el pasado y sigue en curso."
       }
     ]
@@ -2320,6 +2403,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "En la práctica",
         "body": [
+          "Recuerda la regla y búscala en el diálogo: llevar + tiempo + gerundio mide la duración, seguir + gerundio la continuidad, ir + gerundio el avance gradual y venir + gerundio la acumulación desde el pasado; dejar de, terminar de y acabar de + infinitivo marcan las fases de cese. El infinitivo, además, hace de sujeto (renovar una casa…) y de mandato impersonal en los carteles (no molestar).",
           "Sofía: Llevo tres meses reformando la cocina y todavía no he terminado.",
           "Pablo: ¿Sigues trabajando tú sola en todo esto?",
           "Sofía: Sí, aunque contraté a alguien para instalar los armarios.",
@@ -2333,7 +2417,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: el gerundio y el infinitivo",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con el gerundio y el infinitivo; las 17 restantes llegan en la Parte 3 de 3 de esta serie, después de unas lecciones de práctica."
+          "Primera tanda: 18 palabras relacionadas con el gerundio y el infinitivo; las 17 restantes llegan en la Parte 3 de 3 de esta serie, después de unas lecciones de práctica.",
+          "Tres patrones de formación te ayudan a deducir palabras nuevas: -ción/-sión nombra el proceso de un verbo (progresar → la progresión, prolongar → la prolongación, acumular → la acumulación, superponer → la superposición); in-/im- y des- niegan (ininterrumpido = que no se interrumpe, impropio = no propio, desaconsejado = no aconsejado); y algunos verbos dan sustantivos sin sufijo (cesar → el cese, abandonar → el abandono)."
         ],
         "examples": [
           {
@@ -2408,6 +2493,32 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "ininterrumpido",
             "en": "que continúa sin pausas ni cortes («tres horas de lluvia ininterrumpida»)"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Si superponer da «la superposición», ¿qué sustantivo corresponde a «yuxtaponer» (poner una cosa junto a otra)?",
+            "options": [
+              "la yuxtaposición",
+              "el yuxtaponimiento",
+              "la yuxtaponencia",
+              "el yuxtapuesto"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los compuestos de «poner» forman el sustantivo en -posición: superponer → la superposición, yuxtaponer → la yuxtaposición (como componer → la composición)."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Ininterrumpido» es lo que no se interrumpe. Por la misma regla, un trabajo «inacabado» es…",
+            "options": [
+              "un trabajo que no se ha terminado",
+              "un trabajo que se termina sin pausas",
+              "un trabajo que se ha vuelto a empezar",
+              "un trabajo terminado antes de tiempo"
+            ],
+            "correctIndex": 0,
+            "explanation": "in- + participio niega el participio: inacabado = no acabado, igual que ininterrumpido = no interrumpido."
+          }
         ]
       }
     ],
@@ -2448,7 +2559,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos sobre tiempo, aspecto y registro",
         "body": [
-          "Segunda tanda: palabras para hablar del desarrollo de una acción en el tiempo (el lapso, a la larga, acentuarse, persistir, reanudar) y del registro de avisos y normas (la variante estándar, preceptivo, la fórmula fija)."
+          "Segunda tanda: palabras para hablar del desarrollo de una acción en el tiempo (el lapso, a la larga, acentuarse, persistir, reanudar) y del registro de avisos y normas (la variante estándar, preceptivo, la fórmula fija).",
+          "Cuatro patrones de formación te permiten deducir palabras que no has visto: -ez/-eza convierte un adjetivo en la cualidad (nítido → la nitidez); -azgo forma sustantivos de estado o resultado (harto → el hartazgo, hallar → el hallazgo); re- indica repetición o vuelta a un estado anterior (anudar → reanudar, «volver a atar» lo interrumpido); y -ificar forma verbos de «hacer» (cuanto → cuantificar = hacer medible). Ojo con las locuciones fijas: «a la larga» (al final) no es «a lo largo de» (durante), y «de antemano» no admite otra preposición."
         ],
         "examples": [
           {
@@ -2518,6 +2630,32 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "el orden cronológico",
             "en": "la disposición de los hechos según el momento en que ocurren"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Si de «nítido» sale «la nitidez», ¿qué sustantivo corresponde a «rígido»?",
+            "options": [
+              "la rigidez",
+              "la rigideza",
+              "el rigidazgo",
+              "la rigidación"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los adjetivos en -ido forman la cualidad con -ez: nítido → la nitidez, rígido → la rigidez, lúcido → la lucidez. «-eza» aparece con otras bases (bello → belleza), no con -ido."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Reanudar» es continuar lo interrumpido: re- indica repetición. Por la misma regla, «replantear» un proyecto significa…",
+            "options": [
+              "volver a plantearlo desde otro enfoque",
+              "abandonarlo definitivamente",
+              "plantearlo por primera vez",
+              "retrasarlo sin fecha"
+            ],
+            "correctIndex": 0,
+            "explanation": "re- + verbo = volver a hacer la acción: replantear = volver a plantear, igual que reanudar = volver a anudar lo interrumpido. No significa abandonar ni aplazar."
           }
         ]
       }
@@ -2793,6 +2931,17 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "La pasiva con «ser» pertenece al registro formal y escrito, típico del periodismo, los textos legales y los informes técnicos. En una charla entre amigos, un mensaje familiar o una exclamación coloquial, sonaría rígida: ahí se prefiere la activa o el «se»."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+            "sentence": "Las muestras ___ por dos laboratorios independientes.",
+            "answer": "fueron analizadas",
+            "en": "The samples [were analysed] by two independent laboratories.",
+            "altAnswers": [
+              "han sido analizadas"
+            ],
+            "explanation": "Ser + participio con agente explícito: «ser» lleva el tiempo (pretérito, fueron) y el participio concuerda con el sujeto paciente «las muestras» (femenino plural), no con el agente."
           }
         ]
       }
@@ -3024,14 +3173,17 @@ const C1_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración que describa un estado resultante.",
         "words": [
+          "las",
+          "entradas",
+          "para",
           "el",
-          "informe",
+          "concierto",
           "ya",
-          "está",
-          "terminado"
+          "están",
+          "agotadas"
         ],
-        "translation": "The report is already finished.",
-        "explanation": "«Estar + participio» describe aquí el estado resultante actual del informe, sin interés en el proceso ni en el agente que lo terminó."
+        "translation": "The tickets for the concert are already sold out.",
+        "explanation": "Estar + participio («están agotadas») describe el estado resultante: no interesa quién compró las entradas ni cuándo, solo que ya no quedan. El participio concuerda con «entradas» (femenino plural)."
       }
     ]
   },
@@ -3059,7 +3211,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: la voz pasiva y el se impersonal",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con la voz pasiva y el se impersonal; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras relacionadas con la voz pasiva y el se impersonal; las 17 restantes llegan en la lección siguiente.",
+          "El patrón que hay detrás: varios de estos términos se forman con un prefijo de negación sobre una base que ya conoces. «In-» (im- ante p/b) niega adjetivos cultos: variable → invariable, equívoco → inequívoco, transitivo → intransitivo. «A-» niega sobre todo términos técnicos de origen griego o latino: gramatical → agramatical. Con esa regla puedes entender términos nuevos sin buscarlos."
         ],
         "examples": [
           {
@@ -3134,6 +3287,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "la omisión",
             "en": "la supresión deliberada de un elemento que podría haberse expresado"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un verbo que no admite complemento directo, como «llegar», es un verbo…",
+            "options": [
+              "intransitivo",
+              "atransitivo",
+              "destransitivo",
+              "contransitivo"
+            ],
+            "correctIndex": 0,
+            "explanation": "El prefijo de negación de los adjetivos cultos es «in-»: transitivo → intransitivo (como variable → invariable). «A-» aparece en términos fijos como «agramatical» o «atípico», pero no se aplica a «transitivo»; «des-» y «con-» no niegan adjetivos de este tipo."
+          }
         ]
       }
     ],
@@ -3174,7 +3341,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos para analizar y redactar",
         "body": [
-          "Segunda tanda: palabras útiles para describir construcciones (la ambigüedad sintáctica, la marca gramatical, el análisis contrastivo) y para redactar informes y procedimientos (llevarse a cabo, reglamentario, el informe técnico, el restablecimiento)."
+          "Segunda tanda: palabras útiles para describir construcciones (la ambigüedad sintáctica, la marca gramatical, el análisis contrastivo) y para redactar informes y procedimientos (llevarse a cabo, reglamentario, el informe técnico, el restablecimiento).",
+          "El patrón que hay detrás: muchas de estas palabras se forman con sufijos productivos. Verbo + -miento da el sustantivo de la acción (restablecer → el restablecimiento, descubrir → el descubrimiento). Adjetivo + -dad / -edad da la cualidad (vago → la vaguedad, unánime → la unanimidad, ambiguo → la ambigüedad). Sustantivo + -ario da un adjetivo de relación (reglamento → reglamentario). Si conoces la base, puedes formar y entender la palabra derivada, que es justo lo que pide el estilo de los informes."
         ],
         "examples": [
           {
@@ -3244,6 +3412,32 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "retomar",
             "en": "volver a emprender una actividad que había quedado interrumpida"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el patrón verbo + -miento, ¿qué sustantivo corresponde a «agotar»?",
+            "options": [
+              "el agotamiento",
+              "la agotación",
+              "el agotado",
+              "la agotedad"
+            ],
+            "correctIndex": 0,
+            "explanation": "Verbo en -ar + -miento → sustantivo de acción: agotar → el agotamiento (como restablecer → el restablecimiento). «Agotación» no existe, «el agotado» es un participio sustantivado y -edad forma cualidades a partir de adjetivos, no de verbos."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Cómo se llama la cualidad de lo que es «precario»?",
+            "options": [
+              "la precariedad",
+              "el precariamiento",
+              "la precariación",
+              "lo precarizado"
+            ],
+            "correctIndex": 0,
+            "explanation": "Adjetivo + -edad → sustantivo de cualidad: precario → la precariedad (como vago → la vaguedad). -miento y -ción forman sustantivos de acción a partir de verbos, no cualidades."
           }
         ]
       }
@@ -3571,14 +3765,18 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "translate",
-        "direction": "es-en",
-        "prompt": "Traduce al inglés.",
-        "source": "Total, para qué esforzarse tanto si total nadie lo iba a agradecer.",
-        "answer": "What was the point of trying so hard when, after all, nobody was going to be grateful for it anyway.",
+        "direction": "en-es",
+        "prompt": "Transforma en estilo indirecto libre.",
+        "source": "«Total, ¿para qué me esfuerzo tanto si nadie me lo va a agradecer?», pensó.",
+        "answer": "Total, ¿para qué esforzarse tanto si nadie se lo iba a agradecer?",
         "altAnswers": [
-          "Anyway, what was the use of trying so hard when nobody was going to appreciate it in the end."
+          "Total, ¿para qué se esforzaba tanto si nadie se lo iba a agradecer?",
+          "Total, ¿para qué esforzarse tanto si nadie se lo agradecería?",
+          "Total, ¿para qué se esforzaba tanto si nadie se lo agradecería?",
+          "Total, ¿para qué esforzarse tanto si nadie iba a agradecérselo?",
+          "Total, ¿para qué se esforzaba tanto si nadie iba a agradecérselo?"
         ],
-        "explanation": "La expresión coloquial «total», repetida aquí con matiz resignado, delata la voz subjetiva del personaje filtrada en la narración, un rasgo típico del estilo indirecto libre que el traductor debe reproducir con un matiz equivalente en inglés."
+        "explanation": "En el estilo indirecto libre se conservan el coloquialismo «total» y la pregunta retórica (la voz del personaje), pero desaparecen las comillas y el verbo introductor, la primera persona pasa a tercera (me → se) y el presente se desplaza (va a → iba a). El presente «me esfuerzo» puede quedar en infinitivo o pasar a imperfecto."
       },
       {
         "type": "multiple-choice",
@@ -3890,7 +4088,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos de teoría narrativa",
         "body": [
-          "Segunda tanda: conceptos para analizar la voz y el punto de vista (la voz narrativa, la distancia narrativa, la inmediatez, el desapego) y la construcción del relato (el marco narrativo, la retrospección, el punto de inflexión)."
+          "Segunda tanda: conceptos para analizar la voz y el punto de vista (la voz narrativa, la distancia narrativa, la inmediatez, el desapego) y la construcción del relato (el marco narrativo, la retrospección, el punto de inflexión).",
+          "El patrón que hay detrás: muchos términos de crítica literaria son sustantivos de cualidad formados con -ez o -eza sobre un adjetivo (inmediato → la inmediatez, híbrido → la hibridez, vivo → la viveza) y todos son femeninos. Otros llevan prefijos cultos con significado fijo: retro- «hacia atrás» (la retrospección), omni- «todo» (omnisciente). Si reconoces la pieza, entiendes la palabra aunque no la hayas visto nunca."
         ],
         "examples": [
           {
@@ -3960,6 +4159,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "entrever",
             "en": "adivinar o intuir algo que no se muestra con claridad"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el patrón, ¿cómo se llama la cualidad de lo que es «rígido»?",
+            "options": [
+              "la rigidez",
+              "la rigidad",
+              "el rigidismo",
+              "la rigideza"
+            ],
+            "correctIndex": 0,
+            "explanation": "Adjetivo en -ido + -ez → sustantivo femenino de cualidad: rígido → la rigidez (como lúcido → la lucidez o híbrido → la hibridez). «Rigidad» y «rigideza» no existen, y -ismo forma nombres de doctrinas o tendencias."
           }
         ]
       }
@@ -4089,14 +4302,14 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "translate",
-        "direction": "es-en",
-        "prompt": "Traduce al inglés.",
-        "source": "Vaya tontería haber confiado en sus promesas; ahora ya era demasiado tarde para reclamar nada.",
-        "answer": "What a foolish thing it had been to trust his promises; now it was too late to demand anything.",
+        "direction": "en-es",
+        "prompt": "Transforma en estilo indirecto libre.",
+        "source": "«Vaya tontería haber confiado en sus promesas; ahora ya es demasiado tarde para reclamar nada», pensó.",
+        "answer": "Vaya tontería haber confiado en sus promesas; ahora ya era demasiado tarde para reclamar nada.",
         "altAnswers": [
-          "How foolish it had been to believe his promises; it was too late now to ask for anything."
+          "Vaya tontería haber confiado en sus promesas; ya era demasiado tarde para reclamar nada."
         ],
-        "explanation": "La expresión coloquial «vaya tontería» y el adverbio de proximidad «ahora» delatan la voz subjetiva del personaje filtrada en la narración, un matiz que la traducción debe preservar con un tono igualmente coloquial en inglés."
+        "explanation": "Se conservan la exclamación coloquial («vaya tontería») y el deíctico «ahora», que son la voz del personaje; desaparecen las comillas y el verbo introductor, y el presente pasa al imperfecto del relato (es → era)."
       },
       {
         "type": "multiple-choice",
@@ -4161,7 +4374,21 @@ const C1_BASE_LESSONS: Lesson[] = [
           "el",
           "teléfono"
         ],
-        "altOrders": [["para", "colmo", "ahora", "también", "el", "teléfono", "se", "había", "quedado", "sin", "batería"]],
+        "altOrders": [
+          [
+            "para",
+            "colmo",
+            "ahora",
+            "también",
+            "el",
+            "teléfono",
+            "se",
+            "había",
+            "quedado",
+            "sin",
+            "batería"
+          ]
+        ],
         "translation": "To top it all off, now the phone had also run out of battery.",
         "explanation": "La expresión coloquial «para colmo» se integra sin verbo introductor ni comillas dentro de la narración, delatando la exasperación del personaje ante una nueva contrariedad."
       },
@@ -4496,7 +4723,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: por y para en contextos profesionales",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con por y para en contextos profesionales; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras relacionadas con por y para en contextos profesionales; las 17 restantes llegan en la lección siguiente.",
+          "El patrón que hay detrás: en el registro profesional, muchas preposiciones simples se sustituyen por locuciones prepositivas (sustantivo entre preposiciones) que precisan su valor. Las que miran a la causa, la base o la duración heredan el sentido de «por»: en virtud de, por espacio de, en representación de. Las que miran a un objetivo heredan el de «para»: con vistas a, a efectos de, con el fin de. Si sabes qué valor tiene la locución, sabes qué preposición simple sustituye."
         ],
         "examples": [
           {
@@ -4571,6 +4799,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "el auditor",
             "en": "la persona encargada de revisar y verificar la exactitud de unas cuentas"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«En aras de la transparencia, se publicarán todas las cuentas.» ¿Qué preposición simple podría sustituir a «en aras de»?",
+            "options": [
+              "para",
+              "por",
+              "con",
+              "según"
+            ],
+            "correctIndex": 0,
+            "explanation": "«En aras de» (= con el fin de favorecer algo) mira hacia un objetivo: equivale a «para» («para lograr la transparencia»). «Por» presentaría la transparencia como causa ya existente; «con» y «según» no expresan finalidad."
+          }
         ]
       }
     ],
@@ -4611,7 +4853,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos laborales y contractuales",
         "body": [
-          "Segunda tanda: palabras de los contratos (la disposición contractual, la cláusula resolutoria, estipular, rescindir, vinculante) y de la organización del trabajo (la guardia, el preaviso, la fecha tope, la baja laboral)."
+          "Segunda tanda: palabras de los contratos (la disposición contractual, la cláusula resolutoria, estipular, rescindir, vinculante) y de la organización del trabajo (la guardia, el preaviso, la fecha tope, la baja laboral).",
+          "El patrón que hay detrás: varias de estas palabras se forman con prefijos y sufijos transparentes. Pre- indica anterioridad (el preaviso = el aviso previo, como prever o precontrato). -nte forma adjetivos que significan «que hace la acción» (vincular → vinculante, «que obliga»; como determinar → determinante). Y muchas situaciones laborales se expresan con «estar de» + sustantivo: estar de baja, de guardia, de vacaciones."
         ],
         "examples": [
           {
@@ -4681,6 +4924,32 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "el escalafón",
             "en": "la lista de los empleados ordenada por categoría y antigüedad"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el patrón de «vinculante», ¿cómo se llama una norma que obliga a algo, que determina lo que debe hacerse?",
+            "options": [
+              "determinante",
+              "determinable",
+              "determinada",
+              "determinación"
+            ],
+            "correctIndex": 0,
+            "explanation": "-nte forma adjetivos activos («que hace la acción»): vincular → vinculante, determinar → determinante. «Determinable» significa «que puede determinarse» (pasivo), «determinada» es un participio y «determinación» es un sustantivo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Un trabajador que está de vacaciones cuando su empresa lo llama de urgencia está…",
+            "options": [
+              "de vacaciones",
+              "en vacaciones",
+              "por vacaciones",
+              "a vacaciones"
+            ],
+            "correctIndex": 0,
+            "explanation": "Las situaciones laborales temporales se expresan con «estar de» + sustantivo: de vacaciones, de baja, de guardia. «Cerrado por vacaciones» sí lleva «por», pero ahí indica la causa del cierre."
           }
         ]
       }
@@ -5139,25 +5408,26 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Casos híbridos: es/está claro, es/está bueno",
         "body": [
-          "Ciertas construcciones evaluativas admiten tanto «ser» como «estar» con matices que oscilan entre la objetividad y la subjetividad del juicio emitido. «Está claro que llegaremos tarde» es la fórmula habitual y «es claro que llegaremos tarde» suena más formal o escrita; algunos hablantes perciben en la segunda una deducción lógica, objetiva y compartible por cualquiera que disponga de los mismos datos, mientras que «está claro» añade un matiz de evidencia inmediata y perceptible, como si la situación se hubiera vuelto obvia a partir de una observación reciente.",
-          "Un contraste semejante distingue «es bueno» de «está bueno»: el primero valora una cualidad inherente y estable, mientras que el segundo valora una experiencia puntual y contextual, sin que ello implique nada sobre la calidad general del objeto o la persona. Estos casos límite demuestran que la oposición ser/estar no se reduce a permanencia frente a transitoriedad, sino que abarca también matices de objetividad, evidencia y alcance del juicio evaluativo."
+          "La regla: con un adjetivo de valoración, ser presenta el juicio como una propiedad general del sujeto, válida para cualquiera y en cualquier momento; estar lo presenta como el resultado de una experiencia o una observación concreta. Por eso «está claro que…» es lo habitual cuando la evidencia salta a la vista ahora, mientras que «es claro que…» suena más formal y deductivo, propio de la lengua escrita.",
+          "Lo mismo ocurre con «bueno»: «es bueno» valora una calidad estable (un restaurante, un médico, una persona bondadosa); «está bueno» valora lo que acabas de probar o percibir («esta sopa está buena»), sin decir nada de la calidad general. Cuidado: referido a una persona, «está bueno/a» significa coloquialmente «es atractivo/a», así que en un registro cuidado se dice «es muy bueno en su trabajo».",
+          "Por qué importa: la oposición ser/estar no es solo «permanente frente a pasajero». También separa el juicio general (ser) de la experiencia concreta (estar)."
         ],
         "examples": [
           {
             "es": "Es claro que necesitamos más tiempo para terminar.",
-            "en": "Deducción lógica y objetiva, compartible por cualquiera con los mismos datos."
+            "en": "Clearly we need more time to finish. (es claro: deducción, registro escrito)"
           },
           {
             "es": "Está claro que necesitamos más tiempo para terminar.",
-            "en": "Evidencia inmediata y perceptible a partir de la situación actual."
+            "en": "It's obvious we need more time to finish. (está claro: evidencia inmediata, lo habitual)"
           },
           {
             "es": "Este restaurante es bueno en general.",
-            "en": "Valoración de una cualidad estable e inherente."
+            "en": "This restaurant is good overall. (calidad estable)"
           },
           {
             "es": "Está buena esta sopa que acabamos de probar.",
-            "en": "Valoración de una experiencia puntual y contextual."
+            "en": "This soup we've just tried is tasty. (experiencia concreta)"
           }
         ],
         "checkpoint": [
@@ -5183,6 +5453,17 @@ const C1_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "La oposición ser/estar en construcciones evaluativas abarca matices de objetividad, evidencia y alcance del juicio, más allá de la simple permanencia o transitoriedad."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Acabas de probar el gazpacho de tu suegra y te encanta. ¿Qué le dices?",
+            "options": [
+              "¡Este gazpacho está buenísimo!",
+              "¡Este gazpacho es buenísimo!",
+              "Las dos frases dicen exactamente lo mismo."
+            ],
+            "correctIndex": 0,
+            "explanation": "Valoras lo que acabas de probar, una experiencia concreta: estar («está buenísimo»). «Es buenísimo» afirmaría una calidad general del gazpacho como plato, no tu impresión de ahora; por eso no son equivalentes."
           }
         ]
       }
@@ -5232,7 +5513,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: los casos límite de ser, estar y haber",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con los casos límite de ser, estar y haber; las 17 restantes llegan en la Parte 3 de 3 de esta serie, después de unas lecciones de práctica."
+          "Primera tanda: 18 palabras relacionadas con los casos límite de ser, estar y haber; las 17 restantes llegan en la Parte 3 de 3 de esta serie, después de unas lecciones de práctica.",
+          "La clave para usarlas: varias son los equivalentes cultos de ser y estar y heredan su reparto. «Celebrarse» y «tener lugar» sustituyen a ser cuando localizan un evento («la junta es en Bilbao» → «la junta se celebra en Bilbao»); «hallarse» y «encontrarse» sustituyen a estar con personas y objetos («las oficinas están arriba» → «se hallan arriba»). No se cruzan: un congreso no «se halla» en un sitio, porque un evento no ocupa espacio."
         ],
         "examples": [
           {
@@ -5307,6 +5589,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "calificar de",
             "en": "atribuir a algo o a alguien una cualidad («calificó el plan de arriesgado»)"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué verbo puede sustituir a «es» en «El congreso de cardiología es en Sevilla este año»?",
+            "options": [
+              "se celebra",
+              "se halla",
+              "se encuentra",
+              "está situado"
+            ],
+            "correctIndex": 0,
+            "explanation": "El congreso es un evento y se localiza con ser; su equivalente culto es «se celebra» (o «tiene lugar»). «Se halla», «se encuentra» y «está situado» son equivalentes de estar y sirven para objetos o personas, no para eventos."
+          }
         ]
       }
     ],
@@ -5347,7 +5643,9 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos para describir y valorar",
         "body": [
-          "Segunda tanda: adjetivos y conceptos que ayudan a elegir entre ser y estar (inherente frente a circunstancial, de por sí frente a coyuntural, el rasgo de carácter) y términos gramaticales que explican las restricciones de haber (el determinante posesivo, el determinante demostrativo, la agramaticalidad)."
+          "Segunda tanda: adjetivos y conceptos que ayudan a elegir entre ser y estar (inherente frente a circunstancial, de por sí frente a coyuntural, el rasgo de carácter) y términos gramaticales que explican las restricciones de haber.",
+          "Patrón de formación: muchos de estos adjetivos se crean añadiendo -al a un sustantivo: contexto → contextual, coyuntura → coyuntural, circunstancia → circunstancial. El mismo sufijo funciona con otros sustantivos: estructura → estructural, excepción → excepcional, norma → normal. Así puedes condensar «que depende de la coyuntura» en una sola palabra: «coyuntural».",
+          "Cuidado con dos construcciones: «inherente a» (no «de») y «se trata de», que es impersonal y no lleva sujeto: «se trata de un problema coyuntural», nunca «el problema se trata de…»."
         ],
         "examples": [
           {
@@ -5417,6 +5715,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "acontecer",
             "en": "suceder, ocurrir; es propio del registro culto"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el patrón de «coyuntura → coyuntural», ¿cómo se dice «un cambio que afecta a la estructura»?",
+            "options": [
+              "un cambio estructural",
+              "un cambio estructurado",
+              "un cambio estructurante",
+              "un cambio estructurista"
+            ],
+            "correctIndex": 0,
+            "explanation": "El sufijo -al forma adjetivos de relación a partir de sustantivos: estructura → estructural, como coyuntura → coyuntural. «Estructurado» es un participio (que tiene estructura), no un adjetivo de relación."
           }
         ]
       }
@@ -5656,39 +5968,40 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El concepto de régimen verbal",
         "body": [
-          "El régimen verbal designa el conjunto de preposiciones que un verbo exige de manera fija para introducir sus complementos, una exigencia que en la mayoría de los casos no se deriva de ninguna lógica semántica transparente, sino que responde a una convención arbitraria fijada en la lengua. «Contar con alguien», «soñar con algo» o «empeñarse en algo» no admiten sustituir su preposición por otra aparentemente similar sin alterar gravemente la gramaticalidad o el significado de la oración.",
-          "Dominar el régimen verbal exige, por tanto, memorizar cada verbo preposicional como una unidad léxica indivisible —verbo más preposición— en lugar de tratarlos como combinaciones libres de piezas intercambiables. Esta arbitrariedad convierte a los verbos preposicionales en una de las áreas donde persisten errores incluso en hablantes de nivel muy avanzado, precisamente porque la intuición gramatical general no basta para predecir la preposición correcta: solo la exposición extensa a la lengua permite fijarla con seguridad."
+          "La regla: muchos verbos españoles llevan una preposición fija, su régimen, que forma parte del verbo: contar con, consistir en, empeñarse en, soñar con. La preposición no se deduce del sentido de la frase ni de la traducción; se aprende con el verbo, como una sola unidad.",
+          "Por qué fallamos: el inglés tiene su propia preposición y tendemos a calcarla: consist of → *consistir de, dream of/about → *soñar de, count on → *contar en. La pista práctica es que la preposición del verbo se mantiene sea cual sea el complemento: un sustantivo («cuento con tu ayuda»), un infinitivo («sueño con vivir fuera») o una oración con que («cuento con que vengas»). Con «con», los pronombres de yo y tú se funden con ella: conmigo, contigo.",
+          "Por eso estos verbos causan errores incluso en niveles muy avanzados: la intuición de otra lengua no sirve, y hay que memorizar el par verbo + preposición."
         ],
         "examples": [
           {
             "es": "Cuento contigo para el proyecto de mañana.",
-            "en": "El verbo «contar» exige la preposición «con», no otra."
+            "en": "I'm counting on you for tomorrow's project. (contar con; con + ti = contigo)"
           },
           {
             "es": "El plan consiste en reducir los gastos innecesarios.",
-            "en": "El verbo «consistir» exige la preposición «en» de forma inherente."
+            "en": "The plan consists of cutting unnecessary costs. (consistir en, nunca *de)"
           },
           {
             "es": "Se empeñó en terminar el trabajo esa misma noche.",
-            "en": "El verbo «empeñarse» exige la preposición «en» en este sentido."
+            "en": "She insisted on finishing the work that same night. (empeñarse en + infinitivo)"
           },
           {
             "es": "Sueño con vivir en otro país algún día.",
-            "en": "El verbo «soñar» en este sentido exige la preposición «con»."
+            "en": "I dream of living in another country one day. (soñar con, nunca *de)"
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué caracteriza principalmente al régimen verbal en español?",
+            "question": "«Contamos ___ que el proveedor entregue el material a tiempo.»",
             "options": [
-              "Que la preposición se puede deducir siempre a partir del significado del verbo.",
-              "Que la preposición exigida por cada verbo es en gran medida arbitraria y debe memorizarse como parte de la unidad léxica.",
-              "Que todos los verbos preposicionales admiten cualquier preposición sin cambio de significado.",
-              "Que solo los verbos de movimiento tienen régimen preposicional."
+              "con",
+              "en",
+              "de",
+              "a"
             ],
-            "correctIndex": 1,
-            "explanation": "El régimen verbal responde a una convención fijada históricamente, no a una lógica semántica predecible, por lo que cada combinación verbo más preposición debe memorizarse como unidad indivisible. Por eso la preposición no se deduce siempre del significado, no vale cualquiera sin cambio de sentido y el régimen no se limita a los verbos de movimiento («depender de», «confiar en»)."
+            "correctIndex": 0,
+            "explanation": "El régimen de «contar» (con) se mantiene aunque el complemento sea una oración con que: «contamos con que entregue». «En» es un calco de count on, y suprimir la preposición («contamos que…») sería queísmo y cambiaría el sentido a «narramos que»."
           }
         ]
       }
@@ -5719,50 +6032,39 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos preposicionales con con",
         "body": [
-          "Un grupo especialmente productivo de verbos preposicionales se construye con «con», aunque con matices semánticos que conviene distinguir con precisión. «Contar con alguien» significa confiar en la disponibilidad o el apoyo de esa persona; «dar con algo» significa encontrar, a menudo tras una búsqueda, algo que se buscaba; «encontrarse con alguien» describe un encuentro, casual o planeado; y «enfrentarse con alguien» (o, más frecuente, «enfrentarse a alguien») describe una confrontación directa, física o dialéctica.",
-          "La proximidad semántica entre estos verbos —todos ellos implican, en cierto sentido, una relación de coincidencia o encuentro— explica por qué resultan especialmente propensos a la confusión entre hablantes no nativos, que tienden a extender la preposición «con» a otros verbos donde no corresponde, o a sustituirla por «en» o «a» por analogía con estructuras de su propia lengua. Distinguir estos matices exige atender no solo a la preposición, sino al significado específico que cada verbo adquiere en combinación con ella."
+          "La regla: estos cuatro verbos rigen «con», pero cada uno tiene su propio sentido: contar con (confiar en el apoyo o la disponibilidad de alguien o algo), dar con (encontrar algo tras buscarlo), encontrarse con (toparse con alguien, por casualidad o por cita) y enfrentarse con (o a) (hacer frente a algo o alguien hostil).",
+          "Por qué «con»: los cuatro expresan un contacto o un encuentro con otra entidad, y la preposición conserva esa idea de encuentro. El inglés usa preposiciones distintas (count on, come across, run into, face), y de ahí salen los calcos *contar en o *dar a la solución («dar a» significa otra cosa: tener vistas a). Ojo: sin «se», «afrontar» y «enfrentar» son transitivos y no llevan preposición: «afrontar las críticas»."
         ],
         "examples": [
           {
             "es": "Puedes contar conmigo para lo que necesites.",
-            "en": "Confianza en la disponibilidad o el apoyo de alguien."
+            "en": "You can count on me for whatever you need. (contar con = confiar en el apoyo)"
           },
           {
             "es": "Por fin dimos con la solución al problema.",
-            "en": "Se encuentra algo tras una búsqueda activa."
+            "en": "We finally found the solution to the problem. (dar con = encontrar tras buscar)"
           },
           {
             "es": "Me encontré con un viejo amigo en el supermercado.",
-            "en": "Encuentro casual entre dos personas."
+            "en": "I ran into an old friend at the supermarket. (encuentro casual)"
           },
           {
             "es": "Tuvo que enfrentarse con las críticas de todo el equipo.",
-            "en": "Confrontación directa, en este caso dialéctica."
+            "en": "He had to face criticism from the whole team. (también: enfrentarse a)"
           }
         ],
         "checkpoint": [
           {
-            "type": "matching",
-            "instructions": "Relaciona cada verbo preposicional con «con» con su significado específico.",
-            "pairs": [
-              {
-                "left": "contar con",
-                "right": "confiar en la disponibilidad o el apoyo de alguien"
-              },
-              {
-                "left": "dar con",
-                "right": "encontrar algo tras una búsqueda activa"
-              },
-              {
-                "left": "encontrarse con",
-                "right": "tener un encuentro casual o planeado con alguien"
-              },
-              {
-                "left": "enfrentarse con",
-                "right": "sostener una confrontación directa, física o dialéctica"
-              }
+            "type": "multiple-choice",
+            "question": "Después de buscar durante meses, por fin ___ un piso que podíamos pagar.",
+            "options": [
+              "dimos con",
+              "contamos con",
+              "nos enfrentamos con",
+              "dimos a"
             ],
-            "explanation": "Aunque comparten la preposición «con», cada verbo preposicional aporta un matiz de significado distinto y no intercambiable."
+            "correctIndex": 0,
+            "explanation": "Es un hallazgo tras una búsqueda: «dar con». «Contar con» sería disponer de algo con lo que ya se cuenta, «enfrentarse con» supone hostilidad y «dar a» significa tener vistas o salida hacia un lugar."
           }
         ]
       }
@@ -5789,29 +6091,30 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos preposicionales con en",
         "body": [
-          "Otro grupo numeroso de verbos preposicionales fija su régimen en la preposición «en», con significados que van desde la definición hasta la insistencia. «Consistir en» introduce la esencia o el contenido definitorio de algo; «empeñarse en» expresa una determinación obstinada de llevar a cabo una acción; «quedar en» introduce el contenido de un acuerdo o una cita concertada; «insistir en» expresa la repetición terca de una petición; y «fijarse en» describe la acción de prestar atención deliberada a un detalle concreto.",
-          "Un error frecuente entre hablantes no nativos consiste en sustituir «en» por «sobre» o «acerca de» en estos verbos, por analogía con estructuras donde estas últimas preposiciones sí resultan naturales. Sin embargo, cada uno de estos verbos con «en» tiene fijada su preposición de manera inequívoca, y en general ninguna alternativa resulta aceptable en el registro culto (con excepciones documentadas, como «insistir sobre», que la norma admite junto a «insistir en»)."
+          "La regla: consistir en (la esencia o el contenido de algo), empeñarse en (obstinarse), quedar en (acordar), insistir en (repetir una petición o una idea) y fijarse en (prestar atención) rigen «en» y la mantienen ante sustantivo, infinitivo u oración con que: «insistió en que revisáramos el contrato».",
+          "Por qué fallan: el inglés usa of, on, to o nada (consist of, insist on, agree to, notice), así que se tiende a cambiar «en» por «sobre» o a suprimirla delante de que (*insistió que, *quedamos que). En la lengua cuidada, la preposición se conserva siempre.",
+          "Un matiz de C1: «insistir en que» + subjuntivo pide algo («insistió en que fuéramos»); con indicativo reafirma un hecho («insistió en que era inocente»)."
         ],
         "examples": [
           {
             "es": "El plan consiste en reorganizar todo el departamento.",
-            "en": "Se introduce la esencia definitoria del plan."
+            "en": "The plan consists of reorganizing the whole department. (esencia: consistir en)"
           },
           {
             "es": "Se empeñó en hacerlo todo sin ayuda de nadie.",
-            "en": "Determinación obstinada, contra la opinión de los demás."
+            "en": "She insisted on doing it all with no help. (obstinación)"
           },
           {
             "es": "Quedamos en vernos a las siete en la plaza.",
-            "en": "Contenido de un acuerdo o una cita concertada."
+            "en": "We agreed to meet at seven in the square. (acuerdo: quedar en)"
           },
           {
             "es": "Insistió en que revisáramos el contrato de nuevo.",
-            "en": "Repetición terca de una petición."
+            "en": "He insisted that we go over the contract again. (petición → subjuntivo)"
           },
           {
             "es": "Fíjate en los detalles antes de firmar cualquier documento.",
-            "en": "Atención deliberada a un detalle concreto."
+            "en": "Pay attention to the details before signing any document."
           }
         ],
         "checkpoint": [
@@ -5839,6 +6142,18 @@ const C1_BASE_LESSONS: Lesson[] = [
               4
             ],
             "explanation": "«Empeñarse», «insistir» y «fijarse» exigen «en» de forma fija; «contar» y «soñar», en los sentidos vistos, exigen «con»."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«El acusado insistió en que ___ inocente.» (lo afirmó una y otra vez)",
+            "options": [
+              "era",
+              "fuera",
+              "sea",
+              "estuviera"
+            ],
+            "correctIndex": 0,
+            "explanation": "Aquí «insistir en que» reafirma un hecho que el acusado presenta como verdadero: indicativo («era»). Con subjuntivo («fuera») se entendería que pedía que alguien lo fuera, algo absurdo en este contexto."
           }
         ]
       }
@@ -6108,17 +6423,17 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Errores comunes: interferencia y analogía interna",
         "body": [
-          "Los errores más persistentes en el régimen verbal, incluso en hablantes de nivel avanzado, suelen originarse en dos fuentes distintas pero relacionadas: la interferencia de otra lengua, cuando el hablante calca la preposición que su idioma materno emplea con un verbo semánticamente equivalente, y la analogía interna dentro del propio español, cuando el hablante extiende la preposición de un verbo a otro verbo próximo en significado pero distinto en régimen. «Pensar en algo» contrasta con «pensar de algo», y confundir ambos regímenes altera sutilmente el sentido de la pregunta.",
-          "Otro foco frecuente de error surge entre verbos con un significado próximo pero un régimen distinto, como «depender de» frente a «basarse en»: ambos verbos relacionan una cosa con su fundamento, pero exigen preposiciones distintas y no intercambiables. Reconocer estos pares de riesgo —verbos semánticamente vecinos con régimen divergente— y practicarlos de forma sistemática es una de las estrategias más eficaces para reducir estos errores en el habla espontánea de un nivel avanzado."
+          "La regla: los errores de régimen tienen dos fuentes. La interferencia consiste en calcar la preposición del inglés (depend on → *depender en, think about → *pensar sobre). La analogía interna consiste en copiar el régimen de un verbo español de sentido parecido (depender de → *basarse de). En los dos casos la solución es la misma: comprobar el régimen del verbo concreto, no el de su traducción ni el de su vecino de significado.",
+          "«Pensar» muestra por qué importa: pensar en = tener algo en la mente («pienso en el futuro»); pensar de = opinar, sobre todo en preguntas («¿qué piensas de la propuesta?»). Para expresar una opinión ya formulada se usa «pensar que», sin «de»: «pienso que es buena idea»."
         ],
         "examples": [
           {
             "es": "Pienso mucho en el futuro de este proyecto.",
-            "en": "Reflexión mental sobre un tema, con «en»."
+            "en": "I think a lot about the future of this project. (pensar en: tenerlo en la mente)"
           },
           {
             "es": "¿Qué piensas de la propuesta que presentamos?",
-            "en": "Se pide una opinión sobre algo, con «de»."
+            "en": "What do you think of the proposal we presented? (pensar de: pedir opinión)"
           }
         ]
       },
@@ -6130,11 +6445,11 @@ const C1_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "El resultado depende de varios factores externos.",
-            "en": "El verbo «depender» exige la preposición «de»."
+            "en": "The result depends on several external factors. (depender de, no *en)"
           },
           {
             "es": "La teoría se basa en datos recogidos durante años.",
-            "en": "El verbo «basarse» exige la preposición «en»."
+            "en": "The theory is based on data collected over years. (basarse en, no *de)"
           }
         ],
         "checkpoint": [
@@ -6149,6 +6464,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "«Pensar en algo» implica reflexionar mentalmente sobre ese tema, mientras que «pensar de algo» implica formular una opinión o un juicio sobre ello. No son intercambiables, «pensar de» no se limita a preguntas negativas (sobre todo aparece en «¿qué piensas de…?») y «pensar en» es plenamente culto."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Las conclusiones del estudio ___ una muestra de solo veinte personas.»",
+            "options": [
+              "se basan en",
+              "se basan de",
+              "dependen en",
+              "se basan sobre"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Basarse» rige «en». «Se basan de» copia el régimen de «depender de» (analogía interna), «dependen en» calca el inglés depend on y «sobre» no forma parte del régimen de este verbo."
           }
         ]
       }
@@ -6195,7 +6522,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: los verbos preposicionales",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con los verbos preposicionales; las 17 restantes llegan en la parte 3 de esta serie."
+          "Primera tanda: 18 palabras relacionadas con los verbos preposicionales; las 17 restantes llegan en la parte 3 de esta serie.",
+          "Fíjate en que varias entradas ya incluyen su preposición (propenso a, toparse con, a fuerza de + infinitivo): apréndelas así, en bloque. Y un patrón que te ahorra memoria: el sustantivo derivado de un verbo preposicional suele conservar su preposición. Depender de → la dependencia de; interesarse por → el interés por; insistir en → la insistencia en; confiar en → la confianza en."
         ],
         "examples": [
           {
@@ -6270,6 +6598,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "toparse con",
             "en": "encontrarse por casualidad con alguien o con algo"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Si el verbo es «adaptarse a», ¿cómo se completa «Su rápida adaptación ___ la nueva cultura sorprendió a todos»?",
+            "options": [
+              "a",
+              "de",
+              "con",
+              "en"
+            ],
+            "correctIndex": 0,
+            "explanation": "El sustantivo hereda la preposición del verbo: adaptarse a → la adaptación a. «La adaptación de» indicaría qué se adapta (la adaptación de una novela al cine), no a qué se adapta alguien."
+          }
         ]
       }
     ],
@@ -6310,7 +6652,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más verbos de régimen fijo",
         "body": [
-          "Segunda tanda: verbos cultos cuya preposición es fija (carecer de, prescindir de, atenerse a, incurrir en, abogar por, redundar en) y sustantivos que suelen acompañarlos al opinar y argumentar (el fundamento, el juicio de valor, el parecer)."
+          "Segunda tanda: verbos cultos cuya preposición es fija (carecer de, prescindir de, atenerse a, incurrir en, abogar por, redundar en) y sustantivos que suelen acompañarlos al opinar y argumentar (el fundamento, el juicio de valor, el parecer).",
+          "Patrón útil: casi todos estos verbos tienen un sinónimo corriente con otro régimen, y al sustituirlo hay que cambiar también la preposición: no tener algo → carecer de algo; defender una idea → abogar por una idea; cometer un error → incurrir en un error; darse cuenta de → percatarse de; asegurarse de → cerciorarse de. El registro sube, pero la construcción cambia."
         ],
         "examples": [
           {
@@ -6380,6 +6723,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "abstenerse de",
             "en": "privarse voluntariamente de hacer algo («se abstuvo de opinar»)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Sustituye «no tiene» por «carecer»: «El edificio no tiene ascensor».",
+            "options": [
+              "El edificio carece de ascensor.",
+              "El edificio carece ascensor.",
+              "El edificio carece en ascensor.",
+              "El edificio se carece de ascensor."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Tener» es transitivo, pero «carecer» no lo es: rige «de» y no es pronominal. Por eso al cambiar de verbo aparece la preposición: «carece de ascensor»."
           }
         ]
       }
@@ -6617,25 +6974,25 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ahora bien y dicho esto: la matización tras la concesión",
         "body": [
-          "«Ahora bien» y «dicho esto» comparten una función matizadora muy precisa: introducen un contraste o una salvedad después de haber aceptado, aunque sea parcialmente, la validez de lo dicho anteriormente. A diferencia de «pero», que puede introducir una oposición frontal y a veces abrupta, «ahora bien» señala que el hablante concede el punto anterior antes de añadir una consideración que lo matiza, sin negarlo del todo.",
-          "«Dicho esto» cumple una función semejante, pero añade un matiz metadiscursivo explícito: el hablante señala que acaba de cerrar un bloque argumentativo y que va a introducir una idea que reencuadra o relativiza lo anterior. Ambos conectores resultan característicos del discurso argumentativo formal y transmiten una actitud de equilibrio: el hablante no rechaza lo dicho, pero tampoco se conforma con dejarlo sin matizar."
+          "La regla: «ahora bien» y «dicho esto» introducen una restricción después de conceder algo. Primero se reconoce un mérito o un hecho; después se limita su alcance. Por eso suenan más matizados que «pero»: no niegan lo anterior, lo acotan.",
+          "La diferencia: «ahora bien» es el conector de matización por excelencia, frecuente en la argumentación escrita y oral. «Dicho esto» añade un gesto metadiscursivo: «ya he dicho lo que concedo; ahora voy a mi objeción». Los dos suelen ir tras punto o punto y coma y seguidos de coma. Lo que no pueden hacer es introducir algo que refuerza lo anterior: para sumar argumentos se usa «además» o «asimismo»."
         ],
         "examples": [
           {
             "es": "El plan es ambicioso y está bien diseñado. Ahora bien, su coste sigue siendo un obstáculo.",
-            "en": "Se acepta el mérito del plan antes de introducir una limitación relevante."
+            "en": "The plan is ambitious and well designed. However, its cost is still an obstacle. (concede → restringe)"
           },
           {
             "es": "Reconozco que el argumento tiene fuerza. Dicho esto, no comparto la conclusión final.",
-            "en": "Se cierra un bloque argumentativo antes de relativizar lo dicho."
+            "en": "I admit the argument is strong. That said, I don't share the final conclusion. (cierra un bloque y objeta)"
           },
           {
             "es": "Es cierto que mejoraron los resultados. Ahora bien, todavía están lejos del objetivo.",
-            "en": "Concesión parcial seguida de una matización relevante."
+            "en": "It's true results improved. Even so, they're still far from the target."
           },
           {
             "es": "El informe es exhaustivo. Dicho esto, algunos datos parecen desactualizados.",
-            "en": "Reconocimiento inicial seguido de una objeción puntual."
+            "en": "The report is thorough. That said, some data seem out of date."
           }
         ],
         "checkpoint": [
@@ -6650,6 +7007,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "«Ahora bien» señala que el hablante concede el punto anterior antes de introducir una consideración que lo matiza, sin negarlo por completo. No es una oposición frontal (como «al contrario» o un «pero» tajante), no cierra el argumento y no resume el texto."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«El restaurante tiene una carta excelente. ___, los precios son bastante altos.»",
+            "options": [
+              "Ahora bien",
+              "Además",
+              "Por consiguiente",
+              "Es decir"
+            ],
+            "correctIndex": 0,
+            "explanation": "Se concede un mérito (la carta) y luego se limita con un inconveniente: «ahora bien». «Además» sumaría otro mérito, «por consiguiente» presentaría los precios como consecuencia de la carta y «es decir» los presentaría como una reformulación."
           }
         ]
       }
@@ -6680,25 +7049,25 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cabe destacar, cabe señalar y conviene precisar",
         "body": [
-          "«Cabe destacar», «cabe señalar» y «conviene precisar» son fórmulas metadiscursivas propias del registro académico y periodístico que el hablante emplea para marcar explícitamente que va a introducir un dato o una idea que considera especialmente relevante. A diferencia de una simple enumeración de datos, estas fórmulas dirigen la atención del lector hacia un punto concreto, señalándolo como digno de una consideración especial.",
-          "La diferencia entre estas tres fórmulas es sutil: «cabe destacar» resalta con más énfasis un dato que el hablante quiere poner en primer plano, sea positivo o negativo (cabe destacar que los costes son elevados); «cabe señalar» es algo más neutro y sirve para añadir una observación pertinente; y «conviene precisar» se reserva casi siempre para introducir una aclaración que evita una posible ambigüedad. El uso de estas fórmulas cumple una función real de organización textual: guía al lector a través de la jerarquía de importancia que el autor atribuye a cada idea."
+          "La regla: «cabe destacar», «cabe señalar» y «conviene precisar» son fórmulas impersonales que le dicen al lector cómo leer el dato que viene: como algo especialmente relevante (cabe destacar), como un dato que conviene tener presente (cabe señalar) o como una aclaración que evita un malentendido (conviene precisar). Son propias del registro académico y periodístico porque permiten subrayar sin decir «yo».",
+          "La construcción es fija: el verbo va en tercera persona del singular, seguido de infinitivo y después de «que» + oración o de un sustantivo: «cabe destacar que las ventas subieron», «cabe destacar el esfuerzo del equipo». Nunca «de que»: «cabe destacar eso» no lleva preposición, así que «cabe destacar de que» es dequeísmo."
         ],
         "examples": [
           {
             "es": "Cabe destacar que las ventas crecieron un veinte por ciento este trimestre.",
-            "en": "Se introduce un dato positivo y llamativo dentro de la argumentación."
+            "en": "It's worth highlighting that sales grew by twenty percent this quarter. (dato llamativo)"
           },
           {
             "es": "Cabe señalar que persisten algunas dudas sobre la viabilidad del proyecto.",
-            "en": "Uso neutro para introducir un dato relevante, en este caso negativo."
+            "en": "It should be noted that some doubts remain about the project's viability. (dato neutro)"
           },
           {
             "es": "Conviene precisar que esta cifra no incluye los gastos de mantenimiento.",
-            "en": "Se aclara un punto para evitar una posible ambigüedad."
+            "en": "It should be made clear that this figure excludes maintenance costs. (aclaración)"
           },
           {
             "es": "Cabe destacar el esfuerzo del equipo durante todo el proceso.",
-            "en": "Se resalta un aspecto positivo dentro del desarrollo argumentativo."
+            "en": "The team's effort throughout deserves a mention. (con sustantivo, sin «que»)"
           }
         ],
         "checkpoint": [
@@ -6720,6 +7089,18 @@ const C1_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Aunque las tres fórmulas dirigen la atención hacia un punto relevante, cada una aporta un matiz distinto según el tipo de información que introduce."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "En un informe quieres aclarar que los precios citados no incluyen el IVA, para que nadie se confunda. ¿Qué fórmula usas?",
+            "options": [
+              "Conviene precisar que",
+              "Cabe destacar que",
+              "Huelga decir que",
+              "Al fin y al cabo,"
+            ],
+            "correctIndex": 0,
+            "explanation": "Una aclaración que evita un malentendido es la función de «conviene precisar». «Cabe destacar» subraya un dato llamativo, «huelga decir» presenta algo obvio y «al fin y al cabo» recuerda una verdad de fondo."
           }
         ]
       }
@@ -6730,7 +7111,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la fórmula que introduce una aclaración para evitar una ambigüedad.",
         "sentence": "___ precisar que esta cifra no incluye los impuestos.",
         "answer": "Conviene",
-        "altAnswers": ["Cabe", "Hay que"],
+        "altAnswers": [
+          "Cabe",
+          "Hay que"
+        ],
         "explanation": "«Conviene precisar» se reserva casi siempre para introducir una aclaración que evita una posible ambigüedad.",
         "hint": "Piensa en la fórmula metadiscursiva que introduce aclaraciones."
       }
@@ -6747,25 +7131,25 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "En última instancia, en definitiva y al fin y al cabo",
         "body": [
-          "Los conectores «en última instancia», «en definitiva» y «al fin y al cabo» cierran una secuencia argumentativa señalando la idea que el hablante considera decisiva o resumen del razonamiento expuesto, pero con matices distintos entre sí. «En última instancia» sugiere que, tras agotar todas las consideraciones intermedias, queda un criterio final e irreductible que determina la conclusión.",
-          "«En definitiva» funciona como un resumen más neutro, una síntesis del argumento sin necesariamente implicar que se haya llegado al fondo último de la cuestión, mientras que «al fin y al cabo» introduce un matiz más coloquial y a menudo justificativo, como si el hablante recordara al oyente una consideración de sentido común que relativiza la importancia de lo discutido anteriormente. Distinguir estos tres conectores permite calibrar con precisión el grado de contundencia con que se cierra una argumentación."
+          "La regla: los tres conectores cierran un razonamiento, pero desde ángulos distintos. «En definitiva» resume y concluye: recoge lo dicho en una síntesis neutra. «En última instancia» señala el factor o la autoridad que decide al final, cuando ya se han considerado los demás. «Al fin y al cabo» (o «a fin de cuentas») recuerda una verdad de fondo que justifica o relativiza lo anterior, y es más coloquial.",
+          "Prueba rápida: si puedes añadir «resumiendo», usa en definitiva; si puedes añadir «lo que decide es», en última instancia; si puedes añadir «no olvidemos que», al fin y al cabo."
         ],
         "examples": [
           {
             "es": "En última instancia, la decisión depende del presupuesto disponible.",
-            "en": "Se señala el criterio final e irreductible tras considerar otros factores."
+            "en": "Ultimately, the decision depends on the available budget. (factor decisivo)"
           },
           {
             "es": "En definitiva, el proyecto cumplió con los objetivos previstos.",
-            "en": "Síntesis neutra del argumento expuesto."
+            "en": "In short, the project met its planned objectives. (síntesis)"
           },
           {
             "es": "Al fin y al cabo, todos cometemos errores alguna vez.",
-            "en": "Matiz coloquial y justificativo que relativiza lo discutido."
+            "en": "After all, we all make mistakes sometimes. (verdad de fondo que justifica)"
           },
           {
             "es": "En última instancia, lo que importa es la seguridad de los empleados.",
-            "en": "Se identifica el factor decisivo tras sopesar otras consideraciones."
+            "en": "Ultimately, what matters is the staff's safety."
           }
         ],
         "checkpoint": [
@@ -6783,6 +7167,18 @@ const C1_BASE_LESSONS: Lesson[] = [
               1
             ],
             "explanation": "«En última instancia» señala el criterio decisivo final y «al fin y al cabo» aporta un matiz coloquial justificativo; «en definitiva» es más bien una síntesis neutra, y los tres conectores no son intercambiables sin matices."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Hemos revisado los costes, los plazos y los riesgos. ___, el proyecto no compensa.»",
+            "options": [
+              "En definitiva",
+              "Al fin y al cabo",
+              "Ahora bien",
+              "Dicho sea de paso"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tras repasar varios aspectos, se resume la conclusión: «en definitiva». «Al fin y al cabo» recordaría una verdad de fondo, «ahora bien» introduciría una restricción y «dicho sea de paso» un comentario al margen."
           }
         ]
       }
@@ -6816,25 +7212,25 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "So pena de, bajo pena de y a riesgo de",
         "body": [
-          "«So pena de» y «bajo pena de» son locuciones de registro sumamente formal —la primera, prácticamente arcaica fuera de textos jurídicos y solemnes— que introducen una consecuencia negativa como advertencia si no se cumple una determinada condición. Ambas proceden del lenguaje jurídico y conservan ese matiz de amenaza institucional o normativa.",
-          "«A riesgo de», en cambio, pertenece a un registro formal pero no exclusivamente jurídico, y suele introducir una consecuencia negativa que el propio hablante asume como posible al llevar a cabo una acción, más que una sanción impuesta externamente. La diferencia fundamental radica en qué provoca la consecuencia negativa: con «so pena de» / «bajo pena de», la consecuencia (una sanción o un perjuicio) llega si no se cumple lo exigido o se hace lo prohibido; con «a riesgo de», es un riesgo que el hablante acepta al hacer algo."
+          "La regla: las tres locuciones anuncian una consecuencia negativa, pero cambia quién la impone. «So pena de» y «bajo pena de» presentan una sanción impuesta por una autoridad o una norma («bajo pena de multa»): son jurídicas y solemnes, y «so pena de» suena además literaria o arcaica fuera de esos textos. «A riesgo de» presenta un riesgo que el propio sujeto acepta al actuar («a riesgo de equivocarme»).",
+          "La construcción: las tres van seguidas de infinitivo o de sustantivo; si el riesgo afecta a otra persona, «de que» + subjuntivo («a riesgo de que se enfaden»). La «de» no se suprime nunca: *so pena perder, *a riesgo que."
         ],
         "examples": [
           {
             "es": "Deberá abandonar el edificio, so pena de ser sancionado.",
-            "en": "Advertencia formal de origen institucional o normativo."
+            "en": "You must leave the building, on pain of being penalized. (sanción impuesta)"
           },
           {
             "es": "Queda prohibido fumar en estas instalaciones, bajo pena de multa.",
-            "en": "Registro jurídico y solemne, con amenaza de sanción externa."
+            "en": "Smoking is prohibited on these premises, subject to a fine. (aviso jurídico)"
           },
           {
             "es": "Lo diré con claridad, a riesgo de que algunos se sientan incómodos.",
-            "en": "Riesgo asumido voluntariamente por el propio hablante."
+            "en": "I'll say it plainly, at the risk of making some people uncomfortable. (riesgo asumido; de que + subjuntivo)"
           },
           {
             "es": "Se comprometió a terminarlo a tiempo, a riesgo de tener que trabajar todo el fin de semana.",
-            "en": "Consecuencia negativa asumida como posible por el propio sujeto."
+            "en": "She committed to finishing on time, at the risk of working all weekend."
           }
         ],
         "checkpoint": [
@@ -6849,6 +7245,17 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "«So pena de» procede del lenguaje jurídico y señala la consecuencia negativa, a menudo una sanción, de incumplir lo exigido o hacer lo prohibido («so pena de ser sancionado», «so pena de perderlo todo»); «a riesgo de» introduce una consecuencia negativa que el propio hablante acepta como posible al actuar. Por eso no son intercambiables; «so pena de» es un giro culto y arcaizante, no coloquial, y «a riesgo de» se usa fuera del ámbito jurídico («a riesgo de parecer pesado…»)."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Quieres dar tu opinión sincera en una reunión, aunque puede molestar a tu jefa. ¿Qué dices?",
+            "options": [
+              "A riesgo de molestar, diré lo que pienso.",
+              "So pena de molestar, diré lo que pienso.",
+              "Bajo pena de molestar, diré lo que pienso."
+            ],
+            "correctIndex": 0,
+            "explanation": "Es un riesgo que tú misma aceptas al hablar: «a riesgo de». «So pena de» y «bajo pena de» anuncian una sanción impuesta por una norma o una autoridad, y aquí nadie te sanciona."
           }
         ]
       }
@@ -6900,7 +7307,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: los conectores discursivos",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con los conectores discursivos; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras relacionadas con los conectores discursivos; las 17 restantes llegan en la lección siguiente.",
+          "Clave para usarlos: los conectores se agrupan por función, y dentro de cada grupo cambian el registro y la sintaxis. Consecuencia: «por ende» (culto) + indicativo, «de ahí que» + subjuntivo. Concesión: «si bien» + indicativo. Contraste: «no obstante». Adición: «asimismo». Conclusión: «en definitiva», «a fin de cuentas». Si conoces la función, puedes subir el registro sin cambiar el sentido: «por eso» → «por ende» o «de ahí que»; «aunque» (ante un hecho) → «si bien»."
         ],
         "examples": [
           {
@@ -6975,6 +7383,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "la asignación presupuestaria",
             "en": "monto de dinero destinado oficialmente a un fin específico"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Sustituye «por eso» por «de ahí que»: «Ha llovido mucho; por eso los embalses están llenos».",
+            "options": [
+              "Ha llovido mucho; de ahí que los embalses estén llenos.",
+              "Ha llovido mucho; de ahí que los embalses están llenos.",
+              "Ha llovido mucho; de ahí los embalses están llenos.",
+              "Ha llovido mucho; de ahí que los embalses llenen."
+            ],
+            "correctIndex": 0,
+            "explanation": "«De ahí que» introduce una consecuencia y exige subjuntivo («estén»), aunque el hecho sea real. Sin «que» no funciona como conector oracional, y el indicativo es un error frecuente."
+          }
         ]
       }
     ],
@@ -7015,7 +7437,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos de la argumentación",
         "body": [
-          "Segunda tanda: conectores y fórmulas para construir un texto argumentativo (a saber, esto es, con todo, por consiguiente, en último término, huelga decir que) y palabras sobre la argumentación y sus contextos (la enumeración, la ponderación, sopesar, la mesa redonda, el ensayo argumentativo)."
+          "Segunda tanda: conectores y fórmulas para construir un texto argumentativo (a saber, esto es, con todo, por consiguiente, en último término, huelga decir) y términos para hablar de ese tipo de texto.",
+          "Agrúpalos por función y fíjate en su construcción. Reformular o enumerar: «esto es» (= es decir), «a saber» (anuncia una lista o una aclaración). Consecuencia: «por consiguiente». Concesión: «con todo» (= aun así). Lo obvio: «huelga decir que», sin «de». Tema: «en lo que respecta a» + sustantivo (con a + el = al). Comentario al margen: «dicho sea de paso»."
         ],
         "examples": [
           {
@@ -7086,6 +7509,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "la ponderación",
             "en": "la evaluación cuidadosa y equilibrada de los distintos aspectos de una cuestión"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Necesitamos tres cosas, ___, tiempo, dinero y paciencia.» ¿Qué conector anuncia la enumeración?",
+            "options": [
+              "a saber",
+              "con todo",
+              "por consiguiente",
+              "dicho sea de paso"
+            ],
+            "correctIndex": 0,
+            "explanation": "«A saber» anuncia una enumeración o una aclaración de lo que se acaba de mencionar. «Con todo» es concesivo, «por consiguiente» consecutivo y «dicho sea de paso» introduce un comentario al margen."
+          }
         ]
       }
     ],
@@ -7115,25 +7552,25 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Oraciones escindidas con ser",
         "body": [
-          "Las oraciones escindidas, también llamadas hendidas, dividen una oración simple en dos segmentos unidos por «ser», con el fin de aislar y destacar uno solo de sus elementos como el más relevante desde el punto de vista informativo. «Fue entonces cuando comprendí todo» separa el momento temporal del resto de la oración, colocándolo tras «fue» para señalarlo como el foco exclusivo de la afirmación, en contraste implícito con cualquier otro momento posible.",
-          "Esta estructura, extraordinariamente productiva en español, admite focalizar prácticamente cualquier constituyente de la oración: el sujeto, el complemento directo, o un complemento circunstancial de lugar, tiempo o modo. El verbo «ser» concuerda en tiempo con el verbo de la oración subordinada cuando ambos comparten el mismo marco temporal, y el elemento focalizado suele ir seguido de un relativo que retoma la función sintáctica que ese elemento tenía en la oración original."
+          "La regla: la oración escindida (o hendida) parte una oración en dos para aislar un elemento: ser + elemento destacado + relativo + resto. «Elena ganó el premio» → «Fue Elena quien ganó el premio». Se usa para contrastar: lo destacado se opone, de forma explícita o implícita, a otras opciones («fue Elena, y no otra persona»).",
+          "El relativo depende de lo que destacas: persona → quien o el/la que; cosa → el/la/lo que; lugar → donde; tiempo → cuando; modo → como. «Ser» va en el mismo tiempo que el verbo de la oración («fue en 1998 cuando cerró», «es aquí donde nos reunimos») y concuerda en número con lo destacado («fueron los vecinos quienes llamaron»). Si lo destacado lleva preposición, en el registro cuidado se repite ante el relativo: «fue a mi abogado a quien se lo envié»."
         ],
         "examples": [
           {
             "es": "Fue entonces cuando comprendí todo.",
-            "en": "Se focaliza el momento temporal, en contraste implícito con otros momentos posibles."
+            "en": "That was when I understood everything. (tiempo → cuando)"
           },
           {
             "es": "Fue él quien tomó la decisión final.",
-            "en": "Se focaliza el sujeto de la acción, excluyendo a cualquier otra persona."
+            "en": "It was he who made the final decision. (persona → quien)"
           },
           {
             "es": "Fue esa decisión la que cambió el rumbo de la empresa.",
-            "en": "Se focaliza el sujeto (inanimado) como el elemento más relevante."
+            "en": "It was that decision that changed the company's course. (cosa → la que, concuerda con «decisión»)"
           },
           {
             "es": "Fue en esa reunión donde se acordaron los nuevos plazos.",
-            "en": "Se focaliza el complemento de lugar mediante la estructura escindida."
+            "en": "It was at that meeting that the new deadlines were agreed. (lugar → donde)"
           }
         ],
         "checkpoint": [
@@ -7148,6 +7585,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "Las oraciones escindidas dividen la oración en dos segmentos unidos por «ser» para aislar y destacar un solo elemento como foco informativo, en este caso «esa decisión». No es condicional ni expresa duda, y no equivale a una pasiva: su matiz es precisamente el énfasis contrastivo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Destaca el modo en «Aprendió a tocar la guitarra viendo vídeos».",
+            "options": [
+              "Fue viendo vídeos como aprendió a tocar la guitarra.",
+              "Fue viendo vídeos donde aprendió a tocar la guitarra.",
+              "Fue viendo vídeos quien aprendió a tocar la guitarra.",
+              "Fue viendo vídeos cuando aprendió a tocar la guitarra."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Viendo vídeos» expresa la manera en que aprendió: el relativo de modo es «como». «Donde» es de lugar, «quien» de persona y «cuando» de tiempo."
           }
         ]
       }
@@ -7178,25 +7627,25 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Oraciones pseudoescindidas: lo que hizo fue",
         "body": [
-          "Las oraciones pseudoescindidas, formadas con «lo que» seguido de un verbo y de «ser», focalizan típicamente una acción o un proceso completo en lugar de un solo constituyente nominal: «lo que hizo fue renunciar sin previo aviso» aísla toda la acción de renunciar como el núcleo informativo de la oración, presentándola con un efecto de sorpresa o de contraste implícito respecto a lo que se esperaba. Esta estructura resulta particularmente eficaz cuando el hablante quiere subrayar la naturaleza inesperada, decisiva o contraria a lo previsto de una acción concreta.",
-          "A diferencia de la escindida simple con «ser», la pseudoescindida antepone una oración de relativo con «lo que» que funciona como sujeto de «ser», seguido del verbo «ser» y, finalmente, del elemento focalizado, que suele ser un infinitivo o una oración completa. Esta construcción es especialmente frecuente en el registro oral formal y en la prosa argumentativa, donde aporta un efecto rítmico de suspenso: el oyente conoce primero que «hizo algo», pero debe esperar hasta el final de la oración para saber exactamente qué acción se está focalizando."
+          "La regla: la pseudoescindida pone primero una oración con «lo que» (lo que hizo, lo que necesitamos, lo que me preocupa) y después, tras «ser», el elemento destacado: «Lo que hizo fue renunciar». Sirve sobre todo para destacar una acción entera o una idea y para crear expectación: el oyente espera la información nueva, que llega al final.",
+          "La construcción: una acción destacada va en infinitivo («lo que hizo fue renunciar», no «fue renunció»); «ser» suele ir en el mismo tiempo que el verbo de la oración con «lo que» y concuerda en plural si lo destacado es plural («lo que necesitamos son voluntarios»). Para corregir o contrastar se añade «no… sino»: «lo que necesitamos no es dinero, sino tiempo»."
         ],
         "examples": [
           {
             "es": "Lo que hizo fue renunciar sin previo aviso.",
-            "en": "Se focaliza toda la acción de renunciar, con efecto de sorpresa."
+            "en": "What he did was resign without notice. (acción → infinitivo)"
           },
           {
             "es": "Lo que necesitamos es más tiempo, no más dinero.",
-            "en": "Se focaliza la necesidad real, en contraste implícito con otra posibilidad."
+            "en": "What we need is more time, not more money. (contraste)"
           },
           {
             "es": "Lo que consiguió fue empeorar la situación todavía más.",
-            "en": "Se focaliza el resultado de la acción, con matiz irónico o crítico."
+            "en": "All he managed was to make things even worse. (matiz irónico)"
           },
           {
             "es": "Lo que deberíamos hacer es replantear todo el proyecto desde cero.",
-            "en": "Se focaliza la acción recomendada como la más adecuada."
+            "en": "What we should do is rethink the whole project from scratch."
           }
         ],
         "checkpoint": [
@@ -7207,6 +7656,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             "answer": "Lo que hizo",
             "explanation": "La pseudoescindida antepone «lo que» seguido del verbo, para focalizar posteriormente la acción principal tras «fue».",
             "hint": "Se necesita el pronombre relativo neutro seguido del verbo en pasado."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Transforma «Me molestó su falta de puntualidad» en una pseudoescindida.",
+            "options": [
+              "Lo que me molestó fue su falta de puntualidad.",
+              "Lo cual me molestó fue su falta de puntualidad.",
+              "Que me molestó fue su falta de puntualidad.",
+              "Lo que me molestó fueron su falta de puntualidad."
+            ],
+            "correctIndex": 0,
+            "explanation": "La pseudoescindida empieza por «lo que» (no «lo cual» ni «que» solo), y «ser» va en el tiempo de «molestó» y en singular, porque lo destacado («su falta de puntualidad») es singular."
           }
         ]
       }
@@ -7233,25 +7694,25 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Anteposición y focalización sin ser",
         "body": [
-          "La anteposición del complemento directo o de otros constituyentes al inicio de la oración constituye otro mecanismo de focalización, esta vez sin recurrir a «ser» ni a un relativo, sino mediante el simple desplazamiento del elemento hacia una posición inicial marcada, generalmente acompañado de un pronombre átono que retoma o reduplica ese complemento. En estructuras más simples, «eso sí que no lo esperaba» antepone el objeto directo, reforzado por el intensificador «sí que», que añade un matiz de contraste enfático respecto a una expectativa previa.",
-          "Esta anteposición marcada se distingue claramente del orden neutro sujeto-verbo-objeto del español, y su función pragmática consiste en presentar el elemento anticipado como el tema sobre el que va a versar la oración, o como el elemento sometido a un contraste implícito con otras posibilidades descartadas. El pronombre átono de reduplicación es obligatorio cuando se antepone un complemento definido o específico (Ese libro lo leí); no aparece cuando el elemento antepuesto es un cuantificador o un indefinido con foco contrastivo (Dinero hay; Promesas hemos oído muchas)."
+          "La regla: para destacar un complemento sin «ser», se lleva al principio de la oración. Si es un complemento directo o indirecto ya conocido, el español lo retoma con un pronombre átono: «Esa película la vi dos veces», «A mis vecinos les di las llaves». Sin ese pronombre, la frase suena incompleta o adquiere un énfasis contrastivo muy marcado.",
+          "El pronombre concuerda con el complemento: lo, la, los, las para el directo (también de persona: «a mi hermana la llamé»); le, les para el indirecto. Con «sí que» se refuerza lo antepuesto frente a una expectativa: «Eso sí que no lo esperaba»."
         ],
         "examples": [
           {
             "es": "A él le afectó más que a nadie la noticia.",
-            "en": "Anteposición del complemento indirecto, retomado con el pronombre átono «le»."
+            "en": "The news affected him more than anyone. (indirecto antepuesto → le)"
           },
           {
             "es": "Eso sí que no lo esperaba.",
-            "en": "Anteposición del objeto directo, reforzada por el intensificador «sí que»."
+            "en": "That I really didn't expect. (directo + «sí que» → lo)"
           },
           {
             "es": "Ese proyecto, lo terminamos entre todos.",
-            "en": "El complemento directo se antepone y se retoma mediante el pronombre átono «lo»."
+            "en": "That project, we finished it together. (directo → lo)"
           },
           {
             "es": "A mi hermana la llamé antes que a nadie.",
-            "en": "Anteposición del complemento directo de persona, reduplicado con «la»."
+            "en": "My sister I called before anyone else. (directo de persona, femenino → la)"
           }
         ],
         "checkpoint": [
@@ -7269,6 +7730,18 @@ const C1_BASE_LESSONS: Lesson[] = [
               2
             ],
             "explanation": "La anteposición marcada casi siempre exige un pronombre átono de reduplicación y cumple la función pragmática de presentar el elemento como tema o como foco de contraste, alejándose del orden neutro. No sigue el orden neutro (precisamente lo altera) y no es opcional sin efectos: cambia la estructura informativa."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Antepón el complemento: «Mis padres venden la casa del pueblo».",
+            "options": [
+              "La casa del pueblo la venden mis padres.",
+              "La casa del pueblo venden mis padres.",
+              "La casa del pueblo le venden mis padres.",
+              "La casa del pueblo lo venden mis padres."
+            ],
+            "correctIndex": 0,
+            "explanation": "El complemento directo antepuesto se retoma con un pronombre que concuerda con él: «la casa» → «la». Sin pronombre la frase queda coja, «le» es de complemento indirecto y «lo» no concuerda en género."
           }
         ]
       }
@@ -7302,25 +7775,25 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Otras estructuras enfáticas: no... sino que, si algo..., eso es... y sí enfático",
         "body": [
-          "Además de las estructuras escindidas y la anteposición, el español cuenta con recursos enfáticos más puntuales que refuerzan un elemento concreto del discurso. La construcción «no... sino que» rechaza explícitamente una posibilidad antes de afirmar la correcta, con un efecto de corrección enfática. La fórmula «si algo... eso es...» funciona de manera semejante a la escindida, pero introduce primero una concesión hipotética mínima antes de afirmar con fuerza el elemento focalizado.",
-          "Por último, el «sí» enfático antepuesto al verbo —no confundir con el «sí» afirmativo aislado— refuerza la veracidad de una afirmación frente a una duda o una negación previa, explícita o implícita: «yo sí que se lo advertí» contradice enfáticamente una suposición contraria, subrayando mediante la partícula «sí que» que la acción efectivamente tuvo lugar."
+          "La regla: estas estructuras refuerzan un elemento descartando otra interpretación. «No es que + subjuntivo…, sino que + indicativo…» rechaza una explicación (en subjuntivo, porque no se afirma) y da la verdadera (en indicativo): «No es que no quiera, sino que no puedo». «Si algo…, eso es…» presenta lo destacado como lo único que cumple la condición: «Si algo le sobra a este equipo, eso es talento». Y «sí (que)» delante del verbo afirma con fuerza frente a una duda o un contraste: «Yo sí que se lo advertí».",
+          "Dos piezas obligatorias: el subjuntivo tras «no es que» y el «que» tras «sino» cuando sigue un verbo conjugado («sino que puede»; con un sustantivo basta «sino»: «no es pereza, sino miedo»)."
         ],
         "examples": [
           {
             "es": "No es que no quiera ayudar, sino que no puede hacerlo ahora.",
-            "en": "Se rechaza una posibilidad antes de afirmar la correcta, con efecto de corrección enfática."
+            "en": "It's not that she doesn't want to help; it's that she can't right now. (subjuntivo → indicativo)"
           },
           {
             "es": "Si algo le sobra a este equipo, eso es talento.",
-            "en": "Concesión hipotética mínima seguida de una afirmación enfática del elemento focalizado."
+            "en": "If there's one thing this team has plenty of, it's talent."
           },
           {
             "es": "Yo sí que se lo advertí, aunque no me hizo caso.",
-            "en": "El «sí que» enfático refuerza la veracidad frente a una duda implícita."
+            "en": "I did warn him, even though he ignored me. (sí que enfático)"
           },
           {
             "es": "Si hay algo que valoro de verdad, eso es la sinceridad.",
-            "en": "Estructura enfática que aísla el valor focalizado tras una concesión mínima."
+            "en": "If there's one thing I truly value, it's honesty."
           }
         ],
         "checkpoint": [
@@ -7342,6 +7815,18 @@ const C1_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Cada estructura enfática cumple una función distinta dentro del repertorio de recursos que el español ofrece para focalizar un elemento del discurso."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«No es que el hotel ___ caro, sino que está muy lejos.»",
+            "options": [
+              "sea",
+              "es",
+              "será",
+              "fue"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tras «no es que» se rechaza una explicación que no se afirma: subjuntivo («sea»). La explicación verdadera, tras «sino que», va en indicativo («está»)."
           }
         ]
       }
@@ -7372,8 +7857,60 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
+        "heading": "La idea: el énfasis mueve el foco",
+        "body": [
+          "En el orden neutro (sujeto, verbo, complementos), lo nuevo y lo importante va al final. Cuando queremos destacar otro elemento, lo movemos o lo encerramos en una estructura: lo ponemos delante (anteposición: «Ese libro lo leí ayer»), lo partimos con «ser» (oración escindida: «Fue ella quien habló») o reforzamos el verbo («Eso sí que lo entiendo»).",
+          "Los términos de esta lección nombran justo esas operaciones, y casi todos salen de un verbo que ya conoces: anteponer → la anteposición, el complemento antepuesto; escindir (partir) → la oración escindida; reduplicar → la reduplicación. Si reconoces el verbo, entiendes el término: el sustantivo en -ción nombra la operación y el participio describe el elemento que la sufre."
+        ],
+        "examples": [
+          {
+            "es": "Ese libro lo leí ayer.",
+            "en": "Anteposición: el complemento va delante y «lo» lo retoma (reduplicación)."
+          },
+          {
+            "es": "Fue en Sevilla donde nos conocimos.",
+            "en": "Oración escindida: «ser» + foco (en Sevilla) + relativo."
+          },
+          {
+            "es": "Lo que necesitamos es tiempo.",
+            "en": "Pseudoescindida: «lo que» + verbo + «ser» + foco."
+          },
+          {
+            "es": "anteponer → la anteposición → antepuesto",
+            "en": "Verbo → operación (-ción) → elemento afectado (participio)."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Si «focalizar» es convertir un elemento en el foco de la frase, ¿cómo se llama esa operación?",
+            "options": [
+              "la focalización",
+              "el focalizamiento",
+              "la focalidad",
+              "el focalizado"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los verbos en -izar forman el nombre de la operación en -ización: focalizar → la focalización (como topicalizar → topicalización). «Focalizamiento» y «focalidad» no se usan, y «el focalizado» sería el participio sustantivado, el elemento afectado, no la operación."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "En «A tu hermana la vi ayer en el cine», ¿qué recurso destaca a «tu hermana»?",
+            "options": [
+              "La anteposición con reduplicación pronominal",
+              "Una oración escindida",
+              "Una oración pseudoescindida",
+              "La partícula enfática «sí que»"
+            ],
+            "correctIndex": 0,
+            "explanation": "«A tu hermana» sale de su lugar neutro (tras el verbo) y va delante; el pronombre átono «la» la retoma: anteposición + reduplicación. No hay «ser» + relativo (escindida), ni «lo que… es» (pseudoescindida), ni «sí que»."
+          }
+        ]
+      },
+      {
         "heading": "En la práctica",
         "body": [
+          "Lee la conversación y fíjate en cómo cada estructura destaca un elemento distinto: un lugar (fue en esa reunión donde…), una causa (lo que más me pesó fue…), la verdad de una afirmación (sí que) o una corrección (no es que…, sino que…).",
           "Diego: ¿De verdad decidiste dejar el trabajo así, de repente?",
           "Elena: Fue en esa reunión donde entendí que no podía seguir así.",
           "Diego: ¿Y qué fue lo que más te hizo decidirte?",
@@ -7382,12 +7919,26 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Elena: No es que no me gustara el trabajo, sino que ya no me sentía respetada.",
           "Diego: Si algo admiro de ti, eso es el valor para tomar decisiones así.",
           "Elena: Gracias. Yo sí que necesitaba escuchar eso hoy."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Cuando Elena dice «No es que no me gustara el trabajo, sino que ya no me sentía respetada», ¿qué hace?",
+            "options": [
+              "Descarta una explicación posible y da la verdadera",
+              "Admite que el trabajo no le gustaba",
+              "Duda de si la respetaban",
+              "Pide a Diego su opinión"
+            ],
+            "correctIndex": 0,
+            "explanation": "«No es que + subjuntivo…, sino que + indicativo» rechaza una interpretación (que no le gustara el trabajo, en subjuntivo porque se niega) y afirma la real (en indicativo). No admite que no le gustara: lo niega."
+          }
         ]
       },
       {
         "heading": "Vocabulario: las estructuras enfáticas",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con las estructuras enfáticas; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras para describir el énfasis; las 17 restantes llegan en la lección siguiente. Agrúpalas por la operación que nombran: mover (la anteposición, la inversión sintáctica), partir (la oración escindida y pseudoescindida), repetir (la reduplicación pronominal) y reforzar (la partícula enfática «sí que»)."
         ],
         "examples": [
           {
@@ -7462,6 +8013,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "la partícula enfática",
             "en": "la palabra breve cuya función principal es reforzar el significado de otro elemento"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué término describe lo que pasa en «Las llaves las dejé en la mesa»?",
+            "options": [
+              "La reduplicación pronominal",
+              "La oración pseudoescindida",
+              "El orden neutro",
+              "La partícula enfática"
+            ],
+            "correctIndex": 0,
+            "explanation": "El complemento antepuesto «las llaves» se repite mediante el pronombre átono «las»: eso es la reduplicación pronominal. No hay «lo que… es» (pseudoescindida) y el orden no es neutro, porque el complemento va delante."
+          }
         ]
       }
     ],
@@ -7487,7 +8052,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "focaliza una acción o un proceso completo con efecto de suspenso"
           }
         ],
-        "explanation": "Cada estructura enfática cumple una función distinta dentro del repertorio de recursos que el español ofrece para focalizar un elemento del discurso."
+        "explanation": "Cada estructura enfática destaca algo distinto: «no… sino que» corrige (rechaza una opción y da la buena); «si algo…, eso es…» aísla un único elemento tras una concesión mínima; «sí que» refuerza la verdad del verbo frente a una duda; «lo que… fue…» retrasa el foco al final y crea suspense."
       }
     ]
   },
@@ -7500,9 +8065,60 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
+        "heading": "La idea: familias de palabras para hablar del énfasis",
+        "body": [
+          "Muchos de estos términos son verbos y sus sustantivos. Los verbos en -ificar forman el nombre de la acción en -ificación (intensificar → la intensificación, rectificar → la rectificación); otros forman el sustantivo sin sufijo, con la raíz del verbo (realzar → el realce, descartar → el descarte).",
+          "El prefijo in- delante de un participio niega lo que dice el verbo: insospechado es «que no se ha sospechado», como inesperado o imprevisto. Conocer estas piezas te deja entender, y crear, palabras que nunca has visto en una lista."
+        ],
+        "examples": [
+          {
+            "es": "intensificar → la intensificación",
+            "en": "-ificar → -ificación: el nombre de la acción."
+          },
+          {
+            "es": "realzar → el realce; descartar → el descarte",
+            "en": "Sustantivo formado sobre la raíz del verbo."
+          },
+          {
+            "es": "sospechar → sospechado → insospechado",
+            "en": "in- + participio = «que no ha sido…»."
+          },
+          {
+            "es": "La rectificación llegó dos horas después.",
+            "en": "El sustantivo permite presentar la acción como un hecho."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el modelo intensificar → intensificación, ¿cuál es el sustantivo de «clarificar»?",
+            "options": [
+              "la clarificación",
+              "el clarificamiento",
+              "la claridad",
+              "el clarificado"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los verbos en -ificar forman el sustantivo de acción en -ificación: clarificar → la clarificación. «La claridad» es la cualidad de lo claro (viene del adjetivo), no la acción de clarificar; «clarificamiento» no se usa y «el clarificado» es un participio."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué significa «un territorio inexplorado»?",
+            "options": [
+              "Un territorio que nadie ha explorado",
+              "Un territorio que se explora mucho",
+              "Un territorio fácil de explorar",
+              "Un territorio que se explorará pronto"
+            ],
+            "correctIndex": 0,
+            "explanation": "in- + participio niega el verbo: inexplorado = «que no ha sido explorado», igual que insospechado = «que no se ha sospechado». No habla de frecuencia, facilidad ni futuro."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: más términos sobre el énfasis",
         "body": [
-          "Segunda tanda: conceptos para describir cómo se resalta un elemento (resaltar, encabezar, enfatizar, la reduplicación, el realce) y qué funciones sintácticas pueden enfatizarse (el complemento indirecto, el complemento circunstancial)."
+          "Segunda tanda: palabras para describir cómo se resalta un elemento (resaltar, encabezar, enfatizar, la reduplicación, el realce) y qué funciones de la oración pueden enfatizarse (el complemento indirecto, el complemento circunstancial). Busca en la lista las parejas verbo-sustantivo: enfatizar / el énfasis, rectificar / la rectificación, intensificar / la intensificación."
         ],
         "examples": [
           {
@@ -7573,6 +8189,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "enfatizar",
             "en": "poner énfasis en algo al hablar o al escribir"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En «A mi madre le regalé un libro», ¿qué función tiene «a mi madre»?",
+            "options": [
+              "Complemento indirecto: es la destinataria del regalo",
+              "Complemento directo: es lo que se regala",
+              "Complemento circunstancial de lugar",
+              "Sujeto de la oración"
+            ],
+            "correctIndex": 0,
+            "explanation": "El complemento indirecto designa al destinatario o beneficiario de la acción (a quién se regala); por eso lo retoma «le». Lo regalado (un libro) es el complemento directo, y el sujeto es «yo»."
+          }
         ]
       }
     ],
@@ -7602,25 +8232,29 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El futuro de probabilidad para el presente",
         "body": [
-          "El futuro simple, además de su valor prototípico de posterioridad temporal, cumple en español una función epistémica bien consolidada: expresar una conjetura o una suposición sobre el presente, sin que ello implique referencia alguna a un momento futuro. «Serán las tres» no es una predicción sobre la hora que será en algún momento venidero, sino una estimación aproximada de la hora actual, formulada por alguien que calcula la hora a partir de indicios indirectos, como la luz del día.",
-          "Este uso, denominado futuro de probabilidad o futuro epistémico, convive sin conflicto con el futuro temporal propiamente dicho, y el contexto discursivo —nunca la morfología verbal, idéntica en ambos casos— es lo que permite al oyente distinguir entre una predicción sobre el porvenir y una conjetura sobre el presente. «Estará en casa a estas horas» no predice que alguien llegará a casa en el futuro, sino que conjetura, en el momento mismo del habla, dónde se encuentra esa persona ahora."
+          "El futuro simple no solo predice: también sirve para suponer algo sobre el presente. «Serán las tres» no habla de una hora futura, sino de la hora que probablemente es ahora; equivale a «probablemente son las tres» o «deben de ser las tres». Es un recurso muy natural en la conversación: un nativo dice «estará en el metro» donde un estudiante diría «probablemente está en el metro».",
+          "¿Por qué el futuro? Porque la comprobación queda pendiente: el hablante no lo sabe, pero cree que se confirmará. La forma es la misma que la del futuro temporal, así que el contexto decide: si se habla de ahora (a estas horas, ahora mismo, un indicio que se ve) es una conjetura. Funciona con cualquier verbo, en afirmativo, en negativo («no será nada») y en preguntas, donde expresa intriga: «¿Dónde estarán mis llaves?» = me pregunto dónde están."
         ],
         "examples": [
           {
             "es": "Serán las tres de la tarde, más o menos.",
-            "en": "Conjetura sobre la hora actual, no predicción sobre el futuro."
-          },
-          {
-            "es": "Estará en casa a estas horas, imagino.",
-            "en": "Suposición sobre la ubicación actual de alguien, formulada en presente."
+            "en": "It must be about three. (= probablemente son las tres: la hora de ahora)"
           },
           {
             "es": "Tendrá unos cuarenta años, calculo.",
-            "en": "Estimación aproximada de la edad actual de una persona."
+            "en": "He must be about forty. (la edad va con «tener», también en la conjetura)"
           },
           {
             "es": "Hará mucho frío ahí fuera, por cómo va abrigada la gente.",
-            "en": "Conjetura sobre el clima actual a partir de un indicio observado."
+            "en": "It must be very cold out there. (la conjetura sale de un indicio)"
+          },
+          {
+            "es": "¿Quién llamará a estas horas?",
+            "en": "Who could be calling at this hour? (pregunta = me pregunto quién llama)"
+          },
+          {
+            "es": "No será nada grave; no te preocupes.",
+            "en": "It's probably nothing serious. (conjetura en negativo)"
           }
         ],
         "checkpoint": [
@@ -7635,6 +8269,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El futuro de probabilidad expresa una conjetura sobre el presente, no una predicción sobre el futuro; el contexto, no la morfología, permite distinguir ambos usos. No predice la hora futura (el contexto «más o menos» indica cálculo del momento presente), ni es una orden, ni una obligación."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Tu vecino sale de casa con traje y corbata un sábado por la mañana. «___ una boda», piensas.",
+            "options": [
+              "Tendrá",
+              "Tuvo",
+              "Tenga",
+              "Tendría"
+            ],
+            "correctIndex": 0,
+            "explanation": "Suposición sobre ahora → futuro: «tendrá una boda» (= probablemente tiene). «Tuvo» afirma un hecho pasado, «tenga» (subjuntivo) necesita un verbo que lo rija, y «tendría» haría la conjetura sobre el pasado."
           }
         ]
       }
@@ -7665,35 +8311,51 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El condicional de probabilidad para el pasado",
         "body": [
-          "El condicional simple traslada al pasado exactamente el mismo mecanismo epistémico que el futuro aplica al presente: expresa una conjetura o una estimación aproximada sobre un momento ya transcurrido, sin implicar ningún matiz de irrealidad, como sí ocurre en otros usos del condicional. «Tendría unos treinta años cuando lo conocí» no plantea una hipótesis contraria a los hechos, sino que estima, de manera aproximada, la edad que esa persona tenía en aquel momento pasado.",
-          "Este condicional de probabilidad resulta especialmente frecuente en la narración de recuerdos y anécdotas personales, donde el hablante reconstruye datos que no memorizó con exactitud en su momento, pero que puede estimar razonablemente a partir del contexto que sí recuerda con claridad. Distinguir este uso del condicional hipotético habitual exige atender al contexto: la ausencia de cualquier prótasis condicional explícita o implícita es la señal más fiable de que se trata de una conjetura sobre el pasado, no de una hipótesis contrafactual."
+          "El condicional hace con el pasado lo mismo que el futuro con el presente: expresa una suposición. «Tendría unos treinta años cuando lo conocí» = probablemente tenía unos treinta años. La correspondencia es exacta: tiene → tendrá (conjetura sobre ahora); tenía → tendría (conjetura sobre entonces).",
+          "No hay aquí ninguna hipótesis ni condición con «si»: el condicional solo marca que el dato pasado es aproximado o deducido. La pista es el contexto: un momento pasado («cuando lo conocí», «aquella noche») y, a menudo, un indicio («porque se durmió enseguida»). Es muy frecuente al contar recuerdos que no se guardaron con exactitud, y en preguntas: «¿Qué pasaría aquella noche?» = me pregunto qué pasó."
         ],
         "examples": [
           {
             "es": "Tendría unos treinta años cuando lo conocí.",
-            "en": "Estimación aproximada de la edad de alguien en un momento pasado."
+            "en": "He must have been about thirty when I met him. (= probablemente tenía)"
           },
           {
             "es": "Serían las diez de la noche cuando por fin llegamos.",
-            "en": "Conjetura sobre la hora aproximada de un evento pasado."
+            "en": "It must have been about ten when we finally arrived. (hora pasada aproximada)"
           },
           {
             "es": "Habría unas cien personas en aquella sala, calculo.",
-            "en": "Estimación aproximada de una cantidad en un momento pasado."
+            "en": "There must have been about a hundred people. (cantidad estimada)"
           },
           {
             "es": "Estaría muy cansado, porque se durmió enseguida.",
-            "en": "Conjetura sobre el estado de alguien en un momento pasado, inferida de un indicio."
+            "en": "He must have been very tired. (deducción a partir de un indicio pasado)"
+          },
+          {
+            "es": "¿Por qué no vendría a la cena?",
+            "en": "I wonder why he didn't come to the dinner. (pregunta de intriga sobre el pasado)"
           }
         ],
         "checkpoint": [
           {
+            "type": "multiple-choice",
+            "question": "Ayer Pablo no vino a clase y hoy tiene mala cara. «Ayer ___ enfermo», dice su compañera.",
+            "options": [
+              "estaría",
+              "estará",
+              "estuviera",
+              "estuvo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Conjetura sobre un momento pasado (ayer) → condicional: «estaría» (= probablemente estaba). «Estará» supondría algo sobre ahora, «estuviera» es subjuntivo y no puede ir solo, y «estuvo» lo afirmaría como un hecho seguro, sin suposición."
+          },
+          {
             "type": "fill-blank",
-            "prompt": "Completa con el condicional de probabilidad para expresar una conjetura sobre el pasado.",
-            "sentence": "___ (ser) las ocho cuando sonó el teléfono, aunque no estoy del todo seguro.",
-            "answer": "Serían",
-            "explanation": "El condicional de probabilidad estima de manera aproximada la hora de un evento pasado, sin implicar ninguna condición hipotética.",
-            "hint": "Se trata de una conjetura sobre el pasado, no de una condición con «si»."
+            "prompt": "Completa con el condicional de probabilidad.",
+            "sentence": "___ (haber) mucho tráfico, porque tardaron dos horas en llegar.",
+            "answer": "Habría",
+            "hint": "Se trata de una conjetura sobre el pasado, no de una condición con «si».",
+            "explanation": "Se deduce la causa de un hecho pasado (tardaron dos horas): condicional de «haber», siempre en singular con este valor impersonal («habría mucho tráfico»)."
           }
         ]
       }
@@ -7702,9 +8364,9 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con el condicional de probabilidad.",
-        "sentence": "___ (haber) unas cincuenta personas en la sala, calculo.",
+        "sentence": "___ (haber) más de mil personas en la manifestación, según los que fueron.",
         "answer": "Habría",
-        "explanation": "El condicional de probabilidad estima de manera aproximada una cantidad en un momento pasado, sin implicar ninguna condición hipotética.",
+        "explanation": "Cantidad estimada en un momento pasado: condicional de «haber» (= probablemente había). «Haber» impersonal va siempre en singular: «habría», nunca «habrían», aunque sigan «mil personas».",
         "hint": "Se trata de una conjetura sobre el pasado, no de una condición con «si»."
       }
     ]
@@ -7720,28 +8382,44 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Deber de más infinitivo frente a deber más infinitivo",
         "body": [
-          "La norma académica tradicional distingue con nitidez «deber» + infinitivo, que expresa obligación, de «deber de» + infinitivo, que expresa conjetura o probabilidad. Esta distinción, aunque clara en la teoría gramatical, se ha erosionado considerablemente en el uso real de la lengua: en el habla espontánea, incluso entre hablantes cultos, «deber» sin «de» se emplea con frecuencia para expresar conjetura, generando una superposición que los propios gramáticos reconocen como generalizada.",
-          "A pesar de esta erosión en el uso oral, el registro escrito formal sigue recomendando mantener la distinción original: reservar «deber» sin preposición para la obligación, y «deber de» para la conjetura. Un hablante que domina este nivel debe conocer ambos matices para poder aplicar la forma correcta según el registro y el contexto comunicativo, sin caer en la hipercorrección de rechazar «deber» + infinitivo con valor de conjetura, que la propia norma académica admite («Deben ser las cinco»). Lo que la norma sí censura es lo contrario: «deber de» con valor de obligación («✗ Debes de entregarlo hoy» → «Debes entregarlo hoy»), un error muy frecuente incluso entre nativos."
+          "La norma distingue dos construcciones: «deber + infinitivo» expresa obligación (Debes entregar el informe = tienes que entregarlo) y «deber de + infinitivo» expresa conjetura (Debe de ser tarde = probablemente es tarde, como «será tarde»). La preposición «de» marca distancia: no se impone algo, se deduce.",
+          "En el uso real la frontera se ha borrado en una sola dirección: «deber» sin «de» con valor de conjetura («Deben ser las cinco») es hoy normal y la norma académica lo admite. Lo que sí se considera error, también entre nativos, es lo contrario: «deber de» para una obligación («✗ Debes de entregarlo hoy»). Regla práctica para escribir bien: si es una obligación, nunca pongas «de»; si es una suposición, «deber de» es la opción más clara en registro cuidado."
         ],
         "examples": [
           {
             "es": "Debes entregar el informe antes del viernes.",
-            "en": "Obligación clara, sin preposición «de»."
+            "en": "You must hand in the report before Friday. (obligación: sin «de»)"
           },
           {
             "es": "Debe de ser muy tarde ya, mira cómo está la calle.",
-            "en": "Conjetura sobre la hora, con «deber de»."
+            "en": "It must be very late. (conjetura: = será muy tarde)"
           },
           {
             "es": "Debe de haber unas cien personas en la sala.",
-            "en": "Estimación conjetural de una cantidad, con «deber de»."
+            "en": "There must be about a hundred people. (conjetura con «haber», siempre en singular)"
           },
           {
-            "es": "Deben terminar el proyecto esta semana sin falta.",
-            "en": "Obligación explícita dirigida a un grupo de personas."
+            "es": "Deben de haber salido ya; no contestan.",
+            "en": "They must have left already. (conjetura sobre el pasado: deber de + haber + participio)"
+          },
+          {
+            "es": "No debes fumar aquí.",
+            "en": "You mustn't smoke here. (prohibición: obligación negativa, sin «de»)"
           }
         ],
         "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Cartel de una piscina: «Los bañistas ___ ducharse antes de entrar en el agua.»",
+            "options": [
+              "deben",
+              "deben de",
+              "deberán de",
+              "debieron de"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es una norma, es decir, una obligación: «deber» sin preposición. Con «de» («deben de», «deberán de», «debieron de») la frase se leería como una suposición sobre lo que hacen los bañistas, que no es lo que dice un cartel."
+          },
           {
             "type": "multi-select",
             "question": "¿Cuáles de las siguientes oraciones expresan conjetura, según la distinción normativa tradicional?",
@@ -7789,25 +8467,29 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "A lo mejor frente a quizás, quizá y tal vez",
         "body": [
-          "«A lo mejor» se distingue de «quizás», «quizá» y «tal vez» en un rasgo gramatical decisivo: mientras que estos últimos admiten tanto el indicativo como el subjuntivo, con una diferencia de grado de probabilidad según el modo elegido (subjuntivo = más duda; indicativo = más seguridad), «a lo mejor» exige siempre el indicativo, sin excepción alguna. «Quizás venga mañana» y «quizás viene mañana» son ambas gramaticales, aunque con un matiz de mayor incertidumbre en la variante con subjuntivo.",
-          "Esta diferencia refleja distintos orígenes históricos de cada expresión: «a lo mejor» se ha fijado como locución adverbial que no altera el modo del verbo que sigue, mientras que «quizás» y sus variantes conservan una capacidad selectora de modo verbal que les permite matizar sutilmente el grado de probabilidad percibida. En el registro coloquial, «a lo mejor» resulta considerablemente más frecuente que «quizás», que se percibe como ligeramente más formal o literario."
+          "«Quizás», «quizá» y «tal vez» admiten los dos modos, y el modo marca el grado de duda: con subjuntivo la duda es mayor (Quizás venga = no lo veo claro), con indicativo el hablante se inclina a creerlo (Quizás viene = es bastante probable). «A lo mejor», en cambio, va siempre con indicativo: «✗ A lo mejor venga» es un error.",
+          "¿Por qué? «A lo mejor» nació como una locución que significa «en el mejor (o más probable) de los casos» y no rige el verbo, igual que «seguramente»; «quizás» y «tal vez», más antiguos, conservan la capacidad de elegir modo. Además, «a lo mejor» es la opción coloquial por excelencia, mientras que «quizás» suena algo más formal. Ojo: el subjuntivo solo es posible cuando el adverbio va delante del verbo; «Viene, quizás, mañana» solo admite indicativo."
         ],
         "examples": [
           {
             "es": "A lo mejor viene mañana a la reunión.",
-            "en": "Siempre con indicativo; «a lo mejor» no admite subjuntivo bajo ninguna circunstancia."
+            "en": "Maybe he'll come tomorrow. (a lo mejor: solo indicativo)"
           },
           {
             "es": "Quizás venga mañana a la reunión.",
-            "en": "El subjuntivo añade un matiz de mayor incertidumbre respecto al indicativo."
+            "en": "Perhaps he'll come. (subjuntivo: más duda)"
           },
           {
             "es": "Quizás viene mañana a la reunión.",
-            "en": "El indicativo transmite una probabilidad ligeramente mayor que el subjuntivo."
+            "en": "He may well come. (indicativo: más probable)"
           },
           {
             "es": "Tal vez tengamos que replantear todo el plan.",
-            "en": "Uso de subjuntivo con «tal vez», con matiz de incertidumbre."
+            "en": "We might have to rethink the plan. (tal vez + subjuntivo)"
+          },
+          {
+            "es": "A lo mejor ya se han ido.",
+            "en": "Maybe they've already left. (a lo mejor + perfecto de indicativo)"
           }
         ],
         "checkpoint": [
@@ -7822,6 +8504,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«A lo mejor» funciona como una locución adverbial que exige siempre indicativo, mientras que «quizás» conserva la capacidad de seleccionar indicativo o subjuntivo según el grado de incertidumbre que el hablante quiera expresar. Ambas se usan en afirmaciones y preguntas, «quizás» es plenamente correcto (igual que «quizá») y sí hay diferencia de modo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Completa: «A lo mejor ___ razón y nos hemos equivocado nosotros.» (tener, ellos)",
+            "options": [
+              "tienen",
+              "tengan",
+              "tuvieran",
+              "tengamos"
+            ],
+            "correctIndex": 0,
+            "explanation": "«A lo mejor» exige indicativo: «tienen». «Tengan» y «tuvieran» serían posibles con «quizás» o «tal vez», no con «a lo mejor»; «tengamos» cambia la persona."
           }
         ]
       }
@@ -7831,17 +8525,19 @@ const C1_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración con «a lo mejor» y modo indicativo.",
         "words": [
-          "a",
+          "A",
           "lo",
           "mejor",
-          "viene",
-          "mañana",
+          "nos",
+          "invitan",
           "a",
           "la",
-          "reunión"
+          "boda",
+          "de",
+          "Clara"
         ],
-        "translation": "Maybe he'll come to the meeting tomorrow.",
-        "explanation": "«A lo mejor» exige siempre indicativo, sin excepción alguna, a diferencia de «quizás»."
+        "translation": "Maybe they'll invite us to Clara's wedding",
+        "explanation": "«A lo mejor» exige indicativo: «nos invitan», nunca «nos inviten»."
       }
     ]
   },
@@ -7854,8 +8550,60 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "La idea: palabras para medir la certeza",
+        "body": [
+          "Hablar de conjeturas exige palabras que gradúen lo seguro que estás. Muchas se construyen con piezas reconocibles: el prefijo in- (im- ante p o b) niega el adjetivo o el sustantivo (preciso → impreciso, certidumbre → incertidumbre); «verosímil» une «vero» (verdadero) y «símil» (parecido): lo que parece verdad, y su contrario es «inverosímil».",
+          "Otras palabras nombran el razonamiento: se deduce (deducir → la deducción) a partir de indicios, una sospecha es fundada si tiene pruebas (fundar → fundado), y una cifra se estima a ojo o se ronda («rondará los cincuenta»). Conocer las piezas te permite entender palabras que no están en la lista."
+        ],
+        "examples": [
+          {
+            "es": "preciso → impreciso; certidumbre → incertidumbre",
+            "en": "in-/im- niega: «que no es preciso», «falta de certeza»."
+          },
+          {
+            "es": "verosímil ↔ inverosímil",
+            "en": "Lo que parece verdad / lo que no lo parece."
+          },
+          {
+            "es": "deducir → la deducción",
+            "en": "Verbo en -ducir → sustantivo en -ducción (como producir → producción)."
+          },
+          {
+            "es": "Rondará los cincuenta años.",
+            "en": "rondar + cifra = estar cerca de ella; en futuro añade conjetura."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el modelo preciso → impreciso, ¿qué significa «una cifra inexacta»?",
+            "options": [
+              "Una cifra que no es exacta",
+              "Una cifra muy exacta",
+              "Una cifra que se calculará más tarde",
+              "Una cifra que alguien ha exagerado"
+            ],
+            "correctIndex": 0,
+            "explanation": "in- niega el adjetivo: inexacto = no exacto, como impreciso = no preciso. No intensifica (no significa «muy exacta») ni habla de futuro o de exageración."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Si deducir → la deducción, ¿cuál es el sustantivo de «inducir»?",
+            "options": [
+              "la inducción",
+              "el inducimiento",
+              "la inducencia",
+              "el inducido"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los verbos en -ducir forman el sustantivo en -ducción: deducir → deducción, inducir → inducción, producir → producción. Las demás formas no se usan con ese sentido; «el inducido» es un participio."
+          }
+        ]
+      },
+      {
         "heading": "En la práctica",
         "body": [
+          "Lee la conversación y fíjate en cómo Pablo y Marisa gradúan su seguridad: futuro de conjetura (serán, estará), condicional para el pasado (tardaría), «deber de», «a lo mejor» con indicativo y «quizás» o «tal vez» con subjuntivo.",
           "Pablo: ¿Qué hora será? No encuentro el reloj por ninguna parte.",
           "Marisa: Serán las nueve, más o menos, por la luz que entra por la ventana.",
           "Pablo: ¿Y dónde estará Carlos? Ya debería haber llegado.",
@@ -7864,12 +8612,26 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Marisa: Sí, aunque quizás haya tomado un camino distinto esta vez.",
           "Pablo: Debe de estar al llegar, entonces. Vamos preparando algo mientras tanto.",
           "Marisa: Buena idea. Tal vez le apetezca comer algo nada más entrar."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué dice Marisa «quizás haya tomado un camino distinto» y no «a lo mejor haya tomado»?",
+            "options": [
+              "Porque «a lo mejor» exige indicativo; con él tendría que decir «ha tomado»",
+              "Porque «quizás» solo admite subjuntivo",
+              "Porque habla de algo futuro",
+              "Porque «a lo mejor» es incorrecto en una conversación"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Quizás» admite los dos modos y el subjuntivo añade duda; «a lo mejor» solo admite indicativo («a lo mejor ha tomado»). «Quizás» no exige subjuntivo, y «a lo mejor» es de hecho la opción más coloquial."
+          }
         ]
       },
       {
         "heading": "Vocabulario: la conjetura y la probabilidad",
         "body": [
-          "Primera tanda: 17 palabras relacionadas con la conjetura y la probabilidad; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 17 palabras sobre la conjetura y la probabilidad; las 17 restantes llegan en la lección siguiente. Agrúpalas: grados de certeza (incertidumbre, verosímil, impreciso, fundado), el razonamiento (deducir, a ojo, rondar) y los términos para describir la gramática de la conjetura (valor epistémico, prótasis, contrafactual, hipercorrección)."
         ],
         "examples": [
           {
@@ -7940,6 +8702,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "verosímil",
             "en": "que resulta creíble dentro de lo esperado"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Si hubiera salido antes, habría llegado a tiempo.» ¿Cómo se describe esta hipótesis?",
+            "options": [
+              "Es contrafactual: plantea algo contrario a lo que ocurrió",
+              "Es verosímil: describe lo que pasó",
+              "Es una prótasis sin condición",
+              "Es una hipercorrección"
+            ],
+            "correctIndex": 0,
+            "explanation": "La hipótesis va contra los hechos (no salió antes y no llegó a tiempo): es contrafactual. La prótasis es solo la parte con «si», y aquí no hay ninguna regla mal aplicada (hipercorrección)."
+          }
         ]
       }
     ],
@@ -7978,9 +8754,64 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
+        "heading": "La idea: la misma certeza en registros distintos",
+        "body": [
+          "Un mismo grado de certeza puede decirse en registros muy distintos. «Vete a saber» y «presumiblemente» expresan duda, pero la primera es de la calle y la segunda de un informe; «a buen seguro» y «seguro que» expresan seguridad, culta la primera y coloquial la segunda. Al escribir o hablar, elige primero el grado de certeza y después el registro.",
+          "Para las cifras pasa lo mismo: «en torno a» y «alrededor de» son neutros o cultos; «y pico» es coloquial y va detrás de una cifra redonda (cuarenta y pico); «a lo sumo» fija un máximo. Muchos adverbios cultos se forman con -mente sobre un adjetivo en -ble: presumible → presumiblemente, previsible → previsiblemente."
+        ],
+        "examples": [
+          {
+            "es": "¿Por qué no habrá venido? ¡Vete a saber!",
+            "en": "Duda total, registro coloquial."
+          },
+          {
+            "es": "Presumiblemente, el acuerdo se firmará en marzo.",
+            "en": "Lo mismo en registro culto: «según parece razonable suponer»."
+          },
+          {
+            "es": "Tendrá cuarenta y pico años.",
+            "en": "y pico (coloquial) = y algo más."
+          },
+          {
+            "es": "Asistieron en torno a doscientas personas.",
+            "en": "en torno a (culto) = aproximadamente."
+          },
+          {
+            "es": "El arreglo costará, a lo sumo, cien euros.",
+            "en": "a lo sumo = como máximo (fija un techo a la estimación)."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué opción expresa lo mismo que «presumiblemente» pero formada como él, con -ble + -mente?",
+            "options": [
+              "previsiblemente",
+              "seguramente",
+              "a lo mejor",
+              "vete a saber"
+            ],
+            "correctIndex": 0,
+            "explanation": "previsible → previsiblemente sigue el mismo modelo que presumible → presumiblemente y pertenece al mismo registro culto. «Seguramente» viene de «seguro», no de un adjetivo en -ble; «a lo mejor» y «vete a saber» son coloquiales."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Estás redactando un informe. ¿Cuál de estas frases encaja en su registro?",
+            "options": [
+              "El coste ascenderá a unos treinta mil euros, a lo sumo.",
+              "El coste será de treinta mil y pico, vete a saber.",
+              "Costará treinta mil y pico, fijo.",
+              "Ni idea de lo que costará."
+            ],
+            "correctIndex": 0,
+            "explanation": "«A lo sumo» y «ascender a» son propios del registro formal. «Y pico», «vete a saber», «fijo» y «ni idea» son coloquiales y no caben en un informe."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: más términos sobre registro y certeza",
         "body": [
-          "Segunda tanda: palabras para situar la conjetura en su registro (vete a saber, a buen seguro, coloquial, literario) y para graduar la certeza o una cifra (deber de, a lo sumo, y pico, en torno a, presuponer)."
+          "Segunda tanda: palabras para situar la conjetura en su registro (vete a saber, a buen seguro, coloquial, literario) y para graduar la certeza o una cifra (deber de, a lo sumo, y pico, en torno a, presuponer). Al repasarlas, marca cada una como coloquial, neutra o culta."
         ],
         "examples": [
           {
@@ -8051,6 +8882,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "en torno a",
             "en": "aproximadamente, alrededor de («en torno a las diez»)"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué expresión, que no está en la lista, pertenece al mismo registro coloquial que «vete a saber»?",
+            "options": [
+              "Ni idea.",
+              "Presumiblemente.",
+              "A buen seguro.",
+              "Según parece razonable suponer."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Ni idea» expresa ignorancia en registro coloquial, como «vete a saber». «Presumiblemente», «a buen seguro» y «según parece razonable suponer» son cultos."
+          }
         ]
       }
     ],
@@ -8080,8 +8925,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La pragmática del tratamiento: más allá de la gramática",
         "body": [
-          "Elegir entre tú, usted o vos no es una cuestión puramente gramatical, sino un acto pragmático que comunica información social: distancia, jerarquía, afecto o respeto. Un mismo hablante puede tutear a su hermano menor, ustedear a su suegra y vosear a un amigo de la infancia, todo en la misma tarde, sin que ninguna de esas elecciones sea incorrecta. Lo que cambia no es la corrección gramatical, sino el mensaje social que cada forma transmite en ese contexto preciso.",
-          "Por eso, dominar el registro exige algo más que memorizar conjugaciones: exige leer la situación. Factores como la edad relativa de los interlocutores, el ámbito de la conversación, el grado de familiaridad previa y, sobre todo, la norma vigente en cada país determinan qué forma resulta natural y cuál suena forzada, distante o, peor aún, irrespetuosa."
+          "Elegir entre tú, usted o vos no es una cuestión de corrección gramatical, sino de mensaje social: cada forma comunica distancia o cercanía, jerarquía, afecto o respeto. Un mismo hablante puede tutear a su hermano, ustedear a su suegra y vosear a un amigo de la infancia en la misma tarde, y las tres elecciones son correctas. Lo que puede fallar no es la gramática, sino el mensaje: un usted de más suena frío o impostado; un tú de menos, irrespetuoso.",
+          "Por eso dominar el registro exige leer la situación: la edad relativa, el ámbito (casa, oficina, institución), la familiaridad previa y, sobre todo, la norma de cada país deciden qué forma resulta natural. Esta lección te da las palabras para hablar de todo eso: tutear, ustedear, guardar las distancias, romper el hielo."
         ],
         "examples": [
           {
@@ -8123,6 +8968,45 @@ const C1_BASE_LESSONS: Lesson[] = [
             "explanation": "El texto subraya que la elección de tratamiento es un acto pragmático: comunica distancia, jerarquía o afecto según el contexto, no una simple regla gramatical. La edad influye pero no «únicamente», no hay una regla fija común a todos los países y el nivel de estudios no es el criterio."
           }
         ]
+      },
+      {
+        "heading": "Qué cambia en la frase cuando cambias el tratamiento",
+        "body": [
+          "Usted es gramaticalmente una tercera persona: por eso, al pasar de tú a usted no cambia solo el pronombre, sino todo lo que concuerda con él. El verbo va en tercera persona (tienes → tiene), los pronombres átonos pasan a lo, la, le o se (te → lo/la/le, te sientas → se sienta), el posesivo pasa a su (tu → su) y el imperativo toma la forma de subjuntivo (siéntate → siéntese).",
+          "El error típico de quien aprende no es elegir mal el tratamiento, sino mezclarlo dentro de la misma frase: «✗ Señora, ¿quieres sentarse?». Una frase formal tiene que ser formal de principio a fin."
+        ],
+        "examples": [
+          {
+            "es": "¿Tienes un momento? → ¿Tiene (usted) un momento?",
+            "en": "Verbo en tercera persona."
+          },
+          {
+            "es": "Te llamo mañana. → La llamo mañana.",
+            "en": "te → la (a una mujer) / lo o le (a un hombre)."
+          },
+          {
+            "es": "¿Es este tu abrigo? → ¿Es este su abrigo?",
+            "en": "tu → su."
+          },
+          {
+            "es": "Siéntate, por favor. → Siéntese, por favor.",
+            "en": "Imperativo de usted = forma del subjuntivo + se."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Cambia a la forma de usted.",
+            "source": "¿Te acuerdas de mi hermano?",
+            "answer": "¿Se acuerda de mi hermano?",
+            "altAnswers": [
+              "¿Se acuerda usted de mi hermano?",
+              "¿Usted se acuerda de mi hermano?"
+            ],
+            "explanation": "Con usted, el verbo pasa a tercera persona y el pronombre reflexivo «te» pasa a «se»: «¿se acuerda?». «Usted» puede añadirse para marcar cortesía: «¿Se acuerda usted de mi hermano?»."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -8151,8 +9035,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los factores que condicionan la elección del tratamiento",
         "body": [
-          "La edad relativa es uno de los factores más determinantes: en casi todo el mundo hispanohablante, dirigirse a una persona considerablemente mayor con tú, sin que medie una invitación explícita, puede percibirse como una falta de respeto. Del mismo modo, el ámbito profesional impone sus propias reglas: quien se dirige a una autoridad, o un empleado que se dirige a la dirección general, recurrirá casi siempre al usted, independientemente de la edad de ambos.",
-          "La jerarquía institucional actúa de forma parecida a la edad: en un hospital, en un cuartel o en una notaría, el tratamiento suele reflejar la posición de cada persona dentro de esa estructura, más que su relación personal. Sin embargo, el factor más difícil de calibrar para quien aprende español es la norma regional, precisamente porque varía tanto de un país a otro que una fórmula perfectamente natural en un lugar puede sonar fría, e incluso ofensiva, en otro."
+          "Recuerda la regla: el tratamiento comunica una relación social, y varios factores la deciden. La edad relativa es el primero: en casi todo el mundo hispanohablante, tutear a alguien considerablemente mayor sin que te lo haya ofrecido puede parecer una falta de respeto. El ámbito profesional y la jerarquía institucional pesan tanto como la edad: ante un juez, un médico en consulta o la dirección general se usa usted aunque las edades sean parecidas, porque el tratamiento refleja el cargo, no la persona.",
+          "El factor más difícil es la norma regional: en España el tuteo está muy extendido, mientras que en buena parte de América el usted es la opción por defecto con desconocidos, y en algunas zonas se usa incluso en familia. Por eso una fórmula natural en un país puede sonar fría, o confianzuda, en otro. Ante la duda, empieza con usted y deja que el otro proponga el tú: rebajar la distancia es fácil; recuperarla, no."
         ],
         "examples": [
           {
@@ -8196,6 +9080,18 @@ const C1_BASE_LESSONS: Lesson[] = [
               3
             ],
             "explanation": "El texto menciona la edad, el ámbito profesional o institucional y la norma regional como factores determinantes; el vestuario no tiene ninguna relevancia pragmática en este terreno."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Estás en Bogotá y entras por primera vez en una farmacia. El farmacéutico tiene unos treinta años, como tú. ¿Qué tratamiento es más prudente?",
+            "options": [
+              "Usted, porque es un desconocido y en Colombia es la opción por defecto",
+              "Tú, porque tenéis la misma edad",
+              "Vos, porque es lo habitual con desconocidos en toda América",
+              "Da igual: ninguna opción comunica nada"
+            ],
+            "correctIndex": 0,
+            "explanation": "La edad parecida no basta: con un desconocido, en un establecimiento y en un país donde el usted es la norma general, lo prudente es usted. El voseo no es general en América ni se usa con desconocidos en Bogotá, y el tratamiento siempre comunica algo."
           }
         ]
       }
@@ -8229,6 +9125,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cuando tutear es un error y cuando es un gesto de cercanía",
         "body": [
+          "La regla de fondo: usted no significa siempre «distancia» ni tú siempre «cercanía»; cada comunidad decide qué forma es la neutra. Donde el tuteo es la opción por defecto (España), el usted entre iguales suena distante o cómico; donde el usted es la opción por defecto (buena parte de América), el tú con un desconocido puede sonar descarado. Y en algunas zonas el usted se ha cargado de cariño.",
           "La variación regional en este terreno es enorme. En España, el tuteo se ha extendido de tal manera que resulta habitual incluso entre desconocidos, en tiendas, restaurantes o consultas médicas; usar usted allí con alguien de edad semejante puede sonar excesivamente distante o incluso cómico. En buena parte de Hispanoamérica, en cambio, el usted sigue siendo la opción por defecto ante un desconocido, y tutear sin más a un dependiente puede interpretarse como una falta de educación.",
           "Colombia ofrece un matiz particular: en ciertas regiones del país, el ustedeo se emplea incluso entre parejas y amigos íntimos, como fórmula de cariño y no de distancia, lo que contradice la intuición de quien asocia el usted únicamente con la formalidad. Esta paradoja ilustra por qué ninguna regla universal sirve: lo que en un país señala cercanía, en otro señala justamente lo contrario, y quien aprende debe calibrar su oído a cada contexto nacional en lugar de aplicar una fórmula fija."
         ],
@@ -8256,6 +9153,18 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "calibrar el oído",
             "en": "afinar la percepción para captar los matices de una lengua o un contexto"
+          },
+          {
+            "es": "En Madrid: —¿Qué te pongo? —Un café, gracias.",
+            "en": "En España, el camarero tutea al cliente sin que nadie lo vea como falta de respeto."
+          },
+          {
+            "es": "En Lima: —¿Qué le sirvo? —Un café, por favor.",
+            "en": "En Perú, el usted es lo habitual con desconocidos."
+          },
+          {
+            "es": "En Medellín: —Mijo, ¿usted ya comió?",
+            "en": "Ustedeo afectivo: una madre a su hijo, con todo el cariño."
           }
         ],
         "checkpoint": [
@@ -8264,9 +9173,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la afirmación sobre el fenómeno colombiano descrito en el texto.",
             "sentence": "En algunas regiones de Colombia, el ustedeo funciona como una fórmula ___, no de distancia.",
             "answer": "afectiva",
-            "altAnswers": ["de cariño", "cariñosa"],
+            "altAnswers": [
+              "de cariño",
+              "cariñosa"
+            ],
             "explanation": "El texto explica que en ciertas zonas de Colombia el usted se usa entre personas cercanas precisamente como muestra de cariño.",
             "hint": "Piensa en el sentimiento que transmite ese trato entre parejas y amigos íntimos."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Una pareja de Boyacá (Colombia) se dice: «Mi amor, ¿usted me quiere?». ¿Qué comunica ese usted?",
+            "options": [
+              "Cariño: es ustedeo afectivo",
+              "Enfado: marcan distancia",
+              "Respeto por la diferencia de edad",
+              "Que acaban de conocerse"
+            ],
+            "correctIndex": 0,
+            "explanation": "En algunas regiones de Colombia el usted entre íntimos es afectivo, no distante; «mi amor» lo confirma. Leerlo como enfado o distancia es aplicar la intuición de otra comunidad."
           }
         ]
       }
@@ -8292,6 +9216,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El cambio de registro dentro de una misma conversación",
         "body": [
+          "La regla de fondo: como el tratamiento comunica la relación, cambiarlo a mitad de conversación también comunica algo. Pasar del usted al tú dice «ahora hay confianza» y suele proponerse de forma explícita («¿Nos tuteamos?»); pasar del tú al usted dice «me estoy alejando de ti» y casi nunca se anuncia: basta con hacerlo.",
           "El tratamiento no siempre permanece fijo a lo largo de un intercambio. Es habitual que una negociación, una entrevista o una primera reunión de trabajo comiencen en usted y evolucionen hacia el tú a medida que ambas partes perciben una afinidad o deciden relajar la formalidad inicial. Ese tránsito suele señalizarse con una frase explícita, como una invitación directa a tutearse, más que producirse de forma espontánea y silenciosa.",
           "También ocurre el proceso inverso, aunque con menor frecuencia: un desacuerdo serio o un conflicto pueden llevar a que alguien pase súbitamente del tú al usted, empleando la formalidad como una herramienta para marcar distancia o disgusto. En ambos casos, el cambio de registro funciona como una señal social tan elocuente como cualquier palabra, y saber interpretarla forma parte de una competencia comunicativa avanzada."
         ],
@@ -8334,6 +9259,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "translation": "The negotiation began with usted and ended with tú.",
             "explanation": "Se dice «hablar/tratarse de usted» y «de tú», con «de»: la negociación comenzó de usted y pasó al tú cuando surgió la confianza."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Dos amigos discuten y uno dice de repente: «Mire, haga usted lo que quiera». ¿Qué comunica?",
+            "options": [
+              "Enfado y distancia: pasa al usted para alejarse",
+              "Respeto porque el otro es mayor",
+              "Que quiere proponer el tuteo",
+              "Nada: es un error gramatical"
+            ],
+            "correctIndex": 0,
+            "explanation": "Entre amigos que se tutean, el salto repentino al usted es una señal elocuente de disgusto: marca distancia. No hay ningún error gramatical; la frase es coherente en usted de principio a fin."
           }
         ]
       }
@@ -8365,8 +9302,44 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: el cambio se negocia y luego se cumple",
+        "body": [
+          "En una reunión profesional se empieza en usted y, si surge la confianza, alguien propone el tuteo, normalmente la persona de más rango o la anfitriona («¿Le molesta si nos tuteamos?»). La propuesta todavía va en usted; la respuesta puede aceptar y cambiar en el acto («Para nada… Entonces, decías que…»).",
+          "Desde ese momento, todo pasa a tú a la vez: verbos (revisa → revisas), pronombres (le → te), posesivos (su → tu) e imperativos (déjeme → déjame). Volver al usted sin motivo sonaría a enfado."
+        ],
+        "examples": [
+          {
+            "es": "¿Le importa que nos tuteemos?",
+            "en": "La propuesta aún va en usted (le molesta)."
+          },
+          {
+            "es": "Para nada. Entonces, decías que…",
+            "en": "Aceptación y cambio inmediato: decías, no decía."
+          },
+          {
+            "es": "Déjeme revisarlo. → Déjame revisarlo.",
+            "en": "El imperativo también cambia tras el acuerdo."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Ya han acordado tutearse. ¿Qué frase mantiene la coherencia?",
+            "options": [
+              "Te mando el informe y me dices qué te parece.",
+              "Le mando el informe y me dices qué te parece.",
+              "Te mando el informe y me dice qué le parece.",
+              "Le mando el informe y me dice qué le parece."
+            ],
+            "correctIndex": 0,
+            "explanation": "Tras el acuerdo, todo va en tú: «te mando», «me dices», «te parece». Las opciones con «le» mezclan los tratamientos o vuelven al usted, que ya no corresponde."
+          }
+        ]
+      },
+      {
         "heading": "En la práctica",
         "body": [
+          "Lee la reunión y localiza el momento exacto en que cambia el tratamiento: fíjate en qué palabras cambian justo después.",
           "— Buenas tardes, licenciada. Le agradezco que haya podido recibirme con tan poca antelación.",
           "— Al contrario, es un placer. Tome asiento, por favor. ¿Le ofrezco un café?",
           "— Se lo agradezco, pero no se moleste.",
@@ -8377,6 +9350,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           "— Exacto. Si revisas la última cifra que te envié, verás que el potencial es incluso mayor de lo que proyectamos al inicio.",
           "— Déjame revisarla con calma y te confirmo mañana. ¿Te parece si seguimos por correo electrónico?",
           "— Perfecto, así lo hacemos. Gracias por tu tiempo."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En el diálogo, ¿cuál es la primera frase ya en tú después de la propuesta?",
+            "options": [
+              "«Entonces, decías que el margen de crecimiento es considerable…»",
+              "«¿Le molesta si nos tuteamos?»",
+              "«Para nada, al contrario, se lo iba a proponer yo.»",
+              "«Tome asiento, por favor.»"
+            ],
+            "correctIndex": 0,
+            "explanation": "La licenciada acepta y cambia en el acto: «decías» (tú). «¿Le molesta…?» es la propuesta, todavía en usted; «se lo iba a proponer» aún contesta en usted, y «tome asiento» es del principio."
+          }
         ]
       }
     ],
@@ -8415,9 +9402,60 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "La idea: cómo se forman las palabras del trato",
+        "body": [
+          "Muchas palabras de esta lista nombran una cualidad y se forman sobre un adjetivo con sufijos fijos: -dad / -idad (afable → la afabilidad, sobrio → la sobriedad, solemne → la solemnidad, familiar → la familiaridad), -eza (llano → la llaneza) y -ía (campechano → la campechanía). Todos estos sustantivos son femeninos.",
+          "Los verbos del tratamiento salen del pronombre con -ear: tú → tutear, usted → ustedear, vos → vosear; y el sustantivo de la acción en -eo: el tuteo, el ustedeo, el voseo. Con estas piezas puedes entender y formar palabras que no están en la lista."
+        ],
+        "examples": [
+          {
+            "es": "afable → la afabilidad; sobrio → la sobriedad",
+            "en": "-dad / -idad: la cualidad de ser…"
+          },
+          {
+            "es": "llano → la llaneza",
+            "en": "-eza: otra terminación de cualidad, también femenina."
+          },
+          {
+            "es": "campechano → la campechanía",
+            "en": "-ía: la cualidad de ser campechano."
+          },
+          {
+            "es": "tú → tutear → el tuteo",
+            "en": "pronombre → verbo en -ear → acción en -eo."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el modelo sobrio → la sobriedad, ¿qué sustantivo nombra la cualidad de ser «cordial»?",
+            "options": [
+              "la cordialidad",
+              "la cordialeza",
+              "el cordialismo",
+              "la cordía"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los adjetivos en -al forman la cualidad con -idad: cordial → cordialidad (como formal → formalidad, familiar → familiaridad). Las otras formas no existen."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Si «tutear» es tratar de tú, ¿qué significa «el voseo»?",
+            "options": [
+              "El uso de vos para dirigirse a alguien",
+              "Hablar en voz muy alta",
+              "Tratar a alguien de vosotros",
+              "El uso de usted en familia"
+            ],
+            "correctIndex": 0,
+            "explanation": "pronombre + -ear / -eo: vos → vosear → el voseo, igual que tú → tutear → el tuteo. No tiene que ver con la voz ni con vosotros; el uso de usted en familia es el ustedeo afectivo."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: el registro y el tratamiento",
         "body": [
-          "35 palabras relacionadas con el registro y el tratamiento."
+          "35 palabras sobre el registro y el tratamiento. Al repasarlas, busca la familia de cada una: el adjetivo detrás del sustantivo (afable / afabilidad) o el pronombre detrás del verbo (tú / tutear)."
         ],
         "examples": [
           {
@@ -8560,6 +9598,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "la fórmula de tratamiento",
             "en": "la palabra o expresión convencional que indica el grado de respeto o cercanía hacia el interlocutor"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un becario saluda al presidente de la empresa con un «¿Qué pasa, jefe?» y una palmada en la espalda. ¿Qué expresión de la lista describe lo que hace?",
+            "options": [
+              "Tomarse confianzas",
+              "Guardar las formas",
+              "Rendir pleitesía",
+              "Mostrar deferencia"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tratar a alguien con una familiaridad que no corresponde es «tomarse confianzas». Guardar las formas y mostrar deferencia son lo contrario, y rendir pleitesía es un respeto excesivo."
+          }
         ]
       }
     ],
@@ -8589,10 +9641,19 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Origen y extensión geográfica del voseo",
         "body": [
+          "La idea clave: vos es un pronombre de segunda persona del singular de confianza, es decir, ocupa el lugar de tú (no el de usted ni el de vosotros). Donde se vosea, vos es simplemente la forma normal de hablar con un amigo, la pareja o la familia, y en el Río de la Plata también con desconocidos en muchas situaciones.",
           "El voseo no es una deformación del español ni una curiosidad marginal, sino la continuación de una forma de tratamiento medieval —el vos— que en la península terminó por desaparecer, mientras que en amplias zonas de América se consolidó como norma culta. Argentina, Uruguay y Paraguay lo emplean de manera generalizada y sin ningún estigma social, hasta el punto de que el tuteo puede sonar allí artificioso en el habla cotidiana.",
           "Fuera del Río de la Plata, el voseo también predomina en buena parte de Centroamérica —Costa Rica, Nicaragua, Guatemala, Honduras y El Salvador— aunque con variantes en su prestigio social: en algunos de esos países convive con el tuteo según el contexto, mientras que en otros el vos es la forma no marcada, es decir, la que se usa por defecto sin ninguna connotación especial."
         ],
         "examples": [
+          {
+            "es": "Vos sos de Montevideo, ¿no?",
+            "en": "You're from Montevideo, aren't you? (vos = tú; ser → sos)"
+          },
+          {
+            "es": "¿Vos venís a la fiesta?",
+            "en": "Are you coming to the party? (un amigo, en Buenos Aires)"
+          },
           {
             "es": "la forma no marcada",
             "en": "la opción que se usa por defecto, sin que comunique ningún matiz especial"
@@ -8630,6 +9691,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto explica que el vos proviene de una forma de tratamiento medieval que desapareció en España pero se consolidó como norma en amplias zonas de América. No es un invento reciente ni juvenil, no nace en el siglo XX y no es un calco de otra lengua."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Una costarricense le escribe a una amiga: «¿Vos venís mañana?». ¿A qué forma de España equivale ese «vos»?",
+            "options": [
+              "A tú: «¿Tú vienes mañana?»",
+              "A usted: «¿Usted viene mañana?»",
+              "A vosotras: «¿Vosotras venís mañana?»",
+              "A ella: «¿Ella viene mañana?»"
+            ],
+            "correctIndex": 0,
+            "explanation": "El vos americano es singular y de confianza: equivale a tú. No es el plural vosotros (aunque «venís» se parezca a la forma de vosotros) ni el usted de respeto."
           }
         ]
       }
@@ -8660,6 +9733,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La conjugación voseante en el presente y el imperativo",
         "body": [
+          "La regla: en el presente, el voseo toma la terminación del infinitivo con acento y -s: -ar → -ás, -er → -és, -ir → -ís (hablar → hablás, tener → tenés, vivir → vivís). Por eso no hay diptongo (tenés, no «tienés»): el acento cae en la terminación, no en la raíz. En el imperativo, se quita la -r del infinitivo y se acentúa la vocal: hablá, tené, vení, decí. ¿Por qué? Estas formas vienen de las antiguas de vosotros (tenéis, tened), que perdieron la i o la d.",
           "La marca más reconocible del voseo aparece en el presente de indicativo, donde la forma verbal se acentúa en la última sílaba y pierde el diptongo característico de la conjugación tuteante: vos tenés, vos podés, vos querés, frente a tú tienes, tú puedes, tú quieres. Esta desinencia aguda —terminada en -ás, -és o -ís según la conjugación— es la que delata de inmediato a un hablante voseante ante cualquier oído entrenado.",
           "El imperativo sigue una lógica parecida y resulta, de hecho, más regular que el tuteante: vení, tené y decí conservan el acento en la misma sílaba que el infinitivo, sin las irregularidades que complican el imperativo de tú, como ven o ten. En cambio, otros tiempos verbales —el pretérito, el futuro, el subjuntivo— no presentan, en la norma culta, diferencias con la conjugación tuteante (en el habla coloquial se oyen formas como «que tengás»), por lo que el voseo, lejos de ser un sistema paralelo completo, se concentra sobre todo en el presente y el imperativo."
         ],
@@ -8711,6 +9785,56 @@ const C1_BASE_LESSONS: Lesson[] = [
             "explanation": "El imperativo voseante conserva el acento en la misma sílaba que el infinitivo, por lo que la forma correcta es vení."
           }
         ]
+      },
+      {
+        "heading": "La regla en acción",
+        "body": [
+          "Fíjate en que la misma regla sirve para verbos regulares, para los que diptongan con tú (querer, poder, volver) y para los que tienen imperativo irregular con tú (venir, tener, decir, poner). Solo «ser» tiene una forma propia: vos sos."
+        ],
+        "examples": [
+          {
+            "es": "tú hablas → vos hablás; tú comes → vos comés; tú vives → vos vivís",
+            "en": "-ás, -és, -ís: la terminación del infinitivo con acento."
+          },
+          {
+            "es": "tú quieres → vos querés; tú vuelves → vos volvés",
+            "en": "Sin diptongo: el acento ya no cae en la raíz."
+          },
+          {
+            "es": "ven → vení; pon → poné; di → decí",
+            "en": "Imperativo: infinitivo sin -r y con acento."
+          },
+          {
+            "es": "tú eres → vos sos",
+            "en": "La única forma especial del presente."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla: ¿cuál es el presente voseante de «dormir»?",
+            "options": [
+              "dormís",
+              "duermes",
+              "duermís",
+              "dormés"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ir → -ís con el acento en la terminación, así que la raíz no diptonga: dormís. «Duermes» es la forma de tú, «duermís» mezcla el diptongo con la terminación voseante y «dormés» usa la terminación de -er."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál es el imperativo voseante de «salir»?",
+            "options": [
+              "salí",
+              "sal",
+              "salís",
+              "salé"
+            ],
+            "correctIndex": 0,
+            "explanation": "Imperativo voseante = infinitivo sin -r y con acento: salir → salí. «Sal» es el imperativo de tú, «salís» es el presente y «salé» usa la vocal equivocada."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -8734,10 +9858,23 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El voseo y el registro: vos y usted conviven",
         "body": [
+          "La regla: el voseo no elimina la distinción entre confianza y respeto; solo cambia la forma de confianza. En el Río de la Plata el sistema es vos (confianza) / usted (respeto), igual que en España es tú / usted. Por eso, al hablar con un desconocido mayor o con una autoridad, un porteño usa usted, con toda su gramática (sabe, quiere, la/lo, su).",
           "Una confusión frecuente entre quienes aprenden español es suponer que el voseo elimina la distinción de registro, cuando en realidad convive perfectamente con ella. En el Río de la Plata, por ejemplo, el vos ocupa el lugar del tú como forma de confianza, pero el usted sigue existiendo y cumpliendo la misma función formal que en cualquier otra variedad: se emplea con desconocidos de cierta edad, en trámites oficiales o ante una autoridad.",
           "Lo que cambia, entonces, no es la existencia del contraste formal-informal, sino cuál de las dos formas informales —tú o vos— ocupa ese espacio. Un hablante rioplatense que aprende que en España se dice tú no está aprendiendo una forma más formal que la suya, sino simplemente la variante geográfica equivalente a su propio vos."
         ],
         "examples": [
+          {
+            "es": "Martín, ¿vos sabés qué hora es?",
+            "en": "A un amigo: vos + sabés."
+          },
+          {
+            "es": "Señor, ¿usted sabe qué hora es?",
+            "en": "A un desconocido mayor: usted + sabe, también en Buenos Aires."
+          },
+          {
+            "es": "Mañana paso a buscarte; voy con vos.",
+            "en": "Tras preposición se usa «vos» (con vos, para vos), nunca «ti» ni «contigo»."
+          },
           {
             "es": "ocupar el lugar de",
             "en": "sustituir funcionalmente a otra forma dentro de un mismo sistema"
@@ -8771,6 +9908,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto aclara que el vos sustituye al tú en su función de confianza, pero el usted conserva plenamente su función formal. El usted no desaparece, se usa también en el habla y convive con el vos en el mismo país."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "En Montevideo, un estudiante escribe a la decana de su facultad, a la que no conoce. ¿Qué frase es adecuada?",
+            "options": [
+              "¿Podría usted recibirme el lunes?",
+              "¿Podés recibirme el lunes?",
+              "¿Podrías recibirme el lunes?",
+              "¿Me recibís el lunes, che?"
+            ],
+            "correctIndex": 0,
+            "explanation": "Con una autoridad a la que no conoce, también en Uruguay se usa usted: «¿Podría usted…?». «Podés» y «¿me recibís, che?» son de confianza (vos), y «podrías» es la forma de tú, que en Montevideo además suena ajena."
           }
         ]
       }
@@ -9021,10 +10170,23 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Voseo y estigma: entre la norma culta y el prejuicio lingüístico",
         "body": [
+          "La idea: el prestigio de una forma no depende de su gramática, sino de quién la usa y en qué ámbitos. El voseo es igual de sistemático que el tuteo (sus reglas no tienen excepciones caprichosas), pero en unas comunidades está asociado a la escuela y los medios (Río de la Plata) y en otras se percibe como informal o popular (parte de Centroamérica y los Andes). Esa valoración es social, no lingüística: es un prejuicio lingüístico.",
           "Aunque el voseo rioplatense goza hoy de pleno prestigio —se enseña en las escuelas, aparece en la literatura y se usa en los medios de comunicación sin ninguna reserva—, no todas las variantes del voseo han corrido la misma suerte. En algunos países centroamericanos y andinos, el vos coexiste con una percepción de informalidad excesiva o incluso de menor prestigio frente al tuteo, que históricamente se asoció con la educación formal y los medios escritos.",
           "Este tipo de prejuicio lingüístico —juzgar una forma gramaticalmente legítima como inferior por razones puramente sociales— no tiene ningún fundamento objetivo: el voseo es tan sistemático y tan antiguo como el tuteo, y su distribución geográfica actual responde a la historia colonial y a las rutas de contacto lingüístico, no a ningún defecto intrínseco de la forma. Reconocer esta realidad forma parte de una competencia sociolingüística madura."
         ],
         "examples": [
+          {
+            "es": "Vos tenés razón. / Tú tienes razón.",
+            "en": "Dos sistemas igual de regulares; ninguno es «más correcto»."
+          },
+          {
+            "es": "En Buenos Aires, el telediario dice: «Si vos querés participar, llamá al…».",
+            "en": "Voseo con pleno prestigio: en los medios y en la escuela."
+          },
+          {
+            "es": "En otros lugares, hay quien piensa: «Hablar de vos es de gente sin estudios».",
+            "en": "Prejuicio lingüístico: un juicio social disfrazado de gramatical."
+          },
           {
             "es": "gozar de pleno prestigio",
             "en": "estar completamente aceptado y valorado dentro de una comunidad lingüística"
@@ -9062,6 +10224,18 @@ const C1_BASE_LESSONS: Lesson[] = [
               3
             ],
             "explanation": "El texto afirma el prestigio del voseo rioplatense, la percepción desigual en otras regiones y el origen histórico de su distribución; en ningún momento se dice que carezca de sistematicidad."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Un profesor de Madrid corrige a una alumna nicaragüense que escribe «vos sabés» en una carta a su hermana. ¿Qué demuestra?",
+            "options": [
+              "Un prejuicio lingüístico: «vos sabés» es correcto en su variedad",
+              "Una competencia sociolingüística madura",
+              "Que el voseo es un error en la escritura",
+              "Que «sabés» lleva una tilde de más"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Vos sabés» es la forma normal de confianza en Nicaragua, también por escrito en una carta personal; corregirla como error es juzgar una variedad por la propia. La tilde de «sabés» es la correcta, porque es aguda terminada en -s."
           }
         ]
       }
@@ -9101,8 +10275,48 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
+        "heading": "La idea: palabras para describir variedades",
+        "body": [
+          "Para hablar de variedades se usan dos familias de palabras. Con el sufijo -ismo se nombra un rasgo propio de un lugar: uruguayismo, centroamericanismo, y del mismo modo argentinismo, chilenismo o mexicanismo. Con «voseo» + adjetivo se distingue qué cambia: el voseo pronominal usa el pronombre vos; el voseo verbal cambia la conjugación (tenés, vení). En el Río de la Plata se dan los dos a la vez: vos tenés.",
+          "Las palabras de la fonética también ayudan a explicar el voseo: «tenés» es una forma aguda (acento en la última sílaba) y por eso lleva tilde; el diptongo de «tienes» desaparece porque el acento ya no cae en la raíz."
+        ],
+        "examples": [
+          {
+            "es": "Uruguay → un uruguayismo; Chile → un chilenismo",
+            "en": "-ismo = rasgo lingüístico propio de un lugar."
+          },
+          {
+            "es": "vos tenés",
+            "en": "Voseo pronominal (vos) + voseo verbal (tenés)."
+          },
+          {
+            "es": "vos tienes",
+            "en": "Solo voseo pronominal: se oye en algunas zonas, pero no es la norma rioplatense."
+          },
+          {
+            "es": "tú tienes → vos tenés",
+            "en": "Sin diptongo: el acento pasa a la desinencia."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En Chile se oye «¿Cómo estái?» con el pronombre tú: «tú estái». ¿Qué tipo de voseo es?",
+            "options": [
+              "Voseo verbal: cambia el verbo, no el pronombre",
+              "Voseo pronominal: cambia el pronombre, no el verbo",
+              "No es voseo de ningún tipo",
+              "Voseo pronominal y verbal a la vez"
+            ],
+            "correctIndex": 0,
+            "explanation": "El pronombre es «tú», pero el verbo tiene forma voseante («estái», de «estáis»): es voseo verbal. El pronominal sería usar «vos» con el verbo de tú; en el rioplatense «vos estás» se dan los dos."
+          }
+        ]
+      },
+      {
         "heading": "En la práctica",
         "body": [
+          "Lee la conversación entre una porteña y un costarricense y fíjate en qué comparten (vos + usted, tenés, podés) y en qué se distinguen (la entonación, expresiones como «che» o «nomás»).",
           "— Che, ¿vos sos de acá o estás de paso?",
           "— Estoy de paso, en realidad. Soy de Costa Rica, aunque allá también voseamos, ¿sabés?",
           "— ¡No lo puedo creer! Pensé que el vos era una cosa nuestra nomás.",
@@ -9112,12 +10326,26 @@ const C1_BASE_LESSONS: Lesson[] = [
           "— Acá pasa lo mismo. El usted no desapareció, nomás tiene otro compañero: donde otros dicen tú y usted, acá es vos y usted.",
           "— Tal cual. Lo que sí, cuando escucho hablar a alguien de España, me choca un poco el tú, se me hace medio raro.",
           "— A mí también, che, aunque una vez que te acostumbrás, no cuesta nada entenderlo."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según la conversación, ¿qué sistema de tratamiento comparten Argentina y Costa Rica?",
+            "options": [
+              "Vos para la confianza y usted para el respeto",
+              "Tú para la confianza y vos para el respeto",
+              "Solo vos, sin usted",
+              "Tú y usted, como en España"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los dos lo dicen: «el usted no desapareció, nomás tiene otro compañero». Donde otros dicen tú/usted, ellos dicen vos/usted. Vos nunca es la forma de respeto."
+          }
         ]
       },
       {
         "heading": "Vocabulario: el voseo",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con el voseo; las 17 restantes llegan en la parte 3 de esta serie."
+          "Primera tanda: 18 palabras sobre el voseo; las 17 restantes llegan en la parte 3 de esta serie. Agrúpalas: tipos de voseo (verbal, pronominal), formas verbales (desinencia, paradigma, presente e imperativo voseantes), fonética (tilde, diptongo, forma átona/tónica) y variedades (rioplatense, porteño, uruguayismo, centroamericanismo)."
         ],
         "examples": [
           {
@@ -9222,6 +10450,57 @@ const C1_BASE_LESSONS: Lesson[] = [
     "summary": "Segunda tanda de vocabulario: términos de dialectología (la isoglosa, el continuo dialectal), de valoración social (el estigma, el prestigio) y rasgos rioplatenses como el yeísmo rehilado.",
     "duration": "6 min",
     "sections": [
+      {
+        "heading": "La idea: cómo funcionan estos términos",
+        "body": [
+          "Muchos términos de dialectología se entienden por sus piezas. «Dia-» significa «a través de» y «-tópico» viene de «topos», «lugar»: una variedad diatópica cambia de un lugar a otro. Del mismo modo, «iso-» («igual») + «glosa» («lengua») da «isoglosa», la línea que une los puntos donde un rasgo es igual. Con «-ismo» se nombra un rasgo (arcaísmo, yeísmo) y con «-ía» o «-dad» una cualidad (vigencia, sistematicidad).",
+          "Estos sustantivos viven en combinaciones fijas, y la preposición forma parte de ellas: algo «tiene plena vigencia», una variedad «goza de prestigio», un estigma «recae sobre» alguien, una lengua «deja huella en» otra. Cambiar la preposición es un error tan visible como equivocar la palabra."
+        ],
+        "examples": [
+          {
+            "es": "dia- (a través de) + topos (lugar) → diatópico",
+            "en": "Variación según el lugar; con «stratos» (capa social) → diastrático."
+          },
+          {
+            "es": "Esa construcción ya no tiene vigencia; es un arcaísmo.",
+            "en": "Combinación fija: tener (plena) vigencia."
+          },
+          {
+            "es": "El italiano dejó huella en la entonación porteña.",
+            "en": "dejar huella en + aquello que cambia."
+          },
+          {
+            "es": "El estigma recae sobre los hablantes, no sobre la gramática.",
+            "en": "recaer sobre: la valoración cae encima de alguien."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica las piezas: ¿cómo se llamaría la variación que depende del nivel sociocultural del hablante (de «stratos», capa social)?",
+            "options": [
+              "diastrática",
+              "diatópica",
+              "isoglosa",
+              "vernácula"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Dia-» + «stratos» (capa, estrato social) = diastrática. «Diatópica» se refiere al lugar, la isoglosa es una línea en un mapa y «vernácula» significa «propia del lugar»: ninguna nombra la variación social."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase usa bien la combinación fija?",
+            "options": [
+              "El guaraní dejó huella en el español paraguayo.",
+              "El guaraní dejó huella al español paraguayo.",
+              "El guaraní dejó huella con el español paraguayo.",
+              "El guaraní dejó huella del español paraguayo."
+            ],
+            "correctIndex": 0,
+            "explanation": "La combinación es «dejar huella en» algo: la preposición indica dónde queda la marca. «Al», «con» y «del» no forman esta expresión."
+          }
+        ]
+      },
       {
         "heading": "Vocabulario: más términos de dialectología",
         "body": [
@@ -9415,14 +10694,15 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "translate",
-        "direction": "es-en",
-        "prompt": "Traduce al inglés la idea central sobre el prejuicio lingüístico asociado al voseo.",
-        "source": "El estigma que pesa sobre el voseo centroamericano no tiene ningún fundamento objetivo; es tan sistemático como el tuteo.",
-        "answer": "The stigma attached to Central American voseo has no objective basis; it is just as systematic as tuteo.",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con «carecer de».",
+        "source": "El estigma que pesa sobre el voseo centroamericano no tiene ningún fundamento objetivo.",
+        "answer": "El estigma que pesa sobre el voseo centroamericano carece de fundamento objetivo.",
         "altAnswers": [
-          "The stigma surrounding Central American voseo has no objective grounds; it's just as systematic as the tú form."
+          "El estigma que pesa sobre el voseo centroamericano carece de todo fundamento objetivo.",
+          "El estigma que pesa sobre el voseo centroamericano carece de fundamentos objetivos."
         ],
-        "explanation": "El texto insiste en que ningún prejuicio social sobre una variedad gramaticalmente legítima tiene fundamento objetivo, un matiz que la traducción debe conservar con precisión."
+        "explanation": "«Carecer de» significa «no tener» y ya expresa la falta, así que sobra «ningún»: «carece de fundamento». Siempre rige «de»."
       },
       {
         "type": "word-order",
@@ -9580,6 +10860,41 @@ const C1_BASE_LESSONS: Lesson[] = [
             "explanation": "El texto define el policentrismo del español precisamente como la ausencia de un único centro de autoridad léxica, con múltiples normas igualmente válidas. Lo contrario de un país que dicta normas; tampoco significa falta de gramática común, ni se reduce al número de países donde se habla."
           }
         ]
+      },
+      {
+        "heading": "La regla: cambiar de norma sin cambiar de lengua",
+        "body": [
+          "Como el español es policéntrico, pasar de una variedad a otra es sobre todo sustituir palabras, no corregir errores: la gramática se mantiene y cambia el léxico. Para hacerlo bien hay que cambiar todas las piezas del mismo campo (el vehículo, el aparcamiento y el verbo aparcar van juntos) y ajustar la concordancia cuando la palabra nueva tiene otro género (el móvil → el celular, pero la micro).",
+          "Lo que no varía es la gramática general: la negación (ningún país tiene, no «ningún país no tiene»), el contraste «no A, sino B» o el modo tras «cuando» se rigen igual en Madrid, Bogotá o Montevideo."
+        ],
+        "examples": [
+          {
+            "es": "España: Aparqué el coche. → Argentina: Estacioné el auto.",
+            "en": "Cambian el sustantivo y el verbo del mismo campo."
+          },
+          {
+            "es": "España: el móvil → México: el celular",
+            "en": "Mismo objeto, otro nombre; el género coincide."
+          },
+          {
+            "es": "España: el autobús → Chile: la micro",
+            "en": "Al cambiar de palabra cambia el género del artículo."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una madrileña quiere decir en Bogotá «Se me ha estropeado el móvil». ¿Qué versión se adapta al léxico colombiano sin cambiar la gramática?",
+            "options": [
+              "Se me dañó el celular.",
+              "Se me dañó la móvil.",
+              "El celular me lo estropeó.",
+              "Ningún celular no funciona."
+            ],
+            "correctIndex": 0,
+            "explanation": "En Colombia se dice «celular» y «dañarse» por «estropearse»; la estructura «se me…» es la misma. «La móvil» cambia mal el género, la tercera opción cambia el sentido y la cuarta añade una doble negación incorrecta."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -9606,23 +10921,80 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "El vocabulario cotidiano: entre la anécdota y la trampa",
+        "heading": "La regla: un objeto, varios nombres",
         "body": [
-          "Algunos ejemplos se han vuelto casi proverbiales por lo llamativo del contraste: las palomitas de maíz que se comen en el cine reciben el nombre de palomitas en España, pochoclo en Argentina, cabritas en Chile y canchita en Perú. El autobús urbano es guagua en Cuba y Canarias, camión en buena parte de México, colectivo en Argentina y micro en Chile. Estos casos, lejos de ser una curiosidad menor, ilustran un patrón que se repite en decenas de campos semánticos cotidianos: la alimentación, el transporte, la ropa, los objetos domésticos.",
-          "La verdadera trampa no está en estas variaciones evidentes, que cualquier hablante nota de inmediato, sino en las palabras que parecen idénticas pero cambian de significado de forma sutil de un país a otro. Por ejemplo, guagua no solo designa el autobús en algunas zonas del Caribe, sino que en Chile y otros países andinos significa bebé, un significado sin ninguna relación con el anterior. Ese tipo de coincidencia formal entre palabras de significados distintos exige una atención mucho más fina que la simple memorización de sinónimos."
+          "La variación léxica funciona en dos direcciones, y conviene distinguirlas. La primera es la más visible: un mismo objeto recibe nombres distintos según el país. Las palomitas de maíz del cine son palomitas en España, pochoclo en Argentina, cabritas en Chile y canchita en Perú; el autobús urbano es guagua en Cuba y Canarias, camión en buena parte de México, colectivo en Argentina y micro en Chile.",
+          "¿Por qué pasa? El español se asentó en territorios separados por miles de kilómetros, cada uno en contacto con otras lenguas (canchita viene del quechua) y con su propia historia; cada zona fijó su palabra y ninguna es más correcta que las demás. Por eso la estrategia no es buscar «la palabra buena», sino identificar la región por el contexto (Lima, Santiago, La Habana) y elegir la palabra local. Estos casos no son una curiosidad menor: el mismo patrón se repite en decenas de campos semánticos cotidianos (la alimentación, el transporte, la ropa, los objetos domésticos)."
         ],
         "examples": [
           {
-            "es": "un campo semántico",
-            "en": "un conjunto de palabras relacionadas por compartir un mismo ámbito de significado"
+            "es": "En Lima pedimos canchita en el cine.",
+            "en": "In Lima we order popcorn at the cinema. (Perú: canchita)"
           },
           {
-            "es": "una coincidencia formal",
-            "en": "el hecho de que dos palabras suenen o se escriban igual sin compartir significado"
+            "es": "En Santiago tomo la micro para ir al centro.",
+            "en": "In Santiago I take the bus downtown. (Chile: la micro, femenino)"
+          },
+          {
+            "es": "El colectivo de las ocho siempre viene lleno.",
+            "en": "The eight o'clock bus is always full. (Argentina: el colectivo)"
+          },
+          {
+            "es": "un campo semántico",
+            "en": "un conjunto de palabras de un mismo ámbito de significado (alimentación, transporte…)"
           },
           {
             "es": "una curiosidad menor",
             "en": "un dato llamativo pero de poca importancia práctica"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un objeto nuevo. En un hotel de Cancún te dicen: «La alberca abre a las nueve». ¿Qué abre a las nueve?",
+            "options": [
+              "La piscina",
+              "El restaurante",
+              "La recepción",
+              "El gimnasio"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es la primera dirección de la variación: un objeto, varios nombres. La piscina es alberca en México y pileta en Argentina y Uruguay. El contexto (un hotel, «abre a las nueve») encaja con la piscina; las otras opciones tienen su propio nombre, que no cambia en México."
+          }
+        ]
+      },
+      {
+        "heading": "La trampa: una palabra, varios objetos",
+        "body": [
+          "La segunda dirección es la peligrosa: una palabra que parece idéntica en dos países designa cosas distintas. Guagua es el autobús en Cuba y Canarias, pero en Chile y los países andinos significa bebé (del quechua wawa). Los dos significados no tienen relación: es una coincidencia formal, dos palabras de origen distinto que se escriben igual.",
+          "La trampa es que aquí no notas que no has entendido: reconoces la palabra y le das tu significado. La regla práctica: cuando una palabra conocida aparece en un contexto que no encaja («la guagua se despertó llorando»), sospecha un segundo sentido regional en lugar de forzar el tuyo."
+        ],
+        "examples": [
+          {
+            "es": "En La Habana la guagua pasó llena y no paró.",
+            "en": "In Havana the bus went by full and didn't stop. (Cuba: guagua = autobús)"
+          },
+          {
+            "es": "La guagua de mi vecina ya gatea.",
+            "en": "My neighbour's baby is already crawling. (Chile: guagua = bebé; «gatea» lo delata)"
+          },
+          {
+            "es": "una coincidencia formal",
+            "en": "dos palabras que suenan o se escriben igual sin compartir significado"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a una palabra nueva. En Ciudad de México un amigo te dice: «Me comí una torta de jamón en un puesto de la calle». ¿Qué se comió?",
+            "options": [
+              "Un bocadillo de jamón en pan",
+              "Un pastel dulce de jamón",
+              "Una tortilla de patatas con jamón",
+              "Una pizza de jamón"
+            ],
+            "correctIndex": 0,
+            "explanation": "Torta es un caso de «una palabra, varios objetos»: en México es un bocadillo en pan (telera o bolillo); en España y el Cono Sur, un pastel. El contexto (jamón, un puesto de la calle) no encaja con un pastel, y eso es la señal de que hay un segundo sentido regional. La tortilla y la pizza tienen su propio nombre."
           }
         ]
       }
@@ -9642,6 +11014,89 @@ const C1_BASE_LESSONS: Lesson[] = [
           2
         ],
         "explanation": "El texto defiende el carácter policéntrico del español y advierte sobre palabras que cambian de connotación según el país; niega que todas las palabras compartan significado universal y aclara que la variación abarca el vocabulario cotidiano, no solo el académico."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al español de Chile.",
+        "source": "Los domingos vamos al centro en autobús.",
+        "answer": "Los domingos vamos al centro en micro.",
+        "explanation": "Un objeto, varios nombres: en Chile el autobús urbano es la micro. No vale «guagua», que en Chile es un bebé."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al español de Cuba.",
+        "source": "Perdimos el autobús y tuvimos que esperar media hora.",
+        "answer": "Perdimos la guagua y tuvimos que esperar media hora.",
+        "explanation": "En Cuba (y en Canarias) el autobús urbano es la guagua, y la palabra es femenina: el artículo cambia a «la»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al español de Perú.",
+        "source": "¿Compartimos unas palomitas durante la película?",
+        "answer": "¿Compartimos una canchita durante la película?",
+        "altAnswers": [
+          "¿Compartimos canchita durante la película?",
+          "¿Compartimos una canchita en la película?"
+        ],
+        "explanation": "En Perú las palomitas son la canchita (del quechua). Suele usarse en singular, como sustantivo de cantidad: «una canchita», «canchita»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al español de México.",
+        "source": "El autobús escolar pasa por mi calle a las siete.",
+        "answer": "El camión escolar pasa por mi calle a las siete.",
+        "explanation": "En buena parte de México el autobús urbano o escolar es el camión; fuera de México, camión hace pensar en un vehículo de carga."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (habla un chileno de su trayecto al trabajo).",
+        "source": "Todas las mañanas tomo la guagua en la esquina de mi casa.",
+        "answer": "Todas las mañanas tomo la micro en la esquina de mi casa.",
+        "explanation": "Una palabra, varios objetos: en Chile la guagua es un bebé, así que «tomo la guagua» no significa lo que el hablante quiere decir. El autobús chileno es la micro."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (habla una argentina en el cine).",
+        "source": "Che, ¿me pasás las cabritas?",
+        "answer": "Che, ¿me pasás el pochoclo?",
+        "altAnswers": [
+          "Che, ¿me pasás los pochoclos?"
+        ],
+        "explanation": "Cabritas es la palabra chilena. En Argentina (che, pasás: es una porteña) las palomitas son el pochoclo, en masculino singular (también «los pochoclos»)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (habla una cubana).",
+        "source": "Mi hermana acaba de tener una guagua preciosa.",
+        "answer": "Mi hermana acaba de tener un bebé precioso.",
+        "altAnswers": [
+          "Mi hermana acaba de tener una bebé preciosa.",
+          "Mi hermana acaba de tener una niña preciosa.",
+          "Mi hermana acaba de tener un niño precioso."
+        ],
+        "explanation": "En Cuba la guagua es el autobús; el significado «bebé» es chileno y andino. Para una cubana lo natural es «un bebé» (o «una niña», «un niño»), y el adjetivo concuerda: precioso."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Qué pares son casos de «una palabra, varios objetos» (la trampa), y no de «un objeto, varios nombres»?",
+        "options": [
+          "guagua en Cuba / guagua en Chile",
+          "torta en México / torta en España",
+          "pochoclo / cabritas",
+          "colectivo / micro"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Guagua (autobús / bebé) y torta (bocadillo / pastel) son la misma palabra con objetos distintos: la trampa. Pochoclo y cabritas, o colectivo y micro, son palabras distintas para el mismo objeto: la variación visible, que se aprende como sinónimos regionales."
       }
     ]
   },
@@ -9654,11 +11109,24 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Expresiones para comentar las diferencias léxicas",
+        "heading": "Cómo comentar las diferencias: designar, llamarse, resultar",
         "body": [
-          "Tres expresiones útiles para hablar de estos contrastes: algo resulta proverbial cuando todo el mundo lo cita como ejemplo; una atención fina es la que capta matices; y designar un objeto es nombrarlo con una palabra concreta, que puede cambiar de un país a otro."
+          "Para hablar de la variación léxica con precisión no basta con «en Chile dicen…». Tres construcciones hacen el trabajo, y cada una tiene su gramática. Designar pone la palabra como sujeto y el objeto como complemento: «En Chile, micro designa el autobús urbano». Llamarse pone el objeto como sujeto, así que el verbo concuerda con él: «En Chile las palomitas se llaman cabritas» (plural, porque el sujeto es «las palomitas»). Resultar + adjetivo valora el hecho, y el adjetivo concuerda con el sujeto: «Este contraste resulta proverbial» / «Estos contrastes resultan proverbiales».",
+          "¿Por qué importa? Porque en un texto C1 elegir la construcción es elegir el foco: designar habla de la palabra; llamarse, de la cosa; resultar, de tu valoración. Y hace falta una atención fina (atención que capta matices) para mantener la concordancia: «hace falta» va con un sustantivo singular sin preposición («hace falta una atención fina»), y algo «resulta proverbial» cuando todo el mundo lo cita como ejemplo."
         ],
         "examples": [
+          {
+            "es": "En Perú, la palabra canchita designa las palomitas del cine.",
+            "en": "In Peru, the word canchita refers to cinema popcorn. (designar: la palabra es el sujeto)"
+          },
+          {
+            "es": "En Argentina los autobuses urbanos se llaman colectivos.",
+            "en": "In Argentina city buses are called colectivos. (se llaman: concuerda con «los autobuses»)"
+          },
+          {
+            "es": "Estos ejemplos resultan ya proverbiales.",
+            "en": "These examples have become proverbial. (resultan… proverbiales: plural)"
+          },
           {
             "es": "resultar proverbial",
             "en": "haberse vuelto tan conocido que se cita como ejemplo habitual"
@@ -9687,6 +11155,25 @@ const C1_BASE_LESSONS: Lesson[] = [
               2
             ],
             "explanation": "El texto confirma la doble acepción de guagua y la variación en el nombre de las palomitas de maíz; en cambio, aclara que hay palabras con significados distintos según la región y que la variación abarca muchos campos, no solo el transporte."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con el verbo adecuado (caso nuevo: Venezuela).",
+            "sentence": "En Venezuela, la palabra «caraotas» ___ los frijoles negros.",
+            "answer": "designa",
+            "explanation": "La palabra es el sujeto («la palabra caraotas») y lo nombrado es el complemento: designar, en singular porque el sujeto es singular. Con «se llaman» el orden sería otro: «los frijoles negros se llaman caraotas»."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Los distintos nombres del aguacate ya ___ proverbiales entre los profesores.»",
+            "options": [
+              "resultan",
+              "resulta",
+              "resulten",
+              "resultando"
+            ],
+            "correctIndex": 0,
+            "explanation": "Resultar + adjetivo concuerda con el sujeto, que es plural («los distintos nombres»): resultan proverbiales. «Resulta» no concuerda; «resulten» (subjuntivo) no tiene inductor que lo pida, y el gerundio no puede ser el verbo principal."
           }
         ]
       }
@@ -9698,6 +11185,69 @@ const C1_BASE_LESSONS: Lesson[] = [
         "sentence": "En el cine, en Argentina no se piden palomitas, sino ___.",
         "answer": "pochoclo",
         "explanation": "El texto menciona pochoclo como el nombre argentino de las palomitas de maíz, frente a cabritas en Chile o canchita en Perú."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia al plural.",
+        "source": "Este ejemplo resulta proverbial entre los profesores de español.",
+        "answer": "Estos ejemplos resultan proverbiales entre los profesores de español.",
+        "explanation": "Resultar + adjetivo: el verbo y el adjetivo concuerdan con el sujeto. Al pasar a plural cambian los tres: estos ejemplos resultan proverbiales."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con «se llaman».",
+        "source": "En Chile, la palabra «frutillas» designa las fresas.",
+        "answer": "En Chile, las fresas se llaman frutillas.",
+        "altAnswers": [
+          "En Chile las fresas se llaman frutillas.",
+          "En Chile, a las fresas se las llama frutillas."
+        ],
+        "explanation": "Con llamarse, el objeto pasa a ser el sujeto y el verbo concuerda con él: «las fresas se llaman». Con designar el sujeto era la palabra."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con «designar».",
+        "source": "En México, a la piscina se le llama alberca.",
+        "answer": "En México, alberca designa la piscina.",
+        "altAnswers": [
+          "En México, la palabra alberca designa la piscina.",
+          "En México, la palabra «alberca» designa la piscina.",
+          "En México, «alberca» designa la piscina."
+        ],
+        "explanation": "Con designar, la palabra es el sujeto y la cosa, el complemento directo: «alberca designa la piscina»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Este contraste resulta proverbio entre los lingüistas.",
+        "answer": "Este contraste resulta proverbial entre los lingüistas.",
+        "explanation": "Resultar va con un adjetivo (proverbial: tan conocido que se cita como ejemplo), no con un sustantivo. «Proverbio» es el refrán mismo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Hace falta de mucha paciencia para aprender todas las variantes.",
+        "answer": "Hace falta mucha paciencia para aprender todas las variantes.",
+        "explanation": "Hace falta + sustantivo, sin preposición: el sustantivo es el sujeto («una atención fina hace falta»). «De» sobra; se confunde con «tener falta de» o «carecer de»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el dato de la frase.",
+        "source": "En Chile, guagua designa el autobús urbano.",
+        "answer": "En Chile, micro designa el autobús urbano.",
+        "altAnswers": [
+          "En Chile, la micro designa el autobús urbano.",
+          "En Chile, la palabra micro designa el autobús urbano.",
+          "En Chile, guagua designa al bebé.",
+          "En Chile, guagua designa el bebé."
+        ],
+        "explanation": "El dato es falso: en Chile guagua designa al bebé (del quechua wawa); el autobús urbano es la micro. Guagua es autobús en Cuba y Canarias."
       }
     ]
   },
@@ -9710,12 +11260,21 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Falsos amigos dialectales y palabras con carga sensible",
+        "heading": "La regla: neutra aquí, malsonante allí",
         "body": [
+          "La regla: una palabra perfectamente neutra en un país puede ser malsonante en otro, y no hay forma de deducirlo por la palabra misma. Por eso la estrategia no es adivinar, sino sustituir: cuando una palabra tiene un sentido delicado en alguna zona, se usa la variante que es neutra en todas (tomar o agarrar en lugar de coger; ayudante de cocina en lugar de pinche).",
           "Un fenómeno particularmente delicado es el de las palabras que resultan neutras en un país y malsonantes o incluso vulgares en otro, sin que exista ninguna relación etimológica que lo explique de forma evidente. El verbo coger, por ejemplo, significa simplemente tomar o agarrar en España, Colombia y buena parte del Caribe, pero en México, Argentina, Uruguay, Venezuela y gran parte de Centroamérica posee una connotación sexual explícita que lo vuelve inapropiado en el habla cotidiana, donde se prefiere agarrar o tomar.",
           "Este tipo de contraste no es anecdótico: puede generar situaciones incómodas para quien viaja o se comunica con hablantes de otra región sin conocer el matiz. La estrategia más prudente para quien domina el español a un nivel avanzado no consiste en memorizar una lista exhaustiva de palabras prohibidas, sino en desarrollar una actitud de escucha atenta y, ante la duda, optar por la variante más neutra y menos marcada regionalmente."
         ],
         "examples": [
+          {
+            "es": "Vamos a tomar un taxi, que llueve.",
+            "en": "Let's take a taxi, it's raining. (tomar: neutro en todas partes)"
+          },
+          {
+            "es": "Agarrá tu abrigo, que nos vamos. (Argentina)",
+            "en": "Grab your coat, we're leaving. (agarrar en lugar de coger)"
+          },
           {
             "es": "una palabra malsonante",
             "en": "una palabra que resulta chocante o inapropiada por su connotación"
@@ -9747,9 +11306,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con el verbo más neutro para evitar el matiz sensible que adquiere coger en varios países.",
             "sentence": "¿Me ayudas a ___ esa maleta del estante?",
             "answer": "agarrar",
-            "altAnswers": ["tomar", "bajar"],
+            "altAnswers": [
+              "tomar",
+              "bajar"
+            ],
             "explanation": "En México, Argentina y otros países de América se prefiere agarrar o tomar en lugar de coger, que allí posee una connotación sexual explícita (en España, Colombia o el Caribe coger es neutro).",
             "hint": "Piensa en un verbo neutro y ampliamente aceptado en toda Hispanoamérica."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la estrategia a una palabra nueva. Redactas una oferta de empleo para un restaurante de Guadalajara (México). ¿Qué expresión es la segura?",
+            "options": [
+              "ayudante de cocina",
+              "pinche de cocina",
+              "pinche cocinero",
+              "pinche"
+            ],
+            "correctIndex": 0,
+            "explanation": "En España un pinche es el ayudante de cocina, pero en México pinche es un adjetivo grosero («maldito», «de mala calidad»). La regla es sustituir por la variante neutra en todas partes: ayudante de cocina. Las otras tres opciones contienen la palabra delicada."
           }
         ]
       }
@@ -9771,6 +11345,81 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "translation": "When in doubt, it's best to choose the most neutral variant.",
         "explanation": "La oración resultante resume la estrategia recomendada en el texto: 'Ante la duda, conviene elegir la variante más neutra'."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase para que sea neutra en toda Latinoamérica.",
+        "source": "Cogimos un taxi para llegar al aeropuerto.",
+        "answer": "Tomamos un taxi para llegar al aeropuerto.",
+        "altAnswers": [
+          "Agarramos un taxi para llegar al aeropuerto.",
+          "Tomamos un taxi para ir al aeropuerto."
+        ],
+        "explanation": "Coger es neutro en España, pero malsonante en México, Argentina, Venezuela y buena parte de Centroamérica. Tomar es neutro en todas partes; agarrar también se entiende sin problema."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al voseo argentino, sin «coger».",
+        "source": "Coge las llaves de la mesa antes de salir.",
+        "answer": "Agarrá las llaves de la mesa antes de salir.",
+        "altAnswers": [
+          "Tomá las llaves de la mesa antes de salir.",
+          "Agarrá las llaves de la mesa antes de irte.",
+          "Tomá las llaves de la mesa antes de irte."
+        ],
+        "explanation": "Dos cambios: el imperativo de vos es agudo (agarrá, tomá) y coger se sustituye, porque en Argentina tiene un sentido sexual."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase para un público mexicano.",
+        "source": "Coge el teléfono, que está sonando.",
+        "answer": "Contesta el teléfono, que está sonando.",
+        "altAnswers": [
+          "Agarra el teléfono, que está sonando.",
+          "Toma el teléfono, que está sonando.",
+          "Contesta el teléfono, que suena.",
+          "Contesta el celular, que está sonando."
+        ],
+        "explanation": "En México se evita coger. Para el teléfono lo más natural es contestar; agarrar o tomar también evitan el problema."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (un madrileño en un hotel de Buenos Aires).",
+        "source": "¿Dónde puedo coger el colectivo para ir al centro?",
+        "answer": "¿Dónde puedo tomar el colectivo para ir al centro?",
+        "altAnswers": [
+          "¿Dónde puedo agarrar el colectivo para ir al centro?",
+          "¿Dónde puedo tomar el colectivo para ir al Centro?"
+        ],
+        "explanation": "En Buenos Aires coger es malsonante; el colectivo se toma (o se agarra). El madrileño acertó con «colectivo», pero no con el verbo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la oferta de empleo (restaurante de Guadalajara).",
+        "source": "Se busca pinche de cocina con experiencia.",
+        "answer": "Se busca ayudante de cocina con experiencia.",
+        "altAnswers": [
+          "Se busca auxiliar de cocina con experiencia.",
+          "Se solicita ayudante de cocina con experiencia."
+        ],
+        "explanation": "En España es una oferta normal; en México pinche es un adjetivo grosero. La variante neutra en todas partes es ayudante de cocina."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (habla una mexicana con su jefe).",
+        "source": "Voy a coger el metro y llego en veinte minutos.",
+        "answer": "Voy a tomar el metro y llego en veinte minutos.",
+        "altAnswers": [
+          "Voy a agarrar el metro y llego en veinte minutos.",
+          "Voy a tomar el metro y llego en 20 minutos."
+        ],
+        "explanation": "Para una mexicana, coger tiene un sentido sexual: el metro se toma. El resto de la frase (el presente con valor de futuro, «llego») es correcto."
       }
     ]
   },
@@ -9783,12 +11432,25 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Estrategias para navegar la variación como hablante avanzado",
+        "heading": "La regla: elige la palabra según el público",
         "body": [
+          "La regla que ordena todas las estrategias es una pregunta: ¿quién me va a leer o escuchar? Si el público es mixto o desconocido (un correo a clientes de varios países, un vídeo, unos subtítulos), prioriza el término de mayor alcance geográfico: celular, computadora, autobús. Si estás en un país concreto, adopta la palabra local cuanto antes: pileta en Buenos Aires, carro en Bogotá. Y si no sabes qué significa una palabra, pregunta sin reparos. ¿Por qué funciona? Porque la palabra de mayor alcance no se equivoca con nadie, y la local muestra sensibilidad hacia la cultura de acogida.",
           "Frente a esta diversidad, existen varias estrategias útiles para quien busca comunicarse con soltura en cualquier país hispanohablante. La primera consiste en priorizar, siempre que exista, el término de mayor alcance geográfico o el que se emplea en el llamado español neutro de los medios de comunicación internacionales, que suele resultar comprensible en todas partes aunque no sea el más idiomático en ningún lugar concreto.",
           "La segunda estrategia consiste en adoptar rápidamente el vocabulario local una vez que se llega a un país determinado, mostrando así una sensibilidad hacia la cultura de acogida que suele valorarse positivamente. Finalmente, conviene aceptar que ningún hablante, ni siquiera nativo, domina todas las variantes léxicas del español; lo que distingue a un hablante avanzado no es conocerlas todas, sino saber reconocer cuándo una palabra puede generar un malentendido y preguntar sin reparos por su significado local."
         ],
         "examples": [
+          {
+            "es": "Recuerde que puede pagar desde su celular. (correo para toda Latinoamérica)",
+            "en": "Remember you can pay from your phone. (celular: el término de mayor alcance en América)"
+          },
+          {
+            "es": "En Buenos Aires ya digo pileta, como todos.",
+            "en": "In Buenos Aires I already say pileta, like everyone. (palabra local en el país de acogida)"
+          },
+          {
+            "es": "Perdón, ¿qué significa «chamba»? (en Lima)",
+            "en": "Sorry, what does «chamba» mean? (preguntar sin reparos)"
+          },
           {
             "es": "el alcance geográfico",
             "en": "la extensión territorial en la que una palabra o expresión se entiende o se usa"
@@ -9822,6 +11484,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 2,
             "explanation": "El texto concluye que ni siquiera los hablantes nativos dominan todas las variantes; lo distintivo de un nivel avanzado es la capacidad de detectar riesgos de malentendido y preguntar con naturalidad. Nadie conoce todas las variantes, evitar el léxico regional empobrece la comunicación y el término más formal no evita los malentendidos."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla. Grabas un tutorial para estudiantes de toda Latinoamérica. ¿Qué palabra eliges para «computer»?",
+            "options": [
+              "computadora",
+              "ordenador",
+              "compu",
+              "computador"
+            ],
+            "correctIndex": 0,
+            "explanation": "Público mixto americano → el término de mayor alcance: computadora. Ordenador es de España; compu es coloquial (Cono Sur), y computador se limita sobre todo a Colombia y Chile."
           }
         ]
       }
@@ -9849,6 +11523,71 @@ const C1_BASE_LESSONS: Lesson[] = [
           }
         ],
         "explanation": "Estos pares ilustran cómo una misma palabra puede tener significados completamente distintos, e incluso opuestos en sensibilidad, según el país."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase para un público de toda Latinoamérica.",
+        "source": "Recuerde apagar el móvil durante la proyección.",
+        "answer": "Recuerde apagar el celular durante la proyección.",
+        "altAnswers": [
+          "Recuerde apagar el teléfono celular durante la proyección.",
+          "Recuerde apagar su celular durante la proyección."
+        ],
+        "explanation": "Para un público mixto americano se prioriza el término de mayor alcance: celular. Móvil es la palabra de España."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al español de Buenos Aires: ya vives allí.",
+        "source": "Esta tarde vamos a la piscina del club en autobús.",
+        "answer": "Esta tarde vamos a la pileta del club en colectivo.",
+        "altAnswers": [
+          "Esta tarde vamos en colectivo a la pileta del club."
+        ],
+        "explanation": "Si vives en el país, adopta la palabra local: en Argentina la piscina es la pileta y el autobús urbano, el colectivo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con «cuando» y «conviene que» (tú).",
+        "source": "Al llegar, conviene adoptar el vocabulario local.",
+        "answer": "Cuando llegues, conviene que adoptes el vocabulario local.",
+        "altAnswers": [
+          "Cuando llegues, te conviene que adoptes el vocabulario local."
+        ],
+        "explanation": "Cuando + acción futura va en subjuntivo (llegues), y «conviene que» también pide subjuntivo (adoptes) porque recomienda, no afirma."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Cuando llegarás a Quito, pregunta sin reparos lo que no entiendas.",
+        "answer": "Cuando llegues a Quito, pregunta sin reparos lo que no entiendas.",
+        "explanation": "Cuando con valor de futuro lleva presente de subjuntivo, nunca futuro: cuando llegues. Es el mismo modo que en «lo que no entiendas»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (correo para clientes de toda Latinoamérica).",
+        "source": "Si tiene dudas, llámenos desde su móvil.",
+        "answer": "Si tiene dudas, llámenos desde su celular.",
+        "altAnswers": [
+          "Si tiene dudas, llámenos desde su teléfono celular.",
+          "Si tiene dudas, llámenos desde su teléfono."
+        ],
+        "explanation": "Un correo para clientes de toda Latinoamérica prioriza el término de mayor alcance: celular. Móvil se entiende, pero suena a España."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Ni siquiera mis amigos de Lima no entendían esa palabra.",
+        "answer": "Ni siquiera mis amigos de Lima entendían esa palabra.",
+        "altAnswers": [
+          "No entendían esa palabra ni siquiera mis amigos de Lima."
+        ],
+        "explanation": "Ni siquiera delante del verbo ya es negativo: no admite otro «no». Con «no» habría que ponerlo detrás: «No la entendían ni siquiera mis amigos de Lima»."
       }
     ]
   },
@@ -9861,6 +11600,41 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
+        "heading": "La regla: cómo se negocia una palabra en la conversación",
+        "body": [
+          "Cuando una palabra local no te cierra (no te encaja), la conversación sigue casi siempre tres pasos. Primero, el eco con pregunta: repites la palabra con tono de duda («Perdón, ¿un colectivo?»). Después, el local explica con una fórmula general: «acá le decimos colectivo», «acá se dice pochoclo». Por último, te adaptas: «Ah, entonces tomamos el colectivo».",
+          "¿Por qué funciona? El eco señala que no has entendido sin acusar a nadie de hablar mal, y las fórmulas impersonales (se dice, le decimos) presentan la palabra como costumbre del lugar, no como «la correcta». Fíjate en la gramática: en «al autobús le decimos colectivo», le repite el complemento indirecto (al autobús); y para contar lo que creías antes se usa el imperfecto: «yo pensaba que acá se decía camión»."
+        ],
+        "examples": [
+          {
+            "es": "—¿Vamos en micro? —Perdón, ¿en micro? —Sí, acá a los buses les decimos micros.",
+            "en": "—Shall we go by bus? —Sorry, by micro? —Yes, here we call buses micros. (eco + explicación; Chile)"
+          },
+          {
+            "es": "Yo creía que en Lima se decía palomitas.",
+            "en": "I thought they said palomitas in Lima. (imperfecto para la creencia anterior)"
+          },
+          {
+            "es": "Con el tiempo le vas a agarrar la mano.",
+            "en": "In time you'll get the hang of it. (agarrarle la mano a algo: rioplatense)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla. En Santiago un compañero te dice: «Pásame la corchetera». No sabes qué es. ¿Qué respondes?",
+            "options": [
+              "Perdón, ¿la corchetera? ¿Qué es?",
+              "No, eso no se dice así.",
+              "Ah, sí, claro. (Y no haces nada.)",
+              "Habla bien, por favor."
+            ],
+            "correctIndex": 0,
+            "explanation": "El primer paso es el eco con pregunta: repetir la palabra y pedir su significado (en Chile, la corchetera es la grapadora). Corregir al otro («no se dice así», «habla bien») trata su palabra como incorrecta, y fingir que entiendes deja el malentendido sin resolver."
+          }
+        ]
+      },
+      {
         "heading": "En la práctica",
         "body": [
           "— Che, cuando lleguemos, ¿tomamos un colectivo o vamos caminando?",
@@ -9872,6 +11646,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           "— Claro, acá es pochoclo. Con el tiempo le vas agarrando la mano a estas cosas.",
           "— Sí, ya me di cuenta de que lo mejor es preguntar sin pena cuando algo no me cierra.",
           "— Esa es la actitud correcta. Nadie espera que sepas todas las palabras de cada país."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En el diálogo, la mexicana dice «lo mejor es preguntar sin pena». ¿Qué significa «sin pena» en su variedad?",
+            "options": [
+              "Sin vergüenza",
+              "Sin tristeza",
+              "Sin castigo",
+              "Sin esfuerzo"
+            ],
+            "correctIndex": 0,
+            "explanation": "En México y Centroamérica pena es vergüenza: preguntar sin pena es preguntar sin vergüenza. En España «pena» sería tristeza o lástima, que no encaja aquí."
+          }
         ]
       }
     ],
@@ -9887,6 +11675,72 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "El texto sostiene que la actitud propia de un hablante avanzado es preguntar sin reparos ante cualquier duda, en lugar de asumir un significado incorrecto. Callarse hasta memorizar un diccionario es inviable, recurrir a un anglicismo no aclara nada e ignorar la duda es justo lo que provoca malentendidos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Pasa la frase al pasado (creer en imperfecto).",
+        "source": "Creo que en Chile se dice micro.",
+        "answer": "Creía que en Chile se decía micro.",
+        "altAnswers": [
+          "Yo creía que en Chile se decía micro.",
+          "Creí que en Chile se decía micro."
+        ],
+        "explanation": "La creencia anterior va en imperfecto (creía) y lo creído se ajusta al pasado (se decía): es la concordancia de tiempos del diálogo («yo pensé que acá se decía camión»)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al voseo.",
+        "source": "Si no entiendes una palabra, pregunta sin pena.",
+        "answer": "Si no entendés una palabra, preguntá sin pena.",
+        "altAnswers": [
+          "Si vos no entendés una palabra, preguntá sin pena."
+        ],
+        "explanation": "Con vos, el presente es agudo (entendés) y el imperativo pierde la -d final y lleva tilde (preguntá)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con «le decimos».",
+        "source": "Aquí el autobús se llama colectivo.",
+        "answer": "Aquí al autobús le decimos colectivo.",
+        "altAnswers": [
+          "Acá al autobús le decimos colectivo.",
+          "Aquí le decimos colectivo al autobús.",
+          "Acá le decimos colectivo al autobús."
+        ],
+        "explanation": "Con decir, lo nombrado es complemento indirecto (al autobús) y se repite con le: «al autobús le decimos colectivo»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Es normal que no conoces todavía las palabras de acá.",
+        "answer": "Es normal que no conozcas todavía las palabras de acá.",
+        "altAnswers": [
+          "Es normal que todavía no conozcas las palabras de acá."
+        ],
+        "explanation": "Es normal que + subjuntivo: la frase valora un hecho, no lo informa. Conocer hace conozca, conozcas."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (estás en Buenos Aires).",
+        "source": "Mejor tomamos el camión, que está lloviendo.",
+        "answer": "Mejor tomamos el colectivo, que está lloviendo.",
+        "altAnswers": [
+          "Mejor tomamos el bondi, que está lloviendo."
+        ],
+        "explanation": "En Buenos Aires el autobús urbano es el colectivo; camión es la palabra mexicana y allí sonaría a vehículo de carga."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Con el tiempo le vas agarrando el pie a estas cosas.",
+        "answer": "Con el tiempo le vas agarrando la mano a estas cosas.",
+        "explanation": "La expresión rioplatense es agarrarle la mano a algo: aprender a manejarlo. Con otra parte del cuerpo deja de ser la expresión fija."
       }
     ]
   },
@@ -9899,9 +11753,51 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
+        "heading": "El patrón: gentilicio + -ismo",
+        "body": [
+          "La mitad de esta lista se construye con una sola regla: toma el gentilicio, quita la vocal final y añade -ismo. Mexicano → mexicanismo; chileno → chilenismo; peninsular → peninsularismo; caribeño → caribeñismo. El resultado es siempre masculino (un chilenismo) y designa una palabra o expresión propia de ese lugar. ¿Por qué -ismo? Porque es el sufijo que convierte una procedencia en una categoría: lo mismo vale para las lenguas de origen (anglicismo, del inglés; indigenismo, de una lengua indígena).",
+          "Hay dos excepciones útiles: lo que viene del francés es un galicismo (de galo, el nombre antiguo de los franceses) y lo que viene del inglés, un anglicismo (de anglo). Con la regla puedes formar palabras que no están en la lista: peruanismo, cubanismo, uruguayismo, arabismo."
+        ],
+        "examples": [
+          {
+            "es": "«Pochoclo» es un argentinismo.",
+            "en": "«Pochoclo» is an Argentinism. (argentino → argentinismo)"
+          },
+          {
+            "es": "«Chévere» es un caribeñismo muy extendido.",
+            "en": "«Chévere» is a widespread Caribbean word. (caribeño → caribeñismo)"
+          },
+          {
+            "es": "«Aguacate» es un indigenismo del náhuatl.",
+            "en": "«Aguacate» is an indigenism from Nahuatl. (lengua indígena → indigenismo)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Forma la palabra con el patrón (caso nuevo).",
+            "sentence": "Una palabra propia del español de Cuba es un ___.",
+            "answer": "cubanismo",
+            "explanation": "Gentilicio + -ismo: cubano → cuban- + -ismo = cubanismo. Es masculino, como todos los sustantivos en -ismo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál de estas palabras NO sigue el patrón «gentilicio actual + -ismo»?",
+            "options": [
+              "galicismo",
+              "peruanismo",
+              "uruguayismo",
+              "venezolanismo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Galicismo viene de galo, el nombre antiguo de los franceses, no de francés: es la excepción. Peruanismo, uruguayismo y venezolanismo salen directamente de peruano, uruguayo y venezolano."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: la variación léxica regional",
         "body": [
-          "35 palabras relacionadas con la variación léxica regional."
+          "35 palabras relacionadas con la variación léxica regional. Fíjate en otro patrón de la lista: los términos técnicos en dia- clasifican la variación por su causa. Diatópica (del griego topos, lugar): según dónde se habla. Diastrática (estrato): según el grupo social. Diafásica: según la situación y el registro."
         ],
         "examples": [
           {
@@ -10044,6 +11940,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "el contexto sociolingüístico",
             "en": "el conjunto de circunstancias sociales que rodean el uso de una lengua"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Si la variación diatópica depende del lugar, ¿de qué depende la diafásica?",
+            "options": [
+              "De la situación comunicativa y el registro",
+              "Del lugar donde se habla",
+              "Del grupo social del hablante",
+              "De la época histórica"
+            ],
+            "correctIndex": 0,
+            "explanation": "Las tres comparten dia- y cambian la causa: diatópica (lugar), diastrática (grupo social), diafásica (situación, registro). La época es la variación diacrónica."
+          }
         ]
       }
     ],
@@ -10108,6 +12018,63 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 0,
         "explanation": "Neutralizar es elegir la variante más comprensible en varias regiones a la vez: «computadora» se entiende en toda América, mientras que «ordenador» es de España. No es una digresión (un desvío del tema), ni un falso amigo, ni un eufemismo, porque no se suaviza nada."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con un sustantivo en -ismo.",
+        "source": "«Jato» es una palabra propia del español de Perú.",
+        "answer": "«Jato» es un peruanismo.",
+        "altAnswers": [
+          "«Jato» es un peruanismo coloquial."
+        ],
+        "explanation": "Gentilicio + -ismo: peruano → peruanismo. Es masculino: un peruanismo (en Perú, jato es «casa» en registro coloquial)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con un sustantivo en -ismo.",
+        "source": "«Chamo» es una palabra propia del español de Venezuela.",
+        "answer": "«Chamo» es un venezolanismo.",
+        "explanation": "Venezolano → venezolan- + -ismo = venezolanismo. Chamo (chico, amigo) es típico de Venezuela."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con un sustantivo en -ismo.",
+        "source": "«Boutique» es una palabra tomada del francés.",
+        "answer": "«Boutique» es un galicismo.",
+        "explanation": "Lo tomado del francés es un galicismo (de galo), no un «francesismo»: es una de las dos excepciones del patrón, junto con anglicismo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Chocolate» es un anglicismo que procede del náhuatl.",
+        "answer": "«Chocolate» es un indigenismo que procede del náhuatl.",
+        "explanation": "Una palabra que procede de una lengua indígena americana (el náhuatl) es un indigenismo; un anglicismo procede del inglés."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Zumo» es un americanismo.",
+        "answer": "«Zumo» es un peninsularismo.",
+        "altAnswers": [
+          "«Jugo» es un americanismo."
+        ],
+        "explanation": "Zumo es la palabra de España (la península): un peninsularismo. En América se dice jugo, que sí sería un americanismo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "La variación diatópica es la que depende del grupo social del hablante.",
+        "answer": "La variación diastrática es la que depende del grupo social del hablante.",
+        "altAnswers": [
+          "La variación diatópica es la que depende del lugar donde se habla."
+        ],
+        "explanation": "Diatópica viene de topos (lugar): depende de dónde se habla. La que depende del grupo social es la diastrática (de estrato)."
       }
     ]
   },
@@ -10122,10 +12089,19 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El español neutro: una construcción artificial y útil",
         "body": [
+          "La regla: neutralizar un texto es hacer tres sustituciones. 1) El tratamiento marcado (vos, vosotros) pasa a la forma general: tú o usted en singular, ustedes en plural. 2) Los modismos locales (re copado, güey, ¿viste?) pasan a su equivalente llano (muy bueno, amigo, ¿verdad?). 3) Entre dos palabras, gana la de mayor difusión (celular en América, computadora). ¿Por qué? Porque el objetivo no es sonar a ningún sitio, sino que nadie tropiece: cada rasgo local que quitas es un público que deja de quedarse fuera.",
           "El llamado español neutro no es la lengua materna de nadie, sino una construcción deliberada, pensada para que un mensaje resulte comprensible en el mayor número posible de países hispanohablantes a la vez. Surge principalmente en el ámbito de los medios de comunicación, el doblaje audiovisual y la documentación técnica, donde interesa evitar regionalismos marcados que puedan confundir o distraer a una parte de la audiencia.",
           "Esta variedad se caracteriza por evitar el voseo, prescindir de modismos muy localizados y preferir siempre la palabra de mayor difusión frente a la más idiomática de un solo país. El resultado es una lengua correcta, clara y eficaz, pero que ningún hablante emplea de manera espontánea en su vida cotidiana: nadie piensa ni sueña en español neutro, precisamente porque carece del color y la textura propios del habla natural de una comunidad concreta."
         ],
         "examples": [
+          {
+            "es": "¿Vos querés venir? → ¿Quieres venir?",
+            "en": "Do you want to come? (sin voseo)"
+          },
+          {
+            "es": "Está re bueno, ¿viste? → Está muy bueno, ¿verdad?",
+            "en": "It's really good, isn't it? (sin modismos rioplatenses)"
+          },
           {
             "es": "una construcción deliberada",
             "en": "algo creado de forma consciente y con un propósito específico, no de manera espontánea"
@@ -10163,6 +12139,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto define el español neutro como una construcción artificial, sin hablantes nativos, orientada a la comprensión amplia entre países. No es la lengua materna de ninguna región, no es propio de los medios españoles (nació sobre todo en el doblaje y la traducción para América) y también se usa oralmente."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a una frase nueva. ¿Cuál es la versión neutra de «¿Os apetece un café, chavales?»?",
+            "options": [
+              "¿Quieren un café, chicos?",
+              "¿Os apetece un café, chicos?",
+              "¿Quieren un cafecito, chamos?",
+              "¿Les apetece un café, chavales?"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dos sustituciones: vosotros (os) pasa a ustedes (quieren o les apetece), y el modismo chavales (España) pasa a chicos. «Os apetece» conserva el vosotros; «chamos» es venezolano, y «chavales» sigue siendo peninsular."
           }
         ]
       }
@@ -10179,6 +12167,78 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "El español neutro busca ante todo la comprensión amplia entre países, evitando regionalismos marcados. No refleja el habla de un país concreto, no pretende sustituir al coloquial en la vida diaria y no se limita a la poesía."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase a español neutro (doblaje para toda Latinoamérica).",
+        "source": "¿Vosotros habéis visto mi móvil?",
+        "answer": "¿Ustedes han visto mi celular?",
+        "altAnswers": [
+          "¿Ustedes vieron mi celular?",
+          "¿Han visto mi celular?",
+          "¿Vieron mi celular?",
+          "¿Ustedes han visto mi teléfono?"
+        ],
+        "explanation": "Vosotros → ustedes (con el verbo en tercera persona: han visto) y móvil → celular, la palabra de mayor difusión en América."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase a español neutro.",
+        "source": "Esta película está re copada, ¿viste?",
+        "answer": "Esta película es genial, ¿verdad?",
+        "altAnswers": [
+          "Esta película es muy buena, ¿verdad?",
+          "Esta película está genial, ¿verdad?",
+          "Esta película es genial, ¿no?",
+          "Esta película es buenísima, ¿verdad?",
+          "Esta película está muy buena, ¿verdad?"
+        ],
+        "explanation": "Re (muy), copada (genial) y ¿viste? (¿verdad?) son modismos rioplatenses: se sustituyen por su equivalente llano."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase a español neutro.",
+        "source": "Vení acá y contame qué pasó.",
+        "answer": "Ven aquí y cuéntame qué pasó.",
+        "altAnswers": [
+          "Ven acá y cuéntame qué pasó.",
+          "Ven aquí y dime qué pasó.",
+          "Ven acá y dime qué pasó.",
+          "Ven aquí y cuéntame lo que pasó."
+        ],
+        "explanation": "Los imperativos de vos (vení, contame) pasan a tú: ven, cuéntame. Acá es frecuente en América; aquí es la opción más general."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Los guionistas intentan prescindir los regionalismos más marcados.",
+        "answer": "Los guionistas intentan prescindir de los regionalismos más marcados.",
+        "explanation": "Prescindir rige siempre la preposición de: se prescinde de algo. Sin ella la frase no es gramatical."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Un texto sin modismos carece color, pero se entiende en todas partes.",
+        "answer": "Un texto sin modismos carece de color, pero se entiende en todas partes.",
+        "explanation": "Carecer también rige de: se carece de algo (carece de color, de matices). Es el mismo error que con prescindir."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (doblaje para toda Latinoamérica).",
+        "source": "¡No te enojes, güey, era una broma!",
+        "answer": "¡No te enojes, amigo, era una broma!",
+        "altAnswers": [
+          "¡No te enojes, era una broma!",
+          "¡No te enojes, amigo, era solo una broma!",
+          "¡No te enfades, amigo, era una broma!"
+        ],
+        "explanation": "Güey es un modismo mexicano muy marcado; en un doblaje neutro se sustituye por un vocativo general (amigo) o se omite."
       }
     ]
   },
@@ -10193,10 +12253,23 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El habla coloquial: espontaneidad, cercanía y economía expresiva",
         "body": [
+          "La regla: el habla coloquial se apoya en lo que los interlocutores ya comparten, y por eso puede decir menos y exagerar más. Deja frases a medias porque el otro las completa (economía expresiva), rellena con muletillas (bueno, o sea, pues) mientras piensa, suaviza con diminutivos (un momentito) y exagera o dice lo contrario de lo que piensa (hipérbole, ironía) porque confía en que el otro lo interpretará bien. El registro formal hace justo lo contrario: lo dice todo de forma explícita, porque no puede contar con ese contexto. Pasar de uno a otro es, sobre todo, cambiar cuánto se da por sabido.",
           "Frente a la neutralidad calculada, el habla coloquial se caracteriza por su espontaneidad: surge en la conversación cotidiana, entre personas que comparten un contexto y una confianza mutua, y recurre a muletillas, diminutivos, interjecciones y expresiones fijas que rara vez aparecen en un texto formal. Esta variedad privilegia la economía expresiva por encima de la precisión: se dicen frases incompletas, se sobreentienden ideas y se confía en el contexto compartido para completar el sentido.",
           "Lejos de ser una versión descuidada o empobrecida de la lengua, el habla coloquial posee una riqueza expresiva propia, con recursos como la ironía, la hipérbole o el doble sentido que a menudo resultan imposibles de trasladar a un registro más formal sin perder buena parte de su efecto. Dominarla exige tanto conocimiento cultural como dominio gramatical, porque su lógica no es la de la corrección normativa, sino la de la eficacia social dentro de un grupo concreto."
         ],
         "examples": [
+          {
+            "es": "—¿Vienes? —Si eso, luego te digo.",
+            "en": "—Are you coming? —I'll let you know later. (frase a medias: el contexto la completa)"
+          },
+          {
+            "es": "Tengo un hambre que me muero.",
+            "en": "I'm starving. (hipérbole: nadie se muere)"
+          },
+          {
+            "es": "Dame un segundito, que lo busco.",
+            "en": "Give me a sec, I'll look for it. (diminutivo que suaviza)"
+          },
           {
             "es": "la economía expresiva",
             "en": "la tendencia a comunicar con el menor número de palabras posible, apoyándose en el contexto"
@@ -10238,6 +12311,18 @@ const C1_BASE_LESSONS: Lesson[] = [
               3
             ],
             "explanation": "El texto describe el habla coloquial como espontánea, rica en muletillas e interjecciones y apoyada en el contexto compartido; en ningún momento afirma que carezca de recursos como la ironía, sino todo lo contrario."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un caso nuevo. Un amigo levanta tu maleta y dice: «¿Qué llevas aquí, piedras? Pesa una tonelada». ¿Qué recursos usa?",
+            "options": [
+              "Ironía e hipérbole",
+              "Diminutivo y muletilla",
+              "Lenguaje técnico",
+              "Ningún recurso: es una descripción literal"
+            ],
+            "correctIndex": 0,
+            "explanation": "«¿Piedras?» es una pregunta irónica (no cree que lleves piedras) y «pesa una tonelada» es una hipérbole: exagera para expresar que pesa mucho. Ambos funcionan porque los dos saben que no es literal: es el contexto compartido del habla coloquial."
           }
         ]
       }
@@ -10258,6 +12343,83 @@ const C1_BASE_LESSONS: Lesson[] = [
           3
         ],
         "explanation": "El texto atribuye al habla coloquial el uso de muletillas, diminutivos afectivos e ironía; en cambio, señala que este registro se apoya precisamente en el contexto compartido, no en su ausencia."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase en una hipérbole coloquial.",
+        "source": "Te he llamado muchas veces.",
+        "answer": "Te he llamado mil veces.",
+        "altAnswers": [
+          "Te he llamado cien veces.",
+          "Te he llamado un millón de veces.",
+          "Te he llamado como mil veces.",
+          "Te he llamado miles de veces."
+        ],
+        "explanation": "La hipérbole sustituye la cantidad real por una exagerada que nadie toma al pie de la letra: mil veces, cien veces, un millón de veces."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al diminutivo afectivo.",
+        "source": "¿Me esperas un momento? Voy a por un café.",
+        "answer": "¿Me esperas un momentito? Voy a por un cafecito.",
+        "altAnswers": [
+          "¿Me esperas un momentito? Voy por un cafecito.",
+          "¿Me esperas un ratito? Voy a por un cafecito.",
+          "¿Me esperas un momentico? Voy por un cafecito."
+        ],
+        "explanation": "El diminutivo coloquial suaviza la petición. Ojo con la forma: palabras agudas acabadas en vocal como café toman -cito (cafecito, no «cafito»); momento hace momentito."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase en registro formal, sin muletillas ni frases a medias.",
+        "source": "Bueno, o sea, que lo del informe… que mañana, ¿vale?",
+        "answer": "El informe estará listo mañana.",
+        "altAnswers": [
+          "El informe estará terminado mañana.",
+          "Le entregaré el informe mañana.",
+          "Entregaré el informe mañana.",
+          "El informe se entregará mañana."
+        ],
+        "explanation": "El registro formal no puede apoyarse en el contexto: elimina las muletillas (bueno, o sea, ¿vale?) y completa lo que la frase coloquial dejaba sobreentendido."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Te lo he dicho mil veces» es una ironía.",
+        "answer": "«Te lo he dicho mil veces» es una hipérbole.",
+        "explanation": "Exagerar una cantidad es una hipérbole. La ironía dice lo contrario de lo que se piensa («¡Qué buen tiempo!» bajo la lluvia)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (es un informe de la empresa).",
+        "source": "Las ventas han subido un montón, o sea, una pasada.",
+        "answer": "Las ventas han aumentado considerablemente.",
+        "altAnswers": [
+          "Las ventas han aumentado notablemente.",
+          "Las ventas han subido considerablemente.",
+          "Las ventas han aumentado de forma considerable.",
+          "Las ventas han aumentado mucho."
+        ],
+        "explanation": "En un informe sobran el modismo (un montón, una pasada) y la muletilla (o sea): el registro formal lo dice de forma explícita y neutra."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (es el acta de una reunión).",
+        "source": "Bueno, pues el director dijo que el proyecto, o sea, se retrasa.",
+        "answer": "El director indicó que el proyecto se retrasa.",
+        "altAnswers": [
+          "El director señaló que el proyecto se retrasa.",
+          "El director comunicó que el proyecto se retrasa.",
+          "El director dijo que el proyecto se retrasa.",
+          "El director indicó que el proyecto se retrasaba."
+        ],
+        "explanation": "En un acta las muletillas (bueno, pues, o sea) no aportan nada: se eliminan y el verbo de habla se precisa (indicó, señaló, comunicó)."
       }
     ]
   },
@@ -10272,10 +12434,19 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cuándo elegir cada registro: la pertinencia como criterio",
         "body": [
+          "La regla: el registro se elige con tres preguntas, no por gusto. ¿Qué función tiene el texto (informar, instruir, entretener, convencer)? ¿Qué relación tengo con quien lo recibe (desconocido, cliente, amigo)? ¿Por qué canal llega (documento, redes, mensaje de voz)? Si la función es informar a muchos desconocidos, el registro pertinente es neutro y formal; si es mantener la cercanía con alguien conocido, el coloquial. ¿Por qué? Porque un registro desajustado no falla en la gramática, sino en el efecto: la jerga resta credibilidad a una reclamación, y el estilo administrativo enfría un mensaje entre amigos.",
           "La pregunta relevante nunca es cuál de los dos registros resulta superior, sino cuál resulta pertinente en cada situación comunicativa. Un informe institucional, una noticia internacional o un manual de instrucciones exigen un español neutro y formal, porque su función es transmitir información con la máxima claridad y el mínimo riesgo de ambigüedad regional. Una conversación entre amigos, un mensaje de voz o una publicación en redes sociales, en cambio, sonarían artificiales y distantes si se redactaran con ese mismo grado de neutralidad.",
           "El verdadero dominio del español a nivel avanzado no consiste en preferir un registro sobre otro, sino en moverse con soltura entre ambos según lo exija cada contexto, e incluso combinarlos conscientemente dentro de un mismo texto cuando la intención comunicativa lo requiere, como ocurre en la publicidad o en cierto periodismo de opinión que busca cercanía sin renunciar a la claridad."
         ],
         "examples": [
+          {
+            "es": "Pulse el botón rojo para iniciar la grabación.",
+            "en": "Press the red button to start recording. (manual: instruir a desconocidos → neutro, usted)"
+          },
+          {
+            "es": "¡Qué ganas de verte el finde!",
+            "en": "Can't wait to see you at the weekend! (mensaje a una amiga → coloquial)"
+          },
           {
             "es": "resultar pertinente",
             "en": "ser adecuado o apropiado para una situación concreta"
@@ -10305,6 +12476,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             "answer": "pertinencia",
             "explanation": "El texto insiste en que lo relevante es la pertinencia del registro para cada contexto comunicativo, no una jerarquía entre formal y coloquial.",
             "hint": "Piensa en la palabra que expresa lo adecuado que resulta algo para una situación concreta."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica las tres preguntas a un caso nuevo: la asociación de vecinos publica en su cuenta de Instagram que la fiesta del barrio se aplaza. ¿Qué frase es la más pertinente?",
+            "options": [
+              "¡Cambio de planes! La fiesta del barrio se pasa al sábado 14. ¡Os esperamos!",
+              "Por medio de la presente se comunica el aplazamiento de la fiesta vecinal.",
+              "O sea, tipo que la fiesta no es el sábado, ¿vale?",
+              "Se aplaza la fiesta. Fin."
+            ],
+            "correctIndex": 0,
+            "explanation": "Función: informar; relación: vecinos conocidos; canal: redes sociales. Pide un tono cercano pero claro, con el dato completo. «Por medio de la presente» es de carta administrativa (frío para Instagram); la versión con muletillas no informa con claridad, y «Fin» suena seco y poco amable."
           }
         ]
       }
@@ -10316,6 +12499,74 @@ const C1_BASE_LESSONS: Lesson[] = [
         "sentence": "Lo decisivo al elegir un registro no es su formalidad, sino su ___ para la situación concreta.",
         "answer": "pertinencia",
         "explanation": "El texto insiste en que la pertinencia, y no una supuesta superioridad, es el criterio correcto para elegir entre el español neutro y el coloquial."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase en el registro pertinente para un manual de instrucciones.",
+        "source": "Oye, si la peli no arranca, dale al botón rojo un par de veces.",
+        "answer": "Si la película no se reproduce, pulse dos veces el botón rojo.",
+        "altAnswers": [
+          "Si la película no se reproduce, pulse el botón rojo dos veces.",
+          "Si la película no se inicia, pulse dos veces el botón rojo.",
+          "Si la película no se inicia, pulse el botón rojo dos veces.",
+          "Si la película no arranca, pulse dos veces el botón rojo."
+        ],
+        "explanation": "Un manual instruye a desconocidos: usted (pulse), sin muletillas (oye), sin apócopes (peli) y con verbos precisos (reproducirse, pulsar) en lugar de dar a o arrancar."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al tú, para una publicación cercana en redes sociales.",
+        "source": "Le esperamos en nuestra tienda para que conozca la nueva colección.",
+        "answer": "Te esperamos en nuestra tienda para que conozcas la nueva colección.",
+        "altAnswers": [
+          "Te esperamos en la tienda para que conozcas la nueva colección.",
+          "Te esperamos en nuestra tienda para que descubras la nueva colección."
+        ],
+        "explanation": "En redes sociales el registro pertinente suele ser cercano: el pronombre (le → te) y el verbo (conozca → conozcas) pasan a tú, y el subjuntivo tras «para que» se mantiene."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con «no… sino…».",
+        "source": "Lo importante es la pertinencia, no la formalidad.",
+        "answer": "Lo importante no es la formalidad, sino la pertinencia.",
+        "altAnswers": [
+          "Lo importante no es la formalidad sino la pertinencia."
+        ],
+        "explanation": "Tras una negación, la corrección se introduce con sino (no A, sino B). Pero solo añadiría una restricción, no sustituiría A por B."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Lo decisivo no es el registro más elegante, pero el más adecuado.",
+        "answer": "Lo decisivo no es el registro más elegante, sino el más adecuado.",
+        "explanation": "Cuando la segunda parte sustituye a lo negado, el conector es sino. Pero se usa para añadir una restricción a algo afirmado («es elegante, pero poco claro»)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Puedes usar alguna expresión coloquial siempre que el lector te conoce.",
+        "answer": "Puedes usar alguna expresión coloquial siempre que el lector te conozca.",
+        "altAnswers": [
+          "Puedes usar alguna expresión coloquial siempre y cuando el lector te conozca."
+        ],
+        "explanation": "Siempre que con valor condicional (≈ con tal de que) pide subjuntivo: te conozca. Con indicativo significaría «cada vez que»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase (nota de prensa del ayuntamiento).",
+        "source": "El ayuntamiento informa de que el finde se cortará el agua en el centro.",
+        "answer": "El ayuntamiento informa de que el fin de semana se cortará el agua en el centro.",
+        "altAnswers": [
+          "El ayuntamiento informa de que el fin de semana se cortará el suministro de agua en el centro.",
+          "El ayuntamiento informa de que este fin de semana se cortará el agua en el centro."
+        ],
+        "explanation": "Una nota de prensa institucional informa a todos los vecinos: el registro pertinente es neutro y formal, sin apócopes coloquiales como finde."
       }
     ]
   },
@@ -10330,10 +12581,19 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cómo cambia el significado según el registro elegido",
         "body": [
+          "La regla: el registro no solo viste el contenido, también dice qué piensas de él y de tu interlocutor. Con la misma información, la palabra formal crea distancia y suena a juicio («una decisión desacertada»), y la coloquial crea complicidad y suele quitar gravedad («una metida de pata»). Por eso elegir registro es elegir actitud: severidad o indulgencia, distancia o cercanía. Y por escrito el riesgo crece, porque faltan la entonación y el gesto que avisan de que algo es broma o ironía.",
           "Un mismo mensaje puede transmitir intenciones muy distintas según el registro en que se formule, incluso cuando el contenido informativo es idéntico. Decir que una decisión fue desacertada suena a evaluación técnica y distante; decir que fue una metida de pata añade cercanía, complicidad e incluso cierta indulgencia hacia quien la cometió. La elección del registro, entonces, no solo adapta la forma del mensaje, sino que modifica su carga emocional y su efecto sobre quien escucha.",
           "Este fenómeno se vuelve especialmente delicado en la comunicación escrita, donde faltan la entonación y el gesto que en el habla oral matizan una expresión coloquial. Un chiste o una ironía que resultarían evidentes al escucharse pueden malinterpretarse por escrito si el destinatario no comparte el mismo registro o el mismo código cultural, lo que explica por qué ciertos mensajes informales generan malentendidos cuando se sacan de su contexto original."
         ],
         "examples": [
+          {
+            "es": "Fue un despiste. / Fue una negligencia.",
+            "en": "It was a slip. / It was negligence. (misma información; la primera disculpa, la segunda acusa)"
+          },
+          {
+            "es": "¡Genial, otra reunión! (escrito en un chat)",
+            "en": "Great, another meeting! (sin entonación, la ironía puede leerse como entusiasmo)"
+          },
           {
             "es": "una metida de pata",
             "en": "un error cometido de forma torpe o inoportuna"
@@ -10367,6 +12627,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto explica que la formulación coloquial aporta cercanía y cierta indulgencia, mientras que la técnica suena distante y evaluativa. No aporta precisión estadística, no es más severa (al contrario, suaviza el juicio) y sí cambia el matiz."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un caso nuevo. Tu compañera olvidó enviar un archivo y quieres quitarle importancia delante del equipo. ¿Qué dices?",
+            "options": [
+              "Nada, un despiste, le pasa a cualquiera.",
+              "Se ha producido un incumplimiento en el envío.",
+              "Ha sido una negligencia grave.",
+              "Consta un error en el procedimiento de envío."
+            ],
+            "correctIndex": 0,
+            "explanation": "Para quitar gravedad, el registro coloquial y la palabra indulgente (despiste) crean complicidad. Las otras tres frases transmiten la misma información, pero con un registro formal que suena a acusación o a informe."
           }
         ]
       }
@@ -10387,6 +12659,71 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "translation": "Colloquial speech has its own expressive richness.",
         "explanation": "«Habla» es femenino pero lleva «el» por empezar por a tónica; «propia» va detrás del sustantivo y concuerda con «riqueza»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase en un registro neutro para un informe a la dirección.",
+        "source": "El nuevo metió la pata con el cliente.",
+        "answer": "El nuevo empleado cometió un error con el cliente.",
+        "altAnswers": [
+          "El nuevo compañero cometió un error con el cliente.",
+          "El nuevo empleado se equivocó con el cliente."
+        ],
+        "explanation": "Metió la pata es coloquial y algo indulgente; en un informe se usa una formulación neutra y explícita: cometió un error. «El nuevo» también se completa (el nuevo empleado, el nuevo compañero)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase en registro coloquial para quitarle gravedad.",
+        "source": "Su decisión fue desacertada.",
+        "answer": "Lo que decidió fue una metida de pata.",
+        "altAnswers": [
+          "Metió la pata.",
+          "Su decisión fue una metida de pata.",
+          "Fue una metida de pata."
+        ],
+        "explanation": "La versión coloquial transmite lo mismo, pero con cercanía e indulgencia: una metida de pata, un error sin mala intención."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase para que no pueda leerse como ironía en un chat de trabajo.",
+        "source": "¡Genial, otra reunión el viernes!",
+        "answer": "Tenemos otra reunión el viernes.",
+        "altAnswers": [
+          "Hay otra reunión el viernes.",
+          "El viernes tenemos otra reunión.",
+          "Tendremos otra reunión el viernes."
+        ],
+        "explanation": "Por escrito no hay entonación: «¡Genial!» puede leerse como entusiasmo o como queja. Si el mensaje es para el equipo, lo seguro es formularlo de forma neutra y explícita."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la expresión.",
+        "source": "El nuevo metió el pie con el cliente y se armó un lío.",
+        "answer": "El nuevo metió la pata con el cliente y se armó un lío.",
+        "explanation": "La expresión fija es meter la pata (equivocarse de forma torpe). Las expresiones fijas no admiten cambiar sus piezas: «meter el pie» no existe con ese sentido."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "La carga emocional no depende solo del contenido, sino que también del registro.",
+        "answer": "La carga emocional no depende solo del contenido, sino también del registro.",
+        "explanation": "Sino que solo va delante de un verbo conjugado («no solo informa, sino que convence»). Delante de un complemento (del registro) va sino también."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Decir «metida de pata» suena más distante que decir «decisión desacertada».",
+        "answer": "Decir «metida de pata» suena más cercano que decir «decisión desacertada».",
+        "altAnswers": [
+          "Decir «decisión desacertada» suena más distante que decir «metida de pata»."
+        ],
+        "explanation": "Es al revés: la expresión coloquial crea cercanía y complicidad; la formal es la que crea distancia y suena a evaluación técnica."
       }
     ]
   },
@@ -10399,6 +12736,37 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "La regla: cada registro tiene su lugar",
+        "body": [
+          "La regla del diálogo que vas a leer: el mismo hecho se cuenta de forma distinta según dónde se publica. Un comunicado oficial dice «la situación se agravó»; un comentario entre amigos, «la cosa se puso fea». Ninguna de las dos es incorrecta: el comunicado necesita sonar neutro para informar sin ambigüedades a todos, y la charla necesita sonar natural para crear cercanía. Lo que falla es el cruce: un aviso oficial coloquial «quedaría fatal», y una charla en tono de comunicado sonaría acartonada.",
+          "El vocabulario de esta lección sirve justo para juzgar ese cruce. Unas palabras critican el exceso de formalidad o de fingimiento (acartonado, artificioso, impostado); otras elogian lo sencillo (llano, de andar por casa, la naturalidad, el desenfado)."
+        ],
+        "examples": [
+          {
+            "es": "La situación se agravó. / La cosa se puso fea.",
+            "en": "The situation worsened. / Things got ugly. (comunicado / charla)"
+          },
+          {
+            "es": "Un diálogo acartonado no suena a gente real.",
+            "en": "A stiff dialogue doesn't sound like real people. (crítica al exceso de formalidad)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un caso nuevo. ¿Qué versión de «Hubo un lío tremendo en la estación» corresponde a un comunicado de la empresa de trenes?",
+            "options": [
+              "Se produjeron graves incidencias en la estación.",
+              "Se armó la gorda en la estación.",
+              "La estación fue un caos total, tío.",
+              "En la estación pasó de todo, ¿viste?"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un comunicado informa sin ambigüedad y sin complicidad: «se produjeron graves incidencias». «Se armó la gorda», «tío» y «¿viste?» son marcas coloquiales: perfectas en una charla, fuera de lugar en un texto institucional."
+          }
+        ]
+      },
+      {
         "heading": "En la práctica",
         "body": [
           "— Che, viste la nota que salió hoy sobre la reunión, ¿no? Un embole total, todo en un tono re formal.",
@@ -10409,6 +12777,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           "— Totalmente. Imaginate un aviso oficial que dijera 'la cosa se puso fea' en vez de 'la situación se agravó'.",
           "— Sonaría rarísimo, aunque en el fondo signifique lo mismo.",
           "— Exacto, por eso cada registro tiene su lugar: uno para informar sin ambigüedades, otro para charlar entre nosotros."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En el diálogo, una porteña dice que la nota era «un embole total». ¿Qué quiere decir?",
+            "options": [
+              "Que era muy aburrida",
+              "Que era muy confusa",
+              "Que era muy larga y bien escrita",
+              "Que estaba llena de errores"
+            ],
+            "correctIndex": 0,
+            "explanation": "Embole (de embolarse, aburrirse) es un coloquialismo rioplatense: aburrimiento. Ella critica el tono «re formal» de la nota, aunque reconoce que un comunicado tiene que sonar neutro."
+          }
         ]
       },
       {
@@ -10489,6 +12871,15 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "impostado",
             "en": "fingido, falto de naturalidad («un acento impostado»)"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Aplica el patrón de naturalidad, solemnidad… (adjetivo + -idad) a una palabra nueva.",
+            "sentence": "Lo que más me gusta de su forma de hablar es la ___. (espontáneo)",
+            "answer": "espontaneidad",
+            "explanation": "Los adjetivos de estilo forman el sustantivo de cualidad con -idad: natural → naturalidad, solemne → solemnidad, espontáneo → espontaneidad (se pierde la -o y se mantiene la e)."
+          }
         ]
       }
     ],
@@ -10515,6 +12906,76 @@ const C1_BASE_LESSONS: Lesson[] = [
           }
         ],
         "explanation": "Cada contexto exige un registro distinto según su función comunicativa: informar con claridad universal o transmitir cercanía dentro de un grupo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase a registro formal, como en un comunicado.",
+        "source": "La cosa se puso fea en el puerto y cerraron los accesos.",
+        "answer": "La situación se agravó en el puerto y se cerraron los accesos.",
+        "altAnswers": [
+          "La situación se agravó en el puerto y los accesos se cerraron.",
+          "La situación empeoró en el puerto y se cerraron los accesos."
+        ],
+        "explanation": "«La cosa se puso fea» es coloquial; en un comunicado, «la situación se agravó». El sujeto indeterminado (cerraron) pasa a pasiva refleja (se cerraron), más impersonal."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con «con» + sustantivo de cualidad.",
+        "source": "Habla de forma espontánea.",
+        "answer": "Habla con espontaneidad.",
+        "altAnswers": [
+          "Habla con mucha espontaneidad."
+        ],
+        "explanation": "El adjetivo de estilo da el sustantivo en -idad: espontáneo → espontaneidad. «Con + sustantivo» equivale a «de forma + adjetivo»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase en registro coloquial rioplatense.",
+        "source": "La reunión fue muy aburrida.",
+        "answer": "La reunión fue un embole.",
+        "altAnswers": [
+          "La reunión fue un embole total.",
+          "La reunión fue re aburrida.",
+          "La reunión fue un embole bárbaro."
+        ],
+        "explanation": "En el Río de la Plata, un embole es algo aburrido: el registro coloquial lo dice con un sustantivo expresivo, a menudo reforzado («un embole total»)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Un diálogo acartonado suena espontáneo y lleno de vida.",
+        "answer": "Un diálogo acartonado suena rígido y sin vida.",
+        "altAnswers": [
+          "Un diálogo natural suena espontáneo y lleno de vida.",
+          "Un diálogo acartonado suena rígido y artificial."
+        ],
+        "explanation": "Acartonado es una crítica: rígido, sin vida, como de cartón. Lo contrario sería un diálogo natural o espontáneo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "El actor tiene un acento impostado: suena muy natural.",
+        "answer": "El actor tiene un acento impostado: suena muy poco natural.",
+        "altAnswers": [
+          "El actor tiene un acento impostado: suena forzado.",
+          "El actor tiene un acento impostado: suena falso.",
+          "El actor tiene un acento impostado: no suena natural.",
+          "El actor tiene un acento impostado: suena artificial."
+        ],
+        "explanation": "Impostado significa fingido, falto de naturalidad: un acento impostado suena forzado, no natural."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Un coloquialismo no es un error, pero una elección de registro.",
+        "answer": "Un coloquialismo no es un error, sino una elección de registro.",
+        "explanation": "Tras una negación, lo que sustituye a lo negado va con sino: no es A, sino B. Pero añadiría una restricción, no una sustitución."
       }
     ]
   },
@@ -10526,6 +12987,51 @@ const C1_BASE_LESSONS: Lesson[] = [
     "summary": "Segunda tanda de vocabulario: recursos del habla coloquial (el diminutivo afectivo, la hipérbole, la coletilla, el taco) y tipos de expresiones fijas (la frase hecha, el refrán).",
     "duration": "6 min",
     "sections": [
+      {
+        "heading": "El patrón: sufijos que cargan emoción",
+        "body": [
+          "Buena parte de esta lista describe un mecanismo del habla coloquial: los sufijos apreciativos, que no cambian el significado de la palabra, sino la actitud del hablante hacia lo que nombra. El diminutivo (-ito, -illo, y en América también -ico) transmite cariño o atenúa: casita, cafecito, un momentito. El aumentativo (-ón, -azo, -ote) agranda, y el despectivo (-ucho, -ejo, -uzo) desprecia: casucha, pueblucho, gentuza.",
+          "¿Por qué son coloquiales? Porque expresan una emoción personal, y el registro formal la evita: un informe dice «una vivienda pequeña», no «una casita». Ojo: -azo puede ser despectivo o, muy a menudo, de admiración (un cochazo, un golazo); lo decide el contexto. Y el diminutivo de las palabras agudas en vocal o de una sílaba se forma con -cito o -ecito: café → cafecito, pan → panecito (o pancito en América), flor → florecita."
+        ],
+        "examples": [
+          {
+            "es": "¿Te apetece un cafecito?",
+            "en": "Fancy a little coffee? (diminutivo afectivo: suaviza la invitación)"
+          },
+          {
+            "es": "Vivían en una casucha sin luz.",
+            "en": "They lived in a miserable shack with no electricity. (-ucho: despectivo)"
+          },
+          {
+            "es": "¡Qué golazo!",
+            "en": "What a goal! (-azo: aquí admiración, no desprecio)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Aplica el patrón a una palabra nueva: forma el diminutivo afectivo.",
+            "sentence": "Pasamos el verano en un ___ de la sierra. (pueblo)",
+            "answer": "pueblecito",
+            "altAnswers": [
+              "pueblito"
+            ],
+            "explanation": "Pueblo forma el diminutivo con -ecito en España (pueblecito) y con -ito en buena parte de América (pueblito). Transmite cariño, no solo tamaño."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Un vecino dice: «No pienso alquilar ese cuartucho». ¿Qué expresa el sufijo?",
+            "options": [
+              "Desprecio: el cuarto le parece pequeño y malo",
+              "Cariño por el cuarto",
+              "Que el cuarto es muy grande",
+              "Admiración por el cuarto"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ucho es un sufijo despectivo (como en casucha o pueblucho): el cuarto le parece pobre y feo. El cariño lo daría -ito (cuartito) y el tamaño grande, -azo u -ón."
+          }
+        ]
+      },
       {
         "heading": "Vocabulario: más términos sobre el habla coloquial",
         "body": [
@@ -10600,6 +13106,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "la frase hecha",
             "en": "una combinación fija de palabras cuyo significado no se deduce de sus componentes por separado"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Más vale tarde que nunca.» ¿Qué tipo de expresión fija es?",
+            "options": [
+              "Un refrán",
+              "Una fórmula hecha",
+              "Una coletilla",
+              "Un taco"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es un dicho breve y tradicional que contiene una enseñanza: un refrán. Una fórmula hecha es un uso social fijo (buenos días, mucho gusto); una coletilla se añade por costumbre al final (¿sabes?), y un taco es una palabrota."
+          }
         ]
       }
     ],
@@ -10615,6 +13135,61 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "El texto explica que la falta de entonación y gesto en la escritura dificulta captar los matices que sí resultan evidentes al hablar. El español neutro no prohíbe el humor, la extensión del chiste no es el problema y el destinatario sí comparte el idioma."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase usando un diminutivo afectivo.",
+        "source": "Mi abuela vive en una casa pequeña junto al río.",
+        "answer": "Mi abuela vive en una casita junto al río.",
+        "explanation": "El diminutivo -ita sustituye al adjetivo «pequeña» y añade cariño: una casita."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase usando un sufijo despectivo.",
+        "source": "Vivían en una casa vieja y miserable a las afueras.",
+        "answer": "Vivían en una casucha a las afueras.",
+        "altAnswers": [
+          "Vivían en una casucha miserable a las afueras.",
+          "Vivían en una casucha vieja a las afueras."
+        ],
+        "explanation": "-ucho/-ucha resume el juicio negativo (vieja y miserable) en la propia palabra: una casucha."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase sin la redundancia.",
+        "source": "Subió arriba a buscar el abrigo.",
+        "answer": "Subió a buscar el abrigo.",
+        "explanation": "Subir ya significa ir hacia arriba: «subir arriba» es una redundancia (repetición innecesaria). Lo mismo pasa con «bajar abajo» o «salir afuera»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el vulgarismo.",
+        "source": "Hubieron varios accidentes en la carretera de la costa.",
+        "answer": "Hubo varios accidentes en la carretera de la costa.",
+        "explanation": "Haber impersonal (existir) va siempre en singular: hubo, había, habrá. «Hubieron» es un vulgarismo frecuente, igual que «habían muchas personas»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el vulgarismo.",
+        "source": "Si lo sabría, te lo diría.",
+        "answer": "Si lo supiera, te lo diría.",
+        "altAnswers": [
+          "Si lo supiese, te lo diría."
+        ],
+        "explanation": "En la condición con si no se usa el condicional: «si lo sabría» es un vulgarismo. Lo correcto es imperfecto de subjuntivo (si lo supiera o supiese)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Mucho gusto» es un refrán que usamos al conocer a alguien.",
+        "answer": "«Mucho gusto» es una fórmula hecha que usamos al conocer a alguien.",
+        "explanation": "Mucho gusto no contiene ninguna enseñanza: es una expresión convencional de cortesía, una fórmula hecha. Un refrán es un dicho tradicional con moraleja."
       }
     ]
   },
@@ -10629,10 +13204,23 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La arquitectura de una carta o un correo formal",
         "body": [
+          "La regla: un escrito formal tiene tres partes fijas y cada una hace un trabajo. El encabezamiento saluda (Estimada señora: , con dos puntos y no con coma, como en inglés). El primer párrafo del cuerpo dice el motivo del escrito, sin preámbulos (Le escribo para…, Por medio de la presente…). El cierre reitera la petición y despide (Quedo a la espera de su respuesta. Atentamente). ¿Por qué tan rígido? Porque quien lee una carta formal suele leer muchas: si el asunto está donde se espera, lo encuentra en segundos.",
           "La correspondencia formal en español sigue una estructura reconocible que rara vez se improvisa: un encabezamiento con la fórmula de saludo, un cuerpo dividido en párrafos claros con el motivo del escrito, y un cierre con la fórmula de despedida y la firma. Esta arquitectura no es un capricho estilístico, sino una convención que permite al destinatario ubicar rápidamente la información esencial sin tener que leer todo el texto para entender su propósito.",
           "A diferencia de un mensaje informal, donde el orden de las ideas puede ser flexible, en un escrito formal se espera que el asunto quede planteado desde el primer párrafo, que el desarrollo aporte los detalles necesarios sin digresiones y que el cierre reitere, si corresponde, la petición o expectativa concreta del remitente. Esta previsibilidad estructural es, precisamente, lo que da seriedad y profesionalismo a un documento."
         ],
         "examples": [
+          {
+            "es": "Estimado señor Medina:",
+            "en": "Dear Mr Medina, (en español, dos puntos tras el saludo)"
+          },
+          {
+            "es": "Le escribo para solicitar información sobre la beca de investigación.",
+            "en": "I am writing to request information about the research grant. (el motivo, en la primera línea)"
+          },
+          {
+            "es": "Por medio de la presente le solicito una prórroga del plazo.",
+            "en": "I hereby request an extension of the deadline. (fórmula de apertura muy formal)"
+          },
           {
             "es": "el encabezamiento",
             "en": "la parte inicial de un escrito donde se sitúa la fórmula de saludo"
@@ -10670,6 +13258,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto indica que, a diferencia de un mensaje informal, en la correspondencia formal el asunto debe quedar planteado desde el primer párrafo. Las digresiones retrasan el asunto, la despedida va al final y omitir el motivo es justo lo contrario de lo esperado."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla. ¿Qué primera frase del cuerpo cumple la convención en un correo al servicio de atención al cliente?",
+            "options": [
+              "Le escribo para reclamar el reembolso del pedido n.º 4521, que llegó dañado.",
+              "Espero que tengan un buen día; hace mucho calor aquí.",
+              "Antes de nada, quiero contarles cómo descubrí su tienda.",
+              "Atentamente, Laura Gil."
+            ],
+            "correctIndex": 0,
+            "explanation": "El primer párrafo plantea el asunto de inmediato: qué se pide y sobre qué. Los saludos sobre el tiempo o la historia personal son digresiones que retrasan el motivo, y «Atentamente» pertenece al cierre."
           }
         ]
       }
@@ -10686,6 +13286,70 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "«Estimada señora: por medio de la presente…» constituye una fórmula de apertura solemne, adecuada para un escrito dirigido a una autoridad. «Qué tal, ¿cómo va todo?», «Hola, te escribo para…» y «Buenas, cuéntame» son informales y tutean, inadecuados para una autoridad."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con «por medio de la presente».",
+        "source": "Le escribo para comunicarle mi renuncia al puesto.",
+        "answer": "Por medio de la presente le comunico mi renuncia al puesto.",
+        "altAnswers": [
+          "Por medio de la presente, le comunico mi renuncia al puesto."
+        ],
+        "explanation": "«Por medio de la presente» (es decir, de esta carta) sustituye a «le escribo para» y el infinitivo pasa a verbo conjugado: le comunico."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase a usted (correo formal).",
+        "source": "Te escribo para pedirte información sobre el curso.",
+        "answer": "Le escribo para pedirle información sobre el curso.",
+        "altAnswers": [
+          "Le escribo para solicitarle información sobre el curso.",
+          "Le escribo para solicitar información sobre el curso.",
+          "Le escribo para pedir información sobre el curso."
+        ],
+        "explanation": "En un escrito formal se trata de usted: el pronombre te pasa a le (CI) y el enclítico de pedirte a pedirle."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase sin la digresión.",
+        "source": "Le escribo, aunque ayer llovía muchísimo en Madrid, para reclamar el reembolso de mi billete.",
+        "answer": "Le escribo para reclamar el reembolso de mi billete.",
+        "explanation": "El tiempo que hacía en Madrid no tiene nada que ver con el asunto: es una digresión que retrasa el motivo del escrito. Se elimina."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la puntuación del saludo.",
+        "source": "Estimada señora Ortega,",
+        "answer": "Estimada señora Ortega:",
+        "explanation": "En español, el saludo de una carta o un correo formal va seguido de dos puntos, no de coma: la coma es un calco del inglés."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el saludo (carta a una autoridad).",
+        "source": "Hola, señor alcalde: le escribo para solicitar una reunión.",
+        "answer": "Estimado señor alcalde: le escribo para solicitar una reunión.",
+        "altAnswers": [
+          "Señor alcalde: le escribo para solicitar una reunión.",
+          "Excelentísimo señor alcalde: le escribo para solicitar una reunión.",
+          "Estimado señor alcalde: me dirijo a usted para solicitar una reunión."
+        ],
+        "explanation": "Hola es un saludo informal; a una autoridad se le escribe con una fórmula de apertura formal: Estimado señor alcalde, o Señor alcalde."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Por medio de la presente, le comunico de que he decidido renunciar.",
+        "answer": "Por medio de la presente, le comunico que he decidido renunciar.",
+        "altAnswers": [
+          "Por medio de la presente le comunico que he decidido renunciar."
+        ],
+        "explanation": "Comunicar se construye con complemento directo (comunicar algo): le comunico que… Añadir de es dequeísmo."
       }
     ]
   },
@@ -10700,10 +13364,23 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Las fórmulas fijas de saludo y despedida",
         "body": [
+          "La regla: la fórmula de saludo y la de despedida se eligen con dos criterios, la distancia jerárquica y si conoces el nombre del destinatario, y las dos tienen que estar al mismo nivel. Distancia máxima o institución sin nombre: Muy señor mío / Muy señores míos (… Le saluda atentamente). Distancia normal, con nombre: Estimado señor Vidal (… Atentamente). Colega conocido: Estimada Lucía o Hola, Lucía (… Un cordial saludo). ¿Por qué deben coincidir? Porque cada fórmula fija una distancia; si el saludo pone una y la despedida otra, el lector percibe descuido.",
           "El español formal dispone de un repertorio bastante estable de fórmulas de apertura y cierre, y elegir la adecuada según el grado de formalidad y la relación previa con el destinatario resulta tan importante como el contenido mismo del mensaje. Estimado señor o estimada señora, seguido del apellido, constituye una apertura segura cuando existe cierta distancia jerárquica; muy señor mío o distinguida señora resultan aún más solemnes y se reservan para instituciones o autoridades.",
           "El cierre sigue una lógica paralela: atentamente funciona en casi cualquier contexto profesional, mientras que quedo a la espera de su respuesta o quedo a su disposición para cualquier consulta añaden una nota de cortesía adicional antes de la despedida final. Combinar un saludo excesivamente solemne con un cierre demasiado informal, o viceversa, produce un efecto de descuido que un lector atento percibe de inmediato."
         ],
         "examples": [
+          {
+            "es": "Muy señores míos: … Les saluda atentamente,",
+            "en": "Dear Sirs, … Yours faithfully, (institución, sin nombre)"
+          },
+          {
+            "es": "Estimada señora Gómez: … Atentamente,",
+            "en": "Dear Mrs Gómez, … Yours sincerely, (distancia normal, con nombre)"
+          },
+          {
+            "es": "Estimado Andrés: … Un cordial saludo,",
+            "en": "Dear Andrés, … Kind regards, (colega conocido)"
+          },
           {
             "es": "un repertorio estable",
             "en": "un conjunto de expresiones fijas y reconocidas dentro de un uso determinado"
@@ -10715,6 +13392,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "la distancia jerárquica",
             "en": "la diferencia de posición o autoridad entre el remitente y el destinatario"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla. Escribes por primera vez al departamento de reclamaciones de una aerolínea y no sabes quién lo leerá. ¿Qué pareja de fórmulas encaja?",
+            "options": [
+              "Muy señores míos: … Les saluda atentamente,",
+              "Hola: … Un abrazo,",
+              "Querido equipo: … Besos,",
+              "Estimado Juan: … Atentamente,"
+            ],
+            "correctIndex": 0,
+            "explanation": "Institución y destinatario desconocido: distancia máxima, con saludo y despedida al mismo nivel (Muy señores míos / Les saluda atentamente). «Hola… Un abrazo» y «Querido… Besos» son de confianza, y «Estimado Juan» supone un nombre que no conoces."
           }
         ]
       },
@@ -10768,6 +13459,74 @@ const C1_BASE_LESSONS: Lesson[] = [
         "sentence": "Quedo a su ___ para cualquier consulta. Atentamente,",
         "answer": "disposición",
         "explanation": "La fórmula fija quedo a su disposición para cualquier consulta añade una nota de cortesía adicional antes de la despedida final."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia el saludo y la despedida para escribir a un colega con quien tienes trato.",
+        "source": "Muy señor mío: … Le saluda atentamente,",
+        "answer": "Estimado Pablo: … Un cordial saludo,",
+        "altAnswers": [
+          "Hola, Pablo: … Un cordial saludo,",
+          "Estimado Pablo: … Saludos,",
+          "Hola, Pablo: … Saludos,",
+          "Estimado Pablo: … Un saludo,"
+        ],
+        "explanation": "Con un colega conocido la distancia baja: saludo con el nombre de pila (Estimado Pablo, Hola, Pablo) y despedida cordial (Un cordial saludo, Saludos). Las dos fórmulas bajan a la vez."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la despedida al plural (escribes en nombre de tu empresa).",
+        "source": "Quedo a la espera de su respuesta.",
+        "answer": "Quedamos a la espera de su respuesta.",
+        "altAnswers": [
+          "Quedamos a la espera de sus noticias."
+        ],
+        "explanation": "Si firma una empresa o un equipo, la fórmula pasa a la primera persona del plural: quedamos. El resto de la fórmula (a la espera de) no cambia."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma el cierre con «A la espera de…».",
+        "source": "Espero su respuesta. Mientras tanto, quedo a su disposición.",
+        "answer": "A la espera de su respuesta, quedo a su disposición.",
+        "altAnswers": [
+          "A la espera de sus noticias, quedo a su disposición."
+        ],
+        "explanation": "«A la espera de» presenta la situación de espera sin verbo conjugado (equivale a «mientras espero») y une las dos frases en una sola fórmula de cierre."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la despedida.",
+        "source": "Muy señor mío: le escribo para solicitar el certificado. Un abrazo, Marta.",
+        "answer": "Muy señor mío: le escribo para solicitar el certificado. Atentamente, Marta.",
+        "altAnswers": [
+          "Muy señor mío: le escribo para solicitar el certificado. Le saluda atentamente, Marta."
+        ],
+        "explanation": "El saludo es de distancia máxima y la despedida, de confianza: el desequilibrio produce un efecto de descuido. Con «Muy señor mío», la despedida debe ser atentamente o le saluda atentamente."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la fórmula.",
+        "source": "Quedamos en espera a sus instrucciones.",
+        "answer": "Quedamos a la espera de sus instrucciones.",
+        "explanation": "La fórmula fija es quedar a la espera de algo: con artículo y con la preposición de. Las fórmulas de cortesía no admiten variaciones."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el comienzo del correo.",
+        "source": "Estimado señor Vidal: ¿qué tal? Te escribo por lo del contrato.",
+        "answer": "Estimado señor Vidal: le escribo en relación con el contrato.",
+        "altAnswers": [
+          "Estimado señor Vidal: le escribo en relación con su contrato.",
+          "Estimado señor Vidal: le escribo con respecto al contrato.",
+          "Estimado señor Vidal: me dirijo a usted en relación con el contrato."
+        ],
+        "explanation": "Tras un saludo formal con apellido, el cuerpo debe mantener el usted (le escribo) y evitar lo coloquial (¿qué tal?, por lo de). Mezclar registros rompe la convención."
       }
     ]
   },
@@ -10782,10 +13541,19 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Fórmulas de transición y expresiones fijas del cuerpo del texto",
         "body": [
+          "La regla: cada fórmula del cuerpo hace un trabajo concreto y tiene una gramática fija que no se toca. Por medio de la presente (= de esta carta, por eso es femenino) introduce el motivo. En relación con el asunto de la referencia remite a algo ya tratado. Dejar constancia de algo / de que… registra un hecho por escrito (siempre con de). Agradecer de antemano + lo agradecido (sin por) anticipa la cortesía antes del cierre. ¿Por qué usarlas? Porque el lector reconoce al instante qué tipo de párrafo está leyendo. ¿Y el límite? Una fórmula sin datos concretos detrás produce un texto hueco.",
           "Además del saludo y la despedida, el español formal recurre a expresiones fijas que estructuran internamente el cuerpo del mensaje y le otorgan un tono institucional reconocible. Por medio de la presente introduce el motivo del escrito de forma solemne; en relación con el asunto de la referencia retoma un intercambio previo sin necesidad de resumirlo por completo; y agradezco de antemano su atención cierra una petición dejando constancia de cortesía anticipada.",
           "Estas fórmulas cumplen una función que va más allá de lo decorativo: permiten que el lector reconozca de inmediato la naturaleza institucional del escrito y facilitan la lectura rápida de documentos similares, algo especialmente valioso en contextos donde se manejan grandes volúmenes de correspondencia. Sin embargo, un uso excesivo de estas fórmulas, sin aportar contenido concreto entre una y otra, puede producir un texto hueco, cargado de solemnidad pero vacío de sustancia."
         ],
         "examples": [
+          {
+            "es": "Quiero dejar constancia de que el técnico no se presentó.",
+            "en": "I wish to put on record that the technician did not show up. (dejar constancia de que)"
+          },
+          {
+            "es": "Le agradezco de antemano su colaboración.",
+            "en": "Thank you in advance for your cooperation. (agradecer algo, sin «por»)"
+          },
           {
             "es": "por medio de la presente",
             "en": "una fórmula fija que introduce el motivo de un escrito formal"
@@ -10823,6 +13591,18 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto explica que estas fórmulas otorgan reconocibilidad institucional y agilizan la lectura, aunque advierte contra su abuso vacío de contenido. No sustituyen la explicación del motivo, no ocultan el propósito y no son mero adorno: tienen una función práctica."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla. Escribes a tu casero y quieres que quede registrado por escrito que la caldera lleva una semana averiada. ¿Qué fórmula usas?",
+            "options": [
+              "Quiero dejar constancia de que la caldera lleva una semana averiada.",
+              "Le agradezco de antemano que la caldera lleve una semana averiada.",
+              "En relación con el asunto de la referencia, la caldera.",
+              "Por medio del presente, caldera averiada."
+            ],
+            "correctIndex": 0,
+            "explanation": "Para registrar un hecho por escrito: dejar constancia de que + oración. Agradecer de antemano no tiene sentido con una avería; «en relación con el asunto…, la caldera» es un texto hueco sin verbo, y «por medio del presente» cambia el género de la fórmula (es «la presente», la carta)."
           }
         ]
       }
@@ -10843,6 +13623,76 @@ const C1_BASE_LESSONS: Lesson[] = [
           3
         ],
         "explanation": "«Por medio de la presente» introduce el motivo, «en relación con el asunto de la referencia» retoma un intercambio previo y «agradezco de antemano su atención» cierra una petición. «Un texto hueco» no es una fórmula: es el defecto de abusar de ellas sin aportar contenido."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con «dejar constancia de».",
+        "source": "Quiero que quede por escrito que no recibí ningún aviso.",
+        "answer": "Quiero dejar constancia de que no recibí ningún aviso.",
+        "altAnswers": [
+          "Quisiera dejar constancia de que no recibí ningún aviso.",
+          "Deseo dejar constancia de que no recibí ningún aviso."
+        ],
+        "explanation": "Dejar constancia de que + indicativo registra un hecho por escrito. La preposición de es obligatoria."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con «agradecer de antemano».",
+        "source": "Gracias por adelantado por su ayuda.",
+        "answer": "Le agradezco de antemano su ayuda.",
+        "altAnswers": [
+          "Le agradezco de antemano su colaboración.",
+          "Agradezco de antemano su ayuda."
+        ],
+        "explanation": "Agradecer algo a alguien: lo agradecido (su ayuda) es el CD, sin por, y la persona es CI (le). De antemano equivale a «por adelantado»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase a la primera persona del plural (escribe la empresa).",
+        "source": "Por medio de la presente le comunico que su pedido ha sido enviado.",
+        "answer": "Por medio de la presente le comunicamos que su pedido ha sido enviado.",
+        "altAnswers": [
+          "Por medio de la presente, le comunicamos que su pedido ha sido enviado.",
+          "Por la presente le comunicamos que su pedido ha sido enviado."
+        ],
+        "explanation": "Cuando firma una entidad, el verbo pasa a nosotros (comunicamos); la fórmula «por medio de la presente» y el pronombre le (usted) no cambian."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Quiero dejar constancia que el paquete llegó abierto.",
+        "answer": "Quiero dejar constancia de que el paquete llegó abierto.",
+        "altAnswers": [
+          "Quisiera dejar constancia de que el paquete llegó abierto."
+        ],
+        "explanation": "Dejar constancia rige de: se deja constancia de algo, de que algo ocurrió. Omitir de es queísmo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Le agradezco de antemano por su atención.",
+        "answer": "Le agradezco de antemano su atención.",
+        "altAnswers": [
+          "Le doy las gracias de antemano por su atención.",
+          "Agradezco de antemano su atención."
+        ],
+        "explanation": "Agradecer lleva lo agradecido como complemento directo: agradezco su atención. Por solo aparece con «dar las gracias» (le doy las gracias por su atención)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la fórmula.",
+        "source": "Por medio del presente le informo de nuestra nueva dirección.",
+        "answer": "Por medio de la presente le informo de nuestra nueva dirección.",
+        "altAnswers": [
+          "Por la presente le informo de nuestra nueva dirección."
+        ],
+        "explanation": "La fórmula es por medio de la presente: se refiere a «la presente carta», en femenino. «Del presente» rompe la fórmula fija."
       }
     ]
   },
@@ -10857,10 +13707,19 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Precisión, cortesía y concisión: el equilibrio del escrito formal",
         "body": [
+          "La regla: cada frase de una petición formal pasa tres filtros. Precisión: ¿están los datos exactos (fecha, número de pedido, importe)? Cortesía: ¿está suavizada la petición? Concisión: ¿sobra algo? La cortesía tiene una gramática propia: el condicional atenúa el verbo principal (le agradecería, le rogaría, quisiera) y lo que se pide va en imperfecto de subjuntivo (le agradecería que me enviara). ¿Por qué el pasado? Porque el condicional y el subjuntivo alejan la petición de la orden directa, y el tiempo de la subordinada concuerda con ese condicional.",
           "Un buen escrito formal equilibra tres exigencias que a veces parecen tirar en direcciones opuestas: la precisión, que exige nombrar con exactitud fechas, referencias y solicitudes; la cortesía, que exige suavizar cualquier petición o reclamo mediante fórmulas atenuadoras; y la concisión, que exige eliminar cualquier información irrelevante para el propósito del mensaje. Un escrito extenso no es necesariamente más completo, y a menudo resulta menos eficaz que uno breve y bien organizado.",
           "Lograr este equilibrio exige revisar el texto una vez redactado, preguntándose si cada frase aporta algo indispensable o si simplemente ocupa espacio. Una petición formulada con exceso de rodeos puede resultar tan ineficaz como una petición demasiado directa que prescinda de cualquier fórmula de cortesía; el punto medio entre ambos extremos es precisamente lo que distingue una correspondencia profesional bien redactada de una improvisada."
         ],
         "examples": [
+          {
+            "es": "Le rogaría que revisara el importe de la factura n.º 214.",
+            "en": "I would ask you to check the amount on invoice no. 214. (condicional + imperfecto de subjuntivo, y el dato exacto)"
+          },
+          {
+            "es": "Quisiera solicitar una prórroga de dos semanas.",
+            "en": "I would like to request a two-week extension. (quisiera: atenúa sin rodeos)"
+          },
           {
             "es": "una fórmula atenuadora",
             "en": "una expresión que suaviza el tono de una petición o un reclamo"
@@ -10898,6 +13757,18 @@ const C1_BASE_LESSONS: Lesson[] = [
               3
             ],
             "explanation": "El texto identifica la precisión, la cortesía y la concisión como las tres exigencias que un buen escrito formal debe equilibrar; la extensión máxima no aparece como un valor deseable en sí mismo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica los tres filtros. ¿Qué petición es precisa, cortés y concisa?",
+            "options": [
+              "Le agradecería que me devolviera el importe del pedido n.º 4521 (59 €).",
+              "Devuélvanme el dinero ya.",
+              "Quisiera, si no es molestia y en la medida de lo posible, ver si acaso pudiera usted, tal vez, considerar devolverme algo.",
+              "Le agradecería que me devuelva algo del dinero de un pedido."
+            ],
+            "correctIndex": 0,
+            "explanation": "La primera pasa los tres filtros: datos exactos, condicional + imperfecto de subjuntivo y nada que sobre. La segunda no es cortés; la tercera se pierde en rodeos, y la cuarta es imprecisa y además rompe la concordancia (agradecería que… devolviera, no devuelva)."
           }
         ]
       }
@@ -10917,6 +13788,81 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "translation": "I look forward to your reply.",
         "explanation": "«Quedar a la espera de» (no «esperar por») es la fórmula fija de cierre; «su» mantiene el trato de usted."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la orden en una petición cortés con «Le agradecería que…».",
+        "source": "Confírmeme la fecha de la reunión.",
+        "answer": "Le agradecería que me confirmara la fecha de la reunión.",
+        "altAnswers": [
+          "Le agradecería que me confirmase la fecha de la reunión."
+        ],
+        "explanation": "El imperativo (confírmeme) suena a orden. Le agradecería que + imperfecto de subjuntivo (me confirmara o me confirmase) lo convierte en petición cortés."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la petición eliminando los rodeos.",
+        "source": "Quisiera, si no es mucha molestia y en la medida de lo posible, preguntarle si podría enviarme el presupuesto.",
+        "answer": "Quisiera pedirle que me enviara el presupuesto.",
+        "altAnswers": [
+          "Le agradecería que me enviara el presupuesto.",
+          "¿Podría enviarme el presupuesto?",
+          "Le agradecería que me enviase el presupuesto.",
+          "Quisiera pedirle que me enviase el presupuesto."
+        ],
+        "explanation": "Una sola fórmula atenuadora basta (quisiera o le agradecería). Acumular «si no es molestia», «en la medida de lo posible» y «preguntarle si podría» es un exceso de rodeos que resta eficacia."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con los datos exactos: pedido n.º 4521, del 3 de mayo.",
+        "source": "Le escribo por un pedido que hice hace un tiempo.",
+        "answer": "Le escribo en relación con el pedido n.º 4521, del 3 de mayo.",
+        "altAnswers": [
+          "Le escribo en relación con el pedido n.º 4521, realizado el 3 de mayo.",
+          "Le escribo con respecto al pedido n.º 4521, del 3 de mayo.",
+          "Le escribo en relación con mi pedido n.º 4521, del 3 de mayo."
+        ],
+        "explanation": "La precisión exige nombrar el dato exacto en lugar de «un pedido… hace un tiempo», y la fórmula formal en relación con sustituye al coloquial por."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Le agradecería que me envíe el contrato firmado.",
+        "answer": "Le agradecería que me enviara el contrato firmado.",
+        "altAnswers": [
+          "Le agradecería que me enviase el contrato firmado."
+        ],
+        "explanation": "Tras un condicional (agradecería), la subordinada va en imperfecto de subjuntivo: enviara o enviase. El presente (envíe) no concuerda con el condicional."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Le rogaría que me confirme la fecha cuanto antes.",
+        "answer": "Le rogaría que me confirmara la fecha cuanto antes.",
+        "altAnswers": [
+          "Le rogaría que me confirmase la fecha cuanto antes.",
+          "Le ruego que me confirme la fecha cuanto antes."
+        ],
+        "explanation": "Rogaría (condicional de cortesía) pide imperfecto de subjuntivo en la subordinada: confirmara o confirmase. Con el presente sería «Le ruego que me confirme»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase: es demasiado directa para un correo formal.",
+        "source": "Devuélvanme el dinero ya.",
+        "answer": "Les agradecería que me devolvieran el importe lo antes posible.",
+        "altAnswers": [
+          "Les agradecería que me devolvieran el dinero lo antes posible.",
+          "Les ruego que me devuelvan el importe lo antes posible.",
+          "Les agradecería que me reembolsaran el importe lo antes posible.",
+          "Le agradecería que me devolviera el importe lo antes posible."
+        ],
+        "explanation": "La petición es precisa y concisa, pero no cortés. Se suaviza con condicional + imperfecto de subjuntivo, y el coloquial «ya» pasa a «lo antes posible»."
       }
     ]
   },
@@ -10929,6 +13875,48 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "El patrón: quien hace (-nte) y quien recibe (-ario)",
+        "body": [
+          "Muchas palabras de la correspondencia nombran a las personas que intervienen, y siguen dos sufijos. -nte (del participio de presente latino) nombra a quien realiza la acción: remitir → el remitente; firmar → el firmante; solicitar → el solicitante. -ario nombra a quien la recibe o es su destino: el destinatario, el beneficiario (de una beca), el arrendatario (quien alquila). ¿Por qué sirve? Porque si conoces el verbo, puedes formar y entender el nombre de la persona sin diccionario.",
+          "Las dos formas admiten femenino según el sufijo: -nte es invariable (el / la remitente; algunas, como presidenta, ya tienen forma femenina), y -ario hace -aria (la destinataria)."
+        ],
+        "examples": [
+          {
+            "es": "El remitente no indicó su dirección.",
+            "en": "The sender didn't give their address. (remitir → remitente: quien envía)"
+          },
+          {
+            "es": "La destinataria firmó el acuse de recibo.",
+            "en": "The recipient signed the acknowledgement of receipt. (-aria: quien recibe)"
+          },
+          {
+            "es": "Todos los solicitantes deben adjuntar un comprobante.",
+            "en": "All applicants must attach a receipt. (solicitar → solicitante)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el nombre con el patrón (palabra nueva).",
+            "sentence": "La persona que firma un documento es el ___.",
+            "answer": "firmante",
+            "explanation": "Firmar → firmante: -nte nombra a quien realiza la acción, como remitente o solicitante."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el patrón: ¿quién recibe el dinero de una beca?",
+            "options": [
+              "el beneficiario",
+              "el benefactor",
+              "el beneficiante",
+              "el beneficio"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ario nombra a quien recibe: el beneficiario. El benefactor es quien da la ayuda; «beneficiante» no existe, y el beneficio es la ganancia, no la persona."
+          }
+        ]
+      },
+      {
         "heading": "En la práctica",
         "body": [
           "Estimada señora Reyes:",
@@ -10939,6 +13927,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Sin otro particular, aprovecho la ocasión para saludarla.",
           "Atentamente,",
           "Marcos Fuentes"
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "La carta de Marcos Fuentes es correcta, pero tiene formulismo: dos fórmulas hacen el mismo trabajo. ¿Cuáles?",
+            "options": [
+              "«Por medio de la presente, me dirijo a usted…» y «Le escribo para…»",
+              "«Estimada señora Reyes:» y «Atentamente,»",
+              "«Le agradezco de antemano su atención» y «quedo a la espera de su respuesta»",
+              "«dado que el plazo indicado vence a final de mes» y «a la mayor brevedad»"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Por medio de la presente, me dirijo a usted» y «Le escribo para» anuncian los dos el motivo: sobra uno. El saludo y la despedida tienen funciones distintas, el agradecimiento y la espera se suman en el cierre, y el plazo justifica la urgencia."
+          }
         ]
       },
       {
@@ -11019,6 +14021,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "protocolario",
             "en": "que se ajusta al protocolo; formal y ceremonioso"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una empresa te pide que confirmes por escrito que has recibido el contrato. ¿Qué envías?",
+            "options": [
+              "Un acuse de recibo",
+              "Una posdata",
+              "Un membrete",
+              "Un encabezamiento"
+            ],
+            "correctIndex": 0,
+            "explanation": "El acuse de recibo confirma por escrito que un documento ha llegado. La posdata es un añadido tras la firma, y el membrete y el encabezamiento son partes de un documento."
+          }
         ]
       }
     ],
@@ -11045,6 +14061,73 @@ const C1_BASE_LESSONS: Lesson[] = [
           }
         ],
         "explanation": "El encabezamiento abre el escrito con el saludo, el cuerpo desarrolla el contenido, la despedida lo cierra con cortesía antes de la firma y la posdata añade algo después de ella."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con un sustantivo en -nte.",
+        "source": "La persona que firma el contrato debe conservar una copia.",
+        "answer": "El firmante del contrato debe conservar una copia.",
+        "altAnswers": [
+          "La firmante del contrato debe conservar una copia.",
+          "Quien firma el contrato debe conservar una copia."
+        ],
+        "explanation": "Firmar → firmante: el sustantivo en -nte resume «la persona que firma». Si es mujer: la firmante."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con un sustantivo en -ario.",
+        "source": "La persona a quien iba dirigida la carta nunca la recibió.",
+        "answer": "El destinatario de la carta nunca la recibió.",
+        "altAnswers": [
+          "La destinataria de la carta nunca la recibió."
+        ],
+        "explanation": "-ario nombra a quien recibe: el destinatario (la destinataria si es mujer) sustituye a «la persona a quien iba dirigida»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase sin la fórmula que repite la misma función.",
+        "source": "Por medio de la presente le escribo para confirmarle la cita del martes.",
+        "answer": "Le escribo para confirmarle la cita del martes.",
+        "altAnswers": [
+          "Por medio de la presente le confirmo la cita del martes."
+        ],
+        "explanation": "«Por medio de la presente» y «le escribo para» anuncian los dos el motivo: usar ambas es formulismo. Basta con una."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "El remitente es la persona que recibe la carta.",
+        "answer": "El destinatario es la persona que recibe la carta.",
+        "altAnswers": [
+          "El remitente es la persona que envía la carta."
+        ],
+        "explanation": "Quien recibe es el destinatario (-ario); el remitente (-nte, de remitir) es quien la envía."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la fórmula.",
+        "source": "Les rogamos que abonen la factura a la más brevedad.",
+        "answer": "Les rogamos que abonen la factura a la mayor brevedad.",
+        "altAnswers": [
+          "Les rogamos que abonen la factura a la mayor brevedad posible."
+        ],
+        "explanation": "La locución fija es a la mayor brevedad (posible): «mayor» es el comparativo que exige la fórmula, no «más»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Quisiera rogarle que se sirve confirmar la recepción de los documentos.",
+        "answer": "Quisiera rogarle que se sirva confirmar la recepción de los documentos.",
+        "altAnswers": [
+          "Quisiera rogarle que confirme la recepción de los documentos."
+        ],
+        "explanation": "Rogar que pide subjuntivo: se sirva. «Servirse + infinitivo» (= tener la bondad de) es una fórmula muy protocolaria."
       }
     ]
   },
@@ -11056,6 +14139,53 @@ const C1_BASE_LESSONS: Lesson[] = [
     "summary": "Segunda tanda de vocabulario: tipos de escrito (el oficio, la circular, la instancia), partes del documento (la rúbrica, el sello), fórmulas de cierre y cualidades de la buena redacción.",
     "duration": "6 min",
     "sections": [
+      {
+        "heading": "La regla: el tipo de escrito depende de quién escribe a quién",
+        "body": [
+          "Los nombres de los documentos no se memorizan sueltos: cada uno responde a una dirección de la comunicación. De una institución a otra: el oficio. De una persona a una autoridad, para pedir algo: la instancia (o la solicitud). De un emisor a muchos destinatarios con el mismo texto: la circular. Dentro de una misma organización, breve y práctico: el memorando. ¿Por qué importa? Porque cada tipo tiene su formato y su tono, y llamar «circular» a lo que es una instancia confunde al lector sobre quién pide y quién decide.",
+          "Y a cualquier escrito se le aplican las mismas cualidades: claridad expositiva y concisión. Su enemigo es el formulismo, el abuso de fórmulas fijas que suenan solemnes pero no dicen nada."
+        ],
+        "examples": [
+          {
+            "es": "El ayuntamiento remitió un oficio a la consejería.",
+            "en": "The town hall sent an official letter to the regional ministry. (institución → institución)"
+          },
+          {
+            "es": "Presenté una instancia para pedir una beca.",
+            "en": "I submitted an application to request a grant. (persona → autoridad)"
+          },
+          {
+            "es": "Dirección envió una circular sobre el nuevo horario.",
+            "en": "Management sent a circular about the new timetable. (uno → muchos)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla: la directora de un colegio quiere informar a todas las familias de que el viernes no hay clase. ¿Qué escrito envía?",
+            "options": [
+              "Una circular",
+              "Una instancia",
+              "Un oficio",
+              "Un acuse de recibo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un emisor y muchos destinatarios con el mismo contenido: una circular. La instancia la presenta una persona ante una autoridad; el oficio va de una institución a otra, y el acuse de recibo solo confirma una recepción."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Un vecino quiere pedir al ayuntamiento permiso para hacer obras. ¿Qué presenta?",
+            "options": [
+              "Una instancia",
+              "Una circular",
+              "Un memorando",
+              "Una copia de cortesía"
+            ],
+            "correctIndex": 0,
+            "explanation": "Una persona que pide algo a una autoridad presenta una instancia (o solicitud). La circular y el memorando son comunicaciones de una organización, y la copia de cortesía es un duplicado para alguien que no es el destinatario principal."
+          }
+        ]
+      },
       {
         "heading": "Vocabulario: más términos de la correspondencia formal",
         "body": [
@@ -11145,6 +14275,73 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "El texto advierte que el uso excesivo de fórmulas fijas sin contenido real produce un escrito hueco. No gana persuasión automáticamente ni transmite cercanía (la solemnidad vacía aleja), y el lector sí lo percibe."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al plural.",
+        "source": "La circular se envió a todos los departamentos.",
+        "answer": "Las circulares se enviaron a todos los departamentos.",
+        "explanation": "En la pasiva refleja el verbo concuerda con el sujeto: las circulares se enviaron."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma el cierre con «Sin otro particular».",
+        "source": "No tengo nada más que añadir. Un cordial saludo.",
+        "answer": "Sin otro particular, le envío un cordial saludo.",
+        "altAnswers": [
+          "Sin otro particular, reciba un cordial saludo.",
+          "Sin otro particular, le saludo cordialmente.",
+          "Sin otro particular, un cordial saludo."
+        ],
+        "explanation": "Sin otro particular (= sin nada más que añadir) es la fórmula que anuncia el cierre y va seguida de la despedida."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase a la pasiva con «ser».",
+        "source": "La secretaría remitió la instancia al decanato.",
+        "answer": "La instancia fue remitida al decanato por la secretaría.",
+        "altAnswers": [
+          "La instancia fue remitida por la secretaría al decanato."
+        ],
+        "explanation": "En la pasiva el complemento directo (la instancia) pasa a sujeto, el participio concuerda con él (remitida) y el agente va con por."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "El memorando es un documento para comunicarse con otras instituciones.",
+        "answer": "El oficio es un documento para comunicarse con otras instituciones.",
+        "altAnswers": [
+          "El memorando es un documento para la comunicación interna.",
+          "El memorando es un documento para comunicarse dentro de una institución."
+        ],
+        "explanation": "Entre instituciones se usa el oficio. El memorando es un escrito breve de comunicación interna."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Presenté una circular en el ayuntamiento para pedir un permiso de obra.",
+        "answer": "Presenté una instancia en el ayuntamiento para pedir un permiso de obra.",
+        "altAnswers": [
+          "Presenté una solicitud en el ayuntamiento para pedir un permiso de obra."
+        ],
+        "explanation": "Una persona que pide algo a una autoridad presenta una instancia (o una solicitud). La circular la envía una organización a muchos destinatarios."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "El formulismo excesivo hace que las cartas suenen más claras y cercanas.",
+        "answer": "El formulismo excesivo hace que las cartas suenen más rígidas y frías.",
+        "altAnswers": [
+          "El formulismo excesivo hace que las cartas suenen rígidas y frías.",
+          "El formulismo excesivo hace que las cartas suenen más frías y rígidas."
+        ],
+        "explanation": "El formulismo (abuso de fórmulas fijas) produce el efecto contrario: textos rígidos, fríos y huecos. La claridad viene de la concisión."
       }
     ]
   },
@@ -11156,6 +14353,53 @@ const C1_BASE_LESSONS: Lesson[] = [
     "summary": "Aprenderás a distinguir tesis e hipótesis y a formular una tesis defendible que admita una postura contraria razonable.",
     "duration": "8 min",
     "sections": [
+      {
+        "heading": "La regla: la tesis se defiende, la hipótesis se comprueba",
+        "body": [
+          "Antes de escribir una línea, pregúntate qué papel cumple tu idea principal. Si es la afirmación que el texto entero va a sostener con argumentos, es la tesis: se defiende. Si es una suposición provisional que todavía no sabes si es cierta, es la hipótesis: se comprueba, y los datos pueden confirmarla (resultó cierta) o refutarla (resultó falsa).",
+          "¿Por qué importa la diferencia? Porque cambia lo que el lector espera. Ante una tesis espera razones; ante una hipótesis espera pruebas y admite que puedan salir en contra. Y una tesis solo merece ese nombre si alguien podría discutirla con argumentos: si nadie razonable la negaría, no hay nada que defender."
+        ],
+        "examples": [
+          {
+            "es": "Partimos de la hipótesis de que el ruido urbano reduce el rendimiento escolar.",
+            "en": "We start from the hypothesis that urban noise lowers school performance. (aún no se sabe: se comprobará)"
+          },
+          {
+            "es": "Este ensayo sostiene que las ciudades deberían limitar el tráfico nocturno.",
+            "en": "This essay argues that cities should restrict night-time traffic. (tesis: discutible, se defenderá)"
+          },
+          {
+            "es": "Las mediciones refutaron la hipótesis: el ruido no influía en las notas.",
+            "en": "The measurements refuted the hypothesis: noise did not affect grades. (refutar = demostrar que era falsa)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla: ¿cuál de estas frases puede funcionar como tesis de un ensayo?",
+            "options": [
+              "Los museos públicos deberían ser gratuitos los domingos.",
+              "El agua está formada por hidrógeno y oxígeno.",
+              "Madrid es la capital de España.",
+              "Hay siete días en una semana."
+            ],
+            "correctIndex": 0,
+            "explanation": "Solo la primera admite una postura contraria razonable (alguien podría defender que los museos necesitan esos ingresos), así que puede defenderse con argumentos. Las otras tres son hechos que nadie discute: no hay tesis que sostener."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Un estudio supone que leer en papel mejora la comprensión, pero los resultados muestran que no hay diferencia. ¿Qué ha pasado con la hipótesis?",
+            "options": [
+              "Ha sido refutada.",
+              "Ha sido confirmada.",
+              "Se ha convertido en la tesis.",
+              "Ha quedado demostrada."
+            ],
+            "correctIndex": 0,
+            "explanation": "Los resultados contradicen la suposición inicial, así que la refutan. Confirmarla o darla por demostrada sería lo contrario, y una hipótesis desmentida no pasa a ser la tesis."
+          }
+        ]
+      },
       {
         "heading": "La tesis y la hipótesis como columna vertebral del ensayo",
         "body": [
@@ -11216,6 +14460,70 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "El texto distingue con claridad ambos conceptos: la hipótesis es el punto de partida que se somete a prueba, mientras que la tesis es la afirmación central que el ensayo sostiene. Por eso no son lo mismo; normalmente la hipótesis precede a la tesis, no al revés, y precisamente puede refutarse."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase para presentarla como hipótesis, empezando por «Partimos de la hipótesis de que…».",
+        "source": "El teletrabajo aumenta la productividad.",
+        "answer": "Partimos de la hipótesis de que el teletrabajo aumenta la productividad.",
+        "altAnswers": [
+          "Se parte de la hipótesis de que el teletrabajo aumenta la productividad."
+        ],
+        "explanation": "Hipótesis de que + indicativo presenta la idea como suposición que se va a comprobar, no como algo ya demostrado."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con el verbo «refutar».",
+        "source": "Las encuestas demostraron que la suposición inicial era falsa.",
+        "answer": "Las encuestas refutaron la suposición inicial.",
+        "altAnswers": [
+          "Las encuestas han refutado la suposición inicial."
+        ],
+        "explanation": "Refutar = demostrar que algo es falso, así que sustituye a «demostrar que era falsa». Confirmar sería lo contrario."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con el verbo «confirmar».",
+        "source": "El experimento demostró que la predicción era cierta.",
+        "answer": "El experimento confirmó la predicción.",
+        "altAnswers": [
+          "El experimento ha confirmado la predicción."
+        ],
+        "explanation": "Confirmar = demostrar que una suposición era cierta. Refutar diría justo lo contrario."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el término.",
+        "source": "La hipótesis es la conclusión que el ensayo defiende al final.",
+        "answer": "La tesis es la conclusión que el ensayo defiende al final.",
+        "explanation": "Lo que el ensayo defiende es la tesis. La hipótesis es la suposición de partida que se comprueba, y puede acabar refutada."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el verbo.",
+        "source": "Las pruebas confirmaron la hipótesis, que resultó ser falsa.",
+        "answer": "Las pruebas refutaron la hipótesis, que resultó ser falsa.",
+        "altAnswers": [
+          "Las pruebas confirmaron la hipótesis, que resultó ser cierta."
+        ],
+        "explanation": "Si la suposición resultó falsa, las pruebas la refutaron. Confirmar significa que resultó cierta, así que contradice el final de la frase."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la idea.",
+        "source": "Una buena tesis debe ser tan evidente que nadie pueda discutirla.",
+        "answer": "Una buena tesis debe ser discutible, de modo que alguien pueda oponerse con argumentos.",
+        "altAnswers": [
+          "Una buena tesis debe admitir una postura contraria razonable.",
+          "Una buena tesis debe ser discutible."
+        ],
+        "explanation": "Una tesis que nadie puede discutir no necesita defensa, así que no sostiene ningún ensayo. Debe admitir una postura contraria razonable."
       }
     ]
   },
@@ -11227,6 +14535,53 @@ const C1_BASE_LESSONS: Lesson[] = [
     "summary": "Aprenderás a evitar la primera persona en el texto académico con construcciones impersonales, la pasiva refleja o el plural de modestia.",
     "duration": "7 min",
     "sections": [
+      {
+        "heading": "La regla: que hablen los datos, no el «yo»",
+        "body": [
+          "En un texto académico, el «yo opino» se cambia por una de tres salidas. 1) Una fórmula impersonal: cabe afirmar que, cabe señalar que. 2) El se impersonal o la pasiva refleja: se observa, se analizaron. 3) Un sujeto que no es el autor: los datos permiten sostener que, este estudio propone. También se admite el plural de modestia (examinamos, proponemos), pero no el singular (examino, creo).",
+          "¿Por qué? Porque así la afirmación se apoya en la evidencia y no en la persona que escribe: «creo que» invita al lector a contestar «pues yo no»; «los datos indican que» le invita a mirar los datos. Y una trampa de concordancia: en la pasiva refleja el verbo concuerda con lo que se observa (se observan dos tendencias), pero si se trata de personas con «a», el verbo queda en singular (se entrevistó a cuarenta docentes)."
+        ],
+        "examples": [
+          {
+            "es": "Cabe destacar que la muestra es pequeña.",
+            "en": "It should be noted that the sample is small. (en vez de «yo destaco»)"
+          },
+          {
+            "es": "Se analizaron tres periódicos de la época.",
+            "en": "Three newspapers from the period were analysed. (pasiva refleja: plural, concuerda con «periódicos»)"
+          },
+          {
+            "es": "Se consultó a varios expertos.",
+            "en": "Several experts were consulted. (personas con «a»: singular)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla: ¿qué versión es adecuada para un artículo académico?",
+            "options": [
+              "Las cifras sugieren que el programa ha tenido poco impacto.",
+              "Yo pienso que el programa ha tenido poco impacto.",
+              "Personalmente, me parece que el programa ha tenido poco impacto.",
+              "Estoy seguro de que el programa ha tenido poco impacto."
+            ],
+            "correctIndex": 0,
+            "explanation": "La primera atribuye la conclusión a la evidencia (las cifras sugieren). Las otras tres la apoyan en la opinión del autor (yo pienso, me parece, estoy seguro), que es justo lo que la convención evita."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase tiene la concordancia correcta?",
+            "options": [
+              "Se compararon dos grupos de pacientes.",
+              "Se comparó dos grupos de pacientes.",
+              "Se compararon a dos grupos de pacientes.",
+              "Se comparamos dos grupos de pacientes."
+            ],
+            "correctIndex": 0,
+            "explanation": "En la pasiva refleja el verbo concuerda con el sujeto plural (dos grupos): se compararon. El singular no concuerda, la «a» convertiría la frase en impersonal con verbo singular, y «se comparamos» mezcla dos personas."
+          }
+        ]
+      },
       {
         "heading": "La impersonalidad y la evitación de la primera persona",
         "body": [
@@ -11277,8 +14632,74 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración evitando la primera persona, según la convención académica.",
         "sentence": "En vez de decir 'pienso que la evidencia es suficiente', el registro académico prefiere decir: «___ que la evidencia es suficiente».",
         "answer": "Se observa",
-        "altAnswers": ["Cabe afirmar", "Se constata", "Cabe sostener", "Se considera", "Se estima", "Se entiende"],
+        "altAnswers": [
+          "Cabe afirmar",
+          "Se constata",
+          "Cabe sostener",
+          "Se considera",
+          "Se estima",
+          "Se entiende"
+        ],
         "explanation": "El registro académico evita la primera persona y prefiere formulaciones impersonales como se observa que o cabe afirmar que."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con «cabe + infinitivo» para evitar la primera persona.",
+        "source": "Creo que el estudio tiene limitaciones importantes.",
+        "answer": "Cabe señalar que el estudio tiene limitaciones importantes.",
+        "altAnswers": [
+          "Cabe afirmar que el estudio tiene limitaciones importantes.",
+          "Cabe destacar que el estudio tiene limitaciones importantes.",
+          "Cabe reconocer que el estudio tiene limitaciones importantes."
+        ],
+        "explanation": "Cabe + infinitivo (señalar, afirmar, destacar) presenta la idea sin atribuirla a nadie, así que desaparece el «creo»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase con la pasiva refleja, sin mencionar al autor.",
+        "source": "Yo revisé cuatro archivos municipales.",
+        "answer": "Se revisaron cuatro archivos municipales.",
+        "explanation": "La pasiva refleja borra al autor; el verbo concuerda con lo revisado (cuatro archivos): se revisaron, en plural."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la primera persona del singular por el plural de modestia.",
+        "source": "En este capítulo describo el diseño de la encuesta.",
+        "answer": "En este capítulo describimos el diseño de la encuesta.",
+        "explanation": "El plural de modestia (describimos) es aceptable en el registro académico; el singular (describo) pone al autor en primer plano."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la concordancia.",
+        "source": "Se observa dos tendencias opuestas en los resultados.",
+        "answer": "Se observan dos tendencias opuestas en los resultados.",
+        "explanation": "En la pasiva refleja el verbo concuerda con lo observado: dos tendencias, plural. «Se observa» solo valdría con un sujeto singular."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Se entrevistaron a cuarenta docentes de secundaria.",
+        "answer": "Se entrevistó a cuarenta docentes de secundaria.",
+        "altAnswers": [
+          "Se entrevistaron cuarenta docentes de secundaria."
+        ],
+        "explanation": "Con personas introducidas por «a», la construcción es impersonal y el verbo queda en singular: se entrevistó a. El plural solo es posible sin «a» (se entrevistaron cuarenta docentes), que con personas suena forzado."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el registro.",
+        "source": "Yo opino que cabe afirmar que la reforma ha fracasado.",
+        "answer": "Cabe afirmar que la reforma ha fracasado.",
+        "altAnswers": [
+          "Cabe señalar que la reforma ha fracasado."
+        ],
+        "explanation": "La fórmula impersonal sirve para sustituir la opinión personal, no para acompañarla: «yo opino que cabe afirmar» mezcla las dos y anula el efecto."
       }
     ]
   },
@@ -11290,6 +14711,53 @@ const C1_BASE_LESSONS: Lesson[] = [
     "summary": "Aprenderás a enlazar las ideas de un ensayo con conectores argumentativos (por consiguiente, sin embargo, asimismo) y a elegir cada uno según la relación lógica.",
     "duration": "8 min",
     "sections": [
+      {
+        "heading": "La regla: el conector lo decide la relación entre las dos ideas",
+        "body": [
+          "Para elegir conector no mires la primera frase ni la segunda por separado: pregúntate qué hace la segunda respecto a la primera. Si se deriva de ella, es una consecuencia: por consiguiente, en consecuencia. Si va en contra de lo que cabría esperar, es una objeción o un matiz: sin embargo, no obstante. Si suma otra razón en la misma dirección, es una adición: asimismo, por otra parte.",
+          "¿Por qué tanto cuidado? Porque el conector equivocado no produce una frase agramatical, sino un razonamiento falso: «la muestra es pequeña; por consiguiente, los resultados son fiables» dice que la fiabilidad se debe al tamaño reducido. El lector cree al conector antes que al contenido. Una prueba rápida: si puedes decir «por eso», es consecuencia; si puedes decir «pero», es objeción; si puedes decir «y además», es adición."
+        ],
+        "examples": [
+          {
+            "es": "El tratamiento es eficaz; no obstante, tiene efectos secundarios.",
+            "en": "The treatment is effective; nevertheless, it has side effects. (objeción: «pero»)"
+          },
+          {
+            "es": "El tratamiento es barato; asimismo, se tolera bien.",
+            "en": "The treatment is cheap; it is also well tolerated. (adición: «y además»)"
+          },
+          {
+            "es": "El tratamiento redujo las recaídas; en consecuencia, se recomienda su uso.",
+            "en": "The treatment reduced relapses; consequently, its use is recommended. (consecuencia: «por eso»)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla: «La biblioteca amplió su horario. ___, el número de usuarios se duplicó.» (El aumento se debe a la ampliación.)",
+            "options": [
+              "En consecuencia",
+              "No obstante",
+              "Asimismo",
+              "Sin embargo"
+            ],
+            "correctIndex": 0,
+            "explanation": "La segunda idea se deriva de la primera (se puede decir «por eso»): en consecuencia. No obstante y sin embargo anunciarían algo inesperado, y asimismo solo sumaría un dato sin relación causal."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«El informe es riguroso. ___, está redactado con gran claridad.» ¿Qué conector expresa la relación?",
+            "options": [
+              "Asimismo",
+              "Por consiguiente",
+              "No obstante",
+              "En consecuencia"
+            ],
+            "correctIndex": 0,
+            "explanation": "La segunda frase suma otra virtud en la misma dirección («y además»): asimismo. La claridad no es consecuencia del rigor (por consiguiente, en consecuencia) ni lo contradice (no obstante)."
+          }
+        ]
+      },
       {
         "heading": "Conectores argumentativos y el andamiaje lógico del ensayo",
         "body": [
@@ -11368,6 +14836,76 @@ const C1_BASE_LESSONS: Lesson[] = [
           2
         ],
         "explanation": "Asimismo y por otra parte añaden un argumento adicional; sin embargo introduce una objeción y por consiguiente marca una conclusión."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe las dos frases como una sola con «no obstante».",
+        "source": "El método es fiable. Requiere mucho tiempo.",
+        "answer": "El método es fiable; no obstante, requiere mucho tiempo.",
+        "altAnswers": [
+          "El método es fiable. No obstante, requiere mucho tiempo.",
+          "El método es fiable, no obstante, requiere mucho tiempo.",
+          "El método es fiable; sin embargo, requiere mucho tiempo."
+        ],
+        "explanation": "La segunda idea es una objeción a la primera («pero»), así que el conector es no obstante, entre punto y coma y coma."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Sustituye «por eso» por un conector académico de consecuencia.",
+        "source": "Los participantes eran todos voluntarios; por eso, la muestra puede estar sesgada.",
+        "answer": "Los participantes eran todos voluntarios; por consiguiente, la muestra puede estar sesgada.",
+        "altAnswers": [
+          "Los participantes eran todos voluntarios; en consecuencia, la muestra puede estar sesgada.",
+          "Los participantes eran todos voluntarios; por tanto, la muestra puede estar sesgada."
+        ],
+        "explanation": "Por consiguiente (o en consecuencia) es el equivalente académico de por eso: la segunda idea se deriva de la primera."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «además» por un conector académico de adición.",
+        "source": "Además, el informe omite los costes de mantenimiento.",
+        "answer": "Asimismo, el informe omite los costes de mantenimiento.",
+        "altAnswers": [
+          "Por otra parte, el informe omite los costes de mantenimiento."
+        ],
+        "explanation": "Asimismo suma un argumento en la misma dirección, igual que además, pero en registro académico."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la lógica.",
+        "source": "La encuesta tuvo muy pocas respuestas; por consiguiente, sus resultados son muy fiables.",
+        "answer": "La encuesta tuvo muy pocas respuestas; por consiguiente, sus resultados son poco fiables.",
+        "altAnswers": [
+          "La encuesta tuvo muy pocas respuestas; sin embargo, sus resultados son muy fiables.",
+          "La encuesta tuvo muy pocas respuestas; no obstante, sus resultados son muy fiables."
+        ],
+        "explanation": "Por consiguiente presenta la segunda idea como consecuencia de la primera, y de pocas respuestas no se sigue mucha fiabilidad. O se cambia la conclusión (poco fiables) o se cambia el conector por uno de objeción (sin embargo)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el conector.",
+        "source": "El proyecto es innovador; asimismo, su presupuesto es claramente insuficiente.",
+        "answer": "El proyecto es innovador; no obstante, su presupuesto es claramente insuficiente.",
+        "altAnswers": [
+          "El proyecto es innovador; sin embargo, su presupuesto es claramente insuficiente."
+        ],
+        "explanation": "Un presupuesto insuficiente va en contra del elogio anterior: es una objeción («pero»), no una adición. Asimismo solo suma ideas que van en la misma dirección."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el conector.",
+        "source": "La inversión se duplicó; no obstante, los beneficios crecieron en la misma proporción.",
+        "answer": "La inversión se duplicó; en consecuencia, los beneficios crecieron en la misma proporción.",
+        "altAnswers": [
+          "La inversión se duplicó; por consiguiente, los beneficios crecieron en la misma proporción."
+        ],
+        "explanation": "Que los beneficios crezcan con la inversión es lo esperable, no una sorpresa: la relación es de consecuencia («por eso»). No obstante anunciaría un resultado contrario a lo previsto."
       }
     ]
   },
@@ -11397,7 +14935,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Reescribe la idea evitando la primera persona, según la convención académica estudiada.",
         "sentence": "En vez de decir 'pienso que el modelo económico ha fracasado', el registro académico prefiere decir que el modelo económico ___ haber fracasado.",
         "answer": "parece",
-        "altAnswers": ["parecería", "podría"],
+        "altAnswers": [
+          "parecería",
+          "podría"
+        ],
         "hint": "Piensa en un verbo que atenúe la certeza de la afirmación sin recurrir a la primera persona.",
         "explanation": "«Parece haber fracasado» desplaza el énfasis desde el autor individual hacia el razonamiento mismo, y añade además un matiz de atenuación propio del discurso académico maduro."
       },
@@ -11418,7 +14959,11 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con el conector que introduzca una objeción frente a lo afirmado anteriormente.",
         "sentence": "El primer estudio no halló resultados significativos; ___, un análisis posterior con una muestra mayor sí confirmó la hipótesis inicial.",
         "answer": "sin embargo",
-        "altAnswers": ["no obstante", "ahora bien", "con todo"],
+        "altAnswers": [
+          "no obstante",
+          "ahora bien",
+          "con todo"
+        ],
         "hint": "Se necesita un conector que introduzca un matiz u objeción, no una conclusión.",
         "explanation": "«Sin embargo» introduce aquí una objeción o un matiz frente a la afirmación anterior, señalando que un estudio posterior contradijo el resultado del primero."
       },
@@ -11427,7 +14972,13 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con el conector que introduzca una conclusión derivada de lo anterior.",
         "sentence": "El estudio empleó una muestra representativa y un diseño metodológico riguroso; ___, sus conclusiones merecen una consideración seria.",
         "answer": "por consiguiente",
-        "altAnswers": ["en consecuencia", "por tanto", "por lo tanto", "por ende", "así pues"],
+        "altAnswers": [
+          "en consecuencia",
+          "por tanto",
+          "por lo tanto",
+          "por ende",
+          "así pues"
+        ],
         "hint": "Se necesita un conector que señale una conclusión que se desprende de lo anterior.",
         "explanation": "«Por consiguiente» señala precisamente una conclusión que se desprende lógicamente del razonamiento anterior, a diferencia de conectores como «sin embargo», que introducirían una objeción."
       },
@@ -11591,6 +15142,57 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "La preferencia por construcciones impersonales o por la primera persona del plural busca diluir la presencia explícita del autor individual, presentando el argumento como sostenido por el razonamiento y la evidencia, sin que ello suponga renunciar a la responsabilidad intelectual sobre lo afirmado. La primera persona no es incorrecta en lo formal, el español académico sí la tiene y no está reservada a la poesía: es una preferencia de estilo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe la frase sin la primera persona, con la pasiva refleja.",
+        "source": "Yo seleccioné doce escuelas rurales para el estudio.",
+        "answer": "Se seleccionaron doce escuelas rurales para el estudio.",
+        "explanation": "La pasiva refleja elimina al autor; el verbo concuerda con lo seleccionado (doce escuelas): se seleccionaron."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe las dos frases como una sola con el conector de consecuencia «en consecuencia».",
+        "source": "Las tres réplicas dieron el mismo resultado. El efecto puede considerarse estable.",
+        "answer": "Las tres réplicas dieron el mismo resultado; en consecuencia, el efecto puede considerarse estable.",
+        "altAnswers": [
+          "Las tres réplicas dieron el mismo resultado. En consecuencia, el efecto puede considerarse estable.",
+          "Las tres réplicas dieron el mismo resultado; por consiguiente, el efecto puede considerarse estable."
+        ],
+        "explanation": "La estabilidad se deriva de la coincidencia de las réplicas: es una consecuencia, y en consecuencia va entre punto y coma (o punto) y coma."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el verbo.",
+        "source": "Suponíamos que el horario influía en el rendimiento, pero los datos confirmaron esa hipótesis: no influía.",
+        "answer": "Suponíamos que el horario influía en el rendimiento, pero los datos refutaron esa hipótesis: no influía.",
+        "explanation": "Si se había supuesto que el horario influía y resulta que no, los datos refutan la hipótesis. Confirmar significaría que la suposición resultó cierta."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la concordancia.",
+        "source": "Se consultaron a quince especialistas en derecho laboral.",
+        "answer": "Se consultó a quince especialistas en derecho laboral.",
+        "altAnswers": [
+          "Se consultaron quince especialistas en derecho laboral."
+        ],
+        "explanation": "Con personas introducidas por «a», el se es impersonal y el verbo va en singular: se consultó a. El plural solo concuerda en la pasiva refleja sin «a»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige el conector.",
+        "source": "La muestra era muy reducida; asimismo, las conclusiones deben tomarse con cautela.",
+        "answer": "La muestra era muy reducida; por consiguiente, las conclusiones deben tomarse con cautela.",
+        "altAnswers": [
+          "La muestra era muy reducida; en consecuencia, las conclusiones deben tomarse con cautela.",
+          "La muestra era muy reducida; por tanto, las conclusiones deben tomarse con cautela."
+        ],
+        "explanation": "La cautela se deriva del tamaño de la muestra: es una consecuencia (por consiguiente, en consecuencia). Asimismo solo añadiría otra idea sin relación causal."
       }
     ]
   },
@@ -11606,7 +15208,8 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "La atenuación y la reserva epistémica en el discurso académico",
         "body": [
           "El lenguaje académico maduro rara vez afirma sus conclusiones de manera absoluta; en su lugar, recurre a expresiones de atenuación que reconocen los límites del conocimiento disponible: los datos sugieren, parecería razonable pensar que o todo indica que comunican una conclusión sostenida por la evidencia sin presentarla como una verdad incuestionable. Esta reserva epistémica no es una muestra de debilidad argumentativa, sino de honestidad intelectual frente a la complejidad del objeto de estudio.",
-          "Un ensayo que abusa de afirmaciones categóricas —siempre, nunca, es evidente que— sin matizarlas suele generar desconfianza en un lector experimentado, porque ignora la posibilidad legítima de excepciones o de interpretaciones alternativas. Encontrar el punto medio entre la atenuación excesiva, que diluye cualquier postura clara, y la afirmación categórica, que cierra el debate de forma artificial, constituye una de las destrezas más difíciles de dominar en la escritura argumentativa."
+          "Un ensayo que abusa de afirmaciones categóricas —siempre, nunca, es evidente que— sin matizarlas suele generar desconfianza en un lector experimentado, porque ignora la posibilidad legítima de excepciones o de interpretaciones alternativas. Encontrar el punto medio entre la atenuación excesiva, que diluye cualquier postura clara, y la afirmación categórica, que cierra el debate de forma artificial, constituye una de las destrezas más difíciles de dominar en la escritura argumentativa.",
+          "Regla práctica: la atenuación ajusta la fuerza de la afirmación a la fuerza de la evidencia. Tres recursos: cambiar el verbo (demuestra → sugiere, apunta a), pasar al condicional (es → podría ser, parecería) o añadir un marco (todo indica que…, en cierta medida). Tras estos marcos va indicativo, porque se informa de lo que muestran los datos: «todo indica que la tendencia continuará»."
         ],
         "examples": [
           {
@@ -11640,9 +15243,26 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con una expresión de atenuación adecuada al registro académico.",
             "sentence": "Los resultados obtenidos ___ que la hipótesis inicial era, al menos parcialmente, acertada.",
             "answer": "sugieren",
-            "altAnswers": ["parecen indicar", "parecen sugerir", "apuntan a", "indican"],
+            "altAnswers": [
+              "parecen indicar",
+              "parecen sugerir",
+              "apuntan a",
+              "indican"
+            ],
             "explanation": "La expresión los resultados sugieren atenúa la afirmación y refleja la reserva epistémica propia del discurso académico maduro.",
             "hint": "Piensa en un verbo que comunique una conclusión probable sin presentarla como certeza absoluta."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué versión ajusta mejor la afirmación a una evidencia limitada (un solo estudio, cien participantes)?",
+            "options": [
+              "Un estudio con cien participantes sugiere que el ejercicio podría mejorar la memoria.",
+              "Está demostrado que el ejercicio mejora la memoria.",
+              "El ejercicio siempre mejora la memoria.",
+              "Es evidente que el ejercicio mejora la memoria de todo el mundo."
+            ],
+            "correctIndex": 0,
+            "explanation": "Con un solo estudio pequeño, lo honesto es atenuar: «sugiere» + «podría». «Está demostrado», «siempre» y «es evidente» presentan como cerrada una cuestión que un estudio de cien personas no puede zanjar."
           }
         ]
       }
@@ -11676,6 +15296,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "En la práctica",
         "body": [
+          "La regla: cada párrafo de un ensayo cumple una función y la anuncia con un marcador. «En primer lugar» ordena, «ahora bien» limita lo que se acaba de afirmar, «por otra parte» abre otra perspectiva, «no obstante» contrapone, «en consecuencia» extrae una conclusión y «a modo de cierre» termina. El marcador le dice al lector cómo se relaciona la frase con la anterior: si eliges uno equivocado, la lógica se rompe aunque la gramática sea correcta. Fíjate en este modelo:",
           "Introducción: el presente ensayo sostiene que la expansión del comercio digital ha modificado sustancialmente los hábitos de consumo en la región durante la última década.",
           "En primer lugar, cabe señalar que los datos disponibles sugieren un crecimiento sostenido de las transacciones realizadas por medios electrónicos.",
           "Ahora bien, se observa que este fenómeno no ha afectado por igual a todos los sectores de la población, lo cual introduce una limitación importante al alcance de esta conclusión.",
@@ -11683,6 +15304,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           "No obstante, la evidencia recopilada permite sostener que ambos factores actúan de manera complementaria, más que excluyente.",
           "En consecuencia, resulta razonable afirmar que cualquier análisis futuro debería considerar la interacción entre ambas variables, y no privilegiar una sobre la otra.",
           "A modo de cierre, este ensayo no pretende agotar la discusión, sino ofrecer un marco inicial que futuras investigaciones puedan matizar o ampliar."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Las ventas en línea crecieron un 30 %. ___, el comercio de barrio perdió clientes.» ¿Qué marcador encaja si la segunda frase es un efecto de la primera?",
+            "options": [
+              "En consecuencia",
+              "Ahora bien",
+              "A modo de cierre",
+              "En primer lugar"
+            ],
+            "correctIndex": 0,
+            "explanation": "La pérdida de clientes se presenta como efecto del crecimiento en línea: hace falta un conector de consecuencia. «Ahora bien» introduciría una limitación, «a modo de cierre» solo sirve para terminar el ensayo y «en primer lugar» abre una enumeración."
+          }
         ]
       }
     ],
@@ -11723,7 +15358,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: el lenguaje académico",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con el lenguaje académico; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras relacionadas con el lenguaje académico; las 17 restantes llegan en la lección siguiente.",
+          "El patrón: casi todo este vocabulario son cultismos con un equivalente transparente en inglés, y sus terminaciones te dicen el género. Los sustantivos en -dad/-idad (la objetividad, la impersonalidad) y en -ción (la modalización) son femeninos; los de origen griego en -sis también (la tesis, la hipótesis, la síntesis), con algunas excepciones masculinas (el análisis, el énfasis). Y casi todos forman familia: objetivo → la objetividad, atenuar → la atenuación, deducir → la deducción."
         ],
         "examples": [
           {
@@ -11798,6 +15434,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "la modalización",
             "en": "el conjunto de recursos lingüísticos que expresan la actitud del hablante ante lo que dice"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el patrón a una palabra que no está en la lista: ¿cuál es el sustantivo abstracto de «fiable»?",
+            "options": [
+              "la fiabilidad",
+              "el fiable",
+              "la fianza",
+              "el fiador"
+            ],
+            "correctIndex": 0,
+            "explanation": "El adjetivo en -ble forma el abstracto en -bilidad, femenino: fiable → la fiabilidad (como «reliability»), igual que objetivo → la objetividad. «La fianza» y «el fiador» existen, pero pertenecen a otro sentido de la familia (garantizar un pago) y no nombran la cualidad de ser fiable."
+          }
         ]
       }
     ],
@@ -11827,7 +15477,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos del ensayo académico",
         "body": [
-          "Segunda tanda: recursos de la impersonalidad académica (el verbo atenuador, la voz pasiva refleja, el se impersonal, el plural de modestia), partes del ensayo (el párrafo introductorio, el párrafo de cierre) y conceptos de la argumentación (la contraargumentación, el razonamiento deductivo, la falacia)."
+          "Segunda tanda: recursos de la impersonalidad académica (el verbo atenuador, la voz pasiva refleja, el se impersonal, el plural de modestia), partes del ensayo (el párrafo introductorio, el párrafo de cierre) y conceptos de la argumentación (la contraargumentación, el razonamiento deductivo, la falacia).",
+          "El patrón: estos términos forman familias. Un verbo (exponer, parafrasear, plagiar, deducir, desestimar) da un sustantivo (la exposición, la paráfrasis, el plagio, la deducción, la desestimación) y a menudo un adjetivo (expositivo, deductivo). Si conoces una pieza, puedes derivar las demás: -ar → -ación (desestimar → la desestimación), -ducir → -ducción (deducir → la deducción). Los sustantivos en -ción y casi todos los de -sis son femeninos."
         ],
         "examples": [
           {
@@ -11897,6 +15548,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "exhaustivo",
             "en": "que trata algo por completo, sin dejar nada fuera"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el patrón: ¿qué sustantivo corresponde a «reformular»?",
+            "options": [
+              "la reformulación",
+              "el reformulo",
+              "la reformulancia",
+              "el reformulamiento"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los verbos en -ar forman el sustantivo de acción en -ación: reformular → la reformulación (como desestimar → la desestimación). Las otras formas no existen en el uso académico."
           }
         ]
       }
@@ -11976,6 +15641,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Quizás, tal vez y posiblemente: subjuntivo opcional",
         "body": [
+          "Recuerda la regla: el subjuntivo marca lo que no se afirma. Con quizás o tal vez, el modo mide tu certeza (subjuntivo = más duda, indicativo = casi seguro). En «por muy + adjetivo + que» y «por mucho/más que + verbo» la concesión se presenta como irrelevante para el resultado, y por eso lo normal es el subjuntivo aunque el hecho sea cierto; la oración principal sigue en indicativo.",
           "Con estos adverbios de duda, el subjuntivo es más frecuente pero el indicativo también es correcto si el hablante siente más certeza."
         ],
         "examples": [
@@ -12136,6 +15802,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Subjuntivo en exclamaciones independientes",
         "body": [
+          "Recuerda la regla: en estas tres estructuras el subjuntivo indica que el contenido no se afirma como información nueva. En «¡Que…!» se desea (el verbo «espero» o «deseo» queda implícito); en «el hecho de que» se valora un hecho que ya se conoce; y en «no porque…» se niega una razón. La razón verdadera, tras «sino porque», se afirma y vuelve al indicativo.",
           "En estas expresiones el subjuntivo aparece solo, sin verbo principal, para expresar deseos, mandatos o buenos augurios."
         ],
         "examples": [
@@ -12308,6 +15975,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Expresiones fijas con subjuntivo residual",
         "body": [
+          "Recuerda la regla: las fórmulas reduplicativas (pase lo que pase, digan lo que digan, sea como sea) repiten el mismo verbo en subjuntivo y significan «no importa qué / cómo»; en un relato en pasado los dos verbos pasan al imperfecto de subjuntivo (pasara lo que pasara). Las formas en -quiera (quienquiera, dondequiera, comoquiera) se refieren a alguien o algo sin identificar, de ahí el subjuntivo.",
           "Estas fórmulas concesivas conservan siempre el subjuntivo; en contextos pasados pasan al imperfecto de subjuntivo («fuera como fuera», «pasara lo que pasara»)."
         ],
         "examples": [
@@ -12463,6 +16131,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lo + adjetivo",
         "body": [
+          "Recuerda la regla: «lo» + adjetivo en masculino singular convierte una cualidad en un concepto (lo bueno, lo difícil de…). Es neutro, así que nunca concuerda con nada, aunque hable de cosas femeninas o plurales: «lo bueno de las vacaciones». El artículo «el» + infinitivo nombra la acción misma (el madrugar) y, como es un sustantivo singular, el verbo va en singular.",
           "Recuerda que 'lo' seguido de un adjetivo en masculino singular convierte una cualidad en un concepto abstracto."
         ],
         "examples": [
@@ -12640,6 +16309,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Sufijo -dad / -tad",
         "body": [
+          "Recuerda la regla: el sufijo te dice de dónde sale el sustantivo y qué género tiene. -dad/-tad sale de adjetivos y nombra una cualidad (honesto → la honestidad); -ción/-sión sale de verbos y nombra la acción o su resultado (organizar → la organización); -miento también sale de verbos (crecer → el crecimiento). Los dos primeros son femeninos y -miento es masculino: artículo y adjetivos deben concordar.",
           "El sufijo -dad (o -tad) transforma muchos adjetivos en sustantivos abstractos de cualidad."
         ],
         "examples": [
@@ -12853,6 +16523,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Sufijo -eza / -ura",
         "body": [
+          "Recuerda la regla: -eza y -ura forman sustantivos femeninos de cualidad a partir de adjetivos (firme → la firmeza, dulce → la dulzura), y cada adjetivo tiene el suyo: no se dice «tristura» ni «dulceza». En la escritura formal, la nominalización comprime una oración entera: el verbo pasa a sustantivo, el adverbio a adjetivo y el sujeto a complemento con «de» (el gobierno decidió rápido → la rápida decisión del gobierno). El verbo de la frase concuerda con ese núcleo nominal.",
           "Los sufijos -eza y -ura también forman sustantivos abstractos a partir de adjetivos: bello → belleza, dulce → dulzura."
         ],
         "examples": [
@@ -12990,6 +16661,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Gerundio para acciones simultáneas",
         "body": [
+          "Recuerda la regla: el gerundio expresa una acción simultánea a la del verbo principal o la manera de hacerla (salió corriendo). Por eso no sirve para una acción posterior: si la segunda acción sigue a la primera («y después…», «dos años más tarde»), se usa «y» + verbo conjugado. Pregunta clave: ¿ocurren a la vez?",
           "El gerundio expresa una acción que ocurre al mismo tiempo que la acción principal."
         ],
         "examples": [
@@ -13119,6 +16791,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Infinitivo después de preposición",
         "body": [
+          "Recuerda la regla: donde el inglés usa la forma en -ing como sustantivo, el español usa el infinitivo: tras una preposición (antes de salir, sin pagar, al llegar) y como sujeto (Fumar es malo). El gerundio no puede funcionar como sustantivo; se reserva para la acción en curso, como en «seguir/continuar + gerundio» (sigue lloviendo).",
           "En español, después de una preposición siempre se usa el infinitivo, nunca el gerundio."
         ],
         "examples": [
@@ -13298,6 +16971,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Empezar a / dejar de + infinitivo",
         "body": [
+          "Recuerda la regla: las perífrasis que marcan el inicio o el final de una acción (empezar a, dejar de, terminar de, acabar de) van con infinitivo, porque señalan un punto; las que presentan la acción en desarrollo o su duración (ir, venir, llevar, seguir) van con gerundio, porque la acción está en curso. «Llevar + tiempo + gerundio» equivale al inglés «have been -ing».",
           "Los verbos 'empezar a', 'dejar de', 'terminar de' y 'acabar de' se combinan con el infinitivo, no con el gerundio."
         ],
         "examples": [
@@ -13449,7 +17123,9 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con el infinitivo que funciona como sujeto.",
         "sentence": "___ (Hacer) ejercicio regularmente ayuda a mantener la salud mental.",
         "answer": "Hacer",
-        "altAnswers": ["Practicar"],
+        "altAnswers": [
+          "Practicar"
+        ],
         "hint": "El infinitivo puede funcionar como sujeto de la oración.",
         "explanation": "Cuando la acción es el sujeto de la oración, el español usa el infinitivo, no el gerundio ('-ing')."
       }
@@ -13466,6 +17142,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Repaso: la voz pasiva con ser + participio",
         "body": [
+          "Recuerda la regla: las tres construcciones ocultan o relegan al agente. En la pasiva con «ser», el participio concuerda con el sujeto paciente y el agente puede aparecer con «por». En la pasiva refleja, el verbo concuerda con el sujeto paciente (se venden libros) y no se menciona el agente. En el «se» impersonal no hay sujeto, así que el verbo va siempre en singular (se vive bien).",
           "Recuerda que el participio concuerda en género y número con el sujeto paciente, y que el agente, si aparece, se introduce con 'por'."
         ],
         "examples": [
@@ -13634,6 +17311,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La clave: pasiva refleja vs. se impersonal",
         "body": [
+          "Recuerda la regla: la clave es la concordancia. Si el sustantivo es sujeto paciente (una cosa, o personas sin «a»), el verbo concuerda con él: se venden casas, se buscan camareros. Si no hay sujeto (se vive bien) o la persona lleva «a» (se contrató a tres médicos), la construcción es impersonal y el verbo queda en singular. Por qué: con «a», el sustantivo es complemento directo, no sujeto, y el verbo no tiene con quién concordar.",
           "Si hay un sustantivo que funciona como sujeto paciente y puede recibir la acción, el verbo concuerda con él (pasiva refleja); si no existe tal sujeto, el verbo queda siempre en singular (impersonal)."
         ],
         "examples": [
@@ -13809,6 +17487,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ser + participio vs. pasiva refleja: elección de registro",
         "body": [
+          "Recuerda la regla: elige según el registro y el foco. La pasiva con «ser» es formal y permite nombrar al agente (fue aprobada por el Congreso); la pasiva refleja es la opción natural en la lengua diaria, en carteles y en anuncios, y no admite agente (se aprobó la ley). Para distinguir la pasiva refleja del «se» impersonal, mira la concordancia.",
           "La pasiva con ser suele usarse en registros formales o cuando se destaca el agente, mientras que la pasiva refleja es más común en el habla cotidiana y en anuncios."
         ],
         "examples": [
@@ -13971,6 +17650,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Reconocer los tres estilos",
         "body": [
+          "Recuerda la regla: el estilo indirecto libre cuenta los pensamientos del personaje dentro de la narración en tercera persona. Del estilo indirecto toma el cambio de tiempos (futuro → condicional, presente → imperfecto, perfecto o indefinido → pluscuamperfecto) y de persona (yo → él/ella, mi → su); del directo conserva la sintaxis viva: preguntas, exclamaciones, «mañana», «ahora». Por eso no lleva «dijo que» ni comillas.",
           "Recuerda que el estilo indirecto libre toma del estilo indirecto el cambio de tiempos y de persona, prescinde de las comillas y de verbos como \"dijo que\", y conserva del estilo directo la expresividad del personaje (preguntas, exclamaciones)."
         ],
         "examples": [
@@ -14135,6 +17815,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Sin verbos introductorios ni comillas",
         "body": [
+          "Recuerda la regla: en el estilo indirecto libre desaparecen el verbo introductor (pensó que, se preguntó si) y las comillas, pero se mantiene la forma de lo que piensa el personaje: si es una pregunta, conserva los signos de interrogación y no lleva «si». Lo que sí cambia, como en el indirecto, es el tiempo (¿Vendrá? → ¿Vendría?) y la persona (¿Me llamará? → ¿Lo llamaría?).",
           "La marca más visible del estilo indirecto libre es precisamente la ausencia de \"dijo que\", \"pensó que\" o signos de puntuación de diálogo."
         ],
         "examples": [
@@ -14301,6 +17982,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Exclamaciones y matices emocionales",
         "body": [
+          "Recuerda la regla: el estilo indirecto libre conserva la emoción del personaje (exclamaciones, «¡basta!», «¡qué injusto!») porque no la filtra con un verbo introductor, pero adapta tiempos y personas a la narración: «¡Estoy harta!» → «¡Estaba harta!». Para transformar una cita directa: quita el verbo de lengua o pensamiento, retrocede el tiempo y cambia la persona.",
           "El estilo indirecto libre también conserva exclamaciones y expresiones coloquiales del personaje, transmitiendo su emoción directamente al lector."
         ],
         "examples": [
@@ -14481,6 +18163,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ser + participio (acción) frente a estar + participio (estado resultante)",
         "body": [
+          "Recuerda la regla: «ser» + participio cuenta la acción (alguien la realizó: fue cerrada por el encargado); «estar» + participio describe el estado que queda después (está cerrada). Truco: si encaja «por + agente» o una hora puntual, es «ser»; si encaja «desde…» o «todavía», es «estar». «Estar siendo» + participio presenta la acción pasiva mientras ocurre.",
           "Con 'ser' el participio narra la acción pasiva en sí misma; con 'estar' describe el estado que queda después de esa acción."
         ],
         "examples": [
@@ -14611,7 +18294,9 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con la forma correcta.",
         "sentence": "La cena para dos personas ___ sesenta euros, con el servicio incluido.",
         "answer": "es",
-        "altAnswers": ["son"],
+        "altAnswers": [
+          "son"
+        ],
         "hint": "Se trata de un precio total y cerrado, no por unidad.",
         "explanation": "Se usa 'ser' porque se indica un precio fijo y total, no un valor variable por unidad como en 'estar a'."
       }
@@ -14628,6 +18313,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ser y estar con precios: el coste fijo frente al precio variable",
         "body": [
+          "Recuerda la regla: «ser» presenta algo como propiedad estable o total; «estar», como situación del momento. Con precios, «ser» para un coste fijo o total (la entrada es veinte euros) y «estar a» para un precio de mercado que cambia (las fresas están a tres euros el kilo). Con adjetivos de aspecto o carácter, «ser» dice cómo es alguien y «estar», la impresión que da hoy (está guapísima).",
           "'Ser' expresa un precio fijo o total, mientras que 'estar a' señala un precio variable de mercado, normalmente por unidad."
         ],
         "examples": [
@@ -14646,7 +18332,9 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con la forma correcta.",
             "sentence": "El alquiler ___ setecientos euros al mes, sin contar los gastos de comunidad.",
             "answer": "es",
-            "altAnswers": ["son"],
+            "altAnswers": [
+              "son"
+            ],
             "hint": "Se trata de un precio fijo y estable.",
             "explanation": "Se usa 'ser' porque el alquiler es una cifra fija acordada, no un precio que fluctúa día a día."
           },
@@ -14810,6 +18498,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ser y estar con la ubicación de eventos frente a objetos",
         "body": [
+          "Recuerda la regla: para situar un evento (algo que ocurre: una boda, una reunión, un partido) se usa «ser», porque equivale a «tener lugar»; para situar un objeto, un lugar o una persona se usa «estar». Por eso pueden convivir en la misma frase: «La fiesta es en la azotea, que está en el último piso». «Estar siendo» + adjetivo describe un comportamiento pasajero (está siendo muy amable estos días).",
           "Para localizar un evento se usa 'ser', pero para localizar un objeto, un lugar o una persona ya identificados se usa 'estar' (para presentar algo no identificado, 'hay')."
         ],
         "examples": [
@@ -15000,7 +18689,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos con A",
         "body": [
-          "Estos verbos exigen la preposición A delante de un infinitivo o un sustantivo."
+          "Recuerda la regla: muchos verbos españoles llevan una preposición fija que no se puede omitir ni cambiar, aunque el inglés use otra o ninguna. Esa preposición suele conservar su sentido de base, y eso ayuda a recordarla.",
+          "A marca dirección o tendencia hacia algo: por eso la llevan los verbos que apuntan a una acción o un fin, como negarse a, atreverse a, acostumbrarse a, dedicarse a o aprender a. ✗ «Me niego mentir» → ✓ «Me niego a mentir»."
         ],
         "examples": [
           {
@@ -15038,7 +18728,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos con DE",
         "body": [
-          "Estos verbos siempre llevan DE, aunque en inglés no aparezca ninguna preposición equivalente."
+          "DE conserva su valor de origen o de tema: aquello de lo que algo depende, de lo que uno se acuerda, se queja o se entera (depender de, acordarse de, quejarse de, enterarse de, tratarse de). En inglés suele no haber preposición («remember his name») o haber otra («depend on»), y por eso aquí está el error más frecuente: ✗ «depende en ti» → ✓ «depende de ti»."
         ],
         "examples": [
           {
@@ -15085,7 +18775,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos con EN",
         "body": [
-          "EN introduce el elemento central o el punto de atención de estos verbos."
+          "EN señala el interior, el contenido o el punto donde se fija algo: en qué consiste una cosa, en qué te fijas, en qué insistes o te empeñas (consistir en, fijarse en, insistir en, empeñarse en). El calco más típico es ✗ «consiste de», por el inglés «consists of»."
         ],
         "examples": [
           {
@@ -15230,7 +18920,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos con CON",
         "body": [
-          "CON expresa compañía, apoyo o el objeto con el que uno se encuentra o sueña."
+          "Recuerda la regla: CON conserva su idea de compañía o de encuentro. Contar con es tener a alguien o algo de tu lado; soñar con es llevar una imagen contigo (un deseo o un sueño nocturno); dar con es toparse por fin con lo que se buscaba. El inglés dice «count on», «dream of», «find», así que no se puede traducir la preposición palabra por palabra.",
+          "Con los pronombres de primera y segunda persona se usan las formas especiales conmigo y contigo: ✗ «cuenta con mí» → ✓ «cuenta conmigo»."
         ],
         "examples": [
           {
@@ -15274,7 +18965,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Contraste: pensar EN vs. pensar DE",
         "body": [
-          "Pensar EN significa tener algo en la mente; pensar DE pide una opinión concreta."
+          "Pensar EN significa tener algo o a alguien en la mente (lo que piensas está «dentro» de tu pensamiento) o considerar hacer algo («pienso en mudarme»). Pensar DE pide una opinión: «¿Qué piensas de…?» equivale a «¿Qué opinas de…?». Por eso «¿Qué piensas en la película?» no tiene sentido como pregunta de opinión."
         ],
         "examples": [
           {
@@ -15337,10 +19028,10 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con la preposición correcta.",
-        "sentence": "Todavía no me acostumbro ___ el clima de esta ciudad.",
-        "answer": "a",
-        "hint": "acostumbrarse + preposición",
-        "explanation": "'Acostumbrarse' se construye con A: 'acostumbrarse a algo'."
+        "sentence": "Todavía no me acostumbro ___ clima de esta ciudad.",
+        "answer": "al",
+        "hint": "acostumbrarse + preposición + artículo",
+        "explanation": "'Acostumbrarse' se construye con A: 'acostumbrarse a algo'. Delante del artículo «el», la preposición se contrae: a + el = al («me acostumbro al clima»)."
       },
       {
         "type": "multiple-choice",
@@ -15381,7 +19072,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Contraste: dar CON vs. dar A",
         "body": [
-          "Dar CON significa encontrar algo tras buscarlo; dar A significa tener vista u orientación hacia un lugar."
+          "Recuerda la regla: el mismo verbo cambia de significado según la preposición, porque cada preposición conserva su sentido de base. Dar CON (encuentro) es encontrar algo o a alguien tras buscarlo; dar A (dirección) es tener vista u orientación hacia un lugar: «La ventana da al patio». Dar con no lleva la «a» personal: «di con tu hermano», no ✗ «di con a tu hermano»."
         ],
         "examples": [
           {
@@ -15422,7 +19113,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Repaso: verbos con DE vs. EN",
         "body": [
-          "Repasa la diferencia entre los verbos que exigen DE y los que exigen EN."
+          "Repasa la diferencia: DE marca el tema o el origen (quejarse de, acordarse de, tratarse de); EN marca el contenido o el punto en que se insiste o se fija la atención (consistir en, insistir en, fijarse en). La preposición se mantiene delante de «que»: «insisto en que vengas», «me quejo de que no llames»."
         ],
         "examples": [
           {
@@ -15465,7 +19156,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Repaso: verbos con A vs. CON",
         "body": [
-          "Repasa la diferencia entre los verbos que exigen A y los que exigen CON."
+          "Repasa la diferencia: A apunta a una acción o un fin (negarse a, dedicarse a, atreverse a); CON expresa compañía o encuentro (soñar con, contar con, dar con). Si dudas, pregúntate si el verbo «va hacia» algo (A) o «está con» algo (CON)."
         ],
         "examples": [
           {
@@ -15613,7 +19304,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Presente indicativo: verbos regulares con vos",
         "body": [
-          "Recordá: vos usa la forma acentuada en la última sílaba, sin el cambio vocálico de tú (hablás, comés, vivís)."
+          "Recordá la regla: el presente de vos se forma con la raíz del infinitivo y la terminación acentuada -ás, -és, -ís (hablar → hablás, comer → comés, vivir → vivís). Por qué: estas formas vienen del antiguo plural de cortesía (habláis → hablás), que siempre se acentuó en la terminación; por eso la sílaba fuerte es la última.",
+          "Al pasar de tú a vos, no basta con cambiar el pronombre: «vos hablas» o «vos comes» son mezclas que suenan a error. Cambiá el verbo entero."
         ],
         "examples": [
           {
@@ -15638,7 +19330,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Presente indicativo: verbos con cambio de raíz (sin diptongación)",
         "body": [
-          "Con vos, los verbos que diptongan con tú (o→ue, e→ie) mantienen la vocal simple: podés, querés, dormís, pedís."
+          "Con vos, los verbos que diptongan con tú (o→ue, e→ie) o cambian e→i mantienen la vocal del infinitivo: podés, querés, dormís, pedís. La razón es la misma regla de antes: el diptongo solo aparece cuando la raíz lleva el acento (puedes, quieres), y en vos el acento está en la terminación (po-DÉS), así que la raíz no cambia."
         ],
         "examples": [
           {
@@ -15668,7 +19360,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos irregulares frecuentes con vos",
         "body": [
-          "Algunos verbos irregulares tienen formas propias con vos: sos, tenés, venís, decís."
+          "Algunos verbos irregulares tienen formas propias con vos: ser → sos (no «eres»); tener → tenés, venir → venís, decir → decís (sin el diptongo ni el cambio de vocal de tienes, vienes, dices). Ir y haber se quedan como con tú: vas, has. Atención a los verbos pronominales: el pronombre sigue siendo «te» (vos te acordás)."
         ],
         "examples": [
           {
@@ -15769,7 +19461,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Imperativo afirmativo con vos",
         "body": [
-          "El imperativo afirmativo de vos se forma quitando la -r del infinitivo y acentuando la última vocal, sin diptongar."
+          "Recordá la regla: el imperativo afirmativo de vos se forma quitando la -r del infinitivo y acentuando la última vocal (hablar → hablá, comer → comé, salir → salí). Como sale directamente del infinitivo, no diptonga (volvé, no «vuelve») y no tiene las formas irregulares de tú: vení (no «ven»), poné (no «pon»), decí (no «di»), salí (no «sal»), hacé (no «haz»). La única excepción frecuente es ir, que usa andá."
         ],
         "examples": [
           {
@@ -15799,7 +19491,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Imperativo negativo con vos",
         "body": [
-          "El imperativo negativo de vos usa el subjuntivo, que en el uso estándar coincide con el de tú, aunque coloquialmente también se oye la forma acentuada (no hablés)."
+          "El imperativo negativo de vos usa el subjuntivo, que en el uso estándar coincide con el de tú (no hables, no vengas, no digas), aunque coloquialmente también se oye la forma acentuada (no hablés). Lo que nunca vale es negar la forma afirmativa (✗ «no hablá») o el indicativo (✗ «no hablás»): en español toda orden negativa va en subjuntivo."
         ],
         "examples": [
           {
@@ -15827,7 +19519,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Presente de subjuntivo con vos",
         "body": [
-          "En el uso estándar y gran parte de la región rioplatense, el subjuntivo con vos coincide con el de tú (que hables), aunque coloquialmente también aparece la forma acentuada (que hablés)."
+          "En el uso estándar y gran parte de la región rioplatense, el subjuntivo con vos coincide con el de tú (que hables), aunque coloquialmente también aparece la forma acentuada (que hablés). Y como es el subjuntivo de tú, conserva sus diptongos e irregularidades: que puedas, que duermas, que vengas. Las reglas que piden subjuntivo (querer que, esperar que, es importante que) son las mismas de siempre; con vos solo cambia la forma."
         ],
         "examples": [
           {
@@ -15946,7 +19638,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Pronombres y posesivos: lo que no cambia",
         "body": [
-          "Los pronombres de objeto y posesivos con vos son los mismos que con tú: te, tu, tus, tuyo, tuya."
+          "Recordá la regla: el voseo cambia el pronombre sujeto y algunas formas verbales, pero los pronombres de objeto y los posesivos son los mismos que con tú: te, tu, tus, tuyo, tuya. Lo que sí cambia es el pronombre detrás de una preposición: para vos, sin vos, por vos y con vos (en lugar de para ti, sin ti, por ti y contigo). Así, «vos» ocupa los lugares de «tú» y «ti», pero nunca el de «te»: ✗ «vos quiero» → ✓ «te quiero»."
         ],
         "examples": [
           {
@@ -15981,7 +19673,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vos y tú: reconocimiento regional",
         "body": [
-          "El voseo es una variante regional que conviene reconocer al leer o escuchar, aunque elijas usar tú en tu propia habla."
+          "El voseo es una variante regional que conviene reconocer al leer o escuchar, aunque elijas usar tú en tu propia habla. Es la norma culta en Argentina, Uruguay y Paraguay (y frecuente en partes de Centroamérica); no es un registro vulgar, así que aparece en la prensa, la publicidad y la literatura de esos países. Lo importante es la coherencia: si elegís vos, mantenelo en toda la conversación sin mezclarlo con formas de tú."
         ],
         "examples": [
           {
