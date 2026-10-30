@@ -1,5 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/grammar/ko-types.ts by scripts/sync-content.mjs -- edit it there, not here.
-// Korean grammar guides (/lessons/ko/tools/grammar, private beta). The shape
+// Korean grammar guides (/lessons/ko/tools/grammar). The shape
 // mirrors the Brazilian Portuguese guides in ./pt-types.ts (and the German,
 // French, Spanish and Japanese ones) so the reader page is laid out the same
 // way.

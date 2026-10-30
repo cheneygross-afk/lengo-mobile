@@ -14,7 +14,7 @@ import type { AnchoredLesson } from "./weave";
 // frase a frase, corrige el párrafo, cuentos con huecos, cadenas de
 // transformaciones, elige y explica, habla de ti, dictados, líneas del
 // tiempo and práctica mezclada.
-const { mc, ms, fb, toEs, toEn, wo, mt, sec } = authoring("es");
+const { mc, ms, fb, toEs, wo, mt, sec } = authoring("es");
 const L = (
   after: string,
   slug: string,

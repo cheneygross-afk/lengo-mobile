@@ -188,7 +188,7 @@ export type Lesson = {
   // fr-course.ts). "PT-A1" ... "PT-C2" are the Brazilian Portuguese course
   // (docs/portuguese-course). "KO-Hangul" and "KO-A1" ... "KO-C2" are the
   // Korean beta (ko-course.ts, docs/korean-course). "IT-A1" ... "IT-C2" and
-  // "IT-Culture" are the Italian beta (it-course.ts, docs/italian-course).
+  // "IT-Culture" are the Italian course (it-course.ts, docs/italian-course).
   level:
     | "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "C1/C2"
     | "JA-Alphabets" | "JA-A1" | "JA-A2" | "JA-B1" | "JA-B2" | "JA-C1" | "JA-C2"

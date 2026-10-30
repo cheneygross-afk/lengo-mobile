@@ -2,7 +2,7 @@
 import type { Exercise } from "./types";
 import { authoring } from "./authoring";
 
-const { toEs, toEn, fe, wo, mc } = authoring("es");
+const { toEs, fe, wo, mc } = authoring("es");
 
 // Extra drills, C2 batch 3 (extra-drills.ts).
 export const DRILLS_C2_3: Record<string, Exercise[]> = {

@@ -6,7 +6,7 @@ import { listeningItems, readingSection, type LevelTest } from "./level-test-aut
 // The A1 level test (see level-tests.ts): only A1 material -- ser and
 // estar, the present tense, estar + gerund, gustar, tener/ir/hacer/hay,
 // possessives, demonstratives, numbers, time, dates and questions.
-const { fe, sec } = authoring("en");
+const { fe, toEs, sec } = authoring("en");
 
 export const LEVEL_TEST_A1: LevelTest = {
   title: "Beginner Level Test: Ready for the Elementary level?",
@@ -106,39 +106,39 @@ export const LEVEL_TEST_A1: LevelTest = {
     },
     sec(
       "Part 3 · Grammar and vocabulary",
-      "Type the Spanish for the bold words. Small accent slips are accepted with a note.",
+      "Type the Spanish for the bold words. Some questions instead give you a Spanish sentence to change or to correct: follow the instruction. Small accent slips are accepted with a note.",
       [],
       [
         fe("Mi madre ___ médica.", "es", "My mother [is] a doctor.", "A profession takes ser: es médica."),
-        fe("Nosotros ___ en la cocina ahora.", "estamos", "We [are] in the kitchen now.", "Location takes estar: estamos."),
+        toEs("Nosotros somos en la cocina ahora.", "Nosotros estamos en la cocina ahora.", "Where someone is takes estar, not ser: estamos.", ["Estamos en la cocina ahora.", "Ahora estamos en la cocina."], "Correct the sentence."),
         fe("Ellos ___ de México.", "son", "They [are] from Mexico.", "Origin takes ser: son de México."),
         fe("¿Dónde ___ el baño?", "está", "Where [is] the bathroom?", "Where something is takes estar: ¿dónde está?"),
         fe("Yo ___ en un banco.", "trabajo", "I [work] in a bank.", "Trabajar → yo trabajo."),
         fe("¿Tú ___ café por la mañana?", "bebes", "Do you [drink] coffee in the morning?", "Beber → tú bebes. Tomas (tomar) is also right.", ["tomas"]),
-        fe("Mi hermana ___ en Lima.", "vive", "My sister [lives] in Lima.", "Vivir → ella vive."),
+        toEs("Mi hermana vive en Lima.", "Vivimos en Lima.", "Vivir is an -ir verb, so nosotros takes -imos: vivimos.", ["Nosotros vivimos en Lima.", "Nosotras vivimos en Lima."], "Change to nosotros."),
         fe("Los niños ___ hasta las nueve.", "duermen", "The children [sleep] until nine.", "Dormir changes o → ue: duermen."),
         fe("¿___ jugar al fútbol?", "Quieres", "[Do you want] to play football?", "Querer changes e → ie: quieres (or quiere for usted).", ["Quiere"]),
         fe("Yo ___ dos hermanos.", "tengo", "I [have] two brothers.", "Tener → yo tengo."),
         fe("Mañana ___ al cine.", "voy", "Tomorrow [I'm going] to the cinema.", "Ir → yo voy: voy al cine."),
         fe("¿Qué ___ los fines de semana?", "haces", "What [do you do] at the weekend?", "Hacer → tú haces (usted hace).", ["hace"]),
-        fe("___ un supermercado cerca de mi casa.", "Hay", "[There is] a supermarket near my house.", "There is / there are: hay."),
+        toEs("Está un supermercado cerca de mi casa.", "Hay un supermercado cerca de mi casa.", "A new thing that exists is introduced with hay; estar is for where a known thing is.", [], "Correct the sentence."),
         fe("Me ___ el chocolate.", "gusta", "I [like] chocolate.", "One thing liked: gusta."),
-        fe("¿Te ___ los deportes?", "gustan", "Do you [like] sports?", "Plural thing liked: gustan."),
+        toEs("¿Te gusta los deportes?", "¿Te gustan los deportes?", "Gustar agrees with the thing liked: los deportes is plural, so gustan.", ["¿A ti te gustan los deportes?"], "Correct the sentence."),
         fe("Es la casa de Pedro. Es ___ casa.", "su", "It's Pedro's house. It's [his] house.", "His, her, their: su."),
-        fe("___ hijos son muy altos.", "Nuestros", "[Our] children are very tall.", "Nuestro agrees with hijos: nuestros."),
-        fe("Las casas de esta calle son muy ___.", "antiguas", "The houses on this street are very [old].", "Antiguo agrees with las casas: antiguas (viejas also works).", ["viejas"]),
+        toEs("Mis hijos son muy altos.", "Nuestros hijos son muy altos.", "Nuestro agrees with the thing owned: hijos is masculine plural, so nuestros.", [], "Change mis to nuestro."),
+        toEs("La casa de esta calle es muy antigua.", "Las casas de esta calle son muy antiguas.", "Article, noun, verb and adjective all become plural: las casas ... son ... antiguas.", [], "Make it plural."),
         fe("Es una ciudad muy ___.", "bonita", "It's a very [pretty] city.", "Bonito agrees with ciudad (feminine): bonita.", ["linda", "hermosa"]),
         fe("___ libro es muy interesante.", "Este", "[This] book is very interesting.", "Near the speaker, masculine: este libro."),
         fe("Son las ___.", "tres y media", "It's [half past three].", "Half past: y media. Son las tres y media."),
         fe("Mi cumpleaños es el ___ de mayo.", "quince", "My birthday is on the [fifteenth] of May.", "Dates use plain numbers: el quince de mayo.", ["15"]),
         fe("¿___ te llamas?", "Cómo", "[What's] your name?", "Spanish asks \"how are you called\": ¿Cómo te llamas?"),
         fe("¿___ cuesta el billete?", "Cuánto", "[How much] is the ticket?", "Prices: ¿Cuánto cuesta?"),
-        fe(
-          "Ahora mismo ___ la cena.",
-          "estoy haciendo",
-          "Right now [I'm making] dinner.",
-          "Something happening right now: estar + gerund, estoy haciendo (or estoy preparando, estoy cocinando).",
-          ["estoy preparando", "estoy cocinando"]
+        toEs(
+          "Hago la cena.",
+          "Estoy haciendo la cena.",
+          "Something happening right now: estar + gerund. Hacer → haciendo, so estoy haciendo.",
+          ["Ahora estoy haciendo la cena.", "Ahora mismo estoy haciendo la cena.", "Estoy haciendo la cena ahora."],
+          "Change it to say it's happening right now."
         ),
       ]
     ),

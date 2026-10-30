@@ -7,8 +7,8 @@ import { IT_B2_STORIES } from "./it-b2";
 import { IT_C1_STORIES } from "./it-c1";
 import { IT_C2_STORIES } from "./it-c2";
 
-// The Italian course's stories (private beta, owner-only like the rest of
-// /lessons/it): read at /lessons/it/stories/<level>/<slug>, listed at
+// The Italian course's stories (free to everyone, like the Portuguese
+// ones): read at /lessons/it/stories/<level>/<slug>, listed at
 // /lessons/it/stories. Story levelPaths are "it/a1" ... "it/c2" (see
 // ../storyPaths.ts).
 
