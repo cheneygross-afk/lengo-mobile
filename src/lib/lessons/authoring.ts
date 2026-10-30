@@ -59,6 +59,18 @@ export function authoring(lang: Lang) {
     explanation,
   });
 
+  // Alternatives that repeat the main answer or each other add nothing; drop them (and the field when none is left).
+  const withoutAnswer = (answer: string, altAnswers?: string[]) => {
+    const seen = new Set<string>();
+    const alts = (altAnswers ?? []).filter((a) => {
+      const key = a.trim().toLowerCase();
+      if (a === answer || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+    return alts.length ? { altAnswers: alts } : {};
+  };
+
   const fb = (prompt: string, sentence: string, answer: string, explanation: string, hint?: string): FillBlankExercise => ({
     type: "fill-blank",
     prompt,
@@ -77,7 +89,7 @@ export function authoring(lang: Lang) {
     sentence,
     answer,
     en,
-    ...(altAnswers && altAnswers.length ? { altAnswers } : {}),
+    ...withoutAnswer(answer, altAnswers),
     explanation,
   });
 
@@ -90,7 +102,7 @@ export function authoring(lang: Lang) {
     prompt: prompt ?? (/^Corr(ige|ect)\b/.test(source) ? (lang === "es" ? "Corrige la frase." : "Correct the sentence.") : p.toEs),
     source,
     answer,
-    ...(altAnswers && altAnswers.length ? { altAnswers } : {}),
+    ...withoutAnswer(answer, altAnswers),
     explanation,
   });
 
@@ -101,7 +113,7 @@ export function authoring(lang: Lang) {
     prompt: prompt ?? p.toEn,
     source,
     answer,
-    ...(altAnswers && altAnswers.length ? { altAnswers } : {}),
+    ...withoutAnswer(answer, altAnswers),
     explanation,
   });
 

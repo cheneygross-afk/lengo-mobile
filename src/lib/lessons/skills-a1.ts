@@ -21,9 +21,9 @@ export const A1_SKILLS: Record<string, Exercise[]> = {
       0,
       "Sí, practico tenis -- \"Yes, I play tennis.\" The answer mirrors the question: practicas → practico."
     ),
-    spk("—¿Trabajas mucho? —Sí, trabajo mucho.", "Rise at the end of the question, fall at the end of the answer.", "The mirror rule: trabajas (you) in the question, trabajo (I) in the answer."),
+    spk("—¿Cocinas en casa? —Sí, cocino todos los días.", "Rise at the end of the question, fall at the end of the answer.", "The mirror rule: cocinas (you) in the question, cocino (I) in the answer."),
     spk("Estudio inglés y trabajo en una tienda.", "Link estudio inglés into one flow: \"es-tu-dioin-glés\".", "\"I study English and work in a shop.\""),
-    spk("No, nunca entrenamos juntos.", "Tap the r in entrenamos (tr), and keep juntos' j breathy.", "\"No, we never train together.\""),
+    spk("—¿Ustedes entrenan los lunes? —No, entrenamos los martes.", "Tap the r in entrenan and entrenamos (tr).", "\"Do you all train on Mondays? No, we train on Tuesdays.\" A question to ustedes gets a nosotros answer: entrenamos."),
   ],
   "a1r-dialogue-whose-where": [
     lc(
@@ -141,7 +141,7 @@ export const A1_SKILLS: Record<string, Exercise[]> = {
       "Me llamo Paula y tengo veinticinco años. Soy de Valencia, pero ahora vivo en Londres. Soy enfermera y trabajo en un hospital. Me gusta leer y me encantan los gatos. Los fines de semana voy al mercado y cocino con mis amigos.",
       "A profile answers the same questions in the same order. Jobs after soy take no article (soy enfermera), and me encantan is plural because los gatos is plural."
     ),
-    spk("Me llamo Paula y tengo veinticinco años.", "Link llamo y into one flow; veinticinco is one word: vein-ti-CIN-co.", "\"My name is Paula and I'm twenty-five.\""),
+    spk("Me llamo Paula, tengo veinticinco años y soy de Valencia.", "Link llamo and Paula into one flow; veinticinco is one word: vein-ti-CIN-co.", "\"My name is Paula, I'm twenty-five and I'm from Valencia.\" Age with tener, origin with ser de."),
   ],
   "a1r-challenge-dialogue-marathon": [
     lc(
@@ -151,9 +151,18 @@ export const A1_SKILLS: Record<string, Exercise[]> = {
       0,
       "Dos euros el kilo -- \"two euros a kilo\". Spanish uses el (the) for \"per\": el kilo. Twelve would be doce, three tres."
     ),
-    spk("Hola, soy Kenji. Soy de Japón.", "Japón starts with the breathy j sound and is stressed on -PÓN.", "\"Hi, I'm Kenji. I'm from Japan.\""),
-    spk("¿Cuánto cuestan estas naranjas?", "Cuánto and cuestan both start \"kw\": here the u is pronounced.", "\"How much are these oranges?\" Cuestan is plural to match naranjas."),
-    spk("Voy a ir al museo. Me encantan los museos.", "Voy a ir: \"vo-ya-ir\", all linked.", "\"I'm going to go to the museum. I love museums.\""),
+    {
+      ...spk("Soy de México, pero vivo en Madrid.", "México is written with x but said with the breathy j sound: MÉ-ji-co.", "\"I'm from Mexico, but I live in Madrid.\" Origin takes ser de; where you live now is vivir en."),
+      prompt: "Respond aloud: Kenji asks «¿De dónde eres?» Say you're from Mexico, but you live in Madrid.",
+    },
+    {
+      ...spk("¿Cuánto cuestan estas manzanas?", "Cuánto and cuestan both start \"kw\": here the u is pronounced.", "\"How much are these apples?\" Cuestan and estas are plural to match manzanas."),
+      prompt: "Respond aloud: ask the seller how much these apples cost.",
+    },
+    {
+      ...spk("Voy a visitar un museo porque me encanta el arte.", "Voy a visitar: \"vo-ya-vi-si-TAR\", all linked.", "\"I'm going to visit a museum because I love art.\" A plan with ir a + infinitive; el arte is singular, so encanta."),
+      prompt: "Respond aloud: ¿Qué vas a hacer el domingo? Say you're going to visit a museum because you love art.",
+    },
   ],
   "a1-final-review-1": [
     lc("Mi hermana es médica y vive en Lima.", "Listen. What does the sister do?", ["She's a doctor", "She's a teacher", "She's a nurse", "She's a student"], 0, "Médica is a (woman) doctor. A teacher is profesora, a nurse enfermera and a student estudiante."),

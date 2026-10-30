@@ -7,8 +7,8 @@ import { KO_B2_STORIES } from "./ko-b2";
 import { KO_C1_STORIES } from "./ko-c1";
 import { KO_C2_STORIES } from "./ko-c2";
 
-// The Korean course's stories (private beta, gated and kept out of search
-// with the rest of /lessons/ko): read at /lessons/ko/stories/<level>/<slug>,
+// The Korean course's stories (free to everyone and listed in the sitemap):
+// read at /lessons/ko/stories/<level>/<slug>,
 // listed at /lessons/ko/stories. Story levelPaths are "ko/a1" ... "ko/c2"
 // (see ../storyPaths.ts).
 

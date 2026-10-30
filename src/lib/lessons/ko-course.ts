@@ -9,14 +9,13 @@ import { KO_C1_LESSONS, KO_C1_UNITS } from "./ko-c1";
 import { KO_C2_LESSONS, KO_C2_UNITS } from "./ko-c2";
 import { KO_CULTURE_LESSONS, KO_CULTURE_UNITS } from "./ko-culture";
 
-// The Korean course (beta): the Hangul module (ko-hangul.ts, shown at
+// The Korean course: the Hangul module (ko-hangul.ts, shown at
 // /lessons/ko/hangul) and then these A1-C2 levels in order, as the
 // /lessons/ko page lists them (the same shape as the Portuguese course).
 // Each level is shown by its name and its TOPIK level ("Beginner",
 // "TOPIK 1"), never the code. The optional Culture module comes last, as
 // in the French and German courses, and has no TOPIK level. Scope and authoring conventions:
-// docs/korean-course/. The beta is visible to one account only
-// (lib/koreanBeta.ts).
+// docs/korean-course/.
 export type KoreanLevel = {
   code: "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "Culture";
   /** "a1" ... "c2": the URL segment under /lessons/ko. */

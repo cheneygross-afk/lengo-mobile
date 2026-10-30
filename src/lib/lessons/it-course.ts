@@ -9,13 +9,12 @@ import { IT_C1_LESSONS, IT_C1_UNITS } from "./it-c1";
 import { IT_C2_LESSONS, IT_C2_UNITS } from "./it-c2";
 import { IT_CULTURE_LESSONS, IT_CULTURE_UNITS } from "./it-culture";
 
-// The Italian course (private beta): its A1-C2 levels in order, as the
+// The Italian course: its A1-C2 levels in order, as the
 // /lessons/it page lists them (the same shape as the Portuguese and Korean
 // courses). Each level is shown by its name and its CILS exam ("Beginner",
 // "CILS A1"), never the code. The optional Culture module comes last, as in
 // the French and German courses, and has no exam. Scope and authoring
-// conventions: docs/italian-course/. The beta is visible to the owner's
-// accounts only (lib/italianBeta.ts).
+// conventions: docs/italian-course/.
 export type ItalianLevel = {
   code: "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "Culture";
   /** "a1" ... "c2", "culture": the URL segment under /lessons/it. */
