@@ -29,6 +29,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       sec(
         "Dialogue: in a clothes shop",
         [
+          "The idea: in a Spanish shop the clothes do the fitting. Quedar works like gustar: the garment is the subject and me / te / le shows who wears it, so the verb and the adjective agree with the clothes (la chaqueta me queda grande, los zapatos me quedan pequeños). Lo / la / los / las stand in for the garment once it has been named: ¿Me la puedo probar? (la = la chaqueta).",
           "Read the dialogue. Clara wants a jacket she saw in the window.",
           "Notice the chunks: ¿Qué talla usas? (what size do you take?), ¿Me la puedo probar? (can I try it on?), los probadores (the fitting rooms), me queda grande (it's too big on me).",
         ],
@@ -43,10 +44,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "What does \"Me queda grande\" mean?",
-            ["It's too big on me.", "I'm staying big.", "I have a big one left.", "It suits me."],
+            "You try on some trousers and they are too short. What do you say?",
+            ["Los pantalones me quedan cortos.", "Los pantalones me queda cortos.", "Los pantalones me quedan cortas.", "Yo quedo cortos los pantalones."],
             0,
-            "Quedar + adjective talks about how clothes fit: me queda grande / pequeño / bien. It works like gustar: the clothes are the subject, and me shows who is wearing them."
+            "Quedar agrees with the clothes, like gustar: los pantalones is plural, so quedan, and the adjective is masculine plural, cortos. Me queda would be for one garment; yo quedo makes you the subject, which Spanish doesn't do here."
           ),
         ]
       ),
@@ -135,10 +136,11 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ["¿Puedo probármelo?", "¿Me la puedo probar?", "¿Puedo probármela?", "¿Me lo puedo probar, por favor?", "¿Lo puedo probar?", "¿Puedo probarlo?"]
       ),
       toEs(
-        "The trousers are too long on me.",
-        "Los pantalones me quedan largos.",
-        "Quedar + adjective; the verb and adjective agree with los pantalones.",
-        ["Los pantalones me quedan demasiado largos.", "Me quedan largos los pantalones.", "Los pantalones me quedan muy largos."]
+        "La camisa me queda larga.",
+        "Las camisas me quedan largas.",
+        "Make the garment plural and everything that agrees with it follows: las camisas → quedan → largas. Me doesn't change, because the wearer is the same.",
+        ["Me quedan largas las camisas."],
+        "Make it plural."
       ),
       toEn(
         "¿Lo tiene en otro color?",
@@ -180,6 +182,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       sec(
         "Dialogue: a headache and a cold",
         [
+          "The idea: Spanish describes being unwell with three frames, and the word you have picks the frame. A body part takes doler, which works like gustar (the part that hurts is the subject: me duele la cabeza, me duelen los pies). A symptom noun takes tener (tengo tos, tengo fiebre). A state adjective takes estar and agrees with you (estoy mareado / mareada).",
           "In Spain and Latin America, pharmacists give a lot of everyday advice, so the pharmacy (la farmacia) is often the first stop for a cold or a headache.",
           "Read the dialogue. Tom has a cold and asks the pharmacist for something.",
         ],
@@ -194,10 +197,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "The pharmacist asks \"¿Qué le pasa?\". What is she asking?",
-            ["What's the matter with you?", "What are you buying?", "Where are you going?", "What happened to him?"],
+            "Your friend looks ill. How do you ask her (tú) what's wrong?",
+            ["¿Qué te pasa?", "¿Qué le pasa?", "¿Qué pasas?", "¿Qué te pasas?"],
             0,
-            "¿Qué le pasa? (usted) or ¿Qué te pasa? (tú) is the normal way to ask what's wrong."
+            "Pasar works like gustar here: the problem is the subject and the pronoun shows who has it. The pharmacist used le for usted; with a friend it's te. Pasas / te pasas make your friend the subject, which Spanish doesn't do."
           ),
         ]
       ),
@@ -275,11 +278,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "La cabeza is singular, so duele. Spanish says la cabeza, not mi cabeza, because me already shows whose it is."
       ),
       fe(
-        "Soy ___ a la penicilina.",
-        "alérgico",
-        "I'm [allergic] to penicillin.",
-        "Ser alérgico / alérgica a + thing. Use alérgica if you're a woman.",
-        ["alérgica"]
+        "Mi hija es ___ a los huevos.",
+        "alérgica",
+        "My daughter is [allergic] to eggs.",
+        "Ser alérgico a + thing; the adjective agrees with the person who has the allergy, so alérgica for mi hija."
       ),
       fe(
         "Para este medicamento necesita ___ del médico.",
@@ -288,10 +290,11 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Una receta is a prescription (and also a recipe)."
       ),
       toEs(
-        "I have a headache.",
         "Me duele la cabeza.",
-        "Doler like gustar: me duele la cabeza. \"Tengo dolor de cabeza\" is also correct.",
-        ["Tengo dolor de cabeza.", "Me duele mucho la cabeza.", "Tengo un dolor de cabeza."]
+        "Me duelen los oídos.",
+        "Doler agrees with what hurts: los oídos is plural, so duelen. The article stays (los oídos, not mis oídos) because me already says whose they are.",
+        ["Me duelen las orejas."],
+        "Change la cabeza to los oídos."
       ),
       toEs(
         "Do I need a prescription?",
@@ -299,11 +302,11 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "No article is needed: ¿Necesito receta? You'll also hear ¿Hace falta receta?",
         ["¿Necesito una receta?", "¿Hace falta receta?", "¿Hace falta una receta?", "¿Se necesita receta?"]
       ),
-      toEn(
-        "Si en tres días no está mejor, vaya al médico.",
-        "If you're not better in three days, go to the doctor.",
-        "Vaya is the usted command of ir: the pharmacist is being polite.",
-        ["If you are not better in three days, go to the doctor.", "If you're not better in three days, see a doctor.", "If you aren't better in three days, go to the doctor.", "If in three days you're not better, go to the doctor."]
+      mc(
+        "The pharmacist tells you: «Si en tres días no está mejor, vaya al médico.» What should you do?",
+        ["See a doctor if you're not better in three days.", "Come back to the pharmacy in three days.", "Take the medicine for three days only.", "Go to the doctor now."],
+        0,
+        "Si + present gives the condition (if you're not better in three days); vaya is the polite usted command of ir: go."
       ),
       mc(
         "In Mexico you cut your finger slightly. What do you ask for?",
@@ -333,6 +336,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       sec(
         "Dialogue: booking an appointment",
         [
+          "The idea: two patterns carry most of a doctor's visit. For a problem that started in the past and is still going on, Spanish uses the present + desde hace + a length of time (me duele desde hace dos días), because it still hurts now; English switches to \"has been hurting\". And the doctor's advice comes as tener que + infinitive (tiene que descansar) or a polite usted command (beba, tome, quédese). Your own requests are softened with quería: quería pedir cita.",
           "Read the dialogue. Ana phones her health centre (el centro de salud) to book an appointment.",
           "Key chunks: pedir cita (to make an appointment), ¿Para cuándo? (for when?), ¿Le viene bien...? (does ... suit you?).",
         ],
@@ -346,10 +350,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "What does \"Quería pedir cita\" mean?",
-            ["I'd like to make an appointment.", "I wanted to ask a question.", "I asked for a date.", "I'm going to cancel my appointment."],
+            "You phone the dentist's surgery. Which is the polite way to ask for an appointment?",
+            ["Quería pedir cita con el dentista.", "Quise pedir cita con el dentista.", "Quería preguntar cita con el dentista.", "Quería pedir cita a el dentista."],
             0,
-            "Pedir cita = to make (ask for) an appointment. Quería is a polite way to say \"I'd like\"; it doesn't mean the wish is over."
+            "Quería (imperfect) softens a request: \"I'd like\". Quise is a finished past act, so it sounds like you tried once. You pedir (ask for) things and preguntar (ask) questions, and a + el contracts to al."
           ),
         ]
       ),
@@ -434,10 +438,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ["tomar"]
       ),
       toEs(
-        "I'd like to make an appointment.",
-        "Quería pedir cita.",
-        "Quería (imperfect) is the polite way to make a request. Pedir cita, often without una.",
-        ["Quería pedir una cita.", "Quisiera pedir cita.", "Quisiera pedir una cita.", "Me gustaría pedir cita.", "Me gustaría pedir una cita.", "Quiero pedir una cita.", "Quería hacer una cita."]
+        "I'd like to make an appointment with the dentist for Friday.",
+        "Quería pedir cita con el dentista para el viernes.",
+        "Quería (imperfect) is the polite way to make a request; pedir cita con + person, para + the day you want.",
+        ["Quería pedir una cita con el dentista para el viernes.", "Quisiera pedir cita con el dentista para el viernes.", "Quisiera pedir una cita con el dentista para el viernes.", "Me gustaría pedir cita con el dentista para el viernes.", "Me gustaría pedir una cita con el dentista para el viernes.", "Quería pedir cita con la dentista para el viernes.", "Quisiera pedir cita con la dentista para el viernes."]
       ),
       toEs(
         "My back has been hurting for three days.",
@@ -445,11 +449,11 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Doler like gustar + desde hace for how long.",
         ["Hace tres días que me duele la espalda.", "Llevo tres días con dolor de espalda.", "Me duele la espalda hace tres días."]
       ),
-      toEn(
-        "No parece nada grave.",
-        "It doesn't seem serious.",
-        "Nada grave = nothing serious; the doctor is reassuring you.",
-        ["It doesn't look serious.", "It doesn't seem like anything serious.", "It doesn't look like anything serious.", "It doesn't seem to be anything serious."]
+      mc(
+        "After examining you, the doctor says «No parece nada grave.» How do you feel?",
+        ["Relieved: it doesn't look serious.", "Worried: it looks serious.", "Confused: she can't see anything.", "Annoyed: she says you're exaggerating."],
+        0,
+        "No ... nada is Spanish double negation: no parece nada grave = it doesn't seem (to be) anything serious."
       ),
       mc(
         "The doctor says \"Tome una pastilla cada ocho horas\". What do you do?",
@@ -458,9 +462,9 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Tome is the usted command of tomar; cada ocho horas = every eight hours."
       ),
       wo(
-        "Me duele el estómago desde hace dos días.",
-        "Doler + desde hace for something still going on.",
-        "My stomach has been hurting for two days."
+        "A mi hijo le duelen los oídos desde hace una semana",
+        "Doler agrees with los oídos (duelen), a mi hijo + le says who, and present + desde hace says it is still going on.",
+        "My son's ears have been hurting for a week"
       ),
       mc(
         "You have a mild cold. Where is it best to go first?",
@@ -479,6 +483,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       sec(
         "Dialogue: checking in",
         [
+          "The idea: at a hotel almost every problem fits one of two frames. Something broken: no funciona + the thing (no funciona la ducha; plural: no funcionan las luces). Something missing: no hay + the noun with no article (no hay toallas). Spanish puts the thing after the verb when it reports a problem, and a polite perdone / disculpe in front makes it a request, not a complaint.",
           "Read the dialogue at reception (la recepción).",
           "Key chunks: tengo una reserva a nombre de... (I have a booking under the name...), ¿Me deja su pasaporte? (may I have your passport?), ¿A qué hora es el desayuno?",
         ],
@@ -492,10 +497,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "What does \"a nombre de\" mean in \"Tengo una reserva a nombre de Lucas Martin\"?",
-            ["under the name of", "called by", "for the number of", "in front of"],
+            "You booked a table at a restaurant under the name Ana Gil. What do you say when you arrive?",
+            ["Tengo una reserva a nombre de Ana Gil.", "Tengo una reserva en nombre Ana Gil.", "Tengo una reserva por nombre de Ana Gil.", "Me llamo una reserva Ana Gil."],
             0,
-            "A nombre de = under the name of. You'll use it for any booking: restaurants, hotels, tickets."
+            "A nombre de + name works for any booking: hotels, restaurants, tickets. The preposition is a, and de links nombre to the name."
           ),
         ]
       ),
@@ -564,10 +569,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "A nombre de + name: the booking is under that name."
       ),
       fe(
-        "¿Cuál es la ___ del wifi?",
+        "Perdone, la ___ del wifi no funciona.",
         "contraseña",
-        "What's the wifi [password]?",
-        "La contraseña = password. With ¿cuál es...? you ask for a piece of information from a set."
+        "Excuse me, the wifi [password] doesn't work.",
+        "La contraseña = password. No funciona reports something that doesn't work, and it agrees with la contraseña (singular)."
       ),
       fe(
         "Perdone, en mi habitación no ___ papel higiénico.",
@@ -587,11 +592,11 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Estar incluido = to be included.",
         ["¿El desayuno está incluido?", "¿Incluye el desayuno?", "¿Va incluido el desayuno?"]
       ),
-      toEn(
-        "Ahora mismo subo con las toallas.",
-        "I'll bring the towels up right now.",
-        "Ahora mismo = right now. The present (subo) is often used for something you're about to do.",
-        ["I'm coming up with the towels right now.", "I'll come up with the towels right now.", "I'll bring up the towels right away.", "I'll bring the towels up right away."]
+      mc(
+        "You report there are no towels. Reception answers «Ahora mismo subo con las toallas.» What happens next?",
+        ["Someone brings towels to your room right away.", "You have to go down for the towels.", "There are no towels today.", "The towels are already in the room."],
+        0,
+        "Ahora mismo = right now, and Spanish often uses the present (subo) for something you're about to do: I'm coming up with the towels."
       ),
       mc(
         "You're told your room is \"en la primera planta\". Where is it?",
@@ -621,6 +626,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       sec(
         "Dialogue: at the train station",
         [
+          "The idea: getting around in Spanish runs on a handful of motion verbs, and each one comes with its own preposition. Ir a + destination (¿va al centro?), salir de + place and a + time (sale del andén cuatro a las once), bajarse en + stop (me bajo en la próxima). Learn the verb and its preposition as one unit and you can ask about any bus, train or stop.",
           "Read the dialogue at the ticket office (la taquilla).",
           "Key chunks: de ida (one way), de ida y vuelta (return), ¿A qué hora sale? (what time does it leave?), ¿De qué andén sale? (which platform?).",
         ],
@@ -634,10 +640,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "You want to go and come back. Which ticket do you ask for?",
-            ["de ida y vuelta", "de ida", "de vuelta", "de andén"],
+            "Ask what time the next bus to the airport leaves.",
+            ["¿A qué hora sale el próximo autobús al aeropuerto?", "¿A qué hora va el próximo autobús del aeropuerto?", "¿A qué hora sale el próximo autobús en el aeropuerto?", "¿Qué hora sale el próximo autobús al aeropuerto?"],
             0,
-            "De ida y vuelta = return (there and back). De ida is one way only."
+            "Salir is the verb for departing, and the destination takes a (a + el = al). Del aeropuerto would be from the airport, en el aeropuerto at it, and a time question needs ¿A qué hora...?"
           ),
         ]
       ),
@@ -736,11 +742,11 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "La parada = the stop. Estar for location.",
         ["¿Dónde está la parada de autobús?", "¿Dónde está la parada?", "¿Dónde queda la parada del autobús?", "¿Dónde está la parada del bus?", "¿Dónde está la parada de bus?"]
       ),
-      toEn(
-        "¿Me avisa cuando lleguemos?",
-        "Will you tell me when we get there?",
-        "Avisar = to let someone know. Cuando + subjunctive (lleguemos) for a future moment; you'll study this in the Intermediate level.",
-        ["Can you tell me when we get there?", "Will you let me know when we arrive?", "Can you let me know when we arrive?", "Could you tell me when we arrive?", "Can you let me know when we get there?"]
+      mc(
+        "You don't know where the hospital stop is. What do you ask the driver (usted)?",
+        ["¿Me avisa cuando lleguemos al hospital?", "¿Le aviso cuando lleguemos al hospital?", "¿Me avisa cuando lleguemos en el hospital?", "¿Me avisas cuando llegamos el hospital?"],
+        0,
+        "¿Me avisa...? = will you (usted) let me know; me is you, the one who wants the warning. Llegar takes a (a + el = al), never en. Cuando lleguemos is a fixed chunk for a moment still to come."
       ),
       mc(
         "In Buenos Aires someone says \"Tomá el 60\". What should you take?",
@@ -764,6 +770,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       sec(
         "Dialogue: sending a parcel",
         [
+          "The idea: post-office Spanish is built from three purpose frames, each followed by an infinitive. Quería + infinitive says politely what you want (quería enviar este paquete). Venir a + infinitive says why you've come (vengo a recoger un paquete). Tardar + time + en + infinitive asks or says how long something takes (¿cuánto tarda en llegar?). The clerk answers with usted commands: rellene, firme, póngalo.",
           "Read the dialogue at the post office (Correos in Spain; el correo in most of Latin America).",
           "Key chunks: quería enviar / mandar (I'd like to send), ¿cuánto tarda en llegar? (how long does it take to arrive?), certificado (registered).",
         ],
@@ -777,10 +784,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "What does \"¿Cuánto tarda en llegar?\" ask?",
-            ["How long does it take to arrive?", "How much does it cost to send?", "When does the office close?", "How heavy is it?"],
+            "Ask how long a letter takes to get to Peru.",
+            ["¿Cuánto tarda en llegar a Perú?", "¿Cuánto tarda llegar a Perú?", "¿Cuánto tiempo llega a Perú?", "¿Cuánto tarda en llegar en Perú?"],
             0,
-            "Tardar + time + en + infinitive = to take (time) to do something. ¿Cuánto tarda? = How long does it take?"
+            "Tardar needs en before the infinitive: tarda en llegar. Llegar takes a for the place, and ¿cuánto tiempo llega? is not how Spanish asks about time taken."
           ),
         ]
       ),
@@ -861,10 +868,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Firmar = to sign. Firme is the polite usted command."
       ),
       toEs(
-        "I've come to pick up a parcel.",
-        "Vengo a recoger un paquete.",
-        "Venir a + infinitive for the purpose of your visit.",
-        ["Vengo a buscar un paquete.", "Vine a recoger un paquete.", "Vengo a por un paquete.", "Vengo a recoger un paquete, por favor."]
+        "I've come to pick up a letter for my neighbour.",
+        "Vengo a recoger una carta para mi vecino.",
+        "Venir a + infinitive gives the purpose of your visit; para + person says who it's for.",
+        ["Vengo a recoger una carta para mi vecina.", "Vengo a buscar una carta para mi vecino.", "Vengo a buscar una carta para mi vecina.", "Vengo a por una carta para mi vecino.", "Vengo a por una carta para mi vecina."]
       ),
       toEs(
         "Three stamps for Europe, please.",
@@ -872,11 +879,11 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Sellos in Spain; estampillas or timbres in much of Latin America.",
         ["Tres estampillas para Europa, por favor.", "Tres timbres para Europa, por favor.", "¿Me da tres sellos para Europa?", "Tres sellos para Europa por favor."]
       ),
-      toEn(
-        "Rellene este formulario con la dirección.",
-        "Fill in this form with the address.",
-        "Rellenar = to fill in. Rellene is the usted command.",
-        ["Fill out this form with the address.", "Please fill in this form with the address.", "Fill in this form with your address.", "Fill out this form with your address."]
+      mc(
+        "The clerk says «Rellene este formulario con la dirección.» What do you do?",
+        ["Write the address on the form.", "Read the address out loud.", "Give back the form.", "Put the parcel on the scales."],
+        0,
+        "Rellenar = to fill in; rellene is the polite usted command (-ar verbs swap their -a for -e)."
       ),
       mc(
         "You want the parcel to arrive fast. What do you choose?",
@@ -906,6 +913,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       sec(
         "Dialogue: a haircut",
         [
+          "The idea: Spanish talks about a service done to you with a reflexive verb, as if you did it yourself: me corto el pelo = I get my hair cut, though the hairdresser holds the scissors. The pronoun shows whose hair it is (me corto, te cortas, se corta), so the body part takes el, not mi. And an offer is a plain present question with yo: ¿Te lavo el pelo? = shall I wash your hair?",
           "Read the dialogue at the hairdresser's (la peluquería). The barber's is la barbería.",
           "Key chunks: cortarme el pelo (to get my hair cut), solo las puntas (just the ends), por los lados (at the sides), por detrás (at the back).",
         ],
@@ -920,10 +928,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "What does \"solo las puntas\" mean?",
-            ["Just the ends", "Only the top", "Only the fringe", "Just a wash"],
+            "Your hair is too long at the front. What do you ask for?",
+            ["Un poco más corto por delante, por favor.", "Un poco más corto por detrás, por favor.", "Un poco más corto por los lados, por favor.", "Solo las puntas, por favor."],
             0,
-            "Las puntas are the ends of your hair. Cortar solo las puntas = just a trim."
+            "Por + a place on your head says where: por delante (front), por detrás (back), por los lados (sides). Solo las puntas means just a trim of the ends."
           ),
         ]
       ),
@@ -1003,16 +1011,17 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ["Quería cortarme el pelo.", "Me quiero cortar el pelo.", "Quiero cortarme el cabello.", "Quisiera cortarme el pelo.", "Me quería cortar el pelo."]
       ),
       toEs(
-        "How much do I owe you?",
-        "¿Cuánto le debo?",
-        "Deber = to owe. Le for usted, te for tú.",
-        ["¿Cuánto te debo?", "¿Cuánto es?", "¿Cuánto le debo a usted?"]
+        "How much do we owe you? (usted)",
+        "¿Cuánto le debemos?",
+        "Deber = to owe; debemos for nosotros, and le is the person you owe (usted). With tú it would be ¿Cuánto te debemos?",
+        ["¿Cuánto le debemos a usted?"]
       ),
-      toEn(
+      toEs(
         "¿Te lavo el pelo primero?",
-        "Shall I wash your hair first?",
-        "A question in the present with yo is a common way to offer: ¿Te lavo...? = Shall I wash...?",
-        ["Should I wash your hair first?", "Do you want me to wash your hair first?"]
+        "¿Le lavo el pelo primero?",
+        "The offer stays a present question with yo (lavo); only the pronoun for the customer changes: te for tú, le for usted.",
+        [],
+        "Make it formal (usted)."
       ),
       mc(
         "Your friend says \"Me corté el pelo ayer\". What happened?",
@@ -1042,6 +1051,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       sec(
         "Dialogue: making a plan",
         [
+          "The idea: making plans runs on two families of verbs. Apetecer, gustaría and encantaría work like gustar: the plan is the subject and te / me shows who would enjoy it (¿te apetece ir?, me encantaría). Quedar is the planning verb: quedar = to arrange to meet, quedar con alguien = to meet someone, but quedarse, with se, = to stay. That little se flips the meaning, so watch for it.",
           "Read the dialogue. Two friends arrange to meet.",
           "Key chunks: ¿Te apetece...? / ¿Te gustaría...? (do you fancy / would you like...?), quedar (to meet up, to arrange to meet), ¿Dónde quedamos? (where shall we meet?).",
         ],
@@ -1055,10 +1065,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "What does \"¿Dónde quedamos?\" mean?",
-            ["Where shall we meet?", "Where are we staying?", "Where are we?", "What's left?"],
+            "You want to suggest meeting at the station at seven. What do you say?",
+            ["¿Quedamos en la estación a las siete?", "¿Nos quedamos en la estación a las siete?", "¿Quedamos a la estación en las siete?", "¿Me quedo en la estación a las siete?"],
             0,
-            "Quedar (without se) = to arrange to meet. Quedarse = to stay. ¿Dónde quedamos? = Where shall we meet?"
+            "Quedar without se = to arrange to meet; quedar en + place + a + time. Nos quedamos / me quedo (with se) would mean staying at the station."
           ),
         ]
       ),
@@ -1153,11 +1163,11 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "El viernes = on Friday (no preposition). No puedo can go at the end.",
         ["Lo siento, no puedo el viernes.", "Perdona, el viernes no puedo.", "Lo siento, pero el viernes no puedo.", "Lo siento, el viernes no puedo ir."]
       ),
-      toEn(
-        "No sé si puedo; te digo algo mañana.",
-        "I don't know if I can; I'll let you know tomorrow.",
-        "Te digo algo = I'll let you know. The present is used for a promise about the near future.",
-        ["I don't know if I can, I'll let you know tomorrow.", "I'm not sure if I can; I'll let you know tomorrow.", "I don't know whether I can; I'll let you know tomorrow.", "I don't know if I can; I'll tell you tomorrow."]
+      mc(
+        "Your friend answers your invitation with «No sé si puedo; te digo algo mañana.» What does that mean for your plan?",
+        ["It's still open: she'll let you know tomorrow.", "She has said yes.", "She has said no.", "She wants to meet tomorrow instead."],
+        0,
+        "Te digo algo = I'll let you know, a soft way to leave a plan open. The present (digo) is often used for a promise about the near future."
       ),
       mc(
         "An Argentine friend says \"¿Vamos al cine?\" and you want to say OK. What fits best?",
@@ -1187,6 +1197,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       sec(
         "Dialogue: in the lift",
         [
+          "The idea: small talk is about keeping the ball in the air. Answer briefly, then hand the question back (¿Y tú? / ¿Y usted?) or react. Reactions follow one pattern, ¡Qué + noun or adjective!: ¡Qué calor!, ¡Qué suerte!, ¡Qué bien! And every question changes form with tú or usted, because the verb follows the person: ¿De dónde eres? / ¿De dónde es usted?",
           "Read the dialogue. Two neighbours meet in the lift (el ascensor).",
           "Small talk in Spanish uses a lot of short reactions: ¿Qué tal?, ¡Qué calor!, ¿Y tú?, ¡No me digas!, Ya.",
         ],
@@ -1200,10 +1211,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "What's the neighbour doing with \"¡Qué calor hace hoy!\"?",
-            ["Starting small talk about the weather", "Complaining to the building manager", "Asking for the air conditioning", "Saying she is ill"],
+            "It's pouring with rain when you meet a neighbour at the door. Which exclamation opens the chat?",
+            ["¡Qué lluvia!", "¡Qué llueve!", "¡Qué hace lluvia!", "¡Qué es la lluvia!"],
             0,
-            "¡Qué + noun / adjective! is the typical exclamation for small talk: ¡Qué calor!, ¡Qué frío!, ¡Qué día más bonito!"
+            "Small-talk exclamations are ¡Qué + noun or adjective!: ¡Qué lluvia!, ¡Qué calor!, ¡Qué bonito! Qué doesn't go straight before a verb like llueve."
           ),
         ]
       ),
@@ -1223,10 +1234,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "What does \"¿A qué te dedicas?\" mean?",
-            ["What do you do (for a living)?", "Who do you dedicate it to?", "What are you doing right now?", "Where do you work out?"],
+            "At a work dinner you meet an older guest you address as usted. How do you ask what he does for a living?",
+            ["¿A qué se dedica?", "¿A qué te dedicas?", "¿A qué se dedicas?", "¿Qué dedica usted?"],
             0,
-            "¿A qué te dedicas? is the usual way to ask about someone's job. ¿En qué trabajas? is also common."
+            "Dedicarse a is reflexive, and with usted both the verb and the pronoun take the él / ella form: se dedica. Te dedicas is for tú; se dedicas mixes the two."
           ),
         ]
       ),
@@ -1279,16 +1290,17 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Dedicarse a = to do for a living. ¿A qué te dedicas? (tú) / ¿A qué se dedica? (usted)."
       ),
       fe(
-        "¿Qué tal el fin de ___?",
-        "semana",
-        "How was your [weekend]?",
-        "El fin de semana = the weekend. ¿Qué tal + noun? asks how something was or is."
+        "¿Qué tal las ___? ¿Fuiste a la playa?",
+        "vacaciones",
+        "How were your [holidays]? Did you go to the beach?",
+        "¿Qué tal + noun? asks how something was or is, for any noun: ¿Qué tal el fin de semana?, ¿Qué tal las vacaciones? Las vacaciones is always plural in Spanish."
       ),
       toEs(
-        "Where are you from?",
         "¿De dónde eres?",
-        "Ser de + place for origin. With usted: ¿De dónde es?",
-        ["¿De dónde es usted?", "¿De dónde es?", "¿Tú de dónde eres?", "¿De dónde sos?"]
+        "¿De dónde es usted?",
+        "Usted takes the él / ella form of the verb: eres → es. Adding usted makes the polite form clear.",
+        ["¿De dónde es?", "¿Usted de dónde es?"],
+        "Make it formal (usted)."
       ),
       toEs(
         "Have a good day!",
@@ -1296,11 +1308,11 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Que + subjunctive for a wish. With usted: ¡Que tenga buen día!",
         ["¡Que tengas buen día!", "¡Que tenga un buen día!", "¡Que tenga buen día!", "¡Buen día!", "¡Que pases un buen día!"]
       ),
-      toEn(
-        "Me encanta vivir aquí, aunque echo de menos a mi familia.",
-        "I love living here, although I miss my family.",
-        "Echar de menos = to miss (someone). In Latin America you'll also hear extrañar: extraño a mi familia.",
-        ["I love living here, even though I miss my family.", "I love living here, but I miss my family.", "I love living here although I miss my family."]
+      mc(
+        "Your new friend says «Me encanta vivir aquí, aunque echo de menos a mi familia.» How does she feel?",
+        ["Happy here, but she misses her family.", "Unhappy here, and she wants to go home.", "Happy, because her family lives here too.", "Bored, because she has nothing to do."],
+        0,
+        "Aunque = although: it adds the other side. Echar de menos = to miss someone (in Latin America also extrañar)."
       ),
       mc(
         "In Mexico, a young person greets you with \"¿Qué onda?\". What does it mean?",
@@ -1330,6 +1342,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       sec(
         "Asking for help",
         [
+          "The idea: when something goes wrong you need three moves. Get help from a stranger with usted: a command (¡Llame a una ambulancia!) or ¿Me puede ayudar? Say what has happened with the present perfect, because it has just happened and matters now (he perdido el pasaporte, se ha caído). And say where you are with estar en + place + a landmark (delante de, al lado de).",
           "The short phrases: ¡Ayuda! / ¡Socorro! (Help!), ¿Me puede ayudar? (Can you help me?), Llame a una ambulancia, por favor (Please call an ambulance).",
           "The emergency number is 112 in Spain and across the EU, 911 in Mexico, Argentina and many other countries in the Americas (Colombia uses 123; Chile uses 131 for an ambulance, 132 for the fire brigade and 133 for the police). Operators in tourist areas often speak English too.",
           "On the phone, say what happened, where you are and your name: Necesito una ambulancia. Estoy en la calle Mayor, número 5.",
@@ -1341,6 +1354,12 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
           ["Estoy en la calle Mayor, delante de la farmacia.", "I'm on Calle Mayor, in front of the pharmacy."],
         ],
         [
+          mc(
+            "A woman has hurt her leg in the street. How do you ask a passer-by to call a doctor?",
+            ["¡Llame a un médico, por favor!", "¡Llamar a un médico, por favor!", "¡Llame un médico, por favor!", "¡Llamo a un médico, por favor!"],
+            0,
+            "To a stranger, use the usted command: llamar → llame. Llamar a + person keeps the a. Llamar alone is just the infinitive, and llamo means I call."
+          ),
           mc(
             "Which number do you call for an emergency in Spain?",
             ["112", "911", "010", "123"],
@@ -1415,10 +1434,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Poder + infinitive: ¿Me puede ayudar? Me he perdido = I'm lost (I've got lost)."
       ),
       fe(
-        "¿Dónde está la comisaría más ___?",
-        "cercana",
-        "Where's the [nearest] police station?",
-        "Más cercana = nearest. It agrees with comisaría (feminine)."
+        "¿Dónde está el hospital más ___?",
+        "cercano",
+        "Where's the [nearest] hospital?",
+        "Más cercano = nearest, and it agrees with the place: el hospital → cercano, la comisaría → cercana."
       ),
       fe(
         "___ a una ambulancia, por favor.",
@@ -1434,16 +1453,16 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ["Perdí el pasaporte.", "He perdido mi pasaporte.", "Perdí mi pasaporte.", "Se me ha perdido el pasaporte.", "Se me perdió el pasaporte."]
       ),
       toEs(
-        "Is there anyone who speaks English?",
-        "¿Hay alguien que hable inglés?",
-        "¿Hay alguien que...? takes the subjunctive (hable) because you don't know if that person exists. Just learn it as a chunk for now.",
-        ["¿Alguien habla inglés?", "¿Hay alguien aquí que hable inglés?", "¿Habla alguien inglés?"]
+        "Is there anyone who speaks French?",
+        "¿Hay alguien que hable francés?",
+        "The chunk ¿Hay alguien que hable...? works for any language. It takes the subjunctive (hable) because you don't know if that person exists; just learn it as a chunk for now.",
+        ["¿Alguien habla francés?", "¿Hay alguien aquí que hable francés?", "¿Habla alguien francés?"]
       ),
-      toEn(
-        "Rellene este impreso y vaya a su consulado.",
-        "Fill in this form and go to your consulate.",
-        "Rellene and vaya are usted commands. Un impreso = a (printed) form.",
-        ["Fill out this form and go to your consulate.", "Fill in this form and then go to your consulate.", "Complete this form and go to your consulate."]
+      mc(
+        "At the police station you're told «Rellene este impreso y vaya a su consulado.» What are your next two steps?",
+        ["Fill in a form, then go to your consulate.", "Show your passport, then wait here.", "Phone your consulate, then come back.", "Sign the report, then go to the hospital."],
+        0,
+        "Rellene (rellenar) and vaya (ir) are usted commands: fill in, go. Un impreso is a printed form."
       ),
       mc(
         "In Mexico, which number do you call in an emergency?",

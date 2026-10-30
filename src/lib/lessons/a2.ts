@@ -20,66 +20,101 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "What is the preterite?",
+        "heading": "The idea: the ending tells you who acted, and that it's finished",
         "body": [
-          "The preterite tense describes actions that were completed at a specific point in the past — something that started and finished. It's the tense you reach for when you say what happened.",
-          "Spanish has two simple past tenses: the preterite (for completed events) and the imperfect (for ongoing or habitual ones, coming in Unit 3). For now, focus on the preterite's own forms."
+          "The preterite is the past tense for completed events: something happened and ended (yesterday, last night, in 2019, three times). It is the tense of \"what happened\".",
+          "Spanish builds it the same way as the present: keep the stem (habl-, com-, viv-) and swap the ending. The new ending carries two pieces of information at once: who did it, and that it's over. That's why the subject pronoun is usually dropped: trabajé can only mean \"I worked\".",
+          "Spanish also has a second past, the imperfect (Unit 3), for background and habits. Today, just the preterite's forms."
         ],
         "examples": [
           {
             "es": "Ayer trabajé ocho horas.",
-            "en": "Yesterday I worked eight hours."
+            "en": "Yesterday I worked eight hours. (-é = I, finished)"
           },
           {
             "es": "Ella llegó a las tres.",
-            "en": "She arrived at three."
+            "en": "She arrived at three. (-ó = he/she)"
+          },
+          {
+            "es": "Mis primos vivieron en Bogotá dos años.",
+            "en": "My cousins lived in Bogotá for two years. (a closed period still counts as finished)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Which sentence tells you about something that happened and ended?",
+            "options": [
+              "Ayer cené con Marta.",
+              "Siempre ceno con Marta.",
+              "Voy a cenar con Marta.",
+              "Ceno con Marta ahora."
+            ],
+            "correctIndex": 0,
+            "explanation": "Cené is the yo preterite: a finished event, fixed by ayer. \"Siempre ceno\" is a present habit, \"voy a cenar\" is the near future, and \"ceno... ahora\" is the present."
           }
         ]
       },
       {
-        "heading": "-AR verbs in the preterite",
+        "heading": "-AR verbs: -é, -aste, -ó, -amos, -asteis, -aron",
         "body": [
-          "Drop the -ar and add: -é, -aste, -ó, -amos, -asteis, -aron. Notice the accent marks on the yo and él/ella/usted forms — they matter, since they shift the stress.",
-          "The nosotros form (hablamos) looks identical to the present tense. Context tells you which one is meant."
+          "Drop -ar and add: -é, -aste, -ó, -amos, -asteis, -aron. The yo and él/ella/usted forms carry a written accent on the last syllable, and that accent changes the meaning: hablo = I speak, habló = he spoke.",
+          "Nosotros (-amos) is the same in the present and the preterite. A time word or the context tells you which one is meant."
         ],
         "examples": [
           {
             "es": "hablé, hablaste, habló, hablamos, hablasteis, hablaron",
-            "en": "I/you/he... talked"
+            "en": "I / you / he, she / we / you all / they talked"
           },
           {
             "es": "Hablé con mi jefe esta mañana.",
             "en": "I talked with my boss this morning."
+          },
+          {
+            "es": "El año pasado viajamos a Perú.",
+            "en": "Last year we traveled to Peru. (-amos: the time phrase makes it past)"
           }
         ],
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Conjugate the verb in parentheses.",
-            "sentence": "Nosotros ___ (viajar) a Perú el año pasado.",
-            "answer": "viajamos",
-            "explanation": "The nosotros preterite ending for -ar verbs is -amos, same spelling as the present tense."
+            "prompt": "How do you say the bold words in Spanish?",
+            "sentence": "Ayer mis vecinos ___ el jardín.",
+            "answer": "limpiaron",
+            "en": "Yesterday my neighbors [cleaned] the garden.",
+            "explanation": "Limpiar is a regular -ar verb; mis vecinos = ellos, so the ending is -aron: limpiaron."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Change it to the past.",
+            "source": "Yo bailo mucho.",
+            "answer": "Yo bailé mucho.",
+            "altAnswers": [
+              "Bailé mucho."
+            ],
+            "explanation": "Yo in the -ar preterite ends in accented -é: bailo (present) → bailé (past). The yo is optional."
           }
         ]
       },
       {
-        "heading": "-ER and -IR verbs in the preterite",
+        "heading": "-ER and -IR verbs share one set: -í, -iste, -ió, -imos, -isteis, -ieron",
         "body": [
-          "-er and -ir verbs share the same preterite endings: -í, -iste, -ió, -imos, -isteis, -ieron.",
-          "Just like with -ar verbs, watch the accent marks on the yo and él/ella/usted forms."
+          "-er and -ir verbs, which have separate endings in the present, use the very same preterite endings: -í, -iste, -ió, -imos, -isteis, -ieron. Learn one set, use it for both.",
+          "Again the yo and él/ella forms carry the accent (comí, comió), and nosotros of -ir verbs (vivimos) looks like the present."
         ],
         "examples": [
           {
             "es": "comí, comiste, comió, comimos, comisteis, comieron",
-            "en": "I/you/he... ate"
+            "en": "I / you / he, she / we / you all / they ate"
           },
           {
             "es": "viví, viviste, vivió, vivimos, vivisteis, vivieron",
-            "en": "I/you/he... lived"
+            "en": "I / you / he, she / we / you all / they lived"
           },
           {
-            "es": "Comimos en un restaurante nuevo.",
-            "en": "We ate at a new restaurant."
+            "es": "Mi abuela nos escribió una carta.",
+            "en": "My grandmother wrote us a letter. (escribir: -ió)"
           }
         ],
         "checkpoint": [
@@ -94,36 +129,57 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "-Ir verbs take -ió in the él/ella preterite, with the accent: salió. \"Salio\" is missing the accent, \"salí\" is yo, and \"salíó\" has two accents."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Correct the sentence.",
+            "source": "Ayer Luis bebo mucha agua.",
+            "answer": "Ayer Luis bebió mucha agua.",
+            "explanation": "Luis is él, and beber is -er, so the preterite ending is -ió: bebió. Bebo is the yo present."
           }
         ]
       },
       {
-        "heading": "Spelling changes: -car, -gar, -zar verbs",
+        "heading": "Spelling changes in the yo form: -car, -gar, -zar",
         "body": [
-          "Verbs ending in -car, -gar, and -zar change their spelling only in the yo form, to keep the original sound: buscar → busqué, llegar → llegué, empezar → empecé.",
-          "Every other form of these verbs is completely regular."
+          "The sound of the stem has to survive the new -é ending. C before e would sound like s, and g before e would sound like the Spanish j, so the spelling adjusts: c → qu, g → gu, z → c.",
+          "This happens only in the yo form, because it is the only form with -é: buscar → busqué but buscaste, buscó; llegar → llegué but llegó; empezar → empecé but empezó."
         ],
         "examples": [
           {
-            "es": "busqué mis llaves",
-            "en": "I looked for my keys"
+            "es": "Busqué mis llaves por toda la casa.",
+            "en": "I looked for my keys all over the house. (c → qu)"
           },
           {
-            "es": "llegué temprano",
-            "en": "I arrived early"
+            "es": "Llegué temprano, pero mi amigo llegó tarde.",
+            "en": "I arrived early, but my friend arrived late. (only yo changes)"
           },
           {
-            "es": "empecé el proyecto",
-            "en": "I started the project"
+            "es": "Empecé el curso en enero.",
+            "en": "I started the course in January. (z → c)"
           }
         ],
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Conjugate the verb in the yo form.",
-            "sentence": "Anoche ___ (jugar) fútbol con mis amigos.",
+            "prompt": "How do you say the bold words in Spanish?",
+            "sentence": "Anoche ___ fútbol con mis amigos.",
             "answer": "jugué",
-            "explanation": "Jugar ends in -gar, so the yo form changes g → gu to keep the hard g sound: jugué."
+            "en": "Last night I [played] soccer with my friends.",
+            "explanation": "Jugar ends in -gar, so the yo form changes g → gu to keep the hard g sound: jugué. Without the u, \"jugé\" would sound like \"huh-JEH\"."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Which yo form of tocar (to play an instrument) is spelled correctly?",
+            "options": [
+              "toqué",
+              "tocé",
+              "toque",
+              "tocó"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tocar ends in -car: before -é the c becomes qu to keep the k sound, so toqué. \"Tocé\" would be said with an s sound, \"toque\" has no accent, and \"tocó\" is él/ella."
           }
         ]
       }
@@ -131,17 +187,19 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Conjugate the verb.",
-        "sentence": "Yo ___ (estudiar) toda la noche.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Yo ___ toda la noche.",
         "answer": "estudié",
-        "explanation": "Regular -ar preterite, yo form: estudié."
+        "en": "I [studied] all night.",
+        "explanation": "Regular -ar preterite, yo form: -é with an accent, estudié. \"Estudio\" would be the present."
       },
       {
         "type": "fill-blank",
-        "prompt": "Conjugate the verb.",
-        "sentence": "Ellos ___ (comer) en casa de mi abuela.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Ellos ___ en casa de mi abuela.",
         "answer": "comieron",
-        "explanation": "Regular -er preterite, ellos form: comieron."
+        "en": "They [ate] at my grandmother's house.",
+        "explanation": "Comer is -er; ellos takes -ieron in the preterite: comieron."
       },
       {
         "type": "multiple-choice",
@@ -166,6 +224,200 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 0,
         "explanation": "In the yo preterite, llegar adds u to keep the hard g sound, plus an accented -é: llegué. \"Llegue\" (no accent) is subjunctive, \"llegó\" is él/ella, and \"llego\" is the yo present."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Which form means 'she paid'?",
+        "options": [
+          "pagó",
+          "pago",
+          "pagué",
+          "pague"
+        ],
+        "correctIndex": 0,
+        "explanation": "Pagó, with the accent on the last syllable, is ella in the preterite. Pago is \"I pay\", pagué is \"I paid\" (yo, with the gu spelling), and pague has no accent and is not a preterite."
+      },
+      {
+        "type": "multi-select",
+        "question": "Which of these can only be preterite forms?",
+        "options": [
+          "cantaste",
+          "vivimos",
+          "abrió",
+          "trabajamos",
+          "decidieron"
+        ],
+        "correctIndexes": [
+          0,
+          2,
+          4
+        ],
+        "explanation": "-aste, -ió and -ieron exist only in the preterite. Vivimos and trabajamos (nosotros) are identical in the present and the preterite, so only context can decide."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past.",
+        "source": "Hablo con Ana.",
+        "answer": "Hablé con Ana.",
+        "altAnswers": [
+          "Yo hablé con Ana."
+        ],
+        "explanation": "Yo of an -ar verb in the preterite ends in accented -é: hablo → hablé."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past.",
+        "source": "Mi hermana bebe un café.",
+        "answer": "Mi hermana bebió un café.",
+        "explanation": "Mi hermana = ella, and beber is -er: -ió with an accent, bebió."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past.",
+        "source": "Ellos abren las ventanas.",
+        "answer": "Ellos abrieron las ventanas.",
+        "altAnswers": [
+          "Abrieron las ventanas."
+        ],
+        "explanation": "Ellos of -er/-ir verbs ends in -ieron in the preterite: abren → abrieron."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to tú.",
+        "source": "Yo compré un coche.",
+        "answer": "Tú compraste un coche.",
+        "altAnswers": [
+          "Compraste un coche.",
+          "Compraste un carro.",
+          "Tú compraste un carro.",
+          "Compraste un auto.",
+          "Tú compraste un auto."
+        ],
+        "explanation": "Tú in the -ar preterite ends in -aste, with no final -s (not \"comprastes\")."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Ayer mi padre llego a las seis.",
+        "answer": "Ayer mi padre llegó a las seis.",
+        "explanation": "Él form of an -ar verb: -ó with an accent. Without it, llego means \"I arrive\"."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Esta mañana buscé un libro en la biblioteca.",
+        "answer": "Esta mañana busqué un libro en la biblioteca.",
+        "explanation": "Buscar changes c to qu before -é in the yo form only: busqué, not \"buscé\" (which would sound like \"bus-SAY\")."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "¿Hablastes con el profesor ayer?",
+        "answer": "¿Hablaste con el profesor ayer?",
+        "altAnswers": [
+          "¿Hablaste tú con el profesor ayer?"
+        ],
+        "explanation": "The tú preterite ends in -aste with no -s at the end: hablaste. \"Hablastes\" is a common slip, but not standard."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Anoche ___ una carta a mi abuela.",
+        "answer": "escribí",
+        "en": "Last night I [wrote] a letter to my grandmother.",
+        "explanation": "Yo form of -er/-ir verbs ends in -í with an accent: escribí."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "We lived in Chile.",
+        "answer": "Vivimos en Chile.",
+        "altAnswers": [
+          "Nosotros vivimos en Chile."
+        ],
+        "explanation": "Nosotros of -ir verbs is -imos in both present and preterite; the English past tells you it is preterite."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "I started a new job yesterday.",
+        "answer": "Empecé un trabajo nuevo ayer.",
+        "altAnswers": [
+          "Ayer empecé un trabajo nuevo.",
+          "Empecé un nuevo trabajo ayer.",
+          "Ayer empecé un nuevo trabajo."
+        ],
+        "explanation": "Empezar changes z to c before -é in the yo form: empecé (empezó for él/ella keeps the z)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "You all (Latin America) worked a lot yesterday.",
+        "answer": "Ustedes trabajaron mucho ayer.",
+        "altAnswers": [
+          "Ayer ustedes trabajaron mucho."
+        ],
+        "explanation": "Ustedes takes the same ending as ellos: -aron."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "I practiced the piano and then I had lunch.",
+        "answer": "Practiqué el piano y luego almorcé.",
+        "altAnswers": [
+          "Practiqué el piano y después almorcé."
+        ],
+        "explanation": "Two yo spelling changes: practicar c → qu (practiqué) and almorzar z → c (almorcé). Both keep the stem's sound before -é."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "My friends left the party and ran to the bus.",
+        "answer": "Mis amigos salieron de la fiesta y corrieron al autobús.",
+        "altAnswers": [
+          "Mis amigos salieron de la fiesta y corrieron al bus."
+        ],
+        "explanation": "Salir (-ir) and correr (-er) share the same ellos ending, -ieron."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Put the words in order.",
+        "words": [
+          "Ayer",
+          "mis",
+          "amigos",
+          "salieron",
+          "muy",
+          "tarde"
+        ],
+        "translation": "Yesterday my friends left very late",
+        "explanation": "Time word first, then subject and the preterite verb salieron (-ieron for ellos)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "I arrived early and paid for the coffee.",
+        "answer": "Llegué temprano y pagué el café.",
+        "explanation": "Both -gar verbs add a u in the yo form to keep the hard g sound: llegué, pagué."
+      },
+      {
+        "type": "speak",
+        "prompt": "Say it in Spanish: Yesterday I cooked, my brother washed the dishes and we watched a movie.",
+        "text": "Ayer cociné, mi hermano lavó los platos y miramos una película.",
+        "explanation": "Three people, three endings: cociné (yo, -é), lavó (él, -ó), miramos (nosotros, -amos: the same form as the present, but ayer makes it past)."
       }
     ]
   },
@@ -178,9 +430,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Put it into practice",
+        "heading": "The idea: questions and answers mirror each other",
         "body": [
-          "Dos amigas hablan sobre su fin de semana."
+          "When people talk about what they did, the verb ending flips between question and answer, because the person flips. A tú question (-aste / -iste) gets a yo answer (-é / -í). An ustedes question (-aron / -ieron) gets a nosotros answer (-amos / -imos).",
+          "Listen to two friends talk about their weekend and watch the endings swap."
         ],
         "examples": [
           {
@@ -189,15 +442,15 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Viajé a la playa con mi familia.",
-            "en": "I went to the beach with my family."
+            "en": "I went to the beach with my family. (tú question → yo answer: -é)"
           },
           {
             "es": "¿Cómo llegaron?",
-            "en": "How did you get there?"
+            "en": "How did you (all) get there?"
           },
           {
             "es": "Manejamos cuatro horas y llegamos por la tarde.",
-            "en": "We drove for four hours and arrived in the afternoon."
+            "en": "We drove for four hours and arrived in the afternoon. (ustedes → nosotros: -amos)"
           },
           {
             "es": "¡Qué bien! ¿Nadaron en el mar?",
@@ -224,13 +477,26 @@ const A2_BASE_LESSONS: Lesson[] = [
               2
             ],
             "explanation": "The dialogue says they drove (manejaron), swam (nadaron) and walked on the beach (caminaron). It never mentions renting a boat (alquilaron un barco)."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Your friend asks: «¿Visitaste el museo?» You answer:",
+            "options": [
+              "Sí, lo visité ayer.",
+              "Sí, lo visitaste ayer.",
+              "Sí, lo visitó ayer.",
+              "Sí, lo visitamos ayer, yo."
+            ],
+            "correctIndex": 0,
+            "explanation": "A tú question (visitaste) gets a yo answer: visité. \"Visitaste\" just repeats the tú form, \"visitó\" is él/ella, and \"visitamos... yo\" mixes nosotros with yo."
           }
         ]
       },
       {
-        "heading": "Vocabulary: Travel & Trips",
+        "heading": "Vocabulary: travel and trips, and the family pattern behind them",
         "body": [
-          "Thirty words for planning and describing a trip — useful with all the preterite verbs from this lesson."
+          "Thirty words for planning and describing a trip. Many come in families: a verb and the noun made from it. -Ar verbs often give a noun in -ada and -er/-ir verbs one in -ida: llegar → la llegada (arrival), salir → la salida (departure). Others drop the ending: reservar → la reserva, viajar → el viaje.",
+          "Two pairs differ by region: el boleto (Latin America) / el billete (Spain), and el coche (Spain) / el carro or el auto (Latin America)."
         ],
         "examples": [
           {
@@ -239,7 +505,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el viaje",
-            "en": "the trip"
+            "en": "the trip (from viajar)"
           },
           {
             "es": "la maleta",
@@ -255,7 +521,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el vuelo",
-            "en": "the flight"
+            "en": "the flight (from volar, to fly)"
           },
           {
             "es": "despegar",
@@ -271,7 +537,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la reserva",
-            "en": "the reservation"
+            "en": "the reservation (from reservar)"
           },
           {
             "es": "el pasaporte",
@@ -331,11 +597,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el recuerdo",
-            "en": "the souvenir / memory"
+            "en": "the souvenir / memory (from recordar)"
           },
           {
             "es": "la salida",
-            "en": "the departure"
+            "en": "the departure (from salir: -ida)"
           },
           {
             "es": "el destino",
@@ -401,6 +667,18 @@ const A2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "These are ten of the trip-planning words from this section."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Llegar gives la llegada (arrival). Following the same pattern, what is \"the entrance\" from entrar?",
+            "options": [
+              "la entrada",
+              "la entrida",
+              "el entro",
+              "la entranza"
+            ],
+            "correctIndex": 0,
+            "explanation": "-Ar verbs make nouns in -ada: llegar → llegada, entrar → entrada. -Ida is for -er/-ir verbs (salir → salida), and the other two are not Spanish words."
           }
         ]
       }
@@ -418,20 +696,20 @@ const A2_BASE_LESSONS: Lesson[] = [
           "verano",
           "pasado"
         ],
-        "explanation": "The sentence follows subject, verb, destination, time word order: nosotros, viajamos, a México, el verano pasado.",
-        "translation": "We traveled to Mexico last summer."
+        "translation": "We traveled to Mexico last summer.",
+        "explanation": "Subject, verb, destination, time: nosotros, viajamos, a México, el verano pasado."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Translate this sentence to Spanish.",
+        "prompt": "Translate to Spanish.",
         "source": "They arrived at the hotel very late.",
         "answer": "Llegaron al hotel muy tarde.",
-        "explanation": "\"They\" is ellos/ellas, so the preterite form is llegaron.",
         "altAnswers": [
           "Ellos llegaron al hotel muy tarde.",
           "Ellas llegaron al hotel muy tarde."
-        ]
+        ],
+        "explanation": "\"They\" is ellos/ellas, so the preterite form is llegaron."
       },
       {
         "type": "matching",
@@ -475,6 +753,183 @@ const A2_BASE_LESSONS: Lesson[] = [
           2
         ],
         "explanation": "\"El jefe\" (the boss) is a work word, not a travel word."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Salir gives la salida (departure). What is \"the drink\" from beber?",
+        "options": [
+          "la bebida",
+          "la bebada",
+          "el bebo",
+          "la bebición"
+        ],
+        "correctIndex": 0,
+        "explanation": "-Er and -ir verbs make nouns in -ida: salir → salida, beber → bebida, comer → comida. -Ada belongs to -ar verbs."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Your friends ask: «¿Alquilaron un coche?» You answer for your group:",
+        "options": [
+          "Sí, alquilamos uno.",
+          "Sí, alquilaron uno.",
+          "Sí, alquilé uno, nosotros.",
+          "Sí, alquilasteis uno."
+        ],
+        "correctIndex": 0,
+        "explanation": "An ustedes question (alquilaron) gets a nosotros answer (alquilamos). Repeating alquilaron would mean \"they rented\"; alquilasteis is vosotros, the asker's side."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Answer yes, in full.",
+        "source": "¿Reservaste el hotel?",
+        "answer": "Sí, reservé el hotel.",
+        "altAnswers": [
+          "Sí, yo reservé el hotel.",
+          "Sí, lo reservé."
+        ],
+        "explanation": "Mirror rule: a tú question (reservaste) gets a yo answer (reservé)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Answer yes, for your group.",
+        "source": "¿Salieron temprano?",
+        "answer": "Sí, salimos temprano.",
+        "altAnswers": [
+          "Sí, nosotros salimos temprano."
+        ],
+        "explanation": "An ustedes question (salieron) gets a nosotros answer: salimos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change to nosotros.",
+        "source": "Yo dejé la maleta en el hotel.",
+        "answer": "Nosotros dejamos la maleta en el hotel.",
+        "altAnswers": [
+          "Dejamos la maleta en el hotel."
+        ],
+        "explanation": "Nosotros -ar preterite: -amos, dejamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past.",
+        "source": "El vuelo sale a las ocho.",
+        "answer": "El vuelo salió a las ocho.",
+        "explanation": "Salir is regular in the preterite: él/ella takes -ió, salió."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Los turistas quedaron en un hotel cerca de la playa.",
+        "answer": "Los turistas se quedaron en un hotel cerca de la playa.",
+        "explanation": "Quedarse (to stay) is reflexive, so it keeps its pronoun: se quedaron. Without se, quedar means \"to arrange to meet\" or \"to be left\"."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "¿Reservastes las entradas para la excursión?",
+        "answer": "¿Reservaste las entradas para la excursión?",
+        "altAnswers": [
+          "¿Reservaste los boletos para la excursión?",
+          "¿Reservaste los billetes para la excursión?"
+        ],
+        "explanation": "The tú preterite ends in -aste, with no final -s: reservaste."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "En el aeropuerto buscé mi pasaporte por todas partes.",
+        "answer": "En el aeropuerto busqué mi pasaporte por todas partes.",
+        "explanation": "Buscar changes c → qu before -é in the yo form: busqué."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "We rented a car in Spain.",
+        "answer": "Alquilamos un coche en España.",
+        "altAnswers": [
+          "Alquilamos un carro en España.",
+          "Alquilamos un auto en España."
+        ],
+        "explanation": "Alquilar, -ar verb: alquilamos. In Latin America carro or auto."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "En el viaje ___ las montañas.",
+        "answer": "exploramos",
+        "en": "On the trip we [explored] the mountains.",
+        "explanation": "Explorar, nosotros preterite: exploramos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "I bought a souvenir at the airport.",
+        "answer": "Compré un recuerdo en el aeropuerto.",
+        "explanation": "Compré: yo preterite, -é. Recuerdo = souvenir (from recordar, to remember)."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Put the words in order.",
+        "words": [
+          "El",
+          "avión",
+          "despegó",
+          "tarde",
+          "y",
+          "llegamos",
+          "a",
+          "medianoche"
+        ],
+        "translation": "The plane took off late and we arrived at midnight",
+        "explanation": "Despegó (él) then llegamos (nosotros)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "We stayed three days in the mountains.",
+        "answer": "Nos quedamos tres días en las montañas.",
+        "altAnswers": [
+          "Nos quedamos en las montañas tres días."
+        ],
+        "explanation": "Quedarse keeps its pronoun: nos quedamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "At customs they looked at our passports and our luggage.",
+        "answer": "En la aduana miraron nuestros pasaportes y nuestro equipaje.",
+        "altAnswers": [
+          "En la aduana revisaron nuestros pasaportes y nuestro equipaje."
+        ],
+        "explanation": "Ellos preterite of mirar: miraron. Equipaje is singular in Spanish."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Our flight had a layover in Panama and we arrived at the destination at night.",
+        "answer": "Nuestro vuelo hizo escala en Panamá y llegamos al destino por la noche.",
+        "altAnswers": [
+          "Nuestro vuelo hizo escala en Panamá y llegamos a nuestro destino por la noche."
+        ],
+        "explanation": "Hacer escala = to have a layover (hizo: the él preterite of hacer). Llegamos: nosotros, -amos."
+      },
+      {
+        "type": "speak",
+        "prompt": "Answer aloud in Spanish: ¿Qué visitaste en tu último viaje? (Say you visited the old town and took lots of photos.)",
+        "text": "Visité el centro histórico y saqué muchas fotos.",
+        "explanation": "Mirror rule: visitaste → visité. Sacar changes c → qu in the yo form: saqué."
       }
     ]
   },
@@ -487,18 +942,53 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
+        "heading": "The idea: a new stem, one shared set of endings, no accents",
+        "body": [
+          "The most common verbs have irregular preterites, but they are irregular in an organized way. Each one swaps its stem for a short new one (tener → tuv-, hacer → hic-, decir → dij-), and then they ALL take the same endings: -e, -iste, -o, -imos, -isteis, -ieron.",
+          "Those endings carry no written accent, because the stress falls on the stem: tuve (TU-ve), not tuvé. So the rule is: learn the stem, then reuse the one ending set. Ser and ir are the only real oddballs."
+        ],
+        "examples": [
+          {
+            "es": "Tuve un día largo.",
+            "en": "I had a long day. (tuv- + -e, no accent)"
+          },
+          {
+            "es": "¿Qué hiciste anoche?",
+            "en": "What did you do last night? (hic- + -iste)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Which form follows the irregular-preterite pattern?",
+            "options": [
+              "estuve",
+              "estuvé",
+              "estí",
+              "esté"
+            ],
+            "correctIndex": 0,
+            "explanation": "Estar → estuv- + -e: estuve, with no accent (the stress is on TU). \"Estuvé\" adds a regular-style accent, and the other two are not preterite forms."
+          }
+        ]
+      },
+      {
         "heading": "Ser and ir: identical in the preterite",
         "body": [
-          "Ser (to be) and ir (to go) share the exact same preterite forms: fui, fuiste, fue, fuimos, fuisteis, fueron. Context always makes clear which verb is meant."
+          "Ser (to be) and ir (to go) share the exact same preterite forms: fui, fuiste, fue, fuimos, fuisteis, fueron. Context always makes clear which verb is meant: a place with a after it means ir; a description means ser."
         ],
         "examples": [
           {
             "es": "Fui estudiante en esa universidad.",
-            "en": "I was a student at that university. (ser)"
+            "en": "I was a student at that university. (ser: what I was)"
           },
           {
             "es": "Fui a la universidad en autobús.",
-            "en": "I went to the university by bus. (ir)"
+            "en": "I went to the university by bus. (ir: a + place)"
+          },
+          {
+            "es": "La fiesta fue increíble.",
+            "en": "The party was incredible. (ser: a description)"
           }
         ],
         "checkpoint": [
@@ -512,57 +1002,64 @@ const A2_BASE_LESSONS: Lesson[] = [
               "estar"
             ],
             "correctIndex": 1,
-            "explanation": "Fuimos al cine (we went to the movies) uses ir, not ser."
+            "explanation": "Fuimos al cine (we went to the movies): a + place means movement, so it's ir, not ser."
           }
         ]
       },
       {
         "heading": "Tener, estar, poder, poner: the \"u\" stem group",
         "body": [
-          "These verbs replace their stem with one containing a u, then take a shared set of irregular endings: -e, -iste, -o, -imos, -isteis, -ieron — no accent marks this time.",
-          "tener → tuv-, estar → estuv-, poder → pud-, poner → pus-."
+          "These verbs swap their stem for one with a u, then take the shared endings: tener → tuv-, estar → estuv-, poder → pud-, poner → pus-."
         ],
         "examples": [
           {
             "es": "tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron",
-            "en": "I/you/he... had"
+            "en": "I / you / he, she / we / you all / they had"
           },
           {
             "es": "Estuvimos en la fiesta hasta la medianoche.",
-            "en": "We were at the party until midnight."
+            "en": "We were at the party until midnight. (estuv- + -imos)"
           },
           {
             "es": "No pude terminar la tarea.",
-            "en": "I couldn't finish the homework."
+            "en": "I couldn't finish the homework. (pud- + -e)"
           }
         ],
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Conjugate the verb.",
-            "sentence": "Ayer ___ (tener) una cita con el médico.",
+            "prompt": "How do you say the bold words in Spanish?",
+            "sentence": "Ayer ___ una cita con el médico.",
             "answer": "tuve",
-            "explanation": "Tener's irregular preterite stem is tuv-, with the yo ending -e: tuve."
+            "en": "Yesterday I [had] a doctor's appointment.",
+            "explanation": "Tener's preterite stem is tuv-, with the yo ending -e: tuve. No accent."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Change it to the past.",
+            "source": "Pongo la mesa.",
+            "answer": "Puse la mesa.",
+            "altAnswers": [
+              "Yo puse la mesa."
+            ],
+            "explanation": "Poner → pus- + -e: puse. Not \"poní\": the u-stem replaces the whole regular form."
           }
         ]
       },
       {
         "heading": "Hacer, querer, venir: the \"i\" stem group",
         "body": [
-          "hacer → hic- (hizo in the él/ella form, with a c→z spelling change to keep the soft sound), querer → quis-, venir → vin-. Same irregular endings as above."
+          "hacer → hic-, querer → quis-, venir → vin-, with the same endings. One spelling detail: hacer's él/ella form is hizo, because c before o would sound like k, so it is written z."
         ],
         "examples": [
           {
             "es": "hice, hiciste, hizo, hicimos, hicisteis, hicieron",
-            "en": "I/you/he... did / made"
+            "en": "I / you / he, she / we / you all / they did, made"
           },
           {
             "es": "Ella vino a mi fiesta de cumpleaños.",
-            "en": "She came to my birthday party."
-          },
-          {
-            "es": "¿Qué hiciste anoche?",
-            "en": "What did you do last night?"
+            "en": "She came to my birthday party. (vin- + -o)"
           }
         ],
         "checkpoint": [
@@ -576,32 +1073,41 @@ const A2_BASE_LESSONS: Lesson[] = [
               "haciendo"
             ],
             "correctIndex": 1,
-            "explanation": "The él/ella preterite of hacer is hizo, spelled with z instead of c."
+            "explanation": "The él/ella preterite of hacer is hizo, spelled with z to keep the soft sound. Hacía is the imperfect, hace the present and haciendo a gerund."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "How do you say the bold words in Spanish?",
+            "sentence": "Mis primos no ___ ir al museo.",
+            "answer": "quisieron",
+            "en": "My cousins didn't [want] to go to the museum.",
+            "explanation": "Querer → quis- + -ieron: quisieron. Same endings as tuvieron and vinieron."
           }
         ]
       },
       {
         "heading": "Decir and traer: the \"j\" stem group",
         "body": [
-          "decir → dij-, traer → traj-. These take the same endings, but the ellos/ellas form drops the i: dijeron, trajeron — not dijieron."
+          "decir → dij-, traer → traj-. They take the same endings, but after j the ellos/ellas ending loses its i: dijeron, trajeron, not \"dijieron\"."
         ],
         "examples": [
           {
             "es": "dije, dijiste, dijo, dijimos, dijisteis, dijeron",
-            "en": "I/you/he... said"
+            "en": "I / you / he, she / we / you all / they said"
           },
           {
             "es": "Trajeron comida a la reunión.",
-            "en": "They brought food to the meeting."
+            "en": "They brought food to the meeting. (j: -eron)"
           }
         ],
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Conjugate the verb.",
-            "sentence": "Mis padres ___ (decir) que sí.",
+            "prompt": "How do you say the bold words in Spanish?",
+            "sentence": "Mis padres ___ que sí.",
             "answer": "dijeron",
-            "explanation": "The ellos form of decir drops the i: dijeron, not dijieron."
+            "en": "My parents [said] yes.",
+            "explanation": "The ellos form of decir drops the i after j: dijeron, not dijieron."
           }
         ]
       }
@@ -609,10 +1115,11 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Conjugate the verb.",
-        "sentence": "Nosotros ___ (estar) en la playa todo el día.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Nosotros ___ en la playa todo el día.",
         "answer": "estuvimos",
-        "explanation": "Estar's irregular preterite stem is estuv-, nosotros ending -imos: estuvimos."
+        "en": "We [were] at the beach all day.",
+        "explanation": "Estar → estuv- + -imos: estuvimos."
       },
       {
         "type": "multiple-choice",
@@ -640,14 +1147,199 @@ const A2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "Hacer belongs to the \"i\" stem group (hic-), not the \"u\" group."
+        "explanation": "Tener (tuv-), poner (pus-) and estar (estuv-) are u-stems. Hacer belongs to the \"i\" stem group (hic-)."
       },
       {
         "type": "fill-blank",
-        "prompt": "Conjugate the verb.",
-        "sentence": "¿___ (poder) tú terminar el examen?",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "¿___ tú terminar el examen?",
         "answer": "Pudiste",
-        "explanation": "Poder's irregular stem is pud-, with the tú ending -iste: pudiste."
+        "en": "[Were you able to] finish the exam? (tú)",
+        "explanation": "Poder → pud- + -iste: pudiste."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Which is correct for 'they had'?",
+        "options": [
+          "tuvieron",
+          "tenieron",
+          "tuveron",
+          "tenían"
+        ],
+        "correctIndex": 0,
+        "explanation": "U-group: tuv- + -ieron. \"Tenieron\" uses the regular stem, \"tuveron\" drops the i (only j-stems do that), and tenían is the imperfect."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Andar (to walk) is also a u-stem: anduv-. \"Yesterday we walked a lot\" is:",
+        "options": [
+          "Ayer anduvimos mucho.",
+          "Ayer andamos mucho.",
+          "Ayer anduvemos mucho.",
+          "Ayer andimos mucho."
+        ],
+        "correctIndex": 0,
+        "explanation": "New stem, same endings: anduv- + -imos = anduvimos. You can apply the pattern to a verb you haven't drilled. (Ayer caminamos mucho is the everyday alternative.)"
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past.",
+        "source": "Ella viene en autobús.",
+        "answer": "Ella vino en autobús.",
+        "altAnswers": [
+          "Vino en autobús."
+        ],
+        "explanation": "Venir → vin- + -o: vino, with no accent."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past.",
+        "source": "Tienen un problema.",
+        "answer": "Tuvieron un problema.",
+        "altAnswers": [
+          "Ellos tuvieron un problema."
+        ],
+        "explanation": "Tener → tuv- + -ieron: tuvieron."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change to yo.",
+        "source": "Él hizo la tarea.",
+        "answer": "Yo hice la tarea.",
+        "altAnswers": [
+          "Hice la tarea.",
+          "Hice los deberes.",
+          "Yo hice los deberes."
+        ],
+        "explanation": "Hacer → hic- + -e: hice. The z only appears in hizo (él/ella)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change to ellos.",
+        "source": "Yo dije la verdad.",
+        "answer": "Ellos dijeron la verdad.",
+        "altAnswers": [
+          "Dijeron la verdad."
+        ],
+        "explanation": "Dij- + -eron: after j the ellos ending drops its i."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Ayer estuvé en casa todo el día.",
+        "answer": "Ayer estuve en casa todo el día.",
+        "explanation": "Irregular preterites have no accent on the ending: estuve (es-TU-ve)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Mis amigos trajieron pizza a la fiesta.",
+        "answer": "Mis amigos trajeron pizza a la fiesta.",
+        "explanation": "J-stems drop the i in the ellos form: trajeron, not trajieron."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Ayer poní las llaves en la mesa.",
+        "answer": "Ayer puse las llaves en la mesa.",
+        "explanation": "Poner is a u-stem: pus- + -e, puse. \"Poní\" applies the regular endings to an irregular verb."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "¿___ tú la cena anoche?",
+        "answer": "Hiciste",
+        "en": "Did you [make] dinner last night?",
+        "explanation": "Hacer → hic- + -iste: hiciste."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Mi hermano no ___ venir a la cena.",
+        "answer": "quiso",
+        "en": "My brother didn't [want] to come to dinner.",
+        "explanation": "Querer → quis- + -o: quiso (no accent)."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "La clase ___ muy aburrida.",
+        "answer": "fue",
+        "en": "The class [was] very boring.",
+        "explanation": "A description of the class: ser, whose preterite is fue (the same form as ir)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "We went to the market.",
+        "answer": "Fuimos al mercado.",
+        "explanation": "Ir in the preterite: fuimos (the same form as ser; al mercado shows it's ir)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "I told my mother the news.",
+        "answer": "Le dije la noticia a mi madre.",
+        "altAnswers": [
+          "Le dije la noticia a mi mamá.",
+          "Le dije las noticias a mi madre.",
+          "Le dije las noticias a mi mamá.",
+          "Dije la noticia a mi madre.",
+          "Le conté la noticia a mi madre.",
+          "Le conté la noticia a mi mamá."
+        ],
+        "explanation": "Decir → dij- + -e: dije, no accent."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Put the words in order.",
+        "words": [
+          "Nosotros",
+          "no",
+          "pudimos",
+          "terminar",
+          "el",
+          "trabajo"
+        ],
+        "translation": "We couldn't finish the work",
+        "explanation": "Poder → pudimos; no goes before the verb."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "You (tú) came late and you didn't say anything.",
+        "answer": "Viniste tarde y no dijiste nada.",
+        "altAnswers": [
+          "Tú viniste tarde y no dijiste nada."
+        ],
+        "explanation": "Venir → viniste, decir → dijiste: irregular stems with the shared -iste ending."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Last week we were in Madrid and we had a lot of work.",
+        "answer": "La semana pasada estuvimos en Madrid y tuvimos mucho trabajo.",
+        "altAnswers": [
+          "Estuvimos en Madrid la semana pasada y tuvimos mucho trabajo."
+        ],
+        "explanation": "Estar → estuvimos for location; tener → tuvimos. Both u-group, no accents."
+      },
+      {
+        "type": "speak",
+        "prompt": "Say it in Spanish: Last night I went to a concert. It was fantastic, but I couldn't buy a T-shirt.",
+        "text": "Anoche fui a un concierto. Fue fantástico, pero no pude comprar una camiseta.",
+        "explanation": "Fui (ir: a + place), fue (ser: a description) and pude (pud- + -e). No accents on irregular preterite endings."
       }
     ]
   },
@@ -660,9 +1352,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Put it into practice",
+        "heading": "The idea: a story is a chain of finished events",
         "body": [
-          "Dos compañeros de trabajo hablan sobre una reunión importante."
+          "When you tell what happened, each finished step goes in the preterite, and the irregular verbs (vino, pudo, dijo, hice, estuve) are the ones you'll use most. Remember: new stem, shared endings -e, -iste, -o, -imos, -ieron, no accents.",
+          "Two coworkers talk about a meeting. Notice how each event moves the story forward."
         ],
         "examples": [
           {
@@ -671,11 +1364,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "El jefe vino tarde y no pudo empezar a tiempo.",
-            "en": "The boss came late and couldn't start on time."
+            "en": "The boss came late and couldn't start on time. (vin- + -o, pud- + -o)"
           },
           {
             "es": "¿Y qué dijo sobre el proyecto?",
-            "en": "And what did he say about the project?"
+            "en": "And what did he say about the project? (dij- + -o)"
           },
           {
             "es": "Dijo que teníamos que terminar todo antes del viernes.",
@@ -683,11 +1376,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "¡Qué estrés! ¿Hiciste el reporte ya?",
-            "en": "How stressful! Did you do the report yet?"
+            "en": "How stressful! Did you do the report yet? (hic- + -iste)"
           },
           {
             "es": "Sí, lo hice anoche. Estuve trabajando hasta las once.",
-            "en": "Yes, I did it last night. I was working until eleven."
+            "en": "Yes, I did it last night. I was working until eleven. (hiciste → hice)"
           }
         ],
         "checkpoint": [
@@ -702,18 +1395,31 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "The dialogue says \"El jefe vino tarde y no pudo empezar a tiempo\": he couldn't start because he arrived late. It doesn't mention a computer, illness or forgetting the meeting."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Answer yes: you did it last night.",
+            "source": "¿Hiciste el reporte?",
+            "answer": "Sí, lo hice anoche.",
+            "altAnswers": [
+              "Sí, hice el reporte anoche.",
+              "Sí, anoche lo hice."
+            ],
+            "explanation": "A tú question (hiciste) gets a yo answer: hice. Lo replaces el reporte."
           }
         ]
       },
       {
-        "heading": "Vocabulary: Time Expressions & Frequency",
+        "heading": "Vocabulary: time expressions, and the -mente pattern",
         "body": [
-          "Thirty words that pair naturally with the preterite and imperfect to say when and how often something happened."
+          "Thirty words that say when, in what order and how often. Many adverbs are built the same way: feminine adjective + -mente, like English -ly: final → finalmente, reciente → recientemente, último → últimamente.",
+          "One trap: actualmente means \"currently\", not \"actually\" (that's en realidad). Sequence words (primero, luego, después, entonces, finalmente) and finished-time words (anoche, el año pasado, de repente) usually come with the preterite."
         ],
         "examples": [
           {
             "es": "actualmente",
-            "en": "currently / nowadays"
+            "en": "currently / nowadays (not \"actually\")"
           },
           {
             "es": "anoche",
@@ -761,7 +1467,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "finalmente",
-            "en": "finally"
+            "en": "finally (final + -mente)"
           },
           {
             "es": "mientras tanto",
@@ -785,7 +1491,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "recientemente",
-            "en": "recently"
+            "en": "recently (reciente + -mente)"
           },
           {
             "es": "todavía",
@@ -829,7 +1535,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "últimamente",
-            "en": "lately"
+            "en": "lately (última + -mente)"
           }
         ],
         "checkpoint": [
@@ -879,6 +1585,18 @@ const A2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "These ten time expressions help you sequence a story."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Rápido means \"quick\". Using the -mente pattern, how do you say \"quickly\"?",
+            "options": [
+              "rápidamente",
+              "rápidomente",
+              "rapidmente",
+              "rápidosmente"
+            ],
+            "correctIndex": 0,
+            "explanation": "-Mente is added to the FEMININE form of the adjective: rápida + -mente = rápidamente. The adjective keeps its written accent."
           }
         ]
       }
@@ -896,16 +1614,16 @@ const A2_BASE_LESSONS: Lesson[] = [
           "muy",
           "tarde"
         ],
-        "explanation": "Subject–verb–prepositional phrase–time word order.",
-        "translation": "She came to the party very late."
+        "translation": "She came to the party very late.",
+        "explanation": "Subject–verb–place–time. Vino: vin- + -o, no accent."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Translate this sentence to English.",
+        "prompt": "Translate to English.",
         "source": "No pudimos ir porque tuvimos que trabajar.",
         "answer": "We couldn't go because we had to work.",
-        "explanation": "Pudimos (poder) and tuvimos (tener) are both irregular preterites here."
+        "explanation": "Pudimos (poder) and tuvimos (tener) are both irregular preterites: two finished facts."
       },
       {
         "type": "matching",
@@ -945,6 +1663,170 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "De repente means suddenly and usually introduces a preterite event. Always is siempre, sometimes is a veces, and still is todavía."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "\"Actualmente trabajo en un banco.\" What does it mean?",
+        "options": [
+          "Currently I work at a bank.",
+          "Actually I work at a bank.",
+          "I used to work at a bank.",
+          "Finally I work at a bank."
+        ],
+        "correctIndex": 0,
+        "explanation": "Actualmente is a false friend: it means currently / nowadays. \"Actually\" is en realidad."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Which word fits? «Primero fuimos al museo, ___ comimos en un bar y finalmente volvimos al hotel.»",
+        "options": [
+          "luego",
+          "todavía",
+          "ya no",
+          "a veces"
+        ],
+        "correctIndex": 0,
+        "explanation": "In a sequence of finished events, luego (or después) marks the next step. Todavía (still), ya no (no longer) and a veces (sometimes) don't order events."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Primero hice la cena y ___ puse la mesa.",
+        "answer": "luego",
+        "en": "First I made dinner and [then] I set the table.",
+        "altAnswers": [
+          "después",
+          "entonces"
+        ],
+        "explanation": "Luego / después / entonces mark the next step in a sequence."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "El mes pasado ella ___ que no.",
+        "answer": "dijo",
+        "en": "Last month she [said] no.",
+        "explanation": "Decir → dij- + -o: dijo (no accent)."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "La semana pasada ___ al médico dos veces.",
+        "answer": "fui",
+        "en": "Last week I [went] to the doctor twice.",
+        "explanation": "Ir in the preterite: fui (no accent). Al médico is a destination."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past, adding \"the day before yesterday\".",
+        "source": "Tengo un examen.",
+        "answer": "Anteayer tuve un examen.",
+        "altAnswers": [
+          "Tuve un examen anteayer."
+        ],
+        "explanation": "A finished time word (anteayer) calls for the preterite: tengo → tuve (tuv- + -e)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past, starting with \"suddenly\".",
+        "source": "Mi jefe viene a la oficina.",
+        "answer": "De repente mi jefe vino a la oficina.",
+        "altAnswers": [
+          "De pronto mi jefe vino a la oficina.",
+          "De repente vino mi jefe a la oficina."
+        ],
+        "explanation": "De repente introduces a sudden finished event: viene → vino."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change to yo.",
+        "source": "Nosotros hicimos el informe.",
+        "answer": "Yo hice el informe.",
+        "altAnswers": [
+          "Hice el informe.",
+          "Yo hice el reporte.",
+          "Hice el reporte."
+        ],
+        "explanation": "Hacer, yo: hic- + -e, hice."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Finalmente mis padres trajieron el pastel.",
+        "answer": "Finalmente mis padres trajeron el pastel.",
+        "explanation": "J-stems drop the i in the ellos form: trajeron."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Recientemente ponieron una mesa nueva en la cocina.",
+        "answer": "Recientemente pusieron una mesa nueva en la cocina.",
+        "explanation": "Poner is a u-stem: pus- + -ieron, pusieron."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Ayer no pudé llegar a tiempo.",
+        "answer": "Ayer no pude llegar a tiempo.",
+        "explanation": "Irregular preterites take no written accent: pude (PU-de)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Last year we were in Peru twice.",
+        "answer": "El año pasado estuvimos en Perú dos veces.",
+        "altAnswers": [
+          "Estuvimos en Perú dos veces el año pasado."
+        ],
+        "explanation": "Estar → estuvimos; vez → veces in the plural (z → c before e)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Lately my brother works a lot.",
+        "answer": "Últimamente mi hermano trabaja mucho.",
+        "altAnswers": [
+          "Mi hermano trabaja mucho últimamente."
+        ],
+        "explanation": "Últimamente (lately) describes a current trend, so the present is fine here: not every time word takes the preterite."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Last week my sister did the report and then she said nothing.",
+        "answer": "La semana pasada mi hermana hizo el informe y después no dijo nada.",
+        "altAnswers": [
+          "La semana pasada mi hermana hizo el reporte y después no dijo nada.",
+          "La semana pasada mi hermana hizo el informe y luego no dijo nada.",
+          "La semana pasada mi hermana hizo el reporte y luego no dijo nada."
+        ],
+        "explanation": "Hizo and dijo: irregular stems, no accents."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Meanwhile my colleagues came and brought coffee.",
+        "answer": "Mientras tanto mis compañeros vinieron y trajeron café.",
+        "altAnswers": [
+          "Mientras tanto, mis compañeros vinieron y trajeron café."
+        ],
+        "explanation": "Vinieron (vin- + -ieron) and trajeron (traj- + -eron, no i)."
+      },
+      {
+        "type": "speak",
+        "prompt": "Tell it aloud in Spanish, in order: first I went to the office, then I had a meeting, and finally I came home.",
+        "text": "Primero fui a la oficina, luego tuve una reunión y finalmente vine a casa.",
+        "explanation": "Sequence words order the finished events; fui, tuve and vine are irregular preterites with no accents. (Volví a casa also works.)"
       }
     ]
   },
@@ -957,44 +1839,92 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Forming the imperfect: -AR verbs",
+        "heading": "The idea: the imperfect is the past seen from the inside",
         "body": [
-          "Drop -ar and add: -aba, -abas, -aba, -ábamos, -abais, -aban. The imperfect has no irregular -ar or -er/-ir stem changes except for three totally irregular verbs (next section).",
-          "Notice that the yo and él/ella/usted forms are identical — context or a subject pronoun tells you which one is meant."
+          "The preterite reports an event as a finished whole (comí = I ate, done). The imperfect shows the past as it was going on, with no start or end in view: habits (I used to eat), descriptions (it was cold, she was tall), age and time, and what was happening in the background.",
+          "English often translates it with \"used to\" or \"was ...ing\", but also with a plain past: Vivía en Madrid can be \"I lived / used to live / was living in Madrid\". The question to ask is: am I describing how things were, or reporting what happened?"
+        ],
+        "examples": [
+          {
+            "es": "De niño, jugaba en el parque todos los días.",
+            "en": "As a kid, I used to play in the park every day. (a habit: imperfect)"
+          },
+          {
+            "es": "Ayer jugué en el parque.",
+            "en": "Yesterday I played in the park. (one finished event: preterite)"
+          },
+          {
+            "es": "Hacía mucho frío ese invierno.",
+            "en": "It was very cold that winter. (a description: imperfect)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Which sentence describes how things used to be?",
+            "options": [
+              "Mi abuela cocinaba los domingos.",
+              "Mi abuela cocinó el domingo.",
+              "Mi abuela cocina los domingos.",
+              "Mi abuela va a cocinar el domingo."
+            ],
+            "correctIndex": 0,
+            "explanation": "Cocinaba (imperfect) presents a repeated past habit. Cocinó reports one finished event, cocina is a present habit, and va a cocinar is a plan."
+          }
+        ]
+      },
+      {
+        "heading": "Forming it: -AR verbs take -aba",
+        "body": [
+          "Drop -ar and add: -aba, -abas, -aba, -ábamos, -abais, -aban. Only nosotros carries a written accent (-ábamos).",
+          "Yo and él/ella/usted are identical (hablaba), so context or a subject pronoun tells you which one is meant."
         ],
         "examples": [
           {
             "es": "hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban",
-            "en": "I/you/he... used to talk"
+            "en": "I / you / he, she / we / you all / they used to talk"
           },
           {
-            "es": "De niño, jugaba en el parque todos los días.",
-            "en": "As a kid, I used to play in the park every day."
+            "es": "Mi madre trabajaba en un banco.",
+            "en": "My mother worked in a bank. (ongoing situation)"
           }
         ],
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Conjugate the verb.",
-            "sentence": "Nosotros ___ (cocinar) juntos los domingos.",
+            "prompt": "How do you say the bold words in Spanish?",
+            "sentence": "Nosotros ___ juntos los domingos.",
             "answer": "cocinábamos",
+            "en": "We [used to cook] together on Sundays.",
             "explanation": "The nosotros imperfect ending for -ar verbs is -ábamos, with an accent."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Change it to the past habit (used to).",
+            "source": "Yo canto en un coro.",
+            "answer": "Yo cantaba en un coro.",
+            "altAnswers": [
+              "Cantaba en un coro."
+            ],
+            "explanation": "-Ar imperfect, yo: -aba. Cantaba = I used to sing / I sang (regularly)."
           }
         ]
       },
       {
-        "heading": "Forming the imperfect: -ER/-IR verbs",
+        "heading": "Forming it: -ER/-IR verbs take -ía",
         "body": [
-          "Drop -er or -ir and add: -ía, -ías, -ía, -íamos, -íais, -ían. Every form carries an accent on the í."
+          "Drop -er or -ir and add: -ía, -ías, -ía, -íamos, -íais, -ían. Every form carries an accent on the í, which splits it from the a: vi-VÍ-a.",
+          "There are no stem changes in the imperfect: tener → tenía, poder → podía, querer → quería, all regular."
         ],
         "examples": [
           {
             "es": "comía, comías, comía, comíamos, comíais, comían",
-            "en": "I/you/he... used to eat"
+            "en": "I / you / he, she / we / you all / they used to eat"
           },
           {
             "es": "vivía, vivías, vivía, vivíamos, vivíais, vivían",
-            "en": "I/you/he... used to live"
+            "en": "I / you / he, she / we / you all / they used to live"
           },
           {
             "es": "Vivíamos en una casa pequeña.",
@@ -1013,52 +1943,57 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "Tener is regular in the imperfect: tenían. \"Tuvieron\" is the preterite, \"tenía\" is singular, and \"tenieron\" doesn't exist."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Change it to the past habit (used to).",
+            "source": "Mis tíos venden fruta en el mercado.",
+            "answer": "Mis tíos vendían fruta en el mercado.",
+            "explanation": "-Er imperfect, ellos: -ían with an accent on the í."
           }
         ]
       },
       {
         "heading": "Only three irregulars: ser, ir, ver",
         "body": [
-          "ser → era, eras, era, éramos, erais, eran. ir → iba, ibas, iba, íbamos, ibais, iban. ver → veía, veías, veía, veíamos, veíais, veían."
+          "ser → era, eras, era, éramos, erais, eran. ir → iba, ibas, iba, íbamos, ibais, iban. ver → veía, veías, veía, veíamos, veíais, veían. That's the whole list."
         ],
         "examples": [
           {
             "es": "Cuando era niño, iba a la escuela a pie.",
-            "en": "When I was a kid, I used to walk to school."
+            "en": "When I was a kid, I used to walk to school. (era, iba)"
           },
           {
             "es": "Veíamos dibujos animados los sábados.",
-            "en": "We used to watch cartoons on Saturdays."
+            "en": "We used to watch cartoons on Saturdays. (ver keeps its e)"
           }
         ],
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Conjugate the verb.",
-            "sentence": "Mis abuelos ___ (ser) muy trabajadores.",
+            "prompt": "How do you say the bold words in Spanish?",
+            "sentence": "Mis abuelos ___ muy trabajadores.",
             "answer": "eran",
-            "explanation": "Ser's imperfect ellos form is eran."
+            "en": "My grandparents [were] very hard-working.",
+            "explanation": "A description of people in the past: ser in the imperfect, ellos eran."
           }
         ]
       },
       {
         "heading": "When to use the imperfect",
         "body": [
-          "Use the imperfect for background description, ongoing or repeated past actions, age, time, weather, and emotional states in the past: things without a clear beginning or end.",
-          "Signal phrases like todos los días, siempre, de niño, and mientras often point to the imperfect."
+          "Use it for background description, ongoing or repeated past actions, age, time, weather and feelings in the past: things without a clear beginning or end.",
+          "Signal phrases like todos los días, siempre, de niño, antes and mientras often point to the imperfect."
         ],
         "examples": [
           {
             "es": "Eran las ocho de la noche.",
-            "en": "It was eight at night."
-          },
-          {
-            "es": "Hacía mucho frío ese invierno.",
-            "en": "It was very cold that winter."
+            "en": "It was eight at night. (time)"
           },
           {
             "es": "Yo tenía diez años.",
-            "en": "I was ten years old."
+            "en": "I was ten years old. (age)"
           }
         ],
         "checkpoint": [
@@ -1084,10 +2019,11 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Conjugate the verb.",
-        "sentence": "Cuando yo ___ (ser) joven, vivía en el campo.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Cuando yo ___ joven, vivía en el campo.",
         "answer": "era",
-        "explanation": "Ser's imperfect yo form is era."
+        "en": "When I [was] young, I lived in the countryside.",
+        "explanation": "A stage of life is background: ser in the imperfect, yo era."
       },
       {
         "type": "multiple-choice",
@@ -1103,10 +2039,11 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Conjugate the verb.",
-        "sentence": "Nosotros ___ (ir) a la playa cada verano.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Nosotros ___ a la playa cada verano.",
         "answer": "íbamos",
-        "explanation": "Ir's imperfect nosotros form is íbamos."
+        "en": "We [used to go] to the beach every summer.",
+        "explanation": "Ir is irregular in the imperfect: nosotros íbamos."
       },
       {
         "type": "multi-select",
@@ -1123,6 +2060,204 @@ const A2_BASE_LESSONS: Lesson[] = [
           3
         ],
         "explanation": "Only ser (era), ir (iba) and ver (veía) are irregular in the imperfect. \"Hablar\" is regular: hablaba."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Which describes an ongoing past situation?",
+        "options": [
+          "Mi padre trabajaba en un hospital.",
+          "Mi padre trabajó ayer.",
+          "Mi padre trabaja en un hospital.",
+          "Mi padre va a trabajar."
+        ],
+        "correctIndex": 0,
+        "explanation": "Trabajaba = used to work / was working: no clear start or end. Trabajó ayer is one finished day; the others are present and future."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Escribir is a verb you know. \"We used to write letters\" is:",
+        "options": [
+          "Escribíamos cartas.",
+          "Escribábamos cartas.",
+          "Escribimos cartas.",
+          "Escribiéramos cartas."
+        ],
+        "correctIndex": 0,
+        "explanation": "-Ir verbs take -ía endings: escrib- + -íamos. -Ábamos is only for -ar verbs, escribimos is present/preterite, and escribiéramos is a subjunctive."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "De niño, mi hermano ___ al fútbol todos los días.",
+        "answer": "jugaba",
+        "en": "As a kid, my brother [used to play] soccer every day.",
+        "explanation": "A habit in the past: -aba. Jugó would be one single time."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Siempre ___ mucho calor en agosto.",
+        "answer": "hacía",
+        "en": "It [was] always very [hot] in August.",
+        "explanation": "Weather in the past is background: hacía (imperfect of hacer)."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Mis primos ___ a nuestra casa todos los veranos.",
+        "answer": "venían",
+        "en": "My cousins [used to come] to our house every summer.",
+        "explanation": "Venir is regular in the imperfect (no stem change): venían."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Antes nosotros ___ la televisión por la noche.",
+        "answer": "veíamos",
+        "en": "We [used to watch] TV at night before.",
+        "explanation": "Ver is irregular in the imperfect because it keeps its e: veíamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past habit (used to).",
+        "source": "Estudio mucho.",
+        "answer": "Estudiaba mucho.",
+        "altAnswers": [
+          "Yo estudiaba mucho."
+        ],
+        "explanation": "-Ar imperfect yo: -aba."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past description.",
+        "source": "Somos muy amigos.",
+        "answer": "Éramos muy amigos.",
+        "explanation": "Ser is irregular in the imperfect: nosotros éramos (with an accent)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change to nosotros.",
+        "source": "Ella vivía en Bogotá.",
+        "answer": "Nosotros vivíamos en Bogotá.",
+        "altAnswers": [
+          "Vivíamos en Bogotá."
+        ],
+        "explanation": "-Ir imperfect, nosotros: -íamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Cuando era pequeño, iva al colegio en bici.",
+        "answer": "Cuando era pequeño, iba al colegio en bici.",
+        "altAnswers": [
+          "Cuando era pequeño, iba a la escuela en bici."
+        ],
+        "explanation": "The imperfect of ir is spelled with b: iba, ibas, iba... (never v)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "De niños, comiamos mucha fruta.",
+        "answer": "De niños, comíamos mucha fruta.",
+        "explanation": "Every -er/-ir imperfect form has an accent on the í: comíamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Cuando tuve diez años, vivía en Lima.",
+        "answer": "Cuando tenía diez años, vivía en Lima.",
+        "altAnswers": [
+          "Cuando yo tenía diez años, vivía en Lima."
+        ],
+        "explanation": "Age in the past is background, so it takes the imperfect: tenía. Tuve diez años would report a one-off event."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "It was nine at night.",
+        "answer": "Eran las nueve de la noche.",
+        "explanation": "Time in the past: imperfect of ser, eran (plural for hours above one)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "My grandfather was very tall.",
+        "answer": "Mi abuelo era muy alto.",
+        "explanation": "Physical description in the past: era."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "I was eight years old.",
+        "answer": "Tenía ocho años.",
+        "explanation": "Age in the past: imperfect of tener."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "You (tú) used to go to school by bus.",
+        "answer": "Ibas a la escuela en autobús.",
+        "altAnswers": [
+          "Ibas al colegio en autobús.",
+          "Tú ibas a la escuela en autobús."
+        ],
+        "explanation": "Ir in the imperfect: ibas."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Put the words in order.",
+        "words": [
+          "Cuando",
+          "éramos",
+          "niños,",
+          "vivíamos",
+          "cerca",
+          "del",
+          "mar"
+        ],
+        "translation": "When we were kids we lived near the sea",
+        "explanation": "Éramos (ser) and vivíamos: both imperfect for background."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "My parents were always very happy.",
+        "answer": "Mis padres siempre estaban muy contentos.",
+        "altAnswers": [
+          "Mis padres estaban siempre muy contentos.",
+          "Mis padres siempre estaban muy felices.",
+          "Mis padres siempre eran muy felices."
+        ],
+        "explanation": "Emotional state in the past: estaban."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "When I was young, I used to read every night.",
+        "answer": "Cuando era joven, leía todas las noches.",
+        "altAnswers": [
+          "Cuando yo era joven, leía todas las noches.",
+          "De joven, leía todas las noches."
+        ],
+        "explanation": "Era for a stage of life, leía for a repeated habit."
+      },
+      {
+        "type": "speak",
+        "prompt": "Answer aloud in Spanish: ¿Cómo era tu vida cuando tenías diez años? (Say where you lived and what you did after school.)",
+        "text": "Cuando tenía diez años, vivía en un pueblo y después de clase jugaba con mis amigos.",
+        "explanation": "Tenía (age), vivía (situation) and jugaba (habit) are all imperfect: you're describing how life was, not reporting single events."
       }
     ]
   },
@@ -1135,14 +2270,15 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Put it into practice",
+        "heading": "The idea: memories are told in the imperfect",
         "body": [
-          "Una mujer recuerda su infancia con su abuela."
+          "When you look back on how life used to be, almost every verb is imperfect: the scene (vivíamos cerca de la playa), the people (ella cocinaba) and the habits (todos los días caminábamos). Nothing is reported as a single finished event, so there's no preterite.",
+          "Spanish also has a handy verb for habits: soler + infinitive = to usually do / used to do. Solía ir = I used to go. A woman remembers summers with her grandmother:"
         ],
         "examples": [
           {
             "es": "Cuando era pequeña, pasaba los veranos con mi abuela.",
-            "en": "When I was little, I used to spend summers with my grandmother."
+            "en": "When I was little, I used to spend summers with my grandmother. (era: stage of life; pasaba: habit)"
           },
           {
             "es": "Vivíamos cerca de la playa y todos los días caminábamos por la arena.",
@@ -1154,7 +2290,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Yo la extrañaba mucho cuando volvía a casa en septiembre.",
-            "en": "I missed her a lot when I went back home in September."
+            "en": "I missed her a lot when I went back home in September. (every year: imperfect)"
           }
         ],
         "checkpoint": [
@@ -1169,13 +2305,25 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "The text says \"siempre cantaba en la cocina\": she sang in the kitchen. Reading the paper, sleeping and working aren't mentioned there."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Change it to a childhood memory (used to).",
+            "source": "Paso los veranos en la playa.",
+            "answer": "Pasaba los veranos en la playa.",
+            "altAnswers": [
+              "Yo pasaba los veranos en la playa."
+            ],
+            "explanation": "A memory of a past habit goes in the imperfect: paso → pasaba."
           }
         ]
       },
       {
-        "heading": "Vocabulary: Childhood & Memories",
+        "heading": "Vocabulary: childhood and memories, and the families behind them",
         "body": [
-          "Thirty words for talking about the past — perfect company for the imperfect tense."
+          "Thirty words for looking back. Several come in verb-noun families, which lets you guess new words: recordar → el recuerdo (memory), jugar → el juguete (toy), contar → el cuento (story), soñar → el sueño (dream).",
+          "Watch the reflexive verbs: mudarse, aburrirse and divertirse keep their pronoun (me mudé, nos divertíamos). Without it, the meaning changes or the sentence is wrong."
         ],
         "examples": [
           {
@@ -1192,7 +2340,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el recuerdo",
-            "en": "the memory"
+            "en": "the memory (from recordar)"
           },
           {
             "es": "soñar",
@@ -1208,7 +2356,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el juguete",
-            "en": "the toy"
+            "en": "the toy (from jugar)"
           },
           {
             "es": "el patio",
@@ -1346,6 +2494,18 @@ const A2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "These ten words describe growing up and looking back."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Soñar gives el sueño (dream). Following the family pattern, what does \"el juego\" come from?",
+            "options": [
+              "jugar (to play): a game",
+              "juntar (to join): a group",
+              "jugo (juice): a drink",
+              "joven (young): youth"
+            ],
+            "correctIndex": 0,
+            "explanation": "Jugar → el juego (game), and also el juguete (toy). Verbs and their nouns share the stem: jug-."
           }
         ]
       }
@@ -1363,8 +2523,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "mis",
           "primos"
         ],
-        "explanation": "Time phrase, subject, verb, prepositional phrase.",
-        "translation": "As a little girl, I used to play with my cousins."
+        "translation": "As a little girl, I used to play with my cousins.",
+        "explanation": "Time phrase, subject, verb, company. Jugaba: a childhood habit."
       },
       {
         "type": "multiple-choice",
@@ -1376,7 +2536,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "to be alone"
         ],
         "correctIndex": 1,
-        "explanation": "Soler + infinitive means to usually do something: suelo caminar = I usually walk. To sell is vender, to solve is resolver, and to be alone is estar solo."
+        "explanation": "Soler + infinitive means to usually do something: suelo caminar = I usually walk; solía caminar = I used to walk. To sell is vender, to solve is resolver, and to be alone is estar solo."
       },
       {
         "type": "matching",
@@ -1403,7 +2563,190 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "veía"
           }
         ],
-        "explanation": "The imperfect is one of the most regular tenses in Spanish — only ser, ir, and ver break the pattern."
+        "explanation": "The imperfect is one of the most regular tenses in Spanish: only ser, ir and ver break the pattern."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Which sentence is a childhood memory, not a single event?",
+        "options": [
+          "Mi abuela nos contaba cuentos.",
+          "Mi abuela nos contó un cuento.",
+          "Mi abuela nos cuenta cuentos.",
+          "Mi abuela nos va a contar un cuento."
+        ],
+        "correctIndex": 0,
+        "explanation": "Contaba (imperfect) is something she used to do. Contó un cuento reports one time; the others are present and future."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "En el recreo los niños ___ en los columpios.",
+        "answer": "jugaban",
+        "en": "At recess the children [used to play] on the swings.",
+        "explanation": "A habit at school: imperfect, jugaban."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Mi abuela nos ___ cuentos antes de dormir.",
+        "answer": "contaba",
+        "en": "My grandmother [used to tell] us stories before bed.",
+        "explanation": "Contar cuentos, as a habit: contaba."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Yo ___ mucho a mis amigos del barrio.",
+        "answer": "extrañaba",
+        "en": "I [used to miss] my friends from the neighborhood a lot.",
+        "altAnswers": [
+          "añoraba"
+        ],
+        "explanation": "Extrañar for missing someone, as an ongoing feeling: extrañaba."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "De niños, nos ___ mucho en la playa.",
+        "answer": "divertíamos",
+        "en": "As kids, we [used to have fun] a lot at the beach.",
+        "explanation": "Divertirse is reflexive: nos divertíamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to a past habit with soler.",
+        "source": "Mis padres celebran mi cumpleaños en el jardín.",
+        "answer": "Mis padres solían celebrar mi cumpleaños en el jardín.",
+        "altAnswers": [
+          "Mis padres celebraban mi cumpleaños en el jardín."
+        ],
+        "explanation": "Soler in the imperfect (solían) + infinitive = used to. The main verb stays in the infinitive."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to a childhood memory (used to).",
+        "source": "Juego con muñecas.",
+        "answer": "Jugaba con muñecas.",
+        "altAnswers": [
+          "Yo jugaba con muñecas.",
+          "Solía jugar con muñecas."
+        ],
+        "explanation": "Jugar, imperfect yo: jugaba."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to a childhood memory.",
+        "source": "Mi vecino es muy travieso.",
+        "answer": "Mi vecino era muy travieso.",
+        "explanation": "A description in a memory: imperfect of ser, era."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Nunca aburría en el recreo.",
+        "answer": "Nunca me aburría en el recreo.",
+        "explanation": "Aburrirse is reflexive: me aburría. Without me, aburría means \"I bored (someone)\"."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "De niños, solíamos a jugar en el patio.",
+        "answer": "De niños, solíamos jugar en el patio.",
+        "explanation": "Soler is followed directly by the infinitive, with no a."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Cuando fui pequeño, comía helado todos los días.",
+        "answer": "Cuando era pequeño, comía helado todos los días.",
+        "altAnswers": [
+          "Cuando era pequeña, comía helado todos los días."
+        ],
+        "explanation": "A stage of life (when I was little) is background: era, not fue."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "We used to eat ice cream in the yard.",
+        "answer": "Comíamos helado en el patio.",
+        "altAnswers": [
+          "Solíamos comer helado en el patio."
+        ],
+        "explanation": "Comer: comíamos; el patio = the yard."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "In elementary school I had a very kind teacher.",
+        "answer": "En la escuela primaria tenía una maestra muy amable.",
+        "altAnswers": [
+          "En la escuela primaria tenía un maestro muy amable."
+        ],
+        "explanation": "Tenía for an ongoing situation in the past."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "As a child, I used to dream of being a pilot.",
+        "answer": "De niño, soñaba con ser piloto.",
+        "altAnswers": [
+          "De niña, soñaba con ser piloto.",
+          "De niño soñaba con ser piloto."
+        ],
+        "explanation": "Soñar con + infinitive; imperfect soñaba."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "On Sundays we used to ride our bikes around the neighborhood.",
+        "answer": "Los domingos andábamos en bicicleta por el barrio.",
+        "altAnswers": [
+          "Los domingos montábamos en bicicleta por el barrio.",
+          "Los domingos andábamos en bici por el barrio.",
+          "Los domingos paseábamos en bicicleta por el barrio."
+        ],
+        "explanation": "A habit: andábamos. Montábamos en bicicleta is also common."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Translate to English.",
+        "source": "Nunca me aburría en casa de mi abuela.",
+        "answer": "I never got bored at my grandmother's house.",
+        "altAnswers": [
+          "I was never bored at my grandmother's house.",
+          "I never used to get bored at my grandmother's house."
+        ],
+        "explanation": "Aburrirse = to get bored; aburría is the imperfect for a repeated situation."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "When I was little, I remembered all my friends' birthdays.",
+        "answer": "Cuando era pequeño, recordaba los cumpleaños de todos mis amigos.",
+        "altAnswers": [
+          "Cuando era pequeña, recordaba los cumpleaños de todos mis amigos.",
+          "Cuando era niño, recordaba los cumpleaños de todos mis amigos.",
+          "Cuando era niña, recordaba los cumpleaños de todos mis amigos."
+        ],
+        "explanation": "Era for the stage of life, recordaba for an ongoing ability."
+      },
+      {
+        "type": "speak",
+        "prompt": "Answer aloud in Spanish: ¿Qué solías hacer en verano cuando eras niño o niña?",
+        "text": "En verano solía ir a la playa con mi familia y comíamos helado todos los días.",
+        "explanation": "Solía + infinitive and the imperfect (comíamos) both describe childhood habits. Any true answer in the imperfect works."
       }
     ]
   },
@@ -1416,15 +2759,19 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Two different past tenses",
+        "heading": "The idea: the storyline and the stage set",
         "body": [
-          "The preterite tells what happened: a completed action with a clear beginning and end. The imperfect describes how things were: the background of the story, with no marked end.",
-          "Think of the preterite as the storyline and the imperfect as the stage set."
+          "Spanish makes you decide how you're looking at each past fact. The preterite reports it as a completed whole, a step in the storyline: what happened. The imperfect shows it from the inside, in progress or as a habit, as part of the stage set: how things were.",
+          "The same verb can go either way depending on what you mean: Llovía (it was raining: the scene) vs. Llovió toda la noche (it rained all night: a completed fact). English often hides this choice; Spanish shows it in the ending."
         ],
         "examples": [
           {
-            "es": "Llovía (imperfecto) cuando salí (pretérito) de casa.",
-            "en": "It was raining when I left the house."
+            "es": "Llovía cuando salí de casa.",
+            "en": "It was raining when I left the house. (llovía: scene; salí: event)"
+          },
+          {
+            "es": "Ayer llovió tres horas.",
+            "en": "Yesterday it rained for three hours. (a closed, measured event: preterite)"
           }
         ],
         "checkpoint": [
@@ -1439,18 +2786,30 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "The imperfect describes the setting or background, while the preterite moves the action forward."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"Mi abuelo trabajó en esa fábrica cuarenta años.\" Why the preterite?",
+            "options": [
+              "The whole period is presented as finished and measured.",
+              "It was a habit.",
+              "It describes his personality.",
+              "Trabajar has no imperfect."
+            ],
+            "correctIndex": 0,
+            "explanation": "A period with a stated length, seen as a closed whole, takes the preterite. Without the time frame, trabajaba en esa fábrica would describe his situation back then."
           }
         ]
       },
       {
         "heading": "Interrupted actions",
         "body": [
-          "A very common pattern: the imperfect describes an action in progress, and the preterite is the action that interrupts it."
+          "A very common pattern: the imperfect describes an action in progress, and the preterite is the action that cuts into it. Ask: which one was already going on? That one is imperfect."
         ],
         "examples": [
           {
             "es": "Yo dormía cuando sonó el teléfono.",
-            "en": "I was sleeping when the phone rang."
+            "en": "I was sleeping when the phone rang. (dormía in progress; sonó interrupts)"
           },
           {
             "es": "Comíamos cuando empezó a llover.",
@@ -1460,26 +2819,42 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Complete the sentence with the correct verb.",
-            "sentence": "Ella ___ (caminar, imperfecto) por el parque cuando vio a su amigo.",
+            "prompt": "How do you say the bold words in Spanish?",
+            "sentence": "Ella ___ por el parque cuando vio a su amigo.",
             "answer": "caminaba",
+            "en": "She [was walking] through the park when she saw her friend.",
+            "altAnswers": [
+              "estaba caminando"
+            ],
             "explanation": "The action in progress (caminar) goes in the imperfect; the interruption (vio) goes in the preterite."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Turn them into one sentence: I was showering when the doorbell rang.",
+            "source": "Yo me duché. Sonó el timbre.",
+            "answer": "Yo me duchaba cuando sonó el timbre.",
+            "altAnswers": [
+              "Me duchaba cuando sonó el timbre.",
+              "Me estaba duchando cuando sonó el timbre."
+            ],
+            "explanation": "The shower was already in progress, so it becomes imperfect (me duchaba); the doorbell cuts in (sonó)."
           }
         ]
       },
       {
         "heading": "Signal words",
         "body": [
-          "Certain words usually go with a particular tense. Preterite: ayer, una vez, de repente, anoche, el año pasado. Imperfect: siempre, mientras, todos los días, de niño, normalmente."
+          "Certain words usually go with one tense, because of what they mean. Preterite (a single, bounded moment): ayer, anoche, una vez, de repente, el año pasado. Imperfect (repetition or ongoing time): siempre, todos los días, de niño, normalmente, mientras."
         ],
         "examples": [
           {
             "es": "Una vez fui a Perú.",
-            "en": "I went to Peru once."
+            "en": "I went to Peru once. (one time: preterite)"
           },
           {
             "es": "De niño, iba a Perú cada verano.",
-            "en": "As a child, I went to Peru every summer."
+            "en": "As a child, I went to Peru every summer. (repeated: imperfect)"
           }
         ],
         "checkpoint": [
@@ -1515,9 +2890,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Complete with the correct verb.",
-            "sentence": "___ (ser, imperfecto) las diez de la noche cuando llegó mi hermano.",
+            "prompt": "How do you say the bold words in Spanish?",
+            "sentence": "___ las diez de la noche cuando llegó mi hermano.",
             "answer": "Eran",
+            "en": "It [was] ten o'clock at night when my brother arrived.",
             "explanation": "Clock time in the past is background, so it is normally in the imperfect: eran."
           }
         ]
@@ -1526,10 +2902,54 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Choose the preterite or the imperfect.",
-        "sentence": "___ (llover, imperfecto) mucho cuando decidimos salir.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "___ mucho cuando decidimos salir.",
         "answer": "Llovía",
+        "en": "It [was raining] hard when we decided to go out.",
+        "altAnswers": [
+          "Estaba lloviendo"
+        ],
         "explanation": "Ongoing rain in the background takes the imperfect: llovía."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Nosotros ___ rápido porque teníamos prisa.",
+        "answer": "comimos",
+        "en": "We [ate] quickly because we were in a hurry.",
+        "explanation": "Eating quickly is one completed action here, so the preterite: comimos. Teníamos prisa is the background reason."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Yo ___ en la cocina cuando se fue la luz.",
+        "answer": "estaba",
+        "en": "I [was] in the kitchen when the power went out.",
+        "explanation": "Background location: imperfect estaba, not estuve."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Los niños jugaban cuando de repente ___ a llover.",
+        "answer": "empezó",
+        "en": "The children were playing when suddenly it [started] to rain.",
+        "explanation": "The interrupting event is preterite: empezó."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Anoche ___ un libro entero.",
+        "answer": "leí",
+        "en": "Last night I [read] a whole book.",
+        "explanation": "Anoche + a completed action: preterite leí."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Siempre ___ antes de dormir.",
+        "answer": "leía",
+        "en": "I always [used to read] before going to sleep.",
+        "explanation": "Siempre = habit: imperfect leía."
       },
       {
         "type": "multiple-choice",
@@ -1542,13 +2962,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 0,
         "explanation": "Age is background description, so the imperfect (tenía), and graduating is a single event, so the preterite (me gradué). \"Tuve veinte años\" makes age an event, and \"me graduaba\" makes the graduation ongoing."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Choose the preterite or the imperfect.",
-        "sentence": "Nosotros ___ (comer, pretérito) rápido porque teníamos prisa.",
-        "answer": "comimos",
-        "explanation": "Eating quickly is one completed action here, so the preterite: comimos."
       },
       {
         "type": "multi-select",
@@ -1565,6 +2978,169 @@ const A2_BASE_LESSONS: Lesson[] = [
           3
         ],
         "explanation": "Ayer, una vez and de repente mark single, completed events, so they go with the preterite. \"Siempre\" signals a habit, which usually takes the imperfect."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "'Yo ___ en el parque cuando empezó a llover.' (correr)",
+        "options": [
+          "corría",
+          "corrí",
+          "corro",
+          "corrió"
+        ],
+        "correctIndex": 0,
+        "explanation": "An action in progress when something happened: imperfect corría. Corrí would make the running a finished step, and corrió is él/ella."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Fui a México todos los veranos.",
+        "answer": "Iba a México todos los veranos.",
+        "altAnswers": [
+          "Yo iba a México todos los veranos."
+        ],
+        "explanation": "Todos los veranos is a repeated habit: imperfect iba, not the one-time fui."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Yo leí cuando llamaste.",
+        "answer": "Yo leía cuando llamaste.",
+        "altAnswers": [
+          "Leía cuando llamaste.",
+          "Estaba leyendo cuando llamaste."
+        ],
+        "explanation": "The reading was in progress when the call cut in: imperfect leía."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Ayer hacía mis deberes en dos horas.",
+        "answer": "Ayer hice mis deberes en dos horas.",
+        "altAnswers": [
+          "Ayer hice los deberes en dos horas."
+        ],
+        "explanation": "A completed task with a measured time (en dos horas) is a whole event: preterite hice."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past.",
+        "source": "Mi tía nos visita cada Navidad.",
+        "answer": "Mi tía nos visitaba cada Navidad.",
+        "explanation": "A repeated past habit (cada Navidad) → imperfect: visitaba."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Anoche veo una serie entera.",
+        "answer": "Anoche vi una serie entera.",
+        "explanation": "Anoche + a completed action → preterite: vi (one syllable, no accent)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Turn them into one sentence: we were walking when we saw a dog.",
+        "source": "Caminamos por el parque. Vimos un perro.",
+        "answer": "Caminábamos por el parque cuando vimos un perro.",
+        "altAnswers": [
+          "Estábamos caminando por el parque cuando vimos un perro.",
+          "Caminábamos por el parque cuando vimos a un perro."
+        ],
+        "explanation": "The walk was in progress (caminábamos); seeing the dog interrupts it (vimos)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "I went to Mexico once.",
+        "answer": "Fui a México una vez.",
+        "altAnswers": [
+          "Una vez fui a México."
+        ],
+        "explanation": "Una vez = one completed event: preterite fui."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "She was twenty when she moved to Mexico.",
+        "answer": "Tenía veinte años cuando se mudó a México.",
+        "altAnswers": [
+          "Ella tenía veinte años cuando se mudó a México."
+        ],
+        "explanation": "Age = background (tenía); moving = event (se mudó)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Last year we lived in Chile for six months.",
+        "answer": "El año pasado vivimos seis meses en Chile.",
+        "altAnswers": [
+          "El año pasado vivimos en Chile seis meses.",
+          "El año pasado vivimos en Chile durante seis meses."
+        ],
+        "explanation": "A closed period with a clear end: preterite vivimos."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "___ mucho frío cuando salimos del cine.",
+        "answer": "Hacía",
+        "en": "[It was] very [cold] when we left the movie theater.",
+        "explanation": "Weather as background: hacía."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Put the words in order.",
+        "words": [
+          "Era",
+          "tarde",
+          "y",
+          "todos",
+          "dormían",
+          "cuando",
+          "sonó",
+          "el",
+          "teléfono"
+        ],
+        "translation": "It was late and everyone was sleeping when the phone rang",
+        "explanation": "Era and dormían set the scene; sonó is the event."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "It was a sunny day, so we went to the beach.",
+        "answer": "Era un día de sol, así que fuimos a la playa.",
+        "altAnswers": [
+          "Hacía sol, así que fuimos a la playa.",
+          "Era un día soleado, así que fuimos a la playa."
+        ],
+        "explanation": "Era (description) + fuimos (completed action)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "My father was tired, but he cooked dinner for everyone.",
+        "answer": "Mi padre estaba cansado, pero preparó la cena para todos.",
+        "altAnswers": [
+          "Mi padre estaba cansado, pero cocinó la cena para todos.",
+          "Mi padre estaba cansado, pero hizo la cena para todos."
+        ],
+        "explanation": "Estaba cansado = state; preparó = completed action."
+      },
+      {
+        "type": "speak",
+        "prompt": "Tell it aloud in Spanish: It was midnight, I was watching a movie, and suddenly the lights went out.",
+        "text": "Era medianoche, yo veía una película y de repente se fue la luz.",
+        "explanation": "Era and veía set the scene (imperfect); de repente se fue la luz is the event that breaks in (preterite)."
       }
     ]
   },
@@ -1577,26 +3153,27 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Put it into practice",
+        "heading": "The idea: the scene in the imperfect, the plot in the preterite",
         "body": [
-          "Un hombre cuenta una historia sobre un día inolvidable."
+          "A good story alternates the two tenses on purpose. The imperfect sets the stage (it was a normal day, I was walking, the dog was scared); the preterite moves the plot (I saw, I went up, I found). If you deleted every preterite, nothing would happen; if you deleted every imperfect, you'd have a list with no scenery.",
+          "A man tells a story about an unforgettable day. Notice which verbs paint and which ones push."
         ],
         "examples": [
           {
             "es": "Era un día normal. Yo caminaba al trabajo cuando vi algo extraño en la calle.",
-            "en": "It was a normal day. I was walking to work when I saw something strange in the street."
+            "en": "It was a normal day. I was walking to work when I saw something strange in the street. (era, caminaba: scene; vi: plot)"
           },
           {
             "es": "Un perro pequeño corría solo, sin dueño a la vista.",
-            "en": "A small dog was running alone, with no owner in sight."
+            "en": "A small dog was running alone, with no owner in sight. (in progress)"
           },
           {
             "es": "Me acerqué despacio y el perro me miró. Tenía mucho miedo.",
-            "en": "I went up to it slowly and the dog looked at me. It was very scared."
+            "en": "I went up to it slowly and the dog looked at me. It was very scared. (two events, then a feeling)"
           },
           {
             "es": "Al final, encontré a su dueña dos calles más adelante. ¡Qué alivio sentí!",
-            "en": "In the end, I found its owner two streets further on. What a relief I felt!"
+            "en": "In the end, I found its owner two streets further on. What a relief I felt! (al final: plot)"
           }
         ],
         "checkpoint": [
@@ -1611,13 +3188,26 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "The text says the dog \"tenía mucho miedo\", so the man approached slowly. He wasn't in a hurry, and rain and night aren't the reason given."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "In the dog story, which tense is used in \"el perro corría solo\"?",
+            "options": [
+              "Preterite",
+              "Imperfect",
+              "Future",
+              "Present"
+            ],
+            "correctIndex": 1,
+            "explanation": "Corría describes an action in progress with no end point, so it's the imperfect. The preterite would be corrió, the future correrá and the present corre."
           }
         ]
       },
       {
-        "heading": "Vocabulary: Weather & Seasons",
+        "heading": "Vocabulary: weather and seasons, and how Spanish builds weather phrases",
         "body": [
-          "Thirty words for describing weather — a natural fit for the scene-setting imperfect."
+          "Thirty words for setting a scene. Weather follows three patterns: hacer + a noun (hace sol, hace calor, hace viento), estar + an adjective (está nublado, está despejado), or a verb of its own (llueve, nieva). Each verb has its noun: llover → la lluvia, nevar → la nieve.",
+          "In a story, weather is almost always background, so it goes in the imperfect: hacía frío, estaba nublado, llovía."
         ],
         "examples": [
           {
@@ -1626,7 +3216,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "hacer sol",
-            "en": "to be sunny"
+            "en": "to be sunny (hacer + noun)"
           },
           {
             "es": "hacer calor",
@@ -1646,7 +3236,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la lluvia",
-            "en": "the rain"
+            "en": "the rain (from llover)"
           },
           {
             "es": "nevar",
@@ -1654,7 +3244,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la nieve",
-            "en": "the snow"
+            "en": "the snow (from nevar)"
           },
           {
             "es": "la tormenta",
@@ -1674,7 +3264,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "nublado",
-            "en": "cloudy"
+            "en": "cloudy (estar + adjective; from nube)"
           },
           {
             "es": "despejado",
@@ -1788,6 +3378,18 @@ const A2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "These ten weather words often appear in imperfect-tense scene-setting."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Fresco means \"cool\" (a noun-like weather word, like frío). How do you say \"It was cool\" in a story?",
+            "options": [
+              "Hacía fresco.",
+              "Estaba fresco.",
+              "Era fresco.",
+              "Hizo fresco ayer a las tres."
+            ],
+            "correctIndex": 0,
+            "explanation": "Fresco works like frío and calor: hacer + the word. In a story it's background, so the imperfect: hacía fresco."
           }
         ]
       }
@@ -1805,28 +3407,213 @@ const A2_BASE_LESSONS: Lesson[] = [
           "al",
           "pueblo"
         ],
-        "explanation": "Imperfect (hacía) for the background, preterite (llegamos) for the single event.",
-        "translation": "It was very cold when we arrived at the town."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "In the dog story, which tense is used in \"el perro corría solo\"?",
-        "options": [
-          "Preterite",
-          "Imperfect",
-          "Future",
-          "Present"
-        ],
-        "correctIndex": 1,
-        "explanation": "Corría describes an action in progress with no end point, so it's the imperfect. The preterite would be corrió, the future correrá and the present corre."
+        "translation": "It was very cold when we arrived at the town.",
+        "explanation": "Imperfect (hacía) for the background, preterite (llegamos) for the single event."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Translate this sentence to English.",
+        "prompt": "Translate to English.",
         "source": "Yo leía un libro cuando se fue la luz.",
         "answer": "I was reading a book when the power went out.",
         "explanation": "Leía (imperfect, ongoing) is interrupted by se fue (preterite, sudden event)."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "___ mucho viento cuando salimos.",
+        "answer": "Hacía",
+        "en": "[It was] very windy when we went out.",
+        "explanation": "Wind is hacer + noun, and it's the background (imperfect); salimos is the event. Don't say hizo."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Llovía cuando ___ la tormenta.",
+        "answer": "empezó",
+        "en": "It was raining when the storm [started].",
+        "explanation": "The start of the storm is a single event, so preterite empezó; empezaba would make it background."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Cuando llegamos a la playa, el cielo ___ despejado.",
+        "answer": "estaba",
+        "en": "When we arrived at the beach, the sky [was] clear.",
+        "explanation": "Despejado is an adjective, so estar; it's the scene around llegamos, so imperfect estaba."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«Cuando salí del cine, ___ mucho.» (It was raining a lot.)",
+        "options": [
+          "llovía",
+          "llovió",
+          "lluvia",
+          "llueve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The rain is what was going on when you came out: background, so imperfect llovía. Lluvia is the noun (the rain), not a verb."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Which is the natural way to say \"It was cloudy\"?",
+        "options": [
+          "Estaba nublado.",
+          "Hacía nublado.",
+          "Era nublado.",
+          "Hacía nubes."
+        ],
+        "correctIndex": 0,
+        "explanation": "Nublado is an adjective, so it goes with estar: estaba nublado. Hacer goes with nouns (hacía sol, hacía viento)."
+      },
+      {
+        "type": "multi-select",
+        "question": "Which phrases describe the weather correctly?",
+        "options": [
+          "Hacía sol.",
+          "Estaba despejado.",
+          "Hacía húmedo.",
+          "Nevaba."
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "Sol is a noun (hacer + noun), despejado is an adjective (estar + adjective), and nevar is a weather verb on its own. Húmedo is an adjective, so it needs estar (estaba húmedo) or a different phrase (había mucha humedad)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past (set the scene).",
+        "source": "Hace sol y mucho calor.",
+        "answer": "Hacía sol y mucho calor.",
+        "altAnswers": [
+          "Hacía sol y hacía mucho calor."
+        ],
+        "explanation": "Weather in a story is background: hace → hacía."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past (set the scene).",
+        "source": "Nieva en las montañas.",
+        "answer": "Nevaba en las montañas.",
+        "altAnswers": [
+          "Estaba nevando en las montañas."
+        ],
+        "explanation": "Weather that sets the scene goes in the imperfect: nevaba, not nevó."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Turn them into one sentence with \"así que\" (so).",
+        "source": "Estaba nublado. Tomé mi paraguas.",
+        "answer": "Estaba nublado, así que tomé mi paraguas.",
+        "altAnswers": [
+          "Estaba nublado y tomé mi paraguas.",
+          "Como estaba nublado, tomé mi paraguas.",
+          "Estaba nublado, así que cogí mi paraguas.",
+          "Estaba nublado, así que llevé mi paraguas."
+        ],
+        "explanation": "The scene (estaba nublado, imperfect) is the reason for the action (tomé, preterite)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "El cielo estuvo nublado cuando salimos.",
+        "answer": "El cielo estaba nublado cuando salimos.",
+        "explanation": "A description of the sky is the background to salimos: estaba, not estuvo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "De repente oíamos un trueno.",
+        "answer": "De repente oímos un trueno.",
+        "altAnswers": [
+          "De pronto oímos un trueno.",
+          "De repente escuchamos un trueno."
+        ],
+        "explanation": "De repente marks one sudden event, so the preterite: oímos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Hizo nublado todo el día.",
+        "answer": "Estuvo nublado todo el día.",
+        "altAnswers": [
+          "Estaba nublado todo el día."
+        ],
+        "explanation": "Nublado is an adjective, so it takes estar. Here todo el día presents the day as a closed whole, so the preterite estuvo is right."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "We were in the shade because it was very hot.",
+        "answer": "Estábamos a la sombra porque hacía mucho calor.",
+        "altAnswers": [
+          "Estábamos en la sombra porque hacía mucho calor."
+        ],
+        "explanation": "Both verbs describe the situation, not events, so both are imperfect."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "After the storm, we saw a rainbow.",
+        "answer": "Después de la tormenta, vimos un arcoíris.",
+        "explanation": "Seeing the rainbow is a single completed event, so preterite vimos, not veíamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Every winter there was ice on the streets.",
+        "answer": "Cada invierno había hielo en las calles.",
+        "altAnswers": [
+          "Todos los inviernos había hielo en las calles."
+        ],
+        "explanation": "Cada invierno signals a repeated situation, so imperfect había."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "It was raining when I left work, and I got home soaked.",
+        "answer": "Llovía cuando salí del trabajo y llegué a casa empapado.",
+        "altAnswers": [
+          "Llovía cuando salí del trabajo y llegué a casa empapada.",
+          "Estaba lloviendo cuando salí del trabajo y llegué a casa empapado.",
+          "Estaba lloviendo cuando salí del trabajo y llegué a casa empapada."
+        ],
+        "explanation": "Llovía is the background; salí and llegué are the events. Empapado agrees with the speaker."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Put the words in order.",
+        "words": [
+          "Hacía",
+          "calor",
+          "y",
+          "no",
+          "había",
+          "nubes",
+          "en",
+          "el",
+          "cielo"
+        ],
+        "translation": "It was hot and there were no clouds in the sky",
+        "explanation": "Hacía and había both describe the scene, so both are imperfect."
+      },
+      {
+        "type": "speak",
+        "prompt": "Start a story aloud in Spanish: It was a cold autumn night, it was raining, and suddenly someone knocked on the door.",
+        "text": "Era una noche fría de otoño, llovía y de repente alguien llamó a la puerta.",
+        "explanation": "Era and llovía set the scene (imperfect); de repente alguien llamó moves the plot (preterite)."
       }
     ]
   },
@@ -1853,43 +3640,48 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Complete the first part of the story.",
-        "sentence": "___ (ser, imperfecto) un sábado de verano y hacía mucho calor.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "___ un sábado de verano y hacía mucho calor.",
         "answer": "Era",
-        "explanation": "Ser describing the day sets the background of the story, so it takes the imperfect: era."
+        "en": "It [was] a summer Saturday and it was very hot.",
+        "explanation": "ser → era: imperfect, 3rd singular (setting). Ser describing the day sets the background of the story, so it takes the imperfect: era."
       },
       {
         "type": "fill-blank",
-        "prompt": "Keep completing the story.",
-        "sentence": "El cielo ___ (estar, imperfecto) despejado cuando salimos de casa.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "El cielo ___ despejado cuando salimos de casa.",
         "answer": "estaba",
-        "explanation": "Describing the sky is part of the background scene, so the imperfect: estaba."
+        "en": "The sky [was] clear when we left the house.",
+        "explanation": "estar → estaba: imperfect, él (el cielo). Describing the sky is part of the background scene, so the imperfect: estaba."
       },
       {
         "type": "fill-blank",
-        "prompt": "Keep completing the story.",
-        "sentence": "Mis amigos y yo ___ (caminar, imperfecto) por la playa cuando el cielo se puso gris.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Mis amigos y yo ___ por la playa cuando el cielo se puso gris.",
         "answer": "caminábamos",
-        "explanation": "The walk was in progress when another event (the sky turning gray) interrupted it, so the imperfect."
+        "en": "My friends and I [were walking] along the beach when the sky turned gray.",
+        "explanation": "caminar → caminábamos: imperfect, nosotros. The walk was in progress when another event (the sky turning gray) interrupted it, so the imperfect."
       },
       {
         "type": "fill-blank",
-        "prompt": "Keep completing the story.",
-        "sentence": "De repente ___ (empezar, pretérito) a llover fuerte.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "De repente ___ a llover fuerte.",
         "answer": "empezó",
-        "explanation": "De repente signals a sudden, one-off action, so the preterite."
+        "en": "Suddenly it [started] to rain hard.",
+        "explanation": "empezar → empezó: preterite, 3rd singular. De repente signals a sudden, one-off action, so the preterite."
       },
       {
         "type": "fill-blank",
-        "prompt": "Finish this part of the story.",
-        "sentence": "Todos nosotros ___ (correr, pretérito) a buscar refugio.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Todos nosotros ___ a buscar refugio.",
         "answer": "corrimos",
-        "explanation": "Running for shelter is one quick, completed reaction, so the preterite."
+        "en": "All of us [ran] to find shelter.",
+        "explanation": "correr → corrimos: preterite, nosotros. Running for shelter is one quick, completed reaction, so the preterite."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Translate this sentence to English.",
+        "prompt": "Translate to English.",
         "source": "Nos reímos mucho después, porque nadie tenía paraguas.",
         "answer": "We laughed a lot afterward, because nobody had an umbrella.",
         "explanation": "Nos reímos (preterite) is the one-off reaction; tenía (imperfect) describes the background situation (nobody had an umbrella)."
@@ -1978,22 +3770,27 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Complete with the correct verb.",
-        "sentence": "De niña, yo ___ (ver, imperfecto) dibujos animados todos los sábados.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "De niña, yo ___ dibujos animados todos los sábados.",
         "answer": "veía",
-        "explanation": "Ver is one of only three irregular imperfects (with ser and ir): veía, veías, veía, veíamos..."
+        "en": "As a girl, I [used to watch] cartoons every Saturday.",
+        "altAnswers": [
+          "miraba"
+        ],
+        "explanation": "ver → veía: imperfect, yo. Ver is one of only three irregular imperfects (with ser and ir): veía, veías, veía, veíamos..."
       },
       {
         "type": "fill-blank",
-        "prompt": "Complete with the correct verb.",
-        "sentence": "Antes, nosotros ___ (ir, imperfecto) a la playa cada verano, pero el año pasado no fuimos.",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Antes, nosotros ___ a la playa cada verano, pero el año pasado no fuimos.",
         "answer": "íbamos",
-        "explanation": "Ir is irregular in the imperfect (iba, ibas, iba, íbamos...); here it describes a past habit, in contrast with the one-time fuimos (preterite)."
+        "en": "Before, we [used to go] to the beach every summer, but last year we didn't go.",
+        "explanation": "ir → íbamos: imperfect, nosotros. Ir is irregular in the imperfect (iba, ibas, iba, íbamos...); here it describes a past habit, in contrast with the one-time fuimos (preterite)."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Translate this sentence to Spanish.",
+        "prompt": "Translate to Spanish.",
         "source": "It was midnight when the phone rang.",
         "answer": "Era medianoche cuando sonó el teléfono.",
         "altAnswers": [
@@ -2027,6 +3824,173 @@ const A2_BASE_LESSONS: Lesson[] = [
           2
         ],
         "explanation": "An action in progress (cocinaba) and clock time (eran) are background, so imperfect; the doorbell and the arrival are events (sonó, llegamos). \"Mientras cociné\" and \"Fueron las tres\" put background in the preterite."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "De niño, mi hermano ___ al fútbol todos los días.",
+        "answer": "jugaba",
+        "en": "As a child, my brother [played] football every day.",
+        "explanation": "A childhood habit: imperfect, not jugó."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Anoche ___ un ruido extraño y no dormí.",
+        "answer": "oí",
+        "en": "Last night I [heard] a strange noise and didn't sleep.",
+        "altAnswers": [
+          "escuché"
+        ],
+        "explanation": "Anoche = one completed event: preterite oí, not oía."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change \"cada día\" to \"el domingo pasado\".",
+        "source": "Cada día mi abuela preparaba el almuerzo.",
+        "answer": "El domingo pasado mi abuela preparó el almuerzo.",
+        "altAnswers": [
+          "Mi abuela preparó el almuerzo el domingo pasado."
+        ],
+        "explanation": "El domingo pasado is one occasion, so the habit becomes a single event: preparaba → preparó."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to the past: the reading was interrupted.",
+        "source": "Leo el periódico cuando llega mi hijo.",
+        "answer": "Leía el periódico cuando llegó mi hijo.",
+        "altAnswers": [
+          "Estaba leyendo el periódico cuando llegó mi hijo.",
+          "Leía el periódico cuando mi hijo llegó."
+        ],
+        "explanation": "In the past, the reading is the action in progress (imperfect leía) and the son's arrival interrupts it (preterite llegó)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it so they met for the first time last year.",
+        "source": "Mis padres ya se conocían.",
+        "answer": "Mis padres se conocieron el año pasado.",
+        "altAnswers": [
+          "El año pasado mis padres se conocieron."
+        ],
+        "explanation": "Conocer in the preterite means met for the first time: se conocían (already knew each other) → se conocieron."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Cuando tenía diez años, me rompía el brazo.",
+        "answer": "Cuando tenía diez años, me rompí el brazo.",
+        "explanation": "Age is background (tenía), but breaking an arm is one event: preterite me rompí."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Fue de noche y las calles estuvieron vacías.",
+        "answer": "Era de noche y las calles estaban vacías.",
+        "explanation": "Time of day and what the streets looked like are the scene: imperfect era and estaban."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Los niños jugaban en el parque cuando de repente empezaba a llover.",
+        "answer": "Los niños jugaban en el parque cuando de repente empezó a llover.",
+        "explanation": "De repente marks a sudden single event: preterite empezó. Jugaban is right: it was in progress."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "While she was studying, her phone rang three times.",
+        "answer": "Mientras estudiaba, su teléfono sonó tres veces.",
+        "altAnswers": [
+          "Mientras estudiaba, sonó su teléfono tres veces.",
+          "Mientras estaba estudiando, su teléfono sonó tres veces."
+        ],
+        "explanation": "Mientras + ongoing action (imperfect); the counted rings are completed events (preterite)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "When I was young, I lived in a small town.",
+        "answer": "Cuando era joven, vivía en un pueblo pequeño.",
+        "altAnswers": [
+          "Cuando era joven, vivía en un pueblo.",
+          "De joven, vivía en un pueblo pequeño.",
+          "Cuando era joven, vivía en una ciudad pequeña."
+        ],
+        "explanation": "A stage of life and where you lived then are background: era and vivía, both imperfect."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "La casa de mis abuelos ___ vieja pero muy bonita.",
+        "answer": "era",
+        "en": "My grandparents' house [was] old but very pretty.",
+        "explanation": "Description of a place: imperfect era, not fue."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "When I found out the news, I was at work.",
+        "answer": "Cuando supe la noticia, estaba en el trabajo.",
+        "altAnswers": [
+          "Cuando supe la noticia, estaba trabajando."
+        ],
+        "explanation": "Supe = found out (one moment); estaba describes where you were."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "The children were sleeping when the storm began.",
+        "answer": "Los niños dormían cuando empezó la tormenta.",
+        "altAnswers": [
+          "Los niños estaban durmiendo cuando empezó la tormenta.",
+          "Los niños dormían cuando la tormenta empezó."
+        ],
+        "explanation": "Ongoing action (dormían) interrupted by an event (empezó)."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«Mi hermana no ___ venir a la fiesta.» (She refused to come.)",
+        "options": [
+          "quiso",
+          "quería",
+          "supo",
+          "conoció"
+        ],
+        "correctIndex": 0,
+        "explanation": "No quiso (preterite) = refused on that occasion; no quería would only describe not wanting to."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Put the words in order.",
+        "words": [
+          "Hacía",
+          "sol,",
+          "así",
+          "que",
+          "fuimos",
+          "a",
+          "la",
+          "playa"
+        ],
+        "translation": "It was sunny, so we went to the beach",
+        "explanation": "Background weather (hacía) leads to a completed action (fuimos)."
+      },
+      {
+        "type": "speak",
+        "prompt": "Tell it aloud in Spanish: It was late and I was tired, but suddenly my best friend called me.",
+        "text": "Era tarde y estaba cansado, pero de repente me llamó mi mejor amigo.",
+        "explanation": "Era tarde and estaba cansado set the scene (imperfect); de repente me llamó is the event (preterite). Cansada and mi mejor amiga also work."
       }
     ]
   },
@@ -2039,35 +4003,27 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "What is a direct object?",
+        "heading": "The idea: the pronoun copies the noun",
         "body": [
-          "The direct object receives the action of the verb directly — it answers \"what?\" or \"whom?\". In \"Compro el libro,\" el libro is the direct object."
+          "The direct object receives the action: it answers \"what?\" or \"whom?\" (Compro el libro: what do I buy? el libro). Once it's been mentioned, Spanish replaces it with a short pronoun instead of repeating it.",
+          "Why there are four forms for English \"it / them\": the pronoun copies the gender and number of the noun it replaces, so the listener knows which noun you mean. El libro → lo, la película → la, los zapatos → los, las llaves → las. Follow the noun's article, not its meaning: a film is la película, so \"it\" is la."
         ],
         "examples": [
           {
-            "es": "Compro el libro.",
-            "en": "I buy the book."
+            "es": "¿El libro? Lo compro mañana.",
+            "en": "The book? I'll buy it tomorrow. (el libro → lo)"
           },
           {
-            "es": "Veo a mi hermana.",
-            "en": "I see my sister."
-          }
-        ]
-      },
-      {
-        "heading": "Direct object pronouns: me, te, lo/la, nos, os, los/las",
-        "body": [
-          "These pronouns replace a direct object already mentioned: me (me), te (you), lo/la (him/her/it), nos (us), os (you all, Spain), los/las (them).",
-          "Lo and los replace masculine nouns; la and las replace feminine ones — matching gender and number, not meaning."
-        ],
-        "examples": [
+            "es": "¿La película? La vemos esta noche.",
+            "en": "The film? We're watching it tonight. (película is feminine → la, even for \"it\")"
+          },
           {
-            "es": "¿Tienes el libro? Sí, lo tengo.",
-            "en": "Do you have the book? Yes, I have it."
+            "es": "¿Los zapatos? No los tengo.",
+            "en": "The shoes? I don't have them. (masculine plural → los)"
           },
           {
             "es": "¿Ves a María? Sí, la veo.",
-            "en": "Do you see María? Yes, I see her."
+            "en": "Do you see María? Yes, I see her. (people too: María → la)"
           }
         ],
         "checkpoint": [
@@ -2076,14 +4032,56 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Replace the direct object with the correct pronoun.",
             "sentence": "¿Compraste las entradas? Sí, ___ compré.",
             "answer": "las",
-            "explanation": "Las entradas is feminine plural, so the pronoun is las."
+            "explanation": "Las entradas is feminine plural, so the pronoun is las. Los would point to a masculine noun."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Replace the direct object with the correct pronoun.",
+            "sentence": "¿Tienes el mapa? Sí, ___ tengo.",
+            "answer": "lo",
+            "explanation": "Follow the article: el mapa is masculine even though it ends in -a, so lo, not la."
+          }
+        ]
+      },
+      {
+        "heading": "People: me, te, nos, os",
+        "body": [
+          "For people in the conversation there's one form each, the same for men and women: me (me), te (you), nos (us), os (you all, Spain). For him, her and them use lo, la, los, las, just like for things.",
+          "In Latin America os isn't used: you all is los / las (Los veo mañana = I'll see you all tomorrow)."
+        ],
+        "examples": [
+          {
+            "es": "Mi madre me llama todos los días.",
+            "en": "My mother calls me every day."
+          },
+          {
+            "es": "¿Nos ves desde ahí?",
+            "en": "Can you see us from there?"
+          },
+          {
+            "es": "Te quiero mucho.",
+            "en": "I love you very much."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "\"My friends visit us on Sundays.\"",
+            "options": [
+              "Mis amigos nos visitan los domingos.",
+              "Mis amigos visitan nos los domingos.",
+              "Mis amigos los visitan los domingos.",
+              "Mis amigos nosotros visitan los domingos."
+            ],
+            "correctIndex": 0,
+            "explanation": "Us as a direct object is nos, placed before the verb. \"Visitan nos\" puts it after, \"los\" would mean them, and nosotros is a subject pronoun, never an object."
           }
         ]
       },
       {
         "heading": "Placement: before conjugated verbs",
         "body": [
-          "Direct object pronouns go right before a conjugated verb — not after it, unlike English (affirmative commands are an exception you'll meet later)."
+          "Object pronouns are unstressed little words that lean on the verb, so they go right before a conjugated verb, the opposite of English (\"I see it\" → Lo veo). No goes in front of the whole block: no + pronoun + verb."
         ],
         "examples": [
           {
@@ -2092,28 +4090,32 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "No la conozco.",
-            "en": "I don't know her."
+            "en": "I don't know her. (no + la + verb)"
+          },
+          {
+            "es": "¿Las llaves? Las dejé en la mesa.",
+            "en": "The keys? I left them on the table. (same place in the past)"
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Which one is correct?",
+            "question": "\"I don't see them.\" (los niños)",
             "options": [
-              "Necesito lo ahora.",
-              "Lo necesito ahora.",
-              "Necesito ahora lo.",
-              "Lo ahora necesito."
+              "No los veo.",
+              "No veo los.",
+              "Los no veo.",
+              "No veo ellos."
             ],
-            "correctIndex": 1,
-            "explanation": "An object pronoun goes before a conjugated verb: lo necesito. \"Necesito lo\" and \"Necesito ahora lo\" put it after the verb, and \"Lo ahora necesito\" splits it from the verb."
+            "correctIndex": 0,
+            "explanation": "No + pronoun + conjugated verb: no los veo. \"No veo los\" puts the pronoun after the verb, \"Los no veo\" splits no from the verb, and ellos is a subject pronoun, not an object."
           }
         ]
       },
       {
         "heading": "Placement: infinitives and gerunds",
         "body": [
-          "With an infinitive or a gerund (-ando/-iendo form), the pronoun can either attach to the end, or move in front of the whole verb phrase — both are correct."
+          "With an infinitive (-ar/-er/-ir) or a gerund (-ando/-iendo), the pronoun has two homes: attached to the end, or in front of the conjugated verb. Both are correct. Attaching to a gerund adds a syllable, so it needs a written accent to keep the stress: leyendo → leyéndolo."
         ],
         "examples": [
           {
@@ -2122,7 +4124,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Estoy leyéndolo. / Lo estoy leyendo.",
-            "en": "I'm reading it."
+            "en": "I'm reading it. (attached: written accent on -yén-)"
           }
         ],
         "checkpoint": [
@@ -2131,14 +4133,21 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Rewrite the sentence using the pronoun.",
             "sentence": "Voy a llamar a mis padres. → Voy a ___.",
             "answer": "llamarlos",
-            "explanation": "With an infinitive, the pronoun can attach to the end: llamarlos."
+            "explanation": "With an infinitive, the pronoun can attach to the end: llamarlos (mis padres is masculine plural → los)."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Put the pronoun in front instead.",
+            "sentence": "Estamos esperando el autobús. → ___ estamos esperando.",
+            "answer": "Lo",
+            "explanation": "El autobús → lo. In front of estar it's a separate word and the gerund keeps its plain spelling: lo estamos esperando (= estamos esperándolo)."
           }
         ]
       },
       {
         "heading": "Put it into practice",
         "body": [
-          "Una clienta y un vendedor hablan en una tienda de ropa."
+          "Una clienta y un vendedor hablan en una tienda de ropa. Watch how each pronoun matches the item."
         ],
         "examples": [
           {
@@ -2170,6 +4179,18 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "Camisa is feminine singular, so it's replaced by la. \"Lo\" is masculine, and \"los\" and \"las\" are plural."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "The shirt fits. The customer decides to buy it. What does she say?",
+            "options": [
+              "La compro.",
+              "Lo compro.",
+              "Compro la.",
+              "Las compro."
+            ],
+            "correctIndex": 0,
+            "explanation": "La camisa → la, before the verb: la compro. Lo is masculine, \"compro la\" puts the pronoun after a conjugated verb, and las is plural."
           }
         ]
       }
@@ -2180,7 +4201,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Replace the direct object.",
         "sentence": "¿Ves la tienda? Sí, ___ veo.",
         "answer": "la",
-        "explanation": "La tienda is feminine singular: la."
+        "explanation": "La tienda is feminine singular: la, before veo."
       },
       {
         "type": "multiple-choice",
@@ -2199,7 +4220,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Replace the direct object.",
         "sentence": "¿Tienes los boletos? No, no ___ tengo.",
         "answer": "los",
-        "explanation": "Los boletos is masculine plural: los."
+        "explanation": "Los boletos is masculine plural: los, between no and the verb."
       },
       {
         "type": "multi-select",
@@ -2227,9 +4248,55 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
+        "heading": "The idea: learn the article, get the pronoun free",
+        "body": [
+          "Remember the rule: lo, la, los, las copy the gender and number of the noun they replace, and go before a conjugated verb (or attach to an infinitive). So learn every shopping noun with its article: el recibo → lo tengo, la tarjeta → la tengo, los descuentos → los busco.",
+          "A pattern that unlocks new words: -dor / -dora added to a verb stem names who or what does the action. Vender → el vendedor (the one who sells), probar → el probador (where you try on), mostrar → el mostrador (where things are shown). The noun follows the article for the pronoun: ¿El probador? Lo busco."
+        ],
+        "examples": [
+          {
+            "es": "¿El recibo? Lo tengo en la bolsa.",
+            "en": "The receipt? I have it in the bag. (el recibo → lo)"
+          },
+          {
+            "es": "Esta talla no me queda bien. ¿La puedo cambiar?",
+            "en": "This size doesn't fit me. Can I exchange it? (la talla → la, before puedo)"
+          },
+          {
+            "es": "Los descuentos son buenos, pero no voy a usarlos hoy.",
+            "en": "The discounts are good, but I'm not going to use them today. (attached to the infinitive)"
+          },
+          {
+            "es": "El vendedor nos atiende en el mostrador.",
+            "en": "The salesperson serves us at the counter. (vender → el vendedor, mostrar → el mostrador)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Comprar = to buy. Using the -dor pattern, what is \"the buyer\"?",
+            "options": [
+              "el comprador",
+              "la compra",
+              "el compraro",
+              "el comprante"
+            ],
+            "correctIndex": 0,
+            "explanation": "Stem + -ador names the person who does it: compr- + -ador = el comprador (a woman: la compradora), like vendedor. La compra is the purchase (the thing), and \"compraro\" and \"comprante\" aren't words."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Replace the object.",
+            "sentence": "¿Tienes la tarjeta de crédito? Sí, ___ tengo aquí.",
+            "answer": "la",
+            "explanation": "The head noun is la tarjeta (feminine singular), so la. De crédito just describes it and doesn't change the gender."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulary: Shopping & Objects",
         "body": [
-          "Thirty shopping words to practice with direct object pronouns."
+          "Thirty shopping words to practice with direct object pronouns. Note each noun's article: it decides lo, la, los or las. Verbs like pagar, elegir and devolver take the pronoun directly: la pagué (I paid for it), los devolví (I returned them)."
         ],
         "examples": [
           {
@@ -2415,8 +4482,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "ahora",
           "mismo"
         ],
-        "explanation": "The pronoun goes before the conjugated verb.",
-        "translation": "I don't need it right now."
+        "translation": "I don't need it right now.",
+        "explanation": "The pronoun goes between no and the conjugated verb: no lo necesito."
       },
       {
         "type": "multiple-choice",
@@ -2451,7 +4518,19 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "los"
           }
         ],
-        "explanation": "Match gender and number to the noun being replaced, not to the meaning."
+        "explanation": "Match gender and number to the noun being replaced, not to the meaning: el mapa is masculine despite the -a."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Secar = to dry. A shop sells \"un secador\". What is it?",
+        "options": [
+          "a hair dryer",
+          "a dry towel",
+          "dried fruit",
+          "a dry cleaner's"
+        ],
+        "correctIndex": 0,
+        "explanation": "-dor names who or what does the action: secar → el secador, the thing that dries (a hair dryer). Same pattern as el probador and el mostrador."
       }
     ]
   },
@@ -2464,21 +4543,44 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "What is an indirect object?",
+        "heading": "The idea: who receives it?",
         "body": [
-          "The indirect object tells you to whom or for whom the action happens. It answers the question \"to whom?\" or \"for whom?\"."
+          "Many actions pass something to a person: I give her a gift, I send them a message. The thing passed (a gift) is the direct object; the person who receives it is the indirect object. It answers \"to whom?\" or \"for whom?\".",
+          "Why Spanish needs a separate set of pronouns: the receiver is marked with a (a mi madre), and its pronoun (le, les) doesn't care about gender, only about person and number. So \"to him\", \"to her\" and \"to you (usted)\" are all le."
         ],
         "examples": [
           {
             "es": "Le doy un regalo a mi mamá.",
-            "en": "I give my mom a gift."
+            "en": "I give my mom a gift. (the gift = what; mi mamá = to whom → le)"
+          },
+          {
+            "es": "Le doy un regalo a mi papá.",
+            "en": "I give my dad a gift. (still le: no gender change)"
+          },
+          {
+            "es": "Les mando un mensaje a mis amigas.",
+            "en": "I send my friends a message. (several people → les)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "In «Mi hermano le compró flores a su novia», who receives something?",
+            "options": [
+              "su novia",
+              "mi hermano",
+              "las flores",
+              "nobody"
+            ],
+            "correctIndex": 0,
+            "explanation": "The indirect object is the person marked with a: a su novia, doubled by le. Mi hermano is the subject (the buyer), and las flores is what was bought (the direct object)."
           }
         ]
       },
       {
         "heading": "The pronouns: me, te, le, nos, os, les",
         "body": [
-          "Unlike direct object pronouns, le and les don't change for gender — only for person and number."
+          "Me, te, nos and os look exactly like the direct object pronouns; only the third person is different: le (to him / her / you, usted) and les (to them / you all). Like all object pronouns they go before the conjugated verb."
         ],
         "examples": [
           {
@@ -2488,6 +4590,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Les mando un mensaje.",
             "en": "I send them a message."
+          },
+          {
+            "es": "¿Nos explicas el juego?",
+            "en": "Will you explain the game to us?"
           }
         ],
         "checkpoint": [
@@ -2496,14 +4602,26 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Choose the correct pronoun.",
             "sentence": "___ doy las gracias a mis amigos.",
             "answer": "Les",
-            "explanation": "A mis amigos is plural, so the indirect pronoun is les."
+            "explanation": "A mis amigos is plural, so the indirect pronoun is les (not los: they aren't what I give, they receive the thanks)."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"She tells us the news.\"",
+            "options": [
+              "Nos cuenta las noticias.",
+              "Nos cuentan las noticias.",
+              "Les cuenta las noticias.",
+              "Cuenta nos las noticias."
+            ],
+            "correctIndex": 0,
+            "explanation": "To us = nos, before the verb, and the verb agrees with she (cuenta). \"Cuentan\" is they, les would be to them, and the pronoun can't follow a conjugated verb."
           }
         ]
       },
       {
         "heading": "Verbs that almost always take an indirect object",
         "body": [
-          "dar, decir, escribir, mandar, prestar, regalar, contar, explicar, mostrar — they all describe something passed on to another person."
+          "dar, decir, escribir, mandar, prestar, regalar, contar, explicar, mostrar, enseñar: they all describe something passed on to another person, so they usually come with someone who receives it."
         ],
         "examples": [
           {
@@ -2533,12 +4651,12 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Le/les with a clarifying phrase",
         "body": [
-          "Since le and les don't show gender, Spanish often adds \"a + person\" to make clear who is meant: le escribo a mi hermano."
+          "Since le and les don't show gender, Spanish often adds a + person to make clear who is meant: le escribo a mi hermano. The surprise for English speakers: the pronoun stays even when the person is named. Le escribo a mi hermano is normal; leaving out le sounds incomplete."
         ],
         "examples": [
           {
             "es": "Le escribo a mi hermano.",
-            "en": "I write to my brother."
+            "en": "I write to my brother. (le + a mi hermano: both)"
           },
           {
             "es": "Les compro un regalo a mis padres.",
@@ -2552,13 +4670,25 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Le mando un mensaje ___ mi jefa.",
             "answer": "a",
             "explanation": "The clarifying phrase starts with a (a mi jefa) and doubles le; it can't be para here."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"I'm explaining the plan to my colleagues.\"",
+            "options": [
+              "Les explico el plan a mis compañeros.",
+              "Le explico el plan a mis compañeros.",
+              "Explico el plan les a mis compañeros.",
+              "Los explico el plan a mis compañeros."
+            ],
+            "correctIndex": 0,
+            "explanation": "Several people receive the explanation → les, before the verb, and a mis compañeros can stay to say who. Le is singular, the pronoun can't follow the verb, and los is a direct object pronoun."
           }
         ]
       },
       {
         "heading": "Put it into practice",
         "body": [
-          "Un mensaje de texto entre dos amigos sobre un regalo de cumpleaños."
+          "Un mensaje de texto entre dos amigos sobre un regalo de cumpleaños. Every le points to Marta."
         ],
         "examples": [
           {
@@ -2590,6 +4720,18 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "The text says \"le voy a regalar unos audífonos\", so he'll give her headphones, not a book, flowers or a card."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Why does the text say «Los pedí por internet» and not «Les pedí»?",
+            "options": [
+              "Los replaces the headphones, which are what was ordered.",
+              "Les would be more polite.",
+              "Los refers to Marta's parents.",
+              "Both mean the same."
+            ],
+            "correctIndex": 0,
+            "explanation": "Los audífonos is the thing ordered: a direct object, so los. Les would mean \"to them\", a receiver, which makes no sense here."
           }
         ]
       }
@@ -2648,9 +4790,51 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
+        "heading": "The idea: prefixes build tech verbs",
+        "body": [
+          "Tech vocabulary is easy to grow because Spanish builds verbs with prefixes, just like English. Des- undoes the action (conectar → desconectar, to disconnect; cargar → descargar, to download, literally \"un-load\"). Re- means again or on (enviar → reenviar, to forward; iniciar → reiniciar, to restart).",
+          "And most of these verbs pass something to a person, so they come with an indirect object pronoun: Te mando el enlace (I send you the link), Le reenvío el correo (I forward him / her the email). The pronoun can also mean \"for\" someone: Mi hijo me instaló la aplicación (installed the app for me)."
+        ],
+        "examples": [
+          {
+            "es": "¿Me reenvías el mensaje?",
+            "en": "Will you forward me the message? (re- + enviar; me = to me)"
+          },
+          {
+            "es": "Les desbloqueé el teléfono a mis padres.",
+            "en": "I unlocked the phone for my parents. (des- undoes bloquear; les = for them)"
+          },
+          {
+            "es": "Si no funciona, desconecta el wifi y reinicia la computadora.",
+            "en": "If it doesn't work, disconnect the wifi and restart the computer."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Instalar means to install. What does desinstalar mean?",
+            "options": [
+              "to uninstall",
+              "to install again",
+              "to install badly",
+              "to install for someone"
+            ],
+            "correctIndex": 0,
+            "explanation": "Des- reverses the action: desinstalar = to uninstall. \"Install again\" would take re- (reinstalar)."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with the right pronoun.",
+            "sentence": "Mi hermana ___ descargó un juego a mis hijos.",
+            "answer": "les",
+            "explanation": "Mis hijos (plural) benefit from the download, so the indirect pronoun is les. The game is the direct object."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulary: Communication & Technology",
         "body": [
-          "Thirty words for phones, messages, and screens — natural territory for indirect objects."
+          "Thirty words for phones, messages, and screens — natural territory for indirect objects. Look for the families: llamar → la llamada, conectar → la conexión, descargar / cargar, enviar / reenviar."
         ],
         "examples": [
           {
@@ -2837,16 +5021,20 @@ const A2_BASE_LESSONS: Lesson[] = [
           "por",
           "correo"
         ],
-        "explanation": "The indirect object pronoun goes right before the conjugated verb.",
-        "translation": "I'll send you the document by email."
+        "translation": "I'll send you the document by email.",
+        "explanation": "The indirect object pronoun goes right before the conjugated verb."
       },
       {
-        "type": "translate",
-        "direction": "es-en",
-        "prompt": "Translate this sentence to English.",
-        "source": "Mi abuela nos contaba historias todas las noches.",
-        "answer": "My grandmother used to tell us stories every night.",
-        "explanation": "Nos is the indirect object pronoun: \"to us.\""
+        "type": "multiple-choice",
+        "question": "«Mi abuela nos contaba historias todas las noches.» What does nos tell you?",
+        "options": [
+          "The stories were told to us.",
+          "We told the stories.",
+          "The grandmother told the stories to herself.",
+          "The stories were about us."
+        ],
+        "correctIndex": 0,
+        "explanation": "Nos is the indirect object here: to us. The subject is mi abuela (contaba agrees with her), and the stories are the thing told."
       },
       {
         "type": "multiple-choice",
@@ -2859,6 +5047,18 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "Le and les change only for person and number, never for gender: le works for him and her. So it's not \"always\", and plural or irregular verbs don't change that."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Your phone is locked and you want it unlocked. Using the prefix pattern, which verb do you need?",
+        "options": [
+          "desbloquear",
+          "rebloquear",
+          "bloquear",
+          "cargar"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bloquear = to lock / block, and des- undoes it: desbloquear. Re- would mean to lock again, and cargar is to charge."
       }
     ]
   },
@@ -2871,21 +5071,40 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "What makes a verb reflexive?",
+        "heading": "The idea: the subject acts on itself",
         "body": [
-          "A reflexive verb shows that the subject does the action to itself. In the infinitive it ends in -se: levantarse, bañarse, vestirse."
+          "A reflexive verb is an action the subject does to itself. English often hides the \"myself\" (I get up = I raise myself; I get dressed = I dress myself). Spanish always shows it with a pronoun, and the infinitive carries it as -se: levantarse, vestirse, ducharse.",
+          "Why it matters: the same verb without the pronoun acts on someone else. Despierto a mi hijo (I wake my son) vs. Me despierto (I wake up). The pronoun tells you who receives the action: the subject itself."
         ],
         "examples": [
           {
             "es": "Me levanto a las siete.",
             "en": "I get (myself) up at seven."
+          },
+          {
+            "es": "Despierto a mi hijo y luego me despierto yo.",
+            "en": "I wake my son, and then I wake up myself. (no pronoun → someone else)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "\"I dry myself with a towel.\" (secar = to dry)",
+            "options": [
+              "Me seco con una toalla.",
+              "Seco con una toalla.",
+              "Me seca con una toalla.",
+              "Se seco con una toalla."
+            ],
+            "correctIndex": 0,
+            "explanation": "Drying yourself is reflexive: secarse → me seco. Without me, it would be drying something else; \"me seca\" means he / she dries me, and se is for él / ella / ellos."
           }
         ]
       },
       {
         "heading": "The reflexive pronouns: me, te, se, nos, os, se",
         "body": [
-          "The reflexive pronoun goes before the conjugated verb, just like direct and indirect object pronouns."
+          "The pronoun matches the subject (yo → me, tú → te, él / ella / usted → se, nosotros → nos, vosotros → os, ellos / ustedes → se) and goes before the conjugated verb, just like other object pronouns. The verb itself conjugates normally, stem changes included: despertarse → me despierto, acostarse → me acuesto."
         ],
         "examples": [
           {
@@ -2900,13 +5119,20 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Ella ___ (despertarse) a las seis todos los días.",
             "answer": "se despierta",
             "explanation": "Despertarse conjugates like a stem-changing e→ie verb, plus the reflexive pronoun se."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Conjugate the reflexive verb.",
+            "sentence": "Nosotros ___ (sentarse) cerca de la ventana.",
+            "answer": "nos sentamos",
+            "explanation": "Nosotros takes nos. Sentarse is e→ie, but nosotros never changes the stem: nos sentamos, not \"nos sientamos\"."
           }
         ]
       },
       {
         "heading": "Common reflexive verbs for your daily routine",
         "body": [
-          "despertarse, bañarse, ducharse, vestirse, cepillarse (los dientes), peinarse, acostarse, dormirse: they all describe steps in a typical day."
+          "despertarse, levantarse, bañarse, ducharse, vestirse, cepillarse (los dientes), peinarse, acostarse, dormirse: they all describe steps in a typical day. With body parts and clothes Spanish uses el / la, not mi / tu, because the pronoun already says whose: me lavo la cara (I wash my face)."
         ],
         "examples": [
           {
@@ -2930,13 +5156,25 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Peinarse means to comb or style your hair. \"Afeitarse\" is to shave, \"maquillarse\" to put on makeup, and \"vestirse\" to get dressed."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"My father shaves every morning.\" (afeitarse)",
+            "options": [
+              "Mi padre se afeita todas las mañanas.",
+              "Mi padre afeita todas las mañanas.",
+              "Mi padre se afeito todas las mañanas.",
+              "Mi padre le afeita todas las mañanas."
+            ],
+            "correctIndex": 0,
+            "explanation": "He shaves himself: se + afeita. Without se it's incomplete (shaves whom?), \"afeito\" is the yo form, and le would mean he shaves someone else."
           }
         ]
       },
       {
         "heading": "Reflexive vs. non-reflexive: same verb, different meaning",
         "body": [
-          "Many verbs change meaning with se: lavar (to wash something) vs. lavarse (to wash oneself); poner (to put) vs. ponerse (to put on / become)."
+          "Many verbs exist both ways. Without se the action goes to something or someone else: lavar (to wash something), poner (to put). With se it comes back to the subject: lavarse (to wash oneself), ponerse (to put on, clothes)."
         ],
         "examples": [
           {
@@ -2955,13 +5193,25 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Antes de comer, yo ___ (lavarse) las manos.",
             "answer": "me lavo",
             "explanation": "The action falls on the subject's own body (my hands), so use the reflexive form: me lavo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"She puts her daughter to bed.\" (acostar / acostarse)",
+            "options": [
+              "Acuesta a su hija.",
+              "Se acuesta a su hija.",
+              "Se acuesta su hija.",
+              "Acuesta se a su hija."
+            ],
+            "correctIndex": 0,
+            "explanation": "She acts on someone else (her daughter), so no se: acuesta a su hija. Se acuesta would mean she goes to bed herself."
           }
         ]
       },
       {
         "heading": "Put it into practice",
         "body": [
-          "A description of Carlos's morning routine."
+          "A description of Carlos's morning routine. Notice that desayuna has no se: breakfast isn't done to yourself."
         ],
         "examples": [
           {
@@ -3048,9 +5298,52 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
+        "heading": "The idea: nouns become routine verbs",
+        "body": [
+          "Many routine verbs are built from a noun + -arse: la ducha (shower) → ducharse, el baño (bath) → bañarse, el peine (comb) → peinarse, el cepillo (brush) → cepillarse, el maquillaje → maquillarse. If you know the object, you can guess the verb, and the -se tells you it's done to yourself.",
+          "And body parts and clothes take el / la, not mi / tu, because the reflexive pronoun already says whose: me lavo la cara (I wash my face), se seca el pelo (she dries her hair)."
+        ],
+        "examples": [
+          {
+            "es": "Después de la ducha, me seco con la toalla.",
+            "en": "After the shower, I dry off with the towel. (la ducha → ducharse; secar → secarse)"
+          },
+          {
+            "es": "Mi hijo se cepilla los dientes con un cepillo azul.",
+            "en": "My son brushes his teeth with a blue brush. (el cepillo → cepillarse; los, not sus, dientes)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "El perfume = perfume. What does perfumarse mean?",
+            "options": [
+              "to put perfume on yourself",
+              "to sell perfume",
+              "to smell something",
+              "to buy perfume for someone"
+            ],
+            "correctIndex": 0,
+            "explanation": "Noun + -arse = do it to yourself: perfumarse is to put perfume on (yourself). Like maquillarse from el maquillaje."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"She washes her hands.\"",
+            "options": [
+              "Se lava las manos.",
+              "Se lava sus manos.",
+              "Lava se las manos.",
+              "Se lava los manos."
+            ],
+            "correctIndex": 0,
+            "explanation": "The reflexive se already says whose hands, so Spanish uses the article: las manos (mano is feminine despite the -o). \"Sus manos\" doubles the owner, the pronoun can't follow the verb, and los is masculine."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulary: Body & Daily Routine",
         "body": [
-          "Thirty words for the body and the daily routine described above."
+          "Thirty words for the body and the daily routine. Learn the nouns with their article (la mano and la foto are feminine despite the -o); you'll use the article every time you talk about your own body."
         ],
         "examples": [
           {
@@ -3259,6 +5552,40 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "Ponerse + clothing means to put on: ponerse el abrigo. To remove is quitarse, to wash is lavar, and \"to set\" is a literal translation of poner that doesn't fit clothing."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Quitarse is the opposite of ponerse. \"I take off my shoes at home.\"",
+        "options": [
+          "Me quito los zapatos en casa.",
+          "Me pongo los zapatos en casa.",
+          "Quito mis zapatos en casa.",
+          "Me quito mis zapatos en casa."
+        ],
+        "correctIndex": 0,
+        "explanation": "Quitarse = to take off (yourself), with me for yo and los (not mis) for clothes. Me pongo is the opposite (put on), and without me the shoes would be someone else's."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Put the words in order.",
+        "words": [
+          "Me",
+          "pongo",
+          "el",
+          "pijama",
+          "y",
+          "me",
+          "acuesto"
+        ],
+        "translation": "I put on my pajamas and go to bed",
+        "explanation": "Ponerse + clothes = to put on; each reflexive verb has its own pronoun."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Complete with the right article.",
+        "sentence": "Me duele ___ mano derecha.",
+        "answer": "la",
+        "explanation": "Mano is feminine even though it ends in -o: la mano. With body parts, Spanish uses the article, not mi."
       }
     ]
   },
@@ -3271,9 +5598,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Unequal comparisons: más/menos...que",
+        "heading": "The idea: Spanish never changes the adjective",
         "body": [
-          "To compare two unequal things, use más...que (more...than) or menos...que (less...than)."
+          "English compares by changing the word (tall → taller → tallest) or adding more / most. Spanish always does the second: it leaves the adjective alone and puts más (more) or menos (less) in front, then que before the thing compared: más alto que (taller than), menos caro que (cheaper, literally less expensive, than).",
+          "The adjective still agrees with its noun as usual: Mi hermana es más alta que yo. And after que, people take the subject form: que yo, que tú (not que mí)."
         ],
         "examples": [
           {
@@ -3283,6 +5611,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Tengo menos dinero que tú.",
             "en": "I have less money than you."
+          },
+          {
+            "es": "Mis primas son más altas que mis tías.",
+            "en": "My cousins are taller than my aunts. (altas agrees with primas)"
           }
         ],
         "checkpoint": [
@@ -3292,13 +5624,25 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Mi hermano es ___ alto que yo. (more...than)",
             "answer": "más",
             "explanation": "Más...que means more...than: más goes in the blank before the adjective, and que introduces the second person or thing."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"This street is quieter than mine.\" (tranquilo)",
+            "options": [
+              "Esta calle es más tranquila que la mía.",
+              "Esta calle es tranquilera que la mía.",
+              "Esta calle es más tranquilo que la mía.",
+              "Esta calle es más tranquila como la mía."
+            ],
+            "correctIndex": 0,
+            "explanation": "Spanish doesn't add an ending like -er: más + adjective + que. The adjective agrees with calle (tranquila), and unequal comparisons use que, not como."
           }
         ]
       },
       {
         "heading": "Equal comparisons: tan...como / tanto...como",
         "body": [
-          "For equal things: tan + adjective/adverb + como (as...as); tanto/a/os/as + noun + como (as much/many...as)."
+          "For equality the word changes from que to como (as). With an adjective or adverb use tan, which never changes: tan bonita como. With a noun use tanto, which agrees with the noun because it counts it: tanto tiempo, tanta ropa, tantos libros, tantas horas."
         ],
         "examples": [
           {
@@ -3322,13 +5666,20 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "With nouns, use tanto/tanta/tantos/tantas + noun + como, agreeing with the noun. \"Tan...como\" is for adjectives and adverbs, and \"más que\" and \"menos que\" express inequality, not equal amounts."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete the comparison.",
+            "sentence": "Mi abuela tiene ___ energía como yo.",
+            "answer": "tanta",
+            "explanation": "Energía is a feminine singular noun, so tanta ... como. Tan only goes with adjectives and adverbs."
           }
         ]
       },
       {
         "heading": "Irregular comparatives",
         "body": [
-          "Some adjectives have special comparative forms: bueno → mejor, malo → peor, viejo → mayor, joven → menor (for people's age)."
+          "Four everyday adjectives have a one-word comparative instead of más: bueno → mejor (better), malo → peor (worse), viejo → mayor (older, for people), joven → menor (younger). Because mejor already means \"more good\", never say más mejor."
         ],
         "examples": [
           {
@@ -3347,13 +5698,25 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Este restaurante es ___ que el otro. (worse)",
             "answer": "peor",
             "explanation": "For worse, malo has the irregular form peor. (Más malo is only used in a few senses, like naughtier.)"
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"Your idea is better than mine.\"",
+            "options": [
+              "Tu idea es mejor que la mía.",
+              "Tu idea es más mejor que la mía.",
+              "Tu idea es más buena que la mía.",
+              "Tu idea es mejor como la mía."
+            ],
+            "correctIndex": 0,
+            "explanation": "Bueno → mejor, already a comparative, so no más. \"Más buena\" is avoided for quality, and unequal comparisons take que, not como."
           }
         ]
       },
       {
         "heading": "Superlatives: el/la/los/las más/menos...de",
         "body": [
-          "The superlative picks out the extreme within a group: el/la/los/las + (noun) + más/menos + adjective + de."
+          "A superlative is a comparison with a whole group, so it adds the article: el / la / los / las + (noun) + más / menos + adjective + de + the group. English \"in\" becomes de: la más alta de la clase. Irregulars keep their one word: el mejor, la peor."
         ],
         "examples": [
           {
@@ -3372,13 +5735,25 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Este es ___ vestido más elegante de la tienda.",
             "answer": "el",
             "explanation": "The superlative uses the definite article that agrees with the noun: el vestido."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"It's the oldest building in the town.\" (antiguo)",
+            "options": [
+              "Es el edificio más antiguo del pueblo.",
+              "Es el edificio más antiguo en el pueblo.",
+              "Es el más edificio antiguo del pueblo.",
+              "Es edificio el más antiguo del pueblo."
+            ],
+            "correctIndex": 0,
+            "explanation": "Article + noun + más + adjective + de: el edificio más antiguo del pueblo (de + el → del). Spanish uses de, not en, for the group."
           }
         ]
       },
       {
         "heading": "Put it into practice",
         "body": [
-          "Two friends compare clothes in a store."
+          "Two friends compare clothes in a store. Spot each pattern: más ... que, tan ... como, la mejor, la más."
         ],
         "examples": [
           {
@@ -3452,9 +5827,47 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
+        "heading": "The idea: \"the red one\" is just la roja",
+        "body": [
+          "When you compare clothes, you keep pointing at items: the red one, the long ones. Spanish has no word for \"one\": it drops the noun and keeps the article and the adjective, still agreeing with the noun you mean. La falda roja → la roja; los pantalones largos → los largos.",
+          "Fit works like gustar: the clothes are the subject. Me queda bien la camisa (the shirt fits me well), me quedan grandes los zapatos (the shoes are big on me)."
+        ],
+        "examples": [
+          {
+            "es": "Esta chaqueta es más elegante que la negra.",
+            "en": "This jacket is more elegant than the black one. (la negra = la chaqueta negra)"
+          },
+          {
+            "es": "Los zapatos marrones me quedan mejor que los blancos.",
+            "en": "The brown shoes fit me better than the white ones. (quedan agrees with the shoes)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "You're choosing between two sweaters. \"I prefer the green one.\"",
+            "options": [
+              "Prefiero el verde.",
+              "Prefiero la verde.",
+              "Prefiero el verde uno.",
+              "Prefiero verde."
+            ],
+            "correctIndex": 0,
+            "explanation": "Drop the noun, keep the article that agrees with it: el suéter verde → el verde. La is feminine, Spanish adds no \"uno\", and without the article it would mean you prefer the color green."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with the right form of quedar.",
+            "sentence": "Estas botas me ___ pequeñas.",
+            "answer": "quedan",
+            "explanation": "Quedar agrees with the clothes, like gustar: las botas (plural) → quedan. Me shows who wears them."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulary: Clothing & Sizes",
         "body": [
-          "Thirty words for clothing, sizes, and fit — perfect for practicing comparisons."
+          "Thirty words for clothing, sizes, and fit — perfect for practicing comparisons. Many adjectives come in opposite pairs: largo / corto, ancho / estrecho, cómodo / incómodo."
         ],
         "examples": [
           {
@@ -3648,7 +6061,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Put the words in the right order.",
+        "prompt": "Put the words in order.",
         "words": [
           "Estos",
           "zapatos",
@@ -3659,16 +6072,20 @@ const A2_BASE_LESSONS: Lesson[] = [
           "las",
           "botas"
         ],
-        "explanation": "Equal comparison: tan + adjective + como.",
-        "translation": "These shoes are as comfortable as the boots."
+        "translation": "These shoes are as comfortable as the boots.",
+        "explanation": "Equal comparison: tan + adjective + como."
       },
       {
-        "type": "translate",
-        "direction": "es-en",
-        "prompt": "Translate this sentence to English.",
-        "source": "Es el vestido más caro de toda la tienda.",
-        "answer": "It's the most expensive dress in the whole store.",
-        "explanation": "The superlative is el/la + noun + más + adjective + de: el vestido más caro de toda la tienda."
+        "type": "multiple-choice",
+        "question": "A shop assistant says: «Es el vestido más caro de toda la tienda.» What does she mean?",
+        "options": [
+          "No other dress in the shop costs more.",
+          "It's a cheap dress.",
+          "It's as expensive as the others.",
+          "It's more expensive than one other dress."
+        ],
+        "correctIndex": 0,
+        "explanation": "El + noun + más + adjective + de toda la tienda is a superlative: the most expensive of the whole group. Más ... que would compare it with just one other item."
       }
     ]
   },
@@ -3681,9 +6098,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "The simple future: regular verbs",
+        "heading": "The idea: infinitive + an ending",
         "body": [
-          "For regular verbs, keep the whole infinitive and add the endings: -é, -ás, -á, -emos, -éis, -án. This works the same for all three groups (-ar, -er, -ir)."
+          "The simple future is the easiest tense to build: you don't cut anything off. Keep the whole infinitive and add one set of endings for all three groups: -é, -ás, -á, -emos, -éis, -án. Hablar → hablaré, comer → comeré, vivir → viviré.",
+          "Why it works this way: the future grew out of \"infinitive + haber\" (hablar + he = \"I have to speak\"), so the endings look like he, has, ha, hemos, habéis, han. That's also why every form but nosotros has a written accent."
         ],
         "examples": [
           {
@@ -3693,6 +6111,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Mañana viajaré a Bogotá.",
             "en": "Tomorrow I will travel to Bogotá."
+          },
+          {
+            "es": "¿Comerás con nosotros el domingo?",
+            "en": "Will you eat with us on Sunday? (comer + -ás)"
           }
         ],
         "checkpoint": [
@@ -3702,13 +6124,25 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Nosotros ___ (vivir) en esta ciudad por un año.",
             "answer": "viviremos",
             "explanation": "The regular future keeps the infinitive: vivir + emos = viviremos."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Abrir (to open) is regular in the future. \"The shop will open at ten.\"",
+            "options": [
+              "La tienda abrirá a las diez.",
+              "La tienda abrá a las diez.",
+              "La tienda abrirá a las diez mañanas.",
+              "La tienda abriera a las diez."
+            ],
+            "correctIndex": 0,
+            "explanation": "Keep the whole infinitive (abrir) and add -á: abrirá. \"Abrá\" cuts the -ir, the third option adds an extra word, and abriera is a different tense (subjunctive)."
           }
         ]
       },
       {
         "heading": "Irregular future stems",
         "body": [
-          "A small group of verbs uses an irregular stem, but the same endings: tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-, decir → dir-, hacer → har-, poder → podr-, querer → querr-, saber → sabr-, haber → habr-."
+          "About a dozen common verbs shorten or change the infinitive, but the endings never change. They come in three families: drop the e and add d (tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-), drop the e (poder → podr-, querer → querr-, saber → sabr-, haber → habr-), and two short ones (decir → dir-, hacer → har-)."
         ],
         "examples": [
           {
@@ -3732,13 +6166,20 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 2,
             "explanation": "The future of decir uses the irregular stem dir-: diré, dirás, dirá. \"Decir-\" is the regular pattern it doesn't follow, \"dic-\" is the present stem, and \"dij-\" is the preterite."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Conjugate the verb in the future.",
+            "sentence": "¿___ (venir) ustedes a la boda?",
+            "answer": "Vendrán",
+            "explanation": "Venir is in the tener family: drop the i, add d → vendr- + -án = vendrán."
           }
         ]
       },
       {
         "heading": "Ir a + infinitive vs. the simple future",
         "body": [
-          "Ir a + infinitive sounds more informal, for near or decided plans. The simple future sounds more formal, for predictions or distant plans, and it also expresses probability about the present."
+          "Ir a + infinitive sounds more informal, for near or decided plans. The simple future sounds more formal, for predictions or distant plans, and it also expresses probability about the present (a guess)."
         ],
         "examples": [
           {
@@ -3761,13 +6202,25 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Algún día, ella ___ (ser) doctora.",
             "answer": "será",
             "explanation": "The simple future expresses a long-term plan or prediction: ser + -á = será."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Your friend hasn't arrived. You guess: \"He's probably in traffic.\"",
+            "options": [
+              "Estará en el tráfico.",
+              "Va a estar en el tráfico.",
+              "Estaba en el tráfico.",
+              "Está en el tráfico seguro."
+            ],
+            "correctIndex": 0,
+            "explanation": "The simple future can express a guess about now: estará = he's probably. Ir a + infinitive would be a plan, and estaba is past."
           }
         ]
       },
       {
         "heading": "Talking about plans and predictions",
         "body": [
-          "The future is ideal for making predictions, promising something, and talking about career or personal goals."
+          "The future is ideal for making predictions, promising something, and talking about career or personal goals. Time words that point forward help: algún día, dentro de + time (in ... time), el año que viene, en el futuro."
         ],
         "examples": [
           {
@@ -3853,9 +6306,47 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
+        "heading": "The idea: work verbs and their nouns",
+        "body": [
+          "Remember the rule: the simple future is the whole infinitive + -é, -ás, -á, -emos, -éis, -án (contrataré, me jubilaré), with a few short stems (tendré, haré, podré).",
+          "Work vocabulary grows in families, so learn the verb and you get the noun: contratar → el contrato, ascender → el ascenso, aumentar → el aumento, jubilarse → la jubilación, capacitar → la capacitación. Nouns in -ción are always feminine."
+        ],
+        "examples": [
+          {
+            "es": "Me contratarán con un contrato de un año.",
+            "en": "They'll hire me on a one-year contract. (contratar → el contrato)"
+          },
+          {
+            "es": "Si asciendo, el ascenso vendrá con un aumento de sueldo.",
+            "en": "If I get promoted, the promotion will come with a pay raise. (ascender → el ascenso)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Despedir means to fire (someone). Using the family pattern, what is \"the dismissal\"?",
+            "options": [
+              "el despido",
+              "la despedición",
+              "el despedimiento",
+              "la despida"
+            ],
+            "correctIndex": 0,
+            "explanation": "Like ascender → el ascenso, many verbs make a short noun in -o: despedir → el despido. Not every verb takes -ción."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with the future.",
+            "sentence": "Mi madre ___ (jubilarse) el año que viene.",
+            "answer": "se jubilará",
+            "explanation": "Reflexive verbs keep se before the future form: se jubilará (jubilar + -á)."
+          }
+        ]
+      },
+      {
         "heading": "Put it into practice",
         "body": [
-          "A job interview about future plans."
+          "A job interview about future plans. Every plan is in the simple future: tendré, seré, hará, trabajaré."
         ],
         "examples": [
           {
@@ -4086,8 +6577,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Translate this sentence to Spanish.",
-        "source": "She will be a doctor someday.",
+        "prompt": "Change it to the future, adding algún día.",
+        "source": "Ella es doctora.",
         "answer": "Ella será doctora algún día.",
         "altAnswers": [
           "Será doctora algún día.",
@@ -4098,7 +6589,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Algún día será médica.",
           "Algún día ella será médica."
         ],
-        "explanation": "Ser is regular in the future: ser + -á = será."
+        "explanation": "Ser is regular in the future: ser + -á = será. Algún día points to the future."
       },
       {
         "type": "multiple-choice",
@@ -4123,8 +6614,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Para: destination, deadline, purpose, recipient",
+        "heading": "The idea: para points ahead, por looks back",
         "body": [
+          "English uses \"for\" for both, so you need a test. Para points forward to a goal: where you're heading, when it's due, what it's for, who will get it. Por looks back to a cause or goes through something: why it happened, how long it lasted, what you swapped, where you passed through.",
+          "Why it works: ask \"for what end?\" or \"because of what?\". If the answer is a goal still ahead (to become a doctor, by Friday, for you), use para. If it's a reason, a duration, an exchange or a route, use por.",
           "Para marks a destination (where to), a deadline, a purpose (what for) or a recipient (who for)."
         ],
         "examples": [
@@ -4148,6 +6641,18 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Estudio ___ ser doctora.",
             "answer": "para",
             "explanation": "Para expresses purpose: I study in order to become a doctor."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Apply the test. \"These flowers are for the teacher.\"",
+            "options": [
+              "Estas flores son para la profesora.",
+              "Estas flores son por la profesora.",
+              "Estas flores son a la profesora.",
+              "Estas flores son de la profesora."
+            ],
+            "correctIndex": 0,
+            "explanation": "The teacher is the person who will receive them, a goal ahead: para. Por la profesora would mean because of her or on her behalf, and de means they already belong to her."
           }
         ]
       },
@@ -4187,6 +6692,13 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "Por expresses a cause or reason: por la lluvia (because of the rain). Para expresses purpose or destination, so it isn't \"both\" or \"neither\"."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with por or para.",
+            "sentence": "Te doy mi libro ___ tu revista.",
+            "answer": "por",
+            "explanation": "An exchange (one thing swapped for another) takes por. Para tu revista would mean the book is meant for the magazine, which makes no sense."
           }
         ]
       },
@@ -4246,6 +6758,18 @@ const A2_BASE_LESSONS: Lesson[] = [
               3
             ],
             "explanation": "Por marks duration, cause and exchange of money. A deadline takes para: para el lunes."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"Thank you for the flowers.\" Which is right?",
+            "options": [
+              "Gracias por las flores.",
+              "Gracias para las flores.",
+              "Gracias de las flores.",
+              "Gracias a las flores."
+            ],
+            "correctIndex": 0,
+            "explanation": "You thank someone because of something they gave or did, so it's a cause: gracias por. Para would wrongly point to a goal."
           }
         ]
       }
@@ -4304,6 +6828,53 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
+        "heading": "The idea: the reason behind, or the goal ahead",
+        "body": [
+          "Remember the rule from Part 1: para points forward to a goal (a purpose, a recipient, a destination, a deadline), while por points back to what is behind something (a cause or reason) or to the way it happens (by phone, through a place, in exchange for money).",
+          "A visit to the doctor is full of both, so ask one question each time: is this the reason behind it, or the target it is aimed at? You go to the doctor por a cough (that's why you're there), and you get a syrup para the cough (that's what it's meant to fix)."
+        ],
+        "examples": [
+          {
+            "es": "Estoy en casa por la gripe.",
+            "en": "I'm at home because of the flu. (the cause → por)"
+          },
+          {
+            "es": "Este jarabe es para la tos.",
+            "en": "This syrup is for the cough. (what it's meant to treat → para)"
+          },
+          {
+            "es": "Las pastillas son para mi abuelo.",
+            "en": "The pills are for my grandfather. (who receives them → para)"
+          },
+          {
+            "es": "Pedí la cita por teléfono para el lunes.",
+            "en": "I booked the appointment by phone for Monday. (the means → por; the target date → para)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "\"I can't sleep because of the cough.\"",
+            "options": [
+              "No puedo dormir por la tos.",
+              "No puedo dormir para la tos.",
+              "No puedo dormir porque la tos.",
+              "No puedo dormir de la tos."
+            ],
+            "correctIndex": 0,
+            "explanation": "The cough is the reason behind the sleepless night, so por + noun. Para la tos would mean 'meant to treat the cough', and porque needs a full clause with a verb (porque tengo tos)."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "How do you say the bold words in Spanish?",
+            "sentence": "Hice la cita ___ internet.",
+            "answer": "por",
+            "en": "I made the appointment [online].",
+            "explanation": "The way something is done (por teléfono, por correo, por internet) takes por. Para internet would mean the appointment is meant for the internet."
+          }
+        ]
+      },
+      {
         "heading": "Put it into practice",
         "body": [
           "A short visit to the doctor."
@@ -4338,6 +6909,18 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "The patient says \"Vengo por un dolor de cabeza muy fuerte\": he came because of a bad headache, not a fever, allergy or wound."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "The patient comes \"por un dolor\" but the doctor prescribes something \"para el dolor\". Why the change?",
+            "options": [
+              "The pain is the patient's reason for coming; the medicine is aimed at fixing the pain.",
+              "The doctor speaks more formally than the patient.",
+              "Por is used with vengo and para with recetar, whatever the meaning.",
+              "Both mean the same; the doctor just varies the word."
+            ],
+            "correctIndex": 0,
+            "explanation": "Same noun, two directions: por looks back at the cause (why he came), para looks ahead to the goal (what the medicine is for). The choice depends on meaning, not on the verb or on formality."
           }
         ]
       },
@@ -4564,7 +7147,43 @@ const A2_BASE_LESSONS: Lesson[] = [
     "title": "Mastery Check: Por vs. Para",
     "summary": "A focused test of Spanish's trickiest preposition pair, with ambiguous-looking sentences where only context reveals whether por or para is correct.",
     "duration": "10 min",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Remember the rule",
+        "body": [
+          "Para looks ahead to a target: a goal or purpose, a recipient, a destination, a deadline, an employer, or a standard you compare against (para ser niño...). Por looks back or along the way: a cause, an exchange or price, a length of time, a route or means, someone you act for the sake of or in place of, and fixed phrases like por favor.",
+          "In this check many sentences look the same with either word. Only the context tells you which one is meant, so decide first: is this the target, or the reason / the way?"
+        ],
+        "examples": [
+          {
+            "es": "Trabajo para mi tía.",
+            "en": "I work for my aunt. (she's my employer → para)"
+          },
+          {
+            "es": "Hoy trabajo por mi tía.",
+            "en": "Today I'm working in my aunt's place. (substitution → por)"
+          },
+          {
+            "es": "Para ser lunes, hay poco tráfico.",
+            "en": "For a Monday, there's little traffic. (compared with what you'd expect → para)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Cambié mi bicicleta ___ una guitarra.» (I swapped my bike for a guitar)",
+            "options": [
+              "por",
+              "para",
+              "porque",
+              "a"
+            ],
+            "correctIndex": 0,
+            "explanation": "One thing given in exchange for another takes por: cambiar X por Y. Para una guitarra would mean the bike was meant for a guitar."
+          }
+        ]
+      }
+    ],
     "exercises": [
       {
         "type": "fill-blank",
@@ -4779,6 +7398,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "What is the personal a?",
         "body": [
           "In Spanish, when the direct object of a sentence is a specific person (or a pet we treat as an individual with its own name), you put the word a right before that direct object. This personal a isn't translated into English: it simply marks that the direct object is someone, not something.",
+          "Why does Spanish need it? Word order is free in Spanish (Juan ve a María, A María la ve Juan), and both nouns could be the one doing the action. The a tags the person who receives the action, so you always know who sees whom. Things can't be confused with the doer, so they don't need the tag.",
           "Compare these two sentences: Veo a María (I see María) and Veo la casa (I see the house). In the first, María is a specific person, so we use a. In the second, la casa is a thing, so we don't.",
           "Remember that a combines with the article el to make al: Veo al profesor (a + el profesor = al profesor)."
         ],
@@ -5097,7 +7717,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "Unlike English, Spanish requires two negatives in the same sentence when the negative word comes after the verb: no + verb + negative word. This double negative is required and correct in Spanish, even though it sounds redundant in English.",
           "Compare: No veo a nadie is literally I don't see nobody, but in natural English we say I don't see anybody. Spanish always needs no before the verb when the negative word comes after it.",
-          "If the negative word goes before the verb, no disappears: Nadie viene a la fiesta (Nobody is coming to the party), with no no."
+          "If the negative word goes before the verb, no disappears: Nadie viene a la fiesta (Nobody is coming to the party), with no no.",
+          "The one rule behind both patterns: something negative must stand in front of the verb. Either no goes there and the negative word follows (No viene nadie), or the negative word itself goes first (Nadie viene). In Spanish, negatives don't cancel each other out as in English logic; they agree, like an adjective agrees with its noun."
         ],
         "examples": [
           {
@@ -5124,6 +7745,21 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "___ como nada antes de las ocho de la mañana.",
             "answer": "No",
             "explanation": "Nada comes after the verb (como), so the sentence needs no before the verb: No como nada."
+          },
+          {
+            "type": "multi-select",
+            "question": "\"Nobody calls me.\" Which sentences are correct? (Choose all that apply)",
+            "options": [
+              "Nadie me llama.",
+              "No me llama nadie.",
+              "Nadie no me llama.",
+              "Me llama nadie."
+            ],
+            "correctIndexes": [
+              0,
+              1
+            ],
+            "explanation": "Something negative must stand before the verb: either nadie itself (Nadie me llama) or no, with nadie after (No me llama nadie). Nadie no doubles it before the verb, and Me llama nadie has nothing negative in front."
           }
         ]
       },
@@ -5228,7 +7864,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Tampoco and ni...ni",
         "body": [
           "Tampoco means neither or not...either, and it is the negative answer to también. Use it to add a negative to something already negated: No me gusta el café. A mí tampoco. (I don't like coffee. Me neither.)",
-          "Ni...ni means neither...nor and negates two things at once: No como ni carne ni pescado (I eat neither meat nor fish). When ni...ni comes before the verb, you don't need no: Ni Juan ni Pedro vinieron a la reunión."
+          "Ni...ni means neither...nor and negates two things at once: No como ni carne ni pescado (I eat neither meat nor fish). When ni...ni comes before the verb, you don't need no: Ni Juan ni Pedro vinieron a la reunión.",
+          "Remember the rule from Part 1: something negative must stand before the verb. Tampoco and ni follow it exactly like nunca and nadie: in front of the verb they stand alone (Yo tampoco voy), after the verb they need no in front (No voy tampoco). Each one is simply the negative partner of an affirmative word: también → tampoco, o...o → ni...ni."
         ],
         "examples": [
           {
@@ -5268,6 +7905,18 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "translation": "Neither my father nor my mother is cooking today.",
             "explanation": "When ni...ni comes before the verb, you don't add no: the two ni words already make the sentence negative."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"My cousins don't play tennis either.\" Which sentence is correct?",
+            "options": [
+              "Mis primos tampoco juegan al tenis.",
+              "Mis primos no tampoco juegan al tenis.",
+              "Mis primos también no juegan al tenis.",
+              "Mis primos tampoco no juegan al tenis."
+            ],
+            "correctIndex": 0,
+            "explanation": "Tampoco before the verb is the negative in front, so it stands alone. 'También no' doesn't exist (the negative partner of también is tampoco), and adding no next to tampoco doubles the negative before the verb."
           }
         ]
       },
@@ -5431,7 +8080,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "How to form -mente adverbs",
         "body": [
           "To form an adverb of manner from an adjective, take the feminine singular form of the adjective and add -mente. This ending works like -ly in English.",
-          "If the masculine adjective ends in -o, change it to -a before adding -mente: rápido becomes rápida and then rápidamente. If the adjective has one form for masculine and feminine (it ends in -e or a consonant), just add -mente to that form: fácil becomes fácilmente; elegante becomes elegantemente."
+          "If the masculine adjective ends in -o, change it to -a before adding -mente: rápido becomes rápida and then rápidamente. If the adjective has one form for masculine and feminine (it ends in -e or a consonant), just add -mente to that form: fácil becomes fácilmente; elegante becomes elegantemente.",
+          "Why feminine? -mente was once a separate feminine noun, la mente (the mind). Clara mente meant 'with a clear mind', so the adjective had to agree with mente in the feminine. The two words later fused into one, which is also why the adjective keeps its own accent (see the next section)."
         ],
         "examples": [
           {
@@ -5463,6 +8113,18 @@ const A2_BASE_LESSONS: Lesson[] = [
             "answer": "lentamente",
             "hint": "Feminine form of the adjective + -mente.",
             "explanation": "Lento becomes lenta (feminine), then add -mente: lentamente."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Tranquilo means 'calm'. How do you say 'calmly'?",
+            "options": [
+              "tranquilamente",
+              "tranquilomente",
+              "tranquilmente",
+              "tranquilomento"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tranquilo ends in -o, so switch to the feminine tranquila and add -mente: tranquilamente. Tranquilomente keeps the masculine -o, the classic mistake."
           }
         ]
       },
@@ -5562,7 +8224,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Two or more -mente adverbs in a row",
         "body": [
           "When two or more -mente adverbs come in a row, joined by y or pero, normally only the last one takes -mente. The ones before it stay in their plain feminine form, without -mente.",
-          "For example, instead of Habló claramente y lentamente (correct, but repetitive), it's more natural to say Habló clara y lentamente. The -mente on the last adverb is understood to apply to the earlier ones too."
+          "For example, instead of Habló claramente y lentamente (correct, but repetitive), it's more natural to say Habló clara y lentamente. The -mente on the last adverb is understood to apply to the earlier ones too.",
+          "Remember where -mente comes from: the feminine noun mente (mind). Clara y lentamente was once 'with a clear and slow mind', one noun shared by two adjectives. That's why the earlier ones stay feminine (clara, not claro) and why one -mente is enough."
         ],
         "examples": [
           {
@@ -5596,6 +8259,18 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "translation": "She wrote the report clearly and carefully.",
             "explanation": "When two -mente adverbs are joined by y, normally only the second takes -mente: clara y cuidadosamente (claramente y cuidadosamente is correct but heavier)."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"They drove slowly and safely.\" Which is the most natural?",
+            "options": [
+              "Condujeron lenta y seguramente.",
+              "Condujeron lento y seguramente.",
+              "Condujeron lentamente y segura.",
+              "Condujeron lentos y seguros."
+            ],
+            "correctIndex": 0,
+            "explanation": "Only the last adverb takes -mente, and the first stays in the feminine form (lenta), because both share the one feminine -mente. Lento keeps the masculine, and lentos / seguros are adjectives agreeing with 'they'."
           }
         ]
       },
@@ -5814,7 +8489,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "To give directions to a stranger in the street, Spanish normally uses the formal usted command, not the tú command, because you're talking to someone you don't know.",
           "The most common verbs are seguir (siga), continuar (continúe), girar (gire), doblar (doble), cruzar (cruce) and tomar (tome).",
-          "Siga/continúe derecho means go straight. Gire/doble a la derecha or a la izquierda means turn right/left. Cruce la calle means cross the street. Tome la primera/segunda calle means take the first/second street."
+          "Siga/continúe derecho means go straight. Gire/doble a la derecha or a la izquierda means turn right/left. Cruce la calle means cross the street. Tome la primera/segunda calle means take the first/second street.",
+          "How to build any usted command: start from the yo form of the present, drop the -o, and add the 'opposite' vowel: -ar verbs take -e (tomo → tome, giro → gire), -er and -ir verbs take -a (sigo → siga, vuelvo → vuelva). The vowel swap is the signal that this is an instruction, not a statement (usted toma = you take; tome = take!). Spelling adjusts to keep the sound: cruzar → cruce."
         ],
         "examples": [
           {
@@ -5842,6 +8518,18 @@ const A2_BASE_LESSONS: Lesson[] = [
             "answer": "Siga",
             "hint": "The usted command of seguir.",
             "explanation": "Siga is the formal (usted) command of seguir, the right form for giving an instruction to a stranger."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Subir means 'to go up'. Tell a stranger: \"Go up this street.\"",
+            "options": [
+              "Suba esta calle.",
+              "Sube esta calle.",
+              "Sube usted esta calle.",
+              "Subir esta calle."
+            ],
+            "correctIndex": 0,
+            "explanation": "Subir is an -ir verb, so the usted command takes the opposite vowel -a: subo → suba. Sube is the tú command (or 'he goes up'), and the infinitive isn't a command."
           }
         ]
       }
@@ -5921,7 +8609,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Prepositions and location expressions",
         "body": [
           "To describe where a place is, use these prepositions and location expressions: al lado de (next to), enfrente de (in front of / across from), detrás de (behind), entre (between), en la esquina de (on the corner of), a dos cuadras/manzanas de (two blocks from), cerca de (close to) and lejos de (far from).",
-          "For a city block, Latin America says cuadra and Spain says manzana."
+          "For a city block, Latin America says cuadra and Spain says manzana.",
+          "Two rules cover all of them. Location always takes estar (el banco está al lado de...), never ser. And most location expressions end in de, so de + el contracts to del: al lado del banco, enfrente del hotel, cerca del parque."
         ],
         "examples": [
           {
@@ -5960,6 +8649,18 @@ const A2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "These location expressions are essential for saying where one place is in relation to another when you give directions."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"The cinema is behind the hospital.\"",
+            "options": [
+              "El cine está detrás del hospital.",
+              "El cine es detrás del hospital.",
+              "El cine está detrás de el hospital.",
+              "El cine está detrás el hospital."
+            ],
+            "correctIndex": 0,
+            "explanation": "Location takes estar, detrás needs de, and de + el contracts to del. Es uses ser, which never gives a location of a place."
           }
         ]
       },
@@ -6115,6 +8816,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Arriving: your booking and your table",
         "body": [
+          "The principle of restaurant Spanish is to soften every request. Instead of a bare quiero or a command like dame, use a softened form: quisiera or quería (I'd like), ¿podría...? or ¿me trae...? (could you...?), or para mí... (for me...).",
+          "Why: a bare quiero or dame sounds demanding to a waiter, while the softened forms are what people actually say. The politeness comes from the verb form itself (quisiera, podríamos), not only from adding por favor.",
           "Before you sit down, it's normal to say whether you have a reservation. If you don't, you can simply ask whether there's a table free.",
           "The phrase Tengo una reserva a nombre de... (I have a reservation under the name...) is how you give your name to the waiter or waitress when you arrive.",
           "You can also ask for a particular spot, such as una mesa junto a la ventana (a table by the window), or say how many you are: una mesa para dos (a table for two).",
@@ -6293,9 +8996,10 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Polite requests and special needs",
         "body": [
+          "The rule from Part 1 carries on: a request to the waiter is softened with the conditional, ¿Me podría traer...? (or ¿Nos podría traer...? for the whole table). Why: a plain command (tráigame) tells the waiter what to do, while the conditional asks, and asking is what sounds polite. The waiter gets usted, so it's podría, not the tú form podrías.",
           "To ask politely for something extra, use ¿Me podría traer...? (Could you bring me...?). It uses the conditional of poder, which sounds softer than a plain command.",
           "The same structure works with nos (us): ¿Nos podría traer la cuenta, por favor? (Could you bring us the bill, please?) is one of the most useful phrases for the end of a meal.",
-          "If you have a dietary restriction, it's important to be able to say so clearly: Soy alérgico/a a los frutos secos (I'm allergic to nuts), Soy vegetariano/a (I'm vegetarian) or Necesito algo sin gluten (I need something gluten-free).",
+          "If you have a dietary restriction, it's important to be able to say so clearly. An allergy is a lasting trait, so it takes ser, and alérgico agrees with the person: Soy alérgico/a a los frutos secos (I'm allergic to nuts), Soy vegetariano/a (I'm vegetarian) or Necesito algo sin gluten (I need something gluten-free).",
           "You can also ask directly what's available: ¿Tiene algo sin carne? (Do you have anything without meat?)"
         ],
         "examples": [
@@ -6463,7 +9167,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Regular -ar verbs",
         "body": [
-          "Remember the regular preterite endings for -ar verbs: -é, -aste, -ó, -amos, -asteis, -aron."
+          "Remember the rule: the preterite tells what happened and finished. Regular -ar verbs swap -ar for -é, -aste, -ó, -amos, -asteis, -aron; the stress falls on the ending, so hablé (I spoke) and habló (he spoke) differ from hablo (I speak) only by the accent."
         ],
         "examples": [
           {
@@ -6501,7 +9205,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Regular -er and -ir verbs",
         "body": [
-          "Remember that -er and -ir verbs share the same preterite endings: -í, -iste, -ió, -imos, -isteis, -ieron."
+          "-er and -ir verbs share one set of endings: -í, -iste, -ió, -imos, -isteis, -ieron. The nosotros form of -ar and -ir verbs looks like the present (vivimos, hablamos): a time word like ayer tells you it's past."
         ],
         "examples": [
           {
@@ -6539,7 +9243,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Irregular verbs: a new stem",
         "body": [
-          "Some verbs change their stem completely in the preterite: tener→tuv-, estar→estuv-, poder→pud-, poner→pus-."
+          "Some verbs swap their whole stem in the preterite and then take a special set of endings with no accents: -e, -iste, -o, -imos, -isteis, -ieron. Tener → tuv-, estar → estuv-, poder → pud-, poner → pus-: tuve, estuvo, pudimos, pusieron. Learn the stem and the rest follows."
         ],
         "examples": [
           {
@@ -6626,7 +9330,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "explanation": "Fuimos is the preterite of ir (we went) for one finished trip; the time phrase la semana pasada can go first or last.",
         "translation": "Last week we went to the beach.",
-        "altOrders": [["Fuimos", "a", "la", "playa", "la", "semana", "pasada"]]
+        "altOrders": [
+          [
+            "Fuimos",
+            "a",
+            "la",
+            "playa",
+            "la",
+            "semana",
+            "pasada"
+          ]
+        ]
       },
       {
         "type": "multiple-choice",
@@ -6653,7 +9367,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Irregulars: decir, traer and -ducir verbs",
         "body": [
-          "Decir, traer and verbs ending in -ducir take -eron instead of -ieron in the ellos/ellas/ustedes form: dijeron, trajeron, tradujeron."
+          "Remember the rule: irregular stems take the accent-free endings -e, -iste, -o, -imos, -isteis. When the new stem ends in j (decir → dij-, traer → traj-, -ducir → -duj-), the i of -ieron disappears, because Spanish doesn't write ji before e: dijeron, trajeron, tradujeron."
         ],
         "examples": [
           {
@@ -6691,7 +9405,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ser and ir: identical forms",
         "body": [
-          "Ser and ir have exactly the same forms in the preterite; the context tells you which verb is meant."
+          "Ser and ir have exactly the same forms in the preterite (fui, fuiste, fue, fuimos, fuisteis, fueron), so the context tells you which verb is meant: a destination with a (fui a la playa) means ir; a description or a profession (fue un día largo, fue profesora) means ser."
         ],
         "examples": [
           {
@@ -6820,7 +9534,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbs with a spelling change",
         "body": [
-          "Verbs like buscar, llegar and empezar change their spelling only in the yo form: busqué, llegué, empecé."
+          "Remember the rule: the yo ending -é would change the sound of c, g and z, so the spelling changes to keep it: -car → -qué (busqué), -gar → -gué (llegué), -zar → -cé (empecé). Only yo changes; busco / buscó keep their c because o doesn't soften it."
         ],
         "examples": [
           {
@@ -6858,7 +9572,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbs with e→i and o→u in the third person",
         "body": [
-          "-Ir verbs like pedir, servir and dormir change their stem vowel only in the él/ella and ellos/ellas forms."
+          "-Ir verbs that change their stem in the present (pedir → pide, dormir → duerme) change again in the preterite, but only in the third person: e → i (pidió, pidieron) and o → u (durmió, durmieron). Yo, tú, nosotros and vosotros keep the infinitive stem: pedí, dormimos."
         ],
         "examples": [
           {
@@ -6896,7 +9610,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Contrast with the present",
         "body": [
-          "Keep the present and preterite forms clearly apart when you conjugate."
+          "Keep the present and preterite apart: normalmente / siempre + present for a habit now; ayer / anoche / el lunes pasado + preterite for one finished event. The accent on the last syllable (comí, tomé) is often the only clue."
         ],
         "examples": [
           {
@@ -6991,7 +9705,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Regular -ar verbs",
         "body": [
-          "Remember the imperfect endings for -ar verbs: -aba, -abas, -aba, -ábamos, -abais, -aban."
+          "Remember the rule: the imperfect paints the past as ongoing or repeated (what used to happen, what things were like), not as one finished event. Regular -ar verbs swap -ar for -aba, -abas, -aba, -ábamos, -abais, -aban. Only nosotros carries a written accent (-ábamos), and yo and él share the same form, so add a subject when it's unclear."
         ],
         "examples": [
           {
@@ -7029,7 +9743,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Regular -er and -ir verbs",
         "body": [
-          "-Er and -ir verbs share the same imperfect endings: -ía, -ías, -ía, -íamos, -íais, -ían."
+          "-Er and -ir verbs share one set of imperfect endings: -ía, -ías, -ía, -íamos, -íais, -ían. Every form has the accent on the í, and there are no stem changes: tener → tenía, querer → quería, even though the present says tiene, quiere."
         ],
         "examples": [
           {
@@ -7120,7 +9834,14 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "explanation": "Leía is imperfect because reading a lot was a childhood habit (de niño), not a single event.",
         "translation": "As a child, I used to read a lot.",
-        "altOrders": [["Leía", "mucho", "de", "niño"]]
+        "altOrders": [
+          [
+            "Leía",
+            "mucho",
+            "de",
+            "niño"
+          ]
+        ]
       },
       {
         "type": "multiple-choice",
@@ -7155,7 +9876,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "The three irregular verbs: ser, ir, ver",
         "body": [
-          "Only three verbs are irregular in the imperfect: ser (era), ir (iba) and ver (veía)."
+          "Remember the rule: only three verbs are irregular in the imperfect, so learn them as a set. Ser → era, eras, era, éramos, erais, eran; ir → iba, ibas, iba, íbamos, ibais, iban (with b, not v); ver → veía, veías, veía... (it keeps the e of ver). Every other verb follows -aba or -ía."
         ],
         "examples": [
           {
@@ -7193,7 +9914,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Descriptions in the past",
         "body": [
-          "Use the imperfect to describe people, places and states in the past."
+          "Description works like a camera that films the scene without saying when it ends, which is why it takes the imperfect: what people and places were like (era, tenía), the weather (hacía frío, llovía) and states (estaba cansado). The preterite would turn the description into a finished event."
         ],
         "examples": [
           {
@@ -7219,7 +9940,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Habitual or repeated actions",
         "body": [
-          "Use the imperfect for actions that happened regularly in the past."
+          "A habit is an action repeated with no single moment, so it goes in the imperfect too. Habit words point to it: siempre, todos los días, cada verano, los domingos, a menudo, de niño. Compare a single event with ayer, una vez or el lunes, which takes the preterite."
         ],
         "examples": [
           {
@@ -7347,7 +10068,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Age and clock time in the past",
         "body": [
-          "To give someone's age or the time in the past, you almost always use the imperfect."
+          "Remember the rule: age and clock time are background facts, not events, so in the past they take the imperfect: tenía diez años, eran las tres. Hours are plural (eran las dos), but one o'clock is singular (era la una), and so are mediodía and medianoche."
         ],
         "examples": [
           {
@@ -7385,7 +10106,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Actions in progress: the past progressive",
         "body": [
-          "Use estaba + gerund (-ando/-iendo) for an action that was in progress at a moment in the past."
+          "Estaba + gerund shows an action in the middle of happening at a past moment: estaba durmiendo. The gerund is -ando for -ar verbs and -iendo for -er / -ir verbs (leer → leyendo). The event that interrupts it goes in the preterite: cuando sonó el teléfono."
         ],
         "examples": [
           {
@@ -7411,7 +10132,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Contrast with the present and the preterite",
         "body": [
-          "Always compare the imperfect endings with the present and preterite ones so you don't mix them up."
+          "Keep the three tenses apart by the time words: ahora / normalmente + present for now; antes / de niño / siempre + imperfect for how things used to be; ayer / una vez + preterite for a finished event. The ending is your clue: como (now), comía (used to), comí (once)."
         ],
         "examples": [
           {
@@ -7469,7 +10190,14 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "explanation": "Dormíamos (imperfect) is the action in progress, interrupted by llegaron (preterite); estábamos durmiendo also works.",
         "translation": "We were sleeping when they arrived.",
-        "altOrders": [["Cuando", "llegaron", "nosotros", "dormíamos"]]
+        "altOrders": [
+          [
+            "Cuando",
+            "llegaron",
+            "nosotros",
+            "dormíamos"
+          ]
+        ]
       },
       {
         "type": "multiple-choice",
@@ -7519,7 +10247,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Completed action vs. background",
         "body": [
-          "The preterite tells a one-off event that happened; the imperfect describes the situation in the background."
+          "Remember the rule: the preterite tells an event that happened and finished (ayer compré, llegamos a las ocho); the imperfect describes the situation around it: background, states, descriptions and habits (era niño, vivíamos, hacía frío). Ask yourself whether you are telling what happened (preterite) or what things were like (imperfect)."
         ],
         "examples": [
           {
@@ -7549,7 +10277,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "The interrupted action",
         "body": [
-          "Use the imperfect for the action in progress and the preterite for the action that interrupts it."
+          "When one action interrupts another, the action already in progress is background, so it takes the imperfect; the action that cuts in is a single event, so it takes the preterite: dormía cuando sonó el teléfono. Cuando usually introduces the interruption."
         ],
         "examples": [
           {
@@ -7620,7 +10348,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to English.",
         "source": "Cuando era joven, jugaba al fútbol todos los sábados.",
         "answer": "When I was young, I used to play soccer every Saturday.",
-        "altAnswers": ["When I was young, I played soccer every Saturday.", "When I was young, I used to play football every Saturday.", "When I was young, I played football every Saturday.", "When I was young, I would play soccer every Saturday.", "When I was young, I would play football every Saturday."],
+        "altAnswers": [
+          "When I was young, I played soccer every Saturday.",
+          "When I was young, I used to play football every Saturday.",
+          "When I was young, I played football every Saturday.",
+          "When I was young, I would play soccer every Saturday.",
+          "When I was young, I would play football every Saturday."
+        ],
         "explanation": "The imperfect jugaba expresses a repeated past habit, which English gives with 'used to' or 'would'."
       },
       {
@@ -7629,7 +10363,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "Last night we watched a movie and then went to sleep.",
         "answer": "Anoche vimos una película y luego nos dormimos.",
-        "altAnswers": ["Anoche vimos una película y después nos dormimos.", "Anoche vimos una película y luego nos fuimos a dormir.", "Anoche vimos una película y después nos fuimos a dormir."],
+        "altAnswers": [
+          "Anoche vimos una película y después nos dormimos.",
+          "Anoche vimos una película y luego nos fuimos a dormir.",
+          "Anoche vimos una película y después nos fuimos a dormir."
+        ],
         "explanation": "Both actions happened once and are complete, so both take the preterite: vimos, nos dormimos."
       },
       {
@@ -7657,6 +10395,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Habitual actions vs. one-off actions",
         "body": [
+          "Remember the rule: the imperfect paints the background (habits, descriptions, age, clock time, weather); the preterite reports a finished event that moves the story on. Ask of each verb: is it the scene or the thing that happened?",
           "The imperfect expresses what used to happen often; the preterite expresses what happened just once."
         ],
         "examples": [
@@ -7830,6 +10569,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Sequences of actions that move the story forward",
         "body": [
+          "Remember the rule: the preterite carries the events that move the story forward; the imperfect describes the scene around them. With saber, conocer, querer and poder, the preterite marks the moment something changed (found out, met, refused, managed).",
           "The preterite links the events that push the story forward, one after another."
         ],
         "examples": [
@@ -8010,6 +10750,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Direct object pronouns: lo, la, los, las",
         "body": [
+          "Remember the rule: lo, la, los, las replace the thing or person acted on and match it in gender and number; le, les stand for the person who receives it. Both go right before a conjugated verb, after no.",
           "Direct object pronouns replace the noun that directly receives the action of the verb, and they agree with it in gender and number."
         ],
         "examples": [
@@ -8162,6 +10903,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Placement with infinitives and gerunds",
         "body": [
+          "Remember the rule: a pronoun goes before a conjugated verb, or is attached to an infinitive, a gerund or an affirmative command. It never sits between two verbs.",
           "With an infinitive or a gerund, the pronoun can go before the conjugated verb or be attached to the end of the infinitive or gerund."
         ],
         "examples": [
@@ -8317,6 +11059,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Two pronouns together: indirect + direct",
         "body": [
+          "Remember the rule: with two pronouns, the indirect one (the person) comes first and the direct one (the thing) second, and le or les turns into se before lo, la, los, las.",
           "When a verb has both an indirect and a direct object pronoun, the indirect one comes first and the direct one second."
         ],
         "examples": [
@@ -8476,6 +11219,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Reflexive pronouns with -arse verbs",
         "body": [
+          "Remember the rule: the reflexive pronoun always matches the subject (yo me, tú te, él se, nosotros nos, vosotros os, ellos se). It goes before a conjugated verb, or on the end of an infinitive or gerund.",
           "Remember that each person has its own reflexive pronoun: me, te, se, nos, os, se."
         ],
         "examples": [
@@ -8669,6 +11413,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Common routine verbs in the present",
         "body": [
+          "Remember the rule: reflexive pronoun + verb, in every tense. Watch the stem changes (despierto, visto, acuesto) and keep the pronoun on the infinitive matching the subject (antes de acostarnos).",
           "Remember the daily routine verbs: despertarse, vestirse, acostarse and cepillarse los dientes."
         ],
         "examples": [
@@ -8848,6 +11593,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbs that change meaning with the reflexive pronoun",
         "body": [
+          "Remember the rule: with se the action falls on the subject (or on each other); without it, it falls on someone or something else. Some verbs shift meaning: ir/irse, dormir/dormirse, poner/ponerse.",
           "Remember that some verbs change meaning depending on whether they take the reflexive pronoun."
         ],
         "examples": [
@@ -9026,6 +11772,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Comparisons of superiority: más...que",
         "body": [
+          "Remember the rule: unequal comparisons are más/menos + adjective or noun + que; equal ones are tan + adjective + como. Bueno, malo, joven and viejo have their own forms: mejor, peor, menor, mayor.",
           "To say that one thing has more of a quality than another, use más + adjective/noun + que."
         ],
         "examples": [
@@ -9151,6 +11898,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Comparisons of equality: tan...como and tanto/a/os/as...como",
         "body": [
+          "Remember the rule: tan goes with adjectives and adverbs (tan alto como); tanto agrees with the noun that follows (tantas primas como). For the most of a group: el/la/los/las + más + adjective + de.",
           "To say two things are equal, use tan + adjective/adverb + como, or tanto/a/os/as + noun + como."
         ],
         "examples": [
@@ -9316,6 +12064,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Absolute superlatives: -ísimo/a",
         "body": [
+          "Remember the rule: -ísimo means very, without comparing (carísimo); el/la más ... de picks the top of a group (la más cara de la tienda). Mind the spelling: c → qu, g → gu, z → c.",
           "The absolute superlative drops the adjective's final vowel and adds -ísimo/a/os/as. It means very + adjective, without comparing with anything."
         ],
         "examples": [
@@ -9475,6 +12224,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ir a + infinitive: near-future plans",
         "body": [
+          "Remember the rule: ir a + infinitive for plans already made; the simple future (infinitive + -é, -ás, -á, -emos, -éis, -án) for what will happen, promises and predictions. The endings are the same for -ar, -er and -ir verbs.",
           "For plans and decisions already made for the near future, use the present of ir + a + infinitive."
         ],
         "examples": [
@@ -9617,6 +12367,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Irregular stems that drop a vowel",
         "body": [
+          "Remember the rule: irregular verbs change only the stem (podr-, tendr-, har-, dir-...); the endings -é, -ás, -á, -emos, -éis, -án never change.",
           "Some verbs drop the infinitive's vowel before the future endings: poder → podr-, saber → sabr-, querer → querr-, haber → habr-."
         ],
         "examples": [
@@ -9802,6 +12553,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "The future for predictions and probability",
         "body": [
+          "Remember the rule: ir a + infinitive for plans; the simple future for predictions and promises, and also for guesses about right now (estará en casa = he's probably at home).",
           "The simple future is also used for predictions and for guesses about the present or the future."
         ],
         "examples": [
@@ -9966,6 +12718,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Por: duration",
         "body": [
+          "Remember the rule: por covers how long, why (because of), the route and the exchange; para points ahead to a goal, a destination, a recipient or a deadline.",
           "Por can express how long an action lasts.",
           "Between por and para, only por can express duration. But in everyday Spanish the most common options are no preposition at all (Estudié español dos años) or durante (Estudié español durante dos años), so those are never wrong."
         ],
@@ -10137,6 +12890,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Por: movement through a place",
         "body": [
+          "Remember the rule: por for the route (through, along, around) and the means (por teléfono, por internet); para for the deadline (para el viernes) and the destination.",
           "Por describes movement through, along or around a place, without a specific destination."
         ],
         "examples": [
@@ -10315,16 +13069,21 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Para: destination and purpose",
         "body": [
-          "Para gives a destination or the purpose of an action: in order to."
+          "Remember the rule: para points forward to an end point (where you're heading, what you're aiming at, who receives something, a deadline); por looks at what's behind or around the action (cause, route, exchange, means).",
+          "This part drills the forward-looking para. A destination after a verb of leaving takes para: salir para Madrid. A purpose takes para + infinitive, the Spanish for \"in order to\". English uses a bare \"to\" (I study to learn); Spanish needs para: estudio para aprender, never por aprender (\"because I learn\")."
         ],
         "examples": [
           {
             "es": "Salimos para Madrid mañana.",
-            "en": "We're leaving for Madrid tomorrow."
+            "en": "We're leaving for Madrid tomorrow. (Madrid is the end point)"
           },
           {
             "es": "Estudio para aprender un idioma nuevo.",
-            "en": "I study in order to learn a new language."
+            "en": "I study in order to learn a new language. (para + infinitive = purpose)"
+          },
+          {
+            "es": "Ahorramos para las vacaciones.",
+            "en": "We're saving for the holidays. (a goal can also be a noun)"
           }
         ],
         "checkpoint": [
@@ -10345,12 +13104,13 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Para: recipient, and fixed expressions",
         "body": [
-          "Para marks the recipient of something. There are also fixed expressions with por and para worth memorizing: por fin, por favor, por supuesto, para siempre and para nada."
+          "Para + person marks the recipient, the person who ends up with the thing: el regalo es para ti. Por + person means for their sake (lo hice por ti = I did it for your sake).",
+          "Some expressions are fixed chunks: learn them whole instead of working out the preposition. Por fin (finally), por favor (please), por supuesto (of course), por eso (that's why), gracias por (thanks for), para siempre (forever) and para nada (not at all, used with no: no me gustó para nada)."
         ],
         "examples": [
           {
             "es": "Este regalo es para ti.",
-            "en": "This gift is for you."
+            "en": "This gift is for you. (you receive it)"
           },
           {
             "es": "Por fin llegamos a casa.",
@@ -10452,16 +13212,21 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "The personal a with specific people",
         "body": [
-          "Remember to use the personal a when the direct object is a specific, known person."
+          "Remember the rule: when the direct object (the one who receives the action) is a specific, known person, Spanish puts a in front of it: veo a mi hermana. Things never take it: veo la película.",
+          "Why? Spanish word order is flexible, so the a flags the person on the receiving end of the verb and keeps them from being read as the subject. English has no equivalent, so this a is never translated. Watch the contraction: a + el = al (busco al camarero)."
         ],
         "examples": [
           {
             "es": "Veo a mi hermana en el parque los domingos.",
-            "en": "I see my sister in the park on Sundays."
+            "en": "I see my sister in the park on Sundays. (a specific person)"
           },
           {
             "es": "Busco a Carlos, pero no lo encuentro.",
-            "en": "I'm looking for Carlos, but I can't find him."
+            "en": "I'm looking for Carlos, but I can't find him. (a named person)"
+          },
+          {
+            "es": "Busco mi móvil, pero no lo encuentro.",
+            "en": "I'm looking for my phone, but I can't find it. (a thing: no a)"
           }
         ],
         "checkpoint": [
@@ -10489,7 +13254,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Exceptions to the personal a: tener and non-specific people",
         "body": [
-          "With the verb tener, and with non-specific people, the personal a is normally left out."
+          "The a marks a particular person. When the person is just \"any one\" of a type (busco un compañero de cuarto: whoever fits), there's no particular person yet, so the a is left out. Tener also drops it, because the people you have are treated like possessions: tengo tres hermanos.",
+          "Quick test: can you point at the person? Busco al camarero (that one) takes a; necesito un fontanero (any plumber) doesn't. Nadie and alguien always take a as objects, because they stand for people: no veo a nadie."
         ],
         "examples": [
           {
@@ -10629,7 +13395,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Basic negative and positive words",
         "body": [
-          "The most common opposite pairs are alguien/nadie, algo/nada, siempre/nunca and alguno/ninguno."
+          "Remember the rule: Spanish negatives agree. Once a sentence is negative, every \"any\" word turns negative too, so English \"anything\" becomes nada, \"anyone\" nadie, \"ever\" nunca and \"any\" ningún / ninguna.",
+          "Learn them in pairs, positive and negative: alguien / nadie (someone / no one), algo / nada (something / nothing), siempre / nunca (always / never), alguno / ninguno (some / none). Positive words go in questions and affirmative sentences; negative words in negative ones. Ninguno agrees like an adjective and shortens to ningún before a masculine noun."
         ],
         "examples": [
           {
@@ -10667,7 +13434,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Double negation: no + verb + negative word",
         "body": [
-          "When the negative word comes after the verb, no must go before the verb."
+          "Where the negative word goes decides whether you need no. Before the verb, it does the job alone: nadie viene, nunca como carne. After the verb, no must go before the verb as well: no viene nadie, no como nunca carne.",
+          "English bans \"double negatives\", but in Spanish they're required: no hablo con nadie is correct, hablo con nadie is wrong. What Spanish never does is put no after a negative word that's already before the verb: nunca no como is wrong."
         ],
         "examples": [
           {
@@ -10775,7 +13543,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Negative words before the verb, without no",
         "body": [
-          "When the negative word goes before the verb, no is not used."
+          "Remember the rule: a negative word before the verb makes the sentence negative on its own, so no is not used: nadie llama, nunca llego tarde. After the verb, no has to come first: no llama nadie.",
+          "Think of it as one negative slot in front of the verb: it holds either no or the negative word, never both. Nadie no viene and no nadie viene are both wrong."
         ],
         "examples": [
           {
@@ -10812,7 +13581,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Forming -mente adverbs",
         "body": [
-          "To form a -mente adverb, add -mente to the feminine singular form of the adjective."
+          "To form a -mente adverb, add -mente to the feminine singular form of the adjective: lento → lenta → lentamente.",
+          "Why feminine? -mente comes from the Latin word for \"mind\", which was feminine: lentamente first meant \"with a slow mind\", so the adjective agreed with it. Adjectives with one form (fácil, feliz, triste) just add -mente, and any written accent stays where it was: fácil → fácilmente."
         ],
         "examples": [
           {
@@ -10850,7 +13620,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Two -mente adverbs joined by y",
         "body": [
-          "When two -mente adverbs are joined by y, usually only the second one keeps the -mente ending (repeating it on both is heavy but not wrong)."
+          "When two -mente adverbs are joined by y, usually only the second one keeps the -mente ending (repeating it on both is heavy but not wrong). The first one still stays in the feminine form, because the -mente is shared: clara y sinceramente = claramente y sinceramente."
         ],
         "examples": [
           {
@@ -10984,9 +13754,25 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Travel & Trips",
+        "heading": "Travel & Trips: nouns hiding inside verbs",
         "body": [
-          "Thirty words from the Travel & Trips theme, grouped for review."
+          "Thirty travel words, but you don't have to learn them as thirty separate items. Many travel nouns are built from a verb you already know, and the pattern repeats.",
+          "Pattern 1: verb stem + -ada / -ida gives the event, always feminine. Llegar → la llegada (the arrival), salir → la salida (the departure; also the exit). Pattern 2: the bare stem + -a / -e / -o. Reservar → la reserva, viajar → el viaje, recordar → el recuerdo (the memory, and the thing that keeps it: a souvenir). Once you see the verb, you can guess the noun, and the other way round.",
+          "Watch out for el mapa: it ends in -a but is masculine, like el día."
+        ],
+        "examples": [
+          {
+            "es": "salir → la salida",
+            "en": "to leave → the departure / the exit (-ida noun, feminine)"
+          },
+          {
+            "es": "reservar → la reserva",
+            "en": "to book → the reservation (bare stem + -a)"
+          },
+          {
+            "es": "Hice las maletas anoche.",
+            "en": "I packed last night. (hacer las maletas = to pack: a fixed phrase)"
+          }
         ],
         "checkpoint": [
           {
@@ -11034,7 +13820,7 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "the reservation"
               }
             ],
-            "explanation": "The first ten words from this theme."
+            "explanation": "Notice the pairs: viajar / el viaje, reservar / la reserva, volar / el vuelo."
           },
           {
             "type": "matching",
@@ -11081,7 +13867,7 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "the mountains"
               }
             ],
-            "explanation": "The next ten words from this theme."
+            "explanation": "El mapa is masculine despite the -a; la guía can be the book or the person (el guía for a man)."
           },
           {
             "type": "matching",
@@ -11128,14 +13914,37 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "to stay"
               }
             ],
-            "explanation": "The final ten words from this theme."
+            "explanation": "La salida comes from salir, el recuerdo from recordar: the verb-to-noun pattern again."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Llegar gives la llegada. Using the same pattern, what is \"the entrance\", from entrar?",
+            "options": [
+              "la entrada",
+              "el entro",
+              "la entranza",
+              "el entrado"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ar verb → stem + -ada, feminine: entrar → la entrada, just like llegar → la llegada. The other forms don't exist."
           }
         ]
       },
       {
-        "heading": "Time Expressions & Frequency",
+        "heading": "Time Expressions & Frequency: one moment or a pattern?",
         "body": [
-          "Thirty words from the Time Expressions & Frequency theme, grouped for review."
+          "Thirty time words. Sort them by what they do to the verb, and you'll use them correctly in your past-tense stories.",
+          "Words that point to one finished moment push the verb into the preterite: ayer, anoche, anteayer, la semana pasada, el año pasado, una vez, de repente. Words that describe repetition or a pattern (siempre, a veces, cada, todavía, ya no) go with the present for now, or the imperfect for the past. Sequence words (primero, luego, después, entonces, finalmente) line up events, so in a story they usually come with the preterite."
+        ],
+        "examples": [
+          {
+            "es": "De repente se fue la luz.",
+            "en": "Suddenly the power went out. (de repente = one sudden event → preterite)"
+          },
+          {
+            "es": "A veces viajo por trabajo.",
+            "en": "Sometimes I travel for work. (a veces = a pattern → present)"
+          }
         ],
         "checkpoint": [
           {
@@ -11183,7 +13992,7 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "then / later"
               }
             ],
-            "explanation": "The first ten words from this theme."
+            "explanation": "Every word in this group points to one finished moment or the next step in a story."
           },
           {
             "type": "matching",
@@ -11230,7 +14039,7 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "still"
               }
             ],
-            "explanation": "The next ten words from this theme."
+            "explanation": "A tiempo means on time; temprano means early (before the time)."
           },
           {
             "type": "matching",
@@ -11277,7 +14086,19 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "lately"
               }
             ],
-            "explanation": "The final ten words from this theme."
+            "explanation": "Una vez (once) is a single occasion; a veces (sometimes) and siempre are patterns."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Antes de ayer is a longer way to say which word?",
+            "options": [
+              "anteayer",
+              "anoche",
+              "luego",
+              "recientemente"
+            ],
+            "correctIndex": 0,
+            "explanation": "Anteayer is literally ante (before) + ayer: the day before yesterday. Anoche is last night."
           }
         ]
       }
@@ -11297,15 +14118,252 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "La maleta, el vuelo and la aduana are travel words from Unit 1; la farmacia is not."
+        "explanation": "La maleta, el vuelo and la aduana belong to a trip; la farmacia is a shop for medicine."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Partir means to depart. Using the -ida pattern, what is \"the departure\" in formal signs?",
+        "options": [
+          "la partida",
+          "el parto",
+          "la partencia",
+          "el partido"
+        ],
+        "correctIndex": 0,
+        "explanation": "-ir verb → stem + -ida, feminine: partir → la partida, like salir → la salida. (El partido is a match or a political party.)"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Volar means to fly. Which noun comes from it?",
+        "options": [
+          "el vuelo",
+          "la volada",
+          "el volo",
+          "la vuela"
+        ],
+        "correctIndex": 0,
+        "explanation": "Volar has the stem change o → ue (vuelo, vuelas…), and the noun keeps it: el vuelo. The other forms are not used for a flight."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "La ___ del tren es a las nueve.",
+        "answer": "salida",
+        "en": "The train's [departure] is at nine.",
+        "explanation": "From salir: la salida. La llegada would be the arrival, the opposite end of the trip."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "El viernes mi hermano y yo ___ las maletas juntos.",
+        "answer": "hicimos",
+        "en": "On Friday my brother and I [packed] our suitcases together.",
+        "altAnswers": [
+          "empacamos"
+        ],
+        "explanation": "To pack is hacer las maletas; el viernes is one finished day → preterite hicimos. Empacamos (Latin America) also works."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "How do you say the bold words in Spanish?",
+        "sentence": "Mira el panel de ___: el avión de mi madre llega a las seis.",
+        "answer": "llegadas",
+        "en": "Look at the [arrivals] board: my mother's plane arrives at six.",
+        "explanation": "From llegar: la llegada, plural las llegadas for the board at the airport."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«___ el avión empezó a moverse mucho.» (one sudden event)",
+        "options": [
+          "De repente",
+          "A veces",
+          "Siempre",
+          "Cada día"
+        ],
+        "correctIndex": 0,
+        "explanation": "Empezó is a single sudden event, so it fits de repente. A veces, siempre and cada día describe patterns and would need the present or the imperfect."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«Primero fuimos al museo y ___ comimos en la plaza.»",
+        "options": [
+          "luego",
+          "todavía",
+          "ya no",
+          "a veces"
+        ],
+        "correctIndex": 0,
+        "explanation": "Luego is a sequence word: it lines up the next event (comimos). Todavía, ya no and a veces don't order events."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to last year (el año pasado).",
+        "source": "Viajo a Perú.",
+        "answer": "El año pasado viajé a Perú.",
+        "altAnswers": [
+          "Viajé a Perú el año pasado."
+        ],
+        "explanation": "El año pasado points to one finished time → preterite: viajo → viajé."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change \"still\" to \"no longer\".",
+        "source": "Todavía me quedo en hoteles caros.",
+        "answer": "Ya no me quedo en hoteles caros.",
+        "explanation": "Ya no = no longer, the opposite of todavía (still). The verb stays in the present."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Change it to \"once we arrived late\".",
+        "source": "Siempre llegamos a tiempo.",
+        "answer": "Una vez llegamos tarde.",
+        "explanation": "Una vez is one occasion → preterite. Llegamos looks the same in present and preterite; the time word decides the meaning."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "El vuelo salió en tiempo.",
+        "answer": "El vuelo salió a tiempo.",
+        "explanation": "On time is a tiempo in Spanish, never en tiempo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "La mapa está en mi maleta.",
+        "answer": "El mapa está en mi maleta.",
+        "explanation": "Mapa is masculine despite the -a: el mapa."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Ayer hacía las maletas y salí para el aeropuerto.",
+        "answer": "Ayer hice las maletas y salí para el aeropuerto.",
+        "altAnswers": [
+          "Ayer hice las maletas y salí hacia el aeropuerto.",
+          "Ayer hice las maletas y fui al aeropuerto."
+        ],
+        "explanation": "Ayer + a sequence of finished actions → preterite: hice, then salí."
       },
       {
         "type": "translate",
         "direction": "en-es",
         "prompt": "Translate to Spanish.",
-        "source": "the departure (from Unit 1's vocabulary)",
-        "answer": "la salida",
-        "explanation": "La salida means the departure (also the exit); it's feminine."
+        "source": "I lost my passport at the airport.",
+        "answer": "Perdí mi pasaporte en el aeropuerto.",
+        "altAnswers": [
+          "Perdí el pasaporte en el aeropuerto."
+        ],
+        "explanation": "El pasaporte and el aeropuerto are both masculine; one event, so preterite perdí."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "We rented a car to explore the mountains.",
+        "answer": "Alquilamos un coche para explorar las montañas.",
+        "altAnswers": [
+          "Alquilamos un carro para explorar las montañas.",
+          "Alquilamos un auto para explorar las montañas."
+        ],
+        "explanation": "Alquilar = to rent; para + infinitive gives the purpose."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Translate to English.",
+        "source": "Compré un recuerdo para mi abuela.",
+        "answer": "I bought a souvenir for my grandmother.",
+        "altAnswers": [
+          "I bought my grandmother a souvenir.",
+          "I bought a souvenir for my grandma."
+        ],
+        "explanation": "Un recuerdo here is a souvenir (from recordar, to remember: it can also mean a memory)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Lately I travel a lot for work.",
+        "answer": "Últimamente viajo mucho por trabajo.",
+        "altAnswers": [
+          "Últimamente viajo mucho por el trabajo."
+        ],
+        "explanation": "Últimamente = lately, a pattern word, so the present viajo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "The day before yesterday we went through customs.",
+        "answer": "Anteayer pasamos por la aduana.",
+        "altAnswers": [
+          "Anteayer pasamos la aduana."
+        ],
+        "explanation": "Anteayer = the day before yesterday (one moment → preterite); la aduana = customs."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Meanwhile, my sister was making the hotel reservation.",
+        "answer": "Mientras tanto, mi hermana hacía la reserva del hotel.",
+        "altAnswers": [
+          "Mientras tanto, mi hermana estaba haciendo la reserva del hotel."
+        ],
+        "explanation": "Mientras tanto = meanwhile; an action in progress in the background → imperfect hacía."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Translate to English.",
+        "source": "El crucero fue una gran aventura.",
+        "answer": "The cruise was a great adventure.",
+        "altAnswers": [
+          "The cruise was a big adventure."
+        ],
+        "explanation": "El crucero = the cruise; la aventura = the adventure."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Which word means \"the destination\"?",
+        "options": [
+          "el destino",
+          "la salida",
+          "el itinerario",
+          "el recuerdo"
+        ],
+        "correctIndex": 0,
+        "explanation": "El destino is where you are going; el itinerario is the plan of the route, and la salida is where you start."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Put the words in order.",
+        "words": [
+          "Primero",
+          "fuimos",
+          "a",
+          "la",
+          "playa",
+          "y",
+          "luego",
+          "a",
+          "las",
+          "montañas"
+        ],
+        "translation": "First we went to the beach and then to the mountains",
+        "explanation": "Primero ... luego orders the events; both trips are completed, so fuimos."
+      },
+      {
+        "type": "speak",
+        "prompt": "Tell a friend in Spanish: Last week I went to the airport early, but the flight didn't leave on time.",
+        "text": "La semana pasada fui al aeropuerto temprano, pero el vuelo no salió a tiempo.",
+        "explanation": "La semana pasada → preterite (fui, salió). Temprano = early; a tiempo = on time."
       }
     ]
   },
@@ -11317,6 +14375,53 @@ const A2_BASE_LESSONS: Lesson[] = [
     "summary": "Review the 60 words from the Childhood & Memories and Weather & Seasons vocabulary lists.",
     "duration": "10 min",
     "sections": [
+      {
+        "heading": "The patterns behind the words",
+        "body": [
+          "Weather words come in three shapes, and each shape takes its own verb. Hace + a noun (hace sol, hace frío, hace viento: literally \"it makes cold\"). Está + an adjective (está nublado, está despejado, está húmedo). And some weather is a verb on its own: llueve, nieva, never \"hace lluvia\".",
+          "Many words also come in families, so one word gives you the next: llover → la lluvia, nevar → la nieve, recordar → el recuerdo, jugar → el juguete, la nube → nublado."
+        ],
+        "examples": [
+          {
+            "es": "En verano hace calor, pero hoy está nublado.",
+            "en": "In summer it's hot, but today it's cloudy. (hace + noun; está + adjective)"
+          },
+          {
+            "es": "Llueve mucho en otoño y la lluvia me pone triste.",
+            "en": "It rains a lot in autumn and the rain makes me sad. (verb llover → noun la lluvia)"
+          },
+          {
+            "es": "De niño guardaba mis juguetes y ahora son un buen recuerdo.",
+            "en": "As a child I kept my toys and now they're a nice memory. (jugar → juguete; recordar → recuerdo)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Fresco means cool (a noun here, like frío). \"It's cool this morning.\"",
+            "options": [
+              "Hace fresco esta mañana.",
+              "Está fresco esta mañana.",
+              "Fresca esta mañana.",
+              "Hay fresca esta mañana."
+            ],
+            "correctIndex": 0,
+            "explanation": "Fresco, like frío and calor, is used as a noun for the weather, so it takes hace: hace fresco. Está goes with weather adjectives like nublado, and the other two aren't weather expressions."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Soleado means sunny (an adjective, like nublado). Which sentence is right?",
+            "options": [
+              "El día está soleado.",
+              "El día hace soleado.",
+              "El día soleado hace.",
+              "Hace soleado el día."
+            ],
+            "correctIndex": 0,
+            "explanation": "An adjective describes the day's state, so estar: está soleado. Hace only goes with nouns (hace sol)."
+          }
+        ]
+      },
       {
         "heading": "Childhood & Memories",
         "body": [
@@ -11667,6 +14772,57 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
+        "heading": "The idea: words built from verbs you know",
+        "body": [
+          "Many shopping and tech words are built from a verb, so you can work out words you've never seen. The ending -dor / -dora names the thing or place that does the action: probar (to try on) → el probador (the fitting room), cargar (to charge) → el cargador (the charger).",
+          "Two more patterns: -ción is English -tion (aplicación, conexión, instalación, and these nouns are always feminine), and des- reverses a verb like English un- or dis- (cargar → descargar, to download; conectar → desconectar)."
+        ],
+        "examples": [
+          {
+            "es": "¿Dónde está el probador?",
+            "en": "Where is the fitting room? (probar + -dor: the place where you try clothes on)"
+          },
+          {
+            "es": "Olvidé el cargador en casa.",
+            "en": "I forgot the charger at home. (cargar + -dor: the thing that charges)"
+          },
+          {
+            "es": "La conexión es muy lenta.",
+            "en": "The connection is very slow. (-ción = -tion, feminine)"
+          },
+          {
+            "es": "Desconecta el ordenador, por favor.",
+            "en": "Unplug the computer, please. (des- reverses conectar; el ordenador is 'computer' in Spain)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Lavar means 'to wash'. So what is una lavadora?",
+            "options": [
+              "a washing machine",
+              "a laundry bag",
+              "a bar of soap",
+              "a wash day"
+            ],
+            "correctIndex": 0,
+            "explanation": "Lavar + -dora names the thing that does the washing: a washing machine. The -dor / -dora ending makes a tool, machine or place out of a verb."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Which word means 'to unlock' (bloquear = to lock)?",
+            "options": [
+              "desbloquear",
+              "rebloquear",
+              "bloqueador",
+              "bloqueación"
+            ],
+            "correctIndex": 0,
+            "explanation": "Des- reverses the verb: bloquear (lock) → desbloquear (unlock), just like cargar → descargar. -dor would name a tool and re- means 'again'; bloqueación isn't a word (the noun is el bloqueo)."
+          }
+        ]
+      },
+      {
         "heading": "Shopping & Objects",
         "body": [
           "All 30 words from Unit 7's vocabulary section, grouped for review."
@@ -12003,6 +15159,57 @@ const A2_BASE_LESSONS: Lesson[] = [
     "summary": "Review the 60 words from the Body & Daily Routine and Clothing & Sizes vocabulary lists, plus a few words from earlier themes.",
     "duration": "10 min",
     "sections": [
+      {
+        "heading": "The idea: actions you do to yourself",
+        "body": [
+          "Most daily-routine verbs are reflexive because you do the action to yourself: lavarse (to wash yourself), peinarse (to comb your hair), vestirse (to get dressed). Do the same action to something else and the pronoun goes: me lavo (I wash) vs lavo el coche (I wash the car).",
+          "Two more patterns: with body parts and clothes on your own body, Spanish uses el / la, not mi, because the reflexive already says whose they are (me lavo las manos, me pongo el abrigo). And doler works like gustar: the body part is the subject, so me duele la cabeza, me duelen los pies."
+        ],
+        "examples": [
+          {
+            "es": "Me lavo los dientes después de comer.",
+            "en": "I brush my teeth after eating. (los dientes, not mis dientes)"
+          },
+          {
+            "es": "Lavo los platos y luego me lavo las manos.",
+            "en": "I wash the dishes and then I wash my hands. (no se for the dishes, me for yourself)"
+          },
+          {
+            "es": "Me pongo la bufanda porque hace frío.",
+            "en": "I put on my scarf because it's cold. (ponerse + la)"
+          },
+          {
+            "es": "Me duele la espalda.",
+            "en": "My back hurts. (la espalda is the subject, like gustar)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "\"She combs her hair every morning.\"",
+            "options": [
+              "Se peina todas las mañanas.",
+              "Peina su pelo todas las mañanas.",
+              "Se peina su pelo todas las mañanas.",
+              "Peina todas las mañanas."
+            ],
+            "correctIndex": 0,
+            "explanation": "Peinarse is reflexive (she combs herself), so se peina. 'Su pelo' isn't needed: the reflexive already says whose hair it is. Peina alone would mean she combs someone else."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "\"My ears hurt.\"",
+            "options": [
+              "Me duelen los oídos.",
+              "Me duele los oídos.",
+              "Mis oídos me duele.",
+              "Duelo los oídos."
+            ],
+            "correctIndex": 0,
+            "explanation": "Doler works like gustar: the body part is the subject, and los oídos is plural, so duelen. Duelo would mean 'I hurt'."
+          }
+        ]
+      },
       {
         "heading": "Body & Daily Routine",
         "body": [
@@ -12371,7 +15578,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Work & Future Plans",
         "body": [
-          "All 30 words from Unit 11's vocabulary section, grouped for review."
+          "The pattern: work words come in families, so one word you know opens up three more. A verb usually gives a noun: some drop the -ar ending and add -o (trabajar → el trabajo, contratar → el contrato, aumentar → el aumento), and many add -ción, which is always feminine and matches English -tion (jubilarse → la jubilación, preparar → la preparación); a few are irregular (solicitar → la solicitud). The person who does the verb takes -dor / -dora: trabajar → el trabajador, la trabajadora.",
+          "All 30 words from Unit 11's vocabulary section, grouped for review. As you match them, look for the pairs: entrevista / entrevistar, contratar / contrato, jubilarse / jubilación."
         ],
         "checkpoint": [
           {
@@ -12514,12 +15722,37 @@ const A2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "The final ten words from this theme."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Organizar means to organise. What is 'the organisation'?",
+            "options": [
+              "la organización",
+              "el organizo",
+              "la organizada",
+              "el organización"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ar verbs often make a noun in -ción, the Spanish twin of English -tion, and every -ción noun is feminine: la organización."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Pagar means to pay. Which noun means 'the payment'?",
+            "options": [
+              "el pago",
+              "la pagación",
+              "el pagamiento",
+              "la pagadora"
+            ],
+            "correctIndex": 0,
+            "explanation": "Like trabajar → el trabajo and contratar → el contrato, pagar drops -ar and adds -o: el pago. La pagadora would be a woman who pays."
           }
         ]
       },
       {
         "heading": "Health & The Doctor",
         "body": [
+          "The pattern: health words follow the same family logic. An adjective gives a noun in -dad, always feminine (enfermo → la enfermedad, like English -ity). Changing state is a reflexive verb: enfermo → enfermarse (to get sick), cansado → cansarse (to get tired). And mejor / peor turn into verbs that mean \"to become better / worse\": mejorar, empeorar.",
           "All 30 words from Unit 12's vocabulary section, grouped for review."
         ],
         "checkpoint": [
@@ -12663,6 +15896,30 @@ const A2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "The final ten words from this theme."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Feliz means happy. Which noun means 'happiness'?",
+            "options": [
+              "la felicidad",
+              "la felizdad",
+              "el feliz",
+              "la felicción"
+            ],
+            "correctIndex": 0,
+            "explanation": "Adjectives make nouns in -dad (enfermo → la enfermedad); feliz changes its z to c before the ending: la felicidad. Every -dad noun is feminine."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Enfermo → enfermarse (to get sick). Which verb means 'to get tired', from cansado?",
+            "options": [
+              "cansarse",
+              "cansadarse",
+              "encansarse",
+              "estar cansar"
+            ],
+            "correctIndex": 0,
+            "explanation": "A change of state is a reflexive verb built on the stem: cans-ado → cans-arse. Me canso = I get tired."
           }
         ]
       }
