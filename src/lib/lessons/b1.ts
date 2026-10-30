@@ -21,34 +21,60 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "¿Qué es el subjuntivo?",
         "body": [
-          "Hasta ahora has usado el modo indicativo, que describe hechos y realidades. El subjuntivo es diferente: expresa deseos, dudas, emociones, y situaciones hipotéticas — cosas que no son necesariamente hechos (things that aren't necessarily facts).",
-          "El subjuntivo casi siempre aparece en la segunda parte de una oración, después de \"que\": Quiero que tú vengas."
+          "Hasta ahora has usado sobre todo el modo indicativo, que presenta hechos: Sé que vienes. El subjuntivo presenta algo que no se afirma como hecho, sino como deseo, duda, emoción o posibilidad: Quiero que vengas (todavía no ha pasado; es lo que yo quiero).",
+          "Casi siempre aparece en la segunda parte de la oración, después de «que», cuando el sujeto cambia: Quiero (yo) que tú vengas. Si el sujeto es el mismo, se usa el infinitivo: Quiero venir."
         ],
         "examples": [
           {
             "es": "Espero que tengas un buen día.",
-            "en": "I hope you have a good day."
+            "en": "I hope you have a good day. (a wish, not a fact)"
           },
           {
             "es": "Es posible que llueva mañana.",
-            "en": "It might rain tomorrow."
+            "en": "It might rain tomorrow. (a possibility)"
+          },
+          {
+            "es": "Sé que llueve. / Es posible que llueva.",
+            "en": "I know it's raining. (fact: indicative) / It may rain. (subjunctive)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Espero que mi hermano ___ hoy.» (llamar)",
+            "options": [
+              "llame",
+              "llama",
+              "llamo",
+              "llamará"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Espero que» presenta un deseo y el sujeto cambia (yo espero / mi hermano llama), así que va subjuntivo: llame (-ar → -e). «Llama» es indicativo, «llamo» es yo y «llamará» es futuro."
           }
         ]
       },
       {
-        "heading": "Formación: verbos regulares",
+        "heading": "Formación: parte de la forma yo",
         "body": [
-          "Para formar el subjuntivo presente regular, toma la forma \"yo\" del presente indicativo, quita la -o, y agrega las terminaciones opuestas: los verbos -ar usan terminaciones de -er/-ir, y viceversa.",
-          "hablar → hablo → hable, hables, hable, hablemos, habléis, hablen. comer → como → coma, comas, coma, comamos, comáis, coman."
+          "La receta: toma la forma yo del presente, quita la -o y pon la vocal «contraria»: los verbos en -ar pasan a -e, y los verbos en -er/-ir pasan a -a. hablar → hablo → hable, hables, hable, hablemos, habléis, hablen; comer → como → coma, comas, coma, comamos, comáis, coman.",
+          "¿Por qué desde la forma yo? Porque así la irregularidad de la forma yo pasa entera al subjuntivo: tengo → tenga, hago → haga, conozco → conozca, salgo → salga. Si sabes la forma yo, sabes el subjuntivo."
         ],
         "examples": [
           {
             "es": "Quiero que hables con ella.",
-            "en": "I want you to talk to her."
+            "en": "I want you to talk to her. (hablo → hable)"
           },
           {
             "es": "Es importante que comas bien.",
-            "en": "It's important that you eat well."
+            "en": "It's important that you eat well. (como → coma)"
+          },
+          {
+            "es": "Espero que tengáis suerte.",
+            "en": "I hope you all have luck. (tengo → tenga: the g stays)"
+          },
+          {
+            "es": "No creo que conozcan el camino.",
+            "en": "I don't think they know the way. (conozco → conozca)"
           }
         ],
         "checkpoint": [
@@ -57,30 +83,41 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjuga el verbo en subjuntivo.",
             "sentence": "Espero que tú ___ (escribir) la carta pronto.",
             "answer": "escribas",
-            "explanation": "Escribir sigue el patrón regular: escribo → escriba, escribas, escriba..."
+            "explanation": "Escribir sigue el patrón regular: escribo → escrib- → escriba, escribas, escriba…"
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Conjuga el verbo en subjuntivo.",
+            "sentence": "Es posible que ella ___ (traer) el postre.",
+            "answer": "traiga",
+            "explanation": "La forma yo es traigo, así que el subjuntivo conserva -ig-: traig- + -a = traiga. «Traya» no existe."
           }
         ]
       },
       {
         "heading": "Verbos con cambios en la raíz",
         "body": [
-          "Los verbos que cambian de raíz en el presente indicativo (e→ie, o→ue, e→i) mantienen ese cambio en el subjuntivo, excepto en nosotros y vosotros; los verbos en -ir también cambian ahí, con otra vocal (pidamos, durmamos, sintamos).",
-          "querer → quiera, quieras, quiera, queramos, queráis, quieran. pedir → pida, pidas, pida, pidamos, pidáis, pidan (este cambia en todas las formas porque es -ir)."
+          "Los verbos que cambian de raíz en el presente (e → ie, o → ue, e → i) mantienen ese cambio en el subjuntivo en las mismas personas: todas menos nosotros y vosotros. querer → quiera, quieras, quiera, queramos, queráis, quieran.",
+          "Los verbos en -ir también cambian en nosotros y vosotros, con una vocal más corta: pedir → pidamos, dormir → durmamos, sentir → sintamos."
         ],
         "examples": [
           {
             "es": "Quiero que tú quieras esto tanto como yo.",
-            "en": "I want you to want this as much as I do."
+            "en": "I want you to want this as much as I do. (quieras: e → ie)"
           },
           {
             "es": "Ojalá que ella pida el mismo plato.",
-            "en": "I hope she orders the same dish."
+            "en": "I hope she orders the same dish. (pida: e → i)"
+          },
+          {
+            "es": "Es mejor que volvamos pronto.",
+            "en": "It's better that we come back soon. (volvamos: no change in nosotros)"
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma correcta de \"volver\" para \"nosotros\" en subjuntivo?",
+            "question": "¿Cuál es la forma correcta de «volver» para «nosotros» en subjuntivo?",
             "options": [
               "volvamos",
               "volvemos",
@@ -88,23 +125,35 @@ const B1_BASE_LESSONS: Lesson[] = [
               "volvámos"
             ],
             "correctIndex": 0,
-            "explanation": "Los verbos -ar/-er con cambio o→ue no cambian en nosotros: volvamos, no vuelvamos."
+            "explanation": "Los verbos -ar/-er con cambio o → ue no cambian en nosotros: volvamos. «Volvemos» es indicativo, «vuelvamos» cambia donde no toca y «volvámos» lleva una tilde que no existe."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Conjuga el verbo en subjuntivo.",
+            "sentence": "Ojalá que no ___ (llover) mañana.",
+            "answer": "llueva",
+            "explanation": "Llover cambia o → ue (llueve), y el cambio se mantiene: llueva."
           }
         ]
       },
       {
-        "heading": "Verbos irregulares comunes",
+        "heading": "Los seis irregulares: por qué lo son",
         "body": [
-          "Seis verbos son completamente irregulares en el subjuntivo: ser (sea), estar (esté), ir (vaya), saber (sepa), dar (dé), haber (haya)."
+          "Seis verbos no siguen la receta: ser (sea), estar (esté), ir (vaya), saber (sepa), dar (dé), haber (haya).",
+          "La razón es sencilla: su forma yo no termina en -o (soy, estoy, voy, sé, doy, he), así que no hay -o que quitar. Por eso hay que aprenderlos aparte. Esté y dé llevan tilde (dé se distingue de la preposición de)."
         ],
         "examples": [
           {
             "es": "Espero que estés bien.",
-            "en": "I hope you're well."
+            "en": "I hope you're well. (estar → esté)"
           },
           {
             "es": "Es posible que ella sea la nueva jefa.",
-            "en": "She may be the new boss."
+            "en": "She may be the new boss. (ser → sea)"
+          },
+          {
+            "es": "Ojalá que haya entradas.",
+            "en": "I hope there are tickets. (haber → haya)"
           }
         ],
         "checkpoint": [
@@ -113,7 +162,19 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjuga el verbo irregular.",
             "sentence": "Ojalá que nosotros ___ (ir) a la fiesta juntos.",
             "answer": "vayamos",
-            "explanation": "Ir es irregular en el subjuntivo: vaya, vayas, vaya, vayamos, vayáis, vayan."
+            "explanation": "Ir es irregular en el subjuntivo porque voy no acaba en -o: vaya, vayas, vaya, vayamos, vayáis, vayan."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Quiero que mi padre me ___ permiso.» (dar)",
+            "options": [
+              "dé",
+              "de",
+              "da",
+              "dea"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dar es uno de los seis irregulares: dé, con tilde para distinguirlo de la preposición «de». «Da» es indicativo y «dea» no existe."
           }
         ]
       },
@@ -152,6 +213,18 @@ const B1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El primer hermano dice: «Espero que tengamos buen tiempo este fin de semana». No habla de lluvia, de trabajar ni de quedarse en casa."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué dice «tengamos» y no «tenemos»?",
+            "options": [
+              "Porque va después de «espero que»: es un deseo, no un hecho.",
+              "Porque habla del pasado.",
+              "Porque tener es uno de los seis irregulares.",
+              "Porque «tenemos» es incorrecto en cualquier frase."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Espero que» presenta un deseo, así que pide subjuntivo: tengo → teng- → tengamos. No es pasado, tener no está entre los seis irregulares (sigue la receta) y «tenemos» es correcto para afirmar un hecho."
           }
         ]
       }
@@ -162,11 +235,11 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo.",
         "sentence": "Espero que tú ___ (hablar) con el profesor.",
         "answer": "hables",
-        "explanation": "Subjuntivo regular de -ar: hable, hables, hable..."
+        "explanation": "Subjuntivo regular de -ar: hablo → habl- → hables (la -a pasa a -e)."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta de \"ser\" para \"yo\" en subjuntivo?",
+        "question": "¿Cuál es la forma correcta de «ser» para «yo» en subjuntivo?",
         "options": [
           "soy",
           "sea",
@@ -181,7 +254,219 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo.",
         "sentence": "Ojalá que ellos ___ (poder) venir a la boda.",
         "answer": "puedan",
-        "explanation": "Poder cambia o→ue en subjuntivo, excepto en nosotros/vosotros: pueda, puedas, pueda, podamos, podáis, puedan."
+        "explanation": "Poder cambia o → ue en subjuntivo, excepto en nosotros/vosotros: pueda, puedas, pueda, podamos, podáis, puedan."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I want you (tú) to listen to me.",
+        "answer": "Quiero que me escuches.",
+        "altAnswers": [
+          "Quiero que tú me escuches."
+        ],
+        "explanation": "Escuchar es -ar: escucho → escuch- → escuches. Después de «quiero que» con otro sujeto va subjuntivo, no «escuchas»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «Sé que» por «Espero que».",
+        "source": "Sé que ella me escribe.",
+        "answer": "Espero que ella me escriba.",
+        "altAnswers": [
+          "Espero que me escriba."
+        ],
+        "explanation": "«Sé que» presenta un hecho (indicativo); «espero que», un deseo (subjuntivo): escribo → escrib- → escriba."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Es importante que estudiamos todos los días.",
+        "answer": "Es importante que estudiemos todos los días.",
+        "altAnswers": [
+          "Es importante que estudiemos cada día."
+        ],
+        "explanation": "«Es importante que» pide subjuntivo: estudiar → estudiemos (-ar toma -e). «Estudiamos» es indicativo."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Mi madre quiere que yo ___ más agua.",
+        "answer": "beba",
+        "en": "My mother wants me [to drink] more water.",
+        "altAnswers": [
+          "tome"
+        ],
+        "explanation": "Beber es -er: bebo → beba. La forma yo y la forma él coinciden."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Ojalá que no ___ el partido.",
+        "answer": "perdamos",
+        "en": "Hopefully we [don't lose] the game.",
+        "explanation": "Perder cambia e → ie, pero no en nosotros: perdamos, no «pierdamos»."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Es posible que ella ___ tarde esta noche.",
+        "answer": "vuelva",
+        "en": "It's possible that she [comes back] late tonight.",
+        "explanation": "Volver cambia o → ue también en el subjuntivo: vuelva."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I hope the hotel is near the beach.",
+        "answer": "Espero que el hotel esté cerca de la playa.",
+        "explanation": "Estar es uno de los seis irregulares: esté, con tilde. Para la ubicación se usa estar, no ser."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "We want you all (ustedes) to come to dinner.",
+        "answer": "Queremos que vengan a cenar.",
+        "altAnswers": [
+          "Queremos que vengáis a cenar."
+        ],
+        "explanation": "Venir parte de vengo → veng- → vengan."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Ojalá hay tiempo.",
+        "answer": "Ojalá haya tiempo.",
+        "altAnswers": [
+          "Ojalá que haya tiempo."
+        ],
+        "explanation": "Ojalá siempre pide subjuntivo, y haber es uno de los seis irregulares: haya."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es la forma correcta de «pensar» para «tú» en subjuntivo?",
+        "options": [
+          "pienses",
+          "pensas",
+          "piensas",
+          "penses"
+        ],
+        "correctIndex": 0,
+        "explanation": "Pensar cambia e → ie y, al ser -ar, toma -e: pienses. «Piensas» es indicativo, y «pensas» y «penses» olvidan el cambio de raíz."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «Estoy seguro de que» por «Es posible que».",
+        "source": "Estoy seguro de que el jefe sabe la verdad.",
+        "answer": "Es posible que el jefe sepa la verdad.",
+        "altAnswers": [
+          "Es posible que la jefa sepa la verdad."
+        ],
+        "explanation": "«Estoy seguro de que» afirma (indicativo); «es posible que» solo presenta una posibilidad (subjuntivo). Saber → sepa, uno de los seis irregulares."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "Mis",
+          "padres",
+          "quieren",
+          "que",
+          "yo",
+          "vaya",
+          "a",
+          "la",
+          "universidad"
+        ],
+        "translation": "My parents want me to go to college",
+        "explanation": "Ir → vaya (irregular) después de «quieren que»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I want us to ask for the bill now.",
+        "answer": "Quiero que pidamos la cuenta ahora.",
+        "altAnswers": [
+          "Quiero que pidamos la cuenta ya."
+        ],
+        "explanation": "Pedir es -ir: cambia e → i también en nosotros: pidamos."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Espero que me ___ un buen consejo.",
+        "answer": "des",
+        "en": "I hope you [give] me good advice. (tú)",
+        "explanation": "Dar → dé, des, dé…: solo la forma de yo y de él lleva tilde."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "Es",
+          "importante",
+          "que",
+          "ustedes",
+          "duerman",
+          "bien",
+          "antes",
+          "del",
+          "examen"
+        ],
+        "translation": "It's important that you all sleep well before the exam",
+        "explanation": "Dormir cambia o → ue en ustedes: duerman."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "My sister hopes her children understand the problem and want to help.",
+        "answer": "Mi hermana espera que sus hijos entiendan el problema y quieran ayudar.",
+        "altAnswers": [
+          "Mi hermana espera que sus hijos entiendan el problema y que quieran ayudar."
+        ],
+        "explanation": "Entender → entiendan y querer → quieran: los dos mantienen el cambio de raíz."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Aplica la receta: conocer → yo conozco. ¿Cuál es el subjuntivo para «ellos»?",
+        "options": [
+          "conozcan",
+          "conocan",
+          "conozcen",
+          "conocen"
+        ],
+        "correctIndex": 0,
+        "explanation": "Desde conozco: conozc- + -an (verbo en -er → -a) = conozcan. «Conocan» pierde la z de la forma yo, «conozcen» usa la vocal equivocada y «conocen» es indicativo."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Qué verbos son irregulares en subjuntivo porque su forma yo no termina en -o?",
+        "options": [
+          "estar",
+          "tener",
+          "ir",
+          "hacer",
+          "saber"
+        ],
+        "correctIndexes": [
+          0,
+          2,
+          4
+        ],
+        "explanation": "Estoy, voy y sé no acaban en -o, así que estar, ir y saber tienen subjuntivo propio: esté, vaya, sepa. Tengo y hago sí acaban en -o: siguen la receta (tenga, haga)."
+      },
+      {
+        "type": "speak",
+        "prompt": "Responde en voz alta: di dos cosas que quieres que haga tu mejor amigo este año.",
+        "text": "Quiero que mi mejor amigo venga a visitarme y que aprenda a cocinar.",
+        "explanation": "Quiero que + otro sujeto → subjuntivo: vengo → venga, aprendo → aprenda."
       }
     ]
   },
@@ -194,9 +479,86 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
+        "heading": "La idea: reaccionar pide subjuntivo",
+        "body": [
+          "Las palabras de emoción sirven para reaccionar ante algo: me alegra, me molesta, temo, me sorprende. Cuando la reacción se refiere a lo que hace otra persona, la segunda parte va en subjuntivo, porque no informas de un hecho: lo valoras. Me molesta que grites.",
+          "Hay dos estructuras. Con verbos como gustar, la cosa que provoca la emoción es el sujeto: me molesta que…, nos preocupa que…, le da rabia que… Con verbos pronominales, la persona es el sujeto y se añade de: me alegro de que…, se enoja de que… (o simplemente me enojo cuando…)."
+        ],
+        "examples": [
+          {
+            "es": "Me molesta que mis vecinos hagan ruido.",
+            "en": "It bothers me that my neighbors make noise. (like gustar: me molesta)"
+          },
+          {
+            "es": "Me alegro de que estés mejor.",
+            "en": "I'm glad you're better. (alegrarse de que)"
+          },
+          {
+            "es": "Temo que no lleguemos a tiempo.",
+            "en": "I'm afraid we won't get there on time."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Me ___ que no me llames nunca.» (molestar)",
+            "options": [
+              "molesta",
+              "molesto",
+              "molestas",
+              "molestan"
+            ],
+            "correctIndex": 0,
+            "explanation": "Molestar funciona como gustar: el sujeto es lo que molesta (que no me llames), una idea que cuenta como singular → molesta. «Molesto» diría que yo molesto a alguien, y «molestas»/«molestan» no concuerdan con ese sujeto."
+          }
+        ]
+      },
+      {
+        "heading": "El patrón detrás de las palabras",
+        "body": [
+          "Muchas palabras de la lista forman familias verbo ↔ sustantivo: alegrarse → la alegría, sorprender → la sorpresa, decepcionar → la decepción, asombrarse → el asombro, enojarse → el enojo. Los verbos en -ar suelen dar sustantivos en -ción (frustrarse → la frustración, emocionarse → la emoción).",
+          "Los verbos pronominales en -arse o -erse significan «ponerse así»: emocionarse = to get excited, asustarse = to get scared, entusiasmarse = to get enthusiastic. Con un adjetivo se usa ponerse: ponerse nervioso, ponerse triste."
+        ],
+        "examples": [
+          {
+            "es": "Siento una gran alegría.",
+            "en": "I feel great joy. (alegrarse → la alegría)"
+          },
+          {
+            "es": "Mi hija se asusta con las tormentas.",
+            "en": "My daughter gets scared during storms. (asustarse = to get scared)"
+          },
+          {
+            "es": "Me pongo nerviosa antes de hablar en público.",
+            "en": "I get nervous before public speaking. (ponerse + adjective)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el sustantivo de «preocupar», como decepcionar → decepción.",
+            "sentence": "Tu salud es mi mayor ___.",
+            "answer": "preocupación",
+            "explanation": "Verbo en -ar → sustantivo en -ción: preocupar → preocupación, igual que decepcionar → decepción."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Si emocionarse es «to get excited», ¿qué significa «entristecerse»?",
+            "options": [
+              "to get sad",
+              "to make someone sad",
+              "sadness",
+              "sad"
+            ],
+            "correctIndex": 0,
+            "explanation": "El verbo pronominal (-se) describe el cambio de estado de quien siente: entristecerse = ponerse triste, to get sad. «To make someone sad» sería entristecer (sin se), «sadness» es la tristeza y «sad» es triste."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: Emociones y reacciones",
         "body": [
-          "Cincuenta palabras para expresar emociones y reacciones — el terreno natural del subjuntivo."
+          "Cincuenta palabras para expresar emociones y reacciones, el terreno natural del subjuntivo. Fíjate en qué verbos llevan se y en las familias (temer / el miedo, alegrarse / la alegría)."
         ],
         "examples": [
           {
@@ -446,7 +808,7 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "jealousy"
               }
             ],
-            "explanation": "Estas diez palabras cubren emociones comunes que activan el subjuntivo."
+            "explanation": "Estas diez palabras cubren emociones comunes que activan el subjuntivo. Desanimarse y asombrarse llevan se: describen cómo se pone quien siente."
           }
         ]
       }
@@ -466,7 +828,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "Hablar es regular; ser, estar y saber son tres de los seis verbos totalmente irregulares."
+        "explanation": "Hablar es regular (hablo → hable); ser, estar y saber son tres de los seis verbos totalmente irregulares, porque su forma yo no acaba en -o (soy, estoy, sé)."
       },
       {
         "type": "word-order",
@@ -482,8 +844,8 @@ const B1_BASE_LESSONS: Lesson[] = [
           "tu",
           "trabajo."
         ],
-        "explanation": "Me alegra que + subjuntivo expresa una emoción; sentirse → te sientas (e → ie). Sentirse orgulloso = to feel proud.",
-        "translation": "I'm glad you feel proud of your work."
+        "translation": "I'm glad you feel proud of your work.",
+        "explanation": "Me alegra que + subjuntivo expresa una emoción; sentirse → te sientas (e → ie). Sentirse orgulloso = to feel proud."
       },
       {
         "type": "multiple-choice",
@@ -496,6 +858,138 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "El subjuntivo casi siempre aparece en una cláusula subordinada introducida por «que»: Quiero que vengas. «Y», «pero» y «o» unen oraciones independientes, que van en indicativo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I'm glad you (tú) are here.",
+        "answer": "Me alegro de que estés aquí.",
+        "altAnswers": [
+          "Me alegra que estés aquí."
+        ],
+        "explanation": "Alegrarse de que + subjuntivo: estés, no «estás»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Me molesta que mis vecinos gritan.",
+        "answer": "Me molesta que mis vecinos griten.",
+        "altAnswers": [
+          "Me molesta que mis vecinos den gritos."
+        ],
+        "explanation": "Una reacción (me molesta que) pide subjuntivo: gritar → griten. «Gritan» presenta el hecho sin valorarlo."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Temo que el examen ___ muy difícil.",
+        "answer": "sea",
+        "en": "I'm afraid the exam [will be] very difficult.",
+        "explanation": "Temer que pide subjuntivo: sea (de ser, irregular)."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "Me",
+          "da",
+          "rabia",
+          "que",
+          "siempre",
+          "lleguen",
+          "tarde"
+        ],
+        "translation": "It makes me furious that they always arrive late",
+        "explanation": "Dar rabia que + subjuntivo: lleguen (g → gu delante de e)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "It worries my parents that I work so much.",
+        "answer": "A mis padres les preocupa que trabaje tanto.",
+        "altAnswers": [
+          "Les preocupa a mis padres que trabaje tanto.",
+          "A mis padres les preocupa que yo trabaje tanto."
+        ],
+        "explanation": "Preocupar funciona como gustar (les preocupa) y pide subjuntivo: trabaje (yo)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Yo molesto que llegues tarde.",
+        "answer": "Me molesta que llegues tarde.",
+        "explanation": "Molestar funciona como gustar: «me molesta» (lo que molesta es que llegues tarde). «Yo molesto» significaría que yo molesto a alguien."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia a la estructura «me alegra que».",
+        "source": "Me alegro de que vengas.",
+        "answer": "Me alegra que vengas.",
+        "explanation": "Las dos estructuras dicen lo mismo: con alegrarse la persona es el sujeto (me alegro de que); con alegrar, lo es la noticia (me alegra que). El subjuntivo no cambia."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «Sé que» por «Me sorprende que».",
+        "source": "Sé que tu hermano está enojado.",
+        "answer": "Me sorprende que tu hermano esté enojado.",
+        "altAnswers": [
+          "Me sorprende que tu hermano esté enfadado."
+        ],
+        "explanation": "«Sé que» informa (indicativo); «me sorprende que» reacciona (subjuntivo): está → esté."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa (ponerse).",
+        "sentence": "Siempre me ___ nervioso antes de un examen.",
+        "answer": "pongo",
+        "explanation": "Ponerse + adjetivo = to get + adjective. Yo → me pongo (forma yo irregular de poner)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I'm afraid my dog will get scared by the fireworks.",
+        "answer": "Temo que mi perro se asuste con los fuegos artificiales.",
+        "altAnswers": [
+          "Tengo miedo de que mi perro se asuste con los fuegos artificiales.",
+          "Me temo que mi perro se asuste con los fuegos artificiales."
+        ],
+        "explanation": "Temer que + subjuntivo; asustarse → se asuste. El «se» indica que el perro se pone asustado."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Qué verbos funcionan como gustar (me ___ que…)?",
+        "options": [
+          "molestar",
+          "preocupar",
+          "alegrarse",
+          "sorprender",
+          "enojarse"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "Molestar, preocupar y sorprender tienen como sujeto lo que provoca la emoción: me molesta, me preocupa, me sorprende. Alegrarse y enojarse llevan se y tienen como sujeto a la persona: me alegro, me enojo."
+      },
+      {
+        "type": "speak",
+        "prompt": "Responde en voz alta: ¿qué te molesta de tus vecinos o compañeros de piso?",
+        "text": "Me molesta que mis vecinos pongan la música muy alta por la noche.",
+        "explanation": "Me molesta que + subjuntivo: pongo → pongan. Molestar concuerda con lo que molesta, no contigo."
+      },
+      {
+        "type": "speak",
+        "prompt": "Responde en voz alta: di algo que te da alivio esta semana.",
+        "text": "Me da alivio que mañana no tenga que trabajar.",
+        "explanation": "Dar alivio que + subjuntivo: tener → tenga (desde tengo)."
       }
     ]
   },
@@ -508,36 +1002,48 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Verbos de deseo",
+        "heading": "La regla: dos sujetos y una actitud",
         "body": [
-          "Cuando un verbo de deseo (querer, esperar, desear, preferir) tiene un sujeto diferente en la segunda cláusula, esa cláusula lleva subjuntivo.",
-          "Si el sujeto es el mismo, se usa el infinitivo: Quiero viajar (yo) vs. Quiero que viajes (tú)."
+          "El subjuntivo aparece en la segunda parte de una frase (después de «que») cuando la primera parte no informa de un hecho, sino que expresa una actitud ante él: un deseo (quiero que…), una duda (dudo que…) o una emoción (me alegro de que…). Lo que va después de «que» no se presenta como real: se desea, se pone en duda o se valora.",
+          "Hace falta además un cambio de sujeto. Si el sujeto es el mismo, se usa el infinitivo: Quiero viajar (yo quiero, yo viajo). Si es otro, aparece «que» + subjuntivo: Quiero que viajes (yo quiero, tú viajas). Por eso «Quiero que viajo» es incorrecto en los dos sentidos."
         ],
         "examples": [
           {
             "es": "Quiero que tú vengas a mi fiesta.",
-            "en": "I want you to come to my party."
+            "en": "I want you to come to my party. (two subjects → que + subjunctive)"
           },
           {
-            "es": "Prefiero que comamos en casa hoy.",
-            "en": "I'd rather we eat at home today."
+            "es": "Quiero venir a tu fiesta.",
+            "en": "I want to come to your party. (one subject → infinitive)"
           }
         ],
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Conjuga el verbo.",
-            "sentence": "Deseo que ustedes ___ (tener) éxito en el examen.",
-            "answer": "tengan",
-            "explanation": "Tener es irregular en subjuntivo (sale de la forma yo, tengo): tenga, tengas, tenga, tengamos, tengáis, tengan."
+            "prompt": "Aplica la regla: ¿infinitivo o subjuntivo?",
+            "sentence": "Mis amigos esperan ___ (aprobar, ellos) el examen.",
+            "answer": "aprobar",
+            "explanation": "El sujeto es el mismo (ellos esperan, ellos aprueban), así que va el infinitivo, sin «que». «Que aprueben» significaría que otras personas aprueban."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Deseo que ustedes ___ éxito.» (tener)",
+            "options": [
+              "tengan",
+              "tienen",
+              "tener",
+              "tenéis"
+            ],
+            "correctIndex": 0,
+            "explanation": "Desear expresa un deseo y el sujeto cambia (yo deseo, ustedes tienen éxito): que + subjuntivo, tengan (de tengo). «Tienen» lo presenta como un hecho, «tener» solo sirve con el mismo sujeto y «tenéis» es indicativo de vosotros."
           }
         ]
       },
       {
-        "heading": "Verbos de duda y negación",
+        "heading": "Duda y negación frente a certeza",
         "body": [
-          "Dudar, no creer, no pensar y negar requieren subjuntivo, porque expresan incertidumbre sobre la realidad de algo.",
-          "Ojo: creer y pensar (en afirmativo) llevan indicativo, porque expresan certeza: Creo que viene. / No creo que venga."
+          "Dudar, no creer, no pensar y negar ponen en duda lo que sigue: subjuntivo. Dudo que llegue a tiempo.",
+          "Creer, pensar, saber y es verdad que (en afirmativo) presentan lo que sigue como cierto para quien habla: indicativo. Creo que viene. / No creo que venga. La clave no es el verbo, sino si afirmas o dudas."
         ],
         "examples": [
           {
@@ -545,59 +1051,35 @@ const B1_BASE_LESSONS: Lesson[] = [
             "en": "I doubt he'll arrive on time."
           },
           {
-            "es": "No creo que sea tan difícil.",
-            "en": "I don't think it's that hard."
+            "es": "Pienso que tiene razón, pero no pienso que sea fácil.",
+            "en": "I think he's right, but I don't think it's easy."
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración usa el subjuntivo correctamente?",
+            "question": "¿Qué frase está bien?",
             "options": [
-              "Creo que tiene razón.",
-              "Dudo que tiene razón.",
-              "Dudo que tenga razón.",
-              "Creo que tenga razón."
+              "Es verdad que el tren sale a las ocho.",
+              "Es verdad que el tren salga a las ocho.",
+              "No es verdad que el tren sale a las ocho.",
+              "Niego que el tren sale a las ocho."
             ],
-            "correctIndex": 2,
-            "explanation": "«Dudar» expresa incertidumbre y exige subjuntivo: dudo que tenga razón. «Dudo que tiene» es incorrecta por usar indicativo, y «Creo que tenga» también, porque «creer» afirmativo expresa certeza y lleva indicativo."
+            "correctIndex": 0,
+            "explanation": "«Es verdad que» afirma un hecho: indicativo (sale). En negativo («no es verdad que») o con negar, lo que sigue se pone en duda y pide subjuntivo (salga), por eso las otras dos con «sale» fallan, y «es verdad que salga» usa subjuntivo con una afirmación."
           }
         ]
       },
       {
-        "heading": "Verbos de emoción",
+        "heading": "Emoción: reaccionar no es informar",
         "body": [
-          "Alegrarse, sentir, sorprender, molestar y temer expresan una reacción emocional ante una acción, y esa acción va en subjuntivo."
+          "Alegrarse de, sentir, temer, sorprender, molestar y preocupar expresan una reacción. Lo que provoca la reacción va en subjuntivo aunque sea un hecho real y conocido: Siento que no puedas venir (es verdad que no puedes, pero lo valoro, no lo informo).",
+          "Lo mismo ocurre con expresiones como qué bueno que, qué lástima que, es una pena que: Qué lástima que llueva."
         ],
         "examples": [
           {
             "es": "Me alegro de que estés aquí.",
             "en": "I'm glad you're here."
-          },
-          {
-            "es": "Siento que no puedas venir.",
-            "en": "I'm sorry you can't come."
-          }
-        ],
-        "checkpoint": [
-          {
-            "type": "fill-blank",
-            "prompt": "Conjuga el verbo.",
-            "sentence": "Nos sorprende que ellos no ___ (saber) la noticia.",
-            "answer": "sepan",
-            "explanation": "Saber es irregular en subjuntivo: sepa, sepas, sepa, sepamos, sepáis, sepan."
-          }
-        ]
-      },
-      {
-        "heading": "Expresiones impersonales con emoción",
-        "body": [
-          "Frases como qué bueno que, qué lástima que y es una pena que también activan el subjuntivo, porque comunican una reacción, no un hecho neutral."
-        ],
-        "examples": [
-          {
-            "es": "Qué bueno que vengas.",
-            "en": "It's great that you're coming."
           },
           {
             "es": "Es una lástima que no puedan quedarse más tiempo.",
@@ -606,20 +1088,28 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
+            "type": "fill-blank",
+            "prompt": "Aplica la regla.",
+            "sentence": "Nos sorprende que ellos no ___ la noticia. (saber)",
+            "answer": "sepan",
+            "explanation": "Sorprender expresa una emoción y el sujeto cambia (nos sorprende / ellos saben): subjuntivo, sepan. Aunque es un hecho que no la saben, lo valoramos."
+          },
+          {
             "type": "multi-select",
-            "question": "¿Qué verbos requieren subjuntivo en la cláusula siguiente? (Elige todas las correctas)",
+            "question": "¿Qué comienzos piden subjuntivo? (Elige todas las correctas)",
             "options": [
-              "dudar",
-              "saber (afirmativo)",
-              "alegrarse de",
-              "temer"
+              "Temo que…",
+              "Sé que…",
+              "Qué bueno que…",
+              "Me preocupa que…",
+              "Es obvio que…"
             ],
             "correctIndexes": [
               0,
               2,
               3
             ],
-            "explanation": "Dudar (duda), alegrarse de (emoción) y temer (miedo) llevan subjuntivo. «Saber» en afirmativo expresa certeza y lleva indicativo: sé que viene."
+            "explanation": "Temer, qué bueno que y me preocupa que expresan una reacción: subjuntivo. «Sé que» y «es obvio que» presentan algo como cierto: indicativo."
           }
         ]
       },
@@ -665,10 +1155,10 @@ const B1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Conjuga el verbo.",
-        "sentence": "Dudo que ella ___ (venir) hoy.",
+        "prompt": "Elige la forma.",
+        "sentence": "Dudo que ella ___ hoy. (venir)",
         "answer": "venga",
-        "explanation": "Venir es irregular en subjuntivo: venga, vengas, venga..."
+        "explanation": "Dudar pone en duda lo que sigue: subjuntivo. Venir sale de vengo → venga. «Viene» lo afirmaría como un hecho."
       },
       {
         "type": "multiple-choice",
@@ -684,10 +1174,235 @@ const B1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Conjuga el verbo.",
-        "sentence": "Me alegro de que tú ___ (estar) mejor.",
+        "prompt": "Elige la forma.",
+        "sentence": "Me alegro de que tú ___ mejor. (estar)",
         "answer": "estés",
-        "explanation": "Estar es irregular en subjuntivo: esté, estés, esté..."
+        "explanation": "Alegrarse de que es una emoción: subjuntivo. Estar → estés, con tilde. «Estás» informaría, no reaccionaría."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "We want to travel in July.",
+        "answer": "Queremos viajar en julio.",
+        "explanation": "El sujeto es el mismo (nosotros queremos, nosotros viajamos): infinitivo, sin «que». «Queremos que viajemos» suena a dos sujetos distintos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I want you to call me tonight. (tú)",
+        "answer": "Quiero que me llames esta noche.",
+        "explanation": "Querer con otro sujeto (tú) pide que + subjuntivo: llames. «Quiero que me llamas» es el error típico: presenta el deseo como un hecho."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Mis padres prefieren que yo ___ en casa los sábados.",
+        "answer": "cene",
+        "en": "My parents prefer that I [have dinner] at home on Saturdays.",
+        "explanation": "Preferir + otro sujeto (yo) → subjuntivo: cene (-ar → e). «Ceno» sería un hecho, no una preferencia de otros."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Quiero que mi hermano me ayuda con la mudanza.",
+        "answer": "Quiero que mi hermano me ayude con la mudanza.",
+        "explanation": "Querer + otro sujeto pide subjuntivo: ayudar → ayude. «Ayuda» es indicativo y presenta como hecho algo que solo se desea."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase para que el sujeto de la segunda parte sea tú.",
+        "source": "Prefiero ir en tren.",
+        "answer": "Prefiero que vayas en tren.",
+        "altAnswers": [
+          "Prefiero que tú vayas en tren."
+        ],
+        "explanation": "Al cambiar el sujeto (yo prefiero, tú vas), el infinitivo se convierte en que + subjuntivo: ir → vayas."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I doubt the store opens on Sunday.",
+        "answer": "Dudo que la tienda abra el domingo.",
+        "altAnswers": [
+          "Dudo que la tienda abra los domingos."
+        ],
+        "explanation": "Dudar expresa incertidumbre: subjuntivo (abra), no «abre», que afirmaría el horario."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "No pensamos que el examen ___ difícil.",
+        "answer": "sea",
+        "en": "We don't think the exam [is] difficult.",
+        "explanation": "No pensar que niega la opinión y pide subjuntivo: sea. Con «pensamos que» (afirmativo) iría «es»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase a negativa.",
+        "source": "Creo que Luis tiene razón.",
+        "answer": "No creo que Luis tenga razón.",
+        "explanation": "Al negar creer, lo que sigue deja de ser cierto para quien habla: tiene → tenga (subjuntivo)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «Dudo que» por «Estoy seguro de que».",
+        "source": "Dudo que el restaurante esté abierto.",
+        "answer": "Estoy seguro de que el restaurante está abierto.",
+        "altAnswers": [
+          "Estoy segura de que el restaurante está abierto."
+        ],
+        "explanation": "«Estar seguro de que» expresa certeza: indicativo (está). Dudar, en cambio, pide subjuntivo (esté)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Mi hermano niega que el coche es suyo.",
+        "answer": "Mi hermano niega que el coche sea suyo.",
+        "altAnswers": [
+          "Mi hermano niega que el carro sea suyo.",
+          "Mi hermano niega que el auto sea suyo."
+        ],
+        "explanation": "Negar lleva subjuntivo: sea. Con «es» afirmarías el hecho que él niega."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Les molesta que sus hijos ___ tanto tiempo con el móvil.",
+        "answer": "pasen",
+        "en": "It bothers them that their children [spend] so much time on their phones.",
+        "explanation": "Molestar es un verbo de emoción: la acción de otros va en subjuntivo (pasen), aunque sea un hecho real."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I'm afraid you'll get lost in the city. (tú)",
+        "answer": "Temo que te pierdas en la ciudad.",
+        "altAnswers": [
+          "Tengo miedo de que te pierdas en la ciudad.",
+          "Me da miedo que te pierdas en la ciudad."
+        ],
+        "explanation": "Temer que + subjuntivo; perderse cambia e → ie: te pierdas. El futuro inglés («you'll get lost») se dice con presente de subjuntivo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Me sorprende que Marta no habla francés.",
+        "answer": "Me sorprende que Marta no hable francés.",
+        "explanation": "Sorprender expresa una reacción: subjuntivo (hable), aunque sea un hecho que Marta no habla francés."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «Sé que» por «¡Qué lástima que…!».",
+        "source": "Sé que el museo está cerrado hoy.",
+        "answer": "¡Qué lástima que el museo esté cerrado hoy!",
+        "altAnswers": [
+          "¡Qué pena que el museo esté cerrado hoy!",
+          "¡Es una lástima que el museo esté cerrado hoy!",
+          "¡Es una pena que el museo esté cerrado hoy!"
+        ],
+        "explanation": "«Sé que» informa (indicativo: está); «qué lástima que» reacciona (subjuntivo: esté)."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Qué bueno que ustedes ___ venir a la cena.",
+        "answer": "puedan",
+        "en": "It's great that you all [can] come to dinner.",
+        "explanation": "Qué bueno que + subjuntivo: poder cambia o → ue → puedan (ustedes)."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "Prefiero",
+          "que",
+          "no",
+          "le",
+          "digas",
+          "nada",
+          "a",
+          "mi",
+          "madre"
+        ],
+        "translation": "I'd rather you didn't say anything to my mother",
+        "explanation": "Preferir que + subjuntivo (digas, de digo); «no» va justo antes de los pronombres y el verbo."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "Dudo",
+          "que",
+          "mis",
+          "amigos",
+          "lleguen",
+          "antes",
+          "de",
+          "las",
+          "nueve"
+        ],
+        "translation": "I doubt my friends will arrive before nine",
+        "explanation": "Dudo que + subjuntivo (lleguen, con gu delante de e); el sujeto va entre «que» y el verbo."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué comienzo necesita subjuntivo? «___ Pedro esté en casa.»",
+        "options": [
+          "Creo que",
+          "Sé que",
+          "Dudo que",
+          "Es verdad que"
+        ],
+        "correctIndex": 2,
+        "explanation": "Dudar expresa incertidumbre y pide subjuntivo (esté). Creo que, sé que y es verdad que expresan certeza y llevarían indicativo (está)."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada comienzo con el final correcto.",
+        "pairs": [
+          {
+            "left": "Creo que",
+            "right": "tienes razón."
+          },
+          {
+            "left": "No creo que",
+            "right": "tengas razón."
+          },
+          {
+            "left": "Quiero",
+            "right": "tener razón."
+          },
+          {
+            "left": "Me alegro de que",
+            "right": "por fin tengas trabajo."
+          }
+        ],
+        "explanation": "Creer (afirmativo) → indicativo; no creer y alegrarse de que → subjuntivo; querer con el mismo sujeto → infinitivo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "It worries us that the boss doesn't understand the problem, but we hope he listens to us.",
+        "answer": "Nos preocupa que el jefe no entienda el problema, pero esperamos que nos escuche.",
+        "explanation": "Dos disparadores con otro sujeto: preocupar (emoción) y esperar (deseo); los dos piden subjuntivo (entienda, escuche)."
+      },
+      {
+        "type": "speak",
+        "prompt": "Responde en voz alta: di qué esperas de tus compañeros de trabajo esta semana y algo que dudas.",
+        "text": "Espero que mis compañeros me ayuden con el informe, pero dudo que tengan tiempo.",
+        "explanation": "Esperar que y dudar que, con otro sujeto, piden subjuntivo: ayuden, tengan."
       }
     ]
   },
@@ -700,9 +1415,51 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
+        "heading": "La regla: certeza o probabilidad",
+        "body": [
+          "Las expresiones impersonales siguen la misma lógica que creer y dudar. Si presentan algo como cierto (es obvio que, es evidente que, es cierto que, está claro que, estoy convencido de que), lo que sigue va en indicativo. Si solo lo ven posible, probable o dudoso (es posible que, es probable que, es improbable que, es dudoso que, no estoy convencido de que), va en subjuntivo, porque no lo afirman.",
+          "Tres palabras para «maybe» funcionan distinto: a lo mejor va siempre con indicativo (a lo mejor llueve); tal vez y quizás admiten los dos modos, y el subjuntivo marca más duda (quizás llueva)."
+        ],
+        "examples": [
+          {
+            "es": "Es evidente que tienes razón.",
+            "en": "It's evident that you're right. (certainty → indicative)"
+          },
+          {
+            "es": "Es probable que cambien de opinión.",
+            "en": "It's likely they'll change their minds. (probability → subjunctive)"
+          },
+          {
+            "es": "A lo mejor vienen mañana.",
+            "en": "Maybe they're coming tomorrow. (a lo mejor → indicative)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Aplica la regla.",
+            "sentence": "Está claro que el plan ___ funcionando. (estar)",
+            "answer": "está",
+            "explanation": "«Está claro que» presenta algo como cierto: indicativo, está. «Esté» solo iría con duda o probabilidad."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Es dudoso que el ministro ___ la verdad.» (decir)",
+            "options": [
+              "diga",
+              "dice",
+              "decir",
+              "dijo siempre"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Es dudoso que» no afirma nada: subjuntivo, diga (de digo). «Dice» lo presentaría como hecho, «decir» no tiene sujeto y «dijo siempre» cambia de tiempo sin motivo."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: Opiniones e incertidumbre",
         "body": [
-          "Cincuenta palabras para expresar opiniones, dudas y certezas."
+          "Cincuenta palabras para expresar opiniones, dudas y certezas. Fíjate en las familias (dudar → la duda → dudoso; suponer → la suposición) y en qué expresiones afirman y cuáles dudan."
         ],
         "examples": [
           {
@@ -952,7 +1709,7 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "the belief"
               }
             ],
-            "explanation": "Estas diez palabras describen cómo formamos y defendemos opiniones."
+            "explanation": "Estas diez palabras describen cómo formamos y defendemos opiniones. Dudoso y convencido son adjetivos de dudar y convencer."
           }
         ]
       }
@@ -963,15 +1720,15 @@ const B1_BASE_LESSONS: Lesson[] = [
         "question": "¿Qué expresiones requieren subjuntivo? (Elige todas las correctas)",
         "options": [
           "es obvio que",
-          "qué lástima que",
-          "me alegro de que",
+          "es probable que",
+          "no estoy convencido de que",
           "es cierto que"
         ],
         "correctIndexes": [
           1,
           2
         ],
-        "explanation": "«Qué lástima que» y «me alegro de que» expresan emoción y llevan subjuntivo. «Es obvio que» y «es cierto que» expresan certeza: llevan indicativo."
+        "explanation": "«Es probable que» y «no estoy convencido de que» no afirman nada: subjuntivo. «Es obvio que» y «es cierto que» expresan certeza: llevan indicativo."
       },
       {
         "type": "word-order",
@@ -985,12 +1742,12 @@ const B1_BASE_LESSONS: Lesson[] = [
           "la",
           "cena."
         ],
-        "explanation": "Espero que + subjuntivo.",
-        "translation": "I hope you can come to dinner."
+        "translation": "I hope you can come to dinner.",
+        "explanation": "Espero que + subjuntivo: puedas (o → ue en tú)."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué significa \"a lo mejor\"?",
+        "question": "¿Qué significa «a lo mejor»?",
         "options": [
           "the best",
           "maybe",
@@ -999,6 +1756,137 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "«A lo mejor» es una forma coloquial de decir «maybe» / «perhaps»: A lo mejor llueve. Aunque contiene «mejor», no significa «the best» ni «at best»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I doubt my brother will change his mind.",
+        "answer": "Dudo que mi hermano cambie de opinión.",
+        "explanation": "Dudar pide subjuntivo (cambie, no «cambiará»); ojo con la preposición: cambiar de opinión."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Es obvio que tengas razón.",
+        "answer": "Es obvio que tienes razón.",
+        "altAnswers": [
+          "Es obvio que tú tienes razón."
+        ],
+        "explanation": "«Es obvio que» expresa certeza: indicativo (tienes). El subjuntivo no va con lo que se presenta como evidente."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "No estoy convencido de que ___ razón.",
+        "answer": "tengas",
+        "en": "I'm not convinced that you [are] right.",
+        "explanation": "No estar convencido expresa duda: subjuntivo (tengas). Con «estoy convencido de que» iría «tienes»."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Es evidente que el argumento ___ cuestionable.",
+        "answer": "es",
+        "en": "It's evident that the argument [is] questionable.",
+        "explanation": "Es evidente que = certeza: indicativo, es."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «probable» por su contrario.",
+        "source": "Es probable que confirmen la noticia.",
+        "answer": "Es improbable que confirmen la noticia.",
+        "explanation": "Probable e improbable piden subjuntivo, porque ninguno afirma el hecho: confirmen no cambia."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase a negativa.",
+        "source": "Estoy convencido de que el proyecto es un éxito.",
+        "answer": "No estoy convencido de que el proyecto sea un éxito.",
+        "altAnswers": [
+          "No estoy convencida de que el proyecto sea un éxito."
+        ],
+        "explanation": "Al negar la convicción, lo que sigue pasa a duda: es → sea (subjuntivo)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Supuestamente, el ministro niega que hay pruebas.",
+        "answer": "Supuestamente, el ministro niega que haya pruebas.",
+        "altAnswers": [
+          "Supuestamente, la ministra niega que haya pruebas."
+        ],
+        "explanation": "Negar que + subjuntivo: haya. «Hay» afirmaría lo que el ministro niega."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I'm sure you're wrong, but I want you to reconsider it. (tú)",
+        "answer": "Estoy seguro de que te equivocas, pero quiero que lo reconsideres.",
+        "altAnswers": [
+          "Estoy segura de que te equivocas, pero quiero que lo reconsideres.",
+          "Estoy seguro de que estás equivocado, pero quiero que lo reconsideres.",
+          "Estoy segura de que estás equivocado, pero quiero que lo reconsideres.",
+          "Estoy seguro de que estás equivocada, pero quiero que lo reconsideres.",
+          "Estoy segura de que estás equivocada, pero quiero que lo reconsideres."
+        ],
+        "explanation": "Estar seguro de que → indicativo (te equivocas); querer que → subjuntivo (reconsideres)."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "No",
+          "creo",
+          "que",
+          "sea",
+          "un",
+          "argumento",
+          "razonable"
+        ],
+        "translation": "I don't think it's a reasonable argument",
+        "explanation": "No creo que + subjuntivo (sea)."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«A lo mejor ___ tarde.» (llegar, ellos)",
+        "options": [
+          "llegan",
+          "lleguen",
+          "llegar",
+          "llegando"
+        ],
+        "correctIndex": 0,
+        "explanation": "A lo mejor va siempre con indicativo (llegan); tal vez y quizás, en cambio, admiten subjuntivo (lleguen). «Llegar» y «llegando» no tienen persona."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Forma el sustantivo, como dudar → la duda.",
+        "sentence": "Mi abuela tiene una ___ muy fuerte en la suerte. (creer)",
+        "answer": "creencia",
+        "explanation": "Creer → la creencia (= belief), como suponer → la suposición: verbo y sustantivo de la misma familia."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "From my point of view, it's possible that the news is false.",
+        "answer": "Desde mi punto de vista, es posible que la noticia sea falsa.",
+        "altAnswers": [
+          "En mi opinión, es posible que la noticia sea falsa."
+        ],
+        "explanation": "Es posible que no afirma nada: subjuntivo (sea), no «es»."
+      },
+      {
+        "type": "speak",
+        "prompt": "Responde en voz alta: da tu opinión sobre si va a llover este fin de semana: algo obvio y algo solo probable.",
+        "text": "Es obvio que hace frío, pero no es probable que llueva este fin de semana.",
+        "explanation": "Es obvio que → indicativo (hace); no es probable que → subjuntivo (llueva)."
       }
     ]
   },
@@ -1011,6 +1899,18 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [],
     "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Aplica la regla: «Es lógico que los clientes ___ explicaciones.» (pedir)",
+        "options": [
+          "pidan",
+          "piden",
+          "pedir",
+          "pidieron"
+        ],
+        "correctIndex": 0,
+        "explanation": "«Es lógico que» valora el hecho, como «es normal que»: no informa, así que va en subjuntivo, pidan (e → i). «Piden» lo presentaría como simple información, «pedir» no tiene sujeto y «pidieron» cambia al pasado."
+      },
       {
         "type": "multiple-choice",
         "question": "¿Cuál oración expresa correctamente un deseo con sujetos diferentes?",
@@ -1028,14 +1928,14 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo. (Mismo sujeto → infinitivo; sujeto diferente → subjuntivo.)",
         "sentence": "Preferimos ___ (salir) temprano para evitar el tráfico.",
         "answer": "salir",
-        "explanation": "El sujeto de \"preferimos\" es el mismo que hace la acción de salir, así que se usa el infinitivo, no el subjuntivo: preferimos salir."
+        "explanation": "El sujeto de «preferimos» es el mismo que hace la acción de salir, así que se usa el infinitivo, no el subjuntivo: preferimos salir."
       },
       {
         "type": "fill-blank",
         "prompt": "Conjuga el verbo.",
         "sentence": "Mis padres quieren que yo ___ (estudiar) medicina.",
         "answer": "estudie",
-        "explanation": "El sujeto de la segunda cláusula (yo) es diferente del de \"quieren\" (mis padres), así que se necesita subjuntivo: estudie."
+        "explanation": "El sujeto de la segunda cláusula (yo) es diferente del de «quieren» (mis padres), así que se necesita subjuntivo: estudie."
       },
       {
         "type": "multiple-choice",
@@ -1051,7 +1951,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Qué oraciones usan el subjuntivo correctamente? (Elige todas las correctas)",
+        "question": "¿Qué oraciones usan el modo correctamente? (Elige todas las correctas)",
         "options": [
           "Tememos que el vuelo se retrase.",
           "Pensamos que el vuelo se retrase.",
@@ -1067,7 +1967,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Translate to Spanish.",
+        "prompt": "Traduce al español.",
         "source": "I'm surprised that they don't call.",
         "answer": "Me sorprende que no llamen.",
         "altAnswers": [
@@ -1075,23 +1975,21 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Me extraña que no llamen.",
           "Me extraña que ellos no llamen."
         ],
-        "explanation": "\"Sorprender\" es un verbo de emoción; activa el subjuntivo en la cláusula siguiente: que no llamen (llamar → llamen)."
+        "explanation": "«Sorprender» es un verbo de emoción; activa el subjuntivo en la cláusula siguiente: que no llamen (llamar → llamen)."
       },
       {
         "type": "translate",
-        "direction": "es-en",
-        "prompt": "Translate to English.",
-        "source": "Qué lástima que no encuentres trabajo todavía.",
-        "answer": "What a shame that you haven't found a job yet.",
+        "direction": "en-es",
+        "prompt": "Cambia «Sé que» por «Qué lástima que».",
+        "source": "Sé que todavía no encuentras trabajo.",
+        "answer": "Qué lástima que todavía no encuentres trabajo.",
         "altAnswers": [
-          "It's a shame you still haven't found a job.",
-          "What a pity you haven't found work yet.",
-          "What a shame that you still can't find a job.",
-          "What a shame you still can't find a job.",
-          "What a shame you still can't find work.",
-          "It's a shame you still can't find a job."
+          "¡Qué lástima que todavía no encuentres trabajo!",
+          "Qué pena que todavía no encuentres trabajo.",
+          "¡Qué pena que todavía no encuentres trabajo!",
+          "Qué lástima que no encuentres trabajo todavía."
         ],
-        "explanation": "\"Qué lástima que\" expresa una reacción emocional y requiere subjuntivo: encuentres."
+        "explanation": "«Sé que» informa (indicativo: encuentras); «qué lástima que» reacciona y pide subjuntivo: encuentres (o → ue)."
       },
       {
         "type": "word-order",
@@ -1107,7 +2005,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "ruido."
         ],
         "translation": "It bothers us that the neighbors make so much noise.",
-        "explanation": "\"Molestar\" es un verbo de emoción: nos molesta que + subjuntivo (hagan)."
+        "explanation": "«Molestar» es un verbo de emoción: nos molesta que + subjuntivo (hagan, de hago)."
       },
       {
         "type": "matching",
@@ -1154,18 +2052,18 @@ const B1_BASE_LESSONS: Lesson[] = [
             "right": "to disagree"
           }
         ],
-        "explanation": "Estas diez palabras del vocabulario de opiniones e incertidumbre aparecen con frecuencia a nivel B1."
+        "explanation": "Estas diez palabras del vocabulario de opiniones e incertidumbre aparecen con frecuencia a nivel B1. Improbable, como probable, pide subjuntivo después de «es… que»."
       },
       {
         "type": "fill-blank",
         "prompt": "Conjuga el verbo.",
         "sentence": "Es una pena que tu hermano no ___ (conocer) a mis padres todavía.",
         "answer": "conozca",
-        "explanation": "\"Es una pena que\" es una expresión impersonal de emoción: requiere subjuntivo. Conocer es irregular en subjuntivo: conozca, conozcas, conozca..."
+        "explanation": "«Es una pena que» es una expresión impersonal de emoción: requiere subjuntivo. Conocer sale de conozco: conozca."
       },
       {
         "type": "multiple-choice",
-        "question": "Un colega dice: \"Niego que yo ___ errores en mi trabajo.\" ¿Qué forma completa la oración?",
+        "question": "Un colega dice: «Niego que yo ___ errores en mi trabajo.» ¿Qué forma completa la oración?",
         "options": [
           "cometí",
           "cometo",
@@ -1188,18 +2086,18 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "\"Esperar\" (deseo) y \"sorprender\" (emoción) requieren subjuntivo. \"Es obvio que\" y \"estar seguro de que\" expresan certeza y llevan indicativo."
+        "explanation": "«Esperar» (deseo) y «sorprender» (emoción) requieren subjuntivo. «Es obvio que» y «estar seguro de que» expresan certeza y llevan indicativo."
       },
       {
         "type": "fill-blank",
         "prompt": "Conjuga el verbo. Presta atención al sujeto.",
         "sentence": "Sentimos mucho que tú no ___ (ir) a poder asistir a la boda.",
         "answer": "vayas",
-        "explanation": "\"Sentir\" es un verbo de emoción; con sujeto diferente (tú) requiere subjuntivo. Ir es muy irregular en subjuntivo: vaya, vayas, vaya..."
+        "explanation": "«Sentir» es un verbo de emoción; con sujeto diferente (tú) requiere subjuntivo. Ir es irregular: vaya, vayas, vaya…"
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la mejor traducción de \"Dudamos que el plan funcione\"?",
+        "question": "¿Cuál es la mejor traducción de «Dudamos que el plan funcione»?",
         "options": [
           "We know the plan works.",
           "We doubt that the plan will work.",
@@ -1221,12 +2119,12 @@ const B1_BASE_LESSONS: Lesson[] = [
           "con",
           "nosotros!"
         ],
-        "translation": "How great that they can come with us.",
-        "explanation": "\"Qué bueno que\" es una expresión de emoción/reacción: siempre lleva subjuntivo (puedan, de poder, con el cambio o→ue)."
+        "translation": "How great that they can come with us!",
+        "explanation": "«Qué bueno que» es una expresión de reacción: siempre lleva subjuntivo (puedan, de poder, con el cambio o → ue)."
       },
       {
         "type": "multiple-choice",
-        "question": "Elige la opción que completa correctamente: \"Mi jefa prefiere que nosotros ___ el informe antes del viernes.\"",
+        "question": "Elige la opción que completa correctamente: «Mi jefa prefiere que nosotros ___ el informe antes del viernes.»",
         "options": [
           "terminamos",
           "terminemos",
@@ -1235,6 +2133,142 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "«Preferir que» con un sujeto diferente (nosotros) requiere subjuntivo: terminemos. «Terminamos» es indicativo, «terminar» es infinitivo (solo con el mismo sujeto) y «terminaríamos» es condicional."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Mi hermana quiere que yo la ___ con la mudanza.",
+        "answer": "ayude",
+        "en": "My sister wants me [to help] her with the move.",
+        "explanation": "Querer que + otro sujeto: subjuntivo (ayude), no infinitivo."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Mis amigos desean ___ a Cuba el año que viene.",
+        "answer": "viajar",
+        "en": "My friends wish [to travel] to Cuba next year.",
+        "altAnswers": [
+          "ir"
+        ],
+        "explanation": "Mismo sujeto (ellos desean, ellos viajan): infinitivo, sin «que»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Es evidente que los niños estén cansados.",
+        "answer": "Es evidente que los niños están cansados.",
+        "explanation": "«Es evidente que» expresa certeza: indicativo (están). El subjuntivo no va con lo que se presenta como obvio."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I'm surprised you don't remember my name. (tú)",
+        "answer": "Me sorprende que no recuerdes mi nombre.",
+        "altAnswers": [
+          "Me sorprende que no te acuerdes de mi nombre."
+        ],
+        "explanation": "Sorprender que + subjuntivo: recuerdes (o → ue)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Dudamos que el hotel tiene aparcamiento gratis.",
+        "answer": "Dudamos que el hotel tenga aparcamiento gratis.",
+        "altAnswers": [
+          "Dudamos que el hotel tenga estacionamiento gratis.",
+          "Dudamos que el hotel tenga aparcamiento gratuito."
+        ],
+        "explanation": "Dudar que + subjuntivo: tenga. «Tiene» afirmaría lo que dudamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase: ahora somos nosotros los que hablamos.",
+        "source": "El profesor prefiere hablar solo español en clase.",
+        "answer": "El profesor prefiere que hablemos solo español en clase.",
+        "altAnswers": [
+          "La profesora prefiere que hablemos solo español en clase.",
+          "El profesor prefiere que solo hablemos español en clase."
+        ],
+        "explanation": "Con otro sujeto (nosotros), el infinitivo pasa a que + subjuntivo: hablemos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I don't doubt that you're right. (tú)",
+        "answer": "No dudo que tienes razón.",
+        "altAnswers": [
+          "No dudo de que tienes razón.",
+          "No dudo que tengas razón.",
+          "No dudo de que tengas razón."
+        ],
+        "explanation": "No dudar expresa certeza: normalmente indicativo (el subjuntivo también es posible)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Nos preocupa que nuestro hijo no quiere estudiar.",
+        "answer": "Nos preocupa que nuestro hijo no quiera estudiar.",
+        "explanation": "Preocupar que + subjuntivo: quiera (e → ie). «Quiere» es indicativo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase a negativa.",
+        "source": "Creen que la reunión es necesaria.",
+        "answer": "No creen que la reunión sea necesaria.",
+        "altAnswers": [
+          "No piensan que la reunión sea necesaria."
+        ],
+        "explanation": "Al negar creer, la opinión pasa a duda: es → sea."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«Me alegro de que ustedes ___ a la boda.»",
+        "options": [
+          "vengan",
+          "vienen",
+          "venir",
+          "vendrán"
+        ],
+        "correctIndex": 0,
+        "explanation": "Emoción con otro sujeto: subjuntivo (vengan). «Vienen» y «vendrán» son indicativo, y «venir» solo sirve con el mismo sujeto."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "Temo",
+          "que",
+          "el",
+          "jefe",
+          "no",
+          "acepte",
+          "mi",
+          "propuesta"
+        ],
+        "translation": "I'm afraid the boss won't accept my proposal",
+        "explanation": "Temer que + subjuntivo (acepte)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I hope you can come, although I doubt there's room for everyone. (tú)",
+        "answer": "Espero que puedas venir, aunque dudo que haya sitio para todos.",
+        "altAnswers": [
+          "Espero que puedas venir, aunque dudo que haya lugar para todos.",
+          "Ojalá puedas venir, aunque dudo que haya sitio para todos.",
+          "Ojalá que puedas venir, aunque dudo que haya sitio para todos.",
+          "Espero que puedas venir, aunque dudo que haya espacio para todos."
+        ],
+        "explanation": "Esperar que → subjuntivo (puedas); dudar que → subjuntivo (haya)."
       }
     ]
   },
@@ -1247,18 +2281,27 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Expresiones impersonales de necesidad y opinión",
+        "heading": "La idea: una valoración no es un hecho",
         "body": [
-          "Frases como es importante que, es necesario que, es mejor que y es raro que no tienen un sujeto específico, y casi siempre requieren subjuntivo en la cláusula que sigue."
+          "Frases como es importante que, es necesario que, es mejor que y es raro que no informan de lo que pasa: lo valoran (es bueno, es necesario, es extraño). Como presentan la acción desde fuera, como algo deseable o sorprendente y no como un hecho, la cláusula que sigue va en subjuntivo.",
+          "Si no hay un sujeto concreto (vale para todo el mundo), no hay «que»: se usa el infinitivo. Es importante dormir bien (en general) / Es importante que duermas bien (tú)."
         ],
         "examples": [
           {
             "es": "Es importante que estudies para el examen.",
-            "en": "It's important that you study for the exam."
+            "en": "It's important that you study for the exam. (sujeto concreto: tú → subjuntivo)"
           },
           {
             "es": "Es necesario que lleguemos temprano.",
-            "en": "We need to arrive early."
+            "en": "We need to arrive early. (nosotros → subjuntivo)"
+          },
+          {
+            "es": "Es raro que Pedro no conteste.",
+            "en": "It's strange that Pedro isn't answering. (valoración: raro → subjuntivo)"
+          },
+          {
+            "es": "Es importante beber agua.",
+            "en": "It's important to drink water. (en general, sin sujeto → infinitivo)"
           }
         ],
         "checkpoint": [
@@ -1268,13 +2311,25 @@ const B1_BASE_LESSONS: Lesson[] = [
             "sentence": "Es mejor que nosotros ___ (salir) antes de las ocho.",
             "answer": "salgamos",
             "explanation": "Salir es irregular en subjuntivo: salga, salgas, salga, salgamos, salgáis, salgan."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Es mejor ___ temprano para evitar el tráfico.» (en general, para todo el mundo)",
+            "options": [
+              "salir",
+              "que salga",
+              "que sale",
+              "saliendo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Sin un sujeto concreto, la expresión impersonal va con infinitivo: es mejor salir. «Que salga» necesitaría a una persona concreta, «que sale» usa indicativo y «saliendo» es gerundio."
           }
         ]
       },
       {
         "heading": "Excepción: certeza objetiva",
         "body": [
-          "Algunas expresiones impersonales indican un hecho, no una opinión: es verdad que, es cierto que, es obvio que. Estas llevan indicativo."
+          "Algunas expresiones impersonales no valoran, sino que afirman un hecho: es verdad que, es cierto que, es obvio que, es evidente que, está claro que. Estas llevan indicativo. Pero si las niegas (no es verdad que…), el hecho deja de ser seguro y vuelve el subjuntivo."
         ],
         "examples": [
           {
@@ -1284,6 +2339,10 @@ const B1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Es obvio que ella trabaja mucho.",
             "en": "It's obvious that she works hard."
+          },
+          {
+            "es": "No es verdad que el español sea difícil.",
+            "en": "It's not true that Spanish is difficult. (certeza negada → subjuntivo)"
           }
         ],
         "checkpoint": [
@@ -1298,6 +2357,18 @@ const B1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 2,
             "explanation": "«Es verdad que» presenta un hecho como cierto, así que va con indicativo. «Es raro que», «es necesario que» y «es mejor que» expresan juicio o necesidad y llevan subjuntivo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Está claro que el equipo ___ cansado.» (estar)",
+            "options": [
+              "está",
+              "esté",
+              "estar",
+              "estuviera"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Está claro que» afirma un hecho, como es verdad que → indicativo: está. «Esté» y «estuviera» son subjuntivo (para valoraciones o certezas negadas) y «estar» no tiene sujeto."
           }
         ]
       },
@@ -1322,7 +2393,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjuga el verbo.",
             "sentence": "¡Ojalá ___ (ganar, nosotros) el partido!",
             "answer": "ganemos",
-            "explanation": "Ojalá siempre exige subjuntivo: ganemos."
+            "explanation": "Ojalá es siempre un deseo, nunca un hecho, así que exige subjuntivo: ganemos (-ar → -e)."
           }
         ]
       },
@@ -1400,7 +2471,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo.",
         "sentence": "Es importante que tú ___ (dormir) lo suficiente.",
         "answer": "duermas",
-        "explanation": "Dormir cambia o→ue en subjuntivo: duerma, duermas, duerma..."
+        "explanation": "Es importante que + sujeto concreto (tú) → subjuntivo. Dormir cambia o → ue en las formas tónicas: duerma, duermas, duerma…"
       },
       {
         "type": "multiple-choice",
@@ -1419,7 +2490,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo.",
         "sentence": "¡Ojalá ___ (hacer) buen tiempo el sábado!",
         "answer": "haga",
-        "explanation": "Hacer es irregular en subjuntivo: haga, hagas, haga..."
+        "explanation": "Ojalá → siempre subjuntivo. Hacer es irregular y sale de «hago»: haga, hagas, haga…"
       }
     ]
   },
@@ -1432,9 +2503,55 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
+        "heading": "Recuerda la regla y aprende las familias",
+        "body": [
+          "Recuerda la regla: valoraciones y necesidad (es importante que, es necesario que, es una pena que) y ojalá llevan subjuntivo, porque no presentan la acción como un hecho. Las expresiones de certeza (es verdad que, es evidente que) llevan indicativo. Sin sujeto concreto, infinitivo: es necesario reciclar.",
+          "Para el vocabulario de la naturaleza, aprende familias, no palabras sueltas: verbo → nombre con -ción (contaminar → la contaminación, inundar → la inundación), verbo → nombre con la raíz (dañar → el daño, cosechar → la cosecha), y adjetivos en -ble que son iguales en inglés (sostenible, renovable)."
+        ],
+        "examples": [
+          {
+            "es": "Es una pena que el río esté tan contaminado.",
+            "en": "It's a shame the river is so polluted. (valoración → subjuntivo)"
+          },
+          {
+            "es": "Es evidente que la sequía ha dañado la cosecha.",
+            "en": "It's evident the drought has damaged the harvest. (certeza → indicativo)"
+          },
+          {
+            "es": "Es necesario reciclar más.",
+            "en": "It's necessary to recycle more. (regla general → infinitivo)"
+          },
+          {
+            "es": "Ojalá que el bosque se recupere pronto.",
+            "en": "I hope the forest recovers soon. (ojalá → subjuntivo)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la familia: si «conservar» es to conserve, ¿cómo se dice «conservation»?",
+            "options": [
+              "la conservación",
+              "el conservo",
+              "la conservencia",
+              "el conservamiento"
+            ],
+            "correctIndex": 0,
+            "explanation": "Verbos en -ar como contaminar o conservar forman el nombre con -ción: la conservación (= -tion en inglés). Las otras formas no existen."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa.",
+            "sentence": "Es urgente que el gobierno ___ los bosques. (proteger)",
+            "answer": "proteja",
+            "explanation": "Es urgente que valora la necesidad → subjuntivo. Proteger cambia g → j delante de a para mantener el sonido /x/: proteja."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: Esperanzas y el mundo natural",
         "body": [
-          "Cincuenta palabras sobre la naturaleza y el medio ambiente — territorio perfecto para \"ojalá\"."
+          "Cincuenta palabras sobre la naturaleza y el medio ambiente — territorio perfecto para «ojalá». Fíjate en las parejas de la misma familia: contaminar / la contaminación, dañar / el daño, florecer / marchitarse (contrarios)."
         ],
         "examples": [
           {
@@ -1715,7 +2832,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "reciclemos",
           "más."
         ],
-        "explanation": "Es necesario que + subjuntivo.",
+        "explanation": "Es necesario que + sujeto concreto (nosotros) → subjuntivo: reciclemos.",
         "translation": "It's necessary that we recycle more."
       },
       {
@@ -1741,23 +2858,27 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Mandatos afirmativos con tú",
+        "heading": "La idea: solo el tú afirmativo es especial",
         "body": [
-          "Para la mayoría de los verbos, el mandato afirmativo de tú es idéntico a la forma \"él/ella\" del presente indicativo: habla, come, escribe.",
-          "Ocho verbos tienen formas irregulares: di (decir), haz (hacer), ve (ir), pon (poner), sal (salir), sé (ser), ten (tener), ven (venir)."
+          "Un mandato es un deseo dirigido a otra persona, y por eso casi todos los mandatos toman prestada la forma del subjuntivo (como «quiero que hables»): hable, no hables, hablen. Solo hay una excepción: el mandato afirmativo de tú.",
+          "Para la mayoría de los verbos, el mandato afirmativo de tú es idéntico a la forma «él/ella» del presente indicativo: habla, come, escribe. Ocho verbos tienen formas irregulares cortas: di (decir), haz (hacer), ve (ir), pon (poner), sal (salir), sé (ser), ten (tener), ven (venir)."
         ],
         "examples": [
           {
             "es": "Habla más despacio, por favor.",
-            "en": "Speak more slowly, please."
+            "en": "Speak more slowly, please. (tú afirmativo = él habla)"
           },
           {
             "es": "Ten paciencia.",
-            "en": "Be patient."
+            "en": "Be patient. (tener → ten, irregular)"
           },
           {
             "es": "Ve a la tienda.",
-            "en": "Go to the store."
+            "en": "Go to the store. (ir → ve)"
+          },
+          {
+            "es": "Duerme un poco.",
+            "en": "Get some sleep. (él duerme → duerme: el cambio de raíz se mantiene)"
           }
         ],
         "checkpoint": [
@@ -1766,14 +2887,26 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Da el mandato afirmativo de tú.",
             "sentence": "___ (hacer) la tarea antes de salir.",
             "answer": "Haz",
-            "explanation": "Hacer tiene mandato irregular de tú: haz."
+            "explanation": "Hacer está en la lista de los ocho irregulares de tú: haz (no «hace»)."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un verbo nuevo: «___ la sopa antes de servirla.» (probar, tú)",
+            "options": [
+              "Prueba",
+              "Pruebe",
+              "Pruebes",
+              "Proba"
+            ],
+            "correctIndex": 0,
+            "explanation": "Probar no está entre los irregulares: tú afirmativo = forma él del presente, con su cambio o → ue: prueba. «Pruebe» es de usted, «pruebes» es subjuntivo (solo para el negativo) y «proba» no existe en español estándar."
           }
         ]
       },
       {
         "heading": "Mandatos con usted y ustedes",
         "body": [
-          "Los mandatos de usted/ustedes usan la forma del subjuntivo presente: hable (usted), hablen (ustedes); coma (usted), coman (ustedes)."
+          "Los mandatos de usted/ustedes usan la forma del subjuntivo presente, para afirmar y para negar: hable (usted), hablen (ustedes); coma, coman. El subjuntivo sale de la forma yo del presente, así que los irregulares de yo pasan al mandato: tengo → tenga, pongo → ponga, digo → diga."
         ],
         "examples": [
           {
@@ -1783,6 +2916,10 @@ const B1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Firmen aquí, por favor.",
             "en": "Sign here, please."
+          },
+          {
+            "es": "Ponga su nombre aquí.",
+            "en": "Put your name here. (pongo → ponga)"
           }
         ],
         "checkpoint": [
@@ -1804,7 +2941,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Mandatos negativos",
         "body": [
           "Todos los mandatos negativos (tú, usted, ustedes) usan el subjuntivo presente con \"no\" delante: no hables, no hable, no hablen.",
-          "El tú negativo es diferente del tú afirmativo: habla (afirmativo) vs. no hables (negativo)."
+          "El tú negativo es diferente del tú afirmativo: habla (afirmativo) vs. no hables (negativo).",
+          "Los pronombres van delante en el negativo: no lo toques, no se preocupe (en el afirmativo se pegan detrás: tócalo)."
         ],
         "examples": [
           {
@@ -1826,7 +2964,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Da el mandato negativo de tú.",
             "sentence": "No ___ (comer) tan rápido.",
             "answer": "comas",
-            "explanation": "El tú negativo usa la forma del subjuntivo: no comas."
+            "explanation": "El tú negativo usa la forma del subjuntivo: no comas (-er → -a). «No come» sería el error de usar el afirmativo."
           }
         ]
       },
@@ -1913,7 +3051,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Da el mandato afirmativo de tú.",
         "sentence": "___ (venir) aquí, por favor.",
         "answer": "Ven",
-        "explanation": "Venir tiene mandato irregular de tú: ven."
+        "explanation": "Venir está entre los ocho irregulares de tú: ven (no «viene»)."
       },
       {
         "type": "multiple-choice",
@@ -1932,7 +3070,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Da el mandato de usted.",
         "sentence": "___ (esperar) un momento, por favor.",
         "answer": "Espere",
-        "explanation": "El mandato de usted usa la forma del subjuntivo: espere."
+        "explanation": "El mandato de usted usa la forma del subjuntivo: esperar → espere (-ar → -e)."
       }
     ]
   },
@@ -1945,9 +3083,51 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: cómo se da una instrucción de cocina",
+        "body": [
+          "Recuerda la regla: tú afirmativo = forma él del presente (pica, hierve, fríe); todos los demás mandatos usan el subjuntivo (usted: pique, hierva; negativo de tú: no piques, no frías). Por eso los verbos de cocina con cambio de raíz lo mantienen: hervir → hierve / hierva, calentar → calienta / caliente, revolver → revuelve / revuelva.",
+          "Las recetas escritas suelen usar usted o el infinitivo (Pelar las patatas.); entre amigos se usa tú. Y fíjate en la ortografía con usted: picar → pique, agregar → agregue (c → qu, g → gu delante de e)."
+        ],
+        "examples": [
+          {
+            "es": "Hierve el agua y añade la sal.",
+            "en": "Boil the water and add the salt. (tú: hierves → hierve)"
+          },
+          {
+            "es": "Caliente el aceite a fuego lento.",
+            "en": "Heat the oil over low heat. (usted: calentar → caliente)"
+          },
+          {
+            "es": "No piques la cebolla tan fina.",
+            "en": "Don't chop the onion so fine. (negativo de tú: picar → no piques)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un verbo nuevo: «___ los huevos durante diez minutos.» (cocer, usted)",
+            "options": [
+              "Cueza",
+              "Cuece",
+              "Coza",
+              "Cuezca"
+            ],
+            "correctIndex": 0,
+            "explanation": "Usted → subjuntivo, con el diptongo o → ue y c → z delante de a: cueza. «Cuece» es para tú, «coza» olvida el diptongo y «cuezca» no existe."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Da la orden (tú).",
+            "sentence": "No ___ la carne todavía. (servir)",
+            "answer": "sirvas",
+            "explanation": "Negativo de tú = no + subjuntivo; servir cambia e → i: no sirvas."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: La cocina",
         "body": [
-          "Cincuenta palabras de cocina — perfectas para practicar mandatos, como en una receta."
+          "Cincuenta palabras de cocina — perfectas para practicar mandatos, como en una receta. Fíjate en las familias: la cuchara → la cucharada (lo que cabe en una cuchara) → la cucharadita (-ita = más pequeña)."
         ],
         "examples": [
           {
@@ -2261,7 +3441,9 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Formación regular",
         "body": [
-          "El condicional se forma añadiendo las mismas terminaciones al infinitivo completo, para los tres grupos de verbos: -ía, -ías, -ía, -íamos, -íais, -ían. Con una condición imaginaria verás «si tuviera» (if I had) o «si pudiéramos» (if we could): por ahora apréndelos como bloque; ese tiempo (imperfecto de subjuntivo) se estudia más adelante."
+          "La idea: el condicional dice lo que pasaría (would), no lo que pasa ni lo que pasará. Habla de algo imaginado, deseado o suavizado.",
+          "La regla de formación: igual que el futuro, parte del infinitivo completo (hablar-, comer-, vivir-), pero en lugar de -é, -ás, -á lleva las terminaciones -ía, -ías, -ía, -íamos, -íais, -ían, las mismas para -ar, -er e -ir. ¿Por qué se parecen al imperfecto (comía)? Porque nacieron de «infinitivo + había»: hablar había → hablaría. La pista para no confundirlos: el condicional conserva la -r- del infinitivo (comería), el imperfecto no (comía).",
+          "Con una condición imaginaria verás «si tuviera» (if I had) o «si pudiéramos» (if we could): por ahora apréndelos como bloque; ese tiempo (imperfecto de subjuntivo) se estudia más adelante."
         ],
         "examples": [
           {
@@ -2270,7 +3452,15 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Yo viajaría a Japón si tuviera dinero.",
-            "en": "I would travel to Japan if I had money."
+            "en": "I would travel to Japan if I had money. (viajar + -ía)"
+          },
+          {
+            "es": "Con este calor, ¿no beberías algo frío?",
+            "en": "In this heat, wouldn't you drink something cold? (beber + -ías: keeps the -r-)"
+          },
+          {
+            "es": "Mis abuelos vivirían en el campo.",
+            "en": "My grandparents would live in the country. (vivir + -ían)"
           }
         ],
         "checkpoint": [
@@ -2286,7 +3476,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Raíces irregulares (las mismas del futuro)",
         "body": [
-          "El condicional usa exactamente las mismas raíces irregulares que el futuro: tendría, pondría, saldría, vendría, diría, haría, podría, querría, sabría, habría."
+          "Como el condicional se construye sobre la misma base que el futuro, hereda exactamente sus raíces irregulares: si sabes «tendré», ya sabes «tendría». Tres grupos: pierden la vocal (poder → podr-, saber → sabr-, querer → querr-, haber → habr-); cambian la vocal por -d- (tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-); y dos se acortan (decir → dir-, hacer → har-). Las terminaciones no cambian: siempre -ía."
         ],
         "examples": [
           {
@@ -2295,7 +3485,11 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Yo diría que sí.",
-            "en": "I'd say yes."
+            "en": "I'd say yes. (decir → dir-)"
+          },
+          {
+            "es": "Sin el atasco, mis primos ya vendrían de camino.",
+            "en": "Without the traffic jam, my cousins would already be on their way. (venir → vendr-)"
           }
         ],
         "checkpoint": [
@@ -2316,7 +3510,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Usos: peticiones corteses y consejos suaves",
         "body": [
-          "El condicional suaviza una petición o una sugerencia, haciéndola sonar más educada que el presente o el mandato directo.",
+          "El condicional suaviza una petición o una sugerencia, haciéndola sonar más educada que el presente o el mandato directo. ¿Por qué? Porque la saca de la realidad y la pone en lo imaginado («¿me ayudarías?» = would you help me?): el otro queda libre para decir que no.",
           "Yo que tú... / Yo en tu lugar... son frases comunes para dar consejos con el condicional."
         ],
         "examples": [
@@ -2417,7 +3611,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo.",
         "sentence": "Yo ___ (hacer) lo mismo en tu lugar.",
         "answer": "haría",
-        "explanation": "Hacer usa la raíz irregular har- en condicional: haría."
+        "explanation": "Hacer usa la raíz irregular har- (la del futuro: haré) + -ía: haría. «Hacería» no existe y «hacía» es imperfecto (sin la -r-)."
       },
       {
         "type": "multiple-choice",
@@ -2436,7 +3630,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo.",
         "sentence": "¿___ (poder, tú) cerrar la ventana?",
         "answer": "Podrías",
-        "explanation": "El condicional de poder: podría, podrías, podría..."
+        "explanation": "Poder usa la raíz del futuro, podr-, más -ías: podrías. El condicional suaviza la petición; «¿puedes cerrar…?» es correcto pero más directo, y «poderías» no existe."
       }
     ]
   },
@@ -2448,6 +3642,52 @@ const B1_BASE_LESSONS: Lesson[] = [
     "summary": "Learn 50 words about money and finance and use them to say what you would do.",
     "duration": "7 min",
     "sections": [
+      {
+        "heading": "La idea: familias de palabras del dinero",
+        "body": [
+          "Muchas palabras del dinero salen de un verbo, y si conoces el patrón aprendes dos palabras de una vez. Patrón 1: verbo en -ar → sustantivo masculino en -o, que nombra la acción o la cantidad: gastar → el gasto, ingresar → el ingreso. Patrón 2: -ción / -sión nombra el proceso, como -tion en inglés: invertir → la inversión, jubilarse → la jubilación, cotizar → la cotización. Patrón 3: -ancia / -ida / -encia nombran el resultado: ganar → la ganancia, perder → la pérdida, heredar → la herencia.",
+          "¿Por qué estudiar este vocabulario con el condicional? Porque hablar de dinero casi siempre es imaginar: qué harías con un premio, en qué invertirías, cuánto ahorrarías. Con más dinero…, Con un bono…, Yo que tú… + condicional."
+        ],
+        "examples": [
+          {
+            "es": "gastar → el gasto",
+            "en": "to spend → the expense (-ar → -o)"
+          },
+          {
+            "es": "invertir → la inversión",
+            "en": "to invest → the investment (-sión: the process)"
+          },
+          {
+            "es": "perder → la pérdida",
+            "en": "to lose → the loss (-ida: the result)"
+          },
+          {
+            "es": "Con un bono, ahorraría la mitad.",
+            "en": "With a bonus, I'd save half. (imagined situation → conditional)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el patrón: ¿qué sustantivo viene de «pagar»?",
+            "options": [
+              "el pago",
+              "la pagación",
+              "la pagancia",
+              "el pagado"
+            ],
+            "correctIndex": 0,
+            "explanation": "Verbo en -ar → sustantivo en -o: pagar → el pago (the payment), igual que gastar → el gasto. «Pagación» y «pagancia» no existen, y «pagado» es el participio, no el sustantivo."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el sustantivo del verbo entre paréntesis.",
+            "sentence": "Este mes mi ___ ha sido de cien euros. (ahorrar)",
+            "answer": "ahorro",
+            "explanation": "Mismo patrón que gastar → el gasto: ahorrar → el ahorro (the savings). Es masculino, por eso «mi ahorro», y la palabra no aparece en la lista: la has deducido."
+          }
+        ]
+      },
       {
         "heading": "Vocabulario: Dinero y finanzas",
         "body": [
@@ -2744,6 +3984,44 @@ const B1_BASE_LESSONS: Lesson[] = [
         "source": "En tu situación, yo hablaría con el jefe primero.",
         "answer": "In your situation, I would talk to the boss first.",
         "explanation": "Hablaría es el condicional de hablar; aquí da un consejo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "¿Me pedirías prestado diez euros hasta mañana?",
+        "answer": "¿Me prestarías diez euros hasta mañana?",
+        "explanation": "Quien da el dinero presta (to lend); quien lo recibe lo pide prestado (to borrow). Aquí «me» es quien lo recibe, así que la otra persona presta: ¿me prestarías?"
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Con una herencia, yo dejaré de trabajar.",
+        "answer": "Con una herencia, yo dejaría de trabajar.",
+        "altAnswers": [
+          "Con una herencia, dejaría de trabajar."
+        ],
+        "explanation": "«Con una herencia» es una situación imaginada: el resultado va en condicional (dejaría). «Dejaré» lo presentaría como un plan seguro."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Sustituye el verbo por su sustantivo.",
+        "source": "Invertir en oro sería rentable.",
+        "answer": "La inversión en oro sería rentable.",
+        "explanation": "Invertir → la inversión (-sión nombra el proceso). Como sustantivo necesita artículo: la inversión, y el verbo sería no cambia."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué sustantivo viene de «cobrar» (to charge, to get paid)?",
+        "options": [
+          "el cobro",
+          "la cobración",
+          "la cobrida"
+        ],
+        "correctIndex": 0,
+        "explanation": "Verbo en -ar que nombra la acción o la cantidad → -o: el cobro, como pagar → el pago y gastar → el gasto. Las otras dos formas no existen."
       }
     ]
   },
@@ -2758,7 +4036,9 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La estructura básica",
         "body": [
-          "Para condiciones reales o probables, usa: si + presente indicativo, + presente indicativo o futuro (o mandato).",
+          "La idea: una frase con «si» tiene dos partes, la condición y el resultado. Cuando la condición es real o probable (puede pasar de verdad), la regla es: si + presente de indicativo, + presente, futuro o mandato.",
+          "¿Por qué presente aunque hables del futuro? Porque «si» ya marca que la condición está por cumplirse, así que el verbo de la condición no necesita futuro: Si llueve mañana… (nunca «si lloverá»). El futuro va solo en el resultado: …nos quedaremos en casa. Y nunca se pone presente de subjuntivo después de «si»: «si llueva» es un error.",
+          "Truco: el orden de las dos partes puede cambiar (Nos quedaremos en casa si llueve), pero los tiempos no: el presente siempre va pegado a «si».",
           "Esta estructura no lleva subjuntivo — es un uso especial donde \"si\" se combina con el indicativo."
         ],
         "examples": [
@@ -2768,7 +4048,11 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Si tienes hambre, come algo.",
-            "en": "If you're hungry, eat something."
+            "en": "If you're hungry, eat something. (presente + mandato)"
+          },
+          {
+            "es": "Te llamaré si llego tarde.",
+            "en": "I'll call you if I'm late. (result first: the present still goes with si)"
           }
         ],
         "checkpoint": [
@@ -2784,7 +4068,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El resultado en futuro",
         "body": [
-          "Cuando el resultado es algo que pasará más adelante, se usa el futuro en la segunda cláusula."
+          "Cuando el resultado es algo que pasará más adelante, se usa el futuro en la segunda cláusula (o ir a + infinitivo). El futuro va en el resultado, nunca en la parte de «si»."
         ],
         "examples": [
           {
@@ -2814,7 +4098,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El resultado como mandato",
         "body": [
-          "También puedes terminar la oración con un mandato, para dar una instrucción basada en una condición."
+          "También puedes terminar la oración con un mandato, para dar una instrucción basada en una condición. El mandato sigue sus reglas de siempre: pronombres pegados en afirmativo (dile, llámame) y subjuntivo en negativo (si llueve, no salgas)."
         ],
         "examples": [
           {
@@ -2945,6 +4229,52 @@ const B1_BASE_LESSONS: Lesson[] = [
     "summary": "Learn 50 words about school and university life to use in real conditions with si + present.",
     "duration": "6 min",
     "sections": [
+      {
+        "heading": "La idea: familias de palabras de la vida de estudiante",
+        "body": [
+          "Muchas palabras de esta lista son la misma idea como verbo y como sustantivo, y siguen patrones fijos. -ción / -sión (como -tion): graduarse → la graduación, investigar → la investigación. -miento: conocer → el conocimiento. -aje: aprender → el aprendizaje. Sustantivo corto en -o / -e: repasar → el repaso, esforzarse → el esfuerzo, apuntar → el apunte. Los sustantivos en -ción son femeninos; los de -miento, -aje y -o, masculinos.",
+          "Para hablar de planes de estudio usarás la regla de la lección: si + presente, + futuro o mandato (Si consigo una beca, estudiaré fuera). Ojo con una diferencia regional: en España se dice suspender un examen; en gran parte de Latinoamérica, reprobar."
+        ],
+        "examples": [
+          {
+            "es": "investigar → la investigación",
+            "en": "to research → research (-ción, feminine)"
+          },
+          {
+            "es": "aprender → el aprendizaje",
+            "en": "to learn → learning (-aje, masculine)"
+          },
+          {
+            "es": "esforzarse → el esfuerzo",
+            "en": "to make an effort → the effort (short noun in -o)"
+          },
+          {
+            "es": "Si repasas cada semana, el examen final será fácil.",
+            "en": "If you review every week, the final exam will be easy. (si + presente, futuro)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el patrón: ¿qué sustantivo viene de «evaluar»?",
+            "options": [
+              "la evaluación",
+              "el evaluamiento",
+              "el evaluaje",
+              "la evalua"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los verbos en -ar que nombran un proceso forman el sustantivo con -ción, como investigar → la investigación: evaluar → la evaluación. «Evaluamiento» y «evaluaje» no existen."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el sustantivo con -miento.",
+            "sentence": "El ___ de la penicilina cambió la medicina. (descubrir)",
+            "answer": "descubrimiento",
+            "explanation": "Como conocer → el conocimiento, descubrir → el descubrimiento (masculino: el). La palabra no está en la lista: la has formado con el patrón."
+          }
+        ]
+      },
       {
         "heading": "Vocabulario: La educación",
         "body": [
@@ -3255,19 +4585,27 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Formación: haber + participio",
+        "heading": "La idea: haber + participio",
         "body": [
-          "El pretérito perfecto combina el verbo haber conjugado (he, has, ha, hemos, habéis, han) con el participio pasado del verbo principal.",
-          "Los participios regulares terminan en -ado (-ar) o -ido (-er/-ir): hablado, comido, vivido."
+          "El pretérito perfecto tiene dos piezas: el verbo haber en presente (he, has, ha, hemos, habéis, han) y el participio del verbo principal. Haber hace todo el trabajo de persona y número; el participio no cambia nunca: he comido, han comido, las niñas han comido.",
+          "¿Por qué no cambia el participio? Porque aquí no es un adjetivo: forma un bloque con haber, igual que el inglés «have eaten». Los participios regulares terminan en -ado (verbos en -ar) o -ido (-er/-ir): hablado, comido, vivido. Si la raíz acaba en vocal, -ido lleva tilde: leído, creído, oído, traído."
         ],
         "examples": [
           {
             "es": "He hablado con ella esta mañana.",
-            "en": "I've spoken with her this morning."
+            "en": "I've spoken with her this morning. (yo → he)"
           },
           {
             "es": "¿Has comido ya?",
-            "en": "Have you eaten yet?"
+            "en": "Have you eaten yet? (tú → has)"
+          },
+          {
+            "es": "Mis hermanas han vivido en Lima.",
+            "en": "My sisters have lived in Lima. (han, but vivido doesn't become «vividas»)"
+          },
+          {
+            "es": "No hemos leído el contrato.",
+            "en": "We haven't read the contract. (no goes before haber; leído has an accent)"
           }
         ],
         "checkpoint": [
@@ -3276,54 +4614,86 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjuga el verbo en pretérito perfecto.",
             "sentence": "Nosotros ___ (vivir) aquí durante diez años.",
             "answer": "hemos vivido",
-            "explanation": "Haber (hemos) más el participio de vivir (vivido): hemos vivido."
+            "explanation": "Nosotros → hemos; vivir es un verbo en -ir → vivido. El participio queda igual aunque el sujeto sea plural."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Mis primas ___ muy tarde.» (llegar)",
+            "options": [
+              "han llegado",
+              "han llegadas",
+              "ha llegado",
+              "habemos llegado"
+            ],
+            "correctIndex": 0,
+            "explanation": "Mis primas = ellas → han; llegar → llegado. El participio no concuerda con el sujeto, así que «llegadas» es incorrecto; «ha» es singular y «habemos» no se usa como auxiliar."
           }
         ]
       },
       {
-        "heading": "Participios irregulares",
+        "heading": "Participios irregulares: aprende la familia",
         "body": [
-          "Algunos participios son irregulares y hay que memorizarlos: hacer → hecho, decir → dicho, escribir → escrito, ver → visto, poner → puesto, volver → vuelto, romper → roto, abrir → abierto, morir → muerto, cubrir → cubierto."
+          "Unos pocos verbos muy frecuentes conservan un participio antiguo, terminado en -to o -cho: hacer → hecho, decir → dicho, escribir → escrito, ver → visto, poner → puesto, volver → vuelto, romper → roto, abrir → abierto, morir → muerto, cubrir → cubierto.",
+          "La ventaja: los verbos compuestos heredan la irregularidad del verbo base. Si sabes volver → vuelto, sabes devolver → devuelto; si sabes poner → puesto, sabes proponer → propuesto; descubrir → descubierto, deshacer → deshecho."
         ],
         "examples": [
           {
             "es": "He hecho la tarea.",
-            "en": "I've done the homework."
+            "en": "I've done the homework. (hacer → hecho)"
           },
           {
             "es": "¿Has visto la nueva película?",
-            "en": "Have you seen the new movie?"
+            "en": "Have you seen the new movie? (ver → visto)"
+          },
+          {
+            "es": "Mis padres han vuelto de su viaje.",
+            "en": "My parents have come back from their trip. (volver → vuelto)"
+          },
+          {
+            "es": "Los científicos han descubierto una especie nueva.",
+            "en": "The scientists have discovered a new species. (descubrir → descubierto, like cubrir)"
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es el participio de \"escribir\"?",
+            "question": "¿Cuál es el participio de «describir»?",
             "options": [
-              "escribido",
-              "escrito",
-              "escribiendo",
-              "escribió"
+              "describido",
+              "descrito",
+              "describiendo",
+              "describió"
             ],
             "correctIndex": 1,
-            "explanation": "Escribir tiene un participio irregular: escrito. «Escribido» no existe; «escribiendo» es el gerundio y «escribió» es el pretérito."
+            "explanation": "Describir es un compuesto de escribir, así que hereda su participio: escrito → descrito. «Describido» no existe; «describiendo» es el gerundio y «describió» es el pretérito."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Conjuga el verbo en pretérito perfecto.",
+            "sentence": "Mi hijo todavía no ___ (deshacer) la maleta.",
+            "answer": "ha deshecho",
+            "explanation": "Deshacer se forma sobre hacer, así que su participio es deshecho, como hecho. «Ha deshacido» no existe."
           }
         ]
       },
       {
-        "heading": "Cuándo se usa",
+        "heading": "Cuándo se usa: un pasado que toca el presente",
         "body": [
-          "El pretérito perfecto conecta una acción pasada con el presente: experiencias de vida, acciones recientes, o algo que continúa siendo relevante ahora.",
-          "En España se usa mucho con hoy, esta semana, este mes; en gran parte de Latinoamérica se prefiere el pretérito simple para lo mismo."
+          "El pretérito perfecto presenta lo pasado como conectado con ahora: experiencias de toda la vida (alguna vez, nunca, ya, todavía no), acciones dentro de un periodo que no ha terminado (hoy, esta semana, este año) y resultados recientes que importan ahora.",
+          "Con un momento cerrado y terminado (ayer, el año pasado, en 2019) se usa el pretérito indefinido. En España el perfecto es muy frecuente con hoy y esta semana; en gran parte de Latinoamérica se prefiere el indefinido también ahí (hoy trabajé mucho)."
         ],
         "examples": [
           {
             "es": "Nunca he estado en Argentina.",
-            "en": "I've never been to Argentina."
+            "en": "I've never been to Argentina. (a life experience)"
           },
           {
             "es": "Esta semana he trabajado mucho.",
-            "en": "I've worked a lot this week."
+            "en": "I've worked a lot this week. (the week isn't over)"
+          },
+          {
+            "es": "¡Ya ha llegado el paquete!",
+            "en": "The package has arrived! (a recent result that matters now)"
           }
         ],
         "checkpoint": [
@@ -3332,29 +4702,46 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjuga el verbo.",
             "sentence": "¿___ (leer, tú) ese libro alguna vez?",
             "answer": "Has leído",
-            "explanation": "Leer tiene un participio con tilde: leído. Con haber (has): has leído."
+            "explanation": "«Alguna vez» pregunta por una experiencia de vida: pretérito perfecto. Tú → has; leer → leído, con tilde porque la raíz acaba en vocal."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«___ he ido al cine dos veces.» ¿Qué marcador encaja?",
+            "options": [
+              "Este mes",
+              "El mes pasado",
+              "Ayer",
+              "En 2019"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Este mes» es un periodo que aún no ha terminado, por eso va con el pretérito perfecto. «El mes pasado», «ayer» y «en 2019» son momentos cerrados y piden el indefinido: fui al cine."
           }
         ]
       },
       {
         "heading": "Posición de los pronombres",
         "body": [
-          "Los pronombres de objeto (directo, indirecto, reflexivo) siempre van antes de \"haber\" conjugado — nunca entre haber y el participio."
+          "Como haber y el participio forman un bloque, nada se mete entre ellos. Los pronombres (lo, la, le, me, se, se lo…) y la palabra no van siempre delante de haber.",
+          "Es la diferencia más clara con el inglés, que sí separa: «I have already told him» → Ya se lo he dicho."
         ],
         "examples": [
           {
             "es": "Se lo he dicho muchas veces.",
-            "en": "I've told him many times."
+            "en": "I've told him many times. (se lo before he)"
           },
           {
             "es": "Ya me he duchado.",
-            "en": "I've already showered."
+            "en": "I've already showered. (reflexive me before he)"
+          },
+          {
+            "es": "No la hemos invitado.",
+            "en": "We haven't invited her. (no + pronoun + haber + participle)"
           }
         ],
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Cuál oración es correcta? (Elige todas las correctas)",
+            "question": "¿Qué oraciones son correctas? (Elige todas las correctas)",
             "options": [
               "Lo he visto.",
               "He lo visto.",
@@ -3365,14 +4752,25 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               3
             ],
-            "explanation": "Con el pretérito perfecto, el pronombre va antes de haber: «Lo he visto», «Ya me he levantado». «He lo visto» y «He visto lo» son incorrectas porque el pronombre no puede ir entre haber y el participio, ni detrás del participio."
+            "explanation": "Con el pretérito perfecto, el pronombre va antes de haber: «Lo he visto», «Ya me he levantado». «He lo visto» mete el pronombre dentro del bloque y «He visto lo» lo pone detrás del participio: las dos son incorrectas."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Corrige la frase.",
+            "source": "He lo comprado esta mañana.",
+            "answer": "Lo he comprado esta mañana.",
+            "altAnswers": [
+              "Esta mañana lo he comprado."
+            ],
+            "explanation": "El pronombre de objeto directo (lo) va delante de haber: lo he comprado. Nunca entre he y comprado."
           }
         ]
       },
       {
         "heading": "En la práctica",
         "body": [
-          "Una entrevista sobre experiencias de viaje."
+          "Una entrevista sobre experiencias de viaje. Fíjate en qué preguntas piden una experiencia y cómo se responden."
         ],
         "examples": [
           {
@@ -3404,6 +4802,18 @@ const B1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto dice: «He visto Machu Picchu al amanecer». El mar, un volcán o un desierto no aparecen en esa frase."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "La entrevistadora pregunta ahora: «¿Has probado el mate?». ¿Qué respuesta es natural?",
+            "options": [
+              "No, nunca lo he probado.",
+              "No, nunca he lo probado.",
+              "No, nunca lo probado.",
+              "No, nunca lo he probada."
+            ],
+            "correctIndex": 0,
+            "explanation": "Se responde en el mismo tiempo que la pregunta, con el pronombre delante de haber: nunca lo he probado. «He lo» separa el bloque, «lo probado» pierde el auxiliar y «probada» hace concordar un participio que no cambia."
           }
         ]
       }
@@ -3414,11 +4824,11 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo.",
         "sentence": "Yo ___ (hacer) todo lo posible.",
         "answer": "he hecho",
-        "explanation": "Haber (he) más el participio irregular de hacer (hecho): he hecho."
+        "explanation": "Yo → he; hacer tiene participio irregular: hecho. «He hacido» no existe."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es el participio de \"poner\"?",
+        "question": "¿Cuál es el participio de «poner»?",
         "options": [
           "ponido",
           "puesto",
@@ -3429,11 +4839,239 @@ const B1_BASE_LESSONS: Lesson[] = [
         "explanation": "Poner tiene un participio irregular: puesto. «Ponido» no existe; «poniendo» es el gerundio y «puso» es el pretérito."
       },
       {
+        "type": "multiple-choice",
+        "question": "Aplica la familia: ¿cuál es el participio de «resolver»?",
+        "options": [
+          "resolvido",
+          "resuelto",
+          "resolviendo",
+          "resolvió"
+        ],
+        "correctIndex": 1,
+        "explanation": "Resolver funciona como volver (vuelto): resuelto. «Resolvido» aplica la regla regular a un verbo de la familia de volver; «resolviendo» es gerundio y «resolvió» es pretérito."
+      },
+      {
         "type": "fill-blank",
         "prompt": "Conjuga el verbo.",
         "sentence": "¿___ (ver, ustedes) esa serie?",
         "answer": "Han visto",
-        "explanation": "Haber (han) más el participio irregular de ver (visto): han visto."
+        "explanation": "Ustedes → han (forma de tercera persona plural); ver → visto, irregular."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia al pretérito perfecto.",
+        "source": "Mis vecinos compran un coche nuevo.",
+        "answer": "Mis vecinos han comprado un coche nuevo.",
+        "altAnswers": [
+          "Mis vecinos han comprado un carro nuevo.",
+          "Mis vecinos han comprado un auto nuevo.",
+          "Mis vecinos se han comprado un coche nuevo."
+        ],
+        "explanation": "Haber concuerda con el sujeto (mis vecinos → han) y comprar da el participio regular comprado, que no cambia."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "Have you (tú) opened the window?",
+        "answer": "¿Has abierto la ventana?",
+        "altAnswers": [
+          "¿Has abierto la ventana ya?",
+          "¿Ya has abierto la ventana?"
+        ],
+        "explanation": "Abrir tiene participio irregular: abierto. «Has abrido» es el error típico."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Mis abuelos ___ en el mismo pueblo toda su vida.",
+        "answer": "han vivido",
+        "en": "My grandparents [have lived] in the same village all their lives.",
+        "explanation": "Ellos → han; vivir → vivido (-ir → -ido). El participio no cambia con el sujeto plural."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "¿Quién ___ el jarrón?",
+        "answer": "ha roto",
+        "en": "Who [has broken] the vase?",
+        "explanation": "Romper tiene participio irregular: roto. No digas «ha rompido»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Esta mañana he escribido tres correos.",
+        "answer": "Esta mañana he escrito tres correos.",
+        "altAnswers": [
+          "He escrito tres correos esta mañana."
+        ],
+        "explanation": "Escribir tiene participio irregular: escrito. «Escribido» aplica por error la regla de -ido."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia a la forma negativa.",
+        "source": "Este año hemos visto el mar.",
+        "answer": "Este año no hemos visto el mar.",
+        "altAnswers": [
+          "No hemos visto el mar este año."
+        ],
+        "explanation": "El «no» va delante de haber: no hemos visto. Nunca «hemos no visto»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "Our plant has died.",
+        "answer": "Nuestra planta se ha muerto.",
+        "altAnswers": [
+          "Nuestra planta ha muerto.",
+          "Se ha muerto nuestra planta."
+        ],
+        "explanation": "Morir → muerto (irregular). El pronombre «se» va antes de haber, nunca entre haber y el participio."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "¿Ha ponido la leche en la nevera?",
+        "answer": "¿Ha puesto la leche en la nevera?",
+        "altAnswers": [
+          "¿Ha puesto la leche en el refrigerador?",
+          "¿Ha puesto la leche en la heladera?",
+          "¿Ha puesto la leche en el frigorífico?"
+        ],
+        "explanation": "Poner tiene participio irregular: puesto. «Ponido» no existe."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "La nieve ___ todos los coches de la calle.",
+        "answer": "ha cubierto",
+        "en": "The snow [has covered] all the cars on the street.",
+        "explanation": "Cubrir → cubierto (irregular, como abrir → abierto). No digas «ha cubrido»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia el sujeto a ellas.",
+        "source": "Le he dicho la verdad.",
+        "answer": "Le han dicho la verdad.",
+        "altAnswers": [
+          "Ellas le han dicho la verdad."
+        ],
+        "explanation": "Solo cambia haber: ellas → han. El pronombre le sigue delante de haber y dicho no cambia."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "—¿Has visto a Marta? —Sí, ___ he visto esta tarde.",
+        "answer": "la",
+        "en": "—Have you seen Marta? —Yes, I've seen [her] this afternoon.",
+        "explanation": "El pronombre de objeto directo (la) va antes de haber. «He la visto» es el error típico."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "Todavía",
+          "no",
+          "nos",
+          "han",
+          "devuelto",
+          "el",
+          "dinero"
+        ],
+        "translation": "They still haven't given us the money back",
+        "explanation": "Todavía no + pronombre (nos) + haber + participio; devolver → devuelto, como volver → vuelto."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Mi hermano ya ha se acostado.",
+        "answer": "Mi hermano ya se ha acostado.",
+        "altAnswers": [
+          "Mi hermano se ha acostado ya.",
+          "Ya se ha acostado mi hermano."
+        ],
+        "explanation": "En un verbo reflexivo, el «se» va delante de haber: se ha acostado. Nada se mete entre ha y el participio."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es correcta para «We've done it»?",
+        "options": [
+          "Hemos lo hecho.",
+          "Lo hemos hecho.",
+          "Lo hemos hacido.",
+          "Hemos hecho lo."
+        ],
+        "correctIndex": 1,
+        "explanation": "El pronombre va antes de haber y hacer tiene participio irregular: lo hemos hecho. Las otras opciones separan el bloque o inventan «hacido»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «ayer» por «hoy» y ajusta el verbo.",
+        "source": "Ayer abrí la tienda a las nueve.",
+        "answer": "Hoy he abierto la tienda a las nueve.",
+        "altAnswers": [
+          "He abierto la tienda a las nueve hoy.",
+          "Hoy abrí la tienda a las nueve."
+        ],
+        "explanation": "Hoy es un periodo que no ha terminado, así que pasa al pretérito perfecto; abrir → abierto (irregular)."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "Nunca",
+          "se",
+          "lo",
+          "hemos",
+          "contado",
+          "a",
+          "nuestros",
+          "padres"
+        ],
+        "translation": "We have never told our parents about it",
+        "explanation": "Los dos pronombres (se lo) van juntos delante de haber; nada se mete entre hemos y contado."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Qué frases están bien formadas?",
+        "options": [
+          "Hemos vuelto tarde.",
+          "Han abrido la puerta.",
+          "Lo has hecho muy bien.",
+          "Las niñas han llegadas.",
+          "Habéis descubierto un secreto."
+        ],
+        "correctIndexes": [
+          0,
+          2,
+          4
+        ],
+        "explanation": "Vuelto, hecho y descubierto son los participios irregulares correctos. «Abrido» debería ser abierto, y «llegadas» hace concordar el participio, que con haber nunca cambia: han llegado."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "Why haven't you (tú) told me that you've come back?",
+        "answer": "¿Por qué no me has dicho que has vuelto?",
+        "altAnswers": [
+          "¿Por qué no me has dicho que ya has vuelto?"
+        ],
+        "explanation": "Dos participios irregulares: dicho y vuelto. El «no» y el «me» van antes de has."
+      },
+      {
+        "type": "speak",
+        "prompt": "Responde en voz alta: di tres cosas que has hecho hoy (una con un participio irregular).",
+        "text": "Hoy he desayunado con mi familia, he leído el periódico y he escrito un correo a mi jefe.",
+        "explanation": "Hoy es un periodo abierto: pretérito perfecto. He + participio regular (desayunado, leído) o irregular (escrito, hecho, visto, puesto)."
       }
     ]
   },
@@ -3446,9 +5084,119 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
+        "heading": "La idea: logros que llegan hasta hoy",
+        "body": [
+          "Cuando hacemos balance de la vida (lo que hemos conseguido, superado o probado) usamos el pretérito perfecto, porque el periodo del que hablamos llega hasta ahora. Por eso el vocabulario de logros y experiencias va con marcadores como hasta ahora, hasta la fecha, por primera vez, jamás o todavía no.",
+          "Jamás es un nunca enfático y funciona igual: delante del verbo, sin «no» (jamás he visto algo así)."
+        ],
+        "examples": [
+          {
+            "es": "Hasta ahora he aprendido dos idiomas.",
+            "en": "So far I've learned two languages. (hasta ahora reaches the present)"
+          },
+          {
+            "es": "Por primera vez nos hemos arriesgado de verdad.",
+            "en": "For the first time we've really taken a risk."
+          },
+          {
+            "es": "Jamás he visto un paisaje tan sorprendente.",
+            "en": "I've never seen such a surprising landscape. (jamás = emphatic nunca)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Hasta la fecha, el proyecto ___ todos sus hitos.» (cumplir)",
+            "options": [
+              "ha cumplido",
+              "cumplió en 2015",
+              "cumplía",
+              "cumplirá"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Hasta la fecha» significa «hasta hoy»: el periodo llega al presente, así que se usa el pretérito perfecto. «Cumplió en 2015» fija un momento cerrado, «cumplía» describe un hábito y «cumplirá» es futuro."
+          }
+        ]
+      },
+      {
+        "heading": "El patrón detrás de las palabras: familias",
+        "body": [
+          "Muchas palabras de la lista vienen en familia, y conocer el patrón te da palabras nuevas gratis. Verbo → sustantivo: -miento (descubrir → descubrimiento, emprender → emprendimiento), -ncia (perseverar → perseverancia) o la raíz con -o (fracasar → fracaso, lograr → logro, arriesgar → riesgo).",
+          "Adjetivos con -ble: «que se puede» + verbo (memorable = que se puede recordar). Con el prefijo in- (im- delante de b/p, ir- delante de r) significa lo contrario: olvidar → inolvidable, «que no se puede olvidar»."
+        ],
+        "examples": [
+          {
+            "es": "Ha sido un descubrimiento sorprendente.",
+            "en": "It's been a surprising discovery. (descubrir → descubrimiento)"
+          },
+          {
+            "es": "Su perseverancia ha marcado la diferencia.",
+            "en": "Her perseverance has made the difference. (perseverar → perseverancia)"
+          },
+          {
+            "es": "Fue un viaje inolvidable.",
+            "en": "It was an unforgettable trip. (in- + olvidar + -able)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el sustantivo de «crecer», como descubrir → descubrimiento.",
+            "sentence": "El ___ de la empresa ha sido muy rápido.",
+            "answer": "crecimiento",
+            "explanation": "Crecer sigue el patrón -miento: crecimiento (como descubrimiento, emprendimiento)."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Algo que no se puede creer es…",
+            "options": [
+              "increíble",
+              "increyente",
+              "descreíble",
+              "incredible"
+            ],
+            "correctIndex": 0,
+            "explanation": "in- (lo contrario) + creer + -ble: increíble. «Increyente» y «descreíble» no siguen el patrón, e «incredible» es la palabra inglesa."
+          }
+        ]
+      },
+      {
+        "heading": "Verbos con se: el pronombre va delante de haber",
+        "body": [
+          "Varios verbos de la lista son pronominales: atreverse a, arriesgarse, perderse algo, levantarse, mudarse, titularse, adentrarse en. En el pretérito perfecto, el pronombre va siempre delante de haber, como cualquier otro pronombre: me he atrevido, nos hemos mudado, te has perdido."
+        ],
+        "examples": [
+          {
+            "es": "Me he atrevido a cantar en público.",
+            "en": "I've dared to sing in public. (me before he)"
+          },
+          {
+            "es": "¿Te has perdido el concierto?",
+            "en": "Have you missed the concert?"
+          },
+          {
+            "es": "Mis primos se han mudado de país.",
+            "en": "My cousins have moved to another country."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Corrige la frase.",
+            "source": "Nunca he me arriesgado tanto.",
+            "answer": "Nunca me he arriesgado tanto.",
+            "altAnswers": [
+              "No me he arriesgado nunca tanto."
+            ],
+            "explanation": "El pronombre de un verbo pronominal (me) va delante de haber: me he arriesgado. Nada se mete entre he y el participio."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: Experiencias de vida",
         "body": [
-          "Cincuenta palabras para hablar de experiencias, logros, y \"primeras veces\" — el terreno natural del pretérito perfecto."
+          "Cincuenta palabras para hablar de experiencias, logros y «primeras veces», el terreno natural del pretérito perfecto. Busca las familias (fracasar / el fracaso) y los verbos con se."
         ],
         "examples": [
           {
@@ -3698,7 +5446,7 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "to leave a mark"
               }
             ],
-            "explanation": "Estas diez palabras describen momentos y logros importantes en la vida."
+            "explanation": "Estas diez palabras describen momentos y logros importantes en la vida. Fíjate en las parejas de la misma familia: fracasar / el fracaso, emprender / el emprendimiento."
           }
         ]
       }
@@ -3734,8 +5482,8 @@ const B1_BASE_LESSONS: Lesson[] = [
           "tan",
           "grande."
         ],
-        "explanation": "Nunca + pronombre + haber + participio: nunca me he atrevido. Atreverse a + infinitivo; correr un riesgo = to take a risk.",
-        "translation": "I have never dared to take such a big risk."
+        "translation": "I have never dared to take such a big risk.",
+        "explanation": "Nunca + pronombre + haber + participio: nunca me he atrevido. Atreverse a + infinitivo; correr un riesgo = to take a risk."
       },
       {
         "type": "multiple-choice",
@@ -3748,6 +5496,199 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 0,
         "explanation": "Con el pretérito perfecto, el pronombre siempre va antes de haber: lo he visto. No puede ir entre haber y el participio (he lo visto) ni después del participio (he visto lo)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I have overcome my fear of flying.",
+        "answer": "He superado mi miedo a volar.",
+        "altAnswers": [
+          "He superado el miedo a volar.",
+          "He superado mi miedo de volar."
+        ],
+        "explanation": "«Superar un miedo» con pretérito perfecto: un logro que sigue siendo relevante hoy."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "So far we have achieved all our goals.",
+        "answer": "Hasta ahora hemos cumplido todas nuestras metas.",
+        "altAnswers": [
+          "Hasta ahora hemos cumplido todas las metas.",
+          "Hemos cumplido todas nuestras metas hasta ahora.",
+          "Hasta ahora hemos alcanzado todas nuestras metas.",
+          "Hasta ahora hemos logrado todas nuestras metas.",
+          "Hasta ahora hemos cumplido todos nuestros objetivos.",
+          "Hasta ahora hemos logrado todos nuestros objetivos.",
+          "Hasta ahora hemos alcanzado todos nuestros objetivos."
+        ],
+        "explanation": "«Hasta ahora» llega al presente, por eso pretérito perfecto; «cumplir una meta» = achieve a goal."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Mi hermano por fin se ___ a saltar en paracaídas.",
+        "answer": "ha atrevido",
+        "en": "My brother [has] finally [dared] to go skydiving.",
+        "explanation": "Atreverse a: el «se» va delante de haber (se ha atrevido)."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Hasta la fecha, la empresa nunca ___.",
+        "answer": "ha fracasado",
+        "en": "To date, the company [has] never [failed].",
+        "explanation": "«Hasta la fecha» = hasta hoy: pretérito perfecto; fracasar → fracasado."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "This year I've tried a lot of new things.",
+        "answer": "Este año he probado muchas cosas nuevas.",
+        "altAnswers": [
+          "He probado muchas cosas nuevas este año."
+        ],
+        "explanation": "«Probar algo nuevo» en un periodo abierto (este año): he probado."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Ha aprovechado de todas las oportunidades.",
+        "answer": "Ha aprovechado todas las oportunidades.",
+        "altAnswers": [
+          "Ha aprovechado cada oportunidad.",
+          "Ella ha aprovechado todas las oportunidades."
+        ],
+        "explanation": "Aprovechar es transitivo: el objeto va directo, sin «de». (Solo la forma pronominal lleva de: aprovecharse de alguien.)"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«___ he visto algo tan sorprendente.» (never, enfático)",
+        "options": [
+          "Jamás",
+          "Alguna vez",
+          "Hasta ahora",
+          "Varias veces"
+        ],
+        "correctIndex": 0,
+        "explanation": "Jamás es la forma enfática de nunca y va delante del verbo sin «no». Alguna vez significa «ever», hasta ahora «so far» y varias veces «several times»: ninguna niega."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "Mudarse",
+          "de",
+          "país",
+          "ha",
+          "sido",
+          "una",
+          "experiencia",
+          "inolvidable"
+        ],
+        "translation": "Moving to another country has been an unforgettable experience",
+        "explanation": "El infinitivo «mudarse de país» es el sujeto: ha sido (singular)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "We have failed many times, but we have always picked ourselves back up.",
+        "answer": "Hemos fracasado muchas veces, pero siempre nos hemos levantado.",
+        "altAnswers": [
+          "Hemos fracasado muchas veces, pero nos hemos levantado siempre."
+        ],
+        "explanation": "Levantarse después de caer: el «nos» va antes de hemos, nunca «hemos nos levantado»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia al pretérito perfecto.",
+        "source": "Mi hermana se titula en Medicina.",
+        "answer": "Mi hermana se ha titulado en Medicina.",
+        "altAnswers": [
+          "Mi hermana ya se ha titulado en Medicina."
+        ],
+        "explanation": "Titularse es pronominal: se + ha + titulado. El se no se mueve de delante de haber."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Forma el sustantivo de «esforzarse», como fracasar → fracaso.",
+        "sentence": "Aprender un idioma exige mucho ___.",
+        "answer": "esfuerzo",
+        "explanation": "Como fracasar → fracaso o lograr → logro, el sustantivo es la raíz con -o: esforzar → esfuerzo (con el mismo cambio o → ue de «me esfuerzo»)."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Forma un adjetivo con in-…-ble a partir de «repetir».",
+        "sentence": "Fue una noche única e ___.",
+        "answer": "irrepetible",
+        "explanation": "Delante de r, el prefijo in- se escribe ir-: ir + repet + -ible = «que no se puede repetir». Es el mismo patrón que inolvidable."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué sustantivo viene de «conocer» (como descubrir → descubrimiento)?",
+        "options": [
+          "conocimiento",
+          "conocencia",
+          "conoción",
+          "conocimento"
+        ],
+        "correctIndex": 0,
+        "explanation": "Conocer sigue el patrón -miento: conocimiento. «Conocencia» y «conoción» no existen, y «conocimento» pierde la i de -imiento."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia el sujeto a nosotros.",
+        "source": "Mi hermano se ha mudado de país dos veces.",
+        "answer": "Nos hemos mudado de país dos veces.",
+        "altAnswers": [
+          "Nosotros nos hemos mudado de país dos veces."
+        ],
+        "explanation": "Cambian el pronombre y haber juntos: nosotros → nos hemos. El participio no cambia."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Todavía no he titulado.",
+        "answer": "Todavía no me he titulado.",
+        "altAnswers": [
+          "Aún no me he titulado."
+        ],
+        "explanation": "Titularse necesita su pronombre: me he titulado. «He titulado» significaría que has puesto título a algo."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Qué expresiones piden aquí pretérito perfecto porque llegan hasta el presente?",
+        "options": [
+          "hasta ahora",
+          "hasta la fecha",
+          "en 2010",
+          "hace tres años"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Hasta ahora y hasta la fecha abarcan un periodo que termina hoy: pretérito perfecto. En 2010 y hace tres años sitúan la acción en un momento cerrado y piden indefinido."
+      },
+      {
+        "type": "speak",
+        "prompt": "Responde en voz alta: ¿cuál ha sido el mayor logro de tu vida hasta ahora?",
+        "text": "Hasta ahora, mi mayor logro ha sido aprender a hablar español.",
+        "explanation": "Hasta ahora → pretérito perfecto: ha sido. El logro es el sujeto, por eso ha (singular)."
+      },
+      {
+        "type": "speak",
+        "prompt": "Responde en voz alta: cuenta un miedo que has superado y cómo te sientes ahora.",
+        "text": "He superado mi miedo a hablar en público y ahora me siento muy agradecida.",
+        "explanation": "Superar un miedo con pretérito perfecto, porque el resultado importa hoy. Agradecido / agradecida concuerda con quien habla."
       }
     ]
   },
@@ -3759,6 +5700,38 @@ const B1_BASE_LESSONS: Lesson[] = [
     "summary": "Describe what had already happened before another moment in the past.",
     "duration": "6 min",
     "sections": [
+      {
+        "heading": "La idea: el pasado del pasado",
+        "body": [
+          "Regla: cuando cuentas algo en pasado y quieres decir que otra acción ya había terminado antes de ese momento, usas el pluscuamperfecto: imperfecto de haber (había, habías, había, habíamos, habíais, habían) + participio. Cuando llegué a la estación, el tren ya había salido.",
+          "¿Por qué no basta el indefinido? Porque dos indefinidos seguidos se entienden en orden: «Cuando llegué, el tren salió» significa que el tren salió después de que tú llegaras (lo viste salir). El pluscuamperfecto mueve la acción hacia atrás: ya había salido = salió antes y no lo viste.",
+          "Tampoco sirve el pretérito perfecto (ha salido): el perfecto se conecta con el presente, y aquí el punto de referencia es un momento pasado (llegué). Palabras como ya, todavía no, nunca y antes suelen acompañarlo."
+        ],
+        "examples": [
+          {
+            "es": "Cuando llegué, el tren salió.",
+            "en": "When I arrived, the train left. (I arrived first, then it left)"
+          },
+          {
+            "es": "Cuando llegué, el tren ya había salido.",
+            "en": "When I arrived, the train had already left. (it left first)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Ana entró en el cine a las nueve y diez. La película empezó a las nueve. ¿Qué frase lo cuenta bien?",
+            "options": [
+              "Cuando Ana entró, la película ya había empezado.",
+              "Cuando Ana entró, la película empezó.",
+              "Cuando Ana entró, la película ya ha empezado.",
+              "Cuando Ana había entrado, la película empezaba."
+            ],
+            "correctIndex": 0,
+            "explanation": "La película empezó antes de que Ana entrara, así que esa acción va en pluscuamperfecto: ya había empezado. «Empezó» diría que empezó justo después, «ha empezado» se conecta con el presente y la última opción pone el pluscuamperfecto en la acción que ocurrió después."
+          }
+        ]
+      },
       {
         "heading": "Formación: haber (imperfecto) + participio",
         "body": [
@@ -3942,12 +5915,62 @@ const B1_BASE_LESSONS: Lesson[] = [
     "number": 17,
     "title": "Past Perfect: Pluscuamperfecto, Part 2 of 2",
     "summary": "Learn 50 words for news and events to narrate sequences with the pluperfect.",
-    "duration": "6 min",
+    "duration": "7 min",
     "sections": [
+      {
+        "heading": "La idea: las noticias miran hacia atrás",
+        "body": [
+          "Una noticia cuenta un hecho en indefinido (la policía evacuó el edificio) y enseguida explica lo que había pasado antes: la causa, los antecedentes. Eso va en pluscuamperfecto (imperfecto de haber + participio), porque es anterior a otro momento pasado.",
+          "Segunda idea: muchos sustantivos de las noticias salen de un verbo. -ar/-er/-ir → -ción o -sión (informar → la información, como inform → information); a veces basta quitar la terminación y poner -o / -a (anunciar → el anuncio, protestar → la protesta). Si conoces el verbo, puedes adivinar el sustantivo."
+        ],
+        "examples": [
+          {
+            "es": "La policía evacuó el edificio porque había recibido un aviso.",
+            "en": "The police evacuated the building because they had received a warning. (evacuó = el hecho; había recibido = lo de antes)"
+          },
+          {
+            "es": "El periódico rectificó: había publicado un rumor falso.",
+            "en": "The newspaper retracted: it had published a false rumor."
+          },
+          {
+            "es": "Nunca antes había votado tanta gente en unas elecciones.",
+            "en": "Never before had so many people voted in an election. (nunca antes = pista del pluscuamperfecto)"
+          },
+          {
+            "es": "investigar → la investigación; donar → la donación",
+            "en": "to investigate → investigation; to donate → donation (-ción = -tion)"
+          },
+          {
+            "es": "anunciar → el anuncio; protestar → la protesta",
+            "en": "to announce → announcement; to protest → protest (verbo sin -ar + -o / -a)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el sustantivo.",
+            "sentence": "negociar → la ___",
+            "answer": "negociación",
+            "explanation": "Verbo en -ar → sustantivo en -ción, como investigar → investigación. Es femenino, como todos los sustantivos en -ción."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«El ministro dimitió porque ___ un escándalo.» (estallar — antes)",
+            "options": [
+              "había estallado",
+              "estalló",
+              "estallaba",
+              "ha estallado"
+            ],
+            "correctIndex": 0,
+            "explanation": "El escándalo es la causa y ocurrió antes de la dimisión: pluscuamperfecto. «Estalló» lo colocaría después o al mismo nivel, «estallaba» es fondo y «ha estallado» se liga al presente."
+          }
+        ]
+      },
       {
         "heading": "Vocabulario: Noticias y sucesos",
         "body": [
-          "Cincuenta palabras para hablar de noticias y eventos — útiles para narrar secuencias con el pluscuamperfecto."
+          "Cincuenta palabras para hablar de noticias y sucesos. Fíjate en las parejas verbo + sustantivo (anunciar / el anuncio, donar / la donación, protestar / la protesta, elegir / la elección): aprender una te da la otra."
         ],
         "examples": [
           {
@@ -4231,7 +6254,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "a",
           "llover."
         ],
-        "explanation": "Pluscuamperfecto para la acción anterior; pretérito para la interrupción.",
+        "explanation": "Salir es la acción anterior (habíamos salido, pluscuamperfecto); empezar a llover es el momento de referencia (empezó, indefinido).",
         "translation": "We had already left when it started to rain."
       },
       {
@@ -4245,6 +6268,68 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "El pluscuamperfecto usa el imperfecto de haber + participio: había, habías, había… comido. Con el presente de haber se forma el pretérito perfecto (he comido), con el futuro el futuro perfecto y con el condicional el condicional perfecto."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué sustantivo corresponde a investigar?",
+        "options": [
+          "la investigación",
+          "el investigo",
+          "la investiga",
+          "el investigamiento"
+        ],
+        "correctIndex": 0,
+        "explanation": "Los verbos en -ar como investigar forman el sustantivo en -ción: la investigación. Las otras formas no existen."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa con el sustantivo del verbo entre paréntesis.",
+        "sentence": "El terremoto causó una gran ___ en el centro de la ciudad. (destruir)",
+        "answer": "destrucción",
+        "explanation": "Destruir → la destrucción: el sufijo -ción convierte la acción en sustantivo, como construir → construcción."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe en una sola frase con «porque».",
+        "source": "Los vecinos protestaron. Antes, el ayuntamiento cerró el parque.",
+        "answer": "Los vecinos protestaron porque el ayuntamiento había cerrado el parque.",
+        "altAnswers": [
+          "Los vecinos protestaron porque el ayuntamiento ya había cerrado el parque."
+        ],
+        "explanation": "El cierre es la causa y ocurrió antes de la protesta: pasa al pluscuamperfecto (había cerrado) y protestaron sigue en indefinido."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma: usa el verbo en lugar del sustantivo y empieza por «Cuando llegaron los bomberos».",
+        "source": "Tras la evacuación del edificio, llegaron los bomberos.",
+        "answer": "Cuando llegaron los bomberos, ya habían evacuado el edificio.",
+        "altAnswers": [
+          "Cuando llegaron los bomberos, el edificio ya había sido evacuado.",
+          "Cuando los bomberos llegaron, ya habían evacuado el edificio.",
+          "Cuando llegaron los bomberos, ya se había evacuado el edificio."
+        ],
+        "explanation": "La evacuación es anterior a la llegada: el sustantivo evacuación vuelve a ser verbo en pluscuamperfecto (habían evacuado), y llegaron sigue en indefinido."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "El candidato perdió las elecciones porque ha mentido en el debate.",
+        "answer": "El candidato perdió las elecciones porque había mentido en el debate.",
+        "explanation": "La mentira ocurrió antes de perder, en una historia pasada: pluscuamperfecto (había mentido). El pretérito perfecto (ha mentido) se liga al presente."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Miles de personas participaron en la protestación.",
+        "answer": "Miles de personas participaron en la protesta.",
+        "altAnswers": [
+          "Miles de personas participaron en la manifestación."
+        ],
+        "explanation": "Protestar forma el sustantivo quitando -ar y añadiendo -a: la protesta. «Protestación» no existe; no todos los verbos usan -ción."
       }
     ]
   },
@@ -4254,21 +6339,30 @@ const B1_BASE_LESSONS: Lesson[] = [
     "number": 18,
     "title": "Relative Pronouns: Que, Quien, El Que, Lo Que, Part 1 of 2",
     "summary": "Combine two ideas into one elegant sentence with que, quien, el que/la que, and lo que.",
-    "duration": "6 min",
+    "duration": "7 min",
     "sections": [
       {
-        "heading": "Que: el pronombre relativo universal",
+        "heading": "La idea: el relativo es un puente que nunca desaparece",
         "body": [
-          "\"Que\" se refiere a personas o cosas y es, por mucho, el pronombre relativo más común. Conecta una cláusula con información adicional sobre el sustantivo anterior."
+          "Un pronombre relativo une dos frases y evita repetir un sustantivo: Compré un libro + El libro es excelente → El libro que compré es excelente. En inglés el puente puede desaparecer (the book I bought); en español nunca: siempre hace falta que.",
+          "Para elegir el relativo, hazte tres preguntas. 1) ¿Hay un sustantivo antes? Si no lo hay y hablas de una idea, lo que. 2) ¿Hay preposición (con, de, en, por, a)? Sin preposición, que sirve para personas y cosas. 3) Con preposición: el que / la que / los que / las que (concuerdan con el sustantivo) o, solo para personas, quien / quienes."
         ],
         "examples": [
           {
             "es": "El libro que compré es excelente.",
-            "en": "The book (that) I bought is excellent."
+            "en": "The book (that) I bought is excellent. (cosa, sin preposición: que, nunca se omite)"
           },
           {
             "es": "La mujer que trabaja aquí es mi tía.",
-            "en": "The woman who works here is my aunt."
+            "en": "The woman who works here is my aunt. (persona, sin preposición: también que)"
+          },
+          {
+            "es": "Los amigos con los que viajé son de Perú.",
+            "en": "The friends I travelled with are from Peru. (con preposición: los que, concuerda con amigos)"
+          },
+          {
+            "es": "No entiendo lo que dices.",
+            "en": "I don't understand what you're saying. (sin sustantivo, una idea: lo que)"
           }
         ],
         "checkpoint": [
@@ -4277,14 +6371,27 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con el pronombre correcto.",
             "sentence": "Esta es la casa ___ compramos el año pasado.",
             "answer": "que",
-            "explanation": "\"Que\" conecta la cláusula con \"la casa\", el sustantivo anterior."
+            "explanation": "La casa es una cosa y no hay preposición: que. En inglés podrías decir «the house we bought» sin relativo, pero en español el que es obligatorio."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«The film we watched was boring.»",
+            "options": [
+              "La película que vimos era aburrida.",
+              "La película vimos era aburrida.",
+              "La película quien vimos era aburrida.",
+              "La película lo que vimos era aburrida."
+            ],
+            "correctIndex": 0,
+            "explanation": "Película es una cosa y no hay preposición: que. Omitir el relativo es un calco del inglés, quien es solo para personas y lo que no va detrás de un sustantivo."
           }
         ]
       },
       {
         "heading": "Quien / quienes",
         "body": [
-          "\"Quien\" (singular) y \"quienes\" (plural) se refieren solo a personas, y se usan típicamente después de una preposición o entre comas."
+          "Quien (singular) y quienes (plural) se refieren solo a personas. Se usan sobre todo después de una preposición (con quien, a quien, para quienes) o entre comas. Sin preposición y sin comas se dice que: «la chica que conocí», no «la chica quien conocí».",
+          "¿Por qué? Quien lleva la idea de persona dentro, así que es útil cuando una preposición lo separa del sustantivo; en el resto de casos, el que universal basta."
         ],
         "examples": [
           {
@@ -4294,6 +6401,10 @@ const B1_BASE_LESSONS: Lesson[] = [
           {
             "es": "La persona con quien hablé era muy amable.",
             "en": "The person I spoke with was very kind."
+          },
+          {
+            "es": "Los vecinos para quienes cocino son muy agradecidos.",
+            "en": "The neighbours I cook for are very grateful. (plural: quienes)"
           }
         ],
         "checkpoint": [
@@ -4314,7 +6425,8 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El que / la que / los que / las que",
         "body": [
-          "Estas formas concuerdan en género y número con el sustantivo, y son útiles para dar énfasis o evitar ambigüedad, especialmente después de preposiciones."
+          "El que, la que, los que y las que concuerdan en género y número con el sustantivo al que se refieren. Son la opción normal después de una preposición, para personas y para cosas: la casa en la que vivo, el tema del que hablamos (de + el = del).",
+          "Sin sustantivo delante equivalen a «the one(s) that»: De estos libros, los que están en la mesa son míos. El artículo dice de qué sustantivo hablas aunque no lo repitas."
         ],
         "examples": [
           {
@@ -4332,15 +6444,18 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración.",
             "sentence": "Esa es la razón por ___ me fui.",
             "answer": "la que",
-            "altAnswers": ["la cual"],
-            "explanation": "\"Por la que\" concuerda con \"razón\", femenino singular."
+            "altAnswers": [
+              "la cual"
+            ],
+            "explanation": "Tras la preposición por va artículo + que, y el artículo concuerda con razón (femenino singular): por la que. «Por que» sin artículo no funciona aquí."
           }
         ]
       },
       {
         "heading": "Lo que: ideas, no sustantivos específicos",
         "body": [
-          "\"Lo que\" se refiere a una idea abstracta o a algo no mencionado directamente — equivale a \"what\" o \"that which\" en inglés."
+          "Lo que se refiere a una idea, una situación o algo que no se nombra: equivale a «what» o «the thing that». Lo es neutro porque no hay un sustantivo con género con el que concordar.",
+          "Pista: si en inglés dices «what» en mitad de una frase afirmativa (I don't know what happened), en español es lo que. Si delante hay un sustantivo (el libro, la mujer), no puede ir lo que."
         ],
         "examples": [
           {
@@ -4373,7 +6488,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "En la práctica",
         "body": [
-          "Una descripción de un vecindario, usando varios pronombres relativos."
+          "Una descripción de un vecindario, usando varios pronombres relativos. Fíjate en por qué cada uno es el adecuado: preposición, persona entre comas, idea."
         ],
         "examples": [
           {
@@ -4415,7 +6530,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con el pronombre correcto.",
         "sentence": "El restaurante ___ recomendaste está cerrado hoy.",
         "answer": "que",
-        "explanation": "\"Que\" conecta con \"restaurante\", el sustantivo anterior."
+        "explanation": "Restaurante es una cosa y no hay preposición: que, el relativo universal. No se puede omitir como en inglés (the restaurant you recommended)."
       },
       {
         "type": "multiple-choice",
@@ -4434,7 +6549,23 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración.",
         "sentence": "___ me sorprende es su generosidad.",
         "answer": "Lo que",
-        "explanation": "\"Lo que\" introduce una idea abstracta, no un sustantivo específico."
+        "explanation": "No hay sustantivo delante: lo que te sorprende es una idea, no una cosa nombrada. Por eso lo que, no «que» ni «el que»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe en una sola frase con un relativo.",
+        "source": "Tengo una amiga. Mi amiga habla cinco idiomas.",
+        "answer": "Tengo una amiga que habla cinco idiomas.",
+        "explanation": "El relativo que sustituye al sustantivo repetido (mi amiga) y une las dos frases. Persona sin preposición: que, no quien."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "La profesora quien me ayudó se llama Marta.",
+        "answer": "La profesora que me ayudó se llama Marta.",
+        "explanation": "Sin preposición y sin comas, también para personas se usa que. Quien necesita una preposición (con quien) o comas."
       }
     ]
   },
@@ -4447,9 +6578,60 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
+        "heading": "La idea: los lugares se describen con relativos",
+        "body": [
+          "Para describir un lugar, el relativo copia la preposición del verbo: vivo en una avenida → la avenida en la que vivo; voy a un gimnasio → el gimnasio al que voy (a + el = al); salí de una estación → la estación de la que salí. El artículo concuerda con el lugar (el parque → en el que, las calles → por las que).",
+          "Con en + lugar también puedes usar donde: la plaza donde nos conocimos = la plaza en la que nos conocimos. Sin preposición, que de siempre: el parque que está enfrente."
+        ],
+        "examples": [
+          {
+            "es": "El barrio en el que vivo es muy tranquilo.",
+            "en": "The neighbourhood I live in is very quiet. (vivir en → en el que)"
+          },
+          {
+            "es": "La plaza donde quedamos está en el centro.",
+            "en": "The square where we're meeting is in the centre. (donde = en la que)"
+          },
+          {
+            "es": "El mercado al que voy los sábados es enorme.",
+            "en": "The market I go to on Saturdays is huge. (ir a → al que)"
+          },
+          {
+            "es": "Las calles por las que pasamos estaban vacías.",
+            "en": "The streets we went along were empty. (por + las que, concuerda con calles)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con preposición + relativo.",
+            "sentence": "El hospital ___ trabaja mi madre está en las afueras.",
+            "answer": "en el que",
+            "altAnswers": [
+              "donde",
+              "en que",
+              "en el cual"
+            ],
+            "explanation": "Mi madre trabaja en el hospital: la preposición en va delante y el artículo concuerda con hospital (en el que). También vale donde."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«La estación ___ salimos estaba llena de gente.»",
+            "options": [
+              "de la que",
+              "que",
+              "en la que",
+              "a la que"
+            ],
+            "correctIndex": 0,
+            "explanation": "Se sale de un sitio: salir de → de la que, en femenino por estación. «Que» pierde la preposición, y en o a cambian el sentido (estar en, ir a)."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: La ciudad y las direcciones",
         "body": [
-          "Cincuenta palabras para describir lugares y dar indicaciones — terreno natural para los pronombres relativos."
+          "Cincuenta palabras para describir lugares y dar indicaciones. Fíjate en las que llevan preposición fija (cerca de, al lado de, enfrente de, mudarse a): esa preposición es la que aparecerá delante del relativo."
         ],
         "examples": [
           {
@@ -4718,7 +6900,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "\"Que\" y \"lo que\" pueden referirse a cosas; quien/quienes son exclusivos para personas."
+        "explanation": "Quien y quienes llevan la idea de persona y solo se refieren a personas. «Que» sirve para personas y cosas, y «lo que» se refiere a ideas."
       },
       {
         "type": "word-order",
@@ -4733,7 +6915,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "es",
           "pequeña"
         ],
-        "explanation": "El pronombre relativo va después de la preposición.",
+        "explanation": "Nací en la ciudad: la preposición en va delante del relativo y el artículo concuerda con ciudad (en la que). El verbo principal (es) va al final.",
         "translation": "The city where I was born is small."
       },
       {
@@ -4747,6 +6929,41 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 3,
         "explanation": "El artículo concuerda con el antecedente: «las razones» es femenino plural, así que se usa «las que». «El que», «la que» y «los que» no concuerdan en género o número."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Reescribe en una sola frase con preposición + relativo.",
+        "source": "Voy a un gimnasio. El gimnasio está al lado del ayuntamiento.",
+        "answer": "El gimnasio al que voy está al lado del ayuntamiento.",
+        "altAnswers": [
+          "El gimnasio al cual voy está al lado del ayuntamiento."
+        ],
+        "explanation": "Ir a → a + el que = al que. La preposición del verbo pasa delante del relativo, y el gimnasio pasa al principio."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "La calle que vivo tiene mucho tráfico.",
+        "answer": "La calle en la que vivo tiene mucho tráfico.",
+        "altAnswers": [
+          "La calle donde vivo tiene mucho tráfico.",
+          "La calle en que vivo tiene mucho tráfico."
+        ],
+        "explanation": "Se vive en una calle: falta la preposición. La calle en la que vivo (o donde vivo)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «la plaza» por «el parque» y adapta la frase.",
+        "source": "La plaza en la que juegan los niños es muy segura.",
+        "answer": "El parque en el que juegan los niños es muy seguro.",
+        "altAnswers": [
+          "El parque donde juegan los niños es muy seguro.",
+          "El parque en que juegan los niños es muy seguro."
+        ],
+        "explanation": "El artículo del relativo concuerda con el nuevo lugar (el parque → en el que), y el adjetivo también: seguro."
       }
     ]
   },
@@ -5024,8 +7241,8 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La voz pasiva con ser",
         "body": [
-          "Ser + participio pasado + por (agente) forma la voz pasiva formal: el objeto de la acción se convierte en el sujeto de la oración.",
-          "El participio concuerda en género y número con el sujeto."
+          "La idea: en la pasiva, lo que recibe la acción pasa a ser el sujeto de la frase. Se forma con ser + participio, y con por + agente si quieres decir quién lo hizo.",
+          "¿Por qué concuerda el participio? Porque funciona como un adjetivo que describe al sujeto: la novela fue escrita, los documentos fueron firmados. Es la pasiva de los libros de historia, las noticias y los textos formales; en la conversación se prefiere el se pasivo."
         ],
         "examples": [
           {
@@ -5035,6 +7252,10 @@ const B1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Los documentos fueron firmados ayer.",
             "en": "The documents were signed yesterday."
+          },
+          {
+            "es": "Las entradas fueron vendidas en una hora.",
+            "en": "The tickets were sold in an hour. (vendidas: femenino plural, como «entradas»)"
           }
         ],
         "checkpoint": [
@@ -5044,13 +7265,22 @@ const B1_BASE_LESSONS: Lesson[] = [
             "sentence": "El edificio ___ (construir) en 1920.",
             "answer": "fue construido",
             "explanation": "Ser (fue) más el participio de construir (construido), concordando con \"el edificio\", masculino singular."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Pasa a la voz pasiva con ser.",
+            "source": "Los bomberos apagaron el fuego.",
+            "answer": "El fuego fue apagado por los bomberos.",
+            "explanation": "El objeto (el fuego) pasa a sujeto; «apagaron» (indefinido) → «fue apagado», con el participio en masculino singular como «el fuego»; quien lo hizo va con «por»."
           }
         ]
       },
       {
         "heading": "El se pasivo",
         "body": [
-          "En español hablado, la voz pasiva con ser es poco común. En su lugar, se usa \"se\" + verbo en tercera persona, concordando con el sustantivo."
+          "En español hablado, la voz pasiva con ser es poco común. En su lugar, se usa \"se\" + verbo en tercera persona, concordando con el sustantivo.",
+          "¿Por qué concuerda el verbo con el sustantivo? Porque el sustantivo es el sujeto gramatical: «se venden casas» = las casas se venden. Por eso el verbo va en singular o en plural según el sustantivo, nunca según quien hace la acción, que no se menciona."
         ],
         "examples": [
           {
@@ -5074,13 +7304,21 @@ const B1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "En el se pasivo el verbo concuerda con lo que se vende: libros (plural) → se venden. «Se vende libros» no concuerda, «se vendes» usa la persona tú y «son vendidos» es una pasiva que casi no se usa así."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con el se pasivo.",
+            "sentence": "En esta tienda se ___ (arreglar) bicicletas.",
+            "answer": "arreglan",
+            "explanation": "«Bicicletas» es el sujeto y es plural, así que el verbo va en plural: se arreglan. «Se arregla» solo valdría con un sustantivo singular (se arregla una bicicleta)."
           }
         ]
       },
       {
         "heading": "El se impersonal",
         "body": [
-          "Cuando no hay un sujeto claro y la acción es general, se usa \"se\" + verbo en tercera persona singular, sin importar el número: equivale a \"you/one/people\" en inglés."
+          "Cuando no hay un sujeto claro y la acción es general, se usa \"se\" + verbo en tercera persona singular, sin importar el número: equivale a \"you/one/people\" en inglés.",
+          "¿Por qué siempre en singular? Porque no hay un sujeto con el que concordar: el «se» deja a la persona sin nombrar (you, people, one), y el verbo se queda en la forma neutra, la tercera persona singular."
         ],
         "examples": [
           {
@@ -5098,7 +7336,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración.",
             "sentence": "___ (poder) pagar con tarjeta o en efectivo.",
             "answer": "Se puede",
-            "explanation": "El se impersonal usa la tercera persona singular: se puede."
+            "explanation": "No hay un sustantivo sujeto («pagar» es un infinitivo), así que el verbo va en tercera persona singular: se puede. «Se pueden» solo es posible con un sustantivo plural."
           }
         ]
       },
@@ -5131,7 +7369,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "\"Se necesitan voluntarios\" y \"se venden boletos\" son se pasivo (concuerdan con el sustantivo plural)."
+            "explanation": "«Se trabaja mucho» y «Se dice que…» no tienen un sustantivo sujeto: son se impersonal y van en singular. «Se necesitan voluntarios» y «Se venden boletos» son se pasivo: el verbo concuerda con el sustantivo plural."
           }
         ]
       },
@@ -5180,7 +7418,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa en voz pasiva.",
         "sentence": "La carta ___ (enviar) ayer.",
         "answer": "fue enviada",
-        "explanation": "Ser (fue) más el participio de enviar (enviada), concordando con \"la carta\"."
+        "explanation": "Pasiva con ser: fue + participio, que concuerda con «la carta» (femenino singular): fue enviada. «Fue enviado» no concordaría con el sujeto."
       },
       {
         "type": "multiple-choice",
@@ -5199,7 +7437,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración.",
         "sentence": "___ (prohibir) estacionar aquí.",
         "answer": "Se prohíbe",
-        "explanation": "El se impersonal usa la tercera persona singular: se prohíbe."
+        "explanation": "Lo prohibido es una acción (estacionar, un infinitivo), no un sustantivo: no hay nada con lo que concordar y el verbo va en singular, se prohíbe. Con un sustantivo plural sería «se prohíben los perros»."
       }
     ]
   },
@@ -5209,12 +7447,59 @@ const B1_BASE_LESSONS: Lesson[] = [
     "number": 22,
     "title": "Passive Voice & Impersonal Se, Part 2 of 2",
     "summary": "Learn 50 business words and use them with passive se, impersonal se and ser + participle in ads and reports.",
-    "duration": "7 min",
+    "duration": "8 min",
     "sections": [
+      {
+        "heading": "La idea: ¿importa quién lo hizo?",
+        "body": [
+          "Recuerda la regla de la parte 1 y añade un criterio para elegir. Si quieres nombrar a quien hace la acción, usa la pasiva con ser + participio + por: la propuesta fue rechazada por la junta. Si no lo sabes o no importa, usa el se pasivo, mucho más frecuente: se rechazó la propuesta. El se pasivo nunca lleva «por + agente».",
+          "¿Por qué? El se existe justo para borrar a quien actúa; si lo vuelves a poner con «por», la frase se contradice. Y recuerda: con personas con «a» el verbo queda en singular (se despidió a veinte empleados), porque «a los empleados» no es el sujeto."
+        ],
+        "examples": [
+          {
+            "es": "La empresa fue comprada por un grupo francés.",
+            "en": "The company was bought by a French group. (agente con por → ser + participio)"
+          },
+          {
+            "es": "Se compraron dos empresas más el año pasado.",
+            "en": "Two more companies were bought last year. (sin agente → se, plural por «empresas»)"
+          },
+          {
+            "es": "Se contrató a cinco ingenieros.",
+            "en": "Five engineers were hired. (personas con «a» → singular)"
+          },
+          {
+            "es": "Se cumplirán todos los plazos.",
+            "en": "All deadlines will be met. (el se pasivo funciona en cualquier tiempo)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Quieres decir quién lo hizo: «The factory was closed by the government.»",
+            "options": [
+              "La fábrica fue cerrada por el gobierno.",
+              "Se cerró la fábrica por el gobierno.",
+              "La fábrica fue cerrado por el gobierno.",
+              "Se cerraron la fábrica por el gobierno."
+            ],
+            "correctIndex": 0,
+            "explanation": "Con agente («por el gobierno») se usa la pasiva con ser, y el participio concuerda con «la fábrica»: cerrada. El se pasivo no admite agente, «cerrado» no concuerda, y «se cerraron» además va en plural sin motivo."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa.",
+            "sentence": "Tras la crisis se ___ (despedir, indefinido) a dos directivos.",
+            "answer": "despidió",
+            "explanation": "«A dos directivos» son personas con «a»: no son el sujeto, así que el verbo queda en singular, se despidió. «Se despidieron» es el error de concordar con las personas."
+          }
+        ]
+      },
       {
         "heading": "Vocabulario: Negocios y el trabajo",
         "body": [
-          "Cincuenta palabras del mundo empresarial, comunes en anuncios e informes que usan la voz pasiva y el se impersonal."
+          "Cincuenta palabras del mundo empresarial, comunes en anuncios e informes que usan la voz pasiva y el se impersonal.",
+          "Fíjate en las familias de palabras: muchos sustantivos salen del verbo con terminaciones fijas. -ción / -sión para la acción (negociar → la negociación, expandirse → la expansión), -miento (crecer → el crecimiento) y -dor / -dora para la persona (fundar → el fundador, emplear → el empleador). Con estas terminaciones puedes adivinar palabras que no están en la lista."
         ],
         "examples": [
           {
@@ -5464,7 +7749,19 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "to comply with"
               }
             ],
-            "explanation": "Estas diez palabras aparecen frecuentemente en el mundo de los negocios."
+            "explanation": "Estas palabras aparecen a menudo en el mundo de los negocios. Fíjate en «la negociación» (de negociar, -ción) y «la fusión» (de fusionarse, -sión)."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el patrón fundar → el fundador, ¿cómo se llama la persona que invierte dinero en una empresa?",
+            "options": [
+              "el inversor",
+              "el invertidor",
+              "la inversión",
+              "el invertido"
+            ],
+            "correctIndex": 0,
+            "explanation": "La persona que hace la acción lleva -dor / -sor: invertir → el inversor (también «inversionista» en América). «La inversión» es la acción, no la persona; «invertidor» e «invertido» no se usan con este sentido."
           }
         ]
       }
@@ -5496,7 +7793,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "en",
           "1930"
         ],
-        "explanation": "Ser + participio + por (agente, opcional) forma la voz pasiva.",
+        "explanation": "Pasiva con ser: fue + participio, que concuerda con «el puente» (masculino singular): construido. Aquí no se dice quién lo construyó; con agente se añadiría «por…».",
         "translation": "The bridge was built in 1930."
       },
       {
@@ -5510,6 +7807,103 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "En el se pasivo el verbo concuerda con el sustantivo que recibe la acción: se vende una casa / se venden casas. No está siempre en singular (eso es el se impersonal) ni concuerda con la persona que habla."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Aplica el patrón -miento.",
+        "sentence": "El ___ del nuevo producto será en marzo. (lanzar)",
+        "answer": "lanzamiento",
+        "explanation": "Como crecer → el crecimiento, lanzar → el lanzamiento: -miento forma el sustantivo de la acción."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Aplica el patrón -ción.",
+        "sentence": "La ___ de la fábrica ha aumentado un diez por ciento. (producir)",
+        "answer": "producción",
+        "explanation": "Los verbos en -ducir forman el sustantivo en -ducción: producir → la producción (como reducir → la reducción). Es femenino, como todos los sustantivos en -ción."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es el sustantivo de «contratar», siguiendo el patrón de «negociar → la negociación»?",
+        "options": [
+          "la contratación",
+          "el contratamiento",
+          "la contratura",
+          "el contratismo"
+        ],
+        "correctIndex": 0,
+        "explanation": "-ar → -ación: negociar → negociación, contratar → contratación. «Contratamiento» y «contratismo» no existen, y «la contractura» es otra cosa (un músculo tenso)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Pasa a la pasiva con se.",
+        "source": "La junta directiva aprobó la propuesta.",
+        "answer": "Se aprobó la propuesta.",
+        "altAnswers": [
+          "La propuesta se aprobó."
+        ],
+        "explanation": "Con se desaparece quien lo hace (la junta directiva); el verbo mantiene el tiempo (indefinido) y concuerda con «la propuesta»: se aprobó."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Pasa a la pasiva con ser.",
+        "source": "El director presentó los informes.",
+        "answer": "Los informes fueron presentados por el director.",
+        "explanation": "Los informes pasan a sujeto: «presentó» → «fueron presentados» (indefinido, plural masculino como «informes»), y quien lo hizo va con «por»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «a un ingeniero» por «a tres ingenieros».",
+        "source": "Se contrató a un ingeniero.",
+        "answer": "Se contrató a tres ingenieros.",
+        "explanation": "Las personas con «a» no son el sujeto, así que el verbo no cambia aunque pasen al plural: se contrató."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Se contrataron a cinco empleados nuevos.",
+        "answer": "Se contrató a cinco empleados nuevos.",
+        "explanation": "Con personas introducidas por «a» el se es impersonal y el verbo va en singular: se contrató. El plural solo es posible con cosas (se firmaron los contratos)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "La sucursal fue abierto en 2010.",
+        "answer": "La sucursal fue abierta en 2010.",
+        "explanation": "En la pasiva con ser el participio concuerda con el sujeto: «la sucursal» es femenino singular, así que abierta."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Ayer se firmó los contratos.",
+        "answer": "Ayer se firmaron los contratos.",
+        "altAnswers": [
+          "Los contratos se firmaron ayer."
+        ],
+        "explanation": "Con cosas, el se pasivo concuerda con ellas: «los contratos» es plural, así que se firmaron."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Se rechazó la propuesta por los socios.",
+        "answer": "La propuesta fue rechazada por los socios.",
+        "altAnswers": [
+          "Los socios rechazaron la propuesta."
+        ],
+        "explanation": "El se pasivo no admite agente. Si nombras a los socios, usa la pasiva con ser (fue rechazada por) o la activa."
+      },
+      {
+        "type": "speak",
+        "prompt": "Respond aloud: at the meeting, announce that the contract was signed yesterday and that a new branch will be opened in Bogotá. Don't say who did it.",
+        "text": "Ayer se firmó el contrato y se abrirá una nueva sucursal en Bogotá.",
+        "explanation": "Sin agente, el se pasivo: «se firmó» (indefinido, singular por «el contrato») y «se abrirá» (futuro, singular por «una sucursal»)."
       }
     ]
   },
@@ -5519,17 +7913,18 @@ const B1_BASE_LESSONS: Lesson[] = [
     "number": 23,
     "title": "Pronombres de Objeto Combinados, Part 1 of 2",
     "summary": "Combina pronombres de objeto indirecto y directo en la misma oración, incluida la regla clave de le/les → se.",
-    "duration": "6 min",
+    "duration": "7 min",
     "sections": [
       {
         "heading": "El orden: el objeto indirecto siempre va primero",
         "body": [
-          "Cuando una oración lleva a la vez un pronombre de objeto indirecto (me, te, le, nos, os, les) y un pronombre de objeto directo (lo, la, los, las), el objeto indirecto siempre se coloca antes del objeto directo. Este orden es fijo en español y nunca se invierte."
+          "Recuerda la regla: cuando una oración lleva a la vez un pronombre de objeto indirecto (me, te, le, nos, os, les) y uno de objeto directo (lo, la, los, las), el indirecto va siempre primero. Este orden es fijo en español y nunca se invierte: te lo presto, nunca «lo te presto».",
+          "¿Por qué este orden? Piensa primero en la persona (a quién) y después en la cosa (qué): me + lo, nos + las. Los dos pronombres viajan juntos y, con un verbo conjugado, van delante de él: te lo presto, me la dio, nos los compró."
         ],
         "examples": [
           {
             "es": "¿Me prestas tu bolígrafo? —Sí, te lo presto.",
-            "en": "Will you lend me your pen? —Yes, I'll lend it to you."
+            "en": "Will you lend me your pen? —Yes, I'll lend it to you. [te (a ti) + lo (el bolígrafo)]"
           },
           {
             "es": "Necesito la contraseña. ¿Me la puedes dar?",
@@ -5537,7 +7932,11 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Siempre nos cuenta sus historias. Siempre nos las cuenta.",
-            "en": "He always tells us his stories. He always tells them to us."
+            "en": "He always tells us his stories. He always tells them to us. [nos (a nosotros) + las (sus historias)]"
+          },
+          {
+            "es": "¿Las fotos del viaje? Os las enseño ahora mismo.",
+            "en": "The trip photos? I'll show them to you all right now. [os + las, delante del verbo]"
           }
         ],
         "checkpoint": [
@@ -5546,24 +7945,37 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con los pronombres combinados correctos.",
             "sentence": "¿Me traes las llaves? —Sí, ___ traigo ahora mismo.",
             "answer": "te las",
-            "explanation": "El objeto indirecto (te) va antes del objeto directo (las), y juntos preceden al verbo conjugado."
+            "explanation": "El objeto indirecto (te, a ti) va antes del objeto directo (las, las llaves), y juntos van delante del verbo conjugado: te las traigo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "—¿Me enseñas la foto? —Sí, ahora ___ enseño.",
+            "options": [
+              "te la",
+              "la te",
+              "me la",
+              "se la"
+            ],
+            "correctIndex": 0,
+            "explanation": "Quien responde habla contigo: a ti → te, y la foto → la. El indirecto va primero: te la. «La te» invierte el orden, «me la» sería «a mí» y «se la» es para él, ella o usted."
           }
         ]
       },
       {
         "heading": "La regla de oro: le y les se convierten en se",
         "body": [
-          "Cuando el pronombre de objeto indirecto de tercera persona (le o les) se combina con un pronombre de objeto directo que empieza con l- (lo, la, los, las), le/les cambia obligatoriamente a se. Esto evita la combinación imposible 'le lo' o 'les la': nunca digas 'le lo di'; di siempre 'se lo di'.",
-          "Ojo: esta 'se' no tiene relación con los verbos reflexivos ni con el 'se' impersonal. Aquí es simplemente una forma alternativa de le/les."
+          "Cuando el pronombre de objeto indirecto de tercera persona (le o les) se combina con un pronombre de objeto directo que empieza con l- (lo, la, los, las), le/les cambia obligatoriamente a se. Nunca digas «le lo di»; di siempre «se lo di».",
+          "¿Por qué? Dos pronombres seguidos que empiezan por l- (le lo, les la) sonaban mal y el español los sustituyó hace siglos por «se lo», «se la». Por eso «se» no cambia para el plural: les + los → se los; el número lo marca solo el segundo pronombre.",
+          "Ojo: esta «se» no tiene relación con los verbos reflexivos ni con el «se» impersonal. Como puede significar a él, a ella, a usted, a ellos o a ustedes, si hay duda se añade «a + persona»: se lo di a ella."
         ],
         "examples": [
           {
             "es": "¿Le diste la carta a Juan? —Sí, se la di.",
-            "en": "Did you give Juan the letter? —Yes, I gave it to him."
+            "en": "Did you give Juan the letter? —Yes, I gave it to him. [le + la → se la]"
           },
           {
             "es": "¿Les compraste los boletos a tus padres? —Sí, se los compré.",
-            "en": "Did you buy your parents the tickets? —Yes, I bought them for them."
+            "en": "Did you buy your parents the tickets? —Yes, I bought them for them. [les + los → se los: «se» no lleva plural]"
           },
           {
             "es": "Le expliqué el problema a mi jefa. Se lo expliqué con calma.",
@@ -5586,6 +7998,13 @@ const B1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "«Le» delante de lo, la, los, las se convierte en «se»: se lo di. «Le lo» nunca es correcto, «lo le» invierte el orden (indirecto va primero) y «se le» usa dos pronombres indirectos."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con los pronombres combinados.",
+            "sentence": "¿Le devolviste el dinero a tu primo? —Sí, ___ devolví ayer.",
+            "answer": "se lo",
+            "explanation": "A tu primo → le; el dinero → lo. Como «le» va delante de un pronombre en l-, se convierte en «se»: se lo devolví."
           }
         ]
       }
@@ -5608,7 +8027,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con los pronombres combinados.",
         "sentence": "¿Me devuelves mi diccionario? —Sí, ___ devuelvo mañana.",
         "answer": "te lo",
-        "explanation": "El objeto indirecto (te) precede al objeto directo (lo, por 'diccionario'), y ambos van antes del verbo conjugado."
+        "explanation": "Quien responde habla contigo: te (a ti) va antes de lo (el diccionario, masculino singular), y los dos delante del verbo conjugado: te lo devuelvo."
       },
       {
         "type": "translate",
@@ -5633,7 +8052,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "paciencia"
         ],
         "translation": "I explained it (the lesson) to her/him with a lot of patience.",
-        "explanation": "El pronombre combinado 'se la' (le + la) va antes del verbo conjugado 'expliqué'."
+        "explanation": "«Se la» = le + la (a él o a ella + la lección): «le» se convierte en «se» delante de «la», y el pronombre combinado va antes del verbo conjugado «expliqué»."
       }
     ]
   },
@@ -5643,30 +8062,30 @@ const B1_BASE_LESSONS: Lesson[] = [
     "number": 24,
     "title": "Pronombres de Objeto Combinados, Part 2 of 2",
     "summary": "Coloca los pronombres combinados: delante del verbo conjugado o pegados, con tilde, al infinitivo, al gerundio y al mandato afirmativo.",
-    "duration": "7 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "Colocación: antes del verbo o pegados al final",
         "body": [
-          "Los pronombres combinados, igual que los pronombres simples, van inmediatamente antes de un verbo conjugado. Pero cuando el verbo está en infinitivo, gerundio o es un mandato afirmativo, los pronombres se pegan al final, formando una sola palabra.",
-          "Con el infinitivo o el gerundio existe también la opción de colocar los pronombres antes del verbo auxiliar conjugado. Cuando se pegan al final y la palabra resultante queda esdrújula o sobresdrújula (lo normal al pegar dos pronombres: explicártelo, dámelo), se añade una tilde para conservar el acento original del verbo. Con los mandatos negativos, los pronombres nunca se pegan: siempre van antes del verbo."
+          "Recuerda la regla: los pronombres combinados van delante de un verbo conjugado (te lo explico). Con infinitivo, gerundio o mandato afirmativo se pegan al final, formando una sola palabra (explicártelo, explicándotelo, explícamelo). Con un verbo conjugado + infinitivo o gerundio (voy a, puedo, estoy…) hay dos opciones: delante del conjugado o pegados al final, nunca en medio. Con el mandato negativo, siempre delante: no me lo digas.",
+          "¿Por qué la tilde? Al pegar dos sílabas más, el acento del verbo queda en la antepenúltima sílaba o antes (ex-pli-CAR-te-lo, DA-me-lo), y en español esas palabras siempre llevan tilde. La tilde no cambia la pronunciación: solo marca que el acento sigue donde estaba en el verbo solo."
         ],
         "examples": [
           {
             "es": "Te lo voy a explicar. / Voy a explicártelo.",
-            "en": "I'm going to explain it to you."
+            "en": "I'm going to explain it to you. [dos opciones: delante de «voy» o pegados al infinitivo]"
           },
           {
             "es": "Nos las está preparando. / Está preparándonoslas.",
-            "en": "She is preparing them for us."
+            "en": "She is preparing them for us. [gerundio: pegados, con tilde en «prepa-RÁN-do»]"
           },
           {
             "es": "¡Dámelo ahora mismo!",
-            "en": "Give it to me right now!"
+            "en": "Give it to me right now! [mandato afirmativo: siempre pegados]"
           },
           {
             "es": "No me lo digas.",
-            "en": "Don't tell me that."
+            "en": "Don't tell me that. [mandato negativo: siempre delante]"
           }
         ],
         "checkpoint": [
@@ -5675,14 +8094,27 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa transformando el infinitivo con los pronombres pegados.",
             "sentence": "Quiero comprarte un regalo. Quiero ___.",
             "answer": "comprártelo",
-            "explanation": "Con el infinitivo, los pronombres se pegan al final: comprar + te + lo = comprártelo. Se añade una tilde para mantener el acento original en la 'a'."
+            "explanation": "Con el infinitivo, los pronombres se pegan al final: comprar + te + lo = comprártelo. Como el acento queda en la antepenúltima sílaba (com-PRÁR-te-lo), se escribe tilde en la «a»."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál es correcta? (las fotos, a ti)",
+            "options": [
+              "Estoy mandándotelas.",
+              "Estoy te las mandando.",
+              "Estoy mandandotelas.",
+              "No mándamelas."
+            ],
+            "correctIndex": 0,
+            "explanation": "Con estar + gerundio, los pronombres se pegan al gerundio y hace falta tilde: mandándotelas (o delante: te las estoy mandando). Nunca van en medio («estoy te las mandando»), sin tilde está mal escrito y un mandato negativo lleva los pronombres delante (no me las mandes)."
           }
         ]
       },
       {
         "heading": "En la práctica: un diálogo cotidiano",
         "body": [
-          "Lee este diálogo entre Marta y su compañero de piso, Diego. Fíjate en cómo los pronombres combinados sustituyen a los sustantivos ya mencionados para evitar repeticiones. Nota también que cuando alguien pide algo usando 'nos', quien responde usa 'os' porque ahora se dirige directamente a ese grupo."
+          "Lee este diálogo entre Marta y su compañero de piso, Diego. Fíjate en cómo los pronombres combinados sustituyen a los sustantivos ya mencionados para evitar repeticiones, y dónde se colocan: delante del verbo conjugado (te las presté) o pegados al infinitivo (devolvérselo).",
+          "Nota también que cuando alguien pide algo usando «nos», quien responde usa «os», porque ahora se dirige directamente a ese grupo."
         ],
         "examples": [
           {
@@ -5743,7 +8175,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "right": "Sí, se la expliqué."
           }
         ],
-        "explanation": "En cada respuesta, el objeto indirecto precede al objeto directo, y le/les se convierte en se antes de lo/la/los/las."
+        "explanation": "En cada respuesta, el objeto indirecto precede al objeto directo, y le/les se convierte en se antes de lo/la/los/las. En el mandato afirmativo («tráemela») los pronombres se pegan al verbo, con tilde."
       },
       {
         "type": "multi-select",
@@ -5776,7 +8208,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "El mío, el tuyo, el suyo: la forma con artículo",
         "body": [
           "A diferencia de los adjetivos posesivos (mi, tu, su, nuestro, vuestro), que siempre acompañan a un sustantivo, los pronombres posesivos lo sustituyen por completo. Se forman con el artículo definido (el, la, los, las) seguido de la forma larga del posesivo: mío/mía/míos/mías, tuyo/tuya/tuyos/tuyas, suyo/suya/suyos/suyas, nuestro/nuestra/nuestros/nuestras, vuestro/vuestra/vuestros/vuestras.",
-          "El pronombre posesivo concuerda en género y número con lo que se posee, no con la persona que posee. Si un hombre habla de 'su' bicicleta (femenina), el pronombre correcto es 'la suya', no 'el suyo'."
+          "El pronombre posesivo concuerda en género y número con lo que se posee, no con la persona que posee. Si un hombre habla de 'su' bicicleta (femenina), el pronombre correcto es 'la suya', no 'el suyo'.",
+          "¿Por qué? Porque el pronombre ocupa el lugar del sustantivo que ya no dices: «la mía» es «mi bicicleta» sin repetir «bicicleta», así que toma su artículo y su terminación. Para elegir la forma, pregúntate siempre «¿qué cosa?», no «¿de quién?»."
         ],
         "examples": [
           {
@@ -5888,7 +8321,8 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cuidado con el suyo/la suya: aclarando la ambigüedad",
         "body": [
-          "Las formas suyo/suya/suyos/suyas son ambiguas porque pueden significar 'de él', 'de ella', 'de usted', 'de ellos', 'de ellas' o 'de ustedes'. Cuando el contexto no deja claro a quién se refieren, los hispanohablantes prefieren la construcción 'el/la/los/las de + pronombre' (el de él, la de ella, el de ustedes) en lugar del posesivo."
+          "Las formas suyo/suya/suyos/suyas son ambiguas porque pueden significar 'de él', 'de ella', 'de usted', 'de ellos', 'de ellas' o 'de ustedes'. Cuando el contexto no deja claro a quién se refieren, los hispanohablantes prefieren la construcción 'el/la/los/las de + pronombre' (el de él, la de ella, el de ustedes) en lugar del posesivo.",
+          "¿Por qué funciona? El artículo (el, la, los, las) ocupa el lugar del sustantivo y concuerda con él, igual que en «el suyo»; luego «de + persona» dice el dueño con todas las letras. Así, «la de él» = su cosa (femenina), de él. Si el contexto ya es claro, «el suyo» sigue siendo correcto."
         ],
         "examples": [
           {
@@ -6059,7 +8493,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "El mandato afirmativo: quita la -r, añade -d",
         "body": [
           "Para formar el mandato afirmativo de vosotros se toma el infinitivo, se elimina la -r final y se añade una -d: hablar → hablad, comer → comed, vivir → vivid.",
-          "Esta regla vale para todos los verbos, incluso para los que son irregulares en el mandato de tú: decir → decid, hacer → haced, ir → id, ser → sed, tener → tened, venir → venid. (Solo cambia cuando se añade el pronombre os: lo verás en la parte 2.)"
+          "Esta regla vale para todos los verbos, incluso para los que son irregulares en el mandato de tú: decir → decid, hacer → haced, ir → id, ser → sed, tener → tened, venir → venid. (Solo cambia cuando se añade el pronombre os: lo verás en la parte 2.)",
+          "¿Por qué no hay irregulares? Porque esta forma no sale del presente ni del subjuntivo, donde están las irregularidades (hago, vengo, digo), sino directamente del infinitivo, que siempre es regular. Si sabes el infinitivo, sabes el mandato."
         ],
         "examples": [
           {
@@ -6137,7 +8572,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Verbos reflexivos: se pierde la -d (excepto irse)",
         "body": [
           "Cuando el mandato afirmativo de vosotros se combina con un verbo reflexivo, el pronombre 'os' se pega al final, pero la -d final del verbo desaparece antes de añadir '-os'. Así, levantar + os no da 'levantados', sino 'levantaos'. Lo mismo ocurre con sentaos (sentar) y vestíos (vestir, con tilde porque la i queda sola formando hiato).",
-          "La gran excepción es el verbo irse, cuyo mandato de vosotros es idos, que sí conserva la -d (en el habla coloquial es muy frecuente iros, pero la RAE recomienda idos)."
+          "La gran excepción es el verbo irse, cuyo mandato de vosotros es idos, que sí conserva la -d (en el habla coloquial es muy frecuente iros, pero la RAE recomienda idos).",
+          "¿Por qué desaparece la -d? Es una simplificación del sonido que la norma ha fijado; además, así el mandato no se confunde con el participio (levantados = raised). Truco: si el verbo lleva os, la -d se va: levantaos, sentaos, quedaos. Solo irse la conserva (idos), porque sin ella apenas quedaría nada del verbo."
         ],
         "examples": [
           {
@@ -6323,9 +8759,10 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Verbos -ar regulares",
+        "heading": "Recuerda la regla: la vocal «contraria»",
         "body": [
-          "Recuerda: para los verbos -ar, quita la -o de la forma \"yo\" y añade las terminaciones de -e (e, es, e, emos, éis, en)."
+          "Recuerda: el subjuntivo se forma desde la forma yo del presente. Quita la -o y pon la vocal «contraria»: los verbos -ar pasan a -e (hablo → hable) y los verbos -er / -ir pasan a -a (como → coma, vivo → viva). Ese cambio de vocal es lo que distingue al subjuntivo del indicativo: hablas / hables.",
+          "Terminaciones -ar: -e, -es, -e, -emos, -éis, -en."
         ],
         "examples": [
           {
@@ -6334,7 +8771,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Es importante que trabajes duro.",
-            "en": "It's important that you work hard."
+            "en": "It's important that you work hard. (trabajas → trabajes: la a pasa a e)"
           },
           {
             "es": "Ojalá que estudiemos juntos para el examen.",
@@ -6366,7 +8803,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos -er/-ir regulares",
         "body": [
-          "Recuerda: para los verbos -er e -ir, quita la -o de la forma \"yo\" y añade las terminaciones de -a (a, as, a, amos, áis, an)."
+          "Recuerda: los verbos -er e -ir hacen lo contrario: quitan la -o de la forma yo y toman la vocal a (-a, -as, -a, -amos, -áis, -an). Las dos conjugaciones comparten las mismas terminaciones."
         ],
         "examples": [
           {
@@ -6379,7 +8816,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Quiero que leas este libro.",
-            "en": "I want you to read this book."
+            "en": "I want you to read this book. (lees → leas: la e pasa a a)"
           }
         ],
         "checkpoint": [
@@ -6395,7 +8832,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cambios ortográficos",
         "body": [
-          "Recuerda: los verbos terminados en -car, -gar y -zar cambian la consonante para conservar el sonido (c→qu, g→gu, z→c)."
+          "Recuerda: al poner la e del subjuntivo, los verbos en -car, -gar y -zar cambian la letra para conservar el sonido de la forma yo: c → qu (busco → busque), g → gu (llego → llegue), z → c (empiezo → empiece). El sonido no cambia; solo la ortografía."
         ],
         "examples": [
           {
@@ -6430,6 +8867,18 @@ const B1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Pagar cambia g→gu antes de e: pague, pagues, pague, paguemos, paguéis, paguen."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un verbo nuevo. ¿Cuál es el subjuntivo de «cruzar» para «ellos»?",
+            "options": [
+              "crucen",
+              "cruzen",
+              "cruzan",
+              "cruquen"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cruzar es -zar: la z pasa a c delante de e para conservar el sonido: crucen. «Cruzen» olvida el cambio, «cruzan» es indicativo y «cruquen» confunde z con c → qu."
           }
         ]
       }
@@ -6486,6 +8935,55 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 0,
         "explanation": "Volver cambia o→ue excepto en nosotros y vosotros: volvamos. «Vuelvan» y «vuelva» son de ellos y de yo/él, y «volváis» es de vosotros."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia a nosotros.",
+        "source": "Espero que él busque un piso cerca.",
+        "answer": "Espero que nosotros busquemos un piso cerca.",
+        "altAnswers": [
+          "Espero que busquemos un piso cerca."
+        ],
+        "explanation": "Nosotros toma -emos, y el cambio c → qu se mantiene en todas las personas: busquemos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma el mandato en un deseo con «Quiero que...».",
+        "source": "Paga la cuenta.",
+        "answer": "Quiero que pagues la cuenta.",
+        "altAnswers": [
+          "Quiero que tú pagues la cuenta."
+        ],
+        "explanation": "Quiero que + otra persona pide subjuntivo: pagar → pagues (g → gu delante de e para mantener el sonido «ga»)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Ojalá que lleges a tiempo.»",
+        "answer": "Ojalá que llegues a tiempo.",
+        "explanation": "Llegar es -gar: delante de e hay que escribir gu para conservar el sonido: llegues."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es importante que comes fruta cada día.»",
+        "answer": "Es importante que comas fruta cada día.",
+        "explanation": "Es importante que pide subjuntivo; comer (-er) toma la vocal a: comas. «Comes» es indicativo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Quiero que ustedes empiezen hoy.»",
+        "answer": "Quiero que ustedes empiecen hoy.",
+        "altAnswers": [
+          "Quiero que empiecen hoy."
+        ],
+        "explanation": "Empezar tiene dos cambios: e → ie (empiez-) y z → c delante de e: empiecen."
       }
     ]
   },
@@ -6498,9 +8996,10 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Verbos con cambio de raíz (-ar, -er)",
+        "heading": "Recuerda la regla: el cambio de raíz sigue al acento",
         "body": [
-          "Recuerda: los verbos -ar y -er con cambio de raíz (e→ie, o→ue) mantienen el cambio en todas las formas excepto en nosotros y vosotros."
+          "Recuerda: los verbos -ar y -er con cambio de raíz (e → ie, o → ue) mantienen el cambio en todas las formas excepto en nosotros y vosotros.",
+          "¿Por qué? El diptongo solo aparece cuando el acento cae en la raíz: PIEN-se, VUEL-va. En nosotros y vosotros el acento se va a la terminación (pen-SE-mos, vol-VÁIS), así que la raíz vuelve a ser normal."
         ],
         "examples": [
           {
@@ -6535,6 +9034,18 @@ const B1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Perder cambia e→ie excepto en nosotros/vosotros: pierdan. «Perdan» olvida el cambio de raíz, «pierden» es indicativo y «perdieran» es subjuntivo imperfecto."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un verbo nuevo. ¿Cuál es el subjuntivo de «mover» para «nosotros»?",
+            "options": [
+              "movamos",
+              "muevamos",
+              "movemos",
+              "muevan"
+            ],
+            "correctIndex": 0,
+            "explanation": "En nosotros el acento cae en la terminación (mo-VA-mos), así que no hay diptongo: movamos. «Muevamos» pone el cambio donde no toca; «movemos» es indicativo; «muevan» es de ellos."
           }
         ]
       },
@@ -6582,7 +9093,8 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los seis verbos irregulares",
         "body": [
-          "Recuerda: ser, estar, ir, saber, dar y haber no forman el subjuntivo a partir de la forma «yo» y hay que memorizarlos (dar y estar solo añaden tilde: dé, esté)."
+          "Recuerda: ser, estar, ir, saber, dar y haber no forman el subjuntivo a partir de la forma yo y hay que memorizarlos (dar y estar solo añaden tilde: dé, esté).",
+          "¿Por qué ellos? Porque su forma yo no termina en -o (soy, estoy, voy, sé, doy, he), así que no hay una -o que quitar."
         ],
         "examples": [
           {
@@ -6696,6 +9208,55 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 0,
         "explanation": "Decir es irregular en yo (digo) y esa raíz pasa a todo el subjuntivo: digamos. «Decimos» es indicativo, «dicemos» no existe y «digáis» es de vosotros."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia a nosotros.",
+        "source": "Espero que ellos vuelvan pronto.",
+        "answer": "Espero que volvamos pronto.",
+        "altAnswers": [
+          "Espero que nosotros volvamos pronto."
+        ],
+        "explanation": "En nosotros el acento pasa a la terminación (vol-VA-mos), así que el diptongo ue desaparece: volvamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia a tú.",
+        "source": "Es necesario que nosotros pidamos ayuda.",
+        "answer": "Es necesario que tú pidas ayuda.",
+        "altAnswers": [
+          "Es necesario que pidas ayuda."
+        ],
+        "explanation": "Pedir (-ir) cambia e → i en todas las personas: pidamos, pidas. En tú no hay diptongo porque pedir es e → i, no e → ie."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Quiero que nosotros piensemos en otra solución.»",
+        "answer": "Quiero que nosotros pensemos en otra solución.",
+        "altAnswers": [
+          "Quiero que pensemos en otra solución."
+        ],
+        "explanation": "Pensar es -ar: en nosotros el acento va a la terminación y no hay diptongo: pensemos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«No quiero que te sentas mal.»",
+        "answer": "No quiero que te sientas mal.",
+        "explanation": "Sentir cambia e → ie cuando el acento cae en la raíz (SIEN-tas): sientas."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Espero que sabes la dirección.»",
+        "answer": "Espero que sepas la dirección.",
+        "explanation": "Saber es uno de los seis verbos especiales (su yo es sé): sepa, sepas... «Sabes» es indicativo."
       }
     ]
   },
@@ -6710,7 +9271,8 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Irregularidad de la forma \"yo\" en todo el subjuntivo",
         "body": [
-          "Recuerda: si un verbo es irregular solo en la forma \"yo\" del presente indicativo, esa misma raíz irregular aparece en todas las formas del subjuntivo."
+          "Recuerda: si un verbo es irregular solo en la forma yo del presente de indicativo, esa misma raíz irregular aparece en todas las formas del subjuntivo.",
+          "¿Por qué? Porque el subjuntivo se construye sobre la forma yo: tengo → teng- → tenga. Lo que tiene el yo (la g de tengo, la zc de conozco) pasa a todas las personas, también a nosotros: tengamos, conozcamos."
         ],
         "examples": [
           {
@@ -6745,26 +9307,33 @@ const B1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "Salir es irregular en \"yo\" (salgo), y esa raíz da la forma de subjuntivo: salga."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Aplica la regla a un verbo nuevo.",
+            "sentence": "Es importante que los niños ___ en el coche. (caber, ellos)",
+            "answer": "quepan",
+            "explanation": "La forma yo de caber es quepo, así que el subjuntivo es quep- + -an: quepan. No se forma desde el infinitivo («caban»)."
           }
         ]
       },
       {
         "heading": "Práctica mixta",
         "body": [
-          "Recuerda: identifica primero el tipo de verbo (regular, con cambio ortográfico, con cambio de raíz o irregular) antes de conjugar."
+          "Recuerda: identifica primero el tipo de verbo (regular, con cambio ortográfico, con cambio de raíz o irregular en yo) antes de conjugar. Pregúntate: ¿cómo es mi forma yo?"
         ],
         "examples": [
           {
             "es": "Espero que llegues a tiempo.",
-            "en": "I hope you arrive on time."
+            "en": "I hope you arrive on time. (llegar: g → gu)"
           },
           {
             "es": "Ojalá que hagamos un buen viaje.",
-            "en": "I hope we have a good trip."
+            "en": "I hope we have a good trip. (hago → hagamos)"
           },
           {
-            "es": "Es posible que ellos no sepan la verdad.",
-            "en": "It's possible that they don't know the truth."
+            "es": "Es posible que mis padres no sepan nada.",
+            "en": "It's possible that my parents don't know anything. (saber: uno de los seis especiales)"
           }
         ],
         "checkpoint": [
@@ -6866,6 +9435,55 @@ const B1_BASE_LESSONS: Lesson[] = [
         "sentence": "Es probable que ella ___ (conocer) a mi hermano.",
         "answer": "conozca",
         "explanation": "Conocer es irregular en \"yo\" (conozco), y esa raíz pasa a todo el subjuntivo: conozca."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia a nosotros.",
+        "source": "Quiero que él traiga el postre.",
+        "answer": "Quiero que nosotros traigamos el postre.",
+        "altAnswers": [
+          "Quiero que traigamos el postre."
+        ],
+        "explanation": "La raíz de traigo (traig-) se mantiene también en nosotros: traigamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma con «No creo que...».",
+        "source": "Creo que ella conoce a mi hermano.",
+        "answer": "No creo que ella conozca a mi hermano.",
+        "altAnswers": [
+          "No creo que conozca a mi hermano."
+        ],
+        "explanation": "No creer que pide subjuntivo, y conocer toma la raíz de conozco: conozca."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Ojalá que mis amigos vienen a la boda.»",
+        "answer": "Ojalá que mis amigos vengan a la boda.",
+        "explanation": "Ojalá pide subjuntivo, y venir toma la raíz de vengo: vengan."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es mejor que no decimos nada todavía.»",
+        "answer": "Es mejor que no digamos nada todavía.",
+        "explanation": "Es mejor que pide subjuntivo; decir toma la raíz de digo también en nosotros: digamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Espero que ustedes no se ponan nerviosos.»",
+        "answer": "Espero que ustedes no se pongan nerviosos.",
+        "altAnswers": [
+          "Espero que no se pongan nerviosos."
+        ],
+        "explanation": "Poner toma la raíz de pongo en todo el subjuntivo: pongan, nunca «ponan»."
       }
     ]
   },
@@ -6878,9 +9496,10 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Verbos de deseo: querer que, esperar que, desear que",
+        "heading": "Recuerda la regla: el subjuntivo no informa",
         "body": [
-          "Cuando el sujeto de la oración principal desea algo para otra persona, el verbo que sigue a 'que' va en subjuntivo."
+          "Recuerda la idea que une deseo, duda y emoción: el indicativo informa de algo que el hablante presenta como real; el subjuntivo marca algo que no afirmas, sino que deseas, dudas o valoras. Quiero que vengas no dice que vienes: dice lo que quiero.",
+          "Verbos de deseo (querer, esperar, desear que): cuando el sujeto desea algo para otra persona, el verbo que sigue a que va en subjuntivo."
         ],
         "examples": [
           {
@@ -6916,13 +9535,20 @@ const B1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«Esperar que» con cambio de sujeto requiere subjuntivo: ganemos. «Ganamos» (indicativo) y «ganaremos» (futuro) no sirven, y «que nosotros ganar» mezcla «que» con un infinitivo."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Aplica la regla a un verbo nuevo.",
+            "sentence": "Te pido que no ___ a nadie de la sorpresa. (avisar)",
+            "answer": "avises",
+            "explanation": "Pedir que expresa voluntad sobre otra persona, como querer que: subjuntivo, avisar → avises."
           }
         ]
       },
       {
         "heading": "Duda y negación: dudar que, no creer que, negar que",
         "body": [
-          "Los verbos que expresan duda o negación exigen subjuntivo, pero sus opuestos afirmativos (creer que, no dudar que) llevan normalmente indicativo («no dudar que» también admite subjuntivo)."
+          "Los verbos que expresan duda o negación exigen subjuntivo, porque no presentas lo que sigue como real. Sus opuestos afirmativos (creer que, no dudar que) informan y llevan normalmente indicativo («no dudar que» también admite subjuntivo)."
         ],
         "examples": [
           {
@@ -6944,7 +9570,9 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa con indicativo o subjuntivo según corresponda.",
             "sentence": "No dudo que tú ___ (ser) capaz de lograrlo.",
             "answer": "eres",
-            "altAnswers": ["seas"],
+            "altAnswers": [
+              "seas"
+            ],
             "hint": "no dudar que + indicativo",
             "explanation": "'No dudar que' expresa certeza, así que lo normal es el indicativo: eres (también se admite «seas»)."
           },
@@ -7065,6 +9693,49 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "translation": "I'm glad that you're coming.",
         "explanation": "'Alegrarse de que' es una expresión de emoción y requiere subjuntivo: vengas."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia a la forma negativa (No creo que...).",
+        "source": "Creo que el examen es fácil.",
+        "answer": "No creo que el examen sea fácil.",
+        "explanation": "Creer que afirma (indicativo, es); no creer que deja de afirmarlo y pide subjuntivo: sea."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con «Me alegro de que...».",
+        "source": "Mi hermano tiene trabajo.",
+        "answer": "Me alegro de que mi hermano tenga trabajo.",
+        "altAnswers": [
+          "Me alegra que mi hermano tenga trabajo."
+        ],
+        "explanation": "Una emoción sobre lo que hace otra persona pide subjuntivo: tiene → tenga."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Dudo que mis amigos vienen esta noche.»",
+        "answer": "Dudo que mis amigos vengan esta noche.",
+        "explanation": "Dudar que no afirma nada: subjuntivo. Venir copia la forma yo vengo: vengan."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Me alegro de que estás mejor.»",
+        "answer": "Me alegro de que estés mejor.",
+        "explanation": "Alegrarse de que expresa una emoción: el verbo siguiente va en subjuntivo, estés."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Creo que tengas razón.»",
+        "answer": "Creo que tienes razón.",
+        "explanation": "Creo que afirmativo presenta la idea como real: indicativo, tienes. El subjuntivo solo aparece con no creo que."
       }
     ]
   },
@@ -7079,7 +9750,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Expresiones impersonales de emoción y opinión",
         "body": [
-          "Las expresiones impersonales como 'es una lástima que' o 'es sorprendente que' también van seguidas de subjuntivo cuando expresan emoción, duda o valoración subjetiva."
+          "Las expresiones impersonales siguen la misma lógica que los verbos: si valoran, dudan o reaccionan (es una lástima que, es sorprendente que, es posible que), van con subjuntivo; si afirman un hecho (es verdad que, es obvio que, es evidente que), van con indicativo."
         ],
         "examples": [
           {
@@ -7114,13 +9785,20 @@ const B1_BASE_LESSONS: Lesson[] = [
             "sentence": "Es sorprendente que ella ___ (hablar) cuatro idiomas.",
             "answer": "hable",
             "explanation": "'Es sorprendente que' expresa valoración subjetiva y pide subjuntivo: hable."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Aplica la regla a una expresión nueva.",
+            "sentence": "Es increíble que todavía ___ entradas para el concierto. (haber)",
+            "answer": "haya",
+            "explanation": "Es increíble que es una valoración, como es sorprendente que: subjuntivo. Haber (hay) → haya, siempre en singular."
           }
         ]
       },
       {
         "heading": "Infinitivo vs. subjuntivo: mismo sujeto o sujeto distinto",
         "body": [
-          "Si el sujeto de las dos partes de la oración es el mismo, se usa el infinitivo; si cambia el sujeto, se usa 'que' + subjuntivo."
+          "Si el sujeto de las dos partes de la oración es el mismo, se usa el infinitivo; si cambia el sujeto, se usa que + subjuntivo. Con las impersonales pasa algo parecido: sin sujeto concreto, infinitivo (es importante descansar); con sujeto, que + subjuntivo (es importante que descanses)."
         ],
         "examples": [
           {
@@ -7230,6 +9908,41 @@ const B1_BASE_LESSONS: Lesson[] = [
         "sentence": "Es sorprendente que tú no ___ (conocer) este restaurante.",
         "answer": "conozcas",
         "explanation": "'Es sorprendente que' expresa valoración subjetiva y exige subjuntivo: conozcas."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «Es verdad que» por «Es una lástima que».",
+        "source": "Es verdad que no puedes venir.",
+        "answer": "Es una lástima que no puedas venir.",
+        "explanation": "Es verdad que afirma (indicativo, puedes); es una lástima que valora (subjuntivo, puedas)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es obvio que ella esté cansada.»",
+        "answer": "Es obvio que ella está cansada.",
+        "altAnswers": [
+          "Es obvio que está cansada."
+        ],
+        "explanation": "Es obvio que presenta algo como un hecho: indicativo, está. El subjuntivo aparecería con no es obvio que."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es una pena que tu hermano no viene.»",
+        "answer": "Es una pena que tu hermano no venga.",
+        "explanation": "Es una pena que expresa una valoración: subjuntivo. Venir → venga (de vengo)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Quiero que yo salga temprano.»",
+        "answer": "Quiero salir temprano.",
+        "explanation": "Yo quiero y yo salgo: el mismo sujeto pide infinitivo, no que + subjuntivo."
       }
     ]
   },
@@ -7244,7 +9957,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Repaso de disparadores comunes del subjuntivo",
         "body": [
-          "Repasa distintos disparadores del subjuntivo —deseo, duda, emoción— combinados con varios sujetos para practicar las conjugaciones."
+          "Recuerda: todos los disparadores tienen algo en común: lo que sigue a que no se afirma como un hecho. Deseo (ojalá, quiero que), duda (no creo que, dudo que), emoción (me alegra que, temo que) y valoración (es importante que) llevan subjuntivo; saber, creer, estar seguro y es verdad que llevan indicativo."
         ],
         "examples": [
           {
@@ -7289,7 +10002,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Práctica mixta: indicativo o subjuntivo",
         "body": [
-          "Antes de conjugar, identifica si el verbo principal expresa certeza (indicativo) o deseo, duda, emoción u opinión (subjuntivo)."
+          "Antes de conjugar, pregúntate: ¿el hablante afirma esto como real? Si sí → indicativo (sé que trabaja). Si lo desea, lo duda, le emociona o lo valora → subjuntivo (dudo que trabaje, me alegra que trabaje)."
         ],
         "examples": [
           {
@@ -7335,6 +10048,17 @@ const B1_BASE_LESSONS: Lesson[] = [
             "sentence": "Sé que mi hermano ___ (estudiar) medicina.",
             "answer": "estudia",
             "explanation": "'Saber que' expresa certeza, así que se usa el indicativo: estudia."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Aplica la regla.",
+            "sentence": "Estoy seguro de que mi equipo ___ el partido. (ganar)",
+            "answer": "ganará",
+            "altAnswers": [
+              "gana",
+              "va a ganar"
+            ],
+            "explanation": "Estar seguro de que afirma: indicativo. Aquí, futuro (ganará); también vale el presente gana."
           }
         ]
       }
@@ -7407,6 +10131,46 @@ const B1_BASE_LESSONS: Lesson[] = [
           2
         ],
         "explanation": "«Quiero que vayas» y «nos alegra que hayas venido» tienen cambio de sujeto con deseo o emoción: subjuntivo. «Quiero ir» tiene el mismo sujeto (infinitivo) y «Sabemos que has venido» expresa certeza (indicativo)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia «Sé que» por «No creo que».",
+        "source": "Sé que mi jefe está en la oficina.",
+        "answer": "No creo que mi jefe esté en la oficina.",
+        "explanation": "Saber que afirma (indicativo, está); no creer que lo pone en duda y pide subjuntivo: esté."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con «Temo que...».",
+        "source": "El vuelo se retrasa.",
+        "answer": "Temo que el vuelo se retrase.",
+        "explanation": "Temer que expresa un miedo, una emoción: subjuntivo, se retrase."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Ojalá que mañana hace buen tiempo.»",
+        "answer": "Ojalá que mañana haga buen tiempo.",
+        "explanation": "Ojalá siempre va con subjuntivo: hacer → haga (de hago)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Sabemos que hayas trabajado mucho.»",
+        "answer": "Sabemos que has trabajado mucho.",
+        "explanation": "Saber que afirma un hecho: indicativo, has trabajado. Hayas trabajado sería subjuntivo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es importante que todos llegan puntuales.»",
+        "answer": "Es importante que todos lleguen puntuales.",
+        "explanation": "Es importante que valora: subjuntivo. Llegar es -gar: lleguen."
       }
     ]
   },
@@ -7419,9 +10183,10 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Expresiones impersonales de necesidad",
+        "heading": "Recuerda la regla: necesidad con sujeto o sin él",
         "body": [
-          "Recuerda: expresiones como es necesario que, es importante que y hace falta que siempre llevan subjuntivo cuando hay un sujeto específico."
+          "Recuerda: es necesario que, es importante que y hace falta que no informan de un hecho: dicen que algo debería pasar. Por eso, cuando hay un sujeto concreto, el verbo va en subjuntivo (es necesario que llegues).",
+          "Si no hay sujeto concreto (una regla general), se usa el infinitivo, sin que: es necesario llegar pronto."
         ],
         "examples": [
           {
@@ -7459,7 +10224,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Expresiones impersonales de posibilidad y probabilidad",
         "body": [
-          "Las expresiones de posibilidad y probabilidad, como es posible que, es probable que y puede que, también requieren subjuntivo porque no expresan certeza."
+          "Las expresiones de posibilidad y probabilidad, como es posible que, es probable que y puede que, también requieren subjuntivo porque no expresan certeza: el hablante no afirma que vaya a pasar."
         ],
         "examples": [
           {
@@ -7498,23 +10263,22 @@ const B1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Es necesario que nosotros ___ el informe hoy mismo.",
+        "question": "Aplica la regla a una expresión nueva: «Es imprescindible que ustedes ___ el pasaporte.»",
         "options": [
-          "terminemos",
-          "terminamos",
-          "terminaremos",
-          "terminar"
+          "traigan",
+          "traen",
+          "traer",
+          "traerán"
         ],
         "correctIndex": 0,
-        "explanation": "«Es necesario que» + un sujeto concreto (nosotros) requiere subjuntivo: terminemos. «Terminamos» y «terminaremos» son indicativo, y «terminar» solo va sin «que»: es necesario terminar."
+        "explanation": "Es imprescindible que expresa necesidad con un sujeto concreto (ustedes): subjuntivo, traigan (de traigo). «Traen» es indicativo, «traer» sería sin sujeto y «traerán» es futuro."
       },
       {
         "type": "fill-blank",
         "prompt": "Completa con la forma correcta del subjuntivo.",
-        "sentence": "Es probable que ella ___ (llegar) tarde a la reunión.",
-        "answer": "llegue",
-        "hint": "presente de subjuntivo",
-        "explanation": "Es probable que expresa duda, por lo que se necesita el subjuntivo: llegue."
+        "sentence": "Puede que mis primos ___ a la boda. (no venir)",
+        "answer": "no vengan",
+        "explanation": "Puede que expresa posibilidad: subjuntivo. Venir toma la raíz de vengo: no vengan."
       },
       {
         "type": "multi-select",
@@ -7568,6 +10332,52 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "translation": "It's important that we study more.",
         "explanation": "Con sujeto específico (nosotros), se usa que + subjuntivo: que estudiemos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con «Es necesario que...».",
+        "source": "Tenemos que ahorrar agua.",
+        "answer": "Es necesario que ahorremos agua.",
+        "altAnswers": [
+          "Es necesario que nosotros ahorremos agua."
+        ],
+        "explanation": "La obligación pasa a una expresión impersonal con sujeto concreto (nosotros): subjuntivo, ahorremos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la regla general por una frase para «tú».",
+        "source": "Es importante dormir ocho horas.",
+        "answer": "Es importante que duermas ocho horas.",
+        "explanation": "Con un sujeto concreto aparece que + subjuntivo; dormir cambia o → ue: duermas."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es necesario que todos traemos algo de comer.»",
+        "answer": "Es necesario que todos traigamos algo de comer.",
+        "explanation": "Es necesario que + sujeto concreto → subjuntivo; traer toma la raíz de traigo: traigamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es probable que el tren llega tarde.»",
+        "answer": "Es probable que el tren llegue tarde.",
+        "explanation": "Es probable que no afirma: subjuntivo. Llegar es -gar: llegue."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es importante que estudiar todos los días.»",
+        "answer": "Es importante estudiar todos los días.",
+        "altAnswers": [
+          "Es importante que estudies todos los días."
+        ],
+        "explanation": "Sin sujeto concreto va el infinitivo, sin que. Con sujeto sería: es importante que estudies."
       }
     ]
   },
@@ -7580,9 +10390,9 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Contraste: certeza (indicativo) frente a duda (subjuntivo)",
+        "heading": "Recuerda la regla: certeza (indicativo) frente a duda (subjuntivo)",
         "body": [
-          "Ojo: las expresiones que afirman certeza, como es verdad que, es obvio que y es cierto que, llevan indicativo, no subjuntivo."
+          "Ojo: las expresiones que afirman certeza, como es verdad que, es obvio que y es cierto que, llevan indicativo, no subjuntivo: presentan lo que sigue como un hecho. Al negarlas (no es verdad que, no es obvio que) dejan de afirmarlo y pasan a subjuntivo."
         ],
         "examples": [
           {
@@ -7620,13 +10430,20 @@ const B1_BASE_LESSONS: Lesson[] = [
             "answer": "sabe",
             "hint": "presente de indicativo",
             "explanation": "Es cierto que expresa certeza, por lo que se usa el indicativo: sabe."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Aplica la regla a la forma negativa.",
+            "sentence": "No es cierto que el examen ___ el lunes. (ser)",
+            "answer": "sea",
+            "explanation": "Es cierto que afirma (indicativo), pero no es cierto que niega el hecho: subjuntivo, sea."
           }
         ]
       },
       {
         "heading": "Ojalá (que) + subjuntivo",
         "body": [
-          "Ojalá (que) expresa un deseo o una esperanza y siempre va seguido del subjuntivo, con o sin la palabra que."
+          "Ojalá (que) expresa un deseo o una esperanza y siempre va seguido del subjuntivo, con o sin la palabra que. No es un verbo, así que no cambia nunca: el verbo que sigue lleva la persona."
         ],
         "examples": [
           {
@@ -7677,10 +10494,9 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con la forma correcta del subjuntivo.",
-        "sentence": "Puede que no ___ (haber) suficiente tiempo.",
+        "sentence": "Puede que esta noche ___ tormenta. (haber)",
         "answer": "haya",
-        "hint": "presente de subjuntivo de haber",
-        "explanation": "Puede que siempre lleva subjuntivo; la forma impersonal de haber es haya."
+        "explanation": "Puede que expresa posibilidad: subjuntivo. Haber (hay) → haya, siempre en singular."
       },
       {
         "type": "matching",
@@ -7725,14 +10541,13 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "es-en",
         "prompt": "Traduce la oración al inglés.",
-        "source": "Tal vez tengamos suerte.",
-        "answer": "Maybe we'll get lucky.",
+        "source": "Tal vez encontremos un taxi.",
+        "answer": "Maybe we'll find a taxi.",
+        "explanation": "Tal vez + subjuntivo (encontremos) presenta algo como posible, no seguro; en inglés suele ir con will o might.",
         "altAnswers": [
-          "Maybe we'll be lucky.",
-          "Perhaps we'll be lucky.",
-          "Perhaps we'll get lucky."
-        ],
-        "explanation": "Tal vez + subjuntivo (tengamos) expresa una posibilidad incierta."
+          "We might find a taxi.",
+          "Perhaps we'll find a taxi."
+        ]
       },
       {
         "type": "fill-blank",
@@ -7741,6 +10556,44 @@ const B1_BASE_LESSONS: Lesson[] = [
         "answer": "está",
         "hint": "presente de indicativo",
         "explanation": "Es obvio que expresa certeza, por lo que se usa el indicativo: está."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia a la forma negativa (No es verdad que...).",
+        "source": "Es verdad que Pablo trabaja aquí.",
+        "answer": "No es verdad que Pablo trabaje aquí.",
+        "explanation": "Al negar una expresión de certeza, el verbo pasa a subjuntivo: trabaja → trabaje."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma el deseo con ojalá.",
+        "source": "Espero que te den el trabajo.",
+        "answer": "Ojalá te den el trabajo.",
+        "altAnswers": [
+          "Ojalá que te den el trabajo."
+        ],
+        "explanation": "Ojalá también lleva subjuntivo, así que den no cambia; solo desaparece espero que."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Ojalá que el bebé duerme toda la noche.»",
+        "answer": "Ojalá que el bebé duerma toda la noche.",
+        "altAnswers": [
+          "Ojalá el bebé duerma toda la noche."
+        ],
+        "explanation": "Ojalá siempre va con subjuntivo: dormir → duerma (o → ue)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es cierto que la tienda cierre a las ocho.»",
+        "answer": "Es cierto que la tienda cierra a las ocho.",
+        "explanation": "Es cierto que afirma un hecho: indicativo, cierra."
       }
     ]
   },
@@ -7753,9 +10606,9 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Quizás y tal vez + subjuntivo",
+        "heading": "Recuerda la regla: quizás y tal vez",
         "body": [
-          "Quizás y tal vez suelen llevar subjuntivo cuando expresan duda sobre algo futuro o incierto."
+          "Quizás y tal vez suelen llevar subjuntivo cuando expresan duda sobre algo futuro o incierto (quizás venga). Con indicativo la frase suena más segura (quizás viene: probablemente viene). A diferencia de ojalá, aquí el hablante elige cuánta duda quiere mostrar."
         ],
         "examples": [
           {
@@ -7784,21 +10637,20 @@ const B1_BASE_LESSONS: Lesson[] = [
             "type": "translate",
             "direction": "es-en",
             "prompt": "Traduce la oración al inglés.",
-            "source": "Tal vez tengamos suerte.",
-            "answer": "Maybe we'll get lucky.",
+            "source": "Tal vez no haya clase el viernes.",
+            "answer": "Maybe there won't be class on Friday.",
             "altAnswers": [
-              "Maybe we'll be lucky.",
-              "Perhaps we'll be lucky.",
-              "Perhaps we'll get lucky."
+              "Maybe there's no class on Friday.",
+              "Perhaps there won't be class on Friday."
             ],
-            "explanation": "Tal vez + subjuntivo (tengamos) expresa una posibilidad incierta sobre el futuro."
+            "explanation": "Tal vez + subjuntivo (haya) presenta la idea como posible, no segura."
           }
         ]
       },
       {
         "heading": "Infinitivo frente a que + subjuntivo",
         "body": [
-          "Cuando la expresión impersonal no tiene un sujeto específico, se usa el infinitivo en vez de que + subjuntivo."
+          "Cuando la expresión impersonal no tiene un sujeto específico, se usa el infinitivo en vez de que + subjuntivo: es una regla para todo el mundo. En cuanto aparece una persona concreta, hace falta que + subjuntivo."
         ],
         "examples": [
           {
@@ -7938,6 +10790,56 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Es obvio que ellos están cansados."
         ],
         "explanation": "Es obvio que expresa certeza y lleva indicativo: están."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la regla general por una frase para «vosotros».",
+        "source": "Es mejor reservar mesa.",
+        "answer": "Es mejor que reservéis mesa.",
+        "explanation": "Con un sujeto concreto aparece que + subjuntivo: reservéis."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con «Quizás» para expresar duda.",
+        "source": "Mi hermano viene mañana.",
+        "answer": "Quizás mi hermano venga mañana.",
+        "altAnswers": [
+          "Quizás venga mi hermano mañana.",
+          "Quizá mi hermano venga mañana."
+        ],
+        "explanation": "Quizás con duda pide subjuntivo: viene → venga."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es posible que nosotros vamos al cine.»",
+        "answer": "Es posible que nosotros vayamos al cine.",
+        "altAnswers": [
+          "Es posible que vayamos al cine."
+        ],
+        "explanation": "Es posible que pide subjuntivo; ir es uno de los seis especiales: vayamos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Es obvio que tus padres te quieran mucho.»",
+        "answer": "Es obvio que tus padres te quieren mucho.",
+        "explanation": "Es obvio que presenta un hecho: indicativo, quieren."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "«Ojalá que mis amigos pueden venir.»",
+        "answer": "Ojalá que mis amigos puedan venir.",
+        "altAnswers": [
+          "Ojalá mis amigos puedan venir."
+        ],
+        "explanation": "Ojalá siempre va con subjuntivo: puedan (o → ue)."
       }
     ]
   },
@@ -7950,74 +10852,111 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Mandatos afirmativos regulares con tú",
+        "heading": "Recuerda la regla: el tú afirmativo sale del presente",
         "body": [
-          "Los mandatos afirmativos regulares con tú usan la misma forma que él/ella en el presente de indicativo."
+          "Recuerda la regla: el mandato afirmativo de tú es la misma forma que él / ella en presente de indicativo: (él) habla → ¡habla!, (él) come → ¡come! No hace falta aprender una forma nueva: solo usas la que ya conoces con otra intención.",
+          "Por eso los cambios de raíz del presente se mantienen: cierra (e → ie), vuelve (o → ue), pide (e → i). Y los pronombres se pegan al final: siéntate, dímelo."
         ],
         "examples": [
           {
             "es": "Habla más despacio.",
-            "en": "Speak more slowly."
+            "en": "Speak more slowly. (él habla → ¡habla!)"
           },
           {
-            "es": "Come las verduras.",
-            "en": "Eat the vegetables."
+            "es": "Cierra la puerta al salir.",
+            "en": "Close the door when you leave. (e → ie, como «cierra»)"
+          },
+          {
+            "es": "Pide la cuenta, por favor.",
+            "en": "Ask for the bill, please. (e → i, como «pide»)"
+          },
+          {
+            "es": "Escribe tu nombre aquí.",
+            "en": "Write your name here. (-ir: la forma él, escribe)"
           }
         ],
         "checkpoint": [
           {
             "type": "fill-blank",
             "prompt": "Completa el mandato afirmativo con tú.",
-            "sentence": "___ (cerrar) la puerta, por favor.",
-            "answer": "Cierra",
-            "hint": "Usa la forma de él/ella en presente.",
-            "explanation": "El mandato afirmativo regular con tú usa la forma de él/ella del presente de indicativo: cierra."
+            "sentence": "___ la luz del pasillo. (apagar)",
+            "answer": "Apaga",
+            "explanation": "El mandato afirmativo regular de tú es la forma él del presente: (él) apaga → apaga."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Mandato afirmativo de tú de «seguir»: «___ recto hasta el semáforo.»",
+            "options": [
+              "Sigue",
+              "Segue",
+              "Sigas",
+              "Sigues"
+            ],
+            "correctIndex": 0,
+            "explanation": "Seguir cambia e → i en el presente (él sigue), y el mandato copia esa forma: sigue. «Segue» olvida el cambio de raíz, «sigas» es el negativo (no sigas) y «sigues» es indicativo de tú."
           }
         ]
       },
       {
-        "heading": "Mandatos afirmativos irregulares con tú",
+        "heading": "Ocho irregulares: formas cortas",
         "body": [
-          "Ocho verbos tienen una forma irregular especial para el mandato afirmativo con tú: ven, ten, sal, pon, haz, di, ve y sé."
+          "Ocho verbos usan una forma corta especial en el tú afirmativo: decir → di, hacer → haz, ir → ve, poner → pon, salir → sal, ser → sé, tener → ten, venir → ven.",
+          "Truco: cuatro de ellos son el infinitivo sin la terminación (ten, ven, pon, sal). Los verbos compuestos copian la forma: mantener → mantén, proponer → propón, deshacer → deshaz."
         ],
         "examples": [
           {
             "es": "Ven aquí ahora mismo.",
-            "en": "Come here right now."
+            "en": "Come here right now. (venir → ven)"
           },
           {
             "es": "Sé paciente con tu hermano.",
-            "en": "Be patient with your brother."
+            "en": "Be patient with your brother. (ser → sé, con tilde)"
+          },
+          {
+            "es": "Haz lo que quieras.",
+            "en": "Do whatever you want. (hacer → haz)"
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es el mandato afirmativo correcto con tú para 'hacer'?",
+            "question": "¿Cuál es el mandato afirmativo correcto con tú para «decir»?",
             "options": [
-              "Hace",
-              "Haz",
-              "Hagas",
-              "Haces"
+              "Dice",
+              "Di",
+              "Digas",
+              "Dices"
             ],
             "correctIndex": 1,
-            "explanation": "El mandato afirmativo irregular con tú de 'hacer' es 'haz', no la forma regular."
+            "explanation": "Decir es uno de los ocho irregulares: di. «Dice» sería la forma regular (él dice), que aquí no sirve; «digas» es el negativo (no digas) y «dices» es indicativo."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa el mandato afirmativo con tú.",
+            "sentence": "___ la calma, todo va a salir bien. (mantener)",
+            "answer": "Mantén",
+            "explanation": "Mantener se conjuga como tener, y el tú afirmativo copia «ten»: mantén, con tilde porque es aguda acabada en n."
           }
         ]
       },
       {
-        "heading": "Mandatos negativos con tú",
+        "heading": "Mandatos negativos con tú: siempre subjuntivo",
         "body": [
-          "Los mandatos negativos con tú se forman con el presente de subjuntivo, nunca con la forma afirmativa irregular."
+          "En negativo nunca se usa la forma afirmativa: se usa el presente de subjuntivo. Se parte del yo del presente y se cambia la vocal: hablo → no hables, como → no comas, vengo → no vengas, salgo → no salgas.",
+          "Así los irregulares cortos desaparecen en negativo: di → no digas, haz → no hagas, ve → no vayas (ir es especial). Y los pronombres pasan delante: no te sientes."
         ],
         "examples": [
           {
             "es": "No hables tan rápido.",
-            "en": "Don't speak so fast."
+            "en": "Don't speak so fast. (hablo → hables)"
           },
           {
             "es": "No vengas tarde.",
-            "en": "Don't come late."
+            "en": "Don't come late. (vengo → vengas)"
+          },
+          {
+            "es": "No pidas postre, ya es tarde.",
+            "en": "Don't order dessert, it's late. (pido → pidas)"
           }
         ],
         "checkpoint": [
@@ -8026,8 +10965,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa el mandato negativo con tú.",
             "sentence": "No ___ (salir) sin avisarme.",
             "answer": "salgas",
-            "hint": "Usa el presente de subjuntivo.",
-            "explanation": "Los mandatos negativos con tú requieren el presente de subjuntivo: no salgas."
+            "explanation": "El negativo usa el subjuntivo, que sale del yo del presente: salgo → no salgas. «No sal» mezcla la forma afirmativa con el negativo."
           },
           {
             "type": "translate",
@@ -8035,7 +10973,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Traduce al español usando un mandato negativo con tú.",
             "source": "Don't do that.",
             "answer": "No hagas eso.",
-            "explanation": "El mandato negativo de 'hacer' con tú en subjuntivo es 'no hagas'."
+            "explanation": "Hacer forma el subjuntivo desde «hago»: no hagas. «No haz» es imposible: la forma corta solo existe en afirmativo."
           }
         ]
       }
@@ -8043,7 +10981,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es el mandato afirmativo correcto con tú de 'escribir'?",
+        "question": "¿Cuál es el mandato afirmativo correcto con tú de «escribir»?",
         "options": [
           "Escribe",
           "Escribes",
@@ -8058,8 +10996,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa el mandato afirmativo irregular con tú.",
         "sentence": "___ (poner) la mesa antes de comer.",
         "answer": "Pon",
-        "hint": "Es uno de los ocho verbos irregulares.",
-        "explanation": "El mandato afirmativo irregular con tú de 'poner' es 'pon'."
+        "explanation": "Poner es uno de los ocho irregulares cortos: pon (el infinitivo sin -er). «Pone» sería la forma él, que aquí no sirve.",
+        "hint": "Es uno de los ocho verbos irregulares."
       },
       {
         "type": "translate",
@@ -8067,7 +11005,10 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce al inglés.",
         "source": "No te preocupes por eso.",
         "answer": "Don't worry about that.",
-        "explanation": "'No te preocupes' es el mandato negativo con tú del verbo reflexivo 'preocuparse'."
+        "altAnswers": [
+          "Don't worry about it."
+        ],
+        "explanation": "«No te preocupes» es el mandato negativo de tú de preocuparse: subjuntivo (preocupes) y el pronombre «te» delante del verbo."
       },
       {
         "type": "multi-select",
@@ -8095,15 +11036,15 @@ const B1_BASE_LESSONS: Lesson[] = [
           "reunión"
         ],
         "translation": "Let's start the meeting.",
-        "explanation": "'Vamos a' + infinitivo es una forma común del mandato de nosotros."
+        "explanation": "«Vamos a» + infinitivo es una forma muy común de proponer algo a nosotros (let's); el mandato formal sería «empecemos la reunión»."
       },
       {
         "type": "fill-blank",
         "prompt": "Completa con la forma correcta del mandato de nosotros.",
         "sentence": "No ___ (ir) todavía, esperemos un poco.",
         "answer": "vayamos",
-        "hint": "Es la excepción del verbo ir en negativo.",
-        "explanation": "El mandato negativo de nosotros con 'ir' es siempre 'no vayamos', usando el subjuntivo."
+        "explanation": "En negativo, el mandato de nosotros es el subjuntivo: no vayamos. «No vamos» es indicativo y no da una orden.",
+        "hint": "Es la excepción del verbo ir en negativo."
       }
     ]
   },
@@ -8116,18 +11057,27 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Mandatos con usted y ustedes",
+        "heading": "Recuerda la regla: usted y ustedes mandan con el subjuntivo",
         "body": [
-          "Los mandatos con usted y ustedes, afirmativos y negativos, siempre usan la forma del presente de subjuntivo."
+          "Recuerda la regla: usted y ustedes usan el presente de subjuntivo, en afirmativo y en negativo. La razón: un mandato formal es como un deseo cortés, «(que) hable usted», y por eso toma la forma de «que + subjuntivo» sin el «que».",
+          "Se forma igual que siempre: yo del presente, se quita la -o y se cambia la vocal (-ar → -e, -er / -ir → -a). Así salen solos los irregulares: tengo → tenga, hago → haga, vuelvo → vuelvan."
         ],
         "examples": [
           {
             "es": "Hable más alto, por favor.",
-            "en": "Speak louder, please."
+            "en": "Speak louder, please. (hablo → hable)"
+          },
+          {
+            "es": "Tenga cuidado con el escalón.",
+            "en": "Watch the step. (tengo → tenga)"
+          },
+          {
+            "es": "Vuelvan mañana a las diez.",
+            "en": "Come back tomorrow at ten. (ustedes, o → ue)"
           },
           {
             "es": "No se preocupen tanto.",
-            "en": "Don't worry so much."
+            "en": "Don't worry so much. (negativo: pronombre delante)"
           }
         ],
         "checkpoint": [
@@ -8145,22 +11095,34 @@ const B1_BASE_LESSONS: Lesson[] = [
               2
             ],
             "explanation": "Con usted y ustedes se usa siempre el subjuntivo: hable, no coman. «Habla» es el mandato de tú, y «no comen» es indicativo (una descripción, no una orden)."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa el mandato con usted.",
+            "sentence": "___ aquí su nombre, por favor. (escribir)",
+            "answer": "Escriba",
+            "explanation": "Usted → subjuntivo: escribo → escriba (-ir → -a). «Escribe» sería el mandato de tú."
           }
         ]
       },
       {
-        "heading": "Mandatos con nosotros",
+        "heading": "Mandatos con nosotros: «let's»",
         "body": [
-          "Para el mandato de nosotros se usa 'vamos a' + infinitivo o la forma de subjuntivo, excepto en el caso especial de ir: 'vamos' en afirmativo y 'no vayamos' en negativo."
+          "Para proponer algo al grupo (let's) se usa el subjuntivo de nosotros: comamos, salgamos, empecemos. En la conversación también es muy común «vamos a» + infinitivo, pero solo en afirmativo.",
+          "Ir es especial: «vamos» en afirmativo y «no vayamos» en negativo. En negativo siempre se usa el subjuntivo, nunca «vamos a»."
         ],
         "examples": [
           {
-            "es": "Vamos a comer algo.",
-            "en": "Let's eat something."
+            "es": "Comamos algo rápido.",
+            "en": "Let's eat something quick. (subjuntivo de nosotros)"
+          },
+          {
+            "es": "Vamos a pedir una pizza.",
+            "en": "Let's order a pizza. (vamos a + infinitivo, coloquial)"
           },
           {
             "es": "No vayamos a esa fiesta.",
-            "en": "Let's not go to that party."
+            "en": "Let's not go to that party. (negativo de ir: vayamos)"
           }
         ],
         "checkpoint": [
@@ -8176,23 +11138,32 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Vámonos ya.",
               "Vamos a irnos ahora."
             ],
-            "explanation": "El mandato de nosotros puede formarse con el subjuntivo 'salgamos' o con 'vamos a salir'."
+            "explanation": "El mandato de nosotros sale del subjuntivo: salgo → salgamos. También se puede decir «vamos a salir» o, con irse, «vámonos»."
           }
         ]
       },
       {
-        "heading": "Colocación de pronombres con mandatos afirmativos",
+        "heading": "Pronombres: pegados en afirmativo, delante en negativo",
         "body": [
-          "Con los mandatos afirmativos, los pronombres se colocan después del verbo y se unen a él, a menudo con un acento escrito."
+          "En afirmativo los pronombres se pegan al final del verbo, y a menudo hace falta tilde para que el acento no se mueva: compra → cómpralo, di → dímelo. En negativo van delante del verbo, separados: no lo compres, no me lo digas.",
+          "Con nosotros, la -s final desaparece delante de nos y de se: sentemos + nos → sentémonos, digamos + se + lo → digámoselo."
         ],
         "examples": [
           {
             "es": "Dímelo ahora.",
-            "en": "Tell it to me now."
+            "en": "Tell it to me now. (afirmativo: pegados)"
           },
           {
             "es": "Levántate temprano.",
-            "en": "Get up early."
+            "en": "Get up early. (tú, reflexivo)"
+          },
+          {
+            "es": "No te levantes todavía.",
+            "en": "Don't get up yet. (negativo: delante)"
+          },
+          {
+            "es": "Démonos prisa.",
+            "en": "Let's hurry. (demos + nos → démonos)"
           }
         ],
         "checkpoint": [
@@ -8206,7 +11177,15 @@ const B1_BASE_LESSONS: Lesson[] = [
               "mercado"
             ],
             "translation": "Buy it at the market. (tú)",
-            "explanation": "En los mandatos afirmativos el pronombre 'lo' se une al final del verbo: 'Cómpralo'."
+            "explanation": "En los mandatos afirmativos el pronombre «lo» se une al final del verbo, y la tilde mantiene el acento en «com»: cómpralo."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Cambia el mandato a afirmativo.",
+            "source": "No se lo digas a tu padre.",
+            "answer": "Díselo a tu padre.",
+            "explanation": "Al pasar a afirmativo, el subjuntivo vuelve a la forma de tú (digas → di) y los pronombres se pegan al final: di + se + lo → díselo, con tilde."
           }
         ]
       }
@@ -8229,11 +11208,11 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa el mandato negativo con el pronombre correcto.",
         "sentence": "No ___ despiertes; el bebé está durmiendo.",
         "answer": "lo",
+        "explanation": "En los mandatos negativos, el pronombre va justo antes del verbo: no lo despiertes. En afirmativo iría pegado: despiértalo.",
+        "hint": "El pronombre va justo antes del verbo.",
         "altAnswers": [
           "le"
-        ],
-        "hint": "El pronombre va justo antes del verbo.",
-        "explanation": "En los mandatos negativos, el pronombre precede al verbo: 'no lo despiertes'."
+        ]
       },
       {
         "type": "translate",
@@ -8244,7 +11223,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "Por favor, siéntese."
         ],
-        "explanation": "El mandato afirmativo con usted del verbo reflexivo 'sentarse' es 'siéntese'."
+        "explanation": "Usted afirmativo: subjuntivo (siente) + se pegado al final, con tilde para mantener el acento: siéntese."
       },
       {
         "type": "multiple-choice",
@@ -8279,15 +11258,15 @@ const B1_BASE_LESSONS: Lesson[] = [
             "right": "Let's not come late."
           }
         ],
-        "explanation": "El verbo 'venir' cambia de forma según la persona y la polaridad del mandato."
+        "explanation": "Venir cambia según la persona y la polaridad: ven (tú afirmativo, irregular), no vengas (tú negativo, subjuntivo), vengan (ustedes) y no vengamos (nosotros)."
       },
       {
         "type": "fill-blank",
         "prompt": "Completa el mandato negativo con ustedes.",
         "sentence": "No ___ (hacer) ruido durante la reunión.",
         "answer": "hagan",
-        "hint": "Usa la forma de subjuntivo para ustedes.",
-        "explanation": "El mandato negativo con ustedes usa el subjuntivo: no hagan."
+        "explanation": "Ustedes usa el subjuntivo, que sale del yo «hago»: no hagan. «No hacen» sería indicativo, una descripción.",
+        "hint": "Usa la forma de subjuntivo para ustedes."
       }
     ]
   },
@@ -8300,18 +11279,27 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Colocación de pronombres con mandatos negativos",
+        "heading": "Recuerda la regla: ¿pegado o delante?",
         "body": [
-          "Con los mandatos negativos, los pronombres se colocan antes del verbo, nunca unidos a él."
+          "Recuerda la regla: en español los pronombres van delante de cualquier verbo conjugado (no lo compro, no lo compres). El mandato afirmativo es la única excepción: el pronombre se pega al final, como con el infinitivo (cómpralo, cómpraselo), y suele necesitar tilde.",
+          "Por eso, al pasar de afirmativo a negativo el pronombre «salta» delante del verbo: dímelo → no me lo digas. Con dos pronombres el orden no cambia: primero el indirecto, después el directo, y le / les se convierten en se delante de lo, la, los, las."
         ],
         "examples": [
           {
             "es": "No me lo digas.",
-            "en": "Don't tell it to me."
+            "en": "Don't tell it to me. (negativo: delante)"
+          },
+          {
+            "es": "Dímelo.",
+            "en": "Tell it to me. (afirmativo: pegado, con tilde)"
           },
           {
             "es": "No te levantes todavía.",
-            "en": "Don't get up yet."
+            "en": "Don't get up yet. (reflexivo delante)"
+          },
+          {
+            "es": "¿Las llaves? Dáselas a Marta.",
+            "en": "The keys? Give them to Marta. (le + las → se las)"
           }
         ],
         "checkpoint": [
@@ -8320,15 +11308,33 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa el mandato negativo con el pronombre en el lugar correcto.",
             "sentence": "¿El número? No ___ olvides.",
             "answer": "lo",
-            "hint": "El pronombre va antes del verbo conjugado.",
-            "explanation": "En los mandatos negativos el pronombre se coloca antes del verbo: 'no lo olvides'."
+            "explanation": "En los mandatos negativos el pronombre va antes del verbo: no lo olvides. En afirmativo sería «olvídalo».",
+            "hint": "El pronombre va antes del verbo conjugado."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Cambia el mandato a negativo.",
+            "source": "Explícamelo otra vez.",
+            "answer": "No me lo expliques otra vez.",
+            "explanation": "En negativo el verbo pasa al subjuntivo (explica → expliques, c → qu) y los dos pronombres saltan delante, en el mismo orden: no me lo expliques."
           }
         ]
       },
       {
-        "heading": "Práctica mixta de mandatos",
+        "heading": "Práctica mixta: persona y polaridad",
         "body": [
-          "Esta práctica combina mandatos afirmativos y negativos con tú, usted, ustedes y nosotros."
+          "Para elegir la forma, decide dos cosas: la persona (tú, usted, ustedes, nosotros) y si es afirmativo o negativo. Solo el tú afirmativo tiene forma propia (habla, ven, haz); todo lo demás es presente de subjuntivo: no hables, hable, hablen, hablemos."
+        ],
+        "examples": [
+          {
+            "es": "Pasen y siéntense, por favor.",
+            "en": "Come in and sit down, please. (ustedes: subjuntivo)"
+          },
+          {
+            "es": "No hablemos de trabajo.",
+            "en": "Let's not talk about work. (nosotros negativo)"
+          }
         ],
         "checkpoint": [
           {
@@ -8352,7 +11358,19 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "nosotros, afirmativo"
               }
             ],
-            "explanation": "Cada mandato tiene una forma verbal distinta según la persona gramatical y la polaridad."
+            "explanation": "Solo «habla» usa la forma propia del tú afirmativo (igual que él habla); las demás son subjuntivo: hables, hablen, hablemos."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Don't touch it» (usted, el cuadro). ¿Cuál es correcta?",
+            "options": [
+              "No lo toque.",
+              "No tóquelo.",
+              "No lo toca.",
+              "No lo toques."
+            ],
+            "correctIndex": 0,
+            "explanation": "Usted negativo: subjuntivo (toque) con el pronombre delante: no lo toque. «No tóquelo» pega el pronombre en negativo, «toca» es indicativo y «toques» es para tú."
           }
         ]
       }
@@ -8368,7 +11386,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "des"
         ],
         "translation": "Don't give it to me. (tú)",
-        "explanation": "En los mandatos negativos el pronombre va antes del verbo conjugado: 'No me lo des'."
+        "explanation": "En los mandatos negativos los dos pronombres van antes del verbo conjugado, primero el indirecto: no me lo des."
       },
       {
         "type": "translate",
@@ -8376,7 +11394,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce al inglés.",
         "source": "Comamos algo antes de salir.",
         "answer": "Let's eat something before leaving.",
-        "explanation": "'Comamos' es el mandato de nosotros en subjuntivo, equivalente a 'let's eat'."
+        "explanation": "«Comamos» es el mandato de nosotros en subjuntivo, equivalente a «let's eat»."
       },
       {
         "type": "multiple-choice",
@@ -8395,8 +11413,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa el mandato afirmativo con el pronombre unido al verbo.",
         "sentence": "___ (levantar + te) ya, se hace tarde.",
         "answer": "Levántate",
-        "hint": "El pronombre se une al final y puede requerir acento escrito.",
-        "explanation": "Al unir 'te' al mandato 'levanta', se añade un acento escrito para mantener la sílaba tónica: levántate."
+        "explanation": "Al unir «te» al mandato «levanta», se añade una tilde para mantener la sílaba tónica: levántate.",
+        "hint": "El pronombre se une al final y puede requerir acento escrito."
       },
       {
         "type": "multi-select",
@@ -8424,18 +11442,23 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Repaso: formación regular",
+        "heading": "Recuerda la regla: infinitivo entero + -ía",
         "body": [
-          "El condicional regular se forma añadiendo -ía, -ías, -ía, -íamos, -íais, -ían al infinitivo completo, y las terminaciones son iguales para verbos -ar, -er e -ir."
+          "Recuerda la regla: el condicional se construye igual que el futuro, sobre el infinitivo entero (hablar-), pero con las terminaciones -ía, -ías, -ía, -íamos, -íais, -ían. Son las mismas para -ar, -er e -ir, y todas llevan tilde en la í.",
+          "Cuidado con el imperfecto: comía (com- + -ía) es el pasado; comería (comer- + -ía) es el condicional. La diferencia es la -r- del infinitivo."
         ],
         "examples": [
           {
-            "es": "hablar → hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían",
-            "en": "to speak → I/you/he/we/you all/they would speak"
+            "es": "Hablaría con ella, pero no contesta.",
+            "en": "I'd talk to her, but she doesn't answer. (hablar + ía)"
           },
           {
-            "es": "vivir → viviría, vivirías, viviría, viviríamos, viviríais, vivirían",
-            "en": "to live → I/you/he/we/you all/they would live"
+            "es": "¿Vivirías en el campo?",
+            "en": "Would you live in the countryside? (vivir + ías)"
+          },
+          {
+            "es": "Nos levantaríamos más tarde, pero hay clase.",
+            "en": "We'd get up later, but there's school. (reflexivo delante)"
           }
         ],
         "checkpoint": [
@@ -8444,24 +11467,40 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjuga el verbo en condicional.",
             "sentence": "Nosotros ___ (comer) en ese restaurante si tuviéramos dinero.",
             "answer": "comeríamos",
-            "hint": "infinitivo + íamos",
-            "explanation": "Comer es regular: comer → comería, comerías, comería, comeríamos, comeríais, comerían."
+            "explanation": "Comer es regular: infinitivo entero + -íamos, comeríamos. «Comíamos» sería imperfecto: le falta la -r- del infinitivo.",
+            "hint": "infinitivo + íamos"
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Condicional de «abrir» (ellos):",
+            "options": [
+              "abrirían",
+              "abrían",
+              "abrieran",
+              "abriríen"
+            ],
+            "correctIndex": 0,
+            "explanation": "Infinitivo entero (abrir) + -ían: abrirían. «Abrían» es imperfecto (sin la -r- del infinitivo), «abrieran» es subjuntivo y «abriríen» mezcla terminaciones."
           }
         ]
       },
       {
-        "heading": "Repaso: raíces irregulares (las mismas del futuro)",
+        "heading": "Raíces irregulares: las mismas del futuro",
         "body": [
-          "El condicional usa exactamente las mismas raíces irregulares que el futuro: poder→podr-, tener→tendr-, decir→dir-, hacer→har-, saber→sabr-, poner→pondr-, salir→saldr-, venir→vendr-, querer→querr-."
+          "Los verbos que son irregulares en el futuro usan la misma raíz en el condicional; solo cambias -é por -ía (tendré → tendría). Tres grupos: pierden la vocal (poder → podr-, saber → sabr-, querer → querr-, haber → habr-), meten una d (tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-, valer → valdr-) o se acortan (decir → dir-, hacer → har-)."
         ],
         "examples": [
           {
             "es": "Yo no podría hacerlo solo.",
-            "en": "I couldn't do it alone."
+            "en": "I couldn't do it alone. (poder → podr-)"
           },
           {
             "es": "¿Qué dirías tú en esa situación?",
-            "en": "What would you say in that situation?"
+            "en": "What would you say in that situation? (decir → dir-)"
+          },
+          {
+            "es": "Saldríamos antes, pero llueve.",
+            "en": "We'd leave earlier, but it's raining. (salir → saldr-)"
           }
         ],
         "checkpoint": [
@@ -8470,8 +11509,8 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjuga el verbo irregular en condicional.",
             "sentence": "Ellos ___ (tener) que salir temprano.",
             "answer": "tendrían",
-            "hint": "tener → tendr-",
-            "explanation": "Tener comparte su raíz irregular con el futuro: tendr-, así que el condicional es tendría, tendrías, tendría, tendríamos, tendríais, tendrían."
+            "explanation": "Tener comparte su raíz irregular con el futuro: tendr-, así que el condicional es tendría, tendrías, tendría, tendríamos, tendríais, tendrían.",
+            "hint": "tener → tendr-"
           },
           {
             "type": "multiple-choice",
@@ -8483,7 +11522,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "hacimos"
             ],
             "correctIndex": 1,
-            "explanation": "Hacer usa la raíz irregular har- en el condicional (igual que en el futuro): haríamos, no haceríamos."
+            "explanation": "Hacer usa la raíz irregular har- en el condicional (igual que en el futuro): haríamos, no haceríamos. «Haremos» es futuro y «hacimos» no existe."
           }
         ]
       }
@@ -8494,32 +11533,32 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo regular en condicional.",
         "sentence": "Yo ___ (hablar) con el profesor si tuviera la oportunidad.",
         "answer": "hablaría",
-        "hint": "infinitivo + ía",
-        "explanation": "Hablar es regular en condicional: hablar → hablaría."
+        "explanation": "Hablar es regular en condicional: infinitivo entero + -ía, hablaría.",
+        "hint": "infinitivo + ía"
       },
       {
         "type": "fill-blank",
         "prompt": "Conjuga el verbo regular en condicional.",
         "sentence": "¿Tú ___ (vivir) en otro país si pudieras?",
         "answer": "vivirías",
-        "hint": "infinitivo + ías",
-        "explanation": "Vivir es regular en condicional: vivir → vivirías."
+        "explanation": "Vivir es regular en condicional: vivir + -ías, vivirías.",
+        "hint": "infinitivo + ías"
       },
       {
         "type": "fill-blank",
         "prompt": "Conjuga el verbo irregular en condicional.",
         "sentence": "Nosotros ___ (decir) la verdad si nos preguntaran.",
         "answer": "diríamos",
-        "hint": "decir → dir-",
-        "explanation": "Decir tiene la raíz irregular dir- en el condicional: diría, dirías, diría, diríamos, diríais, dirían."
+        "explanation": "Decir tiene la raíz irregular dir- en el condicional: diría, dirías, diría, diríamos, diríais, dirían.",
+        "hint": "decir → dir-"
       },
       {
         "type": "fill-blank",
         "prompt": "Conjuga el verbo irregular en condicional.",
         "sentence": "Con más práctica, yo ___ (poder) hablar español fluidamente.",
         "answer": "podría",
-        "hint": "poder → podr-",
-        "explanation": "Poder tiene la raíz irregular podr- en el condicional: podría, podrías, podría..."
+        "explanation": "Poder pierde la vocal del infinitivo: podr- + -ía, podría. «Podería» no existe.",
+        "hint": "poder → podr-"
       },
       {
         "type": "multiple-choice",
@@ -8531,7 +11570,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "saldrán"
         ],
         "correctIndex": 0,
-        "explanation": "Salir usa la raíz irregular saldr- en el condicional: saldrían, no salirían."
+        "explanation": "Salir usa la raíz irregular saldr- en el condicional: saldrían, no salirían. «Saldrán» es futuro."
       },
       {
         "type": "multiple-choice",
@@ -8554,7 +11593,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "If I were rich, I would not work so much."
         ],
-        "explanation": "\"Fuera\" es imperfecto de subjuntivo de ser, y \"trabajaría\" es el condicional que expresa el resultado hipotético."
+        "explanation": "«Fuera» es imperfecto de subjuntivo de ser, y «trabajaría» es el condicional que expresa el resultado hipotético."
       }
     ]
   },
@@ -8567,18 +11606,23 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Situaciones hipotéticas",
+        "heading": "Recuerda la regla: el condicional es el tiempo de lo imaginado",
         "body": [
-          "El condicional expresa lo que pasaría en una situación imaginaria, muchas veces junto a una cláusula con \"si\" + imperfecto de subjuntivo (si tuviera, si ganara). Por ahora apréndelo como bloque; lo estudiarás a fondo en el nivel Avanzado."
+          "Recuerda la regla: el condicional sitúa la acción en un mundo imaginado, no en la realidad: lo que pasaría si… Esa misma distancia de la realidad es la que hace más suaves las peticiones y los consejos de las dos secciones siguientes.",
+          "Con «si», la condición imaginaria va en imperfecto de subjuntivo (si tuviera, si ganara) y el resultado en condicional. Nunca se pone el condicional detrás de ese «si». Por ahora apréndelo como bloque; lo estudiarás a fondo en el nivel Avanzado."
         ],
         "examples": [
           {
             "es": "Si tuviera más tiempo, viajaría más.",
-            "en": "If I had more time, I would travel more."
+            "en": "If I had more time, I would travel more. (si + tuviera → viajaría)"
           },
           {
             "es": "Si ganara la lotería, compraría una casa.",
             "en": "If I won the lottery, I would buy a house."
+          },
+          {
+            "es": "Sin coche, iríamos en tren.",
+            "en": "Without a car, we'd go by train. (hipótesis sin «si»)"
           }
         ],
         "checkpoint": [
@@ -8591,46 +11635,51 @@ const B1_BASE_LESSONS: Lesson[] = [
             "altAnswers": [
               "Si tuviera más dinero, compraría un coche nuevo."
             ],
-            "explanation": "La situación hipotética usa imperfecto de subjuntivo (tuviera) en la cláusula con \"si\" y condicional (compraría) en la consecuencia."
+            "explanation": "La situación hipotética usa imperfecto de subjuntivo (tuviera) en la cláusula con «si» y condicional (compraría) en la consecuencia."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Corrige la frase.",
+            "source": "Si tendría tiempo, te ayudaría.",
+            "answer": "Si tuviera tiempo, te ayudaría.",
+            "explanation": "El condicional nunca va detrás del «si» de condición: ahí va el imperfecto de subjuntivo (tuviera). El condicional se queda en el resultado: te ayudaría."
           }
         ]
       },
       {
         "heading": "Peticiones corteses",
         "body": [
-          "El condicional suaviza las peticiones y las hace más corteses, como en \"¿Podrías ayudarme?\" y \"Me gustaría un café.\""
+          "El condicional convierte una petición directa en una hipótesis (¿podrías…? = would you be able to…?), y por eso suena más suave y educada que el presente (¿puedes…?). Lo mismo pasa con «me gustaría» frente a «quiero»."
         ],
         "examples": [
           {
             "es": "¿Podrías pasarme la sal, por favor?",
-            "en": "Could you pass me the salt, please?"
+            "en": "Could you pass me the salt, please? (más suave que «¿puedes?»)"
           },
           {
             "es": "Me gustaría reservar una mesa para dos.",
-            "en": "I would like to book a table for two."
+            "en": "I would like to book a table for two. (más suave que «quiero»)"
           }
         ],
         "checkpoint": [
           {
             "type": "translate",
             "direction": "en-es",
-            "prompt": "Traduce la petición cortés.",
-            "source": "Could you help me with this exercise?",
+            "prompt": "Transforma la petición en más cortés con el condicional.",
+            "source": "¿Puedes ayudarme con este ejercicio?",
             "answer": "¿Podrías ayudarme con este ejercicio?",
             "altAnswers": [
-              "¿Podría ayudarme con este ejercicio?",
-              "¿Podrían ayudarme con este ejercicio?",
-              "¿Me podrías ayudar con este ejercicio?",
-              "¿Me podría ayudar con este ejercicio?"
+              "¿Me podrías ayudar con este ejercicio?"
             ],
-            "explanation": "\"Podrías\" (condicional de poder) suaviza la petición y suena más cortés que \"¿Puedes ayudarme?\"."
+            "explanation": "Al pasar «poder» del presente al condicional (puedes → podrías), la petición se vuelve hipotética y más cortés."
           }
         ]
       },
       {
         "heading": "Dar consejos",
         "body": [
-          "Para dar consejos usamos \"yo que tú\" o \"yo en tu lugar\" seguido del condicional, algo como \"if I were you\" en inglés."
+          "Para aconsejar, te pones en el lugar del otro de forma imaginaria: «yo que tú» o «yo en tu lugar» + condicional, como «if I were you» en inglés. Es más suave que un mandato: no ordenas, cuentas lo que harías tú."
         ],
         "examples": [
           {
@@ -8654,7 +11703,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "más"
             ],
             "translation": "If I were you, I would rest more.",
-            "explanation": "El orden natural es \"Yo que tú, descansaría más\": la expresión fija \"yo que tú\" va seguida del verbo en condicional."
+            "explanation": "El orden natural es «Yo que tú, descansaría más»: la expresión fija «yo que tú» va seguida del verbo en condicional."
           }
         ]
       }
@@ -8666,7 +11715,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "I would travel more if I had money.",
         "answer": "Viajaría más si tuviera dinero.",
-        "explanation": "El condicional (viajaría) expresa el resultado imaginario, y el imperfecto de subjuntivo (tuviera) va en la cláusula con \"si\"."
+        "explanation": "El condicional (viajaría) expresa el resultado imaginario, y el imperfecto de subjuntivo (tuviera) va en la cláusula con «si», aunque vaya en segundo lugar."
       },
       {
         "type": "translate",
@@ -8678,15 +11727,15 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Quisiera un vaso de agua, por favor.",
           "Querría un vaso de agua, por favor."
         ],
-        "explanation": "\"Me gustaría\" (condicional de gustar) es una forma cortés de pedir algo, más suave que \"quiero\"."
+        "explanation": "«Me gustaría» (condicional de gustar) es una forma cortés de pedir algo, más suave que «quiero»."
       },
       {
         "type": "fill-blank",
         "prompt": "Completa la petición cortés.",
         "sentence": "¿___ (poder) usted decirme dónde está la estación, por favor?",
         "answer": "Podría",
-        "hint": "petición cortés con poder",
-        "explanation": "\"¿Podría usted...?\" es una forma cortés y formal de pedir información, usando el condicional de poder."
+        "explanation": "«¿Podría usted...?» es una forma cortés y formal de pedir información: condicional de poder, con la raíz podr-.",
+        "hint": "petición cortés con poder"
       },
       {
         "type": "multiple-choice",
@@ -8713,15 +11762,15 @@ const B1_BASE_LESSONS: Lesson[] = [
           "trabajo"
         ],
         "translation": "If I were you, I would accept the job.",
-        "explanation": "\"Yo en tu lugar\" introduce el consejo, seguido del verbo en condicional: \"aceptaría el trabajo\"."
+        "explanation": "«Yo en tu lugar» introduce el consejo, seguido del verbo en condicional: «aceptaría el trabajo»."
       },
       {
         "type": "fill-blank",
         "prompt": "Completa el consejo con el condicional.",
         "sentence": "Yo que tú, ___ (ir) al médico hoy mismo.",
         "answer": "iría",
-        "hint": "consejo con yo que tú",
-        "explanation": "Tras «yo que tú» el consejo va en condicional: iría (infinitivo completo ir + -ía)."
+        "explanation": "Tras «yo que tú» el consejo va en condicional: iría (infinitivo completo ir + -ía).",
+        "hint": "consejo con yo que tú"
       }
     ]
   },
@@ -8734,18 +11783,23 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Especular sobre el pasado",
+        "heading": "Recuerda la regla: el condicional es el futuro del pasado",
         "body": [
-          "El condicional también expresa conjeturas sobre el pasado (Serían las diez = probablemente eran las diez) y el futuro visto desde el pasado (Me pregunté qué pasaría)."
+          "Recuerda la regla: el condicional es al pasado lo que el futuro es al presente. Por eso hace en el pasado los dos trabajos que el futuro hace en el presente.",
+          "1) Conjetura: «Serán las diez» (supongo que ahora son las diez) → «Serían las diez» (supongo que entonces eran las diez). 2) Lo que iba a pasar, visto desde un momento pasado: «Dice que vendrá» → «Dijo que vendría»."
         ],
         "examples": [
           {
-            "es": "Me pregunté qué pasaría con el proyecto.",
-            "en": "I wondered what would happen with the project."
+            "es": "Serían las diez cuando por fin llegó.",
+            "en": "It must have been about ten when he finally arrived. (conjetura pasada)"
           },
           {
-            "es": "Serían las diez cuando por fin llegó.",
-            "en": "It must have been about ten when he finally arrived."
+            "es": "Me pregunté qué pasaría con el proyecto.",
+            "en": "I wondered what would happen with the project. (futuro desde el pasado)"
+          },
+          {
+            "es": "Estará en casa. → Estaría en casa.",
+            "en": "She's probably at home. → She was probably at home."
           }
         ],
         "checkpoint": [
@@ -8754,20 +11808,36 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa con el condicional de especulación.",
             "sentence": "No sé qué hora era, pero ___ (ser) las once de la noche.",
             "answer": "serían",
-            "hint": "conjetura sobre el pasado",
-            "explanation": "Para especular sobre una hora o situación pasada se usa el condicional: \"serían las once\" equivale a \"probablemente eran las once\"."
+            "explanation": "Para especular sobre una hora o situación pasada se usa el condicional: «serían las once» equivale a «probablemente eran las once».",
+            "hint": "conjetura sobre el pasado"
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Cambia «dice» por «dijo» y ajusta el otro verbo.",
+            "source": "Dice que llegará tarde.",
+            "answer": "Dijo que llegaría tarde.",
+            "explanation": "Si el verbo principal pasa al pasado (dice → dijo), lo que iba a ocurrir pasa del futuro al condicional: llegará → llegaría."
           }
         ]
       },
       {
         "heading": "Práctica mixta: condicional, futuro e imperfecto",
         "body": [
-          "El futuro predice, el condicional imagina o suaviza, y el imperfecto describe hábitos o situaciones pasadas, así que hay que fijarse bien en las terminaciones y el contexto."
+          "Tres tiempos que se parecen en la forma (iré, iría, iba) pero no en el uso: el futuro predice o planea desde ahora, el condicional imagina, suaviza o mira hacia delante desde el pasado, y el imperfecto describe hábitos o situaciones pasadas. Las pistas están en el contexto: mañana, dijo que, de niño…"
         ],
         "examples": [
           {
-            "es": "Mañana iré al médico (futuro). / Dijo que iría al médico (condicional). / Antes iba al médico cada mes (imperfecto).",
-            "en": "Tomorrow I'll go to the doctor (future). / He said he would go to the doctor (conditional). / I used to go to the doctor every month (imperfect)."
+            "es": "Mañana iré al médico.",
+            "en": "Tomorrow I'll go to the doctor. (futuro: plan)"
+          },
+          {
+            "es": "Dijo que iría al médico.",
+            "en": "He said he would go to the doctor. (condicional: futuro desde el pasado)"
+          },
+          {
+            "es": "Antes iba al médico cada mes.",
+            "en": "I used to go to the doctor every month. (imperfecto: hábito)"
           }
         ],
         "checkpoint": [
@@ -8793,7 +11863,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "llega"
             ],
             "correctIndex": 1,
-            "explanation": "Dentro de un discurso indirecto en pasado (\"dijo que...\"), el futuro se convierte en condicional: llegaría."
+            "explanation": "Dentro de un discurso indirecto en pasado («dijo que...»), el futuro se convierte en condicional: llegaría. «Llegará» mantiene el futuro de ahora, «llegaba» es un hábito y «llega» es presente."
           }
         ]
       }
@@ -8809,7 +11879,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "I wondered what would happen if I told her the truth.",
           "I wondered what would happen if I told you the truth."
         ],
-        "explanation": "\"Qué pasaría\" es el condicional como futuro visto desde el pasado: después de \"me pregunté\", lo que iba a pasar se expresa en condicional. \"Le\" puede ser him, her o you (usted)."
+        "explanation": "«Qué pasaría» es el condicional como futuro visto desde el pasado: después de «me pregunté», lo que iba a pasar se expresa en condicional. «Le» puede ser him, her o you (usted)."
       },
       {
         "type": "multi-select",
@@ -8872,16 +11942,16 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Elige entre imperfecto y condicional según el contexto.",
         "sentence": "De joven, mi abuela ___ (cantar) todas las noches.",
         "answer": "cantaba",
-        "hint": "hábito pasado",
-        "explanation": "\"Cantaba\" describe un hábito repetido en el pasado (imperfecto)."
+        "explanation": "«De joven» + «todas las noches» marcan un hábito pasado: imperfecto, cantaba. «Cantaría» imaginaría, no describiría lo que hacía.",
+        "hint": "hábito pasado"
       },
       {
         "type": "fill-blank",
         "prompt": "Elige entre imperfecto y condicional según el contexto.",
         "sentence": "Ahora mi abuela dice que ___ (cantar) otra vez si tuviera fuerzas.",
         "answer": "cantaría",
-        "hint": "situación hipotética",
-        "explanation": "\"Cantaría\" expresa una posibilidad hipotética en el presente (condicional)."
+        "explanation": "«Si tuviera fuerzas» es una condición imaginaria, así que el resultado va en condicional: cantaría.",
+        "hint": "situación hipotética"
       }
     ]
   },
@@ -8894,9 +11964,10 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "El presente habitual: si + presente, + presente",
+        "heading": "Recuerda la regla: si + presente, + presente",
         "body": [
-          "Cuando ambas partes de la oración están en presente, hablamos de verdades generales, hábitos o reacciones automáticas, no de un evento futuro concreto."
+          "Recuerda la regla: después del si de condición real va siempre el presente de indicativo, nunca el futuro ni el presente de subjuntivo (✗ si lloverá, ✗ si llueva). Lo que cambia es la segunda parte, según lo que quieras decir.",
+          "Si las dos partes van en presente, hablas de algo que pasa siempre que se cumple la condición: verdades generales, hábitos o reacciones automáticas. No es un evento concreto del futuro, sino una regla de tu vida o del mundo."
         ],
         "examples": [
           {
@@ -8930,15 +12001,15 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con el verbo en presente.",
             "sentence": "Si hace frío, mi abuela ___ (ponerse) un abrigo.",
             "answer": "se pone",
-            "hint": "presente de ponerse, reflexivo",
-            "explanation": "La reacción habitual ante el frío se expresa con presente + presente: 'se pone' es el presente de 'ponerse'."
+            "explanation": "La reacción habitual ante el frío se expresa con presente + presente: 'se pone' es el presente de 'ponerse'.",
+            "hint": "presente de ponerse, reflexivo"
           }
         ]
       },
       {
         "heading": "La posibilidad real futura: si + presente, + futuro o imperativo",
         "body": [
-          "Para hablar de una condición real que puede cumplirse en el futuro, usamos si + presente en la primera parte y futuro o imperativo en la segunda."
+          "Para una condición real que puede cumplirse en el futuro, la primera parte sigue en presente y la segunda pasa a futuro (lo que pasará) o a imperativo (lo que el otro debe hacer). El presente tras si ya mira al futuro; por eso no hace falta, ni se puede, poner futuro después de si."
         ],
         "examples": [
           {
@@ -8968,8 +12039,8 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa con un imperativo lógico.",
             "sentence": "Si necesitas ayuda, ___ (llamar, tú) a la oficina.",
             "answer": "llama",
-            "hint": "imperativo afirmativo de tú",
-            "explanation": "El imperativo 'llama' da una instrucción directa como consecuencia de una condición real."
+            "explanation": "El imperativo 'llama' da una instrucción directa como consecuencia de una condición real.",
+            "hint": "imperativo afirmativo de tú"
           }
         ]
       }
@@ -9019,24 +12090,24 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con el verbo correcto en presente.",
         "sentence": "Si ___ (yo, tener) prisa, tomo un taxi en vez del autobús.",
         "answer": "tengo",
-        "hint": "presente de tener, primera persona",
-        "explanation": "Es un hábito personal, así que ambas partes van en presente: 'Si tengo prisa, tomo un taxi.'"
+        "explanation": "Es un hábito personal, así que ambas partes van en presente: 'Si tengo prisa, tomo un taxi.'",
+        "hint": "presente de tener, primera persona"
       },
       {
         "type": "fill-blank",
         "prompt": "Completa con ir a + infinitivo.",
         "sentence": "Si el jefe aprueba el proyecto, ___ (nosotros, empezar) la próxima semana.",
         "answer": "vamos a empezar",
-        "hint": "ir a + infinitivo, primera persona plural",
-        "explanation": "Para un plan casi seguro, se usa ir a + infinitivo: 'vamos a empezar'."
+        "explanation": "Para un plan casi seguro, se usa ir a + infinitivo: 'vamos a empezar'.",
+        "hint": "ir a + infinitivo, primera persona plural"
       },
       {
         "type": "fill-blank",
         "prompt": "Completa con 'si' o 'sí'.",
         "sentence": "No estoy segura de ___ el tren sale a las ocho o a las nueve.",
         "answer": "si",
-        "hint": "pregunta indirecta, sin tilde",
-        "explanation": "Aquí 'si' introduce una pregunta indirecta (whether) y no lleva tilde, a diferencia del 'sí' afirmativo."
+        "explanation": "Aquí 'si' introduce una pregunta indirecta (whether) y no lleva tilde, a diferencia del 'sí' afirmativo.",
+        "hint": "pregunta indirecta, sin tilde"
       }
     ]
   },
@@ -9049,18 +12120,23 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "El plan inmediato: si + presente, + ir a + infinitivo",
+        "heading": "Recuerda la regla: si + presente, + ir a + infinitivo",
         "body": [
-          "Para condiciones reales con una consecuencia planeada o casi segura, usamos si + presente y luego ir a + infinitivo."
+          "Recuerda la regla: tras el si de condición real va el presente de indicativo; nunca futuro ni presente de subjuntivo (✗ si estará, ✗ si esté). La consecuencia puede ir en futuro, pero en la conversación es muy frecuente ir a + infinitivo.",
+          "¿Por qué ir a? Porque presenta la consecuencia como un plan ya decidido: si pasa X, esto es lo que voy a hacer. Suena más cercano y seguro que el futuro simple."
         ],
         "examples": [
           {
             "es": "Si terminamos pronto, vamos a salir a cenar.",
-            "en": "If we finish soon, we are going to go out for dinner."
+            "en": "If we finish soon, we're going to go out for dinner. (plan decidido)"
           },
           {
             "es": "Si no llega el autobús, voy a caminar.",
-            "en": "If the bus doesn't arrive, I'm going to walk."
+            "en": "If the bus doesn't come, I'm going to walk. (plan B)"
+          },
+          {
+            "es": "Si me ofrecen el puesto, lo voy a aceptar.",
+            "en": "If they offer me the job, I'm going to accept it. (pronombre antes de voy o pegado: voy a aceptarlo)"
           }
         ],
         "checkpoint": [
@@ -9074,6 +12150,18 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Si mañana hace sol, vamos a ir a la playa."
             ],
             "explanation": "La consecuencia planeada se expresa con ir a + infinitivo: 'vamos a ir'."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Si ___ (estar, ellos) en casa, vamos a visitarlos.»",
+            "options": [
+              "están",
+              "estarán",
+              "estén",
+              "estaban"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tras el si de condición real va el presente de indicativo: están. «Estarán» es futuro y «estén» presente de subjuntivo, que nunca siguen a este si; «estaban» lo pasaría al pasado."
           }
         ]
       },
@@ -9114,8 +12202,8 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa con 'si' o 'sí' según corresponda.",
             "sentence": "—¿Puedo entrar? —___, adelante.",
             "answer": "Sí",
-            "hint": "respuesta afirmativa, lleva tilde",
-            "explanation": "Como respuesta afirmativa, 'sí' siempre lleva tilde para distinguirse de la conjunción condicional 'si'."
+            "explanation": "Como respuesta afirmativa, 'sí' siempre lleva tilde para distinguirse de la conjunción condicional 'si'.",
+            "hint": "respuesta afirmativa, lleva tilde"
           }
         ]
       },
@@ -9252,18 +12340,23 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Orden flexible de las cláusulas",
+        "heading": "Recuerda la regla: el orden y la coma",
         "body": [
-          "La cláusula con si puede ir antes o después del resultado, pero solo lleva coma cuando va primero."
+          "Recuerda la regla: la parte con si puede ir antes o después del resultado, y los tiempos no cambian (tras si, presente). Lo único que cambia es la coma: va solo cuando la condición abre la frase.",
+          "¿Por qué? La coma marca que la condición, colocada delante, ha terminado y empieza la idea principal. Cuando la idea principal va primero, la frase fluye sin pausa, igual que en inglés («Call me if…»)."
         ],
         "examples": [
           {
             "es": "Si llegas tarde, avísame.",
-            "en": "If you arrive late, let me know."
+            "en": "If you're late, let me know. (condición primero → coma)"
           },
           {
             "es": "Avísame si llegas tarde.",
-            "en": "Let me know if you arrive late."
+            "en": "Let me know if you're late. (resultado primero → sin coma)"
+          },
+          {
+            "es": "No sé si llegaré a tiempo.",
+            "en": "I don't know whether I'll make it on time. (si = whether: aquí sí puede ir futuro)"
           }
         ],
         "checkpoint": [
@@ -9377,8 +12470,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con la expresión fija correcta.",
         "sentence": "___ (si quieres / sí quieres), podemos ver una película esta noche.",
         "answer": "Si quieres",
-        "hint": "expresión fija para ofrecer algo",
-        "explanation": "'Si quieres' es la expresión fija correcta para hacer una sugerencia amable: es una condición, así que «si» va sin tilde. «Sí» con tilde es el adverbio de afirmación y aquí no tiene sentido."
+        "explanation": "'Si quieres' es la expresión fija correcta para hacer una sugerencia amable: es una condición, así que «si» va sin tilde. «Sí» con tilde es el adverbio de afirmación y aquí no tiene sentido.",
+        "hint": "expresión fija para ofrecer algo"
       },
       {
         "type": "translate",
@@ -9433,18 +12526,23 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Formación del pretérito perfecto",
+        "heading": "Recuerda la regla: haber + participio",
         "body": [
-          "El pretérito perfecto se forma con el presente de haber (he, has, ha, hemos, habéis, han) seguido del participio pasado del verbo principal."
+          "Recuerda la regla: el pretérito perfecto se forma con el presente de haber (he, has, ha, hemos, habéis, han) + el participio del verbo principal. Se usa para acciones pasadas que conectan con el presente: dentro de un periodo que no ha terminado (hoy, este año), experiencias de la vida (¿has estado en…?) o resultados que se notan ahora.",
+          "El participio no cambia nunca: ha comido, hemos comido, han comido. Y nada se mete entre haber y el participio: los pronombres y el «no» van delante (no lo he visto), nunca en medio. En gran parte de América se usa más el pretérito simple (hoy comí), pero la forma del perfecto es la misma."
         ],
         "examples": [
           {
             "es": "He viajado mucho este año.",
-            "en": "I have traveled a lot this year."
+            "en": "I have traveled a lot this year. (periodo sin terminar)"
           },
           {
             "es": "¿Has visto la nueva película?",
-            "en": "Have you seen the new movie?"
+            "en": "Have you seen the new movie? (experiencia)"
+          },
+          {
+            "es": "Todavía no lo he terminado.",
+            "en": "I still haven't finished it. (no + pronombre delante de haber)"
           }
         ],
         "checkpoint": [
@@ -9605,8 +12703,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo en pretérito perfecto.",
         "sentence": "¿Tú ___ (leer) el correo que te mandé?",
         "answer": "has leído",
-        "hint": "presente de haber + participio",
-        "explanation": "Leer es regular en el participio: leído. Con 'tú' se usa has."
+        "explanation": "Leer es regular en el participio: leído. Con 'tú' se usa has.",
+        "hint": "presente de haber + participio"
       },
       {
         "type": "fill-blank",
@@ -9626,18 +12724,23 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Uso: acciones recientes o con relevancia presente",
+        "heading": "Recuerda la regla: ¿anterior a ahora o a otro pasado?",
         "body": [
-          "El pretérito perfecto se usa para acciones que acaban de ocurrir o que tienen relevancia en el presente, muchas veces con palabras como ya, todavía no y hoy."
+          "Recuerda la regla: los dos tiempos compuestos usan haber + participio; lo que cambia es el punto de referencia. El pretérito perfecto (he terminado) mira desde ahora: acciones recientes o con relevancia presente, a menudo con ya, todavía no y hoy.",
+          "El pluscuamperfecto (había terminado) mira desde un momento pasado: la acción ya estaba hecha antes de otra acción pasada (cuando llegué, ya había salido). Si hay un «cuando + pretérito» en la frase, lo anterior a ese momento va en pluscuamperfecto, no en perfecto."
         ],
         "examples": [
           {
             "es": "Ya he terminado la tarea.",
-            "en": "I have already finished the homework."
+            "en": "I have already finished the homework. (referencia: ahora)"
           },
           {
             "es": "Todavía no hemos comido.",
-            "en": "We haven't eaten yet."
+            "en": "We haven't eaten yet. (referencia: ahora)"
+          },
+          {
+            "es": "Cuando sonó el teléfono, ya me había dormido.",
+            "en": "When the phone rang, I had already fallen asleep. (referencia: sonó)"
           }
         ],
         "checkpoint": [
@@ -9677,6 +12780,18 @@ const B1_BASE_LESSONS: Lesson[] = [
             "sentence": "Cuando yo llamé, tú ya ___ (salir) de casa.",
             "answer": "habías salido",
             "explanation": "La salida ocurrió antes de la llamada (otro momento pasado), así que se usa el pluscuamperfecto: habías salido."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Cuando llegó la ambulancia, el herido ya ___.»",
+            "options": [
+              "se había levantado",
+              "se ha levantado",
+              "se levantaba",
+              "se había levantada"
+            ],
+            "correctIndex": 0,
+            "explanation": "Lo que ya estaba hecho antes de «llegó» va en pluscuamperfecto: se había levantado. «Se ha levantado» mira desde ahora, «se levantaba» es imperfecto y el participio no concuerda (levantada) en los tiempos compuestos."
           }
         ]
       }
@@ -9748,18 +12863,23 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Contraste: pretérito perfecto vs. pretérito indefinido",
+        "heading": "Recuerda la regla: ¿el periodo ha terminado?",
         "body": [
-          "A diferencia del pretérito indefinido, que se usa para hechos terminados en un momento específico del pasado, el pretérito perfecto conecta la acción con el presente, sobre todo con marcadores como esta mañana, este año u hoy."
+          "Recuerda la regla: el pretérito indefinido (desayuné) cuenta hechos en un tiempo ya cerrado: ayer, anoche, el año pasado, en 2015. El pretérito perfecto (he desayunado) cuenta hechos en un periodo que todavía no ha terminado o que conecta con ahora: hoy, esta mañana, este año, nunca, ya.",
+          "¿Por qué? El perfecto usa haber en presente, y ese presente lo ata al momento en que hablas. Por eso suena raro con una fecha cerrada (✗ en 2015 he conocido). Ojo: en gran parte de América se usa el indefinido también con hoy o este año (hoy desayuné); el error que hay que evitar en todas partes es el perfecto con un tiempo cerrado."
         ],
         "examples": [
           {
             "es": "Esta mañana he desayunado tarde.",
-            "en": "This morning I ate breakfast late."
+            "en": "This morning I ate breakfast late. (la mañana es parte de hoy)"
           },
           {
             "es": "Ayer desayuné muy temprano.",
-            "en": "Yesterday I ate breakfast very early."
+            "en": "Yesterday I ate breakfast very early. (ayer ya terminó)"
+          },
+          {
+            "es": "Este mes he ido dos veces al dentista; el mes pasado no fui.",
+            "en": "This month I've been to the dentist twice; last month I didn't go. (abierto / cerrado)"
           }
         ],
         "checkpoint": [
@@ -9900,9 +13020,10 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Que: el pronombre relativo más común",
+        "heading": "Recuerda la regla: el antecedente y lo que va delante deciden",
         "body": [
-          "El pronombre 'que' es el más común y se usa tanto para personas como para cosas, sobre todo como sujeto o como objeto directo."
+          "Un relativo une dos frases: en la segunda sustituye al sustantivo que ya se ha nombrado (el antecedente). La mujer llegó tarde + la mujer es mi jefa → La mujer que llegó tarde es mi jefa. Para elegirlo, mira dos cosas: qué es el antecedente (persona, cosa, lugar) y qué va justo delante (nada, una coma, una preposición).",
+          "Sin preposición ni coma se usa 'que', tanto para personas como para cosas, sea sujeto u objeto directo. Y a diferencia del inglés, donde 'that' se puede omitir (the book I bought), en español 'que' nunca desaparece: el libro que compré."
         ],
         "examples": [
           {
@@ -9940,7 +13061,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Quien y quienes: solo para personas",
         "body": [
-          "Quien y quienes se refieren solo a personas y se usan típicamente después de una preposición o una coma, no pegados directamente al sustantivo."
+          "Quien y quienes se refieren solo a personas y se usan típicamente después de una preposición o una coma, no pegados directamente al sustantivo: 'la chica quien canta' es incorrecto. Con un lugar como antecedente se usa 'donde' (= en el que)."
         ],
         "examples": [
           {
@@ -9999,7 +13120,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "cuyos"
         ],
         "correctIndex": 2,
-        "explanation": "'Perro' es masculino singular, así que corresponde 'cuyo', aunque 'vecinos' sea plural."
+        "explanation": "«Cuyo» concuerda con lo poseído, no con el poseedor: «perro» es masculino singular, así que corresponde «cuyo», aunque «vecinos» sea plural. «Cuyos» concordaría con los vecinos, y «que» o «quienes» no expresan posesión."
       },
       {
         "type": "multi-select",
@@ -10053,6 +13174,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El que / la que / los que / las que: énfasis y claridad",
         "body": [
+          "Recuerda la regla: el artículo de 'el que, la que, los que, las que' ocupa el lugar del sustantivo y lleva su género y número, por eso sirve para señalar uno entre varios sin repetir el nombre (de mis dos primas, la que vive en Sevilla). Cuando no hay ningún sustantivo detrás, sino una idea o una situación, se usa el neutro 'lo que' (= what). Y si el antecedente es un lugar, 'donde' equivale a 'en el que'.",
           "El que, la que, los que y las que se usan para dar énfasis o para aclarar a cuál de varios antecedentes nos referimos, y concuerdan en género y número con el sustantivo."
         ],
         "examples": [
@@ -10234,6 +13356,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cuyo, cuya, cuyos, cuyas: posesión",
         "body": [
+          "Recuerda la regla: 'cuyo' funciona como un posesivo (su, sus) dentro de una relativa: El autor ganó el premio + su novela… → el autor cuya novela… Por eso, como un adjetivo, concuerda con lo que viene detrás (lo poseído), nunca con el poseedor. El error típico es calcar 'que su' del habla informal: 'el autor que su novela' no es correcto en el registro estándar.",
           "Cuyo, cuya, cuyos y cuyas significan 'whose' y concuerdan en género y número con el sustantivo que los sigue, no con el poseedor."
         ],
         "examples": [
@@ -10421,7 +13544,8 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Voz pasiva con 'ser' + participio + 'por'",
         "body": [
-          "Recuerda que en la voz pasiva formal el participio concuerda en género y número con el sujeto: 'La novela fue escrita por Cervantes'."
+          "Recuerda la regla: la pasiva pone en primer plano lo que recibe la acción. Por eso lo que en la activa era el objeto (Cervantes escribió la novela) pasa a ser el sujeto (la novela fue escrita), y el participio, que aquí funciona como un adjetivo, concuerda con él en género y número: escrita, escritos, escritas. Quien hace la acción, si se menciona, va con 'por'.",
+          "El verbo 'ser' lleva el tiempo de la frase (fue, es, será, ha sido) y concuerda en número con el sujeto: 'La novela fue escrita por Cervantes', 'Los cuadros fueron pintados por Goya'."
         ],
         "examples": [
           {
@@ -10576,6 +13700,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Pasiva refleja vs. 'se' impersonal",
         "body": [
+          "Recuerda la regla: con 'se' + verbo, mira si hay un sustantivo que recibe la acción. Si lo hay, ese sustantivo es el sujeto gramatical y el verbo concuerda con él (pasiva refleja: 'se necesita un camarero', 'se necesitan camareros'). Si no hay ningún sustantivo, o lo que sigue es una persona con 'a' o un adverbio, el 'se' es impersonal y el verbo va siempre en singular ('Se trabaja mucho aquí', 'Se vive bien').",
           "Distingue la pasiva refleja, donde el sustantivo es el sujeto gramatical, del 'se' impersonal, donde no hay sujeto expreso y el verbo va siempre en singular: 'Se trabaja mucho aquí'."
         ],
         "examples": [
@@ -10755,7 +13880,8 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Posesivo tónico tras 'ser' vs. como adjetivo pospuesto",
         "body": [
-          "Cuando el posesivo tónico acompaña a un sustantivo en vez de sustituirlo, se coloca después de él y suele llevar artículo: 'un amigo mío', 'la casa suya'."
+          "Recuerda la regla: los posesivos átonos (mi, tu, su) son cortos porque siempre van pegados delante del sustantivo; los tónicos (mío, tuyo, suyo, nuestro) llevan acento propio y pueden ir solos: detrás del sustantivo, tras 'ser' o con artículo en lugar del sustantivo. Todos concuerdan con lo poseído, no con el poseedor: 'unas amigas mías'.",
+          "Cuando el posesivo tónico acompaña a un sustantivo en vez de sustituirlo, se coloca después de él y suele llevar artículo: 'un amigo mío', 'la casa suya'. Así se dice 'a friend of mine': un amigo mío, nunca 'un mi amigo'."
         ],
         "examples": [
           {
@@ -10949,9 +14075,24 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Emociones y reacciones",
+        "heading": "Recuerda los patrones: familias, verbos con se y verbos como gustar",
         "body": [
-          "Las 50 palabras de la lección «Present Subjunctive: Formation, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Present Subjunctive: Formation, Part 2 of 2», agrupadas para repasar. Antes de emparejar, recuerda tres patrones que te ayudan a usarlas bien.",
+          "1) Familias verbo ↔ sustantivo: alegrarse → la alegría, sorprender → la sorpresa, decepcionar → la decepción, asombrarse → el asombro. 2) Los verbos con se describen cómo se pone quien siente (asustarse, desanimarse) y el adjetivo concuerda con esa persona (me siento agobiada). 3) Molestar, preocupar, dar pena y dar rabia funcionan como gustar: me molesta, nos da pena."
+        ],
+        "examples": [
+          {
+            "es": "Nos sentimos muy orgullosas de ella.",
+            "en": "We (f.) feel very proud of her. (orgullosas agrees with nosotras)"
+          },
+          {
+            "es": "Me da rabia esperar tanto.",
+            "en": "It makes me furious to wait so long. (like gustar: me da rabia)"
+          },
+          {
+            "es": "Fue una decepción: el final me decepcionó.",
+            "en": "It was a disappointment: the ending disappointed me. (same family)"
+          }
         ],
         "checkpoint": [
           {
@@ -10999,7 +14140,7 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "to calm down"
               }
             ],
-            "explanation": "Palabras 1-10 de este tema."
+            "explanation": "Palabras 1-10. Fíjate en los verbos con se (emocionarse, frustrarse, enojarse, calmarse): describen cómo se pone quien siente. Molestar, preocupar y sorprender funcionan como gustar (me molesta…)."
           },
           {
             "type": "matching",
@@ -11046,7 +14187,7 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "relief"
               }
             ],
-            "explanation": "Palabras 11-20 de este tema."
+            "explanation": "Palabras 11-20: los sustantivos de emoción. Muchos tienen un verbo de la misma familia: la alegría / alegrarse, la sorpresa / sorprender, el enojo / enojarse. Los celos va siempre en plural."
           },
           {
             "type": "matching",
@@ -11093,7 +14234,7 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "to get discouraged"
               }
             ],
-            "explanation": "Palabras 21-30 de este tema."
+            "explanation": "Palabras 21-30. Sentirse + adjetivo concuerda con la persona (orgulloso / orgullosa); dar pena y dar rabia funcionan como gustar: me da pena."
           },
           {
             "type": "matching",
@@ -11140,7 +14281,7 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "to sympathize"
               }
             ],
-            "explanation": "Palabras 31-40 de este tema."
+            "explanation": "Palabras 31-40. Otra vez las familias: decepcionar / la decepción, asombrarse / el asombro. Asustarse, tranquilizarse, entusiasmarse, indignarse y compadecerse llevan se."
           },
           {
             "type": "matching",
@@ -11187,7 +14328,19 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "satisfaction"
               }
             ],
-            "explanation": "Palabras 41-50 de este tema."
+            "explanation": "Palabras 41-50. Bien- y mal- forman parejas de opuestos (el bienestar / el malestar), y ponerse + adjetivo describe un cambio: ponerse nervioso."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Como agradecer → el agradecimiento, ¿cuál es el sustantivo de «sufrir»?",
+            "options": [
+              "el sufrimiento",
+              "la sufrición",
+              "el sufro",
+              "la sufrencia"
+            ],
+            "correctIndex": 0,
+            "explanation": "Agradecer, sufrir y otros verbos (crecer, conocer) forman el sustantivo con -miento: el sufrimiento. Las otras formas no existen."
           }
         ]
       }
@@ -11207,6 +14360,247 @@ const B1_BASE_LESSONS: Lesson[] = [
           2
         ],
         "explanation": "La alegría y el miedo son emociones; el edificio y la deuda pertenecen a otros temas."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I'm fed up with the noise.",
+        "answer": "Estoy harto del ruido.",
+        "altAnswers": [
+          "Estoy harta del ruido."
+        ],
+        "explanation": "Estar harto de = to be fed up with; de + el = del. Harto concuerda con quien habla."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia el sujeto a nosotras.",
+        "source": "Me siento aliviada.",
+        "answer": "Nos sentimos aliviadas.",
+        "explanation": "Cambian el pronombre y el verbo (me siento → nos sentimos), y el adjetivo concuerda con el nuevo sujeto: aliviadas."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Mi hija se ha puesto nervioso antes del examen.",
+        "answer": "Mi hija se ha puesto nerviosa antes del examen.",
+        "explanation": "Con ponerse + adjetivo, el adjetivo concuerda con la persona: mi hija → nerviosa."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "Don't get discouraged (tú).",
+        "answer": "No te desanimes.",
+        "explanation": "Desanimarse: en negativo se usa la forma del subjuntivo, no te desanimes."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Los celos es un sentimiento peligroso.",
+        "answer": "Los celos son un sentimiento peligroso.",
+        "explanation": "«Los celos» es plural en español, así que el verbo va en plural: son."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Siento una gran ___ por mis hijos.",
+        "answer": "ternura",
+        "en": "I feel great [tenderness] for my children.",
+        "explanation": "La ternura = tenderness. Es femenina, como la mayoría de los sustantivos en -ura."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Después de la mala noticia, Ana necesita ___.",
+        "answer": "desahogarse",
+        "en": "After the bad news, Ana needs [to vent].",
+        "explanation": "Desahogarse = to vent, to get something off one's chest. Después de necesitar va el infinitivo, con el pronombre pegado."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Su respuesta me ha ___ mucho.",
+        "answer": "decepcionado",
+        "en": "His answer has [disappointed] me a lot.",
+        "explanation": "Decepcionar = to disappoint; con haber, participio en -o."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Con tanto trabajo, me siento ___.",
+        "answer": "agobiado",
+        "en": "With so much work, I feel [overwhelmed].",
+        "altAnswers": [
+          "agobiada"
+        ],
+        "explanation": "Sentirse agobiado = to feel overwhelmed; el adjetivo concuerda con quien habla."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I'm thankful for your (tú) help.",
+        "answer": "Te agradezco la ayuda.",
+        "altAnswers": [
+          "Te agradezco tu ayuda.",
+          "Agradezco tu ayuda.",
+          "Estoy agradecido por tu ayuda.",
+          "Estoy agradecida por tu ayuda.",
+          "Estoy agradecido por la ayuda.",
+          "Estoy agradecida por la ayuda."
+        ],
+        "explanation": "Agradecer algo (sin «por» con el objeto directo): te agradezco la ayuda."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "It makes me feel sorry to see the dog alone.",
+        "answer": "Me da pena ver al perro solo.",
+        "altAnswers": [
+          "Me da pena ver solo al perro."
+        ],
+        "explanation": "Dar pena = to make one feel sorry; funciona como gustar: me da pena."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "The movie moved us a lot.",
+        "answer": "La película nos conmovió mucho.",
+        "altAnswers": [
+          "La película nos ha conmovido mucho."
+        ],
+        "explanation": "Conmover = to move (emotionally); el pronombre nos indica a quién afecta."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué significa «el alivio»?",
+        "options": [
+          "relief",
+          "amazement",
+          "pride",
+          "sadness"
+        ],
+        "correctIndex": 0,
+        "explanation": "El alivio = relief (de aliviar). Amazement es el asombro, pride es el orgullo y sadness es la tristeza."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué palabra significa «helplessness»?",
+        "options": [
+          "la impotencia",
+          "el malestar",
+          "el bienestar",
+          "la vergüenza"
+        ],
+        "correctIndex": 0,
+        "explanation": "La impotencia = helplessness; el malestar es discomfort, el bienestar es well-being y la vergüenza es embarrassment."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "Mis",
+          "padres",
+          "se",
+          "sienten",
+          "muy",
+          "orgullosos",
+          "de",
+          "mi",
+          "hermana"
+        ],
+        "translation": "My parents feel very proud of my sister",
+        "explanation": "Sentirse orgulloso de: orgullosos concuerda con padres."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras.",
+        "words": [
+          "No",
+          "te",
+          "asustes,",
+          "es",
+          "solo",
+          "el",
+          "viento"
+        ],
+        "translation": "Don't get scared (tú), it's only the wind",
+        "explanation": "Asustarse en negativo: no te asustes."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "It surprises me that you (tú) don't feel embarrassed.",
+        "answer": "Me sorprende que no sientas vergüenza.",
+        "altAnswers": [
+          "Me sorprende que no tengas vergüenza.",
+          "Me sorprende que no te dé vergüenza."
+        ],
+        "explanation": "Sorprender que + subjuntivo; la vergüenza = embarrassment."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I'm sorry you (usted) feel discouraged; I want you to calm down and rest.",
+        "answer": "Lamento que se sienta desanimado; quiero que se calme y descanse.",
+        "altAnswers": [
+          "Lamento que se sienta desanimada; quiero que se calme y descanse.",
+          "Siento que se sienta desanimado; quiero que se calme y descanse.",
+          "Siento que se sienta desanimada; quiero que se calme y descanse."
+        ],
+        "explanation": "Lamentar que y querer que piden subjuntivo; calmarse → se calme."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Yo preocupo que mi abuelo vive solo.",
+        "answer": "Me preocupa que mi abuelo viva solo.",
+        "explanation": "Preocupar funciona como gustar (me preocupa), y la reacción pide subjuntivo: viva."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada verbo con el sustantivo de su familia.",
+        "pairs": [
+          {
+            "left": "decepcionar",
+            "right": "la decepción"
+          },
+          {
+            "left": "asombrarse",
+            "right": "el asombro"
+          },
+          {
+            "left": "enojarse",
+            "right": "el enojo"
+          },
+          {
+            "left": "alegrarse",
+            "right": "la alegría"
+          }
+        ],
+        "explanation": "Verbo y sustantivo comparten raíz: -ción para muchos verbos en -ar (decepción), la raíz con -o (asombro, enojo) o -ía (alegría)."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa con el adjetivo de «agobiar», como aliviar → aliviado.",
+        "sentence": "Mis compañeras están muy ___ con el proyecto.",
+        "answer": "agobiadas",
+        "explanation": "El participio funciona como adjetivo (agobiar → agobiado) y concuerda con el sujeto: compañeras → agobiadas."
+      },
+      {
+        "type": "speak",
+        "prompt": "Responde en voz alta: ¿qué te da rabia y qué te da pena?",
+        "text": "Me da rabia que la gente tire basura en la calle y me da pena ver a los perros abandonados.",
+        "explanation": "Dar rabia y dar pena funcionan como gustar (me da…). Con que + otra persona va subjuntivo (tire); con infinitivo, no (ver)."
       }
     ]
   },
@@ -11219,9 +14613,63 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Opiniones e incertidumbre",
+        "heading": "La idea: aprende familias, no palabras sueltas",
         "body": [
-          "Las 50 palabras de la lección «Subjunctive with Wishes, Doubt & Emotion, Part 2 of 2», agrupadas para repasar."
+          "Casi todo este vocabulario se construye con unas pocas piezas. Si conoces la pieza, entiendes (y fabricas) palabras que nunca has estudiado:",
+          "• Verbo → nombre: -ción / -sión (suponer → la suposición, confirmar → la confirmación), -encia (creer → la creencia), o la raíz sola (dudar → la duda, probar → la prueba).",
+          "• Contrarios con prefijo: in- / im- (cierto → incierto, posible → imposible; im- delante de p y b), des- (acuerdo → desacuerdo, mentir → desmentir).",
+          "• Adjetivo → adverbio: forma femenina + -mente (aparente → aparentemente, supuesta → supuestamente).",
+          "• -able / -ible son casi siempre iguales que en inglés: razonable, cuestionable, creíble."
+        ],
+        "examples": [
+          {
+            "es": "Tengo dudas: es un plan dudoso.",
+            "en": "I have doubts: it's a doubtful plan. (dudar → la duda → dudoso)"
+          },
+          {
+            "es": "Es una suposición, no una certeza.",
+            "en": "It's an assumption, not a certainty. (suponer → la suposición)"
+          },
+          {
+            "es": "Estamos en desacuerdo con la decisión.",
+            "en": "We disagree with the decision. (des- = contrario)"
+          },
+          {
+            "es": "Supuestamente, el tren sale a las ocho.",
+            "en": "Supposedly, the train leaves at eight. (supuesta + -mente)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un verbo nuevo: afirmar → la ___",
+            "options": [
+              "afirmación",
+              "afirmencia",
+              "afirma",
+              "afirmidad"
+            ],
+            "correctIndex": 0,
+            "explanation": "Muchos verbos en -ar forman el nombre con -ción: confirmar → confirmación, afirmar → afirmación. «-encia» va con verbos como creer (creencia); «afirma» es una forma del verbo y «afirmidad» no existe."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál es el contrario de «lógico»?",
+            "options": [
+              "ilógico",
+              "inlógico",
+              "deslógico",
+              "imlógico"
+            ],
+            "correctIndex": 0,
+            "explanation": "El prefijo de negación in- se convierte en i- delante de l y r: lógico → ilógico, legal → ilegal, real → irreal. Im- solo va delante de p y b (imposible, improbable)."
+          }
+        ]
+      },
+      {
+        "heading": "Las 50 palabras: opiniones e incertidumbre",
+        "body": [
+          "Las 50 palabras de la lección «Subjunctive with Wishes, Doubt & Emotion, Part 2 of 2». Al emparejarlas, busca las familias: dudar / la duda / dudoso, convencer / convencido, posible / imposible, aparente / aparentemente."
         ],
         "checkpoint": [
           {
@@ -11460,6 +14908,37 @@ const B1_BASE_LESSONS: Lesson[] = [
             "explanation": "Palabras 41-50 de este tema."
           }
         ]
+      },
+      {
+        "heading": "Certeza o duda: el modo que pide cada expresión",
+        "body": [
+          "Estas palabras no solo se aprenden con su significado, sino con el modo que piden. Las de certeza afirman un hecho → indicativo: es evidente que, es obvio que, estoy seguro de que, sin duda. Las de duda o negación → subjuntivo: dudo que, niego que, es posible que, es improbable que.",
+          "Dos trampas: «a lo mejor» siempre va con indicativo (A lo mejor llueve), y «tal vez / quizás» admiten los dos modos (más duda → subjuntivo)."
+        ],
+        "examples": [
+          {
+            "es": "Es evidente que estás cansado.",
+            "en": "It's evident that you're tired. (certeza → indicativo)"
+          },
+          {
+            "es": "Es improbable que nieve en mayo.",
+            "en": "It's unlikely to snow in May. (duda → subjuntivo)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Es dudoso que el jefe ___ de opinión.» (cambiar)",
+            "options": [
+              "cambie",
+              "cambia",
+              "cambiará",
+              "cambiar"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Es dudoso que» expresa duda (de la misma familia que dudar) → subjuntivo: cambie. «Cambia» y «cambiará» son indicativo, propios de la certeza, y «cambiar» no tiene sujeto."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -11469,7 +14948,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce al español.",
         "source": "the belief",
         "answer": "la creencia",
-        "explanation": "«La creencia» es lo que uno cree o da por cierto: una creencia popular, respetar las creencias de los demás."
+        "explanation": "Creer → la creencia: el sufijo -encia forma nombres a partir de verbos (como preferir → la preferencia). Una creencia es lo que uno da por cierto."
       }
     ]
   },
@@ -11482,9 +14961,58 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Esperanzas y el mundo natural",
+        "heading": "La idea: el final de la palabra te dice el género",
         "body": [
-          "Las 50 palabras de la lección «Subjunctive with Impersonal Expressions & Ojalá, Part 2 of 2», agrupadas para repasar."
+          "Para usar bien este vocabulario (el río contaminado, la selva húmeda) necesitas el género, y casi siempre lo da la terminación:",
+          "• Femeninas: -ción / -sión (la contaminación, la inundación), -dad (la biodiversidad), -eza (la naturaleza), -ía (la sequía), y casi todas las que acaban en -a (la selva, la costa).",
+          "• Masculinas: casi todas las que acaban en -o (el río, el suelo, el lago) y las palabras griegas en -ma (el ecosistema, el clima, el problema). Planeta también es masculino: el planeta.",
+          "• Trampa: agua es femenina, pero en singular lleva «el» porque empieza por a tónica: el agua limpia, las aguas limpias."
+        ],
+        "examples": [
+          {
+            "es": "La contaminación del aire es un problema grave.",
+            "en": "Air pollution is a serious problem. (-ción femenina; problema masculino)"
+          },
+          {
+            "es": "El ecosistema de la isla es muy frágil.",
+            "en": "The island's ecosystem is very fragile. (-ma griega → masculino)"
+          },
+          {
+            "es": "El agua del lago está fría.",
+            "en": "The lake water is cold. (el agua, pero fría: es femenina)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a una palabra nueva: ¿cómo se dice «the humidity is high»?",
+            "options": [
+              "La humedad es alta.",
+              "El humedad es alto.",
+              "La humedad es alto.",
+              "El humedad es alta."
+            ],
+            "correctIndex": 0,
+            "explanation": "Las palabras en -dad son femeninas: la humedad, y el adjetivo concuerda: alta. Las otras opciones mezclan el artículo o el adjetivo masculino."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué palabra es masculina, aunque acabe en -a?",
+            "options": [
+              "el sistema",
+              "la erosión",
+              "la tormenta",
+              "la playa"
+            ],
+            "correctIndex": 0,
+            "explanation": "Sistema es una palabra griega en -ma, como ecosistema o problema: el sistema. Erosión (-sión), tormenta y playa son femeninas."
+          }
+        ]
+      },
+      {
+        "heading": "Las 50 palabras: esperanzas y el mundo natural",
+        "body": [
+          "Las 50 palabras de la lección «Subjunctive with Impersonal Expressions & Ojalá, Part 2 of 2». Al emparejarlas, fíjate en el artículo: te dice el género, y el género decide la forma de los adjetivos."
         ],
         "checkpoint": [
           {
@@ -11751,7 +15279,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "right": "the carbon footprint"
           }
         ],
-        "explanation": "Estas cinco palabras describen problemas del medio ambiente."
+        "explanation": "Estas cinco palabras describen problemas del medio ambiente. Fíjate en el género: la sequía (-ía), la inundación (-ción) y la huella son femeninas; el incendio y el calentamiento, masculinas (-o)."
       }
     ]
   },
@@ -11763,6 +15291,53 @@ const B1_BASE_LESSONS: Lesson[] = [
     "summary": "Review the 50 cooking words from the B1 vocabulary lists.",
     "duration": "7 min",
     "sections": [
+      {
+        "heading": "La idea: las palabras de la cocina vienen en familias",
+        "body": [
+          "No memorices cincuenta palabras sueltas: casi todas salen de unas pocas raíces. Patrón 1: el participio describe cómo está la comida, y concuerda con ella como un adjetivo: picar → la cebolla picada, freír → los huevos fritos, cocer → las patatas cocidas, rallar → el queso rallado.",
+          "Patrón 2: -ada (o -ado) nombra lo que cabe en algo: la cuchara → una cucharada (a spoonful), la cucharita → una cucharadita, el puño → un puñado. Por eso no es lo mismo «dos cucharas» (dos objetos) que «dos cucharadas» (la cantidad). Patrón 3: -ear crea el verbo de usar un objeto: el horno → hornear.",
+          "Y como una receta da instrucciones, estas palabras viven en imperativo: pela, corta, añade (tú) o pele, corte, añada (usted), con los pronombres pegados: córtalas, revuélvela."
+        ],
+        "examples": [
+          {
+            "es": "picar → la cebolla picada",
+            "en": "to chop → the chopped onion (participle = adjective: picada agrees with cebolla)"
+          },
+          {
+            "es": "la cuchara → una cucharada de aceite",
+            "en": "the spoon → a spoonful of oil (-ada = what fits in it)"
+          },
+          {
+            "es": "el horno → hornear",
+            "en": "the oven → to bake (-ear = to use it)"
+          },
+          {
+            "es": "Fríe las patatas y sírvelas calientes.",
+            "en": "Fry the potatoes and serve them hot. (recipe → tú imperative, pronoun attached)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el patrón: ¿cómo se llaman unas zanahorias que has rallado?",
+            "options": [
+              "zanahorias ralladas",
+              "zanahorias rallado",
+              "zanahorias ralladoras",
+              "zanahorias rallando"
+            ],
+            "correctIndex": 0,
+            "explanation": "El participio funciona como adjetivo y concuerda con el sustantivo: zanahorias (femenino plural) → ralladas. «Rallado» no concuerda, «ralladoras» no existe y «rallando» es el gerundio, una acción en curso."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Forma la palabra de cantidad con -ada.",
+            "sentence": "Añade un ___ de arroz por persona. (el puño)",
+            "answer": "puñado",
+            "explanation": "-ado / -ada nombra lo que cabe en algo: el puño → un puñado (a handful), como la cuchara → una cucharada. Es masculino, porque viene de el puño: un puñado."
+          }
+        ]
+      },
       {
         "heading": "La cocina",
         "body": [
@@ -12030,6 +15605,54 @@ const B1_BASE_LESSONS: Lesson[] = [
     "summary": "Review the 50 money and finance words from the B1 vocabulary lists.",
     "duration": "8 min",
     "sections": [
+      {
+        "heading": "La idea: cada verbo del dinero tiene su sustantivo",
+        "body": [
+          "No aprendas las palabras del dinero sueltas: casi todas vienen en pareja verbo + sustantivo, y conocer el patrón te da la otra mitad gratis.",
+          "Patrón 1: muchos verbos en -ar forman un sustantivo masculino en -o: gastar → el gasto, ahorrar → el ahorro, pagar → el pago, cobrar → el cobro, prestar → el préstamo. Por eso se dice «los gastos», nunca «las gastas».",
+          "Patrón 2: otros forman un sustantivo femenino en -ción / -sión o en -ida: invertir → la inversión, jubilarse → la jubilación, perder → la pérdida. Patrón 3: con el sustantivo se usan verbos comodín: tener deudas, hacer un pago, pedir un préstamo, sacar dinero.",
+          "Cuidado con la pareja dar / recibir: prestar es dar algo que te van a devolver (to lend); pedir prestado es pedirlo para ti (to borrow). Y deber da la deuda: le debo mil euros al banco = tengo una deuda con el banco."
+        ],
+        "examples": [
+          {
+            "es": "gastar → el gasto",
+            "en": "to spend → the expense (-ar verb → masculine noun in -o)"
+          },
+          {
+            "es": "invertir → la inversión",
+            "en": "to invest → the investment (-sión, feminine)"
+          },
+          {
+            "es": "Le debo mil euros al banco. → Tengo una deuda con el banco.",
+            "en": "I owe the bank a thousand euros. → I have a debt with the bank."
+          },
+          {
+            "es": "Mi prima me prestó su coche; yo se lo pedí prestado.",
+            "en": "My cousin lent me her car; I borrowed it from her."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el patrón: si depositar es «to deposit», ¿cómo se dice «the deposit»?",
+            "options": [
+              "el depósito",
+              "la depositación",
+              "el depositado",
+              "la deposita"
+            ],
+            "correctIndex": 0,
+            "explanation": "Depositar es un verbo en -ar y sigue el patrón 1, como gastar → el gasto: el depósito, masculino en -o. «Depositación» y «deposita» no existen, y «depositado» es el participio."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el sustantivo del verbo entre paréntesis.",
+            "sentence": "Este año el ___ de la familia ha sido mayor que el de otros años. (ahorrar)",
+            "answer": "ahorro",
+            "explanation": "Ahorrar → el ahorro: verbo en -ar, sustantivo masculino en -o, igual que gastar → el gasto. No es «la ahorra»."
+          }
+        ]
+      },
       {
         "heading": "Dinero y finanzas",
         "body": [
@@ -12310,9 +15933,53 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
+        "heading": "La idea: un verbo, una familia de palabras",
+        "body": [
+          "Muchas palabras de la educación salen de un verbo, y casi siempre de tres maneras. 1) -ción: graduarse → la graduación, investigar → la investigación (como -tion en inglés). 2) Se quita la terminación y se añade -o o -e: repasar → el repaso, esforzarse → el esfuerzo, apuntar → el apunte. 3) -aje: aprender → el aprendizaje.",
+          "El sufijo también te da el género: las palabras en -ción son femeninas (la graduación) y las de -aje, masculinas (el aprendizaje). Si conoces el verbo, puedes adivinar el sustantivo, y al revés."
+        ],
+        "examples": [
+          {
+            "es": "graduarse → Mi graduación es en junio.",
+            "en": "to graduate → My graduation is in June. (-ción, femenino)"
+          },
+          {
+            "es": "repasar → Hoy toca un repaso general.",
+            "en": "to review → Today it's time for a general review. (-ar → -o)"
+          },
+          {
+            "es": "esforzarse → Tu esfuerzo se nota.",
+            "en": "to make an effort → Your effort shows. (-arse → -o, con el cambio o → ue)"
+          },
+          {
+            "es": "aprender → El aprendizaje de un idioma lleva años.",
+            "en": "to learn → Learning a language takes years. (-aje, masculino)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el sustantivo.",
+            "sentence": "evaluar → la ___",
+            "answer": "evaluación",
+            "explanation": "Como investigar → investigación, evaluar forma el sustantivo con -ción: la evaluación, femenino como todas las palabras en -ción."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿El o la? «___ inscripción cierra el viernes.»",
+            "options": [
+              "La",
+              "El"
+            ],
+            "correctIndex": 0,
+            "explanation": "Inscripción termina en -ción, y todas esas palabras son femeninas: la inscripción. No importa que no la hayas visto antes: el sufijo decide."
+          }
+        ]
+      },
+      {
         "heading": "La educación",
         "body": [
-          "Las 50 palabras de educación de la lección «Simple If-Clauses: Si + Presente, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras de educación de la lección «Simple If-Clauses: Si + Presente, Part 2 of 2», agrupadas para repasar. Al emparejarlas, busca las familias: graduarse / la graduación, repasar / el repaso, esforzarse / el esfuerzo, el apunte / tomar apuntes."
         ],
         "checkpoint": [
           {
@@ -12592,9 +16259,55 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
+        "heading": "La idea: familias de palabras y el prefijo in-",
+        "body": [
+          "Muchas palabras de experiencias de vida salen de un verbo, casi siempre de tres maneras. 1) -miento: descubrir → el descubrimiento, emprender → el emprendimiento (masculinos). 2) -ancia: perseverar → la perseverancia (femenino). 3) Se quita la terminación y queda -o: fracasar → el fracaso, lograr → el logro, intentar → el intento.",
+          "También se forman adjetivos: -able indica que algo se puede hacer (olvidar → olvidable) e in- lo niega (inolvidable: que no se puede olvidar). Delante de b o p, in- se escribe im-: imposible, imborrable. Si conoces el verbo, puedes adivinar la palabra nueva, y al revés."
+        ],
+        "examples": [
+          {
+            "es": "descubrir → Fue un gran descubrimiento.",
+            "en": "to discover → It was a great discovery. (-miento, masculino)"
+          },
+          {
+            "es": "perseverar → Su perseverancia es admirable.",
+            "en": "to persevere → Her perseverance is admirable. (-ancia, femenino)"
+          },
+          {
+            "es": "fracasar → Un fracaso también enseña.",
+            "en": "to fail → A failure also teaches you something. (-ar → -o)"
+          },
+          {
+            "es": "olvidar → Fue un viaje inolvidable.",
+            "en": "to forget → It was an unforgettable trip. (in- + olvid- + -able)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el sustantivo.",
+            "sentence": "crecer → el ___",
+            "answer": "crecimiento",
+            "explanation": "Como descubrir → descubrimiento, crecer forma el sustantivo con -miento: el crecimiento, masculino como todas las palabras en -miento."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué significa «un recuerdo imborrable»? (borrar = to erase)",
+            "options": [
+              "a memory that can never be erased",
+              "a memory you can erase easily",
+              "a blurry memory",
+              "a recent memory"
+            ],
+            "correctIndex": 0,
+            "explanation": "Im- (in- delante de b) niega y -able indica posibilidad: imborrable = que no se puede borrar. «Que se puede borrar» sería borrable, sin prefijo; nada en la palabra habla de algo borroso ni reciente."
+          }
+        ]
+      },
+      {
         "heading": "Experiencias de vida",
         "body": [
-          "Las 50 palabras sobre experiencias de vida de la lección «Present Perfect: Pretérito Perfecto, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras sobre experiencias de vida de la lección «Present Perfect: Pretérito Perfecto, Part 2 of 2», agrupadas para repasar. Al emparejarlas, busca las familias: descubrir / el descubrimiento, emprender / el emprendimiento, fracasar / el fracaso, perseverar / la perseverancia, olvidar / inolvidable."
         ],
         "checkpoint": [
           {
@@ -12847,6 +16560,41 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "«Jamás» es una forma enfática de decir «never»: Jamás lo haré. No significa «always» (siempre), «sometimes» (a veces) ni «already» (ya)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Ese viaje fue un gran descubrición.",
+        "answer": "Ese viaje fue un gran descubrimiento.",
+        "explanation": "Descubrir forma el sustantivo con -miento: el descubrimiento (masculino, por eso «un gran»). «Descubrición» no existe: no todos los verbos usan -ción."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia el verbo por el sustantivo de su familia.",
+        "source": "Fracasar me enseñó mucho.",
+        "answer": "El fracaso me enseñó mucho.",
+        "altAnswers": [
+          "Mi fracaso me enseñó mucho."
+        ],
+        "explanation": "Fracasar pierde la terminación y queda el fracaso (-ar → -o, masculino). El sustantivo necesita artículo; el infinitivo no."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase con un adjetivo en in- + -able.",
+        "source": "Es un día que no se puede olvidar.",
+        "answer": "Es un día inolvidable.",
+        "explanation": "«Que no se puede olvidar» = in- (no) + olvid- + -able (se puede): inolvidable. El adjetivo va detrás del sustantivo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "Siempre aprovecho de las ofertas.",
+        "answer": "Siempre aprovecho las ofertas.",
+        "explanation": "Aprovechar es transitivo: el complemento va directo, sin «de», aunque en inglés se diga take advantage of. «Aprovecharse de» existe, pero significa abusar de alguien."
       }
     ]
   },
@@ -12861,7 +16609,9 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Noticias y sucesos",
         "body": [
-          "Las 50 palabras sobre noticias y sucesos de la lección «Past Perfect: Pluscuamperfecto, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras sobre noticias y sucesos de la lección «Past Perfect: Pluscuamperfecto, Part 2 of 2», agrupadas para repasar.",
+          "El patrón que te ahorra memoria: muchas palabras de las noticias son familias verbo → sustantivo. -ar → -ación (manifestarse → la manifestación, evacuar → la evacuación, declarar → la declaración, donar → la donación); -ir / -er → -ición o -ción (elegir → la elección, reconstruir → la reconstrucción); y la persona que hace algo suele llevar -nte o -ista (manifestante, periodista). Todos los sustantivos en -ción / -sión son femeninos.",
+          "Con este patrón puedes formar palabras que no están en la lista: inundar → la inundación, contaminar → la contaminación, proteger → la protección."
         ],
         "checkpoint": [
           {
@@ -13098,6 +16848,18 @@ const B1_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Palabras 41-50 de este tema."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el patrón evacuar → la evacuación, ¿cómo se llama lo que pasa cuando el agua de un río cubre un pueblo (inundar)?",
+            "options": [
+              "la inundación",
+              "el inundamiento",
+              "la inundanza",
+              "el inundado"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ar → -ación: inundar → la inundación, femenina como todas las palabras en -ción. «Inundamiento» e «inundanza» no existen, y «el inundado» sería una persona o un lugar afectado."
           }
         ]
       }
@@ -13125,7 +16887,9 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce al español.",
         "source": "the news item",
         "answer": "la noticia",
-        "altAnswers": ["una noticia"],
+        "altAnswers": [
+          "una noticia"
+        ],
         "explanation": "\"La noticia\" significa \"the news item\" (una información reciente)."
       }
     ]
@@ -13141,7 +16905,10 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La ciudad y las direcciones",
         "body": [
-          "Las 50 palabras de la ciudad y las direcciones de la lección «Relative Pronouns: Que, Quien, El Que, Lo Que, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras de la ciudad y las direcciones de la lección «Relative Pronouns: Que, Quien, El Que, Lo Que, Part 2 of 2», agrupadas para repasar.",
+          "Tres patrones te ayudan a recordarlas. 1) Las expresiones de lugar terminan en «de»: cerca de, lejos de, al lado de, enfrente de, al fondo de, en medio de. Delante de «el», de + el = del: al lado del parque.",
+          "2) El sufijo -miento convierte un verbo en el nombre de la acción o de su resultado: estacionar → el estacionamiento, embotellar → el embotellamiento. Siempre es masculino. 3) Para dar direcciones se usa el imperativo con artículo: dobla (o gira) a la izquierda, sigue derecho (o recto), cruza la calle.",
+          "Algunas palabras cambian según el país: la cuadra (América) / la manzana (España), estacionar / aparcar, el embotellamiento / el atasco, la acera / la vereda / la banqueta."
         ],
         "checkpoint": [
           {
@@ -13421,9 +17188,55 @@ const B1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: familias de palabras del trabajo",
+        "body": [
+          "Recuerda la regla: casi todas las palabras del trabajo forman familias, y del verbo sale el sustantivo con terminaciones fijas. La acción termina en -ción o -sión y siempre es femenina (negociar → la negociación, expandirse → la expansión, fusionarse → la fusión). La persona que hace la acción termina en -dor/-dora (fundar → el fundador, emplear → el empleador) y la que la recibe en -ado/-ada (emplear → el empleado). El proceso de cambiar suele terminar en -miento (crecer → el crecimiento).",
+          "¿Por qué sirve? Si conoces una palabra de la familia, puedes deducir las demás sin memorizarlas una a una. Pero ojo con las combinaciones fijas: un plazo se cumple (no se «encuentra»), un informe se presenta y una propuesta se aprueba o se rechaza. Y despedir a alguien es echarlo del trabajo; despedirse de alguien es decirle adiós."
+        ],
+        "examples": [
+          {
+            "es": "La negociación duró tres semanas.",
+            "en": "The negotiation lasted three weeks. (negociar → la negociación: -ción, femenino)"
+          },
+          {
+            "es": "El fundador de la empresa era ingeniero.",
+            "en": "The company's founder was an engineer. (fundar → el fundador: quien funda)"
+          },
+          {
+            "es": "El crecimiento de este año ha sido rápido.",
+            "en": "This year's growth has been fast. (crecer → el crecimiento)"
+          },
+          {
+            "es": "Hemos cumplido el plazo por los pelos.",
+            "en": "We met the deadline by the skin of our teeth. (cumplir un plazo, no «encontrar»)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con el sustantivo de la misma familia.",
+            "sentence": "La empresa va a invertir dos millones; la ___ servirá para abrir una fábrica. (invertir)",
+            "answer": "inversión",
+            "explanation": "Invertir → la inversión: la acción termina en -sión y es femenina, por eso «la inversión»."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Si vender → el vendedor (quien vende), ¿cómo se llama la persona que compra?",
+            "options": [
+              "el comprador",
+              "el comprado",
+              "la compración",
+              "el compramiento"
+            ],
+            "correctIndex": 0,
+            "explanation": "La persona que hace la acción lleva -dor: comprar → el comprador. «Comprado» sería lo que se compra, -ción es para la acción y -miento no existe con este verbo."
+          }
+        ]
+      },
+      {
         "heading": "Negocios y el trabajo",
         "body": [
-          "Las 50 palabras de los negocios y el mundo del trabajo de la lección «Passive Voice & Impersonal Se, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras de los negocios y el mundo del trabajo, agrupadas para repasar. Fíjate en las familias: negociar / la negociación, fundar / el fundador, fusionarse / la fusión, crecer / el crecimiento."
         ],
         "checkpoint": [
           {
@@ -13676,6 +17489,105 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "«La fusión» es «the merger»: dos empresas se unen en una. «La sucursal» es «the branch», «la sede» es «the headquarters» y «la vacante» es «the job vacancy»."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa con el sustantivo de la misma familia.",
+        "sentence": "La ___ de nuevo personal empieza en enero. (contratar)",
+        "answer": "contratación",
+        "explanation": "Contratar → la contratación: el proceso de contratar termina en -ción y es femenino. «El contrato» es el documento que se firma."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa con la persona.",
+        "sentence": "El ___ quiere recuperar su dinero en dos años. (invertir)",
+        "answer": "inversor",
+        "explanation": "La persona que invierte lleva -or: el inversor. En América también se dice «el inversionista».",
+        "altAnswers": [
+          "inversionista"
+        ]
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«Our competitors have lowered their prices.» ¿Cómo se dice «competitors»?",
+        "options": [
+          "los competidores",
+          "las competencias",
+          "los competidos",
+          "las competiciones"
+        ],
+        "correctIndex": 0,
+        "explanation": "La persona (o empresa) que compite lleva -dor: competir → el competidor. «La competencia» es el conjunto de rivales o la rivalidad, y «la competición» es un torneo deportivo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase empezando por «La negociación…» y usa el verbo «durar».",
+        "source": "Negociamos durante tres horas.",
+        "answer": "La negociación duró tres horas.",
+        "altAnswers": [
+          "La negociación ha durado tres horas."
+        ],
+        "explanation": "Del verbo negociar sale el sustantivo «la negociación» (-ción, femenino), que ahora es el sujeto de «durar»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Transforma la frase empezando por «La expansión de la empresa…».",
+        "source": "La empresa se expandió muy rápido.",
+        "answer": "La expansión de la empresa fue muy rápida.",
+        "altAnswers": [
+          "La expansión de la empresa fue rapidísima."
+        ],
+        "explanation": "Expandirse → la expansión (-sión, femenino). Como «expansión» es femenino, el adjetivo concuerda: «rápida»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Cambia la frase al contrario: los socios no aceptan el acuerdo.",
+        "source": "Los socios han aprobado el acuerdo.",
+        "answer": "Los socios han rechazado el acuerdo.",
+        "altAnswers": [
+          "Los socios rechazaron el acuerdo."
+        ],
+        "explanation": "Lo contrario de aprobar (una propuesta, un acuerdo) es rechazar: «han rechazado»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "El equipo no encontró el plazo y el cliente se enfadó.",
+        "answer": "El equipo no cumplió el plazo y el cliente se enfadó.",
+        "altAnswers": [
+          "El equipo no cumplió el plazo y el cliente se enojó.",
+          "El equipo no cumplió con el plazo y el cliente se enfadó.",
+          "El equipo no cumplió con el plazo y el cliente se enojó."
+        ],
+        "explanation": "Un plazo se cumple: «cumplir el plazo». «Encontrar» es una traducción literal de «meet» que no funciona en español."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "El negociación con los proveedores fue difícil.",
+        "answer": "La negociación con los proveedores fue difícil.",
+        "altAnswers": [],
+        "explanation": "Las palabras en -ción son femeninas: «la negociación», no «el»."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Corrige la frase.",
+        "source": "La empresa ha despedido de veinte trabajadores.",
+        "answer": "La empresa ha despedido a veinte trabajadores.",
+        "altAnswers": [],
+        "explanation": "Despedir (echar del trabajo) lleva complemento directo de persona, con «a» personal: «despedir a alguien». «Despedirse de» significa decir adiós."
+      },
+      {
+        "type": "speak",
+        "prompt": "Di en voz alta: «The negotiation was long, but in the end we signed the contract.»",
+        "text": "La negociación fue larga, pero al final firmamos el contrato.",
+        "explanation": "Negociar → la negociación (femenino: «larga»); firmar un contrato."
       }
     ]
   },

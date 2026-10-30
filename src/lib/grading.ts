@@ -458,11 +458,39 @@ export function gradeFillBlank(value: string, exercise: FillBlankExercise, speec
 }
 
 export function gradeTranslate(value: string, exercise: TranslateExercise, speechLang: string): GradeResult {
+  // A "Correct the sentence" / "Make it plural" item gives a Spanish source to
+  // change. Retyping that source unchanged is never the answer, even when the
+  // grader would forgive it as a typo (trajieron, fué).
+  if (exercise.source && isUnchangedSource(value, exercise)) return { correct: false, note: "The sentence still needs changing." };
+  // When the change is only punctuation or capitals ("Tienes frío?" ->
+  // "¿Tienes frío?", "Junio" -> "junio"), those are the whole point, so they
+  // count here (accents still don't).
+  if (exercise.source && isPunctuationTask(exercise)) {
+    const answers = [exercise.answer, ...(exercise.altAnswers ?? [])];
+    const letters = (s: string) => s.normalize("NFC").replace(/[^\p{L}\p{N}\s]/gu, "").replace(/\s+/g, " ").trim();
+    const caseMatters = answers.some((a) => cleanAnswer(a) === cleanAnswer(exercise.source) && letters(a) !== letters(exercise.source));
+    const strict = (s: string) => {
+      const t = stripAccents(s.normalize("NFC")).replace(/\s+/g, " ").trim();
+      return caseMatters ? t : t.toLowerCase();
+    };
+    return { correct: answers.some((a) => strict(a) === strict(value)) };
+  }
   const toEnglish = exercise.direction === "es-en";
   return gradeFreeText(value, [exercise.answer, ...(exercise.altAnswers ?? [])], {
     lang: toEnglish ? "en" : answerLanguageFor(speechLang),
     pronouns: !toEnglish,
   });
+}
+
+function isUnchangedSource(value: string, exercise: TranslateExercise): boolean {
+  const typed = cleanAnswer(value);
+  const source = cleanAnswer(exercise.source);
+  return typed === source && ![exercise.answer, ...(exercise.altAnswers ?? [])].some((a) => cleanAnswer(a) === source);
+}
+
+function isPunctuationTask(exercise: TranslateExercise): boolean {
+  const source = exercise.source.normalize("NFC").trim();
+  return [exercise.answer, ...(exercise.altAnswers ?? [])].some((a) => a.normalize("NFC").trim() !== source && cleanAnswer(a) === cleanAnswer(source));
 }
 
 /** The text a dictation expects: its `answer`, or the spoken `audio` itself. */

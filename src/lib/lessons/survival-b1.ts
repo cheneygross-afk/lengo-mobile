@@ -173,6 +173,19 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [0, 1, 3],
         "El imperfecto y el condicional suavizan. «Dame eso» es un imperativo directo, normal entre amigos pero brusco con desconocidos."
       ),
+      toEs("Dame la llave del aula.", "¿Podría darme la llave del aula?", "Una orden directa a un desconocido suena brusca. El condicional «podría» + infinitivo la convierte en una petición, y con usted el pronombre se pega al infinitivo (darme) o va delante (me podría dar).", ["¿Me podría dar la llave del aula?", "¿Le importaría darme la llave del aula?", "¿Podría darme la llave del aula, por favor?"], "Transforma la orden en una petición cortés con usted."),
+      toEs("Quiero hablar con la directora.", "Quería hablar con la directora.", "El imperfecto de cortesía (quería) no habla del pasado: suaviza el deseo. También vale «quisiera».", ["Quisiera hablar con la directora.", "Me gustaría hablar con la directora."], "Cambia al imperfecto de cortesía."),
+      toEs("¿Puedes ayudarme con la maleta?", "¿Podría ayudarme con la maleta?", "Dos cambios: tú → usted (puedes → puede) y presente → condicional (podría), que suaviza la petición.", ["¿Me podría ayudar con la maleta?"], "Cambia a usted y suaviza la petición con el condicional."),
+      toEs("¿Le importa que enciendo la luz?", "¿Le importa que encienda la luz?", "Para pedir permiso, «¿le importa que…?» + subjuntivo: «encienda». Con indicativo la frase no funciona.", [], "Corrige la frase."),
+      toEs("¿Le importaría de repetirlo?", "¿Le importaría repetirlo?", "«Importar» va directamente con infinitivo, sin «de»: ¿le importaría repetirlo?", ["¿Le importaría repetirlo, por favor?"], "Corrige la frase."),
+      toEs("Perdone que le molesto, ¿tiene un bolígrafo?", "Perdone que le moleste, ¿tiene un bolígrafo?", "«Perdone que» + subjuntivo: «moleste». (También: siento molestarle.)", ["Perdone que lo moleste, ¿tiene un bolígrafo?"], "Corrige la frase."),
+      mc(
+        "En el tren, un señor ha dejado su bolsa en el único sitio libre para tu maleta. ¿Qué le dices?",
+        ["Perdone, ¿le importaría quitar su bolsa un momento? Es que no tengo dónde poner la maleta.", "Quita tu bolsa.", "Quería quitar su bolsa ayer.", "¿Le importa que quite su bolsa? No hay de qué."],
+        0,
+        "Perdone + ¿le importaría + infinitivo? + una razón con «es que» es la petición más natural a un desconocido. «Quita tu bolsa» es una orden con tú; «quería… ayer» habla del pasado, y «no hay de qué» responde a un gracias."
+      ),
+      { type: "speak", prompt: "Estás en una farmacia. Pide en voz alta, con cortesía, que te expliquen cómo tomar el medicamento, y da una razón: «Excuse me, could you explain how to take this medicine? I'm not from here.»", text: "Perdone, ¿podría explicarme cómo tomar este medicamento? Es que no soy de aquí.", explanation: "Perdone + ¿podría + infinitivo? + «es que» para justificar: la fórmula más útil con desconocidos." },
     ]
   ),
   L(
@@ -314,9 +327,9 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "En México se contesta con ¿Bueno? En España, ¿Diga? o ¿Sí?; en muchos países de Sudamérica, ¿Aló?"
       ),
       wo(
-        "Un momento, no se retire, ahora le paso.",
-        "Retirarse = to hang up and leave the line; pasar a alguien = to put someone through.",
-        "One moment, please hold, I'll put you through."
+        "No se retire, ahora le paso con el señor Ortiz.",
+        "No se retire = please hold (retirarse = dejar la línea); pasar con alguien = to put someone through.",
+        "Please hold, I'll put you through to Mr Ortiz."
       ),
       ms(
         "¿Qué frases puedes usar para contestar el teléfono?",
@@ -324,6 +337,18 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [0, 1, 2],
         "¿De parte de quién? no es para contestar: es para preguntar quién llama."
       ),
+      toEs("Llámame mañana por la mañana.", "Dígale que me llame mañana por la mañana.", "Para transmitir una petición a través de otra persona: decir que + subjuntivo. El mandato «llámame» pasa a «que me llame».", ["Dile que me llame mañana por la mañana.", "¿Puede decirle que me llame mañana por la mañana?", "¿Le puede decir que me llame mañana por la mañana?"], "Transforma el mensaje en un recado para la recepcionista (usted): «Dígale que…»."),
+      toEs("Perdona, no te oigo bien.", "Perdone, no le oigo bien.", "Con usted: perdona → perdone y te → le (en Latinoamérica, también «lo»).", ["Perdone, no lo oigo bien.", "Disculpe, no le oigo bien."], "Cambia a usted."),
+      toEs("Dígale que me llama cuando pueda.", "Dígale que me llame cuando pueda.", "Cuando el recado es una petición (que haga algo), «decir que» pide subjuntivo: «me llame». Con indicativo solo informarías.", [], "Corrige la frase."),
+      toEs("¿Podría hablar a alguien del servicio técnico?", "¿Podría hablar con alguien del servicio técnico?", "Al teléfono se habla con alguien: «hablar con».", [], "Corrige la frase."),
+      toEs("Lo siento, está comunicado. ¿Quiere esperar?", "Lo siento, está comunicando. ¿Quiere esperar?", "En España la línea ocupada «está comunicando» (gerundio). En muchos países se dice «está ocupado».", ["Lo siento, está ocupado. ¿Quiere esperar?", "Lo siento, la línea está ocupada. ¿Quiere esperar?"], "Corrige la frase."),
+      mc(
+        "La recepcionista dice: «La señora Gómez no está. ¿Quiere dejarle un recado?» ¿Qué respondes?",
+        ["Sí, dígale que he llamado y que me llame mañana, por favor.", "Sí, ¿de parte de quién?", "No se retire, ahora le paso.", "Sí, se ha cortado."],
+        0,
+        "Para dejar un recado: dígale que he llamado (informar → indicativo) y que me llame (pedir → subjuntivo). «¿De parte de quién?» y «no se retire» los dice quien contesta, y «se ha cortado» es un problema de la línea."
+      ),
+      { type: "speak", prompt: "Llamas a una tienda por un pedido que no ha llegado. Di en voz alta: «Good morning, I'm calling because I haven't received my order. Could I speak to someone in customer service?»", text: "Buenos días, llamo porque no he recibido mi pedido. ¿Podría hablar con alguien de atención al cliente?", explanation: "Llamo porque… explica el motivo; el perfecto (no he recibido) para algo reciente, y ¿podría hablar con…? para pedir con cortesía." },
     ]
   ),
   L(
@@ -434,10 +459,10 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         ["cancelarla", "anularla"]
       ),
       toEs(
-        "Does the account have any fees?",
-        "¿La cuenta tiene comisiones?",
-        "Comisiones = bank fees. También: ¿Hay que pagar comisiones?",
-        ["¿Tiene comisiones la cuenta?", "¿La cuenta tiene alguna comisión?", "¿Hay comisiones?", "¿Esta cuenta tiene comisiones?"]
+        "Does this card have any fees if I use it abroad?",
+        "¿Esta tarjeta tiene comisiones si la uso en el extranjero?",
+        "Comisiones = bank fees. Si + presente para una condición real, y «la» (la tarjeta) delante del verbo conjugado.",
+        ["¿La tarjeta tiene comisiones si la uso en el extranjero?", "¿Hay comisiones si uso esta tarjeta en el extranjero?", "¿Esta tarjeta tiene alguna comisión si la uso en el extranjero?"]
       ),
       toEs(
         "I've been charged twice.",
@@ -468,6 +493,18 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [0, 1, 2],
         "Pasaporte, NIE y a veces justificante de domicilio o de ingresos (contrato, nómina)."
       ),
+      toEs("Me cobraron una comisión ayer.", "Me han cobrado una comisión este mes.", "Con «este mes», un periodo que no ha terminado, en España se usa el pretérito perfecto: «me han cobrado». (En gran parte de América también se oye «me cobraron».)", ["Me cobraron una comisión este mes.", "Este mes me han cobrado una comisión."], "Cambia «ayer» por «este mes» y ajusta el tiempo."),
+      toEs("Saca dinero del cajero.", "Introduzca su tarjeta y saque dinero del cajero.", "Las instrucciones del cajero hablan de usted: el mandato de usted es el subjuntivo, «saque» (c → qu), «introduzca».", ["Introduzca la tarjeta y saque dinero del cajero."], "Transforma la instrucción al estilo del cajero (usted) y añade «Introduzca su tarjeta»."),
+      toEs("Quería sacar doscientos euros en mi cuenta.", "Quería ingresar doscientos euros en mi cuenta.", "Meter dinero en la cuenta es «ingresar»; «sacar» es lo contrario (de la cuenta, del cajero).", ["Quería meter doscientos euros en mi cuenta."], "Corrige la frase: quieres meter el dinero en la cuenta."),
+      toEs("¿Puedo pagar por tarjeta?", "¿Puedo pagar con tarjeta?", "En español se paga «con tarjeta» y «en efectivo»; «por tarjeta» es un calco del inglés.", [], "Corrige la frase."),
+      toEs("He perdido mi tarjeta. Quiero bloquearlo.", "He perdido mi tarjeta. Quiero bloquearla.", "El pronombre concuerda con «la tarjeta» (femenino): «bloquearla».", ["He perdido mi tarjeta. La quiero bloquear."], "Corrige la frase."),
+      mc(
+        "En el banco te dicen: «Si domicilia la nómina, no paga comisiones.» ¿Qué tienes que hacer para no pagarlas?",
+        ["Recibir el sueldo en esa cuenta.", "Cambiar de domicilio.", "Pagar en efectivo.", "Sacar dinero del cajero todos los meses."],
+        0,
+        "Domiciliar la nómina = que tu empresa te ingrese el sueldo en esa cuenta. No tiene nada que ver con el domicilio (la dirección)."
+      ),
+      { type: "speak", prompt: "Llamas al banco. Explica en voz alta: «Yesterday the cash machine swallowed my card, and I've been charged twice for the same purchase. Could you block the card?»", text: "Ayer el cajero se tragó mi tarjeta, y me han cobrado dos veces la misma compra. ¿Podría bloquear la tarjeta?", explanation: "Ayer → indefinido (se tragó); algo reciente que sigue afectando → perfecto (me han cobrado); petición cortés → ¿podría…?" },
     ]
   ),
   L(
@@ -591,10 +628,10 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         ["¿Cuándo puedo ver el piso?", "¿Cuándo podría ver el departamento?", "¿Cuándo podría ver el apartamento?", "¿Cuándo puedo ver el departamento?", "¿Cuándo puedo ver el apartamento?", "¿Cuándo se puede ver el piso?"]
       ),
       toEs(
-        "How long is the contract?",
-        "¿Cuánto dura el contrato?",
-        "Durar = to last. ¿Cuánto dura...? pregunta por la duración.",
-        ["¿Cuál es la duración del contrato?", "¿De cuánto tiempo es el contrato?", "¿Cuánto tiempo dura el contrato?"]
+        "How long does the deposit take to come back?",
+        "¿Cuánto tarda en devolverse la fianza?",
+        "Durar = to last; tardar (en) = to take time to happen. Para la fianza: ¿cuánto tarda en devolverse?",
+        ["¿Cuánto tardan en devolver la fianza?", "¿Cuánto tiempo tardan en devolver la fianza?", "¿Cuánto tarda en devolverse el depósito?", "¿Cuánto tardan en devolver el depósito?"]
       ),
       toEn(
         "La luz y el agua las paga el inquilino.",
@@ -609,10 +646,22 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "El garante garantiza el pago del alquiler. En España a veces piden un aval bancario con una función parecida."
       ),
       wo(
-        "Quería leer el contrato con calma antes de firmar.",
-        "Quería de cortesía + antes de + infinitivo.",
-        "I'd like to read the contract calmly before signing."
+        "Antes de firmar, quería hacer fotos de todas las habitaciones.",
+        "Antes de + infinitivo al principio; quería de cortesía + infinitivo.",
+        "Before signing, I'd like to take photos of all the rooms."
       ),
+      toEs("¿Puedo ver el piso mañana?", "¿Podría ver el piso mañana?", "El condicional «podría» suaviza la pregunta: suena más educado con alguien que no conoces.", ["¿Podría verlo mañana?", "¿Podría ver el departamento mañana?"], "Cambia al condicional para sonar más educado."),
+      toEs("El casero paga la comunidad.", "La comunidad la paga el casero.", "Si pones el objeto delante para destacarlo, hay que repetirlo con un pronombre: «la comunidad la paga…».", ["La comunidad la paga el propietario."], "Transforma la frase poniendo «la comunidad» al principio."),
+      toEs("¿El piso está luminoso?", "¿El piso es luminoso?", "Ser luminoso es una característica permanente del piso: va con «ser». Con «estar» hablas de un estado (está limpio, está libre).", [], "Corrige la frase."),
+      toEs("¿Se permite perros en el edificio?", "¿Se permiten perros en el edificio?", "En la pasiva con se el verbo concuerda con lo permitido: «perros» es plural → «se permiten».", ["¿Se admiten perros en el edificio?"], "Corrige la frase."),
+      toEs("¿Los muebles están incluido en el alquiler?", "¿Los muebles están incluidos en el alquiler?", "El participio concuerda con «los muebles» (masculino plural): «incluidos».", [], "Corrige la frase."),
+      mc(
+        "El anuncio dice: «Se alquila piso interior, sin amueblar, 700 €/mes, gastos incluidos.» ¿Qué es verdad?",
+        ["Tienes que comprar muebles, pero no pagas las facturas aparte.", "El piso tiene muebles y ventanas a la calle.", "Tienes que pagar la luz y el agua además de los 700 €.", "Es un piso para vender."],
+        0,
+        "Sin amueblar = sin muebles; gastos incluidos = las facturas están en el precio; interior = las ventanas dan a un patio. «Se alquila» es alquiler, no venta (se vende)."
+      ),
+      { type: "speak", prompt: "Llamas por un anuncio. Di en voz alta: «Hi, I'm calling about the flat. Is it still available? Are pets allowed?»", text: "Hola, llamo por el piso. ¿Sigue disponible? ¿Se admiten mascotas?", explanation: "Llamo por… para presentar el motivo; seguir + adjetivo = still; se admiten en plural porque concuerda con mascotas." },
     ]
   ),
   L(
@@ -764,6 +813,19 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [0, 1, 3],
         "Pedir cita (España) y sacar turno (Argentina) significan lo mismo. Pagar la tasa es pagar el precio del trámite."
       ),
+      toEs("Me falta una fotocopia del pasaporte.", "Me faltan dos fotocopias del pasaporte.", "«Faltar» funciona como «gustar»: concuerda con lo que falta. Dos fotocopias → «me faltan».", [], "Cambia a «dos fotocopias»."),
+      toEs("Tienes que traer el justificante.", "Traiga el justificante.", "El funcionario habla de usted: el mandato de usted es el subjuntivo, traer → traigo → «traiga».", ["Traiga el justificante de pago."], "Transforma la obligación en una instrucción con usted."),
+      toEs("Tengo que pedir otra cita.", "¿Cuándo tengo que pedir otra cita?", "La pregunta con interrogativo empieza por «cuándo» (con tilde) y el resto no cambia: no hace falta auxiliar como en inglés, solo los signos ¿…?", [], "Transforma la frase en una pregunta con «cuándo»."),
+      toEs("Me falta dos documentos para el NIE.", "Me faltan dos documentos para el NIE.", "Con «faltar» el verbo concuerda con lo que falta: dos documentos → «faltan».", [], "Corrige la frase."),
+      toEs("Tengo cita en las diez para empadronarme.", "Tengo cita a las diez para empadronarme.", "La hora va con «a»: a las diez. «En» no se usa con horas.", [], "Corrige la frase."),
+      toEs("Necesito empadronar en el ayuntamiento.", "Necesito empadronarme en el ayuntamiento.", "«Empadronarse» es pronominal: el pronombre se pega al infinitivo, «empadronarme».", ["Me necesito empadronar en el ayuntamiento."], "Corrige la frase."),
+      mc(
+        "El funcionario te dice: «El contrato está a nombre de otra persona. Necesito una autorización firmada.» ¿Qué respondes?",
+        ["Vale. Si la traigo mañana, ¿tengo que pedir otra cita?", "Saqué turno para el DNI.", "Aquí tiene la tasa del banco y mi padrón.", "No hay de qué."],
+        0,
+        "Le falta un documento, así que lo lógico es preguntar qué pasa si vuelve con él: si + presente (si la traigo) + pregunta. Las otras respuestas no contestan a lo que pide el funcionario."
+      ),
+      { type: "speak", prompt: "En la ventanilla, di en voz alta: «Good morning, I have an appointment at eleven to renew my residence card. What documents do I need?»", text: "Buenos días, tengo cita a las once para renovar la tarjeta de residencia. ¿Qué documentos necesito?", explanation: "Tengo cita a las + hora; para + infinitivo explica el motivo; ¿qué documentos necesito? es la pregunta clave." },
     ]
   ),
   L(
@@ -811,9 +873,9 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           fe(
-            "Disculpe, pero creo que hay un ___ en la factura.",
+            "Creo que hay un ___ en el cambio que me ha dado.",
             "error",
-            "Excuse me, but I think there's a [mistake] on the invoice.",
+            "I think there's a [mistake] in the change you've given me.",
             "Un error = a mistake. También vale «un fallo».",
             ["fallo"]
           ),
@@ -872,10 +934,10 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "¿Sería posible + infinitivo? es una petición muy educada."
       ),
       toEs(
-        "I think there's a mistake in the bill.",
-        "Creo que hay un error en la cuenta.",
-        "Creer que + indicativo en afirmativo. La cuenta (restaurante) o la factura (empresa).",
-        ["Creo que hay un error en la factura.", "Me parece que hay un error en la cuenta.", "Creo que la cuenta tiene un error.", "Creo que hay un fallo en la cuenta."]
+        "I don't think the bill is right.",
+        "No creo que la cuenta esté bien.",
+        "Creer que + indicativo en afirmativo (creo que hay un error), pero no creer que + subjuntivo: no creo que esté bien. La cuenta (restaurante) o la factura (empresa).",
+        ["No creo que la factura esté bien.", "No creo que la cuenta sea correcta.", "No creo que la factura sea correcta."]
       ),
       toEs(
         "I've been charged too much.",
@@ -906,6 +968,18 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [0, 1, 3],
         "«¡Esto es un robo!» es una acusación agresiva; empeora la conversación."
       ),
+      toEs("Cámbienme el producto ahora mismo.", "Me gustaría que me cambiaran el producto.", "Una exigencia directa suena agresiva. «Me gustaría que me cambiaran…» presenta lo que quieres como un deseo cortés (apréndelo como bloque, igual que «me gustaría que me devolvieran»).", ["¿Sería posible cambiarme el producto?", "Me gustaría que me cambiasen el producto."], "Transforma la exigencia en una petición educada con «Me gustaría que…»."),
+      toEs("Espero mi café desde hace cuarenta minutos.", "Llevo cuarenta minutos esperando mi café.", "Llevar + tiempo + gerundio cuenta cuánto dura algo que todavía continúa; es la forma más natural en una queja.", ["Llevo cuarenta minutos esperando el café."], "Transforma la frase con «llevar + tiempo + gerundio»."),
+      toEs("Llevamos veinte minutos esperado al camarero.", "Llevamos veinte minutos esperando al camarero.", "Con «llevar + tiempo» va el gerundio (-ando, -iendo), no el participio: «esperando».", [], "Corrige la frase."),
+      toEs("El portátil llegó rompido.", "El portátil llegó roto.", "Romper tiene participio irregular: «roto». «Rompido» no existe.", ["El portátil llegó estropeado."], "Corrige la frase."),
+      toEs("Entiendo que no sea culpa suya, pero necesito el pedido el viernes.", "Entiendo que no es culpa suya, pero necesito el pedido el viernes.", "Aquí «entiendo que» significa «me doy cuenta de que» y afirma un hecho: indicativo, «es».", [], "Corrige la frase."),
+      mc(
+        "En un restaurante te cobran un postre que no has pedido. ¿Qué dices?",
+        ["Perdone, creo que nos han cobrado un postre que no hemos pedido. ¿Podría revisarlo?", "¡Esto es un robo!", "No pienso pagar nada.", "Quería comentarle que el postre estaba muy bueno."],
+        0,
+        "La queja eficaz: perdone + el problema concreto (nos han cobrado…) + una petición clara (¿podría revisarlo?). Las otras acusan, amenazan o no explican el problema."
+      ),
+      { type: "speak", prompt: "Llamas a una tienda en línea. Di en voz alta: «Good afternoon, I'm calling because my order hasn't arrived. I understand it's not your fault, but I need it by Friday.»", text: "Buenas tardes, llamo porque mi pedido no ha llegado. Entiendo que no es culpa suya, pero lo necesito para el viernes.", explanation: "Llamo porque + el problema (perfecto: no ha llegado); entiendo que + indicativo para suavizar; para el viernes = by Friday." },
     ]
   ),
   L(
@@ -1002,9 +1076,9 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "Devolver = to return (a product). Quería + infinitivo es la forma cortés."
       ),
       fe(
-        "¿Tiene el ___ de compra?",
+        "Sin el ___ no podemos hacer la devolución.",
         "ticket",
-        "Do you have the [receipt]?",
+        "Without the [receipt] we can't process the return.",
         "El ticket (España) o el recibo / la boleta / la factura en muchos países de América.",
         ["recibo", "tique", "comprobante", "boleta"]
       ),
@@ -1028,16 +1102,16 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         ["¿Puedo cambiarla por otra talla?", "¿Lo puedo cambiar por otra talla?", "¿La puedo cambiar por otra talla?", "¿Se puede cambiar por otra talla?"]
       ),
       toEs(
-        "They sent me the wrong size.",
-        "Me enviaron una talla equivocada.",
-        "Equivocado = wrong. También: Me mandaron la talla que no era.",
-        ["Me mandaron una talla equivocada.", "Me han enviado una talla equivocada.", "Me han mandado una talla equivocada.", "Me enviaron la talla equivocada.", "Me mandaron la talla equivocada."]
+        "They sent me the wrong colour and the wrong size.",
+        "Me enviaron un color equivocado y una talla equivocada.",
+        "Equivocado = wrong, y concuerda con cada sustantivo: un color equivocado (masculino), una talla equivocada (femenino).",
+        ["Me mandaron un color equivocado y una talla equivocada.", "Me han enviado un color equivocado y una talla equivocada.", "Me enviaron el color equivocado y la talla equivocada.", "Me mandaron el color equivocado y la talla equivocada."]
       ),
       toEn(
-        "El portátil todavía está en garantía.",
-        "The laptop is still under warranty.",
-        "Estar en garantía = to be under warranty.",
-        ["The laptop is still under guarantee.", "The laptop's still under warranty.", "The laptop is still covered by the warranty."]
+        "La lavadora ya no está en garantía.",
+        "The washing machine is no longer under warranty.",
+        "Estar en garantía = to be under warranty; ya no = no longer.",
+        ["The washing machine isn't under warranty any more.", "The washing machine is no longer under guarantee.", "The washing machine isn't under warranty anymore."]
       ),
       mc(
         "No tienes el ticket. ¿Qué preguntas?",
@@ -1056,6 +1130,18 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [0, 1, 3],
         "Cambiarlo por otro es un cambio, no una devolución del dinero."
       ),
+      toEs("Quiero devolver esta lámpara.", "Quería devolver esta lámpara.", "El imperfecto de cortesía «quería» suaviza la petición en la tienda; no habla del pasado.", ["Quisiera devolver esta lámpara.", "Me gustaría devolver esta lámpara."], "Cambia al imperfecto de cortesía."),
+      toEs("Prefiero un vale.", "Prefiero que me den un vale.", "Cuando la acción la hace otra persona (la tienda), preferir que + subjuntivo: dar → «me den».", ["Preferiría que me dieran un vale."], "Transforma la frase: quieres que la tienda te dé un vale (preferir que + subjuntivo)."),
+      toEs("Prefiero que me cambian la chaqueta.", "Prefiero que me cambien la chaqueta.", "«Preferir que» con otro sujeto pide subjuntivo: «cambien».", [], "Corrige la frase."),
+      toEs("Esta falda no me queda bien. ¿Puedo cambiarlo?", "Esta falda no me queda bien. ¿Puedo cambiarla?", "El pronombre concuerda con el producto: la falda → «cambiarla».", ["Esta falda no me queda bien. ¿La puedo cambiar?"], "Corrige la frase."),
+      toEs("Estos vaqueros no me queda bien.", "Estos vaqueros no me quedan bien.", "«Quedar bien» funciona como «gustar»: concuerda con la prenda. Estos vaqueros → «quedan».", ["Estos jeans no me quedan bien."], "Corrige la frase."),
+      mc(
+        "El dependiente dice: «Sin ticket no le podemos devolver el dinero, pero le damos un vale.» ¿Qué significa?",
+        ["Te dan crédito para comprar otra cosa en la tienda.", "Te devuelven el dinero en efectivo.", "No puedes hacer nada.", "Tienes que pagar otra vez."],
+        0,
+        "Un vale (en América, una nota de crédito) es dinero que solo puedes gastar en esa tienda."
+      ),
+      { type: "speak", prompt: "En la tienda, di en voz alta: «Hi, I bought this shirt yesterday, but it doesn't fit me. Can I exchange it for a bigger size?»", text: "Hola, compré esta camisa ayer, pero no me queda bien. ¿Puedo cambiarla por una talla más grande?", explanation: "Ayer → indefinido (compré); quedar bien funciona como gustar (no me queda); cambiar algo por otra cosa, con «la» por la camisa." },
     ]
   ),
   L(
@@ -1172,10 +1258,10 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         ["La lavadora se ha estropeado.", "Se estropeó la lavadora.", "La lavadora se estropeó.", "Se ha roto la lavadora.", "Se rompió la lavadora.", "Se descompuso la lavadora.", "La lavadora se descompuso.", "Se dañó la lavadora."]
       ),
       toEs(
-        "How much do you charge for the visit?",
-        "¿Cuánto cobran por la visita?",
-        "Cobrar por algo = to charge for something.",
-        ["¿Cuánto cobra por la visita?", "¿Cuánto cuesta la visita?", "¿Cuánto me cobran por la visita?", "¿Cuánto cobráis por la visita?"]
+        "How much do you charge to change a tap?",
+        "¿Cuánto cobran por cambiar un grifo?",
+        "Cobrar por algo / por + infinitivo = to charge for (doing) something. En América: una llave (Argentina: una canilla).",
+        ["¿Cuánto cobra por cambiar un grifo?", "¿Cuánto cuesta cambiar un grifo?", "¿Cuánto cobran por cambiar una llave?", "¿Cuánto cobran por cambiar una canilla?", "¿Cuánto cobráis por cambiar un grifo?"]
       ),
       toEn(
         "Perdona que te escriba un domingo.",
@@ -1200,6 +1286,18 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [0, 1, 2],
         "El problema, cuándo empezó y cuándo pueden venir: así la visita es más rápida."
       ),
+      toEs("He roto el horno.", "Se ha estropeado el horno.", "Con el se accidental la avería simplemente ocurre: «se ha estropeado el horno». «He roto» dice que tú tienes la culpa.", ["El horno se ha estropeado.", "Se ha roto el horno.", "Se estropeó el horno."], "Transforma la frase con el se accidental (sin culpable)."),
+      toEs("¿Puedes venir hoy?", "¿Podrían venir hoy?", "Al técnico de una empresa se le habla de ustedes (o usted): el condicional «podrían» suaviza la petición.", ["¿Podría venir hoy?", "¿Pueden venir hoy?"], "Cambia a ustedes y suaviza la petición con el condicional."),
+      toEs("El desagüe de la bañera es atascado desde el lunes.", "El desagüe de la bañera está atascado desde el lunes.", "Atascado describe un estado (ahora no pasa el agua): va con «estar».", [], "Corrige la frase."),
+      toEs("No sale agua caliente desde ayer y la calefacción tampoco no funciona.", "No sale agua caliente desde ayer y la calefacción tampoco funciona.", "«Tampoco» ya es negativo: si va delante del verbo, no lleva «no».", ["No sale agua caliente desde ayer y la calefacción no funciona tampoco."], "Corrige la frase."),
+      toEs("Se han estropeado la nevera.", "Se ha estropeado la nevera.", "El verbo concuerda con lo que se estropea: «la nevera» es singular → «se ha estropeado».", ["Se ha estropeado el frigorífico."], "Corrige la frase."),
+      mc(
+        "El técnico pregunta: «¿Desde cuándo pasa?» ¿Qué respondes?",
+        ["Desde el lunes; cada vez que enciendo el horno, salta el automático.", "Mañana a primera hora.", "¿Cuánto cobran por la visita?", "Llamo porque tengo una fuga."],
+        0,
+        "«¿Desde cuándo?» pide el momento en que empezó el problema: desde + fecha. Las otras respuestas contestan a otras preguntas."
+      ),
+      { type: "speak", prompt: "Llamas a un fontanero. Di en voz alta: «Good morning, there's a leak under the sink since yesterday. Could you come tomorrow? How much do you charge?»", text: "Buenos días, hay una fuga debajo del fregadero desde ayer. ¿Podrían venir mañana? ¿Cuánto cobran?", explanation: "Qué pasa (hay una fuga), desde cuándo (desde ayer) y una petición cortés (¿podrían…?): los tres datos que necesita el técnico." },
     ]
   ),
   L(
@@ -1316,10 +1414,10 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         ["Se me da bien el trabajo en equipo.", "Soy bueno trabajando en equipo.", "Soy buena trabajando en equipo.", "Trabajo bien en equipo."]
       ),
       toEs(
-        "Thank you very much for your time.",
-        "Muchas gracias por su tiempo.",
-        "Su (usted) en una entrevista formal.",
-        ["Muchas gracias por tu tiempo.", "Gracias por su tiempo.", "Muchísimas gracias por su tiempo."]
+        "Thank you for seeing me; I hope to hear from you soon.",
+        "Gracias por recibirme; espero tener noticias suyas pronto.",
+        "Su / suyas (usted) en una entrevista formal. Esperar + infinitivo porque el sujeto es el mismo (yo espero, yo tengo noticias).",
+        ["Muchas gracias por recibirme; espero tener noticias suyas pronto.", "Gracias por recibirme; espero tener noticias suyas muy pronto.", "Gracias por atenderme; espero tener noticias suyas pronto."]
       ),
       toEn(
         "He trabajado tres años en la recepción de un hotel.",
@@ -1334,9 +1432,9 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "Un punto débil real con un plan de mejora suena honesto y maduro."
       ),
       wo(
-        "Estoy acostumbrado a trabajar bajo presión.",
-        "Estar acostumbrado a + infinitivo.",
-        "I'm used to working under pressure."
+        "Estoy acostumbrada a viajar por trabajo varias veces al mes.",
+        "Estar acostumbrada a + infinitivo; la frecuencia al final.",
+        "I'm used to travelling for work several times a month."
       ),
       ms(
         "¿Qué preguntas son buenas al final de una entrevista?",
@@ -1344,6 +1442,19 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [0, 1, 3],
         "Preguntas sobre el trabajo, el proceso y la formación muestran interés."
       ),
+      toEs("Vivo en Valencia desde hace tres años.", "Llevo tres años viviendo en Valencia.", "Llevar + tiempo + gerundio expresa lo mismo que «desde hace» (algo que empezó antes y sigue): llevo tres años viviendo.", [], "Transforma la frase con «llevar + tiempo + gerundio»."),
+      toEs("Se me da bien tratar con clientes.", "Se me dan bien las matemáticas.", "«Dársele bien» funciona como «gustar»: con un sustantivo plural (las matemáticas) el verbo va en plural, «se me dan».", [], "Cambia «tratar con clientes» por «las matemáticas»."),
+      toEs("¿Cómo es el horario de verano?", "¿Cómo sería el horario de verano?", "En la entrevista aún no tienes el puesto: el condicional «sería» hace la pregunta hipotética y más educada.", [], "Cambia al condicional para que la pregunta suene más educada."),
+      toEs("Llevo dos años trabajado en una agencia.", "Llevo dos años trabajando en una agencia.", "Con «llevar + tiempo» va el gerundio (-ando, -iendo), no el participio: «trabajando».", [], "Corrige la frase."),
+      toEs("Estoy acostumbrada a trabajo los fines de semana.", "Estoy acostumbrada a trabajar los fines de semana.", "Detrás de «estar acostumbrado/a a» va un infinitivo: «a trabajar».", ["Estoy acostumbrado a trabajar los fines de semana."], "Corrige la frase."),
+      toEs("Se me dan bien organizar eventos.", "Se me da bien organizar eventos.", "Lo que se te da bien es un infinitivo (organizar), y con infinitivo el verbo va en singular: «se me da».", [], "Corrige la frase."),
+      mc(
+        "El entrevistador dice: «Háblenos de un problema que resolvió en su último trabajo.» ¿Qué respuesta encaja mejor?",
+        ["Una vez un grupo llegó sin reserva y conseguí alojarlos en otro hotel.", "Se me da bien trabajar en equipo.", "¿Cómo sería un día normal en este puesto?", "Llevo dos años viviendo en Málaga."],
+        0,
+        "Pide un ejemplo concreto del pasado: «una vez» + pretérito indefinido (llegó, conseguí). Las otras opciones hablan de cualidades, de preguntas o de dónde vives."
+      ),
+      { type: "speak", prompt: "Preséntate en voz alta en una entrevista: «I've been working as a waiter for two years and I'm good at dealing with customers.»", text: "Llevo dos años trabajando de camarero y se me da bien tratar con clientes.", explanation: "Llevar + tiempo + gerundio para la experiencia que continúa; se me da bien + infinitivo (singular). Trabajar de / como camarero (o camarera)." },
     ]
   ),
   L(
@@ -1460,10 +1571,10 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         ["¿Está incluido el seguro?", "¿Incluye el seguro?", "¿Va incluido el seguro?"]
       ),
       toEs(
-        "Fill it up, please.",
-        "Lleno, por favor.",
-        "En la gasolinera basta con «lleno». También: Llénelo, por favor.",
-        ["Llénelo, por favor.", "Llene el tanque, por favor.", "Lleno por favor.", "Llénalo, por favor.", "Llene el depósito, por favor."]
+        "Thirty euros of diesel at pump four, please.",
+        "Treinta euros de diésel en el surtidor cuatro, por favor.",
+        "En la gasolinera se pide la cantidad + de + el combustible; el surtidor = the pump. En España también gasóleo.",
+        ["Treinta euros de gasóleo en el surtidor cuatro, por favor.", "Treinta euros de diésel en el surtidor número cuatro, por favor.", "Treinta euros de gasóleo en el surtidor número cuatro, por favor."]
       ),
       toEn(
         "Tiene que devolver el coche con el depósito lleno.",
@@ -1488,6 +1599,19 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [0, 1, 2],
         "Coche (España), carro (México, Colombia, Caribe), auto (Cono Sur). La cajuela es el maletero."
       ),
+      toEs("He roto el espejo del coche.", "Se me ha roto el espejo del coche.", "Para un accidente sin culpa se usa el se accidental: se + me (a quién le pasa) + verbo que concuerda con la cosa: «se me ha roto el espejo».", ["Se me rompió el espejo del coche.", "Se me ha roto el espejo del carro.", "Se me ha roto el retrovisor del coche."], "Transforma la frase con el se accidental (no fue culpa tuya)."),
+      toEs("Se me ha pinchado una rueda.", "Se me han pinchado dos ruedas.", "En el se accidental el verbo concuerda con la cosa: dos ruedas → «se me han pinchado».", ["Se me pincharon dos ruedas.", "Se me han pinchado dos llantas."], "Cambia a «dos ruedas»."),
+      toEs("Llena el depósito, por favor.", "Llene el depósito, por favor.", "Al empleado de la gasolinera se le habla de usted: el mandato de usted es el subjuntivo, «llene».", ["Llénelo, por favor.", "Llene el tanque, por favor."], "Cambia a usted."),
+      toEs("Se me ha descargado las baterías del móvil y no puedo llamar.", "Se me ha descargado la batería del móvil y no puedo llamar.", "El móvil tiene una batería: el verbo y el sustantivo van en singular, «se me ha descargado la batería».", ["Se me ha descargado la batería del celular y no puedo llamar."], "Corrige la frase."),
+      toEs("¿El seguro a todo riesgo es incluido?", "¿El seguro a todo riesgo está incluido?", "«Incluido» describe un estado o una condición del precio: va con «estar».", ["¿Está incluido el seguro a todo riesgo?"], "Corrige la frase."),
+      toEs("Tengo que devolver el coche con el depósito llenado.", "Tengo que devolver el coche con el depósito lleno.", "Para decir cómo está el depósito se usa el adjetivo «lleno», no el participio «llenado».", [], "Corrige la frase."),
+      mc(
+        "Llamas a la asistencia en carretera. Te preguntan: «¿Dónde se encuentra?» ¿Qué respondes?",
+        ["Estoy en la autopista A-7, cerca de la salida veinte.", "Se me ha pinchado una rueda.", "Lleno por lleno.", "El seguro a todo riesgo, por favor."],
+        0,
+        "«¿Dónde se encuentra?» pregunta por el lugar: estoy en + carretera + cerca de la salida… Las otras respuestas explican el problema o hablan del alquiler."
+      ),
+      { type: "speak", prompt: "Llamas a la empresa de alquiler. Di en voz alta: «I'm on the motorway near exit twelve. A red light has come on and the car won't start.»", text: "Estoy en la autopista, cerca de la salida doce. Se ha encendido una luz roja y el coche no arranca.", explanation: "Estoy en + lugar; se ha encendido (se accidental, perfecto para algo que acaba de pasar); no arranca = won't start." },
     ]
   ),
 ];

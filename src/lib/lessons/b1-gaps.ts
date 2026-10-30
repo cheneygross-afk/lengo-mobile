@@ -31,7 +31,7 @@ export const B1_GAPS: AnchoredLesson[] = [
       sec(
         "Forma: habré + participio",
         [
-          "El futuro perfecto se forma con el futuro de haber + participio: habré, habrás, habrá, habremos, habréis, habrán + hablado / comido / vivido.",
+          "La idea: el futuro perfecto mira hacia atrás desde un punto del futuro. Igual que «he terminado» mira hacia atrás desde hoy, «habré terminado» mira hacia atrás desde el viernes, desde las ocho, desde junio: en ese momento la acción ya estará acabada. Por eso se forma con el futuro de haber + participio: habré, habrás, habrá, habremos, habréis, habrán + hablado / comido / vivido.",
           "Los participios irregulares son los mismos que en el pretérito perfecto: hecho, dicho, visto, escrito, puesto, vuelto, abierto, roto.",
           "Los pronombres van delante de haber: Ya lo habré hecho. Nunca entre haber y el participio.",
         ],
@@ -188,6 +188,7 @@ export const B1_GAPS: AnchoredLesson[] = [
           "En español, el futuro simple no solo habla del futuro: también expresa una suposición sobre el presente. ¿Qué hora es? — No sé, serán las tres (= probablemente son las tres).",
           "Es muy frecuente con ser, estar, tener, haber y saber: Estará en casa. Tendrá unos cuarenta años. Habrá unas cien personas.",
           "En preguntas expresa duda o curiosidad: ¿Dónde estará mi móvil? (= me pregunto dónde está). ¿Quién será a estas horas?",
+          "¿Por qué el futuro? Porque una suposición es algo que todavía no puedes confirmar: lo presentas como algo que se comprobará más tarde. Así, lo que probablemente es ahora va en futuro, y lo que probablemente era antes, en condicional.",
         ],
         [
           ["No sé qué hora es; serán las tres.", "I don't know what time it is; it must be about three."],
@@ -331,6 +332,7 @@ export const B1_GAPS: AnchoredLesson[] = [
       sec(
         "Ir a y acabar de: justo antes y justo después",
         [
+          "La idea: una perífrasis es un verbo conjugado + (preposición) + infinitivo, donde el primer verbo pierde parte de su significado y solo dice CÓMO está la acción: a punto de empezar, recién terminada, repetida, interrumpida. El primer verbo lleva el tiempo y la persona; el infinitivo, la acción. Y cada una tiene su preposición fija, que no se puede quitar.",
           "Ya conoces ir a + infinitivo para planes e intenciones: Voy a llamar a mi madre. En el pasado, iba a + infinitivo expresa un plan o una intención, muchas veces uno que al final no se cumplió: Iba a llamarte, pero se me hizo tarde.",
           "Acabar de + infinitivo significa que algo ha pasado hace muy poco: Acabo de llegar = I've just arrived. En pasado: Acababa de salir cuando empezó a llover (I had just gone out).",
           "Cuidado: acabar + gerundio o acabar por + infinitivo significan «terminar haciendo algo»: Acabé comprando el más caro.",
@@ -441,10 +443,10 @@ export const B1_GAPS: AnchoredLesson[] = [
         ["Acabo de acabar el libro.", "Acabo de terminarme el libro.", "Recién terminé el libro."]
       ),
       toEs(
-        "It won't happen again.",
-        "No volverá a pasar.",
-        "Volver a + infinitivo en futuro: la promesa típica al pedir perdón.",
-        ["No va a volver a pasar.", "No volverá a ocurrir.", "No va a volver a ocurrir.", "Esto no volverá a pasar."]
+        "I promise you it won't happen again. (tú)",
+        "Te prometo que no volverá a ocurrir.",
+        "Volver a + infinitivo en futuro: la promesa típica al pedir perdón. «Prometer que» informa de lo que harás, así que va con indicativo (volverá).",
+        ["Te prometo que no volverá a pasar.", "Te prometo que no va a volver a pasar.", "Te prometo que no va a volver a ocurrir.", "Te prometo que esto no volverá a pasar."]
       ),
       toEn(
         "Iba a comprar pan, pero la panadería estaba cerrada.",
@@ -481,6 +483,7 @@ export const B1_GAPS: AnchoredLesson[] = [
       sec(
         "Seguir + gerundio: todavía",
         [
+          "La idea: el gerundio presenta una acción en marcha, sin principio ni final. Por eso estas perífrasis hablan de lo que continúa o dura: el verbo conjugado (seguir, llevar, ir, andar) dice cómo se ve esa acción en marcha, y el gerundio dice cuál es. Cuando la acción NO ocurre, el gerundio no sirve (no hay nada en marcha) y se usa sin + infinitivo.",
           "Seguir / continuar + gerundio = una acción que continúa, que todavía pasa: Sigo viviendo en Sevilla (I still live in Seville). Es la forma más natural de decir «still» con un verbo.",
           "Seguir es irregular (e → i): sigo, sigues, sigue, seguimos, seguís, siguen.",
           "En negativo se usa seguir sin + infinitivo: Sigo sin entenderlo (I still don't understand it). Sigue sin llamar (he still hasn't called).",
@@ -633,7 +636,7 @@ export const B1_GAPS: AnchoredLesson[] = [
       sec(
         "¿Existe o no lo sé?",
         [
-          "Después de «que» en una oración de relativo, el modo depende del antecedente (la persona o cosa de la que hablamos).",
+          "La idea: después de «que» en una oración de relativo, el modo depende del antecedente (la persona o cosa de la que hablamos). ¿Por qué? El indicativo describe algo real que conoces; el subjuntivo describe algo que solo existe en tu búsqueda, tu deseo o tu pregunta. La pregunta clave: ¿existe y lo conozco?",
           "Si sabes que existe y es concreta, indicativo: Tengo un piso que tiene terraza. Conozco a una chica que habla japonés.",
           "Si no sabes si existe, la buscas o la deseas, subjuntivo: Busco un piso que tenga terraza. Necesito a alguien que hable japonés.",
           "Por eso, en los anuncios de trabajo y de pisos se ve mucho subjuntivo: Se busca camarero que tenga experiencia.",
