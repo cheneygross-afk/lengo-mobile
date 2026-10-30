@@ -4,6 +4,7 @@ import type { Exercise } from "@/lib/lessons/types";
 import { englishTaughtName, speak, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 import TapText, { isTargetText } from "@/components/TapText";
 import { isSpanishText } from "@/lib/spanishVoice";
+import { isTargetTask } from "@/lib/lessons/targetTask";
 import {
   gradeFillBlank,
   gradeTranslate,
@@ -425,6 +426,9 @@ function Translate({
   const [value, setValue] = useState("");
   const sourceIsTarget = exercise.direction === "es-en";
   const sourceIsSpanishTask = !sourceIsTarget && (lang === "es-ES" || lang === "es-US") && isSpanishText(exercise.source);
+  // The same kind of task in the other courses ("Make it negative." with a
+  // target-language sentence): the source is target text, tap-to-hear.
+  const sourceIsTargetTask = !sourceIsTarget && !lang.startsWith("es") && isTargetTask(exercise.prompt, exercise.source, lang);
 
   // es-en: `source` IS the target-language phrase this drill question is
   // asking about, and it's on screen from the moment the question
@@ -454,6 +458,8 @@ function Translate({
           >
             {exercise.source}
           </Text>
+        ) : sourceIsTargetTask ? (
+          <TapText text={exercise.source} lang={lang} mode="target" style={s.sourceText} />
         ) : sourceIsSpanishTask ? (
           // A correction task ("Corrige: ..."): its Spanish is tap-to-hear,
           // word by word, so any English framing stays plain.
