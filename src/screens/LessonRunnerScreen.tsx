@@ -714,6 +714,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               mode="english"
               style={[s.feedbackTitle, feedback.correct ? s.feedbackTitleCorrect : s.feedbackTitleWrong]}
             />
+            {feedback.correct && (
+              <Animated.View style={[s.plusOne, { transform: [{ scale: markAnim.interpolate({ inputRange: [0, 0.6, 1], outputRange: [0.3, 1.15, 1] }) }] }]}>
+                <Text style={s.plusOneText}>+1</Text>
+              </Animated.View>
+            )}
           </View>
           <TapText text={feedback.explanation} lang={lang} style={s.feedbackBody} />
           <Pressable
@@ -844,7 +849,7 @@ function TeachStep({
             const esKey = `sec${si}-ex${ei}-es`;
             const enKey = `sec${si}-ex${ei}-en`;
             return (
-              <View key={ei} style={s.example}>
+              <View key={ei} style={[s.example, { borderLeftColor: accent }]}>
                 <HighlightableText
                   text={ex.es}
                   blockKey={esKey}
@@ -1057,15 +1062,24 @@ const s = StyleSheet.create({
   // on every word.
   teachBody: { fontSize: 15, lineHeight: 22, color: "#2A1513dd" },
   teachBodyBlock: { marginBottom: 10 },
+  // Example cards: white, with a stripe in the level's colour down the
+  // left edge (as on the website).
   example: {
     backgroundColor: "#fff",
-    borderRadius: 12,
+    borderRadius: 14,
     padding: 14,
+    paddingLeft: 16,
     marginBottom: 8,
     borderWidth: 1,
+    borderLeftWidth: 4,
     borderColor: "#2A151312",
+    shadowColor: "#2A1513",
+    shadowOpacity: 0.05,
+    shadowRadius: 6,
+    shadowOffset: { width: 0, height: 2 },
+    elevation: 1,
   },
-  exampleEs: { fontSize: 15, fontWeight: "700", color: "#2A1513" },
+  exampleEs: { fontSize: 16, fontWeight: "700", color: "#2A1513" },
   exampleEn: { fontSize: 13, color: "#2A151399" },
   exampleEnBlock: { marginTop: 2 },
 
@@ -1087,18 +1101,28 @@ const s = StyleSheet.create({
   listenToggleOn: { backgroundColor: "#8B0000", borderColor: "#8B0000" },
   listenToggleText: { fontSize: 14, opacity: 0.5 },
   listenToggleTextOn: { opacity: 1 },
+  // The answer sheet slides up with rounded top corners and a soft shadow.
   feedbackSheet: {
     position: "absolute",
     left: 0,
     right: 0,
     bottom: 0,
     paddingHorizontal: 20,
-    paddingTop: 16,
+    paddingTop: 18,
     paddingBottom: 28,
-    borderTopWidth: 2,
+    borderTopWidth: 3,
+    borderTopLeftRadius: 22,
+    borderTopRightRadius: 22,
+    shadowColor: "#2A1513",
+    shadowOpacity: 0.12,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: -4 },
+    elevation: 8,
   },
-  feedbackSheetCorrect: { backgroundColor: "#16a34a1a", borderTopColor: "#16a34a" },
-  feedbackSheetWrong: { backgroundColor: "#dc26261a", borderTopColor: "#dc2626" },
+  feedbackSheetCorrect: { backgroundColor: "#EEF8F0", borderTopColor: "#16a34a" },
+  feedbackSheetWrong: { backgroundColor: "#FCEEEE", borderTopColor: "#dc2626" },
+  plusOne: { marginLeft: "auto", backgroundColor: "#16a34a", borderRadius: 999, paddingHorizontal: 9, paddingVertical: 2 },
+  plusOneText: { color: "#fff", fontWeight: "800", fontSize: 13 },
   feedbackHead: { flexDirection: "row", alignItems: "center", gap: 10, marginBottom: 6 },
   feedbackMark: { width: 26, height: 26, borderRadius: 13, alignItems: "center", justifyContent: "center" },
   feedbackMarkText: { color: "#fff", fontWeight: "800", fontSize: 14 },
