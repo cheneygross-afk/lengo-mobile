@@ -28,7 +28,7 @@ export const B2_SKILLS: Record<string, Exercise[]> = {
     spk("Ojalá hubiera aprendido a tocar el piano de niño.", "Une «hubiera aprendido»: «u-bie-raa-pren-DI-do».", "Ojalá + pluscuamperfecto de subjuntivo: un deseo sobre el pasado que ya no puede cumplirse."),
   ],
   "b2d-habla-de-ti-conversacion": [
-    spk("Me contó que había cambiado de trabajo y que estaba muy contenta.", "Ritmo de narración: pequeña pausa antes del segundo «que».", "Estilo indirecto: ha cambiado → había cambiado; está → estaba."),
+    spk("Me contó que se había mudado y que estaba encantada con su barrio.", "Ritmo de narración: pequeña pausa antes del segundo «que».", "Estilo indirecto: se ha mudado → se había mudado; está → estaba."),
     spk("Me preguntó si quería ir con ella al concierto.", "La pregunta indirecta no sube al final: es una afirmación.", "Pregunta indirecta con si: ¿Quieres venir? → me preguntó si quería ir."),
   ],
   "b2d-habla-de-ti-caracter-estado": [
@@ -78,7 +78,7 @@ export const B2_SKILLS: Record<string, Exercise[]> = {
       0,
       "«Te desmayas cuando ves sangre»: no sería buen médico. No se habla del sueldo, ni de su trabajo actual, ni de los deseos del amigo."
     ),
-    spk("Si hubiera estudiado Medicina, ahora sería médico.", "Contraste de tiempos: «hubiera estudiado» (pasado) y «ahora sería» (presente).", "Condicional mixta: condición en el pasado, consecuencia en el presente."),
+    spk("Si hubiera aprendido a nadar de niño, ahora no tendría miedo al mar.", "Contraste de tiempos: «hubiera aprendido» (pasado) y «ahora no tendría» (presente).", "Condicional mixta: condición en el pasado (hubiera aprendido), consecuencia en el presente (no tendría)."),
   ],
   "b2r-mission-gossip": [
     lc(
