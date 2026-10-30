@@ -34,24 +34,21 @@ export const A2_GAPS: AnchoredLesson[] = [
       sec(
         "¿ and ¡ open the question, wherever it starts",
         [
+          "The idea behind all of this lesson: Spanish writing is built so that a reader can say any sentence aloud correctly on sight. ¿ and ¡ warn you early that the tone will rise or rise sharply, and written accents tell you which syllable to stress whenever the normal pattern doesn't apply.",
           "Spanish marks a question or an exclamation at both ends: ¿...? and ¡...!. The opening mark goes where the question itself starts, which is not always the start of the sentence.",
           "So a name, a greeting or a linking word that comes first stays outside: Oye, ¿vienes? / Laura, ¿dónde estás? / Si llueve, ¿qué hacemos?",
           "On a phone keyboard, hold down ? or ! to find ¿ and ¡. In quick chats many people skip them, but in anything you write carefully they are expected.",
         ],
         [
-          ["¿Tienes hambre?", "Are you hungry?"],
-          ["¡Qué frío hace!", "It's so cold!"],
-          ["Oye, ¿vienes esta noche?", "Hey, are you coming tonight?"],
-          ["Si no hay tren, ¿cómo volvemos?", "If there's no train, how do we get back?"],
-          ["Perdona, ¿sabes qué hora es?", "Sorry, do you know what time it is?"],
+          ["¿Tienes hambre?","Are you hungry?"],
+          ["¡Qué frío hace!","It's so cold!"],
+          ["Oye, ¿vienes esta noche?","Hey, are you coming tonight?"],
+          ["Si no hay tren, ¿cómo volvemos?","If there's no train, how do we get back?"],
+          ["Perdona, ¿sabes qué hora es?","Sorry, do you know what time it is?"],
         ],
         [
-          mc(
-            "Which sentence is punctuated correctly?",
-            ["Marta, ¿quieres un café?", "¿Marta, quieres un café?", "Marta ¿quieres un café", "Marta, quieres un café?"],
-            0,
-            "The question is \"¿quieres un café?\"; Marta is just the person you're talking to, so she stays outside the marks. \"¿Marta, quieres...?\" opens the question too early, and the other two are missing a mark."
-          ),
+          toEs("¿Pablo, tienes frío?", "Pablo, ¿tienes frío?", "Pablo is just the person you're talking to, so the name stays outside: the question starts at ¿tienes.", undefined, "Correct the punctuation."),
+          mc("Which sentence is punctuated correctly?", ["Marta, ¿quieres un café?","¿Marta, quieres un café?","Marta ¿quieres un café","Marta, quieres un café?"], 0, "The question is \"¿quieres un café?\"; Marta is just the person you're talking to, so she stays outside the marks. \"¿Marta, quieres...?\" opens the question too early, and the other two are missing a mark."),
         ]
       ),
       sec(
@@ -62,18 +59,13 @@ export const A2_GAPS: AnchoredLesson[] = [
           "Spanish often uses « » (comillas angulares) for quotes, especially in Spain; \" \" is also correct and is more common in Latin America.",
         ],
         [
-          ["El lunes 3 de marzo empiezo a estudiar alemán.", "On Monday, March 3rd, I start studying German."],
-          ["Mi vecina es mexicana y habla inglés.", "My neighbor is Mexican and speaks English."],
-          ["Mañana yo cocino y tú lavas los platos.", "Tomorrow I'll cook and you'll wash the dishes."],
-          ["El cartel dice «cerrado».", "The sign says \"closed\"."],
+          ["El lunes 3 de marzo empiezo a estudiar alemán.","On Monday, March 3rd, I start studying German."],
+          ["Mi vecina es mexicana y habla inglés.","My neighbor is Mexican and speaks English."],
+          ["Mañana yo cocino y tú lavas los platos.","Tomorrow I'll cook and you'll wash the dishes."],
+          ["El cartel dice «cerrado».","The sign says \"closed\"."],
         ],
         [
-          mc(
-            "Which sentence is written correctly?",
-            ["Nos vemos el viernes en abril.", "Nos vemos el Viernes en Abril.", "Nos vemos el viernes en Abril.", "Nos vemos el Viernes en abril."],
-            0,
-            "Days and months are common nouns in Spanish, so both are lower case: viernes, abril. English capitalizes them; Spanish doesn't."
-          ),
+          mc("Which sentence is written correctly?", ["Nos vemos el viernes en abril.","Nos vemos el Viernes en Abril.","Nos vemos el viernes en Abril.","Nos vemos el Viernes en abril."], 0, "Days and months are common nouns in Spanish, so both are lower case: viernes, abril. English capitalizes them; Spanish doesn't."),
         ]
       ),
       sec(
@@ -84,18 +76,13 @@ export const A2_GAPS: AnchoredLesson[] = [
           "This is why the preterite needs accents: hablo (I speak) follows the normal pattern, but habló (he spoke) breaks it, so the accent shows it.",
         ],
         [
-          ["café, sofá, menú", "coffee, sofa, menu"],
-          ["canción, jardín, alemán", "song, garden, German"],
-          ["hablé, comí, salió", "I spoke, I ate, he went out"],
-          ["hablo / habló", "I speak / he spoke"],
+          ["café, sofá, menú","coffee, sofa, menu"],
+          ["canción, jardín, alemán","song, garden, German"],
+          ["hablé, comí, salió","I spoke, I ate, he went out"],
+          ["hablo / habló","I speak / he spoke"],
         ],
         [
-          mc(
-            "Which word needs a written accent? (Stress in capitals.)",
-            ["cancion (can-CION)", "zapatos (za-PA-tos)", "hablan (HA-blan)", "mesa (ME-sa)"],
-            0,
-            "Cancion ends in -n and is stressed on the last syllable, which breaks the normal pattern, so it's written canción. The other three end in a vowel, -n or -s and are stressed on the second-to-last syllable, which is the default: no accent."
-          ),
+          mc("Which word needs a written accent? (Stress in capitals.)", ["cancion (can-CION)","zapatos (za-PA-tos)","hablan (HA-blan)","mesa (ME-sa)"], 0, "Cancion ends in -n and is stressed on the last syllable, which breaks the normal pattern, so it's written canción. The other three end in a vowel, -n or -s and are stressed on the second-to-last syllable, which is the default: no accent."),
         ]
       ),
       sec(
@@ -107,19 +94,14 @@ export const A2_GAPS: AnchoredLesson[] = [
           "Plurals keep the stress on the same syllable, so the accent can appear or disappear: canción → canciones, joven → jóvenes, examen → exámenes.",
         ],
         [
-          ["árbol, fácil, lápiz, difícil", "tree, easy, pencil, difficult"],
-          ["música, médico, página, sábado", "music, doctor, page, Saturday"],
-          ["el joven / los jóvenes", "the young man / young people"],
-          ["la canción / las canciones", "the song / the songs"],
-          ["el examen / los exámenes", "the exam / the exams"],
+          ["árbol, fácil, lápiz, difícil","tree, easy, pencil, difficult"],
+          ["música, médico, página, sábado","music, doctor, page, Saturday"],
+          ["el joven / los jóvenes","the young man / young people"],
+          ["la canción / las canciones","the song / the songs"],
+          ["el examen / los exámenes","the exam / the exams"],
         ],
         [
-          ms(
-            "Which of these words are spelled correctly?",
-            ["fácil", "teléfono", "ciudád", "canciónes", "jóvenes"],
-            [0, 1, 4],
-            "Fácil is stressed on FA and ends in -l (Rule 2). Teléfono and jóvenes are stressed third from last, so they always carry an accent (Rule 3). Ciudad ends in -d and is stressed on the last syllable, which is normal: no accent. Canciones is stressed on CIO and ends in -s, also normal: the accent of canción disappears in the plural."
-          ),
+          ms("Which of these words are spelled correctly?", ["fácil","teléfono","ciudád","canciónes","jóvenes"], [0,1,4], "Fácil is stressed on FA and ends in -l (Rule 2). Teléfono and jóvenes are stressed third from last, so they always carry an accent (Rule 3). Ciudad ends in -d and is stressed on the last syllable, which is normal: no accent. Canciones is stressed on CIO and ends in -s, also normal: the accent of canción disappears in the plural."),
         ]
       ),
       sec(
@@ -129,95 +111,39 @@ export const A2_GAPS: AnchoredLesson[] = [
           "You will meet many of these in verbs: reír, and imperfect forms like tenía, comían, vivíamos (coming soon in the imperfect lessons).",
         ],
         [
-          ["Hace frío hoy.", "It's cold today."],
-          ["¿Qué día es?", "What day is it?"],
-          ["De niño vivía cerca del río.", "As a child I lived near the river."],
+          ["Hace frío hoy.","It's cold today."],
+          ["¿Qué día es?","What day is it?"],
+          ["De niño vivía cerca del río.","As a child I lived near the river."],
         ],
         [
-          mc(
-            "\"Every day\" is ___.",
-            ["todos los días", "todos los dias", "tódos los días", "todos lós dias"],
-            0,
-            "Días is said DÍ-as: the i is stressed and separate from the a, so it takes an accent. Todos and los follow the normal patterns and need none."
-          ),
+          mc("A word you may not know: \"baúl\" (trunk). Why does it have an accent?", ["The stressed u is said apart from the a.","It ends in -l and is stressed on the last syllable.","Every word with two vowels has an accent.","It is stressed third from last."], 0, "Without the accent, au would blend into one syllable (like in auto). The accent splits them: ba-ÚL. Words ending in -l stressed on the last syllable (papel) need no accent on their own."),
+          mc("\"Every day\" is ___.", ["todos los días","todos los dias","tódos los días","todos lós dias"], 0, "Días is said DÍ-as: the i is stressed and separate from the a, so it takes an accent. Todos and los follow the normal patterns and need none."),
         ]
       ),
     ],
     [
-      mt(
-        "Match each word to the rule that explains its accent.",
-        [
-          ["canción", "ends in -n, stressed on the last syllable"],
-          ["árbol", "ends in -l, stressed second-to-last"],
-          ["música", "stressed third from last"],
-          ["país", "stressed i said apart from the a"],
-        ],
-        "An aguda word ending in a vowel, -n or -s, a llana word ending in another consonant, an esdrújula word (always accented), and a split pair of vowels."
-      ),
-      mc(
-        "Where do the question marks go? \"If you can't come, what do we do?\"",
-        ["Si no puedes venir, ¿qué hacemos?", "¿Si no puedes venir, qué hacemos?", "Si no puedes venir ¿qué hacemos", "¿Si no puedes venir qué hacemos?"],
-        0,
-        "The question is only \"¿qué hacemos?\"; the si-clause before the comma is outside it. \"¿Si no puedes venir...\" opens the question too early."
-      ),
-      ms(
-        "Which words need a written accent? (Stress in capitals.)",
-        ["telefono (te-LE-fo-no)", "facil (FA-cil)", "reloj (re-LOJ)", "jardin (jar-DIN)", "joven (JO-ven)"],
-        [0, 1, 3],
-        "Teléfono is stressed third from last: always accented. Fácil ends in -l but is stressed second-to-last, against the pattern. Jardín ends in -n but is stressed on the last syllable, against the pattern. Reloj (ends in -j, stressed last) and joven (ends in -n, stressed second-to-last) follow the normal patterns."
-      ),
-      mc(
-        "Which plural is spelled correctly?",
-        ["los exámenes", "los examenes", "los exámenés", "los éxamenes"],
-        0,
-        "Examen is stressed on XA. In the plural the stress stays on XA, which is now third from last (e-XA-me-nes), so it needs an accent: exámenes."
-      ),
-      toEs(
-        "My birthday is on Saturday, May 12th.",
-        "Mi cumpleaños es el sábado 12 de mayo.",
-        "Sábado is stressed third from last, so it's accented. Days and months are lower case: sábado, mayo. Cumpleaños has no written accent: it ends in -s and is stressed second-to-last (cum-ple-A-ños).",
-        ["Mi cumpleaños es el sábado doce de mayo.", "Mi cumpleaños es el sábado, 12 de mayo.", "Mi cumpleaños es el sábado, doce de mayo."]
-      ),
-      fe(
-        "Ayer mi hermano ___ con el profesor.",
-        "habló",
-        "Yesterday my brother [spoke] to the teacher.",
-        "The preterite él form habló is stressed on the last syllable and ends in a vowel, so it needs the accent. Without it, hablo means \"I speak\"."
-      ),
-      fe(
-        "Estas ___ son muy bonitas.",
-        "canciones",
-        "These [songs] are very pretty.",
-        "Canción loses its accent in the plural. The stress stays on CIO (can-CIO-nes), which is now the second-to-last syllable of a word ending in -s: the normal pattern, so no accent. \"Canciónes\" is a common mistake."
-      ),
-      mc(
-        "Which sentence is written correctly?",
-        ["Hablo inglés y un poco de francés.", "Hablo Inglés y un poco de Francés.", "Hablo ingles y un poco de frances.", "Hablo Ingles y un poco de frances."],
-        0,
-        "Languages are lower case in Spanish. Inglés and francés end in -s and are stressed on the last syllable, so both take an accent."
-      ),
-      toEn(
-        "¡Qué rápido habla tu médico!",
-        "Your doctor talks so fast!",
-        "¡Qué + adjective/adverb! is an exclamation: how fast! Rápido and médico are both stressed third from last, so both carry an accent.",
-        ["How fast your doctor talks!", "Your doctor speaks so fast!", "How fast your doctor speaks!", "Your doctor talks really fast!"]
-      ),
-      wo(
-        "Oye, ¿qué día es hoy?",
-        "The question starts at ¿qué, after Oye and the comma. Día takes an accent because its i is stressed and said apart from the a.",
-        "Hey, what day is it today?"
-      ),
-      mc(
-        "Why does \"lápiz\" have a written accent?",
-        [
-          "It ends in -z and is stressed on the second-to-last syllable.",
-          "It ends in -z and is stressed on the last syllable.",
-          "Every word ending in -z has an accent.",
-          "It's stressed on the third-from-last syllable.",
-        ],
-        0,
-        "Words ending in a consonant other than -n or -s are normally stressed on the last syllable (feliz, capaz). Lápiz is stressed on LA instead, so it needs the accent. Plenty of words in -z have none: feliz, arroz, luz."
-      ),
+      mt("Match each word to the rule that explains its accent.", [["canción","ends in -n, stressed on the last syllable"],["árbol","ends in -l, stressed second-to-last"],["música","stressed third from last"],["país","stressed i said apart from the a"]], "An aguda word ending in a vowel, -n or -s, a llana word ending in another consonant, an esdrújula word (always accented), and a split pair of vowels."),
+      mc("Where do the question marks go? \"If you can't come, what do we do?\"", ["Si no puedes venir, ¿qué hacemos?","¿Si no puedes venir, qué hacemos?","Si no puedes venir ¿qué hacemos","¿Si no puedes venir qué hacemos?"], 0, "The question is only \"¿qué hacemos?\"; the si-clause before the comma is outside it. \"¿Si no puedes venir...\" opens the question too early."),
+      ms("Which words need a written accent? (Stress in capitals.)", ["telefono (te-LE-fo-no)","facil (FA-cil)","reloj (re-LOJ)","jardin (jar-DIN)","joven (JO-ven)"], [0,1,3], "Teléfono is stressed third from last: always accented. Fácil ends in -l but is stressed second-to-last, against the pattern. Jardín ends in -n but is stressed on the last syllable, against the pattern. Reloj (ends in -j, stressed last) and joven (ends in -n, stressed second-to-last) follow the normal patterns."),
+      mc("Which plural is spelled correctly?", ["los exámenes","los examenes","los exámenés","los éxamenes"], 0, "Examen is stressed on XA. In the plural the stress stays on XA, which is now third from last (e-XA-me-nes), so it needs an accent: exámenes."),
+      toEs("My birthday is on Saturday, May 12th.", "Mi cumpleaños es el sábado 12 de mayo.", "Sábado is stressed third from last, so it's accented. Days and months are lower case: sábado, mayo. Cumpleaños has no written accent: it ends in -s and is stressed second-to-last (cum-ple-A-ños).", ["Mi cumpleaños es el sábado doce de mayo.","Mi cumpleaños es el sábado, 12 de mayo.","Mi cumpleaños es el sábado, doce de mayo."]),
+      fe("Ayer mi hermano ___ con el profesor.", "habló", "Yesterday my brother [spoke] to the teacher.", "The preterite él form habló is stressed on the last syllable and ends in a vowel, so it needs the accent. Without it, hablo means \"I speak\"."),
+      fe("Estas ___ son muy bonitas.", "canciones", "These [songs] are very pretty.", "Canción loses its accent in the plural. The stress stays on CIO (can-CIO-nes), which is now the second-to-last syllable of a word ending in -s: the normal pattern, so no accent. \"Canciónes\" is a common mistake."),
+      mc("Which sentence is written correctly?", ["Hablo inglés y un poco de francés.","Hablo Inglés y un poco de Francés.","Hablo ingles y un poco de frances.","Hablo Ingles y un poco de frances."], 0, "Languages are lower case in Spanish. Inglés and francés end in -s and are stressed on the last syllable, so both take an accent."),
+      toEn("¡Qué rápido habla tu médico!", "Your doctor talks so fast!", "¡Qué + adjective/adverb! is an exclamation: how fast! Rápido and médico are both stressed third from last, so both carry an accent.", ["How fast your doctor talks!","Your doctor speaks so fast!","How fast your doctor speaks!","Your doctor talks really fast!"]),
+      wo("Oye, ¿qué día es hoy?", "The question starts at ¿qué, after Oye and the comma. Día takes an accent because its i is stressed and said apart from the a.", "Hey, what day is it today?"),
+      mc("Why does \"lápiz\" have a written accent?", ["It ends in -z and is stressed on the second-to-last syllable.","It ends in -z and is stressed on the last syllable.","Every word ending in -z has an accent.","It's stressed on the third-from-last syllable."], 0, "Words ending in a consonant other than -n or -s are normally stressed on the last syllable (feliz, capaz). Lápiz is stressed on LA instead, so it needs the accent. Plenty of words in -z have none: feliz, arroz, luz."),
+      toEs("La canción", "Las canciones", "The stress stays on CIO. In canciones it is second-to-last in a word ending in -s, the normal pattern, so the accent disappears.", undefined, "Make it plural."),
+      toEs("El joven", "Los jóvenes", "Joven is stressed on JO. In jóvenes JO is third from last, and those words always carry a written accent.", undefined, "Make it plural."),
+      toEs("Hablo con Marta.", "Habló con Marta.", "Change the person and time with the stress: ha-BLÓ ends in a vowel and is stressed last, so it needs the accent.", ["Él habló con Marta.","Ella habló con Marta."], "Change it to \"he spoke\"."),
+      toEs("El lapiz está en la mesa.", "El lápiz está en la mesa.", "Lápiz ends in -z but is stressed on LA (second-to-last), which breaks Rule 2: it needs the accent.", undefined, "Correct the spelling."),
+      toEs("Mi cumpleaños es en Junio.", "Mi cumpleaños es en junio.", "Months are lower case in Spanish: junio.", undefined, "Correct the spelling."),
+      toEs("Los examenes son el miercoles.", "Los exámenes son el miércoles.", "Both are stressed third from last (e-XA-me-nes, MIER-co-les), so both always take a written accent.", undefined, "Correct the spelling."),
+      toEs("Hey, are you (tú) hungry?", "Oye, ¿tienes hambre?", "The ¿ opens where the question starts, after 'Oye,'."),
+      toEs("On Tuesday I study French.", "El martes estudio francés.", "Days and languages are lower case in Spanish; francés has an accent (ends in -s, stressed on the last syllable).", ["Los martes estudio francés."]),
+      mc("Which word needs a written accent? (Stress in capitals.)", ["azucar (a-ZU-car)","papel (pa-PEL)","ciudad (ciu-DAD)","hablan (HA-blan)"], 0, "It ends in -r but is stressed second-to-last, so it breaks Rule 2: azúcar. The others follow the normal pattern."),
+      fe("En invierno hace mucho ___.", "frío", "In winter it's very [cold].", "The stressed i is said apart from the o, so it takes an accent: frío."),
+      toEs("My neighbor is English and her songs are very nice.", "Mi vecina es inglesa y sus canciones son muy bonitas.", "Nationalities are lower case; canción loses its accent in the plural: canciones.", ["Mi vecina es inglesa y sus canciones son muy lindas."]),
     ]
   ),
   L(
@@ -230,21 +156,17 @@ export const A2_GAPS: AnchoredLesson[] = [
       sec(
         "Why some one-syllable words have an accent",
         [
-          "One-syllable words normally never carry a written accent: fue, dio, vio, pie, sol, mar. The exception is a small set of pairs where the accent tells two different words apart. It's called the diacritic accent (tilde diacrítica).",
+          "The idea: a written accent on a one-syllable word is not about stress at all (a one-syllable word has only one place to put it). It is a label that tells two different words apart. One-syllable words normally never carry a written accent: fue, dio, vio, pie, sol, mar. The exception is a small set of pairs where the accent tells two different words apart. It's called the diacritic accent (tilde diacrítica).",
           "You can't hear it: tú and tu sound exactly alike. It only matters in writing, but a missing accent can change the meaning of a sentence.",
         ],
         [
-          ["Tú tienes tu libro.", "You have your book."],
-          ["Él es el jefe.", "He is the boss."],
-          ["Fue a la playa y vio el mar.", "He went to the beach and saw the sea. (fue, vio: no accent)"],
+          ["Tú tienes tu libro.","You have your book."],
+          ["Él es el jefe.","He is the boss."],
+          ["Fue a la playa y vio el mar.","He went to the beach and saw the sea. (fue, vio: no accent)"],
         ],
         [
-          mc(
-            "Which of these one-syllable words is spelled correctly?",
-            ["fue", "fué", "dió", "vió"],
-            0,
-            "Fue, dio and vio are one syllable and aren't part of an accent pair, so they never take an accent. Fué, dió and vió were accepted long ago but are mistakes today."
-          ),
+          toEs("Ayer Marta fué al cine y vió una película.", "Ayer Marta fue al cine y vio una película.", "Fue and vio are one syllable and have no twin to tell apart, so they never take an accent.", undefined, "Correct the accents."),
+          mc("Which of these one-syllable words is spelled correctly?", ["fue","fué","dió","vió"], 0, "Fue, dio and vio are one syllable and aren't part of an accent pair, so they never take an accent. Fué, dió and vió were accepted long ago but are mistakes today."),
         ]
       ),
       sec(
@@ -256,25 +178,15 @@ export const A2_GAPS: AnchoredLesson[] = [
           "Quick test: if a noun follows straight after, it's usually the one without the accent.",
         ],
         [
-          ["¿Tú vienes con tu hermana?", "Are you coming with your sister?"],
-          ["El coche es de él.", "The car is his."],
-          ["Este regalo es para mí.", "This present is for me."],
-          ["Mi madre vive con él.", "My mother lives with him."],
-          ["A mí me gusta tu idea.", "I like your idea."],
+          ["¿Tú vienes con tu hermana?","Are you coming with your sister?"],
+          ["El coche es de él.","The car is his."],
+          ["Este regalo es para mí.","This present is for me."],
+          ["Mi madre vive con él.","My mother lives with him."],
+          ["A mí me gusta tu idea.","I like your idea."],
         ],
         [
-          fe(
-            "¿Esto es para ___?",
-            "mí",
-            "Is this for [me]?",
-            "After a preposition (para, a, de, sin...) \"me\" is mí, with an accent. Mi without an accent means \"my\" and needs a noun after it: mi casa."
-          ),
-          mc(
-            "Complete: \"___ padre trabaja con ___.\" (His father works with him.)",
-            ["Su / él", "Su / el", "Él / el", "El / él"],
-            0,
-            "\"His father\" is su padre. \"With him\" is con él: a pronoun, so it takes the accent. El without an accent is \"the\" and would need a noun after it."
-          ),
+          fe("¿Esto es para ___?", "mí", "Is this for [me]?", "After a preposition (para, a, de, sin...) \"me\" is mí, with an accent. Mi without an accent means \"my\" and needs a noun after it: mi casa."),
+          mc("Complete: \"___ padre trabaja con ___.\" (His father works with him.)", ["Su / él","Su / el","Él / el","El / él"], 0, "\"His father\" is su padre. \"With him\" is con él: a pronoun, so it takes the accent. El without an accent is \"the\" and would need a noun after it."),
         ]
       ),
       sec(
@@ -286,18 +198,13 @@ export const A2_GAPS: AnchoredLesson[] = [
           "Más = more. Mas without an accent is an old literary word for \"but\"; you'll almost never need it, so write más.",
         ],
         [
-          ["Si puedes, ven. —¡Sí, claro!", "If you can, come. —Yes, of course!"],
-          ["No sé cómo se llama.", "I don't know what he's called."],
-          ["¿Te preparo un té?", "Shall I make you a tea?"],
-          ["Quiero más pan, por favor.", "I want more bread, please."],
+          ["Si puedes, ven. —¡Sí, claro!","If you can, come. —Yes, of course!"],
+          ["No sé cómo se llama.","I don't know what he's called."],
+          ["¿Te preparo un té?","Shall I make you a tea?"],
+          ["Quiero más pan, por favor.","I want more bread, please."],
         ],
         [
-          mc(
-            "\"I don't know if he's coming.\"",
-            ["No sé si viene.", "No se si viene.", "No sé sí viene.", "No se sí viene."],
-            0,
-            "Sé with an accent is \"I know\" (saber); se without one is a pronoun. Si without an accent is \"if\"; sí with one is \"yes\"."
-          ),
+          mc("\"I don't know if he's coming.\"", ["No sé si viene.","No se si viene.","No sé sí viene.","No se sí viene."], 0, "Sé with an accent is \"I know\" (saber); se without one is a pronoun. Si without an accent is \"if\"; sí with one is \"yes\"."),
         ]
       ),
       sec(
@@ -308,94 +215,40 @@ export const A2_GAPS: AnchoredLesson[] = [
           "The same words without an accent are linking words, not questions: Creo que viene (that). Vivo donde trabajo (where). Te llamo cuando llegue (when). Lo hago como tú (like).",
         ],
         [
-          ["¿Qué hora es?", "What time is it?"],
-          ["No sé qué hora es.", "I don't know what time it is."],
-          ["Dice que es tarde.", "He says (that) it's late."],
-          ["¿Cuándo sales? —Cuando termine.", "When are you leaving? —When I finish."],
-          ["¡Qué calor!", "It's so hot!"],
+          ["¿Qué hora es?","What time is it?"],
+          ["No sé qué hora es.","I don't know what time it is."],
+          ["Dice que es tarde.","He says (that) it's late."],
+          ["¿Cuándo sales? —Cuando termine.","When are you leaving? —When I finish."],
+          ["¡Qué calor!","It's so hot!"],
         ],
         [
-          ms(
-            "Which sentences are written correctly?",
-            ["No sé dónde está.", "Creo qué tienes razón.", "Te llamo cuando llegue.", "¿Como te llamas?"],
-            [0, 2],
-            "No sé dónde está is an indirect question, so dónde keeps its accent. Cuando llegue is \"when I arrive\", a linking word, no accent. \"Creo qué\" is wrong: que here is \"that\". \"¿Como te llamas?\" is a question, so it needs cómo."
-          ),
+          ms("Which sentences are written correctly?", ["No sé dónde está.","Creo qué tienes razón.","Te llamo cuando llegue.","¿Como te llamas?"], [0,2], "No sé dónde está is an indirect question, so dónde keeps its accent. Cuando llegue is \"when I arrive\", a linking word, no accent. \"Creo qué\" is wrong: que here is \"that\". \"¿Como te llamas?\" is a question, so it needs cómo."),
         ]
       ),
     ],
     [
-      mt(
-        "Match each word to its meaning.",
-        [
-          ["tú", "you"],
-          ["tu", "your"],
-          ["sé", "I know"],
-          ["si", "if"],
-          ["té", "tea"],
-          ["mí", "me (after a preposition)"],
-        ],
-        "The accent marks the pronoun or the verb; the unaccented twin is the possessive, the pronoun te/se, or a linking word."
-      ),
-      fe(
-        "¿___ quieres un café o un té?",
-        "Tú",
-        "Do [you] want a coffee or a tea?",
-        "Tú, the subject pronoun, takes an accent. Tu without one means \"your\" and needs a noun after it."
-      ),
-      fe(
-        "Llámame ___ necesitas algo.",
-        "si",
-        "Call me [if] you need anything.",
-        "\"If\" is si, no accent. Sí with an accent means \"yes\"."
-      ),
-      fe(
-        "No ___ dónde vive Pablo.",
-        "sé",
-        "I don't [know] where Pablo lives.",
-        "Sé (I know, from saber) has an accent to tell it apart from the pronoun se. Dónde keeps its accent in an indirect question."
-      ),
-      mc(
-        "Which sentence is written correctly?",
-        ["Él dice que tu hermano es muy simpático.", "El dice qué tu hermano es muy simpático.", "Él dice que tú hermano es muy simpático.", "El dice que tu hermano es muy simpático."],
-        0,
-        "Él (he) is the subject, so it needs the accent. Que is \"that\", not a question, so no accent. Tu hermano is \"your brother\": the possessive, no accent."
-      ),
-      toEs(
-        "Do you know what time it is?",
-        "¿Sabes qué hora es?",
-        "An indirect question keeps the accent on qué. Sabes is the tú form of saber.",
-        ["¿Tú sabes qué hora es?", "¿Sabe qué hora es?", "¿Usted sabe qué hora es?", "¿Sabe usted qué hora es?"]
-      ),
-      toEs(
-        "This coffee is for me and the tea is for you (tú).",
-        "Este café es para mí y el té es para ti.",
-        "Mí after para takes an accent; ti never does (no other ti to confuse it with). Té (tea) is accented; te is the pronoun.",
-        ["Este café es para mí, y el té es para ti.", "Este café es para mí y el té para ti."]
-      ),
-      mc(
-        "Why does \"sí\" have an accent in \"—¿Vienes? —Sí.\"?",
-        ["It means \"yes\"; si without an accent means \"if\".", "It's stressed on the last syllable.", "It's at the end of a sentence.", "All one-letter answers have an accent."],
-        0,
-        "The accent on one-syllable words only separates pairs of different words. Sí (yes) vs. si (if) is one of those pairs. Stress rules don't apply to one-syllable words."
-      ),
-      toEn(
-        "¡Qué bien que te guste el té!",
-        "It's great that you like the tea!",
-        "¡Qué bien! is an exclamation (accented qué); the next que means \"that\" (no accent). Te is the pronoun, té is tea.",
-        ["How great that you like the tea!", "It's so good that you like the tea!", "Great that you like the tea!", "It's great that you like tea!", "How nice that you like the tea!"]
-      ),
-      wo(
-        "Quiero saber cuándo vuelves a casa.",
-        "An indirect question: cuándo keeps its accent even without question marks.",
-        "I want to know when you're coming back home."
-      ),
-      mc(
-        "\"When I finish, I'll call you.\" → \"___ termine, te llamo.\"",
-        ["Cuando", "Cuándo", "¿Cuándo", "Cuanto"],
-        0,
-        "Here cuando is a linking word (\"when\"), not a question, so it has no accent. Cuándo is only for questions and indirect questions; cuanto is a different word (it is cuánto, with an accent, that means \"how much\")."
-      ),
+      mt("Match each word to its meaning.", [["tú","you"],["tu","your"],["sé","I know"],["si","if"],["té","tea"],["mí","me (after a preposition)"]], "The accent marks the pronoun or the verb; the unaccented twin is the possessive, the pronoun te/se, or a linking word."),
+      fe("¿___ quieres un café o un té?", "Tú", "Do [you] want a coffee or a tea?", "Tú, the subject pronoun, takes an accent. Tu without one means \"your\" and needs a noun after it."),
+      fe("Llámame ___ necesitas algo.", "si", "Call me [if] you need anything.", "\"If\" is si, no accent. Sí with an accent means \"yes\"."),
+      fe("No ___ dónde vive Pablo.", "sé", "I don't [know] where Pablo lives.", "Sé (I know, from saber) has an accent to tell it apart from the pronoun se. Dónde keeps its accent in an indirect question."),
+      mc("Which sentence is written correctly?", ["Él dice que tu hermano es muy simpático.","El dice qué tu hermano es muy simpático.","Él dice que tú hermano es muy simpático.","El dice que tu hermano es muy simpático."], 0, "Él (he) is the subject, so it needs the accent. Que is \"that\", not a question, so no accent. Tu hermano is \"your brother\": the possessive, no accent."),
+      toEs("Do you know what time it is?", "¿Sabes qué hora es?", "An indirect question keeps the accent on qué. Sabes is the tú form of saber.", ["¿Tú sabes qué hora es?","¿Sabe qué hora es?","¿Usted sabe qué hora es?","¿Sabe usted qué hora es?"]),
+      toEs("This coffee is for me and the tea is for you (tú).", "Este café es para mí y el té es para ti.", "Mí after para takes an accent; ti never does (no other ti to confuse it with). Té (tea) is accented; te is the pronoun.", ["Este café es para mí, y el té es para ti.","Este café es para mí y el té para ti."]),
+      mc("Why does \"sí\" have an accent in \"—¿Vienes? —Sí.\"?", ["It means \"yes\"; si without an accent means \"if\".","It's stressed on the last syllable.","It's at the end of a sentence.","All one-letter answers have an accent."], 0, "The accent on one-syllable words only separates pairs of different words. Sí (yes) vs. si (if) is one of those pairs. Stress rules don't apply to one-syllable words."),
+      toEn("¡Qué bien que te guste el té!", "It's great that you like the tea!", "¡Qué bien! is an exclamation (accented qué); the next que means \"that\" (no accent). Te is the pronoun, té is tea.", ["How great that you like the tea!","It's so good that you like the tea!","Great that you like the tea!","It's great that you like tea!","How nice that you like the tea!"]),
+      wo("Quiero saber cuándo vuelves a casa.", "An indirect question: cuándo keeps its accent even without question marks.", "I want to know when you're coming back home."),
+      mc("\"When I finish, I'll call you.\" → \"___ termine, te llamo.\"", ["Cuando","Cuándo","¿Cuándo","Cuanto"], 0, "Here cuando is a linking word (\"when\"), not a question, so it has no accent. Cuándo is only for questions and indirect questions; cuanto is a different word (it is cuánto, with an accent, that means \"how much\")."),
+      toEs("Voy al cine con Juan.", "Voy al cine con él.", "After a preposition (con), \"him\" is él, with an accent. Without it, el means \"the\" and needs a noun.", undefined, "Replace Juan with a pronoun."),
+      toEs("Es mi libro.", "El libro es para mí.", "Mi (my) goes before a noun; after a preposition like para, \"me\" is mí, with an accent.", undefined, "Rewrite it with para: \"The book is for me.\""),
+      toEs("¿Dónde está Pablo?", "No sé dónde está Pablo.", "In an indirect question dónde keeps its accent, even without question marks. Sé (I know) takes one too.", undefined, "Rewrite it starting with \"No sé\"."),
+      toEs("¿Tu tienes mi teléfono?", "¿Tú tienes mi teléfono?", "Tú is the subject pronoun here (no noun follows), so it needs the accent. Mi before teléfono is \"my\": no accent.", undefined, "Correct the accents."),
+      toEs("Creo qué el té está frío.", "Creo que el té está frío.", "Que here links two ideas (\"I think that...\"), it isn't a question: no accent. Té (tea) keeps its accent.", undefined, "Correct the accents."),
+      toEs("No se si mi hermana viene.", "No sé si mi hermana viene.", "Sé = I know, with an accent. Si = if, without one. Mi before a noun = my, without one.", undefined, "Correct the accents."),
+      fe("¿Me ayudas ___ con la maleta?", "tú", "Will [you] help me with the suitcase?", "Tú (you) is the pronoun, with an accent; tu (your) goes before a noun."),
+      mc("Complete: '___ quieres, te preparo un ___.' (If you want, I'll make you a tea.)", ["Si / té","Sí / te","Si / te","Sí / té"], 0, "Si = if (no accent); té = tea (accent). Sí means 'yes' and te is the object pronoun."),
+      toEs("This book is for me, not for him.", "Este libro es para mí, no para él.", "Mí after a preposition and él (him) both take accents; mi and el go before nouns."),
+      toEs("Do you (tú) want more tea?", "¿Quieres más té?", "Más (more) and té (tea) carry accents; mas and te are different words."),
+      toEs("I don't know what your sister wants.", "No sé qué quiere tu hermana.", "Sé (I know) and qué in an indirect question take accents; tu before a noun doesn't."),
     ]
   ),
   // ---- New unit: commands, little words and tricky pairs ---------------

@@ -36,36 +36,33 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       sec(
         "Two parts: haber + participle",
         [
-          "The present perfect is the present of haber (he, has, ha, hemos, habéis, han) plus a participle. Regular participles end in -ado for -ar verbs and -ido for -er and -ir verbs: hablado, comido, vivido.",
-          "The participle never changes: ella ha comido, ellos han comido. And nothing goes between the two parts: ¿Has comido? not ¿Has tú comido?",
+          "Why two parts? Spanish builds this tense like English: a helper verb that shows the person (have / has) plus a fixed form of the main verb (eaten, worked). The helper is always haber, never tener: tener is only for possession (tengo un coche).",
+          "The present perfect is the present of haber (he, has, ha, hemos, habéis, han) plus a participle. Regular participles end in -ado for -ar verbs and -ido for -er and -ir verbs: hablado, comido, vivido. The rule works for any regular verb, even ones you have never seen in this tense.",
+          "The participle never changes: ella ha comido, ellos han comido. And nothing goes between the two parts: ¿Has comido? not ¿Has tú comido? Haber and the participle travel as one block.",
         ],
         [
-          ["he trabajado", "I have worked"],
-          ["has comido", "you have eaten"],
-          ["ha salido", "he / she has gone out"],
-          ["hemos terminado", "we have finished"],
-          ["han llegado", "they have arrived"],
+          ["he trabajado","I have worked"],
+          ["has comido","you have eaten"],
+          ["ha salido","he / she has gone out"],
+          ["hemos terminado","we have finished"],
+          ["han llegado","they have arrived"],
         ],
         [
           fe("Hoy ___ mucho.", "he trabajado", "Today I [have worked] a lot.", "haber (he) + trabajado: -ar verbs take -ado."),
+          mc("Using the rule on a new verb: subir (to go up). \"She has gone up\" is…", ["Ella ha subido.","Ella ha subada.","Ella ha subiado.","Ella tiene subido."], 0, "-ir verb → stem + -ido: subido, and the helper is haber (ha). The participle never takes -a for a woman, and tener is not the helper."),
         ]
       ),
       sec(
         "When to use it",
-        "Use it for actions in a time that isn't over yet: hoy, esta mañana, esta semana, este mes, este año. Also for news and for something that has just happened. In Spain this is the normal past for today; much of Latin America uses the preterite for the same thing, and both are understood everywhere.",
+        "Why this tense? It links a past action to a period that includes now, so use it for actions in a time that isn't over yet: hoy, esta mañana, esta semana, este mes, este año. Also for news and for something that has just happened. In Spain this is the normal past for today; much of Latin America uses the preterite for the same thing, and both are understood everywhere.",
         [
-          ["Esta semana he dormido muy poco.", "This week I've slept very little."],
-          ["¿Qué has hecho hoy?", "What have you done today?"],
-          ["Este año hemos viajado mucho.", "This year we've traveled a lot."],
-          ["Mira, ha empezado a llover.", "Look, it's started to rain."],
+          ["Esta semana he dormido muy poco.","This week I've slept very little."],
+          ["¿Qué has hecho hoy?","What have you done today?"],
+          ["Este año hemos viajado mucho.","This year we've traveled a lot."],
+          ["Mira, ha empezado a llover.","Look, it's started to rain."],
         ],
         [
-          mc(
-            "\"We have finished the project.\"",
-            ["Hemos terminado el proyecto.", "Hemos terminamos el proyecto.", "Habemos terminado el proyecto.", "Hemos terminada el proyecto."],
-            0,
-            "Hemos + terminado. The participle doesn't change for the person or for proyecto, and the nosotros form of haber is hemos."
-          ),
+          mc("\"We have finished the project.\"", ["Hemos terminado el proyecto.","Hemos terminamos el proyecto.","Habemos terminado el proyecto.","Hemos terminada el proyecto."], 0, "Hemos + terminado. The participle doesn't change for the person or for proyecto, and the nosotros form of haber is hemos."),
         ]
       ),
     ],
@@ -74,21 +71,31 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("Mis padres ___ a Madrid esta mañana.", "han llegado", "My parents [have arrived] in Madrid this morning.", "han + llegado.", ["llegaron"]),
       fe("Este mes ___ dos kilos.", "he perdido", "This month [I've lost] two kilos.", "he + perdido: -er verbs take -ido.", ["perdí"]),
       fe("¿Ustedes ya ___ el museo?", "han visitado", "[Have you visited] the museum yet? (ustedes)", "han + visitado.", ["visitaron"]),
-      toEs("Today I've eaten too much.", "Hoy he comido demasiado.", "Hoy is a time that isn't over → present perfect: he comido.", ["He comido demasiado hoy.", "Hoy comí demasiado."]),
-      toEs("Have you slept well?", "¿Has dormido bien?", "has + dormido; nothing between them.", ["¿Ha dormido bien?", "¿Dormiste bien?"]),
-      toEs("This week we've worked a lot.", "Esta semana hemos trabajado mucho.", "esta semana → present perfect.", ["Hemos trabajado mucho esta semana.", "Esta semana trabajamos mucho."]),
-      toEn("Ha empezado a llover y no tengo paraguas.", "It's started to rain and I don't have an umbrella.", "Ha empezado = has started.", ["It has started to rain and I don't have an umbrella.", "It's begun to rain and I don't have an umbrella."]),
-      mt(
-        "Match each form to its meaning.",
-        [
-          ["he hablado", "I have spoken"],
-          ["has vivido", "you have lived"],
-          ["hemos salido", "we have gone out"],
-          ["han bebido", "they have drunk"],
-        ],
-        "Haber changes for the person; the participle doesn't."
-      ),
+      mc("Which time phrase fits the present perfect (in Spain)?", ["esta tarde","ayer","el año pasado","en 2019"], 0, "Esta tarde is a period that includes now, so it fits he / ha + participle. Ayer, el año pasado and en 2019 are finished, so they take the preterite."),
+      toEs("Mi hermano limpia la cocina.", "Mi hermano ha limpiado la cocina.", "Present of haber (ha) + participle in -ado: limpia → ha limpiado.", ["Hoy mi hermano ha limpiado la cocina."], "Change it to the present perfect."),
+      toEs("He cenado con mis amigos.", "Hemos cenado con mis amigos.", "Only haber changes for the person: he → hemos. The participle stays cenado.", ["Hemos cenado con nuestros amigos."], "Change it to nosotros."),
+      toEs("Ella ha bebido mucha agua.", "Ellas han bebido mucha agua.", "Haber changes (ha → han), but the participle doesn't take a plural: bebido.", undefined, "Make the subject plural (ellas)."),
+      toEs("¿Has tú comido?", "¿Has comido tú?", "Nothing goes between haber and the participle: move tú after it (or before has).", ["¿Tú has comido?","¿Has comido?"], "Correct the sentence."),
+      toEs("Ellas han salidas.", "Ellas han salido.", "After haber the participle never agrees: salido, even for a feminine plural subject.", undefined, "Correct the sentence."),
+      toEs("Tengo terminado el trabajo.", "He terminado el trabajo.", "The helper for the present perfect is haber (he), not tener.", ["Yo he terminado el trabajo.","Ya he terminado el trabajo."], "Correct the sentence."),
+      toEs("Nosotros habemos llegado.", "Nosotros hemos llegado.", "The nosotros form of haber is hemos; habemos is not standard.", ["Hemos llegado."], "Correct the sentence."),
+      toEs("Today I've eaten too much.", "Hoy he comido demasiado.", "Hoy is a time that isn't over → present perfect: he comido.", ["He comido demasiado hoy.","Hoy comí demasiado."]),
+      toEs("Have you slept well?", "¿Has dormido bien?", "has + dormido; nothing between them.", ["¿Ha dormido bien?","¿Dormiste bien?"]),
+      toEs("This week we've worked a lot.", "Esta semana hemos trabajado mucho.", "esta semana → present perfect.", ["Hemos trabajado mucho esta semana.","Esta semana trabajamos mucho."]),
+      toEn("Ha empezado a llover y no tengo paraguas.", "It's started to rain and I don't have an umbrella.", "Ha empezado = has started.", ["It has started to rain and I don't have an umbrella.","It's begun to rain and I don't have an umbrella."]),
+      mt("Match each form to its meaning.", [["he hablado","I have spoken"],["has vivido","you have lived"],["hemos salido","we have gone out"],["han bebido","they have drunk"]], "Haber changes for the person; the participle doesn't."),
       wo("Esta mañana he desayunado en un bar.", "Esta mañana + he + participle.", "This morning I've had breakfast in a bar."),
+      toEs("Today we have walked a lot.", "Hoy hemos caminado mucho.", "Hoy is not over: hemos + participle in -ado.", ["Hoy hemos andado mucho."]),
+      toEs("Have you (tú) finished the homework?", "¿Has terminado los deberes?", "Has + terminado; nothing goes between them.", ["¿Has terminado la tarea?"]),
+      fe("Esta mañana mi hermana ___ muy temprano.", "ha salido", "This morning my sister [has gone out] very early.", "Ha + salido (-ir verb → -ido).", ["salió"]),
+      fe("Este año ___ mucho español.", "hemos aprendido", "This year we [have learned] a lot of Spanish.", "Hemos + aprendido (-er verb → -ido).", ["aprendimos"]),
+      fe("¿___ con el médico? (usted)", "Ha hablado", "[Have you spoken] to the doctor? (formal)", "Usted uses the third-person form ha."),
+      toEs("They have sold the house.", "Han vendido la casa.", "Han + vendido; the participle doesn't change."),
+      toEs("This week it has rained every day.", "Esta semana ha llovido todos los días.", "Esta semana isn't over: present perfect ha llovido."),
+      mc("'She has eaten.'", ["Ella ha comido.","Ella ha comida.","Ella es comido.","Ella has comido."], 0, "Haber (ha), never ser; the participle stays -o even for a woman."),
+      wo("Este mes mis padres han viajado a Japón", "Han + viajado; este mes is still going on.", "This month my parents have traveled to Japan"),
+      toEs("Have you all (ustedes) understood the lesson?", "¿Han entendido la lección?", "Ustedes takes han.", ["¿Han comprendido la lección?"]),
+      { type: "speak", prompt: "A friend asks what you've done today. Say aloud in Spanish: Today I've worked a lot and I've eaten with my sister.", text: "Hoy he trabajado mucho y he comido con mi hermana.", explanation: "Hoy isn't over → he + participle (-ado / -ido). In much of Latin America: Hoy trabajé mucho y comí con mi hermana." },
     ]
   ),
   L(
@@ -99,41 +106,41 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     [
       sec(
         "The ones to learn by heart",
-        "A few very common verbs have irregular participles. You already know some from the preterite stems, but these are different words.",
         [
-          ["hacer → hecho", "done, made"],
-          ["decir → dicho", "said"],
-          ["ver → visto", "seen"],
-          ["poner → puesto", "put"],
-          ["escribir → escrito", "written"],
-          ["abrir → abierto", "opened"],
-          ["volver → vuelto", "come back"],
-          ["romper → roto", "broken"],
-          ["morir → muerto", "died"],
-          ["descubrir → descubierto", "discovered"],
+          "A few very common verbs have irregular participles. They are not related to the preterite stems, but they come in two families: most end in -to (abierto, escrito, puesto, vuelto, roto, muerto, visto, descubierto) and two end in -cho (hecho, dicho).",
+          "Why it pays to learn them: a verb built on one of these keeps the same irregular participle. Describir → descrito (like escribir), devolver → devuelto (like volver), suponer → supuesto (like poner), deshacer → deshecho (like hacer). Learn ten, and you can form dozens.",
+        ],
+        [
+          ["hacer → hecho","done, made"],
+          ["decir → dicho","said"],
+          ["ver → visto","seen"],
+          ["poner → puesto","put"],
+          ["escribir → escrito","written"],
+          ["abrir → abierto","opened"],
+          ["volver → vuelto","come back"],
+          ["romper → roto","broken"],
+          ["morir → muerto","died"],
+          ["descubrir → descubierto","discovered"],
         ],
         [
           fe("¿Qué has ___ hoy?", "hecho", "What have you [done] today?", "hacer → hecho."),
+          mc("Devolver (to give back) is volver with a prefix. \"I've given back the books\" is…", ["He devuelto los libros.","He devolvido los libros.","He devuelvido los libros.","He devueltos los libros."], 0, "Devolver inherits the irregular participle of volver: vuelto → devuelto. It doesn't take a plural -s after haber."),
         ]
       ),
       sec(
         "In real sentences",
-        "The participle still never changes after haber.",
+        "The participle still never changes after haber: no -a, no -s, whatever the subject or object.",
         [
-          ["¿Has visto mis gafas?", "Have you seen my glasses?"],
-          ["Mi hijo ha roto la ventana.", "My son has broken the window."],
-          ["Han abierto un restaurante nuevo en la esquina.", "They've opened a new restaurant on the corner."],
-          ["¿Ya has vuelto del viaje?", "Are you back from your trip already?"],
-          ["Todavía no he escrito el informe.", "I haven't written the report yet."],
-          ["¿Qué ha dicho el médico?", "What did the doctor say?"],
+          ["¿Has visto mis gafas?","Have you seen my glasses?"],
+          ["Mi hijo ha roto la ventana.","My son has broken the window."],
+          ["Han abierto un restaurante nuevo en la esquina.","They've opened a new restaurant on the corner."],
+          ["¿Ya has vuelto del viaje?","Are you back from your trip already?"],
+          ["Todavía no he escrito el informe.","I haven't written the report yet."],
+          ["¿Qué ha dicho el médico?","What did the doctor say?"],
         ],
         [
-          mc(
-            "\"I've put the keys on the table.\"",
-            ["He puesto las llaves en la mesa.", "He ponido las llaves en la mesa.", "He puse las llaves en la mesa.", "He puestas las llaves en la mesa."],
-            0,
-            "Poner → puesto, and it doesn't agree with las llaves after haber."
-          ),
+          mc("\"I've put the keys on the table.\"", ["He puesto las llaves en la mesa.","He ponido las llaves en la mesa.","He puse las llaves en la mesa.","He puestas las llaves en la mesa."], 0, "Poner → puesto, and it doesn't agree with las llaves after haber."),
+          fe("Mi hermana nos ha ___ su viaje a Perú.", "descrito", "My sister has [described] her trip to Peru to us.", "Describir is built on escribir, so it inherits escrito → descrito."),
         ]
       ),
     ],
@@ -142,21 +149,29 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("¿Quién ha ___ el vaso?", "roto", "Who has [broken] the glass?", "romper → roto."),
       fe("La tienda ha ___ tarde hoy.", "abierto", "The shop has [opened] late today.", "abrir → abierto."),
       fe("Mi abuela ha ___ un libro.", "escrito", "My grandmother has [written] a book.", "escribir → escrito."),
-      toEs("What have they said?", "¿Qué han dicho?", "decir → dicho.", ["¿Qué han dicho ellos?", "¿Qué dijeron?"]),
-      toEs("Have you seen the new film?", "¿Has visto la nueva película?", "ver → visto.", ["¿Has visto la película nueva?", "¿Ha visto la nueva película?", "¿Ha visto la película nueva?", "¿Viste la nueva película?"]),
-      toEs("We've done everything.", "Hemos hecho todo.", "hacer → hecho.", ["Lo hemos hecho todo.", "Ya hemos hecho todo."]),
+      fe("Mi primo ha ___ una canción para su boda.", "compuesto", "My cousin has [composed] a song for his wedding.", "Componer is built on poner, so puesto → compuesto."),
+      mc("Deshacer means to undo / to unpack. \"I've unpacked my suitcase\" is…", ["He deshecho la maleta.","He deshacido la maleta.","He deshizo la maleta.","He deshecha la maleta."], 0, "Deshacer inherits hecho → deshecho, and the participle doesn't agree with la maleta."),
+      toEs("Hago la cena.", "He hecho la cena.", "Present of haber + participle; hacer → hecho.", ["Ya he hecho la cena."], "Change it to the present perfect."),
+      toEs("Ponen la mesa.", "Han puesto la mesa.", "Han + puesto (poner → puesto, never ponido).", ["Ya han puesto la mesa."], "Change it to the present perfect."),
+      toEs("Ana vuelve a casa.", "Ana ha vuelto a casa.", "Ha + vuelto (volver → vuelto, never volvido).", ["Ana ya ha vuelto a casa."], "Change it to the present perfect."),
+      toEs("He abrido la ventana.", "He abierto la ventana.", "Abrir has an irregular participle: abierto.", undefined, "Correct the sentence."),
+      toEs("¿Quién ha rompido la silla?", "¿Quién ha roto la silla?", "Romper → roto, never rompido.", undefined, "Correct the sentence."),
+      toEs("Mis hermanos han vistos la película.", "Mis hermanos han visto la película.", "After haber the participle never takes -s: visto.", undefined, "Correct the sentence."),
+      toEs("What have they said?", "¿Qué han dicho?", "decir → dicho.", ["¿Qué han dicho ellos?","¿Qué dijeron?"]),
+      toEs("Have you seen the new film?", "¿Has visto la nueva película?", "ver → visto.", ["¿Has visto la película nueva?","¿Ha visto la nueva película?","¿Ha visto la película nueva?","¿Viste la nueva película?"]),
+      toEs("We've done everything.", "Hemos hecho todo.", "hacer → hecho.", ["Lo hemos hecho todo.","Ya hemos hecho todo."]),
       toEs("The scientists have discovered a new planet.", "Los científicos han descubierto un planeta nuevo.", "descubrir → descubierto.", ["Los científicos han descubierto un nuevo planeta."]),
       toEn("Mi gato ha muerto y estoy muy triste.", "My cat has died and I'm very sad.", "morir → muerto.", ["My cat died and I'm very sad."]),
-      mt(
-        "Match each verb to its participle.",
-        [
-          ["volver", "vuelto"],
-          ["poner", "puesto"],
-          ["decir", "dicho"],
-          ["abrir", "abierto"],
-        ],
-        "Four irregular participles."
-      ),
+      mt("Match each verb to its participle.", [["volver","vuelto"],["poner","puesto"],["decir","dicho"],["abrir","abierto"]], "Four irregular participles."),
+      fe("¿Dónde has ___ el pasaporte?", "puesto", "Where have you [put] the passport?", "Poner → puesto, never ponido."),
+      fe("Mis padres han ___ de las vacaciones.", "vuelto", "My parents have [come back] from their holiday.", "Volver → vuelto, never volvido."),
+      toEs("I've written three emails today.", "Hoy he escrito tres correos.", "Escribir → escrito, never escribido.", ["He escrito tres correos hoy.","Hoy he escrito tres emails.","He escrito tres emails hoy.","Hoy he escrito tres correos electrónicos."]),
+      toEs("We've opened a bank account.", "Hemos abierto una cuenta en el banco.", "Abrir → abierto, never abrido.", ["Hemos abierto una cuenta bancaria."]),
+      toEs("My son has said his first word.", "Mi hijo ha dicho su primera palabra.", "Decir → dicho, never decido."),
+      toEs("Somebody has broken my phone.", "Alguien ha roto mi teléfono.", "Romper → roto, never rompido.", ["Alguien ha roto mi móvil.","Alguien ha roto mi celular."]),
+      mc("'They have done the homework.'", ["Han hecho los deberes.","Han hacido los deberes.","Han hizo los deberes.","Han hechos los deberes."], 0, "Hacer → hecho, and the participle never takes plural -s after haber."),
+      toEs("We haven't seen the sea this summer.", "Este verano no hemos visto el mar.", "Ver → visto; no goes before haber.", ["No hemos visto el mar este verano."]),
+      { type: "speak", prompt: "Tell your flatmate aloud in Spanish: I've opened the windows, I've made coffee and I've put the keys on the table.", text: "He abierto las ventanas, he hecho café y he puesto las llaves en la mesa.", explanation: "Abrir → abierto, hacer → hecho, poner → puesto; haber (he) stays in front of each." },
     ]
   ),
   L(
@@ -167,33 +182,35 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     [
       sec(
         "Already and not yet",
-        "Ya means already, todavía no or aún no means not yet. They go before haber, or at the end.",
         [
-          ["Ya he terminado.", "I've already finished."],
-          ["Todavía no he comido.", "I haven't eaten yet."],
-          ["¿Ya has pagado? —No, aún no.", "Have you paid already? — No, not yet."],
-          ["Ya han apagado las luces.", "They've already turned off the lights."],
+          "Why the present perfect? Ya (already) and todavía no / aún no (not yet) measure an action against now: is it done at this point or not? A period that reaches up to now is exactly what the present perfect expresses.",
+          "Placement follows the rule you know: haber and the participle travel as one block, so ya and todavía no go before haber, or at the end, never in between.",
+        ],
+        [
+          ["Ya he terminado.","I've already finished."],
+          ["Todavía no he comido.","I haven't eaten yet."],
+          ["¿Ya has pagado? —No, aún no.","Have you paid already? — No, not yet."],
+          ["Ya han apagado las luces.","They've already turned off the lights."],
         ],
         [
           fe("___ he hecho la compra.", "Ya", "I've [already] done the shopping.", "ya = already."),
+          mc("—¿Ya has llamado al fontanero? Which reply means \"not yet\"?", ["No, todavía no.","Sí, ya.","Nunca jamás.","Una vez."], 0, "Todavía no = not yet. Sí, ya means yes, already; nunca is never, and una vez is once."),
         ]
       ),
       sec(
         "Ever and never",
-        "For life experiences, ask ¿Alguna vez has…? (Have you ever…?). Answer with nunca, una vez, dos veces, muchas veces.",
         [
-          ["¿Alguna vez has estado en México?", "Have you ever been to Mexico?"],
-          ["Nunca he probado el pulpo.", "I've never tried octopus."],
-          ["He estado en Perú dos veces.", "I've been to Peru twice."],
-          ["¿Has probado alguna vez el pulpo?", "Have you ever tried octopus?"],
+          "For life experiences, the period is your whole life up to now, which isn't over, so again the present perfect. Ask ¿Alguna vez has…? (Have you ever…?). Answer with nunca, una vez, dos veces, muchas veces.",
+          "Nunca before the verb needs no extra no: nunca he estado. If you start with no, nunca moves after: no he estado nunca. Both mean the same.",
         ],
         [
-          mc(
-            "\"I've never seen snow.\"",
-            ["Nunca he visto la nieve.", "Nunca he veído la nieve.", "He nunca visto la nieve.", "No nunca he visto la nieve."],
-            0,
-            "Nunca goes before haber, and ver → visto. Nothing can go between he and visto."
-          ),
+          ["¿Alguna vez has estado en México?","Have you ever been to Mexico?"],
+          ["Nunca he probado el pulpo.","I've never tried octopus."],
+          ["He estado en Perú dos veces.","I've been to Peru twice."],
+          ["¿Has probado alguna vez el pulpo?","Have you ever tried octopus?"],
+        ],
+        [
+          mc("\"I've never seen snow.\"", ["Nunca he visto la nieve.","Nunca he veído la nieve.","He nunca visto la nieve.","No nunca he visto la nieve."], 0, "Nunca goes before haber, and ver → visto. Nothing can go between he and visto."),
         ]
       ),
     ],
@@ -201,17 +218,33 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("¿___ has viajado sola?", "Alguna vez", "Have you [ever] traveled alone?", "¿Alguna vez has…? = Have you ever…?", ["alguna vez"]),
       fe("___ no hemos recibido el paquete.", "Todavía", "We haven't received the package [yet].", "todavía no = not yet.", ["Aún"]),
       fe("Mi hermano ___ ha montado en avión.", "nunca", "My brother has [never] been on a plane.", "nunca + ha + participle."),
-      toEs("I've already seen this film.", "Ya he visto esta película.", "ya + he visto.", ["He visto ya esta película.", "Ya vi esta película.", "Ya he visto esta peli."]),
-      toEs("Have you ever eaten paella?", "¿Alguna vez has comido paella?", "¿Alguna vez has + participle?", ["¿Alguna vez comiste paella?", "¿Has comido paella alguna vez?", "¿Has comido alguna vez paella?", "¿Alguna vez ha comido paella?", "¿Ha comido paella alguna vez?"]),
-      toEs("We haven't decided yet.", "Todavía no hemos decidido.", "todavía no + hemos decidido.", ["Aún no hemos decidido.", "No hemos decidido todavía.", "No hemos decidido aún."]),
-      toEs("I've been to Mexico three times.", "He estado en México tres veces.", "estar → estado; tres veces.", ["He ido a México tres veces.", "Estuve en México tres veces."]),
+      toEs("Ya he limpiado el baño.", "Todavía no he limpiado el baño.", "Not yet = todavía no / aún no, before haber (or no ... todavía at the end).", ["Aún no he limpiado el baño.","No he limpiado el baño todavía.","No he limpiado el baño aún."], "Make it negative with «todavía no»."),
+      toEs("Has montado a caballo.", "¿Alguna vez has montado a caballo?", "Have you ever = ¿Alguna vez has + participle? (or alguna vez at the end).", ["¿Has montado a caballo alguna vez?","¿Has montado alguna vez a caballo?"], "Turn it into a question with «alguna vez»."),
+      toEs("He comido sushi muchas veces.", "Nunca he comido sushi.", "Nunca before haber, with no extra no; or no he comido nunca.", ["No he comido nunca sushi.","No he comido sushi nunca."], "Change it to «never»."),
+      toEs("He ya terminado los deberes.", "Ya he terminado los deberes.", "Nothing goes between haber and the participle: ya goes before he (or at the end).", ["He terminado ya los deberes.","He terminado los deberes ya.","Ya he terminado la tarea."], "Correct the sentence."),
+      toEs("No nunca he estado en Cuba.", "Nunca he estado en Cuba.", "Nunca first needs no extra no. With no first, nunca goes after the verb.", ["No he estado nunca en Cuba."], "Correct the sentence."),
+      toEs("Todavía he no llamado a mi madre.", "Todavía no he llamado a mi madre.", "Todavía no is one unit before haber; no can't go between he and the participle.", ["Aún no he llamado a mi madre.","No he llamado a mi madre todavía.","No he llamado todavía a mi madre."], "Correct the sentence."),
+      mc("Your friend asks: «¿Alguna vez has visitado Granada?» You went once, in 2019. Which reply is right?", ["Sí, una vez. Fui en 2019.","Sí, he ido en 2019.","Todavía no, en 2019.","Nunca, una vez."], 0, "Una vez answers the experience question; the named year needs the preterite: fui en 2019. He ido en 2019 mixes a finished date with the present perfect, and the others contradict themselves."),
+      toEs("I've already seen this film.", "Ya he visto esta película.", "ya + he visto.", ["He visto ya esta película.","Ya vi esta película.","Ya he visto esta peli."]),
+      toEs("Have you ever eaten paella?", "¿Alguna vez has comido paella?", "¿Alguna vez has + participle?", ["¿Alguna vez comiste paella?","¿Has comido paella alguna vez?","¿Has comido alguna vez paella?","¿Alguna vez ha comido paella?","¿Ha comido paella alguna vez?"]),
+      toEs("We haven't decided yet.", "Todavía no hemos decidido.", "todavía no + hemos decidido.", ["Aún no hemos decidido.","No hemos decidido todavía.","No hemos decidido aún."]),
+      toEs("I've been to Mexico three times.", "He estado en México tres veces.", "estar → estado; tres veces.", ["He ido a México tres veces.","Estuve en México tres veces."]),
       toEn("¿Alguna vez has perdido el pasaporte?", "Have you ever lost your passport?", "¿Alguna vez has…? = Have you ever…?", ["Have you ever lost the passport?"]),
-      ms(
-        "Which sentences are correct?",
-        ["Ya he terminado.", "He ya terminado.", "Nunca he estado en Chile.", "¿Has tú visto a Marta?"],
-        [0, 2],
-        "Ya and nunca go before haber, and nothing goes between haber and the participle, not even tú."
-      ),
+      ms("Which sentences are correct?", ["Ya he terminado.","He ya terminado.","Nunca he estado en Chile.","¿Has tú visto a Marta?"], [0,2], "Ya and nunca go before haber, and nothing goes between haber and the participle, not even tú."),
+      toEs("I've already paid.", "Ya he pagado.", "Ya goes before haber (or at the end), never between he and pagado.", ["He pagado ya."]),
+      toEs("She hasn't arrived yet.", "Todavía no ha llegado.", "Not yet = todavía no or aún no.", ["Aún no ha llegado.","No ha llegado todavía.","No ha llegado aún."]),
+      fe("¿___ has comido? —Sí, a las dos.", "Ya", "Have you [already] eaten? —Yes, at two.", "Ya = already, placed before haber."),
+      fe("___ no he leído tu mensaje.", "Todavía", "I haven't read your message [yet].", "Todavía no = not yet.", ["Aún"]),
+      fe("¿Alguna vez has ___ en Argentina?", "estado", "Have you ever [been] to Argentina?", "Life experience of a place: estar → estado."),
+      fe("Hemos ido a Roma ___ veces.", "muchas", "We've been to Rome [many] times.", "Muchas veces = many times (vez is feminine)."),
+      toEs("Have you (tú) ever cooked for ten people?", "¿Alguna vez has cocinado para diez personas?", "Ever = alguna vez with the present perfect.", ["¿Has cocinado alguna vez para diez personas?","¿Alguna vez cocinaste para diez personas?"]),
+      toEs("I've never missed a flight.", "Nunca he perdido un vuelo.", "Nunca before haber; no extra no needed.", ["No he perdido nunca un vuelo.","Nunca perdí un vuelo."]),
+      toEs("My sister has changed jobs three times.", "Mi hermana ha cambiado de trabajo tres veces.", "Counting experiences (tres veces) uses the present perfect; cambiar de trabajo = to change jobs.", ["Mi hermana cambió de trabajo tres veces.","Mi hermana ha cambiado de empleo tres veces.","Mi hermana ha cambiado tres veces de trabajo."]),
+      toEs("We haven't cleaned the kitchen yet.", "Todavía no hemos limpiado la cocina.", "Todavía no / aún no go before haber, or no ... todavía at the end.", ["Aún no hemos limpiado la cocina.","No hemos limpiado la cocina todavía.","No hemos limpiado la cocina aún."]),
+      mc("'They've already left.'", ["Ya se han ido.","Se han ya ido.","Se ya han ido.","Han se ya ido."], 0, "Ya and the pronoun go before haber; nothing goes between han and ido."),
+      wo("Nunca he visto un arcoíris doble", "Nunca goes first, before haber.", "I've never seen a double rainbow"),
+      toEs("Have you (formal) ever written a book?", "¿Alguna vez ha escrito un libro?", "Usted takes ha; escribir → escrito.", ["¿Alguna vez escribió un libro?","¿Ha escrito alguna vez un libro?","¿Alguna vez ha escrito usted un libro?"]),
+      { type: "speak", prompt: "Answer aloud in Spanish: «¿Alguna vez has estado en Argentina?» You've never been there, but you've been to Chile twice.", text: "No, nunca he estado en Argentina, pero he estado en Chile dos veces.", explanation: "Experience up to now → he estado; nunca before haber; dos veces counts the experiences." },
     ]
   ),
   L(
@@ -222,11 +255,14 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     [
       sec(
         "Is the time over?",
-        "Hoy, esta semana, este año → present perfect: he comido. Ayer, la semana pasada, en 2020 → preterite: comí. If you name a finished time, use the preterite everywhere.",
         [
-          ["Hoy he comido en casa, pero ayer comí en un restaurante.", "Today I've eaten at home, but yesterday I ate at a restaurant."],
-          ["Este año he leído diez libros. El año pasado leí cinco.", "This year I've read ten books. Last year I read five."],
-          ["¿Has visto a Ana esta semana? —Sí, vi a Ana el lunes.", "Have you seen Ana this week? — Yes, I saw Ana on Monday."],
+          "Why? The present perfect links a past action to now: it happened inside a period that is still going on. The moment you name a finished time (ayer, el lunes, en 2020), that link is cut, so the preterite is the only choice.",
+          "Hoy, esta semana, este año → present perfect: he comido. Ayer, la semana pasada, en 2020 → preterite: comí. If you name a finished time, use the preterite everywhere.",
+        ],
+        [
+          ["Hoy he comido en casa, pero ayer comí en un restaurante.","Today I've eaten at home, but yesterday I ate at a restaurant."],
+          ["Este año he leído diez libros. El año pasado leí cinco.","This year I've read ten books. Last year I read five."],
+          ["¿Has visto a Ana esta semana? —Sí, vi a Ana el lunes.","Have you seen Ana this week? — Yes, I saw Ana on Monday."],
         ],
         [
           fe("Ayer ___ al cine.", "fui", "Yesterday I [went] to the cinema.", "Ayer is a finished time → preterite: fui."),
@@ -236,16 +272,11 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         "Spain and Latin America",
         "In Spain, he comido is the normal past for anything earlier today: ¿Qué has hecho esta mañana? In Mexico, Colombia, Argentina and most of Latin America, people usually say ¿Qué hiciste esta mañana? and often use the preterite for experiences too (¿Alguna vez estuviste en Cuba?), alongside he comido (¿Has estado en Cuba?). You can use either; just be consistent.",
         [
-          ["España: Esta mañana he desayunado tarde.", "Spain: This morning I had a late breakfast."],
-          ["México: Esta mañana desayuné tarde.", "Mexico: This morning I had a late breakfast."],
+          ["España: Esta mañana he desayunado tarde.","Spain: This morning I had a late breakfast."],
+          ["México: Esta mañana desayuné tarde.","Mexico: This morning I had a late breakfast."],
         ],
         [
-          mc(
-            "Which sentence is wrong?",
-            ["Ayer he visto a tu hermano.", "Ayer vi a tu hermano.", "Hoy he visto a tu hermano.", "Hoy vi a tu hermano."],
-            0,
-            "Ayer is a finished time, so the preterite: ayer vi. With hoy both are fine, depending on where you are."
-          ),
+          mc("Which sentence is wrong?", ["Ayer he visto a tu hermano.","Ayer vi a tu hermano.","Hoy he visto a tu hermano.","Hoy vi a tu hermano."], 0, "Ayer is a finished time, so the preterite: ayer vi. With hoy both are fine, depending on where you are."),
         ]
       ),
     ],
@@ -254,20 +285,31 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("Esta semana ___ mucho.", "he trabajado", "This week I [have worked] a lot.", "Esta semana isn't over → present perfect.", ["trabajé"]),
       fe("En 2019 ___ en Chile.", "vivimos", "In 2019 we [lived] in Chile.", "A finished year → preterite: vivimos."),
       fe("¿Alguna vez ___ en Chile?", "has vivido", "[Have you ever lived] in Chile? (tú)", "Experience → present perfect (has vivido); much of Latin America also says ¿Alguna vez viviste en Chile?", ["viviste"]),
-      toEs("Yesterday I went out with my friends.", "Ayer salí con mis amigos.", "Ayer → preterite.", ["Ayer salí con mis amigas.", "Salí con mis amigos ayer."]),
-      toEs("This year we've saved a lot of money.", "Este año hemos ahorrado mucho dinero.", "Este año → present perfect.", ["Este año ahorramos mucho dinero.", "Hemos ahorrado mucho dinero este año."]),
-      toEs("Have you (tú) ever been to Spain? — Yes, I went in 2018.", "¿Alguna vez has estado en España? —Sí, fui en 2018.", "The experience → he estado; the date → fui.", ["¿Alguna vez estuviste en España? —Sí, fui en 2018.", "¿Has estado en España alguna vez? —Sí, fui en 2018.", "¿Has estado alguna vez en España? —Sí, fui en 2018."]),
-      toEn("Hoy no he hecho nada, pero ayer limpié toda la casa.", "Today I haven't done anything, but yesterday I cleaned the whole house.", "Hoy → he hecho; ayer → limpié.", ["Today I've done nothing, but yesterday I cleaned the whole house.", "Today I didn't do anything, but yesterday I cleaned the whole house."]),
-      mt(
-        "Match each time word to the tense it goes with.",
-        [
-          ["ayer", "preterite (comí)"],
-          ["esta mañana", "present perfect in Spain (he comido)"],
-          ["alguna vez", "present perfect (he comido)"],
-          ["el año pasado", "preterite (comí)"],
-        ],
-        "Finished time → preterite; unfinished time or experience → present perfect."
-      ),
+      toEs("Hoy he llamado a mi abuela.", "Ayer llamé a mi abuela.", "Ayer is a finished time, so the present perfect becomes the preterite: he llamado → llamé.", ["Llamé a mi abuela ayer."], "Change «hoy» to «ayer»."),
+      toEs("El sábado hicimos una fiesta.", "Este fin de semana hemos hecho una fiesta.", "Este fin de semana is still the current period → present perfect hemos hecho (in Latin America hicimos is also normal).", ["Este fin de semana hicimos una fiesta.","Hemos hecho una fiesta este fin de semana."], "Change «el sábado» to «este fin de semana» (Spain usage)."),
+      toEs("¿Qué hiciste esta mañana?", "¿Qué has hecho esta mañana?", "In Spain, earlier today is normally the present perfect: has + hecho.", undefined, "Change it to the usual Spain version."),
+      toEs("En 2010 he vivido en Londres.", "En 2010 viví en Londres.", "A named finished year cuts the link to now → preterite viví.", undefined, "Correct the sentence."),
+      toEs("Anoche hemos cenado en un restaurante chino.", "Anoche cenamos en un restaurante chino.", "Anoche is finished, even in Spain → preterite cenamos.", undefined, "Correct the sentence."),
+      toEs("Mis abuelos se han conocido en 1965.", "Mis abuelos se conocieron en 1965.", "A specific date in the past → preterite se conocieron.", undefined, "Correct the sentence."),
+      toEs("Yesterday I went out with my friends.", "Ayer salí con mis amigos.", "Ayer → preterite.", ["Ayer salí con mis amigas.","Salí con mis amigos ayer."]),
+      toEs("This year we've saved a lot of money.", "Este año hemos ahorrado mucho dinero.", "Este año → present perfect.", ["Este año ahorramos mucho dinero.","Hemos ahorrado mucho dinero este año."]),
+      toEs("Have you (tú) ever been to Spain? — Yes, I went in 2018.", "¿Alguna vez has estado en España? —Sí, fui en 2018.", "The experience → he estado; the date → fui.", ["¿Alguna vez estuviste en España? —Sí, fui en 2018.","¿Has estado en España alguna vez? —Sí, fui en 2018.","¿Has estado alguna vez en España? —Sí, fui en 2018."]),
+      toEn("Hoy no he hecho nada, pero ayer limpié toda la casa.", "Today I haven't done anything, but yesterday I cleaned the whole house.", "Hoy → he hecho; ayer → limpié.", ["Today I've done nothing, but yesterday I cleaned the whole house.","Today I didn't do anything, but yesterday I cleaned the whole house."]),
+      mt("Match each time word to the tense it goes with.", [["ayer","preterite (comí)"],["esta mañana","present perfect in Spain (he comido)"],["alguna vez","present perfect (he comido)"],["el año pasado","preterite (comí)"]], "Finished time → preterite; unfinished time or experience → present perfect."),
+      fe("Hoy ___ en casa.", "he trabajado", "Today I [have worked] at home.", "Hoy isn't over: present perfect (in Latin America trabajé is also normal).", ["trabajé"]),
+      fe("Ayer ___ en casa.", "trabajé", "Yesterday I [worked] at home.", "Ayer is a finished time: preterite everywhere, never he trabajado."),
+      fe("El lunes pasado ___ a Ana en el supermercado.", "vi", "Last Monday I [saw] Ana at the supermarket.", "A named finished time: preterite vi."),
+      fe("Esta semana ___ dos películas.", "hemos visto", "This week we [have seen] two films.", "Esta semana isn't over: present perfect.", ["vimos"]),
+      toEs("In 2015 my sister had a baby.", "En 2015 mi hermana tuvo un bebé.", "A finished year: preterite tuvo, never ha tenido.", ["Mi hermana tuvo un bebé en 2015."]),
+      toEs("This month I've read three books.", "Este mes he leído tres libros.", "Este mes isn't over: he leído.", ["Este mes leí tres libros."]),
+      toEs("Last month I read three books.", "El mes pasado leí tres libros.", "El mes pasado is over: preterite leí."),
+      toEs("Have you (tú) ever won a prize? — Yes, I won one in 2020.", "¿Alguna vez has ganado un premio? —Sí, gané uno en 2020.", "Alguna vez asks about experience (present perfect); en 2020 names a finished time (preterite gané).", ["¿Alguna vez ganaste un premio? —Sí, gané uno en 2020.","¿Has ganado alguna vez un premio? —Sí, gané uno en 2020.","¿Alguna vez has ganado un premio? —Sí, en 2020 gané uno."]),
+      toEs("Today I've got up early, but yesterday I got up at ten.", "Hoy me he levantado temprano, pero ayer me levanté a las diez.", "Hoy → present perfect; ayer → preterite.", ["Hoy me levanté temprano, pero ayer me levanté a las diez."]),
+      mc("Which sentence is wrong?", ["El año pasado he viajado a Chile.","El año pasado viajé a Chile.","Este año he viajado a Chile.","Este año viajé a Chile."], 0, "El año pasado is finished, so it needs the preterite."),
+      mc("In Mexico, how would someone usually ask 'What did you do this morning?'", ["¿Qué hiciste esta mañana?","¿Qué has hecho ayer?","¿Qué hacías esta mañana?","¿Qué harás esta mañana?"], 0, "Most of Latin America uses the preterite for earlier today."),
+      wo("Esta semana he dormido poco, pero el sábado dormí diez horas", "Esta semana → he dormido; el sábado → dormí.", "This week I've slept little, but on Saturday I slept ten hours"),
+      toEs("My parents got married in 1990.", "Mis padres se casaron en 1990.", "A specific past date: preterite, never se han casado."),
+      { type: "speak", prompt: "Say aloud in Spanish (Spain usage): This week I've worked a lot, but last week I went to the beach.", text: "Esta semana he trabajado mucho, pero la semana pasada fui a la playa.", explanation: "Esta semana isn't over → he trabajado; la semana pasada is finished → fui. In Latin America, esta semana trabajé mucho is also normal." },
     ]
   ),
   L(
@@ -277,19 +319,14 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     "9 min",
     [
       sec(
-        "The checklist",
-        "Haber + participle, nothing in between. The participle never changes. Hoy / esta semana / alguna vez → he comido. Ayer / el lunes / en 2020 → comí.",
+        "Remember the rule: the checklist",
+        "Remember the rule: the present perfect links a past action to a period that includes now, so it needs haber + participle, with nothing in between. The participle never changes. Hoy / esta semana / alguna vez → he comido. Ayer / el lunes / en 2020 → comí, because a finished time cuts the link to now. Irregular participles end in -to or -cho (abierto, puesto, hecho, dicho), and verbs built on them keep the same ending (devuelto, descrito).",
         [
-          ["¿Has terminado? —Sí, ya he terminado.", "Have you finished? — Yes, I've already finished."],
-          ["Nunca he estado en Cuba.", "I've never been to Cuba."],
+          ["¿Has terminado? —Sí, ya he terminado.","Have you finished? — Yes, I've already finished."],
+          ["Nunca he estado en Cuba.","I've never been to Cuba."],
         ],
         [
-          ms(
-            "Which forms are correct?",
-            ["he hecho", "he hacido", "han dicho", "hemos vuelto", "ha escribido"],
-            [0, 2, 3],
-            "Hecho, dicho and vuelto are irregular. \"Hacido\" and \"escribido\" don't exist: hecho, escrito."
-          ),
+          ms("Which forms are correct?", ["he hecho","he hacido","han dicho","hemos vuelto","ha escribido"], [0,2,3], "Hecho, dicho and vuelto are irregular. \"Hacido\" and \"escribido\" don't exist: hecho, escrito."),
         ]
       ),
     ],
@@ -298,16 +335,34 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("Nosotros nunca ___ un accidente.", "hemos tenido", "We [have] never [had] an accident.", "hemos + tenido.", ["tuvimos"]),
       fe("¿Quién ha ___ la puerta?", "abierto", "Who has [opened] the door?", "abrir → abierto."),
       fe("El año pasado ___ a Japón.", "viajé", "Last year I [traveled] to Japan.", "A finished time → preterite."),
-      toEs("I haven't seen the news yet.", "Todavía no he visto las noticias.", "todavía no + he visto.", ["Aún no he visto las noticias.", "No he visto las noticias todavía.", "No he visto las noticias aún."]),
-      toEs("They've returned from their trip.", "Han vuelto de su viaje.", "volver → vuelto.", ["Han vuelto del viaje.", "Ya han vuelto de su viaje.", "Ellos han vuelto de su viaje.", "Han regresado de su viaje."]),
-      toEs("What have you done this weekend?", "¿Qué has hecho este fin de semana?", "este fin de semana → present perfect; hacer → hecho.", ["¿Qué ha hecho este fin de semana?", "¿Qué hiciste este fin de semana?"]),
-      toEn("Esta mañana he puesto la lavadora y he limpiado la cocina.", "This morning I've put the washing machine on and cleaned the kitchen.", "poner → puesto; limpiar → limpiado.", ["This morning I put the washing machine on and cleaned the kitchen.", "This morning I've done the laundry and cleaned the kitchen."]),
-      mc(
-        "\"Have you ever lied to a friend?\"",
-        ["¿Alguna vez has mentido a un amigo?", "¿Alguna vez mentiste a un amigo ayer?", "¿Has alguna vez mentido a un amigo?", "¿Alguna vez has mentida a un amigo?"],
-        0,
-        "Alguna vez goes before haber, and mentido doesn't agree. \"Ayer\" doesn't fit an \"ever\" question."
-      ),
+      toEs("I haven't seen the news yet.", "Todavía no he visto las noticias.", "todavía no + he visto.", ["Aún no he visto las noticias.","No he visto las noticias todavía.","No he visto las noticias aún."]),
+      toEs("They've returned from their trip.", "Han vuelto de su viaje.", "volver → vuelto.", ["Han vuelto del viaje.","Ya han vuelto de su viaje.","Ellos han vuelto de su viaje.","Han regresado de su viaje."]),
+      toEs("What have you done this weekend?", "¿Qué has hecho este fin de semana?", "este fin de semana → present perfect; hacer → hecho.", ["¿Qué ha hecho este fin de semana?","¿Qué hiciste este fin de semana?"]),
+      toEn("Esta mañana he puesto la lavadora y he limpiado la cocina.", "This morning I've put the washing machine on and cleaned the kitchen.", "poner → puesto; limpiar → limpiado.", ["This morning I put the washing machine on and cleaned the kitchen.","This morning I've done the laundry and cleaned the kitchen."]),
+      mc("\"Have you ever lied to a friend?\"", ["¿Alguna vez has mentido a un amigo?","¿Alguna vez mentiste a un amigo ayer?","¿Has alguna vez mentido a un amigo?","¿Alguna vez has mentida a un amigo?"], 0, "Alguna vez goes before haber, and mentido doesn't agree. \"Ayer\" doesn't fit an \"ever\" question."),
+      fe("Hoy ___ el autobús.", "he perdido", "Today I [have missed] the bus.", "Hoy isn't over: he + perdido.", ["perdí"]),
+      fe("¿Alguna vez ___ a un famoso?", "has visto", "[Have you] ever [seen] a famous person? (tú)", "Experience → present perfect; ver → visto.", ["viste"]),
+      fe("Los niños ___ la ventana con la pelota.", "han roto", "The children [have broken] the window with the ball.", "Romper → roto (irregular)."),
+      fe("¿Qué ___ en la carta?", "ha escrito", "What [has] she [written] in the letter?", "Escribir → escrito; ella → ha."),
+      fe("Anteayer ___ un regalo para mi madre.", "compré", "The day before yesterday I [bought] a present for my mother.", "Anteayer is finished: preterite."),
+      mc("Prever (to foresee) is built on ver. \"We have foreseen the problem\" is…", ["Hemos previsto el problema.","Hemos preveído el problema.","Hemos previsto los problema.","Hemos prevido el problema."], 0, "Prever inherits ver → visto: previsto. Preveído and prevido don't exist."),
+      toEs("Mi hermana escribe un correo.", "Mi hermana ha escrito un correo.", "Ha + escrito (escribir has an irregular participle).", ["Hoy mi hermana ha escrito un correo."], "Change it to the present perfect."),
+      toEs("Esta mañana he hecho deporte.", "Ayer hice deporte.", "Ayer is a finished time → preterite: he hecho → hice.", ["Hice deporte ayer."], "Change «esta mañana» to «ayer»."),
+      toEs("Ya he reservado la mesa.", "Todavía no he reservado la mesa.", "Not yet = todavía no / aún no before haber, or no ... todavía at the end.", ["Aún no he reservado la mesa.","No he reservado la mesa todavía.","No he reservado la mesa aún."], "Make it negative with «todavía no»."),
+      toEs("El mes pasado hemos pintado la casa.", "El mes pasado pintamos la casa.", "El mes pasado is finished → preterite pintamos.", undefined, "Correct the sentence."),
+      toEs("Mis amigos han ponido música en la fiesta.", "Mis amigos han puesto música en la fiesta.", "Poner → puesto, never ponido.", undefined, "Correct the sentence."),
+      toEs("Nunca he tú probado el mole.", "Tú nunca has probado el mole.", "Two fixes: nothing goes between haber and the participle, and with tú haber is has.", ["Nunca has probado el mole.","No has probado nunca el mole."], "Correct the sentence."),
+      toEs("Have you all (ustedes) already eaten?", "¿Ya han comido?", "Ya before haber; ustedes → han.", ["¿Han comido ya?"]),
+      toEs("I haven't done my homework yet.", "Todavía no he hecho los deberes.", "Todavía no + he hecho (irregular participle).", ["Todavía no he hecho la tarea.","Aún no he hecho los deberes.","Aún no he hecho la tarea.","No he hecho los deberes todavía.","No he hecho la tarea todavía.","Todavía no he hecho mis deberes.","Todavía no he hecho mi tarea."]),
+      toEs("Have you (tú) put the milk in the fridge?", "¿Has puesto la leche en la nevera?", "Poner → puesto.", ["¿Has puesto la leche en el refrigerador?","¿Has puesto la leche en el frigorífico?","¿Has puesto la leche en la heladera?"]),
+      toEs("We've never lived abroad.", "Nunca hemos vivido en el extranjero.", "Nunca before haber for life experience.", ["No hemos vivido nunca en el extranjero.","Nunca vivimos en el extranjero."]),
+      toEs("My boss has said something strange today.", "Hoy mi jefe ha dicho algo raro.", "Decir → dicho; hoy takes the present perfect.", ["Mi jefe ha dicho algo raro hoy.","Hoy mi jefa ha dicho algo raro.","Mi jefa ha dicho algo raro hoy."]),
+      toEs("My grandfather died in 2022.", "Mi abuelo murió en 2022.", "A finished date → preterite murió, not ha muerto.", ["En 2022 murió mi abuelo.","En 2022 mi abuelo murió."]),
+      mc("'Have you seen my keys?'", ["¿Has visto mis llaves?","¿Has tú visto mis llaves?","¿Has veído mis llaves?","¿Has vistas mis llaves?"], 0, "Nothing between has and visto; the participle is invariable."),
+      mc("'Yesterday she came back from Paris.'", ["Ayer volvió de París.","Ayer ha vuelto de París.","Ayer ha volvido de París.","Ayer volvía de París."], 0, "Ayer is finished: preterite volvió."),
+      wo("Mis vecinos ya han vuelto de sus vacaciones", "Ya before haber; volver → vuelto.", "My neighbors have already come back from their holiday"),
+      toEs("Today I've done the shopping, but on Monday I did nothing.", "Hoy he hecho la compra, pero el lunes no hice nada.", "Hoy → he hecho; el lunes → preterite no hice.", ["Hoy hice la compra, pero el lunes no hice nada."]),
+      { type: "speak", prompt: "Answer aloud in Spanish: «¿Qué has hecho hoy?» You've written two emails and you've come back home early.", text: "He escrito dos correos y he vuelto a casa temprano.", explanation: "Hoy → present perfect; escribir → escrito, volver → vuelto." },
     ]
   ),
   L(
@@ -318,12 +373,15 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     [
       sec(
         "Local news",
-        "Radio and TV in Spain report today's events in the present perfect.",
         [
-          ["La policía ha detenido a dos sospechosos del robo del banco.", "Police have arrested two suspects in the bank robbery."],
-          ["Un testigo ha visto a los ladrones huir en un coche negro.", "A witness has seen the thieves flee in a black car."],
+          "Remember the rule: the present perfect is haber (he, has, ha, hemos, habéis, han) + a participle (-ar → -ado, -er/-ir → -ido). Haber agrees with the subject; the participle never changes.",
+          "Why the news loves it: in Spain, anything that happened today still belongs to \"now\", so radio and TV say ha detenido, han ganado. (Latin American news often uses the preterite for the same events: detuvo, ganaron.) Your mission: understand the headlines and pass the news on.",
+        ],
+        [
+          ["La policía ha detenido a dos sospechosos del robo del banco.", "Police have arrested two suspects in the bank robbery. (la policía is singular → ha)"],
+          ["Un testigo ha visto a los ladrones huir en un coche negro.", "A witness has seen the thieves flee in a black car. (ver → visto, irregular)"],
           ["Según el juez, los dos hombres son inocentes hasta el juicio.", "According to the judge, the two men are innocent until the trial."],
-          ["La víctima, un cajero del banco, no ha sufrido heridas graves.", "The victim, a bank teller, hasn't suffered serious injuries."],
+          ["La víctima, un cajero del banco, no ha sufrido heridas graves.", "The victim, a bank teller, hasn't suffered serious injuries. (no goes before ha)"],
         ],
         [
           mc(
@@ -332,41 +390,54 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
             0,
             "\"Ha detenido a dos sospechosos\": two suspects. The witness saw them, and the teller is the victim."
           ),
+          mc(
+            "Now two witnesses come forward. How does the reporter say it?",
+            ["Dos testigos han visto a los ladrones.", "Dos testigos ha visto a los ladrones.", "Dos testigos han vistos a los ladrones.", "Dos testigos han veído a los ladrones."],
+            0,
+            "Haber agrees with the plural subject (han), but the participle stays visto. \"Ha\" is singular, the participle never adds -s, and ver's participle is the irregular visto, not \"veído\"."
+          ),
         ]
       ),
       sec(
         "Missing and found",
-        "Desaparecer (to disappear) and aparecer (to turn up) are everyday news verbs.",
+        "Desaparecer (to disappear) and aparecer (to turn up) are everyday news verbs. Notice the mix: the story's background (estaba atrapado) and a finished earlier day (el lunes → desapareció) keep their past tenses; today's news is in the present perfect.",
         [
-          ["Ha aparecido el perro que desapareció el lunes.", "The dog that went missing on Monday has turned up."],
+          ["Ha aparecido el perro que desapareció el lunes.", "The dog that went missing on Monday has turned up. (news often puts the verb first)"],
           ["Estaba atrapado en un garaje cerca de su casa.", "It was trapped in a garage near its home."],
           ["Los vecinos han ayudado a buscar al perro con mucha energía.", "The neighbors have helped look for it with a lot of energy."],
           ["La familia ha agradecido a todos su ayuda.", "The family has thanked everyone for their help."],
         ],
         [
-          fe("El perro ___.", "ha aparecido", "The dog [has turned up].", "aparecer → ha aparecido."),
+          fe("Dos gatos ___ en el parque esta mañana.", "han desaparecido", "Two cats [have disappeared] in the park this morning.", "A plural subject takes han; desaparecer is an -er verb, so -ido: han desaparecido. Esta mañana (still today) points to the present perfect."),
         ]
       ),
       sec(
         "Sport and culture",
-        "Sport and culture headlines too.",
+        "Sport and culture headlines work the same way. Watch for the irregular participles: escribir → escrito, hacer → hecho, abrir → abierto, decir → dicho, poner → puesto.",
         [
           ["El equipo local ha ganado la copa por primera vez.", "The local team has won the cup for the first time."],
           ["Los jugadores han demostrado un nivel impresionante.", "The players have shown an impressive level."],
           ["Una actriz famosa ha mencionado su ciudad en una entrevista.", "A famous actress has mentioned her city in an interview."],
           ["El museo ha reunido obras de cien artistas.", "The museum has brought together works by a hundred artists."],
         ],
-        []
+        [
+          fe("La cantante ___ una canción sobre el equipo.", "ha escrito", "The singer [has written] a song about the team.", "Escribir has an irregular participle: escrito, never \"escribido\". La cantante is singular, so ha."),
+        ]
       ),
     ],
     [
-      fe("La policía ___ a un sospechoso.", "ha detenido", "The police [have arrested] a suspect.", "detener → detenido."),
-      fe("El equipo ___ la copa.", "ha ganado", "The team [has won] the cup.", "ganar → ganado."),
-      fe("Un ___ ha visto el accidente.", "testigo", "A [witness] has seen the accident.", "el / la testigo = witness."),
-      toEs("The thieves have escaped.", "Los ladrones han escapado.", "escapar → escapado. Huir also works: han huido.", ["Los ladrones se han escapado.", "Los ladrones han huido."]),
-      toEs("The judge has said that the man is innocent.", "El juez ha dicho que el hombre es inocente.", "decir → dicho.", ["La jueza ha dicho que el hombre es inocente."]),
-      toEs("A girl has disappeared, but she has turned up this morning.", "Una chica ha desaparecido, pero ha aparecido esta mañana.", "desaparecer / aparecer → -ido.", ["Una niña ha desaparecido, pero ha aparecido esta mañana.", "Una chica desapareció, pero ha aparecido esta mañana."]),
-      toEn("La víctima no ha reconocido al ladrón.", "The victim hasn't recognized the thief.", "reconocer = to recognize.", ["The victim did not recognize the thief.", "The victim didn't recognize the thief."]),
+      fe("La policía ___ a un sospechoso.", "ha detenido", "The police [have arrested] a suspect.", "Detener is an -er verb → detenido; la policía is one (singular) noun, so ha, not han."),
+      fe("El equipo ___ la copa.", "ha ganado", "The team [has won] the cup.", "Ganar is -ar → ganado; el equipo is singular → ha."),
+      fe("Un ___ ha visto el accidente.", "testigo", "A [witness] has seen the accident.", "El / la testigo = witness: the same word for a man or a woman, only the article changes."),
+      toEs("El ladrón ha escapado.", "Los ladrones han escapado.", "Plural subject → han; the participle escapado doesn't change. Huir works too: han huido.", ["Los ladrones se han escapado.", "Los ladrones han huido."], "Make it plural."),
+      toEs("The judge has said that the man is innocent.", "El juez ha dicho que el hombre es inocente.", "Decir has an irregular participle: dicho. Es inocente stays in the present: it's what the judge says is true now.", ["La jueza ha dicho que el hombre es inocente."]),
+      toEs("A girl has disappeared, but she has turned up this morning.", "Una chica ha desaparecido, pero ha aparecido esta mañana.", "Both are -er verbs → -ido. Esta mañana is still today, so the present perfect.", ["Una niña ha desaparecido, pero ha aparecido esta mañana.", "Una chica desapareció, pero ha aparecido esta mañana."]),
+      mc(
+        "The reporter says: «La víctima no ha reconocido al ladrón.» What has happened?",
+        ["The victim didn't recognize the thief.", "The victim recognized the thief.", "The thief didn't recognize the victim.", "The victim will recognize the thief."],
+        0,
+        "No before ha makes it negative, and al ladrón (personal a) marks the thief as the one recognized. Ha reconocido is past, not future."
+      ),
       mt(
         "Match each news word to its meaning.",
         [
@@ -376,9 +447,9 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["el testigo", "the witness"],
           ["detener", "to arrest"],
         ],
-        "Words you'll hear in every news bulletin."
+        "Words you'll hear in every news bulletin. La víctima is always feminine, even for a man."
       ),
-      wo("El ladrón ha pasado la noche en la cárcel.", "ha + participle; la cárcel = prison.", "The thief has spent the night in prison."),
+      wo("El ladrón ha pasado la noche en la cárcel.", "Ha + participle stay together: nothing goes between them. La cárcel = prison.", "The thief has spent the night in prison."),
     ]
   ),
 
@@ -389,29 +460,41 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     "9 min",
     [
       sec(
-        "History",
-        "Documentaries tell history in the past tenses you know. These are the nouns and verbs they use most.",
+        "History: verbs and their nouns",
         [
-          ["Durante la guerra, el ejército destruyó el puente.", "During the war, the army destroyed the bridge."],
-          ["Muchos soldados lucharon por la libertad del país.", "Many soldiers fought for the country's freedom."],
-          ["El enemigo atacó la ciudad de noche.", "The enemy attacked the city at night."],
-          ["Una bomba quemó la mitad del barrio.", "A bomb burned half of the neighborhood."],
-          ["Mi abuela sobrevivió y es una heroína para nuestra familia.", "My grandmother survived and is a heroine to our family."],
-          ["Su familia escondió a dos personas en el sótano.", "Her family hid two people in the basement."],
+          "Learn these words in families. Many Spanish nouns are a verb with its ending swapped for -a, -e or -o: luchar → la lucha, atacar → el ataque, golpear → el golpe, pelear → la pelea, amenazar → la amenaza. Know one, and you can often guess the other.",
+          "Documentaries tell history in the preterite. Verbs ending in -uir (destruir, huir, construir) change i to y between vowels: destruyó, huyeron.",
         ],
         [
-          fe("Mi abuelo ___ la guerra.", "sobrevivió", "My grandfather [survived] the war.", "sobrevivir → sobrevivió (preterite, él)."),
+          ["Durante la guerra, el ejército destruyó el puente.", "During the war, the army destroyed the bridge. (destruir → destruyó, i → y)"],
+          ["Muchos soldados lucharon por la libertad del país.", "Many soldiers fought for the country's freedom. (luchar por = to fight for)"],
+          ["El enemigo atacó la ciudad de noche.", "The enemy attacked the city at night. (atacar → el ataque)"],
+          ["Una bomba quemó la mitad del barrio.", "A bomb burned half of the neighborhood."],
+          ["Mi abuela sobrevivió y es una heroína para nuestra familia.", "My grandmother survived and is a heroine to our family."],
+          ["Su familia escondió a dos personas en el sótano.", "Her family hid two people in the basement. (personal a before people)"],
+        ],
+        [
+          fe("Mi abuelo ___ la guerra.", "sobrevivió", "My grandfather [survived] the war.", "Sobrevivir is an -ir verb: él → -ió, sobrevivió. A finished event in history → preterite."),
+          mc(
+            "Construir (to build) works like destruir. \"They built a new bridge.\"",
+            ["Construyeron un puente nuevo.", "Construieron un puente nuevo.", "Construyieron un puente nuevo.", "Construían un puente nuevo."],
+            0,
+            "-uir verbs put a y where an unstressed i would sit between vowels: destruyeron → construyeron. \"Construieron\" keeps the i, \"construyieron\" has both, and construían is the imperfect (was building), not one finished event."
+          ),
         ]
       ),
       sec(
         "Today's news",
-        "Crime and security reports mix the present, the present perfect (for what has just happened) and the preterite.",
         [
-          ["La policía investiga el ataque a una tienda.", "The police are investigating the attack on a shop."],
+          "Crime reports mix the present (what is happening), the present perfect (what has just happened) and the preterite (what happened).",
+          "Two more endings help you decode news words: -ción matches English -tion (investigación, destrucción) and -ancia / -encia matches -ance / -ence (vigilancia, violencia). Nouns in -ción are always feminine.",
+        ],
+        [
+          ["La policía investiga el ataque a una tienda.", "The police are investigating the attack on a shop. (la policía is singular)"],
           ["No hay ninguna pista, pero un vecino ha dado algunos detalles.", "There's no lead, but a neighbor has given some details."],
-          ["Los ladrones ocultaron la droga en un coche.", "The thieves hid the drugs in a car."],
+          ["Los ladrones ocultaron la droga en un coche.", "The thieves hid the drugs in a car. (ocultar = esconder)"],
           ["Después de una pelea, un hombre golpeó a otro en la calle.", "After a fight, one man hit another in the street."],
-          ["El golpe fue fuerte, pero el hombre está bien.", "The blow was hard, but the man is OK."],
+          ["El golpe fue fuerte, pero el hombre está bien.", "The blow was hard, but the man is OK. (golpear → el golpe)"],
           ["Hay más vigilancia en el centro por una amenaza.", "There's more surveillance downtown because of a threat."],
           ["El ladrón pasó tres años en prisión.", "The thief spent three years in prison."],
           ["La policía encontró una pistola y tres balas.", "The police found a pistol and three bullets."],
@@ -421,19 +504,30 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
             "\"The police are investigating the case.\"",
             ["La policía investiga el caso.", "La policía investigan el caso.", "La policía investigando el caso.", "La policía es investiga el caso."],
             0,
-            "La policía is singular in Spanish: investiga."
+            "La policía is singular in Spanish, so the verb is investiga. \"Investigan\" treats it as plural, and a bare -ando form or es + verb is not a Spanish present."
+          ),
+          mc(
+            "Proteger means to protect. What is \"protection\"?",
+            ["la protección", "el protección", "la protecta", "la protegencia"],
+            0,
+            "-tion → -ción, and every noun in -ción is feminine: la protección (like la investigación)."
           ),
         ]
       ),
     ],
     [
-      fe("Los soldados ___ durante tres días.", "lucharon", "The soldiers [fought] for three days.", "luchar → lucharon."),
-      fe("¿Dónde ___ el dinero?", "escondiste", "Where did you [hide] the money? (tú)", "esconder → escondiste. Ocultar means the same.", ["ocultaste"]),
-      fe("La policía no tiene ninguna ___.", "pista", "The police don't have a single [lead].", "la pista = the lead, the clue."),
-      toEs("They fought for freedom.", "Lucharon por la libertad.", "luchar por = to fight for.", ["Ellos lucharon por la libertad."]),
-      toEs("The fire destroyed the house.", "El fuego destruyó la casa.", "destruir → destruyó, with a y.", ["El incendio destruyó la casa."]),
-      toEs("The police are investigating the threat.", "La policía investiga la amenaza.", "La policía is singular.", ["La policía está investigando la amenaza."]),
-      toEn("Mi abuelo fue un héroe: escondió a una familia durante la guerra.", "My grandfather was a hero: he hid a family during the war.", "esconder → escondió.", ["My grandfather was a hero: he hid a family in the war."]),
+      fe("Los soldados ___ durante tres días.", "lucharon", "The soldiers [fought] for three days.", "Luchar, ellos form of the preterite: -aron. A finished period (tres días) → preterite."),
+      fe("¿Dónde ___ el dinero?", "escondiste", "Where did you [hide] the money? (tú)", "Esconder is -er: tú → -iste, escondiste. Ocultar means the same: ocultaste.", ["ocultaste"]),
+      fe("La policía no tiene ninguna ___.", "pista", "The police don't have a single [lead].", "La pista = the lead, the clue. Ninguna agrees with the feminine noun."),
+      toEs("Ellos lucharon por la libertad.", "Nosotros luchamos por la libertad.", "Nosotros in the preterite of -ar verbs is -amos (same as the present; the context tells the time).", ["Luchamos por la libertad."], "Change to nosotros."),
+      toEs("El fuego destruyó la casa.", "El fuego destruyó las casas.", "Only the object becomes plural: las casas. The subject (el fuego) is still singular, so destruyó stays.", ["El incendio destruyó las casas."], "Change the object to plural."),
+      toEs("The police are investigating the threat.", "La policía investiga la amenaza.", "La policía is singular → investiga. Amenazar → la amenaza (verb family).", ["La policía está investigando la amenaza."]),
+      mc(
+        "«Mi abuelo fue un héroe: escondió a una familia durante la guerra.» What did the grandfather do?",
+        ["He hid a family.", "He found a family.", "He fought a family.", "He looked for a family."],
+        0,
+        "Esconder = to hide. Encontrar is to find, luchar to fight, buscar to look for. The a before una familia is the personal a for people."
+      ),
       mt(
         "Match each word to its meaning.",
         [
@@ -443,7 +537,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["el detalle", "detail"],
           ["sobrevivir", "to survive"],
         ],
-        "Words from history and the news."
+        "Pelea and amenaza are verb nouns: pelear → la pelea, amenazar → la amenaza."
       ),
     ]
   ),
@@ -456,77 +550,90 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     "9 min",
     [
       sec(
-        "Praise",
-        "Strong positive adjectives: estupendo (great), impresionante (impressive), brillante (brilliant), adorable. Orgulloso de means proud of.",
+        "Praise: strong adjectives and the ¡Qué … tan …! frame",
         [
-          ["¡Qué idea tan estupenda!", "What a great idea!"],
-          ["Tu presentación fue impresionante.", "Your presentation was impressive."],
-          ["Es una estudiante brillante.", "She's a brilliant student."],
-          ["¡Qué bebé tan adorable!", "What an adorable baby!"],
-          ["Estoy muy orgulloso de ti.", "I'm very proud of you."],
-          ["Te mereces unas vacaciones.", "You deserve a holiday."],
-          ["Te agradezco mucho la ayuda.", "I'm very grateful for your help."],
+          "Strong positive adjectives: estupendo (great), impresionante (impressive), brillante (brilliant), adorable. Adjectives in -o change for gender and number (una idea estupenda); adjectives in -e or a consonant only change for number (una idea brillante, ideas brillantes).",
+          "To praise something with emphasis, Spanish uses one frame: ¡Qué + noun + tan (or más) + adjective! It works with any noun and any adjective. Feelings about people use estar + adjective + de: estoy orgulloso de ti (proud of you). Merecer (to deserve) and agradecer (to be grateful for) add a -z- in the yo form: merezco, agradezco, like conocer → conozco.",
         ],
         [
-          fe("Estoy muy ___ de mi hija.", "orgulloso", "I'm very [proud] of my daughter.", "orgulloso de = proud of. A woman says orgullosa.", ["orgullosa"]),
+          ["¡Qué idea tan estupenda!","What a great idea! (¡Qué + noun + tan + adjective!)"],
+          ["Tu presentación fue impresionante.","Your presentation was impressive."],
+          ["Es una estudiante brillante.","She's a brilliant student. (brillante: same form for both genders)"],
+          ["¡Qué bebé tan adorable!","What an adorable baby!"],
+          ["Estoy muy orgulloso de ti.","I'm very proud of you. (estar + adjective + de)"],
+          ["Te mereces unas vacaciones.","You deserve a holiday."],
+          ["Te agradezco mucho la ayuda.","I'm very grateful for your help. (agradezco: yo form with -z-)"],
+        ],
+        [
+          fe("Estoy muy ___ de mi hija.", "orgulloso", "I'm very [proud] of my daughter.", "orgulloso de = proud of, with estar. A woman says orgullosa.", ["orgullosa"]),
+          mc("Using the same frame with a new adjective: \"What a boring film!\"", ["¡Qué película tan aburrida!","¡Qué tan película aburrida!","¡Qué película tan aburrido!","¡Qué aburrida tan película!"], 0, "¡Qué + noun + tan + adjective!, and the adjective agrees with película: aburrida. The other options break the order or the agreement."),
         ]
       ),
       sec(
-        "Complaints",
-        "Ridículo, falso and equivocado for things that are wrong; aguantar and soportar for putting up with something; no soporto means I can't stand.",
+        "Complaints: wrong is a state, so estar",
         [
-          ["¡Es un precio ridículo!", "That's a ridiculous price!"],
-          ["Esa noticia es falsa.", "That news is fake."],
-          ["Creo que estás equivocado.", "I think you're wrong."],
-          ["No aguanto más este calor.", "I can't take this heat any more."],
-          ["No soporto a la gente que miente.", "I can't stand people who lie."],
-          ["Me engañaron: el producto no funciona.", "They cheated me: the product doesn't work."],
-          ["La lluvia arruinó nuestro picnic.", "The rain ruined our picnic."],
+          "Ridículo and falso describe things, so they go with ser and agree with the noun: un precio ridículo, una noticia falsa. Equivocado (wrong, mistaken) describes a person's current state, so it takes estar: estás equivocado, never eres equivocado.",
+          "Aguantar and soportar both mean to put up with; in the negative they mean I can't stand / I can't take it any more. When what you can't stand is a person, add the personal a: no soporto a la gente que miente.",
         ],
         [
-          mc(
-            "\"You're wrong.\"",
-            ["Estás equivocado.", "Eres equivocado.", "Tienes equivocado.", "Haces equivocado."],
-            0,
-            "Estar equivocado = to be wrong (a state). Tener razón is the opposite: to be right."
-          ),
+          ["¡Es un precio ridículo!","That's a ridiculous price! (ser: describing the thing)"],
+          ["Esa noticia es falsa.","That news is fake."],
+          ["Creo que estás equivocado.","I think you're wrong. (estar: your state)"],
+          ["No aguanto más este calor.","I can't take this heat any more."],
+          ["No soporto a la gente que miente.","I can't stand people who lie. (personal a before people)"],
+          ["Me engañaron: el producto no funciona.","They cheated me: the product doesn't work."],
+          ["La lluvia arruinó nuestro picnic.","The rain ruined our picnic."],
+        ],
+        [
+          mc("\"You're wrong.\"", ["Estás equivocado.","Eres equivocado.","Tienes equivocado.","Haces equivocado."], 0, "Being wrong is a state, so estar equivocado. Eres uses ser, and tener / hacer don't combine with equivocado (the opposite is tener razón, to be right)."),
         ]
       ),
       sec(
         "Feelings and relationships",
-        "Enamorado de (in love with), el beso (kiss), el sentimiento (feeling), el respeto (respect), unido (close, united), llorar (to cry), sufrir (to suffer), disfrutar de (to enjoy), evitar (to avoid), negar (to deny).",
         [
-          ["Está enamorado de su vecina.", "He's in love with his neighbor."],
-          ["Mi familia está muy unida.", "My family is very close."],
-          ["Lloro con las películas tristes.", "I cry at sad films."],
-          ["Disfruto mucho de mi trabajo.", "I really enjoy my job."],
-          ["Evito el centro los sábados.", "I avoid downtown on Saturdays."],
-          ["Niega todo, pero nadie le cree.", "He denies everything, but nobody believes him."],
-          ["Es una cuestión de respeto.", "It's a matter of respect."],
+          "Many feeling words come with a fixed preposition that you learn together with the word: enamorado de (in love with), orgulloso de (proud of), disfrutar de (to enjoy). Others: el beso (kiss), el sentimiento (feeling), el respeto (respect), unido (close, united), llorar (to cry), sufrir (to suffer), evitar (to avoid), negar (to deny; ie stem change: niego).",
+          "States of a relationship (enamorado, unido) use estar, because they describe how things are now, not what someone is like by nature.",
         ],
-        []
+        [
+          ["Está enamorado de su vecina.","He's in love with his neighbor. (estar + enamorado de)"],
+          ["Mi familia está muy unida.","My family is very close. (a state: estar)"],
+          ["Lloro con las películas tristes.","I cry at sad films."],
+          ["Disfruto mucho de mi trabajo.","I really enjoy my job. (disfrutar de)"],
+          ["Evito el centro los sábados.","I avoid downtown on Saturdays."],
+          ["Niega todo, pero nadie le cree.","He denies everything, but nobody believes him. (negar: e → ie)"],
+          ["Es una cuestión de respeto.","It's a matter of respect."],
+        ],
+        [
+          mc("«Mis abuelos ___ enamorados después de cincuenta años.»", ["están","son","tienen","hacen"], 0, "Being in love is a state, so estar: están enamorados. Son would describe what they are by nature, and tener / hacer don't go with enamorado."),
+        ]
       ),
     ],
     [
-      fe("Te ___ unas vacaciones.", "mereces", "You [deserve] a holiday.", "merecerse → te mereces: here te is the reflexive pronoun (tú te mereces). Without te, \"Mereces unas vacaciones\" is also correct."),
-      fe("No ___ más este ruido.", "aguanto", "I can't [take] this noise any more.", "aguantar = to put up with. Soportar works too.", ["soporto"]),
-      fe("Mi hermano está ___ de su profesora.", "enamorado", "My brother is [in love] with his teacher.", "enamorado de = in love with."),
-      fe("Siempre ___ el tráfico de la mañana.", "evito", "I always [avoid] the morning traffic.", "evitar → evito."),
-      toEs("Thank you, your help is great.", "Gracias, tu ayuda es estupenda.", "estupendo agrees with ayuda.", ["Gracias, su ayuda es estupenda.", "Gracias, tu ayuda es genial."]),
-      toEs("We really enjoy the beach.", "Disfrutamos mucho de la playa.", "disfrutar de = to enjoy.", ["Nosotros disfrutamos mucho de la playa.", "Disfrutamos mucho la playa."]),
-      toEs("I think the news is fake.", "Creo que la noticia es falsa.", "falso agrees with noticia.", ["Pienso que la noticia es falsa."]),
-      toEn("Me engañaron y arruinaron mis vacaciones.", "They cheated me and ruined my holiday.", "engañar = to cheat, deceive; arruinar = to ruin.", ["They deceived me and ruined my vacation.", "They cheated me and ruined my vacation.", "I was cheated and they ruined my holiday."]),
-      mt(
-        "Match each word to its meaning.",
-        [
-          ["el beso", "kiss"],
-          ["llorar", "to cry"],
-          ["sufrir", "to suffer"],
-          ["el sentimiento", "feeling"],
-          ["ridículo", "ridiculous"],
-        ],
-        "Words for how people feel and react."
-      ),
+      fe("Mi madre trabaja mucho: se ___ un viaje.", "merece", "My mother works a lot: she [deserves] a trip.", "merecerse → se merece (ella). Only the yo form has -z- (merezco); the others keep c."),
+      fe("No ___ más este ruido.", "aguanto", "I can't [take] this noise any more.", "aguantar = to put up with; in the negative, I can't take it. Soportar works too.", ["soporto"]),
+      fe("Mi hermano está ___ de su profesora.", "enamorado", "My brother is [in love] with his teacher.", "enamorado de = in love with, with estar."),
+      fe("Siempre ___ el tráfico de la mañana.", "evito", "I always [avoid] the morning traffic.", "evitar → evito (regular -ar)."),
+      fe("No ___ a la gente que llega tarde.", "soporto", "I can't [stand] people who arrive late.", "No soporto = I can't stand; the personal a goes before la gente.", ["aguanto"]),
+      fe("Mi abuela ___ con las películas románticas.", "llora", "My grandmother [cries] at romantic films.", "Llorar con = to cry at; third person llora."),
+      mc("Ofrecer follows the same yo pattern as merecer. «Yo te ___ mi ayuda.»", ["ofrezco","ofreco","ofrezo","ofrece"], 0, "-ecer verbs add -z- in the yo form: merezco, agradezco, ofrezco. Ofreco and ofrezo don't exist, and ofrece is él / ella."),
+      toEs("Mi hermano está orgulloso de su equipo.", "Mis hermanas están orgullosas de su equipo.", "Estar changes for the subject (está → están) and the adjective agrees with it (orgulloso → orgullosas).", undefined, "Change the subject to \"mis hermanas\"."),
+      toEs("Yo merezco un descanso.", "Nosotros merecemos un descanso.", "Only the yo form has the -z-: merezco → merecemos.", ["Merecemos un descanso.","Nos merecemos un descanso.","Nosotros nos merecemos un descanso."], "Change it to nosotros."),
+      toEs("La vista es impresionante.", "¡Qué vista tan impresionante!", "The frame is ¡Qué + noun + tan / más + adjective!", ["¡Qué vista más impresionante!"], "Turn it into an exclamation with «¡Qué … tan …!»."),
+      toEs("Mis padres son equivocados sobre mi novio.", "Mis padres están equivocados sobre mi novio.", "Being wrong is a state: estar equivocado, not ser.", ["Mis padres están equivocados con mi novio."], "Correct the sentence."),
+      toEs("Esas fotos son falso.", "Esas fotos son falsas.", "Falso agrees with the noun: las fotos is feminine plural, so falsas.", undefined, "Correct the sentence."),
+      toEs("Yo agradeco tu ayuda.", "Yo agradezco tu ayuda.", "Agradecer adds -z- in the yo form: agradezco.", ["Agradezco tu ayuda.","Te agradezco tu ayuda.","Te agradezco la ayuda."], "Correct the sentence."),
+      toEs("Thank you, your help is great.", "Gracias, tu ayuda es estupenda.", "Estupendo agrees with ayuda (feminine): estupenda.", ["Gracias, su ayuda es estupenda.","Gracias, tu ayuda es genial."]),
+      toEs("We really enjoy the beach.", "Disfrutamos mucho de la playa.", "disfrutar de = to enjoy.", ["Nosotros disfrutamos mucho de la playa.","Disfrutamos mucho la playa."]),
+      toEs("I think the news is fake.", "Creo que la noticia es falsa.", "Falso agrees with noticia (feminine).", ["Pienso que la noticia es falsa."]),
+      toEn("Me engañaron y arruinaron mis vacaciones.", "They cheated me and ruined my holiday.", "engañar = to cheat, deceive; arruinar = to ruin.", ["They deceived me and ruined my vacation.","They cheated me and ruined my vacation.","I was cheated and they ruined my holiday."]),
+      toEs("Your (tú) idea is brilliant.", "Tu idea es brillante.", "Brillante has one form for masculine and feminine."),
+      toEs("We're very proud of our son.", "Estamos muy orgullosos de nuestro hijo.", "Orgulloso de + estar; it agrees with the speakers.", ["Estamos muy orgullosas de nuestro hijo."]),
+      toEs("I think you (formal, to a man) are wrong.", "Creo que usted está equivocado.", "Being wrong is estar equivocado, not ser.", ["Creo que está equivocado."]),
+      toEs("You (tú) deserve a prize.", "Te mereces un premio.", "Merecerse / merecer = to deserve; both te mereces and mereces are fine.", ["Mereces un premio."]),
+      toEs("The noise ruined the concert.", "El ruido arruinó el concierto.", "Arruinar = to ruin; one completed event, so preterite arruinó."),
+      mt("Match each word to its meaning.", [["el beso","kiss"],["llorar","to cry"],["sufrir","to suffer"],["el sentimiento","feeling"],["ridículo","ridiculous"]], "Words for how people feel and react."),
+      wo("Ese hotel tiene un precio ridículo", "Ridículo follows the noun and agrees with el precio.", "That hotel has a ridiculous price"),
+      { type: "speak", prompt: "Your friend finished a marathon. Say aloud in Spanish: What an impressive race! I'm very proud of you, you deserve a party.", text: "¡Qué carrera tan impresionante! Estoy muy orgulloso de ti, te mereces una fiesta.", explanation: "¡Qué + noun + tan + adjective!; estar orgulloso de; te mereces. A woman says orgullosa." },
     ]
   ),
   L(
@@ -537,7 +644,10 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     [
       sec(
         "At work",
-        "El objetivo (goal), el nivel (level), la regla (rule), el miembro (member), la unidad (unit), la zona (area), la posición (position), el resto (the rest).",
+        [
+          "El objetivo (goal), el nivel (level), la regla (rule), el miembro (member), la unidad (unit), la zona (area), la posición (position), el resto (the rest).",
+          "Most of these are cognates with regular endings you can use to guess new words: -ción = -tion (la posición, la misión, la información) and -dad = -ty (la unidad, la posibilidad, la realidad). Both endings are always feminine. Objetivo, método and resultado look like objective, method and result.",
+        ],
         [
           ["Nuestro objetivo es abrir dos tiendas más.", "Our goal is to open two more stores."],
           ["Tengo un nivel intermedio de inglés.", "I have an intermediate level of English."],
@@ -554,11 +664,20 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         ],
         [
           fe("El ___ del proyecto es ahorrar energía.", "objetivo", "The [goal] of the project is to save energy.", "el objetivo = the goal."),
+          mc(
+            "Using the -dad = -ty pattern, how do you say 'the reality'?",
+            ["la realidad", "el realidad", "la realitad", "la realida"],
+            0,
+            "-ty becomes -dad, and -dad nouns are always feminine: la realidad (like la unidad, la ciudad)."
+          ),
         ]
       ),
       sec(
         "Verbs for getting things done",
-        "Obtener (to obtain, like tener: obtengo), utilizar (to use), considerar (to consider), averiguar (to find out), dirigir (to manage, to direct), guardar (to keep, to save), proteger (to protect), pertenecer a (to belong to), mencionar (to mention), fallar (to fail).",
+        [
+          "Obtener (to obtain, like tener: obtengo), utilizar (to use), considerar (to consider), averiguar (to find out), dirigir (to manage, to direct), guardar (to keep, to save), proteger (to protect), pertenecer a (to belong to), mencionar (to mention), fallar (to fail).",
+          "Patterns that save memorising: a verb built on tener conjugates exactly like tener (obtener → obtengo, obtienes; mantener, contener too). English -ize is often -izar (utilizar, organizar). And verbs in -ger / -gir change g to j before o or a to keep the sound: protejo, dirijo.",
+        ],
         [
           ["Utilizo esta aplicación para aprender idiomas.", "I use this app to learn languages."],
           ["Estamos considerando la posibilidad de mudarnos.", "We're considering the possibility of moving."],
@@ -575,6 +694,12 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
             0,
             "Necesitar + infinitive: necesito averiguar."
           ),
+          mc(
+            "Contener (to contain) is built on tener. Which form is right? \"This box contains books.\"",
+            ["Esta caja contiene libros.", "Esta caja contene libros.", "Esta caja contena libros.", "Esta caja contieno libros."],
+            0,
+            "A verb built on tener copies tener: tiene → contiene (e → ie), tengo → contengo."
+          ),
         ]
       ),
       sec(
@@ -588,7 +713,14 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["Llama a un médico inmediatamente.", "Call a doctor immediately."],
           ["Hace buen tiempo; comemos afuera.", "The weather's nice; we're eating outside."],
         ],
-        []
+        [
+          mc(
+            "\"The museum is closed due to the strike.\"",
+            ["El museo está cerrado debido a la huelga.", "El museo está cerrado debido la huelga.", "El museo está cerrado debido de la huelga.", "El museo está cerrado excepto la huelga."],
+            0,
+            "Debido a always keeps its a (debido a + noun = due to). Excepto means except, which doesn't give a cause."
+          ),
+        ]
       ),
     ],
     [
@@ -626,6 +758,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         [
           "You know indirect pronouns (me, te, le, nos, les: to whom) and direct ones (lo, la, los, las: what). When you use both, the person goes first: Me das el libro → Me lo das.",
           "Both go before a conjugated verb, in that order, and agree like they always do: la carta → la, los papeles → los.",
+          "Why this order? Spanish fixes it: the person pronoun (to whom) always comes before the thing pronoun (what), never the other way round, so lo me das or la te mando are simply impossible. Find the person, find the thing, then say person + thing + verb.",
         ],
         [
           ["¿Me prestas tu coche? —Sí, te lo presto.", "Will you lend me your car? — Yes, I'll lend it to you."],
@@ -638,7 +771,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
       sec(
         "Le and les become se",
-        "Le or les can never sit next to lo, la, los or las. They turn into se: Le doy el regalo → Se lo doy. Because se can mean to him, to her, to you or to them, add a él, a ella, a usted or a ellos when it isn't clear.",
+        "Le or les can never sit next to lo, la, los or las: two l-sounds in a row were avoided, so le / les turn into se. Le doy el regalo → Se lo doy. Because se can mean to him, to her, to you or to them, add a él, a ella, a usted or a ellos when it isn't clear.",
         [
           ["Le doy el regalo a Ana. → Se lo doy.", "I give the present to Ana. → I give it to her."],
           ["Les explico el plan a mis padres. → Se lo explico.", "I explain the plan to my parents. → I explain it to them."],
@@ -679,7 +812,10 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     [
       sec(
         "Before the verb, or on the end",
-        "With an infinitive or a gerund, the pair can go before the conjugated verb or join the end of the infinitive or gerund as one word. When they join, add an accent to keep the stress: explicar → explicártelo.",
+        [
+          "The idea: object pronouns sit in front of a conjugated verb, but an infinitive (explicar), a gerund (explicando) or a yes command (explica) can't carry anything in front, so the pair rides on its end as one word. When a conjugated verb comes first, you choose: the pair goes before it or joins the end of the infinitive or gerund. It never splits.",
+          "Joining adds syllables, so the stress lands further from the end and needs a written accent to stay where it was: explicar → explicártelo, diciendo → diciéndoselo.",
+        ],
         [
           ["Te lo quiero explicar. = Quiero explicártelo.", "I want to explain it to you."],
           ["Se lo estoy diciendo. = Estoy diciéndoselo.", "I'm telling him / her."],
@@ -726,14 +862,17 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     [
       sec(
         "The plan",
-        "Lucía is moving flat. Notice how every second mention of a thing becomes a pronoun pair.",
+        [
+          "Remember the rule: once a thing has been mentioned, don't repeat it. Person pronoun first, thing pronoun second, both before the conjugated verb, and le / les turn into se next to lo / la / los / las.",
+          "Lucía is moving flat. Notice how every second mention of a thing becomes a pronoun pair. Then help her organise the move with things the dialogue doesn't mention.",
+        ],
         [
           ["—¿Me prestas la furgoneta el sábado? —Claro, te la presto.", "Will you lend me the van on Saturday? — Of course, I'll lend it to you."],
           ["—¿Y las cajas? —Mi primo nos las trae el viernes.", "And the boxes? — My cousin's bringing them to us on Friday."],
           ["—¿Le has dado las llaves al dueño? —Todavía no. Se las doy mañana.", "Have you given the keys to the landlord? — Not yet. I'm giving them to him tomorrow."],
         ],
         [
-          fe("¿La furgoneta? Claro, ___ presto.", "te la", "The van? Sure, I'll lend [it to you].", "te + la (la furgoneta)."),
+          fe("¿El taladro? Claro, ___ presto.", "te lo", "The drill? Sure, I'll lend [it to you].", "Te (to you) + lo (el taladro, masculine), both before presto. Compare te la presto for la furgoneta."),
         ]
       ),
       sec(
@@ -743,15 +882,17 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["—¿Quién te ha regalado esa planta? —Me la han regalado los vecinos.", "Who gave you that plant? — The neighbors gave it to me."],
           ["—¿Y el sofá? —Se lo he vendido a una amiga.", "And the sofa? — I've sold it to a friend."],
         ],
-        []
+        [
+          mc("A friend asks Lucía «¿Y la tele vieja?» She gave it to her brother. What does she answer?", ["Se la di a mi hermano.", "Se lo di a mi hermano.", "Le la di a mi hermano.", "La le di a mi hermano."], 0, "La tele is feminine, so la; le becomes se before it, and the person pronoun comes first: se la di."),
+        ]
       ),
     ],
     [
-      fe("¿Las cajas? Mi primo ___ trae.", "nos las", "The boxes? My cousin brings [them to us].", "nos + las."),
-      fe("¿El sofá? ___ he vendido a una amiga.", "Se lo", "The sofa? I've sold [it to] a friend.", "le + lo → se lo."),
-      fe("¿La planta? ___ han regalado los vecinos.", "Me la", "The plant? The neighbors gave [it to me].", "me + la."),
-      toEs("The keys? I'll give them to him tomorrow.", "¿Las llaves? Se las doy mañana.", "le + las → se las.", ["¿Las llaves? Mañana se las doy.", "¿Las llaves? Se las daré mañana."]),
-      toEs("Will you (informal) lend me your van? — Yes, I'll lend it to you.", "¿Me prestas tu furgoneta? —Sí, te la presto.", "me / te + la.", ["¿Me prestas la furgoneta? —Sí, te la presto."]),
+      fe("¿Los platos? Mi madre ___ envuelve en papel.", "nos los", "The plates? My mother is wrapping [them for us] in paper.", "Nos (for us) + los (los platos), both before the verb."),
+      fe("¿El sillón? ___ he regalado a mi sobrino.", "Se lo", "The armchair? I've given [it to] my nephew.", "Le can't stand next to lo, so le + lo → se lo; a mi sobrino says who se is."),
+      fe("¿La alfombra? ___ han dado mis tíos.", "Me la", "The rug? My aunt and uncle gave [it to me].", "Me (to me) + la (la alfombra); the subject mis tíos comes after the verb."),
+      toEs("The bed? I'll sell it to them on Monday.", "¿La cama? Se la vendo el lunes.", "Les + la → se la, before the verb.", ["¿La cama? El lunes se la vendo.", "¿La cama? Se la venderé el lunes.", "¿La cama? Se la vendo a ellos el lunes."]),
+      toEs("Te presto la furgoneta.", "Te la presto.", "La furgoneta → la, after the person pronoun te: te la presto.", [], "Replace la furgoneta with a pronoun."),
       toEs("Can you (informal) bring it to us on Friday?", "¿Nos lo puedes traer el viernes?", "nos + lo before puedes, or joined: traérnoslo.", ["¿Puedes traérnoslo el viernes?", "¿Nos la puedes traer el viernes?", "¿Puedes traérnosla el viernes?"]),
       toEn("¿El mapa del barrio? Te lo envío por WhatsApp.", "The neighborhood map? I'll send it to you on WhatsApp.", "te + lo.", ["The map of the neighborhood? I'll send it to you by WhatsApp."]),
       mc(

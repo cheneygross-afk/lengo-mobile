@@ -8,44 +8,44 @@ import { dict, lc, spk, wr } from "./skills-authoring";
 // shadowing of the kind of sentence they practise.
 export const A2_SKILLS: Record<string, Exercise[]> = {
   "a2d-say-it-yourself-last-year": [
-    spk("El año pasado trabajaba mucho y dormía poco.", "Stress the -a- of the imperfect endings: tra-ba-JA-ba, dor-MÍ-a.", "\"Last year I worked a lot and slept little.\" The imperfect for habits."),
-    spk("En junio me mudé a un piso nuevo.", "Mu-DÉ, stress on the end: that's the preterite \"I moved\", not mudo (\"I move\").", "\"In June I moved to a new flat.\" The preterite for one completed event."),
+    spk("El año pasado estudiaba por las noches y trabajaba de día.", "Stress the -a- of the imperfect endings: es-tu-di-A-ba, tra-ba-JA-ba.", "\"Last year I studied at night and worked during the day.\" The imperfect for habits."),
+    spk("En octubre empecé a correr con una amiga.", "Em-pe-CÉ, stress on the end: that's the preterite \"I started\", not empiezo (\"I start\").", "\"In October I started running with a friend.\" The preterite for one event with a date."),
   ],
   "a2d-say-it-yourself-last-trip": [
-    spk("El verano pasado fui a México con mi familia.", "México: the x is the j sound, MÉ-xi-co.", "\"Last summer I went to Mexico with my family.\" Fui is the preterite of ir."),
-    spk("Nos quedamos dos semanas y fue genial.", "Genial: the g before e sounds like j, ge-NIAL.", "\"We stayed two weeks and it was great.\""),
+    spk("En mayo fui a México con dos amigas.", "México: the x is the j sound, MÉ-xi-co.", "\"In May I went to Mexico with two friends.\" Fui is the preterite of ir."),
+    spk("Pasamos diez días allí y fue genial.", "Genial: the g before e sounds like j, ge-NIAL.", "\"We spent ten days there and it was great.\" Fue sums up the finished trip."),
   ],
   "a2d-childhood-say-it": [
-    spk("Cuando era niño, jugaba al fútbol con mis vecinos.", "Soft b in jugaba and vecinos (between vowels): lips barely touch.", "\"When I was a child, I played football with my neighbours.\" Imperfect for childhood habits."),
-    spk("De pequeña me gustaba mucho leer.", "Pe-QUE-ña: silent u in que, and ñ as \"ny\".", "\"As a little girl I really liked reading.\" A woman says pequeña; a man says pequeño."),
+    spk("Cuando era niña, nadaba en el río con mis primas.", "Soft b in nadaba (between vowels): lips barely touch.", "\"When I was a girl, I used to swim in the river with my cousins.\" Imperfect for childhood habits."),
+    spk("De pequeño me encantaban los cómics.", "Pe-QUE-ño: silent u in que, and ñ as \"ny\".", "\"As a little boy I loved comics.\" Encantaban agrees with the plural los cómics; a woman says pequeña."),
   ],
   "a2d-say-it-yourself-memory": [
-    spk("Era mi cumpleaños y hacía un sol maravilloso.", "Link y hacía: \"yha-CÍ-a\" -- the h is silent and the í is stressed.", "\"It was my birthday and it was beautifully sunny.\" Imperfect to set the scene."),
-    spk("Fue el mejor día de mi vida.", "Link fue el into a single syllable, almost \"fwel\".", "\"It was the best day of my life.\" Fue (preterite) sums up the day as a whole."),
+    spk("Tenía doce años y hacía un calor horrible.", "The h of hacía is silent, and the í is stressed: a-CÍ-a.", "\"I was twelve and it was terribly hot.\" Imperfect to set the scene."),
+    spk("Al final fue un viaje inolvidable.", "Link fue un into one beat, almost \"fwe-un\", and stress in-ol-VI-da-ble.", "\"In the end it was an unforgettable trip.\" Fue (preterite) sums up the trip as a whole."),
   ],
   "a2d-say-it-yourself-birthday-gifts": [
-    spk("Mi hermano me regaló un libro y me encantó.", "Two past forms stressed on the last syllable: re-ga-LÓ, en-can-TÓ.", "\"My brother gave me a book and I loved it.\""),
-    spk("¿El perfume? Se lo regalé a mi madre.", "Say se lo as one unit before the verb: \"se-lo-re-ga-LÉ\".", "\"The perfume? I gave it to my mother.\" Le becomes se before lo."),
+    spk("A mi abuela le encantaron las flores.", "Stress en-can-TA-ron on the third syllable, and link a mi abuela smoothly: a-mia-BUE-la.", "\"My grandmother loved the flowers.\" Encantaron agrees with las flores."),
+    spk("¿Los bombones? Se los regalé a mi jefe.", "Say se los as one unit before the verb: \"se-los-re-ga-LÉ\".", "\"The chocolates? I gave them to my boss.\" Le becomes se before los."),
   ],
   "a2d-say-it-yourself-morning": [
-    spk("Después de ducharme, me visto y desayuno.", "Ducharme: ch as in \"church\", the r a single tap.", "\"After I shower, I get dressed and have breakfast.\""),
-    spk("Antes de salir, me miro en el espejo.", "Espejo: the j is breathy, es-PE-jo.", "\"Before going out, I look at myself in the mirror.\""),
+    spk("Los domingos me levanto tarde y me ducho con calma.", "Ducho: ch as in \"church\"; the r of tarde is a single tap.", "\"On Sundays I get up late and take my time in the shower.\""),
+    spk("Mientras me peino, escucho la radio.", "Peino: say ei as one sound, PEI-no.", "\"While I comb my hair, I listen to the radio.\""),
   ],
   "a2d-say-it-yourself-five-years": [
-    spk("Dentro de cinco años viviré en otra ciudad.", "The future is stressed on the ending: vi-vi-RÉ.", "\"In five years I'll live in another city.\""),
-    spk("Algún día tendré mi propia empresa.", "Ten-DRÉ: tap the r after d, and stress the end.", "\"One day I'll have my own company.\" Tener → tendré."),
+    spk("El año que viene aprenderé a tocar la guitarra.", "The future is stressed on the ending: a-pren-de-RÉ.", "\"Next year I'll learn to play the guitar.\""),
+    spk("Dentro de diez años tendremos una casa en el campo.", "Ten-DRE-mos: tap the r after d; nosotros has no written accent.", "\"In ten years we'll have a house in the country.\" Tener → tendremos."),
   ],
   "a2d-por-para-say-it-yourself": [
-    spk("Tengo que terminar el proyecto para el lunes.", "Proyecto: y like \"yes\"; stress pro-YEC-to.", "\"I have to finish the project by Monday.\" Para for a deadline."),
-    spk("Por la tarde voy al gimnasio para relajarme.", "Gimnasio starts with the j sound; relajarme has a j too.", "\"In the afternoon I go to the gym to relax.\" Por for a part of the day, para for a purpose."),
+    { ...spk("Tengo que terminar el proyecto para el lunes.", "Proyecto: y like \"yes\"; stress pro-YEC-to.", "\"I have to finish the project by Monday.\" Para for a deadline: Monday is the end point."), prompt: "Say it in Spanish: I have to finish the project by Monday." },
+    { ...spk("Por la tarde voy al gimnasio para relajarme.", "Gimnasio starts with the j sound; relajarme has a j too.", "\"In the afternoon I go to the gym to relax.\" Por for a part of the day (a stretch of time), para + infinitive for a purpose."), prompt: "Say it in Spanish: in the afternoon I go to the gym to relax." },
   ],
   "a2d-negation-say-it-yourself": [
-    spk("Nunca bebo café después de las cinco.", "Bebo: firm b at the start of the word, soft b in the middle.", "\"I never drink coffee after five.\" Nunca before the verb needs no no."),
-    spk("De niño no comía ninguna verdura.", "Ninguna: the g is soft between vowels, nin-GU-na.", "\"As a child I didn't eat any vegetables.\" No + verb + ninguna: the double negative is correct in Spanish."),
+    { ...spk("Nunca bebo café después de las cinco.", "Bebo: firm b at the start of the word, soft b in the middle.", "\"I never drink coffee after five.\" Nunca before the verb needs no no."), prompt: "Say it in Spanish: I never drink coffee after five." },
+    { ...spk("De niño no comía ninguna verdura.", "Ninguna: the g is soft between vowels, nin-GU-na.", "\"As a child I didn't eat any vegetables.\" No + verb + ninguna: the double negative is correct in Spanish."), prompt: "Say it in Spanish (as a man): as a child I didn't eat any vegetables." },
   ],
   "a2d-say-it-yourself-introduce": [
-    spk("De niña vivía en un pueblo, pero en 2015 me mudé a la ciudad.", "Pueblo: \"PWE-blo\"; say 2015 as dos mil quince.", "\"As a girl I lived in a village, but in 2015 I moved to the city.\""),
-    spk("Ahora trabajo en un banco y el año que viene estudiaré inglés.", "Ahora: silent h, \"a-O-ra\". Estudiaré is stressed on the end.", "\"Now I work in a bank, and next year I'll study English.\" Present, then future."),
+    { ...spk("De niña vivía en un pueblo, pero en 2015 me mudé a la ciudad.", "Pueblo: \"PWE-blo\"; say 2015 as dos mil quince.", "\"As a girl I lived in a village, but in 2015 I moved to the city.\" Imperfect for the background, preterite for the dated event."), prompt: "Say it in Spanish (as a woman): as a girl I lived in a village, but in 2015 I moved to the city." },
+    { ...spk("Ahora trabajo en un banco y el año que viene estudiaré inglés.", "Ahora: silent h, \"a-O-ra\". Estudiaré is stressed on the end.", "\"Now I work in a bank, and next year I'll study English.\" Present, then future."), prompt: "Say it in Spanish: now I work in a bank, and next year I'll study English." },
   ],
   "a2r-dialogue-weekend": [
     lc(

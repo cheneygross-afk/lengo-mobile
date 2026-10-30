@@ -10,7 +10,7 @@ import type { AnchoredLesson } from "./weave";
 // is used. Woven in after the level's Vocabulary Practice parts (see
 // weave.ts and sequencing.ts), so they travel with those parts.
 
-const { mc, fb, toEs, toEn, wo, mt, sec } = authoring("en");
+const { mc, fb, fe, toEs, toEn, wo, mt, sec } = authoring("en");
 const L = (
   after: string,
   slug: string,
@@ -30,128 +30,109 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
     "9 min",
     [
       sec(
-        "Agreeing and giving your opinion",
+        "Agreeing and giving your opinion: two verbs, two patterns",
         [
-          "Estar de acuerdo (con) means \"to agree (with)\". On its own, ¡De acuerdo! means \"OK, fine\" when you accept a plan.",
-          "Parecer works like gustar: me parece, te parece. ¿Qué te parece...? is the everyday way to ask \"What do you think of...?\". Parece que... means \"it seems that...\".",
+          "Spanish builds opinions on two patterns you already know, not on a verb like \"to agree\" or \"to think of\".",
+          "Pattern 1: estar de acuerdo (con). Agreeing is treated as a state you are in, so it takes estar, never ser: estoy de acuerdo, estamos de acuerdo. On its own, ¡De acuerdo! means \"OK, fine\" when you accept a plan.",
+          "Pattern 2: parecer works like gustar. The thing you're judging is the subject, and the person is me / te / le / nos / les: me parece bien (it seems fine to me), nos parecen caros (they seem expensive to us). ¿Qué te parece...? asks \"What do you think of...?\". Parece que... (no person) means \"it seems that...\".",
         ],
         [
-          ["Estoy de acuerdo contigo.", "I agree with you."],
-          ["—¿Nos vemos a las ocho? —De acuerdo.", "—Shall we meet at eight? —OK."],
-          ["No estamos de acuerdo con el plan.", "We don't agree with the plan."],
-          ["Me parece una buena idea.", "It seems like a good idea to me."],
-          ["¿Qué te parece el nuevo jefe?", "What do you think of the new boss?"],
-          ["Parece que va a llover.", "It looks like it's going to rain."],
+          ["Estoy de acuerdo contigo.","I agree with you. (estar: a state; con + ti = contigo)"],
+          ["—¿Nos vemos a las ocho? —De acuerdo.","—Shall we meet at eight? —OK."],
+          ["No estamos de acuerdo con el plan.","We don't agree with the plan."],
+          ["Me parece una buena idea.","It seems like a good idea to me. (the idea is the subject, like gustar)"],
+          ["¿Qué te parece el nuevo jefe?","What do you think of the new boss?"],
+          ["Parece que va a llover.","It looks like it's going to rain. (no person: it seems that)"],
         ],
         [
-          mc(
-            "Which sentence means \"I agree with you\"?",
-            ["Estoy de acuerdo contigo.", "Soy de acuerdo contigo.", "Tengo acuerdo contigo.", "Hago acuerdo contigo."],
-            0,
-            "The fixed phrase is estar de acuerdo (con alguien): estoy de acuerdo contigo. \"Soy de acuerdo\" uses ser, and \"tengo acuerdo\" and \"hago acuerdo\" aren't Spanish."
-          ),
+          mc("Which sentence means \"I agree with you\"?", ["Estoy de acuerdo contigo.","Soy de acuerdo contigo.","Tengo acuerdo contigo.","Hago acuerdo contigo."], 0, "Agreeing is a state, so estar: estoy de acuerdo contigo. \"Soy de acuerdo\" uses ser, and \"tengo acuerdo\" and \"hago acuerdo\" aren't Spanish."),
+          mc("Parecer works like gustar. «A mis padres ___ muy caros los billetes.»", ["les parecen","les parece","parecen ellos","se parecen"], 0, "The subject is los billetes (plural), so parecen; the people who judge are a mis padres → les. Les parece would need a singular thing, and se parecen means \"they look alike\"."),
         ]
       ),
       sec(
-        "Guessing: maybe, I suppose, no doubt",
+        "Guessing: how sure are you?",
         [
-          "Quizá and quizás both mean \"maybe\". They are the same word; use whichever you like.",
-          "Supongo que... means \"I suppose / I guess that...\". Se supone que... means \"it's supposed to...\". Sin duda means \"without a doubt, definitely\".",
+          "These words line up on a scale of certainty. Quizá / quizás (maybe) = not sure; supongo que... (I suppose / I guess that...) = fairly sure; sin duda (without a doubt) = completely sure. Quizá and quizás are the same word: use whichever you like.",
+          "Supongo is just the yo form of suponer (to suppose), which conjugates like poner: supongo, supones, supone. Se supone que... (impersonal se) means \"it's supposed to...\".",
         ],
         [
-          ["Quizás está en casa.", "Maybe he's at home."],
-          ["Quizá tienes razón.", "Maybe you're right."],
-          ["—¿Viene Pedro? —Quizá.", "—Is Pedro coming? —Maybe."],
-          ["Supongo que Ana ya lo sabe.", "I suppose Ana already knows."],
-          ["Se supone que el tren sale a las diez.", "The train is supposed to leave at ten."],
-          ["Sin duda, es el mejor restaurante de la ciudad.", "Without a doubt, it's the best restaurant in the city."],
+          ["Quizás está en casa.","Maybe he's at home. (not sure)"],
+          ["Quizá tienes razón.","Maybe you're right."],
+          ["—¿Viene Pedro? —Quizá.","—Is Pedro coming? —Maybe."],
+          ["Supongo que Ana ya lo sabe.","I suppose Ana already knows. (fairly sure)"],
+          ["Se supone que el tren sale a las diez.","The train is supposed to leave at ten. (impersonal se)"],
+          ["Sin duda, es el mejor restaurante de la ciudad.","Without a doubt, it's the best restaurant in the city. (completely sure)"],
         ],
         [
-          { ...fb("Complete: \"I guess so. I'm not sure.\"", "___ que sí. No estoy seguro.", "Supongo", "Also: I suppose so. Supongo is the yo form of suponer; Creo que sí (I think so) is also accepted."), altAnswers: ["Creo"] },
-          mc(
-            "Which word means \"maybe\"?",
-            ["quizás", "supongo", "parece", "sin duda"],
-            0,
-            "Quizás (or quizá) = maybe. Supongo = I suppose, parece = it seems, sin duda = no doubt."
-          ),
+          { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "___ que sí. No estoy seguro.", answer: "Supongo", en: "[I guess] so. I'm not sure.", altAnswers: ["Creo"], explanation: "Supongo que sí = I guess so (fairly sure, not certain). Supongo is the yo form of suponer; Creo que sí (I think so) is also accepted." },
+          mc("Which word shows the MOST certainty?", ["sin duda","quizás","supongo","parece"], 0, "Sin duda = without a doubt. Quizás is only maybe, supongo is a guess, and parece is how it looks."),
         ]
       ),
       sec(
         "Really, actually, true, what it means",
         [
-          "Realmente means \"really\". En realidad means \"actually, in fact\". Careful: actualmente does NOT mean \"actually\"; it means \"currently\".",
+          "A false friend looks like an English word but means something else. The big one here: actualmente means \"currently, nowadays\", NOT \"actually\". For \"actually, in fact\" use en realidad. Realmente means \"really, truly\".",
           "Verdadero means \"true, real\" (un amigo verdadero = a true friend). ¿Qué significa...? asks \"What does ... mean?\".",
         ],
         [
-          ["¿Realmente quieres ir?", "Do you really want to go?"],
-          ["En realidad, no me gusta el café.", "Actually, I don't like coffee."],
-          ["Parece fácil, pero en realidad es difícil.", "It looks easy, but actually it's hard."],
-          ["Es un amigo verdadero.", "He's a true friend."],
-          ["¿Qué significa esta palabra?", "What does this word mean?"],
-          ["Realmente no sé qué significa.", "I really don't know what it means."],
+          ["¿Realmente quieres ir?","Do you really want to go?"],
+          ["En realidad, no me gusta el café.","Actually, I don't like coffee. (en realidad, not actualmente)"],
+          ["Parece fácil, pero en realidad es difícil.","It looks easy, but actually it's hard."],
+          ["Es un amigo verdadero.","He's a true friend."],
+          ["¿Qué significa esta palabra?","What does this word mean?"],
+          ["Realmente no sé qué significa.","I really don't know what it means."],
         ],
         [
-          fb("Complete: \"Actually, he doesn't live here.\"", "En ___, él no vive aquí.", "realidad", "Also: in fact. Don't use actualmente: it's a false friend meaning 'currently'."),
+          { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "En ___, él no vive aquí.", answer: "realidad", en: "[Actually], he doesn't live here.", explanation: "en realidad = actually, in fact. Actualmente is a false friend meaning \"currently\"." },
+          mc("«Actualmente vivo en Madrid» means…", ["Currently I live in Madrid.","Actually, I live in Madrid.","I really live in Madrid.","I used to live in Madrid."], 0, "Actualmente = currently, nowadays. \"Actually\" would be en realidad, \"really\" realmente, and \"used to\" needs the imperfect (vivía)."),
         ]
       ),
       sec(
         "Possible, necessary, strange, capable",
         [
-          "Es posible / es imposible / es necesario + infinitive: \"it's (im)possible / necessary to...\". ¡Qué raro! means \"How strange!\".",
-          "Ser capaz de + infinitive means \"to be able to, to be capable of\". It often appears in the negative: no soy capaz de... = I can't manage to...",
+          "One frame works for any judgement: es + adjective + infinitive, with nothing in between (no de, no que): es posible cambiar, es necesario reservar, es imposible saber. Learn the frame once and it works with every adjective you know: es fácil, es importante, es difícil.",
+          "Ser capaz de + infinitive means \"to be able to, to be capable of\" (here de IS needed). It often appears in the negative: no soy capaz de... = I can't manage to... ¡Qué raro! means \"How strange!\".",
         ],
         [
-          ["¿Es posible cambiar la fecha?", "Is it possible to change the date?"],
-          ["Es imposible terminar hoy.", "It's impossible to finish today."],
-          ["No es necesario traer comida.", "It's not necessary to bring food."],
-          ["¡Qué raro! Nadie contesta el teléfono.", "How strange! Nobody answers the phone."],
-          ["No soy capaz de dormir con ruido.", "I can't sleep with noise."],
-          ["Mi hijo ya es capaz de leer solo.", "My son is already able to read by himself."],
+          ["¿Es posible cambiar la fecha?","Is it possible to change the date? (es + adjective + infinitive)"],
+          ["Es imposible terminar hoy.","It's impossible to finish today."],
+          ["No es necesario traer comida.","It's not necessary to bring food."],
+          ["¡Qué raro! Nadie contesta el teléfono.","How strange! Nobody answers the phone."],
+          ["No soy capaz de dormir con ruido.","I can't sleep with noise. (capaz de + infinitive)"],
+          ["Mi hijo ya es capaz de leer solo.","My son is already able to read by himself."],
         ],
         [
-          mc(
-            "\"It's not necessary.\"",
-            ["No es necesario.", "No es imposible.", "No es posible.", "No es raro."],
-            0,
-            "Necesario means necessary. \"Imposible\" means impossible, \"posible\" possible, and \"raro\" strange."
-          ),
+          mc("Using the same frame with a new adjective: \"It's important to rest.\"", ["Es importante descansar.","Es importante de descansar.","Es importante que descansar.","Está importante descansar."], 0, "Es + adjective + infinitive, nothing in between: es importante descansar. De and que don't belong here, and judgements like this take ser, not estar."),
         ]
       ),
     ],
     [
-      mt(
-        "Match each word to its meaning.",
-        [
-          ["quizás", "maybe"],
-          ["supongo", "I suppose"],
-          ["raro", "strange"],
-          ["capaz", "capable"],
-          ["verdadero", "true, real"],
-        ],
-        "Five high-frequency words for guessing and judging."
-      ),
-      fb("Complete: \"Do you agree with Luis?\"", "¿Estás de ___ con Luis?", "acuerdo", "It's a fixed phrase: always estar + de acuerdo, never ser."),
-      fb("Complete: \"The meeting is supposed to start at three.\"", "Se ___ que la reunión empieza a las tres.", "supone", "Se supone que is followed by a full sentence. Supone is the él form of suponer, used impersonally with se."),
-      toEs("Maybe you're right.", "Quizá tienes razón.", "Quizá and quizás are both correct.", ["Quizás tienes razón.", "Quizá tengas razón.", "Quizás tengas razón.", "Quizá tiene razón.", "Quizás tiene razón.", "Quizá tienen razón.", "Quizás tienen razón."]),
-      toEn("Es imposible saberlo.", "It's impossible to know.", "Es imposible + infinitive = it's impossible to...", ["It is impossible to know.", "It's impossible to know it."]),
-      toEn("¿Qué significa «raro»?", "What does «raro» mean?", "¿Qué significa...? = What does ... mean? Raro means strange.", ["What does raro mean?", "What does \"raro\" mean?"]),
-      mc(
-        "\"Actually, I don't like it.\" → ___, no me gusta.",
-        ["En realidad", "Actualmente", "Sin duda", "De acuerdo"],
-        0,
-        "En realidad = actually. Actualmente is a false friend: it means \"currently\"."
-      ),
-      wo("Supongo que es posible terminar mañana.", "Supongo que + a full sentence; es posible + infinitive.", "I suppose it's possible to finish tomorrow."),
-      fb("Complete: \"You don't need to bring an umbrella; it's sunny.\"", "No es ___ llevar paraguas; hace sol.", "necesario", "Necesario is an adjective, and the infinitive follows it directly: no es necesario llevar."),
-      toEs("He's a true friend.", "Es un amigo verdadero.", "Verdadero means true or real. It usually follows the noun (amigo verdadero); un verdadero amigo, before the noun, is also correct and a bit more emphatic.", ["Él es un amigo verdadero.", "Es un verdadero amigo.", "Él es un verdadero amigo."]),
-      mc(
-        "What is someone asking when they say \"¿Qué te parece mi idea?\"",
-        ["What you think of my idea", "If my idea looks pretty", "If my idea is possible", "Where my idea came from"],
-        0,
-        "¿Qué te parece...? asks for your opinion: what do you think of my idea? Parecer here means to seem to you, not to look pretty, and it doesn't ask about possibility or origin."
-      ),
+      mt("Match each word to its meaning.", [["quizás","maybe"],["supongo","I suppose"],["raro","strange"],["capaz","capable"],["verdadero","true, real"]], "Five high-frequency words for guessing and judging."),
+      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "¿Estás de ___ con Luis?", answer: "acuerdo", en: "Do you [agree] with Luis?", explanation: "estar de acuerdo con = to agree with: always estar + de acuerdo, never ser." },
+      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Se ___ que la reunión empieza a las tres.", answer: "supone", en: "The meeting is [supposed] to start at three.", explanation: "se supone que = it's supposed to, followed by a full sentence. Supone is the él form of suponer, used impersonally with se." },
+      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "¿Qué ___ parecen mis zapatos nuevos?", answer: "te", en: "What do you think of my new shoes? (What do they seem [to you]?)", explanation: "Parecer works like gustar: the person goes before the verb as te (to you), and the verb agrees with zapatos (parecen)." },
+      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "No es ___ llevar paraguas; hace sol.", answer: "necesario", en: "It isn't [necessary] to bring an umbrella; it's sunny.", explanation: "no es necesario + infinitive: the infinitive follows the adjective directly." },
+      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Ana es, ___, la mejor jugadora del equipo.", answer: "sin duda", en: "Ana is, [without a doubt], the best player on the team.", explanation: "Sin duda = without a doubt, completely sure; quizás would make it only a guess." },
+      mc("\"Actually, I don't like it.\" → ___, no me gusta.", ["En realidad","Actualmente","Sin duda","De acuerdo"], 0, "En realidad = actually. Actualmente is a false friend: it means \"currently\"."),
+      mc("What is someone asking when they say \"¿Qué te parece mi idea?\"", ["What you think of my idea","If my idea looks pretty","If my idea is possible","Where my idea came from"], 0, "¿Qué te parece...? asks for your opinion. Parecer here means to seem to you, not to look pretty, and it doesn't ask about possibility or origin."),
+      mc("Your friend suggests: «¿Vamos al cine a las siete?» You accept. What do you say?", ["¡De acuerdo!","¡Qué raro!","Quizás no.","Se supone."], 0, "¡De acuerdo! on its own accepts a plan (OK, fine). ¡Qué raro! is How strange!, quizás no is maybe not, and se supone needs que + a sentence."),
+      toEs("Me parece una película muy larga.", "Nos parece una película muy larga.", "With parecer only the pronoun changes for the person: me → nos. The verb stays parece because the subject is still la película.", undefined, "Change it to \"to us\"."),
+      toEs("Estoy de acuerdo con el director.", "Mis compañeros están de acuerdo con el director.", "Estar changes with the subject: estoy → están; de acuerdo never changes.", ["Mis compañeros no están de acuerdo con el director."], "Change the subject to \"mis compañeros\"."),
+      toEs("Es necesario reservar mesa.", "No es necesario reservar mesa.", "Negative: no goes before es; the frame es + adjective + infinitive stays the same.", undefined, "Make it negative."),
+      toEs("Me parece interesante el libro.", "Me parecen interesantes los libros.", "The verb agrees with what you're judging: el libro → los libros, so parece → parecen (and interesante → interesantes).", ["Los libros me parecen interesantes."], "Make the book plural."),
+      toEs("Soy de acuerdo con mi hermana.", "Estoy de acuerdo con mi hermana.", "Agreeing is a state: estar de acuerdo, never ser.", undefined, "Correct the sentence."),
+      toEs("Yo parezco que el examen es fácil.", "Me parece que el examen es fácil.", "Parecer works like gustar: me parece que..., not yo parezco (which means \"I look like\").", ["Creo que el examen es fácil."], "Correct the sentence."),
+      toEs("Es posible de pagar con tarjeta.", "Es posible pagar con tarjeta.", "Es + adjective + infinitive takes nothing in between: remove de.", undefined, "Correct the sentence."),
+      toEs("Actualmente, no tengo hambre; comí hace una hora.", "En realidad, no tengo hambre; comí hace una hora.", "The speaker means \"actually\", which is en realidad. Actualmente means \"currently\".", undefined, "Correct the mistake (the speaker means \"actually\")."),
+      toEs("Maybe the store is closed.", "Quizás la tienda está cerrada.", "Quizá and quizás are the same word; a guess about a present state uses estar.", ["Quizá la tienda está cerrada.","Quizás la tienda esté cerrada.","Quizá la tienda esté cerrada."]),
+      toEn("Es imposible saberlo.", "It's impossible to know.", "Es imposible + infinitive = it's impossible to...", ["It is impossible to know.","It's impossible to know it."]),
+      toEs("She's a true artist.", "Es una artista verdadera.", "Verdadero agrees with the noun: una artista verdadera. Before the noun (una verdadera artista) is also correct and a bit more emphatic.", ["Ella es una artista verdadera.","Es una verdadera artista.","Ella es una verdadera artista."]),
       toEn("Realmente no sé qué hacer.", "I really don't know what to do.", "Realmente means really (truly). Qué hacer = what to do, with the infinitive.", ["I truly don't know what to do."]),
-      toEn("Se supone que es fácil.", "It's supposed to be easy.", "Se supone que = it's supposed to.", ["It is supposed to be easy."]),
+      toEs("What do you (tú) think of the hotel?", "¿Qué te parece el hotel?", "Parecer works like gustar: te parece, with the hotel as subject."),
+      toEs("How strange! Maybe she's at work.", "¡Qué raro! Quizás está en el trabajo.", "¡Qué raro! = How strange!; quizás and quizá are the same word.", ["¡Qué raro! Quizá está en el trabajo.","¡Qué raro! Quizás está trabajando.","¡Qué raro! Quizá está trabajando."]),
+      wo("Supongo que es posible terminar mañana.", "Supongo que + a full sentence; es posible + infinitive.", "I suppose it's possible to finish tomorrow."),
+      wo("No soy capaz de entender esta palabra", "Ser capaz de + infinitive; in the negative it means you can't manage to.", "I can't manage to understand this word"),
+      { type: "speak", prompt: "Your friend says the new café is expensive. Answer aloud in Spanish: you agree, and it seems expensive to you too, but actually the coffee is very good.", text: "Estoy de acuerdo, a mí también me parece caro, pero en realidad el café es muy bueno.", explanation: "Estar de acuerdo (state → estar); me parece caro (parecer like gustar); en realidad = actually." },
     ]
   ),
   L(
@@ -164,6 +145,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       sec(
         "Contrast: aunque and sin embargo",
         [
+          "The idea: linking words have two different jobs. Some join two clauses inside one sentence (aunque, porque); others link a new sentence to the one before (sin embargo, además), so they come after a full stop or semicolon and take a comma. Knowing the job tells you where the word goes.",
           "Aunque means \"although, even though\" and joins two parts of one sentence.",
           "Sin embargo means \"however\". It usually starts a new sentence or comes after a semicolon, followed by a comma.",
         ],
@@ -217,7 +199,12 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         [
           fb("Complete: \"I have two brothers and both are doctors.\"", "Tengo dos hermanos y ___ son médicos.", "ambos", "Hermanos is masculine plural, so ambos (ambas for feminine)."),
-          toEn("La mayoría de mis amigos vive en el centro.", "Most of my friends live downtown.", "La mayoría de = most of.", ["Most of my friends live in the city center.", "Most of my friends live in the centre.", "Most of my friends live in the center."]),
+          mc(
+            "\"Any student can use the library.\"",
+            ["Cualquier estudiante puede usar la biblioteca.", "Cualquiera estudiante puede usar la biblioteca.", "Ambos estudiante puede usar la biblioteca.", "Los demás estudiante puede usar la biblioteca."],
+            0,
+            "Before a noun, any is cualquier (cualquiera only stands alone: cualquiera puede venir). Ambos means both and los demás the others, and both need a plural noun."
+          ),
         ]
       ),
       sec(
@@ -248,8 +235,8 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       fb("Complete: \"Although he was sick, he went to work.\"", "___ estaba enfermo, fue a trabajar.", "Aunque", "Aunque (although) introduces a contrast: aunque estaba enfermo, fue a trabajar."),
       fb("Complete: \"It's expensive. However, I'm going to buy it.\"", "Es caro. Sin ___, lo voy a comprar.", "embargo", "Sin embargo means however, and it introduces a contrast with the previous sentence."),
       toEs("Even my grandmother came.", "Incluso vino mi abuela.", "Incluso means even, and it goes before the surprising part: incluso vino mi abuela.", ["Incluso mi abuela vino.", "Hasta vino mi abuela.", "Hasta mi abuela vino."]),
-      toEn("No quiere ni siquiera probarlo.", "He doesn't even want to try it.", "Ni siquiera means not even; the whole phrase negates, so no + ni siquiera is fine in Spanish.", ["She doesn't even want to try it.", "He doesn't even want to taste it.", "She doesn't even want to taste it."]),
-      toEn("Jamás miento.", "I never lie.", "Jamás means never, a stronger nunca. Before the verb it needs no extra no (Jamás miento); after the verb you add no (No miento jamás).", ["I never tell lies."]),
+      toEs("Quiere probarlo.", "Ni siquiera quiere probarlo.", "Ni siquiera (not even) before the verb makes the sentence negative by itself. After the verb you need no: No quiere ni siquiera probarlo.", ["No quiere ni siquiera probarlo."], "Change it to \"not even\" with ni siquiera."),
+      toEs("Jamás no miento.", "Jamás miento.", "Jamás means never, a stronger nunca. Before the verb it needs no extra no (Jamás miento); after the verb you add no (No miento jamás).", ["No miento jamás.", "Nunca miento."], "Correct the sentence."),
       mt(
         "Match each word to its meaning.",
         [
@@ -270,7 +257,12 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         "Otro already means another, so it never takes un: otro café. \"Un otro\" and \"uno otro\" copy English an other, and \"el otro un\" mixes two articles."
       ),
       toEs("I found the apartment through a friend.", "Encontré el piso a través de un amigo.", "A través de means through (by means of): a través de un amigo.", ["Encontré el apartamento a través de un amigo.", "Encontré el departamento a través de un amigo."]),
-      toEn("Tras la cena, los demás se fueron a casa.", "After dinner, the others went home.", "Tras = after; los demás = the others, the rest.", ["After dinner, the rest went home.", "After the dinner, the others went home."]),
+      mc(
+        "«Tras la cena, los demás se fueron a casa.» What happened?",
+        ["After dinner, the others went home.", "Before dinner, everyone went home.", "During dinner, most people went home.", "After dinner, both went home."],
+        0,
+        "Tras = after (more formal than después de), and los demás = the others, the rest. La mayoría would be most, and ambos both."
+      ),
       toEs("Some girls play soccer; others play tennis.", "Unas chicas juegan al fútbol; otras juegan al tenis.", "Otro agrees with the noun it refers to: chicas is feminine plural, so otras.", ["Unas chicas juegan al fútbol y otras juegan al tenis.", "Algunas chicas juegan al fútbol; otras juegan al tenis."]),
       mc(
         "\"The others\" (talking about a group of men) is...",
@@ -290,6 +282,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       sec(
         "Up, down, back, here",
         [
+          "The idea: place words come in two kinds. Adverbs stand alone at the end (está arriba, vive cerca). Prepositions need a small linking word before the noun: frente a, acerca de, en contra de, cerca de, debajo de. And when that noun has el, the link contracts: a + el → al (frente al hotel), de + el → del (acerca del viaje).",
           "Arriba = up, upstairs. Abajo = down, downstairs. Atrás = back, behind (hacia atrás = backwards). De arriba abajo = from top to bottom.",
           "Acá means \"here\", like aquí. It's especially common in Latin America: ¡Ven acá! = Come here!",
         ],
@@ -306,6 +299,12 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             ["abajo", "atrás", "acá", "frente"],
             0,
             "Arriba (up, upstairs) is the opposite of abajo (down, downstairs). \"Atrás\" means behind, \"acá\" means here, and \"frente\" means front."
+          ),
+          mc(
+            "Debajo de means under. \"The cat is under the car.\"",
+            ["El gato está debajo del coche.", "El gato está debajo el coche.", "El gato está debajo de el coche.", "El gato está debajo al coche."],
+            0,
+            "Debajo is a preposition word, so it needs de, and de + el contracts to del. \"Debajo el\" drops de, \"de el\" must contract, and al belongs to frente a."
           ),
         ]
       ),
@@ -382,8 +381,13 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       ),
       fb("Complete: \"The pharmacy is opposite the supermarket.\"", "La farmacia está ___ al supermercado.", "frente", "Frente a + el = frente al."),
       toEs("The table is against the wall.", "La mesa está contra la pared.", "Contra means against, here physically touching: contra la pared.", []),
-      toEn("Es una película acerca de la guerra.", "It's a movie about the war.", "Acerca de means about (a topic): una película acerca de la guerra.", ["It's a film about the war.", "It is a movie about the war.", "It's a movie about war."]),
-      toEn("Viajamos por tierra, no en avión.", "We traveled by land, not by plane.", "Por tierra means by land; en avión means by plane.", ["We travelled by land, not by plane.", "We travel by land, not by plane."]),
+      toEs("Es una película cerca de la guerra.", "Es una película acerca de la guerra.", "A film's topic takes acerca de (about). Cerca de means near, a place.", ["Es una película sobre la guerra."], "Correct the sentence."),
+      mc(
+        "«Viajamos por tierra, no en avión.» How did they travel?",
+        ["By land (car, bus or train)", "By plane", "By sea", "On foot across the fields"],
+        0,
+        "Por tierra = by land, the opposite of en avión (by plane) or por mar (by sea). Tierra here is land, not soil."
+      ),
       fb("Complete: \"There's little room in the car for the suitcases.\"", "Hay poco ___ en el coche para las maletas.", "espacio", "Espacio means room or space: poco espacio = little room."),
       toEs("Half of the students live here.", "La mitad de los estudiantes vive aquí.", "La mitad de = half of.", ["La mitad de los estudiantes viven aquí.", "La mitad de los alumnos vive aquí.", "La mitad de los alumnos viven aquí.", "La mitad de los estudiantes vive acá."]),
       wo("No hay otra manera de abrir esta puerta.", "Otra manera de + infinitive = another way to...", "There's no other way to open this door."),
@@ -393,7 +397,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         0,
         "The chunk is un montón de + noun (a lot of): un montón de deberes. \"Un montón deberes\" drops de, \"montón de\" drops un, and \"un montón los\" replaces de with an article."
       ),
-      toEn("Ven acá y mira hacia arriba.", "Come here and look up.", "Acá = here; hacia arriba = upwards.", ["Come here and look upwards."]),
+      toEs("Mira hacia arriba.", "Mira hacia abajo.", "Arriba (up) and abajo (down) are opposites; hacia (towards) stays.", [], "Change it to the opposite direction."),
       mc(
         "\"I'm against the plan.\"",
         ["Estoy en contra del plan.", "Estoy frente al plan.", "Estoy acerca del plan.", "Estoy atrás del plan."],
@@ -414,7 +418,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         "Love and the heart",
         [
           "Amor = love; mi amor is a very common term of endearment. De corazón = from the heart, sincerely.",
-          "Con + tú becomes contigo (and con + yo becomes conmigo). Matrimonio means marriage, and also a married couple.",
+          "Con + tú becomes contigo (and con + yo becomes conmigo). Why? Spanish fused con with mí and ti into one word centuries ago, and only these two (plus consigo) do it. Every other person stays separate: con él, con ella, con nosotros, con ustedes. Matrimonio means marriage, and also a married couple.",
         ],
         [
           ["Ella es el amor de mi vida.", "She's the love of my life."],
@@ -426,10 +430,10 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         [
           mc(
-            "\"With you\" (tú) is...",
-            ["contigo", "con ti", "con tú", "conmigo"],
+            "\"Do you want to dance with him?\"",
+            ["¿Quieres bailar con él?", "¿Quieres bailar conél?", "¿Quieres bailar contigo?", "¿Quieres bailar con lo?"],
             0,
-            "Con + tú becomes contigo. \"Con ti\" and \"con tú\" don't exist, and \"conmigo\" means with me."
+            "Only mí and ti fuse with con (conmigo, contigo). Con él stays two words, like con ella or con nosotros. Contigo would mean with you, and lo is an object pronoun that can't follow con."
           ),
           fb("Complete: \"My grandparents celebrated fifty years of marriage.\"", "Mis abuelos celebraron cincuenta años de ___.", "matrimonio", "Matrimonio means marriage: cincuenta años de matrimonio."),
         ]
@@ -485,7 +489,8 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         "Relationships, contact and \"mine\"",
         [
           "Relación = relationship. Estar en contacto = to be in touch; perder el contacto = to lose touch.",
-          "Mío / mía / míos / mías = mine, of mine. It comes after the noun or after ser: una amiga mía = a friend of mine, es mía = it's mine.",
+          "Mío / mía / míos / mías = mine, of mine. Mi is the short form that goes before a noun (mi maleta); mío is the long form that goes after the noun or after ser: una amiga mía = a friend of mine, es mía = it's mine.",
+          "Like an adjective, mío agrees with the thing owned, not with the owner: a man says esa maleta es mía because maleta is feminine. Tuyo (yours, tú), suyo and nuestro work the same way.",
         ],
         [
           ["Tengo una buena relación con mis padres.", "I have a good relationship with my parents."],
@@ -497,6 +502,12 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         [
           fb("Complete: \"—Is this your jacket, Ana? —Yes, it's mine.\"", "—¿Es tu chaqueta, Ana? —Sí, es ___.", "mía", "Chaqueta is feminine, so the possessive is mía."),
+          mc(
+            "Pedro points at some shoes: \"Those shoes are yours, Ana.\"",
+            ["Esos zapatos son tuyos.", "Esos zapatos son tuyas.", "Esos zapatos son tu.", "Esos zapatos son tuyo."],
+            0,
+            "The long possessive agrees with the thing owned: zapatos is masculine plural, so tuyos, even though Ana is a woman. Tu only goes before a noun (tus zapatos)."
+          ),
         ]
       ),
     ],
@@ -523,7 +534,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         0,
         "Señorita = miss. Caballeros = gentlemen, muchacho = young man, mi amor = my love."
       ),
-      toEs("She's the love of my life.", "Ella es el amor de mi vida.", "El amor de mi vida = the love of my life.", ["Es el amor de mi vida."]),
+      toEs("He's the love of her life.", "Él es el amor de su vida.", "El amor de + possessive + vida = the love of someone's life; su = her here.", ["Es el amor de su vida."]),
       fb("Complete with \"the boys\".", "Los ___ del equipo celebraron la victoria.", "muchachos", "Los muchachos = the boys, the guys."),
       toEn("Te lo digo de corazón: gracias por tu compañía.", "I mean it from the heart: thank you for your company.", "De corazón = sincerely; compañía = company.", ["I'm telling you from the heart: thank you for your company.", "I mean it sincerely: thanks for your company."]),
       mc(
@@ -532,7 +543,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         0,
         "Mío/mía goes after the noun and agrees with it: amigo mío, amiga mía. The wrong options swap the genders, put mío before the noun, or use mi, which only goes before a noun."
       ),
-      toEs("We're in touch by email.", "Estamos en contacto por correo.", "Estar en contacto = to be in touch.", ["Estamos en contacto por correo electrónico.", "Estamos en contacto por email."]),
+      toEs("Are you (tú) still in touch with your cousins?", "¿Todavía estás en contacto con tus primos?", "Estar en contacto con = to be in touch with; todavía = still.", ["¿Sigues en contacto con tus primos?", "¿Estás todavía en contacto con tus primos?", "¿Aún estás en contacto con tus primos?", "¿Todavía estás en contacto con tus primas?"]),
       toEn("Perdone, señorita, ¿es este su bolso?", "Excuse me, miss, is this your bag?", "Señorita = miss; su = your (usted).", ["Excuse me, miss, is this your purse?", "Excuse me, miss, is this your handbag?"]),
     ]
   ),
@@ -548,6 +559,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         [
           "Loco / loca means crazy. Between friends it's often friendly: ¡Estás loca! can just mean \"You're nuts!\". Estar loco por means to be crazy about something. The noun is la locura (madness), and ¡Qué locura! is \"That's crazy!\".",
           "Tonto (silly, dumb) and estúpido (stupid) are useful to understand, but be careful: said to a person, tonto can be rude and estúpido is an insult. Loco can be rude too, depending on the tone. For people you like, agradable (pleasant, nice) is always safe.",
+          "Two patterns help with new words. Adjectives in -o change for a woman or a feminine noun (loco → loca, tonto → tonta), but adjectives in -e or a consonant keep one form (agradable, feliz). And many adjectives make a feminine noun with -ura: loco → la locura, like dulce → la dulzura (sweetness) or tierno → la ternura (tenderness).",
         ],
         [
           ["Mi hermano está loco por el fútbol.", "My brother is crazy about soccer."],
@@ -560,6 +572,12 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         [
           fb("Complete the sentence.", "Mi primo está ___ por los videojuegos; juega todo el día.", "loco", "Estar loco por = to be crazy about. Mi primo is masculine: loco."),
+          mc(
+            "Your aunt is crazy about cats. Which sentence is right?",
+            ["Mi tía está loca por los gatos.", "Mi tía está loco por los gatos.", "Mi tía está locura por los gatos.", "Mi tía es loca para los gatos."],
+            0,
+            "Loco ends in -o, so it changes for a woman: loca. Locura is the noun (madness), and the chunk is estar loco por, not ser ... para."
+          ),
           mc(
             "You want to say something kind about your new neighbor. Which word do you use?",
             ["agradable", "tonto", "estúpido", "loco"],
@@ -612,7 +630,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         "Big words: paz, peligro, alma, honor",
         [
           "La paz is peace. Dejar en paz means to leave alone: ¡Déjame en paz! (Leave me alone!). El peligro is danger: en peligro (in danger), ¡Peligro! on signs.",
-          "El alma (soul) is feminine, but it takes el because it starts with a stressed a, like el agua: el alma, but the adjective is still feminine: el alma está tranquila. Con toda mi alma = with all my heart. El honor is honor: es un honor (it's an honor), en honor de (in honor of).",
+          "El alma (soul) is feminine, but it takes el because it starts with a stressed a, like el agua: el alma, but the adjective is still feminine: el alma está tranquila. Why? La + alma would run the two a sounds together, so Spanish switches to el in the singular only; in the plural it's las almas again. Con toda mi alma = with all my heart. El honor is honor: es un honor (it's an honor), en honor de (in honor of).",
         ],
         [
           ["Después de la guerra, por fin llegó la paz.", "After the war, peace finally came."],
@@ -630,6 +648,12 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "Alma takes el (stressed a-), but it is still feminine, so the adjective is tranquila."
           ),
           fb("Complete the sentence.", "Aquí los niños no están en ___; es un lugar seguro.", "peligro", "Estar en peligro = to be in danger."),
+          mc(
+            "Aula (classroom) is feminine and starts with a stressed a. Which sentence is right?",
+            ["El aula está limpia.", "La aula está limpia.", "El aula está limpio.", "Las aula está limpia."],
+            0,
+            "Same rule as el alma and el agua: el before a stressed a- in the singular, but the noun stays feminine, so limpia. In the plural it's las aulas."
+          ),
         ]
       ),
     ],
@@ -658,7 +682,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       wo("Mis amigos me prepararon una fiesta sorpresa.", "Una fiesta sorpresa = a surprise party; sorpresa goes after fiesta.", "My friends prepared a surprise party for me."),
       toEn("No lo dije en serio, fue una broma.", "I didn't mean it, it was a joke.", "En serio = seriously; una broma = a joke.", ["I didn't say it seriously, it was a joke.", "I wasn't serious, it was a joke."]),
       toEs("It's an honor to be here.", "Es un honor estar aquí.", "Es un honor + infinitive: es un honor estar aquí."),
-      fb("Complete the sentence.", "Te quiero con toda mi ___.", "alma", "Con toda mi alma = with all my soul, with all my heart."),
+      fe("Mis abuelos nos quieren con toda su ___.", "alma", "My grandparents love us with all their [heart].", "Con toda mi / su alma = with all my / their heart (literally soul). Alma takes el but is feminine, so toda, not todo."),
       toEn("Solo quiero un poco de paz.", "I just want a little peace.", "La paz means peace; solo means just here.", ["I only want a little peace.", "I just want some peace.", "I just want a bit of peace."]),
       mc(
         "Your classmate made a small mistake. Which sentence is the kindest?",
@@ -682,6 +706,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         [
           "Suceder and ocurrir both mean to happen, like pasar. They are a little more formal and very common in the news: ¿Qué sucede? (What's going on?), ¿Qué sucedió? (What happened?), Esto ocurre... (This happens...).",
           "Ocurrir also has a special use: se me ocurre una idea = an idea occurs to me, I have an idea.",
+          "Why they're easy: the thing that happens is the subject, so these verbs live almost entirely in the él / ellos forms. One event → sucede, ocurrió; several events → suceden, ocurrieron. You'll rarely need any other form.",
         ],
         [
           ["¿Qué sucede? Estás muy callado.", "What's the matter? You're very quiet."],
@@ -705,6 +730,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         [
           "Acabar means to finish or to end: La película acaba a las once. El partido acabó 2-1.",
           "Acabar de + infinitive means to have just done something. Use the present: Acabo de llegar = I have just arrived. Acaba de salir = She has just left.",
+          "The logic: you are 'finishing from' the action right now, so the present tense of acabar carries the meaning 'just', and the action itself stays in the infinitive. Only acabar changes for the person: acabo, acabas, acaban de comer.",
         ],
         [
           ["La película acaba a las once.", "The movie ends at eleven."],
@@ -715,6 +741,12 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         [
           toEn("Acabo de comer.", "I have just eaten.", "Acabar de + infinitive = to have just done something.", ["I've just eaten.", "I just ate.", "I have just eaten"]),
+          mc(
+            "\"We have just seen the movie.\"",
+            ["Acabamos de ver la película.", "Acabamos de vimos la película.", "Acabamos ver la película.", "Acabamos de veremos la película."],
+            0,
+            "Only acabar is conjugated (acabamos, nosotros); the action stays an infinitive after de: de ver. De can't be left out."
+          ),
           fb("Complete with acabar (preterite).", "La clase ___ a las cinco ayer.", "acabó", "Ayer + la clase (ella) → acabó."),
         ]
       ),
@@ -809,6 +841,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         [
           "News Spanish is full of words that look like English: el gobierno (government), la situación, la investigación, el sistema, oficial.",
           "Words ending in -ción are feminine and lose the accent in the plural: la situación → las situaciones. Watch out for sistema and programa: they end in -a but are masculine: el sistema, el programa.",
+          "These are patterns you can use on words you've never seen. Spanish -ción = English -tion, always feminine (la población, la decisión works the same with -sión). And most nouns in -ma that come from Greek are masculine: el problema, el tema, el clima, el idioma. The accent drops in the plural because the extra syllable moves the natural stress onto -cio-: si-tua-CIO-nes.",
         ],
         [
           ["El gobierno anunció nuevas medidas ayer.", "The government announced new measures yesterday."],
@@ -826,6 +859,12 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "Sistema ends in -a but is masculine (from Greek), so el sistema es nuevo. The wrong options use \"la\" or the feminine \"nueva\"."
           ),
           fb("Complete the sentence.", "La policía empezó una ___ sobre el robo.", "investigación", "Una investigación = an investigation (feminine, -ción)."),
+          mc(
+            "Clima (climate) ends in -ma and comes from Greek. Which sentence is right?",
+            ["El clima aquí es muy seco.", "La clima aquí es muy seca.", "El clima aquí es muy seca.", "La clima aquí es muy seco."],
+            0,
+            "Like el sistema and el problema, el clima is masculine despite the -a, so the adjective is seco too. (Not every -a word works this way: la casa, la mesa are feminine; it's the Greek -ma nouns.)"
+          ),
         ]
       ),
       sec(
@@ -942,6 +981,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       sec(
         "The body: sangre, cerebro, fuerza, energía",
         [
+          "The pattern: many of these words are cognates you can unlock with an ending rule. Spanish -ía often matches English -y (la energía = energy, la biología = biology), and -ena / -ene often match -ene (la escena = scene). The ending also tells you the gender: -ía nouns are feminine.",
           "La sangre is blood: donar sangre (to give blood). El cerebro is the brain.",
           "La fuerza is strength or force: tener fuerza, con fuerza (hard, strongly). La energía is energy, for people and for machines: tener mucha energía, la energía solar.",
         ],
@@ -961,12 +1001,13 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             0,
             "You think with el cerebro (the brain). \"El corazón\" is the heart, \"el estómago\" the stomach, and \"el pulmón\" the lung."
           ),
+          mc("La energía = energy. Using the -ía = -y pattern, what is 'geography'?", ["la geografía", "el geógrafo", "la geografí", "el geográfico"], 0, "-y in English often becomes -ía in Spanish, with a written accent on the í and a feminine article: la geografía. El geógrafo is the person, a geographer."),
         ]
       ),
       sec(
         "Hacer daño",
         [
-          "El daño means harm or damage. The key chunk is hacer daño (to hurt): Me haces daño = You're hurting me. Hacerse daño = to hurt yourself: Me hice daño en la rodilla.",
+          "El daño means harm or damage. The key chunk is hacer daño (to hurt), and it works like gustar: the thing that hurts is the subject, so the verb agrees with it, and me / te / le is the person (estos zapatos me hacen daño, el sol te hace daño). When you hurt yourself it's reflexive: hacerse daño, me hice daño en la rodilla.",
         ],
         [
           ["Me hice daño en la rodilla.", "I hurt my knee."],
@@ -975,13 +1016,13 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
           ["La tormenta hizo mucho daño en el pueblo.", "The storm did a lot of damage in the town."],
         ],
         [
-          toEn("Me hice daño jugando al fútbol.", "I hurt myself playing soccer.", "Hacerse daño = to hurt yourself.", ["I hurt myself playing football.", "I got hurt playing soccer."]),
+          mc("Your new boots hurt your feet. Which sentence says so?", ["Las botas nuevas me hacen daño.", "Las botas nuevas me hace daño.", "Hago daño las botas nuevas.", "Me hago daño las botas nuevas."], 0, "Like gustar, the thing that hurts is the subject: las botas (plural) → hacen, and me is the person. Hago daño would make you the one hurting the boots."),
         ]
       ),
       sec(
         "Everyday things: basura, oro, caballo, Navidad",
         [
-          "La basura is trash: sacar la basura (to take out the trash). It is also used for something very bad: Esta película es basura. El oro is gold: de oro (made of gold), la medalla de oro.",
+          "La basura is trash: sacar la basura (to take out the trash). It is also used for something very bad: Esta película es basura. El oro is gold: de oro (made of gold), la medalla de oro. Materials always follow the noun with de, the opposite of English: un anillo de oro (a gold ring), una mesa de madera (a wooden table).",
           "El caballo is a horse: montar a caballo (to ride a horse). La Navidad is Christmas, written with a capital N: ¡Feliz Navidad!, en Navidad (at Christmas).",
         ],
         [
@@ -993,6 +1034,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         [
           { ...fb("How do you say the bold words in Spanish?", "Por favor, saca la ___ antes de las ocho.", "basura", "Sacar la basura = to take out the trash."), en: "Please take out the [trash] before eight." },
+          mc("Madera means wood. How do you say 'a wooden table'?", ["una mesa de madera", "una madera mesa", "una mesa madera", "una mesa de la madera"], 0, "The material comes after the noun with de and no article: una mesa de madera, like un anillo de oro."),
         ]
       ),
       sec(
@@ -1033,9 +1075,9 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       { ...fb("How do you say the bold words in Spanish?", "Ganó la medalla de ___ en los Juegos Olímpicos.", "oro", "La medalla de oro = the gold medal."), en: "She won the [gold] medal at the Olympic Games." },
       { ...fb("How do you say the bold words in Spanish?", "Mi prima monta a ___ todos los sábados.", "caballo", "Montar a caballo = to ride a horse."), en: "My cousin rides a [horse] every Saturday." },
       toEs("Merry Christmas!", "¡Feliz Navidad!", "Navidad is written with a capital N.", ["Feliz Navidad", "Feliz Navidad!"]),
-      toEs("These shoes hurt me.", "Estos zapatos me hacen daño.", "Hacer daño means to hurt, and the thing that hurts is the subject: estos zapatos me hacen daño.", ["Estos zapatos me hacen daño", "Estos zapatos me lastiman."]),
+      toEs("This chair hurts my back.", "Esta silla me hace daño en la espalda.", "Hacer daño works like gustar: la silla is the subject (hace), me is the person, and the body part goes with en la, not mi.", ["Esta silla me lastima la espalda."]),
       toEn("No tengo fuerza para correr más.", "I don't have the strength to run anymore.", "La fuerza means strength; tener fuerza para + infinitive = to have the strength to.", ["I don't have the strength to run any more.", "I have no strength to run anymore.", "I don't have the strength to run more."]),
-      wo("Leo novelas en el tren para matar el tiempo.", "Para + infinitive: para matar el tiempo = to kill time.", "I read novels on the train to kill time."),
+      wo("Jugamos a las cartas para matar el tiempo.", "Para + infinitive gives the purpose: para matar el tiempo = to kill time.", "We play cards to kill time."),
       mc(
         "\"To take out the trash\" is...",
         ["sacar la basura", "hacer la basura", "poner la basura", "dar la basura"],
