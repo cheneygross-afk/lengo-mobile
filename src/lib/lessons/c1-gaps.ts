@@ -30,7 +30,7 @@ export const C1_GAPS: AnchoredLesson[] = [
       sec(
         "La norma etimológica y el leísmo",
         [
-          "En la norma general, lo / la / los / las son pronombres de complemento directo (CD) y le / les de complemento indirecto (CI): Vi a Juan → Lo vi. Di un libro a Juan → Le di un libro.",
+          "En la norma general, lo / la / los / las son pronombres de complemento directo (CD) y le / les de complemento indirecto (CI): Vi a Juan → Lo vi. Di un libro a Juan → Le di un libro. ¿Por qué? Porque el sistema viene del latín, donde el pronombre marcaba la función (illum, illam: CD; illi: CI), no el género de la persona.",
           "El leísmo consiste en usar le / les como complemento directo: «A Juan le vi ayer» en lugar de «A Juan lo vi ayer».",
           "Es muy frecuente en el centro y el norte de España (Madrid, Castilla y León, parte de Castilla-La Mancha, el País Vasco) y en registros cultos de toda España. En América es poco frecuente, salvo en algunas zonas, como Ecuador o Paraguay (por contacto con lenguas indígenas), y en fórmulas de cortesía.",
         ],
@@ -46,6 +46,12 @@ export const C1_GAPS: AnchoredLesson[] = [
             ["A Pedro le llevé al aeropuerto.", "A Pedro le di las llaves.", "A Pedro le gusta el cine.", "A Pedro le duele la espalda."],
             0,
             "Llevar a alguien es transitivo: Pedro es CD, así que la norma general pide lo llevé. En las otras frases, le es CI (dar algo a alguien) o el experimentador de gustar y doler: le es correcto."
+          ),
+          mc(
+            "Aplica la regla: «¿Y el paraguas? — ___ olvidé en el tren.»",
+            ["Lo", "Le", "La", "Les"],
+            0,
+            "El paraguas es CD masculino de cosa: lo olvidé. «Le» sería leísmo de cosa, que no se acepta en ningún registro; la y les no concuerdan."
           ),
         ]
       ),
@@ -162,6 +168,12 @@ export const C1_GAPS: AnchoredLesson[] = [
         [0, 1, 3],
         "Solo «A Andrés le acompañé» (persona, masculino, singular) está aceptado. Lucía es femenino, los libros son cosas y los vecinos es plural."
       ),
+      toEs("Ayer acompañé a Lucía al médico.", "Ayer la acompañé al médico.", "Acompañar a alguien es transitivo: Lucía es CD femenino, así que la. «Le acompañé» con mujer es leísmo no aceptado.", ["La acompañé ayer al médico."], "Sustituye el complemento directo por un pronombre (norma general)."),
+      toEs("A mi hermano lo vi en el concierto.", "A mis hermanas las vi en el concierto.", "El pronombre de CD concuerda con lo que retoma: femenino plural, las. Aquí no hay opción de leísmo: «les vi» con mujeres no se acepta.", [], "Sustituye «a mi hermano» por «a mis hermanas»."),
+      toEs("Se le considera el mejor arquitecto de la ciudad.", "Se lo considera el mejor arquitecto de la ciudad.", "Con se impersonal y CD de persona, España prefiere le y gran parte de América lo. Las dos son correctas; cambia la preferencia regional, no la corrección.", [], "Cambia la frase al uso mayoritario en América."),
+      toEs("A mi abuela le llevé al hospital.", "A mi abuela la llevé al hospital.", "Llevar a alguien es transitivo y la abuela es CD femenino: la llevé. Solo el leísmo de persona masculino singular está aceptado.", [], "Corrige el leísmo no aceptado."),
+      toEs("Las llaves les dejé encima de la mesa.", "Las llaves las dejé encima de la mesa.", "Las llaves son una cosa y el CD es femenino plural: las dejé. El leísmo de cosa no se acepta en ningún registro.", [], "Corrige el leísmo no aceptado."),
+      toEs("A tus primos les saludé en la boda.", "A tus primos los saludé en la boda.", "El leísmo masculino plural (les saludé) está extendido en España, pero no se acepta en la lengua cuidada: los saludé.", [], "Corrige el leísmo no aceptado."),
     ]
   ),
   L(
@@ -174,7 +186,8 @@ export const C1_GAPS: AnchoredLesson[] = [
       sec(
         "El laísmo",
         [
-          "El laísmo consiste en usar la / las como complemento indirecto femenino: «La dije que viniera» en lugar de «Le dije que viniera». «A mi hermana la regalé un libro» en lugar de «le regalé».",
+            "El laísmo consiste en usar la / las como complemento indirecto femenino: «La dije que viniera» en lugar de «Le dije que viniera». «A mi hermana la regalé un libro» en lugar de «le regalé».",
+          "¿Por qué ocurre? Los hablantes laístas reorganizan el sistema por género (la para mujer, le para hombre) en lugar de por función. La norma mantiene la función: el CI es le / les sea hombre o mujer, porque lo que se regala o se dice ya ocupa el lugar de CD.",
           "Se oye sobre todo en el habla coloquial de Madrid y de buena parte de Castilla (Valladolid, Segovia, Ávila, Toledo...). Muchos hablantes de esas zonas lo usan sin darse cuenta, y aparece en novelas y series para retratar el habla madrileña.",
           "La RAE y la ASALE no lo aceptan en la lengua cuidada. En un texto formal, en un examen o en una entrevista de trabajo, evítalo.",
         ],
@@ -185,6 +198,12 @@ export const C1_GAPS: AnchoredLesson[] = [
           ["A Laura le di las llaves. (norma)", "I gave Laura the keys."],
         ],
         [
+          mc(
+            "Aplica la regla: «A mi tía ___ mandé una postal desde Roma.»",
+            ["le", "la", "lo", "las"],
+            0,
+            "La postal es lo que se manda (CD); la tía es quien la recibe (CI): le mandé, aunque sea mujer. «La mandé» sería laísmo; lo y las no concuerdan."
+          ),
           mc(
             "¿Qué frase sigue la norma culta?",
             ["A mi madre le escribí una carta.", "A mi madre la escribí una carta.", "A mi madre lo escribí una carta.", "A mi madre les escribí una carta."],
@@ -304,6 +323,12 @@ export const C1_GAPS: AnchoredLesson[] = [
         [0, 2, 3],
         "Mandar algo a alguien: CI (le). Llamar y visitar a alguien: CD (la, los). «La mandé un mensaje» es laísmo."
       ),
+      toEs("Escribí a Clara un mensaje larguísimo.", "Le escribí un mensaje larguísimo.", "El mensaje es el CD; Clara recibe el mensaje (CI): le escribí. «La escribí» sería laísmo.", [], "Sustituye «a Clara» por un pronombre."),
+      toEs("Di las llaves a mi vecina.", "Se las di.", "Las llaves → las (CD); a mi vecina → le (CI). Cuando le va delante de lo / la / los / las, se convierte en se: se las di (nunca «le las»).", [], "Sustituye los dos complementos por pronombres."),
+      toEs("A mi hermano le pedí que me esperara.", "A mi hermana le pedí que me esperara.", "Con pedir, lo pedido (que me esperara) es el CD y la persona es CI. El CI no cambia con el género: le en los dos casos. «La pedí» sería laísmo.", [], "Cambia «a mi hermano» por «a mi hermana»."),
+      toEs("A mi jefa la expliqué el problema por teléfono.", "A mi jefa le expliqué el problema por teléfono.", "El problema es lo que se explica (CD); la jefa es quien recibe la explicación (CI): le expliqué. Usar la como CI es laísmo.", [], "Corrige el laísmo."),
+      toEs("A los alumnos los dije que el examen era el lunes.", "A los alumnos les dije que el examen era el lunes.", "Lo dicho (que el examen era el lunes) es el CD; los alumnos son CI: les dije. Usar los como CI es loísmo, muy estigmatizado.", [], "Corrige el loísmo."),
+      toEs("La pregunté a la profesora si había clase mañana.", "Le pregunté a la profesora si había clase mañana.", "Con preguntar, lo preguntado (si había clase) es el CD y la persona, CI: le pregunté. Es el paso 3 del truco: verbos de lengua y petición.", [], "Corrige el laísmo."),
     ]
   ),
 ];
