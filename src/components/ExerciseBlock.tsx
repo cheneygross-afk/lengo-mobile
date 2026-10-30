@@ -137,6 +137,10 @@ export default function ExerciseBlock({
   return (
     <View style={s.container}>
       {!hideIndexLabel && <Text style={s.index}>Question {index + 1}</Text>}
+      {/* What kind of task this is, as a small chip (decoration only). */}
+      <View style={s.kindChip}>
+        <Text style={s.kindChipText}>{EXERCISE_KINDS[exercise.type] ?? exercise.type}</Text>
+      </View>
       {hideText && listenAudio && (
         <View style={s.listenRow}>
           <Text style={s.listenLabel}>🎧 Listen first</Text>
@@ -706,7 +710,31 @@ function SubmitButton({ disabled, onPress }: { disabled: boolean; onPress: () =>
   );
 }
 
+const EXERCISE_KINDS: Record<string, string> = {
+  "multiple-choice": "◉  Choose",
+  "multi-select": "☑  Choose all",
+  "fill-blank": "▭  Fill the gap",
+  translate: "⇄  Translate",
+  "word-order": "🧩  Build the sentence",
+  matching: "⟷  Match",
+  "listen-choose": "🎧  Listen",
+  dictation: "🎧  Dictation",
+  speak: "🎙  Speak",
+  write: "✍  Write",
+};
+
 const s = StyleSheet.create({
+  kindChip: {
+    alignSelf: "flex-start",
+    borderRadius: 999,
+    paddingHorizontal: 10,
+    paddingVertical: 3,
+    marginBottom: 8,
+    backgroundColor: "#E9A23B1A",
+    borderWidth: 1,
+    borderColor: "#E9A23B40",
+  },
+  kindChipText: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#2A1513A6" },
   container: {
     backgroundColor: "#fff",
     borderRadius: 18,
