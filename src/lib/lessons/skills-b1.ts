@@ -38,11 +38,11 @@ export const B1_SKILLS: Record<string, Exercise[]> = {
     ),
   ],
   "b1d-habla-de-ti-millon": [
-    spk("Con un millón de euros, dejaría de trabajar.", "El condicional lleva el acento en la í: de-ja-RÍ-a.", "El condicional para planes imaginarios: dejaría."),
+    spk("Con un millón de euros, me compraría un velero.", "El condicional lleva el acento en la í: com-pra-RÍ-a.", "El condicional para planes imaginarios: me compraría."),
     spk("Viajaría por toda Sudamérica y ayudaría a mi familia.", "Une «ayudaría a mi»: «a-yu-da-ría-a-mi», sin cortes.", "Dos condicionales: viajaría, ayudaría."),
   ],
   "b1d-habla-de-ti-planes-condiciones": [
-    spk("Si me dan vacaciones en agosto, iré a Perú.", "La voz sube al final de la condición (agosto) y baja al final de la frase (Perú).", "Si + presente, futuro: una condición real."),
+    spk("Si me dan dos semanas libres, iré a ver a mis abuelos.", "La voz sube al final de la condición (libres) y baja al final de la frase (abuelos).", "Si + presente, futuro: una condición real."),
     spk("Si no llueve el sábado, iremos a la sierra.", "Llueve con ll = y; sierra con rr fuerte.", "Si + presente, futuro: nunca «si lloverá»."),
   ],
   "b1d-habla-de-ti-primera-vez": [
@@ -118,7 +118,7 @@ export const B1_SKILLS: Record<string, Exercise[]> = {
       "«Es que tengo un poco de frío»: la razón es el frío. «Es que» introduce una justificación. No se menciona ruido, lluvia ni polvo."
     ),
     spk("¿Podría decirme dónde está la estación, por favor?", "Tono amable: sube suavemente al final. Podría: po-DRÍ-a.", "El condicional (podría) suaviza la petición."),
-    spk("Yo que tú, hablaría con ella.", "Pausa breve tras «yo que tú»; luego «ha-bla-RÍ-a-con-E-lla» sin cortes.", "«Yo que tú» + condicional para dar un consejo suave."),
+    spk("Yo que tú, se lo contaría a tus padres.", "Pausa breve tras «yo que tú»; luego «se-lo-con-ta-RÍ-a» sin cortes.", "«Yo que tú» + condicional para dar un consejo suave; contar → contaría, con los pronombres se lo delante."),
   ],
   "b1r-dialogue-combined-pronouns": [
     lc(

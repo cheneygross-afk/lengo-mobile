@@ -25,11 +25,11 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "El crimen y las armas",
         [
           "Un crimen es un delito grave. Las palabras de este grupo aparecen mucho en las noticias: el arma (weapon), la pistola, la bala (bullet) y la bomba.",
-          "Atención: «arma» es femenina, pero en singular lleva «el» porque empieza por «a» tónica: el arma, un arma, pero las armas, esta arma.",
+          "El patrón: «arma» es femenina, pero en singular lleva «el» porque empieza por «a» tónica (la sílaba fuerte): el arma, un arma. Es solo para que no choquen las dos aes; en plural y con otros determinantes vuelve el femenino: las armas, esta arma, el arma blanca. Funciona igual con el agua, el águila, el aula o el hambre.",
         ],
         [
           ["La policía investiga el crimen desde el lunes.", "The police have been investigating the crime since Monday."],
-          ["El arma del crimen nunca apareció.", "The murder weapon never turned up."],
+          ["El arma del crimen nunca apareció.", "The murder weapon never turned up. (el + a tónica, but feminine)"],
           ["Está prohibido llevar un arma en el avión.", "It's forbidden to carry a weapon on the plane."],
           ["El ladrón llevaba una pistola, pero no la usó.", "The thief was carrying a pistol, but he didn't use it."],
           ["La bala pasó muy cerca, pero nadie resultó herido.", "The bullet went very close, but nobody was hurt."],
@@ -41,22 +41,28 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "Completa: «La policía encontró ___ arma debajo de la cama.»",
             ["el", "la", "lo", "los"],
             0,
-            "«Arma» es femenina, pero en singular usamos «el» (o «un») delante de la «a» tónica: el arma."
+            "«Arma» es femenina, pero en singular usamos «el» (o «un») delante de la «a» tónica: el arma. «La arma» es el error típico; «lo» no va con sustantivos y «los» es plural masculino."
           ),
           fb("Completa.", "El ladrón disparó una sola ___ (bullet), pero no hirió a nadie.", "bala", "Una pistola dispara balas (bullets): una sola bala = one single shot."),
+          mc(
+            "Aplica el patrón a otra palabra: «Vimos ___ águila enorme sobre la montaña.»",
+            ["un", "una", "unos", "uno"],
+            0,
+            "Águila empieza por «a» tónica (Á-gui-la), así que en singular lleva un / el, como arma; sigue siendo femenina: un águila enorme, las águilas. «Una águila» es el error típico; «uno» no va delante de un sustantivo."
+          ),
         ]
       ),
       sec(
         "Ataques, amenazas y víctimas",
         [
           "Un ataque es una acción violenta, pero también usamos la palabra para cosas del cuerpo: un ataque al corazón (heart attack), un ataque de risa (a fit of laughter).",
-          "Una amenaza es un aviso de que alguien quiere hacer daño (verbo: amenazar). «Víctima» siempre es femenina, aunque sea un hombre: la víctima, las víctimas. Y «las drogas» casi siempre va en plural cuando hablamos del problema social.",
+          "Una amenaza es un aviso de que alguien quiere hacer daño (verbo: amenazar). «Víctima» tiene un solo género, femenino, aunque sea un hombre: la víctima, las víctimas (como la persona). Y «las drogas» casi siempre va en plural cuando hablamos del problema social.",
         ],
         [
           ["El ataque ocurrió de noche, cuando la calle estaba vacía.", "The attack happened at night, when the street was empty."],
           ["Mi abuelo sufrió un ataque al corazón el año pasado.", "My grandfather had a heart attack last year."],
           ["Recibió una amenaza por teléfono y llamó a la policía.", "She received a threat over the phone and called the police."],
-          ["La víctima era un hombre de cuarenta años.", "The victim was a forty-year-old man."],
+          ["La víctima era un hombre de cuarenta años.", "The victim was a forty-year-old man. (víctima stays feminine)"],
           ["Por suerte, el accidente no dejó víctimas.", "Luckily, there were no casualties in the accident."],
           ["Las víctimas del ataque recibieron ayuda del gobierno.", "The victims of the attack received help from the government."],
           ["El tráfico de drogas es un problema grave en muchas ciudades.", "Drug trafficking is a serious problem in many cities."],
@@ -69,6 +75,12 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "«Víctima» es siempre femenina, también para hombres: la víctima. «El víctima» cambia el artículo, y «víctimo» no existe."
           ),
           fb("Completa.", "Nos reímos tanto que nos dio un ___ de risa.", "ataque", "Un ataque de risa = a fit of laughter."),
+          mc(
+            "«Mi hermano es una persona muy tranquila.» ¿Por qué «una» y «tranquila», si es un hombre?",
+            ["Porque «persona», como «víctima», es siempre femenina.", "Porque es un error: debe ser «un persona tranquilo».", "Porque el hermano es pequeño.", "Porque «tranquila» va con «hermano»."],
+            0,
+            "Persona y víctima tienen un solo género gramatical (femenino) para hombres y mujeres, y el adjetivo concuerda con esa palabra: una persona tranquila, la víctima herida."
+          ),
         ]
       ),
       sec(
@@ -97,6 +109,27 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ),
         ]
       ),
+      sec(
+        "El patrón: del verbo al sustantivo",
+        [
+          "Casi todas estas palabras tienen un verbo en la misma familia, y el sustantivo suele ser la raíz del verbo con -a, -e u -o: amenazar → la amenaza, atacar → el ataque, pelear → la pelea, golpear → el golpe, mentir → la mentira.",
+          "Con este patrón puedes entender y formar palabras nuevas de las noticias: robar → el robo, disparar → el disparo, secuestrar → el secuestro.",
+        ],
+        [
+          ["Lo amenazaron; la amenaza llegó por correo.", "They threatened him; the threat came by mail. (amenazar → la amenaza)"],
+          ["No me mientas: odio las mentiras.", "Don't lie to me: I hate lies. (mentir → la mentira)"],
+          ["Se pelearon y la pelea terminó en comisaría.", "They fought and the fight ended at the police station."],
+        ],
+        [
+          fb("Forma el sustantivo de «robar», como amenazar → la amenaza.", "Anoche hubo un ___ en la joyería.", "robo", "Robar → el robo: la raíz del verbo con -o, igual que secuestrar → el secuestro."),
+          mc(
+            "¿Qué sustantivo corresponde a «engañar» (to deceive)?",
+            ["el engaño", "la engañación", "el engañamiento", "la engañez"],
+            0,
+            "Como golpear → el golpe o robar → el robo, el sustantivo es la raíz con -o: el engaño. Las otras formas no existen."
+          ),
+        ]
+      ),
     ],
     [
       mt(
@@ -108,36 +141,35 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["la pelea", "fight"],
           ["la trampa", "trap"],
         ],
-        "Vocabulario básico de las noticias de sucesos."
+        "Vocabulario básico de las noticias de sucesos. Amenaza y pelea vienen de los verbos amenazar y pelear."
       ),
-      fb("Completa.", "Los periodistas llegaron pocos minutos después del ___ contra el banco.", "ataque", "Un ataque contra algo o alguien = an attack on something or someone."),
+      fb("Completa.", "Los periodistas llegaron pocos minutos después del ___ contra el banco.", "ataque", "Un ataque contra algo o alguien = an attack on something or someone (de atacar)."),
       fb("Completa con el gerundio de mentir.", "No te creo. Estás ___ otra vez.", "mintiendo", "Estar + gerundio: estás mintiendo (e → i)."),
       fb("Completa con desaparecer en pretérito.", "El perro ___ el sábado y volvió el lunes.", "desapareció", "Desaparecer, él/ella, pretérito: desapareció."),
-      mc(
-        "Completa: «El accidente de tren dejó tres ___.»",
-        ["víctimas", "amenazas", "trampas", "drogas"],
-        0,
-        "Las víctimas son las personas que sufren un accidente o un crimen. Amenazas (threats), trampas (traps) y drogas no encajan con «el accidente dejó…»."
-      ),
-      mc(
-        "¿Qué frase es correcta?",
-        [
-          "Mi vecino recibió una amenaza anónima.",
-          "Mi vecino recibió un amenaza anónimo.",
-          "Mi vecino recibió una amenazo anónima.",
-          "Mi vecino recibió un amenazo anónimo.",
-        ],
-        0,
-        "«Amenaza» es femenina y el adjetivo concuerda: una amenaza anónima. «Un amenaza anónimo» usa el masculino, y «amenazo» no existe como sustantivo."
-      ),
+      mc("Completa: «El accidente de tren dejó tres ___.»", ["víctimas", "amenazas", "trampas", "drogas"], 0, "Las víctimas son las personas que sufren un accidente o un crimen. Amenazas (threats), trampas (traps) y drogas no encajan con «el accidente dejó…»."),
+      mc("¿Qué frase es correcta?", ["Mi vecino recibió una amenaza anónima.", "Mi vecino recibió un amenaza anónimo.", "Mi vecino recibió una amenazo anónima.", "Mi vecino recibió un amenazo anónimo."], 0, "«Amenaza» es femenina y el adjetivo concuerda: una amenaza anónima. «Un amenaza anónimo» usa el masculino, y «amenazo» no existe como sustantivo."),
       fb("Completa.", "Dos jugadores empezaron una ___ y el árbitro los expulsó.", "pelea", "Una pelea = a fight; por eso el árbitro los expulsó."),
       fb("Completa.", "El detective encontró una ___ en el suelo; era de la misma pistola.", "bala", "Una bala = a bullet: sale de una pistola."),
-      toEs("The police found the weapon in the river.", "La policía encontró el arma en el río.", "«Arma» es femenina, pero en singular lleva «el»: el arma.", ["La policía halló el arma en el río."]),
+      toEs("La policía encontró la arma en el río.", "La policía encontró el arma en el río.", "«Arma» es femenina, pero en singular lleva «el» porque empieza por «a» tónica: el arma.", ["La policía halló el arma en el río."], "Corrige la frase."),
       toEs("They found a bomb near the school.", "Encontraron una bomba cerca de la escuela.", "Bomb = bomba, femenina: una bomba; «cerca de» + lugar.", ["Encontraron una bomba cerca del colegio.", "Hallaron una bomba cerca de la escuela."]),
-      toEn("La víctima no vio la cara del atacante.", "The victim didn't see the attacker's face.", "«La víctima» es femenina, aunque la persona sea un hombre.", ["The victim did not see the attacker's face."]),
+      toEs("El víctima no vio la cara del atacante.", "La víctima no vio la cara del atacante.", "«Víctima» es siempre femenina, aunque la persona sea un hombre: la víctima.", [], "Corrige la frase."),
       toEn("De golpe, todos empezaron a gritar.", "Suddenly, everyone started shouting.", "De golpe = suddenly, all of a sudden.", ["All of a sudden, everyone started shouting.", "Suddenly, everyone began to shout.", "Suddenly everyone started to shout."]),
       wo("La oferta parecía buena, pero era una trampa.", "Una trampa = a trap. Parecía (imperfecto) describe la situación.", "The offer looked good, but it was a trap."),
       wo("La venta de drogas es un crimen grave.", "«Drogas» va en plural cuando hablamos del problema en general.", "Selling drugs is a serious crime."),
+      toEs("The thief threatened the victim with a pistol.", "El ladrón amenazó a la víctima con una pistola.", "Amenazar a alguien (con a personal); la víctima es siempre femenina."),
+      toEs("El arma estaba en el coche.", "Las armas estaban en el coche.", "En plural, «arma» recupera el artículo femenino: el arma → las armas. El verbo también pasa a plural.", ["Las armas estaban en el carro.", "Las armas estaban en el auto."], "Cambia al plural."),
+      fb("Completa con la expresión que significa «suddenly».", "De ___, el coche se paró en medio de la calle.", "golpe", "De golpe = suddenly, como un golpe que llega sin avisar."),
+      wo("El testigo estaba mintiendo a la policía", "Mentir → mintiendo (e → i en el gerundio).", "The witness was lying to the police"),
+      toEs("The bomb didn't explode, and nobody was hurt.", "La bomba no explotó y nadie resultó herido.", "La bomba es femenina; resultar herido = to be hurt.", ["La bomba no estalló y nadie resultó herido.", "La bomba no explotó y nadie salió herido.", "La bomba no estalló y nadie salió herido."]),
+      fb("Forma el sustantivo de «disparar», como robar → el robo.", "Los vecinos oyeron un ___ a medianoche.", "disparo", "Disparar → el disparo: la raíz del verbo con -o."),
+      toEs("Las víctimas heridos recibieron ayuda.", "Las víctimas heridas recibieron ayuda.", "El adjetivo concuerda con «víctimas», que es femenino aunque haya hombres: heridas.", [], "Corrige la frase."),
+      mc(
+        "¿Cuál es el plural correcto de «el aula»?",
+        ["las aulas", "los aulas", "las aula", "los aula"],
+        0,
+        "Aula es femenina y solo usa «el» en singular por la «a» tónica; en plural vuelve «las»: las aulas. «Los aulas» confunde ese «el» con el masculino."
+      ),
+      { type: "speak", prompt: "Cuenta en voz alta una noticia de sucesos inventada: qué pasó, con qué arma y cómo está la víctima.", text: "Anoche un ladrón amenazó a una mujer con una pistola, pero la víctima no resultó herida.", explanation: "Amenazar a alguien con algo; la víctima es femenina (herida) aunque fuera un hombre." },
     ]
   ),
   anchored(
@@ -148,6 +180,32 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
     "Del juez a la cárcel, de la pista al sospechoso: las palabras clave de los juicios y las investigaciones.",
     "9 min",
     [
+      sec(
+        "La idea: dos patrones que te ahorran memoria",
+        [
+          "1) Familias de palabras. Muchas palabras de la justicia salen de un verbo que ya conoces: buscar → la búsqueda, sospechar → el sospechoso / sospechoso (suspicious), acusar → el acusado, juzgar → el juez y el juicio, culpa → culpable. Si ves una palabra nueva, busca el verbo que hay dentro.",
+          "2) El género de las personas. Las palabras en -o cambian a -a (el abogado → la abogada). Pero las que terminan en -e, -ista o -al suelen ser iguales para los dos y solo cambia el artículo: el/la agente, el/la testigo, el/la fiscal, el/la periodista. Juez admite «la juez» y, cada vez más, «la jueza».",
+        ],
+        [
+          ["La búsqueda duró dos días.", "The search lasted two days. (buscar → la búsqueda)"],
+          ["La testigo vio al sospechoso.", "The (female) witness saw the suspect. (testigo: solo cambia el artículo)"],
+          ["La abogada dice que su cliente es inocente.", "The (female) lawyer says her client is innocent. (abogado → abogada)"],
+        ],
+        [
+          mc(
+            "Aplica el patrón: si «detener» es to arrest, ¿qué es «la detención»?",
+            ["the arrest", "the detective", "the prisoner", "the trial"],
+            0,
+            "Verbo → nombre con -ción: detener → la detención (the arrest), igual que proteger → la protección. El detective, el preso y el juicio son otras palabras."
+          ),
+          mc(
+            "¿Cómo se dice «the (female) police officer»?",
+            ["la agente de policía", "la agenta de policía", "el agente de policía"],
+            0,
+            "Agente termina en -e y es igual para hombres y mujeres: solo cambia el artículo, la agente. «Agenta» no existe y «el agente» sería un hombre."
+          ),
+        ]
+      ),
       sec(
         "En el juicio",
         [
@@ -249,10 +307,10 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         0,
         "«Prisión» es la palabra formal de las sentencias: X años de prisión. La celda es el cuarto donde está el preso, la comisaría es la oficina de policía y una pista es una clue."
       ),
-      toEs("The judge said that he was innocent.", "El juez dijo que era inocente.", "Judge = juez; innocent = inocente.", ["El juez dijo que él era inocente.", "La juez dijo que era inocente.", "La jueza dijo que era inocente."]),
-      toEs("The search lasted all night.", "La búsqueda duró toda la noche.", "Search = búsqueda, con tilde en la «u».", []),
-      toEn("El agente secreto aceptó la misión.", "The secret agent accepted the mission.", "Agente secreto = secret agent; aceptar la misión = accept the mission.", ["The secret agent took the mission."]),
-      toEn("La fiscal pidió diez años de prisión.", "The prosecutor asked for ten years in prison.", "La fiscal = the (female) prosecutor.", ["The prosecutor requested ten years in prison.", "The prosecutor asked for ten years of prison."]),
+      toEs("The judge said that he was innocent.", "El juez dijo que era inocente.", "Juez = judge; inocente = innocent. En estilo indirecto, «said that he was» se traduce con imperfecto: dijo que era.", ["El juez dijo que él era inocente.", "La juez dijo que era inocente.", "La jueza dijo que era inocente."]),
+      toEs("The search lasted all night.", "La búsqueda duró toda la noche.", "Buscar → la búsqueda (search), con tilde en la «u». Fíjate en el cambio c → qu delante de e.", []),
+      toEs("El agente secreto aceptó la misión.", "La agente secreta aceptó la misión.", "Agente termina en -e: es igual para los dos géneros y solo cambia el artículo (la agente). El adjetivo sí concuerda: secreta.", [], "Cambia a femenino."),
+      toEs("La fiscala pidió quince años de cárcel.", "La fiscal pidió quince años de cárcel.", "Fiscal termina en -al y no tiene forma femenina: el fiscal, la fiscal. Solo cambia el artículo.", ["La fiscal pidió quince años de prisión."], "Corrige la frase."),
       wo("La policía descifró el código del mensaje secreto.", "Descifrar un código = to crack a code.", "The police cracked the code of the secret message."),
       wo("Queremos justicia para todas las víctimas.", "Pedir / querer justicia = to demand justice.", "We want justice for all the victims."),
     ]
@@ -280,6 +338,12 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["Muchas culturas creen que el espíritu vive después de la muerte.", "Many cultures believe the spirit lives on after death."],
         ],
         [
+          mc(
+            "Aplica la regla a un nombre nuevo: ¿cómo se dice «Saint Francis»?",
+            ["San Francisco", "Santo Francisco", "Santa Francisco", "Sante Francisco"],
+            0,
+            "Santo se acorta a «san» delante de casi todos los nombres de hombre: San Francisco, como San Pedro. Solo Tomás, Domingo, Toribio y Tomé conservan «Santo»; «Santa» es para mujeres."
+          ),
           mc(
             "¿Cuál es correcto?",
             ["San Pedro", "Santo Pedro", "Santa Pedro", "Sante Pedro"],
@@ -315,8 +379,8 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
       sec(
         "Fantasmas, monstruos, magia y belleza",
         [
-          "«Fantasma» termina en -a, pero es masculino: el fantasma, un fantasma. También es un adjetivo: un pueblo fantasma (ghost town). El monstruo es de los cuentos y de las pesadillas de los niños.",
-          "La magia es lo que hace un mago; «como por arte de magia» = as if by magic. Y en los cuentos siempre hay belleza: La Bella y la Bestia, ¡qué belleza de paisaje!",
+          "«Fantasma» termina en -a, pero es masculino: el fantasma, un fantasma. Es una palabra de origen griego en -ma, como el problema, el tema o el sistema, y todas son masculinas. También es un adjetivo: un pueblo fantasma (ghost town). El monstruo es de los cuentos y de las pesadillas de los niños.",
+          "La magia es lo que hace un mago; «como por arte de magia» = as if by magic. Y en los cuentos siempre hay belleza: La Bella y la Bestia, ¡qué belleza de paisaje! Belleza sale del adjetivo bello + -eza, un sufijo que forma nombres femeninos de cualidad: triste → la tristeza, pobre → la pobreza.",
         ],
         [
           ["Dicen que en el castillo vive un fantasma.", "They say a ghost lives in the castle."],
@@ -361,7 +425,9 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Fantasma, demonio y ángel son seres sobrenaturales; la belleza es una cualidad."
       ),
       toEs("My grandmother believes in the Holy Spirit.", "Mi abuela cree en el Espíritu Santo.", "Holy Spirit = Espíritu Santo (el adjetivo va detrás).", ["Mi abuela cree en el espíritu santo."]),
-      toEs("They say there is a ghost in the hotel.", "Dicen que hay un fantasma en el hotel.", "«Fantasma» termina en -a pero es masculino: un fantasma. «Dicen que hay» = they say there is.", ["Dicen que en el hotel hay un fantasma."]),
+      toEs("Dicen que hay una fantasma en el hotel.", "Dicen que hay un fantasma en el hotel.", "Fantasma es masculino aunque acabe en -a (palabra griega en -ma, como problema): un fantasma.", [], "Corrige la frase."),
+      toEs("El fantasma del castillo da miedo.", "Los fantasmas del castillo dan miedo.", "Fantasma es masculino: los fantasmas. El verbo también pasa a plural: dan.", [], "Cambia al plural."),
+      toEs("Mi abuela celebra el día de Santa Teresa.", "Mi abuelo celebra el día de San Pedro.", "Delante de un nombre de hombre, santo se acorta a «san»: San Pedro. Santa no cambia nunca.", [], "Cambia la frase: es tu abuelo, que se llama Pedro."),
       toEn("Esta semana ha sido un infierno.", "This week has been hell.", "Ser un infierno = to be hell, muy difícil o desagradable.", ["This week has been a nightmare.", "This week was hell."]),
       toEn("En la leyenda, el diablo le ofrece dinero a un pobre hombre.", "In the legend, the devil offers money to a poor man.", "El diablo = the devil; «le ofrece» anticipa «a un pobre hombre».", ["In the legend, the devil offers a poor man money."]),
       toEn("La niña dibujó un ángel y un monstruo.", "The girl drew an angel and a monster.", "Un ángel, un monstruo: los dos son masculinos.", ["The little girl drew an angel and a monster."]),
@@ -381,6 +447,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Érase una vez…",
         [
           "Los cuentos tradicionales empiezan con «Érase una vez» (Once upon a time) y tienen personajes como el príncipe, la princesa y el caballero, que lleva una espada.",
+          "Un patrón para los personajes: muchos títulos forman el femenino con -esa o -ina en lugar de cambiar solo la -o: el príncipe → la princesa, el conde → la condesa, el héroe → la heroína, el rey → la reina. Si conoces el patrón, puedes adivinar formas que no están en la lista.",
           "«Caballero» también significa gentleman: un hombre educado. Por eso decimos «Damas y caballeros» (Ladies and gentlemen) y en muchos baños pone «Caballeros».",
         ],
         [
@@ -397,6 +464,12 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             ["Caballeros", "Príncipes", "Héroes", "Enemigos"],
             0,
             "«Caballeros» (gentlemen) es el cartel típico del baño de hombres; el de mujeres dice «Damas» o «Señoras». Príncipes, héroes y enemigos no se usan en carteles."
+          ),
+          mc(
+            "Aplica el patrón: ¿cuál es el femenino de «el duque» (the duke)?",
+            ["la duquesa", "la duqua", "la duquina", "la duque"],
+            0,
+            "Como el príncipe → la princesa y el conde → la condesa, los títulos nobles toman -esa: el duque → la duquesa. «Duqua» aplica la regla de -o/-a, que aquí no sirve."
           ),
         ]
       ),
@@ -429,6 +502,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         [
           "El héroe salva a otros. La forma femenina es «la heroína» (cuidado: «heroína» también es el nombre de una droga). Salvar = to save, to rescue.",
           "Una nave es un barco grande o, hoy, sobre todo una nave espacial (spaceship). La libertad es uno de los grandes temas de las historias de héroes.",
+          "Otro patrón: -dad / -tad convierte un adjetivo en un sustantivo abstracto, como -ty en inglés: libre → la libertad, igual → la igualdad, verdadero → la verdad. Todos son femeninos.",
         ],
         [
           ["El bombero es un héroe: salvó a tres niños del fuego.", "The firefighter is a hero: he saved three children from the fire."],
@@ -444,6 +518,12 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             ["nave espacial", "barco espacial", "coche espacial", "avión espacial"],
             0,
             "Spaceship = nave espacial. «Nave» se usa para barcos y vehículos del espacio; barco, coche o avión espacial no son las palabras que se usan."
+          ),
+          mc(
+            "Aplica el patrón: «leal» = loyal. ¿Cómo se dice «loyalty»?",
+            ["la lealtad", "el lealtad", "la lealeza", "la lealidad"],
+            0,
+            "Adjetivo + -tad → sustantivo femenino, como libre → la libertad: leal → la lealtad. Por ser -tad es femenino (no «el lealtad»), y las otras terminaciones no existen con esta palabra."
           ),
         ]
       ),
@@ -492,6 +572,26 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
     "Ministros, líderes, movimientos y presión: las palabras que más se repiten en las noticias de política y sociedad.",
     "9 min",
     [
+      sec(
+        "La idea: la terminación te dice el género",
+        [
+          "Recuerda la regla: en el vocabulario de la política, la terminación de la palabra casi siempre te dice cómo se comporta. Los sustantivos en -dad, -ción y -sión son femeninos: la sociedad, la unidad, la operación, la presión. Así sabes el género de una palabra nueva sin buscarla: la comunidad, la elección, la decisión.",
+          "Los adjetivos en -al, -ar y -ista no cambian con el género, porque no terminan en -o: el gobierno central / la estación central, el servicio militar / la vida militar, el movimiento ecologista / la asociación ecologista. Por eso nunca se dice «centrala» ni «socialisto».",
+          "Las personas en -o sí suelen tener femenino en -a (el ministro, la ministra), pero «líder» y «miembro» se quedan igual: solo cambia el artículo (la líder) o nada (ella es miembro).",
+        ],
+        [
+          ["la comunidad, la elección, la decisión", "the community, the election, the decision (-dad, -ción, -sión → feminine)"],
+          ["un partido socialista, una diputada socialista", "a socialist party, a socialist (female) MP (-ista doesn't change)"],
+        ],
+        [
+          mc(
+            "Aplica el patrón: «___ manifestación terminó en la plaza mayor.»",
+            ["La", "El", "Los", "Lo"],
+            0,
+            "Manifestación termina en -ción, así que es femenina: la manifestación. «El» y «los» son masculinos y «lo» no acompaña a sustantivos."
+          ),
+        ]
+      ),
       sec(
         "La sociedad y el gobierno",
         [
@@ -605,6 +705,28 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
     "10 min",
     [
       sec(
+        "La idea: terminaciones que traducen solas",
+        [
+          "Casi todas las palabras de esta lección se parecen al inglés porque vienen del latín, y las terminaciones cambian de forma regular. -dad / -tad = -ty: la propiedad (property), la cantidad (quantity), la libertad (liberty). -ía = -y: la teoría (theory). -ción = -tion: la organización. Con estas reglas puedes entender palabras que nunca has estudiado.",
+          "Dos avisos. Primero, el género lo da la terminación: -dad, -tad, -ción e -ía son femeninas (la cantidad, la teoría). Segundo, el parecido no garantiza el uso: el aspecto es también la apariencia (tener buen aspecto = to look well) y una obra puede ser una obra de teatro o unas obras en la calle.",
+        ],
+        [
+          ["la propiedad, la cantidad", "property, quantity (-dad = -ty, femeninas)"],
+          ["la teoría, la geografía", "theory, geography (-ía = -y)"],
+          ["El proyecto necesita una buena organización.", "The project needs good organization. (-ción = -tion)"],
+          ["Tu padre tiene buen aspecto.", "Your father looks well. (aspecto = apariencia, no solo aspect)"],
+        ],
+        [
+          fb("Aplica la regla: forma la palabra española.", "velocity = la ___", "velocidad", "-ty en inglés corresponde a -dad en español: velocity → la velocidad, femenina como todas las palabras en -dad."),
+          mc(
+            "¿El o la? «___ capacidad de la sala es de cien personas.»",
+            ["La", "El"],
+            0,
+            "Capacidad termina en -dad, y todas esas palabras son femeninas: la capacidad. La regla funciona aunque no conozcas la palabra."
+          ),
+        ]
+      ),
+      sec(
         "El trabajo: nivel, proceso y acceso",
         [
           "Muchas palabras del trabajo se parecen al inglés, pero viven en frases fijas. «Un profesional» es una persona experta; «profesional» también es adjetivo: un trabajo profesional.",
@@ -698,9 +820,9 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["la cantidad", "amount"],
           ["la distancia", "distance"],
         ],
-        "Todas se parecen al inglés, pero fíjate en el género: la máquina, el nivel."
+        "Todas se parecen al inglés. Propiedad y cantidad siguen la regla -dad = -ty y son femeninas; máquina y distancia son femeninas por la -a; nivel es masculino."
       ),
-      fb("Completa la frase.", "Tenemos una gran ___ de trabajo esta semana.", "cantidad", "Una gran cantidad de = a large amount of."),
+      fb("Completa la frase.", "Tenemos una gran ___ de trabajo esta semana.", "cantidad", "Una gran cantidad de = a large amount of. Es femenina, como todas las palabras en -dad: una gran cantidad, no «un gran»."),
       fb("Completa la frase.", "Estudio español a ___ con una profesora de México.", "distancia", "Estudiar a distancia = to study remotely."),
       fb("Completa la frase.", "Mi ___ de francés es básico, pero hablo alemán muy bien.", "nivel", "El nivel de un idioma = your level in a language."),
       mc(
@@ -742,7 +864,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "El cuerpo: piel, cuello, pecho, cabello",
         [
           "«La piel» cubre todo el cuerpo (skin). «El cuello» está entre la cabeza y los hombros; también es el cuello de una camisa (collar). «El pecho» es la parte delantera del cuerpo (chest). «El cabello» es un poco más formal que «el pelo»; se ve mucho en los productos: champú para el cabello.",
-          "Recuerda: con las partes del cuerpo usamos el artículo, no el posesivo: me duele el cuello (no «mi cuello»).",
+          "La regla que vale para todo el cuerpo: con las partes del cuerpo usamos el artículo, no el posesivo, porque ya está claro de quién son (me duele, te lavas, tiene): me duele el cuello (no «mi cuello»), me lavo las manos, tiene los ojos verdes. Funciona igual con palabras que no están en esta lista.",
         ],
         [
           ["Me duele el cuello de tanto mirar el ordenador.", "My neck hurts from staring at the computer so much."],
@@ -852,7 +974,12 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
       toEs("Let's go and have a beer.", "Vamos a tomar una cerveza.", "Tomar una cerveza = to have a beer.", ["¿Tomamos una cerveza?", "Vamos a tomarnos una cerveza.", "Vamos a beber una cerveza."]),
       toEs("She has very soft skin.", "Ella tiene la piel muy suave.", "Con partes del cuerpo usamos el artículo: tiene la piel.", ["Tiene la piel muy suave."]),
       toEn("No quiero hablar de mis sentimientos.", "I don't want to talk about my feelings.", "Los sentimientos = feelings; hablar de = to talk about.", ["I do not want to talk about my feelings."]),
-      toEn("¿Te invito a una copa?", "Can I buy you a drink?", "Invitar a una copa = to buy someone a drink.", ["May I buy you a drink?", "Shall I buy you a drink?", "Can I get you a drink?"]),
+      mc(
+        "En un bar, un amigo te dice: «¿Te invito a una copa?». ¿Qué te propone?",
+        ["Pagarte una bebida.", "Darte un vaso vacío.", "Ver un partido de la Copa.", "Que pagues tú la cuenta."],
+        0,
+        "«Invitar a alguien a algo» = pagar por él: te invito a una copa = I'll buy you a drink. «Copa» aquí es la bebida, no el vaso vacío ni el trofeo; y quien invita paga, no tú."
+      ),
       wo("Sin decir nada, se tomó el café de un trago.", "De un trago = in one gulp.", "Without saying a word, he drank the coffee in one gulp."),
       wo("La enfermedad no es peligrosa para una mujer embarazada.", "Una mujer embarazada = a pregnant woman.", "The illness isn't dangerous for a pregnant woman."),
       fb("Completa la frase.", "¡Estáis ___! No podéis nadar en el mar con este frío.", "locos", "Estáis → vosotros, así que plural: locos."),
@@ -876,7 +1003,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
     "b1-common-words-outdoors",
     "Palabras frecuentes: al aire libre",
     "Aprende palabras frecuentes del campo y de la conversación (piedra, polvo, agujero, cerdo, rayos, campamento, lugares, interior, relaciones, asuntos) y expresiones como quedarse de piedra o estar hecho polvo.",
-    "9 min",
+    "10 min",
     [
       sec(
         "En el campamento",
@@ -907,6 +1034,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         [
           "Muchas palabras del campo viven en expresiones. «Quedarse de piedra» = quedarse muy sorprendido. «Estar hecho polvo» = estar muy cansado. «Quitar el polvo» = limpiar los muebles.",
           "«El cerdo» es el animal (pig). Llamar «cerdo» a una persona es un insulto (sucia o mala persona), así que úsalo con cuidado.",
+          "La regla: son expresiones fijas, así que se aprenden enteras y no se traducen palabra por palabra. ¿Por qué importa? Porque su forma no cambia: siempre «de piedra», sin artículo y sin plural (nos quedamos de piedra). Lo único que concuerda es «hecho», que es un participio y sigue a la persona: hecho, hecha, hechos, hechas polvo.",
         ],
         [
           ["Me quedé de piedra cuando vi el precio.", "I was stunned when I saw the price."],
@@ -922,7 +1050,13 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             0,
             "«Estar hecho polvo» = estar agotado, muy cansado. No significa estar sucio, enfadado ni contento."
           ),
-          fb("Completa la frase.", "Cuando me dieron la noticia, me quedé de ___.", "piedra", "Quedarse de piedra = to be stunned."),
+          fb("Completa la frase.", "Cuando me dieron la noticia, me quedé de ___.", "piedra", "Quedarse de piedra = to be stunned. La expresión es fija: siempre «de piedra», en singular y sin artículo."),
+          mc(
+            "Mis primas volvieron de la excursión ___ polvo.",
+            ["hechas", "hecho", "hechos", "hecha"],
+            0,
+            "En «estar hecho polvo», «hecho» es un participio y concuerda con la persona: mis primas (femenino plural) → hechas. «Polvo» no cambia nunca."
+          ),
         ]
       ),
       sec(
@@ -1009,6 +1143,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         [
           "«Apenas» significa casi no (barely, hardly): apenas dormí. Al principio de una frase también puede significar «en cuanto» (as soon as): apenas llegué, me llamó.",
           "«Definitivamente» significa «de forma definitiva, para siempre» (for good). En muchos países también se usa como «sin duda» (definitely). «Verdadero/verdadera» = real, auténtico: la verdadera razón, una verdadera amiga.",
+          "La idea de esta lección: muchas expresiones frecuentes se parecen al inglés, pero su sentido depende del lugar que ocupan en la frase (apenas + verbo = barely; apenas al principio = as soon as) o de la preposición que llevan (a propósito ≠ el propósito; deber ≠ deber de). Fíjate siempre en la posición y en la preposición.",
         ],
         [
           ["Apenas dormí anoche.", "I barely slept last night."],
