@@ -192,7 +192,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "euphemisms-indirect-2": [
     fe("La empresa ha decidido ___ de sus servicios.", "prescindir", "The company has decided to [dispense with] his services.", "«Prescindir de los servicios» es un eufemismo de despedir."),
-    fe("Al final prefirió no ___ por su nombre.", "llamar a las cosas", "In the end she preferred not to [call things] by their name.", "«Llamar a las cosas por su nombre»: hablar sin eufemismos."),
+    fe("En el comunicado nadie se atrevió a ___ por su nombre: hablaron de «medidas de eficiencia».", "llamar a las cosas", "In the statement nobody dared to [call things] by their name: they talked about «efficiency measures».", "«Llamar a las cosas por su nombre» es hablar sin eufemismos; «medidas de eficiencia» es justo lo contrario, un rodeo para no decir «despidos»."),
   ],
   "c2r-euphemism-corporate-rewrite": [
     fe("La empresa va a llevar a cabo una ___ de plantilla.", "reducción", "The company is going to carry out a staff [reduction].", "«Reducción de plantilla» suaviza «despidos».", ["reestructuración", "ajuste", "reorganización"]),
@@ -366,7 +366,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Su ___ impidió cualquier acuerdo.", "intransigencia", "His [intransigence] prevented any agreement.", "«Intransigencia»: negativa a ceder."),
   ],
   "c2r-present-openings": [
-    fe("Hoy quiero ___ de algo que nos afecta a todos.", "hablarles", "Today I want to [talk to you] about something that affects us all.", "«Hablarles» (ustedes): registro formal ante un público.", ["hablaros", "hablar"]),
+    fe("Esta tarde quiero ___ de un problema que casi nadie ve.", "hablarles", "This afternoon I want to [talk to you] about a problem that almost nobody sees.", "Ante un auditorio se usa ustedes: «hablarles», con el pronombre «les» pegado al infinitivo. En España, ante un público joven o cercano, también «hablaros» (vosotros).", ["hablaros"]),
   ],
   "presentations-negotiation-2": [
     fe("Para ___, les dejo una pregunta.", "terminar", "To [finish], I'll leave you with a question.", "Fórmulas de cierre: «para terminar», «para concluir», «en definitiva».", ["concluir", "cerrar", "acabar", "finalizar"]),
@@ -423,7 +423,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("La autora ___ que el estudio tiene limitaciones.", "reconoce", "The author [acknowledges] that the study has limitations.", "«Reconocer», «admitir»: verbos de atribución que conceden.", ["admite"]),
   ],
   "c2r-cite-apparatus": [
-    fe("Una biografía de Bolívar es una fuente ___.", "secundaria", "A biography of Bolívar is a [secondary] source.", "Las fuentes secundarias interpretan o comentan las primarias."),
+    fe("Las actas originales del juicio son una fuente ___.", "primaria", "The original records of the trial are a [primary] source.", "Un documento de la época (actas, cartas, diarios) es una fuente primaria: aporta el testimonio original. Un estudio sobre esas actas sería una fuente secundaria."),
   ],
   "citations-references-4": [
     fe("El autor ___ que el método era fiable, aunque no aporta pruebas.", "alega", "The author [claims] the method was reliable, though he provides no evidence.", "«Alegar» como verbo de atribución expresa distancia crítica; «afirma» o «sostiene» son más neutros. («Pretender» significa intentar, no afirmar.)", ["asegura", "afirma", "sostiene"]),
@@ -480,119 +480,109 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Repetir la misma pregunta crea un ___ que el público recuerda.", "eco", "Repeating the same question creates an [echo] that the audience remembers.", "La anáfora interrogativa refuerza la memoria del mensaje.", ["efecto", "ritmo"]),
   ],
   "rhetorical-questions-5": [
-    fe("No sé si ___ llamarlo error o descaro.", "debería", "I don't know whether I [should] call it a mistake or cheek.", "Duda retórica: finge incertidumbre para insinuar.", ["debo"]),
-    fe("Me dirijo a ustedes, los jóvenes: ¿qué ___ que les dejemos?", "quieren", "I'm speaking to you, the young: what [do you want] us to leave you?", "Interpelación a un colectivo.", ["esperan"]),
-    fe("Con esa pregunta quiso ___ a todo el auditorio.", "implicar", "With that question he wanted to [engage] the whole audience.", "La interpelación compromete emocionalmente al oyente.", ["interpelar", "involucrar", "comprometer"]),
+    fe("No sé si ___ llamarlo error o descaro.", "debería", "I don't know whether I [should] call it a mistake or cheek.", "Duda fingida con «no sé si» + condicional (debería) o infinitivo: el orador presenta «descaro» como candidata sin asumirla, y el oyente completa la crítica.", ["debo"]),
+    fe("Me dirijo a ustedes, los jóvenes: ¿qué ___ que les dejemos?", "quieren", "I'm speaking to you, the young: what [do you want] us to leave you?", "Interpelación a un colectivo: tras el vocativo «ustedes, los jóvenes», el verbo va en tercera persona del plural (quieren) y la pregunta los hace responsables de la respuesta.", ["esperan"]),
+    fe("Con esa pregunta quiso ___ a todo el auditorio.", "implicar", "With that question he wanted to [engage] the whole audience.", "«Implicar» (o comprometer) al auditorio es el efecto de la interpelación: dirigir la pregunta al público lo obliga a tomar partido.", ["interpelar", "involucrar", "comprometer"]),
   ],
   "c2r-rhetorical-dialogue-reply": [
-    fe("Esa pregunta da por ___ algo que habría que demostrar.", "hecho", "That question takes [for granted] something that needs proving.", "«Dar por hecho / por sentado»: presuponer.", ["sentado", "supuesto"]),
+    fe("Usted da por ___ que los jóvenes no leen, y los datos dicen lo contrario.", "sentado", "You take it [for granted] that young people don't read, and the data say the opposite.", "«Dar por sentado / por hecho»: presuponer sin demostrar. Nombrar esa suposición es la forma de desvelar la afirmación que esconde una pregunta retórica.", ["hecho", "supuesto"]),
   ],
   "rhetorical-questions-6": [
-    fe("Su discurso estaba lleno de preguntas ___.", "retóricas", "His speech was full of [rhetorical] questions.", "Pregunta retórica: no espera respuesta."),
-    fe("¿A quién se le ___ dejar la puerta abierta en invierno?", "ocurre", "Who [would think of] leaving the door open in winter?", "Pregunta retórica de reproche: «¿A quién se le ocurre…?»."),
-    fe("Abusar de la hipófora genera ___.", "monotonía", "Overusing hypophora creates [monotony].", "La repetición mecánica cansa al oyente.", ["aburrimiento", "cansancio"]),
-    fe("La pregunta era una ___ disfrazada.", "afirmación", "The question was a disguised [statement].", "La pregunta retórica funciona como una aseveración.", ["aseveración", "crítica"]),
+    fe("Su discurso estaba lleno de preguntas ___.", "retóricas", "His speech was full of [rhetorical] questions.", "Pregunta retórica: no espera respuesta porque esconde una afirmación. El adjetivo concuerda en femenino plural con «preguntas»."),
+    fe("¿A quién se le ___ dejar la puerta abierta en invierno?", "ocurre", "Who [would think of] leaving the door open in winter?", "Pregunta retórica de reproche: «¿A quién se le ocurre…?» equivale a «a nadie con sentido común se le ocurriría». «Ocurrírsele algo a alguien» se construye como «gustar»."),
+    fe("Abusar de la hipófora genera ___.", "monotonía", "Overusing hypophora creates [monotony].", "Si el orador se pregunta y se responde una y otra vez, el ritmo se vuelve previsible: la hipófora repetida genera monotonía y pierde fuerza.", ["aburrimiento", "cansancio"]),
+    fe("La pregunta era una ___ disfrazada.", "afirmación", "The question was a disguised [statement].", "Una pregunta retórica es una afirmación con forma de pregunta: «¿Acaso importa?» afirma que no importa.", ["aseveración", "crítica"]),
   ],
   "rhetorical-questions-7": [
-    fe("No lo dijo claramente; fue solo una ___.", "insinuación", "He didn't say it clearly; it was just an [insinuation].", "«Insinuación»: idea sugerida de forma indirecta.", ["indirecta"]),
-    fe("Lo que importa es la fuerza ___ del enunciado: su intención real.", "ilocutiva", "What matters is the [illocutionary] force of the utterance: its real intention.", "Término de pragmática."),
+    fe("No lo dijo claramente; fue solo una ___.", "insinuación", "He didn't say it clearly; it was just an [insinuation].", "Insinuar → insinuación (-ción): una idea sugerida de forma indirecta, lo contrario de decirlo claramente.", ["indirecta"]),
+    fe("Lo que importa es la fuerza ___ del enunciado: su intención real.", "ilocutiva", "What matters is the [illocutionary] force of the utterance: its real intention.", "La fuerza ilocutiva es lo que el hablante hace realmente al hablar (reprochar, afirmar, burlarse), aunque la forma sea interrogativa."),
   ],
   "c2r-rhetorical-vocab-spiral": [
-    fe("Unos lo tienen todo; otros, ___.", "nada", "Some have everything; others, [nothing].", "Antítesis: contrapone ideas opuestas."),
-    fe("Queremos pan. ___ trabajo. Queremos dignidad.", "Queremos", "We want bread. [We want] work. We want dignity.", "Anáfora: repetición al inicio de frases sucesivas."),
+    fe("Unos heredan fortunas; otros, ___.", "deudas", "Some inherit fortunes; others, [debts].", "Antítesis: dos ideas opuestas en estructuras paralelas; la coma marca el verbo omitido («otros heredan deudas»).", ["solo deudas"]),
+    fe("Exigimos respeto. ___ igualdad. Exigimos justicia.", "Exigimos", "We demand respect. [We demand] equality. We demand justice.", "Anáfora: la misma palabra al inicio de frases sucesivas; aquí, además, una tríada de tres reivindicaciones."),
   ],
   "job-interview-spanish-1": [
-    fe("Una de mis ___ es la capacidad de organización.", "fortalezas", "One of my [strengths] is my ability to organize.", "«Fortalezas» frente a «puntos de mejora».", ["virtudes", "puntos fuertes"]),
-    fe("En mi último puesto ___ un equipo de ocho personas.", "dirigí", "In my last position [I managed] a team of eight people.", "Pretérito indefinido para logros concretos.", ["coordiné", "lideré", "gestioné"]),
-    fe("Me gustaría ___ mi experiencia al puesto que ofrecen.", "aportar", "I'd like to [bring] my experience to the position you're offering.", "«Aportar»: contribuir con algo valioso.", ["aplicar"]),
+    fe("Una de mis ___ es la capacidad de organización.", "fortalezas", "One of my [strengths] is my ability to organize.", "«Fortaleza» (de fuerte + -eza) es el término de entrevista para una cualidad destacada; su pareja es «punto de mejora», no «debilidad».", ["virtudes", "puntos fuertes"]),
+    fe("En mi último puesto ___ un equipo de ocho personas.", "dirigí", "In my last position [I managed] a team of eight people.", "El logro que respalda una fortaleza va en pretérito indefinido (dirigí, coordiné): un hecho concreto y terminado, con un dato verificable.", ["coordiné", "lideré", "gestioné"]),
+    fe("Me gustaría ___ mi experiencia al puesto que ofrecen.", "aportar", "I'd like to [bring] my experience to the position you're offering.", "«Aportar algo a» = contribuir con algo valioso: vincula tu fortaleza con lo que necesita el puesto. «Me gustaría» suaviza la afirmación.", ["aplicar"]),
   ],
   "job-interview-spanish-2": [
-    fe("Un punto de ___ es que me cuesta delegar.", "mejora", "One [area for improvement] is that I find it hard to delegate.", "Eufemismo profesional de «debilidad»."),
-    fe("Estoy ___ en ello con un curso de gestión del tiempo.", "trabajando", "I'm [working] on it with a time-management course.", "Muestra acciones concretas para mejorar."),
-    fe("Gracias a ese cambio, ___ los plazos de entrega en un 20 %.", "redujimos", "Thanks to that change, [we cut] delivery times by 20%.", "Resultado medible: verbo en indefinido + dato.", ["acortamos"]),
+    fe("Un punto de ___ es que me cuesta delegar.", "mejora", "One [area for improvement] is that I find it hard to delegate.", "«Punto de mejora» es el eufemismo profesional de «debilidad»: presenta el defecto como algo que se puede corregir."),
+    fe("Estoy ___ en ello con un curso de gestión del tiempo.", "trabajando", "I'm [working] on it with a time-management course.", "«Estar + gerundio» presenta la mejora como un proceso en marcha; el curso es la acción concreta que hace creíble el punto de mejora."),
+    fe("Gracias a ese cambio, ___ los plazos de entrega en un 20 %.", "redujimos", "Thanks to that change, [we cut] delivery times by 20%.", "El resultado se cuenta en indefinido (redujimos), porque es un hecho cerrado, y con un dato medible (un 20 %) que lo hace verificable.", ["acortamos"]),
   ],
   "job-interview-spanish-3": [
     fe("Le pondré un ___ concreto.", "ejemplo", "I'll give you a concrete [example].", "El entrevistador por competencias pide un «ejemplo» (o «caso») real de tu experiencia, no una afirmación general; por eso se dice «Le pondré un ejemplo concreto».", ["caso"]),
-    fe("La ___ era complicada: el cliente amenazaba con irse.", "situación", "The [situation] was complicated: the client was threatening to leave.", "Relato estructurado: situación, tarea, acción, resultado."),
-    fe("Como ___, conseguimos retener al cliente.", "resultado", "As a [result], we managed to keep the client.", "Cierre del relato con el resultado obtenido.", ["consecuencia"]),
+    fe("La ___ era complicada: el cliente amenazaba con irse.", "situación", "The [situation] was complicated: the client was threatening to leave.", "La situación es el contexto de partida del relato por competencias, y por eso va en imperfecto (era, amenazaba): describe el fondo antes de tu acción."),
+    fe("Como ___, conseguimos retener al cliente.", "resultado", "As a [result], we managed to keep the client.", "«Como resultado» abre el cierre del relato; el verbo va en indefinido (conseguimos) porque el resultado es un hecho concreto y terminado.", ["consecuencia"]),
   ],
   "job-interview-spanish-4": [
-    fe("¿Qué posibilidades de ___ ofrece el puesto?", "crecimiento", "What opportunities for [growth] does the position offer?", "Preguntar por el desarrollo profesional muestra motivación.", ["desarrollo", "promoción", "ascenso"]),
+    fe("¿Qué posibilidades de ___ ofrece el puesto?", "crecimiento", "What opportunities for [growth] does the position offer?", "Preguntar por el crecimiento (o desarrollo, promoción) demuestra motivación por el puesto más allá del sueldo: es una buena pregunta de cierre.", ["desarrollo", "promoción", "ascenso"]),
     fe("Mi pretensión ___ está en torno a los 40 000 euros.", "salarial", "My [salary] expectation is around 40,000 euros.", "«Pretensión salarial»: sueldo que se aspira a cobrar.", ["económica"]),
     fe("Quedo a la ___ de su respuesta.", "espera", "I [look forward] to your reply.", "«Quedar a la espera de» es la fórmula fija y formal para cerrar un correo o una carta: lleva el sustantivo «espera», no el verbo «esperar»."),
   ],
   "job-interview-spanish-5": [
     fe("A lo largo de mi ___ he trabajado en tres países.", "trayectoria", "Throughout my [career] I have worked in three countries.", "«Trayectoria laboral/profesional» es el recorrido de puestos y logros de una persona; «carrera» o «vida laboral» son sinónimos aceptables en este contexto.", ["carrera", "trayectoria profesional", "vida laboral"]),
-    fe("Me considero una persona ___: me anticipo a los problemas.", "proactiva", "I consider myself a [proactive] person: I anticipate problems.", "«Proactivo/a»: que actúa por iniciativa propia.", ["previsora", "dinámica"]),
-    fe("Me motiva ___ en un entorno internacional.", "trabajar", "I'm motivated by [working] in an international environment.", "«Me motiva + infinitivo»."),
-    fe("Valoro mucho el trabajo en ___.", "equipo", "I really value [team]work.", "«Trabajo en equipo»: competencia muy valorada."),
+    fe("Me considero una persona ___: me anticipo a los problemas.", "proactiva", "I consider myself a [proactive] person: I anticipate problems.", "Pro- (antes) + activo: la persona proactiva actúa antes de que surja el problema; los dos puntos introducen la prueba (me anticipo).", ["previsora", "dinámica"]),
+    fe("Me motiva ___ en un entorno internacional.", "trabajar", "I'm motivated by [working] in an international environment.", "«Motivar» funciona como «gustar»: me motiva + infinitivo (trabajar), con el verbo en singular porque el sujeto es el infinitivo."),
+    fe("Valoro mucho el trabajo en ___.", "equipo", "I really value [team]work.", "«El trabajo en equipo» es una colocación fija (sin artículo ante «equipo») y una de las competencias más valoradas."),
   ],
   "c2r-interview-error-hunt": [
-    fe("Me ___ de las campañas en redes sociales.", "encargué", "I [was in charge] of the social media campaigns.", "Formula con precisión en lugar de «hice cosas de marketing».", ["ocupé", "encargaba"]),
+    fe("En la tienda me ___ de la gestión del inventario y de la atención al cliente.", "encargué", "At the shop [I was responsible] for stock management and customer service.", "En lugar de «hacía cosas», nombra la responsabilidad concreta: «encargarse de» (pronominal, con «de») en indefinido para un puesto ya terminado.", ["ocupé", "encargaba", "ocupaba"]),
   ],
   "job-interview-spanish-6": [
-    fe("Le adjunto mi ___ actualizado.", "currículum", "I attach my updated [CV].", "También «currículum vítae» o «CV».", ["currículo", "CV", "curriculum", "currículum vítae"]),
-    fe("Puedo darle dos ___ de mis anteriores jefes.", "referencias", "I can give you two [references] from my former bosses.", "«Referencia laboral»: persona que avala tu trabajo."),
-    fe("Decir «soy demasiado perfeccionista» suena a ___.", "tópico", "Saying «I'm too much of a perfectionist» sounds like a [cliché].", "Las respuestas de manual restan credibilidad.", ["cliché", "excusa", "respuesta de manual"]),
-    fe("Estoy acostumbrado a trabajar con plazos ___.", "ajustados", "I'm used to working with [tight] deadlines.", "«Plazos ajustados»: con poco tiempo.", ["ajustadísimos", "cortos", "apretados", "justos", "estrechos"]),
+    fe("Le adjunto mi ___ actualizado.", "currículum", "I attach my updated [CV].", "El documento que resume formación y experiencia es el currículum (o currículo, CV); es masculino, por eso «actualizado».", ["currículo", "CV", "curriculum", "currículum vítae"]),
+    fe("Puedo darle dos ___ de mis anteriores jefes.", "referencias", "I can give you two [references] from my former bosses.", "Una referencia laboral es la persona (o el informe) que avala tu trabajo anterior; «darle» va con usted, el registro de la entrevista."),
+    fe("Decir «soy demasiado perfeccionista» suena a ___.", "tópico", "Saying «I'm too much of a perfectionist» sounds like a [cliché].", "«Sonar a tópico»: disfrazar una fortaleza de debilidad es una respuesta de manual que el entrevistador reconoce enseguida y resta credibilidad.", ["cliché", "excusa", "respuesta de manual"]),
+    fe("Estoy acostumbrado a trabajar con plazos ___.", "ajustados", "I'm used to working with [tight] deadlines.", "«Plazos ajustados» (o apretados) son plazos con poco margen; el adjetivo concuerda en masculino plural con «plazos».", ["ajustadísimos", "cortos", "apretados", "justos", "estrechos"]),
   ],
   "job-interview-spanish-7": [
     fe("Supe ___ el obstáculo y entregamos a tiempo.", "sortear", "I managed to [get around] the obstacle and we delivered on time.", "«Sortear un obstáculo»: evitarlo con habilidad.", ["superar", "salvar"]),
   ],
   "c2r-vocab-latinisms": [
-    fe("Lo hizo ___, sin que nadie se lo pidiera.", "motu proprio", "He did it [of his own accord], without anyone asking him.", "Se escribe «motu proprio», sin «de» y con «proprio».", ["por iniciativa propia"]),
+    fe("La consejera dimitió ___: nadie se lo había pedido.", "motu proprio", "The councillor resigned [of her own accord]: nobody had asked her to.", "Se escribe «motu proprio», sin «de» delante y con «proprio» (no «propio»): el latinismo ya significa «por propia iniciativa».", ["por iniciativa propia", "por voluntad propia"]),
   ],
   "conflict-resolution-1": [
-    fe("Antes de nada, intentemos ___ los ánimos.", "calmar", "First of all, let's try to [calm] tempers.", "«Calmar / templar los ánimos»: reducir la tensión.", ["templar", "serenar", "tranquilizar"]),
-    fe("Entiendo que estés ___; es normal.", "molesto", "I understand you're [upset]; it's normal.", "Validar la emoción desactiva la tensión.", ["molesta", "enfadado", "enfadada", "dolido", "dolida"]),
-    fe("Hablemos con calma y sin ___ la voz.", "levantar", "Let's talk calmly and without [raising] our voices.", "«Levantar / alzar la voz».", ["alzar", "subir"]),
+    fe("Antes de nada, intentemos ___ los ánimos.", "calmar", "First of all, let's try to [calm] tempers.", "«Calmar (templar, serenar) los ánimos» es el primer paso: reducir la tensión antes de tratar el fondo. El imperativo «intentemos» incluye a quien habla.", ["templar", "serenar", "tranquilizar"]),
+    fe("Entiendo que estés ___; es normal.", "molesto", "I understand you're [upset]; it's normal.", "Validar la emoción («Entiendo que estés molesto») desactiva la tensión; el adjetivo concuerda con la persona (molesto / molesta).", ["molesta", "enfadado", "enfadada", "dolido", "dolida"]),
+    fe("Hablemos con calma y sin ___ la voz.", "levantar", "Let's talk calmly and without [raising] our voices.", "«Sin» va seguido de infinitivo: sin levantar (alzar, subir) la voz. El imperativo «hablemos» propone la calma a los dos.", ["alzar", "subir"]),
   ],
   "conflict-resolution-2": [
-    fe("Intenta ___ en su lugar antes de responder.", "ponerte", "Try to [put yourself] in their shoes before answering.", "«Ponerse en el lugar del otro»: empatizar.", ["meterte"]),
-    fe("Comprendo tu ___, aunque no la comparto.", "postura", "I understand your [position], although I don't share it.", "Reconocer la perspectiva ajena sin renunciar a la propia.", ["posición", "opinión", "perspectiva"]),
-    fe("Busquemos una solución en la que ___ ganemos.", "todos", "Let's look for a solution where [we all] win.", "Negociación colaborativa: todos ganan.", ["los dos", "ambos"]),
+    fe("Intenta ___ en su lugar antes de responder.", "ponerte", "Try to [put yourself] in their shoes before answering.", "«Ponerse en el lugar de alguien» es empatizar; el pronombre va unido al infinitivo (ponerte) y concuerda con el sujeto de «intenta» (tú).", ["meterte"]),
+    fe("Comprendo tu ___, aunque no la comparto.", "postura", "I understand your [position], although I don't share it.", "Reconocer la postura del otro no obliga a compartirla: «aunque» + indicativo (comparto) afirma tu desacuerdo. «La» concuerda con «postura».", ["posición", "opinión", "perspectiva"]),
+    fe("Busquemos una solución en la que ___ ganemos.", "todos", "Let's look for a solution where [we all] win.", "Negociación colaborativa: la solución que todavía no existe lleva subjuntivo (ganemos), y «todos» incluye a las dos partes.", ["los dos", "ambos"]),
   ],
   "conflict-resolution-3": [
-    fe("Busquemos un término ___.", "medio", "Let's look for a [middle ground].", "«Término medio»: solución intermedia."),
-    fe("Al final llegaron a un ___ mutuo.", "acuerdo", "In the end they reached a mutual [agreement].", "«Acuerdo mutuo»: aceptado por ambas partes.", ["entendimiento"]),
+    fe("Busquemos un término ___.", "medio", "Let's look for a [middle ground].", "«Término medio»: una solución intermedia que satisface en parte a las dos partes. El imperativo «busquemos» invita a buscarla juntos."),
+    fe("Al final llegaron a un ___ mutuo.", "acuerdo", "In the end they reached a mutual [agreement].", "«Llegar a un acuerdo»: la colocación lleva «a»; «mutuo» subraya que lo aceptan las dos partes.", ["entendimiento"]),
     fe("Siento ___ hecho daño.", "haberte", "I'm sorry [to have] hurt you.", "Disculpa sincera: «siento + infinitivo compuesto» (haber + participio); el pronombre se une a «haber»: haberte hecho daño.", ["haberle"]),
-    fe("Los dos tendréis que ___ un poco.", "ceder", "You'll both have to [give a little].", "«Ceder»: renunciar a parte de lo que se pide.", ["transigir"]),
+    fe("Los dos tendréis que ___ un poco.", "ceder", "You'll both have to [give a little].", "«Ceder» es renunciar a parte de lo que se pide: sin renuncias moderadas de ambos lados no hay término medio.", ["transigir"]),
   ],
   "conflict-resolution-4": [
-    fe("El acuerdo debe ser ___ para ambas partes.", "justo", "The agreement must be [fair] to both sides.", "Un acuerdo percibido como justo es más duradero.", ["equitativo"]),
-    fe("Quiero ___ la relación, no ganar la discusión.", "restaurar", "I want to [repair] the relationship, not win the argument.", "«Restaurar / recomponer la relación».", ["recuperar", "salvar", "arreglar", "recomponer"]),
-    fe("Te pido ___ por lo que dije.", "perdón", "I [apologize] for what I said.", "«Pedir perdón / disculpas».", ["disculpas", "disculpa"]),
+    fe("El acuerdo debe ser ___ para ambas partes.", "justo", "The agreement must be [fair] to both sides.", "Un acuerdo que ambas partes perciben como justo (equitativo) es más duradero que una solución impuesta.", ["equitativo"]),
+    fe("Quiero ___ la relación, no ganar la discusión.", "restaurar", "I want to [repair] the relationship, not win the argument.", "«Restaurar (recomponer, recuperar) la relación» frente a «ganar la discusión»: la reconciliación prioriza el vínculo sobre tener razón.", ["recuperar", "salvar", "arreglar", "recomponer"]),
+    fe("Te pido ___ por lo que dije.", "perdón", "I [apologize] for what I said.", "«Pedir perdón (o disculpas) por algo»: la causa va con «por». Es una disculpa sin condicionantes: no hay «pero» detrás.", ["disculpas", "disculpa"]),
   ],
   "conflict-resolution-5": [
-    fe("Todo fue un ___: entendí mal su mensaje.", "malentendido", "It was all a [misunderstanding]: I misread his message.", "«Malentendido»: interpretación equivocada."),
-    fe("La confianza tarda en ___.", "recuperarse", "Trust takes time to [be restored].", "La reconciliación lleva tiempo.", ["reconstruirse", "recobrarse", "restablecerse", "restaurarse"]),
+    fe("Todo fue un ___: entendí mal su mensaje.", "malentendido", "It was all a [misunderstanding]: I misread his message.", "Mal + entendido: un malentendido es una interpretación equivocada, sin intención de ofender; los dos puntos introducen la explicación."),
+    fe("La confianza tarda en ___.", "recuperarse", "Trust takes time to [be restored].", "«Tardar en + infinitivo»: la confianza tarda en recuperarse (restablecerse). La reconciliación lleva tiempo, y el verbo pronominal indica que el proceso le ocurre a la confianza.", ["reconstruirse", "recobrarse", "restablecerse", "restaurarse"]),
     fe("Una disculpa con «pero» ___ la responsabilidad.", "diluye", "An apology with a «but» [dilutes] responsibility.", "«Diluir» (to dilute) la responsabilidad: un «pero» le quita fuerza al reconocimiento, porque la disculpa sincera no se justifica ni traslada la culpa.", ["reduce", "resta"]),
   ],
   "c2r-conflict-story-detective": [
-    fe("Si te ___ bien, lo que te duele es no sentirte valorada.", "entiendo", "If I [understand] you correctly, what hurts is not feeling valued.", "Reformulación: técnica de escucha activa.", ["he entendido"]),
+    fe("Si le ___ bien, lo que le preocupa es que nadie le avise de los cambios.", "entiendo", "If I [understand] you correctly, what worries you is that nobody tells you about the changes.", "Reformulación de escucha activa: «Si le entiendo bien, lo que le… es…» (con usted, «le»). Devuelve al otro su preocupación con otras palabras para comprobar que se ha entendido.", ["he entendido", "comprendo"]),
   ],
   "conflict-resolution-6": [
-    fe("Reconocer la responsabilidad ___ rompe la dinámica de culpas.", "compartida", "Acknowledging [shared] responsibility breaks the cycle of blame.", "«Responsabilidad compartida»: ambas partes asumen su parte.", ["mutua"]),
-    fe("La mediadora propuso una ___ de una semana.", "tregua", "The mediator proposed a one-week [truce].", "«Tregua»: pausa en un conflicto."),
-    fe("El principal punto de ___ es el reparto de tareas.", "fricción", "The main [point of friction] is how tasks are divided.", "«Punto de fricción»: aspecto que provoca tensión.", ["conflicto", "discordia"]),
-    fe("Practicar la escucha ___ ayuda a desactivar el conflicto.", "activa", "Practicing [active] listening helps defuse conflict.", "«Escucha activa / empática».", ["empática"]),
+    fe("Reconocer la responsabilidad ___ rompe la dinámica de culpas.", "compartida", "Acknowledging [shared] responsibility breaks the cycle of blame.", "«Responsabilidad compartida»: cada parte reconoce su contribución, lo que rompe la dinámica de culparse mutuamente.", ["mutua"]),
+    fe("La mediadora propuso una ___ de una semana.", "tregua", "The mediator proposed a one-week [truce].", "Una tregua es una pausa temporal en un conflicto, no su final: por eso tiene duración (de una semana)."),
+    fe("El principal punto de ___ es el reparto de tareas.", "fricción", "The main [point of friction] is how tasks are divided.", "«Punto de fricción»: el aspecto concreto que provoca la tensión. Identificarlo con precisión es el primer paso para buscar un término medio.", ["conflicto", "discordia"]),
+    fe("Practicar la escucha ___ ayuda a desactivar el conflicto.", "activa", "Practicing [active] listening helps defuse conflict.", "La escucha activa (o empática) atiende a lo que siente y necesita el otro y lo reformula; por eso desactiva el conflicto.", ["empática"]),
   ],
   "c2r-conflict-vocab-web": [
-    fe("Una conversación sincera bastó para ___.", "limar asperezas", "An honest conversation was enough to [smooth things over].", "«Limar asperezas»: suavizar diferencias.", ["hacer las paces"]),
+    fe("Tras la reunión, los dos socios intentaron ___ con una comida informal.", "limar asperezas", "After the meeting, the two partners tried to [smooth things over] with an informal lunch.", "«Limar asperezas»: suavizar las diferencias, como se lima una superficie rugosa; no implica que el conflicto quede zanjado.", ["hacer las paces"]),
   ],
   "conflict-resolution-7": [
-    fe("El mediador intentó ___ entre las dos partes.", "tender puentes", "The mediator tried to [build bridges] between the two sides.", "«Tender puentes»: crear vías de entendimiento."),
-    fe("Firmaron un pacto de ___ entre los vecinos.", "convivencia", "They signed a [coexistence] agreement among the neighbors.", "«Pacto de convivencia»: normas para vivir juntos en armonía."),
-  ],
-  "c2r-history-simultaneous-lines": [
-    fe("___, en la capital crecía el descontento popular.", "Paralelamente", "[At the same time], discontent was growing in the capital.", "Marcador de simultaneidad.", ["Mientras tanto", "Entretanto", "Al mismo tiempo", "Simultáneamente"]),
-  ],
-  "c2r-history-story-detective": [
-    fe("Las autoridades, que ___ ignorado los informes, reaccionaron tarde.", "habían", "The authorities, who [had] ignored the reports, reacted late.", "Pluscuamperfecto: anterioridad respecto a otro hecho pasado."),
-  ],
-  "c2r-vocab-prefixes": [
-    fe("No conviene ___ la capacidad del rival.", "subestimar", "It's not wise to [underestimate] your rival's ability.", "Prefijo «sub-»: por debajo.", ["infravalorar", "menospreciar", "subvalorar"]),
-    fe("Esa medida resultó ___: empeoró el problema.", "contraproducente", "That measure turned out to be [counterproductive]: it made the problem worse.", "Prefijo «contra-»: oposición."),
+    fe("El mediador intentó ___ entre las dos partes.", "tender puentes", "The mediator tried to [build bridges] between the two sides.", "«Tender puentes» es una locución fija: crear vías de entendimiento entre posturas enfrentadas. El verbo es siempre «tender»."),
+    fe("Firmaron un pacto de ___ entre los vecinos.", "convivencia", "They signed a [coexistence] agreement among the neighbors.", "«Pacto de convivencia» (convivir → convivencia): acuerdo que regula cómo vivir juntos tras un conflicto."),
   ],
   "science-technology-spanish-1": [
     fe("Una hipótesis científica debe ser ___.", "falsable", "A scientific hypothesis must be [falsifiable].", "Falsable: que pueda demostrarse errónea.", ["refutable"]),
@@ -602,30 +592,18 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Es una innovación ___: cambia por completo las reglas del mercado.", "disruptiva", "It's a [disruptive] innovation: it completely changes the rules of the market.", "Innovación disruptiva frente a incremental.", ["radical", "rompedora"]),
     fe("La inteligencia artificial plantea serios dilemas ___.", "éticos", "Artificial intelligence raises serious [ethical] dilemmas.", "Dilemas éticos: privacidad, sesgo, responsabilidad.", ["morales"]),
   ],
-  "c2r-tech-disruption-vocab": [
-    fe("El modelo de negocio es ___: puede crecer sin perder eficiencia.", "escalable", "The business model is [scalable]: it can grow without losing efficiency.", "«Escalable»: capaz de crecer manteniendo la eficiencia."),
-  ],
   "science-technology-spanish-3": [
     fe("El algoritmo reproduce un ___ presente en los datos.", "sesgo", "The algorithm reproduces a [bias] present in the data.", "«Sesgo algorítmico».", ["prejuicio"]),
     fe("Nadie entiende cómo decide: es una caja ___.", "negra", "Nobody understands how it decides: it's a [black box].", "«Caja negra»: sistema cuyo funcionamiento interno es opaco."),
     fe("La doctora publica sus ___ para que otros puedan comprobarlos.", "protocolos", "The doctor publishes her [protocols] so that others can check them.", "Ciencia abierta: publicar métodos y datos.", ["métodos"]),
   ],
-  "c2r-science-popularize": [
-    fe("El hallazgo es prometedor, pero todavía queda mucho por ___.", "investigar", "The finding is promising, but there's still a lot to [research].", "«Quedar mucho por + infinitivo».", ["hacer", "estudiar"]),
-  ],
   "environment-politics-spanish-1": [
     fe("Necesitamos un modelo de desarrollo ___.", "sostenible", "We need a [sustainable] development model.", "Desarrollo sostenible: no compromete a las generaciones futuras."),
     fe("Reducir las ___ de gases es urgente.", "emisiones", "Reducing gas [emissions] is urgent.", "«Emisiones de gases de efecto invernadero»."),
   ],
-  "c2r-climate-vocab-web": [
-    fe("Plantar cultivos resistentes a la sequía es una medida de ___.", "adaptación", "Planting drought-resistant crops is an [adaptation] measure.", "Adaptación: prepararse para los efectos del cambio climático."),
-  ],
   "environment-politics-spanish-2": [
     fe("La ___ política dificulta cualquier acuerdo.", "polarización", "Political [polarization] makes any agreement difficult.", "Polarización: división en bandos enfrentados."),
     fe("Los gobernantes deben rendir ___ ante los ciudadanos.", "cuentas", "Those in power must be [accountable] to citizens.", "«Rendir cuentas»: responder de la propia gestión."),
-  ],
-  "c2r-politics-polarization-register": [
-    fe("Coincidimos en el objetivo, pero ___ en los medios.", "discrepamos", "We agree on the goal, but [we disagree] on the means.", "Lenguaje deliberativo: discrepar sin descalificar.", ["diferimos"]),
   ],
   "environment-politics-spanish-3": [
     fe("El ___ enfrenta a un pueblo virtuoso con una élite corrupta.", "populismo", "[Populism] pits a virtuous people against a corrupt elite.", "Definición clásica del populismo."),
@@ -640,16 +618,10 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Para el ___, la realidad fundamental es de naturaleza mental.", "idealismo", "For [idealism], fundamental reality is mental in nature.", "Idealismo frente a materialismo."),
     fe("El argumento es válido, pero sus ___ son falsas.", "premisas", "The argument is valid, but its [premises] are false.", "Validez formal frente a verdad de las premisas."),
   ],
-  "c2r-philosophy-abstract-nouns": [
-    fe("No confundas la apariencia con la ___.", "esencia", "Don't confuse appearance with [essence].", "Par conceptual: apariencia / esencia (o realidad).", ["realidad"]),
-  ],
   "philosophy-abstract-concepts-3": [
     fe("El ___ niega que la vida tenga un sentido objetivo.", "nihilismo", "[Nihilism] denies that life has an objective meaning.", "Nihilismo: negación de valores o sentido absolutos."),
     fe("No fue un sofisma, sino un ___: se equivocó sin querer.", "paralogismo", "It wasn't a sophism but a [paralogism]: he was wrong without meaning to be.", "Paralogismo: razonamiento falso sin intención de engañar."),
     fe("La moral de una época no siempre ___ un examen ético riguroso.", "resiste", "The morality of an era doesn't always [withstand] rigorous ethical scrutiny.", "«Resistir un examen»: superarlo.", ["supera", "aguanta", "soporta"]),
-  ],
-  "c2r-philosophy-mission-essay-paragraph": [
-    fe("Tener más opciones no ___ necesariamente ser más libre.", "implica", "Having more options doesn't necessarily [mean] being freer.", "«Implicar»: tener como consecuencia lógica.", ["significa", "supone", "equivale a"]),
   ],
   "psychology-emotions-1": [
     fe("Siente una profunda ___ hacia su padre: lo admira y le guarda rencor a la vez.", "ambivalencia", "He feels a deep [ambivalence] towards his father: he admires and resents him at the same time.", "Ambivalencia: sentimientos opuestos hacia lo mismo."),
@@ -707,18 +679,18 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Guardó la última carta sin ___.", "abrirla", "She put away the last letter without [opening it].", "«Sin + infinitivo» con pronombre enclítico."),
   ],
   "c2r-vocab-light-verb-idioms": [
-    fe("Esperaba un ascenso y se ___ un buen chasco.", "llevó", "He was expecting a promotion and [got] a nasty disappointment.", "«Llevarse un chasco»: decepcionarse."),
+    fe("Fuimos a ese restaurante por las buenas críticas y nos ___ un buen chasco.", "llevamos", "We went to that restaurant because of the good reviews and [got] a real letdown.", "«Llevarse un chasco»: decepcionarse. Es pronominal, así que el pronombre concuerda con el sujeto: nos llevamos."),
   ],
   "c1c2-comprehensive-review-3": [
     fe("En la reunión fuimos directamente ___.", "al grano", "In the meeting we went straight [to the point].", "«Ir al grano»: hablar sin rodeos."),
     fe("Puedes ___ el significado a partir del contexto.", "inferir", "You can [infer] the meaning from the context.", "Estrategia de comprensión: inferir por el contexto.", ["deducir"]),
   ],
   "c2r-challenge-phraseology-no-hints": [
-    fe("Hay que poner los puntos sobre las ___.", "íes", "We need to [dot the i's and cross the t's].", "«Poner los puntos sobre las íes»: aclarar algo con precisión.", ["ies"]),
-    fe("Lo pillaron con las manos en la ___.", "masa", "They caught him [red-handed].", "«Con las manos en la masa»: en flagrante delito."),
+    fe("Antes de firmar, conviene poner los puntos sobre las ___ con el proveedor.", "íes", "Before signing, it's best to [spell things out clearly] with the supplier.", "«Poner los puntos sobre las íes»: aclarar algo con precisión para que no quede ninguna duda. «Íes» es el plural de la letra i.", ["ies"]),
+    fe("Sorprendieron al tesorero con las manos en la ___, sacando dinero de la caja.", "masa", "They caught the treasurer [red-handed], taking money from the till.", "«Con las manos en la masa»: en el momento mismo de hacer algo indebido. La locución no admite otro sustantivo."),
   ],
   "c2r-challenge-text-detective": [
-    fe("En palabras ___, el concejal afirmó que el proyecto mejorará la movilidad.", "textuales", "In his [exact] words, the councillor stated that the project will improve mobility.", "«En palabras textuales»: cita literal.", ["literales"]),
+    fe("La alcaldesa, en palabras ___, calificó la protesta de «exagerada».", "textuales", "The mayor, in her [exact] words, described the protest as «exaggerated».", "«En palabras textuales» anuncia una cita literal; las comillas la reproducen tal cual y marcan distancia.", ["literales"]),
     fe("Es cierto que el tráfico es un problema; ___, talar el parque no es la solución.", "ahora bien", "It's true that traffic is a problem; [that said], cutting down the park is not the solution.", "«Es cierto que…; ahora bien, …»: se concede un punto y se introduce la objeción. «Dicho esto», «sin embargo» y «no obstante» cumplen la misma función.", ["sin embargo", "no obstante", "dicho esto", "aun así"]),
   ],
   "c2r-challenge-argue-to-the-limit": [
