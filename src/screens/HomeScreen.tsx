@@ -539,7 +539,9 @@ const styles = StyleSheet.create({
   // crowded right underneath it.
   centerSection: { flex: 1, justifyContent: "center", gap: 18 },
   heading: { alignItems: "center" },
-  title: { fontFamily: fonts.logo, fontSize: 38, lineHeight: 58, color: colors.foreground },
+  // Side padding: Pacifico's script letters swing past the box iOS measures
+  // for them and would lose the edges of the "D" and the final "d" (as on Login).
+  title: { fontFamily: fonts.logo, fontSize: 38, lineHeight: 58, paddingHorizontal: 12, color: colors.foreground },
   subtitle: { fontSize: 13, color: colors.inkMuted, marginTop: 0 },
   langRow: { flexDirection: "row", flexWrap: "wrap", gap: 8, justifyContent: "center" },
   langPill: {
