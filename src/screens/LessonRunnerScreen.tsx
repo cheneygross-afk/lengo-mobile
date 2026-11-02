@@ -10,6 +10,7 @@ import {
   Alert,
   ActivityIndicator,
   Keyboard,
+  Platform,
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
@@ -395,6 +396,18 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   // hidden behind the sheet). The keyboard goes away first.
   const scrollRef = useRef<ScrollView>(null);
   const [sheetHeight, setSheetHeight] = useState(300);
+  // Room under the step for an open keyboard on Android, so a typed answer
+  // can scroll above it (iOS insets the scroll view itself, below).
+  const [androidKeyboard, setAndroidKeyboard] = useState(0);
+  useEffect(() => {
+    if (Platform.OS !== "android") return;
+    const show = Keyboard.addListener("keyboardDidShow", (e) => setAndroidKeyboard(e.endCoordinates.height));
+    const hide = Keyboard.addListener("keyboardDidHide", () => setAndroidKeyboard(0));
+    return () => {
+      show.remove();
+      hide.remove();
+    };
+  }, []);
   useEffect(() => {
     if (!feedback) return;
     Keyboard.dismiss();
@@ -575,8 +588,12 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       <ScrollView
         ref={scrollRef}
         style={s.stepArea}
-        contentContainerStyle={[s.stepContent, feedback && { paddingBottom: sheetHeight + 24 }]}
+        contentContainerStyle={[
+          s.stepContent,
+          feedback ? { paddingBottom: sheetHeight + 24 } : androidKeyboard > 0 && { paddingBottom: androidKeyboard + 40 },
+        ]}
         keyboardShouldPersistTaps="handled"
+        automaticallyAdjustKeyboardInsets
       >
         {currentStep?.kind === "teach" && (
           <TeachStep
