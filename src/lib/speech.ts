@@ -256,7 +256,7 @@ let currentPlayer: AudioPlayer | null = null;
 // Clips heard this session, kept loaded so tapping the same word again
 // plays at once instead of streaming it again. Oldest dropped first past
 // TAP_PLAYERS_SIZE.
-const TAP_PLAYERS_SIZE = 30;
+const TAP_PLAYERS_SIZE = 60;
 const tapPlayers = new Map<string, AudioPlayer>();
 // The kept player playing right now, if any (paused, not removed, to stop).
 let currentTap: AudioPlayer | null = null;
@@ -409,11 +409,10 @@ function generateInBackground(text: string, lang: SpeechLang, voice: Pronunciati
 }
 
 // How long a first tap waits for its clip to be made before the device
-// voice says it instead. In a new course (Portuguese) nearly every first
-// tap is a clip nobody has asked for yet, and without this wait the
-// learner heard the robotic device voice for each word first, then the
-// Google voice for the same word the next time.
-const GENERATION_WAIT_MS = 1500;
+// voice says it instead. A longer wait (it was 1.5 s) made every first tap
+// on a new word feel like the audio lagged behind the finger; the clip is
+// still made in the background and plays at once the next time.
+const GENERATION_WAIT_MS = 400;
 
 // Asks the website's shared /api/pronounce route to render this exact
 // text (it isn't cached yet), uploading the result to storage for every
@@ -524,6 +523,44 @@ export function speak(text: string, requestedLang: SpeechLang, rate = 1) {
     if (run !== readAloudRun) return;
     void speakOnDevice(clean, lang, rate);
   })();
+}
+
+// Clips being fetched ahead of a tap, and ones found not to exist.
+const prefetching = new Set<string>();
+const prefetchMissing = new Set<string>();
+
+/** Loads the clip for `text` before it is tapped (call it when the text
+ * appears or on touch-down), so the tap plays at once instead of after a
+ * download. Does nothing for a clip that isn't cached yet: those are made
+ * on the first tap, not for every word on screen. */
+export function prefetchSpeech(text: string, requestedLang: SpeechLang): void {
+  if (!pronunciationEnabled) return;
+  const clean = speechText(text, requestedLang);
+  const lang = voiceLang(requestedLang);
+  if (!clean || !hasCloudVoice(lang)) return;
+  const url = audioUrl(clean, lang, preferredVoice);
+  if (tapPlayers.has(url) || prefetching.has(url) || prefetchMissing.has(url)) return;
+  prefetching.add(url);
+  try {
+    const player = createAudioPlayer(url);
+    const sub = player.addListener("playbackStatusUpdate", (status: AudioStatus) => {
+      if (status.error) {
+        sub.remove();
+        prefetching.delete(url);
+        prefetchMissing.add(url);
+        try {
+          player.remove();
+        } catch {}
+      } else if (status.isLoaded) {
+        sub.remove();
+        prefetching.delete(url);
+        knownClips.add(url);
+        keepPlayer(url, player);
+      }
+    });
+  } catch {
+    prefetching.delete(url);
+  }
 }
 
 // iOS only records while the audio session allows it, and while it does,
