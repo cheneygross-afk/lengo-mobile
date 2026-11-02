@@ -5,6 +5,7 @@ import { Pacifico_400Regular, useFonts } from "@expo-google-fonts/pacifico";
 import { Fraunces_600SemiBold, Fraunces_700Bold } from "@expo-google-fonts/fraunces";
 import { AuthProvider } from "@/lib/auth/AuthContext";
 import RootNavigator from "@/navigation/RootNavigator";
+import UpdateGate from "@/components/UpdateGate";
 
 export default function App() {
   // The wordmark font (Pacifico, as in the web app's header) and the
@@ -20,6 +21,7 @@ export default function App() {
     <SafeAreaProvider>
       <AuthProvider>
         <RootNavigator />
+        <UpdateGate />
         <StatusBar style="auto" />
       </AuthProvider>
     </SafeAreaProvider>
