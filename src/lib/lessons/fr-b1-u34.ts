@@ -1117,7 +1117,7 @@ export const FR_B1_U34: Lesson[] = [
       {
         heading: "Survival situations and word webs",
         body: [
-          "Unit 29 and 30 phrases you'll need constantly: on the phone \"C'est de la part de qui ?\", \"Ne quittez pas, je vous le passe\"; at the bank \"un virement\", \"être à découvert\", \"faire opposition\"; renting \"le loyer charges comprises\", \"la caution\", \"l'état des lieux\"; complaints \"Ce n'est pas normal que...\", \"Je vous serais reconnaissant de...\".",
+          "Phrases from Units 29 and 30 you'll need constantly: on the phone \"C'est de la part de qui ?\", \"Ne quittez pas, je vous le passe\"; at the bank \"un virement\", \"être à découvert\", \"faire opposition\"; renting \"le loyer charges comprises\", \"la caution\", \"l'état des lieux\"; complaints \"Ce n'est pas normal que...\", \"Je vous serais reconnaissant de...\".",
           "And the word webs: city (\"les transports en commun\", \"les heures de pointe\", \"la banlieue\"), work (\"embaucher\", \"démissionner\", \"une formation\"), money (\"faire des économies\", \"la monnaie\" = change), education (\"passer un examen\" = to take it, \"réussir\" = to pass), and news (\"un fait divers\", \"le suspect aurait...\").",
         ],
         examples: [
@@ -1189,7 +1189,7 @@ export const FR_B1_U34: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Is the rent including bills?",
+        source: "Does the rent include bills?",
         answer: "Est-ce que le loyer est charges comprises ?",
         altAnswers: ["Le loyer est charges comprises ?", "Les charges sont comprises dans le loyer ?", "Est-ce que les charges sont comprises dans le loyer ?", "Les charges sont-elles comprises dans le loyer ?", "Est-ce que les charges sont comprises ?"],
         explanation: "\"Charges comprises\" (bills included) is the standard phrase in French rental ads.",

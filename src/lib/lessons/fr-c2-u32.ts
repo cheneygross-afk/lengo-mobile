@@ -405,7 +405,7 @@ export const FR_C2_U32: Lesson[] = [
         prompt: "Translate into French (literary narrative).",
         source: "Another of his moods, no doubt.",
         answer: "Encore une de ses humeurs, sans doute.",
-        altAnswers: ["Encore une de ses sautes d'humeur, sans doute.", "Une de ses humeurs, sans doute."],
+        altAnswers: ["Encore une de ses sautes d'humeur, sans doute."],
         explanation: "Free indirect style: the character's innocent explanation hides the clue.",
       },
       {
@@ -868,7 +868,7 @@ export const FR_C2_U32: Lesson[] = [
           "Perec's novel \"La Disparition\" (1969) is a lipogram: some three hundred pages without a single letter e, the most frequent letter in French. Try it yourself; this original sentence contains no e: « Un soir, à Lyon, un garçon distrait sortit sans anorak. Il plut. Il courut jusqu'à son logis, trop tard : tout son habit gouttait. » The constraint forces surprising word choices: \"logis\" instead of \"maison\", \"habit\" instead of \"vêtements\".",
         ],
         examples: [
-          { es: "L'Oulipo a été fondé en 1960 par Raymond Queneau et François Le Lionnais.", en: "The Oulipo was founded in 1960 by Raymond Queneau and the mathematician Le Lionnais." },
+          { es: "L'Oulipo a été fondé en 1960 par l'écrivain Raymond Queneau et le mathématicien François Le Lionnais.", en: "The Oulipo was founded in 1960 by the writer Raymond Queneau and the mathematician Le Lionnais." },
           { es: "La contrainte, loin de brider l'écrivain, le pousse à inventer.", en: "Far from restricting the writer, the constraint pushes him to invent." },
           { es: "Métro. Matin. Pied écrasé. Dame furieuse.", en: "Metro. Morning. Foot crushed. Woman furious." },
           { es: "Il m'a été donné d'assister à un incident regrettable.", en: "I happened to witness an unfortunate incident." },

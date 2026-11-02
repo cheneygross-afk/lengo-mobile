@@ -45,7 +45,7 @@ export const FR_B1_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which one is a firm plan?",
+            question: "How do you say: I'll take the 8 o'clock train? (a firm plan)",
             options: ["Je prendrai le train de 8 h.", "Je prendrais bien le train de 8 h.", "Je prendrais le train, peut-être.", "Je prendrais volontiers le train."],
             correctIndex: 0,
             explanation: "A precise time and no softener: future \"prendrai\".",
@@ -226,7 +226,7 @@ export const FR_B1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is a polite request?",
+        question: "How do you say: Could you close the door? (a polite request to a friend)",
         options: ["Tu pourrais fermer la porte ?", "Tu pourras fermer la porte ?", "Tu pouvais fermer la porte ?", "Tu as pu fermer la porte ?"],
         correctIndex: 0,
         explanation: "\"Pourrais\" (conditional) softens a request.",
@@ -475,7 +475,7 @@ export const FR_B1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct spoken French?",
+        question: "How do you say: Apparently he's ill? (in conversation)",
         options: ["Il paraît qu'il est malade.", "Il paraît qu'il serait malade.", "Il paraît qu'il soit malade.", "Il paraît qu'il sera malade hier."],
         correctIndex: 0,
         explanation: "\"Il paraît que\" + indicative. Adding the conditional doubles the hearsay.",
@@ -942,7 +942,7 @@ export const FR_B1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: Don't get up? (to a friend)",
         options: ["Ne te lève pas.", "Ne lève-toi pas.", "Lève-toi pas ne.", "Ne te lèves pas."],
         correctIndex: 0,
         explanation: "Negative: \"te\" before the verb, and no -s on an -er tu imperative.",
@@ -1702,7 +1702,7 @@ export const FR_B1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I could help you? (to a friend)",
         options: ["Je pourrais t'aider.", "Je pouverais t'aider.", "Je pourai t'aider.", "Je pouvrais t'aider."],
         correctIndex: 0,
         explanation: "\"Pourr-\" with two r's + \"-ais\".",
@@ -2469,7 +2469,7 @@ export const FR_B1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I'd like you to do the washing-up? (to a friend)",
         options: [
           "J'aimerais que tu fasses la vaisselle.",
           "J'aimerais que tu fais la vaisselle.",
@@ -2547,10 +2547,10 @@ export const FR_B1_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
-            options: ["le héros", "l'héros", "la héros", "les z-héros"],
+            question: "How do you say: The hero is a postman?",
+            options: ["Le héros est un facteur.", "L'héros est un facteur.", "La héros est un facteur.", "Les héros est un facteur."],
             correctIndex: 0,
-            explanation: "Aspirated h: \"le héros\", no elision.",
+            explanation: "Aspirated h: \"le héros\", no elision. \"Héros\" is masculine; the feminine is \"l'héroïne\".",
           },
         ],
       },

@@ -163,7 +163,7 @@ export const FR_A1_U10: Lesson[] = [
         prompt: "Put the words in order to say: The children have a big dog.",
         words: ["Les", "enfants", "ont", "un", "grand", "chien."],
         translation: "The children have a big dog.",
-        explanation: "\"Ont\" (have) with a z liaison after \"les enfants\"; \"grand\" goes before the noun.",
+        explanation: "\"Ont\" (have) after \"les_enfants\" (z liaison after \"les\"); \"grand\" goes before the noun.",
       },
       {
         type: "translate",

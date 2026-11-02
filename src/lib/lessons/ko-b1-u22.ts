@@ -291,7 +291,7 @@ export const KO_B1_U22: Lesson[] = [
         heading: "-기 for rules",
         body: [
           "House, class and office rules are lists too, so they use -기: 우리 집 규칙: 신발 벗기, 밤 10시 이후에 세탁기 안 돌리기. Read as agreed actions, they sound friendlier than commands, which is why share houses and kindergartens love them.",
-          "For 'don't', put 안 before the verb or use -지 않기: 세탁기 안 돌리기 = 세탁기 돌리지 않기. Posters also use -지 말기 (복도에서 뛰지 말기). With a 하다 verb built on a noun, 안 goes right before 하다: 지각 안 하기, not *안 지각하기.",
+          "For 'don't', put 안 before the verb or use -지 않기: 세탁기 안 돌리기 = 세탁기 돌리지 않기. Posters also use -지 말기 (복도에서 뛰지 말기). With a 하다 verb built on a noun, 안 goes right before 하다: 지각 안 하기. 안 지각하기 is heard but not standard.",
         ],
         examples: [
           { es: "우리 집 규칙: 신발 벗기, 밤 10시 이후에 세탁기 안 돌리기.", en: "Our house rules: take off your shoes, no washing machine after 10 p.m." },
@@ -317,7 +317,7 @@ export const KO_B1_U22: Lesson[] = [
             source: "Don't be late for meetings.",
             answer: "회의에 지각하지 않기.",
             altAnswers: ["회의에 지각 안 하기.", "회의에 늦지 않기.", "회의에 안 늦기.", "회의에 지각하지 말기.", "회의에 늦지 말기."],
-            explanation: "-지 않기 or 안 + -기 for 'don't'. With 지각하다, 안 goes before 하다: 지각 안 하기, never *안 지각하기.",
+            explanation: "-지 않기 or 안 + -기 for 'don't'. With 지각하다, 안 goes before 하다: 지각 안 하기 (안 지각하기 is heard, but not standard).",
           },
           {
             type: "multiple-choice",
@@ -664,7 +664,7 @@ export const KO_B1_U22: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Please throw cooking oil away separately.",
         answer: "식용유는 따로 버려 주세요.",
-        altAnswers: ["식용유는 따로 버리세요.", "식용유는 따로 버려 주십시오.", "식용유는 따로 버리십시오.", "식용유는 따로 버려야 돼요."],
+        altAnswers: ["식용유는 따로 버리세요.", "식용유는 따로 버려야 돼요."],
         explanation: "식용유 is said [시굥뉴]: 용 links across, and an [ㄴ] is added before 유.",
       },
       {
@@ -907,7 +907,7 @@ export const KO_B1_U22: Lesson[] = [
     level: "KO-B1",
     number: 5,
     title: "Apartment Notices (안내문)",
-    summary: "Read a 관리사무소 notice: its frame (일시, 장소, 대상, 문의), water and power cuts, inspections, recycling days, noise between floors, and dates like 10월 25일(금) 오전 9시~12시.",
+    summary: "Read a 관리사무소 notice: its frame (일시, 장소, 대상, 문의), water and power cuts, inspections, recycling days, noise between floors, and dates like 10월 23일(금) 오전 9시~12시.",
     duration: "14 min",
     sections: [
       {
@@ -918,7 +918,7 @@ export const KO_B1_U22: Lesson[] = [
         ],
         examples: [
           { es: "엘리베이터 점검 안내", en: "Notice: lift inspection" },
-          { es: "일시: 10월 25일(금) 오전 9시~12시", en: "Date and time: Friday 25 October, 9 a.m. to 12 noon" },
+          { es: "일시: 10월 23일(금) 오전 9시~12시", en: "Date and time: Friday 23 October, 9 a.m. to 12 noon" },
           { es: "대상: 101동 전 세대", en: "Affected: all households in Building 101" },
           { es: "점검 시간에는 엘리베이터를 이용하실 수 없습니다.", en: "The lift cannot be used during the inspection." },
           { es: "문의: 관리사무소", en: "Enquiries: management office" },
@@ -994,13 +994,13 @@ export const KO_B1_U22: Lesson[] = [
         heading: "Recycling days, noise, and reading dates",
         body: [
           "Two topics fill the rest of the noticeboard: 분리수거, sorting the recycling, with set days and hours, and 층간 소음, noise between floors, the most common neighbour dispute in Korean apartments. Noise notices ask residents to avoid running the washing machine late at night and letting children run indoors.",
-          "Read dates with Sino-Korean numbers: 10월 25일(금) is 시월 이십오 일 금요일. Two months drop a final consonant: 6월 is 유월 and 10월 is 시월. Hours are native numbers, and the tilde is read 부터 ... 까지: 오전 9시~12시 is 오전 아홉 시부터 열두 시까지.",
+          "Read dates with Sino-Korean numbers: 10월 23일(금) is 시월 이십삼 일 금요일. Two months drop a final consonant: 6월 is 유월 and 10월 is 시월. Hours are native numbers, and the tilde is read 부터 ... 까지: 오전 9시~12시 is 오전 아홉 시부터 열두 시까지.",
         ],
         examples: [
           { es: "분리수거는 매주 수요일 저녁 6시부터 9시까지입니다.", en: "Recycling is every Wednesday from 6 to 9 p.m." },
           { es: "늦은 밤에는 세탁기 사용을 자제해 주시기 바랍니다.", en: "Please refrain from using the washing machine late at night." },
           { es: "아이들이 뛰는 소리 때문에 아래층에서 연락이 왔어요.", en: "The downstairs neighbours contacted us about the kids running around." },
-          { es: "점검은 시월 이십오 일 금요일 오전이에요.", en: "The inspection is on Friday 25 October, in the morning." },
+          { es: "점검은 시월 이십삼 일 금요일 오전이에요.", en: "The inspection is on Friday 23 October, in the morning." },
         ],
         checkpoint: [
           {
@@ -1041,8 +1041,8 @@ export const KO_B1_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A notice says 일시: 10월 25일(금) 오전 9시~12시. When is it?",
-        options: ["Friday 25 October, 9 a.m. to noon", "Friday 25 October, 9 p.m. to midnight", "Friday 12 October, from 9 to 25", "Thursday 25 October, 9 a.m. to noon"],
+        question: "A notice says 일시: 10월 23일(금) 오전 9시~12시. When is it?",
+        options: ["Friday 23 October, 9 a.m. to noon", "Friday 23 October, 9 p.m. to midnight", "Friday 12 October, from 9 to 23", "Thursday 23 October, 9 a.m. to noon"],
         correctIndex: 0,
         explanation: "(금) is 금요일 'Friday', 오전 is a.m., and ~ means 'from ... to': 오전 아홉 시부터 열두 시까지.",
       },
@@ -1108,10 +1108,10 @@ export const KO_B1_U22: Lesson[] = [
       },
       {
         type: "speak",
-        prompt: "Read the notice line aloud: Date and time: Friday 25 October, 9 a.m. to 12 noon.",
-        text: "일시: 시월 이십오 일 금요일 오전 아홉 시부터 열두 시까지",
+        prompt: "Read the notice line aloud: Date and time: Friday 23 October, 9 a.m. to 12 noon.",
+        text: "일시: 시월 이십삼 일 금요일 오전 아홉 시부터 열두 시까지",
         tip: "Say 시월, not 십월, and read 일시 as [일씨].",
-        explanation: "Dates are Sino-Korean (시월 이십오 일), hours native (아홉 시, 열두 시), and ~ is read 부터 ... 까지.",
+        explanation: "Dates are Sino-Korean (시월 이십삼 일), hours native (아홉 시, 열두 시), and ~ is read 부터 ... 까지.",
       },
     ],
   },
@@ -1165,7 +1165,7 @@ export const KO_B1_U22: Lesson[] = [
             prompt: "Translate into Korean (a clerk to you, polite).",
             source: "Please sign here.",
             answer: "여기에 서명해 주세요.",
-            altAnswers: ["여기 서명해 주세요.", "여기에 사인해 주세요.", "여기 사인해 주세요.", "여기에 서명해 주십시오.", "여기에 서명하세요.", "여기 서명하세요."],
+            altAnswers: ["여기 서명해 주세요.", "여기에 사인해 주세요.", "여기 사인해 주세요.", "여기에 서명하세요.", "여기 서명하세요."],
             explanation: "서명하다 is the form word for 'sign'; in speech 사인하다 is just as common.",
           },
         ],
@@ -1248,7 +1248,7 @@ export const KO_B1_U22: Lesson[] = [
             question: "A clinic form asks 알레르기. You have none. What do you write?",
             options: ["없음", "안 있음", "없기", "아니에요"],
             correctIndex: 0,
-            explanation: "Forms take memo style: 없음. *안 있음 is not Korean (the opposite of 있다 is 없다), and 없기 would be a to-do item.",
+            explanation: "Forms take memo style: 없음. 안 있음 is wrong here (the opposite of 있다 is 없다), and 없기 would be a to-do item.",
           },
         ],
       },
@@ -1292,7 +1292,7 @@ export const KO_B1_U22: Lesson[] = [
         prompt: "Translate into Korean (a clerk to you, polite).",
         source: "Please write your date of birth here.",
         answer: "여기에 생년월일을 써 주세요.",
-        altAnswers: ["여기에 생년월일을 적어 주세요.", "여기 생년월일을 써 주세요.", "여기 생년월일 써 주세요.", "생년월일을 여기에 써 주세요.", "여기에 생년월일을 기재해 주세요.", "여기에 생년월일을 써 주십시오.", "여기에 생년월일을 쓰세요."],
+        altAnswers: ["여기에 생년월일을 적어 주세요.", "여기 생년월일을 써 주세요.", "여기 생년월일 써 주세요.", "생년월일을 여기에 써 주세요.", "여기에 생년월일을 기재해 주세요.", "여기에 생년월일을 쓰세요."],
         explanation: "생년월일 'date of birth' + 을 써 주세요.",
       },
       {
@@ -1402,7 +1402,7 @@ export const KO_B1_U22: Lesson[] = [
             prompt: "Translate into Korean (polite, to a stranger, pointing at a 주차 금지 sign).",
             source: "You can't park here.",
             answer: "여기에 주차하시면 안 돼요.",
-            altAnswers: ["여기 주차하시면 안 돼요.", "여기에 주차하면 안 돼요.", "여기 주차하면 안 돼요.", "여기에 차 세우시면 안 돼요.", "여기에 주차하시면 안 됩니다.", "여기는 주차하시면 안 돼요.", "여기에 주차하실 수 없어요."],
+            altAnswers: ["여기 주차하시면 안 돼요.", "여기에 주차하면 안 돼요.", "여기 주차하면 안 돼요.", "여기에 차 세우시면 안 돼요.", "여기는 주차하시면 안 돼요.", "여기에 주차하실 수 없어요."],
             explanation: "주차 금지 in speech is 주차하면 안 돼요, with -시- for a stranger: 주차하시면 안 돼요.",
           },
           {
@@ -2116,7 +2116,7 @@ export const KO_B1_U22: Lesson[] = [
         prompt: "Translate into Korean (polite notice).",
         source: "Please put out recyclables on Thursdays.",
         answer: "재활용품은 목요일에 배출해 주세요.",
-        altAnswers: ["재활용품은 목요일마다 배출해 주세요.", "재활용품은 매주 목요일에 배출해 주세요.", "재활용품은 목요일에 내놓아 주세요.", "재활용품은 목요일에 버려 주세요.", "재활용 쓰레기는 목요일에 버려 주세요.", "재활용품은 목요일에 배출해 주시기 바랍니다."],
+        altAnswers: ["재활용품은 목요일마다 배출해 주세요.", "재활용품은 매주 목요일에 배출해 주세요.", "재활용품은 목요일에 내놓아 주세요.", "재활용품은 목요일에 버려 주세요.", "재활용 쓰레기는 목요일에 버려 주세요."],
         explanation: "배출하다 is the notice word for putting rubbish out; in speech, 버리다 or 내놓다.",
       },
       {
@@ -2180,7 +2180,7 @@ export const KO_B1_U22: Lesson[] = [
     level: "KO-B1",
     number: 10,
     title: "Error Hunt: Notices and Memos",
-    summary: "Fix the typical slips in memos, signs and notices: *만들음, *살음, *회의 있음요, *사진 촬영 금지하세요, 서류 확인하기 in a report, and 서울역 read as [서우력].",
+    summary: "Fix the typical slips in memos, signs and notices: *만들음, *살음, *회의 있음요, 사진 촬영 금지하세요 said to visitors, 서류 확인하기 in a report, and 서울역 read as [서우력].",
     duration: "14 min",
     sections: [
       {
@@ -2222,9 +2222,9 @@ export const KO_B1_U22: Lesson[] = [
         ],
       },
       {
-        heading: "Sign or speech: *사진 촬영 금지하세요",
+        heading: "Sign or speech: 사진 촬영 금지하세요?",
         body: [
-          "A sign is a noun phrase and speech is a conjugated verb; mixing them gives *사진 촬영 금지하세요 or *주차 금지해요 (as a request to visitors these are wrong: 금지하다 means 'to ban', so they tell people to ban something). Choose one: the sign 사진 촬영 금지, or the sentence 사진 찍지 마세요 / 찍으시면 안 돼요. In notices, 바라다 gives 바랍니다 and 바라요, never *바래요.",
+          "A sign is a noun phrase and speech is a conjugated verb; mixing them gives 사진 촬영 금지하세요 or 주차 금지해요, which are wrong for the setting: 금지하다 means 'to ban', so said to visitors they tell people to ban something. Choose one: the sign 사진 촬영 금지, or the sentence 사진 찍지 마세요 / 찍으시면 안 돼요. In notices, 바라다 gives 바랍니다 and 바라요, never *바래요.",
         ],
         examples: [
           { es: "사진 촬영 금지.", en: "No photography. (sign)" },
@@ -2235,11 +2235,11 @@ export const KO_B1_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean (polite, to a visitor; avoid *사진 촬영 금지하세요).",
+            prompt: "Translate into Korean (polite, to a visitor; avoid 사진 촬영 금지하세요).",
             source: "Please don't take photos.",
             answer: "사진 찍지 마세요.",
             altAnswers: ["사진 촬영하지 마세요.", "사진을 찍지 마세요.", "사진 찍으시면 안 돼요.", "촬영하지 마세요.", "사진 찍지 말아 주세요.", "사진을 찍으시면 안 돼요."],
-            explanation: "Speech needs a verb: 찍지 마세요. 금지 belongs on the sign, and *금지하세요 tells people to forbid something.",
+            explanation: "Speech needs a verb: 찍지 마세요. 금지 belongs on the sign, and 금지하세요 tells people to forbid something.",
           },
           {
             type: "translate",
@@ -2248,7 +2248,7 @@ export const KO_B1_U22: Lesson[] = [
             source: "No food or drink brought in.",
             answer: "음식물 반입 금지.",
             altAnswers: ["음식 반입 금지.", "외부 음식 반입 금지.", "외부 음식물 반입 금지."],
-            explanation: "Sign style is noun + 금지 with no ending: *음식물 반입 금지해요 is wrong.",
+            explanation: "Sign style is noun + 금지 with no ending: 음식물 반입 금지해요 would be speech, and it means 'I ban food'.",
           },
           {
             type: "multiple-choice",
@@ -2297,11 +2297,11 @@ export const KO_B1_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (a house rule; avoid *안 지각하기).",
+        prompt: "Translate into Korean (a house rule; avoid 안 지각하기).",
         source: "Don't be late.",
         answer: "지각하지 않기.",
         altAnswers: ["지각 안 하기.", "늦지 않기.", "안 늦기.", "지각하지 말기.", "늦지 말기."],
-        explanation: "With a noun + 하다 verb, 안 goes before 하다: 지각 안 하기. *안 지각하기 puts it before the noun.",
+        explanation: "With a noun + 하다 verb, 안 goes before 하다: 지각 안 하기. 안 지각하기 puts it before the noun: heard, but not standard.",
       },
       {
         type: "translate",
@@ -2324,11 +2324,11 @@ export const KO_B1_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (polite, to a driver; avoid *주차 금지해요).",
+        prompt: "Translate into Korean (polite, to a driver; avoid 주차 금지해요).",
         source: "You can't park here.",
         answer: "여기에 주차하시면 안 돼요.",
-        altAnswers: ["여기 주차하시면 안 돼요.", "여기에 주차하면 안 돼요.", "여기 주차하면 안 돼요.", "여기는 주차 금지예요.", "여기는 주차 금지 구역이에요.", "여기에 주차하시면 안 됩니다."],
-        explanation: "Either keep the sign as a noun (주차 금지예요) or use a verb (주차하시면 안 돼요); never conjugate 금지.",
+        altAnswers: ["여기 주차하시면 안 돼요.", "여기에 주차하면 안 돼요.", "여기 주차하면 안 돼요.", "여기는 주차 금지예요.", "여기는 주차 금지 구역이에요."],
+        explanation: "Either keep the sign as a noun (주차 금지예요) or use a verb (주차하시면 안 돼요); 주차 금지해요 would mean 'I ban parking'.",
       },
       {
         type: "fill-blank",
@@ -2360,7 +2360,7 @@ export const KO_B1_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "(exam rules; avoid the spoken *지참할 거) [Bring] your ID.",
+        en: "(exam rules; avoid the spoken 지참할 거) [Bring] your ID.",
         sentence: "신분증을 ___.",
         answer: "지참할 것",
         altAnswers: ["가져올 것"],
@@ -2368,7 +2368,7 @@ export const KO_B1_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A notice says 10월 25일. How do you read 10월?",
+        question: "A notice says 10월 23일. How do you read 10월?",
         options: ["시월", "십월", "열월", "열 달"],
         correctIndex: 0,
         explanation: "10월 drops the ㅂ: 시월, just as 6월 is 유월. 열 달 means 'ten months'.",
@@ -2628,7 +2628,7 @@ export const KO_B1_U22_WRITING: WriteExercise = {
     "Uses the notice frame with labelled noun lines: 일시, 장소 and 준비물 (e.g. 일시: 이번 주 일요일 오후 3시)",
     "Lists at least three rules in -기 form, with -지 않기 or 안 -기 for 'don't' and 안 before 하다 in noun + 하다 verbs (e.g. 밤 11시 이후에 세탁기 안 돌리기, 지각하지 않기)",
     "Reports finished things in -(으)ㅁ with no 요, forming ㄹ stems and irregulars correctly (e.g. 가스 요금 냈음, 관리사무소에 연락함, 삶, 만듦; not *있음요 or *만들음)",
-    "Keeps the friendly sentences in polite 해요 rather than official -(으)시기 바랍니다 or 바람, and never mixes a sign with a verb ending (not *금지하세요)",
+    "Keeps the friendly sentences in polite 해요 rather than official -(으)시기 바랍니다 or 바람, and never mixes a sign with a verb ending (not 주차 금지하세요 as a request)",
   ],
   modelAnswer: "[공지] 셰어하우스 대청소 및 하우스 회의\n일시: 이번 주 일요일 오후 3시\n장소: 1층 거실\n준비물: 고무장갑, 편한 옷\n대청소 후에 같이 저녁 먹어요! 못 오는 사람은 토요일까지 댓글로 알려 주세요.\n우리 집 규칙\n- 쓴 그릇은 바로 설거지하기\n- 밤 11시 이후에 세탁기 안 돌리기\n- 친구를 데려올 때는 미리 말하기\n- 분리수거는 수요일마다 하기\n지난주 메모\n- 가스 요금 냈음.\n- 2층 화장실 전등 고장 남. 관리사무소에 연락함.\n- 냉장고 정리 끝냄. 이름 없는 음식은 버렸음.\n이번 회의에서 청소 당번도 정해요. 많이 와 주세요!",
   explanation: "The notice lines (일시, 장소, 준비물) are nouns, and the friendly sentences (저녁 먹어요, 알려 주세요, 와 주세요) stay in 해요. The rules are -기 forms, with 안 돌리기 for 'don't'. The memo reports finished things with -(으)ㅁ: 냈음, 고장 남, 연락함, 끝냄, 버렸음, never with 요.",

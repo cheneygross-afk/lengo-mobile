@@ -2664,10 +2664,10 @@ export const DE_A1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'These chairs are new.'?",
         options: ["Diese Stühle sind neu.", "Dieser Stühle sind neu.", "Diese Stühle ist neu.", "Dieses Stühle sind neu."],
         correctIndex: 0,
-        explanation: "Every plural takes \"diese\" and a plural verb.",
+        explanation: "Every plural takes \"diese\" and a plural verb: \"Diese Stühle sind\". \"*Dieser Stühle*\" uses the masculine singular of \"der Stuhl\", but the plural ignores gender.",
       },
       {
         type: "translate",

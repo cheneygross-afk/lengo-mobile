@@ -157,10 +157,10 @@ export const DE_B1_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you ask 'Can you tell me where the toilets are?' (formal)?",
         options: ["Können Sie mir sagen, wo die Toiletten sind?", "Können Sie mir sagen, wo sind die Toiletten?", "Können Sie mir sagen, ob wo die Toiletten sind?", "Können Sie sagen mir, wo die Toiletten sind?"],
         correctIndex: 0,
-        explanation: "In the indirect question the verb \"sind\" goes to the end.",
+        explanation: "In an indirect question the verb \"sind\" goes to the end. \"*wo sind die Toiletten*\" keeps direct-question order.",
       },
       {
         type: "translate",
@@ -558,10 +558,10 @@ export const DE_B1_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'Luckily, we turned back.'?",
         options: ["Wir sind zum Glück umgekehrt.", "Wir haben zum Glück umgekehrt.", "Wir sind zum Glück umgekehren.", "Wir sind zum Glück geumkehrt."],
         correctIndex: 0,
-        explanation: "\"Umkehren\" takes \"sein\"; regular participle with ge- after the prefix: \"umgekehrt\".",
+        explanation: "\"Umkehren\" (change of direction) takes \"sein\", and the separable participle puts \"ge-\" after the prefix: \"umgekehrt\". \"*Wir haben ... umgekehrt*\" uses the wrong auxiliary.",
       },
       {
         type: "translate",
@@ -1898,10 +1898,10 @@ export const DE_B1_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which message is correct?",
+        question: "How do you write the message 'We'll be late because Emma still has training.'?",
         options: ["Wir kommen später, weil Emma noch Training hat.", "Wir kommen später weil Emma hat noch Training.", "Wir kommen später, weil Emma hat noch Training.", "Wir kommen später weil, Emma noch Training hat."],
         correctIndex: 0,
-        explanation: "Comma before \"weil\" and the verb \"hat\" at the end.",
+        explanation: "A comma before \"weil\", and the verb \"hat\" at the end. \"*weil Emma hat noch Training*\" keeps main-clause order.",
       },
       {
         type: "translate",

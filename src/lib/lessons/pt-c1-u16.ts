@@ -41,7 +41,7 @@ export const PT_C1_U16: Lesson[] = [
             en: "The [move-in inspection] showed that the shower was already broken.",
             sentence: "A ___ mostrou que o chuveiro já estava quebrado.",
             answer: "vistoria de entrada",
-            explanation: "The \"vistoria de entrada\" records the flat's condition at the start; the \"vistoria de saída\" is compared with it at the end.",
+            explanation: "The \"vistoria de entrada\" records the apartment's condition at the start; the \"vistoria de saída\" is compared with it at the end.",
           },
         ],
       },
@@ -94,7 +94,7 @@ export const PT_C1_U16: Lesson[] = [
             options: [
               "The leak comes from the apartment upstairs, so the repair isn't my job.",
               "The leak comes from the roof, so I'll repair it myself.",
-              "The flat upstairs is empty, so nobody will repair the leak.",
+              "The apartment upstairs is empty, so nobody will repair the leak.",
               "The leak has stopped, so no repair is needed.",
             ],
             correctIndex: 0,
@@ -106,7 +106,7 @@ export const PT_C1_U16: Lesson[] = [
         heading: "Putting it in writing",
         body: [
           "If the phone call goes nowhere, write: an email to the \"imobiliária\" or at least a WhatsApp message you can screenshot. Writing gives you a date and proof. Open with the facts, then the rule, then the request with a deadline: \"Solicito que o reparo seja realizado até o dia 20 de maio.\"",
-          "Cite the law precisely, as you learned in Unit 5: \"conforme o art. 22 da Lei nº 8.245/1991\". Then state the consequence as a condition, not a threat: \"Caso isso não seja resolvido no prazo, buscarei as medidas cabíveis.\" \"Caso\" takes the present subjunctive; \"se\" takes the future subjunctive: \"se não houver resposta até sexta...\".",
+          "Cite the law precisely, as you learned in Unit 7: \"conforme o art. 22 da Lei nº 8.245/1991\". Then state the consequence as a condition, not a threat: \"Caso isso não seja resolvido no prazo, buscarei as medidas cabíveis.\" \"Caso\" takes the present subjunctive; \"se\" takes the future subjunctive: \"se não houver resposta até sexta...\".",
           "Keep a copy of everything: photos with dates, the \"laudo de vistoria\" and every message.",
         ],
         examples: [
@@ -246,7 +246,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "speak",
         text: "Eu gostaria que o senhor mandasse alguém ainda esta semana.",
         prompt: "Say it in Portuguese to your landlord: I'd like you to send someone this week.",
-        tip: "Mandasse: man-DAS-se, nasal an. Keep the tone calm and even; the firmness is in the words.",
+        tip: "Mandasse: mã-DA-see, with a nasal ã. Keep the tone calm and even; the firmness is in the words.",
         explanation: "\"Gostaria que\" + imperfect subjunctive is the classic firm but polite demand.",
       },
     ],
@@ -520,7 +520,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "speak",
         text: "Fui vítima de um golpe e preciso bloquear o cartão agora.",
         prompt: "Say it in Portuguese: I've been the victim of a scam and I need to block the card now.",
-        tip: "Vítima: stress on the first syllable, VÍ-ti-ma, with ti like chee. Golpe: the l is almost a u, GOU-pe.",
+        tip: "Vítima: stress on the first syllable, VÍ-chee-ma, with ti like chee. Golpe: open ó, and the l is almost a u, GÓU-pee.",
         explanation: "\"Ser vítima de um golpe\" is the neutral phrase for reporting fraud.",
       },
     ],
@@ -730,7 +730,7 @@ export const PT_C1_U16: Lesson[] = [
           "Vou parar de pagar o plano a partir de hoje.",
         ],
         correctIndex: 0,
-        explanation: "The ombudsman and the ANS are the proper channels. Stopping payments would suspend your own cover.",
+        explanation: "The ombudsman and the ANS are the proper channels. Stopping payments would suspend your own coverage.",
       },
       {
         type: "word-order",
@@ -1042,7 +1042,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "speak",
         text: "Fui assaltada na esquina da Rua Augusta com a Alameda Santos.",
         prompt: "Say it in Portuguese (a woman speaking): I was robbed at the corner of Rua Augusta and Alameda Santos.",
-        tip: "Esquina: es-KI-na, the qu is a plain k. Assaltada: a-ssau-TA-da, with the l sounding like u.",
+        tip: "Esquina: es-KEE-na, the qu is a plain k. Assaltada: a-ssau-TA-da, with the l sounding like u.",
         explanation: "\"Na esquina da... com a...\" names a junction; \"assaltada\" agrees with the speaker.",
       },
     ],
@@ -1059,7 +1059,7 @@ export const PT_C1_U16: Lesson[] = [
         heading: "Who's who in the condomínio",
         body: [
           "Most Brazilian city dwellers live in a \"condomínio\", a building or gated complex whose owners, the \"condôminos\", share costs. The \"síndico\", elected by the owners, runs it, often with an \"administradora\" (management company), a \"subsíndico\" and a \"conselho fiscal\" that checks the accounts.",
-          "Everyone pays the monthly \"taxa de condomínio\", usually just called \"o condomínio\": \"quanto é o condomínio?\". Big works may need a \"taxa extra\", and part of the money goes to the \"fundo de reserva\". The rules are in two documents: the \"convenção\" (the constitution) and the \"regimento interno\" (house rules: noise, pets, the party room, the pool).",
+          "Everyone pays the monthly \"taxa de condomínio\", usually just called \"o condomínio\": \"quanto é o condomínio?\". Major repairs may need a \"taxa extra\", and part of the money goes to the \"fundo de reserva\". The rules are in two documents: the \"convenção\" (the constitution) and the \"regimento interno\" (house rules: noise, pets, the party room, the pool).",
           "Decisions are taken at the \"assembleia\", called by an \"edital de convocação\" that lists the \"pauta\" (agenda). Some decisions need a minimum \"quórum\". Everything is recorded in the \"ata\", the minutes.",
         ],
         examples: [
@@ -1285,7 +1285,7 @@ export const PT_C1_U16: Lesson[] = [
       {
         type: "speak",
         text: "Senhor síndico, peço a palavra. Sou a Beatriz, do 52.",
-        tip: "Read the apartment number as a number: cinquenta e dois. Síndico: SÍN-di-co, di like jee.",
+        tip: "Read the apartment number as a number: cinquenta e dois. Síndico: SĨ-jee-coo, di like jee.",
         explanation: "Ask for the floor, then identify yourself by name and apartment number.",
       },
     ],
@@ -1535,7 +1535,7 @@ export const PT_C1_U16: Lesson[] = [
       {
         type: "speak",
         text: "Diante do exposto, requer a restituição do valor pago.",
-        tip: "Exposto: es-POS-to, the x sounds like s here. Restituição: res-ti-tu-i-ÇÃO, five syllables.",
+        tip: "Exposto: es-PÔS-too, the x sounds like s here. Restituição: res-chee-too-ee-SÃO, five syllables.",
         explanation: "\"Diante do exposto, requer\" introduces the requests at the end of a claim.",
       },
     ],
@@ -1657,7 +1657,7 @@ export const PT_C1_U16: Lesson[] = [
         examples: [
           { es: "Atendente: Registrei a solicitação de devolução pelo MED.", en: "I've registered the refund request through the MED." },
           { es: "Pedro: Qual é o número do protocolo e qual é o prazo para a resposta?", en: "What's the protocol number, and what's the deadline for a reply?" },
-          { es: "Atendente: O protocolo é 2024 0815 3392. O prazo é de até sete dias.", en: "The protocol number is 2024 0815 3392. The deadline is up to seven days." },
+          { es: "Atendente: O protocolo é 5810 0815 3392. O prazo é de até sete dias.", en: "The protocol number is 5810 0815 3392. The deadline is up to seven days." },
           { es: "Pedro: Então o banco recebedor vai ser notificado hoje, é isso?", en: "So the receiving bank will be notified today, is that right?" },
           { es: "Pedro: Ela pediu que a gente registrasse um BO e que a mãe não apagasse as mensagens.", en: "She asked us to file a police report and told Mom not to delete the messages." },
         ],
@@ -1792,7 +1792,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "speak",
         text: "Minha mãe foi vítima do golpe do falso parente e precisamos acionar o MED.",
         prompt: "Say it in Portuguese: My mother was the victim of the fake-relative scam and we need to trigger the MED.",
-        tip: "Vítima is stressed on the first syllable: VÍ-ti-ma. Keep a steady, calm pace.",
+        tip: "Vítima is stressed on the first syllable: VÍ-chee-ma. Keep a steady, calm pace.",
         explanation: "What happened and what you need, in one sentence.",
       },
     ],
@@ -1813,7 +1813,7 @@ export const PT_C1_U16: Lesson[] = [
           "Rafael's tone is friendly and precise. He compares instead of arguing: \"Conforme o laudo de entrada, esse azulejo já estava trincado.\" \"Já estava assim quando eu entrei\" is the phrase every tenant needs.",
         ],
         examples: [
-          { es: "Dona Célia: Vamos começar pela sala, Rafael?", en: "Shall we start with the living room, Rafael?" },
+          { es: "Dona Célia: Vamos começar pela sala, Rafael?", en: "Should we start with the living room, Rafael?" },
           { es: "Rafael: Claro. Eu trouxe o laudo de entrada, com as fotos.", en: "Of course. I've brought the entry report, with the photos." },
           { es: "Dona Célia: Essa parede está bem manchada.", en: "This wall is quite stained." },
           { es: "Rafael: Depois de três anos, isso é desgaste natural do uso.", en: "After three years, that's normal wear and tear." },
@@ -1844,15 +1844,15 @@ export const PT_C1_U16: Lesson[] = [
         heading: "Part 2: The disputed items",
         body: [
           "Three items are in dispute. The paint: the contract says the apartment must be returned \"pintado\", so Rafael accepts that one. A broken bathroom cabinet door: his fault, he admits it. And a damp patch in the bedroom, caused by an \"infiltração\" from the building's façade, which he reported in writing two years ago.",
-          "Admitting what is fair gives you credibility for what isn't: \"A porta do armário fui eu que quebrei, eu arco com isso.\" \"Arcar com\" (to bear the cost of) is the neutral verb you met in Unit 15.",
-          "For the damp, Rafael uses the record and reported speech: \"Eu avisei a senhora por e-mail em março de 2022, e a senhora me respondeu que o condomínio ia resolver.\" Then a clear conclusion: \"Por isso, não acho justo que esse reparo seja descontado da caução.\"",
+          "Admitting what is fair gives you credibility for what isn't: \"A porta do armário fui eu que quebrei, eu arco com isso.\" \"Arcar com\" (to bear the cost of) is the neutral verb you met in Unit 8.",
+          "For the damp, Rafael uses the record and reported speech: \"Eu avisei a senhora por e-mail em março de 2024, e a senhora me respondeu que o condomínio ia resolver.\" Then a clear conclusion: \"Por isso, não acho justo que esse reparo seja descontado da caução.\"",
         ],
         examples: [
           { es: "Dona Célia: Pelo contrato, o apartamento tem que ser devolvido pintado.", en: "Under the contract, the apartment has to be returned freshly painted." },
           { es: "Rafael: Tem razão, a pintura fica por minha conta.", en: "You're right, the painting is on me." },
           { es: "Rafael: A porta do armário fui eu que quebrei, eu arco com isso.", en: "I'm the one who broke the cabinet door, I'll cover that." },
-          { es: "Rafael: Eu avisei a senhora da infiltração por e-mail em março de 2022.", en: "I told you about the damp by email in March 2022." },
-          { es: "Rafael: A senhora me respondeu que o condomínio ia resolver.", en: "You replied that the building would sort it out." },
+          { es: "Rafael: Eu avisei a senhora da infiltração por e-mail em março de 2024.", en: "I told you about the damp by email in March 2024." },
+          { es: "Rafael: A senhora me respondeu que o condomínio ia resolver.", en: "You replied that the building would take care of it." },
           { es: "Rafael: Por isso, não acho justo que esse reparo seja descontado da caução.", en: "So I don't think it's fair for that repair to come out of the deposit." },
         ],
         checkpoint: [
@@ -1907,7 +1907,7 @@ export const PT_C1_U16: Lesson[] = [
           { es: "Rafael: Que tal se a gente dividisse o custo da pintura?", en: "What if we split the cost of the painting?" },
           { es: "Rafael: A senhora devolve o restante da caução corrigida?", en: "Will you return the rest of the deposit with the interest it earned?" },
           { es: "Dona Célia: Está bem, podemos chegar a um meio-termo.", en: "All right, we can reach a middle ground." },
-          { es: "Rafael: Vamos colocar isso por escrito no termo de entrega das chaves?", en: "Shall we put that in writing on the key handover form?" },
+          { es: "Rafael: Vamos colocar isso por escrito no termo de entrega das chaves?", en: "Should we put that in writing on the key handover form?" },
         ],
         checkpoint: [
           {
@@ -1928,9 +1928,9 @@ export const PT_C1_U16: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Shall we put this in writing?",
+            prompt: "Put the words in order to say: Should we put this in writing?",
             words: ["Vamos", "colocar", "isso", "por", "escrito?"],
-            translation: "Shall we put this in writing?",
+            translation: "Should we put this in writing?",
             explanation: "\"Pôr\" or \"colocar por escrito\" is to put in writing.",
           },
         ],
@@ -2045,7 +2045,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "speak",
         text: "Que tal se a gente dividisse o custo da pintura?",
         prompt: "Say it in Portuguese: What if we split the cost of the painting?",
-        tip: "Dividisse: di-vi-DIS-se, both di like jee. Let the question rise at the end.",
+        tip: "Dividisse: jee-vee-JEE-see, both di like jee. Let the question rise at the end.",
         explanation: "\"Que tal se\" + imperfect subjunctive is a gentle proposal.",
       },
     ],
@@ -2111,7 +2111,7 @@ export const PT_C1_U16: Lesson[] = [
         ],
         examples: [
           { es: "Juliana, eu entendo que não é culpa sua, mas preciso de uma solução hoje.", en: "Juliana, I understand it's not your fault, but I need a solution today." },
-          { es: "Com quem eu posso falar para resolver isso?", en: "Who can I talk to to get this sorted?" },
+          { es: "Com quem eu posso falar para resolver isso?", en: "Who can I talk to to get this resolved?" },
           { es: "Posso falar com o seu supervisor, por favor?", en: "May I speak to your supervisor, please?" },
           { es: "Se não houver solução hoje, vou registrar uma reclamação no consumidor.gov.br.", en: "If there's no solution today, I'll file a complaint on consumidor.gov.br." },
           { es: "Agradeço muito a sua ajuda, Juliana.", en: "Thank you very much for your help, Juliana." },
@@ -2160,7 +2160,7 @@ export const PT_C1_U16: Lesson[] = [
           { es: "Qual seria o caminho para regularizar a minha situação?", en: "What would be the way to regularize my situation?" },
           { es: "A senhora poderia me indicar em que norma está essa exigência?", en: "Could you tell me which regulation this requirement is in?" },
           { es: "Se faltar algum documento, eu volto amanhã com ele.", en: "If any document is missing, I'll come back with it tomorrow." },
-          { es: "Será que o senhor não poderia dar um jeitinho?", en: "Couldn't you find a little way round it? (too soft, and risky)" },
+          { es: "Será que o senhor não poderia dar um jeitinho?", en: "Couldn't you find a little way around it? (too soft, and risky)" },
         ],
         checkpoint: [
           {
@@ -2249,9 +2249,9 @@ export const PT_C1_U16: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Who can I talk to to sort this out?",
+        prompt: "Put the words in order to say: Who can I talk to to get this resolved?",
         words: ["Com quem", "eu posso", "falar", "para", "resolver", "isso?"],
-        translation: "Who can I talk to to sort this out?",
+        translation: "Who can I talk to to get this resolved?",
         explanation: "The preposition comes first in Portuguese: \"com quem\", never at the end as in English.",
       },
       {
@@ -2296,7 +2296,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "speak",
         text: "Estou sem internet há quatro dias. Eu gostaria que um técnico viesse amanhã.",
         prompt: "Say it in firm, polite Portuguese: I've been without internet for four days. I'd like a technician to come tomorrow.",
-        tip: "Keep the voice level and unhurried. Técnico: TÉC-ni-co, open é.",
+        tip: "Keep the voice level and unhurried. Técnico: TÉC-ni-coo, open é.",
         explanation: "Fact with a number, then a precise request in the subjunctive.",
       },
     ],
@@ -2320,7 +2320,7 @@ export const PT_C1_U16: Lesson[] = [
           { es: "Registrei uma reclamação no Procon contra a loja.", en: "I filed a complaint against the store with Procon." },
           { es: "Fiz uma denúncia anônima de maus-tratos a animais.", en: "I made an anonymous report of animal cruelty." },
           { es: "Ela prestou queixa na delegacia contra o vizinho.", en: "She filed a complaint against her neighbor with the police." },
-          { es: "A principal queixa dos moradores é o barulho da obra.", en: "The residents' main complaint is the building-site noise." },
+          { es: "A principal queixa dos moradores é o barulho da obra.", en: "The residents' main complaint is the construction noise." },
           { es: "Qual é a sua queixa, senhora?", en: "What seems to be the problem, ma'am? (a doctor asking about symptoms)" },
         ],
         checkpoint: [
@@ -2540,7 +2540,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "speak",
         text: "Caso o problema não seja resolvido até sexta, vou registrar uma reclamação no Procon.",
         prompt: "Say it in Portuguese: Should the problem not be resolved by Friday, I'll file a complaint with Procon.",
-        tip: "Reclamação: re-cla-ma-ÇÃO, nasal ão at the end. Keep the pitch level: it's information, not a threat.",
+        tip: "Reclamação: he-cla-ma-SÃO, nasal ão at the end. Keep the pitch level: it's information, not a threat.",
         explanation: "\"Caso\" + present subjunctive, one step, one date.",
       },
     ],
@@ -2798,7 +2798,7 @@ export const PT_C1_U16: Lesson[] = [
       {
         type: "speak",
         text: "Às dez e quarenta e sete, realizei uma transferência via Pix no valor de três mil e duzentos reais.",
-        tip: "Read times in speech as dez e quarenta e sete. Via is VI-a, two syllables.",
+        tip: "Read times in speech as dez e quarenta e sete. Via is VEE-a, two syllables.",
         explanation: "The written \"10h47\" and \"R$ 3.200,00\" are read in full aloud.",
       },
     ],
@@ -3059,7 +3059,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "speak",
         text: "Aceito a proposta, desde que o reembolso seja feito até sexta-feira.",
         prompt: "Say it in Portuguese: I accept the offer, provided the refund is made by Friday.",
-        tip: "Reembolso: re-em-BOL-so, keep both e's; the l at the end of the syllable sounds like u.",
+        tip: "Reembolso: re-ẽm-BOU-soo, keep both e's; the l at the end of the syllable sounds like u.",
         explanation: "\"Desde que\" + present subjunctive sets the condition of your acceptance.",
       },
     ],
@@ -3068,7 +3068,7 @@ export const PT_C1_U16: Lesson[] = [
 
 export const PT_C1_U16_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You live in Recife and have a health plan you joined eight months ago. Your doctor requested an urgent MRI scan after a fall. The plan refused cover, saying you are still in the carência period. You called the operator twice (give dates and protocol numbers); the first attendant said the refusal would be reviewed in 48 hours, the second said nothing could be done. Write a formal complaint to the operator's Ouvidoria. Recount the facts precisely, report what the attendants told you, cite your rights (the legal waiting period for urgent cases is 24 hours, and the procedure is on the ANS list), make clear requests with a deadline, and state the next step you will take if they are not met.",
+  prompt: "You live in Recife and have a health plan you joined eight months ago. Your doctor requested an urgent MRI scan after a fall. The plan refused coverage, saying you are still in the carência period. You called the operator twice (give dates and protocol numbers); the first attendant said the refusal would be reviewed in 48 hours, the second said nothing could be done. Write a formal complaint to the operator's Ouvidoria. Recount the facts precisely, report what the attendants told you, cite your rights (the legal waiting period for urgent cases is 24 hours, and the procedure is on the ANS list), make clear requests with a deadline, and state the next step you will take if they are not met.",
   minWords: 180,
   maxWords: 300,
   rubric: [

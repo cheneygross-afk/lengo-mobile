@@ -165,9 +165,9 @@ export const KO_B1_U06: Lesson[] = [
       {
         type: "multiple-choice",
         question: "At a museum ticket desk, you want to say you're a student and ask about a discount. What do you say?",
-        options: ["학생인데 할인돼요?", "학생이라서 할인돼요?", "학생는데 할인돼요?", "학생이는데 할인돼요?"],
+        options: ["학생인데 할인돼요?", "학생은데 할인돼요?", "학생는데 할인돼요?", "학생이는데 할인돼요?"],
         correctIndex: 0,
-        explanation: "Nouns take 인데: 학생인데. 학생이라서 gives a cause, which sounds like 'because I'm a student, is it discounted?'; the other two are not Korean forms.",
+        explanation: "Nouns take 인데, the modifier of 이다: 학생인데. 학생은데, 학생는데 and 학생이는데 are not Korean forms.",
       },
       {
         type: "word-order",
@@ -707,7 +707,7 @@ export const KO_B1_U06: Lesson[] = [
           { es: "내일 바빠도 꼭 연락할게요.", en: "Even if I'm busy tomorrow, I'll definitely get in touch." },
           { es: "약을 먹어도 안 나았어요.", en: "Even though I took medicine, I didn't get better." },
           { es: "돈이 많아도 행복하지 않을 수 있어요.", en: "You can be unhappy even if you have a lot of money." },
-          { es: "주말이어도 일찍 일어나요.", en: "Even on weekends I get up early." },
+          { es: "주말이어도 일찍 일어나요.", en: "Even if it's the weekend, I get up early." },
         ],
         checkpoint: [
           {
@@ -862,7 +862,7 @@ export const KO_B1_U06: Lesson[] = [
       {
         heading: "The form and the feel",
         body: [
-          "-더라도 goes straight on the stem, with no vowel change and no irregulars: 늦더라도, 바쁘더라도, 춥더라도, 힘들더라도, 있더라도. Nouns take 이더라도, and after a vowel the 이 often drops: 학생이더라도, 의사더라도. Despite the look, it has nothing to do with -더라고요 from Unit 5.",
+          "-더라도 goes straight on the stem, with no vowel change and no irregulars: 늦더라도, 바쁘더라도, 춥더라도, 힘들더라도, 있더라도. Nouns take 이더라도, and after a vowel the 이 often drops: 학생이더라도, 의사더라도. Despite the look, it carries none of the 'I saw it' meaning of -더라고요 from Unit 5.",
           "It means 'even if' with extra weight: 'even supposing it does happen', 'even if, in the worst case'. You set up a possibility and then say it changes nothing. That makes it more hypothetical and more emphatic than -아도, and a little more formal. 늦더라도 꼭 오세요 is 'Even if you're late, be sure to come': being late is a real possibility you're waving aside.",
         ],
         examples: [
@@ -897,7 +897,7 @@ export const KO_B1_U06: Lesson[] = [
         heading: "With advice, orders and resolutions",
         body: [
           "-더라도 is at home before a command, a piece of advice or a firm intention: 힘들더라도 포기하지 마세요, 시간이 걸리더라도 제대로 하세요, 무슨 일이 있더라도 연락할게요. Doctors, teachers, bosses and parents use it to say 'whatever comes up, do this'.",
-          "Because it supposes rather than describes, it sounds odd with something that has already happened. For a past fact, use -는데 or -지만: 어제 비가 왔지만 갔어요, not *어제 비가 오더라도 갔어요.",
+          "Because it supposes rather than describes, it sounds odd with something that has already happened. For a one-off past fact, use -는데 or -지만: 어제 비가 왔지만 갔어요. 어제 비가 오더라도 갔어요 sounds wrong, because it treats yesterday's real rain as a mere supposition.",
         ],
         examples: [
           { es: "힘들더라도 포기하지 마세요.", en: "Even if it's hard, don't give up." },
@@ -913,7 +913,7 @@ export const KO_B1_U06: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Even if it's hard, don't give up.",
             answer: "힘들더라도 포기하지 마세요.",
-            altAnswers: ["힘들어도 포기하지 마세요.", "아무리 힘들더라도 포기하지 마세요.", "아무리 힘들어도 포기하지 마세요.", "힘들더라도 포기하지 마십시오."],
+            altAnswers: ["힘들어도 포기하지 마세요.", "아무리 힘들더라도 포기하지 마세요.", "아무리 힘들어도 포기하지 마세요."],
             explanation: "힘들다 keeps its ㄹ before ㄷ: 힘들더라도. The command after it is where -더라도 shines.",
           },
           {
@@ -1003,7 +1003,7 @@ export const KO_B1_U06: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Even if you make a mistake, don't worry too much.",
         answer: "실수하더라도 너무 걱정하지 마세요.",
-        altAnswers: ["실수해도 너무 걱정하지 마세요.", "실수를 하더라도 너무 걱정하지 마세요.", "실수를 해도 너무 걱정하지 마세요.", "실수하더라도 너무 걱정하지 마십시오."],
+        altAnswers: ["실수해도 너무 걱정하지 마세요.", "실수를 하더라도 너무 걱정하지 마세요.", "실수를 해도 너무 걱정하지 마세요."],
         explanation: "Advice after a supposition: -더라도 fits naturally; -아도 is fine too.",
       },
       {
@@ -1454,7 +1454,7 @@ export const KO_B1_U06: Lesson[] = [
       {
         heading: "-아도 or -더라도?",
         body: [
-          "-아도 works everywhere. -더라도 supposes something and overrides it, so it suits advice and resolutions: 늦더라도 꼭 오세요. It can't describe something that already happened: for yesterday's tiredness, say 피곤했지만 운동했어요 or 피곤했는데 운동했어요, not *피곤하더라도 운동했어요.",
+          "-아도 works everywhere. -더라도 supposes something and overrides it, so it suits advice and resolutions: 늦더라도 꼭 오세요. It can't describe something that already happened: for yesterday's tiredness, say 피곤했지만 운동했어요 or 피곤했는데 운동했어요; 어제는 피곤하더라도 운동했어요 sounds wrong for a single past event.",
         ],
         examples: [
           { es: "늦더라도 꼭 연락하세요.", en: "Even if you're going to be late, be sure to let me know." },
@@ -1549,7 +1549,7 @@ export const KO_B1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "(polite) [I made kimbap.] Would you like some?",
+        en: "(polite) [I made gimbap.] Would you like some?",
         sentence: "김밥을 ___ 좀 드실래요?",
         answer: "만들었는데",
         explanation: "Background before an offer: 만들었는데. *만들었지만 would mean 'I made it, but would you like some?'.",
@@ -1947,11 +1947,11 @@ export const KO_B1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into Korean (polite): *비가 와서 우산 있어요?",
+        prompt: "Fix the unnatural 비가 와서 우산 있어요? and translate into Korean (polite):",
         source: "It's raining. Do you have an umbrella?",
         answer: "비가 오는데 우산 있어요?",
         altAnswers: ["비가 오는데 우산이 있어요?", "비가 오는데 우산 있으세요?"],
-        explanation: "-아서 can't come before a question about what to do; background takes -는데.",
+        explanation: "비가 와서 presents the rain as the cause of having an umbrella, which makes no sense; background for a question takes -는데.",
       },
       {
         type: "dictation",
@@ -2328,7 +2328,7 @@ export const KO_B1_U06: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Whatever happens, don't give up.",
         answer: "무슨 일이 있더라도 포기하지 마세요.",
-        altAnswers: ["무슨 일이 있어도 포기하지 마세요.", "무슨 일이 있더라도 포기하지 마십시오.", "무슨 일이 있어도 포기하지 마십시오."],
+        altAnswers: ["무슨 일이 있어도 포기하지 마세요."],
         explanation: "무슨 일이 있더라도 / 있어도 'whatever happens' + -지 마세요.",
       },
       {
@@ -2370,7 +2370,7 @@ export const KO_B1_U06: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Even if I catch a cold, I go to school.",
         answer: "감기에 걸려도 학교에 가요.",
-        altAnswers: ["감기에 걸리더라도 학교에 가요.", "감기에 걸려도 학교는 가요.", "감기에 걸려도 학교에 갑니다."],
+        altAnswers: ["감기에 걸리더라도 학교에 가요.", "감기에 걸려도 학교는 가요."],
         explanation: "걸리다 → 걸려도: the cold doesn't stop you.",
       },
       {
@@ -2379,7 +2379,7 @@ export const KO_B1_U06: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I caught a cold, so I couldn't go to school.",
         answer: "감기에 걸려서 학교에 못 갔어요.",
-        altAnswers: ["감기에 걸려서 학교에 가지 못했어요.", "감기 걸려서 학교에 못 갔어요.", "감기에 걸려서 학교를 못 갔어요.", "감기에 걸려서 학교에 못 갔습니다."],
+        altAnswers: ["감기에 걸려서 학교에 가지 못했어요.", "감기 걸려서 학교에 못 갔어요.", "감기에 걸려서 학교를 못 갔어요."],
         explanation: "A cause before a plain statement: 걸려서, with the past only at the end.",
       },
       {

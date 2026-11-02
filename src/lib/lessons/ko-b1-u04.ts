@@ -119,7 +119,7 @@ export const KO_B1_U04: Lesson[] = [
             prompt: "Translate into Korean (written style).",
             source: "I want to rest at home at the weekend.",
             answer: "주말에는 집에서 쉬고 싶다.",
-            altAnswers: ["주말에 집에서 쉬고 싶다.", "나는 주말에 집에서 쉬고 싶다.", "나는 주말에는 집에서 쉬고 싶다.", "주말에는 집에서 쉬고 싶다고 생각한다."],
+            altAnswers: ["주말에 집에서 쉬고 싶다.", "나는 주말에 집에서 쉬고 싶다.", "나는 주말에는 집에서 쉬고 싶다."],
             explanation: "-고 싶다 works like an adjective, so it keeps -다: 쉬고 싶다, not *쉬고 싶는다.",
           },
         ],
@@ -252,7 +252,7 @@ export const KO_B1_U04: Lesson[] = [
             en: "My grandfather [was a teacher].",
             sentence: "할아버지는 ___.",
             answer: "선생님이셨다",
-            altAnswers: ["선생님이었다", "교사였다", "교사이셨다"],
+            altAnswers: ["선생님이었다", "교사였다", "교사이셨다", "교사셨다"],
             explanation: "A noun in the past: 이었다 after a consonant, here with -시- for a grandfather: 선생님이셨다.",
           },
         ],
@@ -433,7 +433,7 @@ export const KO_B1_U04: Lesson[] = [
         heading: "저 becomes 나, 저희 becomes 우리",
         body: [
           "저, 저희 and 제 are humble: you lower yourself in front of a listener. The written style has no listener, so it uses the plain pronouns: 나는, 내가, 나의 or 내 (my), and 우리 for 'we' and 'our'. 저희 나라 becomes 우리나라, written as one word for Korea.",
-          "This is not rude, and 나 in a diary or essay is not 반말: it simply matches the style. Mixing is the mistake: *저는 대학생이다 puts a humble pronoun in front of a plain written ending. Often the best choice is no pronoun at all, as in speech.",
+          "This is not rude, and 나 in a diary or essay is not 반말: it simply matches the style. Mixing is the mistake: 저는 대학생이다 is not ungrammatical, but it puts a humble pronoun in front of a plain written ending, which reads as a style clash. Often the best choice is no pronoun at all, as in speech.",
         ],
         examples: [
           { es: "나는 작년에 서울에 왔다.", en: "I came to Seoul last year." },
@@ -1443,7 +1443,7 @@ export const KO_B1_U04: Lesson[] = [
         prompt: "Translate into Korean (in a meeting).",
         source: "Minsu went to Busan.",
         answer: "민수 씨는 부산에 갔습니다.",
-        altAnswers: ["민수 씨는 부산으로 갔습니다.", "민수 씨가 부산에 갔습니다.", "민수 씨가 부산으로 갔습니다.", "민수 씨는 부산에 출장 갔습니다."],
+        altAnswers: ["민수 씨는 부산으로 갔습니다.", "민수 씨가 부산에 갔습니다.", "민수 씨가 부산으로 갔습니다."],
         explanation: "합니다 past: 갔습니다 [갇씀니다].",
       },
       {
@@ -1703,7 +1703,7 @@ export const KO_B1_U04: Lesson[] = [
       {
         heading: "Adjective or verb?",
         body: [
-          "The most common mistake is putting -ㄴ다 / -는다 on an adjective: *꽃이 예쁜다, *날씨가 좋는다, *요즘 바쁜다, *방이 조용한다. Adjectives, 있다 / 없다 and -고 싶다 never take it: 예쁘다, 좋다, 바쁘다, 조용하다, 카페가 있다, 가고 싶다. *카페가 있는다 is wrong for 'there is a café'.",
+          "The most common mistake is putting -ㄴ다 / -는다 on an adjective: *꽃이 예쁜다, *날씨가 좋는다, *요즘 바쁜다, *방이 조용한다. Adjectives, 없다 and -고 싶다 never take it: 예쁘다, 좋다, 바쁘다, 조용하다, 가고 싶다. 있다 takes it only when it means 'stay' (집에 있는다); for 'there is a café' write 카페가 있다, not *카페가 있는다.",
           "The opposite slip is leaving a verb in its dictionary form: *한국 사람들은 김치를 자주 먹다 reads like a dictionary entry. A narrative needs 먹는다.",
         ],
         examples: [
@@ -1777,7 +1777,7 @@ export const KO_B1_U04: Lesson[] = [
       {
         heading: "Mixed styles",
         body: [
-          "A written text keeps one style from start to finish. Three slips cost marks: 저는 or 제 in front of a plain ending (*저는 대학생이다), a 해요 or 합니다 ending left in the middle of an essay (환경 보호는 중요해요, fine in speech), and the casual 할 거다, which should be 할 것이다.",
+          "A written text keeps one style from start to finish. Three slips cost marks: 저는 or 제 in front of a plain ending (저는 대학생이다: grammatical, but the styles clash), a 해요 or 합니다 ending left in the middle of an essay (환경 보호는 중요해요, fine in speech), and the casual 할 거다, which should be 할 것이다.",
           "Spoken words also stand out: 너무 for 'very' (매우), 하고 for 'and' (와 / 과), 근데 for 'but' (그러나).",
         ],
         examples: [
@@ -1838,11 +1838,11 @@ export const KO_B1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake in *저는 대학생이다 and write: I am a university student. (written style)",
+        prompt: "The essay line 저는 대학생이다 mixes two styles. Rewrite it: I am a university student. (written style)",
         source: "I am a university student.",
         answer: "나는 대학생이다.",
         altAnswers: ["대학생이다."],
-        explanation: "The written style uses 나, not humble 저: 나는 대학생이다.",
+        explanation: "The written style uses 나, not humble 저: 나는 대학생이다. 저는 대학생이다 is not ungrammatical, but humble 저 addresses a listener while 이다 addresses no one, so the line sounds mismatched.",
       },
       {
         type: "multiple-choice",
@@ -2129,7 +2129,7 @@ export const KO_B1_U04: Lesson[] = [
         heading: "Rewriting a spoken paragraph",
         body: [
           "To turn speech into an answer, check five things in every sentence: the ending (갔어요 → 갔다), the pronoun (저 → 나), the particles (하고, 이랑 → 와 / 과), the adverbs (너무 → 매우, 좀 → 조금) and spoken contractions (게 → 것이, 재밌다 → 재미있다, 제일 → 가장). Connectors move up a level too: in a narrative 그래서 is fine, in an argument write 따라서.",
-          "Here is a five-sentence weekend story, rewritten. Read each line and spot every change.",
+          "Here is a weekend story, rewritten line by line. Read each line and spot every change.",
         ],
         examples: [
           { es: "나는 지난 주말에 친구와 경주에 갔다.", en: "Last weekend I went to Gyeongju with a friend. (저는 ... 친구하고 ... 갔어요)" },
@@ -2184,8 +2184,8 @@ export const KO_B1_U04: Lesson[] = [
         prompt: "Rewrite 그래서 하루 종일 걸어 다녔어요 in the written style: So we walked around all day.",
         source: "So we walked around all day.",
         answer: "그래서 하루 종일 걸어 다녔다.",
-        altAnswers: ["그래서 하루 종일 걸었다.", "그래서 우리는 하루 종일 걸어 다녔다.", "그래서 우리는 하루 종일 걸었다.", "따라서 하루 종일 걸어 다녔다."],
-        explanation: "In a narrative 그래서 is acceptable; the ending must be 다녔다.",
+        altAnswers: ["그래서 하루 종일 걸었다.", "그래서 우리는 하루 종일 걸어 다녔다.", "그래서 우리는 하루 종일 걸었다."],
+        explanation: "In a narrative 그래서 is the natural choice; 따라서 is for a logical conclusion in an argument and sounds stiff for what you did next. The ending must be 다녔다.",
       },
       {
         type: "translate",

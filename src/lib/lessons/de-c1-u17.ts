@@ -140,7 +140,7 @@ export const DE_C1_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which opening is correct in a formal German letter?",
+            question: "How do you begin a formal letter: 'Dear Ms Lang, thank you for your reply.'?",
             options: ["Sehr geehrte Frau Lang, vielen Dank für Ihre Antwort.", "Sehr geehrte Frau Lang, Vielen Dank für Ihre Antwort.", "Sehr geehrter Frau Lang, vielen Dank für Ihre Antwort.", "Liebe Frau Lang! Vielen Dank für ihre Antwort."],
             correctIndex: 0,
             explanation: "\"Geehrte\" agrees with \"Frau\", a comma follows the salutation, and the text continues in lowercase. \"Ihre\" (your, polite) keeps its capital.",
@@ -697,10 +697,10 @@ export const DE_C1_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you write 'With reference to your letter, I can inform you that the amount has been transferred.'?",
             options: ["Bezug nehmend auf Ihr Schreiben teile ich Ihnen mit, dass der Betrag überwiesen wurde.", "Bezug nehmend auf Ihr Schreiben, der Betrag wurde überwiesen.", "Bezug nehmend auf Ihr Schreiben ich teile Ihnen mit, dass der Betrag überwiesen wurde.", "Bezug nehmend an Ihr Schreiben teile ich Ihnen mit, dass der Betrag überwiesen wurde."],
             correctIndex: 0,
-            explanation: "\"Bezug nehmend auf\" (with \"auf\") fills the Vorfeld, the verb comes second, and the writer is the subject who does the referring.",
+            explanation: "\"Bezug nehmend auf\" fills the Vorfeld, the verb comes second (\"teile ich\"), and the writer is the subject who does the referring. \"*Bezug nehmend auf Ihr Schreiben, der Betrag wurde überwiesen*\" makes the amount refer to the letter.",
           },
         ],
       },
@@ -1442,10 +1442,10 @@ export const DE_C1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which closing line is correct?",
+        question: "How do you write 'Yours sincerely' (Kind regards) at the end of a formal letter?",
         options: ["Mit freundlichen Grüßen", "Mit freundlichen Grüßen,", "Mit freundliche Grüße", "Mit freundlichen Grüssen,"],
         correctIndex: 0,
-        explanation: "Dative plural after \"mit\" (\"freundlichen Grüßen\"), no comma. Swiss writers would use ss, but still no comma.",
+        explanation: "Dative plural after \"mit\" (\"freundlichen Grüßen\"), and no comma after it. \"*Mit freundlichen Grüßen,*\" copies the English comma. Swiss writers use ss, but still no comma.",
       },
       {
         type: "translate",
@@ -1666,10 +1666,10 @@ export const DE_C1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has the correct word order?",
+        question: "How do you write 'Please find the spreadsheet attached.'?",
         options: ["Im Anhang finden Sie die Tabelle.", "Im Anhang Sie finden die Tabelle.", "Im Anhang die Tabelle finden Sie.", "Sie im Anhang finden die Tabelle."],
         correctIndex: 0,
-        explanation: "\"Im Anhang\" fills the Vorfeld, so the verb \"finden\" comes second and \"Sie\" third.",
+        explanation: "\"Im Anhang\" fills the Vorfeld, so the verb \"finden\" comes second and \"Sie\" third. \"*Im Anhang Sie finden*\" is English order.",
       },
       {
         type: "translate",

@@ -373,7 +373,7 @@ export const KO_B1_U15_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite, at the ticket office).",
         source: "I'd like to know whether there are still train tickets to Busan.",
         answer: "부산 가는 기차표가 아직 남아 있는지 궁금해요.",
-        altAnswers: ["부산 가는 기차표가 아직 있는지 궁금해요.", "부산 가는 기차표가 아직 남았는지 궁금해요.", "부산행 기차표가 아직 남아 있는지 궁금해요.", "부산 가는 기차표가 아직 남아 있는지 알고 싶어요.", "부산 가는 표가 아직 남아 있는지 궁금해요.", "부산 가는 기차표가 아직 남아 있는지 궁금합니다."],
+        altAnswers: ["부산 가는 기차표가 아직 있는지 궁금해요.", "부산 가는 기차표가 아직 남았는지 궁금해요.", "부산행 기차표가 아직 남아 있는지 궁금해요.", "부산 가는 기차표가 아직 남아 있는지 알고 싶어요.", "부산 가는 표가 아직 남아 있는지 궁금해요."],
         explanation: "남아 있는지 'whether any are left'; 궁금해요 frames it politely.",
       },
       {
@@ -449,7 +449,7 @@ export const KO_B1_U15_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite, at the ticket office).",
         source: "Is there a student discount? I'd like to know.",
         answer: "학생 할인이 되는지 궁금해요.",
-        altAnswers: ["학생 할인이 되는지 알고 싶어요.", "학생 할인이 있는지 궁금해요.", "학생 할인이 가능한지 궁금해요.", "학생 할인 되는지 궁금해요.", "학생 할인이 되는지 궁금합니다."],
+        altAnswers: ["학생 할인이 되는지 알고 싶어요.", "학생 할인이 있는지 궁금해요.", "학생 할인이 가능한지 궁금해요.", "학생 할인 되는지 궁금해요."],
         explanation: "One embedded sentence sounds smoother than two: 할인이 되는지 궁금해요.",
       },
       {

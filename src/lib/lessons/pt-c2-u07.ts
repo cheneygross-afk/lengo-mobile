@@ -227,7 +227,7 @@ export const PT_C2_U07: Lesson[] = [
         type: "speak",
         text: "A decisão transitou em julgado; não cabe mais recurso.",
         prompt: "Say it in Portuguese: The decision is final; there's no further appeal.",
-        tip: "The s in \"transitou\" sounds like z, as in \"trânsito\". Stress the last syllable: tran-zi-TOU.",
+        tip: "The s in \"transitou\" sounds like z, as in \"trânsito\". Stress the last syllable: tran-zee-TÔW.",
         explanation: "\"Transitar em julgado\" is the term for a final decision, and \"cabe recurso\" means an appeal is available.",
       },
       {
@@ -373,7 +373,7 @@ export const PT_C2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Sua mãe pode estar com pneumonia, mas o médico ainda quer confirmar.",
-            tip: "Many Brazilians slip a light i into the pn cluster: pi-neu-mo-NI-a. Stress falls on the ni.",
+            tip: "Many Brazilians slip a light i into the pn cluster: pee-new-moo-NEE-a. Stress falls on the nee.",
             explanation: "\"Pode estar com\" keeps the doctor's hedge from \"hipótese diagnóstica\" while using everyday words.",
           },
         ],
@@ -478,7 +478,7 @@ export const PT_C2_U07: Lesson[] = [
         type: "speak",
         text: "Seu pai tem pressão alta, mas ela está controlada.",
         prompt: "Say it in Portuguese, in plain words, to a patient's daughter: Your father has high blood pressure, but it's under control.",
-        tip: "In \"controlada\" the d is a soft d, not a dj: the dj sound only comes before an i sound.",
+        tip: "In \"controlada\" the d is a plain d, not a 'j': the 'j' sound only comes before an 'ee' sound.",
         explanation: "\"Pressão alta\" is the everyday term for \"hipertensão arterial\". \"Seu pai\" puts the person back in, as plain explanations should.",
       },
     ],
@@ -579,7 +579,7 @@ export const PT_C2_U07: Lesson[] = [
       {
         heading: "Câmbio, PIB and the language of headlines",
         body: [
-          "\"Câmbio\" is the exchange rate, reported as the price of the dollar: \"o dólar fechou em alta, cotado a R$ 5,43\". Mind the direction: when \"o dólar sobe\", the real is weakening (\"o real se desvaloriza\"). \"Frente ao\" or \"em relação ao\" sets up the comparison. Trade uses the \"dólar comercial\"; travellers pay the pricier \"dólar turismo\".",
+          "\"Câmbio\" is the exchange rate, reported as the price of the dollar: \"o dólar fechou em alta, cotado a R$ 5,43\". Mind the direction: when \"o dólar sobe\", the real is weakening (\"o real se desvaloriza\"). \"Frente ao\" or \"em relação ao\" sets up the comparison. Trade uses the \"dólar comercial\"; travelers pay the pricier \"dólar turismo\".",
           "Growth is the \"PIB\" (\"Produto Interno Bruto\"), reported by \"trimestre\". Two quarters of contraction in a row make a \"recessão técnica\". Public accounts close in \"superávit\" or \"déficit\", both accented and masculine. \"A Bolsa\" is the São Paulo stock exchange, tracked by the \"Ibovespa\".",
           "Headlines compress the chain with the nominal style from B1: a noun phrase as subject, a present-tense verb, few articles. Examples are \"Alta do dólar pressiona inflação\" and \"Queda dos juros anima a Bolsa\". Expect the journalistic conditional for unconfirmed plans too: \"o governo estudaria um novo imposto\".",
         ],
@@ -699,7 +699,7 @@ export const PT_C2_U07: Lesson[] = [
         type: "speak",
         text: "A Selic está em dez vírgula setenta e cinco por cento ao ano.",
         prompt: "Say it in Portuguese: The Selic is at 10.75% a year.",
-        tip: "Read the decimal comma as \"vírgula\", stressed on the first syllable: VÍR-gu-la. In \"ao ano\", \"ao\" is said like 'ow', with no nasal sound.",
+        tip: "Read the decimal comma as \"vírgula\", stressed on the first syllable: VÍR-goo-la. In \"ao ano\", \"ao\" is said like 'ow', with no nasal sound.",
         explanation: "A rate is \"em\" a figure, read with \"vírgula\", and quoted \"ao ano\".",
       },
       {
@@ -858,7 +858,7 @@ export const PT_C2_U07: Lesson[] = [
           {
             type: "speak",
             text: "O artigo ainda não foi revisado por pares.",
-            tip: "In \"revisado\" the s between vowels sounds like z, and the final o sounds like u: re-vi-ZA-du.",
+            tip: "In \"revisado\" the s between vowels sounds like z, and the final o sounds like 'oo': he-vee-ZA-doo.",
             explanation: "\"Revisado por pares\" is peer-reviewed. Journalists add \"ainda não\" to warn readers that the work is a preprint.",
           },
         ],
@@ -951,7 +951,7 @@ export const PT_C2_U07: Lesson[] = [
         prompt: "Put the words in order to say: The forest lost the equivalent of a thousand soccer fields.",
         words: ["A floresta", "perdeu", "o equivalente", "a mil", "campos de futebol."],
         translation: "The forest lost the equivalent of a thousand soccer fields.",
-        explanation: "\"O equivalente a\" + a familiar unit turns an abstract area into something readers can picture. Soccer pitches are the classic Brazilian yardstick.",
+        explanation: "\"O equivalente a\" + a familiar unit turns an abstract area into something readers can picture. Soccer fields are the classic Brazilian yardstick.",
       },
       {
         type: "listen-choose",
@@ -1051,7 +1051,7 @@ export const PT_C2_U07: Lesson[] = [
         ],
         examples: [
           { es: "Data venia, Excelência, a defesa discorda da decisão.", en: "With all due respect, Your Honor, the defense disagrees with the ruling." },
-          { es: "Com a devida vênia, o argumento do nobre colega não se sustenta.", en: "With all due respect, my learned colleague's argument doesn't hold up." },
+          { es: "Com a devida vênia, o argumento do nobre colega não se sustenta.", en: "With all due respect, my esteemed colleague's argument doesn't hold up." },
           { es: "O advogado impetrou um habeas corpus em favor do cliente.", en: "The lawyer filed for habeas corpus on behalf of his client." },
           { es: "Sem provas suficientes, o juiz aplicou o princípio do in dubio pro reo.", en: "Without sufficient evidence, the judge applied the principle that doubt favors the defendant." },
           { es: "Data venia, mas quem marcou essa reunião às oito da manhã nunca pegou trânsito em São Paulo.", en: "With the greatest respect, whoever scheduled this meeting for 8 a.m. has never sat in São Paulo traffic." },
@@ -1248,7 +1248,7 @@ export const PT_C2_U07: Lesson[] = [
           "Don't ban every term. Keep \"réu\" if the reader will meet it again in the news, and gloss it once: \"o réu, a pessoa processada\".",
         ],
         examples: [
-          { es: "Foi interposto recurso pela defesa.", en: "The defense lodged an appeal. (specialist)" },
+          { es: "Foi interposto recurso pela defesa.", en: "The defense filed an appeal. (specialist)" },
           { es: "Os advogados do réu recorreram da decisão.", en: "The defendant's lawyers appealed against the decision. (plain)" },
           { es: "A sentença transitou em julgado.", en: "The judgment has become final. (specialist)" },
           { es: "A decisão é definitiva: não dá mais para recorrer.", en: "The decision is final: there's no way left to appeal. (plain)" },
@@ -1341,7 +1341,7 @@ export const PT_C2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Grávidas não devem tomar este remédio.",
-            tip: "Stress GRÁ-vi-das on the first syllable; \"devem\" ends in a nasal glide, with no clear m.",
+            tip: "Stress GRÁ-vee-das on the first syllable; \"devem\" ends in a nasal glide, with no clear m.",
             explanation: "This is the plain version of \"contraindicado para gestantes\": a subject, a verb and a clear prohibition.",
           },
         ],
@@ -1515,7 +1515,7 @@ export const PT_C2_U07: Lesson[] = [
         type: "speak",
         text: "A decisão é definitiva: não dá mais para recorrer.",
         prompt: "Say it plainly in Portuguese: The decision is final; there's no way left to appeal.",
-        tip: "In \"definitiva\", the t before i sounds like the ch in 'cheese': de-fi-ni-TCHI-va.",
+        tip: "In \"definitiva\", the t before i sounds like the ch in 'cheese': jee-fee-nee-CHEE-va.",
         explanation: "This is the plain version of \"a sentença transitou em julgado\": what it means, not just a shorter form of the formula.",
       },
       {
@@ -1557,7 +1557,7 @@ export const PT_C2_U07: Lesson[] = [
         heading: "Giving the news: plain words first",
         body: [
           "Dra. Helena Bastos, a cardiologist in Belo Horizonte, has the results of seu Antônio's holter. He's 72 and has come with his daughter Beatriz. She gives the news in a fixed order. First the finding in everyday words, then the technical term, joined by \"ou seja\" or \"o que a gente chama de\". She names the jargon instead of hiding it, because he'll see \"fibrilação atrial\" on the \"laudo\" (the written report) and look it up online that night.",
-          "She calls him \"seu Antônio\" and \"o senhor\" and says \"vocês\" to both of them. To them she is \"doutora\", with no surname. When Beatriz asks the questions, the doctor still answers him. Talking about a patient in the third person while he sits there feels as dismissive in Brazil as in English. Keep \"o paciente\" for colleagues, not for the consulting room.",
+          "She calls him \"seu Antônio\" and \"o senhor\" and says \"vocês\" to both of them. To them she is \"doutora\", with no last name. When Beatriz asks the questions, the doctor still answers him. Talking about a patient in the third person while he sits there feels as dismissive in Brazil as in English. Keep \"o paciente\" for colleagues, not for the consulting room.",
           "She softens bad news before it lands: \"não é para se assustar, mas...\", \"é bastante comum na sua idade\", \"tem tratamento\". Her spoken \"a gente\" is warmth, not carelessness. In the written laudo the same finding becomes impersonal: \"evidenciou-se fibrilação atrial paroxística\".",
         ],
         examples: [
@@ -1721,7 +1721,7 @@ export const PT_C2_U07: Lesson[] = [
         source: "Doctor, is it serious? (to a female doctor)",
         answer: "Doutora, isso é grave?",
         altAnswers: ["Doutora, é grave?", "Doutora, é sério?", "Doutora, isso é sério?"],
-        explanation: "Patients address a doctor as \"doutora\" or \"doutor\" with no surname. \"Grave\" is the usual word for a serious medical problem.",
+        explanation: "Patients address a doctor as \"doutora\" or \"doutor\" with no last name. \"Grave\" is the usual word for a serious medical problem.",
       },
       {
         type: "translate",
@@ -2374,7 +2374,7 @@ export const PT_C2_U07: Lesson[] = [
         type: "speak",
         text: "Se a febre não passar em três dias, procure o posto de saúde.",
         prompt: "Say it in Portuguese: If the fever doesn't go away in three days, go to the health clinic.",
-        tip: "\"Saúde\" has three syllables, sa-ú-de, stressed on the ú, and the final de sounds like dji in most of Brazil.",
+        tip: "\"Saúde\" has three syllables, sa-ú-de, stressed on the ú, and the final de sounds like 'jee' in most of Brazil: sa-Ú-jee.",
         explanation: "This is the voice-message test: one condition, one instruction, no second breath needed.",
       },
       {
@@ -2524,7 +2524,7 @@ export const PT_C2_U07: Lesson[] = [
         ],
         examples: [
           { es: "Os técnicos fizeram uma vistoria in loco na própria fábrica.", en: "The technicians carried out an on-site inspection at the factory itself." },
-          { es: "Data venia, discordo do entendimento do nobre colega.", en: "With all due respect, I disagree with my learned colleague's interpretation." },
+          { es: "Data venia, discordo do entendimento do nobre colega.", en: "With all due respect, I disagree with my esteemed colleague's interpretation." },
           { es: "A assinatura das duas partes é condição sine qua non para o acordo.", en: "Both parties' signatures are an essential condition for the agreement." },
           { es: "Foi criada uma comissão ad hoc para investigar o caso.", en: "An ad hoc committee was set up to investigate the case." },
           { es: "Seu pedido foi aprovado.", en: "Your request has been approved. (The plain version of \"o pedido foi deferido\".)" },
@@ -2549,7 +2549,7 @@ export const PT_C2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Data venia, discordo do entendimento do nobre colega.",
-            tip: "Say it DA-ta VÊ-nia, with a closed ê. In \"entendimento\" the first two syllables are nasal and the final o sounds like u.",
+            tip: "Say it DA-ta VÊ-nia, with a closed ê. In \"entendimento\" the first two syllables are nasal and the final o sounds like 'oo'.",
             explanation: "\"Data venia\" opens a respectful disagreement in court. \"Nobre colega\" is the ritual way to address opposing counsel.",
           },
         ],
@@ -2654,7 +2654,7 @@ export const PT_C2_U07: Lesson[] = [
         type: "speak",
         text: "Tome um comprimido a cada oito horas, depois das refeições.",
         prompt: "Say it in Portuguese: Take one tablet every eight hours, after meals.",
-        tip: "In \"depois\" the unstressed e sounds like i, so the d softens: dji-POIS. Stress \"comprimido\" on MI.",
+        tip: "In \"depois\" the unstressed e sounds like 'ee', so the d softens: jee-POIS. Stress \"comprimido\" on MI.",
         explanation: "This is the standard imperative \"tome\", as in a \"bula\". \"Depois das refeições\" uses \"de\" + \"as\".",
       },
     ],

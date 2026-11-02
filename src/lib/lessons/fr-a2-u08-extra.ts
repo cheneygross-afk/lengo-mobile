@@ -828,7 +828,7 @@ export const FR_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A client writes asking about a delivery. Which reply is correct?",
+        question: "A client writes asking about a delivery. How do you reply: I'll keep you posted?",
         options: ["Je vous tiens au courant.", "Je tiens vous au courant.", "Je vous tient au courant.", "Je te tiens au courant, madame."],
         correctIndex: 0,
         explanation: "\"Vous\" (polite) before the verb, and \"je tiens\" with an s.",
@@ -928,10 +928,9 @@ export const FR_A2_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "She's wearing the red dress. She's wearing it. She wore it.",
+        source: "She puts on the red dress. She puts it on. She put it on.",
         answer: "Elle met la robe rouge. Elle la met. Elle l'a mise.",
-        altAnswers: ["Elle porte la robe rouge. Elle la porte. Elle l'a portée."],
-        explanation: "\"La robe\" → \"la\" → \"l'a mise\" (audible agreement).",
+        explanation: "\"Mettre\" = put on (clothes). \"La robe\" → \"la\" → \"l'a mise\" (audible agreement). For wearing something, French uses \"porter\": \"elle l'a portée\".",
       },
       {
         type: "translate",

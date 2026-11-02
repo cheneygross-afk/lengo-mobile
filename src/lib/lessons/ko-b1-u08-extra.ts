@@ -402,7 +402,7 @@ export const KO_B1_U08_EXTRA: Lesson[] = [
         source: "I'm sorry I couldn't call you.",
         answer: "연락을 못 해서 죄송해요.",
         altAnswers: ["연락 못 해서 죄송해요.", "전화를 못 해서 죄송해요.", "전화 못 해서 죄송해요.", "연락을 못 드려서 죄송해요.", "연락을 못 해서 죄송합니다.", "연락을 못 드려서 죄송합니다."],
-        explanation: "Before an apology: -아서. 못 해서, not *못 했으니까.",
+        explanation: "Before an apology: -아서. 못 해서; 못 했으니까 would sound as if you were arguing with the listener.",
       },
       {
         type: "dictation",

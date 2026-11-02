@@ -737,7 +737,7 @@ export const FR_B2_U01: Lesson[] = [
             source: "There's nothing I can do.",
             answer: "Il n'y a rien que je puisse faire.",
             altAnswers: ["Je ne peux rien faire."],
-            explanation: "\"Rien que\" + subjunctive \"puisse\": the thing you could do doesn't exist.",
+            explanation: "\"Rien\" + the relative \"que\" + subjunctive \"puisse\": the thing you could do doesn't exist. (Don't confuse this with the fixed phrase \"rien que\", meaning 'just' or 'only'.)",
           },
           {
             type: "fill-blank",
@@ -1410,16 +1410,16 @@ export const FR_B2_U01: Lesson[] = [
         heading: "Qui que ce soit, quoi que ce soit: fixed subjunctives",
         body: [
           "\"Qui que ce soit\" and \"quoi que ce soit\" are frozen expressions containing the subjunctive \"soit\". You don't conjugate them; you drop them in where English says 'anyone (at all)' or 'anything (at all)' in a negative, a question, or after \"sans\" or \"si\".",
-          "\"Je n'en ai parlé à qui que ce soit\" (I haven't spoken about it to anyone at all) is stronger than \"je n'en ai parlé à personne\". \"Si tu as besoin de quoi que ce soit, appelle-moi\" (if you need anything at all, call me) is a very common, warm offer. \"Il est parti sans rien dire à qui que ce soit\" (without saying anything to anyone).",
-          "With a negative you will also often see \"pas\" added: \"je n'en ai pas parlé à qui que ce soit\", \"ne touchez pas à quoi que ce soit\". Both versions are correct. In an affirmative sentence they mean 'whoever it is' / 'whatever it is': \"Qui que ce soit, je ne suis pas là\" (whoever it is, I'm not in).",
+          "\"Je n'en ai pas parlé à qui que ce soit\" (I haven't spoken about it to anyone at all) is stronger than \"je n'en ai parlé à personne\". \"Si tu as besoin de quoi que ce soit, appelle-moi\" (if you need anything at all, call me) is a very common, warm offer. \"Il est parti sans rien dire à qui que ce soit\" (without saying anything to anyone).",
+          "Unlike \"personne\" and \"rien\", these phrases are not negative words themselves, so everyday French keeps the full \"ne... pas\": \"je n'en ai pas parlé à qui que ce soit\", \"ne touchez pas à quoi que ce soit\". You will also meet \"ne\" alone in more literary writing (\"je n'en ai parlé à qui que ce soit\"). In an affirmative sentence they mean 'whoever it is' / 'whatever it is': \"Qui que ce soit, je ne suis pas là\" (whoever it is, I'm not in).",
         ],
         examples: [
           { es: "Si tu as besoin de quoi que ce soit, appelle-moi.", en: "If you need anything at all, call me." },
-          { es: "Je n'en ai parlé à qui que ce soit.", en: "I haven't mentioned it to anyone at all." },
+          { es: "Je n'en ai pas parlé à qui que ce soit.", en: "I haven't mentioned it to anyone at all." },
           { es: "Il est parti sans rien dire à qui que ce soit.", en: "He left without saying anything to anyone." },
           { es: "Avant de signer quoi que ce soit, lisez bien le contrat.", en: "Before you sign anything at all, read the contract carefully." },
           { es: "Qui que ce soit, dis-lui que je suis en réunion.", en: "Whoever it is, tell them I'm in a meeting." },
-          { es: "Ne touchez à quoi que ce soit avant l'arrivée de la police.", en: "Don't touch anything at all before the police arrive." },
+          { es: "Ne touchez pas à quoi que ce soit avant l'arrivée de la police.", en: "Don't touch anything at all before the police arrive." },
         ],
         checkpoint: [
           {
@@ -1530,9 +1530,9 @@ export const FR_B2_U01: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "I haven't mentioned it to anyone at all.",
-        answer: "Je n'en ai parlé à qui que ce soit.",
-        altAnswers: ["Je n'en ai pas parlé à qui que ce soit.", "Je n'en ai parlé à personne.", "Je n'en ai rien dit à qui que ce soit.", "Je n'en ai parlé à personne du tout."],
-        explanation: "\"À qui que ce soit\" reinforces the negative; \"à personne\" is the plainer equivalent.",
+        answer: "Je n'en ai pas parlé à qui que ce soit.",
+        altAnswers: ["Je n'en ai parlé à qui que ce soit.", "Je n'en ai parlé à personne.", "Je n'en ai rien dit à qui que ce soit.", "Je n'en ai parlé à personne du tout."],
+        explanation: "\"À qui que ce soit\" reinforces the negative \"ne... pas\" (\"ne\" alone is a literary variant); \"à personne\" is the plainer equivalent.",
       },
       {
         type: "multiple-choice",

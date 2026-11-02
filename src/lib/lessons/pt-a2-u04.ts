@@ -357,7 +357,7 @@ export const PT_A2_U04: Lesson[] = [
             question: "What did you hear?",
             options: ["Ele vinha de ônibus.", "Ele veio de ônibus.", "Ele tinha um ônibus.", "Eles vinham de ônibus."],
             correctIndex: 0,
-            explanation: "\"Vinha\" has a nasal i followed by the nh sound (VEE-nya); \"veio\" has no nasal and ends in a diphthong (VEI-u). \"Vinham\" would end in a nasal \"-ão\" sound.",
+            explanation: "\"Vinha\" has a nasal i followed by the nh sound (VĨ-nya); \"veio\" has no nasal and is a diphthong plus a final oo (VAY-oo). \"Vinham\" would end in a nasal \"-ão\" sound.",
           },
         ],
       },
@@ -1348,7 +1348,7 @@ export const PT_A2_U04: Lesson[] = [
           {
             type: "speak",
             text: "Que saudade da casa da minha avó!",
-            tip: "The -de at the end of saudade sounds like 'dji', and the ó in avó is open.",
+            tip: "The -de at the end of saudade sounds like 'jee' (sow-DAH-jee), and the ó in avó is open.",
             explanation: "\"Que saudade de...!\" is the everyday way to say how much you miss something; \"de\" + \"a\" becomes \"da\".",
           },
         ],
@@ -1434,7 +1434,7 @@ export const PT_A2_U04: Lesson[] = [
         type: "speak",
         text: "Na escola eu era muito tímido.",
         prompt: "Say it in Portuguese: At school I was really shy.",
-        tip: "Say muito as 'muintu': the ui is lightly nasal.",
+        tip: "Say muito as MŨY-too: the ui is lightly nasal.",
         explanation: "\"Eu era\" describes what you were like back then. A woman says \"tímida\".",
       },
       {
@@ -1751,7 +1751,7 @@ export const PT_A2_U04: Lesson[] = [
           {
             type: "speak",
             text: "O bairro era tranquilo.",
-            tip: "The e in era is open, like the e in 'bet'. In tranquilo the u is pronounced: tran-KWI-lu.",
+            tip: "The e in era is open, like the e in 'bet'. In tranquilo the u is pronounced: trã-KWEE-loo.",
             explanation: "\"É tranquilo\" becomes \"era tranquilo\" when you describe the neighborhood as it used to be.",
           },
         ],
@@ -2205,7 +2205,7 @@ export const PT_A2_U04: Lesson[] = [
           { es: "Eu tinha dez anos.", en: "I was ten." },
           { es: "A casa tinha um quintal enorme.", en: "The house had a huge backyard." },
           { es: "Eram três horas e as crianças estavam cansadas.", en: "It was three o'clock and the kids were tired." },
-          { es: "Antes não tinha metrô no bairro.", en: "There used to be no subway in the neighborhood." },
+          { es: "Antes não tinha metrô no bairro.", en: "There was no subway in the neighborhood before." },
         ],
         checkpoint: [
           {
@@ -2346,7 +2346,7 @@ export const PT_A2_U04: Lesson[] = [
         type: "speak",
         text: "Antigamente a gente ia ao cinema toda semana.",
         prompt: "Say it in Portuguese: We used to go to the movies every week.",
-        tip: "The t in \"gente\" sounds like the ch in cheese, because final -e is said like i: ZHEN-tchi, with the g like the s in measure.",
+        tip: "The t in \"gente\" sounds like the ch in cheese, because final -e is said like ee: ZHEN-chee, with the g like the s in measure.",
         explanation: "\"A gente ia\": a repeated habit, so the imperfeito of \"ir\" in the ele/ela form that \"a gente\" takes.",
       },
       {

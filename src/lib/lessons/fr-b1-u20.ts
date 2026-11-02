@@ -756,7 +756,7 @@ export const FR_B1_U20: Lesson[] = [
         prompt: "Translate into French.",
         source: "Please find the invoice attached.",
         answer: "Vous trouverez la facture ci-jointe.",
-        altAnswers: ["Veuillez trouver la facture ci-jointe.", "Veuillez trouver ci-joint la facture."],
+        altAnswers: ["Veuillez trouver la facture ci-jointe.", "Veuillez trouver ci-joint la facture.", "Vous trouverez ci-joint la facture."],
         explanation: "Standard formulas: \"vous trouverez ci-joint\" / \"veuillez trouver ci-joint\".",
       },
       {
@@ -930,12 +930,12 @@ export const FR_B1_U20: Lesson[] = [
       {
         heading: "Writing your own ad",
         body: [
-          "Write an ad for a café: \"Café du Port, à Marseille, recherche serveur / serveuse H/F en CDD pour l'été. Le poste est à temps plein, du mardi au samedi. Une première expérience est souhaitée. Les pourboires sont partagés entre l'équipe. Les candidatures se font en personne, le matin.\"",
+          "Write an ad for a café: \"Café du Port, à Marseille, recherche serveur / serveuse H/F en CDD pour l'été. Le poste est à temps plein, du mardi au samedi. Une première expérience est souhaitée. Les pourboires sont partagés entre les membres de l'équipe. Les candidatures se font en personne, le matin.\"",
           "Mix \"on recherche\" (spoken feel), participles (\"souhaitée\", \"exigé\"), the passive (\"sont partagés\") and \"se\" (\"se font\").",
         ],
         examples: [
           { es: "On recherche un cuisinier pour la saison.", en: "We're looking for a cook for the season." },
-          { es: "Les pourboires sont partagés entre l'équipe.", en: "Tips are shared among the team." },
+          { es: "Les pourboires sont partagés entre les membres de l'équipe.", en: "Tips are shared among the team." },
           { es: "La maîtrise de l'anglais est exigée.", en: "Fluent English is required." },
           { es: "Les horaires sont à définir ensemble.", en: "Working hours to be agreed together." },
           { es: "Le logement peut être fourni.", en: "Accommodation can be provided." },

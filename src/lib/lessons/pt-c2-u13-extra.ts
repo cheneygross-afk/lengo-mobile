@@ -174,7 +174,7 @@ export const PT_C2_U13_EXTRA: Lesson[] = [
         type: "speak",
         text: "Vocês sabem a verdade, e a verdade há de vencer.",
         prompt: "Say it in Portuguese: You know the truth, and the truth shall prevail.",
-        tip: "\"Há de\" runs together as \"á-dji\": the h is silent.",
+        tip: "\"Há de\" runs together as \"á-jee\": the h is silent.",
         explanation: "Modern \"vocês\" with the solemn \"haver de\", which Brazilians still use for conviction.",
       },
     ],
@@ -375,7 +375,7 @@ export const PT_C2_U13_EXTRA: Lesson[] = [
           { es: "O relato deixa entrever a desconfiança do governador.", en: "The account lets us glimpse the governor's distrust." },
           { es: "À luz da época, a medida era moderada.", en: "In light of the period, the measure was moderate." },
           { es: "Salvador viria a perder o posto de capital em 1763.", en: "Salvador would lose its status as capital in 1763." },
-          { es: "\"Ela [a Câmara] determina que [...] se limpem as ruas.\"", en: "'It [the Council] orders that [...] the streets be cleaned.'" },
+          { es: "\"Ela determina que se limpem as ruas.\"", en: "'It orders that the streets be cleaned.' Quoted with a clarification and a cut: \"Ela [a Câmara] determina que [...] se limpem as ruas\"." },
         ],
         checkpoint: [
           {

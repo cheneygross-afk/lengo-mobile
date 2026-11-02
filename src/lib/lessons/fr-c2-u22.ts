@@ -677,7 +677,7 @@ export const FR_C2_U22: Lesson[] = [
         prompt: "Translate into French.",
         source: "My transferable skills allow me to adapt quickly.",
         answer: "Mes compétences transversales me permettent de m'adapter rapidement.",
-        altAnswers: ["Mes compétences transversales me permettent de m'adapter vite.", "Mes compétences transférables me permettent de m'adapter rapidement.", "Mes soft skills me permettent de m'adapter rapidement.", "Mes compétences transversales me permettent de m'adapter facilement."],
+        altAnswers: ["Mes compétences transversales me permettent de m'adapter vite.", "Mes compétences transférables me permettent de m'adapter rapidement.", "Mes soft skills me permettent de m'adapter rapidement."],
         explanation: "\"Compétences transversales\" is the standard French term; \"permettre à quelqu'un de\" + infinitive.",
       },
       {
@@ -973,7 +973,7 @@ export const FR_C2_U22: Lesson[] = [
             source: "I'd like to thank you for the interview you gave me yesterday.",
             answer: "Je tiens à vous remercier pour l'entretien que vous m'avez accordé hier.",
             altAnswers: ["Je tiens à vous remercier de l'entretien que vous m'avez accordé hier.", "Je souhaite vous remercier pour l'entretien que vous m'avez accordé hier.", "Je souhaiterais vous remercier pour l'entretien que vous m'avez accordé hier.", "Je tiens à vous remercier pour l'entretien d'hier."],
-            explanation: "\"Tenir à\" + infinitive, \"remercier pour / de\", and \"accorder un entretien\". \"Accordé\" doesn't agree: the preceding \"que\" is \"l'entretien\", masculine.",
+            explanation: "\"Tenir à\" + infinitive, \"remercier pour / de\", and \"accorder un entretien\". \"Accordé\" agrees with the preceding direct object \"que\" (\"l'entretien\", masculine singular), so it takes no extra ending.",
           },
           {
             type: "fill-blank",

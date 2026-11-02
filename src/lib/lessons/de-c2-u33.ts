@@ -517,7 +517,7 @@ export const DE_C2_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence correctly contrasts two sources?",
+            question: "How do you write 'While Berger emphasises the market, Schmidt relies on the state.'?",
             options: ["Während Berger den Markt betont, setzt Schmidt auf den Staat.", "Während Berger betont den Markt, Schmidt setzt auf den Staat.", "Berger betont den Markt, während setzt Schmidt auf den Staat.", "Während Berger den Markt betont, Schmidt setzt auf den Staat."],
             correctIndex: 0,
             explanation: "\"Während\" sends its verb to the end; the following main clause starts with its verb.",
@@ -725,10 +725,10 @@ export const DE_C2_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you write 'The city council is due to vote in March.'?",
             options: ["Der Stadtrat soll im März abstimmen.", "Der Stadtrat soll im März abstimmen werden.", "Der Stadtrat wird im März abstimmen sollen werden.", "Der Stadtrat soll im März abgestimmt werden."],
             correctIndex: 0,
-            explanation: "\"Sollen\" + infinitive needs no \"werden\": it already points to the future.",
+            explanation: "\"Sollen\" + infinitive needs no \"werden\": it already points to the future. \"*soll ... abgestimmt werden*\" turns the council into the thing voted on.",
           },
           {
             type: "speak",
@@ -1958,7 +1958,7 @@ export const DE_C2_U33: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Mastery Challenge: Argue to the Limit",
-    summary: "Defend a position on a compulsory year of social service against ever sharper objections, as in the Goethe C2 Sprechen module: state and structure your thesis, concede without giving ground, refute precisely and keep the floor with emphasis.",
+    summary: "Defend a position on a compulsory year of social service against ever sharper objections, as in the Goethe C2 \"Sprechen\" module: state and structure your thesis, concede without giving ground, refute precisely and keep the floor with emphasis.",
     duration: "20 min",
     sections: [
       {
@@ -2421,7 +2421,7 @@ export const DE_C2_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct in every detail?",
+        question: "How do you write 'Despite the fierce criticism, the minister stuck to her draft.'?",
         options: ["Trotz der heftigen Kritik hielt die Ministerin an ihrem Entwurf fest.", "Trotz die heftige Kritik hielt die Ministerin an ihrem Entwurf fest.", "Trotz der heftigen Kritik hielt die Ministerin an ihren Entwurf fest.", "Trotz der heftigen Kritik hielt die Ministerin ihrem Entwurf fest."],
         correctIndex: 0,
         explanation: "\"Trotz\" + genitive and \"festhalten an\" + dative: \"an ihrem Entwurf\".",

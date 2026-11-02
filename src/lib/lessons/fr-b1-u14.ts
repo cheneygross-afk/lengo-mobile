@@ -81,7 +81,7 @@ export const FR_B1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say: They had argued the day before?",
             options: [
               "Ils s'étaient disputés la veille.",
               "Ils s'avaient disputés la veille.",
@@ -427,7 +427,7 @@ export const FR_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: She had fallen asleep?",
         options: ["Elle s'était endormie.", "Elle avait endormie.", "Elle s'avait endormie.", "Elle était s'endormie."],
         correctIndex: 0,
         explanation: "Pronominal: pronoun + \"était\" + participle with agreement.",
@@ -1255,7 +1255,7 @@ export const FR_B1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence regrets the past?",
+            question: "How do you say: If only I had bought that ticket!",
             options: [
               "Si seulement j'avais acheté ce billet !",
               "Si seulement j'achetais ce billet !",
@@ -1913,7 +1913,7 @@ export const FR_B1_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which is right? She lived in Senegal for three years.",
+            question: "How do you say: She lived in Senegal for three years?",
             options: [
               "Elle a vécu trois ans au Sénégal.",
               "Elle vivait trois ans au Sénégal.",

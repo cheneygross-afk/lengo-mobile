@@ -229,7 +229,7 @@ export const KO_B1_U29: Lesson[] = [
         source: "The rating was too low, so I didn't buy it.",
         answer: "별점이 너무 낮아서 안 샀어요.",
         altAnswers: ["별점이 너무 낮아서 사지 않았어요.", "평점이 너무 낮아서 안 샀어요.", "평점이 너무 낮아서 사지 않았어요."],
-        explanation: "-아서 gives the reason, and the tense goes on the last verb only: 낮아서 ... 안 샀어요, never *낮았어서.",
+        explanation: "-아서 gives the reason, and the tense goes on the last verb only: 낮아서 ... 안 샀어요, not 낮았어서 (heard in casual speech, but not standard).",
       },
     ],
   },
@@ -573,8 +573,8 @@ export const KO_B1_U29: Lesson[] = [
             prompt: "Translate into Korean (polite, as on a notice).",
             source: "Please apply within 7 days of receiving the item.",
             answer: "상품 수령 후 7일 이내에 신청해 주세요.",
-            altAnswers: ["상품 수령 후 칠 일 이내에 신청해 주세요.", "상품을 받은 후 7일 이내에 신청해 주세요.", "상품을 받은 후 칠 일 이내에 신청해 주세요.", "상품 수령 후 7일 안에 신청해 주세요.", "상품 수령 후 칠 일 안에 신청해 주세요.", "상품을 받은 후 7일 안에 신청해 주세요.", "상품을 받은 후 칠 일 안에 신청해 주세요.", "상품 수령 후 7일 이내에 신청하시기 바랍니다.", "상품 수령 후 칠 일 이내에 신청하시기 바랍니다."],
-            explanation: "수령 후 'after receipt', 7일 [칠 일] with Sino-Korean numbers, 이내에 'within'. -아 / 어 주세요 and the notice form -(으)시기 바랍니다 both fit.",
+            altAnswers: ["상품 수령 후 칠 일 이내에 신청해 주세요.", "상품을 받은 후 7일 이내에 신청해 주세요.", "상품을 받은 후 칠 일 이내에 신청해 주세요.", "상품 수령 후 7일 안에 신청해 주세요.", "상품 수령 후 칠 일 안에 신청해 주세요.", "상품을 받은 후 7일 안에 신청해 주세요.", "상품을 받은 후 칠 일 안에 신청해 주세요."],
+            explanation: "수령 후 'after receipt', 7일 [칠 일] with Sino-Korean numbers, 이내에 'within'. -아 / 어 주세요 is the polite request; a formal notice would say 신청하시기 바랍니다.",
           },
           {
             type: "dictation",
@@ -835,7 +835,7 @@ export const KO_B1_U29: Lesson[] = [
         en: "(Formal, in an email) [I would like you to check] the address again.",
         sentence: "주소를 다시 ___.",
         answer: "확인해 주셨으면 좋겠습니다",
-        altAnswers: ["확인해 주셨으면 합니다", "확인해 주시면 좋겠습니다", "확인해 주셨으면 해요", "확인해 주셨으면 좋겠어요"],
+        altAnswers: ["확인해 주셨으면 합니다", "확인해 주시면 좋겠습니다"],
         explanation: "확인하다 + -아 / 어 주다 + -시- + -었으면 좋겠습니다: a firm, polite request for someone else to act.",
       },
       {
@@ -1276,8 +1276,8 @@ export const KO_B1_U29: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I don't need it.",
             answer: "필요 없어요.",
-            altAnswers: ["안 필요해요.", "그건 필요 없어요.", "저는 필요 없어요."],
-            explanation: "필요 없어요 [피료 업써요]: no 안 before 있다, just 없다.",
+            altAnswers: ["필요하지 않아요.", "그건 필요 없어요.", "저는 필요 없어요."],
+            explanation: "필요 없어요 [피료 업써요]: the negative of 있다 is 없다, not 안 있다. 안 필요해요 is heard in casual speech but isn't standard; 필요하지 않아요 is.",
           },
           {
             type: "speak",
@@ -1453,7 +1453,7 @@ export const KO_B1_U29: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I'd like to know whether an exchange is possible.",
             answer: "교환이 가능한지 알고 싶어요.",
-            altAnswers: ["교환이 가능한지 알고 싶습니다.", "교환이 되는지 알고 싶어요.", "교환할 수 있는지 알고 싶어요.", "교환이 가능한지 궁금해요.", "교환이 되는지 궁금해요.", "교환할 수 있는지 궁금해요."],
+            altAnswers: ["교환이 되는지 알고 싶어요.", "교환할 수 있는지 알고 싶어요.", "교환이 가능한지 궁금해요.", "교환이 되는지 궁금해요.", "교환할 수 있는지 궁금해요."],
             explanation: "가능하다 is an adjective, so -(으)ㄴ지: 가능한지. 'Whether' needs no extra word in Korean.",
           },
           {
@@ -1493,7 +1493,7 @@ export const KO_B1_U29: Lesson[] = [
             prompt: "Translate into Korean (formal, to the agent).",
             source: "I would like you to send it by Friday.",
             answer: "금요일까지 보내 주셨으면 좋겠습니다.",
-            altAnswers: ["금요일까지 보내 주셨으면 합니다.", "금요일까지 보내 주셨으면 좋겠어요.", "금요일까지 보내 주셨으면 해요.", "금요일까지 배송해 주셨으면 좋겠습니다.", "금요일까지 배송해 주셨으면 합니다."],
+            altAnswers: ["금요일까지 보내 주셨으면 합니다.", "금요일까지 배송해 주셨으면 좋겠습니다.", "금요일까지 배송해 주셨으면 합니다."],
             explanation: "까지 'by'. 보내 주셨으면 좋겠습니다 is firm but polite; 보내 주세요 would sound blunter in writing.",
           },
           {
@@ -1740,7 +1740,7 @@ export const KO_B1_U29: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I'd like you to help me.",
             answer: "도와주셨으면 좋겠어요.",
-            altAnswers: ["도와주셨으면 해요.", "도와주셨으면 좋겠습니다.", "도와주셨으면 합니다.", "저를 도와주셨으면 좋겠어요."],
+            altAnswers: ["도와주셨으면 해요.", "저를 도와주셨으면 좋겠어요."],
             explanation: "돕다 → 도와주다, one word, → 도와주셨으면.",
           },
           {
@@ -2373,7 +2373,7 @@ export const KO_B1_U29: Lesson[] = [
         prompt: "Translate into Korean (polite, in a review).",
         source: "I'd like you to exchange it quickly.",
         answer: "빨리 교환해 주셨으면 좋겠어요.",
-        altAnswers: ["빨리 교환해 주셨으면 해요.", "빨리 교환해 주셨으면 좋겠습니다.", "빨리 교환해 주셨으면 합니다.", "빨리 바꿔 주셨으면 좋겠어요.", "빨리 바꿔 주셨으면 해요."],
+        altAnswers: ["빨리 교환해 주셨으면 해요.", "빨리 바꿔 주셨으면 좋겠어요.", "빨리 바꿔 주셨으면 해요."],
         explanation: "-아 / 어 주셨으면 좋겠어요: polite but firm, even in a public review.",
       },
       {

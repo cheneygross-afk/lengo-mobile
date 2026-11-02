@@ -74,7 +74,7 @@ export function agree(form: string, a: Agreement): string {
     .replace(/\(es\)/g, a.g === "f" ? "es" : "")
     .replace(/\(e\)/g, a.g === "f" ? "e" : "")
     .replace(/\(s\)/g, a.n === "p" ? "s" : "")
-    .replace(/ss\b/g, "s");
+    .replace(/ss(?!\p{L})/gu, "s");
 }
 
 /** Every agreement a subject allows: "elle" -> feminine singular. */

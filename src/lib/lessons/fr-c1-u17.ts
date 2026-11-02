@@ -2085,7 +2085,7 @@ export const FR_C1_U17: Lesson[] = [
           { left: "À titre de geste commercial", right: "offering a remedy" },
           { left: "Nous sommes au regret de vous informer", right: "refusing" },
         ],
-        explanation: "A reply to a complaint follows these steps in order, ending with a reassurance.",
+        explanation: "A reply to a complaint moves through these steps: acknowledge, express regret, explain, then offer a remedy or, where necessary, refuse.",
       },
       {
         type: "dictation",
@@ -2370,7 +2370,7 @@ export const FR_C1_U17: Lesson[] = [
             prompt: "Translate into French with a noun phrase as the subject.",
             source: "Closing the market for eighteen months would penalise the traders.",
             answer: "La fermeture du marché pendant dix-huit mois pénaliserait les commerçants.",
-            altAnswers: ["La fermeture du marché durant dix-huit mois pénaliserait les commerçants.", "Fermer le marché pendant dix-huit mois pénaliserait les commerçants.", "La fermeture du marché pendant dix-huit mois pénaliserait les marchands.", "La fermeture du marché pendant dix-huit mois léserait les commerçants."],
+            altAnswers: ["La fermeture du marché durant dix-huit mois pénaliserait les commerçants.", "La fermeture du marché pendant dix-huit mois pénaliserait les marchands.", "La fermeture du marché pendant dix-huit mois léserait les commerçants."],
             explanation: "\"La fermeture de\" nominalises closing; the conditional \"pénaliserait\" keeps the consequence hypothetical.",
           },
           {

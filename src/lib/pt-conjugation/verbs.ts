@@ -94,7 +94,7 @@ jogar|to play (a game, a sport); to throw
 estudar|to study
 aprender|to learn
 ensinar|to teach
-mudar|to change; to move (house)|prn|to move (house)
+mudar|to change; to move (to a new home)|prn|to move (to a new home)
 continuar|to continue, to go on
 receber|to receive
 perder|to lose; to miss (a bus)
@@ -285,7 +285,7 @@ brigar|to fight, to argue
 bater|to hit, to knock; to beat
 chutar|to kick
 vencer|to win, to beat
-empatar|to draw, to tie (a game)
+empatar|to tie (a game)
 treinar|to train, to practice
 competir|to compete|ei
 participar|to take part
@@ -571,7 +571,7 @@ esclarecer|to clarify
 esconder|to hide|prn|to hide
 esforçar|to make an effort|prn!
 estabelecer|to establish
-estender|to extend; to hang out (washing)
+estender|to extend; to hang out (laundry)
 estimar|to estimate; to cherish
 estragar|to spoil, to ruin|prn|to go bad (food)
 examinar|to examine
@@ -675,7 +675,7 @@ acenar|to wave
 acolher|to welcome
 adicionar|to add
 adivinhar|to guess
-adoecer|to fall ill
+adoecer|to get sick
 adotar|to adopt
 afastar|to push away|prn|to move away
 afetar|to affect
@@ -709,7 +709,7 @@ trovejar|to thunder|imp
 ventar|to be windy|imp
 garoar|to drizzle|imp
 cochilar|to doze, to nap
-colar|to stick, to glue; to cheat (in a test)
+colar|to stick, to glue; to cheat (on a test)
 combater|to fight
 conquistar|to conquer, to win
 conservar|to preserve
@@ -735,7 +735,7 @@ encaixar|to fit (in)
 encarar|to face
 encostar|to lean|prn|to lean
 enfeitar|to decorate
-enjoar|to feel sick
+enjoar|to feel nauseous; to get sick of
 enrolar|to roll up; to stall
 ensaiar|to rehearse
 enterrar|to bury
@@ -798,7 +798,7 @@ reprovar|to fail (an exam); to disapprove
 resmungar|to grumble
 retirar|to withdraw, to remove
 retornar|to return
-revisar|to revise, to check
+revisar|to review, to check
 rodar|to turn, to spin; to travel around
 rolar|to roll; to happen (informal)
 sacar|to withdraw (cash); to get it (informal)
@@ -827,7 +827,7 @@ desembarcar|to get off, to disembark
 decolar|to take off (plane)
 pousar|to land; to perch
 aterrissar|to land
-abastecer|to fill up (with fuel), to supply
+abastecer|to fill up (with gas), to supply
 multar|to fine
 candidatar|to apply (for a job)|prn!
 matricular|to enroll|prn|to enroll
@@ -1046,7 +1046,7 @@ restringir|to restrict
 resumir|to summarize
 retratar|to portray
 reunir|to bring together|acc prn|to meet, to get together
-revisar|to revise
+revisar|to review
 satisfazer|to satisfy
 simplificar|to simplify
 situar|to place|prn|to be located
@@ -1058,7 +1058,7 @@ tolerar|to tolerate
 tranquilizar|to reassure|prn|to calm down
 transitar|to pass, to move
 tropeçar|to trip
-ultrapassar|to overtake, to exceed
+ultrapassar|to pass (a car), to exceed
 vibrar|to vibrate; to be thrilled
 violar|to violate
 visar|to aim at
@@ -1192,6 +1192,7 @@ regulamentar|to regulate
 formular|to formulate
 prover|to provide, to supply
 reaver|to get back, to recover
+precaver|to forewarn|prn|to take precautions
 polir|to polish
 frigir|to fry (literary; usual: fritar)
 `;

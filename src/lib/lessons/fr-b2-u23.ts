@@ -667,7 +667,7 @@ export const FR_B2_U23: Lesson[] = [
         heading: "Part two of the biography",
         body: [
           "The text goes on: « Elle a eu trois enfants, *dont deux d'entre eux sont devenus peintres. Elle a exposé à Paris, *dont la critique a adoré son travail. Son dernier tableau, *dont je t'ai parlé de, est au musée de Quimper. »",
-          "Fixes: \"trois enfants, dont deux sont devenus peintres\" (no \"d'entre eux\": \"dont\" already says of whom); \"à Paris, où la critique a adoré son travail\" (\"dont\" has no \"de\" link here: it's a place → \"où\"); \"dont je t'ai parlé\" (no leftover \"de\").",
+          "Fixes: \"trois enfants, dont deux sont devenus peintres\" (no \"d'entre eux\": \"dont\" already says of whom); \"à Paris, où la critique a adoré son travail\" (the writer means where she exhibited, a place → \"où\"; \"dont\" could only mean \"la critique de Paris\", the Paris critics, which is not what she means); \"dont je t'ai parlé\" (no leftover \"de\").",
           "Lesson: \"dont\" must replace a real \"de\" in the clause, and it replaces it completely.",
         ],
         examples: [

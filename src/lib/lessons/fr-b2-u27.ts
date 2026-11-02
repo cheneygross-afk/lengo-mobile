@@ -296,9 +296,9 @@ export const FR_B2_U27: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Il me semble qu'il a raison.", "Il me semble qu'il ait raison.", "Il semble qu'il a raison sans aucun doute.", "Je pense qu'il ait raison."],
+        options: ["Il me semble qu'il a raison.", "Il me semble qu'il ait raison.", "J'espère qu'il ait raison.", "Je pense qu'il ait raison."],
         correctIndex: 0,
-        explanation: "\"Il me semble que\" + indicative; \"il semble que\" + subjunctive; \"je pense que\" + indicative.",
+        explanation: "\"Il me semble que\" + indicative (unlike \"il semble que\"); \"espérer que\" and \"je pense que\" also take the indicative.",
       },
       {
         type: "fill-blank",
@@ -1197,9 +1197,9 @@ export const FR_B2_U27: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Il est probable qu'ils viendront.", "Il est probable qu'ils viennent sûrement.", "Il est possible qu'ils viendront.", "Je ne crois pas qu'ils viendront."],
+        options: ["Il est probable qu'ils viendront.", "Il est probable qu'ils viennent sûrement.", "Il est possible qu'ils viendront.", "Il faut qu'ils viendront."],
         correctIndex: 0,
-        explanation: "\"Probable\" → indicative; \"possible\" and \"je ne crois pas\" → subjunctive.",
+        explanation: "\"Probable\" → indicative; \"possible\" and \"il faut que\" → subjunctive.",
       },
       {
         type: "translate",
@@ -2032,7 +2032,7 @@ export const FR_B2_U27: Lesson[] = [
         prompt: "One error: « Si tu m'avais appelé, je serai venu. » Write the correct French.",
         source: "If you'd called me, I'd have come.",
         answer: "Si tu m'avais appelé, je serais venu.",
-        altAnswers: ["Si tu m'avais appelée, je serais venue.", "Si tu m'avais appelé, je serais venue.", "Si tu m'avais appelée, je serais venu.", "Si vous m'aviez appelé, je serais venu."],
+        altAnswers: ["Si tu m'avais appelée, je serais venue.", "Si vous m'aviez appelé, je serais venu."],
         explanation: "Conditionnel passé \"serais\" (-ais), not futur antérieur \"serai\".",
       },
       {
@@ -2230,7 +2230,7 @@ export const FR_B2_U27: Lesson[] = [
         ],
         examples: [
           { es: "J'ai mal au genou depuis que j'ai couru un semi-marathon.", en: "My knee has hurt since I ran a half marathon." },
-          { es: "La douleur est plus forte en montant les escaliers.", en: "The pain is worse when I go up the stairs." },
+          { es: "J'ai plus mal en montant les escaliers.", en: "It hurts more when I go up the stairs." },
           { es: "Il faut que vous vous reposiez pendant au moins trois semaines.", en: "You must rest for at least three weeks." },
           { es: "Il vaudrait mieux que vous fassiez une radio avant de reprendre.", en: "It would be best if you had an X-ray before starting again." },
           { es: "Le médecin m'a dit de ne pas courir avant que la douleur ait disparu.", en: "The doctor told me not to run until the pain had gone." },

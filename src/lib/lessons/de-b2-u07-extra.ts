@@ -170,7 +170,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Partizip I or II?",
-    summary: "Active or passive meaning: die schreienden Kinder / die angeschrienen Kinder.",
+    summary: "Active or passive meaning: \"die schreienden Kinder\" / \"die angeschrienen Kinder\".",
     duration: "12 min",
     sections: [
       {
@@ -653,7 +653,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: The Gerundive",
-    summary: "Zu + Partizip I in official texts: \"die zu zahlende Gebühr\", \"der zu erwartende Schaden\".",
+    summary: "\"zu\" + Partizip I in official texts: \"die zu zahlende Gebühr\", \"der zu erwartende Schaden\".",
     duration: "12 min",
     sections: [
       {

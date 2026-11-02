@@ -80,7 +80,7 @@ export const PT_B1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Você quer que eu compre pão na padaria?",
-            tip: "The final -e of compre sounds like a short i (cõ-pri), and the com is nasal.",
+            tip: "The final -e of compre sounds like ee (KÕ-pree), and the com is nasal.",
             explanation: "\"Quer que eu compre\": the speaker offers to do what the other person wants, so \"comprar\" goes into the subjunctive.",
           },
         ],
@@ -198,7 +198,7 @@ export const PT_B1_U01: Lesson[] = [
       {
         type: "dictation",
         audio: "Quero que você me ajude.",
-        explanation: "\"Ajude\" is the subjunctive of \"ajudar\". Its final -e sounds like i, so the d is pronounced like the j in jeans: a-ju-dji.",
+        explanation: "\"Ajude\" is the subjunctive of \"ajudar\". Its final -e sounds like ee, so the d is pronounced like the j in jeans: a-ZHOO-jee.",
       },
       {
         type: "speak",
@@ -337,7 +337,7 @@ export const PT_B1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Quero que a gente comece agora.",
-            tip: "The ç in começar and the c in comece both sound like s. The final e sounds like i: co-ME-ci.",
+            tip: "The ç in começar and the c in comece both sound like s. The final e sounds like ee: ko-MÉ-see.",
             explanation: "\"Começar\" → \"comece\": ç becomes c before e. \"A gente\" takes the ele/ela form.",
           },
         ],
@@ -471,7 +471,7 @@ export const PT_B1_U01: Lesson[] = [
           { es: "Quero que você fale com o gerente.", en: "I want you to talk to the manager." },
           { es: "A minha mãe quer que eu estude mais.", en: "My mom wants me to study more." },
           { es: "Prefiro que ele coma em casa hoje.", en: "I'd rather he ate at home today." },
-          { es: "O Rafael quer que a gente abra a loja mais cedo.", en: "Rafael wants us to open the shop earlier." },
+          { es: "O Rafael quer que a gente abra a loja mais cedo.", en: "Rafael wants us to open the store earlier." },
           { es: "Você prefere que eu cozinhe ou que eu lave a louça?", en: "Would you rather I cooked or did the dishes?" },
         ],
         checkpoint: [
@@ -502,7 +502,7 @@ export const PT_B1_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Beatriz would rather we opened the shop on Sunday.",
+            source: "Beatriz would rather we opened the store on Sunday.",
             answer: "A Beatriz prefere que a gente abra a loja no domingo.",
             altAnswers: [
               "Beatriz prefere que a gente abra a loja no domingo.",
@@ -516,7 +516,7 @@ export const PT_B1_U01: Lesson[] = [
       {
         heading: "The plural: -emos/-amos and -em/-am",
         body: [
-          "For \"nós\", add -mos to the same vowel: \"que nós falemos\", \"que nós comamos\", \"que nós abramos\". The stress falls just before -mos: fa-LE-mos, co-MA-mos. In everyday speech \"a gente\" with the singular form (\"que a gente coma\") is more common, and both are correct.",
+          "For \"nós\", add -mos to the same vowel: \"que nós falemos\", \"que nós comamos\", \"que nós abramos\". The stress falls just before -mos: fa-LÊ-moos, ko-MA-moos. In everyday speech \"a gente\" with the singular form (\"que a gente coma\") is more common, and both are correct.",
           "For \"vocês\", \"eles\" and \"elas\", add -m: \"que vocês falem\", \"que eles comam\". This is the classic slip, because the indicative and the subjunctive simply trade vowels. \"Eles falam\" (they speak) becomes \"quero que eles falem\", and \"eles comem\" (they eat) becomes \"prefiro que eles comam\". Listen for that last vowel before the m.",
         ],
         examples: [
@@ -684,7 +684,7 @@ export const PT_B1_U01: Lesson[] = [
         type: "speak",
         text: "Prefiro que a gente coma em casa.",
         prompt: "Say it in Portuguese: I'd rather we ate at home.",
-        tip: "The e in \"que\" reduces to an i sound, and \"coma\" is stressed on the first syllable.",
+        tip: "The e in \"que\" reduces to an ee sound, and \"coma\" is stressed on the first syllable.",
         explanation: "\"A gente\" takes the singular form: \"coma\". \"Nós comamos\" is also correct but sounds more formal.",
       },
       {
@@ -961,7 +961,7 @@ export const PT_B1_U01: Lesson[] = [
         type: "speak",
         text: "Prefiro que você me ligue.",
         prompt: "Say it in Portuguese: I'd rather you called me.",
-        tip: "In \"ligue\" the u is silent: say LEE-ghee, with a hard g as in 'get' and the final e like i.",
+        tip: "In \"ligue\" the u is silent: say LEE-ghee, with a hard g as in 'get' and the final e like ee.",
         explanation: "I prefer, you call: \"prefiro que você me ligue\", with the pronoun before the verb as Brazilians say it.",
       },
       {
@@ -1042,11 +1042,11 @@ export const PT_B1_U01: Lesson[] = [
         heading: "Fala or fale: one vowel apart",
         body: [
           "Regular verbs swap their vowel. \"-ar\" verbs move to \"e\" (\"fala\" → \"fale\", \"falam\" → \"falem\"), and \"-er\" and \"-ir\" verbs move to \"a\" (\"come\" → \"coma\", \"abrem\" → \"abram\"). The classic slip is keeping the indicative after \"quero que\". \"Quero que você fala\" sounds wrong to Brazilian ears.",
-          "Listen for the final vowel. In Brazil a final -e sounds like i, so \"fale\" is said 'fali', while \"fala\" ends in a clear a. In the plural, \"falam\" ends like 'ão' and \"falem\" like 'ẽi'. The nós form shows the swap too: \"falamos\" / \"falemos\", \"comemos\" / \"comamos\".",
+          "Listen for the final vowel. In Brazil a final -e sounds like ee, so \"fale\" is said 'FA-lee', while \"fala\" ends in a clear a. In the plural, \"falam\" ends like 'ão' and \"falem\" like 'ẽy'. The nós form shows the swap too: \"falamos\" / \"falemos\", \"comemos\" / \"comamos\".",
         ],
         examples: [
-          { es: "O Lucas abre a loja às oito.", en: "Lucas opens the shop at eight." },
-          { es: "Quero que o Lucas abra a loja às oito.", en: "I want Lucas to open the shop at eight." },
+          { es: "O Lucas abre a loja às oito.", en: "Lucas opens the store at eight." },
+          { es: "Quero que o Lucas abra a loja às oito.", en: "I want Lucas to open the store at eight." },
           { es: "Elas comem na padaria.", en: "They eat at the bakery." },
           { es: "Prefiro que elas comam em casa.", en: "I'd rather they eat at home." },
           { es: "Sei que eles chegam cedo.", en: "I know they arrive early." },
@@ -1064,7 +1064,7 @@ export const PT_B1_U01: Lesson[] = [
               "Quero que você fale com ele.",
             ],
             correctIndex: 0,
-            explanation: "\"Fale\" ends in the i-like sound of a final -e, after \"quero que\". \"Falem\" would end in a nasal 'ẽi'.",
+            explanation: "\"Fale\" ends in the ee-like sound of a final -e, after \"quero que\". \"Falem\" would end in a nasal 'ẽy'.",
           },
           {
             type: "word-order",
@@ -1119,7 +1119,7 @@ export const PT_B1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Sei que ele vem, mas quero que ele venha cedo.",
-            tip: "The nh in \"venha\" is like the ny in canyon, and \"vem\" ends in a nasal 'ẽi'.",
+            tip: "The nh in \"venha\" is like the ny in canyon, and \"vem\" ends in a nasal 'ẽy'.",
             explanation: "\"Sei que ele vem\" states a fact (indicative). \"Quero que ele venha\" expresses a wish (subjunctive).",
           },
         ],
@@ -1200,7 +1200,7 @@ export const PT_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your boss wants Mariana to open the shop on Sunday. What does your boss say?",
+        question: "Your boss wants Mariana to open the store on Sunday. What does your boss say?",
         options: [
           "Quero que a Mariana abra a loja no domingo.",
           "Quero que a Mariana abre a loja no domingo.",
@@ -1232,7 +1232,7 @@ export const PT_B1_U01: Lesson[] = [
         type: "speak",
         text: "Sei que você fala inglês, mas quero que você fale português.",
         prompt: "Say it in Portuguese: I know you speak English, but I want you to speak Portuguese.",
-        tip: "End \"fala\" with a clear a and \"fale\" with an i sound: 'fali'.",
+        tip: "End \"fala\" with a clear a and \"fale\" with an ee sound: 'FA-lee'.",
         explanation: "The same verb appears twice: indicative \"fala\" after \"sei que\", subjunctive \"fale\" after \"quero que\".",
       },
       {
@@ -1446,7 +1446,7 @@ export const PT_B1_U01: Lesson[] = [
         question: "What did you hear?",
         options: ["Quero que você lave a louça.", "Quero que você lava a louça.", "Quero lavar a louça.", "Quero que você leve a louça."],
         correctIndex: 0,
-        explanation: "\"Lave\" ends in an i sound (LA-vi), while the present \"lava\" ends in a. That final vowel is often all that marks the subjunctive.",
+        explanation: "\"Lave\" ends in an ee sound (LA-vee), while the present \"lava\" ends in a. That final vowel is often all that marks the subjunctive.",
       },
       {
         type: "dictation",
@@ -1952,7 +1952,7 @@ export const PT_B1_U01: Lesson[] = [
         type: "speak",
         text: "Quero que você me ajude.",
         prompt: "Say it in Portuguese: I want you to help me.",
-        tip: "The de at the end of ajude sounds like dji: a-JU-dji.",
+        tip: "The de at the end of ajude sounds like jee: a-ZHOO-jee.",
         explanation: "\"Me ajuda\" becomes \"quero que você me ajude\". The pronoun stays before the verb.",
       },
       {

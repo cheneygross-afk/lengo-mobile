@@ -206,7 +206,7 @@ export const PT_A2_U11: Lesson[] = [
         type: "speak",
         text: "Eu acordo às seis e me levanto logo.",
         prompt: "Say it in Portuguese: I wake up at six and get up right away.",
-        tip: "In the verb acordo the stressed o is open: a-CÓR-do.",
+        tip: "In the verb acordo the stressed o is open: a-KÓR-doo.",
         explanation: "\"Acordo\" has no pronoun, but \"me levanto\" does.",
       },
       {
@@ -253,7 +253,7 @@ export const PT_A2_U11: Lesson[] = [
         heading: "Vou me deitar: the pronoun with two verbs",
         body: [
           "When a reflexive verb follows another verb, Brazilians put the pronoun in the middle, right before the infinitive: \"vou me deitar cedo\" (I'm going to bed early), \"preciso me arrumar\" (I need to get ready), \"ela quer se sentar\" (she wants to sit down). It's the same spot as in \"vou te ligar\".",
-          "The pronoun still matches the subject, even though it sits next to the infinitive: \"eu vou me deitar\", \"nós vamos nos deitar\", \"eles vão se deitar\". English speakers often freeze the dictionary form and say \"eu vou se deitar\". Only ele, ela, você and eles take \"se\".",
+          "The pronoun still matches the subject, even though it sits next to the infinitive: \"eu vou me deitar\", \"nós vamos nos deitar\", \"eles vão se deitar\". English speakers often freeze the dictionary form and say \"eu vou se deitar\". Only ele, ela, você, a gente and their plurals take \"se\".",
           "Estar + gerúndio works the same way: \"estou me arrumando\" (I'm getting ready).",
         ],
         examples: [
@@ -284,7 +284,7 @@ export const PT_A2_U11: Lesson[] = [
             type: "speak",
             text: "Vou me deitar cedo hoje.",
             prompt: "Say it in Portuguese: I'm going to bed early today.",
-            tip: "In \"cedo\" the e is closed, like ê, and the final o sounds like u.",
+            tip: "In \"cedo\" the e is closed, like ê, and the final o sounds like oo: SÊ-doo.",
             explanation: "\"Vou me deitar\": ir + reflexive infinitive, with \"me\" in the middle.",
           },
         ],
@@ -441,7 +441,7 @@ export const PT_A2_U11: Lesson[] = [
       {
         type: "speak",
         text: "A gente se levantou cedo no domingo.",
-        tip: "Say \"se levantou\" as one block, stressed at the end: le-van-TOU.",
+        tip: "Say \"se levantou\" as one block, stressed at the end: le-vã-TOU.",
         explanation: "\"A gente se levantou\": ele form of the verb, so the pronoun is \"se\".",
       },
       {
@@ -584,7 +584,7 @@ export const PT_A2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Sinto saudade de Salvador.",
-            tip: "The \"in\" in sinto is nasal, with no full n sound. In saudade the final de sounds like 'dji'.",
+            tip: "The \"in\" in sinto is nasal, with no full n sound. In saudade the final de sounds like 'jee': sow-DAH-jee.",
             explanation: "\"Sentir\" without a pronoun takes a noun: \"sinto saudade de\" means I miss.",
           },
         ],
@@ -777,7 +777,7 @@ export const PT_A2_U11: Lesson[] = [
           {
             type: "speak",
             text: "A gente se fala mais tarde.",
-            tip: "The final -te in gente sounds like 'tchee': ZHEN-tchi (the g sounds like the s in measure).",
+            tip: "The final -te in gente sounds like 'chee': ZHẼ-chee (the g sounds like the s in measure).",
             explanation: "\"A gente se fala\": the everyday Brazilian way to say talk soon.",
           },
         ],
@@ -792,7 +792,7 @@ export const PT_A2_U11: Lesson[] = [
         examples: [
           { es: "A gente se conheceu numa festa em Recife.", en: "We met at a party in Recife." },
           { es: "Eles se encontraram por acaso no metrô.", en: "They ran into each other on the subway." },
-          { es: "Vamos nos encontrar na padaria às oito?", en: "Shall we meet at the bakery at eight?" },
+          { es: "Vamos nos encontrar na padaria às oito?", en: "Should we meet at the bakery at eight?" },
           { es: "Os irmãos se ajudam um ao outro.", en: "The brothers help each other." },
           { es: "As duas amigas se entendem muito bem.", en: "The two friends understand each other really well." },
         ],
@@ -806,9 +806,9 @@ export const PT_A2_U11: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Shall we meet at the bakery at eight?",
+            prompt: "Put the words in order to say: Should we meet at the bakery at eight?",
             words: ["Vamos", "nos", "encontrar", "na", "padaria", "às", "oito?"],
-            translation: "Shall we meet at the bakery at eight?",
+            translation: "Should we meet at the bakery at eight?",
             explanation: "With two verbs, \"nos\" sits before the infinitive: \"vamos nos encontrar\".",
           },
           {
@@ -855,7 +855,7 @@ export const PT_A2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Shall we see each other on Saturday?",
+        source: "Should we see each other on Saturday?",
         answer: "Vamos nos ver no sábado?",
         altAnswers: ["A gente se vê no sábado?", "A gente vai se ver no sábado?", "Nós vamos nos ver no sábado?"],
         explanation: "\"Vamos nos ver\": the pronoun goes before the infinitive. With \"a gente\", use \"se\": \"a gente se vê\".",
@@ -907,7 +907,7 @@ export const PT_A2_U11: Lesson[] = [
         type: "speak",
         text: "Eles se conhecem muito bem.",
         prompt: "Say it in Portuguese: They know each other very well.",
-        tip: "Keep se short and unstressed, leaning on the verb: se-co-NHE-cem, with nh like the ny in canyon.",
+        tip: "Keep se short and unstressed, leaning on the verb: see-ko-NYÉ-sẽy, with nh like the ny in canyon.",
         explanation: "\"Eles se conhecem\": the reciprocal \"se\" before the plural verb.",
       },
       {
@@ -1134,7 +1134,7 @@ export const PT_A2_U11: Lesson[] = [
         type: "speak",
         text: "Eu me visto e saio de casa às oito.",
         prompt: "Say it in Portuguese: I get dressed and leave the house at eight.",
-        tip: "Link \"às oito\": the s sounds like z before the vowel, a-zoi-tu.",
+        tip: "Link \"às oito\": the s sounds like z before the vowel, a-ZOY-too.",
         explanation: "\"Eu me visto\" and \"saio\" are both irregular eu forms. Clock times take \"às\".",
       },
       {
@@ -1195,13 +1195,13 @@ export const PT_A2_U11: Lesson[] = [
       {
         heading: "O almoço: a gente se vê",
         body: [
-          "Camila suggests lunch together: \"A gente se vê no almoço?\" (Shall we meet up at lunch?). This is the reciprocal \"se\": seeing each other. \"A gente\" takes the ele/ela form of the verb, so its pronoun is \"se\": \"a gente se vê\", never \"a gente nos vê\".",
+          "Camila suggests lunch together: \"A gente se vê no almoço?\" (Should we meet up at lunch?). This is the reciprocal \"se\": seeing each other. \"A gente\" takes the ele/ela form of the verb, so its pronoun is \"se\": \"a gente se vê\", never \"a gente nos vê\".",
           "To agree, Brazilians say \"Combinado!\" (Deal!). \"A gente se vê\" and \"a gente se fala\" also close a conversation, much like see you and talk soon.",
         ],
         examples: [
           { es: "A que horas você almoça?", en: "What time do you have lunch?" },
           { es: "Eu almoço ao meio-dia.", en: "I have lunch at noon." },
-          { es: "A gente se vê no almoço?", en: "Shall we meet up at lunch?" },
+          { es: "A gente se vê no almoço?", en: "Should we meet up at lunch?" },
           { es: "Combinado! Te espero na recepção.", en: "Deal! I'll wait for you at the front desk." },
           { es: "A gente se fala mais tarde.", en: "We'll talk later." },
         ],
@@ -1218,7 +1218,7 @@ export const PT_A2_U11: Lesson[] = [
           {
             type: "speak",
             text: "A gente se vê no almoço?",
-            tip: "The final o in \"almoço\" sounds like u, and the ç is a plain s: al-MO-su.",
+            tip: "The final o in \"almoço\" sounds like oo, and the ç is a plain s: al-MÔ-soo.",
             explanation: "\"A gente se vê\": the pronoun \"se\" goes before the verb, and a rising voice makes it a suggestion.",
           },
         ],
@@ -1296,9 +1296,9 @@ export const PT_A2_U11: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Shall we meet up at lunch?",
+        prompt: "Put the words in order to say: Should we meet up at lunch?",
         words: ["A", "gente", "se", "vê", "no", "almoço?"],
-        translation: "Shall we meet up at lunch?",
+        translation: "Should we meet up at lunch?",
         explanation: "Reciprocal \"se\" before the verb, and \"a gente\" with the ele/ela form \"vê\".",
       },
       {
@@ -1334,7 +1334,7 @@ export const PT_A2_U11: Lesson[] = [
         type: "speak",
         text: "Eu tomo banho e me deito às dez.",
         prompt: "Say it in Portuguese: I shower and go to bed at ten.",
-        tip: "\"Deito\" sounds like DEI-tu: the final o is a u.",
+        tip: "\"Deito\" sounds like DAY-too: the final o is oo.",
         explanation: "Two verbs in a chain: \"tomo banho\" and then \"me deito\", with \"me\" before the verb.",
       },
       {
@@ -1547,7 +1547,7 @@ export const PT_A2_U11: Lesson[] = [
         type: "speak",
         text: "Eu sempre me esqueço das chaves.",
         prompt: "Say it in Portuguese: I always forget my keys.",
-        tip: "Final -e sounds like i: \"me\" is said \"mi\", \"esqueço\" ends in a soft u.",
+        tip: "Final -e sounds like ee: \"me\" is said \"mee\", and \"esqueço\" ends in a soft oo.",
         explanation: "\"Me esqueço das chaves\": the pronoun goes before the verb, and \"de\" + \"as\" becomes \"das\".",
       },
       {
@@ -1971,7 +1971,7 @@ export const PT_A2_U11: Lesson[] = [
         type: "speak",
         text: "Eu acordo às seis e tomo banho.",
         prompt: "Say it in Portuguese: I wake up at six and take a shower.",
-        tip: "Final -o sounds like u: a-COR-du, TO-mu.",
+        tip: "Final -o sounds like oo: a-KÓR-doo, TÔ-moo.",
         explanation: "\"Acordo\" is not reflexive, and \"tomar banho\" is to take a shower.",
       },
       {
@@ -2082,7 +2082,7 @@ export const PT_A2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Espera, estou me arrumando!",
-            tip: "The \"e\" of \"me\" is reduced, so it sounds like \"mi\". The \"rr\" in \"arrumando\" is the h-like sound.",
+            tip: "The \"e\" of \"me\" is reduced, so it sounds like \"mee\". The \"rr\" in \"arrumando\" is the h-like sound.",
             explanation: "\"Estou me arrumando\": the pronoun sits between \"estou\" and the gerúndio.",
           },
         ],
@@ -2207,7 +2207,7 @@ export const PT_A2_U11: Lesson[] = [
         type: "speak",
         text: "Vou me sentar aqui.",
         prompt: "Say it in Portuguese: I'm going to sit down here.",
-        tip: "Say \"me\" as \"mi\", and keep the stress on the last syllable of \"sentar\".",
+        tip: "Say \"me\" as \"mee\", and keep the stress on the last syllable of \"sentar\".",
         explanation: "\"Sentar-se\" with \"vou\": the pronoun goes between the two verbs.",
       },
       {

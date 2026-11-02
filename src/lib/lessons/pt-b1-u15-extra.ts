@@ -21,7 +21,7 @@ export const PT_B1_U15_EXTRA: Lesson[] = [
           "Close with \"fico no aguardo\" (I look forward to hearing from you) and \"atenciosamente\" or \"cordialmente\". The conditional (\"gostaria\", \"poderia\", \"seria possível\") softens every request.",
         ],
         examples: [
-          { es: "Prezada Senhora Oliveira,", en: "Dear Ms Oliveira," },
+          { es: "Prezada Senhora Oliveira,", en: "Dear Ms. Oliveira," },
           { es: "Segue em anexo o meu currículo.", en: "Please find my résumé attached." },
           { es: "Conforme combinado, envio o relatório.", en: "As agreed, I'm sending the report." },
           { es: "Gostaria de solicitar uma reunião.", en: "I would like to request a meeting." },
@@ -153,7 +153,7 @@ export const PT_B1_U15_EXTRA: Lesson[] = [
         type: "speak",
         text: "Fico no aguardo. Atenciosamente.",
         prompt: "Say it in Portuguese: I look forward to hearing from you. Kind regards.",
-        tip: "Atenciosamente: a-ten-si-o-za-MEN-tchi.",
+        tip: "Atenciosamente: a-ten-syo-za-MEN-chee.",
         explanation: "\"Fico no aguardo\" plus \"Atenciosamente\" is the standard way to close a formal email.",
       },
       {
@@ -317,7 +317,7 @@ export const PT_B1_U15_EXTRA: Lesson[] = [
         type: "speak",
         text: "Meu ponto forte é a comunicação.",
         prompt: "Say it in Portuguese: My strong point is communication.",
-        tip: "Comunicação: ko-mu-ni-ka-SÃW.",
+        tip: "Comunicação: ko-moo-nee-ka-SÃW.",
         explanation: "\"Meu ponto forte é...\" names a strength. Abstract nouns like \"a comunicação\" take the article.",
       },
       {
@@ -325,7 +325,7 @@ export const PT_B1_U15_EXTRA: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "a vaga", right: "job opening" },
-          { left: "o currículo", right: "CV" },
+          { left: "o currículo", right: "résumé" },
           { left: "o estágio", right: "internship" },
           { left: "os requisitos", right: "requirements" },
           { left: "a pretensão salarial", right: "expected salary" },
@@ -483,7 +483,7 @@ export const PT_B1_U15_EXTRA: Lesson[] = [
         type: "speak",
         text: "Oi, tudo bem? A gente se fala amanhã.",
         prompt: "Say it in informal Portuguese: Hi, how are you? We'll talk tomorrow.",
-        tip: "A gente: a ZHEN-tchi.",
+        tip: "A gente: a ZHEN-chee.",
         explanation: "\"A gente se fala\" (we'll talk) is informal; in an email you'd write \"nos falamos\".",
       },
       {

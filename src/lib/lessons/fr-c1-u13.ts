@@ -409,7 +409,7 @@ export const FR_C1_U13: Lesson[] = [
         prompt: "Translate into French.",
         source: "Do you mind if we say tu?",
         answer: "Ça vous dérange si on se tutoie ?",
-        altAnswers: ["Cela vous dérange si on se tutoie ?", "Ça vous dérange qu'on se tutoie ?", "Ça te dérange si on se tutoie ?", "Est-ce que ça vous dérange si on se tutoie ?", "Vous voyez un inconvénient à ce qu'on se tutoie ?"],
+        altAnswers: ["Cela vous dérange si on se tutoie ?", "Ça vous dérange qu'on se tutoie ?", "Est-ce que ça vous dérange si on se tutoie ?", "Vous voyez un inconvénient à ce qu'on se tutoie ?"],
         explanation: "Asking permission to switch: you're still in vous until the answer, so \"ça vous dérange\" is the logical form.",
       },
       {
@@ -1057,7 +1057,7 @@ export const FR_C1_U13: Lesson[] = [
         prompt: "Translate into French.",
         source: "I don't know, there isn't any left. (casual speech)",
         answer: "Je sais pas, y en a plus.",
-        altAnswers: ["J'sais pas, y en a plus.", "Chais pas, y en a plus.", "Je sais pas, il y en a plus.", "Je sais pas, y en a pus."],
+        altAnswers: ["J'sais pas, y en a plus.", "Chais pas, y en a plus.", "Je sais pas, il y en a plus."],
         explanation: "Spoken French drops both \"ne\" and the \"il\" of \"il y a\": \"y en a plus\" = \"il n'y en a plus\".",
       },
       {
@@ -1438,7 +1438,7 @@ export const FR_C1_U13: Lesson[] = [
         prompt: "Fix « Bonjour Monsieur, tu as reçu ma facture ? » to a client: Hello, did you receive my invoice?",
         source: "Hello, did you receive my invoice? (to a client)",
         answer: "Bonjour Monsieur, avez-vous reçu ma facture ?",
-        altAnswers: ["Bonjour Monsieur, avez-vous bien reçu ma facture ?", "Bonjour Monsieur, vous avez reçu ma facture ?", "Bonjour Monsieur, vous avez bien reçu ma facture ?", "Bonjour Madame, avez-vous bien reçu ma facture ?", "Bonjour Madame, avez-vous reçu ma facture ?"],
+        altAnswers: ["Bonjour Monsieur, avez-vous bien reçu ma facture ?", "Bonjour Monsieur, vous avez reçu ma facture ?", "Bonjour Monsieur, vous avez bien reçu ma facture ?"],
         explanation: "A client gets vous, and \"Monsieur\" with tu is an impossible mix.",
       },
       {

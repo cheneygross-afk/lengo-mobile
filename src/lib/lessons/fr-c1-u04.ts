@@ -999,7 +999,7 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "A learner wrote: \"Étant fatigué, ma femme a conduit.\" Write a correct version with comme.",
         source: "As I was tired, my wife drove.",
         answer: "Comme j'étais fatigué, ma femme a conduit.",
-        altAnswers: ["Comme j'étais fatigué, c'est ma femme qui a conduit.", "Comme j'étais fatigué, ma femme a pris le volant."],
+        altAnswers: ["Comme j'étais fatigué, c'est ma femme qui a conduit.", "Comme j'étais fatigué, ma femme a pris le volant.", "Comme j'étais fatiguée, ma femme a conduit."],
         explanation: "Different subjects → \"comme\" + clause.",
       },
       {
@@ -2733,7 +2733,7 @@ export const FR_C1_U04: Lesson[] = [
             prompt: "Translate this warning into French.",
             source: "Never touch the hot parts.",
             answer: "Ne jamais toucher les parties chaudes.",
-            altAnswers: ["Ne pas toucher les parties chaudes.", "Ne jamais toucher les surfaces chaudes."],
+            altAnswers: ["Ne jamais toucher les surfaces chaudes."],
             explanation: "\"Ne jamais\" + infinitive.",
           },
           {
@@ -2811,7 +2811,7 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Translate this warning into French.",
         source: "Do not use the machine if the cable is damaged.",
         answer: "Ne pas utiliser l'appareil si le câble est endommagé.",
-        altAnswers: ["Ne pas utiliser l'appareil si le cordon est endommagé.", "Ne jamais utiliser l'appareil si le câble est endommagé.", "Ne pas utiliser la machine si le câble est endommagé."],
+        altAnswers: ["Ne pas utiliser l'appareil si le cordon est endommagé.", "Ne pas utiliser la machine si le câble est endommagé."],
         explanation: "\"Ne pas\" + infinitive.",
       },
       {

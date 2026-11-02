@@ -157,10 +157,10 @@ export const DE_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say 'I bought that for my friend.'?",
         options: ["Ich habe das für meinen Freund gekauft.", "Ich habe das für meinem Freund gekauft.", "Ich habe das für mein Freund gekauft.", "Ich habe das für meiner Freund gekauft."],
         correctIndex: 0,
-        explanation: "\"Für\" always takes the accusative: \"meinen Freund\".",
+        explanation: "\"Für\" always takes the accusative: \"meinen Freund\". \"*Für meinem Freund*\" uses the dative.",
       },
       {
         type: "translate",
@@ -582,10 +582,10 @@ export const DE_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Ich fahre ohne ihn.", "Ich fahre ohne ihm.", "Ich fahre mit ihn.", "Ich fahre für ihm."],
+        question: "How do you say 'I'm going without him.'?",
+        options: ["Ich fahre ohne ihn.", "Ich fahre ohne ihm.", "Ich fahre ohne er.", "Ich fahre ohne sich."],
         correctIndex: 0,
-        explanation: "\"Ohne\" takes the accusative \"ihn\"; \"mit\" would need \"ihm\".",
+        explanation: "\"Ohne\" takes the accusative: \"ihn\". \"*Ohne ihm*\" uses the dative, which \"mit\" would need (\"mit ihm\").",
       },
       {
         type: "translate",
@@ -938,10 +938,10 @@ export const DE_A2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'Because it's raining, we're staying at home.'?",
             options: ["Weil es regnet, bleiben wir zu Hause.", "Wegen es regnet, bleiben wir zu Hause.", "Weil des Regens bleiben wir zu Hause.", "Wegen es regnet bleiben wir zu Hause."],
             correctIndex: 0,
-            explanation: "\"Weil\" + clause (verb last); \"wegen\" only + noun.",
+            explanation: "\"Weil\" + clause with the verb last. \"*Wegen es regnet*\" is wrong: \"wegen\" only goes with a noun (\"wegen des Regens\").",
           },
           {
             type: "translate",
@@ -1203,10 +1203,10 @@ export const DE_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'm going into town by car.'?",
         options: ["Ich fahre mit dem Auto in die Stadt.", "Ich fahre mit das Auto in die Stadt.", "Ich fahre mit dem Auto in der Stadt.", "Ich fahre mit den Auto in die Stadt."],
         correctIndex: 0,
-        explanation: "\"Mit\" + dative \"dem Auto\"; going into town is movement: \"in die Stadt\".",
+        explanation: "\"Mit\" + dative \"dem Auto\"; going into town is movement: \"in die Stadt\". \"*In der Stadt*\" is the dative, for being in town.",
       },
       {
         type: "translate",

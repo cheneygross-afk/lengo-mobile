@@ -1517,7 +1517,7 @@ export const FR_B2_U21: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "In the end he [ended up selling] his boat.",
+            en: "He [ended up selling] his boat.",
             sentence: "Il a ___ son bateau.",
             answer: "fini par vendre",
             explanation: "\"Finir par\" + infinitive: to end up doing.",

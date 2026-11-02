@@ -1628,7 +1628,7 @@ export const FR_C2_U17: Lesson[] = [
       {
         heading: "Distortions and surviving images",
         body: [
-          "Rewrite 5: \"Selon Garnier, le télétravail a créé de profondes inégalités entre les salariés.\" Verdict: the source is named and the words are new, but the meaning has shifted. Garnier says the spread of remote work \"révélé\" (revealed) inequalities that existed already; \"créé\" makes her claim something else. In French academic jargon this is \"un contresens\" (the opposite or a serious misreading) or at least \"un faux-sens\" (a shift in meaning). An honest paraphrase must be faithful before it is elegant.",
+          "Rewrite 5: \"Selon Garnier, le télétravail a créé de profondes inégalités entre les salariés.\" Verdict: the source is named and the words are new, but the meaning has shifted. Garnier says the spread of remote work \"a révélé\" (revealed) inequalities that existed already; \"a créé\" (created) makes her claim something else. In French academic jargon this is \"un contresens\" (the opposite or a serious misreading) or at least \"un faux-sens\" (a shift in meaning). An honest paraphrase must be faithful before it is elegant.",
           "Rewrite 6: \"Garnier oppose les salariés installés dans un bureau calme à ceux qui travaillaient sur un coin de table de cuisine.\" Verdict: well built and attributed, but the striking image \"sur un coin de table de cuisine\" is the author's. Keep it in guillemets: ...à ceux qui travaillaient « sur un coin de table de cuisine ».",
           "Use this checklist for each rewrite: Is the source named? Are exact words in guillemets? Is the structure genuinely mine? Is the meaning faithful? Do striking phrases keep their quotation marks? Five yeses, and the paraphrase is clean.",
         ],
@@ -1729,7 +1729,7 @@ export const FR_C2_U17: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Selon Garnier, le télétravail a créé des inégalités.",
-        question: "Garnier wrote that remote work \"révélé\" inequalities. What's wrong with this paraphrase?",
+        question: "Garnier wrote that remote work \"a révélé\" (revealed) inequalities. What's wrong with this paraphrase?",
         options: ["It says created instead of revealed: the meaning is distorted.", "It forgets the source.", "It quotes her without guillemets.", "Nothing, it is faithful."],
         correctIndex: 0,
         explanation: "\"Créé\" vs \"révélé\": a paraphrase that changes the claim is a faux-sens or contresens.",

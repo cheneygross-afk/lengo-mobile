@@ -508,8 +508,8 @@ export const FR_C2_U19: Lesson[] = [
             en: "Why do young people vote less? [It's because] they don't feel represented.",
             sentence: "Pourquoi les jeunes votent-ils moins ? ___ ils ne se sentent pas représentés.",
             answer: "C'est qu'",
-            altAnswers: ["C'est que", "Parce qu'", "Parce que"],
-            explanation: "\"C'est que\" (the reason is that) is the elegant answer to a self-posed \"pourquoi\"; it elides before \"ils\".",
+            altAnswers: ["Parce qu'"],
+            explanation: "\"C'est que\" (the reason is that) is the elegant answer to a self-posed \"pourquoi\"; it elides before \"ils\": \"c'est qu'ils\", never \"c'est que ils\".",
           },
           {
             type: "listen-choose",
@@ -1456,8 +1456,7 @@ export const FR_C2_U19: Lesson[] = [
         en: "You refuse to publish the report. [Could it be that] it contradicts your figures?",
         sentence: "Vous refusez de publier le rapport. ___ il contredit vos chiffres ?",
         answer: "Serait-ce qu'",
-        altAnswers: ["Serait-ce que"],
-        explanation: "\"Serait-ce que\" insinuates an explanation; it elides before \"il\".",
+        explanation: "\"Serait-ce que\" insinuates an explanation; it elides before \"il\": \"serait-ce qu'il\", never \"serait-ce que il\".",
       },
       {
         type: "multiple-choice",

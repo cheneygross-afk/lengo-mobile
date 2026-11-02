@@ -309,8 +309,8 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form is correct? (Could you...?)",
-        options: ["Pourriez-vous", "Pouveriez-vous", "Pouriez-vous", "Pourrez-vous"],
+        question: "How do you say: Could you help me? (to a stranger)",
+        options: ["Pourriez-vous m'aider ?", "Pouveriez-vous m'aider ?", "Pouriez-vous m'aider ?", "Pourrez-vous m'aider ?"],
         correctIndex: 0,
         explanation: "\"Pouvoir\" → \"pourr-\", two r's, + \"-iez\". \"Pourrez\" is the future.",
       },
@@ -475,10 +475,10 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend can't sleep. Which sentence gives advice?",
+        question: "Your friend can't sleep. How do you say: You should stop drinking coffee?",
         options: ["Tu devrais arrêter le café.", "Tu devras arrêter le café.", "Tu devais arrêter le café.", "Tu as dû arrêter le café."],
         correctIndex: 0,
-        explanation: "\"Devrais\" is the conditional: should.",
+        explanation: "\"Devrais\" is the conditional: should, a piece of advice. \"Devras\" is the future, \"devais\" the imparfait and \"as dû\" the passé composé.",
       },
       {
         type: "listen-choose",
@@ -640,7 +640,7 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Find the correct sentence.",
+        question: "How do you say: I could come tomorrow?",
         options: ["Je pourrais venir demain.", "Je pouverais venir demain.", "Je pouvrais venir demain.", "Je pourais venir demain."],
         correctIndex: 0,
         explanation: "\"Pouvoir\" → \"pourr-\" with two r's.",
@@ -1398,10 +1398,10 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which job does the conditional do in \"Je voudrais un renseignement\"?",
-            options: ["Politeness", "Advice", "Imagination", "A past habit"],
+            question: "How do you say: I'd like some information, please? (politely, at a desk)",
+            options: ["Je voudrais un renseignement, s'il vous plaît.", "Je voudrai un renseignement, s'il vous plaît.", "Je voulais un renseignement, s'il vous plaît.", "Je voudrais une information, s'il te plaît."],
             correctIndex: 0,
-            explanation: "\"Je voudrais\" softens a request.",
+            explanation: "Politeness: \"je voudrais\" softens a request. \"Voudrai\" is the future, \"voulais\" the imparfait, and \"s'il te plaît\" is for a friend.",
           },
           {
             type: "translate",
@@ -1514,17 +1514,17 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which job does the conditional do in \"Avec plus d'argent, je voyagerais\"?",
-        options: ["Imagination", "Politeness", "Advice", "A past habit"],
+        question: "How do you say: With more money, I'd travel?",
+        options: ["Avec plus d'argent, je voyagerais.", "Avec plus d'argent, je voyagerai.", "Avec plus d'argent, je voyageais.", "Avec plus d'argent, je voyage."],
         correctIndex: 0,
-        explanation: "It describes an unreal situation.",
+        explanation: "Imagination: the conditional \"voyagerais\" describes an unreal situation set up by \"avec plus d'argent\".",
       },
       {
         type: "multiple-choice",
-        question: "Which job does the conditional do in \"À votre place, je prendrais un taxi\"?",
-        options: ["Advice", "Politeness", "Imagination", "A future plan"],
+        question: "How do you say: If I were you, I'd take a taxi? (to a client)",
+        options: ["À votre place, je prendrais un taxi.", "À votre place, je prendrai un taxi.", "À votre place, je prenais un taxi.", "À ta place, je prendrais un taxi."],
         correctIndex: 0,
-        explanation: "\"À votre place\" + conditional gives advice.",
+        explanation: "Advice: \"à votre place\" + conditional \"prendrais\". \"Prendrai\" is the future, and \"à ta place\" is for a friend, not a client.",
       },
       {
         type: "listen-choose",
@@ -1885,7 +1885,7 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is a promise?",
+        question: "How do you say: I'll do it tomorrow? (a promise)",
         options: ["Je le ferai demain.", "Je le ferais demain.", "Je le faisais demain.", "Je le ferais bien demain."],
         correctIndex: 0,
         explanation: "A promise is in the future: \"ferai\".",

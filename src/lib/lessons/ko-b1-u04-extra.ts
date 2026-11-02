@@ -18,7 +18,7 @@ export const KO_B1_U04_EXTRA: Lesson[] = [
       {
         heading: "ㄹ stems: verb or adjective?",
         body: [
-          "An ㄹ stem drops its ㄹ only when -ㄴ다 is added, and only verbs take -ㄴ다: 살다 → 산다, 열다 → 연다, 팔다 → 판다, 울다 → 운다. Adjectives with ㄹ stems stay as they are: 길다, 멀다, 달다. *긴다 or *먼다 would turn them into actions.",
+          "In the written present an ㄹ stem drops its ㄹ only when -ㄴ다 is added, and only verbs take -ㄴ다: 살다 → 산다, 열다 → 연다, 팔다 → 판다, 울다 → 운다. Adjectives with ㄹ stems stay as they are: 길다, 멀다, 달다. *긴다 or *먼다 would turn them into actions.",
         ],
         examples: [
           { es: "그 가게는 아침 일곱 시에 문을 연다.", en: "That shop opens at seven in the morning." },

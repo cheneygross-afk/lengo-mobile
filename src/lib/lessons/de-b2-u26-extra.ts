@@ -102,10 +102,10 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I agree with you.'?",
         options: ["Ich bin mit dir einverstanden.", "Ich bin mit dich einverstanden.", "Ich bin dir einverstanden.", "Ich einverstanden mit dir."],
         correctIndex: 0,
-        explanation: "\"Einverstanden sein mit\" + dative.",
+        explanation: "\"Einverstanden sein mit\" + dative: \"mit dir\". \"*mit dich*\" uses the accusative, but \"mit\" always takes the dative.",
       },
       {
         type: "translate",

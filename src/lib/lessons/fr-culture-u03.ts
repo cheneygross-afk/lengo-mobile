@@ -14,7 +14,7 @@ export const FR_CULTURE_U03_WRITING: WriteExercise = {
     "Includes a rule with \"ça porte malheur de\" or \"ça ne se fait pas de\" + infinitive (flowers, chrysanthemums, bread upside down...)",
     "Ends with a wish in the subjunctive (\"pourvu que...\", \"que ta première semaine se passe bien\") or \"je croise les doigts\"",
   ],
-  modelAnswer: "Salut Hannah,\n\nTu m'as demandé quelques conseils pour samedi, alors voilà mon petit guide de survie.\n\nD'abord, les salutations. En arrivant, tu dis « bonjour » à tout le monde. Avec Marc, notre chef, et sa femme, je te conseillerais de serrer la main et de les vouvoyer, même si au bureau certains collègues se tutoient. Attends qu'ils te proposent eux-mêmes de passer au « tu » : c'est souvent Marc qui demande « on peut se tutoyer ? ». Pour la bise, laisse-les faire le premier geste ; à Lyon, c'est deux bises, en commençant en général par la joue droite.\n\nPour le cadeau, évite le vin : Marc a sûrement prévu ses bouteilles. Apporte plutôt des fleurs ou une boîte de chocolats. Surtout pas de chrysanthèmes, ce sont les fleurs des cimetières ! Et à table, ne pose pas le pain à l'envers : ça porte malheur, d'après la grand-mère de Marc, qui sera là.\n\nSi on te fait un compliment sur ta robe, ne réponds pas juste « merci », ça peut sembler un peu sûr de soi. Les Français minimisent : « Oh, c'est un vieux truc ! » ou « Tu trouves ? C'est gentil. »\n\nPour tes premiers jours en ville, une règle d'or : toujours « bonjour » avant de demander quoi que ce soit dans un magasin. Et pour commander, dis « je voudrais » ou « je vais prendre », jamais « je veux ».\n\nVoilà ! Je croise les doigts pour ta première semaine. Pourvu qu'il fasse beau samedi, Marc adore dîner sur la terrasse !\n\nBises,\nCamille",
+  modelAnswer: "Salut Hannah,\n\nTu m'as demandé quelques conseils pour samedi, alors voilà mon petit guide de survie.\n\nD'abord, les salutations. En arrivant, tu dis « bonjour » à tout le monde. Avec Marc, notre chef, et sa femme, je te conseillerais de serrer la main et de les vouvoyer, même si au bureau certains collègues se tutoient. Attends qu'ils te proposent eux-mêmes de passer au « tu » : c'est souvent Marc qui demande « on peut se tutoyer ? ». Pour la bise, laisse-les faire le premier geste ; à Lyon, c'est deux bises, et pour la première joue, suis le mouvement.\n\nPour le cadeau, évite le vin : Marc a sûrement prévu ses bouteilles. Apporte plutôt des fleurs ou une boîte de chocolats. Surtout pas de chrysanthèmes, ce sont les fleurs des cimetières ! Et à table, ne pose pas le pain à l'envers : ça porte malheur, d'après la grand-mère de Marc, qui sera là.\n\nSi on te fait un compliment sur ta robe, ne réponds pas juste « merci », ça peut sembler un peu sûr de soi. Les Français minimisent : « Oh, c'est un vieux truc ! » ou « Tu trouves ? C'est gentil. »\n\nPour tes premiers jours en ville, une règle d'or : toujours « bonjour » avant de demander quoi que ce soit dans un magasin. Et pour commander, dis « je voudrais » ou « je vais prendre », jamais « je veux ».\n\nVoilà ! Je croise les doigts pour ta première semaine. Pourvu qu'il fasse beau samedi, Marc adore dîner sur la terrasse !\n\nBises,\nCamille",
   explanation: "The email contrasts \"tu\" and \"vous\" and explains who proposes the switch (\"attends qu'ils te proposent\", subjunctive after attendre que). Politeness relies on the conditional (\"je te conseillerais\") and on the shop formulas \"je voudrais\" / \"je vais prendre\". Customs are stated with \"ça porte malheur\" and imperatives, compliments are minimised (\"c'est un vieux truc\"), and the closing wish uses \"je croise les doigts\" and \"pourvu que\" + subjunctive (\"pourvu qu'il fasse beau\").",
 };
 
@@ -520,7 +520,7 @@ export const FR_CULTURE_U03: Lesson[] = [
             prompt: "Translate into French.",
             source: "Let's hope it's sunny tomorrow!",
             answer: "Pourvu qu'il fasse beau demain !",
-            altAnswers: ["Pourvu qu'il fasse soleil demain !", "Pourvu qu'il fasse beau, demain !", "Espérons qu'il fera beau demain !", "J'espère qu'il fera beau demain !"],
+            altAnswers: ["Pourvu qu'il y ait du soleil demain !", "Pourvu qu'il fasse beau, demain !", "Espérons qu'il fera beau demain !", "J'espère qu'il fera beau demain !"],
             explanation: "\"Pourvu que\" + subjunctive (\"fasse\", from faire). \"Espérer que\" takes the indicative instead.",
           },
           {
@@ -925,7 +925,7 @@ export const FR_CULTURE_U03: Lesson[] = [
         heading: "La bise: how many, which cheek, with whom",
         body: [
           "\"Faire la bise\" is the greeting kiss on the cheeks: cheeks touch lightly and you kiss the air with a small sound. Between friends, family, and friends of friends, it's standard; between two men it's common among family and close friends, especially in the south.",
-          "How many? It depends on the region: two in Paris and most of France, three in parts of the south (Montpellier, the Drôme, the Ardèche), four in some areas of the north and west. The safe move: \"laisse l'autre mener\" (let the other person lead) and follow. Which cheek first? Usually the right cheek (you move your head to your left), but again, follow.",
+          "How many? It depends on the region: two in Paris and most of France, three in parts of the south (Montpellier, the Drôme, the Ardèche), four in some areas of the north and west. The safe move: \"laisse l'autre mener\" (let the other person lead) and follow. Which cheek first? That varies too, by region and by person, so again, let the other person lead.",
           "At work, it varies: some offices bise every morning, others shake hands (\"se serrer la main\"), and since the Covid years many people just say hello with a wave. Rule of thumb: shake hands with a new colleague or a manager, and let them offer the bise. Asking is fine: \"On se fait la bise ?\"",
         ],
         examples: [
@@ -935,7 +935,7 @@ export const FR_CULTURE_U03: Lesson[] = [
           { es: "Au bureau, je serre la main au directeur.", en: "At the office I shake the director's hand." },
           { es: "Laisse l'autre mener, et suis le mouvement.", en: "Let the other person lead, and follow." },
           { es: "Il m'a fait la bise alors qu'on venait de se rencontrer.", en: "He kissed me on the cheek even though we'd only just met." },
-          { es: "On commence en général par la joue droite.", en: "You usually start with the right cheek." },
+          { es: "Pour la joue, ça dépend : laisse l'autre commencer.", en: "As for which cheek, it depends: let the other person start." },
         ],
         checkpoint: [
           {

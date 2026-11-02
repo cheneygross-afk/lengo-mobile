@@ -226,7 +226,7 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "13º salário and férias remuneradas",
         body: [
-          "A job with \"carteira assinada\" (under the CLT, the labor code) brings rights that surprise many foreigners. The best known is the \"13º salário\", said \"décimo terceiro\": an extra month's pay each year, usually in two parts, the first by the end of November and the second by December 20. Shops count on it for Christmas.",
+          "A job with \"carteira assinada\" (under the CLT, the labor code) brings rights that surprise many foreigners. The best known is the \"13º salário\", said \"décimo terceiro\": an extra month's pay each year, usually in two parts, the first by the end of November and the second by December 20. Stores count on it for Christmas.",
           "After a year in the job you get thirty days of \"férias remuneradas\" (paid vacation), and on top of your normal pay the company adds a third, \"o terço de férias\". So the vacation month pays more than a normal month. You can split the thirty days into up to three periods, and vacation can't start just before a weekend or a public holiday.",
         ],
         examples: [
@@ -403,7 +403,7 @@ export const PT_B1_U31: Lesson[] = [
         type: "speak",
         text: "Eu tenho carteira assinada, décimo terceiro e férias remuneradas.",
         prompt: "Say it in Portuguese: I have a formal contract, a thirteenth salary and paid vacation.",
-        tip: "In \"décimo\" the stress falls on the first syllable: DÉ-si-mu. The \"c\" before \"i\" sounds like s.",
+        tip: "In \"décimo\" the stress falls on the first syllable: DÉ-see-moo. The \"c\" before \"i\" sounds like s.",
         explanation: "This sentence sums up the three best-known CLT rights.",
       },
       {
@@ -503,7 +503,7 @@ export const PT_B1_U31: Lesson[] = [
         heading: "Aumento, reajuste, bônus, comissão",
         body: [
           "An \"aumento\" is a raise for you, usually because you earned it or were promoted. A \"reajuste\" is an adjustment for everyone, often to keep up with inflation, negotiated each year by the \"sindicato\" (union). \"O salário mínimo teve reajuste\" sounds like news, \"pedi um aumento\" sounds personal.",
-          "Variable pay has its own words: \"bônus\" (bonus, same in the plural), \"comissão\" (commission, for sales) and \"PLR\" (participação nos lucros e resultados, profit sharing). Remember the passive from Unit 12 for company announcements: \"o reajuste foi aprovado\", \"os bônus serão pagos em março\".",
+          "Variable pay has its own words: \"bônus\" (bonus, same in the plural), \"comissão\" (commission, for sales) and \"PLR\" (participação nos lucros e resultados, profit sharing). Remember the passive from Unit 21 for company announcements: \"o reajuste foi aprovado\", \"os bônus serão pagos em março\".",
         ],
         examples: [
           { es: "Pedi um aumento ao meu chefe e ele disse que ia pensar.", en: "I asked my boss for a raise and he said he'd think about it." },
@@ -613,7 +613,7 @@ export const PT_B1_U31: Lesson[] = [
         type: "speak",
         text: "Meu salário bruto é de cinco mil, mas o líquido é bem menor.",
         prompt: "Say it in Portuguese: My gross salary is five thousand, but the net is much lower.",
-        tip: "\"Líquido\" is stressed on the first syllable, LÍ-ki-du, and the \"qu\" sounds like k.",
+        tip: "\"Líquido\" is stressed on the first syllable, LEE-kee-doo, and the \"qu\" sounds like k.",
         explanation: "\"Bem menor\" means much smaller; \"bem\" intensifies the comparative.",
       },
       {
@@ -1492,7 +1492,7 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "O líquido é maior, mas...: weighing it up",
         body: [
-          "Bruno does the math. As PJ, \"o líquido é maior\", but there's no 13º, no paid vacation, no FGTS. He uses \"embora\" with the subjunctive, the concession from Unit 4: \"embora pague mais, não tem férias\". \"Mas\" + indicative says the same thing more plainly.",
+          "Bruno does the math. As PJ, \"o líquido é maior\", but there's no 13º, no paid vacation, no FGTS. He uses \"embora\" with the subjunctive, the concession from Unit 6: \"embora pague mais, não tem férias\". \"Mas\" + indicative says the same thing more plainly.",
           "Notice how they reason: \"se você não trabalha um mês, não ganha\" (a real condition, so plain present); \"tem que colocar tudo na ponta do lápis\" (an idiom: do the sums carefully, literally on the tip of the pencil). \"Fazer as contas\" is to do the math.",
         ],
         examples: [
@@ -1532,9 +1532,9 @@ export const PT_B1_U31: Lesson[] = [
         ],
       },
       {
-        heading: "Eu no seu lugar...: giving advice",
+        heading: "Eu, no seu lugar...: giving advice",
         body: [
-          "Bruno ends with advice in the conditional from Unit 6: \"eu, no seu lugar, pediria um reajuste na proposta CLT\" (if I were you). \"No seu lugar\" lets you give a hypothesis without any if-clause. He also uses the subjunctive after influence verbs: \"sugiro que você negocie\", \"o ideal é que você converse com um contador\".",
+          "Bruno ends with advice in the conditional from Unit 10: \"eu, no seu lugar, pediria um reajuste na proposta CLT\" (if I were you). \"No seu lugar\" lets you give a hypothesis without any if-clause. He also uses the subjunctive after influence verbs: \"sugiro que você negocie\", \"o ideal é que você converse com um contador\".",
           "Camila agrees, but hedges: \"pode ser\", \"depende\", \"até certo ponto\". Brazilians rarely give a flat yes or no about money; \"vou pensar\" closes a conversation politely.",
         ],
         examples: [
@@ -1626,7 +1626,7 @@ export const PT_B1_U31: Lesson[] = [
           { left: "na ponta do lápis", right: "with careful sums" },
           { left: "no seu lugar", right: "if I were you" },
         ],
-        explanation: "The vocabulary of the CLT-or-PJ conversation, which half of Brazil's office workers have had.",
+        explanation: "The vocabulary of the CLT-or-PJ conversation, which many Brazilian office workers have had.",
       },
       {
         type: "word-order",
@@ -1644,7 +1644,7 @@ export const PT_B1_U31: Lesson[] = [
         type: "speak",
         text: "Eu, no seu lugar, pediria um reajuste antes de aceitar.",
         prompt: "Say it in Portuguese: If I were you, I'd ask for a better salary before accepting.",
-        tip: "In \"reajuste\" say each vowel: re-a-JUS-te. In most of Brazil the final \"te\" sounds like chee.",
+        tip: "In \"reajuste\" say each vowel: he-a-ZHOOS-chee. In most of Brazil the final \"te\" sounds like chee.",
         explanation: "\"No seu lugar\" + conditional \"pediria\" is the standard way to give advice as a hypothesis.",
       },
       {
@@ -1669,7 +1669,7 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "Para onde vai o dinheiro? Looking at the numbers",
         body: [
-          "Larissa and Thiago live in Goiânia. It's the end of the month, the account is nearly empty again, and Larissa opens the banking app. Their conversation uses the perfeito composto from Unit 7 for a recent pattern: \"a gente tem gastado demais\" (we've been spending too much), and estar + gerúndio for what's happening now: \"a gente está gastando muito com delivery\".",
+          "Larissa and Thiago live in Goiânia. It's the end of the month, the account is nearly empty again, and Larissa opens the banking app. Their conversation uses the perfeito composto from Unit 12 for a recent pattern: \"a gente tem gastado demais\" (we've been spending too much), and estar + gerúndio for what's happening now: \"a gente está gastando muito com delivery\".",
           "\"Com\" introduces what the money is spent on: \"gastar com aluguel\", \"gastar com comida\". \"Delivery\" (food delivered through an app) is a real budget item in Brazil, along with \"a conta de luz\", \"o condomínio\" and \"o streaming\".",
         ],
         examples: [
@@ -1743,7 +1743,7 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "Para conseguirmos juntar: the goal",
         body: [
-          "Their goal is a trip to the Chapada dos Veadeiros, a few hours from Goiânia. Larissa sets it out with the personal infinitive from Unit 9: \"para conseguirmos juntar dinheiro\", \"antes de a gente viajar\". The ending \"-mos\" in \"conseguirmos\" shows the subject is \"nós\"; with \"a gente\", the infinitive has no ending: \"para a gente conseguir\".",
+          "Their goal is a trip to the Chapada dos Veadeiros, a few hours from Goiânia. Larissa sets it out with the personal infinitive from Unit 17: \"para conseguirmos juntar dinheiro\", \"antes de a gente viajar\". The ending \"-mos\" in \"conseguirmos\" shows the subject is \"nós\"; with \"a gente\", the infinitive has no ending: \"para a gente conseguir\".",
           "They finish with a plan: \"cada um guarda quinhentos por mês\", \"a gente revê o orçamento no fim do mês\". Notice the plain present for agreed plans, very common in speech.",
         ],
         examples: [
@@ -2092,7 +2092,7 @@ export const PT_B1_U31: Lesson[] = [
           { es: "Os gastos fixos somam três mil e duzentos por mês.", en: "Our fixed costs come to three thousand two hundred a month." },
           { es: "A conta de luz vem por débito automático.", en: "The electricity bill is paid by automatic debit." },
           { es: "A gente divide o aluguel meio a meio.", en: "We split the rent half and half." },
-          { es: "Vamos rachar a internet e o streaming?", en: "Shall we split the internet and the streaming?" },
+          { es: "Vamos rachar a internet e o streaming?", en: "Should we split the internet and the streaming?" },
           { es: "Que tal fazer uma vaquinha para as compras do mês?", en: "How about a kitty for the monthly shopping?" },
         ],
         checkpoint: [
@@ -2100,7 +2100,7 @@ export const PT_B1_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Shall we split the bills half and half?",
+            source: "Should we split the bills half and half?",
             answer: "Vamos dividir as contas meio a meio?",
             altAnswers: ["Vamos rachar as contas meio a meio?", "A gente divide as contas meio a meio?", "Que tal dividir as contas meio a meio?", "Vamos dividir as contas pela metade?", "Que tal a gente dividir as contas meio a meio?"],
             explanation: "\"Dividir\" or informal \"rachar\", and \"meio a meio\" for half and half.",
@@ -2298,7 +2298,7 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "A formal email to the RH",
         body: [
-          "Your pay stub has an error, so you write to HR. Unit 15's formal frame carries the new vocabulary: \"Prezada Sra.\", \"gostaria de solicitar\", \"segue em anexo o holerite\", \"fico no aguardo\". The passive describes the problem neutrally, without blaming anyone: \"o vale-transporte foi descontado duas vezes\".",
+          "Your pay stub has an error, so you write to HR. Unit 27's formal frame carries the new vocabulary: \"Prezada Sra.\", \"gostaria de solicitar\", \"segue em anexo o holerite\", \"fico no aguardo\". The passive describes the problem neutrally, without blaming anyone: \"o vale-transporte foi descontado duas vezes\".",
         ],
         examples: [
           { es: "Prezada Sra. Renata, verifiquei que o vale-transporte foi descontado duas vezes.", en: "Dear Ms. Renata, I noticed the transport voucher was deducted twice." },
@@ -2331,7 +2331,7 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "News from the office: what they said",
         body: [
-          "Back at your desk, you pass on what the manager announced. Reported speech from Unit 11 shifts the tenses: \"será\" becomes \"seria\", \"vamos\" becomes \"íamos\", \"foi\" becomes \"tinha sido\". \"A gestora disse que o reajuste seria pago em março\" is what you tell your colleague over lunch.",
+          "Back at your desk, you pass on what the manager announced. Reported speech from Unit 20 shifts the tenses: \"será\" becomes \"seria\", \"vamos\" becomes \"íamos\", \"foi\" becomes \"tinha sido\". \"A gestora disse que o reajuste seria pago em março\" is what you tell your colleague over lunch.",
         ],
         examples: [
           { es: "A gestora disse que o reajuste seria pago em março.", en: "The manager said the pay adjustment would be paid in March." },
@@ -2471,7 +2471,7 @@ export const PT_B1_U31: Lesson[] = [
         type: "speak",
         text: "Eu, no seu lugar, negociaria a dívida antes que os juros aumentem.",
         prompt: "Say it in Portuguese: If I were you, I'd negotiate the debt before the interest goes up.",
-        tip: "\"Negociaria\" has six syllables: ne-go-ci-a-RI-a. Keep the vowels separate and stress the \"ri\".",
+        tip: "\"Negociaria\" has six syllables: ne-go-see-a-REE-a. Keep the vowels separate and stress the \"ri\".",
         explanation: "Conditional for advice, and \"antes que\" + subjunctive \"aumentem\".",
       },
       {
@@ -2495,9 +2495,9 @@ export const PT_B1_U31_WRITING: WriteExercise = {
   rubric: [
     "Compares the offers with the right words: \"bruto\" / \"líquido\", \"décimo terceiro\", \"férias remuneradas\", \"FGTS\".",
     "Uses a concession or condition with the subjunctive, e.g. \"embora pague mais\" or \"caso você escolha\".",
-    "Gives advice with the conditional or the subjunctive: \"eu no seu lugar...\", \"sugiro que você...\", \"é importante que...\".",
+    "Gives advice with the conditional or the subjunctive: \"eu, no seu lugar...\", \"sugiro que você...\", \"é importante que...\".",
     "Uses money idioms correctly: \"estar no vermelho\", \"apertar o cinto\", \"juntar\" or \"guardar dinheiro\" (never \"salvar dinheiro\").",
   ],
-  modelAnswer: "Oi, Mariana, tudo bem?\n\nPensei muito nas suas propostas. Embora a vaga PJ pague mais, lembre que o valor é bruto: você vai ter que emitir nota, pagar imposto e um contador. Além disso, como PJ você não tem décimo terceiro, férias remuneradas nem FGTS. Na CLT o líquido é menor, mas você tem todos esses direitos e mais segurança caso seja demitida.\n\nEu no seu lugar escolheria a CLT, pelo menos por enquanto, já que você está no vermelho. Sugiro que você faça uma planilha com todos os gastos e corte o que não é essencial, como o delivery. Também é importante que você pague a fatura inteira do cartão, para não cair no rotativo. Guardando um pouco todo mês, logo você vai conseguir juntar dinheiro para a viagem.\n\nBeijo e boa sorte!",
-  explanation: "\"Embora\" and \"caso\" always take the subjunctive (\"pague\", \"seja\"), and so do \"sugiro que\" and \"é importante que\" (\"faça\", \"corte\", \"pague\"). Advice as a hypothesis uses \"eu no seu lugar\" + conditional (\"escolheria\"). For money, \"juntar\" or \"guardar dinheiro\" means to save up, and \"estar no vermelho\" needs the article \"no\".",
+  modelAnswer: "Oi, Mariana, tudo bem?\n\nPensei muito nas suas propostas. Embora a vaga PJ pague mais, lembre que o valor é bruto: você vai ter que emitir nota, pagar imposto e um contador. Além disso, como PJ você não tem décimo terceiro, férias remuneradas nem FGTS. Na CLT o líquido é menor, mas você tem todos esses direitos e mais segurança caso seja demitida.\n\nEu, no seu lugar, escolheria a CLT, pelo menos por enquanto, já que você está no vermelho. Sugiro que você faça uma planilha com todos os gastos e corte o que não é essencial, como o delivery. Também é importante que você pague a fatura inteira do cartão, para não cair no rotativo. Guardando um pouco todo mês, logo você vai conseguir juntar dinheiro para a viagem.\n\nBeijo e boa sorte!",
+  explanation: "\"Embora\" and \"caso\" always take the subjunctive (\"pague\", \"seja\"), and so do \"sugiro que\" and \"é importante que\" (\"faça\", \"corte\", \"pague\"). Advice as a hypothesis uses \"eu, no seu lugar,\" + conditional (\"escolheria\"). For money, \"juntar\" or \"guardar dinheiro\" means to save up, and \"estar no vermelho\" needs the article \"no\".",
 };

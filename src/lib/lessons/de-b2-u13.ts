@@ -343,10 +343,10 @@ export const DE_B2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'You're acting as if you had no homework.' (to friends)?",
         options: ["Ihr tut so, als ob ihr keine Hausaufgaben hättet.", "Ihr tut so, als ob ihr keine Hausaufgaben hätten.", "Ihr tut so, als ob ihr hättet keine Hausaufgaben.", "Ihr tut so, als ob ihr keine Hausaufgaben habt hättet."],
         correctIndex: 0,
-        explanation: "\"Ihr\" → \"hättet\", verb at the end.",
+        explanation: "\"Als ob\" sends the verb to the end, and \"ihr\" needs \"hättet\". \"*als ob ihr keine Hausaufgaben hätten*\" uses the \"wir/sie\" form.",
       },
       {
         type: "translate",
@@ -991,10 +991,10 @@ export const DE_B2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "How do you say 'I'm taking the bus because it's raining.'?",
             options: ["Ich nehme den Bus, denn es regnet.", "Ich nehme den Bus, denn es heute regnet.", "Denn es regnet, nehme ich den Bus.", "Ich nehme den Bus, zumal regnet es."],
             correctIndex: 0,
-            explanation: "\"Denn\" + normal word order (verb second), and never at the start; \"zumal\" would need the verb last.",
+            explanation: "\"Denn\" doesn't count for word order, so normal order follows (\"denn es regnet\"), and it can't open the sentence. \"*denn es heute regnet*\" sends the verb to the end as if \"denn\" were \"weil\".",
           },
         ],
       },
@@ -1277,10 +1277,10 @@ export const DE_B2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Je mehr ich lese, desto mehr verstehe ich.", "Je mehr ich lese, desto mehr ich verstehe.", "Je mehr lese ich, desto mehr verstehe ich.", "Je mehr ich lese, je mehr ich verstehe."],
+        question: "How do you say 'The more I read, the more I understand.'?",
+        options: ["Je mehr ich lese, desto mehr verstehe ich.", "Je mehr ich lese, desto mehr ich verstehe.", "Je mehr lese ich, desto mehr verstehe ich.", "Je mehr ich lese, desto ich verstehe mehr."],
         correctIndex: 0,
-        explanation: "Verb last after \"je\", verb straight after the desto-phrase.",
+        explanation: "Verb last after \"je\", verb straight after the desto-phrase: \"desto mehr verstehe ich\". \"*desto mehr ich verstehe*\" wrongly sends the second verb to the end.",
       },
       {
         type: "translate",
@@ -1466,10 +1466,10 @@ export const DE_B2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'It looks as if it's going to snow any minute.'?",
         options: ["Es sieht aus, als ob es gleich schneien würde.", "Es sieht aus wie es gleich schneit.", "Es sieht aus, wie ob es gleich schneit.", "Es sieht aus wie gleich schneien."],
         correctIndex: 0,
-        explanation: "A clause needs \"als ob\"; \"wie\" only takes a noun phrase here.",
+        explanation: "A comparison with a whole clause needs \"als ob\" + verb at the end (\"schneien würde\"). \"*Es sieht aus wie es gleich schneit*\" is a common slip: \"wie\" here only takes a noun (\"wie Schnee\").",
       },
       {
         type: "translate",

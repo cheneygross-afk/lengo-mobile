@@ -1000,10 +1000,10 @@ export const DE_B1_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'She talked to her mother on the phone.'?",
             options: ["Sie hat mit ihrer Mutter telefoniert.", "Sie hat mit ihre Mutter telefoniert.", "Sie hat an ihrer Mutter telefoniert.", "Sie hat ihrer Mutter telefoniert."],
             correctIndex: 0,
-            explanation: "\"Telefonieren mit\" + dative: \"mit ihrer Mutter\". \"Mit\" always takes the dative.",
+            explanation: "\"Telefonieren mit\" + dative: \"mit ihrer Mutter\". \"*Sie hat ihrer Mutter telefoniert*\" leaves out \"mit\"; \"telefonieren\" never takes a direct dative object.",
           },
         ],
       },
@@ -1975,10 +1975,10 @@ export const DE_B1_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'After we had arrived, we saw to the luggage.'?",
         options: ["Nachdem wir angekommen waren, kümmerten wir uns um das Gepäck.", "Nachdem wir angekommen hatten, kümmerten wir uns um das Gepäck.", "Nachdem wir angekommen waren, wir kümmerten uns um das Gepäck.", "Nachdem wir waren angekommen, kümmerten wir uns um das Gepäck."],
         correctIndex: 0,
-        explanation: "\"Ankommen\" takes \"sein\" (\"waren\"), the auxiliary goes last in the nachdem-clause, and the main clause begins with its verb.",
+        explanation: "\"Ankommen\" takes \"sein\" (\"angekommen waren\"), the auxiliary goes last, and the main clause starts with its verb. \"*angekommen hatten*\" uses the wrong auxiliary.",
       },
       {
         type: "word-order",

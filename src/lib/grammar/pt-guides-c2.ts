@@ -155,7 +155,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Tô morrendo de fome, bora comer alguma coisa?", en: "I'm starving, shall we grab something to eat?" },
+          { pt: "Tô morrendo de fome, bora comer alguma coisa?", en: "I'm starving, want to grab something to eat?" },
           { pt: "Sugiro que façamos uma pausa para o almoço.", en: "I suggest we break for lunch." },
           { pt: "Fica suspensa a sessão para o intervalo de almoço.", en: "The session is adjourned for the lunch break." },
         ],
@@ -402,7 +402,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           headers: ["Ditado", "Meaning", "English equivalent"],
           rows: [
             ["Quem não tem cão caça com gato.", "make do with what you have", "you work with what you've got"],
-            ["De grão em grão a galinha enche o papo.", "little by little you get there", "every little helps"],
+            ["De grão em grão a galinha enche o papo.", "little by little you get there", "every little bit helps"],
             ["Em casa de ferreiro, o espeto é de pau.", "experts neglect their own home", "the cobbler's children have no shoes"],
             ["Quem vê cara não vê coração.", "appearances deceive", "don't judge a book by its cover"],
             ["Águas passadas não movem moinho.", "the past is past", "let bygones be bygones"],
@@ -430,7 +430,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           headers: ["Idiom", "Meaning", "Example"],
           rows: [
             ["dar com os burros n'água", "to fail, come to nothing", "O plano deu com os burros n'água."],
-            ["fazer uma vaquinha", "to chip in, club together", "Fizemos uma vaquinha para o presente."],
+            ["fazer uma vaquinha", "to chip in, pool money", "Fizemos uma vaquinha para o presente."],
             ["ficar a ver navios", "to be left empty-handed", "Esperei a resposta e fiquei a ver navios."],
             ["pôr a mão no fogo por alguém", "to vouch for someone", "Eu ponho a mão no fogo por ela."],
             ["ser um zero à esquerda", "to be useless", "Em cozinha, sou um zero à esquerda."],
@@ -695,7 +695,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Então, gente, vamos começar?", en: "So, everyone, shall we start?" },
+          { pt: "Então, gente, vamos começar?", en: "So, everyone, ready to start?" },
           { pt: "Aí eu falei pra ele: não dá mais.", en: "So then I told him: I can't do this anymore." },
           { pt: "Olha, sinceramente, eu acho que não vai dar tempo.", en: "Look, honestly, I don't think there'll be time." },
         ],
@@ -811,8 +811,8 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "O réu foi condenado, mas a defesa vai recorrer da sentença.", en: "The defendant was convicted, but the defense will appeal against the judgment." },
-          { pt: "O juiz concedeu uma liminar suspendendo a obra.", en: "The judge granted an injunction suspending the building work." },
+          { pt: "O réu foi condenado, mas a defesa vai recorrer da sentença.", en: "The defendant was convicted, but the defense will appeal the judgment." },
+          { pt: "O juiz concedeu uma liminar suspendendo a obra.", en: "The judge granted an injunction suspending construction." },
           { pt: "Quem dirigir sob efeito de álcool terá a carteira suspensa.", en: "Anyone who drives under the influence of alcohol will have their license suspended." },
         ],
       },
@@ -946,7 +946,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Region, class and the norm debate`,
         body: [
-          `Regional features are mostly phonetic and lexical: the Carioca "s" that sounds like "sh", the caipira retroflex "r" of the São Paulo interior, the Northeastern "t" and "d" that don't become "tch" and "dj" before "i", the "tu" of Porto Alegre and Belém. Vocabulary varies too ("mandioca", "aipim" and "macaxeira" all name cassava).`,
+          `Regional features are mostly phonetic and lexical: the Carioca s that sounds like English sh, the caipira retroflex r of the São Paulo interior, the Northeastern t and d that don't turn into ch and j before i, the "tu" of Porto Alegre and Belém. Vocabulary varies too ("mandioca", "aipim" and "macaxeira" all name cassava).`,
           `Marcos Bagno's book "Preconceito linguístico" (1999) popularized the argument that judging people by non-standard grammar is social prejudice. Grammarians and many commentators answer that schools must teach the norm as a tool of access. The debate returns every time a textbook includes popular forms. You don't have to take sides, but you should be able to discuss it.`,
         ],
         examples: [
@@ -1068,7 +1068,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "A maioria dos moradores votou contra a obra.", en: "Most residents voted against the building work." },
+          { pt: "A maioria dos moradores votou contra a obra.", en: "Most residents voted against the construction project." },
           { pt: "Alugam-se quartos para estudantes.", en: "Student rooms for rent." },
           { pt: "Mais de um funcionário reclamou do horário.", en: "More than one employee complained about the hours." },
         ],
@@ -1352,7 +1352,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "A loja funciona das 9h às 21h.", en: "The store is open from 9 a.m. to 9 p.m." },
-          { pt: "O resultado sai daqui a duas semanas.", en: "The result comes out in two weeks' time." },
+          { pt: "O resultado sai daqui a duas semanas.", en: "The result comes out in two weeks." },
           { pt: "Ela fez a graduação a distância.", en: "She did her degree by distance learning." },
         ],
       },

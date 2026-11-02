@@ -149,7 +149,7 @@ export const PT_B1_U12_EXTRA: Lesson[] = [
         type: "speak",
         text: "O Cristo Redentor foi inaugurado em 1931.",
         prompt: "Say it in Portuguese: Christ the Redeemer was inaugurated in 1931.",
-        tip: "The R at the start of \"Redentor\" sounds like an English h: he-den-TOR.",
+        tip: "The R at the start of \"Redentor\" sounds like an English h: he-dẽ-TÔR.",
         explanation: "\"Foi inaugurado\" agrees with \"o Cristo Redentor\", masculine singular. The year comes after \"em\".",
       },
       {
@@ -177,8 +177,8 @@ export const PT_B1_U12_EXTRA: Lesson[] = [
           "Some verbs have two participles. The short form goes with \"ser\" and \"estar\": \"a conta foi paga\", \"o jogo está ganho\", \"o convite foi aceito\". The long form goes with \"ter\": \"tenho pagado\". In Brazil the short forms often appear with \"ter\" too: \"tenho pago\", \"tinha gasto\".",
         ],
         examples: [
-          { es: "A loja está fechada aos domingos.", en: "The shop is closed on Sundays." },
-          { es: "A loja foi fechada pela prefeitura.", en: "The shop was closed down by the city council." },
+          { es: "A loja está fechada aos domingos.", en: "The store is closed on Sundays." },
+          { es: "A loja foi fechada pela prefeitura.", en: "The store was closed down by the city council." },
           { es: "A conta já está paga.", en: "The bill is already paid." },
           { es: "O convite foi aceito.", en: "The invitation was accepted." },
           { es: "Ele tinha gastado todo o dinheiro.", en: "He had spent all the money." },
@@ -304,12 +304,12 @@ export const PT_B1_U12_EXTRA: Lesson[] = [
         type: "speak",
         text: "O pedido está confirmado.",
         prompt: "Say it in Portuguese: The order is confirmed.",
-        tip: "Confirmado: kon-fir-MA-du.",
+        tip: "Confirmado: kõ-feer-MA-doo.",
         explanation: "Being confirmed is a state, so \"está confirmado\", masculine like \"o pedido\".",
       },
       {
         type: "matching",
-        instructions: "Match the long participle to the short one.",
+        instructions: "Match the Portuguese to the English.",
         pairs: [{ left: "A conta foi paga.", right: "The bill was paid." }, { left: "O jogo está ganho.", right: "The game is won." }, { left: "Todo o dinheiro foi gasto.", right: "All the money was spent." }, { left: "O convite foi aceito.", right: "The invitation was accepted." }, { left: "O pacote foi entregue.", right: "The package was delivered." }],
         explanation: "With \"ser\" and \"estar\" these verbs use the short participles: paga, ganho, gasto, aceito, entregue.",
       },
@@ -377,7 +377,7 @@ export const PT_B1_U12_EXTRA: Lesson[] = [
         source: "English spoken here.",
         answer: "Fala-se inglês.",
         altAnswers: ["Aqui se fala inglês.", "Fala-se inglês aqui.", "Falamos inglês."],
-        explanation: "A sign uses the se form: \"fala-se inglês\". A shop might also write \"falamos inglês\" (we speak English).",
+        explanation: "A sign uses the se form: \"fala-se inglês\". A store might also write \"falamos inglês\" (we speak English).",
       },
       {
         type: "translate",

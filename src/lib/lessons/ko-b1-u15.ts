@@ -64,7 +64,7 @@ export const KO_B1_U15: Lesson[] = [
       {
         heading: "Adjectives -(으)ㄴ지, nouns 인지",
         body: [
-          "Adjectives take -(으)ㄴ지, the same modifier as 바쁜 사람: 바쁘다 → 바쁜지, 좋다 → 좋은지, 어렵다 → 어려운지, 멀다 → 먼지. Nouns take 인지: 누구 → 누구인지, 얼마 → 얼마인지, 뭐 → 뭐인지. After a vowel, speech squeezes 인지 into ㄴ지: 누군지, 얼만지, 뭔지. Both spellings are right; the short ones are what you'll hear.",
+          "Adjectives take -(으)ㄴ지, the same modifier as 바쁜 사람: 바쁘다 → 바쁜지, 좋다 → 좋은지, 어렵다 → 어려운지, 멀다 → 먼지. Nouns take 인지: 누구 → 누구인지, 얼마 → 얼마인지, 무엇 → 무엇인지. After a vowel, speech squeezes 인지 into ㄴ지: 누군지, 얼만지, and 뭐 gives 뭔지. Both spellings are right; the short ones are what you'll hear.",
           "English speakers often write *얼마는지 or *바쁘는지, copying the action-verb form. Ask the usual question first: would the modifier be 바쁜 or 바쁘는? Then the -지 form follows.",
         ],
         examples: [
@@ -840,14 +840,14 @@ export const KO_B1_U15: Lesson[] = [
             source: "I might be a bit late today.",
             answer: "오늘 좀 늦을지도 몰라요.",
             altAnswers: ["오늘 조금 늦을지도 몰라요.", "오늘 좀 늦을지도 모르겠어요.", "오늘 조금 늦을지도 모르겠어요.", "제가 오늘 좀 늦을지도 몰라요.", "오늘 약간 늦을지도 몰라요."],
-            explanation: "늦다 + 을지도 몰라요: 'might be late'. Without 도, 늦을지 몰라요 sounds like 'I don't know if I'll be late'.",
+            explanation: "늦다 + 을지도 몰라요: 'might be late'. Without 도, 늦을지 몰라요 leans towards 'I don't know if I'll be late' (in casual speech it is often heard as 'might' too).",
           },
           {
             type: "multiple-choice",
             question: "Which one means 'It might rain this afternoon'?",
-            options: ["오후에 비가 올지도 몰라요.", "오후에 비가 올지 몰라요.", "오후에 비가 오는지도 몰라요.", "오후에 비가 올지도 몰랐어요."],
+            options: ["오후에 비가 올지도 몰라요.", "오후에 비가 왔을지도 몰라요.", "오후에 비가 오는지도 몰라요.", "오후에 비가 올지도 몰랐어요."],
             correctIndex: 0,
-            explanation: "올지도 몰라요 is 'might'. Without 도 it is closer to 'I don't know if it'll rain'; 몰랐어요 makes it past.",
+            explanation: "올지도 몰라요 is 'might'. 왔을지도 몰라요 is 'might have rained', 오는지도 asks about rain falling now, and 몰랐어요 makes the not-knowing past.",
           },
           {
             type: "listen-choose",
@@ -1071,7 +1071,7 @@ export const KO_B1_U15: Lesson[] = [
         heading: "갔는지, 가는지 or 갈지?",
         body: [
           "Inside an embedded question the tense works as in the direct question. 갔는지 asks about the past (갔어요?), 가는지 about now or a fixed schedule (가요?), 갈지 about a future nobody knows yet or a choice still open (갈 거예요?).",
-          "The trap is English 'whether he goes', which can mean any of the three. Ask yourself whether the answer already exists. If it does, use -는지 or -았는지; if it doesn't, use -(으)ㄹ지. So 'I don't know if the shop is open now' is 여는지 and 'I don't know if it'll be open on the holiday' is 열지. A timetable counts as a fact, even for tomorrow: 내일 몇 시에 여는지 아세요?",
+          "The trap is English 'whether he goes', which can mean any of the three. Ask yourself whether the answer already exists. If it does, use -는지 or -았는지; if it doesn't, use -(으)ㄹ지. So 'I don't know if the shop is open now' is 여는지 and 'I don't know if it'll be open on the holiday' is 열지. A timetable counts as a fact, even for tomorrow: 내일 몇 시에 여는지 아세요? So if the holiday hours are already posted, 설날에도 여는지 is fine too; 열지 stresses that nobody knows yet.",
         ],
         examples: [
           { es: "민수 씨가 집에 갔는지 모르겠어요.", en: "I don't know if Minsu has gone home." },
@@ -1265,7 +1265,7 @@ export const KO_B1_U15: Lesson[] = [
             sentence: "이게 ___ 알아요?",
             answer: "뭔지",
             altAnswers: ["뭐인지", "무엇인지"],
-            explanation: "뭐 is a noun: 뭐인지, said 뭔지.",
+            explanation: "뭐 (무엇) is a noun: 무엇인지, said 뭔지.",
           },
         ],
       },
@@ -2223,7 +2223,7 @@ export const KO_B1_U15: Lesson[] = [
         prompt: "Translate into Korean (formal, to your team leader).",
         source: "I'm not sure. I'll check.",
         answer: "잘 모르겠습니다. 확인해 보겠습니다.",
-        altAnswers: ["잘 모르겠습니다. 확인하겠습니다.", "잘 모르겠습니다. 제가 확인해 보겠습니다.", "모르겠습니다. 확인해 보겠습니다.", "잘 모르겠어요. 확인해 볼게요.", "잘 모르겠습니다. 알아보겠습니다."],
+        altAnswers: ["잘 모르겠습니다. 확인하겠습니다.", "잘 모르겠습니다. 제가 확인해 보겠습니다.", "모르겠습니다. 확인해 보겠습니다.", "잘 모르겠습니다. 알아보겠습니다."],
         explanation: "잘 모르겠습니다 plus a promise to check is the professional answer to a senior.",
       },
       {
@@ -2304,7 +2304,7 @@ export const KO_B1_U15: Lesson[] = [
             prompt: "Translate into Korean (polite, in a message).",
             source: "I'd like to know if that room is still available.",
             answer: "그 방이 아직 있는지 궁금해요.",
-            altAnswers: ["그 방이 아직 있는지 궁금합니다.", "그 방이 아직 안 나갔는지 궁금해요.", "그 방이 아직 안 나갔는지 궁금합니다.", "그 방이 아직 남아 있는지 궁금해요.", "그 방이 아직 있는지 알고 싶어요.", "그 방 아직 있는지 궁금해요."],
+            altAnswers: ["그 방이 아직 안 나갔는지 궁금해요.", "그 방이 아직 남아 있는지 궁금해요.", "그 방이 아직 있는지 알고 싶어요.", "그 방 아직 있는지 궁금해요."],
             explanation: "A yes/no question with no 'if': 있는지. 방이 나가다 is how Koreans say a flat 'has gone'.",
           },
           {
@@ -2336,7 +2336,7 @@ export const KO_B1_U15: Lesson[] = [
             prompt: "Translate into Korean (polite, in a message).",
             source: "I'm not sure yet whether I'll be free on Wednesdays.",
             answer: "수요일에 시간이 될지 아직 잘 모르겠어요.",
-            altAnswers: ["수요일에 시간이 될지 아직 모르겠어요.", "수요일에 시간이 있을지 아직 잘 모르겠어요.", "수요일에 시간이 있을지 아직 모르겠어요.", "아직 수요일에 시간이 될지 잘 모르겠어요.", "수요일에 시간이 될지 아직 잘 모르겠습니다.", "수요일마다 시간이 될지 아직 잘 모르겠어요."],
+            altAnswers: ["수요일에 시간이 될지 아직 모르겠어요.", "수요일에 시간이 있을지 아직 잘 모르겠어요.", "수요일에 시간이 있을지 아직 모르겠어요.", "아직 수요일에 시간이 될지 잘 모르겠어요.", "수요일마다 시간이 될지 아직 잘 모르겠어요."],
             explanation: "Your future schedule can't be known yet: 될지 [될찌].",
           },
           {
@@ -2367,7 +2367,7 @@ export const KO_B1_U15: Lesson[] = [
         prompt: "Translate into Korean (polite, in a message).",
         source: "I'd also like to ask whether I could come and see it this weekend.",
         answer: "이번 주말에 방을 보러 갈 수 있는지도 여쭤보고 싶어요.",
-        altAnswers: ["이번 주말에 방을 보러 갈 수 있는지도 여쭤보고 싶습니다.", "이번 주말에 방을 보러 가도 되는지도 여쭤보고 싶어요.", "이번 주말에 방을 보러 갈 수 있는지도 궁금해요.", "이번 주말에 방 보러 갈 수 있는지도 여쭤보고 싶어요.", "이번 주말에 방을 보러 갈 수 있는지 여쭤보고 싶어요.", "이번 주말에 방을 볼 수 있는지도 여쭤보고 싶어요."],
+        altAnswers: ["이번 주말에 방을 보러 가도 되는지도 여쭤보고 싶어요.", "이번 주말에 방을 보러 갈 수 있는지도 궁금해요.", "이번 주말에 방 보러 갈 수 있는지도 여쭤보고 싶어요.", "이번 주말에 방을 보러 갈 수 있는지 여쭤보고 싶어요.", "이번 주말에 방을 볼 수 있는지도 여쭤보고 싶어요."],
         explanation: "갈 수 있는지: the ending goes on 있다. 여쭤보다 is the humble 'ask'.",
       },
       {
@@ -2402,7 +2402,7 @@ export const KO_B1_U15: Lesson[] = [
         prompt: "Translate into Korean (polite, in a message).",
         source: "I'll check my schedule and get back to you.",
         answer: "일정을 확인해 보고 다시 연락드릴게요.",
-        altAnswers: ["일정을 확인하고 다시 연락드릴게요.", "일정 확인해 보고 다시 연락드릴게요.", "일정을 확인해 보고 다시 연락드리겠습니다.", "스케줄을 확인해 보고 다시 연락드릴게요.", "일정을 확인해 보고 다시 연락할게요."],
+        altAnswers: ["일정을 확인하고 다시 연락드릴게요.", "일정 확인해 보고 다시 연락드릴게요.", "스케줄을 확인해 보고 다시 연락드릴게요.", "일정을 확인해 보고 다시 연락할게요."],
         explanation: "연락드리다 is the humble 'contact'; -(으)ㄹ게요 promises, spelled 게.",
       },
       {

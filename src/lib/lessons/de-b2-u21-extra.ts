@@ -255,10 +255,10 @@ export const DE_B2_U21_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The author, whose new novel has just come out, is giving a reading in Cologne today.'?",
         options: ["Die Autorin, deren neuer Roman gerade erschienen ist, liest heute in Köln.", "Die Autorin, dessen neuer Roman gerade erschienen ist, liest heute in Köln.", "Die Autorin, deren neue Roman gerade erschienen ist, liest heute in Köln.", "Die Autorin, deren der neue Roman gerade erschienen ist, liest heute in Köln."],
         correctIndex: 0,
-        explanation: "Feminine antecedent → \"deren\"; no article after it, so the adjective takes the strong ending: \"neuer Roman\".",
+        explanation: "A feminine antecedent takes \"deren\", and as no article follows, the adjective has the strong ending: \"deren neuer Roman\". \"*dessen neuer Roman*\" would refer to a male author.",
       },
       {
         type: "translate",

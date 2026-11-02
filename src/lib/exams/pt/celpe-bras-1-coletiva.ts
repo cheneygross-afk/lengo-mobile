@@ -163,7 +163,7 @@ export const CELPE_BRAS_1_COLETIVA: ExamPaper = {
           maxWords: 250,
           rubric: [
             "\"Adequação ao contexto\": a letter to the editor (\"carta de leitor\") by a Campinas resident, meant for the newspaper's readers, that takes a clear position",
-            "Supports the position with information from the article (1,800 bikes a day, three times as many as before, accidents down from 23 to 6, the shopkeepers' 15 % drop, the urban planner's view)",
+            "Supports the position with information from the article (1,800 bikes a day, three times as many as before, accidents down from 23 to 6, the shopkeepers' 15% drop, the urban planner's view)",
             "Acknowledges the other side and proposes a compromise (for example loading bays and bike racks in the side streets)",
             "\"Adequação discursiva\": refers to the article at the start, states the opinion, argues in paragraphs, ends with a conclusion and the writer's name and city",
             "\"Adequação linguística\": argument connectors (\"embora\" + subjunctive, \"além disso\", \"em vez de\", \"portanto\"), the conditional for hypotheses (\"seria\", \"significaria\"), accurate vocabulary",

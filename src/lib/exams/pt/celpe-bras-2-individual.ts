@@ -2,7 +2,7 @@
 import type { ExamPaper } from "../types";
 import { ELEMENT_INSTRUCTIONS, ELEMENT_NOTE, INTERVIEW_INSTRUCTIONS, INTERVIEW_NOTE, paras } from "./text";
 
-// Celpe-Bras practice exam 2 (health and wellbeing) -- Parte Individual.
+// Celpe-Bras practice exam 2 (health and well-being) -- Parte Individual.
 // About 20 minutes, as in the real exam: five minutes of conversation
 // about the candidate, then three "elementos provocadores" (a photo with
 // a short text), about five minutes each including a minute to read. The

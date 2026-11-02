@@ -633,7 +633,7 @@ export const DE_C2_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct? (Utilitarianism is the name for an ethics that judges actions by their consequences.)",
+        question: "How do you write 'Utilitarianism is the name for an ethics that judges actions by their consequences.'?",
         options: ["Als Utilitarismus bezeichnet man eine Ethik, die Handlungen nach ihren Folgen beurteilt.", "Als Utilitarismus bezeichnet man eine Ethik, der Handlungen nach ihren Folgen beurteilt.", "Unter Utilitarismus bezeichnet man eine Ethik, die Handlungen nach ihren Folgen beurteilt.", "Als Utilitarismus bezeichnet man eine Ethik, die beurteilt Handlungen nach ihren Folgen."],
         correctIndex: 0,
         explanation: "\"Als X bezeichnet man\" (not \"unter\", which goes with \"verstehen\"); the relative pronoun agrees with \"die Ethik\", and its verb goes last.",

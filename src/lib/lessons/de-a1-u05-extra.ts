@@ -452,10 +452,10 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The teacher asks the pupil.'?",
         options: ["Der Lehrer fragt den Schüler.", "Den Lehrer fragt den Schüler.", "Der Lehrer fragt der Schüler.", "Der Lehrer fragt dem Schüler."],
         correctIndex: 0,
-        explanation: "One subject (\"der Lehrer\"), one object (\"den Schüler\"). Two \"den\" leaves no subject, two \"der\" no object, and \"fragen\" takes the accusative, not \"dem\".",
+        explanation: "The teacher is the subject (\"der Lehrer\"), the pupil the accusative object of \"fragen\" (\"den Schüler\"). \"*Der Lehrer fragt dem Schüler*\" uses the dative, but \"fragen\" takes the accusative.",
       },
       {
         type: "translate",
@@ -622,10 +622,10 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which learner sentence is correct?",
+        question: "How do you say 'Which film are you watching?' (to a friend)",
         options: ["Welchen Film siehst du?", "Welcher Film siehst du?", "Welchen Film sieht du?", "Welche Film siehst du?"],
         correctIndex: 0,
-        explanation: "The film is the object of \"sehen\", so \"welchen\"; the du form is \"siehst\".",
+        explanation: "The film is the object of \"sehen\", so masculine \"welcher\" becomes \"welchen\"; the du form is \"siehst\". \"*Welcher Film siehst du?*\" leaves the object in the nominative.",
       },
       {
         type: "word-order",

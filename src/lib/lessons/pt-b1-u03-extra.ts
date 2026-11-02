@@ -107,7 +107,7 @@ export const PT_B1_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It's a shame the shop is closed.",
+        source: "It's a shame the store is closed.",
         answer: "É uma pena que a loja esteja fechada.",
         altAnswers: ["Que pena que a loja esteja fechada.", "Pena que a loja está fechada."],
         explanation: "\"É uma pena que\" takes the subjunctive in careful Portuguese: \"esteja fechada\". In speech you'll also hear \"está\".",
@@ -151,7 +151,7 @@ export const PT_B1_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "É importante que todos participem.",
         prompt: "Say it in Portuguese: It's important for everyone to take part.",
-        tip: "Participem: par-tchi-SI-pẽy.",
+        tip: "Participem: par-chee-SEE-pẽy.",
         explanation: "A person (\"todos\") is named, so \"que\" + subjunctive: \"participar\" takes -em, \"participem\".",
       },
       {
@@ -315,7 +315,7 @@ export const PT_B1_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "Fico muito feliz que vocês estejam aqui.",
         prompt: "Say it in Portuguese: I'm so glad you're all here.",
-        tip: "Estejam: es-TE-zhãw.",
+        tip: "Estejam: es-TÊ-zhãw.",
         explanation: "\"Fico feliz que\" + subjunctive: being here is \"estar\", and the vocês form is \"estejam\".",
       },
       {
@@ -480,7 +480,7 @@ export const PT_B1_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "Acho que sim, mas não tenho certeza.",
         prompt: "Say it in Portuguese: I think so, but I'm not sure.",
-        tip: "Certeza: ser-TE-za.",
+        tip: "Certeza: ser-TÊ-za.",
         explanation: "\"Acho que sim\" is the fixed I think so, and \"não tenho certeza\" is I'm not sure.",
       },
       {

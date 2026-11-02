@@ -2183,10 +2183,10 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Ich kaufe eine Flasche Wein.", "Ich kaufe eine Flasche von Wein.", "Ich kaufe eine Flasche des Weins.", "Ich kaufe einen Flasche Wein."],
+        question: "How do you say 'I'm buying a bottle of wine.'?",
+        options: ["Ich kaufe eine Flasche Wein.", "Ich kaufe eine Flasche von Wein.", "Ich kaufe ein Flasche Wein.", "Ich kaufe einen Flasche Wein."],
         correctIndex: 0,
-        explanation: "No of in quantities; \"die Flasche\" → \"eine\".",
+        explanation: "German has no 'of' in quantities: \"eine Flasche Wein\", with \"eine\" because \"die Flasche\" is feminine. \"*Eine Flasche von Wein*\" translates the English 'of' word for word.",
       },
       {
         type: "multiple-choice",

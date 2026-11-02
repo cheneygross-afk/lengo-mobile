@@ -123,7 +123,7 @@ export const KO_B1_U10: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "It's rush hour, so the traffic is bad.",
             answer: "퇴근 시간이라서 길이 막혀요.",
-            altAnswers: ["퇴근 시간이라서 길이 많이 막혀요.", "퇴근 시간이라 길이 막혀요.", "퇴근 시간이라 길이 많이 막혀요.", "출근 시간이라서 길이 막혀요.", "출근 시간이라서 길이 많이 막혀요.", "퇴근 시간이라서 차가 막혀요.", "퇴근 시간이라서 차가 많이 막혀요."],
+            altAnswers: ["퇴근 시간이라서 길이 많이 막혀요.", "퇴근 시간이라 길이 막혀요.", "퇴근 시간이라 길이 많이 막혀요.", "출근 시간이라서 길이 막혀요.", "출근 시간이라서 길이 많이 막혀요.", "퇴근 시간이라서 차가 막혀요.", "퇴근 시간이라서 차가 많이 막혀요.", "러시아워라서 길이 막혀요.", "러시아워라서 차가 막혀요."],
             explanation: "길이 막히다 is the set way to say traffic is bad (차가 막히다 is common too). 시간 + 이라서 gives the reason.",
           },
           {
@@ -149,7 +149,7 @@ export const KO_B1_U10: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "The traffic is really bad today.",
         answer: "오늘 길이 너무 막혀요.",
-        altAnswers: ["오늘 길이 정말 막혀요.", "오늘 길이 많이 막혀요.", "오늘 길이 진짜 막혀요.", "오늘은 길이 너무 막혀요.", "오늘은 길이 많이 막혀요.", "오늘은 길이 정말 막혀요.", "오늘 차가 너무 막혀요.", "오늘 차가 많이 막혀요.", "오늘 길이 정말 많이 막혀요."],
+        altAnswers: ["오늘 길이 정말 막혀요.", "오늘 길이 많이 막혀요.", "오늘 길이 진짜 막혀요.", "오늘은 길이 너무 막혀요.", "오늘은 길이 많이 막혀요.", "오늘은 길이 정말 막혀요.", "오늘 차가 너무 막혀요.", "오늘 차가 많이 막혀요.", "오늘 차가 정말 막혀요.", "오늘 차가 진짜 막혀요.", "오늘 길이 정말 많이 막혀요."],
         explanation: "Bad traffic is 길이 막히다: the road 'is blocked'. 막히 + 어요 → 막혀요.",
       },
       {
@@ -678,7 +678,7 @@ export const KO_B1_U10: Lesson[] = [
         heading: "-아 / 어지다: the passive for everything else",
         body: [
           "Many verbs have no -이-, -히-, -리- or -기- passive. For these, Korean adds -아 / 어지다 to the stem, the way you form the 요 form: 만들다 → 만들어지다 'be made', 지우다 → 지워지다 'be erased', 정하다 → 정해지다 'be decided', 알리다 → 알려지다 'become known'. It conjugates like any verb: 만들어져요, 만들어졌어요, written as one word.",
-          "You'll meet it in news, explanations and product labels: 이 노래는 전 세계에 알려졌어요. In daily life, 파일이 지워졌어요 'the file got deleted' is the one you'll need. A verb that already has a suffix passive never takes -어지다: 열리다, not *열어지다.",
+          "You'll meet it in news, explanations and product labels: 이 노래는 전 세계에 알려졌어요. In daily life, 파일이 지워졌어요 'the file got deleted' is the one you'll need. A verb that already has a suffix passive normally doesn't take -어지다: 열리다, not *열어지다.",
         ],
         examples: [
           { es: "이 가방은 이탈리아에서 만들어졌어요.", en: "This bag was made in Italy." },
@@ -839,7 +839,7 @@ export const KO_B1_U10: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Your order has been received.",
         answer: "주문이 접수됐어요.",
-        altAnswers: ["주문이 접수되었어요.", "주문이 접수됐습니다.", "주문이 접수되었습니다.", "주문 접수됐어요."],
+        altAnswers: ["주문이 접수되었어요.", "주문 접수됐어요."],
         explanation: "접수하다 'receive, register' → 접수되다. Shopping apps show this the moment you pay.",
       },
       {
@@ -1913,10 +1913,10 @@ export const KO_B1_U10: Lesson[] = [
       {
         heading: "English-style passives",
         body: [
-          "Translating 'by' word for word causes two errors. 에 의해 exists in formal writing, but in conversation *그 책은 민수 씨에 의해 읽혔어요 sounds like a translated report: say 민수 씨가 그 책을 읽었어요. And the doer of a passive takes 에게 / 한테, not 에게서 / 한테서 'from': 모기한테 물렸어요, not *모기에게서 물렸어요.",
+          "Translating 'by' word for word causes two problems. 에 의해 exists in formal writing, so 그 책은 민수 씨에 의해 읽혔어요 is grammatical, but in conversation it sounds like a translated report: say 민수 씨가 그 책을 읽었어요. And the doer of a passive takes 에게 / 한테, not 에게서 / 한테서 'from': 모기한테 물렸어요, not *모기에게서 물렸어요.",
         ],
         examples: [
-          { es: "민수 씨가 그 책을 읽었어요.", en: "Minsu read that book. (not *민수 씨에 의해 읽혔어요)" },
+          { es: "민수 씨가 그 책을 읽었어요.", en: "Minsu read that book. (not the stiff 민수 씨에 의해 읽혔어요)" },
           { es: "이 사진은 제 친구가 찍었어요.", en: "This photo was taken by my friend." },
           { es: "어젯밤에 모기한테 물렸어요.", en: "I got bitten by a mosquito last night. (not *모기에게서)" },
         ],
@@ -1924,7 +1924,7 @@ export const KO_B1_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the mistake and translate into Korean (polite): *그 책은 민수 씨에 의해 읽혔어요.",
+            prompt: "Make it natural and translate into Korean (polite). Stiff translationese: 그 책은 민수 씨에 의해 읽혔어요.",
             source: "That book was read by Minsu.",
             answer: "민수 씨가 그 책을 읽었어요.",
             altAnswers: ["그 책은 민수 씨가 읽었어요.", "민수 씨가 그 책 읽었어요."],
@@ -1953,7 +1953,7 @@ export const KO_B1_U10: Lesson[] = [
       {
         heading: "The wrong passive form",
         body: [
-          "-아 / 어지다 is only for verbs with no suffix passive. 열다 already has 열리다, so *열어졌어요 is wrong, like *닫아졌어요 (닫혔어요) and *팔아졌어요 (팔렸어요). And a 하다 verb needs 되다 when the thing affected is the subject: *회의가 취소했어요 → 회의가 취소됐어요. Keep 하다 when someone did it: 팀장님이 회의를 취소하셨어요.",
+          "-아 / 어지다 is mainly for verbs with no suffix passive. 열다 already has 열리다, so *열어졌어요 is wrong, like *닫아졌어요 (닫혔어요) and *팔아졌어요 (팔렸어요). And a 하다 verb needs 되다 when the thing affected is the subject: *회의가 취소했어요 → 회의가 취소됐어요. Keep 하다 when someone did it: 팀장님이 회의를 취소하셨어요.",
         ],
         examples: [
           { es: "문이 저절로 열렸어요.", en: "The door opened by itself. (not *열어졌어요)" },
@@ -2019,11 +2019,11 @@ export const KO_B1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into Korean (polite): *이 케이크는 엄마에 의해 만들어졌어요.",
+        prompt: "Make it natural and translate into Korean (polite). Stiff translationese: 이 케이크는 엄마에 의해 만들어졌어요.",
         source: "My mum made this cake.",
         answer: "이 케이크는 엄마가 만들었어요.",
         altAnswers: ["엄마가 이 케이크를 만들었어요.", "이 케이크는 엄마가 만드셨어요.", "엄마가 이 케이크를 만드셨어요.", "이 케이크는 어머니가 만드셨어요.", "어머니가 이 케이크를 만드셨어요.", "이 케이크는 엄마가 만든 거예요."],
-        explanation: "Your mum is the point, so keep her as the subject of the active 만들었어요.",
+        explanation: "Your mum is the point, so keep her as the subject of the active 만들었어요. The 에 의해 version is grammatical but sounds like a translated report.",
       },
       {
         type: "dictation",
@@ -2092,7 +2092,7 @@ export const KO_B1_U10: Lesson[] = [
       {
         heading: "Notice 1: the subway lost-property centre",
         body: [
-          "This notice comes from the lost-property centre (유실물 센터) at 서울역 station. Notices use formal 합니다 speech and plenty of 되다 passives, because the point is what happened to the items, not who did it. 발견되다 is 'be found', 보관되다 'be kept, stored', 보내지다 'be sent', and 신분증 is ID. Read each line, then check the English.",
+          "This notice comes from the lost-property centre (유실물 센터) at Seoul Station (서울역). Notices use formal 합니다 speech and plenty of 되다 passives, because the point is what happened to the items, not who did it. 발견되다 is 'be found', 보관되다 'be kept, stored', 보내지다 'be sent', and 신분증 is ID. Read each line, then check the English.",
         ],
         examples: [
           { es: "지난주 금요일 저녁, 1호선 열차 안에서 검은색 지갑이 발견되었습니다.", en: "Last Friday evening, a black wallet was found on a Line 1 train." },

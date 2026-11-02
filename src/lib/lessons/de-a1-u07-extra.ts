@@ -478,10 +478,10 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'First I eat, then I go to work.'?",
         options: ["Zuerst esse ich, dann gehe ich zur Arbeit.", "Zuerst ich esse, dann ich gehe zur Arbeit.", "Zuerst esse ich, dann ich gehe zur Arbeit.", "Zuerst esse ich, dann gehe ich zu der Arbeit zu."],
         correctIndex: 0,
-        explanation: "\"Zuerst\" and \"dann\" each take position 1, so the verb follows straight after.",
+        explanation: "\"Zuerst\" and \"dann\" each take position 1, so the verb follows straight after: \"esse ich\", \"gehe ich\". \"*Dann ich gehe*\" keeps English order in the second half.",
       },
       {
         type: "listen-choose",

@@ -141,10 +141,10 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I remember the summer of 2015.'?",
         options: ["Ich erinnere mich an den Sommer 2015.", "Ich erinnere mich an dem Sommer 2015.", "Ich erinnere den Sommer 2015.", "Ich erinnere mich über den Sommer 2015."],
         correctIndex: 0,
-        explanation: "\"Sich erinnern an\" + accusative, and the verb needs the reflexive pronoun.",
+        explanation: "\"Sich erinnern an\" + accusative: \"an den Sommer\". \"*an dem Sommer*\" uses the dative; and the verb needs its reflexive \"mich\".",
       },
       {
         type: "listen-choose",
@@ -304,10 +304,10 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He suffers from an allergy.'?",
         options: ["Er leidet an einer Allergie.", "Er leidet an eine Allergie.", "Er leidet von einer Allergie.", "Er leidet mit einer Allergie."],
         correctIndex: 0,
-        explanation: "An illness: \"leiden an\" + dative: \"an einer Allergie\".",
+        explanation: "An illness takes \"leiden an\" + dative: \"an einer Allergie\" (\"unter\" + dative is also used). \"*leidet von*\" copies English from.",
       },
       {
         type: "listen-choose",
@@ -465,10 +465,10 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He's in love with his colleague.'?",
         options: ["Er ist in seine Kollegin verliebt.", "Er ist in seiner Kollegin verliebt.", "Er ist mit seiner Kollegin verliebt.", "Er ist von seiner Kollegin verliebt."],
         correctIndex: 0,
-        explanation: "\"Verliebt in\" + accusative: \"in seine Kollegin\". English in love with tempts \"mit\".",
+        explanation: "\"Verliebt in\" + accusative: \"in seine Kollegin\". \"*mit seiner Kollegin*\" copies English with.",
       },
       {
         type: "listen-choose",
@@ -771,17 +771,17 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He's taking part in the competition and thinking about the prize.'?",
         options: ["Er nimmt am Wettbewerb teil und denkt an den Preis.", "Er nimmt an den Wettbewerb teil und denkt an dem Preis.", "Er nimmt am Wettbewerb teil und denkt an dem Preis.", "Er nimmt an den Wettbewerb teil und denkt an den Preis."],
         correctIndex: 0,
-        explanation: "\"Teilnehmen an\" + dative (\"am\"), but \"denken an\" + accusative (\"an den\").",
+        explanation: "\"Teilnehmen an\" takes the dative (\"am Wettbewerb\"), but \"denken an\" takes the accusative (\"an den Preis\"). \"*denkt an dem Preis*\" gives \"denken\" the dative.",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I rely on my colleague.'?",
         options: ["Ich verlasse mich auf meinen Kollegen.", "Ich verlasse mich auf meinem Kollegen.", "Ich verlasse mich an meinen Kollegen.", "Ich verlasse auf meinen Kollegen."],
         correctIndex: 0,
-        explanation: "\"Sich verlassen auf\" + accusative: \"meinen Kollegen\".",
+        explanation: "\"Sich verlassen auf\" + accusative: \"auf meinen Kollegen\". \"*auf meinem Kollegen*\" uses the dative, and \"*Ich verlasse auf*\" drops \"mich\".",
       },
       {
         type: "word-order",
@@ -1100,10 +1100,10 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'That depends on you.' (to a friend)?",
         options: ["Das hängt von dir ab.", "Das hängt auf dich ab.", "Das hängt von dich ab.", "Das hängt an dir ab."],
         correctIndex: 0,
-        explanation: "\"Abhängen von\" + dative: \"von dir\".",
+        explanation: "\"Abhängen von\" + dative: \"von dir\". \"*auf dich*\" copies English on.",
       },
       {
         type: "matching",
@@ -1429,10 +1429,10 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I spend my time on photography.'?",
         options: ["Ich beschäftige mich mit der Fotografie.", "Ich beschäftige mich mit die Fotografie.", "Ich beschäftige mich für die Fotografie.", "Ich beschäftige mit der Fotografie."],
         correctIndex: 0,
-        explanation: "\"Sich beschäftigen mit\" + dative, reflexive.",
+        explanation: "\"Sich beschäftigen mit\" + dative, with the reflexive \"mich\": \"mich mit der Fotografie\". \"*mit die Fotografie*\" uses the wrong case after \"mit\".",
       },
       {
         type: "listen-choose",
@@ -1739,10 +1739,10 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I've finished the work.' (I'm done with it)?",
         options: ["Ich bin mit der Arbeit fertig.", "Ich habe mit der Arbeit fertig.", "Ich bin mit die Arbeit fertig.", "Ich bin von der Arbeit fertig."],
         correctIndex: 0,
-        explanation: "\"Fertig sein mit\" + dative.",
+        explanation: "\"Fertig sein mit\" + dative: \"Ich bin mit der Arbeit fertig\". \"*Ich habe mit der Arbeit fertig*\" copies English have finished.",
       },
       {
         type: "word-order",
@@ -1900,10 +1900,10 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'Thank you for the present.' (formal)?",
         options: ["Ich danke Ihnen für das Geschenk.", "Ich danke Sie für das Geschenk.", "Ich danke Ihnen über das Geschenk.", "Ich bedanke Ihnen für das Geschenk."],
         correctIndex: 0,
-        explanation: "\"Danken\" + dative \"Ihnen\" + \"für\". \"Bedanken\" needs \"sich\" and \"bei\".",
+        explanation: "\"Danken\" takes the dative (\"Ihnen\") + \"für\". \"*Ich danke Sie*\" uses the accusative, and \"bedanken\" needs \"sich\" and \"bei\".",
       },
       {
         type: "listen-choose",
@@ -2045,10 +2045,10 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He got used to the climate.'?",
         options: ["Er hat sich an das Klima gewöhnt.", "Er ist sich an das Klima gewöhnt.", "Er hat sich an dem Klima gewöhnt.", "Er hat an das Klima sich gewöhnt."],
         correctIndex: 0,
-        explanation: "Reflexive verbs take \"haben\"; \"an\" + accusative; \"sich\" early.",
+        explanation: "Reflexive verbs take \"haben\", and \"sich gewöhnen an\" takes the accusative: \"an das Klima\" (or \"ans Klima\"). \"*Er ist sich ... gewöhnt*\" uses the wrong auxiliary.",
       },
       {
         type: "word-order",

@@ -2348,7 +2348,7 @@ export const KO_B1_U05: Lesson[] = [
         prompt: "Translate into Korean (polite; a café review).",
         source: "The latte in particular was strong and good.",
         answer: "특히 라테가 진하고 맛있더라고요.",
-        altAnswers: ["라테가 특히 진하고 맛있더라고요.", "특히 라떼가 진하고 맛있더라고요.", "라떼가 특히 진하고 맛있더라고요.", "특히 라테가 진하고 맛있데요.", "특히 라테가 진하고 맛있었어요."],
+        altAnswers: ["라테가 특히 진하고 맛있더라고요.", "특히 라떼가 진하고 맛있더라고요.", "라떼가 특히 진하고 맛있더라고요.", "특히 라테가 진하고 맛있데요.", "특히 라떼가 진하고 맛있데요.", "특히 라테가 진하고 맛있었어요.", "특히 라떼가 진하고 맛있었어요."],
         explanation: "진하다 'strong (of coffee)'; the official spelling is 라테, though 라떼 is everywhere on menus.",
       },
       {
@@ -2414,7 +2414,7 @@ export const KO_B1_U05: Lesson[] = [
         prompt: "Translate into Korean (polite; closing a review).",
         source: "I'll come again next time.",
         answer: "다음에 또 올게요.",
-        altAnswers: ["다음에 또 오겠습니다.", "다음에도 또 올게요.", "다음에 다시 올게요.", "또 올게요."],
+        altAnswers: ["다음에도 또 올게요.", "다음에 다시 올게요.", "또 올게요."],
         explanation: "-(으)ㄹ게요: a promise to the reader. Written 게, said [께].",
       },
       {

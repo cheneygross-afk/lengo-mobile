@@ -263,9 +263,9 @@ export const FR_B2_U26: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["C'est le seul ami qui me comprenne vraiment.", "C'est le seul ami qui me comprendrait vraiment.", "C'est le seul ami lequel me comprend vraiment.", "C'est le seul ami dont me comprend vraiment."],
+            options: ["C'est le seul ami qui me comprenne vraiment.", "C'est le seul ami que me comprenne vraiment.", "C'est le seul ami lequel me comprend vraiment.", "C'est le seul ami dont me comprend vraiment."],
             correctIndex: 0,
-            explanation: "After \"le seul\", the relative often takes the subjunctive (\"comprenne\"); \"comprend\" is also possible for a plain fact.",
+            explanation: "After \"le seul\", the relative often takes the subjunctive (\"comprenne\"); \"comprend\" is also possible for a plain fact. The friend is the subject of \"comprendre\", so the relative is \"qui\", never \"que\".",
           },
         ],
       },
@@ -476,7 +476,7 @@ export const FR_B2_U26: Lesson[] = [
         heading: "Se mettre à, finir par, arrêter de",
         body: [
           "Habits that started or stopped: \"il s'est mis à courir\" (he took up running), \"elle a arrêté de fumer\", \"il a fini par accepter\", \"elle s'est remise à peindre\" (she took up painting again). \"Se mettre à\" + a noun works too: \"il s'est mis au yoga\".",
-          "The -ir verbs of change are compact and very French: \"grandir\" (to grow up), \"vieillir\" (to age), \"grossir\" and \"maigrir\" (to put on / lose weight), \"rajeunir\" (to look younger), \"mûrir\" (to mature), \"s'enrichir\" (to get rich). \"Il a beaucoup mûri\" says in one verb what English says in four words.",
+          "The -ir verbs of change are compact and very French: \"grandir\" (to grow up), \"vieillir\" (to age), \"grossir\" and \"maigrir\" (to put on / lose weight), \"rajeunir\" (to look younger), \"mûrir\" (to mature), \"s'enrichir\" (to get rich). \"Il a beaucoup mûri\" is the natural way to say he's grown up a lot.",
           "And causative \"faire\": \"il s'est fait couper les cheveux\" (he had his hair cut), \"elle a fait refaire sa cuisine\". The participle \"fait\" never agrees before an infinitive.",
         ],
         examples: [
@@ -1084,7 +1084,7 @@ export const FR_B2_U26: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Je ne pense pas que ce soit une bonne idée.", "Je ne pense pas que c'est une bonne idée.", "Je ne pense pas que ce serait une bonne idée.", "Je pense pas qu'il soit une bonne idée."],
+            options: ["Je ne pense pas que ce soit une bonne idée.", "Je ne pense pas que c'est une bonne idée.", "Je ne pense pas que ça est une bonne idée.", "Je pense pas qu'il soit une bonne idée."],
             correctIndex: 0,
             explanation: "A negative opinion verb takes the subjunctive: \"que ce soit\".",
           },
@@ -2230,7 +2230,7 @@ export const FR_B2_U26: Lesson[] = [
           "Reported reactions: \"sa femme lui a demandé s'il était devenu fou\", \"son patron lui a dit qu'il le regretterait\".",
         ],
         examples: [
-          { es: "Un dimanche, en faisant du pain avec sa petite-fille, il a eu le déclic.", en: "One Sunday, while making bread with his granddaughter, it clicked." },
+          { es: "Un dimanche, en faisant du pain avec sa petite-fille, il a eu le déclic.", en: "One Sunday, while he was making bread with his granddaughter, something clicked." },
           { es: "Il s'est mis à faire du pain tous les week-ends.", en: "He started making bread every weekend." },
           { es: "Il a suivi une formation de boulanger le soir.", en: "He did a baker's training course in the evenings." },
           { es: "Sa femme lui a demandé s'il était devenu fou.", en: "His wife asked him if he'd gone mad." },

@@ -65,9 +65,9 @@ export const DELF_B2_CE: ExamPaper = {
           n: 4,
           question: "Qu'est-ce qu'Hélène apprécie dans sa coopérative ?",
           options: [
-            "Les nombreuses promotions.",
+            "Les nombreuses promotions proposées chaque semaine.",
             "L'absence de techniques pour pousser à la consommation.",
-            "Les horaires d'ouverture.",
+            "Les horaires d'ouverture, plus larges qu'ailleurs.",
           ],
           answer: 1,
           explanation: "« Personne ne cherche à me faire acheter plus que ce dont j'ai besoin » : ni promotions agressives ni têtes de gondole.",
@@ -150,9 +150,9 @@ export const DELF_B2_CE: ExamPaper = {
           n: 10,
           question: "Pourquoi l'auteur commence-t-il par un souvenir d'enfance ?",
           options: [
-            "Pour regretter l'imprudence de ses parents.",
+            "Pour regretter l'imprudence dont ses parents faisaient preuve.",
             "Pour montrer l'écart entre la liberté d'hier et la surveillance d'aujourd'hui.",
-            "Pour expliquer pourquoi il est devenu cycliste.",
+            "Pour expliquer pourquoi il est devenu un cycliste passionné.",
           ],
           answer: 1,
           explanation: "Il oppose sa liberté passée à la situation actuelle, où « nos enfants grandissent sous surveillance ».",

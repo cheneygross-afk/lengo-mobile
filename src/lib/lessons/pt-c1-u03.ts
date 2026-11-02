@@ -109,7 +109,7 @@ export const PT_C1_U03: Lesson[] = [
         examples: [
           { es: "Os resultados indicam que a renda familiar influencia o desempenho escolar.", en: "The results indicate that family income influences school performance." },
           { es: "Os dados apontam para uma queda no consumo de água em Curitiba.", en: "The data point to a fall in water consumption in Curitiba." },
-          { es: "A análise revela que poucos municípios cumprem a meta de reciclagem.", en: "The analyzis reveals that few municipalities meet the recycling target." },
+          { es: "A análise revela que poucos municípios cumprem a meta de reciclagem.", en: "The analysis reveals that few municipalities meet the recycling target." },
           { es: "Conclui-se que o programa reduziu a evasão em escolas rurais.", en: "It is concluded that the program reduced dropout in rural schools." },
           { es: "Os resultados permitem concluir que a formação continuada dos professores é decisiva.", en: "The results allow us to conclude that ongoing teacher training is decisive." },
         ],
@@ -257,7 +257,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The analyzis reveals that few municipalities meet the target.",
+        source: "The analysis reveals that few municipalities meet the target.",
         answer: "A análise revela que poucos municípios cumprem a meta.",
         altAnswers: ["A análise revela que poucos municípios atingem a meta.", "A análise revela que poucos municípios alcançam a meta.", "A análise mostra que poucos municípios cumprem a meta."],
         explanation: "\"Revelar que\" asserts a finding, so the clause takes the indicative: \"cumprem\".",
@@ -271,7 +271,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "speak",
         text: "O presente estudo tem como objetivo analisar a evasão escolar.",
         prompt: "Say it in Portuguese: This study aims to analyze school dropout.",
-        tip: "In \"objetivo\" Brazilians slip a soft i after the b (o-bi-je-TCHI-vu), the t before i sounds like ch, and the final o sounds like u. The final e of \"presente\" sounds like i, so its t also becomes ch (pre-ZẼN-tchi).",
+        tip: "In \"objetivo\" Brazilians slip a soft ee after the b, the t before i sounds like ch, and the final o sounds like oo: o-bee-zhe-CHEE-voo. The final e of \"presente\" sounds like ee, so its t also becomes ch: pre-ZẼN-chee.",
         explanation: "The standard opening move: the work as subject, \"tem como objetivo\" + infinitive.",
       },
       {
@@ -786,7 +786,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "speak",
         text: "Conforme aponta Lima, o problema ainda é pouco estudado.",
         prompt: "Say it in Portuguese: As Lima points out, the problem is still little studied.",
-        tip: "Make the stressed syllable of \"ainda\" nasal (a-ĨN-da), and stress a-PON-ta.",
+        tip: "Make the stressed syllable of \"ainda\" nasal (a-ĨN-da), and stress a-PÕN-ta.",
         explanation: "\"Conforme aponta Lima\": with \"conforme\" + reporting verb, the name usually comes after the verb.",
       },
       {
@@ -1065,7 +1065,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "speak",
         text: "No que tange à saúde pública, os resultados são preocupantes.",
         prompt: "Say it in Portuguese: Regarding public health, the results are worrying.",
-        tip: "In \"tange\" the vowel is a nasal ã, the g sounds like the s in pleasure, and the final e sounds like i: TÃ-ji. The crase \"à\" is a single a, not a doubled one.",
+        tip: "In \"tange\" the vowel is a nasal ã, the g sounds like the s in pleasure, and the final e sounds like ee: TÃN-zhee. The crase \"à\" is a single a, not a doubled one.",
         explanation: "\"No que tange à saúde\": the phrase's \"a\" plus the article of \"saúde\" gives the crase.",
       },
       {
@@ -1336,7 +1336,7 @@ export const PT_C1_U03: Lesson[] = [
         question: "What does it mean?",
         options: [
           "A downward trend in enrollments can be observed.",
-          "Enrolments must be checked for a downward trend.",
+          "Enrollments must be checked for a downward trend.",
           "We verified that enrollments are rising.",
           "A downward trend in enrollments was predicted.",
         ],
@@ -1914,7 +1914,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "speak",
         text: "Obrigada pela pergunta, professora.",
         prompt: "Say it in Portuguese (you're a woman, speaking to a female examiner): Thank you for the question, professor.",
-        tip: "Stress pro-fe-SSO-ra with a closed ô, and make the r in \"professora\" a quick tap.",
+        tip: "Stress pro-fe-SÔ-ra with a closed ô, and make the r in \"professora\" a quick tap.",
         explanation: "A woman says \"obrigada\". \"Por\" + \"a pergunta\" contracts to \"pela pergunta\".",
       },
       {
@@ -2088,7 +2088,7 @@ export const PT_C1_U03: Lesson[] = [
           {
             type: "speak",
             text: "Entendemos que a política precisa de ajustes.",
-            tip: "In \"política\" the t before i sounds like the ch in cheese: po-LÍ-tchi-ca.",
+            tip: "In \"política\" the t before i sounds like the ch in cheese: po-LÍ-chee-ka.",
             explanation: "The nós de modéstia, \"entendemos que\", is the academic way to take a position without saying \"eu acho\".",
           },
         ],
@@ -2260,7 +2260,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "speak",
         text: "Conforme aponta Ribeiro, o tema ainda é pouco estudado.",
         prompt: "Say it in Portuguese: As Ribeiro points out, the topic is still under-researched.",
-        tip: "Keep the é open, like the e in bed, and make the final -do in estudado sound like du.",
+        tip: "Keep the é open, like the e in bed, and make the final -do in estudado sound like doo.",
         explanation: "\"Conforme aponta X\" plus a comma and the claim, with no \"que\" after the verb.",
       },
       {
@@ -2531,7 +2531,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "speak",
         text: "Nesse sentido, o presente estudo busca preencher essa lacuna.",
         prompt: "Say it in Portuguese: In this sense, the present study seeks to fill this gap.",
-        tip: "The t in \"sentido\" comes before i, so it sounds close to ch. Final -o is a soft u: sen-CHI-du.",
+        tip: "The t in \"sentido\" comes before i, so it sounds close to ch. Final -o is a soft oo: sẽ-CHEE-doo.",
         explanation: "This is the classic closing move. \"Preencher uma lacuna\" (to fill a gap) links the review to your own research.",
       },
       {
@@ -2674,7 +2674,7 @@ export const PT_C1_U03: Lesson[] = [
           "Reviewers circle three anglicisms. The first is \"endereçar\" for 'address a problem': say \"abordar\", \"tratar de\" or \"enfrentar\". The second is \"evidenciar\" for every 'show', where \"mostrar\", \"indicar\" and \"demonstrar\" fit most contexts. The third is \"onde\" for any link, when it belongs to places. For a theory, a period or a study, use \"em que\" or \"no qual\".",
         ],
         examples: [
-          { es: "A análise dos dados revelou diferenças significativas entre as regiões.", en: "The analyzis of the data revealed significant differences between the regions." },
+          { es: "A análise dos dados revelou diferenças significativas entre as regiões.", en: "The analysis of the data revealed significant differences between the regions." },
           { es: "O estudo aborda o problema da mobilidade urbana em São Paulo.", en: "The study addresses the problem of urban mobility in São Paulo." },
           { es: "Neste artigo, propomos uma releitura do conceito de cidadania.", en: "In this article, we propose a rereading of the concept of citizenship." },
           { es: "A pesquisa em que nos baseamos foi realizada em 2018.", en: "The research we draw on was carried out in 2018." },
@@ -2835,7 +2835,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "speak",
         text: "Em certa medida, os achados confirmam a hipótese.",
         prompt: "Say it in Portuguese: To some extent, the findings confirm the hypothesis.",
-        tip: "The e in \"certa\" is open, like the e in bed; stress hi-PÓ-te-se on the second syllable.",
+        tip: "The e in \"certa\" is open, like the e in bed; the h of \"hipótese\" is silent and the s between vowels sounds like z: ee-PÓ-te-zee, stressed on the second syllable.",
         explanation: "\"Em certa medida\" softens the claim, and \"achados\" is the standard academic word for findings.",
       },
     ],

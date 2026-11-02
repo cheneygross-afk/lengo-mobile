@@ -150,7 +150,7 @@ export const PT_B2_U16_EXTRA: Lesson[] = [
         type: "speak",
         text: "Se eu tivesse sabido, teria ido.",
         prompt: "Say it in Portuguese: If I had known, I would have gone.",
-        tip: "Sabido: sa-BI-du.",
+        tip: "Sabido: 'sa-BEE-doo'.",
         explanation: "Past unreal condition: \"se\" + \"tivesse\" + participle, then \"teria\" + participle: \"se eu tivesse sabido, teria ido\".",
       },
       {
@@ -313,7 +313,7 @@ export const PT_B2_U16_EXTRA: Lesson[] = [
         type: "speak",
         text: "Houve muitas mudanças este ano.",
         prompt: "Say it in Portuguese: There were many changes this year.",
-        tip: "Mudanças: mu-DÃ-sas.",
+        tip: "Mudanças: 'moo-DÃ-sas'.",
         explanation: "Impersonal \"haver\" stays singular: \"houve muitas mudanças\", never \"houveram\".",
       },
       {
@@ -351,8 +351,8 @@ export const PT_B2_U16_EXTRA: Lesson[] = [
           { es: "Além disso, a poluição causa doenças.", en: "Moreover, pollution causes illness." },
           { es: "Embora alguns afirmem que o metrô é caro, ele é eficiente.", en: "Although some claim the subway is expensive, it's efficient." },
           { es: "Portanto, cabe ao poder público investir em transporte.", en: "Therefore, it is up to the authorities to invest in transportation." },
-          { es: "Oi, gente! Bora de metrô amanhã?", en: "Hi, everyone! Shall we take the subway tomorrow?" },
-          { es: "Prezados, venho por meio desta solicitar informações.", en: "Dear Sirs, I am writing to request information." },
+          { es: "Oi, gente! Bora de metrô amanhã?", en: "Hi, everyone! Should we take the subway tomorrow?" },
+          { es: "Prezados, venho por meio desta solicitar informações.", en: "Dear all, I am writing to request information." },
         ],
         checkpoint: [
           {
@@ -480,7 +480,7 @@ export const PT_B2_U16_EXTRA: Lesson[] = [
         type: "speak",
         text: "É inegável que a educação transforma vidas.",
         prompt: "Say it in Portuguese: It's undeniable that education transforms lives.",
-        tip: "Inegável: i-ne-GA-veu.",
+        tip: "Inegável: 'ee-ne-GA-vew'.",
         explanation: "\"É inegável que\" opens a thesis, and the verb after it is indicative: \"transforma\".",
       },
       {

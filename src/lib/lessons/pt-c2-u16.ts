@@ -331,7 +331,7 @@ export const PT_C2_U16: Lesson[] = [
           { es: "Glauber Rocha queria uma câmera na mão e uma ideia na cabeça.", en: "Glauber Rocha wanted a camera in hand and an idea in his head." },
           { es: "Em Vidas Secas, a luz estourada do sertão é quase um personagem.", en: "In Vidas Secas, the blown-out light of the sertão is almost a character." },
           { es: "A retomada começou numa década em que o cinema brasileiro quase acabou.", en: "The retomada began in a decade in which Brazilian cinema almost came to an end." },
-          { es: "Central do Brasil se passa numa estação pela qual a cidade inteira passa", en: "Central do Brasil takes place in a station that the whole city passes through." },
+          { es: "Central do Brasil se passa numa estação pela qual a cidade inteira passa.", en: "Central do Brasil takes place in a station that the whole city passes through." },
           { es: "Cidade de Deus é um filme cujo protagonista é a própria favela.", en: "Cidade de Deus is a film whose protagonist is the favela itself." },
         ],
         checkpoint: [
@@ -407,7 +407,7 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Fernanda Torres interpreta uma dor que quase nunca aparece no rosto.",
-            tip: "\"Rosto\" has a closed ô: RÔS-to.",
+            tip: "\"Rosto\" has a closed ô: RÔS-too.",
             explanation: "\"Interpretar\" is to play a role; the relative clause carries the analysis.",
           },
         ],
@@ -524,7 +524,7 @@ export const PT_C2_U16: Lesson[] = [
         type: "speak",
         text: "Cidade de Deus é um filme cujo protagonista é a própria favela.",
         prompt: "Say it in Portuguese: Cidade de Deus is a film whose protagonist is the favela itself.",
-        tip: "\"Cujo\" is KU-zhu, with the j as in pleasure.",
+        tip: "\"Cujo\" is KOO-zhoo, with the j as in pleasure.",
         explanation: "\"Cujo\" without an article, agreeing with \"protagonista\".",
       },
     ],
@@ -630,7 +630,7 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Os corpos magros e os olhos enormes fazem da tela uma denúncia social.",
-            tip: "\"Corpos\" and \"olhos\" both open their ô to ó in the plural: CÓR-pos, Ó-lhos.",
+            tip: "\"Corpos\" and \"olhos\" both open their ô to ó in the plural: CÓR-poos, Ó-lhoos.",
             explanation: "\"Fazer de algo uma coisa\" is to make something into something.",
           },
         ],
@@ -868,7 +868,7 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "A batida de João Gilberto comprimiu o samba num sussurro.",
-            tip: "\"Sussurro\": the double s is a plain s sound, the double r a throaty h: su-SSU-hu.",
+            tip: "\"Sussurro\": the double s is a plain s sound, the double r a throaty h: su-SSU-hoo.",
             explanation: "\"Batida\" here is the rhythmic pattern of the guitar, not a drink.",
           },
         ],
@@ -1362,7 +1362,7 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Talvez fosse o caso de cortar vinte minutos.",
-            tip: "\"Fosse\" has a closed ô: FÔ-ssi.",
+            tip: "\"Fosse\" has a closed ô: FÔ-see.",
             explanation: "A suggestion phrased as a hypothesis, with the imperfect subjunctive after \"talvez\".",
           },
         ],
@@ -1510,7 +1510,7 @@ export const PT_C2_U16: Lesson[] = [
         type: "speak",
         text: "Não chega a ser um fracasso, mas está longe de convencer.",
         prompt: "Say it in Portuguese: It isn't quite a failure, but it's far from convincing.",
-        tip: "\"Fracasso\" has the double s: fra-CA-ssu.",
+        tip: "\"Fracasso\" has the double s: fra-CA-soo.",
         explanation: "A balanced verdict built from two litotes.",
       },
     ],
@@ -1614,7 +1614,7 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "É um filme incômodo, no melhor sentido.",
-            tip: "\"Incômodo\" has a closed ô: in-CÔ-mo-do.",
+            tip: "\"Incômodo\" has a closed ô: in-CÔ-mo-doo.",
             explanation: "\"No melhor sentido\" removes any doubt that the discomfort is praise.",
           },
         ],
@@ -1751,7 +1751,7 @@ export const PT_C2_U16: Lesson[] = [
         type: "speak",
         text: "Ninguém sai ileso da última cena.",
         prompt: "Say it in Portuguese: Nobody comes out of the last scene unscathed.",
-        tip: "\"Ileso\" is usually given with a closed ê and a z sound, i-LÊ-zu; an open é (i-LÉ-zu) is also widely heard.",
+        tip: "\"Ileso\" is usually given with a closed ê and a z sound, i-LÊ-zoo; an open é (i-LÉ-zoo) is also widely heard.",
         explanation: "Harsh-sounding words that praise a film's power.",
       },
     ],
@@ -1857,7 +1857,7 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Com todo o respeito, isso é ler o filme que você queria ver.",
-            tip: "\"Respeito\" has a closed ê and the diphthong ei: res-PEI-to.",
+            tip: "\"Respeito\" has a closed ê and the diphthong ei: res-PEI-too.",
             explanation: "\"Com todo o respeito\" softens a sharp point; it's often followed by a real blow.",
           },
         ],
@@ -1883,7 +1883,7 @@ export const PT_C2_U16: Lesson[] = [
             source: "'It's worth the ticket, if only for the cinematography.'",
             answer: "— Vale o ingresso, nem que seja pela fotografia.",
             altAnswers: ["— Vale o ingresso, nem que seja só pela fotografia.", "— Vale o ingresso, nem que seja só por causa da fotografia.", "— Vale o ingresso, pelo menos pela fotografia.", "— Vale o ingresso, nem que seja por causa da fotografia."],
-            explanation: "\"Nem que seja\" (even if it's only) takes the subjunctive. A cinema ticket is \"ingresso\".",
+            explanation: "\"Nem que seja\" (even if it's only) takes the subjunctive. A movie ticket is \"ingresso\".",
           },
           {
             type: "fill-blank",
@@ -1998,7 +1998,7 @@ export const PT_C2_U16: Lesson[] = [
         type: "speak",
         text: "Aí eu discordo: o silêncio é justamente a força do filme.",
         prompt: "Say it in Portuguese: That's where I disagree: the silence is precisely the film's strength.",
-        tip: "Stress \"discordo\" on the middle syllable: dis-CÓR-do.",
+        tip: "Stress \"discordo\" on the middle syllable: jees-CÓR-doo.",
         explanation: "Disagreement with a reason, the backbone of a good debate.",
       },
     ],
@@ -2132,7 +2132,7 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Cada cena prepara a última, sem que o espectador perceba.",
-            tip: "\"Perceba\" has an open é: per-CÉ-ba.",
+            tip: "\"Perceba\" has a closed ê: per-SÊ-ba.",
             explanation: "\"Sem que\" takes the subjunctive: \"perceba\".",
           },
         ],
@@ -2273,7 +2273,7 @@ export const PT_C2_U16: Lesson[] = [
         examples: [
           { es: "Direção: Walter Salles. Elenco: Fernanda Torres, Selton Mello, Fernanda Montenegro.", en: "Directed by Walter Salles. Cast: Fernanda Torres, Selton Mello, Fernanda Montenegro." },
           { es: "Roteiro: Murilo Hauser e Heitor Lorega, a partir do livro de Marcelo Rubens Paiva.", en: "Screenplay: Murilo Hauser and Heitor Lorega, based on the book by Marcelo Rubens Paiva." },
-          { es: "Onde ver: nos cinemas e, em breve, no streaming.", en: "Where to watch: in theaters and soon on streaming." },
+          { es: "Onde ver: nas plataformas de streaming.", en: "Where to watch: on streaming platforms." },
           { es: "Fernanda Torres sustenta, quase em silêncio, um filme sobre a ausência.", en: "Fernanda Torres carries, almost in silence, a film about absence." },
           { es: "Cotação: ótimo.", en: "Rating: excellent." },
         ],
@@ -2387,7 +2387,7 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Não por acaso, tem a mesma atriz no centro: mãe e filha.",
-            tip: "\"Acaso\": the s between vowels sounds like z, a-CA-zo.",
+            tip: "\"Acaso\": the s between vowels sounds like z, a-CA-zoo.",
             explanation: "A fact turned into an idea: the closing move of a good column.",
           },
         ],
@@ -2766,6 +2766,6 @@ export const PT_C2_U16_WRITING: WriteExercise = {
     "Builds analysis with apposition and relative clauses (\"cujo\", \"no qual\", \"em que\") and makes at least one concession with the subjunctive (\"ainda que\", \"embora\", \"por mais que\").",
     "Ends with a hedged or nuanced verdict using the conditional or the imperfect subjunctive (\"seria injusto dizer que\", \"caberia perguntar se\", \"talvez fosse o caso de\"), with no calques (\"*entrega\", \"*performa\") and with \"assistir ao\" in the written norm.",
   ],
-  modelAnswer: "A casa que se fecha\n\nFernanda Torres sustenta, quase em silêncio, um filme sobre a ausência.\n\nHá filmes que gritam a dor; \"Ainda Estou Aqui\" prefere guardá-la. O novo longa de Walter Salles, adaptado do livro de Marcelo Rubens Paiva, acompanha Eunice Paiva, mãe de cinco filhos e mulher do ex-deputado Rubens Paiva, levado de casa pelo regime militar em 1971. O tema poderia render um melodrama de denúncia. Salles faz o contrário: filma a falta.\n\nO primeiro ato é luminoso. A casa no Leblon, cujas janelas vivem abertas para o mar, é um lugar de música, de amigos, de crianças correndo com areia nos pés. Quando os agentes chegam, a câmera não sai dali, e a casa, aos poucos, se fecha: as cortinas descem, a vitrola se cala, os cômodos ficam grandes demais. É uma solução de direção nada desprezível, porque transforma um cenário em personagem.\n\nNo centro de tudo está Fernanda Torres, numa atuação contida e devastadora. Eunice quase nunca chora diante dos filhos; a dor aparece num sorriso que dura um segundo a mais, numa xícara que ela deixa esfriar. Seria injusto dizer que o filme depende só dela, mas é difícil imaginá-lo com outra atriz.\n\nAinda que o segmento final resvale no didatismo, com legendas que explicam o que o espectador já entendeu, ele não chega a comprometer o conjunto. Caberia perguntar, talvez, se o filme precisava de tantos anos de epílogo; por outro lado, é ali que aparece Fernanda Montenegro, e a presença de mãe e filha no mesmo papel dá à história uma rima que nenhum roteiro inventaria.\n\nQuem assistir ao filme esperando uma aula de história vai encontrar outra coisa: um retrato íntimo de como uma família sobrevive ao desaparecimento. É, sem exagero, o filme brasileiro mais importante desde \"Central do Brasil\". Vale o ingresso, e vale o silêncio na saída.",
+  modelAnswer: "A casa que se fecha\n\nFernanda Torres sustenta, quase em silêncio, um filme sobre a ausência.\n\nHá filmes que gritam a dor; \"Ainda Estou Aqui\" prefere guardá-la. O longa de Walter Salles, adaptado do livro de Marcelo Rubens Paiva, acompanha Eunice Paiva, mãe de cinco filhos e mulher do ex-deputado Rubens Paiva, levado de casa pelo regime militar em 1971. O tema poderia render um melodrama de denúncia. Salles faz o contrário: filma a falta.\n\nO primeiro ato é luminoso. A casa no Leblon, cujas janelas vivem abertas para o mar, é um lugar de música, de amigos, de crianças correndo com areia nos pés. Quando os agentes chegam, a câmera não sai dali, e a casa, aos poucos, se fecha: as cortinas descem, a vitrola se cala, os cômodos ficam grandes demais. É uma solução de direção nada desprezível, porque transforma um cenário em personagem.\n\nNo centro de tudo está Fernanda Torres, numa atuação contida e devastadora. Eunice quase nunca chora diante dos filhos; a dor aparece num sorriso que dura um segundo a mais, numa xícara que ela deixa esfriar. Seria injusto dizer que o filme depende só dela, mas é difícil imaginá-lo com outra atriz.\n\nAinda que o segmento final resvale no didatismo, com legendas que explicam o que o espectador já entendeu, ele não chega a comprometer o conjunto. Caberia perguntar, talvez, se o filme precisava de tantos anos de epílogo; por outro lado, é ali que aparece Fernanda Montenegro, e a presença de mãe e filha no mesmo papel dá à história uma rima que nenhum roteiro inventaria.\n\nQuem assistir ao filme esperando uma aula de história vai encontrar outra coisa: um retrato íntimo de como uma família sobrevive ao desaparecimento. É, sem exagero, o filme brasileiro mais importante desde \"Central do Brasil\". Vale cada minuto, e vale o silêncio depois dos créditos.",
   explanation: "The model keeps the commentary in the present (\"acompanha\", \"filma\", \"se fecha\", \"sustenta\") and the facts in the past (\"levado de casa... em 1971\"). Its evaluative words are precise (\"contida\", \"devastadora\", \"luminoso\", \"didatismo\"), with a litotes (\"nada desprezível\") and a softened negative (\"não chega a comprometer\"). Apposition (\"mãe de cinco filhos e mulher do ex-deputado...\") and a relative with \"cujas\" fold context into the analysis, and the concession \"Ainda que o segmento final resvale\" takes the subjunctive. The hedges \"Seria injusto dizer que\" and \"Caberia perguntar, talvez, se\" frame a clear verdict, signaled by \"sem exagero\". Feelings are shown through details (\"um sorriso que dura um segundo a mais\", \"uma xícara que ela deixa esfriar\"), the opening antithesis announces the argument, the plot stops before the ending, and \"assistir ao filme\" follows the written norm.",
 };

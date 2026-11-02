@@ -802,7 +802,7 @@ export const FR_B1_U27: Lesson[] = [
       {
         heading: "Part 3: who's invited",
         body: [
-          "\"Tu invites qui ?\" Here the friends get franker. Maxime: \"Pas Marc, il est chiant.\" \"Chiant\" (annoying, boring) is very common but vulgar: use it only with close friends, never at work. Neutral alternatives: \"pénible\", \"ennuyeux\", \"lourd\" (annoying).",
+          "\"Tu invites qui ?\" Here the friends get franker. Maxime: \"Pas Marc, il est chiant.\" \"Chiant\" (annoying, boring) is very common but vulgar: use it only with close friends, never at work. Milder alternatives: \"pénible\" (annoying) and \"ennuyeux\" (boring) are neutral; \"lourd\" (annoying) is familiar but not vulgar.",
           "Julie wraps up: \"Bon, on dit 20 h, ça marche ?\" — \"Ça marche !\". \"Bon\" moves to a conclusion, \"ça marche\" agrees.",
         ],
         examples: [

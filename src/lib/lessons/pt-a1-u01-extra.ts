@@ -187,7 +187,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
           { left: "Desculpa.", right: "Sorry." },
           { left: "Por favor.", right: "Please." },
         ],
-        explanation: "These polite chunks never change. Only \"obrigado\" / \"obrigada\" changes, to match the speaker.",
+        explanation: "These polite chunks never change. Only \"obrigado\" or \"obrigada\" changes, to match the speaker.",
       },
     ],
   },
@@ -204,7 +204,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
         heading: "Four forms, and ser de",
         body: [
           "Most nationalities have four forms: \"brasileiro\" (a man), \"brasileira\" (a woman), \"brasileiros\" (men, or a mixed group), \"brasileiras\" (only women). The ones in -ês drop the accent when they grow: \"inglês\", \"inglesa\", \"ingleses\", \"inglesas\". \"Canadense\" has just two forms, \"canadense\" and \"canadenses\". All of them take a small letter.",
-          "For where someone is from, use \"ser de\". Most cities take plain \"de\": \"sou de Recife\". Most countries join \"de\" to their article: \"sou do Brasil\", \"sou da França\", \"somos dos Estados Unidos\". \"Sou de Portugal\" has no article. Among cities, Rio is the exception: \"sou do Rio\".",
+          "For where someone is from, use \"ser de\". Most cities take plain \"de\": \"sou de Recife\". Most countries join \"de\" to their article: \"sou do Brasil\", \"sou da França\", \"somos dos Estados Unidos\". \"Sou de Portugal\" has no article. Among Brazilian cities, Rio is the best-known exception: \"sou do Rio\".",
         ],
         examples: [
           { es: "Ela é brasileira, de Salvador.", en: "She's Brazilian, from Salvador." },
@@ -358,7 +358,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu sou americana, dos Estados Unidos.",
         prompt: "Say it in Portuguese: I'm American, from the United States. (as a woman)",
-        tip: "Stress 'es-TAH-doos oo-NEE-doos', and let the final o sound like a short u.",
+        tip: "Say 'es-TAH-doos oo-NEE-doos', with each final o as a short oo.",
         explanation: "\"Americana\" for a woman, and \"dos Estados Unidos\" because the country is masculine plural.",
       },
       {
@@ -551,7 +551,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Somos de Belo Horizonte.",
-        explanation: "\"Somos\" already means we are, so \"nós\" is dropped. The final -e of \"Horizonte\" sounds like chi in most of Brazil.",
+        explanation: "\"Somos\" already means we are, so \"nós\" is dropped. In most of Brazil the final -te of \"Horizonte\" sounds like 'chee': 'oh-ree-ZÕ-chee'.",
       },
       {
         type: "listen-choose",
@@ -565,7 +565,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "Oi! Meu nome é Ana, sou brasileira e sou enfermeira.",
         prompt: "Say it in Portuguese: Hi! My name is Ana, I'm Brazilian and I'm a nurse.",
-        tip: "The final -e of \"nome\" sounds like a short i, but \"é\" is open and stressed.",
+        tip: "The final -e of \"nome\" is a short ee ('NÔ-mee'), but \"é\" is open and stressed.",
         explanation: "This is a full introduction: greeting, name, nationality and job, with \"sou\" and no article before \"enfermeira\".",
       },
       {
@@ -596,7 +596,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
       {
         heading: "Você or o senhor: a quick recap",
         body: [
-          "\"Você\" is the everyday you for friends, classmates, colleagues and people your age. \"O senhor\" (to a man) and \"a senhora\" (to a woman) show respect to older people, customers and strangers in formal settings. For several people: \"vocês\", or \"os senhores\" / \"as senhoras\" to be polite.",
+          "\"Você\" is the everyday you for friends, classmates, colleagues and people your age. \"O senhor\" (to a man) and \"a senhora\" (to a woman) show respect to older people, customers and strangers in formal settings. For several people: \"vocês\", or \"os senhores\" or \"as senhoras\" to be polite.",
           "The singular ones take the ele/ela form of the verb (\"você é\", \"o senhor é\", \"a senhora é\"), and the plural ones take the eles/elas form (\"vocês são\", \"os senhores são\"). Don't match the verb to English you: \"o senhor são\" and \"você sou\" are always wrong.",
           "With a first name, \"seu\" (to a man) and \"Dona\" (to a woman) add the same respect: \"seu Antônio\", \"Dona Maria\".",
         ],

@@ -185,10 +185,10 @@ export const DE_B1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The man I know is a teacher.'?",
         options: ["Der Mann, den ich kenne, ist Lehrer.", "Der Mann, ich kenne, ist Lehrer.", "Der Mann, wer ich kenne, ist Lehrer.", "Der Mann, den ich kenne ist Lehrer."],
         correctIndex: 0,
-        explanation: "The pronoun can't be dropped, \"wer\" is wrong, and a comma closes the clause.",
+        explanation: "German never drops the relative pronoun: \"den\" (accusative, I know him), with a comma on both sides. \"*Der Mann, ich kenne*\" copies the English, which can leave it out.",
       },
       {
         type: "word-order",
@@ -1341,10 +1341,10 @@ export const DE_B1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say 'I passed the exam.'?",
         options: ["Ich habe die Prüfung bestanden.", "Ich bin die Prüfung bestanden.", "Ich habe durchgefallen.", "Ich bin die Prüfung durchgefallen."],
         correctIndex: 0,
-        explanation: "\"Bestehen\" + \"haben\" + accusative; \"durchfallen\" + \"sein\", no object (\"durch die Prüfung fallen\").",
+        explanation: "\"Bestehen\" takes \"haben\" and a direct object: \"Ich habe die Prüfung bestanden\". \"*Ich bin die Prüfung durchgefallen*\" means failed, and \"durchfallen\" takes \"sein\" and no object (\"durch die Prüfung fallen\").",
       },
       {
         type: "word-order",
@@ -1763,10 +1763,10 @@ export const DE_B1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is punctuated correctly?",
+            question: "How do you write 'The film we saw was good.'?",
             options: ["Der Film, den wir gesehen haben, war gut.", "Der Film den wir gesehen haben war gut.", "Der Film, den wir gesehen haben war gut.", "Der Film den wir gesehen haben, war gut."],
             correctIndex: 0,
-            explanation: "A comma before and after the relative clause.",
+            explanation: "A relative clause has a comma before and after it. \"*Der Film, den wir gesehen haben war gut*\" forgets the closing comma.",
           },
         ],
       },
@@ -1841,10 +1841,10 @@ export const DE_B1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The people who own the house are nice.'?",
         options: ["Die Leute, denen das Haus gehört, sind nett.", "Die Leute, den das Haus gehört, sind nett.", "Die Leute, die das Haus gehört, sind nett.", "Die Leute, deren das Haus gehört, sind nett."],
         correctIndex: 0,
-        explanation: "\"Gehören\" + dative plural: \"denen\".",
+        explanation: "\"Gehören\" takes the dative, and the dative plural relative pronoun is \"denen\". \"*die*\" would be nominative or accusative.",
       },
       {
         type: "word-order",

@@ -1112,7 +1112,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
         ],
         examples: [
           { pt: "Moro em Curitiba há cinco anos.", en: "I've lived in Curitiba for five years." },
-          { pt: "O resultado sai daqui a duas semanas.", en: "The result comes out in two weeks' time." },
+          { pt: "O resultado sai daqui a duas semanas.", en: "The result comes out in two weeks." },
           { pt: "A praia fica a dez minutos daqui.", en: "The beach is ten minutes from here." },
           { pt: "A partir de segunda, o horário muda.", en: "Starting Monday, the schedule changes." },
         ],
@@ -1254,7 +1254,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "Gostaria de solicitar o cancelamento da minha assinatura.", en: "I would like to request the cancellation of my subscription." },
-          { pt: "Informamos que a agência estará fechada no feriado.", en: "Please note that the branch will be closed on the public holiday." },
+          { pt: "Informamos que a agência estará fechada no feriado.", en: "Please note that the branch will be closed on the holiday." },
           { pt: "Encaminho em anexo os documentos solicitados.", en: "Please find attached the documents requested." },
         ],
       },
@@ -1372,8 +1372,8 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Sounds: s, r, t and d, open vowels`,
         body: [
-          `The chiado: in Rio (and in Belém, Florianópolis and parts of the Northeast) "s" at the end of a syllable sounds like English sh: "festa" sounds like 'fesh-ta', "mesmo" like 'mej-mu'. In São Paulo and most of the country it stays a plain s. The r: at the start of a word and as "rr", most Brazilians use a sound like English h ("Rio" sounds like 'Hee-oo', "carro" like 'ca-hu'). At the end of a syllable, the interior of São Paulo, Goiás, Paraná and parts of Minas use the caipira r, close to an American r ("porta", "interior"); in the South, a tapped or trilled r is common.`,
-          `T and d before an i sound become 'tch' and 'dj' in most of Brazil: "tia" sounds like 'tchia', "dia" like 'djia', "leite" like 'leitchi'. Much of the Northeast keeps a plain t and d, and Curitiba is known for a clear final "e" ('leite' with an e). Northeastern speakers also open vowels before the stress: "Recife" with an open e, "colégio" with an open o.`,
+          `The chiado: in Rio (and in Belém, Florianópolis and parts of the Northeast) "s" at the end of a syllable sounds like English sh: "festa" sounds like 'FESH-ta', "mesmo" like 'MEZH-moo'. In São Paulo and most of the country it stays a plain s. The r: at the start of a word and as "rr", most Brazilians use a sound like English h ("Rio" sounds like 'HEE-oo', "carro" like 'KAH-hoo'). At the end of a syllable, the interior of São Paulo, Goiás, Paraná and parts of Minas use the caipira r, close to an American r ("porta", "interior"); in the South, a tapped or trilled r is common.`,
+          `T and d before an i sound become ch and j in most of Brazil: "tia" sounds like 'CHEE-a', "dia" like 'JEE-a', "leite" like 'LAY-chee'. Much of the Northeast keeps a plain t and d, and Curitiba is known for a clear final "e" ('leite' with an e). Northeastern speakers also open vowels before the stress: "Recife" with an open e, "colégio" with an open o.`,
         ],
         table: {
           headers: ["Feature", "Where", "Example"],
@@ -1381,7 +1381,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
             ["chiado: s as sh", "Rio, Belém, Florianópolis", "festa, três, mesmo"],
             ["h-like r at the start", "most of Brazil", "Rio, rua, carro"],
             ["caipira r", "interior of São Paulo, Goiás, Paraná, parts of Minas", "porta, interior, mar"],
-            ["t and d as tch, dj", "most of Brazil", "tia, dia, leite, cidade"],
+            ["t and d as ch, j", "most of Brazil", "tia, dia, leite, cidade"],
             ["plain t and d", "much of the Northeast", "tia, dia"],
             ["open pre-stress vowels", "Northeast", "Recife, colégio, pequeno"],
           ],
@@ -1508,7 +1508,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
             ["o rádio", "radio set", "a rádio", "radio station"],
             ["o moral", "morale", "a moral", "morals, moral of a story"],
             ["o caixa", "cashier, checkout", "a caixa", "box"],
-            ["o cura", "parish priest (rare in Brazil)", "a cura", "cure"],
+            ["o cisma", "schism, split", "a cisma", "a nagging suspicion, a fixation"],
           ],
         },
         examples: [
@@ -1579,7 +1579,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Nossa, que carrão!", en: "Wow, what a car!" },
           { pt: "Só um minutinho, já te atendo.", en: "Just a moment, I'll be right with you." },
           { pt: "Foi um filminho bobo, mas a gente riu muito.", en: "It was a silly little movie, but we laughed a lot." },
-          { pt: "Com um jeitinho, a gente resolve.", en: "We'll sort it out somehow." },
+          { pt: "Com um jeitinho, a gente resolve.", en: "We'll figure something out." },
         ],
       },
     ],
@@ -1664,7 +1664,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           rows: [
             ["dar certo, dar errado", "work out, go wrong", "Tomara que dê certo!"],
             ["dá pra, não dá", "it's possible, it's not", "Não dá pra chegar antes das oito."],
-            ["dar um jeito", "find a way, sort it out", "A gente dá um jeito."],
+            ["dar um jeito", "find a way, work it out", "A gente dá um jeito."],
             ["dar bola para", "pay attention to, give the time of day", "Ele nem me deu bola."],
             ["dar uma olhada em", "have a look at", "Dá uma olhada nesse relatório?"],
             ["dar uma passada", "drop by", "Vou dar uma passada na sua casa."],

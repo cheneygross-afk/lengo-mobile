@@ -156,7 +156,7 @@ export const FR_B1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which spelling is correct?",
+            question: "How do you say: If they agree, we'll sign?",
             options: ["S'ils sont d'accord, on signe.", "Si ils sont d'accord, on signe.", "S'ils seront d'accord, on signe.", "Si'ls sont d'accord, on signe."],
             correctIndex: 0,
             explanation: "\"Si\" + \"ils\" → \"s'ils\", and the present after si.",
@@ -1068,7 +1068,7 @@ export const FR_B1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which line is correct?",
+            question: "How does the invitation say: If we have time, we'll play boules?",
             options: [
               "Si on a le temps, on jouera à la pétanque.",
               "Si on aura le temps, on jouera à la pétanque.",
@@ -1386,7 +1386,7 @@ export const FR_B1_U12: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence describes a habit?",
+            question: "How do you say: When it rains, I take the bus? (every time, a habit)",
             options: [
               "Quand il pleut, je prends le bus.",
               "Quand il pleuvra, je prendrai le bus.",
@@ -1789,7 +1789,7 @@ export const FR_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is a suggestion?",
+        question: "How do you say: How about going to the beach?",
         options: ["Si on allait à la plage ?", "Si on va à la plage, on se baignera.", "Si on allait à la plage, on se baignerait.", "On est allés à la plage."],
         correctIndex: 0,
         explanation: "Si + imparfait with no result clause: How about...?",
@@ -2034,7 +2034,7 @@ export const FR_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which plan B is correct?",
+        question: "How do you say the plan B: If it rains, we could go to the museum?",
         options: [
           "S'il pleut, on pourrait aller au musée.",
           "S'il pleuvrait, on pourrait aller au musée.",
@@ -2373,7 +2373,7 @@ export const FR_B1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Find the correct sentence.",
+            question: "Find the correct sentence: If you come, we'll go to a restaurant.",
             options: ["Si tu viens, on ira au resto.", "Si tu viendras, on ira au resto.", "Si tu viendrais, on ira au resto.", "Si tu venais, on ira au resto."],
             correctIndex: 0,
             explanation: "Real condition: si + present, future result. \"Si tu venais\" would need a conditional result.",
@@ -2404,7 +2404,7 @@ export const FR_B1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Find the correct sentence.",
+            question: "Find the correct sentence: If she comes, I'll be happy.",
             options: ["Si elle vient, je serai content.", "S'elle vient, je serai content.", "Si elle viendra, je serai content.", "S'elle viendra, je serai content."],
             correctIndex: 0,
             explanation: "No elision before \"elle\"; present after si.",
@@ -2546,7 +2546,7 @@ export const FR_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Find the correct sentence.",
+        question: "Find the correct sentence: When I grow up, I'll be a pilot.",
         options: [
           "Quand je serai grand, je serai pilote.",
           "Quand je suis grand, je serai pilote.",
@@ -2558,7 +2558,7 @@ export const FR_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Find the correct sentence.",
+        question: "Find the correct sentence: If I had a car, I'd go to the seaside.",
         options: [
           "Si j'avais une voiture, j'irais à la mer.",
           "Si j'aurais une voiture, j'irais à la mer.",

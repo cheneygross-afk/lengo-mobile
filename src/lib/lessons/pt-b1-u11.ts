@@ -88,7 +88,7 @@ export const PT_B1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Você disse que me ajudaria!",
-            tip: "Stress the -ri- in ajudaria: a-ju-da-RI-a.",
+            tip: "Stress the -ri- in ajudaria: a-zhoo-da-RI-a.",
             explanation: "\"Ajudarei\" becomes \"ajudaria\", and the pronoun \"me\" goes before the verb, the Brazilian way.",
           },
         ],
@@ -343,7 +343,7 @@ export const PT_B1_U11: Lesson[] = [
         examples: [
           { es: "Ela está perguntando se você vem amanhã.", en: "She's asking if you're coming tomorrow." },
           { es: "Meu pai queria saber onde eu estava.", en: "My dad wanted to know where I was." },
-          { es: "Eles querem saber quando a loja abre.", en: "They want to know when the shop opens." },
+          { es: "Eles querem saber quando a loja abre.", en: "They want to know when the store opens." },
           { es: "Pedi um café e perguntei onde ficava o banheiro.", en: "I asked for a coffee and asked where the bathroom was." },
           { es: "Posso fazer uma pergunta?", en: "Can I ask a question?" },
         ],
@@ -476,7 +476,7 @@ export const PT_B1_U11: Lesson[] = [
         type: "speak",
         text: "Meu chefe perguntou por que eu estava atrasado.",
         prompt: "Say it in Portuguese: My boss asked why I was late.",
-        tip: "The s in atrasado falls between vowels, so it sounds like z: a-tra-ZA-du.",
+        tip: "The s in atrasado falls between vowels, so it sounds like z: a-tra-ZA-doo.",
         explanation: "Why is \"por que\", in two words, and \"está\" shifts to \"estava\".",
       },
       {
@@ -845,7 +845,7 @@ export const PT_B1_U11: Lesson[] = [
           { es: "Os vizinhos reclamaram do barulho.", en: "The neighbors complained about the noise." },
           { es: "Ela reclamou com o garçom que a sopa estava fria.", en: "She complained to the waiter that the soup was cold." },
           { es: "O João sempre reclama do trânsito de São Paulo.", en: "João always complains about the São Paulo traffic." },
-          { es: "A loja confirmou que o pedido já tinha saído.", en: "The shop confirmed the order had already gone out." },
+          { es: "A loja confirmou que o pedido já tinha saído.", en: "The store confirmed the order had already gone out." },
           { es: "O vendedor garantiu que o celular era novo.", en: "The salesman assured us the phone was new." },
           { es: "Ele admitiu que tinha esquecido a reunião.", en: "He admitted he'd forgotten the meeting." },
         ],
@@ -874,7 +874,7 @@ export const PT_B1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He explained that the shop was closed.",
+        source: "He explained that the store was closed.",
         answer: "Ele explicou que a loja estava fechada.",
         explanation: "\"Explicar que\" plus the shifted tense: \"está fechada\" becomes \"estava fechada\".",
       },
@@ -1182,7 +1182,7 @@ export const PT_B1_U11: Lesson[] = [
         type: "speak",
         text: "Ela pediu para eu ir lá no dia seguinte.",
         prompt: "Say it in Portuguese: She asked me to go there the next day.",
-        tip: "In \"seguinte\" the u is silent (se-GHIN-tchi), and the final -te sounds like tchi.",
+        tip: "In \"seguinte\" the u is silent (se-GHĨ-chee), and the final -te sounds like chee.",
         explanation: "Her \"venha aqui amanhã\" becomes \"ir lá no dia seguinte\": direction, place and time all shift.",
       },
       {
@@ -1662,7 +1662,7 @@ export const PT_B1_U11: Lesson[] = [
         type: "speak",
         text: "Ela perguntou se a reunião ainda está de pé.",
         prompt: "Say it in Portuguese: She asked if the meeting is still on.",
-        tip: "Run \"se a\" together, and say the \"de\" in \"de pé\" like \"dji\".",
+        tip: "Run \"se a\" together, and say the \"de\" in \"de pé\" like \"jee\".",
         explanation: "\"Perguntou se\" reports a yes/no question; \"está de pé\" means it's still on.",
       },
       {
@@ -1726,7 +1726,7 @@ export const PT_B1_U11: Lesson[] = [
           { es: "Ele perguntou se eu ia à festa.", en: "He asked if I was going to the party." },
           { es: "A professora perguntou se a gente tinha entendido.", en: "The teacher asked if we'd understood." },
           { es: "Ela perguntou onde eu morava.", en: "She asked where I lived." },
-          { es: "O seu Antônio perguntou quando a loja abria.", en: "Seu Antônio asked when the shop opened." },
+          { es: "O seu Antônio perguntou quando a loja abria.", en: "Seu Antônio asked when the store opened." },
           { es: "Perguntaram por que o voo estava atrasado.", en: "They asked why the flight was late." },
         ],
         checkpoint: [
@@ -1814,7 +1814,7 @@ export const PT_B1_U11: Lesson[] = [
           {
             type: "speak",
             text: "A Beatriz me contou que tinha mudado de emprego.",
-            tip: "Say \"me contou\" as one unit, mi-con-TOU, with the \"me\" sounding like mi.",
+            tip: "Say \"me contou\" as one unit, mee-kõ-TOU, with the \"me\" sounding like mee.",
             explanation: "\"Me contou que\": the pronoun before the verb, and \"tinha mudado\" for what had happened before she told you.",
           },
         ],
@@ -2124,7 +2124,7 @@ export const PT_B1_U11: Lesson[] = [
         type: "speak",
         text: "Ela perguntou se eu estava livre no sábado.",
         prompt: "Say it in Portuguese: She asked if I was free on Saturday.",
-        tip: "Run \"se eu\" together: the e of se sounds like i, so it comes out close to \"sieu\".",
+        tip: "Run \"se eu\" together: the e of se sounds like ee, so it comes out close to \"see-EU\".",
         explanation: "Her question was \"Você está livre no sábado?\": \"perguntou se\" + \"eu estava\".",
       },
       {
@@ -2402,7 +2402,7 @@ export const PT_B1_U11: Lesson[] = [
         type: "speak",
         text: "Ela pediu para a gente chegar cedo.",
         prompt: "Say it in Portuguese: She asked us to arrive early.",
-        tip: "\"Pediu\" sounds like pe-dji-u: d before i is soft in Brazil.",
+        tip: "\"Pediu\" sounds like pe-JEE-oo: d before i is soft in Brazil.",
         explanation: "\"Pedir para\" + infinitive. With \"a gente\" the infinitive stays uninflected: \"a gente chegar\".",
       },
       {

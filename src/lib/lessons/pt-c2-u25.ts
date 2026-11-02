@@ -488,7 +488,7 @@ export const PT_C2_U25: Lesson[] = [
       {
         type: "speak",
         text: "Alô, tô no ar? Bom dia, aqui é do Jardim Ângela, na zona sul.",
-        tip: "Run \"tô no ar\" together: tô-nu-ar. The final o of \"no\" sounds like u.",
+        tip: "Run \"tô no ar\" together: tô-noo-ar. The final o of \"no\" sounds like 'oo'.",
         explanation: "A caller's opening: check the line, greet, and give the neighborhood straight away.",
       },
       {
@@ -1441,7 +1441,7 @@ export const PT_C2_U25: Lesson[] = [
             type: "dictation",
             audio: "Eu vim aqui só pra te ver.",
             altAnswers: ["Eu vim aqui só para te ver."],
-            explanation: "In singing \"vim aqui\" can fuse to vinhaqui and \"pra te\" to pratchi. Written lyrics usually keep \"pra\".",
+            explanation: "In singing \"vim aqui\" can fuse to vinhaqui and \"pra te\" to prachee. Written lyrics usually keep \"pra\".",
           },
           {
             type: "translate",
@@ -1612,7 +1612,7 @@ export const PT_C2_U25: Lesson[] = [
       {
         type: "speak",
         text: "Eu sei que eu vou te amar por toda a minha vida.",
-        tip: "Sing or say it smoothly: \"que eu\" becomes one syllable, queu, and \"te amar\" becomes tchamar.",
+        tip: "Sing or say it smoothly: \"que eu\" becomes one syllable, queu, and \"te amar\" becomes chamar.",
         explanation: "Practicing elision aloud trains you to hear it.",
       },
       {
@@ -2512,7 +2512,7 @@ export const PT_C2_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We could go together. Shall we?",
+        source: "We could go together. Want to?",
         answer: "A gente podia ir junto. Bora?",
         altAnswers: ["A gente podia ir juntos. Bora?", "A gente podia ir junto. Vamos?", "Nós podíamos ir juntos. Vamos?", "A gente poderia ir junto. Bora?", "A gente podia ir junto. Vamos nessa?"],
         explanation: "\"A gente podia\" (imperfect) softens a suggestion. \"Bora\" is the informal let's go.",

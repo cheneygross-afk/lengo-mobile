@@ -18,7 +18,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
         heading: `The endings`,
         body: [
           `Take off "-ar", "-er" or "-ir" and add the endings below. The stress always falls on the ending: "fa-LEI", "fa-LOU", "co-MEU", "a-BRIU". This stress is what tells the past "falou" from the present "fala".`,
-          `The "nós" form of "-ar" and "-ir" verbs is the same as in the present: "falamos", "abrimos". Context and time words decide: "Hoje a gente estuda" (today we study) but "Ontem a gente estudou". In speech Brazilians often avoid the ambiguity by using "a gente".`,
+          `The "nós" form is the same as in the present for all three groups: "falamos", "comemos", "abrimos". Context and time words decide: "Hoje a gente estuda" (today we study) but "Ontem a gente estudou". In speech Brazilians often avoid the ambiguity by using "a gente".`,
         ],
         table: {
           headers: ["Subject", "falar", "comer", "abrir"],
@@ -1067,7 +1067,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "O ônibus para Ouro Preto sai às oito.", en: "The bus to Ouro Preto leaves at eight." },
           { pt: "Segunda eu começo no emprego novo.", en: "I start my new job on Monday." },
-          { pt: "Pode deixar, eu resolvo isso amanhã.", en: "Leave it with me, I'll sort it out tomorrow." },
+          { pt: "Pode deixar, eu resolvo isso amanhã.", en: "Leave it to me, I'll take care of it tomorrow." },
         ],
       },
       {

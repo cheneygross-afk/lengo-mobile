@@ -15,11 +15,11 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Opening: the pauta and the ata",
         body: [
-          "A meeting is a \"reunião\" and its agenda is the \"pauta\". Each item on it is a \"ponto\" or an \"item\" da pauta. The trap: Portuguese \"agenda\" is your diary or schedule (\"minha agenda está cheia\" means 'my schedule is full'). For the list of topics in a meeting, say \"pauta\".",
+          "A meeting is a \"reunião\" and its agenda is the \"pauta\". Each item on it is a \"ponto\" or an \"item\" da pauta. The trap: Portuguese \"agenda\" is your planner or schedule (\"minha agenda está cheia\" means 'my schedule is full'). For the list of topics in a meeting, say \"pauta\".",
           "The minutes are the \"ata\". Never translate minutes literally as \"minutos\". Someone \"faz a ata\" during the meeting, and the group approves it at the next one. Brazilian meetings often start a few minutes late with some small talk. A friendly \"vamos começar?\" signals the switch to business.",
         ],
         examples: [
-          { es: "Bom dia, pessoal. Vamos começar?", en: "Good morning, everyone. Shall we start?" },
+          { es: "Bom dia, pessoal. Vamos começar?", en: "Good morning, everyone. Should we get started?" },
           { es: "A pauta de hoje tem três pontos.", en: "Today's agenda has three items." },
           { es: "O primeiro ponto da pauta é o orçamento do próximo semestre.", en: "The first item on the agenda is next semester's budget." },
           { es: "Quem vai fazer a ata hoje?", en: "Who's taking the minutes today?" },
@@ -132,7 +132,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Good morning, everyone. Shall we start?",
+        source: "Good morning, everyone. Should we get started?",
         answer: "Bom dia, pessoal. Vamos começar?",
         altAnswers: ["Bom dia a todos. Vamos começar?", "Bom dia, pessoal. Podemos começar?", "Bom dia a todos. Podemos começar?", "Bom dia, gente. Vamos começar?"],
         explanation: "\"Pessoal\" is the friendly office word for everyone, and \"bom dia a todos\" is a little more formal. \"Vamos começar?\" opens the meeting.",
@@ -204,7 +204,7 @@ export const PT_B2_U13: Lesson[] = [
           { left: "a ata", right: "the minutes" },
           { left: "os encaminhamentos", right: "the next steps" },
           { left: "o prazo", right: "the deadline" },
-          { left: "a agenda", right: "the diary, the schedule" },
+          { left: "a agenda", right: "the planner, the schedule" },
           { left: "o cronograma", right: "the timeline" },
         ],
         explanation: "\"Agenda\" is the false friend: it is your schedule. A meeting's list of topics is \"a pauta\".",
@@ -213,7 +213,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "speak",
         text: "Vamos aos encaminhamentos.",
         prompt: "Say it in Portuguese: Let's go over the next steps.",
-        tip: "\"Encaminhamentos\": nasal en at the start, ã-like nasal before the m in -mentos, and the final -os sounds like us.",
+        tip: "\"Encaminhamentos\": nasal en at the start, a nasal ẽ in -men-, and the final -os sounds like 'oos': 'ẽ-ka-mee-nya-MẼ-toos'.",
         explanation: "\"Vamos a\" + \"os encaminhamentos\" contracts to \"aos\". This is the standard way to move to the closing part of a meeting.",
       },
       {
@@ -399,7 +399,7 @@ export const PT_B2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Fico à disposição para perguntas.",
-            tip: "In \"disposição\" the second s sits between vowels and sounds like z: dis-po-zi-SÃO, with a nasal ão.",
+            tip: "In \"disposição\" the second s sits between vowels and sounds like z: 'dees-po-zee-SÃW', with a nasal ão.",
             explanation: "\"Ficar à disposição\" means to be available. The crase in \"à\" comes from a + a disposição.",
           },
         ],
@@ -500,13 +500,13 @@ export const PT_B2_U13: Lesson[] = [
       {
         type: "dictation",
         audio: "As vendas caíram em março.",
-        explanation: "\"Caíram\" has an accent on the í: ca-Í-ram, three syllables. Months take no capital letter in Portuguese.",
+        explanation: "\"Caíram\" has an accent on the í: 'ka-EE-rãw', three syllables. Months take no capital letter in Portuguese.",
       },
       {
         type: "speak",
         text: "Em primeiro lugar, vamos ver os números.",
         prompt: "Say it in Portuguese: First, let's look at the numbers.",
-        tip: "\"Números\" is stressed on the first syllable, NÚ-me-rus, with a tap r.",
+        tip: "\"Números\" is stressed on the first syllable, 'NOO-me-roos', with a tap r.",
         explanation: "\"Em primeiro lugar\" opens a list of points. \"Vamos ver\" is let's look.",
       },
       {
@@ -608,7 +608,7 @@ export const PT_B2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Gostaríamos de propor uma alternativa.",
-            tip: "Stress gos-ta-RÍ-a-mos: the accent mark shows where.",
+            tip: "Stress 'gos-ta-REE-a-moos': the accent mark shows where.",
             explanation: "\"Gostaríamos de\" + infinitive is the polite conditional for introducing a proposal.",
           },
         ],
@@ -718,7 +718,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "speak",
         text: "Estaríamos dispostos a reduzir o preço em cinco por cento.",
         prompt: "Say it in Portuguese: We'd be willing to lower the price by five percent.",
-        tip: "Stress es-ta-RÍ-a-mos and dis-POS-tos; \"por cento\" is two words.",
+        tip: "Stress 'es-ta-REE-a-moos' and 'dees-PÓS-toos' (the plural opens the o); \"por cento\" is two words.",
         explanation: "\"Reduzir em\" + amount: the preposition \"em\" gives the size of the reduction.",
       },
       {
@@ -1043,7 +1043,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "speak",
         text: "Será que não seria melhor esperar?",
         prompt: "Say it in Portuguese: Wouldn't it be better to wait?",
-        tip: "Stress se-RÁ and se-RI-a, and let your voice rise at the end so it sounds like a genuine question.",
+        tip: "Stress 'se-RA' and 'se-REE-a', and let your voice rise at the end so it sounds like a genuine question.",
         explanation: "\"Será que\" softens the question, and the conditional \"seria\" adds distance. Together they make a polite objection.",
       },
     ],
@@ -1059,7 +1059,7 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "The ata: what happened and what was decided",
         body: [
-          "An \"ata\" is the official record of a meeting, and Brazilian atas follow a fixed shape. They say when, where and who attended, cover each item on the \"pauta\", record what was decided and end with a closing formula. Traditional atas, in condominiums and associations, run as one block of text with dates in words (\"aos dez dias do mês de março\"). Companies now usually prefer short sections with headings.",
+          "An \"ata\" is the official record of a meeting, and Brazilian atas follow a fixed shape. They say when, where and who attended, cover each item on the \"pauta\", record what was decided and end with a closing formula. Traditional atas, in condo associations and other groups, run as one block of text with dates in words (\"aos dez dias do mês de março\"). Companies now usually prefer short sections with headings.",
           "Events go in the \"perfeito\": \"a reunião teve início às 14h\", \"o diretor apresentou os resultados\". Keep the \"imperfeito\" for background (\"a equipe estava preocupada com o prazo\"). Decisions use fixed frames: \"ficou decidido que\", \"ficou acordado que\", \"foi aprovado\". What happens next can stay in the written future: \"o lançamento será adiado\".",
           "Learn the closing formula as one block: \"Nada mais havendo a tratar, a reunião foi encerrada.\" The gerund \"havendo\" means there being. It is a formal touch you will rarely hear in speech.",
         ],
@@ -1102,7 +1102,7 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Impersonal and nominal style",
         body: [
-          "Reports avoid \"eu\" and \"nós\", as you saw in Unit 8. They use the \"se\" passive, the \"ser\" passive and nouns made from verbs. A handful of verbs do most of the work: \"constatar\" (to find), \"verificar\", \"observar\", \"registrar\", \"identificar\". At the start of a sentence, put the verb first with the hyphenated pronoun: write \"Constatou-se\", not \"Se constatou\".",
+          "Reports avoid \"eu\" and \"nós\", as you saw in Unit 13. They use the \"se\" passive, the \"ser\" passive and nouns made from verbs. A handful of verbs do most of the work: \"constatar\" (to find), \"verificar\", \"observar\", \"registrar\", \"identificar\". At the start of a sentence, put the verb first with the hyphenated pronoun: write \"Constatou-se\", not \"Se constatou\".",
           "The trap is agreement. With the \"se\" passive, the noun is grammatically the subject, so the verb agrees with it. Write \"registraram-se três reclamações\" or \"foram registradas três reclamações\". \"Registrou-se três reclamações\" is common in speech, but a report reader will mark it wrong.",
           "Nominalization turns a whole event into the subject, so one sentence can hold both cause and effect: \"o atraso na entrega causou a suspensão dos testes\". The plain version needs two clauses: 'the delivery was late, so we stopped the tests'.",
         ],
@@ -1168,7 +1168,7 @@ export const PT_B2_U13: Lesson[] = [
           {
             type: "speak",
             text: "O presente relatório tem por objetivo avaliar o projeto-piloto.",
-            tip: "Stress \"relatório\" on -tó-, and say the t before i in \"objetivo\" as a soft ch: ob-je-TCHI-vu.",
+            tip: "Stress \"relatório\" on -tó-, and say the t before i in \"objetivo\" as a soft ch: 'ob-zhe-CHEE-voo'.",
             explanation: "\"Tem por objetivo\" + infinitive is the standard opening of a relatório.",
           },
         ],
@@ -1263,7 +1263,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "speak",
         text: "Recomenda-se que a equipe revise o cronograma.",
         prompt: "Say it in Portuguese: It is recommended that the team review the schedule.",
-        tip: "The final e of \"recomenda-se\" sounds like i: re-co-MEN-da-si.",
+        tip: "The first r of \"recomenda-se\" sounds like an English h, and the final e sounds like 'ee': 'he-ko-MẼ-da-see'.",
         explanation: "\"Recomenda-se que\" + present subjunctive (\"revise\") is used because the recommendation applies now.",
       },
       {
@@ -1370,7 +1370,7 @@ export const PT_B2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Estaríamos dispostos a fazer dois reais e oitenta por unidade.",
-            tip: "In the plural \"dispostos\" the stressed o opens (dis-PÓS-tos); the singular \"disposto\" has a closed ô.",
+            tip: "In the plural \"dispostos\" the stressed o opens ('dees-PÓS-toos'); the singular \"disposto\" has a closed ô.",
             explanation: "\"Estaríamos dispostos a\" + infinitive: the conditional softens the offer and leaves room for a counter-proposal.",
           },
         ],
@@ -1378,12 +1378,12 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Prazos e fechamento",
         body: [
-          "\"Prazo\" is any time limit: \"prazo de entrega\" (lead time), \"prazo de pagamento\" (payment terms). Lead times are counted in \"dias úteis\" (working days), and payment is often split \"em duas parcelas, para 30 e 60 dias\", usually by \"boleto\" (bank slip).",
+          "\"Prazo\" is any time limit: \"prazo de entrega\" (lead time), \"prazo de pagamento\" (payment terms). Lead times are counted in \"dias úteis\" (business days), and payment is often split \"em duas parcelas, para 30 e 60 dias\", usually by \"boleto\" (bank slip).",
           "Juliana also covers herself: \"E caso haja algum atraso?\" The answer is a \"multa\", a penalty for late delivery.",
           "To close, they sum up the next steps with the future subjunctive (\"assim que vocês aprovarem a amostra...\") and seal the deal out loud: \"Fechado?\" \"Fechado!\". The written contract comes later, starting from a \"minuta\" (draft) drawn up by \"o jurídico\" (the legal department).",
         ],
         examples: [
-          { es: "O prazo de entrega é de quinze dias úteis.", en: "Lead time is fifteen working days." },
+          { es: "O prazo de entrega é de quinze dias úteis.", en: "Lead time is fifteen business days." },
           { es: "Vocês conseguiriam entregar em dez dias?", en: "Could you deliver in ten days?" },
           { es: "O pagamento pode ser em duas parcelas, para 30 e 60 dias, no boleto.", en: "Payment can be in two installments, at 30 and 60 days, by bank slip." },
           { es: "E caso haja algum atraso na entrega?", en: "And what if there's a delay in delivery?" },
@@ -1404,9 +1404,9 @@ export const PT_B2_U13: Lesson[] = [
             type: "listen-choose",
             audio: "O prazo de entrega é de quinze dias úteis.",
             question: "What does it mean?",
-            options: ["Lead time is fifteen working days.", "Payment is due in fifteen working days.", "Lead time is fifty working days.", "The contract lasts fifteen days."],
+            options: ["Lead time is fifteen business days.", "Payment is due in fifteen business days.", "Lead time is fifty business days.", "The contract lasts fifteen days."],
             correctIndex: 0,
-            explanation: "\"Prazo de entrega\" is the delivery deadline, and \"dias úteis\" are working days. \"Quinze\" is fifteen; fifty would be \"cinquenta\".",
+            explanation: "\"Prazo de entrega\" is the delivery deadline, and \"dias úteis\" are business days. \"Quinze\" is fifteen; fifty would be \"cinquenta\".",
           },
           {
             type: "word-order",
@@ -1457,10 +1457,10 @@ export const PT_B2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Lead time is fifteen [working days].",
+        en: "Lead time is fifteen [business days].",
         sentence: "O prazo de entrega é de quinze ___.",
         answer: "dias úteis",
-        explanation: "\"Dias úteis\" are working days; \"úteis\" is the plural of \"útil\" (-il becomes -eis). Calendar days are \"dias corridos\".",
+        explanation: "\"Dias úteis\" are business days; \"úteis\" is the plural of \"útil\" (-il becomes -eis). Calendar days are \"dias corridos\".",
       },
       {
         type: "translate",
@@ -1498,7 +1498,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "speak",
         text: "Desde que o pedido seja de dez mil unidades, a gente faz esse preço.",
         prompt: "Say it in Portuguese: Provided the order is ten thousand units, we'll do that price.",
-        tip: "Link \"desde que\" smoothly: DEZ-dji-ki, with the d before i sounding like the j in jeans.",
+        tip: "Link \"desde que\" smoothly: 'DEZ-jee-kee', with the d before i sounding like the j in jeans.",
         explanation: "\"Desde que\" + subjunctive (\"seja\") sets the condition; \"a gente faz\" keeps the reply friendly.",
       },
     ],
@@ -1604,7 +1604,7 @@ export const PT_B2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Você poderia me mandar o relatório até o fim do dia?",
-            tip: "Stress po-de-RI-a and re-la-TÓ-rio, and let your voice rise gently at the end.",
+            tip: "Stress 'po-de-REE-a' and 'he-la-TÓ-ryoo', and let your voice rise gently at the end.",
             explanation: "\"Você poderia\" + infinitive is the standard polite request at work. \"Me\" sits between the two verbs, as Brazilians say it.",
           },
         ],
@@ -2069,7 +2069,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "speak",
         text: "Em termos de preço, a proposta é muito boa.",
         prompt: "Say it in Portuguese: In terms of price, the offer is very good.",
-        tip: "The stressed o in proposta is open, as in avó: pro-PÓS-ta.",
+        tip: "The stressed o in proposta is open, as in avó: 'pro-PÓS-ta'.",
         explanation: "\"Em termos de\" introduces the topic without the filler \"a nível de\".",
       },
       {
@@ -2322,7 +2322,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "speak",
         text: "Gostaria de apresentar uma ideia para reduzir os custos.",
         prompt: "Say it in Portuguese: I'd like to present an idea to reduce costs.",
-        tip: "Stress gos-ta-RI-a and i-DEI-a. The t in gostaria stays a plain t because it comes before a, not i.",
+        tip: "Stress 'gos-ta-REE-a' and 'ee-DAY-a'. The t in gostaria stays a plain t because it comes before a, not i.",
         explanation: "\"Gostaria de apresentar\" opens the pitch, and \"para\" + infinitive gives the purpose.",
       },
       {
@@ -2363,7 +2363,7 @@ export const PT_B2_U13: Lesson[] = [
           "Action points are future events, so they take the future subjunctive after \"assim que\", \"quando\" and open relatives: \"assim que o cliente aprovar\", \"quem tiver dúvidas\". The present indicative (\"assim que o cliente aprova\") describes a routine, not a one-off next step.",
         ],
         examples: [
-          { es: "Vamos começar? O primeiro item da pauta é o orçamento do ano que vem.", en: "Shall we start? The first item on the agenda is next year's budget." },
+          { es: "Vamos começar? O primeiro item da pauta é o orçamento do ano que vem.", en: "Should we get started? The first item on the agenda is next year's budget." },
           { es: "Passo a palavra para a Beatriz, que vai apresentar os resultados do trimestre.", en: "I'll hand over to Beatriz, who's going to present the quarterly results." },
           { es: "Voltando à pauta, ainda precisamos definir o cronograma.", en: "Back to the agenda: we still need to set the schedule." },
           { es: "Ficou combinado que o Rafael vai enviar a ata até sexta-feira.", en: "It was agreed that Rafael will send the minutes by Friday." },
@@ -2456,7 +2456,7 @@ export const PT_B2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Como podemos ver no gráfico, as vendas cresceram doze por cento.",
-            tip: "Stress \"gráfico\" on the first syllable, GRÁ-fi-ku, and end \"cresceram\" in a light, unstressed nasal sound like ão.",
+            tip: "Stress \"gráfico\" on the first syllable, 'GRA-fee-koo', and end \"cresceram\" in a light, unstressed nasal sound like ão.",
             explanation: "A standard presentation opener: \"como podemos ver no gráfico\" + the perfeito for what happened.",
           },
         ],

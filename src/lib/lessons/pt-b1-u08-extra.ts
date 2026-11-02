@@ -146,13 +146,13 @@ export const PT_B1_U08_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "A loja já tinha fechado.",
-        explanation: "\"Já tinha fechado\": the shop closed before the moment you got there.",
+        explanation: "\"Já tinha fechado\": the store closed before the moment you got there.",
       },
       {
         type: "speak",
         text: "Eu nunca tinha visto o mar.",
         prompt: "Say it in Portuguese: I had never seen the sea.",
-        tip: "Visto: VIS-tu.",
+        tip: "Visto: VEES-too.",
         explanation: "\"Nunca tinha visto\" is never before that point in the past, often a first experience.",
       },
       {
@@ -316,7 +316,7 @@ export const PT_B1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Depois de jantar, fomos ao cinema.",
         prompt: "Say it in Portuguese: After dinner, we went to the movies.",
-        tip: "Jantar: zhan-TAR.",
+        tip: "Jantar: zhã-TAR.",
         explanation: "\"Depois de\" + infinitive: \"depois de jantar\", after dinner. The j sounds like the s in measure.",
       },
       {
@@ -481,12 +481,12 @@ export const PT_B1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Quando cheguei, todo mundo já tinha ido embora.",
         prompt: "Say it in Portuguese: When I arrived, everyone had already left.",
-        tip: "Embora: em-BÓ-ra.",
+        tip: "Embora: ẽ-BÓ-ra.",
         explanation: "\"Todo mundo\" takes a singular verb: \"tinha ido embora\". Everyone left before you arrived.",
       },
       {
         type: "matching",
-        instructions: "Match the story part to its tense.",
+        instructions: "Match the Portuguese to the English.",
         pairs: [{ left: "Era tarde.", right: "It was late." }, { left: "Peguei um táxi.", right: "I took a taxi." }, { left: "Tinha perdido a chave.", right: "I had lost the key." }, { left: "Estava chovendo.", right: "It was raining." }, { left: "Logo depois, a polícia chegou.", right: "Shortly after, the police arrived." }],
         explanation: "A story mixes the scene (\"era\", \"estava chovendo\"), events (\"peguei\", \"chegou\") and what had happened earlier (\"tinha perdido\").",
       },

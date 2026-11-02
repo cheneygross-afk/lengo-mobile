@@ -34,7 +34,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
             source: "My aunt and uncle live in Goiás.",
             answer: "Meus tios moram em Goiás.",
             altAnswers: ["Os meus tios moram em Goiás."],
-            explanation: "\"Goiás\" takes no article: \"em Goiás\".",
+            explanation: "\"Goiás\" takes no article, so plain \"em Goiás\", never *no Goiás.",
           },
           {
             type: "fill-blank",
@@ -42,7 +42,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
             en: "She's from Bahia, but she lives [in Paraná].",
             sentence: "Ela é baiana, mas mora ___.",
             answer: "no Paraná",
-            explanation: "\"Paraná\" takes \"o\": \"no Paraná\".",
+            explanation: "\"Paraná\" takes \"o\", so em + o = \"no Paraná\", not *em Paraná.",
           },
           {
             type: "listen-choose",
@@ -63,7 +63,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         source: "I spent a month in Bahia.",
         answer: "Eu passei um mês na Bahia.",
         altAnswers: ["Passei um mês na Bahia."],
-        explanation: "\"Na Bahia\": em + a.",
+        explanation: "\"Bahia\" takes \"a\", so em + a = \"na Bahia\". \"Passei\" is the perfeito for a finished month.",
       },
       {
         type: "translate",
@@ -72,7 +72,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         source: "Her husband is from Pernambuco.",
         answer: "O marido dela é de Pernambuco.",
         altAnswers: ["O marido dela é pernambucano.", "Seu marido é de Pernambuco."],
-        explanation: "No article with Pernambuco: \"de Pernambuco\".",
+        explanation: "No article with Pernambuco: \"de Pernambuco\", never *do Pernambuco.",
       },
       {
         type: "translate",
@@ -99,7 +99,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         source: "Rio is hotter than Curitiba.",
         answer: "O Rio é mais quente do que Curitiba.",
         altAnswers: ["O Rio é mais quente que Curitiba.", "O Rio de Janeiro é mais quente do que Curitiba."],
-        explanation: "Rio takes \"o\"; Curitiba takes none.",
+        explanation: "Rio takes \"o\" (\"o Rio\"); Curitiba, like most cities, takes none. Then \"mais quente do que\".",
       },
       {
         type: "translate",
@@ -116,7 +116,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Belém is the capital of Pará.",
         answer: "Belém é a capital do Pará.",
-        explanation: "\"Do Pará\": de + o.",
+        explanation: "\"Pará\" takes \"o\", so de + o = \"do Pará\". The city \"Belém\" has no article.",
       },
       {
         type: "fill-blank",
@@ -125,7 +125,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         sentence: "Minha avó é ___.",
         answer: "mineira",
         altAnswers: ["de Minas"],
-        explanation: "\"Mineira\", lowercase and feminine.",
+        explanation: "\"Mineira\": lowercase, and feminine to match \"avó\". \"De Minas\" also works.",
       },
       {
         type: "fill-blank",
@@ -133,14 +133,14 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         en: "They came back [from Amazonas] yesterday.",
         sentence: "Eles voltaram ___ ontem.",
         answer: "do Amazonas",
-        explanation: "\"Amazonas\" takes \"o\": \"do Amazonas\".",
+        explanation: "\"Amazonas\" takes \"o\", so de + o = \"do Amazonas\", not *de Amazonas.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The North is the biggest region.",
         words: ["O", "Norte", "é", "a", "maior", "região."],
         translation: "The North is the biggest region.",
-        explanation: "Superlative \"a maior\" agrees with \"região\".",
+        explanation: "Superlative \"a maior\": the article \"a\" agrees with the feminine \"região\".",
       },
       {
         type: "multiple-choice",
@@ -154,12 +154,12 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         question: "How do you say: I work in Santa Catarina?",
         options: ["Eu trabalho em Santa Catarina.", "Eu trabalho na Santa Catarina.", "Eu trabalho no Santa Catarina.", "Eu trabalho a Santa Catarina."],
         correctIndex: 0,
-        explanation: "\"Santa Catarina\" is one of the states with no article.",
+        explanation: "\"Santa Catarina\" is one of the states with no article, so plain \"em\".",
       },
       {
         type: "dictation",
         audio: "Meus tios moram na Paraíba.",
-        explanation: "\"Na Paraíba\": the state takes \"a\".",
+        explanation: "\"Na Paraíba\": the state takes \"a\", and \"Paraíba\" has an accent on the í.",
       },
       {
         type: "speak",
@@ -199,7 +199,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
             source: "Last Carnival I dressed up as an astronaut.",
             answer: "No Carnaval passado eu me fantasiei de astronauta.",
             altAnswers: ["No Carnaval passado me fantasiei de astronauta.", "No último Carnaval eu me fantasiei de astronauta.", "No último Carnaval me fantasiei de astronauta."],
-            explanation: "One festival: perfeito, with \"me\" before the verb.",
+            explanation: "One festival, so the perfeito \"fantasiei\", with \"me\" before the verb and \"de\" before the costume.",
           },
           {
             type: "fill-blank",
@@ -212,7 +212,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "Todo ano a gente pula sete ondas.",
-            tip: "Ondas: the on is nasal, almost ÕN-das.",
+            tip: "\"Ondas\": the on is nasal: 'Õ-das'.",
             explanation: "Present for a yearly tradition: \"a gente pula\".",
           },
         ],
@@ -244,7 +244,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         source: "Next year I'm going to dress in white.",
         answer: "No ano que vem eu vou me vestir de branco.",
         altAnswers: ["No ano que vem vou me vestir de branco.", "Ano que vem eu vou me vestir de branco.", "Ano que vem vou me vestir de branco.", "No próximo ano vou me vestir de branco."],
-        explanation: "\"Vou me vestir de branco\": pronoun between the verbs.",
+        explanation: "\"Vou me vestir de branco\": the pronoun goes between the verbs, and \"de\" + color.",
       },
       {
         type: "translate",
@@ -261,7 +261,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Did you have fun at the bloco? (to friends)",
         answer: "Vocês se divertiram no bloco?",
-        explanation: "\"Vocês se divertiram\": se with the -am perfeito ending.",
+        explanation: "\"Vocês se divertiram\": \"vocês\" takes \"se\" and the -ram perfeito ending.",
       },
       {
         type: "translate",
@@ -279,7 +279,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         source: "We're going to meet at the beach at midnight.",
         answer: "A gente vai se encontrar na praia à meia-noite.",
         altAnswers: ["Nós vamos nos encontrar na praia à meia-noite.", "Vamos nos encontrar na praia à meia-noite.", "A gente se encontra na praia à meia-noite."],
-        explanation: "Reciprocal se with ir + infinitive.",
+        explanation: "Reciprocal se with ir + infinitive: \"a gente vai se encontrar\", \"nós vamos nos encontrar\".",
       },
       {
         type: "fill-blank",
@@ -287,7 +287,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         en: "Last year [I danced] forró all night.",
         sentence: "No ano passado eu ___ forró a noite toda.",
         answer: "dancei",
-        explanation: "Eu form of dançar in the perfeito: -çar becomes -cei.",
+        explanation: "The eu perfeito of \"dançar\": -çar becomes -cei, \"dancei\", because ç is never written before e.",
       },
       {
         type: "fill-blank",
@@ -295,21 +295,21 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         en: "When I was little, we [used to dress up] every Carnival.",
         sentence: "Quando eu era pequeno, a gente ___ todo Carnaval.",
         answer: "se fantasiava",
-        explanation: "Habit: imperfeito, with \"se\" for a gente.",
+        explanation: "A habit, so the imperfeito \"fantasiava\", with \"se\" for \"a gente\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: Christmas dinner was at midnight.",
         words: ["A", "ceia", "de", "Natal", "foi", "à", "meia-noite."],
         translation: "Christmas dinner was at midnight.",
-        explanation: "\"À meia-noite\" with the crase, like \"às oito\".",
+        explanation: "\"À meia-noite\" takes the crase, like \"às oito\"; \"foi\" for the one dinner.",
       },
       {
         type: "multiple-choice",
         question: "A colleague asks how your Christmas was. It was great and you ate too much. What do you say?",
         options: ["Foi ótimo! Eu comi demais.", "Era ótimo! Eu comia demais.", "Foi ótimo! Eu como demais.", "Vai ser ótimo! Eu comi demais."],
         correctIndex: 0,
-        explanation: "A finished vacation: \"foi\" and \"comi\".",
+        explanation: "Christmas is over, so the perfeito: \"foi ótimo\" and \"comi\".",
       },
       {
         type: "listen-choose",
@@ -322,7 +322,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "O Réveillon foi lindo, mas estava muito cheio.",
-        explanation: "\"Foi\" for the event, \"estava\" for the description.",
+        explanation: "\"Foi\" for the event, \"estava\" for the description; \"Réveillon\" has an accent on the é.",
       },
       {
         type: "speak",
@@ -362,7 +362,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
             source: "Is lunch here by the kilo?",
             answer: "O almoço aqui é por quilo?",
             altAnswers: ["Aqui o almoço é por quilo?", "Aqui é por quilo?", "É por quilo aqui?"],
-            explanation: "\"Por quilo\": por for a rate.",
+            explanation: "\"Por quilo\": \"por\" marks a rate, like \"por pessoa\".",
           },
           {
             type: "fill-blank",
@@ -370,7 +370,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
             en: "Which team [do you support]?",
             sentence: "Para que time você ___?",
             answer: "torce",
-            explanation: "\"Torcer para\": você takes \"torce\".",
+            explanation: "\"Torcer para\": \"você\" takes the ele form \"torce\".",
           },
           {
             type: "listen-choose",
@@ -400,7 +400,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         source: "I eat rice and beans almost every day.",
         answer: "Eu como arroz e feijão quase todo dia.",
         altAnswers: ["Como arroz e feijão quase todo dia.", "Eu como arroz e feijão quase todos os dias.", "Como arroz e feijão quase todos os dias."],
-        explanation: "A habit in the present: \"como\".",
+        explanation: "A habit in the present: \"como\" (from \"comer\"), with \"quase todo dia\".",
       },
       {
         type: "translate",
@@ -418,7 +418,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         source: "Palmeiras won three to one.",
         answer: "O Palmeiras ganhou de três a um.",
         altAnswers: ["O Palmeiras ganhou por três a um.", "O Palmeiras venceu por três a um.", "Palmeiras ganhou de três a um."],
-        explanation: "The score follows \"de\" or \"por\".",
+        explanation: "The score follows \"de\" or \"por\": \"ganhou de três a um\". Teams take \"o\".",
       },
       {
         type: "translate",
@@ -427,7 +427,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         source: "I prefer forró; it's livelier than bossa nova.",
         answer: "Eu prefiro forró, é mais animado do que bossa nova.",
         altAnswers: ["Prefiro forró, é mais animado do que bossa nova.", "Eu prefiro forró, é mais animado que bossa nova.", "Prefiro forró, é mais animado que bossa nova.", "Eu prefiro o forró, é mais animado do que a bossa nova."],
-        explanation: "\"Prefiro\" + \"mais animado do que\".",
+        explanation: "\"Prefiro\" has an i in the eu form; \"mais animado do que\" compares.",
       },
       {
         type: "translate",
@@ -436,7 +436,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         source: "Good afternoon, Dona Lúcia! How are you? (to an older woman)",
         answer: "Boa tarde, Dona Lúcia! Como a senhora está?",
         altAnswers: ["Boa tarde, Dona Lúcia! A senhora está bem?", "Boa tarde, Dona Lúcia! Tudo bem com a senhora?", "Boa tarde, Dona Lúcia! Como vai a senhora?", "Boa tarde, Dona Lúcia! Como vai?"],
-        explanation: "\"Dona\" + first name and \"a senhora\".",
+        explanation: "\"Dona\" + first name and \"a senhora\" for an older woman, not \"você\".",
       },
       {
         type: "translate",
@@ -453,7 +453,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         en: "In Recife they call it [macaxeira].",
         sentence: "Em Recife eles chamam de ___.",
         answer: "macaxeira",
-        explanation: "The northeastern name for cassava.",
+        explanation: "\"Macaxeira\" is the northeastern name for cassava; in Rio it is \"aipim\".",
       },
       {
         type: "fill-blank",
@@ -462,7 +462,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         sentence: "A feijoada é ___ a moqueca.",
         answer: "mais pesada do que",
         altAnswers: ["mais pesada que"],
-        explanation: "\"Pesada\" agrees with \"a feijoada\".",
+        explanation: "\"Mais pesada do que\": \"pesada\" agrees with \"a feijoada\".",
       },
       {
         type: "word-order",
@@ -488,7 +488,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Para que time você torce?",
-        explanation: "\"Para\" moves to the front with the question word.",
+        explanation: "\"Para\" moves to the front with the question word: \"para que time\".",
       },
       {
         type: "speak",

@@ -153,7 +153,7 @@ export const PT_A2_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu me levanto às sete todo dia.",
         prompt: "Say it in Portuguese: I get up at seven every day.",
-        tip: "Levanto: le-VAN-tu, nasal an.",
+        tip: "Levanto: le-VÃ-too, nasal an.",
         explanation: "\"Me\" before the verb.",
       },
       {
@@ -317,7 +317,7 @@ export const PT_A2_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "Estou me arrumando, já vou!",
         prompt: "Say it in Portuguese: I'm getting ready, I'll be right there!",
-        tip: "Arrumando: the rr is h-like, a-hu-MAN-du.",
+        tip: "Arrumando: the rr is h-like, a-hoo-MÃ-doo.",
         explanation: "\"Me\" before the gerúndio.",
       },
       {
@@ -483,7 +483,7 @@ export const PT_A2_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "Você se lembra de mim?",
         prompt: "Say it in Portuguese: Do you remember me?",
-        tip: "Lembra: LEM-bra, nasal em.",
+        tip: "Lembra: LẼ-bra, nasal em.",
         explanation: "\"Lembrar-se de\" + \"mim\".",
       },
       {

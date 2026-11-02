@@ -373,10 +373,10 @@ export const DE_B1_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which ending of a letter is correct?",
+        question: "How do you end a letter 'Lots of love, Mia'?",
         options: ["Alles Liebe, Mia", "Alles Liebes, Mia", "Alle Liebe, Mia", "Alles liebe, Mia"],
         correctIndex: 0,
-        explanation: "After \"alles\": weak -e, capitalised.",
+        explanation: "After \"alles\" the adjective takes the weak ending -e and is written as a noun with a capital: \"Alles Liebe\". \"*Alles liebe*\" forgets the capital.",
       },
       {
         type: "word-order",

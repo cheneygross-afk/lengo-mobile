@@ -1688,7 +1688,7 @@ export const FR_C2_U06: Lesson[] = [
         heading: "Length and effort: prolixe, succinct, sommaire, acharné",
         body: [
           "\"Prolixe\" means verbose, long-winded (\"un auteur prolixe\", \"un rapport prolixe\"); it is always critical. Its opposite, \"succinct\" (pronounced [syksɛ̃], the final ct silent in the masculine, [syksɛ̃t] in the feminine), means concise, brief: \"une réponse succincte\", \"soyez succinct\". \"Concis\" is the neutral synonym.",
-          "\"Sommaire\" as an adjective means basic, rough, cursory: \"une analyse sommaire\", \"un repas sommaire\", \"une justice sommaire\" (summary justice, without due process). It is often critical: \"des explications sommaires\" are inadequate. As a noun, \"le sommaire\" is a table of contents, not a summary (\"un résumé\").",
+          "\"Sommaire\" as an adjective means basic, rough, cursory: \"une analyse sommaire\", \"un repas sommaire\", \"une justice sommaire\" (summary justice, without due process). It is often critical: \"des explications sommaires\" are inadequate. As a noun, \"le sommaire\" is usually the table of contents of a book or magazine; a summary of a text is \"un résumé\".",
           "\"Acharné\" means relentless, fierce, dogged: \"un travail acharné\" (praise: unrelenting hard work), \"un combat acharné\", \"un adversaire acharné\". \"S'acharner sur quelqu'un\" is to hound someone; \"l'acharnement thérapeutique\" is aggressive medical treatment kept up beyond reason. As with \"opiniâtre\" (Unit 5), the judgement depends on context.",
         ],
         examples: [

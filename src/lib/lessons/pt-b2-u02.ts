@@ -114,7 +114,7 @@ export const PT_B2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Se eu fosse rico, compraria uma casa na praia.",
-            tip: "The ss in fosse is a sharp s, never a z. Stress compraria on the ri: com-pra-RI-a.",
+            tip: "The ss in fosse is a sharp s, never a z. Stress compraria on the ri: kõ-pra-RI-a.",
             explanation: "\"Fosse\" is the imperfect subjunctive of \"ser\" and \"compraria\" is the conditional of \"comprar\".",
           },
         ],
@@ -131,7 +131,7 @@ export const PT_B2_U02: Lesson[] = [
           { es: "Ela aceitaria o emprego se o salário fosse melhor.", en: "She'd take the job if the salary were better." },
           { es: "Vocês viajariam mais se tivessem férias mais longas?", en: "Would you travel more if you had longer vacations?" },
           { es: "Eu não trabalharia aos sábados se não precisasse.", en: "I wouldn't work on Saturdays if I didn't need to." },
-          { es: "A gente sairia mais se o metrô funcionasse até mais tarde.", en: "We'd go out more if the metro ran later." },
+          { es: "A gente sairia mais se o metrô funcionasse até mais tarde.", en: "We'd go out more if the subway ran later." },
         ],
         checkpoint: [
           {
@@ -145,7 +145,7 @@ export const PT_B2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We'd go out more if the metro ran later.",
+            source: "We'd go out more if the subway ran later.",
             answer: "Nós sairíamos mais se o metrô funcionasse até mais tarde.",
             altAnswers: [
               "Sairíamos mais se o metrô funcionasse até mais tarde.",
@@ -354,7 +354,7 @@ export const PT_B2_U02: Lesson[] = [
         examples: [
           { es: "Se eu fosse você, eu falava com ela hoje.", en: "If I were you, I'd talk to her today." },
           { es: "Se eu fosse você, não aceitaria essa proposta.", en: "If I were you, I wouldn't accept that offer." },
-          { es: "Eu, se fosse você, ia de metrô.", en: "If I were you, I'd take the metro." },
+          { es: "Eu, se fosse você, ia de metrô.", en: "If I were you, I'd take the subway." },
           { es: "Se eu fosse a senhora, procurava um médico.", en: "If I were you, I'd see a doctor. (to an older woman)" },
           { es: "No seu lugar, eu pedia um aumento.", en: "In your shoes, I'd ask for a raise." },
         ],
@@ -378,7 +378,7 @@ export const PT_B2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Se eu fosse você, eu falava com ela hoje.",
-            tip: "\"Fosse\" has a closed o, like \"fôssi\", and its final e sounds like i.",
+            tip: "\"Fosse\" has a closed o, like FÔ-see, and its final e sounds like ee.",
             explanation: "Spoken advice: \"se eu fosse você\" + the imperfeito \"falava\" for would talk.",
           },
         ],
@@ -393,7 +393,7 @@ export const PT_B2_U02: Lesson[] = [
           { es: "Se o ônibus passasse no horário, eu não chegava atrasado.", en: "If the bus came on time, I wouldn't be late." },
           { es: "Se você me ajudasse, a gente terminava mais cedo.", en: "If you helped me, we'd finish earlier." },
           { es: "Se esse prédio tivesse elevador, minha vida era outra.", en: "If this building had an elevator, my life would be different." },
-          { es: "Se o metrô funcionasse direito, ninguém ia precisar de carro em São Paulo.", en: "If the metro worked properly, no one would need a car in São Paulo." },
+          { es: "Se o metrô funcionasse direito, ninguém ia precisar de carro em São Paulo.", en: "If the subway worked properly, no one would need a car in São Paulo." },
           { es: "Seria tão bom se os vizinhos fizessem menos barulho.", en: "It'd be so nice if the neighbors made less noise." },
         ],
         checkpoint: [
@@ -494,7 +494,7 @@ export const PT_B2_U02: Lesson[] = [
         type: "speak",
         text: "Se você me ajudasse, a gente terminava mais cedo.",
         prompt: "Say it in Portuguese: If you helped me, we'd finish earlier.",
-        tip: "Stress \"aju-DA-sse\" on the second-to-last syllable and keep the double s hissing, never buzzing like a z.",
+        tip: "Stress \"a-zhu-DA-see\" on the second-to-last syllable and keep the double s hissing, never buzzing like a z.",
         explanation: "A reproach as an unreal condition: \"ajudasse\" + the spoken \"terminava\" (would finish).",
       },
     ],
@@ -599,7 +599,7 @@ export const PT_B2_U02: Lesson[] = [
       {
         heading: "Como se nada tivesse acontecido",
         body: [
-          "When the imaginary event comes before the main action, Portuguese uses \"tivesse\" + past participle: \"Ele entrou como se nada tivesse acontecido\" (he walked in as if nothing had happened). Recognize it for now as 'as if ... had done'; this tense gets its own lesson in Unit 4.",
+          "When the imaginary event comes before the main action, Portuguese uses \"tivesse\" + past participle: \"Ele entrou como se nada tivesse acontecido\" (he walked in as if nothing had happened). Recognize it for now as 'as if ... had done'; this tense gets its own lesson in Unit 6.",
           "\"Como se\" can also stand alone as a sarcastic comeback: \"Como se eu não soubesse!\" (As if I didn't know!), \"Como se fosse fácil!\" (As if it were easy!). It still takes the subjunctive, and the tone makes it mean the opposite of what follows.",
         ],
         examples: [
@@ -778,7 +778,7 @@ export const PT_B2_U02: Lesson[] = [
       {
         heading: "Two kinds of if",
         body: [
-          "Every \"se\" sentence shows how the speaker rates the chances. \"Se você quiser\", \"se eu tiver tempo\", \"se chover\" and \"se ela ligar\" treat the condition as a real possibility. These are future subjunctive forms, which Unit 3 teaches properly. For now, learn this handful as chunks. Regular verbs look just like the infinitive (\"ligar\").",
+          "Every \"se\" sentence shows how the speaker rates the chances. \"Se você quiser\", \"se eu tiver tempo\", \"se chover\" and \"se ela ligar\" treat the condition as a real possibility. These are future subjunctive forms, which Unit 4 teaches properly. For now, learn this handful as chunks. Regular verbs look just like the infinitive (\"ligar\").",
           "The imperfect subjunctive from the last lessons (\"se você quisesse\", \"se eu tivesse tempo\", \"se chovesse\") makes the condition imaginary or unlikely. You're picturing it, not planning for it.",
           "English shows the same split with its tenses: if you want vs if you wanted. The trap is the English present. If I have time tomorrow is a real future condition, so it's \"se eu tiver tempo\", not \"se eu tenho tempo\". Keep \"se\" + present for general truths (\"se faz sol, a gente vai à praia\").",
         ],
@@ -1058,7 +1058,7 @@ export const PT_B2_U02: Lesson[] = [
         heading: "Mesmo se: the same idea, built like se",
         body: [
           "\"Mesmo se\" means the same and is very common in speech. It follows the rules of \"se\" from this unit: the imperfect subjunctive for the imaginary, and the conditional or the spoken imperfeito in the main clause: \"mesmo se ele pedisse, eu não iria\".",
-          "There is one difference. \"Se\" never takes the present subjunctive, so \"mesmo se chova\" is wrong. For a likely future event, use \"mesmo que\" + present subjunctive for now. \"Mesmo se\" in that case needs the future subjunctive, which comes in Unit 3. In formal writing \"mesmo que\" is the safer choice.",
+          "There is one difference. \"Se\" never takes the present subjunctive, so \"mesmo se chova\" is wrong. For a likely future event, use \"mesmo que\" + present subjunctive for now. \"Mesmo se\" in that case needs the future subjunctive, which comes in Unit 4. In formal writing \"mesmo que\" is the safer choice.",
         ],
         examples: [
           { es: "Mesmo se ele pedisse desculpas, eu não iria à festa dele.", en: "Even if he apologized, I wouldn't go to his party." },
@@ -1256,7 +1256,7 @@ export const PT_B2_U02: Lesson[] = [
         heading: "Tiver or tivesse: how likely is it?",
         body: [
           "With \"se\" about the future, Portuguese makes you rate the chances. \"Se eu tiver tempo\" means you may well have time. \"Se eu tivesse tempo\" means you doubt it or you're only imagining. English draws a similar line with if I have and if I had. Standard Portuguese, though, doesn't use the plain present for a single future event: you say \"se eu tiver\", not \"se eu tenho\".",
-          "Both forms grow from the same stem, the eles form of the perfeito. \"Tiveram\" gives \"tivesse\" and \"tiver\", \"puderam\" gives \"pudesse\" and \"puder\", and \"fizeram\" gives \"fizesse\" and \"fizer\". In regular verbs the likely form looks like the infinitive: \"se chover\", \"se eu ganhar\". The full set comes in Unit 3. For now you only need to hear and choose between the two.",
+          "Both forms grow from the same stem, the eles form of the perfeito. \"Tiveram\" gives \"tivesse\" and \"tiver\", \"puderam\" gives \"pudesse\" and \"puder\", and \"fizeram\" gives \"fizesse\" and \"fizer\". In regular verbs the likely form looks like the infinitive: \"se chover\", \"se eu ganhar\". The full set comes in Unit 4. For now you only need to hear and choose between the two.",
         ],
         examples: [
           { es: "Se eu tiver tempo, vou te ligar.", en: "If I have time, I'll call you." },
@@ -1845,14 +1845,14 @@ export const PT_B2_U02: Lesson[] = [
       {
         heading: "Se eu teria: no conditional after se",
         body: [
-          "The commonest slip in this unit is the conditional in both halves: \"*se eu teria tempo, viajaria mais\". English never puts would after if, and Portuguese is just as strict. The \"se\" half takes the imperfect subjunctive, \"se eu tivesse tempo\", and the conditional stays in the other half. Remember the stem: the eles perfeito minus -ram, so tiveram → \"tivesse\", souberam → \"soubesse\".",
+          "The commonest slip in this unit is the conditional in both halves: \"*se eu teria tempo, viajaria mais\". Standard English rarely puts would after if, and Portuguese never does. The \"se\" half takes the imperfect subjunctive, \"se eu tivesse tempo\", and the conditional stays in the other half. Remember the stem: the eles perfeito minus -ram, so tiveram → \"tivesse\", souberam → \"soubesse\".",
           "The second slip is the imperfeito indicative after \"se\" for something imaginary: \"*se eu tinha dinheiro agora, comprava uma casa\". You'll hear it in very casual speech, but it's stigmatized in careful speech and writing, so say \"se eu tivesse\". \"Se eu tinha\" is right only for a real past habit, where \"se\" means whenever.",
         ],
         examples: [
           { es: "Se eu tivesse tempo, viajaria mais.", en: "If I had time, I'd travel more." },
           { es: "Se ela soubesse a verdade, ficaria furiosa.", en: "If she knew the truth, she'd be furious." },
           { es: "Se nós morássemos em Curitiba, sentiríamos mais frio.", en: "If we lived in Curitiba, we'd feel the cold more." },
-          { es: "Se o metrô funcionasse de madrugada, eu não pegaria táxi.", en: "If the metro ran overnight, I wouldn't take taxis." },
+          { es: "Se o metrô funcionasse de madrugada, eu não pegaria táxi.", en: "If the subway ran overnight, I wouldn't take taxis." },
           { es: "Quando eu era criança, se eu tinha dinheiro, comprava bala.", en: "As a kid, whenever I had money, I bought candy." },
         ],
         checkpoint: [
@@ -2107,7 +2107,7 @@ export const PT_B2_U02: Lesson[] = [
         type: "speak",
         text: "Ele fala como se fosse o dono.",
         prompt: "Say it in Portuguese: He talks as if he were the owner.",
-        tip: "Both o's in fosse and dono are closed, as in ô, and the final -e of fosse sounds like i.",
+        tip: "Both o's in fosse and dono are closed, as in ô, and the final -e of fosse sounds like ee: FÔ-see.",
         explanation: "\"Como se fosse\": the imperfect subjunctive after como se, even with a present-tense main verb.",
       },
       {
@@ -2423,7 +2423,7 @@ export const PT_B2_U02: Lesson[] = [
           { left: "Em compensação", right: "To make up for it" },
           { left: "Mesmo que ganhasse menos", right: "Even if I earned less" },
           { left: "Como se estivesse de férias", right: "As if I were on vacation" },
-          { left: "Em vez de pegar o metrô", right: "Instead of taking the metro" },
+          { left: "Em vez de pegar o metrô", right: "Instead of taking the subway" },
           { left: "Eu me mudaria amanhã", right: "I'd move tomorrow" },
         ],
         explanation: "These are the building blocks that turn one unreal condition into a paragraph: connectors, a concession, a comparison and a conditional consequence.",
@@ -2536,7 +2536,7 @@ export const PT_B2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Se eu tivesse mais tempo, aprenderia a tocar violão.",
-            tip: "Stress ti-VES-se with a sharp s sound for the ss. Stress a-pren-de-RI-a on the i.",
+            tip: "Stress chee-VÉ-see, with an open é and a sharp s sound for the ss. Stress a-pren-de-RI-a on the i.",
             explanation: "\"Tivesse\" (imperfect subjunctive of \"ter\") after \"se\", then the conditional \"aprenderia\".",
           },
         ],
@@ -2710,7 +2710,7 @@ export const PT_B2_U02: Lesson[] = [
         type: "speak",
         text: "Se eu fosse você, descansaria mais.",
         prompt: "Say it in Portuguese: If I were you, I'd rest more.",
-        tip: "Stress FOS-se on the first syllable and des-can-sa-RI-a on the i.",
+        tip: "Stress FÔ-see on the first syllable and des-kã-sa-RI-a on the i.",
         explanation: "\"Se eu fosse você\" + conditional \"descansaria\" is the classic advice pattern.",
       },
       {

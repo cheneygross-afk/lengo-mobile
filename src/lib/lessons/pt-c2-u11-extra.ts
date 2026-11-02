@@ -25,7 +25,7 @@ export const PT_C2_U11_EXTRA: Lesson[] = [
           { es: "Sexta, às sete, aqui em casa. Faço questão!", en: "Friday, at seven, at my place. I insist!" },
           { es: "Eu queria ver se ainda dá para mudar a reserva.", en: "I wanted to see if it's still possible to change the reservation." },
           { es: "Não teria como o senhor me atender hoje?", en: "Is there any way you could see me today?" },
-          { es: "Nossa, que sede... — Quer que eu pegue uma água?", en: "Goodness, I'm thirsty... — Shall I get you some water?" },
+          { es: "Nossa, que sede... — Quer que eu pegue uma água?", en: "Goodness, I'm thirsty... — Do you want me to get you some water?" },
         ],
         checkpoint: [
           {
@@ -96,7 +96,7 @@ export const PT_C2_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Shall I get you some water?",
+        source: "Do you want me to get you some water?",
         answer: "Quer que eu pegue uma água?",
         altAnswers: ["Quer que eu pegue uma água para você?", "Quer que eu pegue água?", "Quer que eu traga uma água?", "Você quer que eu pegue uma água?", "Quer que eu pegue um copo d'água?", "Quer que eu traga um copo d'água?"],
         explanation: "\"Querer que\" + present subjunctive: \"pegue\" (from \"pegar\", with gu before e). Brazilians say \"uma água\" for a glass of water.",
@@ -139,9 +139,9 @@ export const PT_C2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Shall I close the window?",
+        prompt: "Put the words in order to say: Do you want me to close the window?",
         words: ["Quer", "que", "eu", "feche", "a", "janela?"],
-        translation: "Shall I close the window?",
+        translation: "Do you want me to close the window?",
         explanation: "\"Feche\" is the present subjunctive of \"fechar\", required after \"quer que\".",
       },
       {
@@ -167,7 +167,7 @@ export const PT_C2_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "Pode deixar, apareço, sim!",
         prompt: "Answer \"Aparece lá em casa!\" warmly. Say it in Portuguese: Count on it, I'll drop by!",
-        tip: "\"Apareço\" stresses the third syllable: a-pa-RÊ-su.",
+        tip: "\"Apareço\" stresses the third syllable: a-pa-RÊ-soo.",
         explanation: "Matching the ritual politely closes the exchange and promises nothing specific.",
       },
     ],

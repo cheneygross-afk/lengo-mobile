@@ -339,7 +339,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Medical German, Informing, Consenting and Breaking Bad News, Part 3 of 3",
-    summary: "Choose tactful formulations, follow the steps of an Aufklärungsgespräch and phrase consent, risks and bad news in clear, humane German.",
+    summary: "Choose tactful formulations, follow the steps of an \"Aufklärungsgespräch\" and phrase consent, risks and bad news in clear, humane German.",
     duration: "16 min",
     sections: [
       {

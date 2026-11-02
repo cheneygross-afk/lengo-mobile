@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   View,
   Text,
@@ -12,7 +12,7 @@ import {
   type ViewStyle,
 } from "react-native";
 import type { LessonHighlight } from "@/lib/highlights";
-import { speak, type SpeechLang } from "@/lib/speech";
+import { prefetchSpeech, speak, type SpeechLang } from "@/lib/speech";
 import { OLD_HANGUL, targetWordTest } from "@/components/TapText";
 
 // Mobile has no equivalent of the web app's window.getSelection() (see
@@ -131,6 +131,13 @@ export default function HighlightableText({
 
   const tokens = useMemo(() => tokenize(text), [text]);
   const words = useMemo(() => tokens.filter((t) => t.isWord), [tokens]);
+  // Loads the first few words' clips as the block appears, so the first
+  // taps play at once instead of after a download.
+  useEffect(() => {
+    if (!lang) return;
+    for (const w of words.slice(0, 8)) if (voiced(w)) prefetchSpeech(w.value, lang);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [text, lang]);
   // Which words tap-to-hear plays: only the language being learned, and
   // never a word with old Hangul (see TapText's OLD_HANGUL).
   const voiced = useMemo(() => {
@@ -295,6 +302,7 @@ export default function HighlightableText({
               const { x, y, width, height } = e.nativeEvent.layout;
               wordRects.current.set(idx, { x, y, width, height });
             }}
+            onPressIn={lang && voiced(token) ? () => prefetchSpeech(token.value, lang) : undefined}
             onPress={() => handleWordTap(token)}
             onLongPress={onWordLongPress ? () => onWordLongPress(token.value) : undefined}
             style={[textStyle, styles.word, isMarked?.(token.value) ? styles.marked : null, bg ? { backgroundColor: bg } : null]}

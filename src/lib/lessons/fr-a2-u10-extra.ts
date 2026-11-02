@@ -276,7 +276,7 @@ export const FR_A2_U10_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "He's the most generous person I know.",
         answer: "C'est la personne la plus généreuse que je connais.",
-        altAnswers: ["C'est la personne la plus généreuse que je connaisse.", "Il est la personne la plus généreuse que je connais."],
+        altAnswers: ["C'est la personne la plus généreuse que je connaisse."],
         explanation: "\"Personne\" is always feminine, even for a man: \"la plus généreuse\".",
       },
       {

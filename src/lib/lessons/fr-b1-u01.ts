@@ -704,16 +704,16 @@ export const FR_B1_U01: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each past participle with its infinitive.",
+        instructions: "Match the French and the English.",
         pairs: [
-          { left: "pris", right: "prendre" },
-          { left: "mis", right: "mettre" },
-          { left: "reçu", right: "recevoir" },
-          { left: "vécu", right: "vivre" },
-          { left: "su", right: "savoir" },
-          { left: "plu", right: "plaire" },
+          { left: "J'ai pris le bus.", right: "I took the bus." },
+          { left: "J'ai mis la table.", right: "I set the table." },
+          { left: "J'ai reçu ta lettre.", right: "I got your letter." },
+          { left: "J'ai vécu à Lyon.", right: "I lived in Lyon." },
+          { left: "Je l'ai su hier.", right: "I found out yesterday." },
+          { left: "Le film m'a plu.", right: "I liked the film." },
         ],
-        explanation: "The irregular participles have to be learned, but they group by sound: -is, -u, -it, -ert.",
+        explanation: "The irregular participles have to be learned, but they group by sound: \"pris\" and \"mis\" (-is), \"reçu\", \"vécu\", \"su\" and \"plu\" (-u). In the passé composé, \"savoir\" usually means found out, and \"plaire\" turns the sentence round: the film pleased me.",
       },
       {
         type: "multiple-choice",
@@ -2642,15 +2642,15 @@ export const FR_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Chloé wrote \"Nous sommes arrivé à Avignon\". What's wrong?",
+        question: "Chloé wrote \"Nous sommes arrivé à Avignon\" about herself and her sister. How should she write: We arrived in Avignon?",
         options: [
-          "The auxiliary should be \"avons\".",
-          "It should be in the imparfait.",
-          "Nothing is wrong.",
-          "The participle must agree: \"arrivées\".",
+          "Nous avons arrivé à Avignon.",
+          "Nous arrivions à Avignon.",
+          "Nous sommes arrivé à Avignon.",
+          "Nous sommes arrivées à Avignon.",
         ],
         correctIndex: 3,
-        explanation: "With \"être\" the participle agrees with \"nous\" (two women): \"arrivées\".",
+        explanation: "With \"être\" the participle agrees with \"nous\" (two women): \"arrivées\". \"Arriver\" never takes \"avons\", and the imparfait \"arrivions\" would describe a scene, not the arrival.",
       },
       {
         type: "listen-choose",
@@ -3085,8 +3085,13 @@ export const FR_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"D'habitude, je ___ le bus, mais ce jour-là, j'ai pris un taxi.\" Which form fits?",
-        options: ["ai pris", "prends", "prenais", "viens de prendre"],
+        question: "How do you say: I usually took the bus, but that day I took a taxi?",
+        options: [
+          "D'habitude, j'ai pris le bus, mais ce jour-là, j'ai pris un taxi.",
+          "D'habitude, je prends le bus, mais ce jour-là, j'ai pris un taxi.",
+          "D'habitude, je prenais le bus, mais ce jour-là, j'ai pris un taxi.",
+          "D'habitude, je venais de prendre le bus, mais ce jour-là, j'ai pris un taxi.",
+        ],
         correctIndex: 2,
         explanation: "\"D'habitude\" in a past story signals a habit: imparfait \"prenais\".",
       },
@@ -3304,7 +3309,7 @@ export const FR_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Retell \"Pendant que je lis, mon frère regarde la télé\" in the past.",
+        question: "How do you say: While I was reading, my brother was watching TV?",
         options: [
           "Pendant que je lisais, mon frère regardait la télé.",
           "Pendant que j'ai lu, mon frère a regardé la télé.",

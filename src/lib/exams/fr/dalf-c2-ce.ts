@@ -87,8 +87,8 @@ export const DALF_C2_CE: ExamPaper = {
           options: [
             "s'explique uniquement par les programmes de reboisement.",
             "a longtemps donné le sentiment que la forêt métropolitaine ne courait aucun danger.",
-            "s'est brutalement interrompue à la fin des années 2010.",
-            "a été freinée par la déforestation tropicale.",
+            "s'est brutalement interrompue avec les sécheresses de la fin des années 2010.",
+            "a été ralentie par l'exode rural et la déprise agricole.",
           ],
           answer: 1,
           explanation:
@@ -100,9 +100,9 @@ export const DALF_C2_CE: ExamPaper = {
           question: "Pourquoi les épicéas du Nord-Est ont-ils été particulièrement touchés ?",
           options: [
             "Ils avaient été plantés en dehors de leurs conditions naturelles, puis affaiblis par les sécheresses.",
-            "Ils ont été victimes d'un champignon venu d'Asie.",
-            "Ils ont été détruits par des incendies.",
-            "Ils étaient trop vieux pour résister aux tempêtes.",
+            "Ils ont été victimes d'un champignon venu d'Asie qui s'est propagé dans tout le massif.",
+            "Ils ont été détruits par des incendies devenus fréquents dans cette région.",
+            "Ils étaient trop vieux pour résister aux violentes tempêtes de l'hiver.",
           ],
           answer: 0,
           explanation:
@@ -141,10 +141,10 @@ export const DALF_C2_CE: ExamPaper = {
           source: 1,
           question: "Qu'est-ce que la « migration assistée » évoquée par Marc Delorme ?",
           options: [
-            "Le déplacement des forestiers vers les régions les plus touchées.",
+            "Le déplacement des équipes de forestiers vers les régions les plus touchées par les scolytes.",
             "L'introduction d'essences venues de régions plus chaudes pour accélérer leur déplacement naturel.",
-            "Le transport des grumes vers les scieries étrangères.",
-            "Le retour des essences locales sur leurs terres d'origine.",
+            "Le transport des grumes vers les scieries étrangères, faute de débouchés locaux.",
+            "Le retour progressif des essences locales sur les terres d'où elles avaient disparu.",
           ],
           answer: 1,
           explanation:
@@ -197,10 +197,10 @@ export const DALF_C2_CE: ExamPaper = {
           source: 2,
           question: "Que reprochent les auteurs du document 3 aux aides publiques au renouvellement forestier ?",
           options: [
-            "D'être trop faibles pour être efficaces.",
+            "D'être trop faibles pour permettre un véritable renouvellement des forêts.",
             "D'avoir financé le remplacement de peuplements parfois sains par des monocultures.",
-            "D'avoir interdit les coupes rases.",
-            "D'avoir favorisé les propriétaires publics au détriment des privés.",
+            "D'avoir interdit les coupes rases, même dans les peuplements dépérissants.",
+            "D'avoir favorisé les forêts publiques au détriment des propriétaires privés.",
           ],
           answer: 1,
           explanation:
@@ -226,9 +226,9 @@ export const DALF_C2_CE: ExamPaper = {
           question: "La sylviculture « à couvert continu » consiste notamment à…",
           options: [
             "maintenir en permanence un couvert forestier en prélevant les arbres de façon sélective.",
-            "planter des essences à croissance rapide sous les arbres existants.",
-            "interdire toute exploitation du bois.",
-            "replanter immédiatement après chaque coupe.",
+            "planter des essences à croissance rapide à l'ombre des arbres existants.",
+            "interdire toute exploitation du bois pour laisser la forêt évoluer librement.",
+            "replanter immédiatement une seule essence après chaque coupe.",
           ],
           answer: 0,
           explanation:
@@ -266,10 +266,10 @@ export const DALF_C2_CE: ExamPaper = {
           source: 3,
           question: "Quel paradoxe le document 4 met-il en évidence ?",
           options: [
-            "La forêt française recule alors que la filière bois embauche.",
+            "La forêt française recule, alors que la filière bois ne cesse d'embaucher.",
             "La France possède une grande forêt mais importe une large part de ses produits bois transformés.",
-            "Les forêts publiques sont plus étendues que les forêts privées.",
-            "Le bois énergie stocke plus de carbone que le bois d'œuvre.",
+            "Les forêts publiques couvrent une surface plus grande que les forêts privées.",
+            "Le bois énergie stocke le carbone plus longtemps que le bois de construction.",
           ],
           answer: 1,
           explanation:
@@ -280,10 +280,10 @@ export const DALF_C2_CE: ExamPaper = {
           source: 3,
           question: "D'après le document 4, quelle caractéristique de la propriété forestière complique la gestion des forêts ?",
           options: [
-            "La forêt appartient majoritairement à l'État.",
-            "Les forêts communales sont trop vastes pour être gérées.",
+            "La forêt appartient majoritairement à l'État, qui manque de moyens pour la gérer.",
+            "Les forêts communales sont trop vastes pour être gérées par les seules mairies.",
             "Beaucoup de petits propriétaires privés n'assurent aucune gestion suivie de leur parcelle.",
-            "Les propriétaires privés sont trop peu nombreux.",
+            "Les propriétaires privés sont trop peu nombreux pour entretenir toutes les parcelles.",
           ],
           answer: 2,
           explanation:
@@ -294,10 +294,10 @@ export const DALF_C2_CE: ExamPaper = {
           source: 4,
           question: "Selon le document 5, l'attachement croissant des Français à la forêt…",
           options: [
-            "les conduit à mieux comprendre le travail des forestiers.",
+            "les conduit à mieux comprendre et à mieux accepter le travail des forestiers.",
             "s'accompagne souvent d'une méconnaissance de la propriété et de la gestion forestières.",
-            "s'est affaibli depuis la fin des confinements.",
-            "concerne surtout les propriétaires forestiers.",
+            "s'est nettement affaibli depuis la fin des confinements successifs.",
+            "concerne surtout les propriétaires forestiers et les habitants des campagnes.",
           ],
           answer: 1,
           explanation:
@@ -308,9 +308,9 @@ export const DALF_C2_CE: ExamPaper = {
           source: 4,
           question: "Que préconise l'auteur du document 5 pour apaiser les conflits d'usage ?",
           options: [
-            "Interdire la chasse pendant les week-ends.",
-            "Clarifier le statut juridique des forêts.",
-            "Adopter un nouveau plan national pour la forêt.",
+            "Interdire la chasse pendant les week-ends pour protéger les promeneurs.",
+            "Clarifier le statut juridique des forêts privées ouvertes au public.",
+            "Adopter un nouveau plan national associant l'État et les régions.",
             "Instaurer un dialogue entre usagers et gestionnaires, par exemple en expliquant les coupes.",
           ],
           answer: 3,

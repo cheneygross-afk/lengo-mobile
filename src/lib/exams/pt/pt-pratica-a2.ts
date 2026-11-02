@@ -46,7 +46,7 @@ const ESCRITA: ExamPaper = {
             "Sounds like a message to a friend: \"Oi, Carla! … Beijos\" / \"Um abraço\"",
             "Uses \"vou\" + infinitive for plans (\"vou levar uma sobremesa\")",
             "Asks a real question with a question word (\"Que horas…?\" \"Onde…?\" \"Posso levar…?\")",
-            "Mentions something from the message (the birthday, the pool, the address near the metro)",
+            "Mentions something from the message (the birthday, the pool, the address near the subway)",
           ],
           modelAnswer: paras(
             "Oi, Carla! Tudo bem?",
@@ -90,7 +90,7 @@ const ESCRITA: ExamPaper = {
           modelAnswer: paras(
             "Bom dia!",
             "Meu nome é Tom Becker e moro em Salvador há três meses. Vi o anúncio das oficinas de férias e gostaria de fazer a oficina de culinária baiana, porque adoro cozinhar e quero aprender a fazer moqueca.",
-            "Tenho uma pergunta: as aulas são em grupo? Quantas pessoas tem em cada turma?",
+            "Tenho uma pergunta: as aulas são em grupo? Quantas pessoas há em cada turma?",
             "Posso começar no próximo sábado, dia 10.",
             "Obrigado e até logo!\nTom Becker",
           ),

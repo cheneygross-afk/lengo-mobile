@@ -150,7 +150,7 @@ export const PT_B1_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Você conhece algum lugar que abra domingo?",
         prompt: "Say it in Portuguese: Do you know anywhere that opens on Sunday?",
-        tip: "Domingo: do-MIN-gu.",
+        tip: "Domingo: doo-MĨ-goo.",
         explanation: "You're asking whether such a place exists, so the subjunctive \"abra\" (from \"abro\").",
       },
       {
@@ -252,9 +252,9 @@ export const PT_B1_U05_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "I haven't found anything that I like.",
-        answer: "Não encontrei nada que eu goste.",
-        altAnswers: ["Não achei nada que eu goste.", "Não encontrei nada de que eu goste."],
-        explanation: "\"Nada que\" + subjunctive \"goste\". Careful writing keeps the preposition: \"nada de que eu goste\".",
+        answer: "Não encontrei nada de que eu goste.",
+        altAnswers: ["Não encontrei nada que eu goste.", "Não achei nada que eu goste.", "Não achei nada de que eu goste."],
+        explanation: "\"Nada de que\" + subjunctive \"goste\": \"gostar de\" keeps its preposition in careful writing. In speech the \"de\" usually drops: \"nada que eu goste\".",
       },
       {
         type: "translate",

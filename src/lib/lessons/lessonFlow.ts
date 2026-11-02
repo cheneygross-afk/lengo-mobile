@@ -73,7 +73,7 @@ export type BodyPiece = { text: string; from: number; whole: boolean };
 const CARD_WORDS = 80;
 // Never leave a card shorter than this (it would read as a fragment).
 const MIN_CARD_WORDS = 35;
-const words = (s: string) => {
+export const words = (s: string) => {
   const cjk = s.match(/[぀-ヿ㐀-鿿가-힯]/g)?.length ?? 0;
   return s.split(/\s+/).filter(Boolean).length + Math.round(cjk / 2);
 };

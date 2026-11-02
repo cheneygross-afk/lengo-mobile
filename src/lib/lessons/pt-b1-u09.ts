@@ -69,7 +69,7 @@ export const PT_B1_U09: Lesson[] = [
       {
         heading: "Para vocês entenderem: so someone else can",
         body: [
-          "The personal infinitive appears most often after \"para\", when the second action has a different subject: \"Vou falar mais devagar para vocês entenderem\" (I'll speak more slowly so you understand). I speak and you understand, so the infinitive takes the vocês ending. It's a lighter way to say \"para que vocês entendam\" from Unit 4.",
+          "The personal infinitive appears most often after \"para\", when the second action has a different subject: \"Vou falar mais devagar para vocês entenderem\" (I'll speak more slowly so you understand). I speak and you understand, so the infinitive takes the vocês ending. It's a lighter way to say \"para que vocês entendam\" from Unit 6.",
           "The order is fixed: \"para\", then the subject, then the infinitive. With eu the subject is \"eu\", so you say \"para eu ir\" and not \"para mim ir\". You'll hear \"para mim ir\" a lot, but it counts as a mistake in writing and careful speech.",
         ],
         examples: [
@@ -159,7 +159,7 @@ export const PT_B1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Depois de a gente comer, vamos para a praia.",
-            tip: "\"de\" sounds like \"dji\" and runs straight into \"a gente\".",
+            tip: "\"de\" sounds like \"jee\" and runs straight into \"a gente\".",
             explanation: "\"A gente\" takes the ele form, so the infinitive stays \"comer\" with no ending.",
           },
         ],
@@ -284,7 +284,7 @@ export const PT_B1_U09: Lesson[] = [
         type: "speak",
         text: "Trouxe um bolo para vocês experimentarem.",
         prompt: "Say it in Portuguese: I brought a cake for you all to try.",
-        tip: "Stress experimen-TA-rem and keep the final -em nasal, with no clear m.",
+        tip: "Stress es-pe-ree-mẽ-TA-rẽy and keep the final -em nasal, with no clear m.",
         explanation: "I brought and you try, which makes two subjects. So you need \"para vocês experimentarem\".",
       },
       {
@@ -385,7 +385,7 @@ export const PT_B1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Está na hora de vocês irem embora.",
-            tip: "Stress the i of irem (I-rem) and make the final -em a light nasal ẽi.",
+            tip: "Stress the i of irem (EE-rẽy) and make the final -em a light nasal ẽy.",
             explanation: "\"De vocês irem\": the subject \"vocês\" makes \"ir\" take \"-em\".",
           },
         ],
@@ -394,7 +394,7 @@ export const PT_B1_U09: Lesson[] = [
         heading: "Sem eles saberem, até nós terminarmos",
         body: [
           "English says without them knowing and until we finish, with an object pronoun and -ing. Portuguese uses \"sem\" or \"até\", then a subject pronoun, then the personal infinitive: \"sem eles saberem\", \"até nós terminarmos\". Never use the gerund here: \"sem eles sabendo\" is wrong.",
-          "The pronoun is always the subject form, so it's \"sem eu ver\" (without me seeing), not \"sem mim ver\". These mean the same as \"sem que\" and \"até que\" + subjunctive from Unit 4, but sound lighter in everyday speech.",
+          "The pronoun is always the subject form, so it's \"sem eu ver\" (without me seeing), not \"sem mim ver\". These mean the same as \"sem que\" and \"até que\" + subjunctive from Unit 6, but sound lighter in everyday speech.",
         ],
         examples: [
           { es: "Eles saíram sem a gente perceber.", en: "They left without us noticing." },
@@ -496,7 +496,7 @@ export const PT_B1_U09: Lesson[] = [
       {
         type: "dictation",
         audio: "É melhor nós sairmos cedo.",
-        explanation: "\"Nós sairmos\" has no accent, but \"eles saírem\" does. The í is only written where it ends its syllable: sa-í-rem.",
+        explanation: "\"Nós sairmos\" has no accent, but \"eles saírem\" does. The í is only written where it ends its syllable: sa-EE-rẽy.",
       },
       {
         type: "speak",
@@ -529,7 +529,7 @@ export const PT_B1_U09: Lesson[] = [
       {
         heading: "Para que vocês entendam = para vocês entenderem",
         body: [
-          "Sometimes the person after \"para\" is not the subject of the main verb. Portuguese then gives you two sentences with the same meaning. You know \"para que\" + subjunctive from Unit 4: \"vou repetir para que vocês entendam\". Drop \"que\" and use the personal infinitive instead: \"vou repetir para vocês entenderem\".",
+          "Sometimes the person after \"para\" is not the subject of the main verb. Portuguese then gives you two sentences with the same meaning. You know \"para que\" + subjunctive from Unit 6: \"vou repetir para que vocês entendam\". Drop \"que\" and use the personal infinitive instead: \"vou repetir para vocês entenderem\".",
           "The swap is mechanical. The subject stays where it is, and the subjunctive becomes the infinitive with its person ending. Eu, você, ele, ela and a gente take no ending. Nós takes -mos. Vocês, eles, elas and plural nouns take -em. \"Para que os alunos estudem\" becomes \"para os alunos estudarem\".",
           "Watch the pronoun. The person after \"para\" is the subject of the infinitive, so you say \"para eu entender\". \"Para mim entender\" is common in casual speech but counts as a mistake. Keep \"para mim\" for 'for me' with no verb after it: \"é difícil para mim\".",
         ],
@@ -588,7 +588,7 @@ export const PT_B1_U09: Lesson[] = [
         heading: "No irregular forms, and the other pairs",
         body: [
           "This is where the infinitive pays off: it has no irregular forms. \"Para que eles façam\" becomes \"para eles fazerem\". \"Para que vocês sejam\" becomes \"para vocês serem\". \"Para que a gente vá\" becomes \"para a gente ir\". You don't have to recall \"faça\", \"seja\" or \"vá\" mid-sentence.",
-          "The same swap works with the other pairs from Unit 4: \"antes que\" → \"antes de\", \"sem que\" → \"sem\", \"até que\" → \"até\". It also works with impersonal expressions: \"é melhor que vocês tragam\" → \"é melhor vocês trazerem\". In a negative, \"não\" goes right before the infinitive: \"para o cachorro não sair\".",
+          "The same swap works with the other pairs from Unit 6: \"antes que\" → \"antes de\", \"sem que\" → \"sem\", \"até que\" → \"até\". It also works with impersonal expressions: \"é melhor que vocês tragam\" → \"é melhor vocês trazerem\". In a negative, \"não\" goes right before the infinitive: \"para o cachorro não sair\".",
         ],
         examples: [
           { es: "A empresa paga o curso para os funcionários serem mais produtivos.", en: "The company pays for the course so the staff are more productive." },
@@ -672,7 +672,7 @@ export const PT_B1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Pra vocês terem uma ideia, o voo atrasou seis horas.",
-            tip: "\"Pra\" is one quick syllable. The -em of \"terem\" is nasal, close to 'ẽi', with no clear n.",
+            tip: "\"Pra\" is one quick syllable. The -em of \"terem\" is nasal, close to 'ẽy', with no clear n.",
             explanation: "\"Pra vocês terem uma ideia\" is a very common spoken opener, with the personal infinitive \"terem\".",
           },
         ],
@@ -1091,7 +1091,7 @@ export const PT_B1_U09: Lesson[] = [
       {
         heading: "-em for vocês and eles: antes de eles chegarem",
         body: [
-          "For \"vocês\", \"eles\" and \"elas\", add -em: \"falarem\", \"comerem\", \"abrirem\", and with irregular verbs \"fazerem\", \"terem\", \"irem\", \"serem\", \"verem\". The stress stays where it was in the infinitive: fa-LAR, fa-LA-rem; sa-BER, sa-BER-mos.",
+          "For \"vocês\", \"eles\" and \"elas\", add -em: \"falarem\", \"comerem\", \"abrirem\", and with irregular verbs \"fazerem\", \"terem\", \"irem\", \"serem\", \"verem\". The stress stays where it was in the infinitive: fa-LAR, fa-LA-rẽy; sa-BÊR, sa-BÊR-moos.",
           "Verbs in -air and -uir need a written accent before -em to keep the stress on the i: \"saírem\", \"caírem\", \"construírem\". Before -mos there is no accent: \"sairmos\".",
           "These endings follow any preposition: \"para\", \"antes de\", \"depois de\", \"até\", \"sem\", and \"por\" for a reason, as in \"por eles serem jovens\".",
         ],
@@ -1100,7 +1100,7 @@ export const PT_B1_U09: Lesson[] = [
           { es: "Precisamos limpar a casa antes de eles chegarem.", en: "We need to clean the house before they arrive." },
           { es: "Ninguém pode sair até os pais assinarem o formulário.", en: "No one can leave until the parents sign the form." },
           { es: "O ônibus partiu sem elas perceberem.", en: "The bus left without them noticing." },
-          { es: "A loja deu desconto para eles por serem estudantes.", en: "The shop gave them a discount because they're students." },
+          { es: "A loja deu desconto para eles por serem estudantes.", en: "The store gave them a discount because they're students." },
           { es: "Depois de vocês fazerem o check-in, o hotel entrega a chave.", en: "After you check in, the hotel gives you the key." },
         ],
         checkpoint: [
@@ -1167,7 +1167,7 @@ export const PT_B1_U09: Lesson[] = [
           {
             type: "speak",
             text: "É importante nós sabermos a verdade.",
-            tip: "Keep the stress on the infinitive's last syllable: sa-BER-mos, not SA-ber-mos.",
+            tip: "Keep the stress on the infinitive's last syllable: sa-BÊR-moos, not SA-ber-moos.",
             explanation: "\"É importante nós sabermos\": the subject before the infinitive, and the -mos ending for nós.",
           },
         ],
@@ -1260,7 +1260,7 @@ export const PT_B1_U09: Lesson[] = [
         type: "speak",
         text: "É melhor vocês irem de ônibus.",
         prompt: "Say it in Portuguese: You'd better go by bus. (to friends)",
-        tip: "Stress the first syllable of irem: I-rem, and keep the final -em nasal.",
+        tip: "Stress the first syllable of irem: EE-rẽy, and keep the final -em nasal.",
         explanation: "\"É melhor vocês irem\": \"ir\" + -em, never \"é melhor vocês vão\".",
       },
       {
@@ -1331,7 +1331,7 @@ export const PT_B1_U09: Lesson[] = [
         body: [
           "After prepositions like \"antes de\", \"depois de\", \"para\", \"sem\" and \"até\", compare the subject of the infinitive with the subject of the main verb. If they're the same, use the plain form: \"eles jantaram antes de sair\" (they ate, and they left).",
           "If they're different, inflect: \"nós jantamos antes de eles saírem\" (we ate, they left). The ending tells the listener who does the second action. With the same subject \"saírem\" isn't wrong, but the plain form sounds more natural, as you saw last lesson.",
-          "Watch the accent: \"saírem\" has one to keep the í as its own syllable (sa-í-rem), but \"sairmos\" doesn't need one.",
+          "Watch the accent: \"saírem\" has one to keep the í as its own syllable (sa-EE-rẽy), but \"sairmos\" doesn't need one.",
         ],
         examples: [
           { es: "Eles jantaram antes de sair.", en: "They had dinner before leaving." },
@@ -1464,7 +1464,7 @@ export const PT_B1_U09: Lesson[] = [
         question: "What did you hear?",
         options: ["Me liga antes de eles saírem.", "Me liga antes de sair.", "Me liga antes de eles saberem.", "Me liga depois de eles saírem."],
         correctIndex: 0,
-        explanation: "\"Antes de eles saírem\": call me before they leave. Listen for the stressed í: sa-Í-rem.",
+        explanation: "\"Antes de eles saírem\": call me before they leave. Listen for the stressed í: sa-EE-rẽy.",
       },
       {
         type: "dictation",
@@ -1475,7 +1475,7 @@ export const PT_B1_U09: Lesson[] = [
         type: "speak",
         text: "Nós jantamos antes de eles saírem.",
         prompt: "Say it in Portuguese: We had dinner before they left.",
-        tip: "Stress the í in saírem: three syllables, sa-Í-rem.",
+        tip: "Stress the í in saírem: three syllables, sa-EE-rẽy.",
         explanation: "We ate, they left: different subjects, so \"eles saírem\".",
       },
       {
@@ -1632,7 +1632,7 @@ export const PT_B1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Para vocês não se preocuparem, eu levo o carregador extra.",
-            tip: "Stress pre-o-cu-PA-rem; the final -em is a nasal sound like 'eyn', with no clear n.",
+            tip: "Stress pre-o-koo-PA-rẽy; the final -em is a nasal sound like 'ẽy', with no clear n.",
             explanation: "\"Para vocês não se preocuparem\": the reflexive \"se\" sits before the infinitive, which takes -em for vocês.",
           },
         ],
@@ -1708,7 +1708,7 @@ export const PT_B1_U09: Lesson[] = [
         type: "speak",
         text: "É melhor vocês levarem casaco.",
         prompt: "Say it in Portuguese: You'd better bring a coat. (to friends)",
-        tip: "Stress le-VA-rem and make the final -em nasal.",
+        tip: "Stress le-VA-rẽy and make the final -em nasal.",
         explanation: "\"É melhor vocês levarem\": impersonal expression + subject + personal infinitive.",
       },
       {
@@ -1870,7 +1870,7 @@ export const PT_B1_U09: Lesson[] = [
           {
             type: "speak",
             text: "É melhor vocês saírem antes da chuva.",
-            tip: "Stress sa-Í-rem, as the accent shows, and end on a light nasal -em with no full n.",
+            tip: "Stress sa-EE-rẽy, as the accent shows, and end on a light nasal -em with no full n.",
             explanation: "\"É melhor vocês saírem\": impersonal expression + subject + personal infinitive.",
           },
         ],
@@ -1948,7 +1948,7 @@ export const PT_B1_U09: Lesson[] = [
         type: "speak",
         text: "É importante nós chegarmos na hora.",
         prompt: "Say it in Portuguese: It's important for us to arrive on time.",
-        tip: "Stress che-GAR-mos: the -mos ending doesn't move the stress.",
+        tip: "Stress she-GAR-moos: the -mos ending doesn't move the stress.",
         explanation: "\"É importante nós chegarmos\": an impersonal expression with its own subject takes the personal infinitive.",
       },
       {
@@ -2071,7 +2071,7 @@ export const PT_B1_U09: Lesson[] = [
           {
             type: "speak",
             text: "É bom eles saberem a verdade.",
-            tip: "Stress sa-BE-rem; the final -em is nasal, close to \"ẽy\", with no clear n.",
+            tip: "Stress sa-BÊ-rẽy; the final -em is nasal, close to \"ẽy\", with no clear n.",
             explanation: "\"Eles saberem\" is the personal infinitive standing in for \"que eles saibam\".",
           },
         ],
@@ -2226,7 +2226,7 @@ export const PT_B1_U09: Lesson[] = [
         type: "speak",
         text: "Antes de vocês saírem, fechem as janelas.",
         prompt: "Say it in Portuguese: Before you guys leave, close the windows.",
-        tip: "Stress the í in sa-Í-rem: three syllables, not \"sai-rem\".",
+        tip: "Stress the í in sa-EE-rẽy: three syllables, not \"SAI-rẽy\".",
         explanation: "\"Antes de vocês saírem\" replaces \"antes que vocês saiam\"; the accent keeps the i stressed.",
       },
       {
@@ -2396,7 +2396,7 @@ export const PT_B1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Temos acordado cedo para as crianças não chegarem atrasadas.",
-            tip: "The final -em of chegarem is nasal, close to 'ẽin', with no clear n.",
+            tip: "The final -em of chegarem is nasal, close to 'ẽy', with no clear n.",
             explanation: "\"Temos acordado\" is the perfeito composto for a recent habit. \"Para as crianças não chegarem\" puts \"não\" right before the infinitive.",
           },
         ],

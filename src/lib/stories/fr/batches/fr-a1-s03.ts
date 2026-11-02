@@ -162,7 +162,7 @@ export const FR_A1_S03_STORIES: Story[] = [
     subtitle: `Every Saturday, Lina plays football in Saint-Étienne. Today her team plays against the best team in town.`,
     paragraphs: [
       `Lina a douze ans. Elle habite à Saint-Étienne. Le samedi, elle joue au football avec son équipe, les Petites Vertes. Elle est gardienne de but.`,
-      `Aujourd'hui, c'est un grand match. Les Petites Vertes jouent contre les Lionnes, la meilleure équipe de la ville. Les Lionnes sont grandes et rapides.`,
+      `Aujourd'hui, c'est un grand match. Les Petites Vertes jouent contre les Lionnes, les championnes de la ville. Les Lionnes sont grandes et rapides.`,
       `Les parents sont sur le bord du terrain. Le père de Lina crie : « Allez, Lina ! Allez, les Vertes ! » Lina a un peu peur.`,
       `Les Lionnes attaquent, encore et encore. Mais Lina arrête tous les ballons. À la dernière minute, son amie Zoé marque un but. Un à zéro !`,
       `Après le match, l'entraîneur embrasse Lina. « Tu es une championne ! » Le soir, Lina est très fatiguée, mais elle est très, très heureuse.`,
@@ -178,7 +178,7 @@ export const FR_A1_S03_STORIES: Story[] = [
         question: `Who are the Lionnes?`,
         options: [`Lina's family`, `The best team in town`, `A team of small girls`, `The referees`],
         correctIndex: 1,
-        explanation: `"Les Lionnes, la meilleure équipe de la ville."`,
+        explanation: `"Les Lionnes, les championnes de la ville": the town champions, the best team in town.`,
       },
       {
         question: `What is the final score?`,
@@ -221,7 +221,7 @@ export const FR_A1_S03_ENGLISH: Record<string, string[]> = {
   ],
   "fr-a1-le-match-du-samedi": [
     `Lina is twelve. She lives in Saint-Étienne. On Saturdays, she plays football with her team, the Little Greens. She is the goalkeeper.`,
-    `Today is a big match. The Little Greens are playing against the Lionesses, the best team in town. The Lionesses are tall and fast.`,
+    `Today is a big match. The Little Greens are playing against the Lionesses, the town champions. The Lionesses are tall and fast.`,
     `The parents are on the side of the pitch. Lina's father shouts: "Come on, Lina! Come on, Greens!" Lina is a little scared.`,
     `The Lionesses attack, again and again. But Lina stops every ball. In the last minute, her friend Zoé scores a goal. One-nil!`,
     `After the match, the coach hugs Lina. "You're a champion!" In the evening, Lina is very tired, but she is very, very happy.`,

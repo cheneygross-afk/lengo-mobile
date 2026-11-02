@@ -18,7 +18,7 @@ export const PT_B2_U25: Lesson[] = [
           "For something urgent but not life-threatening (a high fever, a deep cut, an asthma attack) there's the \"UPA\" (Unidade de Pronto Atendimento), open 24 hours. The \"pronto-socorro\" is a hospital's emergency department, often just called \"a emergência\". Gender decides the crase: \"vou ao posto\", \"vou ao pronto-socorro\", but \"vou à UPA\", \"vou à emergência\".",
         ],
         examples: [
-          { es: "Para tomar a vacina da gripe, é só ir ao posto de saúde.", en: "To get the flu jab, just go to the health center." },
+          { es: "Para tomar a vacina da gripe, é só ir ao posto de saúde.", en: "To get the flu shot, just go to the health center." },
           { es: "O posto do meu bairro só abre até as cinco.", en: "The health center in my neighborhood is only open until five." },
           { es: "Ele cortou a mão e foi levado à UPA.", en: "He cut his hand and was taken to the urgent care center." },
           { es: "Se a dor piorar, vá direto ao pronto-socorro.", en: "If the pain gets worse, go straight to the emergency room." },
@@ -289,7 +289,7 @@ export const PT_B2_U25: Lesson[] = [
         ],
         examples: [
           { es: "Estou com tontura toda vez que me levanto.", en: "I feel dizzy every time I stand up." },
-          { es: "Ele passou a viagem inteira enjoado.", en: "He felt sick for the whole journey." },
+          { es: "Ele passou a viagem inteira enjoado.", en: "He felt sick for the whole trip." },
           { es: "Minha avó estava com falta de ar e foi levada ao hospital.", en: "My grandmother was short of breath and was taken to the hospital." },
           { es: "Essa picada de mosquito está coçando muito.", en: "This mosquito bite is really itching." },
           { es: "O tornozelo ficou inchado depois da queda.", en: "My ankle swelled up after the fall." },
@@ -325,7 +325,7 @@ export const PT_B2_U25: Lesson[] = [
       {
         heading: "Treatment: remédio, internado, pontos",
         body: [
-          "You \"tomar\" medicine and vaccines (\"tomar remédio\", \"tomar vacina\", \"tomar soro\" for a drip) and you \"fazer\" tests and procedures (\"fazer exames\", \"fazer uma cirurgia\"). \"Remédio\" is the everyday word; \"medicamento\" is what you read on the packet. A cut is closed with \"pontos\", and you \"levar pontos\" (get stitches).",
+          "You \"tomar\" medicine and vaccines (\"tomar remédio\", \"tomar vacina\", \"tomar soro\" for a drip) and you \"fazer\" tests and procedures (\"fazer exames\", \"fazer uma cirurgia\"). \"Remédio\" is the everyday word; \"medicamento\" is what you read on the package. A cut is closed with \"pontos\", and you \"levar pontos\" (get stitches).",
           "\"Ser internado\" is to be admitted to the hospital, a false friend for English interned; leaving is \"receber alta\" (to be discharged). These passives fill hospital news: \"foi internada com suspeita de dengue\". Dengue, spread by the \"Aedes aegypti\" mosquito, is a summer reality in much of Brazil: high fever, pain behind the eyes, red spots on the skin.",
         ],
         examples: [
@@ -389,7 +389,7 @@ export const PT_B2_U25: Lesson[] = [
         question: "A nurse tells you your father \"vai receber alta amanhã\". What does that mean?",
         options: ["He'll be discharged tomorrow.", "He'll be admitted tomorrow.", "He'll get a high dose tomorrow.", "He'll be moved upstairs tomorrow."],
         correctIndex: 0,
-        explanation: "\"Receber alta\" is to be discharged from hospital. Being admitted is \"ser internado\". \"Alta\" here has nothing to do with high.",
+        explanation: "\"Receber alta\" is to be discharged from the hospital. Being admitted is \"ser internado\". \"Alta\" here has nothing to do with high.",
       },
       {
         type: "translate",
@@ -455,7 +455,7 @@ export const PT_B2_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My back has been hurting since I moved house.",
+        source: "My back has been hurting since I moved.",
         answer: "Minhas costas doem desde que eu me mudei.",
         altAnswers: ["As minhas costas doem desde que eu me mudei.", "Minhas costas estão doendo desde que eu me mudei.", "Minhas costas doem desde que me mudei.", "Estou com dor nas costas desde que me mudei.", "Estou com dor nas costas desde que eu me mudei.", "Minhas costas doem desde a mudança.", "Estou com dor nas costas desde a mudança."],
         explanation: "\"Costas\" (back) is always plural, so the verb is \"doem\". Present + \"desde que\" for something still going on.",
@@ -700,7 +700,7 @@ export const PT_B2_U25: Lesson[] = [
           { es: "Ele só critica o novo namorado dela por dor de cotovelo.", en: "He only criticizes her new boyfriend because he's jealous." },
           { es: "Você fica de olho nas crianças enquanto eu vou à farmácia?", en: "Will you keep an eye on the kids while I go to the pharmacy?" },
           { es: "Fica de olho na febre: se passar de 39, me liga.", en: "Keep an eye on the fever: if it goes over 39, call me." },
-          { es: "Desculpa, eu estava com a cabeça nas nuvens e não ouvi.", en: "Sorry, I was miles away and didn't hear." },
+          { es: "Desculpa, eu estava com a cabeça nas nuvens e não ouvi.", en: "Sorry, I was zoning out and didn't hear." },
           { es: "Ela anda no mundo da lua desde que voltou de férias.", en: "She's had her head in the clouds since she got back from vacation." },
         ],
         checkpoint: [
@@ -782,7 +782,7 @@ export const PT_B2_U25: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I don't have the stomach for horror films.",
+            source: "I don't have the stomach for horror movies.",
             answer: "Eu não tenho estômago para filme de terror.",
             altAnswers: ["Não tenho estômago para filme de terror.", "Eu não tenho estômago para filmes de terror.", "Não tenho estômago para filmes de terror.", "Eu não tenho estômago pra filme de terror.", "Não tenho estômago pra filme de terror."],
             explanation: "\"Ter estômago para\" + the unpleasant thing. Brazilians often use the singular for a type: \"filme de terror\".",
@@ -819,7 +819,7 @@ export const PT_B2_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your colleague is staring out of the window in a meeting and misses a question. What does your boss say afterwards?",
+        question: "Your colleague is staring out the window in a meeting and misses a question. What does your boss say afterwards?",
         options: ["Você estava com a cabeça nas nuvens hoje.", "Você estava com dor de cotovelo hoje.", "Você estava de mãos atadas hoje.", "Você estava metendo o bedelho hoje."],
         correctIndex: 0,
         explanation: "\"Estar com a cabeça nas nuvens\" is to be distracted. The others mean jealous, unable to act and interfering.",
@@ -1005,7 +1005,7 @@ export const PT_B2_U25: Lesson[] = [
           { es: "O que eu tenho, doutora? É grave?", en: "What's wrong with me, doctor? Is it serious?" },
           { es: "Não parece grave, mas vamos pedir um raio-x para descartar pneumonia.", en: "It doesn't look serious, but let's order an X-ray to rule out pneumonia." },
           { es: "Pode ser uma virose. Tem muita gente com isso.", en: "It may be a virus. Lots of people have it." },
-          { es: "A senhora pode me dar um atestado de três dias?", en: "Could you give me a sick note for three days?" },
+          { es: "A senhora pode me dar um atestado de três dias?", en: "Could you give me a doctor's note for three days?" },
           { es: "Posso tomar esse remédio junto com o da pressão?", en: "Can I take this medicine together with my blood pressure one?" },
         ],
         checkpoint: [
@@ -1061,7 +1061,7 @@ export const PT_B2_U25: Lesson[] = [
         question: "You need two days off work after the appointment. What do you ask the doctor?",
         options: ["O senhor pode me dar um atestado?", "O senhor pode me dar uma receita para o trabalho?", "O senhor pode me dar um encaminhamento?", "O senhor pode me dar um retorno?"],
         correctIndex: 0,
-        explanation: "An \"atestado\" is the sick note your employer needs. A \"receita\" is a prescription, an \"encaminhamento\" a referral and a \"retorno\" a follow-up visit.",
+        explanation: "An \"atestado\" is the doctor's note your employer needs. A \"receita\" is a prescription, an \"encaminhamento\" a referral and a \"retorno\" a follow-up visit.",
       },
       {
         type: "translate",
@@ -1148,7 +1148,7 @@ export const PT_B2_U25: Lesson[] = [
           { es: "Ando muito estressada com os prazos do trabalho.", en: "I've been really stressed with work deadlines." },
           { es: "Ele teve uma crise de pânico no metrô.", en: "He had a panic attack on the subway." },
           { es: "Estou ansioso para ver o show no sábado!", en: "I can't wait to see the concert on Saturday!" },
-          { es: "Depois de dois anos sem férias, ela estava esgotada.", en: "After two years without a vacation, she was completely burnt out." },
+          { es: "Depois de dois anos sem férias, ela estava esgotada.", en: "After two years without a vacation, she was completely burned out." },
           { es: "O médico diagnosticou síndrome de burnout, e ele está de licença.", en: "The doctor diagnosed burnout, and he's on sick leave." },
         ],
         checkpoint: [
@@ -1182,7 +1182,7 @@ export const PT_B2_U25: Lesson[] = [
           { es: "A psicóloga sugeriu que eu escrevesse um diário.", en: "My psychologist suggested I keep a journal." },
           { es: "O psiquiatra receitou um remédio para ansiedade.", en: "The psychiatrist prescribed medication for anxiety." },
           { es: "Ela foi atendida no CAPS do bairro, pelo SUS.", en: "She was seen at the local mental health center, through the SUS." },
-          { es: "O esporte melhorou muito a minha autoestima.", en: "Sport has really boosted my self-esteem." },
+          { es: "O esporte melhorou muito a minha autoestima.", en: "Exercise has really boosted my self-esteem." },
           { es: "Cuidar da saúde mental não é luxo.", en: "Looking after your mental health isn't a luxury." },
         ],
         checkpoint: [
@@ -1217,14 +1217,14 @@ export const PT_B2_U25: Lesson[] = [
       {
         heading: "Talking about it with tact",
         body: [
-          "When a friend is struggling, Brazilians soften with the subjunctive and the conditional: \"talvez fosse bom você conversar com alguém\" (maybe it would be good to talk to someone), \"se precisar de alguma coisa, me chama\" (if you need anything, give me a shout). \"Como você está, de verdade?\" shows you want a real answer.",
-          "Avoid dismissive phrases: \"é frescura\" (it's just fussing) and \"isso é coisa da sua cabeça\" (it's all in your head) hurt. \"Louco\" is fine for a crazy day but not for a person's illness. In a crisis, Brazil's free emotional support line is the CVV, on 188.",
+          "When a friend is struggling, Brazilians soften with the subjunctive and the conditional: \"talvez fosse bom você conversar com alguém\" (maybe it would be good to talk to someone), \"se precisar de alguma coisa, me chama\" (if you need anything, just call me). \"Como você está, de verdade?\" shows you want a real answer.",
+          "Avoid dismissive phrases: \"é frescura\" (you're being dramatic) and \"isso é coisa da sua cabeça\" (it's all in your head) hurt. \"Louco\" is fine for a crazy day but not for a person's illness. In a crisis, Brazil's free emotional support line is the CVV, on 188.",
         ],
         examples: [
           { es: "Como você está, de verdade?", en: "How are you really doing?" },
           { es: "Talvez fosse bom você conversar com um psicólogo.", en: "Maybe it would be good for you to talk to a psychologist." },
           { es: "Se precisar desabafar, pode me ligar a qualquer hora.", en: "If you need to get it off your chest, you can call me any time." },
-          { es: "Não é frescura: ansiedade é uma doença séria.", en: "It's not fussing: anxiety is a serious illness." },
+          { es: "Não é frescura: ansiedade é uma doença séria.", en: "It's not drama: anxiety is a serious illness." },
           { es: "Tomara que você se sinta melhor logo.", en: "I hope you feel better soon." },
         ],
         checkpoint: [
@@ -1261,10 +1261,10 @@ export const PT_B2_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My brother is completely burnt out.",
+        source: "My brother is completely burned out.",
         answer: "Meu irmão está esgotado.",
         altAnswers: ["O meu irmão está esgotado.", "Meu irmão está completamente esgotado.", "O meu irmão está completamente esgotado.", "Meu irmão está com burnout.", "O meu irmão está com burnout.", "Meu irmão está totalmente esgotado."],
-        explanation: "\"Estar esgotado\" is to be drained or burnt out; \"estar com burnout\" names the condition.",
+        explanation: "\"Estar esgotado\" is to be drained or burned out; \"estar com burnout\" names the condition.",
       },
       {
         type: "fill-blank",
@@ -1540,7 +1540,7 @@ export const PT_B2_U25: Lesson[] = [
         type: "speak",
         text: "É melhor você ir ao médico ainda hoje.",
         prompt: "Say it in Portuguese: You'd better go to the doctor today.",
-        tip: "Médico is stressed on the first syllable: MÉ-dji-ku, with an open é and a d that sounds like the j in jeans before i.",
+        tip: "Médico is stressed on the first syllable: MÉ-jee-koo, with an open é and a d that sounds like the j in jeans before i.",
         explanation: "\"É melhor você\" + infinitive is the natural spoken form of firm advice.",
       },
       {
@@ -1808,7 +1808,7 @@ export const PT_B2_U25: Lesson[] = [
         heading: "Barriga or abdômen?",
         body: [
           "Patients and doctors describe the same body in two registers. The patient says \"dor de barriga\", the doctor writes \"dor abdominal\". \"Pressão alta\" becomes \"hipertensão\", \"tô gripado\" becomes \"síndrome gripal\" (flu-like illness), and \"mancha roxa\" (bruise) becomes \"hematoma\". Neither is more correct; each belongs to a situation.",
-          "Use the everyday word when you talk to anyone, doctors included: \"doutor, estou com dor de barriga\" is perfect. Recognize the medical word when you read a test result, a sick note or a news report.",
+          "Use the everyday word when you talk to anyone, doctors included: \"doutor, estou com dor de barriga\" is perfect. Recognize the medical word when you read a test result, a doctor's note or a news report.",
         ],
         examples: [
           { es: "Estou com dor de barriga desde ontem.", en: "I've had a stomach ache since yesterday." },
@@ -2241,14 +2241,14 @@ export const PT_B2_U25: Lesson[] = [
       {
         heading: "The report: what was done",
         body: [
-          "Every summer, Rio de Janeiro's health department launches a campaign against the \"Aedes aegypti\", the mosquito that spreads dengue, zika and chikungunya. Its reports are written in the passive: \"foram visitados 40 mil imóveis\", \"foram eliminados 3 mil focos\". A \"foco\" is a breeding site, and \"imóvel\" (property) is the official word for a house or flat.",
+          "Every summer, Rio de Janeiro's health department launches a campaign against the \"Aedes aegypti\", the mosquito that spreads dengue, zika and chikungunya. Its reports are written in the passive: \"foram visitados 40 mil imóveis\", \"foram eliminados 3 mil focos\". A \"foco\" is a breeding site, and \"imóvel\" (property) is the official word for a house or apartment.",
           "The \"agentes de saúde\" go from door to door doing a \"vistoria\" (inspection). The \"fumacê\" (a truck spraying insecticide) only kills adult mosquitoes; the eggs are in \"água parada\" (standing water).",
         ],
         examples: [
           { es: "A campanha foi lançada na segunda-feira pela Secretaria de Saúde.", en: "The campaign was launched on Monday by the health department." },
           { es: "Foram visitados mais de 40 mil imóveis na Zona Norte.", en: "More than 40,000 properties were visited in the North Zone." },
           { es: "Em 70% das casas, foram encontrados focos do mosquito.", en: "Breeding sites were found in 70% of homes." },
-          { es: "Os pneus abandonados foram recolhidos pela prefeitura.", en: "The abandoned tires were collected by the city council." },
+          { es: "Os pneus abandonados foram recolhidos pela prefeitura.", en: "The abandoned tires were collected by the city government." },
           { es: "O fumacê está sendo usado só nos bairros com mais casos.", en: "The insecticide truck is being used only in the neighborhoods with the most cases." },
         ],
         checkpoint: [
@@ -2281,7 +2281,7 @@ export const PT_B2_U25: Lesson[] = [
         examples: [
           { es: "Os agentes visitam as casas para que os moradores aprendam a eliminar os focos.", en: "The agents visit homes so that residents learn to get rid of breeding sites." },
           { es: "Foram distribuídos panfletos a fim de que todos soubessem os sintomas.", en: "Leaflets were handed out so that everyone would know the symptoms." },
-          { es: "A prefeitura contratou mil agentes para visitar as casas.", en: "The city council hired a thousand agents to visit homes." },
+          { es: "A prefeitura contratou mil agentes para visitar as casas.", en: "The city government hired a thousand agents to visit homes." },
           { es: "As escolas fizeram mutirões para os alunos entenderem o problema.", en: "Schools organized clean-up drives so that students would understand the problem." },
           { es: "É preciso tampar a caixa d'água para que o mosquito não coloque ovos.", en: "You must cover the water tank so that the mosquito can't lay eggs." },
         ],
@@ -2386,10 +2386,10 @@ export const PT_B2_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The city council hired five hundred agents to visit the homes.",
+        source: "The city government hired five hundred agents to visit the homes.",
         answer: "A prefeitura contratou quinhentos agentes para visitar as casas.",
         altAnswers: ["A prefeitura contratou quinhentos agentes para visitarem as casas.", "A prefeitura contratou 500 agentes para visitar as casas.", "A prefeitura contratou quinhentos agentes para visitar os imóveis.", "A prefeitura contratou quinhentos agentes para que visitassem as casas."],
-        explanation: "\"Para\" + infinitive for the purpose. A city council in Brazil is the \"prefeitura\".",
+        explanation: "\"Para\" + infinitive for the purpose. A city government in Brazil is the \"prefeitura\".",
       },
       {
         type: "translate",
@@ -2404,7 +2404,7 @@ export const PT_B2_U25: Lesson[] = [
         type: "listen-choose",
         audio: "Os pneus foram recolhidos pela prefeitura.",
         question: "What does it mean?",
-        options: ["The tires were collected by the city council.", "The tires were sold by the city council.", "The city council found the tires.", "The tires were thrown away by residents."],
+        options: ["The tires were collected by the city government.", "The tires were sold by the city government.", "The city government found the tires.", "The tires were thrown away by residents."],
         correctIndex: 0,
         explanation: "\"Foram recolhidos\" (were collected) is the passive; \"pela prefeitura\" is the agent.",
       },
@@ -2467,7 +2467,7 @@ export const PT_B2_U25: Lesson[] = [
         examples: [
           { es: "Ela foi atendida no posto e encaminhada para o cardiologista.", en: "She was seen at the health center and referred to a cardiologist." },
           { es: "O convênio não cobriu o exame porque eu ainda estava na carência.", en: "My insurance didn't cover the test because I was still in the waiting period." },
-          { es: "Se eu tivesse ido à UPA logo, não teria sido internado.", en: "If I'd gone to the urgent care center straight away, I wouldn't have been admitted." },
+          { es: "Se eu tivesse ido à UPA logo, não teria sido internado.", en: "If I'd gone to the urgent care center right away, I wouldn't have been admitted." },
           { es: "A médica disse que, se a tontura voltasse, eu devia procurar a emergência.", en: "The doctor said that if the dizziness came back, I should go to the emergency room." },
           { es: "Embora estivesse com falta de ar, ele não quis ir ao hospital.", en: "Although he was short of breath, he didn't want to go to the hospital." },
         ],
@@ -2647,7 +2647,7 @@ export const PT_B2_U25: Lesson[] = [
         type: "speak",
         text: "Se eu fosse você, marcaria um check-up ainda este mês.",
         prompt: "Say it in Portuguese: If I were you, I'd book a check-up this month.",
-        tip: "Check-up is said the Brazilian way, with an extra i at the end: che-KÁ-pi.",
+        tip: "Check-up is said the Brazilian way, with an extra i at the end: che-KÁ-pee.",
         explanation: "\"Se eu fosse você\" + conditional. \"Ainda este mês\" means before this month is out.",
       },
       {

@@ -226,7 +226,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Espere aqui até que ela chegue.",
         prompt: "Say it in Portuguese: Wait here until she arrives.",
-        tip: "In \"chegue\" the u is silent and the g is hard, as in 'get'; the final e sounds like i: SHÊ-ghi, with a closed ê.",
+        tip: "In \"chegue\" the u is silent and the g is hard, as in 'get'; the final e sounds like ee: SHÊ-ghee, with a closed ê.",
         explanation: "\"Até que\" + subjunctive: \"chego\" → \"chegue\".",
       },
       {
@@ -543,7 +543,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Pode usar meu computador, desde que você tome cuidado.",
         prompt: "Say it in Portuguese: You can use my computer as long as you're careful.",
-        tip: "The d in \"desde\" sounds like dj before the final i-sound: DEZ-dji.",
+        tip: "The d in \"desde\" sounds like dj before the final ee sound: DÊZ-jee.",
         explanation: "\"Desde que\" + subjunctive \"tome\" sets the condition. \"Tomar cuidado\" is to be careful.",
       },
       {
@@ -573,7 +573,7 @@ export const PT_B1_U04: Lesson[] = [
         body: [
           "When the same person does both actions, use \"para\" + infinitive: \"Estudo para passar\" (I study to pass). When someone else does the second action, switch to \"para que\" + subjunctive: \"Explico para que você entenda\" (I explain so that you understand). The test is always the same: who does the second verb?",
           "English blurs this. 'I'm saving to travel' and 'I'm saving so my son can travel' look alike, but only the second becomes \"para que meu filho possa viajar\". The reverse slip, \"para que eu possa\" when you are the subject of both verbs, sounds heavy; say \"para poder\". The negative is simply \"para não\" + infinitive: \"Anoto para não esquecer\".",
-          "For now, keep the main verb in the present, the future or a command. After a past verb the subjunctive takes another form, which comes later. You'll also hear \"para você entender\" with a different subject. That's the personal infinitive, taught in Unit 9.",
+          "For now, keep the main verb in the present, the future or a command. After a past verb the subjunctive takes another form, which comes later. You'll also hear \"para você entender\" with a different subject. That's the personal infinitive, taught in Unit 17.",
         ],
         examples: [
           { es: "Eu estudo à noite para passar na prova.", en: "I study at night to pass the exam." },
@@ -664,7 +664,7 @@ export const PT_B1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Quero falar com ela antes que ela viaje.",
-            tip: "In viaje the j sounds like the s in English measure, and the final e is a soft i: vi-A-ji.",
+            tip: "In viaje the j sounds like the s in English measure, and the final e is a soft ee: vee-A-zhee.",
             explanation: "I talk, but she travels, so \"antes que\" + the subjunctive \"viaje\".",
           },
         ],
@@ -1089,7 +1089,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Embora seja tarde, vou ligar para ela.",
         prompt: "Say it in Portuguese: Although it's late, I'm going to call her.",
-        tip: "The t in \"tarde\" stays a plain t, but the final -de sounds like dji.",
+        tip: "The t in \"tarde\" stays a plain t, but the final -de sounds like jee (TAR-jee).",
         explanation: "\"Embora seja tarde\": subjunctive after \"embora\", then an ordinary main clause with no \"mas\".",
       },
       {
@@ -1126,7 +1126,7 @@ export const PT_B1_U04: Lesson[] = [
           { es: "Leva um casaco caso esfrie à noite.", en: "Take a jacket in case it gets cold at night." },
           { es: "Caso o ônibus atrase, eu vou de metrô.", en: "If the bus is late, I'll take the subway." },
           { es: "Anota meu número caso você se perca.", en: "Write down my number in case you get lost." },
-          { es: "Caso a loja esteja fechada, a gente volta amanhã.", en: "If the shop is closed, we'll come back tomorrow." },
+          { es: "Caso a loja esteja fechada, a gente volta amanhã.", en: "If the store is closed, we'll come back tomorrow." },
         ],
         checkpoint: [
           {
@@ -1158,7 +1158,7 @@ export const PT_B1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're messaging a colleague: 'If the shop is closed, we'll come back tomorrow.' Which version is correct?",
+            question: "You're messaging a colleague: 'If the store is closed, we'll come back tomorrow.' Which version is correct?",
             options: [
               "Caso a loja esteja fechada, a gente volta amanhã.",
               "Caso a loja está fechada, a gente volta amanhã.",
@@ -1166,7 +1166,7 @@ export const PT_B1_U04: Lesson[] = [
               "Caso a loja é fechada, a gente volta amanhã.",
             ],
             correctIndex: 0,
-            explanation: "\"Caso\" takes the present subjunctive: \"esteja\". \"Está\" is the indicative, \"estiver\" is the form that goes with \"se\", and a closed shop is a state, so \"estar\", not \"ser\".",
+            explanation: "\"Caso\" takes the present subjunctive: \"esteja\". \"Está\" is the indicative, \"estiver\" is the form that goes with \"se\", and a closed store is a state, so \"estar\", not \"ser\".",
           },
         ],
       },
@@ -1367,7 +1367,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Caso você precise de alguma coisa, me liga.",
         prompt: "Say it in Portuguese: If you need anything, call me.",
-        tip: "\"Precise\" sounds like pre-SI-zi: the s between vowels is a z and the final e is an i.",
+        tip: "\"Precise\" sounds like pre-SEE-zee: the s between vowels is a z and the final e is an ee.",
         explanation: "\"Caso\" + present subjunctive \"precise\", then the everyday command \"me liga\".",
       },
       {
@@ -1622,7 +1622,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Vamos sair antes que o trânsito piore.",
         prompt: "Say it in Portuguese: Let's leave before the traffic gets worse.",
-        tip: "Stress piore on the open ó, pi-Ó-ri, and let the final e sound like i.",
+        tip: "Stress piore on the open ó, pee-Ó-ree, and let the final e sound like ee.",
         explanation: "The traffic hasn't gotten worse yet, so \"antes que\" takes the subjunctive \"piore\".",
       },
       {
@@ -1798,7 +1798,7 @@ export const PT_B1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Caso você precise de alguma coisa, me liga.",
-            tip: "The s in \"caso\" sits between vowels, so it sounds like z: KA-zu.",
+            tip: "The s in \"caso\" sits between vowels, so it sounds like z: KA-zoo.",
             explanation: "\"Caso\" + subjunctive \"precise\" (from \"preciso\"). \"Me liga\" puts the pronoun first, as Brazilians do in speech.",
           },
         ],
@@ -2220,7 +2220,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Me liga caso você se perca.",
         prompt: "Say it in Portuguese: Call me in case you get lost.",
-        tip: "The s in caso sounds like z: CA-zu. Stress the first syllable of perca, PÉR-ka, with an open é as in \"perco\".",
+        tip: "The s in caso sounds like z: KA-zoo. Stress the first syllable of perca, PÉR-ka, with an open é as in \"perco\".",
         explanation: "\"Caso\" + subjunctive: \"perder\" becomes \"perca\", from \"eu perco\". The pronoun goes before the verb: \"você se perca\".",
       },
     ],
@@ -2485,7 +2485,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Me ligue caso você precise de alguma coisa.",
         prompt: "Say it in Portuguese: Call me in case you need anything.",
-        tip: "The final e in \"precise\" sounds like i: pre-SI-zi.",
+        tip: "The final e in \"precise\" sounds like ee: pre-SEE-zee.",
         explanation: "\"Caso\" + subjunctive \"precise\", and \"precisar de\" before a noun.",
       },
       {
@@ -2730,7 +2730,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Eu te ajudo, desde que você me ajude também.",
         prompt: "Say it in Portuguese: I'll help you, provided you help me too.",
-        tip: "Say the d in ajude like the English j in jeans (a-JU-dji), and keep the final e short and close to i.",
+        tip: "Say the d in ajude like the English j in jeans (a-ZHOO-jee), and keep the final e short and close to ee.",
         explanation: "\"Desde que\" + subjunctive \"ajude\" sets a condition. The pronouns \"te\" and \"me\" go before the verb.",
       },
     ],

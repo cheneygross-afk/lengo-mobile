@@ -151,7 +151,7 @@ export const PT_B2_U07_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não vou, nem que me paguem.",
         prompt: "Say it in Portuguese: I'm not going, not even if they pay me.",
-        tip: "Paguem: PA-gẽi.",
+        tip: "Paguem: PA-gẽy.",
         explanation: "\"Nem que me paguem\": \"nem que\" + present subjunctive of \"pagar\". The g becomes \"gu\" to keep its hard sound before e.",
       },
       {
@@ -244,7 +244,7 @@ export const PT_B2_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Thanks to the new metro line, traffic has improved.",
+        source: "Thanks to the new subway line, traffic has improved.",
         answer: "Graças à nova linha de metrô, o trânsito melhorou.",
         explanation: "A positive result, so \"graças a\", and \"a\" + \"a nova linha\" gives the crase: \"graças à\".",
       },
@@ -480,7 +480,7 @@ export const PT_B2_U07_EXTRA: Lesson[] = [
         type: "speak",
         text: "Estava tão cansado que dormi no ônibus.",
         prompt: "Say it in Portuguese: I was so tired that I fell asleep on the bus.",
-        tip: "Ônibus: Ô-ni-bus, stressed on the closed ô.",
+        tip: "Ônibus: Ô-nee-boos, stressed on the closed ô.",
         explanation: "\"Tão\" + adjective + \"que\" + indicative: the falling asleep really happened, so \"dormi\".",
       },
       {

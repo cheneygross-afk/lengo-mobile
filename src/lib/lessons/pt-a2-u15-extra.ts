@@ -55,7 +55,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         source: "My mother was born in Salvador.",
         answer: "A minha mãe nasceu em Salvador.",
         altAnswers: ["Minha mãe nasceu em Salvador."],
-        explanation: "\"Nasceu\": active perfeito, never *foi nascida.",
+        explanation: "Was born is the active perfeito \"nasceu\". *Foi nascida copies the English passive and is wrong.",
       },
       {
         type: "translate",
@@ -100,7 +100,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         source: "He worked in a factory from 1985 to 1990.",
         answer: "Ele trabalhou numa fábrica de 1985 a 1990.",
         altAnswers: ["Trabalhou numa fábrica de 1985 a 1990.", "Ele trabalhou em uma fábrica de 1985 a 1990.", "Ele trabalhou numa fábrica de 1985 até 1990."],
-        explanation: "A dated, closed period: perfeito \"trabalhou\".",
+        explanation: "A period with a start and an end date is a closed chapter: perfeito \"trabalhou\", however long it lasted.",
       },
       {
         type: "translate",
@@ -127,7 +127,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         sentence: "Eu ___ em 2020.",
         answer: "perdi o emprego",
         altAnswers: ["perdi o meu emprego", "perdi meu emprego"],
-        explanation: "\"Perder o emprego\" in the perfeito: \"perdi\".",
+        explanation: "Losing a job is one event: \"perdi o emprego\". Portuguese says \"o emprego\" where English says my.",
       },
       {
         type: "fill-blank",
@@ -150,7 +150,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         question: "Which sentence is right?",
         options: ["Ela nasceu em 1992.", "Ela nasceu no 1992.", "Ela foi nascida em 1992.", "Ela nascia em 1992."],
         correctIndex: 0,
-        explanation: "\"Nasceu\", active, with \"em\" for the year.",
+        explanation: "Born is the active \"nasceu\", and a year takes \"em\" with no article: never \"no 1992\".",
       },
       {
         type: "listen-choose",
@@ -169,8 +169,8 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu nasci em Londres, mas cresci em Manchester.",
         prompt: "Say it in Portuguese: I was born in London, but I grew up in Manchester.",
-        tip: "\"Londres\" in Portuguese: LON-dris.",
-        explanation: "Two life events in the perfeito.",
+        tip: "\"Londres\" in Portuguese: 'LÕ-drees'.",
+        explanation: "Being born and growing up are two life events, both perfeito: \"nasci\", \"cresci\". \"Mas\" links them.",
       },
     ],
   },
@@ -224,7 +224,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         source: "It was Friday night and the bar was full.",
         answer: "Era sexta à noite e o bar estava cheio.",
         altAnswers: ["Era sexta-feira à noite e o bar estava cheio.", "Era sexta de noite e o bar estava cheio.", "Era sexta à noite e o bar estava lotado."],
-        explanation: "Two scene-setting verbs: \"era\", \"estava\".",
+        explanation: "Both verbs set the scene, so both are imperfeito: \"era\" (the time) and \"estava\" (the bar's state).",
       },
       {
         type: "translate",
@@ -242,7 +242,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         source: "Suddenly, the music stopped.",
         answer: "De repente, a música parou.",
         altAnswers: ["De repente a música parou."],
-        explanation: "\"De repente\" + perfeito: one sudden event.",
+        explanation: "\"De repente\" announces one sudden event, so the perfeito \"parou\". \"Parava\" would describe a repeated or ongoing stopping.",
       },
       {
         type: "translate",
@@ -269,7 +269,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         source: "Then we took the metro and got off downtown.",
         answer: "Depois, a gente pegou o metrô e desceu no centro.",
         altAnswers: ["Depois, nós pegamos o metrô e descemos no centro.", "Depois, pegamos o metrô e descemos no centro.", "Aí a gente pegou o metrô e desceu no centro.", "Em seguida, a gente pegou o metrô e desceu no centro."],
-        explanation: "Two events in order: \"pegou\", \"desceu\".",
+        explanation: "Two events in sequence, both perfeito: \"pegou\", \"desceu\". Get off a bus or metro is \"descer\".",
       },
       {
         type: "translate",
@@ -296,7 +296,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         sentence: "___, o guia mostrou a igreja.",
         answer: "Em seguida",
         altAnswers: ["Depois", "Logo depois"],
-        explanation: "\"Em seguida\" (next) introduces the next step.",
+        explanation: "\"Em seguida\" (next) introduces the next step, and the step itself is perfeito: \"mostrou\".",
       },
       {
         type: "fill-blank",
@@ -320,7 +320,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: Soon after, the police arrived.",
         words: ["Logo depois,", "a polícia", "chegou."],
         translation: "Soon after, the police arrived.",
-        explanation: "\"Logo depois\" + perfeito \"chegou\".",
+        explanation: "\"Logo depois\" (soon after) introduces one event in the perfeito: \"chegou\".",
       },
       {
         type: "multiple-choice",
@@ -335,14 +335,14 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["Suddenly, the music stopped.", "Slowly, the music stopped.", "In the end, the music stopped.", "Suddenly, the music started."],
         correctIndex: 0,
-        explanation: "\"De repente\" = suddenly; \"parou\" = stopped.",
+        explanation: "\"De repente\" means suddenly, and \"parou\" is stopped (not started, which would be \"começou\").",
       },
       {
         type: "speak",
         text: "Primeiro a gente jantou, depois foi dançar.",
         prompt: "Say it in Portuguese: First we had dinner, then we went dancing.",
-        tip: "Keep \"depois\" short: de-POIS.",
-        explanation: "Two events in order, both perfeito.",
+        tip: "Keep \"depois\" short: 'de-POYS' (many Brazilians say 'jee-POYS').",
+        explanation: "Two finished events in order, both perfeito; \"a gente\" takes the ele forms \"jantou\" and \"foi\".",
       },
     ],
   },
@@ -380,7 +380,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
             source: "In the end, my brother brought the spare key.",
             answer: "No final, o meu irmão trouxe a chave reserva.",
             altAnswers: ["No final, meu irmão trouxe a chave reserva.", "No final, o meu irmão trouxe a chave extra.", "No final, meu irmão trouxe a chave extra.", "No final, meu irmão trouxe a outra chave.", "No fim, meu irmão trouxe a chave reserva."],
-            explanation: "\"Trouxe\": irregular perfeito of \"trazer\".",
+            explanation: "\"Trouxe\" is the irregular perfeito of \"trazer\" (the x sounds like s); *trazeu doesn't exist.",
           },
         ],
       },
@@ -389,17 +389,17 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Eu cheguei tarde e fiquei na porta.",
-        explanation: "\"Cheguei\" (gu) and \"fiquei\" (qu).",
+        explanation: "The eu perfeito keeps the sound with a spelling change: \"cheguei\" (gu) and \"fiquei\" (qu).",
       },
       {
         type: "dictation",
         audio: "Nós íamos à praia todo verão.",
-        explanation: "\"Íamos\" with the accent: imperfeito of \"ir\".",
+        explanation: "\"Íamos\" (we used to go) is the imperfeito of \"ir\", and the accent on the í is part of the spelling.",
       },
       {
         type: "dictation",
         audio: "Ela não pôde vir ontem.",
-        explanation: "\"Pôde\" with the circumflex: past.",
+        explanation: "\"Pôde\" with the circumflex is the past (couldn't); \"pode\" without it is the present.",
       },
       {
         type: "translate",
@@ -444,7 +444,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         source: "We found out the news yesterday.",
         answer: "A gente soube da notícia ontem.",
         altAnswers: ["Nós soubemos da notícia ontem.", "Soubemos da notícia ontem.", "A gente soube a notícia ontem.", "Ontem a gente soube da notícia.", "Nós soubemos a notícia ontem."],
-        explanation: "Found out = perfeito \"soube\" / \"soubemos\".",
+        explanation: "Found out is the perfeito of \"saber\": \"soube\" (a gente) or \"soubemos\" (nós). \"Sabia\" would mean already knew.",
       },
       {
         type: "translate",
@@ -453,7 +453,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         source: "My neighbor couldn't help.",
         answer: "A minha vizinha não pôde ajudar.",
         altAnswers: ["Minha vizinha não pôde ajudar.", "O meu vizinho não pôde ajudar.", "Meu vizinho não pôde ajudar.", "A minha vizinha não conseguiu ajudar.", "Meu vizinho não conseguiu ajudar."],
-        explanation: "A one-time inability: \"não pôde\".",
+        explanation: "A one-time inability with a result (she didn't help) takes the perfeito \"não pôde\", or \"não conseguiu\".",
       },
       {
         type: "translate",
@@ -470,7 +470,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         en: "I [started] to laugh.",
         sentence: "Eu ___ a rir.",
         answer: "comecei",
-        explanation: "\"Comecei\": no cedilla before e.",
+        explanation: "\"Começar\" becomes \"comecei\": c before e already sounds like s, so the cedilla goes.",
       },
       {
         type: "fill-blank",

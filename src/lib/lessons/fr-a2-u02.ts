@@ -1197,7 +1197,7 @@ export const FR_A2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say: I've finished?",
+            question: "How do you write: I've finished?",
             options: ["J'ai finis.", "J'ai finit.", "J'ai finni.", "J'ai fini."],
             correctIndex: 3,
             explanation: "Feminine \"finie\": nothing hidden, so \"fini\".",
@@ -1358,7 +1358,7 @@ export const FR_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say: a homemade cake?",
+        question: "How do you write: a homemade cake?",
         options: ["Un gâteau fais maison.", "Un gâteau fai maison.", "Un gâteau fait maison.", "Un gâteau faire maison."],
         correctIndex: 2,
         explanation: "\"Fait\", the participle used as an adjective.",

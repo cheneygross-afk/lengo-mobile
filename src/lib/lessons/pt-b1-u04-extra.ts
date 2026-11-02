@@ -83,7 +83,7 @@ export const PT_B1_U04_EXTRA: Lesson[] = [
         source: "I'll wait until you finish.",
         answer: "Vou esperar até que você termine.",
         altAnswers: ["Espero até que você termine.", "Vou esperar até você terminar."],
-        explanation: "Your finishing is still ahead, so \"até que\" + subjunctive \"termine\". In speech \"até você terminar\" (personal infinitive, Unit 9) is common too.",
+        explanation: "Your finishing is still ahead, so \"até que\" + subjunctive \"termine\". In speech \"até você terminar\" (personal infinitive, Unit 17) is common too.",
       },
       {
         type: "translate",
@@ -315,7 +315,7 @@ export const PT_B1_U04_EXTRA: Lesson[] = [
         type: "speak",
         text: "Embora seja longe, vale a pena.",
         prompt: "Say it in Portuguese: Although it's far, it's worth it.",
-        tip: "Vale a pena: VA-li a PE-na.",
+        tip: "Vale a pena: VA-lee a PÊ-na.",
         explanation: "\"Embora\" + subjunctive \"seja\". \"Vale a pena\" means it's worth it.",
       },
       {
@@ -401,7 +401,7 @@ export const PT_B1_U04_EXTRA: Lesson[] = [
         source: "Let's tidy up before the guests arrive.",
         answer: "Vamos arrumar antes que os convidados cheguem.",
         altAnswers: ["Vamos arrumar a casa antes que os convidados cheguem.", "Vamos arrumar antes de os convidados chegarem."],
-        explanation: "We tidy, the guests arrive: two subjects, so \"antes que\" + subjunctive \"cheguem\" (or the personal infinitive \"antes de os convidados chegarem\", Unit 9).",
+        explanation: "We tidy, the guests arrive: two subjects, so \"antes que\" + subjunctive \"cheguem\" (or the personal infinitive \"antes de os convidados chegarem\", Unit 17).",
       },
       {
         type: "translate",
@@ -480,7 +480,7 @@ export const PT_B1_U04_EXTRA: Lesson[] = [
         type: "speak",
         text: "Liguei para avisar que vou chegar tarde.",
         prompt: "Say it in Portuguese: I called to say I'll be late.",
-        tip: "Avisar: a-vi-ZAR.",
+        tip: "Avisar: a-vee-ZAR.",
         explanation: "You call and you let them know: one subject, so \"para\" + infinitive \"avisar\".",
       },
       {

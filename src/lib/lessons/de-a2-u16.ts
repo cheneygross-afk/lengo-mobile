@@ -194,10 +194,10 @@ export const DE_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which du-imperative is correct?",
+        question: "How do you say 'Speak louder!' (to a friend)",
         options: ["Sprich lauter!", "Sprech lauter!", "Sprichst lauter!", "Spreche lauter!"],
         correctIndex: 0,
-        explanation: "\"Du sprichst\" → \"Sprich!\": the e → i change stays and there's no -e.",
+        explanation: "\"Du sprichst\" → \"Sprich!\": the e → i change stays and there's no -e. \"*Sprech*\" drops the vowel change.",
       },
       {
         type: "listen-choose",

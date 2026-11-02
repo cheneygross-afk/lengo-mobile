@@ -228,7 +228,7 @@ export const PT_C2_U13: Lesson[] = [
         type: "speak",
         text: "A carta de Caminha é considerada a certidão de nascimento do Brasil.",
         prompt: "Say it in Portuguese: Caminha's letter is considered Brazil's birth certificate.",
-        tip: "End \"certidão\" on a nasal ão with no n, and let \"de\" sound close to \"dji\", as most Brazilians say it.",
+        tip: "End \"certidão\" on a nasal ão with no n, and let \"de\" sound close to 'jee', as most Brazilians say it.",
         explanation: "\"Certidão de nascimento\" is a birth certificate; the metaphor is how Brazilian schools present the letter.",
       },
       {
@@ -257,7 +257,7 @@ export const PT_C2_U13: Lesson[] = [
           "The trap for English speakers is that many of these look normal to you: \"theater\", \"pharmacy\", \"style\" still have th, ph and y in English. In Portuguese they are museum pieces. Never write them in your own prose.",
         ],
         examples: [
-          { es: "Na esquina havia uma pharmacia com vitrine de vidro.", en: "On the corner there was a pharmacy with a glass shop window. (old spelling)" },
+          { es: "Na esquina havia uma pharmacia com vitrine de vidro.", en: "On the corner there was a pharmacy with a glass display window. (old spelling)" },
           { es: "O Theatro Municipal do Rio foi inaugurado em 1909.", en: "Rio's Municipal Theater opened in 1909." },
           { es: "O preço do assucar subiu este anno.", en: "The price of sugar went up this year. (old spelling)" },
           { es: "A Constituição de 1891 fala nos Estados Unidos do Brazil.", en: "The 1891 Constitution speaks of the United States of Brazil." },
@@ -761,7 +761,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Fica proclamada provisoriamente a República Federativa.",
-            tip: "In \"provisoriamente\" keep every syllable: pro-vi-zo-ri-a-MEN-tchi, with the s sounding like z.",
+            tip: "In \"provisoriamente\" keep every syllable: pro-vi-zo-ri-a-MEN-chee, with the s sounding like z.",
             explanation: "The opening of Decreto nº 1, which replaced the Empire with a provisional republican government.",
           },
         ],
@@ -879,7 +879,7 @@ export const PT_C2_U13: Lesson[] = [
         type: "speak",
         text: "Revogam-se as disposições em contrário.",
         prompt: "Say it in Portuguese: All provisions to the contrary are revoked.",
-        tip: "Link \"revogam-se\" smoothly: re-VÓ-gãw-si, with the nasal before the hyphen.",
+        tip: "Link \"revogam-se\" smoothly: re-VÓ-gãw-see, with the nasal before the hyphen.",
         explanation: "The closing formula of countless Brazilian laws before 1998, and of the Lei Áurea itself.",
       },
       {
@@ -995,7 +995,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Temos ódio à ditadura. Ódio e nojo.",
-            tip: "Pause after \"ditadura\" and hit \"Ódio\" hard: \"ódio\" has an open ó, while \"nojo\" has a closed ô: Ó-dyu, NÔ-ju.",
+            tip: "Pause after \"ditadura\" and hit \"Ódio\" hard: \"ódio\" has an open ó, while \"nojo\" has a closed ô: Ó-dyu, NÔ-joo.",
             explanation: "The crasis in \"à ditadura\" comes from \"ter ódio a\" + \"a ditadura\". The verbless second sentence is an ellipsis.",
           },
         ],
@@ -1378,7 +1378,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Chamar a frota de brasileira seria um anacronismo.",
-            tip: "\"Anacronismo\": the ch is a k sound, as in all Greek-derived words: a-na-kro-NIZ-mu.",
+            tip: "\"Anacronismo\": the ch is a k sound, as in all Greek-derived words: a-na-kro-NIZ-moo.",
             explanation: "The conditional \"seria\" makes the point hypothetically, without accusing anyone.",
           },
         ],
@@ -1390,9 +1390,9 @@ export const PT_C2_U13: Lesson[] = [
           "The classic mistake with older texts is to sprinkle \"[sic]\" over every old spelling. \"Pharmacia\" in 1900 is not an error; it was the norm. Instead, say once, in a note, \"mantida a grafia original\". Keep \"[sic]\" for real slips: a wrong date, a misspelled name, a missing word.",
         ],
         examples: [
-          { es: "\"A Constituição certamente não é perfeita. [...] Descumprir, jamais.\"", en: "'The Constitution is certainly not perfect. [...] Disobey it, never.' (a cut marked)" },
-          { es: "\"Ela [a Constituição] própria o confessa.\"", en: "'It [the Constitution] confesses as much itself.' (a clarification)" },
-          { es: "O jornal datou a lei de 13 de maio de 1889 [sic].", en: "The newspaper dated the law May 13, 1889 [sic]. (a real error)" },
+          { es: "\"A Constituição certamente não é perfeita. Descumprir, jamais.\"", en: "'The Constitution is certainly not perfect. Disobey it, never.' Quoted with a cut, it reads \"perfeita. [...] Descumprir\"." },
+          { es: "\"Ela própria o confessa.\"", en: "'It confesses as much itself.' With a clarification, it reads \"Ela [a Constituição] própria o confessa\"." },
+          { es: "O jornal datou a lei de 13 de maio de 1889.", en: "The newspaper dated the law May 13, 1889. Quoted, the year takes \"[sic]\", since the law is from 1888." },
           { es: "Mantida a grafia original em todas as citações.", en: "Original spelling kept in all quotations." },
           { es: "O grifo é nosso.", en: "The emphasis is ours." },
         ],
@@ -1704,7 +1704,7 @@ export const PT_C2_U13: Lesson[] = [
         type: "speak",
         text: "Quando o médico chegou, o doente já tinha morrido.",
         prompt: "Say it in modern Portuguese: When the doctor arrived, the patient had already died.",
-        tip: "In \"doente\" the final te sounds like \"tchi\": do-ẼN-tchi; \"médico\" is stressed on the open é.",
+        tip: "In \"doente\" the final te sounds like 'chee': do-ẼN-chee; \"médico\" is stressed on the open é.",
         explanation: "\"Tinha morrido\" is the everyday pluperfect, replacing the literary \"falecera\".",
       },
       {
@@ -1939,7 +1939,7 @@ export const PT_C2_U13: Lesson[] = [
         heading: "Na sala de consulta",
         body: [
           "Mariana, a doctoral student from Belo Horizonte, has come to the Arquivo Nacional in Rio to read a family collection. Dona Célia, an archivist with thirty years in the building, takes her request. Listen for the archive vocabulary: \"o fundo\" (a collection from one family or institution), \"a notação\" (the call number), \"a caixa\" and \"o maço\" (box and bundle), \"a sala de consulta\" (reading room).",
-          "Archive rules are given politely but firmly, often with the impersonal \"se\" or \"é proibido\": \"só se usa lápis aqui\", \"não é permitido fotografar com flash\". Mariana's requests use the softening imperfect from Unit 11: \"eu queria consultar...\", \"será que daria para...?\"",
+          "Archive rules are given politely but firmly, often with the impersonal \"se\" or \"é proibido\": \"só se usa lápis aqui\", \"não é permitido fotografar com flash\". Mariana's requests use the softening imperfect from Unit 4: \"eu queria consultar...\", \"será que daria para...?\"",
         ],
         examples: [
           { es: "Bom dia. Eu queria consultar o fundo da família Souza Prado.", en: "Good morning. I'd like to consult the Souza Prado family collection." },
@@ -2058,7 +2058,7 @@ export const PT_C2_U13: Lesson[] = [
         source: "Would it be possible to photograph the letter without flash?",
         answer: "Será que daria para fotografar a carta sem flash?",
         altAnswers: ["Daria para fotografar a carta sem flash?", "Seria possível fotografar a carta sem flash?", "Será que eu poderia fotografar a carta sem flash?", "Eu poderia fotografar a carta sem flash?"],
-        explanation: "\"Será que daria para...?\" is the soft Brazilian request (Unit 11); \"seria possível\" is the formal alternative.",
+        explanation: "\"Será que daria para...?\" is the soft Brazilian request (Unit 4); \"seria possível\" is the formal alternative.",
       },
       {
         type: "fill-blank",
@@ -2336,7 +2336,7 @@ export const PT_C2_U13: Lesson[] = [
         type: "speak",
         text: "A grafia foi atualizada, mas os nomes próprios foram mantidos.",
         prompt: "Say it in Portuguese: The spelling was updated, but proper names were kept.",
-        tip: "\"Próprios\" has an open ó and ends in a glide: PRÓ-pryus.",
+        tip: "\"Próprios\" has an open ó and ends in a glide: PRÓ-pryoos.",
         explanation: "Two passives in contrast: what changed and what didn't.",
       },
     ],

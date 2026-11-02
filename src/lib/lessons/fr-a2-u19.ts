@@ -214,7 +214,7 @@ export const FR_A2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say: My luggage is in the car?",
+        question: "How do you write: My luggage is in the car?",
         options: ["Mes bagages sont dans la voiture.", "Mes bagage sont dans la voiture.", "Ma bagage est dans la voiture.", "Mes bagages est dans la voiture."],
         correctIndex: 0,
         explanation: "French treats luggage as plural: \"mes bagages sont\".",
@@ -551,7 +551,7 @@ export const FR_A2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say: The email? I deleted it.",
+            question: "How do you write: The email? I deleted it.",
             options: ["Le mail ? Je l'ai supprimé.", "Le mail ? Je lui ai supprimé.", "Le mail ? J'ai le supprimé.", "Le mail ? Je l'ai supprimée."],
             correctIndex: 0,
             explanation: "\"Supprimer\" takes a direct object → \"l'\". \"Le mail\" is masculine: no extra -e.",
@@ -1677,7 +1677,7 @@ export const FR_A2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say: My parents stayed at the hotel?",
+            question: "How do you write: My parents stayed at the hotel?",
             options: ["Mes parents sont restés à l'hôtel.", "Mes parents ont restés à l'hôtel.", "Mes parents sont resté à l'hôtel.", "Mes parents ont resté à l'hôtel."],
             correctIndex: 0,
             explanation: "\"Rester\" takes \"être\" (it's on the list despite not being movement) and agrees: \"restés\".",

@@ -118,7 +118,7 @@ export const PT_A1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Nós estudamos português.",
-            tip: "Stress es-tu-DA-mos, and keep the ê in português closed.",
+            tip: "Stress 'es-too-DÃ-moos', and keep the ê in português closed.",
             explanation: "\"Estudamos\": the nós form of every -ar verb ends in \"-amos\".",
           },
         ],
@@ -166,7 +166,7 @@ export const PT_A1_U04: Lesson[] = [
         source: "They live in Porto Alegre.",
         answer: "Eles moram em Porto Alegre.",
         altAnswers: ["Elas moram em Porto Alegre.", "Moram em Porto Alegre."],
-        explanation: "\"Eles moram\" (or \"elas\" for a group of women only): the \"-am\" ending, stressed on the first syllable, MO-ram.",
+        explanation: "\"Eles moram\" (or \"elas\" for a group of women only): the \"-am\" ending, stressed on the first syllable with an open ó: 'MÓ-rãw'.",
       },
       {
         type: "word-order",
@@ -194,13 +194,13 @@ export const PT_A1_U04: Lesson[] = [
       {
         type: "dictation",
         audio: "Onde você mora?",
-        explanation: "\"Onde\" + \"você\" + \"mora\": no extra word for do. The o in \"mora\" is open: MÓ-ra.",
+        explanation: "\"Onde\" + \"você\" + \"mora\": no extra word for do. The o in \"mora\" is open: 'MÓ-rah'.",
       },
       {
         type: "speak",
         text: "Eu moro em Belo Horizonte.",
         prompt: "Say it in Portuguese: I live in Belo Horizonte.",
-        tip: "The final o of moro sounds like u, and the te in Horizonte sounds like 'chee'.",
+        tip: "The final o of moro sounds like oo, and the te in Horizonte sounds like 'chee'.",
         explanation: "\"Eu moro em\" + city, with no article before \"Belo Horizonte\".",
       },
       {
@@ -431,7 +431,7 @@ export const PT_A1_U04: Lesson[] = [
         type: "speak",
         text: "Eu gosto de música brasileira.",
         prompt: "Say it in Portuguese: I like Brazilian music.",
-        tip: "Stress the first syllable of \"música\": MÚ-si-ca.",
+        tip: "Stress the first syllable of \"música\": 'MOO-zee-kah'.",
         explanation: "\"Gosto de\" + the thing you like.",
       },
       {
@@ -657,7 +657,7 @@ export const PT_A1_U04: Lesson[] = [
       {
         type: "dictation",
         audio: "Eu não falo espanhol.",
-        explanation: "\"Eu não falo espanhol\": \"não\" before the verb, and \"espanhol\" ends in an l that sounds like u.",
+        explanation: "\"Eu não falo espanhol\": \"não\" before the verb, and \"espanhol\" ends in an l that sounds like a w: 'es-pah-NYÓW'.",
       },
       {
         type: "speak",
@@ -715,7 +715,7 @@ export const PT_A1_U04: Lesson[] = [
         body: [
           "Zero to ten: \"zero, um, dois, três, quatro, cinco, seis, sete, oito, nove, dez\". Then \"onze, doze, treze, catorze, quinze, dezesseis, dezessete, dezoito, dezenove, vinte\". \"Catorze\" is also spelled \"quatorze\", and both are correct.",
           "Only \"um\" and \"dois\" change for gender: \"um irmão, uma irmã\", \"dois filhos, duas filhas\". English has nothing like this, so \"duas\" is the one learners forget. Every other number stays the same: \"três carros, três casas\".",
-          "Remember from Unit 2 that t before final -e sounds like ch, so \"sete\" sounds like 'SEH-chee' and \"vinte\" like 'VEEN-chee'.",
+          "Remember from Unit 2 that t before final -e sounds like ch, so \"sete\" sounds like 'SEH-chee' and \"vinte\" like 'VĨ-chee'.",
         ],
         examples: [
           { es: "Tenho três filhos.", en: "I have three children." },
@@ -875,13 +875,13 @@ export const PT_A1_U04: Lesson[] = [
       {
         type: "dictation",
         audio: "Ela tem oito anos.",
-        explanation: "\"Ela tem oito anos\": she's eight. The final -o of \"oito\" and \"anos\" sounds like u.",
+        explanation: "\"Ela tem oito anos\": she's eight. The final -o of \"oito\" and \"anos\" sounds like oo.",
       },
       {
         type: "speak",
         text: "Eu tenho vinte anos.",
         prompt: "Say it in Portuguese: I'm twenty years old.",
-        tip: "Vinte sounds like 'VEEN-chee': the t before final -e becomes ch.",
+        tip: "Vinte sounds like 'VĨ-chee': the t before final -e becomes ch.",
         explanation: "\"Tenho vinte anos\": in Portuguese you have your age.",
       },
     ],
@@ -1096,7 +1096,7 @@ export const PT_A1_U04: Lesson[] = [
         type: "speak",
         text: "Desculpa, estou com pressa.",
         prompt: "Say it in Portuguese: Sorry, I'm in a hurry.",
-        tip: "Stress pres-sa on the first syllable, and keep the double s hard, like the s in see.",
+        tip: "Stress the first syllable, 'PRÉ-sah', and keep the double s hard, like the s in see.",
         explanation: "\"Estar com pressa\" is the everyday way to say you're in a hurry.",
       },
       {
@@ -1314,7 +1314,7 @@ export const PT_A1_U04: Lesson[] = [
         question: "What did you hear?",
         options: ["São seis reais.", "São sete reais.", "São dez reais.", "São três reais."],
         correctIndex: 0,
-        explanation: "\"Seis\" is six. Don't confuse it with \"dez\" (ten): listen for the s at the start.",
+        explanation: "\"Seis\" is six and ends in an s sound ('SAYS'). \"Sete\" (seven) ends in 'chee', and \"dez\" (ten) starts with a d.",
       },
       {
         type: "dictation",
@@ -1525,7 +1525,7 @@ export const PT_A1_U04: Lesson[] = [
         type: "speak",
         text: "Nós não precisamos de ajuda.",
         prompt: "Say it in Portuguese: We don't need help.",
-        tip: "Make the ão in não nasal, with no n at the end, and stress pre-ci-SA-mos.",
+        tip: "Make the ão in não nasal, with no n at the end, and stress 'pre-see-ZÃ-moos': the s between vowels is a z.",
         explanation: "\"Não\" goes right before \"precisamos\", and \"precisar\" keeps its \"de\".",
       },
       {
@@ -1764,7 +1764,7 @@ export const PT_A1_U04: Lesson[] = [
         type: "speak",
         text: "Eu tenho vinte anos e moro em São Paulo.",
         prompt: "Say it in Portuguese: I'm twenty and I live in São Paulo.",
-        tip: "In \"vinte\" the t before final e sounds like ch: 'VEEN-chee'.",
+        tip: "In \"vinte\" the t before final e sounds like ch: 'VĨ-chee'.",
         explanation: "Age with \"ter\" (\"tenho vinte anos\") and where you live with \"morar em\".",
       },
       {

@@ -460,7 +460,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "speak",
         text: "Ontem eu me esqueci do aniversário da minha mãe.",
         prompt: "Say it in Portuguese: Yesterday I forgot my mother's birthday.",
-        tip: "In \"esqueci\" the qu before i is a plain k: es-ke-SI.",
+        tip: "In \"esqueci\" the qu before i is a plain k: es-ke-SEE.",
         explanation: "\"Eu me esqueci do\": the pronominal pattern with \"de\", and the pronoun before the verb as in Brazilian speech.",
       },
       {
@@ -714,7 +714,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "speak",
         text: "A farmácia abre às oito.",
         prompt: "Say it in Portuguese: The pharmacy opens at eight.",
-        tip: "Link \"às\" to \"oito\": the s turns into a z sound before the vowel, a-zoi-tu.",
+        tip: "Link \"às\" to \"oito\": the s turns into a z sound before the vowel, a-ZOY-too.",
         explanation: "\"Às oito\": a + as (horas) for a clock time.",
       },
       {
@@ -1215,7 +1215,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "speak",
         text: "A peça a que assistimos foi ótima.",
         prompt: "Say it in Portuguese: The play we watched was great.",
-        tip: "In \"assistimos\" the t before i sounds like the ch in cheese: a-sis-TCHI-mus.",
+        tip: "In \"assistimos\" the t before i sounds like the ch in cheese: a-sis-CHEE-moos.",
         explanation: "\"Assistir a\" + \"que\": \"a que assistimos\", with no crase because \"que\" has no article.",
       },
       {
@@ -1458,7 +1458,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "speak",
         text: "A partir de segunda, a loja abre às nove.",
         prompt: "Say it in Portuguese: Starting Monday, the store opens at nine.",
-        tip: "Don't lengthen the à in às: in Brazil, a, à and há sound the same. The t in partir sounds like ch: par-tchir.",
+        tip: "Don't lengthen the à in às: in Brazil, a, à and há sound the same. The t in partir sounds like ch: par-CHEER.",
         explanation: "\"A partir de\" has no crase, because \"partir\" is a verb. \"Às nove\" has one, because clock times take the article \"as\".",
       },
       {
@@ -1586,7 +1586,7 @@ export const PT_B2_U06: Lesson[] = [
           {
             type: "speak",
             text: "A peça começa às oito.",
-            tip: "The é in peça is open. In \"às oito\" the s links to the next vowel as a z: a-zoi-tu.",
+            tip: "The é in peça is open. In \"às oito\" the s links to the next vowel as a z: a-ZOY-too.",
             explanation: "\"Às\" sounds just like \"as\". The crase shows up only in writing.",
           },
         ],
@@ -1718,7 +1718,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "speak",
         text: "Combinado, sábado às oito.",
         prompt: "Say it in Portuguese: Deal, Saturday at eight.",
-        tip: "Link \"às oito\" as a-zoi-tu, and keep the nasal \"com\" in combinado.",
+        tip: "Link \"às oito\" as a-ZOY-too, and keep the nasal \"com\" in combinado.",
         explanation: "\"Combinado\" closes a plan among Brazilian friends. \"Às oito\" carries the crase of clock times.",
       },
       {
@@ -2291,7 +2291,7 @@ export const PT_B2_U06: Lesson[] = [
           { es: "A regra à qual todos obedecem foi criada em 2010.", en: "The rule everyone obeys was created in 2010." },
           { es: "Moramos em Belo Horizonte há cinco anos.", en: "We've lived in Belo Horizonte for five years." },
           { es: "A conferência começa daqui a duas semanas.", en: "The conference starts in two weeks." },
-          { es: "A partir de março, o escritório vai ficar a dez minutos do metrô.", en: "Starting in March, the office will be ten minutes from the metro." },
+          { es: "A partir de março, o escritório vai ficar a dez minutos do metrô.", en: "Starting in March, the office will be ten minutes from the subway." },
         ],
         checkpoint: [
           {
@@ -2315,7 +2315,7 @@ export const PT_B2_U06: Lesson[] = [
           {
             type: "speak",
             text: "Moramos em Belo Horizonte há cinco anos.",
-            tip: "The h in há is silent, so it sounds exactly like a. The final te in Horizonte sounds like tchi.",
+            tip: "The h in há is silent, so it sounds exactly like a. The final te in Horizonte sounds like chee.",
             explanation: "\"Há\" + a period of time + the present means you still live there: 'we've lived here for five years'.",
           },
         ],

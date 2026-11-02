@@ -57,7 +57,7 @@ export const PT_B1_U15: Lesson[] = [
         body: [
           "\"Segue em anexo\" (attached is) introduces an attachment, and the verb agrees with what comes after it: \"segue em anexo o relatório\", but \"seguem em anexo os documentos\". The subject comes after the verb here, so learners often forget to make the verb plural.",
           "\"Conforme\" means as, or in line with: \"conforme combinado\" (as agreed), \"conforme solicitado\" (as requested), \"conforme conversamos\" (as we discussed). In English you need a whole clause for this. Portuguese does it with one word.",
-          "For requests, use the conditional from Unit 6: \"gostaria de solicitar\", \"poderia me enviar...?\", \"seria possível...?\". The pronoun still goes before the verb, and \"poderia\" is followed directly by the infinitive, with no \"de\" in between.",
+          "For requests, use the conditional from Unit 10: \"gostaria de solicitar\", \"poderia me enviar...?\", \"seria possível...?\". The pronoun still goes before the verb, and \"poderia\" is followed directly by the infinitive, with no \"de\" in between.",
         ],
         examples: [
           { es: "Segue em anexo o relatório de março.", en: "Please find attached the March report." },
@@ -198,7 +198,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Gostaria de solicitar uma cópia do contrato.",
         prompt: "Say it in Portuguese: I would like to request a copy of the contract.",
-        tip: "In \"gostaria\" the r is a single quick tap, like the tt in American better. Put the stress on the i: gos-ta-RI-a.",
+        tip: "In \"gostaria\" the r is a single quick tap, like the tt in American better. Put the stress on the i: gos-ta-REE-a.",
         explanation: "\"Gostaria de\" + infinitive is the conditional of \"gostar\", the standard polite way to ask in a formal email.",
       },
       {
@@ -242,7 +242,7 @@ export const PT_B1_U15: Lesson[] = [
         heading: "Reading the ad: vaga and requisitos",
         body: [
           "A job ad is \"uma vaga\" (an opening; the same word means a parking space). After the role comes a list of \"requisitos\" (requirements), sometimes followed by \"diferenciais\" (pluses). \"Imprescindível\" and \"obrigatório\" mean a must; \"desejável\" means it helps but won't rule you out.",
-          "Ads are telegraphic: \"ensino superior completo\" (a finished degree), \"inglês avançado\", \"experiência na área\". In full sentences the person they want may not exist yet, so the subjunctive appears, as in Unit 5: \"buscamos alguém que tenha experiência\".",
+          "Ads are telegraphic: \"ensino superior completo\" (a finished degree), \"inglês avançado\", \"experiência na área\". In full sentences the person they want may not exist yet, so the subjunctive appears, as in Unit 7: \"buscamos alguém que tenha experiência\".",
         ],
         examples: [
           { es: "Vaga: assistente administrativo em Curitiba.", en: "Opening: administrative assistant in Curitiba." },
@@ -354,7 +354,7 @@ export const PT_B1_U15: Lesson[] = [
           {
             type: "speak",
             text: "Tenho experiência em atendimento ao cliente.",
-            tip: "In atendimento, the d before i sounds like dj: a-ten-dji-MEN-tu, with the final o as u.",
+            tip: "In atendimento, the d before i sounds like j: a-ten-jee-MEN-too, with the final o as oo.",
             explanation: "\"Tenho experiência em\" + field is the standard first-person résumé frame. \"Atendimento ao cliente\" is customer service.",
           },
         ],
@@ -420,7 +420,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Inglês fluente e espanhol intermediário.",
         prompt: "Say it in Portuguese: Fluent English and intermediate Spanish.",
-        tip: "The d before i in intermediário sounds like dj: in-ter-me-dji-Á-riu. The final e of fluente sounds like i.",
+        tip: "The d before i in intermediário sounds like j: in-ter-me-jee-Á-ryoo. The final e of fluente sounds like ee.",
         explanation: "Languages on a résumé: language + level, with the adjective after the noun and no article.",
       },
       {
@@ -574,7 +574,7 @@ export const PT_B1_U15: Lesson[] = [
             type: "speak",
             text: "Eu gostaria de crescer na empresa.",
             prompt: "Say it in Portuguese: I'd like to grow in the company.",
-            tip: "Stress gos-ta-RI-a. The final r in crescer is very light, and many Brazilians drop it.",
+            tip: "Stress gos-ta-REE-a. The final r in crescer is very light, and many Brazilians drop it.",
             explanation: "\"Gostaria de\" + infinitive is the modest, polite way to state an ambition.",
           },
         ],
@@ -687,7 +687,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Um dos meus pontos fortes é a comunicação.",
         prompt: "Say it in Portuguese: One of my strengths is communication.",
-        tip: "In most of Brazil the -tes of fortes sounds like 'tchis', and the ção is nasal, with no n at the end.",
+        tip: "In most of Brazil the -tes of fortes sounds like 'chees', and the ção is nasal, with no n at the end.",
         explanation: "\"Um dos meus pontos fortes é...\" is the standard way to name a strength.",
       },
       {
@@ -828,7 +828,7 @@ export const PT_B1_U15: Lesson[] = [
           {
             type: "speak",
             text: "Poderia me enviar o relatório até amanhã?",
-            tip: "Stress po-de-RI-a, and give relatório an open ó: he-la-TÓ-riu, with the initial r said like h.",
+            tip: "Stress po-de-REE-a, and give relatório an open ó: he-la-TÓ-ryoo, with the initial r said like h.",
             explanation: "\"Poderia\" (conditional) plus \"enviar\": the polite request that suits an email or a call with a client.",
           },
         ],
@@ -920,7 +920,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Oi, Ana! Te mando as fotos hoje à noite.",
         prompt: "Say it in Portuguese, as a voice note to a friend: Hi, Ana! I'll send you the photos tonight.",
-        tip: "In noite, the t before the final i sound is said like ch: noi-tchi.",
+        tip: "In noite, the t before the final ee sound is said like ch: NOY-chee.",
         explanation: "A casual voice note: \"Oi\", the first name and \"te mando\" with the pronoun first.",
       },
       {
@@ -1150,7 +1150,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Gostaria de saber se o cartório abre aos sábados.",
         prompt: "Say it in Portuguese: I'd like to know if the notary's office opens on Saturdays.",
-        tip: "Stress car-TÓ-riu with an open ó, and stress SÁ-ba-dus on the first syllable.",
+        tip: "Stress kar-TÓ-ryoo with an open ó, and stress SÁ-ba-doos on the first syllable.",
         explanation: "\"Gostaria de saber se\" + indicative is the polite way to ask a clerk for information.",
       },
       {
@@ -1159,7 +1159,7 @@ export const PT_B1_U15: Lesson[] = [
         pairs: [
           { left: "o CPF", right: "tax number" },
           { left: "o RG", right: "ID card" },
-          { left: "a senha", right: "queue number" },
+          { left: "a senha", right: "number in line" },
           { left: "o protocolo", right: "reference number" },
           { left: "a cópia autenticada", right: "certified copy" },
           { left: "o agendamento", right: "appointment" },
@@ -1720,7 +1720,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Prezada Senhora, gostaria de solicitar uma informação.",
         prompt: "Say it in Portuguese: Dear Madam, I would like to request some information.",
-        tip: "Stress gos-ta-RI-a and so-li-ci-TAR. The c in solicitar sounds like an s.",
+        tip: "Stress gos-ta-REE-a and so-lee-see-TAR. The c in solicitar sounds like an s.",
         explanation: "\"Prezada Senhora\" plus \"gostaria de solicitar\" keeps the whole sentence in one formal register.",
       },
       {
@@ -1798,7 +1798,7 @@ export const PT_B1_U15: Lesson[] = [
           "Complain about the problem, not the person. \"O produto chegou com defeito\" is firm. Insults, sarcasm or capital letters lose marks for register. \"Infelizmente\" and \"lamento informar que\" introduce the problem politely without weakening it.",
         ],
         examples: [
-          { es: "No dia 12 de março, comprei uma geladeira pelo site da loja.", en: "On 12 March, I bought a refrigerator on the store's website." },
+          { es: "No dia 12 de março, comprei uma geladeira pelo site da loja.", en: "On March 12, I bought a refrigerator on the store's website." },
           { es: "A geladeira foi entregue no dia 20, com a porta amassada.", en: "The refrigerator was delivered on the 20th, with a dented door." },
           { es: "Entrei em contato com o SAC duas vezes, sob os protocolos 4512 e 4517.", en: "I contacted customer service twice, under reference numbers 4512 and 4517." },
           { es: "Quando liguei pela segunda vez, o pedido já tinha sido cancelado sem aviso.", en: "When I called the second time, the order had already been canceled without notice." },
@@ -1833,9 +1833,9 @@ export const PT_B1_U15: Lesson[] = [
         ],
         examples: [
           { es: "Solicito que o valor de R$ 1.890,00 seja devolvido integralmente.", en: "I request that the amount of R$1,890.00 be refunded in full." },
-          { es: "Peço que a troca seja feita em até dez dias úteis.", en: "I ask that the exchange be made within ten working days." },
+          { es: "Peço que a troca seja feita em até dez dias úteis.", en: "I ask that the exchange be made within ten business days." },
           { es: "Gostaria de solicitar uma reunião com a coordenação do curso.", en: "I would like to request a meeting with the course coordinators." },
-          { es: "Caso o problema não seja resolvido, procurarei o Procon.", en: "If the problem is not solved, I will go to Procon." },
+          { es: "Caso o problema não seja resolvido, procurarei o Procon.", en: "If the problem is not solved, I will go to Procon, the consumer protection agency." },
           { es: "Agradeço desde já a atenção e fico no aguardo de um retorno.", en: "Thank you in advance for your attention. I look forward to hearing from you." },
         ],
         checkpoint: [
@@ -1855,7 +1855,7 @@ export const PT_B1_U15: Lesson[] = [
           {
             type: "speak",
             text: "Solicito que o valor seja devolvido integralmente.",
-            tip: "In integralmente the final -te sounds like 'tchi', and the stress falls on MEN.",
+            tip: "In integralmente the final -te sounds like 'chee', and the stress falls on MEN.",
             explanation: "\"Solicito que\" + \"seja devolvido\": the standard written request, firm and polite.",
           },
         ],
@@ -1954,7 +1954,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Prezado Senhor, escrevo para solicitar informações.",
         prompt: "Say it in Portuguese: Dear Sir, I am writing to request information.",
-        tip: "Make the õe in informações nasal, and say the z in Prezado as a real z: pre-ZA-du, with the final o as u.",
+        tip: "Make the õe in informações nasal, and say the z in Prezado as a real z: pre-ZA-doo, with the final o as oo.",
         explanation: "Opening plus purpose in one breath: \"Prezado Senhor\" + \"escrevo para\" + infinitive.",
       },
       {
@@ -2009,7 +2009,7 @@ export const PT_B1_U15: Lesson[] = [
           "Add one line on where you saw the ad: \"vi o anúncio no LinkedIn\" or, with the passive, \"a vaga foi divulgada no site da empresa\".",
         ],
         examples: [
-          { es: "Prezada Sra. Ribeiro,", en: "Dear Ms Ribeiro," },
+          { es: "Prezada Sra. Ribeiro,", en: "Dear Ms. Ribeiro," },
           { es: "Escrevo para me candidatar à vaga de analista financeiro.", en: "I'm writing to apply for the financial analyst position." },
           { es: "Venho por meio deste e-mail manifestar meu interesse na vaga de estágio.", en: "I am writing to express my interest in the internship position." },
           { es: "Vi o anúncio da vaga no LinkedIn.", en: "I saw the job ad on LinkedIn." },
@@ -2132,7 +2132,7 @@ export const PT_B1_U15: Lesson[] = [
           {
             type: "speak",
             text: "Fico no aguardo do seu retorno.",
-            tip: "The final -o in \"aguardo\" and \"retorno\" sounds like u; the gu in \"aguardo\" is a quick gw.",
+            tip: "The final -o in \"aguardo\" and \"retorno\" sounds like oo; the gu in \"aguardo\" is a quick gw.",
             explanation: "\"Fico no aguardo do seu retorno\" is the standard last line of a formal email: I look forward to hearing from you.",
           },
         ],
@@ -2239,14 +2239,14 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Escrevo para me candidatar à vaga de assistente de vendas.",
         prompt: "Say it in Portuguese: I'm writing to apply for the sales assistant position.",
-        tip: "Make the \"te\" in \"assistente\" sound like tchi, and keep \"vendas\" nasal with no n sound.",
+        tip: "Make the \"te\" in \"assistente\" sound like chee, and keep \"vendas\" nasal with no n sound.",
         explanation: "\"Candidatar-se a\" + \"a vaga\" = \"à vaga\"; the pronoun \"me\" goes before the infinitive in Brazil.",
       },
       {
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Prezada Sra. Lima,", right: "Dear Ms Lima," },
+          { left: "Prezada Sra. Lima,", right: "Dear Ms. Lima," },
           { left: "Segue em anexo", right: "Please find attached" },
           { left: "Fico à disposição", right: "I'm available" },
           { left: "Fico no aguardo", right: "I look forward to hearing from you" },
@@ -2315,7 +2315,7 @@ export const PT_B1_U15: Lesson[] = [
         examples: [
           { es: "Conforme combinado, o contrato foi assinado ontem.", en: "As agreed, the contract was signed yesterday." },
           { es: "Quando recebemos o pedido, o prazo já tinha vencido.", en: "When we received the order, the deadline had already passed." },
-          { es: "Temos recebido muitos currículos para a vaga.", en: "We've been receiving a lot of CVs for the position." },
+          { es: "Temos recebido muitos currículos para a vaga.", en: "We've been receiving a lot of résumés for the position." },
           { es: "O cliente disse que enviaria os dados na segunda-feira.", en: "The client said he would send the data on Monday." },
           { es: "As propostas foram aprovadas pela diretoria.", en: "The proposals were approved by the board." },
         ],
@@ -2466,7 +2466,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Agradeço a oportunidade.",
         prompt: "Say it in Portuguese: Thank you for the opportunity. (formal)",
-        tip: "The final -de of \"oportunidade\" sounds like 'dji'.",
+        tip: "The final -de of \"oportunidade\" sounds like 'jee'.",
         explanation: "\"Agradeço\" (I thank) is more formal than \"obrigado/obrigada\" and doesn't change with the speaker's gender.",
       },
       {

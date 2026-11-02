@@ -62,7 +62,7 @@ export const PT_C2_U31_EXTRA: Lesson[] = [
               "Families prefer fruit and vegetables that look perfect.",
             ],
             correctIndex: 0,
-            explanation: "\"Perder a aparência ideal\" rewords a technical idea (produce shops won't sell) in terms a supermarket manager can picture.",
+            explanation: "\"Perder a aparência ideal\" rewords a technical idea (produce stores won't sell) in terms a supermarket manager can picture.",
           },
         ],
       },

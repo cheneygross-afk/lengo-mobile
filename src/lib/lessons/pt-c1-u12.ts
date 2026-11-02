@@ -102,7 +102,7 @@ export const PT_C1_U12: Lesson[] = [
           { es: "Ao chegarem ao aeroporto, os jogadores foram recebidos pela torcida.", en: "When the players arrived at the airport, the fans welcomed them." },
           { es: "Tendo revisado o contrato, a advogada o assinou.", en: "Having reviewed the contract, the lawyer signed it." },
           { es: "Encerrada a votação, começou a contagem.", en: "Once voting closed, the count began." },
-          { es: "Feitas as contas, o projeto saiu mais barato.", en: "Once the sums were done, the project came out cheaper." },
+          { es: "Feitas as contas, o projeto saiu mais barato.", en: "Once the math was done, the project came out cheaper." },
         ],
         checkpoint: [
           {
@@ -290,7 +290,7 @@ export const PT_C1_U12: Lesson[] = [
           "Claims are calibrated, not asserted: \"os resultados sugerem que\", \"tende a\", \"em certa medida\", or \"é possível que\" with the subjunctive. Sources come with \"segundo\", \"conforme aponta\" or \"Freire (1996) afirma que\". Watch for calques. \"Endereçar um problema\" is English in disguise, so write \"abordar\" or \"enfrentar\".",
         ],
         examples: [
-          { es: "O presente estudo tem como objetivo analisar o uso do transporte público em Curitiba.", en: "This study aims to analyze the use of public transport in Curitiba." },
+          { es: "O presente estudo tem como objetivo analisar o uso do transporte público em Curitiba.", en: "This study aims to analyze the use of public transportation in Curitiba." },
           { es: "Os resultados sugerem que a renda tende a influenciar o acesso à internet.", en: "The results suggest that income tends to influence internet access." },
           { es: "Segundo Freire (1996), ensinar exige respeito à autonomia do educando.", en: "According to Freire (1996), teaching requires respect for the learner's autonomy." },
           { es: "Verifica-se, em certa medida, uma queda na evasão escolar.", en: "To some extent, a drop in school dropout rates can be observed." },
@@ -412,7 +412,7 @@ export const PT_C1_U12: Lesson[] = [
           {
             type: "speak",
             text: "Parece que cortaram a verba de novo, né?",
-            tip: "Final e sounds like i (pa-RE-ci), and the d in de sounds like the j in jeans.",
+            tip: "Final e sounds like ee (pa-RE-see), and de sounds like jee.",
             explanation: "A casual report with \"parece que\" and the tag \"né\", the spoken counterpart of \"segundo fontes\".",
           },
         ],
@@ -524,7 +524,7 @@ export const PT_C1_U12: Lesson[] = [
         type: "speak",
         text: "Venho, por meio deste, solicitar a segunda via do documento.",
         prompt: "Say it in Portuguese: I hereby request a duplicate of the document.",
-        tip: "Pause briefly at both commas; deste sounds like DES-tchi.",
+        tip: "Pause briefly at both commas; deste sounds like DESS-chee.",
         explanation: "\"Venho, por meio deste, solicitar\" is the standard formula, and \"segunda via\" is the official word for a replacement copy.",
       },
     ],
@@ -587,7 +587,7 @@ export const PT_C1_U12: Lesson[] = [
         ],
         examples: [
           { es: "Terminada a reunião, todos voltaram para as suas mesas.", en: "Once the meeting was over, everyone went back to their desks." },
-          { es: "Feitas as contas, sobraram duzentos reais.", en: "Once the sums were done, there were two hundred reais left." },
+          { es: "Feitas as contas, sobraram duzentos reais.", en: "Once the math was done, there were two hundred reais left." },
           { es: "Vou enviar o relatório amanhã cedo.", en: "I'll send the report first thing tomorrow. (not \"vou estar enviando\")" },
           { es: "Quando saí do metrô, começou a chover.", en: "As I came out of the metro, it started to rain." },
           { es: "Ao receber a notícia, a diretora cancelou a viagem.", en: "On receiving the news, the director canceled the trip." },
@@ -730,7 +730,7 @@ export const PT_C1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[With the sums done], we signed the contract.",
+        en: "[With the math done], we signed the contract.",
         sentence: "___ as contas, assinamos o contrato.",
         answer: "Feitas",
         hint: "A learner wrote \"Feito\".",
@@ -768,7 +768,7 @@ export const PT_C1_U12: Lesson[] = [
         question: "What does it mean?",
         options: ["As far as I know, the deadline hasn't changed.", "I know the deadline hasn't changed.", "I'd like to know if the deadline changed.", "As far as I know, the deadline has changed."],
         correctIndex: 0,
-        explanation: "\"Que eu saiba\" hedges the claim: as far as I know. An apartment 'I know' would be \"eu sei que\".",
+        explanation: "\"Que eu saiba\" hedges the claim: as far as I know. A plain 'I know' would be \"eu sei que\".",
       },
       {
         type: "dictation",
@@ -831,11 +831,11 @@ export const PT_C1_U12: Lesson[] = [
           "Don't overcorrect. \"Disseram-me\" in a message to a friend sounds stiff or ironic. The reader decides the register, not your wish to sound advanced.",
         ],
         examples: [
-          { es: "Eu vi ele no congresso. → Eu o vi no congresso.", en: "I saw him at the conference. (speech → writing)" },
-          { es: "Me disseram que a vaga foi preenchida. → Disseram-me que a vaga foi preenchida.", en: "I was told the position has been filled." },
-          { es: "Tem muita gente sem acesso à internet. → Há muitas pessoas sem acesso à internet.", en: "Lots of people have no internet access." },
-          { es: "A gente precisa ir no banco. → Precisamos ir ao banco.", en: "We need to go to the bank." },
-          { es: "Os preços caíram, e isso preocupa o governo. → A queda dos preços preocupa o governo.", en: "Prices fell, and that worries the government. → The fall in prices worries the government." },
+          { es: "Eu vi ele no congresso. Eu o vi no congresso.", en: "I saw him at the conference. (speech, then writing)" },
+          { es: "Me disseram que a vaga foi preenchida. Disseram-me que a vaga foi preenchida.", en: "I was told the position has been filled. (speech, then writing)" },
+          { es: "Tem muita gente sem acesso à internet. Há muitas pessoas sem acesso à internet.", en: "Lots of people have no internet access. (speech, then writing)" },
+          { es: "A gente precisa ir no banco. Precisamos ir ao banco.", en: "We need to go to the bank. (speech, then writing)" },
+          { es: "Os preços caíram, e isso preocupa o governo. A queda dos preços preocupa o governo.", en: "The fall in prices worries the government. (verb, then noun)" },
         ],
         checkpoint: [
           {
@@ -873,12 +873,12 @@ export const PT_C1_U12: Lesson[] = [
           "Each compression must keep the meaning clear. If the reader has to guess who did what, keep the full clause.",
         ],
         examples: [
-          { es: "Quando a reunião terminou, todos saíram. → Terminada a reunião, todos saíram.", en: "When the meeting ended, everyone left." },
-          { es: "Quando chegou ao aeroporto, ela ligou para a mãe. → Ao chegar ao aeroporto, ela ligou para a mãe.", en: "On arriving at the airport, she called her mother." },
-          { es: "Como era tarde, decidimos adiar a votação. → Por ser tarde, decidimos adiar a votação.", en: "Since it was late, we decided to postpone the vote." },
-          { es: "Depois que fizemos as contas, vimos o prejuízo. → Feitas as contas, vimos o prejuízo.", en: "Once the sums were done, we saw the loss." },
-          { es: "Dizem que o ministro recebeu propina. → O ministro teria recebido propina.", en: "The minister allegedly took bribes." },
-          { es: "Ela deve ter saído mais cedo. → Ela terá saído mais cedo.", en: "She must have left early." },
+          { es: "Quando a reunião terminou, todos saíram. Terminada a reunião, todos saíram.", en: "When the meeting ended, everyone left. (full clause, then reduced)" },
+          { es: "Quando chegou ao aeroporto, ela ligou para a mãe. Ao chegar ao aeroporto, ela ligou para a mãe.", en: "On arriving at the airport, she called her mother. (full clause, then reduced)" },
+          { es: "Como era tarde, decidimos adiar a votação. Por ser tarde, decidimos adiar a votação.", en: "Since it was late, we decided to postpone the vote. (full clause, then reduced)" },
+          { es: "Depois que fizemos as contas, vimos o prejuízo. Feitas as contas, vimos o prejuízo.", en: "Once the math was done, we saw the loss. (full clause, then reduced)" },
+          { es: "Dizem que o ministro recebeu propina. O ministro teria recebido propina.", en: "The minister allegedly took bribes. (speech, then the press)" },
+          { es: "Ela deve ter saído mais cedo. Ela terá saído mais cedo.", en: "She must have left early. (speech, then careful prose)" },
         ],
         checkpoint: [
           {
@@ -902,9 +902,9 @@ export const PT_C1_U12: Lesson[] = [
             type: "listen-choose",
             audio: "Feitas as contas, o projeto ficou mais caro.",
             question: "What does it mean?",
-            options: ["Once the sums were done, the project turned out more expensive.", "If we do the sums, the project will be more expensive.", "The project made the sums more expensive.", "After the bills were paid, the project got cheaper."],
+            options: ["Once the math was done, the project turned out more expensive.", "If we do the math, the project will be more expensive.", "The project made the sums more expensive.", "After the bills were paid, the project got cheaper."],
             correctIndex: 0,
-            explanation: "\"Feitas as contas\" is a completed participle clause (once the sums were done), with \"feitas\" agreeing with \"as contas\". \"Ficou mais caro\" means it turned out more expensive.",
+            explanation: "\"Feitas as contas\" is a completed participle clause (once the math was done), with \"feitas\" agreeing with \"as contas\". \"Ficou mais caro\" means it turned out more expensive.",
           },
         ],
       },
@@ -916,11 +916,11 @@ export const PT_C1_U12: Lesson[] = [
           "In formal prose, one emphatic device per sentence is usually enough. Stack a cleft, a topic and \"mesmo\" in one sentence and it starts to sound like speech.",
         ],
         examples: [
-          { es: "O João decidiu. → Foi o João quem decidiu.", en: "João decided. → It was João who decided." },
-          { es: "Nós pagamos a conta. → Fomos nós que pagamos a conta.", en: "We paid the bill. → It was us who paid the bill." },
-          { es: "Eu quero estabilidade. → O que eu quero é estabilidade.", en: "I want stability. → What I want is stability." },
-          { es: "Os resultados chegaram. → Chegaram os resultados.", en: "The results have arrived." },
-          { es: "Ela aceita a proposta. → Talvez ela aceite a proposta.", en: "She accepts the offer. → Maybe she'll accept the offer." },
+          { es: "O João decidiu. Foi o João quem decidiu.", en: "It was João who decided. (neutral, then cleft)" },
+          { es: "Nós pagamos a conta. Fomos nós que pagamos a conta.", en: "It was us who paid the bill. (neutral, then cleft)" },
+          { es: "Eu quero estabilidade. O que eu quero é estabilidade.", en: "What I want is stability. (neutral, then pseudo-cleft)" },
+          { es: "Os resultados chegaram. Chegaram os resultados.", en: "The results have arrived. (neutral, then inverted)" },
+          { es: "Ela aceita a proposta. Talvez ela aceite a proposta.", en: "Maybe she'll accept the offer. (fact, then possibility)" },
         ],
         checkpoint: [
           {
@@ -1035,7 +1035,7 @@ export const PT_C1_U12: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Feitas as contas", right: "Once the sums were done" },
+          { left: "Feitas as contas", right: "Once the math was done" },
           { left: "Dito isso", right: "That said" },
           { left: "Ao chegar", right: "On arriving" },
           { left: "Por ser tarde", right: "Since it was late" },
@@ -1125,7 +1125,7 @@ export const PT_C1_U12: Lesson[] = [
         examples: [
           { es: "Tipo, a gente plantou ali e a temperatura caiu uns dois graus, sabe?", en: "Like, we planted there and the temperature dropped two degrees or so, you know? (the video)" },
           { es: "Nas áreas cultivadas, a temperatura caiu cerca de dois graus.", en: "In the cultivated areas, the temperature fell by about two degrees. (the article)" },
-          { es: "Tem muito terreno vazio que só junta lixo.", en: "There's loads of empty land that just piles up trash. (the video)" },
+          { es: "Tem muito terreno vazio que só junta lixo.", en: "There's tons of empty land that just piles up trash. (the video)" },
           { es: "Há, na cidade, muitos terrenos vazios que acumulam lixo.", en: "The city has many empty lots that collect trash. (the article)" },
           { es: "A bióloga ressalta que a horta também é um espaço de convivência.", en: "The biologist stresses that the garden is also a place where people meet." },
           { es: "Ao ocupar terrenos abandonados, os moradores reduzem os focos de dengue.", en: "By taking over abandoned lots, residents cut down on dengue breeding sites." },
@@ -1173,7 +1173,7 @@ export const PT_C1_U12: Lesson[] = [
         body: [
           "A newsletter article needs four parts. The title states the point. The opening ties the topic to the readers' daily lives. The development rests on the video's evidence. The close asks readers to act. Write for these readers: neighbors care about their street, trash and dengue, not about urban climatology for its own sake.",
           "Select ruthlessly. If the video wanders into the history of gardens in Japan, leave it out unless it serves your purpose. Examiners check that the key information is present and correctly understood, not that every detail made it in. A good test: would a neighbor miss this sentence?",
-          "End with a concrete invitation: day, time, place. The proposal language of Unit 4 works here in a lighter register: \"convidamos\", \"contamos com\", and \"para que\" with the subjunctive.",
+          "End with a concrete invitation: day, time, place. The proposal language of Unit 6 works here in a lighter register: \"convidamos\", \"contamos com\", and \"para que\" with the subjunctive.",
         ],
         examples: [
           { es: "Um terreno abandonado pode virar a horta do bairro", en: "An abandoned lot could become the neighborhood garden (title)" },
@@ -1272,7 +1272,7 @@ export const PT_C1_U12: Lesson[] = [
         audio: "Tem muito terreno vazio que só junta lixo, né?",
         question: "What does it mean?",
         options: [
-          "There's loads of empty land that just piles up trash, right?",
+          "There's tons of empty land that just piles up trash, right?",
           "There's a lot of empty land that only needs cleaning, right?",
           "Someone owns an empty lot full of trash.",
           "Many lots used to be empty and full of trash.",
@@ -1409,7 +1409,7 @@ export const PT_C1_U12: Lesson[] = [
         examples: [
           { es: "Conforme noticiado pela imprensa local, a biblioteca ficará fechada nos fins de semana.", en: "As reported by the local press, the library will be closed on weekends." },
           { es: "O fechamento da biblioteca aos domingos afetaria cerca de três mil usuários.", en: "Closing the library on Sundays would affect about three thousand users." },
-          { es: "A reportagem informa que a maioria dos frequentadores é composta por estudantes de escola pública.", en: "The report states that most of the users are state-school students." },
+          { es: "A reportagem informa que a maioria dos frequentadores é composta por estudantes de escola pública.", en: "The report states that most of the users are public-school students." },
           { es: "Alega-se que a medida trará economia; no entanto, o valor representa menos de 1% do orçamento da Secretaria.", en: "It is claimed that the measure will save money; however, the amount is less than 1% of the department's budget." },
           { es: "A secretária afirmou que a decisão era temporária.", en: "The secretary stated that the decision was temporary." },
           { es: "Segundo os dados divulgados, o público dos fins de semana cresceu 20% em dois anos.", en: "According to the published figures, weekend attendance grew 20% in two years." },
@@ -1454,7 +1454,7 @@ export const PT_C1_U12: Lesson[] = [
       {
         heading: "Build the letter around the request",
         body: [
-          "The shape is the formal letter from Unit 5: place and date, a vocative (\"Prezada Senhora Secretária\"), an opening that says who you are and why you're writing, the argument, the request and a closing formula. State the purpose in the first paragraph. A reader who has to hunt for it stops reading.",
+          "The shape is the formal letter from Unit 7: place and date, a vocative (\"Prezada Senhora Secretária\"), an opening that says who you are and why you're writing, the argument, the request and a closing formula. State the purpose in the first paragraph. A reader who has to hunt for it stops reading.",
           "Make the request concrete: \"solicito que a decisão seja revista\", \"peço que a senhora considere uma alternativa\". A request with a new subject takes the subjunctive. Address the secretary as \"a senhora\" with third-person verbs, never as \"você\". An alternative, such as reduced Saturday hours, shows you've engaged with the problem and not only with the decision.",
           "End by thanking the reader in advance (\"Contando com a sua compreensão, agradeço desde já\"). Then add \"Atenciosamente\", your name and, if it helps, your role: \"usuária da biblioteca desde 2019\".",
         ],
@@ -1616,7 +1616,7 @@ export const PT_C1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which opening paragraph best fulfils the task?",
+        question: "Which opening paragraph best fulfills the task?",
         options: [
           "Venho, por meio desta, solicitar que a biblioteca municipal continue aberta nos fins de semana.",
           "A biblioteca municipal foi fundada em 1954 e tem um prédio muito bonito.",
@@ -1634,7 +1634,7 @@ export const PT_C1_U12: Lesson[] = [
           { left: "interlocutor", right: "the reader the text is for" },
           { left: "propósito", right: "the purpose" },
           { left: "Prezada Senhora", right: "Dear Madam" },
-          { left: "Atenciosamente", right: "Yours sincerely" },
+          { left: "Atenciosamente", right: "Sincerely" },
         ],
         explanation: "These terms appear in the Celpe-Bras instructions and grading grid. Check every letter against the writer, reader and purpose.",
       },
@@ -1958,7 +1958,7 @@ export const PT_C1_U12: Lesson[] = [
           "Não acho que aumentou.",
         ],
         correctIndex: 2,
-        explanation: "The best answer qualifies and contrasts, using \"já\" to mark the second group. \"Não acho que aumentou\" also has the wrong mood; it should be \"não acho que tenha aumentado\".",
+        explanation: "The best answer qualifies and contrasts, using \"já\" to mark the second group. \"Não acho que aumentou\" is also weak on mood: careful speech says \"não acho que tenha aumentado\".",
       },
       {
         type: "matching",
@@ -2314,7 +2314,7 @@ export const PT_C1_U12: Lesson[] = [
           { es: "Ao receber o resultado, a candidata ligou para a família.", en: "On getting the result, the candidate called her family." },
           { es: "Tendo analisado os dados, a equipe revisou as metas.", en: "Having analyzed the data, the team revised its targets." },
           { es: "Encerradas as inscrições, a comissão divulgou a lista.", en: "Once registration had closed, the committee published the list." },
-          { es: "Feitas as contas, o reajuste ficou abaixo da inflação.", en: "Once the sums were done, the raise came in below inflation." },
+          { es: "Feitas as contas, o reajuste ficou abaixo da inflação.", en: "Once the math was done, the raise came in below inflation." },
           { es: "Ao abrir a carta, Mariana descobriu que o irmão vendera a casa.", en: "On opening the letter, Mariana found out her brother had sold the house." },
         ],
         checkpoint: [
@@ -2506,7 +2506,7 @@ export const PT_C1_U12: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "custe o que custar", right: "whatever it takes" },
-          { left: "feitas as contas", right: "once the sums are done" },
+          { left: "feitas as contas", right: "once the math is done" },
           { left: "quem me dera", right: "if only" },
           { left: "à luz de", right: "in light of" },
           { left: "venho, por meio deste, solicitar", right: "I am writing to request" },

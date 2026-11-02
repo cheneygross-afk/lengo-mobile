@@ -15,7 +15,7 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Não entendi. Pode repetir?",
         body: [
-          "The single most useful phrase for a beginner in Brazil is \"Não entendi\" (I didn't understand / I didn't catch that). It's a past form of \"entender\", but learn it as a chunk: Brazilians say \"não entendi\" about something just said, not \"não entendo\".",
+          "The single most useful phrase for a beginner in Brazil is \"Não entendi\" (I didn't understand, or I didn't catch that). It's a past form of \"entender\", but learn it as a chunk: Brazilians say \"não entendi\" about something just said, not \"não entendo\".",
           "Follow it with a request using \"poder\" from Unit 6: \"Pode repetir, por favor?\" (Can you repeat that, please?) and \"Mais devagar, por favor\" (More slowly, please). \"Pode\" without \"você\" is the normal polite request; add \"o senhor\" or \"a senhora\" for an older person.",
         ],
         examples: [
@@ -109,7 +109,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Desculpa, não entendi. Pode repetir?",
-            tip: "Entendi: 'en-ten-JEE', the d before i sounds like j.",
+            tip: "Entendi: 'ẽ-tẽ-JEE', the d before i sounds like j.",
             explanation: "The two phrases you will use most in your first week.",
           },
         ],
@@ -202,7 +202,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Eu falo um pouco de português.",
         prompt: "Say it in Portuguese: I speak a little Portuguese.",
-        tip: "Português: por-tu-GUÊS, closed ê, stress at the end.",
+        tip: "Português: 'por-too-GÊS', closed ê, stress at the end.",
         explanation: "\"Um pouco de\" + noun.",
       },
     ],
@@ -251,7 +251,7 @@ export const PT_A1_U11: Lesson[] = [
         heading: "Tá bom: hearing tá",
         body: [
           "In speech, \"está\" is almost always shortened to \"tá\". \"Tá bom\" (OK, fine) is everywhere, and so is just \"tá\": \"Tá?\" (OK?) \"Tá.\" (OK.). You'll hear \"tá frio\", \"tá tudo bem\" and \"onde você tá?\".",
-          "You don't have to say \"tá\" yourself yet, but you need to recognise it. In writing, use \"está\".",
+          "You don't have to say \"tá\" yourself yet, but you need to recognize it. In writing, use \"está\".",
         ],
         examples: [
           { es: "Tá bom!", en: "OK!" },
@@ -302,7 +302,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Imagina!",
-            tip: "I-ma-JI-na, stress on the third syllable.",
+            tip: "Imagina: 'ee-mah-ZHEE-nah', stress on the third syllable.",
             explanation: "\"Imagina!\" is a warm don't mention it.",
           },
         ],
@@ -403,7 +403,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Claro, sem problema!",
         prompt: "Say it in Portuguese: Of course, no problem!",
-        tip: "Problema: pro-BLE-ma, with a tap r.",
+        tip: "Problema: 'proh-BLAY-mah', with a tap r.",
         explanation: "\"Claro\" and \"sem problema\" make a friendly yes.",
       },
     ],
@@ -507,7 +507,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Um suco de manga, por favor.",
-            tip: "Manga: MAN-ga, nasal first syllable.",
+            tip: "Manga: 'MÃ-gah', nasal first syllable.",
             explanation: "Order with the drink and \"por favor\".",
           },
         ],
@@ -601,7 +601,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Eu quero arroz, feijão e frango, por favor.",
         prompt: "Say it in Portuguese: I'd like rice, beans and chicken, please.",
-        tip: "Feijão: fei-JÃO, nasal ão at the end.",
+        tip: "Feijão: 'fay-ZHÃW', nasal ão at the end.",
         explanation: "Order with \"eu quero\" and \"por favor\".",
       },
     ],
@@ -619,7 +619,7 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Pegue o prato",
         body: [
-          "Emma walks into a \"restaurante por quilo\" in Belo Horizonte at lunchtime. The attendant at the door says: \"Boa tarde! Pegue o prato ali.\" (Take a plate over there.) \"Pegue\" is a command form; for now, just recognise it.",
+          "Emma walks into a \"restaurante por quilo\" in Belo Horizonte at lunchtime. The attendant at the door says: \"Boa tarde! Pegue o prato ali.\" (Take a plate over there.) \"Pegue\" is a command form; for now, just recognize it.",
           "Emma serves herself and goes to the \"balança\" (the scale). The attendant weighs the plate and says the price: \"Quatrocentos e cinquenta gramas, dezoito reais.\" She gets a slip, \"a comanda\", to pay later.",
         ],
         examples: [
@@ -703,7 +703,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Débito, por favor.",
-            tip: "Débito: DÉ-bi-to, stress on the first syllable.",
+            tip: "Débito: 'DÉ-bee-too', stress on the first syllable.",
             explanation: "Answer with the payment type and \"por favor\".",
           },
         ],
@@ -742,7 +742,7 @@ export const PT_A1_U11: Lesson[] = [
         source: "Twenty-five reais.",
         answer: "Vinte e cinco reais.",
         altAnswers: ["São vinte e cinco reais.", "R$ 25,00."],
-        explanation: "Tens and units joined with \"e\"; \"real\" → \"reais\".",
+        explanation: "Tens and units joined with \"e\"; the plural of \"real\" is \"reais\".",
       },
       {
         type: "fill-blank",
@@ -791,7 +791,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Um suco de manga sem açúcar, por favor.",
         prompt: "Say it in Portuguese: A mango juice without sugar, please.",
-        tip: "Açúcar: a-ÇÚ-car, stress on the middle syllable.",
+        tip: "Açúcar: 'ah-SOO-kar', stress on the middle syllable.",
         explanation: "Drink + \"sem açúcar\" + \"por favor\".",
       },
     ],
@@ -866,7 +866,7 @@ export const PT_A1_U11: Lesson[] = [
             question: "The cashier asks \"Crédito ou débito?\" You want to pay on credit. What do you say?",
             options: ["No crédito.", "Em crédito.", "É crédito, débito.", "Para crédito."],
             correctIndex: 0,
-            explanation: "\"No crédito\" / \"no débito\" is the natural answer.",
+            explanation: "\"No crédito\" or \"no débito\" is the natural answer.",
           },
         ],
       },
@@ -895,7 +895,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Não, obrigado. Não tenho CPF.",
-            tip: "CPF is said cê-pê-É-fi.",
+            tip: "CPF is said 'sê-pê-É-fee'.",
             explanation: "The polite reply when you have no Brazilian tax number. A woman says \"obrigada\".",
           },
         ],
@@ -945,7 +945,7 @@ export const PT_A1_U11: Lesson[] = [
         source: "That's thirty reais.",
         answer: "São trinta reais.",
         altAnswers: ["É trinta reais.", "Trinta reais."],
-        explanation: "\"São\" with a plural amount; \"real\" → \"reais\".",
+        explanation: "\"São\" with a plural amount; the plural of \"real\" is \"reais\".",
       },
       {
         type: "fill-blank",
@@ -1014,7 +1014,7 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Dois or doze? Três or treze?",
         body: [
-          "Two of the trickiest pairs: \"dois\" (2) vs \"doze\" (12), and \"três\" (3) vs \"treze\" (13). Listen for the ending: \"dois\" ends in an s sound, \"doze\" in a z and a weak i sound ('DOH-zee'). \"Três\" is one syllable, \"treze\" two ('TRAY-zee').",
+          "Two of the trickiest pairs: \"dois\" (2) vs \"doze\" (12), and \"três\" (3) vs \"treze\" (13). Listen for the ending: \"dois\" ends in an s sound, \"doze\" in a z and a weak i sound ('DÔ-zee'). \"Três\" is one syllable, \"treze\" two ('TRAY-zee').",
           "In prices this matters: R$ 2,50 is \"dois e cinquenta\", R$ 12,50 is \"doze e cinquenta\". In times, \"às duas\" (at two) vs \"às doze\" (at twelve). Note \"duas\": \"hora\" is feminine.",
         ],
         examples: [
@@ -1031,7 +1031,7 @@ export const PT_A1_U11: Lesson[] = [
             question: "How much is it?",
             options: ["R$ 12,50", "R$ 2,50", "R$ 2,15", "R$ 20,50"],
             correctIndex: 0,
-            explanation: "\"Doze\" (12) has two syllables, 'DOH-zee'.",
+            explanation: "\"Doze\" (12) has two syllables, 'DÔ-zee'.",
           },
           {
             type: "translate",
@@ -1048,7 +1048,7 @@ export const PT_A1_U11: Lesson[] = [
         heading: "Seis, sete or meia?",
         body: [
           "\"Seis\" (6) and \"sete\" (7) are close, and in phone numbers Brazilians often say \"meia\" for six, short for \"meia dúzia\" (half a dozen), so it's not confused with \"três\". You'll hear \"meia\" for 6 but never for 16 or 60.",
-          "The teens are another trap: \"dezesseis\" (16) vs \"dezessete\" (17). Listen to the last syllable: \"-seis\" or \"-sete\" ('SEH-chee').",
+          "The teens are another trap: \"dezesseis\" (16) vs \"dezessete\" (17). Listen to the last syllable: \"-seis\" or \"-sete\" ('SÉ-chee').",
         ],
         examples: [
           { es: "O telefone é nove, meia, sete, dois.", en: "The number is nine, six, seven, two." },
@@ -1078,7 +1078,7 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Sessenta or setenta? Duzentos or duzentas?",
         body: [
-          "\"Sessenta\" (60) and \"setenta\" (70) differ in one sound: ss vs t. Say them slowly: se-SSEN-ta, se-TEN-ta. In a price, R$ 60 or R$ 70 can change your plans.",
+          "\"Sessenta\" (60) and \"setenta\" (70) differ in one sound: ss vs t. Say them slowly: 'seh-SẼ-tah', 'seh-TẼ-tah'. In a price, R$ 60 or R$ 70 can change your plans.",
           "Hundreds agree with feminine nouns: \"duzentos reais\" but \"duzentas pessoas\". \"Real\" is masculine, so prices always take \"duzentos\", \"trezentos\".",
         ],
         examples: [
@@ -1108,7 +1108,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Sessenta, setenta.",
-            tip: "Se-SSEN-ta with an s, se-TEN-ta with a t.",
+            tip: "'seh-SẼ-tah' with an s, 'seh-TẼ-tah' with a t.",
             explanation: "The pair that differs only in one consonant.",
           },
         ],
@@ -1217,7 +1217,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Dois, doze. Três, treze.",
         prompt: "Say the pairs aloud: two, twelve; three, thirteen.",
-        tip: "Doze and treze end in a soft zi sound.",
+        tip: "Doze and treze end in a soft 'zee' sound.",
         explanation: "Two pairs English speakers mix up when listening.",
       },
     ],
@@ -1321,7 +1321,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Vou descer aqui, por favor.",
-            tip: "Descer: 'deh-SEHR', the sc sounds like s.",
+            tip: "Descer: 'deh-SÊR', the sc sounds like s.",
             explanation: "\"Ir\" + infinitive: what you're about to do.",
           },
         ],
@@ -1420,7 +1420,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Qual ônibus vai para o centro?",
         prompt: "Say it in Portuguese: Which bus goes to the center?",
-        tip: "Ônibus: Ô-ni-bus, stress on the first syllable.",
+        tip: "Ônibus: 'Ô-nee-boos', stress on the first syllable.",
         explanation: "\"Qual\" + noun asks which.",
       },
     ],
@@ -1524,7 +1524,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Ida e volta, janela, por favor.",
-            tip: "Janela: ja-NE-la, the j as in measure.",
+            tip: "Janela: 'zhah-NÉ-lah', the j as in measure.",
             explanation: "Round-trip ticket, window seat.",
           },
         ],
@@ -1672,7 +1672,7 @@ export const PT_A1_U11: Lesson[] = [
         heading: "Quarto de casal, com ar-condicionado",
         body: [
           "Rooms: \"um quarto de casal\" (a double), \"um quarto de solteiro\" (a single), \"com ar-condicionado\" (with air conditioning) or \"com ventilador\" (with a fan). \"Casal\" is a couple; \"solteiro\" is also the word for single on a form.",
-          "You'll get \"a chave\" (the key) and hear which floor: \"O quarto é no primeiro andar.\" (\"andar\" = floor). Brazil counts floors from \"o térreo\" (street level), so \"o primeiro andar\" is what Americans call the second floor. Ask \"Tem elevador?\" (Is there an elevator?).",
+          "You'll get \"a chave\" (the key) and hear which floor: \"O quarto é no primeiro andar.\" (\"andar\" is floor). Brazil counts floors from \"o térreo\" (street level), so \"o primeiro andar\" is what Americans call the second floor. Ask \"Tem elevador?\" (Is there an elevator?).",
         ],
         examples: [
           { es: "Um quarto de casal com ar-condicionado.", en: "A double room with air conditioning." },
@@ -1812,13 +1812,13 @@ export const PT_A1_U11: Lesson[] = [
       {
         type: "dictation",
         audio: "O café está incluído?",
-        explanation: "\"Incluído\": the accent keeps the i stressed, in-clu-Í-do.",
+        explanation: "\"Incluído\": the accent keeps the i stressed: 'ĩ-kloo-EE-doo'.",
       },
       {
         type: "speak",
         text: "Boa tarde! Eu tenho uma reserva para duas noites.",
         prompt: "Say it in Portuguese: Good afternoon! I have a reservation for two nights.",
-        tip: "Noites: 'NOY-cheese', the t before final e sounds like ch.",
+        tip: "Noites: 'NOY-chees', the t before final e sounds like ch.",
         explanation: "The standard opening at the front desk.",
       },
     ],
@@ -1828,7 +1828,7 @@ export const PT_A1_U11: Lesson[] = [
     level: "PT-A1",
     number: 10,
     title: "Real-World Mission: Fill In a Form",
-    summary: "Fill in a registration form at a gym or language school in São Paulo: names, date of birth, address, phone, e-mail and ID, and spell them aloud.",
+    summary: "Fill in a registration form at a gym or language school in São Paulo: names, date of birth, address, phone, email and ID, and spell them aloud.",
     duration: "12 min",
     kind: "reinforce",
     format: "Real-World Mission",
@@ -1901,12 +1901,12 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Telefone, e-mail, CPF ou passaporte",
         body: [
-          "E-mail addresses are said aloud: @ is \"arroba\" and a dot is \"ponto\": ana.silva@email.com is \"ana ponto silva arroba email ponto com\". Spell tricky names with \"Como se escreve?\" and the alphabet from Unit 2.",
+          "Email addresses are said aloud: @ is \"arroba\" and a dot is \"ponto\": ana.silva@email.com is \"ana ponto silva arroba email ponto com\". Spell tricky names with \"Como se escreve?\" and the alphabet from Unit 2.",
           "Finally the ID: Brazilians give their CPF; visitors say \"Não tenho CPF. Posso usar o passaporte?\"",
         ],
         examples: [
           { es: "Qual é o seu telefone?", en: "What's your phone number?" },
-          { es: "Meu e-mail é tom ponto clark arroba email ponto com.", en: "My e-mail is tom.clark@email.com." },
+          { es: "Meu e-mail é tom ponto clark arroba email ponto com.", en: "My email is tom.clark@email.com." },
           { es: "Como se escreve o sobrenome?", en: "How do you spell the last name?" },
           { es: "Não tenho CPF. Posso usar o passaporte?", en: "I don't have a CPF. Can I use my passport?" },
         ],
@@ -2107,7 +2107,7 @@ export const PT_A1_U11: Lesson[] = [
         heading: "Perdi meu passaporte. 190, 192, 193.",
         body: [
           "Lost something? \"Perdi meu passaporte\" (I've lost my passport), \"Perdi meu cartão\". \"Perdi\" is a past form; learn it as a chunk like \"não entendi\".",
-          "Brazil's emergency numbers, said digit by digit or as a number: \"cento e noventa\" (190) for the police, \"cento e noventa e dois\" (192) for SAMU, the ambulance, and \"cento e noventa e três\" (193) for the \"bombeiros\" (fire brigade).",
+          "Brazil's emergency numbers, said digit by digit or as a number: \"cento e noventa\" (190) for the police, \"cento e noventa e dois\" (192) for SAMU, the ambulance, and \"cento e noventa e três\" (193) for the \"bombeiros\" (fire department).",
         ],
         examples: [
           { es: "Perdi meu passaporte.", en: "I've lost my passport." },
@@ -2128,7 +2128,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Socorro! Preciso de ajuda!",
-            tip: "Socorro: so-KO-hu, the rr is h-like.",
+            tip: "Socorro: 'soh-KOH-hoo', the rr is h-like.",
             explanation: "\"Socorro\" is for emergencies.",
           },
         ],
@@ -2201,7 +2201,7 @@ export const PT_A1_U11: Lesson[] = [
         question: "There's a fire in the building. Which number do you call?",
         options: ["193", "190", "192", "911"],
         correctIndex: 0,
-        explanation: "193 is the \"bombeiros\", the fire brigade.",
+        explanation: "193 is the \"bombeiros\", the fire department.",
       },
       {
         type: "word-order",
@@ -2227,7 +2227,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Perdi meu passaporte. Onde é a delegacia?",
         prompt: "Say it in Portuguese: I've lost my passport. Where's the police station?",
-        tip: "Delegacia (police station): de-le-ga-SI-a, stress on the i.",
+        tip: "Delegacia (police station): 'deh-leh-gah-SEE-ah', stress on the i.",
         explanation: "\"Perdi\" as a chunk, \"onde é\" for a place.",
       },
     ],
@@ -2329,7 +2329,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Uma água sem gás, por favor. Obrigada!",
-            tip: "Água: Á-gua, stress on the first syllable.",
+            tip: "Água: 'AH-gwah', stress on the first syllable.",
             explanation: "\"Uma água\", and \"obrigada\" for a woman speaker.",
           },
         ],
@@ -2428,7 +2428,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Uma passagem para Santos, às duas e meia.",
         prompt: "Say it in Portuguese: A ticket to Santos, at half past two.",
-        tip: "Meia: MEI-a, rhymes with English may-a.",
+        tip: "Meia: 'MAY-ah', like English may plus ah.",
         explanation: "\"Para\" for the destination, \"e meia\" for half past.",
       },
     ],
@@ -2499,7 +2499,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Quanto é? Posso pagar com cartão?",
-            tip: "Cartão: car-TÃO, nasal at the end.",
+            tip: "Cartão: 'kar-TÃW', nasal at the end.",
             explanation: "\"Quanto é?\" for the total, \"posso\" for permission.",
           },
         ],
@@ -2600,7 +2600,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Estou perdido. Você sabe onde é a pousada?",
         prompt: "Say it in Portuguese: I'm lost. Do you know where the pousada is?",
-        tip: "Pousada: pou-SA-da, the s between vowels is a z.",
+        tip: "Pousada: 'poh-ZAH-dah', the s between vowels is a z.",
         explanation: "\"Estar perdido\" and \"saber onde\". A woman says \"perdida\".",
       },
     ],

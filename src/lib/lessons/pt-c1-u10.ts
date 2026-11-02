@@ -319,7 +319,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Pouco a pouco, Jerônimo se abrasileirou.",
-            tip: "Jerônimo is stressed on the closed rô: je-RÔ-ni-mu, with the j as in measure and the final o as u. The final -ou of abrasileirou is usually just a closed ô.",
+            tip: "Jerônimo is stressed on the closed rô: zhe-RÔ-nee-moo, with the j as in measure and the final o as oo. The final -ou of abrasileirou is usually just a closed ô.",
             explanation: "\"Abrasileirar-se\" (to become Brazilian) sums up Jerônimo's story: in the Naturalist view, the tropical environment remakes him.",
           },
         ],
@@ -556,7 +556,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Só a Antropofagia nos une.",
-            tip: "Stress an-tro-po-fa-JI-a; the g before i sounds like the s in measure. In \"une\", stress the u and let the final e sound like i.",
+            tip: "Stress ã-tro-po-fa-ZHEE-a; the g before i sounds like the s in measure. In \"une\", stress the u and let the final e sound like ee.",
             explanation: "The manifesto's opening line, with the pronoun \"nos\" before the verb.",
           },
         ],
@@ -836,7 +836,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Eu canto porque o instante existe.",
-            tip: "The x in existe sounds like z, and the final -te sounds like tchi: e-ZIS-tchi. Pause gently after existe, as at a line end.",
+            tip: "The x in existe sounds like z, and the final -te sounds like chee: e-ZEES-chee. Pause gently after existe, as at a line end.",
             explanation: "The opening line of Cecília Meireles's \"Motivo\". \"Canto\" has a nasal a, with no n sound before the t.",
           },
           {
@@ -956,7 +956,7 @@ export const PT_C1_U10: Lesson[] = [
         type: "speak",
         text: "O poema é curto, mas diz muito.",
         prompt: "Say it in Portuguese: The poem is short, but it says a lot.",
-        tip: "In Brazil poema has a closed ê, stressed: po-Ê-ma. Keep the final -o of curto as a short u: KUR-tu.",
+        tip: "In Brazil poema has a closed ê, stressed: po-Ê-ma. Keep the final -o of curto as oo: KOOR-too.",
         explanation: "\"Curto\" means short, and \"diz muito\" means says a lot. It's a handy line for discussing \"No meio do caminho\".",
       },
     ],
@@ -1052,7 +1052,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "O sertão é do tamanho do mundo.",
-            tip: "Nasalize the ão in sertão with no n at the end. The final o in tamanho and mundo sounds like u, and nh sounds like the ny in canyon.",
+            tip: "Nasalize the ão in sertão with no n at the end. The final o in tamanho and mundo sounds like oo, and nh sounds like the ny in canyon.",
             explanation: "\"Do tamanho de\" means 'the size of'. Rosa makes one region stand for the whole human condition.",
           },
         ],
@@ -1328,7 +1328,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Torto Arado se passa na Chapada Diamantina, na Bahia.",
-            tip: "Both the di and the ti in Diamantina soften before i: dji-a-mã-TCHI-na.",
+            tip: "Both the di and the ti in Diamantina soften before i: jee-a-mã-CHEE-na.",
             explanation: "\"Se passar\" means to be set or to take place. \"Bahia\" takes the article, so it is \"na Bahia\".",
           },
         ],
@@ -1599,7 +1599,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "No meio do caminho tinha uma pedra.",
-            tip: "Open é in pedra; the final o in caminho and do sounds like u.",
+            tip: "Open é in pedra; the final o in caminho and do sounds like oo.",
             explanation: "Said aloud, the line shows why Drummond chose \"tinha\": it is exactly how a Brazilian speaks.",
           },
           {
@@ -1712,7 +1712,7 @@ export const PT_C1_U10: Lesson[] = [
         question: "What did you hear?",
         options: ["Ela já saíra.", "Ela já sairá.", "Ela já saiu.", "Ela já sairia."],
         correctIndex: 0,
-        explanation: "\"Saíra\" (sa-Í-ra) is the literary pluperfect, had left. \"Sairá\" (sai-RÁ) is the written future. Only the stress tells them apart.",
+        explanation: "\"Saíra\" (sa-EE-ra) is the literary pluperfect, had left. \"Sairá\" (sa-ee-RA) is the written future. Only the stress tells them apart.",
       },
       {
         type: "dictation",
@@ -1723,7 +1723,7 @@ export const PT_C1_U10: Lesson[] = [
         type: "speak",
         text: "Vou te contar a verdade quando chegar a hora.",
         prompt: "Say it in everyday Portuguese: I'll tell you the truth when the time comes.",
-        tip: "The d in verdade before the final e sounds like dj; the final r in contar is soft or dropped.",
+        tip: "The d in verdade before the final e sounds like j (ver-DA-jee); the final r in contar is soft or dropped.",
         explanation: "This is the everyday version of \"dir-lhe-ei a verdade\": \"vou\" + infinitive with \"te\" before the verb, and the future subjunctive \"chegar\" after \"quando\".",
       },
       {
@@ -2136,7 +2136,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "A narradora se vale de objetos cotidianos para falar de um amor não dito.",
-            tip: "The t and the d in \"cotidianos\" and the d in \"dito\" turn soft before i: co-tchi-dji-A-nus, DJI-tu.",
+            tip: "The t and the d in \"cotidianos\" and the d in \"dito\" turn soft before i: ko-chee-jee-A-noos, JEE-too.",
             explanation: "\"Se valer de\" (to make use of) is a typical verb of literary analysis, a step up from \"usar\".",
           },
         ],
@@ -2228,7 +2228,7 @@ export const PT_C1_U10: Lesson[] = [
         type: "speak",
         text: "Em suma, o trecho transforma objetos comuns em sinais de um amor silencioso.",
         prompt: "Say it in Portuguese: In short, the extract turns ordinary objects into signs of a silent love.",
-        tip: "Keep \"um amor\" linked: u-ma-MOR, with a nasal um flowing into the vowel.",
+        tip: "Keep \"um amor\" linked: ũ-ma-MOR, with a nasal um flowing into the vowel.",
         explanation: "\"Transformar X em Y\" is turn X into Y. \"Em suma\" signals the conclusion.",
       },
       {
@@ -2311,7 +2311,7 @@ export const PT_C1_U10: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "No one had seen her leave. (in a novel)",
             answer: "Ninguém a vira sair.",
-            altAnswers: ["Ninguém a vira partir.", "Ninguém a tinha visto sair.", "Ninguém a havia visto sair.", "Ninguém a tinha visto partir.", "Ninguém a havia visto partir.", "Ninguém tinha visto ela sair."],
+            altAnswers: ["Ninguém a vira partir.", "Ninguém a tinha visto sair.", "Ninguém a havia visto sair.", "Ninguém a tinha visto partir.", "Ninguém a havia visto partir."],
             explanation: "\"Vira\" is the simple pluperfect of \"ver\" (= \"tinha visto\"). \"Ninguém\" attracts the pronoun before the verb: \"ninguém a vira\".",
           },
           {
@@ -2364,7 +2364,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Brás Cubas não é um autor defunto, mas um defunto autor.",
-            tip: "Keep the nasal un in \"defunto\" and end it in an u sound; the t stays a plain t, because it comes before u, not i.",
+            tip: "Keep the nasal un in \"defunto\" and end it in oo (de-FŨ-too); the t stays a plain t, because it comes before u, not i.",
             explanation: "Word order shifts the meaning: \"um autor defunto\" is a writer who died, while \"um defunto autor\" is a dead man who writes, which is Brás Cubas's joke about himself.",
           },
         ],
@@ -2405,7 +2405,7 @@ export const PT_C1_U10: Lesson[] = [
             en: "[She would find him] the next day, at the church door. (19th-century prose)",
             sentence: "___ no dia seguinte, à porta da igreja.",
             answer: "Encontrá-lo-ia",
-            altAnswers: ["Ela o encontraria", "Ela iria encontrá-lo", "Ela ia encontrá-lo"],
+            altAnswers: ["Ela o encontraria"],
             explanation: "In the old norm, a conditional at the start of a sentence takes mesóclise: \"encontrá-lo-ia\". \"Encontraria-o\" is wrong in any register.",
           },
         ],

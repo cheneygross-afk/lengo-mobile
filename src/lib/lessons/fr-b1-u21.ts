@@ -14,7 +14,7 @@ export const FR_B1_U21_WRITING: WriteExercise = {
     "Includes at least two periphrases (\"je suis sur le point de\", \"je me suis mis à\", \"j'ai arrêté de\", \"je continue à\")",
     "Orders actions with \"avant de\" + infinitive and \"après avoir\" / \"après être\" + past participle",
   ],
-  modelAnswer: "Salut Inès,\n\nMerci encore de ta proposition ! Le déménagement, c'est samedi 14. Je suis sur le point de finir les cartons : je me suis mis à les faire dimanche et je n'ai pas arrêté depuis. D'ici vendredi, j'aurai tout emballé et j'aurai rendu les clés de l'ancien appartement. Dès que le camion sera arrivé, on chargera les meubles. Une fois qu'on aura tout déposé chez moi, je vous offrirai une pizza !\n\nAvant de venir, est-ce que tu pourrais passer chez Paul prendre sa perceuse ? Et après avoir mangé, on montera les lits. Tant que tout ne sera pas monté, je dormirai sur le canapé, mais ce n'est pas grave.\n\nÀ samedi !\nThomas",
+  modelAnswer: "Salut Inès,\n\nMerci encore de ta proposition ! Le déménagement, c'est samedi 14. Je suis sur le point de finir les cartons : je me suis mis à les faire dimanche et je n'ai pas arrêté depuis. D'ici vendredi, j'aurai tout emballé et j'aurai démonté les lits. Dès que le camion sera arrivé, on chargera les meubles. Une fois qu'on aura tout déposé chez moi, je t'offrirai une pizza !\n\nAvant de venir, est-ce que tu pourrais passer chez Paul prendre sa perceuse ? Et après avoir mangé, on montera les lits. Tant que tout ne sera pas monté, je dormirai sur le canapé, mais ce n'est pas grave.\n\nÀ samedi !\nThomas",
   explanation: "The futur antérieur (\"j'aurai tout emballé\", \"dès que le camion sera arrivé\", \"une fois qu'on aura tout déposé\") marks what will be finished before another future moment; French uses it after \"dès que\" and \"une fois que\" where English says has arrived. \"Je suis sur le point de\", \"je me suis mis à\" and \"je n'ai pas arrêté\" describe stages of an action; \"avant de venir\" and \"après avoir mangé\" order two actions by the same person.",
 };
 
@@ -598,7 +598,7 @@ export const FR_B1_U21: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Until I find a flat, I'm sleeping at my sister's.", answer: "En attendant de trouver un appartement, je dors chez ma sœur.", altAnswers: ["En attendant de trouver un logement, je dors chez ma sœur.", "En attendant de trouver un appart, je dors chez ma sœur."], explanation: "\"En attendant de\" + infinitive, with the same subject in both parts." },
           { type: "fill-blank", prompt: "Write the French for the bold words.", en: "The doctor's coming. [In the meantime], take a seat.", sentence: "Le médecin arrive. ___, asseyez-vous.", answer: "En attendant", altAnswers: ["Entre-temps"], explanation: "\"En attendant\" alone = meanwhile." },
-          { type: "speak", text: "Au moment où j'allais payer, j'ai vu que j'avais oublié ma carte.", tip: "Link \"moment où\" smoothly: mo-man-tou.", explanation: "\"Au moment où\" + imparfait for the background, then passé composé and plus-que-parfait." },
+          { type: "speak", text: "Au moment où j'allais payer, j'ai vu que j'avais oublié ma carte.", tip: "Run \"moment où\" together smoothly: mo-man-ou. A liaison (mo-man-tou) is possible but optional, and sounds careful.", explanation: "\"Au moment où\" + imparfait for the background, then passé composé and plus-que-parfait." },
         ],
       },
     ],

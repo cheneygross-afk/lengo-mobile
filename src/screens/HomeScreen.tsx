@@ -93,6 +93,10 @@ async function loadCourseNext(course: LazyCourse, fromCloud: boolean): Promise<C
 
 const LANGUAGE_STORAGE_KEY = "deepend-selected-language";
 
+// The courses the app shows. The other courses' screens are still built
+// in; adding a code here (and its pill below) brings one back.
+const APP_LANGUAGES: Language[] = ["es"];
+
 const SPANISH_LESSONS_BY_LEVEL = Object.fromEntries(
   SPANISH_LEVEL_ORDER.map((lp) => [lp, LESSON_SOURCES[lp].lessons])
 );
@@ -151,19 +155,10 @@ export default function HomeScreen({ navigation }: Props) {
   useFocusEffect(
     useCallback(() => {
       readJSON<Language>(LANGUAGE_STORAGE_KEY, "es").then((saved) => {
-        // Every course is open to every account (lessons are gated one by
-        // one, with a free opening).
-        setLanguage(
-          saved === "ja" ||
-            saved === "zh" ||
-            saved === "fr" ||
-            saved === "de" ||
-            saved === "pt" ||
-            saved === "ko" ||
-            saved === "it"
-            ? saved
-            : "es"
-        );
+        // The app offers Spanish only for now (owner's call, 2026-11-02);
+        // the other courses stay on the website. A language saved before
+        // then falls back to Spanish.
+        setLanguage(APP_LANGUAGES.includes(saved) ? saved : "es");
       });
     }, [])
   );
@@ -257,16 +252,12 @@ export default function HomeScreen({ navigation }: Props) {
             <Text style={styles.subtitle}>{session?.user.email}</Text>
           </View>
 
-          <View style={styles.langRow}>
-            <LangPill label="Spanish" active={language === "es"} onPress={() => selectLanguage("es")} />
-            <LangPill label="French" active={language === "fr"} onPress={() => selectLanguage("fr")} />
-            <LangPill label="German" active={language === "de"} onPress={() => selectLanguage("de")} />
-            <LangPill label="Portuguese" active={language === "pt"} onPress={() => selectLanguage("pt")} />
-            <LangPill label="Italian" active={language === "it"} onPress={() => selectLanguage("it")} />
-            <LangPill label="Japanese" active={language === "ja"} onPress={() => selectLanguage("ja")} />
-            <LangPill label="Chinese" active={language === "zh"} onPress={() => selectLanguage("zh")} />
-            <LangPill label="Korean" active={language === "ko"} onPress={() => selectLanguage("ko")} />
-          </View>
+          {/* Only one course in the app for now, so no language switcher. */}
+          {APP_LANGUAGES.length > 1 && (
+            <View style={styles.langRow}>
+              <LangPill label="Spanish" active={language === "es"} onPress={() => selectLanguage("es")} />
+            </View>
+          )}
 
           {summary && language === "es" && (
             summary.next ? (
@@ -539,7 +530,17 @@ const styles = StyleSheet.create({
   // crowded right underneath it.
   centerSection: { flex: 1, justifyContent: "center", gap: 18 },
   heading: { alignItems: "center" },
-  title: { fontFamily: fonts.logo, fontSize: 38, lineHeight: 58, color: colors.foreground },
+  // Pacifico's script letters swing past the box the OS measures for them
+  // (the "D" on the left, the "p" below, the "d" on the right), so the
+  // wordmark gets side padding and a taller line to draw into.
+  title: {
+    fontFamily: fonts.logo,
+    fontSize: 38,
+    lineHeight: 68,
+    paddingHorizontal: 16,
+    paddingBottom: 4,
+    color: colors.foreground,
+  },
   subtitle: { fontSize: 13, color: colors.inkMuted, marginTop: 0 },
   langRow: { flexDirection: "row", flexWrap: "wrap", gap: 8, justifyContent: "center" },
   langPill: {

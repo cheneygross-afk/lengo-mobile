@@ -362,10 +362,10 @@ export const DE_A1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I prefer drinking water.'?",
         options: ["Ich trinke lieber Wasser.", "Ich trinke mehr gern Wasser.", "Ich lieber trinke Wasser.", "Ich trinke Wasser liebsten."],
         correctIndex: 0,
-        explanation: "The comparative of \"gern\" is \"lieber\", after the verb.",
+        explanation: "The comparative of \"gern\" is \"lieber\", and it goes after the verb: \"Ich trinke lieber Wasser\". \"*Mehr gern*\" builds it like English; \"gern\" is irregular.",
       },
       {
         type: "word-order",
@@ -1383,10 +1383,10 @@ export const DE_A1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I don't understand the question.'?",
         options: ["Ich verstehe die Frage nicht.", "Ich stehe die Frage nicht ver.", "Ich verstehe nicht die Frage ver.", "Ich ver stehe die Frage nicht."],
         correctIndex: 0,
-        explanation: "\"Ver-\" never splits.",
+        explanation: "The prefix \"ver-\" never splits: \"Ich verstehe die Frage nicht\". \"*Ich stehe die Frage nicht ver*\" treats it like a separable prefix such as \"auf-\".",
       },
       {
         type: "multiple-choice",
@@ -2674,10 +2674,10 @@ export const DE_A1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'My feet hurt.'?",
         options: ["Meine Füße tun weh.", "Meine Füße tut weh.", "Mein Füße tun weh.", "Meine Füße tun wehe."],
         correctIndex: 0,
-        explanation: "Plural subject: \"tun weh\", and \"meine\" for the plural.",
+        explanation: "\"Die Füße\" is plural, so the verb is plural (\"tun weh\") and the possessive is \"meine\". \"*Meine Füße tut weh*\" uses the singular verb.",
       },
       {
         type: "word-order",

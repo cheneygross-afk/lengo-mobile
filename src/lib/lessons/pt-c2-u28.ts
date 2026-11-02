@@ -606,7 +606,7 @@ export const PT_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "Eu negocio o aluguel com o proprietário todo ano.",
-            tip: "Stress the i of the verb: 'negoCIu', not like the noun \"negócio\".",
+            tip: "Stress the i of the verb: 'ne-go-SEE-oo', not like the noun \"negócio\".",
             explanation: "Regular -iar verb: \"negocio\".",
           },
         ],
@@ -698,7 +698,7 @@ export const PT_C2_U28: Lesson[] = [
         type: "speak",
         prompt: "Say it in Portuguese: I hate getting up early.",
         text: "Eu odeio acordar cedo.",
-        tip: "\"Odeio\": 'oDÊIu', a closed ê before the i glide.",
+        tip: "\"Odeio\": 'o-DÊI-oo', a closed ê before the i glide.",
         explanation: "MARIO verb: \"odeio\".",
       },
     ],
@@ -771,7 +771,7 @@ export const PT_C2_U28: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The shop [is going bankrupt].",
+            en: "The store [is going bankrupt].",
             sentence: "A loja ___.",
             answer: "está falindo",
             altAnswers: ["vai falir", "está indo à falência", "vai à falência"],
@@ -790,7 +790,7 @@ export const PT_C2_U28: Lesson[] = [
           { es: "Quero recuperar o dinheiro da caução.", en: "I want to get the deposit back." },
           { es: "Proponho que se extinga essa taxa.", en: "I propose that this fee be abolished." },
           { es: "A empresa encontra-se em processo de falência.", en: "The company is undergoing bankruptcy proceedings." },
-          { es: "A loja quebrou depois da pandemia.", en: "The shop went bust after the pandemic (informal)." },
+          { es: "A loja quebrou depois da pandemia.", en: "The store went bust after the pandemic (informal)." },
         ],
         checkpoint: [
           {
@@ -805,7 +805,7 @@ export const PT_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "A empresa encontra-se em processo de falência.",
-            tip: "\"Falência\": 'faLÊNcia', with a nasal ê.",
+            tip: "\"Falência\": 'fa-LẼ-sya', with a nasal ê.",
             explanation: "A formal substitute for the missing \"a empresa fale\".",
           },
         ],
@@ -901,7 +901,7 @@ export const PT_C2_U28: Lesson[] = [
         type: "speak",
         prompt: "Say it in Portuguese: I protect myself against phone scams.",
         text: "Eu me previno contra golpes no celular.",
-        tip: "\"Previno\": 'preVInu'; stress on -vi-.",
+        tip: "\"Previno\": 'pre-VEE-noo'; stress on -vi-.",
         explanation: "The everyday substitute for the missing \"eu me precavenho\".",
       },
     ],
@@ -1017,7 +1017,7 @@ export const PT_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "Os convites foram impressos em papel reciclado.",
-            tip: "\"Impressos\": 'imPREsus', with an open é.",
+            tip: "\"Impressos\": 'im-PRÉ-soos', with an open é.",
             explanation: "\"Ser\" + the short participle, agreeing with \"os convites\".",
           },
         ],
@@ -1109,7 +1109,7 @@ export const PT_C2_U28: Lesson[] = [
         type: "speak",
         prompt: "Say it in Portuguese: I had already paid the bill when he arrived.",
         text: "Eu já tinha pago a conta quando ele chegou.",
-        tip: "\"Pago\" has an open a: 'PAgu'.",
+        tip: "\"Pago\" has an open a: 'PA-goo'.",
         explanation: "\"Tinha pago\": today's Brazilian usage with \"ter\".",
       },
     ],
@@ -1228,7 +1228,7 @@ export const PT_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "Eu mobílio o apartamento aos poucos.",
-            tip: "Stress the accented í: 'moBÍliu'.",
+            tip: "Stress the accented í: 'mo-BÍ-lyoo'.",
             explanation: "\"Mobiliar\" stresses the stem in the eu form: \"mobílio\".",
           },
         ],
@@ -1321,7 +1321,7 @@ export const PT_C2_U28: Lesson[] = [
         type: "speak",
         prompt: "Say it in formal Portuguese: The defense requested that the trial be annulled.",
         text: "A defesa requereu a anulação do julgamento.",
-        tip: "\"Requereu\": 'requeREU', stress on the final diphthong.",
+        tip: "\"Requereu\": 're-ke-RÊU', stress on the final diphthong.",
         explanation: "Regular preterite of \"requerer\".",
       },
     ],
@@ -1379,12 +1379,12 @@ export const PT_C2_U28: Lesson[] = [
           { es: "Faz o seguinte: me liga quando sair do trabalho.", en: "Here's what you do: call me when you leave work." },
           { es: "Olha, acho que não vai dar tempo.", en: "Look, I don't think there'll be time." },
           { es: "Vem pra Caixa você também.", en: "You too, come to Caixa (the bank's famous slogan)." },
-          { es: "Venha conhecer a loja e aproveite os descontos.", en: "Come and see the shop and enjoy the discounts (consistent written style)." },
+          { es: "Venha conhecer a loja e aproveite os descontos.", en: "Come and see the store and enjoy the discounts (consistent written style)." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You're writing a printed flyer for a shop in Curitiba. Which sentence keeps a consistent written style?",
+            question: "You're writing a printed flyer for a store in Curitiba. Which sentence keeps a consistent written style?",
             options: [
               "Venha conhecer a loja e aproveita os descontos.",
               "Vem conhecer a loja e aproveite os descontos.",
@@ -1530,9 +1530,9 @@ export const PT_C2_U28: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Come and see our new shop.",
+        prompt: "Put the words in order to say: Come and see our new store.",
         words: ["Venha", "conhecer", "a", "nossa", "nova", "loja."],
-        translation: "Come and see our new shop.",
+        translation: "Come and see our new store.",
         explanation: "Written uniform imperative: \"venha\" + infinitive.",
       },
       {
@@ -1657,7 +1657,7 @@ export const PT_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "O suspeito foi pego pela câmera de segurança.",
-            tip: "\"Pego\" is 'PÉgu' in most of Brazil, 'PÊgu' in some regions.",
+            tip: "\"Pego\" is 'PÉ-goo' in most of Brazil, 'PÊ-goo' in some regions.",
             explanation: "\"Ser\" + the short participle \"pego\".",
           },
         ],
@@ -1829,7 +1829,7 @@ export const PT_C2_U28: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Rewrite for one future case. General version: \"Se o cliente vem à loja, ganha um brinde.\"",
-            source: "If the customer comes to the shop, he'll get a free gift.",
+            source: "If the customer comes to the store, he'll get a free gift.",
             answer: "Se o cliente vier à loja, vai ganhar um brinde.",
             altAnswers: ["Se o cliente vier à loja, ganhará um brinde.", "Se o cliente vier à loja, ganha um brinde.", "Se a cliente vier à loja, vai ganhar um brinde."],
             explanation: "\"Vem\" → \"vier\" for one future visit; the main clause moves to the future.",
@@ -2145,7 +2145,7 @@ export const PT_C2_U28: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Correct the error. The draft said: \"A loja fale se não vender mais.\"",
-        source: "The shop will go bankrupt if it doesn't sell more.",
+        source: "The store will go bankrupt if it doesn't sell more.",
         answer: "A loja vai falir se não vender mais.",
         altAnswers: ["A loja vai à falência se não vender mais.", "A loja irá à falência se não vender mais.", "A loja falirá se não vender mais.", "A loja vai quebrar se não vender mais."],
         explanation: "\"Falir\" has no \"ele\" form in the present; the future \"falirá\" or \"vai falir\" exists.",
@@ -2298,7 +2298,7 @@ export const PT_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "Mantê-lo-emos informado sobre o andamento do processo.",
-            tip: "'mãnTÊ-lu-Êmus': the stress falls on the ending \"-emos\" too.",
+            tip: "'mã-TÊ-loo-Ê-moos': the stress falls on the ending \"-emos\" too.",
             explanation: "Mesóclise with the future of \"manter\", a compound of \"ter\".",
           },
         ],
@@ -2416,7 +2416,7 @@ export const PT_C2_U28: Lesson[] = [
 
 export const PT_C2_U28_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You are a lawyer in Belo Horizonte. Your client, Mr. Antônio Ferreira, owned a small shop that went bankrupt in December. Write him a formal letter after yesterday's hearing: tell him what the judge, the bank and the mediator did, what money he has recovered, and what he must do next (when to come to your office, what to bring, what not to sign). Use flawless verb forms: these are exactly the verbs that a careful client, or a judge, will notice.",
+  prompt: "You are a lawyer in Belo Horizonte. Your client, Mr. Antônio Ferreira, owned a small store that went bankrupt in December. Write him a formal letter after yesterday's hearing: tell him what the judge, the bank and the mediator did, what money he has recovered, and what he must do next (when to come to your office, what to bring, what not to sign). Use flawless verb forms: these are exactly the verbs that a careful client, or a judge, will notice.",
   minWords: 250,
   maxWords: 400,
   rubric: [
