@@ -879,7 +879,7 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "explicar", en: "to explain", forms: ["explica"] },
     { es: "la goma", en: "eraser", forms: ["goma"] },
     { es: "hacia", en: "toward", forms: ["hacia"] },
-    { es: "ninguno", en: "no, not any", forms: ["ningún"] },
+    { es: "ningún", en: "no, not any", forms: ["ningún"] },
     { es: "pedir perdón", en: "to say sorry", forms: ["perdón"] },
     { es: "otra vez", en: "again", forms: ["otra"] },
     { es: "el papel", en: "piece of paper", forms: ["papel"] },

@@ -1499,7 +1499,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "How do you say the bold words in Spanish?",
         "sentence": "la flor → las ___",
         "answer": "flores",
-        "en": "the flower → [the flowers]",
+        "en": "the flower → the [flowers]",
         "explanation": "Flor ends in a consonant, so the plural adds -es: flores."
       },
       {
@@ -1687,7 +1687,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "En el salón hay una televisión.",
           "En la sala hay una televisión."
         ],
-        "explanation": "New words, known rules: words in -ión are feminine (una televisión), and salón is masculine. Many Latin Americans say la sala."
+        "explanation": "New words, known rules: words in -sión and -ción are feminine (una televisión), and salón is masculine. Many Latin Americans say la sala."
       },
       {
         "type": "multiple-choice",
@@ -2083,7 +2083,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Where does the adjective go?",
         "body": [
-          "Spanish names the thing first and then describes it, so most describing adjectives come after the noun: una mujer inteligente, \"a woman intelligent\". Words that count or point, like un, dos or muy, go before."
+          "Spanish names the thing first and then describes it, so most describing adjectives come after the noun: una mujer inteligente, \"a woman intelligent\". Words that count or point, like un, dos or este, go before the noun, and muy goes right before its adjective."
         ],
         "examples": [
           {
@@ -4673,7 +4673,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "Same word, different meaning",
         "body": [
           "Because ser says what something is like and estar says how it is right now, a few adjectives change their meaning with the verb. Aburrido with ser is \"boring\" (that's what it's like); with estar it's \"bored\" (how you feel now).",
-          "Listo with ser is \"clever\"; with estar it's \"ready\". Rico with ser is \"rich\"; with estar, about food, it's \"tasty\". The verb, not the adjective, tells you which one is meant."
+          "Listo with ser is \"clever\"; with estar it's \"ready\". Rico said of a person (ser) is \"rich\"; said of food, estar rico means \"tasty right now\" (es rica is also heard for food that is good in general). The verb, not the adjective, tells you which one is meant."
         ],
         "examples": [
           {
@@ -4716,7 +4716,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "La sopa está deliciosa.",
               "La sopa está muy rica."
             ],
-            "explanation": "Food that tastes good right now takes estar + rico, agreeing with sopa: está rica. \"La sopa es rica\" sounds like the soup has money."
+            "explanation": "Food that tastes good right now takes estar + rico, agreeing with sopa: está rica. \"La sopa es rica\" is also heard for soup that is good in general; with a person, es rico means wealthy."
           }
         ]
       }
@@ -5076,7 +5076,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "están"
         ],
         "correctIndex": 1,
-        "explanation": "With food, estar rico/a means it tastes good right now. Ser rico means to be wealthy, so \"es\" changes the meaning; \"son\" and \"están\" are plural."
+        "explanation": "With food, estar rico/a means it tastes good right now. Hoy points to how it tastes today, so estar fits best (es rica would describe soup that is always good); \"son\" and \"están\" are plural."
       },
       {
         "type": "fill-blank",
@@ -5139,7 +5139,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "son",
           "ustedes?"
         ],
-        "translation": "Where are you (all) from?",
+        "translation": "Where are you all (Latin America) from?",
         "explanation": "Origin uses ser, and ustedes (plural you) conjugates to son."
       },
       {
@@ -5356,7 +5356,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 14,
     "title": "Possessive Adjectives & Basic Prepositions",
-    "summary": "Say what belongs to whom, and connect ideas with small but essential words.",
+    "summary": "You'll learn the possessives (mi, tu, su, nuestro, vuestro), de for ownership, and the basic prepositions (en, de, a, con, para, sin, sobre, entre).",
     "duration": "10 min",
     "sections": [
       {
@@ -5972,7 +5972,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Hundreds and beyond: cien, ciento, and gender agreement",
         "body": [
-          "Cien means exactly 100. The moment anything follows it, cien becomes ciento, with no y: ciento uno (101), ciento veinte (120), ciento noventa y nueve (199).",
+          "Cien means exactly 100. When a smaller number follows it, cien becomes ciento, with no y (but cien mil stays cien): ciento uno (101), ciento veinte (120), ciento noventa y nueve (199).",
           "The hundreds are mostly the unit + -cientos: doscientos (200), trescientos (300), cuatrocientos (400), seiscientos (600), ochocientos (800). Three bend: quinientos (500), setecientos (700) and novecientos (900).",
           "Because -cientos ends like an adjective, 200-900 agree in gender with the noun: doscientos libros, but doscientas casas. Cien, ciento and mil never change. Mil means 1,000 (dos mil, tres mil), and un millón is one million (dos millones: the accent drops in the plural)."
         ],
@@ -6393,10 +6393,10 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Tengo treinta años.",
               "Soy treinta años.",
               "Estoy treinta años.",
-              "Tengo treinta."
+              "Hay treinta años."
             ],
             "correctIndex": 0,
-            "explanation": "Age takes tener + number + años. Ser and estar are never used for age, and leaving out años sounds incomplete in Spanish."
+            "explanation": "Age takes tener + number + años. Ser and estar are never used for age, and hay means 'there are', not 'I have'."
           }
         ]
       }
@@ -6422,7 +6422,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "años",
           "tienes?"
         ],
-        "translation": "How old are you?",
+        "translation": "How old are you? (informal)",
         "explanation": "Age questions in Spanish use tener: ¿Cuántos años tienes? literally asks \"How many years do you have?\""
       },
       {
@@ -7980,7 +7980,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "Who likes it: the pronoun ladder",
         "body": [
           "Change the person by changing only the small pronoun: me, te, le, nos, os, les. The verb stays gusta or gustan, because the thing liked hasn't changed.",
-          "Le and les can point to several people, so Spanish often adds \"a + person\" for clarity or emphasis: A ella le gusta, A mis padres les gusta. You can add a mí or a ti for emphasis too."
+          "Le can mean him, her or you (formal) and les can mean them or you all, so Spanish often adds \"a + person\" for clarity or emphasis: A ella le gusta, A mis padres les gusta. You can add a mí or a ti for emphasis too."
         ],
         "examples": [
           {
@@ -8894,7 +8894,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ir: a tiny verb with -ar style endings",
         "body": [
-          "Ir is irregular all the way through, but after voy its endings look like -ar endings (-as, -a, -amos, -áis, -an), so the rest is predictable: vas, va, vamos, vais, van.",
+          "Ir is irregular all the way through, but after voy its endings look like -ar endings (-as, -a, -amos, -ais, -an), so the rest is predictable: vas, va, vamos, vais, van.",
           "Ir a + place says where you go (a + el = al). Ir a + infinitive is the easiest way to talk about the near future: only ir changes, and the second verb stays in the infinitive."
         ],
         "examples": [
@@ -11211,7 +11211,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Adjectives agree too",
         "body": [
-          "Describing adjectives usually go after the noun and copy its gender and number. Adjectives in -o have four forms (alto, alta, altos, altas). Adjectives ending in -e or a consonant only change for number (verde, verdes; azul, azules).",
+          "Describing adjectives usually go after the noun and copy its gender and number. Adjectives in -o have four forms (alto, alta, altos, altas). Most adjectives ending in -e or a consonant only change for number (verde, verdes; azul, azules); nationalities and adjectives in -or add -a for the feminine (español, española; trabajador, trabajadora).",
           "Why after? Spanish names the thing first, then says what it's like."
         ],
         "examples": [
@@ -12334,7 +12334,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 41,
     "title": "Question Words: Extra Practice, Part 1 of 3",
-    "summary": "A rapid-fire drill on every Spanish interrogative — qué, cuál, quién, dónde, cuándo, cómo, cuánto, por qué, para qué — with accents, agreement, and word choice under pressure.",
+    "summary": "Drill qué vs. cuál, quién vs. quiénes, and dónde vs. adónde until choosing the right question word is automatic.",
     "duration": "8 min",
     "sections": [
       {
@@ -12509,7 +12509,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the question with the correctly accented word for 'when'.",
         "sentence": "¿ ___ es tu cumpleaños?",
         "answer": "Cuándo",
-        "explanation": "Cuándo always keeps its accent in a question."
+        "explanation": "Cuándo = when. As a question word it always carries the written accent; cuando without it is only a linking word."
       },
       {
         "type": "translate",
@@ -12572,7 +12572,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 42,
     "title": "Question Words: Extra Practice, Part 2 of 3",
-    "summary": "A rapid-fire drill on every Spanish interrogative — qué, cuál, quién, dónde, cuándo, cómo, cuánto, por qué, para qué — with accents, agreement, and word choice under pressure.",
+    "summary": "Drill cuándo and cómo, cuánto agreeing with its noun, and por qué vs. para qué.",
     "duration": "8 min",
     "sections": [
       {
@@ -12597,7 +12597,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the question with the correctly accented word.",
             "sentence": "¿ ___ empieza la película?",
             "answer": "Cuándo",
-            "explanation": "Cuándo asks 'when' and always carries its accent in a question."
+            "explanation": "Cuándo = when. As a question word it always carries the written accent; cuando without it is only a linking word."
           },
           {
             "type": "multiple-choice",
@@ -12709,7 +12709,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "Select all the interrogative words below that are spelled correctly with their required accent mark.",
+        "question": "Select the question words that carry the written accent a question requires.",
         "options": [
           "dónde",
           "como",
@@ -12824,7 +12824,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 43,
     "title": "Question Words: Extra Practice, Part 3 of 3",
-    "summary": "A rapid-fire drill on every Spanish interrogative — qué, cuál, quién, dónde, cuándo, cómo, cuánto, por qué, para qué — with accents, agreement, and word choice under pressure.",
+    "summary": "Drill the written accent and ¿ ?, then mix every question word, choosing it by the answer you expect.",
     "duration": "7 min",
     "sections": [
       {
@@ -13016,7 +13016,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "right": "what for (purpose)"
           }
         ],
-        "explanation": "Ten interrogatives, ten distinct jobs — mixing them up is the most common beginner mistake."
+        "explanation": "Nine interrogatives, nine distinct jobs — mixing them up is the most common beginner mistake."
       },
       {
         "type": "translate",
@@ -13082,7 +13082,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 44,
     "title": "Gustar & Similar Verbs: Extra Practice, Part 1 of 3",
-    "summary": "Heavy repetition drills on gustar, the pronouns, agreement, and lookalike verbs — no new teaching, just reps.",
+    "summary": "Drill the gustar pronouns (me, te, le, nos, os, les) and choosing gusta or gustan, including with infinitives.",
     "duration": "8 min",
     "sections": [
       {
@@ -13622,7 +13622,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 46,
     "title": "Gustar & Similar Verbs: Extra Practice, Part 3 of 3",
-    "summary": "Heavy repetition drills on gustar, the pronouns, agreement, and lookalike verbs — no new teaching, just reps.",
+    "summary": "Drill where no goes (No me gusta, ¿Te gusta?) and mix every gustar pattern: pronoun, gusta vs. gustan, and a + person.",
     "duration": "7 min",
     "sections": [
       {
@@ -13843,7 +13843,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 47,
     "title": "Tener, Ir, Hacer & Hay: Extra Practice, Part 1 of 3",
-    "summary": "Drill tener, ir, hacer, and hay until the conjugations and set expressions are automatic.",
+    "summary": "Drill tener (tengo, tienes...), expressions like tener hambre, sed, frío and años, and the present of ir.",
     "duration": "8 min",
     "sections": [
       {
@@ -14657,7 +14657,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 49,
     "title": "Tener, Ir, Hacer & Hay: Extra Practice, Part 3 of 3",
-    "summary": "Drill tener, ir, hacer, and hay until the conjugations and set expressions are automatic.",
+    "summary": "Drill hay vs. está, then choose between tener, hacer, hay and ir a for feelings, weather, existence and plans.",
     "duration": "7 min",
     "sections": [
       {
@@ -14796,7 +14796,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "Heat, age and hurry are things a person has. Rain is weather, so it isn't something you have: hay lluvia or llueve."
+        "explanation": "Heat, age and hurry are things a person has. Rain is weather, so it isn't something you have: say llueve or está lloviendo."
       },
       {
         "type": "fill-blank",
@@ -16215,9 +16215,6 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Translate to Spanish.",
             "source": "the (female) dentist",
             "answer": "la dentista",
-            "altAnswers": [
-              "una dentista"
-            ],
             "explanation": "Words in -ista have one form for both: el dentista, la dentista. Only the article changes, like el/la turista. Never \"dentisto\"."
           }
         ]
@@ -16226,7 +16223,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "Around the house",
         "body": [
           "Test yourself on these 20 words from the 'Gender, Number & Articles' lesson, then use the pattern behind them.",
-          "The pattern: most nouns in -o are masculine (el techo, el espejo) and most nouns in -a are feminine (la ventana, la alfombra). Nouns in -dad and -ción are always feminine (la ciudad, la profesión). Nouns that end in -e or a consonant (la pared, el reloj, el jardín) give no clue, so learn them with their article."
+          "The pattern: most nouns in -o are masculine (el techo, el espejo) and most nouns in -a are feminine (la ventana, la alfombra). Nouns in -dad and -ción are always feminine (la ciudad, la canción). Nouns that end in -e or a consonant (la pared, el reloj, el jardín) give no clue, so learn them with their article."
         ],
         "checkpoint": [
           {
@@ -16508,9 +16505,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "the neighbor (woman)",
         "answer": "la vecina",
-        "altAnswers": [
-          "una vecina"
-        ],
         "explanation": "Vecino → vecina for a woman: -o swaps to -a, and the article becomes la."
       },
       {
@@ -16785,7 +16779,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "More -er and -ir verbs",
         "body": [
-          "Many English verbs ending in -e have a Spanish twin ending in -ir: decide → decidir, describe → describir, divide → dividir, unite → unir. That lets you guess words you've never seen. Watch the false friend: asistir means \"to attend\", not \"to assist\".",
+          "Many English verbs ending in -e or -ist have a Spanish twin ending in -ir: decide → decidir, describe → describir, divide → dividir, unite → unir. That lets you guess words you've never seen. Watch the false friend: asistir means \"to attend\", not \"to assist\".",
           "Test yourself on these 20 words before checking your work — no peeking back at the 'Present Tense: Regular -ER and -IR Verbs' lesson!"
         ],
         "examples": [
@@ -17615,7 +17609,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "Food & hobbies: the ending tells you the gender",
         "body": [
           "Test yourself on these 20 words before checking your work — no peeking back at the 'Gustar and Expressing Likes' lesson!",
-          "As you go, use the ending to predict el or la: -o is usually masculine (el queso, el huevo), -a usually feminine (la sopa, la ensalada), and every word in -ión is feminine (la canción). Words in -e have to be learned with their article: el postre, el deporte, but la carne."
+          "As you go, use the ending to predict el or la: -o is usually masculine (el queso, el huevo), -a usually feminine (la sopa, la ensalada), and every word in -ción or -sión is feminine (la canción, la información). Words in -e have to be learned with their article: el postre, el deporte, but la carne."
         ],
         "checkpoint": [
           {
@@ -17722,7 +17716,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "los información"
             ],
             "correctIndex": 0,
-            "explanation": "Every -ión noun is feminine, so la información. El and un are masculine, and los is plural."
+            "explanation": "Nouns in -ción are feminine, so la información. El and un are masculine, and los is plural."
           }
         ]
       },
@@ -19163,7 +19157,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cada día, Tomás juega con Rocky en el jardín. Le da agua fresca y comida especial para cachorros. Rocky empieza a conocer a Tomás y ya no tiene miedo. Rápidamente, los dos se hacen muy buenos amigos.",
           "Tomás quiere enseñar un truco a Rocky. Todos los días, dice \"siéntate\" y le da un premio pequeño. Al principio, Rocky no entiende y solo salta. Pero Tomás tiene paciencia y practica cada tarde.",
           "Después de dos semanas, pasa algo increíble. Tomás dice \"siéntate\" y Rocky se sienta al instante. Tomás grita de alegría y abraza a su perro. Toda la familia celebra el nuevo truco de Rocky.",
-          "Ahora, Rocky sabe muchos trucos más. Tomás está muy orgulloso de su perro inteligente. Cada noche, Rocky duerme cerca de la cama de Tomás. Los dos son una familia perfecta."
+          "Ahora, Rocky sabe muchos más trucos. Tomás está muy orgulloso de su perro inteligente. Cada noche, Rocky duerme cerca de la cama de Tomás. Los dos son una familia perfecta."
         ]
       }
     ],
@@ -19222,7 +19216,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cuando Elena abre la puerta de la casa de Carla, las luces están apagadas. De repente, todos gritan \"¡Sorpresa!\" y las luces se encienden. Elena ve a todos sus amigos y también a su familia. Hay globos de colores y un pastel de chocolate.",
           "Elena no puede creer lo que ve. Empieza a reír y también a llorar de felicidad. Sus amigos cantan la canción de cumpleaños con mucha energía. Elena abraza a Carla y le da las gracias.",
           "Durante la fiesta, todos bailan y comen pastel delicioso. Elena recibe muchos regalos bonitos de sus amigos. Su hermano pequeño le da un dibujo especial. Elena dice que es la mejor sorpresa de su vida.",
-          "Al final de la noche, Elena ayuda a limpiar la casa de Carla. Le da las gracias a cada amigo por el secreto. Elena aprende que sus amigos siempre piensan en ella. Ese cumpleaños, Elena nunca lo olvida."
+          "Al final de la noche, Elena ayuda a limpiar la casa de Carla. Le da las gracias a cada amigo por guardar el secreto. Elena aprende que sus amigos siempre piensan en ella. Ese cumpleaños, Elena nunca lo olvida."
         ]
       }
     ],
@@ -22237,7 +22231,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "La biblioteca del pueblo organiza un concurso de dibujo. El tema es \"Mi animal favorito\". Isabel decide dibujar un delfín.",
-          "Isabel practica su dibujo muchas veces en casa. Usa lápices de colores azul y gris. Su mamá la ayuda con los detalles del agua.",
+          "Isabel practica su dibujo muchas veces en casa. Usa lápices azules y grises. Su mamá la ayuda con los detalles del agua.",
           "El día del concurso, muchos niños llegan a la biblioteca con sus dibujos. Hay dibujos de perros, gatos, leones y pájaros. Isabel pone su dibujo en la mesa con los otros.",
           "Un grupo de jueces camina por la sala. Miran cada dibujo con cuidado. Isabel espera con las manos juntas.",
           "Los jueces hablan entre ellos por unos minutos. Después, anuncian los ganadores. Isabel escucha su nombre con sorpresa.",

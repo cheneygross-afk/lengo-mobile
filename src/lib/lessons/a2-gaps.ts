@@ -693,13 +693,13 @@ export const A2_GAPS: AnchoredLesson[] = [
         "Just a little bit, please.",
         "Solo un poquito, por favor.",
         "Poco → poquito; the diminutive makes the request sound polite and modest.",
-        ["Un poquito, por favor.", "Solo un poco, por favor.", "Nada más un poquito, por favor.", "Solo un poquito por favor."]
+        ["Un poquito, por favor.", "Nada más un poquito, por favor.", "Solo un poquito por favor."]
       ),
       toEs(
-        "Shall we have a coffee?",
+        "Shall we have a little coffee? (use a diminutive)",
         "¿Nos tomamos un cafecito?",
         "Cafecito is the friendly everyday word; ¿nos tomamos...? is a natural way to suggest it.",
-        ["¿Tomamos un cafecito?", "¿Nos tomamos un café?", "¿Tomamos un café?", "¿Vamos a tomar un café?", "¿Vamos a tomar un cafecito?"]
+        ["¿Tomamos un cafecito?", "¿Vamos a tomar un cafecito?"]
       ),
       toEn(
         "Mi abuelita vive en una casita en el campo.",
@@ -1011,7 +1011,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         "The city is very beautiful.",
         "La ciudad es muy bonita.",
         "Bonita is an adjective, so muy; muy never changes form.",
-        ["La ciudad es muy linda.", "La ciudad es muy hermosa.", "La ciudad es bonitísima.", "La ciudad es preciosa."]
+        ["La ciudad es muy linda.", "La ciudad es muy hermosa.", "La ciudad es bonitísima."]
       ),
       toEs(
         "I'm very hungry.",

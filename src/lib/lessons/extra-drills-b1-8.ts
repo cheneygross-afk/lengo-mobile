@@ -584,7 +584,7 @@ export const DRILLS_B1_8: Record<string, Exercise[]> = {
     fe("___ el autobús de las ocho.", "Tomemos", "[Let's take] the eight o'clock bus.", "Nosotros = subjuntivo: «tomemos».", ["Cojamos"]),
     toEs("Don't say anything to anyone. (vosotros)", "No digáis nada a nadie.", "Vosotros negativo: subjuntivo «digáis».", ["No le digáis nada a nadie."]),
     mc("(salir, vosotros) «___ ya, que es tarde.»", ["Salid", "Salgáis", "Salís", "Salir"], 0, "Vosotros afirmativo: infinitivo con -d. «Salgáis» es el negativo."),
-    toEs("Corrige: «Hacer los deberes antes de cenar.»", "Haced los deberes antes de cenar.", "En el habla se oye el infinitivo como orden, pero la forma correcta de vosotros afirmativo es con -d: haced.", ["Haced los deberes antes de la cena."], "Corrige la frase."),
+    toEs("Corrige: «Hacer los deberes antes de cenar.»", "Haced los deberes antes de cenar.", "En el habla se oye el infinitivo como orden, pero la forma correcta de vosotros afirmativo es con -d: haced.", ["Haced los deberes antes de la cena."], "Corrige la frase (vosotros)."),
     toEs("No hagas eso.", "No haga eso.", "Tú negativo (no hagas) y usted negativo (no haga) salen los dos del subjuntivo; solo cambia la persona.", [], "Cambia el mandato a usted."),
     fe("No ___ tan rápido.", "conduzcas", "Don't [drive] so fast. (tú)", "Tú negativo: subjuntivo «conduzcas» (c → zc).", ["manejes"]),
     toEs("No esperes más.", "No esperemos más.", "Nosotros, en afirmativo y en negativo, usa el subjuntivo: no esperemos.", [], "Cambia el mandato a nosotros."),

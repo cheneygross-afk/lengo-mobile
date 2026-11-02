@@ -125,7 +125,7 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Background in the imperfect (tenía retraso, estaba nerviosa), events in the preterite (llegué, fui, llegó)."
   ),
   "a2-double-pronouns-me-lo": t(
-    "Your friend asks for things they lent you or you promised. Answer each one using two pronouns together: who gives it, to whom, and when. Write at least four answers.",
+    "Imagine your friend asks about four things you lent them or promised (a book, photos, a bike, keys). Write your answer to each one using two pronouns together: who gives it, to whom, and when.",
     ["At least four double pronouns (me lo, te la, se los…)", "Le / les becomes se before lo, la, los, las", "Pronouns attached to an infinitive or command at least once", "Correct agreement with the thing"],
     "¿Tu libro? Te lo devuelvo mañana. ¿Las fotos de la boda? Te las mando esta noche por correo. ¿La bici de tu hermano? Se la llevo el sábado. ¿Las llaves de Ana? Ya se las di ayer. Y tu chaqueta, ¿te la llevo a casa? Dímelo.",
     "Indirect pronoun first, then direct: te lo, me la. Le and les become se before lo/la/los/las: se la llevo (a tu hermano). They attach to commands: dímelo."

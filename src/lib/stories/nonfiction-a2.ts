@@ -233,7 +233,7 @@ export const A2_NONFICTION: Story[] = [
     questions: [
       {
         question: "What should you do before the interview?",
-        options: ["Nothing", "Research the company and reread the job offer", "Call the boss", "Buy new clothes"],
+        options: ["Nothing", "Research the company and reread the job posting", "Call the boss", "Buy new clothes"],
         correctIndex: 1,
         explanation:
           "\"Busca información sobre la empresa... Lee otra vez la oferta de trabajo.\"",

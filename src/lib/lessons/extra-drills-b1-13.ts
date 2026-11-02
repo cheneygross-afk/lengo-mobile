@@ -184,7 +184,7 @@ export const DRILLS_B1_13: Record<string, Exercise[]> = {
   ],
 
   "b1d-pares-mismo-sujeto": [
-    fe("Me encanta ___ en la playa.", "leer", "I love [reading] on the beach.", "Yo disfruto y yo leo: mismo sujeto → infinitivo."),
+    fe("Me encanta ___ en la playa.", "leer", "I love [reading] on the beach.", "Me encanta a mí y yo leo: mismo sujeto → infinitivo."),
     fe("Me encanta que mi pareja me ___ en voz alta.", "lea", "I love it when my partner [reads] to me out loud.", "Otro sujeto (mi pareja) → que + subjuntivo: lea."),
     toEs("I'm sorry to bother you. (usted, a un hombre)", "Siento molestarlo.", "Yo siento y yo molesto: mismo sujeto → infinitivo.", ["Siento molestarle.", "Siento molestarlo a usted."]),
     toEs("I'm sorry that the children bother you. (usted, a un hombre)", "Siento que los niños lo molesten.", "Ahora molestan los niños: otro sujeto → que + subjuntivo.", ["Siento que los niños le molesten."]),

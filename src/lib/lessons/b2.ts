@@ -18580,7 +18580,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Cándido llevaba cincuenta y tres años levantándose a las cuatro de la madrugada para encender el horno de leña de la calle Mayor, el mismo que había heredado de su padre y que, según decían en el pueblo, hacía el mejor pan de toda la comarca. Últimamente, sin embargo, le costaba más de lo habitual cargar los troncos, y en más de una ocasión había tenido que sentarse a mitad de la tarea, algo que jamás le había pasado antes.",
           "Su nieta Sara había vuelto de la ciudad hacía tres meses, después de que la empresa donde trabajaba cerrara sin previo aviso. No tenía intención de quedarse mucho tiempo, o eso se repetía cada mañana mientras ayudaba a su abuelo con el reparto, pero cada mañana también encontraba una excusa nueva para posponer su marcha.",
           "—No es que necesite ayuda —le dijo Cándido una mañana, mientras se frotaba la espalda con gesto disimulado—. Es que me gusta que estés aquí.",
-          "Sara sabía que mentía, o al menos que no decía toda la verdad. Había visto cómo, en los últimos meses, su abuelo tardaba cada vez más en amasar, y cómo a veces se quedaba mirando el horno encendido con una expresión que no era cansancio, sino algo más parecido al miedo. Una tarde, mientras cerraban la panadería, una cadena de supermercados de la capital le ofreció comprar el local para instalar allí una franquicia de panadería industrial; el dinero que ofrecían habría bastado para que su abuelo se jubilara sin preocupaciones.",
+          "Sara sabía que mentía, o al menos que no decía toda la verdad. Había visto cómo, en los últimos meses, su abuelo tardaba cada vez más en amasar, y cómo a veces se quedaba mirando el horno encendido con una expresión que no era cansancio, sino algo más parecido al miedo. Una tarde, mientras cerraban la panadería, una cadena de supermercados de la capital le ofreció a Cándido comprar el local para instalar allí una franquicia de panadería industrial; el dinero que ofrecían habría bastado para que su abuelo se jubilara sin preocupaciones.",
           "—Si aceptara, no tendrías que preocuparte más por mí —le dijo Cándido a su nieta, casi como si le costara pronunciar las palabras—. Podrías volver a la ciudad tranquila.",
           "Sara no respondió enseguida. En vez de eso, le pidió que le enseñara, esa misma noche, a calcular el punto exacto de la masa con solo tocarla, un conocimiento que su abuelo nunca había necesitado explicar con números porque lo llevaba en los dedos desde niño. Cándido, sorprendido, encendió el horno una hora antes de lo habitual y, por primera vez en meses, trabajó sin quejarse del cansancio.",
           "Durante las semanas siguientes, Sara aprendió a leer el fuego como quien aprende un idioma nuevo: cuándo la leña estaba lista, cuánto tardaba en templarse la piedra del horno, en qué momento exacto había que meter el pan para que la corteza saliera oscura pero no quemada. Cándido, mientras tanto, hablaba menos de su espalda y más de recetas, como si al transmitirlas se sintiera menos urgido por el tiempo que le quedaba frente al horno.",
@@ -19527,7 +19527,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "El molino de los Cabrera llevaba parado desde 1968, cuando el abuelo de Ambrosio dejó de moler grano allí después de que las harineras industriales de la capital ofrecieran precios con los que ningún molino de viento de La Mancha podía competir. Desde entonces, la familia había mantenido el edificio en pie más por cariño que por utilidad, reparando el tejado cuando hacía falta, pero sin que las aspas volvieran jamás a girar en serio.",
+          "El molino de los Cabrera llevaba parado desde 1968, cuando el padre de Ambrosio dejó de moler grano allí después de que las harineras industriales de la capital ofrecieran precios con los que ningún molino de viento de La Mancha podía competir. Desde entonces, la familia había mantenido el edificio en pie más por cariño que por utilidad, reparando el tejado cuando hacía falta, pero sin que las aspas volvieran jamás a girar en serio.",
           "Ambrosio, ya con ochenta y tres años, seguía subiendo casi a diario hasta el molino, situado en lo alto de la colina que dominaba el pueblo, aunque cada vez le costaba más el ascenso. Su nieta Lucía, que estudiaba arquitectura en Toledo, lo acompañaba los fines de semana que volvía a casa, más por hacerle compañía que por verdadero interés en el edificio, o eso creía ella misma.",
           "Aquel invierno, una empresa turística presentó al ayuntamiento un proyecto para comprar la colina entera y construir allí un hotel con vistas panorámicas, ofreciendo a cambio una cifra que resolvería de golpe los problemas de varias familias del pueblo, incluida la de Ambrosio. El proyecto incluía derribar el molino, considerado por la empresa un obstáculo estructural sin ningún valor real más allá de lo pintoresco.",
           "—No es solo un edificio viejo —le dijo Ambrosio a Lucía, la noche en que se enteraron de la oferta—. Es lo único que queda de cuando este pueblo molía su propio grano en lugar de comprarlo ya hecho harina a quién sabe quién.",
@@ -19594,7 +19594,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 102,
     "title": "El acero de los Bermúdez",
-    "summary": "A son who fled his father's knife workshop for the city is called back by an accident, and finds the trade waiting for him with more patience than he expected.",
+    "summary": "A son who fled his father's knife workshop for the city is called back by his father's stroke, and finds the trade waiting for him with more patience than he expected.",
     "duration": "8 min",
     "sections": [
       {
@@ -19667,7 +19667,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 103,
     "title": "La quesería de las nubes",
-    "summary": "When her father falls ill, a daughter must save the family's mountain cheese cave before her brother sells the herd out from under her.",
+    "summary": "When her father falls ill, a daughter must save the family's mountain cheese cave while her brother pushes to sell the herd.",
     "duration": "8 min",
     "sections": [
       {
@@ -20628,7 +20628,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Le planteó la duda a su marido, Ernesto, quien le confesó que a él, personalmente, le costaría recibir un mensaje programado de una persona ya fallecida, porque sentía que rompería, cada vez, la paz que hubiera logrado construir hasta entonces. \"Cada carta sería reabrir la herida en la fecha que tú elegiste, no en la que yo estuviera listo\", le dijo, con una honestidad que a Susana le dolió pero que no pudo rebatir del todo.",
           "Durante una temporada dejó el proyecto a un lado, incapaz de decidir si continuar o abandonarlo del todo. Habló también con su terapeuta, quien le sugirió que quizás la pregunta correcta no era si debía escribir los mensajes, sino para quién los estaba escribiendo realmente: si para dar consuelo a Mateo o para calmar su propio miedo a desaparecer sin dejar rastro.",
           "Aquella pregunta la acompañó durante semanas, hasta que llegó a una especie de acuerdo consigo misma: seguiría escribiendo, pero solo mensajes breves y abiertos, sin fechas de entrega demasiado precisas ni instrucciones sobre cómo debía sentirse Mateo al recibirlos. Prefería dejarle una voz disponible, no una voz que se impusiera en momentos que no le correspondía dictar desde la distancia de la muerte.",
-          "Grabó, finalmente, cinco mensajes cortos, cada uno programado para entregarse solo si Mateo, ya adulto, decidía activamente solicitarlos a través de la aplicación, en lugar de recibirlos de manera automática en fechas prefijadas. Le pareció la única forma de dejarle algo sin quitarle, al mismo tiempo, el derecho a vivir su propio duelo sin la voz de su madre programada de antemano.",
+          "Grabó, finalmente, cinco mensajes cortos, cada uno programado para entregarse solo si Mateo, cuando se sintiera preparado, decidía activamente solicitarlos a través de la aplicación, en lugar de recibirlos de manera automática en fechas prefijadas. Le pareció la única forma de dejarle algo sin quitarle, al mismo tiempo, el derecho a vivir su propio duelo sin la voz de su madre programada de antemano.",
           "Susana murió siete meses después, y Mateo, ya con dieciséis años, tardó casi dos años más en decidirse a abrir el primero de los mensajes. Cuando por fin lo hizo, no encontró instrucciones ni fechas ni un guion para su vida futura, sino simplemente la voz de su madre diciéndole que confiaba en que, decidiera lo que decidiera hacer con su vida, encontraría su propio camino sin necesitar que nadie, ni siquiera ella, se lo señalara desde ningún lugar."
         ]
       }
@@ -20636,7 +20636,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "What did the app Susana's niece told her about allow people to do?",
+        "question": "What did the app that Susana's niece told her about allow people to do?",
         "options": [
           "Store photos in a secure cloud archive.",
           "Schedule messages to be delivered automatically to specific people at future dates, even after the sender's death.",
@@ -20675,12 +20675,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         "question": "What compromise did Susana ultimately reach about the messages?",
         "options": [
           "She abandoned the project entirely.",
-          "She recorded five messages that would only be delivered if Mateo actively requested them as an adult, rather than automatically.",
+          "She recorded five messages that would only be delivered if Mateo actively requested them when he felt ready, rather than automatically.",
           "She had Ernesto choose when Mateo would receive each message.",
           "She recorded a single long message covering every future milestone."
         ],
         "correctIndex": 1,
-        "explanation": "She recorded messages \"programado para entregarse solo si Mateo, ya adulto, decidía activamente solicitarlos,\" rather than at fixed automatic dates."
+        "explanation": "She recorded messages \"programado para entregarse solo si Mateo, cuando se sintiera preparado, decidía activamente solicitarlos,\" rather than at fixed automatic dates."
       }
     ]
   },
@@ -20762,7 +20762,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 118,
     "title": "Las fotos que no recordaba",
-    "summary": "After an accident damages her memory, a photographer must decide whether to trust the pictures she took or the fragments of memory that contradict them.",
+    "summary": "After an accident damages her memory, a photographer must decide whether to investigate a relationship her past self asked everyone never to mention.",
     "duration": "8 min",
     "sections": [
       {

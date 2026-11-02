@@ -201,7 +201,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Mi hijo come poco. → Quiero que ___ más.", answer: "coma", en: "My son eats little. → I want him [to eat] more.", explanation: "Come (indicativo) → coma (subjuntivo): cambia la vocal." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Tú trabajas los sábados. → No quiero que ___ los sábados.", answer: "trabajes", en: "You work on Saturdays. → I don't want you [to work] on Saturdays.", explanation: "Trabajas → trabajes: en -ar, la e marca el subjuntivo." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Ellos viven en el centro. → Prefiero que ___ en las afueras.", answer: "vivan", en: "They live downtown. → I'd rather they [live] in the suburbs.", explanation: "Viven → vivan: en -ir, la a marca el subjuntivo." },
-      { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Nosotros bebemos mucho café. → El médico quiere que ___ menos café.", answer: "bebamos", en: "We drink a lot of coffee. → The doctor wants us [to drink] less coffee.", altAnswers: ["tomemos"], explanation: "Bebemos → bebamos: en -er, la a marca el subjuntivo." },
+      { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Nosotros bebemos mucho café. → El médico quiere que ___ menos café.", answer: "bebamos", en: "We drink a lot of coffee. → The doctor wants us [to drink] less coffee.", explanation: "Bebemos → bebamos: en -er, la a marca el subjuntivo." },
       toEs("My sister studies at night, but I want her to study in the morning.", "Mi hermana estudia por la noche, pero quiero que estudie por la mañana.", "Estudia es un hecho; estudie, un deseo. Una sola vocal cambia el modo.", ["Mi hermana estudia de noche, pero quiero que estudie de mañana.", "Mi hermana estudia en la noche, pero quiero que estudie en la mañana."]),
       toEs("Me llamas mucho; quiero que me llamas menos.", "Me llamas mucho; quiero que me llames menos.", "La primera parte es un hecho (llamas); la segunda, un deseo sobre otra persona: subjuntivo, llames.", ["Me llamas mucho y quiero que me llames menos."], "Corrige la frase."),
       toEs("Los niños abren los regalos hoy.", "Prefiero que los niños abran los regalos mañana.", "Con «prefiero que» el verbo pasa al subjuntivo: abren → abran.", ["Prefiero que los niños abran mañana los regalos."], "Transforma con «Prefiero que…» y cambia «hoy» por «mañana»."),
@@ -258,7 +258,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       toEs("I want you (tú) to remember my birthday.", "Quiero que recuerdes mi cumpleaños.", "Recordar: o → ue en tú: recuerdes.", ["Quiero que te acuerdes de mi cumpleaños."]),
       toEs("Esperamos que puedas quedarte.", "Esperamos que puedan quedarse.", "Ustedes sigue dentro de la bota: puedan. El pronombre cambia con la persona (te → se).", ["Esperamos que se puedan quedar."], "Cambia el sujeto de la segunda parte a ustedes."),
       toEs("Es mejor que empiecemos la reunión ahora.", "Es mejor que empecemos la reunión ahora.", "Empezar es -ar: en nosotros no cambia la raíz (empecemos), aunque sí z → c.", ["Es mejor que comencemos la reunión ahora."], "Corrige la frase."),
-      { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Ojalá que no se ___ las plantas.", answer: "mueran", en: "Hopefully the plants [don't die].", explanation: "Morir: o → ue en ellas: mueran." },
+      { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Ojalá que no se ___ las plantas.", answer: "mueran", en: "Hopefully the plants do not [die].", explanation: "Morir: o → ue en ellas: mueran." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Es necesario que ___ el error.", answer: "corrijamos", en: "It's necessary that we [correct] the mistake.", explanation: "Corregir es -ir: e → i también en nosotros, y g → j: corrijamos." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Quiero que mi hija ___ un vestido para la boda.", answer: "elija", en: "I want my daughter [to choose] a dress for the wedding.", altAnswers: ["escoja"], explanation: "Elegir: e → i y g → j: elija." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Es importante que ___ las instrucciones al pie de la letra.", answer: "sigamos", en: "It's important that we [follow] the instructions to the letter.", explanation: "Seguir es -ir: en nosotros también cambia e → i: sigamos." },
@@ -532,8 +532,8 @@ export const B1_DRILLS: AnchoredLesson[] = [
         [0, 2],
         "Conduzcas (de conduzco) y oigan (de oigo) copian la forma yo. Lo correcto es conozcamos (de conozco) y estés, con tilde."
       ),
-      toEs("Espero que tú tengas suerte.", "Espero que vosotros tengáis suerte.", "La raíz teng- de tengo se mantiene en todas las personas: tengáis.", ["Espero que ustedes tengan suerte."], "Cambia a vosotros."),
-      toEs("Quiero que me digas la verdad.", "Quiero que me digáis la verdad.", "Dig- (de digo) se mantiene; solo cambia la terminación: digáis.", ["Quiero que me digan la verdad."], "Cambia a vosotros."),
+      toEs("Espero que tú tengas suerte.", "Espero que vosotros tengáis suerte.", "La raíz teng- de tengo se mantiene en todas las personas: tengáis.", [], "Cambia a vosotros."),
+      toEs("Quiero que me digas la verdad.", "Quiero que me digáis la verdad.", "Dig- (de digo) se mantiene; solo cambia la terminación: digáis.", [], "Cambia a vosotros."),
       toEs("«Ojalá que mis padres conozan a mi novia.»", "Ojalá que mis padres conozcan a mi novia.", "El yo es conozco, con zc: el subjuntivo es conozcan.", [], "Corrige la frase."),
       toEs("«Es posible que pidamos pizza, pero no creo que sabéis el número.»", "Es posible que pidamos pizza, pero no creo que sepáis el número.", "Pidamos está bien (-ir, e → i). No creo que pide subjuntivo, y saber es uno de los seis: sepáis.", [], "Corrige la frase."),
       toEs("I hope you have a great time. (tú)", "Espero que lo pases muy bien.", "«Have a great time» = pasarlo bien; espero que + subjuntivo: lo pases.", ["Espero que te diviertas mucho.", "Ojalá lo pases muy bien."]),
@@ -599,7 +599,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "Recuerda la regla: ¿un sujeto o dos?",
         [
           "Recuerda: un sujeto → infinitivo: Espero aprobar (yo espero, yo apruebo). Dos sujetos → que + subjuntivo: Espero que apruebes (yo espero, tú apruebas).",
-          "El inglés lo disimula (I want to go / I want you to go), pero en español la diferencia se ve siempre: si aparece otra persona entre el deseo y la acción, hace falta que.",
+          "El inglés usa to + infinitivo en los dos casos (I want to go / I want you to go), pero en español la diferencia se ve siempre: si aparece otra persona entre el deseo y la acción, hace falta que.",
         ],
         [
           ["Prefiero quedarme. / Prefiero que te quedes.", "I prefer to stay. / I prefer that you stay. (me quedo yo / te quedas tú)"],
@@ -881,7 +881,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Cambia a negativa.", "Creo que tienen dinero. → No creo que ___ dinero.", "tengan", "«No creo que» → subjuntivo, formado desde tengo: tengan. «Tienen» mantendría la certeza."),
       fb("Cambia a negativa.", "Pienso que va a llover. → No pienso que ___ a llover.", "vaya", "«No pienso que» → subjuntivo; ir es irregular: vaya."),
       fb("Cambia a afirmativa.", "No creo que sepa la respuesta. → Creo que ___ la respuesta.", "sabe", "«Creo que» afirmativo expresa certeza y lleva indicativo: sabe. «Sepa» solo va con la duda."),
-      fb("Cambia «Dudo que» por «Estoy seguro de que».", "Dudo que esté en casa. → Estoy seguro de que ___ en casa.", "está", "«Estoy seguro de que» expresa certeza → indicativo: está, sin la tilde final de esté."),
+      fb("Cambia «Dudo que» por «Estoy seguro de que».", "Dudo que esté en casa. → Estoy seguro de que ___ en casa.", "está", "«Estoy seguro de que» expresa certeza → indicativo: está (no esté, que es subjuntivo)."),
       fb("Completa.", "Dudo que el restaurante ___ abierto a esta hora. (estar)", "esté", "Dudar pone en duda lo que sigue: subjuntivo, esté. «Está» lo afirmaría."),
       mc(
         "«No estoy seguro de que ___ razón.» (tener, tú)",
@@ -965,7 +965,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Me alegro de que mis primos ___ a vivir cerca.", answer: "vengan", en: "I'm glad my cousins [are coming] to live nearby.", explanation: "Me alegro de que + subjuntivo: vengan, no «vienen»." },
       toEs("Me alegro de que yo te vea otra vez.", "Me alegro de verte otra vez.", "Quien se alegra y quien ve es la misma persona: infinitivo, sin «que». «Que yo te vea» solo se usa con dos sujetos distintos.", ["Me alegro de volver a verte.", "Me alegro de verte de nuevo."], "Corrige la frase."),
       toEs("A mi padre le molesta que llegamos tarde.", "A mi padre le molesta que lleguemos tarde.", "Molestar que + subjuntivo: lleguemos (g → gu delante de e). «Llegamos» informa en vez de reaccionar.", ["A mi papá le molesta que lleguemos tarde."], "Corrige la frase."),
-      { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Nos preocupa que el bebé no ___ bien.", answer: "duerma", en: "It worries us that the baby [isn't sleeping] well.", explanation: "Preocupar que + subjuntivo; dormir cambia o → ue: duerma." },
+      { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Nos preocupa que el bebé no ___ bien.", answer: "duerma", en: "It worries us that the baby is not [sleeping] well.", explanation: "Preocupar que + subjuntivo; dormir cambia o → ue: duerma." },
       toEs("I'm afraid it will rain during the wedding.", "Tengo miedo de que llueva durante la boda.", "Tener miedo de que + subjuntivo: llueva. No uses el futuro («lloverá»).", ["Temo que llueva durante la boda.", "Me da miedo que llueva durante la boda."]),
       toEs("Sé que no te gusta el chocolate.", "Me sorprende que no te guste el chocolate.", "«Sé que» informa (indicativo: gusta); «me sorprende que» reacciona (subjuntivo: guste).", ["Me extraña que no te guste el chocolate."], "Cambia «Sé que» por «Me sorprende que»."),
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Siento que no ___ entradas para el concierto.", answer: "haya", en: "I'm sorry there [aren't] any tickets for the concert.", explanation: "Siento que + subjuntivo de haber: haya (no «hay»)." },
@@ -1145,7 +1145,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       mc("«No pienso que…»", ["subjuntivo", "indicativo", "infinitivo", "imperativo"], 0, "«No pienso que» niega una opinión: hay duda, así que se usa subjuntivo: no pienso que sea fácil. El indicativo va con «pienso que» afirmativo."),
       mc("«Sé que…»", ["indicativo", "subjuntivo", "infinitivo", "imperativo"], 0, "«Sé que» presenta información segura, así que lleva indicativo: sé que viene. El subjuntivo va con duda, emoción o deseo."),
       fb("Completa.", "Prefiero que no ___ nada a nadie. (decir, tú)", "digas", "Preferir que + otro sujeto → subjuntivo, formado desde digo: digas."),
-      { ...fb("Completa.", "Estoy seguro de que mañana ___ sol. (hacer, futuro)", "hará", "Certeza sobre el futuro → indicativo futuro: hará. Con «dudo que» iría «haga»."), altAnswers: ["va a hacer"] },
+      { ...fb("Completa.", "Estoy seguro de que mañana ___ sol. (hacer, futuro)", "hará", "Certeza sobre el futuro → indicativo futuro: hará. Con «dudo que» iría «haga»."), altAnswers: ["va a hacer", "habrá", "va a haber"] },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Quiero que ___ conmigo al cine.", answer: "vengas", en: "I want you [to come] to the cinema with me.", explanation: "Querer que + otro sujeto: subjuntivo (vengas), no infinitivo." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Sé que ___ mucho trabajo esta semana.", answer: "tienes", en: "I know you [have] a lot of work this week.", explanation: "«Saber que» es certeza: indicativo, tienes." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Espero ___ el autobús de las ocho.", answer: "tomar", en: "I hope [to catch] the eight o'clock bus.", explanation: "Mismo sujeto (yo espero, yo tomo): infinitivo, sin «que».", altAnswers: ["coger", "agarrar"] },
@@ -1362,7 +1362,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "Recuerda la regla",
         [
           "Una carta de despedida está llena de deseos (espero que…, quiero que…), emociones (me alegro de que…, me da pena que…) y opiniones negadas (no creo que…). Todas hablan de lo que hará otra persona, así que piden que + subjuntivo. Solo la certeza (estoy segura de que…, sé que…) lleva indicativo.",
-          "Truco: el subjuntivo sale de la forma yo del presente: voy → vaya, tengo → tenga, conozco → conozca.",
+          "Truco: el subjuntivo sale de la forma yo del presente: salgo → salga, tengo → tenga, conozco → conozca.",
         ],
         [
           ["Me da pena que no vengas en verano.", "It makes me sad that you won't come in the summer. (emoción → subjuntivo)"],
@@ -1444,7 +1444,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "«No pienso que ___ buena idea.»",
         ["sea — opinión negada", "es — certeza", "ser — mismo sujeto", "será — futuro"],
         0,
-        "«No pienso que» niega una opinión y pide subjuntivo: sea. «Es» sería para «pienso que» (certeza), «ser» sirve solo con el mismo sujeto y «será» no es la forma esperada aquí."
+        "«No pienso que» niega una opinión y pide subjuntivo: sea. «Es» sería para «pienso que» (certeza), «ser» sirve solo con el mismo sujeto y «será» es futuro de indicativo, que no se usa tras «no pienso que»."
       ),
       mc(
         "«Está claro que ___ razón.»",
@@ -1740,7 +1740,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
       toEs("Marta puede venir.", "Dudo que Marta pueda venir.", "Dudar que no afirma: el verbo pasa a subjuntivo, puede → pueda.", [], "Transforma el mensaje con «Dudo que...»."),
       toEs("Sé que Pedro es vegetariano.", "No creo que Pedro sea vegetariano.", "Saber que afirma (indicativo, es); no creer que duda (subjuntivo, sea).", [], "Cambia «Sé que» por «No creo que»."),
-      toEs("«Ana: Espero que todos venís a las nueve.»", "Ana: Espero que todos vengáis a las nueve.", "Esperar que + otra persona → subjuntivo; venir copia el yo vengo: vengáis.", ["Espero que todos vengáis a las nueve."], "Corrige el mensaje."),
+      toEs("«Ana: Espero que todos venís a las nueve.»", "Ana: Espero que todos vengáis a las nueve.", "Esperar que + otra persona → subjuntivo; venir copia el yo vengo: vengáis.", ["Espero que todos vengáis a las nueve.", "Ana: Espero que todos vengan a las nueve.", "Espero que todos vengan a las nueve."], "Corrige el mensaje."),
       toEs("«Luis: Sé que Ana cocine muy bien.»", "Luis: Sé que Ana cocina muy bien.", "Saber que presenta un hecho: indicativo, cocina.", ["Sé que Ana cocina muy bien."], "Corrige el mensaje."),
       toEs("I hope everyone has a great time.", "Espero que todos lo pasen muy bien.", "Esperar que + subjuntivo: todos lo pasen bien.", ["Espero que todos lo paséis genial.", "Espero que todos se diviertan mucho."]),
     ]
@@ -1830,7 +1830,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "«Aconsejar que» con otro sujeto pide subjuntivo: no le digas. «Dices» es indicativo, «decir» es infinitivo y «dirás» es futuro."
       ),
       toEs("Cierra la ventana.", "Te pido que cierres la ventana.", "El mandato se convierte en petición: te pido que + subjuntivo, cierra → cierres.", [], "Transforma el mandato en una petición con «Te pido que...»."),
-      toEs("Te recomiendo que salgas temprano.", "Os recomiendo que salgáis temprano.", "Cambia la persona en los dos sitios: te → os y salgas → salgáis.", ["Les recomiendo que salgan temprano."], "Cambia a vosotros."),
+      toEs("Te recomiendo que salgas temprano.", "Os recomiendo que salgáis temprano.", "Cambia la persona en los dos sitios: te → os y salgas → salgáis.", [], "Cambia a vosotros."),
       toEs("«El médico me prohíbe que como dulces.»", "El médico me prohíbe que coma dulces.", "Prohibir que + subjuntivo: coma. «Como» es indicativo.", [], "Corrige la frase."),
       toEs("«Te pido que me ayudas con los deberes.»", "Te pido que me ayudes con los deberes.", "Pedir que + subjuntivo: ayudes (-ar → e).", ["Te pido que me ayudes con la tarea."], "Corrige la frase."),
       toEs("I recommend that you try the paella.", "Te recomiendo que pruebes la paella.", "Recomendar que + subjuntivo; probar → pruebes.", ["Le recomiendo que pruebe la paella.", "Les recomiendo que prueben la paella.", "Os recomiendo que probéis la paella."]),
@@ -1846,7 +1846,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       sec(
         "Recuerda la regla: tres preguntas sin red",
         [
-          "Recuerda: 1) ¿Hay que? Si no lo hay y el sujeto es el mismo, va el infinitivo (quiero hablar). 2) ¿Lo que va antes de que afirma o sabe algo (creo que, sé que, es evidente que)? → indicativo. 3) ¿Desea, duda, reacciona o valora (quiero que, dudo que, me alegro de que, temo que)? → subjuntivo.",
+          "Recuerda: 1) ¿Hay «que» entre los dos verbos? Si no lo hay y el sujeto es el mismo, va el infinitivo (quiero hablar). 2) ¿Lo que va antes de que afirma o sabe algo (creo que, sé que, es evidente que)? → indicativo. 3) ¿Desea, duda, reacciona o valora (quiero que, dudo que, me alegro de que, temo que)? → subjuntivo.",
         ],
         [
           ["Mi madre prefiere que no fumemos en casa.", "My mother prefers that we don't smoke at home. (preferencia → subjuntivo)"],
@@ -1993,7 +1993,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "Hecho o posibilidad",
         [
           "Recuerda la regla: la expresión decide si lo que sigue es un hecho o no. Certeza → indicativo, porque afirmas: es verdad que, es cierto que, es obvio que, está claro que, es evidente que. Posibilidad o valoración → subjuntivo, porque no afirmas que pase: es posible que, es probable que, puede que, es increíble que, es una pena que.",
-          "Truco: si puedes añadir «y es un hecho» sin contradecirte, va indicativo. Negadas, las de certeza ya no afirman nada y pasan a subjuntivo: No es verdad que sea caro.",
+          "Truco: si la expresión solo afirma que algo es un hecho (es verdad que, es obvio que), va indicativo; si lo valora o lo duda (es una pena que, es posible que), va subjuntivo, aunque sea verdad. Negadas, las de certeza ya no afirman nada y pasan a subjuntivo: No es verdad que sea caro.",
         ],
         [
           ["Es verdad que hace frío.", "It's true it's cold. (hecho → indicativo)"],
@@ -2141,7 +2141,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Cambia al consejo personal (nosotros).", "Es necesario salir ya. → Es necesario que ___ ya.", "salgamos", "Es necesario que + subjuntivo, formado desde salgo: salgamos."),
       fb("Cambia al consejo personal (vosotros).", "Es importante hacer ejercicio. → Es importante que ___ ejercicio.", "hagáis", "Es importante que + subjuntivo, formado desde hago: hagáis."),
       fb("Cambia al consejo personal (ustedes).", "Es conveniente llegar pronto. → Es conveniente que ___ pronto.", "lleguen", "Es conveniente que + subjuntivo; -gar → -gue ante e: lleguen."),
-      fb("Transforma en consejo general.", "Es mejor que te acuestes pronto. → Es mejor ___ pronto.", "acostarse", "Sin sujeto concreto, la expresión va con infinitivo, y el pronombre se se pega: es mejor acostarse."),
+      fb("Transforma en consejo general.", "Es mejor que te acuestes pronto. → Es mejor ___ pronto.", "acostarse", "Sin sujeto concreto, la expresión va con infinitivo, y el pronombre se pega: es mejor acostarse."),
       fb("Transforma en consejo general.", "Es necesario que ahorres. → Es necesario ___.", "ahorrar", "Sin sujeto concreto, la expresión impersonal va con infinitivo: es necesario ahorrar."),
       mc(
         "«Es fundamental ___ la verdad.» (generalización)",
@@ -2385,7 +2385,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "Recuerda la regla: el orden alrededor del subjuntivo",
         [
           "Recuerda la regla: el subjuntivo es un verbo conjugado, y delante de un verbo conjugado los pronombres van separados y antes del verbo, nunca pegados: es mejor que no se lo digas. El orden fijo es: expresión + que + (sujeto) + (no) + pronombres + subjuntivo + resto.",
-          "Si hay dos pronombres, el indirecto va primero (me lo, te la, nos los), y le / les se convierten en se delante de lo, la, los, las: se lo. Solo el infinitivo deja pegar los pronombres: es mejor no decírselo.",
+          "Si hay dos pronombres, el indirecto va primero (me lo, te la, nos los), y le / les se convierten en se delante de lo, la, los, las: se lo. Con el infinitivo (y con el mandato afirmativo) los pronombres pueden ir pegados: es mejor no decírselo.",
           "Al escribir lo que oyes, este orden te ayuda a separar bien las palabras: «se lo» son dos palabras, «decírselo» es una.",
         ],
         [
@@ -2473,7 +2473,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       sec(
         "Dos formas para tú",
         [
-          "Recuerda la regla: tú es la única persona con dos formas de mandato. Afirmativo = forma él del presente (habla, come) o uno de los ocho irregulares (ven, haz). Negativo = no + subjuntivo (no hables, no comas, no vengas, no hagas), como todos los demás mandatos negativos.",
+          "Recuerda la regla: tú es la persona con dos formas de mandato muy distintas (vosotros también: hablad / no habléis). Afirmativo = forma él del presente (habla, come) o uno de los ocho irregulares (ven, haz). Negativo = no + subjuntivo (no hables, no comas, no vengas, no hagas), como todos los demás mandatos negativos.",
           "Truco para el negativo: forma yo del presente, quita la -o y pon la vocal «contraria» + s: hablo → no hables, como → no comas, vengo → no vengas. Es el error más frecuente: ✗ no habla (→ no hables).",
         ],
         [
@@ -3160,7 +3160,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     "6 min",
     [
       sec(
-        "Las terminaciones del imperfecto de -er/-ir, sobre el infinitivo",
+        "Las terminaciones del condicional: las del imperfecto de -er/-ir, sobre el infinitivo",
         [
           "Recuerda la regla: condicional = infinitivo completo + -ía, -ías, -ía, -íamos, -íais, -ían. Hablar → hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían. Todas llevan tilde en la í, porque esa í se pronuncia aparte (ha-bla-rí-a).",
           "Las raíces irregulares son las del futuro, porque los dos tiempos se construyen sobre la misma base: tendr-, pondr-, saldr-, vendr-, dir-, har-, podr-, querr-, sabr-, habr-. En este marco («Con más tiempo…», «Sin…», «En tu lugar…») la condición está imaginada, por eso el resultado va en condicional.",
@@ -3225,9 +3225,9 @@ export const B1_DRILLS: AnchoredLesson[] = [
     [
       mc(
         "«¿___ abrir la ventana, por favor?» (petición cortés)",
-        ["Podrías", "Podrás", "Puedes siempre", "Pudiste"],
+        ["Podrías", "Podrás", "Poder", "Pudiste"],
         0,
-        "Para pedir algo con cortesía se usa el condicional: ¿Podrías abrir la ventana? «Podrás» es futuro, «Puedes» es correcto pero más directo (y «siempre» no encaja) y «Pudiste» es pasado."
+        "Para pedir algo con cortesía se usa el condicional: ¿Podrías abrir la ventana? «Podrás» es futuro, «Poder» es un infinitivo y no puede llevar sujeto aquí y «Pudiste» es pasado."
       ),
       mc(
         "«El año que viene ___ en Italia.» (plan)",
@@ -3259,7 +3259,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "Suavizar",
         [
           "Recuerda la regla: para suavizar una petición, pásala al condicional. ¿Por qué funciona? El condicional habla de lo imaginado, así que la petición deja de ser una orden y se convierte en una posibilidad que el otro puede rechazar.",
-          "Escalera de cortesía: Directo: ¿Me das agua? Cortés: ¿Me podrías dar agua? Muy cortés: ¿Le importaría darme un vaso de agua? Deseo: Me gustaría / Querría + infinitivo o sustantivo. Consejo suave: Deberías + infinitivo. Después de podría, importaría, gustaría y debería va siempre un infinitivo.",
+          "Escalera de cortesía: Directo: ¿Me das agua? Cortés: ¿Me podrías dar agua? Muy cortés: ¿Le importaría darme un vaso de agua? Deseo: Me gustaría / Querría + infinitivo o sustantivo. Consejo suave: Deberías + infinitivo. En estas fórmulas, después de podría, importaría, gustaría y debería va un infinitivo.",
         ],
         [
           ["¿Le importaría cerrar la ventana?", "Would you mind closing the window? (usted: le)"],
@@ -3774,7 +3774,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       sec(
         "Planes condicionados",
         [
-          "Recuerda la regla: un plan que depende de algo se dice con si + presente de indicativo (la condición) y futuro o ir a + infinitivo (el plan): Si me dan vacaciones, viajaré / voy a viajar. «Si» nunca lleva futuro ni subjuntivo, porque ya marca por sí mismo que la condición está por cumplirse.",
+          "Recuerda la regla: un plan que depende de algo se dice con si + presente de indicativo (la condición) y futuro o ir a + infinitivo (el plan): Si me dan vacaciones, viajaré / voy a viajar. «Si» nunca lleva futuro ni subjuntivo, porque la condición real se expresa en presente aunque hable del futuro.",
           "Ahora habla de ti: piensa en tus planes reales para el fin de semana y para este año, y en lo que podría cambiarlos.",
         ],
         [
@@ -3812,7 +3812,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "Encadenar",
         [
           "Recuerda la regla: en una condición real, el verbo que va detrás de «si» está en presente de indicativo y el resultado, en futuro: Si ahorro, compraré una bici.",
-          "En una cadena, el resultado de una frase se convierte en la condición de la siguiente. Al cruzar al otro lado de «si», el verbo deja el futuro y pasa al presente: compraré → Si compro una bici, iré en bici. ¿Por qué? Porque «si» ya sitúa la acción en el futuro; repetir el futuro («si compraré») es un error típico de quien traduce del inglés «will».",
+          "En una cadena, el resultado de una frase se convierte en la condición de la siguiente. Al cruzar al otro lado de «si», el verbo deja el futuro y pasa al presente: compraré → Si compro una bici, iré en bici. ¿Por qué? Porque en español la condición real va en presente aunque se refiera al futuro; repetir el futuro («si compraré») es un error frecuente: el futuro va solo en el resultado.",
         ],
         [
           ["Si compro una bici, iré al trabajo en bici.", "If I buy a bike, I'll cycle to work."],
@@ -3861,7 +3861,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Rápido.", "Si estás enfermo, no ___ a trabajar. (ir, tú)", "vayas", "El mandato negativo de tú usa el subjuntivo: no vayas. «No ve» es el afirmativo con no delante, y no existe."),
+      fb("Rápido.", "Si estás enfermo, no ___ a trabajar. (ir, tú)", "vayas", "El mandato negativo de tú usa el subjuntivo: no vayas. «No ve» sería el afirmativo (ve) con no delante: no vale como orden negativa."),
       fb("Rápido.", "Si llegas antes, ___ la puerta. (abrir, tú)", "abre", "El afirmativo de tú es igual a la forma de él en presente: abre, no «abras» (eso es para el negativo)."),
       fb("Rápido.", "Si hace frío, ___ la calefacción. (poner, tú)", "pon", "Poner tiene imperativo corto de tú: pon, no «pone»."),
       fb("Rápido.", "Si no le gusta la sopa, no se la ___. (servir, usted)", "sirva", "Negativo de usted: no + subjuntivo (sirva), con los pronombres se la delante del verbo."),
@@ -4105,7 +4105,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      wo("Si no te gusta la comida, no te la comas.", "Si + presente + imperativo negativo: en negativo los pronombres van delante (no te la comas).", "If you don't like the food, don't eat it."),
+      wo("Si no te gusta la comida, no te la comas.", "Si + presente + imperativo negativo: en negativo los pronombres van delante (no te la comas); este «te» es un pronombre de interés (comerse algo entero) que da énfasis; sin él también se dice «no la comas».", "If you don't like the food, don't eat it."),
       wo("Te llamaré si tengo noticias.", "Resultado en futuro primero y si + presente después, sin coma.", "I'll call you if I have news."),
       wo("Si mis padres me dejan, iré contigo a la playa.", "Si + presente + futuro, con coma porque la condición va primero.", "If my parents let me, I'll go with you to the beach."),
       fb("Completa.", "Si ___ el informe hoy, te lo mando mañana. (terminar, yo)", "termino", "Tras si, presente de indicativo: termino. Nunca «terminaré» tras si."),
@@ -4367,7 +4367,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
       toEs("This morning I've drunk two coffees.", "Esta mañana me he tomado dos cafés.", "En España, «esta mañana» (parte de hoy) va con pretérito perfecto: me he tomado.", ["Esta mañana he tomado dos cafés.", "Esta mañana he bebido dos cafés."]),
       toEs("Ayer he ido al dentista.", "Ayer fui al dentista.", "«Ayer» es un tiempo terminado: pretérito indefinido (fui), no «he ido».", ["Fui al dentista ayer."], "Corrige la frase."),
-      toEs("Ayer fui al dentista.", "Hoy he ido al dentista.", "«Hoy» todavía no ha terminado: en España, pretérito perfecto (he ido).", ["Hoy he estado en el dentista.", "He ido al dentista hoy.", "Hoy fui al dentista."], "Cambia «ayer» por «hoy» (España)."),
+      toEs("Ayer fui al dentista.", "Hoy he ido al dentista.", "«Hoy» todavía no ha terminado: en España, pretérito perfecto (he ido).", ["Hoy he estado en el dentista.", "He ido al dentista hoy."], "Cambia «ayer» por «hoy» (España)."),
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Anoche ___ muy tarde.", answer: "cenamos", en: "Last night we [had dinner] very late.", explanation: "«Anoche» cierra el periodo: indefinido (cenamos), no «hemos cenado»." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Esta noche ___ pescado.", answer: "hemos cenado", en: "Tonight we [have had] fish for dinner.", altAnswers: ["hemos comido", "hemos tomado", "cenamos"], explanation: "«Esta noche» sigue dentro de hoy: pretérito perfecto en España (en Latinoamérica, «cenamos»)." },
       toEs("This year I've read ten books.", "Este año he leído diez libros.", "«Este año» incluye el presente: pretérito perfecto.", ["He leído diez libros este año."]),
@@ -4614,7 +4614,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       toEs("Today I've spoken with him twice.", "Hoy he hablado con él dos veces.", "«Hoy» incluye el presente: pretérito perfecto, he hablado.", ["He hablado con él dos veces hoy."]),
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Ayer abrí la tienda a las nueve. → Hoy la ___ a las diez.", answer: "he abierto", en: "Yesterday I opened the shop at nine. → Today I [have opened] it at ten.", explanation: "Hoy → pretérito perfecto; abrir → abierto." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Ayer nos devolvieron el dinero. → Hoy nos ___ las llaves.", answer: "han devuelto", en: "Yesterday they gave us back the money. → Today they [have returned] the keys to us.", explanation: "Devolvieron → han devuelto; el «nos» sigue delante." },
-      { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "La semana pasada no hice deporte. → Esta semana tampoco ___ deporte.", answer: "he hecho", en: "Last week I didn't do any sports. → This week I [haven't done] any sports either.", explanation: "Esta semana → he hecho; «tampoco» ya lleva la negación, así que no se añade «no»: esta semana tampoco he hecho deporte." },
+      { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "La semana pasada no hice deporte. → Esta semana tampoco ___ deporte.", answer: "he hecho", en: "Last week I didn't do any sports. → This week I [have] not [done] any sports either.", explanation: "Esta semana → he hecho; «tampoco» ya lleva la negación, así que no se añade «no»: esta semana tampoco he hecho deporte." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Hoy me he puesto la chaqueta azul. → Ayer me ___ la verde.", answer: "puse", en: "Today I've put on the blue jacket. → Yesterday I [put on] the green one.", explanation: "Ayer → indefinido: me puse." },
       { type: "fill-blank", prompt: "¿Cómo se dicen en español las palabras en negrita?", sentence: "Este mes hemos escrito dos artículos. → El mes pasado ___ cinco.", answer: "escribimos", en: "This month we've written two articles. → Last month we [wrote] five.", explanation: "El mes pasado → indefinido: escribimos." },
       toEs("Yesterday I saw her at the market; today I've seen her at the gym.", "Ayer la vi en el mercado; hoy la he visto en el gimnasio.", "Ayer → la vi; hoy → la he visto, con el pronombre delante de he.", ["Ayer la vi en el mercado y hoy la he visto en el gimnasio."]),
@@ -5051,14 +5051,14 @@ export const B1_DRILLS: AnchoredLesson[] = [
         0,
         "El gato bajó antes de que llegaran los bomberos: pluscuamperfecto, se había bajado. «Se ha bajado» se liga al presente, «se bajaba» describe un proceso y «había bajando» usa un gerundio en lugar del participio."
       ),
-      toEs("The firefighters had tried twice before.", "Los bomberos lo habían intentado dos veces antes.", "«Had tried» = habían intentado; el objeto «lo» se añade en español.", ["Los bomberos lo habían intentado antes dos veces."]),
+      toEs("The firefighters had tried twice before.", "Los bomberos lo habían intentado dos veces antes.", "«Had tried» = habían intentado; el objeto «lo» se añade en español.", ["Los bomberos lo habían intentado antes dos veces.", "Los bomberos habían intentado dos veces antes.", "Los bomberos habían intentado antes dos veces."]),
     ]
   ),
   L(
     "present-past-perfect-drill-3",
     "b1d-cadena-he-habia-hice",
     "Cadena de transformaciones: he hecho → hice → había hecho",
-    "Una misma acción en los tres tiempos compuestos y simples del pasado, cambiando el marco temporal.",
+    "Aprenderás a decir una misma acción en pretérito perfecto, indefinido o pluscuamperfecto según el marco temporal (hoy, ayer, cuando llegaste).",
     "6 min",
     [
       sec(
@@ -5124,7 +5124,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Responde.", "—¿Habías estado aquí antes? —No, nunca ___ aquí.", "había estado", "Pregunta en pluscuamperfecto → respuesta en pluscuamperfecto, de habías (tú) a había (yo)."),
-      fb("Responde.", "—¿Sabes algo del banco? —No, todavía no me ___. (llamar, ellos)", "han llamado", "«Todavía no» conecta con el presente: perfecto, con el pronombre (me) delante de haber."),
+      fb("Responde.", "—¿Has tenido noticias del banco? —No, todavía no me ___. (llamar, ellos)", "han llamado", "«Todavía no» conecta con el presente: perfecto, con el pronombre (me) delante de haber."),
       fb("Responde.", "—¿Llegaste a tiempo a la clase? —No, cuando llegué ya ___. (empezar, ellos)", "habían empezado", "Empezaron antes de «cuando llegué», un momento pasado: pluscuamperfecto, habían empezado."),
       fb("Responde.", "—¿Habéis terminado el proyecto? —Sí, lo ___ esta mañana.", "hemos terminado", "Pregunta en perfecto con vosotros (habéis) → respuesta en perfecto con nosotros: hemos terminado."),
       fb("Responde.", "—¿Le habías dicho algo? —No, no le ___ nada.", "había dicho", "Eco del pluscuamperfecto: habías dicho → había dicho, con «le» delante de haber."),
@@ -5412,7 +5412,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       { ...fb("Completa.", "El chico con ___ sale mi hermana es simpático.", "el que", "Sale con el chico: la preposición con va delante y el artículo concuerda con chico (el que); para personas también vale quien."), altAnswers: ["quien", "el cual"] },
-      fb("Completa.", "Las amigas con ___ viajé son de Chile. (solo personas)", "quienes", "Tras preposición y con personas en plural se usa «quienes»: con quienes viajé."),
+      fb("Completa.", "Las amigas con ___ viajé son de Chile. (solo personas)", "quienes", "Tras preposición y con personas en plural se usa «quienes»: con quienes viajé (también valen «las que» y «las cuales»)."),
       { ...fb("Completa.", "El pueblo en ___ crecí ya no existe.", "el que", "Con preposición, artículo + que concordando con «el pueblo»: en el que."), altAnswers: ["que", "el cual"] },
       { ...fb("Completa.", "La razón por ___ me fui es personal.", "la que", "«La razón por la que» es la forma fija para explicar un motivo."), altAnswers: ["la cual"] },
       { ...fb("Completa.", "Los compañeros a ___ invité no vinieron.", "los que", "Con preposición, artículo + que concordando con «los compañeros»: a los que."), altAnswers: ["quienes", "los cuales"] },
@@ -5483,7 +5483,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Que o lo que.", "___ necesito es un café.", "Lo que", "Sin antecedente, «lo que» significa «what / the thing that»: Lo que necesito es…"),
       fb("Que o lo que.", "El café ___ tomé estaba frío.", "que", "El antecedente es «el café», sin preposición: que."),
       fb("Que o lo que.", "Haz ___ te digo, por favor.", "lo que", "Delante no hay ningún sustantivo, solo el verbo haz: lo que = what (do what I tell you)."),
-      fb("Que o lo que.", "No me creyó, ___ me molestó mucho.", "lo que", "Lo que me molestó es que no me creyera, toda la frase anterior, no un sustantivo: lo que (o lo cual)."),
+      fb("Que o lo que.", "No me creyó, ___ me molestó mucho.", "lo que", "Lo que recoge toda la frase anterior (que no me creyó), no un sustantivo: lo que (o lo cual)."),
       fb("Que o lo que.", "Es la chica ___ conocí en Lisboa.", "que", "El antecedente es «la chica», sin preposición ni coma: que."),
       toEs("What I want is to rest.", "Lo que quiero es descansar.", "«What» al inicio de una frase como esta = lo que.", []),
       toEn("Me dijo todo lo que sabía.", "He told me everything he knew.", "«Everything he knew» = todo lo que sabía.", ["She told me everything she knew."]),
@@ -6097,7 +6097,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Completa con un relativo.", "___ más me gusta de este anillo es su historia.", "Lo que", "No hay un sustantivo detrás: lo que me gusta es una idea (= what), así que se usa el neutro «lo que», no «el que» ni «que»."),
       { ...fb("Completa.", "Es la guitarra con ___ aprendí a tocar.", "la que", "Se aprende con la guitarra: con + la que."), altAnswers: ["la cual"] },
       fb("Completa.", "Son las fotos de las ___ te hablé.", "que", "Se habla de algo: de + las que, concordando con «las fotos»."),
-      wo("La bicicleta con la que fui al colegio sigue en el garaje.", "Se va al colegio CON la bici (en español se usa «con» o «en» para el medio): la preposición va delante del relativo, con el artículo femenino de «bicicleta».", "The bike I rode to school is still in the garage."),
+      wo("La bicicleta en la que fui al colegio sigue en el garaje.", "Se va al colegio EN bici (el medio de transporte lleva «en»; «con la que» también se oye): la preposición va delante del relativo, con el artículo femenino de «bicicleta».", "The bike I rode to school is still in the garage."),
       ms(
         "Marca las frases correctas sobre objetos con historia.",
         ["Es la taza en la que tomo el té.", "Es la foto que siempre hablo de.", "Es el anillo que me dio mi madre.", "Es el cuaderno lo que escribo mis ideas."],
@@ -6105,10 +6105,10 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "La preposición del verbo va delante del relativo (tomar el té en una taza → en la que), y sin preposición basta «que» (dar algo → que me dio). «Que siempre hablo de» deja la preposición al final como en inglés (lo correcto es «de la que siempre hablo»), y «lo que» no puede referirse a «el cuaderno» (sería «en el que escribo»)."
       ),
       mc(
-        "«Es el jersey ___ me casé.» (casarse con)",
+        "«Es el vestido ___ me casé.» (casarse con)",
         ["con el que", "que", "lo que", "en que"],
         0,
-        "Uno se casa CON algo puesto: con + el (jersey) + que. «Que» solo pierde la preposición, «lo que» es para ideas y «en que» usa la preposición equivocada."
+        "Te casas CON la ropa que llevas puesta: con + el (vestido) + que. «Que» solo pierde la preposición, «lo que» es para ideas y «en que» usa la preposición equivocada."
       ),
     ]
   ),
@@ -6473,7 +6473,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     "passive-voice-possessive-pronouns-drill-3",
     "b1d-habla-de-ti-receta-se",
     "Habla de ti: tu receta con se",
-    "Las recetas en español se escriben con se: se corta, se añade, se mezcla.",
+    "Describe una receta con el se pasivo: el verbo concuerda con el ingrediente (se corta la cebolla, se cortan los tomates) y conserva su cambio de raíz (se fríe, se cuece).",
     "7 min",
     [
       sec(
@@ -6501,7 +6501,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Tu receta.", "Primero se ___ el agua. (hervir)", "hierve", "El agua → singular; hervir cambia e → ie."),
       fb("Tu receta.", "Después se ___ la pasta durante diez minutos. (cocer)", "cuece", "La pasta → singular; cocer cambia o → ue."),
       fb("Tu receta.", "Se ___ los tomates en trozos pequeños. (cortar)", "cortan", "El sujeto es «los tomates», plural: se cortan."),
-      fb("Tu receta.", "Se ___ un poco de sal y pimienta. (añadir)", "añade", "«Un poco de sal y pimienta» funciona como una cantidad incontable: singular, se añade."),
+      fb("Tu receta.", "Se ___ un poco de sal y pimienta. (añadir)", "añade", "«Un poco de sal y pimienta» funciona como una cantidad incontable: singular, se añade (con dos sustantivos coordinados también vale «se añaden»)."),
       fb("Tu receta.", "Al final se ___ todo con queso. (servir)", "sirve", "Todo → singular; servir cambia e → i."),
       wo("Se fríen las patatas en aceite muy caliente.", "«Las patatas» es plural, así que el verbo también: se fríen (freír lleva tilde en la í).", "The potatoes are fried in very hot oil."),
       toEs("First the onion is chopped and then it is fried.", "Primero se corta la cebolla y luego se fríe.", "Se pasivo en singular dos veces, concordando con «la cebolla»: se corta, se fríe.", ["Primero se pica la cebolla y luego se fríe.", "Primero se corta la cebolla y después se fríe."]),
@@ -6562,7 +6562,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       sec(
         "Recuerda la regla: el cartel concuerda con lo que anuncia",
         [
-          "En un cartel con «se», lo que se vende, se alquila o se busca es el sujeto gramatical, así que el verbo concuerda con ello: se alquila una habitación, se alquilan habitaciones. El error típico es dejar el verbo siempre en singular, o ponerlo en plural cuando el sustantivo es singular. Solo hay una excepción: con personas introducidas por «a» (se atiende a los clientes) y con infinitivos (se prohíbe fumar), el verbo va siempre en singular.",
+          "En un cartel con «se», lo que se vende, se alquila o se busca es el sujeto gramatical, así que el verbo concuerda con ello: se alquila una habitación, se alquilan habitaciones. El error típico es dejar el verbo siempre en singular, o ponerlo en plural cuando el sustantivo es singular. Hay dos excepciones: con personas introducidas por «a» (se atiende a los clientes) y con infinitivos (se prohíbe fumar), el verbo va siempre en singular.",
         ],
         [
           ["Se alquila habitación.", "Room for rent. (singular → singular)"],
@@ -6587,7 +6587,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
             "¿Qué cartel está bien escrito?",
             ["Se habla inglés y francés.", "Se vende pisos.", "Se alquilan un local.", "Se busca camareros."],
             0,
-            "«Se habla inglés y francés» es muy habitual en los carteles (se ve como un todo), aunque la norma estricta pide «se hablan»; es el único cartel sin un error claro. Los otros carteles no concuerdan: se venden pisos, se alquila un local, se buscan camareros."
+            "«Se habla inglés y francés» es muy habitual en los carteles (se ve como un todo), aunque con dos sustantivos singulares coordinados también se admite «se hablan»; es el único cartel sin un error claro. Los otros carteles no concuerdan: se venden pisos, se alquila un local, se buscan camareros."
           ),
         ]
       ),
@@ -6643,7 +6643,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     "passive-voice-possessive-pronouns-drill-3",
     "b1d-practica-mezclada-se-final",
     "Práctica mezclada: el se en todos los tiempos",
-    "Presente, indefinido, perfecto y futuro con el mismo control de concordancia.",
+    "Practica el se pasivo e impersonal en presente, indefinido, imperfecto, perfecto, pluscuamperfecto y futuro: el número sigue siempre al sustantivo.",
     "7 min",
     [
       sec(
@@ -6752,7 +6752,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         0,
         "Como complemento directo (sin el sustantivo), el posesivo necesita artículo: ¿Me dejas el tuyo? «Tu» necesita un sustantivo detrás, «tuyo» sin artículo solo va después de ser y «tuya» no concuerda con «bolígrafo»."
       ),
-      toEs("This seat is mine.", "Este asiento es mío.", "Después de ser, el posesivo tónico va sin artículo: es mío.", ["Este sitio es mío."]),
+      toEs("This seat is mine.", "Este asiento es mío.", "Después de ser, el posesivo tónico va sin artículo: es mío.", ["Este sitio es mío.", "Este asiento es el mío.", "Este sitio es el mío."]),
       toEs("My sister is older than yours. (tú)", "Mi hermana es mayor que la tuya.", "«Yours» sin sustantivo = artículo + posesivo, concordando con «hermana»: la tuya."),
     ]
   ),
@@ -7019,7 +7019,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         0,
         "«Puesto» es masculino y, sin el sustantivo, el posesivo lleva artículo: el suyo (de ustedes). «La suya» es femenino, «suyo» sin artículo no sirve aquí y «el mío» cambia el dueño."
       ),
-      toEs("Old coins are bought here. Are these yours (usted)?", "Aquí se compran monedas antiguas. ¿Son suyas estas?", "Se pasivo en plural (se compran monedas) y posesivo de usted concordando: suyas.", ["Se compran monedas antiguas aquí. ¿Son tuyas estas?", "Aquí se compran monedas antiguas. ¿Estas son tuyas?", "Aquí se compran monedas antiguas. ¿Son tuyas estas?"]),
+      toEs("Old coins are bought here. Are these yours (usted)?", "Aquí se compran monedas antiguas. ¿Son suyas estas?", "Se pasivo en plural (se compran monedas) y posesivo de usted concordando: suyas.", ["Se compran monedas antiguas aquí. ¿Son suyas estas?", "Aquí se compran monedas antiguas. ¿Estas son suyas?"]),
     ]
   ),
   L(
@@ -7064,7 +7064,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "Los dos pronombres van delante del verbo, el de persona primero: te (a ti) + las (las llaves). «Las te» invierte el orden, «me las» cambia la persona y «te los» no concuerda con «llaves»."
       ),
       toEs("My brother lent it to me (the car).", "Mi hermano me lo prestó.", "Me (a mí) + lo (el coche), delante del verbo: me lo prestó.", ["Me lo prestó mi hermano."]),
-      wo("Nos la enseñaron ayer.", "Nos (a nosotros) + la (una cosa femenina), siempre en este orden y delante del verbo conjugado.", "They showed it to us yesterday."),
+      wo("Nos la enseñaron ayer.", "Nos (a nosotros) + la (una cosa femenina), siempre en este orden y delante del verbo conjugado.", "They showed it (the house) to us yesterday."),
     ]
   ),
   L(
@@ -7165,7 +7165,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Aclara.", "Se las di ___, no a sus hermanos. (Luis)", "a Luis", "A + el nombre de la persona deja claro a quién se refiere «se»."),
       fb("Aclara.", "¿Se lo dijiste ___? (ella)", "a ella", "Tras la preposición «a», el pronombre tónico: a ella (nunca «a la» ni «a le»)."),
       toEs("I sent it to them (the email), not to you, sir.", "Se lo mandé a ellos, no a usted.", "«Se» es ambiguo, así que se aclara con «a ellos» / «a usted».", ["Se lo envié a ellos, no a usted."]),
-      toEs("She lent it to him (the pen).", "Ella se lo prestó a él.", "Le → se delante de lo, y «a él» aclara quién recibe: se lo prestó a él.", ["Se lo prestó a él."]),
+      toEs("She lent it to him (the pen, el bolígrafo).", "Ella se lo prestó a él.", "Le → se delante de lo, y «a él» aclara quién recibe: se lo prestó a él.", ["Se lo prestó a él."]),
     ]
   ),
   L(
@@ -7247,7 +7247,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         0,
         "Con verbo conjugado + infinitivo, los pronombres pueden ir pegados al infinitivo (decírtelo) o delante del conjugado, en el mismo orden: te lo voy a decir. Nunca van en medio ni en orden inverso, como «Lo te», «Voy te lo» o «Te voy a lo»."
       ),
-      wo("No puedo prestártela hoy.", "Pegados al infinitivo.", "I can't lend it to you today."),
+      wo("No puedo prestártela hoy.", "Con poder + infinitivo, te + la se pegan al infinitivo y la palabra lleva tilde porque el acento queda en la antepenúltima sílaba (prestártela).", "I can't lend it (the bike) to you today."),
       toEs("I'm going to return it to him on Monday (the book).", "Voy a devolvérselo el lunes.", "Con infinitivo, pronombres pegados (le → se + lo), con tilde: devolvérselo.", ["Se lo voy a devolver el lunes.", "El lunes voy a devolvérselo.", "El lunes se lo voy a devolver."]),
     ]
   ),
@@ -7320,7 +7320,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Paso 1.", "Están sirviendo la sopa. → Están ___.", "sirviéndola", "La sopa → la, pegado al gerundio con tilde: sirviéndola."),
       fb("Paso 2.", "Están sirviendo la sopa a los invitados. → Están ___.", "sirviéndosela", "Les (a los invitados) → se + la (la sopa), pegados al gerundio: sirviéndosela."),
       fb("Paso 3.", "Están sirviendo la sopa a los invitados. → ___ están sirviendo.", "Se la", "Los pronombres pueden ir delante de estar: se la están sirviendo."),
-      wo("Nos lo están explicando ahora.", "Delante de estar.", "They're explaining it to us now."),
+      wo("Nos lo están explicando ahora.", "Delante de estar.", "They're explaining it (the plan) to us now."),
       toEs("I'm reading it to you (the letter, tú).", "Estoy leyéndotela.", "Con gerundio, los pronombres se pegan (te + la), con tilde: leyéndotela.", ["Te la estoy leyendo."]),
     ]
   ),
@@ -7437,7 +7437,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Mismo marco.", "(perder, vosotros) → ¡No tengáis miedo, ___ la vergüenza!", "perded", "Perder → perded: sin el cambio e → ie del tú (pierde), porque sale del infinitivo."),
+      fb("Completa con el mandato de vosotros.", "(perder, vosotros) → ¡Chicos, ___ la vergüenza!", "perded", "Perder → perded: sin el cambio e → ie del tú (pierde), porque sale del infinitivo."),
       fb("Mismo marco.", "(poner, vosotros) → ¡___ la mesa!", "Poned", "Poner → poned. El irregular «pon» es solo de tú."),
       fb("Mismo marco.", "(salir, vosotros) → ¡___ ya, que llegáis tarde!", "Salid", "Salir → salid; «sal» es solo de tú."),
       fb("Mismo marco.", "(tener, vosotros) → ¡___ cuidado con el perro!", "Tened", "Tener → tened; «ten» es solo de tú."),
@@ -7527,7 +7527,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       sec(
         "Dos formas del mismo verbo",
         [
-          "Afirmativo reflexivo: el mandato de vosotros (sentad) + os pierde la -d → sentaos. La -d cae porque «sentados» se confundiría con el participio; en los verbos en -ir aparece tilde para marcar el hiato (vestíos, divertíos). Única excepción: idos.",
+          "Afirmativo reflexivo: el mandato de vosotros (sentad) + os pierde la -d → sentaos. La -d cae por una simplificación fonética que fijó la norma (y así no se confunde con el participio «sentados»); en los verbos en -ir aparece tilde para marcar el hiato (vestíos, divertíos). Única excepción: idos.",
           "Negativo: el pronombre sale delante y el verbo va en subjuntivo de vosotros: no os sentéis. Es la misma lógica que con tú (siéntate / no te sientes): en el sí, el pronombre va detrás; en el no, delante.",
         ],
         [
@@ -8179,7 +8179,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Elige el marco.", "Ayer ___ tres cafés. (tomar, yo)", "tomé", "«Ayer» es un periodo cerrado: indefinido, tomé."),
-      fb("Elige el marco.", "Este año ___ a Portugal dos veces. (ir, nosotros)", "hemos ido", "«Este año» sigue abierto: pretérito perfecto, hemos ido."),
+      { ...fb("Elige el marco.", "Este año ___ a Portugal dos veces. (ir, nosotros)", "hemos ido", "«Este año» sigue abierto: pretérito perfecto, hemos ido. En Latinoamérica también se acepta el indefinido: fuimos."), altAnswers: ["fuimos"] },
       fb("Elige el marco.", "En 2020 ___ a Portugal. (ir, nosotros)", "fuimos", "Un año ya terminado (2020): indefinido, fuimos."),
       { ...fb("Elige el marco.", "¿Alguna vez ___ un volcán? (ver, tú)", "has visto", "Experiencia → perfecto; ver → visto. En Latinoamérica también se acepta el indefinido: viste."), altAnswers: ["viste"] },
       { ...fb("Elige el marco.", "Todavía no ___ los resultados. (ver, ellos)", "han visto", "Ver → visto. En Latinoamérica también se usa el indefinido: vieron."), altAnswers: ["vieron"] },
@@ -8441,7 +8441,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         [
           fb("Completa.", "Espero que ___ pronto. (volver, tú)", "vuelvas", "Mismo cambio que en el presente (vuelves → vuelvas); solo nosotros y vosotros conservan la o (volvamos)."),
           mc(
-            "«Es importante que ___ la verdad.» (mentir, nosotros — en negativo: que no…)",
+            "«Es importante que no ___ a nadie.» (mentir, nosotros)",
             ["mintamos", "mentamos", "mientamos", "mentimos"],
             0,
             "Mentir es -ir, así que en nosotros cambia e → i: (que no) mintamos. «Mentamos» olvida el cambio, «mientamos» usa el diptongo que no va en nosotros y «mentimos» es indicativo."
@@ -8558,7 +8558,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Completa la carta.", "Te sugiero que ___ a tu madre los domingos. (llamar)", "llames", "Sugerir que + subjuntivo: llames."),
       fb("Completa la carta.", "No quiero que ___ hasta tan tarde. (trabajar)", "trabajes", "No querer que + otro sujeto → subjuntivo: trabajes."),
       fb("Completa la carta para los nietos.", "Os pido que ___ la casa limpia. (tener)", "tengáis", "Pedir que + subjuntivo, formado desde tengo: tengáis."),
-      fb("Completa la carta para los nietos.", "Os prohíbo que ___ fiestas entre semana. (hacer)", "hagáis", "Prohibir que + subjuntivo, formado desde hago: hagáis."),
+      { ...fb("Completa la carta para los nietos.", "Os prohíbo que ___ fiestas entre semana. (hacer)", "hagáis", "Prohibir que + subjuntivo, formado desde hago: hagáis."), altAnswers: ["organicéis", "deis"] },
       mc(
         "«Mi médico me aconseja ___ más.» (yo camino más)",
         ["caminar", "que camino", "caminando", "que caminó"],
@@ -8626,7 +8626,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Elige.", "Puede que mis primos ___ a la boda. (venir)", "vengan", "Puede que plantea una posibilidad → subjuntivo: vengan (de «vengo»)."),
       fb("Elige.", "Seguro que mis primos ___ a la boda. (venir)", "vienen", "Seguro que afirma con certeza → indicativo: vienen."),
       fb("Elige.", "Es poco probable que ___ este fin de semana. (nevar)", "nieve", "Es poco probable → subjuntivo: nieve (e → ie)."),
-      fb("Elige.", "A lo mejor ___ al cine esta noche. (ir, nosotros)", "vamos", "«A lo mejor» es la excepción: aunque exprese duda, siempre va con indicativo: vamos (no «vayamos»)."),
+      { ...fb("Elige.", "A lo mejor ___ al cine esta noche. (ir, nosotros)", "vamos", "«A lo mejor» es la excepción: aunque exprese duda, siempre va con indicativo: vamos (no «vayamos»)."), altAnswers: ["iremos"] },
       ms(
         "¿Qué expresiones piden subjuntivo?",
         ["puede que", "es probable que", "está claro que", "es cierto que"],
@@ -8671,7 +8671,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         0,
         "Nos sorprende y nosotros llegamos: mismo sujeto → infinitivo, nos sorprende llegar. «Que lleguemos» se usaría con otro sujeto, «que llegamos» usa indicativo y «llegando» es gerundio."
       ),
-      toEs("I'm sorry you have to leave so soon.", "Siento que tengas que irte tan pronto.", "«Siento que» → subjuntivo; tener que → tengas que, e irse → irte.", ["Lamento que tengas que irte tan pronto."]),
+      toEs("I'm sorry you (tú) have to leave so soon.", "Siento que tengas que irte tan pronto.", "«Siento que» → subjuntivo; tener que → tengas que, e irse → irte.", ["Lamento que tengas que irte tan pronto."]),
     ]
   ),
   L(
@@ -8728,7 +8728,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "Propuestas",
         [
           "Recuerda la regla: para proponer un plan, nosotros usa el subjuntivo: hablemos, comamos fuera. Los pronombres se pegan detrás en el afirmativo y van delante en el negativo (pongámoslo / no lo pongamos).",
-          "Por qué se pierde la -s: decir «sentemosnos» o «digamosselo» junta dos sonidos iguales, así que el español elimina una -s: sentémonos, digámoselo. La tilde aparece para mantener el acento donde estaba (sen-TE-mos → sen-TÉ-mo-nos). Ir: vamos (afirmativo), no vayamos (negativo).",
+          "Por qué se pierde la -s: decir «sentemosnos» o «digamosselo» suena pesado (-s final + nos / se), así que el español elimina la -s final del verbo: sentémonos, digámoselo. La tilde aparece para mantener el acento donde estaba (sen-TE-mos → sen-TÉ-mo-nos). Ir: vamos (afirmativo), no vayamos (negativo).",
         ],
         [
           ["Sentémonos aquí.", "Let's sit down here. (sentemos + nos)"],
@@ -8843,7 +8843,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "Recuerda la regla: ya, todavía no y la trampa de «ya no»",
         [
           "Recuerda la regla: ya + pretérito perfecto dice que algo está hecho (ya he pagado); todavía no o aún no + pretérito perfecto dice que sigue pendiente (todavía no he pagado). Los dos van delante de haber, y el pronombre también: ya lo he pagado, todavía no lo he pagado.",
-          "Cuidado con «ya no»: no significa «not yet», sino «no longer» (ya no trabajo aquí). Para una tarea pendiente, siempre todavía no.",
+          "Cuidado con «ya no»: no significa «not yet», sino «no longer» (ya no trabajo aquí). Para una tarea pendiente, se dice todavía no (o aún no).",
         ],
         [
           ["Ya he terminado el informe.", "I've already finished the report."],
@@ -8853,7 +8853,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         [
           fb("Responde.", "—¿Ya has pagado el alquiler? —Sí, ya lo ___.", "he pagado", "Sí → ya + pretérito perfecto; el alquiler → lo, delante de he."),
           mc(
-            "Todavía no has encontrado piso. ¿Cómo lo dices?",
+            "«I still haven't found an apartment.» ¿Cómo lo dices?",
             ["Todavía no he encontrado piso.", "Ya no he encontrado piso.", "Ya he encontrado piso.", "Todavía no encontré piso mañana."],
             0,
             "Algo pendiente hasta ahora = todavía no + perfecto. «Ya no» significa «no longer», «ya he encontrado» dice lo contrario y «mañana» es futuro."
@@ -8976,7 +8976,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Completa.", "Anteayer ___ muy tarde. (acostarse, yo)", "me acosté", "«Anteayer» es un tiempo cerrado: indefinido, me acosté. «Me he acostado» no encaja con un marcador terminado."),
       fb("Completa.", "Estaba agotada porque la noche anterior no ___. (dormir)", "había dormido", "No dormir pasó antes de estar agotada (otro pasado): pluscuamperfecto, había dormido."),
       toEs("I lost the keys I had bought the day before.", "Perdí las llaves que había comprado el día anterior.", "Perder va en indefinido; comprar las llaves pasó antes: pluscuamperfecto, había comprado.", ["Perdí las llaves que había comprado el día antes."]),
-      fb("Completa.", "Hoy ___ tres cafés. (tomar, yo)", "he tomado", "«Hoy» une la acción al presente: pretérito perfecto. «Tomé» es la opción habitual en Latinoamérica, no en España."),
+      { ...fb("Completa.", "Hoy ___ tres cafés. (tomar, yo)", "he tomado", "«Hoy» une la acción al presente: pretérito perfecto. «Tomé» es la opción habitual en Latinoamérica, no en España."), altAnswers: ["he bebido", "tomé", "bebí"] },
       toEs("Ayer hemos cenado en un restaurante mexicano.", "Ayer cenamos en un restaurante mexicano.", "«Ayer» es un tiempo terminado: indefinido (cenamos). El perfecto («hemos cenado») choca con ese marcador.", [], "Corrige la frase."),
       toEs("Have you ever eaten paella? (tú)", "¿Alguna vez has comido paella?", "Experiencia de toda la vida con «alguna vez»: pretérito perfecto, no indefinido con fecha.", ["¿Has comido paella alguna vez?", "¿Has comido alguna vez paella?", "¿Alguna vez comiste paella?", "¿Comiste paella alguna vez?"]),
       toEs("En 2019 mi hermana se ha mudado a Chile.", "En 2019 mi hermana se mudó a Chile.", "Una fecha del pasado (en 2019) cierra el periodo: indefinido, se mudó.", ["Mi hermana se mudó a Chile en 2019."], "Corrige la frase."),
@@ -9058,7 +9058,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       sec(
         "En la mesa",
         [
-          "Recuerda la regla: en el mandato afirmativo los pronombres se pegan al final, persona + cosa (pása + me + la), y la palabra lleva tilde porque crece. En el negativo se despegan y van delante: no me la pases. Le/les → se delante de lo/la.",
+          "Recuerda la regla: en el mandato afirmativo los pronombres se pegan al final, persona + cosa (pasa + me + la), y la palabra lleva tilde porque crece. En el negativo se despegan y van delante: no me la pases. Le/les → se delante de lo/la.",
           "En la mesa se pide con tú a la familia (pásamela) y con usted al camarero (tráiganosla): cambia el verbo, pero los pronombres siguen las mismas reglas.",
         ],
         [
@@ -9135,7 +9135,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       sec(
         "Recuerda la regla: -d, -os y no + subjuntivo",
         [
-          "Recuerda la regla: el afirmativo de vosotros sale del infinitivo cambiando la -r por -d, y no tiene irregulares (hacer → haced, venir → venid). Con el pronombre «os», la -d desaparece (sentad + os → sentaos), porque «sentados» suena a participio y la lengua la ha eliminado. El negativo es no + os + subjuntivo: no os alejéis.",
+          "Recuerda la regla: el afirmativo de vosotros sale del infinitivo cambiando la -r por -d, y no tiene irregulares (hacer → haced, venir → venid). Con el pronombre «os», la -d desaparece (sentad + os → sentaos), por una simplificación fonética que la norma ha fijado (así, además, no se confunde con el participio «sentados»). El negativo es no + os + subjuntivo: no os alejéis.",
           "Solo «idos» (irse) conserva la -d. Con otros pronombres (lo, la, me) la -d se queda: ponedlos, esperadme.",
         ],
         [
@@ -9409,7 +9409,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       sec(
         "Tus deseos",
         [
-          "Recuerda la regla: ojalá siempre va seguido de presente de subjuntivo (Ojalá encuentre un piso, ojalá mi hermana se case). La razón: un deseo habla de algo que no sabes si va a pasar, y el subjuntivo es el modo de lo no comprobado. Por eso «ojalá encuentro» o «ojalá encontraré» suenan mal: el indicativo presenta el deseo como un hecho.",
+          "Recuerda la regla: ojalá va seguido de subjuntivo (aquí, presente) (Ojalá encuentre un piso, ojalá mi hermana se case). La razón: un deseo habla de algo que no sabes si va a pasar, y el subjuntivo es el modo de lo no comprobado. Por eso «ojalá encuentro» o «ojalá encontraré» suenan mal: el indicativo presenta el deseo como un hecho.",
           "El «que» después de ojalá es opcional: Ojalá (que) podamos viajar juntos.",
           "Ahora habla de ti: piensa en tres cosas que deseas de verdad para este año.",
         ],
@@ -9441,7 +9441,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       sec(
         "El mensaje",
         [
-          "Recuerda la regla: ojalá, espero que y es importante (mejor, necesario) que llevan subjuntivo, porque expresan un deseo o una valoración sobre algo que todavía no ha pasado. La diferencia: ojalá no necesita sujeto ni que; espero que y es importante que sí llevan que. Si no hay otra persona, infinitivo: Espero verte. Es importante descansar.",
+          "Recuerda la regla: ojalá, espero que y es importante (mejor, necesario) que llevan subjuntivo, porque expresan un deseo o una valoración sobre algo que todavía no ha pasado. La diferencia: ojalá no necesita que (aunque también se dice ojalá que); espero que y es importante que sí llevan que. Si no hay otra persona, infinitivo: Espero verte. Es importante descansar.",
           "«¡Hola, Clara! Ojalá te vaya genial en Berlín. Espero que encuentres un piso pronto. Es importante que abras una cuenta en el banco la primera semana. ¡Y ojalá nos veamos en Navidad!»",
         ],
         [
@@ -9891,7 +9891,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       sec(
         "Formas que se parecen",
         [
-          "Recuerda la regla: el subjuntivo cambia la vocal. Los verbos -ar toman e (habla → hable) y los -er/-ir toman a (come → coma, vive → viva). Los irregulares salen de la forma yo del presente: hago → haga, tengo → tenga.",
+          "Recuerda la regla: el subjuntivo cambia la vocal. Los verbos -ar toman e (habla → hable) y los -er/-ir toman a (come → coma, vive → viva). La mayoría de los irregulares salen de la forma yo del presente (hago → haga, tengo → tenga); unos pocos (ser, ir, estar, dar, saber, haber) tienen forma propia.",
           "Por qué importa: habla y come sirven a la vez de indicativo (él habla) y de imperativo de tú (¡habla!); solo el cambio de vocal marca el subjuntivo, que aparece tras «quiero que», «es importante que» u «ojalá».",
         ],
         [
@@ -10106,14 +10106,14 @@ export const B1_DRILLS: AnchoredLesson[] = [
     "aviso-de-desalojo",
     "b1d-rep-imperativo-corrige",
     "Corrige el párrafo: mandatos mal formados",
-    "Repaso espaciado: los errores de siempre en el imperativo.",
+    "Repaso espaciado: corregir mandatos de tú mal formados (no comas, dile, haz los deberes, ponte) y no usar el infinitivo como orden.",
     "7 min",
     [
       sec(
         "Recuerda la regla: afirmativo y negativo son dos formas distintas",
         [
           "Recuerda la regla del imperativo de tú. Afirmativo: la forma de él en presente (come, saca, cierra) o una de las ocho irregulares (di, haz, ve, pon, sal, sé, ten, ven), con los pronombres pegados detrás (dímelo, ponte). Negativo: no + presente de subjuntivo (no comas, no vayas), con los pronombres delante (no me lo digas, no te pongas).",
-          "¿Por qué dos formas? El negativo de tú se forma desde el subjuntivo, como todos los mandatos de usted y ustedes; solo el afirmativo de tú tiene forma propia. Para una orden directa a una persona no se usa el infinitivo (eso es para carteles: no fumar).",
+          "¿Por qué dos formas? El negativo de tú se forma desde el subjuntivo, como todos los mandatos de usted y ustedes; solo el afirmativo de tú tiene forma propia. Para una orden directa a una persona se prefiere el imperativo; el infinitivo se oye en el habla, pero suena brusco y es más propio de carteles (no fumar).",
           "Lee la nota de la nevera: «Hijo: no come todo el queso, saca la basura y no te olvides del perro. Decir a tu hermana que me llame. Y hazlo los deberes antes de las seis.» Hay tres errores.",
         ],
         [
@@ -10717,7 +10717,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "Suponer",
         [
           "Recuerda la regla: para hacer una suposición, el español «retrocede» un tiempo. Sobre el presente, futuro: ¿dónde está Ana? —Estará en casa (probablemente está). Sobre el pasado, condicional: ¿por qué no vino? —Estaría cansada (probablemente estaba).",
-          "Así no hace falta «probablemente»: el tiempo verbal ya lo dice. Los irregulares son los mismos del futuro: tendría, habría, sería, haría, querría.",
+          "Así no hace falta «probablemente»: el tiempo verbal ya lo dice. Los irregulares son los mismos del futuro: tendría, habría, haría, querría, podría.",
         ],
         [
           ["Serían las diez cuando llegó.", "It must have been around ten when he arrived. (serían = probablemente eran)"],
@@ -10805,7 +10805,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
           ["Hasta ese día, nunca había visto el mar.", "Until that day, I had never seen the sea. (visto: irregular)"],
           ["Cuando llegamos, la película ya había empezado.", "When we arrived, the film had already started. (ya + pluscuamperfecto)"],
           ["Mis abuelos nunca habían salido del pueblo.", "My grandparents had never left the village. (habían: ellos)"],
-          ["¿Nunca te habías puesto un traje?", "You'd never worn a suit? (te delante de habías; puesto)"],
+          ["¿Nunca te habías puesto un traje?", "Had you never worn a suit? (te delante de habías; puesto)"],
         ],
         [
           wo("Nunca había probado un plato tan picante.", "Nunca + había + participio: «probado» va justo detrás de «había», sin nada en medio.", "I had never tried such a spicy dish."),
@@ -10931,7 +10931,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         ],
         [
           { type: "dictation", audio: "No te la puedo prestar hoy.", explanation: "Te + la delante del verbo conjugado (puedo), en dos palabras separadas." },
-          toEs("Te voy a contar la historia.", "Voy a contártela.", "La historia → la; pegados al infinitivo forman una palabra con tilde: «contártela». También: te la voy a contar.", ["Te la voy a contar."], "Sustituye «la historia» por un pronombre y pégalo al infinitivo."),
+          toEs("Te voy a contar la historia.", "Voy a contártela.", "La historia → la; pegados al infinitivo forman una palabra con tilde: «contártela».", [], "Sustituye «la historia» por un pronombre y pégalo al infinitivo."),
         ]
       ),
     ],
@@ -10967,17 +10967,17 @@ export const B1_DRILLS: AnchoredLesson[] = [
           ["Preguntémoselo al conductor.", "Let's ask the driver. (nosotros: pierde la -s delante de se)"],
         ],
         [
-          fb("Estación 1.", "(tú, enviar a mí la foto) ___.", "Envíamela", "Afirmativo de tú: envía + me + la, todo junto y con tilde para conservar el acento: «envíamela»."),
+          fb("Escribe el mandato.", "(tú, enviar a mí la foto) ___.", "Envíamela", "Afirmativo de tú: envía + me + la, todo junto y con tilde para conservar el acento: «envíamela»."),
           toEs("Cuéntaselo.", "No se lo cuentes.", "En negativo, «se lo» sale delante del verbo y el verbo pasa al subjuntivo: «no se lo cuentes».", [], "Cambia al negativo."),
         ]
       ),
     ],
     [
-      fb("Estación 1.", "(usted, explicar a mí la idea) ___.", "Explíquemela", "Afirmativo de usted: explique + me + la, pegados y con tilde."),
-      fb("Estación 2.", "(vosotros, explicar a mí la idea) ___.", "Explicádmela", "Afirmativo de vosotros: explicad + me + la, pegados y con tilde en la a."),
-      fb("Estación 2.", "(tú, no explicar a él la idea) No ___.", "se la expliques", "Negativo: los pronombres delante y el verbo en subjuntivo; le + la → «se la»."),
-      fb("Estación 3.", "(nosotros, dar a ellos el regalo) ___.", "Démoselo", "Demos + se + lo: se pierde una -s delante de «se» y se añade tilde."),
-      fb("Estación 3.", "(usted, no dar a ellos el regalo) No ___.", "se lo dé", "Negativo de usted: «se lo» delante del subjuntivo «dé» (con tilde para distinguirlo de la preposición «de»)."),
+      fb("Escribe el mandato.", "(usted, explicar a mí la idea) ___.", "Explíquemela", "Afirmativo de usted: explique + me + la, pegados y con tilde."),
+      fb("Escribe el mandato.", "(vosotros, explicar a mí la idea) ___.", "Explicádmela", "Afirmativo de vosotros: explicad + me + la, pegados y con tilde en la a."),
+      fb("Escribe el mandato negativo.", "(tú, no explicar a él la idea) No ___.", "se la expliques", "Negativo: los pronombres delante y el verbo en subjuntivo; le + la → «se la»."),
+      fb("Escribe el mandato.", "(nosotros, dar a ellos el regalo) ___.", "Démoselo", "Demos + se + lo: se pierde una -s delante de «se» y se añade tilde."),
+      fb("Escribe el mandato negativo.", "(usted, no dar a ellos el regalo) No ___.", "se lo dé", "Negativo de usted: «se lo» delante del subjuntivo «dé» (con tilde para distinguirlo de la preposición «de»)."),
       mc(
         "(vosotros; don't tell me that) «No ___.»",
         ["me lo digáis", "decídmelo", "me lo decid", "lo me digáis"],
@@ -11126,7 +11126,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Rápido.", "(tú, no tocar) No ___ eso.", "toques", "Negativo; c → qu."),
+      fb("Rápido.", "(tú, no tocar) No ___ eso.", "toques", "El negativo de tú usa el subjuntivo, y tocar cambia c → qu delante de e: no toques."),
       fb("Rápido.", "Yo que tú, ___ antes. (salir)", "saldría", "Condicional."),
       fb("Rápido.", "Si ___ frío, cierra la ventana. (tener, tú)", "tienes", "Si + presente."),
       fb("Rápido.", "¿___ alguna vez en Perú? (estar, tú)", "Has estado", "Experiencia."),
@@ -11363,7 +11363,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       toEs("I would never live in a big city.", "Nunca viviría en una ciudad grande.", "«Would» para algo imaginado → condicional: viviría.", ["No viviría nunca en una ciudad grande.", "Nunca viviría en una gran ciudad."]),
       toEs("Nosotros vivimos en el centro.", "Nosotros viviríamos en el centro.", "Para una situación imaginaria, el presente pasa a condicional: vivir + -íamos, «viviríamos».", ["Viviríamos en el centro."], "Cambia la frase al condicional (una situación imaginaria)."),
       toEs("Mi hermana hace la cena.", "Mi hermana haría la cena.", "«Hacer» es irregular en el condicional: har- + -ía, «haría».", [], "Cambia la frase al condicional."),
-      toEs("Con un millón, compraré una casa en la playa.", "Con un millón, compraría una casa en la playa.", "«Con un millón» es una situación imaginaria: condicional, «compraría». «Compraré» sería un plan real.", [], "Corrige la frase."),
+      toEs("Con un millón, compraré una casa en la playa.", "Con un millón, compraría una casa en la playa.", "«Con un millón» es una situación imaginaria: condicional, «compraría». «Compraré» sería un plan real.", [], "Corrige la frase para hablar de un sueño."),
       toEs("Con más tiempo, hacería más deporte.", "Con más tiempo, haría más deporte.", "«Hacer» tiene raíz irregular en el condicional: har- + -ía, «haría». No se forma a partir del infinitivo.", [], "Corrige la frase."),
       toEs("Yo en tu lugar no decería nada.", "Yo en tu lugar no diría nada.", "«Decir» usa la raíz dir-: «diría». No se forma a partir del infinitivo.", ["Yo, en tu lugar, no diría nada."], "Corrige la frase."),
       { type: "speak", prompt: "Di en voz alta: «With more time, I'd learn to play the guitar and I'd go out more.»", text: "Con más tiempo, aprendería a tocar la guitarra y saldría más.", explanation: "Situación imaginaria: aprendería (regular) y saldría (raíz irregular saldr-)." },
@@ -11475,10 +11475,10 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Rápido.", "Hace un mes ___ al dentista. (ir, yo)", "fui", "Hace + tiempo → indefinido."),
-      fb("Rápido.", "Ya ___ cuando llamaste. (cenar, yo)", "había cenado", "Anterior."),
+      fb("Rápido.", "Ya ___ cuando llamaste. (cenar, yo)", "había cenado", "Cenar ocurrió antes de que llamaras: había + participio."),
       fb("Rápido.", "Este año ___ mucho. (crecer, los niños)", "han crecido", "Este año → perfecto."),
       fb("Rápido.", "En 1998 ___ mi hermano. (nacer)", "nació", "Fecha → indefinido."),
-      fb("Rápido.", "Antes de ese día nunca ___ miedo. (tener, yo)", "había tenido", "Anterior."),
+      fb("Rápido.", "Antes de ese día nunca ___ miedo. (tener, yo)", "había tenido", "Es una experiencia anterior a «ese día»: había + participio."),
       fb("Rápido.", "¿Todavía no ___ la cena? (preparar, vosotros)", "habéis preparado", "Todavía no → perfecto."),
       fb("Rápido.", "El lunes pasado ___ el curso. (empezar)", "empezó", "El lunes pasado → indefinido."),
       mc(
@@ -11517,7 +11517,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Completa.", "___ me contaste ayer no se lo he dicho a nadie.", "Lo que", "Sin sustantivo antes, «lo que» = what."),
       { ...fb("Completa.", "El profesor con ___ hice el examen me lo corrigió enseguida.", "el que", "Se hace algo con alguien: con + el que, concordando con «el profesor»."), altAnswers: ["quien", "el cual"] },
       fb("Completa.", "La noticia que te di, no ___ cuentes a tus padres.", "se la", "A tus padres → les → se; la noticia → la: «no se la cuentes»."),
-      fb("Completa.", "Los vídeos que grabaste, ¿___ pasas?", "me los", "Me + los (los vídeos): ¿me los pasas? La persona va primero."),
+      fb("Completa.", "Los vídeos que grabaste, ¿___ pasas, por favor? (a mí)", "me los", "Me + los (los vídeos): ¿me los pasas? La persona va primero."),
       mc(
         "«El amigo ___ te hablé viene mañana.»",
         ["del que", "que", "lo que", "el que"],
@@ -11661,7 +11661,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         minWords: 40,
         maxWords: 70,
         rubric: ["Una noticia en pretérito perfecto (este mes / esta semana)", "querer que + subjuntivo", "yo que tú + condicional", "si + presente con un plan"],
-        modelAnswer: "¡Hola, Lucía! ¡Enhorabuena por el trabajo! Yo esta semana he terminado los exámenes. Mis padres quieren que pase el verano con ellos, pero quiero verte. Yo que tú, aprendería alemán con una aplicación: es más fácil. Si tengo vacaciones en junio, iré a verte y me enseñas la ciudad. ¡Un abrazo!",
+        modelAnswer: "¡Hola, Lucía! ¡Enhorabuena por el trabajo! Yo esta semana he terminado los exámenes. Mis padres quieren que pase el verano con ellos, pero quiero verte. Yo que tú, aprendería alemán con una aplicación: es más fácil. Si tengo vacaciones en junio, iré a verte y me enseñarás la ciudad. ¡Un abrazo!",
         explanation: "Comprueba las cinco decisiones: perfecto para este periodo, que + subjuntivo con otro sujeto, condicional tras yo que tú, presente tras si.",
       },
     ]

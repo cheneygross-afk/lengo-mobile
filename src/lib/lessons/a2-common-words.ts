@@ -90,7 +90,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       sec(
         "Possible, necessary, strange, capable",
         [
-          "One frame works for any judgement: es + adjective + infinitive, with nothing in between (no de, no que): es posible cambiar, es necesario reservar, es imposible saber. Learn the frame once and it works with every adjective you know: es fácil, es importante, es difícil.",
+          "One frame works for any judgement: es + adjective + infinitive, with nothing in between for a general statement (no de, no que): es posible cambiar, es necesario reservar, es imposible saber. Learn the frame once and it works with every adjective you know: es fácil, es importante, es difícil.",
           "Ser capaz de + infinitive means \"to be able to, to be capable of\" (here de IS needed). It often appears in the negative: no soy capaz de... = I can't manage to... ¡Qué raro! means \"How strange!\".",
         ],
         [
@@ -110,7 +110,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       mt("Match each word to its meaning.", [["quizás","maybe"],["supongo","I suppose"],["raro","strange"],["capaz","capable"],["verdadero","true, real"]], "Five high-frequency words for guessing and judging."),
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "¿Estás de ___ con Luis?", answer: "acuerdo", en: "Do you [agree] with Luis?", explanation: "estar de acuerdo con = to agree with: always estar + de acuerdo, never ser." },
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Se ___ que la reunión empieza a las tres.", answer: "supone", en: "The meeting is [supposed] to start at three.", explanation: "se supone que = it's supposed to, followed by a full sentence. Supone is the él form of suponer, used impersonally with se." },
-      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "¿Qué ___ parecen mis zapatos nuevos?", answer: "te", en: "What do you think of my new shoes? (What do they seem [to you]?)", explanation: "Parecer works like gustar: the person goes before the verb as te (to you), and the verb agrees with zapatos (parecen)." },
+      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "¿Qué ___ parecen mis zapatos nuevos?", answer: "te", en: "What do you (tú) think of my new shoes? (What do they seem [to you]?)", explanation: "Parecer works like gustar: the person goes before the verb as te (to you), and the verb agrees with zapatos (parecen)." },
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "No es ___ llevar paraguas; hace sol.", answer: "necesario", en: "It isn't [necessary] to bring an umbrella; it's sunny.", explanation: "no es necesario + infinitive: the infinitive follows the adjective directly." },
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Ana es, ___, la mejor jugadora del equipo.", answer: "sin duda", en: "Ana is, [without a doubt], the best player on the team.", explanation: "Sin duda = without a doubt, completely sure; quizás would make it only a guess." },
       mc("\"Actually, I don't like it.\" → ___, no me gusta.", ["En realidad","Actualmente","Sin duda","De acuerdo"], 0, "En realidad = actually. Actualmente is a false friend: it means \"currently\"."),
@@ -559,7 +559,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         [
           "Loco / loca means crazy. Between friends it's often friendly: ¡Estás loca! can just mean \"You're nuts!\". Estar loco por means to be crazy about something. The noun is la locura (madness), and ¡Qué locura! is \"That's crazy!\".",
           "Tonto (silly, dumb) and estúpido (stupid) are useful to understand, but be careful: said to a person, tonto can be rude and estúpido is an insult. Loco can be rude too, depending on the tone. For people you like, agradable (pleasant, nice) is always safe.",
-          "Two patterns help with new words. Adjectives in -o change for a woman or a feminine noun (loco → loca, tonto → tonta), but adjectives in -e or a consonant keep one form (agradable, feliz). And many adjectives make a feminine noun with -ura: loco → la locura, like dulce → la dulzura (sweetness) or tierno → la ternura (tenderness).",
+          "Two patterns help with new words. Adjectives in -o change for a woman or a feminine noun (loco → loca, tonto → tonta), but adjectives in -e, and many ending in a consonant, keep one form (agradable, feliz; but -or and nationality endings add -a: trabajadora, española). And many adjectives make a feminine noun with -ura: loco → la locura, like dulce → la dulzura (sweetness) or tierno → la ternura (tenderness).",
         ],
         [
           ["Mi hermano está loco por el fútbol.", "My brother is crazy about soccer."],
@@ -981,7 +981,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       sec(
         "The body: sangre, cerebro, fuerza, energía",
         [
-          "The pattern: many of these words are cognates you can unlock with an ending rule. Spanish -ía often matches English -y (la energía = energy, la biología = biology), and -ena / -ene often match -ene (la escena = scene). The ending also tells you the gender: -ía nouns are feminine.",
+          "The pattern: many of these words are cognates you can unlock with an ending rule. Spanish -ía often matches English -y (la energía = energy, la biología = biology), and -ena often matches English -ene (la escena = scene). The ending also helps with gender: -ía nouns are almost always feminine (a common exception is el día).",
           "La sangre is blood: donar sangre (to give blood). El cerebro is the brain.",
           "La fuerza is strength or force: tener fuerza, con fuerza (hard, strongly). La energía is energy, for people and for machines: tener mucha energía, la energía solar.",
         ],
@@ -1022,7 +1022,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       sec(
         "Everyday things: basura, oro, caballo, Navidad",
         [
-          "La basura is trash: sacar la basura (to take out the trash). It is also used for something very bad: Esta película es basura. El oro is gold: de oro (made of gold), la medalla de oro. Materials always follow the noun with de, the opposite of English: un anillo de oro (a gold ring), una mesa de madera (a wooden table).",
+          "La basura is trash: sacar la basura (to take out the trash). It is also used for something very bad: Esta película es basura. El oro is gold: de oro (made of gold), la medalla de oro. Materials normally follow the noun with de, the opposite of English: un anillo de oro (a gold ring), una mesa de madera (a wooden table).",
           "El caballo is a horse: montar a caballo (to ride a horse). La Navidad is Christmas, written with a capital N: ¡Feliz Navidad!, en Navidad (at Christmas).",
         ],
         [
@@ -1086,7 +1086,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       ),
       { ...fb("How do you say the bold words in Spanish?", "En la última ___ de la película, los dos amigos se despiden.", "escena", "La escena means the scene."), en: "In the last [scene] of the film, the two friends say goodbye." },
       wo("El cerebro necesita agua y descanso.", "El cerebro = the brain.", "The brain needs water and rest."),
-      { ...fb("How do you say the bold words in Spanish?", "¿Qué haces en ___? Normalmente cenamos con mis abuelos.", "Navidad", "Navidad is Christmas: en Navidad = at Christmas."), en: "What do you do at [Christmas]? We usually have dinner with my grandparents." },
+      { ...fb("How do you say the bold words in Spanish?", "¿Qué haces en ___? Normalmente cenamos con mis abuelos.", "Navidad", "Navidad is Christmas: en Navidad = at Christmas."), altAnswers: ["Navidades"], en: "What do you do at [Christmas]? We usually have dinner with my grandparents." },
       toEn("En la película, nadie sabe quién mató al rey.", "In the movie, nobody knows who killed the king.", "Mató = killed (preterite of matar).", ["In the film, nobody knows who killed the king.", "In the movie, no one knows who killed the king."]),
       toEs("They gave blood at the hospital.", "Donaron sangre en el hospital.", "Donar sangre = to give blood.", ["Ellos donaron sangre en el hospital.", "Dieron sangre en el hospital."]),
       toEs("I pushed the door with all my strength.", "Empujé la puerta con toda mi fuerza.", "Con toda mi fuerza = with all my strength.", ["Empujé la puerta con todas mis fuerzas."]),

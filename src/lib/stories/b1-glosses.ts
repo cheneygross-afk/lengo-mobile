@@ -386,7 +386,7 @@ export const B1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "admitir", en: "to admit", forms: ["admitió"] },
     { es: "agradecer", en: "to thank", forms: ["agradeció"] },
     { es: "ambos", en: "both", forms: ["ambos"] },
-    { es: "apenas", en: "barely", forms: ["apenas"] },
+    { es: "casi", en: "almost; hardly any", forms: ["casi"] },
     { es: "arruinarse", en: "to be ruined", forms: ["arruinarse"] },
     { es: "avanzado", en: "advanced", forms: ["avanzada"] },
     { es: "el bisnieto", en: "great-grandchild", forms: ["bisnietos"] },

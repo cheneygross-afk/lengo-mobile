@@ -158,7 +158,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Swap the time word, swap the stem",
         [
           "Remember the rule: moving an irregular verb into the preterite is a two-step job. Swap in its preterite stem, then add the shared endings -e, -iste, -o, -imos, -isteis, -ieron, with no accents.",
-          "The stems: u-stems (tener → tuv-, estar → estuv-, poder → pud-, poner → pus-), i-stems (hacer → hic-, querer → quis-, venir → vin-), j-stems (decir → dij-, traer → traj-), and fui... for both ser and ir. Weather with hacer moves too: hace sol → hizo sol.",
+          "The stems: u-stems (tener → tuv-, estar → estuv-, poder → pud-, poner → pus-), i-stems (hacer → hic-, querer → quis-, venir → vin-), j-stems (decir → dij-, traer → traj-), and fui... for both ser and ir. Weather with hacer moves too when you report a whole day as finished: hace sol → hizo sol. (To set the scene in a story you will use hacía, in Unit 3.)",
         ],
         [
           ["Hoy tengo clase. → Ayer tuve clase.","Today I have class. → Yesterday I had class. (tuv- + -e)"],
@@ -256,7 +256,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       toEs("Yo fui al supermercado.", "Mis hermanos fueron al supermercado.", "Ellos: fueron. Al supermercado is a destination, so it's ir.", ["Fueron al supermercado."], "Change the subject to mis hermanos."),
       toEs("El concierto es increíble.", "El concierto fue increíble.", "Evaluation of a finished event: ser, fue.", undefined, "Change it to the past."),
       toEs("Ayer yo fue al supermercado con mi hermana.", "Ayer yo fui al supermercado con mi hermana.", "Yo takes fui; fue is for él/ella/usted.", ["Ayer fui al supermercado con mi hermana."], "Correct the sentence."),
-      toEs("La película estuvo a las ocho y fue aburrida.", "La película fue a las ocho y fue aburrida.", "When an event takes place uses ser, not estar: la película fue a las ocho. Fue aburrida is ser too.", ["La película fue a las ocho y estuvo aburrida."], "Correct the sentence."),
+      toEs("La película estuvo a las ocho y fue aburrida.", "La película fue a las ocho y fue aburrida.", "An event taking place at a certain time uses ser, not estar: la película fue a las ocho. Fue aburrida is ser too.", ["La película fue a las ocho y estuvo aburrida."], "Correct the sentence."),
       toEs("¿Quién fué a la tienda?", "¿Quién fue a la tienda?", "Fue is one syllable and never takes a written accent. (Quién keeps its accent: it's a question word.)", undefined, "Correct the sentence."),
       toEn("La película fue aburrida, así que fuimos a un bar.", "The movie was boring, so we went to a bar.", "First fue = ser (a description); fuimos + a = ir.", ["The film was boring, so we went to a bar."]),
       toEn("¿Quién fue el primer presidente?", "Who was the first president?", "Fue here is ser (identity: who someone was), not ir."),
@@ -554,7 +554,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
           ["Quería viajar, pero no tenía dinero.","I wanted to travel, but I didn't have money. (just the wish)"],
         ],
         [
-          { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Ella no ___ comer.", answer: "quiso", en: "She [refused] to eat.", explanation: "no querer in the preterite = refused. In the preterite, no querer means refused: no quiso comer." },
+          { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Ella no ___ comer.", answer: "quiso", en: "She [refused] to eat.", explanation: "Querer in the negative preterite means refused (an act): no quiso comer. No quería would only say she did not feel like it." },
           mc("«Podía ver el mar desde mi ventana» means…", ["I could see the sea from my window (that was the situation).","I managed to see the sea once.","I tried to see the sea.","I found out where the sea was."], 0, "Podía (imperfect) only describes the ability as a situation. Managed to would be pude, tried quise, and found out supe."),
         ]
       ),
@@ -785,7 +785,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "The pronoun tells you who receives; the verb ending tells you who gives."
       ),
-      toEs("Escribí una carta a mi abuela.", "Le escribí una carta a mi abuela.", "Spanish keeps le even when the receiver is named: le escribí ... a mi abuela.", ["Le escribí una carta a mi abuelita."], "Correct the sentence."),
+      toEs("Escribí una carta a mi abuela.", "Le escribí una carta a mi abuela.", "Spanish keeps le even when the receiver is named: le escribí ... a mi abuela.", ["Le escribí una carta a mi abuelita."], "Add the missing pronoun."),
       mc(
         "A friend asks: «¿Qué te regalaron tus padres?» Which answer fits?",
         ["Me regalaron un reloj.", "Te regalaron un reloj.", "Les regalé un reloj.", "Me regalé un reloj."],
@@ -1082,7 +1082,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
             "Fix \"Ana es tan alta que su hermana.\"",
             ["Ana es tan alta como su hermana.", "Ana es tanta alta como su hermana.", "Ana es más alta como su hermana.", "No fix needed."],
             0,
-            "Equality is tan + adjective + como, so replace que with como. \"Tanta\" wrongly agrees an adverb, \"más... como\" mixes patterns, and the original does need fixing."
+            "Equality is tan + adjective + como, so replace que with como. \"Tanta\" wrongly makes tan agree with the adjective, \"más... como\" mixes patterns, and the original does need fixing."
           ),
         ]
       ),
@@ -1239,10 +1239,10 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       mt(
         "Match each time expression to its most likely tense.",
         [
-          ["todos los días de mi infancia", "imperfecto"],
-          ["anoche", "pretérito"],
-          ["ahora mismo", "presente"],
-          ["dentro de dos años", "futuro"],
+          ["todos los días de mi infancia", "imperfect"],
+          ["anoche", "preterite"],
+          ["ahora mismo", "present"],
+          ["dentro de dos años", "future"],
         ],
         "Habits in the past → imperfect; one-off past → preterite; now → present; later → future."
       ),
@@ -1341,9 +1341,9 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         [
           mc(
             "Fix \"Trabajo para ocho horas cada día.\"",
-            ["Trabajo por ocho horas cada día.", "Trabajo para ochos horas cada día.", "Trabajo en ocho horas cada día.", "No fix needed."],
+            ["Trabajo ocho horas cada día.", "Trabajo para ochos horas cada día.", "Trabajo en ocho horas cada día.", "No fix needed."],
             0,
-            "Duration takes por, or no preposition at all: trabajo ocho horas. \"Para ocho horas\" is wrong, \"ochos\" isn't a word, and \"en ocho horas\" means within eight hours."
+            "A habitual length of time takes no preposition: trabajo ocho horas. (Por is used for a stretch of time as an event: estuve allí por una semana.) \"Para ocho horas\" is wrong, \"ochos\" isn't a word, and \"en ocho horas\" means within eight hours."
           ),
         ]
       ),
@@ -1390,7 +1390,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "A message from a friend",
         [
           "Remember the rules: object pronouns (lo, la, le, les) and reflexive pronouns (me, te, se, nos) go before a conjugated verb, or are attached to an infinitive. Lo / la replace the thing itself, le / les the person who receives it. Para looks ahead (purpose, recipient), por looks back or along (cause, means, part of the day).",
-          "Read the voice message transcript. It packs half of Elementary into five lines.",
+          "Read the voice message transcript. It packs half of Elementary into four lines.",
         ],
         [
           ["¡Hola! Ayer me levanté temprano para ir al mercado.", "Hi! Yesterday I got up early to go to the market."],
@@ -1992,14 +1992,14 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Ya no / todavía",
-        "Ya no = no longer: the old habit has stopped, so the now half is negative (ya no juego). Todavía = still: nothing has changed, so the present carries on the old habit (todavía me gusta). Both describe now, so both take the present, not the imperfect.",
+        "Ya no = no longer: the old habit has stopped, so the now half is negative (ya no juego). Todavía = still: nothing has changed, so the present carries on the old habit (todavía me gusta). In these then-and-now sentences both describe now, so both take the present; in a story set in the past they can take the imperfect (cuando llegué, ya no vivía allí).",
         [
           ["Antes jugaba al fútbol; ya no juego.", "I used to play soccer; I don't anymore."],
           ["Antes me gustaba el café y todavía me gusta.", "I used to like coffee and I still do."],
         ],
         [
           mc(
-            "\"I used to be shy, but I'm not anymore.\"",
+            "How do you say \"I used to be shy, but I'm not anymore.\"?",
             ["Antes era tímido, pero ya no lo soy.", "Antes fui tímido, pero ya no lo soy.", "Antes era tímido, pero todavía lo soy.", "Antes soy tímido, pero ya no era."],
             0,
             "A past state is imperfect (era), and ya no means no longer. \"Fui\" makes it an event, \"todavía lo soy\" says you're still shy, and \"soy... era\" swaps the tenses."
@@ -2132,7 +2132,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Retell the story.", "Todos ___ contentos de tener luz otra vez. (estar)", "estaban", "Emotional state at that moment → imperfect."),
       fb("Retell the story.", "Esa noche nosotros ___ juegos de mesa a la luz de las velas. (jugar)", "jugamos", "A completed activity within the story's sequence → preterite."),
       mc(
-        "\"While we were talking on the balcony, a neighbor brought cookies.\"",
+        "How do you say \"While we were talking on the balcony, a neighbor brought cookies.\"?",
         ["Mientras hablábamos en el balcón, una vecina trajo galletas.", "Mientras hablamos en el balcón, una vecina traía galletas.", "Mientras hablábamos en el balcón, una vecina traía galletas.", "Mientras hablamos en el balcón, una vecina trajo galletas."],
         0,
         "Mientras + imperfect gives the ongoing action (hablábamos), and the preterite gives what happened (trajo). The wrong options use the present hablamos or the imperfect traía for the single event."
@@ -2295,7 +2295,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Match the pronoun to what's being replaced."
       ),
-      toEs("I haven't read it yet, but I'll read it today. (the email)", "Todavía no lo leí, pero lo leeré hoy.", "Lo replaces el correo in both clauses.", ["Todavía no lo he leído, pero lo leeré hoy.", "Aún no lo leí, pero lo leeré hoy.", "Todavía no lo leí, pero lo voy a leer hoy."]),
+      toEs("I haven't read it yet, but I'll read it today. (the email)", "Todavía no lo leí, pero lo voy a leer hoy.", "Lo replaces el correo in both clauses.", ["Todavía no lo he leído, pero lo voy a leer hoy.", "Aún no lo leí, pero lo voy a leer hoy.", "Todavía no lo leí, pero lo leo hoy."]),
       wo("Te agradezco la ayuda y te mando un saludo.", "Te before each conjugated verb.", "I thank you for the help and send you a greeting."),
     ]
   ),
@@ -3029,11 +3029,11 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Complete the sentence.", "No tengo tu número. ¿Me lo ___ por mensaje? (mandar, tú)", "mandas", "¿Me lo mandas? = Can you send it to me?"),
+      fb("Complete the sentence.", "No tengo tu número. ¿Me ___ tu número por mensaje? (mandar, tú)", "mandas", "¿Me mandas tu número? = Can you send me your number?"),
       fb("Complete the sentence.", "Mi contraseña es muy larga y siempre la ___. (olvidar, yo)", "olvido", "Olvidar → olvido; la = la contraseña."),
       mc("Odd one out:", ["la pantalla", "el teclado", "el ratón", "el sello"], 3, "Pantalla, teclado and ratón are computer parts; el sello is a postage stamp."),
       mc(
-        "\"The screen of my phone broke.\"",
+        "How do you say \"The screen of my phone broke.\"?",
         ["Se me rompió la pantalla del móvil.", "Me rompí la pantalla del móvil a mí.", "Rompió la pantalla del móvil me.", "La pantalla me rompió del móvil."],
         0,
         "This is the accidental 'se' pattern (a preview; you'll study it fully at Intermediate): se me rompió = it broke on me, with la pantalla as the subject. The other options put me or a mí in the wrong place or make it sound like you broke it on purpose."
@@ -3073,14 +3073,14 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
             "Pintarse las uñas = to paint one's nails."
           ),
           mc("You're drying your little son's hair. Which sentence says it?", ["Le seco el pelo a mi hijo.", "Me seco el pelo a mi hijo.", "Seco mi pelo a mi hijo.", "Se seco el pelo a mi hijo."], 0, "The action goes to someone else, so no reflexive me: le (to him) + seco, and a mi hijo says who. Me seco el pelo would be drying your own hair."),
-          mc("'She's putting on her coat.'", ["Se pone el abrigo.", "Pone su abrigo.", "Se pone su abrigo.", "Ella pone el abrigo se."], 0, "Ponerse (to put on) is reflexive, and with the reflexive pronoun the garment takes el, not su. The pronoun goes before the conjugated verb."),
+          mc("How do you say 'She's putting on her coat.'?", ["Se pone el abrigo.", "Pone su abrigo.", "Se pone su abrigo.", "Ella pone el abrigo se."], 0, "Ponerse (to put on) is reflexive, and with the reflexive pronoun the garment takes el, not su. The pronoun goes before the conjugated verb."),
         ]
       ),
     ],
     [
       mc("Odd one out:", ["el codo", "la rodilla", "el tobillo", "el cepillo"], 3, "Codo, rodilla and tobillo are body parts; el cepillo is a brush."),
       { ...fb("How do you say the bold words in Spanish?", "Siempre me lavo las ___ antes de comer.", "manos", "Las manos (feminine despite the -o); with a reflexive verb, Spanish uses las, not mis: me lavo las manos."), en: "I always wash my [hands] before eating." },
-      fb("Complete the sentence.", "Después de la ducha, ___ seco el pelo. (yo)", "me", "Secarse with yo takes me: me seco el pelo."),
+      fb("Complete the sentence.", "Después de la ducha, ___ seco el pelo. (yo)", "me", "The English 'my' becomes the reflexive pronoun me (me seco), so the hair takes el, not mi: me seco el pelo."),
       ms(
         "Which are parts of the face?",
         ["la nariz", "la boca", "las cejas", "el hombro"],
@@ -3141,7 +3141,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Complete the sentence.", "La empresa ___ a diez personas nuevas el año pasado. (contratar)", "contrató", "A completed event last year → contrató."),
       fb("Complete the sentence.", "Trabajo a tiempo ___: solo cuatro horas al día.", "parcial", "A tiempo parcial means part-time; full-time is a tiempo completo."),
       mc(
-        "\"I'll ask for a raise.\"",
+        "How do you say \"I'll ask for a raise.\"?",
         ["Pediré un aumento de sueldo.", "Pedí un aumento de sueldo mañana.", "Pediré una subida de jefe.", "Pido un aumento ayer."],
         0,
         "The future pediré + un aumento (de sueldo) = I'll ask for a raise. \"Pedí... mañana\" mixes past and future, \"subida de jefe\" doesn't mean a raise, and \"Pido... ayer\" mixes present and past."
@@ -3187,7 +3187,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Complete the sentence.", "Ayer ___ todo el día y no salimos. (llover)", "llovió", "A bounded period (all day yesterday) → preterite."),
-          mc("'We were walking in the park when it started to snow.'", ["Paseábamos por el parque cuando empezó a nevar.", "Paseamos por el parque cuando empezaba a nevar.", "Paseábamos por el parque cuando empezaba a nevar.", "Paseamos por el parque cuando empezó a nevar."], 0, "The walk is the background in progress (imperfect paseábamos); the snow starting is the event that breaks in (preterite empezó)."),
+          mc("How do you say 'We were walking in the park when it started to snow.'?", ["Paseábamos por el parque cuando empezó a nevar.", "Paseamos por el parque cuando empezaba a nevar.", "Paseábamos por el parque cuando empezaba a nevar.", "Paseamos por el parque cuando empezó a nevar."], 0, "The walk is the background in progress (imperfect paseábamos); the snow starting is the event that breaks in (preterite empezó)."),
         ]
       ),
     ],
@@ -3322,7 +3322,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "¡Cuánto tiempo! means it's been ages (long time no see), and no has cambiado nada means you haven't changed at all. It doesn't ask about time, and nada means not at all, not everything."
       ),
       fb("Complete the reunion.", "La última vez que te ___ fue en 2015. (ver, yo)", "vi", "La última vez is one single occasion, so the preterite: vi (no accent)."),
-      fb("Complete the reunion.", "¡Ahora estás ___ alta que tu madre!", "más", "An unequal comparison is más + adjective + que: más alta que tu madre."),
+      fb("Complete the reunion.", "¡Ahora estás ___ que tu madre!", "más alta", "An unequal comparison is más + adjective + que: más alta que tu madre."),
       mt(
         "Match each line to a reply.",
         [

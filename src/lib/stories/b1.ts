@@ -715,7 +715,7 @@ const B1_FICTION: Story[] = [
       "A family reunites after many years apart, and old tensions between two brothers threaten to resurface before the gathering is over.",
     paragraphs: [
       "Después de doce años sin verse en persona, la familia Rivas se reunió finalmente en la casa de la abuela Consuelo, en un pueblo cerca de Cuenca, Ecuador. La ocasión era el cumpleaños número ochenta de la abuela, y todos sus hijos, nietos y bisnietos viajaron desde diferentes países para celebrar juntos.",
-      "Sofía, de catorce años, apenas recordaba a algunos de sus tíos, ya que su familia se había mudado a Canadá hacía unos doce años. Estaba emocionada pero también nerviosa por conocer mejor a parientes que solo había visto en fotografías y videollamadas ocasionales durante los años anteriores.",
+      "Sofía, de catorce años, no recordaba a casi ninguno de sus tíos, ya que su familia se había mudado a Canadá hacía unos doce años. Estaba emocionada pero también nerviosa por conocer mejor a parientes que solo había visto en fotografías y videollamadas ocasionales durante los años anteriores.",
       "Sin embargo, no todos en la familia estaban tan emocionados por la reunión. Sofía notó una tensión extraña entre su padre, Ernesto, y su tío Gustavo, quienes casi no se hablaban directamente y evitaban quedarse solos en la misma habitación durante los primeros días.",
       "Cuando Sofía le preguntó a su madre sobre la situación, ella le explicó que Ernesto y Gustavo habían tenido una fuerte discusión hacía más de una década, relacionada con dinero y con decisiones sobre el cuidado de su padre, el abuelo de Sofía, quien había fallecido varios años atrás.",
       "\"Espero que esta reunión los ayude a resolver las cosas\", le dijo su madre, \"pero no puedo prometerte que será fácil\". Sofía se sintió preocupada de que la celebración del cumpleaños de su abuela pudiera arruinarse por un conflicto entre su padre y su tío.",
@@ -2196,7 +2196,7 @@ const B1_FICTION: Story[] = [
     level: "B1",
     title: "La cumbre del Teide",
     subtitle:
-      "A group of friends attempts to reach the summit of Mount Teide, and one of them must decide whether to turn back.",
+      "A group of friends attempts to reach the summit of Mount Teide, and when one of them gets altitude sickness, the group must decide whether to turn back.",
     paragraphs: [
       "Cuatro amigos de la universidad decidieron reunirse después de varios años sin verse para subir juntos al Teide, el volcán más alto de España. Habían planeado la ruta durante meses: saldrían de madrugada para ver el amanecer desde la cumbre. Todos estaban emocionados, aunque ninguno tenía mucha experiencia en montañas tan altas.",
       "Empezaron a caminar a las tres de la madrugada, con linternas frontales y mochilas llenas de agua y comida. Los primeros kilómetros fueron fáciles, entre risas y recuerdos de la universidad. Pero a medida que subían, el aire se hacía más frío y más difícil de respirar.",
@@ -2945,7 +2945,7 @@ const B1_FICTION: Story[] = [
       "La residencia era luminosa y tenía un jardín grande. Allí conocieron a Remedios, una señora de noventa años que coordinaba un taller de costura, y a un señor que organizaba un torneo de cartas los jueves. La abuela no dijo nada durante la visita, pero Óscar notó que miraba con interés la mesa de cartas.",
       "Al final, la abuela aceptó mudarse con una condición: quería llevar sus propios muebles, su máquina de coser y las fotos de su marido. Óscar pasó un fin de semana entero ayudándola a elegir qué llevar y a decorar su nueva habitación para que se pareciera lo más posible a su casa.",
       "Los primeros días fueron difíciles. La abuela estaba triste y casi no salía de su habitación. Óscar la visitaba cada tarde después del instituto. Un día, le llevó una baraja de cartas y la acompañó al salón donde jugaban los jueves. En menos de una hora, la abuela había ganado tres partidas y se había hecho famosa.",
-      "Seis meses después, la abuela Pilar es la reina del torneo de cartas y ha empezado a enseñar a coser a otras residentes. Todavía echa de menos su casa, pero dice que por fin duerme tranquila. —No es mi casa —le dijo a Óscar un día—, pero tampoco es una cárcel. Es otra forma de vivir, y a mi edad todavía se pueden aprender cosas nuevas.",
+      "Seis meses después, la abuela Pilar era la reina del torneo de cartas y había empezado a enseñar a coser a otras residentes. Todavía echaba de menos su casa, pero decía que por fin dormía tranquila. —No es mi casa —le dijo a Óscar un día—, pero tampoco es una cárcel. Es otra forma de vivir, y a mi edad todavía se pueden aprender cosas nuevas.",
     ],
     questions: [
       {
@@ -3453,7 +3453,7 @@ const B1_FICTION: Story[] = [
     level: "B1",
     title: "El incendio",
     subtitle:
-      "When a forest fire threatens a small mountain village, its residents refuse to leave without saving what matters most.",
+      "When a forest fire threatens a small mountain village, an old man refuses to leave his home until a neighbor helps him save what matters most.",
     paragraphs: [
       "El verano de aquel año fue el más caluroso que se recordaba en la sierra. No había llovido desde abril, los ríos estaban casi secos y las temperaturas superaban los cuarenta grados cada día. En el pequeño pueblo de Valdemora, de apenas doscientos habitantes, todos temían lo mismo: un incendio.",
       "Una tarde de agosto, una columna de humo negro apareció detrás de la montaña. En pocas horas, el fuego avanzaba hacia el pueblo, empujado por un viento fuerte. La Guardia Civil llegó con megáfonos y ordenó a todos los vecinos que evacuaran inmediatamente.",

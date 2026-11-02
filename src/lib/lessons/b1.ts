@@ -305,7 +305,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "¿Cómo se dicen en español las palabras en negrita?",
         "sentence": "Ojalá que no ___ el partido.",
         "answer": "perdamos",
-        "en": "Hopefully we [don't lose] the game.",
+        "en": "Hopefully we do not [lose] the game.",
         "explanation": "Perder cambia e → ie, pero no en nosotros: perdamos, no «pierdamos»."
       },
       {
@@ -2860,7 +2860,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: solo el tú afirmativo es especial",
         "body": [
-          "Un mandato es un deseo dirigido a otra persona, y por eso casi todos los mandatos toman prestada la forma del subjuntivo (como «quiero que hables»): hable, no hables, hablen. Solo hay una excepción: el mandato afirmativo de tú.",
+          "Un mandato es un deseo dirigido a otra persona, y por eso casi todos los mandatos toman prestada la forma del subjuntivo (como «quiero que hables»): hable, no hables, hablen. Solo hay una excepción importante: el mandato afirmativo de tú (el afirmativo de vosotros, hablad, también es aparte).",
           "Para la mayoría de los verbos, el mandato afirmativo de tú es idéntico a la forma «él/ella» del presente indicativo: habla, come, escribe. Ocho verbos tienen formas irregulares cortas: di (decir), haz (hacer), ve (ir), pon (poner), sal (salir), sé (ser), ten (tener), ven (venir)."
         ],
         "examples": [
@@ -3988,7 +3988,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Corrige la frase.",
+        "prompt": "Corrige la frase (quieres que otra persona te dé dinero).",
         "source": "¿Me pedirías prestado diez euros hasta mañana?",
         "answer": "¿Me prestarías diez euros hasta mañana?",
         "explanation": "Quien da el dinero presta (to lend); quien lo recibe lo pide prestado (to borrow). Aquí «me» es quien lo recibe, así que la otra persona presta: ¿me prestarías?"
@@ -4037,9 +4037,9 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "La estructura básica",
         "body": [
           "La idea: una frase con «si» tiene dos partes, la condición y el resultado. Cuando la condición es real o probable (puede pasar de verdad), la regla es: si + presente de indicativo, + presente, futuro o mandato.",
-          "¿Por qué presente aunque hables del futuro? Porque «si» ya marca que la condición está por cumplirse, así que el verbo de la condición no necesita futuro: Si llueve mañana… (nunca «si lloverá»). El futuro va solo en el resultado: …nos quedaremos en casa. Y nunca se pone presente de subjuntivo después de «si»: «si llueva» es un error.",
+          "¿Por qué presente aunque hables del futuro? Porque en español la condición posible se expresa con el presente de indicativo aunque se refiera al futuro, así que el verbo de la condición no necesita futuro: Si llueve mañana… (nunca «si lloverá»). El futuro va solo en el resultado: …nos quedaremos en casa. Y nunca se pone presente de subjuntivo después de «si»: «si llueva» es un error.",
           "Truco: el orden de las dos partes puede cambiar (Nos quedaremos en casa si llueve), pero los tiempos no: el presente siempre va pegado a «si».",
-          "Esta estructura no lleva subjuntivo — es un uso especial donde \"si\" se combina con el indicativo."
+          "Esta estructura no lleva subjuntivo: «si» de condición real se combina con el presente de indicativo."
         ],
         "examples": [
           {
@@ -4379,7 +4379,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el profesor / la profesora",
-            "en": "the professor"
+            "en": "the teacher / professor"
           },
           {
             "es": "el compañero de clase",
@@ -4588,7 +4588,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "La idea: haber + participio",
         "body": [
           "El pretérito perfecto tiene dos piezas: el verbo haber en presente (he, has, ha, hemos, habéis, han) y el participio del verbo principal. Haber hace todo el trabajo de persona y número; el participio no cambia nunca: he comido, han comido, las niñas han comido.",
-          "¿Por qué no cambia el participio? Porque aquí no es un adjetivo: forma un bloque con haber, igual que el inglés «have eaten». Los participios regulares terminan en -ado (verbos en -ar) o -ido (-er/-ir): hablado, comido, vivido. Si la raíz acaba en vocal, -ido lleva tilde: leído, creído, oído, traído."
+          "¿Por qué no cambia el participio? Porque aquí no es un adjetivo: forma un bloque con haber, igual que el inglés «have eaten». Los participios regulares terminan en -ado (verbos en -ar) o -ido (-er/-ir): hablado, comido, vivido. Si la raíz acaba en vocal abierta (a, e, o), -ido lleva tilde: leído, creído, oído, traído (pero construido y huido, sin tilde)."
         ],
         "examples": [
           {
@@ -4702,6 +4702,9 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjuga el verbo.",
             "sentence": "¿___ (leer, tú) ese libro alguna vez?",
             "answer": "Has leído",
+            "altAnswers": [
+              "Leíste"
+            ],
             "explanation": "«Alguna vez» pregunta por una experiencia de vida: pretérito perfecto. Tú → has; leer → leído, con tilde porque la raíz acaba en vocal."
           },
           {
@@ -4721,7 +4724,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Posición de los pronombres",
         "body": [
-          "Como haber y el participio forman un bloque, nada se mete entre ellos. Los pronombres (lo, la, le, me, se, se lo…) y la palabra no van siempre delante de haber.",
+          "Como haber y el participio forman un bloque, nada se mete entre ellos. Los pronombres (lo, la, le, me, se, se lo…) y la palabra «no» van siempre delante de haber.",
           "Es la diferencia más clara con el inglés, que sí separa: «I have already told him» → Ya se lo he dicho."
         ],
         "examples": [
@@ -6371,7 +6374,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con el pronombre correcto.",
             "sentence": "Esta es la casa ___ compramos el año pasado.",
             "answer": "que",
-            "explanation": "La casa es una cosa y no hay preposición: que. En inglés podrías decir «the house we bought» sin relativo, pero en español el que es obligatorio."
+            "explanation": "La casa es una cosa y no hay preposición: que. En inglés podrías decir «the house we bought» sin relativo, pero en español el relativo que es obligatorio."
           },
           {
             "type": "multiple-choice",
@@ -7146,7 +7149,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "instructions": "Empareja cada situación con el pronombre relativo que debe usarse.",
         "pairs": [
           {
-            "left": "Referirse a una persona después de una preposición",
+            "left": "Referirse solo a personas, tras una preposición o entre comas",
             "right": "quien / quienes"
           },
           {
@@ -7158,7 +7161,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "right": "que"
           },
           {
-            "left": "Dar énfasis o evitar ambigüedad, concordando en género y número",
+            "left": "Referirse a una cosa tras una preposición, concordando en género y número (con la que, en el que)",
             "right": "el que / la que / los que / las que"
           }
         ],
@@ -7753,7 +7756,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "Siguiendo el patrón fundar → el fundador, ¿cómo se llama la persona que invierte dinero en una empresa?",
+            "question": "Algunos verbos no siguen el patrón -dor de fundar → el fundador. ¿Cómo se llama la persona que invierte dinero en una empresa?",
             "options": [
               "el inversor",
               "el invertidor",
@@ -8033,7 +8036,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce la oración al español usando pronombres combinados.",
-        "source": "I already told it to them.",
+        "source": "I already told it to them (the secret).",
         "answer": "Ya se lo dije.",
         "altAnswers": [
           "Se lo dije ya."
@@ -9094,7 +9097,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Los seis verbos irregulares",
         "body": [
           "Recuerda: ser, estar, ir, saber, dar y haber no forman el subjuntivo a partir de la forma yo y hay que memorizarlos (dar y estar solo añaden tilde: dé, esté).",
-          "¿Por qué ellos? Porque su forma yo no termina en -o (soy, estoy, voy, sé, doy, he), así que no hay una -o que quitar."
+          "¿Por qué estos? Porque su forma yo no termina en -o (soy, estoy, voy, sé, doy, he), así que no hay una -o que quitar."
         ],
         "examples": [
           {
@@ -10848,7 +10851,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 38,
     "title": "Los Mandatos: Práctica Extra, Part 1 of 3",
-    "summary": "Practica los mandatos con tú: afirmativos regulares e irregulares (ven, ten, sal, pon, haz, di, ve, sé) y negativos con subjuntivo.",
+    "summary": "Practica los mandatos con tú: afirmativos regulares e irregulares (ven, ten, sal, pon, haz, di, ve, sé) y negativos con subjuntivo, con un breve repaso de usted y nosotros.",
     "duration": "9 min",
     "sections": [
       {
@@ -11036,7 +11039,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "reunión"
         ],
         "translation": "Let's start the meeting.",
-        "explanation": "«Vamos a» + infinitivo es una forma muy común de proponer algo a nosotros (let's); el mandato formal sería «empecemos la reunión»."
+        "explanation": "«Vamos a» + infinitivo es una forma muy común de proponer algo a nosotros (let's); el mandato de nosotros, con subjuntivo, sería «empecemos la reunión»."
       },
       {
         "type": "fill-blank",
@@ -11053,7 +11056,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 39,
     "title": "Los Mandatos: Práctica Extra, Part 2 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar los mandatos afirmativos y negativos con tú, usted, ustedes y nosotros, incluyendo la colocación de pronombres.",
+    "summary": "Practica los mandatos de usted, ustedes y nosotros (todos con subjuntivo) y la colocación de los pronombres: pegados en afirmativo, delante en negativo.",
     "duration": "9 min",
     "sections": [
       {
@@ -11275,7 +11278,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 40,
     "title": "Los Mandatos: Práctica Extra, Part 3 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar los mandatos afirmativos y negativos con tú, usted, ustedes y nosotros, incluyendo la colocación de pronombres.",
+    "summary": "Practica el paso de afirmativo a negativo con uno o dos pronombres (dímelo / no me lo digas) y mezcla los mandatos de tú, usted, ustedes y nosotros.",
     "duration": "6 min",
     "sections": [
       {
@@ -11324,7 +11327,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Práctica mixta: persona y polaridad",
         "body": [
-          "Para elegir la forma, decide dos cosas: la persona (tú, usted, ustedes, nosotros) y si es afirmativo o negativo. Solo el tú afirmativo tiene forma propia (habla, ven, haz); todo lo demás es presente de subjuntivo: no hables, hable, hablen, hablemos."
+          "Para elegir la forma, decide dos cosas: la persona (tú, usted, ustedes, nosotros) y si es afirmativo o negativo. Solo el tú afirmativo tiene forma propia (habla, ven, haz); el tú negativo, usted, ustedes y nosotros toman el presente de subjuntivo: no hables, hable, hablen, hablemos (el vosotros afirmativo, hablad, es aparte)."
         ],
         "examples": [
           {
@@ -11609,7 +11612,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Recuerda la regla: el condicional es el tiempo de lo imaginado",
         "body": [
           "Recuerda la regla: el condicional sitúa la acción en un mundo imaginado, no en la realidad: lo que pasaría si… Esa misma distancia de la realidad es la que hace más suaves las peticiones y los consejos de las dos secciones siguientes.",
-          "Con «si», la condición imaginaria va en imperfecto de subjuntivo (si tuviera, si ganara) y el resultado en condicional. Nunca se pone el condicional detrás de ese «si». Por ahora apréndelo como bloque; lo estudiarás a fondo en el nivel Avanzado."
+          "Con «si», la condición imaginaria va en imperfecto de subjuntivo (si tuviera, si ganara) y el resultado en condicional. En una condición hipotética no se pone el condicional detrás de ese «si». Por ahora apréndelo como bloque; lo estudiarás a fondo en el nivel Avanzado."
         ],
         "examples": [
           {
@@ -11859,11 +11862,11 @@ const B1_BASE_LESSONS: Lesson[] = [
             "options": [
               "llegará",
               "llegaría",
-              "llegaba",
+              "llegó",
               "llega"
             ],
             "correctIndex": 1,
-            "explanation": "Dentro de un discurso indirecto en pasado («dijo que...»), el futuro se convierte en condicional: llegaría. «Llegará» mantiene el futuro de ahora, «llegaba» es un hábito y «llega» es presente."
+            "explanation": "Dentro de un discurso indirecto en pasado («dijo que...»), el futuro se convierte en condicional: llegaría. «Llegará» mantiene el futuro de ahora, «llegó» es un pasado terminado y «llega» es presente."
           }
         ]
       }
@@ -16098,7 +16101,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "el profesor / la profesora",
-                "right": "the professor"
+                "right": "the teacher / professor"
               },
               {
                 "left": "el compañero de clase",
@@ -16867,19 +16870,18 @@ const B1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Qué palabras se relacionan con la educación? (Elige todas las correctas)",
+        "question": "¿Qué palabras se relacionan con la justicia y los sucesos? (Elige todas las correctas)",
         "options": [
-          "la beca",
-          "aprobar",
           "el veredicto",
+          "el testigo",
+          "la beca",
           "matricularse"
         ],
         "correctIndexes": [
           0,
-          1,
-          3
+          1
         ],
-        "explanation": "La beca, aprobar y matricularse son vocabulario de la educación. «El veredicto» (the verdict) pertenece al tema de la justicia y los sucesos."
+        "explanation": "El veredicto y el testigo son vocabulario de la justicia y los sucesos; la beca y matricularse pertenecen a la educación."
       },
       {
         "type": "translate",
@@ -17184,7 +17186,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 65,
     "title": "B1 Vocabulary Practice, Part 10 of 10",
-    "summary": "Repasa las 50 palabras de los negocios y el mundo del trabajo de la lección «Passive Voice & Impersonal Se, Part 2 of 2».",
+    "summary": "Repasa 50 palabras de negocios y trabajo, aprende a deducir la familia de una palabra (-ción, -dor, -miento) y las combinaciones fijas (cumplir un plazo).",
     "duration": "8 min",
     "sections": [
       {
@@ -17843,7 +17845,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración.",
         "sentence": "___ más me gusta es el clima.",
         "answer": "Lo que",
-        "explanation": "\"Lo que\" introduce una idea abstracta."
+        "explanation": "Sin sustantivo antes, «lo que» equivale a «la cosa que» (what); «que» solo no puede empezar la frase."
       },
       {
         "type": "fill-blank",
@@ -19053,7 +19055,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Después de doce años sin verse en persona, la familia Rivas se reunió finalmente en la casa de la abuela Consuelo, en un pueblo cerca de Cuenca, Ecuador. La ocasión era el cumpleaños número ochenta de la abuela, y todos sus hijos, nietos y bisnietos viajaron desde diferentes países para celebrar juntos.",
-          "Sofía, de catorce años, apenas recordaba a algunos de sus tíos, ya que su familia se había mudado a Canadá hacía unos doce años. Estaba emocionada pero también nerviosa por conocer mejor a parientes que solo había visto en fotografías y videollamadas ocasionales durante los años anteriores.",
+          "Sofía, de catorce años, no recordaba a casi ninguno de sus tíos, ya que su familia se había mudado a Canadá hacía unos doce años. Estaba emocionada pero también nerviosa por conocer mejor a parientes que solo había visto en fotografías y videollamadas ocasionales durante los años anteriores.",
           "Sin embargo, no todos en la familia estaban tan emocionados por la reunión. Sofía notó una tensión extraña entre su padre, Ernesto, y su tío Gustavo, quienes casi no se hablaban directamente y evitaban quedarse solos en la misma habitación durante los primeros días.",
           "Cuando Sofía le preguntó a su madre sobre la situación, ella le explicó que Ernesto y Gustavo habían tenido una fuerte discusión hacía más de una década, relacionada con dinero y con decisiones sobre el cuidado de su padre, el abuelo de Sofía, quien había fallecido varios años atrás.",
           "\"Espero que esta reunión los ayude a resolver las cosas\", le dijo su madre, \"pero no puedo prometerte que será fácil\". Sofía se sintió preocupada de que la celebración del cumpleaños de su abuela pudiera arruinarse por un conflicto entre su padre y su tío.",
@@ -21342,7 +21344,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 117,
     "title": "La cumbre del Teide",
-    "summary": "A group of friends attempts to reach the summit of Mount Teide, and one of them must decide whether to turn back.",
+    "summary": "A group of friends attempts to reach the summit of Mount Teide, and when one of them gets altitude sickness, the group must decide whether to turn back.",
     "duration": "7 min",
     "sections": [
       {

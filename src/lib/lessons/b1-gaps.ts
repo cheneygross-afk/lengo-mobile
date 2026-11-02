@@ -568,7 +568,7 @@ export const B1_GAPS: AnchoredLesson[] = [
       fe(
         "___ media hora buscando aparcamiento.",
         "Llevamos",
-        "We've [been] looking for a parking space for half an hour.",
+        "[We've been] looking for a parking space for half an hour.",
         "Llevar + tiempo + gerundio, en presente porque la búsqueda continúa. Nosotros: llevamos.",
       ),
       fe(
@@ -580,7 +580,7 @@ export const B1_GAPS: AnchoredLesson[] = [
       fe(
         "Mi vecino ___ sin devolverme la escalera.",
         "sigue",
-        "My neighbour [still hasn't] given me back the ladder.",
+        "My neighbour [still] hasn't given me back the ladder.",
         "Seguir sin + infinitivo = todavía no ha hecho algo."
       ),
       fe(
@@ -810,7 +810,7 @@ export const B1_GAPS: AnchoredLesson[] = [
         "¿Por qué no «olvidé» o «rompí»?",
         [
           "Olvidé las llaves y se me olvidaron las llaves son correctas, pero no dicen lo mismo. Con el se accidental, la acción parece algo que te pasó, no algo que hiciste.",
-          "Compara: Rompí el plato (puede sonar a que lo hiciste a propósito o que asumes la acción) / Se me rompió el plato (fue un accidente).",
+          "Compara: Rompí el plato (dices que fuiste tú quien lo rompió, sin decir si fue sin querer) / Se me rompió el plato (fue un accidente).",
           "Por eso es tan útil para disculparse: Perdón, se me hizo tarde. Se me pasó la hora. Se me fue de la cabeza (it slipped my mind).",
           "Para dar énfasis o aclarar quién, añade a + persona: A mí se me olvidó, pero a ella no.",
         ],
@@ -847,7 +847,8 @@ export const B1_GAPS: AnchoredLesson[] = [
             "Ayer se nos ___ llamar a la abuela.",
             "olvidó",
             "Yesterday we [forgot] to call grandma.",
-            "Con un infinitivo (llamar) como sujeto, el verbo va en singular: se nos olvidó."
+            "Con un infinitivo (llamar) como sujeto, el verbo va en singular: se nos olvidó.",
+            ["pasó"]
           ),
         ]
       ),

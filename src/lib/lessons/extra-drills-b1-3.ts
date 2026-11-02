@@ -68,7 +68,7 @@ export const DRILLS_B1_3: Record<string, Exercise[]> = {
     fe("Es una pena que tu hermana ___ enferma.", "esté", "It's a pity that your sister [is] ill.", "Es una pena expresa sentimiento → subjuntivo: esté."),
     wo("Está claro que el equipo necesita un entrenador nuevo", "Está claro = certeza → indicativo: necesita.", "It's clear that the team needs a new coach"),
     wo("Es raro que no haya nadie en la oficina", "Es raro → subjuntivo: haya.", "It's strange that there's nobody in the office"),
-    mc("«Es evidente que ___ razón.» (tú)", ["tienes", "tengas", "tener", "tenías"], 0, "Es evidente expresa certeza → indicativo: tienes. «Tengas» es el error típico."),
+    mc("«Es evidente que ___ razón.» (tú)", ["tienes", "tengas", "tener", "tuvieras"], 0, "Es evidente expresa certeza → indicativo: tienes. «Tengas» es el error típico."),
   ],
 
   "b1r-spiral-subjunctive-foundations": [

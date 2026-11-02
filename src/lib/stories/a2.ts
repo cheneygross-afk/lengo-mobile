@@ -195,7 +195,7 @@ const A2_FICTION: Story[] = [
           "\"un camión pasa por la carretera y el conductor para para ayudar\" — a truck passes and the driver stops to help.",
       },
       {
-        question: "Why is it notable that Pedro fixes the car?",
+        question: "Why is Pedro's help generous?",
         options: ["He is not actually a mechanic", "The shop is closed but he helps anyway", "He charges too much money", "He refuses at first"],
         correctIndex: 1,
         explanation:
@@ -384,7 +384,7 @@ const A2_FICTION: Story[] = [
       "Leo se entera del problema de Emma por mensaje de texto. Sin pensarlo mucho, decide invitar a Emma a cocinar en su casa. \"Vamos a mi casa a cocinar los dos\", dice Leo.",
       "Emma y Leo pasan la tarde en la cocina de Leo. Preparan el pastel de chocolate y las galletas de limón juntos, ayudándose el uno al otro. Se ríen mucho y también prueban un poco de la masa antes de hornear todo.",
       "El día de la competencia, Emma y Leo llegan con sus dos postres. Muchos estudiantes compran el pastel y las galletas, y todos dicen que están deliciosos. Al final del día, el director anuncia que las galletas de Leo ganan el primer premio.",
-      "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Con tu ayuda pude terminar mi pastel\", dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo.",
+      "Emma se alegra de verdad por su amigo. \"Gracias por ayudarme. Con tu ayuda pude terminar mi pastel\", dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo.",
     ],
     questions: [
       {

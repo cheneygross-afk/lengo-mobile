@@ -36,7 +36,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       sec(
         "Two parts: haber + participle",
         [
-          "Why two parts? Spanish builds this tense like English: a helper verb that shows the person (have / has) plus a fixed form of the main verb (eaten, worked). The helper is always haber, never tener: tener is only for possession (tengo un coche).",
+          "Why two parts? Spanish builds this tense like English: a helper verb that shows the person (have / has) plus a fixed form of the main verb (eaten, worked). The helper is always haber, never tener: tener means to have or own (tengo un coche).",
           "The present perfect is the present of haber (he, has, ha, hemos, habéis, han) plus a participle. Regular participles end in -ado for -ar verbs and -ido for -er and -ir verbs: hablado, comido, vivido. The rule works for any regular verb, even ones you have never seen in this tense.",
           "The participle never changes: ella ha comido, ellos han comido. And nothing goes between the two parts: ¿Has comido? not ¿Has tú comido? Haber and the participle travel as one block.",
         ],
@@ -474,7 +474,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["Su familia escondió a dos personas en el sótano.", "Her family hid two people in the basement. (personal a before people)"],
         ],
         [
-          fe("Mi abuelo ___ la guerra.", "sobrevivió", "My grandfather [survived] the war.", "Sobrevivir is an -ir verb: él → -ió, sobrevivió. A finished event in history → preterite."),
+          fe("Mi abuelo ___ a la guerra.", "sobrevivió", "My grandfather [survived] the war.", "Sobrevivir is an -ir verb: él → -ió, sobrevivió. A finished event in history → preterite."),
           mc(
             "Construir (to build) works like destruir. \"They built a new bridge.\"",
             ["Construyeron un puente nuevo.", "Construieron un puente nuevo.", "Construyieron un puente nuevo.", "Construían un puente nuevo."],
@@ -779,7 +779,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         ],
         [
           mc(
-            "\"The keys? I gave them to Pedro.\"",
+            "How do you say \"The keys? I gave them to Pedro.\"?",
             ["¿Las llaves? Se las di a Pedro.", "¿Las llaves? Le las di a Pedro.", "¿Las llaves? Las le di a Pedro.", "¿Las llaves? Se los di a Pedro."],
             0,
             "Le becomes se before las, the person comes first, and las agrees with las llaves (feminine plural)."
@@ -835,7 +835,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         ],
         [
           mc(
-            "\"Tell it to me.\" (tú)",
+            "How do you say \"Tell it to me.\" (tú)?",
             ["Dímelo.", "Me lo di.", "Dilome.", "Lo me di."],
             0,
             "A yes command: the pronouns join the end, person first, with an accent: dímelo."
@@ -896,7 +896,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       toEs("Can you (informal) bring it to us on Friday?", "¿Nos lo puedes traer el viernes?", "nos + lo before puedes, or joined: traérnoslo.", ["¿Puedes traérnoslo el viernes?", "¿Nos la puedes traer el viernes?", "¿Puedes traérnosla el viernes?"]),
       toEn("¿El mapa del barrio? Te lo envío por WhatsApp.", "The neighborhood map? I'll send it to you on WhatsApp.", "te + lo.", ["The map of the neighborhood? I'll send it to you by WhatsApp."]),
       mc(
-        "\"The plant? I gave it to my mother.\"",
+        "How do you say \"The plant? I gave it to my mother.\"?",
         ["¿La planta? Se la di a mi madre.", "¿La planta? Le la di a mi madre.", "¿La planta? Se lo di a mi madre.", "¿La planta? La se di a mi madre."],
         0,
         "Le → se before la, la agrees with planta, and the person pronoun comes first."

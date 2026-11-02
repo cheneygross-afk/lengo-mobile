@@ -32,7 +32,7 @@ export const C2_BAND_STORIES: Story[] = [
         options: ["It was badly written", "It could be read as a chronicle of the dictatorship and she was afraid", "The publisher ordered it", "It was too long"],
         correctIndex: 1,
         explanation:
-          "\"La tomó por miedo.\"",
+          "\"La había tomado por miedo.\"",
       },
       {
         question: "Why did she decide not to simply restore the paragraph?",
@@ -731,7 +731,7 @@ export const C2_BAND_STORIES: Story[] = [
       "In a workshop near Asunción, an old Paraguayan harp maker takes on an apprentice who wants to make the instrument electric.",
     paragraphs: [
       "En Luque, una ciudad pegada a Asunción que presume de ser la capital de la música paraguaya, don Ramón Benítez llevaba más de cincuenta años construyendo arpas en un taller que olía a cedro, a cola de carpintero y a cigarro apagado. Sus arpas tenían fama en todo el país: livianas, de sonido brillante, con una caja de resonancia que él mismo tallaba a mano siguiendo un patrón que había heredado de su maestro y que nunca había puesto por escrito.",
-      "El arpa paraguaya desciende de las que trajeron los jesuitas en el siglo XVII, pero a lo largo de los siglos se fue apartando de sus antepasadas europeas hasta convertirse en algo propio: más pequeña, sin pedales, con treinta y seis cuerdas y una sonoridad que, para muchos paraguayos, es la del país mismo. Don Ramón hablaba de ella con una mezcla de reverencia y de sorna. «El arpa es como el guaraní», decía. «Vino de afuera, pero ya no es de nadie más que nuestra».",
+      "El arpa paraguaya desciende de las que trajeron los jesuitas en el siglo XVII, pero a lo largo de los siglos se fue apartando de sus antepasadas europeas hasta convertirse en algo propio: más pequeña, sin pedales, con treinta y seis cuerdas y una sonoridad que, para muchos paraguayos, es la del país mismo. Don Ramón hablaba de ella con una mezcla de reverencia y de sorna. «El arpa es como el guaraní», decía. «Vino de afuera, pero ya es solo nuestra».",
       "Rodrigo apareció en el taller una mañana de agosto, con veintidós años, un tatuaje de un arpa en el antebrazo y un proyecto que don Ramón escuchó con la expresión de quien recibe una mala noticia médica. Quería aprender a construir arpas, sí, pero no para repetir las de siempre. Quería hacer un arpa eléctrica, con pastillas magnéticas como las de una guitarra, para tocar en bandas de rock y en festivales, donde el arpa acústica se perdía entre la batería y los amplificadores.",
       "Don Ramón lo despidió esa misma mañana con un «¡Nde! Andá a estudiar ingeniería», mezclando el español y el guaraní, como hacía siempre que algo lo irritaba. Rodrigo volvió al día siguiente, y al otro. Al cabo de una semana, el viejo, más por cansancio que por convicción, le dio una escoba y le dijo que, si quería aprender, empezara por barrer el taller. Rodrigo barrió durante un mes. Luego le dejaron lijar. Luego, encolar. Pasó casi un año antes de que don Ramón le permitiera tocar una gubia.",
       "Durante ese tiempo no volvieron a hablar del arpa eléctrica. Rodrigo aprendió a escoger la madera por el sonido que hace al golpearla con los nudillos, a curvar el cedro con vapor, a afinar a oído las treinta y seis cuerdas sin ayuda de aplicaciones. Aprendió, sobre todo, que don Ramón no tenía un método, o que su método consistía en hacer las cosas despacio hasta que las manos las supieran solas. Y aprendió que el viejo, a pesar de sus gruñidos, tocaba por las tardes, cuando creía que nadie lo escuchaba, polcas y guaranias con una delicadeza que contradecía todo lo demás.",
@@ -745,7 +745,7 @@ export const C2_BAND_STORIES: Story[] = [
         options: ["Both are dying", "Both are now Paraguay's very own, even though the harp came from outside", "Both are difficult", "Both are European"],
         correctIndex: 1,
         explanation:
-          "\"Vino de afuera, pero ya no es de nadie más que nuestra.\"",
+          "\"Vino de afuera, pero ya es solo nuestra.\"",
       },
       {
         question: "How did Rodrigo's apprenticeship begin?",
@@ -893,7 +893,7 @@ export const C2_BAND_STORIES: Story[] = [
       },
       {
         question: "Who turned out to be behind the boat?",
-        options: ["A foreign company", "The brother of a local councillor who publicly championed conservation", "The fishermen themselves", "The navy"],
+        options: ["A foreign company", "A councillor's brother, a hotel owner who publicly championed conservation", "The fishermen themselves", "The navy"],
         correctIndex: 1,
         explanation:
           "\"el hermano de un concejal de Puerto Ayora... uno de los mayores defensores públicos de la conservación del archipiélago\".",

@@ -45,10 +45,10 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ),
           fb("Completa.", "El ladrón disparó una sola ___ (bullet), pero no hirió a nadie.", "bala", "Una pistola dispara balas (bullets): una sola bala = one single shot."),
           mc(
-            "Aplica el patrón a otra palabra: «Vimos ___ águila enorme sobre la montaña.»",
-            ["un", "una", "unos", "uno"],
+            "Aplica el patrón a otra palabra: «___ águila enorme volaba sobre la montaña.»",
+            ["El", "La", "Lo", "Los"],
             0,
-            "Águila empieza por «a» tónica (Á-gui-la), así que en singular lleva un / el, como arma; sigue siendo femenina: un águila enorme, las águilas. «Una águila» es el error típico; «uno» no va delante de un sustantivo."
+            "Águila empieza por «a» tónica (Á-gui-la), así que en singular lleva el, como arma; sigue siendo femenina: el águila enorme, las águilas. «La águila» es el error típico; «lo» no va con sustantivos y «los» es plural masculino."
           ),
         ]
       ),
@@ -184,7 +184,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "La idea: dos patrones que te ahorran memoria",
         [
           "1) Familias de palabras. Muchas palabras de la justicia salen de un verbo que ya conoces: buscar → la búsqueda, sospechar → el sospechoso / sospechoso (suspicious), acusar → el acusado, juzgar → el juez y el juicio, culpa → culpable. Si ves una palabra nueva, busca el verbo que hay dentro.",
-          "2) El género de las personas. Las palabras en -o cambian a -a (el abogado → la abogada). Pero las que terminan en -e, -ista o -al suelen ser iguales para los dos y solo cambia el artículo: el/la agente, el/la testigo, el/la fiscal, el/la periodista. Juez admite «la juez» y, cada vez más, «la jueza».",
+          "2) El género de las personas. Las palabras en -o cambian a -a (el abogado → la abogada). Pero las que terminan en -e, -ista o -al suelen ser iguales para los dos y solo cambia el artículo: el/la agente, el/la fiscal, el/la periodista; y algunas en -o, como testigo, también son iguales: el/la testigo. Juez admite «la juez» y, cada vez más, «la jueza».",
         ],
         [
           ["La búsqueda duró dos días.", "The search lasted two days. (buscar → la búsqueda)"],
@@ -268,7 +268,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["La agente tenía una misión muy clara: encontrar al testigo.", "The agent had a very clear mission: to find the witness."],
         ],
         [
-          fb("Completa.", "Tenemos que ___ qué pasó esa noche.", "averiguar", "Averiguar = to find out. Después de «tener que» va el infinitivo."),
+          fb("Completa (to find out).", "Tenemos que ___ qué pasó esa noche.", "averiguar", "Averiguar = to find out. Después de «tener que» va el infinitivo."),
           mc(
             "¿Qué significa «pista» en «la policía encontró una pista»?",
             ["a clue", "a track", "a court", "a path"],
@@ -291,10 +291,10 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Vocabulario básico de la justicia y la investigación."
       ),
       fb("Completa.", "El ___ de policía me pidió el pasaporte.", "agente", "Un agente de policía = a police officer."),
-      fb("Completa.", "La policía no pudo ___ quién era el hombre de la foto.", "averiguar", "Averiguar = to find out, descubrir una información."),
+      fb("Completa (to find out).", "La policía no pudo ___ quién era el hombre de la foto.", "averiguar", "Averiguar = to find out, descubrir una información."),
       fb("Completa.", "Nadie sabía el ___ para abrir la caja fuerte.", "código", "Un código = a code: la combinación que abre la caja fuerte."),
       fb("Completa.", "El abogado de la ___ habló con el juez.", "defensa", "La defensa = the defense: el abogado que defiende al acusado."),
-      fb("Completa.", "Mi ___ es proteger al testigo hasta el día del juicio.", "misión", "Una misión = a mission. Lleva tilde: misión."),
+      fb("Completa (a mission).", "Mi ___ es proteger al testigo hasta el día del juicio.", "misión", "Una misión = a mission. Lleva tilde: misión."),
       mc(
         "«El acusado no hizo nada malo.» Entonces es…",
         ["inocente", "culpable", "sospechoso", "peligroso"],
@@ -408,9 +408,9 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Vocabulario de las leyendas y de lo sobrenatural."
       ),
-      fb("Completa.", "La ___ de este lugar es increíble: montañas, lagos y bosques.", "belleza", "La belleza = beauty; es el sustantivo de «bello»."),
+      fb("Completa (beauty).", "La ___ de este lugar es increíble: montañas, lagos y bosques.", "belleza", "La belleza = beauty; es el sustantivo de «bello»."),
       fb("Completa.", "No sé cómo lo hizo; fue como por arte de ___.", "magia", "Como por arte de magia = as if by magic."),
-      { ...fb("Completa.", "Es difícil, pero hay que tener ___ en el futuro.", "fe", "Tener fe en algo = to have faith in something."), altAnswers: ["confianza"] },
+      { ...fb("Completa.", "Es difícil, pero hay que tener ___ en el futuro.", "fe", "Tener fe en algo = to have faith in something."), altAnswers: ["confianza", "esperanza"] },
       fb("Completa.", "Mi abuela se llama Teresa y celebra el día de ___ Teresa.", "Santa", "«Santa» nunca se acorta: Santa Teresa, Santa Ana."),
       mc(
         "¿Cuál es correcto?",
@@ -864,7 +864,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "El cuerpo: piel, cuello, pecho, cabello",
         [
           "«La piel» cubre todo el cuerpo (skin). «El cuello» está entre la cabeza y los hombros; también es el cuello de una camisa (collar). «El pecho» es la parte delantera del cuerpo (chest). «El cabello» es un poco más formal que «el pelo»; se ve mucho en los productos: champú para el cabello.",
-          "La regla que vale para todo el cuerpo: con las partes del cuerpo usamos el artículo, no el posesivo, porque ya está claro de quién son (me duele, te lavas, tiene): me duele el cuello (no «mi cuello»), me lavo las manos, tiene los ojos verdes. Funciona igual con palabras que no están en esta lista.",
+          "La regla general para el cuerpo: con las partes del cuerpo solemos usar el artículo, no el posesivo, cuando ya está claro de quién son (me duele, te lavas, tiene): me duele el cuello (no «mi cuello»), me lavo las manos, tiene los ojos verdes. Funciona igual con palabras que no están en esta lista.",
         ],
         [
           ["Me duele el cuello de tanto mirar el ordenador.", "My neck hurts from staring at the computer so much."],
