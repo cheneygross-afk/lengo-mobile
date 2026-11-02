@@ -375,7 +375,7 @@ export const FR_C2_U33: Lesson[] = [
         prompt: "Translate into French (medical register).",
         source: "Antibiotic treatment was started.",
         answer: "Un traitement antibiotique a été instauré.",
-        altAnswers: ["Un traitement antibiotique a été mis en place.", "Une antibiothérapie a été instaurée.", "Un traitement antibiotique a été débuté."],
+        altAnswers: ["Un traitement antibiotique a été mis en place.", "Une antibiothérapie a été instaurée."],
         explanation: "\"Instaurer un traitement\" is the medical collocation.",
       },
       {
@@ -945,7 +945,7 @@ export const FR_C2_U33: Lesson[] = [
         body: [
           "The event: Jean Morel, 82, fell from a ladder while pruning his cherry tree, broke his hip, and has decided to sell his house. (An invented situation.) The notaire writes: « Par acte en date du 12 juin 2026, M. Jean Morel, retraité, demeurant 12, chemin des Vignes à Annecy, a donné procuration à sa fille, Mme Claire Morel, aux fins de procéder en son nom à la vente du bien immobilier sis à ladite adresse, le mandant se trouvant, en raison de son état de santé, dans l'impossibilité de se déplacer. »",
           "Legal markers: \"par acte en date du\", \"demeurant\", \"donner procuration à\", \"aux fins de\" (for the purpose of), \"procéder à\", \"sis\" (located, a legal participle of an old verb), \"ladite adresse\", \"le mandant\" (the principal), the participial clause \"le mandant se trouvant... dans l'impossibilité de\". No emotion, no event described: only the legal consequence.",
-          "The doctor writes: « Patient de 82 ans, admis aux urgences le 3 mai à la suite d'une chute d'une hauteur d'environ deux mètres. Le bilan radiologique met en évidence une fracture du col du fémur droit. Une prothèse a été posée le 4 mai. Les suites opératoires sont simples. Rééducation à prévoir en centre spécialisé. » Medical markers: nominal style, verbless sentences, the passive, precise anatomy, the infinitive of instruction (\"à prévoir\").",
+          "The doctor writes: « Patient de 82 ans, admis aux urgences le 2 mai à la suite d'une chute d'une hauteur d'environ deux mètres. Le bilan radiologique met en évidence une fracture du col du fémur droit. Une prothèse a été posée le 3 mai. Les suites opératoires sont simples. Rééducation à prévoir en centre spécialisé. » Medical markers: nominal style, verbless sentences, the passive, precise anatomy, the infinitive of instruction (\"à prévoir\").",
         ],
         examples: [
           { es: "M. Jean Morel a donné procuration à sa fille aux fins de procéder à la vente.", en: "Mr Jean Morel gave his daughter power of attorney to carry out the sale." },
@@ -1021,14 +1021,14 @@ export const FR_C2_U33: Lesson[] = [
       {
         heading: "Your turn: transposing",
         body: [
-          "Transposing up the register means nominalising, adding precise vocabulary and impersonal structures: familiar \"Il est tombé de son échelle\" → press \"un homme a chuté d'une échelle\" → medical \"chute d'une hauteur de deux mètres\" → legal \"en raison d'un accident survenu le 3 mai\".",
+          "Transposing up the register means nominalising, adding precise vocabulary and impersonal structures: familiar \"Il est tombé de son échelle\" → press \"un homme a chuté d'une échelle\" → medical \"chute d'une hauteur de deux mètres\" → legal \"en raison d'un accident survenu le 2 mai\".",
           "Transposing down means turning nouns back into verbs, adding the speaker's feelings, dropping \"ne\" and using familiar words: \"une fracture du col du fémur\" → \"il s'est cassé le col du fémur\" → \"il s'est pété la hanche\" (very familiar).",
           "Watch the tense too: legal and medical texts favour the passé composé and present with the passive; the press uses the passé composé and the present in headlines; spoken French, the passé composé with \"on\".",
         ],
         examples: [
           { es: "Il est tombé de son échelle.", en: "He fell off his ladder. (familiar)" },
           { es: "Un homme a chuté d'une échelle.", en: "A man fell from a ladder. (press)" },
-          { es: "En raison d'un accident survenu le 3 mai, le mandant ne peut se déplacer.", en: "Owing to an accident that occurred on 3 May, the principal cannot travel. (legal)" },
+          { es: "En raison d'un accident survenu le 2 mai, le mandant ne peut se déplacer.", en: "Owing to an accident that occurred on 2 May, the principal cannot travel. (legal)" },
           { es: "Il s'est cassé le col du fémur.", en: "He broke the neck of his femur. (standard)" },
           { es: "Il s'est pété la hanche.", en: "He smashed his hip. (very familiar)" },
           { es: "Une prothèse de hanche a été posée.", en: "A hip replacement was fitted. (medical)" },
@@ -1114,7 +1114,7 @@ export const FR_C2_U33: Lesson[] = [
         type: "multiple-choice",
         question: "Which version belongs to a medical report?",
         options: [
-          "Fracture du col du fémur droit. Prothèse posée le 4 mai.",
+          "Fracture du col du fémur droit. Prothèse posée le 3 mai.",
           "Il s'est pété la hanche, le pauvre.",
           "Un octogénaire chute en taillant son cerisier.",
           "Le mandant a donné procuration aux fins de vente.",
@@ -1801,6 +1801,7 @@ export const FR_C2_U33: Lesson[] = [
         en: "The author [implies] that the reform has failed.",
         sentence: "L'auteur ___ que la réforme a échoué.",
         answer: "sous-entend",
+        altAnswers: ["laisse entendre", "suggère"],
         explanation: "\"Sous-entendre\": to imply.",
       },
       {
@@ -2030,6 +2031,7 @@ export const FR_C2_U33: Lesson[] = [
         en: "[Although] some trials failed, others succeeded.",
         sentence: "___ certaines expériences aient échoué, d'autres ont réussi.",
         answer: "Bien que",
+        altAnswers: ["Quoique"],
         explanation: "\"Bien que\" + subjunctive.",
       },
       {

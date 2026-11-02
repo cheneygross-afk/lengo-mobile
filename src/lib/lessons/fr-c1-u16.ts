@@ -2363,7 +2363,7 @@ export const FR_C1_U16: Lesson[] = [
         heading: "Clefts: c'est… qui, ce qui… c'est",
         body: [
           "Cleft sentences highlight one element and work in every register, which makes them the neutral way to emphasise. \"C'est Julie qui a appelé\" (it was Julie who called). \"C'est demain que je pars\" (it's tomorrow that I'm leaving). \"Ce qui m'énerve, c'est son attitude\" (what annoys me is his attitude). \"Ce que je veux, c'est partir\".",
-          "In speech, clefts mix with colloquial words: \"Ce qui me saoule, c'est qu'il est toujours en retard.\" In neutral writing: \"Ce qui m'agace, c'est son manque de ponctualité.\" In formal writing, \"ce qui\" clefts are still fine, and the verb after \"c'est\" can be followed by \"que\" + clause: \"Ce qui frappe, c'est que…\".",
+          "In speech, clefts mix with colloquial words: \"Ce qui me saoule, c'est qu'il est toujours en retard.\" In neutral writing: \"Ce qui m'agace, c'est son manque de ponctualité.\" In formal writing, \"ce qui\" clefts are still fine, and \"c'est\" can be followed by \"que\" + a full clause: \"Ce qui frappe, c'est que…\".",
           "Remember agreement: \"C'est moi qui ai raison\" (the verb agrees with \"moi\"), \"c'est nous qui avons payé\". In fast speech, many people say \"c'est moi qui a raison\", but write it correctly.",
         ],
         examples: [

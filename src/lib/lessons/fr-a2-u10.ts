@@ -1227,6 +1227,7 @@ export const FR_A2_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's the quietest flat I've visited.",
         answer: "C'est l'appartement le plus calme que j'ai visité.",
+        altAnswers: ["C'est l'appartement le plus calme que j'aie visité."],
         explanation: "\"Calme\" follows the noun: repeated article.",
       },
       {

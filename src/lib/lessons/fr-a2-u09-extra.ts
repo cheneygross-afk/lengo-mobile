@@ -999,7 +999,7 @@ export const FR_A2_U09_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "My brother and I went for a walk.",
         answer: "Mon frère et moi, nous nous sommes promenés.",
-        altAnswers: ["Mon frère et moi nous sommes promenés.", "Mon frère et moi, on s'est promenés.", "Mon frère et moi, on s'est promené."],
+        altAnswers: ["Mon frère et moi, on s'est promenés.", "Mon frère et moi, on s'est promené."],
         explanation: "Fix: \"nous sommes promenés\" lacks the pronoun: \"nous nous sommes promenés\".",
       },
       {

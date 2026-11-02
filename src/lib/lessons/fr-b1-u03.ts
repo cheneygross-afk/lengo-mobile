@@ -734,15 +734,15 @@ export const FR_B1_U03: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the ils stem with the nous stem.",
+        instructions: "Match the French and the English.",
         pairs: [
-          { left: "que je vienne", right: "que nous venions" },
-          { left: "que je prenne", right: "que nous prenions" },
-          { left: "que je boive", right: "que nous buvions" },
-          { left: "que je voie", right: "que nous voyions" },
-          { left: "que j'achète", right: "que nous achetions" },
+          { left: "Il faut que je vienne.", right: "I have to come." },
+          { left: "Il faut que nous prenions le train.", right: "We have to take the train." },
+          { left: "Il faut que je boive de l'eau.", right: "I need to drink some water." },
+          { left: "Il faut que nous voyions ça.", right: "We need to see that." },
+          { left: "Il faut que j'achète du pain.", right: "I need to buy some bread." },
         ],
-        explanation: "Two-stem verbs keep the ils stem for je/tu/il/ils and the nous stem for nous/vous.",
+        explanation: "Two-stem verbs keep the ils stem for je/tu/il/ils (\"vienne\", \"boive\", \"achète\") and the nous stem for nous/vous (\"prenions\", \"voyions\").",
       },
       {
         type: "listen-choose",
@@ -1247,12 +1247,12 @@ export const FR_B1_U03: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "How do you say: I need to receive the parcel / We need to receive the parcel? (Il faut que...)",
+            question: "How do you say: We need to receive the parcel before Friday?",
             options: [
-              "que je reçoive le colis / que nous recevions le colis",
-              "que je reçoive le colis / que nous reçoivions le colis",
-              "que je recevoie le colis / que nous recevoions le colis",
-              "que je reçois le colis / que nous recevons le colis",
+              "Il faut que nous recevions le colis avant vendredi.",
+              "Il faut que nous reçoivions le colis avant vendredi.",
+              "Il faut que nous recevoions le colis avant vendredi.",
+              "Il faut que nous recevons le colis avant vendredi.",
             ],
             correctIndex: 0,
             explanation: "\"Recevoir\" has two stems: ils reçoivent → \"que je reçoive\", nous recevons → \"que nous recevions\". Using the ils stem for nous (\"*reçoivions\") is the typical slip; \"reçois / recevons\" are the present.",
@@ -1428,10 +1428,10 @@ export const FR_B1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form is correct?",
-        options: ["que nous voyons", "que nous voyions", "que nous voiions", "que nous voyiions"],
+        question: "How do you say: We need to see a doctor?",
+        options: ["Il faut que nous voyons un médecin.", "Il faut que nous voyions un médecin.", "Il faut que nous voiions un médecin.", "Il faut que nous voyiions un médecin."],
         correctIndex: 1,
-        explanation: "Nous voyons + -ions → \"voyions\".",
+        explanation: "Nous voyons + -ions → \"voyions\". \"Voyons\" without the i is the present.",
       },
       {
         type: "listen-choose",

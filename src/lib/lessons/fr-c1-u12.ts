@@ -537,7 +537,7 @@ export const FR_C1_U12: Lesson[] = [
       {
         heading: "Back to the adverb: when to undo the conjecture",
         body: [
-          "The reverse transformation matters in writing. In a report, an email to a client or an essay, the futur antérieur of probability can sound too casual and \"il a dû\" can be ambiguous. Turn them back into an adverb or a formal phrase: \"Il aura oublié\" → \"Il a vraisemblablement oublié\" or \"Il est probable qu'il ait oublié\".",
+          "The reverse transformation matters in writing. In a report, an email to a client or an essay, the futur antérieur of probability can sound too casual and \"il a dû\" can be ambiguous. Turn them back into an adverb or a formal phrase: \"Il aura oublié\" → \"Il a vraisemblablement oublié\" or \"Il est probable qu'il a oublié\".",
           "Formal options: \"vraisemblablement\" (in all likelihood), \"selon toute vraisemblance\", \"il est probable que\" + indicative (+ subjunctive is also found), \"il se peut que\" + subjunctive (it may be that), \"il est possible que\" + subjunctive.",
           "Note the mood: \"il est probable que\" normally takes the indicative (probability is close to certainty), while \"il est possible que\" and \"il se peut que\" take the subjunctive (Upper-intermediate).",
         ],

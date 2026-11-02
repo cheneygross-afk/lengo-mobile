@@ -391,8 +391,8 @@ export const FR_C2_U25: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[In the spring of] 1962, the government called an early election.",
-        sentence: "___ 1962, le gouvernement déclencha des élections anticipées.",
+        en: "[In the spring of] 1959, Senegal and French Sudan formed a federation.",
+        sentence: "___ 1959, le Sénégal et le Soudan français formèrent une fédération.",
         answer: "Au printemps",
         altAnswers: ["Au printemps de"],
         explanation: "\"Au printemps\" is the only season with \"au\".",

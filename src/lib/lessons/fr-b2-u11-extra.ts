@@ -417,8 +417,8 @@ export const FR_B2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "Everyone agreed that the next meeting would take place on the 15th.",
         answer: "Tout le monde a convenu que la prochaine réunion aurait lieu le 15.",
-        altAnswers: ["Tout le monde a été d'accord pour que la prochaine réunion ait lieu le 15.", "Tout le monde était d'accord pour dire que la prochaine réunion aurait lieu le 15.", "Il a été convenu que la prochaine réunion aurait lieu le 15."],
-        explanation: "\"Avoir lieu\" in the conditional: the future in the past.",
+        altAnswers: ["Tout le monde a été d'accord pour que la prochaine réunion ait lieu le 15.", "Tout le monde était d'accord pour dire que la prochaine réunion aurait lieu le 15.", "Il a été convenu que la prochaine réunion aurait lieu le 15.", "Tout le monde est convenu que la prochaine réunion aurait lieu le 15.", "Tous ont convenu que la prochaine réunion aurait lieu le 15."],
+        explanation: "\"Avoir lieu\" in the conditional: the future in the past. \"Convenir\" (to agree) takes \"avoir\" in everyday use; careful usage prefers \"être\" (\"tout le monde est convenu\"). Both are accepted.",
       },
       {
         type: "translate",

@@ -30,7 +30,7 @@ export const FR_B2_U08: Lesson[] = [
             type: "listen-choose",
             audio: "Si mon frère venait, ce serait la fête.",
             question: "What does the speaker suggest?",
-            options: ["Her brother probably won't come.", "Her brother is definitely coming.", "Her brother came and it was a party.", "Her brother will organise a party."],
+            options: ["The speaker's brother probably won't come.", "The speaker's brother is definitely coming.", "The speaker's brother came and it was a party.", "The speaker's brother will organise a party."],
             correctIndex: 0,
             explanation: "Imparfait + conditional: the condition is presented as unlikely.",
           },
@@ -241,11 +241,11 @@ export const FR_B2_U08: Lesson[] = [
       {
         heading: "Qui que ce soit, quoi que ce soit",
         body: [
-          "\"Qui que ce soit\" (anyone at all, whoever it may be) and \"quoi que ce soit\" (anything at all) are fixed subjunctive expressions. They are most common in negative or restrictive contexts: \"je n'ai parlé à qui que ce soit\" (I didn't talk to anyone at all), \"s'il te faut quoi que ce soit, dis-le-moi\".",
+          "\"Qui que ce soit\" (anyone at all, whoever it may be) and \"quoi que ce soit\" (anything at all) are fixed subjunctive expressions. They are most common in negative or restrictive contexts, where everyday French keeps the full \"ne... pas\": \"je n'ai pas parlé à qui que ce soit\" (I didn't talk to anyone at all; \"ne\" alone is literary), \"s'il te faut quoi que ce soit, dis-le-moi\".",
           "Don't confuse \"quoi que\" (whatever, two words, + subjunctive) with \"quoique\" (although, one word): \"quoi que tu dises, je pars\" vs \"quoiqu'il soit tard, je pars\".",
         ],
         examples: [
-          { es: "Je n'ai parlé de ton projet à qui que ce soit.", en: "I haven't told anyone at all about your project." },
+          { es: "Je n'ai pas parlé de ton projet à qui que ce soit.", en: "I haven't told anyone at all about your project." },
           { es: "S'il te faut quoi que ce soit, dis-le-moi.", en: "If you need anything at all, tell me." },
           { es: "Quoi que tu dises, je pars demain.", en: "Whatever you say, I'm leaving tomorrow." },
           { es: "Quoiqu'il soit tard, je vais finir ce chapitre.", en: "Although it's late, I'm going to finish this chapter." },
@@ -303,8 +303,8 @@ export const FR_B2_U08: Lesson[] = [
     exercises: [
       {
         type: "dictation",
-        audio: "Je n'ai parlé de ton projet à qui que ce soit.",
-        explanation: "\"Qui que ce soit\": four words, subjunctive \"soit\".",
+        audio: "Je n'ai pas parlé de ton projet à qui que ce soit.",
+        explanation: "\"Qui que ce soit\": four words, subjunctive \"soit\"; the full \"ne... pas\" stays.",
       },
       {
         type: "dictation",

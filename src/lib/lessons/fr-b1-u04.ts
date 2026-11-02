@@ -502,15 +502,15 @@ export const FR_B1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"Quand j'étais petit, on ___ l'été chez mes grands-parents.\" Which form, and why?",
+            question: "How do you say: When I was little, we spent the summer at my grandparents'?",
             options: [
-              "a passé: a completed event",
-              "vient de passer: recent past",
-              "est en train de passer: in progress now",
-              "passait: a habit (imparfait)",
+              "Quand j'étais petit, on a passé l'été chez mes grands-parents.",
+              "Quand j'étais petit, on vient de passer l'été chez mes grands-parents.",
+              "Quand j'étais petit, on est en train de passer l'été chez mes grands-parents.",
+              "Quand j'étais petit, on passait l'été chez mes grands-parents.",
             ],
             correctIndex: 3,
-            explanation: "\"Quand j'étais petit\" introduces a repeated habit: imparfait.",
+            explanation: "\"Quand j'étais petit\" introduces a repeated habit (every summer), so the imparfait \"passait\". \"A passé\" would be one particular summer; \"vient de\" and \"est en train de\" are about now.",
           },
         ],
       },
@@ -665,15 +665,15 @@ export const FR_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Je ___ chez moi depuis une heure.\" (être) Which form, and why?",
+        question: "How do you say: I've been at home for an hour?",
         options: [
-          "ai été: a completed event",
-          "étais: background in the past",
-          "suis: still going on (present + depuis)",
-          "venais d'être: recent past",
+          "J'ai été chez moi depuis une heure.",
+          "J'étais chez moi depuis une heure.",
+          "Je suis chez moi depuis une heure.",
+          "Je venais d'être chez moi depuis une heure.",
         ],
         correctIndex: 2,
-        explanation: "\"Depuis\" + a situation still going on → present.",
+        explanation: "\"Depuis\" + a situation still going on → present: \"je suis\". \"*J'ai été... depuis\" copies the English present perfect; \"j'étais... depuis\" would mean I had been (at some past moment).",
       },
       {
         type: "listen-choose",
@@ -2254,7 +2254,7 @@ export const FR_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Transform \"Je veux partir\" so that your brother is the one leaving.",
+        question: "How do you say: I want my brother to leave?",
         options: [
           "Je veux que mon frère parte.",
           "Je veux mon frère partir.",
@@ -2707,8 +2707,8 @@ export const FR_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Mes parents sont contents ___ en France.\" (I'm the one studying)",
-        options: ["que j'étudie", "d'étudier", "que j'étudies", "que j'étudier"],
+        question: "How do you say: My parents are happy I'm studying in France?",
+        options: ["Mes parents sont contents que j'étudie en France.", "Mes parents sont contents d'étudier en France.", "Mes parents sont contents que j'étudies en France.", "Mes parents sont contents que j'étudier en France."],
         correctIndex: 0,
         explanation: "Your parents feel, you study: different subjects, so \"que j'étudie\".",
       },

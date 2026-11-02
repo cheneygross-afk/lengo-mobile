@@ -411,7 +411,7 @@ export const FR_A1_U09: Lesson[] = [
         body: [
           "Since \"ce livre\" means both this book and that book, French adds \"-ci\" (here) or \"-là\" (there) to the noun when you really need to contrast two things: \"ce livre-ci\" (this book here) and \"ce livre-là\" (that book there).",
           "The hyphen joins the tag to the noun: \"cette robe-ci\", \"ces chaussures-là\". You'll mostly hear this in shops and when choosing: \"Je prends ce gâteau-ci ou ce gâteau-là ?\"",
-          "In everyday speech \"-là\" is far more common than \"-ci\" and often just means that one, with no real sense of distance: \"Ce film-là, je ne l'aime pas\" (recognition). Use \"-ci\" only when you contrast near and far.",
+          "In everyday speech \"-là\" is far more common than \"-ci\" and often just means that one, with no real sense of distance: \"Ce film-là, je ne l'aime pas\" (I don't like that film; just recognise the \"l'\" for now). Use \"-ci\" only when you contrast near and far.",
         ],
         examples: [
           { es: "Je préfère ce livre-ci.", en: "I prefer this book (here)." },
@@ -2469,6 +2469,7 @@ export const FR_A1_U09: Lesson[] = [
         prompt: "Translate into French.",
         source: "This old man is my neighbour.",
         answer: "Ce vieil homme est mon voisin.",
+        altAnswers: ["Ce vieux monsieur est mon voisin.", "Cet homme âgé est mon voisin."],
         explanation: "\"Vieux\" becomes \"vieil\" before the mute h of \"homme\" (Unit 1). \"Ce\" stays \"ce\": it sits before \"vieil\", which starts with a consonant.",
       },
       {

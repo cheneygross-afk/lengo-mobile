@@ -556,7 +556,7 @@ export const FR_B1_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence describes a feeling as background?",
+            question: "How do you say: I was scared the whole flight?",
             options: ["Pendant tout le vol, j'avais peur.", "Au décollage, j'ai eu peur.", "J'ai eu peur une seconde.", "Tout à coup, j'ai eu peur."],
             correctIndex: 0,
             explanation: "Imparfait for an ongoing state.",
@@ -1098,7 +1098,7 @@ export const FR_B1_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I hope you'll be there?",
         options: ["J'espère que tu seras là.", "J'espère que tu sois là.", "Pourvu que tu seras là.", "Je souhaite que tu seras là."],
         correctIndex: 0,
         explanation: "\"Espérer que\" + indicative; the others need the subjunctive \"sois\".",

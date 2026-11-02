@@ -412,7 +412,7 @@ export const FR_B2_U03: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm writing so that you're informed of the changes. (formal)",
         answer: "Je vous écris afin que vous soyez informés des changements.",
-        altAnswers: ["Je vous écris pour que vous soyez informés des changements.", "Je vous écris afin que vous soyez informé des changements.", "Je vous écris pour que vous soyez informé des changements.", "Je vous écris afin que vous soyez informée des changements."],
+        altAnswers: ["Je vous écris pour que vous soyez informés des changements.", "Je vous écris afin que vous soyez informé des changements.", "Je vous écris pour que vous soyez informé des changements.", "Je vous écris afin que vous soyez informée des changements.", "Je vous écris pour que vous soyez informée des changements.", "Je vous écris afin que vous soyez informées des changements.", "Je vous écris pour que vous soyez informées des changements."],
         explanation: "\"Soyez\": no i in the subjunctive of être.",
       },
       {
@@ -811,7 +811,7 @@ export const FR_B2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "I finished the report [before my boss asked] me for it.",
+        en: "I finished the report [before my boss] asked me for it.",
         sentence: "J'ai fini le rapport ___ me le demande.",
         answer: "avant que ma cheffe",
         altAnswers: ["avant que mon chef", "avant que ma cheffe ne", "avant que mon chef ne"],
@@ -1353,7 +1353,7 @@ export const FR_B2_U03: Lesson[] = [
         heading: "Sans que: without someone doing something",
         body: [
           "\"Sans que\" + subjunctive: \"Il est parti sans que je le voie\" (he left without my seeing him). Same subject → \"sans\" + infinitive: \"Il est parti sans dire au revoir.\"",
-          "\"Sans que\" already contains a negative idea, so it never takes \"pas\". With \"personne\" and \"rien\", there is no \"ne\" either: \"Elle est sortie sans que personne la remarque\", \"Ils ont tout réglé sans que rien soit écrit.\" Writing \"sans que personne ne\" is very common in speech, but the standard form has no \"ne\".",
+          "\"Sans que\" already contains a negative idea, so it never takes \"pas\". With \"personne\" and \"rien\", there is no \"ne\" either: \"Elle est sortie sans que personne la remarque\", \"Ils ont tout réglé sans que rien soit écrit.\" You will often hear, and even read, \"sans que personne ne...\": it is widespread, but careful grammars prefer the form with no \"ne\", and that is the one to use in exams.",
         ],
         examples: [
           { es: "Il est parti sans que je le voie.", en: "He left without my seeing him." },
@@ -1431,7 +1431,7 @@ export const FR_B2_U03: Lesson[] = [
         source: "You can go out provided you're back before midnight. (to a teenager)",
         answer: "Tu peux sortir à condition de rentrer avant minuit.",
         altAnswers: ["Tu peux sortir pourvu que tu rentres avant minuit."],
-        explanation: "Same subject (you go out, you come back): \"à condition de\" + infinitive, not \"à condition que tu rentres\". \"Pourvu que\" has no infinitive partner, so it keeps its clause.",
+        explanation: "Same subject (you go out, you come back): \"à condition de\" + infinitive. \"À condition que tu rentres\" is heard, but with one subject French prefers the infinitive. \"Pourvu que\" has no infinitive partner, so it keeps its clause.",
       },
       {
         type: "translate",

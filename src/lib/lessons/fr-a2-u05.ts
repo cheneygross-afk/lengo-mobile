@@ -184,7 +184,7 @@ export const FR_A2_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're telling a friend what you did yesterday evening: I got home, I had a coffee and I went out again. Which is right?",
+        question: "You're telling a friend what you did yesterday evening: I got home, I had a coffee and I went out again. What do you say?",
         options: ["Je suis rentré, j'ai pris un café et je suis ressorti.", "Je rentrais, je prenais un café et je ressortais.", "Je suis rentré, je prenais un café et je ressortais.", "Je rentrais, j'ai pris un café et je ressortais."],
         correctIndex: 0,
         explanation: "A sequence of events is all passé composé. The imparfait version would mean it was a habit (I used to get home...).",

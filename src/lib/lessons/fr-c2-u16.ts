@@ -1286,9 +1286,9 @@ export const FR_C2_U16: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "For your part, you will send us the booking contract by 30 April.",
-        answer: "Du vôtre, vous nous ferez parvenir le contrat de réservation d'ici le 30 avril.",
-        altAnswers: ["De votre côté, vous nous ferez parvenir le contrat de réservation d'ici le 30 avril.", "De votre côté, vous nous enverrez le contrat de réservation d'ici le 30 avril.", "De votre côté, vous nous ferez parvenir le contrat de réservation avant le 30 avril."],
-        explanation: "\"Du vôtre\" (= de votre côté) echoes \"de notre côté\"; \"d'ici le\" + date means by.",
+        answer: "De votre côté, vous nous ferez parvenir le contrat de réservation d'ici le 30 avril.",
+        altAnswers: ["Pour votre part, vous nous ferez parvenir le contrat de réservation d'ici le 30 avril.", "Du vôtre, vous nous ferez parvenir le contrat de réservation d'ici le 30 avril.", "De votre côté, vous nous enverrez le contrat de réservation d'ici le 30 avril.", "De votre côté, vous nous ferez parvenir le contrat de réservation avant le 30 avril."],
+        explanation: "\"De votre côté\" (for your part); \"du vôtre\" works only right after \"de notre côté\", as in the email. \"D'ici le\" + date means by.",
       },
       {
         type: "translate",

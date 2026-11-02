@@ -414,7 +414,7 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[While knowing] it was risky, he accepted.",
+        en: "[Even though he knew] it was risky, he accepted.",
         sentence: "___ que c'était risqué, il a accepté.",
         answer: "Tout en sachant",
         explanation: "\"Tout en\" + -ant for concession; \"sachant\" is the irregular participle of \"savoir\".",

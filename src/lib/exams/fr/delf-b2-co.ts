@@ -111,8 +111,8 @@ export const DELF_B2_CO: ExamPaper = {
           source: 0,
           question: "À quelle condition ce mouvement peut-il être positif, selon le sociologue ?",
           options: [
-            "Si l'État finance le télétravail.",
-            "Si les grandes métropoles limitent les loyers.",
+            "Si l'État finance davantage le télétravail des cadres installés à la campagne.",
+            "Si les grandes métropoles limitent fortement la hausse de leurs loyers.",
             "Si l'on construit des logements abordables et si les arrivants s'impliquent localement.",
           ],
           answer: 2,
@@ -285,9 +285,9 @@ export const DELF_B2_CO: ExamPaper = {
           source: 1,
           question: "Quel est l'avis de l'homme ?",
           options: [
-            "Il partage entièrement l'avis de la femme.",
+            "Il partage entièrement l'avis de la femme sur la fatigue des enfants.",
             "Il y voit un avantage, mais regrette des inégalités entre communes.",
-            "Il pense que la réforme est parfaite.",
+            "Il pense que la réforme est parfaite et qu'il ne faut rien changer.",
           ],
           answer: 1,
           explanation: "Sa fille fait du théâtre gratuitement, mais « ça n'est pas pareil dans toutes les communes ».",
@@ -297,8 +297,8 @@ export const DELF_B2_CO: ExamPaper = {
           source: 2,
           question: "Pour faire un service civique, il faut…",
           options: [
-            "avoir au moins le baccalauréat.",
-            "avoir déjà travaillé dans une association.",
+            "avoir au moins le baccalauréat ou un diplôme équivalent.",
+            "avoir déjà travaillé quelques mois dans une association.",
             "avoir entre 16 et 25 ans et être motivé.",
           ],
           answer: 2,

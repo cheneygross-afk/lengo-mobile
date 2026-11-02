@@ -1668,7 +1668,7 @@ export const FR_A2_U21: Lesson[] = [
         type: "speak",
         text: "Je l'ai goûté et j'en ai pris trois cents grammes.",
         prompt: "Say it in French: I tasted it and took 300 grams.",
-        tip: "Trois cents: the s of trois links with a z sound.",
+        tip: "Trois cents: no liaison, because cents starts with a consonant; the final s of cents is silent too.",
         explanation: "\"L'\" = the cheese (direct object); \"en\" + quantity for how much you took.",
       },
     ],
@@ -1844,7 +1844,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I didn't use to eat any' (imparfait of \"Je n'en mange pas\")?",
+        question: "Strawberries? How do you say: I didn't use to eat any?",
         options: ["Je n'en mangeais pas.", "Je n'en ai pas mangé.", "Je n'en mangerai pas.", "Je ne mangeais pas en."],
         correctIndex: 0,
         explanation: "Same pronoun position, imparfait ending: \"mangeais\" (with the e that keeps the g soft).",

@@ -301,7 +301,7 @@ export const FR_C1_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In careful written French, which is correct for: My sister? I remember her well.",
+        question: "Which sentence follows the recommended written usage for: My sister? I remember her well.",
         options: ["Ma sœur ? Je me souviens bien d'elle.", "Ma sœur ? Je m'en souviens bien.", "Ma sœur ? Je lui souviens bien.", "Ma sœur ? Je me souviens bien à elle."],
         correctIndex: 0,
         explanation: "A specific person: \"d'elle\".",

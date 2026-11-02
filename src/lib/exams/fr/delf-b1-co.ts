@@ -64,8 +64,8 @@ export const DELF_B1_CO: ExamPaper = {
           source: 0,
           question: "Que se passera-t-il si M. Lambert ne répond pas avant jeudi ?",
           options: [
-            "Le loyer va augmenter.",
-            "L'agence fermera son dossier.",
+            "Le loyer de l'appartement va augmenter.",
+            "L'agence fermera définitivement son dossier.",
             "Le propriétaire pourra louer à quelqu'un d'autre.",
           ],
           answer: 2,

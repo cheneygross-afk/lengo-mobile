@@ -1840,7 +1840,7 @@ export const FR_B2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "'She works at night so as not to be seen.' Which is correct?",
         options: ["Elle travaille la nuit pour ne pas être vue.", "Elle travaille la nuit pour qu'elle ne soit pas vue.", "Elle travaille la nuit afin que ne pas être vue.", "Elle travaille la nuit pour ne pas qu'elle est vue."],
         correctIndex: 0,
         explanation: "Same subject → \"pour ne pas\" + infinitive.",

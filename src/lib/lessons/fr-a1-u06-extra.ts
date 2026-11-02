@@ -1032,7 +1032,7 @@ export const FR_A1_U06_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Il est six heures moins le quart.", en: "It's a quarter to six." },
-          { es: "= Il est dix-sept heures quarante-cinq.", en: "= It's 17:45." },
+          { es: "Il est dix-sept heures quarante-cinq.", en: "It's 17:45 (a quarter to six in the evening, on the 24-hour clock)." },
           { es: "Il est midi et demi.", en: "It's half past twelve (noon)." },
           { es: "Le cours finit à vingt heures quinze.", en: "The class finishes at 8:15 pm." },
           { es: "J'arrive à neuf heures du soir.", en: "I'm arriving at nine in the evening." },

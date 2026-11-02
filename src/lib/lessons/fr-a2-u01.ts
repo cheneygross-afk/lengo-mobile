@@ -892,7 +892,7 @@ export const FR_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which one means: two days ago?",
+        question: "How do you say: two days ago?",
         options: ["depuis deux jours", "dans deux jours", "pendant deux jours", "il y a deux jours"],
         correctIndex: 3,
         explanation: "\"Il y a\" + time = ago. \"Dans deux jours\" is in two days' time; the others come later in the Elementary level.",
@@ -2025,7 +2025,7 @@ export const FR_A2_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which spelling is correct for: He's happy and he slept well?",
+            question: "How do you write: He's happy and he slept well?",
             options: [
               "Il et content est il a bien dormi.",
               "Il est content et il à bien dormi.",

@@ -106,7 +106,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
         source: "If experts disagree, all the more so the general public.",
         answer: "Si les experts ne sont pas d'accord, a fortiori le grand public.",
         altAnswers: ["Si les experts sont en désaccord, a fortiori le grand public.", "Si les experts ne s'accordent pas, a fortiori le grand public."],
-        explanation: "\"A fortiori\" (Latin, no accent in modern spelling) extends the reasoning to a stronger case.",
+        explanation: "\"A fortiori\" (Latin, traditionally written without an accent; the 1990 spelling reform also allows \"à fortiori\") extends the reasoning to a stronger case.",
       },
       {
         type: "fill-blank",

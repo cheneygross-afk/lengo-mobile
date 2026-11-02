@@ -617,7 +617,7 @@ export const FR_A1_U07_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "Hugo writes back: It's cold in Paris and it's grey.",
         answer: "Il fait froid à Paris et il fait gris.",
-        altAnswers: ["À Paris, il fait froid et il fait gris.", "Il fait froid à Paris et le ciel est gris.", "Il fait froid et gris à Paris."],
+        altAnswers: ["À Paris, il fait froid et il fait gris.", "Il fait froid à Paris et le ciel est gris.", "Il fait froid et gris à Paris.", "Il fait froid et il fait gris à Paris.", "À Paris, il fait froid et gris."],
         explanation: "\"Il fait gris\" is the everyday way to say it's grey (overcast).",
       },
       {
