@@ -216,10 +216,10 @@ export const DE_B1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct German?",
+        question: "How do you say 'I'm having my hair cut.'?",
         options: ["Ich lasse meine Haare schneiden.", "Ich lasse meine Haare zu schneiden.", "Ich lasse zu schneiden meine Haare.", "Ich lasse, meine Haare zu schneiden."],
         correctIndex: 0,
-        explanation: "\"Lassen\" takes a bare infinitive, like the modals: \"Ich lasse meine Haare schneiden\" (I'm having my hair cut). Even more idiomatic is \"Ich lasse mir die Haare schneiden\".",
+        explanation: "\"Lassen\" takes a bare infinitive, like the modals: \"lasse ... schneiden\" (\"Ich lasse mir die Haare schneiden\" is even more idiomatic). \"*lasse meine Haare zu schneiden*\" adds a \"zu\" that \"lassen\" never takes.",
       },
       {
         type: "listen-choose",
@@ -468,10 +468,10 @@ export const DE_B1_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'I hope to see you soon.' (to a friend)?",
             options: ["Ich hoffe, dich bald zu sehen.", "Ich hoffe, dich bald sehen.", "Ich will dich bald zu sehen.", "Ich möchte dich bald zu sehen."],
             correctIndex: 0,
-            explanation: "\"Hoffen\" is an ordinary verb and takes \"zu\". \"Wollen\" and \"möchte\" are modals and never do.",
+            explanation: "\"Hoffen\" is an ordinary verb, so it takes \"zu\": \"dich bald zu sehen\". \"*Ich möchte dich bald zu sehen*\" is wrong because modals never take \"zu\".",
           },
         ],
       },
@@ -1168,10 +1168,10 @@ export const DE_B1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which resolution is written correctly?",
+        question: "How do you write 'I've resolved to tidy up more often.'?",
         options: ["Ich habe mir vorgenommen, öfter aufzuräumen.", "Ich habe mir vorgenommen, öfter zu aufräumen.", "Ich will öfter aufzuräumen.", "Ich habe mir vorgenommen, öfter aufräumen."],
         correctIndex: 0,
-        explanation: "\"Sich vornehmen\" + zu-infinitive with \"zu\" inside the separable verb. After \"ich will\" there would be no \"zu\" at all.",
+        explanation: "\"Sich vornehmen\" + zu-infinitive, and with a separable verb \"zu\" goes inside: \"aufzuräumen\". \"*zu aufräumen*\" puts it in front of the whole verb.",
       },
       {
         type: "word-order",
@@ -1953,10 +1953,10 @@ export const DE_B1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'm going shopping today.'?",
         options: ["Ich gehe heute einkaufen.", "Ich gehe heute einzukaufen.", "Ich gehe heute zu einkaufen.", "Ich gehe heute, um einkaufen."],
         correctIndex: 0,
-        explanation: "\"Gehen\" + bare infinitive: \"einkaufen gehen\". (\"Ich gehe in die Stadt, um einzukaufen\" would also be correct, with \"um\".)",
+        explanation: "\"Gehen\" + bare infinitive: \"einkaufen gehen\". \"*Ich gehe heute einzukaufen*\" adds \"zu\"; that needs \"um\" (\"in die Stadt, um einzukaufen\").",
       },
       {
         type: "multiple-choice",

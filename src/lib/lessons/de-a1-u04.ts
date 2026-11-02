@@ -159,10 +159,10 @@ export const DE_A1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He's becoming a doctor.'?",
         options: ["Er wird Arzt.", "Er werdet Arzt.", "Er wirdt Arzt.", "Er werd Arzt."],
         correctIndex: 0,
-        explanation: "The er form is \"wird\", with no extra ending.",
+        explanation: "The er form of \"werden\" is irregular: \"er wird\", with no extra ending. \"*Er werdet*\" adds the regular -et, which \"werden\" doesn't use here.",
       },
       {
         type: "translate",
@@ -547,10 +547,10 @@ export const DE_A1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'She'd like a cola.'?",
         options: ["Sie möchte eine Cola.", "Sie möchtet eine Cola.", "Sie möchtest eine Cola.", "Sie mag eine Cola, bitte."],
         correctIndex: 0,
-        explanation: "Er/sie form: \"möchte\", with no -t.",
+        explanation: "\"Möchte\" has no -t for er/sie: \"sie möchte\". \"*Sie möchtet*\" adds a -t; \"mag\" means 'likes', not 'would like'.",
       },
       {
         type: "translate",
@@ -658,10 +658,10 @@ export const DE_A1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'I can swim well.'?",
             options: ["Ich kann gut schwimmen.", "Ich kann schwimmen gut.", "Ich kann zu schwimmen.", "Ich kann gut zu schwimmen."],
             correctIndex: 0,
-            explanation: "The infinitive goes last, and modals never take \"zu\".",
+            explanation: "The infinitive goes last (\"gut schwimmen\"), and modals never take \"zu\". \"*Ich kann schwimmen gut*\" leaves the infinitive in the middle.",
           },
         ],
       },
@@ -744,10 +744,10 @@ export const DE_A1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'She can dance well.'?",
         options: ["Sie kann gut tanzen.", "Sie kannt gut tanzen.", "Sie kann tanzen gut.", "Sie können gut tanzt."],
         correctIndex: 0,
-        explanation: "\"Sie kann\" has no ending; the infinitive \"tanzen\" goes last.",
+        explanation: "\"Sie kann\" has no ending, and the infinitive \"tanzen\" goes last. \"*Sie kannt*\" adds a -t that modals don't take with er/sie.",
       },
       {
         type: "translate",

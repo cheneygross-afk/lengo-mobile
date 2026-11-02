@@ -424,10 +424,10 @@ export const DE_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The jacket hung in the wardrobe all winter.' (Perfekt)?",
         options: ["Die Jacke hat den ganzen Winter im Schrank gehangen.", "Die Jacke hat den ganzen Winter im Schrank gehängt.", "Die Jacke ist den ganzen Winter im Schrank gehängt.", "Die Jacke hängte den ganzen Winter im Schrank."],
         correctIndex: 0,
-        explanation: "Intransitive (the jacket was hanging): strong participle \"gehangen\".",
+        explanation: "Intransitive (the jacket was hanging): strong participle \"gehangen\". \"*gehängt*\" belongs to transitive \"hängen\" (to hang something up).",
       },
       {
         type: "matching",
@@ -637,10 +637,10 @@ export const DE_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence about a living person is correct?",
+        question: "How do you say 'My son was born in Bremen in 2018.'?",
         options: ["Mein Sohn ist 2018 in Bremen geboren.", "Mein Sohn wurde 2018 in Bremen geboren worden.", "Mein Sohn hat 2018 in Bremen geboren.", "Mein Sohn war 2018 in Bremen geboren worden."],
         correctIndex: 0,
-        explanation: "For the living \"ist ... geboren\" is usual (\"wurde ... geboren\" is also correct).",
+        explanation: "For a living person \"ist ... geboren\" is usual (\"wurde ... geboren\" is also correct). \"*wurde ... geboren worden*\" piles two passives on top of each other.",
       },
       {
         type: "listen-choose",
@@ -813,10 +813,10 @@ export const DE_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'She thought he had forgotten her.'?",
         options: ["Sie dachte, er hätte sie vergessen.", "Sie denkte, er hätte sie vergessen.", "Sie dank, er hätte sie vergessen.", "Sie dachtete, er hätte sie vergessen."],
         correctIndex: 0,
-        explanation: "Mixed \"denken → dachte\".",
+        explanation: "Mixed verb: \"denken → dachte\", with a vowel change and the -te ending. \"*denkte*\" treats it as a regular verb.",
       },
       {
         type: "word-order",
@@ -1043,7 +1043,7 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Text Detective: Who Is Speaking Here?",
-    summary: "Read literary extracts that mix narration and characters' thoughts and decide whose voice each sentence carries: narrator, direct speech, indirect speech, erlebte Rede or innerer Monolog.",
+    summary: "Read literary extracts that mix narration and characters' thoughts and decide whose voice each sentence carries: narrator, direct speech, indirect speech, \"erlebte Rede\" or \"innerer Monolog\".",
     duration: "17 min",
     sections: [
       {
@@ -1249,7 +1249,7 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Literary Narration, Part 4 of 6",
-    summary: "Write erlebte Rede: third person and Präteritum carrying a character's questions, particles and time words, with \"würde\" + infinitive as the future in the past, and tell it apart from innerer Monolog and indirect speech.",
+    summary: "Write \"erlebte Rede\": third person and Präteritum carrying a character's questions, particles and time words, with \"würde\" + infinitive as the future in the past, and tell it apart from \"innerer Monolog\" and indirect speech.",
     duration: "19 min",
     sections: [
       {
@@ -1649,10 +1649,10 @@ export const DE_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct German?",
+        question: "How do you say 'She had hardly rung the bell when the door opened.'?",
         options: ["Kaum hatte sie geklingelt, als die Tür aufging.", "Kaum sie hatte geklingelt, als die Tür aufging.", "Kaum hatte sie geklingelt, als ging die Tür auf.", "Kaum sie geklingelt hatte, ging die Tür auf."],
         correctIndex: 0,
-        explanation: "\"Kaum\" + verb second; \"als\" + verb at the end. (\"Kaum dass sie geklingelt hatte\" would also work.)",
+        explanation: "\"Kaum\" takes the verb second (\"Kaum hatte sie\"); \"als\" sends its verb to the end (\"als die Tür aufging\"). \"*Kaum sie geklingelt hatte*\" needs \"kaum dass\" to work.",
       },
       {
         type: "word-order",
@@ -1681,7 +1681,7 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Style Workshop: Write in Erlebte Rede",
-    summary: "Turn direct and indirect speech into erlebte Rede in a short scene at a train station, keeping the character's voice.",
+    summary: "Turn direct and indirect speech into \"erlebte Rede\" in a short scene at a train station, keeping the character's voice.",
     duration: "19 min",
     sections: [
       {
@@ -2160,10 +2160,10 @@ export const DE_C1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct German punctuation and word order?",
+            question: "How do you punctuate this in German: 'Are you coming?' asked Lena.",
             options: ["„Kommst du mit?“, fragte Lena.", "„Kommst du mit?“ Lena fragte.", "„Kommst du mit?,“ fragte Lena.", "„Kommst du mit“? fragte Lena."],
             correctIndex: 0,
-            explanation: "The question mark stays inside, a comma follows the closing mark, then the inverted inquit.",
+            explanation: "The question mark stays inside, a comma follows the closing mark, then the inverted inquit \"fragte Lena\". \"*Lena fragte*\" is English order.",
           },
         ],
       },
@@ -2268,10 +2268,10 @@ export const DE_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which inquit is correct German?",
+        question: "How do you write: 'Thank you,' she said.",
         options: ["„Danke“, sagte sie.", "„Danke“, sie sagte.", "„Danke.“ sagte sie.", "„Danke“ sie sagte."],
         correctIndex: 0,
-        explanation: "Comma after the closing mark, then verb before subject.",
+        explanation: "Comma after the closing mark, then verb before subject: \"sagte sie\". The quote's own full stop disappears; keeping it and dropping the comma is wrong.",
       },
       {
         type: "matching",
@@ -2312,7 +2312,7 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Mastery Check: Literary Narration, Part 2",
-    summary: "Show, without hints, that you can write erlebte Rede, use inversion for effect and report speech with precise verbs and the inverted inquit.",
+    summary: "Show, without hints, that you can write \"erlebte Rede\", use inversion for effect and report speech with precise verbs and the inverted inquit.",
     duration: "16 min",
     sections: [
       {
@@ -2496,7 +2496,7 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Real-World Mission: Write a Very Short Story",
-    summary: "Plan and write a 250-word \"Kurzgeschichte\" (short story) for a writing competition, in the Präteritum with an open ending and one passage of erlebte Rede.",
+    summary: "Plan and write a 250-word \"Kurzgeschichte\" (short story) for a writing competition, in the Präteritum with an open ending and one passage of \"erlebte Rede\".",
     duration: "20 min",
     sections: [
       {
@@ -2698,7 +2698,7 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 14,
     title: "Spiral Review: Narrating and Reporting",
-    summary: "Combine indirect speech with Konjunktiv I and its tense shifts (from Upper-intermediate) with this unit's story tenses and erlebte Rede.",
+    summary: "Combine indirect speech with Konjunktiv I and its tense shifts (from Upper-intermediate) with this unit's story tenses and \"erlebte Rede\".",
     duration: "19 min",
     sections: [
       {

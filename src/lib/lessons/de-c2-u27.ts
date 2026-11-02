@@ -236,7 +236,7 @@ export const DE_C2_U27: Lesson[] = [
         body: [
           "\"Verursachen\" (to cause) gives \"der Verursacher\" (the party responsible, the polluter) and \"das Verursacherprinzip\" (the polluter pays principle): whoever causes environmental damage pays for it. \"Hauptverursacher\" is the main cause or the main culprit: \"Der Verkehr ist einer der Hauptverursacher von Treibhausgasen.\"",
           "For paying, German uses \"für etwas aufkommen\" (to bear the costs of something) and \"haften für\" (to be liable for). \"Der Ausgleich\" or \"die Kompensation\" is offsetting: \"einen CO2-Ausgleich zahlen\" when you book a flight. Whether such projects achieve anything is disputed (\"umstritten\").",
-          "\"Die Ressourcen\" are resources; you \"schont\" them (conserve, use them sparingly) or you \"verschwendet\" them (waste). \"Der ökologische Fußabdruck\" is the ecological footprint.",
+          "\"Die Ressourcen\" are resources; you can \"Ressourcen schonen\" (conserve them, use them sparingly) or \"Ressourcen verschwenden\" (waste them). \"Der ökologische Fußabdruck\" is the ecological footprint.",
         ],
         examples: [
           { es: "Der Verkehr ist einer der Hauptverursacher von Treibhausgasen.", en: "Transport is one of the main sources of greenhouse gases." },

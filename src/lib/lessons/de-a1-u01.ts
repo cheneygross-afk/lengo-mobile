@@ -1985,10 +1985,10 @@ export const DE_A1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The chairs are old.'?",
         options: ["Die Stühle sind alt.", "Die Stühle sind alte.", "Die Stühle ist alt.", "Die Stühle sind alten."],
         correctIndex: 0,
-        explanation: "After sein the adjective takes no ending, even with a plural.",
+        explanation: "After \"sind\" the adjective takes no ending, even with a plural subject: \"alt\". \"*Die Stühle sind alte*\" adds an ending that only goes before a noun.",
       },
       {
         type: "word-order",

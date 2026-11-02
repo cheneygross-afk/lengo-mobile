@@ -80,10 +80,10 @@ export const DE_B1_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'I'm neither hungry nor thirsty.'?",
             options: ["Ich habe weder Hunger noch Durst.", "Ich habe nicht weder Hunger noch Durst.", "Ich habe keinen weder Hunger noch Durst.", "Ich habe weder Hunger oder Durst."],
             correctIndex: 0,
-            explanation: "\"Weder\" pairs with \"noch\", never with \"oder\", and it never combines with \"nicht\" or \"kein\".",
+            explanation: "\"Weder\" pairs with \"noch\" and already contains the negation. \"*nicht weder*\" doubles it, and \"*weder ... oder*\" uses the wrong partner.",
           },
         ],
       },
@@ -373,10 +373,10 @@ export const DE_B1_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'Either we cook or we go out to eat.'?",
         options: ["Entweder kochen wir oder wir gehen essen.", "Entweder kochen wir oder gehen wir essen.", "Entweder wir kochen oder gehen wir essen.", "Entweder wir kochen noch wir gehen essen."],
         correctIndex: 0,
-        explanation: "After \"oder\" the word order is always normal: \"oder wir gehen\".",
+        explanation: "\"Entweder\" can fill position 1 (verb next), but after \"oder\" the order is always normal: \"oder wir gehen\". \"*oder gehen wir essen*\" inverts after \"oder\".",
       },
       {
         type: "translate",
@@ -571,10 +571,10 @@ export const DE_B1_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He has neither siblings nor children.'?",
         options: ["Er hat weder Geschwister noch Kinder.", "Er hat weder keine Geschwister noch keine Kinder.", "Er hat keine weder Geschwister noch Kinder.", "Er hat nicht Geschwister noch Kinder."],
         correctIndex: 0,
-        explanation: "\"Weder...noch\" replaces \"kein\" completely.",
+        explanation: "\"Weder ... noch\" replaces \"kein\" completely. \"*weder keine Geschwister noch keine Kinder*\" negates twice.",
       },
       {
         type: "translate",
@@ -1056,10 +1056,10 @@ export const DE_B1_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'Cycling is not only healthy but also cheap.'?",
             options: ["Rad fahren ist nicht nur gesund, sondern auch billig.", "Rad fahren ist nicht nur gesund, aber auch billig.", "Rad fahren ist nicht nur gesund, sondern billig auch.", "Rad fahren ist nur nicht gesund, sondern auch billig."],
             correctIndex: 0,
-            explanation: "After \"nicht nur\" the second part is always \"sondern auch\".",
+            explanation: "After \"nicht nur\" the second part is \"sondern auch\". \"*aber auch*\" copies English but.",
           },
         ],
       },
@@ -1125,10 +1125,10 @@ export const DE_B1_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'The older I get, the calmer I am.'?",
             options: ["Je älter ich werde, desto ruhiger bin ich.", "Je älter ich werde, desto ich bin ruhiger.", "Je älter werde ich, desto ruhiger bin ich.", "Je ich älter werde, desto ruhiger bin ich."],
             correctIndex: 0,
-            explanation: "Verb last after \"je\" (\"werde\"), verb straight after \"desto + comparative\" (\"bin ich\").",
+            explanation: "Verb last after \"je\" (\"werde\"), verb straight after \"desto\" + comparative (\"bin ich\"). \"*desto ich bin ruhiger*\" puts the subject first.",
           },
           {
             type: "speak",
@@ -1233,7 +1233,7 @@ export const DE_B1_U23: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Pattern Practice: Je mehr, desto besser",
-    summary: "Build je...desto sentences from prompts: \"Je älter ich werde, desto ruhiger bin ich\"; \"Je früher wir losfahren, umso weniger Stau gibt es\".",
+    summary: "Build \"je ... desto\" sentences from prompts: \"Je älter ich werde, desto ruhiger bin ich\"; \"Je früher wir losfahren, umso weniger Stau gibt es\".",
     duration: "12 min",
     sections: [
       {
@@ -1795,10 +1795,10 @@ export const DE_B1_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The longer I've had the café, the more confident I am.'?",
         options: ["Je länger ich das Café habe, desto sicherer bin ich.", "Je länger habe ich das Café, desto sicherer bin ich.", "Je länger ich das Café habe, desto ich bin sicherer.", "Je länger ich habe das Café, desto sicherer bin ich."],
         correctIndex: 0,
-        explanation: "Verb last after \"je\", verb second after \"desto + comparative\".",
+        explanation: "Verb last after \"je\" (\"habe\"), verb straight after \"desto\" + comparative (\"bin ich\"). \"*Je länger habe ich*\" uses question order in the je-half.",
       },
       {
         type: "translate",
@@ -2199,10 +2199,10 @@ export const DE_B1_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'm worried about my parents.'?",
         options: ["Ich mache mir Sorgen um meine Eltern.", "Ich mache mich Sorgen um meine Eltern.", "Ich mache mir Sorgen an meine Eltern.", "Ich sorge mir um meine Eltern."],
         correctIndex: 0,
-        explanation: "\"Sich (dative) Sorgen machen um\" + accusative.",
+        explanation: "\"Sich Sorgen machen um\" + accusative, with the dative reflexive \"mir\". \"*Ich mache mich Sorgen*\" uses the accusative reflexive, but \"Sorgen\" is already the object.",
       },
       {
         type: "translate",
@@ -2598,10 +2598,10 @@ export const DE_B1_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The more often I fly, the calmer I get.'?",
         options: ["Je öfter ich fliege, desto ruhiger werde ich.", "Je öfter fliege ich, desto ruhiger werde ich.", "Je öfter ich fliege, desto ich werde ruhiger.", "Je öfter ich fliege, desto ruhig werde ich."],
         correctIndex: 0,
-        explanation: "Verb last in the je-half, comparative + verb + subject in the desto-half.",
+        explanation: "Verb last in the je-half, then comparative + verb + subject: \"desto ruhiger werde ich\". \"*desto ruhig*\" drops the comparative.",
       },
       {
         type: "translate",

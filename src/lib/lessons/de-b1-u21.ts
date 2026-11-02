@@ -46,10 +46,10 @@ export const DE_B1_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'I saw my neighbour.'?",
             options: ["Ich habe meinen Nachbarn gesehen.", "Ich habe meinen Nachbar gesehen.", "Ich habe meinem Nachbarn gesehen.", "Ich habe meinen Nachbarns gesehen."],
             correctIndex: 0,
-            explanation: "\"Sehen\" takes the accusative (\"meinen\"), and the n-noun \"Nachbar\" adds -n outside the nominative: \"meinen Nachbarn\". There is never an extra -s.",
+            explanation: "\"Sehen\" takes the accusative (\"meinen\"), and the n-noun \"Nachbar\" adds -n outside the nominative: \"meinen Nachbarn\". \"*meinen Nachbar*\" forgets the -n.",
           },
         ],
       },
@@ -219,10 +219,10 @@ export const DE_B1_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Ich habe den Lehrer gefragt.", "Ich habe den Kollege gefragt.", "Ich habe den Polizist gefragt.", "Ich habe den Student gefragt."],
+        question: "How do you say 'I asked the police officer.'?",
+        options: ["Ich habe den Polizisten gefragt.", "Ich habe den Polizist gefragt.", "Ich habe dem Polizisten gefragt.", "Ich habe der Polizist gefragt."],
         correctIndex: 0,
-        explanation: "\"Lehrer\" is a normal masculine noun, so \"den Lehrer\" has no extra ending. \"Kollege\" (-e person), \"Polizist\" (-ist) and \"Student\" (-ent) are weak and need \"den Kollegen\", \"den Polizisten\", \"den Studenten\".",
+        explanation: "\"Polizist\" is a weak noun (-ist), so it adds -en outside the nominative: \"den Polizisten\". \"*den Polizist*\" forgets the ending (a normal noun like \"Lehrer\" would have none: \"den Lehrer\").",
       },
       {
         type: "speak",
@@ -381,10 +381,10 @@ export const DE_B1_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence from a learner's email is correct?",
-        options: ["Felix ist ein netter Kollege.", "Felix ist ein netter Kollegen.", "Ich mag den Kollege.", "Ich habe mit dem Kollege gesprochen."],
+        question: "Which sentence in a learner's email says 'Felix is a nice colleague.'?",
+        options: ["Felix ist ein netter Kollege.", "Felix ist ein netter Kollegen.", "Felix ist einen netten Kollegen.", "Felix ist ein nette Kollege."],
         correctIndex: 0,
-        explanation: "After \"sein\" the noun is nominative, so \"ein netter Kollege\" has no -n (\"ein netter Kollegen\" adds one wrongly). The last two need \"den Kollegen\" and \"dem Kollegen\".",
+        explanation: "After \"sein\" the noun is nominative, the one form of a weak noun without -n: \"ein netter Kollege\". \"*ein netter Kollegen*\" adds the -n wrongly.",
       },
       {
         type: "translate",
@@ -1076,10 +1076,10 @@ export const DE_B1_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct written German?",
+        question: "How do you write 'We went hiking despite the bad weather.'?",
         options: ["Trotz des schlechten Wetters sind wir gewandert.", "Trotz das schlechte Wetter sind wir gewandert.", "Trotz des schlechten Wetter sind wir gewandert.", "Trotz schlechtes Wetter sind wir gewandert."],
         correctIndex: 0,
-        explanation: "\"Trotz\" + genitive needs all three parts: \"des\", adjective -en, and -s on the noun: \"des schlechten Wetters\".",
+        explanation: "\"Trotz\" + genitive needs all three parts: \"des\", adjective -en and -s on the noun (\"des schlechten Wetters\"). \"*des schlechten Wetter*\" forgets the -s.",
       },
       {
         type: "translate",
@@ -1332,10 +1332,10 @@ export const DE_B1_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'In my opinion, he's right.'?",
         options: ["Meiner Meinung nach hat er recht.", "Meiner Meinung nach er hat recht.", "Meine Meinung nach hat er recht.", "Nach meine Meinung hat er recht."],
         correctIndex: 0,
-        explanation: "Dative \"meiner Meinung\" before \"nach\", and the verb comes right after the phrase.",
+        explanation: "\"Meiner Meinung nach\" (dative, \"nach\" after the noun) fills position 1, then the verb. \"*Meiner Meinung nach er hat recht*\" puts the subject before the verb.",
       },
       {
         type: "word-order",
@@ -1475,10 +1475,10 @@ export const DE_B1_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'The customer rang this morning.'?",
             options: ["Der Kunde hat heute Morgen angerufen.", "Der Kunden hat heute Morgen angerufen.", "Den Kunden hat heute Morgen angerufen.", "Der Kundes hat heute Morgen angerufen."],
             correctIndex: 0,
-            explanation: "The subject is nominative singular, the one form of a weak noun without -n: \"der Kunde\".",
+            explanation: "The subject is nominative singular, the one form of a weak noun without -n: \"der Kunde\". \"*Der Kunden*\" adds the -n wrongly.",
           },
           {
             type: "speak",
@@ -1537,10 +1537,10 @@ export const DE_B1_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct written German?",
+        question: "How do you write 'the student's room'?",
         options: ["das Zimmer des Studenten", "das Zimmer des Studentens", "das Zimmer des Student", "das Zimmer der Studenten's"],
         correctIndex: 0,
-        explanation: "Weak nouns take -en in the genitive and never an extra -s: \"des Studenten\".",
+        explanation: "Weak nouns take -en in the genitive and never an extra -s: \"des Studenten\". \"*des Studentens*\" adds the -s of normal masculine nouns.",
       },
       {
         type: "translate",

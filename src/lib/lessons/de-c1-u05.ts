@@ -732,7 +732,7 @@ export const DE_C1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which correction of \"*In der Bibliothek wird es nicht gegessen*\" is right?",
+            question: "Fix \"*In der Bibliothek wird es nicht gegessen*\" so it says 'There's no eating in the library.'",
             options: ["In der Bibliothek wird nicht gegessen.", "In der Bibliothek es wird nicht gegessen.", "Es wird in der Bibliothek es nicht gegessen.", "In der Bibliothek wird es nicht essen."],
             correctIndex: 0,
             explanation: "\"In der Bibliothek\" fills position 1, so the placeholder \"es\" disappears.",
@@ -846,10 +846,10 @@ export const DE_C1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Die Ernte wurde durch den Hagel vernichtet.", "Die Ernte wurde vernichtet durch den Hagel.", "Die Ernte wurde durch dem Hagel vernichtet.", "Die Ernte ist durch den Hagel vernichtet geworden."],
+        question: "How do you say 'The harvest was destroyed by the hail.'?",
+        options: ["Die Ernte wurde durch den Hagel vernichtet.", "Die Ernte wurde durch den Hagel vernichtet worden.", "Die Ernte wurde durch dem Hagel vernichtet.", "Die Ernte ist durch den Hagel vernichtet geworden."],
         correctIndex: 0,
-        explanation: "\"Durch\" + accusative for a natural cause, inside the bracket, and \"vernichtet\" at the end.",
+        explanation: "\"Durch\" + accusative (\"den Hagel\") for the cause, and the participle \"vernichtet\" at the end. \"*durch dem Hagel*\" is wrong because \"durch\" always takes the accusative; \"worden\" belongs only in the Perfekt.",
       },
       {
         type: "translate",
@@ -1263,10 +1263,10 @@ export const DE_C1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I think it's a mistake.'?",
         options: ["Ich glaube, dass es sich um einen Fehler handelt.", "Ich glaube, dass sich um einen Fehler handelt.", "Ich glaube, dass es handelt sich um einen Fehler.", "Ich glaube, dass er sich um einen Fehler handelt."],
         correctIndex: 0,
-        explanation: "In \"sich handeln um\" the \"es\" is the real subject and stays, even in a subordinate clause.",
+        explanation: "In \"sich handeln um\" the \"es\" is the real subject and stays, even in a subordinate clause. \"*dass sich um einen Fehler handelt*\" drops it.",
       },
       {
         type: "matching",

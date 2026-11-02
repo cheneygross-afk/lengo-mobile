@@ -135,10 +135,10 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you ask 'Would you pick me up?' (to a friend)?",
         options: ["Würdest du mich abholen?", "Würdest du mich holen ab?", "Würdest du abholen mich?", "Würde du mich abholen?"],
         correctIndex: 0,
-        explanation: "\"Würdest\" with -st for du; \"abholen\" in one piece at the end.",
+        explanation: "\"Würdest\" has the du ending -st, and \"abholen\" stays in one piece at the end. \"*Würde du*\" is missing the -st.",
       },
       {
         type: "listen-choose",
@@ -766,10 +766,10 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'We'd love to be in Berlin.'?",
         options: ["Wir wären gern in Berlin.", "Wir würden gern in Berlin sein haben.", "Wir wären gern nach Berlin fahren.", "Wir waren gern nach Berlin fahren."],
         correctIndex: 0,
-        explanation: "\"Wären gern\" + a place: we'd like to be in Berlin. With \"fahren\" you'd need \"würden\".",
+        explanation: "\"Wären gern\" + a place means we would like to be there. \"*Wir wären gern nach Berlin fahren*\" mixes patterns: with \"fahren\" you need \"würden\".",
       },
       {
         type: "listen-choose",

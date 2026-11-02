@@ -454,7 +454,7 @@ export const DE_C2_U30: Lesson[] = [
         body: [
           "\"Die Einstellung\" is a shot, the basic unit of film: one continuous take from one camera position. Shots are named by their size: \"die Totale\" (long shot, showing the whole setting), \"die Halbtotale\" (medium long shot), \"die Halbnahe\", \"die Nahaufnahme\" (close-up) and \"die Detailaufnahme\" (extreme close-up, an eye, a hand). A long take without cuts is \"die Plansequenz\".",
           "\"Der Schnitt\" is both a single cut and the editing as a whole (\"Der Schnitt ist rasant\"); the editor is \"der Cutter / die Cutterin\". \"Die Kameraführung\" (camera work) is praised as \"ruhig\", \"virtuos\" or \"unaufdringlich\" (unobtrusive) and criticised as \"hektisch\" or \"verwackelt\" (shaky).",
-          "Behind the film: \"das Drehbuch\" (screenplay), \"die Regie\" (direction), \"der Regisseur / die Regisseurin\" (director), \"die Besetzung\" (cast), \"die Hauptrolle\". You \"führen Regie\" (direct), a film \"wird gedreht\" (is shot), it \"kommt in die Kinos\" or \"läuft an\" (opens). Trap: \"der Direktor\" is a school principal or company director, never a film director.",
+          "Behind the film: \"das Drehbuch\" (screenplay), \"die Regie\" (direction), \"der Regisseur / die Regisseurin\" (director), \"die Besetzung\" (cast), \"die Hauptrolle\". You \"Regie führen\" (direct), a film \"wird gedreht\" (is shot), it \"kommt in die Kinos\" or \"läuft an\" (opens). Trap: \"der Direktor\" is a school principal or company director, never a film director.",
         ],
         examples: [
           { es: "Der Film beginnt mit einer Totale der verschneiten Alpen.", en: "The film opens with a long shot of the snowy Alps." },

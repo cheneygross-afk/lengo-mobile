@@ -247,7 +247,7 @@ export const DE_B1_U28: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which opening line is correct after \"Sehr geehrter Herr Becker,\"?",
+            question: "You begin a formal email \"Sehr geehrter Herr Becker,\" and want to say 'I'm writing to you about the heating.' Which line comes next?",
             options: [
               "ich schreibe Ihnen wegen der Heizung.",
               "Ich schreib Ihnen wegen der Heizung.",
@@ -255,7 +255,7 @@ export const DE_B1_U28: Lesson[] = [
               "ich schreibe Ihnen halt wegen der Heizung, ne?",
             ],
             correctIndex: 0,
-            explanation: "Lowercase after the comma, full forms, \"Ihnen\" with a capital, no particles or tags.",
+            explanation: "After the comma the next line starts with a small letter, uses full forms and \"Ihnen\" with a capital. \"*Ich schreib*\" has a capital and a spoken short form.",
           },
         ],
       },
@@ -371,10 +371,10 @@ export const DE_B1_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which close is correct for a formal email?",
+        question: "How do you close a formal email ('Yours sincerely')?",
         options: ["Mit freundlichen Grüßen", "Mit freundlichen Grüßen,", "LG", "Viele liebe Grüße und bis bald!"],
         correctIndex: 0,
-        explanation: "\"Mit freundlichen Grüßen\" with no comma, then your name on the next line.",
+        explanation: "\"Mit freundlichen Grüßen\" has no comma; your name goes on the next line. \"*Mit freundlichen Grüßen,*\" copies the English comma.",
       },
       {
         type: "translate",
@@ -595,10 +595,10 @@ export const DE_B1_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'We may not have much money, but we have lots of ideas.'?",
         options: ["Zwar haben wir wenig Geld, aber wir haben viele Ideen.", "Zwar wir haben wenig Geld, aber wir haben viele Ideen.", "Zwar haben wir wenig Geld, aber haben wir viele Ideen.", "Wir haben zwar wenig Geld, sondern viele Ideen."],
         correctIndex: 0,
-        explanation: "\"Zwar\" in position 1 takes the verb next; \"aber\" doesn't change word order.",
+        explanation: "\"Zwar\" in position 1 takes the verb next; \"aber\" doesn't change the word order. \"*aber haben wir*\" inverts after \"aber\".",
       },
       {
         type: "translate",

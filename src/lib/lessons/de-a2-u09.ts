@@ -1015,10 +1015,10 @@ export const DE_A2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'You wash your hair.' (to a friend)",
         options: ["Du wäschst dir die Haare.", "Du wäschst dich die Haare.", "Du wäschst deine Haare dich.", "Du wäschst dir deine Haare dich."],
         correctIndex: 0,
-        explanation: "With an accusative object (\"die Haare\"), du takes the dative \"dir\".",
+        explanation: "With an accusative object (\"die Haare\"), du takes the dative reflexive \"dir\". \"*Du wäschst dich die Haare*\" uses the accusative twice.",
       },
       {
         type: "word-order",
@@ -1641,10 +1641,10 @@ export const DE_A2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'Then she lay down.'?",
         options: ["Dann hat sie sich hingelegt.", "Dann sie hat sich hingelegt.", "Dann hat sich sie hingelegt.", "Dann ist sie sich hingelegt."],
         correctIndex: 0,
-        explanation: "Verb second, pronoun subject before the reflexive, and \"haben\" with every reflexive.",
+        explanation: "Verb second, the pronoun subject before the reflexive, and \"haben\" with every reflexive verb. \"*Dann ist sie sich hingelegt*\" uses \"sein\" because lying down feels like movement.",
       },
       {
         type: "listen-choose",

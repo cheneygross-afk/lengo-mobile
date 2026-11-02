@@ -1628,10 +1628,10 @@ export const DE_C1_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "How do you say 'It was my parents who helped me.'?",
             options: ["Es waren meine Eltern, die mir geholfen haben.", "Es war meine Eltern, die mir geholfen haben.", "Es waren meine Eltern, wer mir geholfen hat.", "Es sind meine Eltern gewesen, was mir geholfen hat."],
             correctIndex: 0,
-            explanation: "The verb agrees with the plural noun (\"waren\"); relative pronoun \"die\".",
+            explanation: "The verb agrees with the plural noun (\"waren\"), and the relative pronoun is \"die\". \"*Es war meine Eltern*\" copies the English singular.",
           },
         ],
       },
@@ -1948,10 +1948,10 @@ export const DE_C1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct standard German?",
+        question: "How do you say 'I didn't see anyone.'?",
         options: ["Ich habe niemanden gesehen.", "Ich habe nicht niemanden gesehen.", "Ich habe keinen niemanden gesehen.", "Ich habe nie niemanden gesehen."],
         correctIndex: 0,
-        explanation: "One negation: \"niemanden\". Double negatives aren't standard.",
+        explanation: "One negation: \"niemanden\". \"*nicht niemanden*\" is a double negative, which isn't standard German.",
       },
       {
         type: "word-order",

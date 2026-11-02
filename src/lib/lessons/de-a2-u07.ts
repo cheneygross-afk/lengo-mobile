@@ -552,10 +552,10 @@ export const DE_A2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which question is correct?",
+        question: "How do you say 'Do you like the book?' (to a friend)",
         options: ["Gefällt dir das Buch?", "Gefällt du das Buch?", "Gefällt dich das Buch?", "Gefallen dir das Buch?"],
         correctIndex: 0,
-        explanation: "With \"gefallen\" the person is dative (\"dir\") and the thing is the subject (\"das Buch\", so \"gefällt\").",
+        explanation: "With \"gefallen\" the person is dative (\"dir\") and the thing is the subject (\"das Buch\", so \"gefällt\"). \"*Gefällt dich*\" uses the accusative.",
       },
       {
         type: "translate",
@@ -641,10 +641,10 @@ export const DE_A2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "How do you say 'He isn't answering me.'?",
             options: ["Er antwortet mir nicht.", "Er antwortet mich nicht.", "Er antwortet ich nicht.", "Er antwortet zu mir nicht."],
             correctIndex: 0,
-            explanation: "\"Antworten\" takes a dative person: \"mir\". No preposition.",
+            explanation: "\"Antworten\" takes a dative person with no preposition: \"mir\". \"*Er antwortet mich*\" uses the accusative, as English 'answer me' suggests.",
           },
         ],
       },
@@ -1163,10 +1163,10 @@ export const DE_A2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say 'My mother likes the pictures.'?",
         options: ["Die Bilder gefallen meiner Mutter.", "Die Bilder gefällt meiner Mutter.", "Meine Mutter gefallen die Bilder.", "Die Bilder gefallen meine Mutter."],
         correctIndex: 0,
-        explanation: "Plural subject \"die Bilder\" → \"gefallen\"; the person is dative \"meiner Mutter\".",
+        explanation: "The pictures are the subject, so plural \"gefallen\"; the person is dative: \"meiner Mutter\". \"*Die Bilder gefällt*\" uses the singular verb.",
       },
       {
         type: "translate",
@@ -1698,10 +1698,10 @@ export const DE_A2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "How do you say 'I'm bringing the children pizza.'?",
             options: ["Ich bringe den Kindern Pizza mit.", "Ich bringe den Kinder Pizza mit.", "Ich bringe die Kinder Pizza mit.", "Ich bringe dem Kindern Pizza mit."],
             correctIndex: 0,
-            explanation: "Dative plural needs both \"den\" and the -n on the noun: \"den Kindern\".",
+            explanation: "The dative plural needs both \"den\" and an -n on the noun: \"den Kindern\". \"*Den Kinder*\" forgets the -n.",
           },
         ],
       },

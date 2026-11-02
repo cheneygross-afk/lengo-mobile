@@ -106,10 +106,10 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'You talk too much.' (to a friend)",
         options: ["Du redest zu viel.", "Du redst zu viel.", "Du redet zu viel.", "Du reden zu viel."],
         correctIndex: 0,
-        explanation: "\"Red-\" ends in d, so du takes -est: \"redest\".",
+        explanation: "\"Red-\" ends in d, so du adds an extra e: \"du redest\". \"*Du redst*\" is hard to say and wrong; \"redet\" is the er or ihr form.",
       },
       {
         type: "translate",
@@ -558,10 +558,10 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'At the weekend Leon plays football.'?",
         options: ["Am Wochenende spielt Leon Fußball.", "Am Wochenende Leon spielt Fußball.", "Am Wochenende Fußball spielt Leon.", "Leon am Wochenende spielt Fußball."],
         correctIndex: 0,
-        explanation: "\"Am Wochenende\" first, then the verb \"spielt\", then the subject.",
+        explanation: "\"Am Wochenende\" takes position 1, so the verb \"spielt\" comes second and the subject after it. \"*Am Wochenende Leon spielt*\" keeps English order and puts the verb third.",
       },
       {
         type: "translate",

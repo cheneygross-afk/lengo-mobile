@@ -350,10 +350,10 @@ export const DE_A1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'You think that's good?' (to a friend)",
         options: ["Du findest das gut?", "Du findst das gut?", "Du finden das gut?", "Du findet das gut?"],
         correctIndex: 0,
-        explanation: "\"Find-\" ends in d, so du takes -est: \"du findest\".",
+        explanation: "\"Find-\" ends in d, so du adds an extra e: \"du findest\". \"*Du findst*\" drops that e; \"findet\" is the er or ihr form.",
       },
       {
         type: "translate",
@@ -1132,10 +1132,10 @@ export const DE_A1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'Jonas has a mobile.'?",
         options: ["Jonas hat ein Handy.", "Jonas habt ein Handy.", "Jonas hast ein Handy.", "Jonas haben ein Handy."],
         correctIndex: 0,
-        explanation: "He has: \"er hat\". \"Habt\" is the ihr form, \"hast\" the du form.",
+        explanation: "Jonas is \"er\", and the er form of \"haben\" is \"hat\". \"*Jonas hast*\" is the du form, \"habt\" the ihr form.",
       },
       {
         type: "translate",
@@ -1502,10 +1502,10 @@ export const DE_A1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct German?",
+        question: "How do you say 'Today I'm learning German.'?",
         options: ["Heute lerne ich Deutsch.", "Heute ich lerne Deutsch.", "Heute lerne Deutsch ich.", "Ich heute lerne Deutsch."],
         correctIndex: 0,
-        explanation: "The verb is always second: \"Heute lerne ich\". \"*Heute ich lerne*\" copies English.",
+        explanation: "When \"heute\" starts the sentence, the verb stays second: \"Heute lerne ich\". \"*Heute ich lerne*\" copies English and puts the verb third.",
       },
       {
         type: "fill-blank",
@@ -1644,10 +1644,10 @@ export const DE_A1_U03: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'We speak English.'?",
             options: ["Wir sprechen Englisch.", "Wir sprichen Englisch.", "Wir spricht Englisch.", "Wir sprechst Englisch."],
             correctIndex: 0,
-            explanation: "No change for wir: \"wir sprechen\". Only du and er/sie/es take the i.",
+            explanation: "The e → i change is only for du and er/sie/es, so wir keeps \"sprechen\". \"*Wir sprichen*\" wrongly carries the i over to wir.",
           },
           {
             type: "translate",
@@ -1881,10 +1881,10 @@ export const DE_A1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He rides a bike.'?",
         options: ["Er fährt Fahrrad.", "Er fahrt Fahrrad.", "Er fährst Fahrrad.", "Er fähren Fahrrad."],
         correctIndex: 0,
-        explanation: "Er form: \"fährt\" with the umlaut and -t.",
+        explanation: "\"Fahren\" adds an umlaut for du and er: \"er fährt\". \"*Er fahrt*\" forgets the umlaut; \"fährst\" is the du form.",
       },
       {
         type: "translate",
@@ -2278,10 +2278,10 @@ export const DE_A1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Das ist nicht teuer.", "Das ist kein teuer.", "Das nicht ist teuer.", "Das ist nicht ein Problem."],
+        question: "How do you say 'That isn't expensive.'?",
+        options: ["Das ist nicht teuer.", "Das ist kein teuer.", "Das nicht ist teuer.", "Das ist teuer nicht."],
         correctIndex: 0,
-        explanation: "Adjectives take \"nicht\" right before them. A noun with \"ein\" takes \"kein\": \"kein Problem\".",
+        explanation: "An adjective is negated with \"nicht\", placed right before it: \"nicht teuer\". \"*Kein teuer*\" is wrong because \"kein\" only goes with nouns (\"kein Problem\").",
       },
       {
         type: "translate",

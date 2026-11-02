@@ -159,7 +159,7 @@ export const DE_C2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is grammatically correct?",
+        question: "How do you say 'I know I should have come earlier.'?",
         options: [
           "Ich weiß, dass ich früher hätte kommen sollen.",
           "Ich weiß, dass ich früher kommen sollen hätte.",
@@ -167,7 +167,7 @@ export const DE_C2_U20: Lesson[] = [
           "Ich weiß, dass ich hätte früher gekommen sollen.",
         ],
         correctIndex: 0,
-        explanation: "With a double infinitive, \"hätte\" precedes \"kommen sollen\" at the end of the subordinate clause.",
+        explanation: "With a double infinitive, \"hätte\" precedes \"kommen sollen\" at the end of the subordinate clause. \"*kommen sollen hätte*\" applies the normal verb-last rule, which doesn't work here.",
       },
       {
         type: "translate",
@@ -452,7 +452,7 @@ export const DE_C2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'I don't know if he's coming today.'?",
             options: ["Ich weiß nicht, ob er heute kommt.", "Ich weiß nicht, wenn er heute kommt.", "Ich weiß nicht, dass er heute kommt.", "Ich weiß nicht, ob kommt er heute."],
             correctIndex: 0,
             explanation: "'If' in an indirect question is \"ob\", with the verb at the end; \"wenn\" is conditional and \"dass\" states a fact.",
@@ -986,7 +986,7 @@ export const DE_C2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct German?",
+        question: "How do you write 'Never before had the city been so empty.'?",
         options: [
           "Nie zuvor war die Stadt so leer.",
           "Nie zuvor hat die Stadt war so leer.",
@@ -994,7 +994,7 @@ export const DE_C2_U20: Lesson[] = [
           "Nie zuvor tat die Stadt so leer sein.",
         ],
         correctIndex: 0,
-        explanation: "After a fronted adverb, simply put the verb second. German has no do-support.",
+        explanation: "After a fronted adverb the verb simply comes second (\"war die Stadt\"). German has no do-support, so \"*tat die Stadt so leer sein*\" is wrong, and \"*Nie zuvor die Stadt war*\" keeps English order.",
       },
       {
         type: "translate",

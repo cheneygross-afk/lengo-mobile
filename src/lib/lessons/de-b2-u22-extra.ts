@@ -402,10 +402,10 @@ export const DE_B2_U22_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'm not coming; I'm ill, you see.'?",
         options: ["Ich komme nicht, ich bin nämlich krank.", "Ich komme nicht, nämlich ich bin krank.", "Nämlich bin ich krank.", "Ich komme nicht, nämlich bin ich krank."],
         correctIndex: 0,
-        explanation: "\"Nämlich\" sits after the verb; it never opens the clause.",
+        explanation: "\"Nämlich\" sits after the verb and never opens the clause: \"ich bin nämlich krank\". \"*nämlich ich bin krank*\" uses it like English 'namely' at the front.",
       },
       {
         type: "translate",
