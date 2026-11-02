@@ -10,7 +10,7 @@ import type { AnchoredLesson } from "./weave";
 // (minimal pairs), dictation of short words and record-and-compare
 // speaking. Woven in after the first unit (see skills.ts); the written
 // accent rules themselves come in A2 (a2g-spelling-stress-rules).
-const { mc, ms, sec, toEs } = authoring("en");
+const { mc, ms, fb, sec, toEs } = authoring("en");
 // Transform, spelling-correction and respond-aloud items for the practice ladders.
 const tf = (prompt: string, source: string, answer: string, explanation: string, alts: string[] = []) =>
   toEs(source, answer, explanation, alts, prompt);
@@ -695,14 +695,30 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "LL and y: one sound for most speakers",
         [
           "For almost every Spanish speaker today, ll and y sound the same: like the y in \"yes\", often a little stronger, sometimes close to the j in \"jam\" at the start of a word. This merger is called yeísmo, and it's the norm in Spain and Latin America.",
-          "Regional note: in Argentina and Uruguay (Rioplatense Spanish), ll and y sound like \"sh\" (most younger speakers) or like the s in \"measure\" (older speakers): yo sounds like \"sho\", calle like \"ca-she\". A few areas, such as parts of the Andes, still keep ll different, closer to the lli in \"million\".",
-          "Y on its own (\"and\") and y at the end of a word (hoy, muy, rey) is just the vowel i.",
         ],
         [
           ["la calle", "the street"],
           ["yo", "I"],
           ["Me llamo Yolanda y vivo en Sevilla.", "My name is Yolanda and I live in Seville."],
           ["la playa", "the beach"],
+        ],
+        [
+          mc(
+            "For most speakers, which new word starts with the same sound as llueve (it rains)?",
+            ["yate (yacht)", "lago (lake)", "jamón (ham)", "nada (nothing)"],
+            0,
+            "With yeísmo, ll and y are one sound, so llueve and yate start the same way. Lago has a plain l (one l is not ll), and the Spanish j of jamón is a throaty h, not a y."
+          ),
+        ]
+      ),
+      sec(
+        "Regional ll, and the y that is just a vowel",
+        [
+          "Regional note: in Argentina and Uruguay (Rioplatense Spanish), ll and y sound like \"sh\" (most younger speakers) or like the s in \"measure\" (older speakers): yo sounds like \"sho\", calle like \"ca-she\". A few areas, such as parts of the Andes, still keep ll different, closer to the lli in \"million\".",
+          "Y on its own (\"and\") and y at the end of a word (hoy, muy, rey) is just the vowel i.",
+        ],
+        [
+          ["yo", "Buenos Aires: \"sho\""],
           ["hoy y mañana", "today and tomorrow -- y is \"ee\""],
         ],
         [
@@ -712,6 +728,12 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
             0,
             "Rioplatense Spanish (Argentina, Uruguay) says ll and y as \"sh\" or \"zh\", so llave sounds like \"sha-ve\". The English-style y is what most other regions use, and ll is never an l or a Spanish j."
           ),
+          mc(
+            "How does the y sound in the new word ley (law)?",
+            ["Like the vowel i (\"lei\")", "Like the y in \"yes\"", "Like \"sh\"", "It is silent"],
+            0,
+            "A y at the end of a word is just the vowel i, as in hoy and muy, so ley sounds like \"lei\". The consonant sound (yes, or sh in Buenos Aires) only comes before a vowel, and Spanish letters are not silent."
+          ),
         ]
       ),
       sec(
@@ -719,14 +741,10 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         [
           "C before a, o, u is a k sound: casa, cosa, Cuba. C before e or i, and z everywhere, has two standard pronunciations.",
           "In Latin America (and the Canary Islands and much of Andalusia) they sound like s: cinco is \"sin-co\", zapato is \"sa-pa-to\". This is called seseo, and it's what most Spanish speakers do.",
-          "In most of Spain they sound like the th in \"think\": cinco is \"thin-co\", zapato is \"tha-pa-to\", while s stays s. This is called distinción. Both are correct: choose one and use it consistently.",
-          "Spelling follows from this: ce and ci already make the sound, so z is normally written only before a, o and u. That's why lápiz becomes lápices and vez becomes veces.",
         ],
         [
           ["cinco", "five"],
           ["el zapato", "the shoe"],
-          ["gracias", "thank you -- \"gra-sias\" or \"gra-thias\""],
-          ["la cena", "dinner"],
           ["Cuba", "Cuba -- c before u is k"],
         ],
         [
@@ -736,11 +754,31 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
             0,
             "Latin America uses seseo: c before e or i sounds like s, \"sie-lo\". \"Thie-lo\" is the distinción of most of Spain. C before e or i is never k or ch."
           ),
+        ]
+      ),
+      sec(
+        "Distinción in Spain, and why z turns into c",
+        [
+          "In most of Spain they sound like the th in \"think\": cinco is \"thin-co\", zapato is \"tha-pa-to\", while s stays s. This is called distinción. Both are correct: choose one and use it consistently.",
+          "Spelling follows from this: ce and ci already make the sound, so z is normally written only before a, o and u. That's why lápiz becomes lápices and vez becomes veces.",
+        ],
+        [
+          ["gracias", "thank you -- \"gra-sias\" or \"gra-thias\""],
+          ["la cena", "dinner -- \"se-na\" or \"the-na\""],
+          ["el lápiz, los lápices", "the pencil, the pencils -- z before e becomes c"],
+        ],
+        [
           mc(
             "In most of Spain, which of these new words has the th sound?",
             ["zumo (juice)", "sopa (soup)", "cama (bed)", "coche (car)"],
             0,
             "Distinción gives th to z and to c before e or i: zumo is \"thu-mo\". S stays s (sopa), and c before a or o is a k (cama, coche)."
+          ),
+          fb(
+            "Write the plural of el pez (the fish).",
+            "un pez, dos ___",
+            "peces",
+            "Plural -es puts an e after the z, and z is not written before e: ce already makes the sound. So pez becomes peces, like lápiz, lápices. Pezes breaks the spelling rule."
           ),
         ]
       ),
@@ -1177,14 +1215,11 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
           "Spanish spelling tells you where the stress goes, so you can say any word you read:",
           "1. If there's a written accent (á, é, í, ó, ú), stress that syllable: café, teléfono, árbol, están.",
           "2. No accent, and the word ends in a vowel, n or s? Stress the second-to-last syllable: casa, hablan, zapatos.",
-          "3. No accent, and it ends in any other consonant? Stress the last syllable: hablar, papel, ciudad.",
-          "When to write an accent is the other side of the same rules, and it comes in the Elementary level (lesson: \"Spelling: ¿ ¡, Capitals and Where the Stress Falls\"). For now, just follow the accent when you see one.",
         ],
         [
           ["el café", "ca-FÉ -- accent: stress it"],
-          ["el árbol", "ÁR-bol -- accent overrides rule 3"],
+          ["el árbol", "ÁR-bol -- the accent decides"],
           ["hablan", "HA-blan -- ends in n: second-to-last"],
-          ["el papel", "pa-PEL -- ends in l: last"],
         ],
         [
           mc(
@@ -1192,6 +1227,32 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
             ["e-XA-men", "E-xa-men", "e-xa-MEN"],
             0,
             "Examen ends in n with no accent, so the stress falls on the second-to-last syllable: e-XA-men. Stressing the last syllable would need a written accent, and the first isn't stressed."
+          ),
+        ]
+      ),
+      sec(
+        "Any other final consonant: stress the last syllable",
+        [
+          "3. No accent, and it ends in any other consonant? Stress the last syllable: hablar, papel, ciudad.",
+          "When to write an accent is the other side of the same rules, and it comes in the Elementary level (lesson: \"Spelling: ¿ ¡, Capitals and Where the Stress Falls\"). For now, just follow the accent when you see one.",
+        ],
+        [
+          ["el papel", "pa-PEL -- ends in l: last"],
+          ["la ciudad", "ciu-DAD -- ends in d: last"],
+          ["el árbol", "ÁR-bol -- the accent overrides rule 3"],
+        ],
+        [
+          mc(
+            "Where is the stress in hotel (no written accent)?",
+            ["ho-TEL", "HO-tel"],
+            0,
+            "Hotel ends in l, a consonant other than n or s, and has no accent, so rule 3 puts the stress on the last syllable: ho-TEL. HO-tel would need a written accent."
+          ),
+          mc(
+            "Where is the stress in reloj (no written accent)?",
+            ["re-LOJ", "RE-loj"],
+            0,
+            "It ends in a consonant other than n or s, so the stress falls on the last syllable (rule 3). RE-loj would need a written accent."
           ),
         ]
       ),
@@ -1243,12 +1304,6 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       spk("El teléfono está en la mesa.", "Hit the stressed syllables: te-LÉ-fo-no, es-TÁ, ME-sa.", "El teléfono está en la mesa -- \"The phone is on the table.\""),
       spk("Hablo con Juan. Habló con Juan.", "Say both: HA-blo (I speak), then ha-BLÓ (he spoke).", "Hablo con Juan vs. Habló con Juan: present \"I\" vs. past \"he or she\"."),
       spk("La música es fantástica.", "Two words stressed three syllables from the end: MÚ-si-ca, fan-TÁS-ti-ca.", "La música es fantástica -- \"The music is fantastic.\""),
-      mc(
-        "Where is the stress in reloj (no written accent)?",
-        ["re-LOJ", "RE-loj"],
-        0,
-        "It ends in a consonant other than n or s, so the stress falls on the last syllable (rule 3)."
-      ),
       mc(
         "Where is the stress in mesas?",
         ["ME-sas", "me-SAS"],

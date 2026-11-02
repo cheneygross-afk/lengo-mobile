@@ -95,11 +95,15 @@ function convert(lesson: Lesson, conversion: Conversion, lang: "en" | "es"): Les
   const exercises: Exercise[] = lesson.exercises.map((e) =>
     e.type === "word-order" && e !== keep ? toDictation(e, lang) : e
   );
+  // Crawl, walk, run: the how-to card is tested straight away with the
+  // lesson's first dictation, moved out of the practice (count unchanged).
+  const first = exercises.findIndex((e) => e.type === "dictation");
+  const howTo: LessonSection = first < 0 ? HOW_TO[lang] : { ...HOW_TO[lang], checkpoint: exercises.splice(first, 1) };
   return {
     ...lesson,
     ...(conversion.title ? { title: conversion.title } : {}),
     summary: conversion.summary,
-    sections: [HOW_TO[lang], ...lesson.sections],
+    sections: [howTo, ...lesson.sections],
     exercises,
   };
 }

@@ -616,14 +616,28 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "The story",
+        "Remember the rule: every step is a finished event",
         [
           "Remember the rule: each step of the story is one finished event, so every gap takes the preterite. Regular verbs carry a stressed ending (tomó, volvió); irregular ones change the stem (puso, tuvo); and in the yo form -car / -gar / -zar change spelling (busqué, llegué).",
-          "Read the story with the verbs in the infinitive, then put them in the preterite in the exercises: «El martes Laura (salir) de casa a las ocho. (Tomar) el autobús y (llegar) a la universidad. Cuando (buscar) el móvil, no lo (encontrar). (Volver) al autobús, (hablar) con el conductor y él le (contar) una buena noticia: alguien lo (encontrar) y lo (poner) en la oficina de objetos perdidos.»",
         ],
         [
           ["Cuando salí de casa, cerré la puerta con llave.", "When I left home, I locked the door. (two finished events: preterite)"],
         ],
+        [
+          mc(
+            "Pagar, yo form, preterite: \"I paid\".",
+            ["pagué", "pagé", "pagó", "pagaba"],
+            0,
+            "In the yo form, -gar verbs add a u to keep the hard g sound before é: pagué, like llegué. Pagé would sound like \"pajé\", pagó is él / ella, and pagaba is the imperfect (scene, not a finished step)."
+          ),
+        ]
+      ),
+      sec(
+        "The story",
+        [
+          "Read the story with the verbs in the infinitive, then put them in the preterite in the exercises: «El martes Laura (salir) de casa a las ocho. (Tomar) el autobús y (llegar) a la universidad. Cuando (buscar) el móvil, no lo (encontrar). (Volver) al autobús, (hablar) con el conductor y él le (contar) una buena noticia: alguien lo (encontrar) y lo (poner) en la oficina de objetos perdidos.»",
+        ],
+        [],
         [
           mc(
             "Where was the phone?",
@@ -1856,15 +1870,29 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "The story",
+        "Remember the rule: scene or next event?",
         [
           "Remember the rule: in a story the imperfect paints the scene (what things were like, what was going on, what was about to happen: era, estábamos, iban a) and the preterite moves the plot (what happened next: empezó, corrió). For each gap ask: background, or the next event?",
-          "Read the story with the verbs left in the infinitive, then put each one in the right past tense in the exercises: «La boda de mi prima (ser) en un jardín precioso. Todos (estar) contentos y (hacer) muy buen tiempo. Pero justo cuando los novios (ir) a decir “sí”, (empezar) a llover. Todo el mundo (correr) hacia la casa. Al final, los novios se (casar) en la cocina.»",
         ],
         [
           ["Hacía buen tiempo cuando llegaron los invitados.", "It was nice weather when the guests arrived. (hacía = the scene, llegaron = the event)"],
           ["Mientras el cura hablaba, sonó un móvil.", "While the priest was speaking, a phone rang. (hablaba was going on, sonó broke in)"],
         ],
+        [
+          mc(
+            "«Mientras cenábamos, llegó mi tío.» Which verb moves the plot forward?",
+            ["llegó", "cenábamos", "both", "neither"],
+            0,
+            "Llegó is a finished event, the next thing that happened: preterite. Cenábamos was going on in the background (the scene), so it is imperfect."
+          ),
+        ]
+      ),
+      sec(
+        "The story",
+        [
+          "Read the story with the verbs left in the infinitive, then put each one in the right past tense in the exercises: «La boda de mi prima (ser) en un jardín precioso. Todos (estar) contentos y (hacer) muy buen tiempo. Pero justo cuando los novios (ir) a decir “sí”, (empezar) a llover. Todo el mundo (correr) hacia la casa. Al final, los novios se (casar) en la cocina.»",
+        ],
+        [],
         [
           mc(
             "Where did the couple finally get married?",
@@ -2391,7 +2419,6 @@ export const A2_DRILLS: AnchoredLesson[] = [
         "The one question that decides",
         [
           "Remember the rule: ask whether there is a thing being passed. If the verb acts straight on the person (ver, llamar, ayudar, visitar, invitar, esperar), the person is the direct object → lo / la / los / las. If something (a letter, a secret, the truth) goes to the person, the thing is the direct object and the person is the receiver → le / les.",
-          "Why it matters: lo / la show gender, le doesn't. Veo a Ana → la veo. Le mando una carta a Ana → le mando (the letter is what I send). The English word \"to\" is not a reliable clue: \"I called her\" has no to but is la; \"I answered her\" is le (I give her an answer).",
         ],
         [
           ["Llamé a mi madre. → La llamé.", "I called my mother. → I called her."],
@@ -2410,6 +2437,29 @@ export const A2_DRILLS: AnchoredLesson[] = [
             ["Le pedí ayuda.", "Lo pedí ayuda.", "La pedí ayuda.", "Les pedí ayuda."],
             0,
             "Ayuda is the thing asked for; your neighbor receives the request, so le. Lo would make the neighbor the thing asked for, la is feminine, and les is plural."
+          ),
+        ]
+      ),
+      sec(
+        "Why it matters: gender, and \"to\" is no clue",
+        [
+          "Why it matters: lo / la show gender, le doesn't. Veo a Ana → la veo. Le mando una carta a Ana → le mando (the letter is what I send). The English word \"to\" is not a reliable clue: \"I called her\" has no to but is la; \"I answered her\" is le (I give her an answer).",
+        ],
+        [
+          ["Respondí a Ana. → Le respondí.", "I answered Ana. → I answered her. (I give her an answer → le)"],
+        ],
+        [
+          mc(
+            "You hear «La esperé una hora.» What do you know about the person?",
+            ["It is a woman, and she was waited for directly.", "It is a man.", "Something was passed to her.", "It could be a man or a woman."],
+            0,
+            "La is the direct object pronoun and shows gender: a woman. Esperar acts straight on the person, so nothing is passed. Le would hide the gender, and a man would be lo."
+          ),
+          mc(
+            "«Pregunté a mis padres.» Which pronoun replaces mis padres?",
+            ["Les pregunté.", "Los pregunté.", "Las pregunté.", "Le pregunté."],
+            0,
+            "English says \"I asked them\" with no \"to\", but in Spanish you ask a question to someone: the question passes to them, so they are the receiver, les (plural). Los treats them as the thing asked, and le is singular."
           ),
         ]
       ),
@@ -3903,10 +3953,9 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "6 min",
     [
       sec(
-        "Por looks back or through",
+        "Por: four uses, plus fixed phrases",
         [
           "Remember the rule: por looks back to a cause or passes through something. Duration: Estudié por dos horas (natives often drop por here, or use durante: Estudié dos horas / durante dos horas). Cause: No salí por la lluvia. Exchange/price: Lo compré por diez euros. Movement through/along: Caminamos por el parque. Means: por teléfono, por correo. Fixed: por favor, por eso, por fin, por ejemplo.",
-          "Why it works: each use answers \"because of what?\" or \"through what?\". A cause pushes from behind, a price is what you go through to get something, a route or a phone line is what you pass through. If English says \"because of\", \"in exchange for\", \"through/along\" or \"by (phone, mail)\", it's por.",
         ],
         [
           ["Gracias por la ayuda.", "Thanks for the help."],
@@ -3919,6 +3968,22 @@ export const A2_DRILLS: AnchoredLesson[] = [
             0,
             "Por marks an exchange, one thing for another. It's not purpose, a deadline or a recipient."
           ),
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with por or para.",
+            "sentence": "No fuimos a la playa ___ el viento.",
+            "answer": "por",
+            "explanation": "The wind is the cause, pushing from behind (\"because of the wind\"), so por. Para would make the wind a goal you were heading for."
+          },
+        ]
+      ),
+      sec(
+        "Why it works: because of what, through what?",
+        [
+          "Why it works: each use answers \"because of what?\" or \"through what?\". A cause pushes from behind, a price is what you go through to get something, a route or a phone line is what you pass through. If English says \"because of\", \"in exchange for\", \"through/along\" or \"by (phone, mail)\", it's por.",
+        ],
+        [],
+        [
           mc(
             "Apply the rule to a new verb. \"The cat jumped out through the window.\"",
             ["El gato saltó por la ventana.", "El gato saltó para la ventana.", "El gato saltó en la ventana.", "El gato saltó con la ventana."],
@@ -3960,27 +4025,49 @@ export const A2_DRILLS: AnchoredLesson[] = [
         "One word, two meanings",
         [
           "Remember the rule: para aims at a target (the person who receives something, the place you're heading for, a deadline), while por points to what's behind or along the way (the cause, the person you do it for the sake of or in place of, the place you pass through, a part of the day).",
-          "That's why English 'for' splits in two, and one small word can flip the meaning of a whole sentence: Lo hice por ti (because of you, for your sake) vs. Lo hice para ti (it's a present for you). Salí por la puerta (through it) vs. Salí para la oficina (heading there). Trabajo por la mañana (time of day) vs. Lo necesito para mañana (deadline).",
         ],
         [
           ["Compré el regalo para mi madre.", "I bought the present for my mother. (she receives it → para)"],
           ["Fui a la reunión por mi madre.", "I went to the meeting on my mother's behalf. (in her place → por)"],
-          ["El tren pasa por Zaragoza.", "The train goes through Zaragoza. (a place on the way → por)"],
-          ["El tren sale para Zaragoza.", "The train leaves for Zaragoza. (the destination → para)"],
         ],
         [
-          mc(
-            "«Hablé con la profesora por Ana.» Ana was ill. This means…",
-            ["I spoke to the teacher on Ana's behalf.", "I spoke to the teacher so Ana would get a present.", "I spoke to the teacher on the way to Ana's house.", "I spoke to the teacher by Ana's deadline."],
-            0,
-            "Por + person = in that person's place or for their sake: Ana couldn't go, so you went instead. A target (para Ana) would make Ana the receiver of something."
-          ),
           mc(
             "«Lo hice por ti» most likely means…",
             ["I did it because of you / for your sake.", "I made it as a present for you.", "I did it through you.", "I did it by tomorrow."],
             0,
             "Por means because of or for the sake of: lo hice por ti. A present would be para ti, and por here isn't through or by tomorrow."
           ),
+          mc(
+            "«Hablé con la profesora por Ana.» Ana was ill. This means…",
+            ["I spoke to the teacher on Ana's behalf.", "I spoke to the teacher so Ana would get a present.", "I spoke to the teacher on the way to Ana's house.", "I spoke to the teacher by Ana's deadline."],
+            0,
+            "Por + person = in that person's place or for their sake: Ana couldn't go, so you went instead. A target (para Ana) would make Ana the receiver of something."
+          ),
+        ]
+      ),
+      sec(
+        "One small word flips the meaning",
+        [
+          "That's why English 'for' splits in two, and one small word can flip the meaning of a whole sentence: Lo hice por ti (because of you, for your sake) vs. Lo hice para ti (it's a present for you). Salí por la puerta (through it) vs. Salí para la oficina (heading there). Trabajo por la mañana (time of day) vs. Lo necesito para mañana (deadline).",
+        ],
+        [
+          ["El tren pasa por Zaragoza.", "The train goes through Zaragoza. (a place on the way → por)"],
+          ["El tren sale para Zaragoza.", "The train leaves for Zaragoza. (the destination → para)"],
+        ],
+        [
+          mc(
+            "«Salgo para el aeropuerto.» What does it mean?",
+            ["I'm leaving, heading for the airport.", "I'm going out through the airport.", "I'm leaving because of the airport.", "I'm leaving on the airport's behalf."],
+            0,
+            "Para aims at a target, and with a place that is where you are heading. Through, because of and on behalf of are all por meanings."
+          ),
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with por or para.",
+            "sentence": "Necesito el informe ___ el lunes.",
+            "answer": "para",
+            "explanation": "A deadline is a target ahead, so para el lunes (\"by Monday\"). Por el lunes would point to a time around Monday, not a due date."
+          },
         ]
       ),
     ],
@@ -4183,17 +4270,35 @@ export const A2_DRILLS: AnchoredLesson[] = [
     [
       sec(
         "Remember the rule",
-        "Para looks ahead to a target: where you're heading, what something is for, who gets it, a deadline. Por looks back or along the way: the cause, the reason for thanks, a part of the day, the means (by phone), the price. Each wrong preposition in a learner's email breaks that logic, so test each one: target, or reason / way?",
+        [
+          "Para looks ahead to a target: where you're heading, what something is for, who gets it, a deadline. Por looks back or along the way: the cause, the reason for thanks, a part of the day, the means (by phone), the price. Each wrong preposition in a learner's email breaks that logic, so test each one: target, or reason / way?",
+        ],
         [
           ["Mañana salgo para Quito.", "Tomorrow I'm leaving for Quito. (destination → para)"],
           ["Te escribo por la tarde.", "I'll write to you in the afternoon. (part of the day → por)"],
           ["Gracias por la invitación.", "Thanks for the invitation. (the reason for the thanks → por)"],
         ],
-        []
+        [
+          mc(
+            "Which of these needs para?",
+            ["a deadline (by Friday)", "the reason you say thanks", "a part of the day (in the morning)", "the price you paid"],
+            0,
+            "A deadline is a target ahead, so para el viernes. The reason for thanks, a part of the day and a price all look back or along the way: por."
+          ),
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with por or para.",
+            "sentence": "Te mando las fotos ___ correo.",
+            "answer": "por",
+            "explanation": "The means you send something through (by mail, by phone) takes por. Para correo would make the mail the goal."
+          },
+        ]
       ),
       sec(
         "The email",
-        "«Hola, Marta: gracias para tu mensaje. Salgo por Chile el martes para la mañana. Voy por visitar a mi hermano. Te traeré algo por ti. Te llamo para teléfono desde allí.» Every por and para in this email is the wrong one. Fix them one by one.",
+        [
+          "«Hola, Marta: gracias para tu mensaje. Salgo por Chile el martes para la mañana. Voy por visitar a mi hermano. Te traeré algo por ti. Te llamo para teléfono desde allí.» Every por and para in this email is the wrong one. Fix them one by one.",
+        ],
         [],
         [
           fb("Fix it.", "Gracias ___ tu mensaje. (a learner wrote: para)", "por", "When you thank someone for something, gracias takes por for the reason: gracias por tu mensaje, not para."),
@@ -4335,14 +4440,35 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "6 min",
     [
       sec(
-        "Chunks to learn whole",
+        "Chunks that keep the por idea",
         [
           "Remember the rule: por looks at causes, means and the way through, and some fixed expressions keep that idea. Por eso is literally \"because of that\" (that's why); por si acaso is \"for the case that\" (just in case). The rest you learn as whole chunks, never word by word, and they never swap to para: para supuesto or para fin don't exist (para eso does, but it means \"for that purpose\").",
-          "Sort them by job. Linking ideas: por eso (that's why), por ejemplo (for example), por cierto (by the way). Attitude: por supuesto (of course), por fin (finally, at last). How much / how often: por lo menos (at least), por lo general (generally). Precaution: por si acaso (just in case).",
         ],
         [
           ["Llovía; por eso nos quedamos en casa.", "It was raining; that's why we stayed home. (por eso links cause → result)"],
           ["Lleva un paraguas, por si acaso.", "Take an umbrella, just in case. (often at the end)"],
+        ],
+        [
+          mc(
+            "Which of these is NOT a real Spanish expression?",
+            ["para supuesto", "por supuesto", "para eso", "por eso"],
+            0,
+            "These chunks never swap to para, so \"of course\" is only por supuesto. Para eso does exist, but it means \"for that purpose\", and por eso is \"that's why\"."
+          ),
+          mc(
+            "«No tengo hambre; ___ no voy a cenar.»",
+            ["por eso", "por ejemplo", "por cierto", "por si acaso"],
+            0,
+            "Not being hungry is the cause and skipping dinner the result, so the linker is por eso (that's why). Por ejemplo introduces an example, por cierto a new topic, por si acaso a precaution."
+          ),
+        ]
+      ),
+      sec(
+        "Sort them by job",
+        [
+          "Sort them by job. Linking ideas: por eso (that's why), por ejemplo (for example), por cierto (by the way). Attitude: por supuesto (of course), por fin (finally, at last). How much / how often: por lo menos (at least), por lo general (generally). Precaution: por si acaso (just in case).",
+        ],
+        [
           ["Por lo general como en el trabajo.", "I generally eat at work. (often at the start)"],
         ],
         [
@@ -4353,10 +4479,10 @@ export const A2_DRILLS: AnchoredLesson[] = [
             "Por fin means finally, after waiting. For example is por ejemplo, of course is por supuesto, and that's why is por eso."
           ),
           mc(
-            "«No tengo hambre; ___ no voy a cenar.»",
-            ["por eso", "por ejemplo", "por cierto", "por si acaso"],
+            "How do you say \"at least three hours\"?",
+            ["por lo menos tres horas", "para lo menos tres horas", "por lo general tres horas", "por cierto tres horas"],
             0,
-            "Not being hungry is the cause and skipping dinner the result, so the linker is por eso (that's why). Por ejemplo introduces an example, por cierto a new topic, por si acaso a precaution."
+            "How much is por lo menos (at least), always with por. Por lo general means \"generally\" and por cierto \"by the way\"; para lo menos does not exist."
           ),
         ]
       ),
@@ -4481,16 +4607,32 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Tricky corners",
+        "Para ser: measured against a yardstick",
         [
           "Remember the rule: para points forward to an end point or a yardstick; por looks back at the cause, or spreads over units (per).",
-          "That explains the four corners learners miss. Para ser + noun/adjective measures against a yardstick (\"considering it's…\"): Para ser niño, es muy maduro. Por + infinitive looks back at what someone did, the cause: Suspendió por no estudiar. Gracias por + noun/infinitive: what you thank for is the reason (Gracias por venir), never para. Por + unit = per: dos veces por semana.",
+          "That explains the four corners learners miss. Para ser + noun/adjective measures against a yardstick (\"considering it's…\"): Para ser niño, es muy maduro.",
+        ],
+        [
+          ["Para ser agosto, hace fresco.", "For August, it's cool. (measured against what August is usually like)"],
+        ],
+        [
+          mc(
+            "«___ ser tan joven, toca muy bien el piano.»",
+            ["Para", "Por", "Porque", "Para que"],
+            0,
+            "He is measured against what you expect of someone so young, a yardstick: para ser. Por ser would make his age the cause of his playing well, and porque / para que need a full clause."
+          ),
+        ]
+      ),
+      sec(
+        "Por for the cause, the thanks and the rate",
+        [
+          "Por + infinitive looks back at what someone did, the cause: Suspendió por no estudiar. Gracias por + noun/infinitive: what you thank for is the reason (Gracias por venir), never para. Por + unit = per: dos veces por semana.",
           "English \"for\" covers all four, so don't translate it automatically: ask whether it's a yardstick (para ser), a cause (por), or a rate (por).",
         ],
         [
           ["Me castigaron por llegar tarde.", "They punished me for arriving late. (the cause: what I did)"],
           ["Voy al gimnasio tres veces por semana.", "I go to the gym three times a week. (por = per)"],
-          ["Para ser agosto, hace fresco.", "For August, it's cool. (measured against what August is usually like)"],
         ],
         [
           mc(
@@ -4499,6 +4641,13 @@ export const A2_DRILLS: AnchoredLesson[] = [
             0,
             "Por + infinitive gives the cause: por no estudiar. \"Para\" is a purpose, and \"porque\" and \"para que\" need a full clause."
           ),
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with por or para.",
+            "sentence": "Pago cincuenta euros ___ mes.",
+            "answer": "por",
+            "explanation": "Por + a unit means \"per\": por mes, por semana, por persona. Para mes is not used for a rate."
+          },
         ]
       ),
     ],
@@ -4526,9 +4675,23 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "6 min",
     [
       sec(
-        "Shop questions",
+        "Remember the rule: end point, or how and why?",
         [
           "Remember the rule: para points forward to an end point (who it's for, what it's for, by when); por covers the how and the why (how you pay or send it, what you pay in exchange, the cause).",
+        ],
+        [],
+        [
+          mc(
+            "«Lo necesito ___ el sábado.» (by Saturday)",
+            ["para", "por", "porque", "para que"],
+            0,
+            "\"By Saturday\" is a deadline, an end point ahead: para el sábado. Por would be how, why or in exchange for, and porque / para que need a full clause."
+          ),
+        ]
+      ),
+      sec(
+        "Shop questions",
+        [
           "A shop assistant's questions tell you which one to answer with. ¿Para quién? ¿Para qué? ¿Para cuándo? → answer with para. ¿Cómo lo enviamos? ¿Cuánto pagó por…? → answer with por. ¿Por qué? (why?) → answer with porque + a full sentence, or por + a noun.",
           "Typical questions: ¿Es para usted o para regalo? · ¿Para cuándo lo necesita? · ¿Cómo va a pagar? — Con tarjeta · ¿Lo enviamos por correo? · ¿Para qué lo va a usar?",
         ],
@@ -4538,6 +4701,12 @@ export const A2_DRILLS: AnchoredLesson[] = [
         ],
         [
           fb("Answer.", "—¿Es un regalo? —Sí, es ___ mi novio.", "para", "Para marks the recipient: para mi novio. Por mi novio would mean on his behalf."),
+          mc(
+            "The assistant asks: «¿Por qué lo devuelve?» Which answer is right?",
+            ["Porque está roto.", "Por está roto.", "Para está roto.", "Porque roto."],
+            0,
+            "¿Por qué? (why?) is answered with porque + a full sentence: Porque está roto. Por can only take a noun (por el color), and para answers ¿para qué?, not why."
+          ),
         ]
       ),
     ],
@@ -4677,17 +4846,34 @@ export const A2_DRILLS: AnchoredLesson[] = [
     [
       sec(
         "Remember the rule",
-        "A specific person (or a named pet) as the direct object takes the personal a; things, places, 'any person', hay and tener for family don't. The a marks the individual who receives the action. So a message can go wrong two ways: a missing a before a person, or an extra a before a thing.",
+        [
+          "A specific person (or a named pet) as the direct object takes the personal a; things, places, 'any person', hay and tener for family don't. The a marks the individual who receives the action. So a message can go wrong two ways: a missing a before a person, or an extra a before a thing.",
+        ],
         [
           ["Ayer saludé a la profesora.", "Yesterday I greeted the teacher. (a specific person → a)"],
           ["Ayer compré un paraguas.", "Yesterday I bought an umbrella. (a thing → no a)"],
           ["Necesito un dentista.", "I need a dentist. (any dentist → no a)"],
         ],
-        []
+        [
+          ms(
+            "Which sentences are correct? Choose all that apply.",
+            ["Busco a mi perro Toby.", "Busco un taxi.", "Hay a muchos niños en el parque.", "Tengo a dos hermanas."],
+            [0, 1],
+            "A named pet counts as an individual, so a mi perro Toby; a taxi is a thing, so no a. Hay never takes the personal a, and tener for family (Tengo dos hermanas) does not either."
+          ),
+          mc(
+            "Your sink is leaking and any plumber will do. Which is right?",
+            ["Busco un fontanero.", "Busco a un fontanero.", "Busco al fontanero.", "Busco a fontanero."],
+            0,
+            "Any plumber is not a specific person, so there is no personal a: Busco un fontanero. Al fontanero would mean a particular one you both know, and a fontanero without the article isn't Spanish."
+          ),
+        ]
       ),
       sec(
         "The message",
-        "«Ayer vi Marta en el centro. Ella buscaba a una farmacia. Luego llamamos su hermano y visitamos a la catedral.» Two a's are missing and two shouldn't be there. Fix them one by one.",
+        [
+          "«Ayer vi Marta en el centro. Ella buscaba a una farmacia. Luego llamamos su hermano y visitamos a la catedral.» Two a's are missing and two shouldn't be there. Fix them one by one.",
+        ],
         [],
         [
           fb("Fix it (write the missing word): \"Yesterday I saw Marta in town.\"", "Ayer vi ___ Marta en el centro.", "a", "Marta is a specific person, so the personal a: vi a Marta."),
@@ -5156,18 +5342,40 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Why interleave?",
+        "First decide the tense",
         [
-          "Remember the rules, in the order you need them. 1) Tense: one finished event (ayer, anoche, el lunes) → preterite; a habit or a background scene (de niño, siempre, mientras) → imperfect. 2) Pronoun: lo / la / los / las replace the thing or person; me / te / le / nos / les say to whom; reflexives (me levanto) refer back to the subject. 3) Position: before the conjugated verb, indirect before direct, and le / les turn into se before lo / la.",
           "Switching between topics forces you to choose the rule each time, just like in a real conversation. Decide the tense first, then the pronoun and its position.",
+          "Remember the rules, in the order you need them. 1) Tense: one finished event (ayer, anoche, el lunes) → preterite; a habit or a background scene (de niño, siempre, mientras) → imperfect.",
+        ],
+        [
+          ["De niña me acostaba a las ocho.", "As a girl I went to bed at eight. (a habit; reflexive me)"],
+        ],
+        [
+          mc(
+            "«Anoche ___ una pizza.» (pedir, nosotros)",
+            ["pedimos", "pedíamos", "pedía", "pido"],
+            0,
+            "Anoche marks one finished event, so the preterite: pedimos. Pedíamos would be a habit or background, pedía is the yo / él imperfect, and pido is present."
+          ),
+        ]
+      ),
+      sec(
+        "Then the pronoun and its place",
+        [
+          "2) Pronoun: lo / la / los / las replace the thing or person; me / te / le / nos / les say to whom; reflexives (me levanto) refer back to the subject. 3) Position: before the conjugated verb, indirect before direct, and le / les turn into se before lo / la.",
         ],
         [
           ["¿El libro? Lo leí en dos días.", "The book? I read it in two days. (one finished event; lo = el libro)"],
-          ["De niña me acostaba a las ocho.", "As a girl I went to bed at eight. (a habit; reflexive me)"],
           ["¿La bici? Se la presté a Luis.", "The bike? I lent it to Luis. (le + la → se la)"],
         ],
         [
           fb("Complete.", "¿La película? ___ vimos anoche.", "La", "La película is feminine singular, so la, placed before the conjugated verb; anoche makes it a finished event (preterite vimos)."),
+          mc(
+            "«¿Las llaves? ___ di a mi hermano.»",
+            ["Se las", "Le las", "Las le", "Se los"],
+            0,
+            "Indirect comes before direct, and le turns into se before la / las: se las. Le las never appears, las le has the wrong order, and los would not agree with las llaves."
+          ),
         ]
       ),
     ],
@@ -5233,16 +5441,30 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "The email",
+        "Remember the rules",
         [
           "Remember the rules you'll need: preterite for one finished event, imperfect for background and habits; weather with hacer; mayor / mejor never take más; encantar and gustar take le / les; para for a recipient; a negative word before the verb drops no; irregular preterites (hizo, dijeron); object pronouns before a conjugated verb.",
-          "A learner wrote this email. It has eight errors, one from each topic above. Find them before you start the exercises:",
-          "«Querida Ana: el verano pasado íbamos a México. Estuvo mucho calor. Mi hermano es más mayor que yo y lo encanta la comida picante. Compré un regalo por ti. Nadie no me ayudó con las maletas. Mi madre hació muchas fotos. ¡Veré te pronto!»",
         ],
         [
           ["Mi madre es mayor que mi padre.", "My mother is older than my father. (mayor already means 'older')"],
           ["Te escribiré la semana que viene.", "I'll write to you next week. (te before the conjugated verb)"],
         ],
+        [
+          mc(
+            "Which sentence is right? (It was very cold yesterday.)",
+            ["Ayer hizo mucho frío.", "Ayer estuvo mucho frío.", "Ayer fue mucho frío.", "Ayer era mucho frío."],
+            0,
+            "Weather is made with hacer: hace frío, and for one finished day the preterite hizo. Estar, ser and era do not combine with frío as a noun like this."
+          ),
+        ]
+      ),
+      sec(
+        "The email",
+        [
+          "A learner wrote this email. It has eight errors, one from each topic above. Find them before you start the exercises:",
+          "«Querida Ana: el verano pasado íbamos a México. Estuvo mucho calor. Mi hermano es más mayor que yo y lo encanta la comida picante. Compré un regalo por ti. Nadie no me ayudó con las maletas. Mi madre hació muchas fotos. ¡Veré te pronto!»",
+        ],
+        [],
         [
           fb("Fix it.", "El verano pasado ___ a México. (a learner wrote: íbamos)", "fuimos", "One trip is a single event, so the preterite: fuimos, not íbamos."),
         ]
@@ -5311,10 +5533,25 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "6 min",
     [
       sec(
-        "The traps",
+        "Traps 1 to 5: fue, lo or le, por or para, era, hizo",
         [
-          "Remember the rule behind each trap. 1) Fue is both ser and ir in the preterite: context decides. 2) Lo / la for the person or thing acted on, le for the person who receives (dar, decir, contar algo a alguien). 3) Para for end points, por for cause, route, exchange (by train is en tren, not por tren). 4) Era describes, fue sums up a finished event. 5) Hacer → hizo. 6) J-stems drop the i: dijeron, trajeron. 7) Mayor, menor, mejor, peor are already comparatives: no más. 8) Le / les + lo / la → se lo / se la. 9) A negative word before the verb drops no. 10) Gustar agrees with the thing liked: gustan with plurals.",
           "Speed round: these are the mistakes Elementary learners make most. Decide fast, but by the rule.",
+          "Remember the rule behind each trap. 1) Fue is both ser and ir in the preterite: context decides. 2) Lo / la for the person or thing acted on, le for the person who receives (dar, decir, contar algo a alguien). 3) Para for end points, por for cause, route, exchange (by train is en tren, not por tren). 4) Era describes, fue sums up a finished event. 5) Hacer → hizo. 6) J-stems drop the i: dijeron, trajeron. 7) Mayor, menor, mejor, peor are already comparatives: no más. 8) Le / les + lo / la → se lo / se la. 9) A negative word before the verb drops no. 10) Gustar agrees with the thing liked: gustan with plurals.",
+        ],
+        [],
+        [
+          mc(
+            "«La fiesta fue un desastre.» Which verb is fue here?",
+            ["ser: it was a disaster", "ir: it went to a disaster"],
+            0,
+            "Fue is the preterite of both ser and ir, so context decides. A party being a disaster is what it was, summed up as a finished event: ser. Ir would need a destination with a (fue a casa)."
+          ),
+        ]
+      ),
+      sec(
+        "Traps 6 to 10: dijeron, mayor, se lo, nadie, gustan",
+        [
+          "6) J-stems drop the i: dijeron, trajeron. 7) Mayor, menor, mejor, peor are already comparatives: no más. 8) Le / les + lo / la → se lo / se la. 9) A negative word before the verb drops no. 10) Gustar agrees with the thing liked: gustan with plurals.",
         ],
         [
           ["Me gustan los perros, pero no tengo ninguno.", "I like dogs, but I don't have any. (gustan: los perros is plural)"],
@@ -5322,6 +5559,12 @@ export const A2_DRILLS: AnchoredLesson[] = [
         ],
         [
           fb("Quick!", "Ellos me ___ la verdad. (decir, preterite)", "dijeron", "Decir has a j-stem in the preterite (dij-), and j-stems drop the i in the ellos ending: dijeron, not dijieron."),
+          mc(
+            "\"My sister is older than me.\"",
+            ["Mi hermana es mayor que yo.", "Mi hermana es más mayor que yo.", "Mi hermana es más mayor de mí.", "Mi hermana es mayor de yo."],
+            0,
+            "Mayor already means \"older\", so it never takes más. Than is que, and after que comes the subject pronoun yo."
+          ),
         ]
       ),
     ],
@@ -5349,16 +5592,30 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "The story",
+        "Remember the rules",
         [
           "Remember the rules you'll need: preterite for the events of the story (fui, compró), imperfect for the scene (hacía sol, había); por for a part of the day, para + infinitive for a purpose; más… que to compare; object pronouns before the verb (las compró, nos regaló); no + verb + nada.",
-          "Read the story and work out each gap from the rule before you fill it in the exercises:",
-          "«El sábado ___ la mañana fui al mercado con mi abuela. ___ sol y había mucha gente. Mi abuela quería comprar fruta ___ hacer una tarta. Las fresas eran ___ caras que las naranjas, pero ___ compró de todos modos. El vendedor ___ regaló unas cerezas. No compramos ___ más.»",
         ],
         [
           ["Por la tarde llovía mucho.", "In the afternoon it was raining hard. (por + part of the day; imperfect for weather)"],
           ["¿Los tomates? Los compré yo.", "The tomatoes? I bought them. (los before the verb)"],
         ],
+        [
+          mc(
+            "«Fuimos a la playa ___ la tarde.»",
+            ["por", "para", "en el", "a"],
+            0,
+            "A part of the day takes por: por la tarde, por la mañana. Para would make the afternoon a deadline or goal, and en la tarde (not en el) is the Latin American variant, not the rule taught here."
+          ),
+        ]
+      ),
+      sec(
+        "The story",
+        [
+          "Read the story and work out each gap from the rule before you fill it in the exercises:",
+          "«El sábado ___ la mañana fui al mercado con mi abuela. ___ sol y había mucha gente. Mi abuela quería comprar fruta ___ hacer una tarta. Las fresas eran ___ caras que las naranjas, pero ___ compró de todos modos. El vendedor ___ regaló unas cerezas. No compramos ___ más.»",
+        ],
+        [],
         [
           mc(
             "Why did the grandmother buy fruit?",
@@ -5561,17 +5818,37 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Irregulars across tenses",
+        "The time word picks the tense",
         [
           "Remember the rule: the time word picks the tense (ayer → preterite, de niño / antes / siempre → imperfect, mañana / el año que viene → future), and then each tense has its own kind of irregularity.",
-          "Preterite: new stems with endings that carry no accent (hic-e, tuv-e, dij-e, vin-e; fui for both ser and ir). Imperfect: almost everything is regular; only ser (era), ir (iba) and ver (veía) are irregular. Future: the regular endings go on the infinitive, but a few verbs shorten it (har-é, dir-é) or swap the vowel for d (tendr-é, vendr-é).",
-          "Hacer: hice / hacía / haré. Tener: tuve / tenía / tendré. Ir: fui / iba / iré. Ser: fui / era / seré. Decir: dije / decía / diré. Venir: vine / venía / vendré.",
         ],
         [
           ["Antes iba al gimnasio; ayer no fui; mañana iré.", "I used to go to the gym; yesterday I didn't go; tomorrow I'll go."],
         ],
         [
+          mc(
+            "«El año que viene ___ a Chile.» (ir, yo)",
+            ["iré", "fui", "iba", "fuera"],
+            0,
+            "El año que viene points to the future, so iré. Fui is the preterite (one finished trip), iba the imperfect (a habit in the past), and fuera is a subjunctive form."
+          ),
+        ]
+      ),
+      sec(
+        "Irregulars across tenses",
+        [
+          "Preterite: new stems with endings that carry no accent (hic-e, tuv-e, dij-e, vin-e; fui for both ser and ir). Imperfect: almost everything is regular; only ser (era), ir (iba) and ver (veía) are irregular. Future: the regular endings go on the infinitive, but a few verbs shorten it (har-é, dir-é) or swap the vowel for d (tendr-é, vendr-é).",
+          "Hacer: hice / hacía / haré. Tener: tuve / tenía / tendré. Ir: fui / iba / iré. Ser: fui / era / seré. Decir: dije / decía / diré. Venir: vine / venía / vendré.",
+        ],
+        [],
+        [
           fb("Complete.", "Ayer ___ mucho trabajo. (tener, yo)", "tuve", "Ayer marks a finished moment, so the preterite; tener has the irregular stem tuv- (no accent)."),
+          mc(
+            "Which is the future of decir, \"I will say\"?",
+            ["diré", "deciré", "dijeré", "diceré"],
+            0,
+            "Decir is one of the few verbs that shortens the infinitive in the future: dir- + é. Deciré keeps the full infinitive, and dijeré borrows the preterite stem dij-."
+          ),
         ]
       ),
     ],
@@ -5710,16 +5987,30 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "The story",
+        "Remember the rule: a life moves through the tenses",
         [
           "Remember the rule: a life story moves through the tenses. Milestones and single events (born, left, met, opened) → preterite. Description and ongoing situations (what the family was like, what he did every day) → imperfect. Plans → future. Para + infinitive for a purpose.",
-          "Read the story and decide each verb from the rule before you fill the gaps in the exercises:",
-          "«Mi abuelo ___ (nacer) en un pueblo de Galicia. Su familia ___ (ser) pobre y él ___ (trabajar) en el campo desde niño. A los veinte años se ___ (ir) a Argentina en barco. Allí ___ (conocer) a mi abuela y abrió una panadería. El año que viene ___ (ir, nosotros) a Galicia ___ conocer su pueblo.»",
         ],
         [
           ["Mi madre nació en Cuba, pero creció en Miami.", "My mother was born in Cuba, but grew up in Miami. (two milestones: preterite)"],
           ["La casa tenía un jardín enorme.", "The house had a huge garden. (description: imperfect)"],
         ],
+        [
+          mc(
+            "«Mi tía ___ en Lima en 1970.» (nacer)",
+            ["nació", "nacía", "nacerá", "nace"],
+            0,
+            "Being born is a milestone, a single event: preterite, nació. Nacía would describe an ongoing situation, nacerá is a plan for the future, and nace is present."
+          ),
+        ]
+      ),
+      sec(
+        "The story",
+        [
+          "Read the story and decide each verb from the rule before you fill the gaps in the exercises:",
+          "«Mi abuelo ___ (nacer) en un pueblo de Galicia. Su familia ___ (ser) pobre y él ___ (trabajar) en el campo desde niño. A los veinte años se ___ (ir) a Argentina en barco. Allí ___ (conocer) a mi abuela y abrió una panadería. El año que viene ___ (ir, nosotros) a Galicia ___ conocer su pueblo.»",
+        ],
+        [],
         [
           mc(
             "Where did the grandfather open a bakery?",

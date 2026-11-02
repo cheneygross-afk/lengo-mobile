@@ -29,9 +29,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "The idea: the verb already says who",
         "body": [
-          "Ser (to be) has a different form for each person: soy, eres, es, somos, sois, son. Because the form already tells you who you mean, Spanish usually drops the pronoun: Soy de Chile is a full sentence, \"I'm from Chile\". Use yo, tú, ella... only to be clear or for emphasis.",
-          "Spanish has two ways to say \"you\". Tú is for friends, family and children; usted is for strangers, older people and anyone you'd address as sir or madam. Usted began as a polite title (\"your grace\"), so it takes the same verb form as él and ella: usted es, never usted eres.",
-          "For \"you all\", Spain uses vosotros/vosotras (sois) with friends and ustedes with strangers. Latin America uses ustedes (son) for every group."
+          "Ser (to be) has a different form for each person: soy, eres, es, somos, sois, son. Because the form already tells you who you mean, Spanish usually drops the pronoun: Soy de Chile is a full sentence, \"I'm from Chile\". Use yo, tú, ella... only to be clear or for emphasis."
         ],
         "examples": [
           {
@@ -45,7 +43,40 @@ const A1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Soy de Argentina.",
             "en": "I'm from Argentina. (soy can only mean \"I am\", so yo isn't needed)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Somos de Perú. Who is from Peru?",
+            "options": [
+              "we",
+              "I",
+              "they",
+              "you (informal)"
+            ],
+            "correctIndex": 0,
+            "explanation": "Somos is the nosotros form of ser, so the verb alone says \"we\": no pronoun needed. I would be soy, they would be son, and you (informal) would be eres."
           },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with the right form of ser. No pronoun is needed.",
+            "sentence": "___ de Chile. (I'm from Chile.)",
+            "answer": "Soy",
+            "altAnswers": [
+              "soy"
+            ],
+            "explanation": "Soy can only mean \"I am\", so Soy de Chile is a full sentence. Es would mean he, she or usted; yo soy is right but the yo only adds emphasis."
+          }
+        ]
+      },
+      {
+        "heading": "Tú or usted: two ways to say \"you\"",
+        "body": [
+          "Spanish has two ways to say \"you\". Tú is for friends, family and children; usted is for strangers, older people and anyone you'd address as sir or madam. Usted began as a polite title (\"your grace\"), so it takes the same verb form as él and ella: usted es, never usted eres.",
+          "For \"you all\", Spain uses vosotros/vosotras (sois) with friends and ustedes with strangers. Latin America uses ustedes (son) for every group."
+        ],
+        "examples": [
           {
             "es": "¿Usted es de aquí?",
             "en": "Are you from here? (formal: usted takes es, like él and ella)"
@@ -9501,10 +9532,9 @@ const A1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Far from both, and things with no name",
+        "heading": "Far from both: aquel, aquella, aquellos, aquellas",
         "body": [
-          "The aquel family marks something far from both speaker and listener — often across a room or in the distance. English collapses this into \"that/those\" too, but Spanish keeps a three-way distinction: este (here), ese (there, near you), aquel (over there, far from us both). Only the masculine singular is odd (aquel, not \"aquelo\"); the others are regular: aquella, aquellos, aquellas.",
-          "A separate set — esto, eso, aquello — are neuter pronouns. They never change for gender or number, because they don't stand in for a specific noun; they point at an idea, a situation, or something you can't yet identify. That is also why they never go in front of a noun: you say aquel coche, never \"aquello coche\"."
+          "The aquel family marks something far from both speaker and listener — often across a room or in the distance. English collapses this into \"that/those\" too, but Spanish keeps a three-way distinction: este (here), ese (there, near you), aquel (over there, far from us both). Only the masculine singular is odd (aquel, not \"aquelo\"); the others are regular: aquella, aquellos, aquellas."
         ],
         "examples": [
           {
@@ -9514,7 +9544,37 @@ const A1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Aquellos edificios son del banco.",
             "en": "Those buildings (far away) belong to the bank."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "The shop is across the square, far from you and your friend. Which sentence is right?",
+            "options": [
+              "Aquella tienda es nueva.",
+              "Aquel tienda es nueva.",
+              "Esta tienda es nueva.",
+              "Aquello tienda es nueva."
+            ],
+            "correctIndex": 0,
+            "explanation": "Far from both people calls for the aquel family, and tienda is feminine singular, so aquella. Aquel is the masculine form, esta means near the speaker, and aquello never goes before a noun."
           },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with the right demonstrative.",
+            "sentence": "¿Ves ___ pájaros en el cielo?",
+            "answer": "aquellos",
+            "hint": "far from both of us",
+            "explanation": "Pájaros is masculine plural and far from both people, so aquellos. Esos would mean near the listener."
+          }
+        ]
+      },
+      {
+        "heading": "Esto, eso, aquello: things with no name",
+        "body": [
+          "A separate set — esto, eso, aquello — are neuter pronouns. They never change for gender or number, because they don't stand in for a specific noun; they point at an idea, a situation, or something you can't yet identify. That is also why they never go in front of a noun: you say aquel coche, never \"aquello coche\"."
+        ],
+        "examples": [
           {
             "es": "¿Qué es esto?",
             "en": "What is this? (unidentified object: no noun, so neuter)"
@@ -9542,12 +9602,16 @@ const A1_BASE_LESSONS: Lesson[] = [
             "explanation": "\"Esta\" is a regular feminine adjective that must accompany a noun; \"esto\", \"eso\", and \"aquello\" are the fixed neuter forms used alone."
           },
           {
-            "type": "fill-blank",
-            "prompt": "Complete with the right demonstrative.",
-            "sentence": "¿Ves ___ pájaros en el cielo?",
-            "answer": "aquellos",
-            "hint": "far from both of us",
-            "explanation": "Pájaros is masculine plural and far from both people, so aquellos. Esos would mean near the listener."
+            "type": "multiple-choice",
+            "question": "You hear a strange noise far away and don't know what it is. How do you ask \"What's that?\"",
+            "options": [
+              "¿Qué es aquello?",
+              "¿Qué es aquel?",
+              "¿Qué es aquella?",
+              "¿Qué es esto?"
+            ],
+            "correctIndex": 0,
+            "explanation": "Something you can't name yet takes a neuter pronoun, and far away makes it aquello. Aquel and aquella need a known noun to agree with, and esto would mean something right here."
           }
         ]
       }

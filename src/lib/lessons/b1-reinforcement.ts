@@ -3642,30 +3642,48 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Recuerda la regla: y = si, o = si no",
+        "Consejo: mandato + y = si + presente",
         [
-          "Recuerda la regla: un consejo con mandato + y + futuro dice lo mismo que si + presente + futuro (Come y te sentirás mejor = Si comes, te sentirás mejor). Una advertencia con mandato + o + futuro equivale a si no + presente + futuro (Date prisa o perderás el tren = Si no te das prisa, perderás el tren).",
-          "¿Por qué? «Y» une la acción con su premio: si la haces, llega el resultado. «O» presenta una alternativa: o haces esto, o pasa lo otro; es decir, si no lo haces. Al transformar, el imperativo pasa a presente de indicativo (come → comes; ponte → te pones), porque tras si nunca va un mandato ni un futuro.",
+          "Recuerda la regla: un consejo con mandato + y + futuro dice lo mismo que si + presente + futuro (Come y te sentirás mejor = Si comes, te sentirás mejor).",
+          "¿Por qué? «Y» une la acción con su premio: si la haces, llega el resultado. Al transformar, el imperativo pasa a presente de indicativo (come → comes; ponte → te pones), porque tras si nunca va un mandato ni un futuro.",
         ],
         [
           ["Come y te sentirás mejor. → Si comes, te sentirás mejor.", "Eat and you'll feel better. (y → si)"],
-          ["Date prisa o perderás el tren. → Si no te das prisa, perderás el tren.", "Hurry or you'll miss the train. (o → si no; el pronombre va delante: te das)"],
           ["Haz la reserva y tendrás mesa. → Si haces la reserva, tendrás mesa.", "Make the booking and you'll get a table. (haz → haces)"],
         ],
         [
+          mc(
+            "«Lee cada noche y dormirás mejor.» → con si:",
+            ["Si lees cada noche, dormirás mejor.", "Si no lees cada noche, dormirás mejor.", "Si leerás cada noche, dormirás mejor.", "Si lee cada noche, dormirás mejor."],
+            0,
+            "Mandato + y = si + presente de la misma persona (tú): lee → si lees. Con «no» dirías lo contrario, «leerás» pone futuro tras si y «lee» tras si es el presente de usted o él, no de tú."
+          ),
           fb("Transforma con si.", "Llama y te abrirán. → Si ___, te abrirán.", "llamas", "Mandato + y = si + presente: el imperativo «llama» pasa a presente, «si llamas». Sin «no», porque la «y» une acción y resultado."),
+        ]
+      ),
+      sec(
+        "Advertencia: mandato + o = si no + presente",
+        [
+          "Una advertencia con mandato + o + futuro equivale a si no + presente + futuro (Date prisa o perderás el tren = Si no te das prisa, perderás el tren).",
+          "«O» presenta una alternativa: o haces esto, o pasa lo otro; es decir, si no lo haces. El pronombre pegado al mandato pasa delante del presente: date prisa → si no te das prisa.",
+        ],
+        [
+          ["Date prisa o perderás el tren. → Si no te das prisa, perderás el tren.", "Hurry or you'll miss the train. (o → si no; el pronombre va delante: te das)"],
+          ["Ahorra o no podrás viajar. → Si no ahorras, no podrás viajar.", "Save or you won't be able to travel. (o → si no)"],
+        ],
+        [
           mc(
             "«Sal ya o llegarás tarde.» → con si:",
             ["Si no sales ya, llegarás tarde.", "Si sales ya, llegarás tarde.", "Si no saldrás ya, llegarás tarde.", "Si no sal ya, llegarás tarde."],
             0,
             "Mandato + o = si no + presente: si no sales. Sin «no» cambia el sentido, «saldrás» pone futuro tras si y «sal» es un imperativo, que no va tras si."
           ),
+          fb("Transforma con si.", "Abrígate o te resfriarás. → Si no ___, te resfriarás.", "te abrigas", "Mandato + o = si no + presente; el pronombre, pegado en el imperativo (abrígate), pasa delante del verbo conjugado: si no te abrigas. «Abrígate» no puede ir tras si."),
         ]
       ),
     ],
     [
       fb("Transforma con si.", "Duerme más y estarás menos cansado. → Si ___ más, estarás menos cansado.", "duermes", "Mandato + y = si + presente: duerme → duermes (o → ue, igual que en el imperativo)."),
-      fb("Transforma con si.", "Abrígate o te resfriarás. → Si no ___, te resfriarás.", "te abrigas", "Mandato + o = si no + presente; el pronombre, pegado en el imperativo (abrígate), pasa delante del verbo conjugado: si no te abrigas."),
       fb("Transforma con si.", "Estudiad o suspenderéis. → Si no ___, suspenderéis.", "estudiáis", "Mandato + o = si no + presente de vosotros: estudiad → estudiáis."),
       fb("Transforma al mandato.", "Si practicas, mejorarás. → ___ y mejorarás.", "Practica", "Camino inverso: si + presente (practicas) → mandato de tú + y (Practica y mejorarás)."),
       mc(
@@ -4226,17 +4244,32 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "Recuerda la regla: tres formas de hablar de emociones",
         [
           "Recuerda la regla: una emoción se puede decir de tres maneras. Para el estado, estar + adjetivo (estoy preocupada, está enfadado). Para el momento en que empieza la emoción, un verbo pronominal o ponerse + adjetivo (se enfadó, me puse nerviosa). Y para la causa, me da miedo / me molesta / me pone nervioso + lo que la provoca.",
-          "¿Infinitivo o subjuntivo? Si la persona que siente y la que hace la acción son la misma, va infinitivo (me da rabia perder el autobús: yo siento, yo pierdo). Si la acción es de otra persona, va que + subjuntivo (me da rabia que mi vecino ponga la música alta), porque es una reacción emocional a lo que hace otro, no una información.",
         ],
         [
           ["Estoy preocupada por el examen.", "I'm worried about the exam. (estado: estar + adjetivo)"],
           ["Mi padre se puso nervioso en la entrevista.", "My father got nervous in the interview. (cambio: ponerse + adjetivo)"],
+        ],
+        [
+          mc(
+            "«Cuando vio la factura, de repente mi madre ___ furiosa.»",
+            ["se puso", "está", "es", "estará"],
+            0,
+            "«De repente» marca el momento en que empieza la emoción → ponerse + adjetivo: se puso furiosa. «Está» y «estará» describirían el estado, no el cambio, y «es» no se usa para una emoción pasajera."
+          ),
+        ]
+      ),
+      sec(
+        "¿Infinitivo o subjuntivo?",
+        [
+          "¿Infinitivo o subjuntivo? Si la persona que siente y la que hace la acción son la misma, va infinitivo (me da rabia perder el autobús: yo siento, yo pierdo). Si la acción es de otra persona, va que + subjuntivo (me da rabia que mi vecino ponga la música alta), porque es una reacción emocional a lo que hace otro, no una información.",
+        ],
+        [
           ["Me da rabia perder el autobús.", "It makes me mad to miss the bus. (yo siento y yo pierdo: infinitivo)"],
           ["Me da rabia que mi vecino ponga la música tan alta.", "It makes me mad that my neighbour plays music so loud. (otra persona: que + subjuntivo)"],
         ],
         [
-          fb("Completa con infinitivo o subjuntivo.", "A mi abuela le preocupa que sus nietos ___ tan poco. (dormir)", "duerman", "Quien siente (la abuela) y quien duerme (los nietos) son personas distintas: que + subjuntivo, «duerman» (o → ue)."),
           fb("Completa con infinitivo o subjuntivo.", "Me encanta ___ con mis sobrinos los domingos. (jugar, yo)", "jugar", "Yo siento y yo juego: la misma persona, así que va el infinitivo, sin «que»."),
+          fb("Completa con infinitivo o subjuntivo.", "A mi abuela le preocupa que sus nietos ___ tan poco. (dormir)", "duerman", "Quien siente (la abuela) y quien duerme (los nietos) son personas distintas: que + subjuntivo, «duerman» (o → ue)."),
         ]
       ),
     ],
@@ -7097,23 +7130,38 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "Descubrir una pasión",
         [
           "Recuerda la regla: al contar una afición, el momento decide el tiempo verbal. Cómo empezó (un hecho cerrado) → pretérito: empecé, me apunté. Lo que ha cambiado hasta hoy (un periodo abierto: este año, desde entonces) → pretérito perfecto: he aprendido. Lo que había antes de empezar → pluscuamperfecto: nunca había pintado.",
-          "Y al recomendar o expresar gustos sobre otra persona: verbo de influencia o emoción + que + otro sujeto → subjuntivo (te recomiendo que pruebes, me encanta que no haya exámenes). ¿Por qué? Porque no informas de un hecho, sino de lo que quieres o sientes sobre él. Si el sujeto es el mismo, va el infinitivo: me gustaría vender mis piezas.",
         ],
         [
           ["Empecé a hacer cerámica hace un año.", "I started doing pottery a year ago. [inicio cerrado → pretérito]"],
           ["Desde entonces, he aprendido a relajarme.", "Since then, I've learned to relax. [periodo hasta hoy → perfecto]"],
+        ],
+        [
+          mc(
+            "«Nunca ___ antes de apuntarme al taller.» (pintar, yo)",
+            ["había pintado", "he pintado", "pinté", "pintaré"],
+            0,
+            "Lo que había (o no había) antes de empezar, visto desde un momento pasado (apuntarme) → pluscuamperfecto: había pintado. «He pintado» llega hasta hoy, «pinté» es un hecho cerrado sin ese «antes» y «pintaré» es futuro."
+          ),
+          fb("Completa.", "Hace un año que ___ a pintar. (empezar, yo, pretérito)", "empecé", "Hace + tiempo + que + pretérito para el inicio de algo; ojo con la ortografía: empec-é (z → c delante de e)."),
+        ]
+      ),
+      sec(
+        "Recomendar y hablar de gustos",
+        [
+          "Y al recomendar o expresar gustos sobre otra persona: verbo de influencia o emoción + que + otro sujeto → subjuntivo (te recomiendo que pruebes, me encanta que no haya exámenes). ¿Por qué? Porque no informas de un hecho, sino de lo que quieres o sientes sobre él. Si el sujeto es el mismo, va el infinitivo: me gustaría vender mis piezas.",
+        ],
+        [
           ["Te recomiendo que pruebes una clase.", "I recommend you try a class. [recomendar que + otra persona → subjuntivo]"],
           ["Me gustaría exponer mis cuadros.", "I'd like to exhibit my paintings. [mismo sujeto → infinitivo]"],
         ],
         [
-          fb("Completa.", "Me encanta que en la clase no ___ exámenes. (haber)", "haya", "Encantar que + otra cosa como sujeto → subjuntivo: haya. Expresas lo que sientes, no informas de un hecho."),
-          fb("Completa.", "Hace un año que ___ a pintar. (empezar, yo, pretérito)", "empecé", "Hace + tiempo + que + pretérito para el inicio de algo; ojo con la ortografía: empec-é (z → c delante de e)."),
           mc(
             "Mi monitor de escalada prefiere que ___ con cuerda los primeros meses.",
             ["subamos", "subimos", "subir", "subiremos"],
             0,
             "«Preferir que» + otro sujeto (nosotros) → subjuntivo: subamos. «Subimos» es indicativo, un simple hecho; el infinitivo solo vale si el sujeto es el mismo (él prefiere subir)."
           ),
+          fb("Completa.", "Me encanta que en la clase no ___ exámenes. (haber)", "haya", "Encantar que + otra cosa como sujeto → subjuntivo: haya. Expresas lo que sientes, no informas de un hecho."),
         ]
       ),
     ],
@@ -7534,7 +7582,6 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "Recuerda la regla: contar lo que él decía",
         [
           "Recuerda la regla: cuando cuentas lo que alguien dijo en el pasado (me dijo que, me contaba que, me prometió que), los verbos dan un paso atrás en el tiempo. El presente pasa a imperfecto (es → era), el perfecto y el indefinido suelen pasar a pluscuamperfecto (he hecho / hice → había hecho; el indefinido a veces se mantiene: dijo que trabajó) y el futuro pasa a condicional (vendré → vendría).",
-          "¿Por qué? Porque ahora todo se mira desde un momento que ya pasó: lo que entonces era presente ahora es pasado, lo que ya había ocurrido queda más atrás y lo que iba a ocurrir es un futuro visto desde el pasado. Y cambian también las personas: «mis hermanos» en boca de él pasa a «sus hermanos».",
         ],
         [
           ["Mi padre me contaba que había cruzado el país en bici.", "My father used to tell me he had crossed the country by bike. (crucé → había cruzado)"],
@@ -7543,6 +7590,24 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa en estilo indirecto.", "«Estoy agotado.» → Mi padre me dijo que ___ agotado.", "estaba", "Lo que él dijo en presente (estoy) da un paso atrás: imperfecto, «estaba»."),
+        ]
+      ),
+      sec(
+        "¿Por qué? Y cambian las personas",
+        [
+          "¿Por qué? Porque ahora todo se mira desde un momento que ya pasó: lo que entonces era presente ahora es pasado, lo que ya había ocurrido queda más atrás y lo que iba a ocurrir es un futuro visto desde el pasado. Y cambian también las personas: «mis hermanos» en boca de él pasa a «sus hermanos».",
+        ],
+        [
+          ["«Mis hermanos viven en Lima.» → Me dijo que sus hermanos vivían en Lima.", "\"My brothers live in Lima.\" → He told me his brothers lived in Lima. (mis → sus; viven → vivían)"],
+          ["«Te escribiré.» → Me dijo que me escribiría.", "\"I'll write to you.\" → He told me he would write to me. (te → me; escribiré → escribiría)"],
+        ],
+        [
+          mc(
+            "«Mi coche es nuevo», dijo Juan. → Juan dijo que ___ coche era nuevo.",
+            ["su", "mi", "tu", "nuestro"],
+            0,
+            "Al contarlo tú, «mi» en boca de Juan pasa a «su» (el coche de él). «Mi» sería tu coche, «tu» el de la persona con quien hablas y «nuestro» el de varios."
+          ),
           toEs("«Te llevaré al mar.»", "Me prometió que me llevaría al mar.", "El futuro (llevaré) visto desde el pasado pasa a condicional: «llevaría». «Te» (a mí, desde su boca) pasa a «me».", [], "Pasa la frase al estilo indirecto empezando con «Me prometió que…»."),
         ]
       ),

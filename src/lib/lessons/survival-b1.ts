@@ -564,14 +564,10 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [
           "Palabras: el piso (España) / el departamento (México, Argentina, Chile) / el apartamento (Colombia, Venezuela y también España). El casero o la casera = landlord; el propietario / el dueño; el inquilino = tenant.",
           "La fianza (España) es el depósito; en muchos países de América se llama el depósito o la garantía. En Argentina a menudo se pide un garante: una persona o un seguro que responde si no pagas.",
-          "El recibo o la factura de la luz: la luz = electricity bill. Los gastos de comunidad (España) o las expensas (Argentina) o el mantenimiento (México) = shared building costs.",
-          "Antes de firmar, lee el contrato y haz fotos del piso: Quería leer el contrato con calma antes de firmar.",
         ],
         [
           ["Busco un departamento de dos recámaras.", "I'm looking for a two-bedroom flat. (Mexico)"],
-          ["¿Hay que pagar expensas?", "Do you have to pay building fees? (Argentina)"],
           ["Me devolvieron la fianza entera.", "They gave me back the whole deposit."],
-          ["Quería leer el contrato con calma antes de firmar.", "I'd like to read the contract carefully before signing."],
         ],
         [
           mc(
@@ -579,6 +575,25 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
             ["Un piso de tres dormitorios", "Una oficina con tres salas", "Tres pisos", "Un piso con tres baños"],
             0,
             "En México, departamento = piso y recámara = dormitorio."
+          ),
+        ]
+      ),
+      sec(
+        "Los gastos, y antes de firmar",
+        [
+          "El recibo o la factura de la luz: la luz = electricity bill. Los gastos de comunidad (España) o las expensas (Argentina) o el mantenimiento (México) = shared building costs.",
+          "Antes de firmar, lee el contrato y haz fotos del piso: Quería leer el contrato con calma antes de firmar.",
+        ],
+        [
+          ["¿Hay que pagar expensas?", "Do you have to pay building fees? (Argentina)"],
+          ["Quería leer el contrato con calma antes de firmar.", "I'd like to read the contract carefully before signing."],
+        ],
+        [
+          mc(
+            "En Buenos Aires, el dueño te dice: «Las expensas son aparte». ¿Qué tienes que pagar aparte?",
+            ["Los gastos comunes del edificio", "La fianza", "El alquiler", "El garante"],
+            0,
+            "Las expensas (Argentina) son los gastos de comunidad de España o el mantenimiento de México: lo que cuesta el edificio compartido. La fianza o garantía es el depósito, y el garante es una persona o un seguro, no un pago."
           ),
         ]
       ),
@@ -671,18 +686,14 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
     "12 min",
     [
       sec(
-        "Los trámites básicos en España",
+        "El NIE y el padrón",
         [
           "El NIE (Número de Identidad de Extranjero) es tu número de identificación como extranjero en España: lo necesitas para trabajar, abrir una cuenta, firmar un contrato de alquiler o comprar un coche.",
           "Empadronarse es registrarse en el padrón municipal del ayuntamiento, en la ciudad donde vives. El certificado de empadronamiento (el padrón) se pide para la sanidad pública, escolarizar a los niños y muchos otros trámites.",
-          "Casi todo necesita cita previa: se pide por internet o por teléfono. Conseguir cita puede tardar, así que es mejor pedirla pronto.",
-          "Las palabras de siempre: el trámite (the procedure), el impreso o el formulario (the form), la tasa (the fee), el justificante (proof, receipt), el funcionario (civil servant), la ventanilla (the counter).",
         ],
         [
-          ["Necesito pedir cita previa para el NIE.", "I need to book an appointment for my NIE."],
           ["¿Dónde me puedo empadronar?", "Where can I register as a resident?"],
-          ["Hay que pagar la tasa en el banco antes de la cita.", "You have to pay the fee at the bank before the appointment."],
-          ["Traiga el justificante de pago.", "Bring the proof of payment."],
+          ["Para abrir la cuenta me pidieron el NIE.", "They asked me for my NIE to open the account."],
         ],
         [
           mc(
@@ -690,6 +701,26 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
             ["En el ayuntamiento de la ciudad donde vives", "En la comisaría", "En el banco", "En Correos"],
             0,
             "El padrón es municipal: te registras en el ayuntamiento (o en una oficina municipal) de tu ciudad."
+          ),
+        ]
+      ),
+      sec(
+        "Cita previa y las palabras de siempre",
+        [
+          "Casi todo necesita cita previa: se pide por internet o por teléfono. Conseguir cita puede tardar, así que es mejor pedirla pronto.",
+          "Las palabras de siempre: el trámite (the procedure), el impreso o el formulario (the form), la tasa (the fee), el justificante (proof, receipt), el funcionario (civil servant), la ventanilla (the counter).",
+        ],
+        [
+          ["Necesito pedir cita previa para el NIE.", "I need to book an appointment for my NIE."],
+          ["Hay que pagar la tasa en el banco antes de la cita.", "You have to pay the fee at the bank before the appointment."],
+          ["Traiga el justificante de pago.", "Bring the proof of payment."],
+        ],
+        [
+          mc(
+            "En la ventanilla, el funcionario te pide «el justificante». ¿Qué te pide?",
+            ["El papel que demuestra que has pagado o hecho algo", "Un formulario en blanco", "El dinero de la tasa", "La cita previa"],
+            0,
+            "El justificante es la prueba (proof, receipt) de un pago o de un trámite. El formulario es el impreso que rellenas, la tasa es lo que pagas y la cita previa se pide antes de ir."
           ),
         ]
       ),
@@ -722,13 +753,28 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
           "Cada país tiene su sistema, pero la lógica es parecida: un número de identificación y una tarjeta de residente.",
           "México: el INM (Instituto Nacional de Migración) da la tarjeta de residente temporal o permanente; para temas fiscales se usa el RFC y para muchos trámites, la CURP.",
           "Argentina: el DNI para extranjeros lo da el RENAPER después de la residencia de Migraciones; para trabajar se necesita el CUIL o CUIT. Chile: el RUT (o RUN) aparece en todo. Colombia: la cédula de extranjería.",
+        ],
+        [
+          ["Saqué turno para el DNI.", "I got an appointment for my ID. (Argentina)"],
+          ["Sin el RUT no puedes hacer nada.", "Without your RUT you can't do anything. (Chile)"],
+        ],
+        [
+          mc(
+            "En Chile, ¿qué número te piden en casi todos los trámites?",
+            ["el RUT", "el NIE", "la CURP", "el CUIL"],
+            0,
+            "En Chile el RUT (o RUN) aparece en todo. El NIE es de España, la CURP de México y el CUIL de Argentina."
+          ),
+        ]
+      ),
+      sec(
+        "Las mismas palabras en todas partes",
+        [
           "En casi todos los países verás las mismas palabras: turno o cita (appointment), trámite, requisitos (requirements), fotocopia, apostillar (to get an apostille for a foreign document).",
         ],
         [
           ["¿Cuáles son los requisitos para la residencia?", "What are the requirements for residency?"],
-          ["Saqué turno para el DNI.", "I got an appointment for my ID. (Argentina)"],
           ["Tienes que apostillar el título.", "You have to get an apostille on your degree."],
-          ["Sin el RUT no puedes hacer nada.", "Without your RUT you can't do anything. (Chile)"],
         ],
         [
           mc(
@@ -1012,18 +1058,15 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Devolver, cambiar, el plazo y la garantía",
+        "Devolver, cambiar y el plazo",
         [
           "Devolver un producto = to return it. Cambiar algo por otra cosa = to exchange it. Un vale (España) / una nota de crédito (América) = store credit.",
           "El plazo de devolución = the return period: Tiene treinta días para devolverlo. Muchas tiendas no aceptan devoluciones en ropa interior o productos en oferta.",
-          "La garantía = the guarantee / warranty. En España, los productos nuevos tienen tres años de garantía (en el resto de la UE, al menos dos); en muchos países de América Latina la garantía legal suele ser más corta, así que pregunta: ¿Cuánto tiempo de garantía tiene?",
-          "Si no tienes ticket, pregunta: ¿Se puede cambiar sin ticket? A veces te dan un vale en lugar del dinero.",
         ],
         [
           ["Quería devolver esta camisa; no me queda bien.", "I'd like to return this shirt; it doesn't fit."],
           ["¿Puedo cambiarla por una talla más?", "Can I exchange it for a size bigger?"],
           ["¿Cuál es el plazo de devolución?", "What's the return period?"],
-          ["El portátil todavía está en garantía.", "The laptop is still under warranty."],
         ],
         [
           fe(
@@ -1031,6 +1074,25 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
             "cambiar",
             "Can I [exchange] these shoes for another colour?",
             "Cambiar algo por otra cosa = to exchange. Devolver sería recuperar el dinero."
+          ),
+        ]
+      ),
+      sec(
+        "La garantía, y si no tienes ticket",
+        [
+          "La garantía = the guarantee / warranty. En España, los productos nuevos tienen tres años de garantía (en el resto de la UE, al menos dos); en muchos países de América Latina la garantía legal suele ser más corta, así que pregunta: ¿Cuánto tiempo de garantía tiene?",
+          "Si no tienes ticket, pregunta: ¿Se puede cambiar sin ticket? A veces te dan un vale en lugar del dinero.",
+        ],
+        [
+          ["El portátil todavía está en garantía.", "The laptop is still under warranty."],
+          ["¿Cuánto tiempo de garantía tiene esta lavadora?", "How long is the warranty on this washing machine?"],
+        ],
+        [
+          mc(
+            "Compraste una tostadora en Madrid hace un año y ha dejado de funcionar. ¿Qué preguntas?",
+            ["¿Todavía está en garantía?", "¿Cuál es el plazo de devolución?", "¿Me hace un pedido?", "¿Dónde está la etiqueta de devolución?"],
+            0,
+            "Para un producto que se estropea, pregunta por la garantía: en España los productos nuevos tienen tres años, así que todavía lo está. El plazo de devolución (unos treinta días) ya pasó, y pedido y etiqueta son de las compras en línea."
           ),
         ]
       ),

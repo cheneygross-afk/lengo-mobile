@@ -27,9 +27,23 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
     "10 min",
     [
       sec(
-        "Dialogue: in a clothes shop",
+        "The idea: the clothes do the fitting",
         [
           "The idea: in a Spanish shop the clothes do the fitting. Quedar works like gustar: the garment is the subject and me / te / le shows who wears it, so the verb and the adjective agree with the clothes (la chaqueta me queda grande, los zapatos me quedan pequeños). Lo / la / los / las stand in for the garment once it has been named: ¿Me la puedo probar? (la = la chaqueta).",
+        ],
+        [],
+        [
+          mc(
+            "You try on some trousers and they are too short. What do you say?",
+            ["Los pantalones me quedan cortos.", "Los pantalones me queda cortos.", "Los pantalones me quedan cortas.", "Yo quedo cortos los pantalones."],
+            0,
+            "Quedar agrees with the clothes, like gustar: los pantalones is plural, so quedan, and the adjective is masculine plural, cortos. Me queda would be for one garment; yo quedo makes you the subject, which Spanish doesn't do here."
+          ),
+        ]
+      ),
+      sec(
+        "Dialogue: in a clothes shop",
+        [
           "Read the dialogue. Clara wants a jacket she saw in the window.",
           "Notice the chunks: ¿Qué talla usas? (what size do you take?), ¿Me la puedo probar? (can I try it on?), los probadores (the fitting rooms), me queda grande (it's too big on me).",
         ],
@@ -44,10 +58,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "You try on some trousers and they are too short. What do you say?",
-            ["Los pantalones me quedan cortos.", "Los pantalones me queda cortos.", "Los pantalones me quedan cortas.", "Yo quedo cortos los pantalones."],
+            "Why does Clara ask for a different size?",
+            ["The jacket is a bit big on her.", "The jacket is too small.", "She wants another colour.", "The fitting rooms are closed."],
             0,
-            "Quedar agrees with the clothes, like gustar: los pantalones is plural, so quedan, and the adjective is masculine plural, cortos. Me queda would be for one garment; yo quedo makes you the subject, which Spanish doesn't do here."
+            "Me queda un poco grande: \"it is a bit big on me\", so she asks for una talla menos, a size smaller. Nothing is said about colour or the fitting rooms being closed."
           ),
         ]
       ),
@@ -75,13 +89,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Paying, and Spain vs. Latin America",
+        "Paying and exchanging",
         [
           "At the till (la caja): ¿Cómo va a pagar? — Con tarjeta / En efectivo. ¿Me da una bolsa? Some shops charge for bags.",
           "To return or exchange something, keep the ticket (el ticket, el recibo): ¿Puedo cambiarlo si no me queda bien?",
-          "Words that change: a jacket is una chaqueta in Spain, una chamarra in Mexico and una campera in Argentina. A T-shirt is una camiseta in Spain, una playera in Mexico, una remera in Argentina.",
-          "Sizes: Spain uses European sizes (38, 40, 42) for clothes and shoes, while Latin American countries vary (some use US-style or S/M/L sizing); Mexico uses its own shoe sizes (a 25 is about a European 39).",
-          "In Spain shop assistants often use tú with young customers; in most of Latin America usted is more common in shops.",
         ],
         [
           ["¿Puedo pagar con tarjeta?", "Can I pay by card?"],
@@ -95,6 +106,23 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
             ["Me la llevo.", "Me la quedo grande.", "La pruebo.", "Me queda."],
             0,
             "Llevarse = to take (buy) something: me lo llevo / me la llevo. It's the standard phrase in any shop."
+          ),
+        ]
+      ),
+      sec(
+        "Spain vs. Latin America",
+        [
+          "Words that change: a jacket is una chaqueta in Spain, una chamarra in Mexico and una campera in Argentina. A T-shirt is una camiseta in Spain, una playera in Mexico, una remera in Argentina.",
+          "Sizes: Spain uses European sizes (38, 40, 42) for clothes and shoes, while Latin American countries vary (some use US-style or S/M/L sizing); Mexico uses its own shoe sizes (a 25 is about a European 39).",
+          "In Spain shop assistants often use tú with young customers; in most of Latin America usted is more common in shops.",
+        ],
+        [],
+        [
+          mc(
+            "A friend in Mexico says «Me compré una playera.» What did she buy?",
+            ["a T-shirt", "a beach towel", "a jacket", "a swimsuit"],
+            0,
+            "Playera is the Mexican word for a T-shirt (camiseta in Spain, remera in Argentina). It looks like playa (beach), but it is not a towel or a swimsuit, and a jacket in Mexico is una chamarra."
           ),
         ]
       ),
@@ -229,17 +257,32 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Asking for things, and the green cross",
+        "Asking for things: algo para..., receta",
         [
           "Useful requests: ¿Tiene algo para el dolor de cabeza? ¿Tiene algo para la tos? ¿Necesito receta? (Do I need a prescription?)",
           "Some medicines need a prescription (una receta) from a doctor; the pharmacist will tell you: Para esto necesita receta.",
+        ],
+        [
+          ["¿Tiene algo para el dolor de cabeza?", "Do you have anything for a headache?"],
+          ["¿Necesito receta para esto?", "Do I need a prescription for this?"],
+        ],
+        [
+          mc(
+            "You have a sore throat. What do you ask the pharmacist?",
+            ["¿Tiene algo para el dolor de garganta?", "¿Tiene algo por el dolor de garganta?", "¿Tiene algo de dolor de garganta?", "¿Tiene algo con el dolor de garganta?"],
+            0,
+            "What a medicine is for is a purpose, so para: algo para el dolor de garganta. Por would make the pain the cause, and de / con change the meaning to \"something of / with a sore throat\"."
+          ),
+        ]
+      ),
+      sec(
+        "The green cross: pharmacies in Spain and Latin America",
+        [
           "In Spain, look for the green cross. At night and on Sundays, one pharmacy in each area stays open: la farmacia de guardia. The address of the nearest one is posted on every pharmacy's door.",
           "In Mexico and much of Latin America, big pharmacy chains are open late or 24 hours, and some have a doctor next door for quick visits.",
           "Words that change: a plaster is una tirita in Spain and una curita in most of Latin America. Painkillers are analgésicos or, informally, algo para el dolor.",
         ],
         [
-          ["¿Tiene algo para el dolor de cabeza?", "Do you have anything for a headache?"],
-          ["¿Necesito receta para esto?", "Do I need a prescription for this?"],
           ["¿Dónde está la farmacia de guardia?", "Where is the duty pharmacy?"],
           ["Una caja de tiritas, por favor.", "A box of plasters, please. (Spain)"],
         ],
@@ -334,9 +377,23 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
     "10 min",
     [
       sec(
-        "Dialogue: booking an appointment",
+        "The idea: desde hace, tener que and quería",
         [
           "The idea: two patterns carry most of a doctor's visit. For a problem that started in the past and is still going on, Spanish uses the present + desde hace + a length of time (me duele desde hace dos días), because it still hurts now; English switches to \"has been hurting\". And the doctor's advice comes as tener que + infinitive (tiene que descansar) or a polite usted command (beba, tome, quédese). Your own requests are softened with quería: quería pedir cita.",
+        ],
+        [],
+        [
+          mc(
+            "You phone the dentist's surgery. Which is the polite way to ask for an appointment?",
+            ["Quería pedir cita con el dentista.", "Quise pedir cita con el dentista.", "Quería preguntar cita con el dentista.", "Quería pedir cita a el dentista."],
+            0,
+            "Quería (imperfect) softens a request: \"I'd like\". Quise is a finished past act, so it sounds like you tried once. You pedir (ask for) things and preguntar (ask) questions, and a + el contracts to al."
+          ),
+        ]
+      ),
+      sec(
+        "Dialogue: booking an appointment",
+        [
           "Read the dialogue. Ana phones her health centre (el centro de salud) to book an appointment.",
           "Key chunks: pedir cita (to make an appointment), ¿Para cuándo? (for when?), ¿Le viene bien...? (does ... suit you?).",
         ],
@@ -350,10 +407,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ],
         [
           mc(
-            "You phone the dentist's surgery. Which is the polite way to ask for an appointment?",
-            ["Quería pedir cita con el dentista.", "Quise pedir cita con el dentista.", "Quería preguntar cita con el dentista.", "Quería pedir cita a el dentista."],
+            "When is Ana's appointment?",
+            ["tomorrow at half past ten", "today at half past ten", "tomorrow at half past twelve", "next week"],
             0,
-            "Quería (imperfect) softens a request: \"I'd like\". Quise is a finished past act, so it sounds like you tried once. You pedir (ask for) things and preguntar (ask) questions, and a + el contracts to al."
+            "¿Le viene bien mañana a las diez y media?: mañana is tomorrow and las diez y media is 10:30. Ana answers Perfecto, so the time is fixed."
           ),
         ]
       ),
@@ -670,18 +727,33 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Tickets, cards and regional words",
+        "Cards, tickets and the ticket office",
         [
           "In many cities you use a rechargeable card: in Madrid la tarjeta transporte público, in Mexico City la tarjeta de movilidad integrada, in Buenos Aires la SUBE. You top it up: recargar la tarjeta.",
           "A ticket is un billete in Spain and un boleto in most of Latin America. The ticket office is la taquilla (Spain) or la boletería (much of Latin America).",
-          "The bus is el autobús in Spain; el camión in Mexico, el colectivo or bondi in Argentina, la guagua in the Canaries and the Caribbean, and el micro in Chile.",
-          "Coger el autobús is normal in Spain. In much of Latin America people say tomar el autobús instead, because coger can sound rude there.",
         ],
         [
           ["¿Dónde puedo recargar la tarjeta?", "Where can I top up the card?"],
           ["Un boleto para Guadalajara, por favor.", "A ticket to Guadalajara, please. (Mexico)"],
-          ["Voy a tomar el colectivo.", "I'm going to take the bus. (Argentina)"],
           ["El metro cierra a la una y media.", "The metro closes at half past one."],
+        ],
+        [
+          mc(
+            "Your card has no money left. What do you need to do?",
+            ["recargar la tarjeta", "bajar la tarjeta", "tomar la tarjeta", "salir de la tarjeta"],
+            0,
+            "Topping up a rechargeable card is recargar la tarjeta. Bajar is to get off, tomar is to take (a bus), and salir de is to leave a place."
+          ),
+        ]
+      ),
+      sec(
+        "The bus has many names",
+        [
+          "The bus is el autobús in Spain; el camión in Mexico, el colectivo or bondi in Argentina, la guagua in the Canaries and the Caribbean, and el micro in Chile.",
+          "Coger el autobús is normal in Spain. In much of Latin America people say tomar el autobús instead, because coger can sound rude there.",
+        ],
+        [
+          ["Voy a tomar el colectivo.", "I'm going to take the bus. (Argentina)"],
         ],
         [
           mc(
@@ -913,9 +985,23 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Dialogue: a haircut",
+        "The idea: a service done to you is reflexive",
         [
           "The idea: Spanish talks about a service done to you with a reflexive verb, as if you did it yourself: me corto el pelo = I get my hair cut, though the hairdresser holds the scissors. The pronoun shows whose hair it is (me corto, te cortas, se corta), so the body part takes el, not mi. And an offer is a plain present question with yo: ¿Te lavo el pelo? = shall I wash your hair?",
+        ],
+        [],
+        [
+          mc(
+            "The hairdresser asks: «¿Te seco el pelo?» What is she asking?",
+            ["Shall I dry your hair?", "Did you dry your hair?", "Do you dry your own hair?", "Is your hair dry?"],
+            0,
+            "An offer is a plain present question with yo: ¿Te seco...? = shall I dry...? Te shows whose hair it is. A past question would be ¿Te secaste...?, and \"is it dry\" would be ¿Está seco?"
+          ),
+        ]
+      ),
+      sec(
+        "Dialogue: a haircut",
+        [
           "Read the dialogue at the hairdresser's (la peluquería). The barber's is la barbería.",
           "Key chunks: cortarme el pelo (to get my hair cut), solo las puntas (just the ends), por los lados (at the sides), por detrás (at the back).",
         ],
@@ -1248,15 +1334,10 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         [
           "Showing interest: ¿Ah, sí? / ¿De verdad? / ¡No me digas! (No way!) / ¡Qué suerte! (How lucky!) / ¡Qué pena! (What a shame!)",
           "Agreeing: Ya. / Claro. / Totalmente. / Pues sí.",
-          "Ending politely: Bueno, te dejo, que tengo prisa. / Me alegro de verte. / ¡Que tengas buen día! (tú) / ¡Que tenga buen día! (usted).",
-          "Safe topics: the weather, food, the neighbourhood, travel, football. Money, politics and religion are best left for people you know well.",
-          "Regional flavour: ¿Qué onda? (Mexico), ¿Qué hubo? or ¿Quiubo? (Colombia), ¿Qué tal? (Spain and everywhere). In Spain two kisses on the cheek are a normal greeting between friends; in most of Latin America it's one.",
         ],
         [
           ["¡No me digas! ¿En serio?", "No way! Really?"],
           ["¡Qué suerte tienes!", "You're so lucky!"],
-          ["Bueno, te dejo, que llego tarde.", "Well, I'll let you go, I'm running late."],
-          ["¡Me alegro de verte!", "Good to see you!"],
         ],
         [
           mc(
@@ -1264,6 +1345,26 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
             ["¡Qué suerte!", "¡Qué pena!", "Te dejo.", "¿A qué te dedicas?"],
             0,
             "¡Qué suerte! = How lucky! ¡Qué pena! is for bad news."
+          ),
+        ]
+      ),
+      sec(
+        "Ending politely, safe topics, regional flavour",
+        [
+          "Ending politely: Bueno, te dejo, que tengo prisa. / Me alegro de verte. / ¡Que tengas buen día! (tú) / ¡Que tenga buen día! (usted).",
+          "Safe topics: the weather, food, the neighbourhood, travel, football. Money, politics and religion are best left for people you know well.",
+          "Regional flavour: ¿Qué onda? (Mexico), ¿Qué hubo? or ¿Quiubo? (Colombia), ¿Qué tal? (Spain and everywhere). In Spain two kisses on the cheek are a normal greeting between friends; in most of Latin America it's one.",
+        ],
+        [
+          ["Bueno, te dejo, que llego tarde.", "Well, I'll let you go, I'm running late."],
+          ["¡Me alegro de verte!", "Good to see you!"],
+        ],
+        [
+          mc(
+            "You are chatting with an older neighbour you call usted, and you have to go. What do you say?",
+            ["Bueno, le dejo. ¡Que tenga buen día!", "Bueno, te dejo. ¡Que tengas buen día!", "¡No me digas! ¡Que tenga buen día!", "¿Qué onda? ¡Que tenga buen día!"],
+            0,
+            "With usted both parts change: le dejo and que tenga. Te dejo / que tengas is the tú version, ¡No me digas! is a reaction to news, and ¿Qué onda? is a casual Mexican greeting, not a goodbye."
           ),
         ]
       ),
@@ -1342,19 +1443,11 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
     "10 min",
     [
       sec(
-        "Asking for help",
+        "The idea: three moves when something goes wrong",
         [
           "The idea: when something goes wrong you need three moves. Get help from a stranger with usted: a command (¡Llame a una ambulancia!) or ¿Me puede ayudar? Say what has happened with the present perfect, because it has just happened and matters now (he perdido el pasaporte, se ha caído). And say where you are with estar en + place + a landmark (delante de, al lado de).",
-          "The short phrases: ¡Ayuda! / ¡Socorro! (Help!), ¿Me puede ayudar? (Can you help me?), Llame a una ambulancia, por favor (Please call an ambulance).",
-          "The emergency number is 112 in Spain and across the EU, 911 in Mexico, Argentina and many other countries in the Americas (Colombia uses 123; Chile uses 131 for an ambulance, 132 for the fire brigade and 133 for the police). Operators in tourist areas often speak English too.",
-          "On the phone, say what happened, where you are and your name: Necesito una ambulancia. Estoy en la calle Mayor, número 5.",
         ],
-        [
-          ["¿Me puede ayudar, por favor?", "Can you help me, please?"],
-          ["Llame al 112, por favor.", "Please call 112."],
-          ["Mi amigo se ha caído y no se puede levantar.", "My friend has fallen and can't get up."],
-          ["Estoy en la calle Mayor, delante de la farmacia.", "I'm on Calle Mayor, in front of the pharmacy."],
-        ],
+        [],
         [
           mc(
             "A woman has hurt her leg in the street. How do you ask a passer-by to call a doctor?",
@@ -1362,11 +1455,42 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
             0,
             "To a stranger, use the usted command: llamar → llame. Llamar a + person keeps the a. Llamar alone is just the infinitive, and llamo means I call."
           ),
+        ]
+      ),
+      sec(
+        "Asking for help",
+        [
+          "The short phrases: ¡Ayuda! / ¡Socorro! (Help!), ¿Me puede ayudar? (Can you help me?), Llame a una ambulancia, por favor (Please call an ambulance).",
+          "The emergency number is 112 in Spain and across the EU, 911 in Mexico, Argentina and many other countries in the Americas (Colombia uses 123; Chile uses 131 for an ambulance, 132 for the fire brigade and 133 for the police). Operators in tourist areas often speak English too.",
+        ],
+        [
+          ["¿Me puede ayudar, por favor?", "Can you help me, please?"],
+          ["Llame al 112, por favor.", "Please call 112."],
+        ],
+        [
           mc(
             "Which number do you call for an emergency in Spain?",
             ["112", "911", "010", "123"],
             0,
             "112 is the general emergency number in Spain and the rest of the EU. Mexico, Argentina and many other countries in the Americas use 911 (Colombia uses 123)."
+          ),
+        ]
+      ),
+      sec(
+        "On the phone: what, where, who",
+        [
+          "On the phone, say what happened, where you are and your name: Necesito una ambulancia. Estoy en la calle Mayor, número 5.",
+        ],
+        [
+          ["Mi amigo se ha caído y no se puede levantar.", "My friend has fallen and can't get up."],
+          ["Estoy en la calle Mayor, delante de la farmacia.", "I'm on Calle Mayor, in front of the pharmacy."],
+        ],
+        [
+          mc(
+            "On the phone, how do you say where you are?",
+            ["Estoy en la plaza Mayor, al lado del banco.", "Soy en la plaza Mayor, al lado del banco.", "Hay en la plaza Mayor, al lado del banco.", "Voy en la plaza Mayor, al lado del banco."],
+            0,
+            "Where you are is estar en + place, plus a landmark: estoy en la plaza Mayor, al lado del banco. Ser does not give your location, hay says something exists, and voy is movement."
           ),
         ]
       ),
@@ -1394,17 +1518,13 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Useful questions and regional words",
+        "Useful questions",
         [
           "¿Dónde está la comisaría más cercana? (Where's the nearest police station?) ¿Dónde está el consulado británico / estadounidense? ¿Hay alguien que hable inglés?",
-          "The police: la policía everywhere. In Spain you'll see la Policía Nacional, la Guardia Civil and the local police (la Policía Local or Municipal). In Latin America, la policía, and in Mexico people say la patrulla for a police car.",
-          "A wallet is la cartera in Spain and la billetera in much of Latin America. A mobile is el móvil in Spain and el celular in Latin America.",
-          "A tip: keep a photo of your passport on your phone and a paper copy somewhere else. It makes everything faster.",
         ],
         [
           ["¿Dónde está la comisaría más cercana?", "Where's the nearest police station?"],
           ["¿Hay alguien que hable inglés?", "Is there anyone who speaks English?"],
-          ["He perdido el celular.", "I've lost my phone. (Latin America)"],
           ["Necesito una copia de la denuncia.", "I need a copy of the report."],
         ],
         [
@@ -1413,6 +1533,31 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
             ["la comisaría", "la farmacia", "Correos", "la peluquería"],
             0,
             "The police station takes the report (la denuncia), which your consulate will ask for."
+          ),
+          mc(
+            "You need the nearest hospital. What do you ask?",
+            ["¿Dónde está el hospital más cercano?", "¿Dónde es el hospital más cercano?", "¿Dónde hay el hospital más cercano?", "¿Cuál está el hospital más cercano?"],
+            0,
+            "Use the same frame as ¿Dónde está la comisaría más cercana?: location takes estar. Es is for what something is, hay does not go with el, and ¿cuál? asks which one, not where."
+          ),
+        ]
+      ),
+      sec(
+        "Police, wallets, phones: regional words",
+        [
+          "The police: la policía everywhere. In Spain you'll see la Policía Nacional, la Guardia Civil and the local police (la Policía Local or Municipal). In Latin America, la policía, and in Mexico people say la patrulla for a police car.",
+          "A wallet is la cartera in Spain and la billetera in much of Latin America. A mobile is el móvil in Spain and el celular in Latin America.",
+          "A tip: keep a photo of your passport on your phone and a paper copy somewhere else. It makes everything faster.",
+        ],
+        [
+          ["He perdido el celular.", "I've lost my phone. (Latin America)"],
+        ],
+        [
+          mc(
+            "In Mexico someone says «Ahí viene la patrulla.» What is coming?",
+            ["a police car", "a police station", "an ambulance", "a bus"],
+            0,
+            "In Mexico la patrulla is a police car. The police station is la comisaría, an ambulance is una ambulancia, and a bus in Mexico is el camión."
           ),
         ]
       ),

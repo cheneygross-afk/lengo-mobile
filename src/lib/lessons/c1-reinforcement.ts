@@ -192,8 +192,22 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Atenuar sin perder claridad",
+        "La idea: el subjuntivo y el condicional presentan lo dicho como no afirmado o hipotético. Al quitarle fuerza asertiva, una petición o una crítica deja espacio al otro y suena más cortés, sin dejar de ser clara.",
         [
-          "La idea: el subjuntivo y el condicional presentan lo dicho como no afirmado o hipotético. Al quitarle fuerza asertiva, una petición o una crítica deja espacio al otro y suena más cortés, sin dejar de ser clara.",
+          ["Preferiría dejarlo para otro día.", "I'd rather leave it for another day. (condicional: la negativa suena menos tajante)"],
+        ],
+        [
+          mc(
+            "¿Qué versión de la crítica deja más espacio al otro sin dejar de ser clara?",
+            ["Convendría revisar estas cifras antes de enviarlo.", "Revisa estas cifras antes de enviarlo.", "Estas cifras están mal.", "Tienes que revisar estas cifras."],
+            0,
+            "El condicional (convendría) presenta la crítica como algo no afirmado del todo: le quita fuerza asertiva sin perder claridad. El imperativo, la afirmación tajante y la obligación (tienes que) son igual de claros, pero no atenúan nada."
+          ),
+        ]
+      ),
+      sec(
+        "Las herramientas",
+        [
           "Las herramientas: quisiera (en vez de quiero); no es que + subjuntivo (no es que no me guste); no digo / no diría que + subjuntivo (no digo que sea malo, pero…); y condicional + que + imperfecto de subjuntivo en las peticiones: le agradecería que me enviara la factura (en vez de envíeme la factura), preferiría que no lo discutiéramos. Ojo a la concordancia: tras un condicional, la subordinada va en imperfecto de subjuntivo.",
         ],
         [
@@ -380,9 +394,23 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
+        "Recuerda la regla",
+        "Recuerda la regla: las concesivas siguen la lógica de «aunque». Un hecho afirmado va en indicativo; una hipótesis, en subjuntivo (presente si es posible, imperfecto si es improbable); y la consecuencia irreal, en condicional, nunca la concesiva. Cada conector, además, tiene su construcción fija.",
+        [
+          ["Aunque viviera cien años, no lo entendería.", "Even if I lived to a hundred, I wouldn't understand it. (hipótesis improbable → viviera; consecuencia → entendería)"],
+        ],
+        [
+          mc(
+            "«Aunque me lo ___ de rodillas, no se lo prestaría.» (es muy improbable)",
+            ["pidiera", "pediría", "pide", "pedirá"],
+            0,
+            "Una hipótesis improbable va en imperfecto de subjuntivo: aunque me lo pidiera. El condicional solo va en la consecuencia (prestaría), nunca en la concesiva; «pide» afirmaría un hecho y el futuro no encaja."
+          ),
+        ]
+      ),
+      sec(
         "Errores frecuentes",
         [
-          "Recuerda la regla: las concesivas siguen la lógica de «aunque». Un hecho afirmado va en indicativo; una hipótesis, en subjuntivo (presente si es posible, imperfecto si es improbable); y la consecuencia irreal, en condicional, nunca la concesiva. Cada conector, además, tiene su construcción fija.",
           "(1) Condicional en una concesiva hipotética: ✗ aunque tendría más dinero, no lo compraría → ✓ aunque tuviera. (Ojo: el condicional de cortesía sí es correcto con aunque cuando se trata de un hecho real: «Aunque me gustaría, no puedo».) (2) A pesar de + verbo conjugado sin que: ✗ a pesar de llovía → ✓ a pesar de que llovía. (3) Por mucho que con futuro: ✗ por mucho que insistirás → ✓ por mucho que insistas. (4) Si bien con subjuntivo: ✗ si bien sea → ✓ si bien es.",
         ],
         [
@@ -1095,9 +1123,27 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Instrucciones claras",
+        "Instrucciones claras: el infinitivo",
         [
           "Tu misión: redactar instrucciones como un manual de verdad. La regla de base es el infinitivo de instrucción (Pulsar el botón): no tiene persona, así que vale para cualquier usuario, mientras que el imperativo (pulsa, pulse) obliga a elegir entre tú y usted.",
+        ],
+        [
+          ["Retirar la tapa trasera.", "Remove the back cover. (infinitivo: vale para cualquier usuario)"],
+          ["Retire la tapa trasera. / Retira la tapa trasera.", "Remove the back cover. (imperativo: obliga a elegir usted o tú)"],
+        ],
+        [
+          mc(
+            "¿Qué instrucción no obliga a elegir entre tú y usted?",
+            ["Cerrar la tapa del depósito.", "Cierra la tapa del depósito.", "Cierre la tapa del depósito.", "Cerrando la tapa del depósito."],
+            0,
+            "El infinitivo de instrucción no tiene persona, así que vale para cualquier usuario. «Cierra» (tú) y «cierre» (usted) son imperativos que eligen un trato, y el gerundio suelto «cerrando…» no funciona como instrucción."
+          ),
+          fb("Completa el manual.", "___ el cable a la toma de corriente. (conectar)", "Conectar", "Los manuales usan el infinitivo para instrucciones impersonales: «Conectar el cable»."),
+        ]
+      ),
+      sec(
+        "Cada forma, su función dentro del paso",
+        [
           "Dentro de cada paso, cada forma tiene su función: el gerundio solo para el modo simultáneo (manteniéndolo pulsado), nunca para lo que viene después; «antes de / sin / hasta» + infinitivo cuando el sujeto es el mismo; «hasta que / cuando» + subjuntivo cuando el límite es futuro (hasta que deje de parpadear); y las perífrasis de fase para el estado del aparato (dejar de, seguir, volver a).",
         ],
         [
@@ -1105,7 +1151,19 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["Esperar hasta que la luz deje de parpadear.", "Wait until the light stops blinking."],
         ],
         [
-          fb("Completa el manual.", "___ el cable a la toma de corriente. (conectar)", "Conectar", "Los manuales usan el infinitivo para instrucciones impersonales: «Conectar el cable»."),
+          mc(
+            "¿Qué instrucción marca bien un límite futuro?",
+            ["Remover hasta que la salsa espese.", "Remover hasta que la salsa espesa.", "Remover hasta la salsa espesar.", "Remover, espesando la salsa después."],
+            0,
+            "Con un límite futuro y otro sujeto (la salsa), «hasta que» + subjuntivo: «hasta que espese». El indicativo «espesa» no sirve para un límite que aún no ha llegado, «hasta la salsa espesar» no es una construcción española y el gerundio no puede expresar lo que viene después."
+          ),
+          toEs(
+            "Calentar el agua, añadiendo después la sal.",
+            "Calentar el agua y añadir después la sal.",
+            "El gerundio solo expresa el modo simultáneo, nunca lo que viene después. Para una acción posterior se coordinan dos infinitivos: «calentar… y añadir después…».",
+            ["Calentar el agua y después añadir la sal.", "Calentar el agua y, después, añadir la sal.", "Calentar el agua y luego añadir la sal."],
+            "Correct the sentence."
+          ),
         ]
       ),
     ],
@@ -2838,8 +2896,24 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Los fallos más comunes",
-        ["Recuerda la regla: en una hendida, el relativo concuerda con lo destacado (persona, lugar, tiempo, modo), «ser» copia el tiempo del verbo y, en el registro cuidado, la preposición se repite ante el relativo.", "1) «Que galicado»: «Es por eso que…», «Fue aquí que nos vimos» o «Fue entonces que lo supe» son muy frecuentes en América y no se consideran errores en el habla, pero en España y en registro cuidado se prefiere el relativo que concuerda: «Es por eso por lo que…» (o «Por eso…»), «Fue aquí donde nos vimos», «Fue entonces cuando lo supe». 2) Tiempo de ser: ✗ «Es en 1990 cuando nació» → ✓ «Fue en 1990 cuando nació». 3) Lo invariable: ✗ «la difícil que es» → ✓ «lo difícil que es»."],
+        "La regla de la hendida",
+        ["Recuerda la regla: en una hendida, el relativo concuerda con lo destacado (persona, lugar, tiempo, modo), «ser» copia el tiempo del verbo y, en el registro cuidado, la preposición se repite ante el relativo."],
+        [
+          ["Fue a mi hermana a quien se lo conté.", "It was my sister I told. (persona → a quien; la preposición se repite)"],
+          ["Será en otoño cuando abran la biblioteca.", "It'll be in autumn that they open the library. (tiempo → cuando; «ser» en futuro)"],
+        ],
+        [
+          mc(
+            "«Fue mi abuela ___ me enseñó a cocinar.»",
+            ["quien", "donde", "cuando", "como"],
+            0,
+            "Lo destacado es una persona («mi abuela»), así que el relativo es «quien» (o «la que»). «Donde» es de lugar, «cuando» de tiempo y «como» de modo."
+          ),
+        ]
+      ),
+      sec(
+        "Fallo 1: el «que galicado»",
+        ["1) «Que galicado»: «Es por eso que…», «Fue aquí que nos vimos» o «Fue entonces que lo supe» son muy frecuentes en América y no se consideran errores en el habla, pero en España y en registro cuidado se prefiere el relativo que concuerda: «Es por eso por lo que…» (o «Por eso…»), «Fue aquí donde nos vimos», «Fue entonces cuando lo supe»."],
         [
           ["Fue entonces que lo supe (habla de América) → Fue entonces cuando lo supe (registro cuidado).", "That was when I found out."],
           ["Es a ti que busco (habla de América) → Es a ti a quien busco (registro cuidado).", "It's you I'm looking for."],
@@ -2850,6 +2924,29 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["Fue en la cocina donde empezó el incendio.", "Fue en la cocina que empezó el incendio.", "Fue en la cocina cual empezó el incendio.", "Fue en la cocina quien empezó el incendio."],
             0,
             "En la hendida de lugar, la variante cuidada es «donde»: «Fue en la cocina donde…». «Fue en la cocina que…» se oye mucho en América pero la norma culta prefiere «donde»; «cual» sin artículo no sirve y «quien» es solo para personas."
+          ),
+        ]
+      ),
+      sec(
+        "Fallos 2 y 3: el tiempo de «ser» y el «lo» invariable",
+        ["2) Tiempo de ser: ✗ «Es en 1990 cuando nació» → ✓ «Fue en 1990 cuando nació». 3) Lo invariable: ✗ «la difícil que es» → ✓ «lo difícil que es»."],
+        [
+          ["Fue en 1990 cuando nació.", "It was in 1990 that he was born. («fue», como «nació»)"],
+          ["Mira lo cansados que están los niños.", "Look how tired the children are. («lo» no cambia; el adjetivo concuerda)"],
+        ],
+        [
+          mc(
+            "«¡Mira ___ altas que están ya las montañas de nieve!»",
+            ["lo", "las", "la", "los"],
+            0,
+            "En «lo + adjetivo + que», «lo» es invariable: no concuerda con «montañas». Lo que concuerda es el adjetivo («altas»). «Las», «la» y «los» son el error típico de hacer concordar el artículo."
+          ),
+          toEs(
+            "Es en 2010 cuando se casaron mis padres.",
+            "Fue en 2010 cuando se casaron mis padres.",
+            "En la hendida, «ser» copia el tiempo del verbo: «se casaron» está en pasado, así que «fue», no «es».",
+            [],
+            "Correct the sentence."
           ),
         ]
       ),
@@ -2884,13 +2981,11 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       sec(
         "Herramientas del orador",
         [
-          "Tu misión: preparar un discurso de dos minutos para la asamblea de vecinos. Recuerda la regla: el énfasis consiste en sacar un elemento de su sitio neutro para que el público lo note. Pseudoescindida para señalar el problema: «Lo que necesitamos es un parque». «Sí que» para reafirmar frente a quien lo duda: «Esto sí que es urgente». Anteposición del complemento para contrastar: «Dinero hay; lo que falta es voluntad». Lo + adjetivo + que para intensificar (el adjetivo concuerda con el sustantivo, aunque «lo» no cambie): «Vean lo abandonado que está el solar».",
-          "En las prácticas vas a reforzar frases neutras del borrador, corregir los fallos típicos (concordancia de «ser» en la hendida, «sino» tras una negación, «sí que» delante del verbo) y elegir la réplica más eficaz.",
+          "Tu misión: preparar un discurso de dos minutos para la asamblea de vecinos. Recuerda la regla: el énfasis consiste en sacar un elemento de su sitio neutro para que el público lo note. Pseudoescindida para señalar el problema: «Lo que necesitamos es un parque». «Sí que» para reafirmar frente a quien lo duda: «Esto sí que es urgente».",
         ],
         [
-          ["Dinero hay; lo que falta es voluntad.", "There's money; what's missing is will."],
+          ["Lo que pedimos es un semáforo en este cruce.", "What we're asking for is a traffic light at this crossing."],
           ["Esto sí que es una prioridad.", "This really is a priority."],
-          ["Fíjense en lo peligroso que es este cruce.", "Look at how dangerous this crossing is."],
         ],
         [
           mc(
@@ -2898,6 +2993,31 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["Esto sí que es importante.", "Esto es algo importante.", "Esto quizás es importante.", "Esto es importante, creo."],
             0,
             "«Sí que» + verbo reafirma con fuerza frente a una duda. «Es algo importante» es neutro, y «quizás» o «creo» atenúan en vez de reforzar."
+          ),
+          mc(
+            "Quieres señalar el problema central con una pseudoescindida:",
+            ["Lo que nos falta es un centro cultural.", "Nos falta un centro cultural.", "Un centro cultural nos falta, quizás.", "Nos falta, creo, un centro cultural."],
+            0,
+            "La pseudoescindida («lo que» + verbo + «ser» + foco) deja el problema al final, donde el público lo espera: «Lo que nos falta es un centro cultural». La segunda es neutra, y «quizás» o «creo» restan fuerza en lugar de destacar."
+          ),
+        ]
+      ),
+      sec(
+        "Anteposición y «lo + adjetivo + que»",
+        [
+          "Anteposición del complemento para contrastar: «Dinero hay; lo que falta es voluntad». Lo + adjetivo + que para intensificar (el adjetivo concuerda con el sustantivo, aunque «lo» no cambie): «Vean lo abandonado que está el solar».",
+          "En las prácticas vas a reforzar frases neutras del borrador, corregir los fallos típicos (concordancia de «ser» en la hendida, «sino» tras una negación, «sí que» delante del verbo) y elegir la réplica más eficaz.",
+        ],
+        [
+          ["Dinero hay; lo que falta es voluntad.", "There's money; what's missing is will."],
+          ["Fíjense en lo peligroso que es este cruce.", "Look at how dangerous this crossing is."],
+        ],
+        [
+          mc(
+            "¿Qué frase intensifica correctamente?",
+            ["Vean lo oscuras que están estas calles.", "Vean lo oscuro que están estas calles.", "Vean las oscuras que están estas calles.", "Vean lo oscuras que es estas calles."],
+            0,
+            "En «lo + adjetivo + que», «lo» no cambia, pero el adjetivo concuerda con el sustantivo («calles» → «oscuras») y el verbo también («están»). «Lo oscuro» no concuerda, «las oscuras» cambia el «lo» invariable y «es» no concuerda con «calles»."
           ),
         ]
       ),
@@ -2930,10 +3050,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Todo junto",
+        "La hendida conserva la gramática de dentro",
         [
           "Recuerda la regla: la hendida no cambia la gramática de lo que encierra. Si el verbo pide subjuntivo fuera de la hendida, lo sigue pidiendo dentro: «Quiero que me escuches» → «Lo que quiero es que me escuches». Si el verbo exige una preposición (arrepentirse de, contar con, pensar en), esa preposición aparece dos veces: ante el foco y ante el relativo: «Es de eso de lo que me arrepiento».",
-          "Los conectores se suman delante sin alterar nada: «Ahora bien, lo que no acepto es que me mientas». Para comprobar una hendida, deshazla: «Me arrepiento de eso»; si la preposición está en la frase simple, tiene que estar en la hendida.",
         ],
         [
           ["Lo que te pido es que seas sincero.", "What I'm asking is that you be honest."],
@@ -2945,6 +3064,31 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["llegues", "llegas", "llegar", "llegarás"],
             0,
             "«Querer que» con sujeto distinto exige subjuntivo: «que llegues». «Llegas» y «llegarás» son indicativo, y «que llegar» no admite infinitivo tras «que»."
+          ),
+          toEs(
+            "Es tu apoyo con lo que cuento.",
+            "Es con tu apoyo con lo que cuento.",
+            "«Contar» rige «con», y en la hendida la preposición aparece dos veces: ante el foco («con tu apoyo») y ante el relativo («con lo que»).",
+            ["Es con tu apoyo con el que cuento."],
+            "Correct the sentence."
+          ),
+        ]
+      ),
+      sec(
+        "Conectores delante, y la prueba de deshacerla",
+        [
+          "Los conectores se suman delante sin alterar nada: «Ahora bien, lo que no acepto es que me mientas». Para comprobar una hendida, deshazla: «Me arrepiento de eso»; si la preposición está en la frase simple, tiene que estar en la hendida.",
+        ],
+        [
+          ["No obstante, lo que de verdad importa es que nadie salga perjudicado.", "However, what really matters is that nobody is harmed."],
+          ["Me quejo de eso. → Es de eso de lo que me quejo.", "I'm complaining about that. → That's what I'm complaining about."],
+        ],
+        [
+          mc(
+            "Deshaz la hendida «Es en ella en quien confío». ¿Qué frase simple sale?",
+            ["Confío en ella.", "Confío a ella.", "Confío ella.", "Confío de ella."],
+            0,
+            "Al deshacer la hendida aparece el régimen del verbo: «confiar en». Como la preposición está en la frase simple, tiene que estar (dos veces) en la hendida: «en ella en quien». «A», «de» o nada no son el régimen de «confiar»."
           ),
         ]
       ),
@@ -3064,7 +3208,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Mapa temporal de la conjetura",
         [
           "Recuerda la regla: cada tiempo de conjetura es el eco de un tiempo real, un paso «hacia delante» en la conjugación. Presente probable → futuro (está → estará). Pretérito perfecto probable → futuro perfecto (ha salido → habrá salido). Imperfecto o indefinido probable → condicional (estaba → estaría; eran → serían). Pluscuamperfecto probable → condicional perfecto (había cenado → habría cenado).",
-          "Para elegir, pregúntate qué tiempo usarías si lo supieras seguro y luego da ese paso. Las pistas del contexto ayudan: «hoy, ya, todavía no» suelen ir con el perfecto (→ habrá); «ayer, en 1990, aquella noche» con el pasado cerrado (→ condicional); «cuando llegué, ya…» con el pluscuamperfecto (→ habría + participio).",
         ],
         [
           ["Probablemente ha salido. → Habrá salido.", "He must have gone out."],
@@ -3077,6 +3220,24 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["Estaría enfermo ayer.", "Estará enfermo ayer.", "Habrá estado enfermo mañana.", "Esté enfermo ayer."],
             0,
             "Una conjetura sobre el pasado en imperfecto se expresa con condicional: «Estaría enfermo ayer». «Estará» es conjetura sobre el presente, «habrá estado… mañana» es incoherente y «Esté» (subjuntivo) no funciona como oración independiente."
+          ),
+        ]
+      ),
+      sec(
+        "Cómo elegir: las pistas del contexto",
+        [
+          "Para elegir, pregúntate qué tiempo usarías si lo supieras seguro y luego da ese paso. Las pistas del contexto ayudan: «hoy, ya, todavía no» suelen ir con el perfecto (→ habrá); «ayer, en 1990, aquella noche» con el pasado cerrado (→ condicional); «cuando llegué, ya…» con el pluscuamperfecto (→ habría + participio).",
+        ],
+        [
+          ["Ya habrá terminado la reunión.", "The meeting must be over by now. («ya» → perfecto → habrá)"],
+          ["Aquella noche llovería sin parar.", "It must have rained nonstop that night. («aquella noche» → condicional)"],
+        ],
+        [
+          mc(
+            "«Todavía no ha llamado; ___ el número.» (perder, conjetura)",
+            ["habrá perdido", "habría perdido", "perderá", "perdería"],
+            0,
+            "Si lo supieras seguro dirías «ha perdido» (pretérito perfecto, pista: «todavía no ha llamado»); un paso adelante da el futuro perfecto: «habrá perdido». «Habría perdido» sería el eco de un pluscuamperfecto, y «perderá» / «perdería» hablan de otro momento."
           ),
         ]
       ),
@@ -6733,15 +6894,29 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "9 min",
     [
       sec(
-        "El texto",
+        "La idea: las herramientas del narrador",
         [
           "La idea: un lector de nivel Maestría reconoce las herramientas del narrador y lo que aportan: el estilo indirecto libre (la voz del personaje sin verbo introductor), la conjetura con condicional («¿Quién se habría creído…?»), la concesiva con «por mucho que» + subjuntivo, la hendida («Fue en ese momento cuando…») y la corrección «no…, sino…». Al leer, pregúntate qué se perdería si se quitara cada una.",
-          "«Clara cerró el portátil. Otra vez aquel correo. ¿Quién se habría creído que era el nuevo director para hablarle así? Por mucho que se esforzara, nunca era suficiente. Fue en ese momento cuando lo decidió: al día siguiente presentaría su dimisión. Lo que más le dolía no era el trato, sino haber tardado tanto en darse cuenta.»",
         ],
         [
           ["¿Quién se habría creído que era…?", "Who did he think he was…?"],
           ["Lo que más le dolía no era el trato, sino…", "What hurt her most wasn't the treatment, but…"],
         ],
+        [
+          mc(
+            "«Por mucho que insistas, no pienso cambiar de opinión.» ¿Qué herramienta usa esta frase?",
+            ["una concesiva con «por mucho que» + subjuntivo", "una oración hendida", "estilo indirecto libre", "una conjetura con condicional"],
+            0,
+            "«Por mucho que» + subjuntivo («insistas») concede algo que no cambia el resultado: es una concesiva. No hay «ser… cuando/quien» (hendida), ni voz del personaje sin verbo introductor dentro de una narración, ni condicional de conjetura."
+          ),
+        ]
+      ),
+      sec(
+        "El texto",
+        [
+          "«Clara cerró el portátil. Otra vez aquel correo. ¿Quién se habría creído que era el nuevo director para hablarle así? Por mucho que se esforzara, nunca era suficiente. Fue en ese momento cuando lo decidió: al día siguiente presentaría su dimisión. Lo que más le dolía no era el trato, sino haber tardado tanto en darse cuenta.»",
+        ],
+        [],
         [
           mc(
             "¿Qué decide Clara?",
@@ -6832,14 +7007,13 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Tres herramientas expresivas",
+        "Conjetura y concesión con el futuro",
         [
-          "Conjetura (futuro/condicional): «Estará en el atasco». Concesión con futuro: «Será listo, pero es un maleducado». Énfasis (hendidas, lo + adj + que, sí que): «Esto sí que no me lo esperaba».",
-          "Por qué funciona: el futuro y el condicional no siempre hablan del futuro; dan un paso hacia la incertidumbre. Presente seguro → futuro de conjetura (está → estará); pasado seguro → condicional o futuro compuesto (estaba → estaría; ha perdido → habrá perdido). El mismo futuro sirve para conceder algo antes de un «pero» (será listo, pero…). El énfasis, en cambio, reordena: destaca un elemento con una hendida (ser + elemento + relativo) o lo intensifica con «lo + adjetivo + que» y «sí que».",
+          "Conjetura (futuro/condicional): «Estará en el atasco». Concesión con futuro: «Será listo, pero es un maleducado».",
+          "Por qué funciona: el futuro y el condicional no siempre hablan del futuro; dan un paso hacia la incertidumbre. Presente seguro → futuro de conjetura (está → estará); pasado seguro → condicional o futuro compuesto (estaba → estaría; ha perdido → habrá perdido). El mismo futuro sirve para conceder algo antes de un «pero» (será listo, pero…).",
         ],
         [
           ["—No contesta. —Estará conduciendo.", "—He's not answering. —He must be driving."],
-          ["Esto sí que es una sorpresa.", "Now this is a surprise."],
         ],
         [
           mc(
@@ -6847,6 +7021,24 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["Estarán", "Estuvieron", "Estén", "Estarían sido"],
             0,
             "El futuro simple expresa una conjetura sobre el presente: «Estarán de vacaciones». «Estuvieron» afirma un pasado, «Estén» no funciona sin un verbo que lo rija y «Estarían sido» es agramatical."
+          ),
+        ]
+      ),
+      sec(
+        "Énfasis: hendidas, «lo + adjetivo + que» y «sí que»",
+        [
+          "Énfasis (hendidas, lo + adj + que, sí que): «Esto sí que no me lo esperaba».",
+          "El énfasis, en cambio, reordena: destaca un elemento con una hendida (ser + elemento + relativo) o lo intensifica con «lo + adjetivo + que» y «sí que».",
+        ],
+        [
+          ["Esto sí que es una sorpresa.", "Now this is a surprise."],
+        ],
+        [
+          mc(
+            "¿Qué frase destaca «a Lucía» con una oración hendida?",
+            ["Fue a Lucía a quien llamé.", "A Lucía la llamé ayer.", "Llamé a Lucía, claro.", "Llamaría a Lucía."],
+            0,
+            "La hendida es «ser» + elemento destacado + relativo: «Fue a Lucía a quien llamé». «A Lucía la llamé» solo adelanta el complemento, sin «ser» ni relativo; «Llamaría a Lucía» es una conjetura, no un énfasis."
           ),
         ]
       ),

@@ -28,24 +28,52 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Dos idiomas dentro del mismo idioma",
+        "Tres cambios mecánicos para pasar al lenguaje claro",
         [
           "Recuerda la regla: el texto jurídico y el lenguaje claro dicen lo mismo con piezas distintas. Pasar de uno a otro es hacer tres cambios mecánicos: la tercera persona formal («el suscrito declara») vuelve a la primera («declaro»); cada locución fija se cambia por su equivalente sencillo («a tenor de lo dispuesto en» → «según»; «a la mayor brevedad» → «cuanto antes»); y el futuro de obligación («deberá abonar») pasa a «tiene que pagar». En sentido inverso se aplican los mismos cambios al revés.",
+        ],
+        [
+          ["El suscrito declara… → Yo, quien firma, declaro…","The undersigned declares… → I, the signatory, declare… (tercera persona → primera)"],
+          ["A tenor de lo dispuesto en el artículo 5… → Según el artículo 5…","Pursuant to article 5… → According to article 5… (locución → preposición simple)"],
+          ["El comprador deberá abonar el importe. → El comprador tiene que pagar el importe.","The buyer shall pay the amount. → The buyer has to pay the amount. (futuro de obligación → tener que)"],
+        ],
+        [
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Reescribe en lenguaje claro.",
+            "source": "A tenor de lo dispuesto en la ordenanza, los vecinos deberán retirar sus vehículos.",
+            "answer": "Según la ordenanza, los vecinos tienen que retirar sus vehículos.",
+            "altAnswers": [
+              "Según la ordenanza, los vecinos deben retirar sus vehículos.",
+              "Según lo que dice la ordenanza, los vecinos tienen que retirar sus vehículos.",
+              "Según lo que dice la ordenanza, los vecinos deben retirar sus vehículos.",
+              "Según la ordenanza, los vecinos tienen que quitar sus vehículos."
+            ],
+            "explanation": "Dos cambios: la locución «a tenor de lo dispuesto en» se reduce a «según», y el futuro de obligación «deberán» pasa a «tienen que». El contenido (quién debe hacer qué) no cambia."
+          },
+        ]
+      ),
+      sec(
+        "Lo que nunca cambia: el contenido",
+        [
           "Lo que nunca cambia es el contenido: «sin perjuicio de» significa «sin que eso impida», no «sin causar daño», y «dar fe» es certificar, no creer. El lenguaje claro no elimina las fórmulas por capricho: las traduce para el ciudadano sin perder precisión.",
         ],
         [
-          ["El suscrito declara… → Yo, quien firma, declaro…", "The undersigned declares… → I, the signatory, declare… (tercera persona → primera)"],
-          ["A tenor de lo dispuesto en el artículo 5… → Según el artículo 5…", "Pursuant to article 5… → According to article 5… (locución → preposición simple)"],
-          ["El comprador deberá abonar el importe. → El comprador tiene que pagar el importe.", "The buyer shall pay the amount. → The buyer has to pay the amount. (futuro de obligación → tener que)"],
         ],
         [
-          toEs("A tenor de lo dispuesto en la ordenanza, los vecinos deberán retirar sus vehículos.", "Según la ordenanza, los vecinos tienen que retirar sus vehículos.", "Dos cambios: la locución «a tenor de lo dispuesto en» se reduce a «según», y el futuro de obligación «deberán» pasa a «tienen que». El contenido (quién debe hacer qué) no cambia.", ["Según la ordenanza, los vecinos deben retirar sus vehículos.", "Según lo que dice la ordenanza, los vecinos tienen que retirar sus vehículos.", "Según lo que dice la ordenanza, los vecinos deben retirar sus vehículos.", "Según la ordenanza, los vecinos tienen que quitar sus vehículos."], "Reescribe en lenguaje claro."),
-          mc(
-            "«Sin perjuicio de las acciones legales que procedan» significa…",
-            ["sin que esto impida emprender acciones legales", "sin causar ningún daño legal", "sin acciones legales", "con perjuicio legal"],
-            0,
-            "«Sin perjuicio de» significa dejando a salvo, sin excluir: no impide emprender acciones legales. No tiene que ver con causar daño («perjuicio» en sentido común), no significa que no haya acciones y «con perjuicio» invierte el sentido."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "«Sin perjuicio de las acciones legales que procedan» significa…",
+            "options": [
+              "sin que esto impida emprender acciones legales",
+              "sin causar ningún daño legal",
+              "sin acciones legales",
+              "con perjuicio legal"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Sin perjuicio de» significa dejando a salvo, sin excluir: no impide emprender acciones legales. No tiene que ver con causar daño («perjuicio» en sentido común), no significa que no haya acciones y «con perjuicio» invierte el sentido."
+          },
         ]
       ),
     ],
@@ -81,29 +109,72 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Los papeles",
+        "Primero el escenario: el reparto de la notaría",
         [
-          "Recuerda la regla: para saber cómo se llama cada persona, pregúntate primero en qué escenario está, porque cada escenario tiene su propio reparto. En un documento notarial hay otorgante (quien concede, p. ej., un poder), apoderado (quien lo recibe) y compareciente (quien se presenta ante el notario). En un juicio civil, dos particulares discuten un interés privado: demandante y demandado, sin fiscal. En un juicio penal se persigue un delito y por eso interviene el Estado: el fiscal (Ministerio Público) acusa, junto a la acusación particular si la hay, y la persona perseguida es el acusado, nunca el demandado.",
+          "Recuerda la regla: para saber cómo se llama cada persona, pregúntate primero en qué escenario está, porque cada escenario tiene su propio reparto. En un documento notarial hay otorgante (quien concede, p. ej., un poder), apoderado (quien lo recibe) y compareciente (quien se presenta ante el notario).",
+        ],
+        [
+          ["El otorgante confiere poder al apoderado.","The grantor gives power of attorney to the agent."],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "En un poder notarial, quien recibe las facultades es…",
+            "options": [
+              "el apoderado",
+              "el otorgante",
+              "el demandante",
+              "el fiscal"
+            ],
+            "correctIndex": 0,
+            "explanation": "Quien recibe las facultades en un poder es el apoderado, que actúa como representante. El otorgante es quien las concede, el demandante inicia un pleito y el fiscal ejerce la acusación pública."
+          },
+        ]
+      ),
+      sec(
+        "Juicio civil y juicio penal",
+        [
+          "En un juicio civil, dos particulares discuten un interés privado: demandante y demandado, sin fiscal. En un juicio penal se persigue un delito y por eso interviene el Estado: el fiscal (Ministerio Público) acusa, junto a la acusación particular si la hay, y la persona perseguida es el acusado, nunca el demandado.",
+        ],
+        [
+          ["El demandado interpuso recurso contra la sentencia.","The defendant filed an appeal against the ruling. (juicio civil)"],
+          ["La fiscal pidió tres años de prisión para la acusada.","The prosecutor asked for three years in prison for the accused woman. (juicio penal: hay delito)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Un conductor causa un accidente bajo los efectos del alcohol y lo juzgan por un delito contra la seguridad vial. ¿Cómo se le llama en el juicio?",
+            "options": [
+              "el acusado",
+              "el demandado",
+              "el otorgante",
+              "el demandante"
+            ],
+            "correctIndex": 0,
+            "explanation": "Hay un delito, así que el escenario es penal: la persona juzgada es el acusado y el fiscal sostiene la acusación. «Demandado» corresponde a un juicio civil entre particulares; otorgante y demandante designan a quien concede un poder o inicia una demanda."
+          },
+        ]
+      ),
+      sec(
+        "En todos los escenarios: letrado, procurador y género",
+        [
           "En todos los escenarios, el letrado (o la letrada) es el abogado, y el procurador representa a la parte ante el tribunal. Fíjate en el género: las formas en -nte no cambian (la otorgante), las formas en -do sí (la apoderada, la acusada).",
         ],
         [
-          ["El otorgante confiere poder al apoderado.", "The grantor gives power of attorney to the agent."],
-          ["El demandado interpuso recurso contra la sentencia.", "The defendant filed an appeal against the ruling. (juicio civil)"],
-          ["La fiscal pidió tres años de prisión para la acusada.", "The prosecutor asked for three years in prison for the accused woman. (juicio penal: hay delito)"],
         ],
         [
-          mc(
-            "En un poder notarial, quien recibe las facultades es…",
-            ["el apoderado", "el otorgante", "el demandante", "el fiscal"],
-            0,
-            "Quien recibe las facultades en un poder es el apoderado, que actúa como representante. El otorgante es quien las concede, el demandante inicia un pleito y el fiscal ejerce la acusación pública."
-          ),
-          mc(
-            "Un conductor causa un accidente bajo los efectos del alcohol y lo juzgan por un delito contra la seguridad vial. ¿Cómo se le llama en el juicio?",
-            ["el acusado", "el demandado", "el otorgante", "el demandante"],
-            0,
-            "Hay un delito, así que el escenario es penal: la persona juzgada es el acusado y el fiscal sostiene la acusación. «Demandado» corresponde a un juicio civil entre particulares; otorgante y demandante designan a quien concede un poder o inicia una demanda."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "Una abogada defiende a un acusado en el juicio. ¿Cómo se la llama?",
+            "options": [
+              "la letrada",
+              "la procuradora",
+              "la fiscal",
+              "la otorgante"
+            ],
+            "correctIndex": 0,
+            "explanation": "El abogado o la abogada es el letrado o la letrada, y la forma en -do concuerda en femenino. La procuradora representa a la parte ante el tribunal, pero no defiende; la fiscal acusa y la otorgante concede un poder."
+          },
         ]
       ),
     ],
@@ -144,29 +215,51 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Precisión terminológica",
+        "Providencia, auto o sentencia: qué decide el juez",
         [
-          "Recuerda la regla: «resolución» es el término general y los demás son tipos que se distinguen por lo que deciden. Pregúntate qué resuelve el juez: si solo ordena el trámite (fijar una fecha, unir un documento), es una providencia, que no necesita motivación; si decide una cuestión incidental durante el proceso (una medida cautelar, la admisión de una prueba), es un auto, siempre motivado; si decide el fondo y pone fin al proceso, es una sentencia. El fallo no es otra resolución: es la parte dispositiva de la sentencia, lo que finalmente se decide.",
+          "Recuerda la regla: «resolución» es el término general y los demás son tipos que se distinguen por lo que deciden. Pregúntate qué resuelve el juez: si solo ordena el trámite (fijar una fecha, unir un documento), es una providencia, que no necesita motivación; si decide una cuestión incidental durante el proceso (una medida cautelar, la admisión de una prueba), es un auto, siempre motivado; si decide el fondo y pone fin al proceso, es una sentencia.",
+        ],
+        [
+          ["La jueza dictó una providencia que señala la vista para el 3 de mayo.","The judge issued a procedural order setting the hearing for 3 May. (mero trámite: providencia)"],
+          ["El juez dictó auto de prisión provisional.","The judge issued an order for provisional detention. (cuestión incidental: auto)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Durante el juicio, la jueza decide, razonando su decisión, que no admite el informe pericial que presentó una de las partes. ¿Qué resolución dicta?",
+            "options": [
+              "un auto",
+              "una providencia",
+              "una sentencia",
+              "un fallo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Decidir si se admite una prueba es una cuestión incidental, y se hace con una resolución motivada: un auto. La providencia solo ordena el trámite, la sentencia resuelve el fondo y el fallo es la parte dispositiva de la sentencia, no una resolución aparte."
+          },
+        ]
+      ),
+      sec(
+        "El fallo, los verbos y la sentencia firme",
+        [
+          "El fallo no es otra resolución: es la parte dispositiva de la sentencia, lo que finalmente se decide.",
           "Por qué importa: el tipo de resolución determina qué recurso cabe y qué efectos tiene. Por eso cada uno tiene sus verbos: el juez dicta sentencias, autos y providencias; las partes interponen recursos; el tribunal los estima (da la razón) o los desestima. Una sentencia es firme cuando ya no cabe recurso contra ella.",
         ],
         [
-          ["La sentencia es firme; no cabe recurso.", "The judgment is final; there is no appeal."],
-          ["El juez dictó auto de prisión provisional.", "The judge issued an order for provisional detention. (cuestión incidental: auto)"],
-          ["La jueza dictó una providencia que señala la vista para el 3 de mayo.", "The judge issued a procedural order setting the hearing for 3 May. (mero trámite: providencia)"],
+          ["La sentencia es firme; no cabe recurso.","The judgment is final; there is no appeal."],
         ],
         [
-          mc(
-            "Una sentencia contra la que ya no cabe recurso es…",
-            ["firme", "provisional", "cautelar", "nula"],
-            0,
-            "Una sentencia firme es la que ya no admite recurso. Una resolución provisional o cautelar puede cambiar, y una sentencia nula carece de efectos, que es algo distinto."
-          ),
-          mc(
-            "Durante el juicio, la jueza decide, razonando su decisión, que no admite el informe pericial que presentó una de las partes. ¿Qué resolución dicta?",
-            ["un auto", "una providencia", "una sentencia", "un fallo"],
-            0,
-            "Decidir si se admite una prueba es una cuestión incidental, y se hace con una resolución motivada: un auto. La providencia solo ordena el trámite, la sentencia resuelve el fondo y el fallo es la parte dispositiva de la sentencia, no una resolución aparte."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "Una sentencia contra la que ya no cabe recurso es…",
+            "options": [
+              "firme",
+              "provisional",
+              "cautelar",
+              "nula"
+            ],
+            "correctIndex": 0,
+            "explanation": "Una sentencia firme es la que ya no admite recurso. Una resolución provisional o cautelar puede cambiar, y una sentencia nula carece de efectos, que es algo distinto."
+          },
         ]
       ),
     ],
@@ -206,29 +299,62 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "La estructura de la instancia",
+        "EXPONE declara, SOLICITA pide",
         [
           "Recuerda la regla: cada «Que» de la instancia depende del verbo en mayúsculas que lo encabeza, y ese verbo decide el modo. EXPONE significa «declara», y lo que se declara son hechos: «Que es propietario…», «Que las obras durarán…», en indicativo. SOLICITA significa «pide», y tras un verbo de petición va el subjuntivo: «Que se le conceda…», «Que se le autorice…». Todo el escrito va en tercera persona, porque habla el solicitante identificado en el encabezamiento, no un «yo».",
+        ],
+        [
+          ["EXPONE: Que es titular de la vivienda sita en la calle Mayor, 3.","STATES: That he is the owner of the dwelling located at 3 Calle Mayor."],
+          ["EXPONE: Que el local cuenta con salida de humos homologada.","STATES: That the premises have an approved smoke outlet. (declarar un hecho → indicativo)"],
+          ["SOLICITA: Que se le conceda licencia de obra menor.","REQUESTS: That he be granted a minor works permit. (pedir → subjuntivo)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Las oraciones del EXPONE empiezan tradicionalmente por…",
+            "options": [
+              "Que",
+              "Yo",
+              "Hola",
+              "Porque"
+            ],
+            "correctIndex": 0,
+            "explanation": "En una instancia, las oraciones del EXPONE empiezan tradicionalmente por «Que», en tercera persona. «Yo» rompe esa convención, «Hola» es informal y «Porque» no introduce la exposición."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Una inquilina pide al ayuntamiento que le devuelva la fianza. ¿Qué punto del SOLICITA es correcto?",
+            "options": [
+              "Que se le devuelva la fianza depositada.",
+              "Que se le devuelve la fianza depositada.",
+              "Que me devuelvan la fianza depositada.",
+              "Que se le devolverá la fianza depositada."
+            ],
+            "correctIndex": 0,
+            "explanation": "SOLICITA es un verbo de petición, así que el «Que» va con subjuntivo («se le devuelva») y en tercera persona. «Se le devuelve» y «se le devolverá» son indicativos, propios del EXPONE; «me devuelvan» rompe la tercera persona."
+          },
+        ]
+      ),
+      sec(
+        "La estructura de la instancia",
+        [
           "Estructura: encabezamiento («D./D.ª [nombre], con DNI…, y domicilio a efectos de notificaciones en…»); EXPONE con los hechos numerados; SOLICITA con la petición («Que, previos los trámites oportunos, se le conceda…»); cierre con lugar y fecha («En Toledo, a 3 de mayo»), firma y destinatario («SR./SRA. ALCALDE/SA-PRESIDENTE/A DEL AYUNTAMIENTO DE…»).",
         ],
         [
-          ["EXPONE: Que es titular de la vivienda sita en la calle Mayor, 3.", "STATES: That he is the owner of the dwelling located at 3 Calle Mayor."],
-          ["SOLICITA: Que se le conceda licencia de obra menor.", "REQUESTS: That he be granted a minor works permit. (pedir → subjuntivo)"],
-          ["EXPONE: Que el local cuenta con salida de humos homologada.", "STATES: That the premises have an approved smoke outlet. (declarar un hecho → indicativo)"],
         ],
         [
-          mc(
-            "Las oraciones del EXPONE empiezan tradicionalmente por…",
-            ["Que", "Yo", "Hola", "Porque"],
-            0,
-            "En una instancia, las oraciones del EXPONE empiezan tradicionalmente por «Que», en tercera persona. «Yo» rompe esa convención, «Hola» es informal y «Porque» no introduce la exposición."
-          ),
-          mc(
-            "Una inquilina pide al ayuntamiento que le devuelva la fianza. ¿Qué punto del SOLICITA es correcto?",
-            ["Que se le devuelva la fianza depositada.", "Que se le devuelve la fianza depositada.", "Que me devuelvan la fianza depositada.", "Que se le devolverá la fianza depositada."],
-            0,
-            "SOLICITA es un verbo de petición, así que el «Que» va con subjuntivo («se le devuelva») y en tercera persona. «Se le devuelve» y «se le devolverá» son indicativos, propios del EXPONE; «me devuelvan» rompe la tercera persona."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "¿Dónde va «En Toledo, a 3 de mayo»?",
+            "options": [
+              "en el cierre, antes de la firma",
+              "en el encabezamiento, tras el DNI",
+              "en el primer punto del EXPONE",
+              "al final del SOLICITA"
+            ],
+            "correctIndex": 0,
+            "explanation": "El lugar y la fecha forman parte del cierre, junto con la firma y el destinatario. El encabezamiento identifica al solicitante, el EXPONE recoge los hechos y el SOLICITA la petición."
+          },
         ]
       ),
     ],
@@ -313,29 +439,50 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Deber a medias o deber por todos",
+        "Solidaria o mancomunada: cuánto puede pedir el acreedor",
         [
           "Recuerda la regla: para elegir entre solidaria y mancomunada, pregúntate cuánto puede pedir el acreedor a cada deudor. Si puede exigir la totalidad a cualquiera, la obligación es solidaria; si solo puede pedir a cada uno su parte, es mancomunada. Por eso el avalista solidario asume un gran riesgo: puede acabar pagándolo todo y luego tener que reclamar a los demás su cuota.",
+        ],
+        [
+          ["Los dos socios responden solidariamente de la deuda.","Both partners are jointly and severally liable for the debt."],
+          ["Cada codeudor responde mancomunadamente, en proporción a su cuota.","Each co-debtor is liable only in proportion to their share. (cada uno, su parte)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Si la responsabilidad es solidaria, el banco puede reclamar…",
+            "options": [
+              "toda la deuda a cualquiera de los deudores",
+              "solo la mitad a cada uno",
+              "nada hasta que paguen todos",
+              "solo al primero que firmó"
+            ],
+            "correctIndex": 0,
+            "explanation": "En la responsabilidad solidaria cada deudor responde por el todo: el banco puede reclamar toda la deuda a cualquiera. Reclamar solo la mitad a cada uno sería mancomunada, y no tiene que esperar a nadie ni limitarse al primero que firmó."
+          },
+        ]
+      ),
+      sec(
+        "Anular, resolver, rescindir, prescribir: el verbo nombra la causa",
+        [
           "La misma lógica sirve para los verbos que ponen fin a un contrato: el verbo nombra la causa. Si el contrato tenía un vicio de origen (engaño, amenaza, falta de consentimiento), se anula y es nulo; si una parte no cumple, se resuelve por incumplimiento; si se da una causa prevista en el propio contrato, se rescinde; y si pasa el tiempo sin reclamar, el derecho prescribe.",
         ],
         [
-          ["Los dos socios responden solidariamente de la deuda.", "Both partners are jointly and severally liable for the debt."],
-          ["Cada codeudor responde mancomunadamente, en proporción a su cuota.", "Each co-debtor is liable only in proportion to their share. (cada uno, su parte)"],
-          ["El juez anuló el préstamo porque la firma se obtuvo bajo amenaza.", "The judge annulled the loan because the signature was obtained under threat. (vicio de origen → anular)"],
+          ["El juez anuló el préstamo porque la firma se obtuvo bajo amenaza.","The judge annulled the loan because the signature was obtained under threat. (vicio de origen → anular)"],
         ],
         [
-          mc(
-            "Si la responsabilidad es solidaria, el banco puede reclamar…",
-            ["toda la deuda a cualquiera de los deudores", "solo la mitad a cada uno", "nada hasta que paguen todos", "solo al primero que firmó"],
-            0,
-            "En la responsabilidad solidaria cada deudor responde por el todo: el banco puede reclamar toda la deuda a cualquiera. Reclamar solo la mitad a cada uno sería mancomunada, y no tiene que esperar a nadie ni limitarse al primero que firmó."
-          ),
-          mc(
-            "El contrato de una agencia permite a cualquiera de las partes darlo por terminado si la otra traslada su sede al extranjero. La agencia se traslada a Lisboa y el cliente pone fin al contrato. ¿Qué ha hecho el cliente?",
-            ["rescindir el contrato", "anular el contrato", "resolver el contrato por incumplimiento", "dejar prescribir el contrato"],
-            0,
-            "La causa estaba prevista en el propio contrato, y eso es rescindir. No hay vicio de origen (anular), la agencia no ha incumplido ninguna obligación (resolver) y no se trata del paso del tiempo (prescribir)."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "El contrato de una agencia permite a cualquiera de las partes darlo por terminado si la otra traslada su sede al extranjero. La agencia se traslada a Lisboa y el cliente pone fin al contrato. ¿Qué ha hecho el cliente?",
+            "options": [
+              "rescindir el contrato",
+              "anular el contrato",
+              "resolver el contrato por incumplimiento",
+              "dejar prescribir el contrato"
+            ],
+            "correctIndex": 0,
+            "explanation": "La causa estaba prevista en el propio contrato, y eso es rescindir. No hay vicio de origen (anular), la agencia no ha incumplido ninguna obligación (resolver) y no se trata del paso del tiempo (prescribir)."
+          },
         ]
       ),
     ],
@@ -371,29 +518,50 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "La notificación",
+        "Las cinco piezas de una notificación",
         [
           "Recuerda la regla: toda notificación administrativa sigue el mismo esqueleto, y leerla es buscar cinco piezas: qué se le notifica (con «se» impersonal: se le notifica, se han detectado); el plazo (cuánto, desde cuándo y si son días hábiles); qué debe hacer usted (subsanar, aportar, alegar); qué pasa si no lo hace (se le tendrá por desistido, se archivará); y las salvedades («sin perjuicio de…»). El participio absoluto («examinada su declaración», «transcurrido dicho plazo») concuerda con su sustantivo y marca lo que ya ha ocurrido antes de la acción principal.",
+        ],
+        [
+          ["Defectos subsanables.","Errors that can be corrected."],
+          ["Se le tendrá por desistido.","You will be deemed to have withdrawn. (consecuencia si no actúa)"],
+          ["Examinadas las alegaciones, se confirma la sanción.","Having examined the submissions, the penalty is confirmed. (examinadas concuerda con alegaciones)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Otra notificación dice: «Notificada la presente resolución, podrá interponer recurso de reposición en el plazo de un mes, a contar desde el día siguiente a su recepción». ¿Qué pieza del esqueleto es «podrá interponer recurso de reposición»?",
+            "options": [
+              "lo que el interesado puede hacer",
+              "la consecuencia de no actuar",
+              "una salvedad con «sin perjuicio de»",
+              "el cómputo del plazo"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Podrá interponer recurso» indica la actuación que se ofrece al interesado. La consecuencia de no actuar aparecería como «se le tendrá por…» o «se archivará», la salvedad empezaría por «sin perjuicio de» y el cómputo del plazo es «a contar desde el día siguiente»."
+          },
+        ]
+      ),
+      sec(
+        "La notificación",
+        [
           "«Por medio de la presente se le notifica que, examinada su declaración, se han detectado defectos subsanables. Dispone de un plazo de diez días hábiles, a contar desde el día siguiente a la recepción de esta notificación, para subsanarlos. Transcurrido dicho plazo sin que se haya producido la subsanación, se le tendrá por desistido de su solicitud, sin perjuicio de las sanciones que pudieran corresponder.»",
         ],
         [
-          ["Defectos subsanables.", "Errors that can be corrected."],
-          ["Se le tendrá por desistido.", "You will be deemed to have withdrawn. (consecuencia si no actúa)"],
-          ["Examinadas las alegaciones, se confirma la sanción.", "Having examined the submissions, the penalty is confirmed. (examinadas concuerda con alegaciones)"],
         ],
         [
-          mc(
-            "¿Cuánto tiempo tiene el ciudadano?",
-            ["diez días hábiles desde el día siguiente a recibirla", "diez días naturales desde la fecha del documento", "un mes", "hasta que quiera"],
-            0,
-            "El plazo son diez días hábiles, contados desde el día siguiente a la recepción. No son naturales ni se cuentan desde la fecha del documento, no es un mes y, desde luego, no es ilimitado."
-          ),
-          mc(
-            "Otra notificación dice: «Notificada la presente resolución, podrá interponer recurso de reposición en el plazo de un mes, a contar desde el día siguiente a su recepción». ¿Qué pieza del esqueleto es «podrá interponer recurso de reposición»?",
-            ["lo que el interesado puede hacer", "la consecuencia de no actuar", "una salvedad con «sin perjuicio de»", "el cómputo del plazo"],
-            0,
-            "«Podrá interponer recurso» indica la actuación que se ofrece al interesado. La consecuencia de no actuar aparecería como «se le tendrá por…» o «se archivará», la salvedad empezaría por «sin perjuicio de» y el cómputo del plazo es «a contar desde el día siguiente»."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuánto tiempo tiene el ciudadano?",
+            "options": [
+              "diez días hábiles desde el día siguiente a recibirla",
+              "diez días naturales desde la fecha del documento",
+              "un mes",
+              "hasta que quiera"
+            ],
+            "correctIndex": 0,
+            "explanation": "El plazo son diez días hábiles, contados desde el día siguiente a la recepción. No son naturales ni se cuentan desde la fecha del documento, no es un mes y, desde luego, no es ilimitado."
+          },
         ]
       ),
     ],
@@ -435,29 +603,50 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "La escena",
+        "En la notaría: usted, condicional y dos tipos de facultades",
         [
           "Recuerda la regla: en la notaría se habla de usted y se pide con condicional de cortesía («¿Podría explicarme…?», «¿Sería posible…?»). Y para entender lo que firmas, distingue dos tipos de facultades: las de administración permiten gestionar los bienes (cobrar, pagar, contratar suministros); las de disposición permiten venderlos o gravarlos (hipotecarlos). Un poder de mera administración no permite vender. Todo poder es revocable, pero se revoca con otra escritura, no de palabra.",
+        ],
+        [
+          ["¿Sería posible añadir la facultad de hipotecar?","Would it be possible to add the power to mortgage? (condicional de cortesía)"],
+          ["Facultades de disposición.","Powers to sell or dispose of property. (vender, hipotecar)"],
+          ["El poder es revocable.","The power of attorney can be revoked."],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "El notario pregunta: «¿Desea que el poder incluya también la facultad de hipotecar sus inmuebles?». La clienta no quiere. ¿Qué responde?",
+            "options": [
+              "No, preferiría que se limitara a la administración de mis bienes.",
+              "No, que no hipoteque nada, ¿vale?",
+              "No, prefiero que se limita a la administración.",
+              "Sí, pero que no venda nada."
+            ],
+            "correctIndex": 0,
+            "explanation": "Hipotecar es una facultad de disposición, así que la clienta pide limitar el poder a la administración, con un registro formal y el subjuntivo que exige «preferir que» («se limitara»). La segunda respuesta es coloquial, la tercera usa indicativo tras «preferir que» y la cuarta acepta lo que no quiere."
+          },
+        ]
+      ),
+      sec(
+        "La escena",
+        [
           "—Notario: Usted, como otorgante, confiere a su hijo poder general para administrar sus bienes. ¿Comprende el alcance? —Cliente: ¿Podría revocarlo más adelante? —Notario: Sí, el poder es revocable en cualquier momento mediante nueva escritura. —Cliente: ¿Y mi hijo podría vender la casa? —Notario: Solo si el poder incluye facultades de disposición; este es de mera administración.",
         ],
         [
-          ["El poder es revocable.", "The power of attorney can be revoked."],
-          ["Facultades de disposición.", "Powers to sell or dispose of property. (vender, hipotecar)"],
-          ["¿Sería posible añadir la facultad de hipotecar?", "Would it be possible to add the power to mortgage? (condicional de cortesía)"],
         ],
         [
-          mc(
-            "¿Puede el hijo vender la casa con este poder?",
-            ["No, es un poder de mera administración.", "Sí, siempre.", "Solo con el permiso del notario.", "Sí, si la vende barata."],
-            0,
-            "No: un poder de mera administración no permite vender; para eso hace falta facultad de disposición. No depende de un permiso del notario ni del precio de venta."
-          ),
-          mc(
-            "El notario pregunta: «¿Desea que el poder incluya también la facultad de hipotecar sus inmuebles?». La clienta no quiere. ¿Qué responde?",
-            ["No, preferiría que se limitara a la administración de mis bienes.", "No, que no hipoteque nada, ¿vale?", "No, prefiero que se limita a la administración.", "Sí, pero que no venda nada."],
-            0,
-            "Hipotecar es una facultad de disposición, así que la clienta pide limitar el poder a la administración, con un registro formal y el subjuntivo que exige «preferir que» («se limitara»). La segunda respuesta es coloquial, la tercera usa indicativo tras «preferir que» y la cuarta acepta lo que no quiere."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "¿Puede el hijo vender la casa con este poder?",
+            "options": [
+              "No, es un poder de mera administración.",
+              "Sí, siempre.",
+              "Solo con el permiso del notario.",
+              "Sí, si la vende barata."
+            ],
+            "correctIndex": 0,
+            "explanation": "No: un poder de mera administración no permite vender; para eso hace falta facultad de disposición. No depende de un permiso del notario ni del precio de venta."
+          },
         ]
       ),
     ],
@@ -497,29 +686,51 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "La gramática del texto legal",
+        "Economía: participio absoluto y futuro deóntico",
         [
-          "Recuerda la regla: el texto legal busca dos cosas, economía e impersonalidad, y cuatro estructuras del C1 le sirven para eso. El participio absoluto condensa una subordinada temporal y concuerda con su sustantivo («Leída la presente…», «Vencido el plazo…»). El futuro deóntico formula obligaciones sin verbo modal («El arrendatario abonará…» = deberá abonar). Las condiciones hipotéticas van en subjuntivo («En caso de que alguna de las partes incumpla…»); el futuro de subjuntivo («incumpliere») sobrevive casi solo en textos jurídicos antiguos y en fórmulas fijas como «sea como fuere». Y el «se» impersonal borra al autor («Se hace constar que…»).",
+          "Recuerda la regla: el texto legal busca dos cosas, economía e impersonalidad, y cuatro estructuras del C1 le sirven para eso. El participio absoluto condensa una subordinada temporal y concuerda con su sustantivo («Leída la presente…», «Vencido el plazo…»). El futuro deóntico formula obligaciones sin verbo modal («El arrendatario abonará…» = deberá abonar).",
+        ],
+        [
+          ["Leído el presente documento, las partes lo firman.","Having read this document, the parties sign it."],
+          ["Vencida la hipoteca, el banco podrá ejecutar la garantía.","Once the mortgage falls due, the bank may enforce the guarantee. (vencida concuerda con hipoteca)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "«___ las alegaciones, el tribunal desestimó el recurso.» (estudiar)",
+            "options": [
+              "Estudiadas",
+              "Estudiado",
+              "Estudiados",
+              "Estudiando"
+            ],
+            "correctIndex": 0,
+            "explanation": "El participio absoluto concuerda en género y número con su sustantivo: «las alegaciones» es femenino plural, así que «estudiadas». El gerundio «estudiando» no expresa una acción ya concluida antes de la principal."
+          },
+        ]
+      ),
+      sec(
+        "Posibilidad e impersonalidad: subjuntivo y «se»",
+        [
+          "Las condiciones hipotéticas van en subjuntivo («En caso de que alguna de las partes incumpla…»); el futuro de subjuntivo («incumpliere») sobrevive casi solo en textos jurídicos antiguos y en fórmulas fijas como «sea como fuere». Y el «se» impersonal borra al autor («Se hace constar que…»).",
           "Al leer, cada estructura te dice algo: el participio absoluto, qué ocurrió antes; el futuro, qué es obligatorio; el subjuntivo, qué es solo una posibilidad.",
         ],
         [
-          ["Leído el presente documento, las partes lo firman.", "Having read this document, the parties sign it."],
-          ["En caso de que el comprador no abone el precio…", "Should the buyer fail to pay the price… (condición hipotética: subjuntivo)"],
-          ["Vencida la hipoteca, el banco podrá ejecutar la garantía.", "Once the mortgage falls due, the bank may enforce the guarantee. (vencida concuerda con hipoteca)"],
+          ["En caso de que el comprador no abone el precio…","Should the buyer fail to pay the price… (condición hipotética: subjuntivo)"],
         ],
         [
-          mc(
-            "«En caso de que el inquilino ___ la fianza…» (forma general moderna)",
-            ["no abone", "no abona", "no abonará", "no abonaba"],
-            0,
-            "«En caso de que» exige subjuntivo, y en la forma moderna, presente: «no abone». «Abona» y «abonará» son indicativo, y «abonaba» no concuerda con una condición futura."
-          ),
-          mc(
-            "«___ las alegaciones, el tribunal desestimó el recurso.» (estudiar)",
-            ["Estudiadas", "Estudiado", "Estudiados", "Estudiando"],
-            0,
-            "El participio absoluto concuerda en género y número con su sustantivo: «las alegaciones» es femenino plural, así que «estudiadas». El gerundio «estudiando» no expresa una acción ya concluida antes de la principal."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "«En caso de que el inquilino ___ la fianza…» (forma general moderna)",
+            "options": [
+              "no abone",
+              "no abona",
+              "no abonará",
+              "no abonaba"
+            ],
+            "correctIndex": 0,
+            "explanation": "«En caso de que» exige subjuntivo, y en la forma moderna, presente: «no abone». «Abona» y «abonará» son indicativo, y «abonaba» no concuerda con una condición futura."
+          },
         ]
       ),
     ],
@@ -551,29 +762,62 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Cualidad, localización y evolución",
+        "Cada descriptor pertenece a un eje",
         [
           "Recuerda la regla: cada descriptor del dolor pertenece a un solo eje, y una buena descripción toma una palabra de cada eje sin mezclar opuestos del mismo. Cualidad (¿cómo es?): sordo (continuo y poco intenso), punzante (como pinchazos), opresivo (como un peso), lancinante (agudo y desgarrador), urente (quemazón). Localización (¿dónde?): localizado, difuso, irradiado (se extiende: «irradia al brazo izquierdo»). Inicio (¿cómo empezó?): súbito o insidioso. Patrón y evolución (¿cómo se comporta?): continuo, intermitente, progresivo.",
+        ],
+        [
+          ["Un dolor opresivo en el pecho que irradia al brazo izquierdo.","A crushing chest pain radiating to the left arm."],
+          ["Un dolor sordo y continuo en la zona lumbar.","A dull, constant pain in the lower back. (cualidad + patrón + localización)"],
+          ["Un dolor lancinante de inicio súbito en la cabeza.","An excruciating headache of sudden onset. (cualidad + inicio)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Un dolor «como si me clavaran agujas» es…",
+            "options": [
+              "punzante",
+              "sordo",
+              "opresivo",
+              "difuso"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un dolor «como si me clavaran agujas» es punzante. El sordo es continuo y poco intenso, el opresivo da sensación de peso o presión y el difuso no se localiza bien."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Un paciente dice: «Me duele la muela, pero el dolor me sube hasta el oído». ¿Qué descriptor de localización corresponde?",
+            "options": [
+              "irradiado",
+              "difuso",
+              "insidioso",
+              "urente"
+            ],
+            "correctIndex": 0,
+            "explanation": "El dolor nace en un punto (la muela) y se extiende a otra zona (el oído): es irradiado. «Difuso» sería un dolor sin punto claro, «insidioso» describe un inicio gradual y «urente» es una cualidad (quemazón), no una localización."
+          },
+        ]
+      ),
+      sec(
+        "Detectar incoherencias",
+        [
           "Así detectas incoherencias: un dolor no puede ser a la vez localizado y difuso, ni de inicio súbito si el paciente no sabe cuándo empezó. Y cada imagen del paciente apunta a una cualidad: «agujas» → punzante, «un peso» → opresivo, «fuego» → urente.",
         ],
         [
-          ["Un dolor opresivo en el pecho que irradia al brazo izquierdo.", "A crushing chest pain radiating to the left arm."],
-          ["Un dolor sordo y continuo en la zona lumbar.", "A dull, constant pain in the lower back. (cualidad + patrón + localización)"],
-          ["Un dolor lancinante de inicio súbito en la cabeza.", "An excruciating headache of sudden onset. (cualidad + inicio)"],
         ],
         [
-          mc(
-            "Un dolor «como si me clavaran agujas» es…",
-            ["punzante", "sordo", "opresivo", "difuso"],
-            0,
-            "Un dolor «como si me clavaran agujas» es punzante. El sordo es continuo y poco intenso, el opresivo da sensación de peso o presión y el difuso no se localiza bien."
-          ),
-          mc(
-            "Un paciente dice: «Me duele la muela, pero el dolor me sube hasta el oído». ¿Qué descriptor de localización corresponde?",
-            ["irradiado", "difuso", "insidioso", "urente"],
-            0,
-            "El dolor nace en un punto (la muela) y se extiende a otra zona (el oído): es irradiado. «Difuso» sería un dolor sin punto claro, «insidioso» describe un inicio gradual y «urente» es una cualidad (quemazón), no una localización."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué descripción es incoherente?",
+            "options": [
+              "un dolor localizado y difuso en el abdomen",
+              "un dolor sordo y continuo en la rodilla",
+              "un dolor punzante de inicio súbito en el costado",
+              "un dolor opresivo que irradia a la mandíbula"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Localizado» y «difuso» son opuestos del mismo eje (localización): un dolor no puede ser las dos cosas. Las demás toman como mucho una palabra de cada eje: cualidad, patrón, inicio o localización."
+          },
         ]
       ),
     ],
@@ -609,29 +853,51 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Las preguntas del historial",
+        "El orden de las preguntas",
         [
-          "Recuerda la regla: la médica pregunta siempre en el mismo orden (motivo de consulta, enfermedad actual, antecedentes personales y familiares, alergias, medicación habitual, hábitos), y cada pregunta pide un dato de una casilla concreta. Responde solo a esa casilla y elige el tiempo verbal según el tipo de dato: lo que empezó y sigue, con «desde hace» o «llevar» + tiempo («Llevo tres días con fiebre»); un hecho cerrado del pasado, en pretérito («Me operaron en 2015»); un hábito antiguo, en imperfecto («Fumaba mucho»); una enfermedad crónica, en presente («Padezco asma»).",
+          "Recuerda la regla: la médica pregunta siempre en el mismo orden (motivo de consulta, enfermedad actual, antecedentes personales y familiares, alergias, medicación habitual, hábitos), y cada pregunta pide un dato de una casilla concreta.",
           "Preguntas típicas: «¿Qué le trae por aquí?», «¿Desde cuándo…? ¿Ha tomado algo?», «¿Padece alguna enfermedad crónica? ¿Le han operado alguna vez?», «¿Hay casos de… en su familia?», «¿Es alérgico a algún medicamento?», «¿Fuma? ¿Bebe alcohol?».",
         ],
         [
-          ["—¿Es alérgico a algún medicamento? —Sí, a la penicilina.", "—Are you allergic to any medication? —Yes, to penicillin."],
-          ["—¿Toma alguna medicación de forma habitual? —Un antihipertensivo.", "—Do you take any regular medication? —A blood pressure drug."],
-          ["—¿Desde cuándo tiene la tos? —Desde hace diez días; empezó con un catarro.", "—How long have you had the cough? —For ten days; it started with a cold. (desde hace: empezó y sigue)"],
+          ["—¿Es alérgico a algún medicamento? —Sí, a la penicilina.","—Are you allergic to any medication? —Yes, to penicillin."],
+          ["—¿Toma alguna medicación de forma habitual? —Un antihipertensivo.","—Do you take any regular medication? —A blood pressure drug."],
         ],
         [
-          mc(
-            "«¿Qué le trae por aquí?» pregunta por…",
-            ["el motivo de consulta", "los antecedentes familiares", "las alergias", "la dirección"],
-            0,
-            "«¿Qué le trae por aquí?» pregunta por el motivo de consulta. Los antecedentes familiares, las alergias o la dirección se preguntan con otras fórmulas."
-          ),
-          mc(
-            "La médica pregunta: «¿Ha tenido alguna vez una crisis parecida?». El paciente tuvo una igual en 2019. ¿Qué responde?",
-            ["Sí, tuve una igual en 2019.", "Sí, tengo una igual desde 2019.", "Sí, tenía una igual en 2019.", "Sí, llevo una igual desde 2019."],
-            0,
-            "Es un hecho cerrado y fechado del pasado, así que va en pretérito: «tuve». «Tengo desde» y «llevo» dirían que la crisis sigue desde 2019, y el imperfecto «tenía» describiría una situación o un hábito, no un episodio concreto."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "«¿Qué le trae por aquí?» pregunta por…",
+            "options": [
+              "el motivo de consulta",
+              "los antecedentes familiares",
+              "las alergias",
+              "la dirección"
+            ],
+            "correctIndex": 0,
+            "explanation": "«¿Qué le trae por aquí?» pregunta por el motivo de consulta. Los antecedentes familiares, las alergias o la dirección se preguntan con otras fórmulas."
+          },
+        ]
+      ),
+      sec(
+        "Responde a la casilla con el tiempo verbal justo",
+        [
+          "Responde solo a esa casilla y elige el tiempo verbal según el tipo de dato: lo que empezó y sigue, con «desde hace» o «llevar» + tiempo («Llevo tres días con fiebre»); un hecho cerrado del pasado, en pretérito («Me operaron en 2015»); un hábito antiguo, en imperfecto («Fumaba mucho»); una enfermedad crónica, en presente («Padezco asma»).",
+        ],
+        [
+          ["—¿Desde cuándo tiene la tos? —Desde hace diez días; empezó con un catarro.","—How long have you had the cough? —For ten days; it started with a cold. (desde hace: empezó y sigue)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "La médica pregunta: «¿Ha tenido alguna vez una crisis parecida?». El paciente tuvo una igual en 2019. ¿Qué responde?",
+            "options": [
+              "Sí, tuve una igual en 2019.",
+              "Sí, tengo una igual desde 2019.",
+              "Sí, tenía una igual en 2019.",
+              "Sí, llevo una igual desde 2019."
+            ],
+            "correctIndex": 0,
+            "explanation": "Es un hecho cerrado y fechado del pasado, así que va en pretérito: «tuve». «Tengo desde» y «llevo» dirían que la crisis sigue desde 2019, y el imperfecto «tenía» describiría una situación o un hábito, no un episodio concreto."
+          },
         ]
       ),
     ],
@@ -666,29 +932,62 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "La idea: cada síntoma tiene dos nombres, y el registro lo elige el destinatario",
+        "Dos nombres por síntoma: el destinatario elige",
         [
           "La regla: el mismo síntoma tiene un nombre técnico y uno de la calle, y se elige según quién va a leer o escuchar. En el informe clínico, para otro profesional: cefalea, disnea, astenia, prurito, pirosis, epistaxis, febrícula, hipertensión. Con el paciente: dolor de cabeza, falta de aire (ahogo), cansancio, picor, ardor de estómago, sangrado de nariz, unas décimas, tensión alta. El informe tiene además su sintaxis: sujeto omitido y verbos como «refiere» (lo que el paciente cuenta) y «presenta» (lo que se observa).",
+        ],
+        [
+          ["Presenta astenia y febrícula. → Está muy cansado y tiene unas décimas.","He presents asthenia and low-grade fever."],
+          ["Me pica mucho la piel. → Refiere prurito intenso.","My skin itches a lot. → Reports intense pruritus. (paciente → informe: término y sintaxis)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "«Epistaxis» es…",
+            "options": [
+              "sangrado por la nariz",
+              "dolor de oído",
+              "pérdida de visión",
+              "tos seca"
+            ],
+            "correctIndex": 0,
+            "explanation": "La epistaxis es la hemorragia nasal. El dolor de oído es la otalgia, la pérdida de visión se llama ceguera o amaurosis y la tos seca es tos no productiva."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Una paciente le dice al médico: «Me cuesta respirar cuando subo las escaleras». ¿Cómo lo anota en el informe?",
+            "options": [
+              "Refiere disnea de esfuerzo.",
+              "Presenta cefalea de esfuerzo.",
+              "Dice que se ahoga en las escaleras.",
+              "Refiere pirosis al subir escaleras."
+            ],
+            "correctIndex": 0,
+            "explanation": "Para el informe se usa el término técnico y la sintaxis clínica: la dificultad para respirar es disnea, «al subir escaleras» es un esfuerzo, y lo que cuenta el paciente se introduce con «refiere». «Dice que se ahoga» es correcto pero coloquial, y cefalea y pirosis son otros síntomas."
+          },
+        ]
+      ),
+      sec(
+        "Traducir sin cambiar el dato",
+        [
           "Por qué funciona: el término técnico es preciso y breve para el colega, y el coloquial es comprensible para el paciente. Por eso traducir es cambiar palabra y sintaxis a la vez («Me arde el estómago» → «Refiere pirosis»), pero sin cambiar el dato: la febrícula son unas décimas, no fiebre alta. Un buen comunicador sanitario traduce sin condescendencia.",
         ],
         [
-          ["Presenta astenia y febrícula. → Está muy cansado y tiene unas décimas.", "He presents asthenia and low-grade fever."],
-          ["Refiere pirosis tras las comidas. → Dice que le arde el estómago después de comer.", "She reports heartburn after meals."],
-          ["Me pica mucho la piel. → Refiere prurito intenso.", "My skin itches a lot. → Reports intense pruritus. (paciente → informe: término y sintaxis)"],
+          ["Refiere pirosis tras las comidas. → Dice que le arde el estómago después de comer.","She reports heartburn after meals."],
         ],
         [
-          mc(
-            "«Epistaxis» es…",
-            ["sangrado por la nariz", "dolor de oído", "pérdida de visión", "tos seca"],
-            0,
-            "La epistaxis es la hemorragia nasal. El dolor de oído es la otalgia, la pérdida de visión se llama ceguera o amaurosis y la tos seca es tos no productiva."
-          ),
-          mc(
-            "Una paciente le dice al médico: «Me cuesta respirar cuando subo las escaleras». ¿Cómo lo anota en el informe?",
-            ["Refiere disnea de esfuerzo.", "Presenta cefalea de esfuerzo.", "Dice que se ahoga en las escaleras.", "Refiere pirosis al subir escaleras."],
-            0,
-            "Para el informe se usa el término técnico y la sintaxis clínica: la dificultad para respirar es disnea, «al subir escaleras» es un esfuerzo, y lo que cuenta el paciente se introduce con «refiere». «Dice que se ahoga» es correcto pero coloquial, y cefalea y pirosis son otros síntomas."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "Un paciente lee «febrícula» en su informe y pregunta qué significa. ¿Qué le dice el médico?",
+            "options": [
+              "Que ha tenido unas décimas.",
+              "Que ha tenido fiebre muy alta.",
+              "Que ha tenido la tensión alta.",
+              "Que ha tenido mucho cansancio."
+            ],
+            "correctIndex": 0,
+            "explanation": "Traducir al registro del paciente cambia la palabra, no el dato: la febrícula son unas décimas. «Fiebre muy alta» exagera el dato; la tensión alta es la hipertensión y el cansancio es la astenia."
+          },
         ]
       ),
     ],
@@ -724,35 +1023,84 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "La idea: una pauta completa tiene cinco datos y se da en imperativo de usted",
+        "Una pauta completa responde a cinco preguntas",
         [
-          "La regla: una instrucción de posología es segura solo si responde a cinco preguntas. ¿Cuánto? La dosis (un comprimido de 500 mg). ¿Cada cuánto? La frecuencia (cada ocho horas, dos veces al día). ¿Cuándo respecto a la comida? En ayunas, con las comidas o después de comer. ¿Durante cuánto tiempo? La duración (durante siete días, aunque se encuentre mejor). ¿Qué vigilar? Las advertencias (puede producir somnolencia; no combinar con alcohol). Las formas farmacéuticas (comprimido, cápsula, jarabe, sobre, gotas, pomada) deciden el verbo: se toma un comprimido, se aplica una pomada, se disuelve un sobre.",
+          "La regla: una instrucción de posología es segura solo si responde a cinco preguntas. ¿Cuánto? La dosis (un comprimido de 500 mg). ¿Cada cuánto? La frecuencia (cada ocho horas, dos veces al día). ¿Cuándo respecto a la comida? En ayunas, con las comidas o después de comer. ¿Durante cuánto tiempo? La duración (durante siete días, aunque se encuentre mejor). ¿Qué vigilar? Las advertencias (puede producir somnolencia; no combinar con alcohol).",
+        ],
+        [
+          ["Tómese un comprimido cada ocho horas durante siete días.","Take one tablet every eight hours for seven days."],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Una receta dice: «Ibuprofeno 600 mg, un comprimido cada ocho horas, con las comidas». ¿Qué dato falta para que la pauta sea completa?",
+            "options": [
+              "la duración del tratamiento",
+              "la dosis",
+              "la frecuencia",
+              "la relación con las comidas"
+            ],
+            "correctIndex": 0,
+            "explanation": "Están la dosis (un comprimido de 600 mg), la frecuencia (cada ocho horas) y la relación con las comidas (con las comidas). Falta cuánto tiempo hay que tomarlo: «durante cinco días», por ejemplo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«En ayunas» significa…",
+            "options": [
+              "sin haber comido nada antes",
+              "después de cenar",
+              "con mucha agua",
+              "por la noche"
+            ],
+            "correctIndex": 0,
+            "explanation": "«En ayunas» significa con el estómago vacío, sin haber comido nada antes. No significa después de cenar, con mucha agua ni por la noche."
+          },
+        ]
+      ),
+      sec(
+        "La forma farmacéutica decide el verbo",
+        [
+          "Las formas farmacéuticas (comprimido, cápsula, jarabe, sobre, gotas, pomada) deciden el verbo: se toma un comprimido, se aplica una pomada, se disuelve un sobre.",
+        ],
+        [
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "La médica receta un antibiótico en sobres. ¿Qué instrucción es correcta?",
+            "options": [
+              "Disuelva un sobre en medio vaso de agua.",
+              "Aplíquese un sobre en medio vaso de agua.",
+              "Extienda un sobre en medio vaso de agua.",
+              "Úntese un sobre en medio vaso de agua."
+            ],
+            "correctIndex": 0,
+            "explanation": "Cada forma farmacéutica tiene su verbo: el sobre se disuelve. «Aplicar», «extender» y «untar» van con pomadas y cremas, que se ponen sobre la piel, no en agua."
+          },
+        ]
+      ),
+      sec(
+        "Al paciente, imperativo de usted",
+        [
           "Al paciente se le habla en imperativo de usted, que usa las formas del subjuntivo. En la orden afirmativa el pronombre va pegado al verbo (tómeselo, bébalo); en la negativa va delante (no lo combine). El prospecto escrito usa a menudo infinitivos (agitar antes de usar), pero cuando le hablas al paciente los conviertes en imperativos (agite el frasco). Y lo hipotético va con subjuntivo: aunque se encuentre mejor, mientras dure el tratamiento.",
         ],
         [
-          ["Tómese un comprimido cada ocho horas durante siete días.", "Take one tablet every eight hours for seven days."],
-          ["No lo combine con alcohol mientras dure el tratamiento.", "Don't combine it with alcohol while the treatment lasts. (negativa: pronombre delante)"],
-          ["Aplíquese la crema y extiéndala bien sobre la piel.", "Apply the cream and spread it well over the skin. (afirmativa: pronombre pegado)"],
+          ["Aplíquese la crema y extiéndala bien sobre la piel.","Apply the cream and spread it well over the skin. (afirmativa: pronombre pegado)"],
+          ["No lo combine con alcohol mientras dure el tratamiento.","Don't combine it with alcohol while the treatment lasts. (negativa: pronombre delante)"],
         ],
         [
-          mc(
-            "«En ayunas» significa…",
-            ["sin haber comido nada antes", "después de cenar", "con mucha agua", "por la noche"],
-            0,
-            "«En ayunas» significa con el estómago vacío, sin haber comido nada antes. No significa después de cenar, con mucha agua ni por la noche."
-          ),
-          mc(
-            "¿Qué advertencia está bien formulada para un paciente al que trata de usted?",
-            ["No lo mezcle con alcohol.", "No mézclelo con alcohol.", "No lo mezcles con alcohol.", "Lo no mezcle con alcohol."],
-            0,
-            "En el imperativo negativo de usted el pronombre va delante del verbo: «no lo mezcle». «Mézclelo» solo vale en la orden afirmativa, «mezcles» es el trato de tú y el pronombre nunca va antes de «no»."
-          ),
-          mc(
-            "Una receta dice: «Ibuprofeno 600 mg, un comprimido cada ocho horas, con las comidas». ¿Qué dato falta para que la pauta sea completa?",
-            ["la duración del tratamiento", "la dosis", "la frecuencia", "la relación con las comidas"],
-            0,
-            "Están la dosis (un comprimido de 600 mg), la frecuencia (cada ocho horas) y la relación con las comidas (con las comidas). Falta cuánto tiempo hay que tomarlo: «durante cinco días», por ejemplo."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué advertencia está bien formulada para un paciente al que trata de usted?",
+            "options": [
+              "No lo mezcle con alcohol.",
+              "No mézclelo con alcohol.",
+              "No lo mezcles con alcohol.",
+              "Lo no mezcle con alcohol."
+            ],
+            "correctIndex": 0,
+            "explanation": "En el imperativo negativo de usted el pronombre va delante del verbo: «no lo mezcle». «Mézclelo» solo vale en la orden afirmativa, «mezcles» es el trato de tú y el pronombre nunca va antes de «no»."
+          },
         ]
       ),
     ],
@@ -784,44 +1132,85 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "La idea: el informe de alta tiene un orden fijo y un estilo nominal",
+        "El informe de alta tiene un orden fijo",
         [
           "La regla: todo informe de alta sigue el mismo recorrido, y si conoces el orden sabes dónde buscar cada dato. Motivo de consulta (quién acude y por qué) → antecedentes → pruebas realizadas → diagnóstico → tratamiento y evolución → tratamiento al alta → recomendaciones y seguimiento. Así, para saber qué debe hacer el paciente en casa no lees el diagnóstico, sino el final.",
+        ],
+        [
+          ["Mujer de 34 años que acude por cefalea de cinco días de evolución.","A 34-year-old woman presenting with a headache of five days' duration. (motivo de consulta)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Al llegar a casa, un paciente quiere saber qué medicación debe tomar. ¿En qué apartado del informe lo busca?",
+            "options": [
+              "en el tratamiento al alta",
+              "en los antecedentes",
+              "en el motivo de consulta",
+              "en las pruebas realizadas"
+            ],
+            "correctIndex": 0,
+            "explanation": "Lo que el paciente debe hacer en casa está al final del recorrido: tratamiento al alta y recomendaciones. Los antecedentes recogen su historia previa, el motivo de consulta por qué acudió y las pruebas lo que se le hizo en el hospital."
+          },
+        ]
+      ),
+      sec(
+        "El estilo nominal: devuelve los verbos",
+        [
           "El estilo también es fijo, porque el informe busca brevedad: omite artículos y verbos («Evolución favorable»), usa la pasiva refleja en presente («se realiza analítica», «se inicia tratamiento»), mide la duración con «de X de evolución» y redacta las recomendaciones con sustantivos («abandono del tabaco», no «deje de fumar»). Para leerlo, devuelve mentalmente los verbos: «abandono del tabaco» = debe dejar de fumar.",
         ],
         [
-          ["Mujer de 34 años que acude por cefalea de cinco días de evolución.", "A 34-year-old woman presenting with a headache of five days' duration. (motivo de consulta)"],
-          ["Se inicia antibioterapia, con buena respuesta.", "Antibiotic treatment is started, with a good response. (pasiva refleja, sin artículo)"],
+          ["Se inicia antibioterapia, con buena respuesta.","Antibiotic treatment is started, with a good response. (pasiva refleja, sin artículo)"],
         ],
         [
-          mc(
-            "En un informe leemos: «Recomendaciones: reducción del consumo de sal y control de tensión en su centro de salud». ¿Qué debe hacer el paciente?",
-            ["tomar menos sal y medirse la tensión en su centro de salud", "dejar la sal por completo y no volver al médico", "operarse en el centro de salud", "subir el consumo de sal hasta el próximo control"],
-            0,
-            "Las recomendaciones están en estilo nominal: «reducción del consumo de sal» equivale a «reduzca la sal», y «control de tensión en su centro de salud» indica dónde se hará el seguimiento. Reducir no es eliminar, y nada habla de operar."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "En un informe leemos: «Recomendaciones: reducción del consumo de sal y control de tensión en su centro de salud». ¿Qué debe hacer el paciente?",
+            "options": [
+              "tomar menos sal y medirse la tensión en su centro de salud",
+              "dejar la sal por completo y no volver al médico",
+              "operarse en el centro de salud",
+              "subir el consumo de sal hasta el próximo control"
+            ],
+            "correctIndex": 0,
+            "explanation": "Las recomendaciones están en estilo nominal: «reducción del consumo de sal» equivale a «reduzca la sal», y «control de tensión en su centro de salud» indica dónde se hará el seguimiento. Reducir no es eliminar, y nada habla de operar."
+          },
         ]
       ),
       sec(
         "Informe de alta",
-        "«Paciente de 58 años que acude a Urgencias por dolor torácico opresivo de dos horas de evolución. Antecedentes: hipertensión y tabaquismo activo. Se realiza electrocardiograma y analítica, con elevación de marcadores cardíacos. Diagnóstico: infarto agudo de miocardio. Se practica cateterismo con implantación de stent. Evolución favorable. Tratamiento al alta: antiagregantes y estatinas. Recomendaciones: abandono del tabaco, dieta cardiosaludable y control por Cardiología en un mes.»",
         [
-          ["Dolor torácico de dos horas de evolución.", "Chest pain for two hours."],
-          ["Evolución favorable.", "Good progress."],
+          "«Paciente de 58 años que acude a Urgencias por dolor torácico opresivo de dos horas de evolución. Antecedentes: hipertensión y tabaquismo activo. Se realiza electrocardiograma y analítica, con elevación de marcadores cardíacos. Diagnóstico: infarto agudo de miocardio. Se practica cateterismo con implantación de stent. Evolución favorable. Tratamiento al alta: antiagregantes y estatinas. Recomendaciones: abandono del tabaco, dieta cardiosaludable y control por Cardiología en un mes.»",
         ],
         [
-          mc(
-            "¿Cuál fue el diagnóstico?",
-            ["infarto agudo de miocardio", "hipertensión", "neumonía", "ansiedad"],
-            0,
-            "El informe da como diagnóstico un infarto agudo de miocardio. La hipertensión, la neumonía o la ansiedad no aparecen como diagnóstico."
-          ),
-          mc(
-            "¿En qué parte del informe aparece que el paciente fuma?",
-            ["en los antecedentes", "en el diagnóstico", "en el tratamiento al alta", "en la evolución"],
-            0,
-            "Los hábitos y enfermedades previas del paciente van en los antecedentes: «hipertensión y tabaquismo activo». Por eso el abandono del tabaco reaparece al final, en las recomendaciones."
-          ),
+          ["Dolor torácico de dos horas de evolución.","Chest pain for two hours."],
+          ["Evolución favorable.","Good progress."],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál fue el diagnóstico?",
+            "options": [
+              "infarto agudo de miocardio",
+              "hipertensión",
+              "neumonía",
+              "ansiedad"
+            ],
+            "correctIndex": 0,
+            "explanation": "El informe da como diagnóstico un infarto agudo de miocardio. La hipertensión, la neumonía o la ansiedad no aparecen como diagnóstico."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿En qué parte del informe aparece que el paciente fuma?",
+            "options": [
+              "en los antecedentes",
+              "en el diagnóstico",
+              "en el tratamiento al alta",
+              "en la evolución"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los hábitos y enfermedades previas del paciente van en los antecedentes: «hipertensión y tabaquismo activo». Por eso el abandono del tabaco reaparece al final, en las recomendaciones."
+          },
         ]
       ),
     ],
@@ -863,29 +1252,62 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Recuerda la regla: atenuar sin mentir",
+        "Dar la noticia: preparar, anunciar, atenuar",
         [
           "Recuerda la regla: una mala noticia se da con tacto, pero sin ocultar el dato, y cada paso tiene su recurso gramatical. Preparar con el condicional de cortesía: «Me gustaría hablar con usted de los resultados». Anunciar con «me temo que» o «lamento decirle que», que van en indicativo porque el hecho es cierto. Atenuar negando la expectativa en vez de afirmar lo malo: «no son todo lo buenos que esperábamos». Elegir el eufemismo neutro: «ha fallecido», «pronóstico reservado».",
+        ],
+        [
+          ["Los resultados no son todo lo buenos que esperábamos.","The results are not as good as we had hoped."],
+          ["Lamento decirle que la operación no ha sido posible.","I regret to tell you that the operation was not possible. (anuncio: indicativo)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase es más compasiva?",
+            "options": [
+              "Me temo que los resultados no son los que esperábamos.",
+              "Tiene usted cáncer, siguiente.",
+              "Esto pinta fatal.",
+              "No hay nada que hacer."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Me temo que…» atenúa la mala noticia con empatía. «Tiene usted cáncer, siguiente» es brutal, «Esto pinta fatal» es coloquial y «No hay nada que hacer» quita toda esperanza."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Lamento decirle que la biopsia ___ un tumor maligno.»",
+            "options": [
+              "ha confirmado",
+              "haya confirmado",
+              "confirme",
+              "confirmara"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Lamento decirle que» introduce un hecho que el médico comunica como cierto, así que va en indicativo: «ha confirmado». El subjuntivo aparece tras valoraciones y deseos («es normal que», «quiero que»), no tras el verbo que comunica la noticia."
+          },
+        ]
+      ),
+      sec(
+        "Acompañar: el subjuntivo de la valoración",
+        [
           "Acompañar es cosa del subjuntivo, que aquí no indica duda sino valoración, deseo o finalidad: «Es normal que se sienta así», «¿Quiere que se lo explique?», «Haremos todo lo posible para que esté cómodo». Y explicar sin tecnicismos, abriendo espacio a preguntas.",
         ],
         [
-          ["Es normal que tenga miedo.", "It's normal for you to be afraid."],
-          ["Los resultados no son todo lo buenos que esperábamos.", "The results are not as good as we had hoped."],
-          ["Lamento decirle que la operación no ha sido posible.", "I regret to tell you that the operation was not possible. (anuncio: indicativo)"],
+          ["Es normal que tenga miedo.","It's normal for you to be afraid."],
         ],
         [
-          mc(
-            "¿Qué frase es más compasiva?",
-            ["Me temo que los resultados no son los que esperábamos.", "Tiene usted cáncer, siguiente.", "Esto pinta fatal.", "No hay nada que hacer."],
-            0,
-            "«Me temo que…» atenúa la mala noticia con empatía. «Tiene usted cáncer, siguiente» es brutal, «Esto pinta fatal» es coloquial y «No hay nada que hacer» quita toda esperanza."
-          ),
-          mc(
-            "«Lamento decirle que la biopsia ___ un tumor maligno.»",
-            ["ha confirmado", "haya confirmado", "confirme", "confirmara"],
-            0,
-            "«Lamento decirle que» introduce un hecho que el médico comunica como cierto, así que va en indicativo: «ha confirmado». El subjuntivo aparece tras valoraciones y deseos («es normal que», «quiero que»), no tras el verbo que comunica la noticia."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "«Es comprensible que usted ___ preocupada.»",
+            "options": [
+              "esté",
+              "está",
+              "estará",
+              "estuvo"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Es comprensible que» es una valoración, y la valoración lleva subjuntivo aunque el hecho sea cierto: «esté». «Está», «estará» y «estuvo» son indicativos, propios de «me temo que» o «lamento decirle que», que anuncian un hecho."
+          },
         ]
       ),
     ],
@@ -917,35 +1339,62 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "La idea: la imagen del modismo sigue una lógica",
+        "La imagen del modismo sigue una lógica",
         [
           "La regla: los modismos se agrupan por familias de imágenes, y dentro de cada familia la imagen tiene una lógica que te permite adivinar el sentido. Lo que no vale nada (un pimiento, un comino) mide lo poco que algo importa: importar un pimiento. Una parte del cuerpo entregada como pago mide lo caro que es algo: costar un riñón, un ojo de la cara. Lo que ya está hecho o comido no cuesta esfuerzo: ser pan comido. Y el animal que se comporta de forma imprevisible sirve para la locura: estar como una cabra.",
+        ],
+        [
+          ["Ese examen fue pan comido.","That exam was a piece of cake."],
+          ["Me importa un comino lo que digan.","I couldn't care less what they say. (lo que no vale nada → no importar)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Nunca has oído «me importa un rábano». Por la lógica de su imagen, ¿qué significa?",
+            "options": [
+              "no me importa nada",
+              "me encanta",
+              "me preocupa mucho",
+              "me cuesta muy caro"
+            ],
+            "correctIndex": 0,
+            "explanation": "El rábano, como el pimiento o el comino, es algo de muy poco valor: medir la importancia de algo con él significa que no importa nada. Es la misma familia que «importar un pimiento»."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué otro modismo significa, como «ser pan comido», que algo es muy fácil?",
+            "options": [
+              "ser coser y cantar",
+              "importar un pimiento",
+              "dar calabazas",
+              "estar como una cabra"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Ser coser y cantar» presenta la tarea como algo que se hace sin esfuerzo, casi jugando: significa ser muy fácil. «Importar un pimiento» es no importar nada y «dar calabazas», rechazar."
+          },
+        ]
+      ),
+      sec(
+        "Más ejemplos de la red: cuerpo, comida, animales",
+        [
           "Otros ejemplos de la red. Cuerpo: tomar el pelo (burlarse), no tener pelos en la lengua (hablar sin rodeos), echar una mano (ayudar). Comida: dar calabazas (rechazar a un pretendiente). Animales: buscarle tres pies al gato (complicar las cosas). Ojo: las palabras de cada modismo son fijas, y muchos son coloquiales y propios de España.",
         ],
         [
-          ["Ese examen fue pan comido.", "That exam was a piece of cake."],
-          ["No tiene pelos en la lengua.", "She doesn't mince words."],
-          ["Me importa un comino lo que digan.", "I couldn't care less what they say. (lo que no vale nada → no importar)"],
+          ["No tiene pelos en la lengua.","She doesn't mince words."],
         ],
         [
-          mc(
-            "«Me estás tomando el pelo» significa…",
-            ["te estás burlando de mí", "me estás cortando el pelo", "me estás ayudando", "me estás engañando con dinero"],
-            0,
-            "«Tomar el pelo» significa burlarse de alguien. No tiene nada que ver con cortar el pelo, no es ayudar y no implica un engaño con dinero."
-          ),
-          mc(
-            "Nunca has oído «me importa un rábano». Por la lógica de su imagen, ¿qué significa?",
-            ["no me importa nada", "me encanta", "me preocupa mucho", "me cuesta muy caro"],
-            0,
-            "El rábano, como el pimiento o el comino, es algo de muy poco valor: medir la importancia de algo con él significa que no importa nada. Es la misma familia que «importar un pimiento»."
-          ),
-          mc(
-            "¿Qué otro modismo significa, como «ser pan comido», que algo es muy fácil?",
-            ["ser coser y cantar", "importar un pimiento", "dar calabazas", "estar como una cabra"],
-            0,
-            "«Ser coser y cantar» presenta la tarea como algo que se hace sin esfuerzo, casi jugando: significa ser muy fácil. «Importar un pimiento» es no importar nada y «dar calabazas», rechazar."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "«Me estás tomando el pelo» significa…",
+            "options": [
+              "te estás burlando de mí",
+              "me estás cortando el pelo",
+              "me estás ayudando",
+              "me estás engañando con dinero"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Tomar el pelo» significa burlarse de alguien. No tiene nada que ver con cortar el pelo, no es ayudar y no implica un engaño con dinero."
+          },
         ]
       ),
     ],
@@ -981,28 +1430,61 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "La idea: cada modismo tiene su escalón de registro",
+        "Cada modismo tiene su escalón de registro",
         [
           "La regla: antes de usar un modismo, pregúntate en qué escalón de registro está, porque eso decide dónde cabe. Coloquiales neutros: valen casi siempre entre conocidos, incluso con un compañero de trabajo (echar una mano, ser pan comido). Coloquiales marcados: solo con confianza, porque suenan bruscos o vulgares fuera de ella (mandar a freír espárragos, ponerse las botas). Aptos para el registro culto: funcionan en un informe, una reunión o la prensa (poner los puntos sobre las íes, llevar la voz cantante, a grandes rasgos, poner en tela de juicio).",
+        ],
+        [
+          ["Conviene poner los puntos sobre las íes antes de firmar.","We should make everything perfectly clear before signing."],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué modismo encaja en un informe formal?",
+            "options": [
+              "poner en tela de juicio",
+              "mandar a freír espárragos",
+              "ponerse las botas",
+              "estar como una cabra"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Poner en tela de juicio» (cuestionar) es un modismo culto, apto para un informe. «Mandar a freír espárragos», «ponerse las botas» y «estar como una cabra» son coloquiales."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Nota de prensa del ayuntamiento: «El pleno ___ ayer al nuevo plan de movilidad». ¿Qué modismo encaja en ese registro?",
+            "options": [
+              "dio luz verde",
+              "se puso las botas con",
+              "mandó a freír espárragos",
+              "le tomó el pelo"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Dar luz verde» (autorizar) es un modismo apto para la prensa y el registro formal. «Ponerse las botas» y «mandar a freír espárragos» son coloquiales marcados, y «tomar el pelo» es coloquial y significa burlarse."
+          },
+        ]
+      ),
+      sec(
+        "Un error de pertinencia, y la forma es fija",
+        [
           "Por qué importa: un modismo en el escalón equivocado no es un error de significado, sino de pertinencia, y dice mucho de quien lo usa. Y la forma es fija en todos los escalones: se pone en tela de juicio, se lleva la voz cantante, se ponen los puntos sobre las íes.",
         ],
         [
-          ["Conviene poner los puntos sobre las íes antes de firmar.", "We should make everything perfectly clear before signing."],
-          ["Su honestidad nunca se ha puesto en tela de juicio.", "Her honesty has never been called into question."],
+          ["Su honestidad nunca se ha puesto en tela de juicio.","Her honesty has never been called into question."],
         ],
         [
-          mc(
-            "¿Qué modismo encaja en un informe formal?",
-            ["poner en tela de juicio", "mandar a freír espárragos", "ponerse las botas", "estar como una cabra"],
-            0,
-            "«Poner en tela de juicio» (cuestionar) es un modismo culto, apto para un informe. «Mandar a freír espárragos», «ponerse las botas» y «estar como una cabra» son coloquiales."
-          ),
-          mc(
-            "Nota de prensa del ayuntamiento: «El pleno ___ ayer al nuevo plan de movilidad». ¿Qué modismo encaja en ese registro?",
-            ["dio luz verde", "se puso las botas con", "mandó a freír espárragos", "le tomó el pelo"],
-            0,
-            "«Dar luz verde» (autorizar) es un modismo apto para la prensa y el registro formal. «Ponerse las botas» y «mandar a freír espárragos» son coloquiales marcados, y «tomar el pelo» es coloquial y significa burlarse."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué forma del modismo es correcta?",
+            "options": [
+              "La directora llevó la voz cantante en la reunión.",
+              "La directora tuvo la voz cantante en la reunión.",
+              "La directora llevó la voz cantora en la reunión.",
+              "La directora llevó la voz que canta en la reunión."
+            ],
+            "correctIndex": 0,
+            "explanation": "La forma del modismo es fija en todos los escalones: «llevar la voz cantante». Cambiar el verbo («tener») o la palabra («cantora», «que canta») rompe la expresión, aunque el sentido literal parezca parecido."
+          },
         ]
       ),
     ],
@@ -1034,28 +1516,49 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "La idea: calco, cruce o coincidencia legítima",
+        "Calco, cruce o coincidencia legítima",
         [
           "La regla: cuando un modismo te suena raro, pregúntate cuál de estos tres casos es. Calco: la imagen inglesa traducida palabra por palabra, que en español no existe (✗ llover gatos y perros → ✓ llover a cántaros). Cruce: dos modismos españoles mezclados en uno (✗ coger el toro por las astas y los cuernos → ✓ coger el toro por los cuernos, o por las astas). Coincidencia legítima: la imagen es la misma en las dos lenguas y es correcta (romper el hielo, tirar la toalla).",
+        ],
+        [
+          ["Anoche llovió a cántaros en toda la costa.","Last night it poured all along the coast. (calco corregido)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Forma correcta:",
+            "options": [
+              "matar dos pájaros de un tiro",
+              "matar dos pájaros con una piedra",
+              "matar dos pájaros en un tiro",
+              "matar pájaros de dos tiros"
+            ],
+            "correctIndex": 0,
+            "explanation": "La forma fija es «matar dos pájaros de un tiro». «Con una piedra» es un calco del inglés, «en un tiro» cambia la preposición y «pájaros de dos tiros» desordena la expresión."
+          },
+        ]
+      ),
+      sec(
+        "No todo parecido con el inglés es un error",
+        [
           "Por qué importa: no todo parecido con el inglés es un error, así que no basta con desconfiar de lo que se parece. Hay que comprobar si el bloque existe tal cual en español; y si existe, no se toca ni una pieza (✗ matar dos pájaros con una piedra → ✓ de un tiro).",
         ],
         [
-          ["Anoche llovió a cántaros en toda la costa.", "Last night it poured all along the coast. (calco corregido)"],
-          ["Mataremos dos pájaros de un tiro.", "We'll kill two birds with one stone."],
+          ["Mataremos dos pájaros de un tiro.","We'll kill two birds with one stone."],
         ],
         [
-          mc(
-            "Forma correcta:",
-            ["matar dos pájaros de un tiro", "matar dos pájaros con una piedra", "matar dos pájaros en un tiro", "matar pájaros de dos tiros"],
-            0,
-            "La forma fija es «matar dos pájaros de un tiro». «Con una piedra» es un calco del inglés, «en un tiro» cambia la preposición y «pájaros de dos tiros» desordena la expresión."
-          ),
-          mc(
-            "Un compañero escribe: «La dirección ha dado luz verde al proyecto». ¿Hay que corregirlo?",
-            ["No: «dar luz verde» existe en español y es correcto.", "Sí: es un calco y hay que decir «dar luz roja».", "Sí: es un cruce y hay que decir «dar el visto verde».", "Sí: en español solo puede decirse «autorizar»."],
-            0,
-            "Es una coincidencia legítima, como «romper el hielo»: «dar luz verde» (autorizar) existe en español y se usa incluso en la prensa. Parecerse al inglés no lo convierte en calco; «el visto verde» sí sería un cruce con «dar el visto bueno»."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "Un compañero escribe: «La dirección ha dado luz verde al proyecto». ¿Hay que corregirlo?",
+            "options": [
+              "No: «dar luz verde» existe en español y es correcto.",
+              "Sí: es un calco y hay que decir «dar luz roja».",
+              "Sí: es un cruce y hay que decir «dar el visto verde».",
+              "Sí: en español solo puede decirse «autorizar»."
+            ],
+            "correctIndex": 0,
+            "explanation": "Es una coincidencia legítima, como «romper el hielo»: «dar luz verde» (autorizar) existe en español y se usa incluso en la prensa. Parecerse al inglés no lo convierte en calco; «el visto verde» sí sería un cruce con «dar el visto bueno»."
+          },
         ]
       ),
     ],
@@ -1087,28 +1590,61 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "La idea: en la charla, cada modismo cumple una función",
+        "En la charla, cada modismo cumple una función",
         [
           "La regla: en una conversación real los modismos no se eligen por su significado suelto, sino por lo que hacen en tu turno. Para disculparte de un olvido: se me fue el santo al cielo. Para quejarte de alguien: me tienes hasta la coronilla (tú me tienes harto); si hablas solo de ti, estoy hasta la coronilla. Para quitar hierro: no es para tanto. Para avisar de una regañina: te leo la cartilla. Así, ante cada frase del otro, pregúntate qué necesitas hacer: disculparte, quejarte, calmar o advertir.",
+        ],
+        [
+          ["A mi madre se le fue el santo al cielo y no vino a recogerme.","It completely slipped my mother's mind and she didn't come to pick me up. (olvido: el pronombre marca a quién se le olvida)"],
+          ["Me tienes hasta la coronilla.","I'm fed up with you."],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "«Leerle la cartilla a alguien» significa…",
+            "options": [
+              "regañarle seriamente",
+              "enseñarle a leer",
+              "leerle un cuento",
+              "darle un regalo"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Leerle la cartilla a alguien» es regañarle seriamente. No tiene que ver con enseñar a leer, con leer un cuento ni con hacer un regalo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Tu compañera de piso te dice: «¡Otra vez has dejado los platos sin fregar!». Reconoces que se te olvidó. ¿Qué respondes?",
+            "options": [
+              "Tienes razón, perdona: se me fue el santo al cielo.",
+              "Pues me tienes hasta la coronilla.",
+              "Como sigas así, te leo la cartilla.",
+              "Estoy como pez en el agua."
+            ],
+            "correctIndex": 0,
+            "explanation": "Tu turno pide una disculpa por un olvido, y esa es la función de «se me fue el santo al cielo». «Me tienes hasta la coronilla» es una queja y «te leo la cartilla» una advertencia, las dos impropias de quien tiene la culpa; «estar como pez en el agua» es sentirse cómodo."
+          },
+        ]
+      ),
+      sec(
+        "Escucha la conversación",
+        [
           "Escucha la conversación: «—Oye, ¿has pagado la luz? —Uy, se me fue el santo al cielo. —Siempre igual, ¡me tienes hasta la coronilla! —Perdona, mañana sin falta. No te pongas así, que no es para tanto. —Vale, pero a la próxima te leo la cartilla.»",
         ],
         [
-          ["A mi madre se le fue el santo al cielo y no vino a recogerme.", "It completely slipped my mother's mind and she didn't come to pick me up. (olvido: el pronombre marca a quién se le olvida)"],
-          ["Me tienes hasta la coronilla.", "I'm fed up with you."],
         ],
         [
-          mc(
-            "«Leerle la cartilla a alguien» significa…",
-            ["regañarle seriamente", "enseñarle a leer", "leerle un cuento", "darle un regalo"],
-            0,
-            "«Leerle la cartilla a alguien» es regañarle seriamente. No tiene que ver con enseñar a leer, con leer un cuento ni con hacer un regalo."
-          ),
-          mc(
-            "Tu compañera de piso te dice: «¡Otra vez has dejado los platos sin fregar!». Reconoces que se te olvidó. ¿Qué respondes?",
-            ["Tienes razón, perdona: se me fue el santo al cielo.", "Pues me tienes hasta la coronilla.", "Como sigas así, te leo la cartilla.", "Estoy como pez en el agua."],
-            0,
-            "Tu turno pide una disculpa por un olvido, y esa es la función de «se me fue el santo al cielo». «Me tienes hasta la coronilla» es una queja y «te leo la cartilla» una advertencia, las dos impropias de quien tiene la culpa; «estar como pez en el agua» es sentirse cómodo."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "En la conversación, ¿para qué dice «No te pongas así, que no es para tanto»?",
+            "options": [
+              "para quitar hierro a la queja de la otra persona",
+              "para disculparse por el olvido",
+              "para quejarse de su compañero",
+              "para avisar de una regañina"
+            ],
+            "correctIndex": 0,
+            "explanation": "«No es para tanto» sirve para calmar, para quitar hierro. La disculpa por el olvido es «se me fue el santo al cielo», la queja es «me tienes hasta la coronilla» y el aviso de regañina es «te leo la cartilla»."
+          },
         ]
       ),
     ],
@@ -1148,22 +1684,49 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Estructura bimembre",
+        "Dos mitades que se responden",
         [
           "Recuerda la regla: el refrán típico tiene dos mitades que se responden por rima (ladrador / mordedor), por paralelismo (quien… / quien…) o por oposición (mucho / poco). Por eso la primera mitad «pide» la segunda: si conoces el molde, puedes reconstruir el final aunque no lo hayas oído nunca.",
+        ],
+        [
+          ["Más vale pájaro en mano que ciento volando.","A bird in the hand is worth two in the bush."],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el molde de dos mitades paralelas: «Ojo por ojo…»",
+            "options": [
+              "…diente por diente.",
+              "…mano a mano.",
+              "…cara a cara.",
+              "…poco a poco."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Ojo por ojo, diente por diente» repite exactamente el molde de la primera mitad (sustantivo + por + el mismo sustantivo) con otra parte del cuerpo: es la ley del talión, devolver el daño en la misma medida. «Mano a mano» y «cara a cara» existen, pero son locuciones con «a», no la segunda mitad de este refrán."
+          },
+        ]
+      ),
+      sec(
+        "En la conversación basta media frase",
+        [
           "Ejemplos del molde: «A quien madruga, / Dios le ayuda». «Perro ladrador, / poco mordedor». «Dime con quién andas / y te diré quién eres». En la conversación, a menudo basta con decir la primera mitad («Ya sabes: perro ladrador…»), y el oyente completa el resto. El refrán no se adapta a quien habla: si hablas de usted, cambia tu frase, no el refrán.",
         ],
         [
-          ["Más vale pájaro en mano que ciento volando.", "A bird in the hand is worth two in the bush."],
-          ["No por mucho madrugar amanece más temprano.", "Getting up early won't make the sun rise sooner."],
+          ["No por mucho madrugar amanece más temprano.","Getting up early won't make the sun rise sooner."],
         ],
         [
-          mc(
-            "Aplica el molde de dos mitades paralelas: «Ojo por ojo…»",
-            ["…diente por diente.", "…mano a mano.", "…cara a cara.", "…poco a poco."],
-            0,
-            "«Ojo por ojo, diente por diente» repite exactamente el molde de la primera mitad (sustantivo + por + el mismo sustantivo) con otra parte del cuerpo: es la ley del talión, devolver el daño en la misma medida. «Mano a mano» y «cara a cara» existen, pero son locuciones con «a», no la segunda mitad de este refrán."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "Un amigo te dice: «Ya sabes: a quien madruga…», y se calla. ¿Qué quiere decirte?",
+            "options": [
+              "que completes «…Dios le ayuda»: conviene ponerse pronto a la tarea",
+              "que mañana piensa madrugar",
+              "que no ha terminado la frase porque se ha distraído",
+              "que completes «…poco mordedor»"
+            ],
+            "correctIndex": 0,
+            "explanation": "A menudo basta con la primera mitad del refrán, y el oyente completa el resto: «a quien madruga, Dios le ayuda», que anima a empezar pronto. «Poco mordedor» es la segunda mitad de otro refrán («perro ladrador, poco mordedor»)."
+          },
         ]
       ),
     ],
@@ -1357,21 +1920,48 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Dos lecturas a la vez",
+        "Busca el punto de cruce",
         [
           "Recuerda la regla: el doble sentido necesita un punto de cruce, una palabra o un sonido que sirva para dos lecturas a la vez. Para analizar un chiste, busca ese punto y pregúntate de qué tipo es: ¿dos palabras que suenan parecido?, ¿una palabra con dos significados?, ¿dos palabras que suenan igual?",
+        ],
+        [
+          ["—Papá, ¿qué se siente tener un hijo tan guapo? —No sé, pregúntale a tu abuelo.","—Dad, how does it feel to have such a handsome son? —I don't know, ask your grandfather."],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Chiste: «—¿Qué hace una abeja en el gimnasio? —¡Zumba!». ¿Dónde está el punto de cruce?",
+            "options": [
+              "en «zumba»: el ruido de la abeja y la clase de baile",
+              "en «abeja»",
+              "en «gimnasio»",
+              "en «hace»"
+            ],
+            "correctIndex": 0,
+            "explanation": "El punto de cruce es la palabra que sirve para dos lecturas a la vez: «zumba» es lo que hace una abeja (zumbar) y el nombre de una clase de gimnasio. «Abeja» y «gimnasio» solo preparan las dos lecturas, y «hace» no tiene doble sentido."
+          },
+        ]
+      ),
+      sec(
+        "Tipos de cruce: paronomasia, polisemia, homofonía",
+        [
           "Paronomasia: parecido fónico entre dos palabras («—¿Qué le dice una iguana a su hermana gemela? —Somos iguanitas» → iguanas + igualitas). Polisemia: una palabra con dos sentidos («Tengo muchos problemas»: ejercicios de matemáticas y preocupaciones). Homonimia y homofonía: «vaca / baca», «hola / ola». Dilogía en titulares: «El alcalde se queda sin banco» (entidad financiera / asiento). La gracia nace de activar ambas lecturas; si sustituyes la palabra de cruce por un sinónimo, el chiste desaparece.",
         ],
         [
-          ["—Papá, ¿qué se siente tener un hijo tan guapo? —No sé, pregúntale a tu abuelo.", "—Dad, how does it feel to have such a handsome son? —I don't know, ask your grandfather."],
         ],
         [
-          mc(
-            "Chiste nuevo: «—¿Qué le dijo un techo a otro? —Techo de menos.» ¿Qué dos cosas suenan a la vez en «techo»?",
-            ["«techo» y «te echo» (de echar de menos)", "«techo» y «tejado»", "«techo» y «hecho»", "«techo» y «menos»"],
-            0,
-            "Es una paronomasia, como «iguanitas»: «techo» y «te echo» se pronuncian casi igual, y «te echo de menos» (te extraño) completa la frase. «Tejado» es un sinónimo, sin juego sonoro, y «hecho» no encaja con «de menos»."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "Chiste nuevo: «—¿Qué le dijo un techo a otro? —Techo de menos.» ¿Qué dos cosas suenan a la vez en «techo»?",
+            "options": [
+              "«techo» y «te echo» (de echar de menos)",
+              "«techo» y «tejado»",
+              "«techo» y «hecho»",
+              "«techo» y «menos»"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es una paronomasia, como «iguanitas»: «techo» y «te echo» se pronuncian casi igual, y «te echo de menos» (te extraño) completa la frase. «Tejado» es un sinónimo, sin juego sonoro, y «hecho» no encaja con «de menos»."
+          },
         ]
       ),
     ],
@@ -1465,21 +2055,48 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Estilos con nombre propio",
+        "Dos rasgos por estilo, y el molde -ear(se) → -eo",
         [
           "Recuerda la regla: cada estilo se define por dos rasgos, si dice lo contrario o algo ambiguo (ironía) y si lo hace con cara seria o con risa abierta. Y fíjate en cómo se forman estas palabras: muchos sustantivos de burla salen de un verbo en -ear(se) cambiando la terminación por -eo: chotearse → choteo. El mismo molde da cachondearse → cachondeo o cotillear → cotilleo, así que puedes deducir sustantivos que no has visto.",
+        ],
+        [
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el molde -ear(se) → -eo: ¿qué sustantivo sale de «pitorrearse» (burlarse de alguien)?",
+            "options": [
+              "pitorreo",
+              "pitorrada",
+              "pitorreamiento",
+              "pitorrería"
+            ],
+            "correctIndex": 0,
+            "explanation": "Como chotearse → choteo y cachondearse → cachondeo, pitorrearse da «pitorreo» («estar de pitorreo», «tomarse algo a pitorreo»). Las otras formas siguen sufijos reales del español (-ada, -miento, -ería), pero no son las que usa esta palabra."
+          },
+        ]
+      ),
+      sec(
+        "Estilos con nombre propio",
+        [
           "Retranca (Galicia): ironía socarrona y ambigua, nunca se sabe si hablan en serio. Choteo (Cuba): burla desenfadada de todo, incluso de lo solemne. Albur (México): juego de doble sentido, a menudo picante, como duelo verbal (de ahí el verbo alburear). Humor seco o socarrón (Castilla): serio en apariencia. Tomadura de pelo (de tomar el pelo): broma para engañar a alguien.",
         ],
         [
-          ["—¿Va a llover? —Depende. (retranca)", "—Is it going to rain? —It depends."],
+          ["—¿Va a llover? —Depende. (retranca)","—Is it going to rain? —It depends."],
         ],
         [
-          mc(
-            "Aplica el molde -ear(se) → -eo: ¿qué sustantivo sale de «pitorrearse» (burlarse de alguien)?",
-            ["pitorreo", "pitorrada", "pitorreamiento", "pitorrería"],
-            0,
-            "Como chotearse → choteo y cachondearse → cachondeo, pitorrearse da «pitorreo» («estar de pitorreo», «tomarse algo a pitorreo»). Las otras formas siguen sufijos reales del español (-ada, -miento, -ería), pero no son las que usa esta palabra."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "En Lugo preguntas: «¿Te gustó la cena?», y te responden: «Hombre, comer, comimos». ¿Qué estilo es?",
+            "options": [
+              "la retranca",
+              "el albur",
+              "el choteo",
+              "la tomadura de pelo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es una respuesta ambigua y socarrona, con cara seria: no se sabe si la cena gustó o no. Eso es la retranca gallega. El albur es un duelo de dobles sentidos, el choteo una burla abierta de todo y la tomadura de pelo una broma para engañar."
+          },
         ]
       ),
     ],
@@ -10316,29 +10933,62 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Precisión léxica",
+        "Verbos comodín: qué se hace exactamente con el sustantivo",
         [
           "Recuerda la regla: hacer, poner, tener, decir y dar son verbos comodín: sirven para todo porque no dicen casi nada, y el sentido lo pone el sustantivo. Para sustituirlos, pregúntate qué se hace exactamente con ese sustantivo: un informe se escribe (redactar, elaborar); una pregunta se expresa (formular, plantear); un ejemplo se trae a colación (citar, aportar); una enfermedad se sufre (padecer); una crisis se vive por dentro (atravesar); un problema se encara (afrontar); el éxito se obtiene (cosechar, lograr); una opinión se expresa (manifestar).",
+        ],
+        [
+          ["Elaboró un informe detallado.","She drew up a detailed report."],
+          ["El ministro manifestó su preocupación.","The minister expressed his concern. (decir una opinión o un sentimiento → manifestar)"],
+          ["La región atraviesa una sequía histórica.","The region is going through a historic drought. (tener una crisis → atravesar)"],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Sustituye: «hacer una pregunta»",
+            "options": [
+              "formular una pregunta",
+              "dar una pregunta",
+              "poner una pregunta",
+              "tener una pregunta hecha"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Formular» o «plantear» una pregunta es más preciso que «hacer». «Poner una pregunta» es un calco o coloquialismo, «dar una pregunta» no es una colocación del español y «tener una pregunta hecha» no significa preguntar."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Dar un discurso» no aparece en la lista. ¿Qué verbo preciso le corresponde?",
+            "options": [
+              "pronunciar un discurso",
+              "padecer un discurso",
+              "cosechar un discurso",
+              "atravesar un discurso"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un discurso se dice en voz alta ante un público: se pronuncia. «Padecer» va con enfermedades o males, «cosechar» con éxitos o resultados y «atravesar» con etapas o crisis."
+          },
+        ]
+      ),
+      sec(
+        "Cuidado con los calcos del inglés",
+        [
           "Cuidado con los calcos del inglés: «poner una pregunta» (to put a question) y «tener éxito» funcionan, pero el primero no es español y el segundo es plano en un texto cuidado.",
         ],
         [
-          ["Elaboró un informe detallado.", "She drew up a detailed report."],
-          ["El ministro manifestó su preocupación.", "The minister expressed his concern. (decir una opinión o un sentimiento → manifestar)"],
-          ["La región atraviesa una sequía histórica.", "The region is going through a historic drought. (tener una crisis → atravesar)"],
         ],
         [
-          mc(
-            "Sustituye: «hacer una pregunta»",
-            ["formular una pregunta", "dar una pregunta", "poner una pregunta", "tener una pregunta hecha"],
-            0,
-            "«Formular» o «plantear» una pregunta es más preciso que «hacer». «Poner una pregunta» es un calco o coloquialismo, «dar una pregunta» no es una colocación del español y «tener una pregunta hecha» no significa preguntar."
-          ),
-          mc(
-            "«Dar un discurso» no aparece en la lista. ¿Qué verbo preciso le corresponde?",
-            ["pronunciar un discurso", "padecer un discurso", "cosechar un discurso", "atravesar un discurso"],
-            0,
-            "Un discurso se dice en voz alta ante un público: se pronuncia. «Padecer» va con enfermedades o males, «cosechar» con éxitos o resultados y «atravesar» con etapas o crisis."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "En un informe cuidado, ¿qué versión mejora «La campaña tuvo mucho éxito»?",
+            "options": [
+              "La campaña cosechó un gran éxito.",
+              "La campaña puso un gran éxito.",
+              "La campaña dio un gran éxito.",
+              "La campaña hizo un gran éxito."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Tener éxito» es correcto pero plano; el éxito se cosecha, y esa colocación es la precisa en un texto cuidado. «Poner», «dar» y «hacer» un éxito no son colocaciones del español: cambian un comodín por otro."
+          },
         ]
       ),
     ],
@@ -10374,28 +11024,61 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "La idea: el sustantivo elige su verbo",
+        "En la colocación manda el sustantivo",
         [
           "La regla: una colocación es una pareja de palabras que el uso ha fijado, y en ella manda el sustantivo: él elige el verbo, y no al revés. Un error o un delito se cometen; un papel o un cargo se desempeñan; una conversación o una relación se entablan; el matrimonio, las deudas o una enfermedad se contraen; el sueño se concilia; una orden se acata; una polémica se zanja; esperanzas o dudas se albergan; el interés o la polémica se suscitan.",
+        ],
+        [
+          ["No conseguía conciliar el sueño.","He couldn't get to sleep."],
+          ["La propuesta suscitó una gran polémica.","The proposal sparked great controversy."],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "«___ un papel fundamental en el proceso.»",
+            "options": [
+              "Desempeñó",
+              "Hizo",
+              "Cometió",
+              "Contrajo"
+            ],
+            "correctIndex": 0,
+            "explanation": "La colocación es «desempeñar un papel». «Hacer un papel» se dice de actores, «cometer» va con errores o delitos y «contraer» con deudas o enfermedades."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "En los Juegos, la atleta ___ el récord mundial de los 400 metros.",
+            "options": [
+              "batió",
+              "cometió",
+              "contrajo",
+              "desempeñó"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un récord se bate: es la colocación fija de «récord». «Cometer» va con errores o delitos, «contraer» con deudas, matrimonio o enfermedades, y «desempeñar» con papeles o cargos."
+          },
+        ]
+      ),
+      sec(
+        "El verbo genérico y el calco delatan",
+        [
           "Por qué importa: el verbo genérico (hacer un error, tener dudas, coger una enfermedad) a veces se entiende, pero suena extranjero o coloquial, y los calcos del inglés (jugar un papel, por «play a role») delatan la traducción. Por eso, al aprender un sustantivo culto, apréndelo con su verbo.",
         ],
         [
-          ["No conseguía conciliar el sueño.", "He couldn't get to sleep."],
-          ["La propuesta suscitó una gran polémica.", "The proposal sparked great controversy."],
         ],
         [
-          mc(
-            "«___ un papel fundamental en el proceso.»",
-            ["Desempeñó", "Hizo", "Cometió", "Contrajo"],
-            0,
-            "La colocación es «desempeñar un papel». «Hacer un papel» se dice de actores, «cometer» va con errores o delitos y «contraer» con deudas o enfermedades."
-          ),
-          mc(
-            "En los Juegos, la atleta ___ el récord mundial de los 400 metros.",
-            ["batió", "cometió", "contrajo", "desempeñó"],
-            0,
-            "Un récord se bate: es la colocación fija de «récord». «Cometer» va con errores o delitos, «contraer» con deudas, matrimonio o enfermedades, y «desempeñar» con papeles o cargos."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "Un traductor escribe: «La crisis jugó un papel clave en las elecciones». ¿Qué cambiarías?",
+            "options": [
+              "«jugó» por «desempeñó»",
+              "«clave» por «fundamental»",
+              "«crisis» por «crisis económica»",
+              "Nada: es la colocación española."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Jugar un papel» es un calco de «play a role» que delata la traducción; en español un papel se desempeña. «Clave» y «crisis» están bien: el problema es el verbo, que elige el sustantivo «papel»."
+          },
         ]
       ),
     ],
@@ -10431,22 +11114,49 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Derivación",
+        "Cada sufijo se pega a un tipo de base",
         [
           "Recuerda la regla: cada sufijo se pega a un tipo de base y aporta un sentido. Los que forman nombres de acción (-ción, -miento, -anza) se unen a verbos; los que forman nombres de cualidad (-ez/-eza, -dad, -ura) se unen a adjetivos. Si sabes qué tipo de palabra tienes y qué quieres decir, puedes derivar palabras que nunca has estudiado.",
+        ],
+        [
+          ["La lucidez de su análisis sorprendió a todos.","The lucidity of her analysis surprised everyone."],
+          ["Actuó con gran determinación.","He acted with great determination."],
+        ],
+        [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un adjetivo que no aparece arriba: sustantivo de «estúpido».",
+            "options": [
+              "estupidez",
+              "estupididad",
+              "estupidamiento",
+              "estupidura"
+            ],
+            "correctIndex": 0,
+            "explanation": "Muchos adjetivos, sobre todo los terminados en -ido, forman la cualidad con -ez (lúcido → lucidez, tímido → timidez, y también sencillo → sencillez): estúpido → estupidez. «-miento» es para verbos (conocer → conocimiento), así que «estupidamiento» falla por partida doble."
+          },
+        ]
+      ),
+      sec(
+        "El repertorio de sufijos",
+        [
           "Sufijos de sustantivo: -ción (resolver → resolución), -miento (conocer → conocimiento), -dad (capaz → capacidad), -ez (sencillo → sencillez), -ura (hermoso → hermosura), -anza (confiar → confianza). Adjetivo: -ble (creíble, «que se puede»), -oso (peligroso, «lleno de»), -ivo (decisivo). Adverbio: femenino del adjetivo + -mente (rápida → rápidamente). Irregularidades: escribir → escritura; pedir → petición.",
         ],
         [
-          ["La lucidez de su análisis sorprendió a todos.", "The lucidity of her analysis surprised everyone."],
-          ["Actuó con gran determinación.", "He acted with great determination."],
         ],
         [
-          mc(
-            "Aplica la regla a un adjetivo que no aparece arriba: sustantivo de «estúpido».",
-            ["estupidez", "estupididad", "estupidamiento", "estupidura"],
-            0,
-            "Muchos adjetivos, sobre todo los terminados en -ido, forman la cualidad con -ez (lúcido → lucidez, tímido → timidez, y también sencillo → sencillez): estúpido → estupidez. «-miento» es para verbos (conocer → conocimiento), así que «estupidamiento» falla por partida doble."
-          ),
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué adjetivo significa «que se puede lavar»?",
+            "options": [
+              "lavable",
+              "lavoso",
+              "lavativo",
+              "lavamiento"
+            ],
+            "correctIndex": 0,
+            "explanation": "El sufijo -ble se une a un verbo y significa «que se puede»: lavar → lavable, como creer → creíble. -oso significa «lleno de», -ivo forma otros adjetivos (decisivo) y -miento forma sustantivos de acción, no adjetivos."
+          },
         ]
       ),
     ],

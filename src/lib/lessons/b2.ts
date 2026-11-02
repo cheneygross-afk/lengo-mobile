@@ -500,33 +500,17 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El patrón detrás de las palabras",
+        "heading": "Del verbo salen la acción y la persona",
         "body": [
-          "Del verbo salen el nombre de la acción y el de la persona: -ción / -sión para la acción o su resultado (narrar → la narración, exponer → la exposición) y -dor / -tor para quien la hace (narrar → el narrador, restaurar → el restaurador, editar → el editor). -ismo equivale al inglés -ism (el simbolismo) y -ista a -ist: el artista, vanguardista, con la misma forma para hombre y mujer.",
-          "¿Por qué sirve? Porque te deja entender y crear palabras que nunca has visto. Y te da el género: las palabras en -ción, -sión, -dad y -ura son femeninas (la exposición, la escultura). Ojo con -ma: las palabras cultas de origen griego son masculinas (el poema, el tema, el drama), pero la trama, la forma o la cama son femeninas. El crítico es la persona; la crítica, el juicio sobre una obra."
+          "Del verbo salen el nombre de la acción y el de la persona: -ción / -sión para la acción o su resultado (narrar → la narración, exponer → la exposición) y -dor / -tor para quien la hace (narrar → el narrador, restaurar → el restaurador, editar → el editor). -ismo equivale al inglés -ism (el simbolismo) y -ista a -ist: el artista, vanguardista, con la misma forma para hombre y mujer."
         ],
         "examples": [
           {
             "es": "narrar → la narración → el narrador",
             "en": "to narrate → narration → narrator (-ción: la acción; -dor: la persona)"
-          },
-          {
-            "es": "esculpir → la escultura → el escultor",
-            "en": "to sculpt → sculpture → sculptor (-ura: femenino)"
-          },
-          {
-            "es": "el poema, pero la trama",
-            "en": "the poem, but the plot (-ma griego: masculino; trama no lo es)"
           }
         ],
         "checkpoint": [
-          {
-            "type": "fill-blank",
-            "prompt": "Forma el nombre con -ción.",
-            "sentence": "interpretar → la ___",
-            "answer": "interpretación",
-            "explanation": "Verbo en -ar → nombre en -ación para la acción o su resultado: interpretar → la interpretación (femenino, como todas las palabras en -ción)."
-          },
           {
             "type": "multiple-choice",
             "question": "¿Cómo se llama la persona que ilustra libros?",
@@ -538,6 +522,46 @@ const B2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "-dor indica la persona que hace la acción: ilustrar → el ilustrador. «La ilustración» es el dibujo (la acción o su resultado), «ilustrismo» no existe y «ilustrado» es un adjetivo (culto, o con dibujos)."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el nombre con -ción.",
+            "sentence": "interpretar → la ___",
+            "answer": "interpretación",
+            "explanation": "Verbo en -ar → nombre en -ación para la acción o su resultado: interpretar → la interpretación (femenino, como todas las palabras en -ción)."
+          }
+        ]
+      },
+      {
+        "heading": "La terminación te da el género",
+        "body": [
+          "¿Por qué sirve? Porque te deja entender y crear palabras que nunca has visto. Y te da el género: las palabras en -ción, -sión, -dad y -ura son femeninas (la exposición, la escultura). Ojo con -ma: las palabras cultas de origen griego son masculinas (el poema, el tema, el drama), pero la trama, la forma o la cama son femeninas. El crítico es la persona; la crítica, el juicio sobre una obra."
+        ],
+        "examples": [
+          {
+            "es": "esculpir → la escultura → el escultor",
+            "en": "to sculpt → sculpture → sculptor (-ura: femenino)"
+          },
+          {
+            "es": "el poema, pero la trama",
+            "en": "the poem, but the plot (-ma griego: masculino; trama no lo es)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué palabras son femeninas? (Elige todas las correctas)",
+            "options": [
+              "publicación",
+              "esquema",
+              "pintura",
+              "lenguaje"
+            ],
+            "correctIndexes": [
+              0,
+              2
+            ],
+            "explanation": "-ción y -ura son terminaciones femeninas: la publicación, la pintura. «El esquema» es masculino aunque acaba en -a (palabra culta griega en -ma, como el poema), y las palabras en -aje son masculinas: el lenguaje."
           }
         ]
       },
@@ -609,21 +633,6 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 1,
         "explanation": "«La réplica» es una copia de una obra original. El boceto es un dibujo previo, el manuscrito es el texto original antes de publicarse y la reseña es una crítica."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Qué palabras son femeninas? (Elige todas las correctas)",
-        "options": [
-          "publicación",
-          "esquema",
-          "pintura",
-          "lenguaje"
-        ],
-        "correctIndexes": [
-          0,
-          2
-        ],
-        "explanation": "-ción y -ura son terminaciones femeninas: la publicación, la pintura. «El esquema» es masculino aunque acaba en -a (palabra culta griega en -ma, como el poema), y las palabras en -aje son masculinas: el lenguaje."
       },
       {
         "type": "fill-blank",
@@ -1187,10 +1196,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El patrón detrás de las palabras",
+        "heading": "Del verbo salen la acción y la persona",
         "body": [
-          "Muchas palabras políticas salen de un verbo con terminaciones fijas. -ción / -sión nombra la acción o su resultado: constituir → la constitución, abstenerse → la abstención, manifestarse → la manifestación. -ante / -ente nombra a la persona que lo hace: votar → el / la votante, manifestar → el / la manifestante, representar → el / la representante, presidir → el presidente (y la presidenta). -dad expresa una cualidad: igual → la igualdad.",
-          "¿Por qué sirve? Con el verbo puedes adivinar el sustantivo (y al revés) y su género: -ción, -sión y -dad son femeninas; -ante y -ente sirven para hombre y mujer, y solo cambia el artículo (el votante, la votante). Muchas son cognados del inglés: -ción = -tion (corruption → la corrupción), -dad = -ty (equality → la igualdad)."
+          "Muchas palabras políticas salen de un verbo con terminaciones fijas. -ción / -sión nombra la acción o su resultado: constituir → la constitución, abstenerse → la abstención, manifestarse → la manifestación. -ante / -ente nombra a la persona que lo hace: votar → el / la votante, manifestar → el / la manifestante, representar → el / la representante, presidir → el presidente (y la presidenta). -dad expresa una cualidad: igual → la igualdad."
         ],
         "examples": [
           {
@@ -1200,20 +1208,9 @@ const B2_BASE_LESSONS: Lesson[] = [
           {
             "es": "manifestarse → la manifestación → la manifestante",
             "en": "to demonstrate → demonstration → demonstrator (-ción: la acción)"
-          },
-          {
-            "es": "igual → la igualdad",
-            "en": "equal → equality (-dad: la cualidad, femenino)"
           }
         ],
         "checkpoint": [
-          {
-            "type": "fill-blank",
-            "prompt": "Forma la palabra de la persona.",
-            "sentence": "La persona que reside en un país es un ___. (residir)",
-            "answer": "residente",
-            "explanation": "-ente / -ante nombra a quien hace la acción: residir → el / la residente (como presidir → el presidente)."
-          },
           {
             "type": "multiple-choice",
             "question": "¿Qué sustantivo corresponde a «elegir»?",
@@ -1225,6 +1222,42 @@ const B2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La acción de elegir es la elección (-ción, femenino). «Eligimiento» y «elegidad» no existen, y «elegante» es un adjetivo (elegant), no el nombre de la acción."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Forma la palabra de la persona.",
+            "sentence": "La persona que reside en un país es un ___. (residir)",
+            "answer": "residente",
+            "explanation": "-ente / -ante nombra a quien hace la acción: residir → el / la residente (como presidir → el presidente)."
+          }
+        ]
+      },
+      {
+        "heading": "El género y los cognados del inglés",
+        "body": [
+          "¿Por qué sirve? Con el verbo puedes adivinar el sustantivo (y al revés) y su género: -ción, -sión y -dad son femeninas; -ante y -ente sirven para hombre y mujer, y solo cambia el artículo (el votante, la votante). Muchas son cognados del inglés: -ción = -tion (corruption → la corrupción), -dad = -ty (equality → la igualdad)."
+        ],
+        "examples": [
+          {
+            "es": "igual → la igualdad",
+            "en": "equal → equality (-dad: la cualidad, femenino)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué palabras son femeninas? (Elige todas las correctas)",
+            "options": [
+              "votación",
+              "escaño",
+              "libertad",
+              "sistema"
+            ],
+            "correctIndexes": [
+              0,
+              2
+            ],
+            "explanation": "-ción y -dad son terminaciones femeninas: la votación, la libertad. «El escaño» acaba en -o (masculino) y «el sistema» es masculino aunque acaba en -a, como otras palabras cultas en -ma (el problema, el tema)."
           }
         ]
       },
@@ -1299,21 +1332,6 @@ const B2_BASE_LESSONS: Lesson[] = [
         "explanation": "«El referéndum» es una consulta directa al pueblo. El decreto es una norma del gobierno, el tratado es un acuerdo entre países y el mandato es el periodo o encargo de un cargo."
       },
       {
-        "type": "multi-select",
-        "question": "¿Qué palabras son femeninas? (Elige todas las correctas)",
-        "options": [
-          "votación",
-          "escaño",
-          "libertad",
-          "sistema"
-        ],
-        "correctIndexes": [
-          0,
-          2
-        ],
-        "explanation": "-ción y -dad son terminaciones femeninas: la votación, la libertad. «El escaño» acaba en -o (masculino) y «el sistema» es masculino aunque acaba en -a, como otras palabras cultas en -ma (el problema, el tema)."
-      },
-      {
         "type": "fill-blank",
         "prompt": "Forma la palabra de la persona.",
         "sentence": "Los ___ pidieron una reunión con el ministro. (manifestar)",
@@ -1353,8 +1371,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Formación",
         "body": [
           "Toma la forma \"ellos\" del pretérito, quita \"-ron\", y agrega: -ra, -ras, -ra, -ramos (con tilde en la vocal anterior: habláramos), -rais, -ran. Existe también la forma -se, más literaria, con el mismo significado.",
-          "hablaron → hablara, hablaras, hablara, habláramos, hablarais, hablaran. tuvieron → tuviera, tuvieras, tuviera, tuviéramos, tuvierais, tuvieran.",
-          "Recuerda la regla y por qué funciona: no necesitas memorizar una conjugación nueva. Si sabes el pretérito de «ellos», ya tienes la raíz (comieron → comiera, vivieron → viviera, durmieron → durmiera). Las formas de yo y él son iguales (yo hablara, él hablara): el contexto o el pronombre deshacen la ambigüedad."
+          "hablaron → hablara, hablaras, hablara, habláramos, hablarais, hablaran. tuvieron → tuviera, tuvieras, tuviera, tuviéramos, tuvierais, tuvieran."
         ],
         "examples": [
           {
@@ -1373,6 +1390,32 @@ const B2_BASE_LESSONS: Lesson[] = [
             "sentence": "Esperaba que ellos ___ (llegar) temprano.",
             "answer": "llegaran",
             "explanation": "Esperaba (pasado) pide imperfecto de subjuntivo. Desde «ellos» del pretérito: llegaron → quita -ron → llega- + -ran = llegaran."
+          }
+        ]
+      },
+      {
+        "heading": "Por qué funciona: la raíz ya la sabes",
+        "body": [
+          "Recuerda la regla y por qué funciona: no necesitas memorizar una conjugación nueva. Si sabes el pretérito de «ellos», ya tienes la raíz (comieron → comiera, vivieron → viviera, durmieron → durmiera). Las formas de yo y él son iguales (yo hablara, él hablara): el contexto o el pronombre deshacen la ambigüedad."
+        ],
+        "examples": [
+          {
+            "es": "Me pidió que durmiera más.",
+            "en": "He asked me to sleep more. (durmieron → durmiera)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Imperfecto de subjuntivo de «pedir» (ellos):",
+            "options": [
+              "pidieran",
+              "pedirían",
+              "pedían",
+              "pidan"
+            ],
+            "correctIndex": 0,
+            "explanation": "Ellos del pretérito: pidieron → quita -ron → pidiera-n: pidieran, con la misma i del pretérito. «Pedirían» es condicional, «pedían» es imperfecto de indicativo y «pidan» es presente de subjuntivo."
           }
         ]
       },
@@ -1408,10 +1451,10 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La secuencia de tiempos",
+        "heading": "La secuencia: presente con presente, pasado con imperfecto",
         "body": [
           "Por lo general, cuando el verbo principal está en presente, se usa subjuntivo presente en la cláusula subordinada (pero puede ir imperfecto si la acción es pasada: «No creo que lo supiera»). Cuando el verbo principal está en pasado (indefinido, imperfecto, pluscuamperfecto) o en condicional, se usa el imperfecto de subjuntivo.",
-          "¿Por qué? El verbo principal fija el momento desde el que miramos: si el deseo, la duda o la orden ocurrieron en el pasado, lo que se deseaba o dudaba también se sitúa allí. El condicional (me gustaría, preferiría) se comporta como un pasado porque aleja la idea de la realidad. Lo que decide el subjuntivo sigue siendo el verbo de deseo, duda o emoción; la secuencia solo decide qué tiempo de subjuntivo."
+          "¿Por qué? El verbo principal fija el momento desde el que miramos: si el deseo, la duda o la orden ocurrieron en el pasado, lo que se deseaba o dudaba también se sitúa allí."
         ],
         "examples": [
           {
@@ -1425,12 +1468,38 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
+            "type": "multiple-choice",
+            "question": "«Mis padres querían que ___ medicina.»",
+            "options": [
+              "estudiara",
+              "estudie",
+              "estudiaba",
+              "estudiaría"
+            ],
+            "correctIndex": 0,
+            "explanation": "Querían (pasado) → imperfecto de subjuntivo: estudiaron → estudiara. «Estudie» es presente de subjuntivo e iría con «quieren»; «estudiaba» y «estudiaría» son indicativo, que no va tras querer que."
+          },
+          {
             "type": "fill-blank",
             "prompt": "Completa la oración con la secuencia correcta.",
             "sentence": "Dudaba que ellos ___ (tener) razón.",
             "answer": "tuvieran",
             "explanation": "Dudar pide subjuntivo; como el verbo principal (dudaba) está en pasado, el subjuntivo va en imperfecto: tuvieron → tuvieran. «Tengan» mezclaría un pasado con un presente."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "El condicional cuenta como pasado",
+        "body": [
+          "El condicional (me gustaría, preferiría) se comporta como un pasado porque aleja la idea de la realidad. Lo que decide el subjuntivo sigue siendo el verbo de deseo, duda o emoción; la secuencia solo decide qué tiempo de subjuntivo."
+        ],
+        "examples": [
+          {
+            "es": "Preferiría que me llamaras antes.",
+            "en": "I'd prefer you to call me first. (condicional → imperfecto de subjuntivo)"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "«Me gustaría que mis hijos ___ más tiempo al aire libre.»",
@@ -1579,9 +1648,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: palabras que vienen en familia",
         "body": [
-          "Muchas de estas palabras forman familias: verbo, sustantivo y adjetivo comparten raíz. Si conoces una, puedes adivinar las otras: anhelar → el anhelo, aspirar → la aspiración, ilusionarse → la ilusión, presentir → el presentimiento, vacilar → la vacilación.",
-          "Las terminaciones te dicen además el género: -ción y -sión son femeninas (la aspiración, la evasión) y equivalen al inglés -tion/-sion; -miento e -ismo son masculinas (el ensimismamiento, el escepticismo). -ario e -ista forman adjetivos de persona: visionario, surrealista.",
-          "Y como hablamos de sueños y deseos, aparecen verbos que piden subjuntivo (anhelar que, soñar con que, esperar que). En pasado, la subordinada va en imperfecto de subjuntivo: Anhelaba que su padre la entendiera."
+          "Muchas de estas palabras forman familias: verbo, sustantivo y adjetivo comparten raíz. Si conoces una, puedes adivinar las otras: anhelar → el anhelo, aspirar → la aspiración, ilusionarse → la ilusión, presentir → el presentimiento, vacilar → la vacilación."
         ],
         "examples": [
           {
@@ -1591,14 +1658,6 @@ const B2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Presentí que algo iba a pasar: fue un presentimiento extraño.",
             "en": "I sensed something was going to happen: it was a strange feeling. (presentir → el presentimiento)"
-          },
-          {
-            "es": "Su escepticismo era evidente: es un hombre muy escéptico.",
-            "en": "His scepticism was obvious: he's a very sceptical man. (-ismo, masculino)"
-          },
-          {
-            "es": "Anhelaba que su padre la entendiera.",
-            "en": "She longed for her father to understand her. (anhelaba, pasado → entendiera)"
           }
         ],
         "checkpoint": [
@@ -1613,6 +1672,37 @@ const B2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Muchos verbos en -ar forman el sustantivo en -ción, siempre femenino: aspirar → la aspiración, imaginar → la imaginación. Las otras formas no existen."
+          }
+        ]
+      },
+      {
+        "heading": "La terminación te da el género",
+        "body": [
+          "Las terminaciones te dicen además el género: -ción y -sión son femeninas (la aspiración, la evasión) y equivalen al inglés -tion/-sion; -miento e -ismo son masculinas (el ensimismamiento, el escepticismo). -ario e -ista forman adjetivos de persona: visionario, surrealista."
+        ],
+        "examples": [
+          {
+            "es": "Su escepticismo era evidente: es un hombre muy escéptico.",
+            "en": "His scepticism was obvious: he's a very sceptical man. (-ismo, masculino)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué palabras son femeninas? (Fíjate en la terminación)",
+            "options": [
+              "frustración",
+              "entusiasmo",
+              "decisión",
+              "sentimiento",
+              "motivación"
+            ],
+            "correctIndexes": [
+              0,
+              2,
+              4
+            ],
+            "explanation": "-ción y -sión son terminaciones femeninas (la frustración, la decisión, la motivación); -ismo/-asmo y -miento son masculinas (el entusiasmo, el sentimiento)."
           },
           {
             "type": "multiple-choice",
@@ -1625,6 +1715,44 @@ const B2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Las palabras en -ismo son masculinas, como el escepticismo: el optimismo, el pesimismo, el realismo."
+          }
+        ]
+      },
+      {
+        "heading": "Sueños y deseos piden subjuntivo",
+        "body": [
+          "Y como hablamos de sueños y deseos, aparecen verbos que piden subjuntivo (anhelar que, soñar con que, esperar que). En pasado, la subordinada va en imperfecto de subjuntivo: Anhelaba que su padre la entendiera."
+        ],
+        "examples": [
+          {
+            "es": "Anhelaba que su padre la entendiera.",
+            "en": "She longed for her father to understand her. (anhelaba, pasado → entendiera)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Soñaba con que su hija ___ música.»",
+            "options": [
+              "estudiara",
+              "estudie",
+              "estudiaba",
+              "estudiaría"
+            ],
+            "correctIndex": 0,
+            "explanation": "Soñar con que expresa un deseo → subjuntivo; soñaba está en pasado → imperfecto: estudiaron → estudiara. «Estudie» iría con un principal en presente, y «estudiaba» y «estudiaría» son indicativo."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Cambia la frase al pasado (imperfecto).",
+            "source": "Anhelo que mi hijo se realice en la vida.",
+            "answer": "Anhelaba que mi hijo se realizara en la vida.",
+            "altAnswers": [
+              "Anhelé que mi hijo se realizara en la vida.",
+              "Anhelaba que mi hijo se realizase en la vida."
+            ],
+            "explanation": "Al pasar el verbo principal al pasado (anhelaba), la subordinada pasa al imperfecto de subjuntivo: se realizara."
           }
         ]
       },
@@ -1929,23 +2057,6 @@ const B2_BASE_LESSONS: Lesson[] = [
         "explanation": "«La epifanía» es una comprensión súbita y reveladora. La premonición es presentir el futuro, la ensoñación es soñar despierto y la clarividencia es la capacidad de ver lo que otros no ven."
       },
       {
-        "type": "multi-select",
-        "question": "¿Qué palabras son femeninas? (Fíjate en la terminación)",
-        "options": [
-          "frustración",
-          "entusiasmo",
-          "decisión",
-          "sentimiento",
-          "motivación"
-        ],
-        "correctIndexes": [
-          0,
-          2,
-          4
-        ],
-        "explanation": "-ción y -sión son terminaciones femeninas (la frustración, la decisión, la motivación); -ismo/-asmo y -miento son masculinas (el entusiasmo, el sentimiento)."
-      },
-      {
         "type": "fill-blank",
         "prompt": "Completa con el sustantivo de la misma familia.",
         "sentence": "Presentía que algo iba mal; ese ___ no la dejó dormir. (presentir)",
@@ -1958,18 +2069,6 @@ const B2_BASE_LESSONS: Lesson[] = [
         "sentence": "Su ___ era tan grande que dudaba de todo. (escéptico)",
         "answer": "escepticismo",
         "explanation": "Del adjetivo escéptico sale el sustantivo en -ismo: el escepticismo, masculino (su escepticismo era grande)."
-      },
-      {
-        "type": "translate",
-        "direction": "en-es",
-        "prompt": "Cambia la frase al pasado (imperfecto).",
-        "source": "Anhelo que mi hijo se realice en la vida.",
-        "answer": "Anhelaba que mi hijo se realizara en la vida.",
-        "altAnswers": [
-          "Anhelé que mi hijo se realizara en la vida.",
-          "Anhelaba que mi hijo se realizase en la vida."
-        ],
-        "explanation": "Al pasar el verbo principal al pasado (anhelaba), la subordinada pasa al imperfecto de subjuntivo: se realizara."
       },
       {
         "type": "translate",
@@ -1997,8 +2096,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "La estructura hipotética",
         "body": [
           "Para condiciones hipotéticas o contrarias a la realidad actual: si + imperfecto de subjuntivo, + condicional. Si tuviera más dinero, viajaría por el mundo.",
-          "¿Por qué un tiempo «pasado» para hablar del presente? Porque aquí el imperfecto de subjuntivo no marca tiempo sino distancia de la realidad, igual que en inglés «If I had» no habla del pasado. La condición imaginada va en imperfecto de subjuntivo y la consecuencia imaginada en condicional (viajaría).",
-          "La regla de oro: detrás de si nunca va condicional (✗ si tendría). El condicional solo va en la otra mitad de la frase, y las dos mitades pueden ir en cualquier orden: Viajaría por el mundo si tuviera dinero."
+          "¿Por qué un tiempo «pasado» para hablar del presente? Porque aquí el imperfecto de subjuntivo no marca tiempo sino distancia de la realidad, igual que en inglés «If I had» no habla del pasado. La condición imaginada va en imperfecto de subjuntivo y la consecuencia imaginada en condicional (viajaría)."
         ],
         "examples": [
           {
@@ -2008,7 +2106,36 @@ const B2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Si fuéramos ricos, no trabajaríamos tanto.",
             "en": "If we were rich, we wouldn't work so much."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Si ___ alas, volaría hasta tu casa.» (tener, yo)",
+            "options": [
+              "tuviera",
+              "tengo",
+              "tendría",
+              "tenía"
+            ],
+            "correctIndex": 0,
+            "explanation": "Una condición imaginada, contraria a la realidad: si + imperfecto de subjuntivo, tuviera. «Tengo» la haría real, «tendría» es condicional (va en la otra mitad) y «tenía» es indicativo pasado."
           },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la oración.",
+            "sentence": "Si yo ___ (saber) programar, crearía mi propia aplicación.",
+            "answer": "supiera",
+            "explanation": "La condición hipotética usa imperfecto de subjuntivo: supiera."
+          }
+        ]
+      },
+      {
+        "heading": "La regla de oro: nada de condicional tras si",
+        "body": [
+          "La regla de oro: detrás de si nunca va condicional (✗ si tendría). El condicional solo va en la otra mitad de la frase, y las dos mitades pueden ir en cualquier orden: Viajaría por el mundo si tuviera dinero."
+        ],
+        "examples": [
           {
             "es": "No trabajaría aquí si no me gustara.",
             "en": "I wouldn't work here if I didn't like it. (la mitad con si puede ir detrás)"
@@ -2016,11 +2143,27 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
-            "type": "fill-blank",
-            "prompt": "Completa la oración.",
-            "sentence": "Si yo ___ (saber) programar, crearía mi propia aplicación.",
-            "answer": "supiera",
-            "explanation": "La condición hipotética usa imperfecto de subjuntivo: supiera."
+            "type": "multiple-choice",
+            "question": "¿Qué frase es correcta?",
+            "options": [
+              "Iría a la fiesta si me invitaran.",
+              "Iría a la fiesta si me invitarían.",
+              "Si me invitarían, iría a la fiesta.",
+              "Si me invitaran, vaya a la fiesta."
+            ],
+            "correctIndex": 0,
+            "explanation": "Las mitades pueden ir en cualquier orden, pero tras si va imperfecto de subjuntivo (invitaran) y en la otra mitad, condicional (iría). «Si me invitarían» pone condicional tras si, y «vaya» es subjuntivo donde va condicional."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Corrige la frase.",
+            "source": "Si sabría cocinar, invitaría a mis amigos a cenar.",
+            "answer": "Si supiera cocinar, invitaría a mis amigos a cenar.",
+            "altAnswers": [
+              "Si supiese cocinar, invitaría a mis amigos a cenar."
+            ],
+            "explanation": "Detrás de si nunca va condicional: si + imperfecto de subjuntivo, supiera (de supieron). El condicional va en la otra mitad: invitaría."
           }
         ]
       },
@@ -2190,17 +2333,6 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Te ayudaría con la mudanza si tuviera tiempo."
         ],
         "explanation": "Para presentar la condición como poco probable: si + imperfecto de subjuntivo (tuviera) y condicional en la consecuencia (ayudaría)."
-      },
-      {
-        "type": "translate",
-        "direction": "en-es",
-        "prompt": "Corrige la frase.",
-        "source": "Si sabría cocinar, invitaría a mis amigos a cenar.",
-        "answer": "Si supiera cocinar, invitaría a mis amigos a cenar.",
-        "altAnswers": [
-          "Si supiese cocinar, invitaría a mis amigos a cenar."
-        ],
-        "explanation": "Detrás de si nunca va condicional: si + imperfecto de subjuntivo, supiera (de supieron). El condicional va en la otra mitad: invitaría."
       },
       {
         "type": "translate",
@@ -3743,7 +3875,8 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: El periodismo y los medios de comunicación",
         "body": [
-          "Cincuenta palabras del mundo del periodismo, perfectas para practicar el estilo indirecto."
+          "Cincuenta palabras del mundo del periodismo, perfectas para practicar el estilo indirecto.",
+          "Fíjate también en las familias de palabras del vocabulario: verificar → la verificación, difundir → la difusión, censurar → la censura, desinformar → la desinformación."
         ],
         "examples": [
           {
@@ -4002,17 +4135,37 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Más allá de «decir»: verbos para contar",
+        "heading": "Más allá de «decir»: verbos que informan",
         "body": [
-          "Un periodista casi nunca repite «dijo que». Elige el verbo que muestra qué hizo la fuente, y el verbo decide el modo. Verbos que informan (afirmar, asegurar, aclarar, explicar, anunciar, advertir, manifestar) → indicativo, con el retroceso de tiempos habitual: aclaró que el titular había sido un error.",
-          "Verbos que piden o mandan (pedir, rogar, exigir, recomendar) → subjuntivo, en imperfecto tras un pasado: pidió que respetaran su anonimato. Desmentir y negar suelen llevar subjuntivo, porque presentan lo dicho como falso: negó que hubiera filtrado nada.",
-          "Fíjate también en las familias de palabras del vocabulario: verificar → la verificación, difundir → la difusión, censurar → la censura, desinformar → la desinformación."
+          "Un periodista casi nunca repite «dijo que». Elige el verbo que muestra qué hizo la fuente, y el verbo decide el modo. Verbos que informan (afirmar, asegurar, aclarar, explicar, anunciar, advertir, manifestar) → indicativo, con el retroceso de tiempos habitual: aclaró que el titular había sido un error."
         ],
         "examples": [
           {
             "es": "La portavoz aseguró que no habría despidos.",
             "en": "The spokeswoman assured that there would be no layoffs. (informa → indicativo)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Hay retrasos en la entrega.» → El portavoz aclaró que ___ retrasos en la entrega.",
+            "options": [
+              "había",
+              "hubiera",
+              "haya",
+              "hay que"
+            ],
+            "correctIndex": 0,
+            "explanation": "Aclarar informa de un hecho → indicativo, con el retroceso habitual: hay → había. «Hubiera» y «haya» son subjuntivo, que solo va con verbos que piden, mandan o niegan; «hay que» cambia el sentido (obligación)."
+          }
+        ]
+      },
+      {
+        "heading": "Verbos que piden, mandan o niegan: subjuntivo",
+        "body": [
+          "Verbos que piden o mandan (pedir, rogar, exigir, recomendar) → subjuntivo, en imperfecto tras un pasado: pidió que respetaran su anonimato. Desmentir y negar suelen llevar subjuntivo, porque presentan lo dicho como falso: negó que hubiera filtrado nada."
+        ],
+        "examples": [
           {
             "es": "El juez exigió que los medios respetaran el embargo informativo.",
             "en": "The judge demanded that the media respect the news embargo. (exige → subjuntivo)"
@@ -5332,10 +5485,9 @@ const B2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Repaso antes de la prueba",
+        "heading": "Repaso antes de la prueba: cinco tipos de cambio",
         "body": [
-          "Recuerda la regla: elige el verbo según el tipo de cambio. Ponerse + adjetivo: cambio rápido y pasajero (se puso pálido). Volverse: cambio profundo y duradero que ocurre sin querer (se volvió desconfiado). Hacerse: cambio buscado o decidido, sobre todo profesiones, ideas y afiliaciones (se hizo enfermera). Llegar a ser: la meta de un camino largo (llegó a ser alcaldesa). Convertirse en + sustantivo: algo pasa a ser otra cosa (la fábrica se convirtió en un museo).",
-          "¿Por qué no sirven todos? Porque cada verbo aporta una idea distinta: ponerse no va con sustantivos ni profesiones (✗ se puso médico), volverse y hacerse no llevan «en», y convertirse siempre la lleva."
+          "Recuerda la regla: elige el verbo según el tipo de cambio. Ponerse + adjetivo: cambio rápido y pasajero (se puso pálido). Volverse: cambio profundo y duradero que ocurre sin querer (se volvió desconfiado). Hacerse: cambio buscado o decidido, sobre todo profesiones, ideas y afiliaciones (se hizo enfermera). Llegar a ser: la meta de un camino largo (llegó a ser alcaldesa). Convertirse en + sustantivo: algo pasa a ser otra cosa (la fábrica se convirtió en un museo)."
         ],
         "examples": [
           {
@@ -5363,6 +5515,54 @@ const B2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Cambio duradero del carácter que llega con la edad y sin querer → volverse. Ponerse sería una reacción pasajera, hacerse un cambio buscado y convertirse necesitaría «en» + sustantivo."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la oración con el verbo de cambio correcto.",
+            "sentence": "Gracias a años de constancia y sacrificio, ___ (hacerse, él) un chef reconocido internacionalmente.",
+            "answer": "se hizo",
+            "explanation": "Hacerse implica un cambio de estatus logrado con esfuerzo voluntario (constancia y sacrificio): se hizo un chef reconocido."
+          }
+        ]
+      },
+      {
+        "heading": "Por qué no sirven todos: sustantivos y la preposición «en»",
+        "body": [
+          "¿Por qué no sirven todos? Porque cada verbo aporta una idea distinta: ponerse no va con sustantivos ni profesiones (✗ se puso médico), volverse y hacerse no llevan «en», y convertirse siempre la lleva."
+        ],
+        "examples": [
+          {
+            "es": "Se hizo médico, y su consulta se convirtió en un punto de encuentro.",
+            "en": "He became a doctor, and his practice became a meeting point. (hacerse sin «en»; convertirse en)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué oraciones usan \"convertirse en\" correctamente? (Elige todas las correctas)",
+            "options": [
+              "El experimento se convirtió en un éxito rotundo.",
+              "Se convirtió muy tímido después del divorcio.",
+              "La oruga se convierte en mariposa.",
+              "Se convirtió médico tras años de estudio."
+            ],
+            "correctIndexes": [
+              0,
+              2
+            ],
+            "explanation": "Convertirse en siempre va seguido de \"en\" más un sustantivo, nunca directamente de un adjetivo (eso pide volverse) ni de una profesión sin \"en\" (para eso: hacerse médico, llegar a ser médico o convertirse en médico)."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Corrige la frase.",
+            "source": "La vieja estación de tren se hizo en una biblioteca.",
+            "answer": "La vieja estación de tren se convirtió en una biblioteca.",
+            "altAnswers": [
+              "La antigua estación de tren se convirtió en una biblioteca.",
+              "La vieja estación de tren se transformó en una biblioteca."
+            ],
+            "explanation": "Cuando una cosa pasa a ser otra (con «en» + sustantivo) el verbo es convertirse en. Hacerse no lleva «en» con este sentido."
           }
         ]
       }
@@ -5443,13 +5643,6 @@ const B2_BASE_LESSONS: Lesson[] = [
         "explanation": "Convertirse en marca una transformación completa con el tiempo: el pueblo pasa a ser otra cosa (un destino turístico). Es el único verbo de cambio que lleva «en»."
       },
       {
-        "type": "fill-blank",
-        "prompt": "Completa la oración con el verbo de cambio correcto.",
-        "sentence": "Gracias a años de constancia y sacrificio, ___ (hacerse, él) un chef reconocido internacionalmente.",
-        "answer": "se hizo",
-        "explanation": "Hacerse implica un cambio de estatus logrado con esfuerzo voluntario (constancia y sacrificio): se hizo un chef reconocido."
-      },
-      {
         "type": "multi-select",
         "question": "¿Qué oraciones son gramaticalmente correctas? (Elige todas las correctas)",
         "options": [
@@ -5463,21 +5656,6 @@ const B2_BASE_LESSONS: Lesson[] = [
           2
         ],
         "explanation": "Para la hora se usa \"ser\" (eran las nueve), nunca \"volverse\"; y \"ponerse\" no se usa con profesiones, eso corresponde a hacerse o llegar a ser."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Qué oraciones usan \"convertirse en\" correctamente? (Elige todas las correctas)",
-        "options": [
-          "El experimento se convirtió en un éxito rotundo.",
-          "Se convirtió muy tímido después del divorcio.",
-          "La oruga se convierte en mariposa.",
-          "Se convirtió médico tras años de estudio."
-        ],
-        "correctIndexes": [
-          0,
-          2
-        ],
-        "explanation": "Convertirse en siempre va seguido de \"en\" más un sustantivo, nunca directamente de un adjetivo (eso pide volverse) ni de una profesión sin \"en\" (para eso: hacerse médico, llegar a ser médico o convertirse en médico)."
       },
       {
         "type": "translate",
@@ -5603,18 +5781,6 @@ const B2_BASE_LESSONS: Lesson[] = [
         "sentence": "Antes era muy alegre; ahora es amargado. → Con los años, se ___ amargado. (indefinido)",
         "answer": "volvió",
         "explanation": "Un rasgo de carácter que cambia poco a poco y sin querer → volverse: se volvió amargado. «Se puso amargado» sonaría a un enfado pasajero."
-      },
-      {
-        "type": "translate",
-        "direction": "en-es",
-        "prompt": "Corrige la frase.",
-        "source": "La vieja estación de tren se hizo en una biblioteca.",
-        "answer": "La vieja estación de tren se convirtió en una biblioteca.",
-        "altAnswers": [
-          "La antigua estación de tren se convirtió en una biblioteca.",
-          "La vieja estación de tren se transformó en una biblioteca."
-        ],
-        "explanation": "Cuando una cosa pasa a ser otra (con «en» + sustantivo) el verbo es convertirse en. Hacerse no lleva «en» con este sentido."
       }
     ]
   },
@@ -5627,10 +5793,9 @@ const B2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Conectores de contraste",
+        "heading": "Sin embargo o aunque: dos sistemas",
         "body": [
-          "Sin embargo, no obstante y aunque expresan contraste, pero no funcionan igual dentro de la frase. Sin embargo y no obstante son conectores del discurso: enlazan dos oraciones completas, por eso van detrás de un punto o de un punto y coma y llevan coma después. Aunque es una conjunción: abre una oración subordinada dentro de la misma frase y no lleva coma detrás.",
-          "¿Por qué importa? Porque mezclar los dos sistemas produce errores típicos: «Sin embargo el plan parecía sólido, fracasó» o «Aunque el plan parecía sólido, pero fracasó». En español, aunque nunca va acompañado de pero. No obstante es más formal que sin embargo; en la conversación se oye también aun así."
+          "Sin embargo, no obstante y aunque expresan contraste, pero no funcionan igual dentro de la frase. Sin embargo y no obstante son conectores del discurso: enlazan dos oraciones completas, por eso van detrás de un punto o de un punto y coma y llevan coma después. Aunque es una conjunción: abre una oración subordinada dentro de la misma frase y no lleva coma detrás."
         ],
         "examples": [
           {
@@ -5653,6 +5818,26 @@ const B2_BASE_LESSONS: Lesson[] = [
               "aun así"
             ],
             "explanation": "Tras el punto y coma empieza una oración completa que contrasta con la anterior: hace falta un conector del discurso con coma detrás (sin embargo, no obstante). «Aunque» no encaja aquí, porque abriría una subordinada y la frase quedaría incompleta."
+          }
+        ]
+      },
+      {
+        "heading": "Errores típicos: aunque… pero",
+        "body": [
+          "¿Por qué importa? Porque mezclar los dos sistemas produce errores típicos: «Sin embargo el plan parecía sólido, fracasó» o «Aunque el plan parecía sólido, pero fracasó». En español, aunque nunca va acompañado de pero. No obstante es más formal que sin embargo; en la conversación se oye también aun así."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase es correcta?",
+            "options": [
+              "Aunque el hotel era caro, nos quedamos dos noches.",
+              "Aunque el hotel era caro, pero nos quedamos dos noches.",
+              "Sin embargo el hotel era caro, nos quedamos dos noches.",
+              "El hotel era caro, aunque, nos quedamos dos noches."
+            ],
+            "correctIndex": 0,
+            "explanation": "Aunque ya marca el contraste, así que nunca va acompañado de pero. Sin embargo no abre una subordinada: enlaza dos oraciones completas, tras punto o punto y coma. Y aunque no lleva coma detrás."
           }
         ]
       },
@@ -6789,20 +6974,40 @@ const B2_BASE_LESSONS: Lesson[] = [
     "number": 23,
     "title": "Cuyo y El Cual: Pronombres Relativos Avanzados, Part 1 of 2",
     "summary": "Aprende a usar \"cuyo\" para expresar posesión y \"el cual\" para hablar con precisión y formalidad, especialmente después de preposiciones.",
-    "duration": "6 min",
+    "duration": "7 min",
     "sections": [
       {
-        "heading": "Cuyo: posesión y concordancia inesperada",
+        "heading": "Cuyo: el relativo de posesión",
         "body": [
-          "«Cuyo» es el relativo de posesión, equivalente a «whose». Une dos ideas cuando la segunda habla de algo que pertenece a la primera: El hombre vive aquí + Su casa es azul → El hombre cuya casa es azul vive aquí.",
-          "La clave para entender su concordancia está en ese ejemplo: cuyo ocupa el lugar del posesivo «su», y por eso funciona como un adjetivo posesivo: concuerda en género y número con lo poseído (la cosa que viene DESPUÉS), nunca con el poseedor. Igual que un hombre dice «nuestra casa», decimos «el hombre cuya casa». En inglés «whose» no cambia, y por eso el error típico es hacer concordar cuyo con la persona.",
-          "Dos detalles más: cuyo nunca lleva artículo detrás (✗ cuyos los libros) y no se sustituye por «que su», que es coloquial y se considera incorrecto en un registro cuidado (✗ el hombre que su casa es azul)."
+          "«Cuyo» es el relativo de posesión, equivalente a «whose». Une dos ideas cuando la segunda habla de algo que pertenece a la primera: El hombre vive aquí + Su casa es azul → El hombre cuya casa es azul vive aquí."
         ],
         "examples": [
           {
             "es": "El hombre cuya casa visitamos es mi abuelo.",
             "en": "The man whose house we visited is my grandfather. (cuya → casa, femenino, aunque el poseedor sea hombre)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Une: «Tengo una vecina. Su gato duerme en mi balcón.»",
+            "options": [
+              "Tengo una vecina cuyo gato duerme en mi balcón.",
+              "Tengo una vecina quien gato duerme en mi balcón.",
+              "Tengo una vecina cual gato duerme en mi balcón.",
+              "Tengo una vecina donde gato duerme en mi balcón."
+            ],
+            "correctIndex": 0,
+            "explanation": "La segunda idea habla de algo que pertenece a la vecina, así que se une con el relativo de posesión: cuyo ocupa el lugar de su. Quien, cual y donde no expresan posesión."
+          }
+        ]
+      },
+      {
+        "heading": "Cuyo concuerda con lo poseído",
+        "body": [
+          "La clave para entender su concordancia está en ese ejemplo: cuyo ocupa el lugar del posesivo «su», y por eso funciona como un adjetivo posesivo: concuerda en género y número con lo poseído (la cosa que viene DESPUÉS), nunca con el poseedor. Igual que un hombre dice «nuestra casa», decimos «el hombre cuya casa». En inglés «whose» no cambia, y por eso el error típico es hacer concordar cuyo con la persona."
+        ],
+        "examples": [
           {
             "es": "La empresa cuyos empleados protestaron cerró la semana pasada.",
             "en": "The company whose employees protested closed last week. (cuyos → empleados)"
@@ -6827,11 +7032,29 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El cual, la cual, los cuales, las cuales: concordancia con el antecedente",
+        "heading": "Sin artículo y sin «que su»",
         "body": [
-          "«El cual», «la cual», «los cuales» y «las cuales» funcionan al revés que cuyo: concuerdan con el ANTECEDENTE, el sustantivo al que se refieren, igual que «que», pero marcando el género y el número. Esa marca es su razón de ser: tras una preposición deja claro a qué sustantivo se refiere la relativa.",
-          "Se usan sobre todo detrás de preposiciones, en especial las largas o las locuciones (según, durante, mediante, a través de, gracias a), y también tras sin, para, por, contra, bajo o tras. Ahí «que» solo no basta: necesita artículo (el que) o se sustituye por el cual. Solo tras algunas preposiciones breves (en, de, con) se admite a veces «que» sin artículo: la casa en que vivo.",
-          "La preposición la decide el verbo de la relativa, no el de la principal: depender de → el proyecto del cual dependen; trabajar para → la empresa para la cual trabajo. Y existe el neutro «lo cual», que no concuerda con nada porque retoma toda una idea anterior: Llegó tarde, lo cual nos molestó."
+          "Dos detalles más: cuyo nunca lleva artículo detrás (✗ cuyos los libros) y no se sustituye por «que su», que es coloquial y se considera incorrecto en un registro cuidado (✗ el hombre que su casa es azul)."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase es correcta en un registro cuidado?",
+            "options": [
+              "Es un pueblo cuyas fiestas son famosas.",
+              "Es un pueblo que sus fiestas son famosas.",
+              "Es un pueblo cuyas las fiestas son famosas.",
+              "Es un pueblo cuyas sus fiestas son famosas."
+            ],
+            "correctIndex": 0,
+            "explanation": "Cuyas va directamente delante de lo poseído (fiestas), sin artículo ni posesivo. «Que sus fiestas» es coloquial y se considera incorrecto en un registro cuidado."
+          }
+        ]
+      },
+      {
+        "heading": "El cual concuerda con el antecedente",
+        "body": [
+          "«El cual», «la cual», «los cuales» y «las cuales» funcionan al revés que cuyo: concuerdan con el ANTECEDENTE, el sustantivo al que se refieren, igual que «que», pero marcando el género y el número. Esa marca es su razón de ser: tras una preposición deja claro a qué sustantivo se refiere la relativa."
         ],
         "examples": [
           {
@@ -6841,11 +7064,55 @@ const B2_BASE_LESSONS: Lesson[] = [
           {
             "es": "La reunión durante la cual se tomó la decisión duró tres horas.",
             "en": "The meeting during which the decision was made lasted three hours. (la cual → reunión)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Elige: «Es una teoría según ___ el universo no tiene fin.»",
+            "options": [
+              "la cual",
+              "el cual",
+              "cuya",
+              "que"
+            ],
+            "correctIndex": 0,
+            "explanation": "El cual concuerda con el antecedente: teoría es femenino singular, así que la cual. Tras según, «que» solo no basta, y cuya expresaría posesión."
+          }
+        ]
+      },
+      {
+        "heading": "Detrás de qué preposiciones",
+        "body": [
+          "Se usan sobre todo detrás de preposiciones, en especial las largas o las locuciones (según, durante, mediante, a través de, gracias a), y también tras sin, para, por, contra, bajo o tras. Ahí «que» solo no basta: necesita artículo (el que) o se sustituye por el cual. Solo tras algunas preposiciones breves (en, de, con) se admite a veces «que» sin artículo: la casa en que vivo."
+        ],
+        "examples": [
           {
             "es": "Los documentos sin los cuales no podemos continuar se perdieron.",
             "en": "The documents without which we cannot continue were lost."
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase es correcta?",
+            "options": [
+              "Es la herramienta mediante la cual reparamos el motor.",
+              "Es la herramienta mediante que reparamos el motor.",
+              "Es la herramienta mediante cual reparamos el motor.",
+              "Es la herramienta la cual mediante reparamos el motor."
+            ],
+            "correctIndex": 0,
+            "explanation": "Tras una locución como mediante, «que» solo no basta: hace falta la cual, con el artículo que concuerda con herramienta. La preposición va siempre delante del relativo."
+          }
+        ]
+      },
+      {
+        "heading": "La preposición del verbo, y lo cual",
+        "body": [
+          "La preposición la decide el verbo de la relativa, no el de la principal: depender de → el proyecto del cual dependen; trabajar para → la empresa para la cual trabajo. Y existe el neutro «lo cual», que no concuerda con nada porque retoma toda una idea anterior: Llegó tarde, lo cual nos molestó."
+        ],
+        "examples": [
           {
             "es": "Las jefas para las cuales trabajo son muy amables.",
             "en": "The bosses I work for are very kind. (trabajar para: la preposición va delante)"
@@ -6929,16 +7196,37 @@ const B2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "\"El cual\" vs. \"que\": ¿cuándo usar cada uno?",
+        "heading": "«Que», la opción natural",
         "body": [
-          "En cláusulas cortas y cotidianas, «que» sigue siendo la opción más natural y frecuente: no hace falta complicar la frase con «el cual» si el sentido ya está claro. Además, sin coma y sin preposición, «el cual» no se usa nunca: ✗ el café el cual tomé.",
-          "¿Por qué existe entonces «el cual»? Porque «que» no tiene género ni número, y «el cual» sí. Por eso se prefiere en dos situaciones: en el registro formal o escrito (informes, ensayos, noticias, textos legales), sobre todo tras preposición, y cuando hay riesgo de ambigüedad porque la oración menciona dos posibles antecedentes. Entonces la concordancia de «el cual / la cual» señala con precisión a cuál de los dos sustantivos se refiere."
+          "En cláusulas cortas y cotidianas, «que» sigue siendo la opción más natural y frecuente: no hace falta complicar la frase con «el cual» si el sentido ya está claro. Además, sin coma y sin preposición, «el cual» no se usa nunca: ✗ el café el cual tomé."
         ],
         "examples": [
           {
             "es": "La casa que compramos es enorme.",
             "en": "The house that we bought is huge. (corta y sin ambigüedad: que)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase es correcta?",
+            "options": [
+              "La sopa que pedí estaba fría.",
+              "La sopa la cual pedí estaba fría.",
+              "La sopa cual pedí estaba fría.",
+              "La sopa lo cual pedí estaba fría."
+            ],
+            "correctIndex": 0,
+            "explanation": "En una relativa corta, sin coma y sin preposición, se usa que: la sopa que pedí. Ahí «la cual» no se usa nunca, «cual» sin artículo no existe como relativo y «lo cual» retoma una idea entera, no un sustantivo."
+          }
+        ]
+      },
+      {
+        "heading": "¿Para qué sirve «el cual»?",
+        "body": [
+          "¿Por qué existe entonces «el cual»? Porque «que» no tiene género ni número, y «el cual» sí. Por eso se prefiere en dos situaciones: en el registro formal o escrito (informes, ensayos, noticias, textos legales), sobre todo tras preposición, y cuando hay riesgo de ambigüedad porque la oración menciona dos posibles antecedentes. Entonces la concordancia de «el cual / la cual» señala con precisión a cuál de los dos sustantivos se refiere."
+        ],
+        "examples": [
           {
             "es": "El hijo de mi vecina, el cual estudia medicina, vino a cenar.",
             "en": "My neighbour's son, who studies medicine, came to dinner. (el cual → el hijo)"
@@ -13292,16 +13580,11 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El patrón detrás de las palabras",
+        "heading": "Familias: la persona, la acción y el efecto",
         "body": [
-          "Recuerda la regla: muchas palabras del arte forman familias con un verbo y unas pocas terminaciones. -or / -ora nombra a la persona: pintar → el pintor / la pintora, esculpir → el escultor / la escultora, narrar → el narrador / la narradora. -ción y -ura nombran la acción o su resultado: restaurar → la restauración, inspirar → la inspiración, esculpir → la escultura, pintar → la pintura. -dor / -dora forma adjetivos que describen el efecto: conmover → conmovedor, provocar → provocador, cautivar → cautivador.",
-          "¿Por qué sirve? Con el verbo adivinas el sustantivo y su género: -ción y -ura son femeninas; -or es masculino y añade -a para el femenino (el autor, la autora). Ojo con los falsos amigos: «la editorial» es la empresa que publica (publisher), no un artículo de opinión; un «mecenas» financia al artista (patron), mientras que «el patrón» es el jefe; y el «crítico» es la persona, mientras que «la crítica» es su juicio."
+          "Recuerda la regla: muchas palabras del arte forman familias con un verbo y unas pocas terminaciones. -or / -ora nombra a la persona: pintar → el pintor / la pintora, esculpir → el escultor / la escultora, narrar → el narrador / la narradora. -ción y -ura nombran la acción o su resultado: restaurar → la restauración, inspirar → la inspiración, esculpir → la escultura, pintar → la pintura. -dor / -dora forma adjetivos que describen el efecto: conmover → conmovedor, provocar → provocador, cautivar → cautivador."
         ],
         "examples": [
-          {
-            "es": "esculpir → la escultura → la escultora",
-            "en": "to sculpt → sculpture → sculptor (woman) (-ura: el resultado; -ora: la persona)"
-          },
           {
             "es": "restaurar → la restauración → el restaurador",
             "en": "to restore → restoration → restorer (-ción: la acción, femenino)"
@@ -13313,12 +13596,71 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
+            "type": "multiple-choice",
+            "question": "¿Qué palabra no pertenece a la familia de «narrar»?",
+            "options": [
+              "la narración",
+              "el narrador",
+              "narrativo",
+              "la nariz"
+            ],
+            "correctIndex": 3,
+            "explanation": "Narración (-ción, la acción), narrador (-dor, la persona) y narrativo (adjetivo) salen de narrar. «La nariz» (nose) solo se le parece por el sonido."
+          },
+          {
             "type": "fill-blank",
             "prompt": "Forma la palabra de la persona.",
             "sentence": "La mujer que ilustra libros infantiles es una ___. (ilustrar)",
             "answer": "ilustradora",
             "explanation": "-dor / -dora nombra a quien hace la acción: ilustrar → el ilustrador / la ilustradora, igual que narrar → la narradora."
+          }
+        ]
+      },
+      {
+        "heading": "La terminación te da el género",
+        "body": [
+          "¿Por qué sirve? Con el verbo adivinas el sustantivo y su género: -ción y -ura son femeninas; -or es masculino y añade -a para el femenino (el autor, la autora)."
+        ],
+        "examples": [
+          {
+            "es": "esculpir → la escultura → la escultora",
+            "en": "to sculpt → sculpture → sculptor (woman) (-ura: el resultado; -ora: la persona)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué palabras son femeninas? (Elige todas las correctas)",
+            "options": [
+              "restauración",
+              "lienzo",
+              "escultura",
+              "mecenas"
+            ],
+            "correctIndexes": [
+              0,
+              2
+            ],
+            "explanation": "-ción y -ura son terminaciones femeninas: la restauración, la escultura. «El lienzo» acaba en -o (masculino) y «el mecenas» es masculino aunque acabe en -s (la mujer que financia es «la mecenas»)."
+          }
+        ]
+      },
+      {
+        "heading": "Ojo con los falsos amigos",
+        "body": [
+          "Ojo con los falsos amigos: «la editorial» es la empresa que publica (publisher), no un artículo de opinión; un «mecenas» financia al artista (patron), mientras que «el patrón» es el jefe; y el «crítico» es la persona, mientras que «la crítica» es su juicio."
+        ],
+        "examples": [
+          {
+            "es": "La editorial rechazó su primer manuscrito.",
+            "en": "The publisher rejected her first manuscript. (la editorial = publisher)"
           },
+          {
+            "es": "Un mecenas pagó el viaje del pintor.",
+            "en": "A patron paid for the painter's trip. (mecenas, no patrón)"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "¿Qué significa «la editorial» en «La editorial publicará su primera novela»?",
@@ -13330,6 +13672,17 @@ const B2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "En el mundo del libro, la editorial es la empresa (publisher): por eso «publicará». La persona que prepara el texto es el editor o la editora, y la portada es otra cosa. El sentido de «artículo de opinión» existe, pero no encaja con «publicará su novela»."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Corrige la frase.",
+            "source": "El crítico escribió una crítica muy positiva sobre la exhibición del museo.",
+            "answer": "El crítico escribió una crítica muy positiva sobre la exposición del museo.",
+            "altAnswers": [
+              "El crítico escribió una reseña muy positiva sobre la exposición del museo."
+            ],
+            "explanation": "Una muestra de arte en un museo es una exposición; «exhibición» se usa sobre todo para espectáculos o demostraciones (una exhibición de baile). «El crítico» y «una crítica» sí son correctos: persona y juicio."
           }
         ]
       },
@@ -13376,21 +13729,6 @@ const B2_BASE_LESSONS: Lesson[] = [
         "explanation": "El lienzo (la superficie sobre la que se pinta) y la metáfora pertenecen al arte y la literatura. El escaño es el asiento de un parlamentario y el arancel es un impuesto a las importaciones."
       },
       {
-        "type": "multi-select",
-        "question": "¿Qué palabras son femeninas? (Elige todas las correctas)",
-        "options": [
-          "restauración",
-          "lienzo",
-          "escultura",
-          "mecenas"
-        ],
-        "correctIndexes": [
-          0,
-          2
-        ],
-        "explanation": "-ción y -ura son terminaciones femeninas: la restauración, la escultura. «El lienzo» acaba en -o (masculino) y «el mecenas» es masculino aunque acabe en -s (la mujer que financia es «la mecenas»)."
-      },
-      {
         "type": "fill-blank",
         "prompt": "Forma el adjetivo.",
         "sentence": "Fue un discurso tan ___ que medio público lloró. (conmover)",
@@ -13403,29 +13741,6 @@ const B2_BASE_LESSONS: Lesson[] = [
         "sentence": "La ___ de la catedral duró diez años. (restaurar)",
         "answer": "restauración",
         "explanation": "Verbo en -ar → sustantivo en -ación: restaurar → la restauración (femenino, como la inspiración)."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Qué palabra no pertenece a la familia de «narrar»?",
-        "options": [
-          "la narración",
-          "el narrador",
-          "narrativo",
-          "la nariz"
-        ],
-        "correctIndex": 3,
-        "explanation": "Narración (-ción, la acción), narrador (-dor, la persona) y narrativo (adjetivo) salen de narrar. «La nariz» (nose) solo se le parece por el sonido."
-      },
-      {
-        "type": "translate",
-        "direction": "en-es",
-        "prompt": "Corrige la frase.",
-        "source": "El crítico escribió una crítica muy positiva sobre la exhibición del museo.",
-        "answer": "El crítico escribió una crítica muy positiva sobre la exposición del museo.",
-        "altAnswers": [
-          "El crítico escribió una reseña muy positiva sobre la exposición del museo."
-        ],
-        "explanation": "Una muestra de arte en un museo es una exposición; «exhibición» se usa sobre todo para espectáculos o demostraciones (una exhibición de baile). «El crítico» y «una crítica» sí son correctos: persona y juicio."
       }
     ]
   },
@@ -13805,23 +14120,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los sueños y la imaginación",
         "body": [
-          "Las 50 palabras de la lección «Imperfecto de Subjuntivo y Secuencia de Tiempos, Part 2 of 2», agrupadas para repasar.",
-          "El patrón que te ahorra memoria: casi todas vienen en familias verbo ↔ sustantivo, y el sufijo del sustantivo te dice el género. -ción / -sión es femenino (aspirar → la aspiración, evadirse → la evasión, ilusionar → la ilusión). -miento es masculino (ensimismarse → el ensimismamiento, presentir → el presentimiento). Muchos verbos en -ar dan un sustantivo en -o, también masculino (anhelar → el anhelo, soñar → el sueño).",
-          "Fíjate también en la preposición que arrastra cada verbo: aspirar a algo, ilusionarse con algo, soñar con algo. Son las que más se olvidan."
-        ],
-        "examples": [
-          {
-            "es": "Aspira a vivir de la música; esa aspiración la mantiene despierta.",
-            "en": "She aspires to make a living from music; that aspiration keeps her awake. (aspirar a → la aspiración, -ción: femenino)"
-          },
-          {
-            "es": "Tuve un presentimiento: presentí que no vendría.",
-            "en": "I had a feeling: I sensed he wouldn't come. (presentir → el presentimiento, -miento: masculino)"
-          },
-          {
-            "es": "Se ilusionó con el viaje, pero la ilusión duró poco.",
-            "en": "He got excited about the trip, but the excitement didn't last long. (ilusionarse con)"
-          }
+          "Las 50 palabras de la lección «Imperfecto de Subjuntivo y Secuencia de Tiempos, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -14060,6 +14359,76 @@ const B2_BASE_LESSONS: Lesson[] = [
             "explanation": "Palabras 41-50 de este tema."
           }
         ]
+      },
+      {
+        "heading": "El patrón: familias y género",
+        "body": [
+          "El patrón que te ahorra memoria: casi todas vienen en familias verbo ↔ sustantivo, y el sufijo del sustantivo te dice el género. -ción / -sión es femenino (aspirar → la aspiración, evadirse → la evasión, ilusionar → la ilusión). -miento es masculino (ensimismarse → el ensimismamiento, presentir → el presentimiento). Muchos verbos en -ar dan un sustantivo en -o, también masculino (anhelar → el anhelo, soñar → el sueño)."
+        ],
+        "examples": [
+          {
+            "es": "Aspira a vivir de la música; esa aspiración la mantiene despierta.",
+            "en": "She aspires to make a living from music; that aspiration keeps her awake. (aspirar a → la aspiración, -ción: femenino)"
+          },
+          {
+            "es": "Tuve un presentimiento: presentí que no vendría.",
+            "en": "I had a feeling: I sensed he wouldn't come. (presentir → el presentimiento, -miento: masculino)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué combinación de artículos es correcta?",
+            "options": [
+              "la frustración y el sufrimiento",
+              "el frustración y la sufrimiento",
+              "la frustración y la sufrimiento",
+              "el frustración y el sufrimiento"
+            ],
+            "correctIndex": 0,
+            "explanation": "El sufijo decide el género: -ción es femenino (la frustración) y -miento es masculino (el sufrimiento). Las demás opciones cambian el género de uno de los dos o de ambos."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con el sustantivo de la misma familia.",
+            "sentence": "Deseaba volver a su país, y ese ___ la acompañó siempre. (desear)",
+            "answer": "deseo",
+            "explanation": "Muchos verbos en -ar dan un sustantivo en -o, masculino: desear → el deseo, como anhelar → el anhelo. Por eso «ese deseo», no «esa»."
+          }
+        ]
+      },
+      {
+        "heading": "La preposición que arrastra cada verbo",
+        "body": [
+          "Fíjate también en la preposición que arrastra cada verbo: aspirar a algo, ilusionarse con algo, soñar con algo. Son las que más se olvidan."
+        ],
+        "examples": [
+          {
+            "es": "Se ilusionó con el viaje, pero la ilusión duró poco.",
+            "en": "He got excited about the trip, but the excitement didn't last long. (ilusionarse con)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Desde niña, sueña ___ ser astronauta.»",
+            "options": [
+              "con",
+              "de",
+              "en",
+              "a"
+            ],
+            "correctIndex": 0,
+            "explanation": "Soñar va con «con»: soñar con algo. «Soñar de» y «soñar en» son calcos de otras lenguas, y «a» es la preposición de aspirar (aspirar a algo)."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con la preposición.",
+            "sentence": "Mi hermano aspira ___ un puesto en el ministerio.",
+            "answer": "a",
+            "explanation": "Aspirar se construye con «a»: aspirar a algo. Con «con» irían soñar e ilusionarse (soñar con, ilusionarse con)."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -14103,23 +14472,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La tecnología y la inteligencia artificial",
         "body": [
-          "Las 50 palabras de la lección «Cláusulas Hipotéticas con Si, Part 2 of 2», agrupadas para repasar.",
-          "El patrón que te ahorra memoria: casi todo este vocabulario es culto y se parece al inglés con terminaciones fijas. -ize → -izar (automatizar, optimizar), y de ahí el sustantivo en -ización, siempre femenino (la automatización, la optimización). -ity → -idad (la privacidad, la singularidad). -ency / -ence → -encia (la eficiencia, la transparencia). Todas estas son femeninas.",
-          "Dos piezas más: -ble significa «que se puede» (confiable = que se puede fiar; irreversible = que no se puede revertir), e in- / im- / ir- niegan el adjetivo (ir- solo delante de r: irreversible; im- delante de p y b: imprevisible)."
-        ],
-        "examples": [
-          {
-            "es": "Para optimizar el proceso, la empresa apostó por la automatización.",
-            "en": "To optimise the process, the company bet on automation. (-izar → -ización, femenino)"
-          },
-          {
-            "es": "Un sistema poco transparente no es confiable.",
-            "en": "A system that isn't transparent isn't reliable. (-ble = que se puede)"
-          },
-          {
-            "es": "El daño fue irreversible.",
-            "en": "The damage was irreversible. (ir- niega delante de r)"
-          }
+          "Las 50 palabras de la lección «Cláusulas Hipotéticas con Si, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -14358,6 +14711,76 @@ const B2_BASE_LESSONS: Lesson[] = [
             "explanation": "Palabras 41-50 de este tema."
           }
         ]
+      },
+      {
+        "heading": "El patrón: -izar, -ización, -idad, -encia",
+        "body": [
+          "El patrón que te ahorra memoria: casi todo este vocabulario es culto y se parece al inglés con terminaciones fijas. -ize → -izar (automatizar, optimizar), y de ahí el sustantivo en -ización, siempre femenino (la automatización, la optimización). -ity → -idad (la privacidad, la singularidad). -ency / -ence → -encia (la eficiencia, la transparencia). Todas estas son femeninas."
+        ],
+        "examples": [
+          {
+            "es": "Para optimizar el proceso, la empresa apostó por la automatización.",
+            "en": "To optimise the process, the company bet on automation. (-izar → -ización, femenino)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el patrón: «digitalizar» → ___",
+            "options": [
+              "la digitalización",
+              "el digitalizamiento",
+              "la digitalidad",
+              "el digitalizado"
+            ],
+            "correctIndex": 0,
+            "explanation": "Del verbo en -izar sale el sustantivo en -ización, siempre femenino: digitalizar → la digitalización, como automatizar → la automatización. Las otras formas no siguen el patrón."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el sustantivo.",
+            "sentence": "La ___ de los datos preocupa a los usuarios. (seguro → -idad)",
+            "answer": "seguridad",
+            "explanation": "-ity → -idad, femenino: seguro → la seguridad, como privado → la privacidad. Por eso «la» delante."
+          }
+        ]
+      },
+      {
+        "heading": "Dos piezas más: -ble y los prefijos que niegan",
+        "body": [
+          "Dos piezas más: -ble significa «que se puede» (confiable = que se puede fiar; irreversible = que no se puede revertir), e in- / im- / ir- niegan el adjetivo (ir- solo delante de r: irreversible; im- delante de p y b: imprevisible)."
+        ],
+        "examples": [
+          {
+            "es": "Un sistema poco transparente no es confiable.",
+            "en": "A system that isn't transparent isn't reliable. (-ble = que se puede)"
+          },
+          {
+            "es": "El daño fue irreversible.",
+            "en": "The damage was irreversible. (ir- niega delante de r)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué significa «una decisión irrevocable»?",
+            "options": [
+              "que no se puede revocar",
+              "que se puede revocar fácilmente",
+              "que se revocó ayer",
+              "que nadie quiere revocar"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ble significa «que se puede» e ir- lo niega delante de r: irrevocable = que no se puede revocar. Las demás opciones ignoran el prefijo o el sufijo."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Niega el adjetivo con el prefijo correcto.",
+            "sentence": "Con tanta lluvia, es ___ que el vuelo salga a tiempo. (probable)",
+            "answer": "improbable",
+            "explanation": "Delante de p se usa im-: probable → improbable. In- delante de p se convierte en im-, e ir- solo va delante de r."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -14386,24 +14809,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los arrepentimientos y las decisiones de vida",
         "body": [
-          "Las 50 palabras de la lección «Condicional Perfecto y Pluscuamperfecto de Subjuntivo, Part 2 of 2», agrupadas para repasar.",
-          "Patrón 1, los verbos con se y preposición fija: arrepentirse de, liberarse de, replantearse, cuestionarse, perdonarse. El se forma parte del verbo (no existe «arrepentir» solo) y la preposición se aprende con él: me arrepiento de, se liberó de. Lo mismo pasa con verbos que ya conoces: atreverse a, olvidarse de, darse cuenta de.",
-          "Patrón 2, las familias de palabras: de un verbo sale un sustantivo en -miento, siempre masculino (arrepentirse → el arrepentimiento, remorder → el remordimiento). De un adjetivo salen sustantivos en -itud o -umbre, siempre femeninos (grato → la gratitud, pleno → la plenitud, incierto → la incertidumbre).",
-          "Patrón 3, ir- + -ble: -ble significa «que se puede», e ir- lo niega delante de r. Irrevocable = que no se puede revocar; irremediable = que no se puede remediar. Delante de otras letras se usa in- o im- (inevitable, imperdonable)."
-        ],
-        "examples": [
-          {
-            "es": "Con los años se arrepintió de no haber viajado más.",
-            "en": "Over the years he regretted not having travelled more. (arrepentirse de: se + preposición fija)"
-          },
-          {
-            "es": "El remordimiento no le dejaba dormir.",
-            "en": "Remorse wouldn't let him sleep. (remorder → el remordimiento, masculino)"
-          },
-          {
-            "es": "Lo que pasó ya es irremediable.",
-            "en": "What happened can no longer be remedied. (ir- + remediar + -ble)"
-          }
+          "Las 50 palabras de la lección «Condicional Perfecto y Pluscuamperfecto de Subjuntivo, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -14640,6 +15046,98 @@ const B2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Palabras 41-50 de este tema."
+          }
+        ]
+      },
+      {
+        "heading": "Patrón 1: verbos con se y preposición fija",
+        "body": [
+          "Patrón 1, los verbos con se y preposición fija: arrepentirse de, liberarse de, replantearse, cuestionarse, perdonarse. El se forma parte del verbo (no existe «arrepentir» solo) y la preposición se aprende con él: me arrepiento de, se liberó de. Lo mismo pasa con verbos que ya conoces: atreverse a, olvidarse de, darse cuenta de."
+        ],
+        "examples": [
+          {
+            "es": "Con los años se arrepintió de no haber viajado más.",
+            "en": "Over the years he regretted not having travelled more. (arrepentirse de: se + preposición fija)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Nunca me he atrevido ___ decirle lo que siento.»",
+            "options": [
+              "a",
+              "de",
+              "en",
+              "con"
+            ],
+            "correctIndex": 0,
+            "explanation": "Atreverse se aprende con su preposición: atreverse a algo. «De», «en» y «con» no van con atreverse; «de» es la de arrepentirse u olvidarse."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con la preposición.",
+            "sentence": "Por fin se liberó ___ todas sus deudas.",
+            "answer": "de",
+            "explanation": "Liberarse se aprende con su preposición: liberarse de algo, como arrepentirse de u olvidarse de."
+          }
+        ]
+      },
+      {
+        "heading": "Patrón 2: -miento masculino; -itud y -umbre femeninos",
+        "body": [
+          "Patrón 2, las familias de palabras: de un verbo sale un sustantivo en -miento, siempre masculino (arrepentirse → el arrepentimiento, remorder → el remordimiento). De un adjetivo salen sustantivos en -itud o -umbre, siempre femeninos (grato → la gratitud, pleno → la plenitud, incierto → la incertidumbre)."
+        ],
+        "examples": [
+          {
+            "es": "El remordimiento no le dejaba dormir.",
+            "en": "Remorse wouldn't let him sleep. (remorder → el remordimiento, masculino)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué combinación es correcta?",
+            "options": [
+              "el agradecimiento y la lentitud",
+              "la agradecimiento y el lentitud",
+              "el agradecimiento y el lentitud",
+              "la agradecimiento y la lentitud"
+            ],
+            "correctIndex": 0,
+            "explanation": "-miento es siempre masculino (el agradecimiento) e -itud siempre femenino (la lentitud). Las demás opciones cambian el género de uno de los dos o de ambos."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el sustantivo con -itud.",
+            "sentence": "Me sorprendió la ___ del salón. (amplio)",
+            "answer": "amplitud",
+            "explanation": "De un adjetivo sale un sustantivo en -itud, femenino: amplio → la amplitud, como pleno → la plenitud. Por eso «la» delante."
+          }
+        ]
+      },
+      {
+        "heading": "Patrón 3: ir- + -ble",
+        "body": [
+          "Patrón 3, ir- + -ble: -ble significa «que se puede», e ir- lo niega delante de r. Irrevocable = que no se puede revocar; irremediable = que no se puede remediar. Delante de otras letras se usa in- o im- (inevitable, imperdonable)."
+        ],
+        "examples": [
+          {
+            "es": "Lo que pasó ya es irremediable.",
+            "en": "What happened can no longer be remedied. (ir- + remediar + -ble)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué significa «un daño irreparable»?",
+            "options": [
+              "que no se puede reparar",
+              "que se puede reparar",
+              "que ya se reparó",
+              "que alguien debe reparar"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ble significa «que se puede» e ir- lo niega delante de r: irreparable = que no se puede reparar. Las demás opciones ignoran el prefijo o el sufijo."
           }
         ]
       }
@@ -15282,11 +15780,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Familias de palabras: del adjetivo al sustantivo",
+        "heading": "Del adjetivo al sustantivo: -idad, -ía, -ncia",
         "body": [
-          "Recuerda la regla: muchos adjetivos de carácter forman el sustantivo de la cualidad con -idad o -dad, siempre femenino: impulsivo → la impulsividad, vulnerable → la vulnerabilidad, inseguro → la inseguridad. Otros cambian la terminación: empático → la empatía, paciente → la paciencia, congruente → la congruencia (-nte → -ncia).",
-          "El prefijo auto- significa «a uno mismo» y forma palabras de la psicología: la autoestima, el autocontrol, el autoconocimiento, la autocompasión. ¿Por qué el género varía? Porque lo decide la segunda palabra: la estima → la autoestima (femenino, aunque empiece por a: la baja autoestima), el control → el autocontrol.",
-          "Además, varios verbos del tema son pronominales porque la acción recae sobre uno mismo: sincerarse con alguien (me sinceré con ella), no «sinceré con ella»."
+          "Recuerda la regla: muchos adjetivos de carácter forman el sustantivo de la cualidad con -idad o -dad, siempre femenino: impulsivo → la impulsividad, vulnerable → la vulnerabilidad, inseguro → la inseguridad. Otros cambian la terminación: empático → la empatía, paciente → la paciencia, congruente → la congruencia (-nte → -ncia)."
         ],
         "examples": [
           {
@@ -15296,10 +15792,6 @@ const B2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Admiro la paciencia de mi abuela.",
             "en": "I admire my grandmother's patience. (paciente → la paciencia)"
-          },
-          {
-            "es": "Tiene la autoestima muy baja.",
-            "en": "Her self-esteem is very low. (la estima → la autoestima, femenino)"
           }
         ],
         "checkpoint": [
@@ -15316,6 +15808,27 @@ const B2_BASE_LESSONS: Lesson[] = [
             "explanation": "Los adjetivos en -ivo forman la cualidad con -idad (femenino): impulsivo → la impulsividad, creativo → la creatividad. «La creación» existe, pero es la acción de crear, no la cualidad."
           },
           {
+            "type": "fill-blank",
+            "prompt": "Transforma el adjetivo en el sustantivo de la misma familia.",
+            "sentence": "Es una persona muy tolerante. → Su ___ con los demás es admirable.",
+            "answer": "tolerancia",
+            "explanation": "Los adjetivos en -nte forman el sustantivo con -ncia: tolerante → la tolerancia, igual que paciente → la paciencia y congruente → la congruencia."
+          }
+        ]
+      },
+      {
+        "heading": "Auto- = a uno mismo; el género lo da la segunda palabra",
+        "body": [
+          "El prefijo auto- significa «a uno mismo» y forma palabras de la psicología: la autoestima, el autocontrol, el autoconocimiento, la autocompasión. ¿Por qué el género varía? Porque lo decide la segunda palabra: la estima → la autoestima (femenino, aunque empiece por a: la baja autoestima), el control → el autocontrol."
+        ],
+        "examples": [
+          {
+            "es": "Tiene la autoestima muy baja.",
+            "en": "Her self-esteem is very low. (la estima → la autoestima, femenino)"
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
             "question": "Con auto- = «a uno mismo», ¿qué es «la autocrítica»?",
             "options": [
@@ -15326,6 +15839,44 @@ const B2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Auto- indica que la acción recae sobre uno mismo, como en autoestima o autocontrol. Es femenino porque «crítica» es femenino: la autocrítica."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál es correcta?",
+            "options": [
+              "Trabaja su autoestima con una terapeuta.",
+              "Trabaja su autoestimo con una terapeuta.",
+              "Trabaja su autoestimación con un terapeuta.",
+              "Trabaja su estimaauto con una terapeuta."
+            ],
+            "correctIndex": 0,
+            "explanation": "La palabra es «la autoestima» (auto- + la estima). «Autoestimo» y «autoestimación» no existen, y en español el prefijo va delante, nunca detrás."
+          }
+        ]
+      },
+      {
+        "heading": "Verbos pronominales: la acción recae sobre uno mismo",
+        "body": [
+          "Además, varios verbos del tema son pronominales porque la acción recae sobre uno mismo: sincerarse con alguien (me sinceré con ella), no «sinceré con ella»."
+        ],
+        "examples": [
+          {
+            "es": "Al final se sinceró con su terapeuta.",
+            "en": "In the end he opened up to his therapist. (sincerarse con)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Por fin ___ con mi hermana y le conté todo.»",
+            "options": [
+              "me sinceré",
+              "sinceré",
+              "le sinceré",
+              "nos sinceré"
+            ],
+            "correctIndex": 0,
+            "explanation": "Sincerarse es pronominal: el pronombre corresponde a quien habla, que es también sobre quien recae la acción → me sinceré con ella. Sin pronombre («sinceré») o con otro («le», «nos») el verbo no funciona."
           }
         ]
       }
@@ -15362,28 +15913,9 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Transforma el adjetivo en el sustantivo de la misma familia.",
-        "sentence": "Es una persona muy tolerante. → Su ___ con los demás es admirable.",
-        "answer": "tolerancia",
-        "explanation": "Los adjetivos en -nte forman el sustantivo con -ncia: tolerante → la tolerancia, igual que paciente → la paciencia y congruente → la congruencia."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Transforma el adjetivo en el sustantivo de la misma familia.",
         "sentence": "Mi hijo es muy sensible. → Su ___ le hace sufrir con las películas tristes.",
         "answer": "sensibilidad",
         "explanation": "Los adjetivos en -ble forman la cualidad con -bilidad: sensible → la sensibilidad, como vulnerable → la vulnerabilidad. Es femenino, como todos los sustantivos en -dad."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Cuál es correcta?",
-        "options": [
-          "Trabaja su autoestima con una terapeuta.",
-          "Trabaja su autoestimo con una terapeuta.",
-          "Trabaja su autoestimación con un terapeuta.",
-          "Trabaja su estimaauto con una terapeuta."
-        ],
-        "correctIndex": 0,
-        "explanation": "La palabra es «la autoestima» (auto- + la estima). «Autoestimo» y «autoestimación» no existen, y en español el prefijo va delante, nunca detrás."
       }
     ]
   },
@@ -15735,8 +16267,27 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Familias de palabras: del verbo al sustantivo",
         "body": [
           "Gran parte del vocabulario del debate se aprende de dos en dos, porque el español forma sustantivos y adjetivos a partir de verbos con unas pocas terminaciones fijas. Si conoces el verbo, puedes deducir la palabra de la misma familia aunque nunca la hayas visto.",
-          "Las más útiles: verbo en -ar → sustantivo en -ación (refutar → la refutación, fundamentar → la fundamentación); verbo en -izar → -ización (generalizar → la generalización, polarizar → la polarización); muchos verbos en -ir y -er cambian más: -dir → -sión (persuadir → la persuasión), -ducir → -ducción (deducir → la deducción), -cluir → -clusión (concluir → la conclusión). Los adjetivos que expresan capacidad terminan en -ivo/-iva (persuasivo, ilustrativo, argumentativo). Todos los sustantivos en -ción y -sión son femeninos, y en plural pierden la tilde: las objeciones.",
           "¿Por qué importa? En un texto formal se prefiere el sustantivo al verbo («La polarización del debate preocupa» en lugar de «Que el debate se polarice preocupa»), y en el registro de B2 ese cambio es constante."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué versión prefiere un texto formal?",
+            "options": [
+              "La privatización del servicio generó protestas.",
+              "Que privatizaran el servicio generó protestas.",
+              "Como privatizaron el servicio, la gente protestó.",
+              "Privatizaron el servicio y la gente protestó."
+            ],
+            "correctIndex": 0,
+            "explanation": "En un texto formal se prefiere el sustantivo al verbo: la privatización (privatizar, -izar → -ización). Las otras versiones dicen lo mismo con verbos, como en la conversación."
+          }
+        ]
+      },
+      {
+        "heading": "-ar → -ación, -izar → -ización",
+        "body": [
+          "Las más útiles: verbo en -ar → sustantivo en -ación (refutar → la refutación, fundamentar → la fundamentación); verbo en -izar → -ización (generalizar → la generalización, polarizar → la polarización). Todos los sustantivos en -ción y -sión son femeninos, y en plural pierden la tilde: las objeciones."
         ],
         "examples": [
           {
@@ -15746,14 +16297,6 @@ const B2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Las redes polarizan el debate. → La polarización del debate es evidente.",
             "en": "Social media polarise the debate. → The polarisation of the debate is obvious. (-izar → -ización)"
-          },
-          {
-            "es": "Supo persuadir al jurado: fue muy persuasiva.",
-            "en": "She managed to persuade the jury: she was very persuasive. (-dir → -sivo)"
-          },
-          {
-            "es": "De estos datos se deduce otra cosa: tu deducción es errónea.",
-            "en": "Something else follows from these data: your deduction is wrong. (-ducir → -ducción)"
           }
         ],
         "checkpoint": [
@@ -15771,6 +16314,36 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
+            "question": "¿Cuál es el sustantivo de «organizar»?",
+            "options": [
+              "la organización",
+              "el organizamiento",
+              "la organizasión",
+              "el organizado"
+            ],
+            "correctIndex": 0,
+            "explanation": "Verbo en -izar → sustantivo en -ización, femenino: organizar → la organización, como polarizar → la polarización. Se escribe con c: -ción."
+          }
+        ]
+      },
+      {
+        "heading": "-dir, -ducir, -cluir y los adjetivos en -ivo",
+        "body": [
+          "Muchos verbos en -ir y -er cambian más: -dir → -sión (persuadir → la persuasión), -ducir → -ducción (deducir → la deducción), -cluir → -clusión (concluir → la conclusión). Los adjetivos que expresan capacidad terminan en -ivo/-iva (persuasivo, ilustrativo, argumentativo)."
+        ],
+        "examples": [
+          {
+            "es": "Supo persuadir al jurado: fue muy persuasiva.",
+            "en": "She managed to persuade the jury: she was very persuasive. (-dir → -sivo)"
+          },
+          {
+            "es": "De estos datos se deduce otra cosa: tu deducción es errónea.",
+            "en": "Something else follows from these data: your deduction is wrong. (-ducir → -ducción)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
             "question": "¿Y el sustantivo de «introducir» (introducir un tema en el debate)?",
             "options": [
               "la introducción",
@@ -15780,6 +16353,18 @@ const B2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Los verbos en -ducir forman el sustantivo en -ducción: introducir → la introducción, como deducir → la deducción o producir → la producción. «Introducsión» mezcla la terminación -sión, que es la de los verbos en -dir (persuadir → persuasión)."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál es el sustantivo de «excluir»?",
+            "options": [
+              "la exclusión",
+              "la excluición",
+              "el excluimiento",
+              "la exclución"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los verbos en -cluir forman el sustantivo en -clusión: excluir → la exclusión, como concluir → la conclusión. -ción es la terminación de los verbos en -ar."
           }
         ]
       },
@@ -16069,8 +16654,27 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Familias de palabras en el escenario",
         "body": [
           "El vocabulario de la música y del teatro se aprende mejor por familias, porque el español forma la persona, la acción y el contrario con unas pocas terminaciones fijas. Si conoces una palabra, puedes deducir las demás aunque nunca las hayas visto.",
-          "La regla: la acción o su resultado suele ir en -ción/-sión, femenino (interpretar → la interpretación, improvisar → la improvisación). La persona que lo hace va en -dor/-tor, -nte o -ista (dirigir → el director, cantar → el/la cantante, el piano → el/la pianista, el solo → el/la solista); las formas en -ista y -nte no cambian para el femenino, pero -dor/-tor sí (la directora, la compositora). Y el prefijo des- da el contrario de un adjetivo o participio (afinado → desafinado).",
           "¿Por qué importa? Porque así pasas de un verbo que conoces («el público aplaudió») a un sustantivo formal («el aplauso del público»), que es lo que se espera en una crítica o una reseña de B2. Cuidado: componer da compositor, no «componedor»."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En una reseña, ¿qué versión usa el sustantivo formal?",
+            "options": [
+              "La dirección de la obra fue impecable.",
+              "Dirigieron la obra de una manera impecable.",
+              "Cómo dirigieron la obra fue impecable.",
+              "Que dirigieran así la obra fue impecable."
+            ],
+            "correctIndex": 0,
+            "explanation": "En una crítica se espera el sustantivo formal de la familia: dirigir → la dirección. Las otras versiones repiten el verbo, como en la conversación."
+          }
+        ]
+      },
+      {
+        "heading": "La acción y la persona",
+        "body": [
+          "La regla: la acción o su resultado suele ir en -ción/-sión, femenino (interpretar → la interpretación, improvisar → la improvisación). La persona que lo hace va en -dor/-tor, -nte o -ista (dirigir → el director, cantar → el/la cantante, el piano → el/la pianista, el solo → el/la solista); las formas en -ista y -nte no cambian para el femenino, pero -dor/-tor sí (la directora, la compositora)."
         ],
         "examples": [
           {
@@ -16080,10 +16684,6 @@ const B2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Los músicos improvisaron y la improvisación duró diez minutos.",
             "en": "The musicians improvised and the improvisation lasted ten minutes. (-ar → -ación)"
-          },
-          {
-            "es": "Ayer el piano estaba afinado, pero hoy está desafinado.",
-            "en": "Yesterday the piano was in tune, but today it's out of tune. (des- = contrario)"
           },
           {
             "es": "La violinista toca como solista con la orquesta.",
@@ -16114,7 +16714,21 @@ const B2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Con un instrumento, la persona se forma con -ista, que sirve igual para hombre y mujer: el/la violonchelista, como el/la pianista."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "El contrario con des-",
+        "body": [
+          "Y el prefijo des- da el contrario de un adjetivo o participio (afinado → desafinado)."
+        ],
+        "examples": [
+          {
+            "es": "Ayer el piano estaba afinado, pero hoy está desafinado.",
+            "en": "Yesterday the piano was in tune, but today it's out of tune. (des- = contrario)"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "«Acompasado» significa que sigue el compás. ¿Cuál es su contrario?",

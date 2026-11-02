@@ -6613,7 +6613,26 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "The idea: para points ahead, por looks back",
         "body": [
-          "English uses \"for\" for both, so you need a test. Para points forward to a goal: where you're heading, when it's due, what it's for, who will get it. Por looks back to a cause or goes through something: why it happened, how long it lasted, what you swapped, where you passed through.",
+          "English uses \"for\" for both, so you need a test. Para points forward to a goal: where you're heading, when it's due, what it's for, who will get it. Por looks back to a cause or goes through something: why it happened, how long it lasted, what you swapped, where you passed through."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Apply the idea. In which sentence does \"for\" look back to a cause, so Spanish uses por?",
+            "options": [
+              "Thanks for the help.",
+              "This coffee is for my mother.",
+              "I'm leaving for Lima.",
+              "The report is for Monday."
+            ],
+            "correctIndex": 0,
+            "explanation": "The help already happened: it is the reason you are thanking someone, so it looks back (gracias por la ayuda). The other three point ahead to a recipient, a destination and a deadline, so they take para."
+          }
+        ]
+      },
+      {
+        "heading": "The test, and the four jobs of para",
+        "body": [
           "Why it works: ask \"for what end?\" or \"because of what?\". If the answer is a goal still ahead (to become a doctor, by Friday, for you), use para. If it's a reason, a duration, an exchange or a route, use por.",
           "Para marks a destination (where to), a deadline, a purpose (what for) or a recipient (who for)."
         ],
@@ -7392,12 +7411,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "What is the personal a?",
+        "heading": "The personal a: a marks a person",
         "body": [
           "In Spanish, when the direct object of a sentence is a specific person (or a pet we treat as an individual with its own name), you put the word a right before that direct object. This personal a isn't translated into English: it simply marks that the direct object is someone, not something.",
-          "Why does Spanish need it? Word order is free in Spanish (Juan ve a María, A María la ve Juan), and both nouns could be the one doing the action. The a tags the person who receives the action, so you always know who sees whom. Things can't be confused with the doer, so they don't need the tag.",
-          "Compare these two sentences: Veo a María (I see María) and Veo la casa (I see the house). In the first, María is a specific person, so we use a. In the second, la casa is a thing, so we don't.",
-          "Remember that a combines with the article el to make al: Veo al profesor (a + el profesor = al profesor)."
+          "Compare these two sentences: Veo a María (I see María) and Veo la casa (I see the house). In the first, María is a specific person, so we use a. In the second, la casa is a thing, so we don't."
         ],
         "examples": [
           {
@@ -7407,14 +7424,6 @@ const A2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Busco a mi hermano.",
             "en": "I'm looking for my brother."
-          },
-          {
-            "es": "Llamo a mi amiga todos los días.",
-            "en": "I call my friend every day."
-          },
-          {
-            "es": "Veo al profesor en la oficina.",
-            "en": "I see the professor in the office."
           },
           {
             "es": "Veo la casa desde aquí.",
@@ -7427,11 +7436,61 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
+            "type": "multiple-choice",
+            "question": "Which sentence needs the personal a?",
+            "options": [
+              "Conozco ___ tu padre.",
+              "Conozco ___ tu ciudad.",
+              "Leo ___ una revista.",
+              "Bebo ___ agua."
+            ],
+            "correctIndex": 0,
+            "explanation": "Tu padre is a specific person who receives the action, so he gets the personal a: Conozco a tu padre. A city, a magazine and water are things, so no a."
+          },
+          {
             "type": "fill-blank",
             "prompt": "Complete the sentence with the personal a if it's needed: \"I visit my grandmother on Sundays.\"",
             "sentence": "Visito ___ mi abuela los domingos.",
             "answer": "a",
             "explanation": "Mi abuela is a specific person and the direct object of visitar, so it takes the personal a."
+          }
+        ]
+      },
+      {
+        "heading": "Why it is there, and a + el = al",
+        "body": [
+          "Why does Spanish need it? Word order is free in Spanish (Juan ve a María, A María la ve Juan), and both nouns could be the one doing the action. The a tags the person who receives the action, so you always know who sees whom. Things can't be confused with the doer, so they don't need the tag.",
+          "Remember that a combines with the article el to make al: Veo al profesor (a + el profesor = al profesor)."
+        ],
+        "examples": [
+          {
+            "es": "Llamo a mi amiga todos los días.",
+            "en": "I call my friend every day."
+          },
+          {
+            "es": "Veo al profesor en la oficina.",
+            "en": "I see the professor in the office."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "A Pedro lo busca Ana. Who is looking for whom?",
+            "options": [
+              "Ana is looking for Pedro.",
+              "Pedro is looking for Ana.",
+              "Pedro and Ana are looking for someone.",
+              "Somebody is looking for Ana."
+            ],
+            "correctIndex": 0,
+            "explanation": "The personal a tags the person who receives the action, even when he comes first: a Pedro is the one being looked for, so Ana is the one looking. Word order alone would not tell you."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with a or al.",
+            "sentence": "Espero ___ médico en la sala.",
+            "answer": "al",
+            "explanation": "Médico is a person, so he takes the personal a, and a + el always joins to make al. A el is never written, and a on its own would leave out the article."
           }
         ]
       },
@@ -7710,12 +7769,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "The double negative in Spanish",
+        "heading": "No + verb + negative word",
         "body": [
           "Unlike English, Spanish requires two negatives in the same sentence when the negative word comes after the verb: no + verb + negative word. This double negative is required and correct in Spanish, even though it sounds redundant in English.",
-          "Compare: No veo a nadie is literally I don't see nobody, but in natural English we say I don't see anybody. Spanish always needs no before the verb when the negative word comes after it.",
-          "If the negative word goes before the verb, no disappears: Nadie viene a la fiesta (Nobody is coming to the party), with no no.",
-          "The one rule behind both patterns: something negative must stand in front of the verb. Either no goes there and the negative word follows (No viene nadie), or the negative word itself goes first (Nadie viene). In Spanish, negatives don't cancel each other out as in English logic; they agree, like an adjective agrees with its noun."
+          "Compare: No veo a nadie is literally I don't see nobody, but in natural English we say I don't see anybody. Spanish always needs no before the verb when the negative word comes after it."
         ],
         "examples": [
           {
@@ -7723,12 +7780,42 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "I don't see anybody in the room."
           },
           {
-            "es": "Nadie viene a la fiesta.",
-            "en": "Nobody is coming to the party."
-          },
-          {
             "es": "No tengo nada en la mochila.",
             "en": "I don't have anything in my backpack."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Which is the correct Spanish for \"I don't buy anything\"?",
+            "options": [
+              "No compro nada.",
+              "Compro nada.",
+              "No compro algo.",
+              "Nada no compro."
+            ],
+            "correctIndex": 0,
+            "explanation": "When the negative word nada comes after the verb, no must stand before the verb: No compro nada. Compro nada leaves the front empty, no... algo mixes a negative with a positive word, and nada no puts two negatives in front."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with the correct double negative.",
+            "sentence": "___ como nada antes de las ocho de la mañana.",
+            "answer": "No",
+            "explanation": "Nada comes after the verb (como), so the sentence needs no before the verb: No como nada."
+          }
+        ]
+      },
+      {
+        "heading": "Negative word first: no disappears",
+        "body": [
+          "If the negative word goes before the verb, no disappears: Nadie viene a la fiesta (Nobody is coming to the party), with no no.",
+          "The one rule behind both patterns: something negative must stand in front of the verb. Either no goes there and the negative word follows (No viene nadie), or the negative word itself goes first (Nadie viene). In Spanish, negatives don't cancel each other out as in English logic; they agree, like an adjective agrees with its noun."
+        ],
+        "examples": [
+          {
+            "es": "Nadie viene a la fiesta.",
+            "en": "Nobody is coming to the party."
           },
           {
             "es": "Nunca voy al gimnasio los domingos.",
@@ -7736,13 +7823,6 @@ const A2_BASE_LESSONS: Lesson[] = [
           }
         ],
         "checkpoint": [
-          {
-            "type": "fill-blank",
-            "prompt": "Complete with the correct double negative.",
-            "sentence": "___ como nada antes de las ocho de la mañana.",
-            "answer": "No",
-            "explanation": "Nada comes after the verb (como), so the sentence needs no before the verb: No como nada."
-          },
           {
             "type": "multi-select",
             "question": "\"Nobody calls me.\" Which sentences are correct? (Choose all that apply)",
@@ -7757,6 +7837,17 @@ const A2_BASE_LESSONS: Lesson[] = [
               1
             ],
             "explanation": "Something negative must stand before the verb: either nadie itself (Nadie me llama) or no, with nadie after (No me llama nadie). Nadie no doubles it before the verb, and Me llama nadie has nothing negative in front."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Correct the sentence.",
+            "source": "Nadie no contesta el teléfono.",
+            "answer": "Nadie contesta el teléfono.",
+            "altAnswers": [
+              "No contesta nadie el teléfono."
+            ],
+            "explanation": "Something negative must stand in front of the verb, and only one thing goes there. Nadie is already in front, so no has to go: Nadie contesta. The other way round is also right: No contesta nadie."
           }
         ]
       },
@@ -7858,11 +7949,9 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Tampoco and ni...ni",
+        "heading": "Tampoco: the negative partner of también",
         "body": [
-          "Tampoco means neither or not...either, and it is the negative answer to también. Use it to add a negative to something already negated: No me gusta el café. A mí tampoco. (I don't like coffee. Me neither.)",
-          "Ni...ni means neither...nor and negates two things at once: No como ni carne ni pescado (I eat neither meat nor fish). When ni...ni comes before the verb, you don't need no: Ni Juan ni Pedro vinieron a la reunión.",
-          "Remember the rule from Part 1: something negative must stand before the verb. Tampoco and ni follow it exactly like nunca and nadie: in front of the verb they stand alone (Yo tampoco voy), after the verb they need no in front (No voy tampoco). Each one is simply the negative partner of an affirmative word: también → tampoco, o...o → ni...ni."
+          "Tampoco means neither or not...either, and it is the negative answer to también. Use it to add a negative to something already negated: No me gusta el café. A mí tampoco. (I don't like coffee. Me neither.)"
         ],
         "examples": [
           {
@@ -7872,7 +7961,29 @@ const A2_BASE_LESSONS: Lesson[] = [
           {
             "es": "No quiero salir esta noche. Yo tampoco.",
             "en": "I don't want to go out tonight. Me neither."
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "\"My cousins don't play tennis either.\" Which sentence is correct?",
+            "options": [
+              "Mis primos tampoco juegan al tenis.",
+              "Mis primos no tampoco juegan al tenis.",
+              "Mis primos también no juegan al tenis.",
+              "Mis primos tampoco no juegan al tenis."
+            ],
+            "correctIndex": 0,
+            "explanation": "Tampoco before the verb is the negative in front, so it stands alone. 'También no' doesn't exist (the negative partner of también is tampoco), and adding no next to tampoco doubles the negative before the verb."
+          }
+        ]
+      },
+      {
+        "heading": "Ni...ni: neither...nor",
+        "body": [
+          "Ni...ni means neither...nor and negates two things at once: No como ni carne ni pescado (I eat neither meat nor fish). When ni...ni comes before the verb, you don't need no: Ni Juan ni Pedro vinieron a la reunión."
+        ],
+        "examples": [
           {
             "es": "No como ni carne ni pescado.",
             "en": "I eat neither meat nor fish."
@@ -7902,18 +8013,37 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "translation": "Neither my father nor my mother is cooking today.",
             "explanation": "When ni...ni comes before the verb, you don't add no: the two ni words already make the sentence negative."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "The same rule as nunca and nadie",
+        "body": [
+          "Remember the rule from Part 1: something negative must stand before the verb. Tampoco and ni follow it exactly like nunca and nadie: in front of the verb they stand alone (Yo tampoco voy), after the verb they need no in front (No voy tampoco). Each one is simply the negative partner of an affirmative word: también → tampoco, o...o → ni...ni."
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "\"My cousins don't play tennis either.\" Which sentence is correct?",
+            "question": "Which sentence is correct?",
             "options": [
-              "Mis primos tampoco juegan al tenis.",
-              "Mis primos no tampoco juegan al tenis.",
-              "Mis primos también no juegan al tenis.",
-              "Mis primos tampoco no juegan al tenis."
+              "No voy tampoco.",
+              "Voy tampoco.",
+              "Tampoco no voy.",
+              "No tampoco voy."
             ],
             "correctIndex": 0,
-            "explanation": "Tampoco before the verb is the negative in front, so it stands alone. 'También no' doesn't exist (the negative partner of también is tampoco), and adding no next to tampoco doubles the negative before the verb."
+            "explanation": "Something negative must stand before the verb. With tampoco after the verb, no goes in front: No voy tampoco. Voy tampoco has nothing negative in front, Tampoco no voy puts two negatives there, and no tampoco is not a Spanish order."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Correct the sentence.",
+            "source": "Ni el bar ni la tienda no abren hoy.",
+            "answer": "Ni el bar ni la tienda abren hoy.",
+            "altAnswers": [
+              "No abren hoy ni el bar ni la tienda."
+            ],
+            "explanation": "Ni...ni already stands in front of the verb, so it makes the sentence negative by itself and no has to go. With the verb first, you would say No abren hoy ni el bar ni la tienda."
           }
         ]
       },
@@ -8074,11 +8204,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "How to form -mente adverbs",
+        "heading": "Feminine adjective + -mente",
         "body": [
           "To form an adverb of manner from an adjective, take the feminine singular form of the adjective and add -mente. This ending works like -ly in English.",
-          "If the masculine adjective ends in -o, change it to -a before adding -mente: rápido becomes rápida and then rápidamente. If the adjective has one form for masculine and feminine (it ends in -e or a consonant), just add -mente to that form: fácil becomes fácilmente; elegante becomes elegantemente.",
-          "Why feminine? -mente was once a separate feminine noun, la mente (the mind). Clara mente meant 'with a clear mind', so the adjective had to agree with mente in the feminine. The two words later fused into one, which is also why the adjective keeps its own accent (see the next section)."
+          "If the masculine adjective ends in -o, change it to -a before adding -mente: rápido becomes rápida and then rápidamente. If the adjective has one form for masculine and feminine (it ends in -e or a consonant), just add -mente to that form: fácil becomes fácilmente; elegante becomes elegantemente."
         ],
         "examples": [
           {
@@ -8092,10 +8221,6 @@ const A2_BASE_LESSONS: Lesson[] = [
           {
             "es": "fácil → fácilmente",
             "en": "easily"
-          },
-          {
-            "es": "feliz → felizmente",
-            "en": "happily"
           },
           {
             "es": "elegante → elegantemente",
@@ -8122,6 +8247,32 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Tranquilo ends in -o, so switch to the feminine tranquila and add -mente: tranquilamente. Tranquilomente keeps the masculine -o, the classic mistake."
+          }
+        ]
+      },
+      {
+        "heading": "Why feminine? It was la mente",
+        "body": [
+          "Why feminine? -mente was once a separate feminine noun, la mente (the mind). Clara mente meant 'with a clear mind', so the adjective had to agree with mente in the feminine. The two words later fused into one, which is also why the adjective keeps its own accent (see the next section)."
+        ],
+        "examples": [
+          {
+            "es": "feliz → felizmente",
+            "en": "happily"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Why is \"quietly\" silenciosamente and not silenciosomente?",
+            "options": [
+              "Because -mente was once the feminine noun la mente, so the adjective agrees with it",
+              "Because adverbs are always feminine in Spanish",
+              "Because -o words never take endings",
+              "Because it is easier to say"
+            ],
+            "correctIndex": 0,
+            "explanation": "La mente (the mind) is feminine, and the adjective once agreed with it as a separate word: silenciosa mente, 'with a quiet mind'. The words fused, but the feminine -a stayed. Adverbs have no gender of their own, so the other reasons don't hold."
           }
         ]
       },
@@ -8218,11 +8369,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Two or more -mente adverbs in a row",
+        "heading": "Two adverbs in a row: only the last takes -mente",
         "body": [
           "When two or more -mente adverbs come in a row, joined by y or pero, normally only the last one takes -mente. The ones before it stay in their plain feminine form, without -mente.",
-          "For example, instead of Habló claramente y lentamente (correct, but repetitive), it's more natural to say Habló clara y lentamente. The -mente on the last adverb is understood to apply to the earlier ones too.",
-          "Remember where -mente comes from: the feminine noun mente (mind). Clara y lentamente was once 'with a clear and slow mind', one noun shared by two adjectives. That's why the earlier ones stay feminine (clara, not claro) and why one -mente is enough."
+          "For example, instead of Habló claramente y lentamente (correct, but repetitive), it's more natural to say Habló clara y lentamente. The -mente on the last adverb is understood to apply to the earlier ones too."
         ],
         "examples": [
           {
@@ -8236,13 +8386,21 @@ const A2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Trabaja rápida pero cuidadosamente.",
             "en": "She works quickly but carefully."
-          },
-          {
-            "es": "Respondió honesta y abiertamente.",
-            "en": "He answered honestly and openly."
           }
         ],
         "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "\"They drove slowly and safely.\" Which is the most natural?",
+            "options": [
+              "Condujeron lenta y seguramente.",
+              "Condujeron lento y seguramente.",
+              "Condujeron lentamente y segura.",
+              "Condujeron lentos y seguros."
+            ],
+            "correctIndex": 0,
+            "explanation": "Only the last adverb takes -mente, and the first stays in the feminine form (lenta), because both share the one feminine -mente. Lento keeps the masculine, and lentos / seguros are adjectives agreeing with 'they'."
+          },
           {
             "type": "word-order",
             "prompt": "Put the words in the right order.",
@@ -8256,7 +8414,21 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "translation": "She wrote the report clearly and carefully.",
             "explanation": "When two -mente adverbs are joined by y, normally only the second takes -mente: clara y cuidadosamente (claramente y cuidadosamente is correct but heavier)."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Why one -mente is enough",
+        "body": [
+          "Remember where -mente comes from: the feminine noun mente (mind). Clara y lentamente was once 'with a clear and slow mind', one noun shared by two adjectives. That's why the earlier ones stay feminine (clara, not claro) and why one -mente is enough."
+        ],
+        "examples": [
+          {
+            "es": "Respondió honesta y abiertamente.",
+            "en": "He answered honestly and openly."
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "\"They drove slowly and carefully.\" Which is the most natural?",
@@ -8486,8 +8658,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "To give directions to a stranger in the street, Spanish normally uses the formal usted command, not the tú command, because you're talking to someone you don't know.",
           "The most common verbs are seguir (siga), continuar (continúe), girar (gire), doblar (doble), cruzar (cruce) and tomar (tome).",
-          "Siga/continúe derecho means go straight. Gire/doble a la derecha or a la izquierda means turn right/left. Cruce la calle means cross the street. Tome la primera/segunda calle means take the first/second street.",
-          "How to build any usted command: start from the yo form of the present, drop the -o, and add the 'opposite' vowel: -ar verbs take -e (tomo → tome, giro → gire), -er and -ir verbs take -a (sigo → siga, vuelvo → vuelva). The vowel swap is the signal that this is an instruction, not a statement (usted toma = you take; tome = take!). Spelling adjusts to keep the sound: cruzar → cruce."
+          "Siga/continúe derecho means go straight. Gire/doble a la derecha or a la izquierda means turn right/left. Cruce la calle means cross the street. Tome la primera/segunda calle means take the first/second street."
         ],
         "examples": [
           {
@@ -8509,13 +8680,33 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
+            "type": "multiple-choice",
+            "question": "Tell a stranger: \"Turn right.\"",
+            "options": [
+              "Gire a la derecha.",
+              "Gira a la derecha.",
+              "Girar a la derecha.",
+              "Giro a la derecha."
+            ],
+            "correctIndex": 0,
+            "explanation": "A stranger in the street gets the usted command: gire. Gira is the tú command (for a friend), girar is just the infinitive, and giro means \"I turn\"."
+          },
+          {
             "type": "fill-blank",
             "prompt": "Complete the formal command to give directions.",
             "sentence": "___ derecho dos cuadras y después gire a la derecha.",
             "answer": "Siga",
             "hint": "The usted command of seguir.",
             "explanation": "Siga is the formal (usted) command of seguir, the right form for giving an instruction to a stranger."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "How to build any usted command",
+        "body": [
+          "How to build any usted command: start from the yo form of the present, drop the -o, and add the 'opposite' vowel: -ar verbs take -e (tomo → tome, giro → gire), -er and -ir verbs take -a (sigo → siga, vuelvo → vuelva). The vowel swap is the signal that this is an instruction, not a statement (usted toma = you take; tome = take!). Spelling adjusts to keep the sound: cruzar → cruce."
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Subir means 'to go up'. Tell a stranger: \"Go up this street.\"",
@@ -8527,6 +8718,16 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Subir is an -ir verb, so the usted command takes the opposite vowel -a: subo → suba. Sube is the tú command (or 'he goes up'), and the infinitive isn't a command."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Poner (yo pongo): give the usted command.",
+            "sentence": "___ el mapa en la mesa, por favor.",
+            "answer": "Ponga",
+            "altAnswers": [
+              "ponga"
+            ],
+            "explanation": "Start from the yo form pongo, drop the -o and add the opposite vowel: poner is an -er verb, so it takes -a: ponga. Pone would be \"you put\" (a statement), and pongue swaps in the -ar vowel."
           }
         ]
       }
@@ -8811,27 +9012,39 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Arriving: your booking and your table",
+        "heading": "The principle: soften every request",
         "body": [
           "The principle of restaurant Spanish is to soften every request. Instead of a bare quiero or a command like dame, use a softened form: quisiera or quería (I'd like), ¿podría...? or ¿me trae...? (could you...?), or para mí... (for me...).",
-          "Why: a bare quiero or dame sounds demanding to a waiter, while the softened forms are what people actually say. The politeness comes from the verb form itself (quisiera, podríamos), not only from adding por favor.",
+          "Why: a bare quiero or dame sounds demanding to a waiter, while the softened forms are what people actually say. The politeness comes from the verb form itself (quisiera, podríamos), not only from adding por favor."
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "Which of these are softened requests you can make to a waiter? Choose all that apply.",
+            "options": [
+              "¿Me trae un vaso de agua?",
+              "¿Podría traerme un vaso de agua?",
+              "Dame un vaso de agua.",
+              "Quiero un vaso de agua."
+            ],
+            "correctIndexes": [
+              0,
+              1
+            ],
+            "explanation": "¿Me trae...? and ¿Podría...? ask rather than order, so they sound polite. Dame is a bare command and a bare quiero sounds demanding, even though both are grammatically fine."
+          }
+        ]
+      },
+      {
+        "heading": "Arriving: your booking",
+        "body": [
           "Before you sit down, it's normal to say whether you have a reservation. If you don't, you can simply ask whether there's a table free.",
-          "The phrase Tengo una reserva a nombre de... (I have a reservation under the name...) is how you give your name to the waiter or waitress when you arrive.",
-          "You can also ask for a particular spot, such as una mesa junto a la ventana (a table by the window), or say how many you are: una mesa para dos (a table for two).",
-          "Smoking is now banned inside restaurants in Spain and almost all of Latin America, so you may be asked whether you'd rather sit dentro (inside) or en la terraza (outside)."
+          "The phrase Tengo una reserva a nombre de... (I have a reservation under the name...) is how you give your name to the waiter or waitress when you arrive."
         ],
         "examples": [
           {
             "es": "Tengo una reserva a nombre de Carlos.",
             "en": "I have a reservation under the name Carlos."
-          },
-          {
-            "es": "¿Tiene una mesa para dos, por favor?",
-            "en": "Do you have a table for two, please?"
-          },
-          {
-            "es": "¿Podríamos sentarnos junto a la ventana?",
-            "en": "Could we sit by the window?"
           }
         ],
         "checkpoint": [
@@ -8847,24 +9060,53 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Key restaurant vocabulary",
+        "heading": "Your table: where and for how many",
         "body": [
-          "There are a few essential words you'll need to recognize in any Spanish-speaking restaurant.",
-          "One important difference is regional: in Spain a waiter or waitress is el camarero / la camarera, while much of Latin America prefers el mesero / la mesera. Both are understood almost everywhere, but it helps to know which is more common in each country.",
-          "La carta (in many countries also called el menú) lists the dishes; in Spain, el menú usually means the fixed-price menú del día. El plato del día is today's special. A typical meal has la entrada (starter), el plato principal (main course) and el postre (dessert), with una bebida (a drink). At the end, don't forget la propina (tip)."
+          "You can also ask for a particular spot, such as una mesa junto a la ventana (a table by the window), or say how many you are: una mesa para dos (a table for two).",
+          "Smoking is now banned inside restaurants in Spain and almost all of Latin America, so you may be asked whether you'd rather sit dentro (inside) or en la terraza (outside)."
         ],
         "examples": [
           {
-            "es": "¿Nos puede traer la carta, por favor?",
-            "en": "Could you bring us the menu, please?"
+            "es": "¿Tiene una mesa para dos, por favor?",
+            "en": "Do you have a table for two, please?"
           },
+          {
+            "es": "¿Podríamos sentarnos junto a la ventana?",
+            "en": "Could we sit by the window?"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "It is a sunny day and you want to eat outside. What do you ask for?",
+            "options": [
+              "Una mesa en la terraza, por favor.",
+              "Una mesa dentro, por favor.",
+              "Una mesa junto a la ventana, por favor.",
+              "Una mesa para la terraza, por favor."
+            ],
+            "correctIndex": 0,
+            "explanation": "Outside is en la terraza. Dentro means inside, junto a la ventana is by the window (still inside), and para la terraza would mean a table meant for the terrace, not where you want to sit."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete the request.",
+            "sentence": "Una mesa ___ cuatro, por favor.",
+            "answer": "para",
+            "explanation": "How many people the table is for is para + number: una mesa para cuatro. De cuatro or por cuatro are not how it is said."
+          }
+        ]
+      },
+      {
+        "heading": "Who serves you: camarero or mesero",
+        "body": [
+          "There are a few essential words you'll need to recognize in any Spanish-speaking restaurant.",
+          "One important difference is regional: in Spain a waiter or waitress is el camarero / la camarera, while much of Latin America prefers el mesero / la mesera. Both are understood almost everywhere, but it helps to know which is more common in each country."
+        ],
+        "examples": [
           {
             "es": "El mesero nos recomendó el plato del día.",
             "en": "The waiter recommended the daily special to us. (Mesero is Latin American; in Spain: camarero.)"
-          },
-          {
-            "es": "De postre, quiero un flan.",
-            "en": "For dessert, I want a flan."
           }
         ],
         "checkpoint": [
@@ -8879,6 +9121,59 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "Mesero is the most common word in much of Latin America; \"camarero\" is typical of Spain. \"El cocinero\" is the cook, and \"el cliente\" is the customer."
+          }
+        ]
+      },
+      {
+        "heading": "The menu and the parts of a meal",
+        "body": [
+          "La carta (in many countries also called el menú) lists the dishes; in Spain, el menú usually means the fixed-price menú del día. El plato del día is today's special. A typical meal has la entrada (starter), el plato principal (main course) and el postre (dessert), with una bebida (a drink). At the end, don't forget la propina (tip)."
+        ],
+        "examples": [
+          {
+            "es": "¿Nos puede traer la carta, por favor?",
+            "en": "Could you bring us the menu, please?"
+          },
+          {
+            "es": "De postre, quiero un flan.",
+            "en": "For dessert, I want a flan."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Match each part of the meal to its meaning.",
+            "pairs": [
+              {
+                "left": "la entrada",
+                "right": "the starter"
+              },
+              {
+                "left": "el plato principal",
+                "right": "the main course"
+              },
+              {
+                "left": "el postre",
+                "right": "dessert"
+              },
+              {
+                "left": "la propina",
+                "right": "the tip"
+              }
+            ],
+            "explanation": "A meal runs la entrada, el plato principal, el postre, and la propina is what you leave at the end."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "In a restaurant in Spain you ask for el menú. What will you most likely get?",
+            "options": [
+              "The fixed-price menu of the day",
+              "The list of every dish",
+              "The bill",
+              "Today's single special dish"
+            ],
+            "correctIndex": 0,
+            "explanation": "In Spain el menú usually means the fixed-price menú del día. The full list of dishes is la carta, the bill is la cuenta, and one special dish is el plato del día."
           }
         ]
       },
@@ -8991,19 +9286,55 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Polite requests and special needs",
+        "heading": "Ask, don't command: ¿Me podría traer...?",
         "body": [
           "The rule from Part 1 carries on: a request to the waiter is softened with the conditional, ¿Me podría traer...? (or ¿Nos podría traer...? for the whole table). Why: a plain command (tráigame) tells the waiter what to do, while the conditional asks, and asking is what sounds polite. The waiter gets usted, so it's podría, not the tú form podrías.",
-          "To ask politely for something extra, use ¿Me podría traer...? (Could you bring me...?). It uses the conditional of poder, which sounds softer than a plain command.",
-          "The same structure works with nos (us): ¿Nos podría traer la cuenta, por favor? (Could you bring us the bill, please?) is one of the most useful phrases for the end of a meal.",
-          "If you have a dietary restriction, it's important to be able to say so clearly. An allergy is a lasting trait, so it takes ser, and alérgico agrees with the person: Soy alérgico/a a los frutos secos (I'm allergic to nuts), Soy vegetariano/a (I'm vegetarian) or Necesito algo sin gluten (I need something gluten-free).",
-          "You can also ask directly what's available: ¿Tiene algo sin carne? (Do you have anything without meat?)"
+          "To ask politely for something extra, use ¿Me podría traer...? (Could you bring me...?). It uses the conditional of poder, which sounds softer than a plain command."
         ],
         "examples": [
           {
             "es": "¿Me podría traer un poco más de pan?",
             "en": "Could you bring me a bit more bread?"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Complete the polite request.",
+            "sentence": "¿Me ___ traer la sal, por favor?",
+            "answer": "podría",
+            "hint": "The conditional form of poder.",
+            "explanation": "¿Me podría traer...? uses the conditional podría to soften the request, so it sounds more polite than a direct command."
+          }
+        ]
+      },
+      {
+        "heading": "¿Nos podría...?: asking for the whole table",
+        "body": [
+          "The same structure works with nos (us): ¿Nos podría traer la cuenta, por favor? (Could you bring us the bill, please?) is one of the most useful phrases for the end of a meal."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Ask the waiter to bring your table some water.",
+            "options": [
+              "¿Nos podría traer agua, por favor?",
+              "¿Nos podrías traer agua, por favor?",
+              "¿Les podría traer agua, por favor?",
+              "¿Nos podría traemos agua, por favor?"
+            ],
+            "correctIndex": 0,
+            "explanation": "Nos makes it \"bring us\", and the waiter gets usted, so podría. Podrías is the tú form, les would mean \"bring them\", and podría is followed by the infinitive traer."
+          }
+        ]
+      },
+      {
+        "heading": "Allergies and special diets",
+        "body": [
+          "If you have a dietary restriction, it's important to be able to say so clearly. An allergy is a lasting trait, so it takes ser, and alérgico agrees with the person: Soy alérgico/a a los frutos secos (I'm allergic to nuts), Soy vegetariano/a (I'm vegetarian) or Necesito algo sin gluten (I need something gluten-free).",
+          "You can also ask directly what's available: ¿Tiene algo sin carne? (Do you have anything without meat?)"
+        ],
+        "examples": [
           {
             "es": "Soy alérgica a los mariscos.",
             "en": "I'm allergic to shellfish."
@@ -9015,12 +9346,23 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
+            "type": "multiple-choice",
+            "question": "Your friend Marta is allergic to eggs. What does she tell the waiter?",
+            "options": [
+              "Soy alérgica al huevo.",
+              "Estoy alérgica al huevo.",
+              "Soy alérgico al huevo.",
+              "Tengo alérgica al huevo."
+            ],
+            "correctIndex": 0,
+            "explanation": "An allergy is a lasting trait, so it takes ser, and alérgica agrees with Marta. Estoy treats it as a passing state, alérgico is the masculine form, and tener does not go with this adjective."
+          },
+          {
             "type": "fill-blank",
-            "prompt": "Complete the polite request.",
-            "sentence": "¿Me ___ traer la sal, por favor?",
-            "answer": "podría",
-            "hint": "The conditional form of poder.",
-            "explanation": "¿Me podría traer...? uses the conditional podría to soften the request, so it sounds more polite than a direct command."
+            "prompt": "Complete the request.",
+            "sentence": "Necesito un plato ___ lactosa.",
+            "answer": "sin",
+            "explanation": "Sin means \"without\", the word for a dish free of something: sin gluten, sin carne, sin lactosa. Con would mean the opposite."
           }
         ]
       },
@@ -9061,26 +9403,59 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "In practice: a visit to a restaurant",
+        "heading": "In practice: arriving and choosing",
         "body": [
           "Read this complete dialogue, from arriving to paying, to see how all these phrases come together in a real conversation.",
           "Mesero: Buenas noches, ¿tiene una reserva? / Cliente: Sí, tengo una reserva a nombre de Laura, para dos personas.",
           "Mesero: Perfecto, síganme. ¿Les gustaría una mesa junto a la ventana? / Cliente: Sí, perfecto, gracias.",
-          "Mesero: Aquí tienen la carta. ¿Qué les puedo ofrecer para beber? / Cliente: Para mí, agua mineral, por favor.",
-          "Mesero: ¿Ya saben qué van a pedir? / Cliente: Yo quisiera el plato del día. Y una pregunta: soy alérgica a los frutos secos, ¿el plato del día los lleva? / Mesero: No, no se preocupe, no lleva frutos secos.",
-          "(After the meal) Cliente: ¿Nos podría traer la cuenta, por favor? / Mesero: Claro, enseguida. / Cliente: ¿Está incluida la propina? / Mesero: No, se agrega aparte. / Cliente: Entendido, vamos a pagar con tarjeta y dividir la cuenta, por favor."
+          "Mesero: Aquí tienen la carta. ¿Qué les puedo ofrecer para beber? / Cliente: Para mí, agua mineral, por favor."
         ],
         "examples": [
           {
             "es": "¿Qué le puedo ofrecer para beber?",
             "en": "What can I get you to drink?"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "In the dialogue, what does Laura order to drink?",
+            "options": [
+              "Mineral water",
+              "A glass of wine",
+              "Nothing yet",
+              "A coffee"
+            ],
+            "correctIndex": 0,
+            "explanation": "Para mí, agua mineral: \"for me, mineral water\". Para mí is the quick way to say which item you want when the waiter asks."
+          }
+        ]
+      },
+      {
+        "heading": "In practice: ordering and paying",
+        "body": [
+          "Mesero: ¿Ya saben qué van a pedir? / Cliente: Yo quisiera el plato del día. Y una pregunta: soy alérgica a los frutos secos, ¿el plato del día los lleva? / Mesero: No, no se preocupe, no lleva frutos secos.",
+          "(After the meal) Cliente: ¿Nos podría traer la cuenta, por favor? / Mesero: Claro, enseguida. / Cliente: ¿Está incluida la propina? / Mesero: No, se agrega aparte. / Cliente: Entendido, vamos a pagar con tarjeta y dividir la cuenta, por favor."
+        ],
+        "examples": [
           {
             "es": "No se preocupe, no lleva frutos secos.",
             "en": "Don't worry, it doesn't have nuts in it."
           }
         ],
         "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Why does Laura ask about el plato del día?",
+            "options": [
+              "She is allergic to nuts and checks it has none.",
+              "She wants to know the price.",
+              "She wants a bigger portion.",
+              "She wants it without meat."
+            ],
+            "correctIndex": 0,
+            "explanation": "Soy alérgica a los frutos secos, ¿el plato del día los lleva?: she says she is allergic to nuts and asks whether the dish has them. Nothing is said about price, size or meat."
+          },
           {
             "type": "multi-select",
             "question": "According to the dialogue, which two things does the customer ask for at the end of the meal? Select both.",
@@ -13756,21 +14131,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Travel & Trips: nouns hiding inside verbs",
         "body": [
           "Thirty travel words, but you don't have to learn them as thirty separate items. Many travel nouns are built from a verb you already know, and the pattern repeats.",
-          "Pattern 1: verb stem + -ada / -ida gives the event, always feminine. Llegar → la llegada (the arrival), salir → la salida (the departure; also the exit). Pattern 2: the bare stem + -a / -e / -o. Reservar → la reserva, viajar → el viaje, recordar → el recuerdo (the memory, and the thing that keeps it: a souvenir). Once you see the verb, you can guess the noun, and the other way round.",
-          "Watch out for el mapa: it ends in -a but is masculine, like el día."
+          "Pattern 1: verb stem + -ada / -ida gives the event, always feminine. Llegar → la llegada (the arrival), salir → la salida (the departure; also the exit)."
         ],
         "examples": [
           {
             "es": "salir → la salida",
             "en": "to leave → the departure / the exit (-ida noun, feminine)"
-          },
-          {
-            "es": "reservar → la reserva",
-            "en": "to book → the reservation (bare stem + -a)"
-          },
-          {
-            "es": "Hice las maletas anoche.",
-            "en": "I packed last night. (hacer las maletas = to pack: a fixed phrase)"
           }
         ],
         "checkpoint": [
@@ -13822,6 +14188,49 @@ const A2_BASE_LESSONS: Lesson[] = [
             "explanation": "Notice the pairs: viajar / el viaje, reservar / la reserva, volar / el vuelo."
           },
           {
+            "type": "multiple-choice",
+            "question": "Llegar gives la llegada. Using the same pattern, what is \"the entrance\", from entrar?",
+            "options": [
+              "la entrada",
+              "el entro",
+              "la entranza",
+              "el entrado"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ar verb → stem + -ada, feminine: entrar → la entrada, just like llegar → la llegada. The other forms don't exist."
+          }
+        ]
+      },
+      {
+        "heading": "Pattern 2: the bare stem, and el mapa",
+        "body": [
+          "Pattern 2: the bare stem + -a / -e / -o. Reservar → la reserva, viajar → el viaje, recordar → el recuerdo (the memory, and the thing that keeps it: a souvenir). Once you see the verb, you can guess the noun, and the other way round.",
+          "Watch out for el mapa: it ends in -a but is masculine, like el día."
+        ],
+        "examples": [
+          {
+            "es": "reservar → la reserva",
+            "en": "to book → the reservation (bare stem + -a)"
+          },
+          {
+            "es": "Hice las maletas anoche.",
+            "en": "I packed last night. (hacer las maletas = to pack: a fixed phrase)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Viajar gives el viaje. Using the bare-stem pattern, what is \"the change\", from cambiar?",
+            "options": [
+              "el cambio",
+              "la cambiada",
+              "el cambiado",
+              "la cambianza"
+            ],
+            "correctIndex": 0,
+            "explanation": "Pattern 2 takes the bare stem and adds -a, -e or -o: cambiar → el cambio, like recordar → el recuerdo. The -ada ending is pattern 1 (events like la llegada), and the other forms are not Spanish words."
+          },
+          {
             "type": "matching",
             "instructions": "Match each word to its meaning (Travel & Trips, part 2).",
             "pairs": [
@@ -13867,65 +14276,6 @@ const A2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "El mapa is masculine despite the -a; la guía can be the book or the person (el guía for a man)."
-          },
-          {
-            "type": "matching",
-            "instructions": "Match each word to its meaning (Travel & Trips, part 3).",
-            "pairs": [
-              {
-                "left": "el crucero",
-                "right": "the cruise"
-              },
-              {
-                "left": "la aventura",
-                "right": "the adventure"
-              },
-              {
-                "left": "explorar",
-                "right": "to explore"
-              },
-              {
-                "left": "el/la turista",
-                "right": "the tourist"
-              },
-              {
-                "left": "el recuerdo",
-                "right": "the souvenir / memory"
-              },
-              {
-                "left": "la salida",
-                "right": "the departure"
-              },
-              {
-                "left": "el destino",
-                "right": "the destination"
-              },
-              {
-                "left": "hacer las maletas",
-                "right": "to pack"
-              },
-              {
-                "left": "el itinerario",
-                "right": "the itinerary"
-              },
-              {
-                "left": "quedarse",
-                "right": "to stay"
-              }
-            ],
-            "explanation": "La salida comes from salir, el recuerdo from recordar: the verb-to-noun pattern again."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Llegar gives la llegada. Using the same pattern, what is \"the entrance\", from entrar?",
-            "options": [
-              "la entrada",
-              "el entro",
-              "la entranza",
-              "el entrado"
-            ],
-            "correctIndex": 0,
-            "explanation": "-ar verb → stem + -ada, feminine: entrar → la entrada, just like llegar → la llegada. The other forms don't exist."
           }
         ]
       },
@@ -13994,100 +14344,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "explanation": "Every word in this group points to one finished moment or the next step in a story."
           },
           {
-            "type": "matching",
-            "instructions": "Match each word to its meaning (Time Expressions & Frequency, part 2).",
-            "pairs": [
-              {
-                "left": "después",
-                "right": "afterward"
-              },
-              {
-                "left": "primero",
-                "right": "first"
-              },
-              {
-                "left": "finalmente",
-                "right": "finally"
-              },
-              {
-                "left": "mientras tanto",
-                "right": "meanwhile"
-              },
-              {
-                "left": "durante",
-                "right": "during"
-              },
-              {
-                "left": "temprano",
-                "right": "early"
-              },
-              {
-                "left": "a tiempo",
-                "right": "on time"
-              },
-              {
-                "left": "la próxima vez",
-                "right": "next time"
-              },
-              {
-                "left": "recientemente",
-                "right": "recently"
-              },
-              {
-                "left": "todavía",
-                "right": "still"
-              }
-            ],
-            "explanation": "A tiempo means on time; temprano means early (before the time)."
-          },
-          {
-            "type": "matching",
-            "instructions": "Match each word to its meaning (Time Expressions & Frequency, part 3).",
-            "pairs": [
-              {
-                "left": "ya",
-                "right": "already"
-              },
-              {
-                "left": "ya no",
-                "right": "no longer"
-              },
-              {
-                "left": "una vez",
-                "right": "once"
-              },
-              {
-                "left": "a veces",
-                "right": "sometimes"
-              },
-              {
-                "left": "siempre",
-                "right": "always"
-              },
-              {
-                "left": "la vez",
-                "right": "the time / occurrence"
-              },
-              {
-                "left": "pasado",
-                "right": "past"
-              },
-              {
-                "left": "próximo",
-                "right": "next"
-              },
-              {
-                "left": "cada",
-                "right": "each"
-              },
-              {
-                "left": "últimamente",
-                "right": "lately"
-              }
-            ],
-            "explanation": "Una vez (once) is a single occasion; a veces (sometimes) and siempre are patterns."
-          },
-          {
             "type": "multiple-choice",
             "question": "Antes de ayer is a longer way to say which word?",
             "options": [
@@ -14103,6 +14359,147 @@ const A2_BASE_LESSONS: Lesson[] = [
       }
     ],
     "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word to its meaning (Time Expressions & Frequency, part 3).",
+        "pairs": [
+          {
+            "left": "ya",
+            "right": "already"
+          },
+          {
+            "left": "ya no",
+            "right": "no longer"
+          },
+          {
+            "left": "una vez",
+            "right": "once"
+          },
+          {
+            "left": "a veces",
+            "right": "sometimes"
+          },
+          {
+            "left": "siempre",
+            "right": "always"
+          },
+          {
+            "left": "la vez",
+            "right": "the time / occurrence"
+          },
+          {
+            "left": "pasado",
+            "right": "past"
+          },
+          {
+            "left": "próximo",
+            "right": "next"
+          },
+          {
+            "left": "cada",
+            "right": "each"
+          },
+          {
+            "left": "últimamente",
+            "right": "lately"
+          }
+        ],
+        "explanation": "Una vez (once) is a single occasion; a veces (sometimes) and siempre are patterns."
+      },
+      {
+        "type": "matching",
+        "instructions": "Match each word to its meaning (Time Expressions & Frequency, part 2).",
+        "pairs": [
+          {
+            "left": "después",
+            "right": "afterward"
+          },
+          {
+            "left": "primero",
+            "right": "first"
+          },
+          {
+            "left": "finalmente",
+            "right": "finally"
+          },
+          {
+            "left": "mientras tanto",
+            "right": "meanwhile"
+          },
+          {
+            "left": "durante",
+            "right": "during"
+          },
+          {
+            "left": "temprano",
+            "right": "early"
+          },
+          {
+            "left": "a tiempo",
+            "right": "on time"
+          },
+          {
+            "left": "la próxima vez",
+            "right": "next time"
+          },
+          {
+            "left": "recientemente",
+            "right": "recently"
+          },
+          {
+            "left": "todavía",
+            "right": "still"
+          }
+        ],
+        "explanation": "A tiempo means on time; temprano means early (before the time)."
+      },
+      {
+        "type": "matching",
+        "instructions": "Match each word to its meaning (Travel & Trips, part 3).",
+        "pairs": [
+          {
+            "left": "el crucero",
+            "right": "the cruise"
+          },
+          {
+            "left": "la aventura",
+            "right": "the adventure"
+          },
+          {
+            "left": "explorar",
+            "right": "to explore"
+          },
+          {
+            "left": "el/la turista",
+            "right": "the tourist"
+          },
+          {
+            "left": "el recuerdo",
+            "right": "the souvenir / memory"
+          },
+          {
+            "left": "la salida",
+            "right": "the departure"
+          },
+          {
+            "left": "el destino",
+            "right": "the destination"
+          },
+          {
+            "left": "hacer las maletas",
+            "right": "to pack"
+          },
+          {
+            "left": "el itinerario",
+            "right": "the itinerary"
+          },
+          {
+            "left": "quedarse",
+            "right": "to stay"
+          }
+        ],
+        "explanation": "La salida comes from salir, el recuerdo from recordar: the verb-to-noun pattern again."
+      },
       {
         "type": "multi-select",
         "question": "Which of these words are related to travel? (Choose all that apply)",
@@ -15575,9 +15972,41 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Work & Future Plans",
+        "heading": "Work words: verb to noun with -o or -ción",
         "body": [
-          "The pattern: work words come in families, so one word you know opens up three more. A verb usually gives a noun: some drop the -ar ending and add -o (trabajar → el trabajo, contratar → el contrato, aumentar → el aumento), and many add -ción, which is always feminine and matches English -tion (jubilarse → la jubilación, preparar → la preparación); a few are irregular (solicitar → la solicitud). The person who does the verb takes -dor / -dora: trabajar → el trabajador, la trabajadora.",
+          "The pattern: work words come in families, so one word you know opens up three more. A verb usually gives a noun: some drop the -ar ending and add -o (trabajar → el trabajo, contratar → el contrato, aumentar → el aumento), and many add -ción, which is always feminine and matches English -tion (jubilarse → la jubilación, preparar → la preparación); a few are irregular (solicitar → la solicitud)."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Organizar means to organise. What is 'the organisation'?",
+            "options": [
+              "la organización",
+              "el organizo",
+              "la organizada",
+              "el organización"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ar verbs often make a noun in -ción, the Spanish twin of English -tion, and every -ción noun is feminine: la organización."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Pagar means to pay. Which noun means 'the payment'?",
+            "options": [
+              "el pago",
+              "la pagación",
+              "el pagamiento",
+              "la pagadora"
+            ],
+            "correctIndex": 0,
+            "explanation": "Like trabajar → el trabajo and contratar → el contrato, pagar drops -ar and adds -o: el pago. La pagadora would be a woman who pays."
+          }
+        ]
+      },
+      {
+        "heading": "Who does the job: -dor / -dora",
+        "body": [
+          "The person who does the verb takes -dor / -dora: trabajar → el trabajador, la trabajadora.",
           "All 30 words from Unit 11's vocabulary section, grouped for review. As you match them, look for the pairs: entrevista / entrevistar, contratar / contrato, jubilarse / jubilación."
         ],
         "checkpoint": [
@@ -15629,122 +16058,16 @@ const A2_BASE_LESSONS: Lesson[] = [
             "explanation": "The first ten words from this theme."
           },
           {
-            "type": "matching",
-            "instructions": "Match each word to its meaning (Work & Future Plans, part 2).",
-            "pairs": [
-              {
-                "left": "el sueño",
-                "right": "the dream"
-              },
-              {
-                "left": "lograr",
-                "right": "to achieve"
-              },
-              {
-                "left": "conseguir",
-                "right": "to get / obtain"
-              },
-              {
-                "left": "el proyecto",
-                "right": "the project"
-              },
-              {
-                "left": "la reunión",
-                "right": "the meeting"
-              },
-              {
-                "left": "el jefe / la jefa",
-                "right": "the boss"
-              },
-              {
-                "left": "el sueldo",
-                "right": "the salary"
-              },
-              {
-                "left": "el horario",
-                "right": "the schedule"
-              },
-              {
-                "left": "a tiempo completo",
-                "right": "full time"
-              },
-              {
-                "left": "a tiempo parcial",
-                "right": "part time"
-              }
-            ],
-            "explanation": "The next ten words from this theme."
-          },
-          {
-            "type": "matching",
-            "instructions": "Match each word to its meaning (Work & Future Plans, part 3).",
-            "pairs": [
-              {
-                "left": "trabajar desde casa",
-                "right": "to work from home"
-              },
-              {
-                "left": "la oficina",
-                "right": "the office"
-              },
-              {
-                "left": "el equipo",
-                "right": "the team"
-              },
-              {
-                "left": "ascender",
-                "right": "to get promoted"
-              },
-              {
-                "left": "planear",
-                "right": "to plan"
-              },
-              {
-                "left": "el compañero de trabajo",
-                "right": "the coworker"
-              },
-              {
-                "left": "la capacitación",
-                "right": "the training"
-              },
-              {
-                "left": "el beneficio",
-                "right": "the benefit"
-              },
-              {
-                "left": "el aumento",
-                "right": "the raise"
-              },
-              {
-                "left": "la oportunidad",
-                "right": "the opportunity"
-              }
-            ],
-            "explanation": "The final ten words from this theme."
-          },
-          {
             "type": "multiple-choice",
-            "question": "Organizar means to organise. What is 'the organisation'?",
+            "question": "Vender means to sell. What do you call a woman who sells?",
             "options": [
-              "la organización",
-              "el organizo",
-              "la organizada",
-              "el organización"
+              "la vendedora",
+              "la vendición",
+              "la venta",
+              "el vendedor"
             ],
             "correctIndex": 0,
-            "explanation": "-ar verbs often make a noun in -ción, the Spanish twin of English -tion, and every -ción noun is feminine: la organización."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Pagar means to pay. Which noun means 'the payment'?",
-            "options": [
-              "el pago",
-              "la pagación",
-              "el pagamiento",
-              "la pagadora"
-            ],
-            "correctIndex": 0,
-            "explanation": "Like trabajar → el trabajo and contratar → el contrato, pagar drops -ar and adds -o: el pago. La pagadora would be a woman who pays."
+            "explanation": "The person who does the verb takes -dor / -dora: vender → el vendedor, la vendedora, like trabajar → la trabajadora. La venta is the sale itself (the thing, not the person), el vendedor is the man, and la vendición is not a word."
           }
         ]
       },
@@ -15803,100 +16126,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "explanation": "The first ten words from this theme."
           },
           {
-            "type": "matching",
-            "instructions": "Match each word to its meaning (Health & The Doctor, part 2).",
-            "pairs": [
-              {
-                "left": "la receta",
-                "right": "the prescription"
-              },
-              {
-                "left": "la medicina",
-                "right": "the medicine"
-              },
-              {
-                "left": "la pastilla",
-                "right": "the pill"
-              },
-              {
-                "left": "el jarabe",
-                "right": "the syrup"
-              },
-              {
-                "left": "la farmacia",
-                "right": "the pharmacy"
-              },
-              {
-                "left": "sentirse",
-                "right": "to feel"
-              },
-              {
-                "left": "enfermarse",
-                "right": "to get sick"
-              },
-              {
-                "left": "mejorar",
-                "right": "to improve / get better"
-              },
-              {
-                "left": "empeorar",
-                "right": "to get worse"
-              },
-              {
-                "left": "el síntoma",
-                "right": "the symptom"
-              }
-            ],
-            "explanation": "The next ten words from this theme."
-          },
-          {
-            "type": "matching",
-            "instructions": "Match each word to its meaning (Health & The Doctor, part 3).",
-            "pairs": [
-              {
-                "left": "la alergia",
-                "right": "the allergy"
-              },
-              {
-                "left": "respirar",
-                "right": "to breathe"
-              },
-              {
-                "left": "la enfermera / el enfermero",
-                "right": "the nurse"
-              },
-              {
-                "left": "la herida",
-                "right": "the wound"
-              },
-              {
-                "left": "romperse",
-                "right": "to break (a bone)"
-              },
-              {
-                "left": "la vacuna",
-                "right": "the vaccine"
-              },
-              {
-                "left": "el termómetro",
-                "right": "the thermometer"
-              },
-              {
-                "left": "la venda",
-                "right": "the bandage"
-              },
-              {
-                "left": "torcerse",
-                "right": "to twist / sprain"
-              },
-              {
-                "left": "la sala de emergencias",
-                "right": "the emergency room"
-              }
-            ],
-            "explanation": "The final ten words from this theme."
-          },
-          {
             "type": "multiple-choice",
             "question": "Feliz means happy. Which noun means 'happiness'?",
             "options": [
@@ -15907,23 +16136,211 @@ const A2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Adjectives make nouns in -dad (enfermo → la enfermedad); feliz changes its z to c before the ending: la felicidad. Every -dad noun is feminine."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Enfermo → enfermarse (to get sick). Which verb means 'to get tired', from cansado?",
-            "options": [
-              "cansarse",
-              "cansadarse",
-              "encansarse",
-              "estar cansar"
-            ],
-            "correctIndex": 0,
-            "explanation": "A change of state is a reflexive verb built on the stem: cans-ado → cans-arse. Me canso = I get tired."
           }
         ]
       }
     ],
     "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word to its meaning (Work & Future Plans, part 2).",
+        "pairs": [
+          {
+            "left": "el sueño",
+            "right": "the dream"
+          },
+          {
+            "left": "lograr",
+            "right": "to achieve"
+          },
+          {
+            "left": "conseguir",
+            "right": "to get / obtain"
+          },
+          {
+            "left": "el proyecto",
+            "right": "the project"
+          },
+          {
+            "left": "la reunión",
+            "right": "the meeting"
+          },
+          {
+            "left": "el jefe / la jefa",
+            "right": "the boss"
+          },
+          {
+            "left": "el sueldo",
+            "right": "the salary"
+          },
+          {
+            "left": "el horario",
+            "right": "the schedule"
+          },
+          {
+            "left": "a tiempo completo",
+            "right": "full time"
+          },
+          {
+            "left": "a tiempo parcial",
+            "right": "part time"
+          }
+        ],
+        "explanation": "The next ten words from this theme."
+      },
+      {
+        "type": "matching",
+        "instructions": "Match each word to its meaning (Work & Future Plans, part 3).",
+        "pairs": [
+          {
+            "left": "trabajar desde casa",
+            "right": "to work from home"
+          },
+          {
+            "left": "la oficina",
+            "right": "the office"
+          },
+          {
+            "left": "el equipo",
+            "right": "the team"
+          },
+          {
+            "left": "ascender",
+            "right": "to get promoted"
+          },
+          {
+            "left": "planear",
+            "right": "to plan"
+          },
+          {
+            "left": "el compañero de trabajo",
+            "right": "the coworker"
+          },
+          {
+            "left": "la capacitación",
+            "right": "the training"
+          },
+          {
+            "left": "el beneficio",
+            "right": "the benefit"
+          },
+          {
+            "left": "el aumento",
+            "right": "the raise"
+          },
+          {
+            "left": "la oportunidad",
+            "right": "the opportunity"
+          }
+        ],
+        "explanation": "The final ten words from this theme."
+      },
+      {
+        "type": "matching",
+        "instructions": "Match each word to its meaning (Health & The Doctor, part 2).",
+        "pairs": [
+          {
+            "left": "la receta",
+            "right": "the prescription"
+          },
+          {
+            "left": "la medicina",
+            "right": "the medicine"
+          },
+          {
+            "left": "la pastilla",
+            "right": "the pill"
+          },
+          {
+            "left": "el jarabe",
+            "right": "the syrup"
+          },
+          {
+            "left": "la farmacia",
+            "right": "the pharmacy"
+          },
+          {
+            "left": "sentirse",
+            "right": "to feel"
+          },
+          {
+            "left": "enfermarse",
+            "right": "to get sick"
+          },
+          {
+            "left": "mejorar",
+            "right": "to improve / get better"
+          },
+          {
+            "left": "empeorar",
+            "right": "to get worse"
+          },
+          {
+            "left": "el síntoma",
+            "right": "the symptom"
+          }
+        ],
+        "explanation": "The next ten words from this theme."
+      },
+      {
+        "type": "matching",
+        "instructions": "Match each word to its meaning (Health & The Doctor, part 3).",
+        "pairs": [
+          {
+            "left": "la alergia",
+            "right": "the allergy"
+          },
+          {
+            "left": "respirar",
+            "right": "to breathe"
+          },
+          {
+            "left": "la enfermera / el enfermero",
+            "right": "the nurse"
+          },
+          {
+            "left": "la herida",
+            "right": "the wound"
+          },
+          {
+            "left": "romperse",
+            "right": "to break (a bone)"
+          },
+          {
+            "left": "la vacuna",
+            "right": "the vaccine"
+          },
+          {
+            "left": "el termómetro",
+            "right": "the thermometer"
+          },
+          {
+            "left": "la venda",
+            "right": "the bandage"
+          },
+          {
+            "left": "torcerse",
+            "right": "to twist / sprain"
+          },
+          {
+            "left": "la sala de emergencias",
+            "right": "the emergency room"
+          }
+        ],
+        "explanation": "The final ten words from this theme."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Enfermo → enfermarse (to get sick). Which verb means 'to get tired', from cansado?",
+        "options": [
+          "cansarse",
+          "cansadarse",
+          "encansarse",
+          "estar cansar"
+        ],
+        "correctIndex": 0,
+        "explanation": "A change of state is a reflexive verb built on the stem: cans-ado → cans-arse. Me canso = I get tired."
+      },
       {
         "type": "translate",
         "direction": "en-es",
