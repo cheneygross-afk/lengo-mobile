@@ -1,6 +1,6 @@
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { Text, StyleSheet, type StyleProp, type TextStyle } from "react-native";
-import { speak, ENGLISH_LANG, type SpeechLang } from "@/lib/speech";
+import { prefetchSpeech, speak, ENGLISH_LANG, type SpeechLang } from "@/lib/speech";
 import { targetSpans } from "@/lib/targetSpans";
 import { isSpanishText, spanishVoicer } from "@/lib/spanishVoice";
 
@@ -182,11 +182,16 @@ export default function TapText({
   style?: StyleProp<TextStyle>;
 }) {
   const parts = useMemo(() => pieces(text, lang, mode, boldBrackets), [text, lang, mode, boldBrackets]);
+  // The first few pieces' clips load as the text appears, so a tap plays at once.
+  useEffect(() => {
+    let n = 0;
+    for (const p of parts) if (p.lang && n++ < 6) prefetchSpeech(p.text, p.lang as SpeechLang);
+  }, [parts]);
   return (
     <Text style={style}>
       {parts.map((p, i) =>
         p.lang ? (
-          <Text key={i} style={p.bold ? styles.bold : undefined} onPress={() => speak(p.text, p.lang as SpeechLang)}>
+          <Text key={i} style={p.bold ? styles.bold : undefined} onPressIn={() => prefetchSpeech(p.text, p.lang as SpeechLang)} onPress={() => speak(p.text, p.lang as SpeechLang)}>
             {p.text}
           </Text>
         ) : (
