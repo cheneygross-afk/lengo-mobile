@@ -373,7 +373,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Translate to Spanish.",
-        "source": "I practiced the piano and then I had lunch.",
+        "source": "I practiced the piano and then I had lunch (almorzar).",
         "answer": "Practiqué el piano y luego almorcé.",
         "altAnswers": [
           "Practiqué el piano y después almorcé."
@@ -1371,8 +1371,8 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "And what did he say about the project? (dij- + -o)"
           },
           {
-            "es": "Dijo que teníamos que terminar todo antes del viernes.",
-            "en": "He said we had to finish everything before Friday."
+            "es": "Dijo que tenemos que terminar todo antes del viernes.",
+            "en": "He said we have to finish everything before Friday."
           },
           {
             "es": "¡Qué estrés! ¿Hiciste el reporte ya?",
@@ -2618,9 +2618,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Change it to a past habit with soler.",
         "source": "Mis padres celebran mi cumpleaños en el jardín.",
         "answer": "Mis padres solían celebrar mi cumpleaños en el jardín.",
-        "altAnswers": [
-          "Mis padres celebraban mi cumpleaños en el jardín."
-        ],
         "explanation": "Soler in the imperfect (solían) + infinitive = used to. The main verb stays in the infinitive."
       },
       {
@@ -3472,7 +3469,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "options": [
           "Hacía sol.",
           "Estaba despejado.",
-          "Hacía húmedo.",
+          "Hacía nubes.",
           "Nevaba."
         ],
         "correctIndexes": [
@@ -3480,7 +3477,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "Sol is a noun (hacer + noun), despejado is an adjective (estar + adjective), and nevar is a weather verb on its own. Húmedo is an adjective, so it needs estar (estaba húmedo) or a different phrase (había mucha humedad)."
+        "explanation": "Sol is a noun (hacer + noun), despejado is an adjective (estar + adjective), and nevar is a weather verb on its own. Nubes is a noun, but Spanish does not say \"hacer nubes\": use estaba nublado or había nubes."
       },
       {
         "type": "translate",
@@ -3999,7 +3996,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 10,
     "title": "Direct Object Pronouns, Part 1 of 2",
-    "summary": "Stop repeating nouns — replace them with lo, la, los, and las.",
+    "summary": "Stop repeating nouns: replace them with lo, la, los, las (and me, te, nos, os for people) and put the pronoun in the right place.",
     "duration": "6 min",
     "sections": [
       {
@@ -5598,9 +5595,9 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "The idea: Spanish never changes the adjective",
+        "heading": "The idea: Spanish usually leaves the adjective alone",
         "body": [
-          "English compares by changing the word (tall → taller → tallest) or adding more / most. Spanish always does the second: it leaves the adjective alone and puts más (more) or menos (less) in front, then que before the thing compared: más alto que (taller than), menos caro que (cheaper, literally less expensive, than).",
+          "English compares by changing the word (tall → taller → tallest) or adding more / most. Spanish nearly always does the second: it leaves the adjective alone and puts más (more) or menos (less) in front, then que before the thing compared: más alto que (taller than), menos caro que (cheaper, literally less expensive, than).",
           "The adjective still agrees with its noun as usual: Mi hermana es más alta que yo. And after que, people take the subject form: que yo, que tú (not que mí)."
         ],
         "examples": [
@@ -6142,7 +6139,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Irregular future stems",
         "body": [
-          "About a dozen common verbs shorten or change the infinitive, but the endings never change. They come in three families: drop the e and add d (tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-), drop the e (poder → podr-, querer → querr-, saber → sabr-, haber → habr-), and two short ones (decir → dir-, hacer → har-)."
+          "About a dozen common verbs shorten or change the infinitive, but the endings never change. They come in three families: drop the vowel and add d (tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-), drop the vowel (poder → podr-, querer → querr-, saber → sabr-, haber → habr-), and two short ones (decir → dir-, hacer → har-)."
         ],
         "examples": [
           {
@@ -6389,7 +6386,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "el trabajo",
-            "en": "the job"
+            "en": "the work / job"
           },
           {
             "es": "la carrera",
@@ -8262,15 +8259,15 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "\"They drove slowly and safely.\" Which is the most natural?",
+            "question": "\"They drove slowly and carefully.\" Which is the most natural?",
             "options": [
-              "Condujeron lenta y seguramente.",
-              "Condujeron lento y seguramente.",
-              "Condujeron lentamente y segura.",
-              "Condujeron lentos y seguros."
+              "Condujeron lenta y cuidadosamente.",
+              "Condujeron lento y cuidadosamente.",
+              "Condujeron lentamente y cuidadosa.",
+              "Condujeron lentos y cuidadosos."
             ],
             "correctIndex": 0,
-            "explanation": "Only the last adverb takes -mente, and the first stays in the feminine form (lenta), because both share the one feminine -mente. Lento keeps the masculine, and lentos / seguros are adjectives agreeing with 'they'."
+            "explanation": "Only the last adverb takes -mente, and the first stays in the feminine form (lenta), because both share the one feminine -mente. Lento keeps the masculine, and lentos / cuidadosos are adjectives agreeing with 'they'."
           }
         ]
       },
@@ -10657,7 +10654,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "In «Era una noche fría. Yo caminaba solo cuando vi una luz extraña», which verbs are in the imperfect? (Choose all that apply)",
+            "question": "In «Era una noche fría. Yo caminaba solo cuando vi una luz extraña y me asusté», which verbs are in the imperfect? (Choose all that apply)",
             "options": [
               "Era",
               "caminaba",
@@ -10668,7 +10665,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               0,
               1
             ],
-            "explanation": "Era and caminaba describe the background of the scene; vi is the one-off action, in the preterite. Asusté (preterite) isn't in the sentence."
+            "explanation": "Era and caminaba describe the background of the scene; vi is the one-off action, in the preterite. Asusté is a preterite too (a one-off reaction), like vi."
           }
         ]
       }
@@ -10879,6 +10876,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to English.",
         "source": "Se lo doy a mi hermano.",
         "answer": "I give it to my brother.",
+        "altAnswers": ["I'm giving it to my brother.", "I am giving it to my brother.", "I'll give it to my brother."],
         "explanation": "Le changes to se before lo: se lo doy."
       },
       {
@@ -11327,7 +11325,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete with the reflexive pronoun.",
             "sentence": "Estoy vistiéndo___ para la fiesta.",
             "answer": "me",
-            "explanation": "With a gerund, the pronoun can attach to the end: vistiéndome (the accent keeps the stress on -dien-)."
+            "explanation": "With a gerund, the pronoun can attach to the end: vistiéndome (the accent keeps the stress on -tién-)."
           }
         ]
       }
@@ -13321,6 +13319,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to English.",
         "source": "Ella nunca llega tarde a las citas.",
         "answer": "She never arrives late to appointments.",
+        "altAnswers": ["She never arrives late for appointments.", "She is never late for appointments.", "She is never late to appointments."],
         "explanation": "Nunca goes before the verb without no: nunca llega = never arrives."
       },
       {
@@ -14927,8 +14926,8 @@ const A2_BASE_LESSONS: Lesson[] = [
             "instructions": "Match each word to its meaning (Shopping & Objects, part 3).",
             "pairs": [
               {
-                "left": "vender",
-                "right": "to sell"
+                "left": "regatear",
+                "right": "to haggle"
               },
               {
                 "left": "el vendedor / la vendedora",
@@ -15018,8 +15017,8 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "to send"
               },
               {
-                "left": "recibir",
-                "right": "to receive"
+                "left": "bloquear",
+                "right": "to block (a contact)"
               }
             ],
             "explanation": "The first ten words from this theme."
@@ -15029,8 +15028,8 @@ const A2_BASE_LESSONS: Lesson[] = [
             "instructions": "Match each word to its meaning (Communication & Technology, part 2).",
             "pairs": [
               {
-                "left": "contestar",
-                "right": "to answer"
+                "left": "silenciar",
+                "right": "to mute (a phone)"
               },
               {
                 "left": "la contraseña",
@@ -15041,8 +15040,8 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "to download"
               },
               {
-                "left": "subir",
-                "right": "to upload"
+                "left": "actualizar",
+                "right": "to update (an app)"
               },
               {
                 "left": "la red social",
@@ -15053,8 +15052,8 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "to post"
               },
               {
-                "left": "compartir",
-                "right": "to share"
+                "left": "reenviar",
+                "right": "to forward"
               },
               {
                 "left": "grabar",
@@ -15172,7 +15171,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Lavo los platos y luego me lavo las manos.",
-            "en": "I wash the dishes and then I wash my hands. (no se for the dishes, me for yourself)"
+            "en": "I wash the dishes and then I wash my hands. (no pronoun for the dishes, me for yourself)"
           },
           {
             "es": "Me pongo la bufanda porque hace frío.",
@@ -15588,7 +15587,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "pairs": [
               {
                 "left": "el trabajo",
-                "right": "the job"
+                "right": "the work / job"
               },
               {
                 "left": "la carrera",
@@ -15979,7 +15978,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 64,
     "title": "Elementary Comprehensive Review, Part 1 of 3",
-    "summary": "Recap the regular and irregular preterite and the imperfect, then check them with a short mixed set of exercises.",
+    "summary": "Recap the regular and irregular preterite and the imperfect (plus object pronouns with infinitives), then check them with a short mixed set of exercises.",
     "duration": "8 min",
     "sections": [
       {
@@ -16342,7 +16341,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "neither"
         ],
         "correctIndex": 1,
-        "explanation": "Of the two, por is the one that can express duration: estudié por tres horas. In everyday speech natives more often say estudié tres horas or estudié durante tres horas."
+        "explanation": "Por is the usual preposition for duration: estudié por tres horas. Para only gives a planned span (me voy para tres días), not time already spent. In everyday speech natives more often say estudié tres horas or estudié durante tres horas."
       },
       {
         "type": "fill-blank",
@@ -16726,7 +16725,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Why is it notable that Pedro fixes the car?",
+        "question": "Why is Pedro's help generous?",
         "options": [
           "He is not actually a mechanic",
           "The shop is closed but he helps anyway",
@@ -17012,7 +17011,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Leo se entera del problema de Emma por mensaje de texto. Sin pensarlo mucho, decide invitar a Emma a cocinar en su casa. \"Vamos a mi casa a cocinar los dos\", dice Leo.",
           "Emma y Leo pasan la tarde en la cocina de Leo. Preparan el pastel de chocolate y las galletas de limón juntos, ayudándose el uno al otro. Se ríen mucho y también prueban un poco de la masa antes de hornear todo.",
           "El día de la competencia, Emma y Leo llegan con sus dos postres. Muchos estudiantes compran el pastel y las galletas, y todos dicen que están deliciosos. Al final del día, el director anuncia que las galletas de Leo ganan el primer premio.",
-          "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Con tu ayuda pude terminar mi pastel\", dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo."
+          "Emma se alegra de verdad por su amigo. \"Gracias por ayudarme. Con tu ayuda pude terminar mi pastel\", dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo."
         ]
       }
     ],

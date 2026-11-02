@@ -163,7 +163,7 @@ export const B1_SKILLS: Record<string, Exercise[]> = {
       0,
       "«Fue construida como minarete de una mezquita». Hoy es el campanario de la catedral, pero no al principio. No se menciona un palacio ni una torre defensiva."
     ),
-    dict("Visitamos la catedral, que fue construida sobre una antigua mezquita.", "Visitamos la catedral, que fue construida sobre una antigua mezquita. Construida con c y d; mezquita con z y qu."),
+    dict("Visitamos la catedral, que fue construida sobre una antigua mezquita.", "Visitamos la catedral, que fue construida sobre una antigua mezquita. «Construida» no lleva tilde (ui forma diptongo); mezquita se escribe con z y qu."),
   ],
   "b1-comprehensive-review-1": [
     lc(

@@ -39,7 +39,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
           ["— ¿Qué talla usas?", "What size are you?"],
           ["— La M, creo. ¿Me la puedo probar?", "Medium, I think. Can I try it on?"],
           ["— Claro, los probadores están al fondo.", "Of course, the fitting rooms are at the back."],
-          ["— Me queda un poco grande. ¿Tiene una talla menos?", "It's a bit big on me. Do you have a size smaller?"],
+          ["— Me queda un poco grande. ¿Tienes una talla menos?", "It's a bit big on me. Do you have a size smaller?"],
           ["— Sí, aquí tienes la S.", "Yes, here's the small."],
         ],
         [
@@ -808,7 +808,8 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
             "Vengo a ___ una carta certificada.",
             "recoger",
             "I've come to [pick up] a registered letter.",
-            "Recoger = to collect, to pick up. Venir a + infinitive = to come (in order) to do something."
+            "Recoger = to collect, to pick up. Venir a + infinitive = to come (in order) to do something.",
+            ["buscar"]
           ),
         ]
       ),
@@ -859,7 +860,8 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "¿Cuánto ___ en llegar a México?",
         "tarda",
         "How long does it [take] to arrive in Mexico?",
-        "Tardar en + infinitive = to take (time) to. The subject is the letter or parcel: tarda."
+        "Tardar en + infinitive = to take (time) to. The subject is the letter or parcel: tarda.",
+        ["demora", "se demora"]
       ),
       fe(
         "___ aquí, por favor.",
@@ -1437,7 +1439,8 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "¿Dónde está el hospital más ___?",
         "cercano",
         "Where's the [nearest] hospital?",
-        "Más cercano = nearest, and it agrees with the place: el hospital → cercano, la comisaría → cercana."
+        "Más cercano = nearest, and it agrees with the place: el hospital → cercano, la comisaría → cercana.",
+        ["próximo"]
       ),
       fe(
         "___ a una ambulancia, por favor.",

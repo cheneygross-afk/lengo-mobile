@@ -361,7 +361,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
             "The stem tra- ends in a vowel, so -iendo becomes -yendo: trayendo, just like leer → leyendo. \"Traiendo\" keeps the i between vowels, \"traendo\" drops it, and \"trayiendo\" adds both."
           ),
           fb(
-            "Complete with the gerund of servir (to serve; sirvo).",
+            "Complete with the gerund of servir (to serve).",
             "El camarero está ___ la comida.",
             "sirviendo",
             "Servir is an e → i stem-changer (sirvo), so its gerund changes too: sirviendo, like pedir → pidiendo.",

@@ -81,7 +81,7 @@ export const DRILLS_A2_4: Record<string, Exercise[]> = {
   ],
   "a2d-para-four-uses": [
     toEs("Este suéter es para tú.", "Este suéter es para ti.", "After a preposition, tú becomes ti (no accent). Recipient → para.", ["Este jersey es para ti."], "Correct the sentence."),
-    fe("El autobús ___ Toledo sale a las nueve.", "para", "The bus [to] Toledo leaves at nine.", "Destination → para.", ["a"]),
+    fe("El autobús ___ Toledo sale a las nueve.", "para", "The bus [to] Toledo leaves at nine.", "Destination → para (a also works in everyday Spanish, but this drill wants para)."),
     toEs("I need the report by Thursday.", "Necesito el informe para el jueves.", "Deadline → para."),
     fe("Corro todos los días ___ estar sano.", "para", "I run every day [in order to] be healthy.", "Purpose + infinitive → para."),
     toEs("Estos zapatos son para mi hija.", "Estos zapatos son para mis hijas.", "Recipient → para stays the same; only the person changes: mis hijas.", [], "Change the recipient to plural."),
@@ -91,7 +91,7 @@ export const DRILLS_A2_4: Record<string, Exercise[]> = {
     mc("«Necesito el vestido para el sábado.» Use of para:", ["recipient", "deadline", "destination", "duration"], 1, "Para + day = by that day, a deadline."),
     toEs("Este dinero es por ella, no por mí.", "Este dinero es para ella, no para mí.", "The money will be given to her: recipient → para in both parts. Por ella would mean because of her or on her behalf.", [], "Correct the sentence."),
     fe("Tienes que leer el libro ___ la próxima semana.", "para", "You have to read the book [by] next week.", "Deadline → para."),
-    toEs("I'm going to the store to buy milk.", "Voy a la tienda para comprar leche.", "Purpose + infinitive → para. After ir, a alone also works.", ["Voy a la tienda a comprar leche."]),
+    toEs("I'm going to the store to buy milk.", "Voy a la tienda para comprar leche.", "Purpose + infinitive → para. (After ir, a + infinitive also works in real Spanish, but this drill wants para.)"),
     wo("Estos documentos son para el director", "Recipient: para + person.", "These documents are for the director"),
     toEs("Mi padre cree que el dinero no es importante.", "Para mi padre, el dinero no es importante.", "Para + person at the start gives that person's opinion: para mi padre = in my father's view.", ["Para mi papá, el dinero no es importante."], "Rewrite it starting with para."),
     mc("«Ella estudia para ser abogada.» Use of para:", ["purpose", "recipient", "deadline", "destination"], 0, "Para + infinitive = in order to."),
@@ -120,7 +120,7 @@ export const DRILLS_A2_4: Record<string, Exercise[]> = {
   "por-vs-para-2": [
     toEs("I have a fever because of the flu.", "Tengo fiebre por la gripe.", "The flu is the reason behind the fever, so por + noun. Para la gripe would mean 'meant to treat the flu', like a medicine."),
     fe("Necesito un jarabe ___ la tos.", "para", "I need a syrup [for] the cough.", "The syrup is aimed at the cough (it's meant to stop it): a purpose, so para. Por la tos would say the cough is why you need it, which sounds like an excuse rather than a remedy."),
-    toEs("I'm going to the pharmacy to buy pills.", "Voy a la farmacia para comprar pastillas.", "Para + infinitive gives the purpose of going: para comprar. After ir, a + infinitive also works.", ["Voy a la farmacia a comprar pastillas."]),
+    toEs("I'm going to the pharmacy to buy pills.", "Voy a la farmacia para comprar pastillas.", "Para + infinitive gives the purpose of going: para comprar. (After ir, a + infinitive also works in real Spanish, but this lesson wants para.)"),
     fe("Tome la medicina ___ la noche.", "por", "Take the medicine [at] night. (usted)", "Parts of the day take por: por la mañana, por la tarde, por la noche (en la noche is common in Latin America). Para la noche would mean 'by tonight', a deadline.", ["en"]),
     toEs("I have an appointment with the doctor for Tuesday.", "Tengo una cita con el médico para el martes.", "The appointment is aimed at a date: a target date takes para. Por el martes would mean 'around Tuesday' or 'because of Tuesday'.", ["Tengo una cita con la doctora para el martes.", "Tengo una cita con el doctor para el martes.", "Tengo una cita con la médica para el martes."]),
     toEs("She can't breathe well because of the allergy.", "No puede respirar bien por la alergia.", "The allergy is the cause behind the problem: por + noun.", ["Ella no puede respirar bien por la alergia."]),
@@ -137,7 +137,7 @@ export const DRILLS_A2_4: Record<string, Exercise[]> = {
     toEs("Estás cansada por las pastillas.", "¿Por qué estás cansada?", "Asking for the cause uses ¿Por qué? (two words, accent on qué). The answer would be por las pastillas or porque...", [], "Turn it into a question asking why."),
   ],
   "a2r-mission-trip-por-para": [
-    toEs("The travel agent asks «¿Cuándo salen?». Tell her you're leaving for Mexico City on Tuesday.", "Salimos para la Ciudad de México el martes.", "Salir para + place gives the destination you're heading to. Salir por la ciudad would mean going out around the city.", ["Salimos para Ciudad de México el martes.", "Salimos el martes para la Ciudad de México.", "Salimos el martes para Ciudad de México."]),
+    toEs("The travel agent asks «¿Cuándo salen?». Tell her that we're leaving for Mexico City on Tuesday.", "Salimos para la Ciudad de México el martes.", "Salir para + place gives the destination you're heading to. Salir por la ciudad would mean going out around the city.", ["Salimos para Ciudad de México el martes.", "Salimos el martes para la Ciudad de México.", "Salimos el martes para Ciudad de México."]),
     fe("Vamos a estar en Oaxaca ___ cinco días.", "por", "We're going to be in Oaxaca [for] five days.", "A length of time takes por (or durante, or no preposition at all). Para cinco días would mean the stay is planned for a five-day target, not how long it lasts.", ["durante"]),
     mc("The agent asks: «¿Para cuándo necesita los billetes?» Your reply:", ["Los necesito para el viernes.", "Los necesito por el viernes.", "Los necesito porque el viernes.", "Los necesito el viernes para."], 0, "A deadline is a target in time, so para + day: para el viernes = by Friday. Por el viernes would mean 'around Friday', porque needs a verb, and para can't dangle at the end."),
     toEs("Pagamos doscientos dólares para el hotel.", "Pagamos doscientos dólares por el hotel.", "Money given in exchange for something takes por: pagar 200 dólares por el hotel. Para el hotel would mean the money is meant for the hotel, not the price of it.", [], "Correct the note."),
@@ -225,7 +225,7 @@ export const DRILLS_A2_4: Record<string, Exercise[]> = {
     toEs("Esta camisa es muy barata.", "Estas camisas son muy baratas.", "Everything agrees in the plural: esta → estas, camisa → camisas, es → son, barata → baratas. The opposite of barato is caro.", [], "Make it plural."),
     toEs("¿Puedo me probar estos pantalones?", "¿Puedo probarme estos pantalones?", "With an infinitive, the pronoun is attached to its end (probarme) or goes before the conjugated verb (me puedo probar), never between the two.", ["¿Me puedo probar estos pantalones?"], "Correct the sentence."),
     toEs("Quiero devolver este chaqueta.", "Quiero devolver esta chaqueta.", "Chaqueta ends in -a and is feminine, so the demonstrative is esta, not este. Devolver = to return an item to the store.", ["Quiero devolver esta chamarra."], "Correct the sentence."),
-    toEs("¿Paga con efectivo o con tarjeta?", "¿Paga en efectivo o con tarjeta?", "Spanish pays en efectivo (in cash) but con tarjeta (by card). Con efectivo is a typical slip.", ["¿Paga en efectivo o con tarjeta de crédito?"], "Correct the sentence."),
+    toEs("¿Paga con efectivo o con tarjeta?", "¿Paga en efectivo o con tarjeta?", "The standard phrase is pagar en efectivo (in cash), with con tarjeta (by card); con efectivo is heard but is less standard.", ["¿Paga en efectivo o con tarjeta de crédito?"], "Correct the sentence."),
     fe("Mi celular no tiene ___.", "batería", "My cell phone has no [battery].", "La batería = the battery (a cognate: battery → batería); cargar = to charge it."),
     mc("Cargar means 'to charge (a device)'. What do you ask for when your phone is dead?", ["¿Tienes un cargador?", "¿Tienes una carga?", "¿Tienes un cargado?", "¿Tienes una cargación?"], 0, "Cargar + -dor = the thing that charges: el cargador. Una carga is a load, cargado is an adjective (loaded), and cargación isn't a word."),
     toEs("Publicó una foto en la red social.", "Publiqué una foto en la red social.", "Publicar in the yo preterite needs a spelling change: c → qu before -é (publiqué), so the hard 'k' sound stays.", ["Yo publiqué una foto en la red social.", "Subí una foto a la red social."], "Change to yo."),
@@ -532,7 +532,7 @@ export const DRILLS_A2_4: Record<string, Exercise[]> = {
   "a2-vocabulary-practice-4": [
     toEs("the toothbrush", "el cepillo de dientes", "El cepillo de dientes = toothbrush, literally 'brush of teeth'; the verb is cepillarse."),
     toEn("la bufanda", "the scarf", "La bufanda = scarf.", ["scarf"]),
-    mc("Guantes are gloves. In winter you say…", ["Me pongo los guantes.", "Me pongo mis guantes mi.", "Pongo los guantes a mí.", "Me pone los guantes."], 0, "Ponerse (to put on yourself) is reflexive: me pongo, with los, not mis. Me pone would mean someone else puts them on you."),
+    mc("Guantes are gloves. How do you say \"I put on my gloves\"?", ["Me pongo los guantes.", "Me pongo mis guantes mi.", "Pongo los guantes a mí.", "Me pone los guantes."], 0, "Ponerse (to put on yourself) is reflexive: me pongo, with los, not mis. Me pone would mean someone else puts them on you."),
     toEs("Me levanto a las siete y me ducho.", "Se levanta a las siete y se ducha.", "Both reflexive pronouns change with the person: me → se, and the verbs take the ella ending.", ["Ella se levanta a las siete y se ducha.", "Él se levanta a las siete y se ducha."], "Change to ella."),
     fe("Mi padre ___ todas las mañanas.", "se afeita", "My father [shaves] every morning.", "Afeitarse is reflexive (he shaves himself): se afeita."),
     toEs("I fall asleep very quickly.", "Me duermo muy rápido.", "Dormir = to sleep, dormirse = to fall asleep: the reflexive changes the meaning. O → ue: me duermo.", ["Me duermo muy rápidamente."]),

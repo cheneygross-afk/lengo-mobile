@@ -78,7 +78,7 @@ export const A1_STARTER_STORIES: Story[] = [
     subtitle: "Carmen starts a new job at a bank.",
     paragraphs: [
       "Hoy es lunes. Carmen tiene un trabajo nuevo en un banco. Está un poco nerviosa.",
-      "Sus compañeros son simpáticos. Su jefe se llama Pedro. Él habla mucho, pero es muy amable. Carmen tiene una mesa al lado de la ventana.",
+      "Sus compañeros son simpáticos. Su jefe se llama Pedro. Él habla mucho, pero es muy amable. Carmen tiene un escritorio al lado de la ventana.",
       "A las dos, Carmen come con dos compañeras. Hablan de la ciudad, de la familia y del trabajo. Al final del día, Carmen está cansada, pero contenta.",
     ],
     questions: [

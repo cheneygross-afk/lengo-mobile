@@ -418,7 +418,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       toEs("Creo que la tienda esté cerrada.", "Creo que la tienda está cerrada.", "«Creo que» + indicativo: está. «Creo que esté» es el error típico.", ["Pienso que la tienda está cerrada."], "Corrige la frase."),
       toEs("Creo que la farmacia está abierta.", "No creo que la farmacia esté abierta.", "Al negar creer, está → esté (subjuntivo).", ["No pienso que la farmacia esté abierta."], "Cambia la frase a negativa."),
       toEs("We doubt the bus will come today.", "Dudamos que el autobús venga hoy.", "Dudar que + subjuntivo: venga (no el futuro «vendrá»).", ["Dudamos que el autobús pase hoy.", "Dudamos que el bus venga hoy."]),
-      toEs("Dudo que dices la verdad.", "No dudo que dices la verdad.", "Al añadir «no», dudar pasa a expresar certeza: el indicativo (dices) queda bien. Sin «no», haría falta digas.", ["No dudo de que dices la verdad.", "No dudo que digas la verdad.", "No dudo de que digas la verdad."], "Cambia la frase para expresar certeza, sin cambiar «dices»."),
+      toEs("Dudo que digas la verdad.", "No dudo que dices la verdad.", "Al añadir «no», dudar pasa a expresar certeza: el indicativo (dices) queda bien; el subjuntivo (digas) también se acepta.", ["No dudo de que dices la verdad.", "No dudo que digas la verdad.", "No dudo de que digas la verdad."], "Cambia la frase para expresar certeza."),
       toEs("Do you think it's a good plan? (tú)", "¿Crees que es un buen plan?", "En preguntas con ¿crees que…? las dos formas valen; el indicativo es neutral.", ["¿Crees que sea un buen plan?", "¿Piensas que es un buen plan?", "¿Piensas que sea un buen plan?"]),
       toEs("She doesn't think her brother is lying.", "No cree que su hermano mienta.", "No creer que + subjuntivo: mienta (e → ie).", ["No cree que su hermano esté mintiendo.", "No piensa que su hermano mienta.", "No piensa que su hermano esté mintiendo."]),
       toEs("Creen que el hotel sea demasiado caro.", "Creen que el hotel es demasiado caro.", "Creer (afirmativo) + indicativo: es.", ["Piensan que el hotel es demasiado caro."], "Corrige la frase."),
@@ -490,7 +490,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "Relaciona cada noticia con la mejor reacción.",
         [
           ["Por fin tengo vacaciones.", "¡Qué bien que puedas descansar!"],
-          ["Mi abuelo está en el hospital.", "Siento mucho que esté enfermo."],
+          ["Mi abuelo está en el hospital.", "Siento mucho que esté en el hospital."],
           ["Me voy a vivir a Japón.", "¡Qué sorpresa que te vayas tan lejos!"],
           ["Nadie viene a mi fiesta.", "Qué pena que nadie venga."],
         ],
@@ -567,7 +567,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "Un deseo se expresa con que + subjuntivo: ¡Que te mejores pronto! «Te mejoras» es indicativo (también con ojalá, que pide subjuntivo) y «mejorarte» es infinitivo."
       ),
       ms(
-        "¿Qué deseos están bien escritos?",
+        "¿Qué frases están bien escritas?",
         ["Ojalá llueva esta noche.", "Ojalá que vienes a la boda.", "¡Que cumplas muchos más!", "Es mejor que salgamos temprano."],
         [0, 2, 3],
         "Ojalá, «¡Que cumplas…!» y «es mejor que» llevan subjuntivo. «Ojalá que vienes» es incorrecta: debe ser «vengas»."
@@ -813,7 +813,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           "De ahí salen tres errores típicos: (1) usar la forma afirmativa en negativo: ✗ no habla → ✓ no hables; (2) poner el pronombre al final en negativo: ✗ no dígalo → ✓ no lo diga; (3) mezclar tú y usted en el mismo mensaje: si empiezas con usted, sigue con usted.",
         ],
         [
-          ["✗ ¡No toca eso! → ✓ ¡No toques eso!", "Don't touch that! (error 1: negativo con subjuntivo)"],
+          ["✗ ¡No toca eso! → ✓ ¡No toques eso!", "Don't touch that! (error 1: negativo con la forma del afirmativo; hace falta el subjuntivo)"],
           ["✗ No lo olvídelo. → ✓ No lo olvide.", "Don't forget it. (error 2: pronombre delante)"],
           ["✗ Señora, pasa y siéntese. → ✓ Señora, pase y siéntese.", "Ma'am, come in and sit down. (error 3: todo en usted)"],
         ],
@@ -833,9 +833,9 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       fb("Corrige el mandato.", "___, por favor. (sentarse, tú; el alumno escribió: Siéntate te)", "Siéntate", "Un solo pronombre, pegado al final del afirmativo: siéntate. Repetirlo (te) es un error."),
       ms(
         "¿Qué mandatos tienen un error?",
-        ["No me mires así.", "Tráigamelo, por favor.", "No lo toca.", "Id a dormir."],
+        ["No me mires así.", "Tráigamelo, por favor.", "No lo toca.", "Ve a dormir."],
         [2],
-        "«No lo toca» está mal: el negativo usa subjuntivo, no lo toques (tú) o no lo toque (usted). «No me mires», «Tráigamelo» e «Id a dormir» son correctos."
+        "«No lo toca» está mal: el negativo usa subjuntivo, no lo toques (tú) o no lo toque (usted). «No me mires», «Tráigamelo» y «Ve a dormir» son correctos."
       ),
       mc(
         "Un cartel en un museo dice… ¿cuál es correcto?",
@@ -973,7 +973,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "El condicional une la raíz del futuro con -ía: compraría, viajaríamos, podrían. «Tú haceríais» tiene dos errores: hacer usa la raíz har- y con tú es harías."
       ),
       toEs("I would never work again.", "Nunca volvería a trabajar.", "Volver a + infinitivo = to do again; condicional volvería.", ["No volvería a trabajar nunca.", "Nunca trabajaría otra vez.", "Nunca más trabajaría."]),
-      wo("¿Qué le regalarías a tu mejor amigo?", "Le anuncia a tu mejor amigo y va delante del verbo; regalar + -ías = regalarías.", "What would you give your best friend?"),
+      wo("¿Qué le regalarías a tu mejor amigo?", "Le anticipa «a tu mejor amigo» y va delante del verbo; regalar + -ías = regalarías.", "What would you give your best friend?"),
     ]
   ),
   L(
@@ -1123,7 +1123,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Cuando con futuro: subjuntivo",
-        "Cuando + presente de indicativo = hábito (cuando llueve, me quedo en casa). Cuando + algo futuro → subjuntivo (cuando llegues, llámame). ¿Por qué? Lo que aún no ha pasado no es un hecho, y el español lo marca con subjuntivo; «si» es la excepción que siempre va en indicativo. El error típico del inglés es poner futuro: ✗ cuando llegarás.",
+        "Cuando + presente de indicativo = hábito (cuando llueve, me quedo en casa). Cuando + algo futuro → subjuntivo (cuando llegues, llámame). ¿Por qué? Lo que aún no ha pasado no es un hecho, y el español lo marca con subjuntivo; «si» de condición real es la excepción: con el presente va en indicativo. Un error frecuente es poner futuro (✗ cuando llegarás) o indicativo (✗ cuando llegas, te llamo) en vez del subjuntivo.",
         [
           ["Cuando llego a casa, ceno.", "When I get home, I have dinner. (habit)"],
           ["Cuando llegues a casa, avísame.", "When you get home, let me know. (future)"],
@@ -1465,7 +1465,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       toEs("Have you (tú) gotten dressed yet?", "¿Ya te has vestido?", "El «te» va antes de has: te has vestido, no «has te vestido».", ["¿Te has vestido ya?"]),
       toEs("El gato rompe mis gafas.", "El gato ha roto mis gafas.", "Pretérito perfecto de romper: ha + roto (irregular), no «ha rompido».", ["El gato me ha roto las gafas.", "El gato ha roto mis lentes.", "El gato ha roto mis anteojos."], "Cambia al pretérito perfecto."),
       fb("Corrige el orden.", "Mis padres ___ han comprado una bici. (el alumno escribió: han me comprado)", "me", "El pronombre indirecto va antes de haber: me han comprado."),
-      wo("¿Por qué no se lo han dicho a la policía?", "No + se lo + han + dicho: todo lo que no es participio va delante de haber.", "Why haven't they told the police?"),
+      wo("¿Por qué no se lo han dicho a la policía?", "No + se lo + han + dicho: todo lo que no es participio va delante de haber.", "Why haven't they told the police about it?"),
       mc("¿Qué frase es correcta?", ["Hemos resolvido el problema.", "Hemos resuelto el problema.", "Hemos resueltos el problema.", "Resuelto hemos el problema."], 1, "Resolver → resuelto (como volver → vuelto), y el participio no concuerda: resuelto, sin -s. Haber va siempre primero."),
       toEs("Todavía no se ha despertado.", "Todavía no nos hemos despertado.", "Con nosotros cambian el pronombre y haber: nos hemos. El orden es el mismo: todavía no + pronombre + haber + participio.", ["Aún no nos hemos despertado."], "Cambia el sujeto a nosotros."),
       wo("¿Quién ha deshecho la cama?", "Deshacer sigue a hacer: deshecho, no «deshacido»; va justo después de ha.", "Who has unmade the bed?"),
@@ -1744,7 +1744,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "relative-pronouns-mastery-check",
     "b1r-error-hunt-relatives",
     "Caza de errores: los pronombres relativos",
-    "«La chica quien vi», «lo cual que», «el cual que» — los relativos mal usados, corregidos uno a uno.",
+    "Detecta y corrige los errores típicos con los relativos: quien sin preposición, la preposición al final, «todo que» y «que» en lugar de «lo que».",
     "7 min",
     [
       sec(
@@ -1780,7 +1780,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       { ...fb("Corrige.", "El chico ___ te presenté ayer es mi primo. (el alumno escribió: quien)", "que", "Sin preposición → que. Quien solo es posible con la a personal delante: a quien te presenté."), altAnswers: ["a quien", "al que"] },
-      fb("Corrige.", "Perdió el tren, ___ significa que llegará tarde. (el alumno escribió: que)", "lo que", "Lo que significa es que perdió el tren, toda la idea anterior, no un sustantivo: lo que (o lo cual)."),
+      fb("Corrige.", "Perdió el tren, ___ significa que llegará tarde. (el alumno escribió: que)", "lo que", "Lo que recoge toda la idea anterior (perdió el tren), no un sustantivo: lo que (o lo cual)."),
       { ...fb("Corrige.", "La empresa para ___ trabajo es alemana. (el alumno escribió: que)", "la que", "Tras preposición, el relativo lleva artículo que concuerda con empresa: para la que. «Para que» significa «so that»."), altAnswers: ["la cual"] },
       ms(
         "¿Qué frases son correctas?",
@@ -2294,7 +2294,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "possessive-pronouns-2",
     "b1r-contrast-mi-mio",
     "Contraste: mi / mío, tu / tuyo",
-    "Adjetivo delante del nombre o pronombre en su lugar — elige la forma correcta en cada contexto.",
+    "Elige entre la forma corta del posesivo (mi casa) y la larga (la mía, un amigo mío, es mío) según su posición.",
     "7 min",
     [
       sec(
@@ -2541,7 +2541,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       toEs("No te olvides de nosotros y nos llama el domingo.", "No te olvides de nosotros y llámanos el domingo.", "En el mandato afirmativo el pronombre va pegado al final: «llámanos», con tilde porque es esdrújula. «Nos llama» significaría «he calls us».", [], "Corrige la frase."),
       toEs("Yo que tú, aprenderé alemán antes de ir.", "Yo que tú, aprendería alemán antes de ir.", "«Yo que tú» presenta una situación imaginada: va con condicional, «aprendería», no con futuro.", [], "Corrige la frase."),
       wo("Espero que no te olvides de nosotros.", "Esperar que + subjuntivo reflexivo.", "I hope you don't forget about us."),
-      { type: "speak", prompt: "Responde en voz alta al abuelo en español: «I'm glad you wrote to me. If I need money, I'll call you.»", text: "Me alegro de que me hayas escrito. Si necesito dinero, os llamaré.", explanation: "Emoción + que → subjuntivo (me hayas escrito); si + presente (necesito) + futuro (llamaré). También vale «te llamaré» si hablas solo al abuelo." },
+      { type: "speak", prompt: "Responde en voz alta al abuelo en español: «I'm glad you wrote to me. If I need money, I'll call you.»", text: "Me alegro de que me hayas escrito. Si necesito dinero, te llamaré.", explanation: "Emoción + que → subjuntivo (me hayas escrito); si + presente (necesito) + futuro (llamaré). Hablas con el abuelo, así que «te llamaré»; «os llamaré» valdría si hablaras con los abuelos." },
     ]
   ),
   L(
@@ -2723,7 +2723,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "La forma yo es exijo (con j para sonar «jo»), así que el subjuntivo es exija. «Exiga» sonaría «ga»; «exijo» es indicativo."
       ),
       toEs("Conozco bien la ciudad.", "Es importante que conozca bien la ciudad.", "Es importante que + subjuntivo; conocer copia la forma yo conozco: conozca.", ["Es importante que yo conozca bien la ciudad."], "Transforma la frase empezando con «Es importante que...»."),
-      toEs("Espero que tú sigas estudiando.", "Espero que vosotros sigáis estudiando.", "Seguir: e → i y gu → g delante de a en todas las personas, también en vosotros: sigáis.", ["Espero que ustedes sigan estudiando."], "Cambia a vosotros."),
+      toEs("Espero que tú sigas estudiando.", "Espero que vosotros sigáis estudiando.", "Seguir: e → i y gu → g delante de a en todas las personas, también en vosotros: sigáis.", ["Espero que sigáis estudiando."], "Cambia a vosotros."),
       toEs("«Es necesario que escogas un número.»", "Es necesario que escojas un número.", "La forma yo es escojo, con j; para conservar ese sonido el subjuntivo es escojas, no «escogas».", ["Es necesario que elijas un número."], "Corrige la frase."),
       toEs("«Ojalá que los turistas no destruigan la playa.»", "Ojalá que los turistas no destruyan la playa.", "Los verbos en -uir añaden y (destruyo), así que el subjuntivo es destruyan.", [], "Corrige la frase."),
       ms(
@@ -2784,9 +2784,9 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [0, 2, 3],
         "«Quiero que venís» es incorrecta: querer que pide subjuntivo, vengáis. Ojalá, esperar y desear que también llevan subjuntivo, como en las otras frases."
       ),
-      toEs("I want you (vosotros) to bring me a book.", "Quiero que me traigáis un libro.", "Querer que + subjuntivo de vosotros.", ["Quiero que me traigáis un libro, por favor.", "Quiero que me traigan un libro."]),
+      toEs("I want you (vosotros) to bring me a book.", "Quiero que me traigáis un libro.", "Querer que + subjuntivo de vosotros.", ["Quiero que me traigáis un libro, por favor."]),
       wo("Espero que este año me traigáis muchos juegos.", "Esperar que + subjuntivo.", "I hope you bring me lots of games this year."),
-      toEs("Traedme un patinete.", "Quiero que me traigáis un patinete.", "Una petición más educada: quiero que + subjuntivo. Traer toma la raíz de traigo: traigáis.", ["Os pido que me traigáis un patinete.", "Quiero que me traigan un patinete."], "Transforma el mandato en un deseo con «Quiero que...»."),
+      toEs("Traedme un patinete.", "Quiero que me traigáis un patinete.", "Una petición más educada: quiero que + subjuntivo. Traer toma la raíz de traigo: traigáis.", ["Os pido que me traigáis un patinete."], "Transforma el mandato en un deseo con «Quiero que...»."),
       toEs("Quiero un perro.", "Quiero que mis padres me dejen tener un perro.", "Con otro sujeto (mis padres) ya no basta el sustantivo: querer que + subjuntivo (dejen).", [], "Reescribe el deseo para que lo cumplan «mis padres», con «Quiero que mis padres me dejen tener...»."),
       toEs("«Queridos Reyes: quiero que me traéis un tren y que mi hermano no recibe carbón.»", "Queridos Reyes: quiero que me traigáis un tren y que mi hermano no reciba carbón.", "Querer que pide subjuntivo en las dos partes: traigáis (de traigo) y reciba.", [], "Corrige la carta de Pablo."),
       mc(
@@ -2959,7 +2959,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Es inaceptable que tarden una hora en servir.", "1 estrella"],
           ["Me gusta que tengan terraza, aunque es caro.", "3 estrellas"],
         ],
-        "Todas las reacciones llevan subjuntivo."
+        "Las cuatro frases ya llevan subjuntivo (sea, esté, tarden, tengan) porque expresan una reacción; la estrella depende solo de lo positiva o negativa que sea esa reacción."
       ),
       ms(
         "¿Qué frases de reseña son correctas?",
@@ -3246,7 +3246,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       toEs("Ayúdame.", "¿Me podrías ayudar?", "Un paso más cortés que el mandato: condicional de poder + infinitivo. El pronombre puede ir delante de «podrías» o pegado al infinitivo.", ["¿Podrías ayudarme?"], "Transforma la orden en una petición cortés con «podrías»."),
       toEs("Espere aquí.", "¿Le importaría esperar aquí?", "«¿Le importaría + infinitivo?» es el escalón más cortés con usted: el verbo vuelve al infinitivo (esperar) y la persona va en «le».", [], "Transforma la orden en una petición muy cortés con «le importaría»."),
-      fb("Hazlo más directo (tú).", "¿Podrías traer pan? → ___ pan.", "Trae", "Bajar la escalera hasta el mandato: traer tiene un mandato de tú regular, igual que la forma él: trae."),
+      fb("Hazlo más directo (tú).", "¿Podrías traer pan? → ___ pan.", "Trae", "Al pasar de la petición cortés al mandato directo, traer tiene un mandato de tú regular, igual que la forma él: trae."),
       mt(
         "Relaciona cada situación con la forma adecuada.",
         [
@@ -3283,7 +3283,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["—Levanta los brazos y respira hondo.", "Raise your arms and breathe deeply. (levanta = él levanta)"],
           ["—No dobles las rodillas. ¡Así, muy bien!", "Don't bend your knees. Like that, very good! (negativo: subjuntivo)"],
-          ["—Ahora túmbate y haz diez abdominales.", "Now lie down and do ten sit-ups. (túmba + te; hacer → haz)"],
+          ["—Ahora túmbate y haz diez abdominales.", "Now lie down and do ten sit-ups. (tumba + te; hacer → haz)"],
         ],
         [
           fb("Completa la orden.", "___ la espalda recta. (mantener)", "Mantén", "Mantener se conjuga como tener, y el tú afirmativo copia «ten»: mantén, con tilde."),
@@ -3320,7 +3320,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Relájate.", "Relax."],
           ["No te muevas.", "Don't move."],
         ],
-        "Mandatos de tú: afirmativos con la forma él (estira, aguanta, relája + te) y negativo con subjuntivo y pronombre delante (no te muevas)."
+        "Mandatos de tú: afirmativos con la forma él (estira, aguanta, relaja + te) y negativo con subjuntivo y pronombre delante (no te muevas)."
       ),
       mc(
         "El cliente dice: «Estoy muy cansado.» El entrenador responde…",
@@ -3336,7 +3336,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "conditional-tense-drill-3",
     "b1r-error-hunt-conditional",
     "Caza de errores: el condicional",
-    "Raíces inventadas, terminaciones de futuro y el condicional después de si — corrige cada error.",
+    "Raíces inventadas, el condicional después de si y el futuro donde hace falta condicional — corrige cada error.",
     "7 min",
     [
       sec(
@@ -3543,7 +3543,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           ["Si llueve, no iremos a la playa.", "If it rains, we won't go to the beach. (si + presente, futuro)"],
-          ["Si no vamos a la playa, iremos al cine.", "If we don't go to the beach, we'll go to the cinema. (iremos → si vamos)"],
+          ["Si no vamos a la playa, iremos al cine.", "If we don't go to the beach, we'll go to the cinema. (no iremos → si no vamos)"],
           ["Si me levanto tarde, pierdo el autobús; si pierdo el autobús, llego tarde.", "If I get up late, I miss the bus; if I miss the bus, I'm late. (hábito: presente + presente)"],
         ],
         [
@@ -4151,7 +4151,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Corrige.", "La reunión del lunes fue ___. (cancelar; el alumno escribió: cancelado)", "cancelada", "El participio concuerda con «la reunión» (femenino): cancelada."),
-      fb("Corrige.", "—¿Esta mochila es de tu hermano? —No, es ___. (tú; el alumno escribió: tu)", "tuya", "Después de ser y sin sustantivo, el posesivo es tónico y concuerda con «mochila»: tuya. «Tu» necesitaría un sustantivo detrás."),
+      fb("Corrige.", "—¿Esta mochila es de mi hermano? —No, es ___. (tú; el alumno escribió: tu)", "tuya", "Después de ser y sin sustantivo, el posesivo es tónico y concuerda con «mochila»: tuya. «Tu» necesitaría un sustantivo detrás."),
       fb("Corrige.", "En esta academia se ___ clases de cocina. (dar; el alumno escribió: da)", "dan", "El verbo concuerda con «clases» (plural): se dan."),
       ms(
         "¿Qué frases tienen un error?",
@@ -4521,7 +4521,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [],
         "Cambia al negativo."
       ),
-      toEs("«Usa la batidor para la nata.»", "Usa la batidora para la nata.", "Los aparatos en -dora son femeninos (la batidora); el rallador o el exprimidor son masculinos. Batidor sin -a sería otro utensilio (el batidor de varillas), y no va con «la».", [], "Corrige la frase."),
+      toEs("«Usa la batidor para la nata.»", "Usa la batidora para la nata.", "Los aparatos en -dora son femeninos (la batidora); el rallador o el exprimidor son masculinos. Batidor sin -a sería otro utensilio (el batidor de varillas), y no va con «la».", ["Usa el batidor para la nata."], "Corrige la frase."),
       toEs("«No echas más sal a la salsa.»", "No eches más sal a la salsa.", "Un mandato negativo de tú usa el subjuntivo: echar → no eches. «Echas» es indicativo: describe, no ordena.", ["No le eches más sal a la salsa."], "Corrige la frase."),
       toEs("Don't burn the rice! (tú)", "¡No quemes el arroz!", "Negativo de tú → subjuntivo; quemar → quemes.", ["¡No se te queme el arroz!"]),
       wo("Sirve la sopa caliente con un poco de perejil.", "Mandato de tú (servir → sirve, e → i).", "Serve the soup hot with a little parsley."),
@@ -4611,7 +4611,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [],
         "Cambia los verbos al condicional."
       ),
-      toEs("«Mi padre me pidió prestado dinero para el coche, y ahora le debo mil euros.»", "Mi padre me prestó dinero para el coche, y ahora le debo mil euros.", "Si yo le debo dinero a mi padre, él me lo dio: él me prestó. «Me pidió prestado» diría que él lo recibió de mí.", ["Mi padre me prestó dinero para el carro, y ahora le debo mil euros."], "Corrige la frase."),
+      toEs("«Mi padre me pidió prestado dinero para el coche, y ahora le debo mil euros.»", "Mi padre me prestó dinero para el coche, y ahora le debo mil euros.", "Si yo le debo dinero a mi padre, él me lo dio: él me prestó. «Me pidió prestado» diría que él lo recibió de mí.", ["Mi padre me prestó dinero para el carro, y ahora le debo mil euros."], "Corrige la frase (cambia solo el primer verbo)."),
       ms(
         "¿Qué frases son correctas?",
         ["¿Puedo pagar con tarjeta?", "Pedí prestado dinero a mi padre.", "Tengo que ahorrar para el verano.", "Me prestó dinero de mí."],
@@ -4682,7 +4682,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Estudiar una carrera = to study for a degree. El título es el papel que recibes al terminarla, no lo que estudias."
       ),
-      fb("Completa.", "Si no estudias, ___ el examen. (suspender, futuro)", "suspenderás", "Si + presente, futuro: suspenderás. Suspender lleva el objeto directo, sin preposición."),
+      { ...fb("Completa.", "Si no estudias, ___ el examen. (suspender, futuro)", "suspenderás", "Si + presente, futuro: suspenderás. Suspender lleva el objeto directo, sin preposición. En Latinoamérica también se dice reprobar: reprobarás."), altAnswers: ["reprobarás"] },
       fb("Completa.", "Mi profesora quiere que ___ el trabajo antes del viernes. (entregar, nosotros)", "entreguemos", "Querer que + subjuntivo; g → gu delante de e para mantener el sonido: entreguemos."),
       { ...fb("Completa.", "Este año he ___ un diez en matemáticas. (sacar)", "sacado", "Sacar una nota = to get a grade; pretérito perfecto: he sacado."), altAnswers: ["obtenido", "conseguido"] },
       toEs(
@@ -4715,7 +4715,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "b1-vocabulary-practice-10",
     "b1r-word-web-life-experiences",
     "Red de palabras: experiencias de vida",
-    "Logros, primeras veces y momentos clave — en pretérito perfecto y pluscuamperfecto.",
+    "Aprende verbos de experiencias con su preposición (atreverse a, soñar con, darse cuenta de) y cuenta logros y primeras veces en pretérito perfecto y pluscuamperfecto.",
     "8 min",
     [
       sec(
@@ -4763,7 +4763,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["lograr", "to achieve"],
           ["valer la pena", "to be worth it"],
         ],
-        "Se aprenden en bloque: cumplir un sueño (no «realizar» en este sentido), atreverse siempre con a, valer la pena con valer conjugado (valió la pena)."
+        "Se aprenden en bloque: cumplir un sueño (también se dice «hacer realidad un sueño»), atreverse siempre con a, valer la pena con valer conjugado (valió la pena)."
       ),
       mc("¿Cuál no encaja?", ["lograr", "conseguir", "alcanzar", "fracasar"], 3, "Lograr, conseguir y alcanzar significan obtener lo que buscas. Fracasar es lo contrario: no lograrlo."),
       ms(
@@ -4916,7 +4916,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "El núcleo es la parada (lo que es) y va primero; de taxis añade el detalle. El artículo lo pone parada: la parada. «El taxi de parada» invierte el orden inglés."
           ),
-          fb("Completa con la palabra que falta.", "Aparca en el ___ de bicicletas, delante de la biblioteca.", "aparcamiento", "Bike park = el aparcamiento de bicicletas: núcleo (aparcamiento) + de + detalle. En América también se dice «el estacionamiento»."),
+          { ...fb("Completa con la palabra que falta.", "Aparca en el ___ de bicicletas, delante de la biblioteca.", "aparcamiento", "Bike park = el aparcamiento de bicicletas: núcleo (aparcamiento) + de + detalle. En América también se dice «el estacionamiento»."), altAnswers: ["estacionamiento"] },
         ]
       ),
       sec(
@@ -5041,7 +5041,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       fb("Completa.", "La reunión fue ___ para el jueves. (aplazar)", "aplazada", "Pasiva con ser: el participio concuerda con la reunión (femenino): aplazada."),
       fb("Completa.", "Trabajo a jornada ___: ocho horas al día.", "completa", "«Jornada completa» = full-time (frente a media jornada o jornada parcial)."),
-      fb("Completa con el verbo adecuado.", "Mañana ___ el informe trimestral ante la dirección. (to present, yo)", "presento", "La colocación es presentar un informe; en presente con valor de futuro: presento."),
+      { ...fb("Completa con el verbo adecuado.", "Mañana ___ el informe trimestral ante la dirección. (to present, yo)", "presento", "La colocación es presentar un informe; en presente con valor de futuro: presento."), altAnswers: ["presentaré", "voy a presentar"] },
       toEs(
         "La directora firmó el contrato.",
         "El contrato fue firmado por la directora.",
@@ -5257,7 +5257,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       wo("Ya se lo había contado a mis padres cuando llamaste.", "Contarlo fue antes de la llamada: pluscuamperfecto, con «ya» y «se lo» delante de había.", "I had already told my parents when you called."),
       wo("Si tienes tiempo esta tarde, ¿me ayudarías con la mudanza?", "Si + presente para la condición; el condicional (ayudarías) hace la petición más cortés.", "If you have time this afternoon, would you help me with the move?"),
       wo("Ojalá que encontremos un piso que tenga terraza.", "Ojalá + subjuntivo; y la relativa también va en subjuntivo porque ese piso aún no existe para nosotros.", "I hope we find an apartment that has a terrace."),
-      wo("Me alegro mucho de que por fin hayáis vuelto a casa.", "Una emoción sobre lo que han hecho otros: alegrarse de que + perfecto de subjuntivo (hayáis vuelto).", "I'm so glad you've finally come back home."),
+      wo("Me alegro mucho de que por fin hayáis vuelto a casa.", "Una emoción sobre lo que han hecho otros: alegrarse de que + perfecto de subjuntivo (hayáis vuelto).", "I'm so glad you've finally come back home (vosotros)."),
       mc(
         "¿Qué frase está bien construida?",
         ["Dile que me lo traiga mañana.", "Dile que me lo trae mañana.", "Dile que lo me traiga mañana.", "Le di que me lo traiga mañana."],
@@ -5447,7 +5447,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "Cada día corresponde a una escena del desafío; al contar lo que pasó, cada hecho terminado va en pretérito (explicó, conoció, invitaron)."
       ),
       toEs("I'm glad that my neighbors are so friendly.", "Me alegro de que mis vecinos sean tan simpáticos.", "«Alegrarse de que» → subjuntivo: sean.", ["Me alegra que mis vecinos sean tan simpáticos.", "Me alegro de que mis vecinos sean tan amables."]),
-      wo("Luis me ha dicho que me enseñará la ciudad el sábado.", "Pretérito perfecto + futuro en estilo indirecto.", "Luis told me he'll show me the city on Saturday."),
+      wo("Luis me ha dicho que me enseñará la ciudad el sábado.", "Pretérito perfecto + futuro en estilo indirecto.", "Luis has told me he'll show me the city on Saturday."),
     ]
   ),
   L(
@@ -5850,7 +5850,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "La idea: si + presente para un plan posible",
         [
           "Recuerda la regla: cuando la condición es posible de verdad, «si» va con presente de indicativo, y el resultado va en futuro, en presente o en imperativo.",
-          "¿Por qué presente? «Si» ya coloca la acción en el futuro, así que el verbo de la condición no necesita marcarlo. Por eso nunca se dice «si tendré» ni «si tenga».",
+          "¿Por qué presente? «Si» ya coloca la acción en el futuro, así que el verbo de la condición no necesita marcarlo. Por eso, en una condición real, no se usa el futuro ni el presente de subjuntivo: no «si tendré» ni «si tenga».",
         ],
         [
           ["Si consigo diez clientes, ganaré lo suficiente.", "If I get ten clients, I'll earn enough. (consigo: presente tras si; ganaré: futuro)"],
@@ -5912,7 +5912,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "«Si tendré más tiempo» es incorrecta: tras si va el presente, si tengo más tiempo. Las otras usan bien el se pasivo, los pronombres y ojalá + subjuntivo."
       ),
       toEs("Don't worry (tú), I'll return it to you tomorrow.", "No te preocupes, te lo devuelvo mañana.", "Negativo de tú con subjuntivo (no te preocupes) y te lo delante del verbo: te lo devuelvo.", ["No te preocupes, te lo devolveré mañana.", "Tranquilo, te lo devuelvo mañana."]),
-      wo("Nunca pensé que sería tan difícil tener un negocio.", "Pretérito + condicional como futuro del pasado.", "I never thought having a business would be so hard."),
+      wo("Yo que tú, abriría la tienda en el centro.", "Yo que tú + condicional para dar un consejo: abriría (regular: abrir + -ía).", "If I were you, I'd open the shop downtown."),
     ]
   ),
   L(
@@ -6368,7 +6368,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       sec(
         "Recuerda la regla: del recordatorio a la exigencia",
         [
-          "Recuerda la regla: el tono sube paso a paso, pero la gramática es la misma. Primer correo, cortés: condicional (¿podría…?, le agradecería…). Segundo, más directo: le ruego que + subjuntivo. Tercero, firme: exijo que + subjuntivo. Lo que todavía no ha pasado va en pretérito perfecto (todavía no he recibido el pago), y la amenaza final, con si + presente + futuro.",
+          "Recuerda la regla: el tono sube paso a paso, pero la gramática es la misma. Primer correo, cortés: condicional (¿podría…?, le agradecería…). Segundo, más directo: le ruego que + subjuntivo. Tercero, firme: exijo que + subjuntivo. Lo que no ha ocurrido hasta ahora va en pretérito perfecto (todavía no he recibido el pago), y la amenaza final, con si + presente + futuro.",
           "¿Por qué subjuntivo después de rogar y exigir? Porque pides que otra persona haga algo que aún no ha hecho: es una influencia sobre otro, no un hecho.",
         ],
         [
@@ -6771,7 +6771,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "la-oficina-vacia",
     "b1r-tema-teletrabajo",
     "Repaso temático: teletrabajo u oficina",
-    "Ventajas, desventajas y preferencias — comparaciones, condicional e hipótesis sobre el trabajo remoto.",
+    "Ventajas, desventajas y preferencias — comparaciones, condicional y subjuntivo para hablar del trabajo remoto.",
     "7 min",
     [
       sec(
@@ -6836,7 +6836,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      { ...fb("Completa.", "Al principio, ___ el móvil cada cinco minutos sin darme cuenta. (buscar, yo)", "buscaba", "Hábito repetido en el pasado → imperfecto: «buscaba»."), altAnswers: ["cogía", "agarraba", "tomaba"] },
+      { ...fb("Completa.", "Al principio, ___ el móvil cada cinco minutos sin darme cuenta. (agarrar, yo)", "agarraba", "agarrar → agarraba: imperfecto, yo. «Would reach for» = hábito repetido en el pasado → imperfecto: «agarraba» (o «cogía»); «buscaba» sería «looked for»."), altAnswers: ["cogía", "tomaba", "buscaba"] },
       fb("Completa.", "Nunca ___ lo dependiente que era. (imaginar, pluscuamperfecto)", "había imaginado", "Algo anterior a otro pasado (era): pluscuamperfecto, había + participio."),
       fb("Completa.", "Me sorprende que el día ___ tan largo sin pantallas. (parecer)", "parezca", "Sorprender que + subjuntivo: parecer → parezca (c → zc, como «conozca»)."),
       mc(
@@ -7242,7 +7242,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 3],
         "«Tengo miedo que me vean» es incorrecta: la expresión es «tener miedo de que» + subjuntivo. «Me da(n) miedo» concuerda con lo que da miedo, y «he conseguido flotar» está bien."
       ),
-      toEs("I'm proud that I didn't give up.", "Estoy orgullosa de no haberme rendido.", "Mismo sujeto → de + infinitivo compuesto.", ["Estoy orgulloso de no haberme rendido."]),
+      toEs("I'm proud that I didn't give up.", "Estoy orgullosa de no haberme rendido.", "Mismo sujeto → de + infinitivo compuesto.", ["Estoy orgulloso de no haberme rendido.", "Estoy orgullosa de no haberme dado por vencida.", "Estoy orgulloso de no haberme dado por vencido."]),
       wo("Lo más difícil fue dar el primer paso.", "Lo más + adjetivo + pretérito.", "The hardest thing was taking the first step."),
     ]
   ),
@@ -7302,7 +7302,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       toEs("Buscamos un cantante que canta en inglés y en español.", "Buscamos un cantante que cante en inglés y en español.", "Todavía no sabemos quién será: subjuntivo, «cante». Con indicativo hablarías de un cantante concreto.", [], "Corrige la frase."),
       toEs("No hay nadie en el grupo que sabe arreglar los cables.", "No hay nadie en el grupo que sepa arreglar los cables.", "Tras «no hay nadie que» la persona no existe: subjuntivo, «sepa».", [], "Corrige la frase."),
       toEs("I hope a lot of people come to the concert.", "Espero que venga mucha gente al concierto.", "Esperar que + subjuntivo; «gente» es singular: venga.", ["Ojalá que venga mucha gente al concierto.", "Ojalá venga mucha gente al concierto."]),
-      wo("La música es lo que nos une a pesar de las diferencias.", "Lo que + a pesar de.", "Music is what unites us despite our differences."),
+      wo("La música es lo que nos une a pesar de las diferencias.", "«Lo que nos une» = what unites us («lo que» + verbo conjugado, sin sustantivo); «a pesar de» + sustantivo = despite.", "Music is what unites us despite our differences."),
       { type: "speak", prompt: "Graba un anuncio en voz alta: «We're a rock band and we're looking for a drummer who can rehearse on Fridays.»", text: "Somos un grupo de rock y buscamos un batería que pueda ensayar los viernes.", explanation: "No sabemos quién responderá al anuncio: relativa en subjuntivo, «pueda»." },
     ]
   ),
@@ -7384,7 +7384,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Este año ___ más de sesenta horas a la semana. (trabajar, perfecto)", "he trabajado", "Este año → perfecto."),
       fb("Completa.", "Me preocupa que no ___ tiempo para ti misma. (tener, tú)", "tengas", "«Me preocupa que» expresa una emoción ante algo que hace otra persona: subjuntivo, tengas."),
-      fb("Completa.", "Chicos, no ___ tantas horas; descansad un poco. (trabajar, vosotros)", "trabajéis", "Negativo de vosotros → subjuntivo: no trabajéis."),
+      fb("Completa.", "Chicos, os recomiendo que no ___ tantas horas; descansad un poco. (trabajar, vosotros)", "trabajéis", "Recomendar que + subjuntivo: no trabajéis."),
       mt(
         "Relaciona cada expresión con su significado.",
         [
@@ -7472,7 +7472,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "quince-dias-en-kioto",
     "b1r-tema-viajar-solo",
     "Repaso temático: viajar solo",
-    "Salir de la zona de confort: miedos, descubrimientos y consejos para el primer viaje en solitario.",
+    "Repaso B1: cuenta un primer viaje en solitario combinando imperfecto, indefinido, pluscuamperfecto y pretérito perfecto, y da consejos con mandatos y subjuntivo.",
     "7 min",
     [
       sec(
@@ -7516,7 +7516,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       toEs("Viajo sola por primera vez.", "Nunca había viajado sola antes de aquel verano.", "Para contar que algo no había pasado antes de un momento del pasado: nunca + pluscuamperfecto, «había viajado».", [], "Transforma la frase con «Nunca había…» y añade «antes de aquel verano»."),
       toEs("Aprendo a orientarme sin el móvil.", "Este año he aprendido a orientarme sin el móvil.", "Con «este año», un periodo que llega hasta hoy, se usa el pretérito perfecto: «he aprendido».", [], "Cambia al pretérito perfecto empezando con «Este año»."),
-      toEs("La primera noche me sentía muy sola y lloré.", "La primera noche me sentí muy sola y lloré.", "«La primera noche» es un momento concreto y terminado: indefinido, «me sentí».", [], "Corrige la frase."),
+      toEs("La primera noche conocía a una chica en el hostal.", "La primera noche conocí a una chica en el hostal.", "«La primera noche» marca un hecho concreto y terminado: indefinido, «conocí».", [], "Corrige la frase."),
       toEs("Cuando bajé del tren, mi amiga ya se ha ido.", "Cuando bajé del tren, mi amiga ya se había ido.", "Mi amiga se fue antes de que yo bajara del tren (otro pasado): pluscuamperfecto, «se había ido».", [], "Corrige la frase."),
       toEs("It was the best decision I have ever made.", "Fue la mejor decisión que he tomado nunca.", "Superlativo + relativo que + perfecto de experiencia: la mejor decisión que he tomado nunca.", ["Ha sido la mejor decisión que he tomado nunca.", "Fue la mejor decisión que he tomado en mi vida.", "Fue la mejor decisión que tomé en mi vida."]),
       wo("Volví a casa siendo una persona un poco diferente.", "El gerundio «siendo» describe cómo volviste (en qué estado); no es una perífrasis con «volver».", "I came home a slightly different person."),
@@ -7533,7 +7533,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       sec(
         "Recuerda la regla: contar lo que él decía",
         [
-          "Recuerda la regla: cuando cuentas lo que alguien dijo en el pasado (me dijo que, me contaba que, me prometió que), los verbos dan un paso atrás en el tiempo. El presente pasa a imperfecto (es → era), el perfecto y el indefinido pasan a pluscuamperfecto (he hecho / hice → había hecho) y el futuro pasa a condicional (vendré → vendría).",
+          "Recuerda la regla: cuando cuentas lo que alguien dijo en el pasado (me dijo que, me contaba que, me prometió que), los verbos dan un paso atrás en el tiempo. El presente pasa a imperfecto (es → era), el perfecto y el indefinido suelen pasar a pluscuamperfecto (he hecho / hice → había hecho; el indefinido a veces se mantiene: dijo que trabajó) y el futuro pasa a condicional (vendré → vendría).",
           "¿Por qué? Porque ahora todo se mira desde un momento que ya pasó: lo que entonces era presente ahora es pasado, lo que ya había ocurrido queda más atrás y lo que iba a ocurrir es un futuro visto desde el pasado. Y cambian también las personas: «mis hermanos» en boca de él pasa a «sus hermanos».",
         ],
         [
@@ -7578,7 +7578,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "el-primer-paso-de-salsa",
     "b1r-tema-timidez",
     "Repaso temático: vencer la timidez",
-    "Clases de baile, conversaciones con desconocidos y pequeños logros — emociones y consejos.",
+    "Habla de timidez y vergüenza: me cuesta / me da vergüenza + infinitivo o que + subjuntivo, cuando + indicativo para lo habitual y ponerse + adjetivo.",
     "7 min",
     [
       sec(
@@ -7632,7 +7632,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "el-aula-bajo-el-puente",
     "b1r-tema-ensenar",
     "Repaso temático: enseñar y aprender",
-    "Una profesora jubilada y sus nuevos alumnos — instrucciones de clase, deseos y experiencias.",
+    "Da instrucciones de clase con mandatos de vosotros y de ustedes y expresa deseos con quiero que / espero que + subjuntivo.",
     "7 min",
     [
       sec(
@@ -7683,7 +7683,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "el-fotografo-accidental",
     "b1r-tema-talento-oculto",
     "Repaso temático: un talento inesperado",
-    "Aficiones que se convierten en algo más — sorpresas, logros y el reconocimiento de los demás.",
+    "Repaso B1: reacciona con sorpresa (me sorprende que + subjuntivo), expresa certeza con indicativo y cuenta lo anterior con el pluscuamperfecto y la pasiva con ser.",
     "8 min",
     [
       sec(

@@ -117,12 +117,12 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Each reply reuses the verb or idea of its question: llamas → llamo, eres → soy."
       ),
-      { ...fb(
+      fb(
         "Complete the introduction.",
         "Hola, yo ___ Marta y soy de Madrid.",
         "soy",
-        "Yo takes soy. \"Yo me llamo Marta\" would also fit, but this exercise practises ser."
-      ), altAnswers: ["me llamo"] },
+        "Yo takes soy, the ser form (I am). This exercise practises ser."
+      ),
       mc(
         "You're introducing two friends to your teacher. How do you say \"They are from Mexico\"?",
         ["Ellos son de México.", "Ellos es de México.", "Ellos somos de México.", "Ellos eres de México."],
@@ -151,7 +151,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       toEs(
         "Los padres de Lucía es de Bogotá.",
         "Los padres de Lucía son de Bogotá.",
-        "Diego's note has the wrong verb: the subject is los padres (they), so ser is son.",
+        "The sentence has the wrong verb: the subject is los padres (they), so ser is son.",
         [],
         "Correct the sentence."
       ),
@@ -284,7 +284,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Problema ends in -a but is masculine, and \"a problem\" needs the indefinite article: un problema. \"Una\" and \"la\" are feminine, and \"el problema\" means the problem."
       ),
       fb("Complete with the correct definite article.", "___ foto de mi familia está en la mesa.", "La", "Foto is short for fotografía, which is feminine → la foto."),
-      toEs("The maps are on the table.", "Los mapas están en la mesa.", "Mapa is masculine → el mapa, plural los mapas."),
+      toEs("The maps are big.", "Los mapas son grandes.", "Mapa is masculine → el mapa, plural los mapas."),
       toEn("Unas chicas hablan español.", "Some girls speak Spanish.", "Unas is the feminine plural of un/una and means some: unas chicas = some girls.", ["A few girls speak Spanish.", "Some girls are speaking Spanish."]),
       mc(
         "Which pair is correct?",
@@ -834,7 +834,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       toEs("—¿Usted viaja mucho? —No, no viaja mucho.", "—¿Usted viaja mucho? —No, no viajo mucho.", "Usted is one person, you, so the answer is yo: viajo. Viaja would be talking about someone else.", ["¿Usted viaja mucho? No, no viajo mucho."], "Correct the answer."),
       toEs("Do you (informal) study or work? I study.", "¿Estudias o trabajas? Estudio.", "Tú forms in the question (-as), yo form in the answer (-o).", ["¿Tú estudias o trabajas? Estudio.", "¿Estudias o trabajas? Yo estudio."]),
       toEs("Does your girlfriend swim? Yes, she swims every day.", "¿Tu novia nada? Sí, nada todos los días.", "A question about someone else keeps the same person in the answer: nada (ella) both times.", ["¿Nada tu novia? Sí, nada todos los días.", "¿Su novia nada? Sí, nada todos los días.", "¿Nada su novia? Sí, nada todos los días."]),
-      wo("¿Ustedes entrenan juntos los domingos?", "Ustedes takes the ellos ending: entrenan. Time phrases often go at the end.", "Do you all train together on Sundays?"),
+      wo("¿Ustedes entrenan juntos los domingos?", "Ustedes takes the ellos ending: entrenan. Time phrases often go at the end.", "Do you all (Latin America) train together on Sundays?"),
       toEs("Do you (informal) sing? No, but I play the guitar.", "¿Cantas? No, pero toco la guitarra.", "Cantas (tú) in the question; toco (yo) in the answer. 'Play' an instrument is tocar."),
       toEs("Do you all (Latin America) travel a lot? No, we never travel.", "¿Ustedes viajan mucho? No, nunca viajamos.", "Ustedes question → nosotros answer: viajamos. Nunca can go before the verb (nunca viajamos) or after it with no (no viajamos nunca).", ["¿Viajan ustedes mucho? No, nunca viajamos.", "¿Ustedes viajan mucho? No, no viajamos nunca.", "¿Viajan ustedes mucho? No, no viajamos nunca."]),
       { type: "speak", prompt: "Answer aloud in Spanish, about yourself: ¿Trabajas o estudias? (Say that you work in a shop.)", text: "Trabajo en una tienda.", explanation: "A tú question gets a yo answer: trabajo, with the -o ending." },
@@ -959,9 +959,9 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "A classmate wrote this note. Read each line carefully: find the subject, then check that the verb and any adjective match it.",
         [
           ["Hola, me llamo Tomás.", "Hi, my name is Tomás."],
-          ["Yo estudia en la universidad.", "(contains an error)"],
+          ["Yo estudia en la universidad. ✗", "(contains an error)"],
           ["Mis clases son muy interesantes.", "My classes are very interesting."],
-          ["Mis compañeras son simpáticos.", "(check this line too)"],
+          ["Mis compañeras son simpáticos. ✗", "(check this line too)"],
         ],
         [
           fb("Fix the error in line 2.", "Yo ___ en la universidad.", "estudio", "Yo → -o: estudio. Estudia is the él/ella form."),
@@ -1064,7 +1064,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       toEs("The house is big and white.", "La casa es grande y blanca.", "Grande doesn't change for gender; blanco → blanca.", []),
       toEs("They write emails.", "Escriben correos.", "Ellos/ellas take -en for -ir verbs: escriben. The subject can be dropped.", ["Ellos escriben correos.", "Ellas escriben correos.", "Escriben correos electrónicos.", "Ellos escriben correos electrónicos."]),
-      wo("¿Ustedes aprenden español en la universidad?", "Ustedes takes the ellos ending: aprenden. Subject, verb, object, place — then the question marks.", "Do you all learn Spanish at the university?"),
+      wo("¿Ustedes aprenden español en la universidad?", "Ustedes takes the ellos ending: aprenden. Subject, verb, object, place — then the question marks.", "Do you all (Latin America) learn Spanish at the university?"),
       toEn("Mucho gusto, soy el profesor.", "Nice to meet you, I'm the teacher.", "Mucho gusto = nice to meet you. Soy (ser) gives identity.", ["Pleased to meet you, I'm the teacher.", "Nice to meet you, I am the teacher."]),
       fb("Complete with el or la.", "___ mapa es grande.", "El", "Mapa is masculine despite the -a: el mapa, like el problema and el día."),
       fb("Complete with amarillo.", "Las flores son ___.", "amarillas", "Amarillo → amarillas to match las flores (feminine plural)."),
@@ -2027,13 +2027,13 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "12:45 counts down from one: la una menos cuarto, and with la una it's a la (singular). \"Doce menos cuarto\" is 11:45, \"las una\" breaks the agreement, and \"es la\" tells the time now instead of when."
           ),
-          fb(
+          { ...fb(
             "Science (Ciencias) is at 2:15. Complete the timetable.",
             "Ciencias es a las dos y ___.",
             "cuarto",
             "Quarter past = y cuarto: a las dos y cuarto (y quince also works).",
             "quarter past"
-          ),
+          ), altAnswers: ["quince"] },
         ]
       ),
       sec(
@@ -2307,7 +2307,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Complete the question.", "¿___ libros hay en la mesa?", "Cuántos", "Cuánto agrees with the noun it asks about: libros is masculine plural, so cuántos (cuántas casas, cuánta leche)."),
-          fb("Complete with dónde, adónde or de dónde.", "—¿___ caminas? —Al parque.", "Adónde", "The answer says where you're heading (al parque = a + el parque), so the question uses adónde. Dónde would ask where you are, de dónde where you come from.", "Look at the little word in the answer."),
+          { ...fb("Complete with dónde, adónde or de dónde.", "—¿___ caminas? —Al parque.", "Adónde", "The answer says where you're heading (al parque = a + el parque), so the question uses adónde. Dónde would ask where you are, de dónde where you come from.", "Look at the little word in the answer."), altAnswers: ["A dónde"] },
         ]
       ),
     ],
@@ -3089,7 +3089,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Which sentences could appear in a postcard correctly?",
         ["La playa está muy limpia hoy.", "Mi hermana es en la piscina.", "El museo es enorme.", "Nosotros somos muy contentos."],
         [0, 2],
-        "Location → está en la piscina. A feeling → estamos muy contentos."
+        "La playa está limpia hoy is a state (estar) and el museo es enorme is a characteristic (ser). The wrong options fail because a location takes estar (mi hermana está en la piscina) and a feeling takes estar (estamos muy contentos)."
       ),
       toEs("The market is near the hotel and it's very big.", "El mercado está cerca del hotel y es muy grande.", "Location → estar; size → ser.", ["El mercado está cerca del hotel y es enorme."]),
       toEn("Hoy estamos cansados pero muy contentos.", "Today we're tired but very happy.", "Being tired and being happy are both states, so estar: estamos cansados, estamos contentos.", ["Today we are tired but very happy."]),
@@ -3473,8 +3473,8 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Most place words keep de (enfrente de, lejos de, cerca de); entre is the one that doesn't take de."
       ),
-      fb("Complete the direction.", "El banco está a la izquierda ___ la farmacia.", "de", "A la izquierda de = to the left of. La doesn't contract."),
-      fb("Complete the direction.", "El hotel está al lado ___ museo.", "del", "Al lado de + el museo → del museo."),
+      fb("Complete the direction.", "El banco está a la izquierda ___ la farmacia.", "de", "De stays separate before la: a la izquierda de la farmacia. Only de + el merges (into del)."),
+      fb("Complete the direction.", "El hotel está al lado ___ museo.", "del", "The blank is de + el museo, which merges into del: al lado del museo."),
       mc(
         "\"The park is far from the station.\"",
         ["El parque está lejos de la estación.", "El parque es lejos de la estación.", "El parque está lejos la estación.", "El parque está lejos del la estación."],
@@ -3604,7 +3604,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Cuándo → time, por qué → reason (porque), cómo es → description, adónde → destination."
       ),
-      fb("Complete the question.", "¿___ idiomas hablas? —Hablo tres.", "Cuántos", "Idiomas is masculine plural (el idioma) → cuántos."),
+      fb("Complete the question.", "¿___ idiomas hablas? —Hablo tres.", "Cuántos", "Idioma ends in -a but is masculine (el idioma), so idiomas takes cuántos, not cuántas."),
       fb("Answer the question.", "—¿Por qué estás cansado? —___ trabajo mucho.", "Porque", "Answering why → porque (one word, no accent)."),
       mc(
         "Which question would you ask to find out someone's job?",
@@ -3924,7 +3924,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
               "Hago hambre."
             ],
             "correctIndex": 0,
-            "explanation": "Hunger is something you have: tengo hambre. Soy is the same ser mistake, hay would mean hunger exists, and hacer is for weather."
+            "explanation": "Hunger is something you have: tengo hambre. Soy hambre is the same 'to be' mistake with ser instead of estar, hay would mean hunger exists, and hacer is for weather."
           },
           {
             "type": "translate",
@@ -4519,7 +4519,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "prompt": "How do you say the bold words in Spanish?",
         "sentence": "En ___, de lunes a jueves trabajo treinta y dos horas.",
         "answer": "total",
-        "en": "[In total], from Monday to Thursday I work thirty-two hours.",
+        "en": "In [total], from Monday to Thursday I work thirty-two hours.",
         "explanation": "En total = in total: four days of nine to five is 4 × 8 = treinta y dos horas."
       },
       {
@@ -5034,7 +5034,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Saying what someone does: ser, and no article",
         [
           "To say what someone does, use ser and the bare job word: Soy enfermero, Es periodista. English says \"a nurse\", Spanish drops the un / una.",
-          "The article comes back as soon as you describe the person with an adjective: Es una abogada muy buena. (With buen / buena before the noun it can go again: Es muy buen profesor.) To ask about a job, say ¿En qué trabajas? (What do you do?) and answer with ser, or with trabajar en + the workplace.",
+          "The article comes back as soon as you describe the person with an adjective: Es una abogada muy buena. (When buen / buena comes before the noun, the article can be left out again: Es muy buen profesor.) To ask about a job, say ¿En qué trabajas? (What do you do?) and answer with ser, or with trabajar en + the workplace.",
         ],
         [
           ["—¿En qué trabajas? —Soy enfermero.", "What do you do? I'm a nurse. (no un after soy)"],
@@ -5193,7 +5193,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         ["What does your sister do? She's a taxi driver.", "What does your sister do? She is a taxi driver.", "What's your sister's job? She's a taxi driver."]
       ),
       wo("Los ingenieros trabajan en una oficina grande", "Trabajan for ellos; grande follows oficina.", "The engineers work in a big office"),
-      wo("Los turistas visitan el museo con un guía.", "Turista is the same for men and women (-ista); el guía is a male guide, la guía a female one.", "The tourists visit the museum with a guide."),
+      wo("Los turistas visitan el museo con un guía.", "Turista is the same for men and women (-ista); el guía is a male guide, la guía a female one.", "The tourists visit the museum with a guide (m.)."),
       {
         type: "speak",
         prompt: "Say it in Spanish: My mother is a dentist and my father is a cook.",
@@ -6628,7 +6628,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       {
         "heading": "Sentence architecture",
         "body": [
-          "Beginner sentences follow a reliable blueprint: (time) + subject + verb + object + (place) + (reason). Spanish word order is flexible, but this order is always correct, so build from the verb outward.",
+          "Beginner sentences follow a reliable blueprint: (time) + subject + verb + object + (place) + (reason). Spanish word order is flexible, but this order is a safe default, so build from the verb outward.",
           "Two pieces have fixed spots: no goes right before the verb (and before a pronoun like le or te in front of it), and most adjectives come after their noun."
         ],
         "examples": [

@@ -169,8 +169,11 @@ function unitSentences(
   const fromExercises = lessons
     .flatMap((l) => [...l.sections.flatMap((s) => s.checkpoint ?? []), ...l.exercises].map((e) => ({ e, lesson: l.slug })))
     .flatMap(({ e, lesson }): Tagged[] => {
-      if (e.type === "translate")
-        return [e.direction === targetAnswerDirection ? { es: e.answer, en: e.source, lesson } : { es: e.source, en: e.answer, lesson }];
+      if (e.type === "translate") {
+        // "Corrige"/"Transforma" items have a Spanish source: not a gloss.
+        const spanishSource = /^correct/i.test(e.prompt ?? "") || /[áéíóúñ¿¡]|^\s*(corrige|transforma|pasa|cambia|reescribe|convierte|reacciona|responde|reformula)\b|\b(la|el|los|las|frase|al|del|con)\b/i.test(e.prompt ?? "");
+        return [e.direction === targetAnswerDirection ? { es: e.answer, en: spanishSource ? undefined : e.source, lesson } : { es: e.source, en: e.answer, lesson }];
+      }
       if (e.type === "fill-blank" && e.en && e.sentence.split("___").length === 2) {
         return [{ es: e.sentence.replace("___", e.answer), en: e.en.replace(/[[\]]/g, ""), lesson }];
       }
@@ -280,6 +283,8 @@ const EN_COPY: Copy = {
 
 /** Unit-specific summaries (Spanish) for units where the generic line says too little. */
 const ES_UNIT_FOCUS: Record<string, string> = {
+  "the Intermediate level so far & vosotros in practice":
+    "Escucha, habla y escribe con lo que has aprendido en esta unidad de repaso del nivel Intermedio y los mandatos de vosotros",
   "Sequence of tenses in practice":
     "Escucha, habla y escribe con lo que has aprendido en «La secuencia de tiempos en la práctica»",
   "Hypothetical si-clauses":

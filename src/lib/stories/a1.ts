@@ -99,7 +99,7 @@ export const A1_STORIES: Story[] = [
       "Cada día, Tomás juega con Rocky en el jardín. Le da agua fresca y comida especial para cachorros. Rocky empieza a conocer a Tomás y ya no tiene miedo. Rápidamente, los dos se hacen muy buenos amigos.",
       "Tomás quiere enseñar un truco a Rocky. Todos los días, dice \"siéntate\" y le da un premio pequeño. Al principio, Rocky no entiende y solo salta. Pero Tomás tiene paciencia y practica cada tarde.",
       "Después de dos semanas, pasa algo increíble. Tomás dice \"siéntate\" y Rocky se sienta al instante. Tomás grita de alegría y abraza a su perro. Toda la familia celebra el nuevo truco de Rocky.",
-      "Ahora, Rocky sabe muchos trucos más. Tomás está muy orgulloso de su perro inteligente. Cada noche, Rocky duerme cerca de la cama de Tomás. Los dos son una familia perfecta.",
+      "Ahora, Rocky sabe muchos más trucos. Tomás está muy orgulloso de su perro inteligente. Cada noche, Rocky duerme cerca de la cama de Tomás. Los dos son una familia perfecta.",
     ],
     questions: [
       {
@@ -137,7 +137,7 @@ export const A1_STORIES: Story[] = [
       "Cuando Elena abre la puerta de la casa de Carla, las luces están apagadas. De repente, todos gritan \"¡Sorpresa!\" y las luces se encienden. Elena ve a todos sus amigos y también a su familia. Hay globos de colores y un pastel de chocolate.",
       "Elena no puede creer lo que ve. Empieza a reír y también a llorar de felicidad. Sus amigos cantan la canción de cumpleaños con mucha energía. Elena abraza a Carla y le da las gracias.",
       "Durante la fiesta, todos bailan y comen pastel delicioso. Elena recibe muchos regalos bonitos de sus amigos. Su hermano pequeño le da un dibujo especial. Elena dice que es la mejor sorpresa de su vida.",
-      "Al final de la noche, Elena ayuda a limpiar la casa de Carla. Le da las gracias a cada amigo por el secreto. Elena aprende que sus amigos siempre piensan en ella. Ese cumpleaños, Elena nunca lo olvida.",
+      "Al final de la noche, Elena ayuda a limpiar la casa de Carla. Le da las gracias a cada amigo por guardar el secreto. Elena aprende que sus amigos siempre piensan en ella. Ese cumpleaños, Elena nunca lo olvida.",
     ],
     questions: [
       {
@@ -2092,7 +2092,7 @@ export const A1_STORIES: Story[] = [
       "Isabel draws a dolphin for the town library's drawing contest and wins second place.",
     paragraphs: [
       "La biblioteca del pueblo organiza un concurso de dibujo. El tema es \"Mi animal favorito\". Isabel decide dibujar un delfín.",
-      "Isabel practica su dibujo muchas veces en casa. Usa lápices de colores azul y gris. Su mamá la ayuda con los detalles del agua.",
+      "Isabel practica su dibujo muchas veces en casa. Usa lápices azules y grises. Su mamá la ayuda con los detalles del agua.",
       "El día del concurso, muchos niños llegan a la biblioteca con sus dibujos. Hay dibujos de perros, gatos, leones y pájaros. Isabel pone su dibujo en la mesa con los otros.",
       "Un grupo de jueces camina por la sala. Miran cada dibujo con cuidado. Isabel espera con las manos juntas.",
       "Los jueces hablan entre ellos por unos minutos. Después, anuncian los ganadores. Isabel escucha su nombre con sorpresa.",
@@ -3180,7 +3180,7 @@ export const A1_STORIES: Story[] = [
       "Por la mañana, papá sale de casa muy temprano. Emma todavía duerme. Él lleva la bolsa de la comida y una gran sonrisa.",
       "Por la tarde, Emma y su mamá van a la parada del autobús número doce. Esperan cinco minutos. Luego, llega un autobús grande y verde. ¡Papá es el conductor!",
       "Emma sube al autobús y paga su billete. Papá le guiña un ojo. Emma se sienta delante y mira a su papá. Él conduce con cuidado y saluda a todas las personas.",
-      "Esa noche, papá cuenta su día. \"En la comida veo tu nota\", le dice a Emma. \"La tengo aquí, en mi bolsillo.\" Emma está muy orgullosa de su papá.",
+      "Esa noche, papá cuenta su día. \"En la bolsa de la comida encuentro tu nota\", le dice a Emma. \"La tengo aquí, en mi bolsillo.\" Emma está muy orgullosa de su papá.",
     ],
     questions: [
       {

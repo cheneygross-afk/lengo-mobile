@@ -314,6 +314,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "prometer", en: "to promise", forms: ["prometió"] },
   ],
   "el-bebe-nuevo-de-la-familia": [
+    { es: "cargar", en: "to hold, to carry", forms: ["cargarlo"] },
     { es: "andar en bicicleta", en: "to ride a bike", forms: ["andar"] },
     { es: "bajito", en: "very softly", forms: ["bajito"] },
     { es: "crecer", en: "to grow", forms: ["creció"] },
@@ -323,6 +324,8 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "sentirse", en: "to feel", forms: ["sintió"] },
   ],
   "el-desayuno-sorpresa-para-mama": [
+    { es: "quemado", en: "burnt", forms: ["quemados"] },
+    { es: "sucio", en: "dirty", forms: ["sucio"] },
     { es: "las escaleras", en: "stairs", forms: ["escaleras"] },
     { es: "el esfuerzo", en: "effort", forms: ["esfuerzo"] },
   ],
@@ -362,6 +365,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "seguir", en: "to follow", forms: ["siguió"] },
   ],
   "el-tobillo-torcido": [
+    { es: "torcido", en: "sprained, twisted", forms: ["torcido"] },
     { es: "la patineta", en: "skateboard", forms: ["patineta"] },
     { es: "la muleta", en: "crutch", forms: ["muletas"] },
     { es: "andar", en: "to ride (andar en patineta=to skateboard); to walk, go", forms: ["anda", "andar"] },
@@ -374,6 +378,8 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la libertad", en: "freedom", forms: ["libertad"] },
   ],
   "la-gripe-de-marco": [
+    { es: "la gripe", en: "flu", forms: ["gripe"] },
+    { es: "la fiebre", en: "fever", forms: ["fiebre"] },
     { es: "el pedazo", en: "piece", forms: ["pedazo"] },
     { es: "sentir", en: "to feel", forms: ["sintió"] },
     { es: "aunque", en: "although", forms: ["aunque"] },
@@ -384,6 +390,8 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "perderse", en: "to miss", forms: ["perderse"] },
   ],
   "la-alergia-nueva": [
+    { es: "el marisco", en: "shellfish", forms: ["mariscos"] },
+    { es: "alérgico", en: "allergic", forms: ["alérgica"] },
     { es: "el camarón", en: "shrimp", forms: ["camarones"] },
     { es: "sentir", en: "to feel", forms: ["sintió"] },
     { es: "el alimento", en: "food", forms: ["alimentos"] },
@@ -613,6 +621,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el río", en: "river", forms: ["ríos"] },
   ],
   "el-videojuego-nuevo": [
+    { es: "el control", en: "controller", forms: ["control"] },
     { es: "quedarse con", en: "to keep", forms: ["quedarse"] },
     { es: "varios", en: "several", forms: ["varias", "varios"] },
     { es: "aceptar", en: "to accept", forms: ["aceptó"] },
@@ -941,7 +950,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la donación", en: "donation", forms: ["donaciones"] },
     { es: "con fuerza", en: "hard", forms: ["fuerza"] },
     { es: "el local", en: "premises", forms: ["local"] },
-    { es: "la magdalena", en: "muffin", forms: ["magdalenas"] },
+    { es: "la magdalena", en: "small sponge cake (madeleine)", forms: ["magdalenas"] },
     { es: "montar", en: "to set up", forms: ["montaron"] },
     { es: "ofrecer", en: "to offer", forms: ["ofreció"] },
     { es: "otro", en: "other", forms: ["otras"] },
@@ -1097,6 +1106,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el burro", en: "donkey", forms: ["burro"] },
   ],
   "a-day-in-grandmas-shop": [
+    { es: "fiado", en: "on credit (pay later)", forms: ["fiado"] },
     { es: "agradecido", en: "grateful", forms: ["agradecida"] },
     { es: "la tienda de alimentación", en: "grocery store", forms: ["alimentación"] },
     { es: "atender", en: "to look after", forms: ["atendiera"] },

@@ -320,7 +320,7 @@ export const A1_CORE: AnchoredLesson[] = [
         ],
         [
           fe("¿Me ayudas? —¡___!", "Por supuesto", "Will you help me? — [Of course]!", "Por supuesto = of course. Claro means the same.", ["por supuesto", "Claro"]),
-          fe("Hay ___ gente en el metro.", "demasiada", "There are [too many] people on the metro.", "Before a noun, demasiado agrees with it: gente is feminine singular, so demasiada gente.", ["mucha"]),
+          fe("Hay ___ gente en el metro.", "demasiada", "There are [too many] people on the metro.", "Before a noun, demasiado agrees with it: gente is feminine singular, so demasiada gente."),
         ]
       ),
     ],
@@ -499,7 +499,7 @@ export const A1_CORE: AnchoredLesson[] = [
     [
       fe("Me ___ la espalda.", "duele", "My back [hurts].", "La espalda is singular → duele."),
       fe("Tengo dolor de ___.", "cabeza", "I have a [head]ache.", "Tener dolor de + body part, with no article after de."),
-      fe("Mi abuelo tiene un problema de ___.", "corazón", "My grandfather has a [heart] problem.", "El corazón = the heart."),
+      fe("Mi abuelo tiene un problema del ___.", "corazón", "My grandfather has a [heart] problem.", "El corazón = the heart."),
       toEs("My knees hurt. (la rodilla = the knee)", "Me duelen las rodillas.", "A new word, the same rule: several knees → duelen, with las, not mis."),
       toEs("Does your head hurt?", "¿Te duele la cabeza?", "Te duele + la cabeza: te already says 'your'.", ["¿Le duele la cabeza?"]),
       toEs("It's nothing serious.", "No es nada serio.", "No… nada = nothing; serio agrees with nada (masculine).", ["No es nada grave."]),
@@ -590,7 +590,7 @@ export const A1_CORE: AnchoredLesson[] = [
           ["el otoño", "autumn"],
           ["el invierno", "winter"],
         ],
-        "The four seasons."
+        "Each season has its own article: la primavera (feminine) and el verano, el otoño, el invierno (masculine)."
       ),
       ms(
         "Which sentences are correct?",
@@ -709,7 +709,7 @@ export const A1_CORE: AnchoredLesson[] = [
       ),
       sec(
         "Falling, catching, escaping",
-        "Caer (to fall) has a -go yo form like traer → traigo and poner → pongo: caigo. Only yo is odd; the rest is regular (caes, cae, caemos). Coger (to take, to catch) is everyday in Spain; in much of Latin America people say tomar or agarrar instead.",
+        "Caer (to fall) has a -go yo form like traer → traigo and poner → pongo: caigo. Only yo is odd; the rest is regular (caes, cae, caemos). Coger (to take, to catch) is everyday in Spain; in much of Latin America (for example Mexico and Argentina) it is vulgar, so people say tomar or agarrar instead.",
         [
           ["Cuidado, el vaso se cae.", "Careful, the glass is falling."],
           ["Cojo el tren de las ocho.", "I take the eight o'clock train. (Spain)"],
@@ -781,7 +781,7 @@ export const A1_CORE: AnchoredLesson[] = [
   L(
     "a1-core-words-where",
     "Core Words: Up, Down, Back, There",
-    "Ahí, arriba, abajo, adelante, atrás, hacia, contra: words for where things are and which way they go.",
+    "Ahí, arriba, abajo, adelante, atrás, hacia, contra: words for where things are and which way they go, plus acerca de (about) versus cerca de (near).",
     "8 min",
     [
       sec(
@@ -944,7 +944,7 @@ export const A1_CORE: AnchoredLesson[] = [
           ["la esperanza", "hope"],
           ["la suerte", "luck"],
         ],
-        "Big words, small lesson."
+        "Match each noun with its meaning; vida, paz, esperanza and suerte are feminine, amor is masculine."
       ),
     ]
   ),

@@ -138,7 +138,7 @@ export const DRILLS_A1_2: Record<string, Exercise[]> = {
     mc("What does 'Me gusta la lectura' mean?", ["I like reading.", "I like the lecture.", "I like to read it.", "I like the letters."], 0, "La lectura = reading (the noun), a false friend: a lecture is una conferencia or una clase. One thing, so gusta."),
     toEs("They like chicken with rice.", "Les gusta el pollo con arroz.", "Les for ellos; the dish is one thing: gusta.", ["A ellos les gusta el pollo con arroz.", "A ellas les gusta el pollo con arroz."]),
     mc("'I don't like the drinks.'", ["No me gusta las bebidas.", "No me gustan las bebidas.", "Me no gustan las bebidas.", "No gusto las bebidas."], 1, "No before me; gustan for plural bebidas. No can't go between me and the verb, and gusto would make 'I' the subject."),
-    toEs("My sister likes painting and songs.", "A mi hermana le gustan la pintura y las canciones.", "Two things liked make a plural subject: gustan.", ["A mi hermana le gusta la pintura y las canciones."]),
+    toEs("My sister likes painting and songs.", "A mi hermana le gustan la pintura y las canciones.", "Two things liked make a plural subject: gustan.", ["A ella le gustan la pintura y las canciones."]),
     wo("¿Te gusta la sopa de pollo?", "One thing liked: gusta.", "Do you like chicken soup?"),
   ],
   "a1r-contrast-gusta-gustan": [

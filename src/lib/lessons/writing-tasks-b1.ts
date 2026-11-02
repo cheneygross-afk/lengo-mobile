@@ -504,7 +504,7 @@ export const B1_WRITING_TASKS: UnitWriting = {
   "b1r-tema-redes-sociales": [
     {
       "type": "write",
-      "prompt": "Escribe una entrada para un blog con tu opinión sobre las redes sociales: qué te gusta, qué te molesta y qué consejo darías. Usa oraciones de relativo.",
+      "prompt": "Escribe una entrada para un blog con tu opinión sobre las redes sociales: qué te gusta, qué te molesta y qué consejo darías. Usa al menos cuatro oraciones de relativo y una opinión con creo que o no creo que.",
       "minWords": 60,
       "maxWords": 100,
       "rubric": [
@@ -536,7 +536,7 @@ export const B1_WRITING_TASKS: UnitWriting = {
   "b1r-tema-reunion-familiar": [
     {
       "type": "write",
-      "prompt": "Organizas una gran reunión familiar en el pueblo. Escribe un correo a tu primo, que hace años que no viene, para convencerlo. Usa mandatos irregulares de tú.",
+      "prompt": "Organizas una gran reunión familiar en el pueblo. Escribe un correo a tu primo, que hace años que no viene, para convencerlo. Usa mandatos irregulares de tú y «hace… que» para hablar del tiempo sin verse.",
       "minWords": 50,
       "maxWords": 90,
       "rubric": [
@@ -593,14 +593,14 @@ export const B1_WRITING_TASKS: UnitWriting = {
         "Se valorará + experiencia o idiomas",
         "Datos de contacto"
       ],
-      "modelAnswer": "Se buscan camareros para el verano. Restaurante en la playa de Salou necesita dos camareros y un ayudante de cocina de junio a septiembre. Se requiere experiencia mínima de un año y disponibilidad para trabajar los fines de semana. Se valorará el conocimiento de inglés o francés. Se ofrece contrato de tres meses, buen ambiente y comida incluida. Los interesados pueden enviar su currículum a empleo@lamarina.es.",
-      "explanation": "Los anuncios de trabajo usan el se pasivo y el verbo concuerda con el sustantivo: se buscan camareros, se requiere experiencia. Con varios sustantivos en singular detrás del verbo, lo normal es el singular: se ofrece contrato, buen ambiente y comida."
+      "modelAnswer": "Se buscan camareros para el verano. Restaurante en la playa de Salou necesita dos camareros y un ayudante de cocina de junio a septiembre. Se requiere experiencia mínima de un año y disponibilidad para trabajar los fines de semana. Se valorará el conocimiento de inglés o francés. Se ofrecen contrato de tres meses, buen ambiente y comida incluida. Los interesados pueden enviar su currículum a empleo@lamarina.es.",
+      "explanation": "Los anuncios de trabajo usan el se pasivo y el verbo concuerda con el sustantivo: se buscan camareros, se requiere experiencia. Con varios sustantivos unidos por «y», lo más claro es el plural: se ofrecen contrato, buen ambiente y comida (el singular, concordando solo con el primero, también se ve en anuncios)."
     }
   ],
   "b1r-tema-reclamar-pago": [
     {
       "type": "write",
-      "prompt": "Hiciste un trabajo de traducción para una empresa hace dos meses y todavía no te han pagado. Escribe un correo firme pero educado para reclamar el pago.",
+      "prompt": "Hiciste un trabajo de traducción para una empresa hace dos meses y todavía no te han pagado. Escribe un correo firme pero educado para reclamar el pago. Usa al menos dos construcciones con se y una petición con «le ruego que».",
       "minWords": 60,
       "maxWords": 100,
       "rubric": [

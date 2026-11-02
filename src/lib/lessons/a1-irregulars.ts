@@ -299,7 +299,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
       toEs("Do you (informal) know how to dance?", "¿Sabes bailar?", "Saber + infinitive; don't add 'cómo'.", ["¿Tú sabes bailar?"]),
       toEs("Yo do un regalo a mi madre.", "Yo doy un regalo a mi madre.", "Dar is irregular in yo: doy, not \"do\".", ["Doy un regalo a mi madre.", "Le doy un regalo a mi madre."], "Correct the sentence."),
       toEs("Tú sabe nadar muy bien.", "Tú sabes nadar muy bien.", "Outside yo, saber is regular, and tú takes -es: sabes. Sabe is the él/ella form.", ["Sabes nadar muy bien."], "Correct the sentence."),
-      toEs("¿Sabes cómo nadar?", "¿Sabes nadar?", "Saber + infinitive already means \"know how to\". Spanish doesn't add cómo before the infinitive.", ["¿Tú sabes nadar?"], "Correct the sentence."),
+      toEs("¿Sabes cómo nadar?", "¿Sabes nadar?", "Saber + infinitive already means \"know how to\", so cómo is unnecessary (¿Sabes cómo nadar? is possible but less natural).", ["¿Tú sabes nadar?"], "Correct the sentence."),
       wo("Veo una película y doy un paseo", "Veo (ver) and doy (dar): both yo forms.", "I watch a movie and go for a walk"),
       { type: "speak", prompt: "Say it in Spanish: I don't know how to cook, but I see my mother on Sundays and she gives me food.", text: "No sé cocinar, pero veo a mi madre los domingos y ella me da comida.", explanation: "Sé, veo (yo forms) and da (ella, regular). Ver takes a before a person: veo a mi madre." },
     ]
@@ -550,7 +550,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
   L(
     "a1-modal-verbs-infinitive",
     "Can, Want, Need, Have To: Verb + Infinitive",
-    "Poder, querer, necesitar, tener que, deber and saber: conjugate the first verb and leave the second as it is.",
+    "Poder, querer, necesitar, tener que and deber, plus acabar de and dejar de: conjugate the first verb and leave the second as it is.",
     "9 min",
     [
       sec(

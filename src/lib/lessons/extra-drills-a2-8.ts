@@ -149,7 +149,7 @@ export const DRILLS_A2_8: Record<string, Exercise[]> = {
     wo("Mi perro es más inteligente que mi gato", "Más + adjective + que.", "My dog is smarter than my cat"),
     mc("Which means 'Pablo is as funny as his father'?", ["Pablo es tan gracioso como su padre.", "Pablo es tanto gracioso como su padre.", "Pablo es tan gracioso que su padre.", "Pablo es más gracioso como su padre."], 0, "Tan (not tanto) before an adjective, and como (not que)."),
     wo("Tengo menos tiempo libre que antes", "Menos + noun + que.", "I have less free time than before"),
-    mc("«Mi abuelo tiene noventa años: es ___ que mi abuela.»", ["mayor", "más mayor", "mejor", "menor"], 0, "For people's age, older is mayor; it's already a comparative, so never más mayor. Mejor means better and menor means younger."),
+    mc("«Mi abuelo tiene noventa años: es ___ que mi abuela.»", ["mayor", "más mayor", "mejor", "menor"], 0, "For people's age, older is mayor; it's already a comparative, so careful Spanish avoids más mayor. Mejor means better and menor means younger."),
   ],
   "comparisons-superlatives-drill-2": [
     toEs("Estoy tanto cansado como tú.", "Estoy tan cansado como tú.", "Before an adjective it's tan, never tanto: tan cansado como.", ["Estoy tan cansada como tú."], "Correct the sentence."),
@@ -166,7 +166,7 @@ export const DRILLS_A2_8: Record<string, Exercise[]> = {
     toEs("They are the cheapest shoes in the market.", "Son los zapatos más baratos del mercado.", "De + el = del; the adjective agrees with zapatos.", ["Esos son los zapatos más baratos del mercado.", "Estos son los zapatos más baratos del mercado."]),
     toEs("She is the least shy girl in the class.", "Es la chica menos tímida de la clase.", "Menos in a superlative: la … menos + adjective + de.", ["Ella es la chica menos tímida de la clase.", "Es la niña menos tímida de la clase."]),
     wo("Es el museo más famoso del país", "Noun, then más + adjective, then del.", "It's the most famous museum in the country"),
-    mc("'My older sister' →", ["mi hermana mayor", "mi hermana más mayor", "mi hermana mejor", "mi hermana más grande que"], 0, "Mayor already means 'older'; never add más."),
+    mc("'My older sister' →", ["mi hermana mayor", "mi hermana más mayor", "mi hermana mejor", "mi hermana más grande que"], 0, "Mayor already means 'older'; careful Spanish does not add más."),
     toEs("Este plato es más barato que el otro.", "Este plato es el más barato del menú.", "A superlative singles out the extreme of a group: el más barato + de (de + el = del menú).", ["Es el plato más barato del menú."], "Change it to a superlative: the cheapest dish on the menu."),
   ],
   "comparisons-superlatives-drill-3": [
@@ -192,7 +192,7 @@ export const DRILLS_A2_8: Record<string, Exercise[]> = {
     toEs("¡Hay tanto tráfico!", "¡Hay tanta gente!", "Before a noun, tanto agrees with it: gente is feminine singular, so tanta.", [], "Change tráfico to gente."),
     fe("La clase de hoy fue ___ aburrida.", "tan", "Today's class was [so] boring.", "Adjective → tan."),
     toEs("She doesn't run as fast as her brother.", "No corre tan rápido como su hermano.", "Tan before an adverb (rápido).", ["Ella no corre tan rápido como su hermano."]),
-    fe("No tengo ___ hambre como ayer.", "tanta", "I'm not [as] hungry as yesterday.", "Hambre is feminine (el hambre, but mucha hambre) → tanta."),
+    fe("No tengo ___ hambre como ayer.", "tanta", "I'm not as hungry as yesterday (literally: I don't have [as much] hunger).", "Hambre is feminine (el hambre, but mucha hambre) → tanta."),
     toEs("Mi ciudad tiene tantos parques como la tuya.", "Mi ciudad tiene tantas plazas como la tuya.", "Tanto agrees with the noun: plazas is feminine plural, so tantos becomes tantas.", [], "Change parques to plazas."),
     fe("Hay ___ cosas que hacer hoy.", "tantas", "There are [so many] things to do today.", "Cosas is feminine plural → tantas."),
     toEs("Mi perro come tanta como yo.", "Mi perro come tanto como yo.", "After a verb there's no noun to agree with, so tanto never changes: come tanto como yo.", [], "Correct the sentence."),
@@ -299,7 +299,7 @@ export const DRILLS_A2_8: Record<string, Exercise[]> = {
   "future-tense-drill-2": [
     toEs("Poderemos descansar el domingo.", "Podremos descansar el domingo.", "Poder drops the e of its infinitive: podr- + emos = podremos.", ["El domingo podremos descansar."], "Correct the sentence."),
     toEs("No querrán venir.", "No querré venir.", "Keep the irregular stem querr- (double r) and switch the ending for yo: querré.", ["Yo no querré venir."], "Change to yo."),
-    fe("¿A qué hora ___ ustedes del trabajo?", "saldrán", "What time [will] you all [leave] work?", "Salir → saldr-: saldrán, not 'salirán'.", ["saldréis"]),
+    fe("¿A qué hora ___ ustedes del trabajo?", "saldrán", "What time [will] you all [leave] work?", "Salir → saldr-: saldrán, not 'salirán'."),
     toEs("Habrá una fiesta el viernes.", "Habrá dos fiestas el viernes.", "Like hay, habrá (there will be) never changes: habrá una fiesta, habrá dos fiestas.", ["El viernes habrá dos fiestas."], "Change una fiesta to dos fiestas."),
     toEs("Poneré las llaves en la mesa.", "Pondré las llaves en la mesa.", "Poner swaps its e for a d: pondr- + é = pondré.", [], "Correct the sentence."),
     fe("Mi jefe nos ___ la respuesta el lunes.", "dirá", "My boss [will tell] us the answer on Monday.", "Decir → dir-: dirá."),
