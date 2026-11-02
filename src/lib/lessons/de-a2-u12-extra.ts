@@ -130,10 +130,10 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct? I'm taking the long scarf.",
+        question: "How do you say 'I'm taking the long scarf.'?",
         options: ["Ich nehme den langen Schal.", "Ich nehme den lange Schal.", "Ich nehme der lange Schal.", "Ich nehme die langen Schal."],
         correctIndex: 0,
-        explanation: "Masculine accusative: \"den langen\".",
+        explanation: "Masculine accusative: \"den\" + -en, \"den langen Schal\". \"*Den lange Schal*\" keeps the nominative ending -e.",
       },
       {
         type: "listen-choose",
@@ -286,10 +286,10 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct? with the red cars",
+        question: "How do you say 'with the red cars'?",
         options: ["mit den roten Autos", "mit den rote Autos", "mit die roten Autos", "mit dem roten Autos"],
         correctIndex: 0,
-        explanation: "Dative plural: \"den roten\". \"Autos\" ends in -s, so no extra -n.",
+        explanation: "Dative plural: \"den roten\". \"Autos\" ends in -s, so no extra -n. \"*Mit dem roten Autos*\" uses the singular article.",
       },
       {
         type: "listen-choose",
@@ -440,10 +440,10 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The little children are playing with the big ball.'?",
         options: ["Die kleinen Kinder spielen mit dem großen Ball.", "Die kleine Kinder spielen mit dem große Ball.", "Die kleinen Kinder spielen mit dem große Ball.", "Die kleine Kinder spielen mit den großen Ball."],
         correctIndex: 0,
-        explanation: "Plural -en; dative -en.",
+        explanation: "Plural after \"die\": -en (\"die kleinen Kinder\"); dative after \"dem\": -en (\"dem großen Ball\"). \"*Mit dem große Ball*\" keeps the nominative ending -e.",
       },
       {
         type: "listen-choose",
@@ -744,10 +744,10 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which ad line is correct?",
+        question: "Which ad line says 'I'm selling the grey sofa.'?",
         options: ["Ich verkaufe das graue Sofa.", "Ich verkaufe das grauen Sofa.", "Ich verkaufe den graue Sofa.", "Ich verkaufe das grau Sofa."],
         correctIndex: 0,
-        explanation: "Neuter accusative: \"das graue\".",
+        explanation: "Neuter accusative after \"das\": -e, \"das graue Sofa\". \"*Das grauen Sofa*\" adds -en, which neuter only takes after \"dem\" or in the plural.",
       },
       {
         type: "listen-choose",
@@ -1524,10 +1524,10 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct? with the nice young neighbours",
+        question: "How do you say 'with the nice young neighbours'?",
         options: ["mit den netten jungen Nachbarn", "mit den nette junge Nachbarn", "mit den netten junge Nachbarn", "mit dem netten jungen Nachbarn"],
         correctIndex: 0,
-        explanation: "Dative plural: every adjective -en. (The last option is singular.)",
+        explanation: "Dative plural: every adjective takes -en, and \"Nachbarn\" ends in -n. \"*Mit dem netten jungen Nachbarn*\" is singular (one neighbour).",
       },
       {
         type: "listen-choose",
@@ -1678,10 +1678,10 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The little dog is louder than the big one.'?",
         options: ["Der kleine Hund ist lauter als der große.", "Der kleine Hund ist lautere als der große.", "Der kleine Hund ist lauter als der großen.", "Der kleinen Hund ist lauter als der große."],
         correctIndex: 0,
-        explanation: "Nominative -e; comparative after \"ist\" without ending.",
+        explanation: "Nominative after \"der\": -e (\"der kleine\", \"der große\"); the comparative after \"ist\" takes no ending: \"lauter\". \"*Lautere als*\" adds an ending after \"sein\".",
       },
       {
         type: "listen-choose",

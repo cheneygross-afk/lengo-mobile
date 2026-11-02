@@ -561,10 +561,10 @@ export const DE_B2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'If we had moved, we would have had more space.'?",
         options: ["Wenn wir umgezogen wären, hätten wir mehr Platz gehabt.", "Wenn wir umgezogen hätten, hätten wir mehr Platz gehabt.", "Wenn wir umgezogen wären, wären wir mehr Platz gehabt.", "Wenn wir umgezogen hätten, wären wir mehr Platz gehabt."],
         correctIndex: 0,
-        explanation: "\"Umziehen\" (to move house) takes sein; \"haben\" takes haben. Each half chooses its own auxiliary.",
+        explanation: "\"Umziehen\" is a verb of movement, so it takes \"wären umgezogen\", while \"haben\" takes \"hätten ... gehabt\": each half picks its own auxiliary. \"*Wenn wir umgezogen hätten*\" gives the move the wrong auxiliary.",
       },
       {
         type: "translate",
@@ -754,10 +754,10 @@ export const DE_B2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is NOT correct German?",
+        question: "Which is NOT a correct way to say 'If I'd known that, I would have come.'?",
         options: ["Hätte ich das gewusst, ich wäre gekommen.", "Hätte ich das gewusst, wäre ich gekommen.", "Hätte ich das gewusst, dann wäre ich gekommen.", "Wenn ich das gewusst hätte, wäre ich gekommen."],
         correctIndex: 0,
-        explanation: "After a condition clause the main clause must start with its verb (or \"dann\" + verb). \"..., ich wäre gekommen\" breaks that rule.",
+        explanation: "After a condition clause the main clause starts with its verb (or \"dann\" + verb), so \"*Hätte ich das gewusst, ich wäre gekommen*\" is wrong. The other three, with or without \"wenn\" or \"dann\", are all correct.",
       },
       {
         type: "translate",
@@ -1270,10 +1270,10 @@ export const DE_B2_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'If I hadn't moved to Leipzig, I would never have met Jonas.'?",
             options: ["Wenn ich nicht nach Leipzig gezogen wäre, hätte ich Jonas nie kennengelernt.", "Als ich nicht nach Leipzig gezogen wäre, hätte ich Jonas nie kennengelernt.", "Wenn ich nicht nach Leipzig gezogen bin, hätte ich Jonas nie kennengelernt.", "Als ich nicht nach Leipzig zog, hätte ich Jonas nie kennengelernt."],
             correctIndex: 0,
-            explanation: "An unreal past condition needs \"wenn\" + Konjunktiv II in both halves. \"Als\" is only for real past events.",
+            explanation: "An unreal past condition needs \"wenn\" + Konjunktiv II in both halves: \"gezogen wäre ... hätte ... kennengelernt\". \"*Als ich nicht nach Leipzig gezogen wäre*\" is wrong because \"als\" is only for real past events.",
           },
           {
             type: "translate",

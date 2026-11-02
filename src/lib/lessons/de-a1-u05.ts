@@ -372,10 +372,10 @@ export const DE_A1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which question asks about money correctly?",
+        question: "How do you say 'How much money do you need?' (to a friend)",
         options: ["Wie viel Geld brauchst du?", "Wie viele Geld brauchst du?", "Wie viel Geld du brauchst?", "Welches Geld viel brauchst du?"],
         correctIndex: 0,
-        explanation: "Money is uncountable: \"wie viel\". Then the verb second: \"brauchst du\".",
+        explanation: "Money can't be counted, so \"wie viel\"; then the verb comes second: \"brauchst du\". \"*Wie viele Geld*\" uses the plural form meant for countable things.",
       },
       {
         type: "word-order",
@@ -921,10 +921,10 @@ export const DE_A1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'm taking the train.'?",
         options: ["Ich nehme den Zug.", "Ich nehme der Zug.", "Ich nehme dem Zug.", "Ich nehme die Zug."],
         correctIndex: 0,
-        explanation: "\"Der Zug\" is the object of \"nehmen\", so it becomes \"den Zug\".",
+        explanation: "\"Der Zug\" is the object of \"nehmen\", so it becomes \"den Zug\". \"*Ich nehme der Zug*\" leaves it in the nominative; \"dem\" is dative.",
       },
       {
         type: "translate",
@@ -1313,10 +1313,10 @@ export const DE_A1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'There's a cathedral in Cologne.'?",
         options: ["In Köln gibt es einen Dom.", "In Köln es gibt einen Dom.", "In Köln gibt es ein Dom.", "In Köln gibt es der Dom."],
         correctIndex: 0,
-        explanation: "Verb second (\"gibt\"), then \"es\", then the accusative \"einen Dom\" (from \"der Dom\", the cathedral).",
+        explanation: "Verb second (\"gibt\"), then \"es\", then the accusative \"einen Dom\" (from \"der Dom\"). \"*In Köln gibt es ein Dom*\" forgets that masculine \"ein\" becomes \"einen\" after \"es gibt\".",
       },
       {
         type: "translate",

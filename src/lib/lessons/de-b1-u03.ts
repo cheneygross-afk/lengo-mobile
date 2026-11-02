@@ -269,10 +269,10 @@ export const DE_B1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'After he had passed the exam, he celebrated.'?",
             options: ["Nachdem er die Prüfung bestanden hatte, feierte er.", "Nachdem er die Prüfung bestand, feierte er.", "Nachdem er die Prüfung bestanden hatte, er feierte.", "Nachdem er hatte die Prüfung bestanden, feierte er."],
             correctIndex: 0,
-            explanation: "Tense shift (Plusquamperfekt → Präteritum), auxiliary last, and verb right after the comma.",
+            explanation: "\"Nachdem\" takes a step back in tense (Plusquamperfekt \"bestanden hatte\", then Präteritum \"feierte\"), with the auxiliary last. \"*Nachdem er die Prüfung bestand*\" is common in speech but skips the tense step.",
           },
         ],
       },
@@ -1160,10 +1160,10 @@ export const DE_B1_U03: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'After the holiday I had lots of emails.'?",
             options: ["Nach dem Urlaub hatte ich viele E-Mails.", "Nachdem dem Urlaub hatte ich viele E-Mails.", "Danach dem Urlaub hatte ich viele E-Mails.", "Nach dem Urlaub ich hatte viele E-Mails."],
             correctIndex: 0,
-            explanation: "A noun: \"nach\" + dative; verb second.",
+            explanation: "Before a noun you need the preposition \"nach\" + dative (\"nach dem Urlaub\"), then the verb. \"*Nachdem dem Urlaub*\" uses the conjunction, which must start a full clause.",
           },
           {
             type: "listen-choose",

@@ -62,10 +62,10 @@ export const DE_A2_U06: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence has the correct word order?",
+            question: "How do you say 'But then the train didn't come.'?",
             options: ["Aber dann ist der Zug nicht gekommen.", "Aber dann der Zug ist nicht gekommen.", "Aber ist dann der Zug nicht gekommen.", "Dann aber der Zug ist nicht gekommen."],
             correctIndex: 0,
-            explanation: "\"Aber\" is position 0, \"dann\" is position 1, so the verb \"ist\" comes next.",
+            explanation: "\"Aber\" is position 0 and \"dann\" position 1, so the verb \"ist\" comes next: \"Aber dann ist der Zug\". \"*Aber dann der Zug ist*\" puts the verb third.",
           },
           {
             type: "translate",
@@ -133,10 +133,10 @@ export const DE_A2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say 'After that we went for a walk.'?",
         options: ["Danach sind wir spazieren gegangen.", "Danach wir sind spazieren gegangen.", "Danach wir haben spazieren gegangen.", "Danach sind spazieren wir gegangen."],
         correctIndex: 0,
-        explanation: "Connector, verb, subject: \"Danach sind wir...\"; \"gehen\" takes \"sein\".",
+        explanation: "Connector, verb, subject: \"Danach sind wir ...\", and \"gehen\" takes \"sein\". \"*Danach wir sind*\" keeps English order, so the verb is third.",
       },
       {
         type: "translate",
@@ -980,10 +980,10 @@ export const DE_A2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'When I was little, I lived in Cologne.'?",
         options: ["Als ich klein war, habe ich in Köln gewohnt.", "Als ich klein war, ich habe in Köln gewohnt.", "Als ich war klein, habe ich in Köln gewohnt.", "Wenn ich klein war, ich habe in Köln gewohnt."],
         correctIndex: 0,
-        explanation: "Verb at the end of the \"als\" clause (\"war\"), then verb first in the main clause (\"habe ich\"). One period in the past needs \"als\", not \"wenn\".",
+        explanation: "Verb last in the \"als\" clause (\"war\"), then the main clause starts with its verb (\"habe ich\"). \"*Als ich klein war, ich habe*\" forgets that the whole als-clause counts as position 1.",
       },
       {
         type: "translate",
@@ -1401,10 +1401,10 @@ export const DE_A2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'We moved to Leipzig in 2012.'?",
         options: ["Wir sind 2012 nach Leipzig gezogen.", "Wir sind in 2012 nach Leipzig gezogen.", "Wir sind am 2012 nach Leipzig gezogen.", "Wir sind im 2012 nach Leipzig gezogen."],
         correctIndex: 0,
-        explanation: "A bare year with no preposition (or \"im Jahr 2012\": \"im\" needs the word \"Jahr\"). \"*In 2012*\" is the classic English-speaker error.",
+        explanation: "A bare year takes no preposition (or \"im Jahr 2012\", where \"im\" needs the word \"Jahr\"). \"*In 2012*\" is the classic English-speaker error.",
       },
       {
         type: "translate",
@@ -1631,10 +1631,10 @@ export const DE_A2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Seit dem Urlaub fahre ich nicht mehr Zug.", "Seit den Urlaub fahre ich nicht mehr Zug.", "Seit dem Urlaub ich fahre nicht mehr Zug.", "Vor dem Urlaub fahre ich nicht mehr Zug."],
+        question: "How do you say 'Since the holiday I haven't taken the train any more.'?",
+        options: ["Seit dem Urlaub fahre ich nicht mehr Zug.", "Seit den Urlaub fahre ich nicht mehr Zug.", "Seit dem Urlaub ich fahre nicht mehr Zug.", "Seit dem Urlaub fahre ich nicht Zug mehr."],
         correctIndex: 0,
-        explanation: "\"Seit\" + dative (\"dem Urlaub\") + present for something still true, and verb second after the time phrase. \"Vor dem Urlaub\" (before the holiday) doesn't fit a present that's still going on.",
+        explanation: "\"Seit\" + dative (\"dem Urlaub\") + present tense for something still true, with the verb second. \"*Seit den Urlaub*\" uses the accusative, but \"seit\" always takes the dative.",
       },
       {
         type: "translate",

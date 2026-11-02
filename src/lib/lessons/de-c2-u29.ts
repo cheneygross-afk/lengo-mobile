@@ -1659,10 +1659,10 @@ export const DE_C2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'I've resolved to sleep more.'?",
             options: ["Ich habe mir vorgenommen, mehr zu schlafen.", "Ich habe mich vorgenommen, mehr zu schlafen.", "Ich habe mir vorgenommen, mehr schlafen.", "Ich habe vorgenommen mir, mehr zu schlafen."],
             correctIndex: 0,
-            explanation: "\"Sich etwas vornehmen\" is dative-reflexive (\"mir\"), and the resolution follows as an infinitive clause with \"zu\".",
+            explanation: "\"Sich etwas vornehmen\" is dative-reflexive (\"mir\"), and the resolution follows as an infinitive clause with \"zu\". \"*Ich habe mich vorgenommen*\" uses the accusative, which is wrong because the resolution is already the object.",
           },
         ],
       },
@@ -1730,7 +1730,7 @@ export const DE_C2_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I can well imagine how you feel.'?",
         options: ["Ich kann mir gut vorstellen, wie du dich fühlst.", "Ich kann mich gut vorstellen, wie du dich fühlst.", "Ich kann mir gut vorstellen, wie du dir fühlst.", "Ich kann mich gut vorstellen, wie du dir fühlst."],
         correctIndex: 0,
         explanation: "\"Sich etwas vorstellen\" (imagine) has an object, so dative \"mir\"; \"sich fühlen\" has no other object, so accusative \"dich\".",
@@ -2067,7 +2067,7 @@ export const DE_C2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you write 'Her name has fallen into oblivion.'?",
             options: ["Ihr Name ist in Vergessenheit geraten.", "Ihr Name hat in Vergessenheit geraten.", "Ihr Name ist in der Vergessenheit geraten.", "Ihr Name ist in Vergessenheit gerätet."],
             correctIndex: 0,
             explanation: "\"Geraten\" takes \"sein\"; the participle is \"geraten\" (strong verb), and the fixed phrase is \"in Vergessenheit\" without an article.",
@@ -2157,7 +2157,7 @@ export const DE_C2_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The fear has developed into a phobia.'?",
         options: ["Die Angst hat sich zu einer Phobie entwickelt.", "Die Angst ist sich zu einer Phobie entwickelt.", "Die Angst hat sich zu eine Phobie entwickelt.", "Die Angst hat sich in einer Phobie entwickelt."],
         correctIndex: 0,
         explanation: "Reflexive \"sich entwickeln\" takes \"haben\", and \"zu\" always takes the dative: \"zu einer Phobie\".",

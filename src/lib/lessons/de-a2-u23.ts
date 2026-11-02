@@ -157,10 +157,10 @@ export const DE_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say 'I ate a Berlin currywurst.'?",
         options: ["Ich habe eine Berliner Currywurst gegessen.", "Ich habe eine Berlinere Currywurst gegessen.", "Ich habe eine berliner Currywurst gegessen.", "Ich habe einen Berliner Currywurst gegessen."],
         correctIndex: 0,
-        explanation: "City adjectives in -er never take endings and keep their capital: \"eine Berliner Currywurst\".",
+        explanation: "City adjectives in -er never take endings and keep their capital: \"eine Berliner Currywurst\". \"*Eine berliner Currywurst*\" loses the capital.",
       },
       {
         type: "translate",
@@ -635,10 +635,10 @@ export const DE_A2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'We had a good rest.'?",
             options: ["Wir haben uns gut erholt.", "Wir sind uns gut erholt.", "Wir haben uns gut geerholt.", "Wir haben gut erholt."],
             correctIndex: 0,
-            explanation: "Reflexive verbs take \"haben\"; \"erholen\" has er-, so no ge-.",
+            explanation: "Reflexive verbs take \"haben\"; \"erholen\" starts with er-, so there's no ge-. \"*Wir sind uns gut erholt*\" uses \"sein\".",
           },
         ],
       },
@@ -959,10 +959,10 @@ export const DE_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'If I have money, I'll buy a car.'?",
         options: ["Wenn ich Geld habe, werde ich ein Auto kaufen.", "Wenn ich habe Geld, werde ich ein Auto kaufen.", "Wenn ich Geld habe, ich werde ein Auto kaufen.", "Ob ich Geld habe, werde ich ein Auto kaufen."],
         correctIndex: 0,
-        explanation: "Verb last in the wenn-clause, then verb, comma, verb.",
+        explanation: "Verb last in the wenn-clause (\"habe\"), then the main clause starts with its verb (\"werde ich\"). \"*Wenn ich Geld habe, ich werde*\" forgets that the wenn-clause is position 1.",
       },
       {
         type: "translate",
@@ -1276,10 +1276,10 @@ export const DE_A2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "How do you say 'The jumper doesn't fit me.'?",
             options: ["Der Pullover passt mir nicht.", "Der Pullover passt mich nicht.", "Den Pullover passt mir nicht.", "Der Pullover passt ich nicht."],
             correctIndex: 0,
-            explanation: "\"Passen\" (to fit) takes the dative: \"mir\". The pullover is the subject: \"der\".",
+            explanation: "\"Passen\" (to fit) takes the dative: \"mir\". The jumper is the subject: \"der Pullover\". \"*Passt mich*\" uses the accusative.",
           },
         ],
       },
@@ -1369,10 +1369,10 @@ export const DE_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'm tired, so I'm going to bed.'?",
         options: ["Ich bin müde, deshalb gehe ich ins Bett.", "Ich bin müde, deshalb ich gehe ins Bett.", "Ich bin müde, denn gehe ich ins Bett.", "Ich bin müde, weil gehe ich ins Bett."],
         correctIndex: 0,
-        explanation: "\"Deshalb\" is position 1: verb next.",
+        explanation: "\"Deshalb\" takes position 1, so the verb comes next. \"*Deshalb ich gehe*\" puts the verb third.",
       },
       {
         type: "translate",

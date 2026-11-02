@@ -440,7 +440,7 @@ export const DE_C2_U23: Lesson[] = [
             prompt: "Translate into German.",
             source: "If I understand you correctly, your main concern is the deadline.",
             answer: "Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um die Frist.",
-            altAnswers: ["Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um den Termin.", "Wenn ich Sie richtig verstehe, geht es Ihnen hauptsächlich um die Frist.", "Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um die Deadline.", "Wenn ich dich richtig verstehe, geht es dir vor allem um die Frist."],
+            altAnswers: ["Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um den Termin.", "Wenn ich Sie richtig verstehe, geht es Ihnen hauptsächlich um die Frist.", "Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um die Deadline.", "Wenn ich dich richtig verstehe, geht es dir vor allem um die Frist.", "Wenn ich euch richtig verstehe, geht es euch vor allem um die Frist."],
             explanation: "\"Es geht Ihnen um\" + accusative; after the wenn clause, the verb \"geht\" comes first in the main clause.",
           },
           {
@@ -2591,7 +2591,7 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "I can forgive you, but I can't forget it.",
         answer: "Ich kann dir verzeihen, aber vergessen kann ich es nicht.",
-        altAnswers: ["Ich kann dir verzeihen, aber ich kann es nicht vergessen.", "Ich kann dir vergeben, aber vergessen kann ich es nicht.", "Ich kann dir vergeben, aber ich kann es nicht vergessen.", "Ich kann Ihnen verzeihen, aber vergessen kann ich es nicht."],
+        altAnswers: ["Ich kann dir verzeihen, aber ich kann es nicht vergessen.", "Ich kann dir vergeben, aber vergessen kann ich es nicht.", "Ich kann dir vergeben, aber ich kann es nicht vergessen.", "Ich kann Ihnen verzeihen, aber vergessen kann ich es nicht.", "Ich kann euch verzeihen, aber vergessen kann ich es nicht."],
         explanation: "\"Verzeihen\" + dative person. Fronting \"vergessen\" contrasts the two verbs.",
       },
       {

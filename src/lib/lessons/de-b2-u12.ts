@@ -360,10 +360,10 @@ export const DE_B2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The exam was so difficult that half of them failed.'?",
         options: ["Die Prüfung war so schwer, dass die Hälfte durchgefallen ist.", "Die Prüfung war so schwer, dass die Hälfte ist durchgefallen.", "Die Prüfung war so schwer, sodass die Hälfte durchgefallen ist.", "Die Prüfung war zu schwer, dass die Hälfte durchgefallen ist."],
         correctIndex: 0,
-        explanation: "\"So ... dass\" with the verb last. With \"so\" already in the main clause, use \"dass\", not \"sodass\"; \"zu\" doesn't combine with \"dass\" this way.",
+        explanation: "\"So ... dass\" with the verb at the end: \"dass die Hälfte durchgefallen ist\". \"*so schwer, sodass*\" doubles the \"so\": with \"so\" already in the main clause, use plain \"dass\".",
       },
       {
         type: "word-order",
@@ -551,10 +551,10 @@ export const DE_B2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses indem correctly?",
+        question: "How do you say 'He said thank you by bringing everyone a cake.'?",
         options: ["Er bedankte sich, indem er allen einen Kuchen mitbrachte.", "Er bedankte sich, indem er brachte allen einen Kuchen mit.", "Er bedankte sich, in dem er allen einen Kuchen mitbrachte.", "Indem er bedankte sich, brachte er einen Kuchen mit."],
         correctIndex: 0,
-        explanation: "\"Indem\" (one word) + verb last; the means comes after the main clause.",
+        explanation: "\"Indem\" (one word) gives the means and sends the verb to the end: \"indem er ... mitbrachte\". \"*in dem er*\" written as two words means 'in which', not 'by doing'.",
       },
       {
         type: "translate",
@@ -748,10 +748,10 @@ export const DE_B2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He handed in his notice without having a new job.'?",
         options: ["Er hat gekündigt, ohne einen neuen Job zu haben.", "Er hat gekündigt, ohne dass er einen neuen Job zu haben.", "Er hat gekündigt, ohne einen neuen Job hat.", "Er hat gekündigt, ohne zu einen neuen Job haben."],
         correctIndex: 0,
-        explanation: "Same subject → \"ohne\" + object + \"zu haben\" at the end.",
+        explanation: "Same subject in both parts → \"ohne ... zu\" + infinitive at the end: \"ohne einen neuen Job zu haben\". \"*ohne dass er einen neuen Job zu haben*\" mixes two patterns: with \"dass\" there is no \"zu\" (\"ohne dass er ... hat\").",
       },
       {
         type: "translate",
@@ -1013,10 +1013,10 @@ export const DE_B2_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'She's taking her bike because the railway is on strike.'?",
             options: ["Sie nimmt das Rad, denn die Bahn streikt.", "Sie nimmt das Rad, denn die Bahn heute streikt.", "Denn die Bahn streikt, nimmt sie das Rad.", "Sie nimmt das Rad, denn streikt die Bahn."],
             correctIndex: 0,
-            explanation: "\"Denn\" takes no position: subject then verb, never verb last. It can't start the sentence.",
+            explanation: "\"Denn\" stands outside the clause, so normal order follows: \"denn die Bahn streikt\". \"*denn die Bahn heute streikt*\" sends the verb to the end as if \"denn\" were \"weil\".",
           },
         ],
       },
@@ -1713,10 +1713,10 @@ export const DE_B2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The compensation is justified, especially as I had an important appointment.'?",
         options: ["Die Entschädigung ist gerechtfertigt, zumal ich einen wichtigen Termin hatte.", "Die Entschädigung ist gerechtfertigt, zumal ich hatte einen wichtigen Termin.", "Zumal ich einen wichtigen Termin hatte, die Entschädigung ist gerechtfertigt.", "Die Entschädigung ist gerechtfertigt, denn ich einen wichtigen Termin hatte."],
         correctIndex: 0,
-        explanation: "\"Zumal\" + verb last; \"denn\" + verb second.",
+        explanation: "\"Zumal\" works like \"weil\": verb at the end (\"zumal ich ... hatte\"). \"*zumal ich hatte einen wichtigen Termin*\" keeps main-clause order.",
       },
       {
         type: "translate",
@@ -1907,10 +1907,10 @@ export const DE_B2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'You can switch off your location so that nobody sees where you are.'?",
         options: ["Man kann den Standort ausschalten, sodass niemand sieht, wo du bist.", "Man kann den Standort ausschalten, sodass niemand sieht, wo bist du.", "Man kann den Standort ausschalten, sodass sieht niemand, wo du bist.", "Man kann den Standort ausschalten, sodass niemand sieht, wo du bist ist."],
         correctIndex: 0,
-        explanation: "Verb last in both the sodass-clause and the indirect question.",
+        explanation: "Both \"sodass\" and the indirect question \"wo ...\" send their verb to the end: \"sodass niemand sieht, wo du bist\". \"*wo bist du*\" keeps question order inside a subordinate clause.",
       },
       {
         type: "translate",

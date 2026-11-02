@@ -37,10 +37,10 @@ export const DE_A2_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
-            options: ["Die Lampe ist teuer.", "Die Lampe ist teure.", "Die teuer Lampe ist schön.", "Die Lampe ist teuren."],
+            question: "How do you say 'The lamp is expensive.'?",
+            options: ["Die Lampe ist teuer.", "Die Lampe ist teure.", "Die Lampe teuer ist.", "Die Lampe ist teuren."],
             correctIndex: 0,
-            explanation: "After \"sein\" the adjective takes no ending: \"Die Lampe ist teuer.\"",
+            explanation: "After \"sein\" the adjective takes no ending: \"Die Lampe ist teuer\". \"*Ist teure*\" adds an ending that only goes before a noun (\"die teure Lampe\").",
           },
         ],
       },
@@ -186,10 +186,10 @@ export const DE_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'm buying the small car.'?",
         options: ["Ich kaufe das kleine Auto.", "Ich kaufe das kleinen Auto.", "Ich kaufe den kleine Auto.", "Ich kaufe das klein Auto."],
         correctIndex: 0,
-        explanation: "Neuter accusative = nominative: \"das kleine\".",
+        explanation: "Neuter accusative is the same as nominative: \"das kleine Auto\". \"*Das kleinen Auto*\" adds -en, which is for masculine \"den\".",
       },
       {
         type: "word-order",
@@ -368,10 +368,10 @@ export const DE_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct? I'm taking the grey coat.",
+        question: "How do you say 'I'm taking the grey coat.'?",
         options: ["Ich nehme den grauen Mantel.", "Ich nehme den graue Mantel.", "Ich nehme der graue Mantel.", "Ich nehme den grau Mantel."],
         correctIndex: 0,
-        explanation: "\"Den\" + -en.",
+        explanation: "Masculine accusative: \"den\" + -en, \"den grauen Mantel\". \"*Den graue Mantel*\" keeps the nominative ending -e.",
       },
       {
         type: "word-order",
@@ -575,10 +575,10 @@ export const DE_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct? With the new bikes...",
+        question: "How do you say 'with the new bikes'?",
         options: ["mit den neuen Fahrrädern", "mit den neue Fahrrädern", "mit die neuen Fahrräder", "mit den neuen Fahrräder"],
         correctIndex: 0,
-        explanation: "Dative plural: \"den\" + -en + -n on the noun.",
+        explanation: "Dative plural: \"den\" + -en on the adjective + -n on the noun: \"den neuen Fahrrädern\". \"*Mit den neuen Fahrräder*\" forgets the -n on the noun.",
       },
       {
         type: "listen-choose",
@@ -633,10 +633,10 @@ export const DE_A2_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'I think the jacket is nice.'?",
             options: ["Ich finde die Jacke schön.", "Ich finde die Jacke schöne.", "Ich finde die schön Jacke.", "Ich finde die Jacke schönen."],
             correctIndex: 0,
-            explanation: "\"Finden\" + noun + adjective: no ending.",
+            explanation: "\"Finden\" + noun + adjective: the adjective comes after the noun and takes no ending, \"schön\". \"*Die Jacke schöne*\" adds an ending that only goes before a noun.",
           },
         ],
       },
@@ -841,10 +841,10 @@ export const DE_A2_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct? Every new customer gets a present.",
+            question: "How do you say 'Every new customer gets a present.'?",
             options: ["Jeder neue Kunde bekommt ein Geschenk.", "Jeder neuen Kunde bekommt ein Geschenk.", "Jede neue Kunde bekommt ein Geschenk.", "Alle neue Kunde bekommt ein Geschenk."],
             correctIndex: 0,
-            explanation: "Nominative masculine after \"jeder\": -e.",
+            explanation: "Masculine nominative after \"jeder\": -e, \"jeder neue Kunde\". \"*Jeder neuen Kunde*\" adds -en, which is for the accusative or dative.",
           },
           {
             type: "listen-choose",
@@ -954,10 +954,10 @@ export const DE_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct? all the small children",
+        question: "How do you say 'all the small children'?",
         options: ["alle kleinen Kinder", "alle kleine Kinder", "alle klein Kinder", "allen kleine Kinder"],
         correctIndex: 0,
-        explanation: "Plural after \"alle\": -en.",
+        explanation: "After \"alle\" the plural adjective takes -en: \"alle kleinen Kinder\". \"*Alle kleine Kinder*\" uses the ending for when there is no article.",
       },
       {
         type: "word-order",

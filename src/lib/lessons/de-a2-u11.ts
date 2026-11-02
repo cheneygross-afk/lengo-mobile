@@ -185,10 +185,10 @@ export const DE_A2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The cat is sleeping on the sofa.'?",
         options: ["Die Katze schläft auf dem Sofa.", "Die Katze schläft auf das Sofa.", "Die Katze schläft auf der Sofa.", "Die Katze schläft an dem Sofa."],
         correctIndex: 0,
-        explanation: "Sleeping is location: \"auf dem Sofa\"; neuter \"das Sofa\" becomes \"dem Sofa\" in the dative.",
+        explanation: "Sleeping is location (wo?), so dative: neuter \"das Sofa\" becomes \"auf dem Sofa\". \"*Auf das Sofa*\" is the accusative, for movement.",
       },
       {
         type: "word-order",
@@ -607,10 +607,10 @@ export const DE_A2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I put the key on the table.'?",
         options: ["Ich lege den Schlüssel auf den Tisch.", "Ich lege den Schlüssel auf dem Tisch.", "Ich lege den Schlüssel auf der Tisch.", "Ich lege den Schlüssel auf die Tisch."],
         correctIndex: 0,
-        explanation: "\"Legen\" moves the key: accusative \"auf den Tisch\".",
+        explanation: "\"Legen\" moves the key somewhere (wohin?), so accusative: \"auf den Tisch\". \"*Auf dem Tisch*\" is the dative, for where something already is.",
       },
       {
         type: "word-order",
@@ -822,10 +822,10 @@ export const DE_A2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The plate is on the table.'?",
         options: ["Der Teller steht auf dem Tisch.", "Der Teller stellt auf dem Tisch.", "Der Teller steht auf den Tisch.", "Der Teller legt auf dem Tisch."],
         correctIndex: 0,
-        explanation: "Position: \"steht\" + dative. Plates stand in German.",
+        explanation: "Position → \"steht\" + dative \"auf dem Tisch\"; plates stand in German. \"*Der Teller stellt*\" is the action verb (someone puts it there), and it needs an object.",
       },
       {
         type: "listen-choose",
@@ -1535,10 +1535,10 @@ export const DE_A2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'We sat down on the grass.'?",
         options: ["Wir haben uns ins Gras gesetzt.", "Wir sind uns ins Gras gesetzt.", "Wir haben uns im Gras gesetzt.", "Wir haben uns ins Gras gesessen."],
         correctIndex: 0,
-        explanation: "Reflexive → \"haben\"; movement → \"ins Gras\"; action verb → \"gesetzt\".",
+        explanation: "Reflexive → \"haben\"; movement → \"ins Gras\"; action verb → \"gesetzt\". \"*Wir sind uns ... gesetzt*\" uses \"sein\" because sitting down feels like movement.",
       },
       {
         type: "listen-choose",

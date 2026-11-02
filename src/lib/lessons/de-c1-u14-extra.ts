@@ -597,7 +597,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         en: "My jacket [was hanging] on the hook all the time.",
         sentence: "Meine Jacke ___ die ganze Zeit am Haken gehangen.",
         answer: "ist",
-        explanation: "In Austria and the south, \"hängen\" (to hang, intransitive) also takes \"sein\": \"ist ... gehangen\".",
+        explanation: "In Austria and the south, \"hängen\" (to hang, intransitive) also takes \"sein\": \"ist ... gehangen\". In most of Germany it is \"hat ... gehangen\", which is equally standard.",
       },
       {
         type: "translate",

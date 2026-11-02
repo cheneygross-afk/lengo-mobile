@@ -750,10 +750,10 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which ad line is correct?",
+        question: "How do you write the ad 'Bright three-room flat with a large balcony'?",
         options: ["Helle Dreizimmerwohnung mit großem Balkon", "Hell Dreizimmerwohnung mit großem Balkon", "Helle Dreizimmerwohnung mit großen Balkon", "Hellen Dreizimmerwohnung mit großem Balkon"],
         correctIndex: 0,
-        explanation: "No article: feminine nominative -e, masculine dative -em.",
+        explanation: "Without an article: feminine nominative -e (\"helle\"), masculine dative after \"mit\" -em (\"großem\"). \"*mit großen Balkon*\" uses the accusative ending.",
       },
       {
         type: "listen-choose",
@@ -1797,10 +1797,10 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which menu line is correct?",
+        question: "How do you write 'Fresh fruit with Greek yoghurt' on a menu?",
         options: ["Frisches Obst mit griechischem Joghurt", "Frischer Obst mit griechischen Joghurt", "Frisch Obst mit griechischem Joghurt", "Frisches Obst mit griechischer Joghurt"],
         correctIndex: 0,
-        explanation: "\"Das Obst\": -es; \"der Joghurt\" dative: -em.",
+        explanation: "\"Das Obst\" without an article: -es (\"frisches\"); \"der Joghurt\" dative after \"mit\": -em (\"griechischem\"). \"*Frischer Obst*\" gives the neuter noun a masculine ending.",
       },
       {
         type: "word-order",

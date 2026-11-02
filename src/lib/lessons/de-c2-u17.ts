@@ -67,7 +67,7 @@ export const DE_C2_U17: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which version is punctuated correctly in German?",
+            question: "How do you punctuate this in German: 'We have no choice,' explained the minister.",
             options: [
               "„Wir haben keine Wahl“, erklärte die Ministerin.",
               "„Wir haben keine Wahl,“ erklärte die Ministerin.",
@@ -462,7 +462,7 @@ export const DE_C2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you write 'According to a study, teenagers don't get enough sleep.'?",
             options: [
               "Einer Studie zufolge schlafen Jugendliche zu wenig.",
               "Zufolge einer Studie schlafen Jugendliche zu wenig.",
@@ -470,7 +470,7 @@ export const DE_C2_U17: Lesson[] = [
               "Eine Studie zufolge schlafen Jugendliche zu wenig.",
             ],
             correctIndex: 0,
-            explanation: "\"Zufolge\" comes after the noun in the dative (\"einer Studie\"). \"Laut\" goes before the noun.",
+            explanation: "\"Zufolge\" comes after the noun in the dative (\"einer Studie zufolge\"). \"*Zufolge einer Studie*\" puts it in front, where only \"laut\" can go (\"Laut einer Studie\").",
           },
         ],
       },

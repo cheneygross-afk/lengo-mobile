@@ -170,7 +170,7 @@ export const DE_B2_U18_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Structuring a Presentation",
-    summary: "Goethe B2 Sprechen, part 1: introduce a topic, structure a short talk and conclude (\"Zunächst möchte ich ...\", \"Abschließend ...\").",
+    summary: "Goethe B2 \"Sprechen\", part 1: introduce a topic, structure a short talk and conclude (\"Zunächst möchte ich ...\", \"Abschließend ...\").",
     duration: "12 min",
     sections: [
       {
@@ -327,7 +327,7 @@ export const DE_B2_U18_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Discussion Phrases",
-    summary: "Agree, disagree, interrupt politely and find a compromise, as in Goethe B2 Sprechen, part 2.",
+    summary: "Agree, disagree, interrupt politely and find a compromise, as in Goethe B2 \"Sprechen\", part 2.",
     duration: "12 min",
     sections: [
       {

@@ -324,10 +324,10 @@ export const DE_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'When I was little, we lived in the country.'?",
         options: ["Als ich klein war, wohnten wir auf dem Land.", "Als ich klein war, wir wohnten auf dem Land.", "Als ich war klein, wohnten wir auf dem Land.", "Wenn ich klein war, wohnten wir auf dem Land."],
         correctIndex: 0,
-        explanation: "\"Als\" for a period, verb last in the clause, main verb first after the comma.",
+        explanation: "A single period in the past takes \"als\", with the verb last in the clause and the main verb first after the comma. \"*Wenn ich klein war*\" is for repeated events.",
       },
       {
         type: "translate",
@@ -567,10 +567,10 @@ export const DE_B1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'When I have time, I'll call you.' (to a friend)?",
             options: ["Wenn ich Zeit habe, rufe ich dich an.", "Wenn ich Zeit habe, ich rufe dich an.", "Wenn ich habe Zeit, rufe ich dich an.", "Wenn habe ich Zeit, ich rufe dich an."],
             correctIndex: 0,
-            explanation: "Verb last in the wenn-clause, then the main verb right after the comma.",
+            explanation: "Verb last in the wenn-clause, then the main verb straight after the comma: \"rufe ich\". \"*..., ich rufe dich an*\" puts the subject first, as in English.",
           },
         ],
       },
@@ -661,10 +661,10 @@ export const DE_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'When she rang, I was in the shower.'?",
         options: ["Als sie anrief, war ich unter der Dusche.", "Als sie anrief, ich war unter der Dusche.", "Als sie rief an, war ich unter der Dusche.", "Als anrief sie, war ich unter der Dusche."],
         correctIndex: 0,
-        explanation: "Joined \"anrief\" at the end, then \"war\".",
+        explanation: "The separable verb goes to the end of the als-clause in one piece (\"anrief\"), then the main verb \"war\" comes first. \"*..., ich war unter der Dusche*\" forgets that the whole clause fills position 1.",
       },
       {
         type: "translate",
@@ -1516,10 +1516,10 @@ export const DE_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence from the blog is correct?",
+        question: "Which sentence in the blog says 'When I came to school on the first day, I wore a uniform.'?",
         options: ["Als ich am ersten Tag in die Schule kam, trug ich eine Uniform.", "Wenn ich am ersten Tag in die Schule kam, trug ich eine Uniform.", "Als ich am ersten Tag in die Schule kam, ich trug eine Uniform.", "Wann ich am ersten Tag in die Schule kam, trug ich eine Uniform."],
         correctIndex: 0,
-        explanation: "First day = once: \"als\"; verb after the comma.",
+        explanation: "The first day happened once, so \"als\"; then the main verb straight after the comma. \"*Wenn*\" would mean whenever.",
       },
       {
         type: "translate",

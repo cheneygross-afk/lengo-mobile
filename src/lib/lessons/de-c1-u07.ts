@@ -875,17 +875,17 @@ export const DE_C1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'We look forward to your reply.'?",
         options: ["Wir freuen uns auf Ihre Antwort.", "Wir freuen uns für Ihre Antwort.", "Wir freuen uns zu Ihrer Antwort.", "Wir freuen uns in Ihre Antwort."],
         correctIndex: 0,
-        explanation: "Looking forward to = \"sich freuen auf\" + accusative.",
+        explanation: "Looking forward to = \"sich freuen auf\" + accusative. \"*sich freuen für*\" means to be happy for someone.",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'She won the prize in 2023.'?",
         options: ["2023 hat sie den Preis gewonnen.", "In 2023 hat sie den Preis gewonnen.", "Am 2023 hat sie den Preis gewonnen.", "Im 2023 hat sie den Preis gewonnen."],
         correctIndex: 0,
-        explanation: "A year stands alone, or \"im Jahr 2023\".",
+        explanation: "A year stands alone, or \"im Jahr 2023\". \"*In 2023*\" copies English.",
       },
       {
         type: "dictation",
@@ -1089,10 +1089,10 @@ export const DE_C1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He works for Deutsche Bahn.'?",
         options: ["Er arbeitet bei der Deutschen Bahn.", "Er arbeitet an der Deutschen Bahn.", "Er arbeitet auf der Deutschen Bahn.", "Er arbeitet zur Deutschen Bahn."],
         correctIndex: 0,
-        explanation: "Employer = \"bei\".",
+        explanation: "Employer = \"bei\": \"bei der Deutschen Bahn\". \"*an der*\" is for a university or school.",
       },
       {
         type: "word-order",
@@ -1428,10 +1428,10 @@ export const DE_C1_U07: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which phrase is correct in an order confirmation?",
+            question: "How do you write 'a discount of 10%' in an order confirmation?",
             options: ["ein Rabatt von 10 %", "ein Rabatt um 10 %", "ein Rabatt auf 10 %", "ein Rabatt zu 10 %"],
             correctIndex: 0,
-            explanation: "A discount of = \"ein Rabatt von\"; \"um\" is for reducing by.",
+            explanation: "A discount of = \"ein Rabatt von\"; \"um\" is for reducing something by (\"um 10 % reduziert\"), so \"*ein Rabatt um*\" is wrong.",
           },
           {
             type: "speak",
@@ -1934,10 +1934,10 @@ export const DE_C1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He's currently working in Iran.'?",
         options: ["Er arbeitet zurzeit im Iran.", "Er arbeitet zurzeit in den Iran.", "Er arbeitet zurzeit nach Iran.", "Er arbeitet zurzeit auf dem Iran."],
         correctIndex: 0,
-        explanation: "\"Der Iran\" takes an article: location is \"im Iran\" (dative); \"in den Iran\" is the direction (to Iran). \"In Iran\" without the article is also seen in the press.",
+        explanation: "\"Der Iran\" takes an article: location is \"im Iran\" (dative); \"*in den Iran*\" is the direction (to Iran). \"In Iran\" without the article is also seen in the press.",
       },
       {
         type: "word-order",

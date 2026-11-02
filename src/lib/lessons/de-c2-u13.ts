@@ -978,7 +978,7 @@ export const DE_C2_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "You're presupposing what you want to prove.",
             answer: "Damit setzen Sie voraus, was Sie beweisen wollen.",
-            altAnswers: ["Sie setzen voraus, was Sie beweisen wollen.", "Damit setzt du voraus, was du beweisen willst.", "Damit setzen Sie bereits voraus, was Sie beweisen wollen."],
+            altAnswers: ["Sie setzen voraus, was Sie beweisen wollen.", "Damit setzt du voraus, was du beweisen willst.", "Damit setzen Sie bereits voraus, was Sie beweisen wollen.", "Damit setzt ihr voraus, was ihr beweisen wollt."],
             explanation: "\"Voraussetzen\" (to presuppose) is separable; \"was\" opens the object clause.",
           },
           {
@@ -999,7 +999,7 @@ export const DE_C2_U13: Lesson[] = [
         prompt: "Translate into German.",
         source: "What exactly do you mean by unrealistic?",
         answer: "Was genau meinen Sie mit unrealistisch?",
-        altAnswers: ["Was meinen Sie genau mit unrealistisch?", "Was genau meinst du mit unrealistisch?", "Was genau verstehen Sie unter unrealistisch?", "Was genau meinen Sie mit „unrealistisch“?"],
+        altAnswers: ["Was meinen Sie genau mit unrealistisch?", "Was genau meinst du mit unrealistisch?", "Was genau verstehen Sie unter unrealistisch?", "Was genau meinen Sie mit „unrealistisch“?", "Was genau meint ihr mit unrealistisch?"],
         explanation: "Asking for content is the best answer to a \"Totschlagargument\".",
       },
       {
@@ -1346,7 +1346,7 @@ export const DE_C2_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "Sorry to interrupt you, but that isn't correct.",
             answer: "Entschuldigung, wenn ich Sie unterbreche, aber das ist nicht korrekt.",
-            altAnswers: ["Entschuldigen Sie, wenn ich Sie unterbreche, aber das ist nicht korrekt.", "Entschuldigung, wenn ich Sie unterbreche, aber das stimmt nicht.", "Entschuldigen Sie, wenn ich Sie unterbreche, aber das stimmt nicht.", "Entschuldigung, dass ich Sie unterbreche, aber das ist nicht korrekt."],
+            altAnswers: ["Entschuldigen Sie, wenn ich Sie unterbreche, aber das ist nicht korrekt.", "Entschuldigung, wenn ich Sie unterbreche, aber das stimmt nicht.", "Entschuldigen Sie, wenn ich Sie unterbreche, aber das stimmt nicht.", "Entschuldigung, dass ich Sie unterbreche, aber das ist nicht korrekt.", "Entschuldige, wenn ich dich unterbreche, aber das ist nicht korrekt.", "Entschuldigt, wenn ich euch unterbreche, aber das ist nicht korrekt."],
             explanation: "\"Unterbrechen\" is inseparable: \"unterbreche\". The apology softens a direct correction.",
           },
           {
@@ -1388,7 +1388,7 @@ export const DE_C2_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "To come back to your point: costs have risen.",
             answer: "Um auf Ihren Punkt zurückzukommen: Die Kosten sind gestiegen.",
-            altAnswers: ["Um auf Ihren Punkt zurückzukommen: Die Kosten sind tatsächlich gestiegen.", "Um auf deinen Punkt zurückzukommen: Die Kosten sind gestiegen.", "Um auf Ihren Einwand zurückzukommen: Die Kosten sind gestiegen."],
+            altAnswers: ["Um auf Ihren Punkt zurückzukommen: Die Kosten sind tatsächlich gestiegen.", "Um auf deinen Punkt zurückzukommen: Die Kosten sind gestiegen.", "Um auf Ihren Einwand zurückzukommen: Die Kosten sind gestiegen.", "Um auf euren Punkt zurückzukommen: Die Kosten sind gestiegen."],
             explanation: "\"Um ... zu\" with a separable verb: \"zurückzukommen\" (\"zu\" inside). \"Zurückkommen auf\" + accusative.",
           },
         ],
@@ -1415,7 +1415,7 @@ export const DE_C2_U13: Lesson[] = [
             prompt: "Translate into German, using a particle.",
             source: "You said so yourself!",
             answer: "Das haben Sie doch selbst gesagt!",
-            altAnswers: ["Das hast du doch selbst gesagt!", "Das haben Sie doch selber gesagt!", "Das hast du doch selber gesagt!", "Sie haben das doch selbst gesagt!"],
+            altAnswers: ["Das hast du doch selbst gesagt!", "Das haben Sie doch selber gesagt!", "Das hast du doch selber gesagt!", "Sie haben das doch selbst gesagt!", "Das habt ihr doch selbst gesagt!"],
             explanation: "\"Doch\" reproaches: the opponent should remember his own words.",
           },
           {
@@ -1846,7 +1846,7 @@ export const DE_C2_U13: Lesson[] = [
             prompt: "Translate into German, with \"insofern ... als\".",
             source: "I agree with you in so far as costs have risen.",
             answer: "Ich stimme Ihnen insofern zu, als die Kosten gestiegen sind.",
-            altAnswers: ["Ich stimme Ihnen insofern zu, als die Kosten tatsächlich gestiegen sind.", "Insofern stimme ich Ihnen zu, als die Kosten gestiegen sind.", "Ich stimme dir insofern zu, als die Kosten gestiegen sind."],
+            altAnswers: ["Ich stimme Ihnen insofern zu, als die Kosten tatsächlich gestiegen sind.", "Insofern stimme ich Ihnen zu, als die Kosten gestiegen sind.", "Ich stimme dir insofern zu, als die Kosten gestiegen sind.", "Ich stimme euch insofern zu, als die Kosten gestiegen sind."],
             explanation: "\"Insofern\" in the main clause, \"als\" + verb-final clause for the accepted aspect.",
           },
           {

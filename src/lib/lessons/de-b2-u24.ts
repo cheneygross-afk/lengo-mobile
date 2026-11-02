@@ -798,10 +798,10 @@ export const DE_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The train was cancelled, so we arrived late.'?",
         options: ["Der Zug fiel aus, sodass wir zu spät kamen.", "Der Zug fiel aus, sodass kamen wir zu spät.", "Der Zug fiel aus, folglich wir kamen zu spät.", "Der Zug fiel aus, folglich wir zu spät kamen."],
         correctIndex: 0,
-        explanation: "\"Sodass\" sends the verb to the end; \"folglich\" needs the verb right after it.",
+        explanation: "\"Sodass\" sends the verb to the end: \"sodass wir zu spät kamen\". \"*folglich wir kamen*\" is wrong: the adverb \"folglich\" needs the verb straight after it.",
       },
       {
         type: "translate",
@@ -1856,7 +1856,7 @@ export const DE_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I dreamt about you.'?",
         options: ["Ich habe von dir geträumt.", "Ich habe über dich geträumt.", "Ich habe dich geträumt.", "Ich habe an dich geträumt."],
         correctIndex: 0,
         explanation: "Standard German says \"träumen von\" + dative; \"über\" is a calque of English 'about', heard in casual speech but not standard. \"An\" and the bare accusative are wrong.",

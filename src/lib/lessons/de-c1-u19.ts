@@ -178,10 +178,10 @@ export const DE_C1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The project depended heavily on delivery times.'?",
         options: ["Das Projekt war stark von den Lieferzeiten abhängig.", "Das Projekt war stark auf den Lieferzeiten abhängig.", "Das Projekt war stark abhängig an den Lieferzeiten.", "Das Projekt war stark von die Lieferzeiten abhängig."],
         correctIndex: 0,
-        explanation: "\"Abhängig von\" + dative: \"von den Lieferzeiten\".",
+        explanation: "\"Abhängig von\" + dative: \"von den Lieferzeiten\". \"*von die Lieferzeiten*\" has the right preposition but the wrong case.",
       },
       {
         type: "translate",
@@ -827,10 +827,10 @@ export const DE_C1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is a correct polite request?",
+        question: "How do you politely ask a stranger: 'Would you pass me the salt, please?'",
         options: ["Würden Sie mir bitte das Salz reichen?", "Werden Sie mir bitte das Salz reichen?", "Würden Sie mir bitte das Salz gereicht?", "Wären Sie mir bitte das Salz reichen?"],
         correctIndex: 0,
-        explanation: "\"Würden Sie ... + infinitive\" is the polite Konjunktiv II request.",
+        explanation: "\"Würden Sie ... + infinitive\" is the polite Konjunktiv II request. \"*Werden Sie*\" (future) sounds like an order.",
       },
       {
         type: "translate",
@@ -908,7 +908,7 @@ export const DE_C1_U19: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence has the correct word order?",
+            question: "How do you write 'Rents have risen. That's why many people are moving to the countryside.'?",
             options: ["Die Mieten sind gestiegen. Deshalb ziehen viele aufs Land.", "Die Mieten sind gestiegen. Deshalb viele ziehen aufs Land.", "Viele ziehen aufs Land, weil die Mieten sind gestiegen.", "Viele ziehen aufs Land, denn die Mieten gestiegen sind."],
             correctIndex: 0,
             explanation: "\"Deshalb\" takes the Vorfeld and the verb follows. \"Weil\" sends the verb to the end; \"denn\" doesn't change the order.",
@@ -1264,10 +1264,10 @@ export const DE_C1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which subordinate clause is correct?",
-        options: ["..., weil er das Auto hat reparieren lassen.", "..., weil er das Auto reparieren lassen hat.", "..., weil er das Auto reparieren gelassen hat.", "..., weil er hat das Auto reparieren lassen."],
+        question: "How do you say '..., because he had the car repaired.'?",
+        options: ["..., weil er das Auto hat reparieren lassen.", "..., weil er das Auto reparieren lassen hat.", "..., weil er das Auto lassen hat reparieren.", "..., weil er hat das Auto reparieren lassen."],
         correctIndex: 0,
-        explanation: "With a double infinitive the auxiliary \"hat\" moves in front of the verb cluster, not to the end.",
+        explanation: "With a double infinitive the auxiliary \"hat\" moves in front of the verb cluster, not to the end: \"hat reparieren lassen\". \"*reparieren lassen hat*\" applies the normal verb-last rule, which doesn't work here.",
       },
       {
         type: "translate",
@@ -1898,10 +1898,10 @@ export const DE_C1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'm interested in art, but my interest in music is greater.'?",
         options: ["Ich interessiere mich für Kunst, aber mein Interesse an Musik ist größer.", "Ich interessiere mich an Kunst, aber mein Interesse für Musik ist größer.", "Ich interessiere mich auf Kunst, aber mein Interesse an Musik ist größer.", "Ich interessiere mich für Kunst, aber mein Interesse auf Musik ist größer."],
         correctIndex: 0,
-        explanation: "Verb \"sich interessieren für\", noun \"das Interesse an\".",
+        explanation: "Verb \"sich interessieren für\", noun \"das Interesse an\". \"*Interesse für*\" and \"*interessieren an*\" swap the two prepositions.",
       },
       {
         type: "translate",
@@ -2772,10 +2772,10 @@ export const DE_C1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I know I should have called you.'?",
         options: ["Ich weiß, dass ich dich hätte anrufen sollen.", "Ich weiß, dass ich dich anrufen sollen hätte.", "Ich weiß, dass ich hätte dich anrufen sollen.", "Ich weiß, dass ich dich anrufen gesollt hätte."],
         correctIndex: 0,
-        explanation: "In a subordinate clause \"hätte\" goes before the double infinitive, after the object.",
+        explanation: "In a subordinate clause \"hätte\" goes before the double infinitive, after the object: \"dich hätte anrufen sollen\". \"*anrufen sollen hätte*\" applies the normal verb-last rule, which doesn't work here.",
       },
       {
         type: "translate",

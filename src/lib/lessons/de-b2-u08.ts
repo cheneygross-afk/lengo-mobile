@@ -603,10 +603,10 @@ export const DE_B2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'Tired from the journey, we went to bed early.'?",
         options: ["Müde von der Reise, gingen wir früh ins Bett.", "Müde von der Reise, wir gingen früh ins Bett.", "Von der Reise müdend, gingen wir früh ins Bett.", "Müde von der Reise, war das Bett schon gemacht."],
         correctIndex: 0,
-        explanation: "Short clause, comma, verb first; and the subject (wir) is the same in both parts.",
+        explanation: "The short phrase fills position 1, so the verb follows (\"..., gingen wir\"), and it must describe the subject. \"*Müde von der Reise, war das Bett schon gemacht*\" says the bed was tired.",
       },
       {
         type: "translate",
@@ -865,7 +865,7 @@ export const DE_B2_U08: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Spiral Review: Indirect Speech in the News",
-    summary: "Spaced review of Unit 4: turn statements into news reports with laut, zufolge and the Konjunktiv I.",
+    summary: "Spaced review of Unit 4: turn statements into news reports with \"laut\", \"zufolge\" and the Konjunktiv I.",
     duration: "13 min",
     sections: [
       {
@@ -982,7 +982,7 @@ export const DE_B2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which attribution is correct?",
+        question: "How do you say 'according to the report'?",
         options: ["Dem Bericht zufolge", "Zufolge dem Bericht", "Des Berichts zufolge", "Den Bericht zufolge"],
         correctIndex: 0,
         explanation: "\"Zufolge\" comes after its noun, which is in the dative: \"dem Bericht zufolge\". Not the genitive \"des Berichts\" and not the accusative \"den Bericht\".",
@@ -1409,10 +1409,10 @@ export const DE_B2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'The room we booked was small.'?",
         options: ["Das von uns gebuchte Zimmer war klein.", "Das von uns gebuchten Zimmer war klein.", "Der von uns gebuchte Zimmer war klein.", "Das gebuchte von uns Zimmer war klein."],
         correctIndex: 0,
-        explanation: "\"Das\" + -e; the agent goes before the participle.",
+        explanation: "Neuter \"das\" + weak ending \"-e\": \"das ... gebuchte Zimmer\", with the agent \"von uns\" before the participle. \"*Das von uns gebuchten Zimmer*\" has the wrong ending \"-en\".",
       },
       {
         type: "translate",
