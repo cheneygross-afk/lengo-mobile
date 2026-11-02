@@ -20,7 +20,7 @@ export const PT_B1_U35: Lesson[] = [
           "The traps are the near-twins: \"acho que é\" / \"não acho que seja\", \"conheço alguém que fala\" / \"procuro alguém que fale\", \"depois que ele chegou\" / \"antes que ele chegue\", \"mas é caro\" / \"embora seja caro\". When in doubt, ask whether the speaker vouches for the clause.",
         ],
         examples: [
-          { es: "Quero ir à praia, mas prefiro que a gente vá cedo.", en: "I want to go to the beach, but I'd rather we went early." },
+          { es: "Quero ir à praia, mas prefiro que a gente vá cedo.", en: "I want to go to the beach, but I'd rather we go early." },
           { es: "Sei que ele mora em Niterói, mas duvido que venha hoje.", en: "I know he lives in Niterói, but I doubt he'll come today." },
           { es: "Conheço um eletricista que trabalha aos domingos.", en: "I know an electrician who works on Sundays." },
           { es: "Procuro um eletricista que trabalhe aos domingos.", en: "I'm looking for an electrician who works on Sundays." },
@@ -68,7 +68,7 @@ export const PT_B1_U35: Lesson[] = [
           { es: "É importante beber água, e é importante que as crianças bebam também.", en: "It's important to drink water, and it's important that the children drink too." },
           { es: "O médico recomenda que eu evite açúcar.", en: "The doctor recommends that I avoid sugar." },
           { es: "O síndico não deixa a gente fazer festa depois das dez.", en: "The building manager doesn't let us have parties after ten." },
-          { es: "Ela diz que vem, mas eu insisto que ela fique em casa.", en: "She says she's coming, but I insist she stays home." },
+          { es: "Ela diz que vem, mas eu insisto que ela fique em casa.", en: "She says she's coming, but I insist she stay home." },
         ],
         checkpoint: [
           {
@@ -215,7 +215,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "speak",
         text: "Embora seja caro, acho que vale a pena, desde que a gente vá com calma.",
         prompt: "Say it in Portuguese: Although it's expensive, I think it's worth it, as long as we take it easy.",
-        tip: "\"Vale a pena\": the final e of vale is like i, and \"pena\" has a closed, nasal e.",
+        tip: "\"Vale a pena\": VA-lee a PẼ-na; the final e of vale is like ee, and \"pena\" has a closed, nasal e.",
         explanation: "Three choices in one sentence: \"embora\" + subjunctive, \"acho que\" + indicative, \"desde que\" (provided) + subjunctive.",
       },
       {
@@ -248,7 +248,7 @@ export const PT_B1_U35: Lesson[] = [
         examples: [
           { es: "Era um sábado de manhã e fazia muito calor.", en: "It was a Saturday morning and it was very hot." },
           { es: "A gente estava tomando café quando o Rafael ligou.", en: "We were having breakfast when Rafael called." },
-          { es: "Ele disse que tinha conseguido passagens para Ilha Grande.", en: "He said he'd got tickets to Ilha Grande." },
+          { es: "Ele disse que tinha conseguido passagens para Ilha Grande.", en: "He said he'd gotten tickets to Ilha Grande." },
           { es: "Quando chegamos ao cais, o barco já tinha saído.", en: "When we got to the pier, the boat had already left." },
           { es: "Eu nunca tinha visto um mar tão azul.", en: "I'd never seen such a blue sea." },
           { es: "No fim, pegamos o barco seguinte e chegamos à tarde.", en: "In the end, we took the next boat and arrived in the afternoon." },
@@ -291,7 +291,7 @@ export const PT_B1_U35: Lesson[] = [
         examples: [
           { es: "Tenho trabalhado muito ultimamente.", en: "I've been working a lot lately." },
           { es: "Você já foi a Fernando de Noronha?", en: "Have you ever been to Fernando de Noronha?" },
-          { es: "Acabei de chegar do aeroporto.", en: "I've just got back from the airport." },
+          { es: "Acabei de chegar do aeroporto.", en: "I just got back from the airport." },
           { es: "Depois da cirurgia, ele voltou a jogar futebol.", en: "After the operation, he started playing soccer again." },
           { es: "Cheguei a pensar que a gente não ia conseguir.", en: "I even thought we weren't going to make it." },
           { es: "Eu ia te ligar, mas acabei dormindo.", en: "I was going to call you, but I ended up falling asleep." },
@@ -438,7 +438,7 @@ export const PT_B1_U35: Lesson[] = [
       {
         type: "speak",
         text: "Eu estava saindo de casa quando o Rafael me ligou. Ele tinha conseguido passagens para Ilha Grande.",
-        prompt: "Say it in Portuguese: I was leaving home when Rafael called me. He'd got tickets to Ilha Grande.",
+        prompt: "Say it in Portuguese: I was leaving home when Rafael called me. He'd gotten tickets to Ilha Grande.",
         tip: "\"Rafael\" is ha-fa-ÉU, with a throaty r at the start and the final l like a w.",
         explanation: "Three layers: in progress (\"estava saindo\"), event (\"ligou\"), earlier past (\"tinha conseguido\").",
       },
@@ -808,7 +808,7 @@ export const PT_B1_U35: Lesson[] = [
             type: "speak",
             text: "Nestes termos, peço deferimento.",
             prompt: "Say it in Portuguese: the fixed closing of an official request.",
-            tip: "\"Deferimento\": de-fe-ri-MEN-tu, with a nasal en.",
+            tip: "\"Deferimento\": de-fe-ree-MẼN-too, with a nasal en.",
             explanation: "The formula of the requerimento: literally, in these terms, I ask for approval.",
           },
         ],
@@ -975,11 +975,11 @@ export const PT_B1_U35: Lesson[] = [
           "Listen to the manager: \"Para abrir a conta, o senhor precisa trazer o CPF, o comprovante de residência e o protocolo da Polícia Federal. Se preferir, pode fazer tudo pelo aplicativo.\" Formal service talk uses \"o senhor\" / \"a senhora\" and lots of \"pois não\" and \"um momentinho\".",
         ],
         examples: [
-          { es: "Bom dia, eu gostaria de abrir uma conta corrente.", en: "Good morning, I'd like to open a current account." },
+          { es: "Bom dia, eu gostaria de abrir uma conta corrente.", en: "Good morning, I'd like to open a checking account." },
           { es: "Pois não. O senhor já tem CPF?", en: "Certainly. Do you already have a CPF?" },
           { es: "O senhor precisa trazer um comprovante de residência.", en: "You need to bring proof of address." },
           { es: "O contrato de aluguel serve como comprovante?", en: "Does the rental contract count as proof?" },
-          { es: "Um momentinho, vou verificar no sistema.", en: "Just a moment, I'll check on the system." },
+          { es: "Um momentinho, vou verificar no sistema.", en: "Just a moment, I'll check in the system." },
           { es: "O cartão vai ser enviado para o seu endereço em dez dias.", en: "The card will be sent to your address within ten days." },
         ],
         checkpoint: [
@@ -1051,7 +1051,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'd like to open a current account.",
+        source: "I'd like to open a checking account.",
         answer: "Eu gostaria de abrir uma conta corrente.",
         altAnswers: ["Gostaria de abrir uma conta corrente.", "Eu queria abrir uma conta corrente.", "Queria abrir uma conta corrente.", "Eu gostaria de abrir uma conta-corrente."],
         explanation: "\"Gostaria\" or the spoken \"queria\" for a polite request at a counter.",
@@ -1088,7 +1088,7 @@ export const PT_B1_U35: Lesson[] = [
         source: "The agency asked me to send a copy of my passport.",
         answer: "A imobiliária pediu para eu mandar uma cópia do meu passaporte.",
         altAnswers: ["A imobiliária pediu que eu mandasse uma cópia do meu passaporte.", "A imobiliária me pediu para mandar uma cópia do passaporte.", "A imobiliária pediu para eu enviar uma cópia do meu passaporte.", "A imobiliária me pediu uma cópia do meu passaporte.", "A imobiliária me pediu para enviar uma cópia do meu passaporte.", "A imobiliária pediu pra eu mandar uma cópia do passaporte."],
-        explanation: "\"Pedir para\" + personal infinitive is the everyday reported request. A letting agency is an \"imobiliária\".",
+        explanation: "\"Pedir para\" + personal infinitive is the everyday reported request. A rental agency is an \"imobiliária\".",
       },
       {
         type: "word-order",
@@ -1123,7 +1123,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "speak",
         text: "Bom dia! Eu vi o anúncio do apartamento no Meireles. Ele ainda está disponível?",
         prompt: "Say it in Portuguese: Good morning! I saw the ad for the apartment in Meireles. Is it still available?",
-        tip: "\"Meireles\": may-RE-lis; the final -es sounds like is.",
+        tip: "\"Meireles\": may-RE-lees; the final -es sounds like ees.",
         explanation: "\"Vi\" (perfeito) for the event, \"está disponível\" for the current state.",
       },
       {
@@ -1156,7 +1156,7 @@ export const PT_B1_U35: Lesson[] = [
         examples: [
           { es: "Estou com febre e muita dor de barriga.", en: "I've got a fever and a bad stomach ache." },
           { es: "Faz umas três horas que estou vomitando.", en: "I've been vomiting for about three hours." },
-          { es: "Comi camarão num quiosque da praia no jantar.", en: "I had prawns at a beach kiosk for dinner." },
+          { es: "Comi camarão num quiosque da praia no jantar.", en: "I had shrimp at a beach kiosk for dinner." },
           { es: "O senhor tem alergia a algum medicamento?", en: "Are you allergic to any medicine?" },
           { es: "Recebi uma pulseira verde, então vou esperar um pouco.", en: "I got a green wristband, so I'll have a bit of a wait." },
           { es: "A médica recomendou que eu tome bastante água.", en: "The doctor recommended that I drink plenty of water." },
@@ -1222,7 +1222,7 @@ export const PT_B1_U35: Lesson[] = [
           "Spoken storytelling runs on \"aí\", \"do nada\", \"tipo\", the present for drama and quoted speech: \"aí a vizinha virou pra mim e falou: 'bora dançar!'\". Mix it with the tenses you know: \"eu nunca tinha dançado quadrilha\", \"tenho comido pamonha todo dia\".",
         ],
         examples: [
-          { es: "Cara, cê não vai acreditar: teve festa junina no meu prédio!", en: "Mate, you won't believe it: there was a festa junina in my building!" },
+          { es: "Cara, cê não vai acreditar: teve festa junina no meu prédio!", en: "Dude, you won't believe it: there was a festa junina in my building!" },
           { es: "Aí a dona Socorro virou pra mim e falou: \"bora dançar!\"", en: "Then Dona Socorro turned to me and said: let's dance!" },
           { es: "Eu nunca tinha dançado quadrilha na vida.", en: "I'd never danced a quadrilha in my life." },
           { es: "Do nada começou a tocar forró e todo mundo foi pra pista.", en: "Out of nowhere forró started playing and everyone hit the dance floor." },
@@ -1242,7 +1242,7 @@ export const PT_B1_U35: Lesson[] = [
             type: "speak",
             text: "Eu nunca tinha dançado quadrilha na vida, mas foi muito divertido!",
             prompt: "Say it in Portuguese: I'd never danced a quadrilha in my life, but it was great fun!",
-            tip: "\"Quadrilha\": kwa-DRI-lya; lh is like the lli in million.",
+            tip: "\"Quadrilha\": kwa-DREE-lya; lh is like the lli in million.",
             explanation: "The mais-que-perfeito for before the party, the perfeito \"foi\" for the evening as a whole.",
           },
         ],
@@ -1334,7 +1334,7 @@ export const PT_B1_U35: Lesson[] = [
       {
         type: "speak",
         text: "Cara, cê não vai acreditar: teve festa junina no meu prédio e eu dancei quadrilha!",
-        prompt: "Say it in spoken Portuguese: Mate, you won't believe it: there was a festa junina in my building and I danced the quadrilha!",
+        prompt: "Say it in spoken Portuguese: Dude, you won't believe it: there was a festa junina in my building and I danced the quadrilha!",
         tip: "\"Cê\" is just the second syllable of você; \"dancei\" has a nasal an.",
         explanation: "Voice-note register: \"cara\", \"cê\", \"teve\" for there was.",
       },
@@ -1365,7 +1365,7 @@ export const PT_B1_U35: Lesson[] = [
           "Real voice notes run words together: \"cê tá\" for \"você está\", \"tava\" for \"estava\", \"pra\" and \"pro\", \"num\" for \"não\" before a verb. Listen for the purpose first (an invitation? a warning? a favor?), then for the details: time, place, what you need to do.",
         ],
         examples: [
-          { es: "Oi, amiga, cê tá em casa? Tava pensando em passar aí mais tarde.", en: "Hi, are you home? I was thinking of popping round later." },
+          { es: "Oi, amiga, cê tá em casa? Tava pensando em passar aí mais tarde.", en: "Hi, are you home? I was thinking of stopping by later." },
           { es: "Se num der, a gente se vê amanhã, beleza?", en: "If it doesn't work out, we'll see each other tomorrow, OK?" },
           { es: "Ah, e traz aquele livro que eu te emprestei, tá?", en: "Oh, and bring that book I lent you, OK?" },
         ],
@@ -1376,7 +1376,7 @@ export const PT_B1_U35: Lesson[] = [
             question: "What does the speaker want?",
             options: ["To drop by her friend's place later", "To invite her friend out tonight", "To cancel a visit", "To borrow something right now"],
             correctIndex: 0,
-            explanation: "\"Passar aí\" means to pop round to your place. \"Tava pensando\" is the spoken \"estava pensando\".",
+            explanation: "\"Passar aí\" means to stop by your place. \"Tava pensando\" is the spoken \"estava pensando\".",
           },
           {
             type: "translate",
@@ -1397,7 +1397,7 @@ export const PT_B1_U35: Lesson[] = [
         examples: [
           { es: "A nova linha do metrô será inaugurada no próximo mês, anunciou o governo.", en: "The new subway line will open next month, the government announced." },
           { es: "Segundo a secretaria, cerca de 80 mil passageiros devem usar a linha por dia.", en: "According to the department, about 80,000 passengers are expected to use the line daily." },
-          { es: "A obra custou o dobro do previsto.", en: "The works cost twice as much as planned." },
+          { es: "A obra custou o dobro do previsto.", en: "The construction cost twice as much as planned." },
         ],
         checkpoint: [
           {
@@ -1412,7 +1412,7 @@ export const PT_B1_U35: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The works cost twice as much as planned.",
+            source: "The construction cost twice as much as planned.",
             answer: "A obra custou o dobro do previsto.",
             altAnswers: ["As obras custaram o dobro do previsto.", "A obra custou duas vezes mais do que o previsto.", "A obra custou o dobro do que estava previsto.", "As obras custaram o dobro do que estava previsto."],
             explanation: "\"O dobro do previsto\": twice what was planned. \"Previsto\" works as a noun here.",
@@ -1602,7 +1602,7 @@ export const PT_B1_U35: Lesson[] = [
           { es: "Oi, Lucas! Que bom que você vem pra Floripa!", en: "Hi Lucas! Great that you're coming to Floripa!" },
           { es: "Sugiro que você vá à Lagoa da Conceição no fim da tarde.", en: "I suggest you go to Lagoa da Conceição in the late afternoon." },
           { es: "Vale a pena fazer a trilha até a praia do Saquinho.", en: "It's worth doing the trail to Saquinho beach." },
-          { es: "No seu lugar, eu alugaria um carro, porque as praias ficam longe umas das outras.", en: "In your place, I'd rent a car, because the beaches are far from each other." },
+          { es: "No seu lugar, eu alugaria um carro, porque as praias ficam longe umas das outras.", en: "If I were you, I'd rent a car, because the beaches are far from each other." },
           { es: "Caso chova, tem ótimos museus no centro.", en: "In case it rains, there are great museums in the center." },
         ],
         checkpoint: [
@@ -1619,7 +1619,7 @@ export const PT_B1_U35: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "In your place, I would rent a car.",
+            source: "If I were you, I would rent a car.",
             answer: "No seu lugar, eu alugaria um carro.",
             altAnswers: ["No seu lugar, alugaria um carro.", "Se eu fosse você, alugaria um carro.", "Se eu fosse você, eu alugaria um carro.", "No seu lugar, eu ia alugar um carro.", "No teu lugar, eu alugaria um carro."],
             explanation: "\"No seu lugar\" or the chunk \"se eu fosse você\" + conditional for advice.",
@@ -1695,7 +1695,7 @@ export const PT_B1_U35: Lesson[] = [
             type: "speak",
             text: "Solicitei o cancelamento do meu plano no dia dois de março.",
             prompt: "Say it in Portuguese: I requested the cancellation of my membership on March 2.",
-            tip: "\"Cancelamento\": can-se-la-MEN-tu; the c before e sounds like s.",
+            tip: "\"Cancelamento\": kã-se-la-MẼN-too; the c before e sounds like s.",
             explanation: "A dated fact in the perfeito: the backbone of any complaint.",
           },
         ],
@@ -1795,7 +1795,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "speak",
         text: "Oi, Lucas! Que bom que você vem! Sugiro que você vá à Lagoa no fim da tarde.",
         prompt: "Say it in Portuguese: Hi Lucas! Great that you're coming! I suggest you go to the Lagoa in the late afternoon.",
-        tip: "\"Vá\" is open and short; \"Lagoa\" is la-GO-a.",
+        tip: "\"Vá\" is open and short; \"Lagoa\" is la-GÔ-a.",
         explanation: "The informal email's register: \"que bom que\" + indicative, \"sugiro que\" + subjunctive.",
       },
     ],
@@ -1835,7 +1835,7 @@ export const PT_B1_U35: Lesson[] = [
             type: "speak",
             text: "Ultimamente tenho estudado português à noite, depois do trabalho.",
             prompt: "Say it in Portuguese: Lately I've been studying Portuguese in the evenings, after work.",
-            tip: "\"Ultimamente\": the final -te sounds like chi.",
+            tip: "\"Ultimamente\": the final -te sounds like chee: ool-chee-ma-MẼN-chee.",
             explanation: "The perfeito composto for a repeated activity up to now.",
           },
         ],
@@ -1941,7 +1941,7 @@ export const PT_B1_U35: Lesson[] = [
         source: "I started studying Portuguese when I moved to Brazil.",
         answer: "Comecei a estudar português quando me mudei para o Brasil.",
         altAnswers: ["Eu comecei a estudar português quando me mudei para o Brasil.", "Comecei a estudar português quando eu me mudei para o Brasil.", "Comecei a estudar português quando vim para o Brasil.", "Comecei a estudar português quando me mudei pro Brasil.", "Eu comecei a estudar português quando vim morar no Brasil."],
-        explanation: "Two events in the perfeito: \"comecei\", \"me mudei\". \"Mudar-se\" is to move or country.",
+        explanation: "Two events in the perfeito: \"comecei\", \"me mudei\". \"Mudar-se\" is to move, to a new home or a new country.",
       },
       {
         type: "translate",
@@ -1964,7 +1964,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Maybe the council is getting a lot of complaints.",
+        source: "Maybe city hall is getting a lot of complaints.",
         answer: "Talvez a prefeitura esteja recebendo muitas reclamações.",
         altAnswers: ["Pode ser que a prefeitura esteja recebendo muitas reclamações.", "Talvez a prefeitura receba muitas reclamações.", "Talvez a prefeitura esteja recebendo várias reclamações.", "Talvez a prefeitura esteja recebendo muita reclamação."],
         explanation: "\"Talvez\" before the verb + subjunctive: \"esteja recebendo\", the progressive with the subjunctive of \"estar\".",
@@ -2061,7 +2061,7 @@ export const PT_B1_U35: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which statement matches the text?",
-            options: ["The boat only runs on weekends, but over 3,000 books have been lent.", "The library is run by the city council.", "The boat runs every day.", "The project is funded by ticket sales."],
+            options: ["The boat only runs on weekends, but over 3,000 books have been lent.", "The library is run by city hall.", "The boat runs every day.", "The project is funded by ticket sales."],
             correctIndex: 0,
             explanation: "\"Embora o barco só funcione aos fins de semana\" (although it only runs on weekends) and \"mais de três mil livros já foram emprestados\". The project depends on \"doações\" (donations).",
           },
@@ -2108,7 +2108,7 @@ export const PT_B1_U35: Lesson[] = [
             type: "listen-choose",
             audio: "O preço da gasolina subiu pela terceira vez este ano, e os motoristas de aplicativo ameaçam fazer greve.",
             question: "What does the news item say?",
-            options: ["Gas prices went up for the third time this year, and app drivers are threatening to strike.", "Gas prices fell three times this year.", "App drivers went on strike three times this year.", "Petrol will go up next year."],
+            options: ["Gas prices went up for the third time this year, and app drivers are threatening to strike.", "Gas prices fell three times this year.", "App drivers went on strike three times this year.", "Gas will go up next year."],
             correctIndex: 0,
             explanation: "\"Subiu pela terceira vez\" (rose for the third time); \"ameaçam fazer greve\" (threaten to strike).",
           },
@@ -2170,9 +2170,9 @@ export const PT_B1_U35: Lesson[] = [
           "Finally, short productive tasks. For writing, set the register by the reader and state the purpose in the first lines. For speaking, give a position, a reason and an example, and use at least one conditional and one subjunctive. When you can do all this without help, B1 is behind you.",
         ],
         examples: [
-          { es: "Prezada Sra. Lima, escrevo para confirmar a minha inscrição no curso.", en: "Dear Ms. Lima, I'm writing to confirm my enrollment on the course." },
+          { es: "Prezada Sra. Lima, escrevo para confirmar a minha inscrição no curso.", en: "Dear Ms. Lima, I'm writing to confirm my enrollment in the course." },
           { es: "Na minha opinião, o trabalho híbrido é o melhor modelo, porque...", en: "In my opinion, hybrid work is the best model, because..." },
-          { es: "No lugar da empresa, eu ofereceria horários flexíveis.", en: "If I were the company, I'd offer flexible hours." },
+          { es: "No lugar da empresa, eu ofereceria horários flexíveis.", en: "If I were running the company, I'd offer flexible hours." },
         ],
         checkpoint: [
           {
@@ -2187,8 +2187,8 @@ export const PT_B1_U35: Lesson[] = [
           {
             type: "speak",
             text: "Na minha opinião, o trabalho híbrido é o melhor modelo. No lugar das empresas, eu ofereceria horários flexíveis.",
-            prompt: "Say it in Portuguese: In my opinion, hybrid work is the best model. If I were the companies, I'd offer flexible hours.",
-            tip: "\"Híbrido\": EE-bri-du; the h is silent.",
+            prompt: "Say it in Portuguese: In my opinion, hybrid work is the best model. If I were running these companies, I'd offer flexible hours.",
+            tip: "\"Híbrido\": EE-bree-doo; the h is silent.",
             explanation: "A position and a hypothesis with the conditional \"ofereceria\".",
           },
         ],

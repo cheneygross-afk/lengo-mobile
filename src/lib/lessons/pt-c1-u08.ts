@@ -98,7 +98,7 @@ export const PT_C1_U08: Lesson[] = [
       {
         heading: "Topics in writing: quanto a, em relação a",
         body: [
-          "Formal writing fronts topics too, but never with the spoken resumptive \"ele\". You have three options: leave the gap, use the written clitic, or announce the topic with \"quanto a\", \"em relação a\" or \"no que diz respeito a\" (the same family as \"no que tange a\" from Unit 3). Remember the crase before feminine nouns: \"quanto à proposta\".",
+          "Formal writing fronts topics too, but never with the spoken resumptive \"ele\". You have three options: leave the gap, use the written clitic, or announce the topic with \"quanto a\", \"em relação a\" or \"no que diz respeito a\" (the same family as \"no que tange a\" from the Academic Portuguese unit). Remember the crase before feminine nouns: \"quanto à proposta\".",
           "A prepositional topic can move to the front together with its preposition: \"Desse assunto, ninguém fala.\" This is the formal twin of spoken \"Esse assunto, ninguém fala dele\". The topic is the same, but the preposition travels with it and nothing is left behind.",
         ],
         examples: [
@@ -196,7 +196,7 @@ export const PT_C1_U08: Lesson[] = [
         type: "speak",
         text: "Esse filme, eu nunca vi.",
         prompt: "Say it in Portuguese, putting the topic first: That movie, I've never seen.",
-        tip: "Let your voice rise on filme and pause briefly before dropping into the comment.",
+        tip: "Let your voice rise on \"filme\" and pause briefly before dropping into the comment.",
         explanation: "The topic gets its own intonation unit, which is what a comma stands for in writing.",
       },
       {
@@ -473,7 +473,7 @@ export const PT_C1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Where does your sister work? (casual, with é que)",
+            source: "Where does your sister work? (casual, with \"é que\")",
             answer: "Onde é que a sua irmã trabalha?",
             altAnswers: ["Onde é que sua irmã trabalha?"],
             explanation: "\"Onde é que\" + subject + verb: the subject \"a sua irmã\" comes before \"trabalha\", just as in a statement. The article before the possessive is optional.",
@@ -522,7 +522,7 @@ export const PT_C1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "How do you know that? (casual, with é que)",
+            source: "How do you know that? (casual, with \"é que\")",
             answer: "Como é que você sabe disso?",
             altAnswers: ["Como é que você sabe isso?", "Como é que o senhor sabe disso?", "Como é que a senhora sabe disso?", "Como é que vocês sabem disso?"],
             explanation: "\"Como é que você sabe disso?\" With stress on \"como\" it sounds like a challenge: how can you possibly know?",
@@ -534,7 +534,7 @@ export const PT_C1_U08: Lesson[] = [
         body: [
           "Said evenly, \"é que\" is just conversational. Stress the question word, raise the pitch or add \"afinal\", and it becomes insistent or exasperated, like English on earth or exactly: \"Onde é que você estava?!\" to a teenager home at three in the morning.",
           "For a single past event many speakers switch to \"foi que\": \"O que foi que ele disse?\", \"Quando foi que vocês se conheceram?\". Both versions are correct. \"Foi\" just anchors the question to that moment.",
-          "\"É que\" needs a question word. Without one, a sentence-initial \"é que\" is the explanation particle from Unit 7 (\"É que eu estava cansado\"). So a yes/no question stays bare: \"Você vem?\". \"É que\" survives in spoken indirect questions (\"Não sei onde é que ele mora\"), but formal writing drops it. Use it often, not always: a string of é que questions sounds like an interrogation.",
+          "\"É que\" needs a question word. Without one, a sentence-initial \"é que\" is the explanation particle from the Nuance, Connotation & Pragmatic Particles unit (\"É que eu estava cansado\"). So a yes/no question stays bare: \"Você vem?\". \"É que\" survives in spoken indirect questions (\"Não sei onde é que ele mora\"), but formal writing drops it. Use it often, not always: a string of é que questions sounds like an interrogation.",
         ],
         examples: [
           { es: "Onde é que você estava?! São três da manhã!", en: "Where on earth were you? It's three in the morning!" },
@@ -548,7 +548,7 @@ export const PT_C1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "What did she tell you? (use foi que)",
+            source: "What did she tell you? (use \"foi que\")",
             answer: "O que foi que ela te disse?",
             altAnswers: ["O que foi que ela disse para você?", "O que foi que ela disse pra você?", "O que foi que ela te falou?", "O que foi que ela falou para você?", "O que foi que ela falou pra você?", "O que foi que ela lhe disse?"],
             explanation: "For one past event \"foi que\" is very natural: \"O que foi que ela te disse?\". \"Te\" goes before the verb, as always in Brazilian speech.",
@@ -650,13 +650,13 @@ export const PT_C1_U08: Lesson[] = [
       {
         type: "dictation",
         audio: "Por que é que o ônibus não parou?",
-        explanation: "\"Por que é que\" (two words, no accent) and \"ônibus\" with a circumflex. In speech \"é que\" blends into something like \"éki\".",
+        explanation: "\"Por que é que\" (two words, no accent) and \"ônibus\" with a circumflex. In speech \"é que\" blends into something like É-kee.",
       },
       {
         type: "speak",
         text: "O que é que você quer fazer hoje?",
         prompt: "Say it in Portuguese, casually: What do you want to do today?",
-        tip: "Run \"o que é que\" together without pauses, with the final e of \"que\" said as i: roughly \"u kiéki\".",
+        tip: "Run \"o que é que\" together without pauses, with the final e of \"que\" said as ee: roughly oo-kee-É-kee.",
         explanation: "\"O que é que você quer fazer?\" is the relaxed, natural way to ask. \"O que você quer fazer?\" is equally correct.",
       },
     ],
@@ -692,7 +692,7 @@ export const PT_C1_U08: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Something strange happened yesterday.",
             answer: "Aconteceu uma coisa estranha ontem.",
-            altAnswers: ["Ontem aconteceu uma coisa estranha.", "Aconteceu algo estranho ontem.", "Ontem aconteceu algo estranho.", "Uma coisa estranha aconteceu ontem."],
+            altAnswers: ["Ontem aconteceu uma coisa estranha.", "Aconteceu algo estranho ontem.", "Ontem aconteceu algo estranho."],
             explanation: "\"Acontecer\" with a new, indefinite subject naturally comes first: \"Aconteceu uma coisa estranha\". Subject-first is grammatical but sounds stiffer.",
           },
           {
@@ -784,13 +784,13 @@ export const PT_C1_U08: Lesson[] = [
             en: "\"I'm not going,\" [she said].",
             sentence: "— Não vou — ___.",
             answer: "disse ela",
-            altAnswers: ["ela disse", "falou ela", "respondeu ela"],
+            altAnswers: ["falou ela", "respondeu ela"],
             explanation: "After a quotation, published prose inverts: \"disse ela\". \"Ela disse\" is possible but plainer.",
           },
           {
             type: "speak",
             text: "Sobe pela terceira vez o preço da gasolina.",
-            tip: "\"Sobe\" has an open ó and a final e said like i: SÓ-bi.",
+            tip: "\"Sobe\" has an open ó and a final e said like ee: SÓ-bee.",
             explanation: "A typical verb-first headline: the event \"sobe\" first, the subject \"o preço da gasolina\" last.",
           },
         ],
@@ -803,7 +803,7 @@ export const PT_C1_U08: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "A problem has come up.",
         answer: "Surgiu um problema.",
-        altAnswers: ["Apareceu um problema.", "Um problema surgiu.", "Um problema apareceu."],
+        altAnswers: ["Apareceu um problema."],
         explanation: "With an indefinite subject, appearance verbs naturally come first: \"Surgiu um problema\". Brazilians use the simple past where English has 'has come up'.",
       },
       {
@@ -812,7 +812,7 @@ export const PT_C1_U08: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Beatriz's son has been born!",
         answer: "Nasceu o filho da Beatriz!",
-        altAnswers: ["O filho da Beatriz nasceu!", "Nasceu o filho de Beatriz!"],
+        altAnswers: ["Nasceu o filho de Beatriz!"],
         explanation: "Announcing news, the verb goes first: \"Nasceu o filho da Beatriz!\". English needs a passive ('has been born'); Portuguese \"nascer\" is a simple active verb.",
       },
       {
@@ -839,7 +839,7 @@ export const PT_C1_U08: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Several problems have come up.",
         answer: "Surgiram vários problemas.",
-        altAnswers: ["Apareceram vários problemas.", "Vários problemas surgiram.", "Vários problemas apareceram."],
+        altAnswers: ["Apareceram vários problemas."],
         explanation: "The postposed subject is plural, so \"surgiram\". The verb coming first doesn't make it singular.",
       },
       {
@@ -1017,7 +1017,7 @@ export const PT_C1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Eu mesma resolvi o problema.",
-            tip: "Say mesma with a closed ê. The s before m sounds like a z, or like the s in 'measure' in Rio.",
+            tip: "Say \"mesma\" with a closed ê. The s before m sounds like a z, or like the s in 'measure' in Rio.",
             explanation: "\"Eu mesma\": -self agrees with the speaker, so a man says \"eu mesmo\".",
           },
         ],
@@ -1132,7 +1132,7 @@ export const PT_C1_U08: Lesson[] = [
         type: "speak",
         text: "Você vai mesmo se mudar para Recife?",
         prompt: "Say it in Portuguese: Are you really moving to Recife?",
-        tip: "Let your voice rise at the end, and say the final e in Recife like a short i.",
+        tip: "Let your voice rise at the end, and say the final e in Recife like ee: he-SEE-fee.",
         explanation: "\"Mesmo\" after the verb \"vai\" means really. Before \"você\", \"mesmo\" would mean even you.",
       },
       {
@@ -1270,7 +1270,7 @@ export const PT_C1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Chegou um pacote para você!",
-            tip: "In \"pacote\" the final te sounds like 'tchi': pa-KO-tchi.",
+            tip: "In \"pacote\" the final te sounds like chee: pa-KÓ-chee.",
             explanation: "The verb comes first and the subject \"um pacote\" comes after it, which presents the package as news.",
           },
         ],
@@ -1339,7 +1339,7 @@ export const PT_C1_U08: Lesson[] = [
         type: "speak",
         text: "Sou eu que decido.",
         prompt: "Say it in Portuguese: I'm the one who decides.",
-        tip: "Put the stress on \"eu\" and let the sentence fall on \"decido\": de-SI-du.",
+        tip: "Put the stress on \"eu\" and let the sentence fall on \"decido\": de-SEE-doo.",
         explanation: "In the cleft, \"ser\" agrees with \"eu\" (\"sou\"), and so does the verb after \"que\" (\"decido\"). \"Sou eu quem decide\" is also correct.",
       },
       {
@@ -2037,7 +2037,6 @@ export const PT_C1_U08: Lesson[] = [
         en: "What Lucas bought [was] the tickets.",
         sentence: "O que o Lucas comprou ___ as passagens.",
         answer: "foram",
-        altAnswers: ["foi"],
         explanation: "In a pseudo-cleft \"ser\" usually agrees with a plural focus: \"foram as passagens\". \"Foi\" is common in speech, but \"foram\" is the safe written choice.",
       },
       {
@@ -2287,7 +2286,7 @@ export const PT_C1_U08: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "A problem has come up with the server.",
         answer: "Surgiu um problema no servidor.",
-        altAnswers: ["Apareceu um problema no servidor.", "Surgiu um problema com o servidor.", "Apareceu um problema com o servidor.", "Um problema surgiu no servidor.", "Um problema surgiu com o servidor."],
+        altAnswers: ["Apareceu um problema no servidor.", "Surgiu um problema com o servidor.", "Apareceu um problema com o servidor."],
         explanation: "With appearance verbs, new information follows the verb: \"surgiu um problema\". English needs come up; Portuguese simply inverts.",
       },
       {
@@ -2331,7 +2330,7 @@ export const PT_C1_U08: Lesson[] = [
         type: "speak",
         text: "Foi a Beatriz quem resolveu tudo.",
         prompt: "Say it in Portuguese: It was Beatriz who took care of everything.",
-        tip: "Put the main stress on \"Beatriz\", the focus, and let \"quem resolveu tudo\" fall in pitch. \"Tudo\" ends in a u sound.",
+        tip: "Put the main stress on \"Beatriz\", the focus, and let \"quem resolveu tudo\" fall in pitch. \"Tudo\" ends in oo: TOO-doo.",
         explanation: "\"Foi a Beatriz quem\" spotlights the person. After \"quem\" the verb stays in the third person, \"resolveu\".",
       },
       {

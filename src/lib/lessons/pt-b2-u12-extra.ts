@@ -152,7 +152,7 @@ export const PT_B2_U12_EXTRA: Lesson[] = [
         type: "speak",
         text: "É fundamental que o Estado invista em educação.",
         prompt: "Say it in Portuguese: It is essential that the State invests in education.",
-        tip: "Invista: in-VIS-ta.",
+        tip: "Invista: 'ĩ-VEES-ta', with a nasal i and no full n.",
         explanation: "\"É fundamental que\" needs the subjunctive: \"investir\" becomes \"invista\", from the stem of \"eu invisto\".",
       },
       {
@@ -319,7 +319,7 @@ export const PT_B2_U12_EXTRA: Lesson[] = [
         type: "speak",
         text: "É verdade que o custo é alto, mas o retorno é maior.",
         prompt: "Say it in Portuguese: It's true that the cost is high, but the return is greater.",
-        tip: "Retorno: he-TOR-nu.",
+        tip: "Retorno: 'he-TÔR-noo', with an h-like r and a closed ô.",
         explanation: "\"É verdade que... mas\" concedes, then rebuts; this is a standard move in the body of an essay.",
       },
       {
@@ -484,7 +484,7 @@ export const PT_B2_U12_EXTRA: Lesson[] = [
         type: "speak",
         text: "Cabe ao governo investir em educação.",
         prompt: "Say it in Portuguese: It is up to the government to invest in education.",
-        tip: "Cabe: KA-bi.",
+        tip: "Cabe: 'KA-bee'; the final e sounds like ee.",
         explanation: "\"Cabe ao governo\" names the agent of the proposal; \"a\" + \"o\" = \"ao\".",
       },
       {

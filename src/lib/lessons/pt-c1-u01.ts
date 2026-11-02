@@ -135,7 +135,7 @@ export const PT_C1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Talvez ele estivesse cansado demais para ligar.",
-            tip: "The t in \"estivesse\" sounds like ch (es-tchi-VÉ-si), with an open é in the stressed syllable.",
+            tip: "The t in \"estivesse\" sounds like ch (es-chee-VÉ-see), with an open é in the stressed syllable.",
             explanation: "\"Talvez\" + imperfect subjunctive \"estivesse\" for a guess about a past state.",
           },
         ],
@@ -1922,7 +1922,7 @@ export const PT_C1_U01: Lesson[] = [
         type: "speak",
         text: "Digam o que disserem, eu vou continuar.",
         prompt: "Say it in Portuguese: Whatever people say, I'm going to keep going.",
-        tip: "Stress disserem on the middle syllable, with an open é, and say the d before i like the j in jeans: dji-SÉ-rẽin.",
+        tip: "Stress disserem on the middle syllable, with an open é, and say the d before i like the j in jeans: jee-SÉ-rẽy.",
         explanation: "\"Digam o que disserem\": the third-person plural is the impersonal they, as in people say.",
       },
       {
@@ -2229,7 +2229,7 @@ export const PT_C1_U01: Lesson[] = [
         type: "speak",
         text: "Talvez eles não tenham entendido.",
         prompt: "Say it in Portuguese: Maybe they didn't understand.",
-        tip: "The d in \"entendido\" before i sounds like the j in jeans: en-ten-DJI-du.",
+        tip: "The d in \"entendido\" before i sounds like the j in jeans: ẽ-tẽ-JEE-doo.",
         explanation: "A past event turned into a guess takes the perfect subjunctive \"tenham entendido\".",
       },
       {

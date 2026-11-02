@@ -14,7 +14,7 @@ export const PT_C1_U18: Lesson[] = [
       {
         heading: "Mood by meaning",
         body: [
-          "One reminder from Unit 1: the indicative asserts, the subjunctive doesn't. \"Moro num apartamento que aceita cachorro\" describes a real flat; \"Procuro um apartamento que aceite cachorro\" describes one you hope exists. After superlatives and \"o único\", careful writing often uses the subjunctive (\"o melhor que eu já tenha provado\"); the indicative is also correct and is the norm in speech.",
+          "One reminder from Unit 1: the indicative asserts, the subjunctive doesn't. \"Moro num apartamento que aceita cachorro\" describes a real apartment; \"Procuro um apartamento que aceite cachorro\" describes one you hope exists. After superlatives and \"o único\", careful writing often uses the subjunctive (\"o melhor que eu já tenha provado\"); the indicative is also correct and is the norm in speech.",
           "The fixed expressions are frozen in the subjunctive: \"que eu saiba\", \"seja como for\", \"custe o que custar\", \"haja o que houver\", \"digam o que disserem\". So are the wishes \"tomara que\" and \"quem me dera\".",
         ],
         examples: [
@@ -22,7 +22,7 @@ export const PT_C1_U18: Lesson[] = [
           { es: "Moro num apartamento que aceita cachorro.", en: "I live in an apartment that allows dogs." },
           { es: "É o melhor café que eu já tenha provado.", en: "It's the best coffee I've ever tasted." },
           { es: "Que eu saiba, o prazo não mudou.", en: "As far as I know, the deadline hasn't changed." },
-          { es: "Custe o que custar, a obra vai ser entregue em março.", en: "Whatever it takes, the building work will be finished in March." },
+          { es: "Custe o que custar, a obra vai ser entregue em março.", en: "Whatever it takes, the construction will be finished in March." },
           { es: "Tomara que o aluguel não suba de novo.", en: "Let's hope the rent doesn't go up again." },
         ],
         checkpoint: [
@@ -55,7 +55,7 @@ export const PT_C1_U18: Lesson[] = [
       {
         heading: "Past frames and wishes",
         body: [
-          "In a past narrative, the fixed expressions move into the imperfect subjunctive (Unit 13): \"fosse como fosse\", \"custasse o que custasse\", \"dissessem o que dissessem\". After a superlative in the past, use the pluperfect subjunctive: \"o pior chefe que eu já tivesse tido\". \"Quem me dera\" takes an infinitive or the imperfect subjunctive: \"quem me dera ter tempo\", \"quem me dera que fosse verdade\".",
+          "In a past narrative, the fixed expressions move into the imperfect subjunctive (Unit 3): \"fosse como fosse\", \"custasse o que custasse\", \"dissessem o que dissessem\". After a superlative in the past, use the pluperfect subjunctive: \"o pior chefe que eu já tivesse tido\". \"Quem me dera\" takes an infinitive or the imperfect subjunctive: \"quem me dera ter tempo\", \"quem me dera que fosse verdade\".",
         ],
         examples: [
           { es: "Fosse como fosse, ela não ia desistir do mestrado.", en: "Be that as it may, she wasn't going to give up her master's." },
@@ -87,7 +87,7 @@ export const PT_C1_U18: Lesson[] = [
       {
         heading: "Probability: written and spoken",
         body: [
-          "Guesses have two systems (Units 2 and 13). Formal writing uses the future and conditional: \"Onde estará ela?\", \"Ela já terá saído\", \"Ele teria uns trinta anos\". Speech uses \"dever\": \"deve estar\", \"deve ter saído\", \"devia ter uns trinta\", plus \"vai ver que\", \"capaz de\" and \"pelo jeito\".",
+          "Guesses have two systems (Units 2 and 3). Formal writing uses the future and conditional: \"Onde estará ela?\", \"Ela já terá saído\", \"Ele teria uns trinta anos\". Speech uses \"dever\": \"deve estar\", \"deve ter saído\", \"devia ter uns trinta\", plus \"vai ver que\", \"capaz de\" and \"pelo jeito\".",
           "Journalism adds the conditional of report for unconfirmed facts: \"o suspeito teria fugido\" (allegedly fled). Don't use it in a WhatsApp message, and don't use \"deve ter\" in a news report.",
         ],
         examples: [
@@ -211,7 +211,7 @@ export const PT_C1_U18: Lesson[] = [
         type: "speak",
         text: "Digam o que disserem, eu não vou mudar de ideia.",
         prompt: "Say it in Portuguese: Whatever they say, I'm not going to change my mind.",
-        tip: "Disserem: di-SSE-rem, with the stress on the middle syllable.",
+        tip: "Disserem: jee-SSE-rẽi, with the stress on the middle syllable.",
         explanation: "The reduplicated concessive uses the present and the future subjunctive of \"dizer\".",
       },
     ],
@@ -232,7 +232,7 @@ export const PT_C1_U18: Lesson[] = [
         examples: [
           { es: "Ao chegar ao escritório, a gerente convocou uma reunião.", en: "On arriving at the office, the manager called a meeting." },
           { es: "Terminada a reunião, os funcionários voltaram às suas mesas.", en: "Once the meeting was over, the staff went back to their desks." },
-          { es: "Feitas as contas, o reajuste ficou em 8%.", en: "Once the sums were done, the increase came to 8%." },
+          { es: "Feitas as contas, o reajuste ficou em 8%.", en: "Once the math was done, the increase came to 8%." },
           { es: "Tendo analisado os dados, a equipe recomendou cautela.", en: "Having analyzed the data, the team recommended caution." },
           { es: "Por ser feriado, o banco estava fechado.", en: "Because it was a holiday, the bank was closed." },
         ],
@@ -267,7 +267,7 @@ export const PT_C1_U18: Lesson[] = [
       {
         heading: "Relative clauses and the comma",
         body: [
-          "A pair of commas turns a restrictive relative into an explanatory one (Unit 14). \"Os inquilinos que atrasaram o aluguel receberam uma notificação\" picks out only the late payers; \"Os inquilinos, que atrasaram o aluguel, receberam uma notificação\" says all of them were late. A relative after a unique person (\"minha mãe\", \"o presidente da empresa\") is explanatory, so it needs commas. \"O qual\" works in explanatory clauses, and \"cujo\" agrees with the thing possessed.",
+          "A pair of commas turns a restrictive relative into an explanatory one (Unit 5). \"Os inquilinos que atrasaram o aluguel receberam uma notificação\" picks out only the late payers; \"Os inquilinos, que atrasaram o aluguel, receberam uma notificação\" says all of them were late. A relative after a unique person (\"minha mãe\", \"o presidente da empresa\") is explanatory, so it needs commas. \"O qual\" works in explanatory clauses, and \"cujo\" agrees with the thing possessed.",
         ],
         examples: [
           { es: "Os inquilinos que atrasaram o aluguel receberam uma notificação.", en: "The tenants who were late with the rent received a notice." },
@@ -345,7 +345,7 @@ export const PT_C1_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Once the sums were done], the trip came to R$ 3,000.",
+        en: "[Once the math was done], the trip came to R$ 3,000.",
         sentence: "___, a viagem saiu por R$ 3.000.",
         answer: "Feitas as contas",
         explanation: "\"Feitas\" agrees with the feminine plural \"as contas\".",
@@ -418,16 +418,16 @@ export const PT_C1_U18: Lesson[] = [
     level: "PT-C1",
     number: 3,
     title: "Mixed Review: Academic, Official, Spoken",
-    summary: "Carry one piece of news, a price rise at a university canteen, across a seminar paper, an official notice and a conversation at the bus stop.",
+    summary: "Carry one piece of news, a price rise at a university cafeteria, across a seminar paper, an official notice and a conversation at the bus stop.",
     duration: "16 min",
     sections: [
       {
         heading: "Academic: hedged and impersonal",
         body: [
-          "The news: a federal university raises the price of a meal at its restaurante universitário (the \"bandejão\"). In a seminar paper, the fact becomes impersonal and hedged (Unit 3): \"verifica-se\", \"os dados sugerem\", \"tende a\", \"no âmbito de\", with citations like \"segundo\" and \"conforme aponta\". Nouns carry the meaning: \"o reajuste\", \"a queda no número de refeições\".",
+          "The news: a federal university raises the price of a meal at its restaurante universitário (the \"bandejão\"). In a seminar paper, the fact becomes impersonal and hedged (Unit 4): \"verifica-se\", \"os dados sugerem\", \"tende a\", \"no âmbito de\", with citations like \"segundo\" and \"conforme aponta\". Nouns carry the meaning: \"o reajuste\", \"a queda no número de refeições\".",
         ],
         examples: [
-          { es: "O presente estudo analisa o impacto do reajuste no restaurante universitário.", en: "This study analyzes the impact of the price rise at the university canteen." },
+          { es: "O presente estudo analisa o impacto do reajuste no restaurante universitário.", en: "This study analyzes the impact of the price rise at the university cafeteria." },
           { es: "Os dados sugerem que os estudantes de baixa renda foram os mais afetados.", en: "The data suggest that low-income students were the most affected." },
           { es: "Verifica-se uma queda de 15% no número de refeições servidas.", en: "A 15% drop in the number of meals served can be observed." },
           { es: "Segundo Lima (2021), a alimentação tende a ser o primeiro gasto cortado.", en: "According to Lima (2021), food tends to be the first expense cut." },
@@ -455,7 +455,7 @@ export const PT_C1_U18: Lesson[] = [
       {
         heading: "Official: formulas and forms of address",
         body: [
-          "In the university's notice, the same fact uses the formulas of Unit 5: \"comunicamos que\", \"a partir de\", \"conforme\", the future \"será\" and \"ficam isentos\". A letter to the dean uses \"Vossa Senhoria\" with third-person verbs, and a student's requerimento opens with \"vem requerer\" and closes with \"Nestes termos, pede deferimento\".",
+          "In the university's notice, the same fact uses the formulas of Unit 7: \"comunicamos que\", \"a partir de\", \"conforme\", the future \"será\" and \"ficam isentos\". A letter to the dean uses \"Vossa Senhoria\" with third-person verbs, and a student's requerimento opens with \"vem requerer\" and closes with \"Nestes termos, pede deferimento\".",
         ],
         examples: [
           { es: "Comunicamos que, a partir de 1º de março, o valor da refeição será de R$ 5,00.", en: "Please note that, from March 1, the price of a meal will be R$ 5.00." },
@@ -469,7 +469,7 @@ export const PT_C1_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "From April 1, the canteen will open at 11 a.m. (official notice)",
+            source: "From April 1, the cafeteria will open at 11 a.m. (official notice)",
             answer: "A partir de 1º de abril, o restaurante universitário abrirá às 11h.",
             altAnswers: ["A partir de 1º de abril, o restaurante universitário passará a abrir às 11h.", "A partir de 1º de abril, o restaurante abrirá às 11h.", "A partir do dia 1º de abril, o restaurante universitário abrirá às 11h.", "A partir de 1º de abril, o restaurante universitário vai abrir às 11h.", "A partir de 1º de abril, o refeitório abrirá às 11h.", "A partir de primeiro de abril, o restaurante universitário abrirá às 11h."],
             explanation: "Official notices use \"a partir de\" and the simple future \"abrirá\".",
@@ -491,7 +491,7 @@ export const PT_C1_U18: Lesson[] = [
           "Out loud, the fact becomes \"Cê viu? O bandejão vai subir pra cinco reais.\" Verbs come back and nouns fade. \"A gente\", \"tá\", hearsay \"diz que\" and spoken probability (\"pelo jeito\") return. Speech still has its own precision: the date and the price survive, even when everything else relaxes.",
         ],
         examples: [
-          { es: "Cê viu? O bandejão vai subir pra cinco reais.", en: "Did you see? The canteen's going up to five reais." },
+          { es: "Cê viu? O bandejão vai subir pra cinco reais.", en: "Did you see? The cafeteria's going up to five reais." },
           { es: "Diz que é a partir de março, mas quem tem bolsa não paga.", en: "Apparently it's from March, but people on grants don't pay." },
           { es: "Tá um absurdo, né? A gente já paga caro no ônibus.", en: "It's outrageous, isn't it? We already pay a lot for the bus." },
           { es: "Pelo jeito, muita gente parou de comer lá.", en: "Looks like a lot of people stopped eating there." },
@@ -593,7 +593,7 @@ export const PT_C1_U18: Lesson[] = [
         source: "I'm certainly not paying that. (casual, with emphasis)",
         answer: "Eu é que não vou pagar isso.",
         altAnswers: ["Eu é que não pago isso.", "Eu é que não vou pagar isso não.", "Eu que não vou pagar isso."],
-        explanation: "\"Eu é que não\" (Unit 8) puts the emphasis on the speaker.",
+        explanation: "\"Eu é que não\" (Unit 12) puts the emphasis on the speaker.",
       },
       {
         type: "dictation",
@@ -603,9 +603,9 @@ export const PT_C1_U18: Lesson[] = [
       {
         type: "speak",
         text: "Cê viu? O bandejão vai subir pra cinco reais.",
-        prompt: "Say it in Portuguese, to a friend at the bus stop: Did you see? The canteen's going up to five reais.",
+        prompt: "Say it in Portuguese, to a friend at the bus stop: Did you see? The cafeteria's going up to five reais.",
         tip: "Bandejão ends in a nasal ão; don't add an n.",
-        explanation: "\"Bandejão\" is the everyday name for the university canteen.",
+        explanation: "\"Bandejão\" is the everyday name for the university cafeteria.",
       },
     ],
   },
@@ -620,10 +620,10 @@ export const PT_C1_U18: Lesson[] = [
       {
         heading: "Connotation and euphemism",
         body: [
-          "A reminder from Unit 7: near-synonyms carry attitude. \"Em conta\" is a positive cheap, \"barato\" is neutral or slightly negative, and \"persistente\" praises what \"teimoso\" criticizes. Euphemisms protect people: \"faleceu\" rather than \"morreu\" in a condolence, \"pessoa em situação de rua\" in public discourse, \"acima do peso\" for overweight.",
+          "A reminder from Unit 11: near-synonyms carry attitude. \"Em conta\" is a positive cheap, \"barato\" is neutral or slightly negative, and \"persistente\" praises what \"teimoso\" criticizes. Euphemisms protect people: \"faleceu\" rather than \"morreu\" in a condolence, \"pessoa em situação de rua\" in public discourse, \"acima do peso\" for overweight.",
         ],
         examples: [
-          { es: "O apartamento é pequeno, mas o aluguel é bem em conta.", en: "The flat is small, but the rent is very reasonable." },
+          { es: "O apartamento é pequeno, mas o aluguel é bem em conta.", en: "The apartment is small, but the rent is very reasonable." },
           { es: "Ela é persistente: mandou o currículo cinco vezes.", en: "She's persistent: she sent her résumé five times." },
           { es: "Ele é teimoso e não aceita conselho de ninguém.", en: "He's stubborn and won't take advice from anyone." },
           { es: "O avô dela faleceu na semana passada.", en: "Her grandfather passed away last week." },
@@ -683,11 +683,11 @@ export const PT_C1_U18: Lesson[] = [
       {
         heading: "Topics, clefts and inversion",
         body: [
-          "Unit 8's tools put the key information in the right place: a topic first (\"Esse relatório, ninguém leu\"), clefts for contrast (\"Foi a prefeitura que errou\", \"O que falta é fiscalização\") and inversion for arrivals and existence (\"Chegou a conta\", \"Existem alternativas\"). Remember agreement: \"fomos nós que decidimos\"; with \"quem\" the verb may also stay in the third person: \"fomos nós quem decidiu\".",
+          "Unit 12's tools put the key information in the right place: a topic first (\"Esse relatório, ninguém leu\"), clefts for contrast (\"Foi a prefeitura que errou\", \"O que falta é fiscalização\") and inversion for arrivals and existence (\"Chegou a conta\", \"Existem alternativas\"). Remember agreement: \"fomos nós que decidimos\"; with \"quem\" the verb may also stay in the third person: \"fomos nós quem decidiu\".",
         ],
         examples: [
           { es: "Esse relatório, ninguém leu até o fim.", en: "That report, nobody read to the end." },
-          { es: "Foi a prefeitura que errou, não os moradores.", en: "It was the city council that got it wrong, not the residents." },
+          { es: "Foi a prefeitura que errou, não os moradores.", en: "It was the city government that got it wrong, not the residents." },
           { es: "O que falta é fiscalização.", en: "What's missing is enforcement." },
           { es: "Chegou a conta de luz, e veio altíssima.", en: "The electricity bill has arrived, and it's sky-high." },
           { es: "Fomos nós que pedimos a reunião.", en: "It was us who asked for the meeting." },
@@ -762,7 +762,7 @@ export const PT_C1_U18: Lesson[] = [
         question: "A friend's new apartment is tiny. Which comment is kind but honest?",
         options: ["É pequenininho, mas é bem aconchegante.", "É um cubículo horroroso.", "É enorme!", "É minúsculo e deprimente."],
         correctIndex: 0,
-        explanation: "The diminutive and \"aconchegante\" (cosy) soften the fact without denying it.",
+        explanation: "The diminutive and \"aconchegante\" (cozy) soften the fact without denying it.",
       },
       {
         type: "translate",
@@ -885,7 +885,7 @@ export const PT_C1_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "At the counter of a registry office, you speak to the clerk. Which is right?",
+            question: "At the counter of a notary's office, you speak to the clerk. Which is right?",
             options: ["O senhor pode me informar o prazo?", "Vossa Senhoria pode me informar o prazo?", "Vós podeis informar o prazo?", "Vossa Senhoria podeis informar o prazo?"],
             correctIndex: 0,
             explanation: "Out loud, polite address is \"o senhor\". \"Vossa Senhoria\" is for documents, and \"vós\" / \"podeis\" is archaic.",
@@ -910,7 +910,7 @@ export const PT_C1_U18: Lesson[] = [
         examples: [
           { es: "Foi ela quem negociou o acordo.", en: "It was she who negotiated the deal." },
           { es: "Fomos nós que pagamos a conta.", en: "We were the ones who paid the bill." },
-          { es: "Ele está mais magro desde a cirurgia.", en: "He's thinner since the operation." },
+          { es: "Ele está mais magro desde a cirurgia.", en: "He's been thinner since the surgery." },
           { es: "A modelo é alta e esbelta.", en: "The model is tall and slender." },
           { es: "Estou lendo um livro ótimo sobre a história do Rio.", en: "I'm reading a great book about the history of Rio." },
         ],
@@ -935,7 +935,7 @@ export const PT_C1_U18: Lesson[] = [
             type: "speak",
             text: "Estou lendo um livro ótimo sobre a história do Rio.",
             prompt: "Say it in Portuguese, the Brazilian way: I'm reading a great book about the history of Rio.",
-            tip: "Lendo: a nasal e, then a plain d (no dj, since no i follows), and the final o reduced to u: LẼN-du.",
+            tip: "Lendo: a nasal e, then a plain d (no j sound, since no i follows), and the final o reduced to oo: LẼN-doo.",
             explanation: "Brazil uses \"estar\" + gerund; \"estou a ler\" would mark you as using European Portuguese.",
           },
         ],
@@ -980,7 +980,7 @@ export const PT_C1_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Could you sign here, madam? (to an older customer)",
+        source: "Could you sign here, ma'am? (to an older customer)",
         answer: "A senhora pode assinar aqui?",
         altAnswers: ["A senhora poderia assinar aqui?", "A senhora pode assinar aqui, por favor?", "A senhora poderia assinar aqui, por favor?", "Por favor, a senhora pode assinar aqui?", "Por favor, a senhora poderia assinar aqui?"],
         explanation: "Spoken polite address is \"a senhora\", never \"Vossa Senhoria\".",
@@ -1052,7 +1052,7 @@ export const PT_C1_U18: Lesson[] = [
           { es: "Que eu saiba, o prazo é sexta-feira.", en: "As far as I know, the deadline is Friday." },
           { es: "Digam o que disserem, a decisão está tomada.", en: "Whatever they say, the decision has been made." },
           { es: "Terminada a reunião, todos foram almoçar.", en: "Once the meeting was over, everyone went to lunch." },
-          { es: "Ao chegar, procure a recepção.", en: "When you arrive, go to reception." },
+          { es: "Ao chegar, procure a recepção.", en: "When you arrive, go to the front desk." },
           { es: "Vou enviar o arquivo ainda hoje.", en: "I'll send the file later today." },
         ],
         checkpoint: [
@@ -1181,14 +1181,14 @@ export const PT_C1_U18: Lesson[] = [
         source: "I was fired in March. (a learner wrote \"Demiti-me em março\", which means I resigned)",
         answer: "Fui demitido em março.",
         altAnswers: ["Fui demitida em março.", "Eu fui demitido em março.", "Eu fui demitida em março.", "Fui mandado embora em março.", "Fui mandada embora em março.", "Fui dispensado em março.", "Fui dispensada em março.", "Em março, fui demitido.", "Em março, fui demitida."],
-        explanation: "Being fired is passive, \"ser demitido\". \"Demitir-se\" means to resign (Unit 15).",
+        explanation: "Being fired is passive, \"ser demitido\". \"Demitir-se\" means to resign (Unit 8).",
       },
       {
         type: "multiple-choice",
         question: "A learner's essay begins \"Desde os primórdios da humanidade, a gente tem que lidar com a desigualdade.\" What are the two problems?",
         options: ["A cliché opening and spoken \"a gente tem que\" in an essay.", "A spelling error in primórdios and a missing comma.", "The wrong tense and the wrong gender.", "Nothing: it's a strong opening."],
         correctIndex: 0,
-        explanation: "ENEM examiners penalize \"desde os primórdios\" as a cliché (Unit 4), and \"a gente tem que\" is spoken register.",
+        explanation: "ENEM examiners penalize \"desde os primórdios\" as a cliché (Unit 6), and \"a gente tem que\" is spoken register.",
       },
       {
         type: "translate",
@@ -1249,7 +1249,7 @@ export const PT_C1_U18: Lesson[] = [
         type: "speak",
         text: "Ele ganha muito dinheiro com o aplicativo.",
         prompt: "Say it in Portuguese: He makes a lot of money from the app.",
-        tip: "Aplicativo: a-pli-ca-TI-vo, and the ti sounds like 'tchi'.",
+        tip: "Aplicativo: a-pli-ca-CHEE-voo, and the ti sounds like chee.",
         explanation: "Money is \"ganhado\", never \"*feito\": \"ganhar dinheiro\".",
       },
     ],
@@ -1348,8 +1348,8 @@ export const PT_C1_U18: Lesson[] = [
       {
         heading: "It was ... who, that is to say, laid off",
         body: [
-          "'It was Ana who called' is a cleft: \"Foi a Ana que ligou\". Match ser to the tense and person, so 'it was us who' is \"fomos nós que\". 'That is to say' and 'in other words' are \"ou seja\", \"isto é\" and \"quer dizer\", set off by commas (Unit 14).",
-          "'Laid off' has nothing to do with lying down: it's \"demitido\", \"dispensado\" (press) or, colloquially, \"mandado embora\". 'Made redundant' is the same. 'To quit' is \"pedir demissão\", and 'fired for misconduct' adds \"por justa causa\".",
+          "'It was Ana who called' is a cleft: \"Foi a Ana que ligou\". Match ser to the tense and person, so 'it was us who' is \"fomos nós que\". 'That is to say' and 'in other words' are \"ou seja\", \"isto é\" and \"quer dizer\", set off by commas (Unit 5).",
+          "'Laid off' has nothing to do with lying down: it's \"demitido\", \"dispensado\" (press) or, colloquially, \"mandado embora\". British 'made redundant' is the same. 'To quit' is \"pedir demissão\", and 'fired for misconduct' adds \"por justa causa\".",
         ],
         examples: [
           { es: "Foi a Ana que ligou, não a Beatriz.", en: "It was Ana who called, not Beatriz." },
@@ -1466,7 +1466,7 @@ export const PT_C1_U18: Lesson[] = [
         type: "speak",
         text: "Ela deve ter perdido o ônibus.",
         prompt: "Say it in Portuguese: She must have missed the bus.",
-        tip: "Deve ter: the t of ter stays a clear t (no 'tch' before e).",
+        tip: "Deve ter: the t of ter stays a clear t (no ch sound before e).",
         explanation: "'Must have' + participle as a guess: \"deve ter perdido\".",
       },
     ],
@@ -1483,14 +1483,14 @@ export const PT_C1_U18: Lesson[] = [
         heading: "Change the register",
         body: [
           "The base text, from a neighbor in the building's WhatsApp group: \"Gente, o cano estourou no quinto andar e molhou três apartamentos. O síndico chamou o encanador, mas diz que ele só vem amanhã.\" Now the administradora's comunicado: \"Comunicamos que houve o rompimento de uma tubulação no 5º andar, o que atingiu três unidades. O encanador foi acionado e comparecerá amanhã.\"",
-          "Watch the ripple effects. Verbs become nouns (\"estourou\" → \"o rompimento\"), \"apartamentos\" become \"unidades\", the agent disappears into the passive (\"foi acionado\"), and the hearsay \"diz que\" becomes a stated fact.",
+          "Watch the ripple effects. Verbs become nouns (\"estourou\" becomes \"o rompimento\"), \"apartamentos\" become \"unidades\", the agent disappears into the passive (\"foi acionado\"), and the hearsay \"diz que\" becomes a stated fact.",
         ],
         examples: [
           { es: "Gente, o cano estourou no quinto andar.", en: "Folks, the pipe burst on the fifth floor." },
           { es: "Comunicamos que houve o rompimento de uma tubulação no 5º andar.", en: "Please note that a pipe has burst on the 5th floor." },
           { es: "Molhou três apartamentos.", en: "It flooded three apartments." },
           { es: "Três unidades foram atingidas.", en: "Three units were affected." },
-          { es: "O encanador foi acionado e comparecerá amanhã.", en: "The plumber has been called and will attend tomorrow." },
+          { es: "O encanador foi acionado e comparecerá amanhã.", en: "The plumber has been called and will come tomorrow." },
         ],
         checkpoint: [
           {
@@ -1514,14 +1514,14 @@ export const PT_C1_U18: Lesson[] = [
       {
         heading: "Shift the emphasis",
         body: [
-          "One fact, five spotlights (Unit 8). \"Foi no quinto andar que o cano estourou\" focuses the place, and \"Foi o porteiro que percebeu o vazamento\" the agent. \"O síndico, ninguém acha ele\" makes him the topic, \"Estourou um cano no quinto andar\" inverts the order for news, and \"O que nos preocupa é a infiltração\" saves the worry for the end.",
+          "One fact, five spotlights (Unit 12). \"Foi no quinto andar que o cano estourou\" focuses the place, and \"Foi o porteiro que percebeu o vazamento\" the agent. \"O síndico, ninguém acha ele\" makes him the topic, \"Estourou um cano no quinto andar\" inverts the order for news, and \"O que nos preocupa é a infiltração\" saves the worry for the end.",
         ],
         examples: [
           { es: "Foi no quinto andar que o cano estourou.", en: "It was on the fifth floor that the pipe burst." },
           { es: "Foi o porteiro que percebeu o vazamento.", en: "It was the doorman who noticed the leak." },
           { es: "O síndico, ninguém acha ele.", en: "The building manager, nobody can find him." },
           { es: "Estourou um cano no quinto andar.", en: "A pipe has burst on the fifth floor." },
-          { es: "O que nos preocupa é a infiltração.", en: "What worries us is the damp." },
+          { es: "O que nos preocupa é a infiltração.", en: "What worries us is the water damage." },
         ],
         checkpoint: [
           {
@@ -1544,9 +1544,9 @@ export const PT_C1_U18: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: What worries us is the damp.",
+            prompt: "Put the words in order to say: What worries us is the water damage.",
             words: ["O", "que", "nos", "preocupa", "é", "a", "infiltração."],
-            translation: "What worries us is the damp.",
+            translation: "What worries us is the water damage.",
             explanation: "The pseudo-cleft \"o que... é\" puts the focus at the end.",
           },
         ],
@@ -1558,7 +1558,7 @@ export const PT_C1_U18: Lesson[] = [
           "Then change variety. A Portuguese neighbor writes \"O canalizador está a reparar o cano e a casa de banho ficou sem água\". For Brazilian readers that's \"O encanador está consertando o cano e o banheiro ficou sem água\": gerund instead of \"estar a\", and Brazilian words throughout.",
         ],
         examples: [
-          { es: "Ao chegar, o encanador fechou o registro.", en: "On arrival, the plumber turned off the water at the mains." },
+          { es: "Ao chegar, o encanador fechou o registro.", en: "On arrival, the plumber shut off the water at the main valve." },
           { es: "Terminada a vistoria, o síndico liberou os apartamentos.", en: "Once the inspection was over, the building manager reopened the apartments." },
           { es: "Tendo identificado o vazamento, a equipe trocou a tubulação.", en: "Having found the leak, the team replaced the pipes." },
           { es: "O encanador está consertando o cano.", en: "The plumber is fixing the pipe." },
@@ -1731,7 +1731,7 @@ export const PT_C1_U18: Lesson[] = [
           "\"Prezada Dra. Helena, Concluído o primeiro mês de estágio, envio em anexo o relatório parcial. Ao que tudo indica, o projeto do museu deverá ser entregue em março. Caso a senhora considere necessário, posso enviar também as plantas preliminares. Atenciosamente, Camila Ribeiro.\" Notice \"a senhora\" here: an email to a professor uses it, while \"Vossa Senhoria\" is kept for official requests.",
         ],
         examples: [
-          { es: "Prezada Dra. Helena,", en: "Dear Dr Helena," },
+          { es: "Prezada Dra. Helena,", en: "Dear Dr. Helena," },
           { es: "Concluído o primeiro mês de estágio, envio em anexo o relatório parcial.", en: "Now that the first month of the internship is over, I'm attaching the interim report." },
           { es: "Ao que tudo indica, o projeto deverá ser entregue em março.", en: "By all indications, the project will be handed in in March." },
           { es: "Caso a senhora considere necessário, posso enviar as plantas preliminares.", en: "Should you consider it necessary, I can send the preliminary plans." },
@@ -1799,7 +1799,7 @@ export const PT_C1_U18: Lesson[] = [
             type: "speak",
             text: "Oi, mãe! Tô morrendo de saudade!",
             prompt: "Say it in Portuguese: Hi, Mom! I miss you so much!",
-            tip: "Saudade: sau-DA-dji, with a soft 'dji' at the end.",
+            tip: "Saudade: sau-DA-jee, with a soft jee at the end.",
             explanation: "\"Morrendo de saudade\" is the warm, spoken way to say you miss someone.",
           },
         ],
@@ -1891,7 +1891,7 @@ export const PT_C1_U18: Lesson[] = [
         type: "speak",
         text: "Desculpa, não entendi. Pode repetir mais devagar?",
         prompt: "Say it in Portuguese: Sorry, I didn't catch that. Could you say it again more slowly?",
-        tip: "Devagar: dji-va-GAR, stress on the last syllable.",
+        tip: "Devagar: jee-va-GAR, stress on the last syllable.",
         explanation: "A repair request keeps the conversation going without switching variety.",
       },
     ],
@@ -2014,7 +2014,7 @@ export const PT_C1_U18: Lesson[] = [
             type: "speak",
             text: "Dessa forma, o desperdício doméstico não é apenas um problema econômico.",
             prompt: "Say it in Portuguese: In this way, household waste isn't just an economic problem.",
-            tip: "Desperdício: des-per-DJI-sio, stress on the third syllable.",
+            tip: "Desperdício: des-per-JEE-syoo, stress on the third syllable.",
             explanation: "A pause after \"Dessa forma\" mirrors its comma.",
           },
         ],
@@ -2291,7 +2291,7 @@ export const PT_C1_U18: Lesson[] = [
         type: "speak",
         text: "Nestes termos, pede deferimento.",
         prompt: "Say it in Portuguese: On these grounds, he requests approval.",
-        tip: "Deferimento: de-fe-ri-MEN-to, with a nasal en.",
+        tip: "Deferimento: de-fe-ri-MẼN-too, with a nasal en.",
         explanation: "Read aloud with the even, formal tone of an official text.",
       },
     ],
@@ -2347,7 +2347,7 @@ export const PT_C1_U18: Lesson[] = [
           { es: "Os alunos, que estudaram muito, passaram na prova.", en: "The students, who had all studied hard, passed the exam." },
           { es: "Neste e-mail, explico os motivos do atraso.", en: "In this email, I explain the reasons for the delay." },
           { es: "Solicito que V. Sa. reconsidere a decisão.", en: "I request that you reconsider the decision. (letter)" },
-          { es: "A senhora pode me dar uma informação?", en: "Could you give me some information, madam?" },
+          { es: "A senhora pode me dar uma informação?", en: "Could you give me some information, ma'am?" },
         ],
         checkpoint: [
           {
@@ -2462,7 +2462,7 @@ export const PT_C1_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Could you give me some information, madam? (said aloud)",
+        source: "Could you give me some information, ma'am? (said aloud)",
         answer: "A senhora pode me dar uma informação?",
         altAnswers: ["A senhora poderia me dar uma informação?", "A senhora pode me dar uma informação, por favor?", "A senhora poderia me dar uma informação, por favor?", "Por favor, a senhora pode me dar uma informação?"],
         explanation: "Out loud, polite address is \"a senhora\", not \"Vossa Senhoria\".",

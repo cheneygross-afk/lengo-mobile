@@ -154,7 +154,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Pode-se afirmar que houve avanços.",
         prompt: "Say it in Portuguese: It can be said that there has been progress.",
-        tip: "Houve: Ô-vi, with a closed ô and the final e like i.",
+        tip: "Houve: Ô-vee, with a closed ô and the final e like ee.",
         explanation: "\"Pode-se afirmar que\" frames the claim, and \"houve avanços\" keeps \"haver\" singular before a plural noun.",
       },
       {
@@ -319,7 +319,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Resido em São Paulo há três anos.",
         prompt: "Say it in formal Portuguese: I have resided in São Paulo for three years.",
-        tip: "Resido: he-ZI-du.",
+        tip: "Resido: he-ZEE-doo.",
         explanation: "\"Residir\" + \"há\" + time + present tense: I've lived there for three years and still do.",
       },
       {

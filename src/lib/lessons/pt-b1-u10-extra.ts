@@ -73,7 +73,7 @@ export const PT_B1_U10_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The movie I told you about won a prize.",
         answer: "O filme de que te falei ganhou um prêmio.",
-        altAnswers: ["O filme de que eu te falei ganhou um prêmio.", "O filme que eu te falei ganhou um prêmio."],
+        altAnswers: ["O filme de que eu te falei ganhou um prêmio."],
         explanation: "\"Falar de\" → \"de que te falei\" in writing. In speech you'll hear \"o filme que eu te falei\".",
       },
       {
@@ -156,7 +156,7 @@ export const PT_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the verb to its relative form.",
+        instructions: "Match the Portuguese to the English.",
         pairs: [{ left: "o amigo com quem moro", right: "the friend I live with" }, { left: "o assunto de que falamos", right: "the subject we talked about" }, { left: "o problema em que penso", right: "the problem I think about" }, { left: "a empresa para a qual trabalho", right: "the company I work for" }, { left: "a professora de quem gosto", right: "the teacher I like" }],
         explanation: "Each verb's preposition (\"morar com\", \"falar de\", \"pensar em\", \"trabalhar para\", \"gostar de\") moves in front of the relative.",
       },
@@ -309,7 +309,7 @@ export const PT_B1_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "O professor cujo livro usamos vem hoje.",
         prompt: "Say it in Portuguese: The teacher whose book we use is coming today.",
-        tip: "Cujo: KU-zhu.",
+        tip: "Cujo: KOO-zhoo.",
         explanation: "\"Cujo livro\": masculine to match \"livro\", whatever the teacher's gender.",
       },
       {
@@ -474,7 +474,7 @@ export const PT_B1_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "Essa é a casa onde eu cresci.",
         prompt: "Say it in Portuguese: This is the house where I grew up.",
-        tip: "Cresci: kre-SI.",
+        tip: "Cresci: kre-SEE.",
         explanation: "A house is a place, so \"onde\". \"Crescer\" is to grow up.",
       },
       {

@@ -103,6 +103,8 @@ export const IRREGULAR: Record<string, IrrSpec> = {
     pres: "- - - reavemos reaveis -", pret: "reouve reouveste reouve reouvemos reouvestes reouveram",
     subj: "- - - - - -",
   },
+  // Defective like "reaver": only the forms with the stress on the ending (precavemos, precavi, precaveu, precavido).
+  precaver: { pres: "- - - precavemos precaveis -", subj: "- - - - - -" },
   // o -> u where the stem is stressed (pulo, pule, pulem; que eu pula).
   polir: { pres: "pulo pules pule polimos polis pulem" },
   // i -> e in tu, ele, eles (freges, frege, fregem); g -> j before a and o (frijo, frija).
@@ -244,7 +246,7 @@ export const VERB_NOTES: Record<string, string[]> = {
     'The circumflex tells the pretérito "pôde" (he could, managed to) from the present "pode" (he can). "Poder" has no imperative in use.',
   ],
   caber: ['"Caber" (to fit) has no imperative in use.'],
-  trazer: ['The x in "trouxe" sounds like ss ("trousse"). The participle is "trazido": "tinha trazido". "Trago" as a participle ("tinha trago") is heard in speech but is considered a mistake.'],
+  trazer: ['The x in "trouxe" sounds like ss: \'TROH-see\'. The participle is "trazido": "tinha trazido". "Trago" as a participle ("tinha trago") is heard in speech but is considered a mistake.'],
   chegar: ['The participle is "chegado": "tinha chegado". "Tinha chego" is common in Brazilian speech but is considered a mistake in writing.'],
   dar: ['Note the subjunctive: "que eu dê", "que eles deem" (no circumflex since the 2009 spelling reform).'],
   ver: ['Don\'t mix "ver" (to see) with "vir" (to come): "eu vi" (I saw) / "eu vim" (I came); "quando eu vir" (when I see, future subjunctive of "ver") / "quando eu vier" (when I come).'],
@@ -268,6 +270,7 @@ export const VERB_NOTES: Record<string, string[]> = {
   requerer: ['Not conjugated like "querer": the present has "requeiro" and the subjunctive "requeira", but the pretérito is regular ("requeri", "requereu") and so is everything built on it ("requeresse", "requerer").'],
   prover: ['Like "ver" in the present ("provejo", "provê", "proveem", "que eu proveja"), but regular elsewhere: "provi", "proveu", "provido". Don\'t confuse it with "provir" (to come from: "provém", "proveio").'],
   reaver: ['A defective verb (to get back): it only has the forms in which "haver" has -av- ("reavemos", "reavia", "reaverei") and the ones built on the pretérito ("reouve", "reouvesse", "reouver"). Where a form is missing, use "recuperar": "eu recupero".'],
+  precaver: ['A defective verb, mostly used as "precaver-se" (to take precautions): only the forms with the stress on the ending exist ("precavemos", "precavi", "precaveu", "precavido"). It is not a compound of "ver" or "vir": not "precavejo", not "precavenho". Where a form is missing, use "prevenir-se" or "tomar precauções": "eu me previno".'],
   polir: ['The o of the stem becomes u where it is stressed: "pulo", "pule", "pulem", "que eu pula", but "polimos", "poli", "polido".'],
   frigir: ['The i of the stem becomes e in "freges", "frege", "fregem", and the g becomes j before a and o: "frijo", "que eu frija". In everyday Brazil "fritar" is the usual verb; "frigir" survives in "no frigir dos ovos" (when all is said and done).'],
   gostar: ['Always with "de": "gosto de café", "gosto de dançar" (and "de" + "o" = "do": "gosto do Rio").'],

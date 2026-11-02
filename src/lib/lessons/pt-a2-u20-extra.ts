@@ -20,7 +20,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
           "Soften requests with \"eu queria\", \"eu gostaria de\" or \"pode\" + infinitive.",
         ],
         examples: [
-          { es: "Eu gostaria de abrir uma conta corrente.", en: "I'd like to open a current account." },
+          { es: "Eu gostaria de abrir uma conta corrente.", en: "I'd like to open a checking account." },
           { es: "Pode fazer um Pix para essa chave?", en: "Can you send a Pix to this key?" },
           { es: "Pega a senha e aguarda ali.", en: "Take a ticket and wait over there." },
           { es: "O meu número é onze, nove, meia, meia...", en: "My number is eleven, nine, six, six..." },
@@ -34,7 +34,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
             source: "I'd like to open an account.",
             answer: "Eu gostaria de abrir uma conta.",
             altAnswers: ["Gostaria de abrir uma conta.", "Eu queria abrir uma conta.", "Queria abrir uma conta."],
-            explanation: "\"Gostaria de\" + infinitive.",
+            explanation: "\"Gostaria\" needs \"de\" before the infinitive: \"gostaria de abrir\"; \"queria\" is just as polite.",
           },
           {
             type: "fill-blank",
@@ -43,7 +43,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
             sentence: "Pega ___ e aguarda ali.",
             answer: "a senha",
             altAnswers: ["uma senha"],
-            explanation: "A line ticket is \"a senha\".",
+            explanation: "The numbered ticket you take to wait in line is \"a senha\", the same word as password.",
           },
           {
             type: "listen-choose",
@@ -73,7 +73,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         source: "I need to withdraw money.",
         answer: "Eu preciso sacar dinheiro.",
         altAnswers: ["Preciso sacar dinheiro.", "Eu tenho que sacar dinheiro.", "Tenho que sacar dinheiro."],
-        explanation: "\"Sacar\" is to withdraw cash.",
+        explanation: "\"Sacar\" is to withdraw cash; \"preciso\" + infinitive needs no \"de\".",
       },
       {
         type: "translate",
@@ -91,7 +91,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         source: "Can I pay in four installments?",
         answer: "Dá para parcelar em quatro vezes?",
         altAnswers: ["Dá pra parcelar em quatro vezes?", "Posso parcelar em quatro vezes?", "Eu posso parcelar em quatro vezes?", "Pode parcelar em quatro vezes?"],
-        explanation: "\"Parcelar em quatro vezes\".",
+        explanation: "\"Parcelar em quatro vezes\": split the payment into four installments; \"dá para\" asks if it's possible.",
       },
       {
         type: "translate",
@@ -109,7 +109,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         source: "I'd like to buy a SIM card.",
         answer: "Eu queria comprar um chip.",
         altAnswers: ["Queria comprar um chip.", "Eu gostaria de comprar um chip.", "Gostaria de comprar um chip."],
-        explanation: "A SIM card is \"um chip\".",
+        explanation: "A SIM card is \"um chip\"; \"eu queria\" softens the request.",
       },
       {
         type: "translate",
@@ -126,7 +126,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         en: "Can I pay [by card]?",
         sentence: "Pode passar ___?",
         answer: "no cartão",
-        explanation: "\"Passar no cartão\": em + o.",
+        explanation: "\"Passar no cartão\" is pay by card; \"no\" is em + o.",
       },
       {
         type: "fill-blank",
@@ -134,7 +134,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         en: "I bought a twenty-real [recharge] for my phone.",
         sentence: "Eu fiz uma ___ de vinte reais.",
         answer: "recarga",
-        explanation: "\"Fazer uma recarga\" for prepaid credit.",
+        explanation: "\"Fazer uma recarga\" is adding prepaid phone credit.",
       },
       {
         type: "word-order",
@@ -160,13 +160,13 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Eu queria abrir uma conta.",
-        explanation: "\"Eu queria\": the polite imperfect.",
+        explanation: "\"Eu queria\" is the polite imperfect: I'd like, not I wanted.",
       },
       {
         type: "speak",
         text: "Posso pagar no Pix?",
         prompt: "Say it in Portuguese: Can I pay by Pix?",
-        explanation: "\"Pagar no Pix\" is the everyday phrase.",
+        explanation: "\"Pagar no Pix\" (em + o) is the everyday way to say pay by Pix.",
       },
     ],
   },
@@ -175,7 +175,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
     level: "PT-A2",
     number: 2,
     title: "Extra Practice: Survival Situations, Part 2 of 3",
-    summary: "Practice deliveries, transport and shops: o porteiro recebeu, passa na Paulista?, pelo aplicativo, ficou apertado, quero trocar.",
+    summary: "Practice deliveries, transport and stores: o porteiro recebeu, passa na Paulista?, pelo aplicativo, ficou apertado, quero trocar.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -184,7 +184,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         heading: "Packages, buses and fitting rooms",
         body: [
           "Deliveries: \"os Correios\", \"a encomenda\", \"o CEP\", \"o código de rastreamento\", \"o porteiro recebeu\", \"pode deixar na portaria\". Transport: \"passar o cartão na catraca\", \"dar sinal\", \"esse ônibus passa na...?\", \"passar pelo centro\", \"pedir um carro pelo aplicativo\", \"a placa\".",
-          "Shops: \"posso experimentar?\", \"o tamanho\" for clothes and \"o número\" for shoes, \"ficou apertado / largo\" with agreement, \"trocar por\", \"a nota fiscal\".",
+          "Stores: \"posso experimentar?\", \"o tamanho\" for clothes and \"o número\" for shoes, \"ficou apertado / largo\" with agreement, \"trocar por\", \"a nota fiscal\".",
         ],
         examples: [
           { es: "A encomenda ficou na portaria.", en: "The package was left at the front desk." },
@@ -214,7 +214,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "Confere a placa antes de entrar.",
-            tip: "Confere: the stress is on the second syllable, con-FÉ-re.",
+            tip: "\"Confere\": the stress is on the second syllable, 'kõ-FÉ-ree'.",
             explanation: "\"Conferir\" is to check; \"a placa\" is the license plate.",
           },
         ],
@@ -228,7 +228,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         source: "The doorman received my package.",
         answer: "O porteiro recebeu a minha encomenda.",
         altAnswers: ["O porteiro recebeu minha encomenda.", "O porteiro recebeu o meu pacote.", "O porteiro recebeu meu pacote."],
-        explanation: "\"Recebeu\": perfeito of receber.",
+        explanation: "\"Recebeu\" is the perfeito of receber: the package arrived once, and it's done.",
       },
       {
         type: "translate",
@@ -255,7 +255,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         source: "I'm going to order a car through the app.",
         answer: "Vou pedir um carro pelo aplicativo.",
         altAnswers: ["Eu vou pedir um carro pelo aplicativo.", "Vou chamar um carro pelo aplicativo.", "Eu vou chamar um carro pelo aplicativo.", "Vou pedir um carro no aplicativo."],
-        explanation: "\"Pelo aplicativo\": por for the means.",
+        explanation: "\"Pelo aplicativo\" (por + o): por marks the means, through the app.",
       },
       {
         type: "translate",
@@ -264,7 +264,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         source: "The ride came to fifteen reais.",
         answer: "A corrida deu quinze reais.",
         altAnswers: ["A corrida custou quinze reais.", "A corrida ficou em quinze reais.", "A corrida saiu por quinze reais."],
-        explanation: "\"Dar\" + price: it came to.",
+        explanation: "\"Dar\" + price means it came to: \"a corrida deu quinze reais\".",
       },
       {
         type: "translate",
@@ -290,7 +290,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         en: "The bus goes [through the] city center.",
         sentence: "O ônibus passa ___ centro.",
         answer: "pelo",
-        explanation: "\"Por\" + \"o\" = \"pelo\".",
+        explanation: "\"Por\" + \"o\" contracts to \"pelo\": \"passa pelo centro\".",
       },
       {
         type: "fill-blank",
@@ -298,14 +298,14 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         en: "I'd like to exchange it [for] another color.",
         sentence: "Eu queria trocar ___ outra cor.",
         answer: "por",
-        explanation: "\"Trocar por\": por for exchange.",
+        explanation: "\"Trocar por\": por marks what you get in exchange.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The package is out for delivery.",
         words: ["A", "encomenda", "saiu", "para", "entrega."],
         translation: "The package is out for delivery.",
-        explanation: "\"Saiu para entrega\" is the tracking status.",
+        explanation: "\"Saiu para entrega\" is the tracking status for out for delivery.",
       },
       {
         type: "multiple-choice",
@@ -325,13 +325,13 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Pode deixar na portaria.",
-        explanation: "\"Na portaria\": em + a.",
+        explanation: "\"Na portaria\" is em + a: at the front desk of the building.",
       },
       {
         type: "speak",
         text: "Esse ônibus passa na Avenida Paulista?",
         prompt: "Say it in Portuguese: Does this bus go along Avenida Paulista?",
-        explanation: "\"Passar na\" + place.",
+        explanation: "\"Passar na\" + place asks whether the bus goes by or along it.",
       },
     ],
   },
@@ -366,7 +366,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
             source: "I need to move Thursday's appointment.",
             answer: "Preciso remarcar a consulta de quinta.",
             altAnswers: ["Eu preciso remarcar a consulta de quinta.", "Preciso remarcar o horário de quinta.", "Eu preciso remarcar o horário de quinta.", "Preciso remarcar a consulta de quinta-feira."],
-            explanation: "\"Remarcar\" is to reschedule.",
+            explanation: "\"Remarcar\" is to reschedule; \"desmarcar\" would cancel it.",
           },
           {
             type: "fill-blank",
@@ -375,7 +375,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
             sentence: "A geladeira ___ ontem.",
             answer: "parou de funcionar",
             altAnswers: ["quebrou"],
-            explanation: "\"Parar de\" + infinitive in the perfeito.",
+            explanation: "\"Parar de\" + infinitive = stop doing; \"parou de funcionar\" is one event, so perfeito.",
           },
           {
             type: "listen-choose",
@@ -396,7 +396,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         source: "Is there any time free on Friday?",
         answer: "Tem algum horário na sexta?",
         altAnswers: ["Tem algum horário na sexta-feira?", "Tem horário na sexta?", "Você tem algum horário na sexta?", "Tem algum horário livre na sexta?"],
-        explanation: "\"Algum horário\" agrees with \"horário\".",
+        explanation: "\"Algum horário\": algum is masculine to agree with \"horário\"; \"na sexta\" = on Friday.",
       },
       {
         type: "translate",
@@ -405,7 +405,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         source: "There isn't any time on Friday.",
         answer: "Não tem nenhum horário na sexta.",
         altAnswers: ["Na sexta não tem nenhum horário.", "Não tem horário na sexta.", "Não tem nenhum horário na sexta-feira."],
-        explanation: "Double negation: \"não tem nenhum\".",
+        explanation: "Portuguese keeps both negatives: \"não tem nenhum horário\".",
       },
       {
         type: "translate",
@@ -423,7 +423,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         source: "The internet went down last night.",
         answer: "A internet caiu ontem à noite.",
         altAnswers: ["Ontem à noite a internet caiu.", "A internet caiu ontem de noite."],
-        explanation: "The internet \"caiu\" (fell).",
+        explanation: "The internet \"caiu\" (literally fell): went down. One event, so perfeito.",
       },
       {
         type: "translate",
@@ -441,7 +441,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
         source: "Someone stole my wallet on the metro.",
         answer: "Roubaram a minha carteira no metrô.",
         altAnswers: ["Roubaram minha carteira no metrô.", "Alguém roubou a minha carteira no metrô.", "Alguém roubou minha carteira no metrô.", "Me roubaram a carteira no metrô."],
-        explanation: "Impersonal \"roubaram\".",
+        explanation: "Impersonal \"roubaram\": someone stole, with no subject.",
       },
       {
         type: "translate",
@@ -492,7 +492,7 @@ export const PT_A2_U20_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "O chuveiro não esquenta.",
-        explanation: "\"Esquentar\": to heat up.",
+        explanation: "\"Esquentar\" is to heat up: \"o chuveiro não esquenta\" = the shower won't get hot.",
       },
       {
         type: "speak",

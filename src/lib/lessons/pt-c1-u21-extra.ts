@@ -21,10 +21,10 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Compete à União emitir moeda.", en: "Issuing currency falls to the federal government." },
-          { es: "O vereador mais votado da cidade é professor.", en: "The city's most-voted council member is a teacher." },
+          { es: "O vereador mais votado da cidade é professor.", en: "The council member with the most votes in the city is a teacher." },
           { es: "A ministra do STF votou contra a liminar.", en: "The STF justice voted against the injunction." },
           { es: "Em Belo Horizonte, a eleição para prefeito foi para o segundo turno.", en: "In Belo Horizonte, the mayoral election went to a second round." },
-          { es: "Ela anulou o voto em protesto.", en: "She spoiled her ballot in protest." },
+          { es: "Ela anulou o voto em protesto.", en: "She cast a null vote in protest." },
         ],
         checkpoint: [
           {
@@ -105,10 +105,10 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Abstention was high in the run-off.",
+        source: "Abstention was high in the runoff.",
         answer: "A abstenção foi alta no segundo turno.",
         altAnswers: ["A abstenção foi grande no segundo turno.", "A abstenção foi elevada no segundo turno.", "No segundo turno, a abstenção foi alta."],
-        explanation: "\"Segundo turno\" is the run-off; \"abstenção\" is the share who didn't turn out.",
+        explanation: "\"Segundo turno\" is the runoff; \"abstenção\" is the share who didn't turn out.",
       },
       {
         type: "translate",
@@ -131,7 +131,7 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: No candidate got half of the valid votes.",
         words: ["Nenhum candidato", "obteve", "metade", "dos votos", "válidos."],
         translation: "No candidate got half of the valid votes.",
-        explanation: "\"Obter\" (to obtain) is the news verb for votes; \"votos válidos\" excludes blank and spoiled ballots.",
+        explanation: "\"Obter\" (to obtain) is the news verb for votes; \"votos válidos\" excludes blank and null ballots.",
       },
       {
         type: "translate",
@@ -153,7 +153,7 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "O voto é obrigatório para os maiores de dezoito anos.",
-        explanation: "\"Maiores de dezoito anos\" is the legal over-18s. The full rule: compulsory for literate citizens from 18 to 70.",
+        explanation: "\"Maiores de dezoito anos\" is the legal way to say those over 18. The full rule: compulsory for literate citizens from 18 to 70.",
       },
       {
         type: "speak",
@@ -181,9 +181,9 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "O projeto foi rejeitado na comissão.", en: "The bill was rejected in committee." },
-          { es: "O presidente tem quinze dias úteis para sancionar ou vetar.", en: "The president has fifteen working days to sign or veto." },
+          { es: "O presidente tem quinze dias úteis para sancionar ou vetar.", en: "The president has fifteen business days to sign or veto." },
           { es: "O Estatuto da Pessoa Idosa garante prioridade no atendimento.", en: "The Statute of Older Persons guarantees priority service." },
-          { es: "É vedado o trabalho noturno a menores de 18 anos.", en: "Night work is prohibited for under-18s." },
+          { es: "É vedado o trabalho noturno a menores de 18 anos.", en: "Night work is prohibited for anyone under 18." },
           { es: "Todos têm direito à moradia digna.", en: "Everyone has the right to decent housing." },
         ],
         checkpoint: [
@@ -342,7 +342,7 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
           "Idioms: \"acabar em pizza\", \"toma lá dá cá\", \"Centrão\", \"base aliada\", \"bancada\", \"ficha limpa\". \"A política\" is politics, \"uma política\" a policy. In neutral writing, swap loaded words (\"baderneiros\", \"desmonte\", \"torrar\") for descriptive ones or attribute them.",
         ],
         examples: [
-          { es: "Pedimos que a prefeitura amplie o horário do posto de saúde.", en: "We ask the city government to extend the health post's opening hours." },
+          { es: "Pedimos que a prefeitura amplie o horário do posto de saúde.", en: "We ask the city government to extend the health clinic's hours." },
           { es: "A audiência foi convocada a pedido dos moradores.", en: "The hearing was called at the residents' request." },
           { es: "O projeto só passa se o Centrão votar a favor.", en: "The bill will only pass if the Centrão votes for it." },
           { es: "A política de habitação do município mudou em 2023.", en: "The city's housing policy changed in 2023." },
@@ -444,7 +444,7 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "What is \"politicagem\"?",
-        options: ["Petty, self-serving politicking.", "Political science as a university subject.", "A public policy.", "A political party's manifesto."],
+        options: ["Petty, self-serving politicking.", "Political science as a university subject.", "A public policy.", "A political party's platform."],
         correctIndex: 0,
         explanation: "\"Politicagem\" is pejorative; \"politizado\" (politically aware) is its positive neighbor.",
       },

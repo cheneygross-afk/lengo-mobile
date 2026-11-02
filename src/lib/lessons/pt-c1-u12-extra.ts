@@ -146,7 +146,7 @@ export const PT_C1_U12_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Feitas as contas, o projeto se mostrou viável.",
-        explanation: "\"Feitas\" agrees with \"as contas\" (feminine plural): once the sums were done. \"Se mostrou viável\" means it proved feasible.",
+        explanation: "\"Feitas\" agrees with \"as contas\" (feminine plural): once the math was done. \"Se mostrou viável\" means it proved feasible.",
       },
       {
         type: "speak",
@@ -216,7 +216,7 @@ export const PT_C1_U12_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Escrevo para manifestar minha insatisfação com o atendimento recebido.",
             question: "What genre and purpose is this?",
-            options: ["A formal complaint letter.", "A friendly invitation.", "A news report.", "A product advert."],
+            options: ["A formal complaint letter.", "A friendly invitation.", "A news report.", "A product ad."],
             correctIndex: 0,
             explanation: "\"Escrevo para manifestar minha insatisfação com\" is the standard opening of a formal complaint; \"o atendimento recebido\" (the service received) confirms it is about customer service.",
           },
@@ -298,10 +298,10 @@ export const PT_C1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The task: write to the city council complaining about noise. Which opening fits?",
+        question: "The task: write to the city government complaining about noise. Which opening fits?",
         options: ["Prezados senhores, venho manifestar minha insatisfação com o barulho noturno no bairro.", "Oi, gente! Que barulho, hein?", "Queridos amigos, tudo bem?", "E aí, prefeitura, beleza?"],
         correctIndex: 0,
-        explanation: "A letter to the council needs a formal greeting (\"Prezados senhores\") and the purpose in the first line (\"manifestar minha insatisfação\"). The others are chat openers.",
+        explanation: "A letter to the city government needs a formal greeting (\"Prezados senhores\") and the purpose in the first line (\"manifestar minha insatisfação\"). The others are chat openers.",
       },
       {
         type: "word-order",
@@ -405,7 +405,7 @@ export const PT_C1_U12_EXTRA: Lesson[] = [
             type: "speak",
             text: "É uma boa pergunta. Deixa eu pensar um pouquinho.",
             prompt: "Say it in Portuguese: That's a good question. Let me think for a moment.",
-            tip: "\"Pouquinho\": pou-KI-nyu, the qu is a hard k.",
+            tip: "\"Pouquinho\": pou-KEE-nyoo, the qu is a hard k.",
             explanation: "Buying time in Portuguese keeps the exchange going.",
           },
         ],
@@ -497,7 +497,7 @@ export const PT_C1_U12_EXTRA: Lesson[] = [
         source: "I don't think a ban would solve the problem.",
         answer: "Não acho que uma proibição resolva o problema.",
         altAnswers: ["Eu não acho que uma proibição resolva o problema.", "Não acho que uma proibição resolveria o problema.", "Não acho que proibir resolva o problema."],
-        explanation: "\"Não acho que\" denies, so the subjunctive \"resolva\" is the norm.",
+        explanation: "\"Não acho que\" denies, so the subjunctive \"resolva\" is the norm. The conditional \"resolveria\" is common in speech and accepted, but the subjunctive is the safer exam choice.",
       },
       {
         type: "translate",

@@ -156,7 +156,7 @@ export const PT_B1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the infinitive to its eu form with would.",
+        instructions: "Match the Portuguese to the English.",
         pairs: [{ left: "Eu faria isso.", right: "I'd do that." }, { left: "Ela diria que sim.", right: "She'd say yes." }, { left: "Eles trariam o vinho.", right: "They'd bring the wine." }, { left: "Seria ótimo.", right: "It would be great." }, { left: "Nós iríamos juntos.", right: "We'd go together." }],
         explanation: "\"Faria\", \"diria\" and \"traria\" use short stems; \"seria\" and \"iríamos\" just add the ending to the infinitive.",
       },

@@ -70,7 +70,7 @@ export const PT_A2_U06: Lesson[] = [
           {
             type: "speak",
             text: "Eu te amo.",
-            tip: "In most of Brazil \"te\" sounds like 'tchi', because unstressed e becomes i and t before i becomes 'tch'.",
+            tip: "In most of Brazil \"te\" sounds like chee, because unstressed e becomes ee and t before that ee becomes ch.",
             explanation: "\"Te\" comes before \"amo\": the Brazilian order, even when you call the person \"você\".",
           },
           {
@@ -163,7 +163,7 @@ export const PT_A2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You run into your friend's grandmother at the feira. How do you tell her you saw her at church yesterday?",
+        question: "You run into your friend's grandmother at the street market. How do you tell her you saw her at church yesterday?",
         options: ["Eu vi a senhora na igreja ontem.", "Eu te vi na igreja ontem.", "Eu vi senhora na igreja ontem.", "A senhora me viu na igreja ontem."],
         correctIndex: 0,
         explanation: "With \"a senhora\", Brazilians repeat the title after the verb: \"eu vi a senhora\". \"Te\" is too casual for her, \"senhora\" needs its article, and \"a senhora me viu\" means she saw you.",
@@ -174,12 +174,12 @@ export const PT_A2_U06: Lesson[] = [
         question: "What did you hear?",
         options: ["Ela te viu.", "Ela me viu.", "Ela nos viu.", "Ela viu."],
         correctIndex: 0,
-        explanation: "\"Te\" (often 'tchi') means you, so the sentence is she saw you. \"Me\" would be me and \"nos\" would be us.",
+        explanation: "\"Te\" (often said chee) means you, so the sentence is she saw you. \"Me\" would be me and \"nos\" would be us.",
       },
       {
         type: "dictation",
         audio: "O João me ligou ontem.",
-        explanation: "\"O João me ligou ontem\": \"me\" before \"ligou\", pronounced like 'mi'.",
+        explanation: "\"O João me ligou ontem\": \"me\" before \"ligou\", pronounced like mee.",
       },
       {
         type: "speak",
@@ -421,7 +421,7 @@ export const PT_A2_U06: Lesson[] = [
         type: "speak",
         text: "Eu conheço ela.",
         prompt: "Say it in Portuguese (to a friend): I know her.",
-        tip: "Open é in \"ela\", and a closed ê in \"conheço\" (co-NHÊ-su).",
+        tip: "Open é in \"ela\", and a closed ê in \"conheço\" (ko-NYÊ-soo).",
         explanation: "With friends, her is \"ela\" after the verb: \"eu conheço ela\".",
       },
       {
@@ -843,7 +843,7 @@ export const PT_A2_U06: Lesson[] = [
         type: "speak",
         text: "Você quer jantar comigo?",
         prompt: "Say it in Portuguese: Do you want to have dinner with me?",
-        tip: "Stress the middle of comigo, co-MI-go, and let the final o sound like u.",
+        tip: "Stress the middle of comigo, ko-MEE-goo, and let the final o sound like oo.",
         explanation: "\"Comigo\" is the only way to say with me. Make your voice rise at the end for the question.",
       },
       {
@@ -1069,7 +1069,7 @@ export const PT_A2_U06: Lesson[] = [
         type: "speak",
         text: "Eu vou te ligar amanhã.",
         prompt: "Say it in Portuguese: I'm going to call you tomorrow.",
-        tip: "In most of Brazil \"te\" sounds like 'tchee'. Run it into the next verb: vou-tchee-li-GAR.",
+        tip: "In most of Brazil \"te\" sounds like chee. Run it into the next verb: vou-chee-lee-GAR.",
         explanation: "\"Vou te ligar\": the pronoun leans on the infinitive, not on \"vou\".",
       },
       {
@@ -1108,7 +1108,7 @@ export const PT_A2_U06: Lesson[] = [
         body: [
           "Both sentences mean I saw him. In conversation Brazilians use the subject pronoun as the object, after the verb: \"eu vi ele\", \"encontrei elas\", \"você conhece ela?\". In writing that looks careless, so the standard form puts \"o\", \"a\", \"os\", \"as\" before the verb: \"eu o vi\", \"nós as encontramos\".",
           "Neither form is wrong; they belong in different places. \"Eu o vi\" in a chat with a friend sounds like a newsreader. \"Eu vi ele\" in a report to your boss looks sloppy. English has the same kind of split between who and whom.",
-          "Aloud, \"o\" sounds like u and \"os\" like us, so \"eu o vi\" is said \"eu u vi\". In writing, don't start the sentence with the pronoun. Keep the subject in front: \"eu o vi\", \"ela os convidou\".",
+          "Aloud, \"o\" sounds like oo and \"os\" like oos, so \"eu o vi\" is said eu-oo-VEE. In writing, don't start the sentence with the pronoun. Keep the subject in front: \"eu o vi\", \"ela os convidou\".",
         ],
         examples: [
           { es: "Eu vi ele no metrô ontem.", en: "I saw him on the subway yesterday. (speech)" },
@@ -1322,7 +1322,7 @@ export const PT_A2_U06: Lesson[] = [
         question: "What did you hear?",
         options: ["Eu o vi ontem.", "Eu vi ontem.", "Eu a vi ontem.", "Eu vim ontem."],
         correctIndex: 0,
-        explanation: "\"Eu o vi\" sounds like \"eu u vi\": listen for the short u sound before the verb. \"A\" would be her, and \"vim\" is I came.",
+        explanation: "\"Eu o vi\" sounds like eu-oo-VEE: listen for the short oo sound before the verb. \"A\" would be her, and \"vim\" is I came.",
       },
     ],
   },
@@ -1369,7 +1369,7 @@ export const PT_A2_U06: Lesson[] = [
           {
             type: "speak",
             text: "Te ligo às sete, pode ser?",
-            tip: "Say sete as SÉ-tchi: a t before a final -e sounds like ch.",
+            tip: "Say sete as SÉ-chee: a t before a final -e sounds like ch.",
             explanation: "\"Te ligo\": in Brazilian speech the pronoun can open the sentence. The present \"ligo\" works as a promise for later.",
           },
         ],
@@ -1773,7 +1773,7 @@ export const PT_A2_U06: Lesson[] = [
         type: "speak",
         text: "Eu te amo.",
         prompt: "Say it in Portuguese: I love you.",
-        tip: "In much of Brazil the t in \"te\" sounds like ch in cheese, and the final e sounds like i.",
+        tip: "In much of Brazil the t in \"te\" sounds like ch in cheese, and the final e sounds like ee: chee.",
         explanation: "\"Eu te amo\": pronoun before the verb, the Brazilian order.",
       },
     ],
@@ -2056,7 +2056,7 @@ export const PT_A2_U06: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You're texting a friend: I saw her at the feira yesterday. What's the most natural way to write it?",
+            question: "You're texting a friend: I saw her at the street market yesterday. What's the most natural way to write it?",
             options: ["Eu vi ela na feira ontem.", "Eu lhe vi na feira ontem.", "Eu vi-a na feira ontem.", "Eu via ela na feira ontem."],
             correctIndex: 0,
             explanation: "In a text Brazilians write \"vi ela\", and one event yesterday takes the perfeito \"vi\". \"Via\" is a habit, \"lhe\" isn't a direct object, and \"vi-a\" sounds European.",
@@ -2205,7 +2205,7 @@ export const PT_A2_U06: Lesson[] = [
         type: "speak",
         text: "Eu te mandei uma mensagem ontem à noite.",
         prompt: "Say it in Portuguese: I sent you a message last night.",
-        tip: "In most of Brazil te sounds like chee: the e becomes i, and t before i becomes ch.",
+        tip: "In most of Brazil te sounds like chee: the e becomes ee, and t before that ee becomes ch.",
         explanation: "\"Te mandei\": \"te\" is the everyday object for \"você\", before the perfeito.",
       },
       {

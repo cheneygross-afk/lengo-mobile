@@ -198,7 +198,7 @@ export const PT_B2_U16: Lesson[] = [
         type: "speak",
         text: "Eu queria que você ficasse mais um pouco.",
         prompt: "Say it in Portuguese: I wish you'd stay a little longer.",
-        tip: "The double ss in ficasse is a sharp s, never a z. Stress the second syllable: fi-CAS-se.",
+        tip: "The double ss in ficasse is a sharp s, never a z. Stress the second syllable: 'fee-KA-see'.",
         explanation: "\"Eu queria que\" + imperfect subjunctive is the soft way to voice a wish about someone else.",
       },
       {
@@ -364,7 +364,7 @@ export const PT_B2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Você devia ter me avisado.",
-            tip: "The unstressed e in \"devia\" often sounds like i, so the d sounds like the j in jeans: dji-VI-a.",
+            tip: "The unstressed e in \"devia\" often sounds like i, so the d sounds like the j in jeans: 'jee-VEE-a'.",
             explanation: "\"Devia ter\" + participle is the everyday reproach: you should have.",
           },
         ],
@@ -632,7 +632,7 @@ export const PT_B2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Havia muita gente na festa.",
-            tip: "The h is silent: havia sounds like a-VÍ-a.",
+            tip: "The h is silent: havia sounds like 'a-VEE-a'.",
             explanation: "\"Havia\" is the written choice. A friend would say \"tinha muita gente na festa\".",
           },
         ],
@@ -693,7 +693,7 @@ export const PT_B2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The film I watched was excellent. (written norm)",
+        source: "The movie I watched was excellent. (written norm)",
         answer: "O filme a que assisti foi excelente.",
         altAnswers: ["O filme ao qual assisti foi excelente.", "O filme a que eu assisti foi excelente.", "O filme ao qual eu assisti foi excelente."],
         explanation: "\"Assistir a\" keeps its preposition in front of the relative: \"a que\" or \"ao qual\". \"O filme que eu assisti\" is fine in speech only.",
@@ -722,7 +722,7 @@ export const PT_B2_U16: Lesson[] = [
         type: "speak",
         text: "Precisamos analisá-lo antes de sexta-feira.",
         prompt: "Say it in Portuguese: We need to analyze it before Friday.",
-        tip: "Stress the lá in analisá-lo, and the x in \"sexta\" sounds like s (sh in Rio): SES-ta.",
+        tip: "Stress the lá in analisá-lo, and the x in \"sexta\" sounds like s (sh in Rio): 'SES-ta'.",
         explanation: "\"Analisar\" + \"o\" = \"analisá-lo\": the -r drops and the accent marks the stressed a.",
       },
     ],
@@ -886,14 +886,14 @@ export const PT_B2_U16: Lesson[] = [
         heading: "Register, agreement and false friends",
         body: [
           "\"A gente\" takes the ele/ela verb: \"a gente foi\", never \"*a gente fomos\"; in a formal email, \"nós fomos\" is safer. Drop the call-center gerundismo: \"vou enviar\" or \"envio hoje\", not \"*vou estar enviando\".",
-          "False friends from English cost points: \"realizar\" means to carry out, and to realize is \"perceber\"; you apply for a job with \"candidatar-se a uma vaga\", not \"*aplicar para\"; an exciting film is \"empolgante\", because \"excitante\" can sound sexual. And Greek -ma nouns are masculine: \"o problema\", \"o sistema\".",
+          "False friends from English cost points: \"realizar\" means to carry out, and to realize is \"perceber\"; you apply for a job with \"candidatar-se a uma vaga\", not \"*aplicar para\"; an exciting movie is \"empolgante\", because \"excitante\" can sound sexual. And Greek -ma nouns are masculine: \"o problema\", \"o sistema\".",
         ],
         examples: [
-          { es: "A gente foi ao cinema ontem e adorou o filme.", en: "We went to the movies yesterday and loved the film." },
+          { es: "A gente foi ao cinema ontem e adorou o filme.", en: "We went to the movies yesterday and loved what we saw." },
           { es: "Envio o relatório até sexta-feira.", en: "I'll send the report by Friday." },
           { es: "Só percebi o erro depois da reunião.", en: "I only realized the mistake after the meeting." },
           { es: "Ela se candidatou a uma vaga numa startup em São Paulo.", en: "She applied for a job at a startup in São Paulo." },
-          { es: "O filme é empolgante do começo ao fim.", en: "The film is exciting from start to finish." },
+          { es: "O filme é empolgante do começo ao fim.", en: "The movie is exciting from start to finish." },
         ],
         checkpoint: [
           {
@@ -917,7 +917,7 @@ export const PT_B2_U16: Lesson[] = [
             type: "speak",
             text: "Vou enviar o relatório amanhã de manhã.",
             prompt: "Say it in Portuguese: I'll send the report tomorrow morning.",
-            tip: "In relatório the stressed ó is open, and the final -io glides: re-la-TÓ-riu.",
+            tip: "In relatório the stressed ó is open, and the final -io glides. The first r sounds like an English h: 'he-la-TÓ-ryoo'.",
             explanation: "\"Vou enviar\" is the everyday future; \"*vou estar enviando\" is the gerundismo that sounds like a call center.",
           },
         ],
@@ -1045,7 +1045,7 @@ export const PT_B2_U16: Lesson[] = [
       {
         type: "speak",
         text: "Se eu tivesse aceitado aquele emprego, hoje moraria em Lisboa.",
-        tip: "The ss in tivesse is a voiceless s, and the stress falls on -ve-: tchi-VÊ-si.",
+        tip: "The ss in tivesse is a voiceless s, and the stress falls on -ve-: 'chee-VÊ-see'.",
         explanation: "A mixed condition: past \"tivesse aceitado\" with a present result \"hoje moraria\".",
       },
     ],
@@ -1457,7 +1457,7 @@ export const PT_B2_U16: Lesson[] = [
       {
         type: "dictation",
         audio: "A biblioteca é o único espaço cultural gratuito do bairro.",
-        explanation: "An argument sentence for the body of the letter. Note the accent in \"único\" and the ui in \"gratuito\", stressed on the u: gra-TUI-tu.",
+        explanation: "An argument sentence for the body of the letter. Note the accent in \"único\" and the ui in \"gratuito\", stressed on the u: 'gra-TOOY-too'.",
       },
       {
         type: "speak",
@@ -1700,7 +1700,7 @@ export const PT_B2_U16: Lesson[] = [
         type: "speak",
         text: "A proibição do celular em sala de aula é necessária, mas insuficiente.",
         prompt: "Say it in Portuguese: Banning phones in the classroom is necessary but insufficient.",
-        tip: "\"Proibição\" ends in a nasal ão, with no n at the end: proi-bi-SÃO. Stress \"ne-ces-SÁ-ria\".",
+        tip: "\"Proibição\" ends in a nasal ão, with no n at the end: 'proy-bee-SÃW'. Stress \"necessária\" on the sá: 'ne-se-SA-rya'.",
         explanation: "A thesis in one sentence. The adjectives agree with \"a proibição\": \"necessária\", and \"insuficiente\" has the same form for both genders.",
       },
       {
@@ -1853,7 +1853,7 @@ export const PT_B2_U16: Lesson[] = [
       {
         heading: "Part four: buying time and wrapping up",
         body: [
-          "Silence hurts more than a filler. Buy time the Brazilian way: \"boa pergunta\", \"deixa eu pensar\", \"olha, pra ser sincero\". If a word is missing, describe it with \"aquele lugar onde...\" or \"aquela coisa que...\"; examiners reward getting round the gap.",
+          "Silence hurts more than a filler. Buy time the Brazilian way: \"boa pergunta\", \"deixa eu pensar\", \"olha, pra ser sincero\". If a word is missing, describe it with \"aquele lugar onde...\" or \"aquela coisa que...\"; examiners reward getting around the gap.",
           "When the topic closes, sum up in one sentence with \"enfim\", \"em resumo\" or \"no fim das contas\". A \"né\" now and then sounds natural, but keep slang like \"mano\" and \"tipo\" out: the interview is friendly, not casual.",
         ],
         examples: [
@@ -1866,7 +1866,7 @@ export const PT_B2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Boa pergunta, deixa eu pensar um pouco.",
-            tip: "\"Deixa\" sounds like DEI-sha; the r in \"pergunta\" is soft, never rolled.",
+            tip: "\"Deixa\" sounds like 'DAY-sha'; the r in \"pergunta\" is soft, never rolled.",
             explanation: "\"Deixa eu pensar\" is the everyday spoken form; the textbook \"deixe-me pensar\" would sound stiff in an interview.",
           },
           {
@@ -2004,7 +2004,7 @@ export const PT_B2_U16: Lesson[] = [
         heading: "Open with a scene, then state your thesis",
         body: [
           "An op-ed (\"artigo de opinião\") is not a redação. You sign it, so \"eu\" and \"nós\" are allowed. You can also open with a scene, a number or a question instead of a neutral definition. From the essay it keeps a clear thesis in the first paragraph and the written norm throughout.",
-          "Move from the concrete to the claim: a packed \"ônibus\" before dawn, then the thesis. The thesis frames from Unit 12 still work: \"é inegável que\" + indicative, \"é fundamental que\" + subjunctive. Skip \"eu acho que\", because your name above the text already says it's your opinion.",
+          "Move from the concrete to the claim: a packed \"ônibus\" before dawn, then the thesis. The thesis frames from Unit 23 still work: \"é inegável que\" + indicative, \"é fundamental que\" + subjunctive. Skip \"eu acho que\", because your name above the text already says it's your opinion.",
           "The title should be short and arguable, a claim someone could reject: \"Tarifa zero não é luxo\".",
         ],
         examples: [
@@ -2140,7 +2140,7 @@ export const PT_B2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Trata-se, afinal, de uma questão de cidadania.",
-            tip: "Keep the hyphenated \"trata-se\" as one word, stressed on TRA. Stress \"cidadania\" on NI: si-da-da-NI-a.",
+            tip: "Keep the hyphenated \"trata-se\" as one word, stressed on TRA. Stress \"cidadania\" on NI: 'see-da-da-NEE-a'.",
             explanation: "\"Trata-se de\" is the impersonal opening of formal writing. The pronoun goes after the verb because nothing comes before it.",
           },
         ],
@@ -2240,7 +2240,7 @@ export const PT_B2_U16: Lesson[] = [
         type: "speak",
         text: "É inegável que o transporte é um direito.",
         prompt: "Say it in Portuguese: It is undeniable that transportation is a right.",
-        tip: "Link \"que o\" smoothly. In \"direito\" the d sounds like the j in jeep, and the final -o sounds like u.",
+        tip: "Link \"que o\" smoothly. In \"direito\" the d sounds like the j in jeep, and the final -o sounds like 'oo': 'jee-RAY-too'.",
         explanation: "\"É inegável que\" states a fact, so the indicative \"é\" follows.",
       },
       {
@@ -2527,7 +2527,7 @@ export const PT_B2_U16: Lesson[] = [
         type: "speak",
         text: "Se eu fosse você, aceitaria a proposta.",
         prompt: "Say it in Portuguese: If I were you, I'd accept the offer.",
-        tip: "The o in fosse is closed, like ô, and the final -e sounds like i: FÔ-si.",
+        tip: "The o in fosse is closed, like ô, and the final -e sounds like 'ee': 'FÔ-see'.",
         explanation: "\"Se eu fosse você\" plus the conditional \"aceitaria\" is the standard way to give advice. In speech you'll also hear \"eu aceitava\".",
       },
       {

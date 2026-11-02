@@ -62,7 +62,7 @@ export const PT_A2_U10: Lesson[] = [
         ],
         examples: [
           { es: "Estou estudando português para morar no Brasil.", en: "I'm studying Portuguese so I can live in Brazil." },
-          { es: "Liguei para confirmar a reserva.", en: "I called to confirm the booking." },
+          { es: "Liguei para confirmar a reserva.", en: "I called to confirm the reservation." },
           { es: "Ela acordou cedo para pegar o ônibus das seis.", en: "She woke up early to catch the six o'clock bus." },
           { es: "A gente juntou dinheiro para viajar.", en: "We saved money to travel." },
           { es: "Comprei um remédio para dor de cabeça.", en: "I bought some headache medicine." },
@@ -326,7 +326,7 @@ export const PT_A2_U10: Lesson[] = [
           {
             type: "speak",
             text: "Obrigado por tudo!",
-            tip: "The t in tudo is a plain t because it comes before u, not i. Final -o sounds like u: TU-du.",
+            tip: "The t in tudo is a plain t because it comes before u, not i. Final -o sounds like oo: TOO-doo.",
             explanation: "\"Obrigado por tudo\": thanks always takes \"por\". A woman says \"obrigada por tudo\".",
           },
         ],
@@ -459,7 +459,7 @@ export const PT_A2_U10: Lesson[] = [
         type: "speak",
         text: "Vamos por ali.",
         prompt: "Say it in Portuguese: Let's go that way.",
-        tip: "Stress the last syllable of ali: a-LI.",
+        tip: "Stress the last syllable of ali: a-LEE.",
         explanation: "\"Por ali\" gives the direction or route: that way, over there.",
       },
       {
@@ -692,7 +692,7 @@ export const PT_A2_U10: Lesson[] = [
         type: "speak",
         text: "Obrigada pelo presente!",
         prompt: "Say it in Portuguese: Thanks for the present! (you're a woman)",
-        tip: "The e in pelo is closed, like ê, and the final o sounds like u: PÊ-lu.",
+        tip: "The e in pelo is closed, like ê, and the final o sounds like oo: PÊ-loo.",
         explanation: "The present is the reason for the thanks, so it's \"pelo presente\". A woman says \"obrigada\".",
       },
       {
@@ -1276,10 +1276,10 @@ export const PT_A2_U10: Lesson[] = [
           "In writing and careful speech it counts as a mistake, so don't write it. Use \"ao\" / \"à\" or \"para o\" / \"para a\": \"vou ao mercado\", \"fui à padaria\". In speech, \"pro mercado\" and \"pra padaria\" are just as relaxed and fully correct.",
         ],
         examples: [
-          { es: "Vou no mercado rapidinho.", en: "I'm just popping to the market. (casual speech)" },
+          { es: "Vou no mercado rapidinho.", en: "I'm just running to the market. (casual speech)" },
           { es: "Fui na casa da minha avó.", en: "I went to my grandma's. (casual speech)" },
           { es: "Fui à casa da minha avó.", en: "I went to my grandma's. (standard)" },
-          { es: "Vamos ao shopping no sábado?", en: "Shall we go to the mall on Saturday?" },
+          { es: "Vamos ao shopping no sábado?", en: "Should we go to the mall on Saturday?" },
           { es: "Vou pra padaria comprar pão.", en: "I'm going to the bakery to buy bread." },
         ],
         checkpoint: [
@@ -1372,7 +1372,7 @@ export const PT_A2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Shall we go to the street market on Saturday?",
+        source: "Should we go to the street market on Saturday?",
         answer: "Vamos à feira no sábado?",
         altAnswers: [
           "Vamos para a feira no sábado?",
@@ -1708,7 +1708,7 @@ export const PT_A2_U10: Lesson[] = [
         type: "speak",
         text: "A gente fica lá por uma semana.",
         prompt: "Say it in Portuguese: We're staying there for a week.",
-        tip: "Link \"por uma\" smoothly, with a light tap r: po-ru-ma.",
+        tip: "Link \"por uma\" smoothly, with a light tap r: po-roo-ma.",
         explanation: "\"Por uma semana\" gives the length of the stay. \"A gente\" takes \"fica\", the ele/ela form.",
       },
       {
@@ -1796,7 +1796,7 @@ export const PT_A2_U10: Lesson[] = [
         heading: "Obrigado por, para estudar",
         body: [
           "Thanks always take \"por\": \"obrigado por tudo\", \"obrigada pela ajuda\". \"Por\" gives the reason you're grateful. \"Para\" points to a recipient or a goal, as in \"um presente para você\", so \"*obrigado para tudo\" is simply wrong.",
-          "Purpose works the other way round: in order to is \"para\" + infinitive, never \"por\". \"*Vou a Portugal por estudar\" becomes \"vou para Portugal para estudar\". \"Para\" marks the goal, and \"ir para\" fits because studying abroad is a longer stay. In speech many Brazilians drop the second \"para\": \"vou pra Portugal estudar\".",
+          "Purpose works the other way around: in order to is \"para\" + infinitive, never \"por\". \"*Vou a Portugal por estudar\" becomes \"vou para Portugal para estudar\". \"Para\" marks the goal, and \"ir para\" fits because studying abroad is a longer stay. In speech many Brazilians drop the second \"para\": \"vou pra Portugal estudar\".",
         ],
         examples: [
           { es: "Obrigado por tudo!", en: "Thanks for everything! (a man speaking)" },
@@ -1827,7 +1827,7 @@ export const PT_A2_U10: Lesson[] = [
           {
             type: "speak",
             text: "Muito obrigado pela ajuda.",
-            tip: "Say obrigado as o-bri-GA-du, with the final o as a short u sound.",
+            tip: "Say obrigado as o-bree-GA-doo, with the final o as a short oo sound.",
             explanation: "\"Pela\" is \"por\" + \"a\": thanks for the help. A woman says \"muito obrigada\".",
           },
         ],
@@ -2182,7 +2182,7 @@ export const PT_A2_U10: Lesson[] = [
         type: "speak",
         text: "Faz vinte minutos que eu estou esperando.",
         prompt: "Say it in Portuguese: I've been waiting for twenty minutes.",
-        tip: "Before the v of vinte, the z of faz is voiced, like the z in zoo (in Rio, like the s in measure). The t before e sounds like ch: vin-tchi.",
+        tip: "Before the v of vinte, the z of faz is voiced, like the z in zoo (in Rio, like the s in measure). The t before final e sounds like ch: VĨ-chee.",
         explanation: "\"Faz vinte minutos que\" + the present progressive \"estou esperando\", because you're still waiting.",
       },
     ],
@@ -2401,7 +2401,7 @@ export const PT_A2_U10: Lesson[] = [
         type: "speak",
         text: "Passei pela praia ontem à noite.",
         prompt: "Say it in Portuguese: I went past the beach last night.",
-        tip: "In \"noite\" the final e sounds like i, and the t before it sounds like ch: \"noi-tchi\".",
+        tip: "In \"noite\" the final e sounds like ee, and the t before it sounds like ch: \"NOY-chee\".",
         explanation: "\"Passar por\" is going past or through a place, and \"por\" + \"a\" becomes \"pela\".",
       },
       {

@@ -554,17 +554,19 @@ function doubleNote(inf: string, d: { ter: string[]; serEstar: string; note?: st
   if (d.note) return `Two past participles. ${d.note}`;
   const reg = d.ter[0];
   const fem = d.serEstar.replace(/o$/, "a");
-  return `Two past participles: "${reg}" goes with "ter" and "haver" ("tinha ${reg}"), "${d.serEstar}" with "ser" and "estar", and agrees like an adjective ("foi ${d.serEstar}", "está ${fem}"). Mixing them up ("tinha ${d.serEstar}") is a common mistake.`;
+  return `Two past participles: "${reg}" goes with "ter" and "haver" ("tinha ${reg}"), "${d.serEstar}" with "ser" and "estar", and agrees like an adjective ("foi ${d.serEstar}", "está ${fem}"). The short form after "ter" ("tinha ${d.serEstar}") is heard in speech but is nonstandard in careful writing.`;
 }
 
 function pronominalNote(inf: string, enSe: string, t: Record<TenseId, TenseTable>): string {
   const f = (p: Person) => t.pres[p]?.split(" / ")[0] ?? "";
+  if (!f("eu")) return `Also used with a reflexive pronoun, "${inf}-se" (${enSe}): "nós nos ${f("nos")}", "eles se ${t.pret.eles?.split(" / ")[0] ?? ""}". In Brazil the pronoun goes before the verb.`;
   return `Also used with a reflexive pronoun, "${inf}-se" (${enSe}): "eu me ${f("eu")}", "ela se ${f("ele")}", "nós nos ${f("nos")}", "eles se ${f("eles")}". In Brazil the pronoun goes before the verb; European Portuguese puts it after ("${f("eu")}-me").`;
 }
 
 function reflexiveNote(t: Record<TenseId, TenseTable>, pp: string): string {
   const f = (p: Person) => t.pres[p]?.split(" / ")[0] ?? "";
   const imp = t.sbpres.ele?.split(" / ")[0] ?? "";
+  if (!f("eu")) return `In Brazil the pronoun goes before the verb ("nós nos ${f("nos")}", "eles se ${t.pret.eles?.split(" / ")[0] ?? ""}"), and in compound tenses before the participle ("tinha se ${pp}").`;
   return `In Brazil the pronoun goes before the verb ("eu me ${f("eu")}", "ela se ${f("ele")}"), and in compound tenses before the participle ("tinha se ${pp}"). Commands are written "${imp}-se" but usually said "se ${t.pres.ele?.split(" / ")[0] ?? ""}!". European Portuguese puts the pronoun after the verb ("${f("eu")}-me").`;
 }
 

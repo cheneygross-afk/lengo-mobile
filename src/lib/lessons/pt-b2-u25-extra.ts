@@ -16,7 +16,7 @@ export const PT_B2_U25_EXTRA: Lesson[] = [
       {
         heading: "The system and the symptoms",
         body: [
-          "Where to go: the \"posto de saúde\" (UBS) for routine care, the \"UPA\" for urgent cases, the \"pronto-socorro\" (or \"emergência\") at a hospital. Privately: \"plano de saúde\" / \"convênio\", with its \"carência\" (waiting period). The paperwork: \"marcar uma consulta\", \"encaminhamento\" (referral), \"pedido de exame\", \"receita\" (prescription), \"atestado\" (sick note).",
+          "Where to go: the \"posto de saúde\" (UBS) for routine care, the \"UPA\" for urgent cases, the \"pronto-socorro\" (or \"emergência\") at a hospital. Privately: \"plano de saúde\" / \"convênio\", with its \"carência\" (waiting period). The paperwork: \"marcar uma consulta\", \"encaminhamento\" (referral), \"pedido de exame\", \"receita\" (prescription), \"atestado\" (doctor's note).",
           "Symptoms: \"estar com\" + noun (\"dor de cabeça\", \"tontura\", \"enjoo\", \"falta de ar\", \"coceira\"); \"doer\" agrees with the body part (\"meus pés doem\"). Treatment: \"tomar remédio\", \"fazer exames\", \"ser internado\", \"receber alta\", \"levar pontos\".",
         ],
         examples: [
@@ -69,10 +69,10 @@ export const PT_B2_U25_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I need a sick note for work.",
+        source: "I need a doctor's note for work.",
         answer: "Preciso de um atestado para o trabalho.",
         altAnswers: ["Eu preciso de um atestado para o trabalho.", "Preciso de um atestado pro trabalho.", "Eu preciso de um atestado pro trabalho.", "Preciso de um atestado médico para o trabalho.", "Eu preciso de um atestado médico para o trabalho."],
-        explanation: "\"Precisar de\" + noun. A sick note is an \"atestado\" (médico).",
+        explanation: "\"Precisar de\" + noun. A doctor's note is an \"atestado\" (médico).",
       },
       {
         type: "fill-blank",
@@ -147,7 +147,7 @@ export const PT_B2_U25_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Ela recebeu alta ontem à tarde.",
-        explanation: "\"Receber alta\" is to be discharged from hospital.",
+        explanation: "\"Receber alta\" is to be discharged from the hospital.",
       },
       {
         type: "speak",
@@ -225,7 +225,7 @@ export const PT_B2_U25_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Sorry, I was miles away.",
+        source: "Sorry, I was zoning out.",
         answer: "Desculpa, eu estava com a cabeça nas nuvens.",
         altAnswers: ["Desculpe, eu estava com a cabeça nas nuvens.", "Desculpa, estava com a cabeça nas nuvens.", "Desculpe, estava com a cabeça nas nuvens.", "Desculpa, eu estava no mundo da lua.", "Desculpe, eu estava no mundo da lua.", "Desculpa, estava no mundo da lua."],
         explanation: "\"Estar com a cabeça nas nuvens\" or \"estar no mundo da lua\": to be distracted.",
@@ -252,7 +252,7 @@ export const PT_B2_U25_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I don't have the stomach for that kind of film.",
+        source: "I don't have the stomach for that kind of movie.",
         answer: "Não tenho estômago para esse tipo de filme.",
         altAnswers: ["Eu não tenho estômago para esse tipo de filme.", "Não tenho estômago pra esse tipo de filme.", "Eu não tenho estômago pra esse tipo de filme.", "Não tenho estômago para esse tipo de filmes."],
         explanation: "\"Ter estômago para\" + the unpleasant thing.",
@@ -294,7 +294,7 @@ export const PT_B2_U25_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your flatmate is busy cooking and asks you to watch her phone in case her boss calls. What does she say?",
+        question: "Your roommate is busy cooking and asks you to watch her phone in case her boss calls. What does she say?",
         options: ["Fica de olho no meu celular?", "Dá uma mão no meu celular?", "Mete o bedelho no meu celular?", "Tem estômago para o meu celular?"],
         correctIndex: 0,
         explanation: "\"Ficar de olho em\" is to keep an eye on something.",
@@ -409,7 +409,7 @@ export const PT_B2_U25_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "After the project, she was [completely burnt out].",
+        en: "After the project, she was [completely burned out].",
         sentence: "Depois do projeto, ela estava ___.",
         answer: "esgotada",
         altAnswers: ["completamente esgotada", "totalmente esgotada", "com burnout"],

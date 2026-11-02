@@ -86,7 +86,7 @@ export const PT_A2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Ela é mais alta do que eu.",
-            tip: "Run \"do que\" together as one quick unit, almost du-ki: the final o sounds like u and the e like i.",
+            tip: "Run \"do que\" together as one quick unit, almost doo-kee: the final o sounds like oo and the e like ee.",
             explanation: "\"Mais alta do que eu\": feminine \"alta\" for \"ela\", and the subject pronoun \"eu\" after than.",
           },
         ],
@@ -227,7 +227,7 @@ export const PT_A2_U07: Lesson[] = [
         type: "speak",
         text: "O Rio tem mais turistas do que Curitiba.",
         prompt: "Say it in Portuguese: Rio has more tourists than Curitiba.",
-        tip: "The r at the start of \"Rio\" is h-like: say it as hee-u.",
+        tip: "The r at the start of \"Rio\" is h-like: say it as HEE-oo.",
         explanation: "\"Mais turistas\": \"mais\" before a noun compares amounts and never changes form.",
       },
       {
@@ -376,7 +376,7 @@ export const PT_A2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Ela não viaja tanto quanto antes.",
-            tip: "Say \"quanto\" as KWAN-tu: a nasal an, and the final o sounds like u.",
+            tip: "Say \"quanto\" as KWÃ-too: a nasal an, and the final o sounds like oo.",
             explanation: "\"Não viaja tanto quanto antes\": the comparison of an action goes straight after the verb.",
           },
         ],
@@ -533,7 +533,7 @@ export const PT_A2_U07: Lesson[] = [
         examples: [
           { es: "São Paulo é maior do que o Rio.", en: "São Paulo is bigger than Rio." },
           { es: "Meu apartamento é menor que o seu.", en: "My apartment is smaller than yours." },
-          { es: "Os quartos da pousada são menores.", en: "The rooms at the pousada are smaller." },
+          { es: "Os quartos da pousada são menores.", en: "The rooms at the guesthouse are smaller." },
           { es: "O maior problema é o preço.", en: "The biggest problem is the price." },
           { es: "Minha irmã mais nova mora em Manaus.", en: "My younger sister lives in Manaus." },
         ],
@@ -802,7 +802,7 @@ export const PT_A2_U07: Lesson[] = [
           {
             type: "speak",
             text: "A praia é lindíssima!",
-            tip: "Stress the í: lin-DÍS-si-ma. The double s is a clear s, never a z.",
+            tip: "Stress the í: lĩ-JEES-see-ma. The double s is a clear s, never a z.",
             explanation: "\"Lindíssima\" agrees with \"praia\", so it ends in -a.",
           },
         ],
@@ -1017,7 +1017,7 @@ export const PT_A2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Só um minutinho, por favor.",
-            tip: "The t before i sounds like the ch in cheese: mi-nu-TCHI-nyu.",
+            tip: "The t before i sounds like the ch in cheese: mee-noo-CHEE-nyoo.",
             explanation: "\"Um minutinho\" softens the request: it promises a short, friendly wait.",
           },
         ],
@@ -1363,13 +1363,13 @@ export const PT_A2_U07: Lesson[] = [
       {
         type: "dictation",
         audio: "O meu quarto é menor.",
-        explanation: "\"Menor\" is smaller, stressed on the last syllable: me-NOR.",
+        explanation: "\"Menor\" is smaller, stressed on the last syllable: me-NÓR.",
       },
       {
         type: "speak",
         text: "O apartamento novo é muito melhor.",
         prompt: "Say it in Portuguese: The new apartment is much better.",
-        tip: "The lh in melhor sounds like the lli in million. Stress the last syllable: me-LHOR.",
+        tip: "The lh in melhor sounds like the lli in million. Stress the last syllable: me-LYÓR.",
         explanation: "\"Muito melhor\" means much better. Never say \"mais melhor\" or \"mais bom\".",
       },
     ],
@@ -1489,7 +1489,7 @@ export const PT_A2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Copacabana é pertinho, mas a Prainha é mais bonita.",
-            tip: "The nh in pertinho and Prainha sounds like the ny in canyon. In Prainha the stress falls on the i: pra-I-nha.",
+            tip: "The nh in pertinho and Prainha sounds like the ny in canyon. In Prainha the stress falls on the i: pra-EE-nya.",
             explanation: "\"Pertinho\" is the diminutive of \"perto\": really close, said warmly. \"Mais bonita\" agrees with the feminine \"praia\".",
           },
         ],
@@ -1554,8 +1554,7 @@ export const PT_A2_U07: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: For me, the smaller one is the better one.",
         words: ["Para", "mim,", "o", "menor", "é", "o", "melhor."],
-        altOrders: [["O", "menor", "é", "o", "melhor", "para", "mim,"]],
-        translation: "For me, the smaller one is the better one.",
+                translation: "For me, the smaller one is the better one.",
         explanation: "\"Para mim\" gives your opinion. \"O menor\" and \"o melhor\" turn the comparatives into the smaller one and the better one.",
       },
       {
@@ -1582,7 +1581,7 @@ export const PT_A2_U07: Lesson[] = [
         type: "speak",
         text: "Esse é maior, mas aquele é mais perto.",
         prompt: "Say it in Portuguese: This one is bigger, but that one is closer.",
-        tip: "Open the é in \"é\" wide, and keep the ai in \"maior\" as one gliding sound: ma-YOR.",
+        tip: "Open the é in \"é\" wide, and keep the ai in \"maior\" as one gliding sound: ma-YÓR.",
         explanation: "\"Maior\" is the irregular comparative of \"grande\". \"Mas\" sets the two qualities against each other.",
       },
       {
@@ -1809,7 +1808,7 @@ export const PT_A2_U07: Lesson[] = [
         type: "speak",
         text: "São Paulo é maior do que o Rio.",
         prompt: "Say it in Portuguese: São Paulo is bigger than Rio.",
-        tip: "\"Maior\" has two syllables, ma-IOR, with the stress on the second.",
+        tip: "\"Maior\" has two syllables, ma-YÓR, with the stress on the second.",
         explanation: "Bigger is \"maior\", never *\"mais grande\". \"O Rio\" takes the article.",
       },
     ],
@@ -1894,7 +1893,7 @@ export const PT_A2_U07: Lesson[] = [
           {
             type: "speak",
             text: "O Pelourinho é lindíssimo.",
-            tip: "Stress the accented syllable: lin-DÍS-si-mo. The double s is a plain s sound, never z.",
+            tip: "Stress the accented syllable: lĩ-JEES-see-moo. The double s is a plain s sound, never z.",
             explanation: "\"Lindíssimo\" is \"lindo\" + \"-íssimo\": stronger than \"muito lindo\" and very common in friendly messages.",
           },
         ],
@@ -2185,7 +2184,7 @@ export const PT_A2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Esperei um minutinho e ele chegou.",
-            tip: "The t before i in minutinho sounds like ch: mi-nu-CHI-nhu.",
+            tip: "The t before i in minutinho sounds like ch: mee-noo-CHEE-nyoo.",
             explanation: "\"Esperei\" and \"chegou\" are regular perfeito forms, and \"um minutinho\" means just a minute.",
           },
         ],
@@ -2289,7 +2288,7 @@ export const PT_A2_U07: Lesson[] = [
         type: "speak",
         text: "Foi o pior dia do ano.",
         prompt: "Say it in Portuguese: It was the worst day of the year.",
-        tip: "\"Do\" is a quick du, and keep \"ano\" nasal: Â-nu.",
+        tip: "\"Do\" is a quick doo, and keep \"ano\" nasal: Ã-noo.",
         explanation: "The day is seen as a finished whole, so \"foi\". The superlative is \"o pior\" + \"do ano\".",
       },
       {

@@ -16,7 +16,7 @@ export const PT_A2_U08: Lesson[] = [
         heading: "Vou viajar: plans with ir",
         body: [
           "You met this in A1: the present of \"ir\" plus an infinitive is how Brazilians talk about the future. Say \"eu vou\", \"você/ele/ela vai\", \"nós vamos\" (or \"a gente vai\"), \"vocês/eles/elas vão\", then the second verb in its dictionary form: \"vou viajar\", \"ela vai trabalhar\", \"eles vão comer\".",
-          "Nothing links the two verbs. English says going to; Portuguese has no to: \"vou estudar\", never \"vou a estudar\" or \"vou estudo\". Only an object pronoun can sit between them, as in Unit 6: \"vou te ligar\".",
+          "Nothing links the two verbs. English says going to; Portuguese has no to: \"vou estudar\", never \"vou a estudar\" or \"vou estudo\". Only an object pronoun can sit between them, as in Unit 7: \"vou te ligar\".",
         ],
         examples: [
           { es: "Vou visitar minha avó no sábado.", en: "I'm going to visit my grandmother on Saturday." },
@@ -87,7 +87,7 @@ export const PT_A2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Calma, vai dar tudo certo.",
-            tip: "\"Certo\" has an open é and a final o that sounds like u: SÉR-tu.",
+            tip: "\"Certo\" has an open é and a final o that sounds like oo: SÉR-too.",
             explanation: "\"Vai dar certo\" is the everyday way to say it'll work out, with \"vai\" and no subject.",
           },
         ],
@@ -213,7 +213,7 @@ export const PT_A2_U08: Lesson[] = [
         type: "speak",
         text: "Vou te ligar amanhã.",
         prompt: "Say it in Portuguese: I'll call you tomorrow.",
-        tip: "Watch \"amanhã\": the final ã is nasal, a-ma-NHÃ.",
+        tip: "Watch \"amanhã\": the final ã is nasal, a-ma-NYÃ.",
         explanation: "English I'll becomes \"vou\" + infinitive in speech, with \"te\" between the two verbs.",
       },
       {
@@ -539,7 +539,7 @@ export const PT_A2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Hoje à noite a gente janta na casa da Beatriz.",
-            tip: "In \"noite\" the t before the final i sounds like the ch in cheese: noi-tchi.",
+            tip: "In \"noite\" the t before the final i sounds like the ch in cheese: NOY-chee.",
             explanation: "\"A gente janta\": a gente takes the ele/ela form, and \"hoje à noite\" places it in the future.",
           },
         ],
@@ -898,7 +898,7 @@ export const PT_A2_U08: Lesson[] = [
         type: "speak",
         text: "Acho que vai fazer frio no domingo.",
         prompt: "Say it in Portuguese: I think it's going to be cold on Sunday.",
-        tip: "The ch in acho sounds like English sh, and the final o is closer to u: A-shu.",
+        tip: "The ch in acho sounds like English sh, and the final o is closer to oo: A-shoo.",
         explanation: "\"Acho que vai fazer frio\": a prediction with acho que and the everyday future.",
       },
       {
@@ -1141,7 +1141,7 @@ export const PT_A2_U08: Lesson[] = [
       {
         heading: "Scene 1: O que você vai fazer?",
         body: [
-          "A week before Carnaval, Beatriz runs into her friend Rafael at a padaria in Salvador and asks the question everyone asks in February: \"O que você vai fazer no Carnaval?\" The answer copies the pattern: \"vou\" + infinitive.",
+          "A week before Carnaval, Beatriz runs into her friend Rafael at a bakery in Salvador and asks the question everyone asks in February: \"O que você vai fazer no Carnaval?\" The answer copies the pattern: \"vou\" + infinitive.",
           "Rafael hates crowds: \"Vou ficar em casa\" (I'm going to stay home). Note \"em casa\" with no article; \"na casa\" means in the house. For destinations the neutral form is \"vou para a praia\". Casual \"vou ir para a praia\" is common too, but the short form is always safe.",
           "\"E você?\" sends the question back, and \"ainda não sei\" (I don't know yet) buys time.",
         ],
@@ -1331,7 +1331,7 @@ export const PT_A2_U08: Lesson[] = [
         type: "speak",
         text: "O que você vai fazer no Carnaval?",
         prompt: "Say it in Portuguese: What are you going to do for Carnaval?",
-        tip: "The final l in Carnaval sounds like a w: car-na-VAU.",
+        tip: "The final l in Carnaval sounds like a w: kar-na-VAW.",
         explanation: "\"Vai fazer\": \"ir\" + infinitive, the everyday way to ask about plans.",
       },
       {
@@ -1474,7 +1474,7 @@ export const PT_A2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Vou te ligar mais tarde.",
-            tip: "\"Te\" sounds like \"tchi\": final -e is said as i, and t before that i becomes ch.",
+            tip: "\"Te\" sounds like chee: final -e is said as ee, and t before that ee becomes ch.",
             explanation: "The everyday future with an object pronoun: \"vou te ligar\", with \"te\" between the two verbs.",
           },
         ],
@@ -1918,11 +1918,11 @@ export const PT_A2_U08: Lesson[] = [
       {
         heading: "Putting the post together",
         body: [
-          "Open with a greeting to your followers, \"Feliz Ano Novo, gente!\", or a title, \"Minhas metas para 2026\". List three or four short goals, then close with a prediction (\"acho que vai ser um ano incrível\") or a question that invites replies.",
+          "Open with a greeting to your followers, \"Feliz Ano Novo, gente!\", or a title, \"Minhas metas para o ano novo\". List three or four short goals, then close with a prediction (\"acho que vai ser um ano incrível\") or a question that invites replies.",
           "Keep it in \"vou\": the written future (\"viajarei\", \"farei\") makes a post sound like a speech. To sound honest rather than boastful, soften with \"vou tentar\" (I'm going to try) and \"pelo menos\" (at least).",
         ],
         examples: [
-          { es: "Feliz Ano Novo, gente! Minhas metas para 2026:", en: "Happy New Year, everyone! My goals for 2026:" },
+          { es: "Feliz Ano Novo, gente! Minhas metas para o ano novo:", en: "Happy New Year, everyone! My goals for the new year:" },
           { es: "Vou tentar acordar mais cedo.", en: "I'm going to try to wake up earlier." },
           { es: "Vou tentar ler pelo menos dez livros.", en: "I'm going to try to read at least ten books." },
           { es: "Acho que vai ser um ano incrível!", en: "I think it's going to be an amazing year!" },
@@ -2089,7 +2089,7 @@ export const PT_A2_U08: Lesson[] = [
         type: "speak",
         text: "No ano que vem, vou ser mais paciente.",
         prompt: "Say it in Portuguese: Next year I'm going to be more patient.",
-        tip: "In paciente, the final -te sounds like 'tchi': pa-si-EN-tchi.",
+        tip: "In paciente, the final -te sounds like chee: pa-see-ẼN-chee.",
         explanation: "\"Vou ser\" + \"mais\" + adjective turns a personal quality into a goal.",
       },
       {
@@ -2366,7 +2366,7 @@ export const PT_A2_U08: Lesson[] = [
         type: "speak",
         text: "Ontem eu fiquei em casa, mas amanhã eu vou sair.",
         prompt: "Say it in Portuguese: Yesterday I stayed home, but tomorrow I'm going to go out.",
-        tip: "Ontem ends in a nasal sound with no clear n or m, and the qu in \"fiquei\" is a plain k: fi-KEI.",
+        tip: "Ontem ends in a nasal sound with no clear n or m, and the qu in \"fiquei\" is a plain k: fee-KAY.",
         explanation: "Each time word picks its tense: \"ontem\" takes the perfeito \"fiquei\", and \"amanhã\" takes \"vou\" + infinitive.",
       },
       {

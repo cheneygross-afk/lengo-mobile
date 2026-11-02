@@ -59,7 +59,7 @@ export const PT_B2_U05: Lesson[] = [
         heading: "Que, quem, onde, quando: linking words",
         body: [
           "Words that open a subordinate clause also attract the pronoun. These are the relatives \"que\", \"quem\" and \"onde\", and conjunctions like \"quando\", \"se\", \"como\", \"porque\", \"embora\" and \"para que\". The pronoun then sits right before the verb of that clause: \"o livro que me emprestaram\", \"quando nos encontramos\".",
-          "This includes the \"se\" of impersonal and passive sentences. You know \"fala-se português\" from signs, but after a linking word the hyphen goes: \"o que se diz por aí\" (what people say), \"uma cidade onde se fala alemão\". English speakers who learned the sign form tend to copy the hyphen into every clause. The subjunctive clauses of Units 1-4 follow the same rule: \"embora me custe admitir\", \"se o encontrarem\".",
+          "This includes the \"se\" of impersonal and passive sentences. You know \"fala-se português\" from signs, but after a linking word the hyphen goes: \"o que se diz por aí\" (what people say), \"uma cidade onde se fala alemão\". English speakers who learned the sign form tend to copy the hyphen into every clause. The subjunctive clauses of the earlier B2 units follow the same rule: \"embora me custe admitir\", \"se o encontrarem\".",
         ],
         examples: [
           { es: "O livro que me emprestaram é ótimo.", en: "The book they lent me is great." },
@@ -115,7 +115,7 @@ export const PT_B2_U05: Lesson[] = [
           {
             type: "speak",
             text: "Sempre me perguntam a mesma coisa.",
-            tip: "Keep \"me\" unstressed and glued to the verb, like \"mi\": sempre-mi-perguntam. Make the final -am nasal.",
+            tip: "Keep \"me\" unstressed and glued to the verb, like \"mee\": sempre-mee-perguntam. Make the final -am nasal.",
             explanation: "\"Sempre\" pulls the pronoun forward: \"sempre me perguntam\". The verb with no subject gives the impersonal they.",
           },
         ],
@@ -180,7 +180,7 @@ export const PT_B2_U05: Lesson[] = [
         type: "speak",
         text: "Já o conheço.",
         prompt: "Say it in Portuguese (formal style): I already know him.",
-        tip: "The pronoun \"o\" is unstressed and sounds like u: já-u-conheço.",
+        tip: "The pronoun \"o\" is unstressed and sounds like oo: já-oo-conheço.",
         explanation: "\"Já\" attracts the pronoun: \"já o conheço\". In speech you'd also hear \"já conheço ele\".",
       },
       {
@@ -229,7 +229,7 @@ export const PT_B2_U05: Lesson[] = [
         body: [
           "In speech, Brazilians open sentences with a pronoun all the time: \"Me disseram que...\", \"Te ligo amanhã\". The written norm forbids this. A sentence never opens with an unstressed pronoun. If nothing comes before the verb, the pronoun goes after it, joined by a hyphen: \"Disseram-me\", \"Agradeço-lhe\", \"Escrevo-lhe\". This is ênclise.",
           "Last lesson's triggers still win: \"Não me disseram\" keeps the pronoun first because \"não\" pulls it. Ênclise is the default only when the verb opens the sentence and nothing attracts the pronoun.",
-          "The pronoun stays unstressed: \"disseram-me\" sounds like one word, dji-SÉ-rãw-mi. In a report, a formal email or a school essay, \"Me disseram\" at the start is marked wrong. In a WhatsApp message, \"Disseram-me\" sounds stiff.",
+          "The pronoun stays unstressed: \"disseram-me\" sounds like one word, jee-SÉ-rãw-mee. In a report, a formal email or a school essay, \"Me disseram\" at the start is marked wrong. In a WhatsApp message, \"Disseram-me\" sounds stiff.",
         ],
         examples: [
           { es: "Disseram-me que a reunião foi cancelada.", en: "I was told the meeting was canceled." },
@@ -258,7 +258,7 @@ export const PT_B2_U05: Lesson[] = [
           {
             type: "speak",
             text: "Escrevo-lhe para confirmar a data da reunião.",
-            tip: "Say \"escrevo-lhe\" as one word: the stress stays on cre, and \"lhe\" sounds like lhi.",
+            tip: "Say \"escrevo-lhe\" as one word: the stress stays on cre, and \"lhe\" sounds like lyee.",
             explanation: "\"Escrevo-lhe\": the verb opens the sentence, so \"lhe\" (to you, formal) comes after it.",
           },
         ],
@@ -402,7 +402,7 @@ export const PT_B2_U05: Lesson[] = [
         type: "speak",
         text: "Envio-lhe a proposta revisada em anexo.",
         prompt: "Say it in Portuguese (formal email): I'm sending you the revised proposal attached.",
-        tip: "Keep the stress on vi in \"envio\"; \"lhe\" is unstressed and sounds like lhi.",
+        tip: "Keep the stress on vi in \"envio\"; \"lhe\" is unstressed and sounds like lyee.",
         explanation: "\"Envio-lhe\": ênclise, because the verb opens the sentence.",
       },
       {
@@ -899,7 +899,7 @@ export const PT_B2_U05: Lesson[] = [
         type: "speak",
         text: "Tenho me sentido mais tranquilo.",
         prompt: "Say it in Portuguese: I've been feeling calmer.",
-        tip: "The t in sentido comes before i, so it sounds like ch in cheese: sen-TCHI-du.",
+        tip: "The t in sentido comes before i, so it sounds like ch in cheese: sẽ-CHEE-doo.",
         explanation: "\"Tenho me sentido\": the reflexive sits between \"ter\" and the participle.",
       },
     ],
@@ -1341,7 +1341,7 @@ export const PT_B2_U05: Lesson[] = [
         type: "speak",
         text: "Vi ele ontem no shopping.",
         prompt: "Say it in Portuguese, as in a voice message to a friend: I saw him yesterday at the mall.",
-        tip: "The first e of \"ele\" is closed, like ê, and the final e sounds like i.",
+        tip: "The first e of \"ele\" is closed, like ê, and the final e sounds like ee.",
         explanation: "In speech the object is \"ele\": \"vi ele\". In an email you'd write \"Eu o vi ontem\".",
       },
     ],
@@ -1555,7 +1555,7 @@ export const PT_B2_U05: Lesson[] = [
       {
         type: "speak",
         text: "O inquilino compromete-se a devolvê-lo em perfeito estado.",
-        tip: "Stress the closed ê in devolvê-lo: de-vol-VÊ-lo, with the pronoun unstressed.",
+        tip: "Stress the closed ê in devolvê-lo: de-vow-VÊ-loo, with the pronoun unstressed.",
         explanation: "\"Compromete-se\" has the pronoun attached after a noun subject, and \"devolvê-lo\" is \"devolver\" + \"o\".",
       },
       {
@@ -1803,7 +1803,7 @@ export const PT_B2_U05: Lesson[] = [
       {
         type: "speak",
         text: "Vamos resolvê-lo ainda hoje.",
-        tip: "Stress the closed ê: re-sol-VÊ-lo, like the ê in você. The lo is short and light.",
+        tip: "Stress the closed ê: he-zow-VÊ-loo, like the ê in você. The lo is short and light.",
         explanation: "\"Resolver\" + \"o\" gives \"resolvê-lo\": the r drops and the e takes a circumflex.",
       },
       {
@@ -1965,7 +1965,7 @@ export const PT_B2_U05: Lesson[] = [
           {
             type: "speak",
             text: "Agradeço-lhe a compreensão.",
-            tip: "The attached \"lhe\" is unstressed: a-gra-DE-ço-lhe. Say lh like the lli in million.",
+            tip: "The attached \"lhe\" is unstressed: a-gra-DÊ-soo-lyee. Say lh like the lli in million.",
             explanation: "\"Agradecer algo a alguém\": \"lhe\" is the indirect object (to you), placed after the verb because the sentence opens with it.",
           },
         ],
@@ -2039,7 +2039,7 @@ export const PT_B2_U05: Lesson[] = [
         type: "speak",
         text: "Pediram-me que o informasse.",
         prompt: "Say it in Portuguese, in a formal email to a male client: They asked me to inform you.",
-        tip: "Keep \"-me\" light and attached: pe-DJI-ram-mi. Stress -SSE in informasse.",
+        tip: "Keep \"-me\" light and attached: pe-JEE-rãw-mee. Stress -SSE in informasse.",
         explanation: "The spoken \"Me pediram pra te informar\" becomes \"Pediram-me que o informasse\". The client is \"o\", and the past request takes the imperfect subjunctive.",
       },
       {
@@ -2204,7 +2204,7 @@ export const PT_B2_U05: Lesson[] = [
           {
             type: "speak",
             text: "Se quisessem vendê-la, já a teriam anunciado.",
-            tip: "Stress the closed ê in vendê-la: ven-DÊ-la, not VEN-de-la.",
+            tip: "Stress the closed ê in vendê-la: vẽ-DÊ-la, not VẼ-de-la.",
             explanation: "\"-la\" attaches to the infinitive, and \"já\" pulls \"a\" before \"teriam\".",
           },
         ],

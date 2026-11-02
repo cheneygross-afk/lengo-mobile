@@ -358,7 +358,7 @@ export const PT_B1_U10: Lesson[] = [
         heading: "Durante o qual, sobre a qual: longer prepositions",
         body: [
           "After the short prepositions \"a\", \"de\", \"em\", \"com\" and \"por\", you can choose \"que\" or \"o qual\". After longer ones such as \"durante\", \"sobre\", \"entre\", \"sem\", \"contra\", \"segundo\" and \"através de\", only \"o qual\" sounds right: \"a reunião durante a qual ele dormiu\", never \"durante que\".",
-          "Watch out for \"sem\". \"Sem que\" is the conjunction from Unit 4 (\"sem que ele saiba\", without him knowing). Without which is \"sem o qual\" or \"sem a qual\". For people, \"quem\" still works after any preposition: \"a professora sobre quem escrevi\".",
+          "Watch out for \"sem\". \"Sem que\" is the conjunction from Unit 6 (\"sem que ele saiba\", without him knowing). Without which is \"sem o qual\" or \"sem a qual\". For people, \"quem\" still works after any preposition: \"a professora sobre quem escrevi\".",
         ],
         examples: [
           { es: "Foi uma reunião longa, durante a qual ninguém falou do orçamento.", en: "It was a long meeting, during which nobody talked about the budget." },
@@ -391,7 +391,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "speak",
             text: "O tema sobre o qual escrevi é a seca no Nordeste.",
-            tip: "In Brazil the final l of qual sounds like a u: kwau. Don't use a clear English l.",
+            tip: "In Brazil the final l of qual sounds like a w: kwau. Don't use a clear English l.",
             explanation: "\"Sobre o qual\": \"tema\" is masculine, and \"sobre\" calls for \"o qual\" rather than \"que\".",
           },
         ],
@@ -502,7 +502,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "speak",
         text: "Esses são os motivos pelos quais saí da empresa.",
         prompt: "Say it in Portuguese: These are the reasons why I left the company.",
-        tip: "Say pelos quais smoothly, and pronounce the final l of the singular qual like a u.",
+        tip: "Say pelos quais smoothly, and pronounce the final l of the singular qual like a w.",
         explanation: "\"Pelos quais\" is \"por\" + \"os quais\", plural to match \"motivos\".",
       },
       {
@@ -660,7 +660,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Aquele é o colega com cuja irmã eu viajei.",
-            tip: "Stress cuja on the first syllable, CU-ja. The j sounds like the s in pleasure.",
+            tip: "Stress cuja on the first syllable, KOO-zha. The j sounds like the s in pleasure.",
             explanation: "\"Viajar com\" puts \"com\" before \"cuja\", and \"cuja\" agrees with \"irmã\".",
           },
         ],
@@ -768,7 +768,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "speak",
         text: "Esse é o amigo cujo carro eu peguei emprestado.",
         prompt: "Say it in Portuguese: That's the friend whose car I borrowed.",
-        tip: "CU-jo, with the stress on the first syllable and a soft j, like the s in pleasure.",
+        tip: "KOO-zhoo, with the stress on the first syllable and a soft j, like the s in pleasure.",
         explanation: "\"Cujo carro\": masculine to match \"carro\". To borrow is \"pegar emprestado\".",
       },
       {
@@ -819,10 +819,10 @@ export const PT_B1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to say: The shop closed early, which was a problem. Which is right?",
+            question: "You want to say: The store closed early, which was a problem. Which is right?",
             options: ["A loja fechou cedo, o que foi um problema.", "A loja fechou cedo, que foi um problema.", "A loja fechou cedo, a qual foi um problema.", "A loja fechou cedo, o qual foi um problema."],
             correctIndex: 0,
-            explanation: "The problem is the early closing, not the shop, so only \"o que\" works. \"A qual\" would point to \"a loja\", and bare \"que\" can't sum up an idea.",
+            explanation: "The problem is the early closing, not the store, so only \"o que\" works. \"A qual\" would point to \"a loja\", and bare \"que\" can't sum up an idea.",
           },
         ],
       },
@@ -901,7 +901,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "speak",
             text: "O que eu quero é dormir.",
-            tip: "Say \"o que\" as one quick unit, u-ki, and keep the é open.",
+            tip: "Say \"o que\" as one quick unit, oo-kee, and keep the é open.",
             explanation: "\"O que eu quero é...\" puts what you want at the end, where the stress falls.",
           },
         ],
@@ -993,7 +993,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "speak",
         text: "Eu não entendi o que ele disse.",
         prompt: "Say it in Portuguese: I didn't understand what he said.",
-        tip: "In \"disse\" and \"entendi\" the d comes before an i sound, so it sounds like the j in jeep: DJI-si, en-ten-DJI.",
+        tip: "In \"disse\" and \"entendi\" the d comes before an i sound, so it sounds like the j in jeep: JEE-see, ẽ-tẽ-JEE.",
         explanation: "What he said is \"o que ele disse\", never \"que ele disse\".",
       },
       {
@@ -1099,7 +1099,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Aonde vocês vão no Carnaval?",
-            tip: "In \"aonde\" the on is nasal, and the d before the final e sounds like dj: a-ON-dji.",
+            tip: "In \"aonde\" the on is nasal, and the d before the final e sounds like j: a-Õ-jee.",
             explanation: "\"Aonde\" with \"ir\": the question is about a destination.",
           },
         ],
@@ -1271,7 +1271,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "speak",
         text: "De onde você é?",
         prompt: "Say it in Portuguese: Where are you from?",
-        tip: "In \"onde\" the d before the final e sounds like dj (ON-dji), and \"de\" sounds like dji too.",
+        tip: "In \"onde\" the d before the final e sounds like j (Õ-jee), and \"de\" sounds like jee too.",
         explanation: "\"De onde\" asks where from: \"ser de\" for origin, with \"de\" moved to the front.",
       },
       {
@@ -1492,7 +1492,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "speak",
         text: "A casa em que eu nasci fica em Belo Horizonte.",
         prompt: "Say it in Portuguese: The house I was born in is in Belo Horizonte.",
-        tip: "Run \"em que\" together, with a nasal em and que said like ki.",
+        tip: "Run \"em que\" together, with a nasal em and que said like kee.",
         explanation: "\"Em que\" is used for a thing after a short preposition, and \"ficar\" gives the location of a building or place.",
       },
       {
@@ -1594,7 +1594,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "speak",
             text: "O garçom que nos atendeu era de Recife.",
-            tip: "Recife starts with the h-like r, and its final e sounds like i: he-SÍ-fi.",
+            tip: "Recife starts with the h-like r, and its final e sounds like ee: he-SEE-fee.",
             explanation: "No preposition, so plain \"que\" for the waiter: \"o garçom que nos atendeu\".",
           },
         ],
@@ -1709,7 +1709,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "speak",
         text: "Esse é o restaurante de que eu te falei.",
         prompt: "Say it in Portuguese: That's the restaurant I told you about.",
-        tip: "In restaurante, the first r is h-like and the final te sounds like tchi.",
+        tip: "In restaurante, the first r is h-like and the final te sounds like chee.",
         explanation: "\"De que eu te falei\": the \"de\" of \"falar de\" comes before \"que\". \"Esse\" is the everyday that in Brazil.",
       },
       {
@@ -1751,7 +1751,7 @@ export const PT_B1_U10: Lesson[] = [
           { es: "A vizinha cuja filha estuda comigo é médica.", en: "The neighbor whose daughter studies with me is a doctor." },
           { es: "Conheci um rapaz cujos pais são de Manaus.", en: "I met a guy whose parents are from Manaus." },
           { es: "A professora cujo curso eu fiz se mudou para Curitiba.", en: "The teacher whose course I took moved to Curitiba." },
-          { es: "É uma rede de padarias cujas lojas abrem aos domingos.", en: "It's a bakery chain whose shops open on Sundays." },
+          { es: "É uma rede de padarias cujas lojas abrem aos domingos.", en: "It's a bakery chain whose stores open on Sundays." },
         ],
         checkpoint: [
           {
@@ -1851,7 +1851,7 @@ export const PT_B1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In a formal email you want to write: 2019, the year when the shop opened, was hard. Which do you write?",
+            question: "In a formal email you want to write: 2019, the year when the store opened, was hard. Which do you write?",
             options: [
               "2019, o ano onde a loja abriu, foi difícil.",
               "2019, o ano aonde a loja abriu, foi difícil.",
@@ -1897,7 +1897,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Ele não ligou, o que me preocupou.",
-            tip: "Pause at the comma, then say \"o que\" lightly, almost \"u ki\".",
+            tip: "Pause at the comma, then say \"o que\" lightly, almost \"oo kee\".",
             explanation: "\"O que\" after a comma sums up the whole idea: his not calling is what worried me.",
           },
         ],
@@ -2010,7 +2010,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "speak",
         text: "O restaurante de que te falei está fechado.",
         prompt: "Say it in Portuguese: The restaurant I told you about is closed.",
-        tip: "Both e's in \"de que\" are reduced: \"dji ki\".",
+        tip: "Both e's in \"de que\" are reduced: \"jee kee\".",
         explanation: "\"Falar de\" puts \"de que\" right after the noun; the preposition never waits at the end.",
       },
     ],
@@ -2161,7 +2161,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "speak",
             text: "O Rafael é um colega com quem trabalho há anos e em quem confio muito.",
-            tip: "The h in há is silent, and em quem runs together: \"ein-kein\", both nasal.",
+            tip: "The h in há is silent, and em quem runs together: \"ẽy-KẼY\", both nasal.",
             explanation: "Two relatives after prepositions on the same noun: \"com quem\" and \"e em quem\", each keeping its own preposition.",
           },
         ],
@@ -2360,7 +2360,7 @@ export const PT_B1_U10: Lesson[] = [
       {
         heading: "Known or unknown: que tem or que tenha",
         body: [
-          "The subjunctive rule from Unit 5 still applies after a preposition. A real, known person or thing takes the indicative (\"a professora com quem eu pratico\"). One you're still looking for, or that may not exist, takes the subjunctive (\"alguém com quem eu possa praticar\").",
+          "The subjunctive rule from Unit 7 still applies after a preposition. A real, known person or thing takes the indicative (\"a professora com quem eu pratico\"). One you're still looking for, or that may not exist, takes the subjunctive (\"alguém com quem eu possa praticar\").",
           "Negatives and questions about whether something exists are the clearest triggers: \"não conheço ninguém em quem eu confie\", \"tem algum lugar onde a gente possa estacionar?\". Once you've found it, it's real, so the indicative follows: \"achei um apartamento que tinha varanda\".",
         ],
         examples: [
@@ -2440,7 +2440,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "speak",
             text: "O voo atrasou, o que me fez perder a conexão.",
-            tip: "In \"conexão\" the x sounds like ks (co-nek-SÃO), and \"voo\" is two closed o's run together.",
+            tip: "In \"conexão\" the x sounds like ks (ko-nek-SÃW), and \"voo\" is two closed o's run together.",
             explanation: "\"O que\" sums up the whole event: the flight being late.",
           },
         ],

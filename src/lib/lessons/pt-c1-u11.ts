@@ -350,7 +350,6 @@ export const PT_C1_U11: Lesson[] = [
             en: "She saved money for years to buy her [certificate of manumission].",
             sentence: "Ela juntou dinheiro durante anos para comprar a sua ___.",
             answer: "carta de alforria",
-            altAnswers: ["alforria"],
             explanation: "\"A alforria\" is manumission, and \"a carta de alforria\" is the document that proved it. Many enslaved people paid for their own freedom this way.",
           },
           {
@@ -365,7 +364,7 @@ export const PT_C1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Zumbi dos Palmares foi morto em 20 de novembro de 1695.",
-            tip: "Say the year as mil seiscentos e noventa e cinco, and keep the um in Zumbi nasal, with no full m sound.",
+            tip: "Say the year as \"mil seiscentos e noventa e cinco\", and keep the \"um\" in \"Zumbi\" nasal, with no full m sound: zũ-BEE.",
             explanation: "\"Foi morto\": the passive of \"matar\" uses the short participle \"morto\", not \"matado\".",
           },
         ],
@@ -436,7 +435,6 @@ export const PT_C1_U11: Lesson[] = [
         en: "The Lei do Ventre Livre declared free the children born to [enslaved] women.",
         sentence: "A Lei do Ventre Livre declarou livres os filhos nascidos de mulheres ___.",
         answer: "escravizadas",
-        altAnswers: ["escravas"],
         explanation: "\"Escravizadas\" agrees with \"mulheres\" and is the preferred term today. In practice these children stayed under the master's control until they were young adults, which is why historians qualify this law.",
       },
       {
@@ -465,7 +463,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "A abolição veio sem terra, sem indenização e sem escola.",
         prompt: "Say it in Portuguese: Abolition came without land, compensation or schooling.",
-        tip: "Each sem is a nasal sound with no full m. Make the ão in indenização nasal too.",
+        tip: "Each \"sem\" is a nasal sound with no full m. Make the \"ão\" in \"indenização\" nasal too.",
         explanation: "Repeating \"sem\" before each noun is natural and adds rhetorical weight. \"Indenização\" is compensation.",
       },
       {
@@ -752,7 +750,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "O golpe de 1964 derrubou João Goulart.",
         prompt: "Say it in Portuguese: The 1964 coup overthrew João Goulart.",
-        tip: "In \"golpe\" the l sounds like u and the final e like i (GÓU-pi). Read the year as \"mil novecentos e sessenta e quatro\".",
+        tip: "In \"golpe\" the l sounds like u and the final e like ee (GOW-pee). Read the year as \"mil novecentos e sessenta e quatro\".",
         explanation: "\"Derrubar\" (to bring down) is the usual verb for overthrowing a government in a coup.",
       },
       {
@@ -998,7 +996,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "Comprei abacaxi, caju e maracujá na feira.",
         prompt: "Say it in Portuguese: I bought pineapple, cashew fruit and passion fruit at the market.",
-        tip: "All three fruits are stressed on the last syllable: a-ba-ca-XI, ca-JU, ma-ra-cu-JÁ. The x in abacaxi sounds like English sh.",
+        tip: "All three fruits are stressed on the last syllable: a-ba-ka-SHEE, ka-ZHOO, ma-ra-koo-ZHA. The x in \"abacaxi\" sounds like English sh.",
         explanation: "All three are Tupi words for fruits that Europeans had no names for.",
       },
     ],
@@ -1055,7 +1053,7 @@ export const PT_C1_U11: Lesson[] = [
             sentence: "No censo, ela ___ parda.",
             answer: "se declara",
             altAnswers: ["se autodeclara"],
-            explanation: "\"Declarar-se\" / \"autodeclarar-se\": the census relies on self-identification. \"Parda\" agrees with \"ela\".",
+            explanation: "\"Declarar-se\" or \"autodeclarar-se\": the census relies on self-identification. \"Parda\" agrees with \"ela\".",
           },
         ],
       },
@@ -1226,7 +1224,7 @@ export const PT_C1_U11: Lesson[] = [
       {
         type: "dictation",
         audio: "Os povos indígenas não são todos iguais.",
-        explanation: "\"Povos\" has an open ó in the plural (PÓ-vos), unlike the closed ô of \"povo\".",
+        explanation: "\"Povos\" has an open ó in the plural (PÓ-voos), unlike the closed ô of \"povo\".",
       },
       {
         type: "matching",
@@ -1244,7 +1242,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "Desculpa, como você se identifica?",
         prompt: "Say it in Portuguese: Sorry, how do you identify?",
-        tip: "In \"identifica\" the d before e stays plain, but the t before i sounds like the ch in cheese: ĩ-dẽ-tchi-FI-ka.",
+        tip: "In \"identifica\" the d before e stays plain, but the t before i sounds like the ch in cheese: ĩ-dẽ-chee-FEE-ka.",
         explanation: "Asking lets the other person name themselves, which is the principle behind \"autodeclaração\".",
       },
       {
@@ -1402,7 +1400,7 @@ export const PT_C1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Em 1984, milhões de brasileiros vão às ruas pelas Diretas Já.",
-            tip: "In \"Diretas\" the d before i sounds like dj, and \"Já\" is stressed and open.",
+            tip: "In \"Diretas\" the di sounds like jee (jee-RÉ-tas), and \"Já\" is stressed and open.",
             explanation: "This is the historical present of documentary narration: \"vão às ruas\", with a crase because \"ruas\" is feminine.",
           },
         ],
@@ -1487,7 +1485,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "Proclamada a República, a família imperial parte para o exílio.",
         prompt: "Say it in Portuguese (documentary narration, historical present): Once the Republic is proclaimed, the imperial family leaves for exile.",
-        tip: "In \"exílio\" the x sounds like z: e-ZÍ-liu.",
+        tip: "In \"exílio\" the x sounds like z: e-ZEE-lyoo.",
         explanation: "The participle clause works in either frame. Here the main verb is in the historical present: \"parte\".",
       },
       {
@@ -1627,7 +1625,7 @@ export const PT_C1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Em 84, eu fui às Diretas Já com a sua mãe no colo.",
-            tip: "\"Mãe\" is a nasal diphthong: say ãe through the nose, with no n at the end. \"Colo\" has an open ó.",
+            tip: "\"Mãe\" is a nasal diphthong: say ãe through the nose, with no n at the end. \"Colo\" has an open ó: KÓ-loo.",
             explanation: "\"Fui às Diretas Já\": \"ir a\" + \"as\" (the rallies) gives the crase \"às\".",
           },
           {
@@ -1708,7 +1706,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "Vó, você tinha medo naquela época?",
         prompt: "Say it in Portuguese: Grandma, were you scared back then?",
-        tip: "\"Medo\" has a closed ê, and its final -o sounds like u: MÊ-du.",
+        tip: "\"Medo\" has a closed ê, and its final -o sounds like oo: MÊ-doo.",
         explanation: "The imperfeito \"tinha medo\" describes a feeling that lasted for years, not a single moment.",
       },
       {
@@ -1954,7 +1952,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "Ninguém descobre uma terra onde milhões de pessoas já viviam.",
         prompt: "Say it in Portuguese: Nobody discovers a land where millions of people already lived.",
-        tip: "Let the final -e of \"descobre\" and \"onde\" sound like i, and keep the \"ões\" of \"milhões\" nasal.",
+        tip: "Let the final -e of \"descobre\" and \"onde\" sound like ee, and keep the \"ões\" of \"milhões\" nasal.",
         explanation: "This is the core argument against an unqualified \"descobrimento\". The imperfeito \"viviam\" sets the ongoing background.",
       },
       {
@@ -2026,7 +2024,7 @@ export const PT_C1_U11: Lesson[] = [
       {
         heading: "The story: cause, not a list of dates",
         body: [
-          "A panel that only lists dates teaches nothing. Each event should lead to the next, so join them with cause and consequence: \"com isso\", \"em consequência\", \"por isso\", or \"o\" \"que\" referring to the whole previous idea. The move of the capital from Salvador to Rio de Janeiro in 1763 only makes sense once the reader knows where the gold was going.",
+          "A panel that only lists dates teaches nothing. Each event should lead to the next, so join them with cause and consequence: \"com isso\", \"em consequência\", \"por isso\", or \"o que\" referring to the whole previous idea. The move of the capital from Salvador to Rio de Janeiro in 1763 only makes sense once the reader knows where the gold was going.",
           "Your compression tools from earlier units fit the genre. Use participle clauses (\"descoberto o ouro\", agreeing with the noun), the passive (\"foi fundada\") and the historical present. Choose one narrative tense per paragraph. The perfeito is the safe default; the historical present gives immediacy to a single dramatic episode.",
           "Wall text is read on foot, so keep sentences under about 25 words, with one reduced clause each. Three stacked clauses work in a thesis but exhaust a reader in a gallery.",
         ],
@@ -2220,7 +2218,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "Hoje, as ruas de Ouro Preto guardam as marcas dessa riqueza.",
         prompt: "Say it in Portuguese: Today, the streets of Ouro Preto still bear the marks of that wealth.",
-        tip: "The r at the start of \"ruas\" and \"riqueza\" is the h-like sound, and \"de\" before \"Ouro\" sounds like dji.",
+        tip: "The r at the start of \"ruas\" and \"riqueza\" is the h-like sound, and \"de\" before \"Ouro\" sounds like jee.",
         explanation: "\"Hoje\" moves the closing paragraph into the visitor's present. \"Dessa\" is \"de\" + \"essa\", pointing back to the wealth just described.",
       },
     ],
@@ -2351,7 +2349,7 @@ export const PT_C1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Os povos indígenas já viviam aqui muito antes de 1500.",
-            tip: "Stress the DÍ: ĩ-DJÍ-je-nas. In most of Brazil the d before í sounds like dj, and the g before e like the s in measure.",
+            tip: "In \"indígenas\", stress the second syllable: ĩ-JEE-zhe-nas. The dí sounds like jee, and the g before e like the s in measure.",
             explanation: "\"Já viviam\": the imperfeito for a state that lasted, with \"já\" stressing that they were there first.",
           },
         ],
@@ -2439,7 +2437,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "O movimento Diretas Já levou milhões de pessoas às ruas.",
         prompt: "Say it in Portuguese: The Diretas Já movement brought millions of people onto the streets.",
-        tip: "In Brazil \"às\" sounds just like \"as\": the crase shows in writing, not in speech. Keep the ões of \"milhões\" nasal.",
+        tip: "In Brazil \"às\" sounds just like \"as\": the crase shows in writing, not in speech. Keep the \"ões\" of \"milhões\" nasal.",
         explanation: "\"Levar às ruas\": the crase marks the preposition \"a\" fused with the article \"as\".",
       },
       {

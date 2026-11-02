@@ -16,7 +16,7 @@ export const PT_A1_U03: Lesson[] = [
         heading: "O, a, um, uma: every noun has a gender",
         body: [
           "Every Portuguese noun is masculine or feminine, even objects. \"O livro\" (the book) is masculine; \"a casa\" (the house) is feminine. The article shows the gender: the is \"o\" or \"a\", and a or an is \"um\" or \"uma\": \"um carro\" (a car), \"uma mesa\" (a table).",
-          "English has nothing like this, so the trap is learning \"mesa\" alone and guessing the gender later. Learn every noun with its article, as one chunk: not mesa = table, but \"a mesa\" = the table.",
+          "English has nothing like this, so the trap is learning \"mesa\" alone and guessing the gender later. Learn every noun with its article, as one chunk: not mesa for table, but \"a mesa\" for the table.",
           "Brazilians also put \"o\" or \"a\" before first names (\"o João\", \"a Beatriz\"). Jobs after \"ser\" still take no article: \"ela é médica\".",
         ],
         examples: [
@@ -549,7 +549,7 @@ export const PT_A1_U03: Lesson[] = [
       {
         heading: "A few go before the noun",
         body: [
-          "A few very common adjectives normally go before the noun: \"bom\" / \"boa\" (good), \"primeiro\" (first) and \"último\" (last). So \"um bom amigo\", \"uma boa ideia\", \"o primeiro dia\".",
+          "A few very common adjectives normally go before the noun: \"bom\" or \"boa\" (good), \"primeiro\" (first) and \"último\" (last). So \"um bom amigo\", \"uma boa ideia\", \"o primeiro dia\".",
           "Some adjectives change meaning with position. After the noun, \"grande\" means big: \"uma cidade grande\". Before it, it means great: \"uma grande cidade\". \"Velho\" works the same way: \"um amigo velho\" is an elderly friend, \"um velho amigo\" is a friend you've had for years.",
         ],
         examples: [
@@ -579,7 +579,7 @@ export const PT_A1_U03: Lesson[] = [
           {
             type: "speak",
             text: "É uma boa ideia.",
-            tip: "The o in boa is closed, like the o in 'go'. Stress ideia on the middle, with an open é: i-DÉI-a.",
+            tip: "The o in boa is closed, like the o in 'go'. Stress ideia on the middle, with an open é: 'ee-DÉY-ah'.",
             explanation: "\"Boa\" is the feminine of \"bom\" and goes before \"ideia\", a feminine noun.",
           },
         ],
@@ -780,7 +780,7 @@ export const PT_A1_U03: Lesson[] = [
           {
             type: "speak",
             text: "Estou bem, e você?",
-            tip: "The ou in estou sounds like a closed ô: es-TÔ. Stress the last syllable of você.",
+            tip: "The ou in estou sounds like a closed ô: 'es-TÔ'. Stress the last syllable of você.",
             explanation: "\"Estou bem\" answers how you are, and \"e você?\" turns the question back.",
           },
         ],
@@ -907,7 +907,7 @@ export const PT_A1_U03: Lesson[] = [
         type: "speak",
         text: "Estamos no trabalho.",
         prompt: "Say it in Portuguese: We're at work.",
-        tip: "Stress the middle syllable, es-TA-mos: the a before m is slightly nasal, and the final o sounds like u.",
+        tip: "Stress the middle syllable, 'es-TÃ-moos': the a before m is slightly nasal, and the final o sounds like oo.",
         explanation: "\"Estamos\" already means we are, so \"nós\" isn't needed. \"No trabalho\" is at work.",
       },
       {
@@ -1007,7 +1007,7 @@ export const PT_A1_U03: Lesson[] = [
           {
             type: "speak",
             text: "Estou com frio.",
-            tip: "The final o in frio sounds like u: FRI-u.",
+            tip: "The final o in frio sounds like oo: 'FREE-oo'.",
             explanation: "\"Estou com frio\" says how you feel. \"Está frio\" describes the weather.",
           },
         ],
@@ -1130,7 +1130,7 @@ export const PT_A1_U03: Lesson[] = [
         type: "speak",
         text: "Onde está o banco?",
         prompt: "Say it in Portuguese: Where's the bank?",
-        tip: "The d in onde sounds like j before the final e, which is said as i: 'ON-jee'.",
+        tip: "The d in onde sounds like j before the final e, which is said as i: 'Õ-jee'.",
         explanation: "\"Onde está o banco?\": where comes first, then the verb, then the thing.",
       },
       {
@@ -1426,7 +1426,7 @@ export const PT_A1_U03: Lesson[] = [
         heading: "Agreement and plurals: a casa bonita, as mãos",
         body: [
           "English adjectives never change, so learners forget the ending. In Portuguese the adjective copies the noun. \"A casa\" is feminine, so it's \"a casa bonita\", not \"a casa bonito\". Check the noun first, then the adjective.",
-          "\"Os pães\" means several bread rolls. At the padaria, for one roll say \"um pão\". And -ão words have three plurals that you learn word by word: \"pão\" → \"pães\", \"lição\" → \"lições\", \"mão\" → \"mãos\". \"Mãoes\" mixes two of them and isn't a word.",
+          "\"Os pães\" means several bread rolls. At the padaria, for one roll say \"um pão\". And -ão words have three plurals that you learn word by word: \"pão\" becomes \"pães\", \"lição\" becomes \"lições\", \"mão\" becomes \"mãos\". \"Mãoes\" mixes two of them and isn't a word.",
         ],
         examples: [
           { es: "A casa é bonita.", en: "The house is pretty." },
@@ -1495,7 +1495,7 @@ export const PT_A1_U03: Lesson[] = [
           {
             type: "speak",
             text: "O Rafael é de Recife, mas está em Curitiba.",
-            tip: "In most of Brazil \"de\" sounds like 'jee', and the final e of \"Recife\" sounds like an i.",
+            tip: "In most of Brazil \"de\" sounds like 'jee', and \"Recife\" ends in an ee sound: 'heh-SEE-fee'.",
             explanation: "Origin takes \"ser de\". Where he is now takes \"estar em\". Both verbs fit in one sentence.",
           },
         ],
@@ -1587,7 +1587,7 @@ export const PT_A1_U03: Lesson[] = [
         type: "speak",
         text: "Os problemas são pequenos.",
         prompt: "Say it in Portuguese: The problems are small.",
-        tip: "Final -os in \"problemas\" and \"pequenos\" sounds like 'us'.",
+        tip: "Final -os in \"problemas\" and \"pequenos\" sounds like 'oos'.",
         explanation: "\"Os problemas\": masculine plural, so the adjective is \"pequenos\".",
       },
       {

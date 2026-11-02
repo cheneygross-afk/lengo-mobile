@@ -21,7 +21,7 @@ export const PT_C2_U09: Lesson[] = [
         examples: [
           { es: "A maioria dos alunos chegou atrasada.", en: "Most of the students arrived late." },
           { es: "A maioria dos alunos chegaram atrasados.", en: "Most of the students arrived late (stressing the individuals)." },
-          { es: "Metade dos funcionários está de férias.", en: "Half the staff are on vacation." },
+          { es: "Metade dos funcionários está de férias.", en: "Half the staff is on vacation." },
           { es: "A maioria votou contra a proposta.", en: "The majority voted against the proposal." },
           { es: "Um grupo de turistas se perdeu no centro de Salvador.", en: "A group of tourists got lost in downtown Salvador." },
         ],
@@ -803,7 +803,7 @@ export const PT_C2_U09: Lesson[] = [
         type: "speak",
         text: "A loja abre de segunda a sexta, das nove às seis.",
         prompt: "Say it in Portuguese: The store is open Monday to Friday, from nine to six.",
-        tip: "\"Às\" sounds exactly like \"as\": the crase is only in the spelling. Keep the stress on se-GUN-da.",
+        tip: "\"Às\" sounds exactly like \"as\": the crase is only in the spelling. Keep the stress on se-GŨN-da.",
         explanation: "\"De segunda a sexta\" has no articles and no crase. \"Das nove às seis\" has articles on both ends, so the closing \"às\" carries the crase.",
       },
       {
@@ -1080,7 +1080,7 @@ export const PT_C2_U09: Lesson[] = [
         type: "speak",
         text: "Posso te fazer uma pergunta?",
         prompt: "Say it in Portuguese: Can I ask you a question?",
-        tip: "Unstressed \"te\" sounds like \"tchi\" in most of Brazil, so say \"posso tchi fazer\".",
+        tip: "Unstressed \"te\" sounds like 'chee' in most of Brazil, so say PÓ-soo chee fa-ZÊR.",
         explanation: "\"Fazer uma pergunta\" is ask a question. In speech the pronoun goes before the infinitive: \"posso te fazer\".",
       },
       {
@@ -1196,7 +1196,7 @@ export const PT_C2_U09: Lesson[] = [
       {
         heading: "Mal / mau and a fim / afim",
         body: [
-          "In Brazil final l sounds like u, so \"mal\" and \"mau\" are homophones. \"Mal\" is the opposite of \"bem\". It is an adverb (\"dormi mal\"), a noun (\"o mal\", \"os males\") and the conjunction meaning as soon as from B2 (\"mal cheguei, começou a chover\"). \"Mau\" is the opposite of \"bom\": an adjective, feminine \"má\" (\"mau humor\", \"má notícia\"). Swap in bem or bom and the spelling follows.",
+          "In Brazil final l sounds like 'w', so \"mal\" and \"mau\" are homophones. \"Mal\" is the opposite of \"bem\". It is an adverb (\"dormi mal\"), a noun (\"o mal\", \"os males\") and the conjunction meaning as soon as from B2 (\"mal cheguei, começou a chover\"). \"Mau\" is the opposite of \"bom\": an adjective, feminine \"má\" (\"mau humor\", \"má notícia\"). Swap in bem or bom and the spelling follows.",
           "Compounds are where near-natives slip: \"de mau humor\" but \"mal-humorado\", \"mal-educado\", \"mal-entendido\", because their opposites are \"bem-humorado\" and \"bem-educado\". \"Mal\" modifies an adjective or participle; \"mau\" qualifies a noun.",
           "\"A fim de\" is three words and means in order to. In speech, \"estar a fim de\" means to feel like something or to have a crush on someone. \"Afim\", one word, is an adjective meaning related or akin, plural \"afins\": \"áreas afins\". \"Estou afim de sair\", seen everywhere online, is a misspelling.",
         ],
@@ -1408,7 +1408,7 @@ export const PT_C2_U09: Lesson[] = [
         ],
         examples: [
           { es: "A Beatriz estava meio nervosa antes da entrevista.", en: "Beatriz was a bit nervous before the interview. (\"Meio\" is an adverb here, so never \"meia nervosa\".)" },
-          { es: "Esperamos meia hora na fila do banco.", en: "We waited half an hour in the line at the bank. (\"Meia\" is the adjective half and agrees with \"hora\".)" },
+          { es: "Esperamos meia hora na fila do banco.", en: "We waited half an hour in line at the bank. (\"Meia\" is the adjective half and agrees with \"hora\".)" },
           { es: "Este ano houve menos reclamações.", en: "There were fewer complaints this year. (\"Menos\" is the same before every noun.)" },
           { es: "Seguem anexas as duas propostas.", en: "Please find the two proposals attached. (\"Anexas\" agrees with \"propostas\".)" },
           { es: "É proibida a entrada de animais.", en: "No animals allowed. (With \"a\", \"proibida\" agrees. Without the article it's \"é proibido entrada\".)" },
@@ -2055,7 +2055,7 @@ export const PT_C2_U09: Lesson[] = [
           {
             type: "speak",
             text: "Daqui a dois meses teremos os números.",
-            tip: "Run \"daqui a\" together (da-KI-a), and keep the e in \"teremos\" closed: te-RÊ-mus.",
+            tip: "Run \"daqui a\" together (da-KEE-a), and keep the e in \"teremos\" closed: te-RÊ-moos.",
             explanation: "\"Daqui a\" looks forward in time, so it takes \"a\" with no h. \"Há\" would point to the past.",
           },
         ],
@@ -2159,7 +2159,7 @@ export const PT_C2_U09: Lesson[] = [
         type: "speak",
         text: "Menos clientes reclamaram este mês.",
         prompt: "Say it in Portuguese: Fewer customers complained this month.",
-        tip: "Keep the first e of \"menos\" closed (MÊ-nus), and stress \"reclamaram\" on the second-to-last syllable: re-cla-MA-ram.",
+        tip: "Keep the first e of \"menos\" closed (MÊ-noos), and stress \"reclamaram\" on the second-to-last syllable: he-kla-MA-rãw.",
         explanation: "\"Menos\" never changes for gender or number: \"menos clientes\", \"menos reclamações\".",
       },
     ],
@@ -2295,7 +2295,7 @@ export const PT_C2_U09: Lesson[] = [
           {
             type: "speak",
             text: "No geral está ótimo; as mudanças são pontuais.",
-            tip: "Open the ó in ótimo, and stress the last syllable of pontuais: pon-tu-AIS.",
+            tip: "Open the ó in ótimo, and stress the last syllable of pontuais: põn-too-AIS.",
             explanation: "\"Pontuais\" here means minor, specific, not punctual: a covering line that reassures the writer.",
           },
         ],
@@ -2396,7 +2396,7 @@ export const PT_C2_U09: Lesson[] = [
         type: "speak",
         text: "Sugiro colocar no plural.",
         prompt: "Say it in Portuguese: I suggest putting it in the plural.",
-        tip: "The final l in plural sounds like a u in Brazil: plu-RAU.",
+        tip: "The final l in plural sounds like 'w' in Brazil: ploo-RAW.",
         explanation: "\"Sugiro\" + infinitive is the standard soft opener for a proofreading comment.",
       },
     ],

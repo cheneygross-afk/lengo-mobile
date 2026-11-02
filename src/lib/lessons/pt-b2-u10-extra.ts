@@ -314,7 +314,7 @@ export const PT_B2_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "Foi um simples mal-entendido.",
         prompt: "Say it in Portuguese: It was a mere misunderstanding.",
-        tip: "Mal-entendido: mau-en-ten-DJI-du.",
+        tip: "Mal-entendido: maw-ẽ-tẽ-JEE-doo.",
         explanation: "\"Simples\" before the noun means mere: \"um simples mal-entendido\". \"Mal-entendido\" keeps its hyphen, and \"mal\" sounds like \"mau\" in Brazil.",
       },
       {
@@ -477,8 +477,8 @@ export const PT_B2_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "Que golaço!",
         prompt: "Say it in Portuguese: What a great goal!",
-        tip: "Golaço: go-LA-su.",
-        explanation: "The suffix \"-aço\" adds admiration: \"golaço\" is a great goal. It is pronounced \"go-LA-su\", with the stress on -la-.",
+        tip: "Golaço: go-LA-soo.",
+        explanation: "The suffix \"-aço\" adds admiration: \"golaço\" is a great goal. It is pronounced \"go-LA-soo\", with the stress on -la-.",
       },
       {
         type: "matching",

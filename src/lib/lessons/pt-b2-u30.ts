@@ -101,12 +101,12 @@ export const PT_B2_U30: Lesson[] = [
         heading: "The levels and the holistic grid",
         body: [
           "There is one exam for everyone, and your performance places you at a level: \"Intermediário\", \"Intermediário Superior\", \"Avançado\" or \"Avançado Superior\". Below Intermediário, there's no certificate. The certificate reflects both parts, so a brilliant written part won't rescue a weak interview. Many universities and professional bodies ask for a specific level, often Intermediário Superior.",
-          "The texts are marked \"holisticamente\": the examiner reads the whole and asks, in order, does it do what the task asked, for the right reader, in the right genre, using the source's information? Then: is it organized and cohesive? Then: is the language adequate, varied and accurate? Grammar matters, but it's the last question, not the first.",
+          "The texts are scored \"holisticamente\": the examiner reads the whole and asks, in order, does it do what the task asked, for the right reader, in the right genre, using the source's information? Then: is it organized and cohesive? Then: is the language adequate, varied and accurate? Grammar matters, but it's the last question, not the first.",
         ],
         examples: [
           { es: "Para entrar no mestrado, preciso do nível Intermediário Superior.", en: "To get into the master's program, I need the Intermediário Superior level." },
           { es: "O texto é avaliado como um todo.", en: "The text is assessed as a whole." },
-          { es: "Um texto bem escrito que não cumpre a tarefa recebe uma nota baixa.", en: "A well-written text that doesn't do the task gets a low mark." },
+          { es: "Um texto bem escrito que não cumpre a tarefa recebe uma nota baixa.", en: "A well-written text that doesn't do the task gets a low grade." },
           { es: "O examinador lê o texto como se fosse o leitor indicado no enunciado.", en: "The examiner reads the text as if he were the reader named in the instructions." },
           { es: "O certificado leva em conta as duas partes do exame.", en: "The certificate takes both parts of the exam into account." },
         ],
@@ -126,7 +126,7 @@ export const PT_B2_U30: Lesson[] = [
             en: "The examiner reads the text [as if he were] the reader named in the task.",
             sentence: "O examinador lê o texto ___ o leitor indicado na tarefa.",
             answer: "como se fosse",
-            explanation: "\"Como se\" always takes the imperfect subjunctive: \"como se fosse\".",
+            explanation: "For a situation at the same time, \"como se\" takes the imperfect subjunctive: \"como se fosse\" (for an earlier one, the pluperfect: \"como se tivesse sido\").",
           },
           {
             type: "speak",
@@ -181,7 +181,7 @@ export const PT_B2_U30: Lesson[] = [
           "It scores low, because it doesn't do what the task asked.",
           "It scores high, because the grammar is perfect.",
           "It scores high, because it uses all the information.",
-          "It isn't marked at all.",
+          "It isn't scored at all.",
         ],
         correctIndex: 0,
         explanation: "The grid starts with the task: purpose, reader and genre. Accuracy can't make up for a text that does the wrong job.",
@@ -198,10 +198,10 @@ export const PT_B2_U30: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "A well-written text that doesn't do the task gets a low mark.",
+        source: "A well-written text that doesn't do the task gets a low grade.",
         answer: "Um texto bem escrito que não cumpre a tarefa recebe uma nota baixa.",
         altAnswers: ["Um texto bem escrito que não cumpre a tarefa tem uma nota baixa.", "Um texto bem escrito que não cumpre a tarefa ganha uma nota baixa.", "Um texto bem escrito que não cumpre a tarefa tira uma nota baixa.", "Um texto bem escrito que não realiza a tarefa recebe uma nota baixa."],
-        explanation: "\"Cumprir a tarefa\" is to fulfill the task; a mark is \"uma nota\".",
+        explanation: "\"Cumprir a tarefa\" is to fulfill the task; a grade is \"uma nota\".",
       },
       {
         type: "translate",
@@ -297,7 +297,7 @@ export const PT_B2_U30: Lesson[] = [
         ],
         examples: [
           { es: "Escreva um e-mail convidando seu amigo a participar do projeto.", en: "Write an email inviting your friend to join the project." },
-          { es: "Escreva uma carta do leitor criticando a decisão da prefeitura.", en: "Write a reader's letter criticizing the city council's decision." },
+          { es: "Escreva uma carta do leitor criticando a decisão da prefeitura.", en: "Write a reader's letter criticizing City Hall's decision." },
           { es: "Apresente pelo menos três vantagens do trabalho remoto.", en: "Present at least three advantages of remote work." },
           { es: "Com base no texto, sugira soluções para o problema.", en: "Based on the text, suggest solutions to the problem." },
           { es: "O propósito do texto é convencer os leitores.", en: "The purpose of the text is to persuade the readers." },
@@ -494,7 +494,7 @@ export const PT_B2_U30: Lesson[] = [
         examples: [
           { es: "Prezados editores,", en: "Dear editors," },
           { es: "Li com interesse a reportagem sobre o fechamento da biblioteca, publicada no dia 10.", en: "I read with interest the report on the closure of the library, published on the 10th." },
-          { es: "Discordo totalmente da decisão da prefeitura.", en: "I completely disagree with the city council's decision." },
+          { es: "Discordo totalmente da decisão da prefeitura.", en: "I completely disagree with City Hall's decision." },
           { es: "Como leitora e moradora do bairro, gostaria de propor uma alternativa.", en: "As a reader and a resident of the neighborhood, I'd like to propose an alternative." },
           { es: "Mariana Souza, Campinas (SP)", en: "Mariana Souza, Campinas (São Paulo state)" },
         ],
@@ -503,10 +503,10 @@ export const PT_B2_U30: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I completely disagree with the council's decision.",
+            source: "I completely disagree with City Hall's decision.",
             answer: "Discordo totalmente da decisão da prefeitura.",
             altAnswers: ["Eu discordo totalmente da decisão da prefeitura.", "Discordo completamente da decisão da prefeitura.", "Eu discordo completamente da decisão da prefeitura.", "Não concordo com a decisão da prefeitura.", "Discordo totalmente da decisão da Prefeitura."],
-            explanation: "\"Discordar de\" takes \"de\": \"da decisão\". A city council or mayor's office is \"a prefeitura\".",
+            explanation: "\"Discordar de\" takes \"de\": \"da decisão\". City Hall, the mayor's office, is \"a prefeitura\"; City Hall is \"a Câmara Municipal\".",
           },
           {
             type: "fill-blank",
@@ -540,7 +540,7 @@ export const PT_B2_U30: Lesson[] = [
             source: "I request that the amount be refunded within five business days.",
             answer: "Solicito que o valor seja devolvido em até cinco dias úteis.",
             altAnswers: ["Solicito que o valor seja reembolsado em até cinco dias úteis.", "Peço que o valor seja devolvido em até cinco dias úteis.", "Solicito que o valor seja devolvido no prazo de cinco dias úteis.", "Solicito a devolução do valor em até cinco dias úteis.", "Peço que o valor seja reembolsado em até cinco dias úteis."],
-            explanation: "\"Solicitar que\" + subjunctive, here in the passive: \"seja devolvido\". Working days are \"dias úteis\".",
+            explanation: "\"Solicitar que\" + subjunctive, here in the passive: \"seja devolvido\". Business days are \"dias úteis\".",
           },
           {
             type: "multiple-choice",
@@ -685,7 +685,7 @@ export const PT_B2_U30: Lesson[] = [
       {
         type: "speak",
         text: "Discordo totalmente da decisão da prefeitura.",
-        prompt: "Say it in Portuguese: I completely disagree with the city council's decision.",
+        prompt: "Say it in Portuguese: I completely disagree with City Hall's decision.",
         tip: "\"Prefeitura\": the \"ei\" is a clear diphthong, \"pre-fei-TU-ra\".",
         explanation: "\"Discordar de\": firm, direct and still courteous.",
       },
@@ -716,12 +716,12 @@ export const PT_B2_U30: Lesson[] = [
       {
         heading: "O artigo de opinião: a position for the public",
         body: [
-          "An \"artigo de opinião\" defends a position for a general readership, in a newspaper or on a website. Its title hints at the position (\"Por que a biblioteca não pode fechar\"); the introduction states the thesis; two or three paragraphs argue it with information from the source; the conclusion proposes something. Unit 12's toolkit applies: \"é fundamental que\", \"embora alguns afirmem que\", \"diante disso\".",
+          "An \"artigo de opinião\" defends a position for a general readership, in a newspaper or on a website. Its title hints at the position (\"Por que a biblioteca não pode fechar\"); the introduction states the thesis; two or three paragraphs argue it with information from the source; the conclusion proposes something. Unit 23's toolkit applies: \"é fundamental que\", \"embora alguns afirmem que\", \"diante disso\".",
           "Unlike the school \"redação\", an article may use the first person and speak to the reader (\"você já pensou em...?\"), but sparingly: the arguments carry it, not a string of \"eu acho\". If the task gives you a role, sign with it: \"Ana Lima, professora da rede pública\".",
         ],
         examples: [
           { es: "Por que a biblioteca do bairro não pode fechar", en: "Why the neighborhood library must not close" },
-          { es: "É fundamental que a prefeitura reveja essa decisão.", en: "It's essential that the council reconsiders this decision." },
+          { es: "É fundamental que a prefeitura reveja essa decisão.", en: "It's essential that City Hall reconsider this decision." },
           { es: "Embora alguns afirmem que ninguém mais lê, a biblioteca recebe duzentas pessoas por dia.", en: "Although some claim nobody reads anymore, the library gets two hundred visitors a day." },
           { es: "Você já pensou em quantas crianças estudam ali?", en: "Have you ever thought about how many children study there?" },
           { es: "Diante disso, proponho que a comunidade participe da gestão do espaço.", en: "In view of this, I propose that the community take part in running the space." },
@@ -731,7 +731,7 @@ export const PT_B2_U30: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It's essential that the council reconsiders this decision.",
+            source: "It's essential that City Hall reconsider this decision.",
             answer: "É fundamental que a prefeitura reveja essa decisão.",
             altAnswers: ["É fundamental que a prefeitura reveja esta decisão.", "É essencial que a prefeitura reveja essa decisão.", "É fundamental que a prefeitura repense essa decisão.", "É fundamental que a prefeitura reconsidere essa decisão.", "É essencial que a prefeitura reconsidere essa decisão."],
             explanation: "\"É fundamental que\" + present subjunctive: \"reveja\", from \"rever\" (like \"veja\").",
@@ -749,14 +749,14 @@ export const PT_B2_U30: Lesson[] = [
         heading: "A reportagem: informing without opinion",
         body: [
           "A \"reportagem\" informs. Its title is factual and often in the present (\"Moradores transformam terreno abandonado em horta\"), and the first paragraph, the \"lide\" (lead), answers what, who, when, where, how and why. Everything after it adds detail, in decreasing order of importance.",
-          "The voice is third person, with no \"eu\" and no opinion. Judgments come from sources, attributed: \"segundo a coordenadora\", \"de acordo com a prefeitura\", \"afirmou o diretor\", with direct quotes in quotation marks. The passive and reporting verbs (Units 20 and 21) do much of the work: \"foram plantadas\", \"a obra foi concluída\", \"ela explicou que...\".",
+          "The voice is third person, with no \"eu\" and no opinion. Judgments come from sources, attributed: \"segundo a coordenadora\", \"de acordo com a prefeitura\", \"afirmou o diretor\", with direct quotes in quotation marks. The passive and reporting verbs (Units 8 and 10) do much of the work: \"foram plantadas\", \"a obra foi concluída\", \"ela explicou que...\".",
         ],
         examples: [
           { es: "Moradores transformam terreno abandonado em horta comunitária", en: "Residents turn abandoned plot into community garden" },
           { es: "No último sábado, cerca de cem voluntários participaram do mutirão.", en: "Last Saturday, around a hundred volunteers took part in the joint work day." },
           { es: "Segundo a coordenadora, mais de duas mil mudas foram plantadas.", en: "According to the coordinator, over two thousand seedlings were planted." },
           { es: "O diretor afirmou que a biblioteca será reaberta em março.", en: "The director stated that the library will reopen in March." },
-          { es: "De acordo com a prefeitura, a obra foi concluída dentro do prazo.", en: "According to the council, the work was finished on schedule." },
+          { es: "De acordo com a prefeitura, a obra foi concluída dentro do prazo.", en: "According to City Hall, the work was finished on schedule." },
         ],
         checkpoint: [
           {
@@ -851,7 +851,7 @@ export const PT_B2_U30: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "According to the council, the work was finished on schedule.",
+        source: "According to City Hall, the work was finished on schedule.",
         answer: "De acordo com a prefeitura, a obra foi concluída dentro do prazo.",
         altAnswers: ["Segundo a prefeitura, a obra foi concluída dentro do prazo.", "De acordo com a prefeitura, a obra foi concluída no prazo.", "Segundo a prefeitura, a obra foi concluída no prazo.", "De acordo com a prefeitura, a obra foi terminada dentro do prazo.", "Segundo a prefeitura, a obra foi finalizada no prazo."],
         explanation: "Attribution plus the passive: \"foi concluída\" agrees with \"a obra\".",
@@ -945,8 +945,8 @@ export const PT_B2_U30: Lesson[] = [
         examples: [
           { es: "Texto: \"O número de ciclistas aumentou 40% em dois anos.\"", en: "Source: The number of cyclists rose 40% in two years." },
           { es: "Paráfrase: Em apenas dois anos, a quantidade de ciclistas cresceu 40%.", en: "Paraphrase: In just two years, the number of cyclists grew by 40%." },
-          { es: "A biblioteca foi fechada pela prefeitura por falta de verba.", en: "The library was closed by the council for lack of funds." },
-          { es: "Por causa da falta de verba, a prefeitura decidiu fechar a biblioteca.", en: "Because of a lack of funds, the council decided to close the library." },
+          { es: "A biblioteca foi fechada pela prefeitura por falta de verba.", en: "The library was closed by City Hall for lack of funds." },
+          { es: "Por causa da falta de verba, a prefeitura decidiu fechar a biblioteca.", en: "Because of a lack of funds, City Hall decided to close the library." },
           { es: "Como disse a coordenadora, \"a horta mudou o bairro\".", en: "As the coordinator said, the garden changed the neighborhood." },
         ],
         checkpoint: [
@@ -954,7 +954,7 @@ export const PT_B2_U30: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The library was closed by the council for lack of funds.",
+            source: "The library was closed by City Hall for lack of funds.",
             answer: "A biblioteca foi fechada pela prefeitura por falta de verba.",
             altAnswers: ["A biblioteca foi fechada pela prefeitura por falta de recursos.", "A biblioteca foi fechada pela prefeitura por falta de dinheiro.", "A biblioteca foi fechada pela prefeitura por falta de verbas.", "A biblioteca foi fechada pela Prefeitura por falta de verba."],
             explanation: "The passive moves the library to the front: \"foi fechada pela prefeitura\". \"Verba\" is public funding.",
@@ -1649,11 +1649,11 @@ export const PT_B2_U30: Lesson[] = [
       {
         heading: "Tarefa 4: a library closing, for the newspaper",
         body: [
-          "The second text is a news item: the city will close the community library in Jardim Primavera from March, because the building needs repairs and \"não há verba\". The library serves about three hundred people a day, mostly public school students. The enunciado: \"Você é leitor do jornal e morador do bairro. Escreva uma carta do leitor manifestando sua opinião sobre o fechamento e propondo uma solução.\"",
+          "The second text is a news item: the city will close the community library in Jardim Primavera starting in March, because the building needs repairs and \"não há verba\". The library serves about three hundred people a day, mostly public school students. The enunciado: \"Você é leitor do jornal e morador do bairro. Escreva uma carta do leitor manifestando sua opinião sobre o fechamento e propondo uma solução.\"",
           "Enunciador: a resident (\"nós, moradores\"). Interlocutor: the newspaper and its readers. Purposes: give an opinion and propose a solution. Genre: carta do leitor, which refers to the news item at the start. From the text you need the closure, the official reason and the figure that shows the library's value.",
         ],
         examples: [
-          { es: "A prefeitura anunciou o fechamento da biblioteca comunitária do Jardim Primavera.", en: "The council has announced the closure of the community library in Jardim Primavera." },
+          { es: "A prefeitura anunciou o fechamento da biblioteca comunitária do Jardim Primavera.", en: "City Hall has announced the closure of the community library in Jardim Primavera." },
           { es: "Segundo a Secretaria de Cultura, o prédio precisa de reformas e não há verba.", en: "According to the Culture Department, the building needs repairs and there's no money." },
           { es: "A biblioteca atende cerca de trezentas pessoas por dia.", en: "The library serves about three hundred people a day." },
           { es: "A maioria dos usuários são estudantes de escolas públicas.", en: "Most of the users are public school students." },
@@ -1682,7 +1682,7 @@ export const PT_B2_U30: Lesson[] = [
             type: "listen-choose",
             audio: "Segundo a Secretaria de Cultura, o prédio precisa de reformas e não há verba.",
             question: "What is the official reason for the closure?",
-            options: ["The building needs repairs and there's no money for them.", "Nobody uses the library anymore.", "The books are too old.", "The staff are on strike."],
+            options: ["The building needs repairs and there's no money for them.", "Nobody uses the library anymore.", "The books are too old.", "The staff is on strike."],
             correctIndex: 0,
             explanation: "\"Precisa de reformas\" (needs repairs) and \"não há verba\" (there are no funds): the reason your letter must answer.",
           },
@@ -1699,14 +1699,14 @@ export const PT_B2_U30: Lesson[] = [
           { es: "Quase dois terços preferem o modelo híbrido.", en: "Almost two-thirds prefer the hybrid model." },
           { es: "Li com preocupação a notícia sobre o fechamento da biblioteca.", en: "I read with concern the news about the library's closure." },
           { es: "Uma biblioteca que atende trezentas pessoas por dia não pode fechar.", en: "A library that serves three hundred people a day cannot close." },
-          { es: "Sugiro que a prefeitura busque parcerias com empresas do bairro.", en: "I suggest the council seek partnerships with local businesses." },
+          { es: "Sugiro que a prefeitura busque parcerias com empresas do bairro.", en: "I suggest City Hall seek partnerships with local businesses." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I suggest the council seek partnerships with local businesses.",
+            source: "I suggest City Hall seek partnerships with local businesses.",
             answer: "Sugiro que a prefeitura busque parcerias com empresas do bairro.",
             altAnswers: ["Sugiro que a prefeitura procure parcerias com empresas do bairro.", "Eu sugiro que a prefeitura busque parcerias com empresas do bairro.", "Sugiro que a prefeitura busque parcerias com as empresas do bairro.", "Sugiro que a prefeitura faça parcerias com empresas do bairro.", "Sugiro que a prefeitura busque parcerias com empresas locais."],
             explanation: "\"Sugerir que\" + subjunctive: \"busque\" (c becomes qu before e).",
@@ -1737,7 +1737,7 @@ export const PT_B2_U30: Lesson[] = [
         source: "I read with concern the news about the library's closure.",
         answer: "Li com preocupação a notícia sobre o fechamento da biblioteca.",
         altAnswers: ["Li com preocupação a notícia do fechamento da biblioteca.", "Eu li com preocupação a notícia sobre o fechamento da biblioteca.", "Li com preocupação a reportagem sobre o fechamento da biblioteca.", "Li, com preocupação, a notícia sobre o fechamento da biblioteca."],
-        explanation: "The reader's letter opening, with \"com preocupação\" signalling your stance from the first line.",
+        explanation: "The reader's letter opening, with \"com preocupação\" signaling your stance from the first line.",
       },
       {
         type: "fill-blank",
@@ -1809,7 +1809,7 @@ export const PT_B2_U30: Lesson[] = [
       {
         type: "speak",
         text: "Sugiro que a prefeitura busque parcerias com empresas do bairro.",
-        prompt: "Say it in Portuguese: I suggest the council seek partnerships with local businesses.",
+        prompt: "Say it in Portuguese: I suggest City Hall seek partnerships with local businesses.",
         tip: "\"Busque\": the u is silent after q, \"BUS-kee\".",
         explanation: "A proposal with \"sugerir que\" + subjunctive closes the letter constructively.",
       },
@@ -2115,7 +2115,7 @@ export const PT_B2_U30: Lesson[] = [
           { es: "Anna: Em Curitiba, os ônibus têm faixas exclusivas e funcionam bem.", en: "Anna: In Curitiba, buses have their own lanes and work well." },
           { es: "Anna: Não acho que a bicicleta resolva tudo, mas ajuda muito.", en: "Anna: I don't think the bike solves everything, but it helps a lot." },
           { es: "Entrevistador: Mas e quando chove? E as ladeiras?", en: "Examiner: But what about when it rains? And the hills?" },
-          { es: "Anna: Depende da cidade: onde tem ciclovia segura, as pessoas pedalam mesmo com chuva.", en: "Anna: It depends on the city: where there are safe cycle lanes, people ride even in the rain." },
+          { es: "Anna: Depende da cidade: onde tem ciclovia segura, as pessoas pedalam mesmo com chuva.", en: "Anna: It depends on the city: where there are safe bike lanes, people ride even in the rain." },
           { es: "Anna: Como a imagem mostra, quem está de bicicleta chega antes.", en: "Anna: As the picture shows, the people on bikes get there first." },
         ],
         checkpoint: [
@@ -2237,7 +2237,7 @@ export const PT_B2_U30: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Where there are safe cycle lanes, people ride even in the rain.",
+        source: "Where there are safe bike lanes, people ride even in the rain.",
         answer: "Onde tem ciclovia segura, as pessoas pedalam mesmo com chuva.",
         altAnswers: ["Onde há ciclovias seguras, as pessoas pedalam mesmo com chuva.", "Onde tem ciclovia segura, as pessoas pedalam até com chuva.", "Onde há ciclovias seguras, as pessoas andam de bicicleta mesmo com chuva.", "Onde tem ciclovias seguras, as pessoas pedalam mesmo na chuva.", "Onde há ciclovia segura, as pessoas pedalam mesmo com chuva."],
         explanation: "\"Mesmo com\" + noun is even with. \"Tem\" is spoken, \"há\" more careful: both fit an interview.",
@@ -2268,7 +2268,7 @@ export const PT_B2_U30: Lesson[] = [
         type: "speak",
         text: "É verdade, mas o governo poderia dar incentivos para quem doa.",
         prompt: "Say it in Portuguese: That's true, but the government could give incentives to those who donate.",
-        tip: "\"Incentivos\": the \"ti\" sounds like \"tchi\".",
+        tip: "\"Incentivos\": the \"ti\" sounds like \"chee\".",
         explanation: "Concede and propose: the move that keeps a challenged opinion alive.",
       },
       {
@@ -2277,7 +2277,7 @@ export const PT_B2_U30: Lesson[] = [
         pairs: [
           { left: "o desperdício", right: "waste" },
           { left: "a mobilidade urbana", right: "urban mobility" },
-          { left: "a ciclovia", right: "the cycle lane" },
+          { left: "a ciclovia", right: "the bike lane" },
           { left: "a faixa exclusiva", right: "the dedicated lane" },
           { left: "as redes sociais", right: "social media" },
           { left: "em vez de", right: "instead of" },
@@ -2389,7 +2389,7 @@ export const PT_B2_U30: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the register: a learner wrote *\"A gente, moradores do bairro, quer uma reunião\" in a letter to the council. Translate the formal version.",
+            prompt: "Fix the register: a learner wrote *\"A gente, moradores do bairro, quer uma reunião\" in a letter to City Hall. Translate the formal version.",
             source: "We, the residents of the neighborhood, request a meeting.",
             answer: "Nós, moradores do bairro, solicitamos uma reunião.",
             altAnswers: ["Nós, moradores do bairro, pedimos uma reunião.", "Nós, os moradores do bairro, solicitamos uma reunião.", "Nós, moradores do bairro, vimos solicitar uma reunião.", "Nós, moradores do bairro, gostaríamos de solicitar uma reunião."],
@@ -2477,7 +2477,7 @@ export const PT_B2_U30: Lesson[] = [
         type: "listen-choose",
         audio: "Nós, moradores do bairro, solicitamos uma reunião.",
         question: "Which register is this?",
-        options: ["Formal: suitable for a letter to the council.", "Informal: suitable for a message to a friend.", "Journalistic: suitable for a news report.", "Spoken slang."],
+        options: ["Formal: suitable for a letter to City Hall.", "Informal: suitable for a message to a friend.", "Journalistic: suitable for a news report.", "Spoken slang."],
         correctIndex: 0,
         explanation: "\"Nós\" plus \"solicitamos\": the formal choices for writing to an authority.",
       },
@@ -2500,7 +2500,7 @@ export const PT_B2_U30: Lesson[] = [
           { left: "vc", right: "você" },
           { left: "pq", right: "porque" },
           { left: "tá piorando", right: "está piorando" },
-          { left: "a gente solicita (to the council)", right: "nós solicitamos" },
+          { left: "a gente solicita (to City Hall)", right: "nós solicitamos" },
           { left: "Beijos (to a company)", right: "Atenciosamente" },
           { left: "Me dirijo a Vossa Senhoria", right: "Escrevo a Vossa Senhoria" },
         ],
@@ -2525,7 +2525,7 @@ export const PT_B2_U30: Lesson[] = [
           "Run the routine: role (owner, \"nós\"), reader (customers), purposes (inform + invite), genre (post: hook, key facts, call to action). Then the toolkit: passive (\"os pratos são vendidos\"), future subjunctive (\"quando você abrir o aplicativo\"), purpose (\"para que nada vá para o lixo\").",
         ],
         examples: [
-          { es: "A partir de segunda, nossos pratos do dia que sobrarem serão vendidos pela metade do preço.", en: "From Monday, any of our dishes of the day that are left over will be sold at half price." },
+          { es: "A partir de segunda, nossos pratos do dia que sobrarem serão vendidos pela metade do preço.", en: "Starting Monday, any of our dishes of the day that are left over will be sold at half price." },
           { es: "Quando você abrir o aplicativo, procure o nosso restaurante.", en: "When you open the app, look for our restaurant." },
           { es: "Queremos que nada vá para o lixo.", en: "We want nothing to go in the trash." },
           { es: "Comida boa, preço justo e menos desperdício: todo mundo ganha!", en: "Good food, a fair price and less waste: everyone wins!" },
@@ -2592,7 +2592,7 @@ export const PT_B2_U30: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "From Monday, our leftover dishes will be sold at half price.",
+        source: "Starting Monday, our leftover dishes will be sold at half price.",
         answer: "A partir de segunda, nossos pratos que sobrarem serão vendidos pela metade do preço.",
         altAnswers: ["A partir de segunda-feira, nossos pratos que sobrarem serão vendidos pela metade do preço.", "A partir de segunda, os pratos que sobrarem serão vendidos pela metade do preço.", "A partir de segunda, nossos pratos que sobrarem vão ser vendidos pela metade do preço.", "A partir de segunda, as sobras serão vendidas pela metade do preço.", "A partir de segunda, nossos pratos que sobrarem serão vendidos com cinquenta por cento de desconto."],
         explanation: "\"Que sobrarem\" is a future subjunctive in a relative clause (whatever is left over); \"serão vendidos\" is the future passive.",
@@ -2695,7 +2695,7 @@ export const PT_B2_U30: Lesson[] = [
 
 export const PT_B2_U30_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Celpe-Bras style task. You read this news item in your city's newspaper: the city council will close the community library in your neighborhood in March because the building needs repairs and there's no money; the library serves about 300 people a day, mostly public school students. You live in the neighborhood. Write a reader's letter (carta do leitor) to the newspaper giving your opinion about the closure and proposing a solution.",
+  prompt: "Celpe-Bras style task. You read this news item in your city's newspaper: City Hall will close the community library in your neighborhood in March because the building needs repairs and there's no money; the library serves about 300 people a day, mostly public school students. You live in the neighborhood. Write a reader's letter (carta do leitor) to the newspaper giving your opinion about the closure and proposing a solution.",
   minWords: 140,
   maxWords: 220,
   rubric: [

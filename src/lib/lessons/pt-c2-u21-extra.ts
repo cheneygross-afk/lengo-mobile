@@ -383,7 +383,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
         type: "speak",
         text: "Se ninguém morresse, a vida teria o mesmo sentido?",
         prompt: "Say it in Portuguese: If nobody died, would life have the same meaning?",
-        tip: "Keep the double r in \"morresse\" guttural, like an English h: mo-HE-si.",
+        tip: "Keep the double r in \"morresse\" guttural, like an English h: mo-HÊ-see.",
         explanation: "Imperfect subjunctive and conditional build the counterfactual.",
       },
       {
@@ -561,7 +561,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
         type: "speak",
         text: "A dignidade da pessoa humana não se negocia.",
         prompt: "Say it in Portuguese: Human dignity is not negotiable.",
-        tip: "In \"dignidade\" both d's before i soften to dj, and speakers often add a vowel after the g: dji-gui-ni-DA-dji.",
+        tip: "In \"dignidade\" both d's before i soften to j, and speakers often add a vowel after the g: jee-gui-ni-DA-jee.",
         explanation: "\"A dignidade da pessoa humana\" is the constitutional phrase.",
       },
       {

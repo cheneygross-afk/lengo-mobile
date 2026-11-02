@@ -246,7 +246,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "speak",
         text: "O amigo que eu conheci em Curitiba vem amanhã.",
         prompt: "Say it in Portuguese: The friend I met in Curitiba is coming tomorrow.",
-        tip: "\"Que\" sounds like kee, and it runs straight into \"eu\": kee-eu, with no pause.",
+        tip: "\"Que\" sounds like 'kee', and it runs straight into \"eu\" with no pause: 'kee-EW'.",
         explanation: "\"O amigo que eu conheci\": the friend is the person you met, so \"que\". \"Vem\" is the present of \"vir\" used for a near plan.",
       },
       {
@@ -472,7 +472,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "speak",
         text: "A amiga para quem eu dei o presente adorou.",
         prompt: "Say it in Portuguese: The friend I gave the present to loved it.",
-        tip: "\"Quem\" ends in a nasal sound, close to 'kein', with no clear m.",
+        tip: "\"Quem\" ends in a nasal sound with no clear m: 'kẽy'.",
         explanation: "You give something \"para\" someone, so it is \"para quem eu dei\". \"Adorou\" needs no 'it' in Portuguese.",
       },
     ],
@@ -496,7 +496,7 @@ export const PT_A2_U14: Lesson[] = [
           { es: "A Beatriz não veio porque estava doente.", en: "Beatriz didn't come because she was sick." },
           { es: "Estou estudando português porque meu marido é brasileiro.", en: "I'm studying Portuguese because my husband is Brazilian." },
           { es: "Como estava chovendo, a gente não saiu.", en: "Since it was raining, we didn't go out." },
-          { es: "Como a loja estava fechada, voltamos para casa.", en: "As the shop was closed, we went back home." },
+          { es: "Como a loja estava fechada, voltamos para casa.", en: "As the store was closed, we went back home." },
         ],
         checkpoint: [
           {
@@ -629,7 +629,7 @@ export const PT_A2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Quando ela ligou, eu estava dormindo.",
-            tip: "The in of dormindo is nasal, and the final -do sounds like du.",
+            tip: "The \"in\" of \"dormindo\" is nasal, and the final -do sounds like 'doo': 'dor-MĨ-doo'.",
             explanation: "\"Quando\" + perfeito for the event that interrupts; \"estava dormindo\" for the action in progress.",
           },
         ],
@@ -740,7 +740,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "speak",
         text: "O apartamento é lindo, só que o aluguel é caro.",
         prompt: "Say it in Portuguese: The apartment is lovely, only the rent is expensive.",
-        tip: "Make the é in é open, and link só que smoothly: so-ki.",
+        tip: "Make the é in \"é\" open, and link \"só que\" smoothly: 'SÓ-kee'.",
         explanation: "\"Só que\" adds a catch in casual speech; \"mas\" would also be correct.",
       },
       {
@@ -865,7 +865,7 @@ export const PT_A2_U14: Lesson[] = [
             type: "speak",
             text: "Quanto é o aluguel?",
             prompt: "Say it in Portuguese: How much is the rent?",
-            tip: "The final l in aluguel sounds like a u: a-lu-GUÉU, with an open é.",
+            tip: "The final l in \"aluguel\" sounds like a w, and the é is open: 'a-loo-GÉW'.",
             explanation: "\"Quanto é o aluguel?\" is the standard question; \"quanto fica o aluguel?\" means the same.",
           },
           {
@@ -1193,7 +1193,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "speak",
         text: "Eu fiz uma reserva em nome de Lucas Almeida.",
         prompt: "Say it in Portuguese: I made a booking under the name Lucas Almeida.",
-        tip: "The r at the start of \"reserva\" is the strong, breathy h-like R, and \"de\" sounds like 'dji'.",
+        tip: "The r at the start of \"reserva\" is the strong, breathy h-like R ('heh-ZÉR-va'), and \"de\" sounds like 'jee'.",
         explanation: "\"Eu fiz uma reserva em nome de...\" is the standard check-in sentence at any pousada or hotel.",
       },
       {
@@ -1348,7 +1348,7 @@ export const PT_A2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Gostei muito. Eu fico com o apartamento!",
-            tip: "The final -o in fico and apartamento sounds like u: FI-cu, a-par-ta-MEN-tu.",
+            tip: "The final -o in \"fico\" and \"apartamento\" sounds like oo: 'FEE-koo', 'a-par-ta-MẼ-too'.",
             explanation: "\"Ficar com\" means to take, to go for: \"eu fico com o apartamento\".",
           },
           {
@@ -1424,7 +1424,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "speak",
         text: "O condomínio está incluído?",
         prompt: "Say it in Portuguese: Is the building fee included?",
-        tip: "Make the \"con\" of condomínio nasal, with no n sound, and stress in-clu-Í-do.",
+        tip: "Make the \"con\" of \"condomínio\" nasal, with no n sound, and stress the í of \"incluído\": 'ĩ-kloo-EE-doo'.",
         explanation: "\"Está incluído\" describes the current deal, so it takes \"estar\".",
       },
       {
@@ -1677,7 +1677,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "speak",
         text: "Obrigado por tudo!",
         prompt: "Say it in Portuguese: Thanks for everything!",
-        tip: "Stress GA in o-bri-GA-do, and let the final o sound like u.",
+        tip: "Stress GA in \"obrigado\" and let the final o sound like oo: 'o-bree-GA-doo'.",
         explanation: "Thanks take \"por\": \"obrigado por tudo\". A woman says \"obrigada por tudo\".",
       },
       {
@@ -1917,7 +1917,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "speak",
         text: "Bom dia, Dona Lúcia. Eu gostei muito do apartamento.",
         prompt: "Say it in Portuguese: Good morning, Mrs. Lúcia. I liked the apartment a lot.",
-        tip: "Stress the \"Lú\" in \"Lúcia\" (LÚ-sia), and in \"gostei\" stress the ending: gos-TEI.",
+        tip: "Stress the \"Lú\" in \"Lúcia\" ('LÚ-see-a'), and in \"gostei\" stress the ending: 'gos-TAY'.",
         explanation: "\"Dona\" + first name is a polite way to address an older woman such as a landlady. \"Gostei muito do\" uses the contraction de + o.",
       },
     ],
@@ -2032,7 +2032,7 @@ export const PT_A2_U14: Lesson[] = [
             type: "speak",
             text: "Eu ia pegar o barco, mas cheguei atrasado.",
             prompt: "Say it in Portuguese: I was going to take the boat, but I got there late.",
-            tip: "Stress the ending of \"cheguei\" (che-GUEI), and tap the r in \"atrasado\" once.",
+            tip: "Stress the ending of \"cheguei\" ('sheh-GAY'), and tap the r in \"atrasado\" once.",
             explanation: "\"Ia pegar\" is the plan, and \"cheguei atrasado\" is what actually happened. A woman says \"atrasada\".",
           },
         ],
@@ -2157,7 +2157,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "speak",
         text: "Na próxima vez eu vou ficar mais tempo.",
         prompt: "Say it in Portuguese: Next time I'm going to stay longer.",
-        tip: "\"Vez\" ends in an s sound (sh in Rio), and the final o of \"tempo\" sounds like u: TEM-pu, with a nasal em.",
+        tip: "\"Vez\" ends in an s sound (sh in Rio), and \"tempo\" has a nasal e and a final 'oo': 'TẼ-poo'.",
         explanation: "\"Vou ficar\": the everyday future. \"Mais tempo\" is how Portuguese says longer for time.",
       },
       {
@@ -2294,7 +2294,7 @@ export const PT_A2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Eu queria o prato do dia, por favor.",
-            tip: "Stress queria on the i: ke-RI-a. The d in dia sounds like the j in jeep.",
+            tip: "Stress \"queria\" on the i: 'ke-REE-a'. The d in \"dia\" sounds like the j in jeep: 'JEE-a'.",
             explanation: "\"Eu queria\" is the polite way to order. It sounds softer than \"eu quero\".",
           },
         ],
@@ -2379,7 +2379,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "speak",
         text: "Com licença, como eu chego na rodoviária?",
         prompt: "Say it in Portuguese: Excuse me, how do I get to the bus station?",
-        tip: "The ç in \"licença\" sounds like s: li-SEN-sa. \"Chego\" is SHEH-gu, with the final o as u.",
+        tip: "The ç in \"licença\" sounds like s: 'lee-SẼ-sa'. \"Chego\" is 'SHÊ-goo', with a closed ê and the final o as oo.",
         explanation: "\"Com licença\" opens a request to a stranger. \"Chegar na\" is everyday speech, and the written form is \"chegar à\".",
       },
       {

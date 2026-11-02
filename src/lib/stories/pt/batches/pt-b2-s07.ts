@@ -90,7 +90,7 @@ export const PT_B2_S07_STORIES: Story[] = [
     slug: "pt-o-caderno-preto-de-seu-jorge",
     level: "PT-B2",
     title: `O caderno preto de seu Jorge`,
-    subtitle: `Closing her Lebanese grandfather's old fabric shop in São Paulo, a woman finds the books where he wrote down eighty years of customers.`,
+    subtitle: `Closing her Lebanese grandfather's old fabric store in São Paulo, a woman finds the books where he wrote down eighty years of customers.`,
     paragraphs: [
       `A loja de tecidos Nassar & Filhos funcionou durante oitenta e dois anos no mesmo endereço da Rua 25 de Março, em São Paulo. Foi fundada em 1941 por Jorge Nassar, um rapaz de dezenove anos que chegou de Zahlé, no Líbano, com uma mala, dois cortes de seda e um caderno de capa preta. Em 2023, sua neta Laila, cansada de competir com as lojas de importados e com a internet, decidiu fechar as portas.`,
       `Na última semana, enquanto esvaziava as prateleiras, Laila encontrou no fundo do cofre o tal caderno de capa preta, e mais onze iguais. Eram os livros de fiado do avô. Ali estavam, com letra caprichada e num português cheio de erros, centenas de nomes: costureiras, alfaiates, donas de casa, vendedores ambulantes, recém-chegados de todas as partes do mundo. Ao lado de cada nome, o valor da compra e, quase sempre, uma palavra em árabe que Laila não conhecia.`,
@@ -121,7 +121,7 @@ export const PT_B2_S07_STORIES: Story[] = [
       },
       {
         question: `What did Laila open at the same address?`,
-        options: [`A bigger fabric shop.`, `A Lebanese restaurant.`, `A small sewing workshop for newly arrived refugees.`, `A museum about her grandfather.`],
+        options: [`A bigger fabric store.`, `A Lebanese restaurant.`, `A small sewing workshop for newly arrived refugees.`, `A museum about her grandfather.`],
         correctIndex: 2,
         explanation: `She opened "um pequeno ateliê de costura para refugiados recém-chegados a São Paulo".`,
       },

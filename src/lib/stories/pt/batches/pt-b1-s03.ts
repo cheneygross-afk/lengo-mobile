@@ -11,7 +11,7 @@ export const PT_B1_S03_STORIES: Story[] = [
     subtitle: `When his great-aunt dies in Niterói, Rodrigo inherits only her bad-tempered old parrot, which keeps saying very strange things.`,
     paragraphs: [
       `Quando a tia-avó Zuleide morreu, aos noventa e um anos, a família inteira apareceu no escritório do advogado, em Niterói. Ninguém a visitava havia anos, mas todos sabiam que ela tinha uma casa grande em Icaraí e, diziam, muito dinheiro guardado. Rodrigo, um contador de trinta e cinco anos que passava os domingos com ela jogando dominó, foi o último a chegar e se sentou no fundo da sala.`,
-      `O advogado leu o testamento devagar. A casa ficaria para um abrigo de gatos. As joias seriam vendidas, e o dinheiro iria para a igreja do bairro. Os primos se olharam, furiosos. Então o advogado tirou os óculos. “Ao meu sobrinho Rodrigo, deixo o Gonçalo.” Houve um silêncio, seguido de risadas. Gonçalo era o papagaio da tia, um bicho velho, verde e mal-humorado. “Com uma condição”, continuou o advogado. “É preciso que ele cuide do Gonçalo por um ano. Depois disso, receberá o segundo envelope.”`,
+      `O advogado leu o testamento devagar. A casa ficaria para um abrigo de gatos. As joias seriam vendidas, e o dinheiro iria para a igreja do bairro. Os primos se olharam, furiosos. Então o advogado tirou os óculos. “Ao meu sobrinho-neto Rodrigo, deixo o Gonçalo.” Houve um silêncio, seguido de risadas. Gonçalo era o papagaio da tia, um bicho velho, verde e mal-humorado. “Com uma condição”, continuou o advogado. “É preciso que ele cuide do Gonçalo por um ano. Depois disso, receberá o segundo envelope.”`,
       `Rodrigo levou o papagaio para o seu pequeno apartamento em Botafogo. Na primeira semana, o Gonçalo mordeu o dedo dele duas vezes e acordou o prédio inteiro às cinco da manhã. Na segunda semana, começou a falar. Não dizia “louro quer biscoito”, como os outros papagaios. Dizia coisas estranhas: “Debaixo do azulejo azul!” e “Três, sete, nove!”`,
       `Os primos, quando souberam, ficaram interessados de repente. Um deles ofereceu dois mil reais pelo papagaio. Outro apareceu com uma gaiola nova de presente. Rodrigo recusou tudo. Ele chegou a ir até a casa de Icaraí, antes de os gatos chegarem, e procurou um azulejo azul na cozinha, no banheiro e na varanda. Não encontrou nada.`,
       `Com o tempo, ele esqueceu o tesouro. Passou a gostar das manhãs com o Gonçalo, que assobiava as músicas antigas que a tia ouvia no rádio. Aprendeu que ele gostava de mamão e odiava segunda-feira. Às vezes, à noite, os dois assistiam ao jornal juntos, e o papagaio comentava “Que absurdo!”, exatamente como a tia Zuleide.`,
@@ -24,7 +24,7 @@ export const PT_B1_S03_STORIES: Story[] = [
         question: `What did the will leave to Rodrigo?`,
         options: [`The house in Icaraí`, `The aunt's parrot`, `The aunt's jewelry`, `A box of dominoes`],
         correctIndex: 1,
-        explanation: `The will said: "Ao meu sobrinho Rodrigo, deixo o Gonçalo", and Gonçalo "era o papagaio da tia".`,
+        explanation: `The will said: "Ao meu sobrinho-neto Rodrigo, deixo o Gonçalo", and Gonçalo "era o papagaio da tia".`,
       },
       {
         question: `What strange things did the parrot say?`,
@@ -178,7 +178,7 @@ export const PT_B1_S03_STORIES: Story[] = [
     title: `A dívida`,
     subtitle: `Thirteen years after his best friend vanished with his savings, Bruno gets an invitation to a restaurant opening in Vitória.`,
     paragraphs: [
-      `Bruno tinha uma história que contava em todo churrasco. “Em 2011, emprestei três mil reais para o meu melhor amigo, o Edu. Ele jurou que me pagaria em seis meses. Sabe quantas vezes eu vi o Edu depois disso? Nenhuma.” Os amigos riam, balançavam a cabeça, e alguém sempre dizia: “Dinheiro e amizade não se misturam.”`,
+      `Bruno tinha uma história que contava em todo churrasco. “Em 2013, emprestei três mil reais para o meu melhor amigo, o Edu. Ele jurou que me pagaria em seis meses. Sabe quantas vezes eu vi o Edu depois disso? Nenhuma.” Os amigos riam, balançavam a cabeça, e alguém sempre dizia: “Dinheiro e amizade não se misturam.”`,
       `Na época, os dois tinham vinte e poucos anos e dividiam um apartamento em Vitória. O Edu tinha perdido o emprego de garçom e ia ser despejado. Bruno, que ganhava pouco num banco, tirou o dinheiro da poupança sem pensar duas vezes. Uma semana depois, o Edu sumiu. Deixou um bilhete na geladeira, “Vou te pagar. Prometo.”, e trocou de número de celular.`,
       `Treze anos se passaram. Bruno se casou, teve uma filha, virou gerente de agência. De vez em quando, procurava o nome do Edu na internet, mas nunca encontrava nada. Até que, numa quinta-feira de outubro, chegou pelo correio um convite elegante: “Inauguração do restaurante Moqueca do Bruno. Sábado, às oito. Contamos com a sua presença.” No verso, uma letra que ele conhecia bem: “Por favor, venha. Edu.”`,
       `A esposa achou que ele devia ir. “Você passou treze anos falando desse homem. É bom que você ouça o que ele tem a dizer.” Bruno foi, mais curioso do que bravo.`,

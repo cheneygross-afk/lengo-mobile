@@ -44,7 +44,7 @@ export const PT_B1_U09_EXTRA: Lesson[] = [
             en: "Call before they [leave].",
             sentence: "Liga antes de eles ___.",
             answer: "saírem",
-            explanation: "\"Sair\" + -em = \"saírem\". The accent keeps the stress on the í: sa-Í-rem.",
+            explanation: "\"Sair\" + -em = \"saírem\". The accent keeps the stress on the í: sa-EE-rẽy.",
           },
           {
             type: "listen-choose",
@@ -152,7 +152,7 @@ export const PT_B1_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Vou falar devagar para vocês entenderem.",
         prompt: "Say it in Portuguese: I'll speak slowly so you all understand.",
-        tip: "Entenderem: en-ten-DE-rẽy.",
+        tip: "Entenderem: ẽ-tẽ-DÊ-rẽy.",
         explanation: "\"Para vocês entenderem\": I speak and you understand, so the infinitive takes the vocês ending.",
       },
       {
@@ -314,7 +314,7 @@ export const PT_B1_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "É melhor vocês levarem guarda-chuva.",
         prompt: "Say it in Portuguese: You'd better take an umbrella.",
-        tip: "Guarda-chuva: GUAR-da-SHU-va.",
+        tip: "Guarda-chuva: GWAR-da-SHOO-va.",
         explanation: "Advice to a group: \"é melhor vocês levarem\". The infinitive agrees with \"vocês\".",
       },
       {
@@ -478,7 +478,7 @@ export const PT_B1_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Trouxe o mapa para vocês não se perderem.",
         prompt: "Say it in Portuguese: I brought the map so you don't get lost.",
-        tip: "Perderem: per-DE-rẽy.",
+        tip: "Perderem: per-DÊ-rẽy.",
         explanation: "\"Não\" and the pronoun \"se\" go before the infinitive, which still takes -em: \"vocês não se perderem\".",
       },
       {

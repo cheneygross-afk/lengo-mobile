@@ -22,7 +22,7 @@ export const PT_C1_U20: Lesson[] = [
           { es: "Ele estudou num colégio particular em Fortaleza até o ensino médio.", en: "He went to a private school in Fortaleza up to the end of high school." },
           { es: "Ela faz faculdade de Arquitetura na UFBA.", en: "She's studying architecture at the Federal University of Bahia." },
           { es: "Meu irmão se formou em Engenharia no ano passado.", en: "My brother graduated in engineering last year." },
-          { es: "A formatura vai ser em dezembro, no ginásio da universidade.", en: "The graduation ceremony will be in December, in the university sports hall." },
+          { es: "A formatura vai ser em dezembro, no ginásio da universidade.", en: "The graduation ceremony will be in December, in the university gym." },
         ],
         checkpoint: [
           {
@@ -60,7 +60,7 @@ export const PT_C1_U20: Lesson[] = [
         ],
         examples: [
           { es: "Na rede pública, a maioria das escolas de ensino médio é estadual.", en: "In the public system, most secondary schools are run by the states." },
-          { es: "Ele prestou vestibular para Medicina três vezes antes de passar.", en: "He sat the entrance exam for medicine three times before he got in." },
+          { es: "Ele prestou vestibular para Medicina três vezes antes de passar.", en: "He took the entrance exam for medicine three times before he got in." },
           { es: "Com a nota do ENEM, ela se inscreveu no SISU.", en: "With her ENEM score, she applied through SISU." },
           { es: "A nota de corte para Direito na federal foi altíssima.", en: "The cut-off score for law at the federal university was extremely high." },
           { es: "Fiz um ano de cursinho antes de entrar na USP.", en: "I did a year of prep course before getting into USP." },
@@ -159,7 +159,7 @@ export const PT_C1_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He sat the entrance exam three times.",
+        source: "He took the entrance exam three times.",
         answer: "Ele prestou vestibular três vezes.",
         altAnswers: ["Ele fez vestibular três vezes.", "Ele prestou o vestibular três vezes.", "Ele fez o vestibular três vezes.", "Prestou vestibular três vezes.", "Fez vestibular três vezes."],
         explanation: "You \"presta\" or \"faz\" the vestibular; passing is \"passar no vestibular\".",
@@ -257,7 +257,7 @@ export const PT_C1_U20: Lesson[] = [
         type: "speak",
         text: "Eu me formei em Letras e agora estou fazendo mestrado.",
         prompt: "Say it in Portuguese: I graduated in languages and literature and now I'm doing a master's.",
-        tip: "Mestrado: mes-TRA-do; the s before t sounds like s in most of Brazil and like sh in Rio.",
+        tip: "Mestrado: mes-TRA-doo; the s before t sounds like s in most of Brazil and like sh in Rio.",
         explanation: "\"Se formar em\" for graduating, \"fazer mestrado\" for postgraduate study. \"Letras\" is the degree in languages and literature.",
       },
     ],
@@ -375,7 +375,7 @@ export const PT_C1_U20: Lesson[] = [
         ],
         examples: [
           { es: "Sem valorização docente, nenhuma reforma vai dar certo.", en: "Without valuing teachers, no reform will work." },
-          { es: "Muitos professores trabalham em duas escolas para complementar a renda.", en: "Many teachers work at two schools to top up their income." },
+          { es: "Muitos professores trabalham em duas escolas para complementar a renda.", en: "Many teachers work at two schools to supplement their income." },
           { es: "O município ainda não paga o piso salarial dos professores.", en: "The city still doesn't pay teachers the national minimum salary." },
           { es: "O desempenho dos alunos em matemática caiu depois da pandemia.", en: "Students' performance in math fell after the pandemic." },
           { es: "O IDEB da escola subiu depois que ela passou a funcionar em tempo integral.", en: "The school's IDEB score rose after it switched to full-day teaching." },
@@ -400,7 +400,7 @@ export const PT_C1_U20: Lesson[] = [
             type: "speak",
             text: "Sem valorização docente, a qualidade do ensino não melhora.",
             prompt: "Say it in Portuguese: Without valuing teachers, the quality of teaching won't improve.",
-            tip: "Docente: do-SEN-tchi; the t before a final e sounds like ch in most of Brazil.",
+            tip: "Docente: do-SẼN-chee; the t before a final e sounds like ch in most of Brazil.",
             explanation: "\"Valorização docente\" is the fixed phrase of education debates; \"ensino\" is teaching or schooling.",
           },
         ],
@@ -487,7 +487,7 @@ export const PT_C1_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Many teachers work at two schools to top up their income.",
+        source: "Many teachers work at two schools to supplement their income.",
         answer: "Muitos professores trabalham em duas escolas para complementar a renda.",
         altAnswers: [
           "Muitos professores dão aula em duas escolas para complementar a renda.",
@@ -496,7 +496,7 @@ export const PT_C1_U20: Lesson[] = [
           "Muitos professores trabalham em duas escolas para completar a renda.",
           "Muitas professoras trabalham em duas escolas para complementar a renda.",
         ],
-        explanation: "\"Complementar a renda\" is the usual phrase for topping up income.",
+        explanation: "\"Complementar a renda\" is the usual phrase for supplementing your income.",
       },
       {
         type: "word-order",
@@ -703,7 +703,7 @@ export const PT_C1_U20: Lesson[] = [
         question: "What does \"o algoritmo não está entregando meus posts\" mean?",
         options: [
           "The algorithm isn't showing my posts to many people.",
-          "The algorithm isn't delivering my parcels.",
+          "The algorithm isn't delivering my packages.",
           "The algorithm has deleted my posts.",
           "The algorithm is posting for me.",
         ],
@@ -780,7 +780,7 @@ export const PT_C1_U20: Lesson[] = [
         type: "speak",
         text: "Eu curti a foto, mas não compartilhei.",
         prompt: "Say it in Portuguese: I liked the photo, but I didn't share it.",
-        tip: "Compartilhei: com-par-ti-LHEI; lh is like the lli in million.",
+        tip: "Compartilhei: com-par-chee-LYÊI, with ti as chee; lh is like the lli in million.",
         explanation: "The object is dropped in the second clause, as in natural speech: \"não compartilhei\".",
       },
     ],
@@ -930,7 +930,7 @@ export const PT_C1_U20: Lesson[] = [
             type: "speak",
             text: "Desconfie de qualquer mensagem pedindo dinheiro.",
             prompt: "Say it in Portuguese: Be suspicious of any message asking for money.",
-            tip: "Desconfie has four syllables: des-con-FI-e.",
+            tip: "Desconfie has four syllables: des-con-FEE-ee.",
             explanation: "\"Desconfiar de\" is to be suspicious of; the gerund \"pedindo\" works like an English -ing clause here.",
           },
         ],
@@ -1069,7 +1069,7 @@ export const PT_C1_U20: Lesson[] = [
       {
         heading: "Established anglicisms: o app, o link, o login, o print",
         body: [
-          "Brazilian tech talk is full of English nouns that are now simply Portuguese: \"o app\" (beside \"o aplicativo\"), \"o site\", \"o link\", \"o login\", \"o e-mail\", \"o mouse\", \"o wi-fi\". They are pronounced the Brazilian way: \"site\" sounds like SAI-tchi, \"link\" like LIN-ki, \"e-mail\" like i-MEIU.",
+          "Brazilian tech talk is full of English nouns that are now simply Portuguese: \"o app\" (beside \"o aplicativo\"), \"o site\", \"o link\", \"o login\", \"o e-mail\", \"o mouse\", \"o wi-fi\". They are pronounced the Brazilian way: \"site\" sounds like SAI-chee, \"link\" like LĨN-kee, \"e-mail\" like ee-MEIU.",
           "Some loanwords changed meaning on the way. \"O notebook\" is a laptop, not a paper notebook (that's \"o caderno\"). \"O print\" is a screenshot; to print on paper is \"imprimir\". \"O home office\" means working from home, a use English doesn't have. And \"o outdoor\" is a billboard.",
         ],
         examples: [
@@ -1157,7 +1157,7 @@ export const PT_C1_U20: Lesson[] = [
         heading: "Gender and plural of loanwords",
         body: [
           "A loanword usually takes the gender of the Portuguese word it replaces or of its meaning: \"o app\" (o aplicativo), \"o e-mail\" (o correio), \"o podcast\" (o programa), but \"a live\" (a transmissão), \"a selfie\" (a foto), \"a startup\" (a empresa), \"a playlist\" (a lista). \"Fake news\" is feminine (a notícia): \"as fake news\". Watch the pairs \"o post\" / \"a postagem\".",
-          "The plural just adds -s, even after consonants: \"os apps\", \"os links\", \"as lives\" (pronounced LAI-vis), \"os e-mails\", \"os sites\". Learners trying to sound authentic often guess the gender wrong; when in doubt, think of the Portuguese word behind it.",
+          "The plural just adds -s, even after consonants: \"os apps\", \"os links\", \"as lives\" (pronounced LAI-vees), \"os e-mails\", \"os sites\". Learners trying to sound authentic often guess the gender wrong; when in doubt, think of the Portuguese word behind it.",
         ],
         examples: [
           { es: "A cantora fez uma live de três horas no domingo.", en: "The singer did a three-hour livestream on Sunday." },
@@ -1299,13 +1299,13 @@ export const PT_C1_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Não consigo fazer login no site do banco.",
-        explanation: "\"Fazer login\" is the neutral form; \"logar\" is more casual. \"Site\" is pronounced SAI-tchi.",
+        explanation: "\"Fazer login\" is the neutral form; \"logar\" is more casual. \"Site\" is pronounced SAI-chee.",
       },
       {
         type: "speak",
         text: "Tirei um print e mandei o link por e-mail.",
         prompt: "Say it in Portuguese: I took a screenshot and sent the link by email.",
-        tip: "Print sounds like PRIN-tchi, link like LIN-ki: Brazilians add a short vowel after the final consonant.",
+        tip: "Print sounds like PRĨN-chee, link like LĨN-kee: Brazilians add a short vowel after the final consonant.",
         explanation: "Three everyday loanwords, all masculine: \"o print\", \"o link\", \"o e-mail\".",
       },
     ],
@@ -1359,7 +1359,7 @@ export const PT_C1_U20: Lesson[] = [
         ],
         examples: [
           { es: "A pandemia acelerou a digitalização dos serviços públicos.", en: "The pandemic sped up the digitization of public services." },
-          { es: "A plataformização do trabalho mudou a vida dos entregadores.", en: "The platformization of work has changed delivery riders' lives." },
+          { es: "A plataformização do trabalho mudou a vida dos entregadores.", en: "The platformization of work has changed delivery workers' lives." },
           { es: "Especialistas criticam a uberização das relações de trabalho.", en: "Experts criticize the uberization of employment relations." },
           { es: "O negacionismo científico custou vidas durante a pandemia.", en: "Science denial cost lives during the pandemic." },
           { es: "Toda transação por Pix é rastreável.", en: "Every Pix transaction can be traced." },
@@ -1386,7 +1386,7 @@ export const PT_C1_U20: Lesson[] = [
               "Work moving to apps, without the rights of a formal job.",
               "Better pay for taxi drivers.",
               "The use of electric cars in cities.",
-              "A new law protecting delivery riders.",
+              "A new law protecting delivery workers.",
             ],
             correctIndex: 0,
             explanation: "\"Uberização\" is built from a brand name with \"-ização\": the spread of gig work through apps.",
@@ -1435,7 +1435,7 @@ export const PT_C1_U20: Lesson[] = [
             type: "speak",
             text: "O armazenamento em nuvem é mais seguro com a verificação em duas etapas.",
             prompt: "Say it in Portuguese: Cloud storage is safer with two-step verification.",
-            tip: "Armazenamento has six syllables: ar-ma-ze-na-MEN-to.",
+            tip: "Armazenamento has six syllables: ar-ma-ze-na-MẼN-too.",
             explanation: "One -mento noun (\"armazenamento\") and one -ção noun (\"verificação\") in a single sentence.",
           },
         ],
@@ -1604,7 +1604,7 @@ export const PT_C1_U20: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A colleague writes \"deu ruim\". What does she mean?",
-            options: ["Something has gone wrong.", "She gave a bad review.", "The code is ugly but works.", "She's feeling ill."],
+            options: ["Something has gone wrong.", "She gave a bad review.", "The code is ugly but works.", "She's feeling sick."],
             correctIndex: 0,
             explanation: "\"Deu ruim\" is very common slang for 'it went wrong'. Its opposite is \"deu bom\" or \"deu certo\".",
           },
@@ -1817,7 +1817,7 @@ export const PT_C1_U20: Lesson[] = [
         type: "speak",
         text: "Pedimos desculpas aos usuários afetados pela instabilidade.",
         prompt: "Read the formal apology in Portuguese: We apologize to the users affected by the instability.",
-        tip: "Instabilidade: ins-ta-bi-li-DA-dji; the d before a final e sounds like j in most of Brazil.",
+        tip: "Instabilidade: ins-ta-bi-li-DA-jee; the d before a final e sounds like j in most of Brazil.",
         explanation: "\"Pedir desculpas a\" plus \"os usuários\" gives \"aos usuários\". \"Afetados\" agrees with them.",
       },
     ],
@@ -1831,7 +1831,7 @@ export const PT_C1_U20: Lesson[] = [
     duration: "16 min",
     sections: [
       {
-        heading: "Scene 1: The head opens the meeting",
+        heading: "Scene 1: The principal opens the meeting",
         body: [
           "A \"reunião de pais e mestres\" at a state school in Campinas. The principal, Dona Sônia, opens with the meeting's formulas: \"boa noite a todos\", \"o ponto de pauta de hoje\" (today's agenda item), \"a escola precisa definir uma política\". The topic: students using AI for \"a lição de casa\" (homework; \"o dever de casa\" in Rio).",
           "Note how she frames the problem without taking sides: \"tem gente a favor e tem gente contra\", \"a ideia é ouvir todo mundo\". That neutral opening matters in a Brazilian meeting, where direct confrontation is usually softened.",
@@ -1862,7 +1862,7 @@ export const PT_C1_U20: Lesson[] = [
             type: "speak",
             text: "Boa noite a todos e obrigada pela presença.",
             prompt: "You're Dona Sônia. Say it in Portuguese: Good evening, everyone, and thank you for coming.",
-            tip: "Presença: pre-ZEN-ça; the s between vowels sounds like z.",
+            tip: "Presença: pre-ZẼN-sa; the s between vowels sounds like z.",
             explanation: "\"Obrigada pela presença\" is the formula for thanking people at a meeting; Dona Sônia, a woman, says \"obrigada\".",
           },
         ],
@@ -2105,7 +2105,7 @@ export const PT_C1_U20: Lesson[] = [
         type: "speak",
         text: "Se por um lado a IA ajuda, por outro ela pode atrapalhar a aprendizagem.",
         prompt: "Say it in Portuguese: While AI helps on the one hand, on the other it can get in the way of learning.",
-        tip: "Aprendizagem ends in a nasal -agem: a-pren-di-ZA-gem.",
+        tip: "Aprendizagem ends in a nasal -agem: a-prẽn-jee-ZA-jẽi.",
         explanation: "\"Se por um lado..., por outro\" weighs both sides in one sentence; \"atrapalhar\" is to hinder.",
       },
     ],
@@ -2226,7 +2226,7 @@ export const PT_C1_U20: Lesson[] = [
         examples: [
           { es: "Os dados serão excluídos após o término do ano letivo.", en: "The data will be deleted at the end of the school year." },
           { es: "Para acessar o sistema, o responsável deve informar o CPF.", en: "To access the system, the parent or guardian must provide their tax number." },
-          { es: "A diretora fez uma live com os pais sobre a volta às aulas.", en: "The head did a livestream with parents about the return to school." },
+          { es: "A diretora fez uma live com os pais sobre a volta às aulas.", en: "The principal did a livestream with parents about the return to school." },
           { es: "Ele trabalha numa startup de educação.", en: "He works at an education startup." },
         ],
         checkpoint: [
@@ -2398,7 +2398,7 @@ export const PT_C1_U20: Lesson[] = [
         type: "speak",
         text: "Na verdade, eu só percebi o erro depois da formatura.",
         prompt: "Say it in Portuguese: Actually, I only realized the mistake after the graduation ceremony.",
-        tip: "Percebi: per-ce-BI, with a soft c like s.",
+        tip: "Percebi: per-se-BEE, with a soft c like s.",
         explanation: "Three false friends avoided: \"na verdade\" (actually), \"percebi\" (realized) and \"formatura\" (the ceremony).",
       },
     ],
@@ -2415,7 +2415,7 @@ export const PT_C1_U20: Lesson[] = [
         heading: "Context and position",
         body: [
           "Your mission: you represent the parents on the \"conselho escolar\" of a municipal school in Belo Horizonte. The board wants written proposals on \"o uso de celulares e de ferramentas de IA em sala de aula\". A federal law of 2025 already restricts phones in schools, except for teaching purposes, so the question is how to apply it and what to do about AI.",
-          "Open formally but plainly: \"Prezados membros do Conselho Escolar\", then state the context with data or a law (the \"repertório\" of Unit 4) and your position in one sentence: \"Proponho que o uso de celulares seja restrito às atividades pedagógicas e que a escola adote regras claras para a IA.\" \"Propor que\" takes the subjunctive.",
+          "Open formally but plainly: \"Prezados membros do Conselho Escolar\", then state the context with data or a law (the \"repertório\" of Unit 6) and your position in one sentence: \"Proponho que o uso de celulares seja restrito às atividades pedagógicas e que a escola adote regras claras para a IA.\" \"Propor que\" takes the subjunctive.",
         ],
         examples: [
           { es: "Prezados membros do Conselho Escolar,", en: "Dear members of the School Board," },
@@ -2457,7 +2457,7 @@ export const PT_C1_U20: Lesson[] = [
       {
         heading: "Arguments and concessions",
         body: [
-          "Each argument needs a reason and, ideally, evidence: \"Estudos apontam que a presença do celular reduz a concentração dos alunos\" (hedged, as in Unit 19). A strong proposal also concedes what the other side gets right, which makes your position more credible.",
+          "Each argument needs a reason and, ideally, evidence: \"Estudos apontam que a presença do celular reduz a concentração dos alunos\" (hedged, as in Unit 16). A strong proposal also concedes what the other side gets right, which makes your position more credible.",
           "The tools of concession: \"não se pode negar que\" + indicative, \"é verdade que..., mas\", \"ainda que\" + subjunctive, and the balanced \"se por um lado..., por outro...\": \"Se por um lado a IA pode ajudar alunos com dificuldade, por outro seu uso sem orientação compromete a aprendizagem.\" Finish with \"portanto\" or \"diante disso\" to lead into the proposal.",
         ],
         examples: [
@@ -2519,7 +2519,7 @@ export const PT_C1_U20: Lesson[] = [
           { es: "As regras serão discutidas por meio de oficinas com professores e alunos.", en: "The rules will be discussed through workshops with teachers and students." },
           { es: "A fim de que a ferramenta apoie a aprendizagem, os alunos devem declarar seu uso.", en: "So that the tool supports learning, students should declare when they use it." },
           { es: "Os celulares ficarão guardados em armários durante as aulas.", en: "Phones will be kept in lockers during lessons." },
-          { es: "Coloco-me à disposição para quaisquer esclarecimentos. Atenciosamente,", en: "I remain at your disposal for any clarification. Yours sincerely," },
+          { es: "Coloco-me à disposição para quaisquer esclarecimentos. Atenciosamente,", en: "I remain at your disposal for any clarification. Sincerely," },
         ],
         checkpoint: [
           {
@@ -2541,7 +2541,7 @@ export const PT_C1_U20: Lesson[] = [
             type: "speak",
             text: "Coloco-me à disposição para quaisquer esclarecimentos.",
             prompt: "Read the closing line in Portuguese: I remain at your disposal for any clarification.",
-            tip: "Quaisquer is the plural of qualquer: kuais-KÉR.",
+            tip: "Quaisquer is the plural of qualquer: kwais-KÉR.",
             explanation: "A formal closing; in written formal Portuguese the enclitic \"coloco-me\" is normal at the start of a sentence.",
           },
         ],
@@ -2794,7 +2794,7 @@ export const PT_C1_U20: Lesson[] = [
             type: "speak",
             text: "Vó, se alguém pedir dinheiro por mensagem, liga para a pessoa antes.",
             prompt: "Say it in Portuguese to your grandmother: Grandma, if someone asks for money by message, call the person first.",
-            tip: "Mensagem ends in a nasal -gem: men-SA-gem, with the final m closing the nose.",
+            tip: "Mensagem ends in a nasal diphthong: mẽn-SA-jẽi; don't close your lips on the final m.",
             explanation: "\"Se alguém pedir\" uses the future subjunctive; with family, \"liga\" is the natural imperative.",
           },
         ],
@@ -2926,7 +2926,7 @@ export const PT_C1_U20: Lesson[] = [
         type: "speak",
         text: "Consertamos alguns erros e o aplicativo ficou mais rápido.",
         prompt: "Say the plain update note in Portuguese: We fixed some errors and the app is faster now.",
-        tip: "Rápido stresses the first syllable: RÁ-pi-do.",
+        tip: "Rápido stresses the first syllable, with an h-like r: HÁ-pi-doo.",
         explanation: "The plain-language version of \"correções de bugs e melhorias de performance\".",
       },
     ],
@@ -2936,7 +2936,7 @@ export const PT_C1_U20: Lesson[] = [
     level: "PT-C1",
     number: 12,
     title: "Spiral Review: Technology and Education",
-    summary: "Mixed practice of the unit's vocabulary with the essay toolkit of Unit 4 (repertório, thesis, proposta de intervenção) and the media literacy of Unit 9 (checking claims, distancing, fallacies).",
+    summary: "Mixed practice of the unit's vocabulary with the essay toolkit of Unit 6 (repertório, thesis, proposta de intervenção) and the media literacy of Unit 15 (checking claims, distancing, fallacies).",
     duration: "16 min",
     kind: "review",
     format: "Spiral Review",
@@ -2983,7 +2983,7 @@ export const PT_C1_U20: Lesson[] = [
       {
         heading: "Checking a viral claim about AI",
         body: [
-          "A post goes viral: \"Estudo de Harvard prova que a IA vai substituir todos os professores até 2030!\" Unit 9's questions apply: who did the study, where was it published, what did it actually say? The original report, it turns out, only estimated that some administrative tasks \"poderiam ser automatizadas\".",
+          "A post goes viral: \"Estudo de Harvard prova que a IA vai substituir todos os professores até 2030!\" Unit 15's questions apply: who did the study, where was it published, what did it actually say? The original report, it turns out, only estimated that some administrative tasks \"poderiam ser automatizadas\".",
           "Report it with distance (\"segundo o post\", \"o estudo teria afirmado\"), one marker at a time, then name the problems: an \"apelo à autoridade\" (a famous name instead of evidence), an overclaim (\"prova\", \"todos\"), and a \"falsa dicotomia\" in the comments: \"ou a escola proíbe a IA, ou os professores somem\".",
         ],
         examples: [
@@ -3034,7 +3034,7 @@ export const PT_C1_U20: Lesson[] = [
       {
         heading: "The proposta de intervenção",
         body: [
-          "Close the essay with Unit 4's five elements and the unit's vocabulary: \"Portanto, cabe ao Ministério da Educação, em parceria com as secretarias estaduais, ampliar a conectividade das escolas públicas, por meio da distribuição de equipamentos e da formação continuada de professores, a fim de que a inclusão digital deixe de ser privilégio de poucos.\"",
+          "Close the essay with Unit 6's five elements and the unit's vocabulary: \"Portanto, cabe ao Ministério da Educação, em parceria com as secretarias estaduais, ampliar a conectividade das escolas públicas, por meio da distribuição de equipamentos e da formação continuada de professores, a fim de que a inclusão digital deixe de ser privilégio de poucos.\"",
           "Check the agent (precise, not \"a sociedade\"), the action (a verb), the means (\"por meio de\"), the purpose (\"a fim de que\" + subjunctive) and a detail (\"priorizando as regiões com menor acesso\").",
         ],
         examples: [
@@ -3064,7 +3064,7 @@ export const PT_C1_U20: Lesson[] = [
             type: "speak",
             text: "A inclusão digital não pode ser privilégio de poucos.",
             prompt: "Say it in Portuguese: Digital inclusion cannot be a privilege of the few.",
-            tip: "Privilégio: pri-vi-LÉ-gio, with an open é.",
+            tip: "Privilégio: pri-vi-LÉ-jyoo, with an open é.",
             explanation: "A typical closing line for the essay's conclusion; no article before \"privilégio\".",
           },
         ],
@@ -3176,7 +3176,7 @@ export const PT_C1_U20: Lesson[] = [
         type: "speak",
         text: "Segundo o post, o estudo teria previsto o fim dos professores, mas isso não é verdade.",
         prompt: "Say it in Portuguese: According to the post, the study supposedly predicted the end of teachers, but that isn't true.",
-        tip: "Previsto: pre-VIS-to; in Rio the s before t sounds like sh.",
+        tip: "Previsto: pre-VIS-too; in Rio the s before t sounds like sh.",
         explanation: "\"Teria previsto\" distances you from the claim before you correct it.",
       },
     ],

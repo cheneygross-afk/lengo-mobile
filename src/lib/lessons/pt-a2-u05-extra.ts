@@ -318,7 +318,7 @@ export const PT_A2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Enquanto eu cozinhava, ela arrumava a casa.",
         prompt: "Say it in Portuguese: While I cooked, she tidied the house.",
-        tip: "Enquanto starts with a nasal en: ẽ-KUAN-tu.",
+        tip: "Enquanto starts with a nasal en: ẽ-KWÃ-too.",
         explanation: "Two parallel actions, both in the imperfeito.",
       },
       {
@@ -481,7 +481,7 @@ export const PT_A2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu ia ligar para você, mas esqueci.",
         prompt: "Say it in Portuguese: I was going to call you, but I forgot.",
-        tip: "Esqueci: es-ke-SI, with the stress on the last syllable.",
+        tip: "Esqueci: es-ke-SEE, with the stress on the last syllable.",
         explanation: "\"Ia\" + infinitive for the plan; \"esqueci\" for what actually happened.",
       },
       {

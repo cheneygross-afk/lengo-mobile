@@ -111,8 +111,8 @@ export const PT_C2_S04_STORIES: Story[] = [
         explanation: `The records, "consultados com o mesmo rigor, não registram" the rain.`,
       },
       {
-        question: `How did a former classmate explain his poor marks?`,
-        options: [`He was often ill.`, `His teachers disliked him.`, `He worked after school.`, `He spent lessons drawing planes on his desk.`],
+        question: `How did a former classmate explain his poor grades?`,
+        options: [`He was often sick.`, `His teachers disliked him.`, `He worked after school.`, `He spent lessons drawing planes on his desk.`],
         correctIndex: 3,
         explanation: `She suggested it was due to "o fato de o menino passar as aulas desenhando aviões na carteira".`,
       },

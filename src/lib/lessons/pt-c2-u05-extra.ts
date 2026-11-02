@@ -36,7 +36,7 @@ export const PT_C2_U05_EXTRA: Lesson[] = [
             source: "I realized I had forgotten my keys.",
             answer: "Percebi que tinha esquecido as chaves.",
             altAnswers: ["Eu percebi que tinha esquecido as chaves.", "Percebi que tinha esquecido minhas chaves.", "Me dei conta de que tinha esquecido as chaves."],
-            explanation: "To realize in the sense of notice is \"perceber\" or \"dar-se conta de\". \"Realizar\" means to carry out or fulfil, so \"realizei que\" makes no sense. \"Tinha esquecido\" puts the forgetting before the realizing.",
+            explanation: "To realize in the sense of notice is \"perceber\" or \"dar-se conta de\". \"Realizar\" means to carry out or fulfill, so \"realizei que\" makes no sense. \"Tinha esquecido\" puts the forgetting before the realizing.",
           },
           {
             type: "fill-blank",
@@ -153,7 +153,7 @@ export const PT_C2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Que situação esquisita!",
         prompt: "Say it in Portuguese: What a weird situation!",
-        tip: "Esquisita: is-ki-ZI-ta.",
+        tip: "Esquisita: is-kee-ZEE-ta.",
         explanation: "\"Esquisito\" means weird or strange, never exquisite; it agrees with \"situação\": esquisita.",
       },
       {
@@ -188,7 +188,7 @@ export const PT_C2_U05_EXTRA: Lesson[] = [
           "Mediation means passing on the gist for someone else: \"Basicamente, o texto diz que...\", \"Em outras palavras...\", \"O que ele quis dizer é que...\", \"Resumindo para você...\". Keep the key points, drop the detail, and adjust to your listener.",
         ],
         examples: [
-          { es: "A reunião é dia 05/04, às 14h.", en: "The meeting is on April 5 at 2 p.m." },
+          { es: "A reunião é no dia 5 de abril, às 14h.", en: "The meeting is on April 5 (written 05/04) at 2 p.m." },
           { es: "Custa R$ 1.250,90.", en: "It costs 1,250.90 reais." },
           { es: "A temperatura vai chegar a 35 graus.", en: "The temperature will reach 35 degrees (Celsius)." },
           { es: "Basicamente, o contrato diz que você pode cancelar a qualquer momento.", en: "Basically, the contract says you can cancel at any time." },
@@ -321,7 +321,7 @@ export const PT_C2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Resumindo, o contrato pode ser cancelado a qualquer momento.",
         prompt: "Say it in Portuguese: In short, the contract can be canceled at any time.",
-        tip: "Qualquer: kwau-KER.",
+        tip: "Qualquer: kwaw-KÉR, with an open é.",
         explanation: "\"Resumindo\" frames the summary, and \"a qualquer momento\" means at any time. The passive \"pode ser cancelado\" agrees with \"o contrato\".",
       },
       {
@@ -411,7 +411,7 @@ export const PT_C2_U05_EXTRA: Lesson[] = [
             source: "For payment upfront, we give a 10% discount.",
             answer: "Para pagamento à vista, damos 10% de desconto.",
             altAnswers: ["Para pagamento à vista, damos um desconto de 10%.", "Para pagamento à vista, a gente dá 10% de desconto.", "Para pagamento à vista, a gente dá um desconto de 10%.", "Damos 10% de desconto para pagamento à vista.", "Damos um desconto de 10% para pagamento à vista.", "Para pagamento à vista, oferecemos 10% de desconto."],
-            explanation: "Upfront is \"à vista\" (with the crase): paid in full at once, the opposite of \"parcelado\". It has nothing to do with sight: \"à vista\" means paid in full at once.",
+            explanation: "Upfront is \"à vista\" (with the crase): paid in full at once, the opposite of \"parcelado\". Despite the look of the words, it has nothing to do with sight.",
           },
           {
             type: "multiple-choice",
@@ -424,7 +424,7 @@ export const PT_C2_U05_EXTRA: Lesson[] = [
             type: "speak",
             text: "Qualquer dúvida, estamos à disposição.",
             prompt: "Say it in Portuguese: If you have any questions, don't hesitate to get in touch.",
-            tip: "Link \"estamos à\" smoothly: es-TA-mu-za-dis-po-zi-SÃO.",
+            tip: "Link \"estamos à\" smoothly: is-TÃ-moo-za-jees-po-zee-SÃW.",
             explanation: "The Brazilian formula, not a calque of don't hesitate.",
           },
         ],
@@ -681,14 +681,14 @@ export const PT_C2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Nós podemos entregar em quarenta e cinco dias.",
         prompt: "Interpret into Portuguese, in the first person: We can deliver in forty-five days.",
-        tip: "Say the number clearly: qua-REN-ta e CIN-co.",
+        tip: "Say the number clearly: kwa-RẼN-ta ee SĨN-koo.",
         explanation: "Speak as the supplier: \"nós podemos\", not \"ele diz que eles podem\".",
       },
       {
         type: "speak",
         text: "A intérprete pede que o senhor repita o preço, por favor.",
         prompt: "Step out as the interpreter and politely ask the director to repeat the price.",
-        tip: "\"Repita\" is the subjunctive after \"pede que\": re-PI-ta.",
+        tip: "\"Repita\" is the subjunctive after \"pede que\": he-PEE-ta.",
         explanation: "Your own words go in the third person so nobody mistakes them for the client's.",
       },
       {

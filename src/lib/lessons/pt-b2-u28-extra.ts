@@ -443,7 +443,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The company made a loss of R$1.5 billion.",
+        source: "The company posted a loss of R$1.5 billion.",
         answer: "A empresa teve um prejuízo de R$ 1,5 bilhão.",
         altAnswers: ["A empresa teve prejuízo de R$ 1,5 bilhão.", "A empresa teve um prejuízo de um bilhão e meio de reais.", "A empresa teve um prejuízo de R$1,5 bilhão.", "A empresa registrou prejuízo de R$ 1,5 bilhão."],
         explanation: "Below 2, \"bilhão\" stays singular.",

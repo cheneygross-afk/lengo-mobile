@@ -129,7 +129,7 @@ export const PT_B2_U22_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're talking about your mother's mother, who is from Recife. Which sentence is punctuated correctly?",
+        question: "Only one of your grandmothers is still alive, and she is from Recife. Which sentence is punctuated correctly?",
         options: [
           "Minha avó que é de Recife faz bolos ótimos.",
           "Minha avó, que é de Recife, faz bolos ótimos.",
@@ -137,7 +137,7 @@ export const PT_B2_U22_EXTRA: Lesson[] = [
           "Minha avó, que é de Recife faz bolos ótimos.",
         ],
         correctIndex: 1,
-        explanation: "She is one specific person, so the clause only adds information: explicative, between two commas. A single comma would split the subject from \"faz\".",
+        explanation: "You have only one grandmother now, so the clause only adds information: explicative, between two commas. Without commas it would pick her out from another grandmother. A single comma would split the subject from \"faz\".",
       },
       {
         type: "fill-blank",
@@ -206,7 +206,7 @@ export const PT_B2_U22_EXTRA: Lesson[] = [
           { es: "Chegaram as caixas com os livros.", en: "The boxes with the books have arrived." },
           { es: "Houve muitas dúvidas sobre o novo sistema.", en: "There were a lot of questions about the new system." },
           { es: "A turma inteira foi ao museu.", en: "The whole class went to the museum." },
-          { es: "Ana e eu fomos ao cinema.", en: "Ana and I went to the cinema." },
+          { es: "Ana e eu fomos ao cinema.", en: "Ana and I went to the movies." },
         ],
         checkpoint: [
           {
@@ -340,7 +340,7 @@ export const PT_B2_U22_EXTRA: Lesson[] = [
         type: "speak",
         text: "Houve muitas dúvidas sobre o novo sistema.",
         prompt: "Say it in Portuguese: There were a lot of questions about the new system.",
-        tip: "\"Houve\" starts with a silent h: OU-vi.",
+        tip: "\"Houve\" starts with a silent h: OU-vee.",
         explanation: "Impersonal \"houve\", singular.",
       },
     ],

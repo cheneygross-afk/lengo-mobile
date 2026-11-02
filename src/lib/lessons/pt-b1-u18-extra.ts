@@ -318,7 +318,7 @@ export const PT_B1_U18_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ele disse que ia chegar tarde.",
         prompt: "Say it in Portuguese: He said he was going to arrive late.",
-        tip: "Disse: DJI-si.",
+        tip: "Disse: JEE-see.",
         explanation: "\"Vou chegar tarde\" reported in the past becomes \"ia chegar tarde\": \"vou\" shifts to \"ia\".",
       },
       {
@@ -352,10 +352,10 @@ export const PT_B1_U18_EXTRA: Lesson[] = [
           "Connectors organize ideas: add (\"além disso\"), contrast (\"no entanto\", \"porém\", \"embora\" + subjunctive), cause (\"já que\", \"como\"), result (\"portanto\", \"por isso\") and conclude (\"em resumo\").",
         ],
         examples: [
-          { es: "Oi, gente! Bora pra praia amanhã?", en: "Hi, everyone! Shall we go to the beach tomorrow?" },
+          { es: "Oi, gente! Bora pra praia amanhã?", en: "Hi, everyone! Want to go to the beach tomorrow?" },
           { es: "Prezada Senhora, gostaria de solicitar um reembolso.", en: "Dear Madam, I would like to request a refund." },
           { es: "O curso é caro; no entanto, é muito bom.", en: "The course is expensive; however, it's very good." },
-          { es: "Como choveu, o jogo foi cancelado.", en: "As it rained, the match was canceled." },
+          { es: "Como choveu, o jogo foi cancelado.", en: "As it rained, the game was canceled." },
           { es: "Embora more longe, ele nunca se atrasa.", en: "Although he lives far away, he's never late." },
           { es: "Os custos subiram; portanto, o preço vai aumentar.", en: "Costs went up; therefore, the price will rise." },
         ],
@@ -484,7 +484,7 @@ export const PT_B1_U18_EXTRA: Lesson[] = [
         type: "speak",
         text: "Como estava cansado, fui dormir cedo.",
         prompt: "Say it in Portuguese: As I was tired, I went to bed early.",
-        tip: "Cansado: kan-SA-du.",
+        tip: "Cansado: kan-SA-doo.",
         explanation: "\"Como\" for cause goes at the start of the sentence. \"Estava cansado\" is the background state, and \"fui dormir\" is the event.",
       },
       {

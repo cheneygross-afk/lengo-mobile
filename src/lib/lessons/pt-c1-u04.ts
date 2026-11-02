@@ -274,7 +274,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "speak",
         text: "Portanto, cabe ao Estado garantir o acesso à saúde mental.",
         prompt: "Say it in Portuguese: Therefore, it's up to the State to guarantee access to mental health care.",
-        tip: "In \"saúde\" the u is stressed and separate: sa-Ú-de, with the final de sounding like dji.",
+        tip: "In \"saúde\" the u is stressed and separate: sa-Ú-jee, with the final de sounding like jee.",
         explanation: "\"Cabe ao Estado\" + infinitive gives the agent and the action, the core of the \"proposta de intervenção\".",
       },
     ],
@@ -381,7 +381,7 @@ export const PT_C1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Nesse sentido, torna-se evidente que a intolerância religiosa persiste no país.",
-            tip: "Say \"torna-se\" as one word, TOR-na-si, and make the t in \"intolerância\" a clean t, not a ch.",
+            tip: "Say \"torna-se\" as one word, TOR-na-see, and make the t in \"intolerância\" a clean t, not a ch.",
             explanation: "\"Torna-se evidente que\" frames the thesis without \"eu acho\", which keeps the essay impersonal.",
           },
         ],
@@ -551,7 +551,7 @@ export const PT_C1_U04: Lesson[] = [
     level: "PT-C1",
     number: 3,
     title: "Development Paragraphs",
-    summary: "Build the ENEM development paragraph step by step: a topic sentence, the argument, productive repertório, analyzis and a closing link back to the thesis.",
+    summary: "Build the ENEM development paragraph step by step: a topic sentence, the argument, productive repertório, analysis and a closing link back to the thesis.",
     duration: "15 min",
     sections: [
       {
@@ -664,7 +664,7 @@ export const PT_C1_U04: Lesson[] = [
         body: [
           "After the repertório, analyze it: say what it shows about your case and what follows from it. Result connectors carry this move: \"desse modo\", \"dessa forma\", \"assim\", \"logo\". If you skip this step you leave a \"citação solta\", a quotation the examiner has to interpret for you. That is exactly where competência 3 marks drop.",
           "The last sentence, the \"frase de fechamento\", ties the paragraph back to the thesis, often with \"portanto\" or \"fica evidente que\". A strong close can also stress that the problem will persist: \"enquanto o Estado não garantir..., a população continuará...\", with the future subjunctive after \"enquanto\".",
-          "The whole sequence fits in five or six sentences: tópico frasal, explanation, repertório, analyzis, fechamento. Longer paragraphs usually repeat themselves, and shorter ones usually skip the analyzis.",
+          "The whole sequence fits in five or six sentences: tópico frasal, explanation, repertório, analysis, fechamento. Longer paragraphs usually repeat themselves, and shorter ones usually skip the analysis.",
         ],
         examples: [
           { es: "Desse modo, a ausência de políticas de permanência estudantil empurra esses jovens para fora da escola.", en: "In this way, the lack of policies to keep students in school pushes these young people out of it." },
@@ -686,7 +686,7 @@ export const PT_C1_U04: Lesson[] = [
               "Logo, o direito previsto na lei não se concretiza na realidade de muitas famílias.",
               "Assim, o direito previsto em lei não se concretiza na realidade de muitas famílias.",
             ],
-            explanation: "The analyzis sentence draws the consequence of the repertório, so it opens with a result connector. \"Previsto na lei\" (set out in law) and \"concretizar-se\" (to become reality) are standard essay vocabulary.",
+            explanation: "The analysis sentence draws the consequence of the repertório, so it opens with a result connector. \"Previsto na lei\" (set out in law) and \"concretizar-se\" (to become reality) are standard essay vocabulary.",
           },
           {
             type: "fill-blank",
@@ -699,8 +699,8 @@ export const PT_C1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Logo, fica evidente que a omissão do poder público perpetua o problema.",
-            tip: "The final -te of \"evidente\" sounds like 'tchi'. Stress \"perpetua\" on the u: per-pe-TU-a.",
-            explanation: "\"Fica evidente que\" is a closing formula that links the analyzis back to the thesis.",
+            tip: "The final -te of \"evidente\" sounds like chee: e-vee-DẼN-chee. Stress \"perpetua\" on the u: per-pe-TOO-a.",
+            explanation: "\"Fica evidente que\" is a closing formula that links the analysis back to the thesis.",
           },
         ],
       },
@@ -731,7 +731,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "multiple-choice",
         question: "A student writes: \"Em primeiro lugar, a desinformação prejudica a democracia. Segundo Bauman, as relações são líquidas. Portanto, é preciso agir.\" What is the main weakness?",
         options: [
-          "The repertório has no clear link to the claim, and there is no analyzis.",
+          "The repertório has no clear link to the claim, and there is no analysis.",
           "The topic sentence should come at the end of the paragraph.",
           "\"Segundo\" cannot introduce a thinker.",
           "\"Portanto\" is too informal for an essay.",
@@ -762,7 +762,7 @@ export const PT_C1_U04: Lesson[] = [
         sentence: "___, a desinformação deixa de ser um problema individual e se torna uma questão coletiva.",
         answer: "Dessa forma",
         altAnswers: ["Desse modo", "Dessa maneira", "Assim"],
-        explanation: "The analyzis draws a consequence, so it needs a result connector. Note the agreement: \"dessa forma\" and \"dessa maneira\" (feminine), but \"desse modo\" (masculine).",
+        explanation: "The analysis draws a consequence, so it needs a result connector. Note the agreement: \"dessa forma\" and \"dessa maneira\" (feminine), but \"desse modo\" (masculine).",
       },
       {
         type: "matching",
@@ -799,7 +799,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "speak",
         text: "Em primeiro lugar, a ausência de políticas públicas contribui para a persistência do problema.",
         prompt: "Say it in Portuguese: First, the absence of public policies contributes to the persistence of the problem.",
-        tip: "Make the stressed ê nasal in \"ausência\" and \"persistência\": au-ZÊN-sia, per-sis-TÊN-sia.",
+        tip: "Make the stressed ê nasal in \"ausência\" and \"persistência\": aw-ZẼN-sya, per-sees-TẼN-sya.",
         explanation: "A model tópico frasal: an ordering connector, an agent (\"a ausência de políticas públicas\") and its effect.",
       },
       {
@@ -1061,7 +1061,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "speak",
         text: "Portanto, cabe ao Ministério da Educação incluir a educação financeira no currículo.",
         prompt: "Say it in Portuguese: Therefore, it is up to the Ministry of Education to include financial education in the curriculum.",
-        tip: "Stress \"cur-RÍ-cu-lo\" on the second syllable, and keep the ão of \"educação\" nasal, with no n at the end.",
+        tip: "Stress \"currículo\" on the second syllable (koo-HEE-koo-loo), and keep the ão of \"educação\" nasal, with no n at the end.",
         explanation: "A concluding connector, the agent with \"cabe ao\", and a concrete action: \"incluir\".",
       },
       {
@@ -1092,7 +1092,7 @@ export const PT_C1_U04: Lesson[] = [
         body: [
           "\"Competência 2\" rewards \"repertório sociocultural\": knowledge from outside the motivating texts that supports your argument. Examiners check three things. First, is it \"legitimado\", traceable to a real source such as a law, an institution, a named thinker or a dated event? Second, is it \"pertinente\", tied to this theme rather than to society in general? Third, is it \"produtivo\", doing real argumentative work?",
           "Most essays fail the third test. A \"repertório coringa\" (a wild-card quotation memorized for any theme) that is dropped into the introduction and never mentioned again is decoration. It shows you have read something, not that you can argue. Productive use takes three moves: name the source, state the idea in one clause, then apply it with a link such as \"sob essa ótica\" or \"nesse sentido\".",
-          "Introduce sources with \"segundo\", \"para\" or \"conforme aponta\", as in Unit 3. Paraphrase unless you are sure of the exact words. A misquoted thinker costs more than a well-applied concept.",
+          "Introduce sources with \"segundo\", \"para\" or \"conforme aponta\", as in the Academic Portuguese unit. Paraphrase unless you are sure of the exact words. A misquoted thinker costs more than a well-applied concept.",
         ],
         examples: [
           { es: "Como dizia Aristóteles, o homem é um animal político.", en: "As Aristotle said, man is a political animal. (decorative if nothing follows)" },
@@ -1238,7 +1238,7 @@ export const PT_C1_U04: Lesson[] = [
           {
             type: "speak",
             text: "A abolição da escravatura não foi acompanhada de políticas de inclusão.",
-            tip: "In \"políticas\" the t before i sounds like ch (po-LÍ-tchi-cas); make the final ão of \"abolição\" and \"inclusão\" nasal.",
+            tip: "In \"políticas\" the t before i sounds like ch (po-LÍ-chee-kas); make the final ão of \"abolição\" and \"inclusão\" nasal.",
             explanation: "A historical cause stated in one clause, ready to be applied to the theme.",
           },
         ],
@@ -1346,7 +1346,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "speak",
         text: "Segundo o IBGE, as mulheres fazem mais trabalho doméstico do que os homens.",
         prompt: "Say it in Portuguese: According to the IBGE, women do more housework than men.",
-        tip: "Say IBGE letter by letter: i-bê-gê-É, with the stress on the last letter.",
+        tip: "Say IBGE letter by letter: ee-bê-gê-É, with the stress on the last letter.",
         explanation: "\"Segundo o IBGE\" names the source; \"mais... do que\" makes the comparison.",
       },
       {
@@ -1368,7 +1368,7 @@ export const PT_C1_U04: Lesson[] = [
     level: "PT-C1",
     number: 6,
     title: "Contrast Clinic: Weak or Strong Paragraph?",
-    summary: "Compare weak and strong development paragraphs and see what turns a statement into an argument: a debatable topic sentence, productive repertório, real analyzis and a closing link to the thesis.",
+    summary: "Compare weak and strong development paragraphs and see what turns a statement into an argument: a debatable topic sentence, productive repertório, real analysis and a closing link to the thesis.",
     duration: "15 min",
     kind: "reinforce",
     format: "Contrast Clinic",
@@ -1475,7 +1475,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "Analysis and the closing link",
         body: [
-          "Between evidence and conclusion, the weak paragraph jumps; the strong one explains the mechanism, how the cause produces the effect. \"Isso ocorre porque\", \"como consequência\", \"o que acarreta\" and \"de modo que\" lay out the chain instead of asking the examiner to take it on trust. This analyzis is where a paragraph actually argues.",
+          "Between evidence and conclusion, the weak paragraph jumps; the strong one explains the mechanism, how the cause produces the effect. \"Isso ocorre porque\", \"como consequência\", \"o que acarreta\" and \"de modo que\" lay out the chain instead of asking the examiner to take it on trust. This analysis is where a paragraph actually argues.",
           "Then the last sentence. The weak paragraph ends with a moral that could close any essay: \"Portanto, todos devem fazer a sua parte.\" The strong one returns to the thesis with what this paragraph has shown: \"Dessa forma, a ausência de políticas de permanência estudantil mantém o ciclo da evasão.\" It is specific and conclusive, and it hands over to the next paragraph.",
           "Keep solutions out of it. Proposals belong to the \"proposta de intervenção\", and a development paragraph that ends with \"o governo deve...\" has stopped arguing.",
         ],
@@ -1494,7 +1494,7 @@ export const PT_C1_U04: Lesson[] = [
             sentence: "___ o jovem que trabalha à noite não consegue acompanhar as aulas.",
             answer: "Isso ocorre porque",
             altAnswers: ["Isso acontece porque", "Isso se dá porque", "Tal fato ocorre porque"],
-            explanation: "\"Isso ocorre porque\" opens the analyzis: it shows how the cause produces the effect instead of just asserting it.",
+            explanation: "\"Isso ocorre porque\" opens the analysis: it shows how the cause produces the effect instead of just asserting it.",
           },
           {
             type: "translate",
@@ -1617,7 +1617,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         type: "dictation",
         audio: "Isso ocorre porque o Estado é omisso.",
-        explanation: "\"Isso ocorre porque\" opens the analyzis. \"Omisso\" (failing to act) is a key word in essays about public policy.",
+        explanation: "\"Isso ocorre porque\" opens the analysis. \"Omisso\" (failing to act) is a key word in essays about public policy.",
       },
       {
         type: "speak",
@@ -1709,7 +1709,7 @@ export const PT_C1_U04: Lesson[] = [
         heading: "Scene 2: Naming the problems, gently",
         body: [
           "Then come the weaknesses. Cláudia softens each one with the conditional and the imperfect subjunctive. She says \"eu sugeriria que você revisasse o segundo parágrafo\" and \"seria interessante que você detalhasse o meio\". This is the B2 sequence of tenses: conditional in the main clause, imperfect subjunctive after \"que\".",
-          "Her criticizm stays concrete. \"A sociedade deve agir\" is a vague agent: who exactly? \"Desde os primórdios\" is a cliché that earns nothing. \"A coesão se perdeu\" means the link between paragraphs broke. Teachers often frame a gap as what was missing: \"o que faltou foi o detalhamento\" (what was missing was the detail).",
+          "Her criticism stays concrete. \"A sociedade deve agir\" is a vague agent: who exactly? \"Desde os primórdios\" is a cliché that earns nothing. \"A coesão se perdeu\" means the link between paragraphs broke. Teachers often frame a gap as what was missing: \"o que faltou foi o detalhamento\" (what was missing was the detail).",
           "Watch the false friend \"eventualmente\": it means occasionally or possibly, never eventually (\"no fim\"). \"Deixar a desejar\" (to fall short) is the standard polite verdict: \"a conclusão deixou um pouco a desejar\".",
         ],
         examples: [
@@ -1736,7 +1736,7 @@ export const PT_C1_U04: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "The conclusion fell a bit short.",
             answer: "A conclusão deixou um pouco a desejar.",
-            altAnswers: ["A conclusão deixou a desejar um pouco.", "A conclusão ficou um pouco a desejar."],
+            altAnswers: ["A conclusão deixou a desejar um pouco."],
             explanation: "\"Deixar a desejar\" is the fixed, polite way to say something falls short. \"Um pouco\" softens it further, which is how feedback is usually phrased.",
           },
           {
@@ -1783,7 +1783,7 @@ export const PT_C1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Se eu entendi bem, eu preciso dizer quem vai agir e como.",
-            tip: "The d before i in \"entendi\" sounds like the j in jeans: en-ten-DJI. Keep \"quem\" nasal, with no n sound at the end.",
+            tip: "The d before i in \"entendi\" sounds like the j in jeans: ẽ-tẽ-JEE. Keep \"quem\" nasal, with no n sound at the end.",
             explanation: "\"Se eu entendi bem\" is the natural way to check you've understood before summing up what you heard.",
           },
         ],
@@ -1881,7 +1881,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "speak",
         text: "Professora, posso fazer uma última pergunta?",
         prompt: "Say it in Portuguese: Professor, can I ask one last question? (to a female teacher)",
-        tip: "Stress \"última\" on the first syllable: ÚL-ti-ma. The t before i sounds like the ch in cheese.",
+        tip: "Stress \"última\" on the first syllable: ÚL-chee-ma. The t before i sounds like the ch in cheese.",
         explanation: "To ask a question is \"fazer uma pergunta\", not \"perguntar uma pergunta\". \"Professora\" on its own is the normal way to address a female teacher.",
       },
     ],
@@ -2222,7 +2222,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "Step 2: The first development paragraph",
         body: [
-          "Each development paragraph runs the chain you know: topic sentence, \"repertório\", analyzis, link back. The first argument opens with \"Em primeiro lugar\" and a claim, not a statistic. The IBGE figure comes second, as evidence.",
+          "Each development paragraph runs the chain you know: topic sentence, \"repertório\", analysis, link back. The first argument opens with \"Em primeiro lugar\" and a claim, not a statistic. The IBGE figure comes second, as evidence.",
           "Analysis is where most essays stall. After the data, explain the mechanism: why does poverty push a teenager out of school? The answer is long shifts, tiredness and missed classes. Close with a sentence that returns to the theme. \"Enquanto\" + future subjunctive (\"enquanto a pobreza não for enfrentada\") gives a firm, forward-looking close.",
         ],
         examples: [
@@ -2341,7 +2341,7 @@ export const PT_C1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Diante do exposto, fica evidente que o abandono escolar tem causas econômicas e pedagógicas.",
-            tip: "The t before the final e of \"evidente\" sounds like ch in cheese: evi-DEN-tchi. Keep the ó of \"pedagógicas\" open.",
+            tip: "The t before the final e of \"evidente\" sounds like ch in cheese: e-vee-DẼN-chee. Keep the ó of \"pedagógicas\" open.",
             explanation: "\"Diante do exposto\" opens the conclusion and \"fica evidente que\" restates the thesis in new words.",
           },
         ],
@@ -2392,7 +2392,7 @@ export const PT_C1_U04: Lesson[] = [
           "Quando a escola não dialoga com os projetos de vida do jovem, o abandono parece lógico.",
           "Quando a escola não dialoga com os projetos de vida do aluno, o abandono escolar parece lógico.",
         ],
-        explanation: "\"Dialogar com\" is the natural essay verb for connect with. This sentence is the analyzis that applies Freire's idea to the theme.",
+        explanation: "\"Dialogar com\" is the natural essay verb for connect with. This sentence is the analysis that applies Freire's idea to the theme.",
       },
       {
         type: "word-order",
@@ -2435,7 +2435,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "speak",
         text: "Faz-se necessário, portanto, discutir esses dois fatores.",
         prompt: "Say it in Portuguese: It is therefore necessary to discuss these two factors.",
-        tip: "In \"discutir\" the t before i sounds like ch: dis-cu-TCHIR.",
+        tip: "In \"discutir\" the t before i sounds like ch: jees-koo-CHEER.",
         explanation: "At the start of a formal written sentence the pronoun follows the verb: \"Faz-se necessário\". \"Portanto\" between commas is typical essay style.",
       },
       {
@@ -2518,7 +2518,7 @@ export const PT_C1_U04: Lesson[] = [
               "Segundo Platão, a educação é importante, e isso é verdade até hoje.",
             ],
             correctIndex: 0,
-            explanation: "The first option cites a law and immediately turns it toward the theme. The others are a cliché, an informal announcement and a decorative quotation with no analyzis.",
+            explanation: "The first option cites a law and immediately turns it toward the theme. The others are a cliché, an informal announcement and a decorative quotation with no analysis.",
           },
           {
             type: "fill-blank",
@@ -2534,7 +2534,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "Development: argue, don't just list",
         body: [
-          "Each development paragraph keeps one promise from the thesis. It opens with a topic sentence that names the cause and adds repertório or data. Then comes analyzis, the step that explains why the fact matters and what it leads to. Data without analyzis is a list, and competência 3 marks it down.",
+          "Each development paragraph keeps one promise from the thesis. It opens with a topic sentence that names the cause and adds repertório or data. Then comes analysis, the step that explains why the fact matters and what it leads to. Data without analysis is a list, and competência 3 marks it down.",
           "Competência 4 rewards cohesion: variety without noise. Open the second paragraph with \"ademais\" or \"além disso\", and link cause and effect with \"dessa forma\" or \"por conseguinte\". Refer back with \"tal cenário\", \"essa conjuntura\" or \"o referido problema\" instead of repeating the noun.",
           "One reminder: \"onde\" is only for places. A situation or a reality takes \"em que\" or \"na qual\".",
         ],
@@ -2584,7 +2584,7 @@ export const PT_C1_U04: Lesson[] = [
               "In this way, inequality causes the lack of sanitation.",
             ],
             correctIndex: 0,
-            explanation: "\"Dessa forma\" introduces a consequence, and \"perpetua\" means keeps going. The sentence is the analyzis step: it says what the fact leads to.",
+            explanation: "\"Dessa forma\" introduces a consequence, and \"perpetua\" means keeps going. The sentence is the analysis step: it says what the fact leads to.",
           },
         ],
       },
@@ -2695,7 +2695,7 @@ export const PT_C1_U04: Lesson[] = [
         prompt: "Put the words in order to say: In this way, the lack of sanitation harms health.",
         words: ["Dessa forma,", "a ausência", "de saneamento", "compromete", "a saúde."],
         translation: "In this way, the lack of sanitation harms health.",
-        explanation: "\"Dessa forma\" links the data to its consequence, the analyzis step of a development paragraph.",
+        explanation: "\"Dessa forma\" links the data to its consequence, the analysis step of a development paragraph.",
       },
       {
         type: "translate",
@@ -2716,7 +2716,7 @@ export const PT_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your development paragraph gives a statistic but no analyzis. Which sentence adds the analyzis?",
+        question: "Your development paragraph gives a statistic but no analysis. Which sentence adds the analysis?",
         options: [
           "Isso significa que o direito à saúde, embora garantido por lei, permanece inacessível para milhões.",
           "Esse dado é muito importante e mostra muita coisa sobre o assunto.",
@@ -2735,7 +2735,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "speak",
         text: "Diante do exposto, cabe ao Ministério da Educação promover a educação midiática nas escolas.",
         prompt: "Say it in Portuguese: In view of the above, it is up to the Ministry of Education to promote media literacy in schools.",
-        tip: "In midiática the d before i sounds like dj and the t like tch: mi-dji-Á-tchi-ca. Keep the ão in educação nasal.",
+        tip: "In midiática the d before i sounds like j and the t like ch: mee-jee-Á-chee-ka. Keep the ão in educação nasal.",
         explanation: "A conclusion opener, then \"cabe a\" + agent + infinitive: the core of the proposta de intervenção.",
       },
       {
@@ -2777,7 +2777,7 @@ export const PT_C1_U04_WRITING: WriteExercise = {
   maxWords: 300,
   rubric: [
     "An introduction that opens with productive \"repertório\" (the Constitution, a thinker, a historical fact) and a clear thesis announcing your two arguments, with no clichés like \"desde os primórdios da humanidade\".",
-    "Two development paragraphs, each with a topic sentence, an argument and analyzis, linked by cohesive devices such as \"Em primeiro lugar\", \"Além disso\", \"Nesse sentido\", \"contudo\" and \"portanto\".",
+    "Two development paragraphs, each with a topic sentence, an argument and analysis, linked by cohesive devices such as \"Em primeiro lugar\", \"Além disso\", \"Nesse sentido\", \"contudo\" and \"portanto\".",
     "A \"proposta de intervenção\" with all five elements: a specific agent (\"cabe ao Ministério da Educação\"), an action, a means (\"por meio de\"), a purpose (\"a fim de que\" or \"para que\" + subjunctive) and a detail. Avoid vague agents like \"a sociedade deve\".",
     "Formal written norm throughout: impersonal constructions (\"trata-se de\", \"tende a\"), correct crase and regência (\"condicionado à frequência\") and no informal markers (\"a gente\", \"pra\", \"tipo\").",
   ],

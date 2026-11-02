@@ -216,7 +216,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "Já é a segunda vez que eu ligo.",
-            tip: "Segunda: se-GUN-da, the u is nasal.",
+            tip: "Segunda: 'se-GŨ-da', the u is nasal.",
             explanation: "\"Já é a segunda vez que\" + present says this is the second time it has happened, a firm but polite complaint.",
           },
         ],
@@ -429,7 +429,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "I need to get a replacement ID card.",
         answer: "Preciso tirar a segunda via do RG.",
         altAnswers: ["Eu preciso tirar a segunda via do RG.", "Preciso tirar a segunda via da identidade.", "Preciso fazer a segunda via do RG.", "Preciso pedir a segunda via do RG.", "Preciso solicitar a segunda via do RG.", "Eu preciso tirar a segunda via da minha identidade."],
-        explanation: "\"Tirar a segunda via\" = to get a replacement issued.",
+        explanation: "\"Tirar a segunda via\" = to get a replacement issued. A replacement RG now comes as the new CIN (Carteira de Identidade Nacional), but people still say RG.",
       },
       {
         type: "translate",
