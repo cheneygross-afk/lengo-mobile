@@ -4236,10 +4236,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "La metáfora: identidad sin partícula comparativa",
+        "heading": "La metáfora y el símil: con nexo o sin nexo",
         "body": [
-          "La idea clave: una figura se reconoce por su mecanismo, no por lo bonita que suena. La metáfora identifica dos realidades afirmando que una ES la otra («sus palabras eran miel»); el símil las compara con un nexo explícito («como», «cual», «parecido a»): «sus palabras eran dulces como la miel». Por qué importa la diferencia: al quitar el nexo, el oyente tiene que hacer la conexión por su cuenta, y por eso la metáfora resulta más intensa y directa.",
-          "Con el uso constante, muchas metáforas dejan de percibirse como figuras retóricas y pasan a integrarse en el significado literal del idioma: son las llamadas metáforas lexicalizadas. Un caso extremo es la catacresis, una metáfora obligatoria que se emplea porque el idioma carece de otra palabra para nombrar algo, como ocurre con partes de objetos que toman nombres del cuerpo humano o animal."
+          "La idea clave: una figura se reconoce por su mecanismo, no por lo bonita que suena. La metáfora identifica dos realidades afirmando que una ES la otra («sus palabras eran miel»); el símil las compara con un nexo explícito («como», «cual», «parecido a»): «sus palabras eran dulces como la miel». Por qué importa la diferencia: al quitar el nexo, el oyente tiene que hacer la conexión por su cuenta, y por eso la metáfora resulta más intensa y directa."
         ],
         "examples": [
           {
@@ -4249,18 +4248,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "el símil",
             "en": "figura que compara dos realidades mediante un nexo explícito como o cual"
-          },
-          {
-            "es": "la metáfora lexicalizada",
-            "en": "metáfora tan integrada en el idioma que ya no se percibe como figura, sino como significado literal"
-          },
-          {
-            "es": "la catacresis",
-            "en": "metáfora obligatoria que se usa porque no existe otra palabra para nombrar algo, como el pie de una mesa"
-          },
-          {
-            "es": "el ala del edificio",
-            "en": "ejemplo de catacresis en el que se nombra una parte estructural con una palabra tomada del cuerpo animal"
           }
         ],
         "checkpoint": [
@@ -4275,7 +4262,29 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "«Sus ojos brillan como luceros» es un símil porque usa la partícula comparativa «como»; «sus ojos son dos luceros» es una metáfora directa, y «el pie de la mesa» y «el ala del edificio» son catacresis."
+          }
+        ]
+      },
+      {
+        "heading": "Metáforas lexicalizadas y catacresis",
+        "body": [
+          "Con el uso constante, muchas metáforas dejan de percibirse como figuras retóricas y pasan a integrarse en el significado literal del idioma: son las llamadas metáforas lexicalizadas. Un caso extremo es la catacresis, una metáfora obligatoria que se emplea porque el idioma carece de otra palabra para nombrar algo, como ocurre con partes de objetos que toman nombres del cuerpo humano o animal."
+        ],
+        "examples": [
+          {
+            "es": "la metáfora lexicalizada",
+            "en": "metáfora tan integrada en el idioma que ya no se percibe como figura, sino como significado literal"
           },
+          {
+            "es": "la catacresis",
+            "en": "metáfora obligatoria que se usa porque no existe otra palabra para nombrar algo, como el pie de una mesa"
+          },
+          {
+            "es": "el ala del edificio",
+            "en": "ejemplo de catacresis en el que se nombra una parte estructural con una palabra tomada del cuerpo animal"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Aplica la definición a un caso nuevo: ¿cuál de estas expresiones es una catacresis?",
@@ -4361,10 +4370,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La hipérbole, la metonimia y la sinécdoque",
+        "heading": "La hipérbole y la metonimia: cantidad imposible, cosas vecinas",
         "body": [
-          "La idea clave: para distinguir estas tres figuras, pregúntate qué relación hay entre la palabra usada y lo que se quiere decir. Si hay una cantidad imposible, es hipérbole (me muero de hambre: nadie muere). Si se nombran dos cosas vecinas en la realidad, es metonimia: el lugar por la institución (el Palacio anunció…), el autor por la obra (leer a Cervantes), el recipiente por el contenido (tomarse una copa). Si se nombra una parte por el todo, o el todo por una parte, es sinécdoque (cuatro bocas que alimentar = cuatro personas).",
-          "La sinécdoque es, en realidad, un tipo especial de metonimia: la relación es de inclusión (la parte está dentro del todo), no solo de vecindad. Por eso la pregunta decisiva es: ¿lo nombrado forma parte de lo designado? Si sí, sinécdoque; si solo está al lado o relacionado, metonimia."
+          "La idea clave: para distinguir estas tres figuras, pregúntate qué relación hay entre la palabra usada y lo que se quiere decir. Si hay una cantidad imposible, es hipérbole (me muero de hambre: nadie muere). Si se nombran dos cosas vecinas en la realidad, es metonimia: el lugar por la institución (el Palacio anunció…), el autor por la obra (leer a Cervantes), el recipiente por el contenido (tomarse una copa)."
         ],
         "examples": [
           {
@@ -4376,16 +4384,39 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "figura que nombra algo mediante un término relacionado con ello, como la causa por el efecto"
           },
           {
-            "es": "la sinécdoque",
-            "en": "figura que nombra el todo mediante una de sus partes, o viceversa"
-          },
-          {
             "es": "me muero de hambre",
             "en": "ejemplo de hipérbole que exagera una sensación para intensificar su expresión"
           },
           {
             "es": "el Palacio anunció una reforma",
             "en": "ejemplo de metonimia en el que la institución se nombra a través del lugar donde funciona"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la prueba: en «Esta mañana me he leído a Neruda entero», ¿qué figura hay?",
+            "options": [
+              "una metonimia: el autor por la obra",
+              "una hipérbole: una cantidad imposible",
+              "una sinécdoque: la parte por el todo",
+              "un símil: una comparación con «como»"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Neruda» nombra al autor para referirse a su obra: dos cosas vecinas en la realidad, es decir, metonimia. No es hipérbole, porque leer un libro entero es posible; tampoco es símil, porque no hay ningún nexo comparativo."
+          }
+        ]
+      },
+      {
+        "heading": "La sinécdoque: la parte por el todo",
+        "body": [
+          "Si se nombra una parte por el todo, o el todo por una parte, es sinécdoque (cuatro bocas que alimentar = cuatro personas).",
+          "La sinécdoque es, en realidad, un tipo especial de metonimia: la relación es de inclusión (la parte está dentro del todo), no solo de vecindad. Por eso la pregunta decisiva es: ¿lo nombrado forma parte de lo designado? Si sí, sinécdoque; si solo está al lado o relacionado, metonimia."
+        ],
+        "examples": [
+          {
+            "es": "la sinécdoque",
+            "en": "figura que nombra el todo mediante una de sus partes, o viceversa"
           },
           {
             "es": "hay que ganarse el pan",
@@ -4407,20 +4438,57 @@ const C2_BASE_LESSONS: Lesson[] = [
               1
             ],
             "explanation": "«La Moncloa» (el palacio) nombra al Gobierno español: lugar por institución. «Un Picasso» nombra un cuadro por su autor. Las dos son metonimias de vecindad. «Cuatro bocas» es sinécdoque, porque la boca es parte de la persona, y «mil veces» es una hipérbole."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál de estas frases contiene una sinécdoque y no una metonimia?",
+            "options": [
+              "En la finca pastan doscientas cabezas de ganado.",
+              "Me he tomado dos vasos de agua.",
+              "La Moncloa guarda silencio.",
+              "Colecciona Goyas desde joven."
+            ],
+            "correctIndex": 0,
+            "explanation": "La cabeza forma parte del animal: se nombra la parte por el todo, así que es sinécdoque. El vaso no forma parte del agua (recipiente por contenido), la Moncloa no forma parte del Gobierno (lugar por institución) y Goya no forma parte de sus cuadros (autor por obra): en esos tres casos la relación es solo de vecindad, es decir, metonimia."
           }
         ]
       },
       {
         "heading": "El lenguaje figurado en el habla cotidiana frente al literario",
         "body": [
-          "El lenguaje figurado no es exclusivo de la poesía: el habla cotidiana está saturada de metáforas ya lexicalizadas que apenas se perciben como figuras. La diferencia con el uso literario radica en la intención: en literatura, la figura se elige y se sostiene de manera deliberada para renovar la percepción del lector, mientras que en el habla diaria suele funcionar de forma automática.",
-          "En el terreno literario, además, las figuras suelen combinarse con recursos de repetición y ritmo, como la anáfora, que repite una palabra al inicio de versos sucesivos, o la aliteración, que repite sonidos consonánticos cercanos. La gradación ordena ideas en una secuencia de intensidad creciente o decreciente, y la sinestesia combina sensaciones de distintos sentidos para crear una imagen inesperada."
+          "El lenguaje figurado no es exclusivo de la poesía: el habla cotidiana está saturada de metáforas ya lexicalizadas que apenas se perciben como figuras. La diferencia con el uso literario radica en la intención: en literatura, la figura se elige y se sostiene de manera deliberada para renovar la percepción del lector, mientras que en el habla diaria suele funcionar de forma automática."
         ],
         "examples": [
           {
             "es": "el lenguaje connotativo",
             "en": "uso del lenguaje en el que las palabras evocan significados asociados más allá de su definición literal"
           },
+          {
+            "es": "Ese chico siempre está en las nubes.",
+            "en": "metáfora lexicalizada del habla diaria que se usa sin percibirla como figura"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un poeta escribe un poema entero en el que la ciudad es «un barco que se hunde», y un vecino comenta «mi barrio se hunde». ¿Qué los diferencia?",
+            "options": [
+              "La intención: el poeta elige y sostiene la figura a propósito; el vecino la usa de forma automática.",
+              "Solo el poeta usa una metáfora; el vecino habla en sentido literal.",
+              "El vecino usa una figura más original que el poeta.",
+              "El poeta usa un símil y el vecino una metáfora."
+            ],
+            "correctIndex": 0,
+            "explanation": "Los dos usan lenguaje figurado (el barrio no se hunde literalmente), así que la diferencia no está en tener o no metáfora, sino en la intención: en literatura la imagen se elige y se mantiene para renovar la percepción; en el habla diaria funciona de forma automática. Ninguno usa un nexo comparativo, así que no hay símil."
+          }
+        ]
+      },
+      {
+        "heading": "Recursos de repetición, ritmo y sentidos",
+        "body": [
+          "En el terreno literario, además, las figuras suelen combinarse con recursos de repetición y ritmo, como la anáfora, que repite una palabra al inicio de versos sucesivos, o la aliteración, que repite sonidos consonánticos cercanos. La gradación ordena ideas en una secuencia de intensidad creciente o decreciente, y la sinestesia combina sensaciones de distintos sentidos para crear una imagen inesperada."
+        ],
+        "examples": [
           {
             "es": "la anáfora",
             "en": "repetición de una palabra o frase al inicio de versos o frases sucesivas para crear énfasis"
@@ -4527,17 +4595,13 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): paradoja, personificación y prosopopeya",
         "body": [
           "Profesora: Fíjense en este verso: «el silencio gritaba en la habitación vacía». ¿Qué figura reconocen aquí?",
           "Estudiante: Es una especie de contradicción, porque el silencio no puede gritar.",
           "Profesora: Exacto, es una paradoja próxima al oxímoron, porque une dos ideas opuestas: silencio y grito. Y además hay una personificación: se le da al silencio la capacidad de gritar, una acción humana.",
           "Estudiante: ¿Y si el poema dijera que la habitación le susurró un secreto al poeta?",
-          "Profesora: Ahí tendríamos ya una prosopopeya, porque la habitación no solo actúa como persona, sino que llega a comunicarse.",
-          "Estudiante: Entonces la paradoja y la personificación pueden combinarse en una misma imagen.",
-          "Profesora: Así es. La buena literatura rara vez usa una sola figura de manera aislada; suele entrelazar varias para construir una imagen más rica y sugerente.",
-          "Estudiante: Empiezo a entender por qué este poema me pareció tan intenso al leerlo la primera vez.",
-          "Profesora: Precisamente por eso: el lenguaje figurado no adorna el texto, sino que construye buena parte de su significado."
+          "Profesora: Ahí tendríamos ya una prosopopeya, porque la habitación no solo actúa como persona, sino que llega a comunicarse."
         ],
         "checkpoint": [
           {
@@ -4555,9 +4619,76 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
+        "heading": "En la práctica (2): figuras que se entrelazan",
+        "body": [
+          "Estudiante: Entonces la paradoja y la personificación pueden combinarse en una misma imagen.",
+          "Profesora: Así es. La buena literatura rara vez usa una sola figura de manera aislada; suele entrelazar varias para construir una imagen más rica y sugerente.",
+          "Estudiante: Empiezo a entender por qué este poema me pareció tan intenso al leerlo la primera vez.",
+          "Profesora: Precisamente por eso: el lenguaje figurado no adorna el texto, sino que construye buena parte de su significado."
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "Como en el verso que comenta la profesora, aquí se combinan figuras: «La noche, desvelada, me gritó su silencio». ¿Cuáles hay?",
+            "options": [
+              "una paradoja: se grita un silencio",
+              "una prosopopeya: la noche llega a comunicarse con el hablante",
+              "una onomatopeya",
+              "un polisíndeton"
+            ],
+            "correctIndexes": [
+              0,
+              1
+            ],
+            "explanation": "Gritar un silencio une dos ideas opuestas (paradoja), y la noche no solo actúa como persona sino que se dirige al hablante (prosopopeya): dos figuras entrelazadas en una sola imagen. No hay ninguna palabra que imite un sonido (onomatopeya) ni conjunciones repetidas (polisíndeton)."
+          }
+        ]
+      },
+      {
+        "heading": "Parejas que se confunden: una pregunta para cada una",
+        "body": [
+          "Muchas figuras de esta lista vienen por parejas que se confunden, y cada pareja se distingue con una sola pregunta. Oxímoron o antítesis: ¿los opuestos están fundidos en una sola expresión (dulce tormento) o enfrentados en la frase (es tan corto el amor, y es tan largo el olvido)? Paradoja: ¿la contradicción esconde una verdad (solo sé que no sé nada)? Asíndeton o polisíndeton: ¿se quitan las conjunciones (llegué, vi, vencí) o se repiten (y corre y salta y grita)? Personificación o prosopopeya: ¿lo inanimado actúa como persona, o además habla?"
+        ],
+        "examples": [
+          {
+            "es": "el oxímoron",
+            "en": "combinación de dos términos de significado contradictorio en una sola expresión"
+          },
+          {
+            "es": "la antítesis",
+            "en": "figura que contrapone dos ideas o expresiones de sentido opuesto dentro de una misma frase"
+          },
+          {
+            "es": "la paradoja",
+            "en": "afirmación que parece contradictoria en la superficie pero encierra una verdad más profunda"
+          },
+          {
+            "es": "el asíndeton",
+            "en": "omisión de conjunciones entre palabras o frases para dar mayor rapidez a la expresión"
+          },
+          {
+            "es": "el polisíndeton",
+            "en": "repetición de conjunciones donde gramaticalmente no serían necesarias, para dar lentitud o énfasis"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "San Juan de la Cruz habla de «la música callada». ¿Oxímoron o antítesis?",
+            "options": [
+              "oxímoron, porque los opuestos están en una sola expresión",
+              "antítesis, porque contrapone dos frases",
+              "paradoja, porque es falso",
+              "pleonasmo, porque repite una idea"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Música» (sonido) y «callada» (sin sonido) se funden en un solo sintagma: es un oxímoron. La antítesis enfrenta ideas en partes distintas de la frase. Es también paradójico, pero la figura de la expresión es el oxímoron; y no es pleonasmo, que repetiría la idea en vez de oponerla."
+          }
+        ]
+      },
+      {
         "heading": "Vocabulario: el lenguaje figurado",
         "body": [
-          "Muchas figuras de esta lista vienen por parejas que se confunden, y cada pareja se distingue con una sola pregunta. Oxímoron o antítesis: ¿los opuestos están fundidos en una sola expresión (dulce tormento) o enfrentados en la frase (es tan corto el amor, y es tan largo el olvido)? Paradoja: ¿la contradicción esconde una verdad (solo sé que no sé nada)? Asíndeton o polisíndeton: ¿se quitan las conjunciones (llegué, vi, vencí) o se repiten (y corre y salta y grita)? Personificación o prosopopeya: ¿lo inanimado actúa como persona, o además habla?",
           "El banco reúne términos técnicos y ejemplos que permiten identificar y nombrar con precisión los principales recursos del lenguaje figurado en español."
         ],
         "examples": [
@@ -4588,18 +4719,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la alegoría",
             "en": "representación de una idea abstracta mediante una serie extendida de imágenes o símbolos concretos"
-          },
-          {
-            "es": "la antítesis",
-            "en": "figura que contrapone dos ideas o expresiones de sentido opuesto dentro de una misma frase"
-          },
-          {
-            "es": "el oxímoron",
-            "en": "combinación de dos términos de significado contradictorio en una sola expresión"
-          },
-          {
-            "es": "la paradoja",
-            "en": "afirmación que parece contradictoria en la superficie pero encierra una verdad más profunda"
           },
           {
             "es": "la prosopopeya",
@@ -4686,14 +4805,6 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "figura que repite una estructura invirtiendo el orden de sus elementos"
           },
           {
-            "es": "el asíndeton",
-            "en": "omisión de conjunciones entre palabras o frases para dar mayor rapidez a la expresión"
-          },
-          {
-            "es": "el polisíndeton",
-            "en": "repetición de conjunciones donde gramaticalmente no serían necesarias, para dar lentitud o énfasis"
-          },
-          {
             "es": "la disemia",
             "en": "cualidad de una palabra que posee dos significados claramente diferenciados"
           },
@@ -4704,16 +4815,27 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
-            "type": "multiple-choice",
-            "question": "San Juan de la Cruz habla de «la música callada». ¿Oxímoron o antítesis?",
-            "options": [
-              "oxímoron, porque los opuestos están en una sola expresión",
-              "antítesis, porque contrapone dos frases",
-              "paradoja, porque es falso",
-              "pleonasmo, porque repite una idea"
+            "type": "matching",
+            "instructions": "Relaciona cada figura del banco con un ejemplo nuevo.",
+            "pairs": [
+              {
+                "left": "el epíteto",
+                "right": "la verde hierba"
+              },
+              {
+                "left": "la onomatopeya",
+                "right": "el tictac del reloj"
+              },
+              {
+                "left": "la elipsis",
+                "right": "Yo, café; ella, té."
+              },
+              {
+                "left": "el quiasmo",
+                "right": "Ni son todos los que están ni están todos los que son."
+              }
             ],
-            "correctIndex": 0,
-            "explanation": "«Música» (sonido) y «callada» (sin sonido) se funden en un solo sintagma: es un oxímoron. La antítesis enfrenta ideas en partes distintas de la frase. Es también paradójico, pero la figura de la expresión es el oxímoron; y no es pleonasmo, que repetiría la idea en vez de oponerla."
+            "explanation": "«Verde» resalta una cualidad que la hierba ya tiene (epíteto); «tictac» imita un sonido (onomatopeya); en «ella, té» se omite el verbo, que se sobreentiende (elipsis); y la segunda mitad repite la primera con el orden invertido (quiasmo)."
           }
         ]
       }
@@ -4758,21 +4880,11 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "La función social del eufemismo: proteger la imagen y evitar el conflicto",
+        "heading": "Tres mecanismos: el eufemismo desplaza, no borra",
         "body": [
-          "La idea clave: un eufemismo no borra el significado, lo desplaza. Casi siempre usa uno de tres mecanismos: una imagen o perífrasis (pasar a mejor vida en vez de morir), un término técnico o abstracto (dificultades financieras en vez de no tener dinero) o una palabra de menor intensidad (bajón en vez de crisis). Por eso el oyente sigue entendiendo de qué se habla: si el eufemismo ocultara del todo el sentido, sería un engaño, no una cortesía. Y como la expresión sigue siendo una frase del español, conserva su gramática: «apretarse el cinturón» es pronominal y el pronombre concuerda con el sujeto (me aprieto, nos apretamos, se aprietan).",
-          "El eufemismo sustituye una expresión considerada demasiado directa, dura o de mal gusto por otra más suave, con el fin de proteger la imagen del hablante, del oyente o de un tercero, y de mantener la armonía social en situaciones delicadas. Su función principal no es engañar, sino suavizar el impacto emocional de ciertos temas sin renunciar a comunicarlos, aunque a veces se use para maquillar la realidad.",
-          "El fenómeno opuesto es el disfemismo, una expresión deliberadamente cruda o despectiva que sustituye a un término neutro, empleada precisamente para provocar, distanciarse emocionalmente de algo o mostrar desprecio. Entender ambos extremos ayuda a calibrar el nivel de suavidad o dureza que un hablante elige de manera consciente al referirse a un tema sensible."
+          "La idea clave: un eufemismo no borra el significado, lo desplaza. Casi siempre usa uno de tres mecanismos: una imagen o perífrasis (pasar a mejor vida en vez de morir), un término técnico o abstracto (dificultades financieras en vez de no tener dinero) o una palabra de menor intensidad (bajón en vez de crisis). Por eso el oyente sigue entendiendo de qué se habla: si el eufemismo ocultara del todo el sentido, sería un engaño, no una cortesía."
         ],
         "examples": [
-          {
-            "es": "el eufemismo",
-            "en": "expresión suave que sustituye a otra considerada demasiado directa, dura o de mal gusto"
-          },
-          {
-            "es": "el disfemismo",
-            "en": "expresión deliberadamente cruda o despectiva que sustituye a un término neutro"
-          },
           {
             "es": "pasar a mejor vida",
             "en": "eufemismo habitual para referirse a la muerte de alguien"
@@ -4802,10 +4914,69 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
+        "heading": "Para qué sirve: proteger la imagen y evitar el conflicto",
+        "body": [
+          "El eufemismo sustituye una expresión considerada demasiado directa, dura o de mal gusto por otra más suave, con el fin de proteger la imagen del hablante, del oyente o de un tercero, y de mantener la armonía social en situaciones delicadas. Su función principal no es engañar, sino suavizar el impacto emocional de ciertos temas sin renunciar a comunicarlos, aunque a veces se use para maquillar la realidad."
+        ],
+        "examples": [
+          {
+            "es": "el eufemismo",
+            "en": "expresión suave que sustituye a otra considerada demasiado directa, dura o de mal gusto"
+          },
+          {
+            "es": "estar entrado en años",
+            "en": "eufemismo amable para decir que alguien es viejo"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "La médica le dice a un paciente: «Tiene usted algo de sobrepeso», en lugar de «está usted gordo». ¿Cuál es la función principal de ese eufemismo?",
+            "options": [
+              "suavizar el impacto sin dejar de comunicar el problema",
+              "ocultar el problema para que el paciente no se entere",
+              "provocar al paciente con una expresión cruda",
+              "hacer el mensaje tan técnico que no se entienda"
+            ],
+            "correctIndex": 0,
+            "explanation": "El eufemismo protege la imagen del oyente y suaviza el golpe, pero el paciente entiende perfectamente que le sobran kilos: no se renuncia a comunicar. Si ocultara el problema sería un engaño, y una expresión cruda para provocar sería lo contrario, un disfemismo."
+          }
+        ]
+      },
+      {
+        "heading": "El disfemismo: el extremo opuesto",
+        "body": [
+          "El fenómeno opuesto es el disfemismo, una expresión deliberadamente cruda o despectiva que sustituye a un término neutro, empleada precisamente para provocar, distanciarse emocionalmente de algo o mostrar desprecio. Entender ambos extremos ayuda a calibrar el nivel de suavidad o dureza que un hablante elige de manera consciente al referirse a un tema sensible."
+        ],
+        "examples": [
+          {
+            "es": "el disfemismo",
+            "en": "expresión deliberadamente cruda o despectiva que sustituye a un término neutro"
+          },
+          {
+            "es": "estirar la pata",
+            "en": "disfemismo burlón y coloquial para referirse a la muerte"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál de estas expresiones es un disfemismo de «morir», y no un eufemismo?",
+            "options": [
+              "palmarla",
+              "fallecer",
+              "dejarnos",
+              "descansar en paz"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Palmarla» es deliberadamente cruda y coloquial: endurece la idea en vez de suavizarla, como «estirar la pata». «Fallecer», «dejarnos» y «descansar en paz» van en la dirección contraria: suavizan la muerte, así que son eufemismos."
+          }
+        ]
+      },
+      {
         "heading": "Eufemismos económicos: hablar de dinero sin hablar de dinero",
         "body": [
-          "Las dificultades económicas son otro terreno donde el eufemismo abunda, tanto en el habla personal como en el discurso institucional. Decir que alguien está en números rojos o pasa apuros económicos suaviza una realidad que, dicha de forma directa, podría resultar hiriente o incómoda para quien la vive.",
-          "En el discurso público y financiero, estas fórmulas se multiplican: el bajón económico atenúa lo que en realidad podría llamarse una crisis, y apretarse el cinturón convierte la necesidad de reducir gastos en una expresión casi doméstica y menos alarmante que una descripción técnica de la situación."
+          "Las dificultades económicas son otro terreno donde el eufemismo abunda, tanto en el habla personal como en el discurso institucional. Decir que alguien está en números rojos o pasa apuros económicos suaviza una realidad que, dicha de forma directa, podría resultar hiriente o incómoda para quien la vive."
         ],
         "examples": [
           {
@@ -4819,7 +4990,26 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "tener dificultades financieras",
             "en": "expresión suavizada para referirse a una situación económica complicada"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa el eufemismo que indica que alguien tiene la cuenta con saldo negativo o está endeudado.",
+            "sentence": "Desde que perdió el empleo, la familia está ___ y ha tenido que replantear sus gastos.",
+            "answer": "en números rojos",
+            "explanation": "Estar en números rojos es el eufemismo habitual para indicar que alguien tiene la cuenta con saldo negativo o está endeudado.",
+            "hint": "Piensa en el color que suele asociarse con las pérdidas en un balance financiero."
+          }
+        ]
+      },
+      {
+        "heading": "En el discurso público: el bajón y el cinturón",
+        "body": [
+          "En el discurso público y financiero, estas fórmulas se multiplican: el bajón económico atenúa lo que en realidad podría llamarse una crisis, y apretarse el cinturón convierte la necesidad de reducir gastos en una expresión casi doméstica y menos alarmante que una descripción técnica de la situación.",
+          "Y como el eufemismo sigue siendo una frase del español, conserva su gramática: «apretarse el cinturón» es pronominal y el pronombre concuerda con el sujeto (me aprieto, nos apretamos, se aprietan)."
+        ],
+        "examples": [
           {
             "es": "apretarse el cinturón",
             "en": "eufemismo que indica la necesidad de reducir gastos"
@@ -4831,14 +5021,6 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
-            "type": "fill-blank",
-            "prompt": "Completa el eufemismo que indica que alguien tiene la cuenta con saldo negativo o está endeudado.",
-            "sentence": "Desde que perdió el empleo, la familia está ___ y ha tenido que replantear sus gastos.",
-            "answer": "en números rojos",
-            "explanation": "Estar en números rojos es el eufemismo habitual para indicar que alguien tiene la cuenta con saldo negativo o está endeudado.",
-            "hint": "Piensa en el color que suele asociarse con las pérdidas en un balance financiero."
-          },
-          {
             "type": "multiple-choice",
             "question": "Un periodista escribe: «El país atraviesa una fase de crecimiento negativo». ¿Por qué es un eufemismo y no un engaño?",
             "options": [
@@ -4849,6 +5031,18 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«Crecimiento negativo» usa el mecanismo del término técnico o abstracto: el sentido (la economía decrece) sigue siendo recuperable, solo que con menos alarma que «recesión». No anuncia crecimiento real, no es despectivo (sería lo contrario de un disfemismo) y no usa una imagen doméstica, sino lenguaje económico."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Completa con la forma que concuerda: «Con la nueva hipoteca, mi mujer y yo ___ el cinturón este año».",
+            "options": [
+              "nos apretamos",
+              "se aprietan",
+              "me aprieto",
+              "os apretáis"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Apretarse el cinturón» es pronominal y el pronombre concuerda con el sujeto: «mi mujer y yo» equivale a «nosotros», así que «nos apretamos». «Se aprietan» sería para «ellos», «me aprieto» para «yo» solo y «os apretáis» para «vosotros»."
           }
         ]
       }
@@ -4884,17 +5078,11 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Eufemismos laborales: despedir sin decir «despedir»",
+        "heading": "Borrar a las personas: quién hace qué a quién",
         "body": [
-          "La idea clave: el eufemismo laboral funciona borrando a las personas de la frase. «La empresa despide a doscientos trabajadores» tiene un agente (la empresa) y unas víctimas (los trabajadores). El eufemismo convierte la acción en un sustantivo de proceso sin agente (reajuste de plantilla, recorte de personal) o cambia a la persona por algo abstracto (prescindir de los servicios de alguien: lo que se pierde son «servicios», no un empleado). Para descifrarlo, pregúntate quién hace qué a quién. Y ojo con las preposiciones de cada fórmula: prescindir de, desvincular a, afectar a.",
-          "El ámbito laboral es especialmente fértil para el eufemismo corporativo, ya que las empresas buscan comunicar decisiones dolorosas, como los despidos, con un lenguaje que suene neutro o incluso técnico. Expresiones como prescindir de los servicios de alguien o desvincular a un empleado sustituyen al verbo despedir, considerado demasiado directo en ese contexto formal.",
-          "Curiosamente, el uso excesivo de este tipo de fórmulas termina por convertirse en una jerga reconocible que muchos hablantes identifican de inmediato como un anuncio disfrazado de malas noticias, lo que a veces provoca que el propio eufemismo pierda su función original de suavizar el mensaje."
+          "La idea clave: el eufemismo laboral funciona borrando a las personas de la frase. «La empresa despide a doscientos trabajadores» tiene un agente (la empresa) y unas víctimas (los trabajadores). El eufemismo convierte la acción en un sustantivo de proceso sin agente (reajuste de plantilla, recorte de personal) o cambia a la persona por algo abstracto (prescindir de los servicios de alguien: lo que se pierde son «servicios», no un empleado). Para descifrarlo, pregúntate quién hace qué a quién. Y ojo con las preposiciones de cada fórmula: prescindir de, desvincular a, afectar a."
         ],
         "examples": [
-          {
-            "es": "prescindir de los servicios de alguien",
-            "en": "fórmula corporativa para referirse al despido de un empleado"
-          },
           {
             "es": "el reajuste de plantilla",
             "en": "eufemismo empresarial para referirse a una reducción de personal"
@@ -4903,6 +5091,32 @@ const C2_BASE_LESSONS: Lesson[] = [
             "es": "el recorte de personal",
             "en": "expresión atenuada que designa despidos masivos en una empresa"
           },
+          {
+            "es": "prescindir de los servicios de alguien",
+            "en": "fórmula corporativa para referirse al despido de un empleado"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un comunicado dice: «La compañía ha optimizado su estructura y ha reducido costes laborales». Aplica la pregunta «quién hace qué a quién»: ¿qué ha pasado?",
+            "options": [
+              "La compañía ha despedido a parte de sus empleados.",
+              "La compañía ha contratado a más personal.",
+              "La compañía ha cambiado de oficinas.",
+              "La compañía ha subido los sueldos."
+            ],
+            "correctIndex": 0,
+            "explanation": "Quién: la compañía. Qué: «optimizar la estructura» y «reducir costes laborales» son sustantivos y verbos abstractos sin víctimas visibles. A quién: los costes laborales son los sueldos de los empleados; si se reducen, hay despidos. Contratar o subir sueldos aumentaría esos costes, y el cambio de oficinas no tendría nada que ver con ellos."
+          }
+        ]
+      },
+      {
+        "heading": "La jerga corporativa del despido",
+        "body": [
+          "El ámbito laboral es especialmente fértil para el eufemismo corporativo, ya que las empresas buscan comunicar decisiones dolorosas, como los despidos, con un lenguaje que suene neutro o incluso técnico. Expresiones como prescindir de los servicios de alguien o desvincular a un empleado sustituyen al verbo despedir, considerado demasiado directo en ese contexto formal."
+        ],
+        "examples": [
           {
             "es": "desvincular a un empleado",
             "en": "manera formal e indirecta de decir que se despide a alguien"
@@ -4928,26 +5142,43 @@ const C2_BASE_LESSONS: Lesson[] = [
               3
             ],
             "explanation": "Prescindir de los servicios de alguien, desvincular a un empleado y el reajuste de plantilla son eufemismos habituales para referirse a un despido; dar el visto bueno tiene un significado completamente distinto."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Un comunicado dice: «La compañía ha optimizado su estructura y ha reducido costes laborales». Aplica la pregunta «quién hace qué a quién»: ¿qué ha pasado?",
-            "options": [
-              "La compañía ha despedido a parte de sus empleados.",
-              "La compañía ha contratado a más personal.",
-              "La compañía ha cambiado de oficinas.",
-              "La compañía ha subido los sueldos."
-            ],
-            "correctIndex": 0,
-            "explanation": "Quién: la compañía. Qué: «optimizar la estructura» y «reducir costes laborales» son sustantivos y verbos abstractos sin víctimas visibles. A quién: los costes laborales son los sueldos de los empleados; si se reducen, hay despidos. Contratar o subir sueldos aumentaría esos costes, y el cambio de oficinas no tendría nada que ver con ellos."
           }
         ]
       },
       {
-        "heading": "Cómo detectar lo que realmente se está diciendo",
+        "heading": "Cuando el eufemismo se gasta",
         "body": [
-          "Interpretar correctamente un eufemismo exige leer entre líneas: reconocer el rodeo verbal y la circunlocución como señales de que se está evitando nombrar algo de forma directa. Cuanto más elaborada resulta una explicación para algo aparentemente sencillo, mayor es la probabilidad de que se esté suavizando una noticia incómoda.",
-          "Este tipo de decodificación es especialmente útil en contextos institucionales o médicos, donde no llamar a las cosas por su nombre puede responder tanto a un genuino cuidado emocional como a una estrategia para minimizar la gravedad real de una situación. La habilidad de un hablante avanzado consiste en distinguir entre ambas intenciones según el contexto."
+          "Curiosamente, el uso excesivo de este tipo de fórmulas termina por convertirse en una jerga reconocible que muchos hablantes identifican de inmediato como un anuncio disfrazado de malas noticias, lo que a veces provoca que el propio eufemismo pierda su función original de suavizar el mensaje."
+        ],
+        "examples": [
+          {
+            "es": "Se adoptarán medidas de flexibilización de la plantilla.",
+            "en": "fórmula tan repetida que todos leen en ella «habrá despidos»"
+          },
+          {
+            "es": "Ya sabemos lo que significa «reestructuración».",
+            "en": "reacción de quien reconoce la jerga y ya no se deja suavizar el mensaje"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un trabajador lee en el tablón «Se procederá a una racionalización de efectivos» y le dice a su compañera: «Ya está: despidos». ¿Qué muestra su reacción?",
+            "options": [
+              "que la fórmula se ha gastado: se reconoce como jerga y ya no suaviza nada",
+              "que el comunicado no contiene ningún eufemismo",
+              "que el eufemismo ha conseguido engañarle",
+              "que la empresa ha elegido un disfemismo"
+            ],
+            "correctIndex": 0,
+            "explanation": "El trabajador descifra la fórmula al instante: de tanto usarse, la jerga corporativa se ha vuelto reconocible y pierde su función de suavizar. Sí es un eufemismo (no dice «despedir»), no le ha engañado y no es un disfemismo, porque el tono es neutro, no crudo."
+          }
+        ]
+      },
+      {
+        "heading": "Leer entre líneas: el rodeo como señal",
+        "body": [
+          "Interpretar correctamente un eufemismo exige leer entre líneas: reconocer el rodeo verbal y la circunlocución como señales de que se está evitando nombrar algo de forma directa. Cuanto más elaborada resulta una explicación para algo aparentemente sencillo, mayor es la probabilidad de que se esté suavizando una noticia incómoda."
         ],
         "examples": [
           {
@@ -4961,7 +5192,29 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "decir algo entre líneas",
             "en": "comunicar un mensaje sin decirlo explícitamente, dejando que el interlocutor lo deduzca"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Pides un aumento y tu jefa responde: «Valoramos muchísimo tu trabajo y, en este momento, estamos analizando con calma toda la estructura salarial de cara al próximo ejercicio». Leyendo entre líneas, ¿qué te dice?",
+            "options": [
+              "Que probablemente no habrá aumento por ahora.",
+              "Que te subirá el sueldo la semana que viene.",
+              "Que no ha entendido tu petición.",
+              "Que vas a perder el empleo."
+            ],
+            "correctIndex": 0,
+            "explanation": "Una explicación larga y elaborada para una pregunta sencilla (¿me subes el sueldo?) es la señal del rodeo: se evita decir «no» de forma directa. Si fuera a subirte el sueldo lo diría sin rodeos, y nada en la respuesta habla de despido."
+          }
+        ]
+      },
+      {
+        "heading": "¿Cuidado o estrategia? Depende del contexto",
+        "body": [
+          "Este tipo de decodificación es especialmente útil en contextos institucionales o médicos, donde no llamar a las cosas por su nombre puede responder tanto a un genuino cuidado emocional como a una estrategia para minimizar la gravedad real de una situación. La habilidad de un hablante avanzado consiste en distinguir entre ambas intenciones según el contexto."
+        ],
+        "examples": [
           {
             "es": "suavizar la noticia",
             "en": "atenuar el impacto de una información negativa al comunicarla"
@@ -5038,13 +5291,32 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): la noticia con rodeos",
         "body": [
           "Jefa: Necesito hablar contigo sobre un asunto delicado relacionado con tu puesto.",
           "Empleado: Claro, dime.",
           "Jefa: Debido a la situación actual de la empresa, vamos a llevar a cabo un reajuste de plantilla, y tu puesto se ve afectado.",
           "Empleado: Entiendo. Entonces, en otras palabras, me estás diciendo que me van a despedir.",
-          "Jefa: Preferimos decir que vamos a prescindir de tus servicios a partir del próximo mes.",
+          "Jefa: Preferimos decir que vamos a prescindir de tus servicios a partir del próximo mes."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Imagina que la jefa hubiera dicho: «Vamos a reorganizar el departamento y tu puesto se ve afectado». ¿Qué debería entender el empleado?",
+            "options": [
+              "que probablemente va a perder su puesto",
+              "que va a recibir un ascenso",
+              "que la empresa va a contratar a más gente",
+              "que la jefa quiere hablar de sus vacaciones"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Reorganizar» y «tu puesto se ve afectado» son el mismo rodeo que «reajuste de plantilla»: una acción sin agente claro y una persona sustituida por su «puesto». Leído en directo, anuncia un despido; nadie usa un rodeo así para dar una buena noticia como un ascenso."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): del rodeo a la claridad",
+        "body": [
           "Empleado: Aprecio que intentes suavizar la noticia, pero prefiero que hablemos con total claridad.",
           "Jefa: Tienes razón, disculpa el rodeo verbal. La empresa atraviesa dificultades financieras serias y no podemos mantener tu contrato.",
           "Empleado: Gracias por ser directa al final. Prefiero saber exactamente a qué atenerme.",
@@ -5066,20 +5338,99 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Vocabulario: los eufemismos",
+        "heading": "La escala: disfemismo, palabra neutra, eufemismo",
         "body": [
-          "La idea clave: las expresiones sobre un tema delicado forman una escala. En un extremo está el disfemismo, que endurece (poner a alguien en la calle); en el centro, la palabra neutra (despedir); en el otro extremo, el eufemismo, que suaviza (prescindir de los servicios, dar de baja, reajuste de plantilla). Hablar con tacto es elegir el punto de la escala que protege al oyente sin borrar la información: si el oyente ya no puede saber qué ha pasado, el eufemismo se ha convertido en lenguaje edulcorado. Y al cambiar de punto en la escala hay que mantener la gramática de la nueva expresión: prescindir DE alguien, dar DE baja A alguien, estar delicado de salud.",
-          "El siguiente banco reúne eufemismos frecuentes en español relacionados con la muerte, el dinero, el trabajo y otros temas socialmente delicados, junto con el vocabulario que describe el propio fenómeno del lenguaje indirecto."
+          "La idea clave: las expresiones sobre un tema delicado forman una escala. En un extremo está el disfemismo, que endurece (poner a alguien en la calle); en el centro, la palabra neutra (despedir); en el otro extremo, el eufemismo, que suaviza (prescindir de los servicios, dar de baja, reajuste de plantilla)."
         ],
         "examples": [
+          {
+            "es": "el disfemismo",
+            "en": "expresión deliberadamente cruda o despectiva que sustituye a un término neutro"
+          },
+          {
+            "es": "poner a alguien en la calle",
+            "en": "expresión coloquial y cruda (más disfemismo que eufemismo) para decir que se despide a alguien"
+          },
           {
             "es": "el eufemismo",
             "en": "expresión suave que sustituye a otra considerada demasiado directa, dura o de mal gusto"
           },
           {
-            "es": "el disfemismo",
-            "en": "expresión deliberadamente cruda o despectiva que sustituye a un término neutro"
+            "es": "prescindir de los servicios de alguien",
+            "en": "fórmula corporativa para referirse al despido de un empleado"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un paciente enfadado llama «matasanos» a su médico. ¿En qué punto de la escala está esa palabra?",
+            "options": [
+              "Es un disfemismo: endurece la palabra neutra «médico» para mostrar desprecio",
+              "Es un eufemismo de «médico»",
+              "Es la palabra neutra",
+              "Es lenguaje edulcorado"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Matasanos» sustituye a la palabra neutra «médico» por otra cruel y despectiva: es un disfemismo, el extremo opuesto al eufemismo. No suaviza nada, así que no es ni eufemismo ni lenguaje edulcorado."
+          }
+        ]
+      },
+      {
+        "heading": "Hablar con tacto: el punto justo de la escala",
+        "body": [
+          "Hablar con tacto es elegir el punto de la escala que protege al oyente sin borrar la información: si el oyente ya no puede saber qué ha pasado, el eufemismo se ha convertido en lenguaje edulcorado. Y al cambiar de punto en la escala hay que mantener la gramática de la nueva expresión: prescindir DE alguien, dar DE baja A alguien, estar delicado de salud."
+        ],
+        "examples": [
+          {
+            "es": "el lenguaje edulcorado",
+            "en": "forma de hablar que suaviza excesivamente la realidad para hacerla más agradable"
           },
+          {
+            "es": "dar de baja a alguien",
+            "en": "expresión administrativa que indica que alguien deja de formar parte de una organización"
+          },
+          {
+            "es": "estar delicado de salud",
+            "en": "eufemismo que indica que alguien padece una enfermedad grave sin nombrarla directamente"
+          },
+          {
+            "es": "el tacto al hablar",
+            "en": "cualidad de elegir las palabras con cuidado para no herir a quien escucha"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un informe del hospital dice a la familia: «El paciente presenta una evolución no óptima de su proceso vital». ¿Qué le pasa a ese mensaje?",
+            "options": [
+              "Es lenguaje edulcorado: suaviza tanto que la familia ya no sabe qué ocurre.",
+              "Es un disfemismo: endurece la noticia.",
+              "Es la palabra neutra, sin suavizar nada.",
+              "Es un eufemismo con tacto que informa con claridad."
+            ],
+            "correctIndex": 0,
+            "explanation": "Hablar con tacto es suavizar sin borrar la información. Aquí la familia no puede saber si el paciente ha empeorado o está muriendo: el eufemismo se ha pasado de la raya y se ha convertido en lenguaje edulcorado. No endurece nada, así que no es un disfemismo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase mantiene la gramática de la expresión eufemística?",
+            "options": [
+              "La empresa ha prescindido de dos comerciales.",
+              "La empresa ha prescindido a dos comerciales.",
+              "La empresa ha prescindido dos comerciales.",
+              "La empresa ha prescindido con dos comerciales."
+            ],
+            "correctIndex": 0,
+            "explanation": "Al pasar de «despedir a alguien» a «prescindir», cambia la construcción: se prescinde DE alguien. «Prescindir a», «prescindir con» o sin preposición copian la gramática de «despedir» o se la inventan."
+          }
+        ]
+      },
+      {
+        "heading": "Vocabulario: los eufemismos",
+        "body": [
+          "El siguiente banco reúne eufemismos frecuentes en español relacionados con la muerte, el dinero, el trabajo y otros temas socialmente delicados, junto con el vocabulario que describe el propio fenómeno del lenguaje indirecto."
+        ],
+        "examples": [
           {
             "es": "pasar a mejor vida",
             "en": "eufemismo habitual para referirse a la muerte de alguien"
@@ -5105,14 +5456,6 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "expresión suavizada para referirse a una situación económica complicada"
           },
           {
-            "es": "prescindir de los servicios de alguien",
-            "en": "fórmula corporativa para referirse al despido de un empleado"
-          },
-          {
-            "es": "poner a alguien en la calle",
-            "en": "expresión coloquial y cruda (más disfemismo que eufemismo) para decir que se despide a alguien"
-          },
-          {
             "es": "el reajuste de plantilla",
             "en": "eufemismo empresarial para referirse a una reducción de personal"
           },
@@ -5131,10 +5474,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la persona en situación de calle",
             "en": "expresión que sustituye a términos considerados despectivos para referirse a quien no tiene vivienda"
-          },
-          {
-            "es": "dar de baja a alguien",
-            "en": "expresión administrativa que indica que alguien deja de formar parte de una organización"
           },
           {
             "es": "desvincular a un empleado",
@@ -5157,10 +5496,6 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "manera indirecta de reconocer un problema sin detallarlo abiertamente"
           },
           {
-            "es": "el lenguaje edulcorado",
-            "en": "forma de hablar que suaviza excesivamente la realidad para hacerla más agradable"
-          },
-          {
             "es": "suavizar la noticia",
             "en": "atenuar el impacto de una información negativa al comunicarla"
           },
@@ -5175,10 +5510,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la mitigación discursiva",
             "en": "estrategia para reducir el impacto de un mensaje delicado"
-          },
-          {
-            "es": "el tacto al hablar",
-            "en": "cualidad de elegir las palabras con cuidado para no herir a quien escucha"
           },
           {
             "es": "no llamar a las cosas por su nombre",
@@ -5197,10 +5528,6 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "manera de expresar algo dando un rodeo en lugar de decirlo directamente"
           },
           {
-            "es": "estar delicado de salud",
-            "en": "eufemismo que indica que alguien padece una enfermedad grave sin nombrarla directamente"
-          },
-          {
             "es": "la jubilación anticipada",
             "en": "eufemismo que a veces encubre una salida forzada de la empresa antes de la edad habitual"
           },
@@ -5215,16 +5542,27 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
-            "type": "multiple-choice",
-            "question": "Un paciente enfadado llama «matasanos» a su médico. ¿En qué punto de la escala está esa palabra?",
-            "options": [
-              "Es un disfemismo: endurece la palabra neutra «médico» para mostrar desprecio",
-              "Es un eufemismo de «médico»",
-              "Es la palabra neutra",
-              "Es lenguaje edulcorado"
+            "type": "matching",
+            "instructions": "Relaciona cada eufemismo del banco con la realidad que suaviza.",
+            "pairs": [
+              {
+                "left": "el cese de actividad",
+                "right": "el cierre del negocio"
+              },
+              {
+                "left": "la diversidad funcional",
+                "right": "la discapacidad"
+              },
+              {
+                "left": "la persona en situación de calle",
+                "right": "la persona sin hogar"
+              },
+              {
+                "left": "la persona de la tercera edad",
+                "right": "el anciano"
+              }
             ],
-            "correctIndex": 0,
-            "explanation": "«Matasanos» sustituye a la palabra neutra «médico» por otra cruel y despectiva: es un disfemismo, el extremo opuesto al eufemismo. No suaviza nada, así que no es ni eufemismo ni lenguaje edulcorado."
+            "explanation": "Cada eufemismo cambia la palabra directa por una más abstracta o respetuosa: el negocio no «cierra», «cesa su actividad»; la discapacidad se nombra como «diversidad funcional»; quien no tiene casa está «en situación de calle», y el anciano es una «persona de la tercera edad»."
           }
         ]
       }
@@ -5274,18 +5612,13 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Negación enfática: cuando «no» no basta",
         "body": [
-          "La idea clave: para elegir una exclamación hay que decidir dos cosas, su función (negar, mostrar sorpresa o reforzar un acuerdo) y su intensidad (¡qué va! es ligero; ¡ni hablar! y ¡ni de broma! son tajantes). Además, estas fórmulas son fijas: su gramática está congelada y no se adapta. «¡Y que lo digas!» siempre lleva subjuntivo, «¡Faltaría más!» siempre va en condicional, y en «¡No me lo puedo creer!» los pronombres van delante del verbo conjugado o, si se prefiere, pegados al infinitivo con tilde (¡No puedo creérmelo!). Cambiar el tiempo o el modo rompe la fórmula.",
-          "El «no» simple resulta insuficiente cuando un hablante quiere rechazar algo con contundencia emocional. Para eso existe todo un repertorio de exclamaciones que intensifican la negación y transmiten, además del contenido, la actitud del hablante frente a lo que se rechaza: incredulidad, fastidio o firmeza absoluta.",
-          "Estas fórmulas varían en intensidad: qué va suena más ligero e incluso divertido, mientras que ni hablar o ni de broma comunican un rechazo tajante que no admite discusión. Elegir la fórmula adecuada según el grado de firmeza que se quiere transmitir es una marca de dominio pragmático del idioma."
+          "La idea clave: para elegir una exclamación hay que decidir dos cosas, su función (negar, mostrar sorpresa o reforzar un acuerdo) y su intensidad (¡qué va! es ligero; ¡ni hablar! y ¡ni de broma! son tajantes).",
+          "El «no» simple resulta insuficiente cuando un hablante quiere rechazar algo con contundencia emocional. Para eso existe todo un repertorio de exclamaciones que intensifican la negación y transmiten, además del contenido, la actitud del hablante frente a lo que se rechaza: incredulidad, fastidio o firmeza absoluta."
         ],
         "examples": [
           {
             "es": "¡qué va!",
             "en": "exclamación coloquial que niega con ligereza algo que se acaba de decir"
-          },
-          {
-            "es": "¡ni hablar!",
-            "en": "expresión que niega una posibilidad de forma tajante y sin lugar a discusión"
           },
           {
             "es": "¡para nada!",
@@ -5294,6 +5627,32 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "¡de eso nada!",
             "en": "rechazo firme e informal ante una propuesta o afirmación"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un amigo te pregunta, medio en broma, si estás enfadado con él. No lo estás en absoluto. ¿Qué respuesta ligera encaja?",
+            "options": [
+              "¡Qué va!",
+              "¡Ni hablar!",
+              "¡Y que lo digas!",
+              "¡Faltaría más!"
+            ],
+            "correctIndex": 0,
+            "explanation": "La función es negar y la intensidad, ligera: «¡qué va!» niega con desenfado una suposición. «¡Ni hablar!» es un rechazo tajante a una propuesta, y «¡y que lo digas!» y «¡faltaría más!» refuerzan una afirmación: dirían que sí estás enfadado."
+          }
+        ]
+      },
+      {
+        "heading": "La intensidad: ligero o tajante",
+        "body": [
+          "Estas fórmulas varían en intensidad: qué va suena más ligero e incluso divertido, mientras que ni hablar o ni de broma comunican un rechazo tajante que no admite discusión. Elegir la fórmula adecuada según el grado de firmeza que se quiere transmitir es una marca de dominio pragmático del idioma."
+        ],
+        "examples": [
+          {
+            "es": "¡ni hablar!",
+            "en": "expresión que niega una posibilidad de forma tajante y sin lugar a discusión"
           },
           {
             "es": "¡ni de broma!",
@@ -5312,6 +5671,51 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "¡Ni hablar! comunica un rechazo tajante y sin lugar a discusión, adecuado para expresar una negativa absoluta ante una propuesta. «¡Qué va!» niega de forma coloquial pero menos tajante, «¡No me digas!» expresa sorpresa y «¡Vaya tela!» expresa asombro o fastidio."
+          }
+        ]
+      },
+      {
+        "heading": "Fórmulas congeladas: la gramática no se toca",
+        "body": [
+          "Además, estas fórmulas son fijas: su gramática está congelada y no se adapta. «¡Y que lo digas!» siempre lleva subjuntivo, «¡Faltaría más!» siempre va en condicional, y en «¡No me lo puedo creer!» los pronombres van delante del verbo conjugado o, si se prefiere, pegados al infinitivo con tilde (¡No puedo creérmelo!). Cambiar el tiempo o el modo rompe la fórmula."
+        ],
+        "examples": [
+          {
+            "es": "—Hace un calor horrible. —¡Y que lo digas!",
+            "en": "—It's horribly hot. —You can say that again!"
+          },
+          {
+            "es": "¡No puedo creérmelo!",
+            "en": "I can't believe it!"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Tu compañera dice: «Este jefe no se entera de nada». Estás muy de acuerdo. ¿Qué forma de la fórmula es la correcta?",
+            "options": [
+              "¡Y que lo digas!",
+              "¡Y que lo dices!",
+              "¡Y que lo dirías!",
+              "¡Y que lo dijiste!"
+            ],
+            "correctIndex": 0,
+            "explanation": "«¡Y que lo digas!» es una fórmula congelada que siempre lleva subjuntivo, aunque hable de algo que la otra persona acaba de decir. Pasarla a indicativo (dices, dijiste) o a condicional (dirías) rompe la fórmula."
+          },
+          {
+            "type": "multi-select",
+            "question": "¿Dónde pueden ir los pronombres en «No + poder + creer + me + lo»? Marca las versiones correctas.",
+            "options": [
+              "¡No me lo puedo creer!",
+              "¡No puedo creérmelo!",
+              "¡No puedo me lo creer!",
+              "¡No me puedo creerlo!"
+            ],
+            "correctIndexes": [
+              0,
+              1
+            ],
+            "explanation": "Los pronombres van juntos: o delante del verbo conjugado (me lo puedo) o pegados al infinitivo con tilde (creérmelo). No pueden ir entre el verbo conjugado y el infinitivo (puedo me lo creer) ni separarse (me puedo creerlo)."
           }
         ]
       },
@@ -5467,11 +5871,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Exclamaciones de fastidio y resignación",
+        "heading": "Moldes para crear exclamaciones",
         "body": [
-          "La idea clave: muchas exclamaciones de fastidio, sorpresa o censura se construyen con unos pocos moldes gramaticales, y conocerlos permite crear exclamaciones nuevas. «¡Vaya + sustantivo!» (vaya lío, vaya tela). «¡Menudo/menuda + sustantivo!», donde «menudo» concuerda con el sustantivo (menudo lío, menuda sorpresa). «¡Qué + sustantivo + más/tan + adjetivo!» (qué cara más dura, qué día tan largo). Y para prohibir con fuerza, «¡Ni se te ocurra + infinitivo!». En estos moldes no hay verbo conjugado: la exclamación entera funciona como un comentario sobre lo que acaba de pasar.",
-          "Un último grupo de exclamaciones expresa fastidio ante una situación complicada, pero acompañado de un matiz de aceptación resignada más que de queja abierta. Estas fórmulas son especialmente frecuentes en el español coloquial de España y transmiten una actitud casi filosófica frente a los contratiempos menores de la vida diaria.",
-          "Qué remedio, por ejemplo, comunica que no queda otra alternativa razonable que aceptar la situación, mientras que vaya tela subraya la magnitud del problema sin llegar a una queja dramática. El tono desenfadado es clave para que estas expresiones no suenen a lamento genuino."
+          "La idea clave: muchas exclamaciones de fastidio, sorpresa o censura se construyen con unos pocos moldes gramaticales, y conocerlos permite crear exclamaciones nuevas. «¡Vaya + sustantivo!» (vaya lío, vaya tela). «¡Menudo/menuda + sustantivo!», donde «menudo» concuerda con el sustantivo (menudo lío, menuda sorpresa). «¡Qué + sustantivo + más/tan + adjetivo!» (qué cara más dura, qué día tan largo). Y para prohibir con fuerza, «¡Ni se te ocurra + infinitivo!». En estos moldes no hay verbo conjugado: la exclamación entera funciona como un comentario sobre lo que acaba de pasar."
         ],
         "examples": [
           {
@@ -5479,23 +5881,27 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "exclamación coloquial, propia de España, que expresa sorpresa negativa o fastidio ante una situación complicada"
           },
           {
-            "es": "¡vaya por Dios!",
-            "en": "expresión de resignación ante un contratiempo menor"
-          },
-          {
-            "es": "¡qué remedio!",
-            "en": "exclamación que acepta una situación desfavorable por falta de alternativa razonable"
+            "es": "¡vaya lío!",
+            "en": "exclamación que señala fastidio ante una situación confusa o complicada"
           },
           {
             "es": "¡menuda sorpresa!",
             "en": "expresión que puede indicar asombro genuino o, con tono irónico, decepción disimulada"
-          },
-          {
-            "es": "¡vaya lío!",
-            "en": "exclamación que señala fastidio ante una situación confusa o complicada"
           }
         ],
         "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el molde de «menudo»: tu hermano ha dejado la cocina llena de platos sucios y harina por todas partes. ¿Qué exclamas?",
+            "options": [
+              "¡Menudo desastre!",
+              "¡Menuda desastre!",
+              "¡Menudo es el desastre!",
+              "¡Qué desastre más menudo!"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Menudo» concuerda con el sustantivo, y «desastre» es masculino: ¡menudo desastre! «Menuda desastre» rompe la concordancia; añadir un verbo («menudo es…») deshace el molde exclamativo; y «qué… más menudo» usa «menudo» en su sentido literal de «pequeño», justo lo contrario de lo que se quiere decir."
+          },
           {
             "type": "word-order",
             "prompt": "Ordena las palabras para formar la frase correcta.",
@@ -5510,34 +5916,86 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "translation": "What a nightmare the traffic is today!",
             "explanation": "La frase ordenada es «vaya tela con el tráfico de hoy», exclamación coloquial que expresa fastidio ante una situación complicada."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Aplica el molde de «menudo»: tu hermano ha dejado la cocina llena de platos sucios y harina por todas partes. ¿Qué exclamas?",
-            "options": [
-              "¡Menudo desastre!",
-              "¡Menuda desastre!",
-              "¡Menudo es el desastre!",
-              "¡Qué desastre más menudo!"
-            ],
-            "correctIndex": 0,
-            "explanation": "«Menudo» concuerda con el sustantivo, y «desastre» es masculino: ¡menudo desastre! «Menuda desastre» rompe la concordancia; añadir un verbo («menudo es…») deshace el molde exclamativo; y «qué… más menudo» usa «menudo» en su sentido literal de «pequeño», justo lo contrario de lo que se quiere decir."
           }
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "Fastidio con resignación",
+        "body": [
+          "Un último grupo de exclamaciones expresa fastidio ante una situación complicada, pero acompañado de un matiz de aceptación resignada más que de queja abierta. Estas fórmulas son especialmente frecuentes en el español coloquial de España y transmiten una actitud casi filosófica frente a los contratiempos menores de la vida diaria.",
+          "Qué remedio, por ejemplo, comunica que no queda otra alternativa razonable que aceptar la situación, mientras que vaya tela subraya la magnitud del problema sin llegar a una queja dramática. El tono desenfadado es clave para que estas expresiones no suenen a lamento genuino."
+        ],
+        "examples": [
+          {
+            "es": "¡vaya por Dios!",
+            "en": "expresión de resignación ante un contratiempo menor"
+          },
+          {
+            "es": "¡qué remedio!",
+            "en": "exclamación que acepta una situación desfavorable por falta de alternativa razonable"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Te cancelan el vuelo y la única opción es el tren nocturno. Lo aceptas sin dramatismo. ¿Qué dices?",
+            "options": [
+              "¡Qué remedio!",
+              "¡Ni de broma!",
+              "¡Y que lo digas!",
+              "¡No me digas!"
+            ],
+            "correctIndex": 0,
+            "explanation": "«¡Qué remedio!» acepta la situación porque no queda otra alternativa: fastidio con resignación, sin queja dramática. «¡Ni de broma!» rechazaría el tren, «¡Y que lo digas!» refuerza lo que otro ha dicho y «¡No me digas!» expresa sorpresa."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (1): la noticia del cierre",
         "body": [
           "Lucía: ¿Ya te has enterado de que van a cerrar la oficina del centro?",
           "Marcos: ¡No me digas! ¿En serio? Con lo bien ubicada que estaba.",
           "Lucía: Como lo oyes. Y encima nos dan solo dos semanas para mudarnos a la nueva sede.",
           "Marcos: ¡Vaya tela! Eso es muy poco tiempo para organizar todo.",
-          "Lucía: Ya te digo. Aunque bueno, qué remedio, hay que adaptarse.",
+          "Lucía: Ya te digo. Aunque bueno, qué remedio, hay que adaptarse."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una compañera te cuenta que la empresa va a cambiar todos los ordenadores en un solo fin de semana. Como Marcos, quieres subrayar la magnitud del problema sin dramatizar. ¿Qué dices?",
+            "options": [
+              "¡Vaya tela!",
+              "¡Qué va!",
+              "¡Ya te digo!",
+              "¡Faltaría más!"
+            ],
+            "correctIndex": 0,
+            "explanation": "«¡Vaya tela!» subraya lo complicado de la situación con tono desenfadado, igual que la usa Marcos ante el plazo de dos semanas. «¡Qué va!» niega, y «¡Ya te digo!» y «¡Faltaría más!» refuerzan un acuerdo: no comentan el problema."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): la buena noticia",
+        "body": [
           "Marcos: ¿Y la nueva oficina está lejos de aquí?",
           "Lucía: Para nada, está a diez minutos caminando. Eso sí que es una buena noticia.",
           "Marcos: Menos mal. ¡Menuda sorpresa me has dado con lo del cierre, pensaba que era broma!",
           "Lucía: ¡Qué va! Te lo digo totalmente en serio, ya verás la semana que viene.",
           "Marcos: Bueno, al menos la ubicación nueva compensa un poco el disgusto inicial."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Como Lucía con la distancia a la nueva oficina, niega con ligereza: «—¿Te ha costado mucho el piso nuevo? —___, nos salió bastante barato».",
+            "options": [
+              "Para nada",
+              "Ni se te ocurra",
+              "Vaya por Dios",
+              "Y que lo digas"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Para nada» niega por completo una suposición con un tono ligero, como hace Lucía. «Ni se te ocurra» prohíbe algo, «Vaya por Dios» lamenta un contratiempo y «Y que lo digas» confirmaría que sí costó mucho."
+          }
         ]
       },
       {
@@ -5686,6 +6144,31 @@ const C2_BASE_LESSONS: Lesson[] = [
             "es": "¡ni por asomo!",
             "en": "negación categórica que descarta por completo cualquier posibilidad"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada exclamación del banco con lo que expresa.",
+            "pairs": [
+              {
+                "left": "¡ya era hora!",
+                "right": "alivio impaciente porque por fin pasa algo"
+              },
+              {
+                "left": "¡ni por asomo!",
+                "right": "negación total"
+              },
+              {
+                "left": "¡qué más da!",
+                "right": "indiferencia"
+              },
+              {
+                "left": "¡ojo!",
+                "right": "advertencia"
+              }
+            ],
+            "explanation": "«¡Ya era hora!» celebra algo que ha tardado demasiado; «¡ni por asomo!» niega por completo, como «¡ni de broma!»; «¡qué más da!» quita importancia a algo, y «¡ojo!» avisa de un peligro, como «¡cuidado con eso!»."
+          }
         ]
       }
     ],
@@ -5751,47 +6234,21 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Más allá del tamaño: el diminutivo afectivo",
+        "heading": "La forma del diminutivo: -ito, -cito, -ecito",
         "body": [
-          "La idea clave: el sufijo apreciativo tiene una forma que sigue reglas y un valor que depende del contexto. La forma: las palabras en -o/-a toman -ito/-ita (casa → casita); las terminadas en -e, -n o -r toman -cito (café → cafecito, ratón → ratoncito); muchos monosílabos toman -ecito (flor → florecita, pez → pececito). Al añadir el sufijo se mantiene el sonido de la raíz, así que cambia la ortografía: poco → poquito, amigo → amiguito, taza → tacita. El diminutivo conserva el género de la palabra base (el problema → el problemita). El valor (afecto, cortesía, ironía o desprecio) no lo da el sufijo, sino la situación.",
-          "El diminutivo en español rara vez se limita a indicar un tamaño reducido: con frecuencia comunica cercanía, ternura o cordialidad hacia lo que se nombra, independientemente de sus dimensiones reales. Decir mi abuelita o un cafecito no describe necesariamente algo pequeño, sino que transmite un afecto que el sustantivo sin sufijo no alcanzaría a expresar por sí solo.",
-          "El diminutivo también suaviza peticiones y órdenes, haciéndolas sonar menos impositivas: pedir un momentico o esperar un ratico atenúa la exigencia implícita en la petición original. Esta función pragmática convierte al diminutivo en una herramienta de cortesía tan importante como su valor afectivo."
+          "La idea clave: el sufijo apreciativo tiene una forma que sigue reglas y un valor que depende del contexto. La forma: las palabras en -o/-a toman -ito/-ita (casa → casita); las terminadas en -e, -n o -r toman -cito (café → cafecito, ratón → ratoncito); muchos monosílabos toman -ecito (flor → florecita, pez → pececito). Al añadir el sufijo se mantiene el sonido de la raíz, así que cambia la ortografía: poco → poquito, amigo → amiguito, taza → tacita. El diminutivo conserva el género de la palabra base (el problema → el problemita)."
         ],
         "examples": [
           {
-            "es": "un cafecito",
-            "en": "diminutivo afectivo que no indica tamaño reducido, sino cercanía y cordialidad"
+            "es": "un ratoncito",
+            "en": "ratón termina en -n, así que toma -cito"
           },
           {
-            "es": "un momentico",
-            "en": "variante regional del diminutivo -ito, típica del Caribe y de algunas zonas andinas, usada para suavizar una petición"
-          },
-          {
-            "es": "la casita",
-            "en": "diminutivo que puede expresar cariño hacia el lugar, más que un tamaño reducido"
-          },
-          {
-            "es": "despacito",
-            "en": "diminutivo adverbial que suaviza la instrucción y añade un matiz cariñoso o paciente"
-          },
-          {
-            "es": "ahorita",
-            "en": "diminutivo temporal cuyo significado varía notablemente según el país, desde inmediatamente hasta dentro de un rato"
+            "es": "un poquito",
+            "en": "poco → poquito: la ortografía cambia para mantener el sonido de la raíz"
           }
         ],
         "checkpoint": [
-          {
-            "type": "multiple-choice",
-            "question": "Alguien dice «ven, siéntate en mi casita» refiriéndose a una vivienda de tamaño normal. ¿Qué función cumple el diminutivo en esa frase?",
-            "options": [
-              "expresar cariño hacia el lugar",
-              "indicar que la casa es realmente pequeña",
-              "suavizar una orden",
-              "mostrar sorpresa"
-            ],
-            "correctIndex": 0,
-            "explanation": "En este caso, el diminutivo casita no indica un tamaño reducido, sino que expresa cariño y cercanía hacia el lugar, una función afectiva típica de muchos diminutivos. No indica que la casa sea realmente pequeña, no hay ninguna orden que suavizar y no expresa sorpresa."
-          },
           {
             "type": "multiple-choice",
             "question": "Aplica la regla de la forma a una palabra que no está en la lista: el niño señala su acuario y dice que tiene un ___ naranja.",
@@ -5807,10 +6264,74 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El diminutivo irónico y el diminutivo despectivo",
+        "heading": "Más allá del tamaño: el diminutivo afectivo",
         "body": [
-          "El diminutivo también puede invertir por completo su valor afectivo cuando se usa con intención irónica: llamar problemita a un conflicto grave minimiza su gravedad de forma sarcástica, subrayando precisamente lo contrario de lo que las palabras dicen literalmente. El tono de voz y el contexto son, de nuevo, indispensables para captar esta inversión de sentido.",
-          "Existe además un uso claramente despectivo del diminutivo, que resta importancia o mérito a la persona o cosa nombrada: un escritorcillo o un politiquillo emplean el sufijo diminutivo no para expresar pequeñez física, sino para descalificar con desprecio disimulado tras una apariencia inofensiva."
+          "El valor (afecto, cortesía, ironía o desprecio) no lo da el sufijo, sino la situación.",
+          "El diminutivo en español rara vez se limita a indicar un tamaño reducido: con frecuencia comunica cercanía, ternura o cordialidad hacia lo que se nombra, independientemente de sus dimensiones reales. Decir mi abuelita o un cafecito no describe necesariamente algo pequeño, sino que transmite un afecto que el sustantivo sin sufijo no alcanzaría a expresar por sí solo."
+        ],
+        "examples": [
+          {
+            "es": "un cafecito",
+            "en": "diminutivo afectivo que no indica tamaño reducido, sino cercanía y cordialidad"
+          },
+          {
+            "es": "la casita",
+            "en": "diminutivo que puede expresar cariño hacia el lugar, más que un tamaño reducido"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Alguien dice «ven, siéntate en mi casita» refiriéndose a una vivienda de tamaño normal. ¿Qué función cumple el diminutivo en esa frase?",
+            "options": [
+              "expresar cariño hacia el lugar",
+              "indicar que la casa es realmente pequeña",
+              "suavizar una orden",
+              "mostrar sorpresa"
+            ],
+            "correctIndex": 0,
+            "explanation": "En este caso, el diminutivo casita no indica un tamaño reducido, sino que expresa cariño y cercanía hacia el lugar, una función afectiva típica de muchos diminutivos. No indica que la casa sea realmente pequeña, no hay ninguna orden que suavizar y no expresa sorpresa."
+          }
+        ]
+      },
+      {
+        "heading": "Suavizar peticiones: el diminutivo cortés",
+        "body": [
+          "El diminutivo también suaviza peticiones y órdenes, haciéndolas sonar menos impositivas: pedir un momentico o esperar un ratico atenúa la exigencia implícita en la petición original. Esta función pragmática convierte al diminutivo en una herramienta de cortesía tan importante como su valor afectivo."
+        ],
+        "examples": [
+          {
+            "es": "un momentico",
+            "en": "variante regional del diminutivo -ito, típica del Caribe y de algunas zonas andinas, usada para suavizar una petición"
+          },
+          {
+            "es": "despacito",
+            "en": "diminutivo adverbial que suaviza la instrucción y añade un matiz cariñoso o paciente"
+          },
+          {
+            "es": "ahorita",
+            "en": "diminutivo temporal cuyo significado varía notablemente según el país, desde inmediatamente hasta dentro de un rato"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En una tienda, la dependienta le dice a un cliente: «¿Me firma aquí un segundito?». ¿Qué hace el diminutivo?",
+            "options": [
+              "suaviza la petición para que suene menos impositiva",
+              "indica que la firma tiene que ser pequeña",
+              "expresa desprecio hacia el cliente",
+              "subraya con ironía que el trámite es largo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es una petición, y el diminutivo «segundito» la atenúa: es cortesía, como «un momentico». No habla del tamaño de la firma, y nada en la situación (una dependienta amable) apunta a desprecio o ironía."
+          }
+        ]
+      },
+      {
+        "heading": "El diminutivo irónico",
+        "body": [
+          "El diminutivo también puede invertir por completo su valor afectivo cuando se usa con intención irónica: llamar problemita a un conflicto grave minimiza su gravedad de forma sarcástica, subrayando precisamente lo contrario de lo que las palabras dicen literalmente. El tono de voz y el contexto son, de nuevo, indispensables para captar esta inversión de sentido."
         ],
         "examples": [
           {
@@ -5818,16 +6339,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "diminutivo irónico que minimiza en apariencia un problema que en realidad es grave"
           },
           {
-            "es": "un escritorcillo",
-            "en": "diminutivo despectivo que resta importancia o mérito a la persona nombrada"
-          },
-          {
             "es": "qué genio tiene la señorita",
             "en": "uso irónico de un tratamiento cortés (señorita, diminutivo lexicalizado) con intención de crítica velada"
-          },
-          {
-            "es": "un politiquillo",
-            "en": "diminutivo despectivo que descalifica a alguien restándole seriedad"
           },
           {
             "es": "bonito lío has armado",
@@ -5846,10 +6359,39 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El aumentativo: intensidad, torpeza y admiración",
+        "heading": "El diminutivo despectivo",
         "body": [
-          "Los aumentativos como -ón, -ona y -azo tampoco se limitan a indicar gran tamaño: con frecuencia expresan torpeza, cuando se aplican a partes del cuerpo, como en manazas para describir a alguien poco hábil con las manos, o admiración intensa, como en golazo para una jugada extraordinaria. El matiz depende enteramente del sustantivo y del contexto en que se emplea el sufijo.",
-          "El superlativo en -ísimo cumple una función distinta pero relacionada: intensifica al máximo una cualidad, superando incluso a la construcción con muy. Decir buenísimo comunica una intensidad emocional que muy bueno rara vez alcanza, y por eso este sufijo resulta tan frecuente en el habla espontánea y entusiasta."
+          "Existe además un uso claramente despectivo del diminutivo, que resta importancia o mérito a la persona o cosa nombrada: un escritorcillo o un politiquillo emplean el sufijo diminutivo no para expresar pequeñez física, sino para descalificar con desprecio disimulado tras una apariencia inofensiva."
+        ],
+        "examples": [
+          {
+            "es": "un escritorcillo",
+            "en": "diminutivo despectivo que resta importancia o mérito a la persona nombrada"
+          },
+          {
+            "es": "un politiquillo",
+            "en": "diminutivo despectivo que descalifica a alguien restándole seriedad"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un crítico escribe: «Ese poetilla no sabe ni rimar». ¿Qué valor tiene el diminutivo?",
+            "options": [
+              "despectivo: descalifica al poeta",
+              "afectivo: expresa cariño hacia el poeta",
+              "cortés: suaviza una petición",
+              "de tamaño: el poeta es bajito"
+            ],
+            "correctIndex": 0,
+            "explanation": "Se critica a una persona por su oficio, y «-illa» le resta mérito, como en «escritorcillo» o «politiquillo»: valor despectivo. No hay cariño ni petición, y el sufijo no habla de la estatura del poeta."
+          }
+        ]
+      },
+      {
+        "heading": "El aumentativo: torpeza y admiración",
+        "body": [
+          "Los aumentativos como -ón, -ona y -azo tampoco se limitan a indicar gran tamaño: con frecuencia expresan torpeza, cuando se aplican a partes del cuerpo, como en manazas para describir a alguien poco hábil con las manos, o admiración intensa, como en golazo para una jugada extraordinaria. El matiz depende enteramente del sustantivo y del contexto en que se emplea el sufijo."
         ],
         "examples": [
           {
@@ -5867,10 +6409,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "un exitazo",
             "en": "aumentativo que intensifica la magnitud de un éxito, resaltando su carácter rotundo"
-          },
-          {
-            "es": "buenísimo",
-            "en": "superlativo en -ísimo que intensifica al máximo la cualidad, más allá del simple muy bueno"
           }
         ],
         "checkpoint": [
@@ -5888,6 +6426,36 @@ const C2_BASE_LESSONS: Lesson[] = [
               1
             ],
             "explanation": "Manazas y el bocazas tienen un matiz despectivo relacionado con la torpeza y la indiscreción, respectivamente; un golazo y un exitazo expresan admiración por algo positivo."
+          }
+        ]
+      },
+      {
+        "heading": "El superlativo en -ísimo",
+        "body": [
+          "El superlativo en -ísimo cumple una función distinta pero relacionada: intensifica al máximo una cualidad, superando incluso a la construcción con muy. Decir buenísimo comunica una intensidad emocional que muy bueno rara vez alcanza, y por eso este sufijo resulta tan frecuente en el habla espontánea y entusiasta."
+        ],
+        "examples": [
+          {
+            "es": "buenísimo",
+            "en": "superlativo en -ísimo que intensifica al máximo la cualidad, más allá del simple muy bueno"
+          },
+          {
+            "es": "Esta tarta está riquísima.",
+            "en": "This cake is absolutely delicious."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Sales del cine entusiasmada y quieres transmitir la máxima intensidad. ¿Qué dices?",
+            "options": [
+              "¡La película es buenísima!",
+              "La película es muy buena.",
+              "La película es bastante buena.",
+              "La película es buena."
+            ],
+            "correctIndex": 0,
+            "explanation": "El superlativo en -ísimo intensifica al máximo la cualidad, más allá de «muy»: «buenísima» transmite el entusiasmo del habla espontánea. «Muy buena» se queda por debajo, y «bastante buena» o «buena» rebajan aún más la intensidad."
           }
         ]
       }
@@ -5938,11 +6506,73 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Preferencias regionales y registro: -ico, -ito, -ete",
+        "heading": "-azo: tamaño, admiración o golpe",
         "body": [
-          "La idea clave: cada sufijo apreciativo tiene su propia gramática. -azo/-aza conserva el género (un perrazo, una manaza) y tiene dos valores: tamaño o admiración (golazo, exitazo) y golpe (portazo = golpe de puerta, codazo = golpe con el codo). -ote/-ota añade un tono jocoso o despectivo suave (grandote, feote, carota). -ete es jocoso (vejete, guapete). Y -ón, además de aumentar, puede volver masculino un sustantivo femenino y crear una palabra nueva: la cuchara → el cucharón, la silla → el sillón. Por eso, antes de usar un aumentativo, conviene saber si la forma ya existe con un significado propio.",
-          "La forma del diminutivo varía notablemente según la región: el sufijo -ico predomina en Aragón, Murcia y Costa Rica, y en el Caribe y Colombia aparece sobre todo tras -t- (momentico, ratico), mientras que -ito es la forma más extendida en el resto del mundo hispanohablante. El sufijo -ete, menos frecuente, suele añadir un matiz jocoso o levemente despectivo, como en vejete o guapete.",
-          "El uso excesivo de diminutivos puede sonar infantil o exageradamente cortés según el contexto y la región, por lo que un hablante avanzado necesita calibrar la frecuencia con la que los emplea según la formalidad de la situación y las convenciones del país donde se encuentre."
+          "La idea clave: cada sufijo apreciativo tiene su propia gramática. -azo/-aza conserva el género (un perrazo, una manaza) y tiene dos valores: tamaño o admiración (golazo, exitazo) y golpe (portazo = golpe de puerta, codazo = golpe con el codo)."
+        ],
+        "examples": [
+          {
+            "es": "el perrazo",
+            "en": "aumentativo que resalta el gran tamaño o la imponencia de un perro"
+          },
+          {
+            "es": "el golazo",
+            "en": "aumentativo que expresa admiración intensa hacia una jugada extraordinaria"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el segundo valor de -azo: tu compañero sale de la reunión furioso y cierra la puerta con fuerza. ¿Qué dio?",
+            "options": [
+              "un portazo",
+              "una portaza",
+              "un portón",
+              "una puertita"
+            ],
+            "correctIndex": 0,
+            "explanation": "Con -azo, el sustantivo puede designar el golpe dado con algo: portazo es el golpe de una puerta al cerrarse, igual que codazo o martillazo. «Portaza» no existe; «portón» es una palabra con significado propio (una puerta grande); y el diminutivo no expresa el golpe."
+          }
+        ]
+      },
+      {
+        "heading": "-ote, -ete y -ón: matices y palabras nuevas",
+        "body": [
+          "-ote/-ota añade un tono jocoso o despectivo suave (grandote, feote, carota). -ete es jocoso (vejete, guapete). Y -ón, además de aumentar, puede volver masculino un sustantivo femenino y crear una palabra nueva: la cuchara → el cucharón, la silla → el sillón. Por eso, antes de usar un aumentativo, conviene saber si la forma ya existe con un significado propio."
+        ],
+        "examples": [
+          {
+            "es": "grandote",
+            "en": "aumentativo coloquial que resalta el gran tamaño de algo o alguien con tono amistoso"
+          },
+          {
+            "es": "feote",
+            "en": "combinación de aumentativo y matiz despectivo suave que describe a alguien poco agraciado, con tono jocoso"
+          },
+          {
+            "es": "el sillón",
+            "en": "la silla → el sillón: -ón cambia el género y crea una palabra nueva"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Te piden que busques las tijeras «en el cajón de la cocina». Aplica la regla de -ón: ¿qué es un cajón?",
+            "options": [
+              "un compartimento que se saca de un mueble: una palabra con significado propio",
+              "una caja de gran tamaño",
+              "una caja pequeña",
+              "una caja vieja y fea, con tono jocoso"
+            ],
+            "correctIndex": 0,
+            "explanation": "Como en la silla → el sillón, «-ón» ha vuelto masculino un sustantivo femenino (la caja → el cajón) y ha creado una palabra nueva con significado propio. Por eso no se entiende como «caja grande», y mucho menos como diminutivo o como matiz jocoso, que sería -ote o -ete."
+          }
+        ]
+      },
+      {
+        "heading": "Preferencias regionales: -ico, -ito, -ete",
+        "body": [
+          "La forma del diminutivo varía notablemente según la región: el sufijo -ico predomina en Aragón, Murcia y Costa Rica, y en el Caribe y Colombia aparece sobre todo tras -t- (momentico, ratico), mientras que -ito es la forma más extendida en el resto del mundo hispanohablante. El sufijo -ete, menos frecuente, suele añadir un matiz jocoso o levemente despectivo, como en vejete o guapete."
         ],
         "examples": [
           {
@@ -5960,10 +6590,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "guapete",
             "en": "diminutivo festivo que suaviza un halago exagerado, típico de un tono coloquial y cercano"
-          },
-          {
-            "es": "pobrecito",
-            "en": "diminutivo que expresa compasión o lástima hacia alguien"
           }
         ],
         "checkpoint": [
@@ -5989,29 +6615,66 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Cada variante del diminutivo o del aumentativo aporta un matiz regional o emocional específico que conviene reconocer según el contexto."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Aplica el segundo valor de -azo: tu compañero sale de la reunión furioso y cierra la puerta con fuerza. ¿Qué dio?",
-            "options": [
-              "un portazo",
-              "una portaza",
-              "un portón",
-              "una puertita"
-            ],
-            "correctIndex": 0,
-            "explanation": "Con -azo, el sustantivo puede designar el golpe dado con algo: portazo es el golpe de una puerta al cerrarse, igual que codazo o martillazo. «Portaza» no existe; «portón» es una palabra con significado propio (una puerta grande); y el diminutivo no expresa el golpe."
           }
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "Calibrar la frecuencia",
+        "body": [
+          "El uso excesivo de diminutivos puede sonar infantil o exageradamente cortés según el contexto y la región, por lo que un hablante avanzado necesita calibrar la frecuencia con la que los emplea según la formalidad de la situación y las convenciones del país donde se encuentre."
+        ],
+        "examples": [
+          {
+            "es": "pobrecito",
+            "en": "diminutivo que expresa compasión o lástima hacia alguien"
+          },
+          {
+            "es": "¿Me pone un cafecito con una magdalenita, por favorcito?",
+            "en": "petición tan cargada de diminutivos que puede sonar infantil o exageradamente cortés"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En una entrevista de trabajo formal, ¿qué versión suena más adecuada?",
+            "options": [
+              "Si me permite un momento, le enseño el informe.",
+              "Si me permite un momentito, le enseño el informito.",
+              "Si me permite un ratico, le enseño el informito.",
+              "Si me permite un segundito, le enseño el informecito."
+            ],
+            "correctIndex": 0,
+            "explanation": "En una situación formal conviene calibrar la frecuencia: acumular diminutivos (momentito, informito, informecito) suena infantil o exageradamente cortés. Un solo diminutivo de cortesía podría pasar, pero la versión sin ninguno es la más segura en una entrevista."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (1): el cafecito de la abuela",
         "body": [
           "Abuela: Ven aquí, chiquitín, que te voy a preparar un cafecito antes de que te vayas.",
           "Nieto: Gracias, abuela, pero espera un momentico, que estoy terminando una llamada.",
           "Abuela: Ay, este muchacho, siempre con sus llamadas. Menudo problemita tienes con el teléfono últimamente.",
           "Nieto: No es para tanto, abuela. Es solo trabajo.",
-          "Abuela: Bueno, bueno. Por cierto, ¿sabes que tu primo se compró un cochazo nuevo?",
+          "Abuela: Bueno, bueno. Por cierto, ¿sabes que tu primo se compró un cochazo nuevo?"
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "La abuela usa «menudo problemita» con ironía. Si dijera «¡Vaya cochecito se ha comprado tu primo!» de un coche enorme, ¿qué valor tendría el diminutivo?",
+            "options": [
+              "irónico: la palabra contradice la realidad",
+              "afectivo: expresa ternura hacia el coche",
+              "cortés: suaviza una petición",
+              "regional: delata que la abuela es del Caribe"
+            ],
+            "correctIndex": 0,
+            "explanation": "Hay una contradicción entre la palabra (cochecito) y la realidad (un coche enorme): esa es la pista de la ironía, igual que en «menudo problemita». No hay petición que suavizar, y -ito es la forma general, no una variante regional."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): manazas y buenísimo",
+        "body": [
           "Nieto: ¿En serio? Con lo manazas que es para conducir, espero que tenga cuidado.",
           "Abuela: ¡Qué cosas dices! Aunque tienes razón, siempre ha sido un poco torpe con los coches.",
           "Nieto: Bueno, al menos es buenísimo organizando fiestas, eso hay que reconocérselo.",
@@ -6059,10 +6722,6 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "diminutivo que puede expresar cariño hacia el lugar, más que un tamaño reducido"
           },
           {
-            "es": "grandote",
-            "en": "aumentativo coloquial que resalta el gran tamaño de algo o alguien con tono amistoso"
-          },
-          {
             "es": "un hombretón",
             "en": "aumentativo que describe a un hombre de gran tamaño y presencia física notable"
           },
@@ -6103,10 +6762,6 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "aumentativo que describe a una mujer de gran tamaño o presencia notable"
           },
           {
-            "es": "el perrazo",
-            "en": "aumentativo que resalta el gran tamaño o la imponencia de un perro"
-          },
-          {
             "es": "flaquito",
             "en": "diminutivo afectivo aplicado a una persona delgada, con tono cariñoso"
           },
@@ -6125,10 +6780,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "fresquito",
             "en": "diminutivo que suaviza la sensación de frío, dándole un matiz agradable"
-          },
-          {
-            "es": "el golazo",
-            "en": "aumentativo que expresa admiración intensa hacia una jugada extraordinaria"
           },
           {
             "es": "el bocazas",
@@ -6171,12 +6822,33 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "diminutivo afectivo aplicado a una luz pequeña o tenue"
           },
           {
-            "es": "feote",
-            "en": "combinación de aumentativo y matiz despectivo suave que describe a alguien poco agraciado, con tono jocoso"
-          },
-          {
             "es": "chiquitín",
             "en": "diminutivo reduplicado que intensifica la ternura hacia algo o alguien muy pequeño"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada palabra del banco con su significado.",
+            "pairs": [
+              {
+                "left": "el papelón",
+                "right": "actuación ridícula o vergonzosa"
+              },
+              {
+                "left": "la palabrota",
+                "right": "palabra malsonante"
+              },
+              {
+                "left": "el amigote",
+                "right": "compañero de juergas, con tono jocoso"
+              },
+              {
+                "left": "fresquito",
+                "right": "agradablemente fresco"
+              }
+            ],
+            "explanation": "En «papelón» y «palabrota» el aumentativo ya ha creado palabras con significado propio (un mal papel, un taco); «amigote» lleva el matiz jocoso o despectivo suave de -ote, y el diminutivo de «fresquito» no reduce nada: hace agradable la cualidad."
           }
         ]
       }
@@ -6243,10 +6915,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Modismos de negociación: mostrar las intenciones sin rodeos",
+        "heading": "La imagen da el significado",
         "body": [
-          "La regla de los modismos: el significado sale de la imagen, pero la forma está fija. La imagen te ayuda a entenderlos y a recordarlos: quien pone las cartas sobre la mesa enseña su jugada, como en una partida; quien tantea el terreno pisa con cuidado antes de avanzar. La forma, en cambio, no se toca: puedes conjugar el verbo (fuimos al grano, ha dado la cara), pero no cambiar el sustantivo ni la preposición. Por eso los calcos del inglés fallan: «get to the point» es «ir al grano», no «ir al punto»; «test the waters» es «tantear el terreno», no «probar las aguas». En la empresa estos modismos son registro semiformal: valen en una reunión o en un correo interno, no en un contrato.",
-          "Otros modismos de este grupo describen la manera de abordar un asunto: ir al grano evita rodeos innecesarios y va directamente a lo esencial, mientras que jugársela implica asumir un riesgo considerable al tomar una decisión importante sin garantías previas de éxito."
+          "La regla de los modismos: el significado sale de la imagen, pero la forma está fija. La imagen te ayuda a entenderlos y a recordarlos: quien pone las cartas sobre la mesa enseña su jugada, como en una partida; quien tantea el terreno pisa con cuidado antes de avanzar."
         ],
         "examples": [
           {
@@ -6254,20 +6925,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "exponer con claridad las intenciones o condiciones propias en una negociación"
           },
           {
-            "es": "ir al grano",
-            "en": "abordar directamente lo esencial de un asunto, sin rodeos ni preámbulos"
-          },
-          {
-            "es": "jugársela",
-            "en": "asumir un riesgo considerable al tomar una decisión"
-          },
-          {
             "es": "tantear el terreno",
             "en": "explorar con cautela una situación antes de comprometerse"
-          },
-          {
-            "es": "dar la cara",
-            "en": "asumir la responsabilidad de una situación de manera directa y personal"
           }
         ],
         "checkpoint": [
@@ -6282,7 +6941,25 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«Poner las cartas sobre la mesa» es exponer con claridad las propias intenciones o condiciones. «Tantear el terreno» es sondear con cautela antes de actuar, «jugársela» es arriesgarse y «dar la cara» es asumir responsabilidades."
+          }
+        ]
+      },
+      {
+        "heading": "La forma no se toca: cuidado con los calcos",
+        "body": [
+          "La forma, en cambio, no se toca: puedes conjugar el verbo (fuimos al grano, ha dado la cara), pero no cambiar el sustantivo ni la preposición. Por eso los calcos del inglés fallan: «get to the point» es «ir al grano», no «ir al punto»; «test the waters» es «tantear el terreno», no «probar las aguas»."
+        ],
+        "examples": [
+          {
+            "es": "ir al grano",
+            "en": "abordar directamente lo esencial de un asunto, sin rodeos ni preámbulos"
           },
+          {
+            "es": "dar la cara",
+            "en": "asumir la responsabilidad de una situación de manera directa y personal"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Una consultora abre su presentación así. ¿Qué versión suena natural en español?",
@@ -6298,10 +6975,40 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Modismos de aprobación y avance de proyectos",
+        "heading": "Registro y manera de abordar un asunto",
         "body": [
-          "Una vez negociadas las condiciones, el vocabulario idiomático del mundo empresarial se desplaza hacia la aprobación y la ejecución de proyectos. Dar el visto bueno formaliza la aprobación de algo antes de que continúe a la siguiente fase, un paso habitual en cualquier estructura jerárquica donde las decisiones requieren respaldo superior.",
-          "Sacar adelante un proyecto implica superar dificultades hasta llevarlo a buen término, mientras que quemar etapas describe avanzar con una rapidez inusual, saltándose pasos intermedios que normalmente se respetarían. Este último modismo puede tener un matiz positivo de eficiencia o uno negativo de precipitación, según el contexto."
+          "En la empresa estos modismos son registro semiformal: valen en una reunión o en un correo interno, no en un contrato.",
+          "Otros modismos de este grupo describen la manera de abordar un asunto: ir al grano evita rodeos innecesarios y va directamente a lo esencial, mientras que jugársela implica asumir un riesgo considerable al tomar una decisión importante sin garantías previas de éxito."
+        ],
+        "examples": [
+          {
+            "es": "jugársela",
+            "en": "asumir un riesgo considerable al tomar una decisión"
+          },
+          {
+            "es": "Nos la jugamos con este lanzamiento.",
+            "en": "We're taking a big gamble with this launch."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Dónde encaja bien la frase «Vamos a ir al grano»?",
+            "options": [
+              "en una reunión de equipo",
+              "en una cláusula de un contrato",
+              "en el texto de una ley",
+              "en el fallo de una sentencia"
+            ],
+            "correctIndex": 0,
+            "explanation": "Estos modismos son registro semiformal: valen en una reunión o en un correo interno. Un contrato, una ley o una sentencia piden registro formal, sin modismos."
+          }
+        ]
+      },
+      {
+        "heading": "Aprobar: dar el visto bueno",
+        "body": [
+          "Una vez negociadas las condiciones, el vocabulario idiomático del mundo empresarial se desplaza hacia la aprobación y la ejecución de proyectos. Dar el visto bueno formaliza la aprobación de algo antes de que continúe a la siguiente fase, un paso habitual en cualquier estructura jerárquica donde las decisiones requieren respaldo superior."
         ],
         "examples": [
           {
@@ -6311,18 +7018,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "poner en marcha",
             "en": "iniciar la ejecución de un plan o proyecto"
-          },
-          {
-            "es": "sacar adelante un proyecto",
-            "en": "lograr que un proyecto llegue a buen término superando dificultades"
-          },
-          {
-            "es": "quemar etapas",
-            "en": "avanzar más rápido de lo habitual, saltándose pasos intermedios"
-          },
-          {
-            "es": "marcar la diferencia",
-            "en": "aportar un valor decisivo que distingue un resultado de otro"
           }
         ],
         "checkpoint": [
@@ -6344,10 +7039,43 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Modismos de riesgo, competencia y determinación",
+        "heading": "Sacar adelante y quemar etapas",
         "body": [
-          "El terreno empresarial está lleno de decisiones que implican riesgo, y el español dispone de modismos vívidos para describir distintos grados de compromiso ante la incertidumbre. Apostar fuerte implica comprometer recursos importantes en una decisión de gran envergadura, mientras que jugarse el todo por el todo eleva ese riesgo hasta el punto de no dejar margen para una marcha atrás.",
-          "En contextos de competencia directa, llevarse el gato al agua describe conseguir imponerse en una negociación o competencia especialmente reñida, y poner toda la carne en el asador subraya el compromiso total de recursos y esfuerzo para lograr un objetivo, sin reservar nada para más adelante."
+          "Sacar adelante un proyecto implica superar dificultades hasta llevarlo a buen término, mientras que quemar etapas describe avanzar con una rapidez inusual, saltándose pasos intermedios que normalmente se respetarían. Este último modismo puede tener un matiz positivo de eficiencia o uno negativo de precipitación, según el contexto."
+        ],
+        "examples": [
+          {
+            "es": "sacar adelante un proyecto",
+            "en": "lograr que un proyecto llegue a buen término superando dificultades"
+          },
+          {
+            "es": "quemar etapas",
+            "en": "avanzar más rápido de lo habitual, saltándose pasos intermedios"
+          },
+          {
+            "es": "marcar la diferencia",
+            "en": "aportar un valor decisivo que distingue un resultado de otro"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una empresa joven abre tres oficinas en su primer año, sin haber consolidado la primera. ¿Qué dice de ella un inversor prudente?",
+            "options": [
+              "Que está quemando etapas.",
+              "Que está dando el visto bueno.",
+              "Que está tanteando el terreno.",
+              "Que está dando la cara."
+            ],
+            "correctIndex": 0,
+            "explanation": "Avanzar más rápido de lo habitual saltándose pasos intermedios es «quemar etapas»; en boca de un inversor prudente, con matiz negativo de precipitación. Tantear el terreno sería justo lo contrario: avanzar con cautela."
+          }
+        ]
+      },
+      {
+        "heading": "Grados de riesgo",
+        "body": [
+          "El terreno empresarial está lleno de decisiones que implican riesgo, y el español dispone de modismos vívidos para describir distintos grados de compromiso ante la incertidumbre. Apostar fuerte implica comprometer recursos importantes en una decisión de gran envergadura, mientras que jugarse el todo por el todo eleva ese riesgo hasta el punto de no dejar margen para una marcha atrás."
         ],
         "examples": [
           {
@@ -6357,7 +7085,29 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "jugarse el todo por el todo",
             "en": "arriesgarlo todo en una única decisión sin posibilidad de marcha atrás"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué modismo expresa el riesgo máximo, sin margen para dar marcha atrás?",
+            "options": [
+              "jugarse el todo por el todo",
+              "apostar fuerte",
+              "tantear el terreno",
+              "dar el visto bueno"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Apostar fuerte» compromete recursos importantes, pero «jugarse el todo por el todo» eleva el riesgo hasta no dejar marcha atrás: es el grado máximo. «Tantear el terreno» es explorar con cautela y «dar el visto bueno», aprobar."
+          }
+        ]
+      },
+      {
+        "heading": "Competir e imponerse",
+        "body": [
+          "En contextos de competencia directa, llevarse el gato al agua describe conseguir imponerse en una negociación o competencia especialmente reñida, y poner toda la carne en el asador subraya el compromiso total de recursos y esfuerzo para lograr un objetivo, sin reservar nada para más adelante."
+        ],
+        "examples": [
           {
             "es": "llevarse el gato al agua",
             "en": "conseguir imponerse en una negociación o competencia difícil"
@@ -6439,16 +7189,50 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Modismos de crisis, cambio de rumbo y transparencia",
+        "heading": "La preposición sale de la imagen",
         "body": [
-          "La regla: en estos modismos la preposición forma parte de la expresión y sale de la imagen. Se «tira de la manta» porque se tira de algo para destapar lo que estaba escondido debajo; se «da carpetazo a» un asunto porque se cierra la carpeta sobre él; se «hinca el diente a» un proyecto como a un bocado duro; se «toma la delantera a» un rival. Cambiar la preposición («dar carpetazo del caso», «tirar la manta») rompe el modismo. Fíjate también en la variedad: «tirar de la manta» es sobre todo de España, y «dar la talla» casi siempre aparece en negativo o en pregunta (no dio la talla, ¿dará la talla?).",
-          "En situaciones de gran incertidumbre, dar palos de ciego describe actuar sin un plan claro, tomando decisiones casi al azar ante la falta de información fiable. Estar en el punto de mira, por su parte, señala que una empresa o persona se ha convertido en objeto de especial atención o crítica, a menudo en un momento particularmente delicado."
+          "La regla: en estos modismos la preposición forma parte de la expresión y sale de la imagen. Se «tira de la manta» porque se tira de algo para destapar lo que estaba escondido debajo; se «da carpetazo a» un asunto porque se cierra la carpeta sobre él; se «hinca el diente a» un proyecto como a un bocado duro; se «toma la delantera a» un rival. Cambiar la preposición («dar carpetazo del caso», «tirar la manta») rompe el modismo."
         ],
         "examples": [
           {
             "es": "tirar de la manta",
             "en": "revelar información oculta que puede resultar comprometedora para alguien (sobre todo en España)"
           },
+          {
+            "es": "hincar el diente a un proyecto",
+            "en": "empezar a abordar en serio un proyecto o asunto, sobre todo si es difícil"
+          },
+          {
+            "es": "dar carpetazo a algo",
+            "en": "dar por terminado un asunto de forma definitiva, archivándolo"
+          },
+          {
+            "es": "tomar la delantera",
+            "en": "adelantarse a los competidores en una carrera o negociación"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué versión respeta la forma del modismo?",
+            "options": [
+              "La jueza dio carpetazo a la investigación.",
+              "La jueza dio carpetazo de la investigación.",
+              "La jueza dio carpetazo con la investigación.",
+              "La jueza tiró carpetazo a la investigación."
+            ],
+            "correctIndex": 0,
+            "explanation": "Se «da carpetazo a» un asunto, porque se cierra la carpeta sobre él: la preposición «a» forma parte del modismo. Cambiarla (de, con) o cambiar el verbo (tirar) rompe la expresión."
+          }
+        ]
+      },
+      {
+        "heading": "Crisis y cambio de rumbo: variedad y uso",
+        "body": [
+          "Fíjate también en la variedad: «tirar de la manta» es sobre todo de España, y «dar la talla» casi siempre aparece en negativo o en pregunta (no dio la talla, ¿dará la talla?).",
+          "En situaciones de gran incertidumbre, dar palos de ciego describe actuar sin un plan claro, tomando decisiones casi al azar ante la falta de información fiable. Estar en el punto de mira, por su parte, señala que una empresa o persona se ha convertido en objeto de especial atención o crítica, a menudo en un momento particularmente delicado."
+        ],
+        "examples": [
           {
             "es": "dar un giro de ciento ochenta grados",
             "en": "cambiar por completo de estrategia o dirección"
@@ -6462,11 +7246,23 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "ser objeto de especial atención o crítica, a menudo en un momento delicado"
           },
           {
-            "es": "hincar el diente a un proyecto",
-            "en": "empezar a abordar en serio un proyecto o asunto, sobre todo si es difícil"
+            "es": "dar la talla",
+            "en": "cumplir con las expectativas o los requisitos exigidos"
           }
         ],
         "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un modismo que no está en la lista: «Pese a la caída de ventas, la empresa consiguió capear el temporal». ¿Qué hizo la empresa?",
+            "options": [
+              "resistir la crisis sin hundirse",
+              "aprovechar la crisis para hacerse rica",
+              "cerrar antes de que llegara la crisis",
+              "cambiar por completo de estrategia"
+            ],
+            "correctIndex": 0,
+            "explanation": "La imagen es la del barco que aguanta la tormenta maniobrando: «capear el temporal» es salir adelante en una situación difícil. Hacerse rico con la crisis sería «hacer el agosto», y cambiar por completo de estrategia, «dar un giro de ciento ochenta grados»."
+          },
           {
             "type": "word-order",
             "prompt": "Ordena las palabras para formar la frase correcta.",
@@ -6484,33 +7280,54 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "translation": "The company decided to do a complete about-face.",
             "explanation": "La frase ordenada es «la empresa decidió dar un giro de ciento ochenta grados», modismo que describe un cambio completo de estrategia o dirección."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Un modismo que no está en la lista: «Pese a la caída de ventas, la empresa consiguió capear el temporal». ¿Qué hizo la empresa?",
-            "options": [
-              "resistir la crisis sin hundirse",
-              "aprovechar la crisis para hacerse rica",
-              "cerrar antes de que llegara la crisis",
-              "cambiar por completo de estrategia"
-            ],
-            "correctIndex": 0,
-            "explanation": "La imagen es la del barco que aguanta la tormenta maniobrando: «capear el temporal» es salir adelante en una situación difícil. Hacerse rico con la crisis sería «hacer el agosto», y cambiar por completo de estrategia, «dar un giro de ciento ochenta grados»."
           }
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): cartas sobre la mesa",
         "body": [
           "Director: Necesitamos hablar con franqueza sobre el futuro de esta división.",
           "Socia: De acuerdo, prefiero que pongamos las cartas sobre la mesa desde el principio.",
           "Director: Bien, entonces voy directamente al grano: las cifras del último trimestre no son buenas.",
           "Socia: Lo sospechaba. ¿Qué propones exactamente?",
-          "Director: Creo que deberíamos dar un giro de ciento ochenta grados en nuestra estrategia comercial.",
+          "Director: Creo que deberíamos dar un giro de ciento ochenta grados en nuestra estrategia comercial."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Tu socio te oculta información sobre las cuentas. Como la socia del diálogo, le pides franqueza total desde el principio. ¿Qué dices?",
+            "options": [
+              "Pongamos las cartas sobre la mesa.",
+              "Demos palos de ciego.",
+              "Demos carpetazo al asunto.",
+              "Tomemos la delantera."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Poner las cartas sobre la mesa» es exponer con claridad lo que cada uno sabe y quiere, como en el diálogo. «Dar palos de ciego» es actuar sin plan, «dar carpetazo» es cerrar un asunto y «tomar la delantera», adelantarse a un rival."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): hincarle el diente al proyecto",
+        "body": [
           "Socia: Es arriesgado, pero tal vez sea el momento de apostar fuerte por el mercado digital.",
           "Director: Estoy de acuerdo. Si le hincamos el diente a este nuevo proyecto ahora, podríamos marcar la diferencia frente a la competencia.",
           "Socia: Perfecto. Necesitaré tu visto bueno para poner en marcha el equipo la próxima semana.",
           "Director: Cuenta con ello. Es hora de poner toda la carne en el asador."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Completa con la forma fija del modismo: «Si ___ ahora a la auditoría, la terminaremos en marzo.»",
+            "options": [
+              "le hincamos el diente",
+              "le metemos el diente",
+              "le hincamos la muela",
+              "le damos el diente"
+            ],
+            "correctIndex": 0,
+            "explanation": "El modismo es «hincar el diente a algo», como dice el director del diálogo: se conjuga el verbo (hincamos), pero no se cambian el verbo por otro (meter, dar) ni el sustantivo (muela), porque la imagen del bocado duro solo funciona entera."
+          }
         ]
       },
       {
@@ -6552,10 +7369,6 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "explorar con cautela una situación antes de comprometerse"
           },
           {
-            "es": "dar carpetazo a algo",
-            "en": "dar por terminado un asunto de forma definitiva, archivándolo"
-          },
-          {
             "es": "dejar su sello",
             "en": "imprimir un rasgo distintivo y memorable en algo que se hace"
           },
@@ -6566,14 +7379,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "estar a la altura",
             "en": "tener la capacidad suficiente para responder a las exigencias de una situación"
-          },
-          {
-            "es": "dar la talla",
-            "en": "cumplir con las expectativas o los requisitos exigidos"
-          },
-          {
-            "es": "tomar la delantera",
-            "en": "adelantarse a los competidores en una carrera o negociación"
           },
           {
             "es": "llevarse el gato al agua",
@@ -6659,6 +7464,31 @@ const C2_BASE_LESSONS: Lesson[] = [
             "es": "tirar la casa por la ventana",
             "en": "gastar sin reparar en gastos, sobre todo en celebraciones o lanzamientos"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada modismo del banco con su significado.",
+            "pairs": [
+              {
+                "left": "tener mano izquierda",
+                "right": "saber tratar a la gente con tacto"
+              },
+              {
+                "left": "a bombo y platillo",
+                "right": "con mucha publicidad"
+              },
+              {
+                "left": "subirse al carro",
+                "right": "sumarse a algo que ya tiene éxito"
+              },
+              {
+                "left": "tirar la casa por la ventana",
+                "right": "gastar sin medida"
+              }
+            ],
+            "explanation": "Cada imagen explica el significado: la mano izquierda es la del tacto y la habilidad; el bombo y los platillos hacen mucho ruido (mucha publicidad); quien se sube al carro se suma cuando ya va en marcha; y tirar la casa por la ventana es gastar sin control."
+          }
         ]
       }
     ],
@@ -6725,20 +7555,14 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Inferir significado a partir del contexto",
+        "heading": "Pistas 1 y 2: la función y el entorno",
         "body": [
-          "La regla: ante una palabra desconocida, no te detengas; reúne pistas en este orden. 1) Su función: ¿es un nombre, un verbo, un adjetivo? Eso ya limita lo que puede significar. 2) El entorno: el campo semántico del párrafo y los conectores, que anuncian la relación con lo que sigue (aunque → algo contrario a lo esperado; porque → la causa; es decir, o sea, los dos puntos → una explicación). 3) Su forma: prefijos y sufijos (in- 'no', des- 'lo contrario', -ble 'que se puede'). Por qué funciona: los textos son redundantes; casi siempre la misma idea se anticipa, se repite o se explica unas líneas más allá.",
-          "Esta capacidad de inferir resulta especialmente valiosa con los tecnicismos y los coloquialismos, dos extremos del registro que rara vez aparecen en los diccionarios básicos. Un buen lector avanzado no se detiene ante cada término oscuro, sino que sigue leyendo, acumula contexto y vuelve atrás solo si la ambigüedad persiste tras varias frases. Detenerse en cada palabra rompe el hilo argumental y dificulta captar el sentido global.",
-          "Conviene distinguir, además, entre una ambigüedad genuina, que el propio autor deja abierta a propósito, y una laguna léxica del lector, que se resuelve con más contexto. Reconocer esta diferencia evita perder tiempo buscando una única respuesta donde en realidad cabían varias interpretaciones válidas."
+          "La regla: ante una palabra desconocida, no te detengas; reúne pistas en este orden. 1) Su función: ¿es un nombre, un verbo, un adjetivo? Eso ya limita lo que puede significar. 2) El entorno: el campo semántico del párrafo y los conectores, que anuncian la relación con lo que sigue (aunque → algo contrario a lo esperado; porque → la causa; es decir, o sea, los dos puntos → una explicación)."
         ],
         "examples": [
           {
             "es": "Por el contexto se deduce que...",
             "en": "fórmula que introduce una inferencia basada en las pistas del texto"
-          },
-          {
-            "es": "un término del ámbito jurídico",
-            "en": "un tecnicismo cuyo sentido se aclara por el campo semántico del párrafo"
           },
           {
             "es": "a pesar de",
@@ -6751,10 +7575,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Aunque es millonario, vive de forma austera.",
             "en": "Although he's a millionaire, he lives austerely. (aunque: lo contrario de lo esperable en un millonario)"
-          },
-          {
-            "es": "Las cuentas de la fundación eran inverificables.",
-            "en": "The foundation's accounts were impossible to verify. (in- 'no' + verificar + -ble 'que se puede')"
           }
         ],
         "checkpoint": [
@@ -6769,6 +7589,96 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La pista está en lo que hace el ministro: evita todo comentario comprometido, es decir, actúa con prudencia y reserva. «Hablador y espontáneo» es justo lo contrario, y nada en la frase apunta a enfado o cansancio."
+          }
+        ]
+      },
+      {
+        "heading": "Pista 3: la forma, y por qué funciona",
+        "body": [
+          "3) Su forma: prefijos y sufijos (in- 'no', des- 'lo contrario', -ble 'que se puede'). Por qué funciona: los textos son redundantes; casi siempre la misma idea se anticipa, se repite o se explica unas líneas más allá."
+        ],
+        "examples": [
+          {
+            "es": "Las cuentas de la fundación eran inverificables.",
+            "en": "The foundation's accounts were impossible to verify. (in- 'no' + verificar + -ble 'que se puede')"
+          },
+          {
+            "es": "Su letra era ilegible: no entendimos ni una palabra.",
+            "en": "His handwriting was illegible: we couldn't understand a word. (in- 'no' + leer + -ble)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«El documental desmitifica la vida de los futbolistas famosos.» Usa la forma: ¿qué hace el documental?",
+            "options": [
+              "Le quita el aura de mito y muestra la realidad.",
+              "La convierte en un mito.",
+              "La cuenta como un mito antiguo.",
+              "La critica con insultos."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Des-» significa 'lo contrario': des + mitificar = hacer lo contrario de convertir en mito, es decir, quitarle el aura idealizada. «La convierte en un mito» es justo el significado de la base sin prefijo."
+          }
+        ]
+      },
+      {
+        "heading": "Seguir leyendo: tecnicismos y coloquialismos",
+        "body": [
+          "Esta capacidad de inferir resulta especialmente valiosa con los tecnicismos y los coloquialismos, dos extremos del registro que rara vez aparecen en los diccionarios básicos. Un buen lector avanzado no se detiene ante cada término oscuro, sino que sigue leyendo, acumula contexto y vuelve atrás solo si la ambigüedad persiste tras varias frases. Detenerse en cada palabra rompe el hilo argumental y dificulta captar el sentido global."
+        ],
+        "examples": [
+          {
+            "es": "un término del ámbito jurídico",
+            "en": "un tecnicismo cuyo sentido se aclara por el campo semántico del párrafo"
+          },
+          {
+            "es": "Le costó un pastón: más de mil euros.",
+            "en": "un coloquialismo cuyo sentido aclara lo que sigue a los dos puntos"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Lees un informe médico y en la primera línea aparece «disnea», que no conoces. ¿Qué haces, según la estrategia?",
+            "options": [
+              "Sigo leyendo y acumulo contexto; vuelvo atrás solo si sigue sin aclararse.",
+              "Me detengo y la busco antes de leer nada más.",
+              "Dejo el informe, porque es demasiado técnico.",
+              "Me salto el resto del párrafo."
+            ],
+            "correctIndex": 0,
+            "explanation": "Un lector avanzado no se detiene ante cada término oscuro: sigue leyendo, acumula contexto y vuelve atrás solo si la ambigüedad persiste. Detenerse en cada palabra rompe el hilo argumental; abandonar o saltarse el párrafo elimina justo el contexto que aclararía el término."
+          }
+        ]
+      },
+      {
+        "heading": "Ambigüedad genuina o laguna léxica",
+        "body": [
+          "Conviene distinguir, además, entre una ambigüedad genuina, que el propio autor deja abierta a propósito, y una laguna léxica del lector, que se resuelve con más contexto. Reconocer esta diferencia evita perder tiempo buscando una única respuesta donde en realidad cabían varias interpretaciones válidas."
+        ],
+        "examples": [
+          {
+            "es": "El poema termina con «y ella se fue»: ¿se marchó o murió?",
+            "en": "ambigüedad genuina: el autor deja abiertas las dos lecturas"
+          },
+          {
+            "es": "No sé qué es «sotavento», pero el párrafo sobre veleros lo aclara.",
+            "en": "laguna léxica: se resuelve con más contexto"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un cuento termina así: «Cuando abrió la puerta, ya no había nadie. O quizá nunca lo hubo». ¿Qué tipo de duda deja?",
+            "options": [
+              "una ambigüedad genuina: el autor deja abiertas varias lecturas a propósito",
+              "una laguna léxica que se resuelve con un diccionario",
+              "un error del autor que conviene corregir",
+              "un tecnicismo que solo entienden los expertos"
+            ],
+            "correctIndex": 0,
+            "explanation": "Todas las palabras se entienden; lo que queda abierto es el sentido, y el «o quizá» muestra que el autor lo deja así a propósito: ambigüedad genuina. Buscar una única respuesta sería perder el tiempo. Una laguna léxica sería no conocer una palabra concreta."
           }
         ]
       }
@@ -6866,17 +7776,42 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Los cambios de registro dentro de un mismo discurso",
+        "heading": "Tres señales del salto de registro",
         "body": [
-          "La regla: en todo discurso hay un registro dominante, y lo que salta fuera de él lleva intención. Para detectarlo, atiende a tres señales: el léxico (una palabra coloquial o vulgar en un texto cuidado, un tecnicismo en una charla informal), la prosodia (una pausa, un cambio de entonación o de ritmo justo antes) y las marcas de cita (comillas, «según él», «lo que algunos llaman»), que permiten repetir palabras ajenas tomando distancia. Para interpretarlo, pregúntate en qué dirección va el salto: bajar el registro busca cercanía o subraya una crítica; citar con otro tono suele ser ironía.",
-          "Detectar estos cambios de registro exige prestar atención a más que al léxico: la entonación, las pausas y el propio ritmo discursivo anuncian con frecuencia que el hablante está a punto de cambiar de tono antes incluso de que aparezca la primera palabra coloquial. Un oyente avanzado aprende a anticipar esa transición y, sobre todo, a interpretar por qué se produce en ese momento concreto del discurso.",
-          "En los textos escritos ocurre algo similar: un artículo periodístico serio puede introducir de pronto una expresión coloquial o irónica para subrayar una crítica, y ese contraste de registros suele ser la clave para captar el verdadero punto de vista del autor, más allá de la apariencia neutral del resto del texto."
+          "La regla: en todo discurso hay un registro dominante, y lo que salta fuera de él lleva intención. Para detectarlo, atiende a tres señales: el léxico (una palabra coloquial o vulgar en un texto cuidado, un tecnicismo en una charla informal), la prosodia (una pausa, un cambio de entonación o de ritmo justo antes) y las marcas de cita (comillas, «según él», «lo que algunos llaman»), que permiten repetir palabras ajenas tomando distancia."
         ],
         "examples": [
           {
             "es": "cambiar de tono a media frase",
             "en": "pasar de un registro formal a uno coloquial dentro de un mismo enunciado"
           },
+          {
+            "es": "Y aquí, perdonen la expresión, el proyecto se fue al garete.",
+            "en": "una expresión coloquial que salta fuera del registro cuidado de una conferencia"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En un informe técnico sobre redes, aparece de pronto: «lo que algunos llaman “la nube mágica”». ¿Qué señal de salto de registro hay?",
+            "options": [
+              "una marca de cita: repite palabras ajenas tomando distancia",
+              "un tecnicismo en una charla informal",
+              "una pausa en la entonación",
+              "ninguna: es el registro dominante del informe"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Lo que algunos llaman» y las comillas son marcas de cita: el autor repite una expresión ajena sin hacerla suya. No hay tecnicismo nuevo (al contrario, la expresión es coloquial) y, por escrito, no hay prosodia que oír."
+          }
+        ]
+      },
+      {
+        "heading": "Interpretar el salto: cercanía, crítica o ironía",
+        "body": [
+          "Para interpretarlo, pregúntate en qué dirección va el salto: bajar el registro busca cercanía o subraya una crítica; citar con otro tono suele ser ironía.",
+          "En los textos escritos ocurre algo similar: un artículo periodístico serio puede introducir de pronto una expresión coloquial o irónica para subrayar una crítica, y ese contraste de registros suele ser la clave para captar el verdadero punto de vista del autor, más allá de la apariencia neutral del resto del texto."
+        ],
+        "examples": [
           {
             "es": "citar con retintín",
             "en": "reproducir las palabras de otro con un matiz irónico perceptible en la entonación"
@@ -6898,6 +7833,36 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Las comillas aíslan unas palabras ajenas que chocan con el tono neutro de la crónica, y el «sin embargo» que sigue confirma la distancia: es la versión escrita de citar con retintín. No indican acuerdo, ni tecnicismo, ni vulgaridad."
+          }
+        ]
+      },
+      {
+        "heading": "Anticipar el cambio: entonación, pausas y ritmo",
+        "body": [
+          "Detectar estos cambios de registro exige prestar atención a más que al léxico: la entonación, las pausas y el propio ritmo discursivo anuncian con frecuencia que el hablante está a punto de cambiar de tono antes incluso de que aparezca la primera palabra coloquial. Un oyente avanzado aprende a anticipar esa transición y, sobre todo, a interpretar por qué se produce en ese momento concreto del discurso."
+        ],
+        "examples": [
+          {
+            "es": "Bueno… (pausa) digamos que el jefe es muy suyo.",
+            "en": "la pausa y el cambio de ritmo anuncian el comentario crítico"
+          },
+          {
+            "es": "Y entonces, bajando la voz: «Entre nosotros, aquello fue un desastre».",
+            "en": "el cambio de entonación llega antes que la expresión coloquial"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En un pódcast, el locutor hace una pausa, alarga las palabras y cambia el tono: «Y nuestro querido alcalde, tan eficiente como siempre…». ¿Qué anticipan esas señales?",
+            "options": [
+              "un comentario irónico",
+              "un dato técnico",
+              "una cita literal neutra",
+              "el final del programa"
+            ],
+            "correctIndex": 0,
+            "explanation": "La pausa y el cambio de entonación anuncian el salto antes de que llegue la crítica, y el elogio exagerado («tan eficiente como siempre») dicho con otro tono es ironía. Un dato técnico o una cita neutra no necesitan ese cambio de prosodia."
           }
         ]
       }
@@ -6923,9 +7888,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Detectar el cambio de tono intencionado",
+        "heading": "El quiebre de tono deliberado",
         "body": [
-          "La regla: el tono también argumenta. Un quiebre de tono deliberado (pasar de lo solemne a lo coloquial, cerrar un texto serio con una frase seca) señala el punto en que el autor muestra su opinión. Y la máscara de neutralidad hace lo contrario: suena objetiva, pero la valoración se cuela en la elección de las palabras (un eufemismo como «optimizar la plantilla»), en los verbos que introducen lo dicho por otros (admitir, reconocer, pretender) o en qué datos se ponen juntos. Por qué importa: si solo buscas adjetivos de opinión, te pierdes la postura del autor.",
+          "La regla: el tono también argumenta. Un quiebre de tono deliberado (pasar de lo solemne a lo coloquial, cerrar un texto serio con una frase seca) señala el punto en que el autor muestra su opinión."
         ],
         "examples": [
           {
@@ -6933,8 +7898,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "un cambio de registro introducido a propósito para provocar un efecto"
           },
           {
-            "es": "mantener la máscara de neutralidad",
-            "en": "conservar un tono aparentemente objetivo mientras se desliza una valoración personal"
+            "es": "Tras tres párrafos de cifras, la columna termina: «En fin, un desastre».",
+            "en": "una frase seca que cierra un texto serio: ahí está la opinión del autor"
           }
         ],
         "checkpoint": [
@@ -6949,7 +7914,25 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "Los cambios de registro casi nunca son casuales: suelen marcar una intención, como generar cercanía, introducir ironía o citar a otra persona con un matiz distinto. No suele ser un error de pronunciación ni una falta de vocabulario, y no anuncia necesariamente el final de la conversación."
+          }
+        ]
+      },
+      {
+        "heading": "La máscara de neutralidad",
+        "body": [
+          "Y la máscara de neutralidad hace lo contrario: suena objetiva, pero la valoración se cuela en la elección de las palabras (un eufemismo como «optimizar la plantilla»), en los verbos que introducen lo dicho por otros (admitir, reconocer, pretender) o en qué datos se ponen juntos. Por qué importa: si solo buscas adjetivos de opinión, te pierdes la postura del autor."
+        ],
+        "examples": [
+          {
+            "es": "mantener la máscara de neutralidad",
+            "en": "conservar un tono aparentemente objetivo mientras se desliza una valoración personal"
           },
+          {
+            "es": "El ministro admitió que el plan se había retrasado.",
+            "en": "«admitió» presenta el retraso como algo que el ministro habría preferido callar"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Un comunicado de empresa dice: «Este año hemos optimizado nuestra plantilla». ¿Qué esconde esta máscara de neutralidad?",
@@ -6965,11 +7948,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Conexiones lógicas implícitas en el texto escrito",
+        "heading": "La economía de conectores",
         "body": [
-          "Cuanto más sofisticado es un texto, menos necesita explicitar las relaciones lógicas entre sus ideas. Un ensayista experto puede yuxtaponer dos oraciones sin ningún conector visible y confiar en que el lector reconstruya por sí mismo si la relación es de causa, de contraste o de consecuencia. Esta economía de conectores no es un descuido, sino un rasgo propio de la prosa madura, que trata al lector como un interlocutor capaz de completar el razonamiento.",
-          "Para reconstruir esas conexiones implícitas conviene fijarse en los tiempos verbales, en el orden de las ideas y en el conocimiento general que el autor da por compartido. Una oración que narra un hecho posterior a otro suele sugerir una consecuencia; una idea que contradice la expectativa creada por la anterior suele señalar un contraste, aunque no aparezca ningún «pero» ni «sin embargo».",
-          "Esta habilidad se vuelve indispensable en textos densos como los ensayos académicos o los artículos de opinión, donde la argumentación avanza a saltos y el lector debe tender puentes lógicos constantemente. Quien solo busca conectores explícitos se pierde buena parte del razonamiento subyacente."
+          "Cuanto más sofisticado es un texto, menos necesita explicitar las relaciones lógicas entre sus ideas. Un ensayista experto puede yuxtaponer dos oraciones sin ningún conector visible y confiar en que el lector reconstruya por sí mismo si la relación es de causa, de contraste o de consecuencia. Esta economía de conectores no es un descuido, sino un rasgo propio de la prosa madura, que trata al lector como un interlocutor capaz de completar el razonamiento."
         ],
         "examples": [
           {
@@ -6977,12 +7958,38 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "una relación lógica que el lector debe reconstruir sin ninguna señal explícita"
           },
           {
+            "es": "Subieron los alquileres. Los jóvenes se marcharon del barrio.",
+            "en": "dos frases yuxtapuestas: el lector repone la causa y la consecuencia"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un ensayo dice: «Cerraron la fábrica. El pueblo se quedó sin la mitad de sus vecinos». ¿Qué hace el autor al no poner ningún conector?",
+            "options": [
+              "Confía en que el lector reponga la relación de causa y consecuencia.",
+              "Comete un descuido que habría que corregir.",
+              "Indica que las dos ideas no tienen relación.",
+              "Muestra que no conoce los conectores."
+            ],
+            "correctIndex": 0,
+            "explanation": "La economía de conectores es un rasgo de la prosa madura, no un descuido: el autor trata al lector como alguien capaz de completar el razonamiento (cierre de la fábrica → despoblación). Que no haya conector no significa que no haya relación."
+          }
+        ]
+      },
+      {
+        "heading": "Pistas para reconstruir la relación",
+        "body": [
+          "Para reconstruir esas conexiones implícitas conviene fijarse en los tiempos verbales, en el orden de las ideas y en el conocimiento general que el autor da por compartido. Una oración que narra un hecho posterior a otro suele sugerir una consecuencia; una idea que contradice la expectativa creada por la anterior suele señalar un contraste, aunque no aparezca ningún «pero» ni «sin embargo»."
+        ],
+        "examples": [
+          {
             "es": "una consecuencia no marcada",
             "en": "un efecto que se deduce del orden de las ideas y no de una palabra concreta"
           },
           {
-            "es": "tender un puente lógico",
-            "en": "reconstruir mentalmente la relación entre dos ideas que el texto no explicita"
+            "es": "Estudió toda la noche. Suspendió.",
+            "en": "la segunda idea contradice la expectativa: contraste sin «pero»"
           }
         ],
         "checkpoint": [
@@ -6997,6 +8004,36 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Doblar el sueldo crea la expectativa de que acepte; la segunda oración la contradice, y eso señala un contraste (aunque le ofrecieron el doble, la rechazó). Leerlo como causa no tiene sentido: el dinero no es el motivo del rechazo."
+          }
+        ]
+      },
+      {
+        "heading": "Tender puentes en los textos densos",
+        "body": [
+          "Esta habilidad se vuelve indispensable en textos densos como los ensayos académicos o los artículos de opinión, donde la argumentación avanza a saltos y el lector debe tender puentes lógicos constantemente. Quien solo busca conectores explícitos se pierde buena parte del razonamiento subyacente."
+        ],
+        "examples": [
+          {
+            "es": "tender un puente lógico",
+            "en": "reconstruir mentalmente la relación entre dos ideas que el texto no explicita"
+          },
+          {
+            "es": "El informe lo pagó la propia empresa. Concluye que no hubo negligencia.",
+            "en": "el lector tiende el puente: quien paga puede influir en la conclusión"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un artículo de opinión dice: «El estudio se financió con dinero de la industria azucarera. Concluye que el azúcar no engorda». ¿Qué puente lógico invita a tender?",
+            "options": [
+              "que la financiación puede explicar la conclusión",
+              "que el azúcar es saludable",
+              "que el estudio es completamente independiente",
+              "que no hay relación entre las dos frases"
+            ],
+            "correctIndex": 0,
+            "explanation": "Poner esos dos datos juntos sin conector invita al lector a relacionarlos: quien pagó el estudio tenía interés en esa conclusión. El autor no lo dice, pero lo sugiere; quien solo busca conectores explícitos se pierde la crítica."
           }
         ]
       }
@@ -7033,7 +8070,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lo que el texto no dice: conectores ausentes y saber compartido",
         "body": [
-          "La regla: un texto maduro deja fuera dos cosas, los conectores y lo que cree que ya sabes. Lo segundo se delata con pistas concretas: el artículo definido ante algo no presentado («el escándalo», como si ya lo conocieras), «otra vez», «como siempre», «el famoso…». Ante esas pistas, pregúntate qué tendrías que saber para que la frase tenga sentido y repónlo: es parte del mensaje.",
+          "La regla: un texto maduro deja fuera dos cosas, los conectores y lo que cree que ya sabes. Lo segundo se delata con pistas concretas: el artículo definido ante algo no presentado («el escándalo», como si ya lo conocieras), «otra vez», «como siempre», «el famoso…». Ante esas pistas, pregúntate qué tendrías que saber para que la frase tenga sentido y repónlo: es parte del mensaje."
         ],
         "examples": [
           {
@@ -7051,27 +8088,25 @@ const C2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la reflexión sobre la lectura avanzada.",
             "sentence": "En la prosa madura, el lector debe ___ las relaciones lógicas que el texto no explicita mediante conectores.",
             "answer": "reconstruir",
-            "altAnswers": ["reponer", "deducir", "inferir"],
+            "altAnswers": [
+              "reponer",
+              "deducir",
+              "inferir"
+            ],
             "explanation": "La prosa avanzada confía en que el lector reconstruya por sí mismo las relaciones lógicas implícitas entre las ideas.",
             "hint": "verbo que significa recomponer algo a partir de indicios"
           }
         ]
       },
       {
-        "heading": "La velocidad del habla nativa y las estrategias auditivas",
+        "heading": "Tónicas y átonas",
         "body": [
-          "La regla para el oído: en español solo se pronuncian con fuerza las palabras tónicas, que son las que llevan el contenido (sustantivos, verbos principales, adjetivos, negaciones). Las átonas (artículos, preposiciones, pronombres como me, te, lo, se) se funden con la palabra vecina por sinalefa y casi desaparecen. Por eso la estrategia es anclarse en las tónicas y reponer las átonas después por la gramática; intentar captar cada sonido lleva al bloqueo.",
-          "Una estrategia eficaz consiste en dejar de intentar captar cada sonido por separado y, en cambio, anclarse en las palabras con mayor carga semántica de cada frase: sustantivos, verbos principales, negaciones. El resto del enunciado —artículos, preposiciones, formas átonas— puede reconstruirse después a partir del sentido general, igual que ocurre al leer un texto denso.",
-          "Conviene también entrenar el oído con distintos acentos regionales, ya que la velocidad de habla y los fenómenos de reducción varían notablemente de una región a otra. Quien se acostumbra a un único acento corre el riesgo de bloquearse ante cualquier variedad distinta, aunque domine perfectamente la lengua en su forma escrita."
+          "La regla para el oído: en español solo se pronuncian con fuerza las palabras tónicas, que son las que llevan el contenido (sustantivos, verbos principales, adjetivos, negaciones). Las átonas (artículos, preposiciones, pronombres como me, te, lo, se) se funden con la palabra vecina por sinalefa y casi desaparecen. Por eso la estrategia es anclarse en las tónicas y reponer las átonas después por la gramática; intentar captar cada sonido lleva al bloqueo."
         ],
         "examples": [
           {
             "es": "la sinalefa entre palabras",
             "en": "la fusión fónica del final de una palabra con el inicio de la siguiente"
-          },
-          {
-            "es": "anclarse en las palabras clave",
-            "en": "concentrar la atención en los sustantivos y verbos de mayor peso semántico"
           },
           {
             "es": "una forma átona apenas perceptible",
@@ -7090,6 +8125,66 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Las palabras tónicas con contenido (el verbo principal y las negaciones) son las que se oyen con claridad y las que deciden el sentido. «Me», «lo» y el auxiliar «ha» son átonas: casi desaparecen en el habla rápida y se reponen después por la gramática."
+          }
+        ]
+      },
+      {
+        "heading": "Anclarse en las palabras clave",
+        "body": [
+          "Una estrategia eficaz consiste en dejar de intentar captar cada sonido por separado y, en cambio, anclarse en las palabras con mayor carga semántica de cada frase: sustantivos, verbos principales, negaciones. El resto del enunciado —artículos, preposiciones, formas átonas— puede reconstruirse después a partir del sentido general, igual que ocurre al leer un texto denso."
+        ],
+        "examples": [
+          {
+            "es": "anclarse en las palabras clave",
+            "en": "concentrar la atención en los sustantivos y verbos de mayor peso semántico"
+          },
+          {
+            "es": "…cancelado… vuelo… Lima… niebla…",
+            "en": "lo que capta el oído en un anuncio rápido: las palabras con más carga"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En el aeropuerto oyes un anuncio muy rápido y solo distingues «cancelado», «vuelo», «Lima» y «niebla». ¿Qué ha dicho, probablemente?",
+            "options": [
+              "Se ha cancelado el vuelo a Lima por la niebla.",
+              "El vuelo a Lima saldrá antes a pesar de la niebla.",
+              "Hay niebla en Lima, pero el vuelo sale a su hora.",
+              "Se ha cancelado la niebla del vuelo a Lima."
+            ],
+            "correctIndex": 0,
+            "explanation": "Anclado en las palabras con más carga (cancelado, vuelo, Lima, niebla), repones las átonas (se ha, el, a, por la) a partir del sentido general. Las opciones que dicen que el vuelo sale contradicen «cancelado», y «cancelar la niebla» no tiene sentido."
+          }
+        ]
+      },
+      {
+        "heading": "Entrenar el oído con distintos acentos",
+        "body": [
+          "Conviene también entrenar el oído con distintos acentos regionales, ya que la velocidad de habla y los fenómenos de reducción varían notablemente de una región a otra. Quien se acostumbra a un único acento corre el riesgo de bloquearse ante cualquier variedad distinta, aunque domine perfectamente la lengua en su forma escrita."
+        ],
+        "examples": [
+          {
+            "es": "¿Qué hora eh?",
+            "en": "aspiración de la -s final, típica de Andalucía, Canarias o el Caribe"
+          },
+          {
+            "es": "Vamo' a la playa.",
+            "en": "pérdida de la -s final en el habla rápida de muchas zonas"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Has aprendido español solo con pódcasts de Madrid y no entiendes a un taxista de Sevilla. ¿Qué te recomienda la estrategia?",
+            "options": [
+              "Escuchar a menudo acentos de distintas regiones.",
+              "Pedir a todo el mundo que hable con acento de Madrid.",
+              "Estudiar más gramática escrita.",
+              "Leer los subtítulos de todo lo que escuches."
+            ],
+            "correctIndex": 0,
+            "explanation": "La velocidad y los fenómenos de reducción cambian de una región a otra; quien se acostumbra a un único acento se bloquea ante cualquier otro, aunque domine la lengua escrita. Más gramática o subtítulos no entrenan el oído para esas variedades."
           }
         ]
       }
@@ -7129,9 +8224,39 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Entrenar el oído con distintas variedades",
+        "heading": "Lo que cambia es el sonido",
         "body": [
-          "La regla: las variedades del español apenas se diferencian en la gramática; lo que cambia es el sonido. La -s final se aspira o se pierde (Andalucía, Canarias, el Caribe: «ehto» por «esto»), la ll y la y suenan «sh» en el Río de la Plata, la j es suave en el Caribe y la velocidad y las reducciones varían de una zona a otra. Por qué llega el bloqueo: un oído que solo conoce una variedad espera unos sonidos que no llegan y concluye que no entiende nada. El remedio es doble: escuchar fuentes variadas (cuanto más variadas, menos desconcierta un acento nuevo) y, ante uno desconocido, anclarse en las palabras tónicas y reconocer sus rasgos regulares, que se repiten y se aprenden.",
+          "La regla: las variedades del español apenas se diferencian en la gramática; lo que cambia es el sonido. La -s final se aspira o se pierde (Andalucía, Canarias, el Caribe: «ehto» por «esto»), la ll y la y suenan «sh» en el Río de la Plata, la j es suave en el Caribe y la velocidad y las reducciones varían de una zona a otra."
+        ],
+        "examples": [
+          {
+            "es": "La cashe está shena de gente.",
+            "en": "rioplatense: la ll suena «sh» (la calle está llena de gente)"
+          },
+          {
+            "es": "¿Cómo ehtá uhté?",
+            "en": "aspiración de la -s final, como en Andalucía, Canarias o el Caribe"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Oyes a una chica de Buenos Aires: «Me shamo Sofía y vivo en la cashe Mayo». Si no entiendes «shamo» ni «cashe», ¿qué rasgo regular te falta conocer?",
+            "options": [
+              "que en el Río de la Plata la ll y la y suenan como «sh»",
+              "que en Argentina la -s final se pronuncia doble",
+              "que es jerga juvenil que solo usan los adolescentes",
+              "que la hablante ha cometido un error de pronunciación"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es el rehilamiento rioplatense: ll e y suenan «sh» o «zh», así que «shamo» es «llamo» y «cashe» es «calle». Es un rasgo regular de toda una variedad, no un error ni jerga: una vez conocido, el oído lo repone solo."
+          }
+        ]
+      },
+      {
+        "heading": "Por qué llega el bloqueo y cómo evitarlo",
+        "body": [
+          "Por qué llega el bloqueo: un oído que solo conoce una variedad espera unos sonidos que no llegan y concluye que no entiende nada. El remedio es doble: escuchar fuentes variadas (cuanto más variadas, menos desconcierta un acento nuevo) y, ante uno desconocido, anclarse en las palabras tónicas y reconocer sus rasgos regulares, que se repiten y se aprenden."
         ],
         "examples": [
           {
@@ -7162,14 +8287,52 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): un registro con sus propias reglas",
         "body": [
           "Locutora: Bienvenidos al programa. Hoy tenemos con nosotros a una socióloga que lleva veinte años estudiando el habla juvenil.",
           "Socióloga: Encantada de estar aquí. Y mira, lo primero que hay que decir es que el habla juvenil no es un español «peor», como se suele creer, sino un registro con sus propias reglas.",
-          "Locutora: ¿Y cómo se nota ese registro en la práctica, digamos, en una conversación cotidiana?",
+          "Locutora: ¿Y cómo se nota ese registro en la práctica, digamos, en una conversación cotidiana?"
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un columnista escribe: «Los jóvenes están destrozando el idioma». ¿Qué le respondería la socióloga del programa?",
+            "options": [
+              "Que el habla juvenil no es un español peor, sino un registro con sus propias reglas.",
+              "Que tiene toda la razón y hay que corregirlos.",
+              "Que los jóvenes no tienen ningún registro.",
+              "Que el habla juvenil solo existe en internet."
+            ],
+            "correctIndex": 0,
+            "explanation": "La socióloga lo dice al empezar: el habla juvenil no es «peor», como se suele creer, sino un registro con reglas propias. Aceptar que destrozan el idioma o negar que tengan registro contradice esa idea."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): elipsis y subtexto",
+        "body": [
           "Socióloga: Pues fíjate, se nota sobre todo en la entonación y en la elipsis constante. Se omite muchísimo lo que ya se sobreentiende entre los hablantes.",
           "Locutora: Ya veo por dónde va la cosa... entonces, ¿diría que entender a un adolescente exige casi otra competencia lingüística?",
-          "Socióloga: Exige, desde luego, una escucha activa distinta. No basta con conocer el vocabulario; hay que captar el subtexto, la ironía, el matiz que cambia todo el sentido de una frase.",
+          "Socióloga: Exige, desde luego, una escucha activa distinta. No basta con conocer el vocabulario; hay que captar el subtexto, la ironía, el matiz que cambia todo el sentido de una frase."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un amigo te escribe solo: «¿Y lo de ayer?». Según la socióloga, ¿qué hace falta para entenderlo?",
+            "options": [
+              "captar lo que se sobreentiende entre los dos: la elipsis y el subtexto",
+              "conocer más vocabulario",
+              "consultar un diccionario de jerga",
+              "pedirle que escriba frases completas"
+            ],
+            "correctIndex": 0,
+            "explanation": "El mensaje omite todo lo que los dos ya saben (elipsis), así que no basta con conocer el vocabulario: hace falta una escucha activa que capte lo sobreentendido. Ninguna palabra del mensaje es difícil, por eso el diccionario no ayuda."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (3): el acento regional",
+        "body": [
           "Locutora: Curioso. ¿Y esto varía mucho según la región?",
           "Socióloga: Muchísimo. El acento regional condiciona la velocidad de habla y los fenómenos de reducción, así que lo que a uno le suena clarísimo, a otro puede resultarle casi impenetrable.",
           "Locutora: Un tema fascinante. Muchas gracias por acompañarnos.",
@@ -7178,15 +8341,15 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Oyes a una chica de Buenos Aires: «Me shamo Sofía y vivo en la cashe Mayo». Si no entiendes «shamo» ni «cashe», ¿qué rasgo regular te falta conocer?",
+            "question": "A una madrileña le cuesta entender a un cubano que habla deprisa, y al cubano le cuesta entender a la madrileña. ¿Qué lo explica, según la socióloga?",
             "options": [
-              "que en el Río de la Plata la ll y la y suenan como «sh»",
-              "que en Argentina la -s final se pronuncia doble",
-              "que es jerga juvenil que solo usan los adolescentes",
-              "que la hablante ha cometido un error de pronunciación"
+              "El acento regional condiciona la velocidad de habla y las reducciones de cada uno.",
+              "Uno de los dos habla mal español.",
+              "Cada uno usa una gramática distinta.",
+              "Ninguno conoce las palabras del otro."
             ],
             "correctIndex": 0,
-            "explanation": "Es el rehilamiento rioplatense: ll e y suenan «sh» o «zh», así que «shamo» es «llamo» y «cashe» es «calle». Es un rasgo regular de toda una variedad, no un error ni jerga: una vez conocido, el oído lo repone solo."
+            "explanation": "La socióloga lo resume así: lo que a uno le suena clarísimo, a otro puede resultarle casi impenetrable, porque cada acento tiene su velocidad y sus reducciones. Nadie habla «mal», y la gramática apenas cambia entre variedades."
           }
         ]
       }
@@ -7215,31 +8378,79 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Vocabulario: la comprensión avanzada",
+        "heading": "Denotación y connotación",
         "body": [
-          "La regla para manejar este vocabulario: casi todos los términos forman parejas que se confunden, y conviene aprenderlos por contraste. La denotación es el significado literal y la connotación, el valor afectivo que se añade («delgado» frente a «flaco»). El subtexto y el sobreentendido son lo que no se dice, pero el subtexto es la intención que hay debajo de unas palabras y el sobreentendido, la información que se da por sabida. La cohesión es el enlace gramatical entre las partes (conectores, pronombres) y el eje temático, la idea que las unifica. Por qué importa: si confundes el plano literal con el implícito, o el de la palabra con el del texto, el análisis se derrumba. Y fíjate en el registro: «colegir» es un sinónimo culto de «deducir», propio del texto escrito.",
+          "La regla para manejar este vocabulario: casi todos los términos forman parejas que se confunden, y conviene aprenderlos por contraste. La denotación es el significado literal y la connotación, el valor afectivo que se añade («delgado» frente a «flaco»)."
         ],
         "examples": [
           {
-            "es": "colegir",
-            "en": "llegar a una conclusión a partir de indicios, aunque no se diga de forma explícita"
+            "es": "la denotación",
+            "en": "el significado literal y objetivo de una palabra"
           },
           {
-            "es": "la sutileza",
-            "en": "detalle poco evidente que aporta un significado más preciso o delicado"
+            "es": "la connotación",
+            "en": "el valor subjetivo o asociativo que una palabra añade a su significado literal"
           },
           {
-            "es": "el registro",
-            "en": "el nivel de formalidad adecuado a una situación comunicativa concreta"
-          },
+            "es": "la carga semántica",
+            "en": "el peso de significado que aporta una palabra al enunciado (mayor en sustantivos y verbos que en artículos o preposiciones)"
+          }
+        ],
+        "checkpoint": [
           {
-            "es": "la entonación",
-            "en": "el patrón melódico de la voz al hablar"
-          },
+            "type": "multiple-choice",
+            "question": "«Casa» y «hogar» designan el mismo lugar, pero «hogar» evoca calor y familia. ¿Dónde está la diferencia?",
+            "options": [
+              "en la connotación",
+              "en la denotación",
+              "en la redundancia",
+              "en la cohesión"
+            ],
+            "correctIndex": 0,
+            "explanation": "Las dos palabras comparten denotación (el significado literal: la vivienda); lo que cambia es la connotación, el valor afectivo que «hogar» añade. La redundancia y la cohesión son propiedades del texto, no de una palabra."
+          }
+        ]
+      },
+      {
+        "heading": "Subtexto y sobreentendido",
+        "body": [
+          "El subtexto y el sobreentendido son lo que no se dice, pero el subtexto es la intención que hay debajo de unas palabras y el sobreentendido, la información que se da por sabida."
+        ],
+        "examples": [
           {
             "es": "el subtexto",
             "en": "el significado implícito que subyace bajo las palabras literales"
           },
+          {
+            "es": "el sobreentendido",
+            "en": "la idea que se da por supuesta sin expresarla de forma directa"
+          },
+          {
+            "es": "la sutileza",
+            "en": "detalle poco evidente que aporta un significado más preciso o delicado"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un jefe dice en una reunión: «Habrá que hacer algunos ajustes», y todos entienden que vienen despidos. Esa idea de los despidos es…",
+            "options": [
+              "un sobreentendido",
+              "una redundancia",
+              "la denotación de «ajustes»",
+              "un conector"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un sobreentendido es lo que se da por supuesto sin decirlo: nadie pronuncia «despidos», pero todos lo entienden. No es la denotación de «ajustes» (su sentido literal es más amplio) ni una repetición."
+          }
+        ]
+      },
+      {
+        "heading": "Cohesión y eje temático; el registro",
+        "body": [
+          "La cohesión es el enlace gramatical entre las partes (conectores, pronombres) y el eje temático, la idea que las unifica. Por qué importa: si confundes el plano literal con el implícito, o el de la palabra con el del texto, el análisis se derrumba. Y fíjate en el registro: «colegir» es un sinónimo culto de «deducir», propio del texto escrito."
+        ],
+        "examples": [
           {
             "es": "la cohesión textual",
             "en": "conjunto de recursos lingüísticos que conectan las partes de un texto entre sí"
@@ -7253,12 +8464,24 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "la palabra o frase que enlaza ideas dentro de un discurso"
           },
           {
-            "es": "la vaguedad expresiva",
-            "en": "falta de precisión en el uso de las palabras que dificulta la interpretación"
+            "es": "el eje temático",
+            "en": "idea central que organiza y unifica un texto"
           },
           {
-            "es": "el sobreentendido",
-            "en": "la idea que se da por supuesta sin expresarla de forma directa"
+            "es": "colegir",
+            "en": "llegar a una conclusión a partir de indicios, aunque no se diga de forma explícita"
+          },
+          {
+            "es": "el registro",
+            "en": "el nivel de formalidad adecuado a una situación comunicativa concreta"
+          },
+          {
+            "es": "la entonación",
+            "en": "el patrón melódico de la voz al hablar"
+          },
+          {
+            "es": "la vaguedad expresiva",
+            "en": "falta de precisión en el uso de las palabras que dificulta la interpretación"
           },
           {
             "es": "captar",
@@ -7277,50 +8500,34 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "conjunto de razonamientos que se entrelazan para sostener una idea"
           },
           {
-            "es": "el eje temático",
-            "en": "idea central que organiza y unifica un texto"
-          },
-          {
             "es": "descifrar",
             "en": "interpretar algo complejo u oscuro hasta llegar a comprenderlo"
-          },
-          {
-            "es": "la carga semántica",
-            "en": "el peso de significado que aporta una palabra al enunciado (mayor en sustantivos y verbos que en artículos o preposiciones)"
-          },
-          {
-            "es": "la denotación",
-            "en": "el significado literal y objetivo de una palabra"
-          },
-          {
-            "es": "la connotación",
-            "en": "el valor subjetivo o asociativo que una palabra añade a su significado literal"
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "«Casa» y «hogar» designan el mismo lugar, pero «hogar» evoca calor y familia. ¿Dónde está la diferencia?",
+            "question": "En un ensayo, los pronombres y los conectores que enlazan unas frases con otras forman parte de…",
             "options": [
-              "en la connotación",
-              "en la denotación",
-              "en la redundancia",
-              "en la cohesión"
+              "la cohesión",
+              "el eje temático",
+              "la connotación",
+              "el subtexto"
             ],
             "correctIndex": 0,
-            "explanation": "Las dos palabras comparten denotación (el significado literal: la vivienda); lo que cambia es la connotación, el valor afectivo que «hogar» añade. La redundancia y la cohesión son propiedades del texto, no de una palabra."
+            "explanation": "El enlace gramatical entre las partes (conectores, pronombres) es la cohesión. El eje temático es la idea que unifica el texto, no los elementos que lo enlazan; la connotación y el subtexto pertenecen al plano de lo implícito."
           },
           {
             "type": "multiple-choice",
-            "question": "Un jefe dice en una reunión: «Habrá que hacer algunos ajustes», y todos entienden que vienen despidos. Esa idea de los despidos es…",
+            "question": "En un texto escrito: «De sus declaraciones se puede ___ que no piensa dimitir».",
             "options": [
-              "un sobreentendido",
-              "una redundancia",
-              "la denotación de «ajustes»",
-              "un conector"
+              "colegir",
+              "coleccionar",
+              "colocar",
+              "colegiar"
             ],
             "correctIndex": 0,
-            "explanation": "Un sobreentendido es lo que se da por supuesto sin decirlo: nadie pronuncia «despidos», pero todos lo entienden. No es la denotación de «ajustes» (su sentido literal es más amplio) ni una repetición."
+            "explanation": "«Colegir» es el sinónimo culto de «deducir», propio del texto escrito. «Coleccionar», «colocar» y «colegiar(se)» se parecen en la forma, pero significan otra cosa."
           }
         ]
       }
@@ -7402,31 +8609,11 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: más términos de la comprensión",
+        "heading": "¿Qué hace el oyente? Pista e inferencia",
         "body": [
-          "La regla para no confundir estos términos: clasifícalos según la pregunta que responden. ¿Qué hace el oyente? Procesos: la pista contextual es lo que está en el texto y la inferencia, la conclusión que sacas de ella (la pista es la causa; la inferencia, el resultado). ¿Qué no se dice? El supuesto implícito es una idea que el texto da por cierta para que su argumento funcione; el sobreentendido (o sobrentendido, las dos formas son correctas) es información que se da por sabida; el trasfondo implícito, la carga que se percibe detrás. ¿Cómo suena? El énfasis prosódico, la velocidad de habla y el acento regional son rasgos de la voz, no del significado. Y una locución (tomar el pelo) no es un tecnicismo: la primera es una expresión fija de la lengua común; el segundo, un término de una especialidad.",
+          "La regla para no confundir estos términos: clasifícalos según la pregunta que responden. ¿Qué hace el oyente? Procesos: la pista contextual es lo que está en el texto y la inferencia, la conclusión que sacas de ella (la pista es la causa; la inferencia, el resultado)."
         ],
         "examples": [
-          {
-            "es": "el registro discursivo",
-            "en": "nivel de formalidad que emplea un texto o un hablante"
-          },
-          {
-            "es": "el tecnicismo",
-            "en": "un término propio de un campo especializado del saber"
-          },
-          {
-            "es": "la reformulación",
-            "en": "acción de expresar una misma idea con otras palabras para facilitar su comprensión"
-          },
-          {
-            "es": "el resumen argumentativo",
-            "en": "condensación de las ideas principales de un razonamiento"
-          },
-          {
-            "es": "el supuesto implícito",
-            "en": "idea que se da por cierta sin expresarla directamente en un texto"
-          },
           {
             "es": "la pista contextual",
             "en": "elemento del entorno de un texto que ayuda a deducir un significado"
@@ -7436,44 +8623,46 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "la conclusión que se extrae a partir de datos o pistas"
           },
           {
-            "es": "el énfasis prosódico",
-            "en": "el realce que la voz da a ciertas palabras al hablar"
+            "es": "la inferencia contextual",
+            "en": "proceso de deducir un significado a partir del contexto"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Lees: «Entró empapado y dejó un paraguas chorreando en la entrada». Concluyes que está lloviendo. ¿Qué es cada cosa?",
+            "options": [
+              "El paraguas chorreando es la pista contextual; «está lloviendo», la inferencia.",
+              "«Está lloviendo» es la pista contextual; el paraguas, la inferencia.",
+              "Las dos son supuestos implícitos.",
+              "Las dos son sobreentendidos."
+            ],
+            "correctIndex": 0,
+            "explanation": "La pista es lo que está en el texto (el paraguas chorreando) y la inferencia, la conclusión que sacas de ella (llueve): la pista es la causa y la inferencia, el resultado. Invertirlas es el error típico; el supuesto y el sobreentendido pertenecen a lo que no se dice."
+          }
+        ]
+      },
+      {
+        "heading": "¿Qué no se dice? Supuesto, sobreentendido y trasfondo",
+        "body": [
+          "¿Qué no se dice? El supuesto implícito es una idea que el texto da por cierta para que su argumento funcione; el sobreentendido (o sobrentendido, las dos formas son correctas) es información que se da por sabida; el trasfondo implícito, la carga que se percibe detrás."
+        ],
+        "examples": [
+          {
+            "es": "el supuesto implícito",
+            "en": "idea que se da por cierta sin expresarla directamente en un texto"
           },
           {
             "es": "el sobreentendido",
             "en": "información que el hablante da por conocida y no expresa explícitamente"
           },
           {
-            "es": "la intención comunicativa",
-            "en": "el propósito real que persigue quien habla o escribe"
-          },
-          {
-            "es": "el doble nivel de lectura",
-            "en": "posibilidad de interpretar un texto de más de una manera según el contexto"
-          },
-          {
-            "es": "la inferencia contextual",
-            "en": "proceso de deducir un significado a partir del contexto"
-          },
-          {
-            "es": "la locución",
-            "en": "una expresión fija cuyo significado no se deduce de sus palabras sueltas"
-          },
-          {
             "es": "el trasfondo implícito",
             "en": "significado no dicho abiertamente que se percibe detrás de un mensaje"
           },
           {
-            "es": "la velocidad de habla",
-            "en": "el ritmo al que se pronuncian las palabras en un discurso"
-          },
-          {
-            "es": "el acento regional",
-            "en": "la pronunciación característica de una zona geográfica concreta"
-          },
-          {
-            "es": "la escucha activa",
-            "en": "la atención plena y consciente a lo que dice el interlocutor"
+            "es": "el doble nivel de lectura",
+            "en": "posibilidad de interpretar un texto de más de una manera según el contexto"
           }
         ],
         "checkpoint": [
@@ -7500,6 +8689,68 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La frase admite dos lecturas, la literal (elogio) y la intencionada (reproche): es un doble nivel de lectura, y lo que decide cuál vale es el contexto y la entonación. Un tecnicismo es un término especializado, y el resumen o el acento no tienen que ver con el sentido doble."
+          }
+        ]
+      },
+      {
+        "heading": "¿Cómo suena? Y locución frente a tecnicismo",
+        "body": [
+          "¿Cómo suena? El énfasis prosódico, la velocidad de habla y el acento regional son rasgos de la voz, no del significado. Y una locución (tomar el pelo) no es un tecnicismo: la primera es una expresión fija de la lengua común; el segundo, un término de una especialidad."
+        ],
+        "examples": [
+          {
+            "es": "el énfasis prosódico",
+            "en": "el realce que la voz da a ciertas palabras al hablar"
+          },
+          {
+            "es": "la velocidad de habla",
+            "en": "el ritmo al que se pronuncian las palabras en un discurso"
+          },
+          {
+            "es": "el acento regional",
+            "en": "la pronunciación característica de una zona geográfica concreta"
+          },
+          {
+            "es": "la locución",
+            "en": "una expresión fija cuyo significado no se deduce de sus palabras sueltas"
+          },
+          {
+            "es": "el tecnicismo",
+            "en": "un término propio de un campo especializado del saber"
+          },
+          {
+            "es": "el registro discursivo",
+            "en": "nivel de formalidad que emplea un texto o un hablante"
+          },
+          {
+            "es": "la reformulación",
+            "en": "acción de expresar una misma idea con otras palabras para facilitar su comprensión"
+          },
+          {
+            "es": "el resumen argumentativo",
+            "en": "condensación de las ideas principales de un razonamiento"
+          },
+          {
+            "es": "la intención comunicativa",
+            "en": "el propósito real que persigue quien habla o escribe"
+          },
+          {
+            "es": "la escucha activa",
+            "en": "la atención plena y consciente a lo que dice el interlocutor"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál de estas expresiones es una locución y no un tecnicismo?",
+            "options": [
+              "meter la pata",
+              "la prima de riesgo",
+              "el infarto de miocardio",
+              "la hipoteca variable"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Meter la pata» es una expresión fija de la lengua común (= equivocarse): una locución, como «tomar el pelo». Las otras tres son términos de una especialidad (economía, medicina, banca): tecnicismos."
           }
         ]
       }
@@ -7577,12 +8828,39 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Conceder antes de refutar: la estrategia de la concesión",
+        "heading": "Conceder no es debilidad",
         "body": [
-          "Una de las técnicas más sofisticadas de la argumentación consiste en admitir, de entrada, la parte de razón que asiste al adversario antes de desmontar el resto de su postura. Esta concesión inicial no es debilidad, sino una jugada retórica calculada: transmite honestidad intelectual, desarma la actitud defensiva del interlocutor y, sobre todo, otorga mayor autoridad al contraargumento que viene a continuación, porque quien concede algo parece haber sopesado la cuestión con objetividad.",
-          "La estructura típica sigue un patrón reconocible: se reconoce el punto válido del contrario mediante fórmulas como «es cierto que» o «no cabe negar que», se introduce a continuación un giro con «sin embargo» o «ahora bien», y se despliega el contraargumento de fondo. El error habitual de quien empieza a debatir consiste en negarlo todo de raíz, lo que suele generar rechazo inmediato en el interlocutor y en el público que observa el intercambio.",
-          "Conviene, además, elegir con cuidado qué se concede: un buen debatiente jamás cede en el núcleo de su tesis, sino en un aspecto secundario que no compromete la solidez del argumento principal. Ceder en lo periférico para reforzar lo esencial es, precisamente, lo que distingue una concesión estratégica de una simple claudicación.",
-          "La gramática de la concesión sigue la misma lógica: lo que se concede se presenta como un hecho, así que «es cierto que», «no cabe duda de que» y «si bien» van con indicativo (es cierto que el plan cuesta dinero). En cambio, «aunque» con subjuntivo concede solo a efectos de discusión, sin admitir el hecho (aunque el plan costara dinero, merecería la pena), y suena más distante. Por qué importa: el modo que eliges le dice al público cuánto le estás concediendo de verdad al rival."
+          "Una de las técnicas más sofisticadas de la argumentación consiste en admitir, de entrada, la parte de razón que asiste al adversario antes de desmontar el resto de su postura. Esta concesión inicial no es debilidad, sino una jugada retórica calculada: transmite honestidad intelectual, desarma la actitud defensiva del interlocutor y, sobre todo, otorga mayor autoridad al contraargumento que viene a continuación, porque quien concede algo parece haber sopesado la cuestión con objetividad."
+        ],
+        "examples": [
+          {
+            "es": "Reconozco que mi adversario tiene parte de razón…",
+            "en": "concesión inicial: admite la parte de razón que asiste al rival"
+          },
+          {
+            "es": "Concedo ese punto, pero…",
+            "en": "concesión que prepara el contraargumento"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En un debate, una candidata empieza: «Reconozco que mi rival ha hecho un buen trabajo con el transporte público…». ¿Qué busca con esa concesión?",
+            "options": [
+              "transmitir honestidad intelectual y dar más autoridad a su contraargumento",
+              "admitir que su rival tiene razón en todo",
+              "mostrar debilidad para ganarse la compasión del público",
+              "evitar hablar de su propio programa"
+            ],
+            "correctIndex": 0,
+            "explanation": "La concesión inicial es una jugada calculada: transmite honestidad, desarma la actitud defensiva y hace que el contraargumento que viene después suene más objetivo. No es rendirse ni una muestra de debilidad."
+          }
+        ]
+      },
+      {
+        "heading": "La estructura: reconocer, girar, refutar",
+        "body": [
+          "La estructura típica sigue un patrón reconocible: se reconoce el punto válido del contrario mediante fórmulas como «es cierto que» o «no cabe negar que», se introduce a continuación un giro con «sin embargo» o «ahora bien», y se despliega el contraargumento de fondo. El error habitual de quien empieza a debatir consiste en negarlo todo de raíz, lo que suele generar rechazo inmediato en el interlocutor y en el público que observa el intercambio."
         ],
         "examples": [
           {
@@ -7592,10 +8870,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "no cabe negar que",
             "en": "expresión que reconoce la validez parcial de la postura contraria"
-          },
-          {
-            "es": "ceder en lo periférico",
-            "en": "conceder un punto secundario sin comprometer el núcleo del propio argumento"
           }
         ],
         "checkpoint": [
@@ -7610,7 +8884,55 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La primera concede un aspecto periférico (la reorganización), gira con «ahora bien» y despliega el contraargumento. La segunda cede el núcleo de la tesis (claudicación), la tercera lo niega todo de raíz y la cuarta concede sin refutar nada."
+          }
+        ]
+      },
+      {
+        "heading": "Qué conceder: lo periférico, nunca el núcleo",
+        "body": [
+          "Conviene, además, elegir con cuidado qué se concede: un buen debatiente jamás cede en el núcleo de su tesis, sino en un aspecto secundario que no compromete la solidez del argumento principal. Ceder en lo periférico para reforzar lo esencial es, precisamente, lo que distingue una concesión estratégica de una simple claudicación."
+        ],
+        "examples": [
+          {
+            "es": "ceder en lo periférico",
+            "en": "conceder un punto secundario sin comprometer el núcleo del propio argumento"
           },
+          {
+            "es": "Admito que el calendario es ajustado; lo esencial, sin embargo, se mantiene.",
+            "en": "concesión en un aspecto secundario que no toca la tesis"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Defiendes que hay que cerrar el centro de la ciudad a los coches. ¿Qué concesión es estratégica y no una claudicación?",
+            "options": [
+              "Es cierto que algunos comercios notarán el cambio los primeros meses.",
+              "Es cierto que cerrar el centro no reduce la contaminación.",
+              "Es cierto que el centro funciona mejor con más coches.",
+              "Es cierto que mi propuesta no tiene ninguna ventaja."
+            ],
+            "correctIndex": 0,
+            "explanation": "Un buen debatiente cede en lo periférico (unas molestias pasajeras para algunos comercios) sin tocar el núcleo de su tesis. Las otras tres conceden justo lo esencial: que la medida no sirve o que no tiene ventajas. Eso ya no es estrategia, sino claudicación."
+          }
+        ]
+      },
+      {
+        "heading": "La gramática de la concesión: indicativo o subjuntivo",
+        "body": [
+          "La gramática de la concesión sigue la misma lógica: lo que se concede se presenta como un hecho, así que «es cierto que», «no cabe duda de que» y «si bien» van con indicativo (es cierto que el plan cuesta dinero). En cambio, «aunque» con subjuntivo concede solo a efectos de discusión, sin admitir el hecho (aunque el plan costara dinero, merecería la pena), y suena más distante. Por qué importa: el modo que eliges le dice al público cuánto le estás concediendo de verdad al rival."
+        ],
+        "examples": [
+          {
+            "es": "Es cierto que el plan cuesta dinero.",
+            "en": "indicativo: se admite el hecho"
+          },
+          {
+            "es": "Aunque el plan costara dinero, merecería la pena.",
+            "en": "subjuntivo: se concede solo a efectos de discusión"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "«Si bien la medida ___ costes a corto plazo, a la larga ahorrará dinero.» ¿Qué forma corresponde a una concesión de un hecho?",
@@ -7622,6 +8944,18 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«Si bien» concede algo como un hecho admitido, y por eso va con indicativo: tiene. El subjuntivo (tenga, tuviera) es propio de «aunque» cuando se concede solo como hipótesis; el condicional no encaja tras «si bien»."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Quieres conceder solo a efectos de discusión, sin admitir el hecho: «___ la reforma fuera impopular, habría que aprobarla.»",
+            "options": [
+              "Aunque",
+              "Es cierto que",
+              "Si bien",
+              "No cabe duda de que"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Aunque» con subjuntivo concede solo a efectos de discusión, sin admitir que la reforma sea impopular. «Es cierto que», «si bien» y «no cabe duda de que» presentan lo concedido como un hecho y van con indicativo, así que no encajan con «fuera»."
           }
         ]
       }
@@ -7720,12 +9054,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Reconocer y evitar las falacias más frecuentes",
+        "heading": "Qué es una falacia: ad hominem y hombre de paja",
         "body": [
-          "Un debatiente avanzado no solo argumenta con solidez, sino que también reconoce con rapidez cuándo el adversario recurre a una falacia, es decir, a un razonamiento que parece convincente pero que falla en su estructura lógica. La falacia ad hominem, por ejemplo, desvía la discusión hacia la persona en lugar de hacia sus ideas, mientras que la falacia del hombre de paja deforma la postura contraria hasta volverla fácil de derribar, aunque ya no corresponda a lo que realmente se defendió.",
-          "Otras falacias resultan más sutiles. La falacia de autoridad invoca el prestigio de alguien como si bastara para zanjar una cuestión, sin aportar evidencia empírica adicional. La falacia de la pendiente resbaladiza encadena consecuencias cada vez más extremas a partir de un hecho inicial modesto, sin justificar por qué una llevaría inevitablemente a la siguiente. El argumento circular, por su parte, presenta como prueba lo mismo que se pretende demostrar, de modo que gira sobre sí mismo sin avanzar.",
-          "Señalar una falacia con precisión, nombrándola y explicando por qué falla, resulta mucho más eficaz que limitarse a decir que el argumento contrario «no tiene sentido». Nombrar el mecanismo defectuoso convierte la objeción en un golpe certero y difícil de rebatir.",
-          "La regla para identificarlas: hazle al argumento una sola pregunta y la respuesta te da el nombre. ¿Ataca a quien habla en lugar de a lo que dice? Ad hominem. ¿Responde a algo que el otro no dijo? Hombre de paja. ¿La única prueba es quién lo afirma? Falacia de autoridad. ¿Encadena consecuencias sin justificar cada paso? Pendiente resbaladiza. ¿La conclusión ya estaba en la premisa? Argumento circular. ¿Reduce las opciones a dos cuando hay más? Falso dilema."
+          "Un debatiente avanzado no solo argumenta con solidez, sino que también reconoce con rapidez cuándo el adversario recurre a una falacia, es decir, a un razonamiento que parece convincente pero que falla en su estructura lógica. La falacia ad hominem, por ejemplo, desvía la discusión hacia la persona en lugar de hacia sus ideas, mientras que la falacia del hombre de paja deforma la postura contraria hasta volverla fácil de derribar, aunque ya no corresponda a lo que realmente se defendió."
         ],
         "examples": [
           {
@@ -7735,10 +9066,36 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "deformar la postura del contrario",
             "en": "construir una falacia del hombre de paja para facilitar su refutación"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«No hagan caso a la propuesta de vivienda de la concejala: ella vive en un chalé de lujo.» ¿Qué falacia es?",
+            "options": [
+              "ad hominem",
+              "hombre de paja",
+              "argumento circular",
+              "pendiente resbaladiza"
+            ],
+            "correctIndex": 0,
+            "explanation": "El argumento no discute la propuesta, sino a la persona que la hace (dónde vive): desvía el debate hacia la persona, es un ad hominem. Sería hombre de paja si deformara lo que la concejala propone."
+          }
+        ]
+      },
+      {
+        "heading": "Falacias más sutiles: autoridad, pendiente y círculo",
+        "body": [
+          "Otras falacias resultan más sutiles. La falacia de autoridad invoca el prestigio de alguien como si bastara para zanjar una cuestión, sin aportar evidencia empírica adicional. La falacia de la pendiente resbaladiza encadena consecuencias cada vez más extremas a partir de un hecho inicial modesto, sin justificar por qué una llevaría inevitablemente a la siguiente. El argumento circular, por su parte, presenta como prueba lo mismo que se pretende demostrar, de modo que gira sobre sí mismo sin avanzar."
+        ],
+        "examples": [
           {
             "es": "invocar un prestigio sin pruebas",
             "en": "apoyarse en una falacia de autoridad en lugar de aportar evidencia empírica"
+          },
+          {
+            "es": "Hay que creerlo porque es verdad.",
+            "en": "argumento circular: la prueba es lo mismo que se pretende demostrar"
           }
         ],
         "checkpoint": [
@@ -7753,7 +9110,55 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Encadena consecuencias cada vez más graves (un bar → diez → nadie duerme → barrio vacío) sin justificar ningún paso: es la pendiente resbaladiza. No ataca a nadie, no invoca ningún prestigio y la conclusión no está en la premisa."
+          }
+        ]
+      },
+      {
+        "heading": "Nombrar la falacia",
+        "body": [
+          "Señalar una falacia con precisión, nombrándola y explicando por qué falla, resulta mucho más eficaz que limitarse a decir que el argumento contrario «no tiene sentido». Nombrar el mecanismo defectuoso convierte la objeción en un golpe certero y difícil de rebatir."
+        ],
+        "examples": [
+          {
+            "es": "Eso es un ataque ad hominem: hablemos de la propuesta, no de mí.",
+            "en": "se nombra la falacia y se explica por qué falla"
           },
+          {
+            "es": "Lo que usted rebate no es lo que yo he dicho: es un hombre de paja.",
+            "en": "nombrar el mecanismo convierte la objeción en un golpe certero"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Tu rival dice: «Si subimos el IVA de las entradas, cerrarán todos los teatros y nos quedaremos sin cultura». ¿Qué réplica es más eficaz?",
+            "options": [
+              "Eso es una pendiente resbaladiza: nada justifica que una subida lleve a cerrar todos los teatros.",
+              "Eso no tiene ningún sentido.",
+              "Usted siempre exagera.",
+              "No estoy de acuerdo, y punto."
+            ],
+            "correctIndex": 0,
+            "explanation": "Nombrar la falacia y explicar por qué falla convierte la objeción en un golpe certero. Decir que «no tiene sentido» o «no estoy de acuerdo» no explica nada, y «usted siempre exagera» ataca a la persona: sería otra falacia."
+          }
+        ]
+      },
+      {
+        "heading": "Una pregunta para cada falacia",
+        "body": [
+          "La regla para identificarlas: hazle al argumento una sola pregunta y la respuesta te da el nombre. ¿Ataca a quien habla en lugar de a lo que dice? Ad hominem. ¿Responde a algo que el otro no dijo? Hombre de paja. ¿La única prueba es quién lo afirma? Falacia de autoridad. ¿Encadena consecuencias sin justificar cada paso? Pendiente resbaladiza. ¿La conclusión ya estaba en la premisa? Argumento circular. ¿Reduce las opciones a dos cuando hay más? Falso dilema."
+        ],
+        "examples": [
+          {
+            "es": "Es verdad porque lo dice el ministerio. → ¿La única prueba es quién lo afirma?",
+            "en": "falacia de autoridad"
+          },
+          {
+            "es": "O suben los impuestos o cerramos hospitales. → ¿Hay solo dos opciones?",
+            "en": "falso dilema"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "«O apruebas la reforma o estás a favor del caos.» ¿Qué pregunta delata la falacia?",
@@ -7789,9 +9194,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Dos falacias frecuentes: la pendiente resbaladiza y la petición de principio",
+        "heading": "Dos falacias: la pendiente y el círculo",
         "body": [
-          "La regla: encadenar consecuencias extremas sin justificar cada paso es la pendiente resbaladiza; dar por probado lo que se pretende demostrar es la petición de principio, un argumento circular. Para desmontar la primera no niegues el primer paso: pregunta por el vínculo («¿Por qué una cosa llevaría necesariamente a la otra?»). Y recuerda que no toda cadena es falaz: solo lo es cuando los pasos no se justifican. Para desmontar la segunda, muestra que la premisa es la conclusión con otras palabras («Eso es justo lo que hay que demostrar»). La gramática de la réplica: «nada demuestra que» y «no hay prueba de que» van con subjuntivo, porque niegan el vínculo.",
+          "La regla: encadenar consecuencias extremas sin justificar cada paso es la pendiente resbaladiza; dar por probado lo que se pretende demostrar es la petición de principio, un argumento circular."
         ],
         "examples": [
           {
@@ -7831,7 +9236,25 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La premisa («ninguna otra es tan buena») dice lo mismo que la conclusión («es la mejor») con otras palabras: se da por probado lo que había que demostrar. No hay cadena de consecuencias ni ataque personal."
+          }
+        ]
+      },
+      {
+        "heading": "Desmontar la pendiente: pregunta por el vínculo",
+        "body": [
+          "Para desmontar la primera no niegues el primer paso: pregunta por el vínculo («¿Por qué una cosa llevaría necesariamente a la otra?»). Y recuerda que no toda cadena es falaz: solo lo es cuando los pasos no se justifican."
+        ],
+        "examples": [
+          {
+            "es": "¿Por qué una cosa llevaría necesariamente a la otra?",
+            "en": "pregunta por el vínculo en lugar de negar el primer paso"
           },
+          {
+            "es": "Si llueve mucho, sube el embalse y se abren las compuertas, como fija el protocolo.",
+            "en": "cadena con cada paso justificado: no es falaz"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "¿Cuál de estas cadenas NO es una pendiente resbaladiza?",
@@ -7843,6 +9266,36 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Una cadena de consecuencias solo es falaz si sus pasos no se justifican. La primera apoya cada eslabón en datos; las otras saltan de una medida modesta a un desastre sin probar ningún paso."
+          }
+        ]
+      },
+      {
+        "heading": "Desmontar el círculo y la gramática de la réplica",
+        "body": [
+          "Para desmontar la segunda, muestra que la premisa es la conclusión con otras palabras («Eso es justo lo que hay que demostrar»). La gramática de la réplica: «nada demuestra que» y «no hay prueba de que» van con subjuntivo, porque niegan el vínculo."
+        ],
+        "examples": [
+          {
+            "es": "Eso es justo lo que hay que demostrar.",
+            "en": "réplica a la petición de principio"
+          },
+          {
+            "es": "No hay prueba de que el cambio sea perjudicial.",
+            "en": "«no hay prueba de que» + subjuntivo: se niega el vínculo"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Completa la réplica: «Nada demuestra que la nueva ley ___ el paro.»",
+            "options": [
+              "aumente",
+              "aumenta",
+              "aumentará",
+              "aumentó"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Nada demuestra que» niega el vínculo, así que pide subjuntivo: «aumente». El indicativo (aumenta, aumentará, aumentó) presentaría ese vínculo como un hecho, justo lo que la réplica está negando."
           }
         ]
       }
@@ -7877,12 +9330,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Discrepar con respeto: fórmulas para el desacuerdo",
+        "heading": "Fórmulas para discrepar sin hostilidad",
         "body": [
-          "Discrepar de manera respetuosa es una de las competencias más exigentes del debate avanzado, porque exige transmitir firmeza sin caer en la hostilidad. El español dispone de un repertorio amplio de fórmulas para ello: «entiendo tu postura, pero...», «discrepo respetuosamente en...», «no comparto del todo esa lectura porque...». Estas expresiones matizan el desacuerdo sin diluirlo, y evitan que el intercambio se perciba como un ataque personal.",
-          "El tono importa tanto como las palabras elegidas. Un matiz condescendiente —por ejemplo, sugerir que el otro «no ha entendido bien» la cuestión— suele cerrar cualquier posibilidad de diálogo constructivo, mientras que un matiz conciliador, que reconoce la complejidad del tema antes de defender la propia postura, mantiene abierta la conversación incluso en medio de un desacuerdo profundo.",
-          "El objetivo último no siempre es «ganar» el debate, sino avanzar hacia algún tipo de consenso o, cuando este resulta imposible, dejar constancia de que ambas posturas se han comprendido mutuamente. Un desacuerdo bien gestionado deja al interlocutor con la sensación de haber sido escuchado, aunque las conclusiones sigan siendo distintas.",
-          "La regla práctica: un desacuerdo respetuoso tiene tres piezas. Reconoce (entiendo tu postura, agradezco su franqueza), delimita el punto exacto (discrepo en el método, coincido contigo en el objetivo) y argumenta. Las preposiciones son el error más frecuente: se discrepa de o con alguien o algo, se discrepa en un punto, se coincide en algo (aquello en lo que coincidimos). Y critica la idea, nunca la capacidad del otro: en lugar de «no has entendido», di «quizá no me he explicado bien»."
+          "Discrepar de manera respetuosa es una de las competencias más exigentes del debate avanzado, porque exige transmitir firmeza sin caer en la hostilidad. El español dispone de un repertorio amplio de fórmulas para ello: «entiendo tu postura, pero...», «discrepo respetuosamente en...», «no comparto del todo esa lectura porque...». Estas expresiones matizan el desacuerdo sin diluirlo, y evitan que el intercambio se perciba como un ataque personal."
         ],
         "examples": [
           {
@@ -7892,21 +9342,21 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "no comparto del todo esa lectura",
             "en": "expresión que matiza un desacuerdo parcial con una interpretación ajena"
-          },
-          {
-            "es": "adoptar un matiz conciliador",
-            "en": "mantener un tono que busca acercar posturas pese al desacuerdo"
-          },
-          {
-            "es": "cerrar la puerta al diálogo",
-            "en": "adoptar un tono condescendiente que impide cualquier acercamiento posterior"
-          },
-          {
-            "es": "dejar constancia del desacuerdo",
-            "en": "reconocer explícitamente que las posturas siguen siendo distintas tras el debate"
           }
         ],
         "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase expresa un desacuerdo firme sin hostilidad?",
+            "options": [
+              "No comparto del todo ese planteamiento, porque olvida los costes.",
+              "Eso que dices es absurdo.",
+              "Tienes toda la razón, no hay nada que añadir.",
+              "Mejor no hablemos de eso."
+            ],
+            "correctIndex": 0,
+            "explanation": "«No comparto del todo...» matiza el desacuerdo sin diluirlo y da una razón. «Es absurdo» convierte el desacuerdo en ataque, la tercera no discrepa y la cuarta evita el debate en lugar de discrepar."
+          },
           {
             "type": "fill-blank",
             "prompt": "Completa la fórmula de desacuerdo respetuoso.",
@@ -7918,7 +9368,71 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "explanation": "La fórmula «entiendo tu argumento, pero...» reconoce la postura ajena antes de introducir el propio contraargumento, sin resultar hostil.",
             "hint": "verbo en primera persona que expresa comprensión"
+          }
+        ]
+      },
+      {
+        "heading": "El tono: conciliador, no condescendiente",
+        "body": [
+          "El tono importa tanto como las palabras elegidas. Un matiz condescendiente —por ejemplo, sugerir que el otro «no ha entendido bien» la cuestión— suele cerrar cualquier posibilidad de diálogo constructivo, mientras que un matiz conciliador, que reconoce la complejidad del tema antes de defender la propia postura, mantiene abierta la conversación incluso en medio de un desacuerdo profundo."
+        ],
+        "examples": [
+          {
+            "es": "adoptar un matiz conciliador",
+            "en": "mantener un tono que busca acercar posturas pese al desacuerdo"
           },
+          {
+            "es": "cerrar la puerta al diálogo",
+            "en": "adoptar un tono condescendiente que impide cualquier acercamiento posterior"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué réplica tiene un matiz conciliador y deja abierta la conversación?",
+            "options": [
+              "Es un tema complejo y entiendo tus razones; aun así, veo otro riesgo.",
+              "Creo que no has entendido bien la cuestión.",
+              "Eso lo sabe cualquiera que haya leído un poco.",
+              "No sé por qué te cuesta tanto verlo."
+            ],
+            "correctIndex": 0,
+            "explanation": "Reconocer la complejidad del tema antes de defender la propia postura es el matiz conciliador. Las otras tres son condescendientes: sugieren que el otro no entiende o no sabe, y eso cierra la puerta al diálogo."
+          }
+        ]
+      },
+      {
+        "heading": "El objetivo: entenderse, no solo ganar",
+        "body": [
+          "El objetivo último no siempre es «ganar» el debate, sino avanzar hacia algún tipo de consenso o, cuando este resulta imposible, dejar constancia de que ambas posturas se han comprendido mutuamente. Un desacuerdo bien gestionado deja al interlocutor con la sensación de haber sido escuchado, aunque las conclusiones sigan siendo distintas."
+        ],
+        "examples": [
+          {
+            "es": "dejar constancia del desacuerdo",
+            "en": "reconocer explícitamente que las posturas siguen siendo distintas tras el debate"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según la lección, ¿cuándo está bien gestionado un desacuerdo que no termina en consenso?",
+            "options": [
+              "Cuando ambos se han sentido escuchados, aunque sigan pensando distinto.",
+              "Cuando uno de los dos reconoce que ha perdido.",
+              "Cuando nadie vuelve a mencionar el tema.",
+              "Cuando el moderador declara un ganador."
+            ],
+            "correctIndex": 0,
+            "explanation": "El objetivo no siempre es ganar: si el consenso es imposible, basta con dejar constancia de que las posturas se han comprendido. Que alguien pierda, que se calle el tema o que haya un ganador no garantiza que el otro se haya sentido escuchado."
+          }
+        ]
+      },
+      {
+        "heading": "La regla práctica: reconoce, delimita y argumenta",
+        "body": [
+          "La regla práctica: un desacuerdo respetuoso tiene tres piezas. Reconoce (entiendo tu postura, agradezco su franqueza), delimita el punto exacto (discrepo en el método, coincido contigo en el objetivo) y argumenta. Las preposiciones son el error más frecuente: se discrepa de o con alguien o algo, se discrepa en un punto, se coincide en algo (aquello en lo que coincidimos). Y critica la idea, nunca la capacidad del otro: en lugar de «no has entendido», di «quizá no me he explicado bien»."
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "¿Qué réplica delimita el desacuerdo y mantiene abierto el diálogo?",
@@ -7981,12 +9495,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Recursos retóricos para reforzar un argumento",
+        "heading": "Analogía, hipérbole y llamamiento emocional",
         "body": [
-          "Más allá de la lógica pura, un argumento persuasivo se apoya en recursos retóricos que lo hacen memorable y convincente. La analogía traslada una idea abstracta a un terreno más familiar para el oyente, facilitando su comprensión inmediata. La hipérbole, empleada con moderación, subraya la gravedad o la urgencia de un punto sin necesidad de datos adicionales. El llamamiento emocional, por su parte, apela a los valores o a las preocupaciones compartidas del público, complementando —nunca sustituyendo— la evidencia empírica.",
-          "La elocuencia no depende únicamente del vocabulario empleado, sino de la estructura del propio discurso: una idea central repetida con variaciones a lo largo de la intervención se fija con más fuerza en la memoria del oyente que una idea mencionada una sola vez. El ritmo de las frases, las pausas calculadas y el contraste entre oraciones breves y largas también contribuyen a sostener la atención del auditorio.",
-          "Conviene, sin embargo, dosificar estos recursos. Un exceso de hipérboles o de apelaciones emocionales sin respaldo argumental puede hacer que el discurso pierda credibilidad, precisamente porque el oyente avanzado detecta quién sustituye la solidez lógica por el mero efecto retórico.",
-          "La regla para elegir el recurso: si la idea es abstracta, busca una analogía, pero solo funciona si la imagen familiar comparte la estructura que importa (un cubo agujereado pierde agua igual que el sistema pierde fondos). Si quieres transmitir urgencia y ya tienes datos, basta una hipérbole puntual. El llamamiento emocional, siempre con evidencia al lado. Y una prueba final: quita el recurso; si no queda argumento debajo, el recurso estaba tapando un hueco."
+          "Más allá de la lógica pura, un argumento persuasivo se apoya en recursos retóricos que lo hacen memorable y convincente. La analogía traslada una idea abstracta a un terreno más familiar para el oyente, facilitando su comprensión inmediata. La hipérbole, empleada con moderación, subraya la gravedad o la urgencia de un punto sin necesidad de datos adicionales. El llamamiento emocional, por su parte, apela a los valores o a las preocupaciones compartidas del público, complementando —nunca sustituyendo— la evidencia empírica."
         ],
         "examples": [
           {
@@ -8014,7 +9525,35 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Compara algo abstracto (gobernar sin presupuesto) con una situación que todos conocen (conducir sin luces) y que comparte la estructura relevante: avanzar sin ver el peligro. No exagera ninguna cifra ni apela a valores."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "La estructura también persuade",
+        "body": [
+          "La elocuencia no depende únicamente del vocabulario empleado, sino de la estructura del propio discurso: una idea central repetida con variaciones a lo largo de la intervención se fija con más fuerza en la memoria del oyente que una idea mencionada una sola vez. El ritmo de las frases, las pausas calculadas y el contraste entre oraciones breves y largas también contribuyen a sostener la atención del auditorio."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué estrategia fija mejor una idea central en la memoria del público?",
+            "options": [
+              "Volver a ella varias veces con formulaciones distintas.",
+              "Mencionarla una sola vez con un vocabulario muy técnico.",
+              "Dejarla para el turno de preguntas.",
+              "Leerla en voz baja al final de la intervención."
+            ],
+            "correctIndex": 0,
+            "explanation": "Una idea central repetida con variaciones a lo largo de la intervención se fija más que una idea mencionada una sola vez. El vocabulario técnico no compensa decirla una vez, y relegarla a las preguntas o al final en voz baja le quita fuerza."
+          }
+        ]
+      },
+      {
+        "heading": "Dosificar los recursos",
+        "body": [
+          "Conviene, sin embargo, dosificar estos recursos. Un exceso de hipérboles o de apelaciones emocionales sin respaldo argumental puede hacer que el discurso pierda credibilidad, precisamente porque el oyente avanzado detecta quién sustituye la solidez lógica por el mero efecto retórico."
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "¿En qué caso la hipérbole resta credibilidad al orador?",
@@ -8026,6 +9565,26 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La hipérbole funciona dosificada y con datos detrás. Si sustituye a la evidencia y se repite en cada frase, el oyente exigente detecta que el efecto tapa la falta de argumentos."
+          }
+        ]
+      },
+      {
+        "heading": "Cómo elegir el recurso",
+        "body": [
+          "La regla para elegir el recurso: si la idea es abstracta, busca una analogía, pero solo funciona si la imagen familiar comparte la estructura que importa (un cubo agujereado pierde agua igual que el sistema pierde fondos). Si quieres transmitir urgencia y ya tienes datos, basta una hipérbole puntual. El llamamiento emocional, siempre con evidencia al lado. Y una prueba final: quita el recurso; si no queda argumento debajo, el recurso estaba tapando un hueco."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Quitas la hipérbole de tu frase y no queda ningún argumento debajo. ¿Qué te dice la prueba final?",
+            "options": [
+              "Que el recurso estaba tapando un hueco argumental.",
+              "Que la hipérbole era la mejor opción.",
+              "Que conviene añadir una segunda hipérbole.",
+              "Que el público no notará la diferencia."
+            ],
+            "correctIndex": 0,
+            "explanation": "La prueba de la lección: si al quitar el recurso no queda argumento, el recurso tapaba un hueco. Añadir más hipérboles agrava el problema, y el público avanzado sí detecta el efecto sin solidez."
           }
         ]
       }
@@ -8054,15 +9613,37 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Reiterar sin cansar, persuadir sin perder crédito",
+        "heading": "Reiterar no es repetir",
         "body": [
-          "La regla: reiterar no es repetir. La idea central vuelve con otras palabras, otro ejemplo u otra estructura (una pregunta, una tríada, un cierre) para que el público la retenga sin notar la repetición; repetir la misma cifra o el mismo eslogan cansa y suena a falta de argumentos. El crédito se pierde cuando el recurso ocupa el lugar del dato, así que cada reiteración debe añadir algo: un matiz, una prueba, una consecuencia. En el diálogo de «En la práctica» verás el ciclo completo de una réplica: conceder, discrepar con respeto, nombrar una falacia y cerrar con un consenso parcial.",
+          "La regla: reiterar no es repetir. La idea central vuelve con otras palabras, otro ejemplo u otra estructura (una pregunta, una tríada, un cierre) para que el público la retenga sin notar la repetición; repetir la misma cifra o el mismo eslogan cansa y suena a falta de argumentos."
         ],
         "examples": [
           {
             "es": "repetir una idea central con variaciones",
             "en": "fijar un argumento en la memoria del auditorio mediante la reiteración matizada"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Tu idea central es que la transparencia de los algoritmos es indispensable. ¿Qué cierre la reitera con variación?",
+            "options": [
+              "Sin transparencia no hay confianza, y sin confianza ningún algoritmo será aceptado.",
+              "La transparencia es indispensable. Repito: la transparencia es indispensable.",
+              "Hay muchos temas de los que podríamos hablar.",
+              "Los algoritmos opacos son catastróficos, terribles, apocalípticos."
+            ],
+            "correctIndex": 0,
+            "explanation": "La primera vuelve a la idea con otra forma (una cadena de dos condiciones) y añade algo: la consecuencia para la confianza. Repetir la frase igual cansa, la tercera abandona la idea y la cuarta sustituye el argumento por hipérboles sin datos."
+          }
+        ]
+      },
+      {
+        "heading": "Cada reiteración añade algo",
+        "body": [
+          "El crédito se pierde cuando el recurso ocupa el lugar del dato, así que cada reiteración debe añadir algo: un matiz, una prueba, una consecuencia. En el diálogo de «En la práctica» verás el ciclo completo de una réplica: conceder, discrepar con respeto, nombrar una falacia y cerrar con un consenso parcial."
+        ],
+        "examples": [
           {
             "es": "perder credibilidad por exceso retórico",
             "en": "sustituir la solidez lógica por recursos persuasivos sin respaldo suficiente"
@@ -8080,28 +9661,35 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "Cuando los recursos retóricos sustituyen a la evidencia y a la lógica, un oyente entrenado detecta la falta de solidez y el discurso pierde credibilidad. No acorta ni alarga el discurso, y no hace que el adversario ceda: más bien le da argumentos."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Tu idea central es que la transparencia de los algoritmos es indispensable. ¿Qué cierre la reitera con variación?",
-            "options": [
-              "Sin transparencia no hay confianza, y sin confianza ningún algoritmo será aceptado.",
-              "La transparencia es indispensable. Repito: la transparencia es indispensable.",
-              "Hay muchos temas de los que podríamos hablar.",
-              "Los algoritmos opacos son catastróficos, terribles, apocalípticos."
-            ],
-            "correctIndex": 0,
-            "explanation": "La primera vuelve a la idea con otra forma (una cadena de dos condiciones) y añade algo: la consecuencia para la confianza. Repetir la frase igual cansa, la tercera abandona la idea y la cuarta sustituye el argumento por hipérboles sin datos."
           }
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica: conceder y discrepar",
         "body": [
           "Moderadora: Pasamos al turno de réplica. Doctor Ibarra, su contrincante ha propuesto limitar el uso de estos algoritmos. ¿Su respuesta?",
           "Doctor Ibarra: Es cierto que existen riesgos, no voy a negarlo. Ahora bien, prohibir la herramienta por completo equivale a tirar al niño junto con el agua de la bañera.",
           "Doctora Salas: Discrepo respetuosamente en ese punto. Nadie ha hablado de prohibir nada; hablamos de regular con criterios claros.",
-          "Doctor Ibarra: Comprendo la distinción, pero permítame señalar que su propuesta, tal como está redactada, funcionaría en la práctica como una prohibición encubierta.",
+          "Doctor Ibarra: Comprendo la distinción, pero permítame señalar que su propuesta, tal como está redactada, funcionaría en la práctica como una prohibición encubierta."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué hace el doctor Ibarra al decir «Es cierto que existen riesgos, no voy a negarlo. Ahora bien…»?",
+            "options": [
+              "Concede un punto antes de discrepar.",
+              "Nombra una falacia de su rival.",
+              "Acepta por completo la propuesta contraria.",
+              "Cierra el debate con un consenso."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Es cierto que…, ahora bien…» es la concesión: reconoce lo que tiene de razonable la otra postura y abre el contraargumento. No nombra ninguna falacia, no acepta la propuesta (la discute a continuación) y el consenso llega más tarde."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica: nombrar la falacia y cerrar",
+        "body": [
           "Doctora Salas: Ahí incurre usted, si me lo permite, en una falacia del hombre de paja. Regular no equivale a prohibir, por mucho que quiera presentarlo así.",
           "Doctor Ibarra: No pretendo deformar su postura, solo advertir de una consecuencia probable si la norma se aplica con rigidez excesiva.",
           "Moderadora: Interesante intercambio. ¿Ven ambos algún punto en común desde el que avanzar?",
@@ -8321,11 +9909,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "La idea: el léxico del debate se fabrica con sufijos",
+        "heading": "Sufijos que fabrican el léxico del debate",
         "body": [
           "Casi todo el vocabulario técnico del debate sale de un verbo más un sufijo que dice qué clase de palabra obtienes. Si reconoces el sufijo, entiendes palabras que nunca has visto y puedes crear las que necesitas.",
-          "-ble = «que se puede + participio»: rebatible (que se puede rebatir), refutable, defendible. -miento y -ción = la acción o su resultado: cuestionamiento, posicionamiento, moderación. -encia / -ancia = una cualidad o un estado: intransigencia, vehemencia, avenencia. -dor = que hace la acción: conciliador, moderador. contra- = respuesta que se opone a otra: contrarréplica, contraargumento.",
-          "¿Por qué importa? El registro argumentativo prefiere el sustantivo al verbo: «Su cuestionamiento de los datos obligó a revisar el informe» condensa en un sujeto lo que en la lengua oral serían dos frases («Cuestionó los datos. Por eso revisaron el informe»)."
+          "-ble = «que se puede + participio»: rebatible (que se puede rebatir), refutable, defendible. -miento y -ción = la acción o su resultado: cuestionamiento, posicionamiento, moderación. -encia / -ancia = una cualidad o un estado: intransigencia, vehemencia, avenencia. -dor = que hace la acción: conciliador, moderador. contra- = respuesta que se opone a otra: contrarréplica, contraargumento."
         ],
         "examples": [
           {
@@ -8337,24 +9924,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "la acción de cuestionar (-miento: acción)"
           },
           {
-            "es": "posicionarse → el posicionamiento",
-            "en": "cómo alguien se sitúa ante un tema en disputa"
-          },
-          {
-            "es": "moderar → la moderación del debate",
-            "en": "la conducción imparcial de un intercambio (-ción: acción)"
-          },
-          {
             "es": "intransigente → la intransigencia",
             "en": "la negativa a ceder pese a los argumentos contrarios (-encia: cualidad)"
-          },
-          {
-            "es": "vehemente → la vehemencia",
-            "en": "la intensidad y pasión con que alguien defiende una idea"
-          },
-          {
-            "es": "avenirse → la avenencia",
-            "en": "el acuerdo alcanzado tras superar un desacuerdo"
           },
           {
             "es": "conciliar → el matiz conciliador",
@@ -8377,6 +9948,43 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "-ble expresa posibilidad pasiva («que se puede + participio»), y con in- la niega: insostenible. -miento y -encia forman sustantivos, no adjetivos, y -dor designa a quien hace la acción."
+          }
+        ]
+      },
+      {
+        "heading": "Por qué el debate prefiere el sustantivo",
+        "body": [
+          "¿Por qué importa? El registro argumentativo prefiere el sustantivo al verbo: «Su cuestionamiento de los datos obligó a revisar el informe» condensa en un sujeto lo que en la lengua oral serían dos frases («Cuestionó los datos. Por eso revisaron el informe»)."
+        ],
+        "examples": [
+          {
+            "es": "posicionarse → el posicionamiento",
+            "en": "cómo alguien se sitúa ante un tema en disputa"
+          },
+          {
+            "es": "moderar → la moderación del debate",
+            "en": "la conducción imparcial de un intercambio (-ción: acción)"
+          },
+          {
+            "es": "vehemente → la vehemencia",
+            "en": "la intensidad y pasión con que alguien defiende una idea"
+          },
+          {
+            "es": "avenirse → la avenencia",
+            "en": "el acuerdo alcanzado tras superar un desacuerdo"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué versión es más propia del registro argumentativo?",
+            "options": [
+              "Su replanteamiento del problema cambió el rumbo del debate.",
+              "Replanteó el problema. Por eso el debate cambió de rumbo.",
+              "Como replanteó el problema, el debate cambió de rumbo."
+            ],
+            "correctIndex": 0,
+            "explanation": "El registro argumentativo prefiere el sustantivo al verbo: «su replanteamiento» condensa en un sujeto lo que la lengua oral dice con dos frases o con una subordinada. Las otras dos versiones son correctas, pero más propias de la conversación."
           },
           {
             "type": "fill-blank",
@@ -8388,10 +9996,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Las falacias y el turno de réplica",
+        "heading": "Las falacias se nombran por su mecanismo",
         "body": [
-          "Las falacias se nombran por su mecanismo, así que basta con mirar cómo avanza el razonamiento. La pendiente resbaladiza encadena consecuencias cada vez más graves sin probar ningún eslabón. La petición de principio es circular: da por probado justo lo que tenía que demostrar.",
-          "Para responder existe un orden fijo: la intervención, el turno de réplica (responder al oponente) y, si el reglamento lo permite, la contrarréplica. Desmontar un argumento es señalar su punto débil hasta anularlo; una respuesta contundente lo hace con firmeza y con datos contrastados (verificados). El matiz persuasivo y el matiz conciliador son tonos: el primero busca convencer; el segundo, acercar posturas."
+          "Las falacias se nombran por su mecanismo, así que basta con mirar cómo avanza el razonamiento. La pendiente resbaladiza encadena consecuencias cada vez más graves sin probar ningún eslabón. La petición de principio es circular: da por probado justo lo que tenía que demostrar."
         ],
         "examples": [
           {
@@ -8401,7 +10008,29 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la petición de principio",
             "en": "dar por probado precisamente lo que se debe demostrar"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Si dejamos que los alumnos usen el móvil en el recreo, pronto lo usarán en clase y acabarán sin aprender a leer.» ¿Qué falacia es?",
+            "options": [
+              "la pendiente resbaladiza",
+              "la petición de principio",
+              "una respuesta contundente",
+              "un dato contrastado"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cada paso (recreo → clase → no saber leer) se da por seguro sin probarlo: es la pendiente resbaladiza. La petición de principio sería circular («es malo porque es perjudicial»); las otras dos opciones no son falacias."
+          }
+        ]
+      },
+      {
+        "heading": "El turno de réplica y sus tonos",
+        "body": [
+          "Para responder existe un orden fijo: la intervención, el turno de réplica (responder al oponente) y, si el reglamento lo permite, la contrarréplica. Desmontar un argumento es señalar su punto débil hasta anularlo; una respuesta contundente lo hace con firmeza y con datos contrastados (verificados). El matiz persuasivo y el matiz conciliador son tonos: el primero busca convencer; el segundo, acercar posturas."
+        ],
+        "examples": [
           {
             "es": "la respuesta contundente",
             "en": "reacción firme y bien fundamentada frente a un argumento"
@@ -8422,15 +10051,15 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "«Si dejamos que los alumnos usen el móvil en el recreo, pronto lo usarán en clase y acabarán sin aprender a leer.» ¿Qué falacia es?",
+            "question": "En un debate reglado, ¿qué turno viene justo después de la intervención del oponente?",
             "options": [
-              "la pendiente resbaladiza",
-              "la petición de principio",
-              "una respuesta contundente",
-              "un dato contrastado"
+              "el turno de réplica",
+              "la contrarréplica",
+              "la conclusión final",
+              "la moderación"
             ],
             "correctIndex": 0,
-            "explanation": "Cada paso (recreo → clase → no saber leer) se da por seguro sin probarlo: es la pendiente resbaladiza. La petición de principio sería circular («es malo porque es perjudicial»); las otras dos opciones no son falacias."
+            "explanation": "El orden fijo es intervención → turno de réplica (responder al oponente) → contrarréplica, solo si el reglamento la permite. La contrarréplica responde a una réplica, así que no puede ir antes; la moderación no es un turno de los participantes."
           }
         ]
       }
@@ -8651,11 +10280,29 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La idea: el oyente no puede volver atrás",
+        "heading": "El oyente no puede volver atrás",
         "body": [
-          "Quien lee un informe ve los títulos y puede releer; quien escucha, no. Por eso una presentación oral de alto nivel se apoya en un guion con tres partes de función fija y avisa en voz alta de cada paso. Si el público sabe dónde está, sigue el hilo conductor (la idea que une todo) aunque el tema sea complejo.",
-          "Preámbulo: breve y funcional. Capta la atención en los primeros segundos (una idea llamativa, una cifra reveladora, una pregunta) y anticipa la estructura («Mi presentación consta de tres partes»). Cuerpo: bloques temáticos bien delimitados, una idea por bloque, con diapositivas que refuercen la palabra hablada, nunca que la sustituyan. Cierre: rematar la exposición con un argumento memorable, no dejarla morir con un «eso es todo»; la ronda de preguntas sirve para volver a los puntos clave.",
-          "Ante un auditorio se habla de ustedes («Fíjense en este gráfico», «Les propongo…»): el tuteo colectivo suena a aula, no a sala de conferencias."
+          "Quien lee un informe ve los títulos y puede releer; quien escucha, no. Por eso una presentación oral de alto nivel se apoya en un guion con tres partes de función fija y avisa en voz alta de cada paso. Si el público sabe dónde está, sigue el hilo conductor (la idea que une todo) aunque el tema sea complejo."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué una presentación oral avisa en voz alta de cada paso?",
+            "options": [
+              "Porque quien escucha no puede releer ni ver los títulos.",
+              "Porque así la presentación dura más.",
+              "Porque el público prefiere las frases largas.",
+              "Porque las diapositivas no deben llevar títulos."
+            ],
+            "correctIndex": 0,
+            "explanation": "El lector puede releer y ver los títulos; el oyente no. Por eso el orador anuncia cada paso: el público sabe dónde está y sigue el hilo conductor. Las otras razones no tienen que ver con esa diferencia entre leer y escuchar."
+          }
+        ]
+      },
+      {
+        "heading": "Preámbulo, cuerpo y cierre",
+        "body": [
+          "Preámbulo: breve y funcional. Capta la atención en los primeros segundos (una idea llamativa, una cifra reveladora, una pregunta) y anticipa la estructura («Mi presentación consta de tres partes»). Cuerpo: bloques temáticos bien delimitados, una idea por bloque, con diapositivas que refuercen la palabra hablada, nunca que la sustituyan. Cierre: rematar la exposición con un argumento memorable, no dejarla morir con un «eso es todo»; la ronda de preguntas sirve para volver a los puntos clave."
         ],
         "examples": [
           {
@@ -8682,6 +10329,18 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
+            "question": "¿Qué final remata bien la exposición?",
+            "options": [
+              "Si se quedan con una sola idea, que sea esta: sin datos fiables no hay buenas decisiones.",
+              "Bueno, pues eso es todo.",
+              "No sé si me he explicado, pero ya está.",
+              "Y con esto se acaba la última diapositiva."
+            ],
+            "correctIndex": 0,
+            "explanation": "El cierre remata con un argumento memorable. Las otras tres dejan morir la exposición: un «eso es todo», una disculpa o un aviso técnico no dejan ninguna idea en el público."
+          },
+          {
+            "type": "multiple-choice",
             "question": "«Pasemos ahora al segundo bloque: los costes.» ¿Qué función cumple esta frase?",
             "options": [
               "Señala el paso entre bloques del cuerpo",
@@ -8691,6 +10350,31 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Anuncia que termina un bloque y empieza otro: es una señal de estructura dentro del cuerpo. No capta la atención (no es una pregunta ni una cifra), no cierra nada y no invita al público a preguntar."
+          }
+        ]
+      },
+      {
+        "heading": "Al auditorio, de ustedes",
+        "body": [
+          "Ante un auditorio se habla de ustedes («Fíjense en este gráfico», «Les propongo…»): el tuteo colectivo suena a aula, no a sala de conferencias."
+        ],
+        "examples": [
+          {
+            "es": "Les propongo un pequeño experimento.",
+            "en": "I'd like to suggest a small experiment to you."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Ante el auditorio de un congreso, ¿qué frase usa el tratamiento adecuado?",
+            "options": [
+              "Fíjense en la segunda columna de la tabla.",
+              "Fijaos en la segunda columna de la tabla.",
+              "Fíjate en la segunda columna de la tabla."
+            ],
+            "correctIndex": 0,
+            "explanation": "Ante un auditorio se habla de ustedes (fíjense). «Fijaos» es el tuteo colectivo, que suena a aula, y «fíjate» se dirige a una sola persona."
           }
         ]
       }
@@ -8926,28 +10610,40 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "La idea: nunca ceder gratis",
+        "heading": "Toma y daca: cada concesión se cambia por otra",
         "body": [
-          "La regla de oro de la negociación es el toma y daca: cada concesión se cambia por otra. Una contraoferta no rechaza la propuesta ajena, sino que dice en qué términos sería aceptable; si cedes sin pedir nada, la otra parte aprende que basta con insistir para que sigas cediendo en las siguientes rondas.",
-          "Por eso la lengua de la negociación está llena de condiciones: «siempre que / siempre y cuando / con la condición de que + subjuntivo» (la condición todavía no se ha cumplido) y «a cambio de + sustantivo o infinitivo». Se cede en lo accesorio (lo secundario) para proteger lo esencial, y se marcan las líneas rojas, los límites que no se negocian.",
-          "La estrategia de anclaje —proponer una cifra inicial deliberadamente alta o baja para condicionar el resto de la negociación— resulta habitual, pero un negociador experimentado sabe reconocerla cuando la emplea la otra parte y no se deja arrastrar por ella sin cuestionar su fundamento."
+          "La regla de oro de la negociación es el toma y daca: cada concesión se cambia por otra. Una contraoferta no rechaza la propuesta ajena, sino que dice en qué términos sería aceptable; si cedes sin pedir nada, la otra parte aprende que basta con insistir para que sigas cediendo en las siguientes rondas."
         ],
         "examples": [
           {
-            "es": "explorar el margen de maniobra",
-            "en": "tantear hasta dónde puede ceder cada parte sin comprometer sus intereses esenciales"
-          },
-          {
             "es": "una contraoferta razonada",
             "en": "una propuesta alternativa que explica en qué términos resultaría aceptable un acuerdo"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Te ofrecen 20.000 € por un proyecto que tú valoras en 26.000. ¿Qué respuesta es una contraoferta razonada?",
+            "options": [
+              "«Podríamos dejarlo en 24.000 si el pago es por adelantado.»",
+              "«Vale, 20.000 está bien.»",
+              "«Ni hablar, adiós.»",
+              "«Lo que ustedes digan.»"
+            ],
+            "correctIndex": 0,
+            "explanation": "La contraoferta propone otros términos y los condiciona a algo a cambio (el pago adelantado). Aceptar sin más o decir «lo que ustedes digan» es ceder gratis; «Ni hablar» rompe la negociación en vez de negociar."
+          }
+        ]
+      },
+      {
+        "heading": "La lengua de las condiciones",
+        "body": [
+          "Por eso la lengua de la negociación está llena de condiciones: «siempre que / siempre y cuando / con la condición de que + subjuntivo» (la condición todavía no se ha cumplido) y «a cambio de + sustantivo o infinitivo». Se cede en lo accesorio (lo secundario) para proteger lo esencial, y se marcan las líneas rojas, los límites que no se negocian."
+        ],
+        "examples": [
           {
             "es": "ceder en lo accesorio, no en lo esencial",
             "en": "renunciar a una cláusula secundaria sin comprometer los intereses centrales"
-          },
-          {
-            "es": "emplear la estrategia de anclaje",
-            "en": "proponer una cifra inicial extrema para condicionar el resto de la negociación"
           },
           {
             "es": "mantener una línea roja",
@@ -8960,24 +10656,54 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
+            "type": "multiple-choice",
+            "question": "«Podemos rebajar el precio siempre que ___ el contrato a dos años.» (ampliar)",
+            "options": [
+              "amplíen",
+              "amplían",
+              "ampliarán",
+              "ampliaron"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Siempre que» con valor de condición pide subjuntivo, porque la condición todavía no se ha cumplido: amplíen. El indicativo (amplían, ampliarán, ampliaron) la presentaría como un hecho."
+          },
+          {
             "type": "fill-blank",
             "prompt": "Completa la frase sobre la negociación.",
             "sentence": "Un buen negociador cede en lo accesorio para proteger lo ___ de su propuesta.",
             "answer": "esencial",
             "explanation": "Ceder en aspectos secundarios permite proteger el núcleo de la propuesta sin debilitar la postura negociadora.",
             "hint": "adjetivo opuesto a accesorio"
+          }
+        ]
+      },
+      {
+        "heading": "Reconocer el anclaje",
+        "body": [
+          "La estrategia de anclaje —proponer una cifra inicial deliberadamente alta o baja para condicionar el resto de la negociación— resulta habitual, pero un negociador experimentado sabe reconocerla cuando la emplea la otra parte y no se deja arrastrar por ella sin cuestionar su fundamento."
+        ],
+        "examples": [
+          {
+            "es": "explorar el margen de maniobra",
+            "en": "tantear hasta dónde puede ceder cada parte sin comprometer sus intereses esenciales"
           },
           {
+            "es": "emplear la estrategia de anclaje",
+            "en": "proponer una cifra inicial extrema para condicionar el resto de la negociación"
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Te ofrecen 20.000 € por un proyecto que tú valoras en 26.000. ¿Qué respuesta es una contraoferta razonada?",
+            "question": "El proveedor abre pidiendo el triple del precio de mercado. ¿Qué hace un negociador experimentado?",
             "options": [
-              "«Podríamos dejarlo en 24.000 si el pago es por adelantado.»",
-              "«Vale, 20.000 está bien.»",
-              "«Ni hablar, adiós.»",
-              "«Lo que ustedes digan.»"
+              "Reconoce el anclaje y pregunta en qué se basa esa cifra.",
+              "Acepta la cifra como punto de partida y negocia a la baja.",
+              "Propone una cifra a medio camino sin preguntar nada.",
+              "Se levanta de la mesa de inmediato."
             ],
             "correctIndex": 0,
-            "explanation": "La contraoferta propone otros términos y los condiciona a algo a cambio (el pago adelantado). Aceptar sin más o decir «lo que ustedes digan» es ceder gratis; «Ni hablar» rompe la negociación en vez de negociar."
+            "explanation": "El anclaje busca condicionar el resto de la negociación; se neutraliza cuestionando su fundamento. Partir de esa cifra o del punto medio es dejarse arrastrar por ella, y levantarse de la mesa renuncia a negociar."
           }
         ]
       }
@@ -9076,11 +10802,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "La idea: detrás de cada posición hay un interés",
+        "heading": "Posición e interés",
         "body": [
-          "Un punto muerto aparece cuando cada parte defiende su posición (lo que pide) y ninguna se mueve. La salida casi nunca está en insistir, sino en preguntar por el interés (por qué lo pide): «exijo el pago a 30 días» puede esconder «necesito liquidez este trimestre», y ese interés admite otras soluciones. Dos posturas irreconciliables a veces esconden intereses compatibles.",
-          "Una técnica habitual consiste en fraccionar el acuerdo en varias cláusulas independientes y buscar el consenso en aquellas donde el desacuerdo es menor, dejando para el final las cuestiones más espinosas. Este avance progresivo genera una dinámica de cesión mutua que facilita, más adelante, resolver el impasse en los puntos verdaderamente difíciles.",
-          "Cuando finalmente se llega a un acuerdo, conviene formalizarlo con precisión: especificar el plazo de vigencia, las condiciones exactas de cada cláusula y los mecanismos previstos ante un posible incumplimiento. Un cierre de la negociación ambiguo suele generar nuevos conflictos más adelante, precisamente por dejar sin resolver detalles que parecían menores en el calor del acuerdo."
+          "Un punto muerto aparece cuando cada parte defiende su posición (lo que pide) y ninguna se mueve. La salida casi nunca está en insistir, sino en preguntar por el interés (por qué lo pide): «exijo el pago a 30 días» puede esconder «necesito liquidez este trimestre», y ese interés admite otras soluciones. Dos posturas irreconciliables a veces esconden intereses compatibles."
         ],
         "examples": [
           {
@@ -9090,10 +10814,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "sondear las intenciones reales",
             "en": "explorar de forma indirecta los intereses que subyacen a una exigencia declarada"
-          },
-          {
-            "es": "fraccionar el acuerdo en cláusulas",
-            "en": "dividir la negociación en partes independientes para facilitar el consenso"
           }
         ],
         "checkpoint": [
@@ -9108,14 +10828,51 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La posición es lo que se pide (junio); el interés es la razón (abrir en julio). Conocer el interés abre otras opciones: entregar primero la zona que necesita para abrir, por ejemplo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué estrategia ayuda a superar un punto muerto en una negociación compleja?",
+            "options": [
+              "Insistir de forma rígida en la postura inicial sin ningún cambio",
+              "Sondear las intenciones reales detrás de las posturas declaradas",
+              "Abandonar la mesa de negociación de inmediato",
+              "Ignorar por completo las cláusulas más difíciles"
+            ],
+            "correctIndex": 1,
+            "explanation": "Explorar los intereses reales que subyacen a las posturas declaradas suele revelar puntos de acuerdo que las posiciones formales ocultaban. Insistir rígidamente en la postura inicial, abandonar la mesa o ignorar las cláusulas difíciles perpetúan el bloqueo."
           }
         ]
       },
       {
-        "heading": "Cerrar bien el acuerdo",
+        "heading": "Fraccionar el acuerdo",
         "body": [
-          "Una vez desbloqueada la negociación, hay que formalizar el acuerdo con precisión (condiciones, plazos, vigencia); un cierre ambiguo deja abierta la puerta a futuros conflictos.",
-          "Fíjate en la construcción «Una vez + participio»: el participio concuerda con su sustantivo (una vez desbloqueada la negociación, una vez firmados los anexos)."
+          "Una técnica habitual consiste en fraccionar el acuerdo en varias cláusulas independientes y buscar el consenso en aquellas donde el desacuerdo es menor, dejando para el final las cuestiones más espinosas. Este avance progresivo genera una dinámica de cesión mutua que facilita, más adelante, resolver el impasse en los puntos verdaderamente difíciles."
+        ],
+        "examples": [
+          {
+            "es": "fraccionar el acuerdo en cláusulas",
+            "en": "dividir la negociación en partes independientes para facilitar el consenso"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Negociáis seis cláusulas y dos están bloqueadas. ¿Qué aconseja la técnica de fraccionar?",
+            "options": [
+              "Cerrar primero las cláusulas con menos desacuerdo y dejar las espinosas para el final.",
+              "Empezar por las dos cláusulas más difíciles.",
+              "Negociarlo todo en un único bloque.",
+              "Suspender la negociación hasta que la otra parte ceda."
+            ],
+            "correctIndex": 0,
+            "explanation": "Fraccionar es buscar consenso primero donde el desacuerdo es menor: ese avance crea una dinámica de cesión mutua que ayuda después con lo difícil. Empezar por lo espinoso o negociarlo todo junto bloquea el avance, y suspender no rompe el impasse."
+          }
+        ]
+      },
+      {
+        "heading": "Formalizar el acuerdo con precisión",
+        "body": [
+          "Cuando finalmente se llega a un acuerdo, conviene formalizarlo con precisión: especificar el plazo de vigencia, las condiciones exactas de cada cláusula y los mecanismos previstos ante un posible incumplimiento. Un cierre de la negociación ambiguo suele generar nuevos conflictos más adelante, precisamente por dejar sin resolver detalles que parecían menores en el calor del acuerdo."
         ],
         "examples": [
           {
@@ -9130,18 +10887,6 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué estrategia ayuda a superar un punto muerto en una negociación compleja?",
-            "options": [
-              "Insistir de forma rígida en la postura inicial sin ningún cambio",
-              "Sondear las intenciones reales detrás de las posturas declaradas",
-              "Abandonar la mesa de negociación de inmediato",
-              "Ignorar por completo las cláusulas más difíciles"
-            ],
-            "correctIndex": 1,
-            "explanation": "Explorar los intereses reales que subyacen a las posturas declaradas suele revelar puntos de acuerdo que las posiciones formales ocultaban. Insistir rígidamente en la postura inicial, abandonar la mesa o ignorar las cláusulas difíciles perpetúan el bloqueo."
-          },
-          {
-            "type": "multiple-choice",
             "question": "¿Qué cláusula está formalizada con precisión?",
             "options": [
               "«El proveedor entregará el material en un plazo máximo de quince días naturales.»",
@@ -9151,6 +10896,27 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Formalizar con precisión es fijar plazos y condiciones medibles. «Pronto», «cuando sea posible» y «ya hablaremos» dejan un cierre ambiguo que suele generar conflictos después."
+          }
+        ]
+      },
+      {
+        "heading": "Cerrar bien: «una vez + participio»",
+        "body": [
+          "Una vez desbloqueada la negociación, hay que formalizar el acuerdo con precisión (condiciones, plazos, vigencia); un cierre ambiguo deja abierta la puerta a futuros conflictos.",
+          "Fíjate en la construcción «Una vez + participio»: el participio concuerda con su sustantivo (una vez desbloqueada la negociación, una vez firmados los anexos)."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Una vez ___ los anexos, el acuerdo entra en vigor.» (firmar)",
+            "options": [
+              "firmados",
+              "firmado",
+              "firmadas",
+              "firmando"
+            ],
+            "correctIndex": 0,
+            "explanation": "En «una vez + participio», el participio concuerda con su sustantivo: los anexos (masculino plural) → firmados. «Firmado» es singular, «firmadas» femenino, y el gerundio no forma esta construcción."
           }
         ]
       }
@@ -9217,11 +10983,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La idea: si el cuerpo contradice a las palabras, el público cree al cuerpo",
+        "heading": "Si se contradicen, se cree al gesto",
         "body": [
-          "El mensaje no verbal llega a la vez que el verbal y se interpreta sin pensar. Cuando ambos coinciden, se refuerzan; cuando se contradicen (una oferta «firme» dicha mirando al suelo), el interlocutor cree al gesto. Por eso la seguridad se construye con señales concretas: postura erguida, contacto visual, palmas abiertas, voz modulada según la importancia de cada idea y pausas en lugar de prisas. Lo que la mina: cruzarse de brazos (barrera), mirar al suelo, hablar apresuradamente.",
-          "La seguridad, sin embargo, no debe confundirse con la rigidez ni con la intransigencia. Negociar de buena fe implica mostrarse flexible ante argumentos sólidos de la otra parte sin que ello se perciba como debilidad; de hecho, la disposición a escuchar y a matizar la propia postura suele generar más confianza en el interlocutor que una actitud inamovible desde el primer minuto.",
-          "Guardar un as bajo la manga —un dato, una concesión adicional o un argumento reservado— para el momento decisivo de la negociación o para la ronda de preguntas de una presentación puede resultar determinante, siempre que se emplee con mesura y en el instante preciso en que puede inclinar la balanza."
+          "El mensaje no verbal llega a la vez que el verbal y se interpreta sin pensar. Cuando ambos coinciden, se refuerzan; cuando se contradicen (una oferta «firme» dicha mirando al suelo), el interlocutor cree al gesto. Por eso la seguridad se construye con señales concretas: postura erguida, contacto visual, palmas abiertas, voz modulada según la importancia de cada idea y pausas en lugar de prisas. Lo que la mina: cruzarse de brazos (barrera), mirar al suelo, hablar apresuradamente."
         ],
         "examples": [
           {
@@ -9231,10 +10995,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "evitar gestos que delatan nerviosismo",
             "en": "controlar el lenguaje corporal en un momento decisivo de la negociación"
-          },
-          {
-            "es": "mostrarse flexible sin parecer débil",
-            "en": "adaptar la propia postura ante buenos argumentos sin perder autoridad"
           }
         ],
         "checkpoint": [
@@ -9249,6 +11009,52 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Cuando el gesto contradice a las palabras, se cree al gesto: jugar con el bolígrafo y evitar la mirada delatan nerviosismo, así que «final» suena a farol y la otra parte seguirá presionando."
+          }
+        ]
+      },
+      {
+        "heading": "Seguridad no es rigidez",
+        "body": [
+          "La seguridad, sin embargo, no debe confundirse con la rigidez ni con la intransigencia. Negociar de buena fe implica mostrarse flexible ante argumentos sólidos de la otra parte sin que ello se perciba como debilidad; de hecho, la disposición a escuchar y a matizar la propia postura suele generar más confianza en el interlocutor que una actitud inamovible desde el primer minuto."
+        ],
+        "examples": [
+          {
+            "es": "mostrarse flexible sin parecer débil",
+            "en": "adaptar la propia postura ante buenos argumentos sin perder autoridad"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "La otra parte aporta un dato sólido que no conocías. ¿Qué actitud genera más confianza?",
+            "options": [
+              "Reconocer el dato y matizar tu postura sin abandonar tus objetivos.",
+              "Ignorarlo y repetir tu oferta inicial.",
+              "Aceptar de inmediato todas sus condiciones.",
+              "Cruzarte de brazos y esperar a que cambie de tema."
+            ],
+            "correctIndex": 0,
+            "explanation": "Mostrarse flexible ante un argumento sólido, sin renunciar a lo propio, genera confianza y no se percibe como debilidad. Repetir la oferta es rigidez, aceptarlo todo sí es debilidad, y cruzarse de brazos levanta una barrera."
+          }
+        ]
+      },
+      {
+        "heading": "Un as bajo la manga",
+        "body": [
+          "Guardar un as bajo la manga —un dato, una concesión adicional o un argumento reservado— para el momento decisivo de la negociación o para la ronda de preguntas de una presentación puede resultar determinante, siempre que se emplee con mesura y en el instante preciso en que puede inclinar la balanza."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuándo conviene sacar el as bajo la manga?",
+            "options": [
+              "En el momento decisivo, cuando puede inclinar la balanza.",
+              "Nada más empezar, para impresionar.",
+              "Nunca: hay que mostrar todos los datos al principio.",
+              "Después de firmar el acuerdo."
+            ],
+            "correctIndex": 0,
+            "explanation": "El as se reserva para el momento decisivo y se usa con mesura, en el instante en que puede inclinar la balanza. Gastarlo al principio le quita fuerza, renunciar a él desaprovecha el recurso, y después de firmar ya no influye."
           }
         ]
       }
@@ -9372,10 +11178,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "La idea: la seguridad se demuestra reservando y escuchando",
+        "heading": "Reservar y escuchar",
         "body": [
-          "Paradójicamente, quien negocia con más seguridad no es quien más habla. Reservar un as bajo la manga (un dato, una concesión o un argumento que se guarda) permite responder con fuerza en el momento oportuno, en vez de gastar todos los recursos al principio. Y escuchar de verdad los argumentos ajenos transmite más seguridad que interrumpir: solo quien escucha descubre el margen de maniobra de la otra parte.",
-          "En el diálogo de la sección siguiente, fíjate en tres movimientos: la contraoferta del proveedor, la pregunta con la que la directora sondea dónde puede ceder la otra parte y la pausa estratégica para consultar antes de decidir."
+          "Paradójicamente, quien negocia con más seguridad no es quien más habla. Reservar un as bajo la manga (un dato, una concesión o un argumento que se guarda) permite responder con fuerza en el momento oportuno, en vez de gastar todos los recursos al principio. Y escuchar de verdad los argumentos ajenos transmite más seguridad que interrumpir: solo quien escucha descubre el margen de maniobra de la otra parte."
         ],
         "examples": [
           {
@@ -9407,19 +11212,48 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica: la propuesta",
         "body": [
+          "En el diálogo de la sección siguiente, fíjate en tres movimientos: la contraoferta del proveedor, la pregunta con la que la directora sondea dónde puede ceder la otra parte y la pausa estratégica para consultar antes de decidir.",
           "Directora comercial: Buenas tardes. Antes de entrar en cifras, quiero exponer brevemente el contexto de nuestra propuesta.",
           "Proveedor: Adelante, le escucho con atención.",
-          "Directora comercial: Nuestro punto de partida es un contrato de doce meses con un descuento del quince por ciento sobre el volumen habitual.",
-          "Proveedor: Entiendo el planteamiento, pero ese margen no resulta viable para nosotros. Les propongo una contraoferta: diez por ciento de descuento y un plazo de vigencia de dieciocho meses.",
-          "Directora comercial: Valoramos la propuesta. Sondeando un poco, ¿qué margen de maniobra tienen ustedes en el plazo de entrega?",
-          "Proveedor: Ahí sí podemos ceder terreno. Si aceptan los dieciocho meses, garantizamos entregas semanales sin coste adicional.",
-          "Directora comercial: Interesante. Eso cambia bastante el cálculo. Permítanme una breve pausa para consultarlo con mi equipo.",
-          "Proveedor: Por supuesto. Quedamos a la espera de su respuesta para cerrar la negociación cuanto antes.",
-          "Directora comercial: De acuerdo. Si mantenemos ese toma y daca, creo que podemos llegar a un acuerdo hoy mismo."
+          "Directora comercial: Nuestro punto de partida es un contrato de doce meses con un descuento del quince por ciento sobre el volumen habitual."
         ],
         "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Con qué propuesta abre la directora comercial?",
+            "options": [
+              "Un contrato de doce meses con un 15 % de descuento.",
+              "Un contrato de dieciocho meses con un 10 % de descuento.",
+              "Entregas semanales sin coste adicional.",
+              "Un descuento del 15 % sin plazo fijo."
+            ],
+            "correctIndex": 0,
+            "explanation": "Su punto de partida es un contrato de doce meses con un descuento del quince por ciento. Los dieciocho meses y el 10 % son la contraoferta del proveedor, y las entregas semanales llegan después, como concesión."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica: contraoferta y sondeo",
+        "body": [
+          "Proveedor: Entiendo el planteamiento, pero ese margen no resulta viable para nosotros. Les propongo una contraoferta: diez por ciento de descuento y un plazo de vigencia de dieciocho meses.",
+          "Directora comercial: Valoramos la propuesta. Sondeando un poco, ¿qué margen de maniobra tienen ustedes en el plazo de entrega?",
+          "Proveedor: Ahí sí podemos ceder terreno. Si aceptan los dieciocho meses, garantizamos entregas semanales sin coste adicional."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Ese margen no resulta viable para nosotros. Les propongo diez por ciento y dieciocho meses.» ¿Qué hace el proveedor?",
+            "options": [
+              "Rechaza el margen y propone otros términos: una contraoferta.",
+              "Acepta la propuesta inicial sin cambios.",
+              "Rompe la negociación.",
+              "Pide una pausa para consultar."
+            ],
+            "correctIndex": 0,
+            "explanation": "Una contraoferta no se limita a rechazar: dice en qué términos sería aceptable el acuerdo. El proveedor no acepta tal cual, no rompe la negociación y no pide ninguna pausa (eso lo hace la directora más tarde)."
+          },
           {
             "type": "multiple-choice",
             "question": "¿Qué hace la directora cuando pregunta «¿qué margen de maniobra tienen ustedes en el plazo de entrega?»?",
@@ -9431,6 +11265,28 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Al ver que el descuento está bloqueado, busca otra variable (el plazo de entrega) donde la otra parte sí pueda ceder. No rechaza ni cierra nada, y no propone ninguna cifra extrema."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica: la pausa y el cierre",
+        "body": [
+          "Directora comercial: Interesante. Eso cambia bastante el cálculo. Permítanme una breve pausa para consultarlo con mi equipo.",
+          "Proveedor: Por supuesto. Quedamos a la espera de su respuesta para cerrar la negociación cuanto antes.",
+          "Directora comercial: De acuerdo. Si mantenemos ese toma y daca, creo que podemos llegar a un acuerdo hoy mismo."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué pide la directora «una breve pausa»?",
+            "options": [
+              "Para consultar con su equipo antes de decidir: es una pausa estratégica.",
+              "Porque quiere romper la negociación.",
+              "Porque no ha entendido la oferta.",
+              "Porque el proveedor se lo ha pedido."
+            ],
+            "correctIndex": 0,
+            "explanation": "La oferta de entregas semanales «cambia el cálculo», y la directora se toma una pausa estratégica para consultarlo antes de decidir. No rompe nada (cree que pueden llegar a un acuerdo hoy), ha entendido la oferta y la pausa la pide ella."
           }
         ]
       }
@@ -9500,15 +11356,96 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "La idea: ordena el léxico por la fase en que se usa",
+        "heading": "Léxico por funciones: exponer y negociar",
         "body": [
-          "Este vocabulario se aprende mejor por funciones que por lista. Exponer: el guion de la presentación (la estructura), el hilo conductor (la idea que une), captar la atención del auditorio (el inicio), rematar la exposición (el final), la diapositiva (el apoyo). Negociar: el planteamiento inicial y la contraoferta o contrapropuesta (contra- = respuesta a otra), el margen de maniobra, el toma y daca, el acuerdo marco.",
+          "Este vocabulario se aprende mejor por funciones que por lista. Exponer: el guion de la presentación (la estructura), el hilo conductor (la idea que une), captar la atención del auditorio (el inicio), rematar la exposición (el final), la diapositiva (el apoyo). Negociar: el planteamiento inicial y la contraoferta o contrapropuesta (contra- = respuesta a otra), el margen de maniobra, el toma y daca, el acuerdo marco."
+        ],
+        "examples": [
+          {
+            "es": "el guion de la presentación",
+            "en": "la estructura planificada que sigue una exposición oral"
+          },
+          {
+            "es": "el hilo conductor",
+            "en": "la idea central que da coherencia a una presentación"
+          },
+          {
+            "es": "captar la atención del auditorio",
+            "en": "lograr que el público se interese desde el inicio de la exposición"
+          },
+          {
+            "es": "rematar la exposición",
+            "en": "cerrar una presentación con una conclusión contundente"
+          },
+          {
+            "es": "la diapositiva",
+            "en": "cada una de las láminas visuales que apoyan una presentación"
+          },
+          {
+            "es": "el planteamiento inicial",
+            "en": "primera propuesta que se presenta al comenzar una negociación"
+          },
+          {
+            "es": "la contraoferta",
+            "en": "la propuesta alternativa que responde a una oferta inicial"
+          },
+          {
+            "es": "la contrapropuesta",
+            "en": "la propuesta que se presenta como alternativa a otra ya planteada"
+          },
+          {
+            "es": "el margen de maniobra",
+            "en": "el espacio disponible para negociar sin perder la posición propia"
+          },
+          {
+            "es": "el toma y daca",
+            "en": "un intercambio de concesiones mutuas dentro de una negociación"
+          },
+          {
+            "es": "el acuerdo marco",
+            "en": "convenio general que establece las condiciones básicas de una relación comercial"
+          },
+          {
+            "es": "la mesa de negociación",
+            "en": "el contexto formal en el que se negocia un acuerdo"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«El ___ conductor de la charla fue una sola idea: el agua es un bien escaso.»",
+            "options": [
+              "hilo",
+              "guion",
+              "margen",
+              "remate"
+            ],
+            "correctIndex": 0,
+            "explanation": "El hilo conductor es la idea que une toda la presentación. El guion es la estructura (las partes), el margen pertenece a la negociación (margen de maniobra) y el remate es el final, no lo que recorre la charla."
+          }
+        ]
+      },
+      {
+        "heading": "El bloqueo y cómo salir de él",
+        "body": [
           "Atención a los casi sinónimos del bloqueo, porque no se usan igual: un escollo es un obstáculo concreto con el que se tropieza (el plazo fue el principal escollo); el punto muerto y el impasse son el estado de bloqueo (la negociación llegó a un punto muerto, salir del impasse). Para terminar con un problema: zanjar una cuestión es resolverla de forma definitiva; flexibilizar la postura es abrirse a cambiarla."
         ],
         "examples": [
           {
-            "es": "la contraoferta",
-            "en": "la propuesta alternativa que responde a una oferta inicial"
+            "es": "el escollo",
+            "en": "un obstáculo que dificulta el avance de una negociación"
+          },
+          {
+            "es": "el punto muerto",
+            "en": "una fase de la negociación en la que no se produce ningún avance"
+          },
+          {
+            "es": "el impasse",
+            "en": "una situación de bloqueo en la que ninguna parte cede"
+          },
+          {
+            "es": "zanjar",
+            "en": "resolver de manera definitiva una cuestión pendiente"
           },
           {
             "es": "flexibilizar la postura",
@@ -9517,66 +11454,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "llegar a un acuerdo",
             "en": "concluir una negociación con una decisión aceptada por ambas partes"
-          },
-          {
-            "es": "el margen de maniobra",
-            "en": "el espacio disponible para negociar sin perder la posición propia"
-          },
-          {
-            "es": "el acuerdo marco",
-            "en": "convenio general que establece las condiciones básicas de una relación comercial"
-          },
-          {
-            "es": "el planteamiento inicial",
-            "en": "primera propuesta que se presenta al comenzar una negociación"
-          },
-          {
-            "es": "el escollo",
-            "en": "un obstáculo que dificulta el avance de una negociación"
-          },
-          {
-            "es": "zanjar",
-            "en": "resolver de manera definitiva una cuestión pendiente"
-          },
-          {
-            "es": "el impasse",
-            "en": "una situación de bloqueo en la que ninguna parte cede"
-          },
-          {
-            "es": "la contrapropuesta",
-            "en": "la propuesta que se presenta como alternativa a otra ya planteada"
-          },
-          {
-            "es": "el guion de la presentación",
-            "en": "la estructura planificada que sigue una exposición oral"
-          },
-          {
-            "es": "captar la atención del auditorio",
-            "en": "lograr que el público se interese desde el inicio de la exposición"
-          },
-          {
-            "es": "el hilo conductor",
-            "en": "la idea central que da coherencia a una presentación"
-          },
-          {
-            "es": "la diapositiva",
-            "en": "cada una de las láminas visuales que apoyan una presentación"
-          },
-          {
-            "es": "rematar la exposición",
-            "en": "cerrar una presentación con una conclusión contundente"
-          },
-          {
-            "es": "el toma y daca",
-            "en": "un intercambio de concesiones mutuas dentro de una negociación"
-          },
-          {
-            "es": "la mesa de negociación",
-            "en": "el contexto formal en el que se negocia un acuerdo"
-          },
-          {
-            "es": "el punto muerto",
-            "en": "una fase de la negociación en la que no se produce ningún avance"
           }
         ],
         "checkpoint": [
@@ -9742,12 +11619,31 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "La idea: la forma de la palabra explica su sentido",
+        "heading": "Desmontar la palabra",
         "body": [
-          "Varios términos de esta tanda se entienden desmontándolos. Límite infranqueable = in- (no) + franquear (atravesar) + -ble (que se puede): un límite que no se puede atravesar. La contraparte = contra- (enfrente) + parte: la otra parte de la mesa. El plazo de vigencia viene de vigente (en vigor): el tiempo durante el que el acuerdo obliga. La cesión mutua es ceder (cesión) por las dos partes (mutua).",
-          "Con estas piezas puedes formar y entender palabras nuevas: innegociable (que no se puede negociar), irrenunciable (a lo que no se puede renunciar). Y recuerda las parejas de la estructura de una exposición: el preámbulo abre, la exposición de motivos justifica la propuesta, el argumento de cierre persuade al final y la ronda de preguntas deja intervenir al público."
+          "Varios términos de esta tanda se entienden desmontándolos. Límite infranqueable = in- (no) + franquear (atravesar) + -ble (que se puede): un límite que no se puede atravesar. La contraparte = contra- (enfrente) + parte: la otra parte de la mesa. El plazo de vigencia viene de vigente (en vigor): el tiempo durante el que el acuerdo obliga. La cesión mutua es ceder (cesión) por las dos partes (mutua)."
         ],
         "examples": [
+          {
+            "es": "el límite infranqueable",
+            "en": "punto más allá del cual no se está dispuesto a ceder en una negociación"
+          },
+          {
+            "es": "la contraparte",
+            "en": "la otra parte involucrada en una negociación o un acuerdo"
+          },
+          {
+            "es": "el plazo de vigencia",
+            "en": "el período durante el cual un acuerdo permanece en vigor"
+          },
+          {
+            "es": "la cesión mutua",
+            "en": "la renuncia parcial que ambas partes aceptan para avanzar hacia un acuerdo"
+          },
+          {
+            "es": "la estrategia de anclaje",
+            "en": "la táctica de fijar una cifra inicial para condicionar el resto de la negociación"
+          },
           {
             "es": "negociar de buena fe",
             "en": "negociar con la intención honesta de llegar a un acuerdo"
@@ -9755,18 +11651,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "el as bajo la manga",
             "en": "un recurso que se reserva para emplearlo en un momento decisivo"
-          },
-          {
-            "es": "exponer con soltura",
-            "en": "hablar en público con fluidez y seguridad"
-          },
-          {
-            "es": "la valoración crítica",
-            "en": "juicio razonado sobre los aciertos y errores de algo"
-          },
-          {
-            "es": "el argumento de cierre",
-            "en": "la razón final que se emplea para persuadir al concluir una exposición"
           },
           {
             "es": "sondear las intenciones",
@@ -9779,42 +11663,56 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la postura negociadora",
             "en": "la posición estratégica que se adopta al negociar"
-          },
+          }
+        ],
+        "checkpoint": [
           {
-            "es": "el plazo de vigencia",
-            "en": "el período durante el cual un acuerdo permanece en vigor"
-          },
-          {
-            "es": "la cesión mutua",
-            "en": "la renuncia parcial que ambas partes aceptan para avanzar hacia un acuerdo"
-          },
+            "type": "multiple-choice",
+            "question": "Desmonta la palabra: «un acuerdo vigente» es un acuerdo…",
+            "options": [
+              "que está en vigor",
+              "que ya ha caducado",
+              "que no se puede atravesar",
+              "que firman las dos partes"
+            ],
+            "correctIndex": 0,
+            "explanation": "Vigente significa «en vigor», y de ahí sale el plazo de vigencia: el tiempo durante el que el acuerdo obliga. Caducado es lo contrario, «que no se puede atravesar» es infranqueable y la idea de las dos partes está en «mutua»."
+          }
+        ]
+      },
+      {
+        "heading": "Formar palabras nuevas; la estructura de la exposición",
+        "body": [
+          "Con estas piezas puedes formar y entender palabras nuevas: innegociable (que no se puede negociar), irrenunciable (a lo que no se puede renunciar). Y recuerda las parejas de la estructura de una exposición: el preámbulo abre, la exposición de motivos justifica la propuesta, el argumento de cierre persuade al final y la ronda de preguntas deja intervenir al público."
+        ],
+        "examples": [
           {
             "es": "el preámbulo",
             "en": "la introducción que precede al cuerpo principal de una exposición"
-          },
-          {
-            "es": "el cierre de la negociación",
-            "en": "el momento en que se formaliza el acuerdo alcanzado"
           },
           {
             "es": "la exposición de motivos",
             "en": "la parte de una presentación que justifica una propuesta concreta"
           },
           {
-            "es": "la contraparte",
-            "en": "la otra parte involucrada en una negociación o un acuerdo"
-          },
-          {
-            "es": "la estrategia de anclaje",
-            "en": "la táctica de fijar una cifra inicial para condicionar el resto de la negociación"
-          },
-          {
-            "es": "el límite infranqueable",
-            "en": "punto más allá del cual no se está dispuesto a ceder en una negociación"
+            "es": "el argumento de cierre",
+            "en": "la razón final que se emplea para persuadir al concluir una exposición"
           },
           {
             "es": "la ronda de preguntas",
             "en": "el turno posterior a una presentación en que el público interviene"
+          },
+          {
+            "es": "exponer con soltura",
+            "en": "hablar en público con fluidez y seguridad"
+          },
+          {
+            "es": "la valoración crítica",
+            "en": "juicio razonado sobre los aciertos y errores de algo"
+          },
+          {
+            "es": "el cierre de la negociación",
+            "en": "el momento en que se formaliza el acuerdo alcanzado"
           }
         ],
         "checkpoint": [
@@ -9829,6 +11727,18 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "in- (no) + negociar + -ble (que se puede) = que no se puede negociar. «Negociadora» describe a quien negocia, «vigente» significa en vigor y «mutua», compartida por las dos partes."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué parte de una exposición justifica la propuesta?",
+            "options": [
+              "la exposición de motivos",
+              "el preámbulo",
+              "la ronda de preguntas",
+              "el argumento de cierre"
+            ],
+            "correctIndex": 0,
+            "explanation": "La exposición de motivos justifica la propuesta. El preámbulo abre, el argumento de cierre persuade al final y la ronda de preguntas deja intervenir al público."
           }
         ]
       }
@@ -9952,11 +11862,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La idea: citas textualmente cuando importan las palabras, indirectamente cuando importa la idea",
+        "heading": "Cita textual o cita indirecta",
         "body": [
-          "Hay dos maneras de traer una voz ajena a tu texto. La cita textual reproduce las palabras exactas entre comillas (« », en la tipografía española); la cita indirecta traslada el contenido con palabras propias y lo atribuye («Según X…», «X sostiene que…»). La pregunta que decide es: ¿importa cómo lo dijo o lo que dijo? Si la formulación es insustituible (un término técnico, una frase de valor estilístico), cita textualmente; si solo te interesa la idea, la cita indirecta se integra mejor en tu propio ritmo.",
-          "Un error frecuente consiste en parafrasear de forma tan cercana al original que el resultado apenas se distingue de una cita textual, sin marcarlo como tal. Esta práctica compromete la fidelidad textual y puede rozar el plagio, incluso cuando no existe intención de apropiarse de las palabras ajenas; conviene, por tanto, reformular con suficiente distancia léxica y sintáctica respecto de la fuente original.",
-          "Ojo con la gramática de la atribución: los verbos de decir llevan «que» sin «de» (afirma que, sostiene que); «afirma de que» es dequeísmo."
+          "Hay dos maneras de traer una voz ajena a tu texto. La cita textual reproduce las palabras exactas entre comillas (« », en la tipografía española); la cita indirecta traslada el contenido con palabras propias y lo atribuye («Según X…», «X sostiene que…»). La pregunta que decide es: ¿importa cómo lo dijo o lo que dijo? Si la formulación es insustituible (un término técnico, una frase de valor estilístico), cita textualmente; si solo te interesa la idea, la cita indirecta se integra mejor en tu propio ritmo."
         ],
         "examples": [
           {
@@ -9966,10 +11874,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "según lo expuesto por el investigador",
             "en": "fórmula que retoma, mediante cita indirecta, una idea de una fuente concreta"
-          },
-          {
-            "es": "una paráfrasis demasiado cercana al original",
-            "en": "una reformulación insuficiente que compromete la fidelidad textual"
           }
         ],
         "checkpoint": [
@@ -9984,6 +11888,56 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Si vas a comentar la forma, necesitas las palabras exactas: cita textual entre comillas. Parafrasear perdería justo lo que analizas, y nada breve queda exento de atribución."
+          }
+        ]
+      },
+      {
+        "heading": "La paráfrasis demasiado cercana",
+        "body": [
+          "Un error frecuente consiste en parafrasear de forma tan cercana al original que el resultado apenas se distingue de una cita textual, sin marcarlo como tal. Esta práctica compromete la fidelidad textual y puede rozar el plagio, incluso cuando no existe intención de apropiarse de las palabras ajenas; conviene, por tanto, reformular con suficiente distancia léxica y sintáctica respecto de la fuente original."
+        ],
+        "examples": [
+          {
+            "es": "una paráfrasis demasiado cercana al original",
+            "en": "una reformulación insuficiente que compromete la fidelidad textual"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Original: «La lectura en pantalla reduce la comprensión profunda». ¿Qué paráfrasis guarda suficiente distancia?",
+            "options": [
+              "Según Vidal, quien lee en una pantalla entiende los textos con menos hondura.",
+              "Vidal dice que la lectura en pantalla reduce la comprensión profunda.",
+              "Para Vidal, la lectura en pantalla disminuye la comprensión profunda."
+            ],
+            "correctIndex": 0,
+            "explanation": "Reformular exige distancia léxica y sintáctica. La primera cambia la estructura y las palabras; la segunda copia la frase sin comillas y la tercera solo sustituye un verbo, así que ambas rozan el plagio."
+          }
+        ]
+      },
+      {
+        "heading": "Atribuir sin dequeísmo",
+        "body": [
+          "Ojo con la gramática de la atribución: los verbos de decir llevan «que» sin «de» (afirma que, sostiene que); «afirma de que» es dequeísmo."
+        ],
+        "examples": [
+          {
+            "es": "El informe afirma que la cifra es provisional.",
+            "en": "The report states that the figure is provisional."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué atribución es correcta?",
+            "options": [
+              "La autora sostiene que el método es fiable.",
+              "La autora sostiene de que el método es fiable.",
+              "La autora sostiene en que el método es fiable."
+            ],
+            "correctIndex": 0,
+            "explanation": "Los verbos de decir llevan «que» sin preposición: sostiene que. «Sostiene de que» es dequeísmo, y «sostiene en que» añade una preposición que este verbo no rige."
           }
         ]
       }
@@ -10164,11 +12118,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "La idea: la fórmula de atribución revela tu postura",
+        "heading": "Ninguna fórmula es inocente",
         "body": [
-          "Todas las fórmulas de atribución cumplen la misma función básica (decir de quién es una idea), pero ninguna es inocente: cada una deja ver qué piensas de lo citado. «Según» y «de acuerdo con» atribuyen sin juzgar; «como bien señala» muestra adhesión (el «bien» es tuyo, no del autor); «cabe citar a» destaca una fuente especialmente pertinente; y verbos como «alega» o «pretende» marcan distancia.",
-          "La elección de la fórmula también comunica la postura del autor del texto frente a la fuente citada. «Como bien señala» sugiere adhesión a la idea referida, mientras que una fórmula más neutra como «según» o «de acuerdo con» simplemente atribuye la afirmación sin emitir juicio alguno sobre su validez. Un uso consciente de estos matices permite al autor posicionarse sutilmente frente a cada fuente sin necesidad de una valoración explícita.",
-          "Conviene, además, variar la posición de la atribución dentro de la oración: situarla al inicio, en medio o al final del enunciado citado evita la monotonía estructural que resulta de repetir siempre el mismo patrón «según X, ocurre Y» a lo largo de todo un texto extenso."
+          "Todas las fórmulas de atribución cumplen la misma función básica (decir de quién es una idea), pero ninguna es inocente: cada una deja ver qué piensas de lo citado. «Según» y «de acuerdo con» atribuyen sin juzgar; «como bien señala» muestra adhesión (el «bien» es tuyo, no del autor); «cabe citar a» destaca una fuente especialmente pertinente; y verbos como «alega» o «pretende» marcan distancia."
         ],
         "examples": [
           {
@@ -10178,10 +12130,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "de acuerdo con los datos disponibles",
             "en": "fórmula neutra que atribuye una afirmación sin emitir un juicio sobre ella"
-          },
-          {
-            "es": "variar la posición de la atribución",
-            "en": "situar la referencia a la fuente en distintos puntos de la oración para evitar la monotonía"
           }
         ],
         "checkpoint": [
@@ -10196,6 +12144,50 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«Como bien apunta» expresa adhesión de forma implícita: el adverbio «bien» es una valoración tuya. «Según» es neutro, y «alega» y «pretende» marcan distancia."
+          }
+        ]
+      },
+      {
+        "heading": "Posicionarse sin decirlo",
+        "body": [
+          "La elección de la fórmula también comunica la postura del autor del texto frente a la fuente citada. «Como bien señala» sugiere adhesión a la idea referida, mientras que una fórmula más neutra como «según» o «de acuerdo con» simplemente atribuye la afirmación sin emitir juicio alguno sobre su validez. Un uso consciente de estos matices permite al autor posicionarse sutilmente frente a cada fuente sin necesidad de una valoración explícita."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué fórmula atribuye la afirmación sin emitir juicio sobre su validez?",
+            "options": [
+              "De acuerdo con el informe, …",
+              "Como bien señala el informe, …",
+              "El informe pretende demostrar que …"
+            ],
+            "correctIndex": 0,
+            "explanation": "«De acuerdo con» (como «según») simplemente atribuye. «Como bien señala» sugiere adhesión, y «pretende» marca distancia: las dos dejan ver tu postura."
+          }
+        ]
+      },
+      {
+        "heading": "Variar la posición de la atribución",
+        "body": [
+          "Conviene, además, variar la posición de la atribución dentro de la oración: situarla al inicio, en medio o al final del enunciado citado evita la monotonía estructural que resulta de repetir siempre el mismo patrón «según X, ocurre Y» a lo largo de todo un texto extenso."
+        ],
+        "examples": [
+          {
+            "es": "variar la posición de la atribución",
+            "en": "situar la referencia a la fuente en distintos puntos de la oración para evitar la monotonía"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué versión rompe el patrón repetido «según X, ocurre Y»?",
+            "options": [
+              "La inflación, advierte el Banco de España, seguirá alta.",
+              "Según el Banco de España, la inflación seguirá alta.",
+              "De acuerdo con el Banco de España, la inflación seguirá alta."
+            ],
+            "correctIndex": 0,
+            "explanation": "La primera sitúa la atribución en medio del enunciado y evita la monotonía. Las otras dos la colocan al inicio, que es justo el patrón que conviene no repetir a lo largo de un texto extenso."
           }
         ]
       }
@@ -10321,26 +12313,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El corpus documental y el aparato crítico",
+        "heading": "La regla: rastrear cada afirmación hasta su origen",
         "body": [
-          "La regla: cada afirmación relevante debe poder rastrearse hasta su origen. Por eso importa saber de qué tipo es cada fuente (la primaria es el testimonio o el dato original; la secundaria, una interpretación posterior) y dejar el camino marcado en el aparato crítico.",
-          "Un texto académico riguroso se sostiene sobre un corpus documental bien delimitado: el conjunto de fuentes primarias y secundarias que respaldan cada afirmación relevante. Distinguir entre ambos tipos de fuente resulta esencial: la fuente primaria aporta el testimonio o el dato original, mientras que la fuente secundaria ofrece una interpretación posterior de ese material, y confundir una con otra puede debilitar la solidez del argumento.",
-          "El aparato crítico —notas al pie, referencias cruzadas y bibliografía final— cumple una función que va más allá de la mera formalidad: permite al lector rastrear el origen exacto de cada afirmación y contrastar fuentes por sí mismo. Un vacío de cita, es decir, la ausencia de una referencia necesaria en un punto donde el lector la esperaría, mina la credibilidad del texto entero, aunque el resto de la argumentación sea impecable.",
-          "Citar de segunda mano —referirse a una fuente conocida únicamente a través de otra que la menciona— resulta a veces inevitable, pero debe señalarse con claridad, ya que atribuir directamente una idea a un autor sin haber consultado su obra original compromete la fidelidad textual del propio trabajo."
-        ],
-        "examples": [
-          {
-            "es": "distinguir fuente primaria de fuente secundaria",
-            "en": "separar el testimonio original de su interpretación posterior dentro del corpus documental"
-          },
-          {
-            "es": "rastrear el origen de una afirmación",
-            "en": "seguir, mediante el aparato crítico, la referencia exacta de un dato citado"
-          },
-          {
-            "es": "detectar un vacío de cita",
-            "en": "notar la ausencia de una referencia necesaria en un punto del texto"
-          }
+          "La regla: cada afirmación relevante debe poder rastrearse hasta su origen. Por eso importa saber de qué tipo es cada fuente (la primaria es el testimonio o el dato original; la secundaria, una interpretación posterior) y dejar el camino marcado en el aparato crítico."
         ],
         "checkpoint": [
           {
@@ -10354,6 +12329,82 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La fuente primaria es el testimonio de la época: el diario del soldado. El libro, la enciclopedia y el documental son interpretaciones posteriores, es decir, fuentes secundarias (o terciarias)."
+          }
+        ]
+      },
+      {
+        "heading": "El corpus documental",
+        "body": [
+          "Un texto académico riguroso se sostiene sobre un corpus documental bien delimitado: el conjunto de fuentes primarias y secundarias que respaldan cada afirmación relevante. Distinguir entre ambos tipos de fuente resulta esencial: la fuente primaria aporta el testimonio o el dato original, mientras que la fuente secundaria ofrece una interpretación posterior de ese material, y confundir una con otra puede debilitar la solidez del argumento."
+        ],
+        "examples": [
+          {
+            "es": "distinguir fuente primaria de fuente secundaria",
+            "en": "separar el testimonio original de su interpretación posterior dentro del corpus documental"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Citas un artículo de 2010 sobre una carta de Bolívar como si fuera la carta misma. ¿Qué error cometes?",
+            "options": [
+              "Confundir una fuente secundaria con una primaria.",
+              "Dejar un vacío de cita.",
+              "Hacer una referencia cruzada.",
+              "Usar una nota aclaratoria."
+            ],
+            "correctIndex": 0,
+            "explanation": "La carta es la fuente primaria (el testimonio original); el artículo, una fuente secundaria (una interpretación posterior). Tratarlo como la carta confunde los dos tipos y debilita el argumento; no falta ninguna referencia ni hay remisión interna."
+          }
+        ]
+      },
+      {
+        "heading": "El aparato crítico y el vacío de cita",
+        "body": [
+          "El aparato crítico —notas al pie, referencias cruzadas y bibliografía final— cumple una función que va más allá de la mera formalidad: permite al lector rastrear el origen exacto de cada afirmación y contrastar fuentes por sí mismo. Un vacío de cita, es decir, la ausencia de una referencia necesaria en un punto donde el lector la esperaría, mina la credibilidad del texto entero, aunque el resto de la argumentación sea impecable."
+        ],
+        "examples": [
+          {
+            "es": "rastrear el origen de una afirmación",
+            "en": "seguir, mediante el aparato crítico, la referencia exacta de un dato citado"
+          },
+          {
+            "es": "detectar un vacío de cita",
+            "en": "notar la ausencia de una referencia necesaria en un punto del texto"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Escribes que «el 40 % de los encuestados» desconfía de la prensa, sin ninguna nota ni referencia. ¿Qué hay ahí?",
+            "options": [
+              "un vacío de cita",
+              "una referencia cruzada",
+              "una nota aclaratoria",
+              "una cita de segunda mano"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un dato así es justo donde el lector espera una referencia; su ausencia es un vacío de cita y mina la credibilidad de todo el texto. No hay remisión a otra parte del texto, ni nota que explique, ni fuente intermedia."
+          }
+        ]
+      },
+      {
+        "heading": "Citar de segunda mano",
+        "body": [
+          "Citar de segunda mano —referirse a una fuente conocida únicamente a través de otra que la menciona— resulta a veces inevitable, pero debe señalarse con claridad, ya que atribuir directamente una idea a un autor sin haber consultado su obra original compromete la fidelidad textual del propio trabajo."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Conoces una frase de Weber solo porque la cita un artículo de Ruiz. ¿Cómo la incorporas?",
+            "options": [
+              "Atribuyéndola a Weber e indicando que está citado en Ruiz.",
+              "Atribuyéndola a Weber como si hubieras leído su obra.",
+              "Atribuyéndosela a Ruiz.",
+              "Sin citar a ninguno de los dos."
+            ],
+            "correctIndex": 0,
+            "explanation": "Citar de segunda mano a veces es inevitable, pero debe señalarse con claridad («citado en…»). Atribuirla directamente a Weber compromete la fidelidad textual, atribuírsela a Ruiz es falso y no citar a nadie es plagio."
           }
         ]
       }
@@ -10460,20 +12511,40 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El plagio y los límites de la reformulación",
+        "heading": "Qué cuenta como plagio",
         "body": [
-          "El plagio no se limita a copiar literalmente un texto ajeno sin entrecomillarlo: incluye también parafrasear tan cerca del original que la reformulación carece de aportación propia, o presentar como propia una idea sin conceder el crédito intelectual correspondiente a su autor original. La norma de citación de cada disciplina establece con precisión cómo debe reconocerse esa autoría, pero el principio subyacente es siempre el mismo: toda idea ajena requiere atribución.",
-          "Una paráfrasis fiel exige más que sustituir algunas palabras por sinónimos; requiere reorganizar la estructura sintáctica de la oración original y digerir de verdad el contenido antes de reformularlo con voz propia. Cuando ese proceso no ocurre, el resultado se acerca peligrosamente a una cita textual encubierta, sin el entrecomillado ni la atribución que la honestidad académica exige.",
-          "Contrastar fuentes antes de sostener una tesis resulta igualmente indispensable: apoyar un argumento en una única referencia, sin corroborar con fuentes adicionales, expone el texto a errores que un corpus documental más amplio habría permitido detectar a tiempo."
+          "El plagio no se limita a copiar literalmente un texto ajeno sin entrecomillarlo: incluye también parafrasear tan cerca del original que la reformulación carece de aportación propia, o presentar como propia una idea sin conceder el crédito intelectual correspondiente a su autor original. La norma de citación de cada disciplina establece con precisión cómo debe reconocerse esa autoría, pero el principio subyacente es siempre el mismo: toda idea ajena requiere atribución."
+        ],
+        "examples": [
+          {
+            "es": "conceder el crédito intelectual",
+            "en": "reconocer explícitamente la autoría original de una idea citada"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál de estas prácticas es plagio aunque no haya copia literal?",
+            "options": [
+              "Presentar como propia una idea ajena sin atribuirla.",
+              "Citar entre comillas con la referencia completa.",
+              "Parafrasear con estructura propia y citar al autor.",
+              "Indicar «citado en…» para una fuente de segunda mano."
+            ],
+            "correctIndex": 0,
+            "explanation": "El plagio incluye presentar como propia una idea sin conceder el crédito intelectual a su autor. Las otras tres son formas correctas de atribuir: toda idea ajena requiere atribución, y ahí la tiene."
+          }
+        ]
+      },
+      {
+        "heading": "Los límites de la reformulación",
+        "body": [
+          "Una paráfrasis fiel exige más que sustituir algunas palabras por sinónimos; requiere reorganizar la estructura sintáctica de la oración original y digerir de verdad el contenido antes de reformularlo con voz propia. Cuando ese proceso no ocurre, el resultado se acerca peligrosamente a una cita textual encubierta, sin el entrecomillado ni la atribución que la honestidad académica exige."
         ],
         "examples": [
           {
             "es": "carecer de aportación propia",
             "en": "reformular tan cerca del original que la paráfrasis no añade nada nuevo"
-          },
-          {
-            "es": "conceder el crédito intelectual",
-            "en": "reconocer explícitamente la autoría original de una idea citada"
           },
           {
             "es": "reorganizar la estructura sintáctica",
@@ -10492,6 +12563,26 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La paráfrasis fiel reorganiza la sintaxis, digiere el contenido y lo atribuye. Los sinónimos sueltos dejan una cita textual encubierta; las comillas son para las palabras exactas, y atribuir no autoriza a copiar sin comillas."
+          }
+        ]
+      },
+      {
+        "heading": "Contrastar antes de sostener",
+        "body": [
+          "Contrastar fuentes antes de sostener una tesis resulta igualmente indispensable: apoyar un argumento en una única referencia, sin corroborar con fuentes adicionales, expone el texto a errores que un corpus documental más amplio habría permitido detectar a tiempo."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Tu tesis se apoya en un único estudio. ¿Qué conviene hacer?",
+            "options": [
+              "Contrastarla con otras fuentes antes de sostenerla.",
+              "Citar ese mismo estudio más veces.",
+              "Ampliar la cita textual del estudio.",
+              "Quitar la referencia para que no se note."
+            ],
+            "correctIndex": 0,
+            "explanation": "Una única referencia, sin corroborar, expone el texto a errores que un corpus más amplio habría detectado. Citarla más veces o más largo no añade contraste, y quitarla deja un vacío de cita."
           }
         ]
       }
@@ -10594,17 +12685,13 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica: la paráfrasis demasiado cercana",
         "body": [
           "Tutora: Antes de entregar el capítulo, revisemos cómo has incorporado las fuentes.",
           "Estudiante: Aquí, por ejemplo, cito textualmente al autor porque su definición me pareció insustituible.",
           "Tutora: Bien entrecomillado. Pero en este otro párrafo, tu paráfrasis se parece demasiado a la fuente original.",
           "Estudiante: Tienes razón, apenas cambié un par de palabras. ¿Debería citarlo entre comillas directamente?",
-          "Tutora: O bien eso, o reformula la oración por completo, reorganizando la estructura, no solo el vocabulario.",
-          "Estudiante: Entendido. Y aquí tengo una cita de segunda mano, la encontré mencionada en otro artículo.",
-          "Tutora: En ese caso, señálalo con claridad: «según lo expuesto por Martínez, citado en...». Así evitas atribuir directamente algo que no consultaste en la fuente original.",
-          "Estudiante: Perfecto, lo corrijo ahora mismo. ¿El resto del aparato crítico te parece completo?",
-          "Tutora: Casi. Añade una referencia cruzada al capítulo tres, donde ya habías tratado ese mismo dato."
+          "Tutora: O bien eso, o reformula la oración por completo, reorganizando la estructura, no solo el vocabulario."
         ],
         "checkpoint": [
           {
@@ -10618,6 +12705,29 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La tutora ofrece dos salidas legítimas: o es cita textual (con comillas) o es paráfrasis real (estructura, no solo vocabulario). Más sinónimos seguirían siendo plagio, y una nota o una referencia cruzada no resuelven la cercanía al original."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica: segunda mano y referencia cruzada",
+        "body": [
+          "Estudiante: Entendido. Y aquí tengo una cita de segunda mano, la encontré mencionada en otro artículo.",
+          "Tutora: En ese caso, señálalo con claridad: «según lo expuesto por Martínez, citado en...». Así evitas atribuir directamente algo que no consultaste en la fuente original.",
+          "Estudiante: Perfecto, lo corrijo ahora mismo. ¿El resto del aparato crítico te parece completo?",
+          "Tutora: Casi. Añade una referencia cruzada al capítulo tres, donde ya habías tratado ese mismo dato."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cómo debe señalar la estudiante la cita que encontró mencionada en otro artículo?",
+            "options": [
+              "Con «citado en…», indicando la fuente intermedia.",
+              "Atribuyéndola directamente al autor original.",
+              "Con una referencia cruzada al capítulo tres.",
+              "Entre comillas, sin indicar de dónde la sacó."
+            ],
+            "correctIndex": 0,
+            "explanation": "Es una cita de segunda mano: hay que señalarla con claridad («según lo expuesto por Martínez, citado en…») para no atribuir algo que no se consultó en la fuente original. La referencia cruzada al capítulo tres es otra corrección, para un dato repetido."
           }
         ]
       }
@@ -10895,10 +13005,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "La idea: distingue los términos por su función",
+        "heading": "¿Adónde envía? ¿Qué regula?",
         "body": [
-          "Esta tanda tiene varios casi sinónimos; la clave es preguntarse para qué sirve cada uno. ¿Adónde envía? La referencia bibliográfica identifica otra obra; la referencia cruzada remite a otra parte del mismo texto; la nota aclaratoria no envía a ningún sitio, explica. ¿Qué regula? La norma de citación es el conjunto de reglas; el estilo de citación (APA, MLA, Chicago) es cada sistema concreto. ¿Qué atribuye? «Según lo expuesto por» retoma lo que dijo una fuente; «según se desprende de» introduce una conclusión que tú deduces de ella.",
-          "Y la ética de la cita: el crédito intelectual se le da al autor original, la fidelidad textual respeta sus palabras, y cotejar o corroborar fuentes es compararlas para verificar."
+          "Esta tanda tiene varios casi sinónimos; la clave es preguntarse para qué sirve cada uno. ¿Adónde envía? La referencia bibliográfica identifica otra obra; la referencia cruzada remite a otra parte del mismo texto; la nota aclaratoria no envía a ningún sitio, explica. ¿Qué regula? La norma de citación es el conjunto de reglas; el estilo de citación (APA, MLA, Chicago) es cada sistema concreto."
         ],
         "examples": [
           {
@@ -10906,68 +13015,32 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "la remisión de una parte de un texto a otra parte relacionada"
           },
           {
-            "es": "el repertorio de fuentes",
-            "en": "conjunto ordenado de materiales consultados para respaldar una investigación"
-          },
-          {
-            "es": "la atribución",
-            "en": "el reconocimiento explícito del origen de una idea o de una cita"
-          },
-          {
-            "es": "según lo expuesto por",
-            "en": "fórmula que retoma una idea ya mencionada por una fuente concreta"
-          },
-          {
-            "es": "el aparato crítico",
-            "en": "el conjunto de notas y referencias que acompañan a un texto académico"
-          },
-          {
-            "es": "la norma de citación",
-            "en": "el conjunto de reglas que rige la manera de citar las fuentes"
-          },
-          {
-            "es": "la paráfrasis fiel",
-            "en": "una reformulación que respeta con exactitud el sentido del texto original"
-          },
-          {
-            "es": "el vacío de cita",
-            "en": "la ausencia indebida de una referencia necesaria dentro de un texto"
-          },
-          {
-            "es": "corroborar con fuentes",
-            "en": "respaldar una afirmación mediante referencias documentadas"
-          },
-          {
             "es": "la nota aclaratoria",
             "en": "anotación breve que explica o precisa un punto del texto"
-          },
-          {
-            "es": "la cita de segunda mano",
-            "en": "la referencia a una fuente conocida únicamente a través de otra"
-          },
-          {
-            "es": "el estilo de citación",
-            "en": "el sistema normalizado que regula el formato de las referencias"
-          },
-          {
-            "es": "la fidelidad textual",
-            "en": "el respeto exacto a las palabras originales de una fuente citada"
-          },
-          {
-            "es": "el crédito intelectual",
-            "en": "el reconocimiento que merece el autor original de una idea"
-          },
-          {
-            "es": "según se desprende de",
-            "en": "fórmula que introduce una conclusión basada en el contenido de una fuente"
           },
           {
             "es": "la referencia bibliográfica",
             "en": "el dato completo que identifica una fuente citada en un texto"
           },
           {
-            "es": "cotejar fuentes",
-            "en": "comparar distintos documentos para verificar la exactitud de una información"
+            "es": "la norma de citación",
+            "en": "el conjunto de reglas que rige la manera de citar las fuentes"
+          },
+          {
+            "es": "el estilo de citación",
+            "en": "el sistema normalizado que regula el formato de las referencias"
+          },
+          {
+            "es": "el aparato crítico",
+            "en": "el conjunto de notas y referencias que acompañan a un texto académico"
+          },
+          {
+            "es": "el repertorio de fuentes",
+            "en": "conjunto ordenado de materiales consultados para respaldar una investigación"
+          },
+          {
+            "es": "el vacío de cita",
+            "en": "la ausencia indebida de una referencia necesaria dentro de un texto"
           }
         ],
         "checkpoint": [
@@ -10982,6 +13055,64 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Remite a otra parte del mismo texto: referencia cruzada. La bibliográfica identificaría otra obra, la aclaratoria explicaría algo y la de segunda mano señalaría una fuente conocida a través de otra."
+          }
+        ]
+      },
+      {
+        "heading": "¿Qué atribuye? Y la ética de la cita",
+        "body": [
+          "¿Qué atribuye? «Según lo expuesto por» retoma lo que dijo una fuente; «según se desprende de» introduce una conclusión que tú deduces de ella.",
+          "Y la ética de la cita: el crédito intelectual se le da al autor original, la fidelidad textual respeta sus palabras, y cotejar o corroborar fuentes es compararlas para verificar."
+        ],
+        "examples": [
+          {
+            "es": "según lo expuesto por",
+            "en": "fórmula que retoma una idea ya mencionada por una fuente concreta"
+          },
+          {
+            "es": "según se desprende de",
+            "en": "fórmula que introduce una conclusión basada en el contenido de una fuente"
+          },
+          {
+            "es": "la atribución",
+            "en": "el reconocimiento explícito del origen de una idea o de una cita"
+          },
+          {
+            "es": "la paráfrasis fiel",
+            "en": "una reformulación que respeta con exactitud el sentido del texto original"
+          },
+          {
+            "es": "corroborar con fuentes",
+            "en": "respaldar una afirmación mediante referencias documentadas"
+          },
+          {
+            "es": "la cita de segunda mano",
+            "en": "la referencia a una fuente conocida únicamente a través de otra"
+          },
+          {
+            "es": "la fidelidad textual",
+            "en": "el respeto exacto a las palabras originales de una fuente citada"
+          },
+          {
+            "es": "el crédito intelectual",
+            "en": "el reconocimiento que merece el autor original de una idea"
+          },
+          {
+            "es": "cotejar fuentes",
+            "en": "comparar distintos documentos para verificar la exactitud de una información"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Quieres presentar una conclusión que tú deduces del censo: «___ los datos del censo, la población envejece más rápido de lo previsto.»",
+            "options": [
+              "Según se desprende de",
+              "Según lo expuesto por",
+              "Cabe citar a"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Según se desprende de» introduce una conclusión que tú deduces de la fuente. «Según lo expuesto por» retoma lo que la fuente dijo (y suele llevar un autor, no unos datos), y «cabe citar a» presenta una fuente pertinente, no una conclusión."
           }
         ]
       }
@@ -11097,11 +13228,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La idea: una afirmación disfrazada de pregunta",
+        "heading": "Una afirmación de signo contrario",
         "body": [
-          "La pregunta retórica no busca información: busca un efecto. Funciona como una afirmación de signo contrario: «¿Acaso alguien duda de la gravedad del problema?» significa «Nadie duda»; «¿Quién no ha sentido miedo?» significa «Todos lo hemos sentido». Por eso, al convertir una afirmación en pregunta retórica, la polaridad se invierte (nadie → alguien, todos → quién no).",
-          "El efecto persuasivo de este recurso reside precisamente en su capacidad de involucrar al oyente en el razonamiento sin que este perciba que está siendo conducido hacia una conclusión ya fijada. Al formular la idea como pregunta, el hablante invita a una participación aparente, y esa sensación de haber llegado uno mismo a la conclusión resulta mucho más persuasiva que una simple afirmación directa.",
-          "Conviene distinguir la pregunta retórica de la pregunta capciosa: mientras la primera no espera respuesta y funciona como afirmación disfrazada, la segunda sí espera una respuesta concreta, pero la formula de manera que induzca al interlocutor hacia una contestación predeterminada, a menudo comprometedora para quien responde."
+          "La pregunta retórica no busca información: busca un efecto. Funciona como una afirmación de signo contrario: «¿Acaso alguien duda de la gravedad del problema?» significa «Nadie duda»; «¿Quién no ha sentido miedo?» significa «Todos lo hemos sentido». Por eso, al convertir una afirmación en pregunta retórica, la polaridad se invierte (nadie → alguien, todos → quién no)."
         ],
         "examples": [
           {
@@ -11111,10 +13240,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "una afirmación disfrazada de pregunta",
             "en": "el mecanismo esencial de la pregunta retórica, que oculta una tesis bajo forma interrogativa"
-          },
-          {
-            "es": "involucrar al oyente en el razonamiento",
-            "en": "hacer que el público sienta que llega por sí mismo a la conclusión propuesta"
           }
         ],
         "checkpoint": [
@@ -11129,6 +13254,51 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La pregunta retórica afirma lo contrario de lo que pregunta: «¿Quién no…?» equivale a «todos». No pide información, así que no es una pregunta real."
+          }
+        ]
+      },
+      {
+        "heading": "Por qué persuade",
+        "body": [
+          "El efecto persuasivo de este recurso reside precisamente en su capacidad de involucrar al oyente en el razonamiento sin que este perciba que está siendo conducido hacia una conclusión ya fijada. Al formular la idea como pregunta, el hablante invita a una participación aparente, y esa sensación de haber llegado uno mismo a la conclusión resulta mucho más persuasiva que una simple afirmación directa."
+        ],
+        "examples": [
+          {
+            "es": "involucrar al oyente en el razonamiento",
+            "en": "hacer que el público sienta que llega por sí mismo a la conclusión propuesta"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué una pregunta retórica suele persuadir más que una afirmación directa?",
+            "options": [
+              "Porque el oyente siente que llega por sí mismo a la conclusión.",
+              "Porque obliga al oyente a responder en voz alta.",
+              "Porque aporta datos nuevos al argumento.",
+              "Porque suena más neutral que una afirmación."
+            ],
+            "correctIndex": 0,
+            "explanation": "La pregunta invita a una participación aparente, y la sensación de haber llegado uno mismo a la conclusión convence más. No espera respuesta en voz alta, no aporta datos y no es neutral: conduce hacia una conclusión ya fijada."
+          }
+        ]
+      },
+      {
+        "heading": "Retórica frente a capciosa",
+        "body": [
+          "Conviene distinguir la pregunta retórica de la pregunta capciosa: mientras la primera no espera respuesta y funciona como afirmación disfrazada, la segunda sí espera una respuesta concreta, pero la formula de manera que induzca al interlocutor hacia una contestación predeterminada, a menudo comprometedora para quien responde."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«¿Sigue usted cobrando de dos empresas a la vez?» ¿Qué tipo de pregunta es?",
+            "options": [
+              "capciosa: espera respuesta, y cualquiera lo compromete",
+              "retórica: no espera ninguna respuesta",
+              "informativa: solo pide un dato neutro"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es capciosa: sí espera una respuesta, pero tanto «sí» como «no» admiten que cobraba de dos empresas. La retórica no espera respuesta (es una afirmación disfrazada), y aquí la pregunta no es neutra."
           }
         ]
       }
@@ -11251,9 +13421,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La hipófora: preguntar y responder uno mismo",
         "body": [
-          "Una variante especialmente eficaz de la pregunta retórica es la hipófora, en la que el propio hablante formula la interrogación y, sin dejar espacio real para la participación del oyente, ofrece de inmediato la respuesta. Esta estructura —«¿cuál es la verdadera causa del problema? La respuesta es más simple de lo que parece»— simula un diálogo con el público, pero en realidad conduce el razonamiento de manera férrea hacia la conclusión que el orador ya tenía preparada.",
-          "La hipófora resulta particularmente útil para organizar un discurso extenso, ya que cada pregunta marca una transición clara hacia un nuevo bloque temático, funcionando casi como un subtítulo oral que orienta al oyente sobre la estructura del razonamiento. Este uso estructural, además del persuasivo, explica su presencia frecuente en discursos políticos, conferencias y artículos de opinión de cierta extensión.",
-          "Un riesgo de este recurso, empleado con exceso, es que el discurso empiece a sonar mecánico, como una sucesión previsible de preguntas y respuestas propias que agota al oyente en lugar de sorprenderlo. Alternar la hipófora con otros recursos discursivos evita ese efecto de monotonía estructural."
+          "Una variante especialmente eficaz de la pregunta retórica es la hipófora, en la que el propio hablante formula la interrogación y, sin dejar espacio real para la participación del oyente, ofrece de inmediato la respuesta. Esta estructura —«¿cuál es la verdadera causa del problema? La respuesta es más simple de lo que parece»— simula un diálogo con el público, pero en realidad conduce el razonamiento de manera férrea hacia la conclusión que el orador ya tenía preparada."
         ],
         "examples": [
           {
@@ -11263,10 +13431,66 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "simular un diálogo con el público",
             "en": "el efecto retórico que produce la hipófora al formular y responder su propia pregunta"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué fragmento es una hipófora?",
+            "options": [
+              "¿Qué ha fallado? Ha fallado la planificación, y les diré por qué.",
+              "¿Quién puede estar en contra de la educación pública?",
+              "¿Ha dejado usted de mentir a sus votantes?",
+              "¿A qué hora empieza la sesión?"
+            ],
+            "correctIndex": 0,
+            "explanation": "En la hipófora el propio hablante pregunta y responde de inmediato. La segunda es retórica (nadie responde), la tercera es capciosa (responde el interlocutor y queda comprometido) y la cuarta es una pregunta real."
+          }
+        ]
+      },
+      {
+        "heading": "Un subtítulo oral",
+        "body": [
+          "La hipófora resulta particularmente útil para organizar un discurso extenso, ya que cada pregunta marca una transición clara hacia un nuevo bloque temático, funcionando casi como un subtítulo oral que orienta al oyente sobre la estructura del razonamiento. Este uso estructural, además del persuasivo, explica su presencia frecuente en discursos políticos, conferencias y artículos de opinión de cierta extensión."
+        ],
+        "examples": [
           {
             "es": "marcar una transición temática",
             "en": "emplear la hipófora como recurso estructural para introducir un nuevo bloque del discurso"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En un discurso extenso, ¿qué función estructural cumple la hipófora?",
+            "options": [
+              "Marca la transición hacia un nuevo bloque temático.",
+              "Da la palabra al público.",
+              "Acorta el discurso.",
+              "Evita tener que dar respuestas."
+            ],
+            "correctIndex": 0,
+            "explanation": "Cada pregunta funciona como un subtítulo oral que anuncia el bloque siguiente. No cede la palabra (la respuesta la da el propio orador), no acorta nada y no evita responder: responde enseguida."
+          }
+        ]
+      },
+      {
+        "heading": "Sin abusar del recurso",
+        "body": [
+          "Un riesgo de este recurso, empleado con exceso, es que el discurso empiece a sonar mecánico, como una sucesión previsible de preguntas y respuestas propias que agota al oyente en lugar de sorprenderlo. Alternar la hipófora con otros recursos discursivos evita ese efecto de monotonía estructural."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Tu discurso encadena doce hipóforas seguidas. ¿Qué riesgo corres y cómo lo evitas?",
+            "options": [
+              "Suena mecánico; alterna la hipófora con otros recursos.",
+              "Ninguno: cuantas más hipóforas, más persuade.",
+              "Que el público conteste; baja la voz al preguntar.",
+              "Que el discurso quede corto; añade más preguntas."
+            ],
+            "correctIndex": 0,
+            "explanation": "En exceso, la hipófora se vuelve una sucesión previsible que agota al oyente; alternarla con otros recursos evita esa monotonía. Más preguntas agravan el problema, y el público no contesta porque la respuesta la da el orador."
           }
         ]
       }
@@ -11352,25 +13576,15 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La anáfora y la reiteración interrogativa",
+        "heading": "La regla de la anáfora interrogativa",
         "body": [
           "La regla de la anáfora interrogativa: se repite el mismo arranque de pregunta (¿Quién…? ¿Quién…? ¿Quién…?), con intensidad creciente y, mejor, en series de tres. La repetición crea un patrón que el oído reconoce y acumula tensión hasta la idea final.",
-          "Cuando una misma estructura de pregunta se repite al inicio de frases sucesivas, se produce una anáfora interrogativa que intensifica notablemente el efecto persuasivo del discurso. La reiteración interrogativa —«¿Quién ha de responder por esto? ¿Quién ha de asumir las consecuencias? ¿Quién ha de rendir cuentas?»— construye un clímax discursivo que va acumulando tensión con cada nueva pregunta, hasta desembocar en la idea central que el orador quiere fijar en la memoria del público.",
-          "Este recurso funciona especialmente bien en el cierre de un discurso o de un párrafo argumentativo, porque el ritmo acelerado de preguntas encadenadas transmite urgencia e indignación, dos emociones que refuerzan considerablemente la fuerza persuasiva del mensaje. La pregunta retórica encadenada exige, sin embargo, un control estricto del ritmo: demasiadas repeticiones diluyen el efecto en lugar de intensificarlo.",
           "El eco discursivo que genera la anáfora interrogativa también facilita la memorización del mensaje por parte del oyente, ya que la estructura repetida actúa como un patrón reconocible que el público retiene con más facilidad que una sucesión de ideas inconexas."
         ],
         "examples": [
           {
             "es": "¿Quién ha de responder? ¿Quién ha de rendir cuentas?",
             "en": "una anáfora interrogativa que construye un clímax discursivo mediante la repetición"
-          },
-          {
-            "es": "acumular tensión con cada pregunta",
-            "en": "intensificar progresivamente el efecto persuasivo mediante la reiteración interrogativa"
-          },
-          {
-            "es": "un ritmo acelerado de preguntas",
-            "en": "una estructura interrogativa enfática que transmite urgencia e indignación"
           }
         ],
         "checkpoint": [
@@ -11385,6 +13599,57 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La primera repite el arranque («¿Quién…?») en una tríada de gravedad creciente: saber, permitir, ocultar. La segunda cambia de arranque y pierde el eco; la tercera es una hipófora y la cuarta, una pregunta suelta."
+          }
+        ]
+      },
+      {
+        "heading": "Un clímax por acumulación",
+        "body": [
+          "Cuando una misma estructura de pregunta se repite al inicio de frases sucesivas, se produce una anáfora interrogativa que intensifica notablemente el efecto persuasivo del discurso. La reiteración interrogativa —«¿Quién ha de responder por esto? ¿Quién ha de asumir las consecuencias? ¿Quién ha de rendir cuentas?»— construye un clímax discursivo que va acumulando tensión con cada nueva pregunta, hasta desembocar en la idea central que el orador quiere fijar en la memoria del público."
+        ],
+        "examples": [
+          {
+            "es": "acumular tensión con cada pregunta",
+            "en": "intensificar progresivamente el efecto persuasivo mediante la reiteración interrogativa"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué serie es una anáfora interrogativa?",
+            "options": [
+              "¿Quién decidió? ¿Quién calló? ¿Quién pagó?",
+              "¿Quién decidió? ¿Cuándo se supo? ¿Por qué nadie habló?",
+              "Decidieron ellos; callaron ellos; pagamos nosotros."
+            ],
+            "correctIndex": 0,
+            "explanation": "La anáfora interrogativa repite el mismo arranque de pregunta al inicio de frases sucesivas (¿Quién…?). La segunda cambia de interrogativo en cada pregunta, y la tercera repite una palabra pero no son preguntas."
+          }
+        ]
+      },
+      {
+        "heading": "Dónde usarla y cuánto",
+        "body": [
+          "Este recurso funciona especialmente bien en el cierre de un discurso o de un párrafo argumentativo, porque el ritmo acelerado de preguntas encadenadas transmite urgencia e indignación, dos emociones que refuerzan considerablemente la fuerza persuasiva del mensaje. La pregunta retórica encadenada exige, sin embargo, un control estricto del ritmo: demasiadas repeticiones diluyen el efecto en lugar de intensificarlo."
+        ],
+        "examples": [
+          {
+            "es": "un ritmo acelerado de preguntas",
+            "en": "una estructura interrogativa enfática que transmite urgencia e indignación"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿En qué momento rinde más una serie de preguntas encadenadas?",
+            "options": [
+              "En el cierre de un discurso o de un párrafo argumentativo.",
+              "En el saludo inicial a las autoridades.",
+              "En la lectura de los datos técnicos.",
+              "En los agradecimientos finales."
+            ],
+            "correctIndex": 0,
+            "explanation": "El ritmo acelerado transmite urgencia e indignación, y por eso funciona en el cierre, donde se fija la idea central. En un saludo, unos datos o unos agradecimientos esa tensión no tiene adónde llevar. Y aun ahí, sin pasarse: demasiadas repeticiones diluyen el efecto."
           }
         ]
       }
@@ -11474,22 +13739,94 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Otras estructuras de énfasis: la interpelación y la duda fingida",
+        "heading": "Tres preguntas que no buscan respuesta",
         "body": [
-          "La regla común: estas tres estructuras tienen forma de pregunta, pero buscan un efecto, no una respuesta. Se distinguen por su destinatario y su tono: la interpelación señala a alguien concreto, la duda retórica finge no saber algo que el hablante tiene claro, y la pregunta ecoica repite las palabras del otro para cuestionarlas. Fíjate en la gramática de la duda fingida: «¿Será posible que + subjuntivo?».",
-          "Además de la pregunta retórica propiamente dicha, el español dispone de otras estructuras interrogativas orientadas al énfasis más que a la obtención de información. La interpelación dirige la pregunta directamente a una persona o a un colectivo concreto —«¿y usted, qué haría en mi lugar?»— con el fin de comprometerlo emocionalmente con el argumento, aunque no se espere en realidad una respuesta articulada en ese momento.",
-          "La duda retórica, por su parte, finge incertidumbre sobre algo que el hablante en realidad tiene muy claro, con el propósito de realzar una afirmación o una crítica sin formularla de manera abiertamente agresiva. Expresiones como «¿será posible que sigamos ignorando esta evidencia?» combinan la duda fingida con una crítica implícita, generando un matiz irónico de la pregunta que refuerza el mensaje sin formularlo de manera abiertamente agresiva.",
-          "La pregunta ecoica, que repite literalmente parte de lo dicho por el interlocutor pero con una entonación distinta, resulta un recurso especialmente eficaz para desafiar al interlocutor sin recurrir a una réplica frontal: repetir sus propias palabras, con el matiz adecuado, puede bastar para exponer una contradicción o una debilidad en su argumento."
+          "La regla común: estas tres estructuras tienen forma de pregunta, pero buscan un efecto, no una respuesta. Se distinguen por su destinatario y su tono: la interpelación señala a alguien concreto, la duda retórica finge no saber algo que el hablante tiene claro, y la pregunta ecoica repite las palabras del otro para cuestionarlas. Fíjate en la gramática de la duda fingida: «¿Será posible que + subjuntivo?»."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué estructura finge no saber algo que el hablante tiene claro?",
+            "options": [
+              "la duda retórica",
+              "la interpelación",
+              "la pregunta ecoica",
+              "la hipófora"
+            ],
+            "correctIndex": 0,
+            "explanation": "La duda retórica finge incertidumbre. La interpelación señala a alguien concreto, la pregunta ecoica repite las palabras del otro para cuestionarlas y la hipófora pregunta y responde el propio hablante."
+          }
+        ]
+      },
+      {
+        "heading": "La interpelación",
+        "body": [
+          "Además de la pregunta retórica propiamente dicha, el español dispone de otras estructuras interrogativas orientadas al énfasis más que a la obtención de información. La interpelación dirige la pregunta directamente a una persona o a un colectivo concreto —«¿y usted, qué haría en mi lugar?»— con el fin de comprometerlo emocionalmente con el argumento, aunque no se espere en realidad una respuesta articulada en ese momento."
         ],
         "examples": [
           {
             "es": "¿y usted, qué haría en mi lugar?",
             "en": "una interpelación directa que compromete emocionalmente al oyente con el argumento"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Y ustedes, padres y madres, ¿dejarían a sus hijos en un edificio así?» ¿Qué recurso es?",
+            "options": [
+              "la interpelación",
+              "la pregunta ecoica",
+              "la duda retórica",
+              "la hipófora"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dirige la pregunta a un colectivo concreto (padres y madres) para comprometerlo emocionalmente, sin esperar una respuesta articulada: es una interpelación. No repite palabras del otro, no finge dudar y el hablante no se responde."
+          }
+        ]
+      },
+      {
+        "heading": "La duda retórica",
+        "body": [
+          "La duda retórica, por su parte, finge incertidumbre sobre algo que el hablante en realidad tiene muy claro, con el propósito de realzar una afirmación o una crítica sin formularla de manera abiertamente agresiva. Expresiones como «¿será posible que sigamos ignorando esta evidencia?» combinan la duda fingida con una crítica implícita, generando un matiz irónico de la pregunta que refuerza el mensaje sin formularlo de manera abiertamente agresiva."
+        ],
+        "examples": [
           {
             "es": "¿será posible que sigamos ignorando esto?",
             "en": "una duda retórica que combina incertidumbre fingida con una crítica implícita"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«¿Será posible que nadie haya leído el informe?» ¿Qué hace el hablante?",
+            "options": [
+              "Finge dudar para criticar que nadie lo ha leído.",
+              "Pide información porque no sabe si alguien lo leyó.",
+              "Repite las palabras de su rival para cuestionarlas.",
+              "Se dirige a una persona concreta del público."
+            ],
+            "correctIndex": 0,
+            "explanation": "Es una duda retórica: el hablante sabe la respuesta y finge incertidumbre para formular una crítica sin agresividad abierta. No es una pregunta real, no repite palabras de otro (eso es la ecoica) ni interpela a alguien concreto."
           },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué duda fingida está bien construida?",
+            "options": [
+              "¿Será posible que sigamos esperando?",
+              "¿Será posible que seguimos esperando?",
+              "¿Será posible que seguiremos esperando?"
+            ],
+            "correctIndex": 0,
+            "explanation": "La fórmula es «¿Será posible que + subjuntivo?»: sigamos. El indicativo (seguimos, seguiremos) no va tras «será posible que»."
+          }
+        ]
+      },
+      {
+        "heading": "La pregunta ecoica",
+        "body": [
+          "La pregunta ecoica, que repite literalmente parte de lo dicho por el interlocutor pero con una entonación distinta, resulta un recurso especialmente eficaz para desafiar al interlocutor sin recurrir a una réplica frontal: repetir sus propias palabras, con el matiz adecuado, puede bastar para exponer una contradicción o una debilidad en su argumento."
+        ],
+        "examples": [
           {
             "es": "repetir las palabras del interlocutor con otro tono",
             "en": "emplear una pregunta ecoica para exponer una contradicción sin una réplica frontal"
@@ -11571,10 +13908,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Duda fingida e interpelación: para qué sirven",
+        "heading": "La duda fingida",
         "body": [
-          "La duda fingida (dubitación) consiste en simular que no se encuentra la palabra justa. Tiene una gramática fija: infinitivo interrogativo («¿Cómo llamar a esto?»), «no sé si» + infinitivo o condicional («No sé si llamarlo error o descaro») y una lista de candidatos en preguntas elípticas («¿Torpeza? ¿Mala fe?»). Funciona porque el orador pone la palabra dura sobre la mesa sin asumirla: es el oyente quien elige la peor.",
-          "La interpelación se dirige a alguien concreto con un vocativo entre comas y una pregunta en segunda persona gramatical: «Y usted, señor ministro, ¿qué habría hecho?». Funciona porque convierte al oyente en responsable: ya no puede escuchar desde fuera. Ojo a la concordancia: con «usted / ustedes» el verbo va en tercera persona (¿qué propone?, ¿qué proponen?), nunca en la de «tú / vosotros»."
+          "La duda fingida (dubitación) consiste en simular que no se encuentra la palabra justa. Tiene una gramática fija: infinitivo interrogativo («¿Cómo llamar a esto?»), «no sé si» + infinitivo o condicional («No sé si llamarlo error o descaro») y una lista de candidatos en preguntas elípticas («¿Torpeza? ¿Mala fe?»). Funciona porque el orador pone la palabra dura sobre la mesa sin asumirla: es el oyente quien elige la peor."
         ],
         "examples": [
           {
@@ -11584,14 +13920,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "No sé si llamarlo ingenuidad o cinismo.",
             "en": "I don't know whether to call it naivety or cynicism. (no sé si + infinitivo)"
-          },
-          {
-            "es": "Y ustedes, señores accionistas, ¿dónde estaban cuando se aprobó?",
-            "en": "And you, shareholders, where were you when it was approved? (interpelación: vocativo + 3.ª persona plural)"
-          },
-          {
-            "es": "Y tú, que tanto presumes de honradez, ¿por qué callaste?",
-            "en": "And you, who boast so much about honesty, why did you keep quiet? (interpelación con tú)"
           }
         ],
         "checkpoint": [
@@ -11610,12 +13938,61 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "La interpelación",
+        "body": [
+          "La interpelación se dirige a alguien concreto con un vocativo entre comas y una pregunta en segunda persona gramatical: «Y usted, señor ministro, ¿qué habría hecho?». Funciona porque convierte al oyente en responsable: ya no puede escuchar desde fuera. Ojo a la concordancia: con «usted / ustedes» el verbo va en tercera persona (¿qué propone?, ¿qué proponen?), nunca en la de «tú / vosotros»."
+        ],
+        "examples": [
+          {
+            "es": "Y ustedes, señores accionistas, ¿dónde estaban cuando se aprobó?",
+            "en": "And you, shareholders, where were you when it was approved? (interpelación: vocativo + 3.ª persona plural)"
+          },
+          {
+            "es": "Y tú, que tanto presumes de honradez, ¿por qué callaste?",
+            "en": "And you, who boast so much about honesty, why did you keep quiet? (interpelación con tú)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Y ustedes, señores consejeros, ¿qué ___ hacer ahora?» (proponer)",
+            "options": [
+              "proponen",
+              "proponéis",
+              "propones",
+              "propone"
+            ],
+            "correctIndex": 0,
+            "explanation": "Con «ustedes», el verbo va en tercera persona del plural: proponen. «Proponéis» y «propones» son de vosotros y tú, que no concuerdan con el vocativo, y «propone» es singular."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica: preguntas para abrir",
         "body": [
           "Orador: ¿Quién, sinceramente, puede mirar estas cifras y quedarse indiferente? ¿Quién puede decir que este problema no le concierne?",
           "Moderador: Preguntas contundentes para abrir su intervención.",
           "Orador: Y permítanme una más: ¿acaso alguien cree que este cambio va a producirse solo? La respuesta, me temo, es que no.",
-          "Espectador: ¿Y qué propone usted concretamente, más allá de las preguntas?",
+          "Espectador: ¿Y qué propone usted concretamente, más allá de las preguntas?"
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«¿Quién puede decir que este problema no le concierne?» ¿Qué afirma en realidad el orador?",
+            "options": [
+              "Que el problema concierne a todos.",
+              "Que no sabe a quién concierne.",
+              "Que el problema no concierne a nadie.",
+              "Que el moderador debe responder."
+            ],
+            "correctIndex": 0,
+            "explanation": "La pregunta retórica funciona como una afirmación de signo contrario: «¿Quién puede decir que no le concierne?» = «Nadie puede decirlo», es decir, concierne a todos. No pide información ni respuesta, y entenderla al pie de la letra invierte su sentido."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica: interpelar y cerrar",
+        "body": [
           "Orador: Excelente pregunta, y usted mismo, ¿qué haría en mi lugar si tuviera los mismos datos sobre la mesa?",
           "Espectador: Imagino que actuaría con la misma urgencia que usted plantea.",
           "Orador: Exactamente. ¿Será posible que sigamos posponiendo lo evidente una vez más? Yo, al menos, no pienso hacerlo.",
@@ -12114,33 +14491,40 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Describir fortalezas sin caer en la fanfarronería",
+        "heading": "Respaldar cada fortaleza con un ejemplo",
         "body": [
-          "Hablar con confianza sobre las propias fortalezas profesionales, sin resultar arrogante ni artificialmente modesto, constituye uno de los mayores retos del registro propio de la entrevista de trabajo. La clave suele residir en respaldar cada fortaleza con un ejemplo concreto de la trayectoria laboral, en lugar de limitarse a una afirmación genérica que suena hueca precisamente por su vaguedad.",
-          "Una fórmula eficaz consiste en nombrar la fortaleza, ilustrarla con un logro profesional específico y, a continuación, vincularla con el puesto al que se aspira: «destaco en la resolución de problemas; en mi puesto anterior, por ejemplo, rediseñé el proceso de atención al cliente, lo que redujo los tiempos de espera a la mitad». Esta estructura evita que la afirmación suene a mera declaración de intenciones sin respaldo.",
-          "Conviene, además, seleccionar fortalezas verdaderamente relevantes para el puesto concreto, en lugar de recitar una lista genérica de cualidades positivas. Un candidato que adapta sus fortalezas al perfil idóneo que busca la empresa demuestra, de paso, que ha investigado el puesto con seriedad antes de la entrevista.",
-          "La gramática que sostiene la fórmula: «destacar en / por» + sustantivo («destaco en la negociación», «destaco por mi capacidad de análisis»); «se me da bien» + infinitivo o sustantivo, que funciona como «gustar»: el verbo concuerda con lo que se da bien («se me dan bien los números»); y el logro, en pretérito indefinido, porque es un hecho concreto y terminado («rediseñé», «reduje»)."
+          "Hablar con confianza sobre las propias fortalezas profesionales, sin resultar arrogante ni artificialmente modesto, constituye uno de los mayores retos del registro propio de la entrevista de trabajo. La clave suele residir en respaldar cada fortaleza con un ejemplo concreto de la trayectoria laboral, en lugar de limitarse a una afirmación genérica que suena hueca precisamente por su vaguedad."
         ],
         "examples": [
           {
-            "es": "Destaco en la resolución de problemas: en mi puesto anterior rediseñé el proceso de reclamaciones.",
-            "en": "I excel at problem-solving: in my last job I redesigned the complaints process. (fortaleza + logro en indefinido)"
-          },
+            "es": "respaldar una fortaleza con un ejemplo",
+            "en": "ilustrar una cualidad mencionada con un logro profesional específico y verificable"
+          }
+        ],
+        "checkpoint": [
           {
-            "es": "Se me dan bien los números, y eso encaja con un puesto de control de gestión.",
-            "en": "I'm good with numbers, and that fits a management-control role. (se me dan: concuerda con «los números»)"
-          },
-          {
-            "es": "Destaco por mi capacidad de análisis.",
-            "en": "I stand out for my analytical skills. (destacar por + cualidad)"
-          },
+            "type": "multiple-choice",
+            "question": "¿Qué hace que la mención de una fortaleza profesional resulte convincente en una entrevista?",
+            "options": [
+              "Enumerar tantas cualidades positivas como sea posible",
+              "Respaldar la fortaleza con un ejemplo concreto de la trayectoria laboral",
+              "Evitar mencionar ningún logro específico",
+              "Repetir exactamente las palabras del anuncio de empleo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Una fortaleza resulta convincente cuando se ilustra con un ejemplo concreto y verificable, en lugar de quedarse en una afirmación genérica. Enumerar muchas cualidades sin pruebas o repetir el anuncio parece genérico, y evitar los logros concretos quita credibilidad."
+          }
+        ]
+      },
+      {
+        "heading": "La fórmula: fortaleza, logro y vínculo",
+        "body": [
+          "Una fórmula eficaz consiste en nombrar la fortaleza, ilustrarla con un logro profesional específico y, a continuación, vincularla con el puesto al que se aspira: «destaco en la resolución de problemas; en mi puesto anterior, por ejemplo, rediseñé el proceso de atención al cliente, lo que redujo los tiempos de espera a la mitad». Esta estructura evita que la afirmación suene a mera declaración de intenciones sin respaldo."
+        ],
+        "examples": [
           {
             "es": "destaco en la resolución de problemas",
             "en": "una fórmula que nombra una fortaleza profesional de manera directa y concreta"
-          },
-          {
-            "es": "respaldar una fortaleza con un ejemplo",
-            "en": "ilustrar una cualidad mencionada con un logro profesional específico y verificable"
           },
           {
             "es": "vincular la fortaleza con el puesto",
@@ -12163,15 +14547,11 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Evitar la vaguedad y ajustarse al puesto",
+        "heading": "Elegir fortalezas relevantes",
         "body": [
-          "Una fortaleza sin ejemplo suena hueca; además, conviene elegir las cualidades que mejor encajan con el perfil que busca la empresa."
+          "Conviene, además, seleccionar fortalezas verdaderamente relevantes para el puesto concreto, en lugar de recitar una lista genérica de cualidades positivas. Un candidato que adapta sus fortalezas al perfil idóneo que busca la empresa demuestra, de paso, que ha investigado el puesto con seriedad antes de la entrevista."
         ],
         "examples": [
-          {
-            "es": "sonar hueco por vaguedad",
-            "en": "resultar poco convincente al afirmar una cualidad sin ningún ejemplo que la sustente"
-          },
           {
             "es": "adaptar las fortalezas al perfil idóneo",
             "en": "seleccionar las cualidades más relevantes para el puesto concreto al que se aspira"
@@ -12180,15 +14560,75 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué hace que la mención de una fortaleza profesional resulte convincente en una entrevista?",
+            "question": "Te presentas a un puesto de analista de datos. ¿Qué fortaleza conviene destacar?",
             "options": [
-              "Enumerar tantas cualidades positivas como sea posible",
-              "Respaldar la fortaleza con un ejemplo concreto de la trayectoria laboral",
-              "Evitar mencionar ningún logro específico",
-              "Repetir exactamente las palabras del anuncio de empleo"
+              "Mi capacidad de análisis: detecté un error que costaba miles de euros al año.",
+              "Que se me da bien decorar oficinas.",
+              "Una lista de diez cualidades positivas.",
+              "Que soy el más simpático en las cenas de empresa."
             ],
-            "correctIndex": 1,
-            "explanation": "Una fortaleza resulta convincente cuando se ilustra con un ejemplo concreto y verificable, en lugar de quedarse en una afirmación genérica. Enumerar muchas cualidades sin pruebas o repetir el anuncio parece genérico, y evitar los logros concretos quita credibilidad."
+            "correctIndex": 0,
+            "explanation": "Conviene elegir la fortaleza que encaja con el perfil del puesto, y respaldarla con un logro. Una cualidad ajena al puesto o una lista genérica no demuestran que hayas investigado lo que busca la empresa."
+          }
+        ]
+      },
+      {
+        "heading": "La gramática de la fórmula",
+        "body": [
+          "La gramática que sostiene la fórmula: «destacar en / por» + sustantivo («destaco en la negociación», «destaco por mi capacidad de análisis»); «se me da bien» + infinitivo o sustantivo, que funciona como «gustar»: el verbo concuerda con lo que se da bien («se me dan bien los números»); y el logro, en pretérito indefinido, porque es un hecho concreto y terminado («rediseñé», «reduje»)."
+        ],
+        "examples": [
+          {
+            "es": "Destaco en la resolución de problemas: en mi puesto anterior rediseñé el proceso de reclamaciones.",
+            "en": "I excel at problem-solving: in my last job I redesigned the complaints process. (fortaleza + logro en indefinido)"
+          },
+          {
+            "es": "Se me dan bien los números, y eso encaja con un puesto de control de gestión.",
+            "en": "I'm good with numbers, and that fits a management-control role. (se me dan: concuerda con «los números»)"
+          },
+          {
+            "es": "Destaco por mi capacidad de análisis.",
+            "en": "I stand out for my analytical skills. (destacar por + cualidad)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Se me ___ bien las presentaciones en público.»",
+            "options": [
+              "dan",
+              "da",
+              "doy",
+              "dio"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Se me da bien» funciona como «gustar»: el verbo concuerda con lo que se da bien. «Las presentaciones» es plural, así que «dan». «Da» y «dio» serían singulares, y «doy» toma al hablante como sujeto."
+          }
+        ]
+      },
+      {
+        "heading": "Evitar la vaguedad y ajustarse al puesto",
+        "body": [
+          "Una fortaleza sin ejemplo suena hueca; además, conviene elegir las cualidades que mejor encajan con el perfil que busca la empresa."
+        ],
+        "examples": [
+          {
+            "es": "sonar hueco por vaguedad",
+            "en": "resultar poco convincente al afirmar una cualidad sin ningún ejemplo que la sustente"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Soy muy trabajador y responsable.» ¿Qué le falta a esta respuesta?",
+            "options": [
+              "Un ejemplo concreto que la respalde y su relación con el puesto.",
+              "Más adjetivos positivos.",
+              "Un tono más modesto.",
+              "Nada: es una respuesta completa."
+            ],
+            "correctIndex": 0,
+            "explanation": "Una fortaleza sin ejemplo suena hueca, y además debe encajar con el perfil que busca la empresa. Añadir adjetivos o rebajar el tono no aporta la prueba que falta."
           }
         ]
       }
@@ -12256,11 +14696,89 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Hablar de un punto de mejora con honestidad estratégica",
+        "heading": "Ni «ninguna debilidad» ni una grave",
         "body": [
-          "La pregunta sobre las debilidades propias exige un equilibrio delicado entre la honestidad y la estrategia. Responder que no se tiene ningún punto de mejora suena poco creíble, mientras que exponer una debilidad genuinamente grave para el puesto puede descartar al candidato de inmediato. La estrategia más sólida consiste en elegir un aspecto real, pero periférico respecto de las exigencias centrales del puesto, y mostrar de inmediato qué se está haciendo para superarlo.",
-          "Una estructura habitual sigue tres pasos: nombrar el punto de mejora con sinceridad, explicar brevemente el contexto en el que se manifestó y, finalmente, describir las acciones concretas emprendidas para corregirlo, idealmente con algún resultado ya visible. «Reconozco que gestionar el tiempo con eficacia no ha sido siempre mi fuerte, así que desde hace un año trabajo con un sistema de planificación semanal que ha mejorado notablemente mi cumplimiento de plazos.»",
-          "Conviene evitar el recurso trillado de disfrazar una fortaleza como debilidad —«soy demasiado perfeccionista»—, ya que los entrevistadores con experiencia reconocen de inmediato esa estrategia y la interpretan como una respuesta evasiva más que como honestidad estratégica.",
+          "La pregunta sobre las debilidades propias exige un equilibrio delicado entre la honestidad y la estrategia. Responder que no se tiene ningún punto de mejora suena poco creíble, mientras que exponer una debilidad genuinamente grave para el puesto puede descartar al candidato de inmediato. La estrategia más sólida consiste en elegir un aspecto real, pero periférico respecto de las exigencias centrales del puesto, y mostrar de inmediato qué se está haciendo para superarlo."
+        ],
+        "examples": [
+          {
+            "es": "elegir un punto de mejora periférico",
+            "en": "seleccionar una debilidad real que no comprometa las exigencias centrales del puesto"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Te presentas a un puesto de contable. ¿Qué punto de mejora es real pero periférico?",
+            "options": [
+              "Me cuesta hablar en público ante grupos grandes.",
+              "Me cuesta trabajar con números.",
+              "No tengo ningún punto débil.",
+              "A veces no reviso las cuentas antes de cerrarlas."
+            ],
+            "correctIndex": 0,
+            "explanation": "Hablar en público no es una exigencia central de un contable, así que es real sin descartarte. Los números y la revisión de cuentas son el núcleo del puesto, y «ningún punto débil» suena poco creíble."
+          }
+        ]
+      },
+      {
+        "heading": "Nombrar, situar y mostrar la acción",
+        "body": [
+          "Una estructura habitual sigue tres pasos: nombrar el punto de mejora con sinceridad, explicar brevemente el contexto en el que se manifestó y, finalmente, describir las acciones concretas emprendidas para corregirlo, idealmente con algún resultado ya visible. «Reconozco que gestionar el tiempo con eficacia no ha sido siempre mi fuerte, así que desde hace un año trabajo con un sistema de planificación semanal que ha mejorado notablemente mi cumplimiento de plazos.»"
+        ],
+        "examples": [
+          {
+            "es": "Reconozco que los plazos no eran mi fuerte, y por eso trabajo con un planificador semanal.",
+            "en": "I admit deadlines weren't my strong point, and so I work with a weekly planner."
+          },
+          {
+            "es": "mostrar acciones concretas de mejora",
+            "en": "describir los pasos ya emprendidos para corregir un punto débil reconocido"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Ordena la respuesta: (a) desde enero uso una agenda compartida; (b) reconozco que me costaba organizar mi tiempo; (c) se notaba sobre todo cuando coincidían varios proyectos.",
+            "options": [
+              "b, c, a",
+              "a, b, c",
+              "c, a, b",
+              "a, c, b"
+            ],
+            "correctIndex": 0,
+            "explanation": "La estructura es nombrar el punto de mejora (b), explicar el contexto en que se manifestó (c) y describir la acción emprendida (a). Empezar por la acción o por el contexto deja la debilidad sin nombrar al principio."
+          }
+        ]
+      },
+      {
+        "heading": "Evitar el tópico",
+        "body": [
+          "Conviene evitar el recurso trillado de disfrazar una fortaleza como debilidad —«soy demasiado perfeccionista»—, ya que los entrevistadores con experiencia reconocen de inmediato esa estrategia y la interpretan como una respuesta evasiva más que como honestidad estratégica."
+        ],
+        "examples": [
+          {
+            "es": "disfrazar una fortaleza como debilidad",
+            "en": "recurrir a una respuesta evasiva que los entrevistadores experimentados detectan con facilidad"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué respuesta interpretará un entrevistador experimentado como evasiva?",
+            "options": [
+              "Mi mayor defecto es que soy demasiado perfeccionista.",
+              "Me costaba delegar; ahora reparto las tareas desde el principio.",
+              "Me cuesta hablar en público, así que me he apuntado a un curso."
+            ],
+            "correctIndex": 0,
+            "explanation": "Disfrazar una fortaleza de debilidad («soy demasiado perfeccionista») es un recurso trillado que se lee como evasión. Las otras dos nombran un punto real y muestran qué se hace para mejorarlo."
+          }
+        ]
+      },
+      {
+        "heading": "La gramática del punto de mejora",
+        "body": [
           "La gramática del punto de mejora: «me cuesta» + infinitivo funciona como «gustar» (el infinitivo es el sujeto, así que el verbo va en singular: «me cuesta delegar», nunca «yo cuesto»). Para mostrar progreso, sitúa la dificultad en el pasado con el imperfecto («me costaba») y el cambio con el perfecto o el indefinido («he aprendido a», «empecé a»)."
         ],
         "examples": [
@@ -12271,22 +14789,27 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Me costaba hablar en público; desde que hice un curso, presento sin problema.",
             "en": "I used to find public speaking hard; since I took a course, I present with no problem. (imperfecto: dificultad superada)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase está bien construida?",
+            "options": [
+              "Me cuesta delegar.",
+              "Yo cuesto delegar.",
+              "Me cuestan delegar."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Me cuesta» + infinitivo funciona como «gustar»: el infinitivo es el sujeto, así que el verbo va en singular y la persona va en el pronombre (me). «Yo cuesto» toma a la persona como sujeto, y «cuestan» es plural."
           },
           {
-            "es": "Reconozco que los plazos no eran mi fuerte, y por eso trabajo con un planificador semanal.",
-            "en": "I admit deadlines weren't my strong point, and so I work with a weekly planner."
-          },
-          {
-            "es": "elegir un punto de mejora periférico",
-            "en": "seleccionar una debilidad real que no comprometa las exigencias centrales del puesto"
-          },
-          {
-            "es": "mostrar acciones concretas de mejora",
-            "en": "describir los pasos ya emprendidos para corregir un punto débil reconocido"
-          },
-          {
-            "es": "disfrazar una fortaleza como debilidad",
-            "en": "recurrir a una respuesta evasiva que los entrevistadores experimentados detectan con facilidad"
+            "type": "fill-blank",
+            "prompt": "Sitúa la dificultad en el pasado.",
+            "sentence": "Antes me ___ decir que no; ahora sé fijar límites.",
+            "answer": "costaba",
+            "explanation": "La dificultad superada va en imperfecto (me costaba: era así antes), y el cambio en presente o perfecto. El presente «me cuesta» la presentaría como un defecto actual.",
+            "hint": "costar"
           }
         ]
       },
@@ -12398,34 +14921,37 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "La entrevista por competencias y el relato estructurado",
+        "heading": "La entrevista por competencias pide un ejemplo",
         "body": [
-          "La entrevista por competencias no pregunta de forma abstracta si el candidato posee la capacidad de liderazgo o la capacidad de negociación, sino que solicita un ejemplo concreto: «cuénteme una situación en la que tuvo que gestionar un conflicto dentro de su equipo». Responder con generalidades ante este tipo de pregunta suele decepcionar al entrevistador, que espera un relato estructurado y verificable.",
-          "Una estructura ampliamente utilizada organiza la respuesta en cuatro partes: la situación de partida, la tarea concreta que correspondía al candidato, las acciones específicas que emprendió y, finalmente, el resultado obtenido, preferiblemente cuantificable. Este orden evita divagaciones y permite al entrevistador evaluar con precisión el desempeño destacado del candidato en un contexto real, no hipotético.",
-          "Conviene preparar de antemano varios relatos de este tipo, cada uno ilustrando una competencia distinta —trabajo en equipo, resolución de problemas, adaptación al cambio—, de modo que resulte sencillo adaptar el ejemplo más adecuado a cada pregunta concreta que plantee el entrevistador durante la conversación.",
-          "Los tiempos verbales hacen visible esa estructura: la situación se describe en imperfecto, porque es el fondo («el cliente amenazaba con irse», «el equipo estaba desmotivado»); la acción y el resultado van en indefinido, porque son hechos concretos que hacen avanzar el relato («propuse», «conseguimos»). Si todo va en imperfecto, el entrevistador no oye ninguna acción tuya."
+          "La entrevista por competencias no pregunta de forma abstracta si el candidato posee la capacidad de liderazgo o la capacidad de negociación, sino que solicita un ejemplo concreto: «cuénteme una situación en la que tuvo que gestionar un conflicto dentro de su equipo». Responder con generalidades ante este tipo de pregunta suele decepcionar al entrevistador, que espera un relato estructurado y verificable."
         ],
         "examples": [
           {
-            "es": "El equipo estaba desmotivado y los plazos se acumulaban.",
-            "en": "The team was demotivated and deadlines were piling up. (situación: imperfecto)"
-          },
-          {
-            "es": "Mi tarea era reorganizar el calendario sin contratar a nadie.",
-            "en": "My task was to reorganise the schedule without hiring anyone. (tarea: imperfecto o indefinido)"
-          },
-          {
-            "es": "Propuse reuniones de diez minutos cada mañana.",
-            "en": "I proposed ten-minute meetings every morning. (acción: indefinido)"
-          },
-          {
-            "es": "Como resultado, entregamos el proyecto una semana antes.",
-            "en": "As a result, we delivered the project a week early. (resultado medible: indefinido)"
-          },
-          {
             "es": "cuénteme una situación en la que...",
             "en": "fórmula típica de la entrevista por competencias que exige un ejemplo concreto"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Cuénteme una situación en la que tuvo que adaptarse a un cambio.» ¿Qué espera el entrevistador?",
+            "options": [
+              "Un caso concreto: qué pasó, qué hice y qué conseguí.",
+              "«Soy una persona muy adaptable.»",
+              "Una opinión general sobre el cambio en las empresas.",
+              "Lo que haría si algún día ocurriera."
+            ],
+            "correctIndex": 0,
+            "explanation": "La entrevista por competencias pide un ejemplo real y verificable. Una afirmación sobre uno mismo o una opinión general son generalidades, y una respuesta hipotética no cuenta un desempeño real."
+          }
+        ]
+      },
+      {
+        "heading": "Situación, tarea, acción, resultado",
+        "body": [
+          "Una estructura ampliamente utilizada organiza la respuesta en cuatro partes: la situación de partida, la tarea concreta que correspondía al candidato, las acciones específicas que emprendió y, finalmente, el resultado obtenido, preferiblemente cuantificable. Este orden evita divagaciones y permite al entrevistador evaluar con precisión el desempeño destacado del candidato en un contexto real, no hipotético."
+        ],
+        "examples": [
           {
             "es": "la situación, la tarea, la acción y el resultado",
             "en": "la estructura narrativa habitual para responder a una pregunta de competencias"
@@ -12433,10 +14959,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "un resultado cuantificable",
             "en": "un desenlace medible que demuestra de forma objetiva el desempeño del candidato"
-          },
-          {
-            "es": "preparar varios relatos de antemano",
-            "en": "tener listos ejemplos concretos que ilustren distintas competencias profesionales"
           },
           {
             "es": "evitar divagaciones",
@@ -12459,6 +14981,70 @@ const C2_BASE_LESSONS: Lesson[] = [
               3
             ],
             "explanation": "La estructura eficaz combina situación, tarea, acciones concretas y resultado; una lista genérica de cualidades no responde a lo que exige este tipo de pregunta."
+          }
+        ]
+      },
+      {
+        "heading": "Preparar varios relatos",
+        "body": [
+          "Conviene preparar de antemano varios relatos de este tipo, cada uno ilustrando una competencia distinta —trabajo en equipo, resolución de problemas, adaptación al cambio—, de modo que resulte sencillo adaptar el ejemplo más adecuado a cada pregunta concreta que plantee el entrevistador durante la conversación."
+        ],
+        "examples": [
+          {
+            "es": "preparar varios relatos de antemano",
+            "en": "tener listos ejemplos concretos que ilustren distintas competencias profesionales"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cómo conviene prepararse para una entrevista por competencias?",
+            "options": [
+              "Con varios relatos, cada uno para una competencia distinta.",
+              "Con un único relato que sirva para todas las preguntas.",
+              "Memorizando definiciones de cada competencia.",
+              "Sin preparar nada, para sonar espontáneo."
+            ],
+            "correctIndex": 0,
+            "explanation": "Varios relatos preparados, uno por competencia, permiten elegir el ejemplo adecuado para cada pregunta. Un relato único no encaja con todas, y las definiciones o la improvisación no dan un ejemplo concreto."
+          }
+        ]
+      },
+      {
+        "heading": "Los tiempos hacen visible la estructura",
+        "body": [
+          "Los tiempos verbales hacen visible esa estructura: la situación se describe en imperfecto, porque es el fondo («el cliente amenazaba con irse», «el equipo estaba desmotivado»); la acción y el resultado van en indefinido, porque son hechos concretos que hacen avanzar el relato («propuse», «conseguimos»). Si todo va en imperfecto, el entrevistador no oye ninguna acción tuya."
+        ],
+        "examples": [
+          {
+            "es": "El equipo estaba desmotivado y los plazos se acumulaban.",
+            "en": "The team was demotivated and deadlines were piling up. (situación: imperfecto)"
+          },
+          {
+            "es": "Mi tarea era reorganizar el calendario sin contratar a nadie.",
+            "en": "My task was to reorganise the schedule without hiring anyone. (tarea: imperfecto o indefinido)"
+          },
+          {
+            "es": "Propuse reuniones de diez minutos cada mañana.",
+            "en": "I proposed ten-minute meetings every morning. (acción: indefinido)"
+          },
+          {
+            "es": "Como resultado, entregamos el proyecto una semana antes.",
+            "en": "As a result, we delivered the project a week early. (resultado medible: indefinido)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«El cliente ___ con irse, así que ___ una reunión con su director.»",
+            "options": [
+              "amenazaba / propuse",
+              "amenazó / proponía",
+              "amenazaba / proponía",
+              "amenazó / propondría"
+            ],
+            "correctIndex": 0,
+            "explanation": "La situación de fondo va en imperfecto (amenazaba) y tu acción, un hecho concreto que hace avanzar el relato, en indefinido (propuse). Con «proponía» la acción se queda en fondo y el entrevistador no oye nada que hicieras."
           }
         ]
       }
@@ -12520,11 +15106,85 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Cerrar la entrevista: preguntas propias y pretensión salarial",
+        "heading": "Tus propias preguntas",
         "body": [
-          "El cierre de la entrevista suele incluir un momento en que el propio candidato puede formular preguntas, y desaprovechar esa oportunidad transmite una falta de interés genuino por el puesto. Preguntar por el margen de crecimiento dentro de la empresa, por la formación continua que ofrece la organización o por el ambiente laboral del equipo demuestra una motivación intrínseca que va más allá del mero interés económico.",
-          "La pregunta sobre la pretensión salarial exige una respuesta preparada de antemano, basada en una investigación previa sobre el rango habitual para ese puesto y ese sector. Responder de forma excesivamente vaga —«lo que ustedes consideren justo»— transmite inseguridad, mientras que una cifra bien fundamentada, acompañada de cierta flexibilidad, refleja profesionalidad y capacidad de negociación.",
-          "Es recomendable cerrar la conversación reiterando brevemente el propio compromiso laboral y el valor añadido que se aportaría al equipo, sin extenderse demasiado, ya que un cierre conciso y seguro deja una impresión final mucho más sólida que una despedida titubeante o excesivamente prolongada.",
+          "El cierre de la entrevista suele incluir un momento en que el propio candidato puede formular preguntas, y desaprovechar esa oportunidad transmite una falta de interés genuino por el puesto. Preguntar por el margen de crecimiento dentro de la empresa, por la formación continua que ofrece la organización o por el ambiente laboral del equipo demuestra una motivación intrínseca que va más allá del mero interés económico."
+        ],
+        "examples": [
+          {
+            "es": "preguntar por el margen de crecimiento",
+            "en": "mostrar interés genuino por las posibilidades de progreso dentro de la empresa"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Al final te preguntan: «¿Tiene alguna pregunta para nosotros?». ¿Qué respuesta muestra un interés genuino por el puesto?",
+            "options": [
+              "Sí: ¿qué formación continua ofrecen al equipo?",
+              "No, creo que está todo claro.",
+              "¿Cuándo cobraría la primera nómina?",
+              "No, gracias; tengo un poco de prisa."
+            ],
+            "correctIndex": 0,
+            "explanation": "Preguntar por la formación, el crecimiento o el ambiente del equipo muestra una motivación que va más allá de lo económico. No preguntar nada desaprovecha la oportunidad, y preguntar solo por el cobro transmite un interés meramente económico."
+          }
+        ]
+      },
+      {
+        "heading": "La pretensión salarial",
+        "body": [
+          "La pregunta sobre la pretensión salarial exige una respuesta preparada de antemano, basada en una investigación previa sobre el rango habitual para ese puesto y ese sector. Responder de forma excesivamente vaga —«lo que ustedes consideren justo»— transmite inseguridad, mientras que una cifra bien fundamentada, acompañada de cierta flexibilidad, refleja profesionalidad y capacidad de negociación."
+        ],
+        "examples": [
+          {
+            "es": "una cifra bien fundamentada",
+            "en": "una pretensión salarial basada en una investigación previa sobre el sector y el puesto"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Te preguntan por tu pretensión salarial. ¿Qué respuesta refleja profesionalidad?",
+            "options": [
+              "Según el mercado para este puesto, en torno a 40.000 euros brutos, con cierta flexibilidad.",
+              "Lo que ustedes consideren justo.",
+              "La verdad es que no lo he pensado.",
+              "Lo máximo que puedan pagar."
+            ],
+            "correctIndex": 0,
+            "explanation": "Una cifra bien fundamentada en el rango del sector, con algo de flexibilidad, refleja profesionalidad y capacidad de negociación. La respuesta vaga y la falta de preparación transmiten inseguridad, y pedir «lo máximo» no está fundamentado."
+          }
+        ]
+      },
+      {
+        "heading": "Un cierre conciso y seguro",
+        "body": [
+          "Es recomendable cerrar la conversación reiterando brevemente el propio compromiso laboral y el valor añadido que se aportaría al equipo, sin extenderse demasiado, ya que un cierre conciso y seguro deja una impresión final mucho más sólida que una despedida titubeante o excesivamente prolongada."
+        ],
+        "examples": [
+          {
+            "es": "reiterar el compromiso laboral",
+            "en": "reforzar, al cerrar la entrevista, la implicación seria con el puesto solicitado"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué cierre deja una impresión final más sólida?",
+            "options": [
+              "Gracias por su tiempo; estoy convencida de que puedo aportar mucho a este equipo.",
+              "Bueno… no sé… pues eso, gracias, supongo.",
+              "Antes de irme, permítanme repasar de nuevo toda mi trayectoria desde el instituto…"
+            ],
+            "correctIndex": 0,
+            "explanation": "El cierre eficaz reitera brevemente el compromiso y el valor que aportarías. La segunda es una despedida titubeante y la tercera se alarga demasiado: las dos debilitan la impresión final."
+          }
+        ]
+      },
+      {
+        "heading": "La forma: cortesía, horquilla y fórmulas fijas",
+        "body": [
           "La forma importa tanto como el contenido. Las preguntas del candidato suenan mejor en condicional de cortesía («Me gustaría saber…», «¿Cómo sería…?»), que suaviza la petición. La pretensión salarial se expresa como horquilla («entre 38.000 y 42.000 euros brutos anuales») o aproximación («en torno a los 40.000»), que muestra que has investigado sin cerrar la negociación. Y el cierre usa fórmulas fijas: «Quedo a la espera de su respuesta»."
         ],
         "examples": [
@@ -12539,18 +15199,27 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Muchas gracias por su tiempo; quedo a la espera de sus noticias.",
             "en": "Thank you very much for your time; I look forward to hearing from you. (cierre)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué pregunta del candidato suena más cortés?",
+            "options": [
+              "¿Cómo sería la incorporación al equipo?",
+              "¿Cómo es la incorporación? Dígamelo.",
+              "Quiero saber cómo es la incorporación."
+            ],
+            "correctIndex": 0,
+            "explanation": "El condicional de cortesía (¿Cómo sería…?) suaviza la petición. El imperativo «dígamelo» y «quiero saber» suenan a exigencia en una entrevista."
           },
           {
-            "es": "preguntar por el margen de crecimiento",
-            "en": "mostrar interés genuino por las posibilidades de progreso dentro de la empresa"
-          },
-          {
-            "es": "una cifra bien fundamentada",
-            "en": "una pretensión salarial basada en una investigación previa sobre el sector y el puesto"
-          },
-          {
-            "es": "reiterar el compromiso laboral",
-            "en": "reforzar, al cerrar la entrevista, la implicación seria con el puesto solicitado"
+            "type": "fill-blank",
+            "prompt": "Expresa la pretensión como horquilla.",
+            "sentence": "Mis expectativas se sitúan ___ 35.000 y 39.000 euros brutos anuales.",
+            "answer": "entre",
+            "explanation": "La horquilla se construye con «entre X y Z»: muestra que has investigado sin cerrar la negociación. «De… a…» también existe, pero con «y» la fórmula fija es «entre».",
+            "hint": "preposición"
           }
         ]
       },
@@ -12661,6 +15330,50 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
+            "question": "Te preguntan por un punto de mejora. ¿Qué jugada toca?",
+            "options": [
+              "Algo real y periférico, con «me costaba» y la acción que tomaste.",
+              "Una fortaleza disfrazada de debilidad.",
+              "Un relato todo en imperfecto.",
+              "Una pregunta en condicional de cortesía."
+            ],
+            "correctIndex": 0,
+            "explanation": "Para el punto de mejora: algo real y periférico, con la dificultad en imperfecto (me costaba) y la acción que tomaste. Disfrazar una fortaleza es evasivo, el relato en imperfecto no muestra acciones y el condicional de cortesía es para la pregunta final."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica: fortaleza y punto de mejora",
+        "body": [
+          "Entrevistador: Cuénteme, ¿cuál diría que es su mayor fortaleza profesional?",
+          "Candidata: Diría que destaco por mi capacidad de liderazgo. En mi puesto anterior coordiné un equipo de seis personas durante un proyecto complicado y logramos entregarlo antes del plazo previsto.",
+          "Entrevistador: Interesante. ¿Y algún punto de mejora que reconozca en usted misma?",
+          "Candidata: Con sinceridad, gestionar el tiempo con eficacia no siempre fue mi fuerte, así que implementé un sistema de planificación semanal que me ha ayudado bastante desde entonces."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Diría que destaco por mi capacidad de liderazgo. En mi puesto anterior coordiné un equipo de seis personas…» ¿Qué jugada hace la candidata?",
+            "options": [
+              "Nombra una fortaleza y la respalda con un logro en indefinido.",
+              "Reconoce un punto de mejora.",
+              "Hace su pregunta final.",
+              "Da su pretensión salarial."
+            ],
+            "correctIndex": 0,
+            "explanation": "Es la jugada de la fortaleza: «destacar por» + cualidad y un logro concreto en indefinido (coordiné, logramos). El punto de mejora llega después, y la pregunta final al cierre."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica: el relato por competencias",
+        "body": [
+          "Entrevistador: Bien planteado. Ahora, cuénteme una situación en la que tuvo que sortear un obstáculo inesperado.",
+          "Candidata: Claro. La situación fue la caída repentina de un proveedor clave. Mi tarea consistía en garantizar la continuidad del servicio, así que negocié en pocos días un acuerdo alternativo, y logramos mantener el servicio sin ninguna interrupción visible para el cliente."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
             "question": "En la respuesta sobre el proveedor, ¿qué parte del relato es «logramos mantener el servicio sin ninguna interrupción»?",
             "options": [
               "el resultado",
@@ -12674,14 +15387,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica: la pregunta final",
         "body": [
-          "Entrevistador: Cuénteme, ¿cuál diría que es su mayor fortaleza profesional?",
-          "Candidata: Diría que destaco por mi capacidad de liderazgo. En mi puesto anterior coordiné un equipo de seis personas durante un proyecto complicado y logramos entregarlo antes del plazo previsto.",
-          "Entrevistador: Interesante. ¿Y algún punto de mejora que reconozca en usted misma?",
-          "Candidata: Con sinceridad, gestionar el tiempo con eficacia no siempre fue mi fuerte, así que implementé un sistema de planificación semanal que me ha ayudado bastante desde entonces.",
-          "Entrevistador: Bien planteado. Ahora, cuénteme una situación en la que tuvo que sortear un obstáculo inesperado.",
-          "Candidata: Claro. La situación fue la caída repentina de un proveedor clave. Mi tarea consistía en garantizar la continuidad del servicio, así que negocié en pocos días un acuerdo alternativo, y logramos mantener el servicio sin ninguna interrupción visible para el cliente.",
           "Entrevistador: Excelente ejemplo. Para terminar, ¿tiene alguna pregunta para nosotros?",
           "Candidata: Sí, me gustaría saber qué margen de crecimiento ofrece la empresa y qué tipo de formación continua reciben los nuevos integrantes del equipo.",
           "Entrevistador: Buena pregunta. Se lo explico con gusto antes de cerrar la conversación."
@@ -13163,30 +15870,11 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Desactivar la tensión antes de abordar el fondo",
+        "heading": "Primero la tensión, después el fondo",
         "body": [
-          "Ante un conflicto verbal en pleno desarrollo, intentar resolver de inmediato el fondo de la disputa suele resultar contraproducente si antes no se ha desactivado la tensión emocional del momento. Un mediador experimentado reconoce que las personas alteradas procesan peor los argumentos racionales, de modo que el primer paso consiste, casi siempre, en suavizar el tono de la conversación antes de entrar en el contenido del desacuerdo.",
-          "Expresiones como «entiendo que esto te resulte frustrante» o «veo que este tema te afecta especialmente» cumplen una función de escucha empática: reconocen la emoción del interlocutor sin necesariamente darle la razón sobre el fondo del asunto, y ese simple reconocimiento suele bastar para reducir la hostilidad inicial de la conversación.",
-          "Solo una vez que ambas partes han bajado el tono resulta productivo avanzar hacia el trasfondo del conflicto: las causas reales, a menudo distintas de la queja inmediata que desencadenó la discusión. Abordar el fondo demasiado pronto, con los ánimos todavía alterados, tiende a reavivar la disputa en lugar de resolverla.",
-          "La gramática de la desescalada: para validar la emoción, «Entiendo que» + subjuntivo (entiendo que estés molesto), porque no constatas un hecho, lo aceptas; para percibirla, «Veo que» + indicativo (veo que te afecta). Para proponer calma, el imperativo de «nosotros» (hablemos, intentemos), que te incluye en el esfuerzo, en lugar del imperativo de «tú» (¡cálmate!), que se lo exige solo al otro."
+          "Ante un conflicto verbal en pleno desarrollo, intentar resolver de inmediato el fondo de la disputa suele resultar contraproducente si antes no se ha desactivado la tensión emocional del momento. Un mediador experimentado reconoce que las personas alteradas procesan peor los argumentos racionales, de modo que el primer paso consiste, casi siempre, en suavizar el tono de la conversación antes de entrar en el contenido del desacuerdo."
         ],
         "examples": [
-          {
-            "es": "Entiendo que estés molesto; es normal.",
-            "en": "I understand you're upset; it's normal. (validar: entiendo que + subjuntivo)"
-          },
-          {
-            "es": "Veo que este tema te afecta mucho.",
-            "en": "I can see this issue affects you a lot. (percibir: veo que + indicativo)"
-          },
-          {
-            "es": "Hablemos con calma y sin interrupciones.",
-            "en": "Let's talk calmly and without interruptions. (imperativo de nosotros)"
-          },
-          {
-            "es": "entiendo que esto te resulte frustrante",
-            "en": "una fórmula de escucha empática que reconoce la emoción del interlocutor"
-          },
           {
             "es": "suavizar el tono antes del fondo",
             "en": "moderar la forma de hablar antes de abordar el contenido real del desacuerdo"
@@ -13194,6 +15882,32 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "procesar peor los argumentos racionales",
             "en": "la dificultad que experimenta una persona alterada para razonar con calma"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un mediador llega a una discusión acalorada. ¿Qué hace primero?",
+            "options": [
+              "Suaviza el tono antes de entrar en el contenido.",
+              "Dice de inmediato quién tiene razón.",
+              "Presenta datos para zanjar el fondo cuanto antes.",
+              "Pide a cada uno que defienda su postura con argumentos."
+            ],
+            "correctIndex": 0,
+            "explanation": "Las personas alteradas procesan peor los argumentos racionales, así que el primer paso es suavizar el tono. Dar la razón, aportar datos o pedir argumentos entra en el fondo demasiado pronto."
+          }
+        ]
+      },
+      {
+        "heading": "La escucha empática",
+        "body": [
+          "Expresiones como «entiendo que esto te resulte frustrante» o «veo que este tema te afecta especialmente» cumplen una función de escucha empática: reconocen la emoción del interlocutor sin necesariamente darle la razón sobre el fondo del asunto, y ese simple reconocimiento suele bastar para reducir la hostilidad inicial de la conversación."
+        ],
+        "examples": [
+          {
+            "es": "entiendo que esto te resulte frustrante",
+            "en": "una fórmula de escucha empática que reconoce la emoción del interlocutor"
           }
         ],
         "checkpoint": [
@@ -13208,6 +15922,71 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Primero se desactiva la tensión validando la emoción («Entiendo que te moleste») y proponiendo calma en plural. Pasar directamente a los turnos aborda el fondo demasiado pronto, «cálmate» exige sin validar y «no es para tanto» niega lo que siente."
+          }
+        ]
+      },
+      {
+        "heading": "Después, el trasfondo",
+        "body": [
+          "Solo una vez que ambas partes han bajado el tono resulta productivo avanzar hacia el trasfondo del conflicto: las causas reales, a menudo distintas de la queja inmediata que desencadenó la discusión. Abordar el fondo demasiado pronto, con los ánimos todavía alterados, tiende a reavivar la disputa en lugar de resolverla."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una vez que los dos han bajado el tono, ¿qué conviene abordar?",
+            "options": [
+              "Las causas reales, que a menudo no son la queja inmediata.",
+              "Solo la queja que desencadenó la discusión.",
+              "Nada más: el conflicto ya está resuelto.",
+              "Quién empezó a gritar primero."
+            ],
+            "correctIndex": 0,
+            "explanation": "Con los ánimos calmados es productivo ir al trasfondo: las causas reales, a menudo distintas de la queja que lo desencadenó. Quedarse en la queja o en quién empezó no resuelve nada, y bajar el tono no equivale a resolver."
+          }
+        ]
+      },
+      {
+        "heading": "La gramática de la desescalada",
+        "body": [
+          "La gramática de la desescalada: para validar la emoción, «Entiendo que» + subjuntivo (entiendo que estés molesto), porque no constatas un hecho, lo aceptas; para percibirla, «Veo que» + indicativo (veo que te afecta). Para proponer calma, el imperativo de «nosotros» (hablemos, intentemos), que te incluye en el esfuerzo, en lugar del imperativo de «tú» (¡cálmate!), que se lo exige solo al otro."
+        ],
+        "examples": [
+          {
+            "es": "Entiendo que estés molesto; es normal.",
+            "en": "I understand you're upset; it's normal. (validar: entiendo que + subjuntivo)"
+          },
+          {
+            "es": "Veo que este tema te afecta mucho.",
+            "en": "I can see this issue affects you a lot. (percibir: veo que + indicativo)"
+          },
+          {
+            "es": "Hablemos con calma y sin interrupciones.",
+            "en": "Let's talk calmly and without interruptions. (imperativo de nosotros)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase propone calma sin exigírsela solo al otro?",
+            "options": [
+              "Intentemos hablarlo sin levantar la voz.",
+              "¡Cálmate de una vez!",
+              "Tienes que calmarte."
+            ],
+            "correctIndex": 0,
+            "explanation": "El imperativo de nosotros (intentemos) te incluye en el esfuerzo. «¡Cálmate!» y «tienes que calmarte» se lo exigen solo al otro y suelen escalar la tensión."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«Entiendo que ___ molesta por el retraso.»",
+            "options": [
+              "estés",
+              "estás",
+              "estarás",
+              "estabas"
+            ],
+            "correctIndex": 0,
+            "explanation": "Para validar una emoción, «entiendo que» + subjuntivo: no constatas un hecho, lo aceptas. El indicativo (estás, estarás, estabas) corresponde a «veo que», que percibe la emoción."
           }
         ]
       },
@@ -13301,44 +16080,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Reconocer la perspectiva ajena sin renunciar a la propia",
+        "heading": "Reconocer no es dar la razón",
         "body": [
-          "Uno de los errores más frecuentes al mediar en un conflicto consiste en confundir reconocer la perspectiva ajena con darle la razón por completo. Ponerse en el lugar del otro no exige abandonar la propia postura; exige, simplemente, comprender genuinamente por qué el interlocutor sostiene la suya, aunque al final se siga discrepando en el fondo del asunto.",
-          "Una fórmula eficaz consiste en verbalizar esa comprensión antes de exponer el propio punto de vista: «entiendo por qué desde tu posición esto te parece injusto; desde la mía, sin embargo, la situación se ve de otra manera». Este gesto reduce de inmediato la sensación de estar siendo ignorado, uno de los principales combustibles de cualquier conflicto latente que degenera en confrontación abierta.",
-          "Esta escucha, además, permite detectar con frecuencia que buena parte del desacuerdo nace de un simple malentendido, más que de una diferencia real de intereses. Aclarar ese malentendido desde el principio evita que la disputa se prolongue innecesariamente sobre una base que, en el fondo, ninguna de las partes sostenía con firmeza.",
-          "Gramática para reconocer sin ceder: «Entiendo por qué» + indicativo (es una pregunta indirecta: entiendo por qué te parece injusto) frente a «Entiendo que» + subjuntivo (valoras: entiendo que te parezca injusto). La concesión con «aunque» + indicativo afirma tu desacuerdo como un hecho: comprendo tu postura, aunque no la comparto. Y tras una negación, lo que corrige va con «sino»: no exige darle la razón, sino comprenderlo."
+          "Uno de los errores más frecuentes al mediar en un conflicto consiste en confundir reconocer la perspectiva ajena con darle la razón por completo. Ponerse en el lugar del otro no exige abandonar la propia postura; exige, simplemente, comprender genuinamente por qué el interlocutor sostiene la suya, aunque al final se siga discrepando en el fondo del asunto."
         ],
         "examples": [
           {
-            "es": "Entiendo por qué, desde tu lado, este cambio te resulta incómodo.",
-            "en": "I understand why, from your side, this change feels uncomfortable to you. (por qué + indicativo)"
-          },
-          {
-            "es": "Respeto tu opinión, aunque no la comparto del todo.",
-            "en": "I respect your opinion, although I don't entirely share it. (aunque + indicativo: desacuerdo afirmado)"
-          },
-          {
-            "es": "entiendo por qué desde tu posición...",
-            "en": "una fórmula que reconoce la perspectiva ajena sin renunciar a la propia postura"
-          },
-          {
-            "es": "la sensación de estar siendo ignorado",
-            "en": "un combustible frecuente que agrava un conflicto latente hasta hacerlo explícito"
-          },
-          {
-            "es": "aclarar un simple malentendido",
-            "en": "resolver una confusión que, más que un desacuerdo real, alimentaba la disputa"
-          },
-          {
             "es": "comprender sin necesariamente coincidir",
             "en": "reconocer la validez de una perspectiva ajena aunque el desacuerdo de fondo persista"
-          },
-          {
-            "es": "una base que nadie sostenía con firmeza",
-            "en": "el resultado de descubrir que buena parte del conflicto se apoyaba en un malentendido"
           }
         ],
         "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué actitud reconoce la perspectiva ajena sin renunciar a la propia?",
+            "options": [
+              "Comprender por qué el otro piensa así, aunque sigas discrepando.",
+              "Darle la razón para cerrar el tema.",
+              "Ignorar sus motivos y repetir tu postura."
+            ],
+            "correctIndex": 0,
+            "explanation": "Ponerse en el lugar del otro es comprender por qué sostiene su postura, no abandonar la tuya. Darle la razón confunde reconocer con ceder, e ignorar sus motivos no lo reconoce en absoluto."
+          },
           {
             "type": "fill-blank",
             "prompt": "Completa la frase sobre la mediación de conflictos.",
@@ -13346,7 +16109,25 @@ const C2_BASE_LESSONS: Lesson[] = [
             "answer": "comprender",
             "explanation": "Reconocer la perspectiva ajena implica comprensión genuina, no necesariamente coincidencia con la postura del otro.",
             "hint": "verbo que significa entender algo a fondo"
+          }
+        ]
+      },
+      {
+        "heading": "Verbalizar la comprensión",
+        "body": [
+          "Una fórmula eficaz consiste en verbalizar esa comprensión antes de exponer el propio punto de vista: «entiendo por qué desde tu posición esto te parece injusto; desde la mía, sin embargo, la situación se ve de otra manera». Este gesto reduce de inmediato la sensación de estar siendo ignorado, uno de los principales combustibles de cualquier conflicto latente que degenera en confrontación abierta."
+        ],
+        "examples": [
+          {
+            "es": "entiendo por qué desde tu posición...",
+            "en": "una fórmula que reconoce la perspectiva ajena sin renunciar a la propia postura"
           },
+          {
+            "es": "la sensación de estar siendo ignorado",
+            "en": "un combustible frecuente que agrava un conflicto latente hasta hacerlo explícito"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Tu compañera de piso protesta porque siempre pones la música alta. ¿Qué respuesta reconoce su perspectiva sin renunciar a la tuya?",
@@ -13358,6 +16139,72 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Verbaliza la comprensión («Entiendo por qué te molesta…») y mantiene la propia necesidad antes de proponer. Ceder del todo renuncia a la propia postura; las otras dos ignoran la perspectiva ajena."
+          }
+        ]
+      },
+      {
+        "heading": "Detectar el malentendido",
+        "body": [
+          "Esta escucha, además, permite detectar con frecuencia que buena parte del desacuerdo nace de un simple malentendido, más que de una diferencia real de intereses. Aclarar ese malentendido desde el principio evita que la disputa se prolongue innecesariamente sobre una base que, en el fondo, ninguna de las partes sostenía con firmeza."
+        ],
+        "examples": [
+          {
+            "es": "aclarar un simple malentendido",
+            "en": "resolver una confusión que, más que un desacuerdo real, alimentaba la disputa"
+          },
+          {
+            "es": "una base que nadie sostenía con firmeza",
+            "en": "el resultado de descubrir que buena parte del conflicto se apoyaba en un malentendido"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Al escucharlo, descubres que tu compañero creía que querías quitarle el proyecto, cuando solo te ofrecías a ayudar. ¿Qué conviene hacer?",
+            "options": [
+              "Aclarar el malentendido cuanto antes.",
+              "Seguir discutiendo cómo repartir el proyecto.",
+              "Esperar a que se le pase el enfado."
+            ],
+            "correctIndex": 0,
+            "explanation": "Buena parte del desacuerdo nacía de un malentendido, y aclararlo desde el principio evita prolongar una disputa sobre una base que nadie sostenía. Seguir discutiendo el reparto o esperar deja el malentendido intacto."
+          }
+        ]
+      },
+      {
+        "heading": "Gramática para reconocer sin ceder",
+        "body": [
+          "Gramática para reconocer sin ceder: «Entiendo por qué» + indicativo (es una pregunta indirecta: entiendo por qué te parece injusto) frente a «Entiendo que» + subjuntivo (valoras: entiendo que te parezca injusto). La concesión con «aunque» + indicativo afirma tu desacuerdo como un hecho: comprendo tu postura, aunque no la comparto. Y tras una negación, lo que corrige va con «sino»: no exige darle la razón, sino comprenderlo."
+        ],
+        "examples": [
+          {
+            "es": "Entiendo por qué, desde tu lado, este cambio te resulta incómodo.",
+            "en": "I understand why, from your side, this change feels uncomfortable to you. (por qué + indicativo)"
+          },
+          {
+            "es": "Respeto tu opinión, aunque no la comparto del todo.",
+            "en": "I respect your opinion, although I don't entirely share it. (aunque + indicativo: desacuerdo afirmado)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase afirma tu desacuerdo como un hecho?",
+            "options": [
+              "Comprendo tu postura, aunque no la comparto.",
+              "Comprendo tu postura, aunque no la comparta.",
+              "Comprendo tu postura, sino que no la comparto."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Aunque» + indicativo afirma el desacuerdo como un hecho. Con subjuntivo (comparta) no lo afirmas, y «sino» solo corrige tras una negación, no introduce una concesión."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con el modo adecuado.",
+            "sentence": "Entiendo por qué te ___ injusto el reparto de turnos.",
+            "answer": "parece",
+            "explanation": "«Entiendo por qué» introduce una pregunta indirecta y va con indicativo: parece. El subjuntivo (parezca) corresponde a «entiendo que», con el que valoras la emoción.",
+            "hint": "parecer"
           }
         ]
       }
@@ -13428,37 +16275,14 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Buscar el término medio y el acuerdo mutuo",
+        "heading": "El término medio y el punto de fricción",
         "body": [
-          "Una vez desactivada la tensión inicial y aclarados los posibles malentendidos, la mediación avanza hacia la búsqueda de un término medio que satisfaga, al menos parcialmente, los intereses de ambas partes. Esta fase exige identificar con precisión el punto de fricción concreto —a menudo más estrecho de lo que parecía al inicio de la disputa— y explorar juntos posibles soluciones antes de descartar ninguna por adelantado.",
-          "La negociación colaborativa, a diferencia de una negociación puramente competitiva, parte de la premisa de que ambas partes pueden salir beneficiadas si se concentran en los intereses subyacentes en lugar de aferrarse a las posturas iniciales. Tender puentes entre esas posturas exige, con frecuencia, cierta buena voluntad de ambos lados: ninguna mediación prospera si una de las partes se limita a esperar que sea la otra quien ceda por completo.",
-          "El acuerdo mutuo alcanzado debe formularse con claridad, evitando la ambigüedad que podría reabrir la disputa más adelante. Un pacto de convivencia bien definido, aunque implique renuncias moderadas para ambas partes, resulta mucho más duradero que una solución impuesta que solo una de las partes percibe como justa.",
-          "Gramática de la propuesta: el imperativo de «nosotros» invita a buscar juntos (busquemos, exploremos), y la solución que todavía no existe va en subjuntivo tras el relativo: «una solución que satisfaga a los dos», «un horario en el que ninguno pierda». Si la solución ya existiera y la conocieras, iría en indicativo («la solución que satisface a los dos es esta»)."
+          "Una vez desactivada la tensión inicial y aclarados los posibles malentendidos, la mediación avanza hacia la búsqueda de un término medio que satisfaga, al menos parcialmente, los intereses de ambas partes. Esta fase exige identificar con precisión el punto de fricción concreto —a menudo más estrecho de lo que parecía al inicio de la disputa— y explorar juntos posibles soluciones antes de descartar ninguna por adelantado."
         ],
         "examples": [
           {
-            "es": "Busquemos una solución que satisfaga a las dos partes.",
-            "en": "Let's look for a solution that satisfies both sides. (solución aún desconocida: subjuntivo)"
-          },
-          {
-            "es": "Exploremos juntos todas las opciones antes de descartar ninguna.",
-            "en": "Let's explore all the options together before ruling any out. (imperativo de nosotros)"
-          },
-          {
-            "es": "Cada uno tendrá que renunciar a una parte de lo que pide.",
-            "en": "Each of you will have to give up part of what you are asking for. (renuncias moderadas para ambos)"
-          },
-          {
             "es": "identificar el punto de fricción concreto",
             "en": "delimitar con precisión el aspecto exacto que provoca la tensión entre las partes"
-          },
-          {
-            "es": "concentrarse en los intereses subyacentes",
-            "en": "buscar, en la negociación colaborativa, lo que realmente motiva a cada parte más allá de su postura inicial"
-          },
-          {
-            "es": "tender puentes entre posturas",
-            "en": "crear vías de entendimiento que acerquen posiciones aparentemente irreconciliables"
           }
         ],
         "checkpoint": [
@@ -13473,6 +16297,88 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "El término medio satisface en parte a ambos (21 °C) y atiende al interés de fondo (no pasar frío) con una medida extra. Dar la razón a uno, apagarla o sortearlo no tienen en cuenta los intereses de las dos partes."
+          }
+        ]
+      },
+      {
+        "heading": "Negociación colaborativa: intereses, no posturas",
+        "body": [
+          "La negociación colaborativa, a diferencia de una negociación puramente competitiva, parte de la premisa de que ambas partes pueden salir beneficiadas si se concentran en los intereses subyacentes en lugar de aferrarse a las posturas iniciales. Tender puentes entre esas posturas exige, con frecuencia, cierta buena voluntad de ambos lados: ninguna mediación prospera si una de las partes se limita a esperar que sea la otra quien ceda por completo."
+        ],
+        "examples": [
+          {
+            "es": "concentrarse en los intereses subyacentes",
+            "en": "buscar, en la negociación colaborativa, lo que realmente motiva a cada parte más allá de su postura inicial"
+          },
+          {
+            "es": "tender puentes entre posturas",
+            "en": "crear vías de entendimiento que acerquen posiciones aparentemente irreconciliables"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un vecino exige «que quiten la terraza del bar»; lo que de verdad necesita es dormir antes de medianoche. Desde la negociación colaborativa, ¿en qué hay que concentrarse?",
+            "options": [
+              "En su interés subyacente: poder dormir antes de medianoche.",
+              "En su postura inicial: quitar la terraza.",
+              "En quién tiene más derecho legal.",
+              "En que el dueño del bar ceda por completo."
+            ],
+            "correctIndex": 0,
+            "explanation": "La negociación colaborativa se concentra en los intereses subyacentes (dormir), que abren opciones como cerrar antes la terraza. Aferrarse a la postura (quitar la terraza) o esperar que el otro ceda por completo es propio de la negociación competitiva."
+          }
+        ]
+      },
+      {
+        "heading": "Un acuerdo claro y duradero",
+        "body": [
+          "El acuerdo mutuo alcanzado debe formularse con claridad, evitando la ambigüedad que podría reabrir la disputa más adelante. Un pacto de convivencia bien definido, aunque implique renuncias moderadas para ambas partes, resulta mucho más duradero que una solución impuesta que solo una de las partes percibe como justa."
+        ],
+        "examples": [
+          {
+            "es": "Cada uno tendrá que renunciar a una parte de lo que pide.",
+            "en": "Each of you will have to give up part of what you are asking for. (renuncias moderadas para ambos)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué acuerdo entre dos hermanos que comparten coche tiene menos riesgo de reabrir la disputa?",
+            "options": [
+              "«Lo usas tú los lunes, miércoles y viernes, y yo el resto; quien lo use, llena el depósito».",
+              "«Ya nos iremos organizando según cómo vaya».",
+              "«Lo usa siempre el que lo necesite más».",
+              "«Lo usaré yo, porque lo pagué yo»."
+            ],
+            "correctIndex": 0,
+            "explanation": "El acuerdo mutuo debe formularse con claridad: días concretos y quién paga la gasolina. «Ya nos iremos organizando» y «el que lo necesite más» son ambiguos y reabren la disputa; «lo usaré yo» es una solución impuesta que solo una parte percibe como justa."
+          }
+        ]
+      },
+      {
+        "heading": "Gramática de la propuesta: busquemos una solución que…",
+        "body": [
+          "Gramática de la propuesta: el imperativo de «nosotros» invita a buscar juntos (busquemos, exploremos), y la solución que todavía no existe va en subjuntivo tras el relativo: «una solución que satisfaga a los dos», «un horario en el que ninguno pierda». Si la solución ya existiera y la conocieras, iría en indicativo («la solución que satisface a los dos es esta»)."
+        ],
+        "examples": [
+          {
+            "es": "Busquemos una solución que satisfaga a las dos partes.",
+            "en": "Let's look for a solution that satisfies both sides. (solución aún desconocida: subjuntivo)"
+          },
+          {
+            "es": "Exploremos juntos todas las opciones antes de descartar ninguna.",
+            "en": "Let's explore all the options together before ruling any out. (imperativo de nosotros)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la propuesta del mediador.",
+            "sentence": "Necesitamos un calendario de vacaciones que ___ a todo el equipo. (convenir)",
+            "answer": "convenga",
+            "explanation": "El calendario todavía no existe: es un antecedente desconocido, así que el relativo lleva subjuntivo (convenga). «Conviene» (indicativo) solo valdría para un calendario concreto que ya conoces.",
+            "hint": "subjuntivo: el calendario aún no existe"
           }
         ]
       }
@@ -13566,33 +16472,14 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La disculpa sincera y la restauración de la relación",
+        "heading": "Una disculpa sin condicionantes",
         "body": [
-          "Cuando un conflicto ha dejado daño emocional real, ningún acuerdo puramente práctico basta por sí solo para restaurar la relación entre las partes: se necesita, además, una disculpa sincera que reconozca explícitamente el daño causado, sin condicionantes ni justificaciones que diluyan su valor. Una disculpa que añade de inmediato «pero es que tú también...» rara vez cumple su función reparadora, porque traslada de nuevo el reproche hacia la otra parte.",
-          "Asumir responsabilidad compartida, cuando corresponde, suele facilitar considerablemente la reconciliación: reconocer la propia contribución al conflicto, por parcial que sea, invita al otro a hacer lo mismo y rompe la dinámica de atribuirse mutuamente toda la culpa. Superar el resentimiento acumulado exige tiempo, y ninguna disculpa, por sincera que sea, garantiza una reconciliación inmediata.",
-          "Bajar la guardia después de un conflicto resulta, para muchas personas, el paso más difícil de todos, precisamente porque implica asumir cierta vulnerabilidad frente a quien acaba de causar un daño. Sin embargo, sin ese gesto de apertura mutua resulta muy difícil que la voluntad de entendimiento se traduzca en una relación genuinamente restaurada.",
-          "La forma de la disculpa sincera: «Te pido perdón por» + lo hecho (por lo que dije, por haberte hablado mal), con «por» porque nombra la causa; y sin «pero», que traslada el reproche. La responsabilidad compartida se expresa con «los dos» + primera persona del plural: «los dos tenemos parte de culpa»."
+          "Cuando un conflicto ha dejado daño emocional real, ningún acuerdo puramente práctico basta por sí solo para restaurar la relación entre las partes: se necesita, además, una disculpa sincera que reconozca explícitamente el daño causado, sin condicionantes ni justificaciones que diluyan su valor. Una disculpa que añade de inmediato «pero es que tú también...» rara vez cumple su función reparadora, porque traslada de nuevo el reproche hacia la otra parte."
         ],
         "examples": [
           {
-            "es": "Te pido perdón por haberte hablado así delante de todos.",
-            "en": "I apologise for having spoken to you like that in front of everyone. (por + infinitivo compuesto)"
-          },
-          {
-            "es": "Los dos tenemos parte de culpa en esto.",
-            "en": "We're both partly to blame for this. (responsabilidad compartida)"
-          },
-          {
             "es": "una disculpa sin condicionantes",
             "en": "un reconocimiento del daño causado que no traslada el reproche hacia la otra parte"
-          },
-          {
-            "es": "asumir responsabilidad compartida",
-            "en": "reconocer la propia contribución a un conflicto, por parcial que resulte"
-          },
-          {
-            "es": "romper la dinámica de atribuirse la culpa mutuamente",
-            "en": "el efecto positivo de reconocer la propia responsabilidad en una disputa"
           }
         ],
         "checkpoint": [
@@ -13607,6 +16494,81 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La primera nombra el daño concreto y lo valora («no fue justo») sin justificarse. Las otras lo condicionan («si te molestó»), lo minimizan («no era para tanto»), se centran en la reacción del otro o devuelven el reproche con «pero»."
+          }
+        ]
+      },
+      {
+        "heading": "Asumir la responsabilidad compartida",
+        "body": [
+          "Asumir responsabilidad compartida, cuando corresponde, suele facilitar considerablemente la reconciliación: reconocer la propia contribución al conflicto, por parcial que sea, invita al otro a hacer lo mismo y rompe la dinámica de atribuirse mutuamente toda la culpa. Superar el resentimiento acumulado exige tiempo, y ninguna disculpa, por sincera que sea, garantiza una reconciliación inmediata."
+        ],
+        "examples": [
+          {
+            "es": "asumir responsabilidad compartida",
+            "en": "reconocer la propia contribución a un conflicto, por parcial que resulte"
+          },
+          {
+            "es": "romper la dinámica de atribuirse la culpa mutuamente",
+            "en": "el efecto positivo de reconocer la propia responsabilidad en una disputa"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Tras una discusión por un proyecto que salió mal, ¿qué frase rompe la dinámica de atribuirse mutuamente toda la culpa?",
+            "options": [
+              "«Yo también debí avisar antes de los retrasos; reconozco mi parte».",
+              "«Si tú hubieras hecho tu trabajo, esto no habría pasado».",
+              "«La culpa es del jefe, no nuestra».",
+              "«Ya está, olvidémoslo y no hablemos más»."
+            ],
+            "correctIndex": 0,
+            "explanation": "Reconocer la propia contribución al conflicto, aunque sea parcial, invita al otro a hacer lo mismo. Culpar al otro o a un tercero mantiene la dinámica de culpas, y «olvidémoslo» evita el conflicto sin asumir nada."
+          }
+        ]
+      },
+      {
+        "heading": "Bajar la guardia",
+        "body": [
+          "Bajar la guardia después de un conflicto resulta, para muchas personas, el paso más difícil de todos, precisamente porque implica asumir cierta vulnerabilidad frente a quien acaba de causar un daño. Sin embargo, sin ese gesto de apertura mutua resulta muy difícil que la voluntad de entendimiento se traduzca en una relación genuinamente restaurada."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿por qué bajar la guardia es, para muchos, el paso más difícil?",
+            "options": [
+              "Porque implica mostrarse vulnerable ante quien acaba de causar un daño.",
+              "Porque obliga a firmar un acuerdo por escrito.",
+              "Porque exige ganar antes la discusión.",
+              "Porque solo puede hacerlo el mediador."
+            ],
+            "correctIndex": 0,
+            "explanation": "Bajar la guardia supone asumir cierta vulnerabilidad frente a quien causó el daño; por eso cuesta. No tiene que ver con firmar nada ni con ganar la discusión, y lo hacen las partes, no el mediador."
+          }
+        ]
+      },
+      {
+        "heading": "La forma: «Te pido perdón por…» y «los dos tenemos…»",
+        "body": [
+          "La forma de la disculpa sincera: «Te pido perdón por» + lo hecho (por lo que dije, por haberte hablado mal), con «por» porque nombra la causa; y sin «pero», que traslada el reproche. La responsabilidad compartida se expresa con «los dos» + primera persona del plural: «los dos tenemos parte de culpa»."
+        ],
+        "examples": [
+          {
+            "es": "Te pido perdón por haberte hablado así delante de todos.",
+            "en": "I apologise for having spoken to you like that in front of everyone. (por + infinitivo compuesto)"
+          },
+          {
+            "es": "Los dos tenemos parte de culpa en esto.",
+            "en": "We're both partly to blame for this. (responsabilidad compartida)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la disculpa.",
+            "sentence": "Te pido perdón ___ no haberte avisado de la reunión.",
+            "answer": "por",
+            "explanation": "«Pedir perdón por» + lo hecho: «por» introduce la causa de la disculpa, también ante un infinitivo compuesto (por no haberte avisado). «Para» indicaría finalidad, no causa."
           }
         ]
       }
@@ -13718,18 +16680,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): cómo lo vive cada uno",
         "body": [
           "Mediadora: Gracias a los dos por aceptar esta conversación. Antes de nada, quiero que cada uno exprese cómo se siente respecto a lo ocurrido.",
           "Persona A: Sinceramente, me siento ignorado desde hace semanas, como si mi opinión no contara en las decisiones del equipo.",
           "Persona B: Entiendo que te sientas así, y lamento que haya llegado a ese punto. No era mi intención.",
-          "Mediadora: Bien, ese reconocimiento ya es un buen punto de partida. ¿Podrías, B, explicar tu perspectiva sobre lo sucedido?",
-          "Persona B: Desde mi lado, sentí que cada propuesta mía se cuestionaba de inmediato, así que empecé a tomar decisiones sin consultar, para evitar el desgaste.",
-          "Persona A: No lo había visto así. Puede que parte de esto sea, en realidad, un malentendido mutuo.",
-          "Mediadora: Interesante. ¿Creen que hay algún punto en común desde el que empezar a reconstruir la confianza?",
-          "Persona B: Yo estaría dispuesto a retomar las consultas previas si tú te comprometes a plantear tus dudas sin acusaciones.",
-          "Persona A: Me parece un término medio razonable. Acepto esa parte del acuerdo.",
-          "Mediadora: Excelente. Dejemos entonces por escrito este pacto de convivencia para que ambos lo tengan claro."
+          "Mediadora: Bien, ese reconocimiento ya es un buen punto de partida. ¿Podrías, B, explicar tu perspectiva sobre lo sucedido?"
         ],
         "checkpoint": [
           {
@@ -13743,6 +16699,50 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Valida lo que siente A y lamenta la situación, sin «pero» ni reproche. No le da la razón en todo: más adelante explica su propia perspectiva."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): la otra perspectiva",
+        "body": [
+          "Persona B: Desde mi lado, sentí que cada propuesta mía se cuestionaba de inmediato, así que empecé a tomar decisiones sin consultar, para evitar el desgaste.",
+          "Persona A: No lo había visto así. Puede que parte de esto sea, en realidad, un malentendido mutuo.",
+          "Mediadora: Interesante. ¿Creen que hay algún punto en común desde el que empezar a reconstruir la confianza?"
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Al oír la perspectiva de B, ¿qué reconoce la Persona A?",
+            "options": [
+              "Que parte del conflicto puede ser un malentendido mutuo.",
+              "Que B tenía toda la razón desde el principio.",
+              "Que no quiere seguir con la mediación.",
+              "Que B tomó decisiones para perjudicarla."
+            ],
+            "correctIndex": 0,
+            "explanation": "A dice «No lo había visto así. Puede que parte de esto sea un malentendido mutuo»: duda («puede que» + subjuntivo) y reconoce que ambos contribuyeron. No le da toda la razón a B, no abandona la mediación ni le atribuye mala intención."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (3): el acuerdo",
+        "body": [
+          "Persona B: Yo estaría dispuesto a retomar las consultas previas si tú te comprometes a plantear tus dudas sin acusaciones.",
+          "Persona A: Me parece un término medio razonable. Acepto esa parte del acuerdo.",
+          "Mediadora: Excelente. Dejemos entonces por escrito este pacto de convivencia para que ambos lo tengan claro."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué condición pone la Persona B para retomar las consultas previas?",
+            "options": [
+              "Que A plantee sus dudas sin acusaciones.",
+              "Que A le pida perdón por escrito.",
+              "Que la mediadora decida por los dos.",
+              "Que A deje de participar en las decisiones."
+            ],
+            "correctIndex": 0,
+            "explanation": "B dice: «estaría dispuesto a retomar las consultas previas si tú te comprometes a plantear tus dudas sin acusaciones» (condición real: si + presente). Las otras opciones no aparecen en el diálogo."
           }
         ]
       }
@@ -14173,8 +17173,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Un imperfecto para un hecho puntual",
         "body": [
-          "En C1 se aprende que el indefinido narra hechos y el imperfecto describe el fondo. La prosa histórica y periodística rompe a menudo esa regla con el imperfecto narrativo (también llamado «de ruptura» o «periodístico»): un hecho puntual y concluido se cuenta en imperfecto, casi siempre acompañado de una fecha o de un complemento que lo delimita: «El 14 de abril de 1931 se proclamaba la Segunda República»; «Tres días después, el general moría en el exilio».",
-          "El efecto es de cámara lenta: el lector se sitúa dentro del momento, como si lo viera ocurrir. Por eso aparece al principio o al final de un relato, o en su punto culminante, y casi nunca en una secuencia larga de acciones."
+          "En C1 se aprende que el indefinido narra hechos y el imperfecto describe el fondo. La prosa histórica y periodística rompe a menudo esa regla con el imperfecto narrativo (también llamado «de ruptura» o «periodístico»): un hecho puntual y concluido se cuenta en imperfecto, casi siempre acompañado de una fecha o de un complemento que lo delimita: «El 14 de abril de 1931 se proclamaba la Segunda República»; «Tres días después, el general moría en el exilio»."
         ],
         "examples": [
           {
@@ -14202,6 +17201,26 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Con un complemento temporal preciso («a las seis de la mañana») y un hecho único, es un imperfecto narrativo: dramatiza la acción. No indica costumbre (no hay repetición), no es un error (es un recurso consolidado de la prosa culta) y no tiene valor de cortesía."
+          }
+        ]
+      },
+      {
+        "heading": "El efecto: cámara lenta",
+        "body": [
+          "El efecto es de cámara lenta: el lector se sitúa dentro del momento, como si lo viera ocurrir. Por eso aparece al principio o al final de un relato, o en su punto culminante, y casi nunca en una secuencia larga de acciones."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿En qué lugar de una crónica histórica encaja mejor un imperfecto narrativo?",
+            "options": [
+              "En el cierre: «Esa misma noche, el rey abandonaba el país».",
+              "En una larga serie de acciones: «se levantaba, se vestía, salía, compraba…».",
+              "En la descripción de una costumbre: «Cada verano la corte se trasladaba a La Granja».",
+              "En una pregunta retórica sobre el pasado."
+            ],
+            "correctIndex": 0,
+            "explanation": "El imperfecto narrativo crea un efecto de cámara lenta y se reserva para el principio, el final o el punto culminante del relato. En una secuencia larga de acciones casi nunca aparece, y «cada verano… se trasladaba» es un imperfecto habitual, no narrativo."
           }
         ]
       },
@@ -14362,10 +17381,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "El pretérito anterior: un tiempo para reconocer",
+        "heading": "El pretérito anterior: forma y conectores",
         "body": [
-          "El pretérito anterior («hubo terminado», «hubieron llegado») expresa una acción inmediatamente anterior a otra pasada. Aparece casi siempre tras conectores temporales de anterioridad inmediata: «cuando», «apenas», «no bien», «tan pronto como», «así que», «luego que», «una vez que», «después (de) que»: «Apenas hubo firmado el tratado, se retiró a su finca».",
-          "Hoy es casi exclusivo de la lengua literaria y de la historiografía de estilo clásico. En el habla y en la prosa actual se sustituye por el indefinido («Apenas firmó el tratado…»), por el pluscuamperfecto («Apenas había firmado…», donde la inmediatez la aporta el conector «apenas») o por construcciones como «nada más firmar» o «una vez firmado». Un hablante C2 debe reconocerlo, no necesariamente usarlo."
+          "El pretérito anterior («hubo terminado», «hubieron llegado») expresa una acción inmediatamente anterior a otra pasada. Aparece casi siempre tras conectores temporales de anterioridad inmediata: «cuando», «apenas», «no bien», «tan pronto como», «así que», «luego que», «una vez que», «después (de) que»: «Apenas hubo firmado el tratado, se retiró a su finca»."
         ],
         "examples": [
           {
@@ -14375,7 +17393,29 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "No bien hubieron entrado las tropas, comenzó el saqueo.",
             "en": "No sooner had the troops entered than the looting began."
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿En qué frase está bien usado el pretérito anterior?",
+            "options": [
+              "No bien hubo llegado el mensajero, el rey convocó al consejo.",
+              "El rey hubo vivido en Toledo durante muchos años.",
+              "Mientras hubo llovido, los soldados esperaban.",
+              "El mensajero hubo llegado ayer por la tarde."
+            ],
+            "correctIndex": 0,
+            "explanation": "El pretérito anterior expresa una acción inmediatamente anterior a otra pasada y va tras conectores de anterioridad inmediata como «no bien», «apenas» o «en cuanto». Sin ese conector y sin otra acción posterior («hubo vivido muchos años», «hubo llegado ayer») no tiene sentido, y «mientras» indica simultaneidad, no anterioridad."
+          }
+        ]
+      },
+      {
+        "heading": "Hoy se reconoce, no se usa",
+        "body": [
+          "Hoy es casi exclusivo de la lengua literaria y de la historiografía de estilo clásico. En el habla y en la prosa actual se sustituye por el indefinido («Apenas firmó el tratado…»), por el pluscuamperfecto («Apenas había firmado…», donde la inmediatez la aporta el conector «apenas») o por construcciones como «nada más firmar» o «una vez firmado». Un hablante C2 debe reconocerlo, no necesariamente usarlo."
+        ],
+        "examples": [
           {
             "es": "Nada más firmar el tratado, se retiró a su finca.",
             "en": "As soon as he signed the treaty, he retired to his estate."
@@ -16125,12 +19165,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "La formulación de hipótesis y el rigor del método científico",
+        "heading": "La hipótesis y la falsabilidad",
         "body": [
-          "Toda indagación científica seria arranca de una hipótesis: una conjetura fundamentada que se atreve a proponer una relación causal entre fenómenos, pero que se somete voluntariamente al riesgo de ser refutada. Una hipótesis que no puede fallar, que se acomoda a cualquier resultado posible, carece de valor científico por más elegante que suene. Este principio de falsabilidad separa la ciencia de la mera especulación y obliga a quien investiga a exponer sus ideas al escrutinio más despiadado.",
-          "El rigor científico no consiste únicamente en seguir un protocolo, sino en cultivar una honestidad intelectual que reconozca las limitaciones de los propios datos. Un investigador riguroso distingue entre una correlación llamativa y una relación causal demostrada, y desconfía de los hallazgos que confirman exactamente lo que esperaba encontrar. La revisión por pares, con todas sus imperfecciones, funciona como un filtro colectivo que atenúa el sesgo individual.",
-          "Cabe subrayar además la importancia de la reproducibilidad: un hallazgo que nadie más logra replicar, por prometedor que parezca en su publicación original, permanece en un limbo de sospecha hasta que otros equipos lo confirmen de manera independiente. La llamada crisis de reproducibilidad ha obligado a numerosas disciplinas a revisar sus propios estándares de publicación y financiación.",
-          "Fíjate en cómo se forma este vocabulario, porque el patrón sirve para palabras nuevas: verbo → adjetivo en -ble («que puede ser…») → sustantivo en -bilidad («la cualidad de…»). Falsar → falsable → la falsabilidad; reproducir → reproducible → la reproducibilidad; verificar → verificable → la verificabilidad. Si te falta un término, constrúyelo con la familia."
+          "Toda indagación científica seria arranca de una hipótesis: una conjetura fundamentada que se atreve a proponer una relación causal entre fenómenos, pero que se somete voluntariamente al riesgo de ser refutada. Una hipótesis que no puede fallar, que se acomoda a cualquier resultado posible, carece de valor científico por más elegante que suene. Este principio de falsabilidad separa la ciencia de la mera especulación y obliga a quien investiga a exponer sus ideas al escrutinio más despiadado."
         ],
         "examples": [
           {
@@ -16140,18 +19177,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la falsabilidad",
             "en": "cualidad de un enunciado que puede, en principio, ser refutado por la evidencia"
-          },
-          {
-            "es": "el sesgo de confirmación",
-            "en": "tendencia a interpretar los datos de manera que confirmen lo que ya se creía"
-          },
-          {
-            "es": "la revisión por pares",
-            "en": "evaluación de un trabajo científico por otros expertos antes de su publicación"
-          },
-          {
-            "es": "la reproducibilidad",
-            "en": "capacidad de un resultado de obtenerse de nuevo mediante un experimento independiente"
           }
         ],
         "checkpoint": [
@@ -16166,7 +19191,51 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto sostiene que una hipótesis debe poder fallar; si se acomoda a cualquier resultado, carece de valor científico. Una hipótesis irrefutable no es científica, la intuición del investigador no es un criterio y publicar en una revista prestigiosa no la hace falsable."
+          }
+        ]
+      },
+      {
+        "heading": "El rigor: correlación, causa y revisión por pares",
+        "body": [
+          "El rigor científico no consiste únicamente en seguir un protocolo, sino en cultivar una honestidad intelectual que reconozca las limitaciones de los propios datos. Un investigador riguroso distingue entre una correlación llamativa y una relación causal demostrada, y desconfía de los hallazgos que confirman exactamente lo que esperaba encontrar. La revisión por pares, con todas sus imperfecciones, funciona como un filtro colectivo que atenúa el sesgo individual."
+        ],
+        "examples": [
+          {
+            "es": "el sesgo de confirmación",
+            "en": "tendencia a interpretar los datos de manera que confirmen lo que ya se creía"
           },
+          {
+            "es": "la revisión por pares",
+            "en": "evaluación de un trabajo científico por otros expertos antes de su publicación"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un estudio observa que en las ciudades con más heladerías hay más ahogamientos. ¿Qué diría un investigador riguroso?",
+            "options": [
+              "Que es una correlación llamativa, no una relación causal demostrada: ambas cosas aumentan en verano.",
+              "Que los helados provocan ahogamientos.",
+              "Que el dato confirma lo que esperaba y no hace falta revisarlo.",
+              "Que basta con publicarlo sin revisión por pares."
+            ],
+            "correctIndex": 0,
+            "explanation": "El rigor exige distinguir una correlación de una relación causal demostrada: aquí un tercer factor (el calor) explica las dos cosas. Dar por buena la causa o fiarse de lo que confirma lo esperado es caer en el sesgo; la revisión por pares sirve justamente de filtro."
+          }
+        ]
+      },
+      {
+        "heading": "La reproducibilidad",
+        "body": [
+          "Cabe subrayar además la importancia de la reproducibilidad: un hallazgo que nadie más logra replicar, por prometedor que parezca en su publicación original, permanece en un limbo de sospecha hasta que otros equipos lo confirmen de manera independiente. La llamada crisis de reproducibilidad ha obligado a numerosas disciplinas a revisar sus propios estándares de publicación y financiación."
+        ],
+        "examples": [
+          {
+            "es": "la reproducibilidad",
+            "en": "capacidad de un resultado de obtenerse de nuevo mediante un experimento independiente"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "fill-blank",
             "prompt": "Completa con el término que designa la capacidad de otros equipos de obtener de nuevo el mismo resultado.",
@@ -16174,7 +19243,15 @@ const C2_BASE_LESSONS: Lesson[] = [
             "answer": "reproducibilidad",
             "explanation": "El texto menciona explícitamente la crisis de reproducibilidad como un problema que afecta a numerosas disciplinas científicas.",
             "hint": "Es la capacidad de replicar un hallazgo de forma independiente."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Familias de palabras: -ble y -bilidad",
+        "body": [
+          "Fíjate en cómo se forma este vocabulario, porque el patrón sirve para palabras nuevas: verbo → adjetivo en -ble («que puede ser…») → sustantivo en -bilidad («la cualidad de…»). Falsar → falsable → la falsabilidad; reproducir → reproducible → la reproducibilidad; verificar → verificable → la verificabilidad. Si te falta un término, constrúyelo con la familia."
+        ],
+        "checkpoint": [
           {
             "type": "translate",
             "direction": "en-es",
@@ -16186,11 +19263,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El diseño experimental: variables, control y validez",
+        "heading": "Variables independiente y dependiente",
         "body": [
-          "Diseñar un experimento con solidez exige distinguir con precisión entre la variable independiente, aquella que el investigador manipula deliberadamente, y la variable dependiente, la que se mide para observar el efecto de dicha manipulación. Cualquier otra variable que pudiera contaminar esa relación debe controlarse o, al menos, registrarse con cuidado, pues de lo contrario resulta imposible atribuir el efecto observado a la causa que se pretendía estudiar.",
-          "El grupo de control cumple una función insustituible: ofrece un punto de comparación que permite discernir si el cambio observado se debe realmente a la intervención o simplemente al paso del tiempo, al azar o a otros factores ajenos al estudio. En los ensayos clínicos, este principio adquiere una dimensión ética añadida, ya que implica que un grupo de pacientes recibirá un placebo en lugar del tratamiento que se investiga.",
-          "La validez de un experimento se juzga en dos planos complementarios: la validez interna, que evalúa si el diseño realmente aísla la relación causal que se busca demostrar, y la validez externa, que pregunta si esos resultados pueden generalizarse más allá de las condiciones particulares del laboratorio. Un hallazgo puede ser internamente impecable y, sin embargo, tener un alcance práctico muy limitado."
+          "Diseñar un experimento con solidez exige distinguir con precisión entre la variable independiente, aquella que el investigador manipula deliberadamente, y la variable dependiente, la que se mide para observar el efecto de dicha manipulación. Cualquier otra variable que pudiera contaminar esa relación debe controlarse o, al menos, registrarse con cuidado, pues de lo contrario resulta imposible atribuir el efecto observado a la causa que se pretendía estudiar."
         ],
         "examples": [
           {
@@ -16200,43 +19275,20 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la variable dependiente",
             "en": "magnitud que se mide para observar el efecto de la manipulación experimental"
-          },
-          {
-            "es": "el grupo de control",
-            "en": "conjunto de sujetos que no recibe la intervención, usado como punto de comparación"
-          },
-          {
-            "es": "el ensayo clínico",
-            "en": "estudio experimental que evalúa la eficacia y la seguridad de un tratamiento en personas"
-          },
-          {
-            "es": "la validez interna",
-            "en": "grado en que un diseño experimental aísla realmente la relación causal estudiada"
-          },
-          {
-            "es": "la validez externa",
-            "en": "grado en que los resultados de un estudio pueden generalizarse fuera del laboratorio"
           }
         ],
         "checkpoint": [
           {
-            "type": "matching",
-            "instructions": "Relaciona cada término del diseño experimental con su definición.",
-            "pairs": [
-              {
-                "left": "la variable independiente",
-                "right": "factor manipulado deliberadamente por quien investiga"
-              },
-              {
-                "left": "el grupo de control",
-                "right": "conjunto que no recibe la intervención y sirve de comparación"
-              },
-              {
-                "left": "la validez externa",
-                "right": "posibilidad de generalizar un hallazgo más allá del laboratorio"
-              }
+            "type": "multiple-choice",
+            "question": "Un estudio mide cómo influyen las horas de sueño en los resultados de una prueba de memoria. ¿Cuál es la variable dependiente?",
+            "options": [
+              "Los resultados en la prueba de memoria.",
+              "Las horas de sueño.",
+              "La edad de los participantes.",
+              "El laboratorio donde se hace la prueba."
             ],
-            "explanation": "La variable independiente es la que el investigador cambia a propósito; el grupo de control no recibe la intervención y permite ver si el cambio se debe a ella; la validez externa pregunta si los resultados valen fuera del laboratorio."
+            "correctIndex": 0,
+            "explanation": "La variable dependiente es la que se mide para ver el efecto: los resultados de memoria. Las horas de sueño son la variable independiente (la que se manipula); la edad es una variable que hay que controlar o registrar."
           },
           {
             "type": "translate",
@@ -16249,6 +19301,66 @@ const C2_BASE_LESSONS: Lesson[] = [
               "La variable independiente es la que el investigador manipula deliberadamente."
             ],
             "explanation": "El investigador manipula la variable independiente (la causa que se pone a prueba) y mide la dependiente (el efecto), que «depende» de la primera."
+          }
+        ]
+      },
+      {
+        "heading": "El grupo de control",
+        "body": [
+          "El grupo de control cumple una función insustituible: ofrece un punto de comparación que permite discernir si el cambio observado se debe realmente a la intervención o simplemente al paso del tiempo, al azar o a otros factores ajenos al estudio. En los ensayos clínicos, este principio adquiere una dimensión ética añadida, ya que implica que un grupo de pacientes recibirá un placebo en lugar del tratamiento que se investiga."
+        ],
+        "examples": [
+          {
+            "es": "el grupo de control",
+            "en": "conjunto de sujetos que no recibe la intervención, usado como punto de comparación"
+          },
+          {
+            "es": "el ensayo clínico",
+            "en": "estudio experimental que evalúa la eficacia y la seguridad de un tratamiento en personas"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En un ensayo de un nuevo fármaco contra la migraña, ¿para qué sirve el grupo que toma placebo?",
+            "options": [
+              "Para comprobar si la mejora se debe al fármaco y no al paso del tiempo o al azar.",
+              "Para que el ensayo dure menos.",
+              "Para probar una dosis más alta del fármaco.",
+              "Para evitar la revisión por pares."
+            ],
+            "correctIndex": 0,
+            "explanation": "El grupo de control ofrece un punto de comparación: si los dos grupos mejoran igual, el efecto no se debe al fármaco. No acorta el ensayo ni prueba otra dosis; recibe placebo precisamente para no recibir la intervención."
+          }
+        ]
+      },
+      {
+        "heading": "Validez interna y externa",
+        "body": [
+          "La validez de un experimento se juzga en dos planos complementarios: la validez interna, que evalúa si el diseño realmente aísla la relación causal que se busca demostrar, y la validez externa, que pregunta si esos resultados pueden generalizarse más allá de las condiciones particulares del laboratorio. Un hallazgo puede ser internamente impecable y, sin embargo, tener un alcance práctico muy limitado."
+        ],
+        "examples": [
+          {
+            "es": "la validez interna",
+            "en": "grado en que un diseño experimental aísla realmente la relación causal estudiada"
+          },
+          {
+            "es": "la validez externa",
+            "en": "grado en que los resultados de un estudio pueden generalizarse fuera del laboratorio"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un fármaco funciona muy bien en ratones de laboratorio criados en condiciones idénticas, pero nadie sabe si servirá en personas. ¿Qué validez está en duda?",
+            "options": [
+              "la validez externa",
+              "la validez interna",
+              "la variable independiente",
+              "el grupo de control"
+            ],
+            "correctIndex": 0,
+            "explanation": "La validez externa pregunta si los resultados pueden generalizarse más allá de las condiciones del laboratorio (de ratones a personas). La validez interna evalúa si el diseño aísla bien la causa, y aquí no se pone en duda."
           }
         ]
       }
@@ -16304,6 +19416,25 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 0,
         "explanation": "Fiable → la fiabilidad, igual que reproducible → la reproducibilidad. «Fianza» existe, pero es una garantía económica; «fiablez» y «confiabilidez» no existen."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término del diseño experimental con su definición.",
+        "pairs": [
+          {
+            "left": "la variable independiente",
+            "right": "factor manipulado deliberadamente por quien investiga"
+          },
+          {
+            "left": "el grupo de control",
+            "right": "conjunto que no recibe la intervención y sirve de comparación"
+          },
+          {
+            "left": "la validez externa",
+            "right": "posibilidad de generalizar un hallazgo más allá del laboratorio"
+          }
+        ],
+        "explanation": "La variable independiente es la que el investigador cambia a propósito; el grupo de control no recibe la intervención y permite ver si el cambio se debe a ella; la validez externa pregunta si los resultados valen fuera del laboratorio."
       }
     ]
   },
@@ -16316,17 +19447,37 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "La innovación tecnológica y la lógica de la disrupción",
+        "heading": "La innovación disruptiva",
         "body": [
-          "Una innovación disruptiva no perfecciona simplemente un producto existente, sino que redefine las reglas de un mercado entero al introducir una propuesta más accesible, más sencilla o más económica que termina desplazando a las soluciones establecidas. Al principio, estas innovaciones suelen parecer inferiores a ojos de los usuarios más exigentes, precisamente porque atienden primero a un segmento desatendido antes de escalar hacia el mercado principal.",
-          "La escalabilidad de una tecnología determina si una innovación prometedora en un prototipo de laboratorio puede convertirse en una solución viable para millones de usuarios sin que sus costes se disparen de manera proporcional. Una arquitectura que funciona perfectamente con cien usuarios puede colapsar por completo al enfrentarse a cien millones, y anticipar ese salto de escala forma parte esencial del diseño tecnológico responsable.",
-          "Conviene además distinguir entre la innovación incremental, que mejora gradualmente lo ya existente, y la innovación radical, que rompe con los paradigmas previos y a menudo tarda años en encontrar una aplicación comercial clara. Las instituciones que financian la investigación afrontan aquí un dilema recurrente: apostar por mejoras seguras y previsibles o financiar ideas arriesgadas cuyo fracaso es, con mucho, el desenlace más probable."
+          "Una innovación disruptiva no perfecciona simplemente un producto existente, sino que redefine las reglas de un mercado entero al introducir una propuesta más accesible, más sencilla o más económica que termina desplazando a las soluciones establecidas. Al principio, estas innovaciones suelen parecer inferiores a ojos de los usuarios más exigentes, precisamente porque atienden primero a un segmento desatendido antes de escalar hacia el mercado principal."
         ],
         "examples": [
           {
             "es": "la innovación disruptiva",
             "en": "novedad que transforma un mercado desplazando a las soluciones establecidas"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué caso encaja mejor con una innovación disruptiva?",
+            "options": [
+              "Las cámaras de los móviles, peores al principio que las réflex, acabaron desplazando a las cámaras compactas.",
+              "Un coche nuevo consume un cinco por ciento menos que el modelo anterior.",
+              "Una marca cambia el color de su envase.",
+              "Un banco abre una sucursal más en el centro."
+            ],
+            "correctIndex": 0,
+            "explanation": "La innovación disruptiva empieza pareciendo inferior, atiende primero a un segmento desatendido y acaba desplazando a las soluciones establecidas. Consumir un poco menos es una mejora incremental; cambiar el envase o abrir una sucursal no redefine el mercado."
+          }
+        ]
+      },
+      {
+        "heading": "La escalabilidad",
+        "body": [
+          "La escalabilidad de una tecnología determina si una innovación prometedora en un prototipo de laboratorio puede convertirse en una solución viable para millones de usuarios sin que sus costes se disparen de manera proporcional. Una arquitectura que funciona perfectamente con cien usuarios puede colapsar por completo al enfrentarse a cien millones, y anticipar ese salto de escala forma parte esencial del diseño tecnológico responsable."
+        ],
+        "examples": [
           {
             "es": "la escalabilidad",
             "en": "capacidad de una tecnología de crecer sin que sus costes se disparen"
@@ -16334,7 +19485,29 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "el prototipo",
             "en": "primer modelo funcional de un producto o sistema, previo a su versión definitiva"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una aplicación funciona bien con mil usuarios, pero el servidor se cae cuando llegan diez millones. ¿Qué le ha fallado?",
+            "options": [
+              "la escalabilidad",
+              "el paradigma",
+              "la innovación incremental",
+              "la revisión por pares"
+            ],
+            "correctIndex": 0,
+            "explanation": "La escalabilidad es la capacidad de crecer sin que los costes se disparen ni el sistema colapse: anticipar el salto de cien a cien millones de usuarios forma parte del diseño responsable. Las otras opciones no describen ese problema."
+          }
+        ]
+      },
+      {
+        "heading": "Innovación incremental y radical",
+        "body": [
+          "Conviene además distinguir entre la innovación incremental, que mejora gradualmente lo ya existente, y la innovación radical, que rompe con los paradigmas previos y a menudo tarda años en encontrar una aplicación comercial clara. Las instituciones que financian la investigación afrontan aquí un dilema recurrente: apostar por mejoras seguras y previsibles o financiar ideas arriesgadas cuyo fracaso es, con mucho, el desenlace más probable."
+        ],
+        "examples": [
           {
             "es": "la innovación incremental",
             "en": "mejora gradual y progresiva de una tecnología ya existente"
@@ -16368,11 +19541,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La inteligencia artificial y sus implicaciones éticas",
+        "heading": "Algoritmos y sesgo",
         "body": [
-          "Un algoritmo de aprendizaje automático no razona en el sentido humano del término: detecta patrones estadísticos en los datos con los que fue entrenado y los proyecta sobre casos nuevos. Cuando esos datos de entrenamiento arrastran un sesgo histórico, ya sea de género, de origen o de clase social, el sistema tiende a reproducir e incluso amplificar esa desigualdad bajo una apariencia engañosa de objetividad matemática.",
-          "La opacidad de muchos modelos complejos plantea además un problema de rendición de cuentas: si un algoritmo deniega un crédito o descarta un currículo, resulta legítimo exigir una explicación comprensible de esa decisión, y no basta con invocar la supuesta infalibilidad del cálculo. Este debate ha impulsado el desarrollo de la llamada inteligencia artificial explicable, que busca abrir la caja negra de estos sistemas.",
-          "No menos relevante es la cuestión de la responsabilidad cuando un sistema autónomo comete un error con consecuencias graves. Atribuir la culpa exclusivamente a quien diseñó el algoritmo, a quien lo entrenó con determinados datos o a quien decidió desplegarlo sin supervisión suficiente sigue siendo un terreno jurídico y ético en plena construcción, sin respuestas del todo satisfactorias todavía."
+          "Un algoritmo de aprendizaje automático no razona en el sentido humano del término: detecta patrones estadísticos en los datos con los que fue entrenado y los proyecta sobre casos nuevos. Cuando esos datos de entrenamiento arrastran un sesgo histórico, ya sea de género, de origen o de clase social, el sistema tiende a reproducir e incluso amplificar esa desigualdad bajo una apariencia engañosa de objetividad matemática."
         ],
         "examples": [
           {
@@ -16382,7 +19553,29 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "el sesgo algorítmico",
             "en": "distorsión sistemática que un sistema automatizado reproduce a partir de sus datos de entrenamiento"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un algoritmo de selección de personal se entrena con los currículos contratados en los últimos veinte años, casi todos de hombres. ¿Qué es lo más probable?",
+            "options": [
+              "Que reproduzca ese sesgo de género y descarte más candidaturas de mujeres.",
+              "Que sea neutral, porque las matemáticas son objetivas.",
+              "Que razone como un buen jefe de personal.",
+              "Que corrija solo la desigualdad histórica."
+            ],
+            "correctIndex": 0,
+            "explanation": "Un algoritmo detecta patrones en sus datos de entrenamiento y los proyecta sobre casos nuevos: si los datos arrastran un sesgo histórico, lo reproduce e incluso lo amplifica. La «objetividad matemática» es solo una apariencia, y el sistema no razona en sentido humano."
+          }
+        ]
+      },
+      {
+        "heading": "Opacidad y rendición de cuentas",
+        "body": [
+          "La opacidad de muchos modelos complejos plantea además un problema de rendición de cuentas: si un algoritmo deniega un crédito o descarta un currículo, resulta legítimo exigir una explicación comprensible de esa decisión, y no basta con invocar la supuesta infalibilidad del cálculo. Este debate ha impulsado el desarrollo de la llamada inteligencia artificial explicable, que busca abrir la caja negra de estos sistemas."
+        ],
+        "examples": [
           {
             "es": "la rendición de cuentas",
             "en": "obligación de justificar y responder por las decisiones o los resultados propios"
@@ -16398,20 +19591,36 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
-            "type": "multi-select",
-            "question": "¿Cuáles de las siguientes son preocupaciones éticas mencionadas en el texto sobre la inteligencia artificial?",
+            "type": "multiple-choice",
+            "question": "Un banco te deniega un crédito y solo dice: «Lo ha decidido el algoritmo». ¿Qué principio no se respeta?",
             "options": [
-              "Que un algoritmo reproduzca sesgos presentes en sus datos de entrenamiento",
-              "Que resulte difícil exigir una explicación comprensible de una decisión automatizada",
-              "Que los algoritmos siempre sean más justos que las personas",
-              "Que no exista todavía consenso sobre quién es responsable cuando un sistema autónomo comete un error grave"
+              "la rendición de cuentas",
+              "la escalabilidad",
+              "la innovación incremental",
+              "la reproducibilidad"
             ],
-            "correctIndexes": [
-              0,
-              1,
-              3
+            "correctIndex": 0,
+            "explanation": "La rendición de cuentas obliga a justificar las decisiones: ante un crédito denegado es legítimo exigir una explicación comprensible, no invocar la infalibilidad del cálculo. Eso es lo que busca la inteligencia artificial explicable."
+          }
+        ]
+      },
+      {
+        "heading": "¿Quién responde del error?",
+        "body": [
+          "No menos relevante es la cuestión de la responsabilidad cuando un sistema autónomo comete un error con consecuencias graves. Atribuir la culpa exclusivamente a quien diseñó el algoritmo, a quien lo entrenó con determinados datos o a quien decidió desplegarlo sin supervisión suficiente sigue siendo un terreno jurídico y ético en plena construcción, sin respuestas del todo satisfactorias todavía."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un coche autónomo provoca un accidente grave. Según el texto, ¿quién es responsable?",
+            "options": [
+              "Aún no hay una respuesta satisfactoria: puede ser quien lo diseñó, quien lo entrenó o quien lo desplegó.",
+              "Siempre y solo el programador.",
+              "Nadie, porque las máquinas no se equivocan.",
+              "Siempre el pasajero."
             ],
-            "explanation": "El texto plantea el sesgo algorítmico, la falta de explicabilidad y la difusa atribución de responsabilidad como problemas éticos centrales; en ningún momento afirma que los algoritmos sean más justos que las personas; precisamente advierte de sus sesgos."
+            "correctIndex": 0,
+            "explanation": "El texto dice que atribuir la culpa a quien diseñó el algoritmo, a quien lo entrenó o a quien lo desplegó sin supervisión es un terreno jurídico y ético «en plena construcción». Ninguna respuesta simple está aceptada, y los sistemas autónomos sí cometen errores."
           }
         ]
       }
@@ -16490,6 +19699,22 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La IA explicable busca abrir la caja negra."
         ],
         "explanation": "«Inteligencia artificial explicable» (IA explicable) es el término establecido; «intentar + infinitivo» o «buscar + infinitivo»."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes son preocupaciones éticas mencionadas en el texto sobre la inteligencia artificial?",
+        "options": [
+          "Que un algoritmo reproduzca sesgos presentes en sus datos de entrenamiento",
+          "Que resulte difícil exigir una explicación comprensible de una decisión automatizada",
+          "Que los algoritmos siempre sean más justos que las personas",
+          "Que no exista todavía consenso sobre quién es responsable cuando un sistema autónomo comete un error grave"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "El texto plantea el sesgo algorítmico, la falta de explicabilidad y la difusa atribución de responsabilidad como problemas éticos centrales; en ningún momento afirma que los algoritmos sean más justos que las personas; precisamente advierte de sus sesgos."
       }
     ]
   },
@@ -16502,16 +19727,68 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): el hallazgo",
         "body": [
           "Locutora: Hoy nos acompaña la doctora Ferreira, cuyo equipo acaba de publicar un hallazgo notable sobre el envejecimiento celular. Doctora, ¿en qué consiste exactamente su descubrimiento?",
           "Dra. Ferreira: Identificamos una proteína que, al inhibirse en modelos animales, retrasa de forma medible el deterioro de los tejidos. Formulamos la hipótesis a partir de una observación casual, pero el diseño experimental posterior fue extremadamente riguroso.",
-          "Locutora: ¿Qué papel tuvo el grupo de control en este estudio?",
+          "Locutora: ¿Qué papel tuvo el grupo de control en este estudio?"
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cómo surgió la hipótesis de la doctora Ferreira?",
+            "options": [
+              "De una observación casual.",
+              "De un ensayo clínico en personas.",
+              "De un error de otro laboratorio.",
+              "De una patente anterior."
+            ],
+            "correctIndex": 0,
+            "explanation": "La doctora dice: «Formulamos la hipótesis a partir de una observación casual», aunque el diseño experimental posterior fue riguroso. No habla de ensayos en personas (aún no los hay) ni de patentes."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): control y escepticismo",
+        "body": [
           "Dra. Ferreira: Fue esencial. Sin un grupo que no recibiera la intervención, no habríamos podido descartar que el efecto se debiera simplemente a la edad o a la dieta de los animales.",
           "Locutora: Algunos colegas suyos se han mostrado escépticos ante la magnitud de los resultados.",
-          "Dra. Ferreira: Y hacen bien en serlo. Por eso publicamos todos nuestros protocolos abiertamente: queremos que otros laboratorios intenten reproducir el hallazgo antes de que nadie hable de una revolución.",
+          "Dra. Ferreira: Y hacen bien en serlo. Por eso publicamos todos nuestros protocolos abiertamente: queremos que otros laboratorios intenten reproducir el hallazgo antes de que nadie hable de una revolución."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué publica el equipo todos sus protocolos?",
+            "options": [
+              "Para que otros laboratorios intenten reproducir el hallazgo.",
+              "Para vender la patente cuanto antes.",
+              "Porque el grupo de control falló.",
+              "Para anunciar ya una revolución médica."
+            ],
+            "correctIndex": 0,
+            "explanation": "Ferreira quiere que otros equipos intenten reproducir el resultado «antes de que nadie hable de una revolución»: la reproducibilidad confirma un hallazgo. El grupo de control no falló, fue esencial."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (3): del laboratorio a las personas",
+        "body": [
           "Locutora: ¿Cree que esta línea de investigación podría escalar hacia una aplicación clínica en humanos?",
           "Dra. Ferreira: Es prematuro afirmarlo. El salto de un modelo animal a un ensayo clínico en personas implica años de validación adicional, y prefiero pecar de cautelosa antes que alimentar expectativas infundadas."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué responde la doctora sobre una aplicación clínica en humanos?",
+            "options": [
+              "Que es prematuro: hacen falta años de validación antes de un ensayo clínico.",
+              "Que llegará el año que viene.",
+              "Que ya se está probando en hospitales.",
+              "Que nunca será posible."
+            ],
+            "correctIndex": 0,
+            "explanation": "Dice «Es prematuro afirmarlo»: pasar de un modelo animal a un ensayo clínico exige años de validación, y prefiere ser cautelosa. No da fechas ni lo descarta para siempre."
+          }
         ]
       },
       {
@@ -16660,6 +19937,31 @@ const C2_BASE_LESSONS: Lesson[] = [
             "es": "el teorema",
             "en": "proposición que se demuestra de manera rigurosa a partir de otras ya aceptadas"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada término con su definición.",
+            "pairs": [
+              {
+                "left": "el doble ciego",
+                "right": "ni participantes ni investigadores saben quién recibe el tratamiento"
+              },
+              {
+                "left": "la obsolescencia programada",
+                "right": "diseñar productos con una vida útil limitada a propósito"
+              },
+              {
+                "left": "el código abierto",
+                "right": "software cuyo código puede consultarse y modificarse libremente"
+              },
+              {
+                "left": "la muestra",
+                "right": "parte elegida para representar a una población"
+              }
+            ],
+            "explanation": "Doble ciego: nadie sabe quién recibe el tratamiento, para evitar sesgos. Obsolescencia programada: vida útil limitada a propósito. Código abierto: código fuente libre. Muestra: subconjunto que representa a la población."
+          }
         ]
       }
     ],
@@ -16757,33 +20059,14 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "El cambio climático y la responsabilidad compartida",
+        "heading": "Una responsabilidad asimétrica",
         "body": [
-          "El calentamiento global plantea un dilema de responsabilidad particularmente incómodo: las naciones que históricamente han emitido más gases de efecto invernadero no siempre son las que hoy sufren con mayor crudeza las consecuencias del cambio climático. Esta asimetría entre quien contamina y quien padece alimenta buena parte de las tensiones diplomáticas que se manifiestan en cada cumbre internacional sobre el clima.",
-          "Reducir la huella de carbono de una economía entera exige transformaciones que van mucho más allá de gestos individuales: implica repensar la matriz energética, reconvertir industrias enteras hacia las energías renovables y, en no pocos casos, sacrificar a corto plazo cierto crecimiento económico a cambio de una sostenibilidad que solo rendirá frutos a largo plazo. Los gobiernos que se atreven a plantear estos sacrificios enfrentan, con frecuencia, una fuerte resistencia social y electoral.",
-          "La deforestación y la degradación ambiental de ecosistemas enteros añaden una capa adicional de urgencia, pues no solo liberan carbono almacenado durante siglos, sino que además destruyen la biodiversidad que sostiene ciclos naturales esenciales. Ante esta magnitud del problema, algunos analistas insisten en que ninguna solución meramente tecnológica bastará sin una transformación paralela de las políticas públicas.",
-          "Fíjate en cómo se forma este vocabulario: el prefijo des- / de- significa «quitar» (deforestar = quitar los bosques; descarbonizar = quitar el carbono) y -ción nombra el proceso (la deforestación, la descarbonización, la degradación). Con el mismo patrón entiendes palabras nuevas: desalinizar el agua es quitarle la sal."
+          "El calentamiento global plantea un dilema de responsabilidad particularmente incómodo: las naciones que históricamente han emitido más gases de efecto invernadero no siempre son las que hoy sufren con mayor crudeza las consecuencias del cambio climático. Esta asimetría entre quien contamina y quien padece alimenta buena parte de las tensiones diplomáticas que se manifiestan en cada cumbre internacional sobre el clima."
         ],
         "examples": [
           {
             "es": "el calentamiento global",
             "en": "aumento sostenido de la temperatura media del planeta atribuido a la actividad humana"
-          },
-          {
-            "es": "la huella de carbono",
-            "en": "cantidad total de gases de efecto invernadero que genera una actividad o una persona"
-          },
-          {
-            "es": "las energías renovables",
-            "en": "fuentes de energía que se regeneran de forma natural, como el sol o el viento"
-          },
-          {
-            "es": "la deforestación",
-            "en": "eliminación masiva de la cubierta forestal de una región"
-          },
-          {
-            "es": "la biodiversidad",
-            "en": "variedad de especies vivas presentes en un ecosistema determinado"
           }
         ],
         "checkpoint": [
@@ -16798,7 +20081,87 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto señala que existe una asimetría entre las naciones históricamente más contaminantes y aquellas que hoy padecen con más crudeza los efectos del cambio climático. No todos emiten lo mismo, el clima no afecta solo a los que más contaminan y el texto sí relaciona la deforestación con el calentamiento."
+          }
+        ]
+      },
+      {
+        "heading": "Reducir la huella de carbono",
+        "body": [
+          "Reducir la huella de carbono de una economía entera exige transformaciones que van mucho más allá de gestos individuales: implica repensar la matriz energética, reconvertir industrias enteras hacia las energías renovables y, en no pocos casos, sacrificar a corto plazo cierto crecimiento económico a cambio de una sostenibilidad que solo rendirá frutos a largo plazo. Los gobiernos que se atreven a plantear estos sacrificios enfrentan, con frecuencia, una fuerte resistencia social y electoral."
+        ],
+        "examples": [
+          {
+            "es": "la huella de carbono",
+            "en": "cantidad total de gases de efecto invernadero que genera una actividad o una persona"
           },
+          {
+            "es": "las energías renovables",
+            "en": "fuentes de energía que se regeneran de forma natural, como el sol o el viento"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué exige reducir la huella de carbono de una economía entera?",
+            "options": [
+              "Repensar la matriz energética y reconvertir industrias, aunque cueste crecimiento a corto plazo.",
+              "Basta con que cada persona recicle en casa.",
+              "Esperar a que una tecnología lo resuelva sola.",
+              "Aumentar el crecimiento económico a cualquier precio."
+            ],
+            "correctIndex": 0,
+            "explanation": "El texto dice que hacen falta transformaciones que van «mucho más allá de gestos individuales»: cambiar la matriz energética, pasar a las renovables y sacrificar algo de crecimiento a corto plazo a cambio de sostenibilidad."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Corrige la frase.",
+            "source": "Las energías renovables, como el carbón y el gas, se regeneran de forma natural.",
+            "answer": "Las energías renovables, como el sol y el viento, se regeneran de forma natural.",
+            "altAnswers": [
+              "Las energías renovables, como la solar y la eólica, se regeneran de forma natural.",
+              "Las energías renovables, como el viento y el sol, se regeneran de forma natural."
+            ],
+            "explanation": "Renovable (renovar + -ble) = que se renueva sola. El carbón y el gas son combustibles fósiles: se agotan. El sol, el viento o el agua son los ejemplos de renovables."
+          }
+        ]
+      },
+      {
+        "heading": "Deforestación y biodiversidad",
+        "body": [
+          "La deforestación y la degradación ambiental de ecosistemas enteros añaden una capa adicional de urgencia, pues no solo liberan carbono almacenado durante siglos, sino que además destruyen la biodiversidad que sostiene ciclos naturales esenciales. Ante esta magnitud del problema, algunos analistas insisten en que ninguna solución meramente tecnológica bastará sin una transformación paralela de las políticas públicas."
+        ],
+        "examples": [
+          {
+            "es": "la deforestación",
+            "en": "eliminación masiva de la cubierta forestal de una región"
+          },
+          {
+            "es": "la biodiversidad",
+            "en": "variedad de especies vivas presentes en un ecosistema determinado"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué la deforestación añade urgencia al problema, según el texto?",
+            "options": [
+              "Libera carbono almacenado durante siglos y destruye la biodiversidad.",
+              "Solo afecta al paisaje.",
+              "Reduce la huella de carbono.",
+              "Se resuelve con una solución tecnológica."
+            ],
+            "correctIndex": 0,
+            "explanation": "La deforestación tiene un doble efecto: libera el carbono que los bosques guardaban y destruye la biodiversidad que sostiene ciclos naturales. Por eso, dice el texto, ninguna solución solo tecnológica bastará."
+          }
+        ]
+      },
+      {
+        "heading": "Formación de palabras: des- y -ción",
+        "body": [
+          "Fíjate en cómo se forma este vocabulario: el prefijo des- / de- significa «quitar» (deforestar = quitar los bosques; descarbonizar = quitar el carbono) y -ción nombra el proceso (la deforestación, la descarbonización, la degradación). Con el mismo patrón entiendes palabras nuevas: desalinizar el agua es quitarle la sal."
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Con el patrón de «deforestar» o «descarbonizar», ¿qué hace una planta desalinizadora con el agua del mar?",
@@ -16814,21 +20177,63 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Las políticas medioambientales y sus contradicciones internas",
+        "heading": "Objetivos que se contradicen",
         "body": [
-          "Diseñar una política medioambiental eficaz obliga a conciliar objetivos que a menudo entran en franca contradicción: proteger empleos industriales tradicionales mientras se impulsa una transición hacia sectores más limpios, o garantizar el acceso a la energía a poblaciones vulnerables sin renunciar a las metas de reducción de emisiones. Ningún gobierno ha resuelto estas tensiones de manera plenamente satisfactoria, y cada decisión implica ceder terreno en algún frente.",
-          "El proteccionismo ambiental, entendido como la imposición de aranceles a productos fabricados con procesos altamente contaminantes, ha ganado adeptos como herramienta de presión, aunque sus críticos advierten que puede encubrir un proteccionismo económico convencional bajo un discurso ecológico. Distinguir la sinceridad de una medida de su instrumentalización política resulta, en la práctica, sumamente difícil.",
-          "El desarrollo sostenible, entendido como aquel que satisface las necesidades presentes sin comprometer la capacidad de las generaciones futuras, se ha convertido en una fórmula tan repetida que corre el riesgo de vaciarse de contenido concreto. Traducir ese ideal en metas verificables, con plazos y sanciones reales, sigue siendo el mayor obstáculo para que la sostenibilidad deje de ser solo una consigna retórica."
+          "Diseñar una política medioambiental eficaz obliga a conciliar objetivos que a menudo entran en franca contradicción: proteger empleos industriales tradicionales mientras se impulsa una transición hacia sectores más limpios, o garantizar el acceso a la energía a poblaciones vulnerables sin renunciar a las metas de reducción de emisiones. Ningún gobierno ha resuelto estas tensiones de manera plenamente satisfactoria, y cada decisión implica ceder terreno en algún frente."
         ],
         "examples": [
           {
             "es": "la política medioambiental",
             "en": "conjunto de medidas que un gobierno adopta para regular su impacto en el entorno natural"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué ejemplo de contradicción interna de una política medioambiental da el texto?",
+            "options": [
+              "Proteger empleos industriales tradicionales mientras se impulsa la transición a sectores limpios.",
+              "Prohibir las energías renovables.",
+              "Bajar los impuestos a todos los productos.",
+              "Construir más carreteras."
+            ],
+            "correctIndex": 0,
+            "explanation": "El texto cita dos tensiones: proteger empleos tradicionales a la vez que se impulsa la transición, y garantizar energía a poblaciones vulnerables sin renunciar a reducir emisiones. Por eso cada decisión cede terreno en algún frente."
+          }
+        ]
+      },
+      {
+        "heading": "El proteccionismo ambiental",
+        "body": [
+          "El proteccionismo ambiental, entendido como la imposición de aranceles a productos fabricados con procesos altamente contaminantes, ha ganado adeptos como herramienta de presión, aunque sus críticos advierten que puede encubrir un proteccionismo económico convencional bajo un discurso ecológico. Distinguir la sinceridad de una medida de su instrumentalización política resulta, en la práctica, sumamente difícil."
+        ],
+        "examples": [
           {
             "es": "el proteccionismo",
             "en": "conjunto de medidas que restringen el comercio exterior para proteger intereses internos"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué critican quienes desconfían del proteccionismo ambiental?",
+            "options": [
+              "Que puede ocultar un proteccionismo económico convencional bajo un discurso ecológico.",
+              "Que baja los precios de los productos contaminantes.",
+              "Que elimina todos los aranceles.",
+              "Que solo lo aplican los países pobres."
+            ],
+            "correctIndex": 0,
+            "explanation": "El proteccionismo ambiental pone aranceles a productos fabricados con procesos muy contaminantes; sus críticos advierten que puede encubrir un proteccionismo económico de siempre. Justo lo contrario de eliminar aranceles o abaratar esos productos."
+          }
+        ]
+      },
+      {
+        "heading": "El desarrollo sostenible",
+        "body": [
+          "El desarrollo sostenible, entendido como aquel que satisface las necesidades presentes sin comprometer la capacidad de las generaciones futuras, se ha convertido en una fórmula tan repetida que corre el riesgo de vaciarse de contenido concreto. Traducir ese ideal en metas verificables, con plazos y sanciones reales, sigue siendo el mayor obstáculo para que la sostenibilidad deje de ser solo una consigna retórica."
+        ],
+        "examples": [
           {
             "es": "el desarrollo sostenible",
             "en": "modelo de crecimiento que atiende las necesidades presentes sin comprometer a las generaciones futuras"
@@ -16850,18 +20255,6 @@ const C2_BASE_LESSONS: Lesson[] = [
             "answer": "sostenible",
             "explanation": "El texto define el desarrollo sostenible precisamente como aquel que no compromete el bienestar de las futuras generaciones.",
             "hint": "Es el modelo de crecimiento que equilibra el presente y el futuro."
-          },
-          {
-            "type": "translate",
-            "direction": "en-es",
-            "prompt": "Corrige la frase.",
-            "source": "Las energías renovables, como el carbón y el gas, se regeneran de forma natural.",
-            "answer": "Las energías renovables, como el sol y el viento, se regeneran de forma natural.",
-            "altAnswers": [
-              "Las energías renovables, como la solar y la eólica, se regeneran de forma natural.",
-              "Las energías renovables, como el viento y el sol, se regeneran de forma natural."
-            ],
-            "explanation": "Renovable (renovar + -ble) = que se renueva sola. El carbón y el gas son combustibles fósiles: se agotan. El sol, el viento o el agua son los ejemplos de renovables."
           }
         ]
       }
@@ -16926,11 +20319,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La polarización política y el deterioro del discurso público",
+        "heading": "La polarización política",
         "body": [
-          "La polarización política se manifiesta cuando el electorado se agrupa en bandos cada vez más cerrados sobre sí mismos, incapaces de reconocer siquiera la legitimidad de las razones del bando contrario. En ese clima, el consenso deja de percibirse como una virtud democrática y comienza a interpretarse como una traición a los propios principios, lo que erosiona la capacidad misma de gobernar mediante acuerdos.",
-          "El populismo, en cualquiera de sus variantes ideológicas, suele alimentarse precisamente de esta fractura, al presentar la política como un enfrentamiento moral absoluto entre un pueblo virtuoso y una élite corrupta, sin espacio para matices ni para soluciones técnicas complejas. Esta simplificación resulta poderosa en términos electorales, aunque rara vez ofrece respuestas viables a problemas genuinamente intrincados.",
-          "Los grupos de presión, por su parte, ejercen una influencia que rara vez resulta visible para el ciudadano común, financiando campañas, asesorando a legisladores o moldeando la agenda mediática en función de intereses particulares. Exigir transparencia sobre estas dinámicas constituye una de las demandas más recurrentes del activismo ciudadano contemporáneo."
+          "La polarización política se manifiesta cuando el electorado se agrupa en bandos cada vez más cerrados sobre sí mismos, incapaces de reconocer siquiera la legitimidad de las razones del bando contrario. En ese clima, el consenso deja de percibirse como una virtud democrática y comienza a interpretarse como una traición a los propios principios, lo que erosiona la capacidad misma de gobernar mediante acuerdos."
         ],
         "examples": [
           {
@@ -16940,18 +20331,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "el electorado",
             "en": "conjunto de ciudadanos con derecho a votar en una elección"
-          },
-          {
-            "es": "el populismo",
-            "en": "estilo político que apela directamente al pueblo frente a una élite presentada como corrupta"
-          },
-          {
-            "es": "el grupo de presión",
-            "en": "colectivo que busca influir en las decisiones políticas defendiendo intereses particulares"
-          },
-          {
-            "es": "el activismo",
-            "en": "acción organizada orientada a promover un cambio social o político"
           }
         ],
         "checkpoint": [
@@ -16970,11 +20349,65 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La gobernanza y la rendición de cuentas",
+        "heading": "El populismo",
         "body": [
-          "La gobernanza de calidad no se mide únicamente por la limpieza de un proceso electoral, sino por la capacidad de las instituciones de rendir cuentas de manera continua ante la ciudadanía, entre una elección y la siguiente. Un gobierno puede haber llegado al poder mediante un sufragio impecable y, aun así, gobernar con opacidad y sin mecanismos efectivos de control.",
-          "La corrupción, entendida en su sentido más amplio, no se limita al soborno evidente, sino que incluye el clientelismo político mediante el cual cargos y favores se reparten a cambio de lealtad, así como la captura regulatoria por la cual las propias industrias reguladas terminan influyendo en quienes deberían supervisarlas. Combatir estas formas más sutiles de corrupción exige instituciones independientes y una prensa capaz de investigar sin restricciones.",
-          "El referéndum, como mecanismo de democracia directa, ofrece a la ciudadanía la posibilidad de decidir sobre cuestiones concretas de gran calado, aunque su uso indiscriminado también puede convertirse en una herramienta para eludir la responsabilidad política de quienes gobiernan, trasladando decisiones complejas a una consulta binaria que rara vez capta la verdadera complejidad del asunto."
+          "El populismo, en cualquiera de sus variantes ideológicas, suele alimentarse precisamente de esta fractura, al presentar la política como un enfrentamiento moral absoluto entre un pueblo virtuoso y una élite corrupta, sin espacio para matices ni para soluciones técnicas complejas. Esta simplificación resulta poderosa en términos electorales, aunque rara vez ofrece respuestas viables a problemas genuinamente intrincados."
+        ],
+        "examples": [
+          {
+            "es": "el populismo",
+            "en": "estilo político que apela directamente al pueblo frente a una élite presentada como corrupta"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué eslogan responde mejor al esquema populista que describe el texto?",
+            "options": [
+              "«El pueblo honrado contra la casta que nos roba».",
+              "«Proponemos un plan de vivienda en cuatro fases».",
+              "«Buscaremos acuerdos con todos los grupos».",
+              "«El problema es complejo y exige estudios técnicos»."
+            ],
+            "correctIndex": 0,
+            "explanation": "El populismo presenta la política como un enfrentamiento moral absoluto entre un pueblo virtuoso y una élite corrupta, sin matices. Un plan técnico, la búsqueda de acuerdos o reconocer la complejidad son justo lo que esa simplificación evita."
+          }
+        ]
+      },
+      {
+        "heading": "Los grupos de presión",
+        "body": [
+          "Los grupos de presión, por su parte, ejercen una influencia que rara vez resulta visible para el ciudadano común, financiando campañas, asesorando a legisladores o moldeando la agenda mediática en función de intereses particulares. Exigir transparencia sobre estas dinámicas constituye una de las demandas más recurrentes del activismo ciudadano contemporáneo."
+        ],
+        "examples": [
+          {
+            "es": "el grupo de presión",
+            "en": "colectivo que busca influir en las decisiones políticas defendiendo intereses particulares"
+          },
+          {
+            "es": "el activismo",
+            "en": "acción organizada orientada a promover un cambio social o político"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una asociación de empresas eléctricas financia campañas y asesora a diputados para frenar una ley. ¿Qué es?",
+            "options": [
+              "un grupo de presión",
+              "el electorado",
+              "un referéndum",
+              "el activismo ciudadano"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un grupo de presión defiende intereses particulares influyendo en las decisiones políticas, a menudo de forma poco visible: financia campañas, asesora a legisladores. El electorado son los votantes y el activismo ciudadano suele exigir transparencia sobre esas dinámicas."
+          }
+        ]
+      },
+      {
+        "heading": "Gobernanza: rendir cuentas entre elecciones",
+        "body": [
+          "La gobernanza de calidad no se mide únicamente por la limpieza de un proceso electoral, sino por la capacidad de las instituciones de rendir cuentas de manera continua ante la ciudadanía, entre una elección y la siguiente. Un gobierno puede haber llegado al poder mediante un sufragio impecable y, aun así, gobernar con opacidad y sin mecanismos efectivos de control."
         ],
         "examples": [
           {
@@ -16984,7 +20417,29 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la rendición de cuentas",
             "en": "obligación de justificar y responder públicamente por las decisiones tomadas"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿cuándo hay gobernanza de calidad?",
+            "options": [
+              "Cuando las instituciones rinden cuentas de forma continua, también entre una elección y la siguiente.",
+              "Siempre que las elecciones hayan sido limpias.",
+              "Cuando el gobierno decide sin controles.",
+              "Cuando hay un referéndum cada año."
+            ],
+            "correctIndex": 0,
+            "explanation": "La gobernanza no se mide solo por la limpieza electoral: un gobierno elegido con un sufragio impecable puede gobernar con opacidad. Lo que cuenta es la rendición de cuentas continua ante la ciudadanía."
+          }
+        ]
+      },
+      {
+        "heading": "Formas sutiles de corrupción",
+        "body": [
+          "La corrupción, entendida en su sentido más amplio, no se limita al soborno evidente, sino que incluye el clientelismo político mediante el cual cargos y favores se reparten a cambio de lealtad, así como la captura regulatoria por la cual las propias industrias reguladas terminan influyendo en quienes deberían supervisarlas. Combatir estas formas más sutiles de corrupción exige instituciones independientes y una prensa capaz de investigar sin restricciones."
+        ],
+        "examples": [
           {
             "es": "el clientelismo político",
             "en": "reparto de cargos o favores públicos a cambio de lealtad política"
@@ -16992,14 +20447,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la captura regulatoria",
             "en": "situación en que un sector regulado termina influyendo en quienes deben supervisarlo"
-          },
-          {
-            "es": "el referéndum",
-            "en": "consulta directa a la ciudadanía sobre una cuestión política concreta"
-          },
-          {
-            "es": "la soberanía",
-            "en": "autoridad suprema e independiente que ejerce un Estado sobre su territorio"
           }
         ],
         "checkpoint": [
@@ -17025,6 +20472,36 @@ const C2_BASE_LESSONS: Lesson[] = [
             "source": "El clientelismo consiste en que un sector regulado acaba influyendo en quienes deben supervisarlo.",
             "answer": "La captura regulatoria consiste en que un sector regulado acaba influyendo en quienes deben supervisarlo.",
             "explanation": "Que la industria regulada influya en sus supervisores es «captura regulatoria». El clientelismo es otra cosa: repartir cargos o favores a cambio de lealtad política."
+          }
+        ]
+      },
+      {
+        "heading": "El referéndum",
+        "body": [
+          "El referéndum, como mecanismo de democracia directa, ofrece a la ciudadanía la posibilidad de decidir sobre cuestiones concretas de gran calado, aunque su uso indiscriminado también puede convertirse en una herramienta para eludir la responsabilidad política de quienes gobiernan, trasladando decisiones complejas a una consulta binaria que rara vez capta la verdadera complejidad del asunto."
+        ],
+        "examples": [
+          {
+            "es": "el referéndum",
+            "en": "consulta directa a la ciudadanía sobre una cuestión política concreta"
+          },
+          {
+            "es": "la soberanía",
+            "en": "autoridad suprema e independiente que ejerce un Estado sobre su territorio"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué riesgo del referéndum señala el texto?",
+            "options": [
+              "Que el gobierno lo use para eludir su responsabilidad con una pregunta de sí o no que no capta la complejidad del asunto.",
+              "Que la ciudadanía no puede votar en él.",
+              "Que solo sirve para cuestiones sin importancia.",
+              "Que es una forma de clientelismo."
+            ],
+            "correctIndex": 0,
+            "explanation": "El referéndum permite decidir directamente sobre cuestiones de gran calado, pero su uso indiscriminado puede trasladar decisiones complejas a una consulta binaria y eludir así la responsabilidad política de quien gobierna."
           }
         ]
       }
@@ -17115,14 +20592,47 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): el coste de la transición",
         "body": [
           "Comentarista A: La nueva ley de emisiones va a golpear con dureza a las regiones que dependen del carbón. No podemos hablar de sostenibilidad ignorando a esos trabajadores.",
           "Comentarista B: Nadie lo ignora, pero posponer la transición energética otra década más solo agrava la huella de carbono que dejaremos a las próximas generaciones.",
-          "Comentarista A: El problema es que se presenta como una cuestión moral absoluta, cuando en realidad hay matices económicos enormes de por medio.",
+          "Comentarista A: El problema es que se presenta como una cuestión moral absoluta, cuando en realidad hay matices económicos enormes de por medio."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué preocupa al Comentarista A de la nueva ley de emisiones?",
+            "options": [
+              "Que golpee a las regiones que dependen del carbón y a sus trabajadores.",
+              "Que la transición energética sea demasiado lenta.",
+              "Que no haya suficiente polarización.",
+              "Que no se hable de la huella de carbono."
+            ],
+            "correctIndex": 0,
+            "explanation": "A dice que la ley «va a golpear con dureza a las regiones que dependen del carbón». Es B quien teme posponer la transición, porque agravaría la huella de carbono."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): dónde coinciden",
+        "body": [
           "Comentarista B: Estoy de acuerdo en que el discurso se ha polarizado demasiado. Pero el electorado también merece políticas concretas, no solo promesas vacías de desarrollo sostenible.",
           "Comentarista A: Ahí coincidimos. Sin metas verificables y sin rendición de cuentas, cualquier reforma se queda en pura retórica.",
           "Comentarista B: Y sin un mínimo de consenso entre bandos, ni siquiera una reforma bien diseñada logrará sobrevivir al próximo ciclo electoral."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿En qué terminan coincidiendo los dos comentaristas?",
+            "options": [
+              "En que sin metas verificables, rendición de cuentas y algo de consenso, ninguna reforma dura.",
+              "En que la ley debe retirarse.",
+              "En que el carbón es el futuro.",
+              "En que el desarrollo sostenible es una promesa vacía que hay que abandonar."
+            ],
+            "correctIndex": 0,
+            "explanation": "A: «Sin metas verificables y sin rendición de cuentas, cualquier reforma se queda en pura retórica»; B añade que sin un mínimo de consenso no sobrevivirá al próximo ciclo electoral. Ninguno pide retirar la ley ni abandonar la sostenibilidad."
+          }
         ]
       },
       {
@@ -17271,6 +20781,31 @@ const C2_BASE_LESSONS: Lesson[] = [
             "es": "el sumidero de carbono",
             "en": "el ecosistema o sistema que absorbe más carbono del que emite, como un bosque o el océano"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada término con su definición.",
+            "pairs": [
+              {
+                "left": "el ecopostureo",
+                "right": "presentarse como ecológico sin serlo"
+              },
+              {
+                "left": "la moratoria",
+                "right": "suspensión temporal de una actividad"
+              },
+              {
+                "left": "el sumidero de carbono",
+                "right": "ecosistema que absorbe más carbono del que emite"
+              },
+              {
+                "left": "la autodeterminación",
+                "right": "derecho de un pueblo a decidir su destino político"
+              }
+            ],
+            "explanation": "Ecopostureo (greenwashing): aparentar ser ecológico. Moratoria: suspensión temporal mientras se estudia o se negocia. Sumidero de carbono: un bosque o el océano, que absorben más de lo que emiten. Autodeterminación: un pueblo decide su propio destino."
+          }
         ]
       }
     ],
@@ -17371,29 +20906,70 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "El libre albedrío frente al determinismo",
+        "heading": "El determinismo",
         "body": [
-          "El determinismo sostiene que todo suceso, incluidas nuestras decisiones más íntimas, es el resultado inevitable de una cadena previa de causas físicas o psicológicas. Si esto fuera cierto en sentido estricto, la sensación de estar eligiendo libremente entre varias opciones sería, en el fondo, una ilusión producida por nuestro desconocimiento de las causas que realmente nos determinan.",
-          "Frente a esta postura, quienes defienden el libre albedrío argumentan que existe al menos un margen genuino de indeterminación en el que el agente puede haber actuado de otro modo, y que esa capacidad es precisamente lo que fundamenta la responsabilidad moral. Sin ese margen, castigar o elogiar una conducta perdería buena parte de su sentido, pues nadie podría haber elegido de manera distinta.",
-          "Una tercera vía, conocida como compatibilismo, intenta tender un puente entre ambas posturas: sostiene que la libertad no exige escapar de la cadena causal, sino actuar de acuerdo con los propios deseos y razones, sin coacción externa, aunque esos deseos también tengan, en última instancia, una causa. Para el compatibilista, preguntarse si el universo es determinista resulta menos relevante que preguntarse si la acción brotó de la voluntad propia del agente.",
-          "Un patrón para todo este vocabulario: -ismo nombra la doctrina y -ista, a quien la defiende o lo que se refiere a ella (sustantivo y adjetivo a la vez): el determinismo → un determinista, una tesis determinista; el compatibilismo → los compatibilistas. Y cuando argumentas sobre hipótesis, recuerda la condicional irreal: «Si todo estuviera determinado, nadie sería responsable» (si + imperfecto de subjuntivo, condicional en la consecuencia)."
+          "El determinismo sostiene que todo suceso, incluidas nuestras decisiones más íntimas, es el resultado inevitable de una cadena previa de causas físicas o psicológicas. Si esto fuera cierto en sentido estricto, la sensación de estar eligiendo libremente entre varias opciones sería, en el fondo, una ilusión producida por nuestro desconocimiento de las causas que realmente nos determinan."
         ],
         "examples": [
           {
             "es": "el determinismo",
             "en": "tesis según la cual todo suceso es consecuencia necesaria de causas anteriores"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un determinista estricto diría que, cuando eliges café en vez de té…",
+            "options": [
+              "la elección era el resultado inevitable de causas previas y tu sensación de libertad es una ilusión.",
+              "podrías haber elegido té con total independencia de cualquier causa.",
+              "la elección no tiene ninguna causa.",
+              "solo eres libre si nadie te obliga."
+            ],
+            "correctIndex": 0,
+            "explanation": "El determinismo sostiene que toda decisión es el resultado inevitable de una cadena previa de causas; la sensación de elegir sería una ilusión fruto de desconocer esas causas. Poder haber actuado de otro modo es la tesis del libre albedrío, y «libre si nadie te obliga» es la idea compatibilista."
+          }
+        ]
+      },
+      {
+        "heading": "El libre albedrío y la responsabilidad moral",
+        "body": [
+          "Frente a esta postura, quienes defienden el libre albedrío argumentan que existe al menos un margen genuino de indeterminación en el que el agente puede haber actuado de otro modo, y que esa capacidad es precisamente lo que fundamenta la responsabilidad moral. Sin ese margen, castigar o elogiar una conducta perdería buena parte de su sentido, pues nadie podría haber elegido de manera distinta."
+        ],
+        "examples": [
           {
             "es": "el libre albedrío",
             "en": "capacidad de un agente de elegir entre varias opciones sin estar determinado de antemano"
           },
           {
-            "es": "el compatibilismo",
-            "en": "postura que concilia el determinismo con una noción de libertad basada en la ausencia de coacción"
-          },
-          {
             "es": "la responsabilidad moral",
             "en": "condición que hace a un agente merecedor de elogio o reproche por sus actos"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué, según los defensores del libre albedrío, tiene sentido castigar o elogiar una conducta?",
+            "options": [
+              "Porque el agente podría haber actuado de otro modo.",
+              "Porque todo está determinado de antemano.",
+              "Porque nadie elige realmente.",
+              "Porque el castigo cambia las causas físicas."
+            ],
+            "correctIndex": 0,
+            "explanation": "Para el libre albedrío, existe un margen real de indeterminación en el que el agente podría haber actuado de otro modo, y eso fundamenta la responsabilidad moral. Si nadie pudiera elegir distinto, castigar o elogiar perdería buena parte de su sentido."
+          }
+        ]
+      },
+      {
+        "heading": "El compatibilismo: una tercera vía",
+        "body": [
+          "Una tercera vía, conocida como compatibilismo, intenta tender un puente entre ambas posturas: sostiene que la libertad no exige escapar de la cadena causal, sino actuar de acuerdo con los propios deseos y razones, sin coacción externa, aunque esos deseos también tengan, en última instancia, una causa. Para el compatibilista, preguntarse si el universo es determinista resulta menos relevante que preguntarse si la acción brotó de la voluntad propia del agente."
+        ],
+        "examples": [
+          {
+            "es": "el compatibilismo",
+            "en": "postura que concilia el determinismo con una noción de libertad basada en la ausencia de coacción"
           },
           {
             "es": "la coacción",
@@ -17412,7 +20988,15 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El compatibilismo sostiene que la libertad consiste en actuar según los propios deseos y razones sin coacción, independientemente de si esos deseos tienen causas previas. El compatibilismo no exige un universo indeterminado ni la ausencia de causas, y tampoco que el agente ignore por qué actúa."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "-ismo, -ista y la condicional irreal",
+        "body": [
+          "Un patrón para todo este vocabulario: -ismo nombra la doctrina y -ista, a quien la defiende o lo que se refiere a ella (sustantivo y adjetivo a la vez): el determinismo → un determinista, una tesis determinista; el compatibilismo → los compatibilistas. Y cuando argumentas sobre hipótesis, recuerda la condicional irreal: «Si todo estuviera determinado, nadie sería responsable» (si + imperfecto de subjuntivo, condicional en la consecuencia)."
+        ],
+        "checkpoint": [
           {
             "type": "translate",
             "direction": "en-es",
@@ -17420,15 +21004,24 @@ const C2_BASE_LESSONS: Lesson[] = [
             "source": "Defiende una postura propia del determinismo.",
             "answer": "Defiende una postura determinista.",
             "explanation": "-ismo (doctrina) → -ista (adjetivo o adherente): determinismo → determinista. El adjetivo condensa «propia del determinismo»."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la hipótesis con la condicional irreal.",
+            "sentence": "Si nuestras elecciones ___ solo química cerebral, ¿tendría sentido castigar a nadie? (ser)",
+            "answer": "fueran",
+            "altAnswers": [
+              "fuesen"
+            ],
+            "explanation": "La hipótesis irreal va con si + imperfecto de subjuntivo (fueran o fuesen) y condicional en la consecuencia (tendría). «Son» (indicativo) presentaría la condición como real, y el condicional nunca va detrás de este «si».",
+            "hint": "imperfecto de subjuntivo"
           }
         ]
       },
       {
-        "heading": "La ética y la moral: una distinción sutil pero necesaria",
+        "heading": "Ética y moral: una distinción sutil",
         "body": [
-          "Aunque el habla cotidiana suele emplear ética y moral como sinónimos, muchos filósofos reservan el término moral para designar el conjunto concreto de normas, costumbres y valores que una comunidad determinada efectivamente sostiene, mientras que la ética designaría la reflexión crítica y sistemática sobre esas normas: sus fundamentos, su coherencia interna y su justificación racional.",
-          "Bajo esta distinción, resulta perfectamente posible que una acción sea moral, en el sentido de que se ajusta a las costumbres vigentes de una sociedad, y sin embargo resulte éticamente cuestionable si esas costumbres descansan sobre premisas injustas o incoherentes. La esclavitud, por ejemplo, fue moralmente aceptada durante siglos en numerosas sociedades sin que ello la volviera éticamente defendible.",
-          "Esta tensión entre lo moralmente vigente y lo éticamente justificable es lo que permite el progreso moral: alguien capaz de someter las costumbres heredadas a un examen ético riguroso puede identificar contradicciones que sus contemporáneos, inmersos en esa misma moral, no logran percibir con claridad."
+          "Aunque el habla cotidiana suele emplear ética y moral como sinónimos, muchos filósofos reservan el término moral para designar el conjunto concreto de normas, costumbres y valores que una comunidad determinada efectivamente sostiene, mientras que la ética designaría la reflexión crítica y sistemática sobre esas normas: sus fundamentos, su coherencia interna y su justificación racional."
         ],
         "examples": [
           {
@@ -17438,29 +21031,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la ética",
             "en": "reflexión crítica y sistemática sobre los fundamentos y la justificación de las normas morales"
-          },
-          {
-            "es": "la premisa",
-            "en": "proposición que se toma como punto de partida de un razonamiento"
-          },
-          {
-            "es": "la coherencia",
-            "en": "cualidad de un conjunto de ideas que no se contradicen entre sí"
-          },
-          {
-            "es": "el progreso moral",
-            "en": "proceso por el cual una sociedad revisa y mejora sus normas a la luz de un examen ético"
           }
         ],
         "checkpoint": [
-          {
-            "type": "fill-blank",
-            "prompt": "Completa con el término que designa la reflexión crítica sobre las normas.",
-            "sentence": "La ___ examina críticamente los fundamentos de las normas que la moral simplemente sostiene.",
-            "answer": "ética",
-            "explanation": "El texto distingue la moral, como conjunto de costumbres vigentes, de la ética, como reflexión crítica sobre esas costumbres.",
-            "hint": "Es la disciplina que somete las costumbres a un examen racional."
-          },
           {
             "type": "multiple-choice",
             "question": "«Esta costumbre está muy arraigada en mi pueblo, pero ¿está justificada?» La segunda parte de la frase es una pregunta…",
@@ -17472,6 +21045,70 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Preguntar si una norma vigente está justificada es la tarea de la ética, la reflexión crítica sobre la moral. La moral es el conjunto de costumbres que se sostiene de hecho (lo «arraigado»)."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con el término que designa la reflexión crítica sobre las normas.",
+            "sentence": "La ___ examina críticamente los fundamentos de las normas que la moral simplemente sostiene.",
+            "answer": "ética",
+            "explanation": "El texto distingue la moral, como conjunto de costumbres vigentes, de la ética, como reflexión crítica sobre esas costumbres.",
+            "hint": "Es la disciplina que somete las costumbres a un examen racional."
+          }
+        ]
+      },
+      {
+        "heading": "Moralmente aceptado, éticamente injustificable",
+        "body": [
+          "Bajo esta distinción, resulta perfectamente posible que una acción sea moral, en el sentido de que se ajusta a las costumbres vigentes de una sociedad, y sin embargo resulte éticamente cuestionable si esas costumbres descansan sobre premisas injustas o incoherentes. La esclavitud, por ejemplo, fue moralmente aceptada durante siglos en numerosas sociedades sin que ello la volviera éticamente defendible."
+        ],
+        "examples": [
+          {
+            "es": "la premisa",
+            "en": "proposición que se toma como punto de partida de un razonamiento"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Durante siglos, en muchos países las mujeres no pudieron votar y casi nadie lo cuestionaba. Según la distinción del texto, aquella exclusión era…",
+            "options": [
+              "moralmente aceptada, pero éticamente indefendible.",
+              "éticamente justificada, pero inmoral.",
+              "ni moral ni ética, sino ontológica.",
+              "justa, porque era la costumbre."
+            ],
+            "correctIndex": 0,
+            "explanation": "La moral es el conjunto de costumbres que una comunidad sostiene: por eso aquella exclusión era «moral» en su época. La ética examina si esas costumbres se justifican, y una costumbre basada en premisas injustas no lo está, como el texto dice de la esclavitud."
+          }
+        ]
+      },
+      {
+        "heading": "El progreso moral",
+        "body": [
+          "Esta tensión entre lo moralmente vigente y lo éticamente justificable es lo que permite el progreso moral: alguien capaz de someter las costumbres heredadas a un examen ético riguroso puede identificar contradicciones que sus contemporáneos, inmersos en esa misma moral, no logran percibir con claridad."
+        ],
+        "examples": [
+          {
+            "es": "la coherencia",
+            "en": "cualidad de un conjunto de ideas que no se contradicen entre sí"
+          },
+          {
+            "es": "el progreso moral",
+            "en": "proceso por el cual una sociedad revisa y mejora sus normas a la luz de un examen ético"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué hace posible el progreso moral?",
+            "options": [
+              "Someter las costumbres heredadas a un examen ético que descubre sus contradicciones.",
+              "Obedecer siempre la moral vigente.",
+              "Eliminar toda reflexión crítica.",
+              "Cambiar las costumbres al azar."
+            ],
+            "correctIndex": 0,
+            "explanation": "El progreso moral nace de la tensión entre lo moralmente vigente y lo éticamente justificable: quien examina con rigor las costumbres heredadas puede ver contradicciones que sus contemporáneos no perciben."
           }
         ]
       }
@@ -17544,11 +21181,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "El idealismo y el materialismo en la comprensión de la realidad",
+        "heading": "El materialismo",
         "body": [
-          "El materialismo sostiene que la realidad última está constituida por materia y sus interacciones, y que todo fenómeno mental, incluida la conciencia, es en última instancia reducible o dependiente de procesos físicos. Desde esta perspectiva, buscar una explicación de la mente que prescinda por completo del cuerpo resulta un error de partida.",
-          "El idealismo, en cambio, invierte esa jerarquía y sostiene que la realidad fundamental es de naturaleza mental o espiritual, y que el mundo material que percibimos depende, de un modo u otro, de una mente que lo experimenta o lo concibe. Para algunos idealistas, incluso afirmar la existencia de un objeto no percibido por ninguna conciencia carece de sentido pleno.",
-          "El dualismo intenta escapar de este dilema afirmando que la mente y la materia constituyen dos sustancias genuinamente distintas, aunque esta postura enfrenta la célebre dificultad de explicar cómo interactúan dos sustancias de naturaleza tan diferente. El monismo, por su parte, rechaza de raíz esta dualidad y sostiene que solo existe un único tipo de sustancia fundamental, ya sea material, mental o de una naturaleza que trasciende ambas categorías."
+          "El materialismo sostiene que la realidad última está constituida por materia y sus interacciones, y que todo fenómeno mental, incluida la conciencia, es en última instancia reducible o dependiente de procesos físicos. Desde esta perspectiva, buscar una explicación de la mente que prescinda por completo del cuerpo resulta un error de partida."
         ],
         "examples": [
           {
@@ -17556,45 +21191,48 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "postura según la cual la realidad última está constituida por materia y sus interacciones"
           },
           {
-            "es": "el idealismo",
-            "en": "postura según la cual la realidad fundamental es de naturaleza mental o espiritual"
-          },
-          {
-            "es": "el dualismo",
-            "en": "tesis que sostiene que la mente y la materia son dos sustancias genuinamente distintas"
-          },
-          {
-            "es": "el monismo",
-            "en": "tesis que sostiene que existe un único tipo de sustancia fundamental en la realidad"
-          },
-          {
             "es": "la conciencia",
             "en": "capacidad de un sujeto de tener experiencia subjetiva del mundo y de sí mismo"
-          },
-          {
-            "es": "la ontología",
-            "en": "rama de la filosofía que estudia la naturaleza del ser y de la existencia"
           }
         ],
         "checkpoint": [
           {
-            "type": "matching",
-            "instructions": "Relaciona cada postura filosófica con su tesis central.",
-            "pairs": [
-              {
-                "left": "el materialismo",
-                "right": "la realidad última está constituida por materia y sus interacciones"
-              },
-              {
-                "left": "el idealismo",
-                "right": "la realidad fundamental es de naturaleza mental o espiritual"
-              },
-              {
-                "left": "el dualismo",
-                "right": "la mente y la materia son dos sustancias genuinamente distintas"
-              }
+            "type": "multiple-choice",
+            "question": "¿Qué diría un materialista sobre la conciencia?",
+            "options": [
+              "Que depende, en última instancia, de procesos físicos del cerebro.",
+              "Que es una sustancia distinta del cuerpo.",
+              "Que es lo único que existe realmente.",
+              "Que no tiene ninguna relación con el cuerpo."
             ],
-            "explanation": "Estas tres posturas ofrecen respuestas radicalmente distintas a la pregunta por la naturaleza última de la realidad."
+            "correctIndex": 0,
+            "explanation": "El materialismo sostiene que todo fenómeno mental, incluida la conciencia, es reducible o dependiente de procesos físicos. Que mente y cuerpo sean dos sustancias es dualismo, y que solo exista lo mental es idealismo."
+          }
+        ]
+      },
+      {
+        "heading": "El idealismo",
+        "body": [
+          "El idealismo, en cambio, invierte esa jerarquía y sostiene que la realidad fundamental es de naturaleza mental o espiritual, y que el mundo material que percibimos depende, de un modo u otro, de una mente que lo experimenta o lo concibe. Para algunos idealistas, incluso afirmar la existencia de un objeto no percibido por ninguna conciencia carece de sentido pleno."
+        ],
+        "examples": [
+          {
+            "es": "el idealismo",
+            "en": "postura según la cual la realidad fundamental es de naturaleza mental o espiritual"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase expresa una postura idealista?",
+            "options": [
+              "Un árbol que ninguna mente percibe no existe en sentido pleno.",
+              "La mente es solo actividad de las neuronas.",
+              "La materia es lo único real.",
+              "La mente y el cuerpo son dos sustancias distintas."
+            ],
+            "correctIndex": 0,
+            "explanation": "El idealismo invierte la jerarquía: la realidad fundamental es mental, y el mundo material depende de una mente que lo percibe; para algunos idealistas, afirmar un objeto no percibido carece de sentido pleno. Las demás opciones son materialistas o dualistas."
           },
           {
             "type": "translate",
@@ -17610,11 +21248,43 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La lógica del argumento: premisas, falacias y coherencia",
+        "heading": "Dualismo y monismo",
         "body": [
-          "Un silogismo bien construido parte de dos premisas que, si son verdaderas, garantizan la verdad de la conclusión mediante la sola forma del razonamiento, sin necesidad de apelar a ninguna evidencia adicional. La validez lógica de un argumento, sin embargo, no garantiza en absoluto que sus premisas sean verdaderas: un razonamiento puede ser perfectamente válido y, al mismo tiempo, partir de premisas falsas.",
-          "Las falacias constituyen errores de razonamiento que, pese a su invalidez, suelen resultar psicológicamente persuasivos precisamente porque imitan la forma de un argumento legítimo. Atacar el carácter de quien argumenta en lugar de responder a sus razones, o presentar solo dos alternativas cuando en realidad existen muchas más, son estrategias retóricas que se disfrazan de argumentación seria sin serlo.",
-          "La coherencia argumentativa exige, además, que las distintas afirmaciones que alguien sostiene no entren en contradicción entre sí. Detectar una contradicción no siempre significa que el argumento completo sea falso, pero sí obliga a revisar al menos una de las premisas en conflicto, ya que dos proposiciones mutuamente contradictorias no pueden ser verdaderas a la vez."
+          "El dualismo intenta escapar de este dilema afirmando que la mente y la materia constituyen dos sustancias genuinamente distintas, aunque esta postura enfrenta la célebre dificultad de explicar cómo interactúan dos sustancias de naturaleza tan diferente. El monismo, por su parte, rechaza de raíz esta dualidad y sostiene que solo existe un único tipo de sustancia fundamental, ya sea material, mental o de una naturaleza que trasciende ambas categorías."
+        ],
+        "examples": [
+          {
+            "es": "el dualismo",
+            "en": "tesis que sostiene que la mente y la materia son dos sustancias genuinamente distintas"
+          },
+          {
+            "es": "el monismo",
+            "en": "tesis que sostiene que existe un único tipo de sustancia fundamental en la realidad"
+          },
+          {
+            "es": "la ontología",
+            "en": "rama de la filosofía que estudia la naturaleza del ser y de la existencia"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál es la «célebre dificultad» del dualismo según el texto?",
+            "options": [
+              "Explicar cómo interactúan dos sustancias tan distintas como la mente y la materia.",
+              "Explicar por qué solo existe la materia.",
+              "Demostrar que la mente no existe.",
+              "Reducir todo a una única sustancia."
+            ],
+            "correctIndex": 0,
+            "explanation": "El dualismo afirma dos sustancias genuinamente distintas, y su problema es explicar cómo se influyen mutuamente. Reducirlo todo a una sola sustancia es lo que propone el monismo, que rechaza esa dualidad."
+          }
+        ]
+      },
+      {
+        "heading": "Silogismo y validez",
+        "body": [
+          "Un silogismo bien construido parte de dos premisas que, si son verdaderas, garantizan la verdad de la conclusión mediante la sola forma del razonamiento, sin necesidad de apelar a ninguna evidencia adicional. La validez lógica de un argumento, sin embargo, no garantiza en absoluto que sus premisas sean verdaderas: un razonamiento puede ser perfectamente válido y, al mismo tiempo, partir de premisas falsas."
         ],
         "examples": [
           {
@@ -17624,14 +21294,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la premisa",
             "en": "proposición que se toma como punto de partida de un razonamiento"
-          },
-          {
-            "es": "la falacia",
-            "en": "error de razonamiento que resulta persuasivo pese a carecer de validez lógica"
-          },
-          {
-            "es": "la contradicción",
-            "en": "afirmación simultánea de dos proposiciones que no pueden ser verdaderas a la vez"
           },
           {
             "es": "la validez",
@@ -17650,15 +21312,21 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "La validez lógica concierne a la forma del razonamiento, no a la verdad de sus premisas; un argumento válido puede partir de premisas falsas. No son lo mismo, la validez no garantiza que las premisas sean verdaderas y no depende de quién argumenta (eso sería una falacia ad hominem)."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Las falacias",
+        "body": [
+          "Las falacias constituyen errores de razonamiento que, pese a su invalidez, suelen resultar psicológicamente persuasivos precisamente porque imitan la forma de un argumento legítimo. Atacar el carácter de quien argumenta en lugar de responder a sus razones, o presentar solo dos alternativas cuando en realidad existen muchas más, son estrategias retóricas que se disfrazan de argumentación seria sin serlo."
+        ],
+        "examples": [
           {
-            "type": "fill-blank",
-            "prompt": "Completa la frase con el término adecuado.",
-            "sentence": "Atacar el carácter de quien argumenta en lugar de responder a sus razones es una ___ muy común.",
-            "answer": "falacia",
-            "explanation": "Esta estrategia retórica, que imita la forma de un argumento legítimo sin serlo, se conoce como falacia.",
-            "hint": "Es un error de razonamiento que suele resultar persuasivo pese a ser inválido."
-          },
+            "es": "la falacia",
+            "en": "error de razonamiento que resulta persuasivo pese a carecer de validez lógica"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "«O estás con nosotros o estás contra nosotros.» ¿Qué falacia es?",
@@ -17670,6 +21338,40 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Presentar solo dos alternativas cuando hay más es un falso dilema, la segunda falacia que menciona el texto. Ad hominem ataca a la persona; el argumento de autoridad se apoya en quién lo dice; la generalización apresurada concluye a partir de pocos casos."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con el término adecuado.",
+            "sentence": "Atacar el carácter de quien argumenta en lugar de responder a sus razones es una ___ muy común.",
+            "answer": "falacia",
+            "explanation": "Esta estrategia retórica, que imita la forma de un argumento legítimo sin serlo, se conoce como falacia.",
+            "hint": "Es un error de razonamiento que suele resultar persuasivo pese a ser inválido."
+          }
+        ]
+      },
+      {
+        "heading": "La coherencia argumentativa",
+        "body": [
+          "La coherencia argumentativa exige, además, que las distintas afirmaciones que alguien sostiene no entren en contradicción entre sí. Detectar una contradicción no siempre significa que el argumento completo sea falso, pero sí obliga a revisar al menos una de las premisas en conflicto, ya que dos proposiciones mutuamente contradictorias no pueden ser verdaderas a la vez."
+        ],
+        "examples": [
+          {
+            "es": "la contradicción",
+            "en": "afirmación simultánea de dos proposiciones que no pueden ser verdaderas a la vez"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un político defiende «bajar todos los impuestos» y, en el mismo discurso, «aumentar el impuesto sobre la gasolina». ¿Qué conviene hacer, según el texto?",
+            "options": [
+              "Revisar al menos una de las dos afirmaciones, porque se contradicen.",
+              "Concluir que todo su programa es falso.",
+              "Aceptar las dos, porque ambas pueden ser verdaderas a la vez.",
+              "Atacar el carácter del político."
+            ],
+            "correctIndex": 0,
+            "explanation": "Dos proposiciones contradictorias no pueden ser verdaderas a la vez, así que hay que revisar al menos una. Detectar una contradicción no prueba que todo el argumento sea falso, y atacar al político sería una falacia ad hominem."
           }
         ]
       }
@@ -17739,6 +21441,25 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Dos proposiciones contradictorias no pueden ser verdaderas al mismo tiempo."
         ],
         "explanation": "Es el principio de no contradicción: «a la vez» o «al mismo tiempo». «Proposiciones» es el término técnico equivalente."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada postura filosófica con su tesis central.",
+        "pairs": [
+          {
+            "left": "el materialismo",
+            "right": "la realidad última está constituida por materia y sus interacciones"
+          },
+          {
+            "left": "el idealismo",
+            "right": "la realidad fundamental es de naturaleza mental o espiritual"
+          },
+          {
+            "left": "el dualismo",
+            "right": "la mente y la materia son dos sustancias genuinamente distintas"
+          }
+        ],
+        "explanation": "Estas tres posturas ofrecen respuestas radicalmente distintas a la pregunta por la naturaleza última de la realidad."
       }
     ]
   },
@@ -17751,16 +21472,49 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): determinismo y compatibilismo",
         "body": [
           "Marcos: Si todo lo que hago está determinado por mi biología y mi crianza, no veo cómo puedo ser genuinamente responsable de nada.",
           "Elena: Pero eso confunde determinismo con coacción. Nadie te está obligando desde fuera; actúas según tus propios deseos y razones.",
           "Marcos: Y esos deseos también tienen una causa que yo no elegí. Es determinismo hasta el fondo.",
-          "Elena: Ahí es donde entra el compatibilismo: la libertad no exige escapar de toda cadena causal, solo que la acción brote de tu propia voluntad.",
+          "Elena: Ahí es donde entra el compatibilismo: la libertad no exige escapar de toda cadena causal, solo que la acción brote de tu propia voluntad."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué confusión le señala Elena a Marcos?",
+            "options": [
+              "Confunde determinismo con coacción: nadie le obliga desde fuera.",
+              "Confunde la ética con la moral.",
+              "Confunde el idealismo con el materialismo.",
+              "Confunde una premisa con una conclusión."
+            ],
+            "correctIndex": 0,
+            "explanation": "Elena dice: «eso confunde determinismo con coacción. Nadie te está obligando desde fuera». De ahí pasa al compatibilismo: basta con que la acción brote de la propia voluntad."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): de la libertad a la ética",
+        "body": [
           "Marcos: Suena más a una definición conveniente que a una solución real del problema.",
           "Elena: Quizá, pero al menos evita la conclusión absurda de que nadie es responsable de nada jamás.",
           "Marcos: Lo que sí acepto es que la moral vigente de una época no siempre resiste un examen ético riguroso.",
           "Elena: Exacto, y ahí está el verdadero progreso moral: cuando alguien somete la costumbre heredada a esa reflexión crítica."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿En qué acaban de acuerdo Marcos y Elena?",
+            "options": [
+              "En que la moral vigente de una época no siempre resiste un examen ético riguroso.",
+              "En que el compatibilismo resuelve del todo el problema.",
+              "En que nadie es responsable de nada.",
+              "En que las costumbres heredadas nunca deben revisarse."
+            ],
+            "correctIndex": 0,
+            "explanation": "Marcos acepta que «la moral vigente de una época no siempre resiste un examen ético riguroso», y Elena ve ahí el progreso moral. Marcos sigue dudando del compatibilismo, y Elena rechaza precisamente la conclusión de que nadie es responsable."
+          }
         ]
       },
       {
@@ -17909,6 +21663,31 @@ const C2_BASE_LESSONS: Lesson[] = [
             "es": "el escepticismo",
             "en": "la postura que duda de la posibilidad de alcanzar un conocimiento cierto"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada término con su definición.",
+            "pairs": [
+              {
+                "left": "la hermenéutica",
+                "right": "teoría de la interpretación de los textos"
+              },
+              {
+                "left": "el empirismo",
+                "right": "todo conocimiento procede de la experiencia"
+              },
+              {
+                "left": "el nihilismo",
+                "right": "niega que exista un sentido o valor objetivo"
+              },
+              {
+                "left": "el postulado",
+                "right": "idea aceptada como punto de partida sin demostrarla"
+              }
+            ],
+            "explanation": "Hermenéutica: interpretar textos. Empirismo: el conocimiento viene de la experiencia (frente al racionalismo). Nihilismo: no hay sentido ni valor objetivo. Postulado: punto de partida que no se demuestra."
+          }
         ]
       }
     ],
@@ -18009,11 +21788,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: ¿qué choca con qué?",
         "body": [
-          "Para nombrar con precisión una tensión interior, pregúntate qué choca con qué. Si chocan dos sentimientos dirigidos a lo mismo (admirar y resentir, querer y temer), es ambivalencia: ninguno es un error, por eso no se «resuelve», se tolera. Si chocan lo que uno cree y lo que hace, es disonancia cognitiva: produce malestar, y la mente lo «reduce» reinterpretando uno de los dos elementos. De ahí sus colocaciones: «sentir ambivalencia hacia alguien», pero «generar, provocar o reducir la disonancia».",
-          "Gramática del registro clínico: el estado se nombra con un sustantivo («siente culpa», «siente ambivalencia»), no con «sentirse» + sustantivo. «Sentirse» va con adjetivo («se siente culpable»). Y la emoción provocada por un hecho pide subjuntivo: «Le angustia que su hijo reprima lo que siente».",
-          "La ambivalencia designa ese estado en el que dos sentimientos opuestos hacia una misma persona o situación coexisten sin anularse mutuamente: se puede admirar profundamente a alguien y, al mismo tiempo, sentir un resentimiento genuino hacia esa misma persona, sin que ninguno de los dos sentimientos resulte falso. Tolerar esa coexistencia, en lugar de forzar una resolución artificial hacia un solo polo, constituye a menudo un signo de madurez emocional.",
-          "La disonancia cognitiva surge cuando una persona sostiene simultáneamente dos creencias, o una creencia y una conducta, que resultan mutuamente incompatibles, generando un malestar psicológico que el individuo tiende a resolver, no siempre de manera racional, reinterpretando alguno de los dos elementos en conflicto hasta que la contradicción deja de percibirse como tal.",
-          "Un ejemplo clásico de disonancia cognitiva se produce cuando alguien invierte un gran esfuerzo en una decisión que luego resulta claramente errónea: en lugar de admitir el error, la persona suele reevaluar retrospectivamente la decisión para que parezca más razonable de lo que efectivamente fue, protegiendo así su propia imagen de sí misma como alguien coherente y racional."
+          "Para nombrar con precisión una tensión interior, pregúntate qué choca con qué. Si chocan dos sentimientos dirigidos a lo mismo (admirar y resentir, querer y temer), es ambivalencia: ninguno es un error, por eso no se «resuelve», se tolera. Si chocan lo que uno cree y lo que hace, es disonancia cognitiva: produce malestar, y la mente lo «reduce» reinterpretando uno de los dos elementos. De ahí sus colocaciones: «sentir ambivalencia hacia alguien», pero «generar, provocar o reducir la disonancia»."
         ],
         "examples": [
           {
@@ -18023,45 +21798,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Sabe que el tabaco mata, pero se dice que de algo hay que morir.",
             "en": "He knows tobacco kills, but tells himself you have to die of something. (creencia contra conducta → disonancia, reducida con una excusa)"
-          },
-          {
-            "es": "Se siente culpable; siente culpa.",
-            "en": "He feels guilty; he feels guilt. (sentirse + adjetivo / sentir + sustantivo)"
-          },
-          {
-            "es": "la ambivalencia",
-            "en": "coexistencia de dos sentimientos opuestos hacia una misma persona o situación"
-          },
-          {
-            "es": "la disonancia cognitiva",
-            "en": "malestar que surge al sostener dos creencias o una creencia y una conducta incompatibles entre sí"
-          },
-          {
-            "es": "la madurez emocional",
-            "en": "capacidad de tolerar y gestionar estados afectivos complejos sin negarlos ni forzarlos"
-          },
-          {
-            "es": "la reinterpretación",
-            "en": "revisión de un recuerdo o una creencia para reducir un conflicto psicológico interno"
-          },
-          {
-            "es": "la incompatibilidad",
-            "en": "imposibilidad de que dos elementos coexistan de manera coherente"
           }
         ],
         "checkpoint": [
-          {
-            "type": "multiple-choice",
-            "question": "¿Qué caracteriza a la ambivalencia según el texto?",
-            "options": [
-              "La sustitución rápida de un sentimiento negativo por uno positivo",
-              "La coexistencia de dos sentimientos opuestos hacia una misma persona, sin que ninguno sea falso",
-              "La ausencia total de sentimientos hacia alguien",
-              "La resolución inmediata de cualquier conflicto emocional"
-            ],
-            "correctIndex": 1,
-            "explanation": "El texto define la ambivalencia como la coexistencia genuina de sentimientos opuestos, sin que se anulen ni se invaliden mutuamente. No es la sustitución de un sentimiento por otro, ni la ausencia de sentimientos, ni la resolución inmediata de un conflicto."
-          },
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. Lucía defiende el comercio local, pero compra todo por internet y se repite que «una persona sola no cambia nada». ¿Qué describe?",
@@ -18077,17 +21816,156 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El desapego y los mecanismos de defensa",
+        "heading": "Gramática del registro clínico",
         "body": [
-          "El desapego, entendido en su sentido psicológico más maduro, no equivale a la indiferencia ni a la incapacidad de vincularse afectivamente, sino a la capacidad de sostener un vínculo importante sin que el propio bienestar dependa por completo de su desenlace. Distinguir el desapego sano de la evitación defensiva, que simula esa misma serenidad para protegerse del riesgo de sufrir, exige una introspección cuidadosa.",
-          "Los mecanismos de defensa operan, casi siempre, fuera del alcance de la conciencia inmediata: la represión aparta de la conciencia un recuerdo o un deseo intolerable, la proyección atribuye a otra persona un impulso propio que resulta inaceptable reconocer, y la racionalización construye una explicación aparentemente lógica para justificar una conducta cuyo verdadero motivo permanece oculto incluso para quien la ejecuta.",
-          "El autoengaño, entendido como la persistencia deliberada aunque no del todo consciente en una creencia que la propia evidencia contradice, comparte con estos mecanismos una función protectora: mantener una imagen de uno mismo lo suficientemente coherente y soportable como para poder seguir funcionando sin un colapso emocional inmediato."
+          "Gramática del registro clínico: el estado se nombra con un sustantivo («siente culpa», «siente ambivalencia»), no con «sentirse» + sustantivo. «Sentirse» va con adjetivo («se siente culpable»). Y la emoción provocada por un hecho pide subjuntivo: «Le angustia que su hijo reprima lo que siente»."
+        ],
+        "examples": [
+          {
+            "es": "Se siente culpable; siente culpa.",
+            "en": "He feels guilty; he feels guilt. (sentirse + adjetivo / sentir + sustantivo)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase es correcta?",
+            "options": [
+              "Se siente avergonzado por lo que dijo.",
+              "Se siente vergüenza por lo que dijo.",
+              "Siente avergonzado por lo que dijo."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Sentirse» va con adjetivo (se siente avergonzado); «sentir» va con sustantivo (siente vergüenza). Mezclarlos («se siente vergüenza», «siente avergonzado») rompe la construcción."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con la forma correcta.",
+            "sentence": "A la terapeuta le preocupa que la paciente no ___ lo que siente. (expresar)",
+            "answer": "exprese",
+            "explanation": "La emoción provocada por un hecho («le preocupa que…») pide subjuntivo: exprese. El indicativo (expresa) no cabe tras un verbo de emoción con otro sujeto.",
+            "hint": "subjuntivo tras un verbo de emoción"
+          }
+        ]
+      },
+      {
+        "heading": "La ambivalencia",
+        "body": [
+          "La ambivalencia designa ese estado en el que dos sentimientos opuestos hacia una misma persona o situación coexisten sin anularse mutuamente: se puede admirar profundamente a alguien y, al mismo tiempo, sentir un resentimiento genuino hacia esa misma persona, sin que ninguno de los dos sentimientos resulte falso. Tolerar esa coexistencia, en lugar de forzar una resolución artificial hacia un solo polo, constituye a menudo un signo de madurez emocional."
+        ],
+        "examples": [
+          {
+            "es": "la ambivalencia",
+            "en": "coexistencia de dos sentimientos opuestos hacia una misma persona o situación"
+          },
+          {
+            "es": "la madurez emocional",
+            "en": "capacidad de tolerar y gestionar estados afectivos complejos sin negarlos ni forzarlos"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué caracteriza a la ambivalencia según el texto?",
+            "options": [
+              "La sustitución rápida de un sentimiento negativo por uno positivo",
+              "La coexistencia de dos sentimientos opuestos hacia una misma persona, sin que ninguno sea falso",
+              "La ausencia total de sentimientos hacia alguien",
+              "La resolución inmediata de cualquier conflicto emocional"
+            ],
+            "correctIndex": 1,
+            "explanation": "El texto define la ambivalencia como la coexistencia genuina de sentimientos opuestos, sin que se anulen ni se invaliden mutuamente. No es la sustitución de un sentimiento por otro, ni la ausencia de sentimientos, ni la resolución inmediata de un conflicto."
+          }
+        ]
+      },
+      {
+        "heading": "La disonancia cognitiva",
+        "body": [
+          "La disonancia cognitiva surge cuando una persona sostiene simultáneamente dos creencias, o una creencia y una conducta, que resultan mutuamente incompatibles, generando un malestar psicológico que el individuo tiende a resolver, no siempre de manera racional, reinterpretando alguno de los dos elementos en conflicto hasta que la contradicción deja de percibirse como tal."
+        ],
+        "examples": [
+          {
+            "es": "la disonancia cognitiva",
+            "en": "malestar que surge al sostener dos creencias o una creencia y una conducta incompatibles entre sí"
+          },
+          {
+            "es": "la incompatibilidad",
+            "en": "imposibilidad de que dos elementos coexistan de manera coherente"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué produce, según el texto, la disonancia cognitiva?",
+            "options": [
+              "Un malestar que la persona tiende a reducir reinterpretando uno de los dos elementos.",
+              "Una alegría intensa y duradera.",
+              "La coexistencia tranquila de dos sentimientos opuestos.",
+              "La desaparición de todas las creencias."
+            ],
+            "correctIndex": 0,
+            "explanation": "La disonancia surge al sostener dos creencias, o una creencia y una conducta, incompatibles; genera malestar, y la mente lo reduce reinterpretando uno de los elementos. La coexistencia tolerada de dos sentimientos opuestos es la ambivalencia."
+          }
+        ]
+      },
+      {
+        "heading": "Un ejemplo clásico",
+        "body": [
+          "Un ejemplo clásico de disonancia cognitiva se produce cuando alguien invierte un gran esfuerzo en una decisión que luego resulta claramente errónea: en lugar de admitir el error, la persona suele reevaluar retrospectivamente la decisión para que parezca más razonable de lo que efectivamente fue, protegiendo así su propia imagen de sí misma como alguien coherente y racional."
+        ],
+        "examples": [
+          {
+            "es": "la reinterpretación",
+            "en": "revisión de un recuerdo o una creencia para reducir un conflicto psicológico interno"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Marta pagó un máster carísimo que no le ha servido para nada, y ahora repite que «lo importante fue la experiencia». ¿Qué hace?",
+            "options": [
+              "Reevalúa la decisión para que parezca razonable y proteger su imagen de persona coherente.",
+              "Admite con serenidad que se equivocó.",
+              "Siente ambivalencia hacia el máster.",
+              "Practica el desapego."
+            ],
+            "correctIndex": 0,
+            "explanation": "Es el ejemplo clásico de disonancia: tras invertir mucho esfuerzo en una decisión errónea, en lugar de admitir el error la persona la reinterpreta para que parezca más razonable. Admitirlo sería justo lo contrario."
+          }
+        ]
+      },
+      {
+        "heading": "El desapego",
+        "body": [
+          "El desapego, entendido en su sentido psicológico más maduro, no equivale a la indiferencia ni a la incapacidad de vincularse afectivamente, sino a la capacidad de sostener un vínculo importante sin que el propio bienestar dependa por completo de su desenlace. Distinguir el desapego sano de la evitación defensiva, que simula esa misma serenidad para protegerse del riesgo de sufrir, exige una introspección cuidadosa."
         ],
         "examples": [
           {
             "es": "el desapego",
             "en": "capacidad de sostener un vínculo afectivo sin que el bienestar propio dependa por completo de él"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué es el desapego maduro?",
+            "options": [
+              "Sostener un vínculo importante sin que el propio bienestar dependa por completo de su desenlace.",
+              "No sentir nada por nadie.",
+              "Evitar los vínculos para no sufrir.",
+              "Depender por completo de otra persona."
+            ],
+            "correctIndex": 0,
+            "explanation": "El desapego maduro no es indiferencia ni incapacidad de vincularse. Evitar vínculos para no sufrir es la evitación defensiva, que simula la misma serenidad."
+          }
+        ]
+      },
+      {
+        "heading": "Los mecanismos de defensa",
+        "body": [
+          "Los mecanismos de defensa operan, casi siempre, fuera del alcance de la conciencia inmediata: la represión aparta de la conciencia un recuerdo o un deseo intolerable, la proyección atribuye a otra persona un impulso propio que resulta inaceptable reconocer, y la racionalización construye una explicación aparentemente lógica para justificar una conducta cuyo verdadero motivo permanece oculto incluso para quien la ejecuta."
+        ],
+        "examples": [
           {
             "es": "el mecanismo de defensa",
             "en": "estrategia psicológica inconsciente que protege a la mente de un conflicto intolerable"
@@ -18099,32 +21977,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la proyección psicológica",
             "en": "mecanismo de defensa que atribuye a otra persona un impulso propio inaceptable"
-          },
-          {
-            "es": "el autoengaño",
-            "en": "persistencia en una creencia que la propia evidencia contradice, con función protectora"
           }
         ],
         "checkpoint": [
-          {
-            "type": "matching",
-            "instructions": "Relaciona cada mecanismo de defensa con su descripción.",
-            "pairs": [
-              {
-                "left": "la represión",
-                "right": "aparta de la conciencia un recuerdo o un deseo intolerable"
-              },
-              {
-                "left": "la proyección psicológica",
-                "right": "atribuye a otra persona un impulso propio inaceptable"
-              },
-              {
-                "left": "el autoengaño",
-                "right": "sostiene una creencia que la propia evidencia contradice"
-              }
-            ],
-            "explanation": "Estos tres mecanismos comparten la función de proteger a la persona de un conflicto psicológico intolerable."
-          },
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. Un empleado que no soporta a su jefe repite que «el jefe me tiene manía». ¿Qué mecanismo de defensa ilustra?",
@@ -18136,6 +21991,32 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Atribuye al jefe el rechazo que siente él mismo: eso es proyección. La represión apartaría el sentimiento de la conciencia (aquí lo expresa, pero colocado en otro), y el desapego y la resiliencia no son mecanismos de defensa."
+          }
+        ]
+      },
+      {
+        "heading": "El autoengaño",
+        "body": [
+          "El autoengaño, entendido como la persistencia deliberada aunque no del todo consciente en una creencia que la propia evidencia contradice, comparte con estos mecanismos una función protectora: mantener una imagen de uno mismo lo suficientemente coherente y soportable como para poder seguir funcionando sin un colapso emocional inmediato."
+        ],
+        "examples": [
+          {
+            "es": "el autoengaño",
+            "en": "persistencia en una creencia que la propia evidencia contradice, con función protectora"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué función comparte el autoengaño con los mecanismos de defensa?",
+            "options": [
+              "Proteger una imagen de uno mismo lo bastante coherente y soportable para seguir funcionando.",
+              "Descubrir la verdad sobre uno mismo.",
+              "Mejorar la memoria.",
+              "Atribuir los propios impulsos a los demás."
+            ],
+            "correctIndex": 0,
+            "explanation": "El autoengaño persiste en una creencia que la evidencia contradice para mantener una imagen de uno mismo soportable y evitar un colapso emocional. Atribuir los propios impulsos a otro es, en cambio, la proyección."
           }
         ]
       }
@@ -18230,6 +22111,25 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Siente ambivalencia hacia su ciudad natal: la adora y no la soporta."
         ],
         "explanation": "Dos sentimientos opuestos hacia lo mismo: «sentir ambivalencia hacia / respecto a» + sustantivo. Los pronombres de objeto (lo adora, no lo soporta) concuerdan con «pueblo»."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada mecanismo de defensa con su descripción.",
+        "pairs": [
+          {
+            "left": "la represión",
+            "right": "aparta de la conciencia un recuerdo o un deseo intolerable"
+          },
+          {
+            "left": "la proyección psicológica",
+            "right": "atribuye a otra persona un impulso propio inaceptable"
+          },
+          {
+            "left": "el autoengaño",
+            "right": "sostiene una creencia que la propia evidencia contradice"
+          }
+        ],
+        "explanation": "Estos tres mecanismos comparten la función de proteger a la persona de un conflicto psicológico intolerable."
       }
     ]
   },
@@ -18244,10 +22144,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: ¿hacia dónde mira la emoción?",
         "body": [
-          "Las palabras de la tristeza no son sinónimos: cada una responde a dos preguntas. ¿Tiene un objeto concreto? ¿Y hacia dónde mira? La melancolía no tiene objeto claro. La nostalgia mira a un pasado concreto («nostalgia de mi infancia»). La añoranza echa en falta a alguien o algo ausente ahora. El anhelo mira hacia un futuro deseado («el anhelo de volver»). La desazón y el desasosiego viven en el presente: inquietan sin que se sepa por qué. Elegir la palabra exacta es, por tanto, decir algo sobre el tiempo y la causa de lo que se siente.",
-          "La melancolía se distingue de la tristeza común por su carácter más difuso y persistente: no responde necesariamente a una pérdida concreta y reciente, sino a una sensación general de vacío o de insatisfacción con la propia existencia que puede prolongarse sin un motivo fácilmente identificable. Quien la experimenta a menudo no sabría precisar qué exactamente ha perdido, y esa misma indefinición forma parte de su naturaleza.",
-          "La nostalgia, en cambio, se ancla siempre en un recuerdo concreto: una época, un lugar o una relación que ya no existe tal como se recuerda. Resulta interesante notar que la nostalgia suele embellecer selectivamente el pasado, filtrando sus aspectos más ingratos, de modo que la comparación con el presente casi siempre resulta desfavorable para este último, aunque esa comparación no sea del todo justa.",
-          "El anhelo y la añoranza comparten con la nostalgia esa orientación hacia algo ausente, pero se proyectan con más frecuencia hacia un futuro deseado o hacia una persona concreta cuya ausencia se siente de manera aguda. La desazón y el desasosiego, por su parte, describen un malestar más inquieto e impreciso, cercano a la ansiedad, en el que la persona percibe que algo no está bien sin lograr identificar exactamente qué."
+          "Las palabras de la tristeza no son sinónimos: cada una responde a dos preguntas. ¿Tiene un objeto concreto? ¿Y hacia dónde mira? La melancolía no tiene objeto claro. La nostalgia mira a un pasado concreto («nostalgia de mi infancia»). La añoranza echa en falta a alguien o algo ausente ahora. El anhelo mira hacia un futuro deseado («el anhelo de volver»). La desazón y el desasosiego viven en el presente: inquietan sin que se sepa por qué. Elegir la palabra exacta es, por tanto, decir algo sobre el tiempo y la causa de lo que se siente."
         ],
         "examples": [
           {
@@ -18261,15 +22158,77 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Lo invade un desasosiego que no sabe a qué atribuir.",
             "en": "He's overcome by a restlessness he can't put down to anything. (presente, sin causa → desasosiego)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la idea. Cada domingo por la tarde, sin saber por qué, a Elena la invade una inquietud que no la deja leer ni descansar. ¿Qué palabra es la más precisa?",
+            "options": [
+              "desasosiego",
+              "nostalgia",
+              "anhelo",
+              "añoranza"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es una inquietud del presente y sin causa identificable: desasosiego (o desazón). La nostalgia necesitaría un pasado concreto, el anhelo un futuro deseado y la añoranza alguien o algo ausente."
+          }
+        ]
+      },
+      {
+        "heading": "La melancolía",
+        "body": [
+          "La melancolía se distingue de la tristeza común por su carácter más difuso y persistente: no responde necesariamente a una pérdida concreta y reciente, sino a una sensación general de vacío o de insatisfacción con la propia existencia que puede prolongarse sin un motivo fácilmente identificable. Quien la experimenta a menudo no sabría precisar qué exactamente ha perdido, y esa misma indefinición forma parte de su naturaleza."
+        ],
+        "examples": [
           {
             "es": "la melancolía",
             "en": "tristeza difusa y persistente que no responde a una pérdida concreta y reciente"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Desde hace meses, Andrés siente un vacío que no sabe explicar; no ha perdido nada en concreto. ¿Qué palabra es la más precisa?",
+            "options": [
+              "melancolía",
+              "nostalgia",
+              "anhelo",
+              "duelo"
+            ],
+            "correctIndex": 0,
+            "explanation": "La melancolía es una tristeza difusa y persistente que no responde a una pérdida concreta; quien la siente no sabe precisar qué ha perdido. La nostalgia y el duelo tienen un objeto claro, y el anhelo mira a un futuro deseado."
+          }
+        ]
+      },
+      {
+        "heading": "La nostalgia",
+        "body": [
+          "La nostalgia, en cambio, se ancla siempre en un recuerdo concreto: una época, un lugar o una relación que ya no existe tal como se recuerda. Resulta interesante notar que la nostalgia suele embellecer selectivamente el pasado, filtrando sus aspectos más ingratos, de modo que la comparación con el presente casi siempre resulta desfavorable para este último, aunque esa comparación no sea del todo justa."
+        ],
+        "examples": [
           {
             "es": "la nostalgia",
             "en": "añoranza de un recuerdo concreto del pasado, embellecido selectivamente"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con el término adecuado.",
+            "sentence": "A diferencia de la ___, la nostalgia siempre se ancla en un recuerdo concreto del pasado.",
+            "answer": "melancolía",
+            "explanation": "El texto distingue la melancolía, más difusa, de la nostalgia, siempre anclada en un recuerdo específico.",
+            "hint": "Es la tristeza difusa que no responde a una pérdida concreta."
+          }
+        ]
+      },
+      {
+        "heading": "Anhelo, añoranza, desazón, desasosiego",
+        "body": [
+          "El anhelo y la añoranza comparten con la nostalgia esa orientación hacia algo ausente, pero se proyectan con más frecuencia hacia un futuro deseado o hacia una persona concreta cuya ausencia se siente de manera aguda. La desazón y el desasosiego, por su parte, describen un malestar más inquieto e impreciso, cercano a la ansiedad, en el que la persona percibe que algo no está bien sin lograr identificar exactamente qué."
+        ],
+        "examples": [
           {
             "es": "el anhelo",
             "en": "deseo intenso orientado hacia algo ausente, a menudo en el futuro"
@@ -18289,34 +22248,43 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
-            "type": "fill-blank",
-            "prompt": "Completa la frase con el término adecuado.",
-            "sentence": "A diferencia de la ___, la nostalgia siempre se ancla en un recuerdo concreto del pasado.",
-            "answer": "melancolía",
-            "explanation": "El texto distingue la melancolía, más difusa, de la nostalgia, siempre anclada en un recuerdo específico.",
-            "hint": "Es la tristeza difusa que no responde a una pérdida concreta."
-          },
-          {
             "type": "multiple-choice",
-            "question": "Aplica la idea. Cada domingo por la tarde, sin saber por qué, a Elena la invade una inquietud que no la deja leer ni descansar. ¿Qué palabra es la más precisa?",
+            "question": "Desde que su hija se fue a estudiar a Canadá, Carmen la echa muchísimo de menos. ¿Qué siente?",
             "options": [
-              "desasosiego",
-              "nostalgia",
+              "añoranza",
               "anhelo",
-              "añoranza"
+              "desazón",
+              "melancolía"
             ],
             "correctIndex": 0,
-            "explanation": "Es una inquietud del presente y sin causa identificable: desasosiego (o desazón). La nostalgia necesitaría un pasado concreto, el anhelo un futuro deseado y la añoranza alguien o algo ausente."
+            "explanation": "La añoranza es la falta intensa de una persona concreta que está ausente ahora. El anhelo mira a un futuro deseado, la desazón es un malestar sin causa identificable y la melancolía no tiene objeto claro."
           }
         ]
       },
       {
-        "heading": "La resiliencia y la reconstrucción del yo",
+        "heading": "Definir con «no… sino»",
         "body": [
-          "Fíjate en la forma de las definiciones: «La resiliencia no consiste en no sufrir, sino en reorganizar la propia vida». Para corregir una idea equivocada y poner la buena en su lugar, el español usa «no… sino» (o «sino que» ante un verbo conjugado), nunca «no… pero». «Pero» añade una objeción; «sino» sustituye.",
-          "La resiliencia no consiste en la ausencia de sufrimiento ante la adversidad, sino en la capacidad de reorganizar la propia vida y el propio sentido de identidad después de haber atravesado un daño significativo. Una persona resiliente no sale indemne de la experiencia, sino transformada por ella, integrando la herida en una narrativa vital que le permite seguir adelante sin negarla.",
-          "El duelo, entendido en un sentido amplio que trasciende la pérdida de un ser querido, describe el proceso de reconocer y elaborar cualquier pérdida significativa: la de una relación, la de una etapa vital o la de una versión de uno mismo que ya no es posible sostener. Interrumpir ese proceso de manera prematura, negando la pérdida, suele generar consecuencias psicológicas más costosas a largo plazo.",
-          "La vulnerabilidad, lejos de ser meramente una debilidad que conviene ocultar, resulta a menudo la condición previa e indispensable para la conexión genuina con otra persona: quien nunca se permite mostrar sus propias inseguridades difícilmente puede construir vínculos que vayan más allá de la superficie. Reconocer esta paradoja, entre la vulnerabilidad como riesgo y la vulnerabilidad como puerta de entrada a la intimidad, forma parte central de la madurez emocional."
+          "Fíjate en la forma de las definiciones: «La resiliencia no consiste en no sufrir, sino en reorganizar la propia vida». Para corregir una idea equivocada y poner la buena en su lugar, el español usa «no… sino» (o «sino que» ante un verbo conjugado), nunca «no… pero». «Pero» añade una objeción; «sino» sustituye."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«El duelo no consiste en olvidar, ___ en aprender a convivir con la ausencia.»",
+            "options": [
+              "sino",
+              "pero",
+              "si no",
+              "sino que"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tras una negación, «sino» sustituye la idea rechazada (olvidar) por la correcta (aprender a convivir). «Pero» añadiría una objeción, «si no» es condicional (si + no) y «sino que» solo va delante de un verbo conjugado."
+          }
+        ]
+      },
+      {
+        "heading": "La resiliencia",
+        "body": [
+          "La resiliencia no consiste en la ausencia de sufrimiento ante la adversidad, sino en la capacidad de reorganizar la propia vida y el propio sentido de identidad después de haber atravesado un daño significativo. Una persona resiliente no sale indemne de la experiencia, sino transformada por ella, integrando la herida en una narrativa vital que le permite seguir adelante sin negarla."
         ],
         "examples": [
           {
@@ -18324,20 +22292,64 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "capacidad de reorganizar la propia vida y su sentido tras un daño significativo"
           },
           {
+            "es": "la sanación",
+            "en": "proceso de recuperación emocional tras una herida o un trauma"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué persona muestra resiliencia, según el texto?",
+            "options": [
+              "Tras perder su negocio, Raúl reconoce el golpe y reorganiza su vida en torno a un nuevo proyecto.",
+              "Raúl dice que perder su negocio no le afectó en absoluto.",
+              "Raúl no deja de hablar de lo injusto que fue todo y no hace nada más.",
+              "Raúl evita pensar en lo que pasó."
+            ],
+            "correctIndex": 0,
+            "explanation": "La resiliencia no es no sufrir, sino reorganizar la propia vida tras el daño, integrando la herida sin negarla. Decir que no le afectó o evitar pensar en ello es negar la herida."
+          }
+        ]
+      },
+      {
+        "heading": "El duelo",
+        "body": [
+          "El duelo, entendido en un sentido amplio que trasciende la pérdida de un ser querido, describe el proceso de reconocer y elaborar cualquier pérdida significativa: la de una relación, la de una etapa vital o la de una versión de uno mismo que ya no es posible sostener. Interrumpir ese proceso de manera prematura, negando la pérdida, suele generar consecuencias psicológicas más costosas a largo plazo."
+        ],
+        "examples": [
+          {
             "es": "el duelo",
             "en": "proceso de reconocer y elaborar cualquier pérdida significativa"
           },
           {
-            "es": "la vulnerabilidad",
-            "en": "condición de exponerse al riesgo emocional que, a la vez, posibilita la intimidad"
-          },
-          {
-            "es": "la sanación",
-            "en": "proceso de recuperación emocional tras una herida o un trauma"
-          },
-          {
             "es": "el trauma",
             "en": "herida psicológica duradera producida por una experiencia abrumadora"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En el sentido amplio del texto, ¿cuál de estas situaciones también exige un duelo?",
+            "options": [
+              "Jubilarse y dejar atrás la vida profesional.",
+              "Cambiar de marca de café.",
+              "Ganar un premio.",
+              "Ir de vacaciones."
+            ],
+            "correctIndex": 0,
+            "explanation": "El duelo, en sentido amplio, es elaborar cualquier pérdida significativa: una relación, una etapa vital o una versión de uno mismo. Jubilarse es dejar atrás una etapa; las demás opciones no suponen una pérdida importante."
+          }
+        ]
+      },
+      {
+        "heading": "La vulnerabilidad",
+        "body": [
+          "La vulnerabilidad, lejos de ser meramente una debilidad que conviene ocultar, resulta a menudo la condición previa e indispensable para la conexión genuina con otra persona: quien nunca se permite mostrar sus propias inseguridades difícilmente puede construir vínculos que vayan más allá de la superficie. Reconocer esta paradoja, entre la vulnerabilidad como riesgo y la vulnerabilidad como puerta de entrada a la intimidad, forma parte central de la madurez emocional."
+        ],
+        "examples": [
+          {
+            "es": "la vulnerabilidad",
+            "en": "condición de exponerse al riesgo emocional que, a la vez, posibilita la intimidad"
           },
           {
             "es": "la plenitud",
@@ -18356,18 +22368,6 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto sostiene que la vulnerabilidad, aunque implica un riesgo emocional, es a la vez la puerta de entrada indispensable para la intimidad genuina. El texto no la presenta solo como una debilidad que ocultar, la vincula directamente con la intimidad y no la limita a personas inmaduras."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "«El duelo no consiste en olvidar, ___ en aprender a convivir con la ausencia.»",
-            "options": [
-              "sino",
-              "pero",
-              "si no",
-              "sino que"
-            ],
-            "correctIndex": 0,
-            "explanation": "Tras una negación, «sino» sustituye la idea rechazada (olvidar) por la correcta (aprender a convivir). «Pero» añadiría una objeción, «si no» es condicional (si + no) y «sino que» solo va delante de un verbo conjugado."
           }
         ]
       }
@@ -18512,13 +22512,51 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): la ambivalencia",
         "body": [
           "Terapeuta: Me cuentas que sientes una gran admiración por tu hermana, pero también mencionas resentimiento. ¿Cómo convive eso dentro de ti?",
           "Paciente: No lo sé, es raro. A veces pienso que debería elegir un solo sentimiento, que no puedo sentir las dos cosas a la vez sin ser hipócrita.",
-          "Terapeuta: Eso que describes tiene un nombre: ambivalencia. No es hipocresía, es tolerar que dos sentimientos verdaderos coexistan.",
+          "Terapeuta: Eso que describes tiene un nombre: ambivalencia. No es hipocresía, es tolerar que dos sentimientos verdaderos coexistan."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué cree la paciente que debería elegir un solo sentimiento hacia su hermana?",
+            "options": [
+              "Porque piensa que sentir admiración y resentimiento a la vez la convierte en hipócrita.",
+              "Porque ya no admira a su hermana.",
+              "Porque el terapeuta se lo ha pedido.",
+              "Porque el resentimiento ha desaparecido."
+            ],
+            "correctIndex": 0,
+            "explanation": "La paciente dice que no puede «sentir las dos cosas a la vez sin ser hipócrita». El terapeuta le responde que eso es ambivalencia: tolerar que dos sentimientos verdaderos coexistan no es hipocresía."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): ¿melancolía o duelo?",
+        "body": [
           "Paciente: Últimamente también noto una tristeza difusa, que no logro asociar con nada concreto que haya perdido.",
-          "Terapeuta: Puede tratarse de melancolía, más que de un duelo por algo específico. ¿Y la nostalgia por tu infancia, sigue apareciendo?",
+          "Terapeuta: Puede tratarse de melancolía, más que de un duelo por algo específico. ¿Y la nostalgia por tu infancia, sigue apareciendo?"
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué el terapeuta habla de melancolía y no de duelo?",
+            "options": [
+              "Porque la tristeza de la paciente es difusa y no se asocia con una pérdida concreta.",
+              "Porque la paciente acaba de perder a un ser querido.",
+              "Porque la tristeza mira hacia un futuro deseado.",
+              "Porque la paciente está eufórica."
+            ],
+            "correctIndex": 0,
+            "explanation": "La paciente describe «una tristeza difusa, que no logro asociar con nada concreto que haya perdido»: eso es melancolía. El duelo elabora una pérdida concreta, y mirar hacia un futuro deseado sería anhelo."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (3): la nostalgia que embellece",
+        "body": [
           "Paciente: Constantemente, aunque sé que idealizo esa época. Racionalmente sé que no todo fue tan idílico como lo recuerdo.",
           "Terapeuta: Ese embellecimiento selectivo es típico de la nostalgia. Lo importante es no usarlo para devaluar injustamente tu presente.",
           "Paciente: Supongo que reconocer todo esto, en lugar de reprimirlo, ya es un paso hacia cierta resiliencia."
@@ -18684,6 +22722,31 @@ const C2_BASE_LESSONS: Lesson[] = [
             "es": "la realización personal",
             "en": "sensación de haber alcanzado un desarrollo pleno y satisfactorio como persona"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada término con su definición.",
+            "pairs": [
+              {
+                "left": "la rumiación",
+                "right": "dar vueltas una y otra vez a pensamientos negativos"
+              },
+              {
+                "left": "la somatización",
+                "right": "expresar un malestar psíquico con síntomas físicos"
+              },
+              {
+                "left": "el hastío",
+                "right": "cansancio y aburrimiento ante algo repetitivo"
+              },
+              {
+                "left": "la entereza",
+                "right": "fortaleza para afrontar la adversidad sin derrumbarse"
+              }
+            ],
+            "explanation": "Rumiación (de rumiar): pensar en bucle. Somatización (de somatizar): el malestar psíquico sale en el cuerpo. Hastío: cansancio por lo repetitivo o vacío. Entereza: fortaleza interior ante la adversidad."
+          }
         ]
       }
     ],
@@ -18802,54 +22865,15 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: juzgar la obra con sus propias reglas",
         "body": [
-          "La primera regla de la crítica es juzgar una obra con las reglas que ella misma establece. Por eso «verosímil» no significa «realista»: un dragón es verosímil si el mundo narrativo lo admite desde el principio; lo inverosímil es lo que rompe la lógica interna, como un personaje que cambia sin preparación o un desenlace que depende de una casualidad. El crítico argumenta, además, concediendo antes de juzgar, y para eso el español tiene una concesiva muy propia del registro: «por (muy) + adjetivo + que + subjuntivo». «Por sorprendente que resulte, el final parece inevitable»: el subjuntivo indica que la sorpresa no invalida el juicio.",
-          "Una trama sólida no se mide por la cantidad de peripecias que acumula, sino por la coherencia interna con la que cada acontecimiento se deriva del anterior, de modo que el desenlace, por sorprendente que resulte, parezca en retrospectiva casi inevitable. Cuando una trama depende de una casualidad excesiva para resolverse, el lector o el espectador percibe esa artificialidad como una traición al pacto narrativo.",
-          "La verosimilitud no exige que una historia sea realista en sentido literal, sino que respete de manera consistente las reglas internas que ella misma ha establecido, incluso cuando esas reglas incluyan elementos fantásticos. Un personaje puede volar sobre una ciudad y resultar perfectamente verosímil si el mundo narrativo lo permite desde el principio; lo inverosímil es que ese mismo personaje actúe de pronto en contra de su propia lógica interna sin ninguna justificación.",
-          "El personaje bien construido evoluciona a lo largo de la obra sin traicionar el núcleo de su carácter: sus decisiones pueden sorprender, pero, examinadas con atención, resultan coherentes con los rasgos y las motivaciones que el relato ha ido sembrando con cuidado. Un cambio de conducta impuesto únicamente por las necesidades de la trama, sin una preparación previa suficiente, suele percibirse como un defecto de construcción."
+          "La primera regla de la crítica es juzgar una obra con las reglas que ella misma establece. Por eso «verosímil» no significa «realista»: un dragón es verosímil si el mundo narrativo lo admite desde el principio; lo inverosímil es lo que rompe la lógica interna, como un personaje que cambia sin preparación o un desenlace que depende de una casualidad."
         ],
         "examples": [
           {
-            "es": "Por fantástica que sea la historia, resulta verosímil.",
-            "en": "However fantastical the story may be, it's plausible. (verosímil = coherente con sus reglas; concesiva con subjuntivo)"
-          },
-          {
             "es": "El cambio del protagonista carece de preparación.",
             "en": "The protagonist's change lacks groundwork. (carecer de: lo que falla es la lógica interna)"
-          },
-          {
-            "es": "la trama",
-            "en": "sucesión organizada de acontecimientos que compone la acción de una obra narrativa"
-          },
-          {
-            "es": "la verosimilitud",
-            "en": "cualidad de una obra que respeta de manera consistente las reglas de su propio mundo"
-          },
-          {
-            "es": "el desenlace",
-            "en": "resolución final de los conflictos planteados a lo largo de una obra narrativa"
-          },
-          {
-            "es": "el personaje",
-            "en": "figura que interviene en la acción de una obra y se rige por su propia lógica interna"
-          },
-          {
-            "es": "la motivación",
-            "en": "conjunto de razones internas que explican la conducta de un personaje"
           }
         ],
         "checkpoint": [
-          {
-            "type": "multiple-choice",
-            "question": "¿Qué exige la verosimilitud según el texto?",
-            "options": [
-              "Que la historia sea realista en un sentido literal y sin elementos fantásticos",
-              "Que la obra respete de manera consistente las reglas internas que ella misma ha establecido",
-              "Que la trama nunca incluya sorpresas de ningún tipo",
-              "Que los personajes nunca cambien a lo largo de la obra"
-            ],
-            "correctIndex": 1,
-            "explanation": "La verosimilitud, según el texto, es la coherencia interna respecto a las propias reglas del mundo narrativo, no un requisito de realismo literal. No exige realismo literal ni prohíbe lo fantástico, las sorpresas o la evolución de los personajes."
-          },
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. En una novela de dragones, el héroe es cobarde durante trescientas páginas y, de pronto, sin motivo alguno, se lanza a salvar el reino. ¿Qué le reprocharía un crítico?",
@@ -18865,11 +22889,120 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El simbolismo y la metáfora en la narrativa",
+        "heading": "Conceder antes de juzgar: «por… que» + subjuntivo",
         "body": [
-          "El simbolismo permite que un objeto, un color o un gesto cargue con un significado que trasciende su función literal dentro de la historia, condensando en una sola imagen una idea que, expresada directamente, resultaría torpe o excesivamente explícita. Un buen crítico distingue entre un símbolo que enriquece la obra con sutileza y uno que se impone de manera tan evidente que roza la alegoría más esquemática.",
-          "La metáfora narrativa, a diferencia del recurso puramente retórico, puede extenderse a lo largo de toda una obra y organizar su estructura profunda: una casa que se deteriora puede funcionar como metáfora sostenida del colapso de una familia, de modo que cada detalle arquitectónico adquiere una resonancia adicional que el lector atento va descubriendo progresivamente.",
-          "La intertextualidad, entendida como el diálogo consciente que una obra establece con otras obras previas, mediante alusiones, homenajes o incluso paródicas subversiones, añade una capa de significado accesible sobre todo a quien reconoce esas referencias, sin que su desconocimiento impida necesariamente disfrutar de la obra en un nivel más inmediato."
+          "El crítico argumenta, además, concediendo antes de juzgar, y para eso el español tiene una concesiva muy propia del registro: «por (muy) + adjetivo + que + subjuntivo». «Por sorprendente que resulte, el final parece inevitable»: el subjuntivo indica que la sorpresa no invalida el juicio."
+        ],
+        "examples": [
+          {
+            "es": "Por fantástica que sea la historia, resulta verosímil.",
+            "en": "However fantastical the story may be, it's plausible. (verosímil = coherente con sus reglas; concesiva con subjuntivo)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la concesiva de la reseña.",
+            "sentence": "Por muy previsible que ___ el argumento, la película consigue emocionar. (ser)",
+            "answer": "sea",
+            "altAnswers": [
+              "resulte"
+            ],
+            "explanation": "«Por (muy) + adjetivo + que» va con subjuntivo (sea): concede algo que no invalida el juicio. El indicativo (es) no cabe en esta concesiva.",
+            "hint": "presente de subjuntivo"
+          }
+        ]
+      },
+      {
+        "heading": "Una trama sólida",
+        "body": [
+          "Una trama sólida no se mide por la cantidad de peripecias que acumula, sino por la coherencia interna con la que cada acontecimiento se deriva del anterior, de modo que el desenlace, por sorprendente que resulte, parezca en retrospectiva casi inevitable. Cuando una trama depende de una casualidad excesiva para resolverse, el lector o el espectador percibe esa artificialidad como una traición al pacto narrativo."
+        ],
+        "examples": [
+          {
+            "es": "la trama",
+            "en": "sucesión organizada de acontecimientos que compone la acción de una obra narrativa"
+          },
+          {
+            "es": "el desenlace",
+            "en": "resolución final de los conflictos planteados a lo largo de una obra narrativa"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué hace sólida una trama?",
+            "options": [
+              "Que cada acontecimiento se derive del anterior y el desenlace parezca, en retrospectiva, casi inevitable.",
+              "Que acumule el mayor número posible de peripecias.",
+              "Que se resuelva con una casualidad sorprendente.",
+              "Que el lector adivine el final desde la primera página."
+            ],
+            "correctIndex": 0,
+            "explanation": "Una trama sólida se mide por su coherencia interna, no por la cantidad de peripecias. Resolverla con una casualidad excesiva se percibe como una traición al pacto narrativo."
+          }
+        ]
+      },
+      {
+        "heading": "La verosimilitud",
+        "body": [
+          "La verosimilitud no exige que una historia sea realista en sentido literal, sino que respete de manera consistente las reglas internas que ella misma ha establecido, incluso cuando esas reglas incluyan elementos fantásticos. Un personaje puede volar sobre una ciudad y resultar perfectamente verosímil si el mundo narrativo lo permite desde el principio; lo inverosímil es que ese mismo personaje actúe de pronto en contra de su propia lógica interna sin ninguna justificación."
+        ],
+        "examples": [
+          {
+            "es": "la verosimilitud",
+            "en": "cualidad de una obra que respeta de manera consistente las reglas de su propio mundo"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué exige la verosimilitud según el texto?",
+            "options": [
+              "Que la historia sea realista en un sentido literal y sin elementos fantásticos",
+              "Que la obra respete de manera consistente las reglas internas que ella misma ha establecido",
+              "Que la trama nunca incluya sorpresas de ningún tipo",
+              "Que los personajes nunca cambien a lo largo de la obra"
+            ],
+            "correctIndex": 1,
+            "explanation": "La verosimilitud, según el texto, es la coherencia interna respecto a las propias reglas del mundo narrativo, no un requisito de realismo literal. No exige realismo literal ni prohíbe lo fantástico, las sorpresas o la evolución de los personajes."
+          }
+        ]
+      },
+      {
+        "heading": "El personaje bien construido",
+        "body": [
+          "El personaje bien construido evoluciona a lo largo de la obra sin traicionar el núcleo de su carácter: sus decisiones pueden sorprender, pero, examinadas con atención, resultan coherentes con los rasgos y las motivaciones que el relato ha ido sembrando con cuidado. Un cambio de conducta impuesto únicamente por las necesidades de la trama, sin una preparación previa suficiente, suele percibirse como un defecto de construcción."
+        ],
+        "examples": [
+          {
+            "es": "el personaje",
+            "en": "figura que interviene en la acción de una obra y se rige por su propia lógica interna"
+          },
+          {
+            "es": "la motivación",
+            "en": "conjunto de razones internas que explican la conducta de un personaje"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué cambio de un personaje se percibiría como un defecto de construcción?",
+            "options": [
+              "Una madre siempre prudente arriesga de pronto su vida por un desconocido, solo porque la trama lo necesita.",
+              "Un joven tímido, al que el relato ha mostrado ensayando a solas, acaba hablando en público.",
+              "Un ladrón que roba por su familia devuelve el dinero cuando ve sufrir a otra familia.",
+              "Una científica obsesiva repite un experimento hasta el agotamiento."
+            ],
+            "correctIndex": 0,
+            "explanation": "El personaje puede evolucionar y sorprender, pero sin traicionar el núcleo de su carácter: el cambio debe estar preparado por rasgos y motivaciones sembrados antes. Un giro impuesto solo por la trama, sin preparación, es un defecto."
+          }
+        ]
+      },
+      {
+        "heading": "El simbolismo",
+        "body": [
+          "El simbolismo permite que un objeto, un color o un gesto cargue con un significado que trasciende su función literal dentro de la historia, condensando en una sola imagen una idea que, expresada directamente, resultaría torpe o excesivamente explícita. Un buen crítico distingue entre un símbolo que enriquece la obra con sutileza y uno que se impone de manera tan evidente que roza la alegoría más esquemática."
         ],
         "examples": [
           {
@@ -18877,16 +23010,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "uso de objetos, colores o gestos que cargan con un significado más allá de su función literal"
           },
           {
-            "es": "la metáfora",
-            "en": "recurso que traslada el sentido de una expresión a otro campo de significado distinto"
-          },
-          {
             "es": "la alegoría",
             "en": "representación de una idea abstracta mediante una narración de sentido más esquemático y explícito"
-          },
-          {
-            "es": "la intertextualidad",
-            "en": "diálogo consciente que una obra establece con otras obras previas"
           },
           {
             "es": "la sutileza",
@@ -18894,14 +23019,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           }
         ],
         "checkpoint": [
-          {
-            "type": "fill-blank",
-            "prompt": "Completa la frase con el término adecuado.",
-            "sentence": "El ___ permite que un objeto cargue con un significado que trasciende su función literal.",
-            "answer": "simbolismo",
-            "explanation": "El simbolismo es el recurso que dota a un objeto, un color o un gesto de un significado que va más allá de lo literal.",
-            "hint": "Es el recurso que dota a un objeto de un significado adicional."
-          },
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. En una película sobre el duelo, un reloj parado aparece discretamente en tres escenas, sin que nadie lo comente. ¿Cómo lo describiría un crítico?",
@@ -18913,6 +23030,66 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "El reloj carga con un significado (el tiempo detenido por la pérdida) sin imponerlo: es un símbolo sutil. Sería alegoría esquemática si el sentido se impusiera de forma evidente, por ejemplo con un personaje llamado «Tiempo»; la intertextualidad exigiría aludir a otra obra."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con el término adecuado.",
+            "sentence": "El ___ permite que un objeto cargue con un significado que trasciende su función literal.",
+            "answer": "simbolismo",
+            "explanation": "El simbolismo es el recurso que dota a un objeto, un color o un gesto de un significado que va más allá de lo literal.",
+            "hint": "Es el recurso que dota a un objeto de un significado adicional."
+          }
+        ]
+      },
+      {
+        "heading": "La metáfora sostenida",
+        "body": [
+          "La metáfora narrativa, a diferencia del recurso puramente retórico, puede extenderse a lo largo de toda una obra y organizar su estructura profunda: una casa que se deteriora puede funcionar como metáfora sostenida del colapso de una familia, de modo que cada detalle arquitectónico adquiere una resonancia adicional que el lector atento va descubriendo progresivamente."
+        ],
+        "examples": [
+          {
+            "es": "la metáfora",
+            "en": "recurso que traslada el sentido de una expresión a otro campo de significado distinto"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En una novela, el jardín de una familia se va secando capítulo a capítulo mientras el matrimonio se rompe. ¿Qué recurso es?",
+            "options": [
+              "una metáfora sostenida",
+              "un recurso puramente retórico de una sola frase",
+              "un caso de intertextualidad",
+              "un deus ex machina"
+            ],
+            "correctIndex": 0,
+            "explanation": "La metáfora narrativa puede extenderse a toda la obra y organizar su estructura profunda, como la casa que se deteriora del texto: el jardín que se seca acompaña el colapso del matrimonio. No es un adorno aislado ni una alusión a otra obra."
+          }
+        ]
+      },
+      {
+        "heading": "La intertextualidad",
+        "body": [
+          "La intertextualidad, entendida como el diálogo consciente que una obra establece con otras obras previas, mediante alusiones, homenajes o incluso paródicas subversiones, añade una capa de significado accesible sobre todo a quien reconoce esas referencias, sin que su desconocimiento impida necesariamente disfrutar de la obra en un nivel más inmediato."
+        ],
+        "examples": [
+          {
+            "es": "la intertextualidad",
+            "en": "diálogo consciente que una obra establece con otras obras previas"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una película abre con una escena de una ducha calcada de «Psicosis», de Hitchcock. ¿Qué se puede decir de este recurso?",
+            "options": [
+              "Es intertextualidad: enriquece la obra para quien reconoce la referencia, sin impedir que los demás la disfruten.",
+              "Es un plagio que arruina la película.",
+              "Solo la entiende quien ha visto «Psicosis».",
+              "Es una alegoría esquemática."
+            ],
+            "correctIndex": 0,
+            "explanation": "La intertextualidad es el diálogo consciente con obras previas (alusiones, homenajes, parodias). Añade una capa de significado para quien reconoce la referencia, pero su desconocimiento no impide disfrutar la obra en un nivel inmediato."
           }
         ]
       }
@@ -19019,10 +23196,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: un recurso vale por lo que hace, no por lo que luce",
         "body": [
-          "En cine y en pintura el crítico separa forma y función. Un plano bellísimo o una pincelada virtuosa no son méritos en sí mismos: lo son si están al servicio del sentido de la obra. Por eso el vocabulario de la crítica es casi siempre relacional: la fotografía «refuerza» o «contradice» el guion, la composición «guía» la mirada, la paleta «sugiere» un estado. Y para describir el efecto en el espectador sin hablar de uno mismo, la crítica prefiere el «se» impersonal: «se percibe», «se intuye», «se echa en falta».",
-          "La puesta en escena engloba todo lo que el director dispone deliberadamente frente a la cámara: la posición de los actores, la iluminación, el vestuario y la ambientación, decisiones que rara vez son casuales y que un crítico atento sabe leer como parte integral del sentido de la película, no como un mero decorado accesorio a la trama.",
-          "La fotografía cinematográfica, con su elección de encuadres, movimientos de cámara y paletas cromáticas, construye un lenguaje visual propio que puede reforzar o incluso contradecir deliberadamente lo que el guion narra en el nivel puramente verbal. Un crítico riguroso distingue entre una fotografía vistosa por sí misma y una fotografía que efectivamente sirve al sentido más profundo de la obra.",
-          "La actuación se juzga no solo por su verosimilitud emocional, sino por su capacidad de sostener el ritmo narrativo que la película exige: una interpretación que resulta magnífica en un primer plano íntimo puede resultar desproporcionada en una escena que requiere mayor contención, y calibrar ese equilibrio forma parte esencial del oficio actoral."
+          "En cine y en pintura el crítico separa forma y función. Un plano bellísimo o una pincelada virtuosa no son méritos en sí mismos: lo son si están al servicio del sentido de la obra. Por eso el vocabulario de la crítica es casi siempre relacional: la fotografía «refuerza» o «contradice» el guion, la composición «guía» la mirada, la paleta «sugiere» un estado. Y para describir el efecto en el espectador sin hablar de uno mismo, la crítica prefiere el «se» impersonal: «se percibe», «se intuye», «se echa en falta»."
         ],
         "examples": [
           {
@@ -19032,45 +23206,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "En cada encuadre se percibe el aislamiento de la protagonista.",
             "en": "The protagonist's isolation can be felt in every shot. (se impersonal: el efecto, no el crítico)"
-          },
-          {
-            "es": "la puesta en escena",
-            "en": "conjunto de decisiones visuales y espaciales que el director dispone frente a la cámara"
-          },
-          {
-            "es": "la fotografía cinematográfica",
-            "en": "arte de componer la imagen mediante el encuadre, la luz y el movimiento de cámara"
-          },
-          {
-            "es": "el guion",
-            "en": "texto que estructura los diálogos y las acciones de una obra audiovisual"
-          },
-          {
-            "es": "la actuación",
-            "en": "interpretación que un actor realiza de un personaje ante la cámara o en escena"
-          },
-          {
-            "es": "el ritmo narrativo",
-            "en": "cadencia con la que una obra despliega su información y sus tensiones"
-          },
-          {
-            "es": "la ambientación",
-            "en": "conjunto de elementos que sitúan una obra en un tiempo y un espacio determinados"
           }
         ],
         "checkpoint": [
-          {
-            "type": "multiple-choice",
-            "question": "Según el texto, ¿qué distingue a un crítico riguroso al evaluar la fotografía cinematográfica?",
-            "options": [
-              "Valorar únicamente si los colores resultan vistosos",
-              "Distinguir entre una fotografía vistosa por sí misma y una que efectivamente sirve al sentido de la obra",
-              "Ignorar por completo la relación entre la imagen y el guion",
-              "Juzgar la fotografía sin considerar el resto de la película"
-            ],
-            "correctIndex": 1,
-            "explanation": "El texto señala que un crítico riguroso evalúa si la fotografía sirve realmente al sentido de la obra, más allá de su atractivo visual inmediato. No se limita a valorar colores vistosos ni juzga la fotografía aislada del guion y del resto de la película."
-          },
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. ¿Qué frase es una crítica de función y no solo de forma?",
@@ -19086,11 +23224,99 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La crítica de arte: composición, estética y originalidad",
+        "heading": "La puesta en escena",
         "body": [
-          "La composición de una obra visual organiza los elementos dentro del lienzo de manera que guíen la mirada del espectador hacia ciertos puntos de tensión o de reposo; un crítico de arte competente analiza cómo esa organización formal, más allá del tema representado, produce efectos emocionales concretos mediante decisiones aparentemente técnicas como el equilibrio de masas o la dirección de las líneas.",
-          "La pincelada y la paleta de colores constituyen la firma más personal de quien pinta: una pincelada suelta y visible puede transmitir espontaneidad o urgencia emocional, mientras que una superficie pulida y sin rastro visible del gesto puede sugerir un control casi obsesivo. Ninguna de las dos opciones es superior en abstracto; su acierto depende de si sirve a la intención de la obra.",
-          "La originalidad, con frecuencia sobrevalorada como criterio único de calidad, debe sopesarse junto a la profundidad temática y la ejecución técnica: una obra puede resultar formalmente novedosa y, sin embargo, superficial en lo que efectivamente comunica, mientras que otra puede apoyarse en recursos ya conocidos y aun así alcanzar una hondura genuina. Distinguir entre novedad y mérito real es, quizás, la tarea más delicada de la crítica de arte."
+          "La puesta en escena engloba todo lo que el director dispone deliberadamente frente a la cámara: la posición de los actores, la iluminación, el vestuario y la ambientación, decisiones que rara vez son casuales y que un crítico atento sabe leer como parte integral del sentido de la película, no como un mero decorado accesorio a la trama."
+        ],
+        "examples": [
+          {
+            "es": "la puesta en escena",
+            "en": "conjunto de decisiones visuales y espaciales que el director dispone frente a la cámara"
+          },
+          {
+            "es": "la ambientación",
+            "en": "conjunto de elementos que sitúan una obra en un tiempo y un espacio determinados"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué forma parte de la puesta en escena, según el texto?",
+            "options": [
+              "La iluminación y el vestuario de una escena.",
+              "El precio de las entradas.",
+              "Las críticas que recibe la película.",
+              "La campaña publicitaria."
+            ],
+            "correctIndex": 0,
+            "explanation": "La puesta en escena engloba lo que el director dispone deliberadamente frente a la cámara: posición de los actores, iluminación, vestuario y ambientación. Lo que ocurre fuera de la película (precio, críticas, publicidad) no forma parte de ella."
+          }
+        ]
+      },
+      {
+        "heading": "La fotografía",
+        "body": [
+          "La fotografía cinematográfica, con su elección de encuadres, movimientos de cámara y paletas cromáticas, construye un lenguaje visual propio que puede reforzar o incluso contradecir deliberadamente lo que el guion narra en el nivel puramente verbal. Un crítico riguroso distingue entre una fotografía vistosa por sí misma y una fotografía que efectivamente sirve al sentido más profundo de la obra."
+        ],
+        "examples": [
+          {
+            "es": "la fotografía cinematográfica",
+            "en": "arte de componer la imagen mediante el encuadre, la luz y el movimiento de cámara"
+          },
+          {
+            "es": "el guion",
+            "en": "texto que estructura los diálogos y las acciones de una obra audiovisual"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué distingue a un crítico riguroso al evaluar la fotografía cinematográfica?",
+            "options": [
+              "Valorar únicamente si los colores resultan vistosos",
+              "Distinguir entre una fotografía vistosa por sí misma y una que efectivamente sirve al sentido de la obra",
+              "Ignorar por completo la relación entre la imagen y el guion",
+              "Juzgar la fotografía sin considerar el resto de la película"
+            ],
+            "correctIndex": 1,
+            "explanation": "El texto señala que un crítico riguroso evalúa si la fotografía sirve realmente al sentido de la obra, más allá de su atractivo visual inmediato. No se limita a valorar colores vistosos ni juzga la fotografía aislada del guion y del resto de la película."
+          }
+        ]
+      },
+      {
+        "heading": "La actuación",
+        "body": [
+          "La actuación se juzga no solo por su verosimilitud emocional, sino por su capacidad de sostener el ritmo narrativo que la película exige: una interpretación que resulta magnífica en un primer plano íntimo puede resultar desproporcionada en una escena que requiere mayor contención, y calibrar ese equilibrio forma parte esencial del oficio actoral."
+        ],
+        "examples": [
+          {
+            "es": "la actuación",
+            "en": "interpretación que un actor realiza de un personaje ante la cámara o en escena"
+          },
+          {
+            "es": "el ritmo narrativo",
+            "en": "cadencia con la que una obra despliega su información y sus tensiones"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un actor grita y llora con gran intensidad en una escena que pedía contención. ¿Qué le reprocharía un crítico?",
+            "options": [
+              "Una interpretación desproporcionada para el ritmo que la escena exige.",
+              "Falta de verosimilitud del guion.",
+              "Una fotografía demasiado vistosa.",
+              "Un exceso de intertextualidad."
+            ],
+            "correctIndex": 0,
+            "explanation": "La actuación se juzga también por su capacidad de sostener el ritmo narrativo: una interpretación magnífica en un primer plano íntimo puede resultar desproporcionada donde se requiere contención. Calibrar ese equilibrio es parte del oficio."
+          }
+        ]
+      },
+      {
+        "heading": "La composición",
+        "body": [
+          "La composición de una obra visual organiza los elementos dentro del lienzo de manera que guíen la mirada del espectador hacia ciertos puntos de tensión o de reposo; un crítico de arte competente analiza cómo esa organización formal, más allá del tema representado, produce efectos emocionales concretos mediante decisiones aparentemente técnicas como el equilibrio de masas o la dirección de las líneas."
         ],
         "examples": [
           {
@@ -19100,7 +23326,29 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "el lienzo",
             "en": "superficie sobre la que se ejecuta habitualmente una obra pictórica"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En un cuadro, todas las líneas de la escena convergen en una pequeña figura del fondo. ¿Qué analiza un crítico al comentarlo?",
+            "options": [
+              "La composición: cómo la organización formal guía la mirada del espectador.",
+              "Solo el tema representado.",
+              "El precio del lienzo.",
+              "La biografía del pintor."
+            ],
+            "correctIndex": 0,
+            "explanation": "La composición organiza los elementos del lienzo para guiar la mirada hacia puntos de tensión o reposo; la dirección de las líneas es una de esas decisiones aparentemente técnicas. El crítico va más allá del tema representado."
+          }
+        ]
+      },
+      {
+        "heading": "La pincelada y la paleta",
+        "body": [
+          "La pincelada y la paleta de colores constituyen la firma más personal de quien pinta: una pincelada suelta y visible puede transmitir espontaneidad o urgencia emocional, mientras que una superficie pulida y sin rastro visible del gesto puede sugerir un control casi obsesivo. Ninguna de las dos opciones es superior en abstracto; su acierto depende de si sirve a la intención de la obra."
+        ],
+        "examples": [
           {
             "es": "la pincelada",
             "en": "marca que deja el pincel sobre la superficie pintada"
@@ -19108,7 +23356,29 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la paleta de colores",
             "en": "conjunto de colores que un artista emplea de manera característica en su obra"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la idea. Un cuadro de pincelada suelta y visible retrata a una multitud huyendo de un incendio. ¿Qué comentario es más acertado?",
+            "options": [
+              "La pincelada suelta transmite la urgencia de la huida.",
+              "La pincelada suelta es un defecto técnico.",
+              "La pincelada suelta siempre es mejor que la pulida.",
+              "La pincelada no tiene relación con el tema."
+            ],
+            "correctIndex": 0,
+            "explanation": "La pincelada suelta sugiere espontaneidad o urgencia, y aquí sirve al tema (la huida). Ninguna técnica es superior en abstracto: decir que es un defecto o que siempre es mejor juzga la forma sin mirar la función."
+          }
+        ]
+      },
+      {
+        "heading": "La originalidad",
+        "body": [
+          "La originalidad, con frecuencia sobrevalorada como criterio único de calidad, debe sopesarse junto a la profundidad temática y la ejecución técnica: una obra puede resultar formalmente novedosa y, sin embargo, superficial en lo que efectivamente comunica, mientras que otra puede apoyarse en recursos ya conocidos y aun así alcanzar una hondura genuina. Distinguir entre novedad y mérito real es, quizás, la tarea más delicada de la crítica de arte."
+        ],
+        "examples": [
           {
             "es": "la profundidad temática",
             "en": "grado de hondura y significado que una obra alcanza más allá de su superficie formal"
@@ -19133,18 +23403,6 @@ const C2_BASE_LESSONS: Lesson[] = [
               2
             ],
             "explanation": "El texto advierte contra sobrevalorar la originalidad como criterio único y señala que puede coexistir con la superficialidad, así como que obras con recursos conocidos sí pueden alcanzar una hondura genuina. Por eso la originalidad no es el único criterio válido, y una obra con recursos conocidos sí puede alcanzar hondura."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Aplica la idea. Un cuadro de pincelada suelta y visible retrata a una multitud huyendo de un incendio. ¿Qué comentario es más acertado?",
-            "options": [
-              "La pincelada suelta transmite la urgencia de la huida.",
-              "La pincelada suelta es un defecto técnico.",
-              "La pincelada suelta siempre es mejor que la pulida.",
-              "La pincelada no tiene relación con el tema."
-            ],
-            "correctIndex": 0,
-            "explanation": "La pincelada suelta sugiere espontaneidad o urgencia, y aquí sirve al tema (la huida). Ninguna técnica es superior en abstracto: decir que es un defecto o que siempre es mejor juzga la forma sin mirar la función."
           }
         ]
       }
@@ -19294,16 +23552,32 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): ¿contención o frialdad?",
         "body": [
           "Crítico en radio: La última película de la directora sorprende por su puesta en escena, casi teatral en su contención, pero no todos coincidirán conmigo.",
           "Invitado: A mí me pareció que esa contención rozaba la frialdad. Echaba en falta algo de riesgo en la fotografía.",
-          "Crítico en radio: Entiendo la objeción, aunque yo leo esa frialdad como una decisión deliberada, coherente con la trama de aislamiento que narra el guion.",
+          "Crítico en radio: Entiendo la objeción, aunque yo leo esa frialdad como una decisión deliberada, coherente con la trama de aislamiento que narra el guion."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cómo responde el crítico a la objeción de que la película es fría?",
+            "options": [
+              "Concede la objeción y propone su lectura: esa frialdad es deliberada y coherente con la trama.",
+              "Le da toda la razón al invitado.",
+              "Dice que la fotografía es arriesgada.",
+              "Cambia de tema sin responder."
+            ],
+            "correctIndex": 0,
+            "explanation": "El crítico usa la discrepancia elegante: concede («Entiendo la objeción») y luego introduce su lectura con un conector de contraste («aunque yo leo esa frialdad como una decisión deliberada»)."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): el desenlace",
+        "body": [
           "Invitado: Puede ser, pero el desenlace me pareció forzado, como si dependiera de una casualidad demasiado conveniente.",
-          "Crítico en radio: Ahí discrepo por completo. A mí me resultó perfectamente verosímil dentro de la lógica que la propia película había construido desde el inicio.",
-          "Invitado: Lo que sí es innegable es el simbolismo del espejo roto que aparece en tres escenas distintas.",
-          "Crítico en radio: Un recurso sutil, sin duda, aunque roza la alegoría hacia el final, cuando el mensaje se vuelve algo más explícito de lo necesario.",
-          "Invitado: Con todo, es una obra que merece verse y discutirse, más allá de nuestras discrepancias."
+          "Crítico en radio: Ahí discrepo por completo. A mí me resultó perfectamente verosímil dentro de la lógica que la propia película había construido desde el inicio."
         ],
         "checkpoint": [
           {
@@ -19317,6 +23591,28 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«Ahí discrepo por completo» marca una discrepancia total en un punto concreto. «Entiendo la objeción» y «Puede ser» son concesiones, y «Con todo» cierra recuperando el acuerdo."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (3): el símbolo y el cierre",
+        "body": [
+          "Invitado: Lo que sí es innegable es el simbolismo del espejo roto que aparece en tres escenas distintas.",
+          "Crítico en radio: Un recurso sutil, sin duda, aunque roza la alegoría hacia el final, cuando el mensaje se vuelve algo más explícito de lo necesario.",
+          "Invitado: Con todo, es una obra que merece verse y discutirse, más allá de nuestras discrepancias."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué matiz pone el crítico al simbolismo del espejo roto?",
+            "options": [
+              "Que es sutil, pero roza la alegoría hacia el final, cuando se vuelve demasiado explícito.",
+              "Que es una casualidad inverosímil.",
+              "Que es un ejemplo de intertextualidad.",
+              "Que no aparece en ninguna escena importante."
+            ],
+            "correctIndex": 0,
+            "explanation": "El crítico lo llama «un recurso sutil, sin duda, aunque roza la alegoría hacia el final»: un símbolo que se impone de forma demasiado evidente se acerca a la alegoría esquemática. Luego «Con todo» cierra recuperando el acuerdo."
           }
         ]
       },
@@ -19466,6 +23762,31 @@ const C2_BASE_LESSONS: Lesson[] = [
             "es": "la puesta en escena",
             "en": "la manera en que se lleva una obra al escenario o a la pantalla (en cine se usa también el francés «mise en scène»)"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada término con su definición.",
+            "pairs": [
+              {
+                "left": "el trampantojo",
+                "right": "pintura que engaña al ojo y parece real"
+              },
+              {
+                "left": "el plano secuencia",
+                "right": "escena rodada en una sola toma, sin cortes"
+              },
+              {
+                "left": "el fuera de campo",
+                "right": "lo que no se ve en el encuadre pero forma parte de la escena"
+              },
+              {
+                "left": "el ditirambo",
+                "right": "elogio exagerado y entusiasta"
+              }
+            ],
+            "explanation": "Trampantojo: «trampa ante el ojo», lo pintado parece real. Plano secuencia: una sola toma sin cortes. Fuera de campo: lo que queda fuera del encuadre. Ditirambo: elogio desmedido."
+          }
         ]
       }
     ],
@@ -19579,12 +23900,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "La idea: la economía habla de tendencias, no de certezas",
+        "heading": "La idea: tendencias, no certezas",
         "body": [
-          "El lenguaje económico describe relaciones que suelen cumplirse, no leyes absolutas: por eso abundan «tender a», «soler» y las proporcionales con «cuanto más…, (tanto) más / menos…». «Cuanto más escasea un bien, más sube su precio» expresa a la vez la causa y la intensidad. Ojo a la concordancia: ante un sustantivo, «cuanto» concuerda con él (cuanta más competencia, cuantos más productores, cuantas más empresas). La elasticidad aplica la misma idea: mide cuánto reacciona el consumo cuando cambia el precio. Si apenas reacciona (el pan, la gasolina), la demanda es inelástica; si reacciona mucho (un crucero, un reloj de lujo), es elástica.",
-          "La oferta y la demanda constituyen el mecanismo básico mediante el cual un mercado libre tiende a fijar precios: cuando la oferta de un bien supera a la demanda existente, los precios tienden a bajar hasta que se alcanza un nuevo punto de equilibrio; cuando ocurre lo contrario, la escasez relativa empuja los precios al alza. Este esquema, aunque elegante en su simplicidad, rara vez opera de manera tan limpia en mercados reales atravesados por regulaciones y asimetrías de información.",
-          "La elasticidad de la demanda mide con qué intensidad reacciona el consumo de un bien ante una variación de su precio: los bienes de primera necesidad tienden a mostrar una demanda relativamente inelástica, pues la gente sigue comprándolos aunque suban de precio, mientras que los bienes de lujo suelen ser mucho más sensibles a esas variaciones, ya que su consumo resulta más fácilmente postergable.",
-          "El monopolio distorsiona este mecanismo al concentrar en un solo agente la capacidad de fijar precios muy por encima del nivel que existiría en un mercado verdaderamente competitivo, mientras que la competencia desleal, mediante prácticas como el dumping o los acuerdos secretos entre competidores, socava artificialmente las condiciones que permitirían que la oferta y la demanda operasen con relativa transparencia."
+          "El lenguaje económico describe relaciones que suelen cumplirse, no leyes absolutas: por eso abundan «tender a», «soler» y las proporcionales con «cuanto más…, (tanto) más / menos…». «Cuanto más escasea un bien, más sube su precio» expresa a la vez la causa y la intensidad. Ojo a la concordancia: ante un sustantivo, «cuanto» concuerda con él (cuanta más competencia, cuantos más productores, cuantas más empresas)."
         ],
         "examples": [
           {
@@ -19594,26 +23912,59 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Cuantas más empresas compiten, más tienden a bajar los precios.",
             "en": "The more companies compete, the more prices tend to fall. («cuantas» concuerda con «empresas»)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la proporcional.",
+            "sentence": "___ más clientes tiene una tienda en línea, más tiende a bajar el coste de cada envío.",
+            "answer": "Cuantos",
+            "explanation": "Ante un sustantivo, «cuanto» concuerda con él: clientes es masculino plural, así que «cuantos más clientes». «Cuanto» invariable solo va ante un verbo o un adjetivo («cuanto más escasea…»).",
+            "hint": "concuerda con «clientes»"
+          }
+        ]
+      },
+      {
+        "heading": "La oferta y la demanda",
+        "body": [
+          "La oferta y la demanda constituyen el mecanismo básico mediante el cual un mercado libre tiende a fijar precios: cuando la oferta de un bien supera a la demanda existente, los precios tienden a bajar hasta que se alcanza un nuevo punto de equilibrio; cuando ocurre lo contrario, la escasez relativa empuja los precios al alza. Este esquema, aunque elegante en su simplicidad, rara vez opera de manera tan limpia en mercados reales atravesados por regulaciones y asimetrías de información."
+        ],
+        "examples": [
           {
             "es": "la oferta y la demanda",
             "en": "mecanismo por el cual la interacción entre productores y consumidores tiende a fijar los precios"
           },
           {
-            "es": "la elasticidad de la demanda",
-            "en": "medida de cuánto varía el consumo de un bien ante un cambio en su precio"
-          },
-          {
-            "es": "el monopolio",
-            "en": "situación en la que un solo agente controla la oferta de un bien o un servicio"
-          },
-          {
-            "es": "la competencia desleal",
-            "en": "práctica comercial que distorsiona ilegítimamente las condiciones normales del mercado"
-          },
-          {
             "es": "el punto de equilibrio",
             "en": "nivel de precio en el que la cantidad ofrecida iguala a la cantidad demandada"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una cosecha récord de naranjas llena los mercados y la demanda no cambia. Según el mecanismo de la oferta y la demanda, ¿qué tiende a pasar?",
+            "options": [
+              "El precio de las naranjas tiende a bajar hasta un nuevo punto de equilibrio.",
+              "El precio tiende a subir por la escasez.",
+              "El precio queda fijado por ley.",
+              "Desaparece la demanda."
+            ],
+            "correctIndex": 0,
+            "explanation": "Cuando la oferta supera a la demanda, los precios tienden a bajar hasta alcanzar un nuevo equilibrio; la escasez produce el efecto contrario. Aun así, el texto advierte que en los mercados reales el esquema rara vez opera de manera tan limpia."
+          }
+        ]
+      },
+      {
+        "heading": "La elasticidad de la demanda",
+        "body": [
+          "La elasticidad aplica la misma idea: mide cuánto reacciona el consumo cuando cambia el precio. Si apenas reacciona (el pan, la gasolina), la demanda es inelástica; si reacciona mucho (un crucero, un reloj de lujo), es elástica.",
+          "La elasticidad de la demanda mide con qué intensidad reacciona el consumo de un bien ante una variación de su precio: los bienes de primera necesidad tienden a mostrar una demanda relativamente inelástica, pues la gente sigue comprándolos aunque suban de precio, mientras que los bienes de lujo suelen ser mucho más sensibles a esas variaciones, ya que su consumo resulta más fácilmente postergable."
+        ],
+        "examples": [
+          {
+            "es": "la elasticidad de la demanda",
+            "en": "medida de cuánto varía el consumo de un bien ante un cambio en su precio"
           }
         ],
         "checkpoint": [
@@ -19644,11 +23995,39 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Las fusiones y adquisiciones empresariales",
+        "heading": "Monopolio y competencia desleal",
         "body": [
-          "Una fusión empresarial ocurre cuando dos compañías deciden combinar sus operaciones para constituir una entidad nueva, mientras que una adquisición se produce cuando una empresa compra a otra, que pasa a operar bajo su control sin que necesariamente desaparezca del todo su identidad. La distinción, aunque técnica, resulta relevante porque afecta directamente a cómo se reparte el poder de decisión en la organización resultante.",
-          "El capital de riesgo desempeña un papel decisivo en la financiación de empresas emergentes que, por su propia naturaleza, carecen todavía de un historial financiero sólido que las haría aptas para un crédito bancario convencional: los inversores asumen un riesgo considerablemente mayor a cambio de la posibilidad de obtener, si la apuesta resulta acertada, una rentabilidad muy superior a la de una inversión tradicional.",
-          "La cuota de mercado que una empresa logra retener tras una fusión no depende únicamente de la lógica financiera de la operación, sino también de factores menos tangibles, como la reacción de los clientes ante el cambio de marca o la capacidad de la nueva entidad de integrar culturas corporativas que, con frecuencia, resultan más difíciles de fusionar que los propios balances contables."
+          "El monopolio distorsiona este mecanismo al concentrar en un solo agente la capacidad de fijar precios muy por encima del nivel que existiría en un mercado verdaderamente competitivo, mientras que la competencia desleal, mediante prácticas como el dumping o los acuerdos secretos entre competidores, socava artificialmente las condiciones que permitirían que la oferta y la demanda operasen con relativa transparencia."
+        ],
+        "examples": [
+          {
+            "es": "el monopolio",
+            "en": "situación en la que un solo agente controla la oferta de un bien o un servicio"
+          },
+          {
+            "es": "la competencia desleal",
+            "en": "práctica comercial que distorsiona ilegítimamente las condiciones normales del mercado"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Tres cementeras pactan en secreto no bajar nunca sus precios. ¿Qué es esto, según el texto?",
+            "options": [
+              "competencia desleal",
+              "un mercado competitivo",
+              "una demanda elástica",
+              "un punto de equilibrio"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los acuerdos secretos entre competidores son una práctica de competencia desleal: socavan artificialmente las condiciones en las que operarían la oferta y la demanda. Un monopolio, en cambio, concentra el poder en un solo agente."
+          }
+        ]
+      },
+      {
+        "heading": "Fusión y adquisición",
+        "body": [
+          "Una fusión empresarial ocurre cuando dos compañías deciden combinar sus operaciones para constituir una entidad nueva, mientras que una adquisición se produce cuando una empresa compra a otra, que pasa a operar bajo su control sin que necesariamente desaparezca del todo su identidad. La distinción, aunque técnica, resulta relevante porque afecta directamente a cómo se reparte el poder de decisión en la organización resultante."
         ],
         "examples": [
           {
@@ -19658,44 +24037,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la adquisición",
             "en": "compra de una empresa por parte de otra, que pasa a operar bajo su control"
-          },
-          {
-            "es": "el capital de riesgo",
-            "en": "financiación destinada a empresas emergentes con alto potencial pero alto riesgo"
-          },
-          {
-            "es": "la empresa emergente",
-            "en": "compañía de reciente creación, generalmente de base tecnológica, con alto potencial de crecimiento"
-          },
-          {
-            "es": "la cuota de mercado",
-            "en": "proporción de las ventas totales de un sector que corresponde a una empresa determinada"
-          },
-          {
-            "es": "la rentabilidad",
-            "en": "capacidad de una inversión o un negocio de generar beneficios en relación con lo invertido"
           }
         ],
         "checkpoint": [
-          {
-            "type": "matching",
-            "instructions": "Relaciona cada término con su definición.",
-            "pairs": [
-              {
-                "left": "la fusión empresarial",
-                "right": "combinación de dos compañías en una entidad nueva"
-              },
-              {
-                "left": "la adquisición",
-                "right": "compra de una empresa por parte de otra"
-              },
-              {
-                "left": "el capital de riesgo",
-                "right": "financiación destinada a empresas emergentes de alto potencial"
-              }
-            ],
-            "explanation": "Una fusión crea una entidad nueva, una adquisición es la compra de una empresa por otra y el capital de riesgo financia empresas emergentes: no los confundas, porque cambia quién controla la empresa resultante."
-          },
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. Una cadena hotelera compra un pequeño hotel familiar, que mantiene su nombre pero pasa a depender de la cadena. ¿Qué operación es?",
@@ -19707,6 +24051,66 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Cuando una empresa compra a otra y esta pasa a operar bajo su control, es una adquisición, aunque conserve su identidad. En la fusión, las dos se combinan para formar una entidad nueva."
+          }
+        ]
+      },
+      {
+        "heading": "El capital de riesgo",
+        "body": [
+          "El capital de riesgo desempeña un papel decisivo en la financiación de empresas emergentes que, por su propia naturaleza, carecen todavía de un historial financiero sólido que las haría aptas para un crédito bancario convencional: los inversores asumen un riesgo considerablemente mayor a cambio de la posibilidad de obtener, si la apuesta resulta acertada, una rentabilidad muy superior a la de una inversión tradicional."
+        ],
+        "examples": [
+          {
+            "es": "el capital de riesgo",
+            "en": "financiación destinada a empresas emergentes con alto potencial pero alto riesgo"
+          },
+          {
+            "es": "la empresa emergente",
+            "en": "compañía de reciente creación, generalmente de base tecnológica, con alto potencial de crecimiento"
+          },
+          {
+            "es": "la rentabilidad",
+            "en": "capacidad de una inversión o un negocio de generar beneficios en relación con lo invertido"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una empresa emergente de biotecnología, con dos años de vida y sin beneficios, necesita financiación. Según el texto, ¿quién es más probable que invierta?",
+            "options": [
+              "un fondo de capital de riesgo",
+              "un banco con un crédito convencional",
+              "una autoridad monetaria",
+              "un monopolio del sector"
+            ],
+            "correctIndex": 0,
+            "explanation": "Las empresas emergentes carecen de un historial financiero sólido para un crédito bancario convencional; el capital de riesgo asume ese riesgo mayor a cambio de una posible rentabilidad muy superior."
+          }
+        ]
+      },
+      {
+        "heading": "La cuota de mercado tras una fusión",
+        "body": [
+          "La cuota de mercado que una empresa logra retener tras una fusión no depende únicamente de la lógica financiera de la operación, sino también de factores menos tangibles, como la reacción de los clientes ante el cambio de marca o la capacidad de la nueva entidad de integrar culturas corporativas que, con frecuencia, resultan más difíciles de fusionar que los propios balances contables."
+        ],
+        "examples": [
+          {
+            "es": "la cuota de mercado",
+            "en": "proporción de las ventas totales de un sector que corresponde a una empresa determinada"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué suele resultar más difícil de fusionar que los balances contables?",
+            "options": [
+              "las culturas corporativas",
+              "las cuentas bancarias",
+              "los logotipos",
+              "los precios"
+            ],
+            "correctIndex": 0,
+            "explanation": "La cuota de mercado que se retiene tras una fusión depende también de factores menos tangibles, como la reacción de los clientes o la integración de culturas corporativas, que «resultan más difíciles de fusionar que los propios balances contables»."
           }
         ]
       }
@@ -19785,6 +24189,25 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Cuanta más información tengan los consumidores, menos margen habrá para la competencia desleal."
         ],
         "explanation": "Proporcional con sustantivo: «cuanta» concuerda con «información» (femenino singular). La segunda parte con «menos» expresa la relación inversa."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "la fusión empresarial",
+            "right": "combinación de dos compañías en una entidad nueva"
+          },
+          {
+            "left": "la adquisición",
+            "right": "compra de una empresa por parte de otra"
+          },
+          {
+            "left": "el capital de riesgo",
+            "right": "financiación destinada a empresas emergentes de alto potencial"
+          }
+        ],
+        "explanation": "Una fusión crea una entidad nueva, una adquisición es la compra de una empresa por otra y el capital de riesgo financia empresas emergentes: no los confundas, porque cambia quién controla la empresa resultante."
       }
     ]
   },
@@ -19797,12 +24220,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "La idea: encarecer, abaratar, enfriar: verbos hechos con adjetivos",
+        "heading": "La idea: verbos hechos con adjetivos",
         "body": [
-          "La economía narra cadenas de causas, y para ello usa verbos que nacen de un adjetivo: hacer algo más caro es encarecerlo (en- + caro + -ecer); hacerlo más barato, abaratarlo (a- + barato + -ar); hacer que algo se enfríe, enfriarlo. Por eso el periodista no escribe «la subida de tipos hace más caro el crédito», sino «encarece el crédito». Con el pronombre «se», el mismo verbo describe el proceso sin causante: «el crédito se encarece». La segunda pieza de la cadena es la condición: «Si el banco central subiera los tipos, el consumo se enfriaría» (si + imperfecto de subjuntivo, nunca condicional, en una hipótesis).",
-          "La inflación describe el aumento sostenido y generalizado del nivel de precios en una economía, lo que erosiona el poder adquisitivo de quienes perciben ingresos fijos con mayor severidad que el de quienes poseen activos cuyo valor tiende a ajustarse al alza junto con los precios. Una inflación moderada y previsible suele considerarse compatible con el crecimiento económico, mientras que una inflación descontrolada mina la confianza y distorsiona las decisiones de inversión.",
-          "Los bancos centrales combaten habitualmente la inflación elevando las tasas de interés, lo que encarece el crédito y, en consecuencia, enfría el consumo y la inversión hasta que la presión sobre los precios cede. Esta herramienta, sin embargo, no está exenta de costes: un endurecimiento monetario excesivo puede empujar a una economía hacia la recesión, es decir, hacia una contracción sostenida de la actividad productiva.",
-          "La devaluación de una moneda, ya sea decidida deliberadamente por una autoridad monetaria o impuesta por las propias fuerzas del mercado, encarece las importaciones y, al mismo tiempo, puede abaratar las exportaciones de un país en los mercados internacionales, lo que convierte a esta herramienta en un instrumento de política económica tan poderoso como arriesgado, con efectos que rara vez resultan fáciles de calibrar con precisión."
+          "La economía narra cadenas de causas, y para ello usa verbos que nacen de un adjetivo: hacer algo más caro es encarecerlo (en- + caro + -ecer); hacerlo más barato, abaratarlo (a- + barato + -ar); hacer que algo se enfríe, enfriarlo. Por eso el periodista no escribe «la subida de tipos hace más caro el crédito», sino «encarece el crédito». Con el pronombre «se», el mismo verbo describe el proceso sin causante: «el crédito se encarece»."
         ],
         "examples": [
           {
@@ -19812,41 +24232,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "La devaluación abarata las exportaciones.",
             "en": "Devaluation makes exports cheaper. (barato → abaratar)"
-          },
-          {
-            "es": "Si el banco central subiera los tipos, el consumo se enfriaría.",
-            "en": "If the central bank raised rates, consumption would cool. (si + subjuntivo, condicional)"
-          },
-          {
-            "es": "la inflación",
-            "en": "aumento sostenido y generalizado del nivel de precios en una economía"
-          },
-          {
-            "es": "el poder adquisitivo",
-            "en": "capacidad de una cantidad de dinero de comprar bienes y servicios"
-          },
-          {
-            "es": "la recesión",
-            "en": "contracción sostenida de la actividad productiva de una economía"
-          },
-          {
-            "es": "la devaluación",
-            "en": "reducción del valor de una moneda respecto a otras divisas"
-          },
-          {
-            "es": "la política monetaria",
-            "en": "conjunto de decisiones que una autoridad central toma para regular la oferta de dinero"
           }
         ],
         "checkpoint": [
-          {
-            "type": "fill-blank",
-            "prompt": "Completa la frase con el término adecuado.",
-            "sentence": "Los bancos centrales combaten la ___ elevando las tasas de interés para enfriar el consumo.",
-            "answer": "inflación",
-            "explanation": "El texto explica que subir las tasas de interés es la herramienta habitual de los bancos centrales frente al aumento sostenido de precios.",
-            "hint": "Es el aumento sostenido y generalizado de los precios en una economía."
-          },
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. ¿Qué verbo de la misma familia significa «hacer más pobre»?",
@@ -19862,21 +24250,174 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El comercio internacional y el proteccionismo",
+        "heading": "La condición: si + imperfecto de subjuntivo",
         "body": [
-          "La cadena de suministro que conecta a proveedores, fabricantes y distribuidores a través de distintos países ha permitido reducir costes de manera notable, pero también ha expuesto a las economías nacionales a una vulnerabilidad considerable ante disrupciones que ocurren en un extremo remoto de esa cadena, como demostraron con crudeza diversas crisis logísticas recientes.",
-          "El arancel, entendido como un impuesto que grava los productos importados, puede emplearse tanto para proteger industrias nacionales incipientes frente a la competencia extranjera como para responder políticamente a prácticas comerciales consideradas desleales por parte de otro país. Sus defensores insisten en la necesidad de proteger el empleo local, mientras que sus críticos advierten sobre el encarecimiento generalizado de los productos que suele acompañar a estas medidas.",
-          "El déficit comercial, que se produce cuando un país importa más de lo que exporta en términos de valor, no constituye por sí solo un indicador inequívoco de debilidad económica, contra lo que sugiere cierto sentido común superficial; depende en gran medida de si ese déficit se financia mediante una deuda pública sostenible o mediante flujos de inversión extranjera que reflejan, en realidad, la confianza depositada en esa economía."
+          "La segunda pieza de la cadena es la condición: «Si el banco central subiera los tipos, el consumo se enfriaría» (si + imperfecto de subjuntivo, nunca condicional, en una hipótesis)."
+        ],
+        "examples": [
+          {
+            "es": "Si el banco central subiera los tipos, el consumo se enfriaría.",
+            "en": "If the central bank raised rates, consumption would cool. (si + subjuntivo, condicional)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la hipótesis.",
+            "sentence": "Si el Gobierno ___ el impuesto sobre la gasolina, el transporte se abarataría. (rebajar)",
+            "answer": "rebajara",
+            "altAnswers": [
+              "rebajase"
+            ],
+            "explanation": "En una hipótesis, «si» va con imperfecto de subjuntivo (rebajara o rebajase) y la consecuencia en condicional (se abarataría). Nunca «si rebajaría».",
+            "hint": "imperfecto de subjuntivo"
+          }
+        ]
+      },
+      {
+        "heading": "La inflación",
+        "body": [
+          "La inflación describe el aumento sostenido y generalizado del nivel de precios en una economía, lo que erosiona el poder adquisitivo de quienes perciben ingresos fijos con mayor severidad que el de quienes poseen activos cuyo valor tiende a ajustarse al alza junto con los precios. Una inflación moderada y previsible suele considerarse compatible con el crecimiento económico, mientras que una inflación descontrolada mina la confianza y distorsiona las decisiones de inversión."
+        ],
+        "examples": [
+          {
+            "es": "la inflación",
+            "en": "aumento sostenido y generalizado del nivel de precios en una economía"
+          },
+          {
+            "es": "el poder adquisitivo",
+            "en": "capacidad de una cantidad de dinero de comprar bienes y servicios"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Con una inflación del 8 %, ¿quién pierde más poder adquisitivo, según el texto?",
+            "options": [
+              "Un jubilado con una pensión fija.",
+              "Quien posee una vivienda cuyo valor sube con los precios.",
+              "Quien tiene activos que se ajustan al alza.",
+              "Nadie: la inflación no afecta al poder adquisitivo."
+            ],
+            "correctIndex": 0,
+            "explanation": "La inflación erosiona con más severidad el poder adquisitivo de quienes perciben ingresos fijos, como una pensión. Quien posee activos cuyo valor sube con los precios queda más protegido."
+          }
+        ]
+      },
+      {
+        "heading": "Subir los tipos: el remedio y su coste",
+        "body": [
+          "Los bancos centrales combaten habitualmente la inflación elevando las tasas de interés, lo que encarece el crédito y, en consecuencia, enfría el consumo y la inversión hasta que la presión sobre los precios cede. Esta herramienta, sin embargo, no está exenta de costes: un endurecimiento monetario excesivo puede empujar a una economía hacia la recesión, es decir, hacia una contracción sostenida de la actividad productiva."
+        ],
+        "examples": [
+          {
+            "es": "la recesión",
+            "en": "contracción sostenida de la actividad productiva de una economía"
+          },
+          {
+            "es": "la política monetaria",
+            "en": "conjunto de decisiones que una autoridad central toma para regular la oferta de dinero"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con el término adecuado.",
+            "sentence": "Los bancos centrales combaten la ___ elevando las tasas de interés para enfriar el consumo.",
+            "answer": "inflación",
+            "explanation": "El texto explica que subir las tasas de interés es la herramienta habitual de los bancos centrales frente al aumento sostenido de precios.",
+            "hint": "Es el aumento sostenido y generalizado de los precios en una economía."
+          }
+        ]
+      },
+      {
+        "heading": "La devaluación",
+        "body": [
+          "La devaluación de una moneda, ya sea decidida deliberadamente por una autoridad monetaria o impuesta por las propias fuerzas del mercado, encarece las importaciones y, al mismo tiempo, puede abaratar las exportaciones de un país en los mercados internacionales, lo que convierte a esta herramienta en un instrumento de política económica tan poderoso como arriesgado, con efectos que rara vez resultan fáciles de calibrar con precisión."
+        ],
+        "examples": [
+          {
+            "es": "la devaluación",
+            "en": "reducción del valor de una moneda respecto a otras divisas"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Si un país devalúa su moneda, ¿qué efecto describe el texto?",
+            "options": [
+              "Encarece las importaciones y puede abaratar las exportaciones.",
+              "Abarata las importaciones y encarece las exportaciones.",
+              "No afecta al comercio exterior.",
+              "Elimina la inflación de inmediato."
+            ],
+            "correctIndex": 0,
+            "explanation": "Con una moneda devaluada, comprar fuera cuesta más (se encarecen las importaciones) y los productos del país resultan más baratos fuera (se abaratan las exportaciones). Por eso es una herramienta tan poderosa como arriesgada."
+          }
+        ]
+      },
+      {
+        "heading": "La cadena de suministro",
+        "body": [
+          "La cadena de suministro que conecta a proveedores, fabricantes y distribuidores a través de distintos países ha permitido reducir costes de manera notable, pero también ha expuesto a las economías nacionales a una vulnerabilidad considerable ante disrupciones que ocurren en un extremo remoto de esa cadena, como demostraron con crudeza diversas crisis logísticas recientes."
         ],
         "examples": [
           {
             "es": "la cadena de suministro",
             "en": "red de proveedores, fabricantes y distribuidores que permite producir y entregar un bien"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un incendio en una fábrica de chips de Taiwán paraliza la producción de coches en Alemania. ¿Qué ilustra?",
+            "options": [
+              "La vulnerabilidad de las cadenas de suministro globales ante disrupciones lejanas.",
+              "Las ventajas de un arancel.",
+              "Un superávit comercial.",
+              "Una devaluación."
+            ],
+            "correctIndex": 0,
+            "explanation": "La cadena de suministro internacional reduce costes, pero expone a las economías a disrupciones en un extremo remoto de la cadena, como demostraron las crisis logísticas recientes."
+          }
+        ]
+      },
+      {
+        "heading": "El arancel",
+        "body": [
+          "El arancel, entendido como un impuesto que grava los productos importados, puede emplearse tanto para proteger industrias nacionales incipientes frente a la competencia extranjera como para responder políticamente a prácticas comerciales consideradas desleales por parte de otro país. Sus defensores insisten en la necesidad de proteger el empleo local, mientras que sus críticos advierten sobre el encarecimiento generalizado de los productos que suele acompañar a estas medidas."
+        ],
+        "examples": [
           {
             "es": "el arancel",
             "en": "impuesto que grava los productos importados desde otro país"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Cuáles de las siguientes afirmaciones sobre el arancel reflejan lo que sostiene el texto?",
+            "options": [
+              "Puede proteger industrias nacionales incipientes frente a la competencia extranjera",
+              "Puede responder políticamente a prácticas comerciales consideradas desleales",
+              "Nunca tiene ningún efecto sobre el precio final de los productos",
+              "Sus críticos advierten sobre el encarecimiento generalizado de los productos"
+            ],
+            "correctIndexes": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "El texto sostiene que el arancel puede proteger industrias y responder a prácticas desleales, pero también advierte que tiende a encarecer los productos; en ningún caso afirma que carezca de efecto sobre los precios."
+          }
+        ]
+      },
+      {
+        "heading": "El déficit comercial",
+        "body": [
+          "El déficit comercial, que se produce cuando un país importa más de lo que exporta en términos de valor, no constituye por sí solo un indicador inequívoco de debilidad económica, contra lo que sugiere cierto sentido común superficial; depende en gran medida de si ese déficit se financia mediante una deuda pública sostenible o mediante flujos de inversión extranjera que reflejan, en realidad, la confianza depositada en esa economía."
+        ],
+        "examples": [
           {
             "es": "la exportación",
             "en": "venta de bienes o servicios producidos en un país hacia mercados extranjeros"
@@ -19896,20 +24437,16 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
-            "type": "multi-select",
-            "question": "¿Cuáles de las siguientes afirmaciones sobre el arancel reflejan lo que sostiene el texto?",
+            "type": "multiple-choice",
+            "question": "Un país importa más de lo que exporta, pero lo financia con una fuerte inversión extranjera. Según el texto, ¿qué se puede concluir?",
             "options": [
-              "Puede proteger industrias nacionales incipientes frente a la competencia extranjera",
-              "Puede responder políticamente a prácticas comerciales consideradas desleales",
-              "Nunca tiene ningún efecto sobre el precio final de los productos",
-              "Sus críticos advierten sobre el encarecimiento generalizado de los productos"
+              "No es por sí solo un signo de debilidad: puede reflejar confianza en esa economía.",
+              "Su economía es necesariamente débil.",
+              "Tiene un superávit comercial.",
+              "Debe devaluar su moneda de inmediato."
             ],
-            "correctIndexes": [
-              0,
-              1,
-              3
-            ],
-            "explanation": "El texto sostiene que el arancel puede proteger industrias y responder a prácticas desleales, pero también advierte que tiende a encarecer los productos; en ningún caso afirma que carezca de efecto sobre los precios."
+            "correctIndex": 0,
+            "explanation": "El déficit comercial no es un indicador inequívoco de debilidad: depende de cómo se financie. Si lo cubren flujos de inversión extranjera, refleja confianza. No es un superávit, que sería exportar más de lo que se importa."
           }
         ]
       }
@@ -20050,16 +24587,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): la fusión de las aerolíneas",
         "body": [
           "Presentadora: Esta semana, la fusión entre las dos aerolíneas ha dominado las noticias económicas. ¿Cómo debemos interpretarla?",
           "Analista: La operación busca ganar cuota de mercado y reducir costes compartiendo la cadena de suministro de repuestos y mantenimiento.",
           "Presentadora: ¿Y qué opina de las críticas que hablan de un riesgo de monopolio en ciertas rutas?",
-          "Analista: Es una preocupación legítima. Si una sola empresa controla la oferta en una ruta concreta, los pasajeros pierden capacidad de negociar precios más bajos.",
-          "Presentadora: Cambiando de tema, ¿cómo está afectando la inflación reciente a las decisiones de inversión de las empresas?",
-          "Analista: Con las tasas de interés al alza, muchas compañías están posponiendo proyectos que dependían de crédito barato para financiarse.",
-          "Presentadora: ¿Existe riesgo de recesión si el banco central sigue endureciendo la política monetaria?",
-          "Analista: Es el equilibrio más delicado de calibrar: frenar la inflación sin frenar por completo el crecimiento económico."
+          "Analista: Es una preocupación legítima. Si una sola empresa controla la oferta en una ruta concreta, los pasajeros pierden capacidad de negociar precios más bajos."
         ],
         "checkpoint": [
           {
@@ -20073,6 +24606,29 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«Es una preocupación legítima» concede, y la hipótesis «Si una sola empresa controla la oferta…» explica por qué. No niega el riesgo ni promete precios más bajos."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): inflación y recesión",
+        "body": [
+          "Presentadora: Cambiando de tema, ¿cómo está afectando la inflación reciente a las decisiones de inversión de las empresas?",
+          "Analista: Con las tasas de interés al alza, muchas compañías están posponiendo proyectos que dependían de crédito barato para financiarse.",
+          "Presentadora: ¿Existe riesgo de recesión si el banco central sigue endureciendo la política monetaria?",
+          "Analista: Es el equilibrio más delicado de calibrar: frenar la inflación sin frenar por completo el crecimiento económico."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el analista, ¿por qué muchas empresas posponen proyectos?",
+            "options": [
+              "Porque, con las tasas de interés al alza, el crédito ya no es barato.",
+              "Porque la fusión les ha quitado cuota de mercado.",
+              "Porque el banco central ha bajado los tipos.",
+              "Porque ha terminado la recesión."
+            ],
+            "correctIndex": 0,
+            "explanation": "El analista dice que, «con las tasas de interés al alza», las compañías posponen proyectos que dependían de crédito barato. El banco central está endureciendo la política monetaria, no bajando los tipos."
           }
         ]
       },
@@ -20222,6 +24778,31 @@ const C2_BASE_LESSONS: Lesson[] = [
             "es": "el déficit",
             "en": "situación en la que los gastos o las importaciones de una entidad superan a sus ingresos o exportaciones"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada término con su definición.",
+            "pairs": [
+              {
+                "left": "el valor refugio",
+                "right": "activo que se compra en tiempos de incertidumbre"
+              },
+              {
+                "left": "la deslocalización",
+                "right": "traslado de la producción a un país con costes más bajos"
+              },
+              {
+                "left": "la liquidez",
+                "right": "facilidad para convertir un activo en dinero"
+              },
+              {
+                "left": "el arancel",
+                "right": "impuesto sobre los productos importados"
+              }
+            ],
+            "explanation": "Valor refugio: el oro, por ejemplo, en una crisis. Deslocalización: llevar la fábrica a otro país más barato. Liquidez: rapidez para tener dinero disponible. Arancel: impuesto a la importación."
+          }
         ]
       }
     ],
@@ -20332,12 +24913,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "La idea: el narrador sabe más que el lector, y lo deja entrever",
+        "heading": "La idea: el narrador mira hacia delante",
         "body": [
-          "Prefigurar es aprovechar que el narrador conoce el final. Esa ventaja tiene su gramática: desde el pasado del relato, el narrador mira hacia delante con el condicional («años después, recordaría aquella tarde»), con «iba a + infinitivo» o con «sin saber que…». Funciona porque el lector percibe la sombra de lo que vendrá sin conocerlo todavía, y eso crea tensión. La condición es que el indicio guarde una relación de necesidad con el desenlace: si el detalle no prepara nada, no es prefiguración, es ruido; y si el giro no estaba preparado, es casualidad.",
-          "La prefiguración consiste en sembrar, de manera discreta y a menudo casi imperceptible en una primera lectura, indicios de un acontecimiento que solo cobrará su pleno significado más adelante en el relato. Un buen uso de este recurso premia una segunda lectura, en la que el lector reconoce detalles que en su momento pasaron desapercibidos y que, retrospectivamente, resultan reveladores.",
-          "La tensión narrativa se construye retrasando de manera deliberada la satisfacción de una expectativa que el propio relato ha despertado: cuanto más tiempo logra el autor sostener esa incertidumbre sin que el lector la perciba como una dilación artificial o gratuita, mayor es la recompensa emocional del momento en que finalmente se resuelve. El suspenso, en su forma más depurada, no depende de la sorpresa, sino precisamente de la anticipación consciente de un peligro que el lector conoce mejor que el propio personaje.",
-          "Distinguir la prefiguración eficaz de la mera casualidad narrativa exige que el detalle sembrado al principio guarde una relación de necesidad, y no solo de coincidencia, con el desenlace posterior: un lector experimentado percibe con claridad la diferencia entre un giro que estaba preparado desde el inicio y uno que se le impone al relato de manera arbitraria en el último momento."
+          "Prefigurar es aprovechar que el narrador conoce el final. Esa ventaja tiene su gramática: desde el pasado del relato, el narrador mira hacia delante con el condicional («años después, recordaría aquella tarde»), con «iba a + infinitivo» o con «sin saber que…». Funciona porque el lector percibe la sombra de lo que vendrá sin conocerlo todavía, y eso crea tensión. La condición es que el indicio guarde una relación de necesidad con el desenlace: si el detalle no prepara nada, no es prefiguración, es ruido; y si el giro no estaba preparado, es casualidad."
         ],
         "examples": [
           {
@@ -20347,11 +24925,51 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Cerró la puerta sin saber que no volvería a abrirla.",
             "en": "He closed the door without knowing he would never open it again. (sin saber que + condicional)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la prefiguración.",
+            "sentence": "Aquel verano conoció a Tomás, el hombre con quien, diez años después, ___. (casarse)",
+            "answer": "se casaría",
+            "explanation": "Desde el pasado del relato, el narrador mira hacia delante con el condicional (se casaría): el lector percibe lo que vendrá sin conocerlo todavía. «Se casó» solo informaría y «se casará» saldría del eje del pasado.",
+            "hint": "condicional: futuro visto desde el pasado"
+          }
+        ]
+      },
+      {
+        "heading": "Sembrar indicios",
+        "body": [
+          "La prefiguración consiste en sembrar, de manera discreta y a menudo casi imperceptible en una primera lectura, indicios de un acontecimiento que solo cobrará su pleno significado más adelante en el relato. Un buen uso de este recurso premia una segunda lectura, en la que el lector reconoce detalles que en su momento pasaron desapercibidos y que, retrospectivamente, resultan reveladores."
+        ],
+        "examples": [
           {
             "es": "la prefiguración",
             "en": "siembra discreta de indicios que anticipan un acontecimiento posterior del relato"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué premia una buena prefiguración?",
+            "options": [
+              "Una segunda lectura, en la que se reconocen detalles que antes pasaron desapercibidos.",
+              "Que el lector adivine el final en la primera página.",
+              "Que no haya ningún indicio del desenlace.",
+              "Que el narrador cuente el final al principio."
+            ],
+            "correctIndex": 0,
+            "explanation": "La prefiguración siembra indicios discretos, casi imperceptibles en una primera lectura, que cobran sentido más adelante: por eso premia releer. Si el lector adivina el final enseguida, los indicios no eran discretos."
+          }
+        ]
+      },
+      {
+        "heading": "Tensión y suspenso",
+        "body": [
+          "La tensión narrativa se construye retrasando de manera deliberada la satisfacción de una expectativa que el propio relato ha despertado: cuanto más tiempo logra el autor sostener esa incertidumbre sin que el lector la perciba como una dilación artificial o gratuita, mayor es la recompensa emocional del momento en que finalmente se resuelve. El suspenso, en su forma más depurada, no depende de la sorpresa, sino precisamente de la anticipación consciente de un peligro que el lector conoce mejor que el propio personaje."
+        ],
+        "examples": [
           {
             "es": "la tensión narrativa",
             "en": "incertidumbre sostenida deliberadamente para intensificar la expectativa del lector"
@@ -20381,7 +24999,15 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto explica que el suspenso, a diferencia de la sorpresa, se apoya en que el lector anticipe conscientemente un peligro que el personaje todavía desconoce. La sorpresa, no el suspenso, es la que depende de que el lector no anticipe nada; no son el mismo recurso y el suspenso puede aparecer en cualquier momento del relato."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Prefiguración o casualidad",
+        "body": [
+          "Distinguir la prefiguración eficaz de la mera casualidad narrativa exige que el detalle sembrado al principio guarde una relación de necesidad, y no solo de coincidencia, con el desenlace posterior: un lector experimentado percibe con claridad la diferencia entre un giro que estaba preparado desde el inicio y uno que se le impone al relato de manera arbitraria en el último momento."
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. En el capítulo final, la protagonista escapa de un incendio por una salida secreta. ¿Qué detalle del capítulo uno lo prefigura de forma eficaz?",
@@ -20397,11 +25023,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La voz narrativa y los tipos de narrador",
+        "heading": "La voz narrativa",
         "body": [
-          "La voz narrativa determina no solo quién cuenta la historia, sino también cuánto sabe, qué omite deliberadamente y con qué grado de cercanía emocional se relaciona con los acontecimientos que relata. Un narrador confiable ofrece al lector un pacto implícito de veracidad, mientras que un narrador poco confiable introduce una distancia crítica que obliga al lector a interpretar activamente lo que se cuenta, sospechando de sus propias afirmaciones.",
-          "El monólogo interior permite acceder directamente al flujo de pensamiento de un personaje, con sus asociaciones, sus contradicciones y sus interrupciones, prescindiendo de la mediación ordenada que suele imponer la narración en tercera persona. Este recurso puede resultar extraordinariamente inmersivo, aunque exige del lector una atención considerablemente mayor para reconstruir el sentido a partir de un discurso que imita deliberadamente el desorden del pensamiento real.",
-          "La polifonía narrativa, entendida como la coexistencia de varias voces igualmente legítimas dentro de una misma obra, sin que ninguna de ellas se imponga como la interpretación definitiva de los hechos, permite que el lector construya su propio juicio a partir de perspectivas parciales y, en ocasiones, abiertamente contradictorias entre sí."
+          "La voz narrativa determina no solo quién cuenta la historia, sino también cuánto sabe, qué omite deliberadamente y con qué grado de cercanía emocional se relaciona con los acontecimientos que relata. Un narrador confiable ofrece al lector un pacto implícito de veracidad, mientras que un narrador poco confiable introduce una distancia crítica que obliga al lector a interpretar activamente lo que se cuenta, sospechando de sus propias afirmaciones."
         ],
         "examples": [
           {
@@ -20415,36 +25039,35 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "el narrador poco confiable",
             "en": "voz narrativa cuyo relato de los hechos el lector debe interpretar con sospecha crítica"
-          },
-          {
-            "es": "el monólogo interior",
-            "en": "representación directa del flujo de pensamiento de un personaje, sin mediación ordenada"
-          },
-          {
-            "es": "la polifonía narrativa",
-            "en": "coexistencia de varias voces igualmente legítimas dentro de una misma obra"
           }
         ],
         "checkpoint": [
           {
-            "type": "matching",
-            "instructions": "Relaciona cada tipo de narrador o voz con su descripción.",
-            "pairs": [
-              {
-                "left": "el narrador confiable",
-                "right": "ofrece un pacto implícito de veracidad que el lector puede aceptar"
-              },
-              {
-                "left": "el narrador poco confiable",
-                "right": "obliga al lector a interpretar con sospecha lo que se cuenta"
-              },
-              {
-                "left": "la polifonía narrativa",
-                "right": "coexistencia de varias voces igualmente legítimas en una obra"
-              }
+            "type": "multiple-choice",
+            "question": "El narrador de una novela jura que nunca ha bebido, pero los demás personajes lo ven siempre con una copa en la mano. ¿Qué tipo de narrador es?",
+            "options": [
+              "poco confiable",
+              "confiable",
+              "omnisciente",
+              "polifónico"
             ],
-            "explanation": "El narrador confiable pide fe al lector, el poco confiable la pone a prueba y la polifonía reparte la verdad entre varias voces: lo que cambia es cuánto debe sospechar el lector."
-          },
+            "correctIndex": 0,
+            "explanation": "Un narrador poco confiable introduce una distancia crítica: el lector debe sospechar de sus afirmaciones. Un narrador confiable ofrece un pacto de veracidad, justo lo que aquí se rompe."
+          }
+        ]
+      },
+      {
+        "heading": "El monólogo interior",
+        "body": [
+          "El monólogo interior permite acceder directamente al flujo de pensamiento de un personaje, con sus asociaciones, sus contradicciones y sus interrupciones, prescindiendo de la mediación ordenada que suele imponer la narración en tercera persona. Este recurso puede resultar extraordinariamente inmersivo, aunque exige del lector una atención considerablemente mayor para reconstruir el sentido a partir de un discurso que imita deliberadamente el desorden del pensamiento real."
+        ],
+        "examples": [
+          {
+            "es": "el monólogo interior",
+            "en": "representación directa del flujo de pensamiento de un personaje, sin mediación ordenada"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. «Mañana el examen, no he dormido, el café frío otra vez, mamá diría que…». ¿Qué técnica es?",
@@ -20456,6 +25079,32 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "El flujo desordenado del pensamiento, con asociaciones y frases interrumpidas, sin mediación de un narrador, es monólogo interior. No hay un narrador que lo sepa todo ni varias voces en diálogo."
+          }
+        ]
+      },
+      {
+        "heading": "La polifonía narrativa",
+        "body": [
+          "La polifonía narrativa, entendida como la coexistencia de varias voces igualmente legítimas dentro de una misma obra, sin que ninguna de ellas se imponga como la interpretación definitiva de los hechos, permite que el lector construya su propio juicio a partir de perspectivas parciales y, en ocasiones, abiertamente contradictorias entre sí."
+        ],
+        "examples": [
+          {
+            "es": "la polifonía narrativa",
+            "en": "coexistencia de varias voces igualmente legítimas dentro de una misma obra"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué efecto busca la polifonía narrativa, según el texto?",
+            "options": [
+              "Que el lector construya su propio juicio a partir de varias perspectivas parciales.",
+              "Que una sola voz imponga la interpretación definitiva.",
+              "Que el narrador oculte el final.",
+              "Que el relato sea más corto."
+            ],
+            "correctIndex": 0,
+            "explanation": "En la polifonía coexisten varias voces igualmente legítimas y ninguna se impone como definitiva; así el lector construye su propio juicio, incluso a partir de perspectivas contradictorias."
           }
         ]
       }
@@ -20540,6 +25189,25 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Se despidió con la mano, sin saber que nunca lo volvería a ver."
         ],
         "explanation": "Prefiguración: «sin saber que» + condicional (volvería), el futuro visto desde el pasado. «Volver a + infinitivo» expresa la repetición."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada tipo de narrador o voz con su descripción.",
+        "pairs": [
+          {
+            "left": "el narrador confiable",
+            "right": "ofrece un pacto implícito de veracidad que el lector puede aceptar"
+          },
+          {
+            "left": "el narrador poco confiable",
+            "right": "obliga al lector a interpretar con sospecha lo que se cuenta"
+          },
+          {
+            "left": "la polifonía narrativa",
+            "right": "coexistencia de varias voces igualmente legítimas en una obra"
+          }
+        ],
+        "explanation": "El narrador confiable pide fe al lector, el poco confiable la pone a prueba y la polifonía reparte la verdad entre varias voces: lo que cambia es cuánto debe sospechar el lector."
       }
     ]
   },
@@ -20552,12 +25220,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La idea: cada figura tiene su construcción",
+        "heading": "La idea: símil y metáfora",
         "body": [
-          "Las figuras retóricas se reconocen por cómo están construidas, no por lo bonitas que suenan. El símil compara con un nexo (como, igual que, cual): «sus ojos eran como dos pozos». La metáfora suprime el nexo y funde los términos: «sus ojos eran dos pozos». La personificación pone un verbo o un rasgo humano a un sujeto que no lo es: «la casa respiraba». La sinestesia une palabras de sentidos distintos: un adjetivo de color con un sonido («un silencio amarillo»). La hipérbole da una cantidad imposible: «te lo he dicho mil veces». Con esa pregunta (¿qué está unido a qué, y cómo?) identificas cualquier figura nueva.",
-          "El símil establece una comparación explícita entre dos elementos mediante un nexo comparativo, lo cual lo distingue de otras figuras que fusionan directamente los términos sin ese puente gramatical. Aunque suele considerarse un recurso más sencillo, un símil certero puede condensar en pocas palabras una imagen literaria de gran fuerza evocadora, siempre que evite la comparación previsible que ya ha perdido su capacidad de sorprender.",
-          "La sinestesia mezcla deliberadamente percepciones que pertenecen a sentidos distintos, atribuyendo, por ejemplo, una cualidad sonora a un color o una textura a un silencio, y logra así una imagen literaria que desestabiliza la percepción habitual del lector, obligándolo a experimentar la escena de un modo genuinamente nuevo. La personificación, por su parte, atribuye cualidades o acciones propiamente humanas a lo que carece de ellas, dotando de una vida simbólica a objetos, fenómenos naturales o abstracciones.",
-          "La hipérbole exagera deliberadamente una cualidad o una acción hasta un extremo que ningún lector podría tomar en sentido literal, y precisamente esa exageración consciente es lo que le permite comunicar una intensidad emocional que una descripción moderada jamás lograría transmitir con la misma fuerza expresiva."
+          "Las figuras retóricas se reconocen por cómo están construidas, no por lo bonitas que suenan. El símil compara con un nexo (como, igual que, cual): «sus ojos eran como dos pozos». La metáfora suprime el nexo y funde los términos: «sus ojos eran dos pozos»."
         ],
         "examples": [
           {
@@ -20567,41 +25232,35 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Sus ojos eran dos pozos oscuros.",
             "en": "Her eyes were two dark wells. (metáfora: sin nexo)"
-          },
-          {
-            "es": "El reloj de la cocina vigilaba cada uno de sus pasos.",
-            "en": "The kitchen clock watched her every step. (personificación: vigilar es humano)"
-          },
-          {
-            "es": "el símil",
-            "en": "comparación explícita entre dos elementos mediante un nexo comparativo"
-          },
-          {
-            "es": "la sinestesia",
-            "en": "mezcla deliberada de percepciones pertenecientes a sentidos distintos"
-          },
-          {
-            "es": "la personificación",
-            "en": "atribución de cualidades o acciones humanas a lo que carece de ellas"
-          },
-          {
-            "es": "la hipérbole",
-            "en": "exageración deliberada de una cualidad o una acción con fines expresivos"
-          },
-          {
-            "es": "la imagen literaria",
-            "en": "representación sensorial vívida construida mediante recursos del lenguaje"
           }
         ],
         "checkpoint": [
           {
-            "type": "fill-blank",
-            "prompt": "Completa la frase con la figura retórica adecuada.",
-            "sentence": "La ___ mezcla percepciones de sentidos distintos, como atribuir un sonido a un color.",
-            "answer": "sinestesia",
-            "explanation": "La sinestesia es precisamente la mezcla deliberada de percepciones pertenecientes a sentidos distintos.",
-            "hint": "Es el recurso que atribuye, por ejemplo, una cualidad sonora a un color."
-          },
+            "type": "multiple-choice",
+            "question": "«Tu risa es una ventana abierta.» ¿Qué figura es?",
+            "options": [
+              "metáfora",
+              "símil",
+              "hipérbole",
+              "sinestesia"
+            ],
+            "correctIndex": 0,
+            "explanation": "No hay nexo comparativo (como, igual que, cual): los términos se funden, así que es una metáfora. Con «tu risa es como una ventana abierta» sería un símil."
+          }
+        ]
+      },
+      {
+        "heading": "Personificación, sinestesia, hipérbole",
+        "body": [
+          "La personificación pone un verbo o un rasgo humano a un sujeto que no lo es: «la casa respiraba». La sinestesia une palabras de sentidos distintos: un adjetivo de color con un sonido («un silencio amarillo»). La hipérbole da una cantidad imposible: «te lo he dicho mil veces». Con esa pregunta (¿qué está unido a qué, y cómo?) identificas cualquier figura nueva."
+        ],
+        "examples": [
+          {
+            "es": "El reloj de la cocina vigilaba cada uno de sus pasos.",
+            "en": "The kitchen clock watched her every step. (personificación: vigilar es humano)"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. «Olía a un azul frío de madrugada.» ¿Qué figura es?",
@@ -20617,17 +25276,119 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La estructura narrativa: el arco, el clímax y la resolución",
+        "heading": "El símil certero",
         "body": [
-          "El arco narrativo traza la trayectoria completa de transformación que atraviesa un personaje o una situación desde el planteamiento inicial hasta su estado final, y su solidez depende de que cada etapa intermedia resulte una consecuencia comprensible de la anterior, sin saltos que el lector perciba como injustificados o apresurados.",
-          "El clímax narrativo concentra el punto de máxima tensión de la obra, aquel momento en que las fuerzas contrapuestas que ha ido desarrollando el relato finalmente entran en colisión directa. Un clímax eficaz no surge de la nada, sino que constituye la culminación lógica de una tensión narrativa cuidadosamente acumulada a lo largo de las páginas o las escenas anteriores.",
-          "Comenzar un relato in medias res, es decir, en pleno desarrollo de la acción y sin la exposición inicial que explica de manera lineal los antecedentes, genera una inmediatez que atrapa al lector desde la primera línea, aunque exige después reconstruir con habilidad, mediante la analepsis o algún otro recurso, la información que se había omitido deliberadamente al principio."
+          "El símil establece una comparación explícita entre dos elementos mediante un nexo comparativo, lo cual lo distingue de otras figuras que fusionan directamente los términos sin ese puente gramatical. Aunque suele considerarse un recurso más sencillo, un símil certero puede condensar en pocas palabras una imagen literaria de gran fuerza evocadora, siempre que evite la comparación previsible que ya ha perdido su capacidad de sorprender."
+        ],
+        "examples": [
+          {
+            "es": "el símil",
+            "en": "comparación explícita entre dos elementos mediante un nexo comparativo"
+          },
+          {
+            "es": "la imagen literaria",
+            "en": "representación sensorial vívida construida mediante recursos del lenguaje"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué símil ha perdido su capacidad de sorprender?",
+            "options": [
+              "Blanco como la nieve.",
+              "Callado como una estación de tren a las cuatro de la madrugada.",
+              "Frágil como el último fósforo de la caja.",
+              "Lento como una cola de hospital en agosto."
+            ],
+            "correctIndex": 0,
+            "explanation": "Un símil certero condensa una imagen con fuerza evocadora siempre que evite la comparación previsible. «Blanco como la nieve» está tan gastado que ya no sorprende; los otros crean imágenes nuevas."
+          }
+        ]
+      },
+      {
+        "heading": "Sinestesia y personificación",
+        "body": [
+          "La sinestesia mezcla deliberadamente percepciones que pertenecen a sentidos distintos, atribuyendo, por ejemplo, una cualidad sonora a un color o una textura a un silencio, y logra así una imagen literaria que desestabiliza la percepción habitual del lector, obligándolo a experimentar la escena de un modo genuinamente nuevo. La personificación, por su parte, atribuye cualidades o acciones propiamente humanas a lo que carece de ellas, dotando de una vida simbólica a objetos, fenómenos naturales o abstracciones."
+        ],
+        "examples": [
+          {
+            "es": "la sinestesia",
+            "en": "mezcla deliberada de percepciones pertenecientes a sentidos distintos"
+          },
+          {
+            "es": "la personificación",
+            "en": "atribución de cualidades o acciones humanas a lo que carece de ellas"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con la figura retórica adecuada.",
+            "sentence": "La ___ mezcla percepciones de sentidos distintos, como atribuir un sonido a un color.",
+            "answer": "sinestesia",
+            "explanation": "La sinestesia es precisamente la mezcla deliberada de percepciones pertenecientes a sentidos distintos.",
+            "hint": "Es el recurso que atribuye, por ejemplo, una cualidad sonora a un color."
+          }
+        ]
+      },
+      {
+        "heading": "La hipérbole",
+        "body": [
+          "La hipérbole exagera deliberadamente una cualidad o una acción hasta un extremo que ningún lector podría tomar en sentido literal, y precisamente esa exageración consciente es lo que le permite comunicar una intensidad emocional que una descripción moderada jamás lograría transmitir con la misma fuerza expresiva."
+        ],
+        "examples": [
+          {
+            "es": "la hipérbole",
+            "en": "exageración deliberada de una cualidad o una acción con fines expresivos"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase es una hipérbole?",
+            "options": [
+              "Llevo un siglo esperando el autobús.",
+              "El viento golpeaba la ventana.",
+              "Su voz era como terciopelo.",
+              "Llegué a las ocho y media."
+            ],
+            "correctIndex": 0,
+            "explanation": "La hipérbole exagera hasta un extremo que nadie toma en sentido literal («un siglo») para transmitir intensidad. «El viento golpeaba» es personificación, «como terciopelo» es un símil y la última frase es literal."
+          }
+        ]
+      },
+      {
+        "heading": "El arco narrativo",
+        "body": [
+          "El arco narrativo traza la trayectoria completa de transformación que atraviesa un personaje o una situación desde el planteamiento inicial hasta su estado final, y su solidez depende de que cada etapa intermedia resulte una consecuencia comprensible de la anterior, sin saltos que el lector perciba como injustificados o apresurados."
         ],
         "examples": [
           {
             "es": "el arco narrativo",
             "en": "trayectoria de transformación que atraviesa un personaje o una situación a lo largo de la obra"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿de qué depende la solidez de un arco narrativo?",
+            "options": [
+              "De que cada etapa sea una consecuencia comprensible de la anterior, sin saltos injustificados.",
+              "De que el personaje no cambie nunca.",
+              "De que haya muchos personajes secundarios.",
+              "De que el final sea siempre feliz."
+            ],
+            "correctIndex": 0,
+            "explanation": "El arco traza la transformación completa del personaje o la situación, y es sólido si cada etapa intermedia se sigue de la anterior. Un salto apresurado, sin preparación, lo debilita."
+          }
+        ]
+      },
+      {
+        "heading": "El clímax",
+        "body": [
+          "El clímax narrativo concentra el punto de máxima tensión de la obra, aquel momento en que las fuerzas contrapuestas que ha ido desarrollando el relato finalmente entran en colisión directa. Un clímax eficaz no surge de la nada, sino que constituye la culminación lógica de una tensión narrativa cuidadosamente acumulada a lo largo de las páginas o las escenas anteriores."
+        ],
+        "examples": [
           {
             "es": "el clímax narrativo",
             "en": "punto de máxima tensión de una obra, donde las fuerzas contrapuestas colisionan"
@@ -20635,18 +25396,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la resolución narrativa",
             "en": "momento en que el relato satisface la expectativa que había sembrado previamente"
-          },
-          {
-            "es": "el in medias res",
-            "en": "técnica de comenzar un relato en pleno desarrollo de la acción, sin exposición inicial"
-          },
-          {
-            "es": "la analepsis",
-            "en": "recurso narrativo que interrumpe el relato para volver a un momento anterior"
-          },
-          {
-            "es": "la digresión narrativa",
-            "en": "desvío del hilo principal del relato hacia un asunto secundario"
           }
         ],
         "checkpoint": [
@@ -20661,7 +25410,29 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto sostiene que un clímax eficaz culmina, de manera lógica, una tensión que el relato ha ido acumulando previamente. No surge de repente sin conexión con lo anterior, no tiene que estar al final absoluto y suele depender del arco de los personajes."
+          }
+        ]
+      },
+      {
+        "heading": "Empezar in medias res",
+        "body": [
+          "Comenzar un relato in medias res, es decir, en pleno desarrollo de la acción y sin la exposición inicial que explica de manera lineal los antecedentes, genera una inmediatez que atrapa al lector desde la primera línea, aunque exige después reconstruir con habilidad, mediante la analepsis o algún otro recurso, la información que se había omitido deliberadamente al principio."
+        ],
+        "examples": [
+          {
+            "es": "el in medias res",
+            "en": "técnica de comenzar un relato en pleno desarrollo de la acción, sin exposición inicial"
           },
+          {
+            "es": "la analepsis",
+            "en": "recurso narrativo que interrumpe el relato para volver a un momento anterior"
+          },
+          {
+            "es": "la digresión narrativa",
+            "en": "desvío del hilo principal del relato hacia un asunto secundario"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Aplica la idea. Un relato empieza así: «La bala ya había salido del arma cuando Julia entendió quién disparaba». ¿Qué técnica estructural usa?",
@@ -20803,14 +25574,52 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "En la práctica (1): el clímax sin preparar",
         "body": [
           "Editora: Tu primer borrador tiene una prosa cuidada, pero el clímax parece desconectado del resto. ¿Qué tensión narrativa lo prepara?",
           "Escritor: Sinceramente, ninguna todavía. Lo escribí primero y pensaba sembrar la prefiguración necesaria después.",
-          "Editora: Ese orden puede funcionar, pero revisa cada escena anterior para plantar al menos un indicio que, en retrospectiva, justifique ese giro.",
+          "Editora: Ese orden puede funcionar, pero revisa cada escena anterior para plantar al menos un indicio que, en retrospectiva, justifique ese giro."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué le aconseja la editora para que el clímax no parezca desconectado?",
+            "options": [
+              "Revisar las escenas anteriores y plantar al menos un indicio que justifique el giro.",
+              "Eliminar el clímax.",
+              "Escribir primero el final y no tocar nada más.",
+              "Añadir una digresión antes del clímax."
+            ],
+            "correctIndex": 0,
+            "explanation": "La editora pide sembrar la prefiguración: «revisa cada escena anterior para plantar al menos un indicio que, en retrospectiva, justifique ese giro». Una digresión retrasaría la acción, justo lo que critica después."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): ¿qué narrador?",
+        "body": [
           "Escritor: ¿Y qué opinas de la voz narrativa? Dudo entre un narrador confiable y uno más ambiguo.",
           "Editora: Dado que tu protagonista se autoengaña constantemente, un narrador poco confiable encajaría mejor con esa psicología.",
-          "Escritor: Tiene sentido. Así el lector desconfiaría de sus justificaciones, aunque el propio personaje se las crea.",
+          "Escritor: Tiene sentido. Así el lector desconfiaría de sus justificaciones, aunque el propio personaje se las crea."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Por qué la editora propone un narrador poco confiable?",
+            "options": [
+              "Porque el protagonista se autoengaña, y así el lector desconfiará de sus justificaciones.",
+              "Porque es más fácil de escribir.",
+              "Porque el protagonista nunca miente.",
+              "Porque así se evita el monólogo interior."
+            ],
+            "correctIndex": 0,
+            "explanation": "Un narrador poco confiable encaja con un protagonista que se autoengaña: el lector desconfía de sus justificaciones aunque el personaje se las crea."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (3): recortar la digresión",
+        "body": [
           "Editora: Exacto. Y cuidado con el monólogo interior del capítulo tres: se vuelve una digresión narrativa que retrasa demasiado la acción.",
           "Escritor: Lo recortaré. Prefiero sostener la tensión hasta el clímax en lugar de diluirla en detalles secundarios."
         ],
@@ -20830,7 +25639,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Vocabulario: las técnicas literarias",
+        "heading": "Vocabulario: técnicas literarias avanzadas",
         "body": [
           "34 palabras relacionadas con las técnicas literarias."
         ],
@@ -20971,6 +25780,31 @@ const C2_BASE_LESSONS: Lesson[] = [
             "es": "el asíndeton",
             "en": "supresión deliberada de conjunciones entre elementos de una enumeración"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada término con su definición.",
+            "pairs": [
+              {
+                "left": "la analepsis",
+                "right": "vuelta a un momento anterior del relato"
+              },
+              {
+                "left": "la prolepsis",
+                "right": "anticipación de un acontecimiento futuro"
+              },
+              {
+                "left": "el in medias res",
+                "right": "empezar en plena acción, sin exposición"
+              },
+              {
+                "left": "el asíndeton",
+                "right": "supresión de conjunciones en una enumeración"
+              }
+            ],
+            "explanation": "Analepsis (flashback): mirar atrás. Prolepsis: anticipar lo que vendrá. In medias res: empezar en mitad de la acción. Asíndeton: enumerar sin conjunciones («llegué, vi, vencí»)."
+          }
         ]
       }
     ],
@@ -21081,11 +25915,29 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: el modismo es una pieza fija",
+        "body": [
+          "Recuerda la regla de esta unidad: un modismo es una pieza fija. Su sentido no se deduce de sus palabras, y por eso no admite cambios: ni en el número («a pie juntillas», nunca «a pie junto»), ni en la polaridad (los negativos exigen negación), ni en el pronombre (la de «liarla» no se refiere a nada y no se puede quitar). Lo que sí cambia es el verbo: se conjuga con normalidad."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a «tomar el pelo» (burlarse). ¿Qué frase es correcta?",
+            "options": [
+              "Nos tomaron el pelo.",
+              "Nos tomaron los pelos.",
+              "Nos tomaron un pelo.",
+              "Nos tomaron el cabello."
+            ],
+            "correctIndex": 0,
+            "explanation": "En un modismo solo se conjuga el verbo (tomaron); el resto es fijo. «Los pelos» cambia el número, «un pelo» cambia el determinante y «el cabello» cambia la palabra: con cualquiera de esos cambios la frase pierde el sentido de burla."
+          }
+        ]
+      },
+      {
         "heading": "Locuciones adverbiales de uso culto",
         "body": [
-          "Recuerda la regla de esta unidad: un modismo es una pieza fija. Su sentido no se deduce de sus palabras, y por eso no admite cambios: ni en el número («a pie juntillas», nunca «a pie junto»), ni en la polaridad (los negativos exigen negación), ni en el pronombre (la de «liarla» no se refiere a nada y no se puede quitar). Lo que sí cambia es el verbo: se conjuga con normalidad.",
-          "En el nivel Profesional y Académico no basta con reconocer una locución: hay que saber su matiz exacto. «A regañadientes» es hacer algo de mala gana pero hacerlo; «a pie juntillas» es creer algo sin la menor duda (casi siempre con «creer» o «seguir»); «a bote pronto» es responder sin haberlo pensado; «a troche y moche» es repartir algo sin orden ni medida; «de buenas a primeras» es de repente, sin aviso; «a ojo de buen cubero» es calcular a ojo, sin medir.",
-          "Todas las conoce un hablante culto de España; «a bote pronto» es más frecuente en España, mientras que «a troche y moche» y «a ojo de buen cubero» se usan y se entienden también en gran parte de América; aparecen tanto en la conversación como en la prensa. Son fijas: no se dice «a pie junto» ni «a regañadiente»."
+          "En el nivel Profesional y Académico no basta con reconocer una locución: hay que saber su matiz exacto. «A regañadientes» es hacer algo de mala gana pero hacerlo; «a pie juntillas» es creer algo sin la menor duda (casi siempre con «creer» o «seguir»); «a bote pronto» es responder sin haberlo pensado; «a troche y moche» es repartir algo sin orden ni medida; «de buenas a primeras» es de repente, sin aviso; «a ojo de buen cubero» es calcular a ojo, sin medir."
         ],
         "examples": [
           {
@@ -21129,6 +25981,26 @@ const C2_BASE_LESSONS: Lesson[] = [
             "answer": "regañadientes",
             "explanation": "«A regañadientes» (en una sola palabra, en plural) = de mala gana, pero haciéndolo. No se dice «a regañadiente».",
             "en": "He signed the agreement [reluctantly], because he had no other choice."
+          }
+        ]
+      },
+      {
+        "heading": "Dónde se usan y por qué no cambian",
+        "body": [
+          "Todas las conoce un hablante culto de España; «a bote pronto» es más frecuente en España, mientras que «a troche y moche» y «a ojo de buen cubero» se usan y se entienden también en gran parte de América; aparecen tanto en la conversación como en la prensa. Son fijas: no se dice «a pie junto» ni «a regañadiente»."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Calculas sin medir la harina de un bizcocho. ¿Qué forma de la locución es la fijada?",
+            "options": [
+              "a ojo de buen cubero",
+              "a ojos de buen cubero",
+              "a ojo de buenos cuberos",
+              "al ojo de buen cubero"
+            ],
+            "correctIndex": 0,
+            "explanation": "La locución es fija: «a ojo de buen cubero», con «ojo» y «cubero» en singular y sin artículo. Igual que no se dice «a pie junto» ni «a regañadiente», cualquier cambio en el número o en la preposición la estropea."
           }
         ]
       },
@@ -21339,9 +26211,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: cada modismo tiene un mapa",
+        "body": [
+          "Recuerda la regla: cada modismo tiene un mapa. La forma neutra («faltar a clase», «rendirse», «complicar algo») sirve en todas partes; la regional suena natural en su zona e impostada fuera de ella. Antes de usar un modismo, pregúntate dónde se dice y con quién hablas."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Escribes un correo a colegas de cinco países sobre alumnos que no van a clase sin permiso. ¿Qué forma eliges?",
+            "options": [
+              "faltan a clase",
+              "hacen novillos",
+              "se hacen la rata",
+              "se van de pinta"
+            ],
+            "correctIndex": 0,
+            "explanation": "La forma neutra sirve en todas partes: «faltar a clase». «Hacer novillos» es de España, «hacerse la rata» del Río de la Plata e «irse de pinta» de México: cada una suena natural en su zona e impostada fuera de ella."
+          }
+        ]
+      },
+      {
         "heading": "Un concepto, cinco países",
         "body": [
-          "Recuerda la regla: cada modismo tiene un mapa. La forma neutra («faltar a clase», «rendirse», «complicar algo») sirve en todas partes; la regional suena natural en su zona e impostada fuera de ella. Antes de usar un modismo, pregúntate dónde se dice y con quién hablas.",
           "Faltar a clase sin permiso tiene nombre propio en cada país: «hacer novillos» o «hacer pellas» (España), «irse de pinta» (México), «hacerse la rata» (Argentina, Uruguay), «capar clase» (Colombia), «hacer la cimarra» (Chile). La forma neutra, válida en todas partes, es «faltar a clase» o «saltarse las clases».",
           "Un hablante C2 no necesita usar todas, pero sí reconocerlas y evitar las de otro país cuando habla con alguien de allí, porque suenan impostadas."
         ],
@@ -21388,15 +26279,36 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Variantes del mismo modismo",
         "body": [
-          "A veces el modismo es el mismo con una pieza cambiada: «buscarle tres pies al gato» (general) y «buscarle la quinta pata al gato» (Río de la Plata, también en otras zonas de América) = complicar algo innecesariamente o buscar problemas donde no los hay. «A caballo regalado no le mires el diente» se oye en México como «A caballo dado no se le ve colmillo» (en otras zonas de América, «…no se le mira el colmillo»). «Tirar la toalla» es general; en México también se dice «pedir cacao» (rendirse).",
-          "Hay modismos claramente peninsulares que en América pueden no entenderse: «echar balones fuera» (eludir una responsabilidad), «tirar de la manta» (destapar un asunto turbio), «estar en la luna de Valencia» (estar distraído), «tener enchufe» (en gran parte de América: «tener palanca»).",
-          "Y otros claramente americanos: «dar papaya» (Colombia: dar facilidades para que te engañen o te roben), «dar el avión» (México: fingir que se escucha o se está de acuerdo), «ponerse la camiseta» (Río de la Plata, Chile: comprometerse con un grupo o empresa)."
+          "A veces el modismo es el mismo con una pieza cambiada: «buscarle tres pies al gato» (general) y «buscarle la quinta pata al gato» (Río de la Plata, también en otras zonas de América) = complicar algo innecesariamente o buscar problemas donde no los hay. «A caballo regalado no le mires el diente» se oye en México como «A caballo dado no se le ve colmillo» (en otras zonas de América, «…no se le mira el colmillo»). «Tirar la toalla» es general; en México también se dice «pedir cacao» (rendirse)."
         ],
         "examples": [
           {
             "es": "No le busques la quinta pata al gato: el contrato es claro. (Río de la Plata)",
             "en": "Don't overcomplicate it: the contract is clear."
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un colega mexicano cuenta que su rival «pidió cacao» en la negociación. ¿Qué hizo el rival?",
+            "options": [
+              "Se rindió",
+              "Pidió una bebida",
+              "Pidió dinero prestado",
+              "Exigió más tiempo"
+            ],
+            "correctIndex": 0,
+            "explanation": "En México «pedir cacao» equivale al general «tirar la toalla»: rendirse. Es la misma idea con otra pieza, no una petición literal de bebida, de dinero o de tiempo."
+          }
+        ]
+      },
+      {
+        "heading": "Modismos peninsulares y modismos americanos",
+        "body": [
+          "Hay modismos claramente peninsulares que en América pueden no entenderse: «echar balones fuera» (eludir una responsabilidad), «tirar de la manta» (destapar un asunto turbio), «estar en la luna de Valencia» (estar distraído), «tener enchufe» (en gran parte de América: «tener palanca»).",
+          "Y otros claramente americanos: «dar papaya» (Colombia: dar facilidades para que te engañen o te roben), «dar el avión» (México: fingir que se escucha o se está de acuerdo), «ponerse la camiseta» (Río de la Plata, Chile: comprometerse con un grupo o empresa)."
+        ],
+        "examples": [
           {
             "es": "No des papaya dejando el móvil en la mesa. (Colombia)",
             "en": "Don't make yourself an easy target by leaving your phone on the table."
@@ -21559,9 +26471,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: del modismo a su contenido",
+        "body": [
+          "Recuerda la regla: un modismo de titular se entiende traduciéndolo a su contenido (quién gana, quién protesta, quién oculta), y en un texto formal se sustituye por ese contenido. El juego del columnista solo funciona si conoces la forma exacta."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Titular: «El ministro, en el ojo del huracán». ¿Qué escribirías en un informe formal?",
+            "options": [
+              "El ministro está en el centro de la polémica.",
+              "El ministro ha sufrido una tormenta.",
+              "El ministro está de viaje en el Caribe.",
+              "El ministro se ha llevado el gato al agua."
+            ],
+            "correctIndex": 0,
+            "explanation": "En un texto formal el modismo se sustituye por su contenido: «estar en el ojo del huracán» = estar en el centro de la polémica. Leerlo literalmente (tormenta, Caribe) es no reconocerlo, y «llevarse el gato al agua» significa ganar, que es otra cosa."
+          }
+        ]
+      },
+      {
         "heading": "El modismo en el titular",
         "body": [
-          "Recuerda la regla: un modismo de titular se entiende traduciéndolo a su contenido (quién gana, quién protesta, quién oculta), y en un texto formal se sustituye por ese contenido. El juego del columnista solo funciona si conoces la forma exacta.",
           "La prensa española y latinoamericana usa modismos para dar color a los titulares: «La oposición pone el grito en el cielo» (protesta con vehemencia), «La patronal se lleva el gato al agua» (gana la disputa), «Los especuladores hacen su agosto» (hacen un gran negocio aprovechando la ocasión), «El sector se rasga las vestiduras» (se escandaliza, a menudo con hipocresía), «El Gobierno corre un tupido velo sobre el informe» (evita hablar de algo incómodo).",
           "Para entender el titular hay que traducir el modismo a su contenido: quién gana, quién protesta, quién oculta."
         ],
@@ -21796,11 +26727,30 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Lo que se calla también se entiende",
+        "heading": "Recuerda la regla: el refrán tiene dos mitades",
         "body": [
           "Recuerda la regla: el refrán es un texto fijo de dos mitades. En la conversación se dice la primera y se calla la segunda, porque el interlocutor la completa; en la escritura culta se introduce con una fórmula («como reza el refrán»). Por eso conviene saberlo entero y exacto: solo así puedes truncarlo con naturalidad.",
-          "En la conversación culta el refrán se trunca: «Ya sabes: cuando el río suena…» (agua lleva: si se rumorea algo, algo de cierto habrá); «Del dicho al hecho…» (hay mucho trecho: prometer es fácil, cumplir no); «Quien a buen árbol se arrima…» (buena sombra le cobija: quien tiene buenos protectores sale beneficiado); «A falta de pan…» (buenas son tortas: a falta de lo ideal, uno se conforma con lo que hay); «Ojos que no ven…» (corazón que no siente).",
           "Truncar el refrán es un guiño de complicidad: da por hecho que el interlocutor comparte el refranero. Si lo citas entero en una conversación, puede sonar sentencioso."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Charlas con un amigo de que ha perdido una oferta por esperar demasiado. ¿Qué es lo más natural?",
+            "options": [
+              "Decir «Ya sabes: más vale pájaro en mano…» y callar el resto.",
+              "Decir «Como reza el refrán, más vale pájaro en mano que ciento volando».",
+              "Decir «Más vale pájaro en mano que muchos por el aire».",
+              "Explicar primero qué es un refrán y luego citarlo."
+            ],
+            "correctIndex": 0,
+            "explanation": "En la conversación se dice la primera mitad y se calla la segunda: el amigo la completa, y ese es el guiño. La fórmula «como reza el refrán» con el refrán entero es propia de la escritura culta y en una charla suena sentenciosa; y el refrán no se improvisa: la segunda mitad es «que ciento volando»."
+          }
+        ]
+      },
+      {
+        "heading": "Lo que se calla también se entiende",
+        "body": [
+          "En la conversación culta el refrán se trunca: «Ya sabes: cuando el río suena…» (agua lleva: si se rumorea algo, algo de cierto habrá); «Del dicho al hecho…» (hay mucho trecho: prometer es fácil, cumplir no); «Quien a buen árbol se arrima…» (buena sombra le cobija: quien tiene buenos protectores sale beneficiado); «A falta de pan…» (buenas son tortas: a falta de lo ideal, uno se conforma con lo que hay); «Ojos que no ven…» (corazón que no siente)."
         ],
         "examples": [
           {
@@ -22013,11 +26963,34 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Fósiles gramaticales",
+        "heading": "Recuerda la regla: el refrán conserva su gramática",
         "body": [
-          "Recuerda la regla: el refrán conserva la gramática de cuando nació. Para entenderlo, reconoce el fósil (futuro de subjuntivo, «do», «quien» genérico); para usarlo hoy fuera del refrán, sustitúyelo por la forma actual: fuere → sea / vaya, causare → cause.",
-          "Los refranes conservan formas que el español actual ya no usa: el futuro de subjuntivo («Donde fueres, haz lo que vieres»; «Adonde fueres, haz como vieres»), el adverbio «do» por «donde» («Allá van leyes do quieren reyes»), el pronombre «quien» sin antecedente y con valor genérico («Quien bien te quiere te hará llorar»; «Quien calla, otorga»).",
-          "El futuro de subjuntivo (fuere, hubiere, hiciere) sobrevive hoy en textos jurídicos («el que causare un daño…») y en fórmulas fijas («sea lo que fuere»). En el habla corriente se sustituye por el presente de subjuntivo: «Donde vayas, haz lo que veas»."
+          "Recuerda la regla: el refrán conserva la gramática de cuando nació. Para entenderlo, reconoce el fósil (futuro de subjuntivo, «do», «quien» genérico); para usarlo hoy fuera del refrán, sustitúyelo por la forma actual: fuere → sea / vaya, causare → cause."
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué formas son fósiles que solo sobreviven en refranes y textos antiguos?",
+            "options": [
+              "dijere",
+              "do (por «donde»)",
+              "hubiere",
+              "dijera",
+              "donde"
+            ],
+            "correctIndexes": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "«Dijere» y «hubiere» son futuro de subjuntivo, y «do» es la forma antigua de «donde»: son fósiles. «Dijera» es el imperfecto de subjuntivo, vivo hoy («si dijera»), y «donde» es la forma actual."
+          }
+        ]
+      },
+      {
+        "heading": "Fósiles gramaticales: fueres, do, quien",
+        "body": [
+          "Los refranes conservan formas que el español actual ya no usa: el futuro de subjuntivo («Donde fueres, haz lo que vieres»; «Adonde fueres, haz como vieres»), el adverbio «do» por «donde» («Allá van leyes do quieren reyes»), el pronombre «quien» sin antecedente y con valor genérico («Quien bien te quiere te hará llorar»; «Quien calla, otorga»)."
         ],
         "examples": [
           {
@@ -22045,6 +27018,26 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Son formas del futuro de subjuntivo (fuere, fueres; viere, vieres), hoy fosilizadas en refranes y en el lenguaje jurídico. No son imperfecto de subjuntivo (fueras/fueses, vieras/vieses), ni condicional (irías, verías), ni erratas."
+          }
+        ]
+      },
+      {
+        "heading": "Dónde sobrevive el futuro de subjuntivo",
+        "body": [
+          "El futuro de subjuntivo (fuere, hubiere, hiciere) sobrevive hoy en textos jurídicos («el que causare un daño…») y en fórmulas fijas («sea lo que fuere»). En el habla corriente se sustituye por el presente de subjuntivo: «Donde vayas, haz lo que veas»."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un estatuto dice: «El socio que incumpliere sus obligaciones será expulsado». En un correo actual escribirías: «El socio que ___ sus obligaciones será expulsado».",
+            "options": [
+              "incumpla",
+              "incumplía",
+              "incumpliría",
+              "incumplió"
+            ],
+            "correctIndex": 0,
+            "explanation": "Fuera del texto jurídico, el futuro de subjuntivo (incumpliere) se sustituye por el presente de subjuntivo: incumpla, porque es una hipótesis futura. «Incumplía» e «incumplió» hablan de un hecho pasado, e «incumpliría» es condicional."
           }
         ]
       },
@@ -22205,11 +27198,30 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "El refranero americano",
+        "heading": "Recuerda la regla: una pieza cambia según el país",
         "body": [
           "Recuerda la regla: un refrán es una fórmula fija. Puede cambiar una pieza según la zona (diente/colmillo, «le»/«lo» según haya leísmo o no), pero no se improvisa; y hoy se cita a menudo para desmontarlo con ironía o para oponerle otro refrán contrario.",
-          "Muchos refranes son panhispánicos, pero América tiene los suyos: «Camarón que se duerme se lo lleva la corriente» (quien se descuida pierde la oportunidad; muy vivo en toda América y también conocido en España); «El que nace pa'tamal, del cielo le caen las hojas» (México y Centroamérica: el destino de cada uno está escrito); «No hay peor astilla que la del mismo palo» (general: el peor enemigo es el cercano); «Más vale malo conocido que bueno por conocer» (general).",
           "Otros cambian una pieza según el país: «A caballo regalado no le mires el diente» (España) / «…no se le mira el colmillo» (América); «Al que madruga, Dios lo ayuda» (América, con «lo») / «A quien madruga, Dios le ayuda» (España, con leísmo)."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Al que madruga, Dios lo ayuda» frente a «A quien madruga, Dios le ayuda». ¿Qué explica la diferencia de pronombre?",
+            "options": [
+              "La forma con «le» refleja el leísmo peninsular; en América se usa «lo»",
+              "Una de las dos es un error",
+              "«Le» es plural",
+              "«Lo» se refiere a Dios"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Ayudar» es transitivo, por lo que la forma etimológica es «lo»; la variante con «le» refleja el leísmo de persona, aceptado y frecuente en España. Ninguna es un error; «le» no es plural (sería «les») y el pronombre se refiere al que madruga, no a Dios."
+          }
+        ]
+      },
+      {
+        "heading": "El refranero americano",
+        "body": [
+          "Muchos refranes son panhispánicos, pero América tiene los suyos: «Camarón que se duerme se lo lleva la corriente» (quien se descuida pierde la oportunidad; muy vivo en toda América y también conocido en España); «El que nace pa'tamal, del cielo le caen las hojas» (México y Centroamérica: el destino de cada uno está escrito); «No hay peor astilla que la del mismo palo» (general: el peor enemigo es el cercano); «Más vale malo conocido que bueno por conocer» (general)."
         ],
         "examples": [
           {
@@ -22224,15 +27236,15 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "«Al que madruga, Dios lo ayuda» frente a «A quien madruga, Dios le ayuda». ¿Qué explica la diferencia de pronombre?",
+            "question": "Un colega te cuenta que lo ha traicionado su propio socio y añade: «No hay peor astilla que la del mismo palo». ¿Qué quiere decir?",
             "options": [
-              "La forma con «le» refleja el leísmo peninsular; en América se usa «lo»",
-              "Una de las dos es un error",
-              "«Le» es plural",
-              "«Lo» se refiere a Dios"
+              "Que el peor daño viene de alguien cercano",
+              "Que el socio se parece mucho a su padre",
+              "Que el socio trabaja con madera",
+              "Que el socio es nuevo en la empresa"
             ],
             "correctIndex": 0,
-            "explanation": "«Ayudar» es transitivo, por lo que la forma etimológica es «lo»; la variante con «le» refleja el leísmo de persona, aceptado y frecuente en España. Ninguna es un error; «le» no es plural (sería «les») y el pronombre se refiere al que madruga, no a Dios."
+            "explanation": "«No hay peor astilla que la del mismo palo» = el peor enemigo es el de casa. No hay que confundirlo con «De tal palo, tal astilla», que habla del parecido entre padres e hijos; y no tiene sentido literal de madera."
           }
         ]
       },
@@ -22404,11 +27416,29 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: latinismos exactos, partes fijas",
+        "body": [
+          "Recuerda la regla: el foro conserva latinismos con un sentido técnico preciso, que se escriben en cursiva, sin tilde y sin añadidos («motu proprio», no «de motu propio»); los escritos procesales tienen partes fijas (EXPONE, SUPLICO, FALLO), y la misma figura jurídica cambia de nombre de un país a otro."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla: el latinismo se escribe sin añadidos. ¿Qué forma es la correcta?",
+            "options": [
+              "Defienden el statu quo.",
+              "Defienden el status quo.",
+              "Defienden el estatus quo.",
+              "Defienden el statu cuo."
+            ],
+            "correctIndex": 0,
+            "explanation": "La locución latina es «statu quo», sin -s final. «Status quo» es la forma inglesa, «estatus quo» mezcla una palabra adaptada con otra latina y «cuo» castellaniza a medias: el latinismo no se toca."
+          }
+        ]
+      },
+      {
         "heading": "Latinismos que se usan de verdad",
         "body": [
-          "Recuerda la regla: el foro conserva latinismos con un sentido técnico preciso, que se escriben en cursiva, sin tilde y sin añadidos («motu proprio», no «de motu propio»); los escritos procesales tienen partes fijas (EXPONE, SUPLICO, FALLO), y la misma figura jurídica cambia de nombre de un país a otro.",
-          "El lenguaje jurídico conserva latinismos que un jurista usa a diario: «in dubio pro reo» (en caso de duda, se favorece al acusado), «iuris tantum» (presunción que admite prueba en contrario) frente a «iuris et de iure» (presunción que no la admite), «a quo» (el tribunal de cuya resolución se recurre) y «ad quem» (el tribunal ante el que se recurre), «sub iudice» (pendiente de resolución judicial), «non bis in idem» (nadie puede ser sancionado dos veces por el mismo hecho), «ab intestato» (sin testamento), «de facto» / «de iure» (de hecho / de derecho).",
-          "Según la Ortografía de la RAE (2010), los latinismos no adaptados se escriben en cursiva y sin tildes: «sub iudice», no «sub júdice» (aunque la forma adaptada «subjúdice» también existe). Y se dicen sin añadidos: «a priori», no «a prioris»; «motu proprio», no «de motu propio»."
+          "El lenguaje jurídico conserva latinismos que un jurista usa a diario: «in dubio pro reo» (en caso de duda, se favorece al acusado), «iuris tantum» (presunción que admite prueba en contrario) frente a «iuris et de iure» (presunción que no la admite), «a quo» (el tribunal de cuya resolución se recurre) y «ad quem» (el tribunal ante el que se recurre), «sub iudice» (pendiente de resolución judicial), «non bis in idem» (nadie puede ser sancionado dos veces por el mismo hecho), «ab intestato» (sin testamento), «de facto» / «de iure» (de hecho / de derecho)."
         ],
         "examples": [
           {
@@ -22436,7 +27466,15 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«Iuris et de iure» es la presunción absoluta, que no admite prueba en contrario. «Iuris tantum» es justamente la que sí la admite; «in dubio pro reo» es un principio sobre la duda en materia penal y «ad quem» designa al tribunal que resuelve un recurso."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Cómo se escriben: cursiva, sin tilde, sin añadidos",
+        "body": [
+          "Según la Ortografía de la RAE (2010), los latinismos no adaptados se escriben en cursiva y sin tildes: «sub iudice», no «sub júdice» (aunque la forma adaptada «subjúdice» también existe). Y se dicen sin añadidos: «a priori», no «a prioris»; «motu proprio», no «de motu propio»."
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "¿Qué forma es correcta en un escrito cuidado?",
@@ -22659,40 +27697,49 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Remitir a lo ya dicho",
+        "heading": "Recuerda la regla: remitir a lo ya dicho",
         "body": [
           "Recuerda la regla: el texto jurídico busca no dejar dudas. Por eso remite con anafóricos («dicho», «el citado»), reparte con «sendos» (uno para cada uno), conserva el futuro de subjuntivo en la hipótesis normativa («si no abonare») y distingue verbos que no son sinónimos: «cabe» (es posible), «procede» (corresponde), «ha lugar» (se accede).",
-          "El texto jurídico evita la ambigüedad repitiendo referentes con anafóricos: «dicho contrato», «el citado artículo», «el referido inmueble», «el meritado informe» (muy formal), «el susodicho» (hoy suena arcaico o irónico fuera del foro). Todos remiten a algo mencionado antes.",
-          "El uso de «el mismo / la misma» como pronombre («Se entregó el informe y se firmó el mismo») es muy frecuente en el lenguaje administrativo, pero la RAE lo desaconseja: basta con un pronombre o un posesivo («se entregó el informe y se firmó», «su firma»).",
-          "«Sendos» no significa «ambos» ni «grandes»: significa «uno para cada uno». «Los dos acusados presentaron sendos recursos» = cada acusado presentó un recurso."
+          "El texto jurídico evita la ambigüedad repitiendo referentes con anafóricos: «dicho contrato», «el citado artículo», «el referido inmueble», «el meritado informe» (muy formal), «el susodicho» (hoy suena arcaico o irónico fuera del foro). Todos remiten a algo mencionado antes."
         ],
         "examples": [
           {
-            "es": "Los dos socios firmaron sendos avales.",
-            "en": "Each of the two partners signed a guarantee."
-          },
-          {
             "es": "Dicho contrato quedará resuelto de pleno derecho.",
             "en": "The said contract shall be terminated automatically."
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué expresiones remiten a algo mencionado antes en el texto?",
+            "options": [
+              "el citado decreto",
+              "dicha cláusula",
+              "el referido local",
+              "un decreto nuevo",
+              "cualquier cláusula"
+            ],
+            "correctIndexes": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "«Citado», «dicho» y «referido» son anafóricos: señalan algo que ya apareció. «Un decreto nuevo» introduce algo por primera vez (artículo indeterminado) y «cualquier cláusula» no apunta a ninguna en concreto."
+          }
+        ]
+      },
+      {
+        "heading": "«El mismo» como pronombre: mejor evitarlo",
+        "body": [
+          "El uso de «el mismo / la misma» como pronombre («Se entregó el informe y se firmó el mismo») es muy frecuente en el lenguaje administrativo, pero la RAE lo desaconseja: basta con un pronombre o un posesivo («se entregó el informe y se firmó», «su firma»)."
+        ],
+        "examples": [
           {
             "es": "Se recibió la solicitud y se tramitó. (mejor que «y se tramitó la misma»)",
             "en": "The application was received and processed."
           }
         ],
         "checkpoint": [
-          {
-            "type": "multiple-choice",
-            "question": "«Las tres empresas recibieron sendas multas.» ¿Qué se afirma?",
-            "options": [
-              "Que cada empresa recibió una multa",
-              "Que las tres recibieron multas enormes",
-              "Que las tres compartieron una sola multa",
-              "Que ambas empresas fueron multadas"
-            ],
-            "correctIndex": 0,
-            "explanation": "«Sendos/as» es distributivo: uno para cada uno. No significa «grandes» (error frecuente), no implica una única multa compartida y no equivale a «ambos», que además no encaja con tres empresas."
-          },
           {
             "type": "multiple-choice",
             "question": "¿Qué versión recomienda la RAE?",
@@ -22708,9 +27755,54 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Futuro de subjuntivo y verbos de la resolución",
+        "heading": "«Sendos»: uno para cada uno",
         "body": [
-          "Las normas tradicionales usan el futuro de subjuntivo en la prótasis: «El que causare daño a otro…», «Si el arrendatario no abonare la renta…». En textos modernos se sustituye por el presente de subjuntivo o de indicativo («el que cause», «si no abona»), pero el futuro sigue en contratos y estatutos.",
+          "«Sendos» no significa «ambos» ni «grandes»: significa «uno para cada uno». «Los dos acusados presentaron sendos recursos» = cada acusado presentó un recurso."
+        ],
+        "examples": [
+          {
+            "es": "Los dos socios firmaron sendos avales.",
+            "en": "Each of the two partners signed a guarantee."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Las tres empresas recibieron sendas multas.» ¿Qué se afirma?",
+            "options": [
+              "Que cada empresa recibió una multa",
+              "Que las tres recibieron multas enormes",
+              "Que las tres compartieron una sola multa",
+              "Que ambas empresas fueron multadas"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Sendos/as» es distributivo: uno para cada uno. No significa «grandes» (error frecuente), no implica una única multa compartida y no equivale a «ambos», que además no encaja con tres empresas."
+          }
+        ]
+      },
+      {
+        "heading": "Futuro de subjuntivo en la norma",
+        "body": [
+          "Las normas tradicionales usan el futuro de subjuntivo en la prótasis: «El que causare daño a otro…», «Si el arrendatario no abonare la renta…». En textos modernos se sustituye por el presente de subjuntivo o de indicativo («el que cause», «si no abona»), pero el futuro sigue en contratos y estatutos."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Versión moderna de «Si el comprador no pagare en plazo, el contrato quedará resuelto».",
+            "options": [
+              "Si el comprador no paga en plazo, el contrato quedará resuelto.",
+              "Si el comprador no pague en plazo, el contrato quedará resuelto.",
+              "Si el comprador no pagará en plazo, el contrato quedará resuelto.",
+              "Si el comprador no pagaría en plazo, el contrato quedará resuelto."
+            ],
+            "correctIndex": 0,
+            "explanation": "El futuro de subjuntivo de la prótasis (pagare) se sustituye hoy por el presente: con «si» va el de indicativo, «si no paga». «Si no pague» es incorrecto, porque «si» condicional no admite presente de subjuntivo, y tampoco admite futuro (pagará) ni condicional (pagaría)."
+          }
+        ]
+      },
+      {
+        "heading": "Cabe, procede, ha lugar",
+        "body": [
           "Tres verbos de la resolución que no son sinónimos: «procede» (es lo que corresponde según la norma: «Procede estimar el recurso»), «cabe» (es posible o admisible: «Contra esta resolución cabe recurso de alzada»), «ha lugar» (se accede a lo pedido; casi siempre en negativo: «No ha lugar»). «Conviene» es una recomendación, no una conclusión jurídica.",
           "«A la sazón» significa «en aquel momento»: «el ministro, a la sazón presidente del partido» = que entonces era presidente."
         ],
@@ -22867,9 +27959,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: cada término, un efecto",
+        "body": [
+          "Recuerda la regla: cada conector y cada término de la cláusula delimita un efecto jurídico distinto. «Salvo pacto en contrario» deja margen a las partes, «sin perjuicio de» deja a salvo otra acción; se resuelve por incumplimiento y se anula por un vicio de origen; la fuerza mayor es ajena a la actividad, el caso fortuito no."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«El pago se hará al contado, salvo pacto en contrario.» ¿Pueden las partes acordar un pago a plazos?",
+            "options": [
+              "Sí: la cláusula deja margen a otro acuerdo.",
+              "No: el contado es obligatorio en todo caso.",
+              "Solo si lo autoriza un juez.",
+              "Solo si el contrato no está firmado."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Salvo pacto en contrario» fija una regla por defecto y deja margen a las partes para acordar otra cosa. No impone el contado sin excepción, y no exige autorización judicial ni depende de la firma."
+          }
+        ]
+      },
+      {
         "heading": "Conectores de la cláusula",
         "body": [
-          "Recuerda la regla: cada conector y cada término de la cláusula delimita un efecto jurídico distinto. «Salvo pacto en contrario» deja margen a las partes, «sin perjuicio de» deja a salvo otra acción; se resuelve por incumplimiento y se anula por un vicio de origen; la fuerza mayor es ajena a la actividad, el caso fortuito no.",
           "Las cláusulas se construyen con conectores que delimitan con precisión: «salvo pacto en contrario» (a menos que las partes acuerden otra cosa), «sin perjuicio de» (sin excluir, dejando a salvo: «sin perjuicio de las acciones que correspondan»), «a todos los efectos» (para cualquier consecuencia jurídica), «en su defecto» (si falta lo anterior), «de común acuerdo», «con carácter previo».",
           "«Sin perjuicio de» es un falso amigo interno: no significa «sin daño», sino «sin que esto impida»."
         ],
@@ -22899,24 +28010,14 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Cláusulas típicas y distinciones finas",
+        "heading": "Fuerza mayor y caso fortuito",
         "body": [
-          "«Fuerza mayor» es un hecho imprevisible o inevitable y ajeno a las partes (una guerra, un terremoto); «caso fortuito» es un hecho imprevisible, pero ligado a la actividad del obligado (la avería de una máquina propia). La distinción importa porque muchas cláusulas exoneran solo por fuerza mayor.",
-          "La «cláusula penal» fija de antemano la indemnización por incumplimiento; la «cláusula resolutoria» permite extinguir el contrato si una parte incumple; la «cláusula de confidencialidad» obliga a guardar secreto. «Rescindir», «resolver» y «anular» no son sinónimos exactos: se resuelve por incumplimiento, se rescinde por lesión o fraude (y en el habla general por voluntad de una parte), se anula por un vicio en su origen.",
-          "La fórmula final española: «Y en prueba de conformidad, firman el presente contrato por duplicado y a un solo efecto, en el lugar y fecha indicados en el encabezamiento»."
+          "«Fuerza mayor» es un hecho imprevisible o inevitable y ajeno a las partes (una guerra, un terremoto); «caso fortuito» es un hecho imprevisible, pero ligado a la actividad del obligado (la avería de una máquina propia). La distinción importa porque muchas cláusulas exoneran solo por fuerza mayor."
         ],
         "examples": [
           {
             "es": "Ninguna de las partes responderá por incumplimientos debidos a fuerza mayor.",
             "en": "Neither party shall be liable for breaches due to force majeure."
-          },
-          {
-            "es": "En caso de retraso, se aplicará una penalización de 200 euros por día.",
-            "en": "In the event of delay, a penalty of 200 euros per day shall apply."
-          },
-          {
-            "es": "Firman por duplicado y a un solo efecto.",
-            "en": "They sign in duplicate, both copies having the same effect."
           }
         ],
         "checkpoint": [
@@ -22931,6 +28032,37 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Un fenómeno natural extraordinario, imprevisible y ajeno a la actividad del proveedor es fuerza mayor. El caso fortuito estaría ligado a su propia actividad (su camión averiado); la cláusula penal es una indemnización pactada y el incumplimiento doloso exige mala fe."
+          }
+        ]
+      },
+      {
+        "heading": "Cláusulas típicas y verbos que no son sinónimos",
+        "body": [
+          "La «cláusula penal» fija de antemano la indemnización por incumplimiento; la «cláusula resolutoria» permite extinguir el contrato si una parte incumple; la «cláusula de confidencialidad» obliga a guardar secreto. «Rescindir», «resolver» y «anular» no son sinónimos exactos: se resuelve por incumplimiento, se rescinde por lesión o fraude (y en el habla general por voluntad de una parte), se anula por un vicio en su origen.",
+          "La fórmula final española: «Y en prueba de conformidad, firman el presente contrato por duplicado y a un solo efecto, en el lugar y fecha indicados en el encabezamiento»."
+        ],
+        "examples": [
+          {
+            "es": "En caso de retraso, se aplicará una penalización de 200 euros por día.",
+            "en": "In the event of delay, a penalty of 200 euros per day shall apply."
+          },
+          {
+            "es": "Firman por duplicado y a un solo efecto.",
+            "en": "They sign in duplicate, both copies having the same effect."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "El inquilino deja de pagar seis meses y el propietario extingue el contrato por ese incumplimiento. El verbo técnico es…",
+            "options": [
+              "resolver",
+              "anular",
+              "rescindir",
+              "derogar"
+            ],
+            "correctIndex": 0,
+            "explanation": "El contrato se resuelve por incumplimiento de una parte. Se anula por un vicio en su origen, se rescinde por lesión o fraude, y «derogar» se dice de las leyes, no de los contratos."
           }
         ]
       }
@@ -23053,9 +28185,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: dos columnas, dos direcciones",
+        "body": [
+          "Recuerda la regla: el paciente habla con palabras de la calle («me ahogo», «me pica todo») y el informe con el término clínico («disnea», «prurito»). Un profesional traduce en las dos direcciones sin borrar matices (un «mareo» puede ser vértigo o presíncope) y desconfía de los falsos amigos: «constipado», «melena», «severo»."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "El informe dice «disnea». ¿Cómo se lo explicas al paciente?",
+            "options": [
+              "Le falta el aire.",
+              "Le pica la piel.",
+              "Está muy cansado.",
+              "Le duele la cabeza."
+            ],
+            "correctIndex": 0,
+            "explanation": "Hay que traducir también de vuelta: «disnea» es el término clínico de «me ahogo», sensación de falta de aire. Picor es prurito, cansancio es astenia y dolor de cabeza es cefalea."
+          }
+        ]
+      },
+      {
         "heading": "Dos registros para un mismo síntoma",
         "body": [
-          "Recuerda la regla: el paciente habla con palabras de la calle («me ahogo», «me pica todo») y el informe con el término clínico («disnea», «prurito»). Un profesional traduce en las dos direcciones sin borrar matices (un «mareo» puede ser vértigo o presíncope) y desconfía de los falsos amigos: «constipado», «melena», «severo».",
           "El paciente dice «me duele la cabeza», «me ahogo», «estoy muy cansado», «me pica todo», «me mareé y me caí»; el médico escribe «cefalea», «disnea», «astenia», «prurito», «síncope». Un profesional C2 domina las dos columnas y sabe traducir en ambas direcciones: al informe y de vuelta al paciente.",
           "Hay matices que no conviene borrar: «mareo» es vago (puede ser «vértigo», sensación de giro, o «presíncope», sensación de desvanecimiento); «lipotimia» es un desmayo breve de origen vasovagal; «síncope» es la pérdida transitoria de conciencia con recuperación espontánea."
         ],
@@ -23096,14 +28247,25 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Cada queja coloquial tiene un término técnico que el informe debe usar."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Una paciente dice: «Me mareé en la cocina». Antes de escribir «vértigo» en el informe, ¿qué tienes que averiguar?",
+            "options": [
+              "Si sentía que todo giraba o que se iba a desmayar",
+              "Si había comido ese día",
+              "Si tiene alergias",
+              "Si perdió peso"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Mareo» es vago: si todo giraba es vértigo; si sentía que se desvanecía, presíncope. Escribir directamente «vértigo» borra un matiz clínico; las otras preguntas no aclaran qué tipo de mareo es."
           }
         ]
       },
       {
         "heading": "Falsos amigos en la consulta",
         "body": [
-          "«Constipado» significa resfriado en España («estoy constipado» = tengo catarro); el estreñimiento es «estar estreñido». «Melena» en medicina es la expulsión de heces negras por sangrado digestivo, no el pelo. «Intoxicado» no es «borracho» sino envenenado (aunque se use también para el alcohol). «Severo» aplicado a un dolor es un calco del inglés muy extendido en el lenguaje médico; en registro cuidado se prefiere «intenso» o «grave».",
-          "Variación regional: «tirita» (España) / «curita» (gran parte de América); «ambulatorio» o «centro de salud» (España) / «consultorio», «clínica», «dispensario» en otros países; «pedir cita» (general) / «sacar turno» (Río de la Plata); «cita previa» en España."
+          "«Constipado» significa resfriado en España («estoy constipado» = tengo catarro); el estreñimiento es «estar estreñido». «Melena» en medicina es la expulsión de heces negras por sangrado digestivo, no el pelo. «Intoxicado» no es «borracho» sino envenenado (aunque se use también para el alcohol). «Severo» aplicado a un dolor es un calco del inglés muy extendido en el lenguaje médico; en registro cuidado se prefiere «intenso» o «grave»."
         ],
         "examples": [
           {
@@ -23113,10 +28275,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Estoy constipada desde el lunes. (España)",
             "en": "I've had a cold since Monday."
-          },
-          {
-            "es": "Saqué turno en la clínica para el jueves. (Río de la Plata)",
-            "en": "I got an appointment at the clinic for Thursday."
           }
         ],
         "checkpoint": [
@@ -23143,6 +28301,32 @@ const C2_BASE_LESSONS: Lesson[] = [
             "altAnswers": [
               "melena"
             ]
+          }
+        ]
+      },
+      {
+        "heading": "Variación regional en la consulta",
+        "body": [
+          "Variación regional: «tirita» (España) / «curita» (gran parte de América); «ambulatorio» o «centro de salud» (España) / «consultorio», «clínica», «dispensario» en otros países; «pedir cita» (general) / «sacar turno» (Río de la Plata); «cita previa» en España."
+        ],
+        "examples": [
+          {
+            "es": "Saqué turno en la clínica para el jueves. (Río de la Plata)",
+            "en": "I got an appointment at the clinic for Thursday."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En una farmacia de México te piden una «curita» para un corte en el dedo. ¿Qué les das?",
+            "options": [
+              "una tirita",
+              "una receta",
+              "una inyección",
+              "un jarabe"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Curita» (gran parte de América) es lo que en España se llama «tirita»: el apósito adhesivo para pequeños cortes. Receta, inyección y jarabe no tienen nada que ver con tapar un corte."
           }
         ]
       }
@@ -23291,9 +28475,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: orden fijo, verbo propio",
+        "body": [
+          "Recuerda la regla: el informe sigue un orden fijo y cada parte tiene su verbo. En la anamnesis el paciente «refiere» o «niega» (lo dice él); en la exploración el médico «objetiva» (lo comprueba); en el plan «se pauta» un fármaco y «se deriva» o «se remite» a otro servicio. El estilo es nominal y con siglas, y hay que deshacerlo al hablar con el paciente."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Se pauta ibuprofeno 600 mg cada 8 horas.» ¿En qué parte del informe va esta frase?",
+            "options": [
+              "En el plan o tratamiento",
+              "En la anamnesis",
+              "En la exploración física",
+              "En los antecedentes personales"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Se pauta» es el verbo del plan: así se prescribe un fármaco. En la anamnesis el paciente «refiere» o «niega», en la exploración el médico «objetiva», y los antecedentes recogen enfermedades previas."
+          }
+        ]
+      },
+      {
         "heading": "La estructura y sus verbos",
         "body": [
-          "Recuerda la regla: el informe sigue un orden fijo y cada parte tiene su verbo. En la anamnesis el paciente «refiere» o «niega» (lo dice él); en la exploración el médico «objetiva» (lo comprueba); en el plan «se pauta» un fármaco y «se deriva» o «se remite» a otro servicio. El estilo es nominal y con siglas, y hay que deshacerlo al hablar con el paciente.",
           "Un informe de urgencias español sigue un orden fijo: motivo de consulta, antecedentes personales (AP), enfermedad actual (anamnesis), exploración física, pruebas complementarias, juicio clínico (diagnóstico) y tratamiento o plan.",
           "Cada parte tiene sus verbos: el paciente «refiere» (dice que tiene) o «niega» (dice que no tiene: «Niega fiebre»); en la exploración, el médico «objetiva» o «se objetiva» («Se objetiva soplo sistólico»); en el plan, «se pauta» un fármaco (se prescribe con una pauta) y se «remite» o «deriva» a otro servicio. «Sin hallazgos de interés» y «sin alteraciones significativas» indican normalidad."
         ],
@@ -23536,9 +28739,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: cada fórmula, un derecho",
+        "body": [
+          "Recuerda la regla: en el consentimiento informado cada fórmula garantiza un derecho (haber sido informado, poder preguntar, poder revocar). Al dar malas noticias, la certeza se gradúa con precisión («compatible con» < «sugestivo de» < «diagnóstico de») y se atenúa sin engañar: con tacto, pero nombrando el problema."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase atenúa una mala noticia sin engañar al paciente?",
+            "options": [
+              "Hemos encontrado un tumor; vamos a ver juntos qué opciones hay.",
+              "Tiene un bultito sin importancia.",
+              "No es nada, ya lo hablaremos más adelante.",
+              "Tiene algo feo, pero mejor no entrar en detalles."
+            ],
+            "correctIndex": 0,
+            "explanation": "Atenuar sin engañar es nombrar el problema con tacto y dejar espacio. «Un bultito» y «algo feo» infantilizan y esconden el diagnóstico, y «no es nada» directamente engaña."
+          }
+        ]
+      },
+      {
         "heading": "El consentimiento informado",
         "body": [
-          "Recuerda la regla: en el consentimiento informado cada fórmula garantiza un derecho (haber sido informado, poder preguntar, poder revocar). Al dar malas noticias, la certeza se gradúa con precisión («compatible con» < «sugestivo de» < «diagnóstico de») y se atenúa sin engañar: con tacto, pero nombrando el problema.",
           "El documento de consentimiento informado tiene fórmulas fijas: «Declaro que he sido informado/a de forma comprensible de la naturaleza del procedimiento, de sus riesgos y de las alternativas», «He podido formular las preguntas que he considerado oportunas», «Entiendo que puedo revocar este consentimiento en cualquier momento sin que ello repercuta en mi atención».",
           "Distingue: «riesgos frecuentes» / «riesgos poco frecuentes pero graves»; «riesgos personalizados» (los que dependen de las circunstancias del paciente); «revocar» (retirar un consentimiento ya dado) no es «rechazar» (no darlo nunca)."
         ],
@@ -23726,9 +28948,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: la figura se reconoce por su mecanismo",
+        "body": [
+          "Recuerda la regla: cada figura se reconoce por su mecanismo, no por el tema. El oxímoron une opuestos en un sintagma; la paradoja es un enunciado entero que parece absurdo; la antítesis contrapone ideas en paralelo; la sinestesia mezcla sentidos; la hipálage traslada un adjetivo a otro sustantivo; el quiasmo cruza dos términos en orden inverso."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Un frío azul entraba por la ventana.» ¿Qué mecanismo hay en «frío azul»?",
+            "options": [
+              "sinestesia: mezcla el tacto y la vista",
+              "quiasmo: cruza dos términos",
+              "antítesis: contrapone dos ideas",
+              "paradoja: un enunciado absurdo que encierra una verdad"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Frío» es una sensación táctil y «azul», visual: mezclar sentidos es sinestesia. No hay términos repetidos en orden inverso (quiasmo), ni ideas contrapuestas en paralelo (antítesis), ni un enunciado entero aparentemente absurdo (paradoja)."
+          }
+        ]
+      },
+      {
         "heading": "Unir lo que se opone",
         "body": [
-          "Recuerda la regla: cada figura se reconoce por su mecanismo, no por el tema. El oxímoron une opuestos en un sintagma; la paradoja es un enunciado entero que parece absurdo; la antítesis contrapone ideas en paralelo; la sinestesia mezcla sentidos; la hipálage traslada un adjetivo a otro sustantivo; el quiasmo cruza dos términos en orden inverso.",
           "El oxímoron une en un mismo sintagma dos palabras de sentido opuesto: «hielo abrasador», «fuego helado» (Quevedo, «Es hielo abrasador, es fuego helado»); «la música callada» (San Juan de la Cruz). La paradoja va más allá: es un enunciado entero que parece absurdo pero encierra una verdad: «Vivo sin vivir en mí» (Santa Teresa); «Solo sé que no sé nada».",
           "La antítesis contrapone ideas en construcciones paralelas sin fundirlas: «Es tan corto el amor, y es tan largo el olvido» (Neruda)."
         ],
@@ -23921,11 +29162,29 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: descodificar el eufemismo",
+        "body": [
+          "Recuerda la regla: el eufemismo institucional cambia la palabra incómoda por una técnica o neutra («ajuste de plantilla» = despidos, «actualización de tarifas» = subida), y la metáfora política convierte una imagen en fórmula («líneas rojas», «tender puentes»). Leer en C2 es descodificar las dos cosas; redactar en C2 es decidir cuándo hay que nombrar los hechos sin rodeos."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un hospital anuncia «una optimización de los recursos humanos». ¿Qué significa casi con seguridad?",
+            "options": [
+              "Despidos",
+              "Nuevas contrataciones",
+              "Cursos de formación",
+              "Subidas de sueldo"
+            ],
+            "correctIndex": 0,
+            "explanation": "El eufemismo institucional cambia la palabra incómoda por una técnica: «optimizar los recursos humanos», como «ajuste de plantilla», es reducir personal. Contratar, formar o subir sueldos son buenas noticias y se anunciarían sin envoltorio."
+          }
+        ]
+      },
+      {
         "heading": "Decir sin decir",
         "body": [
-          "Recuerda la regla: el eufemismo institucional cambia la palabra incómoda por una técnica o neutra («ajuste de plantilla» = despidos, «actualización de tarifas» = subida), y la metáfora política convierte una imagen en fórmula («líneas rojas», «tender puentes»). Leer en C2 es descodificar las dos cosas; redactar en C2 es decidir cuándo hay que nombrar los hechos sin rodeos.",
           "El eufemismo institucional sustituye la palabra incómoda por una técnica o neutra: «crecimiento negativo» (decrecimiento, recesión), «desaceleración» (el crecimiento baja, pero aún no hay caída), «ajuste» o «reestructuración de plantilla» (despidos), «actualización de tarifas» o «reajuste de precios» (subida), «daños colaterales» (víctimas civiles), «flexibilización del mercado laboral» (menos protección para el trabajador).",
-          "Hay variantes regionales: en Chile y otros países se dice «desvincular» a un trabajador por «despedirlo»; en España, «ERE» (expediente de regulación de empleo) es el despido colectivo y «ERTE», la suspensión temporal.",
           "Un lector C2 descodifica el eufemismo y un redactor C2 decide cuándo usarlo y cuándo exige la claridad nombrar las cosas."
         ],
         "examples": [
@@ -23936,10 +29195,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "La economía registró un crecimiento negativo del 0,3 %.",
             "en": "The economy shrank by 0.3%."
-          },
-          {
-            "es": "Fue desvinculado de la empresa tras doce años. (Chile)",
-            "en": "He was let go after twelve years."
           }
         ],
         "checkpoint": [
@@ -23954,6 +29209,32 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«Actualización» o «reajuste» de tarifas es un eufemismo habitual para una subida. Una bajada se anunciaría abiertamente; el término no alude a aplicaciones ni a cancelaciones."
+          }
+        ]
+      },
+      {
+        "heading": "Variantes regionales: desvincular, ERE, ERTE",
+        "body": [
+          "Hay variantes regionales: en Chile y otros países se dice «desvincular» a un trabajador por «despedirlo»; en España, «ERE» (expediente de regulación de empleo) es el despido colectivo y «ERTE», la suspensión temporal."
+        ],
+        "examples": [
+          {
+            "es": "Fue desvinculado de la empresa tras doce años. (Chile)",
+            "en": "He was let go after twelve years."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una empresa española presenta un ERTE. ¿Qué pasa con los empleados afectados?",
+            "options": [
+              "Sus contratos se suspenden temporalmente",
+              "Son despedidos de forma colectiva",
+              "Reciben una subida de sueldo",
+              "Pasan a trabajar en otra sede"
+            ],
+            "correctIndex": 0,
+            "explanation": "La T de ERTE es «temporal»: el expediente suspende los contratos durante un tiempo. El despido colectivo es el ERE, sin T; ni uno ni otro supone una subida ni un traslado."
           }
         ]
       },
@@ -24134,9 +29415,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: la ironía tiene marcas",
+        "body": [
+          "Recuerda la regla: la ironía tiene marcas gramaticales. Ciertos adjetivos antepuestos en exclamaciones dicen lo contrario («¡Valiente amigo!» = un mal amigo), y la litote niega lo contrario para atenuar («no es precisamente puntual»), reforzada a menudo por «que digamos», que siempre exige una negación."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase usa bien «que digamos»?",
+            "options": [
+              "No es muy ordenado que digamos.",
+              "Es muy ordenado que digamos.",
+              "Es muy desordenado que digamos.",
+              "Es bastante ordenado que digamos."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Que digamos» refuerza una litote y siempre exige una negación: «No es muy ordenado que digamos» = es bastante desordenado. Sin «no», como en las otras tres, la fórmula no funciona."
+          }
+        ]
+      },
+      {
         "heading": "Adjetivos antepuestos que dicen lo contrario",
         "body": [
-          "Recuerda la regla: la ironía tiene marcas gramaticales. Ciertos adjetivos antepuestos en exclamaciones dicen lo contrario («¡Valiente amigo!» = un mal amigo), y la litote niega lo contrario para atenuar («no es precisamente puntual»), reforzada a menudo por «que digamos», que siempre exige una negación.",
           "Algunos adjetivos cambian de sentido al anteponerse en exclamaciones: «¡Valiente amigo!» (un mal amigo), «¡Bonita manera de empezar!» (mala manera), «¡Menudo lío!» (un lío enorme). «Dichoso» y «bendito» antepuestos expresan fastidio: «El dichoso ordenador se ha vuelto a colgar».",
           "«Menudo» es ambivalente: «¡Menuda casa!» puede ser admiración o crítica; lo decide la entonación y el contexto. Estos usos son panhispánicos, aunque «menudo» es más frecuente en España."
         ],
@@ -24347,9 +29647,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: cada conector, una función",
+        "body": [
+          "Recuerda la regla: cada conector culto tiene una función lógica fija y no se intercambia con otro. «Antes bien» corrige tras una negación; «con todo» y «así y todo» mantienen la conclusión pese a lo concedido; «máxime cuando» y «a mayor abundamiento» refuerzan; «habida cuenta de» da la causa; «so pena de» anuncia la consecuencia negativa."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Debe renovar el permiso antes de junio, ___ perderlo.»",
+            "options": [
+              "so pena de",
+              "antes bien",
+              "con todo",
+              "máxime cuando"
+            ],
+            "correctIndex": 0,
+            "explanation": "«So pena de» anuncia la consecuencia negativa de no hacer algo: si no lo renueva, lo pierde. «Antes bien» corrige tras una negación, «con todo» mantiene una conclusión pese a lo concedido y «máxime cuando» refuerza con una circunstancia."
+          }
+        ]
+      },
+      {
         "heading": "Corregir, conceder y reforzar",
         "body": [
-          "Recuerda la regla: cada conector culto tiene una función lógica fija y no se intercambia con otro. «Antes bien» corrige tras una negación; «con todo» y «así y todo» mantienen la conclusión pese a lo concedido; «máxime cuando» y «a mayor abundamiento» refuerzan; «habida cuenta de» da la causa; «so pena de» anuncia la consecuencia negativa.",
           "«Antes bien» corrige tras una negación, como un «sino» enfático: «La medida no frena la economía; antes bien, la estimula». «Con todo», «así y todo» y «aun así» introducen una conclusión que se mantiene pese a lo concedido: «Los datos son parciales; con todo, apuntan en una dirección clara».",
           "Para reforzar: «a mayor abundamiento» (propio del lenguaje jurídico y académico: además, y con más razón), «máxime cuando / si» (sobre todo porque), «amén de» (además de, culto)."
         ],
@@ -24571,20 +29890,34 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: el modo verbal argumenta",
+        "body": [
+          "Recuerda la regla: en la argumentación el modo verbal es una herramienta. El indicativo presenta un hecho como información; el subjuntivo lo concede o lo niega para quitarle peso: «aunque sea barato» (vale, pero da igual), «no porque sea caro, sino porque…», «no es que no quiera», «que yo sepa»."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«No es que no me guste tu idea; es que no hay presupuesto.» ¿Qué hace el subjuntivo «guste»?",
+            "options": [
+              "Rechaza una interpretación que el otro podría hacer",
+              "Informa de un hecho nuevo",
+              "Expresa un deseo del hablante",
+              "Sitúa la acción en el futuro"
+            ],
+            "correctIndex": 0,
+            "explanation": "«No es que + subjuntivo» niega una interpretación posible (que la idea no le guste) para dar la razón verdadera. El indicativo serviría para informar de un hecho; aquí no hay deseo ni valor de futuro."
+          }
+        ]
+      },
+      {
         "heading": "«Aunque» con subjuntivo sobre un hecho conocido",
         "body": [
-          "Recuerda la regla: en la argumentación el modo verbal es una herramienta. El indicativo presenta un hecho como información; el subjuntivo lo concede o lo niega para quitarle peso: «aunque sea barato» (vale, pero da igual), «no porque sea caro, sino porque…», «no es que no quiera», «que yo sepa».",
-          "Con «aunque» + indicativo se informa del obstáculo: «Aunque los datos son buenos, no nos fiamos» (y te informo de que son buenos). Con subjuntivo sobre un hecho que ambos conocen (subjuntivo polémico), el hablante lo concede pero le resta importancia: «Aunque los datos sean buenos, eso no justifica la subida» (vale, son buenos, pero da igual).",
-          "Igual ocurre con «el hecho de que»: con subjuntivo se valora el hecho («El hecho de que no haya protestado no significa que esté de acuerdo»); con indicativo, que es más raro, se presenta como información nueva."
+          "Con «aunque» + indicativo se informa del obstáculo: «Aunque los datos son buenos, no nos fiamos» (y te informo de que son buenos). Con subjuntivo sobre un hecho que ambos conocen (subjuntivo polémico), el hablante lo concede pero le resta importancia: «Aunque los datos sean buenos, eso no justifica la subida» (vale, son buenos, pero da igual)."
         ],
         "examples": [
           {
             "es": "Aunque tengas razón en eso, no cambia el fondo del asunto.",
             "en": "Even if you're right about that, it doesn't change the substance."
-          },
-          {
-            "es": "El hecho de que la ley sea antigua no la hace injusta.",
-            "en": "The fact that the law is old doesn't make it unfair."
           }
         ],
         "checkpoint": [
@@ -24603,10 +29936,31 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Negar la causa y matizar la propia afirmación",
+        "heading": "«El hecho de que» valora el hecho",
         "body": [
-          "«No porque + subjuntivo, sino porque + indicativo»: se niega una causa falsa y se da la verdadera: «Me opongo, no porque la idea sea mala, sino porque es prematura». «No es que + subjuntivo» rechaza una interpretación: «No es que no quiera ayudar; es que no puedo».",
-          "«Que yo sepa» (subjuntivo fijo) limita la afirmación al conocimiento propio: «Que yo sepa, nadie ha presentado alegaciones». «Por más que» admite indicativo (hecho real) o subjuntivo (hipótesis o hecho que se considera irrelevante): «Por más que insiste, no la convence» / «Por más que insista, no la convencerá»."
+          "Igual ocurre con «el hecho de que»: con subjuntivo se valora el hecho («El hecho de que no haya protestado no significa que esté de acuerdo»); con indicativo, que es más raro, se presenta como información nueva."
+        ],
+        "examples": [
+          {
+            "es": "El hecho de que la ley sea antigua no la hace injusta.",
+            "en": "The fact that the law is old doesn't make it unfair."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con la forma verbal adecuada.",
+            "sentence": "El hecho de que nadie se ___ quejado no significa que todos estén contentos.",
+            "answer": "haya",
+            "explanation": "«El hecho de que» va con subjuntivo cuando se valora el hecho: se haya quejado. «Ha» (indicativo) lo presentaría como información nueva, uso raro que aquí no encaja porque el hablante lo da por sabido.",
+            "en": "The fact that nobody [has] complained doesn't mean everyone is happy."
+          }
+        ]
+      },
+      {
+        "heading": "Negar la causa: «no porque», «no es que»",
+        "body": [
+          "«No porque + subjuntivo, sino porque + indicativo»: se niega una causa falsa y se da la verdadera: «Me opongo, no porque la idea sea mala, sino porque es prematura». «No es que + subjuntivo» rechaza una interpretación: «No es que no quiera ayudar; es que no puedo»."
         ],
         "examples": [
           {
@@ -24616,10 +29970,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "No es que desconfíe de usted; es que necesito verlo por escrito.",
             "en": "It's not that I distrust you; it's that I need to see it in writing."
-          },
-          {
-            "es": "Que yo sepa, el plazo no se ha ampliado.",
-            "en": "As far as I know, the deadline hasn't been extended."
           }
         ],
         "checkpoint": [
@@ -24630,6 +29980,32 @@ const C2_BASE_LESSONS: Lesson[] = [
             "answer": "sea",
             "explanation": "En «no porque… sino porque…», la causa negada va en subjuntivo (sea) y la verdadera en indicativo (llega).",
             "en": "I object, not because the proposal [is] bad, but because it comes too late."
+          }
+        ]
+      },
+      {
+        "heading": "Matizar: «que yo sepa», «por más que»",
+        "body": [
+          "«Que yo sepa» (subjuntivo fijo) limita la afirmación al conocimiento propio: «Que yo sepa, nadie ha presentado alegaciones». «Por más que» admite indicativo (hecho real) o subjuntivo (hipótesis o hecho que se considera irrelevante): «Por más que insiste, no la convence» / «Por más que insista, no la convencerá»."
+        ],
+        "examples": [
+          {
+            "es": "Que yo sepa, el plazo no se ha ampliado.",
+            "en": "As far as I know, the deadline hasn't been extended."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Por más que ___, no lo convencerás.» El hablante se refiere a intentos que aún no han ocurrido.",
+            "options": [
+              "lo intentes",
+              "lo intentas",
+              "lo intentaste",
+              "lo intentarás"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Por más que» va en subjuntivo cuando presenta una hipótesis: lo intentes. El indicativo «lo intentas» presentaría un hecho real que ya está ocurriendo; el pretérito habla del pasado, y el futuro no se usa después de «por más que»."
           }
         ]
       }
@@ -24763,9 +30139,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: los impersonales no son sinónimos",
+        "body": [
+          "Recuerda la regla: los impersonales del razonamiento no son sinónimos. «Cabe» abre una posibilidad, «conviene» aconseja, «procede» afirma lo que corresponde según la norma, «es preciso» marca necesidad y «huelga» declara algo innecesario. El estilo nominal y las fórmulas de discrepancia cortés centran el debate en los hechos y no en las personas."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«___ revisar los datos antes de publicarlos.» (es aconsejable)",
+            "options": [
+              "Conviene",
+              "Huelga",
+              "Procede",
+              "Cabe"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Conviene» aconseja. «Huelga» declararía innecesario revisarlos, «procede» afirmaría que lo exige la norma y «cabe» solo abriría una posibilidad: ninguno es un consejo."
+          }
+        ]
+      },
+      {
         "heading": "Cinco verbos impersonales, cinco matices",
         "body": [
-          "Recuerda la regla: los impersonales del razonamiento no son sinónimos. «Cabe» abre una posibilidad, «conviene» aconseja, «procede» afirma lo que corresponde según la norma, «es preciso» marca necesidad y «huelga» declara algo innecesario. El estilo nominal y las fórmulas de discrepancia cortés centran el debate en los hechos y no en las personas.",
           "«Cabe + infinitivo» = es posible o pertinente: «Cabe preguntarse si…», «Cabe señalar que…». «Conviene» = es aconsejable: «Conviene leer la letra pequeña». «Procede» = es lo que corresponde según una norma o un procedimiento: «Procede archivar el expediente». «Es preciso» = es necesario: «Es preciso actuar». «Huelga + infinitivo» = es innecesario: «Huelga decir que…» (no hace falta decir que…).",
           "Confundirlos cambia el argumento: «Conviene revisar el contrato» aconseja; «Procede revisar el contrato» afirma que es obligatorio según las reglas."
         ],
@@ -24960,20 +30355,34 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "De la cifra de negocio al beneficio neto",
+        "heading": "Recuerda la regla: la cuenta se lee de arriba abajo",
         "body": [
-          "Recuerda la regla: la cuenta de resultados se lee de arriba abajo. La cifra de negocio (lo que se factura) no es beneficio; al restar gastos, amortizaciones, deterioros, intereses e impuestos se llega al resultado neto. Por eso una empresa puede facturar más y perder dinero, y cada término contable nombra un paso concreto de ese camino.",
-          "«Facturación» o «cifra de negocio» son los ingresos por ventas; no es beneficio. El «resultado bruto de explotación» (ebitda, del inglés) es lo que queda antes de intereses, impuestos, amortizaciones y deterioros. El «resultado neto» (beneficio o pérdida neta) es lo que queda al final. Un titular puede decir «La empresa factura un 20 % más pero pierde dinero» sin contradicción.",
-          "La «amortización» reparte el coste de un activo a lo largo de su vida útil (y, en otro sentido, es la devolución de un préstamo). El «deterioro» es la pérdida de valor de un activo que se reconoce contablemente. Una «provisión» es una cantidad reservada para una obligación probable (un litigio, una reestructuración)."
+          "Recuerda la regla: la cuenta de resultados se lee de arriba abajo. La cifra de negocio (lo que se factura) no es beneficio; al restar gastos, amortizaciones, deterioros, intereses e impuestos se llega al resultado neto. Por eso una empresa puede facturar más y perder dinero, y cada término contable nombra un paso concreto de ese camino."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Titular: «La cadena factura un 15 % más y entra en pérdidas». ¿Es una contradicción?",
+            "options": [
+              "No: facturar no es ganar; los gastos pueden superar a los ingresos.",
+              "Sí: si factura más, tiene que ganar más.",
+              "Sí: el periodista ha confundido las cifras.",
+              "No: las pérdidas son del año anterior."
+            ],
+            "correctIndex": 0,
+            "explanation": "La cifra de negocio es lo que se factura; el resultado neto sale después de restar gastos, amortizaciones, deterioros, intereses e impuestos. Por eso se puede facturar más y perder dinero, sin error del periodista y en el mismo año."
+          }
+        ]
+      },
+      {
+        "heading": "Facturación, ebitda y resultado neto",
+        "body": [
+          "«Facturación» o «cifra de negocio» son los ingresos por ventas; no es beneficio. El «resultado bruto de explotación» (ebitda, del inglés) es lo que queda antes de intereses, impuestos, amortizaciones y deterioros. El «resultado neto» (beneficio o pérdida neta) es lo que queda al final. Un titular puede decir «La empresa factura un 20 % más pero pierde dinero» sin contradicción."
         ],
         "examples": [
           {
             "es": "La cifra de negocio creció un 12 %, pero el resultado neto cayó por el deterioro de la filial.",
             "en": "Revenue rose 12%, but net profit fell because of the impairment of the subsidiary."
-          },
-          {
-            "es": "La compañía ha dotado una provisión de 40 millones para litigios.",
-            "en": "The company has set aside a 40 million provision for litigation."
           }
         ],
         "checkpoint": [
@@ -24988,7 +30397,21 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "«Facturar» es ingresar por ventas; «ganar» se refiere al beneficio. Confundir facturación con beneficio es el error más habitual al leer prensa económica; las otras lecturas no corresponden a esos verbos."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Amortización, deterioro y provisión",
+        "body": [
+          "La «amortización» reparte el coste de un activo a lo largo de su vida útil (y, en otro sentido, es la devolución de un préstamo). El «deterioro» es la pérdida de valor de un activo que se reconoce contablemente. Una «provisión» es una cantidad reservada para una obligación probable (un litigio, una reestructuración)."
+        ],
+        "examples": [
+          {
+            "es": "La compañía ha dotado una provisión de 40 millones para litigios.",
+            "en": "The company has set aside a 40 million provision for litigation."
+          }
+        ],
+        "checkpoint": [
           {
             "type": "fill-blank",
             "prompt": "Completa con el término contable.",
@@ -25000,9 +30423,28 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Deuda, capital y fondo de comercio",
+        "heading": "Deuda y fondo de comercio",
         "body": [
-          "El «apalancamiento» es la proporción de deuda sobre recursos propios: una empresa muy apalancada financia gran parte de su actividad con deuda. El «fondo de comercio» es la diferencia entre lo que se paga por una empresa y el valor contable de sus activos netos (lo que se paga por marca, clientela, expectativas).",
+          "El «apalancamiento» es la proporción de deuda sobre recursos propios: una empresa muy apalancada financia gran parte de su actividad con deuda. El «fondo de comercio» es la diferencia entre lo que se paga por una empresa y el valor contable de sus activos netos (lo que se paga por marca, clientela, expectativas)."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una empresa paga 500 millones por otra cuyos activos netos valen 300. La diferencia se contabiliza como…",
+            "options": [
+              "fondo de comercio",
+              "deterioro",
+              "provisión",
+              "apalancamiento"
+            ],
+            "correctIndex": 0,
+            "explanation": "El sobreprecio pagado sobre el valor contable de los activos netos es el fondo de comercio (goodwill). El deterioro es una pérdida de valor posterior, la provisión cubre obligaciones probables y el apalancamiento mide la deuda."
+          }
+        ]
+      },
+      {
+        "heading": "Ampliación de capital y OPA",
+        "body": [
           "Una «ampliación de capital» emite nuevas acciones para captar fondos; diluye a los accionistas que no acuden a ella. Una «OPA» (oferta pública de adquisición) es una oferta a todos los accionistas para comprar sus acciones; es «hostil» si el consejo de la empresa objetivo la rechaza."
         ],
         "examples": [
@@ -25018,15 +30460,15 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Una empresa paga 500 millones por otra cuyos activos netos valen 300. La diferencia se contabiliza como…",
+            "question": "Tu empresa emite nuevas acciones para captar fondos y tú no compras ninguna. ¿Qué le pasa a tu participación?",
             "options": [
-              "fondo de comercio",
-              "deterioro",
-              "provisión",
-              "apalancamiento"
+              "Se diluye: tienes un porcentaje menor de la empresa",
+              "Se duplica automáticamente",
+              "Te da derecho a un dividendo extra",
+              "Aumenta, porque la empresa vale más"
             ],
             "correctIndex": 0,
-            "explanation": "El sobreprecio pagado sobre el valor contable de los activos netos es el fondo de comercio (goodwill). El deterioro es una pérdida de valor posterior, la provisión cubre obligaciones probables y el apalancamiento mide la deuda."
+            "explanation": "Una ampliación de capital reparte la empresa entre más acciones: quien no acude a ella conserva las mismas acciones, pero sobre un total mayor, así que su porcentaje baja (se diluye). No duplica nada ni da dividendos extra."
           }
         ]
       }
@@ -25173,11 +30615,29 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: cada sustantivo pide su verbo",
+        "body": [
+          "Recuerda la regla: en el lenguaje económico cada sustantivo pide su verbo (se incurre en pérdidas, se salda una deuda, se reparte un dividendo, se cierra un ejercicio), y la misma realidad laboral cambia de nombre según el país (finiquito / liquidación, paga extra / aguinaldo). Una colocación equivocada delata al no nativo aunque la gramática sea perfecta."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una colega colombiana cuenta que al dejar la empresa cobró la «liquidación». En España dirías que cobró…",
+            "options": [
+              "el finiquito",
+              "la nómina",
+              "el aguinaldo",
+              "la paga extra"
+            ],
+            "correctIndex": 0,
+            "explanation": "Lo que se cobra al terminar el contrato es el «finiquito» en España (y en México y Chile) y la «liquidación» en Colombia y Argentina. La nómina es la hoja de salario mensual, y el aguinaldo y la paga extra son la gratificación de fin de año."
+          }
+        ]
+      },
+      {
         "heading": "Colocaciones del lenguaje económico",
         "body": [
-          "Recuerda la regla: en el lenguaje económico cada sustantivo pide su verbo (se incurre en pérdidas, se salda una deuda, se reparte un dividendo, se cierra un ejercicio), y la misma realidad laboral cambia de nombre según el país (finiquito / liquidación, paga extra / aguinaldo). Una colocación equivocada delata al no nativo aunque la gramática sea perfecta.",
-          "Se «cierra un ejercicio» (año contable) con beneficios o pérdidas; se «incurre en pérdidas»; las acciones «cotizan al alza / a la baja»; una deuda se «salda» o se «liquida»; se «dota» una provisión; se «reparte» un dividendo; se «presenta» o «se declara» un concurso de acreedores (España) o una quiebra; una empresa «entra en números rojos» y «sale de ellos».",
-          "Un error de colocación delata al no nativo aunque la gramática sea perfecta: «hacer pérdidas» se entiende, pero en la prensa económica lo habitual es «incurrir en / registrar pérdidas»; con dividendos se dice «repartir» o «abonar» (también «pagar», que no es incorrecto)."
+          "Se «cierra un ejercicio» (año contable) con beneficios o pérdidas; se «incurre en pérdidas»; las acciones «cotizan al alza / a la baja»; una deuda se «salda» o se «liquida»; se «dota» una provisión; se «reparte» un dividendo; se «presenta» o «se declara» un concurso de acreedores (España) o una quiebra; una empresa «entra en números rojos» y «sale de ellos»."
         ],
         "examples": [
           {
@@ -25209,10 +30669,29 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
+        "heading": "La colocación delata al no nativo",
+        "body": [
+          "Un error de colocación delata al no nativo aunque la gramática sea perfecta: «hacer pérdidas» se entiende, pero en la prensa económica lo habitual es «incurrir en / registrar pérdidas»; con dividendos se dice «repartir» o «abonar» (también «pagar», que no es incorrecto)."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase usaría la prensa económica?",
+            "options": [
+              "La empresa registró pérdidas de tres millones.",
+              "La empresa hizo pérdidas de tres millones.",
+              "La empresa cotizó pérdidas de tres millones.",
+              "La empresa dotó pérdidas de tres millones."
+            ],
+            "correctIndex": 0,
+            "explanation": "Con «pérdidas» la prensa usa «registrar» o «incurrir en». «Hacer pérdidas» se entiende, pero delata al no nativo; «cotizar» se dice de las acciones y «dotar», de una provisión."
+          }
+        ]
+      },
+      {
         "heading": "Mismo concepto, distinta palabra",
         "body": [
-          "España / México / Argentina: «el ordenador» / «la computadora» / «la computadora»; «la nómina» (España, México) es la hoja de salario y en otros países se dice «recibo de sueldo» (Argentina) o «colilla de pago» (Colombia); la paga extra de Navidad es el «aguinaldo» en gran parte de América; al terminar el contrato se cobra el «finiquito» (España, México, Chile) o la «liquidación» (Colombia, Argentina).",
-          "Formas societarias: «S. A.» (sociedad anónima) en todo el mundo hispano; «S. L.» (sociedad limitada, España), «S. R. L.» (Argentina y otros) y «S. A. de C. V.» (sociedad anónima de capital variable, México). En España el procedimiento de insolvencia es el «concurso de acreedores»; en muchos países de América se sigue hablando de «quiebra»."
+          "España / México / Argentina: «el ordenador» / «la computadora» / «la computadora»; «la nómina» (España, México) es la hoja de salario y en otros países se dice «recibo de sueldo» (Argentina) o «colilla de pago» (Colombia); la paga extra de Navidad es el «aguinaldo» en gran parte de América; al terminar el contrato se cobra el «finiquito» (España, México, Chile) o la «liquidación» (Colombia, Argentina)."
         ],
         "examples": [
           {
@@ -25230,6 +30709,37 @@ const C2_BASE_LESSONS: Lesson[] = [
             "instructions": "Relaciona el término con su contexto.",
             "pairs": [
               {
+                "left": "colilla de pago",
+                "right": "hoja de salario en Colombia"
+              },
+              {
+                "left": "recibo de sueldo",
+                "right": "hoja de salario en Argentina"
+              },
+              {
+                "left": "aguinaldo",
+                "right": "paga extra de fin de año en América"
+              },
+              {
+                "left": "liquidación",
+                "right": "lo que se cobra al acabar el contrato en Argentina"
+              }
+            ],
+            "explanation": "La misma realidad laboral tiene nombre propio en cada país: en España sería la nómina, la paga extra y el finiquito."
+          }
+        ]
+      },
+      {
+        "heading": "Formas societarias e insolvencia",
+        "body": [
+          "Formas societarias: «S. A.» (sociedad anónima) en todo el mundo hispano; «S. L.» (sociedad limitada, España), «S. R. L.» (Argentina y otros) y «S. A. de C. V.» (sociedad anónima de capital variable, México). En España el procedimiento de insolvencia es el «concurso de acreedores»; en muchos países de América se sigue hablando de «quiebra»."
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona el término con su contexto.",
+            "pairs": [
+              {
                 "left": "S. A. de C. V.",
                 "right": "México"
               },
@@ -25238,15 +30748,15 @@ const C2_BASE_LESSONS: Lesson[] = [
                 "right": "España"
               },
               {
-                "left": "aguinaldo",
-                "right": "paga extra de fin de año en América"
+                "left": "S. R. L.",
+                "right": "Argentina"
               },
               {
-                "left": "recibo de sueldo",
-                "right": "Argentina"
+                "left": "quiebra",
+                "right": "insolvencia en muchos países de América"
               }
             ],
-            "explanation": "Vocabulario empresarial con marca regional."
+            "explanation": "Formas societarias e insolvencia con marca regional: la S. A. es general, pero la S. A. de C. V. es mexicana y la S. R. L. argentina; el concurso de acreedores español se llama todavía quiebra en muchos países de América."
           }
         ]
       }
@@ -25386,9 +30896,28 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
+        "heading": "Recuerda la regla: el registro depende del lector",
+        "body": [
+          "Recuerda la regla: el registro se elige según el lector. En el informe interno, estilo nominal y verbos de apoyo precisos («acometer una reestructuración», «experimentar una caída»); en el correo al cliente, frases verbales claras y fórmulas actuales («Le escribo para…», «Un cordial saludo»), no las de la correspondencia antigua."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Escribes un correo a un cliente. ¿Qué apertura es la adecuada?",
+            "options": [
+              "Le escribo para informarle del nuevo horario.",
+              "Por medio de la presente me dirijo a usted para informarle del nuevo horario.",
+              "La comunicación del nuevo horario es el objeto del presente escrito.",
+              "Acuso recibo y procedo a la comunicación del nuevo horario."
+            ],
+            "correctIndex": 0,
+            "explanation": "Al cliente se le escribe con frases verbales claras y fórmulas actuales: «Le escribo para…». «Por medio de la presente» y «acuso recibo» son de la correspondencia antigua, y el estilo nominal («la comunicación de…») es para el informe interno."
+          }
+        ]
+      },
+      {
         "heading": "Del verbo al sustantivo",
         "body": [
-          "Recuerda la regla: el registro se elige según el lector. En el informe interno, estilo nominal y verbos de apoyo precisos («acometer una reestructuración», «experimentar una caída»); en el correo al cliente, frases verbales claras y fórmulas actuales («Le escribo para…», «Un cordial saludo»), no las de la correspondencia antigua.",
           "El informe económico prefiere el estilo nominal: «Hemos decidido cerrar dos plantas porque bajó la demanda» → «El cierre de dos plantas responde a la caída de la demanda». Verbos de apoyo precisos sustituyen a «hacer» y «tener»: «llevar a cabo una auditoría», «acometer una reestructuración», «efectuar un pago», «registrar un crecimiento», «experimentar una caída».",
           "El abuso del estilo nominal oscurece el texto; un redactor C2 lo usa en informes y lo evita en correos a clientes."
         ],
@@ -27949,9 +33478,38 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
+        "heading": "El sufijo decide el género",
+        "body": [
+          "La clave de estos sustantivos abstractos: casi todos se forman a partir de un adjetivo o de un verbo, y el sufijo decide el género. Entero → entereza, acre → acritud, probo → probidad, contumaz → contumacia, templar → templanza: los sufijos -eza, -tud, -dad, -ia y -anza dan sustantivos femeninos. Ensañarse → ensañamiento, y los terminados en -or (pundonor, resquemor) son masculinos. Por eso se dice «la acritud» y «el pundonor», aunque «acritud» acabe en consonante y «pundonor» parezca abstracto como «la honradez»."
+        ],
+        "examples": [
+          {
+            "es": "Afrontó la enfermedad con admirable entereza.",
+            "en": "She faced the illness with admirable fortitude."
+          },
+          {
+            "es": "Le respondió con una acritud impropia de él.",
+            "en": "He answered her with a harshness unlike him."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla del sufijo a una palabra que no está en la lista: ¿cuál es el sustantivo abstracto de «lúcido», y qué género tiene?",
+            "options": [
+              "la lucidez",
+              "el lucidez",
+              "el lucimiento",
+              "la lucidura"
+            ],
+            "correctIndex": 0,
+            "explanation": "De lúcido sale «lucidez», con el sufijo -ez(a), que, como -eza en entereza, forma sustantivos femeninos: la lucidez. «El lucidez» falla en el género, y «lucimiento» existe, pero viene de «lucirse» y significa brillo o éxito, no claridad mental."
+          }
+        ]
+      },
+      {
         "heading": "Actitudes",
         "body": [
-          "La clave de estos sustantivos abstractos: casi todos se forman a partir de un adjetivo o de un verbo, y el sufijo decide el género. Entero → entereza, acre → acritud, probo → probidad, contumaz → contumacia, templar → templanza: los sufijos -eza, -tud, -dad, -ia y -anza dan sustantivos femeninos. Ensañarse → ensañamiento, y los terminados en -or (pundonor, resquemor) son masculinos. Por eso se dice «la acritud» y «el pundonor», aunque «acritud» acabe en consonante y «pundonor» parezca abstracto como «la honradez».",
           "Sustantivos que describen la manera de actuar de una persona.",
           "«la desidia»: falta de cuidado y de interés, negligencia.",
           "«la entereza»: firmeza de ánimo ante la adversidad.",
@@ -27965,10 +33523,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "La desidia de la Administración provocó el derrumbe.",
             "en": "The authorities' neglect caused the collapse."
-          },
-          {
-            "es": "Afrontó la enfermedad con admirable entereza.",
-            "en": "She faced the illness with admirable fortitude."
           },
           {
             "es": "Trabajó con ahínco para sacar adelante el proyecto.",
@@ -27985,10 +33539,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Nadie ha puesto en duda su probidad.",
             "en": "Nobody has questioned his integrity."
-          },
-          {
-            "es": "Le respondió con una acritud impropia de él.",
-            "en": "He answered her with a harshness unlike him."
           }
         ],
         "checkpoint": [
@@ -28014,18 +33564,6 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Aplica la regla del sufijo a una palabra que no está en la lista: ¿cuál es el sustantivo abstracto de «lúcido», y qué género tiene?",
-            "options": [
-              "la lucidez",
-              "el lucidez",
-              "el lucimiento",
-              "la lucidura"
-            ],
-            "correctIndex": 0,
-            "explanation": "De lúcido sale «lucidez», con el sufijo -ez(a), que, como -eza en entereza, forma sustantivos femeninos: la lucidez. «El lucidez» falla en el género, y «lucimiento» existe, pero viene de «lucirse» y significa brillo o éxito, no claridad mental."
           }
         ]
       },
@@ -28260,17 +33798,43 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
+        "heading": "El método: traducir el sentido, no la forma",
+        "body": [
+          "La clave de los falsos amigos: la palabra española existe, pero significa otra cosa, así que el error no se nota a primera vista. El método es no traducir la forma, sino el sentido: pregúntate qué significa la palabra inglesa en esa frase (to realize = notar algo) y busca la palabra española para ese sentido (darse cuenta de), no la que se le parece (realizar = hacer). Y cuando cambias de palabra, cambia también su construcción: darse cuenta DE que, hacer caso omiso DE algo, solicitar un puesto (sin «para»)."
+        ],
+        "examples": [
+          {
+            "es": "No me di cuenta de que estaba grabando.",
+            "en": "I didn't realise he was recording."
+          },
+          {
+            "es": "Voy a solicitar la beca del ministerio.",
+            "en": "I'm going to apply for the ministry grant."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica el método a un falso amigo que no está en la lista: «She pretended not to see me». ¿Qué verbo corresponde a «pretend» en esta frase?",
+            "options": [
+              "fingir: Fingió que no me veía.",
+              "pretender: Pretendió que no me veía.",
+              "simular de: Simuló de no verme.",
+              "suponer: Supuso que no me veía."
+            ],
+            "correctIndex": 0,
+            "explanation": "Aquí «pretend» significa aparentar algo falso, y en español eso es «fingir». «Pretender» se parece, pero significa intentar o aspirar a algo (pretende ser alcalde). «Simular» existiría, pero sin «de»; y «suponer» es imaginar que algo es cierto."
+          }
+        ]
+      },
+      {
         "heading": "Verbos engañosos",
         "body": [
-          "La clave de los falsos amigos: la palabra española existe, pero significa otra cosa, así que el error no se nota a primera vista. El método es no traducir la forma, sino el sentido: pregúntate qué significa la palabra inglesa en esa frase (to realize = notar algo) y busca la palabra española para ese sentido (darse cuenta de), no la que se le parece (realizar = hacer). Y cuando cambias de palabra, cambia también su construcción: darse cuenta DE que, hacer caso omiso DE algo, solicitar un puesto (sin «para»).",
           "El sentido inglés se ha colado en el uso, pero en registro cuidado conviene respetar el sentido español.",
           "«ignorar»: no saber algo (el sentido de «no hacer caso» ya está admitido, pero en registro cuidado se prefiere «hacer caso omiso de»).",
           "«asumir»: aceptar una responsabilidad o un cargo (no «suponer», to assume).",
           "«realizar»: hacer, efectuar (no «darse cuenta», to realize).",
-          "«soportar»: aguantar algo molesto (no «apoyar», to support).",
-          "«aplicar»: poner algo en práctica o sobre algo (para un puesto se dice «solicitar» o «postularse»).",
-          "«evidencia»: certeza clara y manifiesta (en sentido judicial el DLE ya admite «evidencia», pero lo habitual sigue siendo «prueba»).",
-          "«argumento»: razonamiento, o trama de una obra (una pelea es «discusión»)."
+          "«soportar»: aguantar algo molesto (no «apoyar», to support)."
         ],
         "examples": [
           {
@@ -28282,24 +33846,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "The director took on full responsibility."
           },
           {
-            "es": "No me di cuenta de que estaba grabando.",
-            "en": "I didn't realise he was recording."
-          },
-          {
             "es": "No soporto el ruido de la obra.",
             "en": "I can't stand the noise from the building work."
-          },
-          {
-            "es": "Voy a solicitar la beca del ministerio.",
-            "en": "I'm going to apply for the ministry grant."
-          },
-          {
-            "es": "La fiscalía no presentó pruebas suficientes.",
-            "en": "The prosecution did not present sufficient evidence."
-          },
-          {
-            "es": "Tuvieron una fuerte discusión por la herencia.",
-            "en": "They had a big argument over the inheritance."
           }
         ],
         "checkpoint": [
@@ -28325,18 +33873,50 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Aplicar, evidencia, argumento",
+        "body": [
+          "«aplicar»: poner algo en práctica o sobre algo (para un puesto se dice «solicitar» o «postularse»).",
+          "«evidencia»: certeza clara y manifiesta (en sentido judicial el DLE ya admite «evidencia», pero lo habitual sigue siendo «prueba»).",
+          "«argumento»: razonamiento, o trama de una obra (una pelea es «discusión»)."
+        ],
+        "examples": [
+          {
+            "es": "La fiscalía no presentó pruebas suficientes.",
+            "en": "The prosecution did not present sufficient evidence."
+          },
+          {
+            "es": "Tuvieron una fuerte discusión por la herencia.",
+            "en": "They had a big argument over the inheritance."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En «El argumento de la película es muy flojo», ¿qué significa «argumento»?",
+            "options": [
+              "la trama",
+              "la pelea",
+              "la prueba",
+              "la solicitud"
+            ],
+            "correctIndex": 0,
+            "explanation": "En español, «argumento» es un razonamiento o la trama de una obra; aquí, la trama de la película. Una pelea es una «discusión» (el sentido inglés de argument) y una prueba judicial es una «prueba»."
           },
           {
             "type": "multiple-choice",
-            "question": "Aplica el método a un falso amigo que no está en la lista: «She pretended not to see me». ¿Qué verbo corresponde a «pretend» en esta frase?",
+            "question": "«She applied for the job last week». ¿Qué frase es correcta en español cuidado?",
             "options": [
-              "fingir: Fingió que no me veía.",
-              "pretender: Pretendió que no me veía.",
-              "simular de: Simuló de no verme.",
-              "suponer: Supuso que no me veía."
+              "Solicitó el puesto la semana pasada.",
+              "Aplicó para el puesto la semana pasada.",
+              "Aplicó el puesto la semana pasada.",
+              "Solicitó para el puesto la semana pasada."
             ],
             "correctIndex": 0,
-            "explanation": "Aquí «pretend» significa aparentar algo falso, y en español eso es «fingir». «Pretender» se parece, pero significa intentar o aspirar a algo (pretende ser alcalde). «Simular» existiría, pero sin «de»; y «suponer» es imaginar que algo es cierto."
+            "explanation": "«Aplicar» es poner algo en práctica o sobre algo; para un puesto se dice «solicitar», y sin «para»: solicitar un puesto. «Aplicó para» calca el inglés, y «solicitó para» cambia de verbo pero conserva la preposición del calco."
           }
         ]
       },
@@ -28347,10 +33927,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«audiencia»: tribunal, o recepción que concede una autoridad (también el público de radio o televisión; para los asistentes a un acto se prefiere «el público»).",
           "«agenda»: cuaderno o calendario de citas (para los temas de una reunión, en registro formal se prefiere «orden del día», aunque también se dice «agenda»).",
           "«comprensivo»: que comprende y tolera a los demás (lo que abarca todo es «exhaustivo» o «integral»).",
-          "«educado»: cortés, de buenos modales (una persona con estudios es «culta» o «instruida»).",
-          "«consistente»: sólido, espeso, con consistencia (lo que no se contradice es «coherente»).",
-          "«injuria»: agravio u ofensa grave de palabra (una lesión física es «lesión»).",
-          "«compromiso»: obligación contraída o cita (un término medio es una «solución de compromiso» o «concesión»)."
+          "«educado»: cortés, de buenos modales (una persona con estudios es «culta» o «instruida»)."
         ],
         "examples": [
           {
@@ -28368,18 +33945,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Es una mujer muy culta: ha leído a todos los clásicos.",
             "en": "She's a very educated woman: she has read all the classics."
-          },
-          {
-            "es": "Su postura ha sido siempre coherente.",
-            "en": "His position has always been consistent."
-          },
-          {
-            "es": "Sufrió una lesión de rodilla en el partido.",
-            "en": "He suffered a knee injury during the match."
-          },
-          {
-            "es": "Llegaron a una solución de compromiso.",
-            "en": "They reached a compromise solution."
           }
         ],
         "checkpoint": [
@@ -28405,6 +33970,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Consistente, injuria, compromiso",
+        "body": [
+          "«consistente»: sólido, espeso, con consistencia (lo que no se contradice es «coherente»).",
+          "«injuria»: agravio u ofensa grave de palabra (una lesión física es «lesión»).",
+          "«compromiso»: obligación contraída o cita (un término medio es una «solución de compromiso» o «concesión»)."
+        ],
+        "examples": [
+          {
+            "es": "Su postura ha sido siempre coherente.",
+            "en": "His position has always been consistent."
+          },
+          {
+            "es": "Sufrió una lesión de rodilla en el partido.",
+            "en": "He suffered a knee injury during the match."
+          },
+          {
+            "es": "Llegaron a una solución de compromiso.",
+            "en": "They reached a compromise solution."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Your argument is not consistent». ¿Qué adjetivo corresponde a «consistent» en esta frase?",
+            "options": [
+              "coherente",
+              "consistente",
+              "constante",
+              "compatible"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un razonamiento que no se contradice es «coherente». «Consistente» significa sólido o espeso (una crema consistente); es el falso amigo que tienta. «Constante» es lo que no cambia y «compatible», lo que puede coexistir con otra cosa."
           },
           {
             "type": "multiple-choice",
@@ -28555,17 +34156,73 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Más falsos amigos",
+        "heading": "Dos trampas: el falso amigo y el calco",
         "body": [
-          "La clave: hay dos trampas distintas. El falso amigo copia una palabra (honesto por «honest» cuando se quiere decir «sincero»); el calco copia una estructura: una preposición (en base a, de «based on»), una colocación de verbo y sustantivo (jugar un rol, de «play a role») o un adverbio con el sentido inglés (eventualmente por «eventually»). Por eso el calco no se arregla cambiando una palabra, sino la estructura entera: jugar un rol → desempeñar un papel; en base a → sobre la base de; a nivel de presupuesto → en cuanto al presupuesto. Las piezas sueltas son españolas; lo que es inglés es la combinación.",
+          "La clave: hay dos trampas distintas. El falso amigo copia una palabra (honesto por «honest» cuando se quiere decir «sincero»); el calco copia una estructura: una preposición (en base a, de «based on»), una colocación de verbo y sustantivo (jugar un rol, de «play a role») o un adverbio con el sentido inglés (eventualmente por «eventually»)."
+        ],
+        "examples": [
+          {
+            "es": "Para serte sincero, no me gustó la película.",
+            "en": "To be honest with you, I didn't like the film."
+          },
+          {
+            "es": "La prensa desempeñó un papel clave en la transición.",
+            "en": "The press played a key role in the transition."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En «Tu propuesta no hace sentido», ¿qué trampa hay?",
+            "options": [
+              "Un calco: copia la colocación inglesa «make sense»; en español se dice «no tiene sentido».",
+              "Un falso amigo: «sentido» no significa «sense».",
+              "Un error de concordancia entre sujeto y verbo.",
+              "Ninguna: es español cuidado."
+            ],
+            "correctIndex": 0,
+            "explanation": "Las piezas «hacer» y «sentido» son españolas, pero la combinación copia «make sense»: es un calco de colocación, como «jugar un rol». «Sentido» sí significa «sense», así que no es un falso amigo; lo que falla es la estructura, que en español es «tener sentido»."
+          }
+        ]
+      },
+      {
+        "heading": "Arreglar un calco: cambiar la estructura",
+        "body": [
+          "Por eso el calco no se arregla cambiando una palabra, sino la estructura entera: jugar un rol → desempeñar un papel; en base a → sobre la base de; a nivel de presupuesto → en cuanto al presupuesto. Las piezas sueltas son españolas; lo que es inglés es la combinación."
+        ],
+        "examples": [
+          {
+            "es": "La decisión se tomó sobre la base de los informes técnicos.",
+            "en": "The decision was taken on the basis of the technical reports."
+          },
+          {
+            "es": "En cuanto a salarios, la oferta es buena.",
+            "en": "In terms of salary, the offer is good."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué versión arregla el calco de «A nivel de salud, el país ha mejorado»?",
+            "options": [
+              "En cuanto a la salud, el país ha mejorado.",
+              "Al nivel de salud, el país ha mejorado.",
+              "En nivel de salud, el país ha mejorado.",
+              "A nivel de la salud, el país ha mejorado."
+            ],
+            "correctIndex": 0,
+            "explanation": "«A nivel de» solo es correcto con altura o jerarquía; aquí hay que cambiar la estructura entera: «en cuanto a la salud». Las otras tres retocan una pieza (al, en, la) pero conservan la combinación calcada."
+          }
+        ]
+      },
+      {
+        "heading": "Falsos amigos: pretender, suceso, honesto, introducir",
+        "body": [
           "Palabras que conviene usar en su sentido español.",
           "«pretender»: intentar o aspirar a algo (fingir es «to pretend»).",
           "«suceso»: acontecimiento, sobre todo desgraciado (el logro es «éxito»).",
           "«honesto»: decente, recatado y honrado (el que dice la verdad es más bien «sincero»).",
-          "«introducir»: meter algo dentro o empezar a usarlo (a una persona se la «presenta»).",
-          "«casual»: fortuito, que ocurre por azar (la ropa «casual» se dice «ropa informal»).",
-          "«rudo»: tosco, áspero, sin pulir (el maleducado es «grosero»).",
-          "«caer en desgracia»: perder el favor o la estima de los demás; fuera de esta locución, «desgracia» suele significar infortunio (la deshonra es «deshonra»)."
+          "«introducir»: meter algo dentro o empezar a usarlo (a una persona se la «presenta»)."
         ],
         "examples": [
           {
@@ -28577,24 +34234,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "The novel was a sales success."
           },
           {
-            "es": "Para serte sincero, no me gustó la película.",
-            "en": "To be honest with you, I didn't like the film."
-          },
-          {
             "es": "Te presento a mi socia, Laura.",
             "en": "Let me introduce my business partner, Laura."
-          },
-          {
-            "es": "Fue un encuentro casual en el aeropuerto.",
-            "en": "It was a chance meeting at the airport."
-          },
-          {
-            "es": "Fue muy grosero con la camarera.",
-            "en": "He was very rude to the waitress."
-          },
-          {
-            "es": "Cayó en desgracia tras el escándalo.",
-            "en": "He fell into disgrace after the scandal."
           }
         ],
         "checkpoint": [
@@ -28620,7 +34261,31 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Casual, rudo, caer en desgracia",
+        "body": [
+          "«casual»: fortuito, que ocurre por azar (la ropa «casual» se dice «ropa informal»).",
+          "«rudo»: tosco, áspero, sin pulir (el maleducado es «grosero»).",
+          "«caer en desgracia»: perder el favor o la estima de los demás; fuera de esta locución, «desgracia» suele significar infortunio (la deshonra es «deshonra»)."
+        ],
+        "examples": [
+          {
+            "es": "Fue un encuentro casual en el aeropuerto.",
+            "en": "It was a chance meeting at the airport."
           },
+          {
+            "es": "Fue muy grosero con la camarera.",
+            "en": "He was very rude to the waitress."
+          },
+          {
+            "es": "Cayó en desgracia tras el escándalo.",
+            "en": "He fell into disgrace after the scandal."
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "Otro falso amigo fuera de la lista: «The actual cost was much higher». ¿Cómo se dice en registro cuidado?",
@@ -28636,16 +34301,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Falsos amigos y calcos de expresión",
+        "heading": "Efectivo, recordar, molestar",
         "body": [
           "Algunos calcos están muy extendidos, pero el registro cuidado los evita.",
           "«efectivo»: real y verdadero, o dinero en metálico (lo que produce el efecto deseado es sobre todo «eficaz»).",
           "«recordar»: traer a la memoria (registrar sonido o imagen es «grabar»).",
-          "«molestar»: causar incomodidad o fastidio (el abuso sexual no se expresa con este verbo).",
-          "«en base a»: calco muy extendido; en registro cuidado se prefiere «sobre la base de», «con base en» o «a partir de».",
-          "«a nivel de»: calco que solo es correcto con altura o jerarquía; en los demás casos, «en cuanto a», «en el ámbito de».",
-          "«jugar un rol»: calco de «to play a role»; en registro cuidado, «desempeñar un papel».",
-          "«eventualmente»: de forma casual o posible, a veces (al final es «finalmente»)."
+          "«molestar»: causar incomodidad o fastidio (el abuso sexual no se expresa con este verbo)."
         ],
         "examples": [
           {
@@ -28659,15 +34320,32 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Perdone que le moleste a estas horas.",
             "en": "Sorry to bother you at this hour."
-          },
+          }
+        ],
+        "checkpoint": [
           {
-            "es": "La decisión se tomó sobre la base de los informes técnicos.",
-            "en": "The decision was taken on the basis of the technical reports."
-          },
-          {
-            "es": "En cuanto a salarios, la oferta es buena.",
-            "en": "In terms of salary, the offer is good."
-          },
+            "type": "multiple-choice",
+            "question": "«They recorded the whole concert». ¿Qué frase es correcta?",
+            "options": [
+              "Grabaron todo el concierto.",
+              "Recordaron todo el concierto.",
+              "Acordaron todo el concierto.",
+              "Archivaron todo el concierto."
+            ],
+            "correctIndex": 0,
+            "explanation": "Registrar sonido o imagen es «grabar». «Recordar» es el falso amigo que tienta: significa traer a la memoria, así que «recordaron el concierto» quiere decir que se acordaron de él. «Acordar» es ponerse de acuerdo y «archivar», guardar documentos."
+          }
+        ]
+      },
+      {
+        "heading": "Calcos de expresión",
+        "body": [
+          "«en base a»: calco muy extendido; en registro cuidado se prefiere «sobre la base de», «con base en» o «a partir de».",
+          "«a nivel de»: calco que solo es correcto con altura o jerarquía; en los demás casos, «en cuanto a», «en el ámbito de».",
+          "«jugar un rol»: calco de «to play a role»; en registro cuidado, «desempeñar un papel».",
+          "«eventualmente»: de forma casual o posible, a veces (al final es «finalmente»)."
+        ],
+        "examples": [
           {
             "es": "La prensa desempeñó un papel clave en la transición.",
             "en": "The press played a key role in the transition."
@@ -28858,9 +34536,38 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
+        "heading": "La regla: piezas cerradas con su propia gramática",
+        "body": [
+          "La regla: una locución latina es una pieza cerrada que ya trae dentro su propia gramática. «Grosso modo» ya significa 'de modo aproximado' y «statu quo» viene de «in statu quo» ('en el estado en que'), así que no se les añade preposición («a grosso modo» es un error) ni se «corrigen» a la forma inglesa («status quo»). Por la misma razón son invariables (los lapsus) y, si no están adaptadas, se escriben sin tilde y, en textos cuidados, en cursiva."
+        ],
+        "examples": [
+          {
+            "es": "Grosso modo, el proyecto costará un millón.",
+            "en": "Roughly speaking, the project will cost a million."
+          },
+          {
+            "es": "Los grandes partidos prefieren mantener el statu quo.",
+            "en": "The big parties prefer to maintain the status quo."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un latinismo que no está en la lista: «in situ» ('en el lugar mismo'). ¿Qué frase es la correcta?",
+            "options": [
+              "Los técnicos revisaron la avería in situ.",
+              "Los técnicos revisaron la avería en in situ.",
+              "Los técnicos revisaron la avería a in situ.",
+              "Los técnicos revisaron la avería in sítu."
+            ],
+            "correctIndex": 0,
+            "explanation": "«In situ» ya contiene la preposición latina «in» ('en'), igual que «grosso modo» ya significa 'de modo aproximado': añadir «en» o «a» la duplica. Y, como locución latina no adaptada, no lleva tilde."
+          }
+        ]
+      },
+      {
         "heading": "Locuciones latinas",
         "body": [
-          "La regla: una locución latina es una pieza cerrada que ya trae dentro su propia gramática. «Grosso modo» ya significa 'de modo aproximado' y «statu quo» viene de «in statu quo» ('en el estado en que'), así que no se les añade preposición («a grosso modo» es un error) ni se «corrigen» a la forma inglesa («status quo»). Por la misma razón son invariables (los lapsus) y, si no están adaptadas, se escriben sin tilde y, en textos cuidados, en cursiva.",
           "«sine qua non»: condición imprescindible, sin la cual algo no es posible.",
           "«ipso facto»: inmediatamente, en el acto.",
           "«grosso modo»: a grandes rasgos, aproximadamente (sin «a» delante).",
@@ -28877,14 +34584,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Si incumple el contrato, quedará despedido ipso facto.",
             "en": "If he breaches the contract, he'll be dismissed immediately."
-          },
-          {
-            "es": "Grosso modo, el proyecto costará un millón.",
-            "en": "Roughly speaking, the project will cost a million."
-          },
-          {
-            "es": "Los grandes partidos prefieren mantener el statu quo.",
-            "en": "The big parties prefer to maintain the status quo."
           },
           {
             "es": "El acuerdo se salvó in extremis.",
@@ -28922,25 +34621,46 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Aplica la regla a un latinismo que no está en la lista: «in situ» ('en el lugar mismo'). ¿Qué frase es la correcta?",
-            "options": [
-              "Los técnicos revisaron la avería in situ.",
-              "Los técnicos revisaron la avería en in situ.",
-              "Los técnicos revisaron la avería a in situ.",
-              "Los técnicos revisaron la avería in sítu."
-            ],
-            "correctIndex": 0,
-            "explanation": "«In situ» ya contiene la preposición latina «in» ('en'), igual que «grosso modo» ya significa 'de modo aproximado': añadir «en» o «a» la duplica. Y, como locución latina no adaptada, no lleva tilde."
           }
         ]
       },
       {
-        "heading": "Latinismos adaptados y de uso frecuente",
+        "heading": "Adaptados o no: la tilde",
         "body": [
-          "Algunos se han adaptado a la ortografía española («cuórum»); otros, como «motu proprio», «a priori» o «modus operandi», siguen siendo locuciones latinas y se escriben sin tilde (salvo «per cápita» y «álter ego», que sí la llevan según las reglas del español).",
+          "Algunos se han adaptado a la ortografía española («cuórum»); otros, como «motu proprio», «a priori» o «modus operandi», siguen siendo locuciones latinas y se escriben sin tilde (salvo «per cápita» y «álter ego», que sí la llevan según las reglas del español)."
+        ],
+        "examples": [
+          {
+            "es": "No se pudo votar por falta de cuórum.",
+            "en": "The vote couldn't take place for lack of a quorum."
+          },
+          {
+            "es": "La renta per cápita creció un 2 %.",
+            "en": "Income per capita grew by 2%."
+          },
+          {
+            "es": "El narrador es el álter ego del autor.",
+            "en": "The narrator is the author's alter ego."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál de estas locuciones latinas se escribe con tilde?",
+            "options": [
+              "per cápita",
+              "a priori",
+              "modus operandi",
+              "motu proprio"
+            ],
+            "correctIndex": 0,
+            "explanation": "Las locuciones latinas no adaptadas se escriben sin tilde (a priori, modus operandi, motu proprio). «Per cápita» y «álter ego» son las excepciones que sí la llevan según las reglas del español."
+          }
+        ]
+      },
+      {
+        "heading": "Latinismos de uso frecuente",
+        "body": [
           "«motu proprio»: por propia iniciativa (no «de motu propio»).",
           "«lapsus»: error involuntario al hablar o escribir.",
           "«cuórum»: número mínimo de miembros presentes para que una votación sea válida (forma adaptada de «quorum»).",
@@ -28957,18 +34677,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Fue un lapsus: quería decir «marzo», no «mayo».",
             "en": "It was a slip: I meant 'March', not 'May'."
-          },
-          {
-            "es": "No se pudo votar por falta de cuórum.",
-            "en": "The vote couldn't take place for lack of a quorum."
-          },
-          {
-            "es": "La renta per cápita creció un 2 %.",
-            "en": "Income per capita grew by 2%."
-          },
-          {
-            "es": "El narrador es el álter ego del autor.",
-            "en": "The narrator is the author's alter ego."
           },
           {
             "es": "A priori, la propuesta parece razonable.",
@@ -29160,9 +34868,72 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
+        "heading": "Pista 1: el género de -ma y -sis",
+        "body": [
+          "La regla: estos cultismos griegos se usan bien con dos pistas. 1) El género: las palabras en -ma que vienen del neutro griego son masculinas (el paradigma, el anatema, como el problema o el tema), y las terminadas en -sis son femeninas e invariables en plural (la catarsis / las catarsis, como la crisis / las crisis)."
+        ],
+        "examples": [
+          {
+            "es": "el estigma",
+            "en": "masculino: viene del neutro griego en -ma, como el problema"
+          },
+          {
+            "es": "la hipótesis / las hipótesis",
+            "en": "femenina e invariable en plural, como la crisis / las crisis"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la pista del género: ¿qué frase es correcta?",
+            "options": [
+              "Resolvieron los enigmas y superaron las crisis.",
+              "Resolvieron las enigmas y superaron las crisis.",
+              "Resolvieron los enigmas y superaron las crisises.",
+              "Resolvieron las enigmas y superaron los crisis."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Enigma» viene del neutro griego en -ma, así que es masculino (los enigmas, como los problemas); «crisis» termina en -sis: es femenina e invariable (las crisis). «Las enigmas» falla en el género y «crisises», en el plural."
+          }
+        ]
+      },
+      {
+        "heading": "Pista 2: las raíces",
+        "body": [
+          "2) Las raíces: pan- 'todo' (panacea, remedio para todo), dico- 'en dos' (dicotomía), idio- 'propio' (idiosincrasia), neo- 'nuevo' (neófito). Por qué sirve: con esas pistas aciertas el artículo y adivinas palabras que no has visto, como panorama, dilema o neologismo."
+        ],
+        "examples": [
+          {
+            "es": "La tecnología no es la panacea de la educación.",
+            "en": "Technology is not the cure-all for education."
+          },
+          {
+            "es": "El ensayo rechaza la falsa dicotomía entre economía y ecología.",
+            "en": "The essay rejects the false dichotomy between economy and ecology."
+          },
+          {
+            "es": "Cada región tiene su propia idiosincrasia.",
+            "en": "Each region has its own distinctive character."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Con la raíz pan- ('todo'), ¿qué significa «panorama» en «El informe ofrece un panorama del sector»?",
+            "options": [
+              "una visión de conjunto de todo el sector",
+              "una crítica dura contra el sector",
+              "un remedio para los problemas del sector",
+              "un detalle concreto del sector"
+            ],
+            "correctIndex": 0,
+            "explanation": "Pan- significa 'todo' (como en panacea, el remedio para todo), así que un panorama es una vista de conjunto. «Una crítica dura» sería una diatriba, «un remedio» una panacea, y «un detalle concreto» es justo lo contrario de una visión de todo."
+          }
+        ]
+      },
+      {
         "heading": "Ideas y modelos",
         "body": [
-          "La regla: estos cultismos griegos se usan bien con dos pistas. 1) El género: las palabras en -ma que vienen del neutro griego son masculinas (el paradigma, el anatema, como el problema o el tema), y las terminadas en -sis son femeninas e invariables en plural (la catarsis / las catarsis, como la crisis / las crisis). 2) Las raíces: pan- 'todo' (panacea, remedio para todo), dico- 'en dos' (dicotomía), idio- 'propio' (idiosincrasia), neo- 'nuevo' (neófito). Por qué sirve: con esas pistas aciertas el artículo y adivinas palabras que no has visto, como panorama, dilema o neologismo.",
           "«la panacea»: remedio que supuestamente cura todos los males.",
           "«el paradigma»: modelo o patrón que sirve de referencia.",
           "«la dicotomía»: división en dos partes opuestas.",
@@ -29173,20 +34944,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "La tecnología no es la panacea de la educación.",
-            "en": "Technology is not the cure-all for education."
-          },
-          {
             "es": "Aquel descubrimiento cambió el paradigma científico.",
             "en": "That discovery changed the scientific paradigm."
-          },
-          {
-            "es": "El ensayo rechaza la falsa dicotomía entre economía y ecología.",
-            "en": "The essay rejects the false dichotomy between economy and ecology."
-          },
-          {
-            "es": "Cada región tiene su propia idiosincrasia.",
-            "en": "Each region has its own distinctive character."
           },
           {
             "es": "Es el epítome del político de carrera.",
@@ -29224,38 +34983,15 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Con la raíz pan- ('todo'), ¿qué significa «panorama» en «El informe ofrece un panorama del sector»?",
-            "options": [
-              "una visión de conjunto de todo el sector",
-              "una crítica dura contra el sector",
-              "un remedio para los problemas del sector",
-              "un detalle concreto del sector"
-            ],
-            "correctIndex": 0,
-            "explanation": "Pan- significa 'todo' (como en panacea, el remedio para todo), así que un panorama es una vista de conjunto. «Una crítica dura» sería una diatriba, «un remedio» una panacea, y «un detalle concreto» es justo lo contrario de una visión de todo."
           }
         ]
       },
       {
-        "heading": "Intensidad y discurso",
+        "heading": "Cultismos que llevan valoración",
         "body": [
-          "Muchos de estos cultismos llevan una valoración: «apología» (defensa o alabanza, a menudo de algo censurable: hacer apología de la violencia) es lo contrario de «diatriba» (ataque violento); «acólito» suele ser despectivo, mientras que «neófito» solo dice que alguien es nuevo. Elegir uno u otro revela la postura de quien escribe. Ojo con el falso amigo: «apología» no es «disculpa» (en inglés, apology).",
-          "«la catarsis»: liberación emocional; en la tragedia, purificación del espectador.",
-          "«la apología»: discurso de defensa o alabanza de algo o alguien.",
-          "«la diatriba»: discurso o escrito violento contra alguien o algo.",
-          "«el neófito»: persona recién iniciada en una actividad o una doctrina.",
-          "«el acólito»: seguidor incondicional de alguien (a menudo despectivo).",
-          "«la sinergia»: acción conjunta que produce un efecto mayor que la suma de las partes.",
-          "«el anatema»: condena o reprobación enérgica (de género ambiguo, pero hoy se usa casi siempre en masculino)."
+          "Muchos de estos cultismos llevan una valoración: «apología» (defensa o alabanza, a menudo de algo censurable: hacer apología de la violencia) es lo contrario de «diatriba» (ataque violento); «acólito» suele ser despectivo, mientras que «neófito» solo dice que alguien es nuevo. Elegir uno u otro revela la postura de quien escribe. Ojo con el falso amigo: «apología» no es «disculpa» (en inglés, apology)."
         ],
         "examples": [
-          {
-            "es": "Escribir el libro fue para ella una catarsis.",
-            "en": "Writing the book was a catharsis for her."
-          },
           {
             "es": "Lo acusaron de hacer apología de la violencia.",
             "en": "He was accused of glorifying violence."
@@ -29271,6 +35007,50 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Llegó rodeado de sus acólitos.",
             "en": "He arrived surrounded by his acolytes."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un columnista publica un artículo durísimo contra el alcalde. El alcalde, ofendido, lo describe como…",
+            "options": [
+              "una diatriba",
+              "una apología",
+              "una catarsis",
+              "una sinergia"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un ataque violento por escrito es una «diatriba». «Apología» es lo contrario, una defensa o alabanza; «catarsis» es una liberación emocional y «sinergia» una colaboración que suma: ninguna describe un ataque."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "«He made an apology for arriving late». ¿Cómo se dice?",
+            "options": [
+              "Pidió disculpas por llegar tarde.",
+              "Hizo una apología por llegar tarde.",
+              "Hizo una diatriba por llegar tarde.",
+              "Hizo una catarsis por llegar tarde."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Apología» es un falso amigo: significa defensa o alabanza (hacer apología de algo), no «disculpa». Para «apology» se dice «pedir disculpas» o «pedir perdón». «Diatriba» es un ataque violento y «catarsis», una liberación emocional."
+          }
+        ]
+      },
+      {
+        "heading": "Intensidad y discurso",
+        "body": [
+          "«la catarsis»: liberación emocional; en la tragedia, purificación del espectador.",
+          "«la apología»: discurso de defensa o alabanza de algo o alguien.",
+          "«la diatriba»: discurso o escrito violento contra alguien o algo.",
+          "«el neófito»: persona recién iniciada en una actividad o una doctrina.",
+          "«el acólito»: seguidor incondicional de alguien (a menudo despectivo).",
+          "«la sinergia»: acción conjunta que produce un efecto mayor que la suma de las partes.",
+          "«el anatema»: condena o reprobación enérgica (de género ambiguo, pero hoy se usa casi siempre en masculino)."
+        ],
+        "examples": [
+          {
+            "es": "Escribir el libro fue para ella una catarsis.",
+            "en": "Writing the book was a catharsis for her."
           },
           {
             "es": "La fusión busca crear sinergias entre ambas empresas.",
@@ -29304,18 +35084,6 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Un columnista publica un artículo durísimo contra el alcalde. El alcalde, ofendido, lo describe como…",
-            "options": [
-              "una diatriba",
-              "una apología",
-              "una catarsis",
-              "una sinergia"
-            ],
-            "correctIndex": 0,
-            "explanation": "Un ataque violento por escrito es una «diatriba». «Apología» es lo contrario, una defensa o alabanza; «catarsis» es una liberación emocional y «sinergia» una colaboración que suma: ninguna describe un ataque."
           }
         ]
       }
@@ -29459,16 +35227,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Finalidad, modo e intención",
+        "heading": "Mira el hueco: prepositivas o adverbiales",
         "body": [
-          "La regla: antes de usar una locución culta, mira qué hueco ocupa en la frase. Unas son prepositivas y necesitan un complemento detrás: en aras de + nombre (en aras de la paz), en pos de + nombre, so capa de + infinitivo, a sabiendas de que + verbo. Otras son adverbiales y van solas, junto al verbo: a ultranza, de soslayo, a hurtadillas, de consuno. Por qué son tan rígidas: conservan palabras que el español ya no usa sueltas (pos 'detrás', so 'bajo', ende 'de ahí', soslayo 'oblicuo'), así que no admiten variaciones y suenan cultas. Por eso mismo no se mezclan bien con un registro coloquial.",
-          "«en aras de»: con el fin de, en interés de.",
-          "«en pos de»: en busca de, tras.",
-          "«a ultranza»: de forma radical, sin concesiones.",
-          "«de soslayo»: de lado, oblicuamente; también esquivando un asunto.",
-          "«a sabiendas»: sabiendo lo que se hace, conscientemente.",
-          "«a hurtadillas»: a escondidas, sin que nadie se dé cuenta.",
-          "«de consuno»: de común acuerdo, conjuntamente (culto)."
+          "La regla: antes de usar una locución culta, mira qué hueco ocupa en la frase. Unas son prepositivas y necesitan un complemento detrás: en aras de + nombre (en aras de la paz), en pos de + nombre, so capa de + infinitivo, a sabiendas de que + verbo. Otras son adverbiales y van solas, junto al verbo: a ultranza, de soslayo, a hurtadillas, de consuno."
         ],
         "examples": [
           {
@@ -29480,16 +35241,82 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "Thousands emigrated in search of a better life."
           },
           {
-            "es": "Es un defensor a ultranza del libre mercado.",
-            "en": "He is an out-and-out defender of the free market."
-          },
+            "es": "Firmó a sabiendas de que el documento era falso.",
+            "en": "He signed knowing full well that the document was forged."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla del hueco: «Dejó su pueblo ___ fortuna.»",
+            "options": [
+              "en pos de",
+              "a ultranza",
+              "de soslayo",
+              "a hurtadillas"
+            ],
+            "correctIndex": 0,
+            "explanation": "Detrás viene un nombre (fortuna), así que hace falta una locución prepositiva que lo introduzca: «en pos de» ('en busca de'). «A ultranza», «de soslayo» y «a hurtadillas» son adverbiales: van solas junto al verbo y no pueden llevar un nombre detrás."
+          }
+        ]
+      },
+      {
+        "heading": "Por qué son tan rígidas",
+        "body": [
+          "Por qué son tan rígidas: conservan palabras que el español ya no usa sueltas (pos 'detrás', so 'bajo', ende 'de ahí', soslayo 'oblicuo'), así que no admiten variaciones y suenan cultas. Por eso mismo no se mezclan bien con un registro coloquial."
+        ],
+        "examples": [
           {
             "es": "Lo miró de soslayo sin decir nada.",
             "en": "She looked at him out of the corner of her eye without saying anything."
           },
           {
-            "es": "Firmó a sabiendas de que el documento era falso.",
-            "en": "He signed knowing full well that the document was forged."
+            "es": "So capa de modernizar, desmantelaron el servicio.",
+            "en": "Under the guise of modernising, they dismantled the service."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué versión es correcta?",
+            "options": [
+              "Partieron en pos de una solución.",
+              "Partieron en pos a una solución.",
+              "Partieron en el pos de una solución.",
+              "Partieron en pos una solución."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Pos» ya no se usa suelta, así que la locución no admite variaciones: siempre «en pos de». Añadir un artículo (el pos), cambiar la preposición (a) o quitarla rompe la pieza."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase mezcla mal los registros?",
+            "options": [
+              "Tío, en aras de no liarla, mejor nos piramos ya.",
+              "En aras de la seguridad, se cerrará el acceso.",
+              "Ambas partes actuaron de consuno.",
+              "Lo observaba de soslayo desde la ventana."
+            ],
+            "correctIndex": 0,
+            "explanation": "«En aras de» es una locución culta y no se mezcla bien con un registro coloquial como «tío», «liarla» o «piramos». Las otras tres frases mantienen un registro cuidado de principio a fin."
+          }
+        ]
+      },
+      {
+        "heading": "Finalidad, modo e intención",
+        "body": [
+          "«en aras de»: con el fin de, en interés de.",
+          "«en pos de»: en busca de, tras.",
+          "«a ultranza»: de forma radical, sin concesiones.",
+          "«de soslayo»: de lado, oblicuamente; también esquivando un asunto.",
+          "«a sabiendas»: sabiendo lo que se hace, conscientemente.",
+          "«a hurtadillas»: a escondidas, sin que nadie se dé cuenta.",
+          "«de consuno»: de común acuerdo, conjuntamente (culto)."
+        ],
+        "examples": [
+          {
+            "es": "Es un defensor a ultranza del libre mercado.",
+            "en": "He is an out-and-out defender of the free market."
           },
           {
             "es": "Salió de la sala a hurtadillas.",
@@ -29523,25 +35350,46 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "La preposición y el registro",
+        "body": [
+          "Fíjate en la preposición, que también es fija: a la zaga DE alguien (no «a» alguien), a raudales y a mansalva con «a» (no «de»), por ende y so capa de sin artículo. Y en el registro: casi todas son cultas, salvo «a la chita callando», coloquial y propia de España."
+        ],
+        "examples": [
+          {
+            "es": "En cuanto a la inversión en ciencia, el país va a la zaga de Europa.",
+            "en": "In science investment, the country lags behind Europe."
           },
           {
+            "es": "A la chita callando, se hizo con la mayoría de las acciones.",
+            "en": "Quietly and on the sly, he got hold of most of the shares."
+          },
+          {
+            "es": "Es un bien público y, por ende, debe protegerse.",
+            "en": "It is a public good and, therefore, must be protected."
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Aplica la regla del hueco: «Dejó su pueblo ___ fortuna.»",
+            "question": "¿Qué frase respeta la preposición fija?",
             "options": [
-              "en pos de",
-              "a ultranza",
-              "de soslayo",
-              "a hurtadillas"
+              "El equipo local va a la zaga del líder.",
+              "El equipo local va a la zaga al líder.",
+              "El equipo local va de la zaga del líder.",
+              "El equipo local va a zaga del líder."
             ],
             "correctIndex": 0,
-            "explanation": "Detrás viene un nombre (fortuna), así que hace falta una locución prepositiva que lo introduzca: «en pos de» ('en busca de'). «A ultranza», «de soslayo» y «a hurtadillas» son adverbiales: van solas junto al verbo y no pueden llevar un nombre detrás."
+            "explanation": "La forma fija es «a la zaga DE alguien»: «a la zaga al líder» cambia la preposición del complemento, y «de la zaga» o «a zaga» alteran la propia locución."
           }
         ]
       },
       {
         "heading": "Cantidad, posición y ritmo",
         "body": [
-          "Fíjate en la preposición, que también es fija: a la zaga DE alguien (no «a» alguien), a raudales y a mansalva con «a» (no «de»), por ende y so capa de sin artículo. Y en el registro: casi todas son cultas, salvo «a la chita callando», coloquial y propia de España.",
           "«a mansalva»: en gran cantidad; también sin riesgo para quien ataca.",
           "«a la zaga»: detrás, en situación de retraso respecto a otros.",
           "«a destajo»: a cambio de un precio por obra hecha; también sin descanso.",
@@ -29556,28 +35404,12 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "They were handing out leaflets by the bucketload."
           },
           {
-            "es": "En cuanto a la inversión en ciencia, el país va a la zaga de Europa.",
-            "en": "In science investment, the country lags behind Europe."
-          },
-          {
             "es": "Trabajaron a destajo para terminar a tiempo.",
             "en": "They worked flat out to finish on time."
           },
           {
             "es": "La luz entraba a raudales por el ventanal.",
             "en": "Light flooded in through the big window."
-          },
-          {
-            "es": "A la chita callando, se hizo con la mayoría de las acciones.",
-            "en": "Quietly and on the sly, he got hold of most of the shares."
-          },
-          {
-            "es": "Es un bien público y, por ende, debe protegerse.",
-            "en": "It is a public good and, therefore, must be protected."
-          },
-          {
-            "es": "So capa de modernizar, desmantelaron el servicio.",
-            "en": "Under the guise of modernising, they dismantled the service."
           }
         ],
         "checkpoint": [
@@ -29755,9 +35587,68 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
+        "heading": "El sustantivo elige su verbo",
+        "body": [
+          "La regla: en una colocación es el sustantivo el que elige su verbo, y por eso no se deduce ni se traduce palabra por palabra (en inglés se «sostiene» la esperanza; en español se alberga). Aprende el bloque entero y fíjate en dos cosas. Primero, qué otros sustantivos acepta el mismo verbo: se cosechan éxitos, pero también fracasos, derrotas o aplausos; se albergan esperanzas, y también dudas o sospechas."
+        ],
+        "examples": [
+          {
+            "es": "Los familiares aún albergan esperanzas de encontrarlos.",
+            "en": "The relatives still hold out hope of finding them."
+          },
+          {
+            "es": "La obra cosechó un éxito rotundo.",
+            "en": "The play reaped a resounding success."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a otro sustantivo: «La ministra ___ sospechas sobre la limpieza del concurso.»",
+            "options": [
+              "albergaba",
+              "cosechaba",
+              "conciliaba",
+              "exhalaba"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Albergar» admite sentimientos o ideas que se llevan dentro: esperanzas, dudas, sospechas. «Cosechar» pide resultados (éxitos, derrotas), «conciliar» solo forma colocación con «el sueño» y «exhalar» con «el último suspiro»."
+          }
+        ]
+      },
+      {
+        "heading": "El registro y el error típico",
+        "body": [
+          "Segundo, el registro: exhalar el último suspiro es literario, y en la conversación se dice «murió». El error típico es cruzar verbos de dos colocaciones (sembrar triunfos, cosechar dudas) o quedarse con el verbo comodín (tener, hacer) en un texto culto."
+        ],
+        "examples": [
+          {
+            "es": "Exhaló el último suspiro rodeado de sus hijos.",
+            "en": "He breathed his last surrounded by his children."
+          },
+          {
+            "es": "✗ Sembró triunfos → ✓ Cosechó triunfos",
+            "en": "✗ He sowed triumphs → ✓ He reaped triumphs (cruce de dos colocaciones)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase cruza los verbos de dos colocaciones?",
+            "options": [
+              "El equipo sembró victorias toda la temporada.",
+              "El equipo cosechó victorias toda la temporada.",
+              "El equipo cosechó derrotas toda la temporada.",
+              "El equipo aunó esfuerzos toda la temporada."
+            ],
+            "correctIndex": 0,
+            "explanation": "Las victorias se «cosechan», como los éxitos o las derrotas; «sembrar» va con la discordia. «Sembrar victorias» mezcla dos colocaciones. «Cosechar derrotas» es correcto: el mismo verbo acepta resultados buenos y malos."
+          }
+        ]
+      },
+      {
         "heading": "Sentimientos y resultados",
         "body": [
-          "La regla: en una colocación es el sustantivo el que elige su verbo, y por eso no se deduce ni se traduce palabra por palabra (en inglés se «sostiene» la esperanza; en español se alberga). Aprende el bloque entero y fíjate en dos cosas. Primero, qué otros sustantivos acepta el mismo verbo: se cosechan éxitos, pero también fracasos, derrotas o aplausos; se albergan esperanzas, y también dudas o sospechas. Segundo, el registro: exhalar el último suspiro es literario, y en la conversación se dice «murió». El error típico es cruzar verbos de dos colocaciones (sembrar triunfos, cosechar dudas) o quedarse con el verbo comodín (tener, hacer) en un texto culto.",
           "«albergar esperanzas»: tener esperanzas.",
           "«abrigar dudas»: tener dudas, especialmente persistentes.",
           "«cosechar éxitos»: obtener éxitos como resultado de un esfuerzo (también se cosechan fracasos).",
@@ -29768,16 +35659,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Los familiares aún albergan esperanzas de encontrarlos.",
-            "en": "The relatives still hold out hope of finding them."
-          },
-          {
             "es": "Muchos expertos abrigan dudas sobre el plan.",
             "en": "Many experts harbour doubts about the plan."
-          },
-          {
-            "es": "La obra cosechó un éxito rotundo.",
-            "en": "The play reaped a resounding success."
           },
           {
             "es": "Sus declaraciones solo sirven para sembrar la discordia.",
@@ -29790,10 +35673,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Las ONG aunaron esfuerzos para la reconstrucción.",
             "en": "The NGOs joined forces for the reconstruction."
-          },
-          {
-            "es": "Exhaló el último suspiro rodeado de sus hijos.",
-            "en": "He breathed his last surrounded by his children."
           }
         ],
         "checkpoint": [
@@ -29819,25 +35698,58 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Verbo, preposición y matiz",
+        "body": [
+          "Estas son propias de la prensa y el ensayo, y además del verbo fijan la preposición: se tiende una trampa a alguien, se entabla conversación con alguien y una orden se acata, sin preposición. Algunos verbos sirven para una familia entera: se entabla conversación, amistad o negociaciones; se contraen deudas, matrimonio o una enfermedad. Y el verbo aporta matiz: «desatar» una crisis dice que estalla de golpe, mientras que «provocar» es neutro."
+        ],
+        "examples": [
+          {
+            "es": "La policía le tendió una trampa.",
+            "en": "The police set a trap for him."
+          },
+          {
+            "es": "La filtración desató una crisis de gobierno.",
+            "en": "The leak unleashed a government crisis."
+          },
+          {
+            "es": "La empresa contrajo deudas que no pudo pagar.",
+            "en": "The company ran up debts it couldn't pay."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«En pocos meses, el nuevo socio ___ amistad con el director.»",
+            "options": [
+              "entabló",
+              "tendió",
+              "acató",
+              "esgrimió"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Entablar» sirve para empezar una relación: se entabla conversación, amistad o negociaciones, siempre con «con». «Tender» va con trampa, «acatar» con orden y «esgrimir» con argumentos."
           },
           {
             "type": "multiple-choice",
-            "question": "Aplica la regla a otro sustantivo: «La ministra ___ sospechas sobre la limpieza del concurso.»",
+            "question": "«Se casaron en 1990», en el registro de la prensa:",
             "options": [
-              "albergaba",
-              "cosechaba",
-              "conciliaba",
-              "exhalaba"
+              "Contrajeron matrimonio en 1990.",
+              "Entablaron matrimonio en 1990.",
+              "Tendieron matrimonio en 1990.",
+              "Acataron matrimonio en 1990."
             ],
             "correctIndex": 0,
-            "explanation": "«Albergar» admite sentimientos o ideas que se llevan dentro: esperanzas, dudas, sospechas. «Cosechar» pide resultados (éxitos, derrotas), «conciliar» solo forma colocación con «el sueño» y «exhalar» con «el último suspiro»."
+            "explanation": "«Contraer» sirve para una familia entera: se contraen deudas, matrimonio o una enfermedad. «Entablar» va con conversación, amistad o negociaciones; «tender», con una trampa, y «acatar», con una orden."
           }
         ]
       },
       {
         "heading": "Acciones sociales",
         "body": [
-          "Estas son propias de la prensa y el ensayo, y además del verbo fijan la preposición: se tiende una trampa a alguien, se entabla conversación con alguien y una orden se acata, sin preposición. Algunos verbos sirven para una familia entera: se entabla conversación, amistad o negociaciones; se contraen deudas, matrimonio o una enfermedad. Y el verbo aporta matiz: «desatar» una crisis dice que estalla de golpe, mientras que «provocar» es neutro.",
           "«acatar una orden»: obedecer y cumplir una orden o una resolución.",
           "«tender una trampa»: preparar un engaño para alguien.",
           "«desatar una crisis»: provocar de golpe una crisis o una polémica.",
@@ -29852,20 +35764,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "The mayor announced he will abide by the ruling."
           },
           {
-            "es": "La policía le tendió una trampa.",
-            "en": "The police set a trap for him."
-          },
-          {
-            "es": "La filtración desató una crisis de gobierno.",
-            "en": "The leak unleashed a government crisis."
-          },
-          {
             "es": "En el tren entabló conversación con un anciano.",
             "en": "On the train she struck up a conversation with an old man."
-          },
-          {
-            "es": "La empresa contrajo deudas que no pudo pagar.",
-            "en": "The company ran up debts it couldn't pay."
           },
           {
             "es": "Ambas partes esgrimieron argumentos de peso.",
@@ -29899,18 +35799,6 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "«En pocos meses, el nuevo socio ___ amistad con el director.»",
-            "options": [
-              "entabló",
-              "tendió",
-              "acató",
-              "esgrimió"
-            ],
-            "correctIndex": 0,
-            "explanation": "«Entablar» sirve para empezar una relación: se entabla conversación, amistad o negociaciones, siempre con «con». «Tender» va con trampa, «acatar» con orden y «esgrimir» con argumentos."
           }
         ]
       }
@@ -30392,11 +36280,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "La idea: busca la familia de la palabra",
+        "heading": "Busca la familia de la palabra",
         "body": [
-          "Los parónimos se parecen en la forma pero no en el sentido, y casi siempre la diferencia está en una sílaba que delata a su familia. Si recuerdas un pariente conocido, aciertas: infringir va con infracción (romper una norma) e infligir con aflicción (causar un daño o castigo); ingerir va con ingesta (tragar) e injerir con injerencia (meterse donde no te llaman); prever es pre- + ver (ver antes) y proveer va con provisión (suministrar).",
-          "La conjugación también sigue a la familia: prever se conjuga como ver (prevé, previó, previsto), y proveer como leer (proveyó, proveyendo). Por eso «preveyó» es un error frecuente: mezcla las dos palabras.",
-          "«desbastar»: quitar las partes bastas de algo para pulirlo (no confundir con devastar, en la sección siguiente)."
+          "Los parónimos se parecen en la forma pero no en el sentido, y casi siempre la diferencia está en una sílaba que delata a su familia. Si recuerdas un pariente conocido, aciertas: infringir va con infracción (romper una norma) e infligir con aflicción (causar un daño o castigo); ingerir va con ingesta (tragar) e injerir con injerencia (meterse donde no te llaman); prever es pre- + ver (ver antes) y proveer va con provisión (suministrar)."
         ],
         "examples": [
           {
@@ -30408,24 +36294,12 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "The company breached environmental regulations."
           },
           {
-            "es": "Nadie previó la magnitud de la crisis.",
-            "en": "Nobody foresaw the scale of the crisis."
-          },
-          {
-            "es": "La ONG provee de agua potable a la aldea.",
-            "en": "The NGO provides the village with drinking water."
-          },
-          {
             "es": "No debe ingerir alcohol durante el tratamiento.",
             "en": "You must not consume alcohol during treatment."
           },
           {
             "es": "No quiero injerirme en asuntos familiares ajenos.",
             "en": "I don't want to interfere in other people's family matters."
-          },
-          {
-            "es": "El escultor empezó a desbastar el bloque de mármol.",
-            "en": "The sculptor began to rough-hew the marble block."
           }
         ],
         "checkpoint": [
@@ -30440,6 +36314,40 @@ const C2_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Romper una norma es una infracción: infringir. Infligir (aflicción) es causar un daño o un castigo; injerir (injerencia) es entrometerse e ingerir (ingesta), tragar."
+          }
+        ]
+      },
+      {
+        "heading": "La conjugación también sigue a la familia",
+        "body": [
+          "La conjugación también sigue a la familia: prever se conjuga como ver (prevé, previó, previsto), y proveer como leer (proveyó, proveyendo). Por eso «preveyó» es un error frecuente: mezcla las dos palabras.",
+          "«desbastar»: quitar las partes bastas de algo para pulirlo (no confundir con devastar, en la sección siguiente)."
+        ],
+        "examples": [
+          {
+            "es": "Nadie previó la magnitud de la crisis.",
+            "en": "Nobody foresaw the scale of the crisis."
+          },
+          {
+            "es": "La ONG provee de agua potable a la aldea.",
+            "en": "The NGO provides the village with drinking water."
+          },
+          {
+            "es": "El escultor empezó a desbastar el bloque de mármol.",
+            "en": "The sculptor began to rough-hew the marble block."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Nadie ___ que el puerto cerraría tan pronto.» (prever, pretérito)",
+            "options": [
+              "previó",
+              "preveyó",
+              "proveyó"
+            ],
+            "correctIndex": 0,
+            "explanation": "Prever se conjuga como ver: vio → previó. «Preveyó» mezcla prever con proveer, y «proveyó» es de proveer (suministrar), que no encaja con el sentido de anticipar."
           }
         ]
       },
@@ -30722,10 +36630,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "La idea: el sufijo dice si es un delito, una práctica o una persona",
+        "heading": "-ción y -ismo: un delito o una práctica",
         "body": [
-          "El léxico político de la prensa se ordena por sufijos. -ción nombra una acción concreta, a menudo un delito tipificado: la prevaricación (dictar a sabiendas una resolución injusta), la malversación (uso indebido de fondos públicos). -ismo nombra un sistema o una práctica extendida: el clientelismo (favores a cambio de apoyo político, de cliente), el caciquismo (dominio de un jefe local, de cacique), el transfuguismo (de tránsfuga, quien cambia de partido sin dejar el escaño). La persona se nombra con la raíz: el cacique, el tránsfuga, el populista.",
-          "Con esta pista entiendes términos nuevos: el nepotismo es la práctica de favorecer a los parientes; el amiguismo, a los amigos. Completan el campo: el cohecho (soborno a un funcionario, o aceptarlo), el tráfico de influencias (usar una posición de poder para un beneficio indebido) y las puertas giratorias (paso de altos cargos a empresas del sector que regulaban)."
+          "El léxico político de la prensa se ordena por sufijos. -ción nombra una acción concreta, a menudo un delito tipificado: la prevaricación (dictar a sabiendas una resolución injusta), la malversación (uso indebido de fondos públicos). -ismo nombra un sistema o una práctica extendida: el clientelismo (favores a cambio de apoyo político, de cliente), el caciquismo (dominio de un jefe local, de cacique), el transfuguismo (de tránsfuga, quien cambia de partido sin dejar el escaño). La persona se nombra con la raíz: el cacique, el tránsfuga, el populista."
         ],
         "examples": [
           {
@@ -30733,16 +36640,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "The mayor was convicted of malfeasance in planning matters."
           },
           {
-            "es": "Lo investigan por un presunto delito de cohecho.",
-            "en": "He's under investigation for alleged bribery."
-          },
-          {
             "es": "El juez imputó a tres consejeros por malversación de caudales públicos.",
             "en": "The judge charged three regional ministers with embezzlement of public funds."
-          },
-          {
-            "es": "Dimitió tras conocerse el presunto tráfico de influencias.",
-            "en": "She resigned after the alleged influence peddling came to light."
           },
           {
             "es": "El clientelismo ha lastrado durante décadas la política local.",
@@ -30751,6 +36650,36 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "El caciquismo marcó la política rural de la Restauración.",
             "en": "Local bossism shaped rural politics during the Restoration."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«La ___ de fondos públicos llevó al tesorero a prisión.» ¿Qué delito concreto es?",
+            "options": [
+              "malversación",
+              "clientelismo",
+              "caciquismo",
+              "populismo"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ción nombra una acción concreta, a menudo un delito: la malversación es el uso indebido de fondos públicos. -ismo nombra un sistema o una práctica extendida (clientelismo, caciquismo) o un discurso (populismo), no un delito que se comete con unos fondos."
+          }
+        ]
+      },
+      {
+        "heading": "Términos nuevos con la misma pista",
+        "body": [
+          "Con esta pista entiendes términos nuevos: el nepotismo es la práctica de favorecer a los parientes; el amiguismo, a los amigos. Completan el campo: el cohecho (soborno a un funcionario, o aceptarlo), el tráfico de influencias (usar una posición de poder para un beneficio indebido) y las puertas giratorias (paso de altos cargos a empresas del sector que regulaban)."
+        ],
+        "examples": [
+          {
+            "es": "Lo investigan por un presunto delito de cohecho.",
+            "en": "He's under investigation for alleged bribery."
+          },
+          {
+            "es": "Dimitió tras conocerse el presunto tráfico de influencias.",
+            "en": "She resigned after the alleged influence peddling came to light."
           },
           {
             "es": "La ley pretende frenar las puertas giratorias.",
@@ -31036,16 +36965,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Precios, crisis y deuda",
+        "heading": "Precios y crisis: entender por la formación",
         "body": [
-          "Conceptos que la prensa económica usa con precisión técnica. Muchos se entienden por su formación: «de-» invierte un proceso (inflación → deflación: los precios bajan), y «estanflación» es un cruce de «estancamiento» + «inflación», dos males que normalmente no van juntos. Otros son metáforas: la «burbuja» crece hueca y estalla; el «rescate» saca a alguien del agua.",
-          "«la deflación»: descenso generalizado y sostenido de los precios.",
-          "«la estanflación»: estancamiento económico combinado con inflación alta.",
-          "«la prima de riesgo»: diferencia de interés que paga un país respecto a otro de referencia para financiarse.",
-          "«el repunte»: subida de algo tras un descenso o un estancamiento.",
-          "«la burbuja»: subida artificial de precios de un activo que acaba estallando.",
-          "«el rescate»: ayuda financiera de emergencia a un país, un banco o una empresa.",
-          "«la quita»: reducción de una deuda que acepta el acreedor."
+          "Conceptos que la prensa económica usa con precisión técnica. Muchos se entienden por su formación: «de-» invierte un proceso (inflación → deflación: los precios bajan), y «estanflación» es un cruce de «estancamiento» + «inflación», dos males que normalmente no van juntos. Otros son metáforas: la «burbuja» crece hueca y estalla; el «rescate» saca a alguien del agua."
         ],
         "examples": [
           {
@@ -31057,20 +36979,48 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "Experts fear a stagflation scenario."
           },
           {
-            "es": "La prima de riesgo se disparó hasta los 600 puntos.",
-            "en": "The risk premium soared to 600 basis points."
-          },
-          {
-            "es": "Se espera un repunte del consumo en verano.",
-            "en": "A rebound in consumer spending is expected in summer."
-          },
-          {
             "es": "La burbuja inmobiliaria estalló en 2008.",
             "en": "The property bubble burst in 2008."
           },
           {
             "es": "El país solicitó un rescate a la Unión Europea.",
             "en": "The country requested a bailout from the European Union."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Si «deflación» es la bajada general de los precios, ¿qué significará «desinflación»?",
+            "options": [
+              "que la inflación sigue, pero sube más despacio",
+              "que los precios bajan durante años",
+              "que la inflación sube de golpe",
+              "que se imprime más dinero"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Des-» indica que la inflación pierde fuerza: los precios siguen subiendo, pero menos. La bajada de precios sería deflación; una subida brusca, un repunte de la inflación."
+          }
+        ]
+      },
+      {
+        "heading": "Glosario: precios, crisis y deuda",
+        "body": [
+          "«la deflación»: descenso generalizado y sostenido de los precios.",
+          "«la estanflación»: estancamiento económico combinado con inflación alta.",
+          "«la prima de riesgo»: diferencia de interés que paga un país respecto a otro de referencia para financiarse.",
+          "«el repunte»: subida de algo tras un descenso o un estancamiento.",
+          "«la burbuja»: subida artificial de precios de un activo que acaba estallando.",
+          "«el rescate»: ayuda financiera de emergencia a un país, un banco o una empresa.",
+          "«la quita»: reducción de una deuda que acepta el acreedor."
+        ],
+        "examples": [
+          {
+            "es": "La prima de riesgo se disparó hasta los 600 puntos.",
+            "en": "The risk premium soared to 600 basis points."
+          },
+          {
+            "es": "Se espera un repunte del consumo en verano.",
+            "en": "A rebound in consumer spending is expected in summer."
           },
           {
             "es": "Los bancos aceptaron una quita del 50 %.",
@@ -31100,25 +37050,46 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Si «deflación» es la bajada general de los precios, ¿qué significará «desinflación»?",
-            "options": [
-              "que la inflación sigue, pero sube más despacio",
-              "que los precios bajan durante años",
-              "que la inflación sube de golpe",
-              "que se imprime más dinero"
-            ],
-            "correctIndex": 0,
-            "explanation": "«Des-» indica que la inflación pierde fuerza: los precios siguen subiendo, pero menos. La bajada de precios sería deflación; una subida brusca, un repunte de la inflación."
           }
         ]
       },
       {
-        "heading": "Empresas, bancos y comercio",
+        "heading": "Liquidez no es solvencia",
         "body": [
-          "Distinciones que conviene no confundir: liquidez no es solvencia. «Líquido» es el dinero disponible ya; por eso la liquidez es el corto plazo (¿puedo pagar este mes?), mientras que la solvencia mira el conjunto (¿mis bienes cubren todas mis deudas?). Una empresa rentable puede quedarse sin liquidez y seguir siendo solvente. Los sustantivos en -ez, -encia, -idad salen de adjetivos: líquido → liquidez, solvente → solvencia, moroso → morosidad.",
+          "Distinciones que conviene no confundir: liquidez no es solvencia. «Líquido» es el dinero disponible ya; por eso la liquidez es el corto plazo (¿puedo pagar este mes?), mientras que la solvencia mira el conjunto (¿mis bienes cubren todas mis deudas?). Una empresa rentable puede quedarse sin liquidez y seguir siendo solvente. Los sustantivos en -ez, -encia, -idad salen de adjetivos: líquido → liquidez, solvente → solvencia, moroso → morosidad."
+        ],
+        "examples": [
+          {
+            "es": "La empresa es rentable, pero tiene problemas de liquidez.",
+            "en": "The company is profitable but has cash-flow problems."
+          },
+          {
+            "es": "Las agencias dudan de la solvencia del banco.",
+            "en": "The agencies doubt the bank's solvency."
+          },
+          {
+            "es": "La morosidad bancaria alcanzó su nivel más alto.",
+            "en": "Bank loan defaults reached their highest level."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el patrón solvente → solvencia, ¿cómo se llama la situación de quien no puede pagar todas sus deudas?",
+            "options": [
+              "la insolvencia",
+              "la insolvenza",
+              "la insolvación",
+              "la desolvencia"
+            ],
+            "correctIndex": 0,
+            "explanation": "Al adjetivo «insolvente» le corresponde el sustantivo en -encia: «la insolvencia». Las otras formas no existen en español."
+          }
+        ]
+      },
+      {
+        "heading": "Glosario: empresas, bancos y comercio",
+        "body": [
           "«la morosidad»: retraso o impago de deudas.",
           "«la liquidez»: capacidad de disponer de dinero a corto plazo.",
           "«la solvencia»: capacidad de hacer frente a todas las deudas.",
@@ -31128,18 +37099,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«la recesión»: caída de la actividad económica durante al menos dos trimestres seguidos."
         ],
         "examples": [
-          {
-            "es": "La morosidad bancaria alcanzó su nivel más alto.",
-            "en": "Bank loan defaults reached their highest level."
-          },
-          {
-            "es": "La empresa es rentable, pero tiene problemas de liquidez.",
-            "en": "The company is profitable but has cash-flow problems."
-          },
-          {
-            "es": "Las agencias dudan de la solvencia del banco.",
-            "en": "The agencies doubt the bank's solvency."
-          },
           {
             "es": "Estados Unidos impuso nuevos aranceles al acero.",
             "en": "The United States imposed new tariffs on steel."
@@ -31180,18 +37139,6 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Siguiendo el patrón solvente → solvencia, ¿cómo se llama la situación de quien no puede pagar todas sus deudas?",
-            "options": [
-              "la insolvencia",
-              "la insolvenza",
-              "la insolvación",
-              "la desolvencia"
-            ],
-            "correctIndex": 0,
-            "explanation": "Al adjetivo «insolvente» le corresponde el sustantivo en -encia: «la insolvencia». Las otras formas no existen en español."
           }
         ]
       }
@@ -31371,16 +37318,9 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Diseñar un estudio",
+        "heading": "Diseñar un estudio: la lógica de comparar",
         "body": [
-          "Términos para describir cómo se obtienen los datos. La lógica del diseño es comparar: una muestra representa a la población, el grupo de control permite ver qué habría pasado sin el tratamiento, y el placebo separa el efecto del fármaco del efecto de creer que se toma algo. El sesgo es lo que estropea esa comparación de forma sistemática, no por azar.",
-          "«la muestra»: conjunto de individuos que se estudia para sacar conclusiones sobre una población.",
-          "«el sesgo»: error sistemático que distorsiona los resultados.",
-          "«el grupo de control»: grupo que no recibe el tratamiento y sirve de comparación.",
-          "«el placebo»: sustancia sin efecto farmacológico que se administra como si lo tuviera.",
-          "«el ensayo clínico»: estudio controlado de un tratamiento en personas.",
-          "«la variable»: factor que puede cambiar y cuyo efecto se mide.",
-          "«la hipótesis»: suposición que se somete a prueba."
+          "Términos para describir cómo se obtienen los datos. La lógica del diseño es comparar: una muestra representa a la población, el grupo de control permite ver qué habría pasado sin el tratamiento, y el placebo separa el efecto del fármaco del efecto de creer que se toma algo. El sesgo es lo que estropea esa comparación de forma sistemática, no por azar."
         ],
         "examples": [
           {
@@ -31398,7 +37338,35 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Algunos pacientes mejoraron solo con el placebo.",
             "en": "Some patients improved on the placebo alone."
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un estudio sobre hábitos de lectura solo entrevista a socios de bibliotecas. ¿Qué problema tiene?",
+            "options": [
+              "un sesgo de selección: la muestra no representa a la población",
+              "un exceso de grupo de control",
+              "un efecto placebo",
+              "una replicabilidad demasiado alta"
+            ],
+            "correctIndex": 0,
+            "explanation": "Los socios de bibliotecas leen más que la media: la muestra está elegida de forma que distorsiona sistemáticamente el resultado, es decir, hay sesgo de selección. No tiene que ver con el placebo (no hay tratamiento) ni con la replicabilidad."
+          }
+        ]
+      },
+      {
+        "heading": "Glosario: diseñar un estudio",
+        "body": [
+          "«la muestra»: conjunto de individuos que se estudia para sacar conclusiones sobre una población.",
+          "«el sesgo»: error sistemático que distorsiona los resultados.",
+          "«el grupo de control»: grupo que no recibe el tratamiento y sirve de comparación.",
+          "«el placebo»: sustancia sin efecto farmacológico que se administra como si lo tuviera.",
+          "«el ensayo clínico»: estudio controlado de un tratamiento en personas.",
+          "«la variable»: factor que puede cambiar y cuyo efecto se mide.",
+          "«la hipótesis»: suposición que se somete a prueba."
+        ],
+        "examples": [
           {
             "es": "El fármaco está en la fase III del ensayo clínico.",
             "en": "The drug is in phase III of the clinical trial."
@@ -31435,32 +37403,13 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Un estudio sobre hábitos de lectura solo entrevista a socios de bibliotecas. ¿Qué problema tiene?",
-            "options": [
-              "un sesgo de selección: la muestra no representa a la población",
-              "un exceso de grupo de control",
-              "un efecto placebo",
-              "una replicabilidad demasiado alta"
-            ],
-            "correctIndex": 0,
-            "explanation": "Los socios de bibliotecas leen más que la media: la muestra está elegida de forma que distorsiona sistemáticamente el resultado, es decir, hay sesgo de selección. No tiene que ver con el placebo (no hay tratamiento) ni con la replicabilidad."
           }
         ]
       },
       {
-        "heading": "Interpretar resultados",
+        "heading": "Interpretar resultados: sufijos y una trampa",
         "body": [
-          "Términos para valorar qué dicen los datos y qué no. Muchos se forman con sufijos regulares: el adjetivo en -ble da un sustantivo en -bilidad (replicable → replicabilidad, fiable → fiabilidad), y co- indica «junto con» (correlación: dos cosas que varían juntas). La gran trampa: «causalidad» (causa-efecto) no es «casualidad» (azar), y una correlación no demuestra causalidad.",
-          "«la correlación»: relación estadística entre dos variables, que no implica causa.",
-          "«la causalidad»: relación de causa y efecto (no confundir con «casualidad», azar).",
-          "«el margen de error»: intervalo dentro del cual se estima que está el valor real.",
-          "«la significación estadística»: indica que un resultado sería muy improbable si solo actuara el azar.",
-          "«la replicabilidad»: posibilidad de obtener los mismos resultados repitiendo el estudio.",
-          "«la revisión por pares»: evaluación de un artículo por otros expertos antes de publicarlo.",
-          "«extrapolar»: aplicar conclusiones obtenidas en un ámbito a otro distinto."
+          "Términos para valorar qué dicen los datos y qué no. Muchos se forman con sufijos regulares: el adjetivo en -ble da un sustantivo en -bilidad (replicable → replicabilidad, fiable → fiabilidad), y co- indica «junto con» (correlación: dos cosas que varían juntas). La gran trampa: «causalidad» (causa-efecto) no es «casualidad» (azar), y una correlación no demuestra causalidad."
         ],
         "examples": [
           {
@@ -31472,16 +37421,44 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "There's no evidence of causation between the two phenomena."
           },
           {
+            "es": "La crisis de replicabilidad afecta a la psicología.",
+            "en": "The replication crisis affects psychology."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el patrón replicable → replicabilidad, si una teoría es «falsable» (se puede refutar con datos), ¿qué cualidad tiene?",
+            "options": [
+              "la falsabilidad",
+              "la falsedad",
+              "la falsación",
+              "la falsificabilidad"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ble → -bilidad: falsable → falsabilidad, la cualidad de poder ser refutada (criterio de Popper). «Falsedad» es ser falso, «falsación» es el acto de refutar y «falsificabilidad» remite a falsificar (falsear un documento)."
+          }
+        ]
+      },
+      {
+        "heading": "Glosario: interpretar resultados",
+        "body": [
+          "«la correlación»: relación estadística entre dos variables, que no implica causa.",
+          "«la causalidad»: relación de causa y efecto (no confundir con «casualidad», azar).",
+          "«el margen de error»: intervalo dentro del cual se estima que está el valor real.",
+          "«la significación estadística»: indica que un resultado sería muy improbable si solo actuara el azar.",
+          "«la replicabilidad»: posibilidad de obtener los mismos resultados repitiendo el estudio.",
+          "«la revisión por pares»: evaluación de un artículo por otros expertos antes de publicarlo.",
+          "«extrapolar»: aplicar conclusiones obtenidas en un ámbito a otro distinto."
+        ],
+        "examples": [
+          {
             "es": "La encuesta tiene un margen de error del 3 %.",
             "en": "The poll has a margin of error of 3%."
           },
           {
             "es": "La diferencia no alcanzó significación estadística.",
             "en": "The difference did not reach statistical significance."
-          },
-          {
-            "es": "La crisis de replicabilidad afecta a la psicología.",
-            "en": "The replication crisis affects psychology."
           },
           {
             "es": "El artículo aún no ha pasado la revisión por pares.",
@@ -31515,18 +37492,6 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Siguiendo el patrón replicable → replicabilidad, si una teoría es «falsable» (se puede refutar con datos), ¿qué cualidad tiene?",
-            "options": [
-              "la falsabilidad",
-              "la falsedad",
-              "la falsación",
-              "la falsificabilidad"
-            ],
-            "correctIndex": 0,
-            "explanation": "-ble → -bilidad: falsable → falsabilidad, la cualidad de poder ser refutada (criterio de Popper). «Falsedad» es ser falso, «falsación» es el acto de refutar y «falsificabilidad» remite a falsificar (falsear un documento)."
           }
         ]
       }
@@ -31706,9 +37671,46 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Herencias y propiedad",
+        "heading": "Herencias y propiedad: descifrar las palabras",
         "body": [
-          "Figuras jurídicas que surgen al heredar o compartir un bien. Muchas se descifran por el latín y el griego: «usufructo» = uso + fruto (usar el bien y quedarse lo que produce); «nuda propiedad» = propiedad «desnuda», sin ese uso; «ológrafo» = escrito entero (de la propia mano). Y la persona se forma con -ario: usufructo → usufructuario, legado → legatario.",
+          "Figuras jurídicas que surgen al heredar o compartir un bien. Muchas se descifran por el latín y el griego: «usufructo» = uso + fruto (usar el bien y quedarse lo que produce); «nuda propiedad» = propiedad «desnuda», sin ese uso; «ológrafo» = escrito entero (de la propia mano). Y la persona se forma con -ario: usufructo → usufructuario, legado → legatario."
+        ],
+        "examples": [
+          {
+            "es": "La viuda conserva el usufructo de la vivienda.",
+            "en": "The widow keeps the usufruct of the house."
+          },
+          {
+            "es": "Los hijos heredaron la nuda propiedad.",
+            "en": "The children inherited the bare ownership."
+          },
+          {
+            "es": "Apareció un testamento ológrafo en un cajón.",
+            "en": "A handwritten will turned up in a drawer."
+          },
+          {
+            "es": "Dejó un legado a la biblioteca municipal.",
+            "en": "She left a bequest to the town library."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Siguiendo el patrón usufructo → usufructuario, ¿cómo se llama la persona que recibe un legado?",
+            "options": [
+              "el legatario",
+              "el legador",
+              "el legante",
+              "el legado"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ario forma la persona que tiene o recibe algo: legado → legatario (como usufructo → usufructuario). Quien deja el legado es el testador; «legador» y «legante» no se usan, y «el legado» es el bien, no la persona."
+          }
+        ]
+      },
+      {
+        "heading": "Glosario: herencias y propiedad",
+        "body": [
           "«el albacea»: persona encargada de cumplir la voluntad del testador.",
           "«el usufructo»: derecho a usar un bien ajeno y disfrutar de sus frutos.",
           "«la nuda propiedad»: propiedad de un bien sin el derecho a usarlo, que tiene otro (el usufructuario).",
@@ -31723,28 +37725,12 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "He appointed his trusted notary as executor."
           },
           {
-            "es": "La viuda conserva el usufructo de la vivienda.",
-            "en": "The widow keeps the usufruct of the house."
-          },
-          {
-            "es": "Los hijos heredaron la nuda propiedad.",
-            "en": "The children inherited the bare ownership."
-          },
-          {
             "es": "Las deudas de la herencia yacente siguen generando intereses.",
             "en": "The debts of the estate not yet accepted by the heirs keep accruing interest."
           },
           {
             "es": "La finca tiene una servidumbre de paso a favor del vecino.",
             "en": "The property has a right of way in favour of the neighbour."
-          },
-          {
-            "es": "Dejó un legado a la biblioteca municipal.",
-            "en": "She left a bequest to the town library."
-          },
-          {
-            "es": "Apareció un testamento ológrafo en un cajón.",
-            "en": "A handwritten will turned up in a drawer."
           }
         ],
         "checkpoint": [
@@ -31770,25 +37756,50 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Siguiendo el patrón usufructo → usufructuario, ¿cómo se llama la persona que recibe un legado?",
-            "options": [
-              "el legatario",
-              "el legador",
-              "el legante",
-              "el legado"
-            ],
-            "correctIndex": 0,
-            "explanation": "-ario forma la persona que tiene o recibe algo: legado → legatario (como usufructo → usufructuario). Quien deja el legado es el testador; «legador» y «legante» no se usan, y «el legado» es el bien, no la persona."
           }
         ]
       },
       {
-        "heading": "Deudas, plazos y delitos cotidianos",
+        "heading": "Dos pares que se confunden",
         "body": [
-          "Términos de la prensa de tribunales y la vida administrativa. Dos pares que se confunden: prescripción y caducidad tienen que ver con el paso del tiempo (la prescripción extingue un derecho o la responsabilidad por un delito; la caducidad, un derecho que no se ejerció en su plazo), mientras que desahucio (sacar al ocupante de una vivienda por orden judicial) y allanamiento de morada (entrar en casa ajena sin permiso) van en direcciones opuestas.",
+          "Términos de la prensa de tribunales y la vida administrativa. Dos pares que se confunden: prescripción y caducidad tienen que ver con el paso del tiempo (la prescripción extingue un derecho o la responsabilidad por un delito; la caducidad, un derecho que no se ejerció en su plazo), mientras que desahucio (sacar al ocupante de una vivienda por orden judicial) y allanamiento de morada (entrar en casa ajena sin permiso) van en direcciones opuestas."
+        ],
+        "examples": [
+          {
+            "es": "El delito quedó impune por prescripción.",
+            "en": "The crime went unpunished because of the statute of limitations."
+          },
+          {
+            "es": "La acción se desestimó por caducidad.",
+            "en": "The action was dismissed because the time limit had expired."
+          },
+          {
+            "es": "El desahucio se aplazó por razones humanitarias.",
+            "en": "The eviction was postponed on humanitarian grounds."
+          },
+          {
+            "es": "Lo detuvieron por allanamiento de morada.",
+            "en": "He was arrested for unlawful entry into a home."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un hombre entra de noche en el piso vacío de su vecino sin permiso. ¿Qué delito comete?",
+            "options": [
+              "allanamiento de morada",
+              "desahucio",
+              "reyerta",
+              "embargo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Entrar en domicilio ajeno sin permiso del morador es allanamiento de morada. El desahucio es lo contrario (una orden judicial que saca al ocupante), la reyerta es una pelea y el embargo, una retención de bienes."
+          }
+        ]
+      },
+      {
+        "heading": "Glosario: deudas, plazos y delitos cotidianos",
+        "body": [
           "«el embargo»: retención judicial de bienes para pagar una deuda.",
           "«el desahucio»: expulsión judicial del inquilino u ocupante de una vivienda (en muchos países de América, «desalojo»).",
           "«la prescripción»: extinción de un derecho o de la responsabilidad penal por el paso del tiempo.",
@@ -31801,22 +37812,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "El juzgado ordenó el embargo de su nómina.",
             "en": "The court ordered the garnishment of his salary."
-          },
-          {
-            "es": "El desahucio se aplazó por razones humanitarias.",
-            "en": "The eviction was postponed on humanitarian grounds."
-          },
-          {
-            "es": "El delito quedó impune por prescripción.",
-            "en": "The crime went unpunished because of the statute of limitations."
-          },
-          {
-            "es": "La acción se desestimó por caducidad.",
-            "en": "The action was dismissed because the time limit had expired."
-          },
-          {
-            "es": "Lo detuvieron por allanamiento de morada.",
-            "en": "He was arrested for unlawful entry into a home."
           },
           {
             "es": "Un joven resultó herido en una reyerta callejera.",
@@ -31850,18 +37845,6 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Un hombre entra de noche en el piso vacío de su vecino sin permiso. ¿Qué delito comete?",
-            "options": [
-              "allanamiento de morada",
-              "desahucio",
-              "reyerta",
-              "embargo"
-            ],
-            "correctIndex": 0,
-            "explanation": "Entrar en domicilio ajeno sin permiso del morador es allanamiento de morada. El desahucio es lo contrario (una orden judicial que saca al ocupante), la reyerta es una pelea y el embargo, una retención de bienes."
           }
         ]
       }
@@ -32045,16 +38028,32 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Causas y evolución",
+        "heading": "Causas y evolución: palabras que se descomponen",
         "body": [
-          "Términos que describen el origen y el curso de una enfermedad. Casi todos son griegos y se pueden descomponer: etio- (causa) + -logía (estudio); pro- (antes) + -gnosis (conocer) = pronóstico; iatro- (médico) + -genia (origen) = iatrogenia, el daño que nace del propio acto médico; co- (junto) + morbilidad = comorbilidad, otra enfermedad que va junto a la principal.",
+          "Términos que describen el origen y el curso de una enfermedad. Casi todos son griegos y se pueden descomponer: etio- (causa) + -logía (estudio); pro- (antes) + -gnosis (conocer) = pronóstico; iatro- (médico) + -genia (origen) = iatrogenia, el daño que nace del propio acto médico; co- (junto) + morbilidad = comorbilidad, otra enfermedad que va junto a la principal."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Con lo que sabes de -itis (inflamación) y del griego «ous, otós» (oído), ¿qué es una otitis?",
+            "options": [
+              "una inflamación del oído",
+              "una pérdida total de la audición",
+              "una infección de la garganta",
+              "un tumor del oído"
+            ],
+            "correctIndex": 0,
+            "explanation": "-itis indica inflamación (como en pancreatitis o bronquitis) y oto- se refiere al oído: otitis es la inflamación del oído. No es sordera, no afecta a la garganta y no es un tumor (eso sería -oma)."
+          }
+        ]
+      },
+      {
+        "heading": "Causas y evolución: etiología, pronóstico, comorbilidad, secuela",
+        "body": [
           "«la etiología»: estudio de las causas de una enfermedad, o esas causas.",
           "«el pronóstico»: previsión de la evolución probable de una enfermedad.",
           "«la comorbilidad»: presencia de otras enfermedades a la vez que la principal.",
-          "«la secuela»: trastorno que queda tras una enfermedad o una lesión.",
-          "«la remisión»: disminución o desaparición de los síntomas de una enfermedad.",
-          "«la recidiva»: reaparición de una enfermedad tras un periodo de curación.",
-          "«la iatrogenia»: daño causado involuntariamente por una intervención médica."
+          "«la secuela»: trastorno que queda tras una enfermedad o una lesión."
         ],
         "examples": [
           {
@@ -32072,18 +38071,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "El accidente le dejó secuelas neurológicas.",
             "en": "The accident left him with neurological after-effects."
-          },
-          {
-            "es": "El tumor está en remisión completa.",
-            "en": "The tumour is in complete remission."
-          },
-          {
-            "es": "El riesgo de recidiva es bajo.",
-            "en": "The risk of recurrence is low."
-          },
-          {
-            "es": "El estudio analiza los casos de iatrogenia hospitalaria.",
-            "en": "The study analyses cases of hospital-induced iatrogenic harm."
           }
         ],
         "checkpoint": [
@@ -32109,32 +38096,72 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Con lo que sabes de -itis (inflamación) y del griego «ous, otós» (oído), ¿qué es una otitis?",
-            "options": [
-              "una inflamación del oído",
-              "una pérdida total de la audición",
-              "una infección de la garganta",
-              "un tumor del oído"
-            ],
-            "correctIndex": 0,
-            "explanation": "-itis indica inflamación (como en pancreatitis o bronquitis) y oto- se refiere al oído: otitis es la inflamación del oído. No es sordera, no afecta a la garganta y no es un tumor (eso sería -oma)."
           }
         ]
       },
       {
-        "heading": "Tipos de enfermedad y prevención",
+        "heading": "Causas y evolución: remisión, recidiva, iatrogenia",
         "body": [
-          "Pares que no conviene confundir y términos de salud pública. Agudo / crónico hablan del tiempo (brusco y breve frente a duradero), no de la gravedad; benigno / maligno, de si invade otros tejidos. El prefijo a- niega (asintomático = sin síntomas, afebril = sin fiebre) y pro- vuelve a significar «antes» (profilaxis = protección previa).",
+          "«la remisión»: disminución o desaparición de los síntomas de una enfermedad.",
+          "«la recidiva»: reaparición de una enfermedad tras un periodo de curación.",
+          "«la iatrogenia»: daño causado involuntariamente por una intervención médica."
+        ],
+        "examples": [
+          {
+            "es": "El tumor está en remisión completa.",
+            "en": "The tumour is in complete remission."
+          },
+          {
+            "es": "El riesgo de recidiva es bajo.",
+            "en": "The risk of recurrence is low."
+          },
+          {
+            "es": "El estudio analiza los casos de iatrogenia hospitalaria.",
+            "en": "The study analyses cases of hospital-induced iatrogenic harm."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Una paciente superó un linfoma hace tres años y ahora la enfermedad ha vuelto. ¿Qué palabra usaría la prensa?",
+            "options": [
+              "una recidiva",
+              "una remisión",
+              "una secuela",
+              "una iatrogenia"
+            ],
+            "correctIndex": 0,
+            "explanation": "La recidiva es la reaparición de una enfermedad tras un periodo de curación. La remisión es lo contrario (los síntomas desaparecen), una secuela es un trastorno que queda tras la enfermedad y la iatrogenia es un daño causado por el acto médico."
+          }
+        ]
+      },
+      {
+        "heading": "Tipos de enfermedad: pares y prefijos",
+        "body": [
+          "Pares que no conviene confundir y términos de salud pública. Agudo / crónico hablan del tiempo (brusco y breve frente a duradero), no de la gravedad; benigno / maligno, de si invade otros tejidos. El prefijo a- niega (asintomático = sin síntomas, afebril = sin fiebre) y pro- vuelve a significar «antes» (profilaxis = protección previa)."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplicando el prefijo a- (sin), ¿cómo describe un parte médico a un paciente que no tiene fiebre?",
+            "options": [
+              "afebril",
+              "antifebril",
+              "infebril",
+              "desfebril"
+            ],
+            "correctIndex": 0,
+            "explanation": "El prefijo a- niega: a- + febril = afebril, «sin fiebre», igual que asintomático. «Antifebril» sería algo que combate la fiebre, y las otras dos formas no existen."
+          }
+        ]
+      },
+      {
+        "heading": "Agudo, crónico, benigno, maligno",
+        "body": [
           "«agudo»: de aparición brusca y evolución corta (frente a «crónico»).",
           "«crónico»: de larga duración o que se repite con frecuencia.",
           "«benigno»: que no es canceroso ni pone en peligro la vida.",
-          "«maligno»: canceroso, capaz de invadir otros tejidos.",
-          "«asintomático»: que no presenta síntomas aunque tenga la enfermedad.",
-          "«la profilaxis»: conjunto de medidas para prevenir una enfermedad.",
-          "«la cuarentena»: aislamiento preventivo de personas expuestas a una enfermedad contagiosa."
+          "«maligno»: canceroso, capaz de invadir otros tejidos."
         ],
         "examples": [
           {
@@ -32152,18 +38179,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "La biopsia confirmó que el tumor era maligno.",
             "en": "The biopsy confirmed the tumour was malignant."
-          },
-          {
-            "es": "Muchos contagiados eran asintomáticos.",
-            "en": "Many of those infected were asymptomatic."
-          },
-          {
-            "es": "Se recomienda profilaxis antibiótica antes de la cirugía.",
-            "en": "Antibiotic prophylaxis is recommended before surgery."
-          },
-          {
-            "es": "Los pasajeros guardaron cuarentena en el hotel.",
-            "en": "The passengers were kept in quarantine at the hotel."
           }
         ],
         "checkpoint": [
@@ -32189,18 +38204,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Prevención: asintomático, profilaxis, cuarentena",
+        "body": [
+          "«asintomático»: que no presenta síntomas aunque tenga la enfermedad.",
+          "«la profilaxis»: conjunto de medidas para prevenir una enfermedad.",
+          "«la cuarentena»: aislamiento preventivo de personas expuestas a una enfermedad contagiosa."
+        ],
+        "examples": [
+          {
+            "es": "Muchos contagiados eran asintomáticos.",
+            "en": "Many of those infected were asymptomatic."
           },
           {
+            "es": "Se recomienda profilaxis antibiótica antes de la cirugía.",
+            "en": "Antibiotic prophylaxis is recommended before surgery."
+          },
+          {
+            "es": "Los pasajeros guardaron cuarentena en el hotel.",
+            "en": "The passengers were kept in quarantine at the hotel."
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Aplicando el prefijo a- (sin), ¿cómo describe un parte médico a un paciente que no tiene fiebre?",
+            "question": "Un enfermero vuelve de una zona con brote de ébola y, aunque se encuentra bien, pasa 21 días aislado en casa. ¿Qué está guardando?",
             "options": [
-              "afebril",
-              "antifebril",
-              "infebril",
-              "desfebril"
+              "cuarentena",
+              "profilaxis",
+              "remisión",
+              "comorbilidad"
             ],
             "correctIndex": 0,
-            "explanation": "El prefijo a- niega: a- + febril = afebril, «sin fiebre», igual que asintomático. «Antifebril» sería algo que combate la fiebre, y las otras dos formas no existen."
+            "explanation": "La cuarentena es el aislamiento preventivo de personas expuestas a una enfermedad contagiosa, aunque no tengan síntomas. La profilaxis es el conjunto de medidas para prevenir (vacunas, antibióticos), no el aislamiento; remisión y comorbilidad describen el curso de una enfermedad."
           }
         ]
       }
@@ -32375,16 +38414,32 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Tristeza y desánimo",
+        "heading": "Tristeza y desánimo: familias de palabras",
         "body": [
-          "No todo es «tristeza»: cada palabra tiene su intensidad y su causa. Y casi todas pertenecen a una familia, lo que permite deducir palabras nuevas: des- niega la base (amparo → el desamparo; encanto → el desencanto; sazón, el «buen gusto», → la desazón); -miento y -ción nombran el estado que deja un verbo (abatir → el abatimiento; exaltar → la exaltación; desolar → la desolación); y cada sustantivo tiene su adjetivo (abatido, desolado, desencantado, desamparado, rencoroso, aprensivo, ufano). Si conoces la base, entiendes la palabra nueva y puedes pasar de «sentir desolación» a «estar desolado».",
+          "No todo es «tristeza»: cada palabra tiene su intensidad y su causa. Y casi todas pertenecen a una familia, lo que permite deducir palabras nuevas: des- niega la base (amparo → el desamparo; encanto → el desencanto; sazón, el «buen gusto», → la desazón); -miento y -ción nombran el estado que deja un verbo (abatir → el abatimiento; exaltar → la exaltación; desolar → la desolación); y cada sustantivo tiene su adjetivo (abatido, desolado, desencantado, desamparado, rencoroso, aprensivo, ufano). Si conoces la base, entiendes la palabra nueva y puedes pasar de «sentir desolación» a «estar desolado»."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«Amparo» es protección; «desamparo», su ausencia. Con el mismo patrón, ¿qué significa «el desasosiego» (de «sosiego», calma)?",
+            "options": [
+              "falta de calma, inquietud",
+              "exceso de calma",
+              "calma recuperada tras un susto",
+              "sueño profundo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Des- niega la base: si «sosiego» es calma, «desasosiego» es su falta, una inquietud que no deja tranquilo, como «desazón». Las demás opciones no niegan la base: la mantienen o la intensifican."
+          }
+        ]
+      },
+      {
+        "heading": "Desazón, congoja, abatimiento, desolación",
+        "body": [
           "«la desazón»: inquietud o malestar difuso, sin causa clara.",
           "«la congoja»: angustia y aflicción profundas.",
           "«el abatimiento»: pérdida de fuerzas y de ánimo.",
-          "«la desolación»: tristeza extrema, sentimiento de soledad y ruina.",
-          "«el desencanto»: decepción al comprobar que algo no era como se esperaba.",
-          "«la morriña»: nostalgia de la tierra natal (muy usada en Galicia y, en general, en España).",
-          "«la añoranza»: pena por la ausencia o la pérdida de alguien o algo querido."
+          "«la desolación»: tristeza extrema, sentimiento de soledad y ruina."
         ],
         "examples": [
           {
@@ -32402,18 +38457,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "La desolación se apoderó del pueblo tras la riada.",
             "en": "Desolation took hold of the village after the flood."
-          },
-          {
-            "es": "La novela retrata el desencanto de una generación.",
-            "en": "The novel portrays the disillusionment of a generation."
-          },
-          {
-            "es": "En Navidad le entra morriña de su pueblo.",
-            "en": "At Christmas she gets homesick for her village."
-          },
-          {
-            "es": "Recordaba con añoranza los veranos de la infancia.",
-            "en": "He remembered childhood summers with longing."
           }
         ],
         "checkpoint": [
@@ -32439,18 +38482,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Desencanto, morriña, añoranza",
+        "body": [
+          "«el desencanto»: decepción al comprobar que algo no era como se esperaba.",
+          "«la morriña»: nostalgia de la tierra natal (muy usada en Galicia y, en general, en España).",
+          "«la añoranza»: pena por la ausencia o la pérdida de alguien o algo querido."
+        ],
+        "examples": [
+          {
+            "es": "La novela retrata el desencanto de una generación.",
+            "en": "The novel portrays the disillusionment of a generation."
           },
           {
+            "es": "En Navidad le entra morriña de su pueblo.",
+            "en": "At Christmas she gets homesick for her village."
+          },
+          {
+            "es": "Recordaba con añoranza los veranos de la infancia.",
+            "en": "He remembered childhood summers with longing."
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "«Amparo» es protección; «desamparo», su ausencia. Con el mismo patrón, ¿qué significa «el desasosiego» (de «sosiego», calma)?",
+            "question": "Un gallego que vive en Berlín echa de menos su aldea, el mar y la comida de su madre. ¿Qué siente?",
             "options": [
-              "falta de calma, inquietud",
-              "exceso de calma",
-              "calma recuperada tras un susto",
-              "sueño profundo"
+              "morriña",
+              "desencanto",
+              "desazón",
+              "abatimiento"
             ],
             "correctIndex": 0,
-            "explanation": "Des- niega la base: si «sosiego» es calma, «desasosiego» es su falta, una inquietud que no deja tranquilo, como «desazón». Las demás opciones no niegan la base: la mantienen o la intensifican."
+            "explanation": "La morriña es la nostalgia de la tierra natal. El desencanto es la decepción al ver que algo no era como se esperaba, la desazón un malestar difuso sin causa clara y el abatimiento una pérdida de fuerzas y de ánimo."
           }
         ]
       },
@@ -32461,10 +38528,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«la aprensión»: temor infundado o exagerado; también escrúpulo o asco.",
           "«el sobresalto»: susto repentino e inesperado.",
           "«la exaltación»: estado de entusiasmo o excitación intensa.",
-          "«la vergüenza ajena»: vergüenza que se siente por lo que hace otra persona.",
-          "«el rencor»: resentimiento persistente por un agravio.",
-          "«la ufanía»: satisfacción y orgullo por algo propio.",
-          "«el desamparo»: falta de protección y ayuda."
+          "«la vergüenza ajena»: vergüenza que se siente por lo que hace otra persona."
         ],
         "examples": [
           {
@@ -32482,18 +38546,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Su discurso me dio vergüenza ajena.",
             "en": "His speech made me cringe. (I felt embarrassed for him)"
-          },
-          {
-            "es": "No le guardo ningún rencor.",
-            "en": "I bear him no grudge."
-          },
-          {
-            "es": "Mostraba el trofeo con ufanía.",
-            "en": "He showed off the trophy with pride."
-          },
-          {
-            "es": "El documental denuncia el desamparo de los ancianos que viven solos.",
-            "en": "The documentary exposes the helplessness of elderly people who live alone."
           }
         ],
         "checkpoint": [
@@ -32519,6 +38571,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Rencor, ufanía, desamparo",
+        "body": [
+          "«el rencor»: resentimiento persistente por un agravio.",
+          "«la ufanía»: satisfacción y orgullo por algo propio.",
+          "«el desamparo»: falta de protección y ayuda."
+        ],
+        "examples": [
+          {
+            "es": "No le guardo ningún rencor.",
+            "en": "I bear him no grudge."
+          },
+          {
+            "es": "Mostraba el trofeo con ufanía.",
+            "en": "He showed off the trophy with pride."
+          },
+          {
+            "es": "El documental denuncia el desamparo de los ancianos que viven solos.",
+            "en": "The documentary exposes the helplessness of elderly people who live alone."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Veinte años después, ella aún no le perdona a su socio que la dejara fuera del negocio. ¿Qué le guarda?",
+            "options": [
+              "rencor",
+              "ufanía",
+              "desamparo",
+              "sobresalto"
+            ],
+            "correctIndex": 0,
+            "explanation": "El rencor es un resentimiento persistente por un agravio: se «guarda» durante años. La ufanía es orgullo por algo propio, el desamparo la falta de protección y el sobresalto un susto repentino."
           }
         ]
       }
@@ -32717,16 +38805,32 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "El aspecto de las personas",
+        "heading": "El aspecto de las personas: los sufijos",
         "body": [
-          "Adjetivos de la narrativa para describir cuerpos y rostros. El patrón que los une está en los sufijos: -ento indica «que tiene o tiende a» (macilento, y también amarillento, polvoriento, sediento); -izo, «que tira a, parecido a» (plomizo, rojizo, cobrizo, enfermizo); -oso, «abundante en» (frondoso, lluvioso). Con el sufijo puedes deducir adjetivos que no conoces. Y recuerda que concuerdan siempre: unas flores mustias, unos campos yermos.",
+          "Adjetivos de la narrativa para describir cuerpos y rostros. El patrón que los une está en los sufijos: -ento indica «que tiene o tiende a» (macilento, y también amarillento, polvoriento, sediento); -izo, «que tira a, parecido a» (plomizo, rojizo, cobrizo, enfermizo); -oso, «abundante en» (frondoso, lluvioso). Con el sufijo puedes deducir adjetivos que no conoces. Y recuerda que concuerdan siempre: unas flores mustias, unos campos yermos."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Con el sufijo -izo («que tira a»), ¿cómo describes un pelo de un color que tira a rojo?",
+            "options": [
+              "rojizo",
+              "rojoso",
+              "enrojecido",
+              "rojento"
+            ],
+            "correctIndex": 0,
+            "explanation": "-izo significa «que tira a, parecido a»: rojo → rojizo, como plomo → plomizo o cobre → cobrizo. «Enrojecido» es el participio de enrojecer (que se ha puesto rojo), y «rojoso» o «rojento» no existen."
+          }
+        ]
+      },
+      {
+        "heading": "Macilento, enjuto, fornido, cetrino",
+        "body": [
           "«macilento»: flaco, pálido y con aspecto enfermizo.",
           "«enjuto»: delgado y seco de carnes.",
           "«fornido»: robusto y de mucha fuerza física.",
-          "«cetrino»: de color amarillento verdoso (la tez).",
-          "«lozano»: de aspecto sano, fresco y juvenil.",
-          "«ajado»: estropeado por el uso o el paso del tiempo.",
-          "«mustio»: marchito (una flor); también triste y decaído."
+          "«cetrino»: de color amarillento verdoso (la tez)."
         ],
         "examples": [
           {
@@ -32744,18 +38848,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Tenía la tez cetrina de quien nunca toma el sol.",
             "en": "He had the sallow complexion of someone who never goes out in the sun."
-          },
-          {
-            "es": "A sus ochenta años sigue lozana.",
-            "en": "At eighty she's still sprightly."
-          },
-          {
-            "es": "Llevaba un abrigo ajado y demasiado grande.",
-            "en": "He wore a shabby coat that was too big for him."
-          },
-          {
-            "es": "Las flores del jarrón estaban mustias.",
-            "en": "The flowers in the vase were wilted."
           }
         ],
         "checkpoint": [
@@ -32781,18 +38873,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Lozano, ajado, mustio",
+        "body": [
+          "«lozano»: de aspecto sano, fresco y juvenil.",
+          "«ajado»: estropeado por el uso o el paso del tiempo.",
+          "«mustio»: marchito (una flor); también triste y decaído."
+        ],
+        "examples": [
+          {
+            "es": "A sus ochenta años sigue lozana.",
+            "en": "At eighty she's still sprightly."
           },
           {
+            "es": "Llevaba un abrigo ajado y demasiado grande.",
+            "en": "He wore a shabby coat that was too big for him."
+          },
+          {
+            "es": "Las flores del jarrón estaban mustias.",
+            "en": "The flowers in the vase were wilted."
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Con el sufijo -izo («que tira a»), ¿cómo describes un pelo de un color que tira a rojo?",
+            "question": "Un libro viejo con las tapas gastadas y las esquinas dobladas está…",
             "options": [
-              "rojizo",
-              "rojoso",
-              "enrojecido",
-              "rojento"
+              "ajado",
+              "lozano",
+              "fornido",
+              "cetrino"
             ],
             "correctIndex": 0,
-            "explanation": "-izo significa «que tira a, parecido a»: rojo → rojizo, como plomo → plomizo o cobre → cobrizo. «Enrojecido» es el participio de enrojecer (que se ha puesto rojo), y «rojoso» o «rojento» no existen."
+            "explanation": "«Ajado» es lo estropeado por el uso o el paso del tiempo, como un libro gastado. «Lozano» es justo lo contrario (sano, fresco); «fornido» y «cetrino» describen el cuerpo y el color de la tez."
           }
         ]
       },
@@ -33052,16 +39168,32 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Lo que se oye",
+        "heading": "Lo que se oye: el patrón",
         "body": [
-          "Verbos que sustituyen a «hacer ruido» o «sonar». El patrón: muchos imitan el sonido que nombran (chirriar, zumbar, crepitar) y el sufijo -ear indica una acción repetida: tintinear, bisbisear, golpetear, repiquetear. Además, se agrupan por el tono: agudos (chirriar, tintinear) frente a graves (retumbar, zumbar). Si conoces el patrón, deduces verbos nuevos como «golpetear» (dar golpes repetidos).",
+          "Verbos que sustituyen a «hacer ruido» o «sonar». El patrón: muchos imitan el sonido que nombran (chirriar, zumbar, crepitar) y el sufijo -ear indica una acción repetida: tintinear, bisbisear, golpetear, repiquetear. Además, se agrupan por el tono: agudos (chirriar, tintinear) frente a graves (retumbar, zumbar). Si conoces el patrón, deduces verbos nuevos como «golpetear» (dar golpes repetidos)."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Con el patrón de «tintinear» o «bisbisear» (-ear = acción repetida), ¿qué hace la lluvia que «repiquetea» en el tejado?",
+            "options": [
+              "golpea con toques rápidos y repetidos",
+              "cae una sola vez con fuerza",
+              "deja de caer",
+              "brilla al sol"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ear forma verbos de acción repetida: repiquetear = dar toques rápidos y repetidos, como las campanas o la lluvia. No es un único golpe, ni el fin de la lluvia, ni un verbo de luz."
+          }
+        ]
+      },
+      {
+        "heading": "Crepitar, chirriar, retumbar, bisbisear",
+        "body": [
           "«crepitar»: hacer ruidos secos y repetidos, como la leña al arder.",
           "«chirriar»: producir un sonido agudo y desagradable, como una puerta sin engrasar.",
           "«retumbar»: resonar con fuerza un ruido grave.",
-          "«bisbisear»: hablar en voz muy baja, entre dientes.",
-          "«rechinar»: hacer un ruido áspero al rozar (los dientes, una máquina).",
-          "«tintinear»: producir un sonido agudo como de campanilla o de cristal.",
-          "«zumbar»: producir un ruido continuo y sordo, como un insecto o un motor."
+          "«bisbisear»: hablar en voz muy baja, entre dientes."
         ],
         "examples": [
           {
@@ -33079,18 +39211,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Las vecinas bisbiseaban a su paso.",
             "en": "The neighbours whispered as she passed."
-          },
-          {
-            "es": "Le rechinaban los dientes mientras dormía.",
-            "en": "He ground his teeth in his sleep."
-          },
-          {
-            "es": "Los vasos tintineaban en la bandeja.",
-            "en": "The glasses clinked on the tray."
-          },
-          {
-            "es": "Le zumbaban los oídos después del concierto.",
-            "en": "His ears were ringing after the concert."
           }
         ],
         "checkpoint": [
@@ -33116,18 +39236,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Rechinar, tintinear, zumbar",
+        "body": [
+          "«rechinar»: hacer un ruido áspero al rozar (los dientes, una máquina).",
+          "«tintinear»: producir un sonido agudo como de campanilla o de cristal.",
+          "«zumbar»: producir un ruido continuo y sordo, como un insecto o un motor."
+        ],
+        "examples": [
+          {
+            "es": "Le rechinaban los dientes mientras dormía.",
+            "en": "He ground his teeth in his sleep."
           },
           {
+            "es": "Los vasos tintineaban en la bandeja.",
+            "en": "The glasses clinked on the tray."
+          },
+          {
+            "es": "Le zumbaban los oídos después del concierto.",
+            "en": "His ears were ringing after the concert."
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Con el patrón de «tintinear» o «bisbisear» (-ear = acción repetida), ¿qué hace la lluvia que «repiquetea» en el tejado?",
+            "question": "La nevera vieja hace toda la noche un ruido continuo y sordo. ¿Qué hace?",
             "options": [
-              "golpea con toques rápidos y repetidos",
-              "cae una sola vez con fuerza",
-              "deja de caer",
-              "brilla al sol"
+              "zumba",
+              "tintinea",
+              "rechina",
+              "crepita"
             ],
             "correctIndex": 0,
-            "explanation": "-ear forma verbos de acción repetida: repiquetear = dar toques rápidos y repetidos, como las campanas o la lluvia. No es un único golpe, ni el fin de la lluvia, ni un verbo de luz."
+            "explanation": "«Zumbar» es producir un ruido continuo y sordo, como un motor. «Tintinear» es un sonido agudo de cristal o campanilla, «rechinar» un ruido áspero al rozar y «crepitar» ruidos secos y repetidos, como la leña."
           }
         ]
       },
@@ -33373,16 +39517,32 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Desplazarse",
+        "heading": "Desplazarse: dos patrones",
         "body": [
-          "Verbos que sustituyen a «andar», «ir» o «moverse». Dos patrones te ayudan a usarlos: muchos son pronominales y el pronombre forma parte del verbo (escabullirse, tambalearse: «se escabulló», nunca «escabulló»); y el sufijo -ear forma verbos de movimiento repetido o característico (zigzaguear = hacer eses; gatear = andar a gatas; serpentear = moverse como una serpiente). Varios tienen además un uso figurado: un gobierno que «se tambalea» está a punto de caer.",
+          "Verbos que sustituyen a «andar», «ir» o «moverse». Dos patrones te ayudan a usarlos: muchos son pronominales y el pronombre forma parte del verbo (escabullirse, tambalearse: «se escabulló», nunca «escabulló»); y el sufijo -ear forma verbos de movimiento repetido o característico (zigzaguear = hacer eses; gatear = andar a gatas; serpentear = moverse como una serpiente). Varios tienen además un uso figurado: un gobierno que «se tambalea» está a punto de caer."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Con el patrón de «zigzaguear» (-ear = moverse de un modo característico), ¿qué hace un río que «serpentea» por el valle?",
+            "options": [
+              "avanza haciendo curvas, como una serpiente",
+              "se seca poco a poco",
+              "se desborda",
+              "avanza en línea recta"
+            ],
+            "correctIndex": 0,
+            "explanation": "-ear forma verbos de movimiento característico: serpentear = moverse haciendo curvas, como una serpiente. No significa secarse, desbordarse ni ir en línea recta."
+          }
+        ]
+      },
+      {
+        "heading": "Deambular, merodear, pulular, escabullirse",
+        "body": [
           "«deambular»: andar sin rumbo fijo.",
           "«merodear»: andar alrededor de un lugar con intenciones sospechosas.",
           "«pulular»: moverse en abundancia de un lado a otro.",
-          "«escabullirse»: irse con disimulo, escaparse.",
-          "«zigzaguear»: moverse haciendo eses.",
-          "«trastabillar»: dar traspiés, tropezar sin llegar a caer.",
-          "«tambalearse»: moverse de un lado a otro por falta de equilibrio; también estar a punto de caer (un gobierno)."
+          "«escabullirse»: irse con disimulo, escaparse."
         ],
         "examples": [
           {
@@ -33400,18 +39560,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Se escabulló antes de que acabara la reunión.",
             "en": "He slipped away before the meeting ended."
-          },
-          {
-            "es": "La moto zigzagueaba entre los coches.",
-            "en": "The motorbike weaved between the cars."
-          },
-          {
-            "es": "Trastabilló en el último escalón.",
-            "en": "She stumbled on the last step."
-          },
-          {
-            "es": "El Gobierno se tambalea tras el escándalo.",
-            "en": "The government is tottering after the scandal."
           }
         ],
         "checkpoint": [
@@ -33437,32 +39585,53 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Con el patrón de «zigzaguear» (-ear = moverse de un modo característico), ¿qué hace un río que «serpentea» por el valle?",
-            "options": [
-              "avanza haciendo curvas, como una serpiente",
-              "se seca poco a poco",
-              "se desborda",
-              "avanza en línea recta"
-            ],
-            "correctIndex": 0,
-            "explanation": "-ear forma verbos de movimiento característico: serpentear = moverse haciendo curvas, como una serpiente. No significa secarse, desbordarse ni ir en línea recta."
           }
         ]
       },
       {
-        "heading": "Posturas y gestos",
+        "heading": "Zigzaguear, trastabillar, tambalearse",
+        "body": [
+          "«zigzaguear»: moverse haciendo eses.",
+          "«trastabillar»: dar traspiés, tropezar sin llegar a caer.",
+          "«tambalearse»: moverse de un lado a otro por falta de equilibrio; también estar a punto de caer (un gobierno)."
+        ],
+        "examples": [
+          {
+            "es": "La moto zigzagueaba entre los coches.",
+            "en": "The motorbike weaved between the cars."
+          },
+          {
+            "es": "Trastabilló en el último escalón.",
+            "en": "She stumbled on the last step."
+          },
+          {
+            "es": "El Gobierno se tambalea tras el escándalo.",
+            "en": "The government is tottering after the scandal."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Al bajar del barco, mareado, Luis da un traspié en la pasarela, pero no llega a caerse. ¿Qué hace?",
+            "options": [
+              "trastabilla",
+              "zigzaguea",
+              "se escabulle",
+              "deambula"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Trastabillar» es dar traspiés, tropezar sin llegar a caer. «Zigzaguear» es moverse haciendo eses a propósito, «escabullirse» irse con disimulo y «deambular» andar sin rumbo."
+          }
+        ]
+      },
+      {
+        "heading": "Posturas que muestran sin explicar",
         "body": [
           "Verbos del cuerpo que la narrativa usa para mostrar sin explicar. En vez de decir «estaba sorprendido» o «no le importaba», muestra el gesto: «enarcó las cejas», «se encogió de hombros». También aquí casi todos son pronominales: agazaparse, encaramarse, repantigarse, desperezarse.",
           "«agazaparse»: agacharse y encogerse para ocultarse o acechar.",
           "«encaramarse»: subirse a un lugar alto, a menudo con esfuerzo.",
           "«repantigarse»: sentarse cómodamente, extendiendo el cuerpo.",
-          "«desperezarse»: estirar los miembros para quitarse la pereza o el sueño.",
-          "«enarcar»: arquear (las cejas), en señal de sorpresa o duda.",
-          "«encogerse de hombros»: subir los hombros en señal de indiferencia o ignorancia.",
-          "«fruncir el ceño»: arrugar la frente en señal de enfado o preocupación."
+          "«desperezarse»: estirar los miembros para quitarse la pereza o el sueño."
         ],
         "examples": [
           {
@@ -33480,18 +39649,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Bostezó y se desperezó lentamente.",
             "en": "He yawned and stretched slowly."
-          },
-          {
-            "es": "Enarcó las cejas al oír la cifra.",
-            "en": "She raised her eyebrows on hearing the figure."
-          },
-          {
-            "es": "Se encogió de hombros y no contestó.",
-            "en": "He shrugged and didn't answer."
-          },
-          {
-            "es": "El profesor frunció el ceño al ver el examen.",
-            "en": "The teacher frowned when he saw the exam."
           }
         ],
         "checkpoint": [
@@ -33517,6 +39674,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Gestos: enarcar, encogerse, fruncir",
+        "body": [
+          "«enarcar»: arquear (las cejas), en señal de sorpresa o duda.",
+          "«encogerse de hombros»: subir los hombros en señal de indiferencia o ignorancia.",
+          "«fruncir el ceño»: arrugar la frente en señal de enfado o preocupación."
+        ],
+        "examples": [
+          {
+            "es": "Enarcó las cejas al oír la cifra.",
+            "en": "She raised her eyebrows on hearing the figure."
+          },
+          {
+            "es": "Se encogió de hombros y no contestó.",
+            "en": "He shrugged and didn't answer."
+          },
+          {
+            "es": "El profesor frunció el ceño al ver el examen.",
+            "en": "The teacher frowned when he saw the exam."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En un relato, ¿qué gesto muestra que a un personaje le da igual lo que le acaban de contar?",
+            "options": [
+              "Se encogió de hombros.",
+              "Frunció el ceño.",
+              "Enarcó las cejas.",
+              "Se agazapó."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Encogerse de hombros» señala indiferencia o ignorancia. «Fruncir el ceño» muestra enfado o preocupación, «enarcar las cejas» sorpresa o duda, y «agazaparse» es agacharse para ocultarse."
           }
         ]
       }
@@ -33685,15 +39878,51 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: el pronombre y la preposición son parte del verbo",
         "body": [
-          "En estos verbos pronominales de registro culto, el pronombre y la preposición no son adornos: forman parte del verbo. El pronombre concuerda siempre con el sujeto (me jacto, te inmiscuyes, se obstinan) y la preposición se mantiene aunque detrás venga un infinitivo o una oración con «que»: «se percató de que…», «se jacta de que…». Por eso los errores típicos son dos: omitir la preposición ante «que» (queísmo: «se percató que») o cambiarla por otra («inmiscuirse a»). La excepción de la lista es «arrogarse», que no lleva preposición: lo que uno se atribuye es complemento directo («se arrogó el mérito»).",
+          "En estos verbos pronominales de registro culto, el pronombre y la preposición no son adornos: forman parte del verbo. El pronombre concuerda siempre con el sujeto (me jacto, te inmiscuyes, se obstinan) y la preposición se mantiene aunque detrás venga un infinitivo o una oración con «que»: «se percató de que…», «se jacta de que…»."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la idea. «Le encanta ___ sus contactos en el Gobierno.»",
+            "options": [
+              "jactarse de",
+              "jactarse",
+              "jactarse en",
+              "jactar de"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Jactarse de algo»: el verbo es pronominal (jactarse, nunca «jactar») y su preposición fija es «de». Sin preposición o con «en», la construcción es incorrecta."
+          }
+        ]
+      },
+      {
+        "heading": "Dos errores típicos y una excepción",
+        "body": [
+          "Por eso los errores típicos son dos: omitir la preposición ante «que» (queísmo: «se percató que») o cambiarla por otra («inmiscuirse a»). La excepción de la lista es «arrogarse», que no lleva preposición: lo que uno se atribuye es complemento directo («se arrogó el mérito»)."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase es correcta?",
+            "options": [
+              "El alcalde se arrogó la autoría del proyecto.",
+              "El alcalde se arrogó de la autoría del proyecto.",
+              "El alcalde se jactó que el proyecto era suyo.",
+              "El alcalde se inmiscuyó a la autoría del proyecto."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Arrogarse» es la excepción: no lleva preposición, y lo que uno se atribuye es complemento directo (se arrogó la autoría). «Se jactó que» es queísmo (debe ser «se jactó de que») e «inmiscuirse» rige «en», no «a»."
+          }
+        ]
+      },
+      {
+        "heading": "Jactarse, arrogarse, inmiscuirse, congraciarse",
+        "body": [
           "Verbos pronominales del registro culto; la preposición forma parte del verbo.",
           "«jactarse de»: presumir de algo con arrogancia.",
           "«arrogarse»: atribuirse algo indebidamente (sin preposición: «arrogarse un mérito»).",
           "«inmiscuirse en»: entrometerse en asuntos ajenos.",
-          "«congraciarse con»: ganarse la simpatía de alguien.",
-          "«obstinarse en»: mantenerse firme en una idea o conducta, contra toda razón.",
-          "«dignarse»: aceptar hacer algo que se considera inferior (a veces con «a»).",
-          "«abstenerse de»: privarse de algo o no participar."
+          "«congraciarse con»: ganarse la simpatía de alguien."
         ],
         "examples": [
           {
@@ -33711,18 +39940,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Intentó congraciarse con el nuevo director.",
             "en": "He tried to ingratiate himself with the new director."
-          },
-          {
-            "es": "Se obstina en negar la evidencia.",
-            "en": "He persists in denying the evidence."
-          },
-          {
-            "es": "Ni siquiera se dignó a contestar mi correo.",
-            "en": "He didn't even deign to answer my email."
-          },
-          {
-            "es": "Tres consejeros se abstuvieron en la votación.",
-            "en": "Three board members abstained in the vote."
           }
         ],
         "checkpoint": [
@@ -33748,18 +39965,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Obstinarse, dignarse, abstenerse",
+        "body": [
+          "«obstinarse en»: mantenerse firme en una idea o conducta, contra toda razón.",
+          "«dignarse»: aceptar hacer algo que se considera inferior (a veces con «a»).",
+          "«abstenerse de»: privarse de algo o no participar."
+        ],
+        "examples": [
+          {
+            "es": "Se obstina en negar la evidencia.",
+            "en": "He persists in denying the evidence."
           },
           {
+            "es": "Ni siquiera se dignó a contestar mi correo.",
+            "en": "He didn't even deign to answer my email."
+          },
+          {
+            "es": "Tres consejeros se abstuvieron en la votación.",
+            "en": "Three board members abstained in the vote."
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Aplica la idea. «Le encanta ___ sus contactos en el Gobierno.»",
+            "question": "«Por favor, ___ de fumar en el interior del edificio.» (aviso público)",
             "options": [
-              "jactarse de",
-              "jactarse",
-              "jactarse en",
-              "jactar de"
+              "absténganse",
+              "obstínense",
+              "dígnense",
+              "absténganse en"
             ],
             "correctIndex": 0,
-            "explanation": "«Jactarse de algo»: el verbo es pronominal (jactarse, nunca «jactar») y su preposición fija es «de». Sin preposición o con «en», la construcción es incorrecta."
+            "explanation": "«Abstenerse de» es privarse de algo: «absténganse de fumar». «Obstinarse» (en) es mantenerse firme contra toda razón, «dignarse» es aceptar hacer algo que se considera inferior, y «abstenerse» rige «de», no «en»."
           }
         ]
       },
@@ -34035,15 +40276,31 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: cada palabra tiene registro y lugar",
         "body": [
-          "Un coloquialismo lleva dos etiquetas: el registro (coloquial frente a neutro) y la zona donde se usa. La regla práctica tiene dos partes. Con desconocidos, por escrito o en un contexto formal, usa la forma neutra, que se entiende en todas partes: trabajar, el trabajo, el dinero, estupendo, muchísimo. Entre amigos, la palabra de la zona suena natural, pero sin mezclar zonas en una misma frase: un madrileño «curra» y gana «pasta»; un mexicano «chambea» y gana «lana»; un porteño «labura» y gana «plata». Mezclarlas delata a quien ha aprendido listas, no la lengua.",
+          "Un coloquialismo lleva dos etiquetas: el registro (coloquial frente a neutro) y la zona donde se usa. La regla práctica tiene dos partes. Con desconocidos, por escrito o en un contexto formal, usa la forma neutra, que se entiende en todas partes: trabajar, el trabajo, el dinero, estupendo, muchísimo. Entre amigos, la palabra de la zona suena natural, pero sin mezclar zonas en una misma frase: un madrileño «curra» y gana «pasta»; un mexicano «chambea» y gana «lana»; un porteño «labura» y gana «plata». Mezclarlas delata a quien ha aprendido listas, no la lengua."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la idea. Quieres decirle a un amigo de Madrid, en tono coloquial, «He earns a fortune».",
+            "options": [
+              "Gana una pasta.",
+              "Gana mucha lana.",
+              "Gana un montón de plata.",
+              "Percibe unos ingresos elevados."
+            ],
+            "correctIndex": 0,
+            "explanation": "En Madrid, coloquialmente, el dinero es «pasta» («ganar una pasta»). «Lana» es de México y «plata» de gran parte de América; la última opción es correcta pero de registro formal, no coloquial."
+          }
+        ]
+      },
+      {
+        "heading": "Trabajar y dinero: currar, laburar, chambear, la pasta",
+        "body": [
           "Coloquialismos muy frecuentes con marca regional clara. La forma neutra va tras los dos puntos; entre paréntesis, el registro y la zona.",
           "«currar»: trabajar (coloquial, España).",
           "«laburar»: trabajar (coloquial, Río de la Plata).",
           "«chambear»: trabajar (coloquial, México, Perú y otros países).",
-          "«la pasta»: dinero (coloquial, España).",
-          "«la plata»: dinero (general en gran parte de América).",
-          "«la lana»: dinero (coloquial, México).",
-          "«el curro»: trabajo, empleo (coloquial, España)."
+          "«la pasta»: dinero (coloquial, España)."
         ],
         "examples": [
           {
@@ -34061,18 +40318,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Ese coche cuesta una pasta.",
             "en": "That car costs a fortune."
-          },
-          {
-            "es": "No me alcanza la plata para el alquiler.",
-            "en": "I don't have enough money for the rent."
-          },
-          {
-            "es": "¿Tienes lana para el taxi?",
-            "en": "Have you got money for the taxi?"
-          },
-          {
-            "es": "Ha encontrado un curro de camarero.",
-            "en": "He's found a job as a waiter."
           }
         ],
         "checkpoint": [
@@ -34098,18 +40343,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "La plata, la lana, el curro",
+        "body": [
+          "«la plata»: dinero (general en gran parte de América).",
+          "«la lana»: dinero (coloquial, México).",
+          "«el curro»: trabajo, empleo (coloquial, España)."
+        ],
+        "examples": [
+          {
+            "es": "No me alcanza la plata para el alquiler.",
+            "en": "I don't have enough money for the rent."
           },
           {
+            "es": "¿Tienes lana para el taxi?",
+            "en": "Have you got money for the taxi?"
+          },
+          {
+            "es": "Ha encontrado un curro de camarero.",
+            "en": "He's found a job as a waiter."
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Aplica la idea. Quieres decirle a un amigo de Madrid, en tono coloquial, «He earns a fortune».",
+            "question": "En una conversación informal en Ciudad de México, ¿cómo preguntaría un amigo si llevas dinero?",
             "options": [
-              "Gana una pasta.",
-              "Gana mucha lana.",
-              "Gana un montón de plata.",
-              "Percibe unos ingresos elevados."
+              "¿Traes lana?",
+              "¿Llevas pasta?",
+              "¿Tienes curro?",
+              "¿Dispone usted de efectivo?"
             ],
             "correctIndex": 0,
-            "explanation": "En Madrid, coloquialmente, el dinero es «pasta» («ganar una pasta»). «Lana» es de México y «plata» de gran parte de América; la última opción es correcta pero de registro formal, no coloquial."
+            "explanation": "«La lana» es dinero en el coloquial de México. «La pasta» es de España y no se mezcla con el habla mexicana, «el curro» significa trabajo, y «¿Dispone usted de efectivo?» es formal, no coloquial."
           }
         ]
       },
@@ -34402,15 +40671,31 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: cada sustantivo del titular trae su verbo",
         "body": [
-          "El titular de prensa convierte los hechos en golpes, apoyos y desafíos, y cada uno de esos sustantivos viaja con su verbo de apoyo. Quien golpea «da» (dar un varapalo, un portazo, un tirón de orejas); quien recibe «sufre» (sufrir un revés, un desplante, un mazazo); el desafío «se lanza» (lanzar un órdago) y el enfrentamiento «se mantiene» (mantener un pulso). El destinatario va con «a» («da un portazo a la negociación»). Conocer esa pareja permite cambiar la perspectiva del titular sin cambiar la noticia: «El Supremo da un varapalo al Gobierno» = «El Gobierno sufre un varapalo del Supremo».",
+          "El titular de prensa convierte los hechos en golpes, apoyos y desafíos, y cada uno de esos sustantivos viaja con su verbo de apoyo. Quien golpea «da» (dar un varapalo, un portazo, un tirón de orejas); quien recibe «sufre» (sufrir un revés, un desplante, un mazazo); el desafío «se lanza» (lanzar un órdago) y el enfrentamiento «se mantiene» (mantener un pulso). El destinatario va con «a» («da un portazo a la negociación»). Conocer esa pareja permite cambiar la perspectiva del titular sin cambiar la noticia: «El Supremo da un varapalo al Gobierno» = «El Gobierno sufre un varapalo del Supremo»."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la idea. «La selección ___ un batacazo histórico en el Mundial.»",
+            "options": [
+              "se da",
+              "da",
+              "lanza",
+              "mantiene"
+            ],
+            "correctIndex": 0,
+            "explanation": "El batacazo es una caída que uno se lleva: «darse un batacazo» (pronominal, porque el golpe lo recibe el propio sujeto). «Dar» sin pronombre implicaría golpear a otro; «lanzar» va con «órdago» y «mantener» con «pulso»."
+          }
+        ]
+      },
+      {
+        "heading": "Varapalo, revés, espaldarazo, mazazo",
+        "body": [
           "La prensa convierte las noticias en golpes, apoyos y gestos.",
           "«el varapalo»: golpe duro, contratiempo o crítica severa.",
           "«el revés»: contratiempo o derrota.",
           "«el espaldarazo»: apoyo o reconocimiento que da impulso a alguien.",
-          "«el mazazo»: golpe moral muy fuerte.",
-          "«el batacazo»: fracaso o caída estrepitosa (coloquial).",
-          "«la debacle»: desastre, derrota total.",
-          "«el guiño»: gesto o mensaje de complicidad dirigido a alguien."
+          "«el mazazo»: golpe moral muy fuerte."
         ],
         "examples": [
           {
@@ -34428,18 +40713,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "La noticia del cierre fue un mazazo para la comarca.",
             "en": "News of the closure was a crushing blow to the area."
-          },
-          {
-            "es": "El partido se dio un batacazo en las urnas.",
-            "en": "The party took a hammering at the polls."
-          },
-          {
-            "es": "La debacle electoral obligó al líder a dimitir.",
-            "en": "The electoral debacle forced the leader to resign."
-          },
-          {
-            "es": "El discurso incluyó un guiño a los votantes jóvenes.",
-            "en": "The speech included a nod to young voters."
           }
         ],
         "checkpoint": [
@@ -34465,18 +40738,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Batacazo, debacle, guiño",
+        "body": [
+          "«el batacazo»: fracaso o caída estrepitosa (coloquial).",
+          "«la debacle»: desastre, derrota total.",
+          "«el guiño»: gesto o mensaje de complicidad dirigido a alguien."
+        ],
+        "examples": [
+          {
+            "es": "El partido se dio un batacazo en las urnas.",
+            "en": "The party took a hammering at the polls."
           },
           {
+            "es": "La debacle electoral obligó al líder a dimitir.",
+            "en": "The electoral debacle forced the leader to resign."
+          },
+          {
+            "es": "El discurso incluyó un guiño a los votantes jóvenes.",
+            "en": "The speech included a nod to young voters."
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Aplica la idea. «La selección ___ un batacazo histórico en el Mundial.»",
+            "question": "Un candidato menciona en su discurso el equipo de fútbol de la ciudad para ganarse a sus aficionados. ¿Cómo lo llamaría un titular?",
             "options": [
-              "se da",
-              "da",
-              "lanza",
-              "mantiene"
+              "un guiño",
+              "un batacazo",
+              "una debacle",
+              "un revés"
             ],
             "correctIndex": 0,
-            "explanation": "El batacazo es una caída que uno se lleva: «darse un batacazo» (pronominal, porque el golpe lo recibe el propio sujeto). «Dar» sin pronombre implicaría golpear a otro; «lanzar» va con «órdago» y «mantener» con «pulso»."
+            "explanation": "Un guiño es un gesto o mensaje de complicidad dirigido a alguien. Batacazo y debacle son fracasos estrepitosos, y un revés es un contratiempo o derrota."
           }
         ]
       },
@@ -34765,15 +41062,31 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: las piezas griegas y latinas del crítico",
         "body": [
-          "Buena parte de la terminología crítica se descifra por sus piezas. Meta- significa «sobre sí mismo» o «más allá»: la metaficción es ficción que habla de la ficción, como el metalenguaje es lenguaje sobre el lenguaje. Poli- es «muchos»: la polifonía, muchas voces. Y el sufijo -ismo nombra corrientes y estéticas (costumbrismo, tremendismo, modernismo), siempre masculinas, con un adjetivo en -ista para lo que pertenece a ellas: una novela costumbrista, un escritor tremendista. Las estéticas sin -ismo forman su adjetivo por otra vía: esperpento → esperpéntico.",
+          "Buena parte de la terminología crítica se descifra por sus piezas. Meta- significa «sobre sí mismo» o «más allá»: la metaficción es ficción que habla de la ficción, como el metalenguaje es lenguaje sobre el lenguaje. Poli- es «muchos»: la polifonía, muchas voces. Y el sufijo -ismo nombra corrientes y estéticas (costumbrismo, tremendismo, modernismo), siempre masculinas, con un adjetivo en -ista para lo que pertenece a ellas: una novela costumbrista, un escritor tremendista. Las estéticas sin -ismo forman su adjetivo por otra vía: esperpento → esperpéntico."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la idea. Si el metalenguaje es lenguaje que habla del lenguaje, ¿qué es un «metarrelato» en una novela?",
+            "options": [
+              "Un relato que reflexiona sobre cómo se cuenta el propio relato",
+              "Un relato muy largo",
+              "Un relato con muchos narradores",
+              "Un relato que imita a otros sin originalidad"
+            ],
+            "correctIndex": 0,
+            "explanation": "Meta- indica que la obra se vuelve sobre sí misma. La longitud no tiene que ver con el prefijo; «muchos narradores» sería polifonía y la imitación sin originalidad, pastiche."
+          }
+        ]
+      },
+      {
+        "heading": "Verosimilitud, hipérbaton, écfrasis, leitmotiv",
+        "body": [
           "Términos que aparecen en comentarios de texto y reseñas.",
           "«la verosimilitud»: apariencia de verdad dentro de la lógica de la obra.",
           "«el hipérbaton»: alteración del orden habitual de las palabras.",
           "«la écfrasis»: descripción literaria de una obra de arte visual.",
-          "«el leitmotiv»: motivo que se repite a lo largo de una obra.",
-          "«el pastiche»: imitación que combina elementos de otras obras, a menudo sin originalidad.",
-          "«la polifonía»: presencia de varias voces narrativas en una obra.",
-          "«la metaficción»: ficción que reflexiona sobre sí misma o sobre su escritura."
+          "«el leitmotiv»: motivo que se repite a lo largo de una obra."
         ],
         "examples": [
           {
@@ -34791,18 +41104,6 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "La lluvia es el leitmotiv de la novela.",
             "en": "Rain is the novel's leitmotif."
-          },
-          {
-            "es": "La película es un pastiche de clásicos del cine negro.",
-            "en": "The film is a pastiche of film-noir classics."
-          },
-          {
-            "es": "La polifonía de la novela refleja una sociedad fragmentada.",
-            "en": "The novel's polyphony reflects a fragmented society."
-          },
-          {
-            "es": "Niebla, de Unamuno, es un ejemplo temprano de metaficción.",
-            "en": "Unamuno's Niebla is an early example of metafiction."
           }
         ],
         "checkpoint": [
@@ -34828,18 +41129,42 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+          }
+        ]
+      },
+      {
+        "heading": "Pastiche, polifonía, metaficción",
+        "body": [
+          "«el pastiche»: imitación que combina elementos de otras obras, a menudo sin originalidad.",
+          "«la polifonía»: presencia de varias voces narrativas en una obra.",
+          "«la metaficción»: ficción que reflexiona sobre sí misma o sobre su escritura."
+        ],
+        "examples": [
+          {
+            "es": "La película es un pastiche de clásicos del cine negro.",
+            "en": "The film is a pastiche of film-noir classics."
           },
           {
+            "es": "La polifonía de la novela refleja una sociedad fragmentada.",
+            "en": "The novel's polyphony reflects a fragmented society."
+          },
+          {
+            "es": "Niebla, de Unamuno, es un ejemplo temprano de metaficción.",
+            "en": "Unamuno's Niebla is an early example of metafiction."
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Aplica la idea. Si el metalenguaje es lenguaje que habla del lenguaje, ¿qué es un «metarrelato» en una novela?",
+            "question": "Una novela cuenta la misma huelga desde la voz de un obrero, la de un patrón y la de un periodista, sin dar la razón a ninguno. ¿Qué término la describe?",
             "options": [
-              "Un relato que reflexiona sobre cómo se cuenta el propio relato",
-              "Un relato muy largo",
-              "Un relato con muchos narradores",
-              "Un relato que imita a otros sin originalidad"
+              "la polifonía",
+              "el pastiche",
+              "la metaficción",
+              "la écfrasis"
             ],
             "correctIndex": 0,
-            "explanation": "Meta- indica que la obra se vuelve sobre sí misma. La longitud no tiene que ver con el prefijo; «muchos narradores» sería polifonía y la imitación sin originalidad, pastiche."
+            "explanation": "Poli- es «muchos»: la polifonía es la presencia de varias voces narrativas. El pastiche imita otras obras, la metaficción reflexiona sobre su propia escritura y la écfrasis describe una obra de arte visual."
           }
         ]
       },
@@ -35105,15 +41430,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: -logía estudia, -ismo sostiene",
         "body": [
-          "El vocabulario filosófico se ordena con dos sufijos griegos. -logía nombra un estudio o una disciplina: ontología (estudio del ser), epistemología (del conocimiento), teleología (de los fines, del griego telos). -ismo nombra una doctrina o postura: relativismo, nihilismo, solipsismo. De cada uno sale un adjetivo regular: -logía → -lógico (ontológico, teleológico) e -ismo → -ista (relativista, nihilista). Con esas piezas descifras términos nuevos: si deon- es «deber», la deontología es el estudio de los deberes, y por eso hablamos del código deontológico de una profesión.",
-          "Términos para situar una reflexión filosófica.",
-          "«la ontología»: parte de la filosofía que estudia el ser y lo que existe.",
-          "«la epistemología»: teoría del conocimiento, especialmente científico.",
-          "«la teleología»: estudio de los fines o propósitos; explicación por la finalidad.",
-          "«el solipsismo»: postura según la cual solo existe o solo puede conocerse el propio yo.",
-          "«el relativismo»: doctrina que niega verdades o valores absolutos.",
-          "«el nihilismo»: negación de todo valor, sentido o creencia.",
-          "«la dialéctica»: arte de razonar confrontando ideas opuestas; en Hegel, proceso de tesis, antítesis y síntesis."
+          "El vocabulario filosófico se ordena con dos sufijos griegos. -logía nombra un estudio o una disciplina: ontología (estudio del ser), epistemología (del conocimiento), teleología (de los fines, del griego telos). -ismo nombra una doctrina o postura: relativismo, nihilismo, solipsismo. De cada uno sale un adjetivo regular: -logía → -lógico (ontológico, teleológico) e -ismo → -ista (relativista, nihilista). Con esas piezas descifras términos nuevos: si deon- es «deber», la deontología es el estudio de los deberes, y por eso hablamos del código deontológico de una profesión."
         ],
         "examples": [
           {
@@ -35127,7 +41444,48 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "Critica la teleología implícita en las teorías del progreso.",
             "en": "He criticises the teleology implicit in theories of progress."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la idea. Si deon- significa «deber», ¿qué regula el «código deontológico» de los periodistas?",
+            "options": [
+              "Los deberes éticos de la profesión",
+              "La historia del periodismo",
+              "La gramática de las noticias",
+              "Las opiniones relativistas"
+            ],
+            "correctIndex": 0,
+            "explanation": "-logía es «estudio de»: la deontología estudia los deberes, y su código recoge las obligaciones éticas de una profesión. No trata de historia ni de gramática, ni es una doctrina (eso sería un -ismo)."
           },
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la idea. Si el «fatalismo» es una doctrina, ¿cómo se llama a quien la sostiene?",
+            "options": [
+              "fatalista",
+              "fatalidad",
+              "fatal",
+              "fatalmente"
+            ],
+            "correctIndex": 0,
+            "explanation": "De -ismo (doctrina) sale -ista (quien la sostiene): fatalismo → fatalista, como relativismo → relativista. «Fatalidad» es una desgracia, «fatal» un adjetivo general y «fatalmente» un adverbio: ninguno nombra al partidario de la doctrina."
+          }
+        ]
+      },
+      {
+        "heading": "Términos para situar una reflexión filosófica",
+        "body": [
+          "Términos para situar una reflexión filosófica.",
+          "«la ontología»: parte de la filosofía que estudia el ser y lo que existe.",
+          "«la epistemología»: teoría del conocimiento, especialmente científico.",
+          "«la teleología»: estudio de los fines o propósitos; explicación por la finalidad.",
+          "«el solipsismo»: postura según la cual solo existe o solo puede conocerse el propio yo.",
+          "«el relativismo»: doctrina que niega verdades o valores absolutos.",
+          "«el nihilismo»: negación de todo valor, sentido o creencia.",
+          "«la dialéctica»: arte de razonar confrontando ideas opuestas; en Hegel, proceso de tesis, antítesis y síntesis."
+        ],
+        "examples": [
           {
             "es": "El protagonista vive encerrado en un solipsismo absoluto.",
             "en": "The protagonist lives locked in total solipsism."
@@ -35168,18 +41526,6 @@ const C2_BASE_LESSONS: Lesson[] = [
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Aplica la idea. Si deon- significa «deber», ¿qué regula el «código deontológico» de los periodistas?",
-            "options": [
-              "Los deberes éticos de la profesión",
-              "La historia del periodismo",
-              "La gramática de las noticias",
-              "Las opiniones relativistas"
-            ],
-            "correctIndex": 0,
-            "explanation": "-logía es «estudio de»: la deontología estudia los deberes, y su código recoge las obligaciones éticas de una profesión. No trata de historia ni de gramática, ni es una doctrina (eso sería un -ismo)."
           }
         ]
       },

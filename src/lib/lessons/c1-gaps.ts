@@ -28,25 +28,15 @@ export const C1_GAPS: AnchoredLesson[] = [
     "12 min",
     [
       sec(
-        "La norma etimológica y el leísmo",
+        "La norma general: lo para el CD, le para el CI",
         [
           "En la norma general, lo / la / los / las son pronombres de complemento directo (CD) y le / les de complemento indirecto (CI): Vi a Juan → Lo vi. Di un libro a Juan → Le di un libro. ¿Por qué? Porque el sistema viene del latín, donde el pronombre marcaba la función (illum, illam: CD; illi: CI), no el género de la persona.",
-          "El leísmo consiste en usar le / les como complemento directo: «A Juan le vi ayer» en lugar de «A Juan lo vi ayer».",
-          "Es muy frecuente en el centro y el norte de España (Madrid, Castilla y León, parte de Castilla-La Mancha, el País Vasco) y en registros cultos de toda España. En América es poco frecuente, salvo en algunas zonas, como Ecuador o Paraguay (por contacto con lenguas indígenas), y en fórmulas de cortesía.",
         ],
         [
           ["Vi a Juan ayer. → Lo vi ayer. (general)", "I saw Juan yesterday. → I saw him yesterday."],
-          ["Vi a Juan ayer. → Le vi ayer. (leísmo)", "I saw him yesterday. (Central Spain)"],
           ["Le di el libro a Juan.", "I gave Juan the book. (CI: le is standard)"],
-          ["¿Conoces a mi hermano? — Sí, lo / le conozco.", "Do you know my brother? — Yes, I know him."],
         ],
         [
-          mc(
-            "¿En cuál de estas frases hay leísmo?",
-            ["A Pedro le llevé al aeropuerto.", "A Pedro le di las llaves.", "A Pedro le gusta el cine.", "A Pedro le duele la espalda."],
-            0,
-            "Llevar a alguien es transitivo: Pedro es CD, así que la norma general pide lo llevé. En las otras frases, le es CI (dar algo a alguien) o el experimentador de gustar y doler: le es correcto."
-          ),
           mc(
             "Aplica la regla: «¿Y el paraguas? — ___ olvidé en el tren.»",
             ["Lo", "Le", "La", "Les"],
@@ -56,19 +46,36 @@ export const C1_GAPS: AnchoredLesson[] = [
         ]
       ),
       sec(
+        "El leísmo y dónde se oye",
+        [
+          "El leísmo consiste en usar le / les como complemento directo: «A Juan le vi ayer» en lugar de «A Juan lo vi ayer».",
+          "Es muy frecuente en el centro y el norte de España (Madrid, Castilla y León, parte de Castilla-La Mancha, el País Vasco) y en registros cultos de toda España. En América es poco frecuente, salvo en algunas zonas, como Ecuador o Paraguay (por contacto con lenguas indígenas), y en fórmulas de cortesía.",
+        ],
+        [
+          ["Vi a Juan ayer. → Le vi ayer. (leísmo)", "I saw him yesterday. (Central Spain)"],
+          ["¿Conoces a mi hermano? — Sí, lo / le conozco.", "Do you know my brother? — Yes, I know him."],
+        ],
+        [
+          mc(
+            "¿En cuál de estas frases hay leísmo?",
+            ["A Pedro le llevé al aeropuerto.", "A Pedro le di las llaves.", "A Pedro le gusta el cine.", "A Pedro le duele la espalda."],
+            0,
+            "Llevar a alguien es transitivo: Pedro es CD, así que la norma general pide lo llevé. En las otras frases, le es CI (dar algo a alguien) o el experimentador de gustar y doler: le es correcto."
+          ),
+        ]
+      ),
+      sec(
         "Qué acepta la RAE",
         [
           "La RAE y la ASALE aceptan el leísmo de persona masculino singular: Le vi (a Juan) es correcto, aunque recomiendan lo vi como forma general.",
           "El leísmo de persona masculino plural (Les vi a tus hermanos) está muy extendido en España, pero no se considera aceptable en la lengua cuidada: mejor Los vi.",
           "El leísmo femenino (A María le vi) y el leísmo de cosa (El libro le compré ayer) no se aceptan en ningún registro cuidado.",
-          "Hay un leísmo de cortesía muy extendido en todo el mundo hispano con usted: Le saludo atentamente. ¿Le acompaño? Se tolera tanto para hombres como para mujeres, porque evita la ambigüedad de lo / la.",
         ],
         [
           ["A tu primo le vi en la fiesta. (aceptado)", "I saw your cousin at the party."],
           ["A tus primos los vi en la fiesta. (recomendado)", "I saw your cousins at the party."],
           ["A tu prima la vi en la fiesta. (no: le vi)", "I saw your cousin (f.) at the party."],
           ["El coche lo compré en marzo. (no: le compré)", "I bought the car in March."],
-          ["Le saluda atentamente, Ana Pérez.", "Yours sincerely, Ana Pérez."],
         ],
         [
           ms(
@@ -80,18 +87,30 @@ export const C1_GAPS: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Cuando le es correcto aunque parezca CD",
+        "El leísmo de cortesía con usted",
+        [
+          "Hay un leísmo de cortesía muy extendido en todo el mundo hispano con usted: Le saludo atentamente. ¿Le acompaño? Se tolera tanto para hombres como para mujeres, porque evita la ambigüedad de lo / la.",
+        ],
+        [
+          ["Le saluda atentamente, Ana Pérez.", "Yours sincerely, Ana Pérez."],
+        ],
+        [
+          mc(
+            "Atiendes a una clienta en una tienda: «¿___ acompaño hasta la salida?». ¿Qué pronombre, de los que se ofrecen, se tolera aquí aunque ella sea mujer?",
+            ["Le", "Les", "Lo", "Se"],
+            0,
+            "Con usted se tolera en todo el mundo hispano el leísmo de cortesía, para hombres y para mujeres: ¿Le acompaño? «Les» sería plural (ustedes), «lo» sería para un hombre y «se» no funciona como CD aquí. «La acompaño» también es correcto, porque sigue la norma general."
+          ),
+        ]
+      ),
+      sec(
+        "Verbos de afección y verbos que dudan",
         [
           "Algunos verbos alternan de forma legítima: con verbos de afección (preocupar, molestar, asustar, sorprender, divertir), le es habitual cuando el sujeto es una cosa y la acción no es voluntaria: Le preocupa la situación. Le molesta el ruido. Con sujeto de persona y acción voluntaria, lo / la: Lo asustaron a propósito.",
-          "Con el se impersonal y un CD de persona, en España es normal le: Se le considera el mejor pintor de su generación. En gran parte de América se prefiere lo / la: Se lo considera...",
-          "Llamar con un complemento predicativo lleva tradicionalmente le: Le llaman «el Rubio»; hoy, sobre todo en América, también lo / la: La llaman «la Rubia». Pero llamar por teléfono es transitivo: Lo / La llamé ayer (y le llamé con persona masculina, por leísmo aceptado).",
           "Ayudar, obedecer, creer y avisar dudan entre los dos usos según la región: Le ayudo / Lo ayudo. Ambas se oyen en textos cuidados.",
         ],
         [
           ["Le preocupa mucho su salud.", "Her health worries her a lot."],
-          ["Se le considera un experto.", "He is considered an expert. (Spain)"],
-          ["Se lo considera un experto.", "He is considered an expert. (Latin America)"],
-          ["En el barrio le llaman «el Profe».", "In the neighbourhood they call him \"el Profe\"."],
         ],
         [
           mc(
@@ -99,6 +118,26 @@ export const C1_GAPS: AnchoredLesson[] = [
             ["A mi madre le molesta el humo.", "A mi madre le vi ayer.", "El móvil le perdí.", "A mis vecinas les saludé."],
             0,
             "Con molestar y sujeto de cosa (el humo), le es el uso normal. Las otras son leísmo femenino, de cosa o femenino plural."
+          ),
+        ]
+      ),
+      sec(
+        "El se impersonal y el verbo llamar",
+        [
+          "Con el se impersonal y un CD de persona, en España es normal le: Se le considera el mejor pintor de su generación. En gran parte de América se prefiere lo / la: Se lo considera...",
+          "Llamar con un complemento predicativo lleva tradicionalmente le: Le llaman «el Rubio»; hoy, sobre todo en América, también lo / la: La llaman «la Rubia». Pero llamar por teléfono es transitivo: Lo / La llamé ayer (y le llamé con persona masculina, por leísmo aceptado).",
+        ],
+        [
+          ["Se le considera un experto.", "He is considered an expert. (Spain)"],
+          ["Se lo considera un experto.", "He is considered an expert. (Latin America)"],
+          ["En el barrio le llaman «el Profe».", "In the neighbourhood they call him \"el Profe\"."],
+        ],
+        [
+          mc(
+            "Escribes para un periódico mexicano: «___ considera la mejor arquitecta del país.» ¿Qué forma es la preferida allí?",
+            ["Se la", "Se le", "Se les", "Se las"],
+            0,
+            "Con el se impersonal y un CD de persona, en gran parte de América se prefiere lo / la: se la considera (femenino, singular). «Se le» es lo normal en España; «se les» y «se las» no concuerdan con una sola arquitecta."
           ),
         ]
       ),
@@ -184,12 +223,10 @@ export const C1_GAPS: AnchoredLesson[] = [
     "12 min",
     [
       sec(
-        "El laísmo",
+        "El laísmo: qué es y por qué ocurre",
         [
-            "El laísmo consiste en usar la / las como complemento indirecto femenino: «La dije que viniera» en lugar de «Le dije que viniera». «A mi hermana la regalé un libro» en lugar de «le regalé».",
+          "El laísmo consiste en usar la / las como complemento indirecto femenino: «La dije que viniera» en lugar de «Le dije que viniera». «A mi hermana la regalé un libro» en lugar de «le regalé».",
           "¿Por qué ocurre? Los hablantes laístas reorganizan el sistema por género (la para mujer, le para hombre) en lugar de por función. La norma mantiene la función: el CI es le / les sea hombre o mujer, porque lo que se regala o se dice ya ocupa el lugar de CD.",
-          "Se oye sobre todo en el habla coloquial de Madrid y de buena parte de Castilla (Valladolid, Segovia, Ávila, Toledo...). Muchos hablantes de esas zonas lo usan sin darse cuenta, y aparece en novelas y series para retratar el habla madrileña.",
-          "La RAE y la ASALE no lo aceptan en la lengua cuidada. En un texto formal, en un examen o en una entrevista de trabajo, evítalo.",
         ],
         [
           ["La dije que viniera. (laísmo)", "I told her to come."],
@@ -213,18 +250,30 @@ export const C1_GAPS: AnchoredLesson[] = [
         ]
       ),
       sec(
+        "Dónde se oye y qué dice la norma",
+        [
+          "Se oye sobre todo en el habla coloquial de Madrid y de buena parte de Castilla (Valladolid, Segovia, Ávila, Toledo...). Muchos hablantes de esas zonas lo usan sin darse cuenta, y aparece en novelas y series para retratar el habla madrileña.",
+          "La RAE y la ASALE no lo aceptan en la lengua cuidada. En un texto formal, en un examen o en una entrevista de trabajo, evítalo.",
+        ],
+        [],
+        [
+          mc(
+            "Vas a una entrevista de trabajo en Madrid. ¿Qué frase debes evitar?",
+            ["A la directora la pedí una cita.", "A la directora le pedí una cita.", "A la directora la vi en la puerta.", "A la directora le envié el currículum."],
+            0,
+            "La cita es el CD, así que la directora es CI y va le: «la pedí» es laísmo, que se oye en Madrid pero la norma no acepta en la lengua cuidada. «La vi» es correcto porque ahí la directora es CD."
+          ),
+        ]
+      ),
+      sec(
         "El loísmo",
         [
           "El loísmo es usar lo / los como complemento indirecto masculino: «Lo di un regalo» en lugar de «Le di un regalo». «Los dije la verdad» en lugar de «Les dije la verdad».",
           "Es mucho menos frecuente que el leísmo y el laísmo, y está más estigmatizado: se asocia a hablas rurales de algunas zonas de Castilla y se percibe como un error claro.",
-          "Cuidado con el plural: «se los dije» es correcto cuando los es el CD (los resultados → se los dije). No confundas este caso con el loísmo.",
-          "Otro caso frecuente en América, que no es loísmo sino una concordancia coloquial: «Se los dije» con sentido de «se lo dije a ustedes». Es muy común en México y otros países, aunque la norma culta prefiere «se lo dije».",
         ],
         [
           ["Lo di un regalo a Pablo. (loísmo)", "I gave Pablo a present."],
           ["Le di un regalo a Pablo. (norma)", "I gave Pablo a present."],
-          ["¿Los resultados? Ya se los dije. (correcto: los = los resultados)", "The results? I already told him what they were."],
-          ["Ya se los dije, chicos. (coloquial en América: se lo dije a ustedes)", "I already told you, guys."],
         ],
         [
           ms(
@@ -236,18 +285,52 @@ export const C1_GAPS: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Un truco para elegir el pronombre",
+        "«Se los dije»: dos casos que no son loísmo",
+        [
+          "Cuidado con el plural: «se los dije» es correcto cuando los es el CD (los resultados → se los dije). No confundas este caso con el loísmo.",
+          "Otro caso frecuente en América, que no es loísmo sino una concordancia coloquial: «Se los dije» con sentido de «se lo dije a ustedes». Es muy común en México y otros países, aunque la norma culta prefiere «se lo dije».",
+        ],
+        [
+          ["¿Los resultados? Ya se los dije. (correcto: los = los resultados)", "The results? I already told him what they were."],
+          ["Ya se los dije, chicos. (coloquial en América: se lo dije a ustedes)", "I already told you, guys."],
+        ],
+        [
+          mc(
+            "«¿Los billetes? Ya se los di a Marta.» ¿Qué es «los» en esta frase?",
+            ["El CD (los billetes): es correcto, no es loísmo", "El CI (Marta): es loísmo", "Una concordancia coloquial con «ustedes»", "Un error: debería decirse «se les di»"],
+            0,
+            "Lo que se da son los billetes, así que «los» es el CD y la frase es correcta; Marta es el CI, representado por «se». No hay ningún «ustedes», y «se les» es imposible en español: ante lo / la / los / las, le y les pasan a «se»."
+          ),
+        ]
+      ),
+      sec(
+        "El truco: pasos 1 y 2",
         [
           "Paso 1: busca si en la frase hay otra cosa que funcione como CD (lo que se da, se dice, se manda...). Si la hay, la persona es CI y va le / les: Le dije la verdad. Le di un libro.",
           "Paso 2: si no hay otro CD, prueba a pasar la frase a pasiva. Si funciona, la persona es CD: Vieron a María → María fue vista → La vieron.",
+        ],
+        [
+          ["A Elena la vieron en el concierto.", "Elena was seen at the concert."],
+          ["A los alumnos les explicó el ejercicio.", "She explained the exercise to the students."],
+          ["A los alumnos los felicitó por el examen.", "She congratulated the students on the exam."],
+        ],
+        [
+          mc(
+            "Aplica el paso 2: «Despidieron a Lucía el lunes.» → «___ despidieron el lunes.»",
+            ["La", "Le", "Lo", "Les"],
+            0,
+            "No hay otro CD, así que prueba la pasiva: «Lucía fue despedida» funciona, luego Lucía es CD femenino: la despidieron. «Le» sería leísmo femenino, «lo» no concuerda y «les» es plural."
+          ),
+        ]
+      ),
+      sec(
+        "Paso 3: verbos de lengua y de petición",
+        [
           "Paso 3: con verbos de lengua o de petición (decir, pedir, preguntar, rogar), lo que se dice o se pide es el CD y la persona es CI: Le pedí que me ayudara (aunque sea una mujer).",
           "Este truco vale para cualquier variedad del español: si lo aplicas, evitarás el leísmo no aceptado, el laísmo y el loísmo.",
         ],
         [
           ["Le pedí a Elena que me ayudara.", "I asked Elena to help me."],
-          ["A Elena la vieron en el concierto.", "Elena was seen at the concert."],
-          ["A los alumnos les explicó el ejercicio.", "She explained the exercise to the students."],
-          ["A los alumnos los felicitó por el examen.", "She congratulated the students on the exam."],
         ],
         [
           mc(

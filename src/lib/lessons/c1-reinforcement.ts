@@ -3958,14 +3958,12 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "La regla: España frente a América",
+        "El patrón: España frente a América",
         [
           "En los objetos cotidianos se repite un patrón: España tiene a menudo una palabra propia y América comparte otra, con subdivisiones internas. Coche (España) / carro (México, Colombia, Caribe) / auto (Cono Sur). Zumo (España) / jugo (América). Móvil (España) / celular (América). Ordenador (España) / computadora o computador (América). Gafas (España) / lentes o anteojos (América). Conducir (España) / manejar (América).",
-          "¿Por qué? Muchas de estas palabras se fijaron en el siglo XX, cuando España tomaba modelos del francés (ordenador, de ordinateur) y América del inglés (computadora, de computer; celular, de cellular phone). La consecuencia práctica: para un público de toda América, elige la forma americana compartida (celular, computadora, jugo, manejar); para España, la peninsular. Y vigila el género, que a veces cambia con la palabra: la computadora → el ordenador; las gafas → los lentes.",
         ],
         [
           ["Me he dejado el móvil en el coche. (España)", "I've left my phone in the car."],
-          ["Apagá la compu antes de salir. (Argentina)", "Turn off the computer before you go out. (compu: acortamiento de computadora)"],
           ["¿Me pasas el jugo? (América) / ¿Me pasas el zumo? (España)", "Can you pass me the juice?"],
         ],
         [
@@ -3981,6 +3979,24 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "El mismo objeto cambia de nombre según el país: el bolígrafo es bolígrafo o boli en España, pluma en México, birome en Argentina y lapicero en Perú. El contexto (firmar en una oficina) descarta la pluma de ave; el lápiz y la carpeta tienen su propio nombre."
           ),
+        ]
+      ),
+      sec(
+        "Por qué, y qué forma elegir",
+        [
+          "¿Por qué? Muchas de estas palabras se fijaron en el siglo XX, cuando España tomaba modelos del francés (ordenador, de ordinateur) y América del inglés (computadora, de computer; celular, de cellular phone). La consecuencia práctica: para un público de toda América, elige la forma americana compartida (celular, computadora, jugo, manejar); para España, la peninsular. Y vigila el género, que a veces cambia con la palabra: la computadora → el ordenador; las gafas → los lentes.",
+        ],
+        [
+          ["Apagá la compu antes de salir. (Argentina)", "Turn off the computer before you go out. (compu: acortamiento de computadora)"],
+        ],
+        [
+          mc(
+            "Redactas las instrucciones de un electrodoméstico para clientes de toda América. ¿Qué frase eliges?",
+            ["Guarde el celular y apague la computadora.", "Guarde el móvil y apague el ordenador.", "Guarde el celular y apague el ordenador.", "Guarde el móvil y apague la computadora."],
+            0,
+            "Para un público de toda América se elige la forma americana compartida: celular y computadora. Móvil y ordenador son de España, y mezclar las dos normas en una frase suena raro en cualquier sitio."
+          ),
+          fb("Cambia al español de España y vigila el género.", "Se me rompió la computadora. → Se me rompió ___ ordenador.", "el", "Al cambiar la palabra cambia el género: la computadora → el ordenador. «La ordenador» mantendría el artículo de la palabra americana, y el artículo concuerda con la palabra nueva."),
         ]
       ),
     ],
@@ -4027,10 +4043,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "La lista de la compra viaja",
+        "Frutas y verduras con nombre propio",
         [
           "Recuerda la regla: un mismo objeto cambia de nombre según el país, y en el mercado se nota más que en ningún sitio, porque muchas frutas y verduras americanas conservan su nombre indígena (palta y choclo vienen del quechua; elote, aguacate y chile, del náhuatl). Patata (España) / papa (América). Fresa (España, México) / frutilla (Cono Sur). Melocotón (España) / durazno (América). Aguacate (España, México) / palta (Cono Sur, Perú). Judías (España) / frijoles (México) / porotos (Cono Sur). Maíz / choclo (mazorca, Cono Sur y Andes) / elote (México).",
-          "La misión: identifica el país, cambia la palabra y vigila el género, porque a veces cambia con ella: el aguacate → la palta; las judías → los frijoles, los porotos. El adjetivo concuerda con la palabra nueva: dos paltas maduras.",
         ],
         [
           ["Un kilo de paltas y medio de frutillas, por favor. (Chile)", "A kilo of avocados and half a kilo of strawberries, please."],
@@ -4047,8 +4062,29 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         ]
       ),
       sec(
+        "La misión: palabra nueva, género nuevo",
+        [
+          "La misión: identifica el país, cambia la palabra y vigila el género, porque a veces cambia con ella: el aguacate → la palta; las judías → los frijoles, los porotos. El adjetivo concuerda con la palabra nueva: dos paltas maduras.",
+        ],
+        [
+          ["Compré dos paltas maduras y unos porotos verdes. (Chile)", "I bought two ripe avocados and some green beans."],
+          ["El durazno está blando; las frutillas, dulces. (Argentina)", "The peach is soft; the strawberries, sweet."],
+        ],
+        [
+          mc(
+            "Adaptas «unas judías verdes muy tiernas» a un mercado de Santiago. ¿Qué forma es correcta?",
+            ["unos porotos verdes muy tiernos", "unas porotos verdes muy tiernas", "unos porotos verdes muy tiernas", "unas judías verdes muy tiernos"],
+            0,
+            "En Chile se dice porotos, que es masculino: cambian el artículo (unos) y el adjetivo (tiernos) con la palabra nueva. Las otras opciones dejan el género de «judías» en el artículo o en el adjetivo."
+          ),
+          fb("Adapta a Chile.", "Este aguacate está muy maduro. → Esta palta está muy ___.", "madura", "Palta es femenino, así que el adjetivo concuerda con la palabra nueva: madura. «Maduro» concordaría con «aguacate», que ya no está en la frase."),
+        ]
+      ),
+      sec(
         "En el puesto: pedir y contestar",
-        "Las fórmulas del pedido también viajan. En España se pide con poner: «¿Me pone…?», «Póngame…». En América, con dar: «¿Me da…?», «Deme…» (en el Cono Sur también «¿Me das…?» entre conocidos). El precio se pregunta igual en todas partes: «¿A cómo está el kilo?», «¿Cuánto es?». Y cuando el vendedor pregunta «¿Algo más?», se cierra con «Nada más, gracias».",
+        [
+          "Las fórmulas del pedido también viajan. En España se pide con poner: «¿Me pone…?», «Póngame…». En América, con dar: «¿Me da…?», «Deme…» (en el Cono Sur también «¿Me das…?» entre conocidos). El precio se pregunta igual en todas partes: «¿A cómo está el kilo?», «¿Cuánto es?». Y cuando el vendedor pregunta «¿Algo más?», se cierra con «Nada más, gracias».",
+        ],
         [
           ["—¿Algo más? —Nada más, gracias. ¿Cuánto le debo?", "—Anything else? —Nothing else, thanks. How much do I owe you?"],
           ["¿Me da un kilo de papas? (América)", "Can I have a kilo of potatoes?"],
@@ -4100,9 +4136,23 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Mismo término, otro sentido",
+        "Cómo cazar el error: dos preguntas",
         [
           "Recuerda la regla: una misma palabra puede designar cosas distintas según el país, y el error no se nota porque la palabra «suena bien». Para cazarlo, haz siempre dos preguntas: ¿dónde estoy (o para quién escribo)? y ¿qué significa esta palabra allí? Si el significado local no encaja con lo que se quiere decir, sustituye la palabra por la local o por una neutra.",
+        ],
+        [],
+        [
+          mc(
+            "Aplica la regla a una palabra nueva. En Bogotá una amiga te cuenta: «Mi papá se puso bravo porque llegué a las tres». ¿Cómo estaba su padre?",
+            ["Enfadado", "Valiente", "Contento", "Asustado"],
+            0,
+            "En Colombia, México y el Caribe «estar o ponerse bravo» significa estar enfadado. En España bravo se dice sobre todo de animales (un toro bravo) o significa valiente. El contexto (llegar a las tres) encaja con el enfado: el significado local es el que vale."
+          ),
+        ]
+      ),
+      sec(
+        "Los falsos amigos más frecuentes",
+        [
           "Tinto: vino tinto (España) / café solo (Colombia). Guagua: autobús (Cuba, Canarias) / bebé (Chile, Andes). Pena: tristeza (España) / vergüenza (México, Centroamérica, Colombia). Coger: tomar, agarrar (neutro en España, Colombia y buena parte del Caribe) / término vulgar (México, Argentina, Uruguay, Venezuela y gran parte de Centroamérica): allí se dice tomar o agarrar.",
         ],
         [
@@ -4115,12 +4165,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["un bebé", "un autobús", "un perro", "un taxi"],
             0,
             "En Chile (y en la zona andina), «guagua» significa bebé. El autobús es «guagua» en el Caribe, pero no en Chile; tampoco significa perro ni taxi."
-          ),
-          mc(
-            "Aplica la regla a una palabra nueva. En Bogotá una amiga te cuenta: «Mi papá se puso bravo porque llegué a las tres». ¿Cómo estaba su padre?",
-            ["Enfadado", "Valiente", "Contento", "Asustado"],
-            0,
-            "En Colombia, México y el Caribe «estar o ponerse bravo» significa estar enfadado. En España bravo se dice sobre todo de animales (un toro bravo) o significa valiente. El contexto (llegar a las tres) encaja con el enfado: el significado local es el que vale."
           ),
         ]
       ),
@@ -4172,15 +4216,11 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "6 min",
     [
       sec(
-        "La regla: cada país, su palabra; todas, coloquiales",
+        "Cada país, su palabra (y solo en confianza)",
         [
           "Para decir «genial» cada país tiene su palabra: guay (España); chévere (Venezuela, Colombia, Caribe, Perú); padre o chido (México); bacán (Chile, Perú; bacano en Colombia); copado (Argentina); tuanis (Costa Rica). Son palabras de grupo: dicen «soy de aquí» y «hablamos en confianza». Por eso funcionan con amigos y fallan en dos casos: con un interlocutor de otro país (suenan a disfraz) y en un registro formal, donde se usa excelente, estupendo o magnífico.",
-          "Fíjate también en su gramática. Suelen ir con estar, porque valoran una experiencia concreta: «la fiesta estuvo bacán». Unas concuerdan en género (chido/chida, copado/copada) y otras no cambian (chévere, bacán, guay y, curiosamente, padre: «¡qué padre está la casa!»).",
         ],
-        [
-          ["¡Qué padre está tu casa! (México)", "Your house is so cool!"],
-          ["La fiesta estuvo bacán. (Chile)", "The party was great."],
-        ],
+        [],
         [
           mc(
             "Un venezolano diría:",
@@ -4188,6 +4228,24 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "«Chévere» es típico de Venezuela (también de Colombia y el Caribe). «Guay» es de España, «padre» de México y «tuanis» de Costa Rica."
           ),
+          mc(
+            "En un informe para la dirección quieres decir que los resultados del trimestre fueron muy buenos. ¿Qué palabra usas?",
+            ["excelentes", "chéveres", "guais", "bacanes"],
+            0,
+            "Estas palabras son de grupo y de confianza: en un registro formal se usa excelente, estupendo o magnífico. Chévere, guay y bacán son coloquiales (y de un país concreto), así que en un informe suenan fuera de lugar."
+          ),
+        ]
+      ),
+      sec(
+        "Su gramática: estar y la concordancia",
+        [
+          "Fíjate también en su gramática. Suelen ir con estar, porque valoran una experiencia concreta: «la fiesta estuvo bacán». Unas concuerdan en género (chido/chida, copado/copada) y otras no cambian (chévere, bacán, guay y, curiosamente, padre: «¡qué padre está la casa!»).",
+        ],
+        [
+          ["¡Qué padre está tu casa! (México)", "Your house is so cool!"],
+          ["La fiesta estuvo bacán. (Chile)", "The party was great."],
+        ],
+        [
           mc(
             "Una mexicana habla de su ciudad: «Guadalajara está bien ___».",
             ["chida", "chido", "chévere", "copada"],
@@ -4240,13 +4298,11 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Pistas lingüísticas",
+        "Tres tipos de pista",
         [
           "Recuerda la regla: tres tipos de pista delatan el origen de quien habla: el léxico (colectivo, guagua, carro), el tratamiento (vos, vosotros, ustedes) y las muletillas (che, güey, tío, pues, po, ¿cachái?). Ejemplo: «Oye, tío, ¿vosotros vais a coger el metro?» → España (tío, vosotros, coger).",
-          "No todas pesan igual. Una palabra suelta engaña, porque muchas se comparten entre países (carro se dice en México, Colombia y el Caribe). La gramática del tratamiento es la pista más fuerte: vosotros solo es de España, y el voseo (vos sabés, tomá) apunta al Río de la Plata y Centroamérica. Por eso un buen detective busca dos o tres pistas que converjan, y desconfía de un texto en el que no encajan (un «che» con «vosotros» es un error, no un país).",
         ],
         [
-          ["Che, ¿vamos al cine o te quedás en casa? → Argentina", "Hey, are we going to the cinema or are you staying home? (che + voseo: dos pistas)"],
           ["¿Cachái que el pololo de la Cata se fue? → Chile", "You know what? Cata's boyfriend left."],
         ],
         [
@@ -4256,6 +4312,17 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "«Güey» y «padre» (= genial) son marcas inconfundibles de México. En España se diría «tío» y «guay», en Chile «bacán» y en Argentina «che» y «copado»."
           ),
+        ]
+      ),
+      sec(
+        "No todas pesan igual",
+        [
+          "No todas pesan igual. Una palabra suelta engaña, porque muchas se comparten entre países (carro se dice en México, Colombia y el Caribe). La gramática del tratamiento es la pista más fuerte: vosotros solo es de España, y el voseo (vos sabés, tomá) apunta al Río de la Plata y Centroamérica. Por eso un buen detective busca dos o tres pistas que converjan, y desconfía de un texto en el que no encajan (un «che» con «vosotros» es un error, no un país).",
+        ],
+        [
+          ["Che, ¿vamos al cine o te quedás en casa? → Argentina", "Hey, are we going to the cinema or are you staying home? (che + voseo: dos pistas)"],
+        ],
+        [
           mc(
             "«¿Ustedes ya comieron? Pásenme el carro, que voy a la tienda.» ¿Qué pista NO permite descartar ningún país de América?",
             ["ustedes", "carro", "tienda", "Ninguna: todas apuntan a México"],
@@ -4434,10 +4501,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "6 min",
     [
       sec(
-        "Pequeñas palabras, grandes funciones",
+        "Cada muletilla, su función",
         [
           "Recuerda la regla: las muletillas no están vacías; cada una tiene una función en el diálogo, y cambiarla cambia lo que comunicas. Pues: arranca una respuesta, a menudo con duda («—¿Vienes? —Pues no sé»). O sea: reformula lo dicho («Llegó tarde, o sea, como siempre»). Bueno: acepta a medias o cambia de tema. Vamos: resume o intensifica («Un desastre, vamos»). Es que: justifica («Es que no me encuentro bien»).",
-          "¿Por qué importan? Porque en la conversación hacen el trabajo que en un texto formal hacen los conectores: es que ≈ porque; o sea ≈ es decir; vamos ≈ en resumen; bueno ≈ ahora bien. Al escribir formalmente se sustituyen por esos conectores o se eliminan.",
         ],
         [
           ["—¿Por qué no contestaste? —Es que estaba en el metro.", "—Why didn't you answer? —Well, I was on the metro. (es que: justifica)"],
@@ -4456,6 +4522,22 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "«Es que» introduce una justificación o excusa. «O sea» reformula, «Vamos» concluye con énfasis y «Por ende» es un conector formal de consecuencia, fuera de lugar en una charla."
           ),
+        ]
+      ),
+      sec(
+        "De la muletilla al conector",
+        [
+          "¿Por qué importan? Porque en la conversación hacen el trabajo que en un texto formal hacen los conectores: es que ≈ porque; o sea ≈ es decir; vamos ≈ en resumen; bueno ≈ ahora bien. Al escribir formalmente se sustituyen por esos conectores o se eliminan.",
+        ],
+        [],
+        [
+          mc(
+            "Pasa la frase a un informe: «No asistió a la reunión, es que estaba enfermo.»",
+            ["No asistió a la reunión porque estaba enfermo.", "No asistió a la reunión, o sea, estaba enfermo.", "No asistió a la reunión, vamos, estaba enfermo.", "No asistió a la reunión; bueno, estaba enfermo."],
+            0,
+            "«Es que» justifica, y en un texto formal su trabajo lo hace «porque». «O sea» reformula, «vamos» resume y «bueno» acepta a medias: además de ser coloquiales, cambian la relación entre las dos ideas."
+          ),
+          fb("Sustituye la muletilla por el conector formal.", "Los costes subieron un 20 %; ___, el proyecto ya no es rentable.", "es decir", "En la versión oral diríamos «o sea»: reformula lo dicho, y su equivalente formal es «es decir». «En resumen» correspondería a «vamos», y «ahora bien», a «bueno»."),
         ]
       ),
     ],
@@ -4574,15 +4656,11 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Detectar el intruso",
+        "Cinco tipos de intruso",
         [
           "Recuerda la regla: en un texto formal chirrían cinco tipos de intrusos: vocativos (tío, güey, che), intensificadores (súper, re), muletillas (o sea, en plan), expresiones idiomáticas coloquiales (a tope, chido, mola) y apócopes (info, finde).",
-          "¿Por qué chirrían? Todos dan por supuesta una confianza que el texto formal no tiene: el lector de un aviso o de una reseña no es tu amigo. La caza tiene un método: busca el intruso, identifica su tipo y sustitúyelo por su equivalente neutro (súper → muy, sumamente; info → información; o sea → es decir), o elimínalo si no aporta nada (en plan, tío). Vigila además que el verbo encaje: «está súper completo» pasa a «es muy completo».",
         ],
-        [
-          ["✗ Adjunto la info del proyecto. → ✓ Adjunto la información del proyecto.", "I'm attaching the project information."],
-          ["✗ El informe está súper completo. → ✓ El informe es muy completo.", "The report is very thorough."],
-        ],
+        [],
         [
           mc(
             "¿Qué palabra desentona en un correo a un cliente? «Le envío la info solicitada.»",
@@ -4596,6 +4674,25 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "A tope es una expresión coloquial de intensidad; en un texto formal se diría «ha disminuido notablemente» o «considerablemente». No hay apócopes (datos, tasa, región están completas) ni vocativos."
           ),
+        ]
+      ),
+      sec(
+        "El método: busca, identifica, sustituye",
+        [
+          "¿Por qué chirrían? Todos dan por supuesta una confianza que el texto formal no tiene: el lector de un aviso o de una reseña no es tu amigo. La caza tiene un método: busca el intruso, identifica su tipo y sustitúyelo por su equivalente neutro (súper → muy, sumamente; info → información; o sea → es decir), o elimínalo si no aporta nada (en plan, tío). Vigila además que el verbo encaje: «está súper completo» pasa a «es muy completo».",
+        ],
+        [
+          ["✗ Adjunto la info del proyecto. → ✓ Adjunto la información del proyecto.", "I'm attaching the project information."],
+          ["✗ El informe está súper completo. → ✓ El informe es muy completo.", "The report is very thorough."],
+        ],
+        [
+          mc(
+            "Corrige la frase para un informe: «La reunión estuvo súper productiva.»",
+            ["La reunión fue muy productiva.", "La reunión fue súper productiva.", "La reunión estuvo re productiva.", "La reunión fue, en plan, muy productiva."],
+            0,
+            "El intruso es el intensificador «súper», que pasa a «muy»; y para valorar el resultado de un acontecimiento el verbo encaja mejor con ser: fue muy productiva. «Re» es otro intensificador coloquial, y «en plan» es una muletilla que hay que eliminar."
+          ),
+          fb("Sustituye el intruso por su equivalente neutro.", "Le recordamos que el ___ la oficina permanece cerrada. (finde)", "fin de semana", "«Finde» es un apócope coloquial: en un aviso formal se escribe la forma completa, fin de semana."),
         ]
       ),
     ],
@@ -4698,10 +4795,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Pasar de un registro a otro sin perder matices",
+        "Cambia el léxico, no la gramática",
         [
           "Recuerda la regla: al cambiar de registro cambia el léxico, no la gramática. Coloquial: «Lo que me flipa es que no haya dicho nada». Neutro: «Lo que me sorprende es que no haya dicho nada». La hendida y el subjuntivo se mantienen; solo cambia el léxico. Igual con la conjetura: «Estará liadísimo» → «Estará muy ocupado».",
-          "¿Por qué se mantienen? Porque esas estructuras no son coloquiales: la hendida (lo que… es que…) pone el foco en lo que importa, y el futuro de conjetura (estará, habrá estado) marca suposición en cualquier registro. Recuerda sus piezas: tras «lo que me sorprende/molesta… es que» va subjuntivo; para conjeturar sobre el presente, futuro simple (estará); sobre un pasado reciente, futuro compuesto (habrá llegado); sobre un pasado acabado, condicional (estaría ocupado ayer).",
         ],
         [
           ["Estará liadísimo. → Estará muy ocupado.", "He must be swamped."],
@@ -4709,17 +4805,27 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           mc(
-            "Aplica la regla a un caso nuevo: «Ayer no vino a clase. ___ enfermo.» (conjetura sobre el pasado)",
-            ["Estaría", "Estará", "Esté", "Estaba seguro"],
-            0,
-            "Para conjeturar sobre un hecho pasado y acabado (ayer) se usa el condicional: estaría. El futuro (estará) conjetura sobre el presente; «esté» es subjuntivo sin inductor, y «estaba seguro» cambia el sentido."
-          ),
-          mc(
             "Versión neutra de «Lo que me flipa es su cara dura»:",
             ["Lo que me sorprende es su descaro.", "Lo que me flipa es su descaro.", "Me flipa su cara dura.", "Flipo con su cara."],
             0,
             "«Flipar» y «cara dura» son coloquiales de España; en neutro: «Lo que me sorprende es su descaro». Las otras opciones conservan «flipa», «flipo» o «cara dura»."
           ),
+        ]
+      ),
+      sec(
+        "Las estructuras que se mantienen",
+        [
+          "¿Por qué se mantienen? Porque esas estructuras no son coloquiales: la hendida (lo que… es que…) pone el foco en lo que importa, y el futuro de conjetura (estará, habrá estado) marca suposición en cualquier registro. Recuerda sus piezas: tras «lo que me sorprende/molesta… es que» va subjuntivo; para conjeturar sobre el presente, futuro simple (estará); sobre un pasado reciente, futuro compuesto (habrá llegado); sobre un pasado acabado, condicional (estaría ocupado ayer).",
+        ],
+        [],
+        [
+          mc(
+            "Aplica la regla a un caso nuevo: «Ayer no vino a clase. ___ enfermo.» (conjetura sobre el pasado)",
+            ["Estaría", "Estará", "Esté", "Estaba seguro"],
+            0,
+            "Para conjeturar sobre un hecho pasado y acabado (ayer) se usa el condicional: estaría. El futuro (estará) conjetura sobre el presente; «esté» es subjuntivo sin inductor, y «estaba seguro» cambia el sentido."
+          ),
+          fb("Conjetura sobre un pasado reciente (salir).", "No contesta al teléfono; ya ___ de la oficina.", "habrá salido", "Para suponer algo de un pasado reciente se usa el futuro compuesto: habrá salido. El futuro simple (saldrá) conjetura sobre el presente, y el condicional (saldría) sobre un pasado acabado."),
         ]
       ),
     ],
@@ -4760,11 +4866,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "La escala de formalidad",
         [
           "Recuerda la regla: las fórmulas forman una escala, y saludo y despedida se eligen en el mismo escalón. Apertura: Muy señor mío / Distinguido señor (muy solemne) → Estimado/a señor/a + apellido (formal estándar) → Estimado/a + nombre (formal cercano) → Hola, + nombre (semiformal). Cierre: Le saluda atentamente (formal) → Atentamente / Un cordial saludo → Saludos cordiales → Un saludo (semiformal). Tras el saludo formal la norma general pide dos puntos; en América también se admite la coma.",
-          "El escalón lo deciden la distancia (cargo, primer contacto) y lo que sabes del destinatario: sin nombre, fórmula genérica (Estimados señores); con apellido, formal estándar; con nombre de pila, solo si ya hay trato. Y la gramática acompaña: con Estimados señores el pronombre es les (les escribimos), con usted, le.",
         ],
         [
           ["Estimada señora Martínez:", "Dear Ms. Martínez,"],
-          ["Estimados señores: les escribimos para…", "Dear Sirs, we are writing to… (plural: les)"],
         ],
         [
           mc(
@@ -4773,11 +4877,28 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "En español, el saludo de una carta formal va seguido de dos puntos: «Estimado señor Gil:». La coma es la puntuación inglesa (en América también se admite, pero la norma general pide dos puntos), y el punto y coma o el punto no se usan ahí."
           ),
+        ]
+      ),
+      sec(
+        "Qué decide el escalón",
+        [
+          "El escalón lo deciden la distancia (cargo, primer contacto) y lo que sabes del destinatario: sin nombre, fórmula genérica (Estimados señores); con apellido, formal estándar; con nombre de pila, solo si ya hay trato. Y la gramática acompaña: con Estimados señores el pronombre es les (les escribimos), con usted, le.",
+        ],
+        [
+          ["Estimados señores: les escribimos para…", "Dear Sirs, we are writing to… (plural: les)"],
+        ],
+        [
           mc(
             "Aplica la escala: escribes a la jefa de tu departamento, con quien trabajas a diario y te tuteas. ¿Qué pareja encaja?",
             ["Hola, Carmen: … Un saludo,", "Muy señora mía: … Le saluda atentamente,", "Estimada señora Ruiz: … Besos,", "Distinguida señora: … Un abrazo,"],
             0,
             "Hay trato diario y tuteo: escalón semiformal en las dos fórmulas (Hola, Carmen / Un saludo). «Muy señora mía» sería excesivo, y las otras dos mezclan escalones (saludo formal, despedida íntima)."
+          ),
+          mc(
+            "Escribes a una empresa: «Estimados señores: ___ escribo para solicitar un presupuesto.» ¿Qué pronombre corresponde?",
+            ["les", "le", "os", "los"],
+            0,
+            "Con Estimados señores el destinatario es plural y de usted: les escribo. «Le» es para un solo destinatario, «os» corresponde a vosotros (trato de confianza) y «los» sería complemento directo."
           ),
         ]
       ),
@@ -4879,10 +5000,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Firme sin ser grosero",
+        "Cuatro piezas de una reclamación eficaz",
         [
           "Recuerda la regla: una reclamación eficaz tiene cuatro piezas, y cada error típico rompe una. Precisión: fecha, número de pedido, importe. Hechos antes que emociones: «El producto llegó dañado» mejor que «Son ustedes unos incompetentes». Petición clara con cortesía: «Les ruego que procedan al reembolso». Plazo razonable: «en un plazo de diez días hábiles».",
-          "¿Por qué funciona así? Quien recibe la queja tiene que poder actuar: sin datos no encuentra el caso, sin petición no sabe qué hacer, sin plazo no tiene prisa, y un insulto le da una excusa para no responder. La firmeza está en los hechos y en el plazo, no en el tono. Y la petición tiene su gramática: rogar, solicitar o agradecer que + subjuntivo (les ruego que procedan; les agradecería que procedieran).",
         ],
         [
           ["✗ ¡Quiero mi dinero YA! → ✓ Les ruego que procedan al reembolso a la mayor brevedad.", "Please issue a refund as soon as possible."],
@@ -4895,12 +5015,31 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "La frase solo expresa enfado (estoy harto, es un desastre) y una petición vaga. Le faltan los hechos (qué pasó, cuándo, con qué pedido) y una petición concreta con plazo. El saludo y la puntuación no son el problema."
           ),
+        ]
+      ),
+      sec(
+        "Por qué funciona: la firmeza está en los hechos",
+        [
+          "¿Por qué funciona así? Quien recibe la queja tiene que poder actuar: sin datos no encuentra el caso, sin petición no sabe qué hacer, sin plazo no tiene prisa, y un insulto le da una excusa para no responder. La firmeza está en los hechos y en el plazo, no en el tono. Y la petición tiene su gramática: rogar, solicitar o agradecer que + subjuntivo (les ruego que procedan; les agradecería que procedieran).",
+        ],
+        [],
+        [
           mc(
             "¿Qué frase es firme y cortés a la vez?",
             ["Les ruego que me devuelvan el importe en un plazo de diez días.", "Devuélvanme el dinero o los denuncio.", "Me da igual, pero quiero el dinero.", "A lo mejor podrían, si quieren, devolverlo."],
             0,
             "«Les ruego que me devuelvan el importe en un plazo de diez días» combina una petición clara, un plazo y cortesía. «O los denuncio» es una amenaza, «Me da igual» es descortés y «A lo mejor podrían, si quieren» es tan tímida que no exige nada."
           ),
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la petición (proceder).",
+            "sentence": "Les agradecería que ___ a la sustitución del aparato en un plazo de diez días.",
+            "answer": "procedieran",
+            "altAnswers": [
+              "procediesen"
+            ],
+            "explanation": "Agradecer que + subjuntivo; y como «agradecería» es condicional, la subordinada va en imperfecto de subjuntivo: procedieran. «Procedan» iría con «les ruego que», y el indicativo «proceden» no cabe tras una petición."
+          },
         ]
       ),
     ],
@@ -4938,14 +5077,29 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "6 min",
     [
       sec(
-        "Precisión en el verbo",
+        "Un verbo para cada operación",
         [
           "Recuerda la regla: cada verbo nombra una operación distinta, y elegir el preciso le dice al lector qué ha pasado con el documento. Adjuntar: incluir un archivo en el correo («Adjunto el CV»). Remitir: enviar formalmente o derivar a otra persona («Le remito su consulta al departamento legal»). Enviar: verbo general. Reenviar: mandar a otro un mensaje recibido.",
+        ],
+        [
+          ["Le reenvío el correo de la directora.", "I'm forwarding you the director's email."],
+        ],
+        [
+          mc(
+            "Aplica la regla: un cliente escribe a recepción con una queja que debe resolver contabilidad. ¿Qué responde la recepcionista?",
+            ["Le informo de que he remitido su queja al departamento de contabilidad.", "Le informo de que he adjuntado su queja al departamento de contabilidad.", "Le informo de que he reenviado su queja a usted.", "Le informo de que he adjuntado su queja a usted."],
+            0,
+            "Derivar formalmente un asunto a otra instancia es remitir. Adjuntar es incluir un archivo en un correo (no se adjunta a un departamento), y reenviárselo al propio cliente no tiene sentido."
+          ),
+        ]
+      ),
+      sec(
+        "La trampa de adjunto: verbo o adjetivo",
+        [
           "La trampa es adjunto, que puede ser dos cosas. Como verbo (yo adjunto) no cambia: «Adjunto las facturas». Como adjetivo concuerda con el sustantivo: «las facturas adjuntas», «encontrará adjunta la factura». La prueba: si puedes poner «yo» delante, es verbo; si acompaña a un nombre, es adjetivo. (En «Adjunto le envío…» funciona como adverbio y también es invariable.)",
         ],
         [
           ["Adjunto le envío el presupuesto.", "Please find the quote attached."],
-          ["Le reenvío el correo de la directora.", "I'm forwarding you the director's email."],
         ],
         [
           mc(
@@ -4953,12 +5107,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["adjuntos", "adjunto", "adjunta", "adjuntas"],
             0,
             "Tras «encontrará», «adjunto» funciona como adjetivo y concuerda con «los documentos»: «adjuntos». «Adjunto», «adjunta» y «adjuntas» no concuerdan en género o número."
-          ),
-          mc(
-            "Aplica la regla: un cliente escribe a recepción con una queja que debe resolver contabilidad. ¿Qué responde la recepcionista?",
-            ["Le informo de que he remitido su queja al departamento de contabilidad.", "Le informo de que he adjuntado su queja al departamento de contabilidad.", "Le informo de que he reenviado su queja a usted.", "Le informo de que he adjuntado su queja a usted."],
-            0,
-            "Derivar formalmente un asunto a otra instancia es remitir. Adjuntar es incluir un archivo en un correo (no se adjunta a un departamento), y reenviárselo al propio cliente no tiene sentido."
           ),
         ]
       ),
@@ -5000,13 +5148,28 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Estructura del seguimiento",
+        "Seis piezas en un orden fijo",
         [
           "Recuerda la regla: el correo de seguimiento tiene seis piezas en un orden fijo, y cada una hace un trabajo. 1) Saludo: Estimada señora Ortega: 2) Agradecimiento: Quisiera agradecerle la oportunidad de reunirme con usted ayer. 3) Recuerdo concreto: Me resultó especialmente interesante conocer el proyecto de expansión. 4) Interés: Reitero mi interés en el puesto. 5) Disponibilidad: Quedo a su disposición para cualquier información adicional. 6) Cierre: Un cordial saludo.",
-          "¿Por qué el recuerdo concreto? Porque demuestra que escuchaste y te distingue de los demás candidatos. Y vigila la gramática de la cortesía: agradecer algo (le agradezco su tiempo) o agradecer que + subjuntivo (le agradezco que me recibiera), con el pasado del subjuntivo si lo agradecido ya ocurrió.",
         ],
         [
           ["Reitero mi interés en formar parte de su equipo.", "I reiterate my interest in joining your team."],
+        ],
+        [
+          mc(
+            "¿Qué frase refuerza el interés?",
+            ["Reitero mi interés en el puesto.", "Bueno, si quieren, me llaman.", "A ver qué pasa.", "Supongo que no me elegirán."],
+            0,
+            "«Reitero mi interés en el puesto» vuelve a expresar el interés de forma firme y formal. «Si quieren, me llaman» y «A ver qué pasa» suenan indiferentes, y «Supongo que no me elegirán» es derrotista."
+          ),
+        ]
+      ),
+      sec(
+        "El recuerdo concreto y la gramática de agradecer",
+        [
+          "¿Por qué el recuerdo concreto? Porque demuestra que escuchaste y te distingue de los demás candidatos. Y vigila la gramática de la cortesía: agradecer algo (le agradezco su tiempo) o agradecer que + subjuntivo (le agradezco que me recibiera), con el pasado del subjuntivo si lo agradecido ya ocurrió.",
+        ],
+        [
           ["Le agradezco que me recibiera con tan poca antelación.", "Thank you for seeing me at such short notice. (agradecer que + subjuntivo)"],
         ],
         [
@@ -5016,12 +5179,16 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "El recuerdo concreto menciona algo específico de la entrevista (el programa de formación). «Gracias por todo» es un agradecimiento genérico, «Espero que me elijan» suena a ruego, y «Un cordial saludo» es el cierre."
           ),
-          mc(
-            "¿Qué frase refuerza el interés?",
-            ["Reitero mi interés en el puesto.", "Bueno, si quieren, me llaman.", "A ver qué pasa.", "Supongo que no me elegirán."],
-            0,
-            "«Reitero mi interés en el puesto» vuelve a expresar el interés de forma firme y formal. «Si quieren, me llaman» y «A ver qué pasa» suenan indiferentes, y «Supongo que no me elegirán» es derrotista."
-          ),
+          {
+            "type": "fill-blank",
+            "prompt": "Agradece algo que ya ocurrió (dedicar).",
+            "sentence": "Le agradezco que me ___ tanto tiempo en la entrevista.",
+            "answer": "dedicara",
+            "altAnswers": [
+              "dedicase"
+            ],
+            "explanation": "Agradecer que + subjuntivo; como la entrevista ya ocurrió, va el pasado del subjuntivo: dedicara (o dedicase). El presente «dedique» hablaría de algo que aún no ha pasado."
+          },
         ]
       ),
     ],
@@ -5118,13 +5285,11 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Recursos de impersonalidad",
+        "Cuatro recursos de impersonalidad",
         [
           "La regla: el «yo» del autor se sustituye por uno de cuatro recursos. Se impersonal / pasiva refleja: «Se observa que…», «Se ha demostrado que…». Plural de modestia: «Consideramos que…», «Como hemos visto…». Construcciones con sujeto no humano: «Los datos indican…», «Este trabajo propone…». Expresiones impersonales: «Cabe señalar que…», «Es preciso destacar que…».",
-          "¿Por qué? Porque en un ensayo la afirmación debe apoyarse en los datos y el razonamiento, no en quien escribe; el «yo creo» la convierte en una opinión discutible por ser de alguien. Dos cuidados al transformar: elige un solo recurso por frase (no «cabe señalar que yo creo»), y en la pasiva refleja haz concordar el verbo con lo que se observa (se detectó un error, se detectaron dos errores).",
         ],
         [
-          ["Creo que los datos son fiables. → Los datos parecen fiables.", "I think the data is reliable. → The data seems reliable."],
           ["En este ensayo voy a analizar… → Este ensayo analiza…", "In this essay I will analyze… → This essay analyzes…"],
         ],
         [
@@ -5134,6 +5299,17 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "El «se» de pasiva refleja con nominalización («se observa una mejora») borra al autor, como pide el registro académico. «Yo observo» mantiene la primera persona, y «creo» o «lo he visto yo» son personales y coloquiales."
           ),
+        ]
+      ),
+      sec(
+        "Por qué, y dos cuidados al transformar",
+        [
+          "¿Por qué? Porque en un ensayo la afirmación debe apoyarse en los datos y el razonamiento, no en quien escribe; el «yo creo» la convierte en una opinión discutible por ser de alguien. Dos cuidados al transformar: elige un solo recurso por frase (no «cabe señalar que yo creo»), y en la pasiva refleja haz concordar el verbo con lo que se observa (se detectó un error, se detectaron dos errores).",
+        ],
+        [
+          ["Creo que los datos son fiables. → Los datos parecen fiables.", "I think the data is reliable. → The data seems reliable."],
+        ],
+        [
           mc(
             "Aplica la regla: ¿cuál es la versión académica de «Yo he encontrado tres errores en el informe»?",
             ["Se han detectado tres errores en el informe.", "Se ha detectado tres errores en el informe.", "Yo detecté tres errores en el informe, creo.", "He encontrado yo tres errores en el informe."],
@@ -5437,7 +5613,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Mismo verbo, dos mensajes",
         [
           "Decir que + indicativo = informar («Dice que viene»); + subjuntivo = ordenar («Dice que vengas»). Sentir que + indicativo = percibir («Siento que me miran»); + subjuntivo = lamentar («Siento que no puedas venir»). Comprender que + indicativo = darse cuenta; + subjuntivo = considerar lógico («Comprendo que estés enfadado»).",
-          "Por qué: el indicativo transmite información (lo que se dice, se percibe o se descubre como un hecho). El subjuntivo convierte el mismo verbo en otra cosa: una orden (decir, insistir en), un sentimiento ante el hecho (sentir = lamentar) o una valoración (comprender = encontrar lógico). Para elegir, pregúntate: ¿informa o pide/valora? En pasado, el subjuntivo pasa al imperfecto: «Me dijo que lo llamara».",
         ],
         [
           ["Me escribió que llegaba el martes. / Me escribió que lo llamara.", "He wrote that he was arriving Tuesday. / He wrote telling me to call him."],
@@ -5449,6 +5624,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["me lleve", "me llevo", "me llevaré", "me llevé"],
             0,
             "Cuando «insistir en que» expresa una orden o exigencia, lleva subjuntivo: «que me lleve». Con indicativo («me llevo», «me llevé») significaría afirmar con insistencia un hecho, y «llevaré» no encaja con la orden."
+          ),
+        ]
+      ),
+      sec(
+        "Cómo elegir: ¿informa o pide?",
+        [
+          "Por qué: el indicativo transmite información (lo que se dice, se percibe o se descubre como un hecho). El subjuntivo convierte el mismo verbo en otra cosa: una orden (decir, insistir en), un sentimiento ante el hecho (sentir = lamentar) o una valoración (comprender = encontrar lógico). Para elegir, pregúntate: ¿informa o pide/valora? En pasado, el subjuntivo pasa al imperfecto: «Me dijo que lo llamara».",
+        ],
+        [],
+        [
+          mc(
+            "«Me escribió que lo ___ en cuanto pudiera.» (es una orden)",
+            ["llamara", "llamaba", "llame", "llamaré"],
+            0,
+            "Decir/escribir que + subjuntivo da una orden; y como el verbo principal está en pasado, el subjuntivo pasa al imperfecto: llamara. «Llamaba» informaría de un hecho (que yo lo llamaba), y «llame» no concuerda con el pasado «escribió»."
           ),
         ]
       ),
@@ -5534,7 +5724,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Checklist rápido",
         [
           "Antecedente desconocido → subjuntivo («Busco a alguien que hable ruso»). Cuando + futuro → subjuntivo. Para que → siempre subjuntivo. El hecho de que → normalmente subjuntivo. No es que + subjuntivo («No es que no quiera, es que no puedo»). Como + subjuntivo al inicio = condición/amenaza («Como no vengas, me enfado»).",
-          "El hilo común: el subjuntivo marca lo que no se afirma como información. Lo que aún no existe o no se conoce (antecedente desconocido), lo que todavía no ha ocurrido (cuando + futuro, para que) y lo que se niega o se valora en lugar de informar (no es que, el hecho de que). En cuanto la frase afirma algo como dato (la causa real tras «es que», un hábito con «cuando»), vuelve el indicativo.",
         ],
         [
           ["No es que me moleste, es que me sorprende.", "It's not that it bothers me, it's that it surprises me."],
@@ -5546,6 +5735,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["digas", "dices", "dirás", "dijiste"],
             0,
             "«Como» + subjuntivo al principio de la frase expresa una condición, a menudo con tono de amenaza: «Como no me digas la verdad…». Con indicativo («dices», «dijiste») «como» sería causal, y «dirás» no cabe en esta estructura."
+          ),
+        ]
+      ),
+      sec(
+        "El hilo común: lo que no se afirma",
+        [
+          "El hilo común: el subjuntivo marca lo que no se afirma como información. Lo que aún no existe o no se conoce (antecedente desconocido), lo que todavía no ha ocurrido (cuando + futuro, para que) y lo que se niega o se valora en lugar de informar (no es que, el hecho de que). En cuanto la frase afirma algo como dato (la causa real tras «es que», un hábito con «cuando»), vuelve el indicativo.",
+        ],
+        [],
+        [
+          mc(
+            "«Cuando ___ a casa, siempre me quito los zapatos.» (es un hábito)",
+            ["llego", "llegue", "llegara", "llegaré"],
+            0,
+            "Cuando + subjuntivo es para lo que aún no ha ocurrido (cuando llegue mañana). Aquí «siempre» marca un hábito, un hecho que se afirma, así que vuelve el indicativo: llego. El futuro no va nunca tras este «cuando»."
           ),
         ]
       ),
@@ -5632,7 +5836,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Cuando la nominalización sobra",
         [
           "«Se procedió a la realización de la revisión del documento» → «Se revisó el documento». Las cadenas de «la + sustantivo + de» (realización, efectuación, procedimiento) cansan al lector. Criterio: si un verbo expresa la idea, úsalo.",
-          "Por qué: la nominalización es útil cuando el proceso se convierte en el tema («la subida de los precios preocupa»), pero los verbos vacíos (realizar, efectuar, proceder a, llevar a cabo) solo alargan la frase. Al recuperar el verbo pleno, revisa tres cosas que el sustantivo ocultaba: la concordancia de la pasiva refleja (se entregaron los premios), la «a» personal (despidió a diez empleados) y el régimen del verbo (decidir + infinitivo, sin «de»).",
         ],
         [
           ["Se llevó a cabo la limpieza de la sala. → Se limpió la sala.", "The room was cleaned."],
@@ -5644,6 +5847,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["Se reparó la avería.", "Se hizo efectiva la reparación de la avería.", "Se realizó la efectuación de la reparación.", "La avería fue objeto de reparación efectuada."],
             0,
             "Un verbo directo es más claro que un verbo comodín + nominalización: «Se reparó la avería». Las otras opciones añaden más relleno («hacer efectiva», «efectuación», «fue objeto de») en lugar de quitarlo."
+          ),
+        ]
+      ),
+      sec(
+        "Recupera el verbo y revisa tres cosas",
+        [
+          "Por qué: la nominalización es útil cuando el proceso se convierte en el tema («la subida de los precios preocupa»), pero los verbos vacíos (realizar, efectuar, proceder a, llevar a cabo) solo alargan la frase. Al recuperar el verbo pleno, revisa tres cosas que el sustantivo ocultaba: la concordancia de la pasiva refleja (se entregaron los premios), la «a» personal (despidió a diez empleados) y el régimen del verbo (decidir + infinitivo, sin «de»).",
+        ],
+        [],
+        [
+          mc(
+            "Versión con verbo pleno de «Se llevó a cabo la entrega de los diplomas»:",
+            ["Se entregaron los diplomas.", "Se entregó los diplomas.", "Se entregaron a los diplomas.", "Se procedió a entregar de los diplomas."],
+            0,
+            "Al recuperar el verbo, la pasiva refleja concuerda con lo entregado (los diplomas, plural): se entregaron. «Se entregó» no concuerda, la «a» personal solo va con personas, y «se procedió a» mantiene el verbo vacío."
           ),
         ]
       ),
@@ -5726,7 +5944,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Gerundios problemáticos",
         [
           "Gerundio de posterioridad: ✗ «Estudió en Salamanca, trasladándose después a Madrid» → «…y después se trasladó a Madrid». Gerundio especificativo (como adjetivo): ✗ «Una ley regulando el alquiler» → «Una ley que regula el alquiler». Válido: simultaneidad o anterioridad inmediata («Salió corriendo»; «Abriendo la puerta, vio a su padre»).",
-          "Por qué: el gerundio funciona como un adverbio; dice cómo, cuándo o por qué ocurre la acción principal, y por eso tiene que ser simultáneo o inmediatamente anterior a ella. No puede describir a un sustantivo como si fuera un adjetivo (*una caja conteniendo), porque para eso está la relativa (una caja que contiene), ni encadenar algo que pasa después (*muriendo en el acto), que pide «y» + verbo conjugado.",
         ],
         [
           ["✗ Chocó con un árbol, muriendo en el acto. → ✓ Chocó con un árbol y murió en el acto.", "He crashed into a tree and died instantly."],
@@ -5738,6 +5955,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["Entró en casa silbando.", "Envió un paquete conteniendo documentos.", "Nació en Lima, muriendo en París.", "Firmó el decreto, entrando en vigor al día siguiente."],
             0,
             "El gerundio es correcto cuando es simultáneo: «Entró en casa silbando». «Un paquete conteniendo» es especificativo (incorrecto), y «muriendo en París» y «entrando en vigor» expresan posterioridad."
+          ),
+        ]
+      ),
+      sec(
+        "Por qué: el gerundio es un adverbio",
+        [
+          "Por qué: el gerundio funciona como un adverbio; dice cómo, cuándo o por qué ocurre la acción principal, y por eso tiene que ser simultáneo o inmediatamente anterior a ella. No puede describir a un sustantivo como si fuera un adjetivo (*una caja conteniendo), porque para eso está la relativa (una caja que contiene), ni encadenar algo que pasa después (*muriendo en el acto), que pide «y» + verbo conjugado.",
+        ],
+        [],
+        [
+          mc(
+            "¿Qué versión es correcta?",
+            ["Compré una botella que contenía aceite de oliva.", "Compré una botella conteniendo aceite de oliva.", "Compré una botella, conteniendo después aceite de oliva.", "Compré una botella y conteniendo aceite de oliva."],
+            0,
+            "Para describir un sustantivo se usa la relativa (una botella que contenía), no el gerundio, que funciona como adverbio. La tercera añade un gerundio de posterioridad y la cuarta une con «y» un gerundio en lugar de un verbo conjugado."
           ),
         ]
       ),
@@ -5825,7 +6057,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Del -ing inglés al infinitivo español",
         [
           "Sujeto: Smoking kills → Fumar mata. Tras preposición: before leaving → antes de salir; without saying → sin decir; after eating → después de comer. Tras verbos de gusto: I like reading → Me gusta leer. El gerundio se reserva para la acción en curso o durativa (estar, seguir, llevar + gerundio), el modo y la simultaneidad.",
-          "Por qué: en inglés la forma en -ing puede ser un sustantivo; en español el gerundio nunca lo es, siempre funciona como adverbio. Así que cuando la acción es sujeto, complemento o va tras una preposición, el español usa el infinitivo, que sí es el «sustantivo» del verbo. Prueba rápida: si puedes poner «el hecho de» delante, va infinitivo.",
         ],
         [
           ["Viajar sola me ha enseñado mucho.", "Traveling alone has taught me a lot."],
@@ -5837,6 +6068,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["Leer antes de dormir me ayuda a conciliar el sueño.", "Leyendo antes de dormir me ayuda a dormir.", "El leyendo antes de dormir me ayuda.", "Leyendo antes de durmiendo me ayuda."],
             0,
             "En español el infinitivo funciona como sujeto: «Leer antes de dormir…». El gerundio no puede ser sujeto («Leyendo… me ayuda»), no admite artículo («El leyendo») y tras preposición va infinitivo («antes de dormir»)."
+          ),
+        ]
+      ),
+      sec(
+        "Por qué: el gerundio nunca es sustantivo",
+        [
+          "Por qué: en inglés la forma en -ing puede ser un sustantivo; en español el gerundio nunca lo es, siempre funciona como adverbio. Así que cuando la acción es sujeto, complemento o va tras una preposición, el español usa el infinitivo, que sí es el «sustantivo» del verbo. Prueba rápida: si puedes poner «el hecho de» delante, va infinitivo.",
+        ],
+        [],
+        [
+          mc(
+            "«I'm tired of waiting.» ¿Qué traducción es correcta?",
+            ["Estoy cansado de esperar.", "Estoy cansado de esperando.", "Estoy cansado del esperando.", "Estoy cansado esperando."],
+            0,
+            "Tras una preposición el español usa el infinitivo, el «sustantivo» del verbo (cabe «el hecho de esperar»): cansado de esperar. El gerundio nunca va tras preposición ni con artículo, y «estoy cansado esperando» significaría otra cosa: que estás cansado mientras esperas."
           ),
         ]
       ),
@@ -5872,6 +6118,20 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Tres versiones, tres focos",
         [
           "Activa: «La policía detuvo a dos sospechosos» (foco en el agente). Pasiva perifrástica: «Dos sospechosos fueron detenidos por la policía» (registro periodístico, agente opcional). Impersonal con se: «Se detuvo a dos sospechosos» (agente irrelevante; con persona se usa a y el verbo va en singular, a diferencia de la pasiva refleja «Se detuvieron dos coches»).",
+        ],
+        [],
+        [
+          mc(
+            "Pasiva refleja de «Vendieron todas las entradas»:",
+            ["Se vendieron todas las entradas.", "Se vendió todas las entradas.", "Fueron vendido todas las entradas.", "Se vendían por todas las entradas."],
+            0,
+            "En la pasiva refleja el verbo concuerda con el sujeto plural: «Se vendieron todas las entradas». «Se vendió» no concuerda, «fueron vendido» no concuerda el participio y «se vendían por» cambia el sentido."
+          ),
+        ]
+      ),
+      sec(
+        "Por qué elegir una u otra, y la concordancia",
+        [
           "Por qué elegir una u otra: la activa pone el foco en quién actúa; la pasiva con «ser» coloca en primer plano lo afectado y deja al agente al final (…por la policía), muy típico de la prensa; la construcción con «se» borra al agente cuando no se sabe o no importa. Al reescribir, vigila la concordancia: el participio concuerda con el sujeto (las listas fueron publicadas) y la pasiva refleja con el sustantivo (se han cerrado las fronteras).",
         ],
         [
@@ -5880,11 +6140,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           mc(
-            "Pasiva refleja de «Vendieron todas las entradas»:",
-            ["Se vendieron todas las entradas.", "Se vendió todas las entradas.", "Fueron vendido todas las entradas.", "Se vendían por todas las entradas."],
+            "Quieres poner en primer plano lo afectado y dejar al agente al final, como en una noticia. ¿Qué versión eliges?",
+            ["Las nuevas normas fueron aprobadas por el Gobierno.", "El Gobierno aprobó las nuevas normas.", "Se aprobaron las nuevas normas.", "Se aprobó a las nuevas normas."],
             0,
-            "En la pasiva refleja el verbo concuerda con el sujeto plural: «Se vendieron todas las entradas». «Se vendió» no concuerda, «fueron vendido» no concuerda el participio y «se vendían por» cambia el sentido."
+            "La pasiva con ser coloca primero lo afectado y deja el agente al final (…por el Gobierno). La activa pone el foco en el agente, la pasiva refleja lo borra, y la «a» de la cuarta solo va con personas."
           ),
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con la pasiva refleja (suspender, pretérito).",
+            "sentence": "Por la niebla, se ___ todos los vuelos de la mañana.",
+            "answer": "suspendieron",
+            "altAnswers": [
+              "han suspendido"
+            ],
+            "explanation": "La pasiva refleja concuerda con el sustantivo: todos los vuelos es plural, así que se suspendieron. Con singular sería «se suspendió el vuelo»."
+          },
         ]
       ),
     ],
@@ -5919,6 +6189,20 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Se + me/te/le/nos/os/les + verbo",
         [
           "El objeto es el sujeto gramatical y el verbo concuerda con él; la persona afectada va en dativo: «Se me cayeron las llaves». Verbos típicos: caer, olvidar, romper, perder, acabar, ocurrir, escapar, quemar. Resta responsabilidad: «Rompí el vaso» (yo lo hice) vs. «Se me rompió el vaso» (fue sin querer).",
+        ],
+        [],
+        [
+          mc(
+            "«A Pedro ___ las gafas en el tren.»",
+            ["se le olvidaron", "se le olvidó", "le se olvidaron", "se olvidó a él"],
+            0,
+            "En el «se» accidental, el verbo concuerda con lo olvidado («las gafas») y la persona afectada va en dativo: «se le olvidaron». «Se le olvidó» no concuerda con el plural, «le se» invierte el orden y «se olvidó a él» no es la estructura."
+          ),
+        ]
+      ),
+      sec(
+        "Por qué: el accidente le pasa a alguien",
+        [
           "Por qué funciona así: el español presenta el accidente como algo que le pasa a alguien, no como algo que hace. Lo roto o perdido se convierte en sujeto (por eso el verbo concuerda con ello: se me olvidaron las entradas) y la persona queda como afectada, con un pronombre de dativo (me, te, le, nos, os, les) que siempre va detrás de «se».",
         ],
         [
@@ -5927,10 +6211,10 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           mc(
-            "«A Pedro ___ las gafas en el tren.»",
-            ["se le olvidaron", "se le olvidó", "le se olvidaron", "se olvidó a él"],
+            "«Se me ___ las contraseñas otra vez.» (olvidar, pretérito)",
+            ["olvidaron", "olvidó", "olvidé", "olvidaste"],
             0,
-            "En el «se» accidental, el verbo concuerda con lo olvidado («las gafas») y la persona afectada va en dativo: «se le olvidaron». «Se le olvidó» no concuerda con el plural, «le se» invierte el orden y «se olvidó a él» no es la estructura."
+            "Lo olvidado es el sujeto, así que el verbo concuerda con «las contraseñas» (plural): se me olvidaron. La persona afectada va en dativo (me), no como sujeto: por eso no es «olvidé», y «olvidó» no concuerda con el plural."
           ),
         ]
       ),
@@ -5966,7 +6250,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Escala de impersonalidad",
         [
           "Se (neutro, formal): «Se vive bien aquí». 3.ª plural (agente indeterminado, coloquial): «Llaman a la puerta». Uno/una (incluye al hablante): «Uno nunca sabe». Tú genérico (coloquial): «Aquí trabajas y no te pagan». La gente (colectivo): «La gente no lee». Con verbos pronominales no se puede usar se: «Uno se acostumbra» (no ✗ «se se acostumbra»).",
-          "Por qué hay cinco: todas ocultan al agente, pero con matices distintos. «Se» es neutro y sirve para el registro formal; la 3.ª persona del plural supone un agente concreto que no se nombra y excluye al hablante; «uno» lo incluye; el «tú» genérico es coloquial y no se refiere al oyente; «la gente» generaliza sobre un colectivo. Elige según el registro y según si te incluyes o no.",
         ],
         [
           ["Uno se cansa de repetir lo mismo.", "One gets tired of repeating the same thing."],
@@ -5978,6 +6261,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["Uno se acostumbra a todo.", "Se se acostumbra a todo.", "Se acostumbra uno a se todo.", "Acostumbran se a todo."],
             0,
             "Los verbos pronominales ya llevan «se», así que su impersonal se forma con «uno»: «Uno se acostumbra a todo». «Se se» duplica el pronombre, y las otras dos colocan mal los pronombres."
+          ),
+        ]
+      ),
+      sec(
+        "Por qué hay cinco: registro y quién se incluye",
+        [
+          "Por qué hay cinco: todas ocultan al agente, pero con matices distintos. «Se» es neutro y sirve para el registro formal; la 3.ª persona del plural supone un agente concreto que no se nombra y excluye al hablante; «uno» lo incluye; el «tú» genérico es coloquial y no se refiere al oyente; «la gente» generaliza sobre un colectivo. Elige según el registro y según si te incluyes o no.",
+        ],
+        [],
+        [
+          mc(
+            "En un informe quieres decir, sin incluirte, que en la región se cultiva mucho maíz. ¿Qué forma eliges?",
+            ["Se cultiva mucho maíz en la región.", "Uno cultiva mucho maíz en la región.", "Cultivas mucho maíz en la región.", "La gente cultiva mucho maíz en la región, ¿sabes?"],
+            0,
+            "El se impersonal es neutro y propio del registro formal. «Uno» incluye al hablante, el «tú» genérico es coloquial, y «la gente… ¿sabes?» generaliza sobre un colectivo en tono de charla."
           ),
         ]
       ),
@@ -6013,7 +6311,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Qué se desplaza",
         [
           "Tiempos: presente → imperfecto; perfecto/indefinido → pluscuamperfecto; futuro → condicional; imperativo → imperfecto de subjuntivo. Deícticos: hoy → aquel día; mañana → al día siguiente; ayer → el día anterior; aquí → allí; este → aquel. Pronombres y posesivos: según quién cuenta.",
-          "Por qué se desplaza todo: el estilo indirecto cuenta las palabras desde otro momento y otro lugar. Si el verbo introductor está en pasado, el «ahora» del hablante ya no es el de quien lo cuenta, así que los tiempos retroceden un paso y los deícticos se ajustan al nuevo punto de vista. Las órdenes y peticiones pasan a «que» + subjuntivo, y las preguntas sin partícula, a «si».",
         ],
         [
           ["«Mañana te llamo» → Dijo que me llamaría al día siguiente.", "He said he would call me the next day."],
@@ -6025,6 +6322,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["había perdido las llaves el día anterior.", "perdió las llaves mañana.", "pierde las llaves ayer.", "perdería las llaves hoy."],
             0,
             "En estilo indirecto con verbo introductor en pasado, el indefinido pasa a pluscuamperfecto y «ayer» a «el día anterior»: «había perdido las llaves el día anterior». Las demás no desplazan los tiempos o combinan tiempos y adverbios incompatibles («perdió… mañana», «pierde… ayer»)."
+          ),
+        ]
+      ),
+      sec(
+        "Por qué se desplaza todo",
+        [
+          "Por qué se desplaza todo: el estilo indirecto cuenta las palabras desde otro momento y otro lugar. Si el verbo introductor está en pasado, el «ahora» del hablante ya no es el de quien lo cuenta, así que los tiempos retroceden un paso y los deícticos se ajustan al nuevo punto de vista. Las órdenes y peticiones pasan a «que» + subjuntivo, y las preguntas sin partícula, a «si».",
+        ],
+        [],
+        [
+          mc(
+            "«¿Vienes a la cena?» → Me preguntó ___ a la cena.",
+            ["si iba", "que iba", "si vengo", "que fuera"],
+            0,
+            "Una pregunta sin partícula pasa a «si»; con el verbo introductor en pasado, el presente retrocede al imperfecto, y el deíctico venir se ajusta al nuevo punto de vista (ir): si iba. «Que fuera» convertiría la pregunta en una orden, y «si vengo» no desplaza nada."
           ),
         ]
       ),
@@ -6059,7 +6371,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Tres voces",
         [
           "Directo: palabras literales con guion o comillas («—Estoy cansada —dijo»). Indirecto: verbo introductor + que + tiempos desplazados («Dijo que estaba cansada»). Indirecto libre: sin verbo introductor ni que; tiempos del narrador, pero voz y emociones del personaje («Estaba cansada. ¿Por qué tenía que aguantar aquello otra vez?»).",
-          "Cómo reconocerlos: busca primero el verbo introductor. Guion o comillas → directo. «Dijo que», «se preguntó si» → indirecto. Ningún verbo introductor, pero tiempos y personas del narrador (imperfecto, condicional, tercera persona) mezclados con preguntas, exclamaciones o deícticos del personaje («mañana», «¡qué vergüenza!») → indirecto libre: el narrador habla con la voz del personaje. Mezclar marcas de dos estilos («se preguntó si ¿vendría?») es un error.",
         ],
         [
           ["—¿Dónde está mi hijo? —gritó.", "Direct speech."],
@@ -6072,6 +6383,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["estilo indirecto libre", "estilo directo", "estilo indirecto", "un diálogo"],
             0,
             "Es estilo indirecto libre: la exclamación del personaje aparece sin verbo introductor, en tercera persona y en tiempo pasado. El estilo directo usaría guion o comillas, el indirecto «pensó que…», y no hay diálogo."
+          ),
+        ]
+      ),
+      sec(
+        "Cómo reconocerlos",
+        [
+          "Cómo reconocerlos: busca primero el verbo introductor. Guion o comillas → directo. «Dijo que», «se preguntó si» → indirecto. Ningún verbo introductor, pero tiempos y personas del narrador (imperfecto, condicional, tercera persona) mezclados con preguntas, exclamaciones o deícticos del personaje («mañana», «¡qué vergüenza!») → indirecto libre: el narrador habla con la voz del personaje. Mezclar marcas de dos estilos («se preguntó si ¿vendría?») es un error.",
+        ],
+        [],
+        [
+          mc(
+            "¿Qué frase mezcla marcas de dos estilos y es incorrecta?",
+            ["Se preguntó que ¿por qué nadie la había llamado?", "Se preguntó por qué nadie la había llamado.", "¿Por qué nadie la había llamado? Era el colmo.", "—¿Por qué nadie me ha llamado? —se preguntó."],
+            0,
+            "La primera combina un verbo introductor con «que» (indirecto) y los signos de interrogación del personaje (directo o indirecto libre). La segunda es indirecto, la tercera indirecto libre (sin verbo introductor, tiempos del narrador) y la cuarta directo, con guion."
           ),
         ]
       ),
@@ -6168,7 +6494,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Pares de significado distinto",
         [
           "Listo: ser (inteligente) / estar (preparado). Rico: ser (con dinero) / estar (sabroso). Verde: ser (color) / estar (inmaduro, poco preparado). Despierto: ser (espabilado) / estar (no dormido). Malo: ser (malvado, de mala calidad) / estar (enfermo, en mal estado). Orgulloso: ser (soberbio) / estar (satisfecho de algo). Negro: ser (color) / estar (harto, furioso).",
-          "Por qué cambian: «ser» clasifica, dice qué tipo de persona o cosa es; «estar» describe un estado o el resultado de un cambio. Con estos adjetivos el contraste es tan marcado que produce dos significados distintos. Para elegir, pregúntate si hablas de cómo es (un rasgo que la define) o de cómo está ahora (preparado, sabroso, enfermo, inmaduro, harto).",
         ],
         [
           ["Estoy orgullosa de ti.", "I'm proud of you."],
@@ -6180,6 +6505,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["está", "es", "hay", "estará siendo"],
             0,
             "«Estar verde» significa ser inexperto o estar poco preparado: «está muy verde en contabilidad». «Ser verde» se refiere al color (o a lo obsceno: «un chiste verde»), «hay» no es copulativo y «estará siendo» es forzado."
+          ),
+        ]
+      ),
+      sec(
+        "Por qué cambian: clasificar o describir un estado",
+        [
+          "Por qué cambian: «ser» clasifica, dice qué tipo de persona o cosa es; «estar» describe un estado o el resultado de un cambio. Con estos adjetivos el contraste es tan marcado que produce dos significados distintos. Para elegir, pregúntate si hablas de cómo es (un rasgo que la define) o de cómo está ahora (preparado, sabroso, enfermo, inmaduro, harto).",
+        ],
+        [],
+        [
+          mc(
+            "«Hoy no voy a trabajar: ___ malo desde anoche.»",
+            ["estoy", "soy", "seré", "sea"],
+            0,
+            "Hablas de cómo estás ahora (enfermo), un estado, así que va estar: estoy malo. «Soy malo» clasificaría a la persona (malvado o mal en algo); el futuro y el subjuntivo no encajan en esta frase."
           ),
         ]
       ),
@@ -6333,11 +6673,11 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Pronombre + preposición obligatorios",
-        "Recuerda la regla: en estos verbos el pronombre (me, te, se…) forma parte del verbo y es la forma pronominal la que exige la preposición. Por eso hay parejas: recordar algo / acordarse de algo; olvidar algo / olvidarse de algo; negar algo / negarse a hacer algo. Si quitas el pronombre, sobra la preposición, y si la pones, el pronombre es obligatorio. Otros verbos solo existen en forma pronominal: burlarse de, quejarse de, atreverse a, fiarse de, empeñarse en. Error típico: ✗ «Me recuerdo de ti» → ✓ «Me acuerdo de ti» / «Te recuerdo». Ojo: sin pronombre algunos cambian de significado («acordar» = llegar a un acuerdo; «negar» = decir que algo no es verdad).",
+        "Con pronombre, con preposición",
         [
-          ["Se empeñó en pagar él.", "He insisted on paying."],
-          ["No me fío de ese vendedor.", "I don't trust that salesman."],
+          "Recuerda la regla: en estos verbos el pronombre (me, te, se…) forma parte del verbo y es la forma pronominal la que exige la preposición. Por eso hay parejas: recordar algo / acordarse de algo; olvidar algo / olvidarse de algo; negar algo / negarse a hacer algo. Si quitas el pronombre, sobra la preposición, y si la pones, el pronombre es obligatorio. Error típico: ✗ «Me recuerdo de ti» → ✓ «Me acuerdo de ti» / «Te recuerdo».",
+        ],
+        [
           ["Olvidé las llaves. / Me olvidé de las llaves.", "I forgot the keys. (sin pronombre, sin preposición; con pronombre, con «de»)"],
         ],
         [
@@ -6346,6 +6686,24 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["Me acuerdo de aquel verano.", "Me recuerdo de aquel verano.", "Recuerdo de aquel verano.", "Me acuerdo aquel verano."],
             0,
             "Se dice «acordarse de» (pronominal) o «recordar» (sin «de»): «Me acuerdo de aquel verano». «Me recuerdo de» mezcla ambos verbos, «Recuerdo de» añade una preposición que sobra y «Me acuerdo aquel verano» la omite."
+          ),
+        ]
+      ),
+      sec(
+        "Verbos solo pronominales",
+        [
+          "Otros verbos solo existen en forma pronominal: burlarse de, quejarse de, atreverse a, fiarse de, empeñarse en. Ojo: sin pronombre algunos cambian de significado («acordar» = llegar a un acuerdo; «negar» = decir que algo no es verdad).",
+        ],
+        [
+          ["Se empeñó en pagar él.", "He insisted on paying."],
+          ["No me fío de ese vendedor.", "I don't trust that salesman."],
+        ],
+        [
+          mc(
+            "«Mi hermano nunca ___ a decir lo que piensa.»",
+            ["se atreve", "atreve", "le atreve", "se atreva"],
+            0,
+            "Atreverse a solo existe en forma pronominal: el pronombre (se) es obligatorio y concuerda con el sujeto. «Atreve» sin pronombre no existe con este sentido, «le» no es reflexivo, y el subjuntivo «atreva» no tiene nada que lo pida."
           ),
         ]
       ),
@@ -6417,15 +6775,30 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Regla de tildes",
+        "Dónde van los pronombres",
         [
           "Recordá la regla: en el imperativo afirmativo los pronombres van pegados detrás del verbo (contame, no ✗ «me contá»); en el negativo van delante y el verbo pasa a subjuntivo (no me cuentes). La sílaba fuerte del verbo no se mueve nunca: con-TÁ, con-TA-me, con-TÁ-me-lo. Lo que cambia es la tilde, porque al alargarse la palabra cambian las reglas generales de acentuación.",
-          "Imperativo simple (aguda terminada en vocal → tilde): vení, contá, decí. + un pronombre (llana terminada en vocal → sin tilde): decime, contame, sentate. + dos pronombres (esdrújula → siempre tilde): contámelo, decímelo, dámelo. Irregular útil: ir → andá; irse → andate (el pronombre es obligatorio: «andá» solo es «go»).",
         ],
         [
           ["Contame qué pasó.", "Tell me what happened."],
-          ["Decímelo en la cara.", "Say it to my face. (dos pronombres → esdrújula → tilde)"],
           ["No me lo digas ahora.", "Don't tell me now. (negativo → pronombres delante + subjuntivo)"],
+        ],
+        [
+          mc(
+            "Imperativo negativo de «sentate» (vos):",
+            ["No te sientes.", "No sentate.", "No te sentá.", "Sentate no."],
+            0,
+            "En el negativo los pronombres van delante y el verbo pasa a subjuntivo: no te sientes. «No sentate» mantiene el pronombre pegado, y «no te sentá» deja el imperativo afirmativo detrás de «no»."
+          ),
+        ]
+      ),
+      sec(
+        "Las tildes: aguda, llana, esdrújula",
+        [
+          "Imperativo simple (aguda terminada en vocal → tilde): vení, contá, decí. + un pronombre (llana terminada en vocal → sin tilde): decime, contame, sentate. + dos pronombres (esdrújula → siempre tilde): contámelo, decímelo, dámelo. Irregular útil: ir → andá; irse → andate (el pronombre es obligatorio: «andá» solo es «go»).",
+        ],
+        [
+          ["Decímelo en la cara.", "Say it to my face. (dos pronombres → esdrújula → tilde)"],
         ],
         [
           mc(
@@ -6564,6 +6937,20 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Cómo funciona el desafío",
         [
           "Las trece lecciones del Desafío de nivel Maestría mezclan todos los temas del nivel: subjuntivo avanzado, concesivas, nominalización, gerundio, pasiva, estilo indirecto, ser/estar/haber, régimen preposicional, conectores, énfasis, conjetura, registro, voseo y escritura formal. Aquí, en las preguntas «¿Dónde está el error?» localiza el error y corrígelo; en las demás, escribe la forma correcta.",
+        ],
+        [],
+        [
+          mc(
+            "En una pregunta «¿Dónde está el error?» de este desafío, ¿qué tienes que hacer?",
+            ["Localizar el error y corregirlo", "Traducir la frase al inglés", "Reescribir la frase entera con otras palabras", "Elegir solo el registro adecuado"],
+            0,
+            "En estas preguntas localizas el error y lo corriges; en las demás escribes la forma correcta. No se traduce ni se reescribe la frase: el resto se queda igual."
+          ),
+        ]
+      ),
+      sec(
+        "Cuatro tipos de error, por orden",
+        [
           "La idea: los errores del nivel Maestría casi nunca son de vocabulario, sino de cuatro tipos que se repiten. Revisa por orden: 1) concordancia (haber impersonal en singular, «lo que» + verbo en singular, pasiva refleja que concuerda con el sujeto, participio concordado); 2) modo (subjuntivo tras emoción, duda, finalidad o futuro; indicativo tras certeza); 3) régimen (la preposición que pide cada verbo, también delante de «que»: me di cuenta de que); 4) correlación de tiempos (en estilo indirecto, futuro → condicional). Corrige solo lo que está mal: el resto de la frase se queda igual.",
         ],
         [
@@ -6576,6 +6963,12 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["llueve → llueva", "iremos → vayamos", "Aunque → Porque", "No hay error"],
             0,
             "Si el hecho no está confirmado (una previsión para mañana), «aunque» va con subjuntivo: «aunque mañana llueva». «Iremos» es correcto en la principal, «Porque» cambiaría el sentido y sí hay error."
+          ),
+          mc(
+            "Clasifica el error de «Me di cuenta que era tarde».",
+            ["Régimen: falta «de» delante de «que»", "Concordancia: el verbo no concuerda con el sujeto", "Modo: debería ir en subjuntivo", "Correlación de tiempos: debería ir en condicional"],
+            0,
+            "Darse cuenta pide «de», también delante de «que»: me di cuenta de que era tarde. La concordancia es correcta, el indicativo es el modo adecuado tras una constatación y no hay estilo indirecto que exija condicional."
           ),
         ]
       ),
@@ -6614,15 +7007,29 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Ajustar el tono sin cambiar el contenido",
+        "Tres palancas del registro",
         [
           "La idea: el registro se ajusta con tres palancas, no solo con palabras sueltas. El tratamiento (tú o usted, con sus pronombres: te / le); el vocabulario (pasta → fondos; echar una mano → ayudar); y la gramática (en lo formal y académico: nominalizaciones, pasiva refleja, condicional de cortesía o de atenuación: «quisiera», «podría deberse»). Un texto adecuado mantiene el mismo registro de principio a fin: mezclar «Estimada directora» con «tía» es un error tan grave como uno gramatical.",
-          "Idea: el proyecto se retrasa porque faltan fondos. Amigo: «Lo del proyecto va para largo, no hay pasta». Jefa: «Lamento comunicarle que el proyecto sufrirá un retraso por falta de financiación». Público general: «El proyecto se retrasará por falta de fondos». Académico: «La insuficiencia de financiación podría explicar el retraso del proyecto».",
         ],
         [
           ["No hay pasta. → Faltan fondos.", "There's no cash. → Funds are lacking."],
           ["Va para largo. → Sufrirá un retraso.", "It's going to take a while. → It will be delayed."],
         ],
+        [
+          mc(
+            "¿Qué frase mantiene el registro formal de principio a fin?",
+            ["Estimada directora: le escribo para solicitar su ayuda con el proyecto.", "Estimada directora: te escribo para que me eches una mano con el proyecto.", "Estimada directora: le escribo porque no hay pasta para el proyecto.", "Hola, tía: le escribo para solicitar su ayuda con el proyecto."],
+            0,
+            "Las tres palancas van juntas en la primera: tratamiento de usted (le, su), vocabulario formal (solicitar ayuda) y saludo formal. Las demás mezclan registros: tuteo y «echar una mano», «pasta», o un «tía» con usted."
+          ),
+        ]
+      ),
+      sec(
+        "Una idea, cuatro registros",
+        [
+          "Idea: el proyecto se retrasa porque faltan fondos. Amigo: «Lo del proyecto va para largo, no hay pasta». Jefa: «Lamento comunicarle que el proyecto sufrirá un retraso por falta de financiación». Público general: «El proyecto se retrasará por falta de fondos». Académico: «La insuficiencia de financiación podría explicar el retraso del proyecto».",
+        ],
+        [],
         [
           mc(
             "¿Qué versión es académica?",
@@ -6673,7 +7080,6 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Pensar en español, no traducir palabra por palabra",
         [
           "Las frases del nivel Maestría rara vez se traducen literalmente: «It must have been hard» → «Habrá sido duro» o «Debió de ser duro»; «No matter what they say» → «Digan lo que digan»; «What I need is time» → «Lo que necesito es tiempo»; «I dropped it» → «Se me cayó».",
-          "La idea: traducir bien es traducir estructuras, no palabras. Hay calcos que delatan al traductor: «No importa qué digan» en lugar de «Digan lo que digan»; «Qué necesito es…» en lugar de «Lo que necesito es…»; «la persona que te hablé», sin la preposición del verbo; «no es que…, pero…» en lugar de «sino». Antes de escribir, pregúntate qué estructura española hace el mismo trabajo que la inglesa.",
         ],
         [
           ["Digan lo que digan, no me rindo.", "No matter what they say, I'm not giving up."],
@@ -6685,6 +7091,21 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
             ["Por mucho que insistas…", "Por mucho que insistes…", "Aunque mucho insistas…", "Por insistiendo mucho…"],
             0,
             "«Por mucho que» + subjuntivo traduce «however much»: «Por mucho que insistas». «Insistes» presenta el hecho como real y constatado, «Aunque mucho insistas» altera el orden fijo y «Por insistiendo» usa un gerundio tras preposición."
+          ),
+        ]
+      ),
+      sec(
+        "Los calcos que te delatan",
+        [
+          "La idea: traducir bien es traducir estructuras, no palabras. Hay calcos que delatan al traductor: «No importa qué digan» en lugar de «Digan lo que digan»; «Qué necesito es…» en lugar de «Lo que necesito es…»; «la persona que te hablé», sin la preposición del verbo; «no es que…, pero…» en lugar de «sino». Antes de escribir, pregúntate qué estructura española hace el mismo trabajo que la inglesa.",
+        ],
+        [],
+        [
+          mc(
+            "«The woman I told you about is here.»",
+            ["La mujer de la que te hablé está aquí.", "La mujer que te hablé está aquí.", "La mujer te hablé de está aquí.", "La mujer qué te hablé está aquí."],
+            0,
+            "Hablar pide «de», y en español la preposición va delante del relativo: de la que te hablé. «La mujer que te hablé» es el calco que pierde la preposición, la tercera copia el orden inglés y «qué» con tilde es interrogativo, no relativo."
           ),
         ]
       ),
@@ -6755,9 +7176,23 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "El texto",
+        "La regla: elige por la relación lógica",
         [
           "La idea: un conector no se elige por su traducción, sino por la relación lógica entre las dos ideas que une: adición (además, asimismo), contraste (sin embargo, no obstante, en cambio), consecuencia (por tanto, por consiguiente, de ahí que + subjuntivo), reformulación (es decir), restricción (ahora bien) o conclusión (en definitiva, por todo ello). Antes de elegir, pregúntate qué relación hay entre lo que va antes y lo que va después, y luego lee el texto.",
+        ],
+        [],
+        [
+          mc(
+            "«Los precios subieron un 15 %; ___, las ventas cayeron.» (La caída es efecto de la subida.)",
+            ["por consiguiente", "asimismo", "es decir", "en cambio"],
+            0,
+            "La segunda idea es una consecuencia de la primera, así que va un conector consecutivo: por consiguiente. «Asimismo» suma, «es decir» reformula lo mismo con otras palabras y «en cambio» contrasta."
+          ),
+        ]
+      ),
+      sec(
+        "El texto",
+        [
           "«El turismo aporta riqueza a las ciudades. [1] genera empleo y dinamiza el comercio. [2], su crecimiento descontrolado encarece la vivienda. [3], muchos vecinos abandonan el centro. [4] es necesario regularlo; [5], sin demonizar una actividad de la que viven miles de familias.»",
         ],
         [

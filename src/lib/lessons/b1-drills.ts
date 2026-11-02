@@ -2015,19 +2015,16 @@ export const B1_DRILLS: AnchoredLesson[] = [
     "b1d-pares-es-verdad-es-posible",
     "Pares mínimos: es verdad que / es posible que",
     "Las expresiones de certeza llevan indicativo; las de posibilidad o valoración, subjuntivo.",
-    "6 min",
+    "7 min",
     [
       sec(
-        "Hecho o posibilidad",
+        "Certeza → indicativo",
         [
-          "Recuerda la regla: la expresión decide si lo que sigue es un hecho o no. Certeza → indicativo, porque afirmas: es verdad que, es cierto que, es obvio que, está claro que, es evidente que. Posibilidad o valoración → subjuntivo, porque no afirmas que pase: es posible que, es probable que, puede que, es increíble que, es una pena que.",
-          "Truco: si la expresión solo afirma que algo es un hecho (es verdad que, es obvio que), va indicativo; si lo valora o lo duda (es una pena que, es posible que), va subjuntivo, aunque sea verdad. Negadas, las de certeza ya no afirman nada y pasan a subjuntivo: No es verdad que sea caro.",
+          "Recuerda la regla: la expresión decide si lo que sigue es un hecho o no. Certeza → indicativo, porque afirmas: es verdad que, es cierto que, es obvio que, está claro que, es evidente que.",
         ],
         [
           ["Es verdad que hace frío.", "It's true it's cold. (hecho → indicativo)"],
-          ["Es posible que haga frío.", "It may be cold. (posibilidad → subjuntivo)"],
-          ["Es una pena que haga tanto frío.", "It's a shame it's so cold. (valoración → subjuntivo, aunque sea verdad)"],
-          ["No es verdad que haga tanto frío.", "It's not true that it's that cold. (certeza negada → subjuntivo)"],
+          ["Está claro que el tren llega tarde.", "It's clear the train is arriving late. (certeza → indicativo)"],
         ],
         [
           mc(
@@ -2036,6 +2033,46 @@ export const B1_DRILLS: AnchoredLesson[] = [
             0,
             "«Es obvio que» expresa certeza: indicativo, tienes. «Tengas» y «tuvieras» son subjuntivo, que se usa con duda o hipótesis, y «tener» es infinitivo."
           ),
+          fb("Completa.", "Es evidente que tu jefe ___ la respuesta. (saber)", "sabe", "«Es evidente que» afirma un hecho → indicativo: sabe. «Sepa» sería subjuntivo, que no se usa cuando la expresión da algo por cierto."),
+        ]
+      ),
+      sec(
+        "Posibilidad o valoración → subjuntivo",
+        [
+          "Posibilidad o valoración → subjuntivo, porque no afirmas que pase: es posible que, es probable que, puede que, es increíble que, es una pena que.",
+          "Truco: si la expresión solo afirma que algo es un hecho (es verdad que, es obvio que), va indicativo; si lo valora o lo duda (es una pena que, es posible que), va subjuntivo, aunque sea verdad.",
+        ],
+        [
+          ["Es posible que haga frío.", "It may be cold. (posibilidad → subjuntivo)"],
+          ["Es una pena que haga tanto frío.", "It's a shame it's so cold. (valoración → subjuntivo, aunque sea verdad)"],
+        ],
+        [
+          mc(
+            "«Es una pena que no ___ venir a la boda.» (poder, tú)",
+            ["puedas", "puedes", "poder", "podrás"],
+            0,
+            "«Es una pena que» valora el hecho → subjuntivo: puedas, aunque sea verdad que no puedes venir. «Puedes» y «podrás» son indicativo y «poder» es infinitivo."
+          ),
+          fb("Completa.", "Es posible que mis padres ___ la casa. (vender)", "vendan", "«Es posible que» solo plantea una posibilidad, no afirma nada → subjuntivo: vendan. «Venden» afirmaría que lo hacen."),
+        ]
+      ),
+      sec(
+        "Negadas: de certeza a subjuntivo",
+        [
+          "Negadas, las de certeza ya no afirman nada y pasan a subjuntivo: No es verdad que sea caro.",
+        ],
+        [
+          ["No es verdad que haga tanto frío.", "It's not true that it's that cold. (certeza negada → subjuntivo)"],
+          ["No es obvio que él tenga la culpa.", "It's not obvious that he's to blame. (certeza negada → subjuntivo)"],
+        ],
+        [
+          mc(
+            "«No está claro que el museo ___ abierto hoy.»",
+            ["esté", "está", "estar", "estará"],
+            0,
+            "«Está claro que» lleva indicativo, pero negada ya no afirma nada → subjuntivo: esté. «Está» y «estará» serían correctas sin el «no»."
+          ),
+          toEs("Es verdad que el examen es fácil.", "No es verdad que el examen sea fácil.", "Al negar «es verdad que», ya no afirmas el hecho → subjuntivo: sea. «No es verdad que el examen es fácil» sería incorrecto.", ["No es cierto que el examen sea fácil."], "Niega la expresión: empieza con «No es verdad que»."),
         ]
       ),
     ],
