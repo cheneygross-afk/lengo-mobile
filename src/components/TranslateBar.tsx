@@ -7,7 +7,6 @@ import {
   StyleSheet,
   ScrollView,
   Keyboard,
-  KeyboardAvoidingView,
   Platform,
   ActivityIndicator,
   useWindowDimensions,
@@ -113,6 +112,25 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
   const inputRef = useRef<TextInput>(null);
   const jaRawBufferRef = useRef("");
   const { height: windowHeight } = useWindowDimensions();
+
+  // Lift the bar above the keyboard. KeyboardAvoidingView did nothing on
+  // Android (and could leave this absolutely placed bar under the keyboard
+  // on iOS), so the bar's bottom is raised to the keyboard's top edge:
+  // the window's height less where the keyboard starts. When Android
+  // resizes the window for the keyboard instead, the two match and the
+  // lift is 0, so the bar is never lifted twice.
+  const [keyboardTop, setKeyboardTop] = useState<number | null>(null);
+  useEffect(() => {
+    const showEvent = Platform.OS === "ios" ? "keyboardWillShow" : "keyboardDidShow";
+    const hideEvent = Platform.OS === "ios" ? "keyboardWillHide" : "keyboardDidHide";
+    const show = Keyboard.addListener(showEvent, (e) => setKeyboardTop(e.endCoordinates.screenY));
+    const hide = Keyboard.addListener(hideEvent, () => setKeyboardTop(null));
+    return () => {
+      show.remove();
+      hide.remove();
+    };
+  }, []);
+  const keyboardLift = keyboardTop === null ? 0 : Math.max(0, windowHeight - keyboardTop);
 
   useEffect(() => {
     setManualOverride(null);
@@ -223,10 +241,7 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
   }
 
   return (
-    <KeyboardAvoidingView
-      style={s.wrap}
-      behavior={Platform.OS === "ios" ? "padding" : undefined}
-    >
+    <View style={[s.wrap, { bottom: keyboardLift }]}>
       {focused && <Pressable style={[s.backdrop, { height: windowHeight }]} onPress={close} />}
 
       {panelVisible && (
@@ -320,7 +335,7 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
           </Pressable>
         )}
       </View>
-    </KeyboardAvoidingView>
+    </View>
   );
 }
 

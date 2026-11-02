@@ -9,6 +9,8 @@ import {
   Easing,
   Alert,
   ActivityIndicator,
+  Keyboard,
+  Platform,
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
@@ -31,6 +33,7 @@ import { loadPrefsLocal } from "@/lib/learnerPrefs";
 import { levelColor, colors, fonts } from "@/ui/theme";
 import { Confetti, Medal, ScoreRing, TodayStats } from "@/components/LessonCelebration";
 import { COURSE_GLYPHS } from "@/lib/courseGlyphs";
+import LessonBackdrop from "@/ui/LessonBackdrop";
 import { LEVEL_COLORS } from "@/ui/theme";
 import { scheduleLessonForReview } from "@/lib/todaysReview";
 import { recordLessonAttempt, recordLessonPass } from "@/lib/attempts";
@@ -387,6 +390,31 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     }).start();
   }, [feedback, sheetAnim]);
 
+  // The answer sheet covers the bottom of the screen, so once an answer is
+  // checked the exercise scrolls up to sit just above it (otherwise a
+  // fill-in-the-blank's typed answer and the correction under it were
+  // hidden behind the sheet). The keyboard goes away first.
+  const scrollRef = useRef<ScrollView>(null);
+  const [sheetHeight, setSheetHeight] = useState(300);
+  // Room under the step for an open keyboard on Android, so a typed answer
+  // can scroll above it (iOS insets the scroll view itself, below).
+  const [androidKeyboard, setAndroidKeyboard] = useState(0);
+  useEffect(() => {
+    if (Platform.OS !== "android") return;
+    const show = Keyboard.addListener("keyboardDidShow", (e) => setAndroidKeyboard(e.endCoordinates.height));
+    const hide = Keyboard.addListener("keyboardDidHide", () => setAndroidKeyboard(0));
+    return () => {
+      show.remove();
+      hide.remove();
+    };
+  }, []);
+  useEffect(() => {
+    if (!feedback) return;
+    Keyboard.dismiss();
+    const t = setTimeout(() => scrollRef.current?.scrollToEnd({ animated: true }), 120);
+    return () => clearTimeout(t);
+  }, [feedback, sheetHeight]);
+
   useEffect(() => {
     if (!feedback) return;
     markAnim.setValue(0);
@@ -521,6 +549,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
 
   return (
     <View style={s.screen}>
+      <LessonBackdrop accent={accent} glyph={COURSE_GLYPHS[course][0]} />
       <View style={s.topbar}>
         <Pressable hitSlop={12} onPress={handleExit}>
           <Text style={s.closeBtn}>✕</Text>
@@ -556,7 +585,16 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         </View>
       </View>
 
-      <ScrollView style={s.stepArea} contentContainerStyle={[s.stepContent, feedback && s.stepContentUnderSheet]} keyboardShouldPersistTaps="handled">
+      <ScrollView
+        ref={scrollRef}
+        style={s.stepArea}
+        contentContainerStyle={[
+          s.stepContent,
+          feedback ? { paddingBottom: sheetHeight + 24 } : androidKeyboard > 0 && { paddingBottom: androidKeyboard + 40 },
+        ]}
+        keyboardShouldPersistTaps="handled"
+        automaticallyAdjustKeyboardInsets
+      >
         {currentStep?.kind === "teach" && (
           <TeachStep
             accent={accent}
@@ -693,6 +731,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             feedback.correct ? s.feedbackSheetCorrect : s.feedbackSheetWrong,
             { transform: [{ translateY: sheetTranslateY }] },
           ]}
+          onLayout={(e) => setSheetHeight(Math.round(e.nativeEvent.layout.height))}
         >
           <View style={s.feedbackHead}>
             <Animated.View
@@ -1027,7 +1066,6 @@ const s = StyleSheet.create({
   stepArea: { flex: 1 },
   stepContent: { padding: 20, paddingBottom: 40 },
   // Room to scroll a long answer (writing feedback) clear of the sheet.
-  stepContentUnderSheet: { paddingBottom: 300 },
 
   kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#8B0000", marginBottom: 6 },
   introTitle: { fontSize: 28, lineHeight: 34, fontFamily: fonts.display, color: "#2A1513", marginBottom: 10 },
