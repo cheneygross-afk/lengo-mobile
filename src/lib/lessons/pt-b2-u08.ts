@@ -196,7 +196,7 @@ export const PT_B2_U08: Lesson[] = [
         type: "speak",
         text: "A gente se vê na segunda.",
         prompt: "Say it in Portuguese, casually: See you on Monday.",
-        tip: "The g in \"gente\" sounds like the s in measure, and the final \"te\" sounds like tchi: ZHÊN-tchi.",
+        tip: "The g in \"gente\" sounds like the s in measure, and the final \"te\" sounds like chee: ZHẼ-chee.",
         explanation: "\"A gente se vê\" uses the singular verb, as \"a gente\" always does. The formal version is \"nós nos vemos\".",
       },
       {
@@ -836,7 +836,7 @@ export const PT_B2_U08: Lesson[] = [
         examples: [
           { es: "Após a assinatura do contrato, a obra começou.", en: "After the contract was signed, construction began." },
           { es: "Antes da contratação, a empresa realizou uma análise de custos.", en: "Before hiring, the company carried out a cost analysis." },
-          { es: "Com a abertura da nova linha de metrô, o trânsito melhorou.", en: "With the opening of the new metro line, traffic improved." },
+          { es: "Com a abertura da nova linha de metrô, o trânsito melhorou.", en: "With the opening of the new subway line, traffic improved." },
           { es: "Devido ao atraso na entrega, o lançamento foi adiado.", en: "Because of the delay in delivery, the launch was postponed." },
           { es: "A prefeitura promoveu a revitalização do centro do Recife.", en: "The city government carried out the revitalization of central Recife." },
         ],
@@ -1100,7 +1100,7 @@ export const PT_B2_U08: Lesson[] = [
             type: "speak",
             text: "Não houve problemas na viagem.",
             prompt: "Say it in Portuguese: There were no problems on the trip.",
-            tip: "The h is silent and \"ou\" is a closed ô: \"houve\" sounds like ÔH-vi.",
+            tip: "The h is silent and \"ou\" is a closed ô: \"houve\" sounds like Ô-vee.",
             explanation: "\"Houve\" is singular before \"problemas\", and it is the perfeito because the trip is a finished event.",
           },
         ],
@@ -1213,7 +1213,7 @@ export const PT_B2_U08: Lesson[] = [
     level: "PT-B2",
     number: 6,
     title: "Contrast Clinic: Tinha Muita Gente or Havia Muitas Pessoas?",
-    summary: "Tell one metro breakdown three ways, as a WhatsApp chat, a work email and a news report, and choose the grammar and words that fit each register.",
+    summary: "Tell one subway breakdown three ways, as a WhatsApp chat, a work email and a news report, and choose the grammar and words that fit each register.",
     duration: "14 min",
     sections: [
       {
@@ -1223,7 +1223,7 @@ export const PT_B2_U08: Lesson[] = [
           "Pronouns follow speech too. The object is \"eu vi ele\", a sentence can start with \"me ligaram\", and people say \"chegar no trabalho\" where the norm has \"chegar ao\". None of this is a mistake. It's how educated Brazilians talk. In a chat the norm sounds stiff: \"havia muitas pessoas\" in a WhatsApp message reads like a police report.",
         ],
         examples: [
-          { es: "Cara, o metrô parou hoje de manhã.", en: "Dude, the metro stopped this morning." },
+          { es: "Cara, o metrô parou hoje de manhã.", en: "Dude, the subway stopped this morning." },
           { es: "Tinha muita gente na estação.", en: "There were tons of people at the station." },
           { es: "A gente ficou uma hora esperando.", en: "We were stuck waiting for an hour." },
           { es: "O Rafa tava lá também, eu vi ele na plataforma.", en: "Rafa was there too, I saw him on the platform." },
@@ -1269,7 +1269,7 @@ export const PT_B2_U08: Lesson[] = [
         ],
         examples: [
           { es: "Prezada Beatriz, informo que hoje cheguei ao escritório com uma hora de atraso.", en: "Dear Beatriz, I'm writing to let you know I got to the office an hour late today." },
-          { es: "Houve uma falha na Linha 3 do metrô, e os trens ficaram parados.", en: "There was a fault on Metro Line 3, and the trains came to a halt." },
+          { es: "Houve uma falha na Linha 3 do metrô, e os trens ficaram parados.", en: "There was a fault on Line 3 of the subway, and the trains came to a halt." },
           { es: "Havia muitas pessoas na plataforma, e aguardamos quase uma hora.", en: "There were many people on the platform, and we waited almost an hour." },
           { es: "O Rafael também estava na estação; eu o vi na plataforma.", en: "Rafael was at the station too; I saw him on the platform." },
           { es: "Peço desculpas pelo transtorno e fico à disposição.", en: "I apologize for the inconvenience and remain at your disposal." },
@@ -1459,7 +1459,7 @@ export const PT_B2_U08: Lesson[] = [
       {
         type: "speak",
         text: "Informo que hoje cheguei ao escritório com uma hora de atraso.",
-        tip: "The final o in \"informo\" and \"escritório\" sounds like u. Run \"ao escritório\" together without a pause.",
+        tip: "The final o in \"informo\" and \"escritório\" sounds like oo. Run \"ao escritório\" together without a pause.",
         explanation: "A typical email opening: \"informo que\" plus the norm's \"chegar ao\".",
       },
       {
@@ -1969,7 +1969,7 @@ export const PT_B2_U08: Lesson[] = [
         type: "speak",
         text: "Nós fomos à reunião, mas não houve decisão.",
         prompt: "Say it in Portuguese (formal): We went to the meeting, but there was no decision.",
-        tip: "In \"houve\" the ou is said as a closed ô, and the final e sounds like i: \"Ô-vi\".",
+        tip: "In \"houve\" the ou is said as a closed ô, and the final e sounds like ee: \"Ô-vee\".",
         explanation: "Formal register: \"nós fomos\" with the -mos form, and singular \"houve\" for there was.",
       },
       {
@@ -2112,7 +2112,7 @@ export const PT_B2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Houve um atraso significativo na entrega.",
-            tip: "The ti in significativo sounds like tchi, and the s in atraso, between vowels, is a z.",
+            tip: "The ti in significativo sounds like chee, and the s in atraso, between vowels, is a z.",
             explanation: "\"Atrasou muito\" became the noun \"um atraso significativo\", introduced by \"houve\".",
           },
         ],
@@ -2345,7 +2345,7 @@ export const PT_B2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Cabe ressaltar que houve falhas na comunicação.",
-            tip: "The r at the start of ressaltar is the breathy h-like sound. In houve the ou is a closed ô, and the final e sounds like i.",
+            tip: "The r at the start of ressaltar is the breathy h-like sound. In houve the ou is a closed ô, and the final e sounds like ee.",
             explanation: "A classic report sentence: the impersonal \"cabe ressaltar\" plus singular \"houve\".",
           },
         ],

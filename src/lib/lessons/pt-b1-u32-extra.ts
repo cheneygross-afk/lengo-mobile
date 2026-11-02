@@ -340,7 +340,7 @@ export const PT_B1_U32_EXTRA: Lesson[] = [
         type: "speak",
         text: "Você viu o capítulo de ontem? Não acredito no que a vilã fez!",
         prompt: "Say it in Portuguese: Did you see last night's episode? I can't believe what the villain did!",
-        tip: "\"Capítulo\" is stressed on \"pí\": ca-PÍ-tu-lu.",
+        tip: "\"Capítulo\" is stressed on \"pí\": ka-PEE-too-loo.",
         explanation: "\"Não acredito no que...\": \"acreditar em\" + \"o que\" contracts to \"no que\".",
       },
     ],
@@ -359,7 +359,7 @@ export const PT_B1_U32_EXTRA: Lesson[] = [
         heading: "Food and soccer",
         body: [
           "Food: \"a feijoada\" (Rio, Wednesdays and Saturdays), \"a moqueca\" (baiana or capixaba), \"o acarajé\" (Salvador), \"o pão de queijo\" (Minas), \"o tacacá\" (Pará), \"o churrasco\" (Sul), \"o baião de dois\" (Ceará). Eating out: \"PF\", \"por quilo\", \"rodízio\". Recommend with \"sugiro que você prove...\".",
-          "Football: \"torcer para\" / \"pelo\" / \"pro\", \"o time\", \"a torcida\", \"o clássico\", \"o Brasileirão\", \"o rebaixamento\", \"foi pênalti!\", \"impedimento\", \"o juiz apita\", \"zoar o rival\", \"tomara que\" + subjunctive.",
+          "Soccer: \"torcer para\" / \"pelo\" / \"pro\", \"o time\", \"a torcida\", \"o clássico\", \"o Brasileirão\", \"o rebaixamento\", \"foi pênalti!\", \"impedimento\", \"o juiz apita\", \"zoar o rival\", \"tomara que\" + subjunctive.",
         ],
         examples: [
           { es: "A feijoada de sábado é sagrada lá em casa.", en: "Saturday feijoada is sacred at our place." },

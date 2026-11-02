@@ -347,7 +347,7 @@ export const PT_A2_U15: Lesson[] = [
           { es: "A Mariana casou com o João em 2019.", en: "Mariana married João in 2019." },
           { es: "Eles tiveram dois filhos.", en: "They had two children." },
           { es: "Quando eu tinha 18 anos, eu morava com os meus pais.", en: "When I was 18, I lived with my parents." },
-          { es: "Quando ela entrou na faculdade, ela trabalhava numa loja.", en: "When she started college, she was working in a shop." },
+          { es: "Quando ela entrou na faculdade, ela trabalhava numa loja.", en: "When she started college, she was working in a store." },
           { es: "Meus avós moravam no interior quando o meu pai nasceu.", en: "My grandparents lived in the countryside when my dad was born." },
         ],
         checkpoint: [
@@ -471,7 +471,7 @@ export const PT_A2_U15: Lesson[] = [
         type: "speak",
         text: "Eu nasci em Fortaleza, mas cresci em Belo Horizonte.",
         prompt: "Say it in Portuguese: I was born in Fortaleza, but I grew up in Belo Horizonte.",
-        tip: "Stress the last syllable of \"nasci\" and \"cresci\": na-SEE, cre-SEE.",
+        tip: "Stress the last syllable of \"nasci\" and \"cresci\": 'na-SEE', 'kre-SEE'.",
         explanation: "Two life events in the perfeito; \"mas\" links them.",
       },
       {
@@ -555,7 +555,7 @@ export const PT_A2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The family [was] poor and [lived] in the countryside.",
+            en: "The family [was] poor and lived in the countryside.",
             sentence: "A família ___ pobre e morava no interior.",
             answer: "era",
             explanation: "A lasting description in the past takes \"era\", like \"morava\" next to it.",
@@ -804,7 +804,7 @@ export const PT_A2_U15: Lesson[] = [
           {
             type: "speak",
             text: "Estava escuro e eu não vi o degrau.",
-            tip: "The final o of \"escuro\" and \"degrau\" sounds like a short u.",
+            tip: "The final o of \"escuro\" sounds like 'oo' ('is-KOO-roo'), and \"degrau\" ends in an ow sound: 'de-GRAW'.",
             explanation: "\"Estava escuro\" is the scene; \"não vi\" is what happened, or didn't.",
           },
         ],
@@ -991,7 +991,7 @@ export const PT_A2_U15: Lesson[] = [
           { es: "Eles estavam jantando quando o Rafael chegou.", en: "They were having dinner when Rafael arrived." },
           { es: "Eu ia viajar, mas perdi o passaporte.", en: "I was going to travel, but I lost my passport." },
           { es: "A gente ia sair, mas começou a chover.", en: "We were going to go out, but it started raining." },
-          { es: "Ela ia comprar o vestido, mas a loja estava fechada.", en: "She was going to buy the dress, but the shop was closed." },
+          { es: "Ela ia comprar o vestido, mas a loja estava fechada.", en: "She was going to buy the dress, but the store was closed." },
         ],
         checkpoint: [
           {
@@ -1109,7 +1109,7 @@ export const PT_A2_U15: Lesson[] = [
         type: "speak",
         text: "A festa foi ótima, mas tinha gente demais.",
         prompt: "Say it in Portuguese: The party was great, but there were too many people.",
-        tip: "\"Ótima\" is stressed on the first syllable: Ó-ti-ma.",
+        tip: "\"Ótima\" is stressed on the first syllable, and the t before i sounds like ch: 'Ó-chee-ma'.",
         explanation: "\"Foi ótima\" sums up the event; \"tinha gente demais\" describes the scene.",
       },
     ],
@@ -1437,7 +1437,7 @@ export const PT_A2_U15: Lesson[] = [
           {
             type: "speak",
             text: "A gente conversou a noite inteira.",
-            tip: "\"Inteira\" has the stress on -tei-: in-TEI-ra.",
+            tip: "\"Inteira\" has the stress on -tei-: 'ĩ-TAY-ra'.",
             explanation: "A whole night, now over, told as one block: perfeito \"conversou\".",
           },
         ],
@@ -1528,7 +1528,7 @@ export const PT_A2_U15: Lesson[] = [
         type: "speak",
         text: "Eu conheci a Mariana numa festa em Belo Horizonte.",
         prompt: "Say it in Portuguese (as Rafael): I met Mariana at a party in Belo Horizonte.",
-        tip: "\"Horizonte\": the final te sounds like chee.",
+        tip: "\"Horizonte\": the final te sounds like 'chee': 'o-ree-ZÕ-chee'.",
         explanation: "\"Conheci\" is the first meeting; \"numa\" = \"em\" + \"uma\".",
       },
     ],
@@ -1734,7 +1734,7 @@ export const PT_A2_U15: Lesson[] = [
         type: "speak",
         text: "Foi um Carnaval inesquecível!",
         prompt: "Say it in Portuguese: It was an unforgettable Carnival!",
-        tip: "The final l of \"Carnaval\" sounds like a w: car-na-VAW.",
+        tip: "The final l of \"Carnaval\" sounds like a w: 'kar-na-VAW'.",
         explanation: "\"Foi\" sums up the whole experience.",
       },
       {
@@ -1777,7 +1777,7 @@ export const PT_A2_U15: Lesson[] = [
             source: "I arrived in Paraty on Friday night.",
             answer: "Eu cheguei em Paraty na sexta à noite.",
             altAnswers: ["Cheguei em Paraty na sexta à noite.", "Eu cheguei a Paraty na sexta à noite.", "Cheguei a Paraty na sexta à noite.", "Eu cheguei em Paraty sexta à noite.", "Cheguei em Paraty sexta à noite."],
-            explanation: "\"Cheguei\": the u keeps the g hard before e. *Chegei would sound like che-JEI.",
+            explanation: "\"Cheguei\": the u keeps the g hard before e. *Chegei would sound like 'sheh-ZHAY'.",
           },
           {
             type: "fill-blank",
@@ -2006,7 +2006,7 @@ export const PT_A2_U15: Lesson[] = [
       {
         heading: "Endings that sound alike: -guei, -quei, -cei, -ou",
         body: [
-          "The eu perfeito of -gar, -car and -çar verbs changes its spelling to keep its sound: \"cheguei\", \"fiquei\", \"comecei\", \"almocei\". The ear hears che-GUEI, fi-KEI; the pen needs gu, qu and c.",
+          "The eu perfeito of -gar, -car and -çar verbs changes its spelling to keep its sound: \"cheguei\", \"fiquei\", \"comecei\", \"almocei\". The ear hears 'sheh-GAY', 'fee-KAY'; the pen needs gu, qu and c.",
           "In fast Brazilian speech the -ou ending of \"falou\", \"chegou\", \"ficou\" often sounds like a plain closed o. It is always written -ou. Writing *falô is a common slip in messages; in a dictation it's wrong.",
         ],
         examples: [
@@ -2154,7 +2154,7 @@ export const PT_A2_U15: Lesson[] = [
         type: "speak",
         text: "Eu fiquei com ela e pedi uma sopa.",
         prompt: "Say it in Portuguese: I stayed with her and ordered a soup.",
-        tip: "\"Fiquei\": fi-KEI, the u is silent.",
+        tip: "\"Fiquei\": 'fee-KAY', the u is silent.",
         explanation: "Two events: \"fiquei\" and \"pedi\".",
       },
     ],
@@ -2343,14 +2343,14 @@ export const PT_A2_U15: Lesson[] = [
         type: "speak",
         text: "A cidade era linda e tinha praias incríveis.",
         prompt: "Say it in Portuguese: The city was beautiful and had amazing beaches.",
-        tip: "\"Incríveis\": in-KREE-veis.",
+        tip: "\"Incríveis\": 'ĩ-KREE-vays'.",
         explanation: "Two descriptions in the imperfeito.",
       },
       {
         type: "speak",
         text: "Eu ia voltar no domingo, mas perdi o voo.",
         prompt: "Say it in Portuguese: I was going to come back on Sunday, but I missed the flight.",
-        tip: "\"Voo\" has two o's, both closed: VO-o.",
+        tip: "\"Voo\" has two closed o's: 'VÔ-oo'.",
         explanation: "\"Ia voltar\" is the plan; \"perdi o voo\" (missed the flight) is the event.",
       },
       {
@@ -2471,7 +2471,7 @@ export const PT_A2_U15: Lesson[] = [
             type: "speak",
             text: "Depois, levei o meu filho ao médico.",
             prompt: "Say it in Portuguese: Afterwards, I took my son to the doctor.",
-            tip: "\"Médico\": stress on the first syllable, MÉ-di-co.",
+            tip: "\"Médico\": stress on the first syllable, and the d before i sounds like j: 'MÉ-jee-koo'.",
             explanation: "\"Depois\" opens the next step; \"levei\" is one event.",
           },
         ],
@@ -2569,7 +2569,7 @@ export const PT_A2_U15: Lesson[] = [
         type: "speak",
         text: "Eu estava saindo de casa quando a escola do meu filho ligou.",
         prompt: "Say it in Portuguese: I was leaving home when my son's school called.",
-        tip: "\"Saindo\": sa-IN-do, three syllables.",
+        tip: "\"Saindo\": three syllables, 'sa-Ĩ-doo'.",
         explanation: "The scene (\"estava saindo\") and the event (\"ligou\").",
       },
     ],
@@ -2674,7 +2674,7 @@ export const PT_A2_U15: Lesson[] = [
           {
             type: "speak",
             text: "A gente estava vendo um filme quando alguém tocou a campainha.",
-            tip: "\"Campainha\": cam-pa-I-nha, the nh like the ny in canyon.",
+            tip: "\"Campainha\": 'kã-pa-EE-nya', the nh like the ny in canyon.",
             explanation: "\"Estava vendo\" is in progress; \"tocou\" cuts in.",
           },
         ],

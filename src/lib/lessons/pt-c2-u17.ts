@@ -100,12 +100,12 @@ export const PT_C2_U17: Lesson[] = [
             question: "What does it mean?",
             options: [
               "The movie showing starts at eight.",
-              "The cinema section opens at eight.",
+              "The movie theater section opens at eight.",
               "The film rights are transferred at eight.",
-              "The cinema closes at eight.",
+              "The movie theater closes at eight.",
             ],
             correctIndex: 0,
-            explanation: "\"Sessão\", \"seção\" and \"cessão\" sound the same, so only context decides. A cinema \"sessão\" is a showing, and it is what \"começa\" at a given time.",
+            explanation: "\"Sessão\", \"seção\" and \"cessão\" sound the same, so only context decides. A movie-theater \"sessão\" is a showing, and it is what \"começa\" at a given time.",
           },
           {
             type: "fill-blank",
@@ -164,7 +164,7 @@ export const PT_C2_U17: Lesson[] = [
             type: "speak",
             text: "Que ótimo, hein? Choveu justo no dia da praia.",
             prompt: "Say it in Portuguese, with an ironic tone: Great, huh? It rained right on beach day.",
-            tip: "Stretch \"ótimo\" and let the pitch fall on \"hein\": the drawl is what signals irony. The ti of \"ótimo\" sounds like tchi: Ó-tchi-mo.",
+            tip: "Stretch \"ótimo\" and let the pitch fall on \"hein\": the drawl is what signals irony. The ti of \"ótimo\" sounds like 'chee': Ó-chee-moo.",
             explanation: "Irony is carried by the gap between the words and the situation, and in speech by intonation.",
           },
         ],
@@ -220,7 +220,7 @@ export const PT_C2_U17: Lesson[] = [
         en: "The book signing [session] starts at seven.",
         sentence: "A ___ de autógrafos começa às sete.",
         answer: "sessão",
-        explanation: "An event with a start time is a \"sessão\". \"Seção\" is a section of a shop or a newspaper, and \"cessão\" a legal transfer.",
+        explanation: "An event with a start time is a \"sessão\". \"Seção\" is a section of a store or a newspaper, and \"cessão\" a legal transfer.",
       },
       {
         type: "word-order",
@@ -259,7 +259,7 @@ export const PT_C2_U17: Lesson[] = [
         type: "speak",
         text: "Pode zoar à vontade, eu sei que sou um desastre na cozinha.",
         prompt: "Say it in Portuguese: Tease me all you like, I know I'm a disaster in the kitchen.",
-        tip: "\"À vontade\" links into one phrase: a-von-TA-dji. Nasalize the first o of \"vontade\".",
+        tip: "\"À vontade\" links into one phrase: a-von-TA-jee. Nasalize the first o of \"vontade\".",
         explanation: "\"À vontade\" (as much as you like) with the crasis accent, and self-deprecation to take the sting out of the teasing.",
       },
       {
@@ -395,7 +395,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Subtext and tact",
         body: [
-          "From Unit 11: \"aparece lá em casa\", \"vamos marcar\" and \"a gente se fala\" are warm goodbyes, not appointments. A real invitation comes with a day and a time (\"sábado, às oito, lá em casa?\"). Requests are softened with the imperfect and the conditional (\"será que daria para...\", \"eu queria ver se...\", \"não teria como...?\"), and criticism hides inside \"só um detalhe\" or \"talvez valha a pena rever\".",
+          "From Unit 4: \"aparece lá em casa\", \"vamos marcar\" and \"a gente se fala\" are warm goodbyes, not appointments. A real invitation comes with a day and a time (\"sábado, às oito, lá em casa?\"). Requests are softened with the imperfect and the conditional (\"será que daria para...\", \"eu queria ver se...\", \"não teria como...?\"), and criticism hides inside \"só um detalhe\" or \"talvez valha a pena rever\".",
           "At work the polite surface can carry irritation. \"Conforme já informado\", \"reforçando\" and \"fico no aguardo\" can mean I've told you already. The native reply is calm and factual (\"obrigada pelo lembrete, envio até as 15h\"), never openly hurt. With compliments Brazilians deflect (\"imagina\", \"que nada\", \"bondade sua\"), but a sincere \"obrigado\" or \"obrigada\" is never wrong.",
         ],
         examples: [
@@ -439,7 +439,7 @@ export const PT_C2_U17: Lesson[] = [
             type: "speak",
             text: "Eu queria ver se você pode trocar de turno comigo na sexta.",
             prompt: "Say it in Portuguese, softly: I was wondering if you could swap shifts with me on Friday.",
-            tip: "In \"queria\" the qu sounds like k, and the final e of \"pode\" is an i: PO-dji.",
+            tip: "In \"queria\" the qu sounds like k, and the final e of \"pode\" sounds like 'ee': PÓ-jee.",
             explanation: "The imperfect \"queria\" softens the request, just as English uses I was wondering.",
           },
         ],
@@ -543,7 +543,7 @@ export const PT_C2_U17: Lesson[] = [
         type: "speak",
         text: "Imagina, foi baratinho! Mas que bom que você gostou.",
         prompt: "Say it in Portuguese: Oh, come on, it was cheap! But I'm so glad you liked it.",
-        tip: "\"Baratinho\": the nh is like the ny in canyon. Stress falls on \"TI\": ba-ra-TCHI-nho.",
+        tip: "\"Baratinho\": the nh is like the ny in canyon. Stress falls on \"TI\": ba-ra-CHEE-nhoo.",
         explanation: "Deflect, then accept graciously: \"mas que bom que você gostou\" stops the modesty from sounding cold.",
       },
       {
@@ -572,7 +572,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Reading a poem",
         body: [
-          "The toolkit from Unit 4: \"verso\" (line), \"estrofe\" (stanza), \"rima\", \"métrica\", the \"soneto\" (two quartets and two tercets) and \"verso livre\". Poetic syntax bends prose order: inversion puts the object or a complement first, ellipsis drops the verb, and enjambment (\"enjambement\" or \"encadeamento\") carries the sentence over the line break.",
+          "The toolkit from Unit 5: \"verso\" (line), \"estrofe\" (stanza), \"rima\", \"métrica\", the \"soneto\" (two quartets and two tercets) and \"verso livre\". Poetic syntax bends prose order: inversion puts the object or a complement first, ellipsis drops the verb, and enjambment (\"enjambement\" or \"encadeamento\") carries the sentence over the line break.",
           "The national anthem is the famous test case: \"Ouviram do Ipiranga as margens plácidas\" means the placid banks of the Ipiranga heard, with the subject at the end. Untangle an inverted line by finding the verb, then asking who or what does it. Reading aloud, give the line end a light breath but follow the sentence across an enjambment, or the meaning breaks where the poet didn't break it.",
         ],
         examples: [
@@ -618,7 +618,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Prose in the masters' manner",
         body: [
-          "Unit 12 taught you to recognize a voice from its syntax. Graciliano Ramos writes short paratactic clauses with few adjectives and slips into a character's thoughts by free indirect speech. Machado de Assis digresses, speaks to the \"leitor\", and lets a subordinate clause undercut the main one. Clarice Lispector repeats, fragments and reaches for abstract nouns. Guimarães Rosa inverts, coins words (\"nonada\") and writes the speech of the sertão.",
+          "Unit 6 taught you to recognize a voice from its syntax. Graciliano Ramos writes short paratactic clauses with few adjectives and slips into a character's thoughts by free indirect speech. Machado de Assis digresses, speaks to the \"leitor\", and lets a subordinate clause undercut the main one. Clarice Lispector repeats, fragments and reaches for abstract nouns. Guimarães Rosa inverts, coins words (\"nonada\") and writes the speech of the sertão.",
           "When you describe a passage, name the feature and its effect, not just the author: \"frases curtas, coordenadas, sem adjetivos, que reproduzem a secura da paisagem\". The sentences below are pastiches, written in each manner for this review.",
         ],
         examples: [
@@ -661,7 +661,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Older documents",
         body: [
-          "From Unit 13: old spellings hide familiar words (\"pharmacia\", \"theatro\", \"Brazil\" with z, \"êle\" with an accent), and older grammar keeps forms modern speech has dropped: the mesóclise (\"far-se-á\", \"dir-se-ia\"), \"haver de\" + infinitive for determination, the simple mais-que-perfeito (\"fizera\"), \"cousa\" and \"mui\". Laws use performative formulas: \"fica declarada extinta\", \"revogam-se as disposições em contrário\".",
+          "From Unit 7: old spellings hide familiar words (\"pharmacia\", \"theatro\", \"Brazil\" with z, \"êle\" with an accent), and older grammar keeps forms modern speech has dropped: the mesóclise (\"far-se-á\", \"dir-se-ia\"), \"haver de\" + infinitive for determination, the simple mais-que-perfeito (\"fizera\"), \"cousa\" and \"mui\". Laws use performative formulas: \"fica declarada extinta\", \"revogam-se as disposições em contrário\".",
           "Commenting on a source, keep its time in view: \"o documento revela\", \"à luz da época\", \"cabe contextualizar\". Quote the original spelling exactly and mark a real error with \"[sic]\" and a cut with \"[...]\"; modernize only when you say so.",
         ],
         examples: [
@@ -815,7 +815,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Naming the feeling precisely",
         body: [
-          "Unit 14's families, in one breath. \"Mágoa\" is the lingering hurt left by someone close (\"magoar\", \"ficar magoado com\"); \"rancor\" is hostile and lasting (\"guardar rancor de\"); \"arrependimento\" is regret for what you did, \"remorso\" the gnawing version, \"culpa\" the guilt itself. \"Ciúme\" fears losing what you have; \"inveja\" wants what someone else has. \"Vergonha\" can be shame or shyness; \"constrangimento\" is awkward embarrassment; \"vergonha alheia\" is cringing on someone else's behalf.",
+          "Unit 8's families, in one breath. \"Mágoa\" is the lingering hurt left by someone close (\"magoar\", \"ficar magoado com\"); \"rancor\" is hostile and lasting (\"guardar rancor de\"); \"arrependimento\" is regret for what you did, \"remorso\" the gnawing version, \"culpa\" the guilt itself. \"Ciúme\" fears losing what you have; \"inveja\" wants what someone else has. \"Vergonha\" can be shame or shyness; \"constrangimento\" is awkward embarrassment; \"vergonha alheia\" is cringing on someone else's behalf.",
           "The grammar travels with the words. Pronominal verbs take their preposition: \"magoar-se com\", \"arrepender-se de\", \"envergonhar-se de\". Verbs with the experiencer as object put the person in the pronoun and the cause in the subject, followed by the subjunctive: \"me dói que você tenha passado por isso\", \"me incomoda que ele não ligue\". The classic slips are \"*me arrependo que fiz\" (say \"me arrependo de ter feito\") and \"*sou ciumento de você\" (say \"tenho ciúme de você\").",
         ],
         examples: [
@@ -1031,7 +1031,7 @@ export const PT_C2_U17: Lesson[] = [
         type: "speak",
         text: "Tenho orgulho de você, e não é vaidade minha.",
         prompt: "Say it in Portuguese: I'm proud of you, and it's not vanity on my part.",
-        tip: "\"Orgulho\": the lh is like the lli of million. Stress \"GU\": or-GU-lho.",
+        tip: "\"Orgulho\": the lh is like the lli of million. Stress \"GU\": or-GU-lhoo.",
         explanation: "\"Orgulho\" can be healthy pride; \"vaidade\" is vanity. \"Ter orgulho de\" takes \"de\".",
       },
       {
@@ -1057,7 +1057,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Precise judgment",
         body: [
-          "The critic's first rule from Unit 16: retire \"incrível\", \"interessante\" and \"legal\". Say what the work does: \"contundente\" (hard-hitting), \"arrojado\" (bold), \"comovente\", \"envolvente\" (gripping), against \"irregular\" (uneven), \"esquemático\" (formulaic), \"previsível\", \"datado\". Then the litotes that make Brazilian criticism sound measured: \"nada desprezível\" (far from negligible), \"não deixa de ser\" (is nonetheless), \"longe de ser\" (far from being), \"fica aquém de\" (falls short of).",
+          "The critic's first rule from Unit 10: retire \"incrível\", \"interessante\" and \"legal\". Say what the work does: \"contundente\" (hard-hitting), \"arrojado\" (bold), \"comovente\", \"envolvente\" (gripping), against \"irregular\" (uneven), \"esquemático\" (formulaic), \"previsível\", \"datado\". Then the litotes that make Brazilian criticism sound measured: \"nada desprezível\" (far from negligible), \"não deixa de ser\" (is nonetheless), \"longe de ser\" (far from being), \"fica aquém de\" (falls short of).",
           "Watch faint praise. \"Correto\", \"competente\", \"bem-intencionado\" and \"esforçado\" look positive but usually mean dull: a review that calls a film \"correto\" is not recommending it.",
         ],
         examples: [
@@ -1144,7 +1144,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Describing style in a review",
         body: [
-          "A good review describes the style, using the tools of Units 1 and 12: register (\"coloquial\", \"culto\", \"empolado\", pompous), rhythm (\"frases curtas\", \"períodos longos\", \"ritmo ofegante\"), figures (\"metáforas gastas\", \"ironia fina\") and their effect on the reader.",
+          "A good review describes the style, using the tools of Units 1 and 6: register (\"coloquial\", \"culto\", \"empolado\", pompous), rhythm (\"frases curtas\", \"períodos longos\", \"ritmo ofegante\"), figures (\"metáforas gastas\", \"ironia fina\") and their effect on the reader.",
           "Avoid the anglicisms of online reviews: \"*o filme performa bem\" (say \"vai bem de bilheteria\" or \"funciona\"), \"*a atuação entrega\" (say \"a atuação convence\" or \"está à altura\").",
         ],
         examples: [
@@ -1174,7 +1174,7 @@ export const PT_C2_U17: Lesson[] = [
           {
             type: "speak",
             text: "A prosa é enxuta, de frases curtas e quase sem adjetivos.",
-            tip: "\"Enxuta\" is en-SHU-ta: the x sounds like sh after en.",
+            tip: "\"Enxuta\" is en-SHOO-ta: the x sounds like sh after en.",
             explanation: "A precise description of style: a judgment (\"enxuta\") backed by the features that justify it.",
           },
         ],
@@ -1382,8 +1382,8 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Feeling pairs and praise pairs",
         body: [
-          "The emotion pairs of Unit 14: \"ciúme\" (of a partner) versus \"inveja\" (of a colleague's salary); \"vergonha\" (shame, or shyness: \"tenho vergonha de dançar\") versus \"constrangimento\" (an awkward situation: \"foi um constrangimento\"); \"orgulho\" (pride, healthy or not) versus \"vaidade\" (vanity about appearance or status); \"ansiedade\" (anxious anticipation) versus \"angústia\" (a tight, existential anguish).",
-          "And the critic's pair from Unit 16: words that sound kind but damn (\"correto\", \"competente\", \"simpático\"), and words that sound cool but praise (\"nada desprezível\", \"não deixa de ser notável\").",
+          "The emotion pairs of Unit 8: \"ciúme\" (of a partner) versus \"inveja\" (of a colleague's salary); \"vergonha\" (shame, or shyness: \"tenho vergonha de dançar\") versus \"constrangimento\" (an awkward situation: \"foi um constrangimento\"); \"orgulho\" (pride, healthy or not) versus \"vaidade\" (vanity about appearance or status); \"ansiedade\" (anxious anticipation) versus \"angústia\" (a tight, existential anguish).",
+          "And the critic's pair from Unit 10: words that sound kind but damn (\"correto\", \"competente\", \"simpático\"), and words that sound cool but praise (\"nada desprezível\", \"não deixa de ser notável\").",
         ],
         examples: [
           { es: "Ela tem ciúme do namorado com todo mundo.", en: "She gets jealous over her boyfriend with everyone." },
@@ -1428,7 +1428,7 @@ export const PT_C2_U17: Lesson[] = [
         source: "He gets jealous when I talk to my ex.",
         answer: "Ele tem ciúme quando eu falo com meu ex.",
         altAnswers: ["Ele fica com ciúme quando eu falo com meu ex.", "Ele tem ciúme quando eu falo com o meu ex.", "Ele fica com ciúme quando eu falo com o meu ex.", "Ele sente ciúme quando eu falo com meu ex.", "Ele fica com ciúmes quando eu falo com meu ex.", "Ele tem ciúmes quando falo com meu ex.", "Ele fica com ciúme quando falo com meu ex.", "Ele tem ciúme quando falo com meu ex."],
-        explanation: "\"Ficar com ciúme\" marks the change of state (gets jealous); \"ter ciúme\" the disposition. Never \"*ele é ciumento de mim\".",
+        explanation: "\"Ficar com ciúme\" marks the change of state (gets jealous); \"ter ciúme\" the disposition. \"Ele é ciumento de mim\" sounds unidiomatic; with a person, say \"ele tem ciúme de mim\".",
       },
       {
         type: "translate",
@@ -1505,7 +1505,7 @@ export const PT_C2_U17: Lesson[] = [
         type: "speak",
         text: "Não é inveja, é admiração mesmo.",
         prompt: "Say it in Portuguese: It's not envy, it's genuine admiration.",
-        tip: "\"Admiração\" ends in nasal ão; \"mesmo\" closes with a soft u sound, and its s sounds like z before the m: MÊZ-mu.",
+        tip: "\"Admiração\" ends in nasal ão; \"mesmo\" closes with an 'oo' sound, and its s sounds like z before the m: MÊZ-moo.",
         explanation: "\"Mesmo\" after a noun stresses that it's real: genuine admiration.",
       },
       {
@@ -1620,7 +1620,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Criticism and dialogue",
         body: [
-          "The review section of the draft has the criticism errors of Unit 16: calques (\"*o espetáculo performa\", \"*a atriz entrega\"), plot summary instead of judgment, and empty adjectives (\"*a peça é muito interessante\"). The interview has the fiction error of Unit 15: English quotation marks around speech, where Brazilian print uses the \"travessão\".",
+          "The review section of the draft has the criticism errors of Unit 10: calques (\"*o espetáculo performa\", \"*a atriz entrega\"), plot summary instead of judgment, and empty adjectives (\"*a peça é muito interessante\"). The interview has the fiction error of Unit 9: English quotation marks around speech, where Brazilian print uses the \"travessão\".",
         ],
         examples: [
           { es: "Errado: A atriz entrega uma atuação poderosa. Certo: A atriz tem uma atuação poderosa.", en: "Wrong: The actress delivers a powerful performance (calque). Right: The actress gives a powerful performance." },
@@ -1740,7 +1740,7 @@ export const PT_C2_U17: Lesson[] = [
         type: "speak",
         text: "O festival nasceu há dez anos, numa garagem em Belo Horizonte.",
         prompt: "Say it in Portuguese: The festival was born ten years ago, in a garage in Belo Horizonte.",
-        tip: "\"Há\" sounds just like \"a\". In \"Horizonte\" the final te is tchi: o-ri-ZON-tchi.",
+        tip: "\"Há\" sounds just like \"a\". In \"Horizonte\" the final te is 'chee': o-ri-ZON-chee.",
         explanation: "\"Há dez anos\" without \"atrás\"; \"numa\" is \"em\" + \"uma\".",
       },
       {
@@ -1798,7 +1798,7 @@ export const PT_C2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Resultado: o concerto virou conserto.",
-            tip: "Pause after \"resultado\", then say both words identically: con-SÊR-tu. The joke is that they sound the same.",
+            tip: "Pause after \"resultado\", then say both words identically: con-SÊR-too. The joke is that they sound the same.",
             explanation: "Timing matters more than words: a short pause, then the punchline.",
           },
         ],
@@ -2031,7 +2031,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Jokes and digs",
         body: [
-          "Rafael arrives late and opens with banter. His compliments are ambiguous: \"correto\", \"bem escrito\", \"um livro muito simpático\" are the faint praise of Unit 16, and Beatriz knows it. Lucas answers the dig with a joke rather than open offense, which is the Brazilian way of defusing tension.",
+          "Rafael arrives late and opens with banter. His compliments are ambiguous: \"correto\", \"bem escrito\", \"um livro muito simpático\" are the faint praise of Unit 10, and Beatriz knows it. Lucas answers the dig with a joke rather than open offense, which is the Brazilian way of defusing tension.",
         ],
         examples: [
           { es: "Rafael: Desculpa o atraso, o trânsito engoliu minha tarde.", en: "Rafael: Sorry I'm late, the traffic swallowed my afternoon." },
@@ -2074,7 +2074,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "The verdict",
         body: [
-          "Pressed for his real opinion, Rafael hedges with the conditional and concedes before he criticizes. Dona Teresa closes the scene with the warm, non-binding formulas of Unit 11: \"vamos marcar\", \"aparece lá em casa\". Nobody expects a date.",
+          "Pressed for his real opinion, Rafael hedges with the conditional and concedes before he criticizes. Dona Teresa closes the scene with the warm, non-binding formulas of Unit 4: \"vamos marcar\", \"aparece lá em casa\". Nobody expects a date.",
         ],
         examples: [
           { es: "Rafael: Seria injusto dizer que o final é fraco. Mas caberia perguntar se não é apressado.", en: "Rafael: It would be unfair to say the ending is weak. But one might ask whether it isn't rushed." },
@@ -2186,7 +2186,7 @@ export const PT_C2_U17: Lesson[] = [
         type: "speak",
         text: "Imagina, Dona Teresa. Bondade sua. Mas obrigada, de coração.",
         prompt: "Say it in Portuguese, as Beatriz: Oh please, Dona Teresa. That's kind of you. But thank you, truly.",
-        tip: "\"Bondade\" ends in dji: bon-DA-dji. \"Coração\" ends in a nasal ão.",
+        tip: "\"Bondade\" ends in 'jee': bon-DA-jee. \"Coração\" ends in a nasal ão.",
         explanation: "Deflect, then accept: the full cycle of receiving a compliment.",
       },
       {
@@ -2291,7 +2291,7 @@ export const PT_C2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Em Curitiba, a gente lê de casaco até em dezembro.",
-            tip: "\"Curitiba\": the ti is tchi: cu-ri-TCHI-ba. \"Lê\" has a closed ê.",
+            tip: "\"Curitiba\": the ti is 'chee': cu-ri-CHEE-ba. \"Lê\" has a closed ê.",
             explanation: "A hyperbole about the local climate that every Curitiba reader recognizes.",
           },
         ],
@@ -2486,7 +2486,7 @@ export const PT_C2_U17: Lesson[] = [
       {
         heading: "Culture in conversation",
         body: [
-          "Next, the shared culture of Units 3 and 11: proverbs, often truncated; idioms in their fixed form; the formulas that mean more or less than they say. Read each situation for what is meant, then answer as a Brazilian would.",
+          "Next, the shared culture of Units 3 and 4: proverbs, often truncated; idioms in their fixed form; the formulas that mean more or less than they say. Read each situation for what is meant, then answer as a Brazilian would.",
         ],
         examples: [
           { es: "Ela fez a festa com o que tinha em casa. Quem não tem cão...", en: "She threw the party with what she had at home. You make do..." },
@@ -2517,7 +2517,7 @@ export const PT_C2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Ponho a mão no fogo pela Mariana: ela não mentiria.",
-            tip: "\"Ponho\": the nh is like ny. \"Mentiria\": the ti is tchi: men-tchi-RI-a.",
+            tip: "\"Ponho\": the nh is like ny. \"Mentiria\": the ti is 'chee': men-chee-RI-a.",
             explanation: "\"Pôr a mão no fogo por alguém\" plus the conditional \"mentiria\" for what she would never do.",
           },
         ],

@@ -16,7 +16,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
         heading: "The ending, then the exceptions",
         body: [
           "Learn every noun with its article. Nouns in -o are usually masculine (\"o quarto\", \"um copo\"), and nouns in -a, -ção, -dade and -agem are feminine (\"a janela\", \"a estação\", \"a cidade\", \"uma viagem\"). Nouns in -e or a consonant give no clue: \"o leite\", \"a noite\", \"o jornal\", \"a cor\".",
-          "The exceptions are everyday words: \"o dia\", \"o mapa\", \"o problema\", \"o programa\", \"o sistema\" are masculine; \"a mão\", \"a foto\", \"a moto\" are feminine. Adjectives and \"bom\" / \"boa\" follow the real gender, so \"bom dia\", \"o problema é sério\", \"a foto é bonita\".",
+          "The exceptions are everyday words: \"o dia\", \"o mapa\", \"o problema\", \"o programa\", \"o sistema\" are masculine; \"a mão\", \"a foto\", \"a moto\" are feminine. Adjectives and \"bom\" or \"boa\" follow the real gender, so \"bom dia\", \"o problema é sério\", \"a foto é bonita\".",
         ],
         examples: [
           { es: "É uma estação grande.", en: "It's a big station." },
@@ -111,7 +111,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
         en: "It's [a] good idea.",
         sentence: "É ___ boa ideia.",
         answer: "uma",
-        explanation: "\"Ideia\" is feminine, so \"uma boa ideia\". \"Bom\" / \"boa\" usually goes before the noun.",
+        explanation: "\"Ideia\" is feminine, so \"uma boa ideia\". \"Bom\" or \"boa\" usually goes before the noun.",
       },
       {
         type: "translate",
@@ -351,7 +351,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "Os homens e as mulheres são legais.",
         prompt: "Say it in Portuguese: The men and the women are nice.",
-        tip: "The -ns of homens is nasal, with no n or s cluster, and the h is silent: Ô-meins.",
+        tip: "The -ns of homens is nasal, with no n or s cluster, and the h is silent: 'Ô-mẽys'.",
         explanation: "\"Homens\" (-ns), \"mulheres\" (-es) and \"legais\" (-is): three consonant plurals in one sentence.",
       },
       {
@@ -381,7 +381,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
       {
         heading: "Estou, está, estamos, estão",
         body: [
-          "\"Estar\": \"eu estou\", \"você / ele / ela está\", \"nós estamos\", \"vocês / eles / elas estão\". It says how someone is right now (\"estou cansado\", \"ela está doente\") and where people and things are (\"estamos em casa\", \"a chave está na mesa\").",
+          "\"Estar\": \"eu estou\", \"você, ele, ela está\", \"nós estamos\", \"vocês, eles, elas estão\". It says how someone is right now (\"estou cansado\", \"ela está doente\") and where people and things are (\"estamos em casa\", \"a chave está na mesa\").",
           "The adjective agrees with the person: \"elas estão cansadas\". For today's weather say \"está frio\", \"está calor\" with no subject. To ask where, \"onde está...?\" or \"cadê...?\"; for a person, \"onde você está?\".",
         ],
         examples: [
@@ -540,7 +540,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "Estamos bem, e vocês?",
         prompt: "Say it in Portuguese: We're fine, and you? (to a group)",
-        tip: "es-TA-mos: stress the middle syllable.",
+        tip: "'es-TÃ-moos': stress the middle syllable.",
         explanation: "\"Estamos\" for we; turn the question back with \"e vocês?\" to a group.",
       },
       {

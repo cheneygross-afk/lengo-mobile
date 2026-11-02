@@ -152,7 +152,7 @@ export const PT_C1_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Sendo assim, vamos adiar a reunião.",
         prompt: "Say it in Portuguese: That being so, let's postpone the meeting.",
-        tip: "Sendo: SEN-du.",
+        tip: "Sendo: SẼN-doo, with a nasal e and no separate n sound.",
         explanation: "\"Sendo assim\" (that being so) is a fixed gerund connector. \"Vamos adiar\" is the natural spoken let's postpone.",
       },
       {
@@ -215,7 +215,7 @@ export const PT_C1_U02_EXTRA: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Segundo testemunhas, o motorista teria avançado o sinal.",
-            question: "What does teria avançado suggest?",
+            question: "What does \"teria avançado\" suggest?",
             options: ["The driver reportedly ran the light; it's unconfirmed.", "The driver definitely ran the light.", "The driver would run the light in the future.", "The driver stopped at the light."],
             correctIndex: 0,
             explanation: "With no \"se\" clause, the conditional perfect in a news report passes on a claim the paper doesn't vouch for: \"teria avançado o sinal\" means reportedly ran the red light.",
@@ -248,7 +248,7 @@ export const PT_C1_U02_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese, using the future of probability.",
         source: "Who can that be at the door?",
         answer: "Quem estará na porta?",
-        altAnswers: ["Quem será na porta?", "Quem será que está na porta?", "Quem será?"],
+        altAnswers: ["Quem será que está na porta?", "Quem será?", "Quem será que é?"],
         explanation: "The future of probability guesses about the present: \"quem estará na porta?\" (who can that be?). \"Quem será que está na porta?\" is the everyday spoken version.",
       },
       {
@@ -297,7 +297,7 @@ export const PT_C1_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does Serão umas dez horas mean?",
+        question: "What does \"Serão umas dez horas\" mean?",
         options: ["It must be about ten o'clock.", "It will be ten o'clock.", "It was ten o'clock.", "There are ten hours left."],
         correctIndex: 0,
         explanation: "A simple future with no future time marker is a guess about now: it must be about ten. \"Serão\" is plural to agree with \"horas\".",
@@ -396,7 +396,7 @@ export const PT_C1_U02_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in everyday Portuguese, using tinha + participle: O padre viera de Portugal.",
+            prompt: "Rewrite in everyday Portuguese, using tinha + participle: \"O padre viera de Portugal.\"",
             source: "The priest had come from Portugal.",
             answer: "O padre tinha vindo de Portugal.",
             altAnswers: ["O padre havia vindo de Portugal."],
@@ -486,7 +486,7 @@ export const PT_C1_U02_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in everyday Portuguese, using tinha + participle: Ninguém lhe dissera nada.",
+        prompt: "Rewrite in everyday Portuguese, using tinha + participle: \"Ninguém lhe dissera nada.\"",
         source: "Nobody had told him anything.",
         answer: "Ninguém tinha dito nada para ele.",
         altAnswers: ["Ninguém tinha dito nada a ele.", "Ninguém lhe tinha dito nada.", "Ninguém havia dito nada para ele.", "Ninguém tinha falado nada para ele.", "Ninguém tinha dito nada pra ele."],
@@ -495,7 +495,7 @@ export const PT_C1_U02_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in everyday Portuguese, using tinha + participle: Ela já pusera a mesa.",
+        prompt: "Rewrite in everyday Portuguese, using tinha + participle: \"Ela já pusera a mesa.\"",
         source: "She had already set the table.",
         answer: "Ela já tinha posto a mesa.",
         altAnswers: ["Ela já tinha arrumado a mesa.", "Ela já havia posto a mesa."],
@@ -544,7 +544,7 @@ export const PT_C1_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ela já deve ter saído do trabalho.",
         prompt: "Say it in Portuguese, casually: She must have left work by now.",
-        tip: "\"Deve ter\": the final e of \"deve\" is a light i, DÉ-vi TER.",
+        tip: "\"Deve ter\": the first e of \"deve\" is open and the final e is a light ee: DÉ-vee TER.",
         explanation: "\"Deve ter saído\" is the everyday spoken guess about a completed event; \"já\" gives by now. The formal written version would be \"já terá saído\".",
       },
     ],

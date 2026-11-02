@@ -48,7 +48,7 @@ export const PT_C2_U11: Lesson[] = [
             type: "speak",
             text: "Pode deixar, apareço, sim!",
             prompt: "Say it in Portuguese: Count on it, I'll drop by!",
-            tip: "Run \"pode deixar\" together, with the final e of \"pode\" as a soft dji: PÓ-dji dei-SHAR.",
+            tip: "Run \"pode deixar\" together, with the final e of \"pode\" sounding like 'jee': PÓ-jee dei-SHAR.",
             explanation: "\"Pode deixar\" (leave it with me, count on it) plus the emphatic \"sim\" after the verb is the warm, noncommittal reply the ritual expects.",
           },
         ],
@@ -132,7 +132,7 @@ export const PT_C2_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Oh no, Saturday [won't work], but shall we set another day?",
+            en: "Oh no, Saturday [won't work], but should we set another day?",
             sentence: "Poxa, sábado não ___, mas vamos marcar outro dia?",
             answer: "vai dar",
             altAnswers: ["dá", "vou poder", "posso"],
@@ -217,7 +217,7 @@ export const PT_C2_U11: Lesson[] = [
         type: "speak",
         text: "Que saudade! Vamos marcar um chope qualquer dia.",
         prompt: "Say it in Portuguese: I've missed you! Let's get a beer sometime.",
-        tip: "\"Saudade\" ends in dji, and the d of \"dia\" sounds like dji too: kwaw-KÉR DJI-a.",
+        tip: "\"Saudade\" ends in 'jee', and the d of \"dia\" sounds like 'j' too: kwaw-KÉR JEE-a.",
         explanation: "\"Que saudade!\" plus \"vamos marcar\" is the most typical Brazilian goodbye between friends: warm, sincere in feeling, vague in plan.",
       },
       {
@@ -516,7 +516,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         heading: "Tá um calor aqui, né? Requests disguised as remarks",
         body: [
-          "The most Brazilian request is no request at all. \"Tá um calor aqui, né?\" (it's hot in here, isn't it?) said by a guest means 'could you open the window or turn on the fan?'. \"Nossa, tô morrendo de fome\" (I'm starving), said at six in the evening, means 'shall we eat?'. \"Esse bolo parece uma delícia\" means 'I'd love a slice'. The tag \"né?\" invites the listener to finish the thought.",
+          "The most Brazilian request is no request at all. \"Tá um calor aqui, né?\" (it's hot in here, isn't it?) said by a guest means 'could you open the window or turn on the fan?'. \"Nossa, tô morrendo de fome\" (I'm starving), said at six in the evening, means 'should we eat?'. \"Esse bolo parece uma delícia\" means 'I'd love a slice'. The tag \"né?\" invites the listener to finish the thought.",
           "Hints also serve departures and refusals. \"Já tá tarde, né?\" (it's getting late) and \"amanhã eu acordo cedo\" (I have an early start tomorrow) announce that the speaker wants to leave, or wants you to. A host who starts collecting glasses is saying the same thing without words.",
           "Hints protect both sides: the guest never asks, so the host never refuses. If you take them literally (\"É, tá quente mesmo\") and do nothing, the hint has failed, and the guest is left uncomfortable for the rest of the evening.",
         ],
@@ -557,24 +557,24 @@ export const PT_C2_U11: Lesson[] = [
       {
         heading: "Answering a hint, and saying no to one",
         body: [
-          "The graceful answer to a hint is an offer, so the other person never has to ask: \"Quer que eu abra a janela?\" (shall I open the window?), \"Quer que eu ligue o ventilador?\", \"Vamos comer alguma coisa?\". \"Quer que eu...\" + present subjunctive is the all-purpose formula. Use it generously, and accept the hint before it's fully spoken.",
+          "The graceful answer to a hint is an offer, so the other person never has to ask: \"Quer que eu abra a janela?\" (do you want me to open the window?), \"Quer que eu ligue o ventilador?\", \"Vamos comer alguma coisa?\". \"Quer que eu...\" + present subjunctive is the all-purpose formula. Use it generously, and accept the hint before it's fully spoken.",
           "Refusing an indirect request follows the same logic in reverse. Never a bare \"não\": blame circumstances with \"não vai dar\" or \"não tem como\", add regret with \"infelizmente\" or \"poxa\", and offer something smaller. \"Infelizmente hoje não tem como, mas amanhã cedo eu vejo isso para você.\"",
           "\"Dar\" is the key verb throughout. \"Dá para...?\" asks if something is possible, \"dá, sim\" says yes, and \"não vai dar\" refuses. Because it makes possibility impersonal, nobody's will is on the line, which is exactly the point.",
         ],
         examples: [
-          { es: "Quer que eu abra a janela?", en: "Shall I open the window?" },
+          { es: "Quer que eu abra a janela?", en: "Do you want me to open the window?" },
           { es: "Quer que eu ligue o ventilador?", en: "Would you like me to turn on the fan?" },
           { es: "Infelizmente hoje não tem como, mas amanhã cedo eu vejo isso para você.", en: "Unfortunately there's no way today, but I'll look into it for you first thing tomorrow." },
           { es: "Dá, sim! Pode deixar.", en: "Sure, it's possible! Leave it with me." },
           { es: "Poxa, essa semana não vai dar.", en: "Oh, this week won't be possible." },
-          { es: "Vamos comer alguma coisa? Também tô com fome.", en: "Shall we get something to eat? I'm hungry too." },
+          { es: "Vamos comer alguma coisa? Também tô com fome.", en: "Should we get something to eat? I'm hungry too." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Shall I open the window?",
+            source: "Do you want me to open the window?",
             answer: "Quer que eu abra a janela?",
             altAnswers: ["Você quer que eu abra a janela?", "Quer que eu abra a janela pra você?", "Quer que eu abra a janela para você?", "Posso abrir a janela?", "O senhor quer que eu abra a janela?", "A senhora quer que eu abra a janela?"],
             explanation: "\"Querer que\" takes the present subjunctive: \"abra\", not \"abro\". Offering before being asked is the ideal reply to a hint.",
@@ -592,7 +592,7 @@ export const PT_C2_U11: Lesson[] = [
             type: "speak",
             text: "Quer que eu ligue o ventilador?",
             prompt: "Your guest says it's hot. Say it in Portuguese: Would you like me to turn on the fan?",
-            tip: "\"Ligue\" sounds like LI-gi, with a hard g; \"ventilador\" has a nasal en and a light final r.",
+            tip: "\"Ligue\" sounds like LI-gee, with a hard g; \"ventilador\" has a nasal en and a light final r.",
             explanation: "\"Quer que eu\" + subjunctive (\"ligue\") answers the hint with an offer, so the guest never has to ask.",
           },
         ],
@@ -674,7 +674,7 @@ export const PT_C2_U11: Lesson[] = [
         type: "speak",
         text: "Eu queria ver se ainda tem horário para amanhã.",
         prompt: "Say it in Portuguese, on the phone: I wanted to see if there's still a slot for tomorrow.",
-        tip: "Brazilians often say \"pra\" for \"para\" here; keep the stress on the second syllable of \"horário\": o-RÁ-rio.",
+        tip: "Brazilians often say \"pra\" for \"para\" here; keep the stress on the second syllable of \"horário\": o-RÁ-ryoo.",
         explanation: "The imperfect \"queria\" is the polite past, used for present requests. \"Tem horário\" is the everyday way to ask about availability.",
       },
       {
@@ -1128,7 +1128,7 @@ export const PT_C2_U11: Lesson[] = [
         type: "speak",
         text: "Simples nada, tá maravilhoso! Vou repetir.",
         prompt: "Your host says the dish was simple. Insist that it's wonderful and say you'll have seconds.",
-        tip: "Stress \"nada\" to make the contradiction playful; \"maravilhoso\" has a closed o and an s that sounds like z: ma-ra-vi-LHÔ-zu.",
+        tip: "Stress \"nada\" to make the contradiction playful; \"maravilhoso\" has a closed o and an s that sounds like z: ma-ra-vi-LHÔ-zoo.",
         explanation: "Insisting against the host's modesty is part of the ritual, and \"vou repetir\" (I'll have seconds) is the most convincing praise.",
       },
       {
@@ -1273,7 +1273,7 @@ export const PT_C2_U11: Lesson[] = [
             type: "speak",
             text: "Meus sentimentos. A sua mãe era uma pessoa incrível.",
             prompt: "Offer condolences. Say it in Portuguese: I'm so sorry. Your mother was an amazing person.",
-            tip: "Keep the voice low and slow; \"sentimentos\" has two nasal syllables, sen and men: sen-chi-MEN-tus.",
+            tip: "Keep the voice low and slow; \"sentimentos\" has two nasal syllables, sen and men: sen-chee-MEN-toos.",
             explanation: "The formula plus one sincere, specific sentence about the person is the best condolence of all.",
           },
         ],
@@ -1354,7 +1354,7 @@ export const PT_C2_U11: Lesson[] = [
         type: "speak",
         text: "Senta aqui um pouquinho. Infelizmente eu tenho uma notícia ruim.",
         prompt: "Prepare a friend for bad news. Say it in Portuguese: Sit down here for a moment. Unfortunately I have some bad news.",
-        tip: "\"Infelizmente\" has two nasal syllables: in-fe-liz-MEN-tchi. Keep the tone calm and low.",
+        tip: "\"Infelizmente\" has two nasal syllables: in-fe-liz-MEN-chee. Keep the tone calm and low.",
         explanation: "The frame (\"senta aqui\", \"infelizmente\") prepares the listener; then the news itself should be said plainly.",
       },
       {
@@ -1498,7 +1498,7 @@ export const PT_C2_U11: Lesson[] = [
             type: "speak",
             text: "Podemos conversar rapidinho por telefone?",
             prompt: "Move a tense email exchange to a call. Say it in Portuguese: Can we have a quick chat on the phone?",
-            tip: "\"Rapidinho\" stresses \"di\", pronounced dji: ha-pi-DJI-nhu. The r at the start of a word is a breathy h.",
+            tip: "\"Rapidinho\" stresses \"di\", pronounced 'jee': ha-pi-JEE-nhoo. The r at the start of a word is a breathy h.",
             explanation: "The diminutive \"rapidinho\" promises that the call won't be a confrontation, which makes people more willing to take it.",
           },
         ],
@@ -1574,13 +1574,13 @@ export const PT_C2_U11: Lesson[] = [
       {
         type: "dictation",
         audio: "Conforme já informado, fico no aguardo.",
-        explanation: "\"Conforme\" stresses the second syllable: con-FOR-mi. \"Aguardo\": a-GWAR-du.",
+        explanation: "\"Conforme\" stresses the second syllable: con-FOR-mee. \"Aguardo\": a-GWAR-doo.",
       },
       {
         type: "speak",
         text: "Obrigado pelo lembrete! Envio até as três.",
         prompt: "Answer a reminder calmly on a voice message. Say it in Portuguese: Thanks for the reminder! I'll send it by three.",
-        tip: "\"Lembrete\" has a nasal \"lem\" and ends in tchi: lem-BRE-tchi.",
+        tip: "\"Lembrete\" has a nasal \"lem\" and ends in 'chee': lem-BRE-chee.",
         explanation: "Thanking someone for a reminder takes the sting out of it, and the concrete time closes the matter.",
       },
       {
@@ -1887,7 +1887,7 @@ export const PT_C2_U11: Lesson[] = [
         ],
         examples: [
           { es: "Nossa, que ventinho gelado, né?", en: "Tia Neusa: Goodness, what a chilly breeze, isn't it?" },
-          { es: "Quer que eu feche a janela, tia?", en: "Thiago: Shall I close the window, auntie?" },
+          { es: "Quer que eu feche a janela, tia?", en: "Thiago: Do you want me to close the window, auntie?" },
           { es: "Ai, se não for incômodo...", en: "Tia Neusa: Oh, if it's no trouble..." },
           { es: "E os netos, hein? Quando vêm?", en: "Dona Regina: And what about grandchildren? When are they coming?" },
           { es: "Calma, mãe, um passo de cada vez! Alguém quer mais salgadinho?", en: "Camila: Easy, Mom, one step at a time! Anyone want more snacks?" },
@@ -1898,7 +1898,7 @@ export const PT_C2_U11: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, as Thiago to Tia Neusa.",
-            source: "Shall I close the window, auntie?",
+            source: "Do you want me to close the window, auntie?",
             answer: "Quer que eu feche a janela, tia?",
             altAnswers: ["A senhora quer que eu feche a janela, tia?", "Quer que eu feche a janela, titia?", "Posso fechar a janela, tia?", "Tia, quer que eu feche a janela?"],
             explanation: "\"Quer que eu\" + present subjunctive (\"feche\") answers the hint before it becomes a request. \"Tia\" is used for aunts and for older female family friends.",
@@ -1957,7 +1957,7 @@ export const PT_C2_U11: Lesson[] = [
             type: "speak",
             text: "Já vão? Fica mais um pouquinho!",
             prompt: "As the host, playfully protest your guests' departure. Say it in Portuguese: Leaving already? Stay a bit longer!",
-            tip: "\"Pouquinho\": the ou is a closed o, and nh is like ny in canyon: po-KI-nhu.",
+            tip: "\"Pouquinho\": the ou is a closed o, and nh is like ny in canyon: po-KI-nhoo.",
             explanation: "One protest is part of the ritual of goodbye. The guests answer \"Bem que a gente queria!\" (we'd love to) and leave.",
           },
         ],
@@ -2185,7 +2185,7 @@ export const PT_C2_U11: Lesson[] = [
             type: "speak",
             text: "Oi, Paula, podemos conversar rapidinho por telefone?",
             prompt: "Instead of a public complaint, ask a colleague for a quick call. Say it in Portuguese: Hi, Paula, can we have a quick chat on the phone?",
-            tip: "\"Telefone\" ends in a soft i: te-le-FÔ-ni.",
+            tip: "\"Telefone\" ends in 'ee': te-le-FÔ-nee.",
             explanation: "Taking a grievance off the group chat and into a call is the Brazilian way to defuse it.",
           },
         ],
@@ -2231,7 +2231,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Fix \"Eu quero que você abre a janela.\" said to a guest. Write the Portuguese for the bold words.",
-        en: "[Shall I open] the window?",
+        en: "[Do you want me to open] the window?",
         sentence: "___ a janela?",
         answer: "Quer que eu abra",
         altAnswers: ["Você quer que eu abra", "Posso abrir", "Prefere que eu abra"],
@@ -2342,7 +2342,7 @@ export const PT_C2_U11: Lesson[] = [
           { es: "Esquece aquela briga: águas passadas não movem moinho.", en: "Forget that fight: it's water under the bridge." },
           { es: "Parecia tão sério, mas é um amor. Quem vê cara não vê coração.", en: "He seemed so stern, but he's a sweetheart. You can't judge a book by its cover." },
           { es: "Para de me zoar, eu só pedi um copo d'água! kkkk", en: "Stop teasing me, I only asked for a glass of water! lol" },
-          { es: "Vamos fazer uma vaquinha para a coroa de flores?", en: "Shall we all chip in for the wreath?" },
+          { es: "Vamos fazer uma vaquinha para a coroa de flores?", en: "Should we all chip in for the wreath?" },
         ],
         checkpoint: [
           {
@@ -2357,7 +2357,7 @@ export const PT_C2_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Shall we all [chip in] for the wreath?",
+            en: "Should we all [chip in] for the wreath?",
             sentence: "Vamos ___ para a coroa de flores?",
             answer: "fazer uma vaquinha",
             altAnswers: ["fazer vaquinha"],
@@ -2430,9 +2430,9 @@ export const PT_C2_U11: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Shall I turn on the fan?",
+        prompt: "Put the words in order to say: Do you want me to turn on the fan?",
         words: ["Quer", "que", "eu", "ligue", "o", "ventilador?"],
-        translation: "Shall I turn on the fan?",
+        translation: "Do you want me to turn on the fan?",
         explanation: "The offer that answers a hint: \"quer que eu\" + present subjunctive.",
       },
       {

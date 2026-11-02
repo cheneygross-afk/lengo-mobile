@@ -49,7 +49,7 @@ export const PT_C2_U26_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Véi, tô de boa hoje, bora?",
             question: "What does the speaker mean?",
-            options: ["Dude, I'm free and relaxed today, shall we go?", "Old man, I'm well today, shall we?", "Dude, I'm busy today, sorry.", "Man, I'm good at this, let's play."],
+            options: ["Dude, I'm free and relaxed today, want to go?", "Old man, I'm well today, want to?", "Dude, I'm busy today, sorry.", "Man, I'm good at this, let's play."],
             correctIndex: 0,
             explanation: "\"Véi\" is a vocative from Brasília and Goiás; \"tô de boa\" means I'm relaxed or free.",
           },

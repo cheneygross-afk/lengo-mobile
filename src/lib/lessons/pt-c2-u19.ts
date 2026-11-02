@@ -1237,7 +1237,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "speak",
         text: "Com todo o respeito, esse argumento não se sustenta.",
         prompt: "Say it in Portuguese: With all due respect, that argument doesn't stand up.",
-        tip: "Stress res-PEI-to and sus-TEN-ta; keep the tone level, since the formula works best said calmly.",
+        tip: "Stress res-PEI-too and sus-TEN-ta; keep the tone level, since the formula works best said calmly.",
         explanation: "\"Com todo o respeito\" cushions the verdict, and \"não se sustenta\" targets the reasoning.",
       },
       {
@@ -1428,7 +1428,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "speak",
             text: "Pelo mesmo raciocínio, nenhuma estrada deveria ter radar.",
             prompt: "Say it in Portuguese: By the same reasoning, no road should have speed cameras.",
-            tip: "The ci in \"raciocínio\" is a soft s (ra-sio-SI-nio); stress the last syllable of \"radar\".",
+            tip: "The ci in \"raciocínio\" is a soft s (ra-syo-SI-nyoo); stress the last syllable of \"radar\".",
             explanation: "\"Pelo mesmo raciocínio\" applies the opponent's principle elsewhere to expose where it leads.",
           },
         ],
@@ -1531,7 +1531,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "speak",
         text: "Ainda que fosse assim, isso não justificaria o corte.",
         prompt: "Say it in Portuguese, formally: Even if that were so, it wouldn't justify the cut.",
-        tip: "Stress jus-ti-fi-CA-ri-a, and keep the s in \"isso\" voiceless.",
+        tip: "Stress jus-chee-fi-CA-ri-a, and keep the s in \"isso\" voiceless.",
         explanation: "Grant the claim as a hypothesis, then deny it any consequence with the conditional.",
       },
       {
@@ -2442,7 +2442,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "speak",
         text: "Uma vez que o contrato seja assinado, começamos as obras.",
         prompt: "Say it in Portuguese: Once the contract is signed, we'll start construction.",
-        tip: "Nasalize \"começamos\" (co-me-SÃ-mus) and keep \"seja\" short: SÊ-ja.",
+        tip: "Nasalize \"começamos\" (co-me-SÃ-moos) and keep \"seja\" short: SÊ-ja.",
         explanation: "The subjunctive \"seja\" turns \"uma vez que\" into once: a condition still to be met.",
       },
       {
@@ -2496,7 +2496,7 @@ export const PT_C2_U19: Lesson[] = [
       {
         heading: "Abertura: the motion and the first argument",
         body: [
-          "It's the final round of an inter-university debate tournament in São Paulo. The motion (\"moção\") is \"Esta Casa adotaria a semana de quatro dias de trabalho\". Larissa Monteiro speaks for the proposition, Diego Fonseca for the opposition, and Professor Regina Alves chairs (\"preside a mesa\"). The format follows the parliamentary style you know from Unit 6: each speaker has a fixed time, then a \"réplica\", then a \"tréplica\".",
+          "It's the final round of an inter-university debate tournament in São Paulo. The motion (\"moção\") is \"Esta Casa adotaria a semana de quatro dias de trabalho\". Larissa Monteiro speaks for the proposition, Diego Fonseca for the opposition, and Professor Regina Alves chairs (\"preside a mesa\"). The format follows the parliamentary style you know from Unit 14: each speaker has a fixed time, then a \"réplica\", then a \"tréplica\".",
           "Larissa opens with a claim, a hedge and a frame. Note the reporting verb \"sugerem\" (suggest), which promises less than \"provam\" and so is harder to refute, and the definition she sets at the start. By fixing what \"semana de quatro dias\" means (32 hours on the same pay, not 40 hours squeezed into four days), she closes off one line of attack before Diego can open it.",
         ],
         examples: [
@@ -2664,7 +2664,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "speak",
             text: "Peço que me deixe concluir; o senhor teve o seu tempo.",
             prompt: "Say it in Portuguese, formally: I'd ask you to let me finish; you had your time.",
-            tip: "Keep \"peço\" with an open é (PÉ-ssu), and stress \"tempo\" at the end, without raising your voice.",
+            tip: "Keep \"peço\" with an open é (PÉ-soo), and stress \"tempo\" at the end, without raising your voice.",
             explanation: "\"Pedir que\" + subjunctive claims the floor politely, and the second clause points out the unfairness.",
           },
         ],
@@ -2755,7 +2755,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "speak",
         text: "Isso é um espantalho: ninguém defendeu isso.",
         prompt: "Say it in Portuguese: That's a strawman: nobody argued for that.",
-        tip: "\"Espantalho\": es-pan-TA-lho, with a nasal an and the lh like the lli in million.",
+        tip: "\"Espantalho\": es-pan-TA-lhoo, with a nasal an and the lh like the lli in million.",
         explanation: "Naming the fallacy refutes the distortion without attacking the person.",
       },
       {
@@ -2883,11 +2883,11 @@ export const PT_C2_U19: Lesson[] = [
         heading: "Refutations that refute nothing",
         body: [
           "Some errors are not grammatical but logical, and a good opponent exploits them at once. The strawman: your colleague said the police should be reformed, and you reply \"o colega quer acabar com a polícia\". The fix is to restate the claim fairly before you attack it: \"O colega propõe reformar a polícia. O problema dessa proposta é...\"",
-          "The ad hominem: \"O deputado nunca trabalhou na vida, então não pode falar de emprego.\" The deputy's biography doesn't make the argument false. Aim at the claim: \"Os números que o deputado citou não incluem o trabalho informal.\" And the unqualified absolute (\"ninguém usa ciclovia\", \"isso nunca funcionou\") invites a single counterexample. A qualified claim (\"poucos usam\", \"raramente funcionou\") is harder to knock down.",
+          "The ad hominem: \"O deputado nunca trabalhou na vida, então não pode falar de emprego.\" The congressman's biography doesn't make the argument false. Aim at the claim: \"Os números que o deputado citou não incluem o trabalho informal.\" And the unqualified absolute (\"ninguém usa ciclovia\", \"isso nunca funcionou\") invites a single counterexample. A qualified claim (\"poucos usam\", \"raramente funcionou\") is harder to knock down.",
         ],
         examples: [
           { es: "O colega propõe reformar a polícia. O problema dessa proposta é o custo.", en: "My colleague proposes reforming the police. The problem with that proposal is the cost." },
-          { es: "Os números que o deputado citou não incluem o trabalho informal.", en: "The figures the deputy cited don't include informal work." },
+          { es: "Os números que o deputado citou não incluem o trabalho informal.", en: "The figures the congressman cited don't include informal work." },
           { es: "Poucas pessoas usam a ciclovia no inverno.", en: "Few people use the bike lane in winter." },
         ],
         checkpoint: [
@@ -2921,7 +2921,7 @@ export const PT_C2_U19: Lesson[] = [
           "The reverse clash is just as damaging: \"conquanto\" or \"em que pese\" in a heated exchange at a family lunch. In a live, informal argument, \"mesmo que\", \"só que\" and \"se bem que\" do the same work and keep you sounding like yourself.",
         ],
         examples: [
-          { es: "Malgrado as declarações infelizes do deputado, a votação foi mantida.", en: "Despite the deputy's unfortunate remarks, the vote went ahead." },
+          { es: "Malgrado as declarações infelizes do deputado, a votação foi mantida.", en: "Despite the congressman's unfortunate remarks, the vote went ahead." },
           { es: "Apesar de o cara ter falado besteira, a ideia não é ruim.", en: "Even though the guy talked nonsense, the idea isn't bad." },
           { es: "Mesmo que você não goste, a regra vale para todo mundo.", en: "Even if you don't like it, the rule applies to everybody." },
         ],
@@ -2930,7 +2930,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Fix the clash for a formal statement: \"Malgrado o cara ter falado besteira, a votação foi mantida.\"",
-            source: "Despite the deputy's unfortunate remarks, the vote went ahead.",
+            source: "Despite the congressman's unfortunate remarks, the vote went ahead.",
             answer: "Malgrado as declarações infelizes do deputado, a votação foi mantida.",
             altAnswers: [
               "Não obstante as declarações infelizes do deputado, a votação foi mantida.",
@@ -3082,7 +3082,7 @@ export const PT_C2_U19: Lesson[] = [
         heading: "The brief: answer the column",
         body: [
           "Your mission: a São Paulo daily has published a column by Márcio Penteado headlined \"Menos ciclovias, mais viadutos\". He argues that bike lanes have made traffic worse, that hardly anyone uses them and that the money should go into overpasses. You work for an urban mobility institute, and the newspaper has offered you the same space for a reply (a \"réplica\" or \"artigo de resposta\").",
-          "The genre has rules. Open by identifying the text and summarizing its thesis fairly, with a reporting verb that carries stance (Unit 18): \"sustenta\" is neutral, \"alega\" signals doubt. Refer to the author as \"o colunista\" or \"o articulista\", in the third person, and never in a tone you wouldn't use to his face.",
+          "The genre has rules. Open by identifying the text and summarizing its thesis fairly, with a reporting verb that carries stance (Unit 13): \"sustenta\" is neutral, \"alega\" signals doubt. Refer to the author as \"o colunista\" or \"o articulista\", in the third person, and never in a tone you wouldn't use to his face.",
         ],
         examples: [
           { es: "Em artigo publicado neste jornal no último domingo, o colunista Márcio Penteado sustenta que as ciclovias pioraram o trânsito.", en: "In an article published in this newspaper last Sunday, the columnist Márcio Penteado argues that bike lanes have made traffic worse." },
@@ -3247,7 +3247,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "speak",
             text: "Em suma, o problema não são as ciclovias, mas a falta de uma rede contínua.",
             prompt: "Read your closing aloud as if recording it for the paper's podcast.",
-            tip: "Pause after \"Em suma\" and after \"ciclovias\"; stress con-TÍ-nua.",
+            tip: "Pause after \"Em suma\" and after \"ciclovias\"; stress con-CHEE-nua.",
             explanation: "The close restates the thesis in one sentence before the counterproposal.",
           },
         ],
@@ -3345,7 +3345,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "speak",
         text: "Não procede, contudo, a ideia de que as ciclovias causem os congestionamentos.",
         prompt: "Say it in Portuguese, formally: The idea that bike lanes cause the traffic jams, however, doesn't hold up.",
-        tip: "Pause around \"contudo\", and stress con-ges-tio-na-MEN-tos.",
+        tip: "Pause around \"contudo\", and stress con-jes-chyo-na-MEN-toos.",
         explanation: "Verb-first refutation with a formal turn: \"não procede, contudo, a ideia de que...\".",
       },
       {

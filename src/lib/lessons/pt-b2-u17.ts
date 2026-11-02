@@ -81,7 +81,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Que tal se a gente fosse à praia amanhã?",
-            tip: "In \"fosse\", the o is closed and the final e sounds like a short i: FÔ-si.",
+            tip: "In \"fosse\", the o is closed and the final e sounds like a short i: 'FÔ-see'.",
             explanation: "\"Que tal se\" + \"a gente fosse\": a warm suggestion for the group.",
           },
         ],
@@ -168,7 +168,7 @@ export const PT_B2_U17: Lesson[] = [
         prompt: "Put the words in order to say: What if we left earlier?",
         words: ["E", "se", "a gente", "saísse", "mais", "cedo?"],
         translation: "What if we left earlier?",
-        explanation: "\"Saísse\" carries an accent on the í so it doesn't merge into one syllable: sa-Í-sse.",
+        explanation: "\"Saísse\" carries an accent on the í so it doesn't merge into one syllable: 'sa-EE-see'.",
       },
       {
         type: "translate",
@@ -181,7 +181,7 @@ export const PT_B2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend says \"Pode ser\" when you suggest a film. What does she most likely mean?",
+        question: "Your friend says \"Pode ser\" when you suggest a movie. What does she most likely mean?",
         options: ["Maybe, I'm fairly open to it.", "Absolutely not.", "It can't be true.", "I've already seen it."],
         correctIndex: 0,
         explanation: "\"Pode ser\" is a soft maybe-yes. It leaves room to back out without saying \"não\".",
@@ -315,7 +315,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Eu tentaria conversar com ela primeiro.",
-            tip: "Stress tentaria on the ri: ten-ta-RI-a.",
+            tip: "Stress tentaria on the ri: 'tẽ-ta-REE-a'.",
             explanation: "Soft advice in the conditional, about what you would do.",
           },
         ],
@@ -488,7 +488,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "O ideal seria que todos respondessem até sexta.",
-            tip: "Respondessem: the double s is a sharp s, and the final em is nasal, like ein.",
+            tip: "Respondessem: 'hes-põ-DE-sẽy'. The double s is a sharp s, and the final em is nasal.",
             explanation: "\"O ideal seria que\" + imperfect subjunctive: a polite workplace request.",
           },
         ],
@@ -685,7 +685,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Se eu ganhasse na Mega-Sena, eu daria uma casa para a minha mãe.",
-            tip: "Daria: stress the ri, da-RI-a. Mega-Sena: open e in Mé-ga, closed in Sê-na.",
+            tip: "Daria: stress the ri, 'da-REE-a'. Mega-Sena: 'MÉ-ga SÊ-na', open é, then closed ê.",
             explanation: "\"Ganhasse\" sets the condition; \"daria\" is the conditional of \"dar\".",
           },
         ],
@@ -931,7 +931,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Ele dirige como se a rua fosse dele.",
-            tip: "Dirige: the g before e sounds like the s in pleasure; the final e is like i.",
+            tip: "Dirige: 'jee-REE-zhee'. The g before e sounds like the s in pleasure.",
             explanation: "\"Como se\" + \"fosse\": a vivid complaint about a driver.",
           },
         ],
@@ -1128,7 +1128,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Se nós estivéssemos de férias, estaríamos na praia.",
-            tip: "Two accents, two stresses: es-ti-VÉ-sse-mos, es-ta-RÍ-a-mos.",
+            tip: "Two accents, two stresses: 'es-chee-VÉ-se-moos', 'es-ta-REE-a-moos'.",
             explanation: "Nós forms: \"estivéssemos\" and \"estaríamos\".",
           },
           {
@@ -1354,7 +1354,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Se eu pudesse, eu desligava o celular às seis todo dia.",
-            tip: "Desligava: the s before l sounds like z; stress the ga.",
+            tip: "Desligava: 'dez-lee-GA-va'. The s before l sounds like z.",
             explanation: "Spoken imperfeito \"desligava\" in the main clause, as in a relaxed podcast.",
           },
         ],
@@ -1554,7 +1554,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Se eu fosse o prefeito, eu ia investir em ciclovias.",
-            tip: "Ciclovias: si-klo-VI-as, four syllables.",
+            tip: "Ciclovias: 'see-klo-VEE-as', four syllables.",
             explanation: "Podcast register: the spoken \"ia investir\".",
           },
         ],
@@ -1765,7 +1765,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Se eu tivesse tempo, eu faria o curso.",
-            tip: "Faria: stress the ri. Tivesse: tchi-VÊ-si, with a closed ê.",
+            tip: "Faria: 'fa-REE-a'. Tivesse: 'chee-VÊ-see', with a closed ê.",
             explanation: "Both halves imaginary: \"tivesse\" + \"faria\".",
           },
         ],
@@ -1908,7 +1908,7 @@ export const PT_B2_U17: Lesson[] = [
         heading: "Past facts, present consequences",
         body: [
           "Facts about ability and knowledge transform the same way: \"ele não fala inglês, por isso não consegue a vaga\" → \"se ele falasse inglês, conseguiria a vaga\". The hypothesis is about now: if he spoke English (today), he'd get the job.",
-          "When the fact is in the past (\"não conseguiu a vaga\"), the full past hypothesis needs a compound tense that comes in Unit 4. For now, use a lasting cause and keep the consequence in the present: \"se ele falasse inglês, estaria trabalhando lá\" (he'd be working there now). The cause is still true today, so the simple forms fit.",
+          "When the fact is in the past (\"não conseguiu a vaga\"), the full past hypothesis needs a compound tense that comes in Unit 6. For now, use a lasting cause and keep the consequence in the present: \"se ele falasse inglês, estaria trabalhando lá\" (he'd be working there now). The cause is still true today, so the simple forms fit.",
         ],
         examples: [
           { es: "Ele não fala inglês, por isso não consegue a vaga. Se ele falasse inglês, conseguiria a vaga.", en: "He doesn't speak English, so he can't get the job. → If he spoke English, he'd get the job." },
@@ -1979,7 +1979,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Se nós tivéssemos tempo, faríamos exercício.",
-            tip: "Faríamos: fa-RÍ-a-mos, the stress on the í.",
+            tip: "Faríamos: 'fa-REE-a-moos', the stress on the í.",
             explanation: "\"Tivéssemos\" + \"faríamos\": the nós pair.",
           },
         ],
@@ -2154,7 +2154,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Se a praça tivesse mais luz, as crianças poderiam brincar até mais tarde.",
-            tip: "Crianças: the ç is an s sound and the an is nasal.",
+            tip: "Crianças: 'kree-Ã-sas'. The ç is an s sound and the an is nasal.",
             explanation: "A change tied to its benefit with a second conditional.",
           },
         ],
@@ -2372,7 +2372,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Mesmo que me pagassem o dobro, eu não aceitaria.",
-            tip: "Dobro: closed ô, DÔ-bru.",
+            tip: "Dobro: closed ô, 'DÔ-broo'.",
             explanation: "\"Mesmo que\" + \"pagassem\", then the conditional \"aceitaria\".",
           },
         ],

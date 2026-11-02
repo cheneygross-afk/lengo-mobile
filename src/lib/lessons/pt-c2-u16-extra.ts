@@ -244,7 +244,7 @@ export const PT_C2_U16_EXTRA: Lesson[] = [
         source: "The framing always keeps the daughter at the edge of the screen.",
         answer: "O enquadramento deixa a filha sempre na beira da tela.",
         altAnswers: ["O enquadramento mantém a filha sempre na beira da tela.", "O enquadramento deixa a filha sempre no canto da tela.", "O enquadramento sempre deixa a filha na beira da tela.", "O enquadramento mantém a filha sempre no canto da tela."],
-        explanation: "\"Enquadramento\" is framing; the cinema screen is \"tela\", like a painter's canvas.",
+        explanation: "\"Enquadramento\" is framing; the movie screen is \"tela\", like a painter's canvas.",
       },
       {
         type: "translate",
@@ -378,7 +378,7 @@ export const PT_C2_U16_EXTRA: Lesson[] = [
         type: "speak",
         text: "É um filme cujos silêncios dizem mais do que os diálogos.",
         prompt: "Say it in Portuguese: It's a film whose silences say more than its dialogue.",
-        tip: "\"Silêncios\" has a closed ê: si-LÊN-cios.",
+        tip: "\"Silêncios\" has a closed ê: si-LÊN-syoos.",
         explanation: "\"Cujos\" agreeing with the possessed noun.",
       },
     ],
@@ -570,7 +570,7 @@ export const PT_C2_U16_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "A letra é melhor do que a melodia.",
-        explanation: "\"Melodia\" is stressed on the i: me-lo-DI-a.",
+        explanation: "\"Melodia\" is stressed on the i: me-lo-JEE-a.",
       },
       {
         type: "speak",

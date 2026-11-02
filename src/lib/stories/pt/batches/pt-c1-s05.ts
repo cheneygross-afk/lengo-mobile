@@ -135,7 +135,7 @@ export const PT_C1_S05_STORIES: Story[] = [
       `Passei três dias na casa da Vó Zica com um caderno na mão. Ela me recebeu com café ralo, broa de fubá e uma desconfiança que só o mineiro sabe ter sem parecer mal-educado. “Receita, minha filha? Uai, mas pra que você quer isso? Tá pensando em casar?” Expliquei que era para a família, para guardar, para não perder. Ela deu um riso curto. “Ah, trem bom não se perde, não. Quem perde é quem não presta atenção.”`,
       `No quarto dia, me deixou ficar na cozinha enquanto fazia uma fornada. Anotei tudo: o polvilho azedo escaldado com leite e óleo fervendo, os ovos um a um, o queijo curado ralado na hora. Mas ela não media nada. Quando perguntei quantas xícaras de polvilho, respondeu: “Até a massa parar de grudar na mão.” Quanto de sal? “O que o queijo pedir.” Meu caderno foi se enchendo de frases que pareciam provérbios e não serviam para nada.`,
       `Foi enquanto as bolinhas douravam no forno que ela falou, de repente, sem olhar para mim: “Essa receita não é minha, não.” Achei que fosse modéstia. Não era. Contou que, quando se casou com meu avô, em 1951, e veio morar na fazenda, não sabia fritar um ovo. Quem cozinhava era Dona Sebastiana, filha de uma mulher que tinha nascido escravizada naquelas mesmas terras. Foi Sebastiana quem a ensinou, com paciência e alguns tapas na mão, a escaldar o polvilho.`,
-      `“O povo da cidade começou a falar do pão de queijo da Zica”, disse ela, enxugando as mãos no avental. “E eu deixei. Deixei por setenta anos. Sebastiana morreu em setenta e oito, e eu nunca corrigi ninguém. É o meu pecado, Clara. Padre nenhum resolve, porque a dívida não é com Deus.”`,
+      `“O povo da cidade começou a falar do pão de queijo da Zica”, disse ela, enxugando as mãos no avental. “E eu deixei. Deixei por mais de setenta anos. Sebastiana morreu em setenta e oito, e eu nunca corrigi ninguém. É o meu pecado, Clara. Padre nenhum resolve, porque a dívida não é com Deus.”`,
       `Fiquei sem saber o que dizer. Ela tirou a assadeira do forno, escolheu o pão de queijo mais bonito e me entregou, queimando. “Agora você escreve aí no seu caderno: pão de queijo da Sebastiana. E no meu aniversário você chama a neta dela, a Rosângela, que mora ali na Rua de Baixo e faz doce pra fora. Quero ela sentada do meu lado.”`,
       `Na festa, a família estranhou a convidada e depois estranhou o discurso: a Vó Zica, que nunca falava em público, se levantou com o copo de guaraná e contou tudo, em quatro frases secas. Houve um silêncio constrangido, desses que só a mesa mineira sabe produzir. Foi Rosângela quem o quebrou. Provou um pão de queijo, fechou os olhos e disse: “Tá faltando sal, Dona Zica. Minha avó sempre falou que a senhora salgava pouco.”`,
       `A gargalhada da Vó Zica, dizem os vizinhos, foi ouvida da praça. Hoje a receita está no livro que minha mãe imprimiu para a família, com o nome certo no título. Mas a medida do sal continua do jeito que ela me ditou: o que o queijo pedir. Ninguém nunca acertou.`,
@@ -172,7 +172,7 @@ export const PT_C1_S05_STORIES: Story[] = [
           `Not inviting Sebastiana's family to her birthdays`,
         ],
         correctIndex: 0,
-        explanation: `"E eu deixei. Deixei por setenta anos... e eu nunca corrigi ninguém. É o meu pecado."`,
+        explanation: `"E eu deixei. Deixei por mais de setenta anos... e eu nunca corrigi ninguém. É o meu pecado."`,
       },
       {
         question: `How did Rosângela break the awkward silence at the party?`,

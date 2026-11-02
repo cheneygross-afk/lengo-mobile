@@ -200,7 +200,7 @@ export const PT_B1_U29: Lesson[] = [
         type: "speak",
         text: "Minha filha está no primeiro ano do ensino médio.",
         prompt: "Say it in Portuguese: My daughter is in the first year of high school.",
-        tip: "\"Médio\" has an open é: MÉ-dju. The d before i sounds like the j in jeans.",
+        tip: "\"Médio\" has an open é: MÉ-jyoo. The d before i sounds like the j in jeans.",
         explanation: "\"Primeiro ano do ensino médio\": years are ordinals with \"ano\", and \"do\" links the year to the stage.",
       },
       {
@@ -260,7 +260,7 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "Faculdade, curso, matrícula: being a student",
         body: [
-          "\"Fazer faculdade\" is the everyday way to say go to university, whatever the institution. Your degree subject is your \"curso\": \"faço o curso de direito\", or simply \"faço direito\". The \"federais\" (federal universities) and state universities charge no fees at all, which makes them the most competitive.",
+          "\"Fazer faculdade\" is the everyday way to say go to college, whatever the institution. Your degree subject is your \"curso\": \"faço o curso de direito\", or simply \"faço direito\". The \"federais\" (federal universities) and state universities charge no fees at all, which makes them the most competitive.",
           "You register with a \"matrícula\" and pay nothing at a federal university; at a private one there's a \"mensalidade\". If life gets in the way you can \"trancar a matrícula\" (suspend your studies) for a semester. Most courses end with a \"TCC\" (trabalho de conclusão de curso), the final dissertation.",
         ],
         examples: [
@@ -268,7 +268,7 @@ export const PT_B1_U29: Lesson[] = [
           { es: "A matrícula vai até sexta-feira.", en: "Registration is open until Friday." },
           { es: "Ele trancou a matrícula para trabalhar um ano.", en: "He suspended his studies to work for a year." },
           { es: "Estou escrevendo meu TCC sobre a seca no Nordeste.", en: "I'm writing my senior thesis on the drought in the Northeast." },
-          { es: "Ela fez faculdade em Porto Alegre.", en: "She went to university in Porto Alegre." },
+          { es: "Ela fez faculdade em Porto Alegre.", en: "She went to college in Porto Alegre." },
         ],
         checkpoint: [
           {
@@ -470,8 +470,8 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "Passar, reprovar, recuperação",
         body: [
-          "Passing is \"passar\": \"passei em todas as matérias\" (subjects). Failing is \"ser reprovado\" (\"fui reprovado em biologia\") or, in speech, \"reprovar\" with no object (\"reprovei em biologia\"). A student just below the pass mark \"fica de recuperação\": they get extra classes and a second chance, a make-up exam, at the end of the semester.",
-          "Notice that \"passar\" has many jobs: \"passar na prova\" (pass the test), \"passar no vestibular\" (get into university), \"passar o fim de semana\" (spend the weekend). Context sorts them out.",
+          "Passing is \"passar\": \"passei em todas as matérias\" (subjects). Failing is \"ser reprovado\" (\"fui reprovado em biologia\") or, in speech, \"reprovar\" with no object (\"reprovei em biologia\"). A student just below the passing grade \"fica de recuperação\": they get extra classes and a second chance, a make-up exam, at the end of the semester.",
+          "Notice that \"passar\" has many jobs: \"passar na prova\" (pass the test), \"passar no vestibular\" (get into college), \"passar o fim de semana\" (spend the weekend). Context sorts them out.",
         ],
         examples: [
           { es: "Passei em todas as matérias!", en: "I passed all my subjects!" },
@@ -492,7 +492,7 @@ export const PT_B1_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend's son is just below the pass mark and will get a second chance at the end of term. What does she say?",
+            question: "Your friend's son is just below the passing grade and will get a second chance at the end of the term. What does she say?",
             options: ["Ele ficou de recuperação.", "Ele passou com nota dez.", "Ele matou aula.", "Ele se formou."],
             correctIndex: 0,
             explanation: "\"Ficar de recuperação\" is the make-up stage between passing and failing.",
@@ -502,7 +502,7 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "Colar, matar aula, decorar, seminário",
         body: [
-          "Some study verbs look innocent but aren't. \"Colar\" (literally to glue) means to cheat in a test, and the crib sheet is a \"cola\". \"Matar aula\" (literally to kill class) is to skip it. \"Decorar\" is to memorize, not to decorate a room (that's also \"decorar\", but context tells you).",
+          "Some study verbs look innocent but aren't. \"Colar\" (literally to glue) means to cheat on a test, and the crib sheet is a \"cola\". \"Matar aula\" (literally to kill class) is to skip it. \"Decorar\" means to memorize as well as to decorate a room; context tells you which.",
           "Group work is a big part of Brazilian schooling: you \"fazer trabalho em grupo\" and \"apresentar um seminário\" (give a presentation to the class). A \"trabalho\" here is a school assignment, not a job.",
         ],
         examples: [
@@ -525,7 +525,7 @@ export const PT_B1_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Don't [cheat] in the test!",
+            en: "Don't [cheat] on the test!",
             sentence: "Não ___ na prova!",
             answer: "cole",
             altAnswers: ["cola"],
@@ -606,16 +606,16 @@ export const PT_B1_U29: Lesson[] = [
         type: "listen-choose",
         audio: "Ele foi pego colando na prova.",
         question: "What does it mean?",
-        options: ["He was caught cheating in the test.", "He was caught gluing the test.", "He was caught skipping the test.", "He was caught sleeping in the test."],
+        options: ["He was caught cheating on the test.", "He was caught gluing the test.", "He was caught skipping the test.", "He was caught sleeping during the test."],
         correctIndex: 0,
-        explanation: "\"Colar\" is to cheat in a test; \"foi pego\" is the passive of \"pegar\" (to catch).",
+        explanation: "\"Colar\" is to cheat on a test; \"foi pego\" is the passive of \"pegar\" (to catch).",
       },
       {
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "tirar nota", right: "to get a grade" },
-          { left: "colar", right: "to cheat in a test" },
+          { left: "colar", right: "to cheat on a test" },
           { left: "matar aula", right: "to skip class" },
           { left: "decorar", right: "to memorize" },
           { left: "apresentar seminário", right: "to give a class presentation" },
@@ -654,7 +654,7 @@ export const PT_B1_U29: Lesson[] = [
         ],
         examples: [
           { es: "Estudei no mesmo colégio que meu pai.", en: "I went to the same school as my dad." },
-          { es: "Ela faz faculdade à noite e trabalha de dia.", en: "She goes to university at night and works during the day." },
+          { es: "Ela faz faculdade à noite e trabalha de dia.", en: "She goes to college at night and works during the day." },
           { es: "A Faculdade de Medicina fica no outro campus.", en: "The Faculty of Medicine is on the other campus." },
           { es: "A universidade tem mais de quarenta mil alunos.", en: "The university has over forty thousand students." },
           { es: "Ele estudou em Harvard, numa universidade americana.", en: "He studied at Harvard, an American university." },
@@ -835,7 +835,7 @@ export const PT_B1_U29: Lesson[] = [
         type: "speak",
         text: "Eu me formei numa universidade federal.",
         prompt: "Say it in Portuguese: I graduated from a federal university.",
-        tip: "\"Universidade\": the final -de sounds like 'djee' in most of Brazil.",
+        tip: "\"Universidade\": the final -de sounds like 'jee' in most of Brazil.",
         explanation: "\"Se formar\" is to graduate. From a university is \"numa\" (em + uma), not \"de\".",
       },
       {
@@ -956,7 +956,7 @@ export const PT_B1_U29: Lesson[] = [
             type: "speak",
             text: "Você me segue no Instagram?",
             prompt: "Say it in Portuguese: Do you follow me on Instagram?",
-            tip: "\"Segue\": the u is silent, so it sounds like SÉ-gui.",
+            tip: "\"Segue\": the u is silent, so it sounds like SÉ-ghee.",
             explanation: "\"Seguir\" is to follow. The pronoun \"me\" comes before the verb.",
           },
         ],
@@ -1144,7 +1144,7 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "Print, link, wi-fi, e-mail: saying the loans",
         body: [
-          "Loan nouns follow Portuguese sound rules. A word ending in a consonant gets an extra vowel: \"print\" is said \"prín-tchi\", \"link\" \"lín-ki\", \"site\" \"sai-tchi\". \"Wi-fi\" is \"uai-fai\" and \"e-mail\" is \"i-mêiu\". Say them this way and you'll be understood far more easily than with English pronunciation.",
+          "Loan nouns follow Portuguese sound rules. A word ending in a consonant gets an extra vowel: \"print\" is said \"PREEN-chee\", \"link\" \"LEEN-kee\", \"site\" \"SAI-chee\". \"Wi-fi\" is \"uai-fai\" and \"e-mail\" is \"ee-MÊY-oo\". Say them this way and you'll be understood far more easily than with English pronunciation.",
           "They also take a gender, usually masculine: \"o link\", \"o e-mail\", \"o site\", \"o wi-fi\", \"o print\"; \"a live\" is the exception. Plurals add -s: \"os links\", \"os e-mails\".",
         ],
         examples: [
@@ -1254,7 +1254,7 @@ export const PT_B1_U29: Lesson[] = [
         type: "speak",
         text: "Me manda o link por e-mail.",
         prompt: "Say it in Portuguese: Send me the link by email.",
-        tip: "Say 'lín-ki' and 'i-mêiu', the Brazilian way.",
+        tip: "Say 'LEEN-kee' and 'ee-MÊY-oo', the Brazilian way.",
         explanation: "\"O link\" and \"o e-mail\" are masculine loan nouns.",
       },
       {
@@ -1460,7 +1460,7 @@ export const PT_B1_U29: Lesson[] = [
         type: "speak",
         text: "Desconfie caso peçam dinheiro por mensagem.",
         prompt: "Say it in Portuguese: Be suspicious if they ask for money by message.",
-        tip: "\"Peçam\" has an open é and a nasal ending: PÉ-ssam.",
+        tip: "\"Peçam\" has an open é and a nasal ending: PÉ-sãw.",
         explanation: "\"Caso\" + subjunctive (\"peçam\"); the impersonal third person plural means someone.",
       },
       {
@@ -1580,7 +1580,7 @@ export const PT_B1_U29: Lesson[] = [
             type: "speak",
             text: "Fica tranquilo, você vai passar.",
             prompt: "Say it in Portuguese to a male friend: Don't worry, you'll get in.",
-            tip: "\"Tranquilo\": the u is silent, tran-KI-lu.",
+            tip: "\"Tranquilo\": the u is pronounced, trãn-KWEE-loo.",
             explanation: "\"Fica tranquilo\" (to a man) or \"fica tranquila\" (to a woman) is the everyday reassurance.",
           },
         ],
@@ -1671,7 +1671,7 @@ export const PT_B1_U29: Lesson[] = [
         type: "speak",
         text: "Quero fazer medicina numa federal.",
         prompt: "Say it in Portuguese: I want to do medicine at a federal university.",
-        tip: "\"Medicina\": the d before i sounds like the j in jeans, me-dji-SI-na.",
+        tip: "\"Medicina\": the d before i sounds like the j in jeans, me-jee-SEE-na.",
         explanation: "\"Fazer\" + course, and \"uma federal\" is short for a federal university.",
       },
     ],
@@ -1864,7 +1864,7 @@ export const PT_B1_U29: Lesson[] = [
         type: "speak",
         text: "A senhora consegue ver a tela?",
         prompt: "Say it in Portuguese to your grandmother: Can you see the screen?",
-        tip: "\"Consegue\": the u is silent, con-SÉ-gui.",
+        tip: "\"Consegue\": the u is silent, kõn-SÉ-ghee.",
         explanation: "\"A senhora\" + third-person verb: \"consegue\".",
       },
     ],
@@ -2116,13 +2116,13 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "Support: a reason and an example",
         body: [
-          "Each reason gets a connector from Unit 13: \"em primeiro lugar\", \"além disso\", \"já que\" (+ indicative). Then make it concrete with \"por exemplo\" or \"ou seja\": a real classroom scene persuades more than a general claim.",
+          "Each reason gets a connector from Unit 23: \"em primeiro lugar\", \"além disso\", \"já que\" (+ indicative). Then make it concrete with \"por exemplo\" or \"ou seja\": a real classroom scene persuades more than a general claim.",
           "Show the other side fairly with \"no entanto\" or \"por outro lado\", or concede with \"embora\" + subjunctive: \"embora o celular seja útil para pesquisas, ...\". One concession is enough in a short post.",
         ],
         examples: [
           { es: "Em primeiro lugar, os alunos se distraem com as redes sociais.", en: "First of all, students get distracted by social media." },
           { es: "Por exemplo, na escola do meu filho, ninguém conversava no recreio.", en: "For example, at my son's school, nobody talked at recess." },
-          { es: "Além disso, o celular facilita a cola nas provas.", en: "On top of that, phones make cheating in tests easier." },
+          { es: "Além disso, o celular facilita a cola nas provas.", en: "On top of that, phones make cheating on tests easier." },
           { es: "Embora o celular seja útil para pesquisas, a escola tem computadores.", en: "Although the phone is useful for research, the school has computers." },
           { es: "Por outro lado, muitos pais querem falar com os filhos durante o dia.", en: "On the other hand, many parents want to talk to their kids during the day." },
         ],
@@ -2172,7 +2172,7 @@ export const PT_B1_U29: Lesson[] = [
             type: "speak",
             text: "Em resumo, o problema não é a tecnologia, e sim o excesso.",
             prompt: "Say it in Portuguese: In short, the problem isn't technology, but too much of it.",
-            tip: "\"Excesso\": the xc sounds like a single s, e-SSÉ-ssu.",
+            tip: "\"Excesso\": the xc sounds like a single s, e-SÉ-soo.",
             explanation: "\"Não é X, e sim Y\" is a neat formula for correcting a view in a conclusion.",
           },
         ],
@@ -2213,7 +2213,7 @@ export const PT_B1_U29: Lesson[] = [
         source: "Phones make cheating easier.",
         answer: "O celular facilita a cola.",
         altAnswers: ["Os celulares facilitam a cola.", "O celular facilita a cola nas provas.", "Os celulares facilitam a cola nas provas."],
-        explanation: "\"Facilitar\" + noun (to make something easier). \"A cola\" is cheating in tests.",
+        explanation: "\"Facilitar\" + noun (to make something easier). \"A cola\" is cheating on tests.",
       },
       {
         type: "translate",
@@ -2282,13 +2282,13 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "School and tech words with connectors",
         body: [
-          "No new rules here: just the unit's words in longer sentences, joined with the connectors from Unit 13. Watch the verbs that travel with each noun: \"tirar nota\", \"fazer o Enem\", \"prestar vestibular\", \"baixar o app\", \"fazer backup\".",
+          "No new rules here: just the unit's words in longer sentences, joined with the connectors from Unit 23. Watch the verbs that travel with each noun: \"tirar nota\", \"fazer o Enem\", \"prestar vestibular\", \"baixar o app\", \"fazer backup\".",
         ],
         examples: [
           { es: "Ele estudou muito; no entanto, ficou de recuperação em física.", en: "He studied a lot; however, he has to take the make-up exam in physics." },
           { es: "Já que o wi-fi caiu, vamos estudar com os livros.", en: "Since the wi-fi is down, let's study with the books." },
-          { es: "Ela passou na federal, por isso não vai pagar mensalidade.", en: "She got into the federal university, so she won't pay fees." },
-          { es: "Além de matar aula, ele colou na prova.", en: "As well as skipping class, he cheated in the test." },
+          { es: "Ela passou na federal, por isso não vai pagar mensalidade.", en: "She got into the federal university, so she won't pay tuition." },
+          { es: "Além de matar aula, ele colou na prova.", en: "As well as skipping class, he cheated on the test." },
         ],
         checkpoint: [
           {
@@ -2303,7 +2303,7 @@ export const PT_B1_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "She got into the federal university, [so] she won't pay fees.",
+            en: "She got into the federal university, [so] she won't pay tuition.",
             sentence: "Ela passou na federal, ___ não vai pagar mensalidade.",
             answer: "por isso",
             altAnswers: ["portanto", "então"],

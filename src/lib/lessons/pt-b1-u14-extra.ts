@@ -50,7 +50,7 @@ export const PT_B1_U14_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Do meu ponto de vista, o transporte público é caro demais.",
             question: "What does the speaker say?",
-            options: ["From my point of view, public transportation is too expensive.", "I don't think public transportation is expensive.", "Public transport used to be cheap.", "Some people think public transportation is too expensive."],
+            options: ["From my point of view, public transportation is too expensive.", "I don't think public transportation is expensive.", "Public transportation used to be cheap.", "Some people think public transportation is too expensive."],
             correctIndex: 0,
             explanation: "\"Do meu ponto de vista\" (from my point of view) frames the speaker's own opinion. \"Caro demais\" means too expensive.",
           },
@@ -151,7 +151,7 @@ export const PT_B1_U14_EXTRA: Lesson[] = [
         type: "speak",
         text: "Para mim, o mais importante é a saúde.",
         prompt: "Say it in Portuguese: For me, the most important thing is health.",
-        tip: "Saúde: sa-U-dji, three syllables.",
+        tip: "Saúde: sa-OO-jee, three syllables.",
         explanation: "\"Para mim\" frames the opinion, followed by a normal sentence. \"O mais importante\" means the most important thing.",
       },
       {
@@ -316,7 +316,7 @@ export const PT_B1_U14_EXTRA: Lesson[] = [
         type: "speak",
         text: "Você tem razão, mas não necessariamente.",
         prompt: "Say it in Portuguese: You're right, but not necessarily.",
-        tip: "Necessariamente: ne-se-sa-ri-a-MEN-tchi.",
+        tip: "Necessariamente: ne-se-sa-ree-a-MEN-chee.",
         explanation: "\"Você tem razão\" agrees, and \"mas não necessariamente\" limits it.",
       },
       {
@@ -483,7 +483,7 @@ export const PT_B1_U14_EXTRA: Lesson[] = [
         type: "speak",
         text: "Só um minutinho, deixa eu terminar.",
         prompt: "Say it in Portuguese: Just a minute, let me finish.",
-        tip: "Minutinho: mi-nu-TCHI-nyu.",
+        tip: "Minutinho: mee-noo-CHEE-nyoo.",
         explanation: "\"Só um minutinho, deixa eu terminar\" holds the floor without sounding rude.",
       },
       {

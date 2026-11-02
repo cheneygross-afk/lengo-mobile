@@ -41,7 +41,7 @@ export const PT_B1_U31_EXTRA: Lesson[] = [
             question: "Your colleague says she's taking her férias in July. What does she get on top of her normal pay?",
             options: ["O terço de férias.", "O décimo terceiro inteiro.", "O seguro-desemprego.", "O aviso prévio."],
             correctIndex: 0,
-            explanation: "Holiday pay comes with an extra third, \"o terço de férias\".",
+            explanation: "Vacation pay comes with an extra third, \"o terço de férias\".",
           },
           {
             type: "listen-choose",
@@ -174,7 +174,7 @@ export const PT_B1_U31_EXTRA: Lesson[] = [
         type: "speak",
         text: "Amanhã eu trabalho de home office.",
         prompt: "Say it in Portuguese: Tomorrow I'm working from home.",
-        tip: "Brazilians pronounce \"home office\" with Portuguese vowels and often an extra vowel at the end: roughly home Ó-fi-si.",
+        tip: "Brazilians pronounce \"home office\" with Portuguese vowels and often an extra vowel at the end: roughly home Ó-fee-see.",
         explanation: "The present tense often covers near-future plans in speech.",
       },
     ],

@@ -869,7 +869,7 @@ export const PT_B1_U28: Lesson[] = [
         heading: "WhatsApp clonado: oi, troquei de número",
         body: [
           "In the fake WhatsApp scam, a message arrives from an unknown number with a relative's photo: \"Oi, mãe, troquei de número\". After a little chat comes the request: an urgent Pix to pay a bill. Other scammers clone your account by persuading you to share the six-digit code WhatsApp sends by text.",
-          "The defence is simple: call the person on their old number, never share that code, and turn on \"verificação em duas etapas\" (two-step verification).",
+          "The defense is simple: call the person on their old number, never share that code, and turn on \"verificação em duas etapas\" (two-step verification).",
         ],
         examples: [
           { es: "Oi, mãe, troquei de número. Salva esse aqui.", en: "Hi Mom, I've changed my number. Save this one." },
@@ -1328,7 +1328,7 @@ export const PT_B1_U28: Lesson[] = [
           {
             type: "speak",
             text: "Votar é um direito e um dever.",
-            tip: "\"Dever\" ends in a soft r; \"direito\" starts with a dj sound: dji-REI-tu.",
+            tip: "\"Dever\" ends in a soft r; \"direito\" starts with a j sound: jee-RÊY-too.",
             explanation: "An infinitive as the subject of a sentence.",
           },
         ],
@@ -1938,7 +1938,7 @@ export const PT_B1_U28: Lesson[] = [
           {
             type: "speak",
             text: "Ele me pediu para bloquear o chip.",
-            tip: "Brazilians say chip as SHI-pi: sh as in ship, plus a short i at the end.",
+            tip: "Brazilians say chip as SHEE-pee: sh as in ship, plus a short ee at the end.",
             explanation: "\"Pedir para\" + infinitive reports a request.",
           },
         ],
@@ -2516,7 +2516,7 @@ export const PT_B1_U28: Lesson[] = [
           {
             type: "speak",
             text: "Espero que o documento fique pronto antes da viagem.",
-            tip: "\"Fique\" has a hard k sound: FI-ki.",
+            tip: "\"Fique\" has a hard k sound: FEE-kee.",
             explanation: "\"Esperar que\" + subjunctive \"fique\".",
           },
         ],

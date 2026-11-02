@@ -153,7 +153,7 @@ export const PT_C1_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "É inadmissível que isso aconteça em pleno século vinte e um.",
         prompt: "Say it in Portuguese: It's unacceptable that this happens in the twenty-first century.",
-        tip: "Stress the SÍ in inadmissível (i-na-dji-mi-SÍ-veu), with the final l sounding like u; aconteça has a closed ê: a-kon-TÊ-sa.",
+        tip: "Stress SEE in \"inadmissível\" (ee-na-jee-mee-SEE-vew), with the final l sounding like u; aconteça has a closed ê: a-kõ-TÊ-sa.",
         explanation: "\"É inadmissível que\" takes the subjunctive \"aconteça\". \"Em pleno século vinte e um\" (in the twenty-first century, of all times) adds editorial indignation.",
       },
       {
@@ -318,7 +318,7 @@ export const PT_C1_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Antes de compartilhar, verifique a fonte.",
         prompt: "Say it in Portuguese: Before sharing, check the source.",
-        tip: "Compartilhar: kõ-par-tchi-LYAR, with a nasal kõ and no m sound.",
+        tip: "Compartilhar: kõ-par-chee-LYAR, with a nasal kõ and no m sound.",
         explanation: "\"Antes de\" + infinitive (before sharing) is followed by the imperative \"verifique\". This is the basic rule of media literacy.",
       },
       {
@@ -493,7 +493,7 @@ export const PT_C1_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into formal Portuguese, using ao + infinitive.",
+        prompt: "Translate into formal Portuguese, using \"ao\" + infinitive.",
         source: "By claiming that no one uses the bike lanes, the text generalizes from an impression.",
         answer: "Ao afirmar que ninguém usa as ciclovias, o texto generaliza a partir de uma impressão.",
         altAnswers: ["Ao afirmar que ninguém utiliza as ciclovias, o texto generaliza a partir de uma impressão.", "Ao dizer que ninguém usa as ciclovias, o texto generaliza a partir de uma impressão."],
@@ -514,8 +514,7 @@ export const PT_C1_U09_EXTRA: Lesson[] = [
         en: "The author [resorts to] a false dichotomy.",
         sentence: "O autor ___ uma falsa dicotomia.",
         answer: "recorre a",
-        altAnswers: ["incorre em"],
-        explanation: "\"Recorrer a\" (to resort to) labels the move without insulting the writer. \"Incorre em\" (falls into) is accepted too: it frames the fallacy as a slip rather than a choice.",
+        explanation: "\"Recorrer a\" (to resort to) labels the move without insulting the writer. \"Incorre em\" means falls into: it frames the fallacy as a slip rather than a choice, so it doesn't translate resorts to.",
       },
       {
         type: "matching",
@@ -545,7 +544,7 @@ export const PT_C1_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não se pode ignorar que as ciclovias reduziram os acidentes.",
         prompt: "Say it in Portuguese: One can't ignore that the bike lanes reduced accidents.",
-        tip: "\"Ciclovias\": the c before i is an s, si-klo-VI-as.",
+        tip: "\"Ciclovias\": the c before i is an s, see-klo-VEE-as.",
         explanation: "A stance marker that introduces a counter-fact.",
       },
     ],

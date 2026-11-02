@@ -754,7 +754,7 @@ export const PT_B1_U13: Lesson[] = [
           "The trap for English speakers is the warm-up. A sentence like \"Hoje em dia, no mundo em que vivemos, tudo está mudando\" says nothing. Brazilian teachers call this \"enrolação\" (waffle), and Celpe-Bras examiners notice it. Opening an essay with a question is just as weak. Start with your claim in one short sentence with one main verb.",
         ],
         examples: [
-          { es: "O transporte público em São Paulo precisa melhorar.", en: "Public transport in São Paulo needs to improve." },
+          { es: "O transporte público em São Paulo precisa melhorar.", en: "Public transportation in São Paulo needs to improve." },
           { es: "Trabalhar de casa tem muitas vantagens.", en: "Working from home has many advantages." },
           { es: "As escolas deveriam ensinar educação financeira.", en: "Schools should teach financial literacy." },
           { es: "O celular tem prejudicado a concentração dos alunos.", en: "Phones have been hurting students' concentration." },
@@ -867,7 +867,7 @@ export const PT_B1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Public transport in São Paulo needs to improve.",
+        source: "Public transportation in São Paulo needs to improve.",
         answer: "O transporte público em São Paulo precisa melhorar.",
         altAnswers: ["O transporte público de São Paulo precisa melhorar."],
         explanation: "A clean frase-tópico: one subject, one verb, one claim. \"Precisar\" + infinitive needs no \"de\".",
@@ -1142,7 +1142,7 @@ export const PT_B1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "(in an essay) Public transport has improved. However, it is still insufficient.",
+        source: "(in an essay) Public transportation has improved. However, it is still insufficient.",
         answer: "O transporte público melhorou. No entanto, ainda é insuficiente.",
         altAnswers: [
           "O transporte público melhorou. Porém, ainda é insuficiente.",
@@ -1304,7 +1304,7 @@ export const PT_B1_U13: Lesson[] = [
           { es: "Caros leitores, vocês já pensaram em ir ao trabalho de bicicleta?", en: "Dear readers, have you ever thought about cycling to work?" },
           { es: "Oi, Júlia! Queria te convidar para a feira de livros de sábado.", en: "Hi Júlia! I wanted to invite you to the book fair on Saturday." },
           { es: "O vídeo mostra que a ciclovia vai ser ampliada.", en: "The video shows that the bike lane is going to be extended." },
-          { es: "Além disso, o projeto é barato; portanto, a prefeitura deveria aprovar a ideia.", en: "What's more, the project is cheap, so the city council should approve the idea." },
+          { es: "Além disso, o projeto é barato; portanto, a prefeitura deveria aprovar a ideia.", en: "What's more, the project is cheap, so city hall should approve the idea." },
         ],
         checkpoint: [
           {
@@ -1437,7 +1437,7 @@ export const PT_B1_U13: Lesson[] = [
       {
         type: "dictation",
         audio: "Você vai escrever uma carta para a prefeitura.",
-        explanation: "A typical enunciado: it tells you the genre (\"uma carta\") and the reader (\"a prefeitura\", the city council).",
+        explanation: "A typical enunciado: it tells you the genre (\"uma carta\") and the reader (\"a prefeitura\", city hall).",
       },
       {
         type: "speak",
@@ -1458,7 +1458,7 @@ export const PT_B1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The bike lane is cheap; [therefore], the city council should approve the project.",
+        en: "The bike lane is cheap; [therefore], city hall should approve the project.",
         sentence: "A ciclovia é barata; ___, a prefeitura deveria aprovar o projeto.",
         answer: "portanto",
         altAnswers: ["por isso", "assim", "então"],
@@ -1533,7 +1533,7 @@ export const PT_B1_U13: Lesson[] = [
       {
         heading: "Além disso, and one but at a time",
         body: [
-          "\"Além disso\" (what's more) opens a new point: \"O bairro é seguro. Além disso, tem muito verde.\" \"Além de\" needs a noun or an infinitive after it: \"além do preço\", \"além de ser seguro\". \"*Além de que\" blends the two. It slips out in speech, but in a written text use \"além disso\".",
+          "\"Além disso\" (what's more) opens a new point: \"O bairro é seguro. Além disso, tem muito verde.\" \"Além de\" needs a noun or an infinitive after it: \"além do preço\", \"além de ser seguro\". \"Além de que\" also exists, but it is informal; in a written text, use \"além disso\".",
           "\"Mas\", \"porém\", \"no entanto\" and \"contudo\" all mean but or however, so one is enough. \"*Mas porém\" and \"*mas no entanto\" say but twice. Use \"mas\" inside a sentence and \"porém\" or \"no entanto\" to open a new one. \"Mas mesmo assim\" is correct, because \"mesmo assim\" means even so, not but.",
         ],
         examples: [
@@ -1602,7 +1602,7 @@ export const PT_B1_U13: Lesson[] = [
               "O aluguel é alto. No entanto, o apartamento seja ótimo.",
             ],
             correctIndex: 0,
-            explanation: "Full stop, then \"no entanto\" with a comma after it and an indicative verb. The second option is a comma splice, the third says but twice, the fourth uses the subjunctive after \"no entanto\".",
+            explanation: "Period, then \"no entanto\" with a comma after it and an indicative verb. The second option is a comma splice, the third says but twice, the fourth uses the subjunctive after \"no entanto\".",
           },
           {
             type: "translate",
@@ -1649,7 +1649,7 @@ export const PT_B1_U13: Lesson[] = [
         sentence: "O hotel é barato. ___, fica perto da praia.",
         answer: "Além disso",
         altAnswers: ["Aliás", "Inclusive"],
-        explanation: "\"Além disso\" opens a new point after a period. \"*Além de que\" is the speech blend to avoid in writing.",
+        explanation: "\"Além disso\" opens a new point after a period. \"Além de que\" is informal, so avoid it in writing.",
       },
       {
         type: "translate",
@@ -1860,7 +1860,7 @@ export const PT_B1_U13: Lesson[] = [
         ],
         examples: [
           { es: "As aulas online têm vantagens e desvantagens.", en: "Online classes have advantages and disadvantages. (topic sentence)" },
-          { es: "O transporte público em Recife precisa melhorar.", en: "Public transport in Recife needs to improve. (topic sentence)" },
+          { es: "O transporte público em Recife precisa melhorar.", en: "Public transportation in Recife needs to improve. (topic sentence)" },
           { es: "A internet, no entanto, nem sempre funciona bem.", en: "The internet, however, doesn't always work well." },
           { es: "Em resumo, o melhor caminho talvez seja um modelo misto.", en: "In short, the best way may be a mixed model. (closing sentence)" },
           { es: "Portanto, a cidade precisa investir em ciclovias.", en: "So the city needs to invest in bike lanes. (closing sentence)" },
@@ -2200,7 +2200,7 @@ export const PT_B1_U13: Lesson[] = [
           "Seria melhor que usar ônibus menores na madrugada.",
         ],
         correctIndex: 0,
-        explanation: "\"Seria melhor\" + infinitive is polite and written. The second option is aggressive, the third is chat register, and \"que\" never goes before an infinitive.",
+        explanation: "\"Seria melhor\" + infinitive is polite and written. The second option is aggressive, the third is chat register, and \"seria melhor que\" would need a subjunctive, not an infinitive.",
       },
       {
         type: "listen-choose",
@@ -2473,7 +2473,7 @@ export const PT_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're writing to the city council: We need more buses so that people don't have to wait so long. Which sentence is correct?",
+        question: "You're writing to city hall: We need more buses so that people don't have to wait so long. Which sentence is correct?",
         options: [
           "Precisamos de mais ônibus para que as pessoas não esperem tanto.",
           "Precisamos de mais ônibus para que as pessoas não esperam tanto.",
@@ -2505,7 +2505,7 @@ export const PT_B1_U13: Lesson[] = [
         type: "speak",
         text: "Como a ponte estava fechada, a gente pegou outro caminho.",
         prompt: "Say it in Portuguese: As the bridge was closed, we took another route.",
-        tip: "The final -te in \"ponte\" sounds like 'tchee', and the a in \"caminho\" is nasal before nh.",
+        tip: "The final -te in \"ponte\" sounds like 'chee', and the a in \"caminho\" is nasal before nh.",
         explanation: "\"Como\" for cause at the start, \"estava fechada\" for the background state, and \"pegou\" with \"a gente\".",
       },
       {

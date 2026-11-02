@@ -157,13 +157,13 @@ export const PT_B2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the halves.",
+        instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Se eu tivesse fome,", right: "comeria." },
-          { left: "Se eu fosse você,", right: "aceitaria." },
-          { left: "Se chovesse,", right: "ficaríamos em casa." },
-          { left: "Se ele soubesse,", right: "contaria." },
-          { left: "Se você quiser,", right: "eu te ajudo." },
+          { left: "Se eu tivesse fome, comeria.", right: "If I were hungry, I'd eat." },
+          { left: "Se eu fosse você, aceitaria.", right: "If I were you, I'd accept." },
+          { left: "Se chovesse, ficaríamos em casa.", right: "If it rained, we'd stay home." },
+          { left: "Se ele soubesse, contaria.", right: "If he knew, he'd tell." },
+          { left: "Se você quiser, eu te ajudo.", right: "If you want, I'll help you." },
         ],
         explanation: "Imaginary conditions (\"tivesse\", \"fosse\", \"chovesse\", \"soubesse\") pair with the conditional; the real offer \"se você quiser\" pairs with the present.",
       },
@@ -291,7 +291,7 @@ export const PT_B2_U02_EXTRA: Lesson[] = [
         en: "Even if you [ask], she won't come.",
         sentence: "Mesmo se você ___, ela não vem.",
         answer: "pedir",
-        explanation: "\"Mesmo se\" works like \"se\": for a real future possibility it takes the future subjunctive, which for regular verbs looks like the infinitive: \"pedir\". The full tense comes in Unit 3.",
+        explanation: "\"Mesmo se\" works like \"se\": for a real future possibility it takes the future subjunctive, which for regular verbs looks like the infinitive: \"pedir\". The full tense comes in Unit 4.",
       },
       {
         type: "multiple-choice",
@@ -316,7 +316,7 @@ export const PT_B2_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ela fala como se soubesse tudo.",
         prompt: "Say it in Portuguese: She talks as if she knew everything.",
-        tip: "Soubesse: so-BÉ-si, with an open é.",
+        tip: "Soubesse: so-BÉ-see, with an open é.",
         explanation: "\"Como se\" + imperfect subjunctive \"soubesse\", from \"souberam\" (stem vowel ou).",
       },
       {

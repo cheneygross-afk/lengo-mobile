@@ -53,7 +53,7 @@ export const PT_B1_U02: Lesson[] = [
       {
         heading: "Esteja: estar in the subjunctive",
         body: [
-          "\"Estar\" gives \"esteja\": \"que eu esteja\", \"que você esteja\", \"que nós estejamos\", \"que eles estejam\". The stress sits on the closed ê in the middle, es-TÊ-ja. Don't let it shrink into \"esta\" (this).",
+          "\"Estar\" gives \"esteja\": \"que eu esteja\", \"que você esteja\", \"que nós estejamos\", \"que eles estejam\". The stress sits on the closed ê in the middle, es-TÊ-zha. Don't let it shrink into \"esta\" (this).",
           "Ser and estar keep their usual jobs inside the subjunctive. \"Tomara que ele esteja bem\" is a hope about his state right now, and \"espero que ela esteja em casa\" is a hope about where she is. \"Seja\" stays for what something is, like a hotel that is good or an exam that is easy.",
         ],
         examples: [
@@ -89,7 +89,7 @@ export const PT_B1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Tomara que o restaurante não esteja cheio.",
-            tip: "Stress the middle of esteja: es-TÊ-ja, with a closed ê.",
+            tip: "Stress the middle of esteja: es-TÊ-zha, with a closed ê.",
             explanation: "\"Tomara que\" + \"esteja\": being packed is a temporary state, so it's \"estar\".",
           },
         ],
@@ -236,7 +236,7 @@ export const PT_B1_U02: Lesson[] = [
         type: "speak",
         text: "Espero que seja fácil.",
         prompt: "Say it in Portuguese: I hope it's easy.",
-        tip: "The e in seja is closed, SÊ-ja. Stress the á in fácil.",
+        tip: "The e in seja is closed, SÊ-zha. Stress the á in fácil.",
         explanation: "\"Espero que\" + \"seja\", the subjunctive of \"ser\".",
       },
       {
@@ -299,7 +299,7 @@ export const PT_B1_U02: Lesson[] = [
         heading: "Dê: give, with a hat",
         body: [
           "\"Dar\" gives \"dê\", \"dê\", \"demos\", \"deem\": \"quero que você me dê\", \"espero que eles deem\". The circumflex on \"dê\" separates it from the preposition \"de\" (of, from). \"Deem\" lost its accent in the spelling reform, so don't write *dêem.",
-          "The two words sound different too. \"Dê\" is stressed, with a closed e, like English day without the glide at the end. \"De\" is unstressed, so in most of Brazil it sounds like dji. You can hear both in \"dê de presente\" (give it as a gift).",
+          "The two words sound different too. \"Dê\" is stressed, with a closed e, like English day without the glide at the end. \"De\" is unstressed, so in most of Brazil it sounds like jee. You can hear both in \"dê de presente\" (give it as a gift).",
           "The use you'll hear most is \"dar certo\" (to work out), with no subject at all: \"tomara que dê certo\" (let's hope it works out).",
         ],
         examples: [
@@ -843,7 +843,7 @@ export const PT_B1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Parabéns! Que você tenha um ano incrível!",
-            tip: "Stress the end of parabéns: pa-ra-BẼINS. Despite the accent, the é here is a nasal vowel gliding to i, as in \"vem\", with no hard n.",
+            tip: "Stress the end of parabéns: pa-ra-BẼYS. Despite the accent, the é here is a nasal vowel gliding to i, as in \"vem\", with no hard n.",
             explanation: "A fixed phrase followed by a \"que\" wish: \"que você tenha\", the subjunctive built from \"tenho\".",
           },
         ],
@@ -970,7 +970,7 @@ export const PT_B1_U02: Lesson[] = [
         type: "speak",
         text: "Saúde! Um brinde à Mariana!",
         prompt: "Say it in Portuguese: Cheers! A toast to Mariana!",
-        tip: "Say saúde in three syllables, sa-Ú-dji: the final e sounds like i, so the d before it sounds like the j in 'jeans'.",
+        tip: "Say saúde in three syllables, sa-OO-jee: the final e sounds like ee, so the d before it sounds like the j in 'jeans'.",
         explanation: "\"Um brinde a\" + \"a Mariana\" gives \"à Mariana\", the crasis contraction.",
       },
       {
@@ -1001,7 +1001,7 @@ export const PT_B1_U02: Lesson[] = [
         heading: "Seja and esteja in every person",
         body: [
           "Two reminders: the subjunctive follows a trigger such as \"espero que\", \"tomara que\" or \"quero que\", and \"ser\" and \"estar\" don't build it from the eu form. The full sets are \"seja, sejamos, sejam\" and \"esteja, estejamos, estejam\". \"Eu\", \"você\", \"ele\", \"ela\" and \"a gente\" share the first form. \"Vocês\", \"eles\" and \"elas\" add -m.",
-          "You'll hear \"seje\" and \"esteje\" in casual speech, but they're nonstandard. Say and write \"seja\" and \"esteja\". In the nós form the stress moves to the ja: se-JA-mos, es-te-JA-mos.",
+          "You'll hear \"seje\" and \"esteje\" in casual speech, but they're nonstandard. Say and write \"seja\" and \"esteja\". In the nós form the stress moves to the ja: se-ZHA-moos, es-te-ZHA-moos.",
           "Choose between them as in the indicative: \"seja\" for what something is, \"esteja\" for a state or a place.",
         ],
         examples: [
@@ -1114,7 +1114,7 @@ export const PT_B1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Tomara que dê certo!",
-            tip: "Say dê with a closed ê, as in the English word 'day' without the glide, and the final o of certo like u.",
+            tip: "Say dê with a closed ê, as in the English word 'day' without the glide, and the final o of certo like oo.",
             explanation: "\"Dê certo\" is the subjunctive of \"dar certo\" (to work out), the most common wish in Brazil.",
           },
         ],
@@ -1184,7 +1184,7 @@ export const PT_B1_U02: Lesson[] = [
       {
         type: "dictation",
         audio: "Tomara que não haja trânsito.",
-        explanation: "\"Haja\" is singular, the subjunctive of \"há\". The h is silent: A-ja.",
+        explanation: "\"Haja\" is singular, the subjunctive of \"há\". The h is silent: A-zha.",
       },
       {
         type: "multiple-choice",
@@ -1209,7 +1209,7 @@ export const PT_B1_U02: Lesson[] = [
         type: "speak",
         text: "Espero que vocês estejam bem.",
         prompt: "Say it in Portuguese: I hope you're all well.",
-        tip: "Stress estejam on the middle syllable, es-TE-jam, and keep the final -am nasal.",
+        tip: "Stress estejam on the middle syllable, es-TÊ-zhãw, and keep the final -am nasal.",
         explanation: "Being well is a state, so \"estar\", and the vocês form of the subjunctive is \"estejam\".",
       },
     ],
@@ -1297,7 +1297,7 @@ export const PT_B1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Tomara que ele não esteja nervoso.",
-            tip: "Stress es-TE-ja with a closed e, as in \"você\".",
+            tip: "Stress es-TÊ-zha with a closed e, as in \"você\".",
             explanation: "Nervous at one moment is a state, so \"esteja nervoso\".",
           },
         ],
@@ -1708,7 +1708,7 @@ export const PT_B1_U02: Lesson[] = [
         type: "speak",
         text: "Boa viagem, e me manda notícias!",
         prompt: "Say it in Portuguese: Have a good trip, and keep in touch!",
-        tip: "In notícias the t before i sounds like the ch in 'cheese': no-TCHI-cias.",
+        tip: "In notícias the t before i sounds like the ch in 'cheese': no-CHEE-syas.",
         explanation: "\"Me manda notícias\" uses the everyday command with the pronoun first, the way Brazilians say it.",
       },
       {
@@ -1841,7 +1841,7 @@ export const PT_B1_U02: Lesson[] = [
             type: "speak",
             text: "Espero ver vocês no sábado.",
             prompt: "Say it in Portuguese: I hope to see you all on Saturday.",
-            tip: "The final -o in \"sábado\" sounds like u, and the stress falls on the first syllable: SÁ-ba-do.",
+            tip: "The final -o in \"sábado\" sounds like oo, and the stress falls on the first syllable: SÁ-ba-doo.",
             explanation: "You hope and you see, so it's the same subject and \"esperar\" takes the infinitive \"ver\".",
           },
         ],
@@ -2162,7 +2162,7 @@ export const PT_B1_U02: Lesson[] = [
         type: "speak",
         text: "Parabéns ao casal! Que vocês sejam muito felizes.",
         prompt: "Say it in Portuguese: Congratulations to the couple! May you be very happy.",
-        tip: "Stress parabéns on the last syllable, pa-ra-BẼINS: a nasal vowel gliding to i, as in \"vem\", with no clear n.",
+        tip: "Stress parabéns on the last syllable, pa-ra-BẼYS: a nasal vowel gliding to i, as in \"vem\", with no clear n.",
         explanation: "\"Ao casal\" is a + o. \"Sejam\" is plural because you're speaking to both of them.",
       },
       {
@@ -2415,7 +2415,7 @@ export const PT_B1_U02: Lesson[] = [
         type: "speak",
         text: "Espero que você goste do presente.",
         prompt: "Say it in Portuguese: I hope you like the gift.",
-        tip: "In goste the final -e sounds like i, and the t before it often sounds like the ch in cheese: gos-tchi.",
+        tip: "In goste the final -e sounds like ee, and the t before it often sounds like the ch in cheese: GÓS-chee.",
         explanation: "\"Gostar de\" + \"o presente\" = \"do presente\". After \"espero que\", \"gosto\" becomes \"goste\".",
       },
       {

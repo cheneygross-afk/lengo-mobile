@@ -50,7 +50,7 @@ export const PT_C1_U06_EXTRA: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Que legal, gostei muito!",
-            question: "Which European word would most likely replace legal in Lisbon?",
+            question: "Which European word would most likely replace \"legal\" in Lisbon?",
             options: ["fixe", "bacana", "massa", "show"],
             correctIndex: 0,
             explanation: "\"Fixe\" is Lisbon's everyday word for cool, the equivalent of the Brazilian \"legal\". \"Bacana\", \"massa\" and \"show\" are all Brazilian slang.",
@@ -131,7 +131,7 @@ export const PT_C1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In Portugal, você with a stranger can sound...",
+        question: "In Portugal, \"você\" with a stranger can sound...",
         options: ["distant or even impolite; o senhor or the name is safer.", "very warm and friendly.", "childish.", "exactly like in Brazil."],
         correctIndex: 0,
         explanation: "In Portugal a bare \"você\" to a stranger can sound distant or even rude, so people use \"o senhor\" / \"a senhora\", the person's name, or just the verb. In Brazil \"você\" is the friendly default.",
@@ -152,7 +152,7 @@ export const PT_C1_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "Me diz o que você acha.",
         prompt: "Say it in Brazilian Portuguese: Tell me what you think.",
-        tip: "Say \"me\" like mi and run it into the verb, with the d of \"diz\" as dj: mi-DJIS. Portugal would say \"diz-me o que achas\".",
+        tip: "Say \"me\" like mee and run it into the verb, with the d of \"diz\" as j: mee-JEES. Portugal would say \"diz-me o que achas\".",
         explanation: "Brazilian speech starts with the pronoun (\"me diz\") and uses \"você\" with the third-person verb (\"você acha\"). Portugal would say \"diz-me o que achas\".",
       },
       {
@@ -318,8 +318,8 @@ export const PT_C1_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "O português é falado em quatro continentes.",
         prompt: "Say it in Portuguese: Portuguese is spoken on four continents.",
-        tip: "Continentes: kõ-tchi-NẼN-tchis.",
-        explanation: "\"É falado\" is the passive with \"ser\" + participle, agreeing with \"o português\". The final -tes of \"continentes\" sounds like 'tchis' in Brazil.",
+        tip: "Continentes: kõ-chee-NẼN-chees.",
+        explanation: "\"É falado\" is the passive with \"ser\" + participle, agreeing with \"o português\". The final -tes of \"continentes\" sounds like chees in Brazil.",
       },
       {
         type: "matching",
@@ -521,9 +521,9 @@ export const PT_C1_U06_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which feature would you NOT expect in Lisbon speech?",
-        options: ["\"dia\" said as 'djia'", "\"estamos\" said with a sh sound", "\"telefone\" with almost no unstressed vowels", "\"também\" ending like 'ãi'"],
+        options: ["\"dia\" said as JEE-a", "\"estamos\" said with a sh sound", "\"telefone\" with almost no unstressed vowels", "\"também\" ending like 'ãi'"],
         correctIndex: 0,
-        explanation: "Lisbon keeps t and d hard before i; 'djia' is Brazilian.",
+        explanation: "Lisbon keeps t and d hard before i; JEE-a is Brazilian.",
       },
       {
         type: "word-order",
@@ -541,7 +541,7 @@ export const PT_C1_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "O Antônio fez uma ótima apresentação sobre o fenômeno.",
         prompt: "Say it in Brazilian Portuguese: Antônio gave a great presentation on the phenomenon.",
-        tip: "Brazilian closed ô in \"Antônio\" and \"fenômeno\": an-TÔ-nyu, fe-NÔ-me-nu.",
+        tip: "Brazilian closed ô in \"Antônio\" and \"fenômeno\": ã-TÔ-nyoo, fe-NÔ-me-noo.",
         explanation: "The circumflex marks the closed vowel Brazilians say before m and n: \"Antônio\", \"fenômeno\". Portugal writes \"António\" because it opens the vowel.",
       },
     ],

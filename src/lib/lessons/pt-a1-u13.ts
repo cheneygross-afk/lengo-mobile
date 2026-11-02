@@ -86,13 +86,13 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "What you do there",
         body: [
-          "Describe errands with verbs you know and \"no\" / \"na\": \"na padaria eu compro pão\", \"na farmácia eu compro remédio\", \"na banca eu compro o jornal\". At the bank, learn \"tirar dinheiro\" (take out money) as a chunk: \"no banco eu tiro dinheiro\".",
-          "Plural places take \"nos\" / \"nas\": \"nos correios eu mando cartas\". \"Mandar\" (to send) is a regular -ar verb. Errands are \"fazer compras\" in a store and \"fazer feira\", a lovely Brazilian chunk for doing the weekly market run.",
+          "Describe errands with verbs you know and \"no\" or \"na\": \"na padaria eu compro pão\", \"na farmácia eu compro remédio\", \"na banca eu compro o jornal\". At the bank, learn \"tirar dinheiro\" (take out money) as a chunk: \"no banco eu tiro dinheiro\".",
+          "Plural places take \"nos\" or \"nas\": \"nos correios eu mando cartas\". \"Mandar\" (to send) is a regular -ar verb. Errands are \"fazer compras\" in a store and \"fazer feira\", a lovely Brazilian chunk for doing the weekly market run.",
         ],
         examples: [
           { es: "Na padaria eu compro pão e leite.", en: "At the bakery I buy bread and milk." },
           { es: "No banco eu tiro dinheiro.", en: "At the bank I take out money." },
-          { es: "Nos correios eu mando um pacote.", en: "At the post office I send a parcel." },
+          { es: "Nos correios eu mando um pacote.", en: "At the post office I send a package." },
           { es: "Na farmácia ela compra remédio.", en: "At the pharmacy she buys medicine." },
           { es: "No sábado nós fazemos feira.", en: "On Saturday we do the market shopping." },
         ],
@@ -112,13 +112,13 @@ export const PT_A1_U13: Lesson[] = [
             en: "[At the post office] I send a letter.",
             sentence: "___ eu mando uma carta.",
             answer: "Nos correios",
-            explanation: "\"Os correios\" is plural, so em + os = \"nos\".",
+            explanation: "\"Os correios\" is plural, so em + os gives \"nos\".",
           },
           {
             type: "speak",
             text: "Na feira eu compro frutas.",
             prompt: "Say it in Portuguese: At the street market I buy fruit.",
-            tip: "FEI-ra: the r is a quick tap.",
+            tip: "Feira: 'FAY-rah', the r is a quick tap.",
             explanation: "\"Na feira\": em + a. \"Frutas\" in the plural for fruit in general.",
           },
         ],
@@ -240,14 +240,14 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "Ao and à: going somewhere",
         body: [
-          "With \"ir a\", the \"a\" joins the article of the place: a + o = \"ao\", a + a = \"à\". So \"vou ao mercado\", \"vou ao banco\", but \"vou à farmácia\", \"vou à praia\". \"Vou a o banco\" never appears in Portuguese.",
+          "With \"ir a\", the \"a\" joins the article of the place: a + o gives \"ao\", a + a gives \"à\". So \"vou ao mercado\", \"vou ao banco\", but \"vou à farmácia\", \"vou à praia\". \"Vou a o banco\" never appears in Portuguese.",
           "The grave accent on \"à\" is called \"crase\", and it only ever means a + a. In speech \"à\" sounds exactly like \"a\", so the trap is in writing: \"vou a praia\" is missing the article. Ask yourself whether you'd say \"a praia\" with the article. If yes, write \"à\".",
           "\"Ir para\" means the same and doesn't contract: \"vou para o mercado\", \"vou para a praia\".",
         ],
         examples: [
           { es: "Vou ao mercado.", en: "I'm going to the grocery store." },
           { es: "Ela vai à farmácia.", en: "She's going to the pharmacy." },
-          { es: "Vamos à praia no domingo?", en: "Shall we go to the beach on Sunday?" },
+          { es: "Vamos à praia no domingo?", en: "Should we go to the beach on Sunday?" },
           { es: "Eles vão ao shopping.", en: "They're going to the mall." },
           { es: "Você vai à feira hoje?", en: "Are you going to the street market today?" },
         ],
@@ -259,7 +259,7 @@ export const PT_A1_U13: Lesson[] = [
             source: "I'm going to the bank.",
             answer: "Vou ao banco.",
             altAnswers: ["Eu vou ao banco.", "Vou para o banco.", "Eu vou para o banco."],
-            explanation: "A + o = \"ao\" before a masculine place.",
+            explanation: "A + o gives \"ao\" before a masculine place.",
           },
           {
             type: "fill-blank",
@@ -267,7 +267,7 @@ export const PT_A1_U13: Lesson[] = [
             en: "She's going [to the] bakery.",
             sentence: "Ela vai ___ padaria.",
             answer: "à",
-            explanation: "\"A padaria\" is feminine: a + a = \"à\", with the crase.",
+            explanation: "\"A padaria\" is feminine: a + a gives \"à\", with the crase.",
           },
           {
             type: "listen-choose",
@@ -275,7 +275,7 @@ export const PT_A1_U13: Lesson[] = [
             question: "What does it mean?",
             options: ["I'm going to the beach.", "I'm at the beach.", "I'm going to the square.", "I'm coming from the beach."],
             correctIndex: 0,
-            explanation: "\"À\" = a + a: to the. At the beach would be \"na praia\".",
+            explanation: "\"À\" is a + a: to the. At the beach would be \"na praia\".",
           },
         ],
       },
@@ -360,7 +360,7 @@ export const PT_A1_U13: Lesson[] = [
         source: "I'm going to the street market on Saturday.",
         answer: "Vou à feira no sábado.",
         altAnswers: ["Eu vou à feira no sábado.", "No sábado vou à feira.", "No sábado eu vou à feira.", "Vou para a feira no sábado."],
-        explanation: "\"A feira\": a + a = \"à\".",
+        explanation: "\"A feira\": a + a gives \"à\".",
       },
       {
         type: "translate",
@@ -369,7 +369,7 @@ export const PT_A1_U13: Lesson[] = [
         source: "They're going to the stores.",
         answer: "Eles vão às lojas.",
         altAnswers: ["Elas vão às lojas.", "Eles vão para as lojas.", "Elas vão para as lojas."],
-        explanation: "A + as = \"às\".",
+        explanation: "A + as gives \"às\".",
       },
       {
         type: "translate",
@@ -424,10 +424,10 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Shall we go [to the] movies?",
+        en: "Should we go [to the] movies?",
         sentence: "Vamos ___ cinema?",
         answer: "ao",
-        explanation: "\"O cinema\" is masculine: a + o = \"ao\".",
+        explanation: "\"O cinema\" is masculine: a + o gives \"ao\".",
       },
       {
         type: "word-order",
@@ -463,13 +463,13 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "Pelo, pela: through, past, along",
         body: [
-          "\"Por\" joins the article too, but it changes shape: por + o = \"pelo\", por + a = \"pela\", and the plurals \"pelos\", \"pelas\". There's no \"por o\" in Portuguese, just as there's no \"em o\".",
+          "\"Por\" joins the article too, but it changes shape: por + o gives \"pelo\", por + a gives \"pela\", and the plurals \"pelos\", \"pelas\". There's no \"por o\" in Portuguese, just as there's no \"em o\".",
           "With \"passar\" (to pass, to go by), \"por\" means through, past or along: \"passo pela praça\" (I go through the square), \"o ônibus passa pelo centro\" (the bus goes through the center). Cities without an article take plain \"por\": \"o trem passa por Campinas\".",
         ],
         examples: [
           { es: "Eu passo pela praça todo dia.", en: "I go through the square every day." },
           { es: "O ônibus passa pelo centro.", en: "The bus goes through the center." },
-          { es: "Vamos pela praia?", en: "Shall we go along the beach?" },
+          { es: "Vamos pela praia?", en: "Should we go along the beach?" },
           { es: "O trem passa por Campinas.", en: "The train goes through Campinas." },
           { es: "Ela passa pelos correios às dez.", en: "She goes past the post office at ten." },
         ],
@@ -480,7 +480,7 @@ export const PT_A1_U13: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "The bus goes through the center.",
             answer: "O ônibus passa pelo centro.",
-            explanation: "Por + o = \"pelo\".",
+            explanation: "Por + o gives \"pelo\".",
           },
           {
             type: "fill-blank",
@@ -488,7 +488,7 @@ export const PT_A1_U13: Lesson[] = [
             en: "I go [through the] square.",
             sentence: "Eu passo ___ praça.",
             answer: "pela",
-            explanation: "\"A praça\" is feminine: por + a = \"pela\".",
+            explanation: "\"A praça\" is feminine: por + a gives \"pela\".",
           },
         ],
       },
@@ -496,7 +496,7 @@ export const PT_A1_U13: Lesson[] = [
         heading: "Obrigado pelo café: thanks for",
         body: [
           "\"Por\" is also the for in thanks: \"obrigado por\" + what you're thankful for, and it contracts like any other \"por\": \"obrigado pela ajuda\", \"obrigada pelo café\", \"obrigado pelas flores\".",
-          "Remember the two agreements. \"Obrigado\" / \"obrigada\" agrees with the speaker; \"pelo\" / \"pela\" agrees with the thing: a woman thanking for the coffee says \"obrigada pelo café\". \"Obrigado por a ajuda\" is the slip to avoid.",
+          "Remember the two agreements. \"Obrigado\" or \"obrigada\" agrees with the speaker; \"pelo\" or \"pela\" agrees with the thing: a woman thanking for the coffee says \"obrigada pelo café\". \"Obrigado por a ajuda\" is the slip to avoid.",
         ],
         examples: [
           { es: "Obrigado pela ajuda!", en: "Thanks for the help! (a man)" },
@@ -528,7 +528,7 @@ export const PT_A1_U13: Lesson[] = [
         heading: "Num, numa: in a",
         body: [
           "\"Em\" joins \"um\" and \"uma\" as well: \"num\", \"numa\", and the plurals \"nuns\", \"numas\". \"Moro num apartamento\", \"ela trabalha numa escola\". In careful writing, \"em um\" and \"em uma\" are just as correct and you'll see them in forms and news.",
-          "\"De\" can join \"um\" too: \"dum\", \"duma\". You'll hear and read these, but \"de um\" and \"de uma\" are what most Brazilians write, so recognise \"dum\" and use \"de um\".",
+          "\"De\" can join \"um\" too: \"dum\", \"duma\". You'll hear and read these, but \"de um\" and \"de uma\" are what most Brazilians write, so recognize \"dum\" and use \"de um\".",
         ],
         examples: [
           { es: "Moro num apartamento pequeno.", en: "I live in a small apartment." },
@@ -545,7 +545,7 @@ export const PT_A1_U13: Lesson[] = [
             source: "She works in a bank.",
             answer: "Ela trabalha num banco.",
             altAnswers: ["Ela trabalha em um banco."],
-            explanation: "Em + um = \"num\". \"Em um banco\" is also right.",
+            explanation: "Em + um gives \"num\". \"Em um banco\" is also right.",
           },
           {
             type: "listen-choose",
@@ -553,13 +553,13 @@ export const PT_A1_U13: Lesson[] = [
             question: "What does it mean?",
             options: ["I live in a big house.", "I live in the big house.", "I live near a big house.", "I'm going to a big house."],
             correctIndex: 0,
-            explanation: "\"Numa\" = em + uma: in a. In the would be \"na\".",
+            explanation: "\"Numa\" is em + uma: in a. In the would be \"na\".",
           },
           {
             type: "speak",
             text: "Obrigado pela ajuda!",
             prompt: "Say it in Portuguese: Thanks for the help! (as a man)",
-            explanation: "Por + a = \"pela\".",
+            explanation: "Por + a gives \"pela\".",
           },
         ],
       },
@@ -572,7 +572,7 @@ export const PT_A1_U13: Lesson[] = [
         source: "I go past the bakery every day.",
         answer: "Eu passo pela padaria todo dia.",
         altAnswers: ["Passo pela padaria todo dia.", "Eu passo pela padaria todos os dias.", "Passo pela padaria todos os dias."],
-        explanation: "\"Passar por\" + \"a padaria\" = \"pela padaria\".",
+        explanation: "\"Passar por\" + \"a padaria\" gives \"pela padaria\".",
       },
       {
         type: "translate",
@@ -605,7 +605,7 @@ export const PT_A1_U13: Lesson[] = [
           "Moramos numa casa antiga.",
           "Nós moramos numa casa antiga.",
         ],
-        explanation: "Em + uma = \"numa\".",
+        explanation: "Em + uma gives \"numa\".",
       },
       {
         type: "translate",
@@ -614,7 +614,7 @@ export const PT_A1_U13: Lesson[] = [
         source: "He works in a hospital.",
         answer: "Ele trabalha num hospital.",
         altAnswers: ["Ele trabalha em um hospital."],
-        explanation: "Em + um = \"num\".",
+        explanation: "Em + um gives \"num\".",
       },
       {
         type: "translate",
@@ -627,10 +627,10 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Shall we go [along the] beach?",
+        en: "Should we go [along the] beach?",
         sentence: "Vamos ___ praia?",
         answer: "pela",
-        explanation: "\"A praia\": por + a = \"pela\".",
+        explanation: "\"A praia\": por + a gives \"pela\".",
       },
       {
         type: "fill-blank",
@@ -639,7 +639,7 @@ export const PT_A1_U13: Lesson[] = [
         sentence: "Vamos jantar ___ restaurante.",
         answer: "num",
         altAnswers: ["em um"],
-        explanation: "\"Um restaurante\": em + um = \"num\".",
+        explanation: "\"Um restaurante\": em + um gives \"num\".",
       },
       {
         type: "fill-blank",
@@ -647,14 +647,14 @@ export const PT_A1_U13: Lesson[] = [
         en: "Thank you for [the] flowers! (a woman speaking)",
         sentence: "Obrigada ___ flores!",
         answer: "pelas",
-        explanation: "\"As flores\": por + as = \"pelas\".",
+        explanation: "\"As flores\": por + as gives \"pelas\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The bus goes past the hospital.",
         words: ["O", "ônibus", "passa", "pelo", "hospital."],
         translation: "The bus goes past the hospital.",
-        explanation: "Por + o = \"pelo\".",
+        explanation: "Por + o gives \"pelo\".",
       },
       {
         type: "listen-choose",
@@ -667,7 +667,7 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "dictation",
         audio: "Ela trabalha numa farmácia.",
-        explanation: "\"Numa\" = em + uma.",
+        explanation: "\"Numa\" is em + uma.",
       },
     ],
   },
@@ -700,7 +700,7 @@ export const PT_A1_U13: Lesson[] = [
             source: "I'm from Bahia.",
             answer: "Sou da Bahia.",
             altAnswers: ["Eu sou da Bahia."],
-            explanation: "\"A Bahia\" takes an article: de + a = \"da\".",
+            explanation: "\"A Bahia\" takes an article: de + a gives \"da\".",
           },
           {
             type: "fill-blank",
@@ -708,7 +708,7 @@ export const PT_A1_U13: Lesson[] = [
             en: "We live [in] Paraná.",
             sentence: "Moramos ___ Paraná.",
             answer: "no",
-            explanation: "\"O Paraná\": em + o = \"no\".",
+            explanation: "\"O Paraná\": em + o gives \"no\".",
           },
         ],
       },
@@ -780,7 +780,7 @@ export const PT_A1_U13: Lesson[] = [
             en: "I live [in the] Northeast.",
             sentence: "Moro ___ Nordeste.",
             answer: "no",
-            explanation: "The regions take \"o\": em + o = \"no\".",
+            explanation: "The regions take \"o\": em + o gives \"no\".",
           },
           {
             type: "speak",
@@ -799,7 +799,7 @@ export const PT_A1_U13: Lesson[] = [
         source: "My parents are from Ceará.",
         answer: "Meus pais são do Ceará.",
         altAnswers: ["Os meus pais são do Ceará."],
-        explanation: "\"O Ceará\": de + o = \"do\".",
+        explanation: "\"O Ceará\": de + o gives \"do\".",
       },
       {
         type: "translate",
@@ -826,7 +826,7 @@ export const PT_A1_U13: Lesson[] = [
         source: "I'm going to Pará in July.",
         answer: "Vou ao Pará em julho.",
         altAnswers: ["Eu vou ao Pará em julho.", "Vou para o Pará em julho.", "Eu vou para o Pará em julho."],
-        explanation: "\"O Pará\": a + o = \"ao\".",
+        explanation: "\"O Pará\": a + o gives \"ao\".",
       },
       {
         type: "translate",
@@ -852,7 +852,7 @@ export const PT_A1_U13: Lesson[] = [
         en: "My grandmother is [from] Bahia.",
         sentence: "Minha avó é ___ Bahia.",
         answer: "da",
-        explanation: "\"A Bahia\": de + a = \"da\".",
+        explanation: "\"A Bahia\": de + a gives \"da\".",
       },
       {
         type: "fill-blank",
@@ -869,7 +869,7 @@ export const PT_A1_U13: Lesson[] = [
         sentence: "Vamos ___ Rio de Janeiro.",
         answer: "ao",
         altAnswers: ["para o"],
-        explanation: "\"O Rio de Janeiro\": a + o = \"ao\".",
+        explanation: "\"O Rio de Janeiro\": a + o gives \"ao\".",
       },
       {
         type: "translate",
@@ -920,7 +920,7 @@ export const PT_A1_U13: Lesson[] = [
     level: "PT-A1",
     number: 5,
     title: "Contrast Clinic: De, Do or Da? Em, No or Na?",
-    summary: "Minimal pairs that isolate the article: sou de Curitiba / sou do Paraná, estou em casa / estou na casa da Ana, gosto de praia / gosto da praia de Ipanema.",
+    summary: "Minimal pairs that isolate the article: sou de Curitiba or sou do Paraná, estou em casa or estou na casa da Ana, gosto de praia or gosto da praia de Ipanema.",
     duration: "12 min",
     sections: [
       {
@@ -1104,7 +1104,7 @@ export const PT_A1_U13: Lesson[] = [
         sentence: "Vou ___ Bahia em janeiro.",
         answer: "à",
         altAnswers: ["para a"],
-        explanation: "\"A Bahia\": a + a = \"à\".",
+        explanation: "\"A Bahia\": a + a gives \"à\".",
       },
       {
         type: "fill-blank",
@@ -1155,7 +1155,7 @@ export const PT_A1_U13: Lesson[] = [
         heading: "Onde é? Onde fica?",
         body: [
           "To ask where a known place is, say \"onde é...?\" or \"onde fica...?\" + the place with its article: \"onde é o banco?\", \"onde fica a farmácia?\". \"Fica\" (from \"ficar\") is the everyday verb for where buildings and streets are. Learn \"onde fica\" as a chunk.",
-          "To ask whether a place exists nearby, use \"tem\" with \"um\" / \"uma\": \"tem uma farmácia aqui perto?\". \"Onde está...?\" works for things and people that move: \"onde está o Lucas?\", \"onde está a chave?\".",
+          "To ask whether a place exists nearby, use \"tem\" with \"um\" or \"uma\": \"tem uma farmácia aqui perto?\". \"Onde está...?\" works for things and people that move: \"onde está o Lucas?\", \"onde está a chave?\".",
         ],
         examples: [
           { es: "Onde é o banco, por favor?", en: "Where's the bank, please?" },
@@ -1204,7 +1204,7 @@ export const PT_A1_U13: Lesson[] = [
             source: "Is it far from here?",
             answer: "É longe daqui?",
             altAnswers: ["Fica longe daqui?"],
-            explanation: "\"Daqui\" = de + aqui.",
+            explanation: "\"Daqui\" is de + aqui.",
           },
           {
             type: "fill-blank",
@@ -1212,7 +1212,7 @@ export const PT_A1_U13: Lesson[] = [
             en: "It's [on the] street behind.",
             sentence: "É ___ rua de trás.",
             answer: "na",
-            explanation: "\"Rua\" is feminine: em + a = \"na\".",
+            explanation: "\"Rua\" is feminine: em + a gives \"na\".",
           },
           {
             type: "listen-choose",
@@ -1245,7 +1245,7 @@ export const PT_A1_U13: Lesson[] = [
             source: "The bank is across from the church.",
             answer: "O banco fica em frente à igreja.",
             altAnswers: ["O banco é em frente à igreja."],
-            explanation: "\"Em frente a\" + \"a igreja\" = \"em frente à igreja\".",
+            explanation: "\"Em frente a\" + \"a igreja\" gives \"em frente à igreja\".",
           },
           {
             type: "fill-blank",
@@ -1254,7 +1254,7 @@ export const PT_A1_U13: Lesson[] = [
             sentence: "A padaria fica ___ farmácia.",
             answer: "do lado da",
             altAnswers: ["ao lado da"],
-            explanation: "\"Do lado de\" + \"a\" = \"do lado da\".",
+            explanation: "\"Do lado de\" + \"a\" gives \"do lado da\".",
           },
           {
             type: "speak",
@@ -1326,7 +1326,7 @@ export const PT_A1_U13: Lesson[] = [
         en: "The hotel is far [from the] beach.",
         sentence: "O hotel é longe ___ praia.",
         answer: "da",
-        explanation: "\"Longe de\" + \"a praia\" = \"longe da praia\".",
+        explanation: "\"Longe de\" + \"a praia\" gives \"longe da praia\".",
       },
       {
         type: "fill-blank",
@@ -1350,7 +1350,7 @@ export const PT_A1_U13: Lesson[] = [
         prompt: "Put the words in order to say: The bus stop is across from the hospital.",
         words: ["O", "ponto", "de", "ônibus", "é", "em", "frente", "ao", "hospital."],
         translation: "The bus stop is across from the hospital.",
-        explanation: "\"Em frente a\" + \"o hospital\" = \"em frente ao\".",
+        explanation: "\"Em frente a\" + \"o hospital\" gives \"em frente ao\".",
       },
       {
         type: "listen-choose",
@@ -1452,7 +1452,7 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "The feira and the mercado",
         body: [
-          "Mariana asks about the market. Dona Célia explains that \"a feira é no sábado\" and that the mercado is \"do lado da praça\". To say thank you, Mariana uses this unit's \"pelo\" / \"pela\": \"obrigada pela ajuda\". Dona Célia replies \"imagina!\" (don't mention it), from Unit 9.",
+          "Mariana asks about the market. Dona Célia explains that \"a feira é no sábado\" and that the mercado is \"do lado da praça\". To say thank you, Mariana uses this unit's \"pelo\" or \"pela\": \"obrigada pela ajuda\". Dona Célia replies \"imagina!\" (don't mention it), from Unit 9.",
           "Notice who says what: Mariana says \"obrigada\" because she's a woman, and Dona Célia offers help with \"qualquer coisa, é só falar\" (if you need anything, just say).",
         ],
         examples: [
@@ -1470,7 +1470,7 @@ export const PT_A1_U13: Lesson[] = [
             source: "Thanks for the help, Dona Célia! (a woman speaking)",
             answer: "Obrigada pela ajuda, Dona Célia!",
             altAnswers: ["Muito obrigada pela ajuda, Dona Célia!"],
-            explanation: "Por + a = \"pela\"; a woman says \"obrigada\".",
+            explanation: "Por + a gives \"pela\"; a woman says \"obrigada\".",
           },
           {
             type: "fill-blank",
@@ -1478,13 +1478,13 @@ export const PT_A1_U13: Lesson[] = [
             en: "The market is [on Saturday].",
             sentence: "A feira é ___.",
             answer: "no sábado",
-            explanation: "Days take \"no\" / \"na\": \"no sábado\".",
+            explanation: "Days take \"no\" or \"na\": \"no sábado\".",
           },
           {
             type: "speak",
             text: "Imagina! Qualquer coisa, é só falar.",
             prompt: "Say it in Portuguese: Don't mention it! If you need anything, just say.",
-            tip: "i-ma-JI-na: the g before i sounds like the s in measure.",
+            tip: "Imagina: 'ee-mah-ZHEE-nah', the g before i sounds like the s in measure.",
             explanation: "\"Imagina\" answers thanks warmly.",
           },
         ],
@@ -1541,7 +1541,7 @@ export const PT_A1_U13: Lesson[] = [
         en: "The bakery is [across from the] square.",
         sentence: "A padaria é ___ praça.",
         answer: "em frente à",
-        explanation: "\"Em frente a\" + \"a praça\" = \"em frente à\".",
+        explanation: "\"Em frente a\" + \"a praça\" gives \"em frente à\".",
       },
       {
         type: "fill-blank",
@@ -1565,7 +1565,7 @@ export const PT_A1_U13: Lesson[] = [
         prompt: "Put the words in order to say: Is the bank far from here?",
         words: ["O", "banco", "é", "longe", "daqui?"],
         translation: "Is the bank far from here?",
-        explanation: "\"Daqui\" = de + aqui.",
+        explanation: "\"Daqui\" is de + aqui.",
       },
       {
         type: "multiple-choice",
@@ -1605,8 +1605,8 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "Errors 1 to 4: a o, a praia, por a, de a",
         body: [
-          "Each sentence has one mistake. The first four leave the preposition and the article apart. \"Vou a o banco\" must be \"vou ao banco\"; \"passo por a praça\" must be \"passo pela praça\"; \"sou de a Bahia\" must be \"sou da Bahia\". \"A\", \"de\", \"em\" and \"por\" always fuse with \"o\" / \"a\".",
-          "\"Vou a praia\" is the reverse slip: it drops the article. \"A praia\" has one, so a + a = \"à praia\". In speech you can't hear the difference, so check in writing.",
+          "Each sentence has one mistake. The first four leave the preposition and the article apart. \"Vou a o banco\" must be \"vou ao banco\"; \"passo por a praça\" must be \"passo pela praça\"; \"sou de a Bahia\" must be \"sou da Bahia\". \"A\", \"de\", \"em\" and \"por\" always fuse with \"o\" or \"a\".",
+          "\"Vou a praia\" is the reverse slip: it drops the article. \"A praia\" has one, so a + a gives \"à praia\". In speech you can't hear the difference, so check in writing.",
         ],
         examples: [
           { es: "Vou ao banco.", en: "I'm going to the bank." },
@@ -1631,7 +1631,7 @@ export const PT_A1_U13: Lesson[] = [
             en: "I go [through the] square. (fix: passo por a praça)",
             sentence: "Passo ___ praça.",
             answer: "pela",
-            explanation: "Por + a = \"pela\".",
+            explanation: "Por + a gives \"pela\".",
           },
           {
             type: "listen-choose",
@@ -1679,7 +1679,7 @@ export const PT_A1_U13: Lesson[] = [
         heading: "Errors 7 to 10: em frente a igreja, à pé, na casa, por a ajuda",
         body: [
           "\"Em frente a igreja\" is missing the crase: \"em frente à igreja\". \"Vou à pé\" has one too many: \"a pé\" has no article, so no accent.",
-          "\"Estou na casa\" for I'm at home sounds unfinished: whose house? Your own home is \"em casa\". And thanks need \"pelo\" / \"pela\": \"obrigado por a ajuda\" must be \"obrigado pela ajuda\".",
+          "\"Estou na casa\" for I'm at home sounds unfinished: whose house? Your own home is \"em casa\". And thanks need \"pelo\" or \"pela\": \"obrigado por a ajuda\" must be \"obrigado pela ajuda\".",
         ],
         examples: [
           { es: "O banco é em frente à igreja.", en: "The bank is across from the church." },
@@ -1710,7 +1710,7 @@ export const PT_A1_U13: Lesson[] = [
             type: "speak",
             text: "Obrigado pela ajuda!",
             prompt: "Say it in Portuguese: Thanks for the help! (fix: obrigado por a ajuda)",
-            explanation: "Por + a = \"pela\".",
+            explanation: "Por + a gives \"pela\".",
           },
         ],
       },
@@ -1723,7 +1723,7 @@ export const PT_A1_U13: Lesson[] = [
         source: "We're going to the beach. (fix: vamos a praia)",
         answer: "Vamos à praia.",
         altAnswers: ["Nós vamos à praia.", "Vamos para a praia.", "Nós vamos para a praia."],
-        explanation: "\"A praia\": a + a = \"à\".",
+        explanation: "\"A praia\": a + a gives \"à\".",
       },
       {
         type: "translate",
@@ -1731,7 +1731,7 @@ export const PT_A1_U13: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "She's from Bahia. (fix: ela é de a Bahia)",
         answer: "Ela é da Bahia.",
-        explanation: "De + a = \"da\".",
+        explanation: "De + a gives \"da\".",
       },
       {
         type: "translate",
@@ -1749,7 +1749,7 @@ export const PT_A1_U13: Lesson[] = [
         source: "The pharmacy is across from the church. (fix: em frente a igreja)",
         answer: "A farmácia é em frente à igreja.",
         altAnswers: ["A farmácia fica em frente à igreja."],
-        explanation: "\"Em frente a\" + \"a igreja\" = \"em frente à\".",
+        explanation: "\"Em frente a\" + \"a igreja\" gives \"em frente à\".",
       },
       {
         type: "translate",
@@ -1758,7 +1758,7 @@ export const PT_A1_U13: Lesson[] = [
         source: "Thanks for the help! (a woman; fix: obrigada por a ajuda)",
         answer: "Obrigada pela ajuda!",
         altAnswers: ["Muito obrigada pela ajuda!"],
-        explanation: "Por + a = \"pela\".",
+        explanation: "Por + a gives \"pela\".",
       },
       {
         type: "translate",
@@ -1781,7 +1781,7 @@ export const PT_A1_U13: Lesson[] = [
         en: "The bus goes [through the] center. (fix: por o centro)",
         sentence: "O ônibus passa ___ centro.",
         answer: "pelo",
-        explanation: "Por + o = \"pelo\".",
+        explanation: "Por + o gives \"pelo\".",
       },
       {
         type: "fill-blank",
@@ -1789,7 +1789,7 @@ export const PT_A1_U13: Lesson[] = [
         en: "I'm going [to the] post office. (fix: a os correios)",
         sentence: "Vou ___ correios.",
         answer: "aos",
-        explanation: "A + os = \"aos\".",
+        explanation: "A + os gives \"aos\".",
       },
       {
         type: "fill-blank",
@@ -1832,8 +1832,8 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "Ao, à, aos, às",
         body: [
-          "Change the place and only the little word moves: \"vou ao mercado\" → \"vou à farmácia\" → \"vou aos correios\" → \"vou às lojas\". Masculine gives \"ao\", feminine \"à\", and the plurals \"aos\" and \"às\". The verb never changes.",
-          "If the new place has no article, the plain \"a\" comes back: \"vou ao Rio\" → \"vou a Salvador\".",
+          "Change the place and only the little word moves: \"vou ao mercado\", then \"vou à farmácia\", \"vou aos correios\" and \"vou às lojas\". Masculine gives \"ao\", feminine \"à\", and the plurals \"aos\" and \"às\". The verb never changes.",
+          "If the new place has no article, the plain \"a\" comes back: \"vou ao Rio\" becomes \"vou a Salvador\".",
         ],
         examples: [
           { es: "Vou ao mercado. Vou à farmácia.", en: "I'm going to the grocery store. I'm going to the pharmacy." },
@@ -1846,7 +1846,7 @@ export const PT_A1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I'm going to the bank. → I'm going [to the] street market.",
+            en: "I'm going to the bank. Now: I'm going [to the] street market.",
             sentence: "Vou ___ feira.",
             answer: "à",
             explanation: "\"Banco\" is masculine (\"ao\"), \"feira\" feminine (\"à\").",
@@ -1854,7 +1854,7 @@ export const PT_A1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We're going to the beach. → We're going [to the] stores.",
+            en: "We're going to the beach. Now: We're going [to the] stores.",
             sentence: "Vamos ___ lojas.",
             answer: "às",
             explanation: "Feminine plural: \"às lojas\".",
@@ -1864,7 +1864,7 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "No, na, em: where you live",
         body: [
-          "\"Moro no Rio\" → \"moro em São Paulo\" → \"moro na Bahia\" → \"moro nos Estados Unidos\". With an article, \"em\" fuses (\"no\", \"na\", \"nos\", \"nas\"); without one, it stays \"em\".",
+          "\"Moro no Rio\", then \"moro em São Paulo\", \"moro na Bahia\" and \"moro nos Estados Unidos\". With an article, \"em\" fuses (\"no\", \"na\", \"nos\", \"nas\"); without one, it stays \"em\".",
           "With a bairro or a building, use the same test: \"moro no centro\", \"moro na Vila Madalena\", \"moro em Copacabana\". Neighborhood names vary, so copy what locals say.",
         ],
         examples: [
@@ -1882,7 +1882,7 @@ export const PT_A1_U13: Lesson[] = [
             source: "I live in Bahia.",
             answer: "Moro na Bahia.",
             altAnswers: ["Eu moro na Bahia."],
-            explanation: "\"A Bahia\": em + a = \"na\".",
+            explanation: "\"A Bahia\": em + a gives \"na\".",
           },
           {
             type: "translate",
@@ -1898,14 +1898,14 @@ export const PT_A1_U13: Lesson[] = [
             question: "What does it mean?",
             options: ["We live in the United States.", "We live in Brazil.", "They live in the United States.", "We're from the United States."],
             correctIndex: 0,
-            explanation: "\"Nos\" = em + os, for the plural \"os Estados Unidos\".",
+            explanation: "\"Nos\" is em + os, for the plural \"os Estados Unidos\".",
           },
         ],
       },
       {
         heading: "Do, da, de: where you're from",
         body: [
-          "Origin moves the same way: \"sou do Ceará\" → \"sou de Goiás\" → \"sou da Bahia\". Change the person too, and the verb and the gentílico follow: \"ele é baiano\" → \"elas são baianas\".",
+          "Origin moves the same way: \"sou do Ceará\", then \"sou de Goiás\" and \"sou da Bahia\". Change the person too, and the verb and the gentílico follow: \"ele é baiano\" becomes \"elas são baianas\".",
           "Several changes at once is where slips happen, so take one step at a time: the person and verb first, then the place and its little word.",
         ],
         examples: [
@@ -1928,7 +1928,7 @@ export const PT_A1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "He's from Paraná. → They're [from] Pernambuco.",
+            en: "He's from Paraná. Now: They're [from] Pernambuco.",
             sentence: "Eles são ___ Pernambuco.",
             answer: "de",
             explanation: "\"O Paraná\" gives \"do\"; Pernambuco has no article, so \"de\".",
@@ -1982,11 +1982,11 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Portuguese.",
-        source: "I work at the bank. → I work at the pharmacy.",
+        prompt: "Change the place from the bank to the pharmacy and translate into Portuguese.",
+        source: "I work at the pharmacy.",
         answer: "Trabalho na farmácia.",
         altAnswers: ["Eu trabalho na farmácia."],
-        explanation: "\"No banco\" → \"na farmácia\": feminine.",
+        explanation: "\"No banco\" becomes \"na farmácia\": feminine.",
       },
       {
         type: "translate",
@@ -2000,15 +2000,15 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "She comes from the bank. → She comes [from the] street market.",
+        en: "She comes from the bank. Now: She comes [from the] street market.",
         sentence: "Ela vem ___ feira.",
         answer: "da",
-        explanation: "\"A feira\": de + a = \"da\".",
+        explanation: "\"A feira\": de + a gives \"da\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I'm in Brazil. → I'm [in] Portugal.",
+        en: "I'm in Brazil. Now: I'm [in] Portugal.",
         sentence: "Estou ___ Portugal.",
         answer: "em",
         explanation: "Portugal takes no article.",
@@ -2016,7 +2016,7 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "He's mineiro. → They're [mineiras]. (women)",
+        en: "He's mineiro. Now: They're [mineiras]. (women)",
         sentence: "Elas são ___.",
         answer: "mineiras",
         explanation: "Feminine plural gentílico.",
@@ -2085,7 +2085,7 @@ export const PT_A1_U13: Lesson[] = [
             en: "Then I'm going [to the] street market.",
             sentence: "Depois vou ___ feira.",
             answer: "à",
-            explanation: "\"A feira\": a + a = \"à\".",
+            explanation: "\"A feira\": a + a gives \"à\".",
           },
         ],
       },
@@ -2138,11 +2138,11 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "Lunch: where to meet",
         body: [
-          "End with an invitation and a meeting point: \"vamos almoçar juntos?\" (shall we have lunch together?), \"ao meio-dia\", \"no Mercado Municipal\", \"em frente à igreja\". Close with \"tchau\" or \"beijos\", the friendly sign-off for friends.",
+          "End with an invitation and a meeting point: \"vamos almoçar juntos?\" (should we have lunch together?), \"ao meio-dia\", \"no Mercado Municipal\", \"em frente à igreja\". Close with \"tchau\" or \"beijos\", the friendly sign-off for friends.",
           "Check your contractions once more before you send: \"ao meio-dia\", \"à uma\", \"no restaurante\", \"pela praça\" if you pass through it.",
         ],
         examples: [
-          { es: "Vamos almoçar juntos?", en: "Shall we have lunch together?" },
+          { es: "Vamos almoçar juntos?", en: "Should we have lunch together?" },
           { es: "Ao meio-dia, no Mercado Municipal.", en: "At noon, at the Mercado Municipal." },
           { es: "Eu passo pela praça e encontro você lá.", en: "I'll go through the square and meet you there." },
           { es: "O restaurante fica em frente à igreja.", en: "The restaurant is across from the church." },
@@ -2153,7 +2153,7 @@ export const PT_A1_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Shall we have lunch at noon?",
+            source: "Should we have lunch at noon?",
             answer: "Vamos almoçar ao meio-dia?",
             explanation: "\"Ao meio-dia\": \"meio-dia\" is masculine.",
           },
@@ -2232,10 +2232,10 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Shall we have lunch [at the] Mercado Municipal?",
+        en: "Should we have lunch [at the] Mercado Municipal?",
         sentence: "Vamos almoçar ___ Mercado Municipal?",
         answer: "no",
-        explanation: "\"O Mercado Municipal\": em + o = \"no\".",
+        explanation: "\"O Mercado Municipal\": em + o gives \"no\".",
       },
       {
         type: "fill-blank",
@@ -2243,7 +2243,7 @@ export const PT_A1_U13: Lesson[] = [
         en: "I go [through the] square at eleven.",
         sentence: "Passo ___ praça às onze.",
         answer: "pela",
-        explanation: "Por + a = \"pela\".",
+        explanation: "Por + a gives \"pela\".",
       },
       {
         type: "fill-blank",
@@ -2286,8 +2286,8 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "Across town: who's where right now",
         body: [
-          "It's Saturday morning at the Oliveira family's in Belo Horizonte. Where someone is right now takes \"estar\" + \"no\" / \"na\": \"meu irmão está no trabalho\", \"minha avó está na feira\", \"o papai está no banco\". At home is \"em casa\"; at someone else's place is \"na casa de...\".",
-          "Possessives agree with the person: \"minha avó\", \"meus primos\". For his or her, \"dele\" / \"dela\" after the noun: \"o carro dela\".",
+          "It's Saturday morning at the Oliveira family's in Belo Horizonte. Where someone is right now takes \"estar\" + \"no\" or \"na\": \"meu irmão está no trabalho\", \"minha avó está na feira\", \"o papai está no banco\". At home is \"em casa\"; at someone else's place is \"na casa de...\".",
+          "Possessives agree with the person: \"minha avó\", \"meus primos\". For his or her, \"dele\" or \"dela\" after the noun: \"o carro dela\".",
         ],
         examples: [
           { es: "Meu irmão está no trabalho.", en: "My brother is at work." },
@@ -2385,7 +2385,7 @@ export const PT_A1_U13: Lesson[] = [
             en: "My brother is coming [from] work.",
             sentence: "Meu irmão vem ___ trabalho.",
             answer: "do",
-            explanation: "\"Vir de\" + \"o trabalho\" = \"do trabalho\".",
+            explanation: "\"Vir de\" + \"o trabalho\" gives \"do trabalho\".",
           },
           {
             type: "speak",
@@ -2456,7 +2456,7 @@ export const PT_A1_U13: Lesson[] = [
         en: "My brother leaves [the] bank at five.",
         sentence: "Meu irmão sai ___ banco às cinco.",
         answer: "do",
-        explanation: "\"Sair de\" + \"o banco\" = \"do banco\".",
+        explanation: "\"Sair de\" + \"o banco\" gives \"do banco\".",
       },
       {
         type: "fill-blank",
@@ -2511,7 +2511,7 @@ export const PT_A1_U13_WRITING: WriteExercise = {
   rubric: [
     "Say what's near your home with \"tem\" and place words that contract (\"perto da\", \"do lado do\", \"em frente à\").",
     "Give your Saturday plan with times and places: \"às nove vou ao banco\", \"depois vou à feira\".",
-    "Use \"pelo\" / \"pela\" or \"num\" / \"numa\" at least once (\"passo pela praça\", \"moro num apartamento\").",
+    "Use \"pelo\", \"pela\", \"num\" or \"numa\" at least once (\"passo pela praça\", \"moro num apartamento\").",
     "Suggest where to meet for lunch (\"Vamos almoçar no...?\") and sign off warmly.",
   ],
   modelAnswer: "Oi, Beatriz! Eu moro num apartamento pequeno no centro de Curitiba. Tem uma padaria na esquina e a farmácia fica do lado do mercado. No sábado, às nove, vou ao banco e depois vou à feira. Eu passo pela praça e encontro você em frente à igreja. Vamos almoçar no Mercado Municipal ao meio-dia? Beijos, Lucas",

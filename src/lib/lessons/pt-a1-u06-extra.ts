@@ -15,8 +15,8 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
       {
         heading: "From the answer back to the question",
         body: [
-          "Put the question word first and keep the statement's order: \"Você mora em Recife\" → \"Onde você mora?\". \"O que\" is what, \"quem\" who, \"onde\" where, \"de onde\" where from (the \"de\" moves to the front), \"quando\" when, \"como\" how or what it's like.",
-          "\"Qual\" / \"quais\" picks from possible answers: \"qual é o seu nome?\", \"qual é o seu telefone?\". \"Quanto\" agrees with its noun: \"quantos anos\", \"quantas pessoas\"; alone it asks the price. \"Por que\" asks why, \"porque\" answers, and \"por quê?\" ends a sentence.",
+          "Put the question word first and keep the statement's order: \"Você mora em Recife\" becomes \"Onde você mora?\". \"O que\" is what, \"quem\" who, \"onde\" where, \"de onde\" where from (the \"de\" moves to the front), \"quando\" when, \"como\" how or what it's like.",
+          "\"Qual\" or \"quais\" picks from possible answers: \"qual é o seu nome?\", \"qual é o seu telefone?\". \"Quanto\" agrees with its noun: \"quantos anos\", \"quantas pessoas\"; alone it asks the price. \"Por que\" asks why, \"porque\" answers, and \"por quê?\" ends a sentence.",
         ],
         examples: [
           { es: "Sou de Manaus. De onde você é?", en: "I'm from Manaus. Where are you from?" },
@@ -195,7 +195,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
       {
         heading: "Numbers that agree, and money",
         body: [
-          "Tens and units join with \"e\": \"quarenta e sete\", \"noventa e nove\"; so do hundreds: \"cento e vinte\". 100 is \"cem\", but \"cento\" once anything follows. \"Um\" / \"uma\", \"dois\" / \"duas\" and the hundreds from 200 agree with a feminine noun: \"vinte e duas pessoas\", \"duzentas casas\", but \"duzentos reais\".",
+          "Tens and units join with \"e\": \"quarenta e sete\", \"noventa e nove\"; so do hundreds: \"cento e vinte\". 100 is \"cem\", but \"cento\" once anything follows. \"Um\" and \"uma\", \"dois\" and \"duas\", and the hundreds from 200 agree with a feminine noun: \"vinte e duas pessoas\", \"duzentas casas\", but \"duzentos reais\".",
           "Brazil writes R$ 1.250,90: a point for thousands, a comma for cents. Say \"mil duzentos e cinquenta reais e noventa centavos\", or in stores \"mil duzentos e cinquenta e noventa\". On the phone, six is often \"meia\".",
         ],
         examples: [
@@ -297,7 +297,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The theatre has [three hundred] chairs.",
+        en: "The theater has [three hundred] chairs.",
         sentence: "O teatro tem ___ cadeiras.",
         answer: "trezentas",
         explanation: "\"Cadeira\" is feminine, so \"trezentas\".",
@@ -375,7 +375,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
         heading: "Hours, days and dates",
         body: [
           "\"Que horas são?\": \"é uma hora\", \"é meio-dia\", but \"são duas horas\". Add minutes with \"e\" (\"e quinze\", \"e meia\") and count down with \"para\": \"quinze para as três\". \"A que horas...?\" asks when; answer \"às oito\", \"à uma\", \"ao meio-dia\".",
-          "Days take \"no\" / \"na\" (\"no sábado\", \"na segunda\"), and \"nos\" / \"nas\" for habits. Months take \"em\": \"em julho\". Dates are day first: \"dia 7 de setembro\", \"primeiro de janeiro\". Days and months are lowercase.",
+          "Days take \"no\" or \"na\" (\"no sábado\", \"na segunda\"), and \"nos\" or \"nas\" for habits. Months take \"em\": \"em julho\". Dates are day first: \"dia 7 de setembro\", \"primeiro de janeiro\". Days and months are lowercase.",
         ],
         examples: [
           { es: "São sete e meia.", en: "It's half past seven." },

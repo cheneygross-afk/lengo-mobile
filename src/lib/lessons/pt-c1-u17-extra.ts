@@ -258,7 +258,7 @@ export const PT_C1_U17_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "Vamos comer alguma coisa antes do filme?",
         question: "What does it mean?",
-        options: ["Shall we eat something before the movie?", "We ate something before the movie.", "Are we going to eat after the movie?", "Let's watch the movie before eating."],
+        options: ["Should we eat something before the movie?", "We ate something before the movie.", "Are we going to eat after the movie?", "Let's watch the movie before eating."],
         correctIndex: 0,
         explanation: "\"Vamos comer\" (often heard as \"vamo comê\") is let's eat; \"antes do filme\" is before the movie.",
       },
@@ -325,7 +325,7 @@ export const PT_C1_U17_EXTRA: Lesson[] = [
         type: "speak",
         text: "Só um minutinho, deixa eu terminar o raciocínio.",
         prompt: "Say it in Portuguese, holding the floor: Just a sec, let me finish my train of thought.",
-        tip: "Raciocínio: ra-ci-o-CÍ-nio, stressed on the accented cí; in fast speech it sounds like ra-sio-SÍ-nio.",
+        tip: "Raciocínio: ha-see-o-SÍ-nyoo, stressed on the accented cí; in fast speech it sounds like ha-syo-SÍ-nyoo.",
         explanation: "\"Só um minutinho\" and \"deixa eu terminar\" hold the turn politely.",
       },
       {
@@ -511,7 +511,7 @@ export const PT_C1_U17_EXTRA: Lesson[] = [
         type: "speak",
         text: "Cê não sabe o que aconteceu! Escuta essa.",
         prompt: "Say it in Portuguese, starting an anecdote: You won't believe what happened! Listen to this.",
-        tip: "Escuta: es-KU-ta, with the s sounding like 'sh' in Rio and like 's' in São Paulo.",
+        tip: "Escuta: es-KOO-ta, with the s sounding like 'sh' in Rio and like 's' in São Paulo.",
         explanation: "The opener grabs attention before the story starts.",
       },
       {

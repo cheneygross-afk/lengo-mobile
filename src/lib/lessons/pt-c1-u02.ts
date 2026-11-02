@@ -216,7 +216,7 @@ export const PT_C1_U02: Lesson[] = [
         type: "speak",
         text: "Ele deve ter esquecido a reunião.",
         prompt: "Say it in Portuguese: He must have forgotten the meeting.",
-        tip: "The first e in deve is open (é) and the final e sounds like i: DÉ-vi.",
+        tip: "The first e in deve is open (é) and the final e sounds like ee: DÉ-vee.",
         explanation: "\"Deve ter esquecido\": dever + ter + participle for a guess about the past.",
       },
       {
@@ -336,7 +336,7 @@ export const PT_C1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Por que ela teria mentido para nós?",
-            tip: "In \"mentido\" the t before i sounds like the ch in cheese, and the final -o sounds like u: men-CHI-du.",
+            tip: "In \"mentido\" the t before i sounds like the ch in cheese, and the final -o sounds like oo: mẽ-CHEE-doo.",
             explanation: "\"Teria mentido\" is a guess about a past act, not an unreal condition. It means why would she have lied, with no \"se\" in sight.",
           },
         ],
@@ -764,7 +764,7 @@ export const PT_C1_U02: Lesson[] = [
         type: "speak",
         text: "Apesar de estarmos cansados, saímos.",
         prompt: "Say it in Portuguese: Despite being tired, we went out.",
-        tip: "The final -e of \"de\" is said as i, so the d sounds like the j in 'jeans': \"dji-is-TAR-mus\".",
+        tip: "The final -e of \"de\" sounds like ee, so the d sounds like the j in jeans and runs into the next word: jee-is-TAR-moos.",
         explanation: "\"Estarmos\" is inflected so it agrees with the plural \"cansados\" and the nós subject of \"saímos\".",
       },
       {
@@ -931,7 +931,7 @@ export const PT_C1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Amanhã às dez vou estar voando para Manaus.",
-            tip: "Stress Manaus on the last syllable, ma-NAUS, and keep the d in voando clear: vo-AN-du.",
+            tip: "Stress Manaus on the last syllable, ma-NAUS, and keep the d in voando clear: vo-ÃN-doo.",
             explanation: "A legitimate future progressive: the flight will be in progress at ten o'clock tomorrow.",
           },
         ],
@@ -1013,7 +1013,7 @@ export const PT_C1_U02: Lesson[] = [
         type: "speak",
         text: "Tendo terminado o projeto, saímos de férias.",
         prompt: "Say it in Portuguese: Having finished the project, we went on vacation.",
-        tip: "Pronounce the -ndo ending fully, with a nasal e: TẼN-du, not the casual \"teno\".",
+        tip: "Pronounce the -ndo ending fully, with a nasal e: TẼN-doo, not the casual TẼ-noo.",
         explanation: "\"Tendo terminado\" closes the project before the vacation starts.",
       },
       {
@@ -1371,7 +1371,7 @@ export const PT_C1_U02: Lesson[] = [
       {
         heading: "Reading traps: falara, vira, fora",
         body: [
-          "The stress falls where it falls in the eles form, on the syllable before -ra: fa-LA-ra, dji-SÉ-ra. The future \"falará\" (will speak) differs only in its final stress and accent, so read and listen carefully. The e is open in \"dissera\" and \"fizera\" and closed in \"comera\", just as in \"fizéramos\" and \"comêramos\".",
+          "The stress falls where it falls in the eles form, on the syllable before -ra: fa-LA-ra, jee-SÉ-ra. The future \"falará\" (will speak) differs only in its final stress and accent, so read and listen carefully. The e is open in \"dissera\" and \"fizera\" and closed in \"comera\", just as in \"fizéramos\" and \"comêramos\".",
           "Some forms look exactly like other words. \"Fora\" means had been or had gone, but also outside. \"Vira\" means had seen, but also turns or became (from \"virar\"). \"Viera\" means had come, from \"vir\", not \"ver\". Three frozen pluperfects survive in speech with no past meaning at all: \"quem dera\", \"tomara\" and \"pudera!\" (no wonder).",
         ],
         examples: [
@@ -1426,7 +1426,7 @@ export const PT_C1_U02: Lesson[] = [
             type: "speak",
             text: "Quando eu cheguei, eles já tinham saído.",
             prompt: "Say it in Portuguese, the everyday way: When I arrived, they had already left.",
-            tip: "Keep the \"in\" of \"tinham\" nasal and stress \"sa-Í-do\" on the í.",
+            tip: "The t in \"tinham\" sounds like ch and its i is nasal: CHĨ-nyãw. Stress \"saído\" on the í: sa-Í-doo.",
             explanation: "In conversation the pluperfect is always \"tinha\" + participle. \"Saíram\" alone would sound like the simple past.",
           },
           {
@@ -1523,7 +1523,7 @@ export const PT_C1_U02: Lesson[] = [
       {
         type: "speak",
         text: "Ele dissera que viria.",
-        tip: "Stress dji-SÉ-ra on the open é (the d before i sounds like the j in jeans), and vi-RI-a on the i.",
+        tip: "Stress jee-SÉ-ra on the open é (the d before i sounds like the j in jeans), and vee-REE-a on the i.",
         explanation: "\"Dissera\" (had said) plus the conditional \"viria\" (would come): typical narrative prose.",
       },
       {
@@ -2612,7 +2612,7 @@ export const PT_C1_U02: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Who can that be at the door?",
         answer: "Quem estará na porta?",
-        altAnswers: ["Quem será que está na porta?", "Quem será na porta?", "Quem será?"],
+        altAnswers: ["Quem será que está na porta?", "Quem será?", "Quem será que é?"],
         explanation: "The future of probability guesses about the present: \"quem estará na porta?\", or simply the classic \"quem será?\". In conversation, \"quem será que está na porta?\" is the most common version.",
       },
       {
@@ -2638,7 +2638,7 @@ export const PT_C1_U02: Lesson[] = [
         type: "speak",
         text: "Sendo assim, deve ter sido um acidente.",
         prompt: "Say it in Portuguese: That being so, it must have been an accident.",
-        tip: "The d in \"acidente\" sounds like the j in jeans because it comes before an i sound; the final -e is an i.",
+        tip: "The d in \"acidente\" sounds like the j in jeans because it comes before an i sound; the final -e sounds like ee: a-see-DẼN-chee.",
         explanation: "\"Sendo assim\" is a fixed gerund clause, and \"deve ter sido\" is the spoken guess about the past (formally, \"teria sido\").",
       },
     ],

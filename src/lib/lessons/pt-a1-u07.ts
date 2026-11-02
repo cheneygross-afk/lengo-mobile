@@ -16,7 +16,7 @@ export const PT_A1_U07: Lesson[] = [
       {
         heading: "Pai, mãe, irmão, irmã: family words",
         body: [
-          "Most family words come in pairs, -o for a man and -a for a woman: \"filho\" / \"filha\" (son / daughter), \"tio\" / \"tia\" (uncle / aunt), \"primo\" / \"prima\" (cousin). \"Irmão\" / \"irmã\" (brother / sister) follow the -ão pattern. \"Pai\" and \"mãe\" (father, mother) and \"marido\" and \"esposa\" (husband, wife) are separate words.",
+          "Most family words come in pairs, -o for a man and -a for a woman: \"filho\" and \"filha\" (son and daughter), \"tio\" and \"tia\" (uncle and aunt), \"primo\" and \"prima\" (cousin). \"Irmão\" and \"irmã\" (brother and sister) follow the -ão pattern. \"Pai\" and \"mãe\" (father, mother) and \"marido\" and \"esposa\" (husband, wife) are separate words.",
           "As with adjectives, a mixed group takes the masculine plural: \"pais\" is parents, \"irmãos\" is brothers and sisters, \"filhos\" is children. So \"você tem irmãos?\" asks about siblings of either sex.",
           "Train your ear on \"avô\" (grandfather, closed ô) and \"avó\" (grandmother, open ó). The plural \"avós\" means grandparents.",
         ],
@@ -51,7 +51,7 @@ export const PT_A1_U07: Lesson[] = [
         body: [
           "My has four forms: \"meu\" before a masculine noun, \"minha\" before a feminine one, \"meus\" and \"minhas\" in the plural: \"meu pai\", \"minha mãe\", \"meus irmãos\", \"minhas avós\".",
           "The possessive agrees with the thing owned, never with the owner. A man says \"minha irmã\"; a woman says \"meu irmão\". English speakers tend to match it to themselves, so look at the noun that follows.",
-          "That's why \"meus avós\" is my grandparents but \"minhas avós\" is my grandmothers. \"Minha\" has the nh sound of canyon: MI-nha.",
+          "That's why \"meus avós\" is my grandparents but \"minhas avós\" is my grandmothers. \"Minha\" has the nh sound of canyon: 'MEE-nyah'.",
         ],
         examples: [
           { es: "Meu pai é engenheiro.", en: "My father is an engineer." },
@@ -372,7 +372,7 @@ export const PT_A1_U07: Lesson[] = [
         en: "Dona Maria, is [your] daughter a nurse?",
         sentence: "Dona Maria, a ___ filha é enfermeira?",
         answer: "sua",
-        explanation: "With \"a senhora\" your is still \"seu\" / \"sua\". \"Filha\" is feminine, so \"sua\".",
+        explanation: "With \"a senhora\" your is still \"seu\" or \"sua\". \"Filha\" is feminine, so \"sua\".",
       },
       {
         type: "fill-blank",
@@ -416,7 +416,7 @@ export const PT_A1_U07: Lesson[] = [
         type: "speak",
         text: "A irmã dela é engenheira.",
         prompt: "Say it in Portuguese: Her sister is an engineer.",
-        tip: "Open the e in dela: 'DEH-lah'. In dele it's closed, with a final i sound: 'DAY-lee'.",
+        tip: "Open the e in dela: 'DÉ-lah'. In dele it's closed, with a final i sound: 'DAY-lee'.",
         explanation: "\"A irmã dela\": feminine thing, female owner. No article before \"engenheira\".",
       },
       {
@@ -444,7 +444,7 @@ export const PT_A1_U07: Lesson[] = [
       {
         heading: "Do, da, dos, das: of the, from the",
         body: [
-          "\"De\" means of or from, and it always joins a following article: \"de + o = do\", \"de + a = da\", \"de + os = dos\", \"de + as = das\". Writing \"de o\" is simply a mistake.",
+          "\"De\" means of or from, and it always joins a following article: \"de\" and \"o\" make \"do\", \"de\" and \"a\" make \"da\", and likewise \"dos\" and \"das\". Writing \"de o\" is simply a mistake.",
           "Portuguese has no 's. Put the thing first, then \"de\" and the owner: \"o carro do João\" is João's car, literally the car of the João. Brazilians usually put \"o\" or \"a\" before first names, so the contraction appears with names too.",
           "The same \"de\" gives origin: \"sou da Bahia\" (I'm from Bahia), \"ela é do Brasil\" (she's from Brazil).",
         ],
@@ -778,7 +778,7 @@ export const PT_A1_U07: Lesson[] = [
           {
             type: "speak",
             text: "Tem um banco aqui perto?",
-            tip: "The em in tem is nasal, like teyn without a full n at the end.",
+            tip: "The em in tem is nasal, like 'tẽy', without a full n at the end.",
             explanation: "\"Tem um...?\" asks whether there's one nearby.",
           },
         ],
@@ -974,7 +974,7 @@ export const PT_A1_U07: Lesson[] = [
       {
         heading: "Meu avô, minha avó: family words",
         body: [
-          "\"Meu\" / \"minha\" and \"nosso\" / \"nossa\" also match the thing owned, so with family words the relative's gender decides: \"meu avô\" (my grandfather), \"minha avó\" (my grandmother), \"nosso tio\", \"nossa tia\". The speaker's gender changes nothing.",
+          "\"Meu\", \"minha\", \"nosso\" and \"nossa\" also match the thing owned, so with family words the relative's gender decides: \"meu avô\" (my grandfather), \"minha avó\" (my grandmother), \"nosso tio\", \"nossa tia\". The speaker's gender changes nothing.",
           "Listen for the vowel: \"avô\" has a closed ô, like the o in go; \"avó\" an open ó, like the o in law. Plurals add -s, and a mixed group takes the masculine: \"meus avós\" (my grandparents), \"meus pais\" (my parents).",
         ],
         examples: [
@@ -1022,7 +1022,7 @@ export const PT_A1_U07: Lesson[] = [
         source: "Your house is very pretty.",
         answer: "Sua casa é muito bonita.",
         altAnswers: ["A sua casa é muito bonita."],
-        explanation: "Your, said to \"você\", is \"seu\" / \"sua\". \"Casa\" is feminine, so \"sua\" and \"bonita\".",
+        explanation: "Your, said to \"você\", is \"seu\" or \"sua\". \"Casa\" is feminine, so \"sua\" and \"bonita\".",
       },
       {
         type: "translate",
@@ -1112,7 +1112,7 @@ export const PT_A1_U07: Lesson[] = [
           { left: "o carro dela", right: "her car" },
           { left: "seu carro", right: "your car" },
         ],
-        explanation: "\"Meu\" / \"minha\" and \"seu\" match the thing owned; \"dele\" / \"dela\" match the owner.",
+        explanation: "\"Meu\", \"minha\" and \"seu\" match the thing owned; \"dele\" and \"dela\" match the owner.",
       },
     ],
   },
@@ -1213,7 +1213,7 @@ export const PT_A1_U07: Lesson[] = [
             source: "He lives in Rio.",
             answer: "Ele mora no Rio.",
             altAnswers: ["Mora no Rio."],
-            explanation: "Rio takes the article (\"o Rio\"), so em + o = \"no Rio\". \"Em Rio\" and \"em o Rio\" are both wrong.",
+            explanation: "Rio takes the article (\"o Rio\"), so em + o gives \"no Rio\". \"Em Rio\" and \"em o Rio\" are both wrong.",
           },
           {
             type: "fill-blank",
@@ -1221,7 +1221,7 @@ export const PT_A1_U07: Lesson[] = [
             en: "There's a bank [on] Rua Augusta.",
             sentence: "Tem um banco ___ Rua Augusta.",
             answer: "na",
-            explanation: "\"Rua\" is feminine, so em + a = \"na\". A learner's \"em a rua\" is never said.",
+            explanation: "\"Rua\" is feminine, so em + a gives \"na\". A learner's \"em a rua\" is never said.",
           },
           {
             type: "listen-choose",
@@ -1259,7 +1259,7 @@ export const PT_A1_U07: Lesson[] = [
         source: "We're from Bahia.",
         answer: "Nós somos da Bahia.",
         altAnswers: ["Somos da Bahia.", "A gente é da Bahia."],
-        explanation: "Bahia takes the article (\"a Bahia\"), so de + a = \"da Bahia\". \"De a Bahia\" is never said.",
+        explanation: "Bahia takes the article (\"a Bahia\"), so de + a gives \"da Bahia\". \"De a Bahia\" is never said.",
       },
       {
         type: "translate",
@@ -1268,7 +1268,7 @@ export const PT_A1_U07: Lesson[] = [
         source: "There's a pharmacy on the square.",
         answer: "Tem uma farmácia na praça.",
         altAnswers: ["Há uma farmácia na praça."],
-        explanation: "\"Tem\" is the spoken there is. \"Praça\" is feminine, so em + a = \"na praça\".",
+        explanation: "\"Tem\" is the spoken there is. \"Praça\" is feminine, so em + a gives \"na praça\".",
       },
       {
         type: "fill-blank",
@@ -1276,7 +1276,7 @@ export const PT_A1_U07: Lesson[] = [
         en: "Lucas is [at the] market.",
         sentence: "O Lucas está ___ mercado.",
         answer: "no",
-        explanation: "\"Mercado\" is masculine, so em + o = \"no mercado\".",
+        explanation: "\"Mercado\" is masculine, so em + o gives \"no mercado\".",
       },
       {
         type: "fill-blank",
@@ -1686,7 +1686,7 @@ export const PT_A1_U07: Lesson[] = [
             en: "My parents live [in] Rio.",
             sentence: "Meus pais moram ___ Rio.",
             answer: "no",
-            explanation: "Rio takes an article (\"o Rio\"), so em + o = \"no Rio\". Compare \"em São Paulo\", with no article.",
+            explanation: "Rio takes an article (\"o Rio\"), so em + o gives \"no Rio\". Compare \"em São Paulo\", with no article.",
           },
           {
             type: "multiple-choice",

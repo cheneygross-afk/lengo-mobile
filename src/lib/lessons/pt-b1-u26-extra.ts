@@ -301,11 +301,11 @@ export const PT_B1_U26_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I [waited] for him for an hour.",
-        sentence: "Eu ___ ele por uma hora.",
+        en: "I [waited] for Lucas for an hour.",
+        sentence: "Eu ___ o Lucas por uma hora.",
         answer: "fiquei esperando",
         altAnswers: ["esperei"],
-        explanation: "\"Ficar\" + gerúndio stresses the time spent.",
+        explanation: "\"Ficar\" + gerúndio stresses the time spent: \"fiquei esperando\". The plain perfeito \"esperei\" is also correct.",
       },
       {
         type: "multiple-choice",
@@ -496,7 +496,7 @@ export const PT_B1_U26_EXTRA: Lesson[] = [
         type: "speak",
         text: "O meu irmão virou advogado.",
         prompt: "Say it in Portuguese: My brother became a lawyer.",
-        tip: "Advogado: the d after a is pronounced, often with a tiny i: a-dji-vo-GA-du.",
+        tip: "Advogado: the d after a is pronounced, often with a tiny ee: a-jee-vo-GA-doo.",
         explanation: "\"Virar\" + profession.",
       },
     ],

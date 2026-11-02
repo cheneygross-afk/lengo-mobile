@@ -321,7 +321,7 @@ export const PT_B1_U17_EXTRA: Lesson[] = [
         type: "speak",
         text: "Nossa, que legal!",
         prompt: "Say it in casual Portuguese: Wow, how cool!",
-        tip: "Legal: le-GAU, the final l sounds like a u.",
+        tip: "Legal: le-GOW, the final l sounds like a w.",
         explanation: "\"Que legal!\" (how cool!) is one of the most common reactions in Brazil, and \"nossa\" adds wow.",
       },
       {

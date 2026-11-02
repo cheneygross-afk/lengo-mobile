@@ -255,7 +255,7 @@ export const PT_B2_U31: Lesson[] = [
           { es: "Se fizer sol amanhã, vamos para a praia de Itapuã.", en: "If it's sunny tomorrow, we'll go to Itapuã beach." },
           { es: "Se eu morasse em Salvador, iria ao Rio Vermelho toda sexta.", en: "If I lived in Salvador, I'd go to Rio Vermelho every Friday." },
           { es: "Caso o voo atrase, o hotel mantém a reserva.", en: "Should the flight be delayed, the hotel will keep the booking." },
-          { es: "Aceito a proposta, desde que o aluguel inclua o condomínio.", en: "I'll accept the offer, provided the rent includes the building fees." },
+          { es: "Aceito a proposta, desde que o aluguel inclua o condomínio.", en: "I'll accept the offer, provided the rent includes the condo fees." },
           { es: "A gente vai de barco, a não ser que o mar esteja agitado.", en: "We'll go by boat, unless the sea is rough." },
         ],
         checkpoint: [
@@ -328,7 +328,7 @@ export const PT_B2_U31: Lesson[] = [
       {
         heading: "Como se, mesmo que, mesmo se",
         body: [
-          "\"Como se\" always takes the imperfect subjunctive, or the pluperfect for something earlier: \"ele fala como se fosse baiano\", \"ela agiu como se nada tivesse acontecido\". The tense of the main verb doesn't change this: \"fala\", \"falou\" and \"vai falar\" all take \"como se fosse\".",
+          "\"Como se\" takes the imperfect subjunctive, or the pluperfect for something earlier: \"ele fala como se fosse baiano\", \"ela agiu como se nada tivesse acontecido\". The tense of the main verb doesn't change this: \"fala\", \"falou\" and \"vai falar\" all take \"como se fosse\".",
           "\"Mesmo que\" (even if, even though) takes the present subjunctive for now and the future (\"mesmo que chova, a festa vai acontecer\") and the imperfect for the past or the imagined (\"mesmo que chovesse, a festa aconteceria\"). \"Mesmo se\" behaves like \"se\": \"mesmo se chover\", \"mesmo se chovesse\". Avoid the blend \"*mesmo que chover\".",
         ],
         examples: [
@@ -424,7 +424,7 @@ export const PT_B2_U31: Lesson[] = [
         type: "speak",
         text: "Mesmo que eu quisesse, não poderia ficar.",
         prompt: "Say it in Portuguese: Even if I wanted to, I couldn't stay.",
-        tip: "In quisesse the single s between vowels is a z, the double ss is sharp: ki-ZÊ-si.",
+        tip: "In quisesse the single s between vowels is a z, the double ss is sharp: ki-ZÊ-see.",
         explanation: "An imagined concession: \"mesmo que\" + imperfect subjunctive, with the conditional \"poderia\" in the main clause.",
       },
       {
@@ -1148,7 +1148,7 @@ export const PT_B2_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "If you [include] the building fees, I'll sign today.",
+            en: "If you [include] the condo fees, I'll sign today.",
             sentence: "Se o senhor ___ o condomínio, eu assino hoje.",
             answer: "incluir",
             explanation: "A real offer about the future: \"se\" + future subjunctive \"incluir\", which looks like the infinitive for regular verbs.",
@@ -1227,7 +1227,7 @@ export const PT_B2_U31: Lesson[] = [
             type: "speak",
             text: "Se eu não tivesse que trabalhar, eu iria com certeza.",
             prompt: "Say it in Portuguese: If I didn't have to work, I'd definitely go.",
-            tip: "In certeza the stressed e is closed: cer-TÊ-za. Tivesse has a closed ê: ti-VÊ-si.",
+            tip: "In certeza the stressed e is closed: cer-TÊ-za. Tivesse has a closed ê: ti-VÊ-see.",
             explanation: "An unreal condition turns the refusal into a regret: \"se eu não tivesse\" + conditional \"iria\".",
           },
         ],
@@ -1363,7 +1363,7 @@ export const PT_B2_U31: Lesson[] = [
         heading: "Segunda-feira: arrival and the first messages",
         body: [
           "Camila Becker, a journalist from Porto Alegre, has a week in Salvador to report on tourism and housing in the historic center for a magazine in São Paulo. Her editor, Rafael, expects updates on WhatsApp. Read her messages as you would in the exam: who is writing to whom, and why?",
-          "Camila is gaúcha, and Salvador keeps testing her vocabulary. At home she says \"bah\" for surprise and \"guri\" for a boy; in Bahia she hears \"oxe\" (surprise or protest), \"massa\" (cool) and \"painho\" and \"mainha\" (dad, mom). The bread roll she calls \"cacetinho\" is plain \"pão francês\" here.",
+          "Camila is gaúcha, and Salvador keeps testing her vocabulary. At home she says \"bah\" for surprise and \"guri\" for a boy; in Bahia she hears \"oxe\" (surprise or protest), \"massa\" (cool) and \"painho\" and \"mainha\" (dad, mom). One word does travel: the bread roll she calls \"cacetinho\" goes by the same name in Salvador, though \"pão francês\" is understood everywhere.",
         ],
         examples: [
           { es: "Rafael, cheguei! O calor aqui é outro nível, bah.", en: "Rafael, I've arrived! The heat here is another level, wow." },
@@ -1557,7 +1557,7 @@ export const PT_B2_U31: Lesson[] = [
         type: "speak",
         text: "Massa! Amanhã a gente vai ao Rio Vermelho.",
         prompt: "Say it in Portuguese: Cool! Tomorrow we're going to Rio Vermelho.",
-        tip: "The r of Rio is a breathy h sound; in Vermelho, lh is like the lli in million: ver-MÊ-lhu.",
+        tip: "The r of Rio is a breathy h sound; in Vermelho, lh is like the lli in million: ver-MÊ-lhoo.",
         explanation: "\"Massa\" is Bahian for cool. \"Ir a\" + \"o Rio Vermelho\" = \"ao Rio Vermelho\": the neighborhood takes an article.",
       },
       {
@@ -1850,7 +1850,7 @@ export const PT_B2_U31: Lesson[] = [
           { es: "Gostaria de saber quando o depósito será devolvido.", en: "I was wondering when the deposit will be returned." },
           { es: "Caso haja algum problema com o imóvel, peço que o senhor me avise.", en: "Should there be any problem with the property, please let me know." },
           { es: "Solicito que o valor seja transferido para a conta abaixo.", en: "I'd ask that the amount be transferred to the account below." },
-          { es: "Atenciosamente, Beatriz Lima", en: "Kind regards, Beatriz Lima" },
+          { es: "Atenciosamente, Beatriz Lima", en: "Sincerely, Beatriz Lima" },
         ],
         checkpoint: [
           {
@@ -1913,7 +1913,7 @@ export const PT_B2_U31: Lesson[] = [
             type: "speak",
             text: "Não adianta reclamar; é preciso agir.",
             prompt: "Say it in Portuguese: There's no point complaining; we need to act.",
-            tip: "In adianta the d before i sounds like the j in jeans: a-dji-AN-ta.",
+            tip: "In adianta the d before i sounds like the j in jeans: a-jee-AN-ta.",
             explanation: "\"Não adianta\" + infinitive (there's no point) and the impersonal \"é preciso\" + infinitive.",
           },
         ],
@@ -2210,7 +2210,7 @@ export const PT_B2_U31: Lesson[] = [
       {
         type: "speak",
         text: "Atenciosamente, Beatriz Lima, moradora do Santo Antônio.",
-        tip: "In atenciosamente the ci is an s sound and the stress falls on men: a-ten-si-o-za-MEN-tchi.",
+        tip: "In atenciosamente the ci is an s sound and the stress falls on men: a-ten-si-o-za-MEN-chee.",
         explanation: "\"Atenciosamente\" closes both formal texts; the signature names who you are in relation to the issue.",
       },
     ],
@@ -2373,7 +2373,7 @@ export const PT_B2_U31: Lesson[] = [
             type: "speak",
             text: "A foto mostra uma rua do Pelourinho lotada de turistas.",
             prompt: "Say it in Portuguese: The photo shows a street in Pelourinho packed with tourists.",
-            tip: "Pelourinho: the ou is a plain o in speech, and nh is like the ny in canyon: pe-lo-RI-nhu.",
+            tip: "Pelourinho: the ou is a plain o in speech, and nh is like the ny in canyon: pe-lo-RI-nhoo.",
             explanation: "Start with a neutral description (\"a foto mostra\") before giving any opinion.",
           },
         ],

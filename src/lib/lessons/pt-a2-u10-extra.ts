@@ -296,9 +296,9 @@ export const PT_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: We traveled through the Nordeste.",
+        prompt: "Put the words in order to say: We traveled through the Northeast.",
         words: ["Viajamos", "pelo", "Nordeste."],
-        translation: "We traveled through the Nordeste.",
+        translation: "We traveled through the Northeast.",
         explanation: "\"Pelo\" for through or around a region.",
       },
       {
@@ -497,7 +497,7 @@ export const PT_A2_U10_EXTRA: Lesson[] = [
           { left: "das oito às dez", right: "from eight to ten" },
           { left: "há três anos (with the present)", right: "for three years (and still)" },
         ],
-        explanation: "Prepositions of time.",
+        explanation: "\"Desde\" marks a starting point, \"até\" an end point and \"durante\" a period. \"Há\" + a length with the present means it's still going on.",
       },
     ],
   },

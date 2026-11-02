@@ -15,8 +15,8 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
       {
         heading: "Three verbs, one noun phrase",
         body: [
-          "\"Ser\" for identity, origin, job and traits; \"estar\" for states, location and clothes on now (\"está de\"); \"ter\" for age, possessions, features and what a place has. Adjectives agree with their noun, and so do \"meu\" / \"minha\" and \"nosso\" / \"nossa\".",
-          "His and her go after the noun: \"o carro dele\", \"a mãe dela\". \"Seu\" / \"sua\" means your.",
+          "\"Ser\" for identity, origin, job and traits; \"estar\" for states, location and clothes on now (\"está de\"); \"ter\" for age, possessions, features and what a place has. Adjectives agree with their noun, and so do \"meu\" or \"minha\" and \"nosso\" or \"nossa\".",
+          "His and her go after the noun: \"o carro dele\", \"a mãe dela\". \"Seu\" or \"sua\" means your.",
         ],
         examples: [
           { es: "A minha prima é ruiva e tem olhos verdes.", en: "My cousin is a redhead and has green eyes." },
@@ -152,7 +152,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The new hotels are expensive.",
         answer: "Os hotéis novos são caros.",
-        explanation: "\"Hotel\" → \"hotéis\"; everything agrees.",
+        explanation: "\"Hotel\" becomes \"hotéis\"; everything agrees.",
       },
       {
         type: "word-order",
@@ -179,7 +179,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["Her car is red.", "His car is red.", "Your car is red.", "Her car is green."],
         correctIndex: 0,
-        explanation: "\"Dela\" = her.",
+        explanation: "\"Dela\" is her.",
       },
       {
         type: "dictation",
@@ -394,8 +394,8 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
       {
         heading: "Numbers in use",
         body: [
-          "\"E\" joins every part of a number: \"cento e trinta e cinco\". \"Um\" / \"uma\", \"dois\" / \"duas\" and the hundreds agree with feminine nouns (\"duzentas pessoas\"). Prices: R$ 45,90 is \"quarenta e cinco e noventa\"; on the phone six is \"meia\".",
-          "Times: \"é uma hora\", \"são duas\", \"às oito\", \"à uma\", \"ao meio-dia\", \"quinze para as três\", and the 24-hour clock in schedules. Dates: \"dia 15 de novembro\"; days with \"no\" / \"na\", months with \"em\".",
+          "\"E\" joins every part of a number: \"cento e trinta e cinco\". \"Um\" or \"uma\", \"dois\" or \"duas\" and the hundreds agree with feminine nouns (\"duzentas pessoas\"). Prices: R$ 45,90 is \"quarenta e cinco e noventa\"; on the phone six is \"meia\".",
+          "Times: \"é uma hora\", \"são duas\", \"às oito\", \"à uma\", \"ao meio-dia\", \"quinze para as três\", and the 24-hour clock in schedules. Dates: \"dia 15 de novembro\"; days with \"no\" or \"na\", months with \"em\".",
         ],
         examples: [
           { es: "O quarto custa cento e oitenta reais por noite.", en: "The room costs a hundred and eighty reais a night." },
@@ -570,14 +570,14 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 4,
     title: "Extra Practice: Dialogue Marathon",
-    summary: "Four short conversations in a row: an older neighbor, the padaria, the rodoviária and a phone call with a friend, choosing você or o senhor / a senhora each time.",
+    summary: "Four short conversations in a row: an older neighbor, the padaria, the rodoviária and a phone call with a friend, choosing between você and o senhor or a senhora each time.",
     duration: "14 min",
     optional: true,
     sections: [
       {
         heading: "Conversations 1 and 2: the neighbor and the padaria",
         body: [
-          "First, seu Antônio, your neighbor, about seventy: \"o senhor\" with the ele form (\"o senhor está bem?\"). Then the padaria, where the attendant is young: \"você\" is fine, but \"o senhor\" / \"a senhora\" is what staff use with customers.",
+          "First, seu Antônio, your neighbor, about seventy: \"o senhor\" with the ele form (\"o senhor está bem?\"). Then the padaria, where the attendant is young: \"você\" is fine, but \"o senhor\" or \"a senhora\" is what staff use with customers.",
           "Order with \"eu quero...\", ask \"quanto é?\", answer \"mais alguma coisa?\" with \"só isso, obrigado\".",
         ],
         examples: [
@@ -609,7 +609,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
       {
         heading: "Conversations 3 and 4: the rodoviária and a phone call",
         body: [
-          "At the rodoviária ticket desk: \"uma passagem para Paraty, por favor\", \"a que horas sai?\", \"ida e volta?\" (round trip?), \"janela ou corredor?\". The clerk calls you \"o senhor\" / \"a senhora\"; you can answer with \"você\" or keep it neutral.",
+          "At the rodoviária ticket desk: \"uma passagem para Paraty, por favor\", \"a que horas sai?\", \"ida e volta?\" (round trip?), \"janela ou corredor?\". The clerk calls you \"o senhor\" or \"a senhora\"; you can answer with \"você\" or keep it neutral.",
           "Then a phone call with your friend Lucas: \"você\" all the way, \"o que você está fazendo?\", \"vamos ao cinema?\", \"combinado!\".",
         ],
         examples: [
@@ -617,7 +617,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
           { es: "Para que horas o senhor quer?", en: "For what time would you like it, sir?" },
           { es: "Ida e volta? Janela ou corredor?", en: "Round trip? Window or aisle?" },
           { es: "Alô, Lucas? O que você está fazendo?", en: "Hello, Lucas? What are you doing?" },
-          { es: "Vamos ao cinema hoje? Combinado!", en: "Shall we go to the movies today? Deal!" },
+          { es: "Vamos ao cinema hoje? Combinado!", en: "Should we go to the movies today? Deal!" },
         ],
         checkpoint: [
           {
@@ -642,7 +642,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
             question: "What does it mean?",
             options: ["Round trip?", "One way?", "Window or aisle?", "What time?"],
             correctIndex: 0,
-            explanation: "\"Ida e volta\" = there and back.",
+            explanation: "\"Ida e volta\" means there and back.",
           },
         ],
       },
@@ -705,7 +705,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Shall we go to the beach on Sunday? (to a friend)",
+        source: "Should we go to the beach on Sunday? (to a friend)",
         answer: "Vamos à praia no domingo?",
         altAnswers: ["Vamos para a praia no domingo?", "Você quer ir à praia no domingo?"],
         explanation: "\"Vamos\" + \"à praia\".",
@@ -733,7 +733,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
         en: "[Round trip], please.",
         sentence: "___, por favor.",
         answer: "Ida e volta",
-        explanation: "\"Ida e volta\" = round-trip ticket.",
+        explanation: "\"Ida e volta\" means a round-trip ticket.",
       },
       {
         type: "word-order",
@@ -755,7 +755,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
         question: "The clerk at the rodoviária asks \"Janela ou corredor?\" You want the aisle. What do you say?",
         options: ["Corredor, por favor.", "Janela, por favor.", "Ida e volta, por favor.", "Só ida, por favor."],
         correctIndex: 0,
-        explanation: "\"Corredor\" = aisle.",
+        explanation: "\"Corredor\" means aisle.",
       },
       {
         type: "listen-choose",
@@ -763,12 +763,12 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["What would you like, ma'am?", "What do you want to do, ma'am?", "Where are you going, ma'am?", "What would you like, sir?"],
         correctIndex: 0,
-        explanation: "\"A senhora\" = you, to a woman, politely.",
+        explanation: "\"A senhora\" is you, to a woman, politely.",
       },
       {
         type: "dictation",
         audio: "Combinado! Até mais tarde.",
-        explanation: "\"Combinado\" = deal.",
+        explanation: "\"Combinado\" means deal.",
       },
       {
         type: "speak",

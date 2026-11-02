@@ -202,7 +202,7 @@ export const PT_B1_U25: Lesson[] = [
         type: "speak",
         text: "Eu estava descendo a rua quando um cachorro apareceu.",
         prompt: "Say it in Portuguese: I was going down the street when a dog appeared.",
-        tip: "In descendo, the sc sounds like a single s: de-SEN-du.",
+        tip: "In descendo, the sc sounds like a single s: de-SẼN-doo.",
         explanation: "\"Estava\" + gerúndio sets the frame; the perfeito \"apareceu\" interrupts it.",
       },
       {
@@ -228,7 +228,7 @@ export const PT_B1_U25: Lesson[] = [
     duration: "14 min",
     sections: [
       {
-        heading: "The film set: scenery and action",
+        heading: "The movie set: scenery and action",
         body: [
           "Picture a movie set. The imperfeito is the scenery and the lighting: it's there the whole time, with no beginning or end in view (\"era uma sexta-feira\", \"chovia muito\", \"a rua estava vazia\"). The perfeito is the actors' actions: things that start, happen and finish (\"um carro parou\", \"um homem desceu\").",
           "Brazilian storytellers usually build the scenery first, in two or three imperfeito sentences, then switch to the perfeito when something happens. That switch is a signal to the listener: now the story starts. If you tell everything in the perfeito, you get a list of events with no atmosphere; if you stay in the imperfeito, nothing ever happens.",
@@ -300,7 +300,7 @@ export const PT_B1_U25: Lesson[] = [
           "The same verb with a time limit becomes an event: \"eu morava em Manaus\" (background) but \"morei cinco anos em Manaus\" (a closed period, told as a fact).",
         ],
         examples: [
-          { es: "Eu já conhecia o Rafael da faculdade.", en: "I already knew Rafael from university." },
+          { es: "Eu já conhecia o Rafael da faculdade.", en: "I already knew Rafael from college." },
           { es: "Eu conheci a Beatriz naquela festa.", en: "I met Beatriz at that party." },
           { es: "Ninguém sabia o que fazer.", en: "Nobody knew what to do." },
           { es: "Só no dia seguinte eu soube da notícia.", en: "Only the next day did I find out about the news." },
@@ -382,9 +382,9 @@ export const PT_B1_U25: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I already knew Rafael from university.",
+        prompt: "Put the words in order to say: I already knew Rafael from college.",
         words: ["Eu", "já", "conhecia", "o", "Rafael", "da", "faculdade."],
-        translation: "I already knew Rafael from university.",
+        translation: "I already knew Rafael from college.",
         explanation: "\"Conhecia\" is knowing someone as a state, background to the story.",
       },
       {
@@ -619,7 +619,7 @@ export const PT_B1_U25: Lesson[] = [
         type: "speak",
         text: "Eu ia te ligar, mas estava sem bateria.",
         prompt: "Say it in Portuguese: I was going to call you, but my battery was dead.",
-        tip: "Stress li-GAR on the last syllable; in Rio and São Paulo te sounds like chee.",
+        tip: "Stress li-GAR on the last syllable; in most of Brazil te sounds like chee.",
         explanation: "\"Ia\" + infinitive for the plan, imperfeito for the reason.",
       },
       {
@@ -953,7 +953,7 @@ export const PT_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Você deve ter ficado com medo!",
-            tip: "Link deve ter: DE-vi-TER, with the t of ter sounding hard before e.",
+            tip: "Link deve ter: DÉ-vee TÊR, with the t of ter kept hard before e.",
             explanation: "\"Deve ter\" + participle is must have: a guess about the past.",
           },
         ],
@@ -1050,7 +1050,7 @@ export const PT_B1_U25: Lesson[] = [
         type: "speak",
         text: "Sério? E depois?",
         prompt: "Say it in Portuguese: Really? And then?",
-        tip: "Sério is stressed on the first syllable: SÉ-rio, with an open é.",
+        tip: "Sério is stressed on the first syllable: SÉ-ryoo, with an open é.",
         explanation: "Two of the most useful reactions for keeping a storyteller going.",
       },
     ],
@@ -1114,7 +1114,7 @@ export const PT_B1_U25: Lesson[] = [
         ],
         examples: [
           { es: "Ontem eu comi feijoada na casa da Dona Maria.", en: "Yesterday I had feijoada at Dona Maria's house." },
-          { es: "Na faculdade, eu comia no bandejão todo dia.", en: "At university, I ate at the canteen every day." },
+          { es: "Na faculdade, eu comia no bandejão todo dia.", en: "In college, I ate at the cafeteria every day." },
           { es: "Eu estava comendo quando você ligou.", en: "I was eating when you called." },
           { es: "Eu não estava com fome porque tinha comido antes.", en: "I wasn't hungry because I had eaten before." },
           { es: "Eu tenho comido menos carne.", en: "I've been eating less meat." },
@@ -1189,7 +1189,7 @@ export const PT_B1_U25: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "At university, I [ate] at the canteen every day.",
+        en: "In college, I [ate] at the cafeteria every day.",
         sentence: "Na faculdade, eu ___ no bandejão todo dia.",
         answer: "comia",
         explanation: "\"Todo dia\" in the past is a habit: imperfeito \"comia\".",
@@ -1664,7 +1664,7 @@ export const PT_B1_U25: Lesson[] = [
         type: "speak",
         text: "Você não vai acreditar no que aconteceu.",
         prompt: "Say it in Portuguese: You won't believe what happened.",
-        tip: "Aconteceu: a-con-te-CEU, with the stress on the last syllable.",
+        tip: "Aconteceu: a-kõn-te-SÊW, with the stress on the last syllable.",
         explanation: "The classic hook to start an anecdote.",
       },
     ],
@@ -1865,7 +1865,7 @@ export const PT_B1_U25: Lesson[] = [
         type: "speak",
         text: "Todo dia eu pegava o mesmo ônibus.",
         prompt: "Say it in Portuguese: Every day I took the same bus.",
-        tip: "Dia often sounds like jee-a in Rio and São Paulo: the d before i softens.",
+        tip: "Dia sounds like JEE-a in most of Brazil: the d before i softens.",
         explanation: "A past routine: imperfeito \"pegava\".",
       },
     ],
@@ -2061,7 +2061,7 @@ export const PT_B1_U25: Lesson[] = [
         question: "A learner wrote: \"Quando a gente chegou no cinema, o filme já começou.\" Which is correct?",
         options: ["Quando a gente chegou no cinema, o filme já tinha começado.", "Quando a gente chegava no cinema, o filme já começou.", "Quando a gente chegou no cinema, o filme já começava.", "Quando a gente tinha chegado no cinema, o filme começou."],
         correctIndex: 0,
-        explanation: "The film started before the arrival: \"já tinha começado\".",
+        explanation: "The movie started before the arrival: \"já tinha começado\".",
       },
       {
         type: "dictation",
@@ -2189,7 +2189,7 @@ export const PT_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "No fim das contas, ele me conhecia melhor do que eu pensava.",
-            tip: "Melhor: the lh sounds like the lli in million, me-LHOR.",
+            tip: "Melhor: the lh sounds like the lli in million, me-LYÓR.",
             explanation: "\"Conhecia\" and \"pensava\": states, in the imperfeito.",
           },
         ],
@@ -2363,7 +2363,7 @@ export const PT_B1_U25: Lesson[] = [
             question: "Your friend tells you he lied to his boss. You want to say: if I were you, I'd tell the truth. Which fits?",
             options: ["Eu, no seu lugar, falaria a verdade.", "Eu, no seu lugar, falei a verdade.", "Eu, no seu lugar, tinha falado a verdade.", "Eu, no seu lugar, falarei a verdade."],
             correctIndex: 0,
-            explanation: "Advice: \"eu no seu lugar\" + conditional \"falaria\".",
+            explanation: "Advice: \"eu, no seu lugar,\" + conditional \"falaria\". \"Falei\" reports a fact, \"falarei\" is a promise about the future.",
           },
         ],
       },
@@ -2468,7 +2468,7 @@ export const PT_B1_U25: Lesson[] = [
         prompt: "Put the words in order to say: If I were you, I'd talk to her.",
         words: ["Eu,", "no", "seu", "lugar,", "falaria", "com", "ela."],
         translation: "If I were you, I'd talk to her.",
-        explanation: "\"Eu no seu lugar\" + conditional: advice.",
+        explanation: "\"Eu, no seu lugar,\" + conditional: advice. In writing the commas go around \"no seu lugar\".",
       },
       {
         type: "multiple-choice",
@@ -2493,7 +2493,7 @@ export const PT_B1_U25: Lesson[] = [
         type: "speak",
         text: "Espero que ela não fique brava.",
         prompt: "Say it in Portuguese: I hope she doesn't get angry.",
-        tip: "Fique: the qu is a plain k sound, FI-ki.",
+        tip: "Fique: the qu is a plain k sound, FEE-kee.",
         explanation: "A present hope about a past event: \"espero que\" + subjunctive.",
       },
     ],

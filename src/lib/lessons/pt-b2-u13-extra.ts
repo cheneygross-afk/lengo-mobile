@@ -21,7 +21,7 @@ export const PT_B2_U13_EXTRA: Lesson[] = [
           "Presentations: \"gostaria de apresentar\", \"em primeiro lugar\", \"em seguida\", \"como podemos ver no gráfico\", \"para concluir\", \"fico à disposição para perguntas\".",
         ],
         examples: [
-          { es: "Bom dia a todos. Vamos começar?", en: "Good morning, everyone. Shall we start?" },
+          { es: "Bom dia a todos. Vamos começar?", en: "Good morning, everyone. Should we get started?" },
           { es: "A pauta de hoje tem três pontos.", en: "Today's agenda has three items." },
           { es: "Passo a palavra para o Ricardo.", en: "I'll hand over to Ricardo." },
           { es: "Voltando à pauta, precisamos definir o prazo.", en: "Getting back to the agenda, we need to set the deadline." },
@@ -152,8 +152,8 @@ export const PT_B2_U13_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Bom dia a todos. Vamos começar?",
-        prompt: "Say it in Portuguese: Good morning, everyone. Shall we start?",
-        tip: "Começar: ko-me-SAR.",
+        prompt: "Say it in Portuguese: Good morning, everyone. Should we get started?",
+        tip: "Começar: 'ko-me-SAR', with a soft ç like s.",
         explanation: "\"Bom dia a todos\" greets everyone, and \"Vamos começar?\" is the natural way to open the meeting.",
       },
       {
@@ -317,7 +317,7 @@ export const PT_B2_U13_EXTRA: Lesson[] = [
         type: "speak",
         text: "Entendo seu ponto, mas vejo de outra forma.",
         prompt: "Say it in Portuguese: I see your point, but I see it differently.",
-        tip: "Ponto: PON-tu.",
+        tip: "Ponto: 'PÕ-too', with a nasal õ.",
         explanation: "\"Entendo seu ponto, mas vejo de outra forma\" acknowledges first and then disagrees politely.",
       },
       {
@@ -431,7 +431,7 @@ export const PT_B2_U13_EXTRA: Lesson[] = [
         source: "We hit the target this month.",
         answer: "Batemos a meta este mês.",
         altAnswers: ["Batemos a meta neste mês.", "A gente bateu a meta este mês.", "Nós batemos a meta este mês."],
-        explanation: "\"Bater a meta\" means to hit the target; \"batemos\" is the same in the present and preterite, and \"este mês\" makes it past here.",
+        explanation: "\"Bater a meta\" means to hit the target; \"batemos\" is the same in the present and preterite, so only context (here, the English past tense) shows it is past.",
       },
       {
         type: "translate",
@@ -481,7 +481,7 @@ export const PT_B2_U13_EXTRA: Lesson[] = [
         type: "speak",
         text: "Assim que o orçamento for aprovado, começamos.",
         prompt: "Say it in Portuguese: As soon as the budget is approved, we'll start.",
-        tip: "Orçamento: or-sa-MEN-tu.",
+        tip: "Orçamento: 'or-sa-MẼ-too'.",
         explanation: "\"Assim que\" with a future meaning takes the future subjunctive: \"for aprovado\".",
       },
       {

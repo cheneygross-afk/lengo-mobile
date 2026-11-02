@@ -319,7 +319,7 @@ export const PT_A2_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não esquece de me ligar!",
         prompt: "Say it in Portuguese: Don't forget to call me!",
-        tip: "Esquece: es-KE-si, the final e sounds like i.",
+        tip: "Esquece: es-KÉ-see, the final e sounds like ee.",
         explanation: "Everyday negative command with \"de\" + infinitive. Careful Portuguese says \"não se esqueça de me ligar\".",
       },
       {
@@ -485,7 +485,7 @@ export const PT_A2_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Com licença, o senhor pode me ajudar?",
         prompt: "Say it in Portuguese: Excuse me, sir, can you help me?",
-        tip: "Licença: li-SEN-sa, with a nasal en.",
+        tip: "Licença: lee-SẼ-sa, with a nasal en.",
         explanation: "\"Com licença\" + polite request.",
       },
       {

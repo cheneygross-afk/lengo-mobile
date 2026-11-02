@@ -218,7 +218,7 @@ export const PT_A1_U08: Lesson[] = [
         type: "speak",
         text: "Eu prefiro chá.",
         prompt: "Say it in Portuguese: I prefer tea.",
-        tip: "Stress the middle of \"prefiro\": pre-FI-ro, with a light tapped r.",
+        tip: "Stress the middle of \"prefiro\": 'preh-FEE-roo', with a light tapped r.",
         explanation: "\"Prefiro\": the eu form of \"preferir\" has an i.",
       },
       {
@@ -280,7 +280,7 @@ export const PT_A1_U08: Lesson[] = [
       {
         heading: "Comendo, partindo: -er and -ir verbs",
         body: [
-          "Verbs in -er take -endo, and verbs in -ir take -indo: \"comer\" becomes \"comendo\", \"abrir\" becomes \"abrindo\", and \"partir\" becomes \"partindo\". All three endings start with a nasal vowel. Pronounce the d clearly: co-MEN-do.",
+          "Verbs in -er take -endo, and verbs in -ir take -indo: \"comer\" becomes \"comendo\", \"abrir\" becomes \"abrindo\", and \"partir\" becomes \"partindo\". All three endings start with a nasal vowel. Pronounce the d clearly: 'koh-MẼ-doo'.",
           "Even the irregular verbs you know are regular here: \"fazer\" gives \"fazendo\", \"ir\" gives \"indo\", \"vir\" gives \"vindo\", and \"ler\" gives \"lendo\". \"Assistir\" keeps its \"a\": \"estou assistindo ao jogo\".",
         ],
         examples: [
@@ -435,7 +435,7 @@ export const PT_A1_U08: Lesson[] = [
         type: "speak",
         text: "Ela está assistindo à novela.",
         prompt: "Say it in Portuguese: She's watching the soap opera.",
-        tip: "The t in \"assistindo\" comes before i, so it sounds like ch: as-sis-CHIN-do.",
+        tip: "The t in \"assistindo\" comes before i, so it sounds like ch: 'ah-sees-CHĨ-doo'.",
         explanation: "\"Assistir a\" keeps its \"a\" in the progressive: a + a becomes \"à novela\".",
       },
       {
@@ -534,7 +534,7 @@ export const PT_A1_U08: Lesson[] = [
             type: "speak",
             text: "Estou vendo um filme.",
             prompt: "Say it in Portuguese: I'm watching a movie.",
-            tip: "The e in vendo is nasal and the final o sounds like u: VEN-du, with no full n.",
+            tip: "The e in vendo is nasal and the final o sounds like 'oo': 'VẼ-doo', with no full n.",
             explanation: "\"Estou vendo\": \"ver\" makes a regular gerund, \"vendo\".",
           },
         ],
@@ -608,7 +608,7 @@ export const PT_A1_U08: Lesson[] = [
         source: "They're watching the game.",
         answer: "Eles estão assistindo ao jogo.",
         altAnswers: ["Elas estão assistindo ao jogo.", "Eles estão assistindo o jogo.", "Elas estão assistindo o jogo.", "Eles estão vendo o jogo.", "Elas estão vendo o jogo."],
-        explanation: "\"Estão assistindo\" is the progressive for a group. The standard form is \"assistir a\" + \"o\" = \"ao jogo\", but in speech many Brazilians say \"assistindo o jogo\".",
+        explanation: "\"Estão assistindo\" is the progressive for a group. The standard form is \"assistir a\" plus \"o\", giving \"ao jogo\", but in speech many Brazilians say \"assistindo o jogo\".",
       },
       {
         type: "fill-blank",
@@ -651,7 +651,7 @@ export const PT_A1_U08: Lesson[] = [
         type: "speak",
         text: "Estou morando em Curitiba este ano.",
         prompt: "Say it in Portuguese: I'm living in Curitiba this year.",
-        tip: "In \"este\" the t comes before a final e, so it sounds like ch: 'ESS-chee'.",
+        tip: "In \"este\" the t comes before a final e, so it sounds like ch: 'ÊS-chee'.",
         explanation: "\"Estou morando\" presents it as a temporary situation for this year.",
       },
       {
@@ -745,7 +745,7 @@ export const PT_A1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Nós somos de Porto Alegre.",
-            tip: "\"Nós\" has an open ó; in \"somos\" the first o is closed and the last one sounds like u.",
+            tip: "\"Nós\" has an open ó; in \"somos\" the first o is closed and the last one sounds like 'oo'.",
             explanation: "\"Nós somos\": the -mos form of \"ser\", the right choice in a presentation or formal setting.",
           },
         ],
@@ -757,11 +757,11 @@ export const PT_A1_U08: Lesson[] = [
           "The one rule: each subject keeps its own verb. \"A gente vai\" or \"nós vamos\", never \"a gente vamos\" or \"nós vai\". For possessives, \"a gente\" still uses \"nosso\" and \"nossa\": \"a gente adora a nossa cidade\".",
         ],
         examples: [
-          { es: "A gente vai de metrô? Vamos.", en: "Shall we take the metro? Let's." },
+          { es: "A gente vai de metrô? Vamos.", en: "Should we take the metro? Let's." },
           { es: "A gente tem aula amanhã? Temos, às nove.", en: "Do we have class tomorrow? Yes, at nine." },
           { es: "A gente adora a nossa cidade.", en: "We love our city." },
           { es: "A gente mora ao lado da padaria.", en: "We live next to the bakery." },
-          { es: "Vamos à feira no domingo?", en: "Shall we go to the street market on Sunday?" },
+          { es: "Vamos à feira no domingo?", en: "Should we go to the street market on Sunday?" },
         ],
         checkpoint: [
           {
@@ -779,7 +779,7 @@ export const PT_A1_U08: Lesson[] = [
             en: "We love [our] city.",
             sentence: "A gente adora a ___ cidade.",
             answer: "nossa",
-            explanation: "With \"a gente\" the possessive is still \"nosso/nossa\", agreeing with the thing owned: \"cidade\" is feminine, so \"nossa\".",
+            explanation: "With \"a gente\" the possessive is still \"nosso\" or \"nossa\", agreeing with the thing owned: \"cidade\" is feminine, so \"nossa\".",
           },
           {
             type: "multiple-choice",
@@ -878,7 +878,7 @@ export const PT_A1_U08: Lesson[] = [
         type: "speak",
         text: "A gente vai à praia no sábado.",
         prompt: "Say it in Portuguese: We're going to the beach on Saturday. (casual)",
-        tip: "In \"gente\" the g sounds like the s in measure, the en is nasal and the final te sounds like chi.",
+        tip: "In \"gente\" the g sounds like the s in measure, the en is nasal and the final te sounds like 'chee'.",
         explanation: "\"A gente vai\": the ele/ela form of \"ir\". \"À praia\" is a + a.",
       },
     ],
@@ -924,7 +924,7 @@ export const PT_A1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Eu me levanto às seis e meia.",
-            tip: "\"Me\" sounds like \"mi\", and the final o of \"levanto\" sounds like u.",
+            tip: "\"Me\" sounds like 'mee', and the final o of \"levanto\" sounds like 'oo'.",
             explanation: "\"Eu me levanto\" (I get up). \"E meia\" adds half an hour to the time.",
           },
         ],
@@ -1207,12 +1207,12 @@ export const PT_A1_U08: Lesson[] = [
       {
         heading: "Vamos à praia? Inviting and answering",
         body: [
-          "\"Vamos\" + a place or an infinitive is an invitation: \"vamos à praia?\" (shall we go to the beach?), \"vamos almoçar?\". \"À\" is a + a, because \"praia\" is feminine; a masculine place takes \"ao\": \"ao cinema\".",
+          "\"Vamos\" + a place or an infinitive is an invitation: \"vamos à praia?\" (should we go to the beach?), \"vamos almoçar?\". \"À\" is a + a, because \"praia\" is feminine; a masculine place takes \"ao\": \"ao cinema\".",
           "To accept, repeat the verb: \"vamos!\". To say no politely, give a reason with \"poder\" or \"ter que\": \"hoje não posso, tenho que trabalhar\". \"Que pena!\" means what a shame.",
           "Fix the time with \"a que horas?\" and \"às dez\", then close with \"combinado!\" (deal!) and \"tchau\".",
         ],
         examples: [
-          { es: "Vamos à praia hoje?", en: "Shall we go to the beach today?" },
+          { es: "Vamos à praia hoje?", en: "Should we go to the beach today?" },
           { es: "Vamos! A que horas?", en: "Let's! What time?" },
           { es: "Às dez, em Copacabana.", en: "At ten, in Copacabana." },
           { es: "Hoje não posso, tenho que trabalhar.", en: "I can't today, I have to work." },
@@ -1221,9 +1221,9 @@ export const PT_A1_U08: Lesson[] = [
         checkpoint: [
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Shall we go to the beach today?",
+            prompt: "Put the words in order to say: Should we go to the beach today?",
             words: ["Vamos", "à", "praia", "hoje?"],
-            translation: "Shall we go to the beach today?",
+            translation: "Should we go to the beach today?",
             explanation: "\"Vamos à praia\": \"à\" is a + a, because \"a praia\" is feminine.",
           },
           {
@@ -1239,7 +1239,7 @@ export const PT_A1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Shall we have lunch?",
+            source: "Should we have lunch?",
             answer: "Vamos almoçar?",
             altAnswers: ["A gente vai almoçar?"],
             explanation: "\"Vamos\" + infinitive invites someone to do something together: \"vamos almoçar?\".",
@@ -1278,7 +1278,7 @@ export const PT_A1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Shall we go to the movies?",
+        source: "Should we go to the movies?",
         answer: "Vamos ao cinema?",
         altAnswers: ["A gente vai ao cinema?"],
         explanation: "\"O cinema\" is masculine, so a + o becomes \"ao\": \"vamos ao cinema?\".",
@@ -1678,7 +1678,7 @@ export const PT_A1_U08: Lesson[] = [
       {
         heading: "Rafael's week in Belo Horizonte",
         body: [
-          "Rafael tells a friend about his week. Regular -ar verbs share one set of endings: \"falo, fala, falamos, falam\". \"Não\" goes right before the verb, and Brazilians answer yes/no questions by repeating the verb: \"Você trabalha no sábado? Não, não trabalho.\"",
+          "Rafael tells a friend about his week. Regular -ar verbs share one set of endings: \"falo, fala, falamos, falam\". \"Não\" goes right before the verb, and Brazilians answer yes-or-no questions by repeating the verb: \"Você trabalha no sábado? Não, não trabalho.\"",
           "\"Ter\" gives what you have and your age (\"tenho vinte anos\", never with \"ser\"), and \"ter que\" plus an infinitive says what you must do. Keep the \"de\" after \"gostar\" and \"precisar\": \"preciso de um café\".",
         ],
         examples: [
@@ -1799,7 +1799,7 @@ export const PT_A1_U08: Lesson[] = [
           { left: "Até amanhã.", right: "See you tomorrow." },
           { left: "Tudo bem?", right: "How's it going?" },
         ],
-        explanation: "\"Com licença\" asks to get past or interrupt, while \"desculpa\" apologises for something you did.",
+        explanation: "\"Com licença\" asks to get past or interrupt, while \"desculpa\" apologizes for something you did.",
       },
     ],
   },
@@ -1854,7 +1854,7 @@ export const PT_A1_U08: Lesson[] = [
       {
         heading: "Questions, numbers and time",
         body: [
-          "Question words go first: \"Quanto custa?\", \"A que horas...?\" \"Quantos\" and \"quantas\" agree with the noun, just like \"um/uma\", \"dois/duas\" and the hundreds: \"duzentas pessoas\".",
+          "Question words go first: \"Quanto custa?\", \"A que horas...?\" \"Quantos\" and \"quantas\" agree with the noun, just like \"um\" and \"uma\", \"dois\" and \"duas\", and the hundreds: \"duzentas pessoas\".",
           "For the time, one o'clock is singular, \"é uma hora\", and every other hour is plural, \"são duas horas\". At eight is \"às oito\". Days and months stay lowercase. \"Por que\" asks why, and \"porque\" answers.",
         ],
         examples: [

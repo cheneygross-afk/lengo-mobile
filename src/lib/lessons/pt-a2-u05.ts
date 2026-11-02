@@ -347,7 +347,7 @@ export const PT_A2_U05: Lesson[] = [
           {
             type: "speak",
             text: "Antigamente meu pai trabalhava no centro.",
-            tip: "In \"antigamente\" the t before i sounds like ch, and the final e like i: an-tchi-ga-MEN-tchi.",
+            tip: "In \"antigamente\" the t before i sounds like ch, and the final e like ee: an-chee-ga-MEN-chee.",
             explanation: "\"Antigamente\" points to how things used to be, so the imperfeito \"trabalhava\".",
           },
         ],
@@ -507,7 +507,7 @@ export const PT_A2_U05: Lesson[] = [
         type: "speak",
         text: "Eu fui a Curitiba duas vezes.",
         prompt: "Say it in Portuguese: I went to Curitiba twice.",
-        tip: "In \"Curitiba\" the r is a quick tap and the t before i sounds like ch: cu-ri-TCHI-ba.",
+        tip: "In \"Curitiba\" the r is a quick tap and the t before i sounds like ch: koo-ree-CHEE-ba.",
         explanation: "Counted trips are finished events, so the perfeito \"fui\". Twice is \"duas vezes\".",
       },
       {
@@ -864,7 +864,7 @@ export const PT_A2_U05: Lesson[] = [
           {
             type: "speak",
             text: "Ele não pôde vir ontem.",
-            tip: "The ô in pôde is closed, like the o in go without the glide. The ó in pode is open, as in law. The final de sounds like 'dji'.",
+            tip: "The ô in pôde is closed, like the o in go without the glide. The ó in pode is open, as in law. The final de sounds like jee: PÔ-jee.",
             explanation: "\"Pôde\" with the circumflex is the past, he could. Without it, \"pode\" is the present.",
           },
         ],
@@ -1001,7 +1001,7 @@ export const PT_A2_U05: Lesson[] = [
         type: "speak",
         text: "Eu conheci o Rafael em Recife.",
         prompt: "Say it in Portuguese: I met Rafael in Recife.",
-        tip: "Say co-nhe-SI: the nh is like the ny in canyon, and the stress falls on the last syllable.",
+        tip: "Say ko-nye-SEE: the nh is like the ny in canyon, and the stress falls on the last syllable.",
         explanation: "A first meeting in a place is \"conheci\". The \"o\" before \"Rafael\" is the article many Brazilians use with first names; \"conheci Rafael\" is also correct.",
       },
     ],
@@ -1072,7 +1072,7 @@ export const PT_A2_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You planned to buy bread, but the padaria was closed. What do you say?",
+            question: "You planned to buy bread, but the bakery was closed. What do you say?",
             options: [
               "Eu ia comprar pão, mas a padaria estava fechada.",
               "Eu vou comprar pão, mas a padaria estava fechada.",
@@ -1095,7 +1095,7 @@ export const PT_A2_U05: Lesson[] = [
           { es: "Eu ia ligar para o João, mas ele ligou primeiro.", en: "I was going to call João, but he called first." },
           { es: "Vamos visitar a Dona Maria no domingo.", en: "We're going to visit Dona Maria on Sunday." },
           { es: "Íamos visitar a Dona Maria, mas ela não estava em casa.", en: "We were going to visit Dona Maria, but she wasn't home." },
-          { es: "Todo sábado eu ia à feira com a minha avó.", en: "Every Saturday I used to go to the feira with my grandma." },
+          { es: "Todo sábado eu ia à feira com a minha avó.", en: "Every Saturday I used to go to the street market with my grandma." },
         ],
         checkpoint: [
           {
@@ -1203,7 +1203,7 @@ export const PT_A2_U05: Lesson[] = [
         type: "speak",
         text: "Eu ia ligar, mas esqueci.",
         prompt: "Say it in Portuguese: I was going to call, but I forgot.",
-        tip: "Say \"ia\" as two quick syllables, i-a, and stress the end of es-que-CI.",
+        tip: "Say \"ia\" as two quick syllables, i-a, and stress the end of es-ke-SEE.",
         explanation: "\"Ia ligar\" is the plan that fell through, and \"esqueci\" (perfeito) is what happened.",
       },
     ],
@@ -1478,7 +1478,7 @@ export const PT_A2_U05: Lesson[] = [
           {
             type: "speak",
             text: "Desculpa o atraso.",
-            tip: "In \"atraso\" the r after t is a quick tap, and the final -o sounds like u: a-TRA-zu, with the single s between vowels said as z.",
+            tip: "In \"atraso\" the r after t is a quick tap, and the final -o sounds like oo: a-TRA-zoo, with the single s between vowels said as z.",
             explanation: "\"Desculpa o atraso\" is the everyday way to say sorry I'm late.",
           },
         ],
@@ -1675,7 +1675,7 @@ export const PT_A2_U05: Lesson[] = [
         type: "speak",
         text: "O que aconteceu?",
         prompt: "Say it in Portuguese: What happened?",
-        tip: "Stress the last syllable, a-con-te-CEU, and say the final eu as one quick sound, closed ê gliding into u.",
+        tip: "Stress the last syllable, a-kon-te-SÊW, and say the final eu as one quick sound, closed ê gliding into oo.",
         explanation: "\"O que aconteceu?\": the perfeito of \"acontecer\" for one finished event.",
       },
       {
@@ -1829,7 +1829,7 @@ export const PT_A2_U05: Lesson[] = [
             type: "speak",
             text: "Eu estava saindo quando começou a chover.",
             prompt: "Say it in Portuguese: I was leaving when it started to rain.",
-            tip: "Say \"saindo\" as sa-IN-du, with a nasal \"in\" and the final -o like a short u.",
+            tip: "Say \"saindo\" as sa-ĨN-doo, with a nasal \"in\" and the final -o like oo.",
             explanation: "The background action uses \"estava saindo\"; the action that cut in uses the perfeito \"começou\".",
           },
         ],
@@ -2012,7 +2012,7 @@ export const PT_A2_U05: Lesson[] = [
           {
             type: "speak",
             text: "De repente, uma onda enorme chegou.",
-            tip: "In most of Brazil \"de\" sounds like dji, and the r at the start of \"repente\" is an h-like sound.",
+            tip: "In most of Brazil \"de\" sounds like jee, and the r at the start of \"repente\" is an h-like sound.",
             explanation: "\"De repente\" signals the event, and \"chegou\" in the perfeito moves the story forward.",
           },
         ],
@@ -2185,7 +2185,7 @@ export const PT_A2_U05: Lesson[] = [
         type: "speak",
         text: "No fim, deu tudo certo.",
         prompt: "Say it in Portuguese: In the end, it all worked out.",
-        tip: "\"Deu\" is one syllable, the e in \"certo\" is open, and its final o sounds like u.",
+        tip: "\"Deu\" is one syllable, the e in \"certo\" is open, and its final o sounds like oo: SÉR-too.",
         explanation: "\"No fim\" closes the story, and \"deu tudo certo\" is the everyday happy ending in the perfeito.",
       },
     ],
@@ -2266,7 +2266,7 @@ export const PT_A2_U05: Lesson[] = [
           {
             type: "speak",
             text: "Nós estávamos jantando quando a Beatriz chegou.",
-            tip: "Stress the TÁ in estávamos, and let the final -o of jantando sound like a soft u.",
+            tip: "Stress the TÁ in estávamos, and let the final -o of jantando sound like oo: zhã-TÃ-doo.",
             explanation: "\"Estávamos jantando\" is the scene, and \"chegou\" is the event that interrupted it.",
           },
         ],

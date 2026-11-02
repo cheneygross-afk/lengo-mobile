@@ -17,7 +17,7 @@ export const PT_C1_U01_EXTRA: Lesson[] = [
       {
         heading: "Meaning-changing pairs",
         body: [
-          "In relative clauses the indicative points to something known, the subjunctive to something hoped for: \"procuro uma secretária que fala alemão\" (a specific one) vs \"que fale alemão\" (any who might). \"O fato de que\" takes either: the indicative stresses the fact, the subjunctive treats it as a topic to evaluate (\"o fato de ele ter mentido / de que tenha mentido me incomoda\").",
+          "In relative clauses the indicative points to something known, the subjunctive to something hoped for: \"procuro uma secretária que fala alemão\" (a specific one) vs \"que fale alemão\" (any who might). \"O fato de que\" takes either: the indicative stresses the fact, the subjunctive treats it as a topic to evaluate (\"o fato de que ele tenha mentido me incomoda\"). The personal infinitive sidesteps the choice: \"o fato de ele ter mentido me incomoda\".",
           "\"Talvez\" before the verb takes the subjunctive (\"talvez ele venha\"); after it, the indicative (\"ele vem, talvez\"). \"Não sabia que ele era casado\" (he was, and I didn't know) vs \"não sei se ele é casado\" (I don't know whether). After superlatives and \"o único\", the subjunctive adds subjectivity: \"o melhor livro que eu já tenha lido\", \"a única pessoa que saiba\".",
         ],
         examples: [
@@ -153,7 +153,7 @@ export const PT_C1_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "É o melhor livro que eu já tenha lido.",
         prompt: "Say it in Portuguese: It's the best book I've ever read.",
-        tip: "Tenha lido: TẼN-ya LI-du. The e in tenha is nasal, and nh sounds like the ny in canyon.",
+        tip: "Tenha lido: TẼ-nya LEE-doo. The e in tenha is nasal, and nh sounds like the ny in canyon.",
         explanation: "After the superlative \"o melhor livro\", the perfect subjunctive \"tenha lido\" frames the claim as the best within your reading. In casual speech, \"que eu já li\" is also common.",
       },
       {
@@ -318,7 +318,7 @@ export const PT_C1_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "Custe o que custar, vou terminar.",
         prompt: "Say it in Portuguese: Whatever it takes, I'll finish.",
-        tip: "Custe: KUS-tchi.",
+        tip: "Custe: KOOS-chee. The t before the final e sounds like ch.",
         explanation: "\"Custe o que custar\" (whatever it takes) puts the present subjunctive \"custe\" before the future subjunctive \"custar\", which looks like the infinitive.",
       },
       {

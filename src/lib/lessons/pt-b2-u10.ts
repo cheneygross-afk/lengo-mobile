@@ -693,7 +693,7 @@ export const PT_B2_U10: Lesson[] = [
         type: "speak",
         text: "Foi um grande prazer conhecer o senhor.",
         prompt: "Say it in Portuguese: It was a great pleasure to meet you. (to an older man)",
-        tip: "In \"grande\" the an is nasal and the final de sounds like dji: GRÃ-dji.",
+        tip: "In \"grande\" the an is nasal and the final de sounds like jee: GRÃ-jee.",
         explanation: "\"Um grande prazer\": \"grande\" before the noun means great, not big. \"O senhor\" is the polite you for an older man.",
       },
       {
@@ -832,7 +832,7 @@ export const PT_B2_U10: Lesson[] = [
           {
             type: "speak",
             text: "Os pastéis da feira são gostosos.",
-            tip: "Open the vowel in the plural: gos-TÓ-zus, not the closed ô of the singular gostoso.",
+            tip: "Open the vowel in the plural: gos-TÓ-zoos, not the closed ô of the singular gostoso.",
             explanation: "\"-oso\" adjectives open the stressed vowel in the feminine and the plural: \"gostosa\", \"gostosos\".",
           },
           {
@@ -991,7 +991,7 @@ export const PT_B2_U10: Lesson[] = [
           {
             type: "speak",
             text: "Posso te fazer uma perguntinha?",
-            tip: "The t before i in perguntinha sounds like the ch in cheese: per-gun-TCHI-nha.",
+            tip: "The t before i in perguntinha sounds like the ch in cheese: per-gũ-CHEE-nya.",
             explanation: "\"Uma perguntinha\" is a quick, harmless question, a polite way to interrupt someone.",
           },
         ],
@@ -1319,7 +1319,7 @@ export const PT_B2_U10: Lesson[] = [
           {
             type: "speak",
             text: "Diferentes pessoas me deram o mesmo conselho.",
-            tip: "The di in diferentes sounds like dji, and the final -tes sounds like tchis.",
+            tip: "The di in diferentes sounds like jee, and the final -tes sounds like chees: jee-fe-RẼ-chees.",
             explanation: "\"Diferentes\" before the noun means various. After the noun it would mean unlike each other.",
           },
         ],
@@ -1641,7 +1641,7 @@ export const PT_B2_U10: Lesson[] = [
         type: "speak",
         text: "Vale a pena comprar?",
         prompt: "Say it in Portuguese: Is it worth buying?",
-        tip: "In speech \"vale a pena\" flows as one word: va-li-a-PÊ-na.",
+        tip: "In speech \"vale a pena\" flows as one word: va-lee-a-PÊ-na.",
         explanation: "\"Vale a pena\" + infinitive asks whether something is worth doing.",
       },
       {
@@ -1907,7 +1907,7 @@ export const PT_B2_U10: Lesson[] = [
         type: "speak",
         text: "O problema é que o clima mudou.",
         prompt: "Say it in Portuguese: The problem is that the climate has changed.",
-        tip: "Both \"problema\" and \"clima\" are stressed on the second-to-last syllable: pro-BLÊ-ma, CLI-ma.",
+        tip: "Both \"problema\" and \"clima\" are stressed on the second-to-last syllable: pro-BLÊ-ma, KLEE-ma.",
         explanation: "\"O problema\" and \"o clima\" are both masculine -ma nouns.",
       },
       {
@@ -2346,7 +2346,7 @@ export const PT_B2_U10: Lesson[] = [
           {
             type: "speak",
             text: "Vocês aceitam um cafezinho?",
-            tip: "The stress falls on -zi-: ca-fe-ZI-nho. Make the nh like the ny in canyon.",
+            tip: "The stress falls on -zi-: ka-fe-ZEE-nyoo. Make the nh like the ny in canyon.",
             explanation: "Offering \"um cafezinho\" is the standard Brazilian welcome; the diminutive adds warmth, not smallness.",
           },
         ],
