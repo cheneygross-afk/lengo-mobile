@@ -230,7 +230,7 @@ export const KO_B1_U13_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (formal, to your boss).",
             source: "I should have sent you the materials before the meeting. I'm sorry.",
             answer: "회의 전에 자료를 보내 드렸어야 했는데 죄송합니다.",
-            altAnswers: ["회의 전에 자료를 보내 드렸어야 했는데 죄송해요.", "회의 전에 자료를 보냈어야 했는데 죄송합니다.", "회의 전에 자료를 미리 보내 드렸어야 했는데 죄송합니다.", "회의 전에 자료를 드렸어야 했는데 죄송합니다.", "회의 전에 자료를 보내 드렸어야 됐는데 죄송합니다."],
+            altAnswers: ["회의 전에 자료를 보냈어야 했는데 죄송합니다.", "회의 전에 자료를 미리 보내 드렸어야 했는데 죄송합니다.", "회의 전에 자료를 드렸어야 했는데 죄송합니다.", "회의 전에 자료를 보내 드렸어야 됐는데 죄송합니다."],
             explanation: "보내 드리다 for your boss → 보내 드렸어야 했는데, then 죄송합니다.",
           },
           {
@@ -464,7 +464,7 @@ export const KO_B1_U13_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Our team nearly lost yesterday's match.",
             answer: "어제 경기에서 우리 팀이 질 뻔했어요.",
-            altAnswers: ["어제 경기에서 우리 팀이 거의 질 뻔했어요.", "우리 팀이 어제 경기에서 질 뻔했어요.", "어제 경기에서 저희 팀이 질 뻔했어요.", "어제 경기에서 하마터면 우리 팀이 질 뻔했어요.", "어제 우리 팀이 질 뻔했어요."],
+            altAnswers: ["우리 팀이 어제 경기에서 질 뻔했어요.", "어제 경기에서 저희 팀이 질 뻔했어요.", "어제 경기에서 하마터면 우리 팀이 질 뻔했어요.", "어제 우리 팀이 질 뻔했어요."],
             explanation: "지다 'lose (a game)' + -ㄹ 뻔했어요: they won in the end.",
           },
           {

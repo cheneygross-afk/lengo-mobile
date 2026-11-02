@@ -162,7 +162,7 @@ export const KO_B1_U25: Lesson[] = [
         sentence: "제 원룸은 ___에 있어요.",
         answer: "오 층",
         altAnswers: ["5층"],
-        explanation: "Floors take Sino-Korean numbers: 오 층, never *다섯 층.",
+        explanation: "Floors are named with Sino-Korean numbers: 오 층. 다섯 층 would count five floors (다섯 층 건물), not name the fifth.",
       },
       {
         type: "word-order",
@@ -701,7 +701,7 @@ export const KO_B1_U25: Lesson[] = [
             sentence: "___ 아직 지저분해요.",
             answer: "청소하기는 했는데",
             altAnswers: ["청소하긴 했는데", "청소하기는 했지만", "청소하긴 했지만", "청소는 했는데", "청소는 했지만"],
-            explanation: "The past goes on 하다, not on the first verb: 청소하기는 했는데, never *청소했기는.",
+            explanation: "The past normally goes on 하다, not on the first verb: 청소하기는 했는데. The bare 청소는 했는데 works too.",
           },
         ],
       },
@@ -1122,7 +1122,6 @@ export const KO_B1_U25: Lesson[] = [
             en: "I still haven't [unpacked] everything.",
             sentence: "아직 짐을 다 못 ___.",
             answer: "풀었어요",
-            altAnswers: ["풀었습니다"],
             explanation: "Unpacking is 짐을 풀다, the opposite of 짐을 싸다.",
           },
           {
@@ -1223,7 +1222,7 @@ export const KO_B1_U25: Lesson[] = [
         en: "I'll [have] the food [made] ahead of time.",
         sentence: "음식은 제가 미리 ___.",
         answer: "만들어 놓을게요",
-        altAnswers: ["만들어 둘게요", "만들어 놓겠습니다", "만들어 두겠습니다", "만들게요"],
+        altAnswers: ["만들어 둘게요", "만들게요"],
         explanation: "만들어 + 놓을게요: a promise to have it ready. Write 게, never 께.",
       },
       {
@@ -1333,10 +1332,10 @@ export const KO_B1_U25: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean (polite, to a neighbour).",
+            prompt: "Translate into Korean (formal, to a neighbour).",
             source: "I'd be grateful if you could keep it down a little at night.",
             answer: "밤에는 조금만 조용히 해 주시면 감사하겠습니다.",
-            altAnswers: ["밤에는 좀 조용히 해 주시면 감사하겠습니다.", "밤에는 조금만 조용히 해 주시면 감사하겠어요.", "밤에 조금만 조용히 해 주시면 감사하겠습니다.", "밤에는 조금 조용히 해 주시면 감사하겠습니다.", "밤에는 조용히 해 주시면 감사하겠습니다.", "밤에는 조금만 조용히 해 주시면 좋겠습니다."],
+            altAnswers: ["밤에는 좀 조용히 해 주시면 감사하겠습니다.", "밤에 조금만 조용히 해 주시면 감사하겠습니다.", "밤에는 조금 조용히 해 주시면 감사하겠습니다.", "밤에는 조용히 해 주시면 감사하겠습니다.", "밤에는 조금만 조용히 해 주시면 좋겠습니다."],
             explanation: "-아 / 어 주시면 감사하겠습니다 turns a demand into a request. 조금만 'just a little' softens it further.",
           },
           {
@@ -1361,7 +1360,7 @@ export const KO_B1_U25: Lesson[] = [
         heading: "Sound focus: 윗집 [위찝], 아랫집 [아래찝]",
         body: [
           "When two words form a compound and the first ends in a vowel, Korean often writes an extra ㅅ under it: 위 + 집 = 윗집, 아래 + 집 = 아랫집, 전세 + 집 = 전셋집, 바다 + 가 = 바닷가. This ㅅ, the 사이시옷, isn't heard as [ㅅ]: it makes the next consonant tense. Say 윗집 [위찝], 아랫집 [아래찝], 전셋집 [전세찝], 바닷가 [바다까]. Some speakers add a short stop, [윋찝]; both are standard.",
-          "The spelling trap goes both ways. Learners hear [위찝] and write *위집, or add ㅅ to words that don't take it. The ㅅ only appears in compounds with a native Korean part, and never when the first word already ends in a consonant: 옆집 [엽찝] is tense with no added ㅅ.",
+          "The spelling trap goes both ways. Learners hear [위찝] and write *위집, or add ㅅ to words that don't take it. The ㅅ appears in compounds with a native Korean part (only six all-Sino words, such as 숫자 and 횟수, take it), and never when the first word already ends in a consonant: 옆집 [엽찝] is tense with no added ㅅ.",
         ],
         examples: [
           { es: "윗집 사람들은 밤늦게까지 안 자요.", en: "The people upstairs stay up late." },
@@ -1486,10 +1485,10 @@ export const KO_B1_U25: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (polite, to a neighbour).",
+        prompt: "Translate into Korean (formal, to a neighbour).",
         source: "I'd be grateful if you didn't run the washing machine late at night.",
         answer: "밤늦게는 세탁기를 안 돌리시면 감사하겠습니다.",
-        altAnswers: ["밤늦게 세탁기를 안 돌리시면 감사하겠습니다.", "밤늦게는 세탁기를 안 쓰시면 감사하겠습니다.", "밤늦게 세탁기를 안 쓰시면 감사하겠습니다.", "밤늦게는 세탁기를 돌리지 말아 주시면 감사하겠습니다.", "밤늦게는 세탁기를 쓰지 말아 주시면 감사하겠습니다.", "밤늦게는 세탁기를 사용하지 말아 주시면 감사하겠습니다.", "밤늦게는 세탁기를 안 돌리시면 감사하겠어요."],
+        altAnswers: ["밤늦게 세탁기를 안 돌리시면 감사하겠습니다.", "밤늦게는 세탁기를 안 쓰시면 감사하겠습니다.", "밤늦게 세탁기를 안 쓰시면 감사하겠습니다.", "밤늦게는 세탁기를 돌리지 말아 주시면 감사하겠습니다.", "밤늦게는 세탁기를 쓰지 말아 주시면 감사하겠습니다.", "밤늦게는 세탁기를 사용하지 말아 주시면 감사하겠습니다."],
         explanation: "A washing machine is run with 돌리다. -(으)시면 감사하겠습니다 keeps it a request, not an order.",
       },
       {
@@ -1503,7 +1502,7 @@ export const KO_B1_U25: Lesson[] = [
       },
       {
         type: "speak",
-        prompt: "Say it in Korean (polite, to a neighbour): I'd be grateful if you could keep it down a little at night.",
+        prompt: "Say it in Korean (formal, to a neighbour): I'd be grateful if you could keep it down a little at night.",
         text: "밤에는 조금만 조용히 해 주시면 감사하겠습니다.",
         tip: "Say 감사하겠습니다 as [감사하겓씀니다].",
         explanation: "The standard polite complaint: background, 조금만, and -아 / 어 주시면 감사하겠습니다.",
@@ -1896,7 +1895,7 @@ export const KO_B1_U25: Lesson[] = [
         source: "It's old, but in return the rent is cheap.",
         answer: "오래된 대신에 월세가 싸요.",
         altAnswers: ["오래된 대신 월세가 싸요.", "낡은 대신에 월세가 싸요.", "낡은 대신 월세가 싸요.", "오래된 대신에 월세가 저렴해요.", "오래된 대신 월세가 저렴해요.", "집이 오래된 대신에 월세가 싸요."],
-        explanation: "오래되다 is a verb, so 'old' is the past modifier 오래된.",
+        explanation: "'Old' is 오래된, with -ㄴ like a finished change: 오래된 대신에, not *오래되는 대신에.",
       },
       {
         type: "fill-blank",
@@ -2127,7 +2126,7 @@ export const KO_B1_U25: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I'll check that with the landlord.",
             answer: "그건 집주인한테 확인해 볼게요.",
-            altAnswers: ["그건 집주인한테 확인해 보겠습니다.", "그건 집주인에게 확인해 볼게요.", "그건 집주인께 확인해 볼게요.", "그건 집주인한테 물어볼게요.", "그건 집주인에게 물어볼게요.", "집주인한테 확인해 볼게요.", "집주인한테 물어볼게요.", "그건 집주인분께 여쭤볼게요."],
+            altAnswers: ["그건 집주인에게 확인해 볼게요.", "그건 집주인께 확인해 볼게요.", "그건 집주인한테 물어볼게요.", "그건 집주인에게 물어볼게요.", "집주인한테 확인해 볼게요.", "집주인한테 물어볼게요.", "그건 집주인분께 여쭤볼게요."],
             explanation: "확인해 볼게요: a promise to the customer. 그건 = 그것은, 'that'.",
           },
           {
@@ -2198,7 +2197,7 @@ export const KO_B1_U25: Lesson[] = [
         source: "It's on the fourth floor, and there's no elevator.",
         answer: "사 층이고 엘리베이터가 없어요.",
         altAnswers: ["4층이고 엘리베이터가 없어요.", "사 층인데 엘리베이터가 없어요.", "4층인데 엘리베이터가 없어요.", "사 층이고 엘리베이터는 없어요.", "4층이고 엘리베이터는 없어요."],
-        explanation: "Floors are Sino-Korean: 사 층, never *네 층.",
+        explanation: "Floors are named with Sino-Korean numbers: 사 층. 네 층 would count four floors, not name the fourth.",
       },
       {
         type: "translate",
@@ -2468,7 +2467,7 @@ export const KO_B1_U25: Lesson[] = [
         prompt: "Translate into Korean (polite, to the agent).",
         source: "I'd like to sign for the first flat.",
         answer: "첫 번째 집으로 계약하고 싶어요.",
-        altAnswers: ["첫 번째 집으로 계약할게요.", "첫 번째 집을 계약하고 싶어요.", "첫 번째 집으로 계약하고 싶습니다.", "첫 번째 집으로 할게요."],
+        altAnswers: ["첫 번째 집으로 계약할게요.", "첫 번째 집을 계약하고 싶어요.", "첫 번째 집으로 할게요.", "첫 번째 집으로 계약하려고요."],
         explanation: "계약하다 'sign a contract'; (으)로 marks your choice.",
       },
       {

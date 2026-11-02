@@ -452,7 +452,7 @@ export const KO_B1_U17: Lesson[] = [
             question: "Which is spelled correctly?",
             options: ["배터리가 다 돼 가요.", "배터리가 다 되 가요.", "배터리가 다 됬 가요.", "배터리가 다 되어서 가요."],
             correctIndex: 0,
-            explanation: "되 + 어 = 돼. The bare stem *되 can't stand before 가요, 됐 is the past, and 되어서 means 'because it became'.",
+            explanation: "되 + 어 = 돼. The bare stem *되 can't stand before 가요, *됬 is a misspelling (the past is 됐), and 되어서 means 'because it became'.",
           },
         ],
       },
@@ -987,6 +987,7 @@ export const KO_B1_U17: Lesson[] = [
         en: "I've [been learning] taekwondo since I was little.",
         sentence: "어릴 때부터 태권도를 ___.",
         answer: "배워 왔어요",
+        altAnswers: ["배우고 있어요"],
         explanation: "From childhood up to now: 배우다 → 배워 왔어요.",
       },
       {
@@ -1096,10 +1097,10 @@ export const KO_B1_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the natural Korean for 'It's getting colder'?",
+            question: "Which is the most natural Korean for 'It's getting colder'?",
             options: ["점점 추워져요.", "점점 추워요.", "점점 추웠어요.", "점점 춥고 있어요."],
             correctIndex: 0,
-            explanation: "점점 + 추워지다. 춥다 alone is a state, and adjectives never take -고 있다.",
+            explanation: "점점 + 추워지다. 점점 추워요 is heard in casual speech but leaves the change out, 추웠어요 is a past state, and adjectives don't take -고 있다 (*춥고 있어요).",
           },
         ],
       },
@@ -2007,7 +2008,7 @@ export const KO_B1_U17: Lesson[] = [
         heading: "Wrong direction, missing change",
         body: [
           "가다 looks ahead and 오다 looks back. For ten years up to today, *십 년 동안 살아가요 points the wrong way; say 십 년 동안 살아왔어요.",
-          "Adverbs of change want a change verb: 점점 추워요 and 일이 점점 바빠요 are heard in casual speech, but 점점 추워져요 and 일이 점점 바빠져요 are what careful speakers say. The same goes for -아 / 어 가다 with adjectives: turn the adjective into a change first, 추워져 가요, not *추워 가요.",
+          "Adverbs of change want a change verb: 점점 추워요 and 일이 점점 바빠요 are heard in casual speech, but 점점 추워져요 and 일이 점점 바빠져요 are what careful speakers say. The same goes for -아 / 어 가다 with adjectives: turn the adjective into a change first, 추워져 가요; 추워 가요 sounds odd in everyday speech.",
         ],
         examples: [
           { es: "십 년 동안 서울에서 살아왔어요.", en: "I've lived in Seoul for ten years. (not *살아가요)" },
@@ -2076,7 +2077,7 @@ export const KO_B1_U17: Lesson[] = [
         question: "Which sentence is the most natural?",
         options: ["커피가 갈수록 비싸져요.", "커피가 갈수록 비싸요.", "커피가 점점 비싸요.", "커피가 갈수록 비싸 가요."],
         correctIndex: 0,
-        explanation: "갈수록 and 점점 need a change verb: 비싸지다. *비싸 가요 skips the -아 / 어지다 step.",
+        explanation: "갈수록 and 점점 want a change verb: 비싸지다. 갈수록 비싸요 and 점점 비싸요 are heard in casual speech but less natural, and 비싸 가요 skips the -아 / 어지다 step.",
       },
       {
         type: "dictation",

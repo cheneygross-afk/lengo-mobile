@@ -173,7 +173,7 @@ export const KO_B1_U25_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "잔금은 이사하는 날 내요.",
-        explanation: "잔금 is 잔 'left over' + 금 'money'; 이사하는 날 is three words.",
+        explanation: "잔금 is 잔 'left over' + 금 'money'; 이사하는 날 is two words.",
       },
       {
         type: "translate",
@@ -396,7 +396,7 @@ export const KO_B1_U25_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'll work on Saturday, and in return I'll take Monday off.",
         answer: "토요일에 일하는 대신에 월요일에 쉴게요.",
-        altAnswers: ["토요일에 일하는 대신 월요일에 쉴게요.", "토요일에 일하는 대신에 월요일에 쉬겠습니다.", "토요일에 일하는 대신에 월요일은 쉴게요.", "토요일에 출근하는 대신에 월요일에 쉴게요.", "토요일에 출근하는 대신 월요일에 쉴게요."],
+        altAnswers: ["토요일에 일하는 대신 월요일에 쉴게요.", "토요일에 일하는 대신에 월요일은 쉴게요.", "토요일에 출근하는 대신에 월요일에 쉴게요.", "토요일에 출근하는 대신 월요일에 쉴게요."],
         explanation: "A future deal, so -는 대신에; -(으)ㄹ게요 for your promise.",
       },
       {

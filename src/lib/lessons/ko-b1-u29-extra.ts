@@ -470,7 +470,7 @@ export const KO_B1_U29_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite, in a message to a seller).",
         source: "I've attached the receipt in case you were wondering.",
         answer: "궁금하실까 봐 영수증을 첨부했어요.",
-        altAnswers: ["궁금하실까 봐 영수증을 첨부했습니다.", "궁금하실까 봐서 영수증을 첨부했어요.", "궁금하실까 봐 영수증도 첨부했어요.", "혹시 궁금하실까 봐 영수증을 첨부했어요."],
+        altAnswers: ["궁금하실까 봐서 영수증을 첨부했어요.", "궁금하실까 봐 영수증도 첨부했어요.", "혹시 궁금하실까 봐 영수증을 첨부했어요."],
         explanation: "Here -(으)ㄹ까 봐 sounds considerate: 'in case you'd wonder'. -시- respects the reader.",
       },
       {

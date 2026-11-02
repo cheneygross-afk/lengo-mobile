@@ -224,7 +224,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
         type: "speak",
         prompt: "Say it in Korean (recipe instruction): Finally, mix it well and eat.",
         text: "마지막으로 잘 비벼서 드세요.",
-        tip: "비벼서 is [비벼서]; keep the two ㅂ soft, not like English b.",
+        tip: "비벼서 is [비벼서]: between vowels ㅂ is voiced, close to a soft English b.",
         explanation: "비비다 + -어서 → 비벼서, then 드세요.",
       },
     ],
@@ -373,7 +373,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (to a friend).",
         source: "If you have a headache, why don't you go to bed early?",
         answer: "머리 아프면 일찍 자지 그래?",
-        altAnswers: ["머리가 아프면 일찍 자지 그래?", "머리 아프면 일찍 자지 그래요?", "머리가 아프면 일찍 자지 그래요?"],
+        altAnswers: ["머리가 아프면 일찍 자지 그래?"],
         explanation: "Casual -지 그래? to a friend; 머리(가) 아프다 'have a headache'.",
       },
       {
@@ -382,7 +382,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (to a friend).",
         source: "You should have gone to the doctor yesterday.",
         answer: "어제 병원에 가지 그랬어?",
-        altAnswers: ["어제 병원에 가지 그랬어요?", "어제 병원 가지 그랬어?", "어제 병원에 갔어야지."],
+        altAnswers: ["어제 병원 가지 그랬어?", "어제 병원에 갔어야지."],
         explanation: "-지 그랬어? points at a missed chance; -았 / 었어야지 (Unit 13) is a stronger 'you should have'.",
       },
       {
@@ -429,7 +429,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'll do that next time.",
         answer: "다음에는 그렇게 할게요.",
-        altAnswers: ["다음에 그렇게 할게요.", "다음번에는 그렇게 할게요.", "다음에는 그렇게 하겠습니다."],
+        altAnswers: ["다음에 그렇게 할게요.", "다음번에는 그렇게 할게요."],
         explanation: "-(으)ㄹ게요 promises the listener you'll follow the advice.",
       },
       {
@@ -467,7 +467,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
         examples: [
           { es: "할머니, 먼저 드세요.", en: "Grandma, please start." },
           { es: "잘 먹겠습니다!", en: "Thank you for the meal! (before eating)" },
-          { es: "어머님, 음식이 정말 맛있어요.", en: "Mrs Kim, the food is really delicious." },
+          { es: "어머님, 음식이 정말 맛있어요.", en: "(to her mother) The food is really delicious." },
           { es: "할머니, 물 좀 더 드릴까요?", en: "Grandma, shall I get you more water?" },
         ],
         checkpoint: [
@@ -528,7 +528,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
       {
         heading: "At a 회식",
         body: [
-          "Your team leader takes the team to a 고깃집. Pour for seniors and receive with both hands, turn away to drink, never pour your own glass, and decline drinks politely if you need to.",
+          "Your team leader takes the team to a 고깃집. Pour for seniors and receive with both hands, turn away to drink, don't pour your own glass, and decline drinks politely if you need to.",
         ],
         examples: [
           { es: "팀장님, 제가 한 잔 따라 드리겠습니다.", en: "Let me pour you a glass." },
@@ -550,7 +550,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I'll grill the meat.",
             answer: "고기는 제가 구울게요.",
-            altAnswers: ["제가 고기를 구울게요.", "고기는 제가 굽겠습니다.", "제가 고기를 굽겠습니다.", "고기는 제가 구워 드릴게요.", "제가 고기를 구워 드릴게요."],
+            altAnswers: ["제가 고기를 구울게요.", "고기는 제가 구워 드릴게요.", "제가 고기를 구워 드릴게요."],
             explanation: "굽다 → 구울게요: ㅂ becomes 우 before -(으)ㄹ. Juniors often volunteer to grill.",
           },
         ],
@@ -563,7 +563,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite, to your friend's grandmother).",
         source: "Grandma, please start.",
         answer: "할머니, 먼저 드세요.",
-        altAnswers: ["할머니, 먼저 드십시오.", "할머니, 먼저 잡수세요.", "할머니, 진지 먼저 드세요."],
+        altAnswers: ["할머니, 먼저 잡수세요.", "할머니, 진지 먼저 드세요."],
         explanation: "드세요 is the honorific 'please eat'; 먼저 invites her to begin.",
       },
       {
@@ -581,7 +581,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite, to your friend's mother).",
         source: "The food is really delicious.",
         answer: "음식이 정말 맛있어요.",
-        altAnswers: ["어머님, 음식이 정말 맛있어요.", "음식이 진짜 맛있어요.", "정말 맛있어요.", "음식이 너무 맛있어요.", "음식이 정말 맛있습니다."],
+        altAnswers: ["어머님, 음식이 정말 맛있어요.", "음식이 진짜 맛있어요.", "정말 맛있어요.", "음식이 너무 맛있어요."],
         explanation: "Complimenting the food is the best thanks. 어머님 is the polite way to address a friend's mother.",
       },
       {
@@ -614,7 +614,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (formal, holding up your glass with both hands as the team leader pours).",
         source: "Thank you. I'll enjoy it.",
         answer: "감사합니다. 잘 마시겠습니다.",
-        altAnswers: ["고맙습니다. 잘 마시겠습니다.", "팀장님, 감사합니다. 잘 마시겠습니다.", "감사합니다. 잘 마실게요.", "고맙습니다. 잘 마실게요."],
+        altAnswers: ["고맙습니다. 잘 마시겠습니다.", "팀장님, 감사합니다. 잘 마시겠습니다."],
         explanation: "With a drink, 잘 마시겠습니다 replaces 잘 먹겠습니다. Receive the glass with both hands as you say it.",
       },
       {
@@ -623,7 +623,7 @@ export const KO_B1_U26_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (formal, to your team leader).",
         source: "Let me pour you a glass.",
         answer: "제가 한 잔 따라 드리겠습니다.",
-        altAnswers: ["한 잔 따라 드리겠습니다.", "팀장님, 제가 한 잔 따라 드리겠습니다.", "제가 한 잔 따라 드릴게요."],
+        altAnswers: ["한 잔 따라 드리겠습니다.", "팀장님, 제가 한 잔 따라 드리겠습니다."],
         explanation: "Humble 따라 드리다 with formal -겠습니다.",
       },
       {

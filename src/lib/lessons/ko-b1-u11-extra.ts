@@ -122,7 +122,7 @@ export const KO_B1_U11_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "We increased the number of staff.",
         answer: "직원 수를 늘렸어요.",
-        altAnswers: ["직원을 늘렸어요.", "직원 수를 늘렸습니다.", "직원을 더 늘렸어요."],
+        altAnswers: ["직원을 늘렸어요.", "직원을 더 늘렸어요."],
         explanation: "늘다 → 늘리다 'increase something'.",
       },
       {
@@ -187,7 +187,7 @@ export const KO_B1_U11_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: -게 하다",
-    summary: "Make and let sentences at home, at school and at work with -게 하다, including 'not let' and 'don't make'.",
+    summary: "Say who makes or lets someone do something at home, at school and at work with -게 하다, including 'not let' and 'don't make'.",
     duration: "14 min",
     sections: [
       {

@@ -11,7 +11,7 @@ export const KO_B1_U10_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: -이- and -히- Passives",
-    summary: "New sentences with 보이다, 쌓이다, 닫히다, 막히다 and 잡히다.",
+    summary: "Practise the -이- and -히- passives in new sentences with 보이다, 쌓이다, 닫히다, 막히다 and 잡히다.",
     duration: "14 min",
     sections: [
       {
@@ -167,7 +167,7 @@ export const KO_B1_U10_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: -리- and -기- Passives",
-    summary: "New sentences with 열리다, 팔리다, 걸리다, 안기다 and 끊기다.",
+    summary: "Practise the -리- and -기- passives in new sentences with 열리다, 팔리다, 걸리다, 안기다 and 끊기다.",
     duration: "14 min",
     sections: [
       {
@@ -178,7 +178,7 @@ export const KO_B1_U10_EXTRA: Lesson[] = [
         examples: [
           { es: "이번 주말에 한강에서 불꽃 축제가 열려요.", en: "There's a fireworks festival at the Han River this weekend." },
           { es: "이 빵은 아침마다 다 팔려요.", en: "This bread sells out every morning." },
-          { es: "아이가 울면서 엄마 품에 안겼어요.", en: "The child ran crying into her mum's arms." },
+          { es: "아이가 울면서 엄마 품에 안겼어요.", en: "The child fell crying into her mum's arms." },
           { es: "터널에서 전화가 끊겼어요.", en: "The call dropped in the tunnel." },
         ],
         checkpoint: [
@@ -260,9 +260,9 @@ export const KO_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The child ran crying into her mum's arms.",
+        prompt: "Put the words in order to say: The child fell crying into her mum's arms.",
         words: ["아이가", "울면서", "엄마", "품에", "안겼어요."],
-        translation: "The child ran crying into her mum's arms.",
+        translation: "The child fell crying into her mum's arms.",
         explanation: "안기다 'be held, fall into someone's arms'; 품에 marks where.",
       },
       {
@@ -322,7 +322,7 @@ export const KO_B1_U10_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: -아 / 어지다 and 되다",
-    summary: "Passive news and announcements with 알려지다, 정해지다 and 되다 verbs.",
+    summary: "Understand and write passive news and announcements with 알려지다, 정해지다 and 되다 verbs.",
     duration: "14 min",
     sections: [
       {
@@ -398,9 +398,9 @@ export const KO_B1_U10_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A subway announcement says the trains are running late. Which is right?",
-        options: ["열차 운행이 지연되고 있습니다.", "열차 운행이 지연하고 있습니다.", "열차 운행을 지연되고 있습니다.", "열차 운행이 지연해지고 있습니다."],
+        options: ["열차 운행이 지연되고 있습니다.", "열차 운행이 지연시키고 있습니다.", "열차 운행을 지연되고 있습니다.", "열차 운행이 지연해지고 있습니다."],
         correctIndex: 0,
-        explanation: "지연하다 → 지연되다 'be delayed', with 운행이 as subject. *지연해지다 is not a word.",
+        explanation: "지연되다 'be delayed', with 운행이 as subject. 지연시키다 means 'delay (something)', 운행을 needs an active verb, and *지연해지다 is not a word.",
       },
       {
         type: "translate",

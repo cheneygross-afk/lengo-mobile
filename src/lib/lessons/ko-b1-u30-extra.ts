@@ -215,7 +215,7 @@ export const KO_B1_U30_EXTRA: Lesson[] = [
           { es: "아빠가 제 선물을 정말 좋아하셨어요.", en: "Dad really loved my present." },
           { es: "동생이 수학을 많이 어려워해요.", en: "My younger sibling finds maths really hard." },
           { es: "친구가 제 여행 사진을 부러워했어요.", en: "My friend was jealous of my travel photos." },
-          { es: "할머니께서 손주들을 많이 보고 싶어하세요.", en: "Grandma misses her grandchildren a lot." },
+          { es: "할머니께서 손주들을 많이 보고 싶어 하세요.", en: "Grandma misses her grandchildren a lot." },
           { es: "조카가 새 유치원을 무서워해요.", en: "My niece is scared of her new kindergarten." },
         ],
         checkpoint: [
@@ -233,9 +233,9 @@ export const KO_B1_U30_EXTRA: Lesson[] = [
             prompt: "Write the Korean for the bold words.",
             en: "Grandma [misses] her grandchildren a lot.",
             sentence: "할머니께서 손주들을 많이 ___.",
-            answer: "보고 싶어하세요",
-            altAnswers: ["그리워하세요", "보고 싶어 하세요"],
-            explanation: "-고 싶다 also becomes -고 싶어하다 for others: 보고 싶어하세요, with -시-.",
+            answer: "보고 싶어 하세요",
+            altAnswers: ["그리워하세요"],
+            explanation: "-고 싶다 also becomes -고 싶어 하다 for others: 보고 싶어 하세요, with -시-. After a phrase like 보고 싶다, standard spelling puts a space before 하다.",
           },
           {
             type: "listen-choose",
@@ -372,8 +372,8 @@ export const KO_B1_U30_EXTRA: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "할머니께서 손주들을 많이 보고 싶어하세요.",
-        explanation: "보고 싶어하세요: -고 싶다 becomes -고 싶어하다 for someone else. 싶어하다 is also often written 싶어 하다.",
+        audio: "할머니께서 손주들을 많이 보고 싶어 하세요.",
+        explanation: "보고 싶어 하세요: -고 싶다 becomes -고 싶어 하다 for someone else. The standard spelling is spaced (싶어 하다), though 싶어하다 is often seen.",
       },
       {
         type: "speak",

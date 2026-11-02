@@ -541,7 +541,7 @@ export const KO_B1_U03: Lesson[] = [
         question: "The delivery driver called and asked where your place is. What do you tell your flatmate?",
         options: ["택배 기사님이 집이 어디냬요.", "택배 기사님이 집이 어디래요.", "택배 기사님이 집이 어디재요.", "택배 기사님이 집이 어디대요."],
         correctIndex: 0,
-        explanation: "A reported question is -냬요: 어디냐고 해요 → 어디냬요. 어디래요 would report a statement ('they say it's where').",
+        explanation: "A reported question is -냬요: 어디냐고 해요 → 어디냬요. 어디래요 is the noun-statement report (as in 집이 어디래요? 'where did they say the place is?'), so it can't pass on the driver's own question.",
       },
       {
         type: "fill-blank",
@@ -1881,7 +1881,7 @@ export const KO_B1_U03: Lesson[] = [
       {
         heading: "이래요 or 래요?",
         body: [
-          "With nouns the choice is purely about the sound before: a consonant takes 이래요 (회의실이래요), a vowel takes 래요 (휴가래요). Learners who think of 이 as part of the ending write *휴가이래요; drop the 이 after a vowel, as with 예요. Past nouns move to 이었대요 / 였대요.",
+          "With nouns the choice is purely about the sound before: a consonant takes 이래요 (회의실이래요), a vowel takes 래요 (휴가래요). Learners who think of 이 as part of the ending say 휴가이래요, which sounds clumsy and is not what Koreans say; drop the 이 after a vowel, as with 예요. Past nouns move to 이었대요 / 였대요.",
         ],
         examples: [
           { es: "다음 주가 휴가래요.", en: "They say next week is the vacation." },
@@ -2224,7 +2224,7 @@ export const KO_B1_U03: Lesson[] = [
       {
         heading: "The format: 들은 내용과 같은 것을 고르십시오",
         body: [
-          "In TOPIK II listening, questions 13-16 play a short exchange between a man and a woman and ask 들은 내용과 같은 것을 고르십시오 'Choose the sentence that matches what you heard'. When the talk passes on news, the wrong options swap the people: the man becomes the source, or the woman becomes the one who will act.",
+          "In TOPIK II listening, questions 13-16 play a short recording (a conversation between a man and a woman, an announcement, a news item or an interview) and ask 들은 내용과 같은 것을 고르십시오 'Choose the sentence that matches what you heard'. When the talk passes on news, the wrong options swap the people: the man becomes the source, or the woman becomes the one who will act.",
           "So listen for three things: who the news is about, who said it (the person before 그러는데 or before -대요), and what kind of report it is. -대요 is a fact, -재요 a suggestion, -(으)래요 an instruction, -냬요 a question. An option that turns 오래요 'told to come' into 'will come' is wrong even if every word sounds familiar.",
         ],
         examples: [

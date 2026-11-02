@@ -1155,10 +1155,10 @@ export const KO_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (formal, in an interview).",
+        prompt: "Translate into Korean (polite, in an interview).",
         source: "May I ask what time work starts?",
         answer: "출근 시간이 언제인지 여쭤봐도 될까요?",
-        altAnswers: ["출근 시간이 몇 시인지 여쭤봐도 될까요?", "출근 시간이 어떻게 되는지 여쭤봐도 될까요?", "출근은 몇 시인지 여쭤봐도 될까요?", "몇 시에 출근하는지 여쭤봐도 될까요?", "출근 시간이 언제인지 여쭤보고 싶습니다."],
+        altAnswers: ["출근 시간이 몇 시인지 여쭤봐도 될까요?", "출근 시간이 어떻게 되는지 여쭤봐도 될까요?", "출근은 몇 시인지 여쭤봐도 될까요?", "몇 시에 출근하는지 여쭤봐도 될까요?"],
         explanation: "The same frame as the pay question: -인지 / -는지 + 여쭤봐도 될까요?",
       },
       {
@@ -1425,7 +1425,7 @@ export const KO_B1_U24: Lesson[] = [
             en: "(formal, to a caller) The director is [on the phone] right now.",
             sentence: "부장님은 지금 ___.",
             answer: "통화 중이십니다",
-            altAnswers: ["통화 중이세요", "통화하고 계십니다", "통화하고 계세요", "통화하시는 중입니다"],
+            altAnswers: ["통화하고 계십니다", "통화하시는 중입니다"],
             explanation: "통화 중 + -시- for the director: 중이십니다.",
           },
           {
@@ -1986,7 +1986,7 @@ export const KO_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Make it polite and translate into Korean (formal, in an interview): 연봉이 얼마예요?",
+            prompt: "Make it softer and translate into Korean (polite, in an interview): 연봉이 얼마예요?",
             source: "May I ask roughly what the salary is?",
             answer: "연봉은 어느 정도인지 여쭤봐도 될까요?",
             altAnswers: ["연봉이 어느 정도인지 여쭤봐도 될까요?", "연봉은 얼마 정도인지 여쭤봐도 될까요?", "연봉이 얼마 정도인지 여쭤봐도 될까요?", "연봉은 대략 어느 정도인지 여쭤봐도 될까요?", "연봉이 대략 얼마인지 여쭤봐도 될까요?"],
@@ -2090,7 +2090,7 @@ export const KO_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (formal, in an interview).",
+        prompt: "Translate into Korean (polite, in an interview).",
         source: "May I ask when the results will come out?",
         answer: "결과는 언제 나오는지 여쭤봐도 될까요?",
         altAnswers: ["결과가 언제 나오는지 여쭤봐도 될까요?", "결과는 언제쯤 나오는지 여쭤봐도 될까요?", "결과가 언제쯤 나오는지 여쭤봐도 될까요?", "결과는 언제 알 수 있는지 여쭤봐도 될까요?", "결과를 언제 알 수 있는지 여쭤봐도 될까요?", "결과 발표가 언제인지 여쭤봐도 될까요?"],
