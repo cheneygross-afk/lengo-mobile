@@ -69,7 +69,7 @@ export const PT_B1_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "If I were you, I'd talk to the landlord.",
+        source: "In your place, I'd talk to the landlord.",
         answer: "No seu lugar, eu falaria com o proprietário.",
         altAnswers: ["No seu lugar, falaria com o proprietário.", "No seu lugar, eu falaria com o dono do apartamento.", "No seu lugar, eu conversaria com o proprietário.", "Eu no seu lugar falaria com o proprietário.", "No seu lugar, eu ia falar com o proprietário.", "Se eu fosse você, eu falaria com o proprietário."],
         explanation: "Advice: \"no seu lugar\" + conditional.",
@@ -89,7 +89,7 @@ export const PT_B1_U27_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "We've been eating out a lot.",
         answer: "Temos comido muito fora.",
-        altAnswers: ["Nós temos comido muito fora.", "A gente tem comido muito fora.", "Temos jantado muito fora.", "A gente anda comendo muito fora."],
+        altAnswers: ["A gente tem comido fora muito.", "Nós temos comido fora muito.", "Temos comido fora muito.", "Nós temos comido muito fora.", "A gente tem comido muito fora.", "Temos jantado fora muito.", "A gente anda comendo muito fora."],
         explanation: "Repeated lately: \"temos comido\". \"Comer fora\" is to eat out.",
       },
       {

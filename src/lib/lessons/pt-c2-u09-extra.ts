@@ -18,7 +18,7 @@ export const PT_C2_U09_EXTRA: Lesson[] = [
         heading: "Agreement and regência",
         body: [
           "Agreement: \"anexo\" agrees (\"seguem anexas as fotos\"), but \"em anexo\" doesn't; \"meio\" as an adverb never changes (\"ela está meio cansada\"), as a numeral it agrees (\"meia hora\"); \"bastante\" agrees as an adjective (\"bastantes pessoas\") but not as an adverb (\"elas são bastante simpáticas\"); \"menos\" never becomes \"menas\"; \"é proibido entrada\" but \"é proibida a entrada\" (with the article, it agrees). \"A maioria dos alunos chegou\" or \"chegaram\": both accepted.",
-          "Regência: \"implicar\" (to entail) takes a direct object: \"isso implica mudanças\" (not \"implica em\"); \"visar\" (to aim at) takes \"a\" in the norm: \"o projeto visa ao lucro\"; \"aspirar a\" = aspire to, \"aspirar\" + object = inhale; \"proceder a\" = carry out: \"procedeu-se à análise\".",
+          "Regência: \"implicar\" (to imply) takes a direct object: \"isso implica mudanças\" (not \"implica em\"); \"visar\" (to aim at) takes \"a\" in the norm: \"o projeto visa ao lucro\"; \"aspirar a\" = aspire to, \"aspirar\" + object = inhale; \"proceder a\" = carry out: \"procedeu-se à análise\".",
         ],
         examples: [
           { es: "Seguem anexas as planilhas.", en: "Please find the spreadsheets attached." },
@@ -50,7 +50,7 @@ export const PT_C2_U09_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Essa mudança implica novos custos.",
             question: "Why is this sentence correct in the written norm?",
-            options: ["Implicar (to entail) takes a direct object, with no em.", "It should be implica em.", "Implicar always needs com.", "It should be implicam."],
+            options: ["Implicar (to imply) takes a direct object, with no em.", "It should be implica em.", "Implicar always needs com.", "It should be implicam."],
             correctIndex: 0,
             explanation: "In the sense of to entail, \"implicar\" takes a direct object in the norm: \"implica novos custos\". \"Implica em\" is common in speech but editors correct it, and \"implicar com\" means to pick on.",
           },
@@ -151,7 +151,7 @@ export const PT_C2_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ela estava meio preocupada.",
         prompt: "Say it in Portuguese: She was a bit worried.",
-        tip: "Stress pre-o-koo-PA-da, and keep \"meio\" as one gliding syllable: MEI-oo.",
+        tip: "Stress pre-o-cu-PA-da, and keep \"meio\" as one gliding syllable: MEI-u.",
         explanation: "\"Meio\" modifies the adjective \"preocupada\", so it is an adverb and stays invariable: \"meio preocupada\", never \"meia preocupada\".",
       },
       {
@@ -314,7 +314,7 @@ export const PT_C2_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "À medida que o tempo passa, tudo melhora.",
         prompt: "Say it in Portuguese: As time goes by, everything gets better.",
-        tip: "The crase isn't heard: \"à medida\" sounds just like \"a medida\". Stress me-JEE-da and me-LYÓ-ra.",
+        tip: "The crase isn't heard: \"à medida\" sounds just like \"a medida\". Stress me-DI-da and me-LHO-ra.",
         explanation: "\"À medida que\" means as, in proportion, and always carries the crase. \"Passa\" and \"melhora\" in the present describe a general truth.",
       },
       {
@@ -557,7 +557,7 @@ export const PT_C2_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Seguem anexas as planilhas, e as taxas estão inclusas.",
         prompt: "Say this email line aloud, making both adjectives agree.",
-        tip: "Stress a-NÉK-sas and ĩn-KLOO-zas, with the feminine plural clear.",
+        tip: "Stress a-NE-xas and in-CLU-sas, with the feminine plural clear.",
         explanation: "Both adjectives agree with the feminine plural nouns.",
       },
     ],
@@ -792,7 +792,7 @@ export const PT_C2_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Presta atenção: a diretoria tomou a decisão e a loja já está dando lucro.",
         prompt: "Say it aloud, stressing each verb with its noun.",
-        tip: "Group the chunks: PRÉS-ta a-tẽn-SÃW, too-MOW a de-see-ZÃW, DÃN-doo LOO-kroo.",
+        tip: "Group the chunks: PRES-ta a-ten-ÇÃO, to-MOU a de-ci-SÃO, dan-do LU-cro.",
         explanation: "Three collocations in one breath: \"prestar\", \"tomar\", \"dar\".",
       },
     ],

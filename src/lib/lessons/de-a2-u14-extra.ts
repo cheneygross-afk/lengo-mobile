@@ -146,10 +146,10 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm glad you're here.' (to a friend)",
+        question: "Which sentence is correct?",
         options: ["Ich bin froh, dass du da bist.", "Ich bin froh, dass du bist da.", "Ich bin froh, dass bist du da.", "Ich bin froh dass, du da bist."],
         correctIndex: 0,
-        explanation: "Comma before \"dass\", and the verb \"bist\" goes to the end. \"*Dass du bist da*\" keeps main-clause order.",
+        explanation: "Comma before \"dass\", and \"bist\" at the end.",
       },
       {
         type: "listen-choose",
@@ -472,10 +472,10 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'He says he can't come tomorrow.'?",
+        question: "Which sentence is correct?",
         options: ["Er sagt, dass er morgen nicht kommen kann.", "Er sagt, dass er kann morgen nicht kommen.", "Er sagt, dass er morgen kann nicht kommen.", "Er sagt, dass er morgen nicht kann kommen."],
         correctIndex: 0,
-        explanation: "In the dass-clause the modal \"kann\" is the very last word, after the infinitive. \"*Dass er morgen nicht kann kommen*\" puts the modal before the infinitive.",
+        explanation: "The modal \"kann\" is the very last word.",
       },
       {
         type: "dictation",
@@ -798,10 +798,10 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I think she helped her brother.'?",
+        question: "Which sentence is correct?",
         options: ["Ich glaube, dass sie ihrem Bruder geholfen hat.", "Ich glaube, dass sie ihren Bruder geholfen hat.", "Ich glaube, dass sie hat ihrem Bruder geholfen.", "Ich glaube, dass sie ihrem Bruder hat geholfen."],
         correctIndex: 0,
-        explanation: "\"Helfen\" takes the dative (\"ihrem Bruder\"), and \"hat\" goes last. \"*Ihren Bruder geholfen*\" uses the accusative.",
+        explanation: "\"Helfen\" takes the dative (\"ihrem Bruder\") and \"hat\" goes last.",
       },
       {
         type: "listen-choose",
@@ -953,10 +953,10 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I think that's right.'?",
+        question: "Which sentence is correct?",
         options: ["Ich glaube, dass das stimmt.", "Ich glaube, das dass stimmt.", "Ich glaube, dass dass stimmt.", "Ich glaube, das das stimmt."],
         correctIndex: 0,
-        explanation: "First the conjunction \"dass\", then the pronoun \"das\": \"dass das stimmt\". \"*Das dass stimmt*\" swaps them.",
+        explanation: "Conjunction \"dass\" first, then the pronoun \"das\".",
       },
       {
         type: "multiple-choice",

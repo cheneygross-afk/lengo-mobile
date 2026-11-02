@@ -2781,7 +2781,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
             0,
             "El mandato afirmativo de tú es la forma de él del presente: compra. «Compres» solo se usa con «no», «compre» es para usted y «No compres» es la orden contraria."
           ),
-          fb("Aplica la regla a un verbo nuevo.", "No ___ abrigo; aquí hace frío. (olvidarse de, tú)", "te olvides del", "Negativo de tú: te delante + subjuntivo (olvides); de + el = del."),
+          fb("Aplica la regla a un verbo nuevo.", "No ___ el abrigo; aquí hace frío. (olvidarse de, tú)", "te olvides del", "Negativo de tú: te delante + subjuntivo (olvides); de + el = del."),
         ]
       ),
     ],

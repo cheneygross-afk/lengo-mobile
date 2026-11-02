@@ -569,7 +569,7 @@ export const PT_C2_U04_EXTRA: Lesson[] = [
         examples: [
           { es: "Minha terra tem palmeiras", en: "My land has palm trees (seven poetic syllables: the count stops at the stress)" },
           { es: "Amor é fogo que arde sem se ver", en: "Love is a fire that burns unseen (ten syllables, stressed on six and ten)" },
-          { es: "A cidade acorda cedo", en: "The city wakes up early (seven: the final e of \"cidade\" merges with the a of \"acorda\")" },
+          { es: "A cidade acorda cedo", en: "The city wakes up early (seven: the two a's merge)" },
           { es: "Rimei saudade com cidade: rima pobre.", en: "I rhymed longing with city: a poor rhyme (two nouns)." },
           { es: "A avó viu o avô na janela.", en: "Grandma saw Grandpa at the window. (open ó, closed ô)" },
         ],
@@ -609,10 +609,10 @@ export const PT_C2_U04_EXTRA: Lesson[] = [
           "With inversion, the poet's commas guide you: a small pause before a displaced phrase (\"Da varanda, o mar inteiro eu via\") lets the listener rebuild the order. In a lyric, let the melody's stress win, and keep sung forms like \"pra\" and \"a gente\" as written.",
         ],
         examples: [
-          { es: "Guardei a carta que nunca mandei.", en: "I kept the letter I never / sent." },
-          { es: "Esperei a tarde inteira por um telefonema que não veio.", en: "I waited all afternoon for a / phone call that never came." },
+          { es: "Guardei a carta que nunca / mandei.", en: "I kept the letter I never / sent." },
+          { es: "Esperei a tarde inteira por um / telefonema que não veio.", en: "I waited all afternoon for a / phone call that never came." },
           { es: "Da varanda, o mar inteiro eu via.", en: "From the balcony I could see the whole sea." },
-          { es: "De cansaço os olhos cheios, dormiu no ônibus.", en: "Her eyes heavy with tiredness, / she fell asleep on the bus." },
+          { es: "De cansaço os olhos cheios, / dormiu no ônibus.", en: "Her eyes heavy with tiredness, / she fell asleep on the bus." },
           { es: "Ao longe, cantava um bem-te-vi.", en: "In the distance, a bem-te-vi was singing." },
         ],
         checkpoint: [
@@ -656,7 +656,7 @@ export const PT_C2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "Sou Ana, da cama, da cana, fulana, sacana.",
+        audio: "Sou Ana, da cama, da cana, fulana, bacana.",
         question: "What sound runs through this Chico Buarque line?",
         options: ["A nasal a: assonance.", "A repeated r: alliteration.", "Open é vowels.", "No repeated sound."],
         correctIndex: 0,
@@ -666,14 +666,14 @@ export const PT_C2_U04_EXTRA: Lesson[] = [
         type: "speak",
         text: "Vozes veladas, veludosas vozes.",
         prompt: "Read the Cruz e Sousa line, letting the v sounds hum.",
-        tip: "Keep the v voiced and soft: VÔ-zees ve-LA-das, ve-loo-DÓ-zas VÔ-zees: closed ô in vozes, open ó in veludosas.",
+        tip: "Keep the v voiced and soft: VO-zes ve-LA-das, ve-lu-DO-sas VO-zes.",
         explanation: "Aliteração plus a mirrored order: noun-adjective, adjective-noun.",
       },
       {
         type: "speak",
         text: "No meio do caminho tinha uma pedra.",
         prompt: "Read Drummond's line slowly, as if you were stopping at the stone.",
-        tip: "Stress MEI-oo, ka-MEE-nyoo and PÉ-dra (open é), and let \"pedra\" land with a falling pitch.",
+        tip: "Stress MEI-o, ca-MI-nho and PE-dra, and let \"pedra\" land with a falling pitch.",
         explanation: "The famous line repeats in reverse order (quiasmo); the voice should feel the obstacle.",
       },
       {

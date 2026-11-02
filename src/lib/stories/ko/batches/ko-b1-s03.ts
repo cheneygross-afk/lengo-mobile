@@ -56,8 +56,8 @@ export const KO_B1_S03_STORIES: Story[] = [
       `열네 시간 넘게 걸려 베를린에 도착했을 때는 저녁이었다. 예진은 케이크를 사 들고 민재의 아파트로 갔다. 여름에 놀러 왔을 때 받은 열쇠로 조용히 문을 열었다. “서프라이즈!” 하지만 방은 깜깜했다. 불을 켜 보니 침대는 깨끗하게 정리되어 있었고, 냉장고에는 물 두 병뿐이었다. ‘출장을 갔나 보다.’ 예진은 케이크를 든 채로 한참 서 있었다.`,
       `그때 휴대폰이 울렸다. 민재의 영상 통화였다. 예진은 급하게 표정을 바꾸고 전화를 받았다. 그런데 화면 속 민재 뒤로 아주 익숙한 벽지가 보였다. 꽃무늬 벽지, 작은 창문, 그리고 예진이 아끼는 노란색 쿠션. 예진의 방이었다.`,
       `“예진아, 어디야? 너희 집 앞에 왔다가 너무 추워서 그냥 들어왔어. 비밀번호 아직 안 바꿨더라.” 민재는 꽃다발을 흔들며 웃었다. 예진은 대답 대신 휴대폰 카메라를 돌렸다. 민재의 텅 빈 방이 화면에 나왔다. 민재의 눈이 커졌다. “잠깐, 거기… 내 방이야?”`,
-      `두 사람은 한참 동안 아무 말도 하지 못하다가 동시에 웃음을 터뜨렸다. 서로를 놀라게 하려고 똑같은 생각을 한 것이었다. 예진은 민재의 책상에 케이크를 놓고 초에 불을 붙였고, 민재는 예진의 식탁 위 컵에 꽃을 꽂았다. 베를린은 저녁 일곱 시, 서울은 새벽 세 시였다. 두 사람은 화면을 사이에 두고 함께 노래를 불렀다. 물론 케이크는 예진만 먹을 수 있었다.`,
-      `결국 민재는 비행기 표를 바꿔서 이틀 뒤에 베를린으로 돌아왔다. 다행히 예진은 남은 휴가를 민재와 함께 보낼 수 있었다. 공항에서 헤어질 때 민재가 말했다. “다음 기념일에는 그냥 미리 말하자.” 예진이 고개를 저었다. “아니. 다음 기념일에는 같은 도시에서 살자.” 민재는 대답 대신 예진의 손을 꼭 잡았다.`,
+      `두 사람은 한참 동안 아무 말도 하지 못하다가 동시에 웃음을 터뜨렸다. 서로를 놀라게 하려고 똑같은 생각을 한 것이었다. 예진은 민재의 책상에 케이크를 놓고 초에 불을 붙였고, 민재는 예진의 식탁에 꽃을 꽂았다. 베를린은 저녁 일곱 시, 서울은 새벽 세 시였다. 두 사람은 화면을 사이에 두고 함께 노래를 불렀다. 물론 케이크는 예진만 먹을 수 있었다.`,
+      `결국 민재는 비행기 표를 바꿔서 이틀 뒤에 베를린으로 돌아왔다. 예진은 남은 휴가를 겨우 민재와 함께 보낼 수 있었다. 공항에서 헤어질 때 민재가 말했다. “다음 기념일에는 그냥 미리 말하자.” 예진이 고개를 저었다. “아니. 다음 기념일에는 같은 도시에서 살자.” 민재는 대답 대신 예진의 손을 꼭 잡았다.`,
     ],
     questions: [
       {
@@ -214,7 +214,7 @@ export const KO_B1_S03_STORIES: Story[] = [
 export const KO_B1_S03_GLOSSES: Record<string, StoryGloss[]> = {
   "ko-the-wrong-table": [
     { es: "소개팅", en: "blind date (set up by a friend)", forms: ["소개팅을", "소개팅이"] },
-    { es: "-는 바람에", en: "because (of something that caused an unwanted result)", forms: ["바람에"] },
+    { es: "-는 바람에", en: "because (of something that caused an unwanted result)", forms: ["부탁하는", "바람에"] },
     { es: "약속을 잡다", en: "to set up an appointment", forms: ["약속을", "잡고"] },
     { es: "셔츠", en: "shirt", forms: ["셔츠를"] },
     { es: "숨", en: "breath", forms: ["숨을"] },
@@ -257,7 +257,7 @@ export const KO_B1_S03_GLOSSES: Record<string, StoryGloss[]> = {
   "ko-delivery-robot-number-seven": [
     { es: "바퀴", en: "wheel", forms: ["바퀴가"] },
     { es: "인도", en: "sidewalk, pavement", forms: ["인도로"] },
-    { es: "보도블록", en: "paving block", forms: ["보도블록", "보도블록을"] },
+    { es: "보도블록", en: "paving block", forms: ["보도블록"] },
     { es: "빠지다", en: "to fall into, to get stuck in", forms: ["빠진", "빠졌어요", "빠지는"] },
     { es: "-(으)ㄹ 뻔하다", en: "to almost (happen)", forms: ["뻔했어요"] },
     { es: "구청", en: "district office", forms: ["구청", "구청에서"] },
@@ -272,7 +272,7 @@ export const KO_B1_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "오리탕", en: "duck soup (a Gwangju speciality)", forms: ["오리탕집", "오리탕", "오리탕은"] },
     { es: "들깨가루", en: "ground perilla seeds", forms: ["들깨가루를"] },
     { es: "듬뿍", en: "generously, plenty of", forms: ["듬뿍"] },
-    { es: "미나리", en: "water parsley (a green herb)", forms: ["미나리를", "미나리", "미나리는"] },
+    { es: "미나리", en: "water parsley (a green herb)", forms: ["미나리를", "미나리"] },
     { es: "떡갈비", en: "grilled patties of minced beef ribs", forms: ["떡갈비"] },
     { es: "덤", en: "something extra, for free", forms: ["덤으로"] },
     { es: "상추튀김", en: "fried snacks eaten wrapped in lettuce", forms: ["상추튀김을"] },

@@ -43,7 +43,7 @@ export const PT_A2_U03_EXTRA: Lesson[] = [
             en: "My sister [brought] a cake.",
             sentence: "Minha irmã ___ um bolo.",
             answer: "trouxe",
-            explanation: "\"Trouxe\": the x sounds like ss, TROH-see.",
+            explanation: "\"Trouxe\": the x sounds like ss, TROU-si.",
           },
           {
             type: "listen-choose",
@@ -128,7 +128,7 @@ export const PT_A2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I [told] the truth.",
+        en: "I [said] the truth.",
         sentence: "Eu ___ a verdade.",
         answer: "disse",
         explanation: "\"Eu disse\": same form as ele.",
@@ -156,7 +156,7 @@ export const PT_A2_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "A Ana trouxe um presente.",
         prompt: "Say it in Portuguese: Ana brought a present.",
-        tip: "The x in trouxe sounds like ss: TROH-see.",
+        tip: "The x in trouxe sounds like ss: TROU-si.",
         explanation: "\"Trouxe\" is the ela form of \"trazer\" in the past.",
       },
       {
@@ -359,7 +359,7 @@ export const PT_A2_U03_EXTRA: Lesson[] = [
       {
         heading: "The irregular past: the full set",
         body: [
-          "The irregular perfeitos so far: \"fui\" (ser/ir), \"tive\", \"estive\", \"fiz\", \"disse\", \"trouxe\", \"quis\", \"pude\", \"vi\", \"vim\", \"dei\", \"pus\", \"soube\". Most share a pattern: the ele form is often the same as eu (\"disse\", \"trouxe\", \"quis\", \"soube\") or close to it (\"fez\", \"teve\", \"pôde\").",
+          "The irregular perfeitos so far: \"fui\" (ser/ir), \"tive\", \"estive\", \"fiz\", \"disse\", \"trouxe\", \"quis\", \"pude\", \"vi\", \"vim\", \"dei\", \"pus\", \"soube\". Most share a pattern: the eu form ends in -e or -i, and the ele form is often the same as eu (\"disse\", \"trouxe\", \"quis\", \"soube\") or close to it (\"fez\", \"teve\", \"pôde\").",
           "The plural is regular once you know the stem: \"tiv-\" → \"tivemos\", \"tiveram\"; \"fiz-\" → \"fizemos\", \"fizeram\"; \"diss-\" → \"dissemos\", \"disseram\". In stories, chain them in order with \"depois\", \"então\" and \"aí\".",
         ],
         examples: [

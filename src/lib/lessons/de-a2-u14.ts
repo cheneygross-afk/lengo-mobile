@@ -169,10 +169,10 @@ export const DE_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm learning German because I work in Berlin.'?",
+        question: "Which sentence is correct?",
         options: ["Ich lerne Deutsch, weil ich in Berlin arbeite.", "Ich lerne Deutsch, weil ich arbeite in Berlin.", "Ich lerne Deutsch weil arbeite ich in Berlin.", "Ich lerne Deutsch, weil arbeite ich in Berlin."],
         correctIndex: 0,
-        explanation: "Comma, \"weil\", subject, the rest, and the verb \"arbeite\" last. \"*Weil ich arbeite in Berlin*\" keeps main-clause order, which is common in speech but wrong in writing.",
+        explanation: "Comma, \"weil\", subject, the rest, and the verb \"arbeite\" last.",
       },
       {
         type: "word-order",
@@ -365,10 +365,10 @@ export const DE_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'If it rains, we'll stay at home.'?",
+        question: "Which sentence is correct?",
         options: ["Wenn es regnet, bleiben wir zu Hause.", "Wenn es regnet, wir bleiben zu Hause.", "Wenn regnet es, bleiben wir zu Hause.", "Ob es regnet, bleiben wir zu Hause."],
         correctIndex: 0,
-        explanation: "A condition → \"wenn\"; the clause comes first, so the main clause starts with its verb: \"bleiben wir\". \"*Wenn es regnet, wir bleiben*\" forgets that the wenn-clause is position 1.",
+        explanation: "Condition → \"wenn\"; clause first → the main clause starts with \"bleiben\".",
       },
       {
         type: "word-order",
@@ -510,10 +510,10 @@ export const DE_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm happy, because I'm on holiday.'?",
+        question: "Which sentence is correct?",
         options: ["Ich bin froh, denn ich habe Urlaub.", "Ich bin froh, denn habe ich Urlaub.", "Ich bin froh, denn ich Urlaub habe.", "Denn ich habe Urlaub, bin ich froh."],
         correctIndex: 0,
-        explanation: "\"Denn\" takes no position and doesn't move the verb: \"denn ich habe Urlaub\". \"*Denn ich Urlaub habe*\" sends the verb to the end, as \"weil\" would.",
+        explanation: "\"Denn\" doesn't take a position and doesn't move the verb: \"denn ich habe Urlaub\". It can't start the sentence.",
       },
       {
         type: "translate",
@@ -714,10 +714,10 @@ export const DE_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I don't know if I can go shopping today.'?",
+        question: "Which sentence is correct?",
         options: ["Ich weiß nicht, ob ich heute einkaufen kann.", "Ich weiß nicht, ob ich kann heute einkaufen.", "Ich weiß nicht, ob ich heute kaufen ein kann.", "Ich weiß nicht, ob ich heute kann einkaufen."],
         correctIndex: 0,
-        explanation: "The infinitive \"einkaufen\" (one word), then the modal \"kann\" at the very end. \"*Ob ich kann heute einkaufen*\" keeps main-clause order.",
+        explanation: "Infinitive \"einkaufen\" (one word) and then the modal \"kann\" at the very end.",
       },
       {
         type: "word-order",
@@ -1092,10 +1092,10 @@ export const DE_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Do you know when the bank opens?' (formal)",
+        question: "Which question is correct?",
         options: ["Wissen Sie, wann die Bank öffnet?", "Wissen Sie, wann öffnet die Bank?", "Wissen Sie wann die Bank öffnet?", "Wissen Sie, ob wann die Bank öffnet?"],
         correctIndex: 0,
-        explanation: "A comma after \"Wissen Sie\", then question word, subject, and the verb last: \"wann die Bank öffnet\". \"*Wann öffnet die Bank*\" keeps the order of a direct question.",
+        explanation: "Comma after the frame, then W-word, subject, verb last.",
       },
       {
         type: "word-order",
@@ -1183,10 +1183,10 @@ export const DE_A2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you write 'I hope the parcel arrives today.'?",
+            question: "Which sentence is spelt correctly?",
             options: ["Ich hoffe, dass das Paket heute ankommt.", "Ich hoffe, das das Paket heute ankommt.", "Ich hoffe, dass dass Paket heute ankommt.", "Ich hoffe, das dass Paket heute ankommt."],
             correctIndex: 0,
-            explanation: "First the conjunction \"dass\" (verb at the end), then the article \"das\" before \"Paket\". \"*Das das Paket*\" spells the conjunction with one s.",
+            explanation: "First the conjunction \"dass\" (verb at the end), then the article \"das\" before \"Paket\".",
           },
         ],
       },
@@ -1277,10 +1277,10 @@ export const DE_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'Do you know that the café is closed?' (to a friend)",
+        question: "Which sentence is spelt correctly?",
         options: ["Weißt du, dass das Café zu ist?", "Weißt du, das das Café zu ist?", "Weißt du, dass dass Café zu ist?", "Weißt du, daß das Café zu ist?"],
         correctIndex: 0,
-        explanation: "Conjunction \"dass\", article \"das\". \"*Daß*\" is the old pre-reform spelling, and \"*das das Café*\" spells the conjunction with one s.",
+        explanation: "Conjunction \"dass\", article \"das\". \"Daß\" is the old pre-reform spelling.",
       },
       {
         type: "word-order",
@@ -1365,10 +1365,10 @@ export const DE_A2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'Because the train was late, I arrived late.'?",
+            question: "Which sentence is correct?",
             options: ["Weil der Zug Verspätung hatte, bin ich zu spät gekommen.", "Weil der Zug Verspätung hatte, ich bin zu spät gekommen.", "Weil der Zug hatte Verspätung, bin ich zu spät gekommen.", "Weil hatte der Zug Verspätung, ich bin zu spät gekommen."],
             correctIndex: 0,
-            explanation: "The verb goes last in the weil-clause (\"hatte\"), then the main clause starts with its verb (\"bin\"). \"*Weil ..., ich bin*\" forgets that the weil-clause is position 1.",
+            explanation: "Verb last in the weil-clause (\"hatte\"), then the main clause starts with its verb (\"bin\").",
           },
         ],
       },

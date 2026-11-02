@@ -382,7 +382,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Você or o senhor / a senhora?`,
         body: [
-          `"Você" is the default: friends, colleagues, people your age, store clerks in a casual place. "O senhor" and "a senhora" show respect and are used with older people, with customers in a store or hotel, with a doctor, and with anyone you would address as sir or madam in English. They take the ele/ela form of the verb: "O senhor quer um café?" (would you like a coffee, sir?).`,
+          `"Você" is the default: friends, colleagues, people your age, store clerks in a casual place. "O senhor" and "a senhora" show respect and are used with older people, with customers in a shop or hotel, with a doctor, and with anyone you would address as sir or madam in English. They take the ele/ela form of the verb: "O senhor quer um café?" (would you like a coffee, sir?).`,
           `With first names, Brazilians use the respectful titles "Dona" for a woman and "seu" (short for "senhor") for a man: "Dona Maria", "seu Antônio". These are warm and polite at the same time, typical for a neighbor, the doorman or a friend's parents.`,
         ],
         examples: [
@@ -774,7 +774,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
     faqs: [
       {
         q: `Why is "falamos" both present and past?`,
-        a: `For regular verbs of all three groups the "nós" form is the same in the present and the past: "falamos", "comemos", "abrimos" (we speak or we spoke). Context and time words make it clear: "hoje falamos" or "ontem falamos". You will meet this again with the past tense.`,
+        a: `For regular "-ar" and "-ir" verbs the "nós" form is the same in the present and the past (we speak, we spoke). Context and time words make it clear: "hoje falamos" or "ontem falamos". You will meet this again with the past tense.`,
       },
       {
         q: `Is "assistir a" really with "a"?`,
@@ -940,13 +940,13 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         heading: `Plans with "ir" + infinitive`,
         body: [
           `"Ir" plus an infinitive is the everyday future in Brazil, just like going to: "Vou trabalhar amanhã", "A gente vai viajar no sábado", "Vai chover". There is no "a" between the two verbs.`,
-          `"Vamos" on its own means let's go, and "vamos" plus an infinitive means let's: "Vamos comer?" (should we eat?, how about eating?).`,
+          `"Vamos" on its own means let's go, and "vamos" plus an infinitive means let's: "Vamos comer?" (shall we eat?).`,
         ],
         examples: [
           { pt: "Eu vou estudar hoje à noite.", en: "I'm going to study tonight." },
           { pt: "Vocês vão viajar no feriado?", en: "Are you going away for the holiday?" },
           { pt: "Acho que vai chover.", en: "I think it's going to rain." },
-          { pt: "Vamos tomar um café?", en: "Want to get a coffee?" },
+          { pt: "Vamos tomar um café?", en: "Shall we get a coffee?" },
         ],
       },
       {
@@ -1176,11 +1176,11 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         heading: `Days, months and dates`,
         body: [
           `The weekdays are numbered: "segunda-feira" (Monday, the second day) to "sexta-feira" (Friday), plus "sábado" and "domingo". In speech "-feira" is usually dropped: "na segunda", "na sexta". On a day is "no sábado", "na segunda"; every Saturday is "aos sábados" or "nos sábados". Days and months are written with a small letter.`,
-          `For a date say "dia" plus the number and "de" plus the month: "dia 25 de dezembro". The first of the month is "primeiro": "primeiro de maio". In a month is "em": "em março". Brazilian dates are written day, month, year, the reverse of American order: 07/09 is September 7, Independence Day.`,
+          `For a date say "dia" plus the number and "de" plus the month: "dia 25 de dezembro". The first of the month is "primeiro": "primeiro de maio". In a month is "em": "em março". Brazilian dates are written day, month, year: 07/09 is the 7th of September, Independence Day.`,
         ],
         examples: [
-          { pt: "Hoje é quinta-feira, dia doze de junho.", en: "Today is Thursday, June 12." },
-          { pt: "Meu aniversário é dia três de outubro.", en: "My birthday is on October 3." },
+          { pt: "Hoje é quinta-feira, dia doze de junho.", en: "Today is Thursday, the twelfth of June." },
+          { pt: "Meu aniversário é dia três de outubro.", en: "My birthday is on the third of October." },
           { pt: "Aos domingos a gente almoça na casa da minha avó.", en: "On Sundays we have lunch at my grandmother's." },
           { pt: "As aulas começam em fevereiro.", en: "Classes start in February." },
         ],
@@ -1220,7 +1220,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `"Catorze" or "quatorze"?`,
-        a: `Both spellings are correct and common in Brazil, and both are pronounced the same way, with a k sound: 'ka-TOR-zee'. Use either, but be consistent in one text.`,
+        a: `Both spellings are correct and common in Brazil, and both are pronounced the same way, with a k sound: ka-TOR-zi. Use either, but be consistent in one text.`,
       },
       {
         q: `Are the numbers different in Portugal?`,
@@ -1643,7 +1643,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         heading: `Vowels: open, closed and nasal`,
         body: [
           `Portuguese has an open e as in bet ("é", "café") and a closed e like the start of the a in say ("ê", "você"); an open o as in law ("ó", "avó") and a closed o as in go ("ô", "avô"). The acute accent marks open vowels, the circumflex closed ones.`,
-          `Nasal vowels are said with air through the nose, and they do not end in a full n or m sound. They are written with a tilde ("ã", "õ") or with "m" or "n" after the vowel: "mãe", "pão", "não", "lições", "bem", "sim", "bom", "um". At the end of a word, unstressed "-e" sounds like ee ("nome" sounds like 'NOH-mee') and unstressed "-o" like oo ("obrigado" ends in 'doo').`,
+          `Nasal vowels are said with air through the nose, and they do not end in a full n or m sound. They are written with a tilde ("ã", "õ") or with "m" or "n" after the vowel: "mãe", "pão", "não", "lições", "bem", "sim", "bom", "um". At the end of a word, unstressed "-e" sounds like i ("nome" sounds like "nomi") and unstressed "-o" like u ("obrigado" ends in u).`,
         ],
         table: {
           headers: ["Sound", "Spelling", "Examples"],
@@ -1665,7 +1665,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Consonants that change`,
         body: [
-          `In most of Brazil, "t" and "d" before an i sound become ch and j: "tia" sounds like 'CHEE-a', "dia" like 'JEE-a'. Since final "-e" sounds like ee, this happens at the ends of words too: "leite" sounds like 'LAY-chee', "cidade" like 'see-DAH-jee'.`,
+          `In most of Brazil, "t" and "d" before an i sound become ch and j: "tia" sounds like chee-a, "dia" like jee-a. Since final "-e" sounds like i, this happens at the ends of words too: "leite" sounds like "leitchi", "cidade" like "cidadji".`,
           `"R" at the start of a word and "rr" sound like an English h: "Rio", "carro", "rua". A single "r" between vowels is a quick tap, like the tt in American butter: "caro", "para". So "caro" (expensive) and "carro" (car) are different words. At the end of a syllable "r" varies by region; an h-like sound is common: "porta", "falar".`,
           `"S" between vowels sounds like z ("casa", "mesa"); "ss" and "ç" like s ("passo", "açúcar"). "Lh" is like the lli in million ("filho", "trabalho") and "nh" like the ny in canyon ("vinho", "amanhã"). "X" is most often sh ("xícara", "caixa").`,
         ],
@@ -1734,7 +1734,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `How different does Portugal sound?`,
-        a: `Very. European Portuguese swallows many unstressed vowels, does not turn "t" and "d" into ch and j ("tia", "dia"), says sh for "s" at the end of syllables everywhere, and has a different rhythm. Brazilians and Portuguese understand each other, but learners often find the other variety hard at first.`,
+        a: `Very. European Portuguese swallows many unstressed vowels, keeps "t" and "d" as in English ("tia", "dia"), says sh for "s" at the end of syllables everywhere, and has a different rhythm. Brazilians and Portuguese understand each other, but learners often find the other variety hard at first.`,
       },
     ],
     related: ["ser-present-tense", "gender-articles-plurals"],

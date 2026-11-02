@@ -182,7 +182,7 @@ export const PT_A1_U04_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu preciso de ajuda, por favor.",
         prompt: "Say it in Portuguese: I need help, please.",
-        tip: "'pre-SEE-zoo': the c sounds like s, the s between vowels sounds like z, and the final o like oo.",
+        tip: "pre-SEE-zoo: the c sounds like s, the s between vowels sounds like z, and the final o like u.",
         explanation: "\"Precisar de\" before a noun.",
       },
     ],
@@ -199,7 +199,7 @@ export const PT_A1_U04_EXTRA: Lesson[] = [
       {
         heading: "Tenho, tem, temos, têm",
         body: [
-          "\"Ter\": \"tenho\", \"tem\", \"temos\", \"têm\". It covers what you have (\"tenho dois irmãos\"), your age (\"tenho vinte anos\", never \"sou vinte\") and, with \"que\" + infinitive, what you have to do (\"tenho que trabalhar\"). Only \"um\" or \"uma\" and \"dois\" or \"duas\" change for gender.",
+          "\"Ter\": \"tenho\", \"tem\", \"temos\", \"têm\". It covers what you have (\"tenho dois irmãos\"), your age (\"tenho vinte anos\", never \"sou vinte\") and, with \"que\" + infinitive, what you have to do (\"tenho que trabalhar\"). Only \"um\" / \"uma\" and \"dois\" / \"duas\" change for gender.",
           "Hunger, thirst, fear and hurry are nouns after \"ter\": \"tenho fome\", \"tenho sede\", \"tenho medo\", \"tenho pressa\". In conversation Brazilians usually say \"estou com fome\", \"estou com sede\", \"estou com sono\".",
         ],
         examples: [

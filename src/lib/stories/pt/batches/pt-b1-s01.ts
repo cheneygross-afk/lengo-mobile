@@ -93,7 +93,7 @@ export const PT_B1_S01_STORIES: Story[] = [
     subtitle: `In a used bookstore in Porto Alegre, Renata finds a book she once gave to the friend she hasn't spoken to in fifteen years.`,
     paragraphs: [
       `Renata tinha o costume de passar os sábados nos sebos do centro de Porto Alegre. Gostava do cheiro de papel velho e das dedicatórias que os antigos donos escreviam na primeira página. Naquele sábado de junho, frio e cinzento, ela encontrou numa estante um exemplar de “Capitães da Areia” com a capa rasgada. Abriu o livro e ficou paralisada. Na primeira página estava escrito, com a letra dela mesma: “Para a Cláudia, que é mais que uma irmã. Renata, 2003.”`,
-      `A Cláudia tinha sido a melhor amiga dela desde os sete anos. As duas tinham feito tudo juntas: a escola, o primeiro show, o primeiro emprego. Mas em 2011 o pai de Renata morreu, e a Cláudia não foi ao enterro. Não ligou, não mandou mensagem, não apareceu. Renata nunca a perdoou. Quando, meses depois, a amiga tentou telefonar, Renata não atendeu. Depois disso, foram quinze anos de silêncio.`,
+      `A Cláudia tinha sido a melhor amiga dela desde os sete anos. As duas tinham feito tudo juntas: a escola, o primeiro show, o primeiro emprego. Mas em 2009 o pai de Renata morreu, e a Cláudia não foi ao enterro. Não ligou, não mandou mensagem, não apareceu. Renata nunca a perdoou. Quando, meses depois, a amiga tentou telefonar, Renata não atendeu. Depois disso, foram quinze anos de silêncio.`,
       `Ela comprou o livro por oito reais e foi para casa. Ao folhear as páginas, caiu de dentro dele um envelope fechado, amarelado, com o nome dela. Renata se sentou no sofá, com as mãos tremendo, e abriu.`,
       `“Renata, eu sei que você está magoada, e você tem razão. Mas quero que você saiba o que aconteceu. Na semana em que seu pai morreu, eu estava no hospital. A Laura nasceu dois meses antes do tempo e ficou vinte dias na incubadora. Eu não tive coragem de contar para ninguém, porque tinha medo de perder a minha filha. Espero que um dia você me perdoe. Vou guardar esta carta no seu livro até ter coragem de entregá-la.”`,
       `Renata leu a carta três vezes. Ela se lembrou de que, naquela época, tinha ouvido alguém dizer que a Cláudia estava grávida, mas estava tão triste que não tinha prestado atenção. Por quinze anos ela tinha guardado uma raiva que não fazia sentido.`,
@@ -112,7 +112,7 @@ export const PT_B1_S01_STORIES: Story[] = [
         question: `Why had Renata stopped speaking to Cláudia?`,
         options: [`Cláudia didn't come to her father's funeral.`, `Cláudia lost her favorite book.`, `Cláudia moved away without saying goodbye.`, `Cláudia took her job.`],
         correctIndex: 0,
-        explanation: `"Em 2011 o pai de Renata morreu, e a Cláudia não foi ao enterro."`,
+        explanation: `"Em 2009 o pai de Renata morreu, e a Cláudia não foi ao enterro."`,
       },
       {
         question: `Where was Cláudia the week Renata's father died?`,

@@ -149,7 +149,7 @@ export const DE_C2_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'The harvest failed, which led to famine.'?",
+        question: "Which sentence is correct?",
         options: ["Die Ernte fiel aus, was eine Hungersnot zur Folge hatte.", "Die Ernte fiel aus, das eine Hungersnot zur Folge hatte.", "Die Ernte fiel aus, die eine Hungersnot zur Folge hatte.", "Die Ernte fiel aus, welches eine Hungersnot zur Folge hatte."],
         correctIndex: 0,
         explanation: "\"Was\" refers back to the whole clause, not to a noun; \"das\" and \"die\" need a noun, and \"welches\" in this use is outdated.",
@@ -942,7 +942,7 @@ export const DE_C2_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you write 'Germany was reunified in 1990.'?",
+            question: "Which sentence is correct German?",
             options: ["1990 wurde Deutschland wiedervereinigt.", "In 1990 wurde Deutschland wiedervereinigt.", "Im 1990 wurde Deutschland wiedervereinigt.", "An 1990 wurde Deutschland wiedervereinigt."],
             correctIndex: 0,
             explanation: "The bare year (or \"im Jahr 1990\") is standard; \"in 1990\" copies English.",

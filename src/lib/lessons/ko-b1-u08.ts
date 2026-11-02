@@ -1654,7 +1654,7 @@ export const KO_B1_U08: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "It's all my fault. I'll buy the coffee today.",
             answer: "다 제 탓이에요. 오늘 커피는 제가 살게요.",
-            altAnswers: ["다 제 탓이에요. 오늘은 제가 커피 살게요.", "다 제 탓이에요. 오늘 커피는 제가 쏠게요.", "제 탓이에요. 오늘 커피는 제가 살게요.", "다 제 잘못이에요. 오늘 커피는 제가 살게요."],
+            altAnswers: ["다 제 탓이에요. 오늘 커피는 제가 사겠습니다.", "다 제 탓이에요. 오늘은 제가 커피 살게요.", "다 제 탓이에요. 오늘 커피는 제가 쏠게요.", "제 탓이에요. 오늘 커피는 제가 살게요.", "다 제 잘못이에요. 오늘 커피는 제가 살게요."],
             explanation: "제 탓이에요 takes the blame; -(으)ㄹ게요 promises (spelled 게, never 께).",
           },
         ],
@@ -1789,7 +1789,7 @@ export const KO_B1_U08: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "It's fine. Thanks to you, I read a lot of my book.",
         answer: "괜찮아요. 덕분에 책을 많이 읽었어요.",
-        altAnswers: ["괜찮아요. 덕분에 책 많이 읽었어요.", "괜찮아요. 여러분 덕분에 책을 많이 읽었어요."],
+        altAnswers: ["괜찮아요. 덕분에 책 많이 읽었어요.", "괜찮아요. 여러분 덕분에 책을 많이 읽었어요.", "괜찮아요. 다들 덕분에 책을 많이 읽었어요."],
         explanation: "A playful 덕분에: Jieun turns the long wait into a good result.",
       },
       {

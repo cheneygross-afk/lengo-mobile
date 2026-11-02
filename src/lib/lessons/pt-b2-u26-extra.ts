@@ -327,7 +327,7 @@ export const PT_B2_U26_EXTRA: Lesson[] = [
         type: "speak",
         text: "Meu WhatsApp foi clonado, não façam nenhum Pix!",
         prompt: "Say it in Portuguese, to your contacts: My WhatsApp has been cloned, don't send any money!",
-        tip: "Pix sounds like English peaks: the x is ks, often with a soft i after it, PEE-kees.",
+        tip: "Pix sounds like English peaks: the x is ks, often with a soft i after it, PI-kis.",
         explanation: "The passive \"foi clonado\" and a plural command \"não façam\".",
       },
     ],

@@ -294,10 +294,10 @@ export const DE_B2_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'The costs are high; however, the village would benefit.'?",
+            question: "Which sentence has the correct word order?",
             options: ["Die Kosten sind hoch; jedoch würde das Dorf profitieren.", "Die Kosten sind hoch; jedoch profitieren würde das Dorf.", "Die Kosten sind hoch; jedoch das Dorf profitieren würde.", "Die Kosten sind hoch; jedoch würde profitieren das Dorf."],
             correctIndex: 0,
-            explanation: "\"Jedoch\" in position 1 is followed directly by the finite verb (\"würde\"); the infinitive goes to the end. \"*jedoch das Dorf profitieren würde*\" sends the verb to the end as if \"jedoch\" were a subordinating conjunction.",
+            explanation: "\"Jedoch\" in position 1 is followed directly by the finite verb (\"würde\"); the infinitive goes to the end.",
           },
           {
             type: "speak",
@@ -714,10 +714,10 @@ export const DE_B2_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'She acts as if she were a student.'?",
+            question: "Which sentence is correct?",
             options: ["Sie tut so, als wäre sie Studentin.", "Sie tut so, als ob wäre sie Studentin.", "Sie tut so, als sie Studentin wäre.", "Sie tut so, wie wenn sie ist Studentin."],
             correctIndex: 0,
-            explanation: "After \"als\" alone the verb comes first (\"als wäre sie Studentin\"); after \"als ob\" it goes to the end. \"*als sie Studentin wäre*\" mixes the two.",
+            explanation: "After \"als\" alone the verb comes first; after \"als ob\" it goes to the end (\"als ob sie Studentin wäre\").",
           },
         ],
       },
@@ -1018,10 +1018,10 @@ export const DE_B2_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I have to make a decision soon.'?",
+        question: "Which sentence is correct?",
         options: ["Ich muss bald eine Entscheidung treffen.", "Ich muss bald eine Entscheidung machen.", "Ich muss mich bald eine Entscheidung treffen.", "Ich muss bald eine Entscheidung nehmen."],
         correctIndex: 0,
-        explanation: "The fixed combination is \"eine Entscheidung treffen\" (Funktionsverbgefüge), and it isn't reflexive. \"*eine Entscheidung machen*\" is a word-for-word copy of English 'make'.",
+        explanation: "The fixed combination is \"eine Entscheidung treffen\" (Funktionsverbgefüge); it's not reflexive.",
       },
       {
         type: "translate",
@@ -1440,7 +1440,7 @@ export const DE_B2_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'an old town whose lanes are very narrow'?",
+        question: "Which relative clause is correct?",
         options: ["eine Altstadt, deren Gassen sehr eng sind", "eine Altstadt, dessen Gassen sehr eng sind", "eine Altstadt, die Gassen sehr eng sind", "eine Altstadt, wessen Gassen sehr eng sind"],
         correctIndex: 0,
         explanation: "\"Die Altstadt\" is feminine, so whose is \"deren\". \"Dessen\" is for masculine and neuter antecedents.",

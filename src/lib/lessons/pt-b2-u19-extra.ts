@@ -16,7 +16,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
       {
         heading: "Fact or not?",
         body: [
-          "Facts, beliefs and certainty take the indicative: \"sei que\", \"acho que\", \"tenho certeza de que\", \"será que\", \"provavelmente\". Wishes, doubts, denials, emotions and judgments take the subjunctive: \"duvido que\", \"não acho que\", \"que bom que\", \"é melhor que\", \"pode ser que\", and \"talvez\" before the verb.",
+          "Facts, beliefs and certainty take the indicative: \"sei que\", \"acho que\", \"tenho certeza de que\", \"será que\", \"provavelmente\". Wishes, doubts, denials, emotions and judgements take the subjunctive: \"duvido que\", \"não acho que\", \"que bom que\", \"é melhor que\", \"pode ser que\", and \"talvez\" before the verb.",
           "Relative clauses follow the same logic: the indicative for something that exists (\"um hotel que tem piscina\"), the subjunctive for something wanted or nonexistent (\"um hotel que tenha piscina\", \"nenhum hotel que tenha piscina\").",
         ],
         examples: [
@@ -116,8 +116,8 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "It's not true that he lost his job.",
         answer: "Não é verdade que ele tenha perdido o emprego.",
-        altAnswers: ["Não é verdade que ele tenha perdido o trabalho."],
-        explanation: "Denial: \"tenha perdido\". The indicative is heard in speech, but the subjunctive is the standard.",
+        altAnswers: ["Não é verdade que ele perdeu o emprego.", "Não é verdade que ele tenha perdido o trabalho."],
+        explanation: "Denial: \"tenha perdido\" (the indicative is heard in speech).",
       },
       {
         type: "translate",
@@ -151,8 +151,8 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         en: "I'm glad you [feel] better.",
         sentence: "Que bom que você ___ melhor.",
         answer: "esteja",
-        altAnswers: ["se sinta"],
-        explanation: "Emotion: subjunctive \"esteja\" (or \"se sinta\"). The indicative is common in speech after \"que bom que\", but the subjunctive is the standard.",
+        altAnswers: ["está", "se sinta", "se sente"],
+        explanation: "Emotion: subjunctive \"esteja\"; the indicative is common in speech after \"que bom que\".",
       },
       {
         type: "translate",
@@ -200,7 +200,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não tenho certeza de que ele venha.",
         prompt: "Say it in Portuguese: I'm not sure he'll come.",
-        tip: "\"Venha\": 'VẼ-nya'. The nh is like ny in canyon.",
+        tip: "\"Venha\": the nh is like ny in canyon.",
         explanation: "\"Não tenho certeza de que\" negates certainty, so it takes the subjunctive: \"venha\".",
       },
     ],
@@ -281,7 +281,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "It's good that you've arrived.",
         answer: "É bom que você tenha chegado.",
-        altAnswers: ["É bom que vocês tenham chegado.", "Que bom que você tenha chegado."],
+        altAnswers: ["Que bom que você chegou.", "É bom que vocês tenham chegado.", "Que bom que você tenha chegado."],
         explanation: "Present trigger, finished event: \"tenha chegado\".",
       },
       {
@@ -394,7 +394,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         type: "speak",
         text: "Quando ela conseguir a vaga, vai se mudar.",
         prompt: "Say it in Portuguese: When she gets the job, she'll move.",
-        tip: "\"Conseguir\": the u is silent: 'kõ-se-GHEER'.",
+        tip: "\"Conseguir\": the u is silent, con-se-GIR.",
         explanation: "\"Quando\" with a future event takes the future subjunctive: \"conseguir\", the same form as the infinitive for regular verbs.",
       },
     ],
@@ -416,7 +416,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
           "The personal infinitive has no tense, so it fits after past triggers too: \"era melhor a gente ir\" = \"era melhor que a gente fosse\". Never mix the two routes: no \"que\" before an infinitive.",
         ],
         examples: [
-          { es: "Ela trabalha muito para pagar a faculdade.", en: "She works hard to pay for college." },
+          { es: "Ela trabalha muito para pagar a faculdade.", en: "She works hard to pay for university." },
           { es: "Ela trabalha muito para os filhos estudarem.", en: "She works hard so her children can study." },
           { es: "Ela trabalha muito para que os filhos estudem.", en: "She works hard so that her children can study." },
           { es: "Era melhor a gente ter pegado um táxi.", en: "We'd have been better off taking a taxi." },
@@ -580,7 +580,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         type: "speak",
         text: "É melhor vocês saírem antes do trânsito.",
         prompt: "Say it in Portuguese: You'd better leave before the traffic. (to a group)",
-        tip: "\"Saírem\" has three syllables: 'sa-EE-rẽy'.",
+        tip: "\"Saírem\" has three syllables: sa-Í-rem.",
         explanation: "\"É melhor\" + personal infinitive \"vocês saírem\".",
       },
     ],

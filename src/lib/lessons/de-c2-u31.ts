@@ -338,7 +338,7 @@ export const DE_C2_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you write 'Demand fell, which is why the company cut jobs.'?",
+            question: "Which sentence is correct?",
             options: ["Die Nachfrage sank, weshalb die Firma Stellen abbaute.", "Die Nachfrage sank, weshalb die Firma baute Stellen ab.", "Die Nachfrage sank, folglich die Firma baute Stellen ab.", "Die Nachfrage sank, sodass baute die Firma Stellen ab."],
             correctIndex: 0,
             explanation: "\"Weshalb\" and \"sodass\" send the verb to the end; \"folglich\" pulls it into second position (\"folglich baute die Firma...\").",
@@ -1524,7 +1524,7 @@ export const DE_C2_U31: Lesson[] = [
         body: [
           "\"Das Werk\" is a single work and also an author's whole output: \"das Gesamtwerk\", \"das Frühwerk\" (early work), \"das Spätwerk\". \"Das Hauptwerk\" is someone's major work. \"Das Werk\" is neuter: \"ihr neues Werk\", not \"*ihre neues Werk*\".",
           "\"Die Gattung\" is the genre in the broad sense: the three classical \"Gattungen\" are \"Epik\" (narrative), \"Lyrik\" (poetry) and \"Dramatik\" (drama). Within them, \"die Textsorte\" or \"das Genre\" (\"Krimi\", \"Novelle\", \"Ballade\"). Note: \"die Lyrik\" means poetry in general, not song lyrics (\"der Songtext\").",
-          "\"Die Epoche\" is a literary or art-historical period: \"Sturm und Drang\", \"Klassik\", \"Romantik\", \"Realismus\", \"Expressionismus\". \"Die Stilrichtung\" or \"die Strömung\" is a style or movement: \"Die Neue Sachlichkeit ist eine Stilrichtung der Zwanzigerjahre\". You \"ein Werk einer Epoche zuordnen\" (assign it to a period).",
+          "\"Die Epoche\" is a literary or art-historical period: \"Sturm und Drang\", \"Klassik\", \"Romantik\", \"Realismus\", \"Expressionismus\". \"Die Stilrichtung\" or \"die Strömung\" is a style or movement: \"Die Neue Sachlichkeit ist eine Stilrichtung der Zwanzigerjahre\". You \"ordnen ein Werk einer Epoche zu\" (assign it to a period).",
         ],
         examples: [
           { es: "Das Frühwerk der Autorin ist stark autobiografisch geprägt.", en: "The author's early work is strongly autobiographical." },

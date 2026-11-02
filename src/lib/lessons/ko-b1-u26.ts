@@ -41,7 +41,7 @@ export const KO_B1_U26: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Kkakdugi is kimchi made from radish.",
             answer: "깍두기는 무로 만든 김치예요.",
-            altAnswers: ["깍두기는 무로 만드는 김치예요."],
+            altAnswers: ["깍두기는 무로 만든 김치입니다.", "깍두기는 무로 만드는 김치예요."],
             explanation: "무로 만든 김치: 로 marks what it's made from, and the past modifier 만든 'made' comes before the noun.",
           },
           {
@@ -107,7 +107,7 @@ export const KO_B1_U26: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "You eat rice with a spoon.",
             answer: "밥은 숟가락으로 먹어요.",
-            altAnswers: ["밥은 숟가락으로 먹는 거예요."],
+            altAnswers: ["밥은 숟가락으로 먹습니다.", "밥은 숟가락으로 먹는 거예요."],
             explanation: "으로 marks the tool after a consonant: 숟가락으로. 밥은 sets rice apart from the 반찬, which go with chopsticks.",
           },
           {
@@ -199,7 +199,7 @@ export const KO_B1_U26: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Rice and soup are eaten with a spoon.",
         answer: "밥하고 국은 숟가락으로 먹어요.",
-        altAnswers: ["밥과 국은 숟가락으로 먹어요.", "밥이랑 국은 숟가락으로 먹어요.", "밥하고 국은 숟가락으로 먹는 거예요."],
+        altAnswers: ["밥과 국은 숟가락으로 먹어요.", "밥이랑 국은 숟가락으로 먹어요.", "밥하고 국은 숟가락으로 먹습니다.", "밥과 국은 숟가락으로 먹습니다."],
         explanation: "Korean rarely uses a passive here: 'are eaten' becomes a general statement, 먹어요, with the tool marked by 으로.",
       },
       {
@@ -208,7 +208,7 @@ export const KO_B1_U26: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "You mustn't stick chopsticks upright in rice.",
         answer: "밥에 젓가락을 꽂으면 안 돼요.",
-        altAnswers: ["밥에 젓가락을 꽂지 마세요.", "젓가락을 밥에 꽂으면 안 돼요.", "젓가락을 밥에 꽂지 마세요."],
+        altAnswers: ["밥에 젓가락을 꽂지 마세요.", "밥에 젓가락을 꽂으면 안 됩니다.", "젓가락을 밥에 꽂으면 안 돼요.", "젓가락을 밥에 꽂지 마세요."],
         explanation: "-(으)면 안 돼요 is 'mustn't'. 꽂다 is to stick something upright into something, which recalls the 제사 table.",
       },
       {
@@ -407,7 +407,7 @@ export const KO_B1_U26: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "We grilled the meat and ate it.",
         answer: "고기를 구워 먹었어요.",
-        altAnswers: ["고기를 구워서 먹었어요.", "저희는 고기를 구워 먹었어요.", "우리는 고기를 구워 먹었어요."],
+        altAnswers: ["고기를 구워서 먹었어요.", "저희는 고기를 구워 먹었어요.", "우리는 고기를 구워 먹었어요.", "고기를 구워서 먹었습니다.", "고기를 구워 먹었습니다."],
         explanation: "구워 먹다 is 'grill and eat', one of many cooking verb + 먹다 pairs (끓여 먹다, 쪄 먹다).",
       },
       {
@@ -913,7 +913,7 @@ export const KO_B1_U26: Lesson[] = [
         heading: "-지 그랬어요?: why didn't you ...?",
         body: [
           "In the past, -지 그랬어요? says what the other person should have done: 미리 예약하지 그랬어요? 'You should have booked ahead'. It can sound sympathetic or reproachful, depending on the tone; casual -지 그랬어?",
-          "Don't mix it up with -(으)ㄹ걸 그랬어요 from Unit 13, which is your own regret: 예약할걸 그랬어요 'I should have booked'. -지 그랬어요? points at the listener.",
+          "Don't mix it up with -(으)ㄹ걸 그랬어요 from Unit 13, which is your own regret: 예약할걸 그랬어요 'I should have booked'. -지 그랬어요? always points at someone else.",
         ],
         examples: [
           { es: "자리가 없었어요? 미리 예약하지 그랬어요?", en: "There were no tables? You should have booked ahead." },
@@ -1106,7 +1106,7 @@ export const KO_B1_U26: Lesson[] = [
       {
         heading: "Pouring and receiving",
         body: [
-          "Koreans traditionally pour for each other, not for themselves: 자기 잔에는 직접 따르지 않아요. Pour for a senior with two hands, or with the right hand while the left touches your right arm: 두 손으로 따라 드려요. When a senior pours for you, hold your glass up with two hands: 잔을 두 손으로 받아요.",
+          "Koreans pour for each other, never for themselves: 자기 잔에는 직접 따르지 않아요. Pour for a senior with two hands, or with the right hand while the left touches your right arm: 두 손으로 따라 드려요. When a senior pours for you, hold your glass up with two hands: 잔을 두 손으로 받아요.",
           "When you drink in front of a senior, turn your head a little to the side: 고개를 돌려서 마셔요. If someone's glass is empty, fill it: 잔이 비면 채워 드려요. 따라 드리다 is the humble form (Unit 19): you pour upward.",
         ],
         examples: [
@@ -1123,7 +1123,7 @@ export const KO_B1_U26: Lesson[] = [
             prompt: "Translate into Korean (polite, to your team leader).",
             source: "Let me pour you a glass.",
             answer: "한 잔 따라 드릴게요.",
-            altAnswers: ["팀장님, 한 잔 따라 드릴게요.", "제가 한 잔 따라 드릴게요.", "팀장님, 제가 한 잔 따라 드릴게요."],
+            altAnswers: ["팀장님, 한 잔 따라 드릴게요.", "제가 한 잔 따라 드릴게요.", "한 잔 따라 드리겠습니다.", "제가 한 잔 따라 드리겠습니다.", "팀장님, 제가 한 잔 따라 드리겠습니다."],
             explanation: "따르다 'pour' + -아 드리다: you pour for a superior. 따르다 drops 으 before 아: 따라.",
           },
           {
@@ -1163,7 +1163,7 @@ export const KO_B1_U26: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Sorry, but I can't really drink.",
             answer: "죄송하지만 저는 술을 잘 못 마셔요.",
-            altAnswers: ["죄송하지만 술을 잘 못 마셔요.", "죄송한데 저는 술을 잘 못 마셔요.", "죄송한데 술을 잘 못 마셔요.", "죄송하지만 저는 술을 못 마셔요.", "죄송하지만 술을 못 마셔요."],
+            altAnswers: ["죄송하지만 술을 잘 못 마셔요.", "죄송한데 저는 술을 잘 못 마셔요.", "죄송한데 술을 잘 못 마셔요.", "죄송하지만 저는 술을 잘 못 마십니다.", "죄송하지만 술을 잘 못 마십니다.", "죄송하지만 저는 술을 못 마셔요.", "죄송하지만 술을 못 마셔요."],
             explanation: "잘 못 마셔요 'I'm not good at drinking' is the soft, standard refusal. 못 is spaced from the verb.",
           },
           {
@@ -1264,7 +1264,7 @@ export const KO_B1_U26: Lesson[] = [
       },
       {
         type: "speak",
-        prompt: "Say it in Korean (polite, to your hosts after the meal): Thank you for the meal. It was really delicious.",
+        prompt: "Say it in Korean (formal, to your hosts after the meal): Thank you for the meal. It was really delicious.",
         text: "잘 먹었습니다. 정말 맛있었어요.",
         tip: "먹었습니다 is [머거씀니다]: ㅂ before ㄴ is read [ㅁ].",
         explanation: "잘 먹었습니다 thanks whoever cooked or paid; add a compliment on the food.",
@@ -1399,7 +1399,7 @@ export const KO_B1_U26: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Today it's my treat.",
         answer: "오늘은 제가 살게요.",
-        altAnswers: ["오늘은 제가 낼게요.", "오늘 제가 살게요.", "오늘 제가 낼게요.", "오늘은 제가 쏠게요."],
+        altAnswers: ["오늘은 제가 낼게요.", "오늘 제가 살게요.", "오늘 제가 낼게요.", "오늘은 제가 사겠습니다.", "오늘은 제가 쏠게요."],
         explanation: "사다 'buy' for treating someone: 제가 살게요. 내다 'pay' works too.",
       },
       {
@@ -2090,7 +2090,7 @@ export const KO_B1_U26: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean (polite) as one sentence. A learner wrote two choppy clauses: 양파를 볶아요, 다음에 김치를 넣어요.",
+            prompt: "Translate into Korean (polite). A learner wrote *양파를 볶아요, 다음에 김치를 넣어요.",
             source: "After frying the onion, add the kimchi.",
             answer: "양파를 볶은 다음에 김치를 넣어요.",
             altAnswers: ["양파를 볶은 다음에 김치를 넣으세요.", "양파를 볶은 다음에 김치를 넣어 주세요.", "양파를 볶은 뒤에 김치를 넣어요.", "양파를 볶은 후에 김치를 넣어요.", "양파를 볶은 뒤에 김치를 넣으세요.", "양파를 볶은 후에 김치를 넣으세요."],
@@ -2125,7 +2125,7 @@ export const KO_B1_U26: Lesson[] = [
             prompt: "Translate into Korean (formal, to your department head after he couldn't get a table).",
             source: "Next time I'll book ahead.",
             answer: "다음에는 제가 미리 예약하겠습니다.",
-            altAnswers: ["다음에는 미리 예약하겠습니다.", "다음에는 제가 미리 예약해 두겠습니다.", "다음번에는 제가 미리 예약하겠습니다.", "부장님, 다음에는 제가 미리 예약하겠습니다."],
+            altAnswers: ["다음에는 미리 예약하겠습니다.", "다음에는 제가 미리 예약해 두겠습니다.", "다음번에는 제가 미리 예약하겠습니다.", "다음에는 제가 미리 예약할게요.", "부장님, 다음에는 제가 미리 예약하겠습니다."],
             explanation: "Taking it on yourself is polite; 미리 예약하지 그랬어요? would blame your boss.",
           },
           {
@@ -2174,11 +2174,11 @@ export const KO_B1_U26: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (polite). A learner wrote 라면을 삶았어요, which is heard but less usual.",
+        prompt: "Translate into Korean (polite). A learner wrote 라면을 삶았어요, which sounds odd.",
         source: "I made ramyeon.",
         answer: "라면을 끓였어요.",
         altAnswers: ["라면을 끓여 먹었어요.", "라면 끓였어요.", "제가 라면을 끓였어요.", "라면을 끓여서 먹었어요."],
-        explanation: "Ramyeon is cooked as a soup, so the usual verb is 끓이다. 라면을 삶다 (thinking of the noodles) is heard, but 라면을 끓이다 is the standard collocation.",
+        explanation: "Ramyeon is cooked as a soup, so 끓이다.",
       },
       {
         type: "fill-blank",
@@ -2263,7 +2263,7 @@ export const KO_B1_U26: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Today I'll introduce British pancakes.",
             answer: "오늘은 영국 팬케이크를 소개할게요.",
-            altAnswers: ["오늘은 영국의 팬케이크를 소개할게요.", "오늘 영국 팬케이크를 소개할게요.", "오늘은 영국 팬케이크를 소개해 드릴게요.", "오늘은 영국 팬케이크를 소개하겠어요."],
+            altAnswers: ["오늘은 영국의 팬케이크를 소개할게요.", "오늘 영국 팬케이크를 소개할게요.", "오늘은 영국 팬케이크를 소개하겠습니다.", "오늘은 영국 팬케이크를 소개해 드릴게요.", "오늘은 영국 팬케이크를 소개하겠어요."],
             explanation: "-(으)ㄹ게요 announces what you're about to do for your viewers.",
           },
           {
@@ -2272,7 +2272,7 @@ export const KO_B1_U26: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "The ingredients are one cup of flour, two eggs and one cup of milk.",
             answer: "재료는 밀가루 한 컵, 계란 두 개, 우유 한 컵이에요.",
-            altAnswers: ["재료는 밀가루 1컵, 계란 2개, 우유 1컵이에요.", "재료는 밀가루 한 컵, 달걀 두 개, 우유 한 컵이에요.", "재료는 밀가루 1컵, 달걀 2개, 우유 1컵이에요.", "재료는 밀가루 한 컵하고 계란 두 개, 우유 한 컵이에요.", "재료는 밀가루 1컵하고 계란 2개, 우유 1컵이에요."],
+            altAnswers: ["재료는 밀가루 1컵, 계란 2개, 우유 1컵이에요.", "재료는 밀가루 한 컵, 달걀 두 개, 우유 한 컵이에요.", "재료는 밀가루 1컵, 달걀 2개, 우유 1컵이에요.", "재료는 밀가루 한 컵하고 계란 두 개, 우유 한 컵이에요.", "재료는 밀가루 1컵하고 계란 2개, 우유 1컵이에요.", "재료는 밀가루 한 컵, 계란 두 개, 우유 한 컵입니다.", "재료는 밀가루 1컵, 계란 2개, 우유 1컵입니다."],
             explanation: "Ingredient, then amount: 계란 두 개. 컵 ends in a consonant, so the list ends in 이에요.",
           },
         ],
@@ -2355,7 +2355,7 @@ export const KO_B1_U26: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "In Britain we usually eat pancakes in February.",
         answer: "영국에서는 보통 2월에 팬케이크를 먹어요.",
-        altAnswers: ["영국에서는 보통 이월에 팬케이크를 먹어요.", "영국에서는 2월에 보통 팬케이크를 먹어요.", "영국에서는 이월에 보통 팬케이크를 먹어요.", "영국 사람들은 보통 2월에 팬케이크를 먹어요.", "영국 사람들은 보통 이월에 팬케이크를 먹어요."],
+        altAnswers: ["영국에서는 보통 이월에 팬케이크를 먹어요.", "영국에서는 2월에 보통 팬케이크를 먹어요.", "영국에서는 이월에 보통 팬케이크를 먹어요.", "영국에서는 보통 2월에 팬케이크를 먹습니다.", "영국에서는 보통 이월에 팬케이크를 먹습니다.", "영국 사람들은 보통 2월에 팬케이크를 먹어요.", "영국 사람들은 보통 이월에 팬케이크를 먹어요."],
         explanation: "Months are Sino-Korean: 2월 [이월]. 영국에서는 sets Britain apart as the topic.",
       },
       {

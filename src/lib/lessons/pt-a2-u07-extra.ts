@@ -154,7 +154,7 @@ export const PT_A2_U07_EXTRA: Lesson[] = [
         type: "speak",
         text: "O ônibus é mais barato do que o táxi.",
         prompt: "Say it in Portuguese: The bus is cheaper than the taxi.",
-        tip: "Ônibus is stressed on the first syllable: Ô-nee-boos.",
+        tip: "Ônibus is stressed on the first syllable: Ô-ni-bus.",
         explanation: "Cheaper is \"mais barato\".",
       },
       {
@@ -318,7 +318,7 @@ export const PT_A2_U07_EXTRA: Lesson[] = [
         type: "speak",
         text: "Salvador é a cidade mais bonita do Brasil.",
         prompt: "Say it in Portuguese: Salvador is the most beautiful city in Brazil.",
-        tip: "Cidade: the d before e sounds like j in jeans, see-DAH-jee.",
+        tip: "Cidade: the d before e sounds like j in jeans, si-DA-dji.",
         explanation: "\"A cidade mais bonita do Brasil\".",
       },
       {
@@ -353,7 +353,7 @@ export const PT_A2_U07_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Espera um minutinho, por favor.", en: "Wait just a minute, please." },
-          { es: "Vamos tomar um cafezinho?", en: "How about a little coffee?" },
+          { es: "Vamos tomar um cafezinho?", en: "Shall we have a little coffee?" },
           { es: "A padaria fica pertinho daqui.", en: "The bakery is really close to here." },
           { es: "Volto rapidinho.", en: "I'll be right back." },
           { es: "O hotel era caríssimo.", en: "The hotel was extremely expensive." },
@@ -394,7 +394,7 @@ export const PT_A2_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "How about a little coffee?",
+        source: "Shall we have a little coffee?",
         answer: "Vamos tomar um cafezinho?",
         altAnswers: ["Bora tomar um cafezinho?", "Vamos tomar um café?"],
         explanation: "\"Cafezinho\" is the classic Brazilian small coffee and invitation.",
@@ -482,8 +482,8 @@ export const PT_A2_U07_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Vou ali rapidinho e já volto.",
-        prompt: "Say it in Portuguese: I'm just stepping out and I'll be right back.",
-        tip: "Rapidinho: ha-pee-JEE-nyoo, with the Brazilian h-like r.",
+        prompt: "Say it in Portuguese: I'm just popping out and I'll be right back.",
+        tip: "Rapidinho: ha-pi-DJI-nyu, with the Brazilian h-like r.",
         explanation: "A very Brazilian everyday phrase.",
       },
       {

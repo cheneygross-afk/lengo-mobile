@@ -144,10 +144,10 @@ export const DE_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I ask him and he answers me.'?",
+        question: "Which sentence is correct?",
         options: ["Ich frage ihn und er antwortet mir.", "Ich frage ihm und er antwortet mich.", "Ich frage ihn und er antwortet mich.", "Ich frage ihm und er antwortet mir."],
         correctIndex: 0,
-        explanation: "\"Fragen\" takes the accusative (\"ihn\"), \"antworten\" the dative (\"mir\"). \"*Ich frage ihm*\" uses the dative, as many learners expect after a verb of speaking.",
+        explanation: "\"Fragen\" + accusative (\"ihn\"); \"antworten\" + dative (\"mir\").",
       },
       {
         type: "translate",
@@ -348,10 +348,10 @@ export const DE_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I give the dog the bone.'?",
+        question: "Which is correct? I give the dog the bone.",
         options: ["Ich gebe dem Hund den Knochen.", "Ich gebe den Hund dem Knochen.", "Ich gebe den Knochen zu dem Hund.", "Ich gebe der Hund den Knochen."],
         correctIndex: 0,
-        explanation: "The receiver is dative (\"dem Hund\"), the thing accusative (\"den Knochen\"). \"*Ich gebe den Knochen zu dem Hund*\" copies English 'to'; \"geben\" needs no preposition.",
+        explanation: "Receiver dative (\"dem Hund\"), thing accusative (\"den Knochen\").",
       },
       {
         type: "translate",
@@ -558,10 +558,10 @@ export const DE_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm giving my friend a mug.'?",
+        question: "Which is correct? I'm giving my friend a mug.",
         options: ["Ich schenke meinem Freund einen Becher.", "Ich schenke meinen Freund einen Becher.", "Ich schenke meinem Freund einem Becher.", "Ich schenke mein Freund ein Becher."],
         correctIndex: 0,
-        explanation: "Dative -em on the person (\"meinem Freund\"), accusative -en on the masculine thing (\"einen Becher\"). \"*Meinen Freund*\" makes the person accusative.",
+        explanation: "Dative -em on the person, accusative -en on the masculine thing.",
       },
       {
         type: "translate",
@@ -877,10 +877,10 @@ export const DE_A2_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'Can you give me the salt?' (to a friend)",
+            question: "Which is correct? Can you give me the salt?",
             options: ["Kannst du mir das Salz geben?", "Kannst du das Salz mir geben?", "Kannst du mich das Salz geben?", "Kannst du geben mir das Salz?"],
             correctIndex: 0,
-            explanation: "The pronoun \"mir\" (dative) comes before the noun \"das Salz\", and the infinitive goes last. \"*Kannst du das Salz mir geben?*\" puts the noun first, which only works for pronouns (\"es mir\").",
+            explanation: "The pronoun \"mir\" (dative) before the noun \"das Salz\"; infinitive at the end.",
           },
         ],
       },
@@ -2195,10 +2195,10 @@ export const DE_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'It was cold, but we went swimming anyway.'?",
+        question: "Which sentence is correct?",
         options: ["Es war kalt, trotzdem sind wir schwimmen gegangen.", "Es war kalt, trotzdem wir sind schwimmen gegangen.", "Es war kalt, aber sind wir schwimmen gegangen.", "Es war kalt, denn sind wir schwimmen gegangen."],
         correctIndex: 0,
-        explanation: "\"Trotzdem\" takes position 1, so the verb comes next: \"trotzdem sind wir\". \"*Trotzdem wir sind*\" treats it like \"aber\", which is position 0.",
+        explanation: "\"Trotzdem\" is position 1 (verb next). \"Aber\" and \"denn\" are position 0 (subject next).",
       },
       {
         type: "translate",

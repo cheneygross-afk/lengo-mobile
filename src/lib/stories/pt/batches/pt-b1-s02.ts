@@ -216,11 +216,11 @@ export const PT_B1_S02_STORIES: Story[] = [
 
 export const PT_B1_S02_GLOSSES: Record<string, StoryGloss[]> = {
   "pt-a-quarta-tentativa": [
-    { es: "a reprovação", en: "failure (on a test)", forms: ["reprovações"] },
+    { es: "a reprovação", en: "fail (in an exam)", forms: ["reprovações"] },
     { es: "o volante", en: "steering wheel", forms: ["volante"] },
     { es: "suar", en: "to sweat", forms: ["suar"] },
     { es: "a baliza", en: "parallel parking", forms: ["baliza"] },
-    { es: "dar seta", en: "to signal, use the turn signal", forms: ["seta"] },
+    { es: "dar seta", en: "to signal, use the indicator", forms: ["seta"] },
     { es: "a autoescola", en: "driving school", forms: ["autoescola"] },
     { es: "tirar carteira", en: "to get a driver's license", forms: ["carteira"] },
     { es: "a prancheta", en: "clipboard", forms: ["prancheta"] },

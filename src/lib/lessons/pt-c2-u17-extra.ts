@@ -46,7 +46,7 @@ export const PT_C2_U17_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "Essa sala é um forno!",
-            tip: "The o of \"forno\" is closed in the singular, FÔR-noo; it opens only in the plural, \"fornos\".",
+            tip: "The o of \"forno\" is closed in the singular, FÔR-nu; it opens only in the plural, \"fornos\".",
             explanation: "Metaphor and hyperbole in one: the room is not literally an oven.",
           },
         ],
@@ -164,7 +164,7 @@ export const PT_C2_U17_EXTRA: Lesson[] = [
         type: "speak",
         text: "Pode tirar sarro, eu sei que errei feio.",
         prompt: "Say it in Portuguese: Go ahead and make fun, I know I got it badly wrong.",
-        tip: "\"Sarro\": the double r is a breathy h sound: SA-hoo.",
+        tip: "\"Sarro\": the double r is a breathy h sound: SA-hu.",
         explanation: "Inviting the teasing first takes the sting out of it.",
       },
     ],

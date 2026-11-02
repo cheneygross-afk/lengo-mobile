@@ -22,7 +22,7 @@ export const PT_C1_U19: Lesson[] = [
           { es: "O SUS atende mais de 150 milhões de brasileiros que não têm plano de saúde.", en: "The SUS serves more than 150 million Brazilians who have no health insurance." },
           { es: "Marquei uma consulta no posto de saúde para quinta-feira.", en: "I booked an appointment at the health center for Thursday." },
           { es: "A clínica geral me deu um encaminhamento para o cardiologista.", en: "The family doctor gave me a referral to the cardiologist." },
-          { es: "Ele passou mal de madrugada e foi atendido na UPA.", en: "He got sick in the middle of the night and was seen at the emergency unit." },
+          { es: "Ele passou mal de madrugada e foi atendido na UPA.", en: "He fell ill in the middle of the night and was seen at the emergency unit." },
           { es: "Você tem convênio ou vai pelo SUS?", en: "Do you have health insurance or are you going through the SUS?" },
         ],
         checkpoint: [
@@ -89,7 +89,7 @@ export const PT_C1_U19: Lesson[] = [
               "A senhora já tomou a vacina da gripe?",
               "Vocês já tomaram a vacina da gripe?",
             ],
-            explanation: "Vaccines are \"tomadas\": \"tomar a vacina\". \"Já\" in a question renders English 'yet'. \"Pegar\" goes with diseases, not shots.",
+            explanation: "Vaccines are \"tomadas\": \"tomar a vacina\". \"Já\" in a question renders English 'yet'. \"Pegar\" goes with diseases, not jabs.",
           },
           {
             type: "fill-blank",
@@ -281,7 +281,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "speak",
         text: "Eu não tenho convênio, então vou ao posto de saúde.",
         prompt: "Say it in Portuguese: I don't have health insurance, so I go to the health center.",
-        tip: "Convênio stresses the second-last syllable: con-VÊ-nyoo, with a closed ê.",
+        tip: "Convênio stresses the second-last syllable: con-VÊ-nio, with a closed ê.",
         explanation: "\"Convênio\" is the everyday word for a private health plan; the public alternative is \"o posto de saúde\".",
       },
       {
@@ -311,7 +311,7 @@ export const PT_C1_U19: Lesson[] = [
         heading: "Sedentarismo and alimentação",
         body: [
           "Health campaigns fight \"o sedentarismo\" (a sedentary lifestyle). The person is \"sedentário\", and the remedy is \"praticar atividade física\" or \"fazer exercício\". In speech people \"malham\" (work out) at the \"academia\", which is a gym, not an academy.",
-          "What you eat in general is \"a alimentação\" (\"ter uma alimentação saudável\"). \"Dieta\" is mostly a regime you follow to lose weight: \"estar de dieta\" or \"fazer dieta\". Brazil's official dietary guide is built around one distinction: \"alimentos in natura\" or \"minimamente processados\" (rice, beans, fruit) against \"ultraprocessados\" (soft drinks, packaged snacks, \"biscoito recheado\", instant noodles). \"Comida de verdade\", real food, is the slogan.",
+          "What you eat in general is \"a alimentação\" (\"ter uma alimentação saudável\"). \"Dieta\" is mostly a regime you follow to lose weight: \"estar de dieta\" or \"fazer dieta\". Brazil's official dietary guide is built around one distinction: \"alimentos in natura\" or \"minimamente processados\" (rice, beans, fruit) against \"ultraprocessados\" (soft drinks, packet snacks, \"biscoito recheado\", instant noodles). \"Comida de verdade\", real food, is the slogan.",
           "Note the agreement: \"os ultraprocessados\" is a masculine plural noun (\"os alimentos ultraprocessados\"), and \"rico em\" / \"pobre em\" take \"em\": \"rico em açúcar\", \"pobre em fibras\".",
         ],
         examples: [
@@ -389,7 +389,7 @@ export const PT_C1_U19: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Moving is very [stressful].",
+            en: "Moving house is very [stressful].",
             sentence: "Fazer mudança é muito ___.",
             answer: "estressante",
             explanation: "Brazilian spelling adds the initial e: \"estresse\", \"estressado\", \"estressante\".",
@@ -677,7 +677,7 @@ export const PT_C1_U19: Lesson[] = [
         heading: "Correlação não é causalidade: hedging a finding",
         body: [
           "Most health studies are observational: they find a \"correlação\" or \"associação\", not \"causalidade\" (causation). Honest reporting matches the verb to the evidence: \"o consumo de ultraprocessados está associado a\" (is associated with), \"está relacionado a\", \"aumenta o risco de\". \"Causa\" and \"comprova\" are claims of a different order.",
-          "Reporters and scientists also hedge with \"os resultados sugerem que\", \"o estudo aponta que\", \"segundo os autores\", \"pode contribuir para\" and the classic closing caveats: \"ainda é cedo para afirmar\", \"são necessários mais estudos\". Unit 4's academic hedges (\"parece\", \"tende a\", \"é possível que\") belong here too. The mood follows the meaning: \"é possível que o efeito seja menor\", but \"o estudo mostra que o efeito é menor\".",
+          "Reporters and scientists also hedge with \"os resultados sugerem que\", \"o estudo aponta que\", \"segundo os autores\", \"pode contribuir para\" and the classic closing caveats: \"ainda é cedo para afirmar\", \"são necessários mais estudos\". Unit 3's academic hedges (\"parece\", \"tende a\", \"é possível que\") belong here too. The mood follows the meaning: \"é possível que o efeito seja menor\", but \"o estudo mostra que o efeito é menor\".",
         ],
         examples: [
           { es: "Dormir pouco está associado a um maior risco de obesidade.", en: "Sleeping little is associated with a higher risk of obesity." },
@@ -718,7 +718,7 @@ export const PT_C1_U19: Lesson[] = [
             type: "speak",
             text: "Correlação não é causalidade.",
             prompt: "Say it in Portuguese: Correlation isn't causation.",
-            tip: "Correlação ends in a nasal ão: co-he-la-SÃO; causalidade is stressed on da, cau-za-li-DA-jee, with the s sounding like z. The strong rr is a throaty h sound.",
+            tip: "Correlação ends in a nasal ão: co-rre-la-ÇÃO; causalidade is stressed on da, cau-za-li-DA-de, with the s sounding like z. The strong rr is a throaty h sound.",
             explanation: "The scientist's motto: an association between two things doesn't show that one causes the other.",
           },
         ],
@@ -1094,7 +1094,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "speak",
         text: "O desmatamento no Cerrado preocupa os cientistas.",
         prompt: "Say it in Portuguese: Deforestation in the Cerrado worries scientists.",
-        tip: "Cerrado has a strong rr, close to an English h: se-HA-doo.",
+        tip: "Cerrado has a strong rr, close to an English h: ce-HA-do.",
         explanation: "\"No Cerrado\" contracts \"em\" and \"o\"; the subject \"o desmatamento\" comes before \"preocupa\".",
       },
     ],
@@ -1360,7 +1360,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "speak",
         text: "Quem mora em área de risco precisa deixar a casa quando a Defesa Civil emitir o alerta.",
         prompt: "Say it in Portuguese: Anyone who lives in a high-risk area needs to leave home when Civil Defense issues the alert.",
-        tip: "Área has three syllables, stressed on the first: Á-ree-a. Emitir ends in a light tapped r.",
+        tip: "Área has three syllables, stressed on the first: Á-re-a. Emitir ends in a light tapped r.",
         explanation: "\"Quando\" about a future event takes the future subjunctive: \"quando a Defesa Civil emitir\".",
       },
     ],
@@ -1475,7 +1475,7 @@ export const PT_C1_U19: Lesson[] = [
         heading: "Connectors and the nominal style: em decorrência de, decorrente de",
         body: [
           "Formal texts express cause with prepositional phrases: \"devido a\", \"em razão de\", \"em virtude de\", \"por conta de\" and, very often in reports, \"em decorrência de\" (as a result of). \"Decorrente de\" is an adjective and agrees with its noun: \"doenças decorrentes da poluição\". \"Graças a\" only works for good results; \"graças à seca\" sounds sarcastic. \"Devido a\" takes the crase before a feminine noun: \"devido à falta de chuva\".",
-          "These connectors pair with the nominal style of Unit 4: turn the verb into a noun and the sentence becomes a single, dense phrase. \"Os casos aumentaram porque a cobertura vacinal caiu\" becomes \"o aumento dos casos decorre da queda da cobertura vacinal\". The useful nouns: \"o aumento\", \"a queda\", \"a redução\", \"o agravamento\", \"a mitigação\".",
+          "These connectors pair with the nominal style of Unit 3: turn the verb into a noun and the sentence becomes a single, dense phrase. \"Os casos aumentaram porque a cobertura vacinal caiu\" becomes \"o aumento dos casos decorre da queda da cobertura vacinal\". The useful nouns: \"o aumento\", \"a queda\", \"a redução\", \"o agravamento\", \"a mitigação\".",
         ],
         examples: [
           { es: "A escola foi fechada em decorrência das chuvas.", en: "The school was closed as a result of the rain." },
@@ -1645,7 +1645,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "speak",
         text: "Em decorrência das chuvas, as aulas foram suspensas.",
         prompt: "Say it in Portuguese: As a result of the rain, classes were suspended.",
-        tip: "Decorrência: de-co-HẼN-sya, with a closed nasal e and a throaty rr, like an English h.",
+        tip: "Decorrência: de-co-RRÊN-cia, with a closed nasal ê and a throaty rr.",
         explanation: "\"Em decorrência de\" opens many official notices; it contracts with the article: \"das chuvas\".",
       },
     ],
@@ -1916,7 +1916,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "speak",
         text: "Isso está associado a um risco maior, mas não quer dizer que cause a doença.",
         prompt: "Say it in Portuguese: That's associated with a higher risk, but it doesn't mean it causes the disease.",
-        tip: "Associado has four syllables after the a: a-sso-see-A-doo; the double s is a clear s, never a z.",
+        tip: "Associado has four syllables after the a: a-sso-ci-A-do; the double s is a clear s, never a z.",
         explanation: "\"Não quer dizer que\" denies the causal claim, so \"cause\" is subjunctive.",
       },
     ],
@@ -2092,7 +2092,7 @@ export const PT_C1_U19: Lesson[] = [
             type: "speak",
             text: "Muito obrigado pela participação, dona Cleusa.",
             prompt: "You're the presenter, a man. Say it in Portuguese: Thank you very much for calling in, Dona Cleusa.",
-            tip: "Participação ends in a nasal ão: par-chee-see-pa-SÃO, and the ti sounds like chee.",
+            tip: "Participação ends in a nasal ão: par-ti-ci-pa-ÇÃO.",
             explanation: "\"Obrigado pela participação\" is the radio formula for thanking a caller; a female presenter would say \"obrigada\".",
           },
         ],
@@ -2273,7 +2273,7 @@ export const PT_C1_U19: Lesson[] = [
           "\"O meio ambiente\" is the natural environment: \"proteger o meio ambiente\", \"crimes contra o meio ambiente\". \"Ambiente\" alone is a setting or atmosphere: \"um ambiente de trabalho tóxico\", \"um ambiente agradável\". The adjective of both is \"ambiental\": \"a política ambiental\", \"o licenciamento ambiental\".",
         ],
         examples: [
-          { es: "Estou resfriado e com o nariz entupido.", en: "I've got a cold and a stuffy nose." },
+          { es: "Estou resfriado e com o nariz entupido.", en: "I've got a cold and a blocked nose." },
           { es: "O médico disse que a prisão de ventre é efeito do remédio.", en: "The doctor said the constipation is a side effect of the medicine." },
           { es: "Este iogurte não tem conservantes.", en: "This yogurt has no preservatives." },
           { es: "O posto distribui preservativos de graça.", en: "The health center gives out condoms for free." },
@@ -2470,7 +2470,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "speak",
         text: "Eu peguei dengue, mas já tomei a vacina contra a febre amarela.",
         prompt: "Say it in Portuguese: I caught dengue, but I've already had the yellow fever vaccine.",
-        tip: "Dengue: DẼN-ghee, with a nasal en and the final e as ee.",
+        tip: "Dengue: DEN-gui, with a nasal en and the final e as a short i.",
         explanation: "\"Pegar\" for the disease, \"tomar\" for the vaccine: the two collocations side by side.",
       },
     ],
@@ -2595,7 +2595,7 @@ export const PT_C1_U19: Lesson[] = [
             audio: "Cada um faz a sua parte: separe o lixo reciclável do orgânico.",
             question: "What does it mean?",
             options: [
-              "Everyone does their part: separate recyclables from food waste.",
+              "Everyone does their bit: separate recyclables from food waste.",
               "Each person takes part of the trash to the street.",
               "Everyone pays their share for the collection.",
               "Throw all the trash in the same bin.",
@@ -2683,9 +2683,9 @@ export const PT_C1_U19: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Everyone does their part.",
+        prompt: "Put the words in order to say: Everyone does their bit.",
         words: ["Cada", "um", "faz", "a", "sua", "parte."],
-        translation: "Everyone does their part.",
+        translation: "Everyone does their bit.",
         explanation: "\"Cada um\" takes a singular verb: \"faz\".",
       },
       {
@@ -2880,7 +2880,7 @@ export const PT_C1_U19: Lesson[] = [
           "Adolescentes que dormem menos de sete horas tiram notas piores, indica pesquisa.",
           "Adolescentes que dormem menos de 7 horas tiram notas piores, aponta pesquisa.",
         ],
-        explanation: "Grades are \"tiradas\": \"tirar notas\". The lead states the observed difference and ends with the source.",
+        explanation: "Marks are \"tiradas\": \"tirar notas\". The lead states the observed difference and ends with the source.",
       },
       {
         type: "translate",
@@ -2999,7 +2999,7 @@ export const PT_C1_U19: Lesson[] = [
     level: "PT-C1",
     number: 12,
     title: "Spiral Review: Health, Science and the Environment",
-    summary: "Mixed practice of the unit's vocabulary with the media literacy of Unit 15 (rumors, distancing, checking) and the academic hedging of Unit 4.",
+    summary: "Mixed practice of the unit's vocabulary with the media literacy of Unit 9 (rumors, distancing, checking) and the academic hedging of Unit 3.",
     duration: "16 min",
     kind: "review",
     format: "Spiral Review",
@@ -3007,7 +3007,7 @@ export const PT_C1_U19: Lesson[] = [
       {
         heading: "A health rumor in the family group",
         body: [
-          "A message in the family group: \"Chá de boldo com limão cura dengue em três dias! Compartilhe!\" Use Unit 15's tools: it's a \"boato\", it cites no \"fonte\", and it ends with an \"apelo\" to share. Reply with distance (\"supostamente\", \"o chá teria efeito\") and with a source (\"segundo o Ministério da Saúde\").",
+          "A message in the family group: \"Chá de boldo com limão cura dengue em três dias! Compartilhe!\" Use Unit 9's tools: it's a \"boato\", it cites no \"fonte\", and it ends with an \"apelo\" to share. Reply with distance (\"supostamente\", \"o chá teria efeito\") and with a source (\"segundo o Ministério da Saúde\").",
           "Health rumors are dangerous because people \"deixam de procurar atendimento\" (stop seeking care) or \"se automedicam\". A good reply is short and kind: name the risk, give the right action, link to a \"checagem\".",
         ],
         examples: [
@@ -3044,7 +3044,7 @@ export const PT_C1_U19: Lesson[] = [
       {
         heading: "Writing it up academically",
         body: [
-          "Now the same subject in a seminar paper on health misinformation. Unit 4's structures return: \"verifica-se\", \"os resultados apontam para\", \"sugere-se que\", \"no que tange a\" (regarding), \"à luz de\" (in the light of). Hedges are measured: \"tende a\", \"é possível que\" with the subjunctive.",
+          "Now the same subject in a seminar paper on health misinformation. Unit 3's structures return: \"verifica-se\", \"os resultados apontam para\", \"sugere-se que\", \"no que tange a\" (regarding), \"à luz de\" (in the light of). Hedges are measured: \"tende a\", \"é possível que\" with the subjunctive.",
           "Combine them with the unit's cause-and-effect vocabulary: \"a desinformação pode acarretar atrasos no diagnóstico\", \"a queda da cobertura vacinal decorre, em parte, da circulação de boatos\". \"Em parte\" keeps the claim proportionate.",
         ],
         examples: [
@@ -3097,7 +3097,7 @@ export const PT_C1_U19: Lesson[] = [
       {
         heading: "Cause and effect in the environment",
         body: [
-          "Last, the chain that links the unit's environmental words: \"o desmatamento da Amazônia reduz a umidade levada pelos 'rios voadores' para o Sudeste\"; less rain \"agrava a seca\"; the dry spell \"acarreta\" low reservoirs and more expensive electricity. A careful writer grades each link: \"contribui para\", \"pode agravar\", \"está associado a\".",
+          "Last, the chain that links the unit's environmental words: \"o desmatamento da Amazônia reduz a umidade levada pelos 'rios voadores' para o Sudeste\"; less rain \"agrava a seca\"; the dry spell \"acarreta\" low reservoirs and dearer electricity. A careful writer grades each link: \"contribui para\", \"pode agravar\", \"está associado a\".",
           "This is exactly what an ENEM essay or an opinion column needs: precise vocabulary, honest claims and connectors such as \"em decorrência de\", \"por conseguinte\" and \"o que acarreta\".",
         ],
         examples: [
@@ -3126,7 +3126,7 @@ export const PT_C1_U19: Lesson[] = [
             type: "speak",
             text: "As queimadas pioram a qualidade do ar e, por conseguinte, a saúde da população.",
             prompt: "Say it in Portuguese: The fires worsen air quality and, consequently, people's health.",
-            tip: "Pause slightly at each comma around \"por conseguinte\"; the gu in conseguinte is a hard g: con-se-GHĨN-chee.",
+            tip: "Pause slightly at each comma around \"por conseguinte\"; the gu in conseguinte is a hard g: con-se-GUIN-te.",
             explanation: "\"Por conseguinte\" is a formal connector of consequence, set off by commas.",
           },
         ],
@@ -3243,7 +3243,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "speak",
         text: "Tia, isso é boato. Segundo o Ministério da Saúde, o certo é beber muita água e procurar o posto.",
         prompt: "Reply kindly to your aunt in Portuguese: Auntie, that's a rumor. According to the Ministry of Health, the right thing is to drink lots of water and go to the health center.",
-        tip: "Boato has two vowels in a row: boo-A-too, three syllables.",
+        tip: "Boato has two vowels in a row: bo-A-to, three syllables.",
         explanation: "Name the rumor, give the source with \"segundo\", and give the right action.",
       },
     ],

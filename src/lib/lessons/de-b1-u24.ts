@@ -158,10 +158,10 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Instead, the park is being renovated.'?",
+        question: "Which sentence is correct?",
         options: ["Stattdessen wird der Park renoviert.", "Stattdessen der Park wird renoviert.", "Stattdessen der Park renoviert wird.", "Stattdessen wird renoviert der Park."],
         correctIndex: 0,
-        explanation: "\"Stattdessen\" fills position 1, so \"wird\" comes next and the participle goes last. \"*Stattdessen der Park wird*\" puts the subject before the verb.",
+        explanation: "\"Stattdessen\" fills position 1, so the verb \"wird\" comes next and the participle goes last.",
       },
       {
         type: "translate",
@@ -235,10 +235,10 @@ export const DE_B1_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'The rent has gone up, so we're looking for a new flat.'?",
+            question: "Which sentence is correct?",
             options: ["Die Miete ist gestiegen, deshalb suchen wir eine neue Wohnung.", "Die Miete ist gestiegen, deshalb wir suchen eine neue Wohnung.", "Die Miete ist gestiegen, deshalb wir eine neue Wohnung suchen.", "Deshalb die Miete ist gestiegen, wir suchen eine neue Wohnung."],
             correctIndex: 0,
-            explanation: "\"Deshalb\" fills position 1 of its clause, so the verb comes next: \"deshalb suchen wir\". \"*deshalb wir suchen*\" treats it like \"weil\" or \"und\".",
+            explanation: "After \"deshalb\" the verb comes immediately: \"deshalb suchen wir\".",
           },
         ],
       },
@@ -439,10 +439,10 @@ export const DE_B1_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'The restaurant is expensive, but we still go there often.'?",
+            question: "Which sentence is correct?",
             options: ["Das Restaurant ist teuer, trotzdem gehen wir oft hin.", "Das Restaurant ist teuer, trotzdem wir gehen oft hin.", "Das Restaurant ist teuer, trotz gehen wir oft hin.", "Das Restaurant ist teuer, trotzdem wir oft hingehen."],
             correctIndex: 0,
-            explanation: "\"Trotzdem\" fills position 1, so verb + subject follow: \"trotzdem gehen wir\". \"*trotz*\" alone is a preposition and needs a noun.",
+            explanation: "\"Trotzdem\" + verb + subject. \"Trotz\" alone needs a noun in the genitive.",
           },
         ],
       },
@@ -801,10 +801,10 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'I'm learning German because I live in Berlin.'?",
+        question: "Which sentence is correct written German?",
         options: ["Ich lerne Deutsch, weil ich in Berlin wohne.", "Ich lerne Deutsch, weil ich wohne in Berlin.", "Ich lerne Deutsch, denn ich in Berlin wohne.", "Ich wohne in Berlin, deshalb ich lerne Deutsch."],
         correctIndex: 0,
-        explanation: "\"Weil\" sends the verb to the end: \"weil ich in Berlin wohne\". \"*weil ich wohne in Berlin*\" is common in speech but wrong in writing.",
+        explanation: "Verb last after \"weil\"; normal order after \"denn\"; inversion after \"deshalb\".",
       },
       {
         type: "translate",
@@ -1007,10 +1007,10 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'What's more, I save a lot of money.'?",
+        question: "Which sentence is correct?",
         options: ["Außerdem spare ich viel Geld.", "Außerdem ich spare viel Geld.", "Außerdem viel Geld spare ich.", "Ich außerdem spare viel Geld."],
         correctIndex: 0,
-        explanation: "The connector \"außerdem\" fills position 1, so the verb comes next: \"außerdem spare ich\". \"*Außerdem ich spare*\" puts the subject before the verb.",
+        explanation: "Connector adverb in position 1, verb next.",
       },
       {
         type: "translate",
@@ -1305,10 +1305,10 @@ export const DE_B1_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'On the one hand it's practical, on the other it's lonely.'?",
+            question: "Which sentence is correct?",
             options: ["Einerseits ist es praktisch, andererseits ist es einsam.", "Einerseits es ist praktisch, andererseits es ist einsam.", "Einerseits ist es praktisch, andererseits es ist einsam.", "Einerseits praktisch es ist, andererseits einsam."],
             correctIndex: 0,
-            explanation: "\"Einerseits\" and \"andererseits\" each fill position 1 of their clause, with the verb next. \"*andererseits es ist*\" forgets the inversion in the second half.",
+            explanation: "\"Einerseits\" and \"andererseits\" each fill position 1, with the verb next.",
           },
         ],
       },
@@ -1582,10 +1582,10 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I think he's coming tomorrow.' with \"dass\"?",
+        question: "Which sentence has correct word order?",
         options: ["Ich glaube, dass er morgen kommt.", "Ich glaube, dass er kommt morgen.", "Ich glaube, dass kommt er morgen.", "Ich glaube, dass morgen er kommt."],
         correctIndex: 0,
-        explanation: "\"Dass\" sends the verb to the end: \"dass er morgen kommt\". \"*dass er kommt morgen*\" keeps main-clause order.",
+        explanation: "\"Dass\" sends the verb to the end.",
       },
       {
         type: "translate",
@@ -1779,10 +1779,10 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Instead, the city should build flats.'?",
+        question: "Which sentence is correct?",
         options: ["Stattdessen sollte die Stadt Wohnungen bauen.", "Stattdessen die Stadt sollte Wohnungen bauen.", "Stattdessen sollte die Stadt bauen Wohnungen.", "Stattdessen die Stadt Wohnungen bauen sollte."],
         correctIndex: 0,
-        explanation: "\"Stattdessen\" fills position 1, then the modal \"sollte\", the subject, and the infinitive \"bauen\" at the end. \"*Stattdessen die Stadt sollte*\" puts the subject before the verb.",
+        explanation: "Adverb + modal + subject + object + infinitive.",
       },
       {
         type: "translate",

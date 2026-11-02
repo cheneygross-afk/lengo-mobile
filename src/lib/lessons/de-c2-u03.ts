@@ -649,10 +649,10 @@ export const DE_C2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'My knees hurt.'?",
+        question: "Which sentence is correct?",
         options: ["Mir tun die Knie weh.", "Mir tut die Knie weh.", "Ich tue die Knie weh.", "Ich habe die Knie weh."],
         correctIndex: 0,
-        explanation: "The body part is the subject: plural \"die Knie\" → \"tun\"; the person is dative \"mir\". \"*Mir tut die Knie weh*\" makes the verb singular.",
+        explanation: "The body part is the subject: plural \"die Knie\" → \"tun\"; the person is dative \"mir\".",
       },
       {
         type: "listen-choose",
@@ -2681,10 +2681,10 @@ export const DE_C2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the formal German for 'to grant a permit'?",
-            options: ["eine Genehmigung erteilen", "eine Genehmigung verabreichen", "eine Genehmigung leisten", "eine Genehmigung ausüben"],
+            question: "Which collocation is correct?",
+            options: ["eine Genehmigung erteilen", "einen Rabatt erteilen", "ein Medikament gewähren", "Zugang verabreichen"],
             correctIndex: 0,
-            explanation: "Permits are \"erteilt\". \"*eine Genehmigung verabreichen*\" borrows the verb for drugs (\"ein Medikament verabreichen\"); discounts and access are \"gewährt\".",
+            explanation: "Permissions are \"erteilt\"; discounts and access are \"gewährt\"; drugs are \"verabreicht\".",
           },
         ],
       },

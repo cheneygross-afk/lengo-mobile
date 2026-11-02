@@ -1479,10 +1479,10 @@ export const DE_B2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is NOT a correct way to say 'according to the report'?",
+            question: "Which phrase is NOT correct?",
             options: ["zufolge dem Bericht", "dem Bericht zufolge", "laut dem Bericht", "laut Bericht"],
             correctIndex: 0,
-            explanation: "\"Zufolge\" must follow its noun (\"dem Bericht zufolge\"), so \"*zufolge dem Bericht*\" is wrong. \"Laut\" goes in front, with or without the article.",
+            explanation: "\"Zufolge\" must follow its noun.",
           },
         ],
       },

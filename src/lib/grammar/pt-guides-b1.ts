@@ -720,7 +720,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `The spoken would: eu queria, eu ia, você podia`,
         body: [
-          `In everyday speech the imperfeito does much of the conditional's work. "Eu queria um pão de queijo" is the normal way to order at a padaria; "eu gostaria" is a touch more formal. "Eu ia adorar" (I'd love it), "você podia me dar uma carona?" (could you give me a ride?), "seria bom" alongside "era bom". "Ir" in the imperfeito + infinitive also replaces it for the future in the past: "ele disse que ia chegar cedo".`,
+          `In everyday speech the imperfeito does much of the conditional's work. "Eu queria um pão de queijo" is the normal way to order at a padaria; "eu gostaria" is a touch more formal. "Eu ia adorar" (I'd love it), "você podia me dar uma carona?" (could you give me a lift?), "seria bom" alongside "era bom". "Ir" in the imperfeito + infinitive also replaces it for the future in the past: "ele disse que ia chegar cedo".`,
           `None of this is wrong; it is simply the spoken register. In emails, essays and the Celpe-Bras, use the futuro do pretérito.`,
         ],
         table: {
@@ -1776,7 +1776,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "A gente se fala depois.", en: "We'll talk later." },
           { pt: "A gente foi ao cinema e depois jantou fora.", en: "We went to the movies and then had dinner out." },
-          { pt: "Encontrei ela no shopping.", en: "I ran into her at the mall. (speech)" },
+          { pt: "Encontrei ela no shopping.", en: "I ran into her at the shopping center. (speech)" },
           { pt: "Te mando o endereço por mensagem.", en: "I'll send you the address by message." },
           { pt: "Você sabe que eu te adoro, né?", en: "You know I adore you, right?" },
         ],

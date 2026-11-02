@@ -123,7 +123,7 @@ export const PT_B2_S06_STORIES: Story[] = [
         question: `What was in the recording?`,
         options: [`A list of scientific data.`, `Teenagers laughing and the teacher's voice with a message.`, `A song in an unknown language.`, `Only noise.`],
         correctIndex: 1,
-        explanation: `It had "vozes de adolescentes rindo e uma voz adulta ao fundo", and "todos reconheceram a voz de Damião".`,
+        explanation: `It had "vozes de adolescentes rindo e uma voz adulta ao fundo", and everyone "reconheceram a voz de Damião".`,
       },
     ],
   },

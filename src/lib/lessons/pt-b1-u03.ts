@@ -206,7 +206,7 @@ export const PT_B1_U03: Lesson[] = [
         type: "speak",
         text: "É importante que a gente chegue cedo.",
         prompt: "Say it in Portuguese: It's important that we get there early.",
-        tip: "In chegue the gu is a hard g, as in get, and the final e sounds like ee.",
+        tip: "In chegue the gu is a hard g, as in get, and the final e sounds like i.",
         explanation: "\"A gente\" takes the ele form, so the subjunctive is \"chegue\".",
       },
       {
@@ -365,7 +365,7 @@ export const PT_B1_U03: Lesson[] = [
           {
             type: "speak",
             text: "Fico feliz de te ver.",
-            tip: "In most of Brazil \"de\" sounds like jee and \"te\" like chee.",
+            tip: "In most of Brazil \"de\" sounds like dji and \"te\" like tchi.",
             explanation: "\"Fico feliz de\" + infinitive: one subject, no subjunctive.",
           },
         ],
@@ -820,7 +820,7 @@ export const PT_B1_U03: Lesson[] = [
           {
             type: "speak",
             text: "Não tenho certeza que ela venha hoje.",
-            tip: "In \"certeza\" the stressed e is closed, like ê: ser-TÊ-za.",
+            tip: "In \"certeza\" the stressed e is closed, like ê: cer-TÊ-za.",
             explanation: "\"Não tenho certeza que\" expresses doubt, so it takes the subjunctive \"venha\".",
           },
         ],
@@ -1035,7 +1035,7 @@ export const PT_B1_U03: Lesson[] = [
           { es: "Pode ser que o voo atrase.", en: "The flight might be delayed." },
           { es: "Pode ser que ele não saiba.", en: "Maybe he doesn't know." },
           { es: "Pode ser que sim, pode ser que não.", en: "Maybe yes, maybe no." },
-          { es: "Vamos pedir pizza? — Pode ser.", en: "Should we order pizza? Sure, why not." },
+          { es: "Vamos pedir pizza? — Pode ser.", en: "Shall we order pizza? Sure, why not." },
         ],
         checkpoint: [
           {
@@ -1111,7 +1111,7 @@ export const PT_B1_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Should we order pizza? — [Sure, why not.]",
+        en: "Shall we order pizza? — [Sure, why not.]",
         sentence: "Vamos pedir pizza? — ___.",
         answer: "Pode ser",
         explanation: "\"Pode ser\" alone is a relaxed yes to a suggestion, not a real maybe.",
@@ -1141,7 +1141,7 @@ export const PT_B1_U03: Lesson[] = [
         type: "speak",
         text: "Talvez ela esteja em casa.",
         prompt: "Say it in Portuguese: Maybe she's at home.",
-        tip: "The l in talvez sounds like w: tau-VÊS.",
+        tip: "The l in talvez sounds like u: tau-VEZ.",
         explanation: "\"Talvez\" first, so estar becomes \"esteja\".",
       },
       {
@@ -1224,8 +1224,8 @@ export const PT_B1_U03: Lesson[] = [
           { es: "Não é verdade que o museu tenha entrada grátis.", en: "It's not true that the museum has free entry." },
           { es: "É claro que ele sabe o caminho.", en: "Of course he knows the way." },
           { es: "Duvido que ele saiba o caminho.", en: "I doubt he knows the way." },
-          { es: "Tenho certeza que a loja abre no domingo.", en: "I'm sure the store opens on Sunday." },
-          { es: "É possível que a loja abra no domingo.", en: "The store might open on Sunday." },
+          { es: "Tenho certeza que a loja abre no domingo.", en: "I'm sure the shop opens on Sunday." },
+          { es: "É possível que a loja abra no domingo.", en: "The shop might open on Sunday." },
         ],
         checkpoint: [
           {
@@ -1382,7 +1382,7 @@ export const PT_B1_U03: Lesson[] = [
       {
         type: "speak",
         text: "Sei que você pode, mas espero que você queira.",
-        tip: "In \"pode\", the d before the final e sounds like the j in jeans: PÓ-jee.",
+        tip: "In \"pode\", the d before the final e sounds like the j in jeans: PÓ-dji.",
         explanation: "Knowing keeps the indicative \"pode\"; hoping takes the subjunctive \"queira\".",
       },
       {
@@ -1584,7 +1584,7 @@ export const PT_B1_U03: Lesson[] = [
         type: "speak",
         text: "É melhor que a gente espere.",
         prompt: "Say it in Portuguese: We'd better wait.",
-        tip: "The lh in melhor sounds like the lli in million. The e in espere is open, and the final e sounds like ee.",
+        tip: "The lh in melhor sounds like the lli in million. The e in espere is open, and the final e sounds like i.",
         explanation: "\"A gente\" takes the ele/ela form, so the subjunctive is \"espere\".",
       },
       {
@@ -1803,7 +1803,7 @@ export const PT_B1_U03: Lesson[] = [
         type: "speak",
         text: "É importante que você descanse.",
         prompt: "Say it in Portuguese: It's important that you rest.",
-        tip: "Stress the middle syllable, des-KÃ-see, and let the final e sound like ee.",
+        tip: "Stress the middle syllable, des-CAN-se, and let the final e sound like i.",
         explanation: "\"É importante que\" aimed at a person takes the subjunctive \"descanse\".",
       },
       {
@@ -2191,7 +2191,7 @@ export const PT_B1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm sure the store opens at nine.",
+        source: "I'm sure the shop opens at nine.",
         answer: "Tenho certeza que a loja abre às nove.",
         altAnswers: ["Tenho certeza de que a loja abre às nove.", "Eu tenho certeza que a loja abre às nove.", "Eu tenho certeza de que a loja abre às nove."],
         explanation: "Certainty takes the indicative: \"abre\". Careful writing prefers \"certeza de que\", while speech usually drops the \"de\".",

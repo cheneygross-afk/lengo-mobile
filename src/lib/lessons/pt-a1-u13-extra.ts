@@ -15,7 +15,7 @@ export const PT_A1_U13_EXTRA: Lesson[] = [
       {
         heading: "Going to and being at",
         body: [
-          "Going to: a + article gives \"ao\", \"à\", \"aos\", \"às\" (\"vou ao banco\", \"vou à padaria\", \"vou aos correios\", \"vou às lojas\"), or \"para\" + article, which never contracts. Being at: em + article gives \"no\", \"na\", \"nos\", \"nas\" (\"estou no banco\", \"estou na padaria\").",
+          "Going to: a + article = \"ao\", \"à\", \"aos\", \"às\" (\"vou ao banco\", \"vou à padaria\", \"vou aos correios\", \"vou às lojas\"), or \"para\" + article, which never contracts. Being at: em + article = \"no\", \"na\", \"nos\", \"nas\" (\"estou no banco\", \"estou na padaria\").",
           "No article, no contraction: \"a pé\", \"em casa\", \"para casa\", \"a Recife\". Times take \"às\", but \"à uma\" and \"ao meio-dia\".",
         ],
         examples: [
@@ -34,7 +34,7 @@ export const PT_A1_U13_EXTRA: Lesson[] = [
             source: "I'm going to the gas station.",
             answer: "Vou ao posto de gasolina.",
             altAnswers: ["Eu vou ao posto de gasolina.", "Vou para o posto de gasolina.", "Eu vou para o posto de gasolina.", "Vou ao posto.", "Eu vou ao posto."],
-            explanation: "\"O posto\": a + o gives \"ao\".",
+            explanation: "\"O posto\": a + o = \"ao\".",
           },
           {
             type: "fill-blank",
@@ -42,7 +42,7 @@ export const PT_A1_U13_EXTRA: Lesson[] = [
             en: "Mariana is [at the] bakery.",
             sentence: "A Mariana está ___ padaria.",
             answer: "na",
-            explanation: "Being at: em + a gives \"na\".",
+            explanation: "Being at: em + a = \"na\".",
           },
           {
             type: "listen-choose",
@@ -106,7 +106,7 @@ export const PT_A1_U13_EXTRA: Lesson[] = [
         source: "They're at the stores.",
         answer: "Eles estão nas lojas.",
         altAnswers: ["Elas estão nas lojas."],
-        explanation: "Em + as gives \"nas\".",
+        explanation: "Em + as = \"nas\".",
       },
       {
         type: "translate",
@@ -123,7 +123,7 @@ export const PT_A1_U13_EXTRA: Lesson[] = [
         en: "She's going [to the] post office.",
         sentence: "Ela vai ___ correios.",
         answer: "aos",
-        explanation: "A + os gives \"aos\".",
+        explanation: "A + os = \"aos\".",
       },
       {
         type: "fill-blank",
@@ -253,7 +253,7 @@ export const PT_A1_U13_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "She lives in Pará.",
         answer: "Ela mora no Pará.",
-        explanation: "\"O Pará\": em + o gives \"no\".",
+        explanation: "\"O Pará\": em + o = \"no\".",
       },
       {
         type: "translate",
@@ -302,7 +302,7 @@ export const PT_A1_U13_EXTRA: Lesson[] = [
         en: "His wife is from Rio Grande do Sul. She's [gaúcha].",
         sentence: "Ela é ___.",
         answer: "gaúcha",
-        explanation: "\"Gaúcho\" becomes \"gaúcha\" for a woman.",
+        explanation: "\"Gaúcho\" → \"gaúcha\" for a woman.",
       },
       {
         type: "fill-blank",
@@ -516,7 +516,7 @@ export const PT_A1_U13_EXTRA: Lesson[] = [
         sentence: "Moro ___ rua tranquila.",
         answer: "numa",
         altAnswers: ["em uma"],
-        explanation: "Em + uma gives \"numa\".",
+        explanation: "Em + uma = \"numa\".",
       },
       {
         type: "translate",

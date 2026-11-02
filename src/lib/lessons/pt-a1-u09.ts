@@ -206,7 +206,7 @@ export const PT_A1_U09: Lesson[] = [
         text: "Ele tem olhos azuis.",
         prompt: "Say it in Portuguese: He has blue eyes.",
         tip: "Azuis is two syllables, 'ah-ZOOYS', with the stress at the end.",
-        explanation: "\"Azul\" becomes \"azuis\" in the plural.",
+        explanation: "\"Azul\" → \"azuis\" in the plural.",
       },
     ],
   },
@@ -285,7 +285,7 @@ export const PT_A1_U09: Lesson[] = [
           {
             type: "speak",
             text: "O João tem cabelo cacheado.",
-            tip: "'kah-shee-AH-doo': the ch sounds like English sh.",
+            tip: "Ca-che-A-do: the ch sounds like English sh.",
             explanation: "\"Cacheado\" means curly; \"cabelo\" is singular, as in English hair.",
           },
         ],
@@ -388,7 +388,7 @@ export const PT_A1_U09: Lesson[] = [
         source: "We're tall and strong.",
         answer: "Nós somos altos e fortes.",
         altAnswers: ["Somos altos e fortes.", "Nós somos altas e fortes.", "Somos altas e fortes."],
-        explanation: "\"Somos\" + plural adjectives. \"Forte\" has one form for both genders, so only \"altos\" or \"altas\" changes.",
+        explanation: "\"Somos\" + plural adjectives. \"Forte\" has one form for both genders, so only \"altos\" / \"altas\" changes.",
       },
       {
         type: "dictation",
@@ -491,7 +491,7 @@ export const PT_A1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Ele é meio tímido.",
-            tip: "Stress the first syllable, as the accent shows: 'CHEE-mee-doo'.",
+            tip: "Stress TÍ-mi-do on the first syllable, as the accent shows.",
             explanation: "\"Meio\" softens the adjective: a bit shy.",
           },
         ],
@@ -614,7 +614,7 @@ export const PT_A1_U09: Lesson[] = [
         type: "speak",
         text: "Ela é bem simpática.",
         prompt: "Say it in Portuguese: She's really friendly.",
-        tip: "Stress 'sĩ-PÁ-chee-kah'; the t before i sounds like ch in most of Brazil.",
+        tip: "Stress sim-PÁ-ti-ca; the t before i sounds like ch in most of Brazil.",
         explanation: "\"Bem\" + adjective means really.",
       },
     ],
@@ -724,7 +724,7 @@ export const PT_A1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Hoje eu estou muito feliz.",
-            tip: "Feliz is spelled with z but ends in an s sound; in Rio it can sound like sh.",
+            tip: "Feliz ends in a z; in Rio it can sound like sh.",
             explanation: "\"Estar feliz\": happy now, today.",
           },
         ],
@@ -908,7 +908,7 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "Grande, claro, velho: describing rooms",
         body: [
-          "Describe a room with \"ser\": \"a sala é grande\", \"o quarto é pequeno\". Useful pairs: \"grande\" or \"pequeno\" (big, small), \"claro\" or \"escuro\" (bright, dark), \"novo\" or \"velho\" (new, old). \"Claro\" also means of course, but after a room it means full of light.",
+          "Describe a room with \"ser\": \"a sala é grande\", \"o quarto é pequeno\". Useful pairs: \"grande\" / \"pequeno\" (big / small), \"claro\" / \"escuro\" (bright / dark), \"novo\" / \"velho\" (new / old). \"Claro\" also means of course, but after a room it means full of light.",
           "\"Velho\" is fine for things (\"um prédio velho\"), but it can sound rude about people; Brazilians prefer \"mais velho\" or \"idoso\" for an older person.",
         ],
         examples: [
@@ -1037,7 +1037,7 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "A camiseta, a calça, o tênis",
         body: [
-          "Everyday clothes: \"a camiseta\" (T-shirt), \"a camisa\" (shirt), \"a calça\" (pants), \"a bermuda\" (shorts), \"a saia\" (skirt), \"o vestido\" (dress) and \"o casaco\" (coat, jacket). Shoes: \"o tênis\" (sneakers), \"a sandália\", \"o chinelo\" (flip-flops) and \"o boné\" (cap) for the head.",
+          "Everyday clothes: \"a camiseta\" (T-shirt), \"a camisa\" (shirt), \"a calça\" (pants), \"a bermuda\" (shorts), \"a saia\" (skirt), \"o vestido\" (dress) and \"o casaco\" (coat, jacket). Shoes: \"o tênis\" (sneakers, sneakers), \"a sandália\", \"o chinelo\" (flip-flops) and \"o boné\" (cap) for the head.",
           "English says a pair of pants; Portuguese says one \"calça\", singular: \"uma calça preta\". In Brazil the plural \"as calças\" for one pair sounds foreign, and \"a bermuda\" works the same way. \"Tênis\" is the same in the singular and plural: \"um tênis\" (a pair of sneakers), \"dois tênis\". Only the article and the adjective show the plural: \"os tênis brancos\".",
         ],
         examples: [
@@ -1130,7 +1130,7 @@ export const PT_A1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Eu uso tênis no trabalho.",
-            tip: "Tênis: 'TÊ-nees', with a closed ê and stress on the first syllable.",
+            tip: "Tênis: TÊ-nis, with a closed ê and stress on the first syllable.",
             explanation: "\"Usar\" for what you wear as a habit.",
           },
         ],
@@ -1423,7 +1423,7 @@ export const PT_A1_U09: Lesson[] = [
         type: "speak",
         text: "Ele tem vinte anos e é muito alto.",
         prompt: "Say it in Portuguese: He's twenty and very tall.",
-        tip: "Vinte: the t before final e sounds like ch, 'VĨ-chee'.",
+        tip: "Vinte: the t before final e sounds like ch, 'VEEN-chee'.",
         explanation: "Age with \"ter\", height with \"ser\".",
       },
     ],
@@ -1833,8 +1833,8 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "One to many",
         body: [
-          "Turn one person into several and everything moves: the article, the noun, the verb and every adjective. \"O menino alto e simpático\" becomes \"os meninos altos e simpáticos\". \"Ele é\" becomes \"eles são\", \"ele está\" becomes \"eles estão\", \"ele tem\" becomes \"eles têm\".",
-          "Watch the adjectives with special plurals: \"legal\" becomes \"legais\", \"jovem\" becomes \"jovens\", \"feliz\" becomes \"felizes\", \"trabalhador\" becomes \"trabalhadores\".",
+          "Turn one person into several and everything moves: the article, the noun, the verb and every adjective. \"O menino alto e simpático\" → \"os meninos altos e simpáticos\". \"Ele é\" → \"eles são\", \"ele está\" → \"eles estão\", \"ele tem\" → \"eles têm\".",
+          "Watch the adjectives with special plurals: \"legal\" → \"legais\", \"jovem\" → \"jovens\", \"feliz\" → \"felizes\", \"trabalhador\" → \"trabalhadores\".",
         ],
         examples: [
           { es: "O menino é alto e simpático.", en: "The boy is tall and friendly." },
@@ -1851,7 +1851,7 @@ export const PT_A1_U09: Lesson[] = [
             source: "The teachers are young and nice.",
             answer: "Os professores são jovens e legais.",
             altAnswers: ["As professoras são jovens e legais."],
-            explanation: "\"Jovem\" becomes \"jovens\", \"legal\" becomes \"legais\", and \"são\" for the plural.",
+            explanation: "\"Jovem\" → \"jovens\", \"legal\" → \"legais\", and \"são\" for the plural.",
           },
           {
             type: "fill-blank",
@@ -1866,13 +1866,13 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "Masculine to feminine",
         body: [
-          "Change a man into a woman and the \"-o\" adjectives switch to \"-a\": \"o menino tímido\" becomes \"a menina tímida\". Most adjectives in \"-e\", \"-l\" and \"-z\" don't change: \"inteligente\", \"legal\", \"feliz\" stay as they are.",
+          "Change a man into a woman and the \"-o\" adjectives switch to \"-a\": \"o menino tímido\" → \"a menina tímida\". Most adjectives in \"-e\", \"-l\" and \"-z\" don't change: \"inteligente\", \"legal\", \"feliz\" stay as they are.",
           "A mixed group takes the masculine: \"o Pedro e a Ana são altos\". Only a group of women is feminine: \"a Ana e a Beatriz são altas\".",
         ],
         examples: [
           { es: "O menino é tímido.", en: "The boy is shy." },
           { es: "A menina é tímida.", en: "The girl is shy." },
-          { es: "O vizinho é inteligente. A vizinha é inteligente.", en: "The neighbor is smart. (man, then woman)" },
+          { es: "O vizinho é inteligente. A vizinha é inteligente.", en: "The neighbor is smart. (man / woman)" },
           { es: "O Pedro e a Ana são altos.", en: "Pedro and Ana are tall." },
           { es: "A Ana e a Beatriz são altas.", en: "Ana and Beatriz are tall." },
         ],
@@ -1891,15 +1891,15 @@ export const PT_A1_U09: Lesson[] = [
             question: "Change \"O médico é calmo e inteligente\" to a woman doctor.",
             options: ["A médica é calma e inteligente.", "A médica é calma e inteligenta.", "A médica é calmo e inteligente.", "O médica é calma e inteligente."],
             correctIndex: 0,
-            explanation: "\"Calmo\" becomes \"calma\", but \"inteligente\" has one form for both genders.",
+            explanation: "\"Calmo\" → \"calma\", but \"inteligente\" has one form for both genders.",
           },
         ],
       },
       {
         heading: "Things: clothes and rooms",
         body: [
-          "Things change the same way. \"Um tênis azul\" becomes \"dois tênis azuis\": the noun stays, the color moves. \"Uma camisa rosa\" becomes \"duas camisas rosa\": the noun moves, the color stays.",
-          "States follow too: \"a sala está escura\" becomes \"as salas estão escuras\". Remember \"dois\" or \"duas\": \"dois quartos\", \"duas salas\".",
+          "Things change the same way. \"Um tênis azul\" → \"dois tênis azuis\": the noun stays, the color moves. \"Uma camisa rosa\" → \"duas camisas rosa\": the noun moves, the color stays.",
+          "States follow too: \"a sala está escura\" → \"as salas estão escuras\". Remember \"dois\" / \"duas\": \"dois quartos\", \"duas salas\".",
         ],
         examples: [
           { es: "Um tênis azul, dois tênis azuis.", en: "A pair of blue sneakers, two pairs of blue sneakers." },
@@ -1943,7 +1943,7 @@ export const PT_A1_U09: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "two pairs of blue sneakers",
         answer: "dois tênis azuis",
-        explanation: "\"Tênis\" stays the same; \"azul\" becomes \"azuis\".",
+        explanation: "\"Tênis\" stays the same; \"azul\" → \"azuis\".",
       },
       {
         type: "translate",
@@ -1952,7 +1952,7 @@ export const PT_A1_U09: Lesson[] = [
         source: "The neighbors are happy today.",
         answer: "Os vizinhos estão felizes hoje.",
         altAnswers: ["As vizinhas estão felizes hoje.", "Hoje os vizinhos estão felizes.", "Hoje as vizinhas estão felizes."],
-        explanation: "\"Feliz\" becomes \"felizes\", and \"estão\" for a state today.",
+        explanation: "\"Feliz\" → \"felizes\", and \"estão\" for a state today.",
       },
       {
         type: "translate",
@@ -1968,7 +1968,7 @@ export const PT_A1_U09: Lesson[] = [
         en: "The nurses are very [hard-working].",
         sentence: "As enfermeiras são muito ___.",
         answer: "trabalhadoras",
-        explanation: "\"Trabalhador\" becomes \"trabalhadora\", then \"trabalhadoras\".",
+        explanation: "\"Trabalhador\" → \"trabalhadora\" → \"trabalhadoras\".",
       },
       {
         type: "fill-blank",
@@ -2013,7 +2013,7 @@ export const PT_A1_U09: Lesson[] = [
         text: "Os professores são jovens e legais.",
         prompt: "Say it in Portuguese: The teachers are young and nice.",
         tip: "Jovens: the final -ens is nasal, with no n at the end.",
-        explanation: "\"Jovem\" becomes \"jovens\", \"legal\" becomes \"legais\".",
+        explanation: "\"Jovem\" → \"jovens\", \"legal\" → \"legais\".",
       },
     ],
   },
@@ -2114,7 +2114,7 @@ export const PT_A1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Procuramos uma pessoa calma e organizada.",
-            tip: "Stress the third syllable: 'pro-koo-RÃ-moos'.",
+            tip: "Stress pro-cu-RA-mos on the third syllable.",
             explanation: "\"Procurar\" is a regular -ar verb: \"procuramos\".",
           },
         ],
@@ -2196,7 +2196,7 @@ export const PT_A1_U09: Lesson[] = [
         type: "speak",
         text: "O quarto é pequeno, mas tem uma cama e um armário.",
         prompt: "Say it in Portuguese: The room is small, but it has a bed and a closet.",
-        tip: "Armário: stress 'ar-MÁ-ryoo', as the accent shows.",
+        tip: "Armário: stress ar-MÁ-rio, as the accent shows.",
         explanation: "\"Ser\" for size, \"ter\" for the furniture.",
       },
     ],
@@ -2314,7 +2314,7 @@ export const PT_A1_U09: Lesson[] = [
         source: "The guests are really nice.",
         answer: "Os convidados são bem legais.",
         altAnswers: ["Os convidados são muito legais.", "Os convidados são bem simpáticos.", "Os convidados são muito simpáticos.", "As convidadas são bem legais."],
-        explanation: "\"Legal\" becomes \"legais\" in the plural, and \"bem\" before an adjective means really.",
+        explanation: "\"Legal\" → \"legais\" in the plural, and \"bem\" before an adjective means really.",
       },
       {
         type: "translate",

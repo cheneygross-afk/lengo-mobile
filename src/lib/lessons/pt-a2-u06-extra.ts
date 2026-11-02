@@ -318,7 +318,7 @@ export const PT_A2_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "Você conhece eles?",
         prompt: "Say it in Portuguese: Do you know them? (casual)",
-        tip: "Conhece: the nh is like ny in canyon, ko-NYÉ-see.",
+        tip: "Conhece: the nh is like ny in canyon, ko-NYE-si.",
         explanation: "Natural spoken Brazilian Portuguese.",
       },
       {

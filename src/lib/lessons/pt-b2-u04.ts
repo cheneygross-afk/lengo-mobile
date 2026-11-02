@@ -398,7 +398,7 @@ export const PT_B2_U04: Lesson[] = [
           {
             type: "speak",
             text: "Ele fala como se tivesse visto tudo.",
-            tip: "The t in tivesse becomes a 'ch' sound before i in most of Brazil: chee-VÉ-see. The double s is a plain s.",
+            tip: "The t in tivesse becomes a 'ch' sound before i in most of Brazil: tchi-VE-ssi. The double s is a plain s.",
             explanation: "\"Como se tivesse visto\": the seeing comes before the talking, so it takes the pluperfect subjunctive.",
           },
         ],
@@ -490,7 +490,7 @@ export const PT_B2_U04: Lesson[] = [
         type: "speak",
         text: "Se eu tivesse sabido antes!",
         prompt: "Say it in Portuguese: If only I'd known sooner!",
-        tip: "In \"antes\", the final -es sounds like 'ees', and the t before it becomes 'ch': AN-chees.",
+        tip: "In \"antes\", the final -es sounds like 'is', and the t before it becomes 'ch': AN-tchis.",
         explanation: "\"Se\" + \"tivesse sabido\" on its own is the everyday sigh of regret.",
       },
       {
@@ -1465,7 +1465,7 @@ export const PT_B2_U04: Lesson[] = [
         type: "speak",
         text: "Espero que tenha dado tudo certo.",
         prompt: "Say it in Portuguese: I hope everything went well.",
-        tip: "Say \"tenha\" as TẼ-nya, and let the final -o of \"dado\" and \"tudo\" sound like oo: DA-doo, TOO-doo.",
+        tip: "Say \"tenha\" as TE-nya, and let the final -o of \"dado\" and \"tudo\" sound like u.",
         explanation: "\"Dar certo\" means to work out. It's over, and \"espero\" is present, so \"tenha dado\".",
       },
       {
@@ -1703,7 +1703,7 @@ export const PT_B2_U04: Lesson[] = [
         type: "speak",
         text: "Se a gente tivesse saído mais cedo, não teria perdido o voo.",
         prompt: "Say it in Portuguese: If we'd left earlier, we wouldn't have missed the flight.",
-        tip: "The d in perdido comes before i, so it sounds like dj: per-JEE-doo. Keep the ss in tivesse a clear s.",
+        tip: "The d in perdido comes before i, so it sounds like dj: per-DJI-du. Keep the ss in tivesse a clear s.",
         explanation: "\"Tivesse saído\" in the condition and \"teria perdido\" in the result: both clauses are contrary to what happened.",
       },
       {
@@ -1728,7 +1728,7 @@ export const PT_B2_U04: Lesson[] = [
       {
         heading: "After se: tivesse, never teria or tinha",
         body: [
-          "The classic slip in past unreal conditions is putting the conditional in both halves: \"*se eu teria sabido, teria vindo\". Portuguese keeps would out of the if-clause, as standard English does: you say if I had known, not if I would have known. After \"se\" comes the pluperfect subjunctive, \"tivesse\" + participle, and \"teria\" belongs only to the result: \"se eu tivesse sabido, teria vindo\".",
+          "The classic slip in past unreal conditions is putting the conditional in both halves: \"*se eu teria sabido, teria vindo\". Portuguese keeps would out of the if-clause, just as English does. Nobody says if I would have known. After \"se\" comes the pluperfect subjunctive, \"tivesse\" + participle, and \"teria\" belongs only to the result: \"se eu tivesse sabido, teria vindo\".",
           "The second slip is \"*se eu tinha sabido\". Some Brazilians say it, but in writing and careful speech the se clause takes only \"tivesse\". The spoken shortcut belongs in the other half: \"se eu tivesse sabido, eu tinha ido\" is fine in conversation. In writing, use \"teria ido\".",
           "A quick test: where English has had + participle after if, Portuguese has \"tivesse\" + participle. Where English has would have, Portuguese has \"teria\".",
         ],
@@ -1880,7 +1880,7 @@ export const PT_B2_U04: Lesson[] = [
             type: "speak",
             text: "Se eu tivesse sabido, teria vindo.",
             prompt: "Say it in Portuguese: If I had known, I would have come.",
-            tip: "In tivesse the t before i sounds like the ch in cheese, and the e is open: chee-VÉ-see.",
+            tip: "In tivesse the t before i sounds like the ch in cheese, and the e is open: tchi-VÉ-si.",
             explanation: "\"Tivesse sabido\" in the se clause, \"teria vindo\" in the result. \"Vindo\" is the participle of \"vir\".",
           },
         ],
@@ -2354,7 +2354,7 @@ export const PT_B2_U04: Lesson[] = [
         type: "speak",
         text: "Se eu tivesse ido, hoje falaria com outro sotaque.",
         prompt: "Say it in Portuguese: If I'd gone, I'd speak with a different accent today.",
-        tip: "In \"tivesse\" the t before i sounds like the ch in cheese: chee-VÉ-see.",
+        tip: "In \"tivesse\" the t before i sounds like the ch in cheese: tchi-VÉ-si.",
         explanation: "A mixed condition: \"tivesse ido\" for the past, \"falaria\" for the present result.",
       },
     ],
@@ -2504,7 +2504,7 @@ export const PT_B2_U04: Lesson[] = [
             type: "speak",
             text: "Você podia ter me avisado.",
             prompt: "Say it in Portuguese: You could have warned me.",
-            tip: "In \"podia\" the d before i sounds like the j in jeans: \"po-JEE-a\".",
+            tip: "In \"podia\" the d before i sounds like the j in jeans: \"po-DJI-a\".",
             explanation: "Could have = \"podia ter\" + participle, a gentle reproach.",
           },
         ],

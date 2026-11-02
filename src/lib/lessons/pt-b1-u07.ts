@@ -122,7 +122,7 @@ export const PT_B1_U07: Lesson[] = [
           {
             type: "speak",
             text: "A gente tem se falado pouco.",
-            tip: "Keep the em in tem nasal with no clear m sound, and let the final -o in falado and pouco sound like oo.",
+            tip: "Keep the em in tem nasal with no clear m sound, and let the final -o in falado and pouco sound like u.",
             explanation: "\"A gente\" takes \"tem\", and the reflexive \"se\" goes before the participle \"falado\".",
           },
         ],
@@ -204,7 +204,7 @@ export const PT_B1_U07: Lesson[] = [
         type: "speak",
         text: "Tenho dormido mal ultimamente.",
         prompt: "Say it in Portuguese: I've been sleeping badly lately.",
-        tip: "In ultimamente, the t before i sounds like ch and the final -e like ee: ul-chee-ma-MẼ-chee.",
+        tip: "In ultimamente, the t before i sounds like ch and the final -e like i: ul-tchi-ma-MEN-tchi.",
         explanation: "\"Tenho dormido\" + \"ultimamente\": a typical match of tense and time marker.",
       },
       {
@@ -293,7 +293,7 @@ export const PT_B1_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The stores have been opening on Sundays.",
+            source: "The shops have been opening on Sundays.",
             answer: "As lojas têm aberto aos domingos.",
             altAnswers: ["As lojas têm aberto nos domingos.", "As lojas têm aberto aos domingos também.", "Aos domingos as lojas têm aberto."],
             explanation: "\"Abrir\" → \"aberto\". The plural subject changes \"ter\" to \"têm\", but the participle stays \"aberto\".",
@@ -312,7 +312,7 @@ export const PT_B1_U07: Lesson[] = [
       {
         heading: "Gasto, pago, ganho and the time words",
         body: [
-          "\"Ganhar\", \"gastar\" and \"pagar\" have a short and a long participle. With \"ter\", Brazilians mostly say \"gasto\" and \"pago\" (\"tenho gasto muito\", \"tenho pago tudo no cartão\"); with \"ganhar\", both \"ganho\" and \"ganhado\" are common. Unit 21 tells the full story.",
+          "\"Ganhar\", \"gastar\" and \"pagar\" have a short and a long participle. With \"ter\", Brazilians mostly say \"gasto\" and \"pago\" (\"tenho gasto muito\", \"tenho pago tudo no cartão\"); with \"ganhar\", both \"ganho\" and \"ganhado\" are common. Unit 12 tells the full story.",
           "This tense comes with time words that stretch up to the present: \"ultimamente\" (lately), \"nos últimos meses\" (over the last few months), \"nos últimos tempos\", \"desde janeiro\". They go at the start or the end of the sentence. A finished moment like \"ontem\" or \"mês passado\" still takes the simple perfeito: \"ontem eu paguei a conta\".",
         ],
         examples: [
@@ -396,7 +396,7 @@ export const PT_B1_U07: Lesson[] = [
         type: "speak",
         text: "Tenho pago tudo em dinheiro.",
         prompt: "Say it in Portuguese: I've been paying for everything in cash.",
-        tip: "The d in \"dinheiro\" before i sounds like the j in jeans: jee-NYEI-roo.",
+        tip: "The d in \"dinheiro\" before i sounds like the j in jeans: dji-NYEI-ru.",
         explanation: "\"Tenho pago\": with \"ter\", Brazilians mostly use the short participle of \"pagar\".",
       },
       {
@@ -430,7 +430,7 @@ export const PT_B1_U07: Lesson[] = [
         pairs: [
           { left: "Tenho gasto pouco.", right: "I've been spending little." },
           { left: "Ele tem dito isso.", right: "He's been saying that." },
-          { left: "Elas têm aberto a loja.", right: "They've been opening the store." },
+          { left: "Elas têm aberto a loja.", right: "They've been opening the shop." },
           { left: "Temos visto muitos filmes.", right: "We've been watching lots of movies." },
           { left: "Você tem vindo de carro?", right: "Have you been coming by car?" },
         ],
@@ -522,7 +522,7 @@ export const PT_B1_U07: Lesson[] = [
           {
             type: "speak",
             text: "Tenho dormido mal ultimamente.",
-            tip: "In \"ultimamente\" the t before i sounds like the ch in cheese, and the final -te is said 'chee'.",
+            tip: "In \"ultimamente\" the t before i sounds like the ch in cheese, and the final -te is said 'tchi'.",
             explanation: "\"Tenho dormido mal\": a run of bad nights, not one, so the perfeito composto.",
           },
         ],
@@ -715,7 +715,7 @@ export const PT_B1_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to say that the store has been opening earlier these days. Which sentence is correct?",
+            question: "You want to say that the shop has been opening earlier these days. Which sentence is correct?",
             options: ["A loja tem aberto mais cedo.", "A loja tem abrido mais cedo.", "A loja tem aberta mais cedo.", "A loja tem abrindo mais cedo."],
             correctIndex: 0,
             explanation: "\"Abrir\" gives \"aberto\". After \"ter\" it stays masculine singular even with \"a loja\", so \"aberta\" is wrong here. \"Abrindo\" is the gerund.",
@@ -727,7 +727,7 @@ export const PT_B1_U07: Lesson[] = [
         body: [
           "\"Ver\" and \"vir\" look alike, and so do their participles. \"Tenho visto\" is I've been seeing, and \"tenho vindo\" is I've been coming. Link each one to its past form: \"visto\" goes with \"vi\" (I saw), and \"vindo\" goes with \"vim\" (I came).",
           "\"Vindo\" is also the gerund of \"vir\", so \"estou vindo\" (I'm on my way) and \"tenho vindo\" (I've been coming) share a form. The helper verb decides the meaning: \"estar\" for right now, \"ter\" for lately.",
-          "Mind the vowels. \"Aberto\" has an open é (a-BÉR-too), \"posto\" has a closed ô (PÔS-too), and \"feito\" rhymes with \"jeito\".",
+          "Mind the vowels. \"Aberto\" has an open é (a-BÉR-to), \"posto\" has a closed ô (PÔS-to), and \"feito\" rhymes with \"jeito\".",
         ],
         examples: [
           { es: "Tenho visto a Beatriz no metrô.", en: "I've been seeing Beatriz on the subway." },
@@ -757,7 +757,7 @@ export const PT_B1_U07: Lesson[] = [
           {
             type: "speak",
             text: "A farmácia tem aberto aos domingos.",
-            tip: "Open the é in aberto: a-BÉR-too, like the e in bed.",
+            tip: "Open the é in aberto: a-BÉR-to, like the e in bed.",
             explanation: "\"Abrir\" gives the irregular participle \"aberto\". It means the pharmacy has been opening on Sundays.",
           },
         ],
@@ -901,7 +901,7 @@ export const PT_B1_U07: Lesson[] = [
         type: "speak",
         text: "O que você tem feito?",
         prompt: "Say it in Portuguese: What have you been up to?",
-        tip: "Glide through the diphthong in feito: FEI-too, with the final o said as oo.",
+        tip: "Glide through the diphthong in feito: FEI-tu, with the final o said as u.",
         explanation: "\"O que você tem feito?\" is the everyday way to catch up with someone, built on the participle \"feito\".",
       },
     ],
@@ -989,7 +989,7 @@ export const PT_B1_U07: Lesson[] = [
           {
             type: "speak",
             text: "A gente quase não tem se visto.",
-            tip: "In \"gente\" the final -te sounds like 'chee'. \"Tem\" ends in a nasal sound, with no closed m.",
+            tip: "In \"gente\" the final -te sounds like 'tchi'. \"Tem\" ends in a nasal sound, with no closed m.",
             explanation: "\"Quase não\" goes before \"tem\", and \"se\" goes before the participle \"visto\".",
           },
         ],
@@ -1122,7 +1122,7 @@ export const PT_B1_U07: Lesson[] = [
         type: "speak",
         text: "Quanto tempo! O que você tem feito?",
         prompt: "Say it in Portuguese: Long time no see! What have you been up to?",
-        tip: "\"Quanto\" and \"tempo\" both start with a nasal vowel. The final -o in each sounds like oo.",
+        tip: "\"Quanto\" and \"tempo\" both start with a nasal vowel. The final -o in each sounds like u.",
         explanation: "\"Quanto tempo!\" opens almost every Brazilian catch-up, and \"o que você tem feito?\" follows naturally.",
       },
       {
@@ -1294,7 +1294,7 @@ export const PT_B1_U07: Lesson[] = [
           {
             type: "speak",
             text: "Tomara que a gente se veja mais agora.",
-            tip: "In \"gente\" the g sounds like the s in measure, the t like the ch in cheese, and the final e is a short ee: ZHẼ-chee.",
+            tip: "In \"gente\" the g sounds like the s in measure, the t like the ch in cheese, and the final e is a short i: ZHEN-tchi.",
             explanation: "\"Tomara que\" + subjunctive: \"veja\", built from \"vejo\".",
           },
         ],
@@ -1795,7 +1795,7 @@ export const PT_B1_U07: Lesson[] = [
             type: "speak",
             text: "Já fui a Salvador duas vezes.",
             prompt: "Say it in Portuguese: I've been to Salvador twice.",
-            tip: "\"Vezes\" has a closed ê, VÊ-zees, and the s between the vowels sounds like z.",
+            tip: "\"Vezes\" has a closed ê, VÊ-zis, and the s between the vowels sounds like z.",
             explanation: "\"Já fui\": a past experience takes the simple perfeito, even with a number of times.",
           },
         ],
@@ -1862,7 +1862,7 @@ export const PT_B1_U07: Lesson[] = [
         type: "speak",
         text: "Tenho me sentido melhor ultimamente.",
         prompt: "Say it in Portuguese: I've been feeling better lately.",
-        tip: "The t before i in \"sentido\" sounds like the ch in cheese: sẽ-CHEE-doo.",
+        tip: "The t before i in \"sentido\" sounds like the ch in cheese: sen-TCHI-du.",
         explanation: "\"Tenho me sentido\": the reflexive pronoun goes before the participle in Brazilian speech.",
       },
       {
@@ -2349,7 +2349,7 @@ export const PT_B1_U07: Lesson[] = [
         type: "speak",
         text: "Ultimamente tenho dormido mal.",
         prompt: "Say it in Portuguese: I've been sleeping badly lately.",
-        tip: "The final l in \"mal\" sounds like w, so it rhymes with \"mau\"; the -te of \"ultimamente\" sounds like chee.",
+        tip: "The final l in \"mal\" sounds like u, so it rhymes with \"mau\"; the -te of \"ultimamente\" sounds like tchi.",
         explanation: "\"Tenho dormido\": a recent pattern that is still going on.",
       },
       {

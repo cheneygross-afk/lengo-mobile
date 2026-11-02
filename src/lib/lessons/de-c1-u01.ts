@@ -339,10 +339,10 @@ export const DE_C1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'She's acting as if she were tired.'?",
+            question: "Which sentence is correct?",
             options: ["Sie tut, als wäre sie müde.", "Sie tut, als sie wäre müde.", "Sie tut, als ob wäre sie müde.", "Sie tut, als ob sie war müde."],
             correctIndex: 0,
-            explanation: "With plain \"als\" the verb follows directly: \"als wäre sie\". \"*als sie wäre müde*\" puts the subject first, which only works with \"als ob\" and the verb at the end (\"als ob sie müde wäre\").",
+            explanation: "With plain \"als\" the verb follows directly: \"als wäre sie\". With \"als ob\" it would go to the end: \"als ob sie müde wäre\".",
           },
           {
             type: "listen-choose",
@@ -804,7 +804,7 @@ export const DE_C1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Fix \"*Er tut, als er wäre müde*\" so it says 'He's acting as if he were tired.'",
+            question: "Which correction of \"*Er tut, als er wäre müde*\" is right?",
             options: ["Er tut, als wäre er müde.", "Er tut, als er müde wäre.", "Er tut, als ob wäre er müde.", "Er tut, als ob er ist müde."],
             correctIndex: 0,
             explanation: "Plain \"als\" needs the verb right after it. \"Als er müde wäre\" is not a comparison, and the other two mix up both patterns.",

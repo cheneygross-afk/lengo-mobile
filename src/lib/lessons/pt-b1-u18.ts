@@ -57,7 +57,7 @@ export const PT_B1_U18: Lesson[] = [
       {
         heading: "Feeling and doubting",
         body: [
-          "Emotions and judgments about someone else take \"que\" + subjunctive: \"fico feliz que você esteja aqui\", \"é importante que ele descanse\". A general statement keeps the plain infinitive: \"é importante descansar\".",
+          "Emotions and judgements about someone else take \"que\" + subjunctive: \"fico feliz que você esteja aqui\", \"é importante que ele descanse\". A general statement keeps the plain infinitive: \"é importante descansar\".",
           "Belief and certainty take the indicative: \"acho que ele vem\", \"tenho certeza que é verdade\". Doubt and denial switch to the subjunctive: \"duvido que ele venha\", \"não acho que seja verdade\". \"Talvez\" before the verb takes the subjunctive too.",
         ],
         examples: [
@@ -225,7 +225,7 @@ export const PT_B1_U18: Lesson[] = [
         type: "speak",
         text: "Não conheço ninguém que fale japonês.",
         prompt: "Say it in Portuguese: I don't know anyone who speaks Japanese.",
-        tip: "Keep the nasal \"ém\" in ninguém without a hard n, and let the final e of fale sound like ee.",
+        tip: "Keep the nasal \"ém\" in ninguém without a hard n, and let the final e of fale sound like i.",
         explanation: "After \"ninguém\" the subjunctive \"fale\", because the person you describe doesn't exist.",
       },
       {
@@ -644,7 +644,7 @@ export const PT_B1_U18: Lesson[] = [
           {
             type: "speak",
             text: "A loja está fechada desde segunda.",
-            tip: "The ch in fechada sounds like English sh, and the final e in desde sounds like ee: DEZ-jee.",
+            tip: "The ch in fechada sounds like English sh, and the final e in desde sounds like i: DEZ-djee.",
             explanation: "\"Está fechada\" describes the state the store is in, not the act of closing it.",
           },
         ],
@@ -738,7 +738,7 @@ export const PT_B1_U18: Lesson[] = [
         type: "speak",
         text: "É importante nós sabermos a verdade.",
         prompt: "Say it in Portuguese: It's important for us to know the truth.",
-        tip: "Stress sa-BER-mos, and let the final de in verdade sound like jee.",
+        tip: "Stress sa-BER-mos, and let the final de in verdade sound like djee.",
         explanation: "After \"é importante\" with a specific subject, the infinitive inflects: \"nós sabermos\".",
       },
       {
@@ -986,7 +986,7 @@ export const PT_B1_U18: Lesson[] = [
         type: "speak",
         text: "Eu no seu lugar diria a verdade.",
         prompt: "Say it in Portuguese: If I were you, I'd tell the truth.",
-        tip: "Say diria in three syllables, jee-REE-a, with the d before i sounding like the j in jeep.",
+        tip: "Say diria in three syllables, di-RI-a, with the d before i sounding like the j in jeep.",
         explanation: "\"Diria\" is the short conditional of \"dizer\"; \"dizeria\" doesn't exist.",
       },
     ],
@@ -1090,8 +1090,8 @@ export const PT_B1_U18: Lesson[] = [
           "If the agent doesn't matter, written Portuguese uses \"se\" with agreement (\"vendem-se casas\"), and speech uses a they-verb (\"reformaram a praça\"). To describe the result rather than the action, use \"estar\": \"a praça está reformada\".",
         ],
         examples: [
-          { es: "A prefeitura reformou a praça.", en: "City hall renovated the square." },
-          { es: "A praça foi reformada pela prefeitura.", en: "The square was renovated by city hall." },
+          { es: "A prefeitura reformou a praça.", en: "The city council renovated the square." },
+          { es: "A praça foi reformada pela prefeitura.", en: "The square was renovated by the city council." },
           { es: "As contas já foram pagas.", en: "The bills have already been paid." },
           { es: "Reformaram a praça no ano passado.", en: "They renovated the square last year." },
           { es: "Alugam-se salas comerciais.", en: "Office spaces for rent." },
@@ -1101,7 +1101,7 @@ export const PT_B1_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The square was renovated by city hall.",
+            source: "The square was renovated by the city council.",
             answer: "A praça foi reformada pela prefeitura.",
             explanation: "\"Foi\" keeps the past tense of the active verb, \"reformada\" agrees with \"a praça\", and \"por\" + \"a\" contracts to \"pela\".",
           },
@@ -1157,7 +1157,7 @@ export const PT_B1_U18: Lesson[] = [
             type: "speak",
             text: "Eu a conheci na faculdade.",
             prompt: "Say it in Portuguese, in a formal register: I met her in college.",
-            tip: "The unstressed \"a\" joins the verb: eu a-ko-nye-SEE, with nh like the ny in canyon.",
+            tip: "The unstressed \"a\" joins the verb: eu a-co-nhe-CI, with nh like the ny in canyon.",
             explanation: "In formal speech and writing, the object pronoun \"a\" comes before the verb. Casual speech would say \"eu conheci ela\".",
           },
         ],
@@ -1276,7 +1276,7 @@ export const PT_B1_U18: Lesson[] = [
           { es: "O Paço do Frevo procura voluntários para o Carnaval.", en: "The Paço do Frevo is looking for volunteers for Carnival." },
           { es: "Os voluntários devem ter disponibilidade aos sábados.", en: "Volunteers must be available on Saturdays." },
           { es: "Não é necessário ter experiência.", en: "No experience is needed." },
-          { es: "Os interessados devem enviar um e-mail até o dia 15 de janeiro.", en: "Anyone interested should send an email by January 15." },
+          { es: "Os interessados devem enviar um e-mail até o dia 15 de janeiro.", en: "Anyone interested should send an email by 15 January." },
           { es: "Escreva um e-mail para a coordenadora: apresente-se e peça informações sobre os horários.", en: "Write an email to the coordinator: introduce yourself and ask about the schedule." },
         ],
         checkpoint: [
@@ -1313,7 +1313,7 @@ export const PT_B1_U18: Lesson[] = [
           "Introduce yourself in the role the task gives you, in one line, and link your email to the reading: \"Li no site do museu que...\". The classic trap is a long life story before the reader knows why you're writing.",
         ],
         examples: [
-          { es: "Prezada Sra. Beatriz Lima,", en: "Dear Ms. Lima," },
+          { es: "Prezada Sra. Beatriz Lima,", en: "Dear Ms Lima," },
           { es: "Meu nome é Daniel Walker e sou estudante de intercâmbio na UFPE.", en: "My name is Daniel Walker and I'm an exchange student at UFPE." },
           { es: "Escrevo para me candidatar ao programa de voluntariado do Paço do Frevo.", en: "I'm writing to apply for the Paço do Frevo's volunteer program." },
           { es: "Li no site do museu que vocês ainda estão aceitando inscrições.", en: "I read on the museum's website that you're still accepting applications." },
@@ -1443,7 +1443,7 @@ export const PT_B1_U18: Lesson[] = [
         type: "speak",
         text: "Li no site do Paço do Frevo que o museu está procurando voluntários.",
         prompt: "Say it in Portuguese: I read on the Paço do Frevo's website that the museum is looking for volunteers.",
-        tip: "The ç in \"Paço\" is an s sound, and the final -o in \"Paço\" and \"Frevo\" sounds like oo.",
+        tip: "The ç in \"Paço\" is an s sound, and the final -o in \"Paço\" and \"Frevo\" sounds like u.",
         explanation: "\"Li\" (I read, perfeito) + \"que\" + the progressive \"está procurando\" links your email to the source text.",
       },
       {
@@ -1585,7 +1585,7 @@ export const PT_B1_U18: Lesson[] = [
         heading: "The audio in your own words",
         body: [
           "Bring in the audio's facts with the news language you know: \"segundo\", \"de acordo com\", \"a pesquisadora afirmou que\", \"ela explicou que\". When you report in the past, shift the tense as usual (\"está piorando\" → \"estava piorando\"). Facts that are still true can stay in the present.",
-          "Rephrase rather than copy. Examiners notice long chunks lifted from the audio, and they penalize invented facts too. Your own view is welcome, but mark it with \"na minha opinião\" or a connector so it's clearly yours.",
+          "Rephrase rather than copy. Examiners notice long chunks lifted from the audio, and they penalise invented facts too. Your own view is welcome, but mark it with \"na minha opinião\" or a connector so it's clearly yours.",
           "A simple plan works. Start with a title and an opening paragraph. Add two paragraphs of facts and tips joined by \"além disso\" and \"portanto\". End by calling readers to act (\"espero que...\", \"que tal...?\").",
         ],
         examples: [
@@ -1622,7 +1622,7 @@ export const PT_B1_U18: Lesson[] = [
           {
             type: "speak",
             text: "Espero que este texto ajude você a desperdiçar menos.",
-            tip: "In \"ajude\" the d before the final e sounds like the j in 'jeep': a-ZHOO-jee. The ç in \"desperdiçar\" is an s.",
+            tip: "In \"ajude\" the d before the final e sounds like the j in 'jeep': a-JU-dji. The ç in \"desperdiçar\" is an s.",
             explanation: "\"Espero que\" + subjunctive \"ajude\": a hope about your readers makes a natural ending.",
           },
         ],
@@ -1777,7 +1777,7 @@ export const PT_B1_U18: Lesson[] = [
       {
         heading: "Part 1: Talking about yourself",
         body: [
-          "The interview lasts twenty minutes. In the first five, the examiner chats about the questionnaire you filled out: your work, your studies, why you're learning Portuguese. Answer in full sentences with a reason or a detail. A bare \"sim\" shows the examiner nothing.",
+          "The interview lasts twenty minutes. In the first five, the examiner chats about the questionnaire you filled in: your work, your studies, why you're learning Portuguese. Answer in full sentences with a reason or a detail. A bare \"sim\" shows the examiner nothing.",
           "Use the B1 tenses where they fit: \"tenho estudado\" for what you've been doing lately, \"nunca tinha morado\" for before a past moment, \"gostaria de\" for plans. If you miss a question, ask \"Desculpe, você poderia repetir?\" Asking is normal and costs you nothing.",
         ],
         examples: [
@@ -1912,7 +1912,7 @@ export const PT_B1_U18: Lesson[] = [
           { es: "Você não acha que andar de bicicleta em São Paulo é perigoso?", en: "(Examiner) Don't you think cycling in São Paulo is dangerous?" },
           { es: "Depende: por um lado, é perigoso; por outro, as ciclovias estão aumentando.", en: "It depends: on the one hand it's dangerous; on the other, the bike lanes are growing." },
           { es: "Concordo em parte, mas não acho que a bicicleta seja a solução para todo mundo.", en: "I partly agree, but I don't think bikes are the solution for everyone." },
-          { es: "Na minha opinião, a prefeitura deveria investir mais em ônibus e metrô.", en: "In my opinion, city hall should invest more in buses and the subway." },
+          { es: "Na minha opinião, a prefeitura deveria investir mais em ônibus e metrô.", en: "In my opinion, the city council should invest more in buses and the subway." },
           { es: "Enfim, seria bom as pessoas terem mais opções.", en: "In short, it would be good for people to have more options." },
         ],
         checkpoint: [
@@ -1937,7 +1937,7 @@ export const PT_B1_U18: Lesson[] = [
           {
             type: "speak",
             text: "Concordo em parte, mas depende da cidade.",
-            tip: "The final -de in \"cidade\" sounds like jee: see-DA-jee.",
+            tip: "The final -de in \"cidade\" sounds like dji: ci-DA-dji.",
             explanation: "\"Em parte\" hedges your agreement, and \"depende da cidade\" uses de + a = \"da\".",
           },
         ],
@@ -2115,7 +2115,7 @@ export const PT_B1_U18: Lesson[] = [
           "Anchor the routine with \"ultimamente\", \"nas últimas semanas\" or \"desde que cheguei\". With reflexive verbs, the pronoun goes between the two verbs: \"a gente tem se visto\".",
         ],
         examples: [
-          { es: "Tenho acordado cedo para correr na orla.", en: "I've been getting up early to run along the beachfront." },
+          { es: "Tenho acordado cedo para correr na orla.", en: "I've been getting up early to run along the seafront." },
           { es: "Nas últimas semanas, tenho almoçado num restaurante a quilo perto do trabalho.", en: "For the last few weeks, I've been having lunch at a pay-by-weight restaurant near work." },
           { es: "Já fui a Olinda duas vezes.", en: "I've been to Olinda twice." },
           { es: "A gente tem se visto quase todo fim de semana.", en: "We've been seeing each other almost every weekend." },
@@ -2334,7 +2334,7 @@ export const PT_B1_U18: Lesson[] = [
         type: "speak",
         text: "Eu alugaria um quarto mais perto do centro.",
         prompt: "Say it in Portuguese: I would rent a room closer to the center.",
-        tip: "Stress the conditional ending: a-loo-ga-REE-a.",
+        tip: "Stress the conditional ending: a-lu-ga-RI-a.",
         explanation: "\"Alugaria\" is the infinitive \"alugar\" + -ia. Closer to is \"mais perto de\", and de + o gives \"do centro\".",
       },
       {
@@ -2585,7 +2585,7 @@ export const PT_B1_U18: Lesson[] = [
         type: "speak",
         text: "Embora eu esteja cansada, vou à festa.",
         prompt: "Say it in Portuguese (a woman speaking): Although I'm tired, I'm going to the party.",
-        tip: "Stress es-TÊ-zha with a closed ê, and keep the a of à open.",
+        tip: "Stress es-TE-ja with a closed ê, and keep the a of à open.",
         explanation: "\"Embora\" takes the subjunctive: \"esteja\". \"À\" is \"a\" + \"a festa\".",
       },
       {

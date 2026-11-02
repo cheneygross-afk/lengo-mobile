@@ -53,7 +53,7 @@ export const KO_B1_U20: Lesson[] = [
         heading: "People and things, with 하고 and 소리가 나다",
         body: [
           "People make sounds too: 콜록콜록 (coughing), 엉엉 (sobbing out loud), 하하 (laughing), 쿨쿨 (sleeping soundly). So do things: 똑똑 (a knock), 쾅 (a bang or slam), 딩동 (a doorbell), 똑딱똑딱 (a clock ticking). A single sound stays single: 쾅 is one slam.",
-          "Two frames turn any sound into a sentence. Sound + 하고 quotes it, like English 'went': 딩동 하고 초인종이 울렸어요. Sound + 소리가 나다 says that a sound happened: 밖에서 쾅 소리가 났어요, 배에서 꼬르륵 소리가 났어요 'my stomach rumbled'. 나다 is the verb for sounds and smells coming up; 소리가 있었어요 is English thinking and sounds foreign.",
+          "Two frames turn any sound into a sentence. Sound + 하고 quotes it, like English 'went': 딩동 하고 초인종이 울렸어요. Sound + 소리가 나다 says that a sound happened: 밖에서 쾅 소리가 났어요, 배에서 꼬르륵 소리가 났어요 'my stomach rumbled'. 나다 is the verb for sounds and smells coming up; *소리가 있었어요 is English thinking.",
         ],
         examples: [
           { es: "동생이 밤새 콜록콜록 기침을 했어요.", en: "My brother coughed all night." },
@@ -239,7 +239,7 @@ export const KO_B1_U20: Lesson[] = [
         body: [
           "Besides sound words, Korean has 의태어: words for things that make no sound at all, such as light, shape and movement. 반짝반짝 is twinkling or sparkling (반짝반짝 작은 별 is 'Twinkle, Twinkle, Little Star'), 빙글빙글 is going round and round, 흔들흔들 is swaying or wobbling, 데굴데굴 is rolling, and 펄럭펄럭 is flapping in the wind.",
           "English packs the picture into the verb: twinkle, wobble, roll, flap. Korean often keeps a plain verb and puts the picture in the mimetic word just before it: 반짝반짝 빛나요 'shines, twinkle-twinkle', 데굴데굴 굴러가요 'rolls along'. The doubled form shows the movement repeating. Some mimetics also take 하다 directly: 이가 흔들흔들해요 'my tooth is wobbly'.",
-          "Mimetics are adverbs, so they normally take no particle, and one per sentence is usually enough: adult Korean that piles three of them together starts to sound like a picture book.",
+          "Mimetics are adverbs, so they never take a particle, and one per sentence is usually enough: adult Korean that piles three of them together starts to sound like a picture book.",
         ],
         examples: [
           { es: "밤하늘에 별이 반짝반짝 빛나요.", en: "Stars are twinkling in the night sky." },

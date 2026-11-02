@@ -19,7 +19,7 @@ export const PT_C2_U24: Lesson[] = [
           "Structures matter as much as words. The English -ing becomes an infinitive or a noun ('Reducing costs is vital' → \"Reduzir custos é vital\"). Phrasal verbs become a single verb (\"set up\" → \"criar\", \"montar\"). Noun stacks unfold from right to left with \"de\": 'customer service team leader' is \"líder da equipe de atendimento ao cliente\". English agentless passives often read better with \"se\" or an active verb.",
         ],
         examples: [
-          { es: "A empresa pretende abrir duas lojas em Manaus no ano que vem.", en: "The company intends to open two stores in Manaus next year." },
+          { es: "A empresa pretende abrir duas lojas em Manaus no ano que vem.", en: "The company intends to open two shops in Manaus next year." },
           { es: "Eventualmente o voo atrasa, mas raramente é cancelado.", en: "The flight is occasionally delayed, but rarely canceled." },
           { es: "O estudo foi realizado com mil famílias do Recife.", en: "The study was carried out with a thousand families in Recife." },
           { es: "Reduzir o desperdício é a prioridade do novo gerente.", en: "Cutting waste is the new manager's priority." },
@@ -106,7 +106,7 @@ export const PT_C2_U24: Lesson[] = [
           { es: "Enquanto o relatório britânico defende mais impostos, o estudo da USP propõe cortar gastos.", en: "While the British report argues for higher taxes, the USP study proposes cutting spending." },
           { es: "Ambos os textos convergem em um ponto: o problema é urgente.", en: "Both texts agree on one point: the problem is urgent." },
           { es: "As fontes divergem quanto ao custo da obra.", en: "The sources differ on the cost of the project." },
-          { es: "O NHS, o sistema público de saúde britânico, foi criado em 1948.", en: "The NHS, the British public health system, was founded in 1948." },
+          { es: "O NHS, o sistema público de saúde britânico, atende 60 milhões de pessoas.", en: "The NHS, the British public health system, serves 60 million people." },
           { es: "A taxa caiu de 3,2% para 2,5% em 12 meses.", en: "The rate fell from 3.2% to 2.5% in 12 months." },
         ],
         checkpoint: [
@@ -1129,7 +1129,7 @@ export const PT_C2_U24: Lesson[] = [
         type: "speak",
         text: "Quando o ar está mais poluído, mais crianças vão parar no hospital com asma.",
         prompt: "Explain the study to a radio audience in Portuguese: When the air is more polluted, more children end up in the hospital with asthma.",
-        tip: "\"Poluído\" has four syllables: po-lu-Í-doo.",
+        tip: "\"Poluído\" has four syllables: po-lu-Í-do.",
         explanation: "The public register: active verbs and everyday words, the same claim as the expert's \"associação\".",
       },
       {
@@ -1643,7 +1643,7 @@ export const PT_C2_U24: Lesson[] = [
           "When a figure is wrong, he refutes the information, not the journalist: \"Essa informação não procede: foram 86 pacientes, não 120.\" When he doesn't know, he says so: \"Não tenho esse número agora; vou enviá-lo à imprensa até o fim do dia.\"",
         ],
         examples: [
-          { es: "Secretário, a prefeitura sabia das rachaduras desde o ano passado?", en: "Secretary, has city hall known about the cracks since last year?" },
+          { es: "Secretário, a prefeitura sabia das rachaduras desde o ano passado?", en: "Secretary, did city hall know about the cracks since last year?" },
           { es: "É verdade que um laudo de 2023 apontou fissuras, mas ele não indicava risco imediato.", en: "It's true a 2023 report noted cracks, but it didn't indicate any immediate risk." },
           { es: "Então o senhor está dizendo que não houve omissão?", en: "So you're saying there was no negligence?" },
           { es: "Estou dizendo que vamos apurar tudo, inclusive se algum alerta foi ignorado.", en: "I'm saying we'll investigate everything, including whether any warning was ignored." },
@@ -1672,7 +1672,7 @@ export const PT_C2_U24: Lesson[] = [
             type: "speak",
             text: "Agradeço a pergunta. Não tenho esse número agora, mas vou enviá-lo à imprensa até o fim do dia.",
             prompt: "Answer the journalist in Portuguese: Thank you for the question. I don't have that figure now, but I'll send it to the press by the end of the day.",
-            tip: "\"Enviá-lo\": stress the á, en-vi-Á-loo.",
+            tip: "\"Enviá-lo\": stress the á, en-vi-Á-lo.",
             explanation: "Admit what you don't know and commit to a time.",
           },
         ],
@@ -1798,7 +1798,7 @@ export const PT_C2_U24: Lesson[] = [
         type: "speak",
         text: "Boa tarde a todos. Ontem decidimos interditar o prédio principal do hospital.",
         prompt: "Open the press conference in Portuguese: Good afternoon, everyone. Yesterday we decided to close the hospital's main building.",
-        tip: "\"Interditar\": the d before i sounds like j, in-ter-jee-TAR.",
+        tip: "\"Interditar\": the t before i sounds like ch, in-ter-dji-TAR.",
         explanation: "Greeting, then the decision in the active voice.",
       },
       {
@@ -1936,7 +1936,7 @@ export const PT_C2_U24: Lesson[] = [
             type: "speak",
             text: "Não vamos antecipar conclusões. O importante agora é eliminar os criadouros do mosquito.",
             prompt: "Answer the reporter in Portuguese: We won't anticipate conclusions. What matters now is getting rid of the mosquito's breeding sites.",
-            tip: "\"Criadouros\": the ou is a closed o, cri-a-DÔ-roos.",
+            tip: "\"Criadouros\": the ou is a closed o, cri-a-DO-ros.",
             explanation: "Refuse to speculate, then bridge back to the key message.",
           },
         ],
@@ -2257,7 +2257,7 @@ export const PT_C2_U24: Lesson[] = [
 
 export const PT_C2_U24_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A fault at the water treatment plant has left 200,000 residents of a Brazilian city without tap water for two days. You work in the city hall's communications office. Prepare a short briefing pack: (1) an executive summary for the mayor that synthesizes three sources (the water company's technical report, a complaint from the hospitals' association, and this morning's press coverage); (2) a nota oficial for the public; (3) three talking points, plus a prepared answer to one hard question from journalists.",
+  prompt: "A fault at the water treatment plant has left 200,000 residents of a Brazilian city without tap water for two days. You work in the city hall's communications office. Prepare a short briefing pack: (1) an executive summary for the mayor that synthesises three sources (the water company's technical report, a complaint from the hospitals' association, and this morning's press coverage); (2) a nota oficial for the public; (3) three talking points, plus a prepared answer to one hard question from journalists.",
   minWords: 250,
   maxWords: 400,
   rubric: [

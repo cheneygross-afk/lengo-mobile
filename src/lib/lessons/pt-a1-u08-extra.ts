@@ -34,7 +34,7 @@ export const PT_A1_U08_EXTRA: Lesson[] = [
             source: "I like Brazil.",
             answer: "Gosto do Brasil.",
             altAnswers: ["Eu gosto do Brasil."],
-            explanation: "\"O Brasil\" takes an article, so \"de\" + \"o\" gives \"do\".",
+            explanation: "\"O Brasil\" takes an article, so \"de\" + \"o\" = \"do\".",
           },
           {
             type: "fill-blank",
@@ -79,7 +79,7 @@ export const PT_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "She likes the soap opera.",
         answer: "Ela gosta da novela.",
-        explanation: "A specific show: \"de\" + \"a\" gives \"da\".",
+        explanation: "A specific show: \"de\" + \"a\" = \"da\".",
       },
       {
         type: "translate",
@@ -115,7 +115,7 @@ export const PT_A1_U08_EXTRA: Lesson[] = [
         source: "Lucas likes my friends.",
         answer: "O Lucas gosta dos meus amigos.",
         altAnswers: ["Lucas gosta dos meus amigos."],
-        explanation: "\"De\" + \"os meus amigos\" gives \"dos meus amigos\".",
+        explanation: "\"De\" + \"os meus amigos\" = \"dos meus amigos\".",
       },
       {
         type: "fill-blank",
@@ -197,7 +197,7 @@ export const PT_A1_U08_EXTRA: Lesson[] = [
       {
         heading: "Right now or as a rule",
         body: [
-          "For what's happening now, \"estar\" + gerund: -ar becomes -ando, -er becomes -endo, -ir becomes -indo (\"falando\", \"comendo\", \"abrindo\"; \"fazendo\", \"indo\", \"lendo\"). Only \"estar\" changes: \"estou\", \"está\", \"estamos\", \"estão\". Brazil never says \"estou a falar\".",
+          "For what's happening now, \"estar\" + gerund: -ar → -ando, -er → -endo, -ir → -indo (\"falando\", \"comendo\", \"abrindo\"; \"fazendo\", \"indo\", \"lendo\"). Only \"estar\" changes: \"estou\", \"está\", \"estamos\", \"estão\". Brazil never says \"estou a falar\".",
           "Habits and facts take the simple present: \"trabalho em casa\", \"ela bebe café todo dia\". The progressive is for now or these days: \"hoje estou trabalhando no escritório\". Plans take \"ir\" + infinitive, not the progressive: \"vou trabalhar amanhã\".",
         ],
         examples: [
@@ -329,7 +329,7 @@ export const PT_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "What are you doing here, sir?",
         answer: "O que o senhor está fazendo aqui?",
-        altAnswers: ["O senhor está fazendo o quê aqui?"],
+        altAnswers: ["O senhor está fazendo o que aqui?"],
         explanation: "\"O senhor\" + \"está fazendo\".",
       },
       {
@@ -364,7 +364,7 @@ export const PT_A1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Agora eu estou estudando português.",
         prompt: "Say it in Portuguese: I'm studying Portuguese now.",
-        tip: "Say 'es-too-DÃ-doo': the d before a stays a clear d, and the final o sounds like 'oo'.",
+        tip: "Say 'ess-too-DAHN-doo': the d before a stays a clear d, and the final o sounds like oo.",
         explanation: "\"Agora\" with the progressive.",
       },
     ],
@@ -381,7 +381,7 @@ export const PT_A1_U08_EXTRA: Lesson[] = [
       {
         heading: "A gente and a day's routine",
         body: [
-          "\"A gente\" means we and takes the ele/ela form: \"a gente acorda\", \"a gente vai\", never \"a gente vamos\". \"Nós\" with -mos is the written and formal choice. Both use \"nosso\" or \"nossa\".",
+          "\"A gente\" means we and takes the ele/ela form: \"a gente acorda\", \"a gente vai\", never \"a gente vamos\". \"Nós\" with -mos is the written and formal choice. Both use \"nosso\" / \"nossa\".",
           "Routine chunks: \"eu acordo\", \"eu me levanto\" (\"você se levanta\"), \"tomo banho\", \"tomo café da manhã\", \"almoço\", \"janto\", \"durmo\" (\"ele dorme\"). Frequency words go before the verb (\"sempre\", \"às vezes\", \"nunca\"), \"todo dia\" at the end. Times take \"às\", noon \"ao meio-dia\".",
         ],
         examples: [

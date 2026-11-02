@@ -284,10 +284,10 @@ export const DE_B2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'She says that she is tired.' in reported speech?",
+            question: "Which sentence is correct?",
             options: ["Sie sagt, dass sie müde sei.", "Sie sagt, dass sie sei müde.", "Sie sagt, sie müde sei.", "Sie sagt, dass sie müde ist sei."],
             correctIndex: 0,
-            explanation: "\"Dass\" sends the verb to the end: \"dass sie müde sei\". \"*Sie sagt, sie müde sei*\" drops \"dass\" but keeps the verb last; without \"dass\" it must be \"sie sei müde\".",
+            explanation: "With \"dass\" the verb goes to the end; without \"dass\" it's in position 2.",
           },
         ],
       },
@@ -1163,10 +1163,10 @@ export const DE_B2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'If I'd been in your shoes, I would have left.'?",
+        question: "Which answer is correct?",
         options: ["An deiner Stelle wäre ich gegangen.", "An deiner Stelle hätte ich gegangen.", "An deiner Stelle würde ich gegangen.", "An deiner Stelle ich wäre gegangen."],
         correctIndex: 0,
-        explanation: "\"Gehen\" takes sein (\"wäre gegangen\"), and the verb comes straight after the opening phrase \"An deiner Stelle\". \"*hätte ich gegangen*\" uses the wrong auxiliary.",
+        explanation: "\"Gehen\" takes sein; the verb follows \"An deiner Stelle\".",
       },
       {
         type: "word-order",

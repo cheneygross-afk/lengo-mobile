@@ -710,7 +710,7 @@ export const PT_A1_U06: Lesson[] = [
         examples: [
           { es: "A escola tem quinhentos alunos.", en: "The school has five hundred students." },
           { es: "Duzentas pessoas estão na festa.", en: "Two hundred people are at the party." },
-          { es: "O teatro tem setecentas cadeiras.", en: "The theater has seven hundred seats." },
+          { es: "O teatro tem setecentas cadeiras.", en: "The theatre has seven hundred seats." },
           { es: "O livro tem oitocentas e duas páginas.", en: "The book has eight hundred and two pages." },
           { es: "A passagem para Manaus custa seiscentos reais.", en: "The ticket to Manaus costs six hundred reais." },
           { es: "O aluguel custa novecentos reais.", en: "The rent is nine hundred reais." },
@@ -726,7 +726,7 @@ export const PT_A1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You tell a friend the theater in Recife has 500 seats (cadeiras). What do you say?",
+            question: "You tell a friend the theatre in Recife has 500 seats (cadeiras). What do you say?",
             options: [
               "O teatro tem quinhentas cadeiras.",
               "O teatro tem quinhentos cadeiras.",
@@ -1304,7 +1304,7 @@ export const PT_A1_U06: Lesson[] = [
         type: "speak",
         text: "Eu trabalho nos sábados.",
         prompt: "Say it in Portuguese: I work on Saturdays.",
-        tip: "Stress the first syllable of sábado: 'SAH-bah-doos', with the final o sounding like u.",
+        tip: "Stress the first syllable of sábado: SÁ-ba-dos, with the final o sounding like u.",
         explanation: "\"Nos sábados\": the plural turns a single day into a habit.",
       },
       {
@@ -1448,7 +1448,7 @@ export const PT_A1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Posso marcar uma consulta para sexta-feira?",
-            tip: "The x in sexta sounds like an s (like sh in Rio). Stress the middle of consulta: 'kõ-SOOW-tah'.",
+            tip: "The x in sexta sounds like an s (like sh in Rio). Stress con-SUL-ta.",
             explanation: "\"Posso marcar\": poder + infinitive for a polite request. \"Para sexta-feira\" is for Friday.",
           },
         ],
@@ -1541,7 +1541,7 @@ export const PT_A1_U06: Lesson[] = [
         type: "speak",
         text: "A que horas sai o próximo ônibus?",
         prompt: "Say it in Portuguese: What time does the next bus leave?",
-        tip: "Make the ô in ônibus closed, and stress the first syllable: 'Ô-nee-boos'.",
+        tip: "Make the ô in ônibus closed, and stress the first syllable: Ô-ni-bus.",
         explanation: "\"A que horas sai\" + \"o próximo ônibus\". \"Próximo\" (next) comes before the noun.",
       },
       {
@@ -1652,7 +1652,7 @@ export const PT_A1_U06: Lesson[] = [
         heading: "Quando? Days and dates",
         body: [
           "For dates, say \"dia\" + number + \"de\" + month: \"dia 7 de setembro\". Months and days are written in lowercase. A day takes \"no\" or \"na\" (\"no sábado\", \"na segunda-feira\"); a month takes \"em\" (\"em março\").",
-          "\"Quando\" asks for the day or date; for an exact hour, ask \"a que horas\". Answer with the verb from the question: \"Quando você vai?\" gets \"Vou na sexta.\"",
+          "\"Quando\" asks for the day or date; for an exact hour, ask \"a que horas\". Answer with the verb from the question: \"Quando você vai?\" → \"Vou na sexta.\"",
         ],
         examples: [
           { es: "Quando é o seu aniversário?", en: "When is your birthday?" },
@@ -1684,7 +1684,7 @@ export const PT_A1_U06: Lesson[] = [
             en: "Carnival is [in] February.",
             sentence: "O Carnaval é ___ fevereiro.",
             answer: "em",
-            explanation: "Months take \"em\" with no article: \"em fevereiro\". Days take \"no\" or \"na\".",
+            explanation: "Months take \"em\" with no article: \"em fevereiro\". Days take \"no\" / \"na\".",
           },
         ],
       },

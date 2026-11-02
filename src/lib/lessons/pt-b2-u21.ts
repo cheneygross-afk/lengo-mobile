@@ -54,11 +54,11 @@ export const PT_B2_U21: Lesson[] = [
         ],
         examples: [
           { es: "A obra tinha sido prometida em 2022, mas nunca começou.", en: "The work had been promised in 2022, but it never started." },
-          { es: "Os moradores não tinham sido avisados sobre o corte de água.", en: "The residents hadn't been warned about the water outage." },
+          { es: "Os moradores não tinham sido avisados sobre o corte de água.", en: "The residents hadn't been warned about the water cut." },
           { es: "O metrô de Salvador tem sido muito elogiado pelos turistas.", en: "Salvador's subway has been getting a lot of praise from tourists." },
           { es: "O projeto de lei foi aprovado.", en: "The bill has been approved." },
           { es: "Segundo os engenheiros, o desabamento teria sido causado pela chuva.", en: "According to the engineers, the collapse was reportedly caused by the rain." },
-          { es: "As provas já haviam sido corrigidas quando o erro foi descoberto.", en: "The tests had already been graded when the mistake was discovered." },
+          { es: "As provas já haviam sido corrigidas quando o erro foi descoberto.", en: "The tests had already been marked when the mistake was discovered." },
         ],
         checkpoint: [
           {
@@ -113,7 +113,7 @@ export const PT_B2_U21: Lesson[] = [
           {
             type: "speak",
             text: "A dívida já tinha sido paga.",
-            tip: "Run \"tinha sido\" together: CHEE-nha-SI-doo. The final o of \"sido\" sounds like oo.",
+            tip: "Run \"tinha sido\" together: TI-nha-SI-du. The final o of \"sido\" sounds like u.",
             explanation: "Pluperfect passive with the short participle \"paga\", agreeing with \"a dívida\".",
           },
         ],
@@ -394,7 +394,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "speak",
         text: "Se a barragem tivesse sido inspecionada, o acidente teria sido evitado.",
         prompt: "Say it in Portuguese: If the dam had been inspected, the accident would have been avoided.",
-        tip: "Pause slightly at the comma, and keep \"sido\" light both times: SI-doo.",
+        tip: "Pause slightly at the comma, and keep \"sido\" light both times: SI-du.",
         explanation: "\"Tivesse sido\" + participle in the if-clause, \"teria sido\" + participle in the result.",
       },
     ],
@@ -421,7 +421,7 @@ export const PT_B2_U21: Lesson[] = [
           { es: "O contrato precisa ser revisado por um advogado.", en: "The contract needs to be checked by a lawyer." },
           { es: "As inscrições têm que ser feitas pelo site.", en: "Registration has to be done through the website." },
           { es: "Esses remédios não podem ser vendidos sem receita.", en: "These medicines can't be sold without a prescription." },
-          { es: "O pacote deve ser entregue amanhã de manhã.", en: "The package should be delivered tomorrow morning." },
+          { es: "O pacote deve ser entregue amanhã de manhã.", en: "The parcel should be delivered tomorrow morning." },
         ],
         checkpoint: [
           {
@@ -469,7 +469,7 @@ export const PT_B2_U21: Lesson[] = [
           {
             type: "multiple-choice",
             question: "What does 'A estrada está sendo asfaltada' mean?",
-            options: ["The road is being paved.", "The road has already been paved.", "The road will be paved.", "The road was paved long ago."],
+            options: ["The road is being surfaced.", "The road has been surfaced.", "The road will be surfaced.", "The road was surfaced long ago."],
             correctIndex: 0,
             explanation: "\"Está sendo\" + participle: the work is in progress now. A finished result would be \"está asfaltada\".",
           },
@@ -508,7 +508,7 @@ export const PT_B2_U21: Lesson[] = [
           {
             type: "speak",
             text: "Vou transferir a sua ligação.",
-            tip: "The final r of \"transferir\" is usually dropped in relaxed speech: trans-fe-RI.",
+            tip: "Keep the r of \"transferir\" soft or drop it, as many Brazilians do: transfe-RI.",
             explanation: "The plain \"ir\" + infinitive, without the call-center \"vou estar transferindo\".",
           },
         ],
@@ -594,7 +594,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "speak",
         text: "O contrato precisa ser revisado por um advogado.",
         prompt: "Say it in Portuguese: The contract needs to be checked by a lawyer.",
-        tip: "\"Advogado\": many Brazilians add a tiny vowel after the d, a-jee-vo-GA-doo.",
+        tip: "\"Advogado\": many Brazilians add a tiny vowel after the d, a-di-vo-GA-du.",
         explanation: "\"Precisa ser\" + participle, with no \"de\".",
       },
     ],
@@ -654,7 +654,7 @@ export const PT_B2_U21: Lesson[] = [
           { es: "Ficou combinado que cada um leva um prato.", en: "We agreed that everyone would bring a dish." },
           { es: "Ficou provado que o réu mentiu ao juiz.", en: "It was proven that the defendant lied to the judge." },
           { es: "O problema do vazamento já ficou resolvido.", en: "The leak problem has been fixed." },
-          { es: "Então fica combinado: oito horas na porta do cinema.", en: "So it's settled: eight o'clock outside the movie theater." },
+          { es: "Então fica combinado: oito horas na porta do cinema.", en: "So it's settled: eight o'clock at the cinema entrance." },
           { es: "Ficou acertado que a empresa vai pagar as despesas.", en: "It was agreed that the company will pay the expenses." },
         ],
         checkpoint: [
@@ -788,7 +788,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "speak",
         text: "O jantar ficou pronto às oito.",
         prompt: "Say it in Portuguese: Dinner was ready at eight.",
-        tip: "\"Pronto\" has a nasal first vowel: PRÕN-too.",
+        tip: "\"Pronto\" has a nasal first vowel: PRÕN-tu.",
         explanation: "\"Ficou pronto\": the result of the cooking, at a point in time.",
       },
     ],
@@ -807,7 +807,7 @@ export const PT_B2_U21: Lesson[] = [
         body: [
           "You met \"aluga-se\" and \"vende-se\" on signs at B1. In the written norm this \"se\" makes a passive: \"vendem-se casas\" means houses are sold, so \"casas\" is the grammatical subject and the verb must agree with it. One house: \"vende-se casa\". Several: \"vendem-se casas\", \"alugam-se salas\", \"consertam-se celulares\".",
           "The order is usually verb first, then the noun, which is exactly why people miss the agreement: the plural comes after the verb, where English speakers and Brazilians alike expect an object. In a formal text, look past the \"se\" and ask: is the noun after it what is being sold, rented or fixed? If so, it's the subject, and plural noun means plural verb.",
-          "The Unit 9 rules for pronoun position still apply: \"não se aceitam cheques\", \"os produtos que se vendem aqui\". After a trigger the \"se\" moves before the verb, but the agreement stays.",
+          "The Unit 5 rules for pronoun position still apply: \"não se aceitam cheques\", \"os produtos que se vendem aqui\". After a trigger the \"se\" moves before the verb, but the agreement stays.",
         ],
         examples: [
           { es: "Alugam-se salas comerciais no centro.", en: "Office rooms for rent in the city center." },
@@ -892,7 +892,7 @@ export const PT_B2_U21: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You're writing an ad for the company website. Which version follows the written norm?",
+            question: "You're writing an ad for the company website. Which version is correct?",
             options: ["Oferecem-se vagas para estagiários.", "Oferece-se vagas para estagiários.", "Oferecem-se vaga para estagiários.", "Oferece vagas pra estagiário."],
             correctIndex: 0,
             explanation: "\"Vagas\" is the subject of the se passivo: \"oferecem-se vagas\". The last option is spoken style.",
@@ -900,7 +900,7 @@ export const PT_B2_U21: Lesson[] = [
           {
             type: "speak",
             text: "Alugam-se apartamentos mobiliados.",
-            tip: "\"Alugam-se\" sounds like a-LU-gãw-see: the -am is a nasal diphthong.",
+            tip: "\"Alugam-se\" sounds like a-LU-gãw-si: the -am is a nasal diphthong.",
             explanation: "Plural se passivo: \"alugam-se\" agrees with \"apartamentos\".",
           },
         ],
@@ -1032,12 +1032,12 @@ export const PT_B2_U21: Lesson[] = [
       {
         heading: "He was born, it was stolen: verbs that stay active",
         body: [
-          "Some English passives are just active verbs in Portuguese. \"Ele nasceu em 1990\" (he was born): \"nascer\" is an ordinary verb. \"Ela se formou em Direito\" (she graduated), \"o show se chama...\" (the show is called), \"o filme se passa em Manaus\" (the movie is set in Manaus).",
+          "Some English passives are just active verbs in Portuguese. \"Ele nasceu em 1990\" (he was born): \"nascer\" is an ordinary verb. \"Ela se formou em Direito\" (she graduated), \"o show se chama...\" (the show is called), \"o filme se passa em Manaus\" (the film is set in Manaus).",
           "For everyday incidents, speech prefers the active with an unnamed they: \"roubaram meu celular\" (my phone was stolen), \"cancelaram o voo\" (the flight was canceled), \"me mandaram embora\" (I was fired). \"Meu celular foi roubado\" is correct and sounds more like a police report. The impersonal \"dizem que\" or \"diz-se que\" covers it is said that.",
         ],
         examples: [
           { es: "Meu avô nasceu em Manaus em 1948.", en: "My grandfather was born in Manaus in 1948." },
-          { es: "O filme se passa no interior da Bahia.", en: "The movie is set in the interior of Bahia." },
+          { es: "O filme se passa no interior da Bahia.", en: "The film is set in the interior of Bahia." },
           { es: "Roubaram meu celular no ônibus.", en: "My phone was stolen on the bus." },
           { es: "Cancelaram o voo por causa da neblina.", en: "The flight was canceled because of the fog." },
           { es: "Dizem que o restaurante vai fechar.", en: "It's said that the restaurant is going to close." },
@@ -1088,7 +1088,7 @@ export const PT_B2_U21: Lesson[] = [
             type: "speak",
             text: "Cortei o cabelo ontem.",
             prompt: "Say it in Portuguese: I got my hair cut yesterday.",
-            tip: "\"Cabelo\" with a clear l and a closed e: ca-BÊ-loo.",
+            tip: "\"Cabelo\" with a clear l: ca-BE-lu.",
             explanation: "When it's obvious a professional did it, the plain active is enough: \"cortei o cabelo\".",
           },
         ],
@@ -1174,7 +1174,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "speak",
         text: "Fui informado de que o prazo terminou.",
         prompt: "Say it in Portuguese (formal, as a man): I was informed that the deadline had passed.",
-        tip: "\"Informado de que\": the \"de\" sounds like \"jee\" before the next word.",
+        tip: "\"Informado de que\": the \"de\" sounds like dji before the next word.",
         explanation: "\"Informar\" takes the person as direct object, so \"fui informado\" is a correct passive, unlike \"*fui dito\".",
       },
     ],
@@ -1371,7 +1371,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "speak",
         text: "Os moradores não tinham sido avisados.",
         prompt: "Say it in Portuguese: The residents hadn't been warned.",
-        tip: "\"Avisados\": the s between vowels sounds like z, a-vi-ZA-doos.",
+        tip: "\"Avisados\": the s between vowels sounds like z, a-vi-ZA-dus.",
         explanation: "Negative pluperfect passive, the background of the story.",
       },
     ],
@@ -1762,7 +1762,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "speak",
         text: "O seu pedido foi aceito.",
         prompt: "Say it in Portuguese: Your application has been accepted.",
-        tip: "\"Aceito\": a-SEI-too, with the stress on the ei.",
+        tip: "\"Aceito\": a-SEI-tu, with the stress on the ei.",
         explanation: "The short participle \"aceito\" with \"ser\".",
       },
     ],
@@ -1866,7 +1866,7 @@ export const PT_B2_U21: Lesson[] = [
             type: "speak",
             text: "Vendem-se casas aqui.",
             prompt: "Say the written se version of: Casas são vendidas aqui.",
-            tip: "\"Vendem-se\": VEN-dẽy-see, the -em is nasal.",
+            tip: "\"Vendem-se\": VEN-dẽy-si, the -em is nasal.",
             explanation: "The se passivo agrees with \"casas\".",
           },
         ],
@@ -1893,7 +1893,7 @@ export const PT_B2_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "They asked for the forms [to be filled out] by hand.",
+        en: "They asked for the forms [to be filled in] by hand.",
         sentence: "Pediram que os formulários ___ à mão.",
         answer: "fossem preenchidos",
         explanation: "Past trigger → imperfect subjunctive passive: \"fossem preenchidos\".",
@@ -2011,7 +2011,7 @@ export const PT_B2_U21: Lesson[] = [
           { es: "Recomenda-se chegar ao ponto com dez minutos de antecedência.", en: "Passengers are advised to arrive at the stop ten minutes early." },
           { es: "Solicita-se aos passageiros que verifiquem os novos horários.", en: "Passengers are asked to check the new schedules." },
           { es: "Pedimos desculpas pelo transtorno.", en: "We apologize for the inconvenience." },
-          { es: "Mais informações podem ser obtidas pelo telefone 0800 123 4567.", en: "More information is available at 0800 123 4567." },
+          { es: "Mais informações podem ser obtidas pelo telefone 0800 123 4567.", en: "More information is available on 0800 123 4567." },
         ],
         checkpoint: [
           {
@@ -2044,7 +2044,7 @@ export const PT_B2_U21: Lesson[] = [
         ],
         examples: [
           { es: "As linhas 210 e 340 foram reorganizadas para reduzir o tempo de espera.", en: "Routes 210 and 340 have been reorganized to reduce waiting times." },
-          { es: "A partir de segunda-feira, a linha 210 deixará de passar pela Avenida Beira-Mar.", en: "Starting Monday, route 210 will no longer run along Avenida Beira-Mar." },
+          { es: "A partir de segunda-feira, a linha 210 deixará de passar pela Avenida Beira-Mar.", en: "From Monday, route 210 will no longer run along Avenida Beira-Mar." },
           { es: "Ficou definido, em acordo com a prefeitura, que haverá um ônibus extra nos horários de pico.", en: "It has been agreed with the city hall that there will be an extra bus at peak times." },
         ],
         checkpoint: [
@@ -2166,7 +2166,7 @@ export const PT_B2_U21: Lesson[] = [
       {
         heading: "Lhe foi entregue: pronouns in the passive",
         body: [
-          "Indirect object pronouns sit next to the auxiliary \"ser\" by the Unit 9 rules. After a trigger, before it: \"não lhe foi dada nenhuma explicação\", \"os documentos que lhe foram enviados\". At the start of a formal sentence, after it: \"Foi-lhe concedido o visto\". After a plain subject, Brazilian writing prefers it before: \"o prêmio lhe foi entregue pelo ministro\".",
+          "Indirect object pronouns sit next to the auxiliary \"ser\" by the Unit 5 rules. After a trigger, before it: \"não lhe foi dada nenhuma explicação\", \"os documentos que lhe foram enviados\". At the start of a formal sentence, after it: \"Foi-lhe concedido o visto\". After a plain subject, Brazilian writing prefers it before: \"o prêmio lhe foi entregue pelo ministro\".",
         ],
         examples: [
           { es: "Não lhe foi dada nenhuma explicação.", en: "He wasn't given any explanation." },
@@ -2369,6 +2369,6 @@ export const PT_B2_U21_WRITING: WriteExercise = {
     "Uses \"ficar\" + participle for an outcome: \"ficou decidido que\", \"ficou combinado que\".",
     "Uses the se passivo with agreement or the se indeterminado correctly: \"realizam-se vistorias\", \"trata-se de\".",
   ],
-  modelAnswer: "Ponte da Rua Sete é reaberta após anos de atraso\n\nA ponte da Rua Sete, que tinha sido prometida para 2022, foi reaberta ontem à tarde pelo prefeito, em uma cerimônia acompanhada por centenas de moradores. A estrutura antiga havia sido interditada depois das enchentes de 2021, e desde então os moradores do bairro eram obrigados a dar uma volta de quase dois quilômetros.\n\nSegundo a Secretaria de Obras, a demora foi causada por problemas no contrato com a primeira empreiteira. Trata-se, de acordo com o secretário, da maior obra viária da cidade nos últimos dez anos.\n\nA ponte está liberada para pedestres e carros, mas a iluminação ainda está sendo avaliada por técnicos e deve ser entregue até o fim do mês. Na reunião com a associação de moradores, ficou combinado que os ônibus voltarão a circular pela ponte na próxima segunda-feira. Também ficou decidido que se realizarão vistorias mensais durante o primeiro ano.\n\nA calçada do lado norte será concluída em dezembro.",
+  modelAnswer: "Ponte da Rua Sete é reaberta após três anos de atraso\n\nA ponte da Rua Sete, que tinha sido prometida para 2022, foi reaberta ontem à tarde pelo prefeito, em uma cerimônia acompanhada por centenas de moradores. A estrutura antiga havia sido interditada depois das enchentes de 2021, e desde então os moradores do bairro eram obrigados a dar uma volta de quase dois quilômetros.\n\nSegundo a Secretaria de Obras, a demora foi causada por problemas no contrato com a primeira empreiteira. Trata-se, de acordo com o secretário, da maior obra viária da cidade nos últimos dez anos.\n\nA ponte está liberada para pedestres e carros, mas a iluminação ainda está sendo avaliada por técnicos e deve ser entregue até o fim do mês. Na reunião com a associação de moradores, ficou combinado que os ônibus voltarão a circular pela ponte na próxima segunda-feira. Também ficou decidido que se realizarão vistorias mensais durante o primeiro ano.\n\nA calçada do lado norte será concluída em dezembro.",
   explanation: "The ser passive works in every tense: \"tinha sido prometida\" (pluperfect), \"foi reaberta\" (perfeito), \"eram obrigados\" (past habit), \"será concluída\" (future), with \"sido\" invariable and the last participle agreeing with the subject. \"Está sendo avaliada\" describes an ongoing process, and \"deve ser entregue\" puts the passive after a modal. \"Ficou combinado que\" and \"ficou decidido que\" report what a meeting settled. \"Se realizarão vistorias\" is the se passivo, plural to agree with \"vistorias\", while \"trata-se de\" is the se indeterminado that never goes plural.",
 };

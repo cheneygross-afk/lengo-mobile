@@ -215,7 +215,7 @@ export const PT_C1_U15_EXTRA: Lesson[] = [
             source: "Can I pay in ten installments?",
             answer: "Posso parcelar em dez vezes?",
             altAnswers: ["Posso parcelar em 10 vezes?", "Posso pagar em dez vezes?", "Dá para parcelar em dez vezes?", "Dá pra parcelar em dez vezes?", "Posso dividir em dez vezes?"],
-            explanation: "\"Parcelar em dez vezes\" is the standard phrase at the register.",
+            explanation: "\"Parcelar em dez vezes\" is the standard phrase at the till.",
           },
           {
             type: "fill-blank",
@@ -358,7 +358,7 @@ export const PT_C1_U15_EXTRA: Lesson[] = [
         type: "speak",
         text: "Se pagar à vista, a senhora tem dez por cento de desconto.",
         prompt: "Say it in Portuguese to an older customer: If you pay in full, you get a ten percent discount.",
-        tip: "Link à vista into one word: a-VIS-ta. Desconto: the s sounds like an s, des-CON-too.",
+        tip: "Link à vista into one word: a-VIS-ta. Desconto: the s sounds like an s, des-CON-to.",
         explanation: "\"À vista\" is paying in full, and \"a senhora\" is the polite you for an older woman.",
       },
     ],
@@ -539,7 +539,7 @@ export const PT_C1_U15_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "O desemprego recuou pelo terceiro mês consecutivo.",
-        tip: "Recuou has three vowels in a row: re-cu-OU. Consecutivo: con-se-coo-CHEE-voo, with ti like chee.",
+        tip: "Recuou has three vowels in a row: re-cu-OU. Consecutivo: con-se-cu-TI-vo, with ti like chi.",
         explanation: "\"Pelo terceiro mês consecutivo\" counts a streak.",
       },
     ],

@@ -112,7 +112,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "No sábado eu fiz faxina na casa toda.",
-            tip: "\"Faxina\": the x is like English sh: 'fa-SHEE-na'.",
+            tip: "\"Faxina\": the x is like English sh, fa-SHEE-na.",
             explanation: "\"Fazer faxina\" in the perfeito: \"fiz faxina\".",
           },
         ],
@@ -192,7 +192,7 @@ export const PT_A2_U16: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "o fogão", right: "the stove" },
-          { left: "o armário", right: "the cabinet" },
+          { left: "o armário", right: "the cupboard" },
           { left: "a estante", right: "the bookcase" },
           { left: "a varanda", right: "the balcony" },
           { left: "a geladeira", right: "the fridge" },
@@ -208,7 +208,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "speak",
         text: "Quem vai lavar a louça hoje?",
         prompt: "Say it in Portuguese: Who's going to do the dishes today?",
-        tip: "\"Louça\": the ou is a closed o: 'LÔ-sa'.",
+        tip: "\"Louça\": the ou is a closed o, LO-sa.",
         explanation: "\"Ir\" + infinitive for the plan, and the chunk \"lavar a louça\".",
       },
     ],
@@ -321,7 +321,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Semana que vem eu vou ter três reuniões.",
-            tip: "\"Reuniões\": stress on the last syllable, with a nasal õe: 'heh-oo-nee-ÕYS'.",
+            tip: "\"Reuniões\": re-u-ni-ÕES, with a nasal õe.",
             explanation: "\"Vou ter\" for the plan; \"reunião\" makes its plural in -ões.",
           },
         ],
@@ -413,7 +413,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "speak",
         text: "Às sextas eu trabalho de casa.",
         prompt: "Say it in Portuguese: On Fridays I work from home.",
-        tip: "\"Trabalho\": the lh is like the lli in million: 'tra-BA-lyoo'.",
+        tip: "\"Trabalho\": the lh is like the lli in million, tra-BA-lyu.",
         explanation: "\"Trabalhar de casa\" is to work from home; in speech you'll also hear the borrowed \"fazer home office\".",
       },
     ],
@@ -430,7 +430,7 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Faz calor, está chovendo",
         body: [
-          "Weather has three verbs. \"Fazer\" for heat and cold: \"faz calor\", \"faz frio\", \"fez 38 graus\" (it was 38 degrees Celsius, about 100 °F). \"Estar\" for the state right now: \"está chovendo\", \"está nublado\" (cloudy), \"está ensolarado\" (sunny). \"Ter\" turns up in speech: \"tem sol hoje?\" (is it sunny today?).",
+          "Weather has three verbs. \"Fazer\" for heat and cold: \"faz calor\", \"faz frio\", \"fez 38 graus\" (it was 38 degrees). \"Estar\" for the state right now: \"está chovendo\", \"está nublado\" (cloudy), \"está ensolarado\" (sunny). \"Ter\" turns up in speech: \"tem sol hoje?\" (is it sunny today?).",
           "In the past, the usual tense rule applies: \"ontem choveu muito\" reports a fact, \"estava chovendo quando eu saí\" sets the scene. \"Está calor\" is also heard in speech, alongside \"faz calor\".",
         ],
         examples: [
@@ -525,7 +525,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Em julho faz frio em Curitiba.",
-            tip: "\"Julho\": the j as in measure, the lh like the lli in million: 'ZHOO-lyoo'.",
+            tip: "\"Julho\": the lh is like the lli in million.",
             explanation: "\"Fazer frio\" for cold, in the present for a general fact.",
           },
         ],
@@ -557,7 +557,7 @@ export const PT_A2_U16: Lesson[] = [
         source: "The sky is cloudy.",
         answer: "O céu está nublado.",
         altAnswers: ["O tempo está nublado.", "Está nublado."],
-        explanation: "Cloudy right now is a passing state, so \"estar\": \"está nublado\", not *é nublado.",
+        explanation: "Cloudy right now: \"estar nublado\".",
       },
       {
         type: "translate",
@@ -565,7 +565,7 @@ export const PT_A2_U16: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "I don't think it's going to be cold.",
         answer: "Acho que não vai fazer frio.",
-        altAnswers: ["Eu acho que não vai fazer frio."],
+        altAnswers: ["Eu acho que não vai fazer frio.", "Não acho que vai fazer frio."],
         explanation: "Portuguese puts the \"não\" in the second half: \"acho que não vai\".",
       },
       {
@@ -618,7 +618,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "speak",
         text: "Acho que vai chover amanhã.",
         prompt: "Say it in Portuguese: I think it's going to rain tomorrow.",
-        tip: "\"Chover\": the ch is English sh: 'sho-VEHR'.",
+        tip: "\"Chover\": the ch is English sh.",
         explanation: "\"Acho que\" + \"vai\" + infinitive for a prediction.",
       },
     ],
@@ -723,7 +723,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Eu te ligo depois.",
-            tip: "\"Ligo\": the g is hard, as in go: 'LEE-goo'.",
+            tip: "\"Ligo\": the g is hard, as in go.",
             explanation: "\"Ligar\" (to call); \"te\" before the verb, the Brazilian way.",
           },
         ],
@@ -781,7 +781,7 @@ export const PT_A2_U16: Lesson[] = [
         en: "I [downloaded] a new app.",
         sentence: "Eu ___ um aplicativo novo.",
         answer: "baixei",
-        explanation: "\"Baixar\" is to download, with the eu perfeito \"baixei\". \"Descer\" is to go down a staircase, not to download.",
+        explanation: "\"Baixar\" is to download: \"baixei\".",
       },
       {
         type: "fill-blank",
@@ -823,7 +823,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "speak",
         text: "Qual é a senha do wi-fi?",
         prompt: "Say it in Portuguese: What's the wi-fi password?",
-        tip: "Brazilians say wi-fi much as English does, written \"uai-fai\": 'wai-FAI'.",
+        tip: "Brazilians say wi-fi as \"uai-fai\".",
         explanation: "\"A senha\" (password) with \"qual\".",
       },
     ],
@@ -847,8 +847,8 @@ export const PT_A2_U16: Lesson[] = [
           { es: "Aos domingos a gente joga bola na praia.", en: "On Sundays we play soccer on the beach." },
           { es: "Para que time você torce?", en: "Which team do you support?" },
           { es: "Eu torço para o Bahia.", en: "I support Bahia." },
-          { es: "O Flamengo ganhou de três a um.", en: "Flamengo won three to one." },
-          { es: "O jogo empatou no final.", en: "The game ended in a tie." },
+          { es: "O Flamengo ganhou de três a um.", en: "Flamengo won three-one." },
+          { es: "O jogo empatou no final.", en: "The match ended in a draw." },
         ],
         checkpoint: [
           {
@@ -862,10 +862,10 @@ export const PT_A2_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your team tied 1-1 yesterday. What do you say?",
+            question: "Your team drew 1-1 yesterday. What do you say?",
             options: ["O meu time empatou ontem.", "O meu time perdeu ontem.", "O meu time ganhou ontem.", "O meu time jogou bola empatado."],
             correctIndex: 0,
-            explanation: "\"Empatar\" is to tie: \"empatou\". \"Perdeu\" would be lost and \"ganhou\" won.",
+            explanation: "\"Empatar\" is to draw: \"empatou\".",
           },
         ],
       },
@@ -878,7 +878,7 @@ export const PT_A2_U16: Lesson[] = [
         examples: [
           { es: "Eu malho na academia três vezes por semana.", en: "I work out at the gym three times a week." },
           { es: "Ela corre no parque todo sábado.", en: "She runs in the park every Saturday." },
-          { es: "No domingo a gente andou de bicicleta na orla.", en: "On Sunday we rode our bikes along the waterfront." },
+          { es: "No domingo a gente andou de bicicleta na orla.", en: "On Sunday we rode our bikes along the seafront." },
           { es: "Ontem eu assisti a uma série ótima.", en: "Yesterday I watched a great series." },
           { es: "Na sexta vou sair com os amigos.", en: "On Friday I'm going out with my friends." },
         ],
@@ -895,7 +895,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "On Sunday we [rode our bikes] along the waterfront.",
+            en: "On Sunday we [rode our bikes] along the seafront.",
             sentence: "No domingo a gente ___ na orla.",
             answer: "andou de bicicleta",
             altAnswers: ["pedalou"],
@@ -936,7 +936,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Ela tocava piano quando era criança.",
-            tip: "\"Tocava\": stress on the middle syllable: 'to-KA-va'.",
+            tip: "\"Tocava\": stress on -ca-, to-CA-va.",
             explanation: "\"Tocar\" for instruments, imperfeito for a childhood habit.",
           },
         ],
@@ -991,7 +991,7 @@ export const PT_A2_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Flamengo [won] three to one.",
+        en: "Flamengo [won] three-one.",
         sentence: "O Flamengo ___ de três a um.",
         answer: "ganhou",
         altAnswers: ["venceu"],
@@ -1029,7 +1029,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "speak",
         text: "Eu malho na academia três vezes por semana.",
         prompt: "Say it in Portuguese: I work out at the gym three times a week.",
-        tip: "\"Malho\": the lh is like the lli in million: 'MA-lyoo'.",
+        tip: "\"Malho\": the lh is like the lli in million.",
         explanation: "\"Malhar\" (to work out) and \"a academia\" (gym).",
       },
     ],
@@ -1140,7 +1140,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Ela é mais engraçada do que o irmão.",
-            tip: "\"Engraçada\": the ç is an s sound: 'ẽ-gra-SA-da'.",
+            tip: "\"Engraçada\": the ç is an s sound, en-gra-SA-da.",
             explanation: "\"Mais\" + adjective + \"do que\". The adjective agrees: \"engraçada\".",
           },
         ],
@@ -1172,7 +1172,7 @@ export const PT_A2_U16: Lesson[] = [
         source: "Your boyfriend is really nice.",
         answer: "O seu namorado é muito simpático.",
         altAnswers: ["Seu namorado é muito simpático.", "O seu namorado é super simpático.", "O seu namorado é muito legal.", "Seu namorado é muito legal."],
-        explanation: "\"Simpático\" = nice, friendly, and \"legal\" works too. It never means sympathetic.",
+        explanation: "\"Simpático\" = nice, friendly.",
       },
       {
         type: "translate",
@@ -1237,7 +1237,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "speak",
         text: "A minha melhor amiga é muito engraçada.",
         prompt: "Say it in Portuguese (about a female friend): My best friend is really funny.",
-        tip: "\"Melhor\": open ó and a soft final r: 'me-LYÓR'.",
+        tip: "\"Melhor\": the final r is soft.",
         explanation: "\"Melhor amiga\" and the feminine \"engraçada\".",
       },
     ],
@@ -1323,7 +1323,7 @@ export const PT_A2_U16: Lesson[] = [
           { es: "Eu peguei o ônibus no ponto da esquina.", en: "I caught the bus at the stop on the corner." },
           { es: "Desci no ponto errado.", en: "I got off at the wrong stop." },
           { es: "A estação de metrô fica perto da praça.", en: "The metro station is near the square." },
-          { es: "Na hora do rush, o trânsito é horrível.", en: "At rush hour, the traffic is awful." },
+          { es: "Na hora do rush, o trânsito é horrível.", en: "In the rush hour, the traffic is awful." },
           { es: "Vou a pé, é mais rápido.", en: "I'll walk, it's faster." },
         ],
         checkpoint: [
@@ -1348,7 +1348,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Na hora do rush, o trânsito é horrível.",
-            tip: "\"Rush\" is said the Brazilian way, with a throaty h-like r: 'HUSH'.",
+            tip: "\"Rush\" is said the Brazilian way, with a throaty h-like r: HUSH.",
             explanation: "\"A hora do rush\" is a borrowed phrase; \"o trânsito\" is the traffic.",
           },
         ],
@@ -1441,7 +1441,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "speak",
         text: "Eu peguei o ônibus e desci no centro.",
         prompt: "Say it in Portuguese: I took the bus and got off downtown.",
-        tip: "\"Ônibus\": stress on the first syllable: 'Ô-nee-boos'.",
+        tip: "\"Ônibus\": stress on the first syllable, Ô-ni-bus.",
         explanation: "\"Pegar\" the bus, \"descer\" from it.",
       },
     ],
@@ -1554,7 +1554,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Dá para ir a pé.",
-            tip: "In speech \"dá para\" shrinks to \"dá pra\": 'DA pra eer a PÉ'.",
+            tip: "In speech: \"dá pra ir a pé\".",
             explanation: "\"Dá para\" + infinitive = it's possible.",
           },
         ],
@@ -1654,7 +1654,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "speak",
         text: "Deixei a chave em casa.",
         prompt: "Say it in Portuguese: I left the key at home.",
-        tip: "\"Deixei\": the x sounds like sh: 'day-SHAY'.",
+        tip: "\"Deixei\": the x sounds like sh, dei-SHEI.",
         explanation: "\"Deixar\" for leaving an object somewhere.",
       },
     ],
@@ -1671,7 +1671,7 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Puxar, pretender, esquisito",
         body: [
-          "Some Portuguese words look English and lie. \"Puxar\" (say 'poo-SHAR') means to pull, and \"empurrar\" means to push: on doors you'll read \"PUXE\" and \"EMPURRE\". English speakers see puxe and push, and walk into the glass.",
+          "Some Portuguese words look English and lie. \"Puxar\" (say POO-shar) means to pull, and \"empurrar\" means to push: on doors you'll read \"PUXE\" and \"EMPURRE\". English speakers see puxe and push, and walk into the glass.",
           "\"Pretender\" means to intend, to plan: \"pretendo viajar em julho\" (I intend to travel in July); to pretend is \"fingir\". \"Esquisito\" means weird, strange, never exquisite: \"que cheiro esquisito!\" (what a weird smell!).",
         ],
         examples: [
@@ -1767,7 +1767,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Atualmente eu moro em Curitiba.",
-            tip: "\"Atualmente\": the final te is 'chee': 'a-too-aw-MẼ-chee'.",
+            tip: "\"Atualmente\": a-tu-al-MEN-chee.",
             explanation: "\"Atualmente\" = currently, nowadays.",
           },
         ],
@@ -1866,14 +1866,14 @@ export const PT_A2_U16: Lesson[] = [
       {
         type: "dictation",
         audio: "Eu pretendo viajar em julho.",
-        explanation: "\"Pretendo\" = I intend: \"pretender\" is a false friend for pretend, which is \"fingir\".",
+        explanation: "\"Pretendo\" = I intend.",
       },
       {
         type: "speak",
         text: "Você tem que puxar a porta.",
         prompt: "Say it in Portuguese: You have to pull the door.",
-        tip: "\"Puxar\": the x like sh, stress on the end: 'poo-SHAR'.",
-        explanation: "\"Puxar\" = to pull, despite looking like push; push is \"empurrar\".",
+        tip: "\"Puxar\": POO-shar, the x like sh.",
+        explanation: "\"Puxar\" = to pull.",
       },
     ],
   },
@@ -1905,7 +1905,7 @@ export const PT_A2_U16: Lesson[] = [
             question: "You're at home and phone a friend who's coming over. How do you ask them to bring bread?",
             options: ["Você pode trazer pão?", "Você pode levar pão?", "Você pode pegar pão para lá?", "Você pode perguntar pão?"],
             correctIndex: 0,
-            explanation: "The bread comes toward you, the speaker, so \"trazer\". \"Levar\" would mean taking it away from you.",
+            explanation: "Toward you, the speaker: \"trazer\".",
           },
           {
             type: "translate",
@@ -1979,12 +1979,12 @@ export const PT_A2_U16: Lesson[] = [
             source: "Do you know the restaurant's address?",
             answer: "Você sabe o endereço do restaurante?",
             altAnswers: ["Sabe o endereço do restaurante?", "O senhor sabe o endereço do restaurante?", "A senhora sabe o endereço do restaurante?", "Vocês sabem o endereço do restaurante?"],
-            explanation: "An address is a fact, so \"saber\". \"Conhecer\" is for people and places you are familiar with.",
+            explanation: "An address is a fact: \"saber\".",
           },
           {
             type: "speak",
             text: "Você conhece Salvador?",
-            tip: "\"Conhece\": the nh like ny, open é: 'ko-NYÉ-see'.",
+            tip: "\"Conhece\": co-NHE-ce, the nh like ny.",
             explanation: "Being familiar with a place: \"conhecer\".",
           },
         ],
@@ -2007,7 +2007,7 @@ export const PT_A2_U16: Lesson[] = [
         source: "Can you bring the charger tomorrow?",
         answer: "Você pode trazer o carregador amanhã?",
         altAnswers: ["Pode trazer o carregador amanhã?", "Você traz o carregador amanhã?", "O senhor pode trazer o carregador amanhã?", "A senhora pode trazer o carregador amanhã?", "Vocês podem trazer o carregador amanhã?"],
-        explanation: "The charger comes to where you will be, so \"trazer\". \"Levar\" would send it away from you.",
+        explanation: "To where you'll be: \"trazer\".",
       },
       {
         type: "translate",
@@ -2062,7 +2062,7 @@ export const PT_A2_U16: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is right?",
-        options: ["Eu conheci o Rio no ano passado.", "Eu soube o Rio no ano passado.", "Eu conheço nadar.", "Eu sei a Ana há anos."],
+        options: ["Eu conheci o Rio em 2020.", "Eu soube o Rio em 2020.", "Eu conheço nadar.", "Eu sei a Ana há anos."],
         correctIndex: 0,
         explanation: "Places and people take \"conhecer\" (\"conheci o Rio\" = I visited Rio for the first time); facts and skills take \"saber\": \"sei nadar\", and \"conheço a Ana\".",
       },
@@ -2087,7 +2087,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "speak",
         text: "Vou levar um vinho para a festa.",
         prompt: "Say it in Portuguese: I'm going to take a bottle of wine to the party.",
-        tip: "\"Vinho\": the nh like ny in canyon: 'VEE-nyoo'.",
+        tip: "\"Vinho\": the nh like ny in canyon.",
         explanation: "\"Levar\" for taking something away from where you are.",
       },
     ],
@@ -2186,7 +2186,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Desculpa, a minha bateria acabou.",
-            tip: "\"Bateria\": stress on -ri-: 'ba-te-REE-a'.",
+            tip: "\"Bateria\": stress on -ri-, ba-te-RI-a.",
             explanation: "\"A bateria acabou\": the battery died.",
           },
         ],
@@ -2209,7 +2209,7 @@ export const PT_A2_U16: Lesson[] = [
         source: "I had three meetings today.",
         answer: "Tive três reuniões hoje.",
         altAnswers: ["Eu tive três reuniões hoje.", "Hoje eu tive três reuniões.", "Hoje tive três reuniões."],
-        explanation: "\"A reunião\" makes its plural in -ões: \"as reuniões\", not *reuniãos.",
+        explanation: "\"A reunião\" → \"as reuniões\".",
       },
       {
         type: "translate",
@@ -2392,7 +2392,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Eu deixei eles na escola às sete.",
-            tip: "\"Deixei\": the x like sh: 'day-SHAY'.",
+            tip: "\"Deixei\": dei-SHEI.",
             explanation: "\"Deixar\" = to drop someone off; \"eles\" as an object in speech.",
           },
         ],

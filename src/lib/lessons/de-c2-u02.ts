@@ -195,10 +195,10 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'Notice of termination must be given in writing.'?",
+        question: "Which sentence is grammatically correct?",
         options: ["Die Kündigung bedarf der Schriftform.", "Die Kündigung bedarf die Schriftform.", "Die Kündigung bedarf mit Schriftform.", "Die Kündigung bedürft der Schriftform."],
         correctIndex: 0,
-        explanation: "\"Bedürfen\" + genitive (\"der Schriftform\"); third person singular \"bedarf\" (like \"darf\"). \"*bedarf die Schriftform*\" uses the accusative.",
+        explanation: "\"Bedürfen\" + genitive; third person singular \"bedarf\" (like \"darf\").",
       },
       {
         type: "listen-choose",
@@ -422,7 +422,7 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'Should the goods be damaged, the buyer is entitled to return them.'?",
+        question: "Which sentence has correct word order?",
         options: ["Sollte die Ware beschädigt sein, so ist der Käufer berechtigt, sie zurückzugeben.", "Sollte die Ware beschädigt sein, so der Käufer ist berechtigt, sie zurückzugeben.", "Sollte die Ware beschädigt sein, der Käufer ist berechtigt, sie zurückzugeben.", "Die Ware sollte beschädigt sein, so ist der Käufer berechtigt, sie zurückzugeben."],
         correctIndex: 0,
         explanation: "After a verb-first condition, \"so\" takes position 1 and the verb (\"ist\") follows immediately; the subject comes after it.",
@@ -648,10 +648,10 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'in accordance with the tenancy agreement' in standard German?",
+        question: "Which phrase is correct standard German?",
         options: ["gemäß dem Mietvertrag", "gemäß des Mietvertrags", "gemäß den Mietvertrag", "gemäß der Mietvertrag"],
         correctIndex: 0,
-        explanation: "\"Gemäß\" governs the dative: \"dem Mietvertrag\". \"*gemäß des Mietvertrags*\" is common in officialese but counts as an error.",
+        explanation: "\"Gemäß\" governs the dative: \"dem Mietvertrag\".",
       },
       {
         type: "dictation",
@@ -712,7 +712,7 @@ export const DE_C2_U02: Lesson[] = [
         body: [
           "\"Kündigen\" ends a continuing contract for the future, usually with notice: a job, a flat, a gym membership, a phone contract, an insurance policy. \"Ich habe meinen Handyvertrag gekündigt.\" The person can also be the object, in the passive or with the dative: \"Ihm wurde gekündigt\" (he was dismissed/given notice). \"Fristlos kündigen\" means without notice, for serious cause.",
           "\"Widerrufen\" revokes a declaration. For consumers it is a specific right: most contracts concluded online or at the door can be revoked within 14 days without giving reasons (\"das Widerrufsrecht\"). \"Ich widerrufe hiermit den von mir abgeschlossenen Vertrag über ...\". One also revokes a power of attorney (\"eine Vollmacht widerrufen\") or a statement (\"eine Aussage widerrufen\").",
-          "Trap: \"kündigen\" never means cancelling an appointment or an event. You \"einen Termin absagen\", \"eine Bestellung / Buchung stornieren\" (cancel an order or booking), and an event \"fällt aus\" or \"wird abgesagt\". \"*Ich habe das Meeting gekündigt*\" makes a German colleague smile.",
+          "Trap: \"kündigen\" never means cancelling an appointment or an event. You \"sagen einen Termin ab\", \"stornieren eine Bestellung / Buchung\" (cancel an order or booking), and an event \"fällt aus\" or \"wird abgesagt\". \"*Ich habe das Meeting gekündigt*\" makes a German colleague smile.",
         ],
         examples: [
           { es: "Ich habe meine Wohnung zum 31. März gekündigt.", en: "I've given notice on my flat for 31 March." },
@@ -1302,7 +1302,7 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'The contracts certified by the notary are available.'?",
+        question: "Which sentence is correct?",
         options: ["Die vom Notar beurkundeten Verträge liegen vor.", "Die vom Notar beurkundete Verträge liegen vor.", "Die beurkundeten vom Notar Verträge liegen vor.", "Die Verträge vom Notar beurkundeten liegen vor."],
         correctIndex: 0,
         explanation: "Plural after \"die\": -en on the participle, which stands right before the noun; \"vom Notar\" goes in front of it.",
@@ -1803,10 +1803,10 @@ export const DE_C2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you write 'plus shipping costs' (with the article)?",
+            question: "Which phrase is correct?",
             options: ["zuzüglich der Versandkosten", "zuzüglich die Versandkosten", "zuzüglich den Versandkosten", "zuzüglich mit Versandkosten"],
             correctIndex: 0,
-            explanation: "\"Zuzüglich\" + genitive: \"der Versandkosten\". \"*zuzüglich den Versandkosten*\" uses the dative, which is only accepted when the genitive isn't visible (\"zuzüglich Versandkosten\").",
+            explanation: "\"Zuzüglich\" + genitive: \"der Versandkosten\".",
           },
         ],
       },
@@ -2612,7 +2612,7 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'She voiced criticism of the plan.'?",
+        question: "Which sentence is grammatically correct?",
         options: ["Sie äußerte Kritik an dem Plan.", "Sie äußerte, Kritik an dem Plan.", "Sie äußerte sich Kritik an dem Plan.", "Sie äußerte an dem Plan."],
         correctIndex: 0,
         explanation: "\"Kritik an etwas äußern\": \"äußern\" + noun. The reflexive form needs \"zu\": \"sich zu dem Plan äußern\".",

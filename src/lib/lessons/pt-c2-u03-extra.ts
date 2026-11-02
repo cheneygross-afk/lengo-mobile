@@ -206,7 +206,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
             en: "I [let you down]; I'm sorry.",
             sentence: "Eu ___ com você; desculpa.",
             answer: "pisei na bola",
-            explanation: "\"Pisar na bola com alguém\" means to let someone down; the person you failed takes \"com\". It comes from tripping over the ball on the field.",
+            explanation: "\"Pisar na bola com alguém\" means to let someone down; the person you failed takes \"com\". It comes from tripping over the ball on the pitch.",
           },
           {
             type: "listen-choose",
@@ -313,7 +313,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu ponho a mão no fogo por ela.",
         prompt: "Say it in Portuguese: I'd vouch for her completely.",
-        tip: "Fogo: FÔ-goo, closed o.",
+        tip: "Fogo: FO-gu, closed o.",
         explanation: "\"Pôr a mão no fogo por alguém\" is to vouch for them; \"ponho\" is the eu form of \"pôr\". Keep the o in \"fogo\" closed.",
       },
       {
@@ -417,7 +417,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
             type: "speak",
             text: "Quem trabalha no feriado merece folga em dobro. Tô certo ou tô errado?",
             prompt: "Deliver this line with mock authority.",
-            tip: "Slow down and lean on the two \"tô\": TÔ SÉR-too oh TÔ e-HA-doo?",
+            tip: "Slow down and lean on the two \"tô\": TÔ CER-to ou TÔ er-RA-do?",
             explanation: "Sinhozinho Malta's catchphrase from \"Roque Santeiro\" closes an argument half-jokingly.",
           },
         ],
@@ -520,8 +520,8 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese, using the Legião Urbana line.",
         source: "Two hours to renew a document? What kind of country is this?",
         answer: "Duas horas para renovar um documento? Que país é esse?",
-        altAnswers: ["Duas horas pra renovar um documento? Que país é esse?"],
-        explanation: "\"Que país é esse?\" voices exasperation at any absurdity. Keep \"esse\" as Legião Urbana sings it; \"este\" is grammatical but no longer quotes the song.",
+        altAnswers: ["Duas horas pra renovar um documento? Que país é esse?", "Duas horas para renovar um documento? Que país é este?"],
+        explanation: "\"Que país é esse?\" voices exasperation at any absurdity.",
       },
       {
         type: "dictation",
@@ -690,7 +690,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
         en: "The store only put in cameras after the robbery. After the house is broken into, [an iron bolt].",
         sentence: "A loja só instalou câmeras depois do assalto. Depois da casa arrombada, ___.",
         answer: "tranca de ferro",
-        explanation: "It mocks precautions taken too late, like closing the barn door after the horse is out.",
+        explanation: "It mocks precautions taken too late, like shutting the stable door after the horse has bolted.",
       },
       {
         type: "fill-blank",
@@ -767,8 +767,8 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Não adianta chorar sobre o leite derramado.",
-        prompt: "Say it in Portuguese: There's no use crying over spilled milk.",
-        tip: "In \"derramado\" the double rr is the throaty h-like sound: de-ha-MA-doo.",
+        prompt: "Say it in Portuguese: There's no use crying over spilt milk.",
+        tip: "In \"derramado\" the double rr is the throaty h-like sound: de-ha-MA-do.",
         explanation: "For a recent mistake someone is still moping over.",
       },
     ],

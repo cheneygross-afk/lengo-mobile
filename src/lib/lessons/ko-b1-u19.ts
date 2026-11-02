@@ -42,7 +42,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I gave the documents to the department head.",
             answer: "부장님께 서류를 드렸어요.",
-            altAnswers: ["부장님께 서류 드렸어요.", "부장님한테 서류를 드렸어요.", "부장님한테 서류 드렸어요.", "제가 부장님께 서류를 드렸어요."],
+            altAnswers: ["부장님께 서류 드렸어요.", "부장님한테 서류를 드렸어요.", "부장님한테 서류 드렸어요.", "제가 부장님께 서류를 드렸어요.", "부장님께 서류를 드렸습니다."],
             explanation: "The receiver is your superior, so 주다 becomes 드리다 and 에게 becomes 께. *부장님한테 서류를 줬어요 treats the boss like a friend.",
           },
           {
@@ -85,7 +85,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I'll ask the teacher.",
             answer: "선생님께 여쭤볼게요.",
-            altAnswers: ["선생님한테 여쭤볼게요.", "제가 선생님께 여쭤볼게요."],
+            altAnswers: ["선생님한테 여쭤볼게요.", "제가 선생님께 여쭤볼게요.", "선생님께 여쭤보겠습니다.", "선생님께 여쭙겠습니다."],
             explanation: "You are asking upward, so 물어보다 becomes 여쭤보다, and the teacher takes 께. -(으)ㄹ게요 promises the listener you'll do it.",
           },
           {
@@ -111,7 +111,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I told the team leader yesterday.",
         answer: "어제 팀장님께 말씀드렸어요.",
-        altAnswers: ["팀장님께 어제 말씀드렸어요.", "어제 팀장님한테 말씀드렸어요.", "제가 어제 팀장님께 말씀드렸어요."],
+        altAnswers: ["팀장님께 어제 말씀드렸어요.", "어제 팀장님한테 말씀드렸어요.", "제가 어제 팀장님께 말씀드렸어요.", "어제 팀장님께 말씀드렸습니다."],
         explanation: "Telling a superior is 말씀드리다, and the person told takes 께.",
       },
       {
@@ -120,7 +120,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite, to a senior).",
         source: "May I ask you something?",
         answer: "하나 여쭤봐도 될까요?",
-        altAnswers: ["뭐 하나 여쭤봐도 될까요?", "좀 여쭤봐도 될까요?", "뭐 좀 여쭤봐도 될까요?", "하나 여쭤봐도 돼요?", "여쭤봐도 될까요?", "한 가지 여쭤봐도 될까요?"],
+        altAnswers: ["뭐 하나 여쭤봐도 될까요?", "좀 여쭤봐도 될까요?", "뭐 좀 여쭤봐도 될까요?", "하나 여쭤봐도 돼요?", "하나 여쭤봐도 되겠습니까?", "여쭤봐도 될까요?", "한 가지 여쭤봐도 될까요?"],
         explanation: "여쭤보다 + -아도 될까요? asks permission to ask, lowering yourself before the senior.",
       },
       {
@@ -158,7 +158,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "The team leader talked about the new project.",
         answer: "팀장님이 새 프로젝트에 대해 말씀하셨어요.",
-        altAnswers: ["팀장님께서 새 프로젝트에 대해 말씀하셨어요.", "팀장님이 새 프로젝트에 대해서 말씀하셨어요.", "팀장님께서 새 프로젝트에 대해서 말씀하셨어요."],
+        altAnswers: ["팀장님께서 새 프로젝트에 대해 말씀하셨어요.", "팀장님이 새 프로젝트에 대해서 말씀하셨어요.", "팀장님께서 새 프로젝트에 대해서 말씀하셨어요.", "팀장님이 새 프로젝트에 대해 말씀하셨습니다."],
         explanation: "The team leader is speaking, so raise him: 말씀하셨어요. 말씀드렸어요 here is the classic slip.",
       },
       {
@@ -184,7 +184,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'll tell the team leader.",
         answer: "팀장님께 말씀드릴게요.",
-        altAnswers: ["제가 팀장님께 말씀드릴게요.", "팀장님한테 말씀드릴게요."],
+        altAnswers: ["제가 팀장님께 말씀드릴게요.", "팀장님한테 말씀드릴게요.", "팀장님께 말씀드리겠습니다."],
         explanation: "말씀드리다 + -(으)ㄹ게요: a promise to the listener about your own humble action.",
       },
       {
@@ -242,7 +242,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I met the CEO for the first time last week.",
             answer: "지난주에 사장님을 처음 뵀어요.",
-            altAnswers: ["지난주에 처음 사장님을 뵀어요.", "지난주에 사장님을 처음 뵈었어요.", "지난주에 처음 사장님을 뵈었어요."],
+            altAnswers: ["지난주에 처음 사장님을 뵀어요.", "지난주에 사장님을 처음 뵈었어요.", "지난주에 처음 사장님을 뵈었어요.", "지난주에 사장님을 처음 뵀습니다.", "지난주에 사장님을 처음 뵈었습니다."],
             explanation: "Meeting a superior is 뵈다; its past 뵈었어요 shortens to 뵀어요.",
           },
           {
@@ -274,7 +274,7 @@ export const KO_B1_U19: Lesson[] = [
             source: "I took my grandmother to the hospital.",
             answer: "할머니를 모시고 병원에 갔어요.",
             altAnswers: ["할머니 모시고 병원에 갔어요.", "제가 할머니를 모시고 병원에 갔어요.", "할머니를 모시고 병원에 다녀왔어요.", "할머니를 병원에 모시고 갔어요.", "할머니를 병원에 모셨어요."],
-            explanation: "Taking a senior somewhere is 모시고 가다. 할머니를 데리고 갔어요 is grammatical but wrong for an elder: it sounds as if she were a child.",
+            explanation: "Taking a senior somewhere is 모시고 가다. *할머니를 데리고 갔어요 sounds as if she were a child.",
           },
           {
             type: "multiple-choice",
@@ -304,7 +304,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite, to a client).",
             source: "Our company is in Gangnam.",
             answer: "저희 회사는 강남에 있어요.",
-            altAnswers: ["저희 회사가 강남에 있어요."],
+            altAnswers: ["저희 회사는 강남에 있습니다.", "저희 회사가 강남에 있어요.", "저희 회사가 강남에 있습니다."],
             explanation: "Speaking to an outsider, especially a client, you lower your side: 저희 회사.",
           },
           {
@@ -326,8 +326,8 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite, to your team leader).",
         source: "See you tomorrow.",
         answer: "내일 봬요.",
-        altAnswers: ["팀장님, 내일 봬요.", "내일 뵐게요.", "팀장님, 내일 뵐게요."],
-        explanation: "Seeing a superior is 뵈다: 뵈어요 → 봬요. 내일 봐요 is fine with a peer but too flat for a boss.",
+        altAnswers: ["팀장님, 내일 봬요.", "내일 뵙겠습니다.", "팀장님, 내일 뵙겠습니다.", "내일 뵐게요.", "팀장님, 내일 뵐게요."],
+        explanation: "Seeing a superior is 뵈다: 뵈어요 → 봬요. *내일 봐요 is fine with a peer but too flat for a boss.",
       },
       {
         type: "translate",
@@ -391,7 +391,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite, to a senior).",
         source: "I'll take you to the airport.",
         answer: "제가 공항까지 모셔다 드릴게요.",
-        altAnswers: ["공항까지 모셔다 드릴게요.", "제가 공항까지 모셔 드릴게요.", "공항까지 모셔 드릴게요."],
+        altAnswers: ["공항까지 모셔다 드릴게요.", "제가 공항까지 모셔다 드리겠습니다.", "공항까지 모셔다 드리겠습니다.", "제가 공항까지 모셔 드릴게요.", "공항까지 모셔 드릴게요."],
         explanation: "모셔다 드리다: take a senior somewhere and leave them there, as a favour.",
       },
       {
@@ -400,7 +400,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'm going to see my professor this weekend.",
         answer: "이번 주말에 교수님을 뵈러 갈 거예요.",
-        altAnswers: ["주말에 교수님을 뵈러 갈 거예요.", "이번 주말에 교수님 뵈러 갈 거예요.", "이번 주말에 교수님을 뵈러 가요."],
+        altAnswers: ["주말에 교수님을 뵈러 갈 거예요.", "이번 주말에 교수님 뵈러 갈 거예요.", "이번 주말에 교수님을 뵈러 가요.", "이번 주말에 교수님을 뵈러 갑니다."],
         explanation: "-(으)러 is one of the endings that take 뵈: 뵈러, never *뵙러.",
       },
       {
@@ -519,7 +519,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I joined this company last year.",
             answer: "작년에 이 회사에 입사했어요.",
-            altAnswers: ["저는 작년에 이 회사에 입사했어요.", "작년에 이 회사에 들어왔어요.", "이 회사에 작년에 입사했어요."],
+            altAnswers: ["저는 작년에 이 회사에 입사했어요.", "작년에 이 회사에 들어왔어요.", "작년에 이 회사에 입사했습니다.", "이 회사에 작년에 입사했어요."],
             explanation: "입사하다 'join a company' takes 에: 회사에 입사했어요.",
           },
         ],
@@ -596,7 +596,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'm leaving the company this month.",
         answer: "이번 달에 퇴사해요.",
-        altAnswers: ["저는 이번 달에 퇴사해요.", "이번 달에 퇴사할 거예요.", "저 이번 달에 퇴사해요.", "이번 달에 회사를 그만둬요."],
+        altAnswers: ["저는 이번 달에 퇴사해요.", "이번 달에 퇴사합니다.", "이번 달에 퇴사할 거예요.", "저 이번 달에 퇴사해요.", "이번 달에 회사를 그만둬요."],
         explanation: "퇴사하다 'leave the company', no -시- because it's you.",
       },
       {
@@ -653,7 +653,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "The CEO has gone on a business trip.",
             answer: "사장님께서 출장을 가셨어요.",
-            altAnswers: ["사장님께서 출장 가셨어요.", "사장님께서는 출장을 가셨어요.", "사장님은 출장을 가셨어요.", "사장님은 출장 가셨어요.", "사장님이 출장을 가셨어요.", "사장님이 출장 가셨어요."],
+            altAnswers: ["사장님께서 출장 가셨어요.", "사장님께서는 출장을 가셨어요.", "사장님은 출장을 가셨어요.", "사장님은 출장 가셨어요.", "사장님이 출장을 가셨어요.", "사장님이 출장 가셨어요.", "사장님께서 출장을 가셨습니다."],
             explanation: "께서 raises the subject, and the verb must agree: 가셨어요. *사장님께서 출장을 갔어요 is the mismatch to avoid.",
           },
           {
@@ -662,7 +662,7 @@ export const KO_B1_U19: Lesson[] = [
             en: "(formal) The department head [will be back] tomorrow.",
             sentence: "부장님께서는 내일 ___.",
             answer: "돌아오십니다",
-            altAnswers: ["돌아오실 겁니다", "돌아오실 예정입니다", "들어오십니다"],
+            altAnswers: ["돌아오실 겁니다", "돌아오실 예정입니다", "돌아오세요", "들어오십니다"],
             explanation: "돌아오다 + -시- + -ㅂ니다: 돌아오십니다, agreeing with 께서는.",
           },
         ],
@@ -671,7 +671,7 @@ export const KO_B1_U19: Lesson[] = [
         heading: "계시다 or 있으시다?",
         body: [
           "있다 has two honorific forms because it has two meanings. When a superior is somewhere, use 계시다: 팀장님은 회의실에 계세요. When a superior has something, the thing is the subject, so only -으시- is added: 팀장님은 오늘 약속이 있으세요.",
-          "*약속이 계세요 honours the appointment. 회의실에 있으세요 is heard in casual speech, but a person's whereabouts take 계시다 in standard Korean. The negatives split the same way: 자리에 안 계세요 (not at their desk), 시간이 없으세요 (have no time).",
+          "*약속이 계세요 honours the appointment, and *회의실에 있으세요 sounds like 'they own a meeting room'. The negatives split the same way: 자리에 안 계세요 (not at their desk), 시간이 없으세요 (have no time).",
         ],
         examples: [
           { es: "팀장님은 지금 회의실에 계세요.", en: "The team leader is in the meeting room now." },
@@ -687,7 +687,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "The team leader is in the meeting room now.",
             answer: "팀장님은 지금 회의실에 계세요.",
-            altAnswers: ["팀장님께서는 지금 회의실에 계세요.", "팀장님은 회의실에 계세요.", "팀장님께서는 회의실에 계세요.", "지금 팀장님은 회의실에 계세요.", "팀장님 지금 회의실에 계세요."],
+            altAnswers: ["팀장님께서는 지금 회의실에 계세요.", "팀장님은 회의실에 계세요.", "팀장님께서는 회의실에 계세요.", "지금 팀장님은 회의실에 계세요.", "팀장님은 지금 회의실에 계십니다.", "팀장님 지금 회의실에 계세요."],
             explanation: "A superior being somewhere is 계시다: 계세요.",
           },
           {
@@ -726,8 +726,8 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite, to your boss).",
             source: "Did you sleep well at the hotel?",
             answer: "호텔에서 잘 주무셨어요?",
-            altAnswers: ["호텔에서 편히 주무셨어요?", "호텔에서 편안히 주무셨어요?"],
-            explanation: "자다 has its own honorific verb, 주무시다; 자셨어요 is heard but sounds under-polite to a superior.",
+            altAnswers: ["호텔에서 편히 주무셨어요?", "호텔에서 잘 주무셨습니까?", "호텔에서 편안히 주무셨어요?"],
+            explanation: "자다 has its own honorific verb, 주무시다; *자셨어요 is not used for a superior.",
           },
           {
             type: "fill-blank",
@@ -773,7 +773,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite, to the CEO).",
         source: "Do you have any questions, sir?",
         answer: "사장님, 혹시 질문 있으세요?",
-        altAnswers: ["사장님, 질문 있으세요?", "사장님, 혹시 질문이 있으세요?", "사장님, 질문이 있으세요?", "혹시 질문 있으세요?"],
+        altAnswers: ["사장님, 질문 있으세요?", "사장님, 혹시 질문이 있으세요?", "사장님, 질문이 있으세요?", "사장님, 혹시 질문 있으십니까?", "사장님, 질문 있으십니까?", "혹시 질문 있으세요?"],
         explanation: "The questions are what the CEO has: 있으세요, not *계세요.",
       },
       {
@@ -802,7 +802,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "May I have your name, please?",
         answer: "성함이 어떻게 되세요?",
-        altAnswers: ["실례지만 성함이 어떻게 되세요?", "고객님 성함이 어떻게 되세요?"],
+        altAnswers: ["성함이 어떻게 되십니까?", "실례지만 성함이 어떻게 되세요?", "실례지만 성함이 어떻게 되십니까?", "고객님 성함이 어떻게 되세요?"],
         explanation: "성함 is the honorific of 이름; asking with 어떻게 되세요 is softer than 뭐예요.",
       },
       {
@@ -861,7 +861,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (formal, as café staff).",
             source: "Your coffee is ready.",
             answer: "주문하신 커피 나왔습니다.",
-            altAnswers: ["주문하신 커피가 나왔습니다.", "커피 나왔습니다."],
+            altAnswers: ["주문하신 커피가 나왔습니다.", "커피 나왔습니다.", "주문하신 커피 나왔어요.", "커피 나왔어요.", "주문하신 커피가 나왔어요."],
             explanation: "The coffee is the subject, so no -시- on 나오다: 나왔습니다. 주문하신 keeps -시- because the customer did the ordering.",
           },
           {
@@ -909,7 +909,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite, to a customer).",
             source: "How would you like to pay?",
             answer: "결제는 어떻게 하시겠어요?",
-            altAnswers: ["계산은 어떻게 하시겠어요?", "어떻게 결제하시겠어요?"],
+            altAnswers: ["결제는 어떻게 하시겠습니까?", "계산은 어떻게 하시겠어요?", "계산은 어떻게 하시겠습니까?", "어떻게 결제하시겠어요?", "어떻게 결제하시겠습니까?"],
             explanation: "The customer pays, so -시- belongs on 하다: 하시겠어요.",
           },
         ],
@@ -976,7 +976,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite, to a customer).",
         source: "Do you need a different size?",
         answer: "다른 사이즈 필요하세요?",
-        altAnswers: ["고객님, 다른 사이즈 필요하세요?", "다른 사이즈가 필요하세요?", "고객님, 다른 사이즈가 필요하세요?", "손님, 다른 사이즈 필요하세요?"],
+        altAnswers: ["고객님, 다른 사이즈 필요하세요?", "다른 사이즈가 필요하세요?", "고객님, 다른 사이즈가 필요하세요?", "손님, 다른 사이즈 필요하세요?", "다른 사이즈 필요하십니까?"],
         explanation: "The customer needs it, so -시- is correct: 필요하세요.",
       },
       {
@@ -997,8 +997,8 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "Please wait a moment.",
         answer: "잠시만 기다려 주십시오.",
-        altAnswers: ["잠깐만 기다려 주십시오.", "잠시 기다려 주십시오."],
-        explanation: "기다리다 + -아 / 어 주십시오: the customer does the waiting, so -시- is right. 기다려 주세요 is polite 해요, not the formal style asked for.",
+        altAnswers: ["잠시만 기다려 주세요.", "잠깐만 기다려 주세요.", "잠깐만 기다려 주십시오.", "잠시 기다려 주십시오.", "잠시 기다려 주세요."],
+        explanation: "기다리다 + -아 / 어 주십시오: the customer does the waiting, so -시- is right.",
       },
       {
         type: "translate",
@@ -1084,7 +1084,7 @@ export const KO_B1_U19: Lesson[] = [
       {
         heading: "During the day: asking and requesting",
         body: [
-          "Interrupting a superior: 잠깐 여쭤봐도 될까요? Asking them to check something: noun + 부탁드립니다, as in 확인 부탁드립니다. Offering to do a task: 제가 하겠습니다 or 제가 준비하겠습니다. Telling a boss to do something with -(으)세요 (확인하세요) sounds like an order, however polite the ending.",
+          "Interrupting a superior: 잠깐 여쭤봐도 될까요? Asking them to check something: noun + 부탁드립니다, as in 확인 부탁드립니다. Offering to do a task: 제가 하겠습니다 or 제가 준비하겠습니다. Telling a boss to do something with -(으)세요 (*확인하세요) sounds like an order, however polite the ending.",
         ],
         examples: [
           { es: "과장님, 잠깐 여쭤봐도 될까요?", en: "Manager, may I ask you something quickly?" },
@@ -1099,7 +1099,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Manager, may I ask you something quickly?",
             answer: "과장님, 잠깐 여쭤봐도 될까요?",
-            altAnswers: ["과장님, 잠깐 여쭤봐도 돼요?", "과장님, 잠깐 뭐 좀 여쭤봐도 될까요?", "과장님, 잠시 여쭤봐도 될까요?", "과장님, 잠깐 하나 여쭤봐도 될까요?"],
+            altAnswers: ["과장님, 잠깐 여쭤봐도 돼요?", "과장님, 잠깐 뭐 좀 여쭤봐도 될까요?", "과장님, 잠깐 여쭤봐도 되겠습니까?", "과장님, 잠시 여쭤봐도 될까요?", "과장님, 잠깐 하나 여쭤봐도 될까요?"],
             explanation: "여쭤보다 + -아도 될까요?: asking permission to ask, humbly.",
           },
           {
@@ -1204,7 +1204,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "I'll prepare the materials for the meeting.",
         answer: "회의 자료는 제가 준비하겠습니다.",
-        altAnswers: ["제가 회의 자료를 준비하겠습니다.", "제가 회의 자료 준비하겠습니다.", "회의 자료를 준비하겠습니다."],
+        altAnswers: ["제가 회의 자료를 준비하겠습니다.", "제가 회의 자료 준비하겠습니다.", "회의 자료를 준비하겠습니다.", "회의 자료는 제가 준비할게요.", "제가 회의 자료를 준비할게요."],
         explanation: "제가 ... 하겠습니다: volunteering in 하십시오체.",
       },
       {
@@ -1239,7 +1239,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "Then I'll see you tomorrow.",
         answer: "그럼 내일 뵙겠습니다.",
-        altAnswers: ["그러면 내일 뵙겠습니다.", "내일 뵙겠습니다."],
+        altAnswers: ["그러면 내일 뵙겠습니다.", "내일 뵙겠습니다.", "그럼 내일 봬요."],
         explanation: "뵙겠습니다: the humble, formal 'see you'.",
       },
       {
@@ -1370,7 +1370,7 @@ export const KO_B1_U19: Lesson[] = [
         en: "(formal) [May I ask] one thing?",
         sentence: "한 가지 ___?",
         answer: "여쭤봐도 되겠습니까",
-        altAnswers: ["여쭤봐도 됩니까"],
+        altAnswers: ["여쭤봐도 될까요", "여쭤봐도 됩니까"],
         explanation: "여쭤보다 + -아도 되겠습니까?, the most formal way to ask permission.",
       },
       {
@@ -1388,7 +1388,7 @@ export const KO_B1_U19: Lesson[] = [
         en: "(formal) I'll [tell] you the schedule.",
         sentence: "일정을 ___.",
         answer: "말씀드리겠습니다",
-        altAnswers: ["알려 드리겠습니다"],
+        altAnswers: ["말씀드릴게요", "알려 드리겠습니다"],
         explanation: "You tell a superior: 말씀드리다.",
       },
       {
@@ -1406,6 +1406,7 @@ export const KO_B1_U19: Lesson[] = [
         en: "(formal) Let me [give] you my business card.",
         sentence: "제 명함을 ___.",
         answer: "드리겠습니다",
+        altAnswers: ["드릴게요"],
         explanation: "You give upward: 드리다.",
       },
       {
@@ -1530,7 +1531,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "May I ask you a question?",
         answer: "질문 하나 여쭤봐도 되겠습니까?",
-        altAnswers: ["하나 여쭤봐도 되겠습니까?", "한 가지 여쭤봐도 되겠습니까?", "질문 하나 드려도 되겠습니까?", "한 가지 여쭙겠습니다."],
+        altAnswers: ["하나 여쭤봐도 되겠습니까?", "질문 하나 여쭤봐도 될까요?", "하나 여쭤봐도 될까요?", "한 가지 여쭤봐도 되겠습니까?", "질문 하나 드려도 되겠습니까?", "질문 하나 드려도 될까요?"],
         explanation: "여쭤보다 + -아도 되겠습니까?",
       },
       {
@@ -1548,7 +1549,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "The professor is in her office.",
         answer: "교수님은 연구실에 계세요.",
-        altAnswers: ["교수님께서는 연구실에 계세요.", "교수님은 사무실에 계세요."],
+        altAnswers: ["교수님께서는 연구실에 계세요.", "교수님은 연구실에 계십니다.", "교수님은 사무실에 계세요.", "교수님께서는 연구실에 계십니다."],
         explanation: "계시다 for where a superior is; a professor's office is 연구실.",
       },
       {
@@ -1670,7 +1671,7 @@ export const KO_B1_U19: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I was praised by the team leader.",
             answer: "팀장님께 칭찬을 받았어요.",
-            altAnswers: ["팀장님한테 칭찬을 받았어요.", "팀장님께 칭찬 받았어요.", "팀장님한테 칭찬 받았어요.", "팀장님께서 칭찬해 주셨어요."],
+            altAnswers: ["팀장님한테 칭찬을 받았어요.", "팀장님께 칭찬 받았어요.", "팀장님한테 칭찬 받았어요.", "팀장님께 칭찬을 받았습니다.", "팀장님께서 칭찬해 주셨어요."],
             explanation: "You receive from a superior: 께 받았어요, no -시- on your own receiving.",
           },
         ],
@@ -1714,7 +1715,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "What the CEO said is right.",
         answer: "사장님 말씀이 맞습니다.",
-        altAnswers: ["사장님 말씀이 옳습니다.", "사장님께서 하신 말씀이 맞습니다.", "사장님께서 말씀하신 것이 맞습니다.", "사장님께서 말씀하신 게 맞습니다."],
+        altAnswers: ["사장님 말씀이 맞아요.", "사장님 말씀이 옳습니다.", "사장님께서 하신 말씀이 맞습니다.", "사장님께서 말씀하신 것이 맞습니다.", "사장님께서 말씀하신 게 맞습니다."],
         explanation: "사장님 말씀: the CEO's words, honorific 말씀.",
       },
       {
@@ -1741,7 +1742,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I gave the department head a present.",
         answer: "부장님께 선물을 드렸어요.",
-        altAnswers: ["제가 부장님께 선물을 드렸어요.", "부장님께 선물 드렸어요.", "부장님한테 선물을 드렸어요."],
+        altAnswers: ["제가 부장님께 선물을 드렸어요.", "부장님께 선물 드렸어요.", "부장님한테 선물을 드렸어요.", "부장님께 선물을 드렸습니다."],
         explanation: "From you to the boss: 께 드렸어요.",
       },
       {
@@ -1786,7 +1787,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "The department head received my report.",
         answer: "부장님이 제 보고서를 받으셨어요.",
-        altAnswers: ["부장님께서 제 보고서를 받으셨어요.", "부장님이 제 보고서 받으셨어요."],
+        altAnswers: ["부장님께서 제 보고서를 받으셨어요.", "부장님이 제 보고서 받으셨어요.", "부장님께서 제 보고서를 받으셨습니다."],
         explanation: "The superior receives: 받으셨어요. 제 보고서 stays humble.",
       },
       {
@@ -1954,7 +1955,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite, to a superior).",
         source: "Do you have a business trip to Busan on Thursday?",
         answer: "목요일에 부산 출장이 있으세요?",
-        altAnswers: ["목요일에 부산 출장 있으세요?", "목요일에 부산 출장이 있으시죠?", "목요일에 부산으로 출장 가세요?", "목요일에 부산 출장 가세요?"],
+        altAnswers: ["목요일에 부산 출장 있으세요?", "목요일에 부산 출장이 있으시죠?", "목요일에 부산으로 출장 가세요?", "목요일에 부산 출장 가세요?", "목요일에 부산 출장이 있으십니까?"],
         explanation: "The trip is something the superior has: 있으세요.",
       },
       {
@@ -1972,7 +1973,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "I look forward to working with you.",
         answer: "잘 부탁드립니다.",
-        altAnswers: ["앞으로 잘 부탁드립니다."],
+        altAnswers: ["앞으로 잘 부탁드립니다.", "잘 부탁드려요.", "앞으로 잘 부탁드려요."],
         explanation: "The set phrase that ends every first introduction at work.",
       },
       {
@@ -1996,7 +1997,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "We'll pay with the company card.",
         answer: "법인 카드로 결제하겠습니다.",
-        altAnswers: ["회사 카드로 결제하겠습니다.", "저희는 법인 카드로 결제하겠습니다."],
+        altAnswers: ["법인 카드로 결제할게요.", "회사 카드로 결제하겠습니다.", "저희는 법인 카드로 결제하겠습니다."],
         explanation: "결제하다 'pay', said [결쩨하다].",
       },
       {
@@ -2014,7 +2015,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I have a business trip next week.",
         answer: "다음 주에 출장이 있어요.",
-        altAnswers: ["다음 주에 출장 있어요.", "저는 다음 주에 출장이 있어요.", "다음 주에 출장 가요.", "다음 주에 출장을 가요."],
+        altAnswers: ["다음 주에 출장 있어요.", "저는 다음 주에 출장이 있어요.", "다음 주에 출장 가요.", "다음 주에 출장을 가요.", "다음 주에 출장이 있습니다."],
         explanation: "출장 [출짱]; 출장이 있다 or 출장을 가다.",
       },
       {
@@ -2023,7 +2024,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "The head of office is in a meeting now.",
         answer: "실장님은 지금 회의 중이세요.",
-        altAnswers: ["실장님께서는 지금 회의 중이세요.", "지금 실장님은 회의 중이세요.", "실장님은 회의 중이세요."],
+        altAnswers: ["실장님께서는 지금 회의 중이세요.", "실장님은 지금 회의 중이십니다.", "지금 실장님은 회의 중이세요.", "실장님은 회의 중이세요."],
         explanation: "중이세요: -시- on 이다 for the superior; 실장 is said [실짱].",
       },
       {
@@ -2150,7 +2151,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "Please check the attached file.",
         answer: "첨부 파일 확인 부탁드립니다.",
-        altAnswers: ["첨부 파일을 확인해 주십시오.", "첨부 파일 확인해 주시면 감사하겠습니다.", "첨부 파일을 확인해 주시면 감사하겠습니다.", "첨부한 파일 확인 부탁드립니다."],
+        altAnswers: ["첨부 파일을 확인해 주십시오.", "첨부 파일 확인해 주시면 감사하겠습니다.", "첨부 파일을 확인해 주시면 감사하겠습니다.", "첨부한 파일 확인 부탁드립니다.", "첨부 파일 확인 부탁드려요."],
         explanation: "Noun + 부탁드립니다 is the neatest email request.",
       },
       {
@@ -2365,7 +2366,7 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "Please teach me a lot.",
         answer: "많이 가르쳐 주십시오.",
-        altAnswers: ["많이 가르쳐 주시면 감사하겠습니다.", "잘 가르쳐 주십시오.", "많이 가르쳐 주시기 바랍니다."],
+        altAnswers: ["많이 가르쳐 주세요.", "많이 가르쳐 주시면 감사하겠습니다.", "잘 가르쳐 주십시오.", "잘 가르쳐 주세요."],
         explanation: "-아 / 어 주십시오: the formal request, natural in a first-day speech.",
       },
       {
@@ -2428,8 +2429,8 @@ export const KO_B1_U19: Lesson[] = [
         prompt: "Translate into Korean (polite, to the team leader).",
         source: "I'll definitely go.",
         answer: "꼭 갈게요.",
-        altAnswers: ["네, 꼭 갈게요."],
-        explanation: "-(으)ㄹ게요 promises the listener; in formal speech it would be 꼭 가겠습니다.",
+        altAnswers: ["꼭 가겠습니다.", "네, 꼭 갈게요.", "네, 꼭 가겠습니다."],
+        explanation: "-(으)ㄹ게요 or -겠습니다 promises the listener.",
       },
       {
         type: "speak",

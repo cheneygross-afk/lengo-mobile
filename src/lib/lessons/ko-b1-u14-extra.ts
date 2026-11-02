@@ -221,7 +221,7 @@ export const KO_B1_U14_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Your bags must be heavy. Let me carry them for you.",
             answer: "짐이 무거울 텐데 제가 들어 드릴게요.",
-            altAnswers: ["짐이 무거울 텐데 제가 들어 줄게요.", "가방이 무거울 텐데 제가 들어 드릴게요.", "가방이 무거울 텐데 제가 들어 줄게요.", "짐이 무거울 텐데 제가 들어 드릴까요?", "짐이 무거울 텐데 제가 들게요."],
+            altAnswers: ["짐이 무거우실 텐데 제가 들어 드릴게요.", "짐이 무거울 텐데 제가 들어 줄게요.", "가방이 무거울 텐데 제가 들어 드릴게요.", "가방이 무거울 텐데 제가 들어 줄게요.", "짐이 무거울 텐데 제가 들어 드릴까요?", "짐이 무거울 텐데 제가 들게요."],
             explanation: "무겁다 is ㅂ irregular: 무거울 텐데.",
           },
           {
@@ -612,7 +612,7 @@ export const KO_B1_U14_EXTRA: Lesson[] = [
             source: "I think I'll be a bit late tomorrow.",
             answer: "저는 내일 좀 늦을 것 같아요.",
             altAnswers: ["내일 좀 늦을 것 같아요.", "제가 내일 좀 늦을 것 같아요.", "저는 내일 조금 늦을 것 같아요.", "내일 조금 늦을 것 같아요.", "내일은 좀 늦을 것 같아요."],
-            explanation: "Yourself and the future: -(으)ㄹ 것 같다. -나 보다 fits neither here.",
+            explanation: "Yourself and the future: -(으)ㄹ 것 같다. -나 보다 can do neither.",
           },
           {
             type: "speak",
@@ -671,7 +671,7 @@ export const KO_B1_U14_EXTRA: Lesson[] = [
         source: "It looks like it's going to rain this afternoon.",
         answer: "오후에 비가 올 것 같아요.",
         altAnswers: ["오후에는 비가 올 것 같아요.", "오늘 오후에 비가 올 것 같아요.", "오늘 오후에는 비가 올 것 같아요.", "오후에 비가 오겠어요.", "오후에 비가 올 것 같네요."],
-        explanation: "A future guess: -(으)ㄹ 것 같다. -나 보다 isn't used for a plain future guess.",
+        explanation: "A future guess: -(으)ㄹ 것 같다. -나 보다 has no future.",
       },
       {
         type: "translate",

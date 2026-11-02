@@ -151,12 +151,12 @@ export const PT_B1_U07_EXTRA: Lesson[] = [
         type: "speak",
         text: "Tem chovido muito em São Paulo.",
         prompt: "Say it in Portuguese: It's been raining a lot in São Paulo.",
-        tip: "Chovido: sho-VEE-doo.",
+        tip: "Chovido: sho-VI-du.",
         explanation: "Rain that keeps coming back up to now: \"tem chovido\". Weather verbs have no subject.",
       },
       {
         type: "matching",
-        instructions: "Match the Portuguese to the English.",
+        instructions: "Match the infinitive to its participle.",
         pairs: [{ left: "O que você tem feito?", right: "What have you been up to?" }, { left: "Ele tem dito isso.", right: "He's been saying that." }, { left: "Tenho visto a Ana.", right: "I've been seeing Ana." }, { left: "Ela tem escrito muito.", right: "She's been writing a lot." }, { left: "Eles têm vindo aqui.", right: "They've been coming here." }],
         explanation: "Each sentence uses an irregular participle: \"feito\", \"dito\", \"visto\", \"escrito\" and \"vindo\".",
       },
@@ -310,7 +310,7 @@ export const PT_B1_U07_EXTRA: Lesson[] = [
         type: "speak",
         text: "Tenho saído pouco ultimamente.",
         prompt: "Say it in Portuguese: I haven't been going out much lately.",
-        tip: "Ultimamente: ul-chee-ma-MẼ-chee.",
+        tip: "Ultimamente: ul-tchi-ma-MEN-tchi.",
         explanation: "\"Tenho saído\" + \"ultimamente\": a pattern up to now. \"Pouco\" is how Portuguese says not much.",
       },
       {
@@ -476,7 +476,7 @@ export const PT_B1_U07_EXTRA: Lesson[] = [
         type: "speak",
         text: "Quanto tempo! O que você tem feito?",
         prompt: "Say it in Portuguese: Long time no see! What have you been up to?",
-        tip: "Tempo: TẼ-poo.",
+        tip: "Tempo: TEM-pu.",
         explanation: "\"Quanto tempo!\" opens the reunion; \"o que você tem feito?\" asks about the time in between.",
       },
       {

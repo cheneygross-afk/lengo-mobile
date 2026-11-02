@@ -105,7 +105,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'Costs are rising, especially as wages have been increased.'?",
+        question: "Which sentence is correct?",
         options: ["Die Kosten steigen, zumal die Löhne erhöht wurden.", "Die Kosten steigen, zumal wurden die Löhne erhöht.", "Die Kosten steigen, zumal die Löhne wurden erhöht.", "Die Kosten steigen, mithin die Löhne erhöht wurden."],
         correctIndex: 0,
         explanation: "\"Zumal\" is subordinating (verb last); \"mithin\" is an adverb and would need inversion.",
@@ -500,7 +500,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I respect your position, but I see it differently.",
         answer: "Ich respektiere Ihre Position, sehe das aber anders.",
-        altAnswers: ["Ich respektiere Ihre Position, aber ich sehe das anders.", "Ich respektiere deine Position, sehe das aber anders.", "Ich respektiere Ihre Position, sehe es aber anders.", "Ich respektiere Ihre Haltung, sehe das aber anders.", "Ich respektiere eure Position, sehe das aber anders."],
+        altAnswers: ["Ich respektiere Ihre Position, aber ich sehe das anders.", "Ich respektiere deine Position, sehe das aber anders.", "Ich respektiere Ihre Position, sehe es aber anders.", "Ich respektiere Ihre Haltung, sehe das aber anders."],
         explanation: "Same subject: drop it in the second clause and put \"aber\" after the verb.",
       },
       {
@@ -821,7 +821,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into German, with a condition.",
         source: "If you order more, we can lower the price.",
         answer: "Wenn Sie mehr bestellen, können wir den Preis senken.",
-        altAnswers: ["Wenn Sie mehr bestellen, können wir mit dem Preis heruntergehen.", "Wenn Sie mehr bestellen würden, könnten wir den Preis senken.", "Bei einer größeren Bestellung können wir den Preis senken.", "Wenn du mehr bestellst, können wir den Preis senken.", "Wenn ihr mehr bestellt, können wir den Preis senken."],
+        altAnswers: ["Wenn Sie mehr bestellen, können wir mit dem Preis heruntergehen.", "Wenn Sie mehr bestellen würden, könnten wir den Preis senken.", "Bei einer größeren Bestellung können wir den Preis senken."],
         explanation: "A conditional concession: the concession is tied to their move.",
       },
       {

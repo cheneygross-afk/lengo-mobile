@@ -41,7 +41,7 @@ export const PT_C2_U01_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Want to have [a glass]?",
+            en: "Shall we have [a glass]?",
             sentence: "Vamos tomar ___?",
             answer: "um copo",
             altAnswers: ["uma taça"],
@@ -131,9 +131,9 @@ export const PT_C2_U01_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is a metonymy?",
-        options: ["O Planalto anunciou novas medidas.", "Ela é uma flor.", "Choveu canivete.", "O sol sorria para nós."],
+        options: ["O Planalto anunciou novas medidas.", "Ela é uma flor.", "Choveu canivetes.", "O sol sorria para nós."],
         correctIndex: 0,
-        explanation: "\"O Planalto\" (the presidential palace) stands for the government: a link of contact, so it is metonymy. \"Ela é uma flor\" is a metaphor (likeness), \"choveu canivete\" is a hyperbolic image for a downpour, and \"o sol sorria\" is personification.",
+        explanation: "\"O Planalto\" (the palace) stands for the government.",
       },
       {
         type: "word-order",
@@ -151,7 +151,7 @@ export const PT_C2_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "O rato roeu a roupa do rei de Roma.",
         prompt: "Say this classic tongue-twister clearly.",
-        tip: "Initial r is a throaty h-like sound: ho-EU, HEI, HÔ-ma.",
+        tip: "Initial r is a throaty h-like sound: ho-EU, HEI, HO-ma.",
         explanation: "Alliteration on the strong initial r, which most Brazilians say like an English h. Keep each R word short and crisp.",
       },
       {
@@ -188,7 +188,7 @@ export const PT_C2_U01_EXTRA: Lesson[] = [
           { es: "Ele gosta de praia; ela, de montanha.", en: "He likes the beach; she, the mountains. (zeugma)" },
           { es: "Na mesa, só pão e silêncio.", en: "On the table, only bread and silence. (ellipsis)" },
           { es: "Chegou. Olhou. Saiu.", en: "He arrived. He looked. He left. (short sentences)" },
-          { es: "Há dez anos, mudei de cidade.", en: "Ten years ago, I moved to another city. (not há... atrás)" },
+          { es: "Há dez anos, mudei de cidade.", en: "Ten years ago, I moved city. (not há... atrás)" },
           { es: "Vi com meus próprios olhos.", en: "I saw it with my own eyes. (expressive pleonasm)" },
           { es: "Subi a escada correndo.", en: "I ran up the stairs. (not subi para cima)" },
         ],
@@ -200,7 +200,7 @@ export const PT_C2_U01_EXTRA: Lesson[] = [
             source: "Five years ago, I started teaching.",
             answer: "Há cinco anos, comecei a dar aulas.",
             altAnswers: ["Cinco anos atrás, comecei a dar aulas.", "Há cinco anos, comecei a lecionar.", "Há cinco anos comecei a dar aula."],
-            explanation: "\"Há\" already places the event in the past, and so does \"atrás\", so \"há cinco anos atrás\" says ago twice. Use one: \"há cinco anos\" or \"cinco anos atrás\".",
+            explanation: "\"Há... atrás\" is redundant: use one or the other.",
           },
           {
             type: "fill-blank",

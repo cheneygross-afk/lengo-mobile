@@ -155,7 +155,7 @@ export const PT_B2_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Biscoito ou bolacha? Depende de onde você é.",
         prompt: "Say it in Portuguese: Biscoito or bolacha? It depends where you're from.",
-        tip: "Biscoito: bis-KOY-too.",
+        tip: "Biscoito: bis-KOI-tu.",
         explanation: "\"Depende de onde você é\": \"depender de\" keeps its \"de\", and the question word \"onde\" follows it.",
       },
       {
@@ -350,7 +350,7 @@ export const PT_B2_U09_EXTRA: Lesson[] = [
       {
         heading: "Accents and attitudes",
         body: [
-          "In Rio, \"s\" before a consonant or at the end sounds like sh: \"mesmo\" → MEZH-moo, \"festa\" → fesh-ta. In the interior of São Paulo, Minas and Paraná, the caipira \"r\" is curled, as in English. The Nordeste opens many vowels: \"pegar\" → pé-gar.",
+          "In Rio, \"s\" before a consonant or at the end sounds like sh: \"mesmo\" → mezh-mu, \"festa\" → fesh-ta. In the interior of São Paulo, Minas and Paraná, the caipira \"r\" is curled, as in English. The Nordeste opens many vowels: \"pegar\" → pé-gar.",
           "\"Preconceito linguístico\" (linguistic prejudice) means judging people by their accent or grammar. Useful phrases: \"o sotaque\" (accent), \"cada região tem seu jeito de falar\", \"não existe sotaque errado\", \"a norma culta\" (the standard).",
         ],
         examples: [
@@ -383,9 +383,9 @@ export const PT_B2_U09_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Mesmo assim, a festa foi ótima.",
             question: "A carioca says this. How do they probably pronounce mesmo and festa?",
-            options: ["With a sh-like s: MEZH-moo, fesh-ta.", "With a curled r.", "With no s at all.", "With a z sound everywhere."],
+            options: ["With a sh-like s: mezh-mu, fesh-ta.", "With a curled r.", "With no s at all.", "With a z sound everywhere."],
             correctIndex: 0,
-            explanation: "In Rio an s before a consonant sounds like sh, or like the s in measure before a voiced consonant: MEZH-moo, fesh-ta.",
+            explanation: "In Rio an s before a consonant sounds like sh, or like the s in measure before a voiced consonant: mezh-mu, fesh-ta.",
           },
         ],
       },
@@ -484,7 +484,7 @@ export const PT_B2_U09_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não existe sotaque errado.",
         prompt: "Say it in Portuguese: There's no such thing as a wrong accent.",
-        tip: "Sotaque: so-TA-kee.",
+        tip: "Sotaque: so-TA-ki.",
         explanation: "\"Não existe sotaque errado\" is a common slogan against linguistic prejudice. \"Sotaque\" ends in a ki sound.",
       },
       {

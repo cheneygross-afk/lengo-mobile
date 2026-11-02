@@ -194,7 +194,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "speak",
         text: "Você conhece a Ana?",
         prompt: "Say it in Portuguese: Do you know Ana?",
-        tip: "Conhece: 'koh-NYÉ-see', with the nh of canyon.",
+        tip: "Conhece: 'koh-NYEH-see', with the nh of canyon.",
         explanation: "A person takes \"conhecer\".",
       },
     ],
@@ -305,7 +305,7 @@ export const PT_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Prazer em conhecer!",
-            tip: "Conhecer ends in a soft r; stress the end: 'koh-nyeh-SÊR'.",
+            tip: "Conhecer ends in a soft r; stress co-nhe-CER.",
             explanation: "\"Conhecer\" also means to meet someone for the first time.",
           },
         ],
@@ -614,7 +614,7 @@ export const PT_A1_U10: Lesson[] = [
       {
         heading: "Saio, sai, saímos, saem",
         body: [
-          "\"Sair\" means to go out or to leave: \"eu saio\", \"você sai\", \"nós saímos\", \"eles saem\". The accent in \"saímos\" keeps the i stressed and separate: 'sah-EE-moos'. Without it, the a and i would merge into one syllable.",
+          "\"Sair\" means to go out or to leave: \"eu saio\", \"você sai\", \"nós saímos\", \"eles saem\". The accent in \"saímos\" keeps the i stressed and separate: sa-Í-mos. Without it, the a and i would merge into one syllable.",
           "Use \"sair de\" for the place you leave (\"saio de casa cedo\", \"ela sai do trabalho tarde\") and \"sair com\" for who you go out with (\"saio com os amigos\").",
         ],
         examples: [
@@ -703,7 +703,7 @@ export const PT_A1_U10: Lesson[] = [
             question: "What did you hear?",
             options: ["Nós saímos cedo.", "Eles saem cedo.", "Ela sai cedo.", "Eu saio cedo."],
             correctIndex: 0,
-            explanation: "\"Saímos\" has three syllables, 'sah-EE-moos': the nós form.",
+            explanation: "\"Saímos\" has three syllables, sa-Í-mos: the nós form.",
           },
           {
             type: "speak",
@@ -722,7 +722,7 @@ export const PT_A1_U10: Lesson[] = [
         source: "She leaves work late.",
         answer: "Ela sai do trabalho tarde.",
         altAnswers: ["Ela sai tarde do trabalho."],
-        explanation: "\"Sair de\" + \"o trabalho\" gives \"do trabalho\".",
+        explanation: "\"Sair de\" + \"o trabalho\" = \"do trabalho\".",
       },
       {
         type: "translate",
@@ -782,7 +782,7 @@ export const PT_A1_U10: Lesson[] = [
         question: "Which form is correct for we go out?",
         options: ["saímos", "saimos", "saemos", "saímo"],
         correctIndex: 0,
-        explanation: "\"Saímos\" needs the accent to keep 'sah-EE-moos' as three syllables.",
+        explanation: "\"Saímos\" needs the accent to keep sa-Í-mos as three syllables.",
       },
       {
         type: "word-order",
@@ -811,7 +811,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "speak",
         text: "Nós saímos com os amigos no sábado.",
         prompt: "Say it in Portuguese: We go out with friends on Saturday.",
-        tip: "Saímos: 'sah-EE-moos', three syllables.",
+        tip: "Saímos: sa-Í-mos, three syllables.",
         explanation: "\"Sair com\" + people.",
       },
     ],
@@ -834,7 +834,7 @@ export const PT_A1_U10: Lesson[] = [
         examples: [
           { es: "Eu dou um presente para a Ana.", en: "I give Ana a present." },
           { es: "Ela dá aula de inglês.", en: "She teaches English classes." },
-          { es: "Vamos dar uma volta na praia?", en: "Should we go for a walk on the beach?" },
+          { es: "Vamos dar uma volta na praia?", en: "Shall we go for a walk on the beach?" },
           { es: "Calma, vai dar certo.", en: "Relax, it'll work out." },
           { es: "Eles dão comida para o cachorro.", en: "They give the dog food." },
         ],
@@ -860,7 +860,7 @@ export const PT_A1_U10: Lesson[] = [
       {
         heading: "Trago, traz: to bring",
         body: [
-          "\"Trazer\" (to bring) is irregular in the eu form and the ele form: \"eu trago\", \"você traz\", then regular \"nós trazemos\", \"eles trazem\". Learners say \"*eu trazo\"; the g of \"trago\" has to be memorized, like \"faço\" and \"ouço\".",
+          "\"Trazer\" (to bring) is irregular in the eu form and the ele form: \"eu trago\", \"você traz\", then regular \"nós trazemos\", \"eles trazem\". Learners say \"*eu trazo\"; the g of \"trago\" has to be memorised, like \"faço\" and \"ouço\".",
           "\"Trazer\" means bringing toward where the speaker is, just as \"vir\" is coming here. It's the verb for a barbecue invitation: \"eu trago a cerveja\".",
         ],
         examples: [
@@ -892,7 +892,7 @@ export const PT_A1_U10: Lesson[] = [
       {
         heading: "Ponho, põe, põem, and colocar",
         body: [
-          "\"Pôr\" (to put) is very irregular: \"eu ponho\", \"você põe\", \"nós pomos\", \"eles põem\". The circumflex on \"pôr\" tells it apart from \"por\" (for, by). \"Põe\" sounds like 'põy'; \"põem\" sounds almost the same, so the difference is mostly in writing.",
+          "\"Pôr\" (to put) is very irregular: \"eu ponho\", \"você põe\", \"nós pomos\", \"eles põem\". The circumflex on \"pôr\" tells it apart from \"por\" (for, by). \"Põe\" sounds like poing without the g; \"põem\" adds a nasal ending, almost the same sound, so the difference is mostly in writing.",
           "In everyday speech many Brazilians use the regular -ar verb \"colocar\" instead: \"eu coloco o livro na mesa\". Both are correct; \"colocar\" is easier.",
         ],
         examples: [
@@ -922,7 +922,7 @@ export const PT_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Eu trago a sobremesa.",
-            tip: "Sobremesa: 'soh-bree-MAY-zah', the s between vowels sounds like z.",
+            tip: "Sobremesa: so-bre-ME-sa, the s between vowels sounds like z.",
             explanation: "\"Trago\" is the eu form of \"trazer\".",
           },
         ],
@@ -1000,9 +1000,9 @@ export const PT_A1_U10: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Should we go for a walk on the beach?",
+        prompt: "Put the words in order to say: Shall we go for a walk on the beach?",
         words: ["Vamos", "dar", "uma", "volta", "na", "praia?"],
-        translation: "Should we go for a walk on the beach?",
+        translation: "Shall we go for a walk on the beach?",
         explanation: "\"Vamos\" + infinitive invites; \"dar uma volta\" is going for a walk.",
       },
       {
@@ -1026,7 +1026,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "speak",
         text: "Eu coloco o livro na mesa.",
         prompt: "Say it in Portuguese: I put the book on the table.",
-        tip: "Coloco: 'koh-LÓ-koo', with an open o in the middle.",
+        tip: "Coloco: co-LO-co, with an open o in the middle.",
         explanation: "\"Colocar\" is the everyday regular verb for to put.",
       },
     ],
@@ -1098,7 +1098,7 @@ export const PT_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Posso fazer uma pergunta?",
-            tip: "Pergunta: 'per-GŨ-tah', with a nasal u.",
+            tip: "Pergunta: per-GUN-ta, with a nasal u.",
             explanation: "\"Fazer uma pergunta\": to ask a question.",
           },
         ],
@@ -1111,7 +1111,7 @@ export const PT_A1_U10: Lesson[] = [
         ],
         examples: [
           { es: "Ela pergunta o preço e pede dois cafés.", en: "She asks the price and orders two coffees." },
-          { es: "Peço desculpa.", en: "I apologize." },
+          { es: "Peço desculpa.", en: "I apologise." },
           { es: "Pergunto se o restaurante está aberto.", en: "I ask if the restaurant is open." },
         ],
         checkpoint: [
@@ -1218,7 +1218,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "speak",
         text: "Eu peço ajuda.",
         prompt: "Say it in Portuguese: I ask for help.",
-        tip: "Peço: 'PÉ-soo', with an open e.",
+        tip: "Peço: PÉ-so, with an open e.",
         explanation: "\"Pedir\" + the thing you want.",
       },
     ],
@@ -1330,7 +1330,7 @@ export const PT_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "No domingo nós vamos à praia.",
-            tip: "Praia: 'PRAH-yah', with a tap r after the p.",
+            tip: "Praia: PRAI-a, with a tap r after the p.",
             explanation: "\"Ir à praia\": à is a + a.",
           },
         ],
@@ -1431,7 +1431,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "speak",
         text: "Eu jogo futebol e toco violão.",
         prompt: "Say it in Portuguese: I play soccer and I play the guitar.",
-        tip: "Futebol: 'foo-chee-BÓW' in most of Brazil, with the stress at the end.",
+        tip: "Futebol: 'foo-chee-BOL' in most of Brazil, with the stress at the end.",
         explanation: "Two different verbs for one English play.",
       },
     ],
@@ -1633,13 +1633,13 @@ export const PT_A1_U10: Lesson[] = [
           { left: "a primavera", right: "spring" },
           { left: "a chuva", right: "rain" },
         ],
-        explanation: "Seasons take \"no\" or \"na\": \"no verão\", \"na primavera\".",
+        explanation: "Seasons take \"no\" / \"na\": \"no verão\", \"na primavera\".",
       },
       {
         type: "speak",
         text: "Hoje faz sol, mas venta muito.",
         prompt: "Say it in Portuguese: It's sunny today, but it's very windy.",
-        tip: "Venta: 'VẼ-tah', with a nasal e.",
+        tip: "Venta: VEN-ta, with a nasal e.",
         explanation: "\"Fazer sol\" and \"ventar\", with no word for it.",
       },
     ],
@@ -1705,7 +1705,7 @@ export const PT_A1_U10: Lesson[] = [
             question: "Carol asks \"Você sabe tocar violão?\" You can. What's the most natural answer?",
             options: ["Sei, sim.", "Conheço, sim.", "Posso, sim.", "Sou, sim."],
             correctIndex: 0,
-            explanation: "Brazilians answer with the verb of the question: \"sabe?\" gets \"sei\".",
+            explanation: "Brazilians answer with the verb of the question: \"sabe?\" → \"sei\".",
           },
           {
             type: "translate",
@@ -1752,7 +1752,7 @@ export const PT_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Aqui ainda não conheço muitos lugares.",
-            tip: "Lugares: 'loo-GAH-rees', the g is hard as in go.",
+            tip: "Lugares: lu-GA-res, the g is hard as in go.",
             explanation: "\"Conhecer\" for places you're familiar with.",
           },
         ],
@@ -1956,7 +1956,7 @@ export const PT_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Está nublado em Curitiba.",
-            tip: "Nublado: 'noo-BLAH-doo'.",
+            tip: "Nublado: nu-BLA-do.",
             explanation: "\"Estar\" + adjective for weather.",
           },
         ],
@@ -2070,10 +2070,10 @@ export const PT_A1_U10: Lesson[] = [
     format: "Transformations",
     sections: [
       {
-        heading: "Sabe becomes sei, conhece becomes conheço",
+        heading: "Sabe → sei, conhece → conheço",
         body: [
-          "Change the subject to eu and the verb jumps: \"ela sabe\" becomes \"eu sei\", \"ele conhece\" becomes \"eu conheço\". Go the other way and it settles back: \"eu sei\" becomes \"nós sabemos\", \"eu conheço\" becomes \"vocês conhecem\".",
-          "The rest of the sentence stays as it is, unless it agrees with the subject: \"ela é tímida\" becomes \"eu sou tímido\" for a man.",
+          "Change the subject to eu and the verb jumps: \"ela sabe\" → \"eu sei\", \"ele conhece\" → \"eu conheço\". Go the other way and it settles back: \"eu sei\" → \"nós sabemos\", \"eu conheço\" → \"vocês conhecem\".",
+          "The rest of the sentence stays as it is, unless it agrees with the subject: \"ela é tímida\" → \"eu sou tímido\" for a man.",
         ],
         examples: [
           { es: "Ela sabe cozinhar. Eu sei cozinhar.", en: "She can cook. I can cook." },
@@ -2102,9 +2102,9 @@ export const PT_A1_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Saem becomes saio, dorme becomes durmo, ouve becomes ouço",
+        heading: "Saem → saio, dorme → durmo, ouve → ouço",
         body: [
-          "\"Vocês saem\" becomes \"eu saio\", \"ela dorme\" becomes \"eu durmo\", \"ele ouve\" becomes \"eu ouço\". Back to nós, each one is regular again: \"saímos\" (with the accent), \"dormimos\", \"ouvimos\".",
+          "\"Vocês saem\" → \"eu saio\", \"ela dorme\" → \"eu durmo\", \"ele ouve\" → \"eu ouço\". Back to nós, each one is regular again: \"saímos\" (with the accent), \"dormimos\", \"ouvimos\".",
         ],
         examples: [
           { es: "Vocês saem cedo. Eu saio cedo.", en: "You all leave early. I leave early." },
@@ -2133,9 +2133,9 @@ export const PT_A1_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Traz becomes trago, pedem becomes peço, põe becomes ponho",
+        heading: "Traz → trago, pedem → peço, põe → ponho",
         body: [
-          "\"Ele traz\" becomes \"eu trago\", \"eles pedem\" becomes \"eu peço\", \"ela põe\" becomes \"eu ponho\", \"você dá\" becomes \"eu dou\". These four eu forms look nothing like the others, so say them aloud until they feel natural.",
+          "\"Ele traz\" → \"eu trago\", \"eles pedem\" → \"eu peço\", \"ela põe\" → \"eu ponho\", \"você dá\" → \"eu dou\". These four eu forms look nothing like the others, so say them aloud until they feel natural.",
         ],
         examples: [
           { es: "Ele traz o vinho. Eu trago o vinho.", en: "He brings the wine. I bring the wine." },
@@ -2156,7 +2156,7 @@ export const PT_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Eu trago o vinho.",
-            tip: "Trago: 'TRAH-goo', with a hard g.",
+            tip: "Trago: TRA-go, with a hard g.",
             explanation: "\"Ele traz\" becomes \"eu trago\".",
           },
         ],
@@ -2170,7 +2170,7 @@ export const PT_A1_U10: Lesson[] = [
         source: "I know Recife.",
         answer: "Eu conheço Recife.",
         altAnswers: ["Conheço Recife.", "Eu conheço o Recife.", "Conheço o Recife."],
-        explanation: "\"Ele conhece\" becomes \"eu conheço\".",
+        explanation: "\"Ele conhece\" → \"eu conheço\".",
       },
       {
         type: "translate",
@@ -2179,7 +2179,7 @@ export const PT_A1_U10: Lesson[] = [
         source: "I leave home early.",
         answer: "Eu saio de casa cedo.",
         altAnswers: ["Saio de casa cedo.", "Eu saio cedo de casa.", "Saio cedo de casa."],
-        explanation: "\"Eles saem\" becomes \"eu saio\".",
+        explanation: "\"Eles saem\" → \"eu saio\".",
       },
       {
         type: "translate",
@@ -2188,7 +2188,7 @@ export const PT_A1_U10: Lesson[] = [
         source: "I set the table.",
         answer: "Eu ponho a mesa.",
         altAnswers: ["Ponho a mesa.", "Eu coloco a mesa.", "Coloco a mesa."],
-        explanation: "\"Ela põe\" becomes \"eu ponho\".",
+        explanation: "\"Ela põe\" → \"eu ponho\".",
       },
       {
         type: "translate",
@@ -2197,7 +2197,7 @@ export const PT_A1_U10: Lesson[] = [
         source: "We go out on Saturday.",
         answer: "Nós saímos no sábado.",
         altAnswers: ["Saímos no sábado."],
-        explanation: "\"Eu saio\" becomes \"nós saímos\", with the accent.",
+        explanation: "\"Eu saio\" → \"nós saímos\", with the accent.",
       },
       {
         type: "translate",
@@ -2206,7 +2206,7 @@ export const PT_A1_U10: Lesson[] = [
         source: "I give a present.",
         answer: "Eu dou um presente.",
         altAnswers: ["Dou um presente."],
-        explanation: "\"Você dá\" becomes \"eu dou\".",
+        explanation: "\"Você dá\" → \"eu dou\".",
       },
       {
         type: "fill-blank",
@@ -2214,7 +2214,7 @@ export const PT_A1_U10: Lesson[] = [
         en: "She [knows] the answer. I [know] the answer.",
         sentence: "Ela sabe a resposta. Eu ___ a resposta.",
         answer: "sei",
-        explanation: "\"Sabe\" becomes \"sei\" for eu.",
+        explanation: "\"Sabe\" → \"sei\" for eu.",
       },
       {
         type: "fill-blank",
@@ -2222,7 +2222,7 @@ export const PT_A1_U10: Lesson[] = [
         en: "I listen to samba. They [listen] to samba.",
         sentence: "Eu ouço samba. Eles ___ samba.",
         answer: "ouvem",
-        explanation: "\"Ouço\" becomes \"ouvem\": only eu is irregular.",
+        explanation: "\"Ouço\" → \"ouvem\": only eu is irregular.",
       },
       {
         type: "fill-blank",
@@ -2255,7 +2255,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "speak",
         text: "Eu saio, eu durmo, eu ouço.",
         prompt: "Say it in Portuguese: I go out, I sleep, I hear.",
-        tip: "Durmo: 'DOOR-moo', with u, not o.",
+        tip: "Durmo: DUR-mo, with u, not o.",
         explanation: "The three special eu forms of \"sair\", \"dormir\" and \"ouvir\".",
       },
     ],
@@ -2335,7 +2335,7 @@ export const PT_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "O Lucas toca violão e nós cantamos.",
-            tip: "Cantamos: 'kã-TÃ-moos', with nasal vowels in the first two syllables.",
+            tip: "Cantamos: can-TA-mos, with a nasal first syllable.",
             explanation: "\"Tocar\" for the instrument; \"cantar\" is a regular -ar verb.",
           },
         ],

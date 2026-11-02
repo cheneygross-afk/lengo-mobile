@@ -1531,10 +1531,10 @@ export const DE_B1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'That's the colleague who'll call me tomorrow.'?",
+        question: "Which sentence is correct?",
         options: ["Das ist die Kollegin, die mich morgen anrufen wird.", "Das ist die Kollegin, die wird mich morgen anrufen.", "Das ist die Kollegin, die mich morgen wird anrufen.", "Das ist die Kollegin, die mich anrufen morgen wird."],
         correctIndex: 0,
-        explanation: "In a relative clause the conjugated verb \"wird\" goes last, after the infinitive: \"anrufen wird\". \"*die wird mich morgen anrufen*\" keeps main-clause order.",
+        explanation: "Future in a relative clause: \"anrufen wird\" at the end.",
       },
       {
         type: "listen-choose",

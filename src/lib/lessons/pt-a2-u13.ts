@@ -58,7 +58,7 @@ export const PT_A2_U13: Lesson[] = [
         heading: "Eu gostaria de, você teria...?",
         body: [
           "\"Gostaria\" is the conditional of \"gostar\": would like. It's a touch more formal than \"queria\", and it suits restaurants, hotels and phone calls. Like \"gostar\", it always takes \"de\": \"eu gostaria de um suco\", \"eu gostaria de pedir\". Leaving out the \"de\" is the classic mistake.",
-          "The same ending on \"ter\" gives \"teria\". \"Você teria...?\" (would you have...?) is the polite way to ask whether a store or a person has something. With a customer or an older person, say \"o senhor teria...?\" or \"a senhora teria...?\". \"Você poderia...?\", which you've already seen, belongs to the same family.",
+          "The same ending on \"ter\" gives \"teria\". \"Você teria...?\" (would you have...?) is the polite way to ask whether a shop or a person has something. With a customer or an older person, say \"o senhor teria...?\" or \"a senhora teria...?\". \"Você poderia...?\", which you've already seen, belongs to the same family.",
         ],
         examples: [
           { es: "Eu gostaria de fazer uma reserva para sábado.", en: "I'd like to make a reservation for Saturday." },
@@ -84,7 +84,7 @@ export const PT_A2_U13: Lesson[] = [
             source: "Would you have change for fifty?",
             answer: "Você teria troco para cinquenta?",
             altAnswers: ["O senhor teria troco para cinquenta?", "A senhora teria troco para cinquenta?", "Você teria troco pra cinquenta?", "O senhor teria troco pra cinquenta?", "A senhora teria troco pra cinquenta?"],
-            explanation: "\"Teria\" is the conditional of \"ter\": would you have. Use \"o senhor\" or \"a senhora\" with an older store owner.",
+            explanation: "\"Teria\" is the conditional of \"ter\": would you have. Use \"o senhor\" or \"a senhora\" with an older shopkeeper.",
           },
           {
             type: "multiple-choice",
@@ -127,7 +127,7 @@ export const PT_A2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Me vê dois pães de queijo, por favor.",
-            tip: "Make \"pães\" nasal, like \"mãe\" ('PÃYS'), and say \"de\" like 'jee'.",
+            tip: "Make \"pães\" nasal, like \"mãe\", and say \"de\" like dji.",
             explanation: "The plural of \"pão de queijo\" is \"pães de queijo\". Only the first noun changes.",
           },
         ],
@@ -177,7 +177,7 @@ export const PT_A2_U13: Lesson[] = [
         sentence: "___ um tamanho menor?",
         answer: "Você teria",
         altAnswers: ["O senhor teria", "A senhora teria"],
-        explanation: "\"Teria\" asks politely whether the store has something. \"Menor\" is the irregular comparative of small.",
+        explanation: "\"Teria\" asks politely whether the shop has something. \"Menor\" is the irregular comparative of small.",
       },
       {
         type: "word-order",
@@ -354,7 +354,7 @@ export const PT_A2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A price tag in a store in Curitiba says R$ 1.250,00. What does it cost?",
+            question: "A price tag in a shop in Curitiba says R$ 1.250,00. What does it cost?",
             options: ["One thousand two hundred fifty reais", "One real and twenty-five centavos", "Twelve reais and fifty centavos", "One hundred twenty-five reais"],
             correctIndex: 0,
             explanation: "In Brazil the dot separates thousands and the comma marks the cents: \"mil duzentos e cinquenta reais\".",
@@ -456,7 +456,7 @@ export const PT_A2_U13: Lesson[] = [
         type: "speak",
         text: "São mil e quinhentos reais.",
         prompt: "Say it in Portuguese: That's fifteen hundred reais.",
-        tip: "Say \"reais\" as two syllables stressed on the end, 'heh-AYS': the r at the start is a breathy h. The nh in \"quinhentos\" sounds like the ny in canyon.",
+        tip: "Say reais as two syllables, re-AIS, stressed on the end; the nh in quinhentos sounds like the ny in canyon.",
         explanation: "\"Mil e quinhentos\", with \"e\" before a round hundred, and \"são\" for the plural amount.",
       },
       {
@@ -478,7 +478,7 @@ export const PT_A2_U13: Lesson[] = [
     level: "PT-A2",
     number: 3,
     title: "Someone, Something: Indefinites, Part 1 of 2",
-    summary: "Say someone, something and some or any with alguém, alguma coisa, algo and algum, alguma, alguns, algumas at the store, the restaurant and at home.",
+    summary: "Say someone, something and some or any with alguém, alguma coisa, algo and algum, alguma, alguns, algumas at the shop, the restaurant and at home.",
     duration: "12 min",
     sections: [
       {
@@ -563,9 +563,9 @@ export const PT_A2_U13: Lesson[] = [
         ],
         examples: [
           { es: "Você tem alguma pergunta?", en: "Do you have any questions?" },
-          { es: "Vocês têm algum tamanho maior?", en: "Do you have a bigger size? (in a store)" },
+          { es: "Vocês têm algum tamanho maior?", en: "Do you have a bigger size? (in a shop)" },
           { es: "Alguns amigos vieram para o meu aniversário.", en: "Some friends came to my birthday." },
-          { es: "Algumas lojas abrem no domingo.", en: "Some stores open on Sundays." },
+          { es: "Algumas lojas abrem no domingo.", en: "Some shops open on Sundays." },
           { es: "Comprei pão e leite na padaria.", en: "I bought some bread and milk at the bakery." },
           { es: "Algum dia eu vou conhecer Manaus.", en: "Some day I'm going to visit Manaus." },
         ],
@@ -582,7 +582,7 @@ export const PT_A2_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Some stores open on Sundays.",
+            source: "Some shops open on Sundays.",
             answer: "Algumas lojas abrem no domingo.",
             altAnswers: ["Algumas lojas abrem aos domingos.", "Algumas lojas abrem domingo."],
             explanation: "\"Lojas\" is feminine plural, so some is \"algumas\". The verb \"abrem\" agrees with the plural subject.",
@@ -628,7 +628,7 @@ export const PT_A2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're in a clothing store and the shirt is too small. How do you ask for a bigger size?",
+        question: "You're in a clothes shop and the shirt is too small. How do you ask for a bigger size?",
         options: ["Vocês têm algum tamanho maior?", "Vocês têm alguém tamanho maior?", "Vocês têm alguma tamanho maior?", "Vocês têm algo tamanho maior?"],
         correctIndex: 0,
         explanation: "\"Tamanho\" is masculine, so any is \"algum\". \"Alguém\" is a person, and \"algo\" can't go before a noun.",
@@ -650,7 +650,7 @@ export const PT_A2_U13: Lesson[] = [
         type: "speak",
         text: "Eu queria alguma coisa para comer.",
         prompt: "Say it in Portuguese: I'd like something to eat.",
-        tip: "In \"coisa\" the s between vowels sounds like z: 'KOY-za'.",
+        tip: "In coisa the s between vowels sounds like z: COI-za.",
         explanation: "\"Eu queria\" softens the request, and \"alguma coisa para comer\" is something to eat.",
       },
       {
@@ -686,7 +686,7 @@ export const PT_A2_U13: Lesson[] = [
           { left: "alguma coisa", right: "something" },
           { left: "alguns amigos", right: "some friends" },
           { left: "algum dia", right: "some day" },
-          { left: "algumas lojas", right: "some stores" },
+          { left: "algumas lojas", right: "some shops" },
         ],
         explanation: "\"Alguém\" and \"alguma coisa\" stand alone. \"Algum\" goes before a noun and agrees with it: \"alguns amigos\", \"algumas lojas\".",
       },
@@ -809,7 +809,7 @@ export const PT_A2_U13: Lesson[] = [
             type: "speak",
             text: "Nunca fui a Manaus.",
             prompt: "Say it in Portuguese: I've never been to Manaus.",
-            tip: "In \"nunca\" the first u is nasal: 'NŨ-ka'. Don't pronounce a full English n before the k.",
+            tip: "Nunca starts with a nasal \"un\": close your lips only lightly and don't pronounce a full n.",
             explanation: "\"Nunca\" comes before the verb and stands alone. English I've never been becomes the perfeito \"fui\".",
           },
         ],
@@ -869,9 +869,9 @@ export const PT_A2_U13: Lesson[] = [
         type: "listen-choose",
         audio: "Nenhuma loja abre no domingo.",
         question: "What does it mean?",
-        options: ["No store opens on Sunday.", "Every store opens on Sunday.", "Some stores open on Sunday.", "No store opens on Saturday."],
+        options: ["No shop opens on Sunday.", "Every shop opens on Sunday.", "Some shops open on Sunday.", "No shop opens on Saturday."],
         correctIndex: 0,
-        explanation: "\"Nenhuma loja\" means no store. It comes before the verb, so there is no \"não\".",
+        explanation: "\"Nenhuma loja\" means no shop. It comes before the verb, so there is no \"não\".",
       },
       {
         type: "dictation",
@@ -882,7 +882,7 @@ export const PT_A2_U13: Lesson[] = [
         type: "speak",
         text: "Não tem ninguém em casa.",
         prompt: "Say it in Portuguese: There's no one at home.",
-        tip: "In \"ninguém\" the gu is a hard g, and the final \"ém\" is nasal with no full n at the end: 'nĩ-GẼY'.",
+        tip: "In ninguém the \"gu\" is a hard g, and the final \"ém\" is nasal, with no full n at the end.",
         explanation: "\"Ninguém\" after the verb, with \"não\" before \"tem\".",
       },
       {
@@ -968,13 +968,13 @@ export const PT_A2_U13: Lesson[] = [
       {
         heading: "Todo, toda, todos, todas: all and every",
         body: [
-          "\"Todo\" goes with a noun and agrees with it like an adjective: \"todo\", \"toda\", \"todos\", \"todas\". In the plural the article follows it: \"todos os clientes\" (all the customers), \"todas as lojas\" (all the stores). English often drops the; Portuguese keeps it.",
+          "\"Todo\" goes with a noun and agrees with it like an adjective: \"todo\", \"toda\", \"todos\", \"todas\". In the plural the article follows it: \"todos os clientes\" (all the customers), \"todas as lojas\" (all the shops). English often drops the; Portuguese keeps it.",
           "Singular \"todo\" with no article means every: \"todo dia\" (every day), \"toda semana\" (every week), \"todo sábado\". \"Todos os dias\" means the same as \"todo dia\", and Brazilians use both.",
           "Alone, \"todos\" and \"todas\" mean all of them or everyone: \"todos chegaram\" (everyone arrived).",
         ],
         examples: [
           { es: "Todos os clientes pagaram no cartão.", en: "All the customers paid by card." },
-          { es: "Todas as lojas do shopping fecham às dez.", en: "All the stores in the mall close at ten." },
+          { es: "Todas as lojas do shopping fecham às dez.", en: "All the shops in the mall close at ten." },
           { es: "Eu tomo um cafezinho na padaria todo dia.", en: "I have a coffee at the bakery every day." },
           { es: "Toda semana a Dona Maria vai à feira.", en: "Every week Dona Maria goes to the street market." },
           { es: "Comprei pão de queijo para todos os meus colegas.", en: "I bought cheese bread for all my colleagues." },
@@ -983,7 +983,7 @@ export const PT_A2_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[All the] stores are closed.",
+            en: "[All the] shops are closed.",
             sentence: "___ lojas estão fechadas.",
             answer: "Todas as",
             explanation: "\"Lojas\" is feminine plural, so \"todas\", and the article \"as\" follows: \"todas as lojas\". Leaving out the article is the usual slip.",
@@ -1090,16 +1090,16 @@ export const PT_A2_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "How much is it all? (at a store)",
+        source: "How much is it all? (at a shop)",
         answer: "Quanto fica tudo?",
         altAnswers: ["Quanto é tudo?", "Quanto custa tudo?", "Quanto fica tudo isso?", "Quanto é tudo isso?", "Quanto custa tudo isso?"],
         explanation: "It all is \"tudo\", standing alone. \"Quanto fica\" is the usual way to ask for the total.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: All the stores close on Sunday.",
+        prompt: "Put the words in order to say: All the shops close on Sunday.",
         words: ["Todas", "as", "lojas", "fecham", "no", "domingo."],
-        translation: "All the stores close on Sunday.",
+        translation: "All the shops close on Sunday.",
         explanation: "\"Todas as lojas\": feminine plural \"todas\" agrees with \"lojas\", and the article comes between them.",
       },
       {
@@ -1146,7 +1146,7 @@ export const PT_A2_U13: Lesson[] = [
         type: "speak",
         text: "Eu trabalho todo dia.",
         prompt: "Say it in Portuguese: I work every day.",
-        tip: "\"Todo\" has a closed ô and a final o that sounds like oo: 'TÔ-doo'. \"Tudo\" is 'TOO-doo', so keep the two apart.",
+        tip: "\"Todo\" has a closed ô and a final o that sounds like u: TÔ-du. \"Tudo\" is TU-du, so keep the two apart.",
         explanation: "\"Todo dia\" with no article means every day.",
       },
     ],
@@ -1156,14 +1156,14 @@ export const PT_A2_U13: Lesson[] = [
     level: "PT-A2",
     number: 6,
     title: "Esse, Este, Aquele",
-    summary: "Point at things in stores and restaurants with esse, este and aquele, the neutral isso and aquilo, and contractions like nesse, daquele and disso.",
+    summary: "Point at things in shops and restaurants with esse, este and aquele, the neutral isso and aquilo, and contractions like nesse, daquele and disso.",
     duration: "10 min",
     sections: [
       {
         heading: "Esse, essa: this and that in everyday Brazil",
         body: [
           "In Brazilian speech one word covers both this and that: \"esse\" (masculine) and \"essa\" (feminine), plural \"esses\" and \"essas\". \"Essa camisa\" can be the shirt in your hand or the one your friend is holding. Context and pointing do the rest.",
-          "\"Este\", \"esta\", \"estes\" and \"estas\" mean this, close to the speaker. You'll meet them in writing and formal speech (\"este documento\", \"esta semana\"), but at the padaria or in a store people say \"esse\". Don't confuse \"esta\" (this) with \"está\" (is).",
+          "\"Este\", \"esta\", \"estes\" and \"estas\" mean this, close to the speaker. You'll meet them in writing and formal speech (\"este documento\", \"esta semana\"), but at the padaria or in a shop people say \"esse\". Don't confuse \"esta\" (this) with \"está\" (is).",
           "A demonstrative agrees with its noun: \"esses sapatos\", \"essas laranjas\". The sound helps: the masculine has a closed ê (\"esse\"), the feminine an open é (\"essa\").",
         ],
         examples: [
@@ -1181,7 +1181,7 @@ export const PT_A2_U13: Lesson[] = [
             source: "How much is this shirt?",
             answer: "Quanto custa essa camisa?",
             altAnswers: ["Quanto é essa camisa?", "Quanto fica essa camisa?", "Quanto custa esta camisa?", "Quanto é esta camisa?", "Essa camisa custa quanto?"],
-            explanation: "\"Camisa\" is feminine, so \"essa\". In a store \"essa\" is the natural this. \"Esta\" is correct but sounds more formal.",
+            explanation: "\"Camisa\" is feminine, so \"essa\". In a shop \"essa\" is the natural this. \"Esta\" is correct but sounds more formal.",
           },
           {
             type: "fill-blank",
@@ -1364,7 +1364,7 @@ export const PT_A2_U13: Lesson[] = [
         type: "speak",
         text: "Quanto custa aquela bolsa ali?",
         prompt: "Say it in Portuguese: How much is that bag over there?",
-        tip: "Stress the middle syllable with an open é: 'a-KÉ-la'. The masculine \"aquele\" has a closed ê: 'a-KÊ-lee'.",
+        tip: "Stress the middle syllable, a-QUE-la, with an open é. The masculine aquele has a closed ê.",
         explanation: "\"Aquela\" agrees with \"bolsa\" and points to something far from both of you.",
       },
       {
@@ -1587,7 +1587,7 @@ export const PT_A2_U13: Lesson[] = [
         type: "speak",
         text: "Pode dividir a conta em dois?",
         prompt: "Say it in Portuguese: Can you split the check in two?",
-        tip: "Before i, the d sounds like the j in jeep: \"dividir\" is 'jee-vee-JEER'.",
+        tip: "Before i, the d sounds like the j in jeep: \"dividir\" is dji-vi-DJIR.",
         explanation: "\"Pode\" + infinitive makes the polite request, and \"dividir a conta\" means to split the check.",
       },
       {
@@ -1803,7 +1803,7 @@ export const PT_A2_U13: Lesson[] = [
         type: "speak",
         text: "Eu gostaria de um suco de laranja, por favor.",
         prompt: "Say it in Portuguese: I'd like an orange juice, please.",
-        tip: "Don't skip the \"de\" after \"gostaria\". It's short, like 'jee', and runs into \"um\".",
+        tip: "Don't skip the \"de\" after \"gostaria\". It's short, like 'dji', and runs into \"um\".",
         explanation: "\"Gostaria de\" + noun. The \"de\" is small but obligatory.",
       },
       {
@@ -1994,7 +1994,7 @@ export const PT_A2_U13: Lesson[] = [
         type: "speak",
         text: "Me vê meio quilo de tomate, por favor.",
         prompt: "Say it in Portuguese: Can I get half a kilo of tomatoes, please?",
-        tip: "The final -te of \"tomate\" sounds like 'chee' ('to-MA-chee'), and \"meio\" sounds like 'MAY-oo'.",
+        tip: "The final -te of \"tomate\" sounds like 'chee', and \"meio\" sounds like MAY-oo.",
         explanation: "\"Me vê\" + quantity + \"de\" + food: the standard feira order. \"Meio\" agrees with masculine \"quilo\".",
       },
       {
@@ -2043,7 +2043,7 @@ export const PT_A2_U13: Lesson[] = [
     level: "PT-A2",
     number: 10,
     title: "Spiral Review: Out and About",
-    summary: "Mixed practice for cafés, stores and markets: polite requests, prices, something and nothing, all and every, and esse and aquele, with the past and future tenses.",
+    summary: "Mixed practice for cafés, shops and markets: polite requests, prices, something and nothing, all and every, and esse and aquele, with the past and future tenses.",
     duration: "12 min",
     sections: [
       {
@@ -2096,7 +2096,7 @@ export const PT_A2_U13: Lesson[] = [
         ],
         examples: [
           { es: "Não comprei nada no shopping.", en: "I didn't buy anything at the mall." },
-          { es: "Ninguém me ajudou na loja.", en: "No one helped me in the store." },
+          { es: "Ninguém me ajudou na loja.", en: "No one helped me in the shop." },
           { es: "Você comprou alguma coisa para o jantar?", en: "Did you buy anything for dinner?" },
           { es: "Não tinha nenhuma mesa livre no restaurante.", en: "There wasn't a single free table at the restaurant." },
           { es: "A gente comeu tudo, até a sobremesa.", en: "We ate everything, even the dessert." },
@@ -2137,7 +2137,7 @@ export const PT_A2_U13: Lesson[] = [
         examples: [
           { es: "Vou levar essa camiseta azul.", en: "I'm going to take this blue T-shirt." },
           { es: "Me mostra aquele tênis, por favor.", en: "Show me those sneakers, please." },
-          { es: "Aquela loja era mais barata do que essa.", en: "That store used to be cheaper than this one." },
+          { es: "Aquela loja era mais barata do que essa.", en: "That shop used to be cheaper than this one." },
           { es: "Quanto custa isso?", en: "How much is this?" },
           { es: "Eu gostei daquele vestido verde.", en: "I liked that green dress." },
         ],
@@ -2261,7 +2261,7 @@ export const PT_A2_U13: Lesson[] = [
           { left: "Fico com essa.", right: "I'll take this one." },
           { left: "Me vê um cafezinho.", right: "I'll have a little coffee." },
         ],
-        explanation: "These are all everyday phrases for a store or café: a total, an indefinite, a choice and a quick order.",
+        explanation: "These are all everyday phrases for a shop or café: a total, an indefinite, a choice and a quick order.",
       },
       {
         type: "translate",

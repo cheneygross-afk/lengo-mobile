@@ -1531,7 +1531,7 @@ export const DE_B2_U18: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Sentence by Sentence: Ein Forumsbeitrag",
-    summary: "Build a forum post of about 150 words in the style of Goethe B2 \"Schreiben\", part 1: opinion, reasons and examples, a counter-argument, conclusion.",
+    summary: "Build a forum post of about 150 words in the style of Goethe B2 Schreiben, part 1: opinion, reasons and examples, a counter-argument, conclusion.",
     duration: "15 min",
     sections: [
       {

@@ -62,7 +62,7 @@ export const PT_A2_U12: Lesson[] = [
         body: [
           "As in English, the body part is the subject: \"minha cabeça dói\" (my head hurts). So the verb agrees with the body part, not with you: one part takes \"dói\", two or more take \"doem\": \"meus pés doem\" (my feet hurt). The doctor just points and asks \"dói aqui?\" (does it hurt here?).",
           "\"Dói\" states a fact; for pain at this moment, Brazilians prefer \"está doendo\" (it's hurting), or \"estão doendo\" for several parts. In the past it's \"doeu\" (it hurt).",
-          "Say \"dói\" like English boy, with an open o. \"Doem\" has two syllables, a closed o and a nasal ending: 'DÔ-ẽy'.",
+          "Say \"dói\" like English boy, with an open o. \"Doem\" has two syllables, DO-em, with a nasal ending.",
         ],
         examples: [
           { es: "Minha cabeça dói.", en: "My head hurts." },
@@ -134,7 +134,7 @@ export const PT_A2_U12: Lesson[] = [
           {
             type: "speak",
             text: "Estou com dor de cabeça.",
-            tip: "In most of Brazil \"de\" sounds like 'jee', and \"com\" is a nasal 'kõ' with no m sound at the end.",
+            tip: "In most of Brazil \"de\" sounds like dji, and \"com\" is nasal with no m sound at the end.",
             explanation: "\"Estou com dor de cabeça\": estar com + dor de + the body part.",
           },
         ],
@@ -243,7 +243,7 @@ export const PT_A2_U12: Lesson[] = [
     level: "PT-A2",
     number: 2,
     title: "Estar Com: Fome, Febre, Frio",
-    summary: "Say you're hungry, thirsty, sleepy, cold or sick with estar com + a noun, and use ter for allergies and other lasting conditions.",
+    summary: "Say you're hungry, thirsty, sleepy, cold or ill with estar com + a noun, and use ter for allergies and other lasting conditions.",
     duration: "12 min",
     sections: [
       {
@@ -288,7 +288,7 @@ export const PT_A2_U12: Lesson[] = [
         ],
       },
       {
-        heading: "Com febre, com gripe: feeling sick",
+        heading: "Com febre, com gripe: feeling ill",
         body: [
           "Symptoms and short illnesses use the same frame: \"estar com febre\" (to have a fever), \"com gripe\" (the flu), \"com tosse\" (a cough), and \"com dor de cabeça\" from the last lesson. English says have; Portuguese says \"estar com\" because the state will pass. There's usually no article: \"estou com gripe\".",
           "For how long, use the present with \"há\" or \"desde\": \"estou com febre há dois dias\" (I've had a fever for two days). For a past state, use the imperfeito: \"ontem eu estava com febre\".",
@@ -668,7 +668,7 @@ export const PT_A2_U12: Lesson[] = [
         type: "speak",
         text: "Com essa febre, é melhor ficar em casa.",
         prompt: "Say it in Portuguese: With that fever, it's better to stay home.",
-        tip: "In \"melhor\", lh sounds like the lli in million. \"Febre\" has an open é, and its final e sounds like ee: 'FÉ-bree'.",
+        tip: "In \"melhor\", lh sounds like the lli in million. \"Febre\" has an open é, and its final e sounds like i: FÉ-bri.",
         explanation: "\"É melhor ficar\" is gentle advice, and \"essa febre\" means that fever.",
       },
       {
@@ -729,7 +729,7 @@ export const PT_A2_U12: Lesson[] = [
           {
             type: "speak",
             text: "Fiquei muito feliz com o seu presente.",
-            tip: "The final -e in \"presente\" sounds like ee, and the t before it becomes ch: 'pre-ZẼ-chee'.",
+            tip: "The final -e in \"presente\" sounds like i, and the t before it becomes a soft ch: pre-ZEN-chi.",
             explanation: "\"Fiquei feliz com...\" is the everyday way to say you were happy about something.",
           },
         ],
@@ -862,7 +862,7 @@ export const PT_A2_U12: Lesson[] = [
         type: "speak",
         text: "Fica mais um pouco!",
         prompt: "Say it in Portuguese (to a friend who's leaving): Stay a bit longer!",
-        tip: "The ou in \"pouco\" is a closed o, and the final -o sounds like oo: 'PÔ-koo'.",
+        tip: "The final -o in \"pouco\" sounds like u: POU-cu.",
         explanation: "The friendly command \"fica\" turns \"ficar\" into an invitation to stay.",
       },
       {
@@ -988,7 +988,7 @@ export const PT_A2_U12: Lesson[] = [
           {
             type: "speak",
             text: "A gente ficou conversando até meia-noite.",
-            tip: "In \"noite\" the final -e sounds like ee, and the t before it sounds like ch: 'NOY-chee'.",
+            tip: "In \"noite\" the final -e sounds like i, and the t before it sounds like ch: NOI-tchi.",
             explanation: "\"A gente\" takes the ele/ela form, so \"ficou\", followed by the gerund \"conversando\".",
           },
         ],
@@ -996,7 +996,7 @@ export const PT_A2_U12: Lesson[] = [
       {
         heading: "Ficar com: keep it, take it",
         body: [
-          "\"Ficar com\" + a thing means to keep it or take it. In a store, it's how you make your choice: \"fico com essa\" (I'll take this one). Portuguese uses the present here, where English uses I'll. At a café, say \"pode ficar com o troco\" (keep the change).",
+          "\"Ficar com\" + a thing means to keep it or take it. In a shop, it's how you make your choice: \"fico com essa\" (I'll take this one). Portuguese uses the present here, where English uses I'll. At a café, say \"pode ficar com o troco\" (keep the change).",
           "With a person, \"ficar com\" means to stay with them (\"fico com as crianças\"). Brazilians also use it for a casual romantic fling, so watch the context.",
         ],
         examples: [
@@ -1011,7 +1011,7 @@ export const PT_A2_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'll take this one. (choosing a shirt in a store)",
+            source: "I'll take this one. (choosing a shirt in a shop)",
             answer: "Fico com essa.",
             altAnswers: [
               "Eu fico com essa.",
@@ -1021,7 +1021,7 @@ export const PT_A2_U12: Lesson[] = [
               "Eu vou ficar com essa.",
               "Fico com essa camisa.",
             ],
-            explanation: "\"Ficar com\" is the store phrase for I'll take. The present \"fico\" works as an on-the-spot decision. \"Essa\" is feminine because it refers to \"camisa\".",
+            explanation: "\"Ficar com\" is the shop phrase for I'll take. The present \"fico\" works as an on-the-spot decision. \"Essa\" is feminine because it refers to \"camisa\".",
           },
           {
             type: "multiple-choice",
@@ -1144,7 +1144,7 @@ export const PT_A2_U12: Lesson[] = [
         question: "What does it mean?",
         options: ["I'll take this one.", "I'll stay here.", "It looks good on me.", "I kept waiting."],
         correctIndex: 0,
-        explanation: "\"Ficar com\" + a thing is to take it or keep it. \"Fico\" in the present is the decision you make in the store.",
+        explanation: "\"Ficar com\" + a thing is to take it or keep it. \"Fico\" in the present is the decision you make in the shop.",
       },
       {
         type: "dictation",
@@ -1155,7 +1155,7 @@ export const PT_A2_U12: Lesson[] = [
         type: "speak",
         text: "Esse vestido ficou lindo em você.",
         prompt: "Say it in Portuguese: That dress looks beautiful on you.",
-        tip: "Stress the ending of \"ficou\", with ou said as a closed o: 'fee-KÔ'. Make the \"in\" in \"lindo\" nasal: 'LĨ-doo'.",
+        tip: "Stress the ending: fi-COU, with ou said like a closed o. Make the \"in\" in \"lindo\" nasal.",
         explanation: "\"Ficou\" + \"lindo\" + \"em você\": the adjective agrees with \"vestido\".",
       },
       {
@@ -1296,7 +1296,7 @@ export const PT_A2_U12: Lesson[] = [
           {
             type: "speak",
             text: "Onde fica o banheiro?",
-            tip: "The final e of \"onde\" sounds like ee, so the d before it sounds like j: 'Õ-jee'.",
+            tip: "Final e sounds like i, so the d in onde turns into a soft dj: ON-dji.",
             explanation: "\"Onde fica...?\" is the standard way to ask where a place is.",
           },
         ],
@@ -1385,7 +1385,7 @@ export const PT_A2_U12: Lesson[] = [
         type: "speak",
         text: "No sábado eu fiquei em casa.",
         prompt: "Say it in Portuguese: I stayed home on Saturday.",
-        tip: "In \"fiquei\" the u is silent and the ending rhymes with English day: 'fee-KAY'.",
+        tip: "In fiquei the u is silent: fi-KEY.",
         explanation: "\"Fiquei em casa\" is the everyday way to say I stayed home.",
       },
       {
@@ -1580,7 +1580,7 @@ export const PT_A2_U12: Lesson[] = [
           "Sou alérgico à penicilina.",
           "Sou alérgica à penicilina.",
         ],
-        explanation: "An allergy you always have takes \"ter alergia a\"; \"estou com alergia\" would only mean a reaction you're having right now. \"Sou alérgico\" (or \"sou alérgica\" for a woman) is also correct.",
+        explanation: "An allergy is permanent, so \"ter alergia a\", never \"estar com alergia\". \"Sou alérgico\" / \"sou alérgica\" is also correct.",
       },
       {
         type: "multiple-choice",
@@ -1606,7 +1606,7 @@ export const PT_A2_U12: Lesson[] = [
         type: "speak",
         text: "Estou com dor de garganta há três dias.",
         prompt: "Say it in Portuguese: I've had a sore throat for three days.",
-        tip: "The h in \"há\" is silent, and \"de\" sounds like 'jee' in most of Brazil.",
+        tip: "The h in \"há\" is silent, and \"de\" sounds like \"dji\" in most of Brazil.",
         explanation: "Present \"estou com\" + \"há três dias\" for a symptom that hasn't gone away.",
       },
       {
@@ -1638,7 +1638,7 @@ export const PT_A2_U12: Lesson[] = [
           "Don't overcorrect: \"eu tenho fome\" and \"tenho dor de cabeça\" are right too, just a little less everyday than \"estou com\". Allergies and other lasting conditions take \"ter\": \"tenho alergia a camarão\".",
         ],
         examples: [
-          { es: "Estou com fome. Vamos almoçar?", en: "I'm hungry. Should we have lunch?" },
+          { es: "Estou com fome. Vamos almoçar?", en: "I'm hungry. Shall we have lunch?" },
           { es: "O Lucas está com febre desde ontem.", en: "Lucas has had a fever since yesterday." },
           { es: "Estou com dor de cabeça.", en: "I have a headache." },
           { es: "Você está com frio?", en: "Are you cold?" },
@@ -1735,7 +1735,7 @@ export const PT_A2_U12: Lesson[] = [
             source: "I got sick on Saturday. (A learner wrote \"Eu fui doente no sábado.\")",
             answer: "Fiquei doente no sábado.",
             altAnswers: ["Eu fiquei doente no sábado.", "No sábado eu fiquei doente.", "No sábado fiquei doente."],
-            explanation: "Got sick is a change, so \"ficar\": \"fiquei doente\". \"Fui doente\" uses \"ser\", the verb for identity, not for getting sick.",
+            explanation: "Got sick is a change, so \"ficar\": \"fiquei doente\". \"Fui doente\" uses \"ser\", the verb for identity, not for becoming ill.",
           },
           {
             type: "fill-blank",
@@ -1749,7 +1749,7 @@ export const PT_A2_U12: Lesson[] = [
             type: "speak",
             text: "Fiquei em casa ontem.",
             prompt: "Say it in Portuguese: I stayed home yesterday.",
-            tip: "The u in \"fiquei\" is silent: 'fee-KAY', with the stress on the ending.",
+            tip: "The u in fiquei is silent: fi-KEI, with the stress on the ending.",
             explanation: "\"Fiquei em casa\": the perfeito of \"ficar\" with \"em\" before the place.",
           },
         ],
@@ -1803,7 +1803,7 @@ export const PT_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You missed work on Monday because you were sick. What do you tell your boss?",
+        question: "You missed work on Monday because you were ill. What do you tell your boss?",
         options: ["Eu estava doente na segunda.", "Eu fui doente na segunda.", "Eu era doente na segunda.", "Eu estou doente na segunda."],
         correctIndex: 0,
         explanation: "A past state takes \"estar\": \"eu estava doente\". \"Fui\" and \"era\" are \"ser\", for identity, and \"estou\" is the present.",
@@ -1828,13 +1828,13 @@ export const PT_A2_U12: Lesson[] = [
       {
         type: "dictation",
         audio: "Meus pés doem muito.",
-        explanation: "\"Meus pés doem\": plural subject, plural verb. \"Doem\" has a closed o and a nasal ending, 'DÔ-ẽy'; don't write the singular \"dói\".",
+        explanation: "\"Meus pés doem\": plural subject, plural verb. \"Doem\" ends in a nasal sound, close to \"dóim\".",
       },
       {
         type: "speak",
         text: "Estou com dor de cabeça.",
         prompt: "Say it in Portuguese: I have a headache.",
-        tip: "In most of Brazil \"de\" sounds like 'jee': 'DOR jee ka-BÊ-sa'.",
+        tip: "In most of Brazil \"de\" sounds like \"dji\": dor dji cabeça.",
         explanation: "\"Estou com dor de cabeça\": don't forget \"com\" between \"estou\" and \"dor\".",
       },
       {
@@ -1944,7 +1944,7 @@ export const PT_A2_U12: Lesson[] = [
           {
             type: "speak",
             text: "Pode me dar um xarope para tosse, por favor?",
-            tip: "The x in \"xarope\" sounds like English sh, and \"pode\" has an open o and ends in 'jee': 'PÓ-jee'.",
+            tip: "The x in \"xarope\" sounds like English sh, and \"pode\" ends in a 'dji' sound.",
             explanation: "\"Pode me dar...?\" is a polite request; \"me\" goes before the verb it belongs to, as Brazilians say it.",
           },
         ],
@@ -2052,7 +2052,7 @@ export const PT_A2_U12: Lesson[] = [
         type: "speak",
         text: "Estou com dor de cabeça desde ontem.",
         prompt: "Say it in Portuguese: I've had a headache since yesterday.",
-        tip: "In \"desde\" and \"de\" the d before a final e sounds like j: 'DEZ-jee', 'jee'.",
+        tip: "In \"desde\" and \"de\" the d before a final e sounds like 'dji'.",
         explanation: "\"Estou com dor de cabeça\" + \"desde ontem\": present tense, starting point with \"desde\".",
       },
       {
@@ -2092,7 +2092,7 @@ export const PT_A2_U12: Lesson[] = [
     level: "PT-A2",
     number: 10,
     title: "Spiral Review: Body and Health",
-    summary: "Mix symptoms, advice and the many meanings of ficar with the perfeito and imperfeito to tell the story of being sick.",
+    summary: "Mix symptoms, advice and the many meanings of ficar with the perfeito and imperfeito to tell the story of being ill.",
     duration: "12 min",
     sections: [
       {
@@ -2141,7 +2141,7 @@ export const PT_A2_U12: Lesson[] = [
         heading: "Ficar across the tenses",
         body: [
           "\"Ficar\" keeps every one of its meanings in every tense. The perfeito is where English speakers slip. \"Fiquei doente\" is I got sick, a change. \"Estava doente\" is I was sick, a state. \"Fui doente\" is not what you mean here.",
-          "Remember the eu spelling, \"fiquei\". \"Ficar\" + gerúndio means staying in an activity: \"fiquei esperando\" (I was stuck waiting). \"Ficar de cama\" means to stay in bed when you're sick.",
+          "Remember the eu spelling, \"fiquei\". \"Ficar\" + gerúndio means staying in an activity: \"fiquei esperando\" (I was stuck waiting). \"Ficar de cama\" means to stay in bed when you're ill.",
         ],
         examples: [
           { es: "Fiquei em casa ontem porque estava cansado.", en: "I stayed home yesterday because I was tired." },
@@ -2203,7 +2203,7 @@ export const PT_A2_U12: Lesson[] = [
           {
             type: "speak",
             text: "O senhor deve tomar dois comprimidos por dia.",
-            tip: "The d in \"dia\" sounds like the j in jeans ('JEE-a'), and the final -os of \"comprimidos\" sounds like 'oos'.",
+            tip: "The d in \"dia\" sounds like the j in jeans, and the final -os of \"comprimidos\" sounds like us.",
             explanation: "\"O senhor\" takes the ele form \"deve\". \"Por dia\" means per day.",
           },
           {
@@ -2309,13 +2309,13 @@ export const PT_A2_U12: Lesson[] = [
       {
         type: "dictation",
         audio: "Ela ficou de cama ontem.",
-        explanation: "\"Ficou de cama\" means she stayed in bed because she was sick. It's a finished event, so the perfeito.",
+        explanation: "\"Ficou de cama\" means she stayed in bed because she was ill. It's a finished event, so the perfeito.",
       },
       {
         type: "speak",
         text: "Fiquei em casa porque estava com febre.",
         prompt: "Say it in Portuguese: I stayed home because I had a fever.",
-        tip: "The final -e of \"febre\" sounds like ee ('FÉ-bree'), and the qu in \"fiquei\" is a plain k: 'fee-KAY'.",
+        tip: "The final -e of \"febre\" sounds like i, and the qu in \"fiquei\" is a plain k.",
         explanation: "\"Fiquei em casa\" is the event in the perfeito. \"Estava com febre\" is the background state in the imperfeito.",
       },
       {

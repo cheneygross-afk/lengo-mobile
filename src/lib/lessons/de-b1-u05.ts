@@ -159,10 +159,10 @@ export const DE_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Before eating, I wash my hands.'?",
+        question: "Which sentence is correct?",
         options: ["Vor dem Essen wasche ich mir die Hände.", "Bevor dem Essen wasche ich mir die Hände.", "Vorher dem Essen wasche ich mir die Hände.", "Vor ich esse, wasche ich mir die Hände."],
         correctIndex: 0,
-        explanation: "Before a noun (\"dem Essen\") you need the preposition \"vor\" + dative. \"*Bevor dem Essen*\" uses the conjunction, which must start a full clause (\"bevor ich esse\").",
+        explanation: "Noun: \"vor\" + dative.",
       },
       {
         type: "translate",
@@ -355,10 +355,10 @@ export const DE_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'While I work, I listen to music.'?",
+        question: "Which sentence is correct?",
         options: ["Während ich arbeite, höre ich Musik.", "Während arbeitend höre ich Musik.", "Während ich arbeite, ich höre Musik.", "Während ich höre Musik, arbeite ich."],
         correctIndex: 0,
-        explanation: "\"Während\" + a full clause with the verb last, then the main verb first: \"höre ich\". \"*..., ich höre Musik*\" puts the subject first after the clause.",
+        explanation: "Full clause, verb last, then the main verb.",
       },
       {
         type: "translate",
@@ -564,10 +564,10 @@ export const DE_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'As soon as I've arrived, I'll call.'?",
+        question: "Which sentence is correct?",
         options: ["Sobald ich angekommen bin, rufe ich an.", "Sobald ich angekommen, rufe ich an.", "Sobald ich bin angekommen, rufe ich an.", "Sobald ich angekommen bin, ich rufe an."],
         correctIndex: 0,
-        explanation: "A full Perfekt with the auxiliary last (\"angekommen bin\"), then the main verb straight after the comma. \"*Sobald ich angekommen, ...*\" leaves out the auxiliary.",
+        explanation: "Full Perfekt with the auxiliary last; verb after the comma.",
       },
       {
         type: "translate",
@@ -1775,10 +1775,10 @@ export const DE_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'It has been raining ever since I got here.'?",
+        question: "Which sentence is spelled and punctuated correctly?",
         options: ["Seitdem ich hier bin, regnet es.", "Seit dem ich hier bin, regnet es.", "Seitdem ich hier bin regnet es.", "Seit dem ich hier bin regnet es."],
         correctIndex: 0,
-        explanation: "The conjunction \"seitdem\" is one word, and the clause is closed by a comma. \"*Seit dem*\" (two words) is a preposition + article, as in \"seit dem Sommer\".",
+        explanation: "Conjunction \"seitdem\" is one word, plus a comma.",
       },
       {
         type: "translate",
@@ -2367,10 +2367,10 @@ export const DE_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'When I came on stage, my hands were shaking.'?",
+        question: "Which sentence is correct?",
         options: ["Als ich auf die Bühne kam, zitterten meine Hände.", "Wenn ich gestern auf die Bühne kam, zitterten meine Hände.", "Als ich auf die Bühne kam, meine Hände zitterten.", "Als ich kam auf die Bühne, zitterten meine Hände."],
         correctIndex: 0,
-        explanation: "One occasion in the past takes \"als\"; verb last in the clause, then the main verb. \"*Wenn ich gestern ...*\" is wrong because \"wenn\" is for repeated or future events.",
+        explanation: "One occasion: \"als\"; verb last in the clause, main verb first after the comma.",
       },
       {
         type: "translate",

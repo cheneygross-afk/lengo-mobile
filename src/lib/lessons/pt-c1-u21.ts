@@ -57,11 +57,11 @@ export const PT_C1_U21: Lesson[] = [
         heading: "União, estados e municípios",
         body: [
           "Brazil is a federation of three levels: \"a União\" (the federal level), 26 \"estados\" plus the \"Distrito Federal\", and more than 5,500 \"municípios\". A \"município\" is not just a city: it covers its whole territory, rural districts included, and has real constitutional powers. Each level has its own executive and legislature: the \"prefeito\" and the \"Câmara Municipal\" of \"vereadores\"; the \"governador\" and the \"Assembleia Legislativa\" of \"deputados estaduais\"; the president and Congress.",
-          "Who handles what matters when you have a complaint. The \"prefeitura\" runs local buses, trash collection, health clinics and most early schooling; the \"governo estadual\" runs the police and most secondary schools; the União handles the currency, defense, foreign affairs and the \"Polícia Federal\", which also issues passports and foreigners' documents. Note the trap: \"a prefeitura\" is both the town hall building and the city government.",
+          "Who handles what matters when you have a complaint. The \"prefeitura\" runs local buses, trash collection, health posts and most early schooling; the \"governo estadual\" runs the police and most secondary schools; the União handles the currency, defense, foreign affairs and the \"Polícia Federal\", which also issues passports and foreigners' documents. Note the trap: \"a prefeitura\" is both the town hall building and the city government.",
           "Titles take a feminine form when a woman holds the post: \"a prefeita\", \"a governadora\", \"a vereadora\", \"a deputada\", \"a senadora\", \"a ministra\". For the head of state both \"a presidente\" and \"a presidenta\" are correct.",
         ],
         examples: [
-          { es: "O transporte coletivo municipal é responsabilidade da prefeitura.", en: "Local public transportation is the city government's responsibility." },
+          { es: "O transporte coletivo municipal é responsabilidade da prefeitura.", en: "Local public transport is the city government's responsibility." },
           { es: "A segurança pública cabe principalmente aos governos estaduais.", en: "Public security falls mainly to the state governments." },
           { es: "A prefeita de Recife se reuniu com o governador de Pernambuco.", en: "Recife's mayor met the governor of Pernambuco." },
           { es: "Os vereadores aprovaram o novo plano diretor da cidade.", en: "The city council members approved the city's new master plan." },
@@ -130,9 +130,8 @@ export const PT_C1_U21: Lesson[] = [
           },
           {
             type: "speak",
-            prompt: "Say it in Portuguese: It falls to the Supreme Federal Court to guard the Constitution.",
             text: "Cabe ao Supremo Tribunal Federal guardar a Constituição.",
-            tip: "Stress soo-PRE-moo and tri-boo-NAU; a final l sounds like u, so federal is fe-de-RAU.",
+            tip: "Stress su-PRE-mo and tri-bu-NAL; the final l of federal sounds like a w: fede-RAW.",
             explanation: "\"Guardar a Constituição\" is the classic phrase for the STF's role, straight from article 102.",
           },
         ],
@@ -170,10 +169,10 @@ export const PT_C1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The mayor of Salvador announced new health clinics.",
+        source: "The mayor of Salvador announced new health posts.",
         answer: "O prefeito de Salvador anunciou novos postos de saúde.",
         altAnswers: ["A prefeita de Salvador anunciou novos postos de saúde.", "O prefeito de Salvador anunciou a abertura de novos postos de saúde.", "A prefeitura de Salvador anunciou novos postos de saúde."],
-        explanation: "\"Posto de saúde\" (health clinic) is run by the \"prefeitura\", which is why the mayor announces it.",
+        explanation: "\"Posto de saúde\" (health post) is run by the \"prefeitura\", which is why the mayor announces it.",
       },
       {
         type: "word-order",
@@ -251,7 +250,7 @@ export const PT_C1_U21: Lesson[] = [
         body: [
           "Voting in Brazil is compulsory for literate citizens aged 18 to 70 and optional (\"facultativo\") for 16- and 17-year-olds, people over 70 and those who cannot read. To vote you need a \"título de eleitor\", the voter registration document; \"tirar o título\" is to register. Each voter belongs to a \"zona\" and a \"seção eleitoral\", the polling station.",
           "Missing an election without \"justificar a ausência\" (giving a reason, now done in the e-Título app) brings a small fine, and an unresolved record can block a passport or a public-sector job. Citizens can also be summoned to staff a polling station as \"mesário\"; that is a duty too, not a favor.",
-          "Watch the prepositions. You \"vota em\" a candidate (\"votei na Ana\", \"em quem você vai votar?\"), and a ballot can be \"em branco\" (blank) or \"nulo\" (null): \"votar em branco\", \"anular o voto\". \"Eleitor\" is a voter; \"eleitorado\" the electorate.",
+          "Watch the prepositions. You \"vota em\" a candidate (\"votei na Ana\", \"em quem você vai votar?\"), and a ballot can be \"em branco\" (blank) or \"nulo\" (spoiled): \"votar em branco\", \"anular o voto\". \"Eleitor\" is a voter; \"eleitorado\" the electorate.",
         ],
         examples: [
           { es: "No Brasil, o voto é obrigatório para quem tem entre 18 e 70 anos.", en: "In Brazil, voting is compulsory for people aged 18 to 70." },
@@ -292,14 +291,14 @@ export const PT_C1_U21: Lesson[] = [
         heading: "A urna eletrônica e os dois turnos",
         body: [
           "Brazil has voted on the \"urna eletrônica\" since 1996, and the whole process is run by the \"Justiça Eleitoral\", headed by the \"TSE\" (Tribunal Superior Eleitoral). The count (\"a apuração\") usually ends on election night. General elections (president, governors, senators, deputies) and municipal ones (mayors, council members) alternate every two years.",
-          "For president, governor and mayor in cities with over 200,000 voters, a candidate wins outright with more than half of the \"votos válidos\", which exclude blank and null ballots. Otherwise the top two go to a \"segundo turno\" a few weeks later. News collocations: \"vencer no primeiro turno\", \"ir para o segundo turno\", \"disputar o segundo turno contra\", \"ser eleito com 52% dos votos válidos\".",
+          "For president, governor and mayor in cities with over 200,000 voters, a candidate wins outright with more than half of the \"votos válidos\", which exclude blank and spoiled ballots. Otherwise the top two go to a \"segundo turno\" a few weeks later. News collocations: \"vencer no primeiro turno\", \"ir para o segundo turno\", \"disputar o segundo turno contra\", \"ser eleito com 52% dos votos válidos\".",
           "\"Turno\" is a round here, not a shift at work. Deputies and council members are elected by proportional representation, so they never go to a second round.",
         ],
         examples: [
           { es: "O Brasil usa a urna eletrônica desde 1996.", en: "Brazil has used electronic voting machines since 1996." },
           { es: "A apuração terminou pouco depois das oito da noite.", en: "The count finished shortly after eight in the evening." },
           { es: "Nenhum candidato obteve mais da metade dos votos válidos.", en: "No candidate won more than half of the valid votes." },
-          { es: "Os dois mais votados vão disputar o segundo turno no fim de outubro.", en: "The top two will face each other in the runoff at the end of October." },
+          { es: "Os dois mais votados vão disputar o segundo turno no fim de outubro.", en: "The top two will face each other in the run-off at the end of October." },
           { es: "A prefeita foi reeleita no primeiro turno, com 58% dos votos válidos.", en: "The mayor was re-elected in the first round, with 58% of the valid votes." },
         ],
         checkpoint: [
@@ -310,7 +309,7 @@ export const PT_C1_U21: Lesson[] = [
             source: "The election will go to a second round.",
             answer: "A eleição vai para o segundo turno.",
             altAnswers: ["A eleição vai ser decidida no segundo turno.", "A eleição será decidida no segundo turno.", "A eleição irá para o segundo turno.", "Vai ter segundo turno.", "Haverá segundo turno."],
-            explanation: "\"Ir para o segundo turno\" is the set phrase. \"Turno\" is the electoral round; a runoff is never \"uma segunda volta\" in Brazil (that is Portugal).",
+            explanation: "\"Ir para o segundo turno\" is the set phrase. \"Turno\" is the electoral round; a run-off is never \"uma segunda volta\" in Brazil (that is Portugal).",
           },
           {
             type: "listen-choose",
@@ -318,7 +317,7 @@ export const PT_C1_U21: Lesson[] = [
             question: "What does it mean?",
             options: ["The candidate was elected with 52% of the valid votes.", "The candidate was elected with 52% of all votes, blank ones included.", "The candidate lost with 52% of the valid votes.", "The candidate was elected with 42% of the valid votes."],
             correctIndex: 0,
-            explanation: "\"Votos válidos\" leave out blank and null ballots, which is why winners' percentages refer to them.",
+            explanation: "\"Votos válidos\" leave out blank and spoiled ballots, which is why winners' percentages refer to them.",
           },
           {
             type: "translate",
@@ -327,7 +326,7 @@ export const PT_C1_U21: Lesson[] = [
             source: "She won in the first round.",
             answer: "Ela venceu no primeiro turno.",
             altAnswers: ["Ela ganhou no primeiro turno.", "Venceu no primeiro turno.", "Ganhou no primeiro turno.", "Ela foi eleita no primeiro turno.", "Foi eleita no primeiro turno.", "Ela ganhou em primeiro turno.", "Ela venceu em primeiro turno."],
-            explanation: "\"Vencer\" or \"ganhar no primeiro turno\": outright, with no runoff. The press also writes \"em primeiro turno\".",
+            explanation: "\"Vencer\" or \"ganhar no primeiro turno\": outright, with no run-off. The press also writes \"em primeiro turno\".",
           },
         ],
       },
@@ -342,7 +341,7 @@ export const PT_C1_U21: Lesson[] = [
           { es: "Segundo a última pesquisa, os dois candidatos estão em empate técnico.", en: "According to the latest poll, the two candidates are statistically tied." },
           { es: "A margem de erro é de dois pontos percentuais, para mais ou para menos.", en: "The margin of error is two percentage points, plus or minus." },
           { es: "No horário eleitoral, cada partido tem um tempo proporcional à sua bancada.", en: "In the free election broadcasts, each party gets time in proportion to its group in Congress." },
-          { es: "O candidato da oposição virou no segundo turno.", en: "The opposition candidate came from behind in the runoff." },
+          { es: "O candidato da oposição virou no segundo turno.", en: "The opposition candidate came from behind in the run-off." },
           { es: "A abstenção chegou a 20% em algumas capitais.", en: "Abstention reached 20% in some state capitals." },
           { es: "O partido teria usado recursos não declarados na campanha.", en: "The party allegedly used undeclared funds in the campaign." },
         ],
@@ -390,10 +389,10 @@ export const PT_C1_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Many voters [cast a blank vote] in the runoff.",
+        en: "Many voters [cast a blank vote] in the run-off.",
         sentence: "Muitos eleitores ___ no segundo turno.",
         answer: "votaram em branco",
-        explanation: "\"Votar em branco\" leaves the ballot blank; \"anular o voto\" casts a null vote. Neither counts among the \"votos válidos\".",
+        explanation: "\"Votar em branco\" leaves the ballot blank; \"anular o voto\" spoils it. Neither counts among the \"votos válidos\".",
       },
       {
         type: "translate",
@@ -453,7 +452,7 @@ export const PT_C1_U21: Lesson[] = [
         type: "speak",
         text: "Nenhum candidato teve mais da metade dos votos válidos, então vai ter segundo turno.",
         prompt: "Say it in Portuguese: No candidate got more than half of the valid votes, so there'll be a second round.",
-        tip: "\"Válidos\" is stressed on the first syllable: VÁ-lee-doos.",
+        tip: "\"Válidos\" is stressed on the first syllable: VÁ-li-dos.",
         explanation: "Spoken Portuguese uses \"vai ter\" for there will be; the news writes \"haverá segundo turno\".",
       },
       {
@@ -564,7 +563,7 @@ export const PT_C1_U21: Lesson[] = [
         heading: "Medida provisória, PEC e a notícia política",
         body: [
           "Two special instruments fill the news. A \"medida provisória\" (MP) is issued by the president in cases of \"relevância e urgência\" and has the force of law at once. Congress must vote on it within 60 days, extendable by 60; otherwise it \"perde a validade\" (the press says \"caduca\"). A \"PEC\" (\"proposta de emenda à Constituição\") needs two rounds of voting in each house and three fifths of the votes: 308 deputies and 49 senators. It is not sanctioned: Congress itself \"promulga\" the amendment.",
-          "Political news has fixed habits. The weekday is followed by the date in parentheses: \"A Câmara aprovou nesta terça-feira (12)\". The vote count is \"por 320 votos a 140\", and the next stage is announced with \"o texto segue para\". The present often stands for the near future: \"o Senado vota a PEC na próxima semana\".",
+          "Political news has fixed habits. The weekday is followed by the date in brackets: \"A Câmara aprovou nesta terça-feira (12)\". The vote count is \"por 320 votos a 140\", and the next stage is announced with \"o texto segue para\". The present often stands for the near future: \"o Senado vota a PEC na próxima semana\".",
         ],
         examples: [
           { es: "O governo editou uma medida provisória para socorrer os municípios atingidos pela enchente.", en: "The government issued a provisional measure to help the municipalities hit by the flood." },
@@ -681,7 +680,7 @@ export const PT_C1_U21: Lesson[] = [
         type: "speak",
         text: "Aprovado na Câmara, o projeto segue para o Senado.",
         prompt: "Say it in Portuguese, starting with a participle: Passed in the Chamber, the bill goes on to the Senate.",
-        tip: "Nasalize the first syllable of \"Câmara\": CÃ-ma-ra, with the stress on it.",
+        tip: "Nasalize the first syllable of \"Câmara\": CÂ-ma-ra, with the stress on it.",
         explanation: "The participle clause opens the sentence and agrees with \"o projeto\".",
       },
       {
@@ -716,7 +715,7 @@ export const PT_C1_U21: Lesson[] = [
           { es: "A Constituição assegura a todos o direito à saúde.", en: "The Constitution guarantees everyone the right to health." },
           { es: "O artigo 5º garante o direito de ir e vir.", en: "Article 5 guarantees freedom of movement." },
           { es: "A lei prevê multa para quem descumprir as regras.", en: "The law provides for a fine for anyone who breaks the rules." },
-          { es: "É vedada a cobrança de taxa de matrícula nas escolas públicas.", en: "Charging an enrollment fee in public schools is prohibited." },
+          { es: "É vedada a cobrança de taxa de matrícula nas escolas públicas.", en: "Charging an enrollment fee in state schools is prohibited." },
           { es: "Ninguém será submetido a tortura nem a tratamento desumano.", en: "No one shall be subjected to torture or inhuman treatment." },
         ],
         checkpoint: [
@@ -750,7 +749,7 @@ export const PT_C1_U21: Lesson[] = [
         heading: "O ECA e o Estatuto da Pessoa Idosa",
         body: [
           "The \"ECA\" (\"Estatuto da Criança e do Adolescente\", 1990) treats children as people with rights under \"proteção integral\". A \"criança\" is under 12; an \"adolescente\" is 12 to 18. Read with the Constitution (art. 7), it bans work under 16, except as an apprentice (\"aprendiz\") from 14. Each municipality has a \"Conselho Tutelar\", elected by the community, which acts when a child's rights are violated.",
-          "The \"Estatuto do Idoso\" (2003) was renamed \"Estatuto da Pessoa Idosa\" in 2022, an example of the person-first language from Unit 19. It covers people aged 60 and over: priority service (\"atendimento prioritário\"), half-price tickets to cultural events (\"meia-entrada\") and, from 65, free local public transportation.",
+          "The \"Estatuto do Idoso\" (2003) was renamed \"Estatuto da Pessoa Idosa\" in 2022, an example of the person-first language from Unit 11. It covers people aged 60 and over: priority service (\"atendimento prioritário\"), half-price tickets to cultural events (\"meia-entrada\") and, from 65, free local public transport.",
           "Paraphrasing a law usually needs \"ter direito a\" for the citizen's angle: \"quem tem mais de 65 anos tem direito à gratuidade no ônibus\". \"Gratuidade\" is the formal noun for a free entitlement; in conversation people say \"não paga\" or \"passe livre\".",
         ],
         examples: [
@@ -806,9 +805,8 @@ export const PT_C1_U21: Lesson[] = [
           },
           {
             type: "speak",
-            prompt: "Say it in Portuguese: The Maria da Penha Law protects women against domestic and family violence.",
             text: "A Lei Maria da Penha protege as mulheres contra a violência doméstica e familiar.",
-            tip: "In \"Penha\", nh is like the ny in canyon: PẼ-nya.",
+            tip: "In \"Penha\", nh is like the ny in canyon: PE-nya.",
             explanation: "The law's own scope: \"violência doméstica e familiar contra a mulher\".",
           },
         ],
@@ -887,7 +885,7 @@ export const PT_C1_U21: Lesson[] = [
         type: "listen-choose",
         audio: "A partir dos sessenta e cinco anos, o transporte coletivo urbano é gratuito.",
         question: "What does it mean?",
-        options: ["From age 65, local public transportation is free.", "From age 60, local public transportation is half price.", "Up to age 65, local public transportation is free.", "From age 65, intercity buses are free."],
+        options: ["From age 65, local public transport is free.", "From age 60, local public transport is half price.", "Up to age 65, local public transport is free.", "From age 65, intercity buses are free."],
         correctIndex: 0,
         explanation: "\"A partir dos 65 anos\" is from 65 on, and \"urbano\" limits it to city transport.",
       },
@@ -931,7 +929,7 @@ export const PT_C1_U21: Lesson[] = [
           "Petitions open with \"Nós, abaixo-assinados, moradores de...\" and close with requests in the polite subjunctive: \"solicitamos que a prefeitura instale...\". \"Solicitar que\" and \"pedir que\" always take the subjunctive, because they express a wish, not a fact.",
         ],
         examples: [
-          { es: "Os moradores do bairro organizaram um abaixo-assinado contra o fechamento do posto de saúde.", en: "Residents of the neighborhood organized a petition against the closure of the health clinic." },
+          { es: "Os moradores do bairro organizaram um abaixo-assinado contra o fechamento do posto de saúde.", en: "Residents of the neighborhood organized a petition against the closure of the health post." },
           { es: "Em duas semanas, a gente colheu mais de três mil assinaturas.", en: "In two weeks we gathered more than three thousand signatures." },
           { es: "O abaixo-assinado foi entregue ao presidente da Câmara Municipal.", en: "The petition was handed to the president of the city council." },
           { es: "A Lei da Ficha Limpa nasceu de um projeto de iniciativa popular.", en: "The Clean Record Law began as a citizens' initiative bill." },
@@ -1152,7 +1150,7 @@ export const PT_C1_U21: Lesson[] = [
       {
         heading: "Acabar em pizza e toma lá dá cá",
         body: [
-          "\"Acabar em pizza\" (to end in pizza) means a scandal or investigation ends with nobody punished. The usual story traces it to a heated board meeting of Palmeiras, a São Paulo soccer club with Italian roots, in the 1960s, which ended with everyone eating pizza together. Today it is the standard skeptical comment on any inquiry: \"essa CPI vai acabar em pizza\".",
+          "\"Acabar em pizza\" (to end in pizza) means a scandal or investigation ends with nobody punished. The usual story traces it to a heated board meeting of Palmeiras, a São Paulo football club with Italian roots, in the 1960s, which ended with everyone eating pizza together. Today it is the standard skeptical comment on any inquiry: \"essa CPI vai acabar em pizza\".",
           "\"Toma lá, dá cá\" (take this, give that) is the trading of political support for favors: posts in government (\"cargos\"), money for a deputy's region (\"emendas parlamentares\") or both. Its more technical cousin is \"fisiologismo\", support given for personal or party advantage rather than ideas.",
           "Both are loaded. In a neutral summary, write \"a investigação terminou sem punições\" and \"a negociação de cargos em troca de apoio\". A \"CPI\" (\"Comissão Parlamentar de Inquérito\") is a congressional inquiry, the most common setting for both idioms.",
         ],
@@ -1360,13 +1358,13 @@ export const PT_C1_U21: Lesson[] = [
       {
         type: "dictation",
         audio: "Ninguém aguenta mais tanta politicagem.",
-        explanation: "\"Ninguém aguenta mais\": nobody can stand it anymore. \"Politicagem\" ends in -agem, with a soft g.",
+        explanation: "\"Ninguém aguenta mais\": nobody can stand it any more. \"Politicagem\" ends in -agem, with a soft g.",
       },
       {
         type: "speak",
         text: "Essa CPI vai acabar em pizza, como sempre.",
         prompt: "Say it in Portuguese with the idiom: This inquiry will end with no one punished, as usual.",
-        tip: "Brazilians say \"pizza\" with a ts sound: PEE-tsa.",
+        tip: "Brazilians say \"pizza\" with a ts sound: PI-tsa.",
         explanation: "\"CPI\" is read letter by letter: cê-pê-í.",
       },
     ],
@@ -1385,7 +1383,7 @@ export const PT_C1_U21: Lesson[] = [
         heading: "Who: manifestantes ou baderneiros?",
         body: [
           "The quickest way to take sides is to name the people. \"Manifestantes\" is neutral; \"baderneiros\" (troublemakers) and \"vândalos\" condemn; \"cidadãos indignados\" sympathizes. The same split runs through land disputes: \"ocupação\" is the term movements and much of the press use, \"invasão\" the term owners use. A neutral text either picks the most descriptive word or attributes each label: \"o que o governo chama de invasão\".",
-          "Reporting verbs carry slant too. \"Afirmou\" and \"disse\" are neutral. \"Admitiu\" and \"reconheceu\" imply the speaker conceded something damaging, \"alegou\" signals doubt, and \"disparou\" or \"atacou\" dramatize a plain statement. Unit 15 gave you the stance markers; here the slant hides in single words.",
+          "Reporting verbs carry slant too. \"Afirmou\" and \"disse\" are neutral. \"Admitiu\" and \"reconheceu\" imply the speaker conceded something damaging, \"alegou\" signals doubt, and \"disparou\" or \"atacou\" dramatize a plain statement. Unit 9 gave you the stance markers; here the slant hides in single words.",
         ],
         examples: [
           { es: "Cerca de dois mil manifestantes ocuparam a avenida.", en: "Around two thousand demonstrators filled the avenue." },
@@ -1535,7 +1533,7 @@ export const PT_C1_U21: Lesson[] = [
         source: "The stadium cost 40 million.",
         answer: "O estádio custou 40 milhões.",
         altAnswers: ["O estádio custou 40 milhões de reais.", "A obra do estádio custou 40 milhões.", "O estádio custou quarenta milhões.", "A construção do estádio custou 40 milhões."],
-        explanation: "Removing the verb of judgment (\"torrou\", blew) leaves the fact, which the reader can judge.",
+        explanation: "Removing the verb of judgement (\"torrou\", blew) leaves the fact, which the reader can judge.",
       },
       {
         type: "translate",
@@ -1615,7 +1613,7 @@ export const PT_C1_U21: Lesson[] = [
           { es: "Bom dia a todos. Declaro aberta a presente audiência pública.", en: "Cláudia: Good morning, everyone. I declare this public hearing open." },
           { es: "Concedo a palavra ao senhor Marcos Teixeira, da Secretaria de Mobilidade.", en: "I give the floor to Mr. Marcos Teixeira, of the mobility department." },
           { es: "O projeto prevê uma faixa exclusiva de ônibus em toda a extensão da avenida.", en: "Marcos: The project provides for a dedicated bus lane along the whole avenue." },
-          { es: "Concluídas as obras, o tempo de viagem será reduzido em cerca de 30%.", en: "Once construction is completed, travel times will be cut by about 30%." },
+          { es: "Concluídas as obras, o tempo de viagem será reduzido em cerca de 30%.", en: "Once the works are completed, journey times will be cut by about 30%." },
           { es: "Os números são de um estudo feito pela própria Secretaria.", en: "The figures come from a study carried out by the department itself." },
         ],
         checkpoint: [
@@ -1631,7 +1629,7 @@ export const PT_C1_U21: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Once construction is completed], travel times will be cut by 30%.",
+            en: "[Once the works are completed], journey times will be cut by 30%.",
             sentence: "___, o tempo de viagem será reduzido em 30%.",
             answer: "Concluídas as obras",
             altAnswers: ["Terminadas as obras", "Finalizadas as obras"],
@@ -1650,7 +1648,7 @@ export const PT_C1_U21: Lesson[] = [
         heading: "Os moradores se manifestam",
         body: [
           "Three residents speak. Dona Conceição, a retired teacher, supports the bus lane but fears for pedestrians. Seu Roberto, who owns a bakery, objects: 120 parking spaces will go. Larissa, a student, rides the bus every day and wants more. Each opens politely (\"Boa tarde à mesa e a todos os presentes\"), concedes before objecting (\"Entendo a importância do projeto, mas...\"), and turns worries into demands with the subjunctive: \"Queremos que a prefeitura garanta...\", \"É fundamental que haja...\".",
-          "Seu Roberto gets heated, and the chair keeps order: \"Peço ao senhor que conclua\", \"Por favor, vamos respeitar o tempo de cada um\". When interrupted he holds the floor with \"Só um minutinho, deixa eu terminar\", the spoken turn-keeping you learned in Unit 13, softened by \"por favor\".",
+          "Seu Roberto gets heated, and the chair keeps order: \"Peço ao senhor que conclua\", \"Por favor, vamos respeitar o tempo de cada um\". When interrupted he holds the floor with \"Só um minutinho, deixa eu terminar\", the spoken turn-keeping you learned in Unit 17, softened by \"por favor\".",
         ],
         examples: [
           { es: "Boa tarde à mesa e a todos os presentes.", en: "Dona Conceição: Good afternoon to the panel and to everyone here." },
@@ -1693,7 +1691,7 @@ export const PT_C1_U21: Lesson[] = [
         heading: "Respostas e encaminhamentos",
         body: [
           "Marcos answers each point. He acknowledges (\"A preocupação da senhora é legítima\"), commits (\"A prefeitura se compromete a instalar...\"), offers an alternative (\"Estamos estudando a criação de vagas em ruas transversais\") and hedges what he can't promise (\"Não posso garantir, mas vou levar a proposta à Secretaria\").",
-          "The hearing ends with \"encaminhamentos\" (agreed next steps), recorded in the \"ata\" from Unit 7, and the closing formula: \"Nada mais havendo a tratar, declaro encerrada a audiência\". Note the reduced gerund clause \"nada mais havendo\": with nothing further to discuss.",
+          "The hearing ends with \"encaminhamentos\" (agreed next steps), recorded in the \"ata\" from Unit 5, and the closing formula: \"Nada mais havendo a tratar, declaro encerrada a audiência\". Note the reduced gerund clause \"nada mais havendo\": with nothing further to discuss.",
         ],
         examples: [
           { es: "A preocupação da senhora é legítima, e vamos levá-la em conta.", en: "Marcos: Your concern is legitimate, and we'll take it into account." },
@@ -1715,7 +1713,7 @@ export const PT_C1_U21: Lesson[] = [
           {
             type: "speak",
             text: "Nada mais havendo a tratar, declaro encerrada a audiência.",
-            tip: "\"Havendo\": the h is silent, a-VẼN-doo.",
+            tip: "\"Havendo\": the h is silent, a-VEN-do.",
             explanation: "The gerund clause \"nada mais havendo a tratar\" is a fixed closing formula of meetings and minutes.",
           },
         ],
@@ -1769,7 +1767,7 @@ export const PT_C1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Your concern is legitimate, ma'am.",
+        source: "Your concern is legitimate, madam.",
         answer: "A preocupação da senhora é legítima.",
         altAnswers: ["Sua preocupação é legítima, senhora.", "A sua preocupação é legítima, senhora.", "A preocupação da senhora é legítima, sim.", "A senhora tem uma preocupação legítima."],
         explanation: "With \"a senhora\", Brazilians prefer \"da senhora\" to \"sua\", which could also mean his or their.",
@@ -1801,7 +1799,7 @@ export const PT_C1_U21: Lesson[] = [
       {
         type: "dictation",
         audio: "A prefeitura se compromete a instalar novos semáforos.",
-        explanation: "\"Comprometer-se a\" + infinitive; \"semáforo\" is stressed on the second syllable, se-MÁ-fo-roo.",
+        explanation: "\"Comprometer-se a\" + infinitive; \"semáforo\" is stressed on the second syllable, se-MÁ-fo-ro.",
       },
       {
         type: "speak",
@@ -1880,7 +1878,7 @@ export const PT_C1_U21: Lesson[] = [
           { es: "O STF declarou a lei inconstitucional.", en: "The Supreme Court declared the law unconstitutional." },
           { es: "O Congresso aprovou o projeto, e o presidente o sancionou.", en: "Congress passed the bill, and the president signed it." },
           { es: "O Senado rejeitou o projeto por 45 votos a 30.", en: "The Senate rejected the bill by 45 votes to 30." },
-          { es: "O Congresso derrubou o veto ao reajuste.", en: "Congress overrode the veto on the pay raise." },
+          { es: "O Congresso derrubou o veto ao reajuste.", en: "Congress overrode the veto on the pay rise." },
           { es: "A lei entra em vigor no dia 1º de janeiro.", en: "The law comes into force on January 1." },
         ],
         checkpoint: [
@@ -2028,7 +2026,7 @@ export const PT_C1_U21: Lesson[] = [
         question: "What did you hear?",
         options: ["A empresa mudou a política de privacidade.", "A empresa mudou a polícia de privacidade.", "A empresa mudou as políticas de privacidade.", "A empresa mudou o político de privacidade."],
         correctIndex: 0,
-        explanation: "\"Política\" (po-LÍ-chee-ca) and \"polícia\" (po-LÍ-sya) differ by one syllable, and the meaning changes completely.",
+        explanation: "\"Política\" (po-LÍ-ti-ca) and \"polícia\" (po-LÍ-cia) differ by one syllable, and the meaning changes completely.",
       },
       {
         type: "dictation",
@@ -2056,7 +2054,7 @@ export const PT_C1_U21: Lesson[] = [
       {
         heading: "Addressee, identification and the facts",
         body: [
-          "Your mission: the residents of the Boqueirão neighborhood in Curitiba want the city council to act on the Praça das Acácias (an invented square), where the lighting has failed and the playground is broken. You draft the \"abaixo-assinado\". It is addressed to the council's president with the formal address of Unit 7: \"Excelentíssimo Senhor Presidente da Câmara Municipal de Curitiba\", then \"Vossa Excelência\" with third-person verbs.",
+          "Your mission: the residents of the Boqueirão neighborhood in Curitiba want the city council to act on the Praça das Acácias (an invented square), where the lighting has failed and the playground is broken. You draft the \"abaixo-assinado\". It is addressed to the council's president with the formal address of Unit 5: \"Excelentíssimo Senhor Presidente da Câmara Municipal de Curitiba\", then \"Vossa Excelência\" with third-person verbs.",
           "The opening identifies the signatories: \"Nós, abaixo-assinados, moradores do bairro Boqueirão, vimos, por meio deste, expor e solicitar o que segue\". The facts follow in short, dated, verifiable sentences: \"Desde março, oito dos doze postes da praça estão apagados\". Facts first, adjectives later or never; a petition persuades with precision.",
         ],
         examples: [
@@ -2134,7 +2132,7 @@ export const PT_C1_U21: Lesson[] = [
           { es: "Solicitamos que a iluminação da praça seja consertada no prazo de 30 dias.", en: "We request that the square's lighting be repaired within 30 days." },
           { es: "Solicitamos ainda a reforma do parquinho e a poda das árvores.", en: "We further request the renovation of the playground and the pruning of the trees." },
           { es: "Os moradores se colocam à disposição para uma reunião com a Comissão de Urbanismo.", en: "The residents are available for a meeting with the urban planning committee." },
-          { es: "Certos de contar com a atenção de Vossa Excelência, subscrevemo-nos.", en: "Trusting in your attention to this matter, we remain, respectfully yours." },
+          { es: "Certos de contar com a atenção de Vossa Excelência, subscrevemo-nos.", en: "Trusting in your attention to this matter, we remain, yours faithfully." },
           { es: "Curitiba, 14 de outubro de 2026.", en: "Curitiba, October 14, 2026." },
         ],
         checkpoint: [
@@ -2345,7 +2343,7 @@ export const PT_C1_U21: Lesson[] = [
       {
         heading: "The neutral two-sentence summary",
         body: [
-          "The last transformation squeezes everything into two sentences: the first states the fact with its agent, date and figures; the second gives the next step or the main positions, each attributed. No adjectives of judgment, no idioms, no \"Centrão\" without explanation.",
+          "The last transformation squeezes everything into two sentences: the first states the fact with its agent, date and figures; the second gives the next step or the main positions, each attributed. No adjectives of judgement, no idioms, no \"Centrão\" without explanation.",
           "Compare a loaded source, \"Na calada da noite, Câmara aprova o desmonte da proteção ambiental\", with its neutral summary: \"A Câmara aprovou na madrugada desta quarta-feira um projeto que altera as regras de licenciamento ambiental. Ambientalistas criticam a mudança; os defensores afirmam que ela reduz a burocracia.\" The time stays (\"na madrugada\" is a fact), the insinuation goes.",
         ],
         examples: [
@@ -2478,7 +2476,7 @@ export const PT_C1_U21: Lesson[] = [
     level: "PT-C1",
     number: 12,
     title: "Spiral Review: Public Life",
-    summary: "Mix this unit's civic vocabulary with the history of Unit 19, the media literacy of Unit 15 and the official register of Unit 7 in fresh sentences.",
+    summary: "Mix this unit's civic vocabulary with the history of Unit 11, the media literacy of Unit 9 and the official register of Unit 5 in fresh sentences.",
     duration: "16 min",
     kind: "review",
     format: "Spiral Review",
@@ -2486,7 +2484,7 @@ export const PT_C1_U21: Lesson[] = [
       {
         heading: "History meets the institutions",
         body: [
-          "The 1988 Constitution closed the transition from the dictatorship. In 1984 the \"Diretas Já\" campaign filled squares demanding direct presidential elections; the amendment was rejected, but in 1989 Brazilians voted directly for president for the first time since 1960. Narrate with the tools of Unit 19: the passive, participle clauses (\"promulgada a Constituição\") and the historical present.",
+          "The 1988 Constitution closed the transition from the dictatorship. In 1984 the \"Diretas Já\" campaign filled squares demanding direct presidential elections; the amendment was rejected, but in 1989 Brazilians voted directly for president for the first time since 1960. Narrate with the tools of Unit 11: the passive, participle clauses (\"promulgada a Constituição\") and the historical present.",
         ],
         examples: [
           { es: "Em 1984, milhões de pessoas foram às ruas pelas Diretas Já.", en: "In 1984, millions of people took to the streets for the Diretas Já campaign." },
@@ -2518,7 +2516,7 @@ export const PT_C1_U21: Lesson[] = [
       {
         heading: "Reading political news critically",
         body: [
-          "Unit 15's distancing tools apply directly to politics: \"teria\" + participle for unconfirmed allegations, \"supostamente\", \"segundo a denúncia\". Election periods also bring \"desinformação\" about the \"urnas eletrônicas\". A checked fact needs its source: \"segundo o TSE\", \"de acordo com auditorias independentes\".",
+          "Unit 9's distancing tools apply directly to politics: \"teria\" + participle for unconfirmed allegations, \"supostamente\", \"segundo a denúncia\". Election periods also bring \"desinformação\" about the \"urnas eletrônicas\". A checked fact needs its source: \"segundo o TSE\", \"de acordo com auditorias independentes\".",
           "Keep the difference between \"denúncia\" (an accusation or formal charge) and \"condenação\" (conviction). A politician \"denunciado\" is not yet \"condenado\", and a careful text says so.",
         ],
         examples: [
@@ -2558,7 +2556,7 @@ export const PT_C1_U21: Lesson[] = [
       {
         heading: "Writing to those in power",
         body: [
-          "When you write to a deputy, senator or minister, Unit 7's forms apply: \"Excelentíssimo Senhor Deputado\" at the top, \"Vossa Excelência\" with third-person verbs and possessives (\"Vossa Excelência sabe\", \"seu mandato\"), and a formal close such as \"Respeitosamente\". To a council member, many writers use \"Excelentíssimo\" too.",
+          "When you write to a deputy, senator or minister, Unit 5's forms apply: \"Excelentíssimo Senhor Deputado\" at the top, \"Vossa Excelência\" with third-person verbs and possessives (\"Vossa Excelência sabe\", \"seu mandato\"), and a formal close such as \"Respeitosamente\". To a council member, many writers use \"Excelentíssimo\" too.",
         ],
         examples: [
           { es: "Excelentíssima Senhora Deputada Federal,", en: "Dear Madam Deputy (formal address)," },
@@ -2580,7 +2578,7 @@ export const PT_C1_U21: Lesson[] = [
           {
             type: "speak",
             text: "Como Vossa Excelência sabe, o projeto ainda tramita na Câmara.",
-            tip: "\"Excelência\": the xc sounds like a single s, e-se-LẼN-sya.",
+            tip: "\"Excelência\": the xc sounds like a single s, e-se-LÊN-cia.",
             explanation: "Third-person verb \"sabe\" with \"Vossa Excelência\".",
           },
         ],
@@ -2689,7 +2687,7 @@ export const PT_C1_U21: Lesson[] = [
 
 export const PT_C1_U21_WRITING: WriteExercise = {
   type: "write",
-  prompt: "The residents' association of your neighborhood in Porto Alegre has asked you to write the text of an \"abaixo-assinado\" to the city council (Câmara Municipal). The problem: the only bus line linking the neighborhood to the city center was cut back to one bus an hour, and the council will soon vote on the transport budget. Address the council president formally, set out the facts, cite the legal basis (the right of petition and the municipality's duty to provide local public transportation), make two or three precise requests and close formally. Keep the tone firm, factual and neutral: no loaded words.",
+  prompt: "The residents' association of your neighborhood in Porto Alegre has asked you to write the text of an \"abaixo-assinado\" to the city council (Câmara Municipal). The problem: the only bus line linking the neighborhood to the city center was cut back to one bus an hour, and the council will soon vote on the transport budget. Address the council president formally, set out the facts, cite the legal basis (the right of petition and the municipality's duty to provide local public transport), make two or three precise requests and close formally. Keep the tone firm, factual and neutral: no loaded words.",
   minWords: 180,
   maxWords: 300,
   rubric: [

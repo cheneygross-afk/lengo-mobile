@@ -1322,10 +1322,10 @@ export const DE_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write the ad 'For sale: beautiful dining table with four chairs.'?",
+        question: "Which ad is correct?",
         options: ["Verkaufe schönen Esstisch mit vier Stühlen.", "Verkaufe schöner Esstisch mit vier Stühlen.", "Verkaufe schöne Esstisch mit vier Stühle.", "Verkaufe schönes Esstisch mit vier Stühlen."],
         correctIndex: 0,
-        explanation: "\"Der Esstisch\" is the object without an article: masculine accusative -en (\"schönen\"); \"mit\" + dative plural \"Stühlen\". \"*schöner Esstisch*\" uses the nominative ending.",
+        explanation: "\"Der Esstisch\": masculine accusative, no article: -en; dative plural \"Stühlen\".",
       },
       {
         type: "word-order",
@@ -1486,10 +1486,10 @@ export const DE_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'Smoked salmon with fresh salad' on a menu?",
+        question: "Which menu line is correct?",
         options: ["Geräucherter Lachs mit frischem Salat", "Geräuchertes Lachs mit frischen Salat", "Geräucherte Lachs mit frischer Salat", "Geräucherter Lachs mit frischer Salat"],
         correctIndex: 0,
-        explanation: "\"Der Lachs\" nominative without an article: -er; \"der Salat\" dative after \"mit\" without an article: -em. \"*mit frischer Salat*\" uses the nominative ending.",
+        explanation: "\"Der Lachs\" nominative, no article: -er; \"der Salat\" dative, no article: -em.",
       },
       {
         type: "word-order",

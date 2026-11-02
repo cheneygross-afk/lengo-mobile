@@ -124,7 +124,7 @@ export const CELPE_BRAS_3_COLETIVA: ExamPaper = {
           maxWords: 250,
           rubric: [
             "\"Adequação ao contexto\": a message in the gym's app from the gym to its members: direct, friendly and motivating, not alarmist",
-            "Uses the bulletin: the situation (28%, the lowest in ten years, less than half the expected rain, lower pressure at night, a possible \"rodízio\") and the engineer's figures and advice",
+            "Uses the bulletin: the situation (28 %, the lowest in ten years, less than half the expected rain, lower pressure at night, a possible \"rodízio\") and the engineer's figures and advice",
             "Adapts the advice to a gym's locker rooms (short showers, faucets, reporting leaks) and says what the gym itself is doing",
             "\"Adequação discursiva\": a catchy title, the situation, the requests (a list is fine), the gym's part and a short positive close",
             "\"Adequação linguística\": the imperative with \"você\" (\"tome\", \"feche\", \"avise\"), the future and conditional for what may happen (\"poderá haver rodízio\"), accurate figures",

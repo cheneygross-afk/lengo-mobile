@@ -148,10 +148,10 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The bridge was built in 1890.' (Perfekt)?",
+        question: "Which sentence is correct?",
         options: ["Die Brücke ist 1890 gebaut worden.", "Die Brücke ist 1890 gebaut geworden.", "Die Brücke hat 1890 gebaut worden.", "Die Brücke wurde 1890 gebaut worden."],
         correctIndex: 0,
-        explanation: "Passive Perfekt: \"ist\" + participle + \"worden\". In the passive \"geworden\" loses its \"ge-\", so \"*gebaut geworden*\" is wrong; \"*hat ... worden*\" has the wrong auxiliary.",
+        explanation: "Passive Perfekt: \"ist\" + participle + \"worden\".",
       },
       {
         type: "word-order",
@@ -210,10 +210,10 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'Negotiations went on for a long time yesterday.'?",
+            question: "Which sentence is correct?",
             options: ["Gestern wurde lange verhandelt.", "Gestern wurde es lange verhandelt.", "Gestern es wurde lange verhandelt.", "Es gestern wurde lange verhandelt."],
             correctIndex: 0,
-            explanation: "With \"Gestern\" in position 1 the placeholder \"es\" disappears. \"*Gestern wurde es lange verhandelt*\" keeps a filler that is only needed when nothing else stands before the verb.",
+            explanation: "With \"Gestern\" in position 1 the placeholder \"es\" disappears.",
           },
         ],
       },
@@ -479,10 +479,10 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The film is about a teacher.'?",
+        question: "Which sentence is correct?",
         options: ["Der Film handelt von einer Lehrerin.", "Der Film handelt sich um eine Lehrerin.", "Der Film geht um eine Lehrerin.", "Es handelt der Film von einer Lehrerin."],
         correctIndex: 0,
-        explanation: "A film \"handelt von\" something. \"Sich handeln um\" and \"gehen um\" only work with \"es\" as subject (\"Es geht um eine Lehrerin\"), so \"*Der Film handelt sich um*\" is wrong.",
+        explanation: "A film \"handelt von\"; \"sich handeln um\" and \"gehen um\" need \"es\".",
       },
       {
         type: "word-order",

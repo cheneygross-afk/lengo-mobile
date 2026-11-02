@@ -53,7 +53,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "Se o locatário desocupar...: clauses with the future subjunctive",
         body: [
-          "Contract clauses are conditions about the future, so they're full of the future subjunctive from Unit 4: \"se o locatário desocupar o imóvel antes do prazo, pagará multa\" (if the tenant vacates before the end of the term, he'll pay a penalty). The result is often in the formal simple future (\"pagará\", \"deverá\") or the present (\"fica obrigado a\").",
+          "Contract clauses are conditions about the future, so they're full of the future subjunctive from Unit 3: \"se o locatário desocupar o imóvel antes do prazo, pagará multa\" (if the tenant vacates before the end of the term, he'll pay a penalty). The result is often in the formal simple future (\"pagará\", \"deverá\") or the present (\"fica obrigado a\").",
           "\"Caso\" is the contract's other if, and it takes the present subjunctive, as you learned at B1: \"caso haja atraso no pagamento\" (should there be a late payment). Same meaning, different mood: \"se houver atraso\" = \"caso haja atraso\". Never mix them: *\"caso houver\" is a classic mistake.",
           "\"Quando\" and \"assim que\" also take the future subjunctive here: \"quando terminar o contrato\", \"assim que for assinado\".",
         ],
@@ -126,7 +126,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "O locatário deverá avisar com trinta dias de antecedência.",
-            tip: "Antecedência: 'ã-te-se-DẼ-see-a', nasal ên.",
+            tip: "Antecedência: an-te-se-DÊN-si-a, nasal ên.",
             explanation: "\"Avisar com... de antecedência\" = to give... notice.",
           },
         ],
@@ -268,7 +268,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "E se eu precisar sair antes?",
         body: [
-          "Daniel's contract with his employer lasts two years, but the lease is thirty months. So he asks the key question: \"e se eu precisar sair antes?\". This \"e se\" + future subjunctive is a real question about a possible future, not the imperfect-subjunctive suggestion of Unit 3.",
+          "Daniel's contract with his employer lasts two years, but the lease is thirty months. So he asks the key question: \"e se eu precisar sair antes?\". This \"e se\" + future subjunctive is a real question about a possible future, not the imperfect-subjunctive suggestion of Unit 17.",
           "Simone explains the multa rescisória and a legal exception: under the Lei do Inquilinato there's no penalty if the tenant's employer transfers him to another city, as long as he gives 30 days' written notice; agencies usually ask for a letter from the employer. Notice \"desde que\" (as long as) + present subjunctive from B1.",
         ],
         examples: [
@@ -337,7 +337,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Seria possível baixar o aluguel para dois mil e duzentos?",
-            tip: "Aluguel: 'a-loo-GÉW', the final l sounds like w.",
+            tip: "Aluguel: a-lu-GÉU, the final l sounds like u.",
             explanation: "\"Seria possível\" + infinitive: a polite request to negotiate.",
           },
         ],
@@ -436,7 +436,7 @@ export const PT_B2_U18: Lesson[] = [
     slug: "b2-problems-flat",
     level: "PT-B2",
     number: 3,
-    title: "Problems With the Apartment",
+    title: "Problems With the Flat",
     summary: "Describe infiltração, vazamento, mofo and a broken lock, deal with the síndico and the condomínio rules, and ask the landlord in writing to fix things.",
     duration: "14 min",
     kind: "teach",
@@ -483,7 +483,7 @@ export const PT_B2_U18: Lesson[] = [
         heading: "The síndico and the condomínio",
         body: [
           "In a building, some problems belong to the condomínio, not to your landlord: the water tank, the façade, the elevators, a leak from a shared pipe. Those go to the \"síndico\" (the elected building manager) or the \"administradora\" (the management company), often through the portaria or the building's app.",
-          "The \"regulamento interno\" (house rules) sets quiet hours (\"horário de silêncio\", typically from 10 p.m.), rules for moving in (\"mudança só de segunda a sábado\"), pets and renovation work. A \"multa\" from the condomínio for breaking the rules can land on the tenant.",
+          "The \"regulamento interno\" (house rules) sets quiet hours (\"horário de silêncio\", typically from 10 p.m.), rules for moving in (\"mudança só de segunda a sábado\"), pets and works. A \"multa\" from the condomínio for breaking the rules can land on the tenant.",
         ],
         examples: [
           { es: "A infiltração vem do apartamento de cima, então é com o síndico.", en: "The water is coming from the apartment upstairs, so it's for the building manager to deal with." },
@@ -546,7 +546,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Solicito que o senhor providencie o conserto o quanto antes.",
-            tip: "Providencie: 'pro-vee-DẼ-see-ee', five syllables.",
+            tip: "Providencie: pro-vi-DÊN-si-i, five syllables.",
             explanation: "The formal written request, read aloud.",
           },
         ],
@@ -757,7 +757,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Entendo, mas o produto ainda está na garantia.",
-            tip: "Garantia: 'ga-rã-CHEE-a'; the ti sounds like chee.",
+            tip: "Garantia: ga-ran-TI-a; the ti sounds like chee.",
             explanation: "Acknowledge, then state the fact: firm without aggression.",
           },
         ],
@@ -970,7 +970,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Agradeço, mas eu quero cancelar mesmo.",
-            tip: "Mesmo has a closed ê: 'MÊZ-moo'.",
+            tip: "Mesmo has a closed ê: MÊZ-mu.",
             explanation: "A polite refusal of the retention offer.",
           },
         ],
@@ -1085,7 +1085,7 @@ export const PT_B2_U18: Lesson[] = [
           { es: "Cobrança indevida após cancelamento do serviço.", en: "Improper charge after cancellation of the service." },
           { es: "Comprei uma geladeira no site da loja, com entrega prevista para o dia 10.", en: "I bought a fridge on the store's website, with delivery scheduled for the 10th." },
           { es: "Entrei em contato com o SAC três vezes, sem solução.", en: "I contacted customer service three times, with no solution." },
-          { es: "Os números de protocolo são 855812 e 856930.", en: "The reference numbers are 855812 and 856930." },
+          { es: "Os números de protocolo são 2024-55812 e 2024-56930.", en: "The reference numbers are 2024-55812 and 2024-56930." },
         ],
         checkpoint: [
           {
@@ -1141,7 +1141,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Garantiram que o técnico viria na segunda, mas ninguém apareceu.",
-            tip: "Garantiram: 'ga-rã-CHEE-rãw'. The final am is a nasal ão sound.",
+            tip: "Garantiram: the final am is a nasal ão sound.",
             explanation: "Promise in the conditional, reality in the perfeito.",
           },
         ],
@@ -1346,7 +1346,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Preciso bloquear meu cartão agora mesmo.",
-            tip: "Bloquear: 'blo-kee-AR', with the stress on the final -ar; the qu sounds like k.",
+            tip: "Bloquear: blo-ki-AR, with the stress on the final -ar; the qu sounds like k.",
             explanation: "\"Preciso\" + infinitive for an urgent request.",
           },
         ],
@@ -1559,7 +1559,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "Segunda via: replacing documents",
         body: [
-          "With the BO number you can ask for a \"segunda via\" (replacement copy) of each document: the RG (now issued as the new CIN, the Carteira de Identidade Nacional) at the state identification office, the CNH (driver's license) at the Detran or its app, cards at the bank. Foreigners replace the RNM at the Polícia Federal, and a passport at their own consulate.",
+          "With the BO number you can ask for a \"segunda via\" (replacement copy) of each document: the RG at the state identification office, the CNH (driver's license) at the Detran or its app, cards at the bank. Foreigners replace the RNM at the Polícia Federal, and a passport at their own consulate.",
           "The questions are always the same: \"o que eu preciso levar para tirar a segunda via?\", \"precisa agendar?\", \"tem taxa?\". \"Tirar\" is the verb for getting a document issued. Officials answer with the future subjunctive: \"quando o senhor vier, traga o BO e uma foto\".",
         ],
         examples: [
@@ -1589,7 +1589,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Precisa agendar ou posso ir direto?",
-            tip: "Agendar: 'a-zhẽ-DAR', with a nasal en.",
+            tip: "Agendar: a-jen-DAR, with a nasal en.",
             explanation: "A practical question for any public office.",
           },
         ],
@@ -1794,7 +1794,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "O que está faltando no meu processo?",
-            tip: "Processo: 'pro-SÉ-soo'. The double s is a sharp s, never a z.",
+            tip: "Processo: the double s is a sharp s, never a z; stress the middle syllable.",
             explanation: "\"O que está faltando?\" is the key question at any counter.",
           },
         ],
@@ -2007,7 +2007,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Isso não está de acordo com o que foi combinado.",
-            tip: "Combinado: 'kõ-bee-NA-doo', nasal com.",
+            tip: "Combinado: com-bi-NA-du, nasal com.",
             explanation: "The firm replacement for \"isso é um absurdo\".",
           },
         ],
@@ -2114,7 +2114,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "Mood slips: precisar, devolvam",
         body: [
-          "*\"Se o senhor precisa amanhã, me liga\" uses the present indicative for a future condition. Brazilians say \"se o senhor precisar amanhã\", with the future subjunctive from Unit 4. The present after \"se\" is only for general truths or things already the case.",
+          "*\"Se o senhor precisa amanhã, me liga\" uses the present indicative for a future condition. Brazilians say \"se o senhor precisar amanhã\", with the future subjunctive from Unit 3. The present after \"se\" is only for general truths or things already the case.",
           "*\"Quero que vocês me devolvem o dinheiro\" forgets the subjunctive after a want: \"quero que vocês me devolvam\". The giveaway is the vowel swap: -ar verbs take -e (\"cancelem\"), -er and -ir verbs take -a (\"devolvam\"), and that swap is what the listener hears.",
         ],
         examples: [
@@ -2211,7 +2211,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "O contrato vence em junho.",
-            tip: "Vence: 'VẼ-see', nasal ên.",
+            tip: "Vence: VÊN-si, nasal ên.",
             explanation: "The natural verb for a contract's end date.",
           },
         ],
@@ -2375,7 +2375,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Agradeço, mas eu não quero crédito; quero o estorno.",
-            tip: "Estorno: 'es-TÔR-noo', closed ô.",
+            tip: "Estorno: es-TÔR-nu, closed ô.",
             explanation: "Polite refusal of the alternative, then the clear request.",
           },
           {
@@ -2583,7 +2583,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Gostaria de solicitar a segunda via do boleto.",
-            tip: "Boleto: 'bo-LÊ-too', closed ê.",
+            tip: "Boleto: bo-LÊ-tu, closed ê.",
             explanation: "\"Gostaria de\" + infinitive: the standard formal opener.",
           },
         ],
@@ -2591,7 +2591,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "Hypotheses at the counter",
         body: [
-          "Unit 3's tools still help: \"e se eu pagasse à vista?\" to negotiate, \"se eu fosse você, guardaria o protocolo\" to advise a friend, \"seria bom se vocês avisassem antes\" to complain tactfully.",
+          "Unit 17's tools still help: \"e se eu pagasse à vista?\" to negotiate, \"se eu fosse você, guardaria o protocolo\" to advise a friend, \"seria bom se vocês avisassem antes\" to complain tactfully.",
         ],
         examples: [
           { es: "E se eu pagasse três meses adiantados?", en: "What if I paid three months in advance?" },
@@ -2671,7 +2671,7 @@ export const PT_B2_U18: Lesson[] = [
         source: "If I were you, I'd keep all the reference numbers.",
         answer: "Se eu fosse você, guardaria todos os protocolos.",
         altAnswers: ["Se eu fosse você, eu guardaria todos os protocolos.", "Se eu fosse você, guardava todos os protocolos.", "Se eu fosse você, eu guardava todos os protocolos.", "Se eu fosse você, guardaria todos os números de protocolo.", "No seu lugar, eu guardaria todos os protocolos.", "Se eu fosse você, anotaria todos os protocolos."],
-        explanation: "Unit 3 advice: \"se eu fosse você\" + conditional.",
+        explanation: "Unit 17 advice: \"se eu fosse você\" + conditional.",
       },
       {
         type: "multiple-choice",
@@ -2722,7 +2722,7 @@ export const PT_B2_U18: Lesson[] = [
 
 export const PT_B2_U18_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You rent an apartment in Curitiba through an imobiliária. For three weeks there has been a leak (vazamento) from the bathroom ceiling, and mold is spreading. You called twice: the first time they promised a plumber would come on Monday, the second time they asked you to send photos, which you did. Nobody has come. Write a formal e-mail to the imobiliária (120-220 words): describe the problem and its history, report what was promised, make a clear request with a deadline, and say what you will do if it isn't solved.",
+  prompt: "You rent a apartment in Curitiba through an imobiliária. For three weeks there has been a leak (vazamento) from the bathroom ceiling, and mold is spreading. You called twice: the first time they promised a plumber would come on Monday, the second time they asked you to send photos, which you did. Nobody has come. Write a formal e-mail to the imobiliária (120-220 words): describe the problem and its history, report what was promised, make a clear request with a deadline, and say what you will do if it isn't solved.",
   minWords: 120,
   maxWords: 220,
   rubric: [

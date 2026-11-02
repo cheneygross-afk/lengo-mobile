@@ -420,7 +420,7 @@ export const PT_LEVEL_QUESTIONS: Record<PtPlacementLevel, PtPlacementQuestion[]>
         "The minister has confirmed that he received the money.",
       ],
       0,
-      "Brazilian journalism uses the conditional for claims it reports but doesn't vouch for: \"teria recebido\" is allegedly received, \"estaria internado\" is reportedly in the hospital. A confirmed fact would be \"recebeu\".",
+      "Brazilian journalism uses the conditional for claims it reports but doesn't vouch for: \"teria recebido\" is allegedly received, \"estaria internado\" is reportedly in hospital. A confirmed fact would be \"recebeu\".",
     ),
     mc(
       "pt-c1-reduced-participle",
@@ -439,10 +439,10 @@ export const PT_LEVEL_QUESTIONS: Record<PtPlacementLevel, PtPlacementQuestion[]>
       "O filme até que é bom.",
       "What does the speaker mean?",
       [
-        "The movie is actually better than expected.",
-        "Even the movie is good.",
-        "The movie is good until the end.",
-        "The movie is only good in some parts.",
+        "The film is actually better than expected.",
+        "Even the film is good.",
+        "The film is good until the end.",
+        "The film is only good in some parts.",
       ],
       0,
       "\"Até que\" before a verb is a little concession: actually, not bad, more than I expected. On its own \"até\" means even (\"até a minha avó\") or until (\"até amanhã\").",

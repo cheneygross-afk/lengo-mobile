@@ -525,14 +525,14 @@ export const PT_B1_U21: Lesson[] = [
     level: "PT-B1",
     number: 3,
     title: "The Trigger Map: Why the Subjunctive?",
-    summary: "Sort every trigger from Units 1-7 into an indicative group and a subjunctive group, and see the logic that connects them.",
+    summary: "Sort every trigger from Units 1-5 into an indicative group and a subjunctive group, and see the logic that connects them.",
     duration: "14 min",
     kind: "teach",
     sections: [
       {
         heading: "The indicative group: facts and beliefs",
         body: [
-          "After Units 1-7 you know about thirty expressions that take \"que\" + a verb. One question sorts them: is the speaker presenting the next clause as information, something true or believed? Then it's the indicative. \"Sei que\", \"acho que\", \"tenho certeza que\", \"é verdade que\", \"é claro que\", \"parece que\" and \"ele disse que\" all report or believe: \"acho que ele vem\".",
+          "After Units 1-5 you know about thirty expressions that take \"que\" + a verb. One question sorts them: is the speaker presenting the next clause as information, something true or believed? Then it's the indicative. \"Sei que\", \"acho que\", \"tenho certeza que\", \"é verdade que\", \"é claro que\", \"parece que\" and \"ele disse que\" all report or believe: \"acho que ele vem\".",
           "Cause and time clauses about real events stay indicative too: \"porque\", \"já que\", \"depois que\", \"desde que\" meaning since. So do descriptions of people and things that exist: \"tenho um vizinho que fala alemão\".",
         ],
         examples: [
@@ -565,7 +565,7 @@ export const PT_B1_U21: Lesson[] = [
         heading: "Wanting, feeling, judging: the subjunctive group, part 1",
         body: [
           "The subjunctive group is everything that doesn't simply report. First, wanting and influencing: \"quero que\", \"prefiro que\", \"peço que\", \"sugiro que\", \"exijo que\", \"espero que\", \"tomara que\". The clause isn't a fact yet; it's what someone wants to happen.",
-          "Second, feelings and judgments: \"fico feliz que\", \"que pena que\", \"tenho medo que\", \"me irrita que\", \"é importante que\", \"é bom que\", \"é melhor que\". Here the logic surprises English speakers. In \"fico feliz que você esteja aqui\" you obviously are here. Portuguese isn't asking whether it's true: the clause is the thing you react to or judge, not news you're passing on.",
+          "Second, feelings and judgements: \"fico feliz que\", \"que pena que\", \"tenho medo que\", \"me irrita que\", \"é importante que\", \"é bom que\", \"é melhor que\". Here the logic surprises English speakers. In \"fico feliz que você esteja aqui\" you obviously are here. Portuguese isn't asking whether it's true: the clause is the thing you react to or judge, not news you're passing on.",
         ],
         examples: [
           { es: "Prefiro que vocês venham no domingo.", en: "I'd prefer you to come on Sunday." },
@@ -596,7 +596,7 @@ export const PT_B1_U21: Lesson[] = [
             en: "It's better for us to [leave] early.",
             sentence: "É melhor que a gente ___ cedo.",
             answer: "saia",
-            explanation: "A judgment about someone's action: \"é melhor que\" + subjunctive. \"Saio\" → \"saia\".",
+            explanation: "A judgement about someone's action: \"é melhor que\" + subjunctive. \"Saio\" → \"saia\".",
           },
         ],
       },
@@ -752,7 +752,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "speak",
         text: "Espero que você goste do presente.",
         prompt: "Say it in Portuguese: I hope you like the present.",
-        tip: "Goste: the t before the final e sounds like ch, GÓS-chee.",
+        tip: "Goste: the t before the final e sounds like ch, GOS-tchi.",
         explanation: "Hoping is in the subjunctive group: \"goste\". \"Gostar\" keeps its \"de\": \"do presente\".",
       },
     ],
@@ -762,7 +762,7 @@ export const PT_B1_U21: Lesson[] = [
     level: "PT-B1",
     number: 4,
     title: "Infinitive, Indicative or Subjunctive?",
-    summary: "One frame, three outcomes: the infinitive for the same subject or a general rule, que + indicative for facts, que + subjunctive for wishes, judgments and goals.",
+    summary: "One frame, three outcomes: the infinitive for the same subject or a general rule, que + indicative for facts, que + subjunctive for wishes, judgements and goals.",
     duration: "14 min",
     kind: "teach",
     sections: [
@@ -1009,7 +1009,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "speak",
         text: "Espero que você passe na prova.",
         prompt: "Say it in Portuguese: I hope you pass the exam.",
-        tip: "Passe ends in a weak ee sound: PA-see.",
+        tip: "Passe ends in a weak i sound: PA-si.",
         explanation: "Two subjects, so \"espero que\" + subjunctive \"passe\".",
       },
     ],
@@ -1019,7 +1019,7 @@ export const PT_B1_U21: Lesson[] = [
     level: "PT-B1",
     number: 5,
     title: "Contrast Clinic: The Mood Swaps",
-    summary: "Minimal pairs from across Units 1-7 where one change of trigger flips the verb between indicative and subjunctive.",
+    summary: "Minimal pairs from across Units 1-5 where one change of trigger flips the verb between indicative and subjunctive.",
     duration: "13 min",
     sections: [
       {
@@ -1326,9 +1326,9 @@ export const PT_B1_U21: Lesson[] = [
         ],
       },
       {
-        heading: "Round 2: doubt, judgments and descriptions",
+        heading: "Round 2: doubt, judgements and descriptions",
         body: [
-          "Round 2 adds doubt, impersonal judgments and descriptions. Watch the negatives: \"acho que\" reports, \"não acho que\" doubts; \"tenho um que\" describes something real, \"não tenho nenhum que\" something that doesn't exist.",
+          "Round 2 adds doubt, impersonal judgements and descriptions. Watch the negatives: \"acho que\" reports, \"não acho que\" doubts; \"tenho um que\" describes something real, \"não tenho nenhum que\" something that doesn't exist.",
         ],
         examples: [
           { es: "Não acho que ele saiba.", en: "I don't think he knows." },
@@ -1361,7 +1361,7 @@ export const PT_B1_U21: Lesson[] = [
             options: [
               "I don't have any friends who live in Manaus.",
               "I have a friend who lives in Manaus.",
-              "My friend doesn't live in Manaus anymore.",
+              "My friend doesn't live in Manaus any more.",
               "I'm looking for a friend in Manaus.",
             ],
             correctIndex: 0,
@@ -1501,7 +1501,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "speak",
         text: "Já que você está aqui, vamos almoçar.",
         prompt: "Say it in Portuguese: Since you're here, let's have lunch.",
-        tip: "Almoçar: the l at the end of a syllable sounds like a w, ow-mo-SAR.",
+        tip: "Almoçar: the l at the end of a syllable sounds like a w, au-mo-SAR.",
         explanation: "\"Já que\" gives a known reason, so the indicative \"está\" stays.",
       },
     ],
@@ -1560,7 +1560,7 @@ export const PT_B1_U21: Lesson[] = [
           {
             type: "speak",
             text: "Embora seja longe da família, é uma oportunidade muito boa.",
-            tip: "Oportunidade: the final de sounds like jee, o-por-too-nee-DA-jee.",
+            tip: "Oportunidade: the final de sounds like dji, o-por-tu-ni-DA-dji.",
             explanation: "\"Embora\" admits the downside and takes the subjunctive \"seja\"; the main clause stays indicative.",
           },
         ],
@@ -1626,7 +1626,7 @@ export const PT_B1_U21: Lesson[] = [
         examples: [
           { es: "Tenho medo que eles sintam falta dos avós.", en: "I'm afraid they'll miss their grandparents." },
           { es: "Tomara que as crianças se adaptem rápido.", en: "Let's hope the kids settle in quickly." },
-          { es: "A gente pode visitar Salvador nas férias para que eles não percam o contato.", en: "We can visit Salvador on vacation so they don't lose touch." },
+          { es: "A gente pode visitar Salvador nas férias para que eles não percam o contato.", en: "We can visit Salvador in the holidays so they don't lose touch." },
           { es: "E a sua mãe pode vir passar o Natal com a gente.", en: "And your mom can come and spend Christmas with us." },
           { es: "Que dê tudo certo!", en: "Here's hoping it all works out!" },
         ],
@@ -1781,7 +1781,7 @@ export const PT_B1_U21: Lesson[] = [
     level: "PT-B1",
     number: 8,
     title: "Error Hunt: The Whole Present Subjunctive",
-    summary: "Find and fix the typical subjunctive mistakes from Units 1-7: wrong mood, wrong form, and the infinitive mixed up with que.",
+    summary: "Find and fix the typical subjunctive mistakes from Units 1-5: wrong mood, wrong form, and the infinitive mixed up with que.",
     duration: "13 min",
     sections: [
       {
@@ -2030,7 +2030,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "speak",
         text: "Talvez ela vá de metrô.",
         prompt: "Say it in Portuguese: Maybe she'll go by subway.",
-        tip: "Talvez: the l sounds like a w, tow-VEZ.",
+        tip: "Talvez: the l sounds like a w, tau-VEZ.",
         explanation: "\"Talvez\" before the verb + subjunctive \"vá\", the irregular form of \"ir\".",
       },
     ],
@@ -2276,7 +2276,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "speak",
         text: "Quero que a reunião comece às nove.",
         prompt: "Say it in Portuguese: I want the meeting to start at nine.",
-        tip: "Reunião: four syllables, he-oo-nee-ÃO, ending nasal.",
+        tip: "Reunião: four syllables, re-u-ni-ÃO, ending nasal.",
         explanation: "\"A reunião começa\" → \"quero que a reunião comece\".",
       },
     ],
@@ -2526,7 +2526,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "speak",
         text: "A não ser que alguém tenha uma ideia melhor, eu reservo amanhã.",
         prompt: "Say it in Portuguese: Unless someone has a better idea, I'll book tomorrow.",
-        tip: "Ideia has three syllables: ee-DAY-a.",
+        tip: "Ideia has three syllables: i-DEI-a.",
         explanation: "\"A não ser que\" + subjunctive \"tenha\": unless someone has.",
       },
     ],
@@ -2652,7 +2652,7 @@ export const PT_B1_U21: Lesson[] = [
           {
             type: "speak",
             text: "Tomara que ela goste da surpresa!",
-            tip: "Surpresa: the s between vowels sounds like z, soor-PRÊ-za.",
+            tip: "Surpresa: the s between vowels sounds like z, sur-PRE-za.",
             explanation: "\"Tomara que\" + subjunctive \"goste\"; \"gostar de\" + \"a\" = \"da surpresa\".",
           },
         ],
@@ -2868,7 +2868,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         heading: "The subjunctive with comparatives",
         body: [
-          "Comparatives slot into descriptions and judgments: \"procuro um apartamento que seja maior que este\", \"é melhor que você vá de metrô; é mais rápido do que de ônibus\". \"Melhor\", \"pior\", \"maior\" and \"menor\" are irregular, as at A2: never \"*mais bom\".",
+          "Comparatives slot into descriptions and judgements: \"procuro um apartamento que seja maior que este\", \"é melhor que você vá de metrô; é mais rápido do que de ônibus\". \"Melhor\", \"pior\", \"maior\" and \"menor\" are irregular, as at A2: never \"*mais bom\".",
         ],
         examples: [
           { es: "Procuro um apartamento que seja maior que este.", en: "I'm looking for an apartment that's bigger than this one." },
@@ -3023,7 +3023,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "speak",
         text: "Procuro um apartamento que seja maior que este.",
         prompt: "Say it in Portuguese: I'm looking for an apartment that's bigger than this one.",
-        tip: "Maior has two syllables, ma-YÓR.",
+        tip: "Maior has two syllables, ma-IOR.",
         explanation: "\"Que seja\" for an apartment you haven't found, and \"maior que\".",
       },
     ],

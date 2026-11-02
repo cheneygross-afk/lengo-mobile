@@ -194,10 +194,10 @@ export const DE_C2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'One of the parties involved has lodged an objection.'?",
+        question: "Which sentence is correct?",
         options: ["Ein Beteiligter hat Widerspruch eingelegt.", "Ein Beteiligte hat Widerspruch eingelegt.", "Ein Beteiligten hat Widerspruch eingelegt.", "Einer Beteiligte hat Widerspruch eingelegt."],
         correctIndex: 0,
-        explanation: "After \"ein\" (masculine nominative) the adjectival noun takes -er: \"ein Beteiligter\". \"*ein Beteiligte*\" uses the ending that goes after \"der\".",
+        explanation: "After \"ein\" (masculine nominative) the adjectival noun takes -er: \"ein Beteiligter\". Compare \"der Beteiligte\".",
       },
       {
         type: "listen-choose",
@@ -947,7 +947,7 @@ export const DE_C2_U01: Lesson[] = [
       {
         heading: "Einspruch, Berufung, Revision einlegen",
         body: [
-          "To challenge a decision you lodge (\"einlegen\") a remedy, and the remedy depends on what you challenge. \"Einspruch einlegen\" against a tax assessment, a fine notice (\"Bußgeldbescheid\") or a penalty order (\"Strafbefehl\"). \"Widerspruch einlegen\" against most other administrative decisions. \"Berufung einlegen\" against a first-instance judgment, asking a higher court to look at the facts and the law again. \"Revision einlegen\" asks a higher court (often the BGH) to check only the law, not the facts.",
+          "To challenge a decision you \"legen ... ein\" (lodge) a remedy, and the remedy depends on what you challenge. \"Einspruch einlegen\" against a tax assessment, a fine notice (\"Bußgeldbescheid\") or a penalty order (\"Strafbefehl\"). \"Widerspruch einlegen\" against most other administrative decisions. \"Berufung einlegen\" against a first-instance judgment, asking a higher court to look at the facts and the law again. \"Revision einlegen\" asks a higher court (often the BGH) to check only the law, not the facts.",
           "All four take the same verb and are used without an article: \"Er hat Berufung eingelegt\", \"Wir legen Einspruch ein\". \"Erheben\" is also possible with \"Einspruch\", \"Widerspruch\" and \"Klage\" (\"Klage erheben\" = to file a lawsuit).",
           "In court dramas you will hear \"Einspruch!\" (Objection!), as in American films, but German trials have no such ritual. The word you need in real life is the written \"Einspruch\" against a tax assessment or a fine notice.",
         ],
@@ -1255,10 +1255,10 @@ export const DE_C2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'The parties involved were heard.'?",
+        question: "Which sentence is grammatically correct?",
         options: ["Die Beteiligten wurden angehört.", "Die Beteiligte wurden angehört.", "Die Beteiligter wurden angehört.", "Der Beteiligten wurden angehört."],
         correctIndex: 0,
-        explanation: "Plural with the article \"die\": the adjectival noun ends in -en, \"die Beteiligten\". \"*Die Beteiligte*\" is singular. \"Anhören\" means to give someone a hearing.",
+        explanation: "Plural with the article \"die\": the adjectival noun ends in -en, \"die Beteiligten\". \"Anhören\" means to give someone a hearing.",
       },
       {
         type: "dictation",
@@ -1512,10 +1512,10 @@ export const DE_C2_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "After \"Sehr geehrte Damen und Herren,\" how do you write 'I hereby apply for ...'?",
+            question: "Which opening is correct after \"Sehr geehrte Damen und Herren,\"?",
             options: ["hiermit beantrage ich ...", "Hiermit beantrage ich ...", "hiermit Beantrage ich ...", "Hiermit, beantrage ich ..."],
             correctIndex: 0,
-            explanation: "After the comma of the salutation the letter continues in lowercase (unless the first word is a noun or \"Sie\"). \"*Hiermit*\" with a capital is the most common slip.",
+            explanation: "After the comma of the salutation the letter continues in lowercase (unless the first word is a noun or \"Sie\").",
           },
           {
             type: "translate",

@@ -1124,7 +1124,7 @@ export const DE_C2_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'He was ill, so he stayed at home.'?",
+            question: "Which version is correct?",
             options: ["Er war krank, deshalb blieb er zu Hause.", "Er war krank, deshalb er blieb zu Hause.", "Er war krank, deshalb er zu Hause blieb.", "Er war krank, denn blieb er zu Hause."],
             correctIndex: 0,
             explanation: "\"Deshalb\" is an adverb in position 1: verb next. English so-order (\"*deshalb er blieb*\") is the classic mistake.",

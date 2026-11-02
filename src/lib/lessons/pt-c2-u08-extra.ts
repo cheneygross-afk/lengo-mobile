@@ -152,7 +152,7 @@ export const PT_C2_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Toda variedade linguística tem regras próprias.",
         prompt: "Say it in Portuguese: Every linguistic variety has its own rules.",
-        tip: "Say \"linguística\" as lĩn-GWÍS-chee-ka: the u is pronounced.",
+        tip: "Linguística: lin-GWIS-tchi-ka, the u is pronounced.",
         explanation: "\"Toda variedade linguística\" (every linguistic variety) puts the adjective after the noun. \"Tem regras próprias\" means has its own rules.",
       },
       {
@@ -317,7 +317,7 @@ export const PT_C2_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "O debate segue em aberto.",
         prompt: "Say it in Portuguese: The debate remains open.",
-        tip: "Say \"aberto\" as a-BÉR-too, with an open é.",
+        tip: "Aberto: a-BÉR-tu, open é.",
         explanation: "\"Seguir em aberto\" means to remain open. In \"o debate segue em aberto\", \"segue\" is \"seguir\" in the present tense.",
       },
       {
@@ -325,7 +325,7 @@ export const PT_C2_U08_EXTRA: Lesson[] = [
         instructions: "Match each abbreviation to the full word.",
         pairs: [
           { left: "vc", right: "você" },
-          { left: "pq", right: "porque" },
+          { left: "pq", right: "porque / por que" },
           { left: "tb", right: "também" },
           { left: "blz", right: "beleza" },
           { left: "sdds", right: "saudades" },
@@ -348,14 +348,14 @@ export const PT_C2_U08_EXTRA: Lesson[] = [
         heading: "Hearing region: s, r, t and the vowels",
         body: [
           "Listen to consonants before interjections, because sounds are harder to fake than words. A hushed s in \"festa\" and \"mesmo\" points to Rio, Florianópolis or Belém; a hushed s only before t and d (\"gosto\", \"desde\") but a plain z in \"mesmo\" points to much of the Nordeste. A breathy h-like r in \"porta\" fits Rio, Belo Horizonte or the Nordeste, while the curled caipira r belongs to interior São Paulo, Paraná and Goiás.",
-          "Then check t and d. Plain t in \"tia\" and plain d in \"dia\", with open vowels in \"Recife\" and \"colégio\", point north of the Nascentes line. 'OY-choo' for \"oito\" is Recife. \"Leite quente\" with a full final e is Curitiba. Combine at least two cues before you decide, and treat the word list (\"bah\", \"uai\", \"oxe\", \"égua\", \"meu\") as a hint, not proof.",
+          "Then check t and d. Plain t in \"tia\" and plain d in \"dia\", with open vowels in \"Recife\" and \"colégio\", point north of the Nascentes line. \"Oitcho\" for \"oito\" is Recife. \"Leite quente\" with a full final e is Curitiba. Combine at least two cues before you decide, and treat the word list (\"bah\", \"uai\", \"oxe\", \"égua\", \"meu\") as a hint, not proof.",
         ],
         examples: [
-          { es: "A festa foi mesmo boa.", en: "The party really was good. ('FÉSH-ta' and 'MÊZH-moo' in Rio)" },
-          { es: "Desde quando você gosta de forró?", en: "Since when have you liked forró? ('DÊZH-dee', 'GÓSH-ta', plain t in Recife)" },
+          { es: "A festa foi mesmo boa.", en: "The party really was good. (fesh-ta and mezh-mo in Rio)" },
+          { es: "Desde quando você gosta de forró?", en: "Since when have you liked forró? (desh-de, gosh-ta, plain t in Recife)" },
           { es: "Fecha a porta, por favor.", en: "Close the door, please. (curled r in Piracicaba)" },
           { es: "Que dia lindo!", en: "What a lovely day! (plain d in João Pessoa)" },
-          { es: "Comprei oito pães.", en: "I bought eight rolls. ('OY-choo' in Recife)" },
+          { es: "Comprei oito pães.", en: "I bought eight rolls. (oitcho in Recife)" },
           { es: "Tem leite quente aí?", en: "Is there any hot milk? (final e kept in Curitiba)" },
         ],
         checkpoint: [
@@ -534,7 +534,7 @@ export const PT_C2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You hear a hushed s in \"desde\" but a plain z in \"mesmo\", and plain t in \"tia\". Where is the speaker most likely from?",
+        question: "You hear \"desde\" with sh but \"mesmo\" with a plain z, and plain t in \"tia\". Where is the speaker most likely from?",
         options: ["The Nordeste", "Rio de Janeiro", "Curitiba", "São Paulo city"],
         correctIndex: 0,
         explanation: "Hushing only before t and d, plus plain t, points to the Nordeste. A carioca would hush \"mesmo\" too.",
@@ -548,7 +548,7 @@ export const PT_C2_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "A festa foi mesmo boa, desde o começo.",
         prompt: "Say it with a carioca accent, hushing every syllable-final s.",
-        tip: "Say FÉSH-ta, MÊZH-moo, DÊZH-jee: the s before a consonant becomes 'sh' or 'zh'.",
+        tip: "fesh-ta, mezh-mo, dezh-de: the s before a consonant becomes sh or zh.",
         explanation: "The hushed s is the clearest sound marker of Rio.",
       },
     ],

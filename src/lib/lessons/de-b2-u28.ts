@@ -144,10 +144,10 @@ export const DE_B2_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'If I had known that, I wouldn't have come.'?",
+        question: "Which sentence is correct?",
         options: ["Wenn ich das gewusst hätte, wäre ich nicht gekommen.", "Wenn ich das gewusst hätte, würde ich nicht gekommen.", "Wenn ich das würde gewusst haben, wäre ich nicht gekommen.", "Wenn ich das wüsste, wäre ich nicht gekommen gewesen."],
         correctIndex: 0,
-        explanation: "Konjunktiv II past in both halves: \"gewusst hätte ... wäre gekommen\". \"*würde ich nicht gekommen*\" is wrong: \"würde\" needs an infinitive, and for the past you use \"wäre\" + participle.",
+        explanation: "Both halves in Konjunktiv II past; no \"würde\".",
       },
       {
         type: "translate",

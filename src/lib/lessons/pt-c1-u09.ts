@@ -89,7 +89,7 @@ export const PT_C1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Convém lembrar que a mesma medida fracassou em 2015.",
-            tip: "\"Convém\" ends in a nasal diphthong, close to kõ-VẼY, with no full n at the end.",
+            tip: "\"Convém\" ends in a nasal diphthong, close to kon-VAYN, with no full n at the end.",
             explanation: "\"Convém lembrar\" sounds measured, but it is pure stance: the paper is choosing which fact you should keep in mind.",
           },
         ],
@@ -428,7 +428,7 @@ export const PT_C1_U09: Lesson[] = [
         en: "City hall [ought to] explain the delay.",
         sentence: "A prefeitura ___ explicar o atraso.",
         answer: "deveria",
-        altAnswers: ["precisaria"],
+        altAnswers: ["deve", "precisaria"],
         explanation: "The conditional \"deveria\" gives softer advice than \"deve\", which sounds like a demand.",
       },
       {
@@ -462,7 +462,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "speak",
         text: "É inadmissível que isso ainda aconteça.",
         prompt: "Say it in Portuguese: It's unacceptable that this still happens.",
-        tip: "Stress the SEE syllable of \"inadmissível\" (ee-na-jee-mee-SEE-vew) and keep the double s voiceless.",
+        tip: "Stress \"-mis-\" in \"inadmissível\" and keep the double s voiceless.",
         explanation: "Outrage at a fact takes \"é inadmissível que\" + subjunctive: \"aconteça\".",
       },
       {
@@ -514,7 +514,7 @@ export const PT_C1_U09: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A columnist writes: \"Será que alguém ainda acredita nessa promessa?\" What is she suggesting?",
-            options: ["That nobody should believe the promise anymore.", "That she wants to know how many people believe the promise.", "That the promise will be kept in the future.", "That everyone believes the promise."],
+            options: ["That nobody should believe the promise any more.", "That she wants to know how many people believe the promise.", "That the promise will be kept in the future.", "That everyone believes the promise."],
             correctIndex: 0,
             explanation: "In an opinion piece \"será que\" signals doubt and suspicion, not a future and not a real survey question. The implied answer is no.",
           },
@@ -531,7 +531,7 @@ export const PT_C1_U09: Lesson[] = [
       {
         heading: "Ironia: praise that means the opposite",
         body: [
-          "The Nuance, Connotation & Pragmatic Particles unit covered irony in speech. On the page there is no tone of voice, so writers use visible signals. Scare quotes mark a word the author rejects: a \"reforma\". \"O tal\" / \"a tal\" means the so-called. Exaggerated praise comes before a flat fact that contradicts it: \"Parabéns à prefeitura\", followed by the problem.",
+          "Unit 7 covered irony in speech. On the page there is no tone of voice, so writers use visible signals. Scare quotes mark a word the author rejects: a \"reforma\". \"O tal\" / \"a tal\" means the so-called. Exaggerated praise comes before a flat fact that contradicts it: \"Parabéns à prefeitura\", followed by the problem.",
           "Openers like \"Nada como...\", \"Que ótima ideia...\" and a sentence-initial \"Claro,\" become ironic as soon as the facts that follow undercut them. Where English calls a column sarcastic, Portuguese usually calls it \"irônica\"; \"sarcástico\" suggests something openly cruel.",
         ],
         examples: [
@@ -554,7 +554,7 @@ export const PT_C1_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Nothing like] a power outage to remind us we're in the twenty-first century.",
+            en: "[Nothing like] a power cut to remind us we're in the twenty-first century.",
             sentence: "___ uma falta de luz para lembrar que estamos no século XXI.",
             answer: "Nada como",
             explanation: "\"Nada como...\" (nothing like...) is mock praise. It sounds enthusiastic, and the sarcastic point lands in the second half of the sentence.",
@@ -611,7 +611,7 @@ export const PT_C1_U09: Lesson[] = [
         heading: "Generalização: everyone, no one, always",
         body: [
           "Absolutes turn an observation into a law: \"todo mundo\", \"ninguém\", \"sempre\", \"nunca\", \"todo político\". Portuguese also generalizes with the singular and the article: \"o brasileiro não lê\" means Brazilians in general don't read. English needs the plural here. The Portuguese singular sounds like folk wisdom, which makes it harder to argue with.",
-          "To spot a generalization, ask \"todos? segundo quem?\". To avoid one, use the hedges from the Academic Portuguese unit: \"boa parte\", \"muitos\", \"em geral\", \"tende a\". \"Os jovens de hoje\" is this device's favorite subject, so read whatever follows it with suspicion.",
+          "To spot a generalization, ask \"todos? segundo quem?\". To avoid one, use the hedges from Unit 3: \"boa parte\", \"muitos\", \"em geral\", \"tende a\". \"Os jovens de hoje\" is this device's favorite subject, so read whatever follows it with suspicion.",
         ],
         examples: [
           { es: "Todo político é igual.", en: "All politicians are the same." },
@@ -902,7 +902,7 @@ export const PT_C1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Trata-se de um apelo à autoridade.",
-            tip: "The crase \"à\" sounds just like \"a\". The final -de of \"autoridade\" sounds like jee.",
+            tip: "The crase \"à\" sounds just like \"a\". The final -de of \"autoridade\" sounds like dji.",
             explanation: "\"Trata-se de\" is the standard written way to label something: it is a case of.",
           },
         ],
@@ -981,7 +981,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "speak",
         text: "Em nenhum momento o autor disse isso.",
         prompt: "Say it in Portuguese: At no point did the author say that.",
-        tip: "Keep \"em\" nasal and let the final -o of \"momento\" sound like oo.",
+        tip: "Keep \"em\" nasal and let the final -o of \"momento\" sound like u.",
         explanation: "Subject before verb after \"em nenhum momento\": \"o autor disse\", with no English-style inversion.",
       },
       {
@@ -1132,7 +1132,7 @@ export const PT_C1_U09: Lesson[] = [
           {
             type: "speak",
             text: "A frase atribuída a Clarice Lispector é falsa.",
-            tip: "Stress the í in \"atribuída\": a-tree-boo-EE-da. The written accent breaks the diphthong.",
+            tip: "Stress the í in atribuída: a-tri-bu-Í-da. The written accent breaks the diphthong.",
             explanation: "\"Atribuída\" agrees with \"a frase\". It flags a quote whose origin is doubtful.",
           },
         ],
@@ -1492,7 +1492,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "speak",
         text: "A votação foi adiada para a próxima semana.",
         prompt: "Say it in Portuguese: The vote was postponed until next week.",
-        tip: "Say the d in \"adiada\" like the j in jeep: a-jee-A-da.",
+        tip: "Say the d in \"adiada\" like the j in jeep: a-dji-A-da.",
         explanation: "A plain passive with \"foi adiada\" and no evaluative word, so it reads as neutral reporting.",
       },
     ],
@@ -1738,7 +1738,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "speak",
         text: "Mãe, não é bem assim: a Receita já desmentiu.",
         prompt: "Say it in Portuguese: Mom, it's not quite like that: the Receita has already denied it.",
-        tip: "In \"desmentiu\" the t before i sounds like the ch in cheese, and the stress falls on the last syllable: jez-mẽ-CHEEW.",
+        tip: "In \"desmentiu\" the t before i sounds like the ch in cheese, and the stress falls on the last syllable: desmen-TCHIU.",
         explanation: "\"Não é bem assim\" softens the correction. The simple perfeito \"desmentiu\" translates the English has denied.",
       },
       {
@@ -2064,7 +2064,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "speak",
         text: "Embora eu discorde do autor, reconheço que o texto é bem fundamentado.",
         prompt: "Say it in Portuguese: Although I disagree with the author, I recognize that the text is well argued.",
-        tip: "Open ó in discorde (jees-KÓR-jee); the nh in reconheço sounds like the ny in canyon.",
+        tip: "Open ó in discorde (dis-CÓR-dji); the nh in reconheço sounds like the ny in canyon.",
         explanation: "\"Embora\" takes the subjunctive \"discorde\". Conceding a point before criticizing shows you've read the text fairly, the opposite of a straw man.",
       },
       {
@@ -2167,7 +2167,7 @@ export const PT_C1_U09: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "The author resorts to a false dichotomy.",
             answer: "O autor recorre a uma falsa dicotomia.",
-            altAnswers: ["O colunista recorre a uma falsa dicotomia.", "O autor recorre a um falso dilema.", "O colunista recorre a um falso dilema."],
+            altAnswers: ["O colunista recorre a uma falsa dicotomia.", "O autor recorre a um falso dilema.", "O colunista recorre a um falso dilema.", "O autor incorre em uma falsa dicotomia.", "O autor incorre numa falsa dicotomia."],
             explanation: "\"Recorrer a\" (to resort to) takes \"a\". It names the strategy neutrally, which keeps your reply's tone measured.",
           },
           {
@@ -2593,7 +2593,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "speak",
         text: "Convém lembrar que o estudo ouviu apenas mil pessoas.",
         prompt: "Say it in Portuguese: It's worth remembering that the study surveyed only a thousand people.",
-        tip: "The final l in mil sounds like a u (meew), and the em in convém is nasal with no n at the end.",
+        tip: "The final l in mil sounds like a u (\"miu\"), and the em in convém is nasal with no n at the end.",
         explanation: "\"Convém lembrar\" presents a criticism of the sample as a neutral reminder. \"Ouvir\" is the usual verb for surveying people.",
       },
       {

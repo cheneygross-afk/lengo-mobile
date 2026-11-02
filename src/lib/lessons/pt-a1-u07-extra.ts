@@ -208,7 +208,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
       {
         heading: "Your, his, her, their",
         body: [
-          "In everyday speech \"seu\" and \"sua\" mean your, to \"você\", \"o senhor\" or \"a senhora\", and agrees with the thing owned: \"seu carro\", \"sua casa\", \"seus filhos\". For his, her and their, put \"dele\", \"dela\", \"deles\" or \"delas\" after the noun, with the article in front: \"o carro dele\", \"a casa dela\".",
+          "In everyday speech \"seu\" / \"sua\" means your, to \"você\", \"o senhor\" or \"a senhora\", and agrees with the thing owned: \"seu carro\", \"sua casa\", \"seus filhos\". For his, her and their, put \"dele\", \"dela\", \"deles\" or \"delas\" after the noun, with the article in front: \"o carro dele\", \"a casa dela\".",
           "\"Dele\" and \"dela\" agree with the owner, like English: \"a mãe dele\" is his mother, \"o pai dela\" is her father. Saying \"sua mãe\" about Lucas's mother makes a Brazilian hear your mother.",
         ],
         examples: [
@@ -321,7 +321,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         en: "The car is [hers].",
         sentence: "O carro é ___.",
         answer: "dela",
-        explanation: "\"É dela\" means it's hers.",
+        explanation: "\"É dela\" = it's hers.",
       },
       {
         type: "translate",
@@ -387,7 +387,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
       {
         heading: "Little words that join",
         body: [
-          "\"De\" and \"em\" always join an article: \"do\", \"da\", \"dos\", \"das\"; \"no\", \"na\", \"nos\", \"nas\"; with \"um\" and \"uma\", \"num\" and \"numa\". \"A\" joins it too: \"ao\", \"à\". Most cities take no article (\"em Recife\"), but \"no Rio\", \"no Brasil\", \"na Bahia\".",
+          "\"De\" and \"em\" always join an article: \"do\", \"da\", \"dos\", \"das\"; \"no\", \"na\", \"nos\", \"nas\"; with \"um\" / \"uma\", \"num\" / \"numa\". \"A\" joins it too: \"ao\", \"à\". Most cities take no article (\"em Recife\"), but \"no Rio\", \"no Brasil\", \"na Bahia\".",
           "Place words end in \"de\" or \"a\", so they contract: \"perto da praça\", \"longe do centro\", \"ao lado do banco\", \"em frente à escola\". \"Entre\" never contracts. \"Tem\" says something exists (\"tem uma farmácia aqui?\"); \"fica\" or \"é\" says where a known place is.",
         ],
         examples: [
@@ -413,7 +413,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
             en: "The hotel is far [from the] center.",
             sentence: "O hotel é longe ___ centro.",
             answer: "do",
-            explanation: "\"Longe de\" + \"o centro\" gives \"longe do centro\".",
+            explanation: "\"Longe de\" + \"o centro\" = \"longe do centro\".",
           },
           {
             type: "listen-choose",
@@ -421,7 +421,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
             question: "What does it mean?",
             options: ["She works in a pharmacy.", "She works at the pharmacy.", "She lives near a pharmacy.", "She's going to a pharmacy."],
             correctIndex: 0,
-            explanation: "\"Numa\" is em + uma: in a.",
+            explanation: "\"Numa\" = em + uma: in a.",
           },
         ],
       },
@@ -434,7 +434,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         source: "I live in Rio.",
         answer: "Moro no Rio.",
         altAnswers: ["Eu moro no Rio."],
-        explanation: "Rio takes an article: em + o gives \"no\".",
+        explanation: "Rio takes an article: em + o = \"no\".",
       },
       {
         type: "translate",
@@ -460,7 +460,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         source: "The school is across from the pharmacy.",
         answer: "A escola é em frente à farmácia.",
         altAnswers: ["A escola fica em frente à farmácia."],
-        explanation: "\"Em frente a\" + \"a\" gives \"à\", with the grave accent.",
+        explanation: "\"Em frente a\" + \"a\" = \"à\", with the grave accent.",
       },
       {
         type: "translate",
@@ -469,7 +469,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         source: "We live in a small house.",
         answer: "Moramos numa casa pequena.",
         altAnswers: ["Nós moramos numa casa pequena.", "Moramos em uma casa pequena.", "Nós moramos em uma casa pequena."],
-        explanation: "\"Em\" + \"uma\" gives \"numa\". \"Em uma\" is also correct in writing.",
+        explanation: "\"Em\" + \"uma\" = \"numa\". \"Em uma\" is also correct in writing.",
       },
       {
         type: "translate",
@@ -478,7 +478,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         source: "There's no bakery in my neighborhood.",
         answer: "Não tem padaria no meu bairro.",
         altAnswers: ["Não há padaria no meu bairro."],
-        explanation: "\"Não tem\" for there isn't, and em + o + meu gives \"no meu\".",
+        explanation: "\"Não tem\" for there isn't, and em + o + meu = \"no meu\".",
       },
       {
         type: "translate",
@@ -487,7 +487,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         source: "My cousins are in the United States.",
         answer: "Meus primos estão nos Estados Unidos.",
         altAnswers: ["Os meus primos estão nos Estados Unidos."],
-        explanation: "\"Os Estados Unidos\" is plural: em + os gives \"nos\".",
+        explanation: "\"Os Estados Unidos\" is plural: em + os = \"nos\".",
       },
       {
         type: "fill-blank",
@@ -495,7 +495,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         en: "The key is [on the] table.",
         sentence: "A chave está ___ mesa.",
         answer: "na",
-        explanation: "Em + a gives \"na\".",
+        explanation: "Em + a = \"na\".",
       },
       {
         type: "fill-blank",
@@ -503,7 +503,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         en: "There's a bus stop near [the] square.",
         sentence: "Tem um ponto de ônibus perto ___ praça.",
         answer: "da",
-        explanation: "\"Perto de\" + \"a praça\" gives \"perto da praça\".",
+        explanation: "\"Perto de\" + \"a praça\" = \"perto da praça\".",
       },
       {
         type: "fill-blank",
@@ -527,7 +527,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: There's a market near my house.",
         words: ["Tem", "um", "mercado", "perto", "da", "minha", "casa."],
         translation: "There's a market near my house.",
-        explanation: "\"Perto de\" + \"a minha casa\" gives \"perto da minha casa\".",
+        explanation: "\"Perto de\" + \"a minha casa\" = \"perto da minha casa\".",
       },
       {
         type: "multiple-choice",
@@ -547,7 +547,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
           "The bank is across from the pharmacy.",
         ],
         correctIndex: 0,
-        explanation: "\"Em frente ao\" means across from the, before a masculine noun.",
+        explanation: "\"Em frente ao\" = across from the, before a masculine noun.",
       },
       {
         type: "dictation",
@@ -558,7 +558,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         type: "speak",
         text: "A padaria fica ao lado da farmácia.",
         prompt: "Say it in Portuguese: The bakery is next to the pharmacy.",
-        explanation: "\"Ao lado de\" + \"a farmácia\" gives \"ao lado da farmácia\".",
+        explanation: "\"Ao lado de\" + \"a farmácia\" = \"ao lado da farmácia\".",
       },
     ],
   },
@@ -575,7 +575,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         heading: "Same thing, new owner",
         body: [
           "With a name, use \"de\" + article: \"o carro da Ana\", \"a casa do Lucas\". Replace the name with a pronoun and \"da Ana\" becomes \"dela\", \"do Lucas\" becomes \"dele\", \"dos meninos\" becomes \"deles\". These follow the owner.",
-          "Make yourself the owner and the possessive moves in front, agreeing with the thing: \"o meu carro\", \"a minha casa\", \"os nossos filhos\". Change the thing and only the article and \"meu\" or \"nosso\" change; \"dele\" and \"dela\" stay the same.",
+          "Make yourself the owner and the possessive moves in front, agreeing with the thing: \"o meu carro\", \"a minha casa\", \"os nossos filhos\". Change the thing and only the article and \"meu\" / \"nosso\" change; \"dele\" and \"dela\" stay the same.",
         ],
         examples: [
           { es: "o carro da Ana, o carro dela", en: "Ana's car, her car" },
@@ -680,7 +680,7 @@ export const PT_A1_U07_EXTRA: Lesson[] = [
         en: "João's keys, [his keys]",
         sentence: "As chaves do João, ___",
         answer: "as chaves dele",
-        explanation: "\"Do João\" becomes \"dele\"; the article \"as\" stays.",
+        explanation: "\"Do João\" → \"dele\"; the article \"as\" stays.",
       },
       {
         type: "fill-blank",

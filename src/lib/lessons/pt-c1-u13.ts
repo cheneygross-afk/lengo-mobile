@@ -601,7 +601,7 @@ export const PT_C1_U13: Lesson[] = [
         type: "speak",
         text: "Vamos sair antes que comece a chover.",
         prompt: "Say it in Portuguese: Let's go before it starts to rain.",
-        tip: "\"Comece\" has a closed o and the final -e sounds like ee: co-MÉ-see.",
+        tip: "\"Comece\" has a closed o and the final -e sounds like i: co-MÉ-ci.",
         explanation: "\"Antes que\" + present subjunctive. \"Antes de começar a chover\" says the same thing.",
       },
     ],
@@ -875,7 +875,7 @@ export const PT_C1_U13: Lesson[] = [
         type: "speak",
         text: "Ele já deve ter chegado em casa.",
         prompt: "Say it in Portuguese, casually: He must have gotten home by now.",
-        tip: "Link \"deve ter\": the final e of \"deve\" sounds like ee: DÊ-vee TÊR.",
+        tip: "Link \"deve ter\": the final e of \"deve\" sounds like i, DÊ-vi-ter.",
         explanation: "\"Já deve ter chegado\" is the spoken guess about the past. \"Chegar em casa\" is the normal Brazilian phrase; \"chegar a casa\" sounds European.",
       },
       {
@@ -911,7 +911,7 @@ export const PT_C1_U13: Lesson[] = [
         examples: [
           { es: "Dona Célia, a senhora viu? Tem uma ambulância parada aí na frente.", en: "Dona Célia, did you see? There's an ambulance parked out front." },
           { es: "Vi, meu filho. O que será que aconteceu?", en: "I did, dear. I wonder what's happened." },
-          { es: "Deve ter sido alguém passando mal.", en: "It must have been someone feeling sick." },
+          { es: "Deve ter sido alguém passando mal.", en: "Someone must have been taken ill." },
           { es: "Vai ver que é o seu Antônio do 82; ele anda meio fraco.", en: "Maybe it's Mr. Antônio from 82; he's been a bit frail lately." },
           { es: "Será? Pelo jeito é coisa séria: vieram dois carros.", en: "Do you think so? By the looks of it it's serious: two vehicles came." },
         ],
@@ -928,7 +928,7 @@ export const PT_C1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[It must have been] someone feeling sick.",
+            en: "Someone [must have been] taken ill.",
             sentence: "___ alguém passando mal.",
             answer: "Deve ter sido",
             explanation: "\"Deve ter sido\" guesses about a past event in everyday speech. A news report would write \"teria sido\".",
@@ -954,7 +954,7 @@ export const PT_C1_U13: Lesson[] = [
           "In speech Brazilians say \"levar ele\" rather than \"levá-lo\", and \"pra\" for \"para\". Seu Jorge talks like that. When Dona Célia passes it on, the tense shifts again: \"o porteiro disse que ele tinha desmaiado\". Listen also for \"ah, então foi isso\", the phrase that closes the guessing.",
         ],
         examples: [
-          { es: "O seu Antônio passou mal no elevador. A filha dele ligou pro SAMU.", en: "Mr. Antônio got sick in the elevator. His daughter called the ambulance service." },
+          { es: "O seu Antônio passou mal no elevador. A filha dele ligou pro SAMU.", en: "Mr. Antônio was taken ill in the elevator. His daughter called the ambulance service." },
           { es: "E aí, seu Jorge, o que o pessoal da ambulância falou?", en: "So, Jorge, what did the ambulance people say?" },
           { es: "Disseram que ele estava consciente e que iam levar ele pro Hospital das Clínicas.", en: "They said he was conscious and that they were taking him to Hospital das Clínicas." },
           { es: "O porteiro disse que ele tinha desmaiado no elevador.", en: "The doorman said he had fainted in the elevator." },
@@ -984,10 +984,10 @@ export const PT_C1_U13: Lesson[] = [
             audio: "Disseram que iam levar ele pro hospital.",
             question: "What does it mean?",
             options: [
-              "They said they were going to take him to the hospital.",
-              "They said they had taken him to the hospital.",
-              "They're saying he'll go to the hospital on his own.",
-              "They said he should go to the hospital.",
+              "They said they were going to take him to hospital.",
+              "They said they had taken him to hospital.",
+              "They're saying he'll go to hospital on his own.",
+              "They said he should go to hospital.",
             ],
             correctIndex: 0,
             explanation: "\"Iam levar\" is the future seen from the past. \"Levar ele\" and \"pro\" are everyday spoken forms.",
@@ -1061,7 +1061,7 @@ export const PT_C1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[They said] they were taking him to the hospital.",
+        en: "[They said] they were taking him to hospital.",
         sentence: "___ que iam levar ele para o hospital.",
         answer: "Disseram",
         altAnswers: ["Falaram", "Eles disseram", "Eles falaram"],
@@ -1099,9 +1099,9 @@ export const PT_C1_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: It must have been someone feeling sick.",
+        prompt: "Put the words in order to say: Someone must have been taken ill.",
         words: ["Deve", "ter", "sido", "alguém", "passando", "mal."],
-        translation: "It must have been someone feeling sick.",
+        translation: "Someone must have been taken ill.",
         explanation: "\"Deve ter sido\" + noun guesses who or what caused something; \"passar mal\" means to feel ill.",
       },
       {
@@ -1138,7 +1138,7 @@ export const PT_C1_U13: Lesson[] = [
         type: "speak",
         text: "Dona Célia, a senhora viu? Tem uma ambulância parada aí na frente.",
         prompt: "Say it in Portuguese: Dona Célia, did you see? There's an ambulance parked out front.",
-        tip: "\"Tem\" is nasal, with no clear m at the end: almost tẽi.",
+        tip: "\"Tem\" is nasal, with no clear m at the end: almost \"tẽi\".",
         explanation: "\"Tem\" for there is is standard in Brazilian speech; \"há\" belongs to writing.",
       },
       {
@@ -1302,7 +1302,7 @@ export const PT_C1_U13: Lesson[] = [
           {
             type: "speak",
             text: "Por mais que tenha tentado, não consigo esquecer aquilo.",
-            tip: "In \"consigo\" the o is nasal and the g is hard; stress the middle syllable: con-SEE-goo.",
+            tip: "In \"consigo\" the o is nasal and the g is hard; stress the middle syllable: con-SI-go.",
             explanation: "A present main clause (\"não consigo\"), so the concession takes \"tenha tentado\".",
           },
         ],
@@ -1591,7 +1591,7 @@ export const PT_C1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Once the math was done], the trip came out cheaper.",
+        en: "[Once the sums were done], the trip came out cheaper.",
         sentence: "___, a viagem saiu mais barata.",
         answer: "Feitas as contas",
         explanation: "The participle agrees with \"as contas\": \"feitas\". \"Feito as contas\" is the classic slip.",
@@ -2075,7 +2075,7 @@ export const PT_C1_U13: Lesson[] = [
           {
             type: "speak",
             text: "Parece que assaltaram a farmácia da esquina ontem à noite.",
-            tip: "Join \"ontem à noite\" into one phrase: ON-tẽi a NOI-chee.",
+            tip: "Join \"ontem à noite\" into one phrase: ON-tẽi-a-NOI-chi.",
             explanation: "An impersonal they (\"assaltaram\") and \"parece que\" are the spoken equivalents of the news passive and conditional.",
           },
         ],
@@ -2178,7 +2178,7 @@ export const PT_C1_U13: Lesson[] = [
         type: "speak",
         text: "Parece que o cara fugiu pela janela do banheiro.",
         prompt: "Say it in Portuguese, casually: Apparently the guy got out through the bathroom window.",
-        tip: "\"Banheiro\": the nh is like the ny in canyon, ba-NHÊI-roo.",
+        tip: "\"Banheiro\": the nh is like the ny in canyon, ba-NHÊI-ro.",
         explanation: "\"Parece que\" + preterite is the spoken equivalent of \"teria fugido\".",
       },
       {
@@ -2258,7 +2258,7 @@ export const PT_C1_U13: Lesson[] = [
           "Conditions and open relatives behave the same way. \"Se eu puder, eu venho\" becomes \"se eu pudesse, vinha\" (or \"viria\"), and \"quem quiser pode sair\" becomes \"quem quisesse podia sair\". Watch the main verb: in the past it's the imperfect or the conditional, not the future.",
         ],
         examples: [
-          { es: "Ela disse que, quando chegasse, ligaria para mim.", en: "She said that when she arrived, she'd call me." },
+          { es: "Ela disse que, quando chegasse, ligaria para mim.", en: "She said that when she got home, she'd call me." },
           { es: "Quando cheguei em casa, liguei para ela.", en: "When I got home, I called her." },
           { es: "Se eu pudesse, eu vinha.", en: "If I could, I'd come." },
           { es: "Quem quisesse podia sair mais cedo.", en: "Anyone who wanted to could leave early." },
@@ -2483,7 +2483,7 @@ export const PT_C1_U13: Lesson[] = [
         examples: [
           { es: "Na manhã desta segunda-feira, clientes da Conecta Sul ficaram sem acesso à internet por cerca de catorze horas.", en: "On Monday morning, Conecta Sul customers were without internet access for about fourteen hours." },
           { es: "Segundo a apuração preliminar, a falha foi causada pelo rompimento de um cabo de fibra óptica.", en: "According to the preliminary investigation, the outage was caused by a broken fiber-optic cable." },
-          { es: "Tudo indica que o cabo foi danificado durante uma obra na avenida Ipiranga.", en: "Everything suggests that the cable was damaged during construction work on Avenida Ipiranga." },
+          { es: "Tudo indica que o cabo foi danificado durante uma obra na avenida Ipiranga.", en: "Everything suggests that the cable was damaged during roadworks on Avenida Ipiranga." },
           { es: "É possível que outras regiões também tenham sido afetadas.", en: "It is possible that other areas were affected too." },
           { es: "Estima-se que cerca de quarenta mil clientes tenham sido prejudicados.", en: "An estimated forty thousand customers were affected." },
         ],
@@ -2600,7 +2600,7 @@ export const PT_C1_U13: Lesson[] = [
           {
             type: "speak",
             text: "Lamentamos profundamente o transtorno causado.",
-            tip: "\"Transtorno\" has a nasal first syllable: trans-TÔR-noo, with a closed ô.",
+            tip: "\"Transtorno\" has a nasal first syllable: trans-TOR-no, with a closed ô.",
             explanation: "The standard formal apology; \"transtorno\" here means inconvenience or disruption (in medicine it also means disorder, as in \"transtorno de ansiedade\").",
           },
         ],
@@ -2918,7 +2918,7 @@ export const PT_C1_U13: Lesson[] = [
         type: "speak",
         text: "Quando acabou a apresentação, falei com o cliente e ele foi supercompreensivo.",
         prompt: "Say it in Portuguese, casually: When the presentation was over, I talked to the client and he was really understanding.",
-        tip: "\"Super\" is fused to the adjective and said as one word: su-per-com-pre-en-SEE-voo.",
+        tip: "\"Super\" is fused to the adjective and said as one word: su-per-com-pre-en-SI-vo.",
         explanation: "\"Super\" + adjective is the everyday intensifier, and \"quando acabou\" unfolds the formal \"encerrada a apresentação\".",
       },
     ],
@@ -3045,7 +3045,7 @@ export const PT_C1_U13: Lesson[] = [
           {
             type: "speak",
             text: "Chovesse ou fizesse sol, ele corria na orla todas as manhãs.",
-            tip: "\"Orla\": open o and a light tapped r, Ó-rla.",
+            tip: "\"Orla\": open o and a light tapped r, O-rla.",
             explanation: "The past version of \"chova ou faça sol\": both verbs in the imperfect subjunctive for a past habit.",
           },
         ],

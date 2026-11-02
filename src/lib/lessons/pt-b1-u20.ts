@@ -122,7 +122,7 @@ export const PT_B1_U20: Lesson[] = [
           {
             type: "speak",
             text: "Fiquei muito feliz com a notícia.",
-            tip: "Notícia: no-CHEE-sya. The t before i sounds like ch.",
+            tip: "Notícia: no-TCHI-sia. The t before i sounds like ch.",
             explanation: "\"Ficar\" + adjective + \"com\" for what caused the feeling.",
           },
         ],
@@ -214,7 +214,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "speak",
         text: "Estou com saudade.",
         prompt: "Say it in Portuguese: I miss you (I'm feeling saudade).",
-        tip: "Saudade: sow-DA-jee. The final de sounds like jee.",
+        tip: "Saudade: sau-DA-dji. The final de sounds like dji.",
         explanation: "\"Estar com\" + noun describes a feeling right now: \"estou com saudade\" is I miss you (right now).",
       },
     ],
@@ -269,7 +269,7 @@ export const PT_B1_U20: Lesson[] = [
           "With \"com\" + pronoun, remember the special forms: \"comigo\", \"com você\", \"conosco\" or \"com a gente\". So \"ela ficou brava comigo\", not \"*com mim\".",
         ],
         examples: [
-          { es: "Me irritei com o barulho da obra.", en: "The construction noise got on my nerves." },
+          { es: "Me irritei com o barulho da obra.", en: "The building-site noise got on my nerves." },
           { es: "Ela se decepcionou com o namorado.", en: "She was let down by her boyfriend." },
           { es: "Não se preocupe com isso.", en: "Don't worry about that." },
           { es: "Minha mãe ficou brava comigo.", en: "My mom got angry with me." },
@@ -296,7 +296,7 @@ export const PT_B1_U20: Lesson[] = [
             type: "listen-choose",
             audio: "Me irritei com o barulho da obra.",
             question: "What does it mean?",
-            options: ["The construction noise got on my nerves.", "I made a lot of noise at work.", "I worried about the construction.", "The noise stopped."],
+            options: ["The building-site noise got on my nerves.", "I made a lot of noise at work.", "I worried about the building work.", "The noise stopped."],
             correctIndex: 0,
             explanation: "\"Se irritar com\": to get irritated by something.",
           },
@@ -335,7 +335,7 @@ export const PT_B1_U20: Lesson[] = [
           {
             type: "speak",
             text: "Me apaixonei pelo Rio.",
-            tip: "Rio starts with a throaty h sound in most of Brazil: HEE-oo.",
+            tip: "Rio starts with a throaty h sound in most of Brazil: HEE-u.",
             explanation: "\"Se apaixonar por\" + \"o Rio\" contracts to \"pelo Rio\"; Rio always takes the article.",
           },
         ],
@@ -492,7 +492,7 @@ export const PT_B1_U20: Lesson[] = [
         ],
         examples: [
           { es: "Fui a Salvador para matar a saudade da família.", en: "I went to Salvador to catch up with the family I'd been missing." },
-          { es: "Vamos marcar um café para matar a saudade?", en: "Should we meet for coffee and catch up?" },
+          { es: "Vamos marcar um café para matar a saudade?", en: "Shall we meet for a coffee and catch up?" },
           { es: "A professora se aposentou, mas deixou saudade.", en: "The teacher retired, but we all miss her." },
           { es: "Estou morrendo de saudade de vocês.", en: "I miss you all terribly." },
           { es: "Beijos, saudades!", en: "Love, miss you!" },
@@ -502,7 +502,7 @@ export const PT_B1_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Should we meet for coffee and catch up?",
+            source: "Shall we meet for a coffee and catch up?",
             answer: "Vamos marcar um café para matar a saudade?",
             altAnswers: ["Vamos marcar um café pra matar a saudade?", "Vamos tomar um café para matar a saudade?", "Vamos tomar um café pra matar a saudade?"],
             explanation: "\"Matar a saudade\" is seeing someone you've missed.",
@@ -640,7 +640,7 @@ export const PT_B1_U20: Lesson[] = [
       {
         type: "speak",
         text: "Vamos marcar um café para matar a saudade?",
-        prompt: "Say it in Portuguese: Should we meet for coffee and catch up?",
+        prompt: "Say it in Portuguese: Shall we meet for a coffee and catch up?",
         tip: "Matar: ma-TAR, with a plain t before a.",
         explanation: "\"Matar a saudade\" means to finally see someone you've missed, so here to catch up.",
       },
@@ -763,7 +763,7 @@ export const PT_B1_U20: Lesson[] = [
           {
             type: "speak",
             text: "Que cheiro esquisito!",
-            tip: "Esquisito: es-kee-ZEE-too. The s between vowels sounds like z.",
+            tip: "Esquisito: es-ki-ZI-tu. The s between vowels sounds like z.",
             explanation: "\"Esquisito\" means weird, never exquisite. The s between vowels sounds like z.",
           },
         ],
@@ -852,7 +852,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "speak",
         text: "A nova colega é muito simpática.",
         prompt: "Say it in Portuguese: The new colleague is really nice.",
-        tip: "Simpática: seen-PA-chee-ka. Stress on the second syllable.",
+        tip: "Simpática: sin-PA-tchi-ka. Stress on the second syllable.",
         explanation: "\"Simpática\" means nice, friendly (not sympathetic), and agrees with \"colega\".",
       },
     ],
@@ -964,7 +964,7 @@ export const PT_B1_U20: Lesson[] = [
           {
             type: "speak",
             text: "Ele ficou chato depois que ficou famoso.",
-            tip: "Chato: SHA-too. The ch is like English sh.",
+            tip: "Chato: SHA-tu. The ch is like English sh.",
             explanation: "\"Ficar\" can also mark a lasting change of character: he became unbearable after he got famous.",
           },
         ],
@@ -1053,7 +1053,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "speak",
         text: "Nossa, você está muito bonita hoje!",
         prompt: "Compliment a friend: Wow, you look really nice today!",
-        tip: "Nossa: NÓ-sa, open ó.",
+        tip: "Nossa: NO-sa, open o.",
         explanation: "\"Estar bonita\" compliments how she looks today. \"Nossa\" adds wow.",
       },
       {
@@ -1152,11 +1152,11 @@ export const PT_B1_U20: Lesson[] = [
       {
         heading: "Se dar bem com, brigar com, fazer as pazes",
         body: [
-          "For getting along, use \"se dar bem com\": \"eu me dou bem com a minha sogra\" (I get along well with my mother-in-law). The opposite is \"se dar mal com\" or \"não se dar com\".",
+          "For getting along, use \"se dar bem com\": \"eu me dou bem com a minha sogra\" (I get on well with my mother-in-law). The opposite is \"se dar mal com\" or \"não se dar com\".",
           "\"Brigar com\" means to argue or fight with (usually verbally), and \"fazer as pazes\" (literally to make the peaces, always plural) is to make up: \"a gente brigou, mas já fez as pazes\".",
         ],
         examples: [
-          { es: "Eu me dou muito bem com a minha sogra.", en: "I get along really well with my mother-in-law." },
+          { es: "Eu me dou muito bem com a minha sogra.", en: "I get on really well with my mother-in-law." },
           { es: "Meu irmão e eu não nos damos bem.", en: "My brother and I don't get along." },
           { es: "Ela brigou com o namorado por causa de ciúme.", en: "She had a fight with her boyfriend over jealousy." },
           { es: "A gente brigou, mas já fez as pazes.", en: "We had an argument, but we've already made up." },
@@ -1174,15 +1174,15 @@ export const PT_B1_U20: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: I get along well with my mother-in-law.",
+            prompt: "Put the words in order to say: I get on well with my mother-in-law.",
             words: ["Eu", "me", "dou", "bem", "com", "a", "minha", "sogra."],
-            translation: "I get along well with my mother-in-law.",
-            explanation: "\"Se dar bem com\" means to get along well with; the pronoun matches the subject: \"eu me dou\".",
+            translation: "I get on well with my mother-in-law.",
+            explanation: "\"Se dar bem com\" means to get on well with; the pronoun matches the subject: \"eu me dou\".",
           },
           {
             type: "speak",
             text: "A gente brigou, mas já fez as pazes.",
-            tip: "Pazes: PA-zees. The s between vowels is a z.",
+            tip: "Pazes: PA-zis. The s between vowels is a z.",
             explanation: "\"Fazer as pazes\" (to make up) always has plural \"pazes\". The s between vowels is a z.",
           },
         ],
@@ -1228,10 +1228,10 @@ export const PT_B1_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I don't [get along] with my boss.",
+        en: "I don't [get on] with my boss.",
         sentence: "Eu não me ___ bem com meu chefe.",
         answer: "dou",
-        explanation: "\"Se dar bem com\": \"não me dou bem com\" means I don't get along with.",
+        explanation: "\"Se dar bem com\": \"não me dou bem com\" means I don't get on with.",
       },
       {
         type: "multiple-choice",
@@ -1277,7 +1277,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "speak",
         text: "Essa é a minha mulher, a Cláudia.",
         prompt: "Introduce your wife: This is my wife, Cláudia.",
-        tip: "Mulher: moo-LYÉR, the lh like lli in million.",
+        tip: "Mulher: mu-LHÉR, the lh like lli in million.",
         explanation: "\"A minha mulher\" is a common, neutral way to say my wife.",
       },
     ],
@@ -1388,7 +1388,7 @@ export const PT_B1_U20: Lesson[] = [
           {
             type: "speak",
             text: "Ela fala dos netos com muita ternura.",
-            tip: "Ternura: ter-NOO-ra.",
+            tip: "Ternura: ter-NU-ra.",
             explanation: "\"-ura\" turns \"terno\" (tender) into \"a ternura\" (tenderness). Stress ter-NU-ra.",
           },
         ],
@@ -1483,7 +1483,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "speak",
         text: "Desejo muita felicidade para vocês dois.",
         prompt: "Say it in Portuguese at a wedding: I wish you both every happiness.",
-        tip: "Felicidade: fe-lee-see-DA-jee.",
+        tip: "Felicidade: fe-li-si-DA-dji.",
         explanation: "\"-dade\" turns \"feliz\" into \"a felicidade\", so \"muita felicidade\".",
       },
     ],
@@ -1572,7 +1572,7 @@ export const PT_B1_U20: Lesson[] = [
       {
         heading: "É melhor que você não ligue pra ela agora",
         body: [
-          "Thiago gives advice with the subjunctive from Unit 4: \"é melhor que você não ligue pra ela agora\", \"o importante é que você se cuide\" (look after yourself). The negative \"não\" goes before the subjunctive verb.",
+          "Thiago gives advice with the subjunctive from Unit 19: \"é melhor que você não ligue pra ela agora\", \"o importante é que você se cuide\" (look after yourself). The negative \"não\" goes before the subjunctive verb.",
           "He ends with hope and comfort: \"tomara que vocês façam as pazes\" or \"talvez seja melhor assim\" (maybe it's better this way), and the Brazilian classic \"vai passar\" (it'll pass).",
         ],
         examples: [
@@ -1694,7 +1694,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "speak",
         text: "É melhor que você não ligue pra ela agora.",
         prompt: "Say it in Portuguese: You'd better not call her right now.",
-        tip: "Ligue: LEE-gee, hard g.",
+        tip: "Ligue: LI-gi, hard g.",
         explanation: "\"É melhor que\" + \"não\" + subjunctive: \"ligue\", with u to keep the g hard.",
       },
     ],
@@ -1805,7 +1805,7 @@ export const PT_B1_U20: Lesson[] = [
           {
             type: "speak",
             text: "Os vizinhos foram muito solidários.",
-            tip: "Solidários: so-lee-DA-ryoos.",
+            tip: "Solidários: so-li-DA-rius.",
             explanation: "\"Solidário\" means supportive, showing sympathy in hard times; \"solidários\" agrees with \"os vizinhos\".",
           },
         ],
@@ -1894,7 +1894,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "speak",
         text: "Tenho orgulho de você.",
         prompt: "Say it in Portuguese: I'm proud of you.",
-        tip: "Orgulho: or-GOO-lyoo.",
+        tip: "Orgulho: or-GU-lhu.",
         explanation: "\"Ter orgulho de\" + person: \"de você\". The lh in \"orgulho\" is like the lli in million.",
       },
       {
@@ -2014,7 +2014,7 @@ export const PT_B1_U20: Lesson[] = [
           {
             type: "speak",
             text: "Sinto falta das nossas conversas.",
-            tip: "Conversas: kon-VÉR-sas.",
+            tip: "Conversas: con-VER-sas.",
             explanation: "\"Sentir falta de\" + \"as\" contracts to \"das\": \"das nossas conversas\".",
           },
         ],
@@ -2097,7 +2097,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "speak",
         text: "Espero que a gente nunca perca o contato.",
         prompt: "Say it in Portuguese: I hope we never lose touch.",
-        tip: "Perca: PÉR-ka, open é.",
+        tip: "Perca: PER-ka, open e.",
         explanation: "\"Perca\" is the subjunctive of \"perder\", built from \"perco\".",
       },
       {
@@ -2154,7 +2154,7 @@ export const PT_B1_U20: Lesson[] = [
           {
             type: "speak",
             text: "Eles se conheceram quando moravam em Natal.",
-            tip: "Conheceram: ko-nye-SE-rãw.",
+            tip: "Conheceram: co-nhe-SE-rão.",
             explanation: "Perfeito for the event, imperfeito for the background.",
           },
         ],
@@ -2162,11 +2162,11 @@ export const PT_B1_U20: Lesson[] = [
       {
         heading: "Advice about people",
         body: [
-          "When friends talk about relationships, advice from Unit 4 follows naturally: \"sugiro que você converse com ela\", \"é melhor que vocês não briguem na frente das crianças\", \"o importante é que vocês se deem bem\". \"Dar\" has the subjunctive \"dê\", so \"se dar bem\" becomes \"se dê bem\" and \"se deem bem\".",
+          "When friends talk about relationships, advice from Unit 19 follows naturally: \"sugiro que você converse com ela\", \"é melhor que vocês não briguem na frente das crianças\", \"o importante é que vocês se deem bem\". \"Dar\" has the subjunctive \"dê\", so \"se dar bem\" becomes \"se dê bem\" and \"se deem bem\".",
         ],
         examples: [
           { es: "É melhor que vocês não briguem na frente das crianças.", en: "You'd better not argue in front of the kids." },
-          { es: "O importante é que vocês se deem bem.", en: "The main thing is that you get along well." },
+          { es: "O importante é que vocês se deem bem.", en: "The main thing is that you get on well." },
           { es: "Te aconselho a não ter ciúme das amigas dele.", en: "I'd advise you not to be jealous of his friends." },
           { es: "Espero que você se dê bem com a minha mãe.", en: "I hope you get along with my mom." },
         ],
@@ -2175,7 +2175,7 @@ export const PT_B1_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The main thing is that you get along well.",
+            source: "The main thing is that you get on well.",
             answer: "O importante é que vocês se deem bem.",
             altAnswers: ["O mais importante é que vocês se deem bem."],
             explanation: "\"Se dar bem\" in the subjunctive: \"se deem\" for vocês.",
@@ -2282,7 +2282,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "speak",
         text: "Estou morrendo de saudade de vocês.",
         prompt: "Say it in Portuguese: I miss you all terribly.",
-        tip: "Morrendo: mo-HEN-doo. The double r is a throaty h.",
+        tip: "Morrendo: mo-HEN-du. The double r is a throaty h.",
         explanation: "\"Morrer de saudade de\" + person: \"estou morrendo de saudade de vocês\".",
       },
       {

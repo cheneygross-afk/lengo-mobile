@@ -140,7 +140,7 @@ export const KO_B1_U33: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "This sentence has a grammar mistake.",
         answer: "이 문장은 문법이 틀렸어요.",
-        altAnswers: ["이 문장은 문법이 틀려요.", "이 문장에 문법 실수가 있어요.", "이 문장에는 문법 실수가 있어요.", "이 문장에 문법 오류가 있어요."],
+        altAnswers: ["이 문장은 문법이 틀려요.", "이 문장에 문법 실수가 있어요.", "이 문장에는 문법 실수가 있어요.", "이 문장은 문법이 틀렸습니다.", "이 문장에 문법 오류가 있어요."],
         explanation: "틀리다 'be wrong' is usually in the past for a mistake already made: 틀렸어요. 문법 실수 'grammar mistake' with 있다 also works.",
       },
       {
@@ -419,7 +419,7 @@ export const KO_B1_U33: Lesson[] = [
         prompt: "Translate into Korean (polite, group chat).",
         source: "The meeting place has changed.",
         answer: "모임 장소가 바뀌었어요.",
-        altAnswers: ["모임 장소가 변경됐어요.", "모임 장소가 변경되었어요.", "모임 장소를 바꿨어요."],
+        altAnswers: ["모임 장소가 바뀌었습니다.", "모임 장소가 변경됐어요.", "모임 장소가 변경되었어요.", "모임 장소를 바꿨어요."],
         explanation: "바뀌다 is the passive of 바꾸다 (Unit 10). In a group chat 해요 is natural. ㅟ never contracts with 었, so write 바뀌었어요 in full, however fast it is said.",
       },
       {
@@ -1422,7 +1422,7 @@ export const KO_B1_U33: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Please be quiet in the library.",
         answer: "도서관에서는 조용히 해 주세요.",
-        altAnswers: ["도서관에서는 조용히 하세요.", "도서관에서 조용히 해 주세요.", "도서관에서 조용히 하세요."],
+        altAnswers: ["도서관에서는 조용히 하세요.", "도서관에서 조용히 해 주세요.", "도서관에서 조용히 하세요.", "도서관에서는 조용히 해 주십시오."],
         explanation: "조용하다 → 조용히 (no ㅅ in the stem, so -히).",
       },
       {
@@ -1893,8 +1893,8 @@ export const KO_B1_U33: Lesson[] = [
             en: "I'll check and [get back to you right away].",
             sentence: "확인하고 ___.",
             answer: "바로 연락드릴게요",
-            altAnswers: ["바로 연락할게요", "곧 연락드릴게요", "곧 연락할게요"],
-            explanation: "-(으)ㄹ게요 is written with 게 even though you hear [께]. In polite 해요 it is 연락드릴게요; a formal email would use 연락드리겠습니다 instead.",
+            altAnswers: ["바로 연락할게요", "곧 연락드릴게요", "곧 연락할게요", "바로 연락 드리겠습니다", "바로 연락드리겠습니다"],
+            explanation: "-(으)ㄹ게요 is written with 게 even though you hear [께].",
           },
         ],
       },

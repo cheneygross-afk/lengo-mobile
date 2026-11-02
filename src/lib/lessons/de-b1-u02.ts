@@ -868,10 +868,10 @@ export const DE_B1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We were glad that the train arrived on time.'?",
+        question: "Which sentence is correct?",
         options: ["Wir waren froh, dass der Zug pünktlich ankam.", "Wir waren froh, dass der Zug pünktlich kam an.", "Wir waren froh, dass der Zug kam pünktlich an.", "Wir waren froh, dass ankam der Zug pünktlich."],
         correctIndex: 0,
-        explanation: "After \"dass\" the separable verb goes to the end in one piece: \"pünktlich ankam\". \"*dass der Zug pünktlich kam an*\" splits it as in a main clause.",
+        explanation: "After \"dass\" the joined verb \"ankam\" goes to the end.",
       },
       {
         type: "translate",
@@ -1250,10 +1250,10 @@ export const DE_B1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The cat was lying on the sofa.'?",
+        question: "Which sentence is correct?",
         options: ["Die Katze lag auf dem Sofa.", "Die Katze legte auf dem Sofa.", "Die Katze lag auf das Sofa.", "Die Katze liegte auf dem Sofa."],
         correctIndex: 0,
-        explanation: "Position, not movement: strong \"liegen, lag\" + dative \"auf dem Sofa\". \"*legte*\" is the placing verb \"legen\" (to lay something down), which needs an object.",
+        explanation: "Position: strong \"lag\" + dative.",
       },
       {
         type: "translate",
@@ -1356,10 +1356,10 @@ export const DE_B1_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you write 'He worked at the post office.'?",
+            question: "Which spelling is correct?",
             options: ["Er arbeitete bei der Post.", "Er arbeitte bei der Post.", "Er arbeite bei der Post.", "Er arbeitetete bei der Post."],
             correctIndex: 0,
-            explanation: "Stems ending in -t add an -e- before the ending: \"arbeit\" + \"-ete\" = \"arbeitete\". \"*arbeitte*\" drops that -e-, and \"*arbeite*\" is not a past form.",
+            explanation: "Stem \"arbeit\" + -ete.",
           },
         ],
       },

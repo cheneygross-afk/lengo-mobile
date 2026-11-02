@@ -234,7 +234,7 @@ export const KO_B1_U27: Lesson[] = [
       {
         heading: "추석: the harvest full moon",
         body: [
-          "추석, also called 한가위, falls on the 15th day of the 8th lunar month, in September or early October, when the moon is full (보름달). It is a harvest thanksgiving: families share the year's new rice and fruit and remember their ancestors. Like 설날 it is a three-day holiday, and on the night of 추석 people make a wish to the full moon (소원을 빌다).",
+          "추석, also called 한가위, falls on the 15th day of the 8th lunar month, usually in September, when the moon is full (보름달). It is a harvest thanksgiving: families share the year's new rice and fruit and remember their ancestors. Like 설날 it is a three-day holiday, and on the night of 추석 people make a wish to the full moon (소원을 빌다).",
           "Going home for the holiday is 고향에 내려가다, 'to go down to my hometown', because Seoul counts as 'up': you 내려가다 to 부산 or 전주 and 올라오다 back to Seoul, whatever the map says. Expect 교통 체증: a four-hour drive can take ten.",
         ],
         examples: [
@@ -267,7 +267,7 @@ export const KO_B1_U27: Lesson[] = [
       {
         heading: "차례, 성묘 and 송편",
         body: [
-          "On the morning of 추석 (and of 설날) many families hold 차례, a memorial rite for the ancestors: food is laid out on a table and the family bows. The verb is fixed: 차례를 지내다; 차례를 하다 sounds off to Koreans. Around 추석 people also go to the family graves to tidy them and bow, which is 성묘: 성묘를 가다, 성묘하다.",
+          "On the morning of 추석 (and of 설날) many families hold 차례, a memorial rite for the ancestors: food is laid out on a table and the family bows. The verb is fixed: 차례를 지내다, never *차례를 하다. Around 추석 people also go to the family graves to tidy them and bow, which is 성묘: 성묘를 가다, 성묘하다.",
           "The food of 추석 is 송편, small half-moon rice cakes filled with sesame, beans or chestnuts and steamed on pine needles. Shaping dough by hand has its own verb, 빚다: 송편을 빚다, 만두를 빚다. 만들다 is understood, but 빚다 is what Koreans say. An old saying: 송편을 예쁘게 빚으면 예쁜 딸을 낳는대요.",
         ],
         examples: [
@@ -294,7 +294,7 @@ export const KO_B1_U27: Lesson[] = [
             source: "In the morning we held the memorial rite and then visited the family graves.",
             answer: "아침에 차례를 지내고 성묘를 갔어요.",
             altAnswers: ["아침에 차례를 지내고 성묘하러 갔어요.", "아침에 차례를 지내고 성묘를 했어요.", "아침에 차례를 지내고 성묘했어요.", "아침에 차례를 지내고 나서 성묘를 갔어요.", "아침에 차례를 지내고 나서 성묘하러 갔어요.", "아침에 차례를 지낸 다음에 성묘를 갔어요.", "아침에는 차례를 지내고 성묘를 갔어요."],
-            explanation: "차례 takes 지내다. 성묘 can be 가다 or 하다: 성묘를 갔어요, 성묘했어요.",
+            explanation: "차례 always takes 지내다. 성묘 can be 가다 or 하다: 성묘를 갔어요, 성묘했어요.",
           },
           {
             type: "multiple-choice",
@@ -326,7 +326,7 @@ export const KO_B1_U27: Lesson[] = [
             source: "I gave my parents a fruit gift set.",
             answer: "부모님께 과일 선물 세트를 드렸어요.",
             altAnswers: ["부모님께 과일 선물 세트 드렸어요.", "부모님한테 과일 선물 세트를 드렸어요.", "부모님에게 과일 선물 세트를 드렸어요.", "부모님께 과일 세트를 드렸어요.", "부모님한테 과일 세트를 드렸어요.", "부모님께 과일 세트 드렸어요."],
-            explanation: "Giving up to parents is 드리다, with 께 for 'to': 부모님께 드렸어요. 부모님께 줬어요 is grammatical but sounds disrespectful.",
+            explanation: "Giving up to parents is 드리다, with 께 for 'to': 부모님께 드렸어요. *부모님께 줬어요 sounds disrespectful.",
           },
           {
             type: "speak",
@@ -672,7 +672,7 @@ export const KO_B1_U27: Lesson[] = [
         heading: "-(으)ㄹ 때마다: every time, whenever",
         body: [
           "You know -(으)ㄹ 때 'when' (A2) and 마다 'every' (주말마다, 날마다). Together they mean 'every time, whenever': 이 노래를 들을 때마다 고향 생각이 나요, 'every time I hear this song, I think of home'. The form is that of -(으)ㄹ 때: 갈 때마다, 먹을 때마다, 들을 때마다 (듣다), 만들 때마다 (ㄹ stems add nothing), 뵐 때마다 (뵙다).",
-          "The form stays -(으)ㄹ 때마다 for past, present and future; the last verb sets the time: 할머니를 뵐 때마다 용돈을 주셨어요 (back then), 고향에 갈 때마다 길이 막혀요 (always). English speakers reach for 갔을 때마다; it is heard, but the plain -(으)ㄹ 때마다 is the usual form, so leave the tense to the end.",
+          "The form stays -(으)ㄹ 때마다 for past, present and future; the last verb sets the time: 할머니를 뵐 때마다 용돈을 주셨어요 (back then), 고향에 갈 때마다 길이 막혀요 (always). English speakers reach for 갔을 때마다, which is rare and awkward; leave the tense to the end.",
           "때마다 says what triggers each event; -곤 하다 says that it kept happening. They combine well: 할머니 댁에 갈 때마다 송편을 빚곤 했어요.",
         ],
         examples: [
@@ -923,7 +923,7 @@ export const KO_B1_U27: Lesson[] = [
         heading: "제사 and 차례: honouring the ancestors",
         body: [
           "제사 is the memorial rite held on the anniversary of an ancestor's death, traditionally late at night; 차례 is the simpler morning rite on 설날 and 추석. For both, the family sets out a table of food (제사상을 차리다) and everyone bows deeply to the ancestors (조상, politely 조상님). The bow is 절: 절하다, or 절을 올리다. Many families now keep it small, or hold a family meal instead.",
-          "Talking about the dead needs honorific words. 죽다 is not used for a family elder: 할아버지께서 돌아가셨어요, 'Grandpa passed away'. Watch out: 돌아가다 without -시- just means 'go back'. 모시다, the humble partner of 데리다, appears in 제사를 모시다 'to hold the rite' and 부모님을 모시고 살다 'to live with and look after one's parents'.",
+          "Talking about the dead needs honorific words. 죽다 is never used for a family elder: 할아버지께서 돌아가셨어요, 'Grandpa passed away'. Watch out: 돌아가다 without -시- just means 'go back'. 모시다, the humble partner of 데리다, appears in 제사를 모시다 'to hold the rite' and 부모님을 모시고 살다 'to live with and look after one's parents'.",
         ],
         examples: [
           { es: "오늘 밤에 할아버지 제사가 있어요.", en: "Tonight is the memorial rite for my grandfather." },
@@ -941,7 +941,7 @@ export const KO_B1_U27: Lesson[] = [
             source: "My grandfather passed away last year.",
             answer: "할아버지께서는 작년에 돌아가셨어요.",
             altAnswers: ["할아버지께서 작년에 돌아가셨어요.", "할아버지는 작년에 돌아가셨어요.", "할아버지가 작년에 돌아가셨어요.", "작년에 할아버지께서 돌아가셨어요.", "작년에 할아버지가 돌아가셨어요.", "저희 할아버지께서는 작년에 돌아가셨어요.", "저희 할아버지는 작년에 돌아가셨어요.", "우리 할아버지는 작년에 돌아가셨어요.", "우리 할아버지께서는 작년에 돌아가셨어요."],
-            explanation: "For an elder, 'died' is 돌아가셨어요. 죽었어요 is grammatical but would sound shockingly rude about your own grandfather.",
+            explanation: "For an elder, 'died' is 돌아가셨어요. *죽었어요 would sound shockingly rude about your own grandfather.",
           },
           {
             type: "multiple-choice",
@@ -1085,7 +1085,7 @@ export const KO_B1_U27: Lesson[] = [
         prompt: "Say it in Korean: My grandfather passed away last year.",
         text: "할아버지께서는 작년에 돌아가셨어요.",
         tip: "Say 작년에 as [장녀네]: ㄱ before ㄴ becomes [ㅇ], then the ㄴ links to 에.",
-        explanation: "돌아가셨어요 is the everyday respectful way to say an elder died.",
+        explanation: "돌아가셨어요 is the only respectful way to say an elder died.",
       },
     ],
   },
@@ -1377,7 +1377,7 @@ export const KO_B1_U27: Lesson[] = [
       {
         heading: "At the table: 진지 and 드시다",
         body: [
-          "Food words go up a level too: 밥 becomes 진지 for grandparents (진지 드셨어요?), 먹다 becomes 드시다, and age is 연세: 연세가 어떻게 되세요? Keep the plain words for yourself: 저는 많이 먹었어요, not 저는 많이 드셨어요, which honours yourself.",
+          "Food words go up a level too: 밥 becomes 진지 for grandparents (진지 드셨어요?), 먹다 becomes 드시다, and age is 연세: 연세가 어떻게 되세요? Keep the plain words for yourself: 저는 많이 먹었어요, never *저는 많이 드셨어요.",
         ],
         examples: [
           { es: "할아버지, 진지 드셨어요?", en: "Grandpa, have you eaten?" },
@@ -1393,7 +1393,7 @@ export const KO_B1_U27: Lesson[] = [
             prompt: "Translate into Korean (polite, to your grandfather).",
             source: "Grandpa, have you eaten?",
             answer: "할아버지, 진지 드셨어요?",
-            altAnswers: ["할아버지, 진지는 드셨어요?", "할아버지, 진지 잡수셨어요?", "할아버지, 식사하셨어요?", "할아버지, 식사는 하셨어요?"],
+            altAnswers: ["할아버지, 진지는 드셨어요?", "할아버지, 진지 잡수셨어요?", "할아버지, 식사하셨어요?", "할아버지, 식사는 하셨어요?", "할아버지, 진지 드셨습니까?"],
             explanation: "For grandparents, 밥 → 진지 and 먹다 → 드시다. 밥 먹었어요? would sound like talking to a friend.",
           },
           {
@@ -1431,7 +1431,7 @@ export const KO_B1_U27: Lesson[] = [
             source: "Grandpa is already asleep.",
             answer: "할아버지께서는 벌써 주무세요.",
             altAnswers: ["할아버지는 벌써 주무세요.", "할아버지께서 벌써 주무세요.", "할아버지가 벌써 주무세요.", "할아버지께서는 이미 주무세요.", "할아버지는 이미 주무세요.", "할아버지께서는 벌써 주무시고 계세요.", "할아버지는 벌써 주무시고 계세요."],
-            explanation: "자다 has its own honorific, 주무시다, so 자세요 is wrong for an elder.",
+            explanation: "자다 has its own honorific, 주무시다: *자세요 is wrong for an elder.",
           },
           {
             type: "fill-blank",
@@ -1485,7 +1485,7 @@ export const KO_B1_U27: Lesson[] = [
         question: "Which sentence about your grandmother is fully respectful?",
         options: ["할머니께서는 댁에서 주무세요.", "할머니는 집에서 자요.", "할머니께서는 집에서 자세요.", "할머니가 댁에서 잤어요."],
         correctIndex: 0,
-        explanation: "께서, 댁 and 주무세요 all honour her. 자세요 adds -시- to a verb that has its own honorific word, so it sounds wrong for an elder.",
+        explanation: "께서, 댁 and 주무세요 all honour her. *자세요 adds -시- to a verb that has its own honorific word.",
       },
       {
         type: "dictation",
@@ -1499,7 +1499,7 @@ export const KO_B1_U27: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Grandma's house is in Jeonju.",
         answer: "할머니 댁은 전주에 있어요.",
-        altAnswers: ["할머니 댁이 전주에 있어요.", "할머니 댁은 전주예요."],
+        altAnswers: ["할머니 댁이 전주에 있어요.", "할머니 댁은 전주예요.", "할머니 댁은 전주에 있습니다."],
         explanation: "An elder's house is 댁; 할머니 집 would sound too casual in this lesson's register.",
       },
       {
@@ -1892,7 +1892,7 @@ export const KO_B1_U27: Lesson[] = [
         body: [
           "-곤 했어요 ends a sentence: it tells that an action kept happening. -던 and -았 / 었던 come before a noun and describe it (Unit 5): 자주 가던 식당 'the restaurant we often went to', 한 번 갔던 식당 'the restaurant we went to once'. So ask first: am I ending the sentence or describing a noun?",
           "Before a noun, choose by the kind of past. -던 looks back at something repeated or left unfinished: 어릴 때 살던 집, 자주 먹던 떡, 읽던 책 (not finished). -았 / 었던 looks back at a finished event, often a single one: 작년 추석에 갔던 식당, 처음 만났던 날. With 한 번 or 처음 only -았 / 었던 works: *한 번 가던 식당 is wrong. With 자주 you'll hear both, but -던 is the natural pick for a habit.",
-          "To put a -곤 habit before a noun, use -던: 가곤 하던 (or 가곤 했던) 바닷가, or simply 자주 가던 바닷가.",
+          "To put a -곤 habit before a noun, use -던: 가곤 하던 바닷가, or simply 자주 가던 바닷가. *가곤 한 바닷가 is not Korean.",
         ],
         examples: [
           { es: "어릴 때 추석이면 할머니 댁에 가곤 했어요.", en: "As a kid I'd go to Grandma's at Chuseok." },
@@ -1907,7 +1907,7 @@ export const KO_B1_U27: Lesson[] = [
             question: "Which sentence means 'The restaurant we went to once last Chuseok has closed'?",
             options: ["작년 추석에 한 번 갔던 식당이 문을 닫았어요.", "작년 추석에 한 번 가던 식당이 문을 닫았어요.", "작년 추석에 한 번 가곤 한 식당이 문을 닫았어요.", "작년 추석에 한 번 가는 식당이 문을 닫았어요."],
             correctIndex: 0,
-            explanation: "A single, finished visit before a noun is -았 / 었던: 갔던. 가던 needs a repeated or unfinished past, and -곤 can't describe a single visit.",
+            explanation: "A single, finished visit before a noun is -았 / 었던: 갔던. 가던 needs a repeated or unfinished past, and *가곤 한 is not a Korean form.",
           },
           {
             type: "translate",

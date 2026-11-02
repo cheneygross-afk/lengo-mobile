@@ -156,10 +156,10 @@ export const DE_B2_U26: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I've made great progress.'?",
+        question: "Which sentence is correct?",
         options: ["Ich habe große Fortschritte gemacht.", "Ich habe großen Fortschritt gehabt.", "Ich habe große Fortschritte bekommen.", "Ich bin große Fortschritte gegangen."],
         correctIndex: 0,
-        explanation: "The fixed phrase is \"Fortschritte machen\", usually in the plural. \"*großen Fortschritt gehabt*\" uses neither the right verb nor the plural.",
+        explanation: "The fixed phrase is \"Fortschritte machen\".",
       },
       {
         type: "translate",
@@ -581,10 +581,10 @@ export const DE_B2_U26: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'That's the only thing that has stayed the same.'?",
+        question: "Which sentence is correct?",
         options: ["Das ist das Einzige, was gleich geblieben ist.", "Das ist das Einzige, der gleich geblieben ist.", "Das ist das Einzige, welches gleich geblieben hat.", "Das ist das Einzige, wo gleich geblieben ist."],
         correctIndex: 0,
-        explanation: "After a nominalised adjective like \"das Einzige\" or \"das Beste\", the relative pronoun is \"was\". \"*wo*\" is regional speech, and \"*der*\" doesn't match the neuter \"das Einzige\".",
+        explanation: "After a nominalised adjective like \"das Einzige\" or \"das Beste\", written German uses \"was\".",
       },
       {
         type: "word-order",
@@ -790,10 +790,10 @@ export const DE_B2_U26: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'She is facing up to the challenge.'?",
+        question: "Which is correct?",
         options: ["Sie stellt sich der Herausforderung.", "Sie stellt sich die Herausforderung.", "Sie stellt der Herausforderung.", "Sie stellt sich zur Herausforderung."],
         correctIndex: 0,
-        explanation: "\"Sich einer Sache stellen\" takes the dative: \"sich der Herausforderung stellen\". \"*Sie stellt sich die Herausforderung*\" uses the accusative and would mean 'she sets herself the challenge'.",
+        explanation: "\"Sich einer Sache stellen\" takes the dative: \"der Herausforderung\".",
       },
       {
         type: "translate",
@@ -1199,10 +1199,10 @@ export const DE_B2_U26: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I agree with you.'?",
+        question: "Which sentence is correct?",
         options: ["Ich stimme dir zu.", "Ich stimme dich zu.", "Ich stimme mit dir zu.", "Ich zustimme dir."],
         correctIndex: 0,
-        explanation: "\"Zustimmen\" takes a plain dative, with the prefix at the end: \"Ich stimme dir zu\". \"*Ich stimme mit dir zu*\" copies English 'agree with'.",
+        explanation: "\"Zustimmen\" + dative, and the separable prefix goes to the end.",
       },
       {
         type: "translate",
@@ -1443,10 +1443,10 @@ export const DE_B2_U26: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'What's more, the flat is too small.'?",
+        question: "Which sentence has the correct word order?",
         options: ["Zudem ist die Wohnung zu klein.", "Zudem die Wohnung ist zu klein.", "Zudem die Wohnung zu klein ist.", "Zudem, die Wohnung ist zu klein."],
         correctIndex: 0,
-        explanation: "\"Zudem\" fills position 1, so the verb comes next: \"Zudem ist die Wohnung ...\". \"*Zudem die Wohnung ist*\" keeps English word order.",
+        explanation: "\"Zudem\" fills position 1; the verb is next.",
       },
       {
         type: "fill-blank",

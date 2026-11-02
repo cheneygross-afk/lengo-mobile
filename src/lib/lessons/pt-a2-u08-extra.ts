@@ -161,7 +161,7 @@ export const PT_A2_U08_EXTRA: Lesson[] = [
           { left: "amanhã", right: "tomorrow" },
           { left: "depois de amanhã", right: "the day after tomorrow" },
           { left: "semana que vem", right: "next week" },
-          { left: "daqui a um mês", right: "a month from now" },
+          { left: "daqui a um mês", right: "in a month's time" },
           { left: "no ano que vem", right: "next year" },
         ],
         explanation: "Future time words.",
@@ -316,7 +316,7 @@ export const PT_A2_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "O voo partirá às dez.",
         prompt: "Say it in Portuguese: The flight will depart at ten. (airport announcement)",
-        tip: "Partirá is stressed on the last syllable: par-chee-RÁ.",
+        tip: "Partirá is stressed on the last syllable: par-tchi-RÁ.",
         explanation: "Announcements use the written future.",
       },
       {
@@ -363,7 +363,7 @@ export const PT_A2_U08_EXTRA: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Yesterday I went to the gym and tomorrow I'm going to go again.",
             answer: "Ontem eu fui à academia e amanhã vou de novo.",
-            altAnswers: ["Ontem fui à academia e amanhã vou de novo.", "Ontem eu fui na academia e amanhã vou de novo.", "Ontem eu fui à academia e amanhã eu vou outra vez."],
+            altAnswers: ["Ontem fui à academia e amanhã vou de novo.", "Ontem eu fui na academia e amanhã vou de novo.", "Ontem eu fui à academia e amanhã eu vou outra vez.", "Ontem fui à academia e amanhã vou ir de novo."],
             explanation: "\"Fui\" (perfeito) and \"vou\" (going to go): \"vou\" alone already means I'm going.",
           },
           {
@@ -480,7 +480,7 @@ export const PT_A2_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ontem eu trabalhei, mas amanhã vou descansar.",
         prompt: "Say it in Portuguese: Yesterday I worked, but tomorrow I'm going to rest.",
-        tip: "Descansar: des-kã-SAR, nasal an.",
+        tip: "Descansar: des-kan-SAR, nasal an.",
         explanation: "Perfeito and future side by side.",
       },
       {

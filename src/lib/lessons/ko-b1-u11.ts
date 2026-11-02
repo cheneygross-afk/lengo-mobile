@@ -172,9 +172,9 @@ export const KO_B1_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Your friend's little brother is in tears after she teased him. What do you say to her (casual)?",
-        options: ["동생을 울리지 마.", "동생을 울지 마.", "동생이 울리지 마.", "동생을 울려 마."],
+        options: ["동생을 울리지 마.", "동생을 울지 마.", "동생이 울리지 마.", "동생을 울게 하지 마요."],
         correctIndex: 0,
-        explanation: "울리다 'make cry' takes the brother as object: 동생을 울리지 마. 울지 마 tells the person themselves not to cry, 동생이 makes the brother the one doing it, and *울려 마 drops the -지 that 마 needs.",
+        explanation: "울리다 'make cry' takes the brother as object: 동생을 울리지 마. 울지 마 tells the person themselves not to cry, and the last option mixes casual 마 with polite 요.",
       },
       {
         type: "fill-blank",
@@ -291,9 +291,9 @@ export const KO_B1_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "You're in a taxi and want the driver to stop at the corner. What do you say?",
-            options: ["저기 모퉁이에서 세워 주세요.", "저기 모퉁이에서 서 주세요.", "저기 모퉁이에서 태워 주세요.", "저기 모퉁이에서 깨워 주세요."],
+            options: ["저기 모퉁이에서 세워 주세요.", "저기 모퉁이에서 서 주세요.", "저기 모퉁이에서 태워 주세요.", "저기 모퉁이에서 세워요."],
             correctIndex: 0,
-            explanation: "The driver stops the car: 서다 → 세우다, 세워 주세요. 서 주세요 asks him to stand up, 태워 주세요 asks for a ride, and 깨워 주세요 asks him to wake you.",
+            explanation: "The driver stops the car: 서다 → 세우다, 세워 주세요. 서 주세요 asks him to stand up, and 태워 주세요 asks for a ride.",
           },
           {
             type: "speak",
@@ -376,7 +376,7 @@ export const KO_B1_U11: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "We put the meeting back an hour.",
         answer: "회의 시간을 한 시간 늦췄어요.",
-        altAnswers: ["회의를 한 시간 늦췄어요.", "회의 시간을 1시간 늦췄어요.", "회의를 1시간 늦췄어요.", "회의를 한 시간 미뤘어요.", "회의 시간을 한 시간 미뤘어요."],
+        altAnswers: ["회의를 한 시간 늦췄어요.", "회의 시간을 1시간 늦췄어요.", "회의를 1시간 늦췄어요."],
         explanation: "늦다 'late' → 늦추다 'make later, delay'. An hour is 한 시간, with the native number.",
       },
       {
@@ -1895,19 +1895,19 @@ export const KO_B1_U11: Lesson[] = [
       {
         heading: "-게 하다 where you did it yourself",
         body: [
-          "-게 하다 means the other person acts. For a baby you rocked to sleep, 아기를 자게 했어요 is grammatical but wrong for the situation: it sounds as if you ordered the baby to sleep, so say 재웠어요. Likewise 아기에게 우유를 마시게 했어요 → 먹였어요. And the reverse: for a teenager sent to bed, 자게 했어요 is right, and 재웠어요 would sound odd.",
+          "-게 하다 means the other person acts. For a baby you rocked to sleep, *아기를 자게 했어요 sounds as if you ordered the baby to sleep: say 재웠어요. *아기에게 우유를 마시게 했어요 → 먹였어요. And the reverse: for a teenager sent to bed, 자게 했어요 is right, and 재웠어요 would sound odd.",
         ],
         examples: [
-          { es: "아기를 안아서 재웠어요.", en: "I held the baby and got her to sleep. (not 자게 했어요, wrong for a baby)" },
-          { es: "아기에게 우유를 먹였어요.", en: "I fed the baby milk. (not 마시게 했어요, wrong for a baby)" },
+          { es: "아기를 안아서 재웠어요.", en: "I held the baby and got her to sleep. (not *자게 했어요)" },
+          { es: "아기에게 우유를 먹였어요.", en: "I fed the baby milk. (not *마시게 했어요)" },
           { es: "열 시가 넘어서 아들을 자게 했어요.", en: "It was past ten, so I sent my son to bed." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Choose the verb that fits the situation. Translate into Korean (polite).",
-            source: "I held the baby and got her to sleep. (not 아기를 안아서 자게 했어요, wrong for a baby)",
+            prompt: "Fix the mistake. Translate into Korean (polite).",
+            source: "I held the baby and got her to sleep. (not *아기를 안아서 자게 했어요)",
             answer: "아기를 안아서 재웠어요.",
             altAnswers: ["아기를 안고 재웠어요.", "아기를 안아서 재워 줬어요.", "아기를 안고 재워 줬어요."],
             explanation: "You did it with your own arms: direct 재우다.",
@@ -1991,8 +1991,8 @@ export const KO_B1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Choose the verb that fits the situation. Translate into Korean (polite).",
-        source: "I fed the baby milk. (not 아기에게 우유를 마시게 했어요, wrong for a baby)",
+        prompt: "Fix the mistake. Translate into Korean (polite).",
+        source: "I fed the baby milk. (not *아기에게 우유를 마시게 했어요)",
         answer: "아기에게 우유를 먹였어요.",
         altAnswers: ["아기한테 우유를 먹였어요.", "아기에게 우유를 먹여 줬어요.", "아기한테 우유를 먹여 줬어요."],
         explanation: "Babies are fed: 먹이다, even for milk.",

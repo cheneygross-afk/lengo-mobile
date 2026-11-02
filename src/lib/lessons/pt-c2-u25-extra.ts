@@ -579,7 +579,7 @@ export const PT_C2_U25_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não acredito!",
         prompt: "Say it in Portuguese twice: first delighted, as a friend surprises you, then angry, as someone breaks your phone.",
-        tip: "Delighted: high, open and rising. Angry: hit every syllable and fall: nãu-a-cre-JEE-too.",
+        tip: "Delighted: high, open and rising. Angry: hit every syllable and fall: não-a-cre-di-to.",
         explanation: "The same words carry opposite feelings, decided by the tune.",
       },
     ],

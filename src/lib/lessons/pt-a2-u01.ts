@@ -269,7 +269,7 @@ export const PT_A2_U01: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We [learned] a lot in the course.",
+            en: "We [learned] a lot on the course.",
             sentence: "Nós ___ muito no curso.",
             answer: "aprendemos",
             explanation: "The nós ending of -er verbs is -emos in the past, the same form as the present. The context tells you it's past.",
@@ -1619,7 +1619,7 @@ export const PT_A2_U01: Lesson[] = [
         type: "speak",
         text: "Eu fiquei em casa e assisti a um filme.",
         prompt: "Say it in Portuguese: I stayed home and watched a movie.",
-        tip: "In \"assisti\" the t before i sounds like the ch in cheese: a-sis-CHEE.",
+        tip: "In \"assisti\" the t before i sounds like ch: a-sis-CHI.",
         explanation: "\"Fiquei\" and \"assisti\" are both eu forms. \"Assistir a\" is to watch; in speech many people drop the \"a\".",
       },
       {
@@ -2345,7 +2345,7 @@ export const PT_A2_U01: Lesson[] = [
 
 export const PT_A2_U01_WRITING: WriteExercise = {
   type: "write",
-  prompt: "It's Monday morning. Write a message to a Brazilian friend about what you did last weekend: what you did on Saturday and on Sunday, who you spent time with, and one question for your friend. Include \"já\" or \"ainda não\" at least once. Use only regular verbs in the past (no 'went', 'was', 'had' or 'did' yet).",
+  prompt: "It's Monday morning. Write a message to a Brazilian friend about what you did last weekend: what you did on Saturday and on Sunday, who you spent time with, and one question for your friend. Use only regular verbs in the past (no 'went', 'was', 'had' or 'did' yet).",
   minWords: 50,
   maxWords: 100,
   rubric: [

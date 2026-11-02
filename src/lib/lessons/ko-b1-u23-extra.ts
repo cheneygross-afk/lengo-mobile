@@ -600,7 +600,7 @@ export const KO_B1_U23_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Here's my prescription.",
         answer: "처방전 여기 있어요.",
-        altAnswers: ["여기 처방전이요.", "여기 처방전 있어요.", "처방전은 여기 있어요."],
+        altAnswers: ["여기 처방전이요.", "처방전 여기 있습니다.", "여기 처방전 있어요.", "처방전은 여기 있어요."],
         explanation: "여기 있어요 'here it is', the standard way to hand something over.",
       },
       {

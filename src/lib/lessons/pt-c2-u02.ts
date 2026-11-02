@@ -116,7 +116,7 @@ export const PT_C2_U02: Lesson[] = [
           {
             type: "speak",
             text: "A sede da empresa fica em Curitiba.",
-            tip: "Open é in sede here (SÉ-jee). With a closed ê (SÊ-jee) it would mean thirst.",
+            tip: "Open é in sede here (SÉ-de). With a closed ê (SÊ-de) it would mean thirst.",
             explanation: "\"Sede\" is a homograph: the open vowel gives headquarters, the closed vowel gives thirst.",
           },
           {
@@ -155,7 +155,7 @@ export const PT_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The movie's last screening is at ten.",
+        source: "The film's last screening is at ten.",
         answer: "A última sessão do filme é às dez.",
         altAnswers: [
           "A última sessão do filme começa às dez.",
@@ -250,7 +250,7 @@ export const PT_C2_U02: Lesson[] = [
         type: "speak",
         text: "Fazemos o conserto, você faz o concerto.",
         prompt: "Say it in Portuguese: We do the repair, you give the concert.",
-        tip: "Both nouns sound exactly the same, with a closed ê: kon-SÊR-too. Only the verb \"eu conserto\" has an open é.",
+        tip: "Both nouns sound exactly the same, with a closed ê: kon-SÊR-tu. Only the verb \"eu conserto\" has an open é.",
         explanation: "The slogan's pun depends on two homophones, so in writing each must be spelled right: \"conserto\" (repair), \"concerto\" (concert).",
       },
       {
@@ -347,7 +347,7 @@ export const PT_C2_U02: Lesson[] = [
           { es: "Pizzaria do Zé: a gente entrega.", en: "Zé's Pizzeria: we deliver. (entregar also means to rat someone out)" },
           { es: "Calçados Passo Certo: a gente pega no seu pé.", en: "Passo Certo Shoes: we'll be on your case. (literally: we take hold of your foot)" },
           { es: "Café Aurora: desperta o que há de melhor em você.", en: "Aurora Coffee: awakens the best in you." },
-          { es: "Na Ótica Foco, você vê a diferença.", en: "At Foco Optical, you see the difference." },
+          { es: "Na Ótica Foco, você vê a diferença.", en: "At Foco Opticians, you see the difference." },
         ],
         checkpoint: [
           {
@@ -362,7 +362,7 @@ export const PT_C2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "At Foco Optical, you see the difference.",
+            source: "At Foco Opticians, you see the difference.",
             answer: "Na Ótica Foco, você vê a diferença.",
             altAnswers: ["Na Ótica Foco, vocês veem a diferença.", "Na Ótica Foco, a gente vê a diferença."],
             explanation: "\"Ver a diferença\" is to notice an improvement; for an optician it is also literally true. Note \"na\" (em + a) before \"Ótica\", a feminine noun.",
@@ -504,7 +504,7 @@ export const PT_C2_U02: Lesson[] = [
         type: "speak",
         text: "Polícia prende homem armado com faca.",
         prompt: "Say it in Portuguese: Police arrest man armed with a knife.",
-        tip: "Final -de in prende sounds like jee in most of Brazil (PRÊN-jee), and the -em in homem is a nasal diphthong, close to a nasal ei.",
+        tip: "Final -de in prende sounds like dji in most of Brazil, and the -em in homem is a nasal diphthong, close to a nasal ei.",
         explanation: "\"Armado com faca\" ties the knife to the man, so the headline has only one reading.",
       },
       {
@@ -532,7 +532,7 @@ export const PT_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The eyewear store's slogan plays on two meanings.",
+        source: "The optician's slogan plays on two meanings.",
         answer: "O slogan da ótica brinca com dois sentidos.",
         altAnswers: ["O slogan da ótica joga com dois sentidos.", "O slogan da ótica brinca com dois significados.", "O slogan da ótica joga com dois significados.", "O slogan da ótica tem duplo sentido."],
         explanation: "\"Brincar com\" or \"jogar com\" is to play on, and \"sentido\" is meaning, hence \"duplo sentido\". \"Ótica\" is the Brazilian spelling.",
@@ -906,13 +906,13 @@ export const PT_C2_U02: Lesson[] = [
         heading: "Só que não: ironic captions and meme formats",
         body: [
           "Captions run on irony: say the opposite and trust the reader. The workhorse is \"só que não\", tacked on to flip the sentence like an ironic English NOT: \"amo segunda-feira, só que não\". \"Que maravilha\" under a photo of a flooded street, or \"tudo normal\" under chaos, does the same work with no marker at all.",
-          "Formats travel as fixed text. \"Ninguém:\" on one line and \"eu às três da manhã:\" on the next mocks behavior nobody asked for; \"expectativa x realidade\" sets the dream against the letdown; \"Brasil, o país da piada pronta\" says reality has already written the joke. \"A zoeira não tem limites\" is the shrug that follows any of them.",
+          "Formats travel as fixed text. \"Ninguém: / Eu às três da manhã:\" mocks behavior nobody asked for; \"expectativa x realidade\" sets the dream against the letdown; \"Brasil, o país da piada pronta\" says reality has already written the joke. \"A zoeira não tem limites\" is the shrug that follows any of them.",
           "Reaction images are shared vocabulary too. \"Nazaré confusa\", Renata Sorrah as the villain Nazaré Tedesco from the 2004 novela \"Senhora do Destino\", surrounded by floating math formulas, means total bewilderment; posting her is a complete reply. Knowing the source is what separates getting a joke from merely seeing it.",
         ],
         examples: [
           { es: "Amo acordar às seis na segunda, só que não.", en: "I love waking up at six on a Monday. NOT." },
           { es: "Choveu meia hora e a rua virou rio. Que maravilha.", en: "It rained for half an hour and the street turned into a river. Just great." },
-          { es: "Ninguém: eu às três da manhã: abrindo a geladeira.", en: "Nobody: / Me at 3 a.m.: opening the fridge." },
+          { es: "Ninguém: / Eu às três da manhã: abrindo a geladeira.", en: "Nobody: / Me at 3 a.m.: opening the fridge." },
           { es: "Expectativa x realidade: o bolo da internet e o meu bolo.", en: "Expectation vs reality: the cake from the internet and my cake." },
           { es: "Placa de proibido estacionar com três carros estacionados na frente. Brasil, o país da piada pronta.", en: "A no-parking sign with three cars parked in front of it. Brazil, where the jokes write themselves." },
           { es: "Eu tentando entender a conta de luz: Nazaré confusa.", en: "Me trying to understand the electricity bill: [confused Nazaré meme]." },
@@ -1060,7 +1060,7 @@ export const PT_C2_U02: Lesson[] = [
       {
         heading: "Zoar, zoeira, tirar sarro",
         body: [
-          "\"Zoar\" is the core verb of Brazilian banter. \"Zoar alguém\" (or \"zoar com alguém\") is to tease, rib or needle someone, and \"tô zoando\" means I'm only kidding. \"A zoeira\" is the activity itself: the friendly mockery of a bar table or a group chat, celebrated in the meme \"a zoeira não tem limites\". \"Tirar sarro de\", strongest in São Paulo, is to make fun of, with a little more edge. \"Tirar uma com a cara de alguém\" is to mess with someone.",
+          "\"Zoar\" is the core verb of Brazilian banter. \"Zoar alguém\" (or \"zoar com alguém\") is to tease, wind up or take the mickey, and \"tô zoando\" means I'm only kidding. \"A zoeira\" is the activity itself: the friendly mockery of a bar table or a group chat, celebrated in the meme \"a zoeira não tem limites\". \"Tirar sarro de\", strongest in São Paulo, is to make fun of, with a little more edge. \"Tirar uma com a cara de alguém\" is to mess with someone.",
           "The trap: \"zoar\" also means to wreck or mess up. \"Zoei a prova\" is I botched the exam, \"o celular tá zoado\" is the phone's busted, \"que lugar zoado\" is what a dump. With a person as the object and a grin on your face, it's teasing. With a thing, it's damage.",
           "Two neighbors: \"brincar\" (to joke: \"é brincadeira!\", just kidding) and \"sacanear\" (to tease, or to do someone dirty: \"que sacanagem!\", that's so unfair). Remember from the double-meaning lesson that \"sacanagem\" on its own can mean smut, and that \"gozar\" is best avoided. \"Zoar\" does the same job safely.",
         ],
@@ -1149,7 +1149,7 @@ export const PT_C2_U02: Lesson[] = [
         ],
         examples: [
           { es: "Eu sou o rei do atraso: cheguei atrasado até no meu próprio aniversário.", en: "I'm the king of lateness: I was even late for my own birthday party." },
-          { es: "Eu e a matemática não nos falamos desde a quinta série.", en: "Math and I haven't been on speaking terms since fifth grade." },
+          { es: "Eu e a matemática não nos falamos desde a quinta série.", en: "Maths and I haven't been on speaking terms since fifth grade." },
           { es: "A gente aprendeu a rir da própria desgraça.", en: "We've learned to laugh at our own misfortune." },
           { es: "A plateia morreu de rir com a história da sogra.", en: "The audience was in stitches over the mother-in-law story." },
           { es: "A piada caiu mal e ninguém riu.", en: "The joke didn't go down well and nobody laughed." },
@@ -1252,7 +1252,7 @@ export const PT_C2_U02: Lesson[] = [
         type: "speak",
         text: "Relaxa, cara, eu tô zoando.",
         prompt: "Say it in Portuguese: Relax, man, I'm only kidding.",
-        tip: "The ô in \"tô\" is closed. Say \"zoando\" in three syllables, zo-ÃN-doo, with a nasal an and the final o like oo.",
+        tip: "The ô in \"tô\" is closed. Say \"zoando\" in three syllables, zo-AN-do, with a nasal an and the final o like u.",
         explanation: "\"Tô zoando\" is the spoken \"estou zoando\". The laugh in your voice is part of the message.",
       },
       {
@@ -1588,7 +1588,7 @@ export const PT_C2_U02: Lesson[] = [
           { es: "Olha só quem apareceu! Achei que você ia sumir hoje.", en: "Look who showed up! I thought you'd disappear tonight." },
           { es: "Cadê aquela marra da semana passada?", en: "Where's all that swagger from last week?" },
           { es: "Boa noite, senhor torcedor do Fluminense. Tá doendo?", en: "Good evening, Mr. Fluminense fan. Does it hurt?" },
-          { es: "Vocês são fregueses, cara. Aceita que dói menos.", en: "You guys always lose to us, man. Accept it, it hurts less." },
+          { es: "Vocês são fregueses, cara. Aceita que dói menos.", en: "You lot always lose to us, man. Accept it, it hurts less." },
           { es: "Eu sequei o Flamengo o jogo inteiro.", en: "I was rooting against Flamengo the whole game." },
           { es: "Secou e não adiantou nada, né, Mariana?", en: "You rooted against us and it did no good, did it, Mariana?" },
         ],
@@ -1596,7 +1596,7 @@ export const PT_C2_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "You guys are [our regular customers], man. Accept it, it hurts less.",
+            en: "You lot are [our regular customers], man. Accept it, it hurts less.",
             sentence: "Vocês são ___, cara. Aceita que dói menos.",
             answer: "fregueses",
             altAnswers: ["nossos fregueses"],
@@ -1968,7 +1968,7 @@ export const PT_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "This yogurt has no preservatives. (Not \"preservativos\".)",
+        source: "This yoghurt has no preservatives. (Not \"preservativos\".)",
         answer: "Este iogurte não tem conservantes.",
         altAnswers: ["Esse iogurte não tem conservantes.", "Este iogurte não contém conservantes.", "Esse iogurte não contém conservantes."],
         explanation: "A food preservative is a \"conservante\". \"Preservativo\" means condom, which would make for a memorable label.",
@@ -2093,7 +2093,7 @@ export const PT_C2_U02: Lesson[] = [
         ],
         examples: [
           { es: "Eu às 22h: hoje vou dormir cedo. Eu às 3h: vendo vídeo de gatinho.", en: "Me at 10 p.m.: I'm going to bed early tonight. Me at 3 a.m.: watching kitten videos." },
-          { es: "Fui ao mercado comprar pão e voltei com R$ 200 de compras. E sem o pão.", en: "I went to the supermarket for bread and came back with 200 reais' worth of groceries. And no bread." },
+          { es: "Fui ao mercado comprar pão e voltei com R$ 200 de compras. E sem o pão.", en: "I went to the supermarket for bread and came back with 200 reais of shopping. And no bread." },
           { es: "Expectativa: um bolo de aniversário lindo. Realidade: uma obra de arte contemporânea.", en: "Expectation: a beautiful birthday cake. Reality: a work of contemporary art." },
           { es: "Queimei a pizza. Tudo sob controle.", en: "I burnt the pizza. Everything under control." },
           { es: "Urgente: homem de 35 anos tenta montar móvel sozinho e perde a batalha para um parafuso.", en: "Breaking: 35-year-old man tries to assemble furniture alone and loses the battle to a screw." },
@@ -2130,14 +2130,14 @@ export const PT_C2_U02: Lesson[] = [
         heading: "Wordplay that survives the scroll",
         body: [
           "A pun in a caption has to work at scrolling speed. Build the post around one ambiguity and spell it so both meanings stay visible. As the trocadilhos lesson showed, \"concerto\" and \"conserto\" sound alike, and swapping them kills the joke.",
-          "Fixed expressions with a second life are the richest material. \"Dar um tempo\" is what couples do, so applying it to your alarm clock turns a sleepy morning into a break-up. \"A caixa\" is the box you think outside of, \"o caixa\" the supermarket checkout register. A photo showing the literal meaning helps the reader catch the other one.",
+          "Fixed expressions with a second life are the richest material. \"Dar um tempo\" is what couples do, so applying it to your alarm clock turns a sleepy morning into a break-up. \"A caixa\" is the box you think outside of, \"o caixa\" the supermarket till. A photo showing the literal meaning helps the reader catch the other one.",
           "Then reread as a stranger would. An incomplete sentence with \"dar\", \"comer\" or \"pegar\" invites the sexual reading, so always say what was given, eaten or picked up, unless that second reading is exactly what you want.",
         ],
         examples: [
           { es: "Levei o violão pro conserto e ele voltou dando concerto.", en: "I took the guitar in for repair and it came back giving concerts." },
-          { es: "Essa sessão de cinema foi tão ruim que procurei a seção de reclamações.", en: "That movie screening was so bad I went looking for the complaints section." },
+          { es: "Essa sessão de cinema foi tão ruim que procurei a seção de reclamações.", en: "That film screening was so bad I went looking for the complaints section." },
           { es: "Eu e meu despertador estamos dando um tempo.", en: "My alarm clock and I are taking a break." },
-          { es: "Pediram pra eu pensar fora da caixa. Pena que eu trabalho no caixa.", en: "They asked me to think outside the box. Too bad I work at the register." },
+          { es: "Pediram pra eu pensar fora da caixa. Pena que eu trabalho no caixa.", en: "They asked me to think outside the box. Too bad I work on the till." },
         ],
         checkpoint: [
           {
@@ -2152,19 +2152,19 @@ export const PT_C2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "They asked me to think outside the box. Too bad I work at the register.",
+            source: "They asked me to think outside the box. Too bad I work on the till.",
             answer: "Pediram pra eu pensar fora da caixa. Pena que eu trabalho no caixa.",
             altAnswers: ["Pediram para eu pensar fora da caixa. Pena que eu trabalho no caixa.", "Pediram pra eu pensar fora da caixa. Pena que trabalho no caixa.", "Pediram para eu pensar fora da caixa. Pena que trabalho no caixa.", "Me pediram pra pensar fora da caixa. Pena que eu trabalho no caixa.", "Me pediram para pensar fora da caixa. Pena que eu trabalho no caixa."],
-            explanation: "The pun rests on gender: \"a caixa\" (box) in the idiom and \"o caixa\" (checkout register) at work, so you write \"da caixa\" and then \"no caixa\". \"Pra eu pensar\" uses the infinitive with its own subject.",
+            explanation: "The pun rests on gender: \"a caixa\" (box) in the idiom and \"o caixa\" (till) at work, so you write \"da caixa\" and then \"no caixa\". \"Pra eu pensar\" uses the infinitive with its own subject.",
           },
           {
             type: "listen-choose",
             audio: "Essa sessão de cinema foi tão ruim que procurei a seção de reclamações.",
             question: "What does it mean?",
             options: [
-              "That movie screening was so bad I went looking for the complaints section.",
-              "That movie was so long I went looking for the exit.",
-              "That movie section was so bad I asked for a complaints session.",
+              "That film screening was so bad I went looking for the complaints section.",
+              "That film was so long I went looking for the exit.",
+              "That film section was so bad I asked for a complaints session.",
               "That screening was so good I looked for the next session.",
             ],
             correctIndex: 0,
@@ -2450,7 +2450,7 @@ export const PT_C2_U02: Lesson[] = [
             type: "speak",
             text: "Pode zoar à vontade, que domingo a gente se vinga.",
             prompt: "Say it in Portuguese: Tease all you like, because on Sunday we'll get our revenge.",
-            tip: "Keep the z in zoar buzzing, and say vontade as võ-TA-jee: the final de sounds like jee.",
+            tip: "Keep the z in zoar buzzing, and say vontade as von-TA-dji: the final de sounds like dji.",
             explanation: "\"Zoar\" is friendly teasing, and the \"que\" here means because. \"A gente se vinga\" takes the ele/ela form of the verb.",
           },
         ],
@@ -2472,7 +2472,7 @@ export const PT_C2_U02: Lesson[] = [
         en: "Buy your ticket for the nine o'clock [showing].",
         sentence: "Compre seu ingresso para a ___ das nove.",
         answer: "sessão",
-        explanation: "A movie showing is a \"sessão\". A \"seção\" is a section of a store or newspaper, and a \"cessão\" is a legal transfer.",
+        explanation: "A film showing is a \"sessão\". A \"seção\" is a section of a store or newspaper, and a \"cessão\" is a legal transfer.",
       },
       {
         type: "translate",
@@ -2555,7 +2555,7 @@ export const PT_C2_U02: Lesson[] = [
       {
         type: "speak",
         text: "Na loja de pianos, fazemos concertos e consertos.",
-        tip: "Concertos and consertos sound exactly the same (kon-SÊR-toos). The pun is for the eye, so say it with a knowing pause.",
+        tip: "Concertos and consertos sound exactly the same (kon-SÊR-tus). The pun is for the eye, so say it with a knowing pause.",
         explanation: "Out loud, the two words can't be told apart. That's why this pun works best on a written sign.",
       },
     ],

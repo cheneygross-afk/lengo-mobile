@@ -170,10 +170,10 @@ export const DE_C1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Although he was tired, he kept working.'?",
+        question: "Which sentence is correct?",
         options: ["Obwohl er müde war, hat er weitergearbeitet.", "Obwohl er war müde, hat er weitergearbeitet.", "Obwohl er müde war, er hat weitergearbeitet.", "Obwohl war er müde, hat er weitergearbeitet."],
         correctIndex: 0,
-        explanation: "Verb at the end of the obwohl-clause (\"müde war\"), then the main clause starts with its verb (\"hat er\"). \"*..., er hat weitergearbeitet*\" keeps English order, but the clause counts as position 1.",
+        explanation: "Verb at the end of the obwohl-clause, then the main clause begins with its verb.",
       },
       {
         type: "translate",
@@ -714,10 +714,10 @@ export const DE_C1_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Fix \"*Trotz er krank war, kam er*\" so it says 'Despite his illness, he came.'",
-            options: ["Trotz seiner Krankheit kam er.", "Trotz er krank, kam er.", "Trotz seine Krankheit kam er.", "Trotz dass er krank war, er kam."],
+            question: "Which correction of \"*Trotz er krank war, kam er*\" is right?",
+            options: ["Trotz seiner Krankheit kam er.", "Trotz er krank, kam er.", "Trotzdem er krank war, kam er.", "Trotz dass er krank war, er kam."],
             correctIndex: 0,
-            explanation: "\"Trotz\" is a preposition + genitive: \"trotz seiner Krankheit\" (\"*trotz seine*\" is accusative). It can't introduce a clause; for that use \"obwohl er krank war\". The last option also has the wrong word order.",
+            explanation: "\"Trotz\" + genitive noun. \"Trotzdem\" as conjunction and \"trotz dass\" are colloquial, and the last has wrong word order too.",
           },
         ],
       },

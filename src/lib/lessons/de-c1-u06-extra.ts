@@ -136,10 +136,10 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct Präteritum for 'You stuck to the rules.' (to friends)?",
+        question: "Which form is correct?",
         options: ["Ihr hieltet euch an die Regeln.", "Ihr hieltt euch an die Regeln.", "Ihr haltet euch an die Regeln gehalten.", "Ihr hielten euch an die Regeln."],
         correctIndex: 0,
-        explanation: "\"Halten → hielt\"; the ihr-form adds -e- after -t: \"hieltet\". \"*hieltt*\" is unpronounceable, and \"*hielten*\" is the wir/sie form.",
+        explanation: "\"Halten → hielt\"; ihr adds -e- after -t: \"hieltet\".",
       },
       {
         type: "word-order",
@@ -673,7 +673,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Direct, Indirect or Erlebte Rede?",
-    summary: "Identify and convert between direct speech, indirect speech and \"erlebte Rede\".",
+    summary: "Identify and convert between direct speech, indirect speech and erlebte Rede.",
     duration: "15 min",
     sections: [
       {
@@ -869,10 +869,10 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you punctuate this in German: 'Finally!' shouted Leon.",
+            question: "Which is correctly punctuated?",
             options: ["„Endlich!“, rief Leon.", "„Endlich!“ rief Leon.", "„Endlich“! rief Leon.", "„Endlich!,“ rief Leon."],
             correctIndex: 0,
-            explanation: "The exclamation mark stays inside the quotation marks, and a comma still follows the closing mark before the inquit. Leaving out that comma is the most common slip.",
+            explanation: "The exclamation mark stays inside; a comma follows the closing mark.",
           },
         ],
       },
@@ -966,10 +966,10 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write: 'See you tomorrow,' she said, and left.",
+        question: "Which sentence has the correct word order?",
         options: ["„Bis morgen“, sagte sie und ging.", "„Bis morgen“, sie sagte und ging.", "„Bis morgen“, und sie sagte ging.", "„Bis morgen“ sie sagte, und ging."],
         correctIndex: 0,
-        explanation: "Inverted inquit: \"sagte sie\", verb before subject, because the quote counts as position 1. \"*sie sagte*\" is English order.",
+        explanation: "Inverted inquit: \"sagte sie\".",
       },
       {
         type: "word-order",

@@ -38,10 +38,10 @@ export const DE_B2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'However, the flat is too small.'?",
+            question: "Which sentence is correct?",
             options: ["Jedoch ist die Wohnung zu klein.", "Jedoch, die Wohnung ist zu klein.", "Jedoch, ist die Wohnung zu klein.", "Jedoch die Wohnung zu klein ist."],
             correctIndex: 0,
-            explanation: "\"Jedoch\" fills position 1, so the verb \"ist\" comes next, with no comma. \"*Jedoch, die Wohnung ist zu klein*\" copies the English comma and word order.",
+            explanation: "\"Jedoch\" fills position 1, so the verb \"ist\" comes next. No comma after it.",
           },
         ],
       },
@@ -196,10 +196,10 @@ export const DE_B2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The company was making losses, yet it still paid bonuses.'?",
+        question: "Which sentence is correct?",
         options: ["Die Firma machte Verluste, dennoch zahlte sie Boni.", "Die Firma machte Verluste, dennoch sie zahlte Boni.", "Die Firma machte Verluste, denn sie zahlte Boni.", "Die Firma machte Verluste, dennoch sie Boni zahlte."],
         correctIndex: 0,
-        explanation: "\"Dennoch\" fills position 1, so the verb follows: \"dennoch zahlte sie\". \"*denn sie zahlte Boni*\" has the right order but means 'because', which makes no sense here.",
+        explanation: "\"Dennoch\" fills position 1, so the verb follows. \"Denn\" would give a reason, which makes no sense here.",
       },
       {
         type: "translate",
@@ -589,10 +589,10 @@ export const DE_B2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'He can't have left so early.'?",
+        question: "Which sentence is correct?",
         options: ["Er kann nicht so früh gegangen sein.", "Er kann nicht so früh gegangen haben.", "Er konnte nicht so früh gegangen sein.", "Er kann nicht so früh gehen gewesen."],
         correctIndex: 0,
-        explanation: "Present modal + past infinitive, and \"gehen\" takes sein: \"kann ... gegangen sein\". \"*gegangen haben*\" uses the wrong auxiliary.",
+        explanation: "\"Gehen\" takes sein: \"gegangen sein\"; the modal stays in the present.",
       },
       {
         type: "translate",
@@ -776,10 +776,10 @@ export const DE_B2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The pay is low; however, the work is interesting.'?",
+        question: "Which sentence is correct?",
         options: ["Die Bezahlung ist gering, jedoch ist die Arbeit interessant.", "Die Bezahlung ist gering, jedoch die Arbeit interessant ist.", "Die Bezahlung ist gering, jedoch, die Arbeit ist interessant.", "Die Bezahlung ist gering, die Arbeit jedoch interessant ist."],
         correctIndex: 0,
-        explanation: "\"Jedoch\" in position 1 is followed by the verb: \"jedoch ist die Arbeit interessant\". \"*jedoch die Arbeit interessant ist*\" sends the verb to the end as if \"jedoch\" were a subordinating conjunction.",
+        explanation: "\"Jedoch\" in position 1 + verb.",
       },
       {
         type: "translate",
@@ -827,7 +827,7 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Thematic Review: Das Ehrenamt",
-    summary: "Talk about volunteering at the \"Tafel\" food bank with Renate: give causes and consequences with \"da\", \"deshalb\", \"daher\" and \"folglich\", and report what visitors say in the Konjunktiv I.",
+    summary: "Talk about volunteering at the Tafel food bank with Renate: give causes and consequences with \"da\", \"deshalb\", \"daher\" and \"folglich\", and report what visitors say in the Konjunktiv I.",
     duration: "15 min",
     sections: [
       {
@@ -967,10 +967,10 @@ export const DE_B2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Supermarkets are donating less, so there's often no bread.'?",
+        question: "Which sentence is correct?",
         options: ["Die Supermärkte spenden weniger, deshalb gibt es oft kein Brot.", "Die Supermärkte spenden weniger, deshalb es gibt oft kein Brot.", "Die Supermärkte spenden weniger, deshalb, es gibt oft kein Brot.", "Die Supermärkte spenden weniger, deshalb es oft kein Brot gibt."],
         correctIndex: 0,
-        explanation: "\"Deshalb\" fills position 1, so the verb comes next: \"deshalb gibt es\". \"*deshalb es gibt*\" keeps English word order.",
+        explanation: "\"Deshalb\" fills position 1, so the verb comes next.",
       },
       {
         type: "translate",
@@ -1160,10 +1160,10 @@ export const DE_B2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Consequently, we have to wait.'?",
+        question: "Which sentence is correct?",
         options: ["Folglich müssen wir warten.", "Folglich, wir müssen warten.", "Folglich wir müssen warten.", "Folglich, müssen wir warten."],
         correctIndex: 0,
-        explanation: "\"Folglich\" fills position 1: verb next, no comma (\"Folglich müssen wir warten\"). \"*Folglich, wir müssen warten*\" copies the English comma and word order.",
+        explanation: "No comma, verb in position 2.",
       },
       {
         type: "multiple-choice",
@@ -1368,10 +1368,10 @@ export const DE_B2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The house is old, but we love it all the same.'?",
+        question: "Which sentence is correct?",
         options: ["Das Haus ist alt, dennoch lieben wir es.", "Das Haus ist alt, dennoch wir lieben es.", "Das Haus ist alt, obwohl lieben wir es.", "Das Haus ist alt, trotz lieben wir es."],
         correctIndex: 0,
-        explanation: "\"Dennoch\" fills position 1, so verb + subject follow: \"dennoch lieben wir es\". \"*dennoch wir lieben es*\" keeps English word order.",
+        explanation: "\"Dennoch\" + verb + subject.",
       },
       {
         type: "word-order",
@@ -1469,10 +1469,10 @@ export const DE_B2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'In addition, staff save a lot of time.'?",
+            question: "Which sentence is correct?",
             options: ["Zudem sparen die Mitarbeitenden viel Zeit.", "Zudem, die Mitarbeitenden sparen viel Zeit.", "Zudem die Mitarbeitenden sparen viel Zeit.", "Zudem die Mitarbeitenden viel Zeit sparen."],
             correctIndex: 0,
-            explanation: "\"Zudem\" fills position 1, so the verb comes next: \"Zudem sparen die Mitarbeitenden\". \"*Zudem, die Mitarbeitenden sparen*\" copies the English comma and word order.",
+            explanation: "\"Zudem\" fills position 1, so the verb comes next.",
           },
         ],
       },
@@ -1737,10 +1737,10 @@ export const DE_B2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'She isn't here; she's on holiday, you see.'?",
+            question: "Which sentence is correct?",
             options: ["Sie ist nicht da, sie hat nämlich Urlaub.", "Sie ist nicht da, nämlich hat sie Urlaub.", "Sie ist nicht da, nämlich sie hat Urlaub.", "Sie ist nicht da, sie nämlich hat Urlaub."],
             correctIndex: 0,
-            explanation: "\"Nämlich\" can't open the clause; it goes after the verb: \"sie hat nämlich Urlaub\". \"*nämlich hat sie Urlaub*\" treats it like \"deshalb\".",
+            explanation: "\"Nämlich\" can't fill position 1 or come before the verb; it goes after the verb.",
           },
           {
             type: "listen-choose",
@@ -2384,10 +2384,10 @@ export const DE_B2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We didn't manage to get tickets, so we're staying at home.'?",
+        question: "Which sentence is correct?",
         options: ["Wir haben keine Karten mehr bekommen, folglich bleiben wir zu Hause.", "Wir haben keine Karten mehr bekommen, folglich wir bleiben zu Hause.", "Wir haben keine Karten mehr bekommen, folglich, wir bleiben zu Hause.", "Wir haben keine Karten mehr bekommen, nämlich bleiben wir zu Hause."],
         correctIndex: 0,
-        explanation: "\"Folglich\" fills position 1, so verb + subject follow: \"folglich bleiben wir\". \"*folglich wir bleiben*\" keeps English word order, and \"nämlich\" ('you see') gives a reason and can't come first anyway.",
+        explanation: "\"Folglich\" + verb + subject; \"nämlich\" can't come first.",
       },
       {
         type: "multiple-choice",

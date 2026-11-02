@@ -126,8 +126,8 @@ export const PT_B1_U14: Lesson[] = [
           {
             type: "speak",
             text: "Me parece que o preço está alto.",
-            tip: "\"Me\" sounds like mee, and the final e of \"parece\" sounds like ee: pa-RÊ-see, with a closed ê.",
-            explanation: "\"Me parece que\" softens a criticism, and the pronoun comes before the verb, as Brazilians say it.",
+            tip: "\"Me\" sounds like mi, and the final e of \"parece\" sounds like i: pa-RÊ-si, with a closed ê.",
+            explanation: "\"Me parece que\" softens a criticizm, and the pronoun comes before the verb, as Brazilians say it.",
           },
         ],
       },
@@ -498,9 +498,9 @@ export const PT_B1_U14: Lesson[] = [
       {
         heading: "Até certo ponto, não necessariamente",
         body: [
-          "To agree only partly, add \"até certo ponto\" (to some extent, up to a point) or \"em parte\" from the last lesson: \"concordo, até certo ponto\". Don't translate to some extent word for word with \"extensão\"; the formal equivalent is \"em certa medida\". Casual speech also uses \"mais ou menos\" (sort of).",
+          "To agree only partly, add \"até certo ponto\" (to some extent, up to a point) or \"em parte\" from the last lesson: \"concordo, até certo ponto\". Don't translate to some extent word for word: Portuguese has no such phrase with \"extensão\". Casual speech also uses \"mais ou menos\" (sort of).",
           "\"Não necessariamente\" softens a no: it rejects a conclusion without telling the other person they're wrong. \"Nem sempre\" (not always) works the same way. Both stand alone as answers or go inside the sentence: \"não é necessariamente caro\", \"nem sempre funciona\".",
-          "Stress the long word near the end: ne-se-sa-ree-a-MEN-chee, like every -mente adverb.",
+          "Stress the long word near the end: ne-se-sa-ri-a-MEN-tchi, like every -mente adverb.",
         ],
         examples: [
           { es: "Concordo com você até certo ponto.", en: "I agree with you to some extent." },
@@ -544,7 +544,7 @@ export const PT_B1_U14: Lesson[] = [
           { es: "Pode até ser, mas eu não acredito.", en: "That may be so, but I don't believe it." },
           { es: "Pode até ser que chova, mas a gente vai mesmo assim.", en: "It may well rain, but we're going anyway." },
           { es: "Pode até ser caro, mas vale a pena.", en: "It may be expensive, but it's worth it." },
-          { es: "Vamos de metrô? Pode ser.", en: "Should we take the subway? Sure." },
+          { es: "Vamos de metrô? Pode ser.", en: "Shall we take the subway? Sure." },
         ],
         checkpoint: [
           {
@@ -574,7 +574,7 @@ export const PT_B1_U14: Lesson[] = [
           {
             type: "speak",
             text: "Pode até ser que ele tenha razão, mas eu discordo.",
-            tip: "In \"pode\" the final e sounds like ee and softens the d to j: PÓ-jee.",
+            tip: "In \"pode\" the final e sounds like i and softens the d to dj: PÓ-dji.",
             explanation: "\"Pode até ser que\" + subjunctive \"tenha\": a concession first, then \"mas eu discordo\".",
           },
         ],
@@ -672,7 +672,7 @@ export const PT_B1_U14: Lesson[] = [
         type: "speak",
         text: "Não necessariamente. Depende da pessoa.",
         prompt: "Say it in Portuguese: Not necessarily. It depends on the person.",
-        tip: "Stress near the end: ne-se-sa-ree-a-MEN-chee.",
+        tip: "Stress near the end: ne-se-sa-ri-a-MEN-tchi.",
         explanation: "\"Não necessariamente\" plus \"depende da pessoa\" (de + a): a polite way to disagree.",
       },
       {
@@ -1260,7 +1260,7 @@ export const PT_B1_U14: Lesson[] = [
           {
             type: "speak",
             text: "Pode até ser, mas o problema não é o lugar.",
-            tip: "In \"pode\" the final e sounds like ee, and the d before it becomes a soft j: PÓ-jee.",
+            tip: "In \"pode\" the final e sounds like i, and the d before it becomes a soft dj: PÓ-dji.",
             explanation: "\"Pode até ser, mas...\" concedes politely before you disagree.",
           },
         ],
@@ -1539,7 +1539,7 @@ export const PT_B1_U14: Lesson[] = [
           {
             type: "speak",
             text: "Estou de acordo com a proposta.",
-            tip: "The noun \"acordo\" has a closed ô: a-KÔR-doo, with the final o said as oo. The verb \"acordo\" (I wake up) has an open ó.",
+            tip: "The noun \"acordo\" has a closed ô: a-CÔR-du, with the final o said as u. The verb \"acordo\" (I wake up) has an open ó.",
             explanation: "\"Estou de acordo com\": \"estar\", not \"ser\", and \"com\" before what you agree with.",
           },
         ],
@@ -1678,7 +1678,7 @@ export const PT_B1_U14: Lesson[] = [
       {
         heading: "Part one: talking about yourself",
         body: [
-          "The interview lasts about 20 minutes. The first five are a conversation about you, based on the questionnaire you filled out when you registered: your work, studies, interests and why you're learning Portuguese. The examiner is checking how you interact, not what you've memorized.",
+          "The interview lasts about 20 minutes. The first five are a conversation about you, based on the questionnaire you filled in when you registered: your work, studies, interests and why you're learning Portuguese. The examiner is checking how you interact, not what you've memorised.",
           "Never stop at one sentence: give the fact, then a detail or a reason. Use your tenses on purpose: \"moro aqui há dois anos\" for how long, \"tenho estudado muito\" for lately, \"comecei em 2022\" for a single event. A bare \"sim\" or \"não\" throws away your chance to show what you can do.",
         ],
         examples: [
@@ -2108,7 +2108,7 @@ export const PT_B1_U14: Lesson[] = [
           {
             type: "speak",
             text: "É urgente que a prefeitura tome uma atitude.",
-            tip: "Final -e sounds like ee: TÔ-mee, a-chee-TOO-jee. Before that ee, t becomes ch and d becomes j.",
+            tip: "Final -e sounds like i: TÔ-mi, a-tchi-TU-dji. The t before that i becomes tch.",
             explanation: "\"É urgente que\" + subjunctive: \"tome\", from \"tomo\". \"Tomar uma atitude\" means to take action.",
           },
         ],
@@ -2330,7 +2330,7 @@ export const PT_B1_U14: Lesson[] = [
       {
         heading: "Defending a position: the subjunctive at work",
         body: [
-          "To push a proposal, use the structures from Units 3 and 6. Put \"é importante que\" or \"é necessário que\" + subjunctive for what others should do, \"para que\" for purpose, and \"embora\" to concede a point while still arguing for yours.",
+          "To push a proposal, use the structures from Units 3 and 4. Put \"é importante que\" or \"é necessário que\" + subjunctive for what others should do, \"para que\" for purpose, and \"embora\" to concede a point while still arguing for yours.",
           "\"Embora\" takes the subjunctive and \"mas\" takes the indicative: \"embora seja caro\" but \"é caro, mas vale a pena\". When the statement is general, drop \"que\" and use the infinitive (\"é importante investir\"). You can also use the personal infinitive: \"para as pessoas deixarem o carro em casa\".",
         ],
         examples: [
@@ -2461,7 +2461,7 @@ export const PT_B1_U14: Lesson[] = [
         type: "speak",
         text: "Concordo em parte, mas depende.",
         prompt: "Say it in Portuguese: I partly agree, but it depends.",
-        tip: "In \"depende\" the d before the final e sounds like the j in jeans: de-PEN-jee.",
+        tip: "In \"depende\" the d before the final e sounds like the j in jeans: de-PEN-dji.",
         explanation: "\"Concordo em parte\" hedges, and \"mas depende\" keeps the door open for your argument.",
       },
       {

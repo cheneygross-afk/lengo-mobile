@@ -8,14 +8,14 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 1,
     title: "Extra Practice: Sounds of Portuguese, Part 1 of 3",
-    summary: "Hear, choose and write open and closed vowels and nasal vowels in minimal pairs like avó and avô, pão and pau, and vim and vi.",
+    summary: "Hear, choose and write open and closed vowels and nasal vowels in minimal pairs like avó / avô, pão / pau and vim / vi.",
     duration: "12 min",
     optional: true,
     sections: [
       {
         heading: "Open or closed, oral or nasal",
         body: [
-          "The acute accent marks an open vowel and the circumflex a closed one: \"avó\" (grandmother, open ó as in law) and \"avô\" (grandfather, closed ô as in go). Unaccented words hide it: \"ela\" is open, \"ele\" is closed. Unstressed final -o and -e shrink to oo and ee: \"nome\" sounds like 'NÔ-mee'.",
+          "The acute accent marks an open vowel and the circumflex a closed one: \"avó\" (grandmother, open ó as in law) and \"avô\" (grandfather, closed ô as in go). Unaccented words hide it: \"ela\" is open, \"ele\" is closed. Unstressed final -o and -e shrink to u and i: \"nome\" sounds like 'nomi'.",
           "A tilde or a final m sends air through your nose, with no n or m at the end: \"pão\" (bread) vs \"pau\" (stick), \"mão\" (hand) vs \"mau\" (bad), \"vim\" (I came) vs \"vi\" (I saw). Keep \"ão\", \"ãe\" and \"õe\" apart: \"pão\", \"mãe\", \"põe\".",
         ],
         examples: [
@@ -69,7 +69,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "No, thank you. (a man speaking)",
         answer: "Não, obrigado.",
-        explanation: "\"Não\" is fully nasal, with no n at the end, and the final -o of \"obrigado\" sounds like oo: 'oh-bree-GAH-doo'.",
+        explanation: "\"Não\" is fully nasal, with no n at the end, and the final -o of \"obrigado\" sounds like u: 'obrigadu'.",
       },
       {
         type: "translate",
@@ -78,7 +78,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         source: "Good, thanks. (a woman speaking)",
         answer: "Bem, obrigada.",
         altAnswers: ["Tudo bem, obrigada."],
-        explanation: "\"Bem\" sounds like 'bẽy', a bay said through the nose, never like the name Ben. A woman says \"obrigada\".",
+        explanation: "\"Bem\" sounds like 'bay' through the nose, never like the name Ben. A woman says \"obrigada\".",
       },
       {
         type: "fill-blank",
@@ -122,7 +122,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         source: "We're from Belém.",
         answer: "Somos de Belém.",
         altAnswers: ["Nós somos de Belém."],
-        explanation: "\"Belém\" ends in nasal -em, said like 'bẽy' (bay through the nose), and the accent puts the stress on it.",
+        explanation: "\"Belém\" ends in nasal -em, said like 'bay' through the nose, and the accent puts the stress on it.",
       },
       {
         type: "word-order",
@@ -251,7 +251,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "My son is a student.",
             answer: "Meu filho é estudante.",
-            explanation: "\"Filho\" has the lh of million, never 'feel-HOH'. The final -te of \"estudante\" sounds like 'chee'.",
+            explanation: "\"Filho\" has the lh of million, never 'fil-ho'. The final -te of \"estudante\" sounds like 'chee'.",
           },
           {
             type: "dictation",
@@ -294,7 +294,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         en: "She's [from] Recife.",
         sentence: "Ela é ___ Recife.",
         answer: "de",
-        explanation: "Recife takes plain \"de\". Its first r is the h-like sound: 'heh-SEE-fee'.",
+        explanation: "Recife takes plain \"de\". Its first r is the h-like sound: 'he-SEE-fee'.",
       },
       {
         type: "translate",
@@ -562,7 +562,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Também sou estudante.",
         prompt: "Say it in Portuguese: I'm a student too.",
-        tip: "'tã-BẼY soh es-too-DÃ-chee': the final -te of estudante is 'chee'.",
+        tip: "'tahm-BAYN soh es-too-DAHN-chee': the final -te of estudante is 'chee'.",
         explanation: "\"Também\" is stressed on BÉM and \"estudante\" on DAN, the second-to-last syllable.",
       },
       {
@@ -745,7 +745,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Meu nome é Lucas: ele, u, cê, a, esse.",
         prompt: "Say your name is Lucas and spell it.",
-        tip: "Say the letters as 'ÉH-lee, oo, SÊ, ah, ÉS-see'.",
+        tip: "ÉH-li, u, SÊ, a, ÉS-si.",
         explanation: "\"Ele\" is l, \"cê\" is c and \"esse\" is s. The letter u is just \"u\".",
       },
       {

@@ -419,10 +419,10 @@ export const DE_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'You will receive an answer within two weeks.' in written German?",
-        options: ["Innerhalb von zwei Wochen erhalten Sie eine Antwort.", "Innerhalb von zweier Wochen erhalten Sie eine Antwort.", "Innerhalb zweier Woche erhalten Sie eine Antwort.", "Innerhalb von zwei Woche erhalten Sie eine Antwort."],
+        question: "Which sentence is correct written German?",
+        options: ["Innerhalb von zwei Wochen erhalten Sie eine Antwort.", "Innerhalb zwei Wochen erhalten Sie eine Antwort.", "Innerhalb zweier Woche erhalten Sie eine Antwort.", "Innerhalb von zwei Woche erhalten Sie eine Antwort."],
         correctIndex: 0,
-        explanation: "With a bare number the genitive isn't visible, so use \"von\" + dative: \"innerhalb von zwei Wochen\" (\"innerhalb zweier Wochen\" exists but is very stiff). \"*von zweier Wochen*\" mixes the two: \"von\" takes the dative.",
+        explanation: "A number gives no visible genitive, so use \"von\" + dative plural: \"von zwei Wochen\". (\"Innerhalb zweier Wochen\" exists but is very stiff; \"zweier Woche\" mixes plural and singular.)",
       },
       {
         type: "dictation",
@@ -1216,10 +1216,10 @@ export const DE_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The friend whose parents I live with is studying law.'?",
+        question: "Which sentence is correct?",
         options: ["Der Freund, bei dessen Eltern ich wohne, studiert Jura.", "Der Freund, dessen Eltern ich bei wohne, studiert Jura.", "Der Freund, bei dessem Eltern ich wohne, studiert Jura.", "Der Freund, bei deren Eltern ich wohne, studiert Jura."],
         correctIndex: 0,
-        explanation: "The preposition comes first and \"Freund\" is masculine, so: \"bei dessen Eltern\". \"*bei deren Eltern*\" would refer to a female or plural antecedent, and \"dessen\" never changes form (\"*dessem*\" doesn't exist).",
+        explanation: "The preposition goes first, \"dessen\" never changes form (no \"*dessem*\"), and the masculine antecedent requires \"dessen\".",
       },
       {
         type: "fill-blank",
@@ -1673,10 +1673,10 @@ export const DE_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'As there's no shop any more, everyone drives to Prenzlau.'?",
+        question: "Which sentence is correct?",
         options: ["Da es keinen Laden mehr gibt, fahren alle nach Prenzlau.", "Da gibt es keinen Laden mehr, fahren alle nach Prenzlau.", "Da es gibt keinen Laden mehr, fahren alle nach Prenzlau.", "Da es keinen Laden mehr gibt, alle fahren nach Prenzlau."],
         correctIndex: 0,
-        explanation: "Conjunction \"da\" sends the verb to the end (\"da es keinen Laden mehr gibt\"), and the main clause then starts with its verb: \"fahren alle\". \"*..., alle fahren nach Prenzlau*\" forgets the inversion after the clause.",
+        explanation: "Conjunction \"da\": verb to the end of the clause, then the main clause starts with its verb (\"fahren\").",
       },
       {
         type: "translate",

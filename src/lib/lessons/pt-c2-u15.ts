@@ -159,7 +159,7 @@ export const PT_C2_U15: Lesson[] = [
           {
             type: "speak",
             text: "O narrador se dirige ao leitor logo no primeiro parágrafo.",
-            tip: "In most of Brazil the d before i sounds like the j in jeans: jee-RI-zhee.",
+            tip: "In most of Brazil the d before i sounds like the j in jeans: dji-RI-zhi.",
             explanation: "\"Dirigir-se a\" is to address someone. \"Logo no primeiro parágrafo\" means right in the first paragraph.",
           },
         ],
@@ -271,13 +271,13 @@ export const PT_C2_U15: Lesson[] = [
       {
         type: "dictation",
         audio: "A primeira frase já estabelece o tom.",
-        explanation: "\"Estabelece\" has five syllables, es-ta-be-LE-see. \"Tom\" ends in a nasal vowel, with no m sound.",
+        explanation: "\"Estabelece\" has five syllables, es-ta-be-LE-ce. \"Tom\" ends in a nasal vowel, with no m sound.",
       },
       {
         type: "speak",
         text: "Rubem Braga torna lírico o que é pequeno.",
         prompt: "Say it in Portuguese: Rubem Braga makes small things lyrical.",
-        tip: "Stress \"lírico\" on the first syllable: LÍ-ri-koo.",
+        tip: "Stress \"lírico\" on the first syllable: LÍ-ri-ku.",
         explanation: "\"Tornar\" + adjective: to make something become lyrical.",
       },
     ],
@@ -445,7 +445,7 @@ export const PT_C2_U15: Lesson[] = [
           {
             type: "speak",
             text: "Marta sabia que o marido mentia, mas preferiu fingir que acreditava.",
-            tip: "Keep the imperfeito endings light: SA-bi-a, men-CHEE-a, a-cre-jee-TA-va.",
+            tip: "Keep the imperfeito endings light: SA-bi-a, men-TI-a, a-cre-di-TA-va.",
             explanation: "Only an omniscient narrator can say what Marta knew and chose; an observer would show her face.",
           },
         ],
@@ -1123,7 +1123,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "speak",
         text: "Boa tarde, doutor Ricardo. O senhor recebeu o relatório?",
         prompt: "Say it in Portuguese, formally: Good afternoon, Dr. Ricardo. Did you get the report?",
-        tip: "\"Relatório\" has an open ó: re-la-TÓ-ryoo.",
+        tip: "\"Relatório\" has an open ó: re-la-TÓ-rio.",
         explanation: "\"O senhor\" plus the title \"doutor\" sets the professional register.",
       },
     ],
@@ -1988,7 +1988,7 @@ export const PT_C2_U15: Lesson[] = [
       {
         heading: "Desfecho: closed, open, epiphany; and cutting",
         body: [
-          "The \"desfecho\" (ending) can be \"fechado\", resolving the conflict, or \"aberto\", leaving the reader with the question. An open ending is not a story that stops: it closes the tension of the scene and opens a larger one. Clarice Lispector made the \"epifania\" famous in Brazil: a trivial sight, in \"Amor\" a blind man chewing gum seen from a streetcar, that suddenly breaks the character's ordinary life open. The epiphany is quiet; nothing happens except that everything changes.",
+          "The \"desfecho\" (ending) can be \"fechado\", resolving the conflict, or \"aberto\", leaving the reader with the question. An open ending is not a story that stops: it closes the tension of the scene and opens a larger one. Clarice Lispector made the \"epifania\" famous in Brazil: a trivial sight, in \"Amor\" a blind man chewing gum seen from a tram, that suddenly breaks the character's ordinary life open. The epiphany is quiet; nothing happens except that everything changes.",
           "Competitions set limits in characters or \"laudas\" (standard pages), so cutting is part of the craft. Brazilian editors say \"enxugar o texto\" (to dry it out) and \"cortar até o osso\". Cut the first paragraph and see if the story starts better at the second. Cut any scene that doesn't raise the tension. Cut every explanation of the ending.",
           "The last line should be concrete. End on an image or an action, not on a moral: the reader should leave with something to see.",
         ],
@@ -2307,7 +2307,7 @@ export const PT_C2_U15: Lesson[] = [
           {
             type: "speak",
             text: "Agora, vinte anos depois, ela não lembrava a cor dos olhos dele.",
-            tip: "\"Olhos\" has a closed ô in the singular (olho) but an open ó in the plural: Ó-lhoos.",
+            tip: "\"Olhos\" has a closed ô in the singular (olho) but an open ó in the plural: Ó-lhos.",
             explanation: "\"Agora\" with the imperfeito returns the reader from the flashback.",
           },
         ],
@@ -3086,7 +3086,7 @@ export const PT_C2_U15: Lesson[] = [
           {
             type: "speak",
             text: "Segue em anexo o conto, inscrito sob o pseudônimo Maré.",
-            tip: "\"Pseudônimo\": the p is pronounced, pseu-DÔ-ni-moo, with a closed ô; many Brazilians slip in a light i: pi-seu-DÔ-ni-moo.",
+            tip: "\"Pseudônimo\": the p is pronounced, pseu-DÔ-ni-mo, with a closed ô; many Brazilians slip in a light i: pi-seu-DÔ-ni-mo.",
             explanation: "\"Segue em anexo\" is the standard formula for please find attached; the verb agrees with what is attached.",
           },
         ],
@@ -3199,13 +3199,13 @@ export const PT_C2_U15: Lesson[] = [
       {
         type: "dictation",
         audio: "Declaro que o texto é de minha autoria e inédito.",
-        explanation: "\"Inédito\" has an acute accent on the second syllable: i-NÉ-jee-too.",
+        explanation: "\"Inédito\" has an acute accent on the second syllable: i-NÉ-di-to.",
       },
       {
         type: "speak",
         text: "Serão aceitos apenas textos inéditos, de tema livre.",
         prompt: "Say it in Portuguese: Only unpublished texts, on any subject, will be accepted.",
-        tip: "\"Serão\" ends in the nasal ão; \"aceitos\" has the diphthong ei: a-SEI-toos.",
+        tip: "\"Serão\" ends in the nasal ão; \"aceitos\" has the diphthong ei: a-SEI-tos.",
         explanation: "The future passive of regulations.",
       },
     ],
@@ -3224,5 +3224,5 @@ export const PT_C2_U15_WRITING: WriteExercise = {
     "Shows feelings through gestures, objects and the senses instead of naming them, varies sentence length with at least one strategic fragment, and ends on a concrete image.",
   ],
   modelAnswer: "Domingo na Rodoviária\n\nCheguei à rodoviária do Recife uma hora antes. Comprei um café que não bebi e sentei no banco de frente para a plataforma sete, onde encostavam os ônibus de Caruaru.\n\nFazia dez anos que eu não via meu irmão. A última vez tinha sido no enterro da nossa mãe, quando ele saíra do cemitério sem se despedir de ninguém. Depois vieram as mensagens de aniversário, cada vez mais curtas, e por fim nem isso. Até que, na quinta-feira, o celular vibrou: \"Domingo eu chego. Às quatro.\"\n\nÀs três e meia, uma senhora sentou ao meu lado com uma sacola de mangas.\n\n— Tá esperando alguém, minha filha?\n\n— Meu irmão — respondi.\n\n— Faz tempo que não vê?\n\n— Um pouco.\n\nEla riu, como quem sabe.\n\n— Um pouco é muito, né?\n\nO ônibus das quatro chegou às quatro e vinte. Desceram dois soldados, uma moça com um bebê no colo, um rapaz de boné. Ele não. Fiquei olhando a porta aberta, o motorista acendendo um cigarro, o bagageiro vazio.\n\nE se ele tivesse perdido o ônibus? Claro que tinha perdido. Ele sempre perdia tudo: a hora, a chave, a mãe. Vinha no próximo, com certeza vinha.\n\nO próximo chegou às seis. Depois, o das oito.\n\n— Vai uma manga? — ofereceu a senhora, já de pé, ajeitando a sacola no ombro.\n\n— Não, obrigada — balbuciei.\n\nEla deixou uma mesmo assim no banco, ao lado do café frio.\n\nÀs nove, apagaram metade das luzes da plataforma. Joguei o café no lixo. A manga, eu levei.\n\nEm casa, coloquei a fruta na mesa da cozinha, onde a mãe deixava as dela, e fiquei ali, no escuro, sentindo o cheiro doce tomar conta da casa inteira.",
-  explanation: "The model is told by a \"narradora-personagem\" in the past and never enters anyone else's head: the old woman's understanding is shown by a laugh (\"Ela riu, como quem sabe\"). The flashback opens with the \"mais-que-perfeito\" (\"tinha sido\", \"saíra\") and slides back into the perfeito. The dialogue uses the \"travessão\", lower-case attributions (\"respondi\", \"ofereceu a senhora\", \"balbuciei\") and spoken forms only in the old woman's mouth (\"Tá\", \"né\", \"minha filha\"). The paragraph \"E se ele tivesse perdido o ônibus? Claro que tinha perdido...\" gives the narrator's thoughts at that moment without a verb of thinking, in backshifted tenses. Feelings are never named: the undrunk coffee, the empty baggage compartment and the mango carry the hope and the loss. Fragments (\"Ele não.\", \"Depois, o das oito.\") change the rhythm, and the story ends on an image of smell, not on a moral.",
+  explanation: "The model is told by a \"narradora-personagem\" in the past and never enters anyone else's head: the old woman's understanding is shown by a laugh (\"Ela riu, como quem sabe\"). The flashback opens with the \"mais-que-perfeito\" (\"tinha sido\", \"saíra\") and slides back into the perfeito. The dialogue uses the \"travessão\", lower-case attributions (\"respondi\", \"ofereceu a senhora\", \"balbuciei\") and spoken forms only in the old woman's mouth (\"Tá\", \"né\", \"minha filha\"). The paragraph \"E se ele tivesse perdido o ônibus? Claro que tinha perdido...\" gives the narrator's thoughts at that moment without a verb of thinking, in backshifted tenses. Feelings are never named: the undrunk coffee, the empty luggage hold and the mango carry the hope and the loss. Fragments (\"Ele não.\", \"Depois, o das oito.\") change the rhythm, and the story ends on an image of smell, not on a moral.",
 };

@@ -154,7 +154,7 @@ export const PT_B2_U03: Lesson[] = [
           {
             type: "speak",
             text: "Se o voo atrasar, eu te mando uma mensagem.",
-            tip: "In Brazil \"te\" sounds like \"chee\", and the final -em of \"mensagem\" is nasal with no n.",
+            tip: "In Brazil \"te\" sounds like \"tchi\", and the final -em of \"mensagem\" is nasal with no n.",
             explanation: "\"Se o voo atrasar\": a delay that may really happen, so \"se\" + future subjunctive.",
           },
         ],
@@ -909,7 +909,7 @@ export const PT_B2_U03: Lesson[] = [
         type: "speak",
         text: "Assim que eu souber, te aviso.",
         prompt: "Say it in Portuguese: As soon as I find out, I'll let you know.",
-        tip: "Stress the last syllable, so-BÉR, with an open é; the final r is light and often barely heard.",
+        tip: "Stress the last syllable, sou-BÉR, with an open e; the final r is light and often barely heard.",
         explanation: "\"Assim que\" + the future subjunctive \"souber\", then the present \"te aviso\" with a future meaning.",
       },
       {
@@ -1692,7 +1692,7 @@ export const PT_B2_U03: Lesson[] = [
         examples: [
           { es: "Assim que eu sair do escritório, vou direto para a rodoviária.", en: "As soon as I leave the office, I'll go straight to the bus station." },
           { es: "Enquanto você estiver esperando, pode tomar um café na lanchonete.", en: "While you're waiting, you can have a coffee at the snack bar." },
-          { es: "Se o trânsito estiver ruim, eu pego o metrô.", en: "If the traffic is bad, I'll take the subway." },
+          { es: "Se o trânsito estiver ruim, eu pego o metrô.", en: "If the traffic is bad, I'll take the metro." },
           { es: "Quando você descer do ônibus, me espera perto da plataforma.", en: "When you get off the bus, wait for me near the platform." },
           { es: "Eu te busco assim que puder.", en: "I'll pick you up as soon as I can." },
           { es: "Se eu me atrasar, você pega um táxi?", en: "If I'm late, will you take a taxi?" },
@@ -1718,7 +1718,7 @@ export const PT_B2_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "If the traffic [is] bad, I'll take the subway.",
+            en: "If the traffic [is] bad, I'll take the metro.",
             sentence: "Se o trânsito ___ ruim, eu pego o metrô.",
             answer: "estiver",
             explanation: "Bad traffic is a state, so it takes \"estar\", and a future condition puts it in the future subjunctive: \"estiver\", from \"estiveram\".",
@@ -1888,7 +1888,7 @@ export const PT_B2_U03: Lesson[] = [
         type: "speak",
         text: "Quando você chegar na rodoviária, me liga.",
         prompt: "Say it in Portuguese: When you get to the bus station, call me.",
-        tip: "In \"rodoviária\" the d stays a plain d and the o after it sounds like oo: ho-doo-vee-Á-rya.",
+        tip: "In \"rodoviária\" the d stays a plain d and the o after it sounds like u: ro-du-vi-Á-ria.",
         explanation: "\"Quando\" + future subjunctive (\"chegar\"), then the casual command \"me liga\".",
       },
       {
@@ -2156,7 +2156,7 @@ export const PT_B2_U03: Lesson[] = [
         type: "speak",
         text: "Se você puder amanhã, me liga.",
         prompt: "Say it in Portuguese: If you can tomorrow, call me.",
-        tip: "Stress the last syllable of puder: pu-DÉR, with an open é. The final r is light and often almost silent in casual Brazilian speech.",
+        tip: "Stress the last syllable of puder: pu-DER. The final r is light and often almost silent in casual Brazilian speech.",
         explanation: "\"Se você puder\" is the correction of \"*se você pode amanhã\". The future event takes the future subjunctive.",
       },
       {
@@ -2692,7 +2692,7 @@ export const PT_B2_U03: Lesson[] = [
         type: "speak",
         text: "Quando eu for ao Rio, quero que você me mostre a cidade.",
         prompt: "Say it in Portuguese: When I go to Rio, I want you to show me the city.",
-        tip: "\"Mostre\" has an open ó and a final -e that sounds like ee: MÓS-tree, and the r at the end of \"for\" is soft or almost dropped.",
+        tip: "The final -e in \"mostre\" sounds like i, and the r at the end of \"for\" is soft or almost dropped.",
         explanation: "Two subjunctives in one sentence. \"Quando eu for\" is the future subjunctive for one future trip. \"Quero que você me mostre\" is the present subjunctive after a present trigger.",
       },
       {

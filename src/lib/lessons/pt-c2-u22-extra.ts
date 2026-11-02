@@ -173,7 +173,7 @@ export const PT_C2_U22_EXTRA: Lesson[] = [
         type: "speak",
         text: "Conto com você para virar esse jogo.",
         prompt: "Say it in Portuguese: I'm counting on you to turn this around.",
-        tip: "Stress \"conto\" on CON, with a nasal o: KÕ-too.",
+        tip: "Stress \"conto\" on CON, with a nasal o: KON-tu.",
         explanation: "\"Conto com você\" is firm and warm at once.",
       },
       {
@@ -352,7 +352,7 @@ export const PT_C2_U22_EXTRA: Lesson[] = [
         type: "speak",
         text: "Se houver mudança de cenário, voltamos a conversar.",
         prompt: "Say it in Portuguese: If things change, we'll talk again.",
-        tip: "\"Houver\": the h is silent and ou is a closed o: ô-VER.",
+        tip: "\"Houver\": the h is silent and ou is a closed o: o-VER.",
         explanation: "The future subjunctive \"houver\" keeps the door open.",
       },
       {
@@ -531,7 +531,7 @@ export const PT_C2_U22_EXTRA: Lesson[] = [
         type: "speak",
         text: "Lamentamos profundamente o acidente e estamos dando todo o apoio às vítimas.",
         prompt: "Say it in Portuguese: We deeply regret the accident and are giving the victims full support.",
-        tip: "\"Profundamente\": pro-fun-da-MEN-chee, with the final te as chee.",
+        tip: "\"Profundamente\": pro-fun-da-MEN-tchi, with the final te as tchi.",
         explanation: "Name the event, then the concrete support.",
       },
       {

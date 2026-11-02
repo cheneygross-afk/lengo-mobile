@@ -107,7 +107,7 @@ export const PT_B2_U15: Lesson[] = [
           { es: "Quando cheguei à estação, o trem já tinha saído.", en: "When I got to the station, the train had already left." },
           { es: "Percebi que tinha deixado as chaves no táxi.", en: "I realized I'd left the keys in the taxi." },
           { es: "Ela estava nervosa porque nunca tinha viajado sozinha.", en: "She was nervous because she'd never traveled alone." },
-          { es: "O filme ainda não tinha começado quando entramos.", en: "The movie hadn't started yet when we went in." },
+          { es: "O filme ainda não tinha começado quando entramos.", en: "The film hadn't started yet when we went in." },
           { es: "A polícia descobriu que o ladrão havia fugido pela janela.", en: "The police discovered that the thief had escaped through the window." },
         ],
         checkpoint: [
@@ -153,7 +153,7 @@ export const PT_B2_U15: Lesson[] = [
           {
             type: "speak",
             text: "Eu estava escolhendo mangas quando vi a Mariana.",
-            tip: "Stress 'es-TA-va', and make the \"quan\" of \"quando\" nasal, with no n sound.",
+            tip: "Stress es-TA-va, and make the \"quan\" of \"quando\" nasal, with no n sound.",
             explanation: "\"Estava escolhendo\" is the action in progress, and \"vi\" is the event that cuts into it.",
           },
           {
@@ -273,9 +273,9 @@ export const PT_B2_U15: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The movie hadn't started yet when we went in.",
+        prompt: "Put the words in order to say: The film hadn't started yet when we went in.",
         words: ["O filme", "ainda não", "tinha começado", "quando", "entramos."],
-        translation: "The movie hadn't started yet when we went in.",
+        translation: "The film hadn't started yet when we went in.",
         explanation: "\"Ainda não\" goes right before \"tinha começado\", which steps back from the moment you went in.",
       },
       {
@@ -287,7 +287,7 @@ export const PT_B2_U15: Lesson[] = [
         type: "speak",
         text: "Percebi que tinha perdido a carteira.",
         prompt: "Say it in Portuguese: I realized I'd lost my wallet.",
-        tip: "The d of \"perdido\" before i sounds like the j in jeep: 'per-JEE-doo'.",
+        tip: "The d of \"perdido\" before i sounds like the j in jeep: per-DJI-du.",
         explanation: "Losing the wallet came before the realizing, so it takes \"tinha perdido\".",
       },
       {
@@ -411,14 +411,14 @@ export const PT_B2_U15: Lesson[] = [
       {
         heading: "In writing: history, headlines and plot summaries",
         body: [
-          "The historical present isn't only for chat. History books and documentaries use it to narrate dates in sequence (\"em 1500, a esquadra de Cabral chega à Bahia\"). Headlines are in the present, and plot summaries of movies and novels are written in it as a rule.",
+          "The historical present isn't only for chat. History books and documentaries use it to narrate dates in sequence (\"em 1500, a esquadra de Cabral chega à Bahia\"). Headlines are in the present, and plot summaries of films and novels are written in it as a rule.",
           "Once you're in the present, the other tenses shift with it. What happened earlier takes the perfeito instead of the mais-que-perfeito (\"ele vê que alguém abriu a janela\"). What is still to come takes \"vai\" + infinitive (\"nove anos depois, vai abdicar do trono\"). Choose one frame and stay in it: jumping between \"chegou\" and \"chega\" for no reason confuses the reader.",
         ],
         examples: [
           { es: "Em 1500, a esquadra de Cabral chega ao litoral da Bahia.", en: "In 1500, Cabral's fleet reaches the coast of Bahia." },
           { es: "Dom Pedro proclama a independência em 1822; nove anos depois, vai abdicar do trono.", en: "Dom Pedro declares independence in 1822; nine years later, he will abdicate the throne." },
-          { es: "Seleção vence a Argentina e se classifica para a Copa.", en: "Brazil beats Argentina and qualifies for the World Cup." },
-          { es: "No filme, Fernanda Montenegro interpreta Dora, uma mulher que escreve cartas na Central do Brasil.", en: "In the movie, Fernanda Montenegro plays Dora, a woman who writes letters at Central do Brasil station." },
+          { es: "Seleção vence a Argentina e se classifica para a Copa.", en: "Brazil beat Argentina and qualify for the World Cup." },
+          { es: "No filme, Fernanda Montenegro interpreta Dora, uma mulher que escreve cartas na Central do Brasil.", en: "In the film, Fernanda Montenegro plays Dora, a woman who writes letters at Central do Brasil station." },
           { es: "Quando entra em casa, o detetive percebe que alguém abriu a janela.", en: "When he walks into the house, the detective realizes someone has opened the window." },
         ],
         checkpoint: [
@@ -533,7 +533,7 @@ export const PT_B2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In the movie, a boy travels across Brazil looking for his father.",
+        source: "In the film, a boy travels across Brazil looking for his father.",
         answer: "No filme, um menino viaja pelo Brasil procurando o pai.",
         altAnswers: [
           "No filme, um menino atravessa o Brasil procurando o pai.",
@@ -552,7 +552,7 @@ export const PT_B2_U15: Lesson[] = [
         type: "speak",
         text: "Aí eu estou na praia e de repente começa a chover.",
         prompt: "Say it in Portuguese: So I'm at the beach and suddenly it starts raining.",
-        tip: "In most of Brazil \"de repente\" sounds like 'jee he-PẼ-chee': d and t before an i sound turn soft.",
+        tip: "In most of Brazil \"de repente\" sounds like 'dji he-PEN-tchi': d and t before an i sound turn soft.",
         explanation: "The background is in the present (\"estou na praia\"), and the interrupting event is simple present, introduced by \"de repente\".",
       },
       {
@@ -587,7 +587,7 @@ export const PT_B2_U15: Lesson[] = [
         examples: [
           { es: "— Você vem com a gente? — perguntou a Beatriz.", en: "'Are you coming with us?' Beatriz asked." },
           { es: "— Estou cansado — disse o Rafael. — Vou dormir cedo.", en: "'I'm tired,' said Rafael. 'I'm going to bed early.'" },
-          { es: "— Que susto! — gritou Dona Maria.", en: "'What a scare!' shouted Dona Maria." },
+          { es: "— Que susto! — gritou Dona Maria.", en: "'What a fright!' shouted Dona Maria." },
           { es: "— Não sei — respondeu ela, sem tirar os olhos do celular.", en: "'I don't know,' she replied, without taking her eyes off her phone." },
           { es: "O motorista se virou e disse: — Sua parada é a próxima.", en: "The driver turned around and said: 'Yours is the next stop.' (on the page, the dash line starts a new paragraph)" },
         ],
@@ -633,7 +633,7 @@ export const PT_B2_U15: Lesson[] = [
         examples: [
           { es: "— Vou ligar amanhã — disse o João.", en: "'I'll call tomorrow,' said João." },
           { es: "O João disse que ia ligar no dia seguinte.", en: "João said he would call the next day." },
-          { es: "Ela perguntou se eu tinha visto o filme.", en: "She asked if I had seen the movie." },
+          { es: "Ela perguntou se eu tinha visto o filme.", en: "She asked if I had seen the film." },
           { es: "A professora pediu que a gente fizesse silêncio.", en: "The teacher asked us to be quiet." },
           { es: "Meu pai insistiu que eu levasse um casaco.", en: "My dad insisted that I take a coat." },
           { es: "Ele admitiu que tinha esquecido a chave.", en: "He admitted he had forgotten the key." },
@@ -790,7 +790,7 @@ export const PT_B2_U15: Lesson[] = [
         type: "speak",
         text: "Ele prometeu que estaria lá às oito.",
         prompt: "Say it in Portuguese: He promised he would be there at eight.",
-        tip: "Stress 'es-ta-REE-a', and keep the á in lá open and short.",
+        tip: "Stress es-ta-RI-a, and keep the á in lá open and short.",
         explanation: "\"Vou estar lá\" reported after a past verb becomes \"estaria lá\", with \"aqui\" or the place shifting to \"lá\".",
       },
       {
@@ -900,7 +900,7 @@ export const PT_B2_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "No sooner had the movie started than the power went out.",
+            source: "No sooner had the film started than the power went out.",
             answer: "Mal o filme começou, a luz acabou.",
             altAnswers: [
               "Mal começou o filme, a luz acabou.",
@@ -1068,7 +1068,7 @@ export const PT_B2_U15: Lesson[] = [
         type: "speak",
         text: "De repente, todo mundo começou a correr.",
         prompt: "Say it in Portuguese: All of a sudden, everyone started running.",
-        tip: "In \"de repente\" the final e of \"de\" sounds like 'ee', so \"de\" is 'jee', and the final -te sounds like 'chee': 'jee he-PẼ-chee'.",
+        tip: "In \"de repente\" the final e of \"de\" sounds like the i in \"dji\", and the final -te sounds like \"tchi\": dji-he-PEN-tchi.",
         explanation: "\"De repente\" + perfeito \"começou\". \"Começar a\" + infinitive means to start doing something.",
       },
       {
@@ -1181,7 +1181,7 @@ export const PT_B2_U15: Lesson[] = [
           "Combine the two forms to paint a scene in one sentence: the participle for the position, the gerund for the activity. \"Sentada na varanda, tomando café, ela via o dia nascer.\" Two of these phrases make a picture; five in a row make a list.",
         ],
         examples: [
-          { es: "Ela caminhava pela orla olhando o mar.", en: "She was walking along the beachfront, looking at the sea." },
+          { es: "Ela caminhava pela orla olhando o mar.", en: "She was walking along the seafront, looking at the sea." },
           { es: "Quando começou a chover, todo mundo saiu correndo.", en: "When it started raining, everyone ran off." },
           { es: "O Lucas entrou na cozinha cantando.", en: "Lucas came into the kitchen singing." },
           { es: "Sentada na varanda, tomando café, ela via o dia nascer.", en: "Sitting on the balcony, drinking coffee, she watched the day break." },
@@ -1727,8 +1727,8 @@ export const PT_B2_U15: Lesson[] = [
           "English speakers often drop 'had' ('I realized I forgot my passport'). Brazilian speech also says \"percebi que esqueci\", but a careful narrator writes \"percebi que tinha esquecido\". Words like \"já\", \"antes\" and \"ainda não\" almost always call for \"tinha\" + participle.",
         ],
         examples: [
-          { es: "Quando cheguei ao cinema, o filme começou.", en: "The movie started just as I got to the theater." },
-          { es: "Quando cheguei ao cinema, o filme já tinha começado.", en: "When I got to the theater, the movie had already started." },
+          { es: "Quando cheguei ao cinema, o filme começou.", en: "The film started just as I got to the movie theater." },
+          { es: "Quando cheguei ao cinema, o filme já tinha começado.", en: "When I got to the movie theater, the film had already started." },
           { es: "Liguei para a Beatriz, mas ela já tinha saído.", en: "I called Beatriz, but she'd already left." },
           { es: "O ônibus ainda não tinha chegado quando começou a chover.", en: "The bus hadn't arrived yet when it started to rain." },
           { es: "Percebi no aeroporto que tinha esquecido o passaporte em casa.", en: "At the airport I realized I'd left my passport at home." },
@@ -1791,7 +1791,7 @@ export const PT_B2_U15: Lesson[] = [
           {
             type: "speak",
             text: "Eu estava dormindo quando o telefone tocou.",
-            tip: "Keep the first syllable of \"estava\" light and unstressed, and stress the second: 'es-TA-va'. The d in \"dormindo\" stays a d, but the t in \"telefone\" is a plain t before e.",
+            tip: "Keep \"estava\" light and unstressed on the first syllable: es-TA-va. The d in \"dormindo\" stays a d, but the t in \"telefone\" is a plain t before e.",
             explanation: "\"Estava dormindo\" is the scene in progress, and \"tocou\" is the event that breaks into it.",
           },
         ],
@@ -1939,7 +1939,7 @@ export const PT_B2_U15: Lesson[] = [
           { es: "Um homem entrou no ônibus e começou a cantar.", en: "A man got on the bus and started singing." },
           { es: "Um homem entra no ônibus e começa a cantar.", en: "A man gets on the bus and starts singing. (historical present, kept all the way through)" },
           { es: "Quando eu era criança, passava as férias em Recife.", en: "When I was a kid, I spent my vacations in Recife." },
-          { es: "Quando cheguei ao cinema, o filme já tinha começado.", en: "When I got to the theater, the movie had already started." },
+          { es: "Quando cheguei ao cinema, o filme já tinha começado.", en: "When I got to the movie theater, the film had already started." },
           { es: "Chovia muito, e a rua estava deserta.", en: "It was raining hard, and the street was empty." },
         ],
         checkpoint: [
@@ -1955,11 +1955,11 @@ export const PT_B2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "When I got to the theater, the movie [had already started].",
+            en: "When I got to the movie theater, the film [had already started].",
             sentence: "Quando cheguei ao cinema, o filme ___.",
             answer: "já tinha começado",
             altAnswers: ["já havia começado"],
-            explanation: "The movie started before you arrived, so the mais-que-perfeito: \"já tinha começado\". \"Já começou\" puts both events on the same level and loses the order.",
+            explanation: "The film started before you arrived, so the mais-que-perfeito: \"já tinha começado\". \"Já começou\" puts both events on the same level and loses the order.",
           },
           {
             type: "translate",
@@ -2280,7 +2280,7 @@ export const PT_B2_U15: Lesson[] = [
           {
             type: "speak",
             text: "Encostado no balcão, o rapaz esperava.",
-            tip: "Final -o in \"encostado\" sounds like 'oo' ('ẽ-kos-TA-doo'), and \"balcão\" ends in a nasal ão with no n.",
+            tip: "Final -o in \"encostado\" sounds like u, and \"balcão\" ends in a nasal ão with no n.",
             explanation: "\"Encostado\" is the participle used as a detail. It agrees with \"o rapaz\".",
           },
         ],

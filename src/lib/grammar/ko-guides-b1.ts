@@ -294,7 +294,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
         heading: `Writing without 저: pronouns and connectors`,
         body: [
           `한다체 has no listener to be humble to, so 저 becomes 나 and 저희 becomes 우리: 나는 그날 일찍 집에 왔다. In essays, 'I' is often avoided altogether, or replaced by 필자 (the writer) in columns.`,
-          `Written connectors replace the spoken ones: 그런데 → 그러나 or 하지만, 그래서 → 따라서 or 그러므로, 그리고 → 또한, and 한편 (meanwhile, on the other hand). Join nouns with 와 / 과 rather than the spoken 하고 or (이)랑.`,
+          `Written connectors replace the spoken ones: 그런데 → 그러나 or 하지만, 그래서 → 따라서 or 그러므로, 그리고 → 또한, and 한편 (meanwhile, on the other hand). Join nouns with 와 / 과, not 하고 or (이)랑.`,
         ],
         examples: [
           { ko: "나는 그날 처음으로 혼자 여행을 했다.", en: "That day I travelled alone for the first time." },
@@ -366,7 +366,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
         heading: `-더라고요: what I saw or found out`,
         body: [
           `Add -더라고요 to any stem: 맛있더라고요, 사람이 많더라고요, 민수 씨가 노래를 잘하더라고요. For something already finished when you saw it, use -았 / 었더라고요: 벌써 다 팔렸더라고요 (they'd already sold out). Nouns take (이)더라고요. The short form -데요 and the casual -더라 mean the same: 맛있데요, 맛있더라.`,
-          `The first-person rule: you don't normally use -더라고요 about your own deliberate actions (*제가 운동하더라고요), because you don't 'discover' them. It works with your feelings and your reactions that surprised you: 생각보다 재미있더라고요, 저도 모르게 눈물이 나더라고요.`,
+          `The first-person rule: you can't use -더라고요 about your own deliberate actions (*제가 운동하더라고요), because you don't 'discover' them. It works with your feelings and your reactions that surprised you: 생각보다 재미있더라고요, 저도 모르게 눈물이 나더라고요.`,
         ],
         examples: [
           { ko: "어제 명동에 갔는데 사람이 정말 많더라고요.", en: "I went to Myeongdong yesterday and it was really crowded." },
@@ -431,13 +431,13 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "제가 다녔던 학교",
         right: "제가 다니던 학교",
-        why: `Not wrong: both are natural. -던 stresses the long routine of going there; -았 / 었던 stresses that it's over.`,
+        why: `For a school you went to for years: Both are possible, but for a long-term routine -던 is the natural choice.`,
         register: true,
       },
       {
         wrong: "가곤 해요",
         right: "가곤 했어요",
-        why: `For a habit that has ended, use the past. -곤 해요 is fine for a current habit ('I sometimes go'), but -곤 하다 is mostly used in the past for habits you look back on.`,
+        why: `About a habit that has ended, use the past. -곤 하다 is mostly used in the past for habits you look back on.`,
         register: true,
       },
     ],
@@ -594,7 +594,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
         heading: `-기 위해(서) and 을 / 를 위해(서)`,
         body: [
           `-기 위해(서) is the formal, written 'in order to', and it is common in speeches, essays and TOPIK writing: 건강을 지키기 위해서 매일 걷는다. After a noun, use 을 / 를 위해(서) (for the sake of, for): 가족을 위해서, 환경을 위해. Before a noun it becomes 을 / 를 위한: 외국인을 위한 안내 (a guide for foreigners).`,
-          `-기 위해 works mainly with action verbs. With adjectives, 건강해지기 위해 or 건강을 위해 is the standard choice; 건강하기 위해 is heard but less standard (a few, like 행복하기 위해, are common).`,
+          `-기 위해 works with action verbs, not adjectives: with adjectives, 건강해지기 위해 or 건강을 위해 usually sounds better than 건강하기 위해 (though a few, like 행복하기 위해, are common).`,
         ],
         examples: [
           { ko: "시험에 합격하기 위해 열심히 공부했다.", en: "I studied hard to pass the exam." },
@@ -771,7 +771,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         heading: `As soon as: -자마자 and -는 대로`,
         body: [
-          `-자마자 means 'as soon as, the moment': 집에 오자마자 잤어요 (I went to bed as soon as I got home). It works with any tense in the main clause. -는 대로 also means 'as soon as', but only for future plans and instructions: 도착하는 대로 연락 주세요 (get in touch as soon as you arrive), 확인하는 대로 알려 드리겠습니다. It isn't used for a one-off past event.`,
+          `-자마자 means 'as soon as, the moment': 집에 오자마자 잤어요 (I went to bed as soon as I got home). It works with any tense in the main clause. -는 대로 also means 'as soon as', but only for future plans and instructions: 도착하는 대로 연락 주세요 (get in touch as soon as you arrive), 확인하는 대로 알려 드리겠습니다. Never for a past event.`,
         ],
         examples: [
           { ko: "수업이 끝나자마자 뛰어나갔어요.", en: "As soon as class ended, I ran out." },
@@ -824,12 +824,12 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "어제 집에 도착하는 대로 잤어요.",
         right: "어제 집에 도착하자마자 잤어요.",
-        why: `-는 대로 'as soon as' is for future plans and instructions. For a past event, use -자마자.`,
+        why: `-는 대로 is only for future plans and instructions. For a past event, use -자마자.`,
       },
       {
         wrong: "공부했다가 잠이 들었어요.",
         right: "공부하다가 잠이 들었어요.",
-        why: `To say you fell asleep while studying, use -다가 (interrupted in the middle). -았 / 었다가 means A was finished first.`,
+        why: `To say you fell asleep while studying: Interrupted in the middle is -다가. -았다가 means A was finished first.`,
         register: true,
       },
       {
@@ -902,7 +902,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         heading: `Who did it?`,
         body: [
-          `Korean passives usually leave the doer out. When it's a person or animal, it takes 에게 or 한테: 모기한테 물렸어요 (I got bitten by a mosquito; 모기에 물렸어요 is also common), 경찰에게 잡혔어요. When it's a thing or force, it takes 에: 바람에 날렸어요, 눈에 덮였어요.`,
+          `Korean passives usually leave the doer out. When it's a person or animal, it takes 에게 or 한테: 모기한테 물렸어요 (I got bitten by a mosquito), 경찰에게 잡혔어요. When it's a thing or force, it takes 에: 바람에 날렸어요, 눈에 덮였어요.`,
           `Many passives are best translated as 'can be seen / heard' or as an English intransitive: 보이다 (be visible, can see), 들리다 (be audible, can hear), 풀리다 (get solved, ease), 걸리다 (take time; catch a cold).`,
         ],
         examples: [
@@ -933,7 +933,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "모기를 물렸어요.",
         right: "모기한테 물렸어요.",
-        why: `In the passive, the doer takes 한테 / 에게 (or 에: 모기에 물렸어요), not 을 / 를.`,
+        why: `In the passive, the doer takes 한테 / 에게, not 을 / 를.`,
       },
       {
         wrong: "회의가 취소했어요.",
@@ -1183,7 +1183,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         heading: `I almost: -(으)ㄹ 뻔했다`,
         body: [
-          `-(으)ㄹ 뻔했다 means something almost happened but didn't, usually something bad: 넘어질 뻔했어요 (I almost fell), 비행기를 놓칠 뻔했어요. It is almost always in the past. Compare 거의 (almost, nearly, for quantity or completion): 거의 다 먹었어요 (I've eaten almost all of it). 거의 넘어졌어요 is heard, but -(으)ㄹ 뻔했다 is the natural way to talk about a near miss.`,
+          `-(으)ㄹ 뻔했다 means something almost happened but didn't, usually something bad: 넘어질 뻔했어요 (I almost fell), 비행기를 놓칠 뻔했어요. It is always in the past. Compare 거의 (almost, nearly, for quantity or completion): 거의 다 먹었어요 (I've eaten almost all of it). 거의 넘어졌어요 sounds odd; use -(으)ㄹ 뻔했다 for near misses.`,
           `-(으)ㄹ 뻔했다 also exaggerates: 배고파서 죽을 뻔했어요 (I nearly died of hunger), 웃겨서 죽을 뻔했어요.`,
         ],
         examples: [
@@ -1213,13 +1213,12 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "넘어질 뻔해요.",
         right: "넘어질 뻔했어요.",
-        why: `A near miss is over by the time you tell it, so -(으)ㄹ 뻔하다 is almost always past: 뻔했어요.`,
-        register: true,
+        why: `-(으)ㄹ 뻔하다 is always past: it almost happened.`,
       },
       {
         wrong: "거의 사고가 났어요.",
         right: "사고가 날 뻔했어요.",
-        why: `For a near miss, use -(으)ㄹ 뻔했다. 거의 is about quantity or completion, so 거의 사고가 났어요 sounds as if the accident partly happened.`,
+        why: `For a near miss, use -(으)ㄹ 뻔했다. 거의 suggests the accident partly happened.`,
         register: true,
       },
       {
@@ -1306,14 +1305,13 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "바쁘나 봐요.",
         right: "바쁜가 봐요.",
-        why: `In writing and careful speech, the standard pattern for adjectives is -(으)ㄴ가 보다; -나 보다 with adjectives is colloquial.`,
+        why: `In writing and careful speech: The standard pattern for adjectives is -(으)ㄴ가 보다; -나 보다 with adjectives is spoken.`,
         register: true,
       },
       {
         wrong: "추울 텐데 따뜻하게 입을 테니까요.",
         right: "추울 텐데 따뜻하게 입으세요.",
-        why: `Grammatical, but it doesn't follow on: -(으)ㄹ 텐데 sets up a main clause, and here the natural follow-up is advice.`,
-        register: true,
+        why: `-(으)ㄹ 텐데 sets up the main clause; here the natural follow-up is advice.`,
       },
       {
         wrong: "학생인 나 봐요.",
@@ -1377,7 +1375,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         heading: `Whether or not`,
         body: [
-          `A yes/no question becomes -는지 alone or -는지 안 -는지 / -는지 아닌지 (whether or not): 문을 열었는지 확인해 보세요 (check whether they've opened), 그 사람이 오는지 안 오는지 몰라요, 사실인지 아닌지.`,
+          `A yes/no question becomes -는지 alone or -는지 안 -는지 / -는지 아닌지 (whether or not): 문을 열었는지 확인해 보세요 (check whether it's open), 그 사람이 오는지 안 오는지 몰라요, 사실인지 아닌지.`,
         ],
         examples: [
           { ko: "식당이 오늘 문을 여는지 전화해 볼게요.", en: "I'll call to see whether the restaurant is open today." },
@@ -1388,7 +1386,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
         heading: `The future: -(으)ㄹ지 and -(으)ㄹ지도 모르다`,
         body: [
           `For an uncertain future, use -(으)ㄹ지: 내일 비가 올지 모르겠어요 (I don't know whether it'll rain tomorrow), 뭘 먹을지 정했어요? (have you decided what to eat?). -(으)ㄹ지 말지 means 'whether to or not': 갈지 말지 고민 중이에요.`,
-          `For a scheduled or regular event, -는지 also works for the future: 내일 몇 시에 시작하는지 알아요?. -(으)ㄹ지도 모르다 means 'might': 늦을지도 몰라요 (I might be late), 벌써 갔을지도 몰라요 (he might already have gone).`,
+          `-(으)ㄹ지도 모르다 means 'might': 늦을지도 몰라요 (I might be late), 벌써 갔을지도 몰라요 (he might already have gone).`,
         ],
         examples: [
           { ko: "그 사람이 올지 안 올지 모르겠어요.", en: "I don't know whether he'll come or not." },
@@ -1749,7 +1747,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
         heading: `저희, titles and 님`,
         body: [
           `저희 is the humble 'we / our' used to outsiders: 저희 회사 (our company), 저희 팀. Use 우리 among your own group. One exception: 우리나라 ('our country', Korea) is used even to foreigners, though with them 한국 is the neutral choice.`,
-          `Job titles take 님 and replace names and 'you': 팀장님, 과장님, 부장님, 사장님; with a surname, 김 부장님. 씨 is for colleagues of equal or lower rank, not for seniors. Older colleagues from your school or company are 선배님.`,
+          `Job titles take 님 and replace names and 'you': 팀장님, 과장님, 부장님, 사장님; with a surname, 김 부장님. 씨 is for colleagues of equal or lower rank, and never for seniors. Older colleagues from your school or company are 선배님.`,
         ],
         examples: [
           { ko: "저희 회사는 강남에 있습니다.", en: "Our company is in Gangnam." },
@@ -1794,7 +1792,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "우리 회사",
         right: "저희 회사",
-        why: `Speaking to a client: to outsiders, humble 저희 is the polite 'our'.`,
+        why: `Speaking to a client: To outsiders, humble 저희 is the polite 'our'.`,
         register: true,
       },
     ],
@@ -2251,9 +2249,9 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
         why: `-(으)ㄹ까 봐 explains your own action; it isn't followed by a command or suggestion.`,
       },
       {
-        wrong: "병원에 가는 게 좋아겠어요.",
+        wrong: "병원에 가는 것이 좋겠어요요.",
         right: "병원에 가는 게 좋겠어요.",
-        why: `좋겠어요 is 좋 + 겠 + 어요: nothing comes between the stem and -겠-. (가는 것이 좋겠어요 is also correct; 게 is the spoken contraction.)`,
+        why: `The pattern ends in 좋겠어요; in speech 것이 becomes 게.`,
       },
       {
         wrong: "부장님, 좀 쉬지 그래요?",
@@ -2294,7 +2292,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         heading: `In the middle of: -는 중이다`,
         body: [
-          `-는 중이다 means 'be in the middle of doing': 지금 회의하는 중이에요 (I'm in a meeting right now), 이사 준비하는 중이에요. With a Sino-Korean noun, 중 follows the noun directly (spaced): 회의 중, 통화 중 (on the phone), 공사 중 (under construction), 수리 중. It's more formal and more about being occupied than -고 있다.`,
+          `-는 중이다 means 'be in the middle of doing': 지금 회의하는 중이에요 (I'm in a meeting right now), 이사 준비하는 중이에요. With a Sino-Korean noun, 중 attaches directly: 회의 중, 통화 중 (on the phone), 공사 중 (under construction), 수리 중. It's more formal and more about being occupied than -고 있다.`,
         ],
         examples: [
           { ko: "지금 운전하는 중이라서 나중에 전화할게요.", en: "I'm driving right now, so I'll call you later." },
@@ -2488,7 +2486,7 @@ export const KO_B1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "문을 열자마자 고양이가 뛰어나왔다.",
         right: "문을 열자 고양이가 뛰어나왔다.",
-        why: `In a literary story both are correct; written narrative prefers the shorter -자.`,
+        why: `In a literary story: Both are correct; written narrative prefers the shorter -자.`,
         register: true,
       },
     ],

@@ -430,7 +430,7 @@ export const DE_CULTURE_U03: Lesson[] = [
         heading: "Feierabend, Urlaub, Krankmeldung",
         body: [
           "\"Der Feierabend\" is the end of the working day and the free time that follows. It is taken seriously: \"Ich mache jetzt Feierabend\" (I'm finishing for the day), and colleagues say goodbye with \"Schönen Feierabend!\". Calling or messaging colleagues about work in the evening is widely seen as intrusive, and many companies limit after-hours emails.",
-          "Holidays: the legal minimum is 20 working days a year for a five-day week, but most full-time employees get 25 to 30 (\"30 Tage Urlaub\"), and they take them, often in two- or three-week blocks. Clever use of \"Brückentage\" stretches them further. If you're ill, you call in sick (\"sich krankmelden\") in the morning, and from the fourth day at the latest (often earlier, if the employer asks) you need a doctor's certificate: \"die Krankschreibung\" or \"die AU\" (Arbeitsunfähigkeitsbescheinigung).",
+          "Holidays: the legal minimum is 20 working days a year for a five-day week, but most full-time employees get 25 to 30 (\"30 Tage Urlaub\"), and they take them, often in two- or three-week blocks. Clever use of \"Brückentage\" stretches them further. If you're ill, you \"meldet sich krank\" (call in sick) in the morning, and from the fourth day at the latest (often earlier, if the employer asks) you need a doctor's certificate: \"die Krankschreibung\" or \"die AU\" (Arbeitsunfähigkeitsbescheinigung).",
           "Other key words: \"Überstunden\" (overtime, often recorded and compensated with time off: \"Überstunden abbauen\"), \"die Mittagspause\" (lunch break, usually 30 to 60 minutes), \"Gleitzeit\" (flexitime).",
         ],
         examples: [
@@ -579,7 +579,7 @@ export const DE_CULTURE_U03: Lesson[] = [
         question: "Your friend Mia has her driving test tomorrow. Which is NOT a way to wish her luck?",
         options: ["Ich klopfe dir die Daumen!", "Ich drücke dir die Daumen!", "Toi, toi, toi!", "Hals- und Beinbruch!"],
         correctIndex: 0,
-        explanation: "You \"die Daumen drücken\" (press the thumbs) and \"auf Holz klopfen\" (knock on wood): mixing the two doesn't work.",
+        explanation: "You \"drückst\" (press) the thumbs and \"klopfst auf Holz\" (knock on wood): mixing the two doesn't work.",
       },
       {
         type: "translate",

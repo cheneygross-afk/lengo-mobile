@@ -8,7 +8,7 @@ export const PT_A2_U20: Lesson[] = [
     level: "PT-A2",
     number: 1,
     title: "Survival: The CPF and Your Documents",
-    summary: "Understand the CPF and why every store asks for it, name your documents (RG, passaporte, comprovante de residência) and handle lines and tickets with a senha.",
+    summary: "Understand the CPF and why every shop asks for it, name your documents (RG, passaporte, comprovante de residência) and handle lines and tickets with a senha.",
     duration: "13 min",
     kind: "teach",
     sections: [
@@ -111,7 +111,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Qual é a senha do wi-fi?",
-            tip: "Brazilians say \"wi-fi\" as 'wai-FAI', close to English.",
+            tip: "Brazilians say wi-fi as uai-fai.",
             explanation: "The same word, \"senha\", for a password and a line ticket.",
           },
         ],
@@ -197,7 +197,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Eu só tenho o passaporte.",
-        explanation: "\"Só\" with an accent means only: \"eu só tenho\" = I only have.",
+        explanation: "\"Só\" with an accent means only.",
       },
       {
         type: "speak",
@@ -253,7 +253,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "O Pix: me passa a sua chave",
         body: [
-          "\"O Pix\" is Brazil's free instant transfer system, and everyone uses it, from big stores to the man selling coconut water on the beach. You send money to \"a chave Pix\" (the Pix key), which can be a phone number, an email, a CPF or a random code, or you scan a QR code.",
+          "\"O Pix\" is Brazil's free instant transfer system, and everyone uses it, from big shops to the man selling coconut water on the beach. You send money to \"a chave Pix\" (the Pix key), which can be a phone number, an email, a CPF or a random code, or you scan a QR code.",
           "\"Fazer um Pix\" is to send one, and \"pagar no Pix\" is to pay by Pix. Friends split bills with \"me passa a sua chave\" and \"já te mandei o Pix\". After sending, people often share \"o comprovante\" (the receipt) as a screenshot.",
         ],
         examples: [
@@ -288,7 +288,7 @@ export const PT_A2_U20: Lesson[] = [
         heading: "Débito ou crédito? Parcelar em três vezes",
         body: [
           "To pay by card, ask \"pode passar no cartão?\". The cashier brings \"a maquininha\" (the card machine) and asks \"débito ou crédito?\". On credit, Brazilians often \"parcelar\": split a purchase into monthly installments. \"Em três vezes sem juros\" means in three interest-free payments, and \"à vista\" means paying all at once, often with a discount.",
-          "Stores write it as \"3x sem juros\" (read \"três vezes\"). Asking \"dá para parcelar?\" (can I pay in installments?) is completely normal, even for clothes or a phone.",
+          "Shops write it as \"3x sem juros\" (read \"três vezes\"). Asking \"dá para parcelar?\" (can I pay in installments?) is completely normal, even for clothes or a phone.",
         ],
         examples: [
           { es: "Pode passar no cartão?", en: "Can I pay by card?" },
@@ -318,7 +318,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Pode passar no cartão?",
-            tip: "\"Cartão\" ends in the nasal ão: 'kar-TÃW'.",
+            tip: "Cartão ends in the nasal ão: car-TÃO.",
             explanation: "\"Passar no cartão\" is to put it on the card.",
           },
         ],
@@ -375,11 +375,11 @@ export const PT_A2_U20: Lesson[] = [
         prompt: "Put the words in order to say: I'm going to check the balance in the app.",
         words: ["Vou", "ver", "o", "saldo", "no", "aplicativo."],
         translation: "I'm going to check the balance in the app.",
-        explanation: "\"Ver o saldo\" is the everyday way to say check your balance; \"no aplicativo\" = in the app.",
+        explanation: "\"Ver o saldo\" is to check your balance.",
       },
       {
         type: "multiple-choice",
-        question: "A store sign says: \"Em até 6x sem juros\". What does it offer?",
+        question: "A shop sign says: \"Em até 6x sem juros\". What does it offer?",
         options: ["Up to six interest-free installments.", "Six percent off.", "Six items for the price of five.", "Free delivery within six days."],
         correctIndex: 0,
         explanation: "\"6x\" is read \"seis vezes\": six payments. \"Sem juros\" is interest-free.",
@@ -435,8 +435,8 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "O chip: pré-pago ou pós-pago",
         body: [
-          "A SIM card is \"o chip\". At a phone store or a newsstand, ask \"eu queria comprar um chip\". You'll choose \"pré-pago\" (prepaid, you add credit when you want) or \"pós-pago\" (a monthly contract, \"o plano\"). Prepaid chips must be registered with a CPF; some stores can register a foreigner with a passport.",
-          "To add credit is \"fazer uma recarga\" (a recharge), at the store, the supermarket or in the app. Data comes in \"o plano de dados\" or \"os gigas\" (gigabytes). WhatsApp is usually free in the plan, which is why everyone uses it instead of calls.",
+          "A SIM card is \"o chip\". At a phone store or a newsstand, ask \"eu queria comprar um chip\". You'll choose \"pré-pago\" (prepaid, you add credit when you want) or \"pós-pago\" (a monthly contract, \"o plano\"). Prepaid chips must be registered with a CPF; some shops can register a foreigner with a passport.",
+          "To add credit is \"fazer uma recarga\" (a recharge), at the shop, the supermarket or in the app. Data comes in \"o plano de dados\" or \"os gigas\" (gigabytes). WhatsApp is usually free in the plan, which is why everyone uses it instead of calls.",
         ],
         examples: [
           { es: "Eu queria comprar um chip pré-pago.", en: "I'd like to buy a prepaid SIM card." },
@@ -530,7 +530,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Me passa o seu WhatsApp?",
-            tip: "Brazilians say \"WhatsApp\" as 'wats-É-pee', or just call it \"zap\".",
+            tip: "Brazilians say WhatsApp as uats-ÉP-i or zap.",
             explanation: "Asking for someone's WhatsApp is the normal way to ask for a number. In slang it's \"o zap\".",
           },
         ],
@@ -615,7 +615,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Qual é o seu número?",
-        explanation: "\"Número\" has an accent on the u and stress on the first syllable: 'NOO-me-roo'.",
+        explanation: "\"Número\" has an accent on the u: NÚ-me-ro.",
       },
       {
         type: "speak",
@@ -663,7 +663,7 @@ export const PT_A2_U20: Lesson[] = [
             question: "What does it mean?",
             options: ["The package is out for delivery.", "The package was delivered.", "The package was sent back.", "The package is at the post office."],
             correctIndex: 0,
-            explanation: "\"Saiu para entrega\" literally means left for delivery: it's on its way to you.",
+            explanation: "\"Saiu para entrega\" is literally 'left for delivery': it's on its way to you.",
           },
         ],
       },
@@ -704,7 +704,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Pedindo comida: rua, número, complemento",
         body: [
-          "Delivery apps and online stores ask for an address in parts: \"a rua\" (the street, or \"a avenida\"), \"o número\", \"o complemento\" (the apartment details: \"apartamento 302, bloco B\"), \"o bairro\" (the neighborhood), \"o CEP\" and often \"o ponto de referência\" (a landmark: \"perto da padaria\").",
+          "Delivery apps and online shops ask for an address in parts: \"a rua\" (the street, or \"a avenida\"), \"o número\", \"o complemento\" (the apartment details: \"apartamento 302, bloco B\"), \"o bairro\" (the neighborhood), \"o CEP\" and often \"o ponto de referência\" (a landmark: \"perto da padaria\").",
           "In Brazil the street name comes before the number: \"Rua das Flores, 120\". Say it aloud the same way: \"eu moro na Rua das Flores, número cento e vinte, apartamento trezentos e dois\".",
         ],
         examples: [
@@ -725,7 +725,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Eu moro na Rua das Flores, número cento e vinte.",
-            tip: "\"Cento e vinte\": 'SẼ-too ee VĨ-chee'.",
+            tip: "Cento e vinte: SEN-tu i VIN-tchi.",
             explanation: "The street comes first, then \"número\" and the number.",
           },
         ],
@@ -810,7 +810,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Qual é o CEP?",
-        explanation: "\"CEP\" (the postal code) is said as one word: 'SÉ-pee'.",
+        explanation: "\"CEP\" is said as one word: \"cépi\".",
       },
       {
         type: "speak",
@@ -927,7 +927,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Qual é a placa do carro?",
-            tip: "\"Placa\": say the pl together, 'PLA-ka', with no extra vowel.",
+            tip: "Placa: the pl is said together, PLA-ka, with no extra vowel.",
             explanation: "\"A placa\" is the license plate: always check it before getting in.",
           },
         ],
@@ -1019,7 +1019,7 @@ export const PT_A2_U20: Lesson[] = [
         type: "speak",
         text: "Vou pedir um carro pelo aplicativo.",
         prompt: "Say it in Portuguese: I'm going to order a car through the app.",
-        explanation: "\"Pelo\" is por + o: \"pelo aplicativo\" = through the app. \"Pedir um carro\" is to order a ride.",
+        explanation: "\"Pelo\" is por + o: through the app.",
       },
     ],
   },
@@ -1099,7 +1099,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Nossa, ficou ótimo em você!",
-            tip: "\"Nossa\" is the everyday wow: 'NÓ-sa'.",
+            tip: "Nossa is the everyday wow: NÓ-ssa.",
             explanation: "\"Ficou ótimo em você\" is the classic compliment in a fitting room.",
           },
         ],
@@ -1108,7 +1108,7 @@ export const PT_A2_U20: Lesson[] = [
         heading: "Quero trocar: a nota fiscal",
         body: [
           "To exchange something, go back with \"a nota fiscal\" (the receipt) and say \"eu queria trocar essa camisa\" or \"eu gostaria de trocar por um tamanho maior\". \"Trocar por\" is exchange for, the same \"por\" of exchange you met with por and para.",
-          "Ask about \"o prazo para troca\" (the exchange period) before you buy: \"qual é o prazo para troca?\". Many stores give thirty days, but they're not obliged to for things bought in person, so it's worth asking. For a gift, ask for \"uma etiqueta de troca\".",
+          "Ask about \"o prazo para troca\" (the exchange period) before you buy: \"qual é o prazo para troca?\". Many shops give thirty days, but they're not obliged to for things bought in person, so it's worth asking. For a gift, ask for \"uma etiqueta de troca\".",
         ],
         examples: [
           { es: "Eu queria trocar essa camisa.", en: "I'd like to exchange this shirt." },
@@ -1188,7 +1188,7 @@ export const PT_A2_U20: Lesson[] = [
         prompt: "Put the words in order to say: Do you have a bigger size?",
         words: ["Tem", "um", "número", "maior?"],
         translation: "Do you have a bigger size? (shoes)",
-        explanation: "\"Maior\" is the comparative of \"grande\" (never \"mais grande\"). Shoes take \"número\", clothes take \"tamanho\".",
+        explanation: "\"Maior\" is the comparative of \"grande\".",
       },
       {
         type: "multiple-choice",
@@ -1223,7 +1223,7 @@ export const PT_A2_U20: Lesson[] = [
         type: "speak",
         text: "Eu queria trocar por um tamanho maior.",
         prompt: "Say it in Portuguese: I'd like to exchange it for a bigger size.",
-        explanation: "\"Trocar por\": por marks what you get in exchange, \"trocar por um tamanho maior\".",
+        explanation: "\"Trocar por\": por for exchange.",
       },
     ],
   },
@@ -1335,7 +1335,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Eu queria marcar uma consulta com o dentista.",
-            tip: "\"Dentista\": the t before i sounds like ch, 'dẽ-CHEES-ta'.",
+            tip: "Dentista: the t before i sounds like ch, den-TCHIS-ta.",
             explanation: "\"Uma consulta\" for a doctor or dentist; \"um horário\" for a hairdresser.",
           },
         ],
@@ -1375,7 +1375,7 @@ export const PT_A2_U20: Lesson[] = [
         source: "There isn't any time free on Monday.",
         answer: "Não tem nenhum horário na segunda.",
         altAnswers: ["Não tem nenhum horário na segunda-feira.", "Na segunda não tem nenhum horário.", "Não tem horário na segunda.", "Na segunda-feira não tem nenhum horário."],
-        explanation: "Portuguese keeps both negatives: \"não tem nenhum horário\". \"Tem nenhum\" without \"não\" is wrong.",
+        explanation: "Double negation: \"não tem nenhum\".",
       },
       {
         type: "translate",
@@ -1426,7 +1426,7 @@ export const PT_A2_U20: Lesson[] = [
         type: "speak",
         text: "Eu preciso desmarcar o meu horário de amanhã.",
         prompt: "Say it in Portuguese: I need to cancel my appointment tomorrow.",
-        explanation: "\"Desmarcar\" is the opposite of \"marcar\": cancel a booked appointment (\"horário\").",
+        explanation: "\"Desmarcar\" is the opposite of \"marcar\".",
       },
     ],
   },
@@ -1540,8 +1540,8 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "O senhor poderia mandar alguém hoje?",
-            tip: "\"Alguém\" ends in a nasal ei, 'aw-GẼY', and the l sounds like w.",
-            explanation: "\"Poderia\" + infinitive makes a polite request; \"o senhor\" keeps it respectful.",
+            tip: "Alguém ends in a nasal ei, au-GEIN, and the l sounds like u.",
+            explanation: "\"Poderia\" + infinitive: a polite request.",
           },
         ],
       },
@@ -1631,7 +1631,7 @@ export const PT_A2_U20: Lesson[] = [
         type: "speak",
         text: "A máquina de lavar parou de funcionar ontem à noite.",
         prompt: "Say it in Portuguese: The washing machine stopped working last night.",
-        explanation: "\"Parar de\" + infinitive = stop doing; \"parou de funcionar\" is a one-time event, so perfeito.",
+        explanation: "\"Parar de\" + infinitive in the perfeito.",
       },
     ],
   },
@@ -1679,7 +1679,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Roubaram meu celular: the impersonal they",
         body: [
-          "When you don't know or don't care who did something, Brazilian Portuguese uses the eles form with no subject: \"roubaram meu celular\" (someone stole my phone; literally, they stole), \"me ligaram do banco\" (the bank called me), \"abriram a minha bolsa\". English would use someone or a passive; Portuguese just drops the subject.",
+          "When you don't know or don't care who did something, Brazilian Portuguese uses the eles form with no subject: \"roubaram meu celular\" (someone stole my phone, literally 'they stole'), \"me ligaram do banco\" (the bank called me), \"abriram a minha bolsa\". English would use someone or a passive; Portuguese just drops the subject.",
           "Don't say \"*eu fui roubado meu celular\": English-style passives don't take an object. For a mugging, the fixed chunk is \"fui assaltado\" / \"fui assaltada\" (I was mugged). Without force, it's \"furtaram\" in official language, but people say \"roubaram\" for both.",
         ],
         examples: [
@@ -1742,8 +1742,8 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Eu preciso fazer um BO.",
-            tip: "\"BO\" is said 'bê-Ó'.",
-            explanation: "\"Fazer um BO\" (boletim de ocorrência) is to file a police report.",
+            tip: "BO is said bê-ó.",
+            explanation: "\"Fazer um BO\" is to file a police report.",
           },
         ],
       },
@@ -1765,7 +1765,7 @@ export const PT_A2_U20: Lesson[] = [
         source: "Someone stole my bag on the beach.",
         answer: "Roubaram a minha bolsa na praia.",
         altAnswers: ["Roubaram minha bolsa na praia.", "Alguém roubou a minha bolsa na praia.", "Alguém roubou minha bolsa na praia.", "Roubaram a minha mochila na praia."],
-        explanation: "Impersonal \"roubaram\" means someone stole; \"alguém roubou\" is also fine.",
+        explanation: "Impersonal \"roubaram\": no subject needed.",
       },
       {
         type: "fill-blank",
@@ -1950,12 +1950,12 @@ export const PT_A2_U20: Lesson[] = [
             source: "Thank you very much for your help. (a man speaking)",
             answer: "Muito obrigado pela ajuda.",
             altAnswers: ["Obrigado pela ajuda.", "Muito obrigado pela sua ajuda.", "Muito obrigado pela ajuda da senhora."],
-            explanation: "\"Obrigado por\" + \"a ajuda\" contracts to \"pela ajuda\"; a man says \"obrigado\".",
+            explanation: "\"Obrigado por\" + a = \"pela ajuda\".",
           },
           {
             type: "speak",
             text: "Tenho, sim. É vinte e um, nove, oito.",
-            tip: "Brazilians answer yes by repeating the verb: \"tenho, sim\" 'TẼ-nyoo SĨ'.",
+            tip: "Brazilians answer yes by repeating the verb: tenho, sim.",
             explanation: "Echoing the verb (\"tenho\") is the natural yes in Portuguese.",
           },
         ],
@@ -1969,7 +1969,7 @@ export const PT_A2_U20: Lesson[] = [
         source: "What happened? (to an older man)",
         answer: "O que aconteceu?",
         altAnswers: ["O que aconteceu com o senhor?", "O que foi que aconteceu?"],
-        explanation: "\"O que aconteceu?\" uses the perfeito: one event that already happened.",
+        explanation: "\"Aconteceu\" is the perfeito of acontecer.",
       },
       {
         type: "translate",
@@ -2035,12 +2035,12 @@ export const PT_A2_U20: Lesson[] = [
         source: "Let's do the police report.",
         answer: "Vamos fazer o BO.",
         altAnswers: ["Vamos fazer o boletim de ocorrência.", "Vamos fazer um BO."],
-        explanation: "\"Vamos\" + infinitive means let's: \"vamos fazer o BO\".",
+        explanation: "\"Vamos\" + infinitive for let's.",
       },
       {
         type: "dictation",
         audio: "O senhor tem o número do celular?",
-        explanation: "\"Do celular\" is de + o: the number of the cell phone.",
+        explanation: "\"Do celular\": de + o.",
       },
       {
         type: "speak",
@@ -2063,7 +2063,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "*Eu fui roubado meu celular",
         body: [
-          "English says I had my phone stolen; learners translate it as \"*eu fui roubado meu celular\". Portuguese uses the impersonal they instead: \"roubaram meu celular\". Keep \"fui assaltado\" for being mugged, with no object after it.",
+          "English says 'I had my phone stolen'; learners translate it as \"*eu fui roubado meu celular\". Portuguese uses the impersonal they instead: \"roubaram meu celular\". Keep \"fui assaltado\" for being mugged, with no object after it.",
           "\"*Eu gostaria trocar\" is missing its preposition: \"gostar de\" keeps the \"de\" in every form, so \"eu gostaria de trocar\". \"Eu queria trocar\" needs nothing.",
         ],
         examples: [
@@ -2112,7 +2112,7 @@ export const PT_A2_U20: Lesson[] = [
             source: "Does this bus go along the beach?",
             answer: "Esse ônibus passa pela praia?",
             altAnswers: ["Este ônibus passa pela praia?", "Esse ônibus passa na praia?"],
-            explanation: "\"Por a\" never stands; it always contracts to \"pela\": \"passa pela praia\".",
+            explanation: "\"Por\" + \"a\" becomes \"pela\".",
           },
           {
             type: "multiple-choice",
@@ -2148,7 +2148,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "O chuveiro não esquenta desde ontem.",
-            tip: "\"Esquenta\": the en is nasal, 'ees-KẼ-ta'.",
+            tip: "Esquenta: the en is nasal, es-KEN-ta.",
             explanation: "\"Não esquenta\" + \"desde\" with the present, where English says hasn't since.",
           },
         ],
@@ -2171,7 +2171,7 @@ export const PT_A2_U20: Lesson[] = [
         source: "I'd like to book an appointment.",
         answer: "Eu gostaria de marcar um horário.",
         altAnswers: ["Gostaria de marcar um horário.", "Eu queria marcar um horário.", "Queria marcar um horário."],
-        explanation: "\"Gostaria\" needs \"de\" before the infinitive: \"gostaria de marcar\".",
+        explanation: "\"Gostaria de\" + infinitive.",
       },
       {
         type: "translate",
@@ -2188,7 +2188,7 @@ export const PT_A2_U20: Lesson[] = [
         en: "We went [through the] Avenida Brasil.",
         sentence: "A gente passou ___ Avenida Brasil.",
         answer: "pela",
-        explanation: "\"Por\" + \"a\" always contracts to \"pela\": \"passou pela Avenida Brasil\".",
+        explanation: "\"Por\" + \"a\" always becomes \"pela\".",
       },
       {
         type: "translate",
@@ -2206,7 +2206,7 @@ export const PT_A2_U20: Lesson[] = [
         source: "I forgot the bank password.",
         answer: "Esqueci a senha do banco.",
         altAnswers: ["Eu esqueci a senha do banco.", "Me esqueci da senha do banco.", "Eu me esqueci da senha do banco."],
-        explanation: "Portuguese says \"a senha\" for password; the English word isn't used in speech.",
+        explanation: "A password is \"a senha\".",
       },
       {
         type: "word-order",
@@ -2220,7 +2220,7 @@ export const PT_A2_U20: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["A conta, por favor.", "O conto, por favor.", "A conto, por favor.", "O conta, por favor."],
         correctIndex: 0,
-        explanation: "The check is \"a conta\", feminine; \"o conto\" is a short story.",
+        explanation: "The check is \"a conta\", feminine.",
       },
       {
         type: "listen-choose",
@@ -2242,13 +2242,13 @@ export const PT_A2_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Eu gostaria de trocar essa camisa.",
-        explanation: "\"Gostaria de\" + infinitive: \"gostaria de trocar\" = I'd like to exchange.",
+        explanation: "\"Gostaria de\" + infinitive.",
       },
       {
         type: "speak",
         text: "Roubaram meu celular na praia.",
         prompt: "Say it in Portuguese: Someone stole my phone at the beach.",
-        explanation: "Impersonal \"roubaram\": someone stole, with no subject.",
+        explanation: "Impersonal \"roubaram\".",
       },
     ],
   },
@@ -2299,7 +2299,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Tarde: a troca e o cabeleireiro",
         body: [
-          "After lunch, you take the shirt you bought last week back to the store: it was too tight. Say what happened in the perfeito and what you want: \"comprei essa camisa semana passada, mas ficou apertada. Eu queria trocar por um tamanho maior\". Keep \"a nota fiscal\" ready.",
+          "After lunch, you take the shirt you bought last week back to the shop: it was too tight. Say what happened in the perfeito and what you want: \"comprei essa camisa semana passada, mas ficou apertada. Eu queria trocar por um tamanho maior\". Keep \"a nota fiscal\" ready.",
           "Then message the hairdresser to book: \"Oi, Camila! Tem algum horário na terça à tarde?\". She replies \"terça não tem nenhum, só quarta às quatro\", and you confirm: \"pode ser, obrigado!\".",
         ],
         examples: [
@@ -2354,7 +2354,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "O senhor poderia mandar alguém amanhã?",
-            tip: "\"Amanhã\": the final ã is nasal, 'a-ma-NYÃ'.",
+            tip: "Amanhã: the final ã is nasal, a-ma-NHÃ.",
             explanation: "\"Poderia\" + infinitive for a polite request.",
           },
         ],
@@ -2455,7 +2455,7 @@ export const PT_A2_U20: Lesson[] = [
     level: "PT-A2",
     number: 13,
     title: "Spiral Review: Getting Things Done",
-    summary: "Cumulative practice of documents, money, transport, stores, appointments and problems with the A2 tenses, polite requests, ficar and indefinites.",
+    summary: "Cumulative practice of documents, money, transport, shops, appointments and problems with the A2 tenses, polite requests, ficar and indefinites.",
     duration: "14 min",
     kind: "review",
     format: "Spiral review",
@@ -2488,7 +2488,7 @@ export const PT_A2_U20: Lesson[] = [
             source: "Isn't there any ATM near here?",
             answer: "Não tem nenhum caixa eletrônico aqui perto?",
             altAnswers: ["Não tem nenhum caixa eletrônico por aqui?", "Não há nenhum caixa eletrônico aqui perto?"],
-            explanation: "Both negatives stay: \"não tem nenhum caixa eletrônico\".",
+            explanation: "Double negation: \"não tem nenhum\".",
           },
         ],
       },
@@ -2517,7 +2517,7 @@ export const PT_A2_U20: Lesson[] = [
             type: "listen-choose",
             audio: "A encomenda chegou, mas a caixa estava aberta.",
             question: "What does it mean?",
-            options: ["The package arrived, but the box was open.", "The package didn't arrive, and the box was open.", "The package arrived, but the store was closed.", "The package will arrive, but the box is open."],
+            options: ["The package arrived, but the box was open.", "The package didn't arrive, and the box was open.", "The package arrived, but the shop was closed.", "The package will arrive, but the box is open."],
             correctIndex: 0,
             explanation: "\"Chegou\" for the event, \"estava aberta\" for the state it was in.",
           },
@@ -2550,7 +2550,7 @@ export const PT_A2_U20: Lesson[] = [
         sentence: "A jaqueta ___, então eu troquei.",
         answer: "ficou grande",
         altAnswers: ["ficou larga"],
-        explanation: "\"Ficar\" describes fit: \"ficou grande\" = it was too big on me.",
+        explanation: "\"Ficar\" for fit: \"ficou grande\".",
       },
       {
         type: "translate",
@@ -2559,7 +2559,7 @@ export const PT_A2_U20: Lesson[] = [
         source: "Does this bus go through downtown?",
         answer: "Esse ônibus passa pelo centro?",
         altAnswers: ["Este ônibus passa pelo centro?", "Esse ônibus passa no centro?"],
-        explanation: "\"Passar por\" + \"o centro\" contracts to \"pelo centro\".",
+        explanation: "\"Passar por\" + o = \"pelo centro\".",
       },
       {
         type: "translate",
@@ -2568,7 +2568,7 @@ export const PT_A2_U20: Lesson[] = [
         source: "There's nobody at the front desk.",
         answer: "Não tem ninguém na portaria.",
         altAnswers: ["Não há ninguém na portaria.", "Ninguém está na portaria."],
-        explanation: "Both negatives stay: \"não tem ninguém\" = there's nobody.",
+        explanation: "Double negation: \"não tem ninguém\".",
       },
       {
         type: "word-order",
@@ -2576,7 +2576,7 @@ export const PT_A2_U20: Lesson[] = [
         words: ["A", "internet", "caiu", "há", "dois", "dias."],
         translation: "The internet went down two days ago.",
         altOrders: [["Há", "dois", "dias", "a", "internet", "caiu."]],
-        explanation: "\"Há\" + time means ago, with the perfeito: \"caiu há dois dias\".",
+        explanation: "\"Há\" + time for ago, with the perfeito.",
       },
       {
         type: "multiple-choice",

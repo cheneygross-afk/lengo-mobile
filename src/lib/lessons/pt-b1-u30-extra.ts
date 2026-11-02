@@ -175,7 +175,7 @@ export const PT_B1_U30_EXTRA: Lesson[] = [
         type: "speak",
         text: "Moço, esse ônibus passa no centro?",
         prompt: "Say it in Portuguese to a young man at the bus stop: Excuse me, does this bus go through downtown?",
-        tip: "\"Moço\": closed ô, MÔ-soo.",
+        tip: "\"Moço\": closed ô, MÔ-ssu.",
         explanation: "\"Passar no centro\" is to go through downtown.",
       },
     ],

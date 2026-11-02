@@ -288,7 +288,7 @@ export const KO_B1_U01: Lesson[] = [
             source: "The weather forecast said it will rain tomorrow.",
             answer: "일기 예보에서 내일 비가 올 거라고 했어요.",
             altAnswers: ["일기 예보에서 내일 비가 온다고 했어요.", "날씨 예보에서 내일 비가 올 거라고 했어요."],
-            explanation: "올 거예요 becomes 올 거라고: 거 is a noun, so 라고. A source like the news or a forecast normally takes 에서 (where it was said), rather than 이 / 가.",
+            explanation: "올 거예요 becomes 올 거라고: 거 is a noun, so 라고. A source like the news takes 에서, not 이 / 가.",
           },
           {
             type: "multiple-choice",
@@ -669,7 +669,7 @@ export const KO_B1_U01: Lesson[] = [
             en: "The boss said, [\"Good work.\"]",
             sentence: "사장님이 ___ 하셨어요.",
             answer: "\"수고했어요\"라고",
-            explanation: "A direct quote keeps the exact words in quotation marks and takes 라고 after the closing mark, whatever sound the quote ends in: never 이라고 here.",
+            explanation: "A direct quote keeps the exact words in quotation marks and takes 라고 after them, even after a vowel or consonant that would otherwise need 이라고.",
           },
           {
             type: "multiple-choice",
@@ -2146,7 +2146,7 @@ export const KO_B1_U01: Lesson[] = [
             prompt: "Translate into Korean (polite, to your boss).",
             source: "Minsu said he'll give you the report this afternoon.",
             answer: "민수 씨가 보고서를 오후에 드린다고 했어요.",
-            altAnswers: ["민수 씨가 오후에 보고서를 드린다고 했어요.", "민수 씨가 보고서를 오후에 드릴 거라고 했어요.", "민수 씨가 오후에 보고서를 드릴 거라고 했어요.", "민수 씨가 보고서를 오늘 오후에 드린다고 했어요.", "민수 씨가 오늘 오후에 보고서를 드린다고 했어요."],
+            altAnswers: ["민수 씨가 오후에 보고서를 드린다고 했어요.", "민수 씨가 보고서를 오후에 드릴 거라고 했어요.", "민수 씨가 오후에 보고서를 드릴 거라고 했어요.", "민수 씨가 보고서를 오늘 오후에 드린다고 했어요.", "민수 씨가 오늘 오후에 보고서를 드린다고 했어요.", "민수 씨가 보고서를 오후에 드린다고 했습니다."],
             explanation: "Giving to the boss is humble 드리다: 드린다고. 민수 is your peer, so 했어요, not 하셨어요.",
           },
           {
@@ -2457,6 +2457,6 @@ export const KO_B1_U01_WRITING: WriteExercise = {
     "Includes a noun report with (이)라고 or 아니라고 (세 시라고, 회의가 아니라고) and a question with -냐고 or -(이)냐고 and 물어봤어요 / 물어보셨어요",
     "Uses -시- on the reporting verb for senior callers (하셨어요, 물어보셨어요) and none for peers or for the writer, and 자기가 rather than 제가 where a caller meant themselves",
   ],
-  modelAnswer: "부장님, 부장님이 안 계실 때 전화가 세 통 왔어요. 먼저 박 사장님이 전화하셨어요. 계약서를 어제 보냈다고 하셨어요. 그리고 다음 주 회의가 화요일 세 시라고 하셨어요. 다음으로 인사팀 서연 씨가 전화했어요. 부장님이 내일 오전에 시간이 있으시냐고 물어봤어요. 자기가 서류를 직접 가져올 거라고 했어요. 마지막으로 택배 회사에서 전화가 왔어요. 택배가 오늘 오후에 온다고 했어요. 제가 모두에게 부장님이 오후 네 시쯤 돌아오신다고 말했어요. 확인하시면 연락 주세요.",
-  explanation: "보냈다고 is a past report and 가져올 거라고 a future one; 세 시라고 quotes a noun; 시간이 있으시냐고 물어봤어요 reports a question (with -시- inside the quote for the manager herself); 온다고 is an action verb in the present; 하셨어요 honours the client but not the peer 서연 씨, and 자기가 refers back to her.",
+  modelAnswer: "부장님, 부장님이 안 계실 때 전화가 세 통 왔어요. 먼저 박 사장님이 전화하셨어요. 계약서를 어제 보냈다고 하셨어요. 그리고 다음 주 회의가 화요일 세 시라고 하셨어요. 다음으로 인사팀 서연 씨가 전화했어요. 부장님이 내일 오전에 시간이 있냐고 물어봤어요. 자기가 서류를 직접 가져올 거라고 했어요. 마지막으로 택배 회사에서 전화가 왔어요. 택배가 오늘 오후에 온다고 했어요. 제가 모두에게 부장님이 오후 네 시쯤 돌아오신다고 말했어요. 확인하시면 연락 주세요.",
+  explanation: "보냈다고 is a past report and 가져올 거라고 a future one; 세 시라고 quotes a noun; 시간이 있냐고 물어봤어요 reports a question; 온다고 is an action verb in the present; 하셨어요 honours the client but not the peer 서연 씨, and 자기가 refers back to her.",
 };

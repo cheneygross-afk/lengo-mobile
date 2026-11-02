@@ -112,7 +112,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Meu marido é carioca e eu sou paulista.",
-            tip: "\"Carioca\" is stressed on the open ó, and the final a is soft: 'ka-ree-Ó-ka'.",
+            tip: "Carioca is stressed on the open Ó: ca-ri-Ó-ca, and the final a is soft.",
             explanation: "\"Carioca\" and \"paulista\" end in -a for men and women alike.",
           },
         ],
@@ -159,7 +159,7 @@ export const PT_A2_U19: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The North is the biggest region in Brazil.",
         answer: "O Norte é a maior região do Brasil.",
-        explanation: "The superlative \"a maior região\" + \"do Brasil\": after a superlative, English in becomes \"de\".",
+        explanation: "The superlative \"a maior região\" + \"do Brasil\": English 'in' becomes \"de\" after a superlative.",
       },
       {
         type: "word-order",
@@ -313,7 +313,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "À meia-noite a gente pulou sete ondas.",
-            tip: "\"Meia-noite\": the t before i sounds like ch: 'MAY-a NOY-chee'.",
+            tip: "Meia-noite: say MEI-a-NOI-tchi, with the t before i like ch.",
             explanation: "\"A gente\" takes the ele form: \"pulou\".",
           },
         ],
@@ -499,7 +499,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Feliz Natal e boas festas!",
-            tip: "\"Natal\" ends in a soft w sound in Brazil: 'na-TAW'.",
+            tip: "Natal ends in a soft w sound in Brazil: na-TAU.",
             explanation: "The final l in \"Natal\" sounds like a u in Brazilian Portuguese.",
           },
         ],
@@ -540,7 +540,7 @@ export const PT_A2_U19: Lesson[] = [
         source: "Who did you get in the Secret Santa?",
         answer: "Quem você tirou no amigo secreto?",
         altAnswers: ["Você tirou quem no amigo secreto?"],
-        explanation: "In Secret Santa you \"tirar\" (pick) a name. \"No amigo secreto\" is em + o.",
+        explanation: "In Secret Santa you \"tirar\" (draw) a name. \"No amigo secreto\" is em + o.",
       },
       {
         type: "word-order",
@@ -699,7 +699,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "O melhor pão de queijo é o de Minas.",
-            tip: "In \"pão\" the ão is nasal, 'PÃW'; \"queijo\" is 'KAY-zhoo'.",
+            tip: "In pão the ão is nasal; queijo is KAY-zhoo.",
             explanation: "\"O melhor\" + noun is the superlative; \"o de Minas\" means the one from Minas.",
           },
         ],
@@ -781,7 +781,7 @@ export const PT_A2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "O PF aqui custa vinte e cinco reais.",
-        explanation: "\"PF\" is said 'pê-É-fee'. \"Reais\" is the plural of \"real\".",
+        explanation: "\"PF\" is said pê-éfe. \"Reais\" is the plural of \"real\".",
       },
       {
         type: "speak",
@@ -867,7 +867,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Como vocês chamam isso aqui?",
-            tip: "\"Chamam\" ends in a nasal sound, like \"chamão\" said softly: 'SHA-mãw'.",
+            tip: "Chamam ends in a nasal sound, almost like chamão said softly.",
             explanation: "A friendly, useful question anywhere in Brazil.",
           },
         ],
@@ -1005,12 +1005,12 @@ export const PT_A2_U19: Lesson[] = [
         heading: "O clássico: Fla-Flu, Gre-Nal",
         body: [
           "A match between two big rivals from the same city or state is \"um clássico\". The most famous: \"o Fla-Flu\" (Flamengo against Fluminense, in Rio), Corinthians against Palmeiras in São Paulo, and \"o Gre-Nal\" (Grêmio against Internacional, in Porto Alegre). Written down, \"contra\" often becomes an x: \"Corinthians x Palmeiras\", read as \"Corinthians e Palmeiras\" or \"Corinthians contra Palmeiras\".",
-          "Talk about a game with the past tenses: \"o jogo foi ótimo\", \"o Flamengo ganhou de dois a um\", \"a gente perdeu\", \"empatou\" (it was a tie). Win against is \"ganhar de\".",
+          "Talk about a game with the past tenses: \"o jogo foi ótimo\", \"o Flamengo ganhou de dois a um\", \"a gente perdeu\", \"empatou\" (it was a draw). Win against is \"ganhar de\".",
         ],
         examples: [
-          { es: "Domingo tem clássico no Maracanã.", en: "There's a big rivalry game at the Maracanã on Sunday." },
+          { es: "Domingo tem clássico no Maracanã.", en: "There's a derby at the Maracanã on Sunday." },
           { es: "O Flamengo ganhou do Fluminense de dois a um.", en: "Flamengo beat Fluminense two to one." },
-          { es: "O Gre-Nal de ontem empatou.", en: "Yesterday's Gre-Nal was a tie." },
+          { es: "O Gre-Nal de ontem empatou.", en: "Yesterday's Gre-Nal was a draw." },
           { es: "A gente perdeu, mas o jogo foi lindo.", en: "We lost, but it was a beautiful game." },
           { es: "Eu assisti ao jogo num bar com os amigos.", en: "I watched the game in a bar with friends." },
         ],
@@ -1028,9 +1028,9 @@ export const PT_A2_U19: Lesson[] = [
             type: "listen-choose",
             audio: "O Gre-Nal de ontem empatou.",
             question: "What does it mean?",
-            options: ["Yesterday's Gre-Nal was a tie.", "Grêmio won yesterday's Gre-Nal.", "Yesterday's Gre-Nal was canceled.", "Tomorrow's Gre-Nal will be a tie."],
+            options: ["Yesterday's Gre-Nal was a draw.", "Grêmio won yesterday's Gre-Nal.", "Yesterday's Gre-Nal was canceled.", "Tomorrow's Gre-Nal will be a draw."],
             correctIndex: 0,
-            explanation: "\"Empatar\" means to tie, and \"empatou\" is the perfeito. \"Ganhou\" would mean one team won.",
+            explanation: "\"Empatar\" means to draw, and \"empatou\" is the perfeito.",
           },
         ],
       },
@@ -1060,7 +1060,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Para mim, a melhor cantora é a Elis Regina.",
-            tip: "In \"cantora\" the an is nasal and the r between vowels is a light tap: 'kã-TÔ-ra'.",
+            tip: "In cantora the an is nasal; keep the r between vowels a light tap.",
             explanation: "\"Para mim\" (in my opinion) + superlative \"a melhor\".",
           },
         ],
@@ -1104,9 +1104,9 @@ export const PT_A2_U19: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I watched the big rivalry game in a bar.",
+        prompt: "Put the words in order to say: I watched the derby in a bar.",
         words: ["Eu", "assisti", "ao", "clássico", "num", "bar."],
-        translation: "I watched the big rivalry game in a bar.",
+        translation: "I watched the derby in a bar.",
         explanation: "\"Assistir a\" (to watch): a + o = \"ao clássico\". \"Num\" is em + um.",
       },
       {
@@ -1253,7 +1253,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Leva cerveja e gelo.",
-            tip: "In \"gelo\" the g before e sounds like the s in pleasure: 'ZHÊ-loo'.",
+            tip: "In gelo the g before e sounds like the s in pleasure.",
             explanation: "\"Leva\" is the everyday command form, like \"fala\" and \"pega\".",
           },
         ],
@@ -1447,7 +1447,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Relaxa, a gente se diverte muito.",
-            tip: "\"Relaxa\": the r is a breathy h and the x sounds like sh: 'he-LA-sha'.",
+            tip: "Relaxa: the x sounds like sh, re-LA-sha.",
             explanation: "\"A gente se diverte\": \"a gente\" takes \"se\" and the ele form.",
           },
         ],
@@ -1547,7 +1547,7 @@ export const PT_A2_U19: Lesson[] = [
         heading: "Belém e o Ver-o-Peso",
         body: [
           "Read the first part of the guide sentence by sentence. Belém is the capital of Pará, in the North, near the mouth of the Amazon. Notice how the guide uses \"você\" and the present tense to speak directly to the visitor, and \"o maior\", \"o mais antigo\" to describe places.",
-          "\"Ver-o-Peso\" literally means see the weight: in colonial times goods were weighed and taxed there. Today it's a huge open-air market by the river with fish, fruit, herbs and food stalls.",
+          "\"Ver-o-Peso\" literally means 'see the weight': in colonial times goods were weighed and taxed there. Today it's a huge open-air market by the river with fish, fruit, herbs and food stalls.",
         ],
         examples: [
           { es: "Belém é a capital do Pará, no Norte do Brasil.", en: "Belém is the capital of Pará, in the north of Brazil." },
@@ -1637,8 +1637,8 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Em Belém chove quase toda tarde.",
-            tip: "In \"Belém\" the final em is nasal; don't close your lips for the m: 'be-LẼY'.",
-            explanation: "\"Chove\" (it rains) has no subject: Portuguese needs no word for English it.",
+            tip: "In Belém the final em is a nasal ei: say be-LEIN without closing your lips for the m.",
+            explanation: "\"Chove\" (it rains) has no subject, like English 'it'.",
           },
         ],
       },
@@ -1660,7 +1660,7 @@ export const PT_A2_U19: Lesson[] = [
         source: "Ver-o-Peso is one of the oldest markets in Brazil.",
         answer: "O Ver-o-Peso é um dos mercados mais antigos do Brasil.",
         altAnswers: ["Ver-o-Peso é um dos mercados mais antigos do Brasil."],
-        explanation: "\"Um dos... mais antigos do Brasil\": after a superlative, English in becomes \"de\".",
+        explanation: "\"Um dos... mais antigos do Brasil\": English 'in' after a superlative becomes \"de\".",
       },
       {
         type: "fill-blank",
@@ -1747,14 +1747,14 @@ export const PT_A2_U19: Lesson[] = [
       {
         heading: "*Em a Bahia, *em o Rio: contract the article",
         body: [
-          "\"Em\" and \"de\" must join the article: \"na Bahia\", never \"em a Bahia\"; \"no Rio\", never \"em o Rio\"; \"da Bahia\", \"do Rio\". Leaving them apart is a classic learner slip because English keeps in and the as two separate words.",
+          "\"Em\" and \"de\" must join the article: \"na Bahia\", never \"em a Bahia\"; \"no Rio\", never \"em o Rio\"; \"da Bahia\", \"do Rio\". Leaving them apart is a classic learner slip because English keeps 'in the' as two words.",
           "The opposite slip is adding an article where there isn't one: \"*no Pernambuco\", \"*na São Paulo\", \"*no Minas\". Learn \"em Pernambuco\", \"em São Paulo\", \"em Minas\" as fixed pairs.",
         ],
         examples: [
           { es: "Eu morei dois anos na Bahia.", en: "I lived in Bahia for two years." },
           { es: "Ela trabalha no Rio.", en: "She works in Rio." },
           { es: "Meu chefe é de Pernambuco.", en: "My boss is from Pernambuco." },
-          { es: "Nós passamos as férias em Minas.", en: "We spent our vacation in Minas." },
+          { es: "Nós passamos as férias em Minas.", en: "We spent the vacations in Minas." },
           { es: "O Lucas voltou do Ceará ontem.", en: "Lucas came back from Ceará yesterday." },
         ],
         checkpoint: [
@@ -1786,7 +1786,7 @@ export const PT_A2_U19: Lesson[] = [
           { es: "Os cariocas adoram praia.", en: "People from Rio love the beach." },
           { es: "A Festa Junina é em junho.", en: "The Festa Junina is in June." },
           { es: "Minha namorada é mineira.", en: "My girlfriend is from Minas." },
-          { es: "O Carnaval é em fevereiro ou em março.", en: "Carnival is in February or March." },
+          { es: "O Carnaval foi em fevereiro este ano.", en: "Carnival was in February this year." },
         ],
         checkpoint: [
           {
@@ -1833,7 +1833,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Eu adoro o futebol brasileiro.",
-            tip: "\"Futebol\" ends in a w sound, and te sounds like 'chee': 'foo-chee-BÓW'.",
+            tip: "Futebol ends in a w sound: fu-tchi-BOU.",
             explanation: "\"O futebol\" is masculine, so \"brasileiro\" is too.",
           },
         ],
@@ -1934,7 +1934,7 @@ export const PT_A2_U19: Lesson[] = [
         heading: "Todo ano → quando eu era criança",
         body: [
           "Start with a present habit: \"todo ano a gente vai ao bloco\". Move it into childhood and it stays a habit, so it takes the imperfeito: \"quando eu era criança, a gente ia ao bloco\". The time phrase changes, the verb changes, and nothing else does.",
-          "Watch the irregular imperfeitos \"ser\" → \"era\" and \"ter\" → \"tinha\", and the short \"ir\" → \"ia\". Reflexive pronouns stay before the verb: \"a gente se fantasia\" → \"a gente se fantasiava\".",
+          "Watch the irregular imperfeitos: \"ir\" → \"ia\", \"ser\" → \"era\", \"ter\" → \"tinha\". Reflexive pronouns stay before the verb: \"a gente se fantasia\" → \"a gente se fantasiava\".",
         ],
         examples: [
           { es: "Todo ano a gente vai ao bloco.", en: "Every year we go to the bloco." },
@@ -2020,7 +2020,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "No ano que vem nós vamos nos divertir ainda mais.",
-            tip: "\"Divertir\": di and ti sound like 'jee' and 'chee': 'jee-ver-CHEER'.",
+            tip: "Divertir: the t before i sounds like ch, dji-ver-TCHIR.",
             explanation: "\"Nós vamos nos divertir\": \"nos\" matches \"nós\".",
           },
         ],
@@ -2217,7 +2217,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Obrigada, Larissa, por tudo!",
-            tip: "A woman says \"obrigada\", 'o-bree-GA-da'; a man says \"obrigado\", 'o-bree-GA-doo'.",
+            tip: "A woman says obrigada; a man says obrigado.",
             explanation: "\"Obrigado/obrigada por\" + what you're thankful for.",
           },
         ],

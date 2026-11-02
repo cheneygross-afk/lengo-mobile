@@ -281,10 +281,10 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Most of all I like drinking tea.'?",
+        question: "Which sentence is correct?",
         options: ["Am liebsten trinke ich Tee.", "Am meisten gern trinke ich Tee.", "Am liebsten ich trinke Tee.", "Ich trinke mehr gern Tee."],
         correctIndex: 0,
-        explanation: "The top form of \"gern\" is \"am liebsten\", and the verb stays second: \"Am liebsten trinke ich\". \"*Am meisten gern*\" builds it like English; \"gern\" is irregular.",
+        explanation: "\"Am liebsten\" + verb second.",
       },
       {
         type: "multiple-choice",
@@ -615,10 +615,10 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'My father likes reading the paper.'?",
+        question: "Which sentence is correct?",
         options: ["Mein Vater liest gern Zeitung.", "Mein Vater lest gern Zeitung.", "Mein Vater liest gerner Zeitung.", "Mein Vater gern liest Zeitung."],
         correctIndex: 0,
-        explanation: "\"Lesen\" changes e → ie for er: \"er liest\", and \"gern\" goes after the verb. \"*Mein Vater lest*\" forgets the vowel change.",
+        explanation: "\"Lesen\": er liest; \"gern\" never changes.",
       },
       {
         type: "word-order",
@@ -1106,10 +1106,10 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'd like to go shopping today.'?",
+        question: "Which sentence is correct?",
         options: ["Ich möchte heute einkaufen.", "Ich möchte heute kaufen ein.", "Ich möchte heute ein kaufe.", "Ich einkaufen möchte heute."],
         correctIndex: 0,
-        explanation: "After a modal the whole infinitive goes to the end as one word: \"einkaufen\". \"*Ich möchte heute kaufen ein*\" splits it, but a separable verb only splits when it is the main conjugated verb.",
+        explanation: "After a modal: one word at the end, \"einkaufen\".",
       },
       {
         type: "multiple-choice",
@@ -1272,10 +1272,10 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We're visiting Grandad today.'?",
+        question: "Which sentence is correct?",
         options: ["Wir besuchen heute Opa.", "Wir suchen heute Opa be.", "Wir besuchen heute Opa be.", "Wir be suchen heute Opa."],
         correctIndex: 0,
-        explanation: "The prefix \"be-\" in \"besuchen\" never splits off: \"Wir besuchen heute Opa\". \"*Wir besuchen heute Opa be*\" treats it like a separable prefix such as \"ein-\".",
+        explanation: "The prefix \"be\" in \"besuchen\" never splits off.",
       },
       {
         type: "multiple-choice",

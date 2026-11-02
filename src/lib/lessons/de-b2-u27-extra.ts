@@ -279,10 +279,10 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm staying at home, especially as I've got a cold.'?",
+        question: "Which sentence is correct?",
         options: ["Ich bleibe zu Hause, zumal ich erkältet bin.", "Ich bleibe zu Hause, zumal bin ich erkältet.", "Ich bleibe zu Hause, zumal ich bin erkältet.", "Zumal ich bleibe zu Hause, ich bin erkältet."],
         correctIndex: 0,
-        explanation: "\"Zumal\" works like \"weil\" and sends the verb to the end: \"zumal ich erkältet bin\". \"*zumal ich bin erkältet*\" keeps main-clause order.",
+        explanation: "\"Zumal\" sends the verb to the end.",
       },
       {
         type: "translate",

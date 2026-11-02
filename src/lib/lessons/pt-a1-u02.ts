@@ -94,8 +94,8 @@ export const PT_A1_U02: Lesson[] = [
       {
         heading: "Soft endings: final -e and -o",
         body: [
-          "At the end of a word, an unstressed -o sounds like oo and an unstressed -e like ee. So \"nome\" sounds like 'NÔ-mee', \"obrigado\" like 'oh-bree-GAH-doo' and \"ele\" like 'AY-lee'. A full oh or eh at the end sounds careful and foreign.",
-          "Plurals work the same way: -os sounds like 'oos' and -es like 'ees'. The word \"e\" (and) is just an i sound, while \"é\" (is) is an open eh. Stressed vowels never reduce, so \"avô\" ends in a full ô because the stress falls on it.",
+          "At the end of a word, an unstressed -o sounds like u and an unstressed -e like i. So \"nome\" sounds like 'nomi', \"obrigado\" like 'obrigadu' and \"ele\" like 'eli'. A full oh or eh at the end sounds careful and foreign.",
+          "Plurals work the same way: -os sounds like us and -es like is. The word \"e\" (and) is just an i sound, while \"é\" (is) is an open eh. Stressed vowels never reduce, so \"avô\" ends in a full ô because the stress falls on it.",
         ],
         examples: [
           { es: "Meu nome é Mariana.", en: "My name is Mariana." },
@@ -111,12 +111,12 @@ export const PT_A1_U02: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Thank you very much! (said by a man)",
             answer: "Muito obrigado!",
-            explanation: "A man says \"obrigado\", and its final -o sounds like oo: 'oh-bree-GAH-doo'. The final o of \"muito\" softens the same way.",
+            explanation: "A man says \"obrigado\", and its final -o sounds like u: 'obrigadu'. The final o of \"muito\" softens the same way.",
           },
           {
             type: "dictation",
             audio: "Meu nome é Lucas.",
-            explanation: "\"Nome\" sounds like 'NÔ-mee', but you write it with -e. The \"é\" here is the open eh of is.",
+            explanation: "\"Nome\" sounds like 'nomi', but you write it with -e. The \"é\" here is the open eh of is.",
           },
           {
             type: "word-order",
@@ -180,7 +180,7 @@ export const PT_A1_U02: Lesson[] = [
         source: "My name is Beatriz.",
         answer: "Meu nome é Beatriz.",
         altAnswers: ["Eu me chamo Beatriz."],
-        explanation: "\"Nome\" is said 'NÔ-mee': the final unstressed -e sounds like ee.",
+        explanation: "\"Nome\" is said 'nomi': the final unstressed -e sounds like i.",
       },
       {
         type: "word-order",
@@ -316,7 +316,7 @@ export const PT_A1_U02: Lesson[] = [
         heading: "-em, -im, -om, -um: the m you don't say",
         body: [
           "A final m isn't pronounced: your lips never close. It just tells you the vowel before it is nasal. \"Sim\" (yes) is a nasal ee, \"bom\" (good) a nasal o, \"um\" (one, a) a nasal oo.",
-          "Final \"-em\" is a nasal e with a light i at the end: \"bem\" sounds like 'bẽy', a bay said through the nose, never like the name Ben. \"Tem\" (has) and \"também\" (also) end the same way.",
+          "Final \"-em\" is a nasal e with a light i at the end: \"bem\" sounds like 'bay' through the nose, never like the name Ben. \"Tem\" (has) and \"também\" (also) end the same way.",
           "No nasal vowel ends in an n or m you can hear. Compare \"vim\" (I came) and \"vi\" (I saw): only the nose tells them apart.",
         ],
         examples: [
@@ -390,7 +390,7 @@ export const PT_A1_U02: Lesson[] = [
         source: "Fine, thanks. And you?",
         answer: "Bem, obrigado. E você?",
         altAnswers: ["Bem, obrigada. E você?", "Bem, obrigado. E o senhor?", "Bem, obrigada. E o senhor?", "Bem, obrigado. E a senhora?", "Bem, obrigada. E a senhora?", "Tudo bem, obrigado. E você?", "Tudo bem, obrigada. E você?"],
-        explanation: "\"Bem\" sounds like 'bẽy', a bay said through the nose, not like Ben. Thanks agree with the speaker: \"obrigado\" or \"obrigada\".",
+        explanation: "\"Bem\" sounds like 'bay' through the nose, not like Ben. Thanks agree with the speaker: \"obrigado\" or \"obrigada\".",
       },
       {
         type: "fill-blank",
@@ -454,7 +454,7 @@ export const PT_A1_U02: Lesson[] = [
         heading: "T before i: tia, leite, noite",
         body: [
           "In most of Brazil, \"t\" before an i sound becomes the ch of cheese. \"Tia\" (aunt) sounds like 'CHEE-ah' and \"Tiago\" like 'chee-AH-goo'. Reading it as the t of tea is the quickest way to sound foreign.",
-          "A final unstressed \"-e\" sounds like i (Lesson 1), so a final \"-te\" turns into 'chee' as well. That's why \"leite\" (milk) sounds like 'LAY-chee', \"noite\" (night) like 'NOY-chee' and \"estudante\" like 'es-too-DÃ-chee'. The spelling never changes; only the sound does.",
+          "A final unstressed \"-e\" sounds like i (Lesson 1), so a final \"-te\" turns into 'chee' as well. That's why \"leite\" (milk) sounds like 'LAY-chee', \"noite\" (night) like 'NOY-chee' and \"estudante\" like 'es-too-DAHN-chee'. The spelling never changes; only the sound does.",
         ],
         examples: [
           { es: "Boa noite, tia!", en: "Good evening, auntie!" },
@@ -478,7 +478,7 @@ export const PT_A1_U02: Lesson[] = [
             question: "What does it mean?",
             options: ["Tiago is a student.", "Tiago is a teacher.", "Tatiana is a student.", "Tiago is a dentist."],
             correctIndex: 0,
-            explanation: "You hear ch twice: 'chee-AH-goo' for \"Tiago\" and 'es-too-DÃ-chee' for \"estudante\". Jobs take no article after \"é\".",
+            explanation: "You hear ch twice: 'chee-AH-goo' for \"Tiago\" and 'es-too-DAHN-chee' for \"estudante\". Jobs take no article after \"é\".",
           },
           {
             type: "fill-blank",
@@ -494,7 +494,7 @@ export const PT_A1_U02: Lesson[] = [
         heading: "D before i: dia, cidade, verdade",
         body: [
           "\"D\" does the same: before an i sound it becomes the j of jeans. \"Dia\" (day) sounds like 'JEE-ah', so \"bom dia\" is 'bom JEE-ah'.",
-          "Final \"-de\" follows: \"cidade\" (city) is 'see-DAH-jee', \"verdade\" (truth) 'ver-DAH-jee', \"tarde\" (afternoon) 'TAR-jee'. The little word \"de\" (from) is 'jee' too, so \"De onde você é?\" starts 'jee Õ-jee'.",
+          "Final \"-de\" follows: \"cidade\" (city) is 'see-DAH-jee', \"verdade\" (truth) 'ver-DAH-jee', \"tarde\" (afternoon) 'TAR-jee'. The little word \"de\" (from) is 'jee' too, so \"De onde você é?\" starts 'jee ON-jee'.",
         ],
         examples: [
           { es: "Bom dia!", en: "Good morning!" },
@@ -511,7 +511,7 @@ export const PT_A1_U02: Lesson[] = [
             source: "Where are you from?",
             answer: "De onde você é?",
             altAnswers: ["Você é de onde?", "De onde o senhor é?", "De onde a senhora é?", "O senhor é de onde?", "A senhora é de onde?"],
-            explanation: "\"De onde você é?\" Both \"de\" and the end of \"onde\" are said with j: 'jee Õ-jee'.",
+            explanation: "\"De onde você é?\" Both \"de\" and the end of \"onde\" are said with j: 'jee ON-jee'.",
           },
           {
             type: "speak",
@@ -550,7 +550,7 @@ export const PT_A1_U02: Lesson[] = [
             source: "All great, thanks.",
             answer: "Tudo ótimo, obrigado.",
             altAnswers: ["Tudo ótimo, obrigada.", "Ótimo, obrigado.", "Ótimo, obrigada."],
-            explanation: "The t in \"tudo\" is plain, but in \"ótimo\" the \"ti\" is 'chee': 'Ó-chee-moo', with the open ó of law. A woman says \"obrigada\".",
+            explanation: "The t in \"tudo\" is plain, but in \"ótimo\" the \"ti\" is 'chee': 'AW-chee-moo', with the open ó of law. A woman says \"obrigada\".",
           },
           {
             type: "multiple-choice",
@@ -587,7 +587,7 @@ export const PT_A1_U02: Lesson[] = [
         source: "Tatiana is a dentist.",
         answer: "A Tatiana é dentista.",
         altAnswers: ["Tatiana é dentista."],
-        explanation: "No article before the job after \"é\". Both words have \"ti\" said as 'chee': 'ta-chee-AH-nah', 'dẽ-CHEES-tah'.",
+        explanation: "No article before the job after \"é\". Both words have \"ti\" said as 'chee': 'ta-chee-AH-nah', 'den-CHEES-tah'.",
       },
       {
         type: "word-order",
@@ -749,7 +749,7 @@ export const PT_A1_U02: Lesson[] = [
       {
         heading: "R at the end of a syllable: porta, falar",
         body: [
-          "Before a consonant or at the end of a word, \"r\" depends on the region. In Rio, Salvador and Recife it's the soft h, so \"porta\" sounds like 'PÓH-tah' and \"tarde\" like 'TAH-jee'. Many people in São Paulo city tap it, and in the interior of São Paulo it's close to an American r.",
+          "Before a consonant or at the end of a word, \"r\" depends on the region. In Rio, Salvador and Recife it's the soft h, so \"porta\" sounds like 'PAWH-tah' and \"tarde\" like 'TAH-jee'. Many people in São Paulo city tap it, and in the interior of São Paulo it's close to an American r.",
           "At the very end of a word, especially in verbs like \"falar\", the r is often barely heard: 'fa-LAH'. Every version is correct Brazilian Portuguese. Choose one and stay consistent.",
         ],
         examples: [
@@ -843,7 +843,7 @@ export const PT_A1_U02: Lesson[] = [
         prompt: "Put the words in order to say: Rafael is a teacher.",
         words: ["O", "Rafael", "é", "professor."],
         translation: "Rafael is a teacher.",
-        explanation: "\"Rafael\" starts with the h-like r. The final r of \"professor\" is soft or barely heard: 'pro-feh-SÔH'.",
+        explanation: "\"Rafael\" starts with the h-like r. The final r of \"professor\" is soft or barely heard: 'pro-fe-SOH'.",
       },
       {
         type: "listen-choose",
@@ -878,7 +878,7 @@ export const PT_A1_U02: Lesson[] = [
       {
         heading: "S between vowels is z; ss and ç are s",
         body: [
-          "A single \"s\" between two vowels sounds like English z: \"casa\" (house) is 'KAH-zah', \"mesa\" (table) is 'MAY-zah'. You've already heard it in \"Brasil\", \"brasileira\" and \"francesa\". If you say an English s there, \"casa\" turns into \"caça\" (hunt).",
+          "A single \"s\" between two vowels sounds like English z: \"casa\" (house) is ca-za, \"mesa\" (table) is me-za. You've already heard it in \"Brasil\", \"brasileira\" and \"francesa\". If you say an English s there, \"casa\" turns into \"caça\" (hunt).",
           "To write a real s sound between vowels, Portuguese uses \"ss\" or \"ç\": \"passo\" (step), \"açúcar\" (sugar), \"licença\". The cedilla only goes before a, o and u. Before e and i a plain \"c\" already sounds like s, as in \"você\". And \"z\" is always a z: \"zero\", \"prazer\".",
         ],
         examples: [
@@ -895,7 +895,7 @@ export const PT_A1_U02: Lesson[] = [
             question: "What did you hear?",
             options: ["casa", "caça", "cara", "caso"],
             correctIndex: 0,
-            explanation: "\"Casa\" (house) has a z sound in the middle: 'KAH-zah'. \"Caça\" (hunt) has a ç, a real s sound.",
+            explanation: "\"Casa\" (house) has a z sound in the middle, ca-za. \"Caça\" (hunt) has a ç, a real s sound.",
           },
           {
             type: "translate",
@@ -903,7 +903,7 @@ export const PT_A1_U02: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "She's Japanese.",
             answer: "Ela é japonesa.",
-            explanation: "The feminine \"japonesa\" puts the s between two vowels, so it sounds like z: 'zhah-poh-NAY-zah'. Nationalities take no capital letter.",
+            explanation: "The feminine \"japonesa\" puts the s between two vowels, so it sounds like z: ja-po-ne-za. Nationalities take no capital letter.",
           },
           {
             type: "fill-blank",
@@ -912,7 +912,7 @@ export const PT_A1_U02: Lesson[] = [
             sentence: "___, você é brasileiro?",
             answer: "Com licença",
             altAnswers: ["Desculpa"],
-            explanation: "\"Com licença\" politely gets someone's attention. The ç keeps an s sound before a: 'lee-SẼ-sah'.",
+            explanation: "\"Com licença\" politely gets someone's attention. The ç keeps an s sound before a: li-cen-sa.",
           },
         ],
       },
@@ -974,7 +974,7 @@ export const PT_A1_U02: Lesson[] = [
             question: "What does it mean?",
             options: ["He's a taxi driver.", "He's a dentist.", "She's a taxi driver.", "He's a student."],
             correctIndex: 0,
-            explanation: "\"Taxista\" has the ks sound of \"táxi\": 'tak-SEES-tah'. \"Ele\" is he.",
+            explanation: "\"Taxista\" has the ks sound of \"táxi\": tak-sis-ta. \"Ele\" is he.",
           },
           {
             type: "translate",
@@ -982,7 +982,7 @@ export const PT_A1_U02: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "A cup of coffee, please.",
             answer: "Uma xícara de café, por favor.",
-            explanation: "\"Xícara\" starts with x, so it's sh: 'SHEE-kah-rah'. Brazilians say \"xícara\" for cup.",
+            explanation: "\"Xícara\" starts with x, so it's sh: shí-ca-ra. Brazilians say \"xícara\" for cup.",
           },
           {
             type: "fill-blank",
@@ -990,7 +990,7 @@ export const PT_A1_U02: Lesson[] = [
             en: "See you [next time]!",
             sentence: "Até a ___!",
             answer: "próxima",
-            explanation: "\"Próxima\" is one of the few words where x sounds like s: 'PRÓ-see-mah'.",
+            explanation: "\"Próxima\" is one of the few words where x sounds like s: pró-si-ma.",
           },
         ],
       },
@@ -1003,7 +1003,7 @@ export const PT_A1_U02: Lesson[] = [
         source: "I'm Brazilian.",
         answer: "Eu sou brasileiro.",
         altAnswers: ["Eu sou brasileira.", "Sou brasileiro.", "Sou brasileira."],
-        explanation: "\"Brasileiro\" has a single s between vowels, so it sounds like z: 'brah-zee-LAY-roo'. A woman says \"brasileira\".",
+        explanation: "\"Brasileiro\" has a single s between vowels, so it sounds like z: bra-zi-lei-ro. A woman says \"brasileira\".",
       },
       {
         type: "translate",
@@ -1053,7 +1053,7 @@ export const PT_A1_U02: Lesson[] = [
         source: "For example, I'm from Brasília.",
         answer: "Por exemplo, eu sou de Brasília.",
         altAnswers: ["Por exemplo, sou de Brasília."],
-        explanation: "\"Exemplo\" is ex + vowel, so the x is z: 'ee-ZẼ-ploo'. The s in \"Brasília\" sits between vowels, so it's z too.",
+        explanation: "\"Exemplo\" is ex + vowel, so the x is z: e-zem-plo. The s in \"Brasília\" sits between vowels, so it's z too.",
       },
       {
         type: "listen-choose",
@@ -1084,7 +1084,7 @@ export const PT_A1_U02: Lesson[] = [
         type: "speak",
         text: "Com licença, um café com açúcar, por favor.",
         prompt: "Say it in Portuguese: Excuse me, a coffee with sugar, please.",
-        tip: "Both ç sounds are a clean s: 'lee-SẼ-sah', 'ah-SOO-kar'.",
+        tip: "Both ç sounds are a clean s: li-cen-sa, a-sú-car.",
         explanation: "\"Com licença\" gets attention politely, and \"açúcar\" uses ç for its s sound.",
       },
     ],
@@ -1100,7 +1100,7 @@ export const PT_A1_U02: Lesson[] = [
       {
         heading: "LH: the lli in million",
         body: [
-          "The letters \"lh\" make one sound, not an l followed by an h. It's close to the lli in million. Press the middle of your tongue flat against the roof of your mouth and say l and y at the same moment. \"Filho\" (son) sounds like 'FEE-lyoo', never 'feel-HOH'.",
+          "The letters \"lh\" make one sound, not an l followed by an h. It's close to the lli in million. Press the middle of your tongue flat against the roof of your mouth and say l and y at the same moment. \"Filho\" (son) sounds like FEE-lyu, never fil-ho.",
           "The \"h\" here is never breathed out. Remember the reduced final vowel: \"trabalho\" (work) ends in a u sound. \"Mulher\" (woman) is stressed on the last syllable: 'moo-LYEHR'.",
         ],
         examples: [
@@ -1131,7 +1131,7 @@ export const PT_A1_U02: Lesson[] = [
       {
         heading: "NH: the ny in canyon",
         body: [
-          "\"Nh\" is the ny in canyon or onion. The middle of the tongue presses the roof of the mouth while air goes through the nose. \"Vinho\" (wine) is 'VEE-nyoo', and \"banheiro\" (bathroom) is 'bah-NYAY-roo'.",
+          "\"Nh\" is the ny in canyon or onion. The middle of the tongue presses the roof of the mouth while air goes through the nose. \"Vinho\" (wine) is VEE-nyu, and \"banheiro\" (bathroom) is ba-NYAY-ru.",
           "You already know this sound from \"senhor\" and \"senhora\". Like \"lh\", it's a single sound, so don't say an n and then an h. \"Amanhã\" (tomorrow) has nh in the middle and the nasal \"ã\" you've already met at the end. In relaxed speech many Brazilians soften nh to a nasal y. For now, aim for the full ny.",
         ],
         examples: [
@@ -1157,7 +1157,7 @@ export const PT_A1_U02: Lesson[] = [
             en: "Excuse me, where's [the bathroom]?",
             sentence: "Com licença, onde é ___?",
             answer: "o banheiro",
-            explanation: "\"Banheiro\" has nh in the middle ('bah-NYAY-roo') and a final o said like oo. \"Banheiro\" is a masculine word, so it takes \"o\".",
+            explanation: "\"Banheiro\" has nh in the middle (ba-NYAY-ru) and a final o said like u. \"Banheiro\" is a masculine word, so it takes \"o\".",
           },
           {
             type: "listen-choose",
@@ -1210,7 +1210,7 @@ export const PT_A1_U02: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The wine is Brazilian.",
         answer: "O vinho é brasileiro.",
-        explanation: "\"Vinho\" is 'VEE-nyoo'. The nationality is lowercase and masculine to match \"vinho\".",
+        explanation: "\"Vinho\" is VEE-nyu. The nationality is lowercase and masculine to match \"vinho\".",
       },
       {
         type: "translate",
@@ -1424,7 +1424,7 @@ export const PT_A1_U02: Lesson[] = [
             sentence: "Como se escreve ___?",
             answer: "seu nome",
             altAnswers: ["o seu nome"],
-            explanation: "\"Seu nome\" is your name when talking to \"você\". \"Nome\" ends in \"e\", so it's 'NÔ-mee', with the final e sounding like ee.",
+            explanation: "\"Seu nome\" is your name when talking to \"você\". \"Nome\" ends in \"e\", so it's NO-me, with the final e sounding like i.",
           },
         ],
       },
@@ -1481,7 +1481,7 @@ export const PT_A1_U02: Lesson[] = [
         source: "Everything's great.",
         answer: "Tudo ótimo.",
         altAnswers: ["Está tudo ótimo."],
-        explanation: "\"Ótimo\" is stressed on the first syllable, which the default rule wouldn't predict, so it carries an acute: 'Ó-chee-moo'.",
+        explanation: "\"Ótimo\" is stressed on the first syllable, which the default rule wouldn't predict, so it carries an acute: Ó-ti-mo.",
       },
       {
         type: "translate",

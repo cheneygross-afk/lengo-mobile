@@ -867,10 +867,10 @@ export const DE_A1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'My father is a cook.'?",
-            options: ["Mein Vater ist Koch.", "Meine Vater ist Koch.", "Mein Vater ist der Koch.", "Meiner Vater ist Koch."],
+            question: "Which sentence is correct?",
+            options: ["Mein Vater ist Koch.", "Meine Vater ist Koch.", "Mein Vater ist ein Koch.", "Meiner Vater ist Koch."],
             correctIndex: 0,
-            explanation: "Masculine \"mein\" has no ending, and jobs after \"sein\" normally take no article: \"ist Koch\". \"*Mein Vater ist der Koch*\" means he is 'the' cook (a particular one).",
+            explanation: "Masculine nominative: \"mein\" with no ending; no article before a job after sein.",
           },
         ],
       },
@@ -1706,10 +1706,10 @@ export const DE_A1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I can't visit you tomorrow.' (to a friend)",
+        question: "Which sentence is correct?",
         options: ["Ich kann dich morgen nicht besuchen.", "Ich kann nicht dich morgen besuchen.", "Ich kann dich morgen besuchen nicht.", "Ich nicht kann dich morgen besuchen."],
         correctIndex: 0,
-        explanation: "The pronoun \"dich\" comes early, and \"nicht\" goes right before the infinitive at the end: \"morgen nicht besuchen\". \"*Ich kann nicht dich morgen besuchen*\" puts \"nicht\" too early.",
+        explanation: "Pronoun early, \"nicht\" right before the infinitive at the end.",
       },
       {
         type: "listen-choose",

@@ -1954,7 +1954,7 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Talk About Yourself: Dein Arbeitsalltag in Stichpunkten",
-    summary: "Present your work or study routine in note form (\"Planung von Projekten\", \"Betreuung von Kunden\") and then explain it in full sentences, as in a \"Lebenslauf\" and an interview.",
+    summary: "Present your work or study routine in note form (\"Planung von Projekten\", \"Betreuung von Kunden\") and then explain it in full sentences, as in a Lebenslauf and an interview.",
     duration: "15 min",
     sections: [
       {

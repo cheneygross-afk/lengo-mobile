@@ -176,10 +176,10 @@ export const DE_C1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'In addition, we offer a collection service.'?",
+        question: "Which sentence has correct word order?",
         options: ["Darüber hinaus bieten wir einen Abholservice an.", "Darüber hinaus wir bieten einen Abholservice an.", "Darüber hinaus, wir bieten einen Abholservice an.", "Darüber hinaus einen Abholservice wir bieten an."],
         correctIndex: 0,
-        explanation: "The marker occupies the Vorfeld, so the finite verb \"bieten\" comes next. \"*Darüber hinaus wir bieten*\" (with or without a comma) is English order.",
+        explanation: "The marker occupies the Vorfeld: the finite verb \"bieten\" comes next.",
       },
       {
         type: "word-order",
@@ -752,10 +752,10 @@ export const DE_C1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'What is encouraging is that the mood has improved.'?",
+        question: "Which sentence is correct German?",
         options: ["Erfreulich ist, dass die Stimmung besser geworden ist.", "Erfreulich ist, dass die Stimmung ist besser geworden.", "Erfreulich, dass ist die Stimmung besser geworden.", "Es ist erfreulich die Stimmung, dass besser geworden ist."],
         correctIndex: 0,
-        explanation: "Frame + \"ist\" + dass-clause with the finite verb at the end (\"geworden ist\"). \"*dass die Stimmung ist besser geworden*\" leaves the verb in second position.",
+        explanation: "Frame + \"ist\" + dass-clause with the finite verb at the end.",
       },
       {
         type: "word-order",
@@ -862,10 +862,10 @@ export const DE_C1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you write 'The topic is thus closed.'?",
+            question: "Which sentence has correct word order?",
             options: ["Somit ist das Thema abgeschlossen.", "Somit das Thema ist abgeschlossen.", "Somit, das Thema ist abgeschlossen.", "Das Thema somit ist abgeschlossen."],
             correctIndex: 0,
-            explanation: "\"Somit\" is an adverb: in the Vorfeld it is followed directly by the finite verb. \"*Somit, das Thema ist*\" treats it like English thus with a comma.",
+            explanation: "\"Somit\" is an adverb: in the Vorfeld it is followed directly by the finite verb.",
           },
         ],
       },
@@ -951,10 +951,10 @@ export const DE_C1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'It snowed, so the schools stayed closed.'?",
+        question: "Which sentence is correct?",
         options: ["Es schneite, sodass die Schulen geschlossen blieben.", "Es schneite, sodass blieben die Schulen geschlossen.", "Es schneite, weshalb blieben die Schulen geschlossen.", "Es schneite, deshalb die Schulen geschlossen blieben."],
         correctIndex: 0,
-        explanation: "\"Sodass\" and \"weshalb\" send the verb to the end; \"deshalb\" needs inversion (\"deshalb blieben\"). \"*sodass blieben die Schulen*\" mixes the two.",
+        explanation: "\"Sodass\" and \"weshalb\" send the verb to the end; \"deshalb\" needs inversion (\"deshalb blieben\").",
       },
       {
         type: "word-order",
@@ -1808,10 +1808,10 @@ export const DE_C1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'He isn't ill, he's lazy.'?",
+            question: "Which sentence is correct?",
             options: ["Er ist nicht krank, sondern faul.", "Er ist nicht krank, aber faul.", "Er ist nicht krank, sondern ist er faul.", "Er ist nicht krank, denn faul."],
             correctIndex: 0,
-            explanation: "After a negative, but rather is \"sondern\", in position 0. \"*aber*\" adds something rather than correcting the negated part.",
+            explanation: "After a negative, but rather is \"sondern\", position 0.",
           },
         ],
       },
@@ -1930,10 +1930,10 @@ export const DE_C1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm tired; I slept badly, you see.'?",
+        question: "Which sentence is correct?",
         options: ["Ich bin müde, ich habe nämlich schlecht geschlafen.", "Ich bin müde, nämlich ich habe schlecht geschlafen.", "Ich bin müde, nämlich habe ich schlecht geschlafen.", "Nämlich habe ich schlecht geschlafen, ich bin müde."],
         correctIndex: 0,
-        explanation: "\"Nämlich\" stands in the Mittelfeld, after the verb, never at the start of the clause. \"*nämlich ich habe*\" treats it like \"denn\".",
+        explanation: "\"Nämlich\" must stand in the Mittelfeld, never at the start of the clause.",
       },
       {
         type: "word-order",
@@ -2277,10 +2277,10 @@ export const DE_C1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Admittedly the situation is serious, but there is hope.'?",
+        question: "Which sentence is correct?",
         options: ["Zwar ist die Lage ernst, doch es gibt Hoffnung.", "Zwar die Lage ist ernst, doch es gibt Hoffnung.", "Zwar ist die Lage ernst, doch gibt es Hoffnung nicht.", "Die Lage zwar ist ernst, doch es gibt Hoffnung."],
         correctIndex: 0,
-        explanation: "\"Zwar\" in the Vorfeld takes inversion (\"Zwar ist die Lage\"); \"doch\" is position 0 (or inverts: \"doch gibt es\"). \"*Zwar die Lage ist*\" keeps English order.",
+        explanation: "\"Zwar\" in the Vorfeld takes inversion; \"doch\" is position 0 (or inverts: \"doch gibt es\").",
       },
       {
         type: "word-order",

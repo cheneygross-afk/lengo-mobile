@@ -101,7 +101,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Resumptive pronouns and anacoluto",
         body: [
-          "Unit 12 showed topics with a resumptive pronoun: \"O João, ninguém aguenta ele.\" Speech also resumes long subjects: \"O cara que alugou o apartamento do lado, ele é músico.\" After a long detour, the pronoun reminds the listener where the sentence was going. Writing cuts it.",
+          "Unit 8 showed topics with a resumptive pronoun: \"O João, ninguém aguenta ele.\" Speech also resumes long subjects: \"O cara que alugou o apartamento do lado, ele é músico.\" After a long detour, the pronoun reminds the listener where the sentence was going. Writing cuts it.",
           "Relative clauses get the same treatment. The norm says \"o professor de quem eu gosto\" and \"a moça com quem eu saí\". Speech usually drops the preposition (\"o professor que eu gosto\") or, less often, leaves a pronoun at the end (\"a moça que eu saí com ela\"). The first is used by nearly everyone; the second sounds less educated. Understand both, say the first, write the norm.",
           "Anacoluto is a sentence that starts one way and finishes another: \"Eu, o que me irrita é a falta de educação.\" The opening \"eu\" never gets a verb, because the speaker restarted with a cleft. Nobody notices in conversation. In an essay it's a structural flaw, so rebuild it: \"O que me irrita é a falta de educação.\"",
         ],
@@ -328,7 +328,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Não sei não: the double negative",
         body: [
-          "Brazilian speech often closes a negative with a second \"não\": \"Não sei não\", \"Não vou não\". The second one doesn't cancel the first; it reinforces or softens, depending on tone. Said gently, \"Acho que não vai chover não\" is friendly reassurance. Said firmly, \"Não vou pagar isso não\" closes the matter. You met it in Unit 12 as emphasis.",
+          "Brazilian speech often closes a negative with a second \"não\": \"Não sei não\", \"Não vou não\". The second one doesn't cancel the first; it reinforces or softens, depending on tone. Said gently, \"Acho que não vai chover não\" is friendly reassurance. Said firmly, \"Não vou pagar isso não\" closes the matter. You met it in Unit 8 as emphasis.",
           "Some speakers, especially in the Northeast, keep only the final one: \"Sei não\", \"Quero não\". Recognize it, but \"não sei não\" is the safer choice in your own speech. None of these belong in writing, where one \"não\" does the job.",
           "That's the pattern of the whole lesson. These forms are not mistakes, and if you avoid all of them you'll sound like a textbook. The C1 skill is switching: the same person who says \"Tem que ver isso aí, não sei não\" writes \"É preciso analisar a questão com cautela\".",
         ],
@@ -421,8 +421,8 @@ export const PT_C1_U17: Lesson[] = [
       {
         type: "speak",
         text: "Tem muita gente aqui, vamos em outro lugar?",
-        prompt: "Say it in Portuguese, casually: There are tons of people here, should we go somewhere else?",
-        tip: "Run tem and muita together; muita sounds like MŨI-ta, with a nasal u.",
+        prompt: "Say it in Portuguese, casually: There are loads of people here, shall we go somewhere else?",
+        tip: "Run tem and muita together; muita sounds like 'mũita', with a nasal u.",
         explanation: "Spoken \"tem\" for there are, and spoken \"ir em\" for the destination.",
       },
       {
@@ -514,7 +514,7 @@ export const PT_C1_U17: Lesson[] = [
         ],
         examples: [
           { es: "Vou comprar pão e já volto.", en: "I'm going to buy bread, I'll be right back." },
-          { es: "Vamos comer alguma coisa?", en: "Should we get something to eat?" },
+          { es: "Vamos comer alguma coisa?", en: "Shall we get something to eat?" },
           { es: "Tenho que estudar hoje à noite.", en: "I have to study tonight." },
           { es: "Vamo embora, tá tarde.", en: "Let's go, it's late." },
           { es: "Ela vai trazer o bolo.", en: "She's going to bring the cake." },
@@ -541,7 +541,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Surprise and irony in the voice",
         body: [
-          "Intonation carries meaning the words don't. A real question rises at the end: \"Sério?\" Surprise rises higher, with a stretched stressed vowel: \"Mentira!\", \"Jura?\" A flat, low, slow \"Que ótimo\" means the opposite of its words: the irony you met in Unit 11.",
+          "Intonation carries meaning the words don't. A real question rises at the end: \"Sério?\" Surprise rises higher, with a stretched stressed vowel: \"Mentira!\", \"Jura?\" A flat, low, slow \"Que ótimo\" means the opposite of its words: the irony you met in Unit 7.",
           "\"Né\" (from não é) is Brazil's most frequent tag. Falling, it asks for agreement, like 'right?'; rising, it really asks. \"Tá\" alone works the same way: rising, it asks 'OK?'; falling, it agrees. \"Ah, tá\" with a long fall often means 'oh, sure', skeptically.",
         ],
         examples: [
@@ -571,7 +571,7 @@ export const PT_C1_U17: Lesson[] = [
           {
             type: "speak",
             text: "Mentira! Cê tá brincando!",
-            tip: "Jump high on the stressed syllable ti in mentira and stretch it: mẽn-CHEEE-ra.",
+            tip: "Jump high on the stressed syllable ti in mentira and stretch it: men-TIIra.",
             explanation: "\"Mentira!\" here means 'no way!', not 'that's a lie': the high pitch signals surprise.",
           },
         ],
@@ -781,7 +781,7 @@ export const PT_C1_U17: Lesson[] = [
             type: "speak",
             text: "E aí, o que você acha?",
             prompt: "Say it in Portuguese, handing the floor to a friend: So, what do you think?",
-            tip: "Link e and aí into one smooth ya-Í, rising slightly.",
+            tip: "Link e and aí into one smooth 'iaí', rising slightly.",
             explanation: "\"E aí\" opens the question and gives the other person the turn.",
           },
         ],
@@ -931,15 +931,15 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Sério? Jura? Mentira!: reacting",
         body: [
-          "For news, Brazilians react big. Surprise: \"Sério?\", \"Jura?\", \"Mentira!\", \"Não acredito!\", \"Nossa!\", \"Caramba!\". \"Mentira!\" is the trap: it means 'no way!', not 'that's a lie', and nobody takes offense. \"Jura?\" (you swear?) is lighter and very common among friends.",
-          "\"Nossa\" (from Nossa Senhora) covers surprise, admiration and dismay, depending on the tune: \"Nossa, que lindo!\", \"Nossa, que horror\". Sympathy uses \"Que pena\", \"Poxa\", \"Que chato\"; delight uses \"Que bom!\", \"Que legal!\", \"Que máximo!\". \"Imagina\" answers thanks or an apology (don't mention it, not at all); Unit 11 showed its ironic side.",
+          "For news, Brazilians react big. Surprise: \"Sério?\", \"Jura?\", \"Mentira!\", \"Não acredito!\", \"Nossa!\", \"Caramba!\". \"Mentira!\" is the trap: it means 'no way!', not 'that's a lie', and nobody takes offence. \"Jura?\" (you swear?) is lighter and very common among friends.",
+          "\"Nossa\" (from Nossa Senhora) covers surprise, admiration and dismay, depending on the tune: \"Nossa, que lindo!\", \"Nossa, que horror\". Sympathy uses \"Que pena\", \"Poxa\", \"Que chato\"; delight uses \"Que bom!\", \"Que legal!\", \"Que máximo!\". \"Imagina\" answers thanks or an apology (don't mention it, not at all); Unit 7 showed its ironic side.",
         ],
         examples: [
           { es: "— Passei no concurso! — Mentira! Parabéns!", en: "I passed the civil service exam! — No way! Congratulations!" },
           { es: "— Ela vai casar em dezembro. — Jura? Com quem?", en: "She's getting married in December. — Really? Who to?" },
           { es: "Nossa, que apartamento lindo!", en: "Wow, what a lovely apartment!" },
-          { es: "— Fui mandado embora. — Poxa, que chato. Sinto muito.", en: "I've been let go. — Oh no, that stinks. I'm sorry." },
-          { es: "— Desculpa o atraso. — Imagina, acabei de chegar.", en: "Sorry I'm late. — Don't worry, I just got here." },
+          { es: "— Fui mandado embora. — Poxa, que chato. Sinto muito.", en: "I've been let go. — Oh no, that's rotten. I'm sorry." },
+          { es: "— Desculpa o atraso. — Imagina, acabei de chegar.", en: "Sorry I'm late. — Don't worry, I've only just got here." },
           { es: "Não acredito! Cê ganhou mesmo?", en: "I don't believe it! You actually won?" },
         ],
         checkpoint: [
@@ -1183,7 +1183,7 @@ export const PT_C1_U17: Lesson[] = [
           {
             type: "multiple-choice",
             question: "In a story, your friend says \"Aí ele virou e falou: 'Tô fora.'\" What happened?",
-            options: ["He said 'I'm out'.", "He turned around and left.", "He turned into someone else.", "He fell over and spoke."],
+            options: ["He said 'I'm out'.", "He turned round and left.", "He turned into someone else.", "He fell over and spoke."],
             correctIndex: 0,
             explanation: "\"Virou e falou\" is a storytelling formula for 'said', and \"tô fora\" means count me out.",
           },
@@ -1293,12 +1293,12 @@ export const PT_C1_U17: Lesson[] = [
         source: "I was in line when, out of nowhere, my ex shows up. (historical present)",
         answer: "Eu tava na fila quando, do nada, aparece o meu ex.",
         altAnswers: ["Eu estava na fila quando, do nada, aparece o meu ex.", "Eu tava na fila quando, do nada, aparece meu ex.", "Eu estava na fila quando, do nada, aparece meu ex.", "Eu tava na fila quando, do nada, meu ex aparece.", "Eu estava na fila quando, do nada, o meu ex aparece.", "Eu tava na fila quando, do nada, aparece a minha ex.", "Eu tava na fila quando, do nada, aparece minha ex.", "Eu estava na fila quando, do nada, aparece a minha ex."],
-        explanation: "Background in the imperfeito (\"tava\"), the twist in the present (\"aparece\"), with the subject after the verb of appearance as in Unit 12.",
+        explanation: "Background in the imperfeito (\"tava\"), the twist in the present (\"aparece\"), with the subject after the verb of appearance as in Unit 8.",
       },
       {
         type: "speak",
         text: "Aí ele virou e falou: \"Tô fora!\"",
-        prompt: "Say it in Portuguese, telling a story: Then he turned around and said, 'I'm out!'",
+        prompt: "Say it in Portuguese, telling a story: Then he turned round and said, 'I'm out!'",
         tip: "Change your voice for the quote, as Brazilian storytellers do.",
         explanation: "\"Virou e falou\" sets up the quote, which is then acted out.",
       },
@@ -1332,7 +1332,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Meio que, tipo assim: softening",
         body: [
-          "Spoken Portuguese is full of words that take the edge off a statement. \"Meio que\" (sort of, kind of) goes before a verb or a noun phrase: \"Eu meio que desisti\", \"Foi meio que um mal-entendido\". Unit 11 showed \"meio\" as a downtoner before adjectives (\"meio cansado\"); \"meio que\" hedges a whole idea.",
+          "Spoken Portuguese is full of words that take the edge off a statement. \"Meio que\" (sort of, kind of) goes before a verb or a noun phrase: \"Eu meio que desisti\", \"Foi meio que um mal-entendido\". Unit 7 showed \"meio\" as a downtoner before adjectives (\"meio cansado\"); \"meio que\" hedges a whole idea.",
           "\"Tipo\" and \"tipo assim\" buy time and flag an approximation: \"Ele é tipo assim, muito tímido\", \"Custou tipo uns cem reais\". Used now and then, they sound relaxed; three in every sentence sound teenage. \"Sei lá\" (I dunno, who knows) hedges and shrugs at once: \"Sei lá, acho que ele ficou chateado.\"",
           "These are spoken only. In an email, \"meio que\" becomes \"de certa forma\" or \"em parte\", and \"sei lá\" disappears or turns into \"não está claro\".",
         ],
@@ -1414,8 +1414,8 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Uns, umas, e tal: approximation and vagueness",
         body: [
-          "\"Uns\" and \"umas\" before a number mean about: \"uns vinte minutos\", \"umas três horas\", \"uns cinquenta reais\". It's the most natural spoken approximation, more casual than \"cerca de\" or \"em torno de\" (Unit 8). For times of day, use \"lá pelas\": \"lá pelas oito\" (around eight).",
-          "Lists trail off with \"e tal\", \"e coisa e tal\" or \"essas coisas\": \"Levei roupa, protetor e tal.\" \"E tal\" means 'and so on, and all that'. These markers are friendly in conversation but sound evasive in an interview or a complaint, where, as Unit 9 showed, precise times and amounts matter.",
+          "\"Uns\" and \"umas\" before a number mean about: \"uns vinte minutos\", \"umas três horas\", \"uns cinquenta reais\". It's the most natural spoken approximation, more casual than \"cerca de\" or \"em torno de\" (Unit 15). For times of day, use \"lá pelas\": \"lá pelas oito\" (around eight).",
+          "Lists trail off with \"e tal\", \"e coisa e tal\" or \"essas coisas\": \"Levei roupa, protetor e tal.\" \"E tal\" means 'and so on, and all that'. These markers are friendly in conversation but sound evasive in an interview or a complaint, where, as Unit 16 showed, precise times and amounts matter.",
         ],
         examples: [
           { es: "Demorou uns vinte minutos pra chegar.", en: "It took about twenty minutes to get there." },
@@ -1516,7 +1516,7 @@ export const PT_C1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're describing a theft to the police, as in Unit 9. Which statement is appropriate?",
+        question: "You're describing a theft to the police, as in Unit 16. Which statement is appropriate?",
         options: ["O fato ocorreu por volta das 22h, na saída do metrô.", "Foi lá pelas dez e tal, sei lá.", "Foi tipo assim de noite, meio que perto do metrô.", "Aconteceu de repente lá pelas umas dez."],
         correctIndex: 0,
         explanation: "An official statement needs precision: \"por volta das 22h\" is a careful approximation. Spoken hedges sound evasive here.",
@@ -1530,7 +1530,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "speak",
         text: "De repente a gente pode ir amanhã, que tal?",
         prompt: "Say it in Portuguese, suggesting a plan: Maybe we could go tomorrow, how about it?",
-        tip: "De repente runs together: jee-he-PẼN-chee. The te sounds like chee.",
+        tip: "De repente runs together: 'djirrepẽntchi'. The te sounds like 'tchi'.",
         explanation: "In a suggestion, \"de repente\" means maybe.",
       },
     ],
@@ -1546,8 +1546,8 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Part 1: Three conversations at once",
         body: [
-          "It's Sunday in Belo Horizonte. You're a guest at Dona Cida's house with her grandson Pedro. Around the table are Tio Beto, the family storyteller, and Pedro's cousin Júlia. Everyone talks at once: the food, soccer, the neighbors. Don't wait for silence; follow the thread that matters to you.",
-          "Listen for the Minas Gerais flavor. \"Uai\" marks surprise or obviousness ('well!', 'of course!'), and \"trem\" means thing or stuff: \"esse trem tá uma delícia\". \"Cê tá servido?\" asks whether you've got enough food. Echo the verb to answer: \"Tô, sim.\"",
+          "It's Sunday in Belo Horizonte. You're a guest at Dona Cida's house with her grandson Pedro. Around the table are Tio Beto, the family storyteller, and Pedro's cousin Júlia. Everyone talks at once: the food, the football, the neighbors. Don't wait for silence; follow the thread that matters to you.",
+          "Listen for the Minas Gerais flavour. \"Uai\" marks surprise or obviousness ('well!', 'of course!'), and \"trem\" means thing or stuff: \"esse trem tá uma delícia\". \"Cê tá servido?\" asks whether you've got enough food. Echo the verb to answer: \"Tô, sim.\"",
           "Dona Cida will offer more food again and again. A first refusal is expected politeness and won't be believed. What finally works is warm and firm: \"Tô satisfeito, sério, tava tudo ótimo.\" A woman says \"satisfeita\".",
         ],
         examples: [
@@ -1606,7 +1606,7 @@ export const PT_C1_U17: Lesson[] = [
             source: "Hang on, you've already told this story! (to a friend)",
             answer: "Peraí, essa história você já contou!",
             altAnswers: ["Peraí, essa história cê já contou!", "Peraí, você já contou essa história!", "Peraí, cê já contou essa história!", "Pera aí, essa história você já contou!", "Espera aí, você já contou essa história!", "Espera aí, essa história você já contou!"],
-            explanation: "\"Peraí\" interrupts; fronting \"essa história\" as a topic (Unit 12) is very natural here.",
+            explanation: "\"Peraí\" interrupts; fronting \"essa história\" as a topic (Unit 8) is very natural here.",
           },
           {
             type: "fill-blank",
@@ -1629,8 +1629,8 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Part 3: The argument and your turn",
         body: [
-          "The talk turns to soccer, and Belo Horizonte is split: Pedro supports Atlético (\"o Galo\"), Júlia supports Cruzeiro. Voices rise and Dona Cida steps in. This is the moment to join: signal, hedge so you don't take sides, and let the hostess hand you the floor.",
-          "Soccer arguments in Brazil are a ritual, not a real fight: teasing the other side (\"zoar\") is part of the fun. As a guest you don't have to pick a team, and a playful hedge like \"meio que torço pros dois\" gets a laugh from both sides. When Dona Cida hands you the floor, give more than one word: a detail and a joke keep the conversation warm.",
+          "The talk turns to football, and Belo Horizonte is split: Pedro supports Atlético (\"o Galo\"), Júlia supports Cruzeiro. Voices rise and Dona Cida steps in. This is the moment to join: signal, hedge so you don't take sides, and let the hostess hand you the floor.",
+          "Football arguments in Brazil are a ritual, not a real fight: teasing the other side (\"zoar\") is part of the fun. As a guest you don't have to pick a team, and a playful hedge like \"meio que torço pros dois\" gets a laugh from both sides. When Dona Cida hands you the floor, give more than one word: a detail and a joke keep the conversation warm.",
         ],
         examples: [
           { es: "Pedro: O Galo vai ganhar o campeonato, pode escrever.", en: "Galo will win the league, mark my words." },
@@ -1683,14 +1683,14 @@ export const PT_C1_U17: Lesson[] = [
         type: "listen-choose",
         audio: "Cês não sabem o que me aconteceu na estrada.",
         question: "What does it mean?",
-        options: ["You guys won't believe what happened to me on the road.", "They don't know what happened on the road.", "You don't know which road I took.", "Nobody knows what's happening on the road."],
+        options: ["You lot won't believe what happened to me on the road.", "They don't know what happened on the road.", "You don't know which road I took.", "Nobody knows what's happening on the road."],
         correctIndex: 0,
         explanation: "\"Cês\" is reduced \"vocês\", and the line is a classic story opener.",
       },
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "— Galo is going to win. — [I'm not so sure], huh.",
+        en: "— Galo is going to win. — [I'm not so sure], eh.",
         sentence: "— O Galo vai ganhar. — ___, hein.",
         answer: "Sei não",
         altAnswers: ["Não sei não", "Sei lá"],
@@ -1763,7 +1763,7 @@ export const PT_C1_U17: Lesson[] = [
         heading: "Connectors and the verb of existence",
         body: [
           "Mariana tells her friends what happened at a feira in Recife: \"Aí eu tava na feira, tinha uma fila enorme pra pastel, aí do nada uma senhora me cutuca...\" In her crônica for a local paper, the same moment reads: \"Eu estava na feira. Havia uma fila enorme na barraca de pastel quando, de repente, uma senhora tocou meu ombro.\" The facts are the same, but the grammar is different.",
-          "Speech strings clauses together with \"aí\"; writing uses periods, \"quando\", \"então\" and \"em seguida\". Speech says \"tinha\" for there was; writing says \"havia\". \"Do nada\" becomes \"de repente\", and \"pra\" becomes \"para\".",
+          "Speech strings clauses together with \"aí\"; writing uses full stops, \"quando\", \"então\" and \"em seguida\". Speech says \"tinha\" for there was; writing says \"havia\". \"Do nada\" becomes \"de repente\", and \"pra\" becomes \"para\".",
           "The crônica is Brazil's most conversational written genre (think Rubem Braga, Fernando Sabino or Martha Medeiros). It tolerates \"a gente\", the odd \"né\" in dialogue and a light touch of orality, but never a string of \"aí\"s.",
         ],
         examples: [
@@ -1811,8 +1811,8 @@ export const PT_C1_U17: Lesson[] = [
         examples: [
           { es: "A carteira? Ela achou no chão e me devolveu.", en: "The wallet? She found it on the ground and gave it back to me. (spoken)" },
           { es: "Ela tinha encontrado a carteira no chão e veio devolvê-la.", en: "She had found the wallet on the ground and came to return it. (written)" },
-          { es: "Me deu um susto!", en: "It gave me a scare! (spoken)" },
-          { es: "A cena me deu um susto.", en: "The scene gave me a scare. (written)" },
+          { es: "Me deu um susto!", en: "It gave me a fright! (spoken)" },
+          { es: "A cena me deu um susto.", en: "The scene gave me a fright. (written)" },
           { es: "Agradeci ela mil vezes.", en: "I thanked her a thousand times. (spoken)" },
           { es: "Agradeci-lhe mil vezes.", en: "I thanked her a thousand times. (written)" },
         ],
@@ -1838,7 +1838,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Quoted speech and the historical present",
         body: [
-          "Aloud, Mariana acts out the dialogue: \"Aí ela vira e fala: 'Minha filha, isso aqui é seu?'\" In the crônica she can keep a direct quote, now introduced by a past verb and set off with a travessão (Unit 5): \"A senhora perguntou: — Minha filha, isso é seu?\" Or she can report it: \"A senhora perguntou se aquilo era meu.\" In reported speech, tenses and demonstratives shift: \"isso aqui\" becomes \"aquilo\", and the present \"é\" becomes \"era\".",
+          "Aloud, Mariana acts out the dialogue: \"Aí ela vira e fala: 'Minha filha, isso aqui é seu?'\" In the crônica she can keep a direct quote, now introduced by a past verb and set off with a travessão (Unit 14): \"A senhora perguntou: — Minha filha, isso é seu?\" Or she can report it: \"A senhora perguntou se aquilo era meu.\" In reported speech, tenses and demonstratives shift: \"isso aqui\" becomes \"aquilo\", and the present \"é\" becomes \"era\".",
           "The historical present can survive in a crônica as a deliberate effect, but the spoken \"vira e fala\" goes. Writers choose the verb that fits each line: \"perguntou\", \"respondeu\", \"comentou\", \"insistiu\".",
         ],
         examples: [
@@ -1862,7 +1862,7 @@ export const PT_C1_U17: Lesson[] = [
             type: "listen-choose",
             audio: "Aí ela vira e fala: \"Isso aqui é seu?\"",
             question: "What does it mean?",
-            options: ["Then she turns and asks, 'Is this yours?'", "She turned around and left it there.", "She said it wasn't mine.", "Then she asks if I belong to her."],
+            options: ["Then she turns and asks, 'Is this yours?'", "She turned round and left it there.", "She said it wasn't mine.", "Then she asks if I belong to her."],
             correctIndex: 0,
             explanation: "\"Vira e fala\" introduces an acted-out quote in the historical present.",
           },
@@ -1948,7 +1948,7 @@ export const PT_C1_U17: Lesson[] = [
           { left: "Havia uma fila.", right: "There was a line. (written)" },
           { left: "Do nada, ela apareceu.", right: "Out of nowhere, she appeared. (spoken)" },
           { left: "De repente, ela apareceu.", right: "Suddenly, she appeared. (written)" },
-          { left: "Me deu um susto!", right: "It gave me a scare! (spoken)" },
+          { left: "Me deu um susto!", right: "It gave me a fright! (spoken)" },
         ],
         explanation: "Each spoken form has a written counterpart: \"tinha\" / \"havia\", \"do nada\" / \"de repente\", and a sentence-initial clitic only in speech.",
       },
@@ -1959,7 +1959,7 @@ export const PT_C1_U17: Lesson[] = [
         source: "It was then that I realized I had lost my wallet. (in a crônica)",
         answer: "Foi então que percebi que tinha perdido a carteira.",
         altAnswers: ["Foi então que percebi que havia perdido a carteira.", "Foi então que eu percebi que tinha perdido a carteira.", "Foi então que percebi que tinha perdido minha carteira.", "Foi então que percebi que tinha perdido a minha carteira.", "Foi então que percebi que havia perdido minha carteira.", "Foi aí que percebi que tinha perdido a carteira."],
-        explanation: "The cleft \"foi então que\" (Unit 12) gives written narration its climax without any \"aí\".",
+        explanation: "The cleft \"foi então que\" (Unit 8) gives written narration its climax without any \"aí\".",
       },
     ],
   },
@@ -2048,7 +2048,7 @@ export const PT_C1_U17: Lesson[] = [
         heading: "De repente and written hedges",
         body: [
           "A learner hears \"De repente eu passo aí amanhã\" and asks, puzzled: why suddenly? In a plan, \"de repente\" means maybe. The reverse slip happens too: writing \"de repente\" for maybe in an email to a client, where \"talvez\" or \"possivelmente\" belongs.",
-          "The academic hedges of Unit 4 (\"sugere-se que\", \"é possível que\", \"tende a\") sound absurd in a chat. \"É possível que eu chegue atrasado\" in a WhatsApp to a friend sounds like a press release. Speech says \"Acho que vou chegar atrasado\" or \"Capaz de eu me atrasar\" (Unit 3). Match the hedge to the channel.",
+          "The academic hedges of Unit 3 (\"sugere-se que\", \"é possível que\", \"tende a\") sound absurd in a chat. \"É possível que eu chegue atrasado\" in a WhatsApp to a friend sounds like a press release. Speech says \"Acho que vou chegar atrasado\" or \"Capaz de eu me atrasar\" (Unit 13). Match the hedge to the channel.",
         ],
         examples: [
           { es: "De repente eu passo aí amanhã.", en: "I might drop by tomorrow." },
@@ -2092,7 +2092,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Is there a restroom here? (to a waiter, casual; not \"Há banheiro?\")",
+        source: "Is there a toilet here? (to a waiter, casual; not \"Há banheiro?\")",
         answer: "Tem banheiro aqui?",
         altAnswers: ["Tem um banheiro aqui?", "Aqui tem banheiro?", "Tem banheiro por aqui?", "Vocês têm banheiro?", "Onde fica o banheiro?"],
         explanation: "Spoken existential \"tem\"; \"há\" sounds written in a café.",
@@ -2120,7 +2120,7 @@ export const PT_C1_U17: Lesson[] = [
         source: "We're going to split the bill, right? (casual)",
         answer: "A gente vai rachar a conta, né?",
         altAnswers: ["A gente vai dividir a conta, né?", "Vamos rachar a conta, né?", "Vamos dividir a conta, né?", "Nós vamos dividir a conta, né?", "A gente vai rachar a conta, não é?", "A gente vai dividir a conta, não é?"],
-        explanation: "\"Rachar a conta\" (Unit 8) and \"a gente vai\" with a tag \"né\" at the end.",
+        explanation: "\"Rachar a conta\" (Unit 15) and \"a gente vai\" with a tag \"né\" at the end.",
       },
       {
         type: "translate",
@@ -2164,7 +2164,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "speak",
         text: "Me falaram que esse bar é ótimo.",
         prompt: "Say it in Portuguese, chatting with friends: Someone told me this bar is great.",
-        tip: "Me at the start is unstressed, almost mee.",
+        tip: "Me at the start is unstressed, almost 'mi'.",
         explanation: "Starting with the clitic is normal in Brazilian speech; \"Disseram-me\" would sound European or bookish.",
       },
     ],
@@ -2205,7 +2205,7 @@ export const PT_C1_U17: Lesson[] = [
             question: "Which opening sounds like a natural podcast rather than an official bulletin?",
             options: ["E aí, gente! Hoje a gente vai falar de uma coisa que todo mundo já viveu: mudar de cidade.", "Prezados ouvintes, o presente episódio tem como objetivo abordar a mudança de domicílio.", "Bom dia. Informamos que o tema de hoje é mudança.", "Venho, por meio deste episódio, falar de mudança."],
             correctIndex: 0,
-            explanation: "The first uses \"a gente\", a relaxed greeting and a hook. The others borrow academic (Unit 4) and official (Unit 7) formulas.",
+            explanation: "The first uses \"a gente\", a relaxed greeting and a hook. The others borrow academic (Unit 3) and official (Unit 5) formulas.",
           },
           {
             type: "fill-blank",
@@ -2372,7 +2372,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "speak",
         text: "E aí, gente, tudo bem? Bem-vindos a mais um episódio!",
         prompt: "Say it in Portuguese, opening your podcast: Hey, everyone, how's it going? Welcome to another episode!",
-        tip: "Smile as you speak: listeners hear it. Link e aí into ya-Í.",
+        tip: "Smile as you speak: listeners hear it. Link e aí into 'iaí'.",
         explanation: "A relaxed greeting plus \"bem-vindos\" is the classic podcast opening.",
       },
       {
@@ -2391,13 +2391,13 @@ export const PT_C1_U17: Lesson[] = [
     level: "PT-C1",
     number: 12,
     title: "Spiral Review: Talking Like a Brazilian Adult",
-    summary: "Mix spoken grammar with the particles of Unit 11 and the topics and clefts of Unit 12 in fresh conversations.",
+    summary: "Mix spoken grammar with the particles of Unit 7 and the topics and clefts of Unit 8 in fresh conversations.",
     duration: "15 min",
     sections: [
       {
         heading: "Particles in conversation",
         body: [
-          "Unit 11's particles live in speech: \"aliás\" adds or corrects (by the way, actually), \"afinal\" demands the bottom line, \"até\" means even, \"é que\" introduces an excuse and \"ué\" voices puzzlement. Here they meet this unit's spoken grammar.",
+          "Unit 7's particles live in speech: \"aliás\" adds or corrects (by the way, actually), \"afinal\" demands the bottom line, \"até\" means even, \"é que\" introduces an excuse and \"ué\" voices puzzlement. Here they meet this unit's spoken grammar.",
         ],
         examples: [
           { es: "Aliás, cê viu que a Ana mudou de emprego?", en: "By the way, did you see Ana's changed jobs?" },
@@ -2437,7 +2437,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Topics and clefts in speech",
         body: [
-          "Unit 12's topics and clefts are at home in conversation, and they combine with null objects and resumptive pronouns: \"Essa série, eu vi inteira\", \"O chefe, ninguém consegue falar com ele\", \"Foi a Bia que contou\". \"Eu é que não vou\" puts the emphasis on the speaker.",
+          "Unit 8's topics and clefts are at home in conversation, and they combine with null objects and resumptive pronouns: \"Essa série, eu vi inteira\", \"O chefe, ninguém consegue falar com ele\", \"Foi a Bia que contou\". \"Eu é que não vou\" puts the emphasis on the speaker.",
         ],
         examples: [
           { es: "Essa série, eu vi inteira num fim de semana.", en: "That series, I watched the whole thing in one weekend." },
@@ -2515,7 +2515,7 @@ export const PT_C1_U17: Lesson[] = [
         source: "By the way, did you see that Rafael quit? (casual)",
         answer: "Aliás, cê viu que o Rafael pediu demissão?",
         altAnswers: ["Aliás, você viu que o Rafael pediu demissão?", "Aliás, cê viu que o Rafael se demitiu?", "Aliás, você viu que o Rafael se demitiu?", "Aliás, viu que o Rafael pediu demissão?", "Aliás, você soube que o Rafael pediu demissão?", "Aliás, cê soube que o Rafael pediu demissão?"],
-        explanation: "\"Aliás\" adds a new point; \"pedir demissão\" (Unit 8) is to quit.",
+        explanation: "\"Aliás\" adds a new point; \"pedir demissão\" (Unit 15) is to quit.",
       },
       {
         type: "translate",
@@ -2533,7 +2533,7 @@ export const PT_C1_U17: Lesson[] = [
         sentence: "___ o cachorro ficou com medo.",
         answer: "Até",
         altAnswers: ["Até mesmo"],
-        explanation: "\"Até\" before the noun means even (Unit 11).",
+        explanation: "\"Até\" before the noun means even (Unit 7).",
       },
       {
         type: "translate",
@@ -2587,7 +2587,7 @@ export const PT_C1_U17: Lesson[] = [
         question: "What does it mean?",
         options: ["So who's going to pick up the kids, then?", "Finally, the kids are being picked up.", "In the end, nobody picked up the kids.", "Who picked up the kids at last?"],
         correctIndex: 0,
-        explanation: "\"Afinal\" demands an answer, and \"quem é que\" (Unit 12) is the natural spoken question form.",
+        explanation: "\"Afinal\" demands an answer, and \"quem é que\" (Unit 8) is the natural spoken question form.",
       },
       {
         type: "translate",
@@ -2602,7 +2602,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "speak",
         text: "Aliás, cê sabe quem é que vai na festa?",
         prompt: "Say it in Portuguese: By the way, do you know who's going to the party?",
-        tip: "Quem é que runs together: kẽi-É-kee.",
+        tip: "Quem é que runs together: 'kẽiéki'.",
         explanation: "\"Aliás\" opens a new topic; \"quem é que\" is the spoken question form.",
       },
       {

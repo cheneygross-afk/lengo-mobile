@@ -124,7 +124,7 @@ export const PT_B1_U33_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the spoken Portuguese for the bold words.",
-        en: "[Should we] go to the beach?",
+        en: "[Shall we] go to the beach?",
         sentence: "___ pra praia?",
         answer: "Bora",
         altAnswers: ["Vamos", "Vambora"],
@@ -526,7 +526,7 @@ export const PT_B1_U33_EXTRA: Lesson[] = [
         type: "speak",
         text: "Vou encontrar ele amanhã, beleza?",
         prompt: "Leave a voice note for a friend: I'm meeting him tomorrow, OK?",
-        tip: "Link the r of \"encontrar\" to \"ele\": ẽn-kõn-tra-RÊ-lee.",
+        tip: "Link the r of \"encontrar\" to \"ele\": en-con-tra-RÊ-li.",
         explanation: "\"Encontrar ele\" fits \"beleza\"; \"encontrá-lo\" would clash.",
       },
     ],

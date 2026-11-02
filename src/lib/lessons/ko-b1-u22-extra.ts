@@ -241,7 +241,7 @@ export const KO_B1_U22_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (memo style, a note for Mum).",
+        prompt: "Translate into Korean (memo style, for a flatmate).",
         source: "Mum, I made dinner. It's in the fridge.",
         answer: "엄마, 저녁은 내가 만듦. 냉장고에 있음.",
         altAnswers: ["엄마, 저녁 내가 만들었음. 냉장고에 있음.", "엄마, 저녁은 내가 만들었음. 냉장고에 있음.", "엄마, 저녁 내가 만듦. 냉장고에 있음.", "엄마, 내가 저녁 만듦. 냉장고에 있음."],
@@ -353,10 +353,10 @@ export const KO_B1_U22_EXTRA: Lesson[] = [
           "Before 이, 야, 여, 요 or 유 at the start of the second part of a compound, a final consonant gains [ㄴ]: 신촌역 [신촌녁], 강남역 [강남녁], 한여름 [한녀름], 담요 [담뇨]. After ㄹ it is [ㄹ]: 서울역 [서울력], 휘발유 [휘발류]. In dictation, write what the word is, not what you hear: the extra sound is never spelled.",
         ],
         examples: [
-          { es: "시청역에서 2호선으로 갈아타세요.", en: "Change to Line 2 at City Hall Station." },
+          { es: "신촌역에서 2호선으로 갈아타세요.", en: "Change to Line 2 at Sinchon Station." },
           { es: "강남역 11번 출구 앞에서 봐요.", en: "See you outside exit 11 of Gangnam Station." },
           { es: "한여름에도 사무실이 추워서 담요를 덮어요.", en: "Even in midsummer the office is cold, so I use a blanket." },
-          { es: "요즘 휘발유 가격이 많이 올랐어요.", en: "Petrol prices have gone up a lot lately." },
+          { es: "요즘 휘발유 값이 많이 올랐어요.", en: "Petrol prices have gone up a lot lately." },
         ],
         checkpoint: [
           {
@@ -377,8 +377,8 @@ export const KO_B1_U22_EXTRA: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into Korean (polite).",
             source: "Petrol prices have gone up a lot lately.",
-            answer: "요즘 휘발유 가격이 많이 올랐어요.",
-            altAnswers: ["요즘 휘발유 값이 많이 올랐어요.", "요즘 기름값이 많이 올랐어요.", "최근에 휘발유 값이 많이 올랐어요.", "요즘 휘발윳값이 많이 올랐어요."],
+            answer: "요즘 휘발유 값이 많이 올랐어요.",
+            altAnswers: ["요즘 휘발유 가격이 많이 올랐어요.", "요즘 기름값이 많이 올랐어요.", "최근에 휘발유 값이 많이 올랐어요.", "요즘 휘발윳값이 많이 올랐어요."],
             explanation: "휘발유 is said [휘발류]: after ㄹ the added sound is [ㄹ].",
           },
         ],
@@ -402,10 +402,10 @@ export const KO_B1_U22_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Korean (polite).",
-        source: "Change to Line 2 at City Hall Station.",
-        answer: "시청역에서 2호선으로 갈아타세요.",
-        altAnswers: ["시청역에서 이호선으로 갈아타세요.", "시청역에서 2호선으로 환승하세요.", "시청역에서 이호선으로 환승하세요.", "시청역에서 2호선으로 갈아타요.", "시청역에서 이호선으로 갈아타요."],
-        explanation: "갈아타다 takes (으)로 for the line you change to. 2호선 is read 이호선, and 시청역 [시청녁] gains an [ㄴ].",
+        source: "Change to Line 2 at Sinchon Station.",
+        answer: "신촌역에서 2호선으로 갈아타세요.",
+        altAnswers: ["신촌역에서 이호선으로 갈아타세요.", "신촌역에서 2호선으로 환승하세요.", "신촌역에서 이호선으로 환승하세요.", "신촌역에서 2호선으로 갈아타요.", "신촌역에서 이호선으로 갈아타요."],
+        explanation: "갈아타다 takes (으)로 for the line you change to. 2호선 is read 이호선.",
       },
       {
         type: "translate",
@@ -422,7 +422,7 @@ export const KO_B1_U22_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Let's meet at Seoul Station.",
         answer: "서울역에서 만나요.",
-        altAnswers: ["서울역에서 봐요.", "서울역에서 만날까요?"],
+        altAnswers: ["서울역에서 봐요.", "서울역에서 만날까요?", "서울역에서 만납시다."],
         explanation: "서울역 [서울력]: say the [ㄹ] twice.",
       },
       {
@@ -469,8 +469,8 @@ export const KO_B1_U22_EXTRA: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "휘발유 가격이 올랐어요.",
-        explanation: "You hear [휘발류 가겨기]; write 휘발유 가격이.",
+        audio: "휘발유 값이 올랐어요.",
+        explanation: "You hear [휘발류 갑씨]; write 휘발유 값이.",
       },
       {
         type: "translate",
@@ -483,8 +483,8 @@ export const KO_B1_U22_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        prompt: "Say it in Korean: Get off at Sinchon Station.",
-        text: "신촌역에서 내리세요.",
+        prompt: "Say it in Korean: Change to Line 2 at Sinchon Station.",
+        text: "신촌역에서 이호선으로 갈아타세요.",
         tip: "신촌역에서 is said [신촌녀게서].",
         explanation: "The [ㄴ] before 역 is added after the ㄴ of 촌.",
       },

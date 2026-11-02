@@ -2135,7 +2135,7 @@ export const KO_B1_U32: Lesson[] = [
             prompt: "Translate into Korean (polite). A learner wrote *문을 열자 들어오세요.",
             source: "Come in when the door opens.",
             answer: "문이 열리면 들어오세요.",
-            altAnswers: ["문이 열리면 들어와 주세요.", "문이 열리자마자 들어오세요.", "문이 열리면 들어와요."],
+            altAnswers: ["문이 열리면 들어와 주세요.", "문이 열리면 들어오십시오.", "문이 열리자마자 들어오세요.", "문이 열리면 들어와요."],
             explanation: "A request can't follow -자. Use -(으)면 for 'when', or -자마자 for 'as soon as'.",
           },
           {
@@ -2342,7 +2342,7 @@ export const KO_B1_U32: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean (polite, telling the story).",
+            prompt: "Translate into Korean (polite, telling a friend).",
             source: "In the end we went to the office together, and we were both late.",
             answer: "결국 같이 회사에 갔는데 둘 다 지각했어요.",
             altAnswers: ["결국 같이 회사에 갔고 둘 다 지각했어요.", "결국 우리는 같이 회사에 갔고 둘 다 지각했어요.", "결국 같이 회사에 가서 둘 다 지각했어요.", "결국 같이 출근했는데 둘 다 지각했어요.", "결국 같이 회사에 갔고 둘 다 지각을 했어요.", "결국 같이 회사에 갔는데 둘 다 늦었어요.", "결국 저희는 같이 회사에 갔고 둘 다 지각했어요."],
@@ -2350,7 +2350,7 @@ export const KO_B1_U32: Lesson[] = [
           },
           {
             type: "speak",
-            prompt: "Say it in Korean (polite, telling the story): Even now, that day makes me laugh.",
+            prompt: "Say it in Korean (polite, telling a friend): Even now, that day makes me laugh.",
             text: "그날은 지금 생각해도 웃겨요.",
             explanation: "생각해도 'even if I think of it'; 웃기다 'be funny, make someone laugh'.",
           },
@@ -2412,7 +2412,7 @@ export const KO_B1_U32: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (polite, telling the story).",
+        prompt: "Translate into Korean (polite, telling a friend).",
         source: "It turned out she was my team leader.",
         answer: "알고 보니 그분이 우리 팀장님이었어요.",
         altAnswers: ["알고 보니 그분이 저희 팀장님이었어요.", "알고 보니 그분이 우리 팀 팀장님이었어요.", "알고 보니 그분이 저희 팀 팀장님이었어요.", "알고 보니 그분이 우리 팀장님이더라고요.", "알고 보니 그분이 저희 팀장님이더라고요.", "알고 보니 그분은 우리 팀장님이었어요.", "알고 보니 그분은 저희 팀장님이었어요.", "알고 보니 그 여자분이 우리 팀장님이었어요."],
@@ -2433,7 +2433,7 @@ export const KO_B1_U32: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (polite, telling the story).",
+        prompt: "Translate into Korean (polite, telling a friend).",
         source: "On my first day at work, I took the wrong bus.",
         answer: "첫 출근 날 버스를 잘못 탔어요.",
         altAnswers: ["첫 출근 날에 버스를 잘못 탔어요.", "첫 출근하는 날 버스를 잘못 탔어요.", "첫 출근하는 날에 버스를 잘못 탔어요.", "출근 첫날 버스를 잘못 탔어요.", "출근 첫날에 버스를 잘못 탔어요.", "첫 출근 날 제가 버스를 잘못 탔어요."],

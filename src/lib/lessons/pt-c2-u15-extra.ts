@@ -692,7 +692,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Três dias sem chuva. Depois, a tempestade.",
-        explanation: "In \"tempestade\" the final unstressed e sounds like 'ee', so the d before it becomes 'j': tem-pes-TA-jee.",
+        explanation: "In \"tempestade\" the final unstressed e sounds like i, so the d before it becomes \"dj\": tem-pes-TA-dji.",
       },
       {
         type: "speak",

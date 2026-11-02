@@ -1667,10 +1667,10 @@ export const DE_C2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The train is expensive, admittedly, but it's comfortable.'?",
+        question: "Which sentence is correct?",
         options: ["Zwar ist die Bahn teuer, doch sie ist bequem.", "Zwar die Bahn ist teuer, doch ist sie bequem.", "Zwar ist die Bahn teuer, doch ist sie bequem, weil.", "Die Bahn zwar ist teuer, doch sie bequem ist."],
         correctIndex: 0,
-        explanation: "\"Zwar\" in position 1 inverts (\"Zwar ist die Bahn\"); \"doch\" in position 0 keeps normal order (\"doch sie ist\"). \"*Zwar die Bahn ist*\" is English order.",
+        explanation: "\"Zwar\" in position 1 inverts; \"doch\" in position 0 keeps normal order.",
       },
       {
         type: "translate",
@@ -2057,10 +2057,10 @@ export const DE_C2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'with hair that has gone grey'?",
+        question: "Which phrase is correct?",
         options: ["mit ergrautem Haar", "mit ergrauten Haar", "mit ergraute Haar", "mit ergrautes Haar"],
         correctIndex: 0,
-        explanation: "No article, dative neuter: strong ending -em (\"mit ergrautem Haar\"), like \"mit kaltem Wasser\". \"*ergrauten*\" is the weak ending, which needs an article.",
+        explanation: "No article, dative neuter: strong ending -em, like \"mit kaltem Wasser\".",
       },
       {
         type: "translate",

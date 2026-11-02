@@ -405,9 +405,9 @@ export const KO_B1_U28: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You tell a visitor to change to Line 2 at Sindorim. Which sentence is right?",
-        options: ["신도림역에서 2호선으로 갈아타세요.", "신도림역으로 2호선에서 갈아타세요.", "신도림역에 2호선으로 갈아타세요.", "신도림역에서 2호선에 갈아타세요."],
+        options: ["신도림역에서 2호선으로 갈아타세요.", "신도림역에서 2호선을 갈아타세요.", "신도림역에 2호선으로 갈아타세요.", "신도림역에서 2호선에 갈아타세요."],
         correctIndex: 0,
-        explanation: "The station is where it happens (에서) and the line is what you switch into ((으)로). 신도림역에 or 2호선에 put the particles in the wrong roles. (2호선을 갈아타세요 is also heard; (으)로 is the clearest.)",
+        explanation: "The station is where it happens (에서) and the line is what you switch into ((으)로). 2호선을 is the classic English-speaker slip.",
       },
       {
         type: "fill-blank",
@@ -749,7 +749,7 @@ export const KO_B1_U28: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "If you've lost your passport, contact the embassy.",
             answer: "여권을 잃어버렸을 경우에는 대사관에 연락하세요.",
-            altAnswers: ["여권을 잃어버렸을 경우에 대사관에 연락하세요.", "여권을 잃어버렸을 경우 대사관에 연락하세요.", "여권을 잃어버린 경우에는 대사관에 연락하세요.", "여권을 잃어버린 경우 대사관에 연락하세요.", "여권을 잃어버렸을 경우에는 대사관으로 연락하세요.", "여권을 분실했을 경우에는 대사관에 연락하세요."],
+            altAnswers: ["여권을 잃어버렸을 경우에 대사관에 연락하세요.", "여권을 잃어버렸을 경우 대사관에 연락하세요.", "여권을 잃어버린 경우에는 대사관에 연락하세요.", "여권을 잃어버린 경우 대사관에 연락하세요.", "여권을 잃어버렸을 경우에는 대사관으로 연락하세요.", "여권을 잃어버렸을 경우에는 대사관에 연락하십시오.", "여권을 분실했을 경우에는 대사관에 연락하세요."],
             explanation: "The loss has already happened when you call, so the past -었을 경우: 잃어버렸을 경우에는.",
           },
           {
@@ -953,7 +953,7 @@ export const KO_B1_U28: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Check-in is from 3 p.m.",
             answer: "체크인은 오후 세 시부터예요.",
-            altAnswers: ["체크인은 오후 3시부터예요.", "체크인은 세 시부터예요.", "체크인은 3시부터예요.", "체크인은 오후 세 시부터 가능해요.", "체크인은 오후 3시부터 가능해요."],
+            altAnswers: ["체크인은 오후 3시부터예요.", "체크인은 세 시부터예요.", "체크인은 3시부터예요.", "체크인은 오후 세 시부터입니다.", "체크인은 오후 3시부터입니다.", "체크인은 오후 세 시부터 가능해요.", "체크인은 오후 3시부터 가능해요."],
             explanation: "Hours are native numbers: 세 시 (3시). 부터 'from' + 예요 after a vowel.",
           },
           {
@@ -1237,7 +1237,7 @@ export const KO_B1_U28: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Do you know how long it takes to get to Haeundae?",
         answer: "해운대까지 얼마나 걸리는지 아세요?",
-        altAnswers: ["해운대까지 시간이 얼마나 걸리는지 아세요?", "해운대까지 얼마나 걸리는지 알아요?", "해운대까지 가는 데 얼마나 걸리는지 아세요?", "해운대까지 얼마나 걸리는지 알려 주시겠어요?"],
+        altAnswers: ["해운대까지 시간이 얼마나 걸리는지 아세요?", "해운대까지 얼마나 걸리는지 알아요?", "해운대까지 가는 데 얼마나 걸리는지 아세요?", "해운대까지 얼마나 걸리는지 아십니까?", "해운대까지 얼마나 걸리는지 알려 주시겠어요?"],
         explanation: "얼마나 걸려요? becomes 얼마나 걸리는지 inside the question 아세요?",
       },
       {
@@ -1445,9 +1445,9 @@ export const KO_B1_U28: Lesson[] = [
       {
         type: "multiple-choice",
         question: "She says 서면에서 내려서 마을버스로 갈아타세요. Which is a correct way to confirm it?",
-        options: ["서면에서 마을버스로 갈아타면 되죠?", "서면으로 마을버스에서 갈아타면 되죠?", "서면에 마을버스로 갈아타면 되죠?", "서면에서 마을버스로 갈아탔으면 되죠?"],
+        options: ["서면에서 마을버스로 갈아타면 되죠?", "서면에서 마을버스를 갈아타면 되죠?", "서면에 마을버스로 갈아타면 되죠?", "서면에서 마을버스로 갈아탔으면 되죠?"],
         correctIndex: 0,
-        explanation: "The place takes 에서, the bus you switch into takes 로 (서면으로 ... 마을버스에서 swaps them), and -(으)면 되죠? has no past tense.",
+        explanation: "The place takes 에서, the bus you switch into takes 로, and -(으)면 되죠? has no past tense.",
       },
       {
         type: "word-order",
@@ -1927,7 +1927,7 @@ export const KO_B1_U28: Lesson[] = [
             en: "There's a wide gap between the train and the platform, so please [mind your step] as you get off.",
             sentence: "열차와 승강장 사이가 넓으니 내리실 때 ___.",
             answer: "발밑을 조심하시기 바랍니다",
-            altAnswers: ["발밑을 조심하십시오", "발밑 조심하시기 바랍니다"],
+            altAnswers: ["발밑을 조심하십시오", "발밑을 조심하세요", "발밑 조심하시기 바랍니다"],
             explanation: "발밑을 조심하다 'watch your step', with the notice ending -(으)시기 바랍니다.",
           },
           {

@@ -16,7 +16,7 @@ export const PT_A2_U03: Lesson[] = [
         heading: "Disse and trouxe: dizer and trazer",
         body: [
           "\"Dizer\" (to say, to tell) and \"trazer\" (to bring) change their stem in the past: \"disse\", \"dissemos\", \"disseram\"; \"trouxe\", \"trouxemos\", \"trouxeram\". Unlike regular verbs, the eu form and the você/ele/ela form are identical: \"eu disse\", \"ela disse\"; \"eu trouxe\", \"ele trouxe\". Keep the pronoun when the context doesn't show who.",
-          "The x in \"trouxe\" sounds like ss: TROH-see, never like English x. \"Disse que\" plus a sentence passes on what someone said: \"ele disse que está cansado\" (he said he's tired).",
+          "The x in \"trouxe\" sounds like ss: TROU-si, never like English x. \"Disse que\" plus a sentence passes on what someone said: \"ele disse que está cansado\" (he said he's tired).",
         ],
         examples: [
           { es: "Ele disse que está cansado.", en: "He said he's tired." },
@@ -225,7 +225,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "speak",
         text: "Os meus pais trouxeram presentes.",
         prompt: "Say it in Portuguese: My parents brought presents.",
-        tip: "The x in trouxeram sounds like ss, and the stressed e is open: troh-SÉ-ram.",
+        tip: "The x in trouxeram sounds like ss: trou-SSE-ram.",
         explanation: "\"Trouxeram\" is the eles form of \"trazer\" in the past.",
       },
       {
@@ -321,7 +321,7 @@ export const PT_A2_U03: Lesson[] = [
       {
         heading: "Soube: found out",
         body: [
-          "\"Saber\" in the past: \"eu soube\", \"você soube\", \"ele soube\", \"nós soubemos\", \"eles souberam\". As with \"quis\", the eu and ele forms are identical. Most Brazilians say the \"ou\" as a closed ô: SÔ-bee.",
+          "\"Saber\" in the past: \"eu soube\", \"você soube\", \"ele soube\", \"nós soubemos\", \"eles souberam\". As with \"quis\", the eu and ele forms are identical. Most Brazilians say the \"ou\" as a closed ô: SÔ-bi.",
           "The trap for English speakers: \"soube\" doesn't mean knew. It marks the moment the knowledge arrived: found out, heard. \"Eu soube ontem\" is I found out yesterday, and \"Você soube?\" is how Brazilians open a piece of news: Did you hear? Knew, as a lasting state, takes another past tense, coming in Unit 4.",
           "About something takes \"de\": \"soube do casamento\"; from someone takes \"por\": \"soube pela Ana\".",
         ],
@@ -511,7 +511,7 @@ export const PT_A2_U03: Lesson[] = [
       {
         heading: "Viu or veio: he saw, he came",
         body: [
-          "With você, ele and ela the two verbs split further: \"viu\" (saw) and \"veio\" (came). \"Viu\" is one syllable, the i gliding into a short u. \"Veio\" has two, VAY-oo, with a closed e, and the final o sounds like oo.",
+          "With você, ele and ela the two verbs split further: \"viu\" (saw) and \"veio\" (came). \"Viu\" is one syllable, the i gliding into a short u. \"Veio\" has two, VEI-u, with a closed e, and the final o sounds like u.",
           "Link each past form to the present you know: \"ele vê\" becomes \"ele viu\", and \"ele vem\" becomes \"ele veio\". A common slip is \"*ele viu de carro\" for he came by car. If the sentence says how or from where someone arrived, you need \"veio\".",
           "\"Ver\" also covers watching: \"ver um filme\", \"ver o jogo\".",
         ],
@@ -633,7 +633,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "speak",
         text: "O João não veio, mas eu vi a Ana.",
         prompt: "Say it in Portuguese: João didn't come, but I saw Ana.",
-        tip: "Say \"veio\" in two syllables, VAY-oo, and keep \"vi\" short and oral.",
+        tip: "Say \"veio\" in two syllables, VEI-u, and keep \"vi\" short and oral.",
         explanation: "\"Não veio\" (didn't come) from \"vir\"; \"eu vi\" (I saw) from \"ver\".",
       },
       {
@@ -753,7 +753,7 @@ export const PT_A2_U03: Lesson[] = [
           {
             type: "speak",
             text: "Eu trouxe pão de queijo.",
-            tip: "Say trouxe as TROH-see: the x is an s sound here, and the final e sounds like ee.",
+            tip: "Say trouxe as TROH-see: the x is an s sound here, and the final e sounds like i.",
             explanation: "\"Eu trouxe\": the past of \"trazer\", the same form as for ele and ela.",
           },
         ],
@@ -900,7 +900,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "speak",
         text: "Nós fizemos tudo.",
         prompt: "Say it in Portuguese: We did everything.",
-        tip: "Stress the middle of fizemos (fi-ZÊ-moos), with a closed ê.",
+        tip: "Stress the middle of fizemos (fi-ZE-mus), with a closed ê.",
         explanation: "\"Fizemos\" is the nós form of \"fazer\": \"fizeram\" with \"-ram\" swapped for \"-mos\".",
       },
     ],
@@ -1079,7 +1079,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "speak",
         text: "A Ana disse que trouxe o bolo.",
         prompt: "Say it in Portuguese: Ana said she brought the cake.",
-        tip: "In trouxe the x sounds like ss: TROH-see, with the final e as ee.",
+        tip: "In trouxe the x sounds like ss: TROU-si, with the final e as i.",
         explanation: "\"Trouxe\" is the past of \"trazer\". It's the same form for eu and ela.",
       },
       {
@@ -1330,7 +1330,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "speak",
         text: "Ela disse que vai morar em São Paulo.",
         prompt: "Say it in Portuguese: She said she's going to live in São Paulo.",
-        tip: "Make the ão in \"São\" nasal. In most of Brazil the d of \"disse\" comes out like the j in jeep, because an i follows it: JEE-see.",
+        tip: "Make the ão in \"São\" nasal. In most of Brazil the d of \"disse\" comes out like the j in jeep, because an i follows it: DJEE-si.",
         explanation: "\"Disse que\" + \"vai morar\": the tense she used stays the same.",
       },
       {
@@ -1352,7 +1352,7 @@ export const PT_A2_U03: Lesson[] = [
     level: "PT-A2",
     number: 7,
     title: "Error Hunt: Irregular Past II",
-    summary: "Find and fix the typical mistakes with disse, trouxe, pôde, vim and pôs, the irregular past forms learners most often regularize or mix up.",
+    summary: "Find and fix the typical mistakes with disse, trouxe, pôde, vim and pôs, the irregular past forms learners most often regularise or mix up.",
     duration: "12 min",
     kind: "reinforce",
     format: "Error Hunt",
@@ -1361,7 +1361,7 @@ export const PT_A2_U03: Lesson[] = [
         heading: "Disse and trouxe, not dizeu and trazi",
         body: [
           "The usual slip is treating \"dizer\" and \"trazer\" as regular: \"ele dizeu\", \"eu trazi\". Both change their stem in the past to \"disse\" and \"trouxe\". One form serves both eu and ele/ela/você: \"eu disse\", \"ela disse\".",
-          "The plural keeps the new stem: \"dissemos\", \"disseram\", \"trouxemos\", \"trouxeram\". Since eu and ele share a form, keep the pronoun when context doesn't make it clear. The x in \"trouxe\" sounds like ss: TROH-see.",
+          "The plural keeps the new stem: \"dissemos\", \"disseram\", \"trouxemos\", \"trouxeram\". Since eu and ele share a form, keep the pronoun when context doesn't make it clear. The x in \"trouxe\" sounds like ss: TROU-ssi.",
         ],
         examples: [
           { es: "Ela disse que vem amanhã.", en: "She said she's coming tomorrow." },
@@ -1579,7 +1579,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "speak",
         text: "Eu não pude vir ontem.",
         prompt: "Say it in Portuguese: I couldn't come yesterday.",
-        tip: "Say \"pude\" as POO-jee: the d before a final e sounds like the j in jeep.",
+        tip: "Say \"pude\" as POO-dji: the d before a final e sounds like dj.",
         explanation: "The eu form of \"poder\" in the past is \"pude\", and \"vir\" is to come.",
       },
       {
@@ -1948,7 +1948,7 @@ export const PT_A2_U03: Lesson[] = [
           {
             type: "speak",
             text: "No fim, foi um dia ótimo. Beijo!",
-            tip: "Open ó in ótimo. In beijo the ei glides like 'ay' and the final o sounds like oo: BAY-zhoo.",
+            tip: "Open ó in ótimo. In beijo the ei glides like 'ay' and the final o sounds like u: BAY-zhu.",
             explanation: "\"Foi\" works as the verdict on a finished day: it was great.",
           },
         ],
@@ -2003,7 +2003,7 @@ export const PT_A2_U03: Lesson[] = [
         question: "What does it mean?",
         options: ["She brought a cake.", "She made a cake.", "She bought a cake.", "She brings a cake."],
         correctIndex: 0,
-        explanation: "\"Trouxe\" is the past of \"trazer\" (to bring). The x sounds like ss: TROH-see.",
+        explanation: "\"Trouxe\" is the past of \"trazer\" (to bring). The x sounds like ss: TROH-si.",
       },
       {
         type: "dictation",
@@ -2038,7 +2038,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "speak",
         text: "Eu não pude ir, mas foi um dia ótimo.",
         prompt: "Say it in Portuguese: I couldn't go, but it was a great day.",
-        tip: "In pude the d before final -e sounds like the j in jeep: POO-jee.",
+        tip: "In pude the d before final -e sounds like dj: POO-dji.",
         explanation: "\"Pude\" is the eu form of \"poder\" in the past, and \"pôde\" is the ele form.",
       },
       {
@@ -2272,7 +2272,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "speak",
         text: "Eu não pude ir à festa.",
         prompt: "Say it in Portuguese: I couldn't go to the party.",
-        tip: "Final -e in pude sounds like ee, and the d before it sounds like the j in jeep: POO-jee.",
+        tip: "Final -e in pude sounds like i, and the d before it becomes dj: PU-dji.",
         explanation: "\"Pude\" is the eu form of \"poder\" in the past; \"à festa\" is a + a festa.",
       },
       {

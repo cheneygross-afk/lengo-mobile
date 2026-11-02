@@ -568,10 +568,10 @@ export const DE_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you describe the building step 'The walls are built in brick.'?",
+        question: "Which sentence describes a building step correctly?",
         options: ["Die Wände werden gemauert.", "Die Wände sind gemauert werden.", "Die Wände wird gemauert.", "Die Wände werden mauern."],
         correctIndex: 0,
-        explanation: "Plural subject + \"werden\" + participle: \"werden gemauert\". \"*Die Wände wird gemauert*\" uses the singular verb with a plural subject.",
+        explanation: "Plural subject + \"werden\" + participle.",
       },
       {
         type: "word-order",
@@ -1158,10 +1158,10 @@ export const DE_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I know that the house was built in 1900.'?",
+        question: "Which sentence is correct?",
         options: ["Ich weiß, dass das Haus 1900 gebaut wurde.", "Ich weiß, dass das Haus wurde 1900 gebaut.", "Ich weiß, dass das Haus 1900 wurde gebaut.", "Ich weiß, dass das Haus in 1900 gebaut wurde."],
         correctIndex: 0,
-        explanation: "In the dass-clause the participle comes first and \"wurde\" last; a year stands alone, without \"in\". \"*in 1900*\" copies English.",
+        explanation: "Participle + \"wurde\" at the end; no \"in\" before a year.",
       },
       {
         type: "word-order",
@@ -1773,10 +1773,10 @@ export const DE_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write the recipe step 'After that, the eggs are beaten.'?",
+        question: "Which sentence is a correct step in a recipe?",
         options: ["Danach werden die Eier geschlagen.", "Danach die Eier werden geschlagen.", "Danach wird die Eier geschlagen.", "Danach werden die Eier schlagen."],
         correctIndex: 0,
-        explanation: "\"Danach\" fills position 1, plural \"werden\" comes second, the participle \"geschlagen\" goes last. \"*Danach wird die Eier*\" uses the singular with a plural subject.",
+        explanation: "\"Danach\" in position 1, \"werden\" second (plural), participle last.",
       },
       {
         type: "dictation",
@@ -2163,10 +2163,10 @@ export const DE_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write the notice 'The courtyard will be cleaned on Saturday.'?",
+        question: "Which notice is correct German?",
         options: ["Der Hof wird am Samstag gereinigt.", "Der Hof ist am Samstag gereinigt werden.", "Der Hof wird am Samstag reinigen.", "Am Samstag der Hof wird gereinigt."],
         correctIndex: 0,
-        explanation: "\"Wird\" in second place, the participle \"gereinigt\" at the end. \"*Der Hof wird am Samstag reinigen*\" uses the infinitive, which makes it future active (the courtyard will clean).",
+        explanation: "\"Wird\" second, participle at the end.",
       },
       {
         type: "word-order",

@@ -463,10 +463,10 @@ export const DE_B1_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'I hope it doesn't rain tomorrow.'?",
+            question: "Which sentence is correct?",
             options: ["Ich hoffe, dass es morgen nicht regnet.", "Ich hoffe, dass es morgen nicht regnen würde.", "Ich wünschte, dass es morgen nicht regnet.", "Ich hoffe, es würde morgen nicht regnen."],
             correctIndex: 0,
-            explanation: "\"Hoffen\" is about something possible, so it takes the indicative: \"nicht regnet\". \"*Ich wünschte, ...*\" is for unreal wishes and needs a Konjunktiv II.",
+            explanation: "\"Hoffen\" takes the indicative. \"Ich wünschte\" is for unreal wishes and is followed by a Konjunktiv II.",
           },
         ],
       },
@@ -1362,10 +1362,10 @@ export const DE_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'If you have any questions, please contact us.' (formal)?",
+        question: "Which sentence is correct?",
         options: ["Wenn Sie Fragen haben, wenden Sie sich an uns.", "Wenn Sie Fragen haben, Sie wenden sich an uns.", "Wenn Sie haben Fragen, wenden Sie sich an uns.", "Wenn Sie Fragen haben, wendet sich an uns."],
         correctIndex: 0,
-        explanation: "Verb last in the wenn-clause, then the Sie imperative: verb + \"Sie\" (\"wenden Sie sich\"). \"*Sie wenden sich an uns*\" is a statement with the subject first.",
+        explanation: "Verb last in the wenn-clause; Sie imperative: verb + \"Sie\".",
       },
       {
         type: "word-order",

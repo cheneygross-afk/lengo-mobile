@@ -163,10 +163,10 @@ export const DE_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm going to bed early so that I'm fit tomorrow.'?",
+        question: "Which sentence is correct?",
         options: ["Ich gehe früh ins Bett, um morgen fit zu sein.", "Ich gehe früh ins Bett, damit morgen fit zu sein.", "Ich gehe früh ins Bett, um dass ich morgen fit bin.", "Ich gehe früh ins Bett, für morgen fit zu sein."],
         correctIndex: 0,
-        explanation: "Same subject in both halves, so \"um ... zu sein\". \"*für morgen fit zu sein*\" copies English for; \"für\" cannot introduce a verb.",
+        explanation: "Same subject: \"um ... zu sein\". The others mix the two patterns or use \"für\" with a verb.",
       },
       {
         type: "word-order",
@@ -909,10 +909,10 @@ export const DE_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write the tip 'Take breaks to recover.' (formal)?",
+        question: "Which tip is correct?",
         options: ["Machen Sie Pausen, um sich zu erholen.", "Machen Sie Pausen, damit sich zu erholen.", "Machen Sie Pausen, um zu sich erholen.", "Machen Sie Pausen, für sich zu erholen."],
         correctIndex: 0,
-        explanation: "Same subject, so \"um\" + reflexive pronoun + \"zu erholen\": \"um sich zu erholen\". \"*um zu sich erholen*\" puts \"zu\" in the wrong place: it goes directly before the infinitive.",
+        explanation: "\"Um\" + reflexive pronoun + \"zu erholen\". Only \"um ... zu\" works with this same-subject purpose clause.",
       },
       {
         type: "word-order",
@@ -1498,10 +1498,10 @@ export const DE_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write the tip 'Bring a cake so the neighbours get to know you.' (to a friend)?",
+        question: "Which tip is correct?",
         options: ["Bring einen Kuchen mit, damit die Nachbarn dich kennenlernen.", "Bring einen Kuchen mit, um die Nachbarn dich kennenlernen.", "Bring einen Kuchen mit, damit die Nachbarn dich kennenzulernen.", "Bring einen Kuchen mit, für die Nachbarn kennenzulernen."],
         correctIndex: 0,
-        explanation: "The neighbours are a new subject, so \"damit\" + subject + verb at the end, without \"zu\". \"*damit die Nachbarn dich kennenzulernen*\" adds a \"zu\" that \"damit\" never takes.",
+        explanation: "The neighbours get to know you: a new subject, so \"damit\" + verb at the end, no \"zu\".",
       },
       {
         type: "word-order",
@@ -1884,10 +1884,10 @@ export const DE_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'He was ill, so he couldn't come.'?",
+        question: "Which sentence is correct?",
         options: ["Er war krank, sodass er nicht kommen konnte.", "Sodass er krank war, konnte er nicht kommen.", "Er war krank, damit er nicht kommen konnte.", "Er war krank, sodass konnte er nicht kommen."],
         correctIndex: 0,
-        explanation: "\"Sodass\" comes after the cause and sends the verb to the end: \"nicht kommen konnte\". \"*damit*\" means in order that, which makes no sense here.",
+        explanation: "\"Sodass\" follows the cause and sends the verb to the end.",
       },
       {
         type: "multiple-choice",

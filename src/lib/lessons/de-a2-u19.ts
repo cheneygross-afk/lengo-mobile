@@ -1405,10 +1405,10 @@ export const DE_A2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'That's why my uncle played the guitar.'?",
+        question: "Which sentence is correct?",
         options: ["Deshalb hat mein Onkel Gitarre gespielt.", "Deshalb mein Onkel hat Gitarre gespielt.", "Deshalb hat mein Onkel gespielt Gitarre.", "Deshalb mein Onkel Gitarre gespielt hat."],
         correctIndex: 0,
-        explanation: "\"Deshalb\" fills position 1, so the auxiliary \"hat\" comes second and the participle last. \"*Deshalb mein Onkel hat*\" puts the verb third.",
+        explanation: "\"Deshalb\" fills position 1; the auxiliary comes second, the participle last.",
       },
       {
         type: "translate",
@@ -2241,10 +2241,10 @@ export const DE_A2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Still, it was a good year.'?",
+        question: "Which sentence is correct?",
         options: ["Trotzdem war es ein gutes Jahr.", "Trotzdem es war ein gutes Jahr.", "Trotzdem war es ein guter Jahr.", "Trotzdem war es eine gute Jahr."],
         correctIndex: 0,
-        explanation: "\"Trotzdem\" in position 1, verb next; \"das Jahr\" is neuter: \"ein gutes Jahr\". \"*Trotzdem es war*\" puts the verb third.",
+        explanation: "\"Trotzdem\" in position 1, verb next; \"das Jahr\" is neuter: \"ein gutes Jahr\".",
       },
       {
         type: "translate",
@@ -2448,10 +2448,10 @@ export const DE_A2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'I know that the water is hot.'?",
+        question: "Which spelling is correct?",
         options: ["Ich weiß, dass das Wasser heiß ist.", "Ich weiss, das das Wasser heiss ist.", "Ich weiß, das das Waßer heiß ist.", "Ich weiß dass das Wasser heiß ist."],
         correctIndex: 0,
-        explanation: "\"Weiß\" and \"heiß\" (ß after ei), \"dass\" (conjunction), \"Wasser\" (ss after short a), and a comma before \"dass\". \"*Ich weiss, das*\" uses the Swiss ss and the article \"das\".",
+        explanation: "\"Weiß\" and \"heiß\" (ß after ei), \"dass\" (conjunction), \"Wasser\" (ss after short a), and a comma before \"dass\".",
       },
       {
         type: "translate",

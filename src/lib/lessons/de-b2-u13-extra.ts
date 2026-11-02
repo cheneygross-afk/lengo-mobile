@@ -556,10 +556,10 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The more I sleep, the more tired I am.'?",
-        options: ["Je mehr ich schlafe, desto müder bin ich.", "Je mehr ich schlafe, desto müder ich bin.", "Je mehr schlafe ich, desto müder bin ich.", "Je mehr ich schlafe, desto bin ich müder."],
+        question: "Which sentence is correct?",
+        options: ["Je mehr ich schlafe, desto müder bin ich.", "Je mehr ich schlafe, desto müder ich bin.", "Je mehr schlafe ich, desto müder bin ich.", "Je mehr ich schlafe, je müder bin ich."],
         correctIndex: 0,
-        explanation: "Verb last after \"je\", verb straight after the desto-phrase: \"desto müder bin ich\". \"*desto müder ich bin*\" wrongly puts the verb last in the second half too.",
+        explanation: "Verb last after \"je\", verb second after \"desto\".",
       },
       {
         type: "word-order",

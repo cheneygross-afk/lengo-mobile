@@ -128,7 +128,7 @@ export const PT_C2_U20: Lesson[] = [
       {
         heading: "The page: manchete, linha fina, intertítulo",
         body: [
-          "\"Manchete\" is not any headline but the main headline on the front page (or on a section front); the general word is \"título\". Above the headline there may be a \"chapéu\" (kicker): a word or two that labels the topic, such as \"ELEIÇÕES 2028\". Below it comes the \"linha fina\", a full sentence, also in the present, that adds what the headline had no room for.",
+          "\"Manchete\" is not any headline but the main headline on the front page (or on a section front); the general word is \"título\". Above the headline there may be a \"chapéu\" (kicker): a word or two that labels the topic, such as \"ELEIÇÕES 2026\". Below it comes the \"linha fina\", a full sentence, also in the present, that adds what the headline had no room for.",
           "Inside the story, \"intertítulos\" (subheads) break the text into blocks, and an \"olho\" is a quotation or a key sentence pulled out in large type. The headline and the linha fina shouldn't repeat each other: if the headline says what, the linha fina says how much, why or what next.",
         ],
         examples: [
@@ -248,7 +248,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "speak",
         text: "Câmara aprova reforma tributária em segundo turno",
         prompt: "Read the headline aloud as a radio presenter would.",
-        tip: "Stress tri-bu-TÁ-ria, and keep \"segundo turno\" smooth: se-GUN-doo TUR-noo.",
+        tip: "Stress tri-bu-TÁ-ria, and keep \"segundo turno\" smooth: se-GUN-du TUR-nu.",
         explanation: "Present tense for a past event, no articles: the grammar of the headline.",
       },
       {
@@ -554,7 +554,7 @@ export const PT_C2_U20: Lesson[] = [
           { es: "Segundo a polícia, o incêndio começou por volta das 3h.", en: "According to the police, the fire started at around 3 a.m." },
           { es: "A ministra declarou que o programa será mantido.", en: "The minister stated that the program would be kept." },
           { es: "De acordo com o IBGE, o desemprego caiu para 6,2%.", en: "According to IBGE, the national statistics institute, unemployment fell to 6.2%." },
-          { es: "O deputado admitiu ter usado o carro oficial em viagens pessoais.", en: "The congressman admitted to having used the official car for personal trips." },
+          { es: "O deputado admitiu ter usado o carro oficial em viagens pessoais.", en: "The deputy admitted to having used the official car for personal trips." },
         ],
         checkpoint: [
           {
@@ -633,7 +633,7 @@ export const PT_C2_U20: Lesson[] = [
           "The legal vocabulary follows a sequence that matters: \"suspeito\" or \"investigado\" (under investigation), \"denunciado\" (charged by prosecutors), \"réu\" (once a court accepts the charges), \"condenado\" (convicted). Calling a suspect \"bandido\" or \"assassino\" before conviction breaks the presumption of innocence and can bring a lawsuit.",
         ],
         examples: [
-          { es: "O deputado teria recebido R$ 2 milhões em propina, segundo a denúncia.", en: "The congressman allegedly received R$2 million in bribes, according to the indictment." },
+          { es: "O deputado teria recebido R$ 2 milhões em propina, segundo a denúncia.", en: "The deputy allegedly received R$2 million in bribes, according to the indictment." },
           { es: "Segundo testemunhas, o motorista estaria embriagado.", en: "According to witnesses, the driver was reportedly drunk." },
           { es: "O empresário é investigado por lavagem de dinheiro.", en: "The businessman is under investigation for money laundering." },
           { es: "Com a decisão do juiz, o ex-secretário passa a ser réu.", en: "With the judge's decision, the former secretary now stands trial." },
@@ -659,10 +659,10 @@ export const PT_C2_U20: Lesson[] = [
             audio: "O deputado teria recebido dois milhões de reais em propina, segundo a denúncia.",
             question: "What does it mean?",
             options: [
-              "The congressman allegedly received two million reais in bribes, according to the indictment.",
-              "The congressman would have received two million reais if he had accepted the bribe.",
-              "The congressman has received two million reais in bribes, the indictment proves.",
-              "The congressman should have reported the two million reais in bribes.",
+              "The deputy allegedly received two million reais in bribes, according to the indictment.",
+              "The deputy would have received two million reais if he had accepted the bribe.",
+              "The deputy has received two million reais in bribes, the indictment proves.",
+              "The deputy should have reported the two million reais in bribes.",
             ],
             correctIndex: 0,
             explanation: "\"Teria recebido\" + \"segundo a denúncia\" is the journalistic conditional: allegedly, not 'would have'.",
@@ -1063,7 +1063,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "speak",
         text: "Os dados são do Instituto Brasileiro de Geografia e Estatística.",
         prompt: "Read the sentence aloud, then say the sigla: I-B-G-E.",
-        tip: "Spell IBGE letter by letter: i-bê-gê-é. \"Estatística\" is es-ta-CHEES-chee-ca.",
+        tip: "Spell IBGE letter by letter: i-bê-gê-é. \"Estatística\" is es-ta-TÍS-ti-ca.",
         explanation: "IBGE is spelled out aloud, which is why it stays in capitals.",
       },
       {
@@ -1144,7 +1144,7 @@ export const PT_C2_U20: Lesson[] = [
         ],
         examples: [
           { es: "Acho que a gente tem que repensar a escola.", en: "I think we have to rethink school." },
-          { es: "Ele nunca me recebeu.", en: "He never agreed to see me. In print, the editor adds the reference in brackets: \"Ele [o prefeito] nunca me recebeu\"." },
+          { es: "Ele [o prefeito] nunca me recebeu.", en: "He [the mayor] never agreed to see me." },
           { es: "Eu queria ser jogador de futebol, mas era muito ruim. (risos)", en: "I wanted to be a soccer player, but I was terrible. (laughs)" },
           { es: "Nós não temos esse número agora.", en: "We don't have that figure right now." },
         ],
@@ -1163,9 +1163,9 @@ export const PT_C2_U20: Lesson[] = [
             prompt: "Write the Portuguese for the bold words.",
             en: "He [[the mayor]] never agreed to see me.",
             sentence: "Ele ___ nunca me recebeu.",
-            answer: "o prefeito",
-            altAnswers: ["[o prefeito]"],
-            explanation: "In print these words go in square brackets, \"Ele [o prefeito]\", because the editor added them for clarity. The speaker's own words stay untouched.",
+            answer: "[o prefeito]",
+            altAnswers: ["o prefeito"],
+            explanation: "Square brackets mark words the editor added for clarity. The speaker's own words stay untouched.",
           },
         ],
       },
@@ -1871,7 +1871,7 @@ export const PT_C2_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Amanhã a gente faz a suíte.",
-        explanation: "\"Suíte\" is a follow-up story; the accent on the i keeps it three syllables, su-Í-chee, not \"suí-te\".",
+        explanation: "\"Suíte\" is a follow-up story; the accent on the i keeps it three syllables, su-Í-te, not \"suí-te\".",
       },
       {
         type: "translate",
@@ -2082,7 +2082,7 @@ export const PT_C2_U20: Lesson[] = [
             type: "speak",
             text: "Repetindo: a Selic agora é de dez e meio por cento ao ano.",
             prompt: "Read the closing line of the bulletin aloud.",
-            tip: "Pause after \"Repetindo\"; \"Selic\" is SÉ-lic, and keep \"por cento\" clear: por SEN-too.",
+            tip: "Pause after \"Repetindo\"; \"Selic\" is SÉ-lic, and keep \"por cento\" clear: por SEN-tu.",
             explanation: "Radio repeats the key figure for listeners who tuned in late.",
           },
         ],
@@ -2155,7 +2155,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "speak",
         text: "A Selic, a taxa básica, caiu de onze para dez e meio por cento ao ano.",
         prompt: "Read the radio line aloud: The Selic, the benchmark rate, fell from eleven to ten and a half percent a year.",
-        tip: "Read numbers slowly and clearly; \"onze\" has a closed o, and \"meio\" is MEI-oo.",
+        tip: "Read numbers slowly and clearly; \"onze\" has a closed o, and \"meio\" is MEI-u.",
         explanation: "Spoken figures and an explained sigla: radio writing.",
       },
       {
@@ -2437,7 +2437,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "speak",
         text: "Prefiro perder o furo a dar uma barriga.",
         prompt: "Say Sandra's line in Portuguese: I'd rather lose the scoop than run a false story.",
-        tip: "\"Prefiro\" is pre-FI-roo; the r in \"barriga\" is the strong one, like an English h.",
+        tip: "\"Prefiro\" is pre-FI-ru; the r in \"barriga\" is the strong one, like an English h.",
         explanation: "\"Preferir X a Y\": the editor's choice of accuracy over speed.",
       },
       {
@@ -2564,7 +2564,7 @@ export const PT_C2_U20: Lesson[] = [
           "Legal status words must match the facts. \"O bandido foi preso\" should be \"o suspeito foi preso\", and \"o réu\" only applies once a court has accepted the charges. When in doubt, describe the procedure: \"investigado pela PF\", \"denunciado pelo Ministério Público\".",
         ],
         examples: [
-          { es: "Segundo a Polícia Federal, o deputado teria recebido propina.", en: "According to the Federal Police, the congressman allegedly took bribes." },
+          { es: "Segundo a Polícia Federal, o deputado teria recebido propina.", en: "According to the Federal Police, the deputy allegedly took bribes." },
           { es: "O suspeito foi preso em flagrante.", en: "The suspect was caught in the act and arrested." },
           { es: "O vereador é investigado pela PF por desvio de verbas.", en: "The council member is being investigated by the Federal Police for embezzlement." },
         ],
@@ -2573,7 +2573,7 @@ export const PT_C2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Fix the unattributed claim: \"O deputado recebeu propina.\"",
-            source: "According to the Federal Police, the congressman allegedly took bribes.",
+            source: "According to the Federal Police, the deputy allegedly took bribes.",
             answer: "Segundo a Polícia Federal, o deputado teria recebido propina.",
             altAnswers: [
               "De acordo com a Polícia Federal, o deputado teria recebido propina.",
@@ -2999,7 +2999,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "speak",
         text: "A Câmara Municipal de Natal aprovou nesta terça-feira, por dezenove votos a seis, um projeto que proíbe fogos com estampido.",
         prompt: "Read your lide aloud as if for the paper's podcast.",
-        tip: "Pause at the commas around the vote count; \"estampido\" is es-tam-PI-doo.",
+        tip: "Pause at the commas around the vote count; \"estampido\" is es-tam-PI-du.",
         explanation: "The lide read aloud: who, what, when and how many, in one sentence.",
       },
       {

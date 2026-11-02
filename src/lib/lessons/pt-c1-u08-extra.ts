@@ -88,10 +88,10 @@ export const PT_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Portuguese, using \"é que\".",
+        prompt: "Translate into Portuguese, using é que.",
         source: "What happened?",
         answer: "O que é que aconteceu?",
-        altAnswers: ["O que foi que aconteceu?", "O que foi que houve?"],
+        altAnswers: ["O que foi que aconteceu?", "O que aconteceu?", "O que houve?", "O que foi que houve?"],
         explanation: "\"O que é que aconteceu?\" is the relaxed spoken form: \"é que\" after the question word changes the tone, not the meaning. Plain \"O que aconteceu?\" is equally correct.",
       },
       {
@@ -151,7 +151,7 @@ export const PT_C1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Onde é que você mora agora?",
         prompt: "Say it in Portuguese: Where do you live now?",
-        tip: "Run \"onde é que\" together in one breath, Õ-jee-É-kee, and put the main stress on MÓ-ra.",
+        tip: "Run \"onde é que\" together in one breath, ON-dji-é-ki, and put the main stress on MO-ra.",
         explanation: "\"Onde é que você mora agora?\" is the relaxed spoken question. After \"é que\" the subject comes before the verb: \"você mora\".",
       },
       {
@@ -199,7 +199,7 @@ export const PT_C1_U08_EXTRA: Lesson[] = [
             prompt: "Translate into Portuguese, with the subject after the verb.",
             source: "The guests have arrived.",
             answer: "Chegaram os convidados.",
-            altAnswers: ["Já chegaram os convidados."],
+            altAnswers: ["Os convidados chegaram.", "Já chegaram os convidados."],
             explanation: "With \"chegar\", new information usually follows the verb: \"chegaram os convidados\". The verb is plural because its subject, \"os convidados\", is plural.",
           },
           {
@@ -282,7 +282,7 @@ export const PT_C1_U08_EXTRA: Lesson[] = [
         en: "[The famous singer died] yesterday.",
         sentence: "___ ontem.",
         answer: "Morreu o famoso cantor",
-        altAnswers: ["Morreu o cantor famoso"],
+        altAnswers: ["O famoso cantor morreu", "Morreu o cantor famoso"],
         explanation: "News style puts the verb first when announcing an event: \"morreu o famoso cantor\". The subject that carries the news comes after the verb.",
       },
       {
@@ -317,7 +317,7 @@ export const PT_C1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não quero não, obrigada.",
         prompt: "Say it in spoken Portuguese: I really don't want any, thanks.",
-        tip: "The second \"não\" is unstressed.",
+        tip: "The second não is unstressed.",
         explanation: "The second \"não\" at the end makes the refusal firm but friendly in speech: \"não quero não\". A woman says \"obrigada\".",
       },
       {
@@ -361,10 +361,10 @@ export const PT_C1_U08_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into conversational Portuguese, using \"é que\".",
+            prompt: "Translate into conversational Portuguese, using é que.",
             source: "Who are you going to the show with?",
             answer: "Com quem é que você vai ao show?",
-            altAnswers: ["Com quem é que você vai no show?", "Com quem é que você vai pro show?"],
+            altAnswers: ["Com quem é que você vai no show?", "Com quem você vai ao show?", "Com quem é que você vai pro show?"],
             explanation: "The preposition \"com\" stays in front of \"quem\"; \"é que\" follows the question word.",
           },
           {
@@ -414,7 +414,7 @@ export const PT_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into conversational Portuguese, using \"foi que\".",
+        prompt: "Translate into conversational Portuguese, using foi que.",
         source: "When was it that you moved?",
         answer: "Quando foi que vocês se mudaram?",
         altAnswers: ["Quando foi que você se mudou?", "Quando é que vocês se mudaram?", "Quando é que você se mudou?", "Quando foi que o senhor se mudou?", "Quando foi que a senhora se mudou?"],
@@ -432,10 +432,10 @@ export const PT_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into conversational Portuguese, using \"é que\".",
+        prompt: "Translate into conversational Portuguese, using é que.",
         source: "What do you want for dinner?",
         answer: "O que é que você quer jantar?",
-        altAnswers: ["O que é que você quer comer no jantar?", "O que é que vocês querem jantar?", "O que é que você quer de jantar?"],
+        altAnswers: ["O que é que você quer comer no jantar?", "O que você quer jantar?", "O que é que vocês querem jantar?", "O que é que você quer de jantar?"],
         explanation: "\"O que é que\" is the full spoken form; chat writes \"o que que\".",
       },
       {

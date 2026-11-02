@@ -193,10 +193,10 @@ export const DE_B1_U35: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm staying at home because I have to work.'?",
+        question: "Which sentence is correct?",
         options: ["Ich bleibe zu Hause, weil ich arbeiten muss.", "Ich bleibe zu Hause, weil ich muss arbeiten.", "Ich bleibe zu Hause, weil muss ich arbeiten.", "Ich bleibe zu Hause, denn ich arbeiten muss."],
         correctIndex: 0,
-        explanation: "\"Weil\" sends the modal to the end: \"arbeiten muss\". \"*denn ich arbeiten muss*\" mixes them: \"denn\" keeps normal order.",
+        explanation: "\"Weil\" + verb last; \"denn\" keeps main-clause order.",
       },
       {
         type: "dictation",
@@ -1658,10 +1658,10 @@ export const DE_B1_U35: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I helped my new neighbour.'?",
+        question: "Which sentence is correct?",
         options: ["Ich habe meinem neuen Nachbarn geholfen.", "Ich habe meinen neuen Nachbar geholfen.", "Ich habe mein neuer Nachbar geholfen.", "Ich habe meinem neuen Nachbar geholfen."],
         correctIndex: 0,
-        explanation: "\"Helfen\" takes the dative (\"meinem neuen\"), and the n-noun adds -n: \"Nachbarn\". \"*meinem neuen Nachbar*\" forgets the -n.",
+        explanation: "\"Helfen\" + dative; n-noun \"Nachbarn\" with the ending.",
       },
       {
         type: "word-order",

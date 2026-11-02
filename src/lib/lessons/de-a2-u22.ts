@@ -177,10 +177,10 @@ export const DE_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Please give me the book!' (to a friend)",
+        question: "Which sentence is correct?",
         options: ["Gib mir bitte das Buch!", "Geb mir bitte das Buch!", "Gibst mir bitte das Buch!", "Gebe mir bitte das Buch!"],
         correctIndex: 0,
-        explanation: "\"Du gibst\" → \"Gib!\": the e → i change stays and there's no -e. \"*Geb*\" drops the vowel change.",
+        explanation: "\"Du gibst\" → \"Gib!\".",
       },
       {
         type: "translate",
@@ -569,10 +569,10 @@ export const DE_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'He was a nice boy.'?",
+        question: "Which is correct?",
         options: ["Er war ein netter Junge.", "Er war ein nette Junge.", "Er war ein netten Junge.", "Er war einen netten Junge."],
         correctIndex: 0,
-        explanation: "Masculine nominative after \"ein\": -er, \"ein netter Junge\"; after \"sein\" the noun stays nominative. \"*Einen netten Jungen*\" would be the accusative.",
+        explanation: "Masculine nominative after \"ein\": -er. After \"sein\" the noun is nominative too.",
       },
       {
         type: "translate",
@@ -1286,10 +1286,10 @@ export const DE_A2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How should Mehmet write 'I don't know if she likes fish.'?",
+            question: "Which version of Mehmet's last sentence is correct?",
             options: ["Ich weiß nicht, ob sie Fisch mag.", "Ich weiß nicht, ob sie mag Fisch.", "Ich weiß nicht, wenn sie Fisch mag.", "Ich weiß nicht, dass sie Fisch mag."],
             correctIndex: 0,
-            explanation: "If = whether: \"ob\", with the verb \"mag\" last. \"*Wenn sie Fisch mag*\" uses the 'if' of conditions, not of 'whether'.",
+            explanation: "If = whether: \"ob\", with the verb \"mag\" last.",
           },
         ],
       },
@@ -2080,10 +2080,10 @@ export const DE_A2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'He didn't have an umbrella, so he got wet.'?",
+            question: "Which link is correct?",
             options: ["Er hatte keinen Schirm, deshalb ist er nass geworden.", "Er hatte keinen Schirm, deshalb er ist nass geworden.", "Er hatte keinen Schirm, deshalb er nass geworden ist.", "Er hatte keinen Schirm, weil ist er nass geworden."],
             correctIndex: 0,
-            explanation: "\"Deshalb\" + verb second; \"nass werden\" takes \"sein\": \"ist ... geworden\". \"*Deshalb er ist*\" puts the verb third.",
+            explanation: "\"Deshalb\" + verb second; \"nass werden\" takes \"sein\": \"ist ... geworden\".",
           },
         ],
       },

@@ -124,7 +124,7 @@ export const PT_B1_U16: Lesson[] = [
         examples: [
           { es: "Ponte é inaugurada em Recife.", en: "Bridge opened in Recife." },
           { es: "Suspeito é preso pela polícia em Salvador.", en: "Suspect arrested by police in Salvador." },
-          { es: "Lojas são fechadas no centro de Curitiba.", en: "Stores closed in downtown Curitiba." },
+          { es: "Lojas são fechadas no centro de Curitiba.", en: "Shops closed in downtown Curitiba." },
           { es: "A ponte foi inaugurada ontem pela prefeitura.", en: "The bridge was opened yesterday by city hall." },
           { es: "Governo anuncia novo programa de vacinação.", en: "Government announces new vaccination program." },
         ],
@@ -156,9 +156,9 @@ export const PT_B1_U16: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Stores closed in downtown Curitiba.",
+            prompt: "Put the words in order to say: Shops closed in downtown Curitiba.",
             words: ["Lojas", "são", "fechadas", "no centro", "de Curitiba."],
-            translation: "Stores closed in downtown Curitiba.",
+            translation: "Shops closed in downtown Curitiba.",
             explanation: "\"Lojas são fechadas\": a plural feminine subject, so the verb is \"são\" and the participle is \"fechadas\".",
           },
         ],
@@ -260,7 +260,7 @@ export const PT_B1_U16: Lesson[] = [
         type: "speak",
         text: "O governo anunciou que o metrô vai abrir mais cedo.",
         prompt: "Say it in Portuguese: The government announced that the subway will open earlier.",
-        tip: "Make the nun in anunciou nasal, and stress the last syllable: a-nũn-see-OH. Metrô ends in a closed ô.",
+        tip: "Make the nun in anunciou nasal, and stress the last syllable: a-nun-ci-OU. Metrô ends in a closed ô.",
         explanation: "\"Anunciou que\" introduces a new decision. \"Vai abrir\" stays in the future because the change hasn't happened yet.",
       },
       {
@@ -429,7 +429,7 @@ export const PT_B1_U16: Lesson[] = [
           {
             type: "speak",
             text: "Cerca de sessenta por cento dos entrevistados usam o metrô.",
-            tip: "Say \"por cento\" as one unit, por-SEN-too, with a nasal e and the final o as oo.",
+            tip: "Say \"por cento\" as one unit, por-SEN-tu, with a nasal e and the final o as u.",
             explanation: "\"Cerca de\" rounds the figure, and \"usam\" agrees with \"entrevistados\".",
           },
         ],
@@ -526,7 +526,7 @@ export const PT_B1_U16: Lesson[] = [
         type: "speak",
         text: "As vendas caíram pela metade.",
         prompt: "Say it in Portuguese: Sales halved.",
-        tip: "Stress the í in caíram: ka-Í-rãw, three syllables.",
+        tip: "Stress the í in caíram: ca-Í-ram, three syllables.",
         explanation: "\"Cair pela metade\" means to halve. \"Caíram\" agrees with \"as vendas\".",
       },
       {
@@ -927,7 +927,7 @@ export const PT_B1_U16: Lesson[] = [
           {
             type: "speak",
             text: "Em resumo, o texto trata da desigualdade.",
-            tip: "The final -de in desigualdade sounds like jee, and the s between vowels in desigualdade is a z.",
+            tip: "The final -de in desigualdade sounds like dji, and the s between vowels in desigualdade is a z.",
             explanation: "\"Trata da\" is \"trata de\" + \"a desigualdade\".",
           },
         ],
@@ -1204,7 +1204,7 @@ export const PT_B1_U16: Lesson[] = [
           {
             type: "speak",
             text: "Precisamos proteger o meio ambiente.",
-            tip: "The t in ambiente sounds like ch: am-BYEN-chee. The final e sounds like ee.",
+            tip: "The t in ambiente sounds like ch: am-BIEN-tchi. The final e is an i.",
             explanation: "\"O meio ambiente\": two words, no hyphen.",
           },
         ],
@@ -1283,7 +1283,7 @@ export const PT_B1_U16: Lesson[] = [
         type: "speak",
         text: "O aquecimento global é um problema sério.",
         prompt: "Say it in Portuguese: Global warming is a serious problem.",
-        tip: "The final l in global sounds like a w: glo-BOW. The é in sério is open.",
+        tip: "The final l in global sounds like a w: glo-BAU. The é in sério is open.",
         explanation: "\"O problema\" is masculine despite the -a, so \"um problema sério\".",
       },
       {
@@ -1550,7 +1550,7 @@ export const PT_B1_U16: Lesson[] = [
         type: "speak",
         text: "Segundo a matéria, cerca de quarenta por cento das pessoas passam uma hora no trânsito.",
         prompt: "Say it in Portuguese: According to the article, about 40% of people spend an hour in traffic.",
-        tip: "In cento, the final o sounds like oo: SEN-too.",
+        tip: "In cento, the final o sounds like u: SEN-tu.",
         explanation: "Source first (\"segundo a matéria\"), then \"cerca de\" + percentage + \"das pessoas\", with a plural verb.",
       },
       {
@@ -1646,7 +1646,7 @@ export const PT_B1_U16: Lesson[] = [
         body: [
           "\"De\" fuses with the article after it to make \"do\", \"da\", \"dos\" and \"das\". So \"o aumento de os preços\" and \"a metade de as pessoas\" are errors. Write \"o aumento dos preços\" and \"a metade das pessoas\". It's the same contraction as in \"a casa do João\", and news language is full of it: \"30% dos brasileiros\", \"um terço da população\".",
           "Headline nouns almost all take \"de\": \"a queda da inflação\", \"o crescimento do turismo\". Fractions do too, and \"mais da metade\" is \"de\" + \"a metade\".",
-          "The one exception is the personal infinitive from Unit 17. Careful writing keeps \"de\" apart when the article starts the subject of an infinitive: \"antes de os preços subirem\".",
+          "The one exception is the personal infinitive from Unit 9. Careful writing keeps \"de\" apart when the article starts the subject of an infinitive: \"antes de os preços subirem\".",
         ],
         examples: [
           { es: "O aumento dos preços preocupa as famílias.", en: "The rise in prices worries families." },
@@ -1810,7 +1810,7 @@ export const PT_B1_U16: Lesson[] = [
         type: "speak",
         text: "Cerca de um terço dos moradores usa o metrô.",
         prompt: "Say it in Portuguese: About a third of the residents use the subway.",
-        tip: "In most of Brazil \"de\" sounds like 'jee', so \"cerca de\" is SER-ka jee. Stress \"metrô\" on the last syllable, with a closed ô.",
+        tip: "In most of Brazil \"de\" sounds like 'dji', so \"cerca de\" is cer-ca dji. Stress \"metrô\" on the last syllable, with a closed ô.",
         explanation: "\"Cerca de\" plus \"dos moradores\" (de + os). \"Usam\" would be just as correct as \"usa\".",
       },
       {
@@ -1914,7 +1914,7 @@ export const PT_B1_U16: Lesson[] = [
         examples: [
           { es: "De acordo com o texto, metade dos ciclistas usa a bicicleta para ir ao trabalho.", en: "According to the text, half of cyclists ride their bike to work." },
           { es: "Já na entrevista, a pesquisadora afirmou que faltam ciclovias seguras.", en: "In the interview, on the other hand, the researcher said there aren't enough safe bike lanes." },
-          { es: "Além disso, ela disse que a prefeitura ia investir em novas rotas.", en: "She also said city hall was going to invest in new routes." },
+          { es: "Além disso, ela disse que a prefeitura ia investir em novas rotas.", en: "She also said the city hall was going to invest in new routes." },
           { es: "O texto mostra o crescimento; o áudio, no entanto, aponta os problemas.", en: "The text shows the growth; the audio, however, points out the problems." },
           { es: "As duas fontes concordam que a bicicleta é uma boa alternativa.", en: "Both sources agree that the bicycle is a good alternative." },
         ],
@@ -1923,7 +1923,7 @@ export const PT_B1_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "In the interview, the researcher said city hall was going to invest in new routes.",
+            source: "In the interview, the researcher said the city hall was going to invest in new routes.",
             answer: "Na entrevista, a pesquisadora disse que a prefeitura ia investir em novas rotas.",
             altAnswers: ["Na entrevista, a pesquisadora afirmou que a prefeitura ia investir em novas rotas.", "Na entrevista, a pesquisadora disse que a prefeitura investiria em novas rotas.", "Na entrevista, o pesquisador disse que a prefeitura ia investir em novas rotas.", "Na entrevista, o pesquisador afirmou que a prefeitura ia investir em novas rotas.", "Na entrevista, o pesquisador disse que a prefeitura investiria em novas rotas."],
             explanation: "Reported speech in the past: \"vai investir\" shifts to \"ia investir\" (or \"investiria\" in writing). \"Na entrevista\" tells the reader which source it is.",
@@ -1980,7 +1980,7 @@ export const PT_B1_U16: Lesson[] = [
           {
             type: "speak",
             text: "Cerca de 30% dos moradores nunca andaram de bicicleta.",
-            tip: "Say 30% as \"trinta por cento\", and the \"de\" in \"cerca de\" with a soft j sound.",
+            tip: "Say 30% as \"trinta por cento\", and the \"de\" in \"cerca de\" with a soft dj sound.",
             explanation: "\"Cerca de\" rounds the figure; \"dos moradores\" is de + os.",
           },
         ],
@@ -2111,7 +2111,7 @@ export const PT_B1_U16: Lesson[] = [
           { es: "Aumento da tarifa de ônibus preocupa moradores", en: "Bus fare increase worries residents (headline)" },
           { es: "Acidentes de trânsito caem 15% em Curitiba", en: "Traffic accidents fall 15% in Curitiba (headline)" },
           { es: "O número de ciclistas no Recife cresceu 40% nos últimos dois anos.", en: "The number of cyclists in Recife has grown 40% over the last two years." },
-          { es: "Desde 2022, a cidade ganhou 60 quilômetros de ciclofaixas.", en: "Since 2022, the city has gained 60 kilometers of bike lanes." },
+          { es: "Desde 2022, a cidade ganhou 60 quilômetros de ciclofaixas.", en: "Since 2022, the city has gained 60 kilometres of bike lanes." },
         ],
         checkpoint: [
           {
@@ -2142,7 +2142,7 @@ export const PT_B1_U16: Lesson[] = [
           "Be honest about rounding: \"cerca de\" means about and \"mais de\" means more than. After \"a maioria dos\", the verb can be singular or plural.",
         ],
         examples: [
-          { es: "Segundo a prefeitura, o número de ciclistas passou de 12 mil para 17 mil.", en: "According to city hall, the number of cyclists went from 12,000 to 17,000." },
+          { es: "Segundo a prefeitura, o número de ciclistas passou de 12 mil para 17 mil.", en: "According to the city hall, the number of cyclists went from 12,000 to 17,000." },
           { es: "De acordo com uma pesquisa da UFPE, 35% dos ciclistas usam a bicicleta para ir ao trabalho.", en: "According to a UFPE survey, 35% of cyclists use their bike to get to work." },
           { es: "Os acidentes com ciclistas caíram 4,5% em relação a 2022.", en: "Accidents involving cyclists fell 4.5% compared to 2022." },
           { es: "A maioria dos entrevistados aprova a mudança.", en: "Most of the people interviewed approve of the change." },
@@ -2185,8 +2185,8 @@ export const PT_B1_U16: Lesson[] = [
         ],
         examples: [
           { es: "A primeira ciclofaixa do bairro foi inaugurada em março de 2022.", en: "The neighborhood's first bike lane was opened in March 2022." },
-          { es: "O secretário de Mobilidade afirmou que a cidade ia ganhar mais 20 quilômetros de ciclofaixas.", en: "The transport secretary stated that the city was going to get 20 more kilometers of bike lanes." },
-          { es: "A prefeitura pretende ampliar a rede até 2030.", en: "City hall intends to expand the network by 2030." },
+          { es: "O secretário de Mobilidade afirmou que a cidade ia ganhar mais 20 quilômetros de ciclofaixas.", en: "The transport secretary stated that the city was going to get 20 more kilometres of bike lanes." },
+          { es: "A prefeitura pretende ampliar a rede até 2026.", en: "The city hall intends to expand the network by 2026." },
           { es: "A expectativa é que o número de ciclistas dobre até o fim do ano.", en: "The number of cyclists is expected to double by the end of the year." },
           { es: "No entanto, muitos comerciantes reclamaram da falta de vagas para carros.", en: "However, many store owners complained about the lack of parking spaces." },
           { es: "Resta saber se a mudança vai durar.", en: "It remains to be seen whether the change will last." },
@@ -2204,7 +2204,7 @@ export const PT_B1_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "City hall [intends to] expand the network.",
+            en: "The city hall [intends to] expand the network.",
             sentence: "A prefeitura ___ ampliar a rede.",
             answer: "pretende",
             altAnswers: ["planeja", "tem a intenção de"],
@@ -2213,7 +2213,7 @@ export const PT_B1_U16: Lesson[] = [
           {
             type: "speak",
             text: "A expectativa é que o número de ciclistas dobre até o fim do ano.",
-            tip: "The t before i in \"expectativa\" sounds like ch: es-pek-ta-CHEE-va. The final e in \"dobre\" sounds like ee.",
+            tip: "The t before i in \"expectativa\" sounds like ch: es-pek-ta-TCHI-va. The final e in \"dobre\" sounds like i.",
             explanation: "\"A expectativa é que\" + subjunctive: \"dobre\", from \"eu dobro\".",
           },
         ],
@@ -2296,9 +2296,9 @@ export const PT_B1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The number is expected to double by 2030.",
-        answer: "A expectativa é que o número dobre até 2030.",
-        altAnswers: ["A expectativa é de que o número dobre até 2030."],
+        source: "The number is expected to double by 2026.",
+        answer: "A expectativa é que o número dobre até 2026.",
+        altAnswers: ["A expectativa é de que o número dobre até 2026."],
         explanation: "\"A expectativa é que\" takes the subjunctive, \"dobre\". By a date is \"até\".",
       },
       {
@@ -2383,7 +2383,7 @@ export const PT_B1_U16: Lesson[] = [
           { es: "O prefeito afirmou que a obra ficaria pronta em março.", en: "The mayor said the construction work would be finished in March." },
           { es: "A ministra declarou que o programa tinha sido um sucesso.", en: "The minister stated that the program had been a success." },
           { es: "A empresa anunciou que vai contratar quinhentas pessoas.", en: "The company announced it's going to hire five hundred people." },
-          { es: "A Defesa Civil pediu para os moradores evitarem a região.", en: "Civil Defense asked residents to avoid the area." },
+          { es: "A Defesa Civil pediu para os moradores evitarem a região.", en: "Civil Defence asked residents to avoid the area." },
         ],
         checkpoint: [
           {
@@ -2414,7 +2414,7 @@ export const PT_B1_U16: Lesson[] = [
           "To summarize, name the topic and the claim: \"a reportagem trata de...\", \"o autor defende que...\", \"em resumo\".",
         ],
         examples: [
-          { es: "Queda das vendas preocupa lojistas de Curitiba.", en: "Drop in sales worries Curitiba store owners." },
+          { es: "Queda das vendas preocupa lojistas de Curitiba.", en: "Drop in sales worries Curitiba shopkeepers." },
           { es: "O aumento da tarifa de ônibus foi anunciado ontem.", en: "The bus fare increase was announced yesterday." },
           { es: "Mais de 40% dos entrevistados leem notícias pelo celular.", en: "More than 40% of those interviewed read the news on their phones." },
           { es: "A maioria dos moradores aprovou a mudança.", en: "Most residents approved the change." },
@@ -2525,7 +2525,7 @@ export const PT_B1_U16: Lesson[] = [
         type: "speak",
         text: "Segundo o hospital, mais de mil pessoas foram atendidas.",
         prompt: "Say it in Portuguese: According to the hospital, more than a thousand people were treated.",
-        tip: "The d before i in \"atendidas\" sounds like the j in jeans, and the l in \"mil\" sounds like a w.",
+        tip: "The d before i in \"atendidas\" sounds like the j in jeans, and the l in \"mil\" sounds like a u.",
         explanation: "\"Foram atendidas\" agrees with \"pessoas\" (feminine plural), and \"mais de\" comes before the number.",
       },
       {

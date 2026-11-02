@@ -24,7 +24,7 @@ export const PT_B2_U14: Lesson[] = [
           { es: "A bossa nova nasceu no Rio no final dos anos 50.", en: "Bossa nova was born in Rio in the late fifties." },
           { es: "Caetano Veloso e Gilberto Gil são dois nomes enormes da MPB.", en: "Caetano Veloso and Gilberto Gil are two huge names in MPB." },
           { es: "O funk carioca toca em todas as festas do bairro.", en: "Funk carioca plays at every party in the neighborhood." },
-          { es: "Vamos ao show da Marisa Monte no sábado?", en: "Should we go to Marisa Monte's concert on Saturday?" },
+          { es: "Vamos ao show da Marisa Monte no sábado?", en: "Shall we go to Marisa Monte's concert on Saturday?" },
           { es: "A terceira faixa do disco é a minha preferida.", en: "The third track on the album is my favorite." },
         ],
         checkpoint: [
@@ -32,7 +32,7 @@ export const PT_B2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Should we go to the concert on Saturday?",
+            source: "Shall we go to the concert on Saturday?",
             answer: "Vamos ao show no sábado?",
             altAnswers: ["Vamos ao show sábado?", "Vamos no show no sábado?", "Vamos no show sábado?", "Vamos ao concerto no sábado?"],
             explanation: "A pop or MPB concert is a \"show\"; \"concerto\" suggests classical music. \"Ir a\" + \"o\" gives \"ao show\"; \"no show\" is common in speech.",
@@ -131,7 +131,7 @@ export const PT_B2_U14: Lesson[] = [
           {
             type: "speak",
             text: "O ritmo é dançante, mas a letra é bem triste.",
-            tip: "Make the \"an\" of dançante nasal, and let the final -te sound like 'chee': 'dã-SÃN-chee'.",
+            tip: "Make the \"an\" of dançante nasal, and let the final -te sound like \"tchi\".",
             explanation: "\"Dançante\" describes the rhythm, \"triste\" the lyrics: \"mas\" sets the sound against the words.",
           },
         ],
@@ -244,18 +244,18 @@ export const PT_B2_U14: Lesson[] = [
     slug: "b2-film-reviews",
     level: "PT-B2",
     number: 2,
-    title: "Reviewing a Movie",
+    title: "Reviewing a Film",
     summary: "Summarize a plot in the present, judge the script, acting and cinematography, and give a verdict with vale a pena and deixa a desejar.",
     duration: "15 min",
     sections: [
       {
-        heading: "Aborda, retrata, se passa em: what the movie is about",
+        heading: "Aborda, retrata, se passa em: what the film is about",
         body: [
-          "To say what a movie is about, reviewers use a small set of verbs: \"o filme aborda\" (deals with), \"trata de\" (is about), \"retrata\" (portrays), \"conta a história de\" (tells the story of) and \"se passa em\" (is set in). \"Abordar\" and \"retratar\" take a direct object: \"aborda a desigualdade\", not \"aborda sobre a desigualdade\", a slip even Brazilians make. In conversation, \"o filme é sobre...\" is fine.",
+          "To say what a film is about, reviewers use a small set of verbs: \"o filme aborda\" (deals with), \"trata de\" (is about), \"retrata\" (portrays), \"conta a história de\" (tells the story of) and \"se passa em\" (is set in). \"Abordar\" and \"retratar\" take a direct object: \"aborda a desigualdade\", not \"aborda sobre a desigualdade\", a slip even Brazilians make. In conversation, \"o filme é sobre...\" is fine.",
           "Plot summaries go in the present, as in English: \"Ela volta para Salvador e descobre que o pai está doente.\" Stay in that tense from start to finish. Drifting into the perfeito halfway through is the classic mistake. Only events that happened before the story's present take a past tense: \"um homem que perdeu tudo\".",
         ],
         examples: [
-          { es: "O filme aborda a desigualdade social no Rio de Janeiro.", en: "The movie deals with social inequality in Rio de Janeiro." },
+          { es: "O filme aborda a desigualdade social no Rio de Janeiro.", en: "The film deals with social inequality in Rio de Janeiro." },
           { es: "Central do Brasil conta a história de um menino que procura o pai.", en: "Central Station tells the story of a boy looking for his father." },
           { es: "A história se passa no sertão da Bahia, nos anos 70.", en: "The story is set in the backlands of Bahia, in the 70s." },
           { es: "O documentário retrata a vida dos pescadores de Salvador.", en: "The documentary portrays the life of Salvador's fishermen." },
@@ -267,7 +267,7 @@ export const PT_B2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The movie deals with violence in big cities.",
+            source: "The film deals with violence in big cities.",
             answer: "O filme aborda a violência nas grandes cidades.",
             altAnswers: [
               "O filme trata da violência nas grandes cidades.",
@@ -280,7 +280,7 @@ export const PT_B2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're summarizing a movie's plot for a friend. Which sentence is consistent?",
+            question: "You're summarizing a film's plot for a friend. Which sentence is consistent?",
             options: [
               "Ela chega a São Paulo e conhece um músico.",
               "Ela chegou a São Paulo e conhece um músico.",
@@ -298,25 +298,25 @@ export const PT_B2_U14: Lesson[] = [
               "The story is set in Manaus, in the 80s.",
               "The story happened in Manaus in 1980.",
               "The story passes through Manaus in the 80s.",
-              "The movie was shot in Manaus in the 80s.",
+              "The film was shot in Manaus in the 80s.",
             ],
             correctIndex: 0,
-            explanation: "\"Se passar em\" means to be set in or to take place in. It says nothing about where the movie was shot.",
+            explanation: "\"Se passar em\" means to be set in or to take place in. It says nothing about where the film was shot.",
           },
         ],
       },
       {
         heading: "Roteiro, atuação, fotografia: judging the craft",
         body: [
-          "The parts of a movie: \"o roteiro\" (the script), \"a direção\" (the directing), \"a atuação\" (the acting), \"o elenco\" (the cast), \"a fotografia\" (the cinematography, not photos) and \"a trilha sonora\" (the soundtrack). An actor \"faz o papel de\" or \"interpreta\" a character: \"Fernanda Montenegro interpreta Dora\".",
-          "Reviews live on precise adjectives: \"um roteiro bem amarrado\" (tightly written), \"uma atuação convincente\", \"uma fotografia belíssima\", \"um ritmo lento\". For thrilling, say \"emocionante\" or \"eletrizante\". \"Excitante\" is a false friend with a sexual edge, and \"emocionado\" describes a person who is moved, not the movie.",
+          "The parts of a film: \"o roteiro\" (the script), \"a direção\" (the directing), \"a atuação\" (the acting), \"o elenco\" (the cast), \"a fotografia\" (the cinematography, not photos) and \"a trilha sonora\" (the soundtrack). An actor \"faz o papel de\" or \"interpreta\" a character: \"Fernanda Montenegro interpreta Dora\".",
+          "Reviews live on precise adjectives: \"um roteiro bem amarrado\" (tightly written), \"uma atuação convincente\", \"uma fotografia belíssima\", \"um ritmo lento\". For thrilling, say \"emocionante\" or \"eletrizante\". \"Excitante\" is a false friend with a sexual edge, and \"emocionado\" describes a person who is moved, not the film.",
         ],
         examples: [
           { es: "O roteiro é bem amarrado e não tem nenhuma cena sobrando.", en: "The script is tightly written and there isn't a single wasted scene." },
           { es: "Fernanda Montenegro interpreta Dora com uma atuação inesquecível.", en: "Fernanda Montenegro plays Dora in an unforgettable performance." },
           { es: "A fotografia é belíssima, principalmente nas cenas de estrada.", en: "The cinematography is stunning, especially in the road scenes." },
           { es: "A trilha sonora mistura samba e música eletrônica.", en: "The soundtrack mixes samba and electronic music." },
-          { es: "O filme foi dirigido por Walter Salles.", en: "The movie was directed by Walter Salles." },
+          { es: "O filme foi dirigido por Walter Salles.", en: "The film was directed by Walter Salles." },
           { es: "O final é emocionante, mas o ritmo é lento demais.", en: "The ending is moving, but the pace is far too slow." },
         ],
         checkpoint: [
@@ -341,7 +341,7 @@ export const PT_B2_U14: Lesson[] = [
               "A fotografia do filme é linda.",
               "A fotografia do filme é belíssima.",
             ],
-            explanation: "In movie talk \"a fotografia\" is the cinematography. \"Belíssima\" is the -íssimo superlative of \"bela\".",
+            explanation: "In film talk \"a fotografia\" is the cinematography. \"Belíssima\" is the -íssimo superlative of \"bela\".",
           },
           {
             type: "multiple-choice",
@@ -365,19 +365,19 @@ export const PT_B2_U14: Lesson[] = [
           "In a written review, keep the norm's \"assistir ao filme\". In speech you'll hear \"assistir o filme\" and \"ver o filme\".",
         ],
         examples: [
-          { es: "Vale muito a pena ver esse filme no cinema.", en: "This movie is really worth seeing in theaters." },
+          { es: "Vale muito a pena ver esse filme no cinema.", en: "This film is really worth seeing in theaters." },
           { es: "A história é boa, mas o final deixa a desejar.", en: "The story is good, but the ending falls short." },
-          { es: "O filme surpreende do começo ao fim.", en: "The movie surprises you from beginning to end." },
-          { es: "A primeira hora prende a atenção, mas depois o filme fica arrastado.", en: "The first hour keeps you hooked, but then the movie starts to drag." },
+          { es: "O filme surpreende do começo ao fim.", en: "The film surprises you from beginning to end." },
+          { es: "A primeira hora prende a atenção, mas depois o filme fica arrastado.", en: "The first hour keeps you hooked, but then the film starts to drag." },
           { es: "Sinceramente, não vale o preço do ingresso.", en: "Honestly, it's not worth the ticket price." },
-          { es: "Assisti ao filme no domingo e recomendo.", en: "I watched the movie on Sunday and I recommend it." },
+          { es: "Assisti ao filme no domingo e recomendo.", en: "I watched the film on Sunday and I recommend it." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The movie is really worth watching.",
+            source: "The film is really worth watching.",
             answer: "Vale muito a pena ver o filme.",
             altAnswers: [
               "O filme vale muito a pena.",
@@ -475,9 +475,9 @@ export const PT_B2_U14: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Then the movie starts to drag.",
+        prompt: "Put the words in order to say: Then the film starts to drag.",
         words: ["Depois", "o", "filme", "fica", "arrastado."],
-        translation: "Then the movie starts to drag.",
+        translation: "Then the film starts to drag.",
         explanation: "\"Ficar\" here means to become: \"fica arrastado\" means it starts dragging.",
       },
       {
@@ -491,13 +491,13 @@ export const PT_B2_U14: Lesson[] = [
           { left: "o elenco", right: "the cast" },
           { left: "a direção", right: "the directing" },
         ],
-        explanation: "The building blocks of any review. Watch \"fotografia\", which in a movie is the cinematography.",
+        explanation: "The building blocks of any review. Watch \"fotografia\", which in a film is the cinematography.",
       },
       {
         type: "speak",
         text: "O filme surpreende do começo ao fim.",
-        prompt: "Say it in Portuguese: The movie surprises you from beginning to end.",
-        tip: "The final -e of \"surpreende\" sounds like 'ee' ('sur-pre-Ẽ-jee'), and \"ao\" glides into \"fim\".",
+        prompt: "Say it in Portuguese: The film surprises you from beginning to end.",
+        tip: "The final -e of \"surpreende\" sounds like i, and \"ao\" glides into \"fim\".",
         explanation: "\"Surpreender\" is praise in a review: it beats your expectations. \"Do começo ao fim\": de + o, a + o.",
       },
       {
@@ -513,7 +513,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I watched the movie on Saturday and loved it. (in a written review)",
+        source: "I watched the film on Saturday and loved it. (in a written review)",
         answer: "Assisti ao filme no sábado e adorei.",
         altAnswers: [
           "Eu assisti ao filme no sábado e adorei.",
@@ -608,7 +608,7 @@ export const PT_B2_U14: Lesson[] = [
           {
             type: "speak",
             text: "No meio do caminho tinha uma pedra.",
-            tip: "The nh in tinha sounds like the ny in canyon, and meio glides: 'MAY-oo'.",
+            tip: "The nh in tinha sounds like the ny in canyon, and meio glides: MAY-u.",
             explanation: "Say the line twice, the way the poem does, and notice how the repetition gives it its rhythm.",
           },
         ],
@@ -649,8 +649,8 @@ export const PT_B2_U14: Lesson[] = [
       {
         heading: "Jorge Amado: Bahia on the page",
         body: [
-          "Jorge Amado (1912-2001), from the cacao region of southern Bahia, is one of Brazil's most translated novelists and the friendliest way into its literature. \"Capitães da Areia\" (1937) follows street kids in Salvador. \"Gabriela, Cravo e Canela\" (1958) and \"Dona Flor e Seus Dois Maridos\" (1966) mix humor, food, sensuality and sharp social criticism. All three became movies or telenovelas.",
-          "His prose is plain and full of dialogue, which makes him a good first novel in Portuguese. When you summarize any of these plots, use the present, as you did with movies: \"Gabriela chega a Ilhéus\", not \"chegou\".",
+          "Jorge Amado (1912-2001), from the cacao region of southern Bahia, is one of Brazil's most translated novelists and the friendliest way into its literature. \"Capitães da Areia\" (1937) follows street kids in Salvador. \"Gabriela, Cravo e Canela\" (1958) and \"Dona Flor e Seus Dois Maridos\" (1966) mix humor, food, sensuality and sharp social criticism. All three became films or telenovelas.",
+          "His prose is plain and full of dialogue, which makes him a good first novel in Portuguese. When you summarize any of these plots, use the present, as you did with films: \"Gabriela chega a Ilhéus\", not \"chegou\".",
         ],
         examples: [
           { es: "Jorge Amado é um dos autores brasileiros mais traduzidos no mundo.", en: "Jorge Amado is one of the most translated Brazilian authors in the world." },
@@ -674,7 +674,7 @@ export const PT_B2_U14: Lesson[] = [
             question: "You're writing a plot summary of \"Capitães da Areia\" for a book club. Which opening fits best?",
             options: ["O livro conta a história de meninos de rua em Salvador.", "O livro contou a história de meninos de rua em Salvador.", "O livro contava a história de meninos de rua em Salvador.", "O livro tinha contado a história de meninos de rua em Salvador."],
             correctIndex: 0,
-            explanation: "Summaries of books and movies are written in the present: \"conta\". The past tenses make it sound as if the book no longer tells that story.",
+            explanation: "Summaries of books and films are written in the present: \"conta\". The past tenses make it sound as if the book no longer tells that story.",
           },
         ],
       },
@@ -758,7 +758,7 @@ export const PT_B2_U14: Lesson[] = [
       {
         type: "speak",
         text: "Liberdade é pouco. O que eu desejo ainda não tem nome.",
-        tip: "The d in liberdade sounds like the j in jeans before the final -e: 'lee-ber-DA-jee'. Desejo has a closed ê and a soft j, as in measure.",
+        tip: "The d in liberdade sounds like the j in jeans before the final -e. Desejo has a closed ê and a soft j, as in measure.",
         explanation: "Clarice's short sentences need short pauses: stop after \"pouco\", then say the second sentence in one breath.",
       },
       {
@@ -788,7 +788,7 @@ export const PT_B2_U14: Lesson[] = [
         heading: "Desigualdade, periferia: the words of a divided city",
         body: [
           "\"Desigualdade\" (inequality) is the first word Brazilians use for this subject, usually as \"desigualdade social\" or \"desigualdade de renda\" (income inequality). \"Renda\" is income from any source, and \"salário\" is only a wage. Low-income people are \"a população de baixa renda\". Wealth held by a few is \"concentração de renda\".",
-          "\"Periferia\" is not neutral geography like English periphery. It means the poorer outskirts of a big city, often hours from the jobs in the center. Its opposite is the \"bairro nobre\" (upscale neighborhood). \"Favela\" is the standard word, but many residents and journalists prefer \"comunidade\". The people who live in a place are its \"moradores\".",
+          "\"Periferia\" is not neutral geography like English periphery. It means the poorer outskirts of a big city, often hours from the jobs in the center. Its opposite is the \"bairro nobre\" (upmarket neighborhood). \"Favela\" is the standard word, but many residents and journalists prefer \"comunidade\". The people who live in a place are its \"moradores\".",
           "One trap: the noun \"marginal\" means a criminal, not someone on the margins. For marginalized, say \"marginalizado\" or \"excluído\".",
         ],
         examples: [
@@ -796,7 +796,7 @@ export const PT_B2_U14: Lesson[] = [
           { es: "Muitos moradores da periferia levam duas horas para chegar ao trabalho.", en: "Many people who live on the outskirts take two hours to get to work." },
           { es: "A população de baixa renda gasta boa parte do salário com transporte.", en: "Low-income people spend a large part of their wages on transportation." },
           { es: "Ele cresceu numa comunidade da zona norte do Rio.", en: "He grew up in a favela in Rio's north zone." },
-          { es: "A poucos quilômetros do Leblon, um bairro nobre, fica a Rocinha, uma das maiores favelas do país.", en: "A few kilometers from Leblon, an upscale area, lies Rocinha, one of the biggest favelas in the country." },
+          { es: "A poucos quilômetros do Leblon, um bairro nobre, fica a Rocinha, uma das maiores favelas do país.", en: "A few kilometers from Leblon, an upmarket area, lies Rocinha, one of the biggest favelas in the country." },
           { es: "A concentração de renda no Brasil continua muito alta.", en: "Income concentration in Brazil is still very high." },
         ],
         checkpoint: [
@@ -834,9 +834,9 @@ export const PT_B2_U14: Lesson[] = [
         ],
         examples: [
           { es: "O trânsito em São Paulo piora a cada ano.", en: "Traffic in São Paulo gets worse every year." },
-          { es: "A prefeitura construiu uma nova ciclovia na avenida.", en: "City hall built a new bike lane on the avenue." },
+          { es: "A prefeitura construiu uma nova ciclovia na avenida.", en: "The city council built a new bike lane on the avenue." },
           { es: "O aumento da tarifa de ônibus gerou protestos em 2013.", en: "The bus fare increase sparked protests in 2013." },
-          { es: "Os corredores de ônibus reduziram o tempo de viagem.", en: "The bus lanes cut travel times." },
+          { es: "Os corredores de ônibus reduziram o tempo de viagem.", en: "The bus lanes cut journey times." },
           { es: "A segurança pública é responsabilidade dos estados.", en: "Public safety is the responsibility of the states." },
           { es: "Minha tia foi assaltada no ponto de ônibus.", en: "My aunt was mugged at the bus stop." },
         ],
@@ -975,7 +975,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "City hall built a bike lane, but the residents complained.",
+        source: "The city council built a bike lane, but the residents complained.",
         answer: "A prefeitura construiu uma ciclovia, mas os moradores reclamaram.",
         altAnswers: ["A prefeitura construiu uma ciclofaixa, mas os moradores reclamaram.", "A prefeitura fez uma ciclovia, mas os moradores reclamaram."],
         explanation: "\"A prefeitura\" is the city government. \"Reclamar\" is to complain, not to reclaim.",
@@ -989,7 +989,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "speak",
         text: "A desigualdade social é um dos maiores problemas do Brasil.",
         prompt: "Say it in Portuguese: Social inequality is one of Brazil's biggest problems.",
-        tip: "The final -de of desigualdade sounds like 'jee' ('de-zee-gwau-DA-jee'), and the s in desigualdade sounds like z between vowels.",
+        tip: "The final -de of desigualdade sounds like dji, and the s in desigualdade sounds like z between vowels.",
         explanation: "\"Um dos maiores problemas\" is one of the biggest problems. \"Maior\" is the irregular comparative of \"grande\".",
       },
       {
@@ -999,7 +999,7 @@ export const PT_B2_U14: Lesson[] = [
           { left: "assalto", right: "robbery, mugging" },
           { left: "engarrafamento", right: "traffic jam" },
           { left: "saneamento básico", right: "basic sanitation" },
-          { left: "bairro nobre", right: "upscale neighborhood" },
+          { left: "bairro nobre", right: "upmarket neighborhood" },
           { left: "marginal", right: "criminal" },
           { left: "poder público", right: "the authorities" },
         ],
@@ -1240,7 +1240,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "speak",
         text: "Segundo a pesquisa, a candidata está na frente.",
         prompt: "Say it in Portuguese: According to the poll, the candidate (a woman) is ahead.",
-        tip: "Make the second syllable of segundo nasal ('se-GŨ-doo', no hard n), and keep the d in candidata a plain d before a.",
+        tip: "Make the second syllable of segundo nasal (se-GUN-du, no hard n), and keep the d in candidata a plain d before a.",
         explanation: "\"Segundo\" introduces the source, and \"pesquisa\" here is an opinion poll. \"Estar na frente\" means to be ahead.",
       },
     ],
@@ -1256,12 +1256,12 @@ export const PT_B2_U14: Lesson[] = [
       {
         heading: "The summary: what the work is about",
         body: [
-          "A summary (\"resumo\", \"sinopse\") says what happens and what the work is about, without saying whether it is good. Brazilian summaries stay in the present even for old movies and books: \"o filme conta a história de...\", \"o romance se passa no Rio do século XIX\". The perfeito (\"o filme contou\") sounds like a news report about an event, not a description of the work.",
+          "A summary (\"resumo\", \"sinopse\") says what happens and what the work is about, without saying whether it is good. Brazilian summaries stay in the present even for old films and books: \"o filme conta a história de...\", \"o romance se passa no Rio do século XIX\". The perfeito (\"o filme contou\") sounds like a news report about an event, not a description of the work.",
           "The core neutral verbs are \"conta\" and \"narra\" (tells), \"acompanha\" (follows a character), \"retrata\" (portrays), \"aborda\" and \"trata de\" (deals with), and \"se passa em\" (is set in). \"Trata de\" keeps its preposition: \"o livro trata da seca\".",
           "\"Critica\" belongs here too. \"A letra critica a violência policial\" says what the song does, not what you think of the song.",
         ],
         examples: [
-          { es: "O filme conta a história de uma empregada doméstica em São Paulo.", en: "The movie tells the story of a housekeeper in São Paulo." },
+          { es: "O filme conta a história de uma empregada doméstica em São Paulo.", en: "The film tells the story of a housekeeper in São Paulo." },
           { es: "O romance se passa no Rio de Janeiro do século XIX.", en: "The novel is set in 19th-century Rio de Janeiro." },
           { es: "A série acompanha três irmãos que voltam para o sertão.", en: "The series follows three siblings who go back to the sertão." },
           { es: "O documentário aborda a falta de água no Nordeste.", en: "The documentary deals with the water shortage in the Northeast." },
@@ -1273,7 +1273,7 @@ export const PT_B2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The movie is set in Salvador.",
+            source: "The film is set in Salvador.",
             answer: "O filme se passa em Salvador.",
             altAnswers: ["O filme é ambientado em Salvador.", "A história do filme se passa em Salvador."],
             explanation: "\"Se passar em\" is the standard way to give a setting, and summaries use the present: \"se passa\", not \"se passou\".",
@@ -1312,7 +1312,7 @@ export const PT_B2_U14: Lesson[] = [
           { es: "O roteiro é previsível, mas a fotografia é impecável.", en: "The script is predictable, but the cinematography is flawless." },
           { es: "A atuação de Regina Casé é comovente.", en: "Regina Casé's performance is moving." },
           { es: "O final deixa a desejar.", en: "The ending is disappointing." },
-          { es: "Vale a pena ver o filme no cinema.", en: "The movie is worth seeing in theaters." },
+          { es: "Vale a pena ver o filme no cinema.", en: "The film is worth seeing in theaters." },
           { es: "O segundo disco surpreende pela maturidade das letras.", en: "The second album is surprisingly good for the maturity of its lyrics." },
           { es: "O documentário aborda o tema de forma superficial.", en: "The documentary deals with the subject superficially." },
         ],
@@ -1330,7 +1330,7 @@ export const PT_B2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The movie is worth it.",
+            source: "The film is worth it.",
             answer: "O filme vale a pena.",
             altAnswers: ["Vale a pena ver o filme.", "Vale a pena assistir ao filme.", "Vale a pena assistir o filme."],
             explanation: "\"Valer a pena\" is the review's standard positive verdict. With a verb it is \"vale a pena ver\", and the written norm prefers \"assistir ao filme\".",
@@ -1346,7 +1346,7 @@ export const PT_B2_U14: Lesson[] = [
               "The script is predictable, and so is the cinematography.",
             ],
             correctIndex: 0,
-            explanation: "\"Previsível\" means predictable and \"impecável\" means flawless. In a movie review, \"fotografia\" means cinematography.",
+            explanation: "\"Previsível\" means predictable and \"impecável\" means flawless. In a film review, \"fotografia\" means cinematography.",
           },
         ],
       },
@@ -1361,12 +1361,12 @@ export const PT_B2_U14: Lesson[] = [
           { es: "A peça mostra com humor a rotina de uma família em Recife.", en: "The play shows, with humor, the daily life of a family in Recife." },
           { es: "O diretor tenta discutir o racismo.", en: "The director tries to discuss racism (and doesn't quite manage)." },
           { es: "O diretor consegue discutir o racismo sem cair em clichês.", en: "The director manages to discuss racism without falling into clichés." },
-          { es: "Segundo a crítica, o filme é o melhor do ano.", en: "According to the critics, the movie is the best of the year." },
+          { es: "Segundo a crítica, o filme é o melhor do ano.", en: "According to the critics, the film is the best of the year." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence evaluates the movie rather than summarizing it?",
+            question: "Which sentence evaluates the film rather than summarizing it?",
             options: [
               "O diretor consegue discutir o racismo sem cair em clichês.",
               "O filme se passa em Salvador nos anos 80.",
@@ -1388,7 +1388,7 @@ export const PT_B2_U14: Lesson[] = [
           {
             type: "speak",
             text: "O documentário retrata com sensibilidade a vida na favela.",
-            tip: "The final de in sensibilidade sounds like 'jee' ('sẽ-see-bee-lee-DA-jee'), and the r at the start of retrata is the h-like r.",
+            tip: "The final de in sensibilidade sounds like dji, and the r at the start of retrata is the h-like r.",
             explanation: "A neutral verb, \"retrata\", is turned into praise by \"com sensibilidade\".",
           },
         ],
@@ -1428,7 +1428,7 @@ export const PT_B2_U14: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The script is predictable.",
         answer: "O roteiro é previsível.",
-        explanation: "\"Roteiro\" is a movie script. The adjective \"previsível\" is the judgment, with no \"eu acho\" needed.",
+        explanation: "\"Roteiro\" is a film script. The adjective \"previsível\" is the judgment, with no \"eu acho\" needed.",
       },
       {
         type: "word-order",
@@ -1478,14 +1478,14 @@ export const PT_B2_U14: Lesson[] = [
       {
         type: "speak",
         text: "Vale a pena ver o filme no cinema.",
-        prompt: "Say it in Portuguese: The movie is worth seeing in theaters.",
+        prompt: "Say it in Portuguese: The film is worth seeing in theaters.",
         explanation: "\"Vale a pena\" + infinitive is the standard positive verdict.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The director tries to show the city, but the movie falls short.",
+        source: "The director tries to show the city, but the film falls short.",
         answer: "O diretor tenta mostrar a cidade, mas o filme deixa a desejar.",
         altAnswers: ["A diretora tenta mostrar a cidade, mas o filme deixa a desejar."],
         explanation: "\"Tenta\" already hints at failure, and \"deixa a desejar\" confirms it. Both make this a review.",
@@ -1506,22 +1506,22 @@ export const PT_B2_U14: Lesson[] = [
     level: "PT-B2",
     number: 7,
     title: "Dialogue Lab: Você Já Viu Esse Filme?",
-    summary: "Follow two friends in São Paulo as they recommend a movie and an album, disagree about them and end on good terms.",
+    summary: "Follow two friends in São Paulo as they recommend a film and an album, disagree about them and end on good terms.",
     duration: "14 min",
     sections: [
       {
-        heading: "Você já viu? Recommending a movie",
+        heading: "Você já viu? Recommending a film",
         body: [
-          "Lucas and Beatriz are leaving a café in Pinheiros, São Paulo. Lucas has just seen Walter Salles's Oscar-winning \"Ainda Estou Aqui\" at home and wants Beatriz to see it too. Listen to how he sells it: \"você tem que ver\", \"vale muito a pena\", \"não perde\".",
+          "Lucas and Beatriz are leaving a café in Pinheiros, São Paulo. Lucas has just seen Walter Salles's \"Ainda Estou Aqui\" and wants Beatriz to see it too. Listen to how he sells it: \"você tem que ver\", \"vale muito a pena\", \"não perde\".",
           "\"Você já viu...?\" is the everyday have you seen...?: the simple perfeito with \"já\", never \"você tem visto\". In conversation Brazilians also say \"você já assistiu esse filme?\"; the written norm keeps the preposition: \"assistiu a esse filme\".",
           "A recommendation lands better when it's tied to the other person's taste: \"se você gostou de...\", \"vai adorar\". \"Não perde!\" is the everyday command from the present. A written review would use the standard form, \"não perca\".",
         ],
         examples: [
-          { es: "Você já viu Ainda Estou Aqui, do Walter Salles?", en: "Have you seen Walter Salles's Ainda Estou Aqui?" },
+          { es: "Você já viu o filme novo do Walter Salles?", en: "Have you seen Walter Salles's new film?" },
           { es: "Você tem que ver, vale muito a pena.", en: "You have to see it, it's really worth it." },
           { es: "Se você gostou de Central do Brasil, vai adorar esse.", en: "If you liked Central Station, you'll love this one." },
           { es: "A Fernanda Torres está incrível no papel.", en: "Fernanda Torres is amazing in the role." },
-          { es: "Não perde, já está no streaming.", en: "Don't miss it, it's on streaming now." },
+          { es: "Não perde, está passando no cinema perto da sua casa.", en: "Don't miss it, it's playing at the theater near your place." },
           { es: "Eu te recomendo de olhos fechados.", en: "I'd recommend it without a second thought." },
         ],
         checkpoint: [
@@ -1529,21 +1529,21 @@ export const PT_B2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Have you seen Walter Salles's Ainda Estou Aqui?",
-            answer: "Você já viu Ainda Estou Aqui, do Walter Salles?",
+            source: "Have you seen Walter Salles's new film?",
+            answer: "Você já viu o filme novo do Walter Salles?",
             altAnswers: [
-              "Você já viu Ainda Estou Aqui do Walter Salles?",
-              "Já viu Ainda Estou Aqui, do Walter Salles?",
-              "Você já viu o Ainda Estou Aqui, do Walter Salles?",
-              "Você já assistiu Ainda Estou Aqui, do Walter Salles?",
-              "Você já assistiu a Ainda Estou Aqui, do Walter Salles?",
-              "Você já viu o filme Ainda Estou Aqui, do Walter Salles?",
+              "Você já viu o novo filme do Walter Salles?",
+              "Já viu o filme novo do Walter Salles?",
+              "Já viu o novo filme do Walter Salles?",
+              "Você já assistiu o filme novo do Walter Salles?",
+              "Você já assistiu ao filme novo do Walter Salles?",
+              "Você já assistiu ao novo filme do Walter Salles?",
             ],
             explanation: "Have you seen...? is the simple perfeito with \"já\": \"você já viu\". \"Tem visto\" would mean have you been seeing, a repeated action up to now.",
           },
           {
             type: "multiple-choice",
-            question: "Beatriz says she loved Central do Brasil. How does Lucas tell her she'll love this movie too?",
+            question: "Beatriz says she loved Central do Brasil. How does Lucas tell her she'll love this film too?",
             options: [
               "Se você gostou de Central do Brasil, vai adorar esse.",
               "Se você gostasse de Central do Brasil, vai adorar esse.",
@@ -1569,13 +1569,13 @@ export const PT_B2_U14: Lesson[] = [
         body: [
           "Beatriz has already seen it, and she isn't convinced. \"Achei\" (the perfeito of \"achar\") gives a verdict on something you've finished watching: \"achei lindo\", \"achei meio parado\" (a bit slow). \"Acho\" is for an opinion you hold in general.",
           "Friends disagree softly. \"Sério?\" and \"Será?\" open the door, and \"entendo, mas...\" or \"pra mim...\" make the point. \"Não acho que\" and \"não concordo que\" still take the subjunctive: \"não acho que seja chato\".",
-          "Watch the false friend \"excitante\": it has a sexual ring. A gripping movie is \"empolgante\" or \"envolvente\". And \"gosto não se discute\" (there's no accounting for taste) ends an argument politely, with nobody losing face.",
+          "Watch the false friend \"excitante\": it has a sexual ring. A gripping film is \"empolgante\" or \"envolvente\". And \"gosto não se discute\" (there's no accounting for taste) ends an argument politely, with nobody losing face.",
         ],
         examples: [
           { es: "Sério? Eu achei meio parado.", en: "Really? I thought it was a bit slow." },
           { es: "O roteiro deixa a desejar, mas a fotografia é linda.", en: "The script leaves something to be desired, but the cinematography is beautiful." },
           { es: "Entendo, mas pra mim o final é perfeito.", en: "I get it, but for me the ending is perfect." },
-          { es: "Não acho que seja um filme chato.", en: "I don't think it's a boring movie." },
+          { es: "Não acho que seja um filme chato.", en: "I don't think it's a boring film." },
           { es: "A primeira parte é muito envolvente.", en: "The first half is really gripping." },
           { es: "Bom, gosto não se discute.", en: "Well, there's no accounting for taste." },
         ],
@@ -1593,12 +1593,12 @@ export const PT_B2_U14: Lesson[] = [
               "Sério? Eu achei meio lento.",
               "Sério? Achei meio lento.",
             ],
-            explanation: "A verdict on a movie you've watched takes \"achei\". \"Parado\" agrees with \"o filme\", and \"meio\" (a bit) never changes form here.",
+            explanation: "A verdict on a film you've watched takes \"achei\". \"Parado\" agrees with \"o filme\", and \"meio\" (a bit) never changes form here.",
           },
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I don't think it [is] a boring movie.",
+            en: "I don't think it [is] a boring film.",
             sentence: "Não acho que ___ um filme chato.",
             answer: "seja",
             explanation: "\"Acho que\" takes the indicative, but \"não acho que\" expresses doubt, so the subjunctive \"seja\" follows.",
@@ -1617,13 +1617,13 @@ export const PT_B2_U14: Lesson[] = [
       {
         heading: "Essa música não sai da minha cabeça: music and a truce",
         body: [
-          "The talk moves to music. Lucas can't stop playing a song from Marisa Monte's latest album; Beatriz prefers funk. Useful chunks: \"essa música não sai da minha cabeça\", \"o último disco\", \"a letra é linda\", \"não é bem a minha praia\" (not really my thing).",
+          "The talk moves to music. Lucas can't stop playing a song from Marisa Monte's new album; Beatriz prefers funk. Useful chunks: \"essa música não sai da minha cabeça\", \"o disco novo\", \"a letra é linda\", \"não é bem a minha praia\" (not really my thing).",
           "Plans for next time take the future subjunctive: \"quando você ouvir, me fala o que achou\", \"se você quiser, a gente vai junto\". The present after \"quando\" (\"quando você ouve\") would describe a habit, not one future moment.",
-          "To finish on good terms, offer to try: \"vou dar uma chance\", \"tá bom, você me convenceu\". \"Dar uma chance\" works for movies, songs and people alike.",
+          "To finish on good terms, offer to try: \"vou dar uma chance\", \"tá bom, você me convenceu\". \"Dar uma chance\" works for films, songs and people alike.",
         ],
         examples: [
           { es: "Essa música não sai da minha cabeça.", en: "I can't get this song out of my head." },
-          { es: "Você já ouviu o último disco da Marisa Monte?", en: "Have you heard Marisa Monte's latest album?" },
+          { es: "Você já ouviu o disco novo da Marisa Monte?", en: "Have you heard Marisa Monte's new album?" },
           { es: "Funk não é bem a minha praia.", en: "Funk isn't really my thing." },
           { es: "Quando você ouvir, me fala o que achou.", en: "When you listen to it, tell me what you thought." },
           { es: "Se você quiser, a gente vai junto no sábado.", en: "If you want, we'll go together on Saturday." },
@@ -1648,7 +1648,7 @@ export const PT_B2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Essa música não sai da minha cabeça.",
-            tip: "Stress música on the first syllable, 'MOO-zee-ka': the s between vowels sounds like z. Make the ão in não nasal.",
+            tip: "Stress música on the first syllable, MÚ-zi-ka: the s between vowels sounds like z. Make the ão in não nasal.",
             explanation: "\"Não sai da minha cabeça\" (doesn't leave my head) is how Brazilians say a song is stuck in their head.",
           },
           {
@@ -1700,14 +1700,14 @@ export const PT_B2_U14: Lesson[] = [
         source: "The script leaves something to be desired.",
         answer: "O roteiro deixa a desejar.",
         altAnswers: ["O roteiro deixa um pouco a desejar.", "O roteiro deixou a desejar."],
-        explanation: "\"Deixar a desejar\" is the fixed review phrase for falling short. A movie script is \"o roteiro\".",
+        explanation: "\"Deixar a desejar\" is the fixed review phrase for falling short. A film script is \"o roteiro\".",
       },
       {
         type: "multiple-choice",
         question: "You tell a friend the thriller you saw was really gripping. What do you say?",
         options: ["Foi muito empolgante.", "Foi muito excitante.", "Foi muito empolgado.", "Foi muito emocionado."],
         correctIndex: 0,
-        explanation: "\"Empolgante\" describes what grips you. \"Excitante\" has a sexual ring, and \"empolgado\" and \"emocionado\" describe how a person feels, not the movie.",
+        explanation: "\"Empolgante\" describes what grips you. \"Excitante\" has a sexual ring, and \"empolgado\" and \"emocionado\" describe how a person feels, not the film.",
       },
       {
         type: "translate",
@@ -1742,7 +1742,7 @@ export const PT_B2_U14: Lesson[] = [
         en: "Really? I [thought] it was beautiful.",
         sentence: "Sério? Eu ___ lindo.",
         answer: "achei",
-        explanation: "\"Achei\" gives your verdict on a movie you finished watching. \"Acho lindo\" would be a general opinion.",
+        explanation: "\"Achei\" gives your verdict on a film you finished watching. \"Acho lindo\" would be a general opinion.",
       },
       {
         type: "dictation",
@@ -1761,7 +1761,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "speak",
         text: "Tá bom, vou dar uma chance.",
         prompt: "Say it in Portuguese: OK, I'll give it a chance.",
-        tip: "The ch in chance sounds like English sh, with a nasal an: 'SHÃ-see'.",
+        tip: "The ch in chance sounds like English sh, with a nasal an: SHÃ-si.",
         explanation: "\"Dar uma chance\" is to give something a chance, and \"tá bom\" is the friendly OK that closes the argument.",
       },
       {
@@ -1774,7 +1774,7 @@ export const PT_B2_U14: Lesson[] = [
           { left: "Deixa a desejar.", right: "It leaves something to be desired." },
           { left: "Você me convenceu.", right: "You've convinced me." },
         ],
-        explanation: "These are the chunks that carry a movie chat: recommending, judging, disagreeing and making peace.",
+        explanation: "These are the chunks that carry a film chat: recommending, judging, disagreeing and making peace.",
       },
     ],
   },
@@ -1783,26 +1783,26 @@ export const PT_B2_U14: Lesson[] = [
     level: "PT-B2",
     number: 8,
     title: "Error Hunt: Talking About Culture",
-    summary: "Find and fix the slips learners make when they talk about movies, books and music: tense in plot summaries, false friends, assistir a and register.",
+    summary: "Find and fix the slips learners make when they talk about films, books and music: tense in plot summaries, false friends, assistir a and register.",
     duration: "15 min",
     sections: [
       {
         heading: "Plot summaries stay in the present",
         body: [
           "A plot summary in Portuguese, as in English, runs in the present: \"o filme conta a história de...\", \"a protagonista descobre...\". The typical learner slip is to start in the present and drift into the perfeito: *\"Dora conhece Josué e decidiu ajudar o menino\". Choose the present and stay there.",
-          "The past still has its place. Use it for events before the story's starting point (\"ela volta à cidade onde nasceu\"), for the movie as a real-world event (\"o filme estreou em 1998\") and for your own viewing (\"assisti ontem\").",
+          "The past still has its place. Use it for events before the story's starting point (\"ela volta à cidade onde nasceu\"), for the film as a real-world event (\"o filme estreou em 1998\") and for your own viewing (\"assisti ontem\").",
         ],
         examples: [
           { es: "Em Central do Brasil, Dora escreve cartas para analfabetos na estação.", en: "In Central do Brasil, Dora writes letters for people who can't read, at the station." },
           { es: "Um dia, ela conhece Josué, um menino cuja mãe acaba de morrer.", en: "One day she meets Josué, a boy whose mother has just died." },
           { es: "Os dois viajam juntos para o sertão em busca do pai do menino.", en: "The two travel together to the sertão to look for the boy's father." },
-          { es: "O filme estreou em 1998 e foi indicado ao Oscar.", en: "The movie came out in 1998 and was nominated for an Oscar." },
+          { es: "O filme estreou em 1998 e foi indicado ao Oscar.", en: "The film came out in 1998 and was nominated for an Oscar." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "In the movie, Dora [meets] a boy and the two travel together.",
+            en: "In the film, Dora [meets] a boy and the two travel together.",
             sentence: "No filme, Dora ___ um menino e os dois viajam juntos.",
             answer: "conhece",
             explanation: "The summary is in the present (\"viajam\"), so the first event is in the present too: \"conhece\". The answer \"conheceu\" would break the tense of the summary.",
@@ -1838,23 +1838,23 @@ export const PT_B2_U14: Lesson[] = [
       {
         heading: "False friends: excitante, novela, atualmente",
         body: [
-          "\"Excitante\" exists, but in Brazil it usually sounds sexual, so *\"o filme é muito excitante\" gets a laugh. For a gripping movie say \"emocionante\", \"empolgante\" or \"eletrizante\". For one that moves you, say \"emocionante\" or \"comovente\".",
+          "\"Excitante\" exists, but in Brazil it usually sounds sexual, so *\"o filme é muito excitante\" gets a laugh. For a gripping film say \"emocionante\", \"empolgante\" or \"eletrizante\". For one that moves you, say \"emocionante\" or \"comovente\".",
           "Four more traps. A \"novela\" is a TV soap opera, and a novel is a \"romance\". A \"livraria\" sells books and a \"biblioteca\" lends them. \"Atualmente\" means currently; actually is \"na verdade\". The people at a play are the \"público\" or the \"plateia\", while \"audiência\" mostly means TV ratings.",
         ],
         examples: [
-          { es: "O final do filme é emocionante.", en: "The ending of the movie is thrilling." },
+          { es: "O final do filme é emocionante.", en: "The ending of the film is thrilling." },
           { es: "Dom Casmurro é um romance de Machado de Assis.", en: "Dom Casmurro is a novel by Machado de Assis." },
           { es: "A novela das nove tem uma audiência enorme.", en: "The nine o'clock soap has huge ratings." },
           { es: "O público aplaudiu de pé no final da peça.", en: "The audience gave a standing ovation at the end of the play." },
-          { es: "Na verdade, eu prefiro o livro ao filme.", en: "Actually, I prefer the book to the movie." },
-          { es: "Atualmente ela trabalha numa livraria em Curitiba.", en: "She currently works in a bookstore in Curitiba." },
+          { es: "Na verdade, eu prefiro o livro ao filme.", en: "Actually, I prefer the book to the film." },
+          { es: "Atualmente ela trabalha numa livraria em Curitiba.", en: "She currently works in a bookshop in Curitiba." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The second half of the movie is really exciting.",
+            source: "The second half of the film is really exciting.",
             answer: "A segunda metade do filme é muito emocionante.",
             altAnswers: [
               "A segunda metade do filme é muito empolgante.",
@@ -1863,7 +1863,7 @@ export const PT_B2_U14: Lesson[] = [
               "A segunda parte do filme é muito empolgante.",
               "A segunda metade do filme é realmente emocionante.",
             ],
-            explanation: "For an exciting movie use \"emocionante\" or \"empolgante\". The answer *\"excitante\" sounds sexual in Brazil.",
+            explanation: "For an exciting film use \"emocionante\" or \"empolgante\". The answer *\"excitante\" sounds sexual in Brazil.",
           },
           {
             type: "translate",
@@ -1883,14 +1883,14 @@ export const PT_B2_U14: Lesson[] = [
       {
         heading: "Assistir a in writing",
         body: [
-          "A reminder from Unit 11: in the written norm, \"assistir\" meaning to watch takes \"a\": \"assisti ao filme\", \"assistimos à peça\", \"a série a que assisti\". In speech \"assisti o filme\" is universal. In a review, an essay or the Celpe-Bras it reads as a slip.",
+          "A reminder from Unit 6: in the written norm, \"assistir\" meaning to watch takes \"a\": \"assisti ao filme\", \"assistimos à peça\", \"a série a que assisti\". In speech \"assisti o filme\" is universal. In a review, an essay or the Celpe-Bras it reads as a slip.",
           "Careful editors also avoid the passive \"o filme foi assistido por milhões\", because the verb takes an indirect complement. \"Ver\" takes no preposition, so \"o filme foi visto por milhões\" and \"vi o filme\" get around the problem.",
         ],
         examples: [
           { es: "Assisti ao documentário sobre a bossa nova.", en: "I watched the documentary about bossa nova." },
           { es: "Você já assistiu à nova montagem da peça?", en: "Have you seen the new production of the play?" },
           { es: "A série a que assistimos se passa em Recife.", en: "The series we watched is set in Recife." },
-          { es: "O filme foi visto por mais de dois milhões de pessoas.", en: "The movie was seen by more than two million people." },
+          { es: "O filme foi visto por mais de dois milhões de pessoas.", en: "The film was seen by more than two million people." },
           { es: "Vi o show do Gilberto Gil no domingo.", en: "I saw Gilberto Gil's concert on Sunday." },
         ],
         checkpoint: [
@@ -1905,7 +1905,7 @@ export const PT_B2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I watched the movie twice.",
+            source: "I watched the film twice.",
             answer: "Assisti ao filme duas vezes.",
             altAnswers: [
               "Eu assisti ao filme duas vezes.",
@@ -1933,7 +1933,7 @@ export const PT_B2_U14: Lesson[] = [
           { es: "Nós saímos do cinema impressionados.", en: "We left the theater impressed." },
           { es: "O roteiro surpreende, mas a fotografia deixa a desejar.", en: "The script is surprising, but the cinematography leaves something to be desired." },
           { es: "Recomendo-o a quem gosta de cinema nacional.", en: "I recommend it to anyone who likes Brazilian cinema." },
-          { es: "Vale a pena ver o filme no cinema.", en: "The movie is worth seeing in theaters." },
+          { es: "Vale a pena ver o filme no cinema.", en: "The film is worth seeing in theaters." },
         ],
         checkpoint: [
           {
@@ -1969,7 +1969,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In the movie, a girl from Manaus moves to São Paulo and finds a job.",
+        source: "In the film, a girl from Manaus moves to São Paulo and finds a job.",
         answer: "No filme, uma garota de Manaus se muda para São Paulo e encontra um emprego.",
         altAnswers: [
           "No filme, uma moça de Manaus se muda para São Paulo e encontra um emprego.",
@@ -2064,7 +2064,7 @@ export const PT_B2_U14: Lesson[] = [
         options: [
           "The story is set in the sertão and shows the drought.",
           "The story was set in the sertão and showed the drought.",
-          "The movie was shot in the sertão during the drought.",
+          "The film was shot in the sertão during the drought.",
           "The story is set on the coast and shows the rain.",
         ],
         correctIndex: 0,
@@ -2078,8 +2078,8 @@ export const PT_B2_U14: Lesson[] = [
       {
         type: "speak",
         text: "O filme vale a pena, o final é emocionante.",
-        prompt: "Say it in Portuguese: The movie is worth it, the ending is thrilling.",
-        tip: "The final -te of \"emocionante\" sounds like chee: 'e-mo-syo-NÃN-chee'.",
+        prompt: "Say it in Portuguese: The film is worth it, the ending is thrilling.",
+        tip: "The final -te of \"emocionante\" sounds like chee: e-mo-sio-NAN-tchi.",
         explanation: "\"Vale a pena\" and \"emocionante\" are natural review language, and neither is slang.",
       },
       {
@@ -2101,18 +2101,18 @@ export const PT_B2_U14: Lesson[] = [
     level: "PT-B2",
     number: 9,
     title: "Real-World Mission: Write a Review",
-    summary: "Write a review of a Brazilian movie, album or book for a culture website: present the work, summarize it without spoilers, weigh its strengths and weaknesses and give a clear verdict.",
+    summary: "Write a review of a Brazilian film, album or book for a culture website: present the work, summarize it without spoilers, weigh its strengths and weaknesses and give a clear verdict.",
     duration: "15 min",
     sections: [
       {
         heading: "Presenting the work without giving it away",
         body: [
-          "A review on a culture website opens with the facts: title, director or author, year and genre, often in a single sentence (\"lançado em 1998, ...\"). The summary that follows stays in the present, as in this unit's plot summaries: \"o filme acompanha\" (the movie follows), \"o livro conta a história de\", \"a trama se passa em\" (the story is set in).",
+          "A review on a culture website opens with the facts: title, director or author, year and genre, often in a single sentence (\"lançado em 1998, ...\"). The summary that follows stays in the present, as in this unit's plot summaries: \"o filme acompanha\" (the film follows), \"o livro conta a história de\", \"a trama se passa em\" (the story is set in).",
           "Then stop before the ending. Brazilians write \"sem dar spoiler\" or \"sem entregar o final\" (without giving the ending away), and a review that tells everything \"entrega demais\". Give the premise and the conflict, never the resolution.",
         ],
         examples: [
           { es: "Lançado em 1998, Central do Brasil, de Walter Salles, é um drama de estrada.", en: "Released in 1998, Walter Salles's Central do Brasil is a road movie." },
-          { es: "O filme acompanha Dora, uma mulher que escreve cartas para analfabetos na Central do Brasil.", en: "The movie follows Dora, a woman who writes letters for people who can't read at Rio's Central station." },
+          { es: "O filme acompanha Dora, uma mulher que escreve cartas para analfabetos na Central do Brasil.", en: "The film follows Dora, a woman who writes letters for people who can't read at Rio's Central station." },
           { es: "Torto Arado, de Itamar Vieira Junior, se passa no sertão da Bahia.", en: "Itamar Vieira Junior's Torto Arado is set in the backlands of Bahia." },
           { es: "O romance conta a história de duas irmãs marcadas por um acidente na infância.", en: "The novel tells the story of two sisters marked by an accident in childhood." },
           { es: "Sem dar spoiler: o final pega o espectador de surpresa.", en: "No spoilers, but the ending takes the viewer by surprise." },
@@ -2130,22 +2130,22 @@ export const PT_B2_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The movie [follows] a housekeeper from Pernambuco who works in São Paulo.",
+            en: "The film [follows] a housekeeper from Pernambuco who works in São Paulo.",
             sentence: "O filme ___ uma empregada pernambucana que trabalha em São Paulo.",
             answer: "acompanha",
             altAnswers: ["segue", "mostra"],
-            explanation: "\"Acompanha\" in the present: plot summaries stay in the present tense, even for a movie released years ago.",
+            explanation: "\"Acompanha\" in the present: plot summaries stay in the present tense, even for a film released years ago.",
           },
         ],
       },
       {
         heading: "Evaluating: praise, criticism and balance",
         body: [
-          "The evaluation is the heart of the text, and it names exactly what works. For movies: \"o roteiro\" (screenplay), \"a atuação\" (acting), \"a fotografia\" (cinematography), \"a trilha sonora\" (soundtrack). For albums: \"as letras\" and \"os arranjos\". For books: \"a narrativa\" and \"os personagens\". Praise with \"se destaca\", \"impressiona\", \"o ponto alto é\". Criticize with \"deixa a desejar\", \"peca por\" (falls down on) or \"se arrasta\" (drags).",
-          "A balanced review earns trust. Concede with \"embora\" + subjunctive or \"apesar de\" + noun (Unit 12): \"embora o ritmo seja lento, a história prende\" (grips). One trap: \"excitante\" suggests sexual arousal. An exciting movie is \"empolgante\" or \"eletrizante\", and a moving one is \"emocionante\".",
+          "The evaluation is the heart of the text, and it names exactly what works. For films: \"o roteiro\" (screenplay), \"a atuação\" (acting), \"a fotografia\" (cinematography), \"a trilha sonora\" (soundtrack). For albums: \"as letras\" and \"os arranjos\". For books: \"a narrativa\" and \"os personagens\". Praise with \"se destaca\", \"impressiona\", \"o ponto alto é\". Criticize with \"deixa a desejar\", \"peca por\" (falls down on) or \"se arrasta\" (drags).",
+          "A balanced review earns trust. Concede with \"embora\" + subjunctive or \"apesar de\" + noun (Unit 7): \"embora o ritmo seja lento, a história prende\" (grips). One trap: \"excitante\" suggests sexual arousal. An exciting film is \"empolgante\" or \"eletrizante\", and a moving one is \"emocionante\".",
         ],
         examples: [
-          { es: "A atuação de Fernanda Montenegro é o ponto alto do filme.", en: "Fernanda Montenegro's performance is the movie's high point." },
+          { es: "A atuação de Fernanda Montenegro é o ponto alto do filme.", en: "Fernanda Montenegro's performance is the film's high point." },
           { es: "Regina Casé se destaca no papel de Val, a empregada pernambucana.", en: "Regina Casé stands out as Val, the housekeeper from Pernambuco." },
           { es: "O roteiro deixa a desejar na segunda metade.", en: "The screenplay falls short in the second half." },
           { es: "O livro peca pelo excesso de descrições.", en: "The book's weakness is its excess of description." },
@@ -2171,7 +2171,7 @@ export const PT_B2_U14: Lesson[] = [
           {
             type: "speak",
             text: "O roteiro deixa a desejar, mas a fotografia impressiona.",
-            tip: "Say the x in deixa as sh, and stress 'fo-to-gra-FEE-a' on the i.",
+            tip: "Say the x in deixa as sh, and stress fo-to-gra-FI-a on the i.",
             explanation: "A criticism balanced by praise: \"deixa a desejar\" (falls short) and \"impressiona\" (is impressive).",
           },
         ],
@@ -2180,7 +2180,7 @@ export const PT_B2_U14: Lesson[] = [
         heading: "The verdict and who it's for",
         body: [
           "Finish with a verdict. \"Vale a pena\" (it's worth it) and \"imperdível\" (unmissable) recommend. \"Dispensável\" (skippable) and \"não convence\" (isn't convincing) warn. Many sites also give a score: \"nota 4 de 5\", \"quatro estrelas\".",
-          "Then say who it's for. \"Quem gosta de...\" states a general taste. \"Quem estiver procurando...\" uses the future subjunctive from Unit 4 for a situation the reader may be in. \"Se você gostou de...\" compares the work with one the reader already knows.",
+          "Then say who it's for. \"Quem gosta de...\" states a general taste. \"Quem estiver procurando...\" uses the future subjunctive from Unit 3 for a situation the reader may be in. \"Se você gostou de...\" compares the work with one the reader already knows.",
           "A culture site sits between a chat and a newspaper. Addressing the reader as \"você\" is normal, but slang isn't, and the written norm still applies: \"assistir ao filme\", not \"assistir o filme\".",
         ],
         examples: [
@@ -2224,7 +2224,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The movie follows a boy who is looking for his father.",
+        source: "The film follows a boy who is looking for his father.",
         answer: "O filme acompanha um menino que procura o pai.",
         altAnswers: ["O filme acompanha um menino que está procurando o pai.", "O filme acompanha um garoto que procura o pai.", "O filme acompanha um garoto que está procurando o pai.", "O filme acompanha um menino que procura seu pai.", "O filme acompanha um menino que procura o seu pai."],
         explanation: "A summary in the present: \"acompanha\", \"procura\". With family members Portuguese often uses the article alone: \"o pai\" for his father.",
@@ -2251,7 +2251,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese. Use the written norm.",
-        source: "I watched the movie twice.",
+        source: "I watched the film twice.",
         answer: "Assisti ao filme duas vezes.",
         altAnswers: ["Eu assisti ao filme duas vezes.", "Vi o filme duas vezes.", "Eu vi o filme duas vezes."],
         explanation: "In the written norm \"assistir\" meaning to watch takes \"a\": \"assisti ao filme\". \"Assisti o filme\" is everyday speech, and \"vi o filme\" avoids the issue.",
@@ -2267,7 +2267,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The cinematography is the high point of the movie.",
+        source: "The cinematography is the high point of the film.",
         answer: "A fotografia é o ponto alto do filme.",
         altAnswers: ["O ponto alto do filme é a fotografia."],
         explanation: "\"A fotografia\" is cinematography, and \"o ponto alto\" is the high point. \"Do\" is de + o.",
@@ -2298,7 +2298,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "If you liked Central do Brasil, don't miss this movie.",
+        source: "If you liked Central do Brasil, don't miss this film.",
         answer: "Se você gostou de Central do Brasil, não deixe de ver este filme.",
         altAnswers: ["Se você gostou de Central do Brasil, não deixe de ver esse filme.", "Se você gostou de Central do Brasil, não perca este filme.", "Se você gostou de Central do Brasil, não perca esse filme.", "Se gostou de Central do Brasil, não deixe de ver este filme."],
         explanation: "\"Se\" + perfeito for something the reader already did. \"Não deixe de\" + infinitive is the friendly written command for 'make sure you'.",
@@ -2307,7 +2307,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "speak",
         text: "Quem estiver procurando uma comédia leve vai se decepcionar.",
         prompt: "Say it in Portuguese: Anyone looking for a light comedy will be disappointed.",
-        tip: "Stress 'es-chee-VÊR' on the last syllable, and keep the é in leve open: 'LÉ-vee'.",
+        tip: "Stress es-ti-VER on the last syllable, and keep the é in leve open.",
         explanation: "\"Quem estiver\": the future subjunctive for any reader who may be in that situation.",
       },
       {
@@ -2329,7 +2329,7 @@ export const PT_B2_U14: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Culture and Society",
-    summary: "Mixed practice in discussing Brazilian music, movie, books and the news with the B2 subjunctives, reported speech, the passive and the written norm.",
+    summary: "Mixed practice in discussing Brazilian music, film, books and the news with the B2 subjunctives, reported speech, the passive and the written norm.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",
@@ -2337,11 +2337,11 @@ export const PT_B2_U14: Lesson[] = [
       {
         heading: "Describing and judging a work",
         body: [
-          "Talking about a movie, song or book takes two moves. First you describe it neutrally (\"o filme aborda\", \"a obra retrata\", \"a letra critica\"). Then you judge it (\"vale a pena\", \"deixa a desejar\", \"surpreende\"). Keep plot summaries in the present, as Brazilian reviews do: \"a protagonista volta\", not \"voltou\".",
+          "Talking about a film, song or book takes two moves. First you describe it neutrally (\"o filme aborda\", \"a obra retrata\", \"a letra critica\"). Then you judge it (\"vale a pena\", \"deixa a desejar\", \"surpreende\"). Keep plot summaries in the present, as Brazilian reviews do: \"a protagonista volta\", not \"voltou\".",
           "Two norm points come back here. In writing, \"assistir\" meaning to watch takes \"a\": \"assisti ao filme\", \"assisti à série\". The crase appears wherever that \"a\" meets a feminine article: \"volta à cidade\", \"à noite\". Mind the false friend \"excitante\", which sounds sexual to Brazilians. For exciting, say \"emocionante\".",
         ],
         examples: [
-          { es: "O filme aborda a vida de uma família na periferia de São Paulo.", en: "The movie deals with the life of a family on the outskirts of São Paulo." },
+          { es: "O filme aborda a vida de uma família na periferia de São Paulo.", en: "The film deals with the life of a family on the outskirts of São Paulo." },
           { es: "O roteiro é ótimo, mas a fotografia deixa a desejar.", en: "The script is great, but the cinematography falls short." },
           { es: "Na letra, o compositor critica a violência urbana.", en: "In the lyrics, the songwriter criticizes urban violence." },
           { es: "Assisti ao documentário ontem e recomendo: vale muito a pena.", en: "I watched the documentary yesterday and I recommend it: it's really worth it." },
@@ -2353,7 +2353,7 @@ export const PT_B2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I watched the movie last night, and the script falls short. (in a written review)",
+            source: "I watched the film last night, and the script falls short. (in a written review)",
             answer: "Assisti ao filme ontem à noite, e o roteiro deixa a desejar.",
             altAnswers: ["Eu assisti ao filme ontem à noite, e o roteiro deixa a desejar.", "Ontem à noite assisti ao filme, e o roteiro deixa a desejar."],
             explanation: "In the written norm \"assistir\" (to watch) takes \"a\", so \"assisti ao filme\". Speech often says \"assisti o filme\". \"À noite\" carries the crase, and \"deixa a desejar\" means falls short.",
@@ -2425,7 +2425,7 @@ export const PT_B2_U14: Lesson[] = [
         examples: [
           { es: "Segundo o ministro, o orçamento da cultura vai aumentar no ano que vem.", en: "According to the minister, the culture budget will go up next year." },
           { es: "A deputada anunciou que o projeto seria votado no dia seguinte.", en: "The congresswoman announced that the bill would be voted on the next day." },
-          { es: "As novas regras foram anunciadas pela prefeitura.", en: "The new rules were announced by city hall." },
+          { es: "As novas regras foram anunciadas pela prefeitura.", en: "The new rules were announced by the city hall." },
           { es: "De acordo com a pesquisa, a maioria dos entrevistados assiste a séries pelo celular.", en: "According to the survey, most respondents watch series on their phones." },
           { es: "Houve protestos em várias capitais depois da decisão do STF.", en: "There were protests in several state capitals after the Supreme Court's decision." },
           { es: "A queda dos investimentos em cultura preocupa os artistas.", en: "The drop in investment in culture worries artists." },
@@ -2463,7 +2463,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The movie deals with inequality in Rio de Janeiro.",
+        source: "The film deals with inequality in Rio de Janeiro.",
         answer: "O filme aborda a desigualdade no Rio de Janeiro.",
         altAnswers: ["O filme trata da desigualdade no Rio de Janeiro.", "O filme retrata a desigualdade no Rio de Janeiro.", "O filme fala da desigualdade no Rio de Janeiro.", "O filme aborda a questão da desigualdade no Rio de Janeiro."],
         explanation: "\"Abordar\" takes a direct object, while \"tratar\" takes \"de\" (\"trata da desigualdade\"). Rio is one of the cities that takes an article: \"no Rio\".",
@@ -2536,7 +2536,7 @@ export const PT_B2_U14: Lesson[] = [
       {
         type: "speak",
         text: "Vale muito a pena assistir a esse filme.",
-        prompt: "Say it in Portuguese: That movie is really worth watching.",
+        prompt: "Say it in Portuguese: That film is really worth watching.",
         tip: "Run \"vale a\" together. The t in \"assistir\" before i sounds like the ch in cheese, and \"pena\" has a closed, nasal e.",
         explanation: "\"Vale a pena\" + infinitive is worth doing. \"Assistir a esse filme\" keeps the preposition, with no crase before \"esse\".",
       },
@@ -2566,7 +2566,7 @@ export const PT_B2_U14: Lesson[] = [
 
 export const PT_B2_U14_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Brazilian culture website is publishing readers' reviews. Write a review of a Brazilian movie, album or book you know. Briefly summarize it, say what social issue it deals with, evaluate it (strengths and weaknesses), report what critics or friends said about it, and finish by saying whether it's worth it.",
+  prompt: "A Brazilian culture website is publishing readers' reviews. Write a review of a Brazilian film, album or book you know. Briefly summarize it, say what social issue it deals with, evaluate it (strengths and weaknesses), report what critics or friends said about it, and finish by saying whether it's worth it.",
   minWords: 140,
   maxWords: 200,
   rubric: [
@@ -2576,5 +2576,5 @@ export const PT_B2_U14_WRITING: WriteExercise = {
     "Report what others said with a tense shift (\"os críticos afirmaram que ele mostrava...\"), and write \"assistir ao filme\" in the written norm.",
   ],
   modelAnswer: "O filme \"Que Horas Ela Volta?\" (2015), de Anna Muylaert, é daqueles que continuam incomodando muito tempo depois da sessão. A história se passa em São Paulo: Val, uma pernambucana que trabalha há anos como empregada doméstica na casa de uma família rica, recebe a filha, Jéssica, que vem fazer o vestibular. Jéssica não aceita as regras invisíveis da casa, senta à mesa dos patrões e questiona tudo, e a convivência fica cada vez mais tensa.\n\nO filme aborda a desigualdade social sem discursos e retrata com humor a relação entre patroa e empregada. A crítica aparece nos detalhes: a porta da cozinha, o quartinho dos fundos, a piscina que a empregada nunca usa. A atuação de Regina Casé é impressionante, e a fotografia reforça a sensação de que cada um tem seu lugar.\n\nSe há algo que deixa a desejar, é o final, que pode parecer um pouco apressado. Quando o filme estreou, muitos críticos afirmaram que ele mostrava o Brasil como poucas obras tinham mostrado, e eu concordo. Vale muito a pena assistir ao filme, de preferência com alguém com quem você possa discutir depois.",
-  explanation: "The plot summary stays in the present tense (\"se passa\", \"recebe\", \"questiona\"), the convention for summarizing movies and books in Portuguese, while the release and the critics' reaction are told in the past. Reported speech shifts the tenses back: the critics said \"mostra\" and \"mostraram\", which become \"afirmaram que ele mostrava\" and \"tinham mostrado\". Evaluation phrases do the reviewing work (\"aborda\", \"retrata\", \"deixa a desejar\", \"vale a pena\"), and the written norm keeps the preposition in \"assistir ao filme\" and the crase in \"senta à mesa\".",
+  explanation: "The plot summary stays in the present tense (\"se passa\", \"recebe\", \"questiona\"), the convention for summarizing films and books in Portuguese, while the release and the critics' reaction are told in the past. Reported speech shifts the tenses back: the critics said \"mostra\" and \"mostraram\", which become \"afirmaram que ele mostrava\" and \"tinham mostrado\". Evaluation phrases do the reviewing work (\"aborda\", \"retrata\", \"deixa a desejar\", \"vale a pena\"), and the written norm keeps the preposition in \"assistir ao filme\" and the crase in \"senta à mesa\".",
 };

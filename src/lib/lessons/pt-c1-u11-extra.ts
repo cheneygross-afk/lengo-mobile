@@ -152,7 +152,7 @@ export const PT_C1_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "A Constituição de 1988 marcou a volta da democracia.",
         prompt: "Say it in Portuguese: The 1988 Constitution marked the return of democracy.",
-        tip: "Read the year as \"mil novecentos e oitenta e oito\", and keep the \"ão\" of \"Constituição\" nasal, with no n at the end.",
+        tip: "Read the year as mil novecentos e oitenta e oito, and keep the ão of Constituição nasal, with no n at the end.",
         explanation: "\"Marcou\" is the perfeito: the Constitution marked a turning point. \"A volta da democracia\" is a plain way of saying \"a redemocratização\".",
       },
       {
@@ -182,8 +182,8 @@ export const PT_C1_U11_EXTRA: Lesson[] = [
       {
         heading: "Identity and vocabulary",
         body: [
-          "Brazilian Portuguese carries Indigenous and African heritage. From Tupi: \"abacaxi\", \"capim\", \"jacaré\", \"pipoca\", \"caju\", and place names like \"Ipanema\". From Kimbundu and other Bantu languages: \"caçula\" (youngest child), \"cafuné\" (stroking someone's hair), \"moleque\", \"quitanda\", \"samba\". From Yoruba: \"axé\", \"orixá\", \"acarajé\".",
-          "Current respectful terms: \"povos indígenas\" or \"indígenas\" (rather than \"índios\"), \"pessoas escravizadas\" (rather than \"escravos\"), \"pessoas negras\", \"afrodescendentes\", \"quilombolas\" (descendants of escaped-slave communities), \"racismo estrutural\". Regional identities: \"nordestino\", \"gaúcho\", \"carioca\".",
+          "Brazilian Portuguese carries Indigenous and African heritage. From Tupi: \"abacaxi\", \"capim\", \"jacaré\", \"pipoca\", \"caju\", and place names like Ipanema. From Kimbundu and other Bantu languages: \"caçula\" (youngest child), \"cafuné\" (stroking someone's hair), \"moleque\", \"quitanda\", \"samba\". From Yoruba: \"axé\", \"orixá\", \"acarajé\".",
+          "Current respectful terms: \"povos indígenas\" / \"indígenas\" (rather than \"índios\"), \"pessoas escravizadas\" (rather than \"escravos\"), \"pessoas negras\", \"afrodescendentes\", \"quilombolas\" (descendants of escaped-slave communities), \"racismo estrutural\". Regional identities: \"nordestino\", \"gaúcho\", \"carioca\".",
         ],
         examples: [
           { es: "A palavra abacaxi vem do tupi.", en: "The word abacaxi comes from Tupi." },
@@ -316,7 +316,7 @@ export const PT_C1_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "A cultura brasileira tem fortes raízes africanas e indígenas.",
         prompt: "Say it in Portuguese: Brazilian culture has strong African and Indigenous roots.",
-        tip: "\"Raízes\": ha-EE-zees.",
+        tip: "Raízes: ha-I-zis.",
         explanation: "\"Raízes\" is the plural of \"raiz\", with an accent to keep the i stressed. \"Fortes\" goes before the noun here, a common choice for emphasis.",
       },
       {
@@ -347,7 +347,7 @@ export const PT_C1_U11_EXTRA: Lesson[] = [
         heading: "Borrowed words and respectful terms",
         body: [
           "Tupi gave names for the new world and much more: \"abacaxi\" (also a nasty problem), \"pipoca\", \"catapora\", \"cutucar\", \"xará\", \"estar na pindaíba\". Kimbundu entered family and feeling: \"caçula\", \"cafuné\", \"cochilar\", \"xingar\", \"dengo\". Yoruba clusters around Candomblé and food: \"orixá\", \"axé\", \"acarajé\".",
-          "\"Negro\" is the affirmed term; \"pessoas negras\" covers \"pretos\" and \"pardos\". Say \"indígena\" and \"povos indígenas\", name the people (\"os Yanomami\", no plural -s), and \"pessoas escravizadas\" rather than \"escravos\". Gentílicos are lower case and split city and state: \"paulistano\" versus \"paulista\", \"carioca\" versus \"fluminense\".",
+          "\"Negro\" is the affirmed term; \"pessoas negras\" covers \"pretos\" and \"pardos\". Say \"indígena\" and \"povos indígenas\", name the people (\"os Yanomami\", no plural -s), and \"pessoas escravizadas\" rather than \"escravos\". Gentílicos are lower case and split city and state: \"paulistano\" / \"paulista\", \"carioca\" / \"fluminense\".",
         ],
         examples: [
           { es: "Ela é a caçula e adora um cafuné.", en: "She's the youngest child and loves having her hair stroked." },
@@ -401,7 +401,7 @@ export const PT_C1_U11_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The regime [stripped] dozens of congressmen of their mandates.",
+            en: "The regime [stripped] dozens of congressmen [of their mandates].",
             sentence: "O regime ___ o mandato de dezenas de deputados.",
             answer: "cassou",
             explanation: "\"Cassar\" (with ss) is to revoke; \"caçar\" is to hunt.",
@@ -426,7 +426,7 @@ export const PT_C1_U11_EXTRA: Lesson[] = [
         source: "After the trip, I was broke until the end of the month.",
         answer: "Depois da viagem, fiquei na pindaíba até o fim do mês.",
         altAnswers: ["Depois da viagem, eu fiquei na pindaíba até o fim do mês.", "Depois da viagem, fiquei na pindaíba até o final do mês."],
-        explanation: "\"Estar na pindaíba\" or \"ficar na pindaíba\" comes from Tupi.",
+        explanation: "\"Estar / ficar na pindaíba\" comes from Tupi.",
       },
       {
         type: "translate",
@@ -547,7 +547,7 @@ export const PT_C1_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "Proclamada a República, Dom Pedro II partiu para o exílio.",
         prompt: "Say it in Portuguese: Once the Republic was proclaimed, Dom Pedro II went into exile.",
-        tip: "Read \"II\" as \"segundo\"; \"exílio\": e-ZEE-lyoo.",
+        tip: "Read \"II\" as \"segundo\"; \"exílio\": e-ZI-lyu.",
         explanation: "A participle clause frames the event.",
       },
     ],

@@ -659,14 +659,14 @@ export const KO_B1_U18: Lesson[] = [
         heading: "Polite advice: 제가 ... (이)라면, 저라면",
         body: [
           "The polite way to advise someone without telling them what to do is to put yourself in their place: 제가 지은 씨라면 그 회사에 안 갈 거예요 'if I were you, I wouldn't take that job'. Shorter still is 저라면 'if it were me'. Koreans avoid 당신, so 'you' is the person's name with 씨 or their title: 제가 선생님이라면.",
-          "The result is -(으)ㄹ 거예요 or -겠어요 'I would', and the listener draws the conclusion. Keep the 라: 제가 지은 씨면 is heard in casual speech, but it is less clear, because -면 also marks real conditions. You'll also hear 저 같으면, literally 'if it's like me', which means the same as 저라면.",
+          "The result is -(으)ㄹ 거예요 or -겠어요 'I would', and the listener draws the conclusion. Keep the 라: 제가 지은 씨면 is heard in casual speech, but it is less clear, because -면 also marks real conditions. You'll also hear 저 같으면 'someone like me', which means the same as 저라면.",
         ],
         examples: [
           { es: "제가 지은 씨라면 그 회사에 안 갈 거예요.", en: "If I were you, Jieun, I wouldn't take that job." },
           { es: "저라면 먼저 사과할 거예요.", en: "If it were me, I'd apologise first." },
           { es: "저라면 그 돈으로 여행을 가겠어요.", en: "If it were me, I'd go travelling with that money." },
           { es: "제가 민수 씨라면 부모님께 솔직하게 말씀드릴 거예요.", en: "If I were you, Minsu, I'd tell your parents honestly." },
-          { es: "저 같으면 그냥 집에서 쉴 거예요.", en: "If it were me, I'd just rest at home." },
+          { es: "저 같으면 그냥 집에서 쉴 거예요.", en: "Someone like me would just rest at home." },
         ],
         checkpoint: [
           {
@@ -766,7 +766,7 @@ export const KO_B1_U18: Lesson[] = [
         question: "Your close friend asks whether to buy an expensive coat. You think not. What do you say?",
         options: ["나라면 안 사.", "저라면 안 사요.", "제가 너면 안 사.", "나면 안 사."],
         correctIndex: 0,
-        explanation: "To a friend in 반말: 나라면. 저라면 안 사요 is polite, wrong for a close friend; 제가 너면 mixes polite 제가 with 너, and 나면 is less natural without the 라 that marks 'if I were'.",
+        explanation: "To a friend in 반말: 나라면. 저라면 안 사요 is polite, wrong for a close friend; *제가 너면 mixes polite 제가 with 너, and 나면 is less natural without the 라 that marks 'if I were'.",
       },
       {
         type: "fill-blank",
@@ -821,7 +821,7 @@ export const KO_B1_U18: Lesson[] = [
         question: "What does it mean?",
         options: ["If it were me, I'd just rest at home.", "I'm just resting at home like you.", "I rested at home because I was tired.", "Please rest at home like me."],
         correctIndex: 0,
-        explanation: "저 같으면 is a spoken equivalent of 저라면: 'if it were me (literally, if it's like me) ...'.",
+        explanation: "저 같으면 is a spoken equivalent of 저라면: 'someone like me would ...'.",
       },
       {
         type: "fill-blank",
@@ -2281,7 +2281,7 @@ export const KO_B1_U18: Lesson[] = [
             prompt: "Translate into Korean (polite, on a forum).",
             source: "If you were me, what would you do?",
             answer: "여러분이 저라면 어떻게 하시겠어요?",
-            altAnswers: ["여러분이 저라면 어떻게 하실 거예요?", "여러분이라면 어떻게 하시겠어요?", "여러분이라면 어떻게 하실 거예요?", "여러분이 저라면 어떻게 하겠어요?", "여러분이 저라면 어떻게 할 거예요?"],
+            altAnswers: ["여러분이 저라면 어떻게 하실 거예요?", "여러분이라면 어떻게 하시겠어요?", "여러분이라면 어떻게 하실 거예요?", "여러분이 저라면 어떻게 하겠어요?", "여러분이 저라면 어떻게 할 거예요?", "여러분이 저라면 어떻게 하시겠습니까?", "여러분이라면 어떻게 하시겠습니까?"],
             explanation: "여러분이 저라면 'if you (all) were me': 저 ends in a vowel, so 라면. -시겠어요 asks politely what they would do.",
           },
         ],
@@ -2424,8 +2424,8 @@ export const KO_B1_U18: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'm rooting for you, Seoyeon!",
         answer: "서연 님, 응원할게요!",
-        altAnswers: ["서연 님, 응원해요!", "서연 님을 응원할게요!", "서연 님, 화이팅!", "서연 님, 파이팅!"],
-        explanation: "응원하다 'cheer on'; 응원할게요 is a friendly promise of support. 파이팅 (often written 화이팅) is the Konglish cheer.",
+        altAnswers: ["서연 님, 응원해요!", "서연 님, 응원합니다!", "서연 님을 응원할게요!", "서연 님, 화이팅!", "서연 님, 파이팅!"],
+        explanation: "응원하다 'cheer on'; 응원할게요 is a friendly promise of support. 화이팅 / 파이팅 is the Konglish cheer.",
       },
       {
         type: "fill-blank",

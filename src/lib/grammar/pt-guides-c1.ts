@@ -1131,7 +1131,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
             ["geladeira", "\"frigorífico\"", "fridge"],
             ["legal", "\"fixe\"", "cool"],
             ["terno", "\"fato\"", "suit (clothing)"],
-            ["fila", "\"bicha\" (in Brazil a homophobic slur)", "line (of people waiting)"],
+            ["fila", "\"bicha\" (in Brazil a homophobic slur)", "line (queue)"],
             ["mensalidade (escolar)", "\"propina\" (in Brazil: bribe)", "tuition fee"],
             ["garota, moça", "\"rapariga\" (offensive in parts of Brazil)", "girl"],
           ],
@@ -1167,8 +1167,8 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Pronunciation`,
         body: [
-          `European Portuguese reduces or drops unstressed vowels, so words lose syllables: "telefone" sounds roughly like 'tlfon', "pequeno" like 'pkenoo'. Brazilians pronounce every vowel clearly, which is why Portuguese people usually understand Brazilians easily (they hear Brazilian television) while the reverse is harder.`,
-          `Other cues: in Portugal (and in Rio de Janeiro) "s" before a consonant or at the end of a word sounds like sh; most of Brazil palatalizes "t" and "d" before an "i" sound ("tia", "dia" with ch and j sounds), while Portugal doesn't; and Brazilians vocalize final "l" to a u sound ("Brasil" sounds like 'bra-ZEEW'), while Portugal keeps a dark l.`,
+          `European Portuguese reduces or drops unstressed vowels, so words lose syllables: "telefone" sounds roughly like "tlfon", "pequeno" like "pqueno". Brazilians pronounce every vowel clearly, which is why Portuguese people usually understand Brazilians easily (they hear Brazilian television) while the reverse is harder.`,
+          `Other cues: in Portugal (and in Rio de Janeiro) "s" before a consonant or at the end of a word sounds like "sh"; most of Brazil palatalizes "t" and "d" before an "i" sound ("tia", "dia" with ch and j sounds), while Portugal doesn't; and Brazilians vocalize final "l" to a "u" sound ("Brasil" ends like "-iu"), while Portugal keeps a dark l.`,
         ],
         examples: [
           { pt: "Tia, você viu o meu telefone?", en: "Auntie, have you seen my phone?" },
@@ -1311,7 +1311,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         ],
         examples: [
           { pt: "Vou ver se consigo ir, mas acho difícil.", en: "I'll see if I can make it, but I doubt it." },
-          { pt: "Choveu o fim de semana inteiro. Que ótimo, hein!", en: "It rained all weekend. Just great, huh!" },
+          { pt: "Choveu o fim de semana inteiro. Que ótimo, hein!", en: "It rained all weekend. Great, wasn't it!" },
           { pt: "Obrigada pela ajuda! Imagina, não foi nada.", en: "Thanks for the help! Don't mention it, it was nothing." },
           { pt: "O almoço não foi dos melhores.", en: "Lunch wasn't exactly the best." },
         ],

@@ -201,8 +201,8 @@ export const KO_B1_U07_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (formal notice).",
             source: "To protect your personal information, please change your password often.",
             answer: "개인 정보를 보호하기 위해 비밀번호를 자주 바꿔 주십시오.",
-            altAnswers: ["개인 정보를 보호하기 위해서 비밀번호를 자주 바꿔 주십시오.", "개인 정보를 보호하기 위해 비밀번호를 자주 변경해 주십시오.", "개인 정보를 보호하기 위해서 비밀번호를 자주 변경해 주십시오.", "개인 정보 보호를 위해 비밀번호를 자주 바꿔 주십시오.", "개인 정보 보호를 위해 비밀번호를 자주 변경해 주십시오."],
-            explanation: "A request follows, so -기 위해 (not -(으)려고). A formal notice ends in -십시오, not 해요 -세요.",
+            altAnswers: ["개인 정보를 보호하기 위해서 비밀번호를 자주 바꿔 주십시오.", "개인 정보를 보호하기 위해 비밀번호를 자주 바꿔 주세요.", "개인 정보를 보호하기 위해서 비밀번호를 자주 바꿔 주세요.", "개인 정보를 보호하기 위해 비밀번호를 자주 변경해 주십시오.", "개인 정보를 보호하기 위해서 비밀번호를 자주 변경해 주십시오.", "개인 정보 보호를 위해 비밀번호를 자주 바꿔 주십시오.", "개인 정보 보호를 위해 비밀번호를 자주 변경해 주십시오."],
+            explanation: "A request follows, so -기 위해 (not -(으)려고).",
           },
           {
             type: "fill-blank",
@@ -463,7 +463,7 @@ export const KO_B1_U07_EXTRA: Lesson[] = [
         type: "dictation",
         audio: "나의 목표는 운전면허를 따는 것이다.",
         answer: "나의 목표는 운전면허를 따는 것이다.",
-        explanation: "나의 is usually said [나에]; in 운전면허 the ㅎ is often weak in fast speech, close to [운전며너], but the standard is [운전면허].",
+        explanation: "나의 is usually said [나에]; 운전면허 is [운전며너].",
       },
       {
         type: "translate",

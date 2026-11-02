@@ -119,7 +119,7 @@ export const PT_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Ela me disse que chegava às oito.",
-            tip: "Say \"me\" as a light mee, attached to the verb: e-la-mee-JEE-see.",
+            tip: "Say \"me\" as a light \"mi\", attached to the verb: ela-mi-DÍ-si.",
             explanation: "\"Ela me disse\": the pronoun goes before the verb in Brazilian speech.",
           },
         ],
@@ -243,7 +243,7 @@ export const PT_C1_U06: Lesson[] = [
         type: "speak",
         text: "Eu vi ele ontem na padaria.",
         prompt: "Say it in Portuguese, the Brazilian way: I saw him yesterday at the bakery.",
-        tip: "End \"ontem\" with a nasal vowel and no n sound: Õ-tẽy.",
+        tip: "End \"ontem\" with a nasal vowel and no n sound: ON-tẽy.",
         explanation: "Brazilian speech uses \"ele\" as an object: \"vi ele\". Written Brazilian prefers \"eu o vi\"; Portugal says \"vi-o\".",
       },
       {
@@ -390,7 +390,7 @@ export const PT_C1_U06: Lesson[] = [
             type: "speak",
             text: "Como se diz isso no Brasil?",
             prompt: "Say it in Portuguese: How do you say that in Brazil?",
-            tip: "In \"Brasil\" the s between vowels sounds like z, and the final l sounds like a soft u: bra-ZEEW.",
+            tip: "In \"Brasil\" the s between vowels sounds like z, and the final l sounds like a soft u: bra-ZIU.",
             explanation: "\"Como se diz...?\" is the impersonal se you already know, and the most useful question to ask when a European word stumps you.",
           },
         ],
@@ -486,7 +486,7 @@ export const PT_C1_U06: Lesson[] = [
         type: "speak",
         text: "O show foi muito legal.",
         prompt: "Say it the Brazilian way: The concert was really cool.",
-        tip: "The final l of \"legal\" sounds like a soft u: le-GAW.",
+        tip: "The final l of \"legal\" sounds like a soft u: le-GAU.",
         explanation: "\"Show\" is the everyday Brazilian word for a pop concert, and \"legal\" is the Brazilian word for cool.",
       },
       {
@@ -513,7 +513,7 @@ export const PT_C1_U06: Lesson[] = [
         body: [
           "The Acordo Ortográfico was signed in 1990 by the Portuguese-speaking countries. It became compulsory in Portugal in 2015 and in Brazil in 2016. It didn't create a single spelling. It removed the differences that had no basis in speech and kept the ones that do.",
           "Brazil lost the trema, so you now write \"frequente\", \"cinquenta\" and \"linguiça\", and the u is still pronounced. The acute accent went from the open diphthongs \"ei\" and \"oi\" in words stressed on the second-to-last syllable (\"ideia\", \"assembleia\", \"heroico\"). It stays when the stress falls on the last syllable (\"papéis\", \"herói\"). The circumflex went from \"-eem\" and \"-oo\": \"leem\", \"veem\", \"voo\", \"enjoo\".",
-          "Most accents that only told words apart went too: \"o ônibus para\" (stops), \"pelo\", \"pera\". Two survive: \"pôr\" against \"por\", and \"pôde\" (could, past) against \"pode\". Books printed before 2009 and many store signs still show \"idéia\" and \"vôo\". Learn to read them, but don't copy them.",
+          "Most accents that only told words apart went too: \"o ônibus para\" (stops), \"pelo\", \"pera\". Two survive: \"pôr\" against \"por\", and \"pôde\" (could, past) against \"pode\". Books printed before 2009 and many shop signs still show \"idéia\" and \"vôo\". Learn to read them, but don't copy them.",
         ],
         examples: [
           { es: "Tive uma ideia ótima para o projeto.", en: "I had a great idea for the project." },
@@ -644,7 +644,7 @@ export const PT_C1_U06: Lesson[] = [
         source: "We have fifty minutes.",
         answer: "Temos cinquenta minutos.",
         altAnswers: ["Nós temos cinquenta minutos.", "A gente tem cinquenta minutos."],
-        explanation: "\"Cinquenta\" lost its trema in 2009, but the u is still pronounced: sĩ-KWẼN-ta.",
+        explanation: "\"Cinquenta\" lost its trema in 2009, but the u is still pronounced: cin-KWEN-ta.",
       },
       {
         type: "translate",
@@ -711,7 +711,7 @@ export const PT_C1_U06: Lesson[] = [
         type: "speak",
         text: "A recepção fica no térreo.",
         prompt: "Say it in Portuguese: Reception is on the ground floor.",
-        tip: "Brazilians pronounce the p in recepção: he-sep-SÃW, with a nasal ão at the end.",
+        tip: "Brazilians pronounce the p in recepção: re-sep-SÃO, with a nasal ão at the end.",
         explanation: "\"Recepção\" keeps the p in Brazil because it is pronounced, and \"ficar\" gives the location.",
       },
       {
@@ -748,7 +748,7 @@ export const PT_C1_U06: Lesson[] = [
         heading: "Vowels that vanish",
         body: [
           "The biggest difference is rhythm. Brazilian Portuguese gives every syllable a full vowel. European Portuguese keeps the stressed syllable clear and squeezes the rest. Unstressed \"e\" shrinks to a faint ɨ or disappears, unstressed \"o\" becomes u, and unstressed \"a\" becomes a short uh. So \"telefone\" comes out roughly as 'tlfón', \"pequeno\" as 'pkénu', \"devagar\" as 'dvagár' and \"desculpe\" as 'dshkúlp'.",
-          "Brazilians go the other way and add vowels to break up clusters. \"Advogado\" and \"pneu\" often sound like a-jee-vo-GA-doo and pe-NEW. To a Brazilian ear, Lisbon speech is a stream of consonants with a few loud vowels. To a Portuguese ear, Brazilian speech sounds slow and sung, with every vowel spelled out.",
+          "Brazilians go the other way and add vowels to break up clusters. \"Advogado\" and \"pneu\" often sound like 'adjivogado' and 'peneu'. To a Brazilian ear, Lisbon speech is a stream of consonants with a few loud vowels. To a Portuguese ear, Brazilian speech sounds slow and sung, with every vowel spelled out.",
           "The difficulty is also one of exposure. Portugal has watched Brazilian novelas for decades, while most Brazilians rarely hear European Portuguese. When you listen, catch the stressed syllable and the consonant skeleton, and let context fill in the missing vowels.",
         ],
         examples: [
@@ -788,7 +788,7 @@ export const PT_C1_U06: Lesson[] = [
             en: "The apartment is [small], but it's lovely.",
             sentence: "O apartamento é ___, mas é lindo.",
             answer: "pequeno",
-            explanation: "\"Pequeno\" has three full syllables in Brazil (pe-KÊ-noo). In Lisbon the first e almost disappears ('pkénu').",
+            explanation: "\"Pequeno\" has three full syllables in Brazil (pe-QUE-nu). In Lisbon the first e almost disappears ('pkénu').",
           },
         ],
       },
@@ -797,7 +797,7 @@ export const PT_C1_U06: Lesson[] = [
         body: [
           "In Portugal an \"s\" or \"z\" at the end of a syllable sounds like English sh before a voiceless consonant or a pause. Before a voiced consonant it becomes zh, the s in measure. \"Estamos\" is roughly 'shtámush', \"mesmo\" is 'mézhmu' and \"as casas\" is 'ash kázash'. Before a vowel it links as z, so \"os amigos\" is 'uz amígush'.",
           "Most Brazilians say a plain s in these positions, so the hushing sound of Lisbon speech is the first thing they notice. Rio de Janeiro is the exception. The carioca s is the same sound, which is one reason cariocas often find Portugal easier to follow.",
-          "Notice also what Lisbon doesn't do. \"T\" and \"d\" before an i sound stay hard: \"tia\" and \"dia\" have a plain t and d, never CHEE-a or JEE-a. A final \"-te\" or \"-de\" loses its vowel, so \"noite\" ends in a crisp t and \"cidade\" sounds like 'sidád'.",
+          "Notice also what Lisbon doesn't do. \"T\" and \"d\" before an i sound stay hard: \"tia\" and \"dia\" have a plain t and d, never 'tchia' or 'djia'. A final \"-te\" or \"-de\" loses its vowel, so \"noite\" ends in a crisp t and \"cidade\" sounds like 'sidád'.",
         ],
         examples: [
           { es: "Estamos todos aqui.", en: "We're all here. (In Lisbon every s here sounds like sh.)" },
@@ -835,7 +835,7 @@ export const PT_C1_U06: Lesson[] = [
             sentence: "___ todos aqui.",
             answer: "Estamos",
             altAnswers: ["Nós estamos"],
-            explanation: "\"Estamos\" in Lisbon sounds like 'shtámush': the first e vanishes and both s sounds become 'sh'. A paulistano says es-TA-moos with a plain s.",
+            explanation: "\"Estamos\" in Lisbon sounds like 'shtámush': the first e vanishes and both s sounds become 'sh'. A paulistano says es-TA-mus with a plain s.",
           },
         ],
       },
@@ -888,7 +888,7 @@ export const PT_C1_U06: Lesson[] = [
           "À noite a cidade é linda.",
           "À noite a cidade fica linda.",
         ],
-        explanation: "\"À noite\" takes the crase (a + a). A Brazilian says see-DA-jee and NOY-chee; Lisbon keeps the t and d hard and drops the final vowels: 'sidád', 'nóit'.",
+        explanation: "\"À noite\" takes the crase (a + a). A Brazilian says 'sidadji' and 'noitchi'; Lisbon keeps the t and d hard and drops the final vowels: 'sidád', 'nóit'.",
       },
       {
         type: "translate",
@@ -902,7 +902,7 @@ export const PT_C1_U06: Lesson[] = [
           "Eu preciso de uma advogada.",
           "Preciso de advogado.",
         ],
-        explanation: "\"Precisar de\" keeps its preposition. Brazilians often slip a vowel into \"advogado\" (a-jee-vo-GA-doo), while Lisbon speakers do the reverse and drop vowels.",
+        explanation: "\"Precisar de\" keeps its preposition. Brazilians often slip a vowel into \"advogado\" ('adjivogado'), while Lisbon speakers do the reverse and drop vowels.",
       },
       {
         type: "translate",
@@ -925,7 +925,7 @@ export const PT_C1_U06: Lesson[] = [
           "O senhor quer leite no café?",
           "A senhora quer leite no café?",
         ],
-        explanation: "\"No café\" is em + o. A Lisbon waiter's \"leite\" sounds close to 'laite', with a hard final t and no chee.",
+        explanation: "\"No café\" is em + o. A Lisbon waiter's \"leite\" sounds close to 'laite', with a hard final t and no 'tchi'.",
       },
       {
         type: "translate",
@@ -934,7 +934,7 @@ export const PT_C1_U06: Lesson[] = [
         source: "My aunt lives in Coimbra.",
         answer: "Minha tia mora em Coimbra.",
         altAnswers: ["A minha tia mora em Coimbra.", "Minha tia vive em Coimbra.", "A minha tia vive em Coimbra."],
-        explanation: "The article before the possessive is optional in Brazil. In Coimbra itself people say \"tia\" with a plain t, where a Brazilian says CHEE-a.",
+        explanation: "The article before the possessive is optional in Brazil. In Coimbra itself people say \"tia\" with a plain t, where a Brazilian says 'tchia'.",
       },
       {
         type: "translate",
@@ -962,7 +962,7 @@ export const PT_C1_U06: Lesson[] = [
         prompt: "Put the words in order to say: Good morning, auntie! How's it going?",
         words: ["Bom", "dia,", "tia!", "Tudo", "bem?"],
         translation: "Good morning, auntie! How's it going?",
-        explanation: "\"Tudo bem?\" is the everyday greeting. Here \"dia\" and \"tia\" are the test: JEE-a and CHEE-a in most of Brazil, plain d and t in Portugal.",
+        explanation: "\"Tudo bem?\" is the everyday greeting. Here \"dia\" and \"tia\" are the test: 'djia' and 'tchia' in most of Brazil, plain d and t in Portugal.",
       },
       {
         type: "listen-choose",
@@ -981,7 +981,7 @@ export const PT_C1_U06: Lesson[] = [
         type: "speak",
         text: "Ela mora em Portugal.",
         prompt: "Say it in Portuguese: She lives in Portugal.",
-        tip: "Say it the Brazilian way: full vowels, a tap r in mora, and a final l that sounds like w (por-too-GAW).",
+        tip: "Say it the Brazilian way: full vowels, a tap r in mora, and a final l that sounds like w ('Portugau').",
         explanation: "Understanding European Portuguese doesn't mean copying it. Keep your Brazilian vowels and your w for final l.",
       },
       {
@@ -1127,7 +1127,7 @@ export const PT_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "A morabeza é a hospitalidade de Cabo Verde.",
-            tip: "Morabeza has a closed ê: mo-ra-BÊ-za. In hospitalidade, the final de sounds like jee.",
+            tip: "Morabeza has a closed ê: mo-ra-BÊ-za. In hospitalidade, the final de sounds like 'dji'.",
             explanation: "\"Morabeza\" is the Cape Verdean word for warm hospitality, and Portuguese speakers everywhere know it.",
           },
         ],
@@ -1225,7 +1225,7 @@ export const PT_C1_U06: Lesson[] = [
         type: "speak",
         text: "O português é falado em quatro continentes.",
         prompt: "Say it in Portuguese: Portuguese is spoken on four continents.",
-        tip: "Make the ês of português a closed ê, and keep the final -tes of continentes as chees.",
+        tip: "Make the ês of português a closed ê, and keep the final -tes of continentes as 'tchis'.",
         explanation: "This is the passive with \"ser\" + participle: \"é falado\", agreeing with \"o português\".",
       },
     ],
@@ -1571,13 +1571,13 @@ export const PT_C1_U06: Lesson[] = [
           { es: "Uma bica? É para já.", en: "(waiter, European) An espresso? Coming right up." },
           { es: "E eu queria também um suco de laranja.", en: "(Lucas) And I'd also like an orange juice." },
           { es: "Desculpa, onde fica o ponto de ônibus?", en: "(Lucas) Sorry, where's the bus stop?" },
-          { es: "Ah, o ponto é ali em frente? Valeu! Quer dizer, obrigado!", en: "(Lucas) Oh, the stop is just over there? Thanks, man! I mean, thank you!" },
+          { es: "Ah, o ponto é ali em frente? Valeu! Quer dizer, obrigado!", en: "(Lucas) Oh, the stop is just over there? Cheers! I mean, thank you!" },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "The waiter in Lisbon answers: \"Uma bica? É para já.\" What is he bringing Lucas?",
-            options: ["A small espresso.", "A milky coffee in a glass.", "A grilled cheese sandwich.", "A glass of water."],
+            options: ["A small espresso.", "A milky coffee in a glass.", "A cheese toastie.", "A glass of water."],
             correctIndex: 0,
             explanation: "\"Uma bica\" is Lisbon's word for an espresso, what Lucas calls \"um cafezinho\". A milky coffee in a glass is \"um galão\".",
           },
@@ -1611,7 +1611,7 @@ export const PT_C1_U06: Lesson[] = [
       {
         heading: "Quarta-feira: a senhoria e a colega",
         body: [
-          "Lucas rents a room from Dona Fátima, who shows him around: \"A casa de banho é ao fundo do corredor. O frigorífico é partilhado, está bem?\" That's his \"banheiro\" and a shared \"geladeira\". In Portugal a bare \"você\" can sound distant or even curt, so with her he uses \"a senhora\", as he would with an older woman in Brazil anyway.",
+          "Lucas rents a room from Dona Fátima, who shows him round: \"A casa de banho é ao fundo do corredor. O frigorífico é partilhado, está bem?\" That's his \"banheiro\" and a shared \"geladeira\". In Portugal a bare \"você\" can sound distant or even curt, so with her he uses \"a senhora\", as he would with an older woman in Brazil anyway.",
           "His classmate Rita uses \"tu\" with the full verb and the European progressive, \"estar a\" + infinitive: \"Tu és brasileiro? Estás a gostar de Lisboa?\" Lucas answers \"Estou gostando muito!\" and nobody blinks.",
           "Pronouns move too: Rita says \"Diz-me uma coisa\", Lucas says \"Me diz uma coisa\". Each is natural in its own country.",
         ],
@@ -1764,7 +1764,7 @@ export const PT_C1_U06: Lesson[] = [
         type: "speak",
         text: "Desculpa, não entendi. Você pode repetir mais devagar?",
         prompt: "Say it in Portuguese: Sorry, I didn't understand. Could you say that again more slowly?",
-        tip: "Keep your Brazilian d before i: \"entendi\" ends like jee.",
+        tip: "Keep your Brazilian d before i: \"entendi\" ends like 'djee'.",
         explanation: "Lucas's survival line for fast Lisbon speech; it's polite in both countries.",
       },
       {
@@ -1883,7 +1883,7 @@ export const PT_C1_U06: Lesson[] = [
             type: "speak",
             text: "Me manda o arquivo, por favor.",
             prompt: "Say it in Portuguese: Send me the file, please. (to a colleague in Rio)",
-            tip: "Brazilians open with the pronoun: \"Me manda\", with the e of \"me\" sounding like ee.",
+            tip: "Brazilians open with the pronoun: \"Me manda\", with the e of \"me\" sounding like i.",
             explanation: "Brazilian speech puts the pronoun first: \"Me manda\". \"Manda-me o arquivo\" sounds European.",
           },
         ],
@@ -2055,7 +2055,7 @@ export const PT_C1_U06: Lesson[] = [
         type: "speak",
         text: "O senhor pode me mandar a fatura?",
         prompt: "Say it in Portuguese: Could you send me the invoice? (to a client in São Paulo)",
-        tip: "In \"pode\" the final -e sounds like ee and turns the d into j: PÓ-jee.",
+        tip: "In \"pode\" the final -e sounds like i and turns the d into dj: PÓ-dji.",
         explanation: "\"O senhor\" is the polite form, and the pronoun goes before the infinitive: \"pode me mandar\". \"Podes mandar-me\" is European, with tu.",
       },
       {
@@ -2316,7 +2316,7 @@ export const PT_C1_U06: Lesson[] = [
       {
         type: "dictation",
         audio: "O crescimento econômico surpreendeu os analistas.",
-        explanation: "Write \"econômico\" with the Brazilian circumflex. \"Surpreendeu\" has two separate e sounds in a row, both pronounced: soor-pre-ẽ-DEW.",
+        explanation: "Write \"econômico\" with the Brazilian circumflex. \"Surpreendeu\" has two separate e sounds in a row, both pronounced: sur-pre-en-DEU.",
       },
       {
         type: "speak",
@@ -2532,7 +2532,7 @@ export const PT_C1_U06: Lesson[] = [
         type: "speak",
         text: "Estou lendo um artigo de um jornal de Lisboa.",
         prompt: "Say it in Brazilian Portuguese: I'm reading an article from a Lisbon newspaper.",
-        tip: "Keep the unstressed vowels full, as Brazilians do. Say \"de\" like jee, and make the final o of \"artigo\" sound like oo.",
+        tip: "Keep the unstressed vowels full, as Brazilians do. Say \"de\" like dji, and make the final o of \"artigo\" sound like u.",
         explanation: "\"Estou lendo\" is the Brazilian progressive. A Lisbon speaker would say \"estou a ler\" and reduce most of the unstressed vowels.",
       },
       {

@@ -302,10 +302,10 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Can you do me a favour?'?",
+        question: "Which sentence is correct?",
         options: ["Kannst du mir einen Gefallen tun?", "Kannst du mir einen Gefallen bringen?", "Kannst du mir einen Gefallen haben?", "Kannst du mir einen Gefallen sein?"],
         correctIndex: 0,
-        explanation: "The fixed phrase is \"einen Gefallen tun\". \"*einen Gefallen bringen*\" doesn't exist.",
+        explanation: "\"Einen Gefallen tun\".",
       },
       {
         type: "word-order",
@@ -628,10 +628,10 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The driver drove the bus into the depot.'?",
-        options: ["Der Fahrer hat den Bus in die Halle gefahren.", "Der Fahrer ist den Bus in die Halle gefahren.", "Der Fahrer hat den Bus in die Halle gefahrt.", "Der Fahrer wurde den Bus in die Halle gefahren."],
+        question: "Which sentence is correct?",
+        options: ["Der Fahrer hat den Bus in die Halle gefahren.", "Der Fahrer ist den Bus in die Halle gefahren.", "Wir haben nach Rom geflogen.", "Das Eis hat gebrochen."],
         correctIndex: 0,
-        explanation: "With a direct object (\"den Bus\") \"fahren\" takes \"haben\". \"*ist den Bus gefahren*\" uses the auxiliary for movement without an object (\"Ich bin nach Rom gefahren\").",
+        explanation: "Object (\"den Bus\") → \"haben\".",
       },
       {
         type: "word-order",
@@ -953,10 +953,10 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The story made me cry.'?",
+        question: "Which sentence is correct?",
         options: ["Die Geschichte hat mich zum Weinen gebracht.", "Die Geschichte hat mich weinen gemacht.", "Die Geschichte hat mich zum Weinen gemacht.", "Die Geschichte ließ mich zum Weinen."],
         correctIndex: 0,
-        explanation: "To make someone cry = \"jemanden zum Weinen bringen\". \"*weinen gemacht*\" copies English make; \"*zum Weinen gemacht*\" has the wrong verb.",
+        explanation: "\"Zum Weinen bringen\".",
       },
       {
         type: "word-order",

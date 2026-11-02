@@ -168,7 +168,7 @@ export const PT_B2_U29_EXTRA: Lesson[] = [
         type: "speak",
         text: "Obrigado pelo convite, adorei!",
         prompt: "Say it in Portuguese: Thanks for having me, I loved it!",
-        tip: "\"Convite\": the final -te sounds like \"chee\".",
+        tip: "\"Convite\": the final -te sounds like \"tchi\".",
         explanation: "A woman says \"obrigada\".",
       },
     ],

@@ -314,10 +314,10 @@ export const DE_B2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is NOT a correct way to say 'I couldn't have done that.'?",
+            question: "Which sentence is NOT correct?",
             options: ["Das hätte ich nicht machen gekonnt.", "Das hätte ich nicht gekonnt.", "Das hätte ich nicht machen können.", "Ich hätte das nicht machen können."],
             correctIndex: 0,
-            explanation: "With a second verb the modal stays an infinitive (\"machen können\"), so \"*machen gekonnt*\" is wrong. \"Das hätte ich nicht gekonnt\" is fine, because there \"können\" is the only verb.",
+            explanation: "With a second verb the modal must be an infinitive: \"machen können\".",
           },
         ],
       },
@@ -528,10 +528,10 @@ export const DE_B2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'I had to work late yesterday.'?",
+            question: "Which sentence is correct?",
             options: ["Ich habe gestern länger arbeiten müssen.", "Ich habe gestern länger müssen arbeiten.", "Ich habe gestern länger arbeiten gemusst.", "Ich habe gestern länger gearbeitet müssen."],
             correctIndex: 0,
-            explanation: "In the Perfekt a modal with another verb becomes a double infinitive at the end: \"habe ... arbeiten müssen\". \"*arbeiten gemusst*\" is wrong: \"gemusst\" is only used when \"müssen\" stands alone.",
+            explanation: "Perfekt of a modal with a verb: \"habe ... arbeiten müssen\", modal last.",
           },
         ],
       },
@@ -590,10 +590,10 @@ export const DE_B2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'He should have warned us.'?",
+        question: "Which sentence is correct?",
         options: ["Er hätte uns warnen müssen.", "Er würde uns gewarnt haben müssen.", "Er hätte uns gewarnt müssen.", "Er wäre uns warnen müssen."],
         correctIndex: 0,
-        explanation: "Past criticism is \"hätte\" + infinitive + modal infinitive: \"hätte uns warnen müssen\". \"*Er hätte uns gewarnt müssen*\" is wrong: the modal can't follow a participle.",
+        explanation: "\"Hätte\" + infinitive + modal infinitive.",
       },
       {
         type: "multiple-choice",

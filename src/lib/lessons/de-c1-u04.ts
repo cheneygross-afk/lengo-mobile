@@ -937,10 +937,10 @@ export const DE_C1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Repair \"*Krank im Bett liegend, besuchte mich der Arzt*\" so it says 'When I was lying ill in bed, the doctor visited me.'",
+            question: "Which repair of \"*Krank im Bett liegend, besuchte mich der Arzt*\" is correct?",
             options: ["Als ich krank im Bett lag, besuchte mich der Arzt.", "Krank im Bett liegend, der Arzt besuchte mich.", "Krank im Bett liegend, besuchte der Arzt mich.", "Der Arzt, krank im Bett liegend, besuchte mich."],
             correctIndex: 0,
-            explanation: "Only the \"als\"-clause makes clear that I was the one in bed. The other three still attach \"krank im Bett liegend\" to the doctor, and \"*Krank im Bett liegend, der Arzt besuchte mich*\" also breaks verb-second.",
+            explanation: "Only the clause makes clear that I was in bed. The other three still attach the participle to the doctor.",
           },
         ],
       },
@@ -1806,7 +1806,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Contrast Clinic: Ist zu tun / Hat zu tun / Scheint zu tun",
-    summary: "You'll be able to tell \"sein + zu\" (passive necessity or possibility) from \"haben + zu\" (active obligation), and use the modal-like verbs \"scheinen\", \"pflegen\", \"drohen\", \"versprechen\" and \"vermögen\" + \"zu\".",
+    summary: "You'll be able to tell \"sein + zu\" (passive necessity or possibility) from \"haben + zu\" (active obligation), and use the modal-like verbs \"scheinen\", \"pflegen\", \"drohen\", \"versprechen\" and \"vermögen\" + zu.",
     duration: "18 min",
     sections: [
       {
@@ -2529,7 +2529,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Mastery Check: Participle and Infinitive Constructions, Part 2",
-    summary: "Show that you can use past and passive zu-infinitives, infinitives without \"zu\", \"sein\" / \"haben\" + \"zu\" and German equivalents of English -ing (Parts 4 to 6) without hints.",
+    summary: "Show that you can use past and passive zu-infinitives, infinitives without \"zu\", \"sein\" / \"haben\" + zu and German equivalents of English -ing (Parts 4 to 6) without hints.",
     duration: "18 min",
     sections: [
       {

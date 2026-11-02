@@ -154,7 +154,7 @@ export const PT_C1_U04_EXTRA: Lesson[] = [
         type: "speak",
         text: "A Constituição de 1988 garante o direito à educação.",
         prompt: "Say it in Portuguese: The 1988 Constitution guarantees the right to education.",
-        tip: "Read 1988 as \"mil novecentos e oitenta e oito\".",
+        tip: "Mil novecentos e oitenta e oito.",
         explanation: "\"Garante o direito à educação\" is classic legal repertório. Say 1988 as \"mil novecentos e oitenta e oito\", and remember the crase in \"à educação\" (direito a + a educação).",
       },
       {
@@ -319,7 +319,7 @@ export const PT_C1_U04_EXTRA: Lesson[] = [
         type: "speak",
         text: "Cabe ao governo criar campanhas, a fim de conscientizar a população.",
         prompt: "Say it in Portuguese: It is up to the government to create campaigns, in order to raise awareness among the population.",
-        tip: "Conscientizar: kõ-see-ẽ-chee-ZAR.",
+        tip: "Conscientizar: kon-si-en-tchi-ZAR.",
         explanation: "\"Cabe ao governo criar campanhas\" gives the agent and action, and \"a fim de\" + infinitive (\"conscientizar\") gives the purpose. That is a compact proposta de intervenção.",
       },
       {
@@ -400,7 +400,7 @@ export const PT_C1_U04_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into essay Portuguese, without \"onde\".",
+            prompt: "Translate into essay Portuguese, without onde.",
             source: "This is a context in which the authorities fail to act.",
             answer: "Trata-se de um contexto em que o poder público se omite.",
             altAnswers: ["Trata-se de um contexto no qual o poder público se omite.", "Trata-se de um cenário em que o poder público se omite.", "Trata-se de um cenário no qual o poder público se omite."],
@@ -467,7 +467,7 @@ export const PT_C1_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into essay Portuguese, referring back with \"tal\".",
+        prompt: "Translate into essay Portuguese, referring back with tal.",
         source: "Furthermore, this situation affects Black women above all.",
         answer: "Ademais, tal cenário afeta sobretudo as mulheres negras.",
         altAnswers: ["Além disso, tal cenário afeta sobretudo as mulheres negras.", "Ademais, tal cenário afeta principalmente as mulheres negras.", "Ademais, tal situação afeta sobretudo as mulheres negras."],
@@ -476,7 +476,7 @@ export const PT_C1_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite without the cliché: \"Desde os primórdios da humanidade, a violência doméstica existe.\"",
+        prompt: "Rewrite without the cliché: Desde os primórdios da humanidade, a violência doméstica existe.",
         source: "In 2006, the Maria da Penha Law created mechanisms against domestic violence.",
         answer: "Em 2006, a Lei Maria da Penha criou mecanismos contra a violência doméstica.",
         altAnswers: ["Em 2006, a Lei Maria da Penha criou mecanismos de combate à violência doméstica.", "Em 2006, a Lei Maria da Penha criou mecanismos para coibir a violência doméstica."],
@@ -485,7 +485,7 @@ export const PT_C1_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in the norma culta: \"A gente acha que tem muita gente sem casa.\"",
+        prompt: "Rewrite in the norma culta: A gente acha que tem muita gente sem casa.",
         source: "There are many people without housing.",
         answer: "Há muitas pessoas sem moradia.",
         altAnswers: ["Existem muitas pessoas sem moradia.", "Há muitas pessoas sem acesso à moradia.", "Muitas pessoas não têm moradia."],
@@ -541,7 +541,7 @@ export const PT_C1_U04_EXTRA: Lesson[] = [
         type: "speak",
         text: "Para o sociólogo Zygmunt Bauman, os laços na modernidade líquida são frágeis.",
         prompt: "Say it in Portuguese: For the sociologist Zygmunt Bauman, bonds in liquid modernity are fragile.",
-        tip: "\"Laços\": the ç is an s, LA-soos; \"frágeis\": FRÁ-zheys.",
+        tip: "\"Laços\": the ç is an s, LA-sus; \"frágeis\": FRA-zheis.",
         explanation: "A thinker introduced with a label and \"para\".",
       },
     ],

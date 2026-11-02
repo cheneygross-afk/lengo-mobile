@@ -151,7 +151,7 @@ export const PT_B2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não me disseram nada.",
         prompt: "Say it in Portuguese: They didn't tell me anything.",
-        tip: "Disseram: jee-SÉ-rãw, with an open é.",
+        tip: "Disseram: dji-SÉ-rãw, with an open é.",
         explanation: "\"Não\" pulls \"me\" before the verb, and Portuguese keeps the double negative \"não... nada\" for not anything.",
       },
       {
@@ -318,7 +318,7 @@ export const PT_B2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Preciso fazê-lo hoje.",
         prompt: "Say it in Portuguese: I need to do it today.",
-        tip: "Fazê-lo: fa-ZÊ-loo, with a closed ê.",
+        tip: "Fazê-lo: fa-ZÊ-lu, with a closed ê.",
         explanation: "\"Fazer\" + \"o\" = \"fazê-lo\". In speech many Brazilians would say \"fazer isso\", but the -lo form is the written norm.",
       },
       {

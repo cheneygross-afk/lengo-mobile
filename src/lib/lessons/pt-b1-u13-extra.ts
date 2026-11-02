@@ -151,7 +151,7 @@ export const PT_B1_U13_EXTRA: Lesson[] = [
         type: "speak",
         text: "O trabalho é cansativo; mesmo assim, eu gosto.",
         prompt: "Say it in Portuguese: The job is tiring; even so, I like it.",
-        tip: "Cansativo: kan-sa-CHEE-voo.",
+        tip: "Cansativo: kan-sa-TCHI-vu.",
         explanation: "\"Mesmo assim\" (even so) follows a semicolon and takes a comma. The object is dropped in natural speech: \"eu gosto\".",
       },
       {
@@ -315,7 +315,7 @@ export const PT_B1_U13_EXTRA: Lesson[] = [
         type: "speak",
         text: "Já que você está aqui, me ajuda com isso.",
         prompt: "Say it in Portuguese: Since you're here, help me with this.",
-        tip: "Já que: ZHAH kee.",
+        tip: "Já que: ZHA ki.",
         explanation: "\"Já que\" + the indicative \"está\". The informal command \"me ajuda\" is how Brazilians ask for help in speech.",
       },
       {
@@ -480,7 +480,7 @@ export const PT_B1_U13_EXTRA: Lesson[] = [
         type: "speak",
         text: "Em resumo, é uma ótima cidade para estudar.",
         prompt: "Say it in Portuguese: In short, it's a great city to study in.",
-        tip: "Resumo: he-ZOO-moo.",
+        tip: "Resumo: he-ZU-mu.",
         explanation: "\"Em resumo\" signals the closing sentence. \"Para estudar\" means to study in.",
       },
       {

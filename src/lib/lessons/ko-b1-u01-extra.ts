@@ -59,7 +59,7 @@ export const KO_B1_U01_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "Hajun said his new laptop is really [light].",
+            en: "Hajun said his new laptop [is] really [light].",
             sentence: "하준 씨가 새로 산 노트북이 정말 ___ 했어요.",
             answer: "가볍다고",
             explanation: "가볍다 is an adjective; -다고 starts with a consonant, so the ㅂ stays: 가볍다고."
@@ -358,8 +358,7 @@ export const KO_B1_U01_EXTRA: Lesson[] = [
           "준호 씨가 제 전화번호가 뭐냐고 물었어요.",
           "준호 씨는 제 전화번호가 뭐냐고 물어봤어요.",
           "준호 씨가 제 전화번호가 뭐냐고 했어요.",
-          "준호 씨가 저한테 제 전화번호가 뭐냐고 물어봤어요.",
-          "준호 씨가 전화번호가 뭐냐고 물어봤어요."
+          "준호 씨가 저한테 제 전화번호가 뭐냐고 물어봤어요."
         ],
         explanation: "뭐 ends in a vowel: 뭐냐고. Your own number stays 제 전화번호 because 'my' means you."
       },
@@ -520,7 +519,7 @@ export const KO_B1_U01_EXTRA: Lesson[] = [
       {
         heading: "Honour the speaker on the last verb",
         body: [
-          "A senior speaker gets -시- on the reporting verb: 하셨어요, 말씀하셨어요, 물어보셨어요 or 물으셨어요. The subject can take 께서 for extra respect. Inside the quote you may also honour them when they talk about themselves (가신다고), but never honour yourself: 할머니가 제가 바쁘냐고 물어보셨어요; 제가 바쁘시냐고 would put honorific -시- on yourself, which is wrong for the situation."
+          "A senior speaker gets -시- on the reporting verb: 하셨어요, 말씀하셨어요, 물어보셨어요 or 물으셨어요. The subject can take 께서 for extra respect. Inside the quote you may also honour them when they talk about themselves (가신다고), but never honour yourself: 할머니가 제가 바쁘냐고 물어보셨어요, not *제가 바쁘시냐고."
         ],
         examples: [
           {

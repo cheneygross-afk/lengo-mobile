@@ -516,7 +516,7 @@ export const DE_C2_U19: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "How do you say 'So what are you actually doing here?'?",
+            question: "Which order of particles is correct?",
             options: ["Was machst du denn eigentlich hier?", "Was machst du eigentlich denn hier?", "Was machst du hier eigentlich denn?", "Was denn machst du eigentlich hier?"],
             correctIndex: 0,
             explanation: "Stacked particles have a set order: \"denn\" before \"eigentlich\", both in the middle field after the pronoun.",

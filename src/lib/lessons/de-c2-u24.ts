@@ -475,7 +475,7 @@ export const DE_C2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you write 'After the Wall was built, the number of refugees fell.'?",
+            question: "Which version is correct?",
             options: ["Nach dem Mauerbau sank die Zahl der Flüchtlinge.", "Nachdem Mauerbau sank die Zahl der Flüchtlinge.", "Nach der Mauerbau sank die Zahl der Flüchtlinge.", "Nachdem der Mauerbau sank die Zahl der Flüchtlinge."],
             correctIndex: 0,
             explanation: "\"Nach\" (preposition) + dative noun; \"nachdem\" is a conjunction and needs a clause with a verb.",
@@ -553,10 +553,10 @@ export const DE_C2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'After the troops had withdrawn, people returned.' in careful written German?",
+        question: "Which sentence is correct in careful written German?",
         options: ["Nachdem die Truppen abgezogen waren, kehrten die Menschen zurück.", "Nachdem die Truppen abzogen, kehrten die Menschen zurück.", "Nachdem die Truppen abgezogen sind, kehrten die Menschen zurück.", "Als die Truppen abgezogen waren, kehrten die Menschen zurück, nachdem."],
         correctIndex: 0,
-        explanation: "\"Nachdem\" + Plusquamperfekt before a Präteritum main clause. \"*Nachdem die Truppen abzogen*\" (Präteritum) is common in speech but wrong in careful writing.",
+        explanation: "\"Nachdem\" + Plusquamperfekt before a Präteritum main clause.",
       },
       {
         type: "translate",
@@ -1359,7 +1359,7 @@ export const DE_C2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'The Wall fell in 1989.'?",
+        question: "Which date expression is correct German?",
         options: ["Im Jahr 1989 fiel die Mauer.", "In 1989 fiel die Mauer.", "Im 1989 fiel die Mauer.", "An 1989 fiel die Mauer."],
         correctIndex: 0,
         explanation: "Either the bare year or \"im Jahr 1989\". \"In 1989\" is an anglicism.",
@@ -1648,10 +1648,10 @@ export const DE_C2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you write 'during the war' in written German?",
+            question: "Which is correct in written German?",
             options: ["während des Krieges", "während dem Krieg", "während den Krieg", "während der Krieg"],
             correctIndex: 0,
-            explanation: "Written German: \"während\" + genitive (\"des Krieges\"). \"*während dem Krieg*\" is colloquial.",
+            explanation: "Written German: \"während\" + genitive. \"Während dem Krieg\" is colloquial.",
           },
         ],
       },

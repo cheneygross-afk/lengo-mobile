@@ -94,7 +94,7 @@ export const KO_B1_U02: Lesson[] = [
         heading: "-지 말자고: let's not",
         body: [
           "A negative suggestion, -지 말자 'let's not', is reported as -지 말자고: 오늘은 술 마시지 말자고 했어요. 말다 is the 'don't' verb you know from -지 마세요; here it simply takes -자고.",
-          "Don't build it with 안: the standard report of 'let's not go' is 가지 말자고; 안 가자고 is heard in casual talk but is not standard. Negative suggestions and commands are built with 말다.",
+          "Don't build it with 안: Koreans report 'let's not go' as 가지 말자고, not 안 가자고. Negative suggestions and commands always use 말다.",
         ],
         examples: [
           { es: "친구가 오늘은 술 마시지 말자고 했어요.", en: "My friend suggested we don't drink tonight." },
@@ -2052,7 +2052,7 @@ export const KO_B1_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Wrong report type: 가자고 for an order, *하지 않으라고",
+        heading: "Wrong report type: *가자고, *하지 않으라고",
         body: [
           "*민수 씨가 저한테 먼저 가자고 했어요 for 'Minsu told me to go first' turns an order into 'let's go'. -자고 includes the speaker; an order for you alone is 가라고.",
           "*하지 않으라고 builds 'not to do' from -지 않다, which only negates statements. Any 'don't' in a report is -지 말라고: 하지 말라고.",

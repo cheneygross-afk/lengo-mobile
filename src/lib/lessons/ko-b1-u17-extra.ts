@@ -462,10 +462,10 @@ export const KO_B1_U17_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the most natural Korean for 'Eating out is becoming more and more of a burden'?",
+            question: "Which is the natural Korean for 'Eating out is becoming more and more of a burden'?",
             options: ["외식하기가 점점 부담스러워져요.", "외식하기가 점점 부담스러워요.", "외식하기가 점점 부담스럽게 가요.", "외식하기가 점점 부담스러워 와요."],
             correctIndex: 0,
-            explanation: "부담스럽다 → 부담스러워지다: 점점 wants the change verb. 점점 부담스러워요 is heard casually but leaves the change out.",
+            explanation: "부담스럽다 → 부담스러워지다: 점점 needs the change verb.",
           },
         ],
       },

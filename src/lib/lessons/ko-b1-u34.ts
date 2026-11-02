@@ -486,7 +486,7 @@ export const KO_B1_U34: Lesson[] = [
         heading: "Background and 'even if'",
         body: [
           "-(으)ㄴ / 는데 sets the scene for what follows: a contrast, a surprise, or a question or request. -아 / 어도 is 'even if, even though', and -더라도 is a stronger, less likely 'even if', often before advice.",
-          "아무리 'no matter how' pairs with -아 / 어도 (or -는데도), not with plain -는데.",
+          "아무리 'no matter how' pairs with -아 / 어도, never with -는데.",
         ],
         examples: [
           { es: "비가 오는데 우산이 없어요.", en: "It's raining, and I don't have an umbrella." },
@@ -568,7 +568,7 @@ export const KO_B1_U34: Lesson[] = [
         heading: "Time and sequence",
         body: [
           "-자마자 'as soon as', -는 길에 'on the way', -(으)ㄴ / 는 김에 'while you're at it', -다가 'was doing, then switched', -다 보면 'if you keep doing, you'll find', and -든지 'either ... or, whatever'.",
-          "Don't use -는 대로 for a past 'as soon as': it's for future plans and instructions, so yesterday's 'as soon as I got home' is -자마자.",
+          "Don't use -는 대로 for a past 'as soon as': it's only for the future and instructions, so yesterday's 'as soon as I got home' is -자마자.",
         ],
         examples: [
           { es: "집에 도착하자마자 잠들었어요.", en: "As soon as I got home, I fell asleep." },
@@ -649,7 +649,7 @@ export const KO_B1_U34: Lesson[] = [
         source: "As soon as I got home, I fell asleep.",
         answer: "집에 도착하자마자 잠들었어요.",
         altAnswers: ["집에 도착하자마자 잠이 들었어요.", "집에 오자마자 잠들었어요.", "집에 오자마자 잠이 들었어요.", "집에 도착하자마자 잤어요.", "집에 오자마자 잤어요.", "집에 가자마자 잠들었어요."],
-        explanation: "-자마자 for a past 'as soon as'. -는 대로 is for future plans and instructions.",
+        explanation: "-자마자 for a past 'as soon as'. -는 대로 is future and instructions only.",
       },
       {
         type: "multiple-choice",
@@ -841,7 +841,7 @@ export const KO_B1_U34: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "The office door was locked.",
         answer: "사무실 문이 잠겨 있었어요.",
-        altAnswers: ["사무실 문이 잠겨 있더라고요."],
+        altAnswers: ["사무실 문이 잠겨 있더라고요.", "사무실 문이 잠겨 있었습니다."],
         explanation: "잠그다 → passive 잠기다, and -아 / 어 있다 for the state: 잠겨 있었어요.",
       },
       {
@@ -946,7 +946,7 @@ export const KO_B1_U34: Lesson[] = [
         heading: "9:10: the office guesses",
         body: [
           "One story runs through this lesson: 지은 is late on the day of a big presentation. First the office guesses. -나 보다 / -(으)ㄴ가 보다 guess from what you can see, -(으)ㄹ지도 모르다 says it might be so, -(으)ㄹ 텐데 sets a guess up as the background for a worry or suggestion, and -(으)ㄹ걸요 is a confident guess that gently contradicts.",
-          "-나 보다 needs evidence, so it doesn't fit your own plans: for those say 갈 것 같아요, not 가나 봐요. (About yourself it means you've just realised something: 제가 많이 피곤했나 봐요.)",
+          "-나 보다 needs evidence and is about someone or something else; for your own plan say 갈 것 같아요, not 가나 봐요.",
         ],
         examples: [
           { es: "지은 씨가 아직 안 왔네요. 늦잠을 잤나 봐요.", en: "Jieun isn't here yet. She must have overslept." },
@@ -1192,7 +1192,7 @@ export const KO_B1_U34: Lesson[] = [
             prompt: "Translate into Korean (to your team leader, formal).",
             source: "I left my wallet on the subway yesterday.",
             answer: "어제 지하철에 지갑을 두고 내렸습니다.",
-            altAnswers: ["팀장님, 어제 지하철에 지갑을 두고 내렸습니다.", "어제 지하철에 지갑을 놓고 내렸습니다.", "어제 지하철에서 지갑을 잃어버렸습니다."],
+            altAnswers: ["팀장님, 어제 지하철에 지갑을 두고 내렸습니다.", "어제 지하철에 지갑을 놓고 내렸습니다.", "어제 지하철에서 지갑을 잃어버렸습니다.", "어제 지하철에 지갑을 두고 내렸어요.", "어제 지하철에 지갑을 놓고 내렸어요."],
             explanation: "Your own action takes no -시-: 내렸습니다. 두고 내리다 is 'get off and leave something behind'.",
           },
           {
@@ -1249,7 +1249,7 @@ export const KO_B1_U34: Lesson[] = [
         heading: "은 / 는 and 이 / 가 in a written story",
         body: [
           "In a written story, a person or thing comes in with 이 / 가 as new information and is picked up with 은 / 는 once it's known: 한 할머니가 지갑을 주웠다. 할머니는 그 지갑을 역무실에 맡기셨다. English does the same job with 'a' and then 'the'.",
-          "은 / 는 also contrasts two things (지갑은 찾았지만 교통카드는 없었다). Inside a modifying clause the subject normally takes 이 / 가: 내가 잃어버린 지갑.",
+          "은 / 는 also contrasts two things (지갑은 찾았지만 교통카드는 없었다). Inside a modifying clause the subject always takes 이 / 가: 내가 잃어버린 지갑.",
         ],
         examples: [
           { es: "어제 지하철에서 한 할머니가 지갑을 주우셨다.", en: "Yesterday on the subway, an old woman picked up a wallet." },
@@ -1303,7 +1303,7 @@ export const KO_B1_U34: Lesson[] = [
         prompt: "Translate into Korean (to your team leader, polite).",
         source: "Did you have lunch?",
         answer: "점심 드셨어요?",
-        altAnswers: ["점심은 드셨어요?", "점심 식사하셨어요?", "팀장님, 점심 드셨어요?", "식사하셨어요?"],
+        altAnswers: ["점심은 드셨어요?", "점심 식사하셨어요?", "점심 드셨습니까?", "점심 식사하셨습니까?", "팀장님, 점심 드셨어요?", "식사하셨어요?"],
         explanation: "먹다 has its own honorific verb, 드시다: 드셨어요. 먹으셨어요 is heard, but it sounds much less natural.",
       },
       {
@@ -1802,7 +1802,7 @@ export const KO_B1_U34: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "The printer broke, so I haven't printed them yet.",
             answer: "프린터가 고장 나서 아직 못 뽑았어요.",
-            altAnswers: ["프린터가 고장 나서 아직 출력을 못 했어요.", "프린터가 고장 나서 아직 인쇄를 못 했어요.", "프린터가 고장 나서 아직 못 했어요."],
+            altAnswers: ["프린터가 고장 나서 아직 못 뽑았습니다.", "프린터가 고장 나서 아직 출력을 못 했어요.", "프린터가 고장 나서 아직 인쇄를 못 했어요.", "프린터가 고장 나서 아직 못 출력했어요.", "프린터가 고장 나서 아직 못 했어요."],
             explanation: "-아 / 어서 for the reason, 못 for 'couldn't'. 뽑다 'pull out' is the everyday word for printing.",
           },
           {
@@ -1904,7 +1904,7 @@ export const KO_B1_U34: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (a shop clerk to a customer).",
+        prompt: "Translate into Korean (polite, a shop clerk).",
         source: "If you have the receipt, I'll exchange it right away.",
         answer: "영수증 있으시면 바로 바꿔 드릴게요.",
         altAnswers: ["영수증이 있으시면 바로 바꿔 드릴게요.", "영수증 있으시면 바로 교환해 드릴게요.", "영수증이 있으시면 바로 교환해 드릴게요.", "영수증이 있으면 바로 바꿔 드릴게요.", "영수증 있으시면 바로 바꿔 드리겠습니다.", "영수증이 있으시면 바로 교환해 드리겠습니다."],
@@ -1963,7 +1963,7 @@ export const KO_B1_U34: Lesson[] = [
         prompt: "Translate into Korean (subway announcement).",
         source: "The doors will open on the right.",
         answer: "내리실 문은 오른쪽입니다.",
-        altAnswers: ["오른쪽 문이 열립니다.", "오른쪽 문이 열리겠습니다."],
+        altAnswers: ["내리실 문은 오른쪽이에요.", "오른쪽 문이 열립니다.", "오른쪽 문이 열리겠습니다."],
         explanation: "The fixed announcement is 내리실 문은 오른쪽입니다, literally 'the door you will get off by is on the right'.",
       },
       {
@@ -2521,7 +2521,7 @@ export const KO_B1_U34: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I can't hear anything from one side of the earphones I got yesterday.",
             answer: "어제 받은 이어폰 한쪽이 안 들려요.",
-            altAnswers: ["어제 받은 이어폰 한쪽에서 소리가 안 나요.", "어제 받은 이어폰 한쪽에서 소리가 안 들려요.", "어제 받은 이어폰이 한쪽이 안 들려요.", "어제 받은 이어폰 한쪽이 들리지 않아요."],
+            altAnswers: ["어제 받은 이어폰 한쪽이 안 들립니다.", "어제 받은 이어폰 한쪽에서 소리가 안 나요.", "어제 받은 이어폰 한쪽에서 소리가 안 들려요.", "어제 받은 이어폰이 한쪽이 안 들려요.", "어제 받은 이어폰 한쪽이 들리지 않아요."],
             explanation: "들리다 'be heard' is the passive of 듣다, and 받은 is the past modifier: 'that I received'.",
           },
           {
@@ -2600,7 +2600,7 @@ export const KO_B1_U34: Lesson[] = [
             prompt: "Translate into Korean (online post, polite).",
             source: "I think it's better to talk quietly on the phone on the subway.",
             answer: "지하철에서는 조용히 통화하는 게 좋다고 생각해요.",
-            altAnswers: ["저는 지하철에서는 조용히 통화하는 게 좋다고 생각해요.", "지하철에서는 조용히 통화하는 것이 좋다고 생각해요.", "지하철에서 조용히 통화하는 게 좋다고 생각해요.", "지하철에서는 작은 소리로 통화하는 게 좋다고 생각해요."],
+            altAnswers: ["저는 지하철에서는 조용히 통화하는 게 좋다고 생각해요.", "지하철에서는 조용히 통화하는 것이 좋다고 생각해요.", "지하철에서 조용히 통화하는 게 좋다고 생각해요.", "지하철에서는 작은 소리로 통화하는 게 좋다고 생각해요.", "지하철에서는 조용히 통화하는 게 좋다고 생각합니다.", "지하철에서는 조용히 통화하는 것이 좋다고 생각합니다."],
             explanation: "-다고 생각하다: an adjective (좋다) reports with -다고.",
           },
           {
@@ -2622,7 +2622,7 @@ export const KO_B1_U34: Lesson[] = [
         prompt: "Translate into Korean (to your team leader, polite).",
         source: "Could I take tomorrow off?",
         answer: "내일 하루 쉬어도 될까요?",
-        altAnswers: ["내일 쉬어도 될까요?", "내일 휴가를 써도 될까요?", "내일 연차를 써도 될까요?", "내일 하루 휴가를 써도 될까요?", "팀장님, 내일 하루 쉬어도 될까요?"],
+        altAnswers: ["내일 쉬어도 될까요?", "내일 하루 쉬어도 되겠습니까?", "내일 휴가를 써도 될까요?", "내일 연차를 써도 될까요?", "내일 하루 휴가를 써도 될까요?", "팀장님, 내일 하루 쉬어도 될까요?"],
         explanation: "-아 / 어도 될까요? is the polite way to ask permission.",
       },
       {

@@ -71,13 +71,13 @@ export const PT_C2_U10: Lesson[] = [
         heading: "The levers that move a text",
         body: [
           "Register moves through a small set of levers, all taught earlier. The subject goes from \"a gente\" to \"nós\" to the impersonal \"se\" or the passive. There is goes from \"tem\" to \"há\" or \"existem\". The contractions \"tá\" and \"pra\" become \"está\" and \"para\". Pronouns shift too, so \"me disseram\" becomes \"fomos informados\". Vocabulary climbs as well: \"pedir\" becomes \"solicitar\", \"acabar\" becomes \"encerrar\".",
-          "The strongest lever is nominalization. Speech tells a story with people and verbs: \"porque cortaram o dinheiro\". Formal prose turns the event into a noun and hides the agent: \"em decorrência do corte orçamentário\". Pull this lever too hard and you get the opaque \"juridiquês\" you rewrote into plain language in Unit 17.",
+          "The strongest lever is nominalization. Speech tells a story with people and verbs: \"porque cortaram o dinheiro\". Formal prose turns the event into a noun and hides the agent: \"em decorrência do corte orçamentário\". Pull this lever too hard and you get the opaque \"juridiquês\" you rewrote into plain language in Unit 7.",
           "Move the levers together. \"Prezados moradores, a gente vem informar\" opens on the formal rung and drops to the colloquial one in the next breath. Choose \"Prezados moradores, informamos\" or the impersonal \"Informa-se aos moradores\".",
         ],
         examples: [
           { es: "A gente vai fazer um abaixo-assinado.", en: "We're going to do a petition. (colloquial)" },
           { es: "Os moradores farão um abaixo-assinado.", en: "The residents will organize a petition. (neutral)" },
-          { es: "Tem muita criança que estuda lá depois da aula.", en: "Lots of kids study there after school. (colloquial)" },
+          { es: "Tem muita criança que estuda lá depois da aula.", en: "Loads of kids study there after school. (colloquial)" },
           { es: "Há dezenas de crianças que frequentam o espaço no contraturno escolar.", en: "Dozens of children use the space outside school hours. (formal)" },
           { es: "Me disseram que cortaram a verba.", en: "They told me the funding got cut. (colloquial)" },
           { es: "Fomos informados de que o fechamento decorre de um corte orçamentário.", en: "We have been informed that the closure results from a budget cut. (formal: passive plus nominalization)" },
@@ -392,7 +392,7 @@ export const PT_C2_U10: Lesson[] = [
           { es: "À medida que o prazo se aproxima, a tensão aumenta.", en: "As the deadline approaches, the tension rises." },
           { es: "O plano fracassou, na medida em que ignorou os moradores.", en: "The plan failed insofar as it ignored the residents." },
           { es: "Ela faz um curso a distância.", en: "She's taking a distance-learning course." },
-          { es: "O radar fica à distância de 200 metros do cruzamento.", en: "The speed camera is 200 meters from the intersection." },
+          { es: "O radar fica à distância de 200 metros do cruzamento.", en: "The speed camera is 200 meters from the junction." },
           { es: "Atendemos de segunda a sexta, das 8h às 18h.", en: "We're open Monday to Friday, from 8 a.m. to 6 p.m." },
         ],
         checkpoint: [
@@ -850,7 +850,7 @@ export const PT_C2_U10: Lesson[] = [
       {
         type: "speak",
         text: "Em casa de ferreiro, o espeto é de pau.",
-        tip: "The rr in ferreiro is the h-like Brazilian r. Final -o in espeto sounds like 'oo' (is-PÊ-too), and the verb é is open.",
+        tip: "The rr in ferreiro is the h-like Brazilian r. Final -o in espeto sounds like u, and é is open.",
         explanation: "Say it with a knowing tone. Proverbs are usually delivered as a wry aside, not a lecture.",
       },
     ],
@@ -1109,7 +1109,7 @@ export const PT_C2_U10: Lesson[] = [
         type: "speak",
         text: "É proibida a entrada de visitantes.",
         prompt: "Say it in Portuguese: Visitors are not allowed in.",
-        tip: "Stress proibida on the bee: proy-BEE-da, with the oi as one glide. The \"de\" before \"visitantes\" sounds like 'jee'.",
+        tip: "Stress \"proi-BI-da\" and keep the \"oi\" as one glide. The \"de\" before \"visitantes\" sounds like dji.",
         explanation: "With the article \"a\", the adjective agrees: \"proibida a entrada\". Without it the phrase stays invariable: \"é proibido entrada\".",
       },
       {
@@ -1454,7 +1454,7 @@ export const PT_C2_U10: Lesson[] = [
       {
         heading: "Untangling English structures",
         body: [
-          "As Unit 12 showed, English noun stacks, -ing forms and agentless passives rarely survive literal translation, and in a summary you also have to compress. Unpack a stack from the right: 'line manager training program' is \"programa de capacitação de gestores diretos\". Turn an -ing subject into a noun ('commuting costs' → \"os gastos com deslocamento\"), and give a passive a real subject or the impersonal \"se\": 'it was found that' → \"a pesquisa constatou que\" or \"constatou-se que\".",
+          "As Unit 5 showed, English noun stacks, -ing forms and agentless passives rarely survive literal translation, and in a summary you also have to compress. Unpack a stack from the right: 'line manager training program' is \"programa de capacitação de gestores diretos\". Turn an -ing subject into a noun ('commuting costs' → \"os gastos com deslocamento\"), and give a passive a real subject or the impersonal \"se\": 'it was found that' → \"a pesquisa constatou que\" or \"constatou-se que\".",
           "Nominalizing compresses well in formal Portuguese: 'because companies cut office space, they saved money' becomes \"a redução dos escritórios gerou economia\". English bullet points ('Productivity: unchanged') usually become full sentences linked by \"além disso\" or \"no entanto\", because a Brazilian executive summary reads as prose.",
           "Watch the false friends that slip in under time pressure: 'eventually' is \"com o tempo\" or \"por fim\", never \"eventualmente\" (occasionally), and 'actual figures' are \"os números reais\", not \"atuais\".",
         ],
@@ -1487,12 +1487,12 @@ export const PT_C2_U10: Lesson[] = [
       {
         heading: "Localizing: numbers, money, institutions",
         body: [
-          "Numbers change dress: 2,400 becomes \"2.400\", 14.5% becomes \"14,5%\", and March 3, 2024 becomes \"3 de março de 2024\". Pounds sterling mean little to a Brazilian reader, so keep the original figure and add an approximate conversion with \"cerca de\", set off by commas or parentheses. If precision matters, say which date's exchange rate you used.",
+          "Numbers change dress: 2,400 becomes \"2.400\", 14.5% becomes \"14,5%\", and March 3, 2024 becomes \"3 de março de 2024\". Pounds sterling mean little to a Brazilian reader, so keep the original figure and add an approximate conversion with \"cerca de\" in parentheses. If precision matters, say which date's exchange rate you used.",
           "Institutions need a gloss the first time: \"o NHS, o sistema público de saúde britânico\", and a comparison with the SUS helps a general reader. Drop references that don't travel, such as a London Underground strike, unless they explain a result. Where the Brazilian context changes the picture, say so: the CLT has its own rules on \"teletrabalho\", so a British finding may not transfer directly.",
         ],
         examples: [
           { es: "A pesquisa foi realizada entre 3 de março e 30 de abril de 2024.", en: "The survey was carried out between March 3 and April 30, 2024." },
-          { es: "O gasto médio com transporte é de 180 libras, cerca de R$ 1.300, por mês.", en: "Average transportation spending is £180, about R$1,300, a month." },
+          { es: "O gasto médio com transporte é de 180 libras (cerca de R$ 1.300) por mês.", en: "Average transportation spending is £180 (about R$1,300) a month." },
           { es: "O NHS, o sistema público de saúde britânico, comparável ao nosso SUS, participou do estudo.", en: "The NHS, Britain's public health system, comparable to our SUS, took part in the study." },
           { es: "A taxa de rotatividade caiu de 14,5% para 11%.", en: "Staff turnover fell from 14.5% to 11%." },
           { es: "Vale lembrar que a CLT tem regras próprias para o teletrabalho.", en: "Bear in mind that the CLT has its own rules for remote work." },
@@ -1553,7 +1553,7 @@ export const PT_C2_U10: Lesson[] = [
             type: "speak",
             text: "Para a nossa empresa, isso significa rever a política de presença.",
             prompt: "Say it in Portuguese: For our company, this means reviewing the attendance policy.",
-            tip: "Many Brazilians slip a soft i into the gn of \"significa\" (see-ghee-nee-FEE-ka); keep the stress on FEE, and say the ç in \"presença\" as a plain s.",
+            tip: "Many Brazilians slip a soft i into the gn of \"significa\" (sig-i-ni-FI-ca); keep the stress on FI, and say the ç in \"presença\" as a plain s.",
             explanation: "\"Isso significa\" + infinitive (\"rever\") turns the finding into its consequence for the reader. That is the mediator's own voice, clearly marked.",
           },
         ],
@@ -1650,7 +1650,7 @@ export const PT_C2_U10: Lesson[] = [
         type: "speak",
         text: "Segundo o estudo, a produtividade não caiu com o modelo híbrido.",
         prompt: "Say it in Portuguese: According to the study, productivity did not fall with the hybrid model.",
-        tip: "Final -o in \"estudo\" and \"modelo\" sounds like 'oo'. Stress \"híbrido\" on the first syllable, Í-bree-doo (the h is silent), and make \"não\" fully nasal.",
+        tip: "Final -o in \"estudo\" and \"modelo\" sounds like u. Stress \"híbrido\" on the first syllable, HÍ-bri-du, and make \"não\" fully nasal.",
         explanation: "\"Segundo o estudo\" attributes the finding at the start of the sentence, which is how a spoken briefing signals the source's voice.",
       },
       {
@@ -1965,7 +1965,7 @@ export const PT_C2_U10: Lesson[] = [
         heading: "Abrindo a mesa: the mediator's moves",
         body: [
           "A \"mesa-redonda\" on Brazilian TV, radio or at a book festival follows a ritual. The mediator greets the audience, states the question, introduces each guest by role and hands over the floor. The register is formal but spoken: \"senhoras e senhores\", \"o senhor\", \"a senhora\", full sentences and no slang. Nothing is as stiff as \"Vossa Senhoria\", which belongs to official letters, not to the studio.",
-          "Brazilians address experts by title plus first name: \"professor Paulo\", \"doutora Lúcia\". A last name alone (\"Sampaio\") sounds cold and journalistic. Dropping the title before the guest invites you to sounds over-familiar.",
+          "Brazilians address experts by title plus first name: \"professor Paulo\", \"doutora Lúcia\". A surname alone (\"Sampaio\") sounds cold and journalistic. Dropping the title before the guest invites you to sounds over-familiar.",
           "Mediators keep transitions short with a reduced participle clause (\"feitas as apresentações\", \"dito isso\") and frame the issue with a cleft: \"o que está em jogo é...\".",
         ],
         examples: [

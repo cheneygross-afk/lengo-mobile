@@ -250,7 +250,7 @@ export const PT_C2_S06_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "murchar", en: "to sink, collapse (of a cake)", forms: ["murchou"] },
     { es: "o pão de ló", en: "sponge cake", forms: ["ló"] },
     { es: "a gráfica", en: "print shop", forms: ["gráfica"] },
-    { es: "o ponto", en: "stage of beaten egg whites (ponto de neve: stiff peaks)", forms: ["ponto"] },
+    { es: "o ponto de neve", en: "stiff peaks (beaten egg whites)", forms: ["ponto"] },
     { es: "talhar", en: "to curdle", forms: ["talhar"] },
     { es: "o recorte", en: "newspaper clipping", forms: ["recorte"] },
     { es: "o recado", en: "message", forms: ["recado"] },

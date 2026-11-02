@@ -114,15 +114,15 @@ export const PT_B2_U11: Lesson[] = [
       {
         heading: "Dar uma + noun: a quick, casual action",
         body: [
-          "\"Dar uma\" + noun makes an action quick and casual, like English have a look or take a spin: \"dar uma olhada\" (have a look), \"dar uma volta\" (go for a walk or a drive), \"dar uma saída\" (step out), \"dar uma lida\" (give something a quick read), \"dar uma pensada\" (give it some thought). The noun is often the verb's feminine participle.",
+          "\"Dar uma\" + noun makes an action quick and casual, like English have a look or take a spin: \"dar uma olhada\" (have a look), \"dar uma volta\" (go for a walk or a drive), \"dar uma saída\" (pop out), \"dar uma lida\" (have a quick read), \"dar uma pensada\" (give it some thought). The noun is often the verb's feminine participle.",
           "\"Vou ler o contrato\" sounds like a task, while \"vou dar uma lida no contrato\" sounds light. That makes the pattern perfect for soft requests: \"dá uma olhada nisso pra mim?\" The thing you look at or read takes \"em\" (\"no\", \"na\", \"nisso\").",
         ],
         examples: [
           { es: "Você pode dar uma olhada no meu texto?", en: "Can you take a look at my text?" },
-          { es: "Vamos dar uma volta na orla depois do jantar?", en: "How about a walk along the beachfront after dinner?" },
-          { es: "Ela deu uma saída, mas volta em dez minutos.", en: "She stepped out, but she'll be back in ten minutes." },
+          { es: "Vamos dar uma volta na orla depois do jantar?", en: "Shall we go for a walk along the seafront after dinner?" },
+          { es: "Ela deu uma saída, mas volta em dez minutos.", en: "She's popped out, but she'll be back in ten minutes." },
           { es: "Vou dar uma pensada e te respondo amanhã.", en: "I'll give it some thought and get back to you tomorrow." },
-          { es: "Dá uma lida no contrato antes de assinar.", en: "Give the contract a quick read before you sign." },
+          { es: "Dá uma lida no contrato antes de assinar.", en: "Have a quick read of the contract before you sign." },
         ],
         checkpoint: [
           {
@@ -145,10 +145,10 @@ export const PT_B2_U11: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "She stepped out, but she'll be back soon.",
+            source: "She's popped out, but she'll be back soon.",
             answer: "Ela deu uma saída, mas já volta.",
             altAnswers: ["Ela deu uma saída, mas volta logo.", "Ela deu uma saidinha, mas já volta.", "Ela deu uma saidinha, mas volta logo.", "Ela deu uma saída, mas logo volta."],
-            explanation: "Stepped out is a finished action, so the perfeito \"deu uma saída\". \"Já volta\" is the everyday way to say she'll be right back.",
+            explanation: "Popped out is a finished action, so the perfeito \"deu uma saída\". \"Já volta\" is the everyday way to say she'll be right back.",
           },
         ],
       },
@@ -184,7 +184,7 @@ export const PT_B2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "How about a walk on the beach?",
+        source: "Shall we go for a walk on the beach?",
         answer: "Vamos dar uma volta na praia?",
         altAnswers: ["Vamos dar uma volta pela praia?", "Vamos dar uma voltinha na praia?"],
         explanation: "\"Dar uma volta\" is to go for a walk or a short drive. \"Vamos...?\" is the natural way to suggest it.",
@@ -309,7 +309,7 @@ export const PT_B2_U11: Lesson[] = [
           { es: "Pega mal chegar atrasado numa entrevista de emprego.", en: "It looks bad to arrive late to a job interview." },
           { es: "O comentário dele pegou muito mal na reunião.", en: "His comment went down really badly in the meeting." },
           { es: "Mandar uma mensagem de agradecimento sempre pega bem.", en: "Sending a thank-you message always goes down well." },
-          { es: "Minha mãe vive pegando no meu pé por causa da faculdade.", en: "My mom is always on my case about college." },
+          { es: "Minha mãe vive pegando no meu pé por causa da faculdade.", en: "My mom is always on my case about university." },
           { es: "Para de pegar no pé do seu irmão!", en: "Stop picking on your brother!" },
         ],
         checkpoint: [
@@ -366,14 +366,14 @@ export const PT_B2_U11: Lesson[] = [
       {
         heading: "Fazer questão and fazer falta",
         body: [
-          "\"Fazer questão de\" means to insist on or make a point of something: \"faço questão de pagar\". It's a false friend, because asking a question is \"fazer uma pergunta\". With a different subject it takes \"que\" + subjunctive (\"faço questão que você venha\", \"de que\" in writing). \"Não faço questão\" means it doesn't matter to me.",
+          "\"Fazer questão de\" means to insist on or make a point of something: \"faço questão de pagar\". It's a false friend, because asking a question is \"fazer uma pergunta\". With a different subject it takes \"que\" + subjunctive (\"faço questão que você venha\", \"de que\" in writing). \"Não faço questão\" means I'm not bothered.",
           "\"Fazer falta\" means to be missed, and it flips the English. What's missed is the subject, and the person missing it is the indirect object. \"Você me faz falta\" means I miss you, like \"sinto falta de você\". The verb agrees with what's missed: \"meus amigos me fazem falta\".",
         ],
         examples: [
           { es: "Faço questão de pagar o jantar hoje.", en: "I insist on paying for dinner tonight." },
           { es: "Ele fez questão de vir de Belo Horizonte para o casamento.", en: "He made a point of coming from Belo Horizonte for the wedding." },
           { es: "Faço questão que você conheça os meus pais.", en: "I really want you to meet my parents." },
-          { es: "Sobremesa? Não, obrigada, não faço questão.", en: "Dessert? No thanks, I'll pass. (a woman speaking)" },
+          { es: "Sobremesa? Não, obrigada, não faço questão.", en: "Dessert? No thanks, I'm not bothered. (a woman speaking)" },
           { es: "Você faz muita falta aqui no escritório.", en: "We really miss you here at the office." },
           { es: "Em Manaus, o que mais me faz falta é a minha família.", en: "In Manaus, what I miss most is my family." },
         ],
@@ -453,7 +453,7 @@ export const PT_B2_U11: Lesson[] = [
         type: "speak",
         text: "Faço questão de pagar o café.",
         prompt: "Say it in Portuguese: I insist on paying for the coffee.",
-        tip: "Say questão as 'kes-TÃW': the u is silent, and the ão is nasal with no n at the end.",
+        tip: "Say questão as kes-TÃO: the u is silent, and the ão is nasal with no n at the end.",
         explanation: "\"Fazer questão de\" + infinitive: insisting, not asking.",
       },
       {
@@ -517,7 +517,7 @@ export const PT_B2_U11: Lesson[] = [
           { es: "Que mico! Eu tropecei na frente da escola inteira.", en: "How embarrassing! I tripped in front of the whole school." },
           { es: "A professora percebeu que eu enchi linguiça na redação.", en: "The teacher noticed I padded out my essay." },
           { es: "Esse episódio é só para encher linguiça.", en: "This episode is just filler." },
-          { es: "Para de encher linguiça e vai direto ao ponto.", en: "Stop rambling and get to the point." },
+          { es: "Para de encher linguiça e vai direto ao ponto.", en: "Stop waffling and get to the point." },
         ],
         checkpoint: [
           {
@@ -628,7 +628,7 @@ export const PT_B2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He's just rambling to fill time.",
+        source: "He's just waffling to fill time.",
         answer: "Ele está só enchendo linguiça.",
         altAnswers: ["Ele só está enchendo linguiça.", "Ele está enchendo linguiça.", "Ele está só enchendo linguiça para ganhar tempo.", "Ele tá só enchendo linguiça."],
         explanation: "\"Encher linguiça\" already contains the idea of filling time, so nothing else is needed. The progressive \"está enchendo\" shows it's happening now.",
@@ -681,7 +681,7 @@ export const PT_B2_U11: Lesson[] = [
         question: "A colleague covered your shift at very short notice. How do you thank them?",
         options: ["Valeu por quebrar o galho!", "Valeu por pagar mico!", "Valeu por chutar o balde!", "Valeu por encher linguiça!"],
         correctIndex: 0,
-        explanation: "\"Quebrar o galho\" is getting someone out of a tight spot. The other three would thank them for embarrassing themselves, giving up or rambling.",
+        explanation: "\"Quebrar o galho\" is getting someone out of a tight spot. The other three would thank them for embarrassing themselves, giving up or waffling.",
       },
       {
         type: "listen-choose",
@@ -844,7 +844,7 @@ export const PT_B2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Desculpa, hoje eu estou falando pelos cotovelos!",
-            tip: "Pelos and cotovelos have a closed ê, and the final -os sounds like 'oos': 'ko-to-VÊ-loos'.",
+            tip: "Pelos and cotovelos have a closed ê, and the final -os sounds like us: co-to-VÊ-lus.",
             explanation: "\"Estou falando\" with the gerund limits the chatter to today, not a habit.",
           },
         ],
@@ -936,7 +936,7 @@ export const PT_B2_U11: Lesson[] = [
         type: "speak",
         text: "Pode tirar o cavalinho da chuva.",
         prompt: "Say it in Portuguese: Don't count on it.",
-        tip: "The ch in chuva sounds like English sh, and the nh in cavalinho is like the ny in canyon.",
+        tip: "The ch in chuva sounds like English sh, and the lh in cavalinho is like the lli in million.",
         explanation: "\"Pode tirar o cavalinho da chuva\": the friendly, teasing way to tell someone to give up on a hope.",
       },
       {
@@ -1038,7 +1038,7 @@ export const PT_B2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Ele chutou o balde e largou o emprego.",
-            tip: "In \"balde\" the l sounds like a u and the final -de like 'jee': 'BAU-jee'.",
+            tip: "In \"balde\" the l sounds like a u and the final -de like dji: BAU-dji.",
             explanation: "\"Chutar o balde\" means to give up on everything in frustration. The plain version is \"ele desistiu e largou o emprego\".",
           },
         ],
@@ -1442,7 +1442,7 @@ export const PT_B2_U11: Lesson[] = [
         examples: [
           { es: "Você não sabe o mico que eu paguei na festa da firma!", en: "You have no idea how badly I embarrassed myself at the company party!" },
           { es: "Tinha open bar, e eu enfiei o pé na jaca.", en: "There was an open bar, and I went way overboard." },
-          { es: "Lá pelas onze, eu fui dar uma volta pelo salão.", en: "Around eleven, I took a stroll around the room." },
+          { es: "Lá pelas onze, eu fui dar uma volta pelo salão.", en: "Around eleven, I went for a wander around the room." },
           { es: "Aí eu chamei o diretor de Marcos. O nome dele é Márcio.", en: "Then I called the director Marcos. His name is Márcio." },
           { es: "Que mico! E ele ficou bravo?", en: "How embarrassing! And did he get angry?" },
         ],
@@ -1523,7 +1523,7 @@ export const PT_B2_U11: Lesson[] = [
         examples: [
           { es: "Relaxa, todo mundo já pagou mico na festa da firma.", en: "Relax, everyone's embarrassed themselves at a work party." },
           { es: "Pegou mal, mas ninguém vai lembrar disso daqui a um mês.", en: "It looked bad, but nobody will remember it a month from now." },
-          { es: "Na segunda, eu quase chutei o balde e pedi demissão.", en: "On Monday I nearly said to hell with it and quit." },
+          { es: "Na segunda, eu quase chutei o balde e pedi demissão.", en: "On Monday I nearly threw it all in and quit." },
           { es: "Não leva isso tão a sério.", en: "Don't take it so seriously." },
           { es: "Tira o cavalinho da chuva: ela não vai ligar.", en: "Forget it: she's not going to call." },
           { es: "Se eu fosse você, dava uma pensada antes de mandar mensagem.", en: "If I were you, I'd think it over before texting her." },
@@ -1548,7 +1548,7 @@ export const PT_B2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Relaxa, todo mundo já pagou mico.",
-            tip: "The x in relaxa sounds like sh, and the final o of mico sounds like 'oo': 'MEE-koo'.",
+            tip: "The x in relaxa sounds like sh, and the final o of mico sounds like u: MI-ku.",
             explanation: "\"Todo mundo já pagou mico\": \"já\" with the perfeito means 'at some point'. That's what makes it sound like comfort.",
           },
         ],
@@ -1642,7 +1642,7 @@ export const PT_B2_U11: Lesson[] = [
           { left: "falar pelos cotovelos", right: "to talk nonstop" },
           { left: "ser pão-duro", right: "to be stingy" },
           { left: "pegar mal", right: "to look bad" },
-          { left: "chutar o balde", right: "to say to hell with it" },
+          { left: "chutar o balde", right: "to throw it all in" },
           { left: "tirar o cavalinho da chuva", right: "to stop counting on something" },
         ],
         explanation: "All six came up in Beatriz and Rafael's conversation. Each is a fixed chunk, so learn it whole.",
@@ -1651,7 +1651,7 @@ export const PT_B2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "On Monday I nearly said to hell with it.",
+        source: "On Monday I nearly threw it all in.",
         answer: "Na segunda, eu quase chutei o balde.",
         altAnswers: ["Na segunda, quase chutei o balde.", "Na segunda-feira, eu quase chutei o balde.", "Na segunda-feira, quase chutei o balde.", "Eu quase chutei o balde na segunda."],
         explanation: "\"Chutar o balde\" means to give everything up in frustration. \"Quase\" + perfeito means nearly did something.",
@@ -1781,7 +1781,7 @@ export const PT_B2_U11: Lesson[] = [
         heading: "Custou os olhos da cara, num e-mail formal? Register slips",
         body: [
           "Idioms live in speech and casual writing. Neutral ones such as \"dar certo\", \"fazer falta\" and \"levar a sério\" are fine in a work email. Colorful ones like \"pagar mico\", \"pegar no pé\", \"encher linguiça\" or \"custar os olhos da cara\" sound flippant in a formal letter, a report or a complaint.",
-          "The fix is the formal style from Unit 13: replace the image with its plain meaning. \"Precisamos dar um jeito no atraso\" becomes \"precisamos encontrar uma solução para o atraso\". A \"quebra-galho\" becomes \"uma solução provisória\". Telling a client \"tirem o cavalinho da chuva\" becomes \"infelizmente, não será possível...\".",
+          "The fix is the formal style from Unit 8: replace the image with its plain meaning. \"Precisamos dar um jeito no atraso\" becomes \"precisamos encontrar uma solução para o atraso\". A \"quebra-galho\" becomes \"uma solução provisória\". Telling a client \"tirem o cavalinho da chuva\" becomes \"infelizmente, não será possível...\".",
         ],
         examples: [
           { es: "Precisamos encontrar uma solução para o atraso na entrega.", en: "We need to find a solution to the delivery delay." },
@@ -1874,7 +1874,7 @@ export const PT_B2_U11: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "In the movie, the old man [kicks the bucket] at the end.",
+        en: "In the film, the old man [kicks the bucket] at the end.",
         sentence: "No filme, o velho ___ no final.",
         answer: "bate as botas",
         altAnswers: ["morre"],
@@ -2183,7 +2183,7 @@ export const PT_B2_U11: Lesson[] = [
         type: "speak",
         text: "Gente, vocês não vão acreditar no que aconteceu.",
         prompt: "Say it in Portuguese: Guys, you won't believe what happened.",
-        tip: "In gente the g is soft, as in measure, and the final te sounds like 'chee': 'ZHẼ-chee'.",
+        tip: "In gente the g is soft, as in measure, and the final te sounds like chee: ZHEN-chee.",
         explanation: "\"Acreditar em\" keeps its preposition, so \"no que\" (em + o que). It's a classic opening for a story.",
       },
       {
@@ -2193,7 +2193,7 @@ export const PT_B2_U11: Lesson[] = [
         source: "Stop padding it out and get to the point!",
         answer: "Para de encher linguiça e vai direto ao ponto!",
         altAnswers: ["Pare de encher linguiça e vá direto ao ponto!", "Para de encher linguiça e vai direto ao assunto!", "Pare de encher linguiça e vá direto ao assunto!"],
-        explanation: "\"Encher linguiça\" means to ramble or pad things out. The everyday imperative is \"para\" and \"vai\", and \"pare\" and \"vá\" are the standard forms.",
+        explanation: "\"Encher linguiça\" means to waffle or pad things out. The everyday imperative is \"para\" and \"vai\", and \"pare\" and \"vá\" are the standard forms.",
       },
       {
         type: "matching",

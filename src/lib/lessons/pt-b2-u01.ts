@@ -17,7 +17,7 @@ export const PT_B2_U01: Lesson[] = [
         body: [
           "The imperfect subjunctive is the past partner of the present subjunctive you know from B1. Build it from the eles form of the perfeito: take \"falaram\", drop -ram and add -sse to get \"falasse\". Every verb in the language follows this recipe.",
           "The endings: \"eu falasse\", \"você/ele/ela falasse\", \"nós falássemos\", \"vocês/eles/elas falassem\". The eu and ele forms are identical, so a pronoun or the context tells them apart.",
-          "The stress stays on the vowel before -ss- in every form (fa-LA-see, fa-LA-see-moos). In the nós form that puts it three syllables from the end, so that form needs a written accent. The double s is a sharp s, never a z.",
+          "The stress stays on the vowel before -ss- in every form (fa-LA-si, fa-LÁ-si-mus). In the nós form that puts it three syllables from the end, so that form needs a written accent. The double s is a sharp s, never a z.",
         ],
         examples: [
           { es: "Meus pais queriam que eu falasse inglês.", en: "My parents wanted me to speak English." },
@@ -86,7 +86,7 @@ export const PT_B2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Era importante que vocês entendessem o contrato.",
-            tip: "Stress en-ten-DÊ-sẽy, with a closed ê, and keep the ss a sharp s, not a z.",
+            tip: "Stress en-ten-DES-sem, and keep the ss a sharp s, not a z.",
             explanation: "\"Entenderam\" → \"entendessem\" for vocês, after the past trigger \"era importante que\".",
           },
         ],
@@ -241,7 +241,7 @@ export const PT_B2_U01: Lesson[] = [
         type: "speak",
         text: "Eu queria que você comesse alguma coisa.",
         prompt: "Say it in Portuguese: I wanted you to eat something.",
-        tip: "Stress ko-MÊ-see with a closed ê, and keep the ss sharp.",
+        tip: "Stress co-MES-se with a closed ê, and keep the ss sharp.",
         explanation: "\"Comeram\" → \"comesse\" after the past \"queria que\".",
       },
       {
@@ -478,7 +478,7 @@ export const PT_B2_U01: Lesson[] = [
         type: "speak",
         text: "Meus pais queriam que eu viesse para casa.",
         prompt: "Say it in Portuguese: My parents wanted me to come home.",
-        tip: "Say viesse in three syllables, vi-É-see, with an open é.",
+        tip: "Say viesse in three syllables, vi-É-si, with an open é.",
         explanation: "\"Vieram\" → \"viesse\". Don't confuse it with \"visse\" (from \"ver\").",
       },
       {
@@ -550,7 +550,7 @@ export const PT_B2_U01: Lesson[] = [
       {
         heading: "Tivesse, estivesse, fizesse, pudesse: the big four",
         body: [
-          "These four turn up in almost every conversation about the past, and each keeps its irregular perfeito stem: \"tiveram\" → \"tivesse\", \"estiveram\" → \"estivesse\", \"fizeram\" → \"fizesse\", \"puderam\" → \"pudesse\". If \"eles fizeram\" comes out without thinking, so will \"fizesse\". The stressed e is open in all of them (chee-VÉ-see, fi-ZÉ-see), which is why the nós form is written \"tivéssemos\".",
+          "These four turn up in almost every conversation about the past, and each keeps its irregular perfeito stem: \"tiveram\" → \"tivesse\", \"estiveram\" → \"estivesse\", \"fizeram\" → \"fizesse\", \"puderam\" → \"pudesse\". If \"eles fizeram\" comes out without thinking, so will \"fizesse\". The stressed e is open in all of them (ti-VÉ-si, fi-ZÉ-si), which is why the nós form is written \"tivéssemos\".",
           "The trap for English speakers is the infinitive of I wanted you to do it. After \"queria\" with a new subject, Portuguese needs \"que\" + imperfect subjunctive: \"eu queria que você fizesse\". Avoid the calque \"queria você fazer\", and don't use the present \"que você faça\" for a wish that belongs to the past. \"Eu queria que você estivesse aqui\" is also the everyday way to say I wish you were here.",
         ],
         examples: [
@@ -622,7 +622,7 @@ export const PT_B2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Eu não acreditava que eles soubessem o caminho.",
-            tip: "Stress the open é in so-BÉ-sẽy, and let the final -em go nasal with no clear n.",
+            tip: "Stress the open é in sou-BÉ-ssem, and let the final -em go nasal with no clear n.",
             explanation: "\"Não acreditava que\" expresses doubt in the past, so it takes the imperfect subjunctive \"soubessem\", from \"souberam\".",
           },
         ],
@@ -694,7 +694,7 @@ export const PT_B2_U01: Lesson[] = [
         question: "What did you hear?",
         options: ["Ela queria que eu viesse.", "Ela queria que eu visse.", "Ela queria que eu fosse.", "Ela queria que eu fizesse."],
         correctIndex: 0,
-        explanation: "\"Viesse\" (vi-É-see, from \"vir\") has three syllables. \"Visse\" (from \"ver\") has only two.",
+        explanation: "\"Viesse\" (vi-É-sse, from \"vir\") has three syllables. \"Visse\" (from \"ver\") has only two.",
       },
       {
         type: "dictation",
@@ -717,7 +717,7 @@ export const PT_B2_U01: Lesson[] = [
         type: "speak",
         text: "O garçom pediu que a gente pusesse as bolsas no chão.",
         prompt: "Say it in Portuguese: The waiter asked us to put the bags on the floor.",
-        tip: "Say pu-ZÉ-see: the single s between vowels sounds like z, and the final -e like ee.",
+        tip: "Say pu-ZÉ-ssi: the single s between vowels sounds like z, and the final -e like i.",
         explanation: "\"Puseram\" gives \"pusesse\". With \"a gente\" you use the ele form. The nós version is \"nós puséssemos\".",
       },
     ],
@@ -990,7 +990,7 @@ export const PT_B2_U01: Lesson[] = [
         type: "speak",
         text: "Eu queria que você ficasse.",
         prompt: "Say it in Portuguese: I wanted you to stay.",
-        tip: "Stress fi-KA-see; the ss is a clear s, and the final e sounds like a short ee.",
+        tip: "Stress fi-CA-sse; the ss is a clear s, and the final e sounds like a short i.",
         explanation: "\"Queria\" is past, so \"ficar\" goes into the imperfect subjunctive: \"ficasse\".",
       },
       {
@@ -1067,7 +1067,7 @@ export const PT_B2_U01: Lesson[] = [
         examples: [
           { es: "Seria bom se você chegasse às oito.", en: "It would be good if you got here at eight." },
           { es: "Seria ótimo se a gente pudesse almoçar juntos.", en: "It would be great if we could have lunch together." },
-          { es: "Seria melhor se vocês pegassem o metrô.", en: "It would be better if you all took the subway." },
+          { es: "Seria melhor se vocês pegassem o metrô.", en: "It would be better if you all took the metro." },
           { es: "Seria legal se você trouxesse o violão.", en: "It'd be nice if you brought your guitar." },
           { es: "Seria possível que a senhora enviasse o documento hoje?", en: "Would it be possible for you to send the document today, ma'am?" },
         ],
@@ -1092,7 +1092,7 @@ export const PT_B2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Seria ótimo se a gente pudesse almoçar juntos.",
-            tip: "Stress pu-DÉ-see, with an open é. Open the ó in ótimo.",
+            tip: "Stress pu-DES-se, with a voiceless ss. Open the ó in ótimo.",
             explanation: "\"Seria ótimo se\" + \"pudesse\", the imperfect subjunctive of \"poder\" (from \"puderam\"). \"A gente\" takes the ele/ela form.",
           },
         ],
@@ -1211,7 +1211,7 @@ export const PT_B2_U01: Lesson[] = [
         type: "speak",
         text: "Quem dera eu falasse japonês.",
         prompt: "Say it in Portuguese: I wish I spoke Japanese.",
-        tip: "Stress fa-LA-see. Japonês ends in a closed ê.",
+        tip: "Stress fa-LAS-se. Japonês ends in a closed ê.",
         explanation: "English I wish + past becomes \"quem dera\" + imperfect subjunctive \"falasse\".",
       },
       {
@@ -1329,7 +1329,7 @@ export const PT_B2_U01: Lesson[] = [
           {
             type: "speak",
             text: "O médico recomendou que ela descansasse.",
-            tip: "Stress des-kã-SA-see, and keep the ss a hissing s, never a z.",
+            tip: "Stress descan-SA-sse, and keep the ss a hissing s, never a z.",
             explanation: "\"Recomendou\" is past, so \"descansasse\" follows in the imperfect subjunctive.",
           },
         ],
@@ -1453,7 +1453,7 @@ export const PT_B2_U01: Lesson[] = [
         type: "speak",
         text: "Eu gostaria que você ficasse mais um pouco.",
         prompt: "Say it in Portuguese: I'd like you to stay a little longer.",
-        tip: "Stress fi-KA-see, and keep the ss voiceless.",
+        tip: "Stress fi-CA-sse, and keep the ss voiceless.",
         explanation: "The conditional \"gostaria\" counts as a past trigger, so it takes \"ficasse\".",
       },
       {
@@ -1631,7 +1631,7 @@ export const PT_B2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Quem dera os meus perguntassem alguma coisa!",
-            tip: "Stress per-gũ-TA-sẽy, and keep the double s hissing like the s in sun.",
+            tip: "Stress per-gun-TAS-sem, and keep the double s hissing like the s in sun.",
             explanation: "\"Quem dera\" plus the imperfect subjunctive is a wistful if only.",
           },
         ],
@@ -2069,7 +2069,7 @@ export const PT_B2_U01: Lesson[] = [
         type: "speak",
         text: "Eu queria que vocês viessem ao Rio.",
         prompt: "Say it in Portuguese: I wanted you all to come to Rio.",
-        tip: "In \"viessem\" the é is open (vi-É-sẽy) and the final -em is nasal, close to 'ein'.",
+        tip: "In \"viessem\" the é is open (vi-É-ssem) and the final -em is nasal, close to 'ein'.",
         explanation: "\"Vocês viessem\": the past trigger \"queria\" pulls \"vir\" into the imperfect subjunctive, plural to match \"vocês\".",
       },
       {
@@ -2306,7 +2306,7 @@ export const PT_B2_U01: Lesson[] = [
         type: "speak",
         text: "Todo mundo queria que você ficasse.",
         prompt: "Say it in Portuguese: Everybody wanted you to stay.",
-        tip: "Keep the ê in você closed (vo-SÊ), and stress fi-KA in ficasse with a hissing ss.",
+        tip: "Keep the ê in você closed (vo-SÊ), and stress fi-CA in ficasse with a hissing ss.",
         explanation: "\"Todo mundo\" takes the ele form \"queria\", and the past wish takes \"ficasse\".",
       },
       {

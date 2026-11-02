@@ -61,16 +61,16 @@ export const PT_C2_U08: Lesson[] = [
       {
         heading: "Consonants that give a speaker away",
         body: [
-          "Palatal t and d before an i sound (\"tia\" as 'CHEE-a', \"dia\" as 'JEE-a') are the norm in Rio, São Paulo and Minas. Much of the Nordeste keeps them plain, so in João Pessoa or Natal \"dia\" sounds as it's spelled. Pernambuco has its own twist and palatalizes after i instead: \"oito\" comes out as 'OY-choo'. In Curitiba and much of Santa Catarina final -e stays e, so \"leite quente\" has neither an 'ee' sound nor a 'ch'. Other Brazilians use that phrase to imitate a curitibano.",
-          "An s at the end of a syllable hisses in São Paulo, most of the South and the Centro-Oeste. It hushes in Rio, Florianópolis and Belém, so \"festa\" becomes 'FÉSH-ta' and \"mesmo\" becomes 'MÊZH-moo'. Much of the Nordeste hushes only before t and d: \"gosto\" with 'sh' and \"desde\" with 'zh', but \"mesmo\" with a plain z.",
+          "Palatal t and d before an i sound (\"tia\" as tchia, \"dia\" as djia) are the norm in Rio, São Paulo and Minas. Much of the Nordeste keeps them plain, so in João Pessoa or Natal \"dia\" sounds as it's spelled. Pernambuco has its own twist and palatalizes after i instead: \"oito\" comes out as oitcho. In Curitiba and much of Santa Catarina final -e stays e, so \"leite quente\" has neither i nor tch. Other Brazilians use that phrase to imitate a curitibano.",
+          "An s at the end of a syllable hisses in São Paulo, most of the South and the Centro-Oeste. It hushes in Rio, Florianópolis and Belém, so \"festa\" becomes fesh-ta and \"mesmo\" becomes mezh-mo. Much of the Nordeste hushes only before t and d: \"gosto\" and \"desde\" with sh, but \"mesmo\" with a plain z.",
           "A syllable-final r (\"porta\", \"mar\") has three main forms. It is a breathy h in Rio, Belo Horizonte and the Nordeste. Interior São Paulo, Paraná, Goiás and southern Minas use the retroflex caipira r, close to American English. São Paulo city and the South often use a tap.",
         ],
         examples: [
-          { es: "Que dia lindo para tomar um sorvete!", en: "What a lovely day for an ice cream! (plain d in João Pessoa, 'j' in Rio)" },
-          { es: "Comprei oito pães na padaria.", en: "I bought eight rolls at the bakery. ('OY-choo' in Recife)" },
+          { es: "Que dia lindo para tomar um sorvete!", en: "What a lovely day for an ice cream! (plain d in João Pessoa, dj in Rio)" },
+          { es: "Comprei oito pães na padaria.", en: "I bought eight rolls at the bakery. (oitcho in Recife)" },
           { es: "Tem leite quente aí?", en: "Is there any hot milk? (final e kept in Curitiba)" },
-          { es: "A festa foi na casa do Rafael.", en: "The party was at Rafael's place. ('FÉSH-ta' in Rio)" },
-          { es: "Desde quando você gosta de forró?", en: "Since when have you liked forró? ('DÊZH-dee' in Recife)" },
+          { es: "A festa foi na casa do Rafael.", en: "The party was at Rafael's place. (fesh-ta in Rio)" },
+          { es: "Desde quando você gosta de forró?", en: "Since when have you liked forró? (desh-de in Recife)" },
           { es: "Fecha a porta, por favor.", en: "Close the door, please. (h-like r in Rio, retroflex in Piracicaba)" },
         ],
         checkpoint: [
@@ -80,7 +80,7 @@ export const PT_C2_U08: Lesson[] = [
             question: "What does it mean?",
             options: ["Is there any hot milk?", "Is there any cold milk?", "Is it hot in there?", "Is there any hot coffee?"],
             correctIndex: 0,
-            explanation: "\"Leite quente\" is hot milk. In Curitiba both words end in a clear e; in Rio or São Paulo they end in 'ee', with 'ch': LÊY-chee KẼN-chee.",
+            explanation: "\"Leite quente\" is hot milk. In Curitiba both words end in a clear e; in Rio or São Paulo they end in i, with tch.",
           },
           {
             type: "translate",
@@ -127,7 +127,7 @@ export const PT_C2_U08: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Do you want a tangerine? (the way someone from São Paulo would say it, with the short form of você)",
             answer: "Cê quer uma mexerica?",
-            altAnswers: ["Cê quer mexerica?"],
+            altAnswers: ["Cê quer mexerica?", "Você quer uma mexerica?", "Você quer mexerica?"],
             explanation: "São Paulo and Minas say \"mexerica\" for tangerine. \"Cê\" is the spoken short form of \"você\" and takes the same verb: \"cê quer\".",
           },
           {
@@ -136,7 +136,7 @@ export const PT_C2_U08: Lesson[] = [
             en: "[I don't know], you know? (the way someone from Recife would say it)",
             sentence: "___, visse?",
             answer: "Sei não",
-            altAnswers: ["Não sei não"],
+            altAnswers: ["Não sei não", "Não sei"],
             explanation: "The Nordeste often puts the negation after the verb alone: \"sei não\". \"Visse?\" is the Pernambucan tag for you know?",
           },
           {
@@ -208,6 +208,8 @@ export const PT_C2_U08: Lesson[] = [
           "Cê vem à festa amanhã?",
           "Cê vai vir na festa amanhã?",
           "Cê vai vir à festa amanhã?",
+          "Você vem na festa amanhã?",
+          "Você vem à festa amanhã?",
         ],
         explanation: "\"Cê\" is the mineiro and paulista short form of \"você\", with the same verb. \"À festa\" is the norm; \"na festa\" after a verb of motion is everyday speech.",
       },
@@ -264,7 +266,7 @@ export const PT_C2_U08: Lesson[] = [
         type: "speak",
         text: "A festa foi ótima, mas a gente voltou cedo.",
         tip: "Say \"festa\" twice: first with a hissing s as in São Paulo, then with sh as in Rio.",
-        explanation: "Syllable-final s is the quickest marker of a carioca: FÉSH-ta in Rio, FÉS-ta in São Paulo.",
+        explanation: "Syllable-final s is the quickest marker of a carioca: fesh-ta in Rio, fes-ta in São Paulo.",
       },
       {
         type: "word-order",
@@ -277,7 +279,7 @@ export const PT_C2_U08: Lesson[] = [
         type: "multiple-choice",
         question: "Which pair of cues points most reliably to Recife?",
         options: [
-          "A plain d in \"dia\" and \"oito\" said as 'OY-choo'",
+          "A plain d in \"dia\" and \"oito\" said as oitcho",
           "\"Leite quente\" with clear e endings and a hissing s",
           "A retroflex r and \"uai\"",
           "\"Égua\" and a hushed s in every position",
@@ -692,7 +694,7 @@ export const PT_C2_U08: Lesson[] = [
       {
         heading: "Preconceito linguístico",
         body: [
-          "Bagno's book \"Preconceito linguístico\" (1999) argued that judgments about 'bad Portuguese' are really judgments about people. The features that draw mockery, such as \"os menino\", \"nós vai\" or the r in \"Cráudia\" and \"pranta\", belong to rural and working-class speakers. The deviations of the elite, like \"assisti o filme\", pass unnoticed.",
+          "Bagno's book \"Preconceito linguístico\" (1999) argued that judgements about 'bad Portuguese' are really judgements about people. The features that draw mockery, such as \"os menino\", \"nós vai\" or the r in \"Cráudia\" and \"pranta\", belong to rural and working-class speakers. The deviations of the elite, like \"assisti o filme\", pass unnoticed.",
           "He also took apart the myths behind the prejudice. People claim that \"brasileiro não sabe português\", that Portuguese is uniquely difficult, that one should speak as one writes, and that some state speaks the 'purest' Portuguese. Each myth confuses the written norm with the language itself. The swap of l for r, called \"rotacismo\", is a good test case: Latin \"obligare\" became \"obrigar\" by exactly the same process.",
           "The vocabulary of the debate carries a position. Linguists call forms \"adequadas\" or \"inadequadas\" to a situation rather than \"certas\" or \"erradas\", and contrast \"variantes estigmatizadas\" with \"variantes de prestígio\". \"Nós vai\" is not illogical either: like \"a gente vai\", it marks the person once, on the pronoun, instead of twice.",
         ],
@@ -846,7 +848,7 @@ export const PT_C2_U08: Lesson[] = [
         type: "speak",
         text: "Não está errado; é uma variante estigmatizada.",
         prompt: "Say it in Portuguese: It isn't wrong; it's a stigmatized variant.",
-        tip: "Both t's before i in \"estigmatizada\" sound like ch: es-cheeg-ma-chee-ZA-da.",
+        tip: "Both t's before i in \"estigmatizada\" sound like ch: es-tchig-ma-tchi-ZA-da.",
         explanation: "\"Variante estigmatizada\" puts the problem in social judgment, not in the grammar of the form.",
       },
       {
@@ -1212,7 +1214,7 @@ export const PT_C2_U08: Lesson[] = [
         heading: "Anglicisms and the new verbs",
         body: [
           "English is now the main source of new vocabulary. Some loans stay raw, especially in tech and in corporate São Paulo: \"feedback\", \"home office\", \"deadline\", \"o print\". Others become verbs, and new verbs join the \"-ar\" class, the only one still open: \"deletar\", \"printar\", \"postar\", \"linkar\", \"zipar\". They conjugate like \"falar\": \"deletei\", \"ela printou a conversa\".",
-          "A few take \"-ear\" instead and then behave like \"passear\": \"eu stalkeio\", \"ela stalkeia\", \"nós stalkeamos\". Pronunciation naturalizes them too. Print sounds like 'PRĨN-chee', and \"stalkear\" starts with an 'is' sound, because a Portuguese syllable can't begin with s plus a consonant.",
+          "A few take \"-ear\" instead and then behave like \"passear\": \"eu stalkeio\", \"ela stalkeia\", \"nós stalkeamos\". Pronunciation naturalizes them too. Print sounds like 'prin-tchi', and \"stalkear\" starts with an 'is' sound, because a Portuguese syllable can't begin with s plus a consonant.",
           "Semantic loans are subtler: an old word takes on an English meaning. \"Realizar\" is used for 'realize', where the norm says \"perceber\" or \"se dar conta\", and \"aplicar para uma vaga\" stands in for \"candidatar-se a uma vaga\". These are spreading among younger speakers, but many readers still see them as mistranslations. In speech and online, raw loans and new verbs are fine. In formal writing prefer \"apagar\", \"captura de tela\" and \"avaliação\" or \"retorno\".",
         ],
         examples: [
@@ -1366,7 +1368,7 @@ export const PT_C2_U08: Lesson[] = [
       {
         heading: "The generic masculine and why it's contested",
         body: [
-          "Portuguese marks gender all along the phrase: article, noun, adjective and participle agree. English marks it almost only in he and she, so 'the students are tired' is neutral, while \"os alunos estão cansados\" is masculine three times over. For mixed groups the norm uses the masculino genérico: \"os alunos\" covers girls and boys, and one man among twenty women turns \"elas\" into \"eles\".",
+          "Portuguese marks gender all along the phrase: article, noun, adjective and participle agree. English marks it almost only in he and she, so the students are tired is neutral, while \"os alunos estão cansados\" is masculine three times over. For mixed groups the norm uses the masculino genérico: \"os alunos\" covers girls and boys, and one man among twenty women turns \"elas\" into \"eles\".",
           "Grammarians call the masculine the unmarked form. It states no sex; it is simply the default. Critics answer that unmarked does not mean neutral in effect: psycholinguistic studies in several languages suggest that readers picture men when they meet \"os médicos\" or a job ad for \"engenheiros\". Every position in this debate rests on one question: does grammatical gender shape how we see people, or is it only form?",
           "When you report the debate, keep the verbs neutral: \"defensores argumentam que...\", \"críticos sustentam que...\", \"há quem considere...\". Evaluative verbs such as \"alegar\" or \"admitir\" quietly take sides.",
         ],
@@ -1494,7 +1496,7 @@ export const PT_C2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Bom dia a todas, todos e todes.",
-            tip: "The final -e sounds like 'ee', so the d in todes becomes a 'j' sound: TÔ-jees. The first o stays closed, as in todos.",
+            tip: "The final -e sounds like i, so the d in todes becomes the dj sound; the first o stays closed, as in todos.",
             explanation: "A triple greeting heard at some events: feminine, masculine and neutral, in that order.",
           },
         ],
@@ -1549,7 +1551,7 @@ export const PT_C2_U08: Lesson[] = [
         question: "What did you hear?",
         options: ["Bom dia a todas e a todos.", "Bom dia a todos.", "Bom dia a todes.", "Bom dia a todas."],
         correctIndex: 0,
-        explanation: "The desdobramento \"a todas e a todos\", with the feminine first. In \"todes\" you would hear a final 'ee' sound and the 'j' sound of d before it.",
+        explanation: "The desdobramento \"a todas e a todos\", with the feminine first. In \"todes\" you would hear a final i sound and the dj of d before i.",
       },
       {
         type: "translate",
@@ -1810,7 +1812,7 @@ export const PT_C2_U08: Lesson[] = [
         type: "speak",
         text: "A gente se fala amanhã.",
         prompt: "Say it in Portuguese, as you'd say it to a friend: We'll talk tomorrow.",
-        tip: "Run \"se fala\" together. The final e of \"se\" sounds like 'ee', and the stress falls on \"FA\".",
+        tip: "Run \"se fala\" together. The final e of \"se\" sounds like i, and the stress falls on \"FA\".",
         explanation: "\"A gente se fala\" is the spoken standard. \"Nós nos falamos amanhã\" is correct but sounds stiff in conversation.",
       },
       {
@@ -2011,7 +2013,7 @@ export const PT_C2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Pelo visto, não vamos chegar a um consenso hoje.",
-            tip: "Run \"chegar a um\" together (she-ga-ra-ŨM), and keep the s in \"consenso\" a clear s, not a z.",
+            tip: "Run \"chegar a um\" together (che-ga-ra-UM), and keep the s in \"consenso\" a clear s, not a z.",
             explanation: "\"Pelo visto\" (apparently) is how hosts wind down an argument that won't end in agreement.",
           },
         ],
@@ -2115,7 +2117,7 @@ export const PT_C2_U08: Lesson[] = [
         type: "speak",
         text: "Ninguém está dizendo que vale tudo; a gente está dizendo que depende do contexto.",
         prompt: "Say it in Portuguese: Nobody is saying anything goes; we're saying it depends on the context.",
-        tip: "In \"depende\" and \"contexto\", the final -e sounds like 'ee', and the d before it becomes 'j': de-PẼN-jee, kõ-TÊS-too.",
+        tip: "In \"depende\" and \"contexto\", the final -e sounds like i, and the d before it becomes dj: de-PEN-dji, con-TES-tu.",
         explanation: "The linguist's core reply in two halves: reject the caricature (\"vale tudo\"), then restate the position with \"depende do contexto\".",
       },
     ],
@@ -2275,7 +2277,7 @@ export const PT_C2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Mais do que defender o português do inglês, talvez seja o caso de defender os falantes do preconceito.",
-            tip: "Read it as two breath groups and pause at the comma. In \"preconceito\" the c before e sounds like s, and the final o sounds like 'oo'.",
+            tip: "Read it as two breath groups and pause at the comma. In \"preconceito\" the c before e sounds like s, and the final o is closer to u.",
             explanation: "A closing line that turns the question around. \"Talvez\" before the verb takes the subjunctive: \"talvez seja\".",
           },
         ],
@@ -2502,7 +2504,7 @@ export const PT_C2_U08: Lesson[] = [
           { es: "Você vem amanhã? Pergunto porque a reunião foi remarcada.", en: "Are you coming tomorrow? I ask because the meeting has been rescheduled." },
           { es: "Me disseram que o prazo acabou.", en: "They told me the deadline's passed. (speech, norma culta)" },
           { es: "Disseram-me que o prazo se encerrou.", en: "I was told the deadline had closed. (formal writing, norma padrão)" },
-          { es: "Tinha muita gente na fila.", en: "There were lots of people in line. (speech)" },
+          { es: "Tinha muita gente na fila.", en: "There were loads of people in the line. (speech)" },
           { es: "Havia muitas pessoas na fila.", en: "There were many people in line. (formal writing)" },
         ],
         checkpoint: [
@@ -2716,7 +2718,7 @@ export const PT_C2_U08: Lesson[] = [
       {
         type: "speak",
         text: "Tinha muita gente na fila do banco.",
-        prompt: "Say it in Portuguese, the way you'd tell a friend: There were lots of people in line at the bank.",
+        prompt: "Say it in Portuguese, the way you'd tell a friend: There were loads of people in the line at the bank.",
         tip: "In most of Brazil the t in tinha sounds like ch, and the i before nh is nasal.",
         explanation: "\"Tinha\" for there were is the everyday spoken form. In a report you'd write \"havia muitas pessoas\".",
       },

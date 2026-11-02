@@ -81,7 +81,7 @@ export const KO_B1_U02_EXTRA: Lesson[] = [
         en: "My friend told me [to open] a bank account.",
         sentence: "친구가 은행 계좌를 ___ 했어요.",
         answer: "만들라고",
-        altAnswers: ["열라고", "개설하라고"],
+        altAnswers: ["열라고"],
         explanation: "계좌를 만들다 'open an account', ㄹ stem: 만들라고.",
       },
       {

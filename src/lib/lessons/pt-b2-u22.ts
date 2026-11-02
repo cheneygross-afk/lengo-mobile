@@ -15,7 +15,7 @@ export const PT_B2_U22: Lesson[] = [
       {
         heading: "Subject, verb: no comma in between",
         body: [
-          "The core rule of Portuguese punctuation is a negative one: a single comma never separates the subject from its verb. \"*O diretor da escola, anunciou a mudança\" is one of the most frequent errors in Brazilian school essays and work emails, and examiners flag it every time. Write \"O diretor da escola anunciou a mudança\".",
+          "The core rule of Portuguese punctuation is a negative one: a single comma never separates the subject from its verb. \"*O diretor da escola, anunciou a mudança\" is one of the most frequent errors in Brazilian school essays and work emails, and examiners mark it every time. Write \"O diretor da escola anunciou a mudança\".",
           "The trap is the voice. When the subject is long, you naturally pause before the verb: \"Os funcionários que trabalham no turno da noite [pause] receberam um aviso\". The pause is real, but it isn't a comma. Portuguese punctuation follows the grammar of the sentence, not your breathing. English has the same rule, but speakers of English and Portuguese both break it when the subject grows.",
           "The longer the subject, the more carefully you should check: find the main verb, look at the word just before it, and make sure there is no lone comma there.",
         ],
@@ -448,7 +448,7 @@ export const PT_B2_U22: Lesson[] = [
         examples: [
           { es: "Os alunos que estudaram passaram na prova.", en: "The students who studied passed the test." },
           { es: "Os funcionários que trabalharam no feriado vão receber em dobro.", en: "The staff who worked on the public holiday will get double pay." },
-          { es: "O apartamento que nós vimos ontem já foi alugado.", en: "The apartment we saw yesterday has already been rented." },
+          { es: "O apartamento que nós vimos ontem já foi alugado.", en: "The flat we saw yesterday has already been rented." },
           { es: "Os clientes que pagaram à vista ganharam desconto.", en: "The customers who paid upfront got a discount." },
           { es: "A moça que me atendeu foi muito simpática.", en: "The young woman who served me was very nice." },
         ],
@@ -580,7 +580,7 @@ export const PT_B2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The apartment we visited yesterday has been rented.",
+        source: "The flat we visited yesterday has been rented.",
         answer: "O apartamento que visitamos ontem foi alugado.",
         altAnswers: ["O apartamento que nós visitamos ontem foi alugado.", "O apartamento que a gente visitou ontem foi alugado.", "O apartamento que visitamos ontem já foi alugado.", "O apartamento que vimos ontem foi alugado."],
         explanation: "Restrictive: which apartment? the one we visited.",
@@ -648,11 +648,11 @@ export const PT_B2_U22: Lesson[] = [
           "Because the subject comes after the verb, it looks like an object, and speakers often leave the verb in the singular: \"*chegou as encomendas\", \"*falta dois dias para o Natal\". In casual speech you'll hear this all the time, but in writing it is one of the most noticed errors. The fix is mechanical: ask what arrived, what is missing, what is left. That noun is the subject.",
         ],
         examples: [
-          { es: "Chegaram as encomendas que você pediu.", en: "The packages you ordered have arrived." },
+          { es: "Chegaram as encomendas que você pediu.", en: "The parcels you ordered have arrived." },
           { es: "Faltam dois dias para o fim do prazo.", en: "There are two days left before the deadline." },
-          { es: "Sobraram três vagas no curso de espanhol.", en: "There are three spots left in the Spanish course." },
+          { es: "Sobraram três vagas no curso de espanhol.", en: "There are three places left on the Spanish course." },
           { es: "Aconteceram coisas muito estranhas naquela casa.", en: "Some very strange things happened in that house." },
-          { es: "Bastam cinco minutos para preencher o formulário.", en: "Five minutes are enough to fill out the form." },
+          { es: "Bastam cinco minutos para preencher o formulário.", en: "Five minutes are enough to fill in the form." },
           { es: "Surgiram novas dúvidas depois da reunião.", en: "New questions came up after the meeting." },
         ],
         checkpoint: [
@@ -668,7 +668,7 @@ export const PT_B2_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Two seats were left] on the bus.",
+            en: "[Two places were left] on the bus.",
             sentence: "___ no ônibus.",
             answer: "Sobraram dois lugares",
             altAnswers: ["Sobraram duas vagas", "Restaram dois lugares", "Restaram duas vagas"],
@@ -679,7 +679,7 @@ export const PT_B2_U22: Lesson[] = [
       {
         heading: "Existir agrees, haver doesn't",
         body: [
-          "\"Existir\" is a normal verb with a subject, so it agrees: \"existem soluções\", \"existiam muitas dúvidas\". Impersonal \"haver\" (there is / there are) has no subject at all, so it stays singular in every tense, as you saw in Unit 13: \"há soluções\", \"havia muitas dúvidas\", \"houve problemas\".",
+          "\"Existir\" is a normal verb with a subject, so it agrees: \"existem soluções\", \"existiam muitas dúvidas\". Impersonal \"haver\" (there is / there are) has no subject at all, so it stays singular in every tense, as you saw in Unit 8: \"há soluções\", \"havia muitas dúvidas\", \"houve problemas\".",
           "The trap continues with a modal: the modal copies the verb after it. \"Devem existir outras opções\" (plural, because \"existir\" agrees), but \"deve haver outras opções\" (singular, because \"haver\" is impersonal). The same with \"vai haver\" and \"pode haver\": \"vai haver mudanças\", never \"*vão haver\".",
         ],
         examples: [
@@ -688,7 +688,7 @@ export const PT_B2_U22: Lesson[] = [
           { es: "Houve muitas reclamações sobre o barulho.", en: "There were a lot of complaints about the noise." },
           { es: "Devem existir outras opções mais baratas.", en: "There must be other, cheaper options." },
           { es: "Deve haver outras opções mais baratas.", en: "There must be other, cheaper options. (with haver)" },
-          { es: "Vai haver mudanças no horário a partir de março.", en: "There will be changes to the schedule starting in March." },
+          { es: "Vai haver mudanças no horário a partir de março.", en: "There will be changes to the schedule from March." },
         ],
         checkpoint: [
           {
@@ -720,10 +720,10 @@ export const PT_B2_U22: Lesson[] = [
       {
         heading: "Long distance and the passive se",
         body: [
-          "Agreement still holds when other words come between verb and subject: \"Chegaram ontem à tarde, pelo correio, as cópias do contrato.\" Read past the adverbials to the noun. The se passivo from Unit 10 follows the same logic: \"vendem-se casas\", \"ficam suspensas as aulas\".",
+          "Agreement still holds when other words come between verb and subject: \"Chegaram ontem à tarde, pelo correio, as cópias do contrato.\" Read past the adverbials to the noun. The se passivo from Unit 21 follows the same logic: \"vendem-se casas\", \"ficam suspensas as aulas\".",
         ],
         examples: [
-          { es: "Chegaram ontem à tarde, pelo correio, as cópias do contrato.", en: "The copies of the contract arrived yesterday afternoon, by mail." },
+          { es: "Chegaram ontem à tarde, pelo correio, as cópias do contrato.", en: "The copies of the contract arrived yesterday afternoon, by post." },
           { es: "Ficam suspensas as aulas de quinta-feira.", en: "Thursday's classes are suspended." },
           { es: "Ainda faltam duas assinaturas no contrato.", en: "Two signatures are still missing from the contract." },
         ],
@@ -795,7 +795,7 @@ export const PT_B2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Two spots are left in the course.",
+        source: "Two places are left on the course.",
         answer: "Sobraram duas vagas no curso.",
         altAnswers: ["Restam duas vagas no curso.", "Sobram duas vagas no curso.", "Restaram duas vagas no curso."],
         explanation: "\"Duas vagas\" is the subject of \"sobrar\" or \"restar\".",
@@ -833,7 +833,7 @@ export const PT_B2_U22: Lesson[] = [
         type: "speak",
         text: "Aconteceram coisas muito estranhas naquela casa.",
         prompt: "Say it in Portuguese: Some very strange things happened in that house.",
-        tip: "\"Aconteceram\": a-kõn-te-SÊ-rãw, with the stress on SÊ.",
+        tip: "\"Aconteceram\": a-con-te-CE-rãw, with the stress on CE.",
         explanation: "Plural verb for a plural subject after it.",
       },
     ],
@@ -949,7 +949,7 @@ export const PT_B2_U22: Lesson[] = [
             type: "speak",
             text: "A turma decidiu fazer uma festa.",
             prompt: "Say it in Portuguese: The class decided to have a party.",
-            tip: "\"Decidiu\": the d before i sounds like dj, de-si-JEEW.",
+            tip: "\"Decidiu\": the d before i sounds like dj, de-si-DJIU.",
             explanation: "A collective noun with a singular verb.",
           },
         ],
@@ -1127,7 +1127,7 @@ export const PT_B2_U22: Lesson[] = [
           "There are exceptions you'll see daily: no accent before \"nh\" (\"rainha\") or when the i or u shares its syllable with a following l, m, n, r or z (\"ruim\", \"juiz\", \"raiz\", \"Raul\"). In the plural, \"juízes\" and \"raízes\" get the accent back, because the z has moved to the next syllable.",
         ],
         examples: [
-          { es: "A saída de emergência fica no fim do corredor.", en: "The emergency exit is at the end of the hallway." },
+          { es: "A saída de emergência fica no fim do corredor.", en: "The emergency exit is at the end of the corridor." },
           { es: "Meus pais moram em outro país.", en: "My parents live in another country." },
           { es: "Saí cedo, mas ele sai sempre tarde.", en: "I left early, but he always leaves late." },
           { es: "Caí da bicicleta e machuquei o joelho.", en: "I fell off my bike and hurt my knee." },
@@ -1246,7 +1246,7 @@ export const PT_B2_U22: Lesson[] = [
         type: "speak",
         text: "Ontem ele não pôde vir.",
         prompt: "Say it in Portuguese: Yesterday he couldn't come.",
-        tip: "\"Pôde\" has a closed o (PÔ-jee); \"pode\" has an open one (PÓ-jee).",
+        tip: "\"Pôde\" has a closed o (PÔ-dji); \"pode\" has an open one (PÓ-dji).",
         explanation: "The past \"pôde\", marked by the circumflex in writing.",
       },
     ],
@@ -1271,8 +1271,8 @@ export const PT_B2_U22: Lesson[] = [
           { es: "Tive uma ideia ótima para a apresentação.", en: "I had a great idea for the presentation." },
           { es: "A assembleia do condomínio é na quinta.", en: "The residents' meeting is on Thursday." },
           { es: "O bombeiro foi um herói; foi um ato heroico.", en: "The firefighter was a hero; it was a heroic act." },
-          { es: "O voo para Manaus atrasou e eu tive enjoo.", en: "The flight to Manaus was delayed and I got airsick." },
-          { es: "Eles leem muito e veem poucos filmes.", en: "They read a lot and watch few movies." },
+          { es: "O voo para Manaus atrasou e eu tive enjoo.", en: "The flight to Manaus was delayed and I got travel sick." },
+          { es: "Eles leem muito e veem poucos filmes.", en: "They read a lot and watch few films." },
         ],
         checkpoint: [
           {
@@ -1443,7 +1443,7 @@ export const PT_B2_U22: Lesson[] = [
         type: "speak",
         text: "Comprei linguiça para o churrasco.",
         prompt: "Say it in Portuguese: I bought sausage for the barbecue.",
-        tip: "Pronounce the u in \"linguiça\": lĩn-GWI-sa.",
+        tip: "Pronounce the u in \"linguiça\": lin-GWI-ça.",
         explanation: "No trema in the spelling, but the u is sounded.",
       },
     ],
@@ -1691,10 +1691,10 @@ export const PT_B2_U22: Lesson[] = [
           "Agreement errors run in both directions. With a subject after the verb, writers forget the plural: \"*chegou as encomendas\" → \"chegaram\", \"*falta dois dias\" → \"faltam\", \"*existe muitas opções\" → \"existem\". With a collective, they add a plural that isn't there: \"*o pessoal chegaram\" → \"chegou\". And impersonal \"haver\" stays singular: \"*houveram problemas\" → \"houve\".",
         ],
         examples: [
-          { es: "Chegaram as encomendas do fornecedor.", en: "The supplier's packages have arrived." },
+          { es: "Chegaram as encomendas do fornecedor.", en: "The supplier's parcels have arrived." },
           { es: "Faltam dois dias para a viagem.", en: "There are two days to go before the trip." },
           { es: "Existem muitas opções de pagamento.", en: "There are many payment options." },
-          { es: "O pessoal da contabilidade já chegou.", en: "The accounting team is already here." },
+          { es: "O pessoal da contabilidade já chegou.", en: "The accounts team are already here." },
           { es: "Houve problemas com a entrega.", en: "There were problems with the delivery." },
         ],
         checkpoint: [
@@ -1835,9 +1835,9 @@ export const PT_B2_U22: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: There are three spots left on the trip.",
+        prompt: "Put the words in order to say: There are three places left on the trip.",
         words: ["Sobraram", "três", "vagas", "na", "excursão."],
-        translation: "There are three spots left on the trip.",
+        translation: "There are three places left on the trip.",
         explanation: "\"Sobraram\" agrees with \"três vagas\".",
       },
       {
@@ -1923,7 +1923,7 @@ export const PT_B2_U22: Lesson[] = [
           { es: "A nota fiscal, no entanto, ainda não chegou.", en: "The invoice, however, still hasn't arrived." },
           { es: "Nossos colegas têm todas as cópias necessárias.", en: "Our colleagues have all the necessary copies." },
           { es: "Ficamos à disposição para qualquer dúvida.", en: "Please let us know if you have any questions." },
-          { es: "Atenciosamente, Rafael Costa", en: "Sincerely, Rafael Costa" },
+          { es: "Atenciosamente, Rafael Costa", en: "Kind regards, Rafael Costa" },
         ],
         checkpoint: [
           {
@@ -2040,7 +2040,7 @@ export const PT_B2_U22: Lesson[] = [
         type: "speak",
         text: "Bom dia, pessoal. A reunião de ontem foi ótima.",
         prompt: "Say it in Portuguese: Good morning, everyone. Yesterday's meeting went very well.",
-        tip: "\"Reunião\": he-u-ni-ÃW, four syllables: the r at the start sounds like h, and the end is nasal.",
+        tip: "\"Reunião\": re-u-ni-ÃO, four syllables with a nasal end.",
         explanation: "A vocative comma, then a simple sentence with no comma before the verb.",
       },
     ],
@@ -2138,7 +2138,7 @@ export const PT_B2_U22: Lesson[] = [
           { es: "Prezado Sr. Marcelo, informamos que os convites já chegaram.", en: "Dear Mr. Marcelo, we'd like to let you know that the invitations have arrived." },
           { es: "O pessoal da gráfica fez um ótimo trabalho, mas faltam dois detalhes.", en: "The printers did an excellent job, but there are two details left." },
           { es: "Os convidados que confirmaram presença vão receber um lembrete.", en: "The guests who have confirmed will get a reminder." },
-          { es: "Atenciosamente, Juliana Alves", en: "Sincerely, Juliana Alves" },
+          { es: "Atenciosamente, Juliana Alves", en: "Kind regards, Juliana Alves" },
         ],
         checkpoint: [
           {
@@ -2243,7 +2243,7 @@ export const PT_B2_U22: Lesson[] = [
         type: "speak",
         text: "Os fornecedores têm disponibilidade no sábado.",
         prompt: "Say it in Portuguese: The suppliers are available on Saturday.",
-        tip: "\"Disponibilidade\": dis-po-ni-bi-li-DA-jee.",
+        tip: "\"Disponibilidade\": dis-po-ni-bi-li-DA-dji.",
         explanation: "Plural \"têm\", heard just like \"tem\".",
       },
     ],
@@ -2261,12 +2261,12 @@ export const PT_B2_U22: Lesson[] = [
       {
         heading: "Crase and regência",
         body: [
-          "A quick reminder from Unit 11: \"a\" + \"a\" = \"à\" (\"vou à reunião\", \"às três horas\", \"à disposição\"), and verbs keep their prepositions in writing: \"assistir ao jogo\", \"chegar a São Paulo\", \"o filme a que assisti\", \"preferir chá a café\". These sit happily alongside the unit's commas: \"Às três horas, a diretora chegou à sala.\"",
+          "A quick reminder from Unit 6: \"a\" + \"a\" = \"à\" (\"vou à reunião\", \"às três horas\", \"à disposição\"), and verbs keep their prepositions in writing: \"assistir ao jogo\", \"chegar a São Paulo\", \"o filme a que assisti\", \"preferir chá a café\". These sit happily alongside the unit's commas: \"Às três horas, a diretora chegou à sala.\"",
         ],
         examples: [
           { es: "Às três horas, a diretora chegou à sala de reuniões.", en: "At three o'clock, the director arrived at the meeting room." },
           { es: "Assistimos ao jogo na casa do Rafael.", en: "We watched the game at Rafael's place." },
-          { es: "O filme a que assistimos, aliás, ganhou um prêmio.", en: "The movie we watched, by the way, won an award." },
+          { es: "O filme a que assistimos, aliás, ganhou um prêmio.", en: "The film we watched, by the way, won an award." },
           { es: "Prefiro trabalhar de manhã a trabalhar à noite.", en: "I prefer working in the morning to working at night." },
           { es: "Chegamos a Salvador às dez e fomos direto à praia.", en: "We got to Salvador at ten and went straight to the beach." },
         ],
@@ -2293,7 +2293,7 @@ export const PT_B2_U22: Lesson[] = [
       {
         heading: "Pronouns and haver",
         body: [
-          "From Units 9 and 13: no pronoun at the start of a formal sentence (\"Informaram-me que...\"), triggers pull it forward (\"não me informaram\", \"que nos enviaram\"), and impersonal \"haver\" stays singular (\"havia muitas pessoas\", \"houve reclamações\", \"deve haver soluções\").",
+          "From Units 5 and 8: no pronoun at the start of a formal sentence (\"Informaram-me que...\"), triggers pull it forward (\"não me informaram\", \"que nos enviaram\"), and impersonal \"haver\" stays singular (\"havia muitas pessoas\", \"houve reclamações\", \"deve haver soluções\").",
         ],
         examples: [
           { es: "Informaram-me que houve problemas na entrega.", en: "I was informed that there were problems with the delivery." },
@@ -2324,7 +2324,7 @@ export const PT_B2_U22: Lesson[] = [
       {
         heading: "Register in one paragraph",
         body: [
-          "A formal paragraph combines all of this with the formal vocabulary of Unit 13 (\"solicitar\", \"informar\", \"adquirir\") and the impersonal style (\"observa-se que\", \"cabe ressaltar que\"). Check it in layers: register, then pronouns and regência, then commas, agreement and accents.",
+          "A formal paragraph combines all of this with the formal vocabulary of Unit 8 (\"solicitar\", \"informar\", \"adquirir\") and the impersonal style (\"observa-se que\", \"cabe ressaltar que\"). Check it in layers: register, then pronouns and regência, then commas, agreement and accents.",
         ],
         examples: [
           { es: "Cabe ressaltar que os moradores, no entanto, não foram consultados.", en: "It should be stressed that the residents, however, were not consulted." },
@@ -2345,7 +2345,7 @@ export const PT_B2_U22: Lesson[] = [
           {
             type: "speak",
             text: "Cabe ressaltar que os moradores, no entanto, não foram consultados.",
-            tip: "\"Ressaltar\": the double s keeps the s sound, and the r at the start sounds like h: he-sau-TAR.",
+            tip: "\"Ressaltar\": the double s keeps the s sound, re-sau-TAR.",
             explanation: "Impersonal style, \"no entanto\" between commas, and a passive with agreement.",
           },
         ],
@@ -2373,7 +2373,7 @@ export const PT_B2_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The movie [we watched] was excellent. (written norm)",
+        en: "The film [we watched] was excellent. (written norm)",
         sentence: "O filme ___ foi excelente.",
         answer: "a que assistimos",
         altAnswers: ["ao qual assistimos"],
@@ -2451,7 +2451,7 @@ export const PT_B2_U22: Lesson[] = [
         type: "speak",
         text: "Observa-se que faltam informações no relatório.",
         prompt: "Say it in Portuguese (formal): It can be seen that information is missing from the report.",
-        tip: "\"Observa-se\": o-bi-SÉR-va-see: many Brazilians slip a short i after the b, and the e is open.",
+        tip: "\"Observa-se\": ob-SER-va-si, with a light b.",
         explanation: "Impersonal style and plural \"faltam\".",
       },
     ],

@@ -259,7 +259,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "speak",
         text: "Procuro alguém que possa trabalhar à noite.",
         prompt: "Say it in Portuguese: I'm looking for someone who can work at night.",
-        tip: "The o in possa is open, as in pó. In noite the t before the final i sound is like ch: NOI-chee.",
+        tip: "The o in possa is open, as in pó. In noite the t before the final i sound is like ch: NOI-tchi.",
         explanation: "\"Que possa\": the subjunctive of \"poder\", built from \"posso\", for a person you haven't found.",
       },
       {
@@ -400,7 +400,7 @@ export const PT_B1_U05: Lesson[] = [
             type: "speak",
             text: "Conheço um rapaz que conserta celular.",
             prompt: "Say it in Portuguese: I know a guy who fixes phones.",
-            tip: "The e in conserta is open, as in é. The final l of celular sounds like a w.",
+            tip: "The e in conserta is open, as in é. The final l of celular sounds like a u.",
             explanation: "A real person you know, so the indicative \"conserta\".",
           },
         ],
@@ -479,7 +479,7 @@ export const PT_B1_U05: Lesson[] = [
         question: "What did you hear?",
         options: ["Tem alguém que fala inglês?", "Tem alguém que fale inglês?", "Tem alguém que falou inglês?", "Tem alguém que fale alemão?"],
         correctIndex: 1,
-        explanation: "\"Fale\" ends in an ee sound, while \"fala\" ends in an a sound. It's the subjunctive, because the speaker doesn't know whether such a person is there.",
+        explanation: "\"Fale\" ends in an i sound, while \"fala\" ends in an a sound. It's the subjunctive, because the speaker doesn't know whether such a person is there.",
       },
       {
         type: "dictation",
@@ -490,7 +490,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "speak",
         text: "Existe algum restaurante que abra no domingo?",
         prompt: "Say it in Portuguese: Is there any restaurant that opens on Sunday?",
-        tip: "In existe the x sounds like z and the final -te sounds like 'chee': e-ZEES-chee.",
+        tip: "In existe the x sounds like z and the final -te sounds like 'tchi': e-ZIS-tchi.",
         explanation: "A question about existence, so the subjunctive \"abra\" (abro → abra).",
       },
     ],
@@ -642,7 +642,7 @@ export const PT_B1_U05: Lesson[] = [
           {
             type: "speak",
             text: "Você conhece algum restaurante que aceite cachorro?",
-            tip: "Final -te in \"aceite\" sounds like \"chee\": a-SEI-chee.",
+            tip: "Final -te in \"aceite\" sounds like \"tchi\": a-SEI-tchi.",
             explanation: "A question about whether something exists takes the subjunctive, even after \"conhecer\": \"aceite\".",
           },
         ],
@@ -753,7 +753,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "speak",
         text: "Estou procurando um lugar que abra cedo.",
         prompt: "Say it in Portuguese: I'm looking for a place that opens early.",
-        tip: "Final -o in \"cedo\" sounds like oo: SÊ-doo, with a closed ê.",
+        tip: "Final -o in \"cedo\" sounds like u: SÊ-du, with a closed ê.",
         explanation: "No particular place yet, so the subjunctive \"abra\".",
       },
     ],
@@ -990,8 +990,8 @@ export const PT_B1_U05: Lesson[] = [
       {
         heading: "Aluga-se, vende-se, procura-se: the language of signs",
         body: [
-          "On walls, store windows and websites in Brazil, ads often open with a verb + \"se\": \"aluga-se\" (for rent), \"vende-se\" (for sale), \"procura-se\" (wanted, or missing for a lost pet). Read them as labels: \"vende-se carro\" means car for sale, not 'the car sells itself'.",
-          "With a plural noun, careful writing makes the verb plural: \"alugam-se quartos\". \"Precisa-se de\" (needed) never changes, because \"de\" stands between the verb and the noun: \"precisa-se de vendedores\". For now just recognize these forms; Unit 21 explains how they work.",
+          "On walls, shop windows and websites in Brazil, ads often open with a verb + \"se\": \"aluga-se\" (for rent), \"vende-se\" (for sale), \"procura-se\" (wanted, or missing for a lost pet). Read them as labels: \"vende-se carro\" means car for sale, not 'the car sells itself'.",
+          "With a plural noun, careful writing makes the verb plural: \"alugam-se quartos\". \"Precisa-se de\" (needed) never changes, because \"de\" stands between the verb and the noun: \"precisa-se de vendedores\". For now just recognize these forms; Unit 12 explains how they work.",
           "Signs are one of the few places where Brazilians put \"se\" after the verb, with a hyphen. Nobody talks like a sign: in speech you'd say \"eles estão alugando o apartamento\", and websites often write \"apartamento para alugar\" or \"casa à venda\".",
         ],
         examples: [
@@ -1064,7 +1064,7 @@ export const PT_B1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're writing a job ad for a store in Recife. Which sentence fits?",
+            question: "You're writing a job ad for a shop in Recife. Which sentence fits?",
             options: ["Procuramos alguém que tenha experiência.", "Procuramos alguém que tem experiência.", "Procuramos alguém ter experiência.", "Procuramos alguém que tenho experiência."],
             correctIndex: 0,
             explanation: "An ad looks for someone it hasn't found, so \"que tenha\". \"Que tem\" would point to a specific person you already know. \"Tenho\" is the eu form.",
@@ -1105,7 +1105,7 @@ export const PT_B1_U05: Lesson[] = [
           {
             type: "speak",
             text: "Interessados, entrar em contato pelo WhatsApp.",
-            tip: "Say \"contato\" in three clear syllables, kõ-TA-too, with the final o like oo.",
+            tip: "Say \"contato\" in three clear syllables, con-TA-to, with the final o like a short u.",
             explanation: "\"Entrar em contato\" is the standard ad formula for get in touch; the infinitive works like an instruction.",
           },
         ],
@@ -1149,7 +1149,7 @@ export const PT_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does this sign in a store window mean? \"Precisa-se de vendedores.\"",
+        question: "What does this sign in a shop window mean? \"Precisa-se de vendedores.\"",
         options: ["Salespeople wanted.", "The salespeople need it.", "A salesperson needs help.", "Salespeople for sale."],
         correctIndex: 0,
         explanation: "\"Precisa-se de\" means needed or wanted. It stays singular even with the plural \"vendedores\".",
@@ -1188,7 +1188,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "speak",
         text: "Procuro alguém que goste de cozinhar.",
         prompt: "Say it in Portuguese: I'm looking for someone who likes to cook.",
-        tip: "The final -te in \"goste\" sounds like 'chee': GÓS-chee.",
+        tip: "The final -te in \"goste\" sounds like 'tchi': GOS-tchi.",
         explanation: "\"Que goste\": subjunctive for a person you haven't found yet, and \"gostar\" always takes \"de\".",
       },
       {
@@ -1459,7 +1459,7 @@ export const PT_B1_U05: Lesson[] = [
           "Tenho um que aceitava animais.",
         ],
         correctIndex: 0,
-        explanation: "\"Aceita\" ends in -a: the indicative, because the agent has this apartment. \"Aceite\" ends in an ee sound.",
+        explanation: "\"Aceita\" ends in -a: the indicative, because the agent has this apartment. \"Aceite\" ends in an i sound.",
       },
       {
         type: "dictation",
@@ -1470,7 +1470,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "speak",
         text: "Preciso de um fiador que more em Belo Horizonte.",
         prompt: "Say it in Portuguese: I need a guarantor who lives in Belo Horizonte.",
-        tip: "The o in more is open, as in moro: MÓ-ree.",
+        tip: "The o in more is open, as in moro: MÓ-ri.",
         explanation: "Any guarantor who fits will do, so the subjunctive \"more\".",
       },
       {
@@ -1683,7 +1683,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "speak",
         text: "Não tem nada que eu possa fazer.",
         prompt: "Say it in Portuguese: There's nothing I can do.",
-        tip: "The t in \"tem\" stays a plain t; it only turns into a ch sound before an ee sound.",
+        tip: "The t in \"tem\" stays a plain t; it only turns into a ch sound before an i sound.",
         explanation: "\"Nada que\" plus the subjunctive \"possa\".",
       },
       {
@@ -1914,7 +1914,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "speak",
         text: "Preciso de um emprego que pague bem.",
         prompt: "Say it in Portuguese: I need a job that pays well.",
-        tip: "Say \"pague\" as two syllables, PA-ghee: the u is silent and the final e sounds like ee.",
+        tip: "Say \"pague\" as two syllables, PA-gi: the u is silent and the final e sounds like i.",
         explanation: "You don't have the job yet, so \"pagar\" takes the subjunctive \"pague\".",
       },
       {
@@ -1982,7 +1982,7 @@ export const PT_B1_U05: Lesson[] = [
         heading: "The person you're looking for",
         body: [
           "Then the person you want. You haven't met them yet, so every description of them takes the subjunctive: \"procuro alguém que seja organizado\", \"que não fume\", \"que goste de gatos\". \"Procuro alguém que fala inglês\" would point to a specific person you already have in mind. One \"que\" can carry a whole list: \"alguém que trabalhe fora, não fume e goste de silêncio\".",
-          "House rules use the conjunctions from Unit 6, also with the subjunctive: \"desde que\" (provided that) and \"caso\" (in case). Brazilians soften requirements with \"de preferência\" (preferably), which sounds friendlier than a list of demands.",
+          "House rules use the conjunctions from Unit 4, also with the subjunctive: \"desde que\" (provided that) and \"caso\" (in case). Brazilians soften requirements with \"de preferência\" (preferably), which sounds friendlier than a list of demands.",
         ],
         examples: [
           { es: "Procuro alguém que seja organizado e tranquilo.", en: "I'm looking for someone tidy and easygoing." },
@@ -2124,13 +2124,13 @@ export const PT_B1_U05: Lesson[] = [
       {
         type: "dictation",
         audio: "Procuro alguém que não fume.",
-        explanation: "\"Fume\" is the subjunctive of \"fumar\", used because the person isn't known yet. The final -e sounds like ee.",
+        explanation: "\"Fume\" is the subjunctive of \"fumar\", used because the person isn't known yet. The final -e sounds like i.",
       },
       {
         type: "speak",
         text: "Procuro alguém que fale português e queira praticar inglês.",
         prompt: "Say it in Portuguese: I'm looking for someone who speaks Portuguese and wants to practice English.",
-        tip: "Pronounce the ei in \"queira\" as a real diphthong, and let the final -e of \"fale\" sound like ee.",
+        tip: "Pronounce the ei in \"queira\" as a real diphthong, and let the final -e of \"fale\" sound like i.",
         explanation: "One \"que\" carries two subjunctives: \"fale\" and \"queira\". The irregular \"queira\" comes from \"querer\".",
       },
       {

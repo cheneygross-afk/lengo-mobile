@@ -14,7 +14,7 @@ export const PT_A2_S02_STORIES: Story[] = [
       `Às duas da tarde, o bloco começou a descer a ladeira. Era uma multidão: frevo, fantasias, bonecos gigantes, confete. Marcos parou para comprar água, e, quando olhou para trás, os amigos não estavam mais lá. Ele procurou por todos os lados, mas só via piratas, palhaços e super-heróis. Para piorar, o celular dele estava sem bateria.`,
       `Marcos não ficou triste. Ele dançou frevo com uma senhora de oitenta anos, cantou com uma banda e comeu tapioca na rua. Às cinco e meia, ele foi até a igreja e esperou. Esperou, esperou, e nada. Às sete, ele perguntou a um vendedor: “Moço, esta é a Igreja da Sé?” O homem riu. “Não, rapaz, esta é a Igreja do Carmo. A Sé é lá em cima.”`,
       `Marcos subiu a ladeira correndo, cansado e suado. Na frente da Sé, não havia nenhum amigo. Ele sentou no chão, desanimado. Então uma pessoa com fantasia de pirata sentou ao lado dele e tirou o chapéu. Era o Bruno. “Cara, eu também me perdi!”, ele disse. “Eu cheguei aqui às seis e não encontrei ninguém.”`,
-      `Os dois riram muito. Bruno tinha bateria no celular e ligou para Letícia. Ela e Paula estavam esperando havia uma hora na frente do Mosteiro de São Bento. No Carnaval seguinte, os quatro levaram um mapa de papel no bolso.`,
+      `Os dois riram muito. Bruno tinha bateria no celular e ligou para Letícia. Ela e Paula estavam esperando havia uma hora na frente da Igreja do Carmo. No Carnaval seguinte, os quatro levaram um mapa de papel no bolso.`,
     ],
     questions: [
       {
@@ -37,9 +37,9 @@ export const PT_A2_S02_STORIES: Story[] = [
       },
       {
         question: `Where were Letícia and Paula?`,
-        options: [`At the Igreja da Sé`, `In front of the Mosteiro de São Bento`, `In Fortaleza`, `Dancing with a band`],
+        options: [`At the Igreja da Sé`, `In front of the Igreja do Carmo`, `In Fortaleza`, `Dancing with a band`],
         correctIndex: 1,
-        explanation: `"Ela e Paula estavam esperando havia uma hora na frente do Mosteiro de São Bento."`,
+        explanation: `"Ela e Paula estavam esperando havia uma hora na frente da Igreja do Carmo."`,
       },
     ],
   },
@@ -169,12 +169,12 @@ export const PT_A2_S02_STORIES: Story[] = [
     title: `A foto da feira`,
     subtitle: `At an antiques market in São Paulo, Ana finds an old photo of a young woman who looks just like her.`,
     paragraphs: [
-      `Todo sábado, Ana passeia pela feira de antiguidades da Praça Benedito Calixto, em São Paulo. Ela gosta de olhar discos velhos, xícaras e móveis antigos. Num sábado de maio, numa caixa de fotos antigas, ela encontrou uma coisa estranha: uma foto em preto e branco de uma moça muito parecida com ela.`,
+      `Todo domingo, Ana passeia pela feira de antiguidades da Praça Benedito Calixto, em São Paulo. Ela gosta de olhar discos velhos, xícaras e móveis antigos. Num domingo de maio, numa caixa de fotos antigas, ela encontrou uma coisa estranha: uma foto em preto e branco de uma moça muito parecida com ela.`,
       `A moça da foto tinha uns vinte anos, cabelo curto e um vestido claro. Ela estava na frente de uma igreja com muitas escadas e sorria para a câmera. Atrás da foto, alguém escreveu com uma letra bonita: “Salvador, 1962. Com amor, L.” Ana pagou cinco reais pela foto e a levou para casa.`,
       `Naquela semana, ela mostrou a foto para todo mundo. “Ela é igualzinha a você!”, disse o namorado. “Parece você numa festa à fantasia”, disse uma colega de trabalho. Ana não conseguia parar de olhar aquele sorriso.`,
-      `No domingo seguinte, ela foi almoçar na casa da avó, dona Lourdes, que tem oitenta e quatro anos. Depois da sobremesa, Ana tirou a foto da bolsa. “Vó, olha que engraçado. Achei esta foto na feira.” A avó colocou os óculos, olhou a foto e ficou em silêncio por muito tempo. Os olhos dela se encheram de lágrimas.`,
+      `No sábado, ela foi almoçar na casa da avó, dona Lourdes, que tem oitenta e quatro anos. Depois da sobremesa, Ana tirou a foto da bolsa. “Vó, olha que engraçado. Achei esta foto na feira.” A avó colocou os óculos, olhou a foto e ficou em silêncio por muito tempo. Os olhos dela se encheram de lágrimas.`,
       `“Essa moça sou eu”, ela disse baixinho. “Essa é a Igreja do Bonfim. O seu avô tirou esta foto no dia em que me pediu em casamento. Depois, eu dei a foto para ele, e ele a guardava sempre na carteira. Quando ele morreu, a carteira desapareceu, e eu pensei que a foto estava perdida para sempre.”`,
-      `Ninguém sabe como a foto chegou àquela feira de São Paulo, mais de sessenta anos depois. Hoje, ela está num porta-retratos na sala da avó. E, todo sábado, Ana ainda olha as caixas de fotos da feira, com um pouco mais de atenção.`,
+      `Ninguém sabe como a foto chegou àquela feira de São Paulo, mais de sessenta anos depois. Hoje, ela está num porta-retratos na sala da avó. E, todo domingo, Ana ainda olha as caixas de fotos da feira, com um pouco mais de atenção.`,
     ],
     questions: [
       {

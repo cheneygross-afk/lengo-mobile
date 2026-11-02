@@ -179,10 +179,10 @@ export const DE_B1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'If it rains, we'll stay at home.'?",
+        question: "Which sentence is correct?",
         options: ["Wenn es regnet, bleiben wir zu Hause.", "Ob es regnet, bleiben wir zu Hause.", "Wenn es regnet, wir bleiben zu Hause.", "Wenn es regnet bleiben, wir zu Hause."],
         correctIndex: 0,
-        explanation: "A real condition takes \"wenn\", and the main verb comes straight after the comma: \"bleiben wir\". \"*Ob*\" means whether and cannot express a condition.",
+        explanation: "\"Wenn\" for a condition, and the main verb straight after the comma.",
       },
       {
         type: "listen-choose",
@@ -1159,10 +1159,10 @@ export const DE_B1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'If I were rich, I'd travel.' without \"wenn\"?",
+        question: "Which sentence is correct?",
         options: ["Wäre ich reich, würde ich reisen.", "Wäre ich reich, ich würde reisen.", "Ich wäre reich, würde ich reisen.", "Wenn wäre ich reich, würde ich reisen."],
         correctIndex: 0,
-        explanation: "Without \"wenn\" the condition starts with the verb (\"Wäre ich reich\"), and the main clause still starts with its verb. \"*Wäre ich reich, ich würde reisen*\" puts the subject first.",
+        explanation: "Verb-first condition, then the main verb right after the comma.",
       },
       {
         type: "listen-choose",
@@ -1726,10 +1726,10 @@ export const DE_B1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'With a million, I'd be free.'?",
+        question: "Which sentence uses the Konjunktiv II correctly?",
         options: ["Mit einer Million wäre ich frei.", "Mit einer Million ich wäre frei.", "Mit einer Million würde ich frei.", "Mit einer Million war ich frei."],
         correctIndex: 0,
-        explanation: "\"Mit einer Million\" fills position 1, then \"wäre\" (would be). \"*Mit einer Million war ich frei*\" is the indicative past: I was free.",
+        explanation: "Verb second, and be → \"wäre\".",
       },
       {
         type: "word-order",
@@ -1989,10 +1989,10 @@ export const DE_B1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'If I win, I'll buy a house.'?",
+            question: "Which version is correct?",
             options: ["Falls ich gewinne, kaufe ich ein Haus.", "Falls ich gewinnen würde, ich kaufe ein Haus.", "Ob ich gewinne, kaufe ich ein Haus.", "Falls ich gewinne, ich kaufe ein Haus."],
             correctIndex: 0,
-            explanation: "A real condition stays in the indicative (\"falls ich gewinne\"), and the main verb comes straight after the comma. \"*Falls ich gewinne, ich kaufe*\" puts the subject first.",
+            explanation: "Real condition in the indicative, and the verb right after the comma.",
           },
         ],
       },
@@ -2070,10 +2070,10 @@ export const DE_B1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'If I were tired, I'd sleep.'?",
+        question: "Which sentence is correct?",
         options: ["Wenn ich müde wäre, würde ich schlafen.", "Wenn ich wäre müde, würde ich schlafen.", "Wenn ich müde wäre, ich würde schlafen.", "Ob ich müde wäre, würde ich schlafen."],
         correctIndex: 0,
-        explanation: "Verb last in the wenn-clause (\"müde wäre\"), verb first after the comma (\"würde ich\"). \"*Wenn ich müde wäre, ich würde schlafen*\" puts the subject first.",
+        explanation: "Verb last in the \"wenn\" clause, verb first after the comma.",
       },
       {
         type: "word-order",

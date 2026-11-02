@@ -108,7 +108,7 @@ export const PT_B2_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "As soon as the movie ended, we left.",
+        source: "As soon as the film ended, we left.",
         answer: "Assim que o filme acabou, saímos.",
         altAnswers: ["Assim que o filme terminou, saímos.", "Assim que o filme acabou, fomos embora.", "Logo que o filme acabou, saímos."],
         explanation: "\"Assim que\" with completed past events takes the preterite in both clauses: \"acabou\", \"saímos\".",
@@ -153,8 +153,8 @@ export const PT_B2_U15_EXTRA: Lesson[] = [
         type: "speak",
         text: "Mal cheguei, começou a chover.",
         prompt: "Say it in Portuguese: No sooner had I arrived than it started raining.",
-        tip: "\"Mal\" sounds like 'MAU': the final l is said like u in Brazil.",
-        explanation: "\"Mal\" + preterite (\"mal cheguei\") means no sooner had I arrived; the l of \"mal\" sounds like u: 'MAU'.",
+        tip: "\"Mal\" sounds like MAU: the final l is said like u in Brazil.",
+        explanation: "\"Mal\" + preterite (\"mal cheguei\") means no sooner had I arrived; the l of \"mal\" sounds like u: MAU.",
       },
       {
         type: "matching",
@@ -187,9 +187,9 @@ export const PT_B2_U15_EXTRA: Lesson[] = [
           "Free indirect speech blends the narrator and the character's thoughts without \"disse que\": \"Ela olhou o relógio. Meu Deus, já eram dez horas! Ia chegar atrasada de novo.\"",
         ],
         examples: [
-          { es: "— Estou cansado — disse ele.", en: "'I'm tired,' he said." },
+          { es: "— Estou cansado — disse ele.", en: "I'm tired, he said." },
           { es: "Ele disse que estava cansado.", en: "He said he was tired." },
-          { es: "— Fiz o que pude — explicou ela.", en: "'I did what I could,' she explained." },
+          { es: "— Fiz o que pude — explicou ela.", en: "I did what I could, she explained." },
           { es: "Ela explicou que tinha feito o que podia.", en: "She explained that she had done what she could." },
           { es: "Ele prometeu que voltaria no dia seguinte.", en: "He promised he would come back the next day." },
           { es: "Ela parou. Será que tinha trancado a porta?", en: "She stopped. Had she locked the door?" },
@@ -210,7 +210,7 @@ export const PT_B2_U15_EXTRA: Lesson[] = [
             en: "He said he [had lost] the keys.",
             sentence: "Ele disse que ___ as chaves.",
             answer: "tinha perdido",
-            altAnswers: ["havia perdido"],
+            altAnswers: ["havia perdido", "perdeu"],
             explanation: "A preterite in direct speech (\"perdi\") moves back to the mais-que-perfeito in reported speech: \"tinha perdido\".",
           },
           {
@@ -318,7 +318,7 @@ export const PT_B2_U15_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ela disse que ia chegar mais tarde.",
         prompt: "Say it in Portuguese: She said she was going to arrive later.",
-        tip: "Ia: 'EE-a', two syllables.",
+        tip: "Ia: I-a, two syllables.",
         explanation: "\"Vou chegar\" becomes \"ia chegar\" in reported speech, the most common spoken option.",
       },
       {
@@ -484,7 +484,7 @@ export const PT_B2_U15_EXTRA: Lesson[] = [
         type: "speak",
         text: "Terminada a festa, todos foram embora.",
         prompt: "Say it in Portuguese: Once the party was over, everyone left.",
-        tip: "Stress terminada on -na-: 'ter-mee-NA-da'. The t stays plain because it comes before e.",
+        tip: "Stress terminada on -na-: ter-mi-NA-da. The t stays plain because it comes before e.",
         explanation: "\"Terminada a festa\" compresses once the party was over; the participle agrees with \"a festa\".",
       },
       {

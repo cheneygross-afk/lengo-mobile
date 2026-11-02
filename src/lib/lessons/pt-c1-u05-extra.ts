@@ -17,7 +17,7 @@ export const PT_C1_U05_EXTRA: Lesson[] = [
       {
         heading: "Requests and correspondence",
         body: [
-          "A \"requerimento\" is a formal request to an authority; an \"ofício\" is official correspondence between bodies. Address: \"Ilustríssimo Senhor\" (\"Ilmo. Sr.\"), \"Prezado Senhor\" or \"Prezada Senhora\". Forms of address take third-person verbs: \"Vossa Senhoria está convidado\", \"Vossa Excelência solicitou\" (for high authorities).",
+          "A \"requerimento\" is a formal request to an authority; an \"ofício\" is official correspondence between bodies. Address: \"Ilustríssimo Senhor\" (\"Ilmo. Sr.\"), \"Prezado(a) Senhor(a)\". Forms of address take third-person verbs: \"Vossa Senhoria está convidado\", \"Vossa Excelência solicitou\" (for high authorities).",
           "Formulas: \"venho, por meio deste, solicitar\" (I hereby request), \"vimos informar\" (we wish to inform), \"solicita-se\", \"conforme o disposto em\", \"sem mais para o momento\" (with nothing further), \"atenciosamente\" / \"respeitosamente\" (to higher authorities).",
         ],
         examples: [
@@ -317,7 +317,7 @@ export const PT_C1_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "A rescisão poderá ocorrer mediante aviso prévio de trinta dias.",
         prompt: "Say it in Portuguese: Termination may occur upon thirty days' prior notice.",
-        tip: "Rescisão: he-see-ZÃW.",
+        tip: "Rescisão: he-si-ZÃW.",
         explanation: "\"Poderá ocorrer\" gives the option, and \"mediante aviso prévio de trinta dias\" sets the condition: thirty days' notice. In \"rescisão\" the sc sounds like a single s.",
       },
       {
@@ -394,7 +394,7 @@ export const PT_C1_U05_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in plain language: \"O pagamento deverá ser efetuado até o quinto dia útil.\"",
+            prompt: "Rewrite in plain language: O pagamento deverá ser efetuado até o quinto dia útil.",
             source: "Pay by the fifth business day.",
             answer: "Pague até o quinto dia útil.",
             altAnswers: ["Você deve pagar até o quinto dia útil.", "Pague até o 5º dia útil.", "Faça o pagamento até o quinto dia útil."],
@@ -485,7 +485,7 @@ export const PT_C1_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain language: \"Fica vedado o estacionamento em frente à garagem.\"",
+        prompt: "Rewrite in plain language: Fica vedado o estacionamento em frente à garagem.",
         source: "Don't park in front of the garage.",
         answer: "Não estacione em frente à garagem.",
         altAnswers: ["É proibido estacionar em frente à garagem.", "Não estacione na frente da garagem.", "Não pare em frente à garagem."],
@@ -494,7 +494,7 @@ export const PT_C1_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain language: \"A matrícula dar-se-á mediante apresentação de documento com foto.\"",
+        prompt: "Rewrite in plain language: A matrícula dar-se-á mediante apresentação de documento com foto.",
         source: "To enroll, bring a photo ID.",
         answer: "Para fazer a matrícula, traga um documento com foto.",
         altAnswers: ["Para se matricular, traga um documento com foto.", "Para fazer a matrícula, traga documento com foto.", "Traga um documento com foto para fazer a matrícula."],
@@ -503,7 +503,7 @@ export const PT_C1_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain language: \"Em virtude de manutenção, o atendimento encontra-se suspenso.\"",
+        prompt: "Rewrite in plain language: Em virtude de manutenção, o atendimento encontra-se suspenso.",
         source: "Because of maintenance work, the service is closed.",
         answer: "Por causa de uma manutenção, o atendimento está suspenso.",
         altAnswers: ["Por causa da manutenção, o atendimento está suspenso.", "Por causa de uma manutenção, o atendimento está fechado.", "O atendimento está suspenso por causa de uma manutenção.", "Por causa da manutenção, o atendimento está fechado."],
@@ -512,7 +512,7 @@ export const PT_C1_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain language: \"Solicita-se aos usuários que mantenham o celular no silencioso.\"",
+        prompt: "Rewrite in plain language: Solicita-se aos usuários que mantenham o celular no silencioso.",
         source: "Please keep your phone on silent.",
         answer: "Por favor, deixe o celular no silencioso.",
         altAnswers: ["Por favor, mantenha o celular no silencioso.", "Deixe o celular no silencioso, por favor.", "Por favor, coloque o celular no silencioso."],
@@ -546,7 +546,7 @@ export const PT_C1_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Vossa Excelência sabe que o projeto está atrasado.",
         prompt: "Say it in Portuguese, to a minister: You know that the project is behind schedule.",
-        tip: "\"Excelência\": e-se-LẼN-sya, the xc sounds like a single s and the stressed ê is closed and nasal.",
+        tip: "\"Excelência\": e-se-LẼN-sia, the xc sounds like a single s and the stressed ê is closed and nasal.",
         explanation: "Read \"V. Exa.\" aloud in full as \"Vossa Excelência\". The verb \"sabe\" is third person, like \"o senhor sabe\", and \"estar atrasado\" means to be behind schedule.",
       },
     ],

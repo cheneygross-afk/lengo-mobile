@@ -23,7 +23,7 @@ export const PT_B1_U06: Lesson[] = [
           { es: "Eu falaria com o gerente.", en: "I would talk to the manager." },
           { es: "Ela moraria em Florianópolis.", en: "She would live in Florianópolis." },
           { es: "Nós comeríamos mais tarde.", en: "We'd eat later." },
-          { es: "Eles nunca abririam a loja no domingo.", en: "They would never open the store on Sunday." },
+          { es: "Eles nunca abririam a loja no domingo.", en: "They would never open the shop on Sunday." },
           { es: "Eu não compraria esse carro.", en: "I wouldn't buy that car." },
           { es: "Vocês partiriam amanhã cedo?", en: "Would you all leave early tomorrow?" },
         ],
@@ -40,7 +40,7 @@ export const PT_B1_U06: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "They [would open] the store on Sunday.",
+            en: "They [would open] the shop on Sunday.",
             sentence: "Eles ___ a loja no domingo.",
             answer: "abririam",
             explanation: "\"Abrir\" + \"-iam\" gives \"abririam\". Don't drop the infinitive's r. \"Abriam\" is the imperfeito (they used to open).",
@@ -500,7 +500,7 @@ export const PT_B1_U06: Lesson[] = [
         type: "speak",
         text: "Com mais tempo, eu leria mais livros.",
         prompt: "Say it in Portuguese: With more time, I'd read more books.",
-        tip: "Stress the i in leria (le-RI-a), and say the final o of tempo like oo.",
+        tip: "Stress the i in leria (le-RI-a), and say the final o of tempo like a short u.",
         explanation: "\"Leria\" is \"ler\" + -ia; \"com mais tempo\" sets up the imaginary situation.",
       },
       {
@@ -602,7 +602,7 @@ export const PT_B1_U06: Lesson[] = [
       {
         heading: "Which one when, and the gostava trap",
         body: [
-          "Use the imperfeito with friends, family and colleagues you know, and at a store counter. Switch to the conditional in emails, with an authority, in a job interview, or anywhere you'd write Dear Sir in English: \"poderia me enviar o contrato?\". The conditional is never wrong; it's simply more formal.",
+          "Use the imperfeito with friends, family and colleagues you know, and at a shop counter. Switch to the conditional in emails, with an authority, in a job interview, or anywhere you'd write Dear Sir in English: \"poderia me enviar o contrato?\". The conditional is never wrong; it's simply more formal.",
           "Watch out for one trap: \"gostar\" doesn't work this way in Brazil. \"Eu gostava de um café\" sounds like I used to like coffee. For I'd like, say \"eu queria\" or \"eu gostaria de\". Remember too that \"eu queria\" on its own can still mean I wanted: \"eu queria ir, mas não deu\".",
         ],
         examples: [
@@ -863,7 +863,7 @@ export const PT_B1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Desculpe incomodar, mas seria possível conferir a conta?",
-            tip: "The final e of \"desculpe\" sounds like ee. Stress the í in the conditional: se-RI-a.",
+            tip: "The final e of \"desculpe\" sounds like i. Stress the í in the conditional: se-RI-a.",
             explanation: "Cushion, then \"seria possível\" + infinitive: a complaint that stays friendly.",
           },
         ],
@@ -1076,7 +1076,7 @@ export const PT_B1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Se eu fosse você, eu iria ao médico.",
-            tip: "\"Fosse\" has a closed o, like \"FÔ-see\". The d in \"médico\" before i sounds like the j in jeans: MÉ-jee-koo.",
+            tip: "\"Fosse\" has a closed o, like \"fôssi\". The d in \"médico\" before i sounds like the j in jeans.",
             explanation: "\"Se eu fosse você\" + \"iria\", the conditional of \"ir\".",
           },
         ],
@@ -1573,7 +1573,7 @@ export const PT_B1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Eu ia viajar o mundo todo.",
-            tip: "Say viajar as vi-a-JAR, with a soft zh sound for the j. The final o of todo sounds like oo.",
+            tip: "Say viajar as vi-a-JAR, with a soft zh sound for the j. The final o of todo sounds like u.",
             explanation: "\"Ia viajar\" is the relaxed spoken way of saying \"viajaria\".",
           },
         ],
@@ -1953,7 +1953,7 @@ export const PT_B1_U06: Lesson[] = [
         type: "speak",
         text: "Eu gostaria que você viesse amanhã.",
         prompt: "Say it in Portuguese: I'd like you to come tomorrow.",
-        tip: "Stress viesse on the middle syllable with an open é: vee-É-see. The final -e sounds like ee.",
+        tip: "Stress viesse on the middle syllable with an open é: vi-É-ssi. The final -e sounds like i.",
         explanation: "\"Gostaria que\" + past subjunctive: \"vieram\" → \"viesse\".",
       },
       {
@@ -2329,7 +2329,7 @@ export const PT_B1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Tomara que dê certo!",
-            tip: "Use a closed ê in dê and an open é in certo. The final o of certo sounds like oo.",
+            tip: "Use a closed ê in dê and an open é in certo. The final o of certo sounds like u.",
             explanation: "\"Tomara que\" + \"dê\", the irregular subjunctive of \"dar\". Its accent separates it from the preposition \"de\".",
           },
         ],

@@ -161,10 +161,10 @@ export const DE_B1_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Nobody was at home.'?",
+        question: "Which sentence is correct?",
         options: ["Niemand war zu Hause.", "Niemand war nicht zu Hause.", "Nicht niemand war zu Hause.", "Niemanden war zu Hause."],
         correctIndex: 0,
-        explanation: "\"Niemand\" is already negative and here it is the nominative subject. \"*Niemand war nicht zu Hause*\" adds a second negation.",
+        explanation: "\"Niemand\" as the subject is nominative and needs no \"nicht\".",
       },
       {
         type: "translate",
@@ -368,10 +368,10 @@ export const DE_B1_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'That annoys you.' (people in general)?",
+        question: "Which sentence is correct?",
         options: ["Das ärgert einen.", "Das ärgert man.", "Das ärgert einem.", "Das ärgert sich man."],
         correctIndex: 0,
-        explanation: "\"Ärgern\" takes the accusative, and the accusative of \"man\" is \"einen\". \"*Das ärgert man*\" uses the nominative \"man\" as an object, which German does not allow.",
+        explanation: "\"Ärgern\" takes the accusative: \"einen\".",
       },
       {
         type: "translate",
@@ -568,10 +568,10 @@ export const DE_B1_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We didn't see anybody.'?",
+        question: "Which sentence is correct?",
         options: ["Wir haben niemanden gesehen.", "Wir haben nicht niemanden gesehen.", "Wir haben niemandem gesehen.", "Wir haben nicht jemanden gesehen."],
         correctIndex: 0,
-        explanation: "\"Sehen\" takes the accusative \"niemanden\", and it already contains the negation. \"*nicht niemanden*\" negates twice.",
+        explanation: "\"Sehen\" + accusative: \"niemanden\", without \"nicht\".",
       },
       {
         type: "translate",

@@ -2,7 +2,7 @@
 import type { ExamPaper } from "../types";
 import { AUDIO_NOTE, VIDEO_NOTE, paras } from "./text";
 
-// Celpe-Bras practice exam 2 (health and well-being) -- Parte Coletiva.
+// Celpe-Bras practice exam 2 (health and wellbeing) -- Parte Coletiva.
 // 3 hours, 4 integrated tasks, as in the real exam: Tarefa 1 from a video
 // (here its soundtrack), Tarefa 2 from a radio recording, Tarefas 3 and 4
 // from reading texts. Every enunciado names the genre, the writer's role,

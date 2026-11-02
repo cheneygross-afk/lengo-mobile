@@ -21,7 +21,7 @@ export const PT_C2_U28_EXTRA: Lesson[] = [
         examples: [
           { es: "Se você vir o síndico, pergunte sobre a obra.", en: "If you see the building manager, ask about the work." },
           { es: "Quando eles vierem, vamos ao Mercado Ver-o-Peso.", en: "When they come, we'll go to the Ver-o-Peso market." },
-          { es: "Se a loja mantiver o desconto, compro amanhã.", en: "If the store keeps the discount, I'll buy tomorrow." },
+          { es: "Se a loja mantiver o desconto, compro amanhã.", en: "If the shop keeps the discount, I'll buy tomorrow." },
           { es: "O árbitro interveio antes da briga.", en: "The referee stepped in before the fight." },
           { es: "Os economistas preveem uma recuperação lenta.", en: "Economists predict a slow recovery." },
         ],
@@ -195,7 +195,7 @@ export const PT_C2_U28_EXTRA: Lesson[] = [
           { es: "Eu passeio de bicicleta no Parque Ibirapuera.", en: "I cycle around Ibirapuera Park." },
           { es: "Ela odeia barulho de obra.", en: "She hates the noise of building work." },
           { es: "Eu negocio direto com o fornecedor.", en: "I negotiate directly with the supplier." },
-          { es: "A papelaria está falindo.", en: "The stationery store is going bankrupt." },
+          { es: "A papelaria está falindo.", en: "The stationery shop is going bankrupt." },
           { es: "A defesa requereu mais prazo.", en: "The defense asked for more time." },
         ],
         checkpoint: [

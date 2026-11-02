@@ -33,7 +33,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I told the CEO about that problem myself.",
             answer: "그 문제는 제가 사장님께 직접 말씀드렸어요.",
-            altAnswers: ["그 문제는 제가 직접 사장님께 말씀드렸어요.", "제가 사장님께 그 문제를 직접 말씀드렸어요.", "제가 직접 사장님께 그 문제를 말씀드렸어요."],
+            altAnswers: ["그 문제는 제가 직접 사장님께 말씀드렸어요.", "제가 사장님께 그 문제를 직접 말씀드렸어요.", "제가 직접 사장님께 그 문제를 말씀드렸어요.", "그 문제는 제가 사장님께 직접 말씀드렸습니다."],
             explanation: "You tell a superior: 말씀드리다, with 께 on 사장님.",
           },
           {
@@ -65,7 +65,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Next month I'm going to meet my girlfriend's parents for the first time.",
             answer: "다음 달에 여자 친구 부모님을 처음 뵈러 가요.",
-            altAnswers: ["다음 달에 여자 친구 부모님을 처음 뵈러 갈 거예요.", "다음 달에 여자 친구의 부모님을 처음 뵈러 가요.", "다음 달에 처음으로 여자 친구 부모님을 뵈러 가요.", "다음 달에 여자 친구 부모님을 처음 뵐 거예요."],
+            altAnswers: ["다음 달에 여자 친구 부모님을 처음 뵈러 갈 거예요.", "다음 달에 여자 친구의 부모님을 처음 뵈러 가요.", "다음 달에 처음으로 여자 친구 부모님을 뵈러 가요.", "다음 달에 여자 친구 부모님을 처음 뵐 거예요.", "다음 달에 여자 친구 부모님을 처음 뵈러 갑니다."],
             explanation: "-(으)러 after 뵈: 뵈러 가요. Meeting a partner's parents always takes humble 뵈다.",
           },
           {
@@ -157,7 +157,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'll call you back this afternoon.",
         answer: "오후에 다시 전화드릴게요.",
-        altAnswers: ["오후에 다시 연락드릴게요.", "이따 오후에 다시 전화드릴게요."],
+        altAnswers: ["오후에 다시 전화드리겠습니다.", "오후에 다시 연락드릴게요.", "오후에 다시 연락드리겠습니다.", "이따 오후에 다시 전화드릴게요."],
         explanation: "전화드리다 and 연락드리다 are the humble 'call' and 'contact'.",
       },
       {
@@ -293,7 +293,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "Director Han will come to the meeting.",
         answer: "한 이사님께서 회의에 오실 겁니다.",
-        altAnswers: ["한 이사님이 회의에 오실 겁니다.", "한 이사님께서 회의에 오십니다.", "한 이사님께서 회의에 참석하실 겁니다.", "한 이사님께서 회의에 참석하십니다."],
+        altAnswers: ["한 이사님께서 회의에 오실 거예요.", "한 이사님이 회의에 오실 겁니다.", "한 이사님이 회의에 오실 거예요.", "한 이사님께서 회의에 오십니다.", "한 이사님께서 회의에 참석하실 겁니다.", "한 이사님께서 회의에 참석하십니다."],
         explanation: "이사님께서 with 오실, -시- on the verb.",
       },
       {
@@ -363,7 +363,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "The CEO is in his office.",
         answer: "사장님은 사장실에 계세요.",
-        altAnswers: ["사장님께서는 사장실에 계세요.", "사장님은 사무실에 계세요.", "사장님께서는 사무실에 계세요."],
+        altAnswers: ["사장님께서는 사장실에 계세요.", "사장님은 사무실에 계세요.", "사장님께서는 사무실에 계세요.", "사장님은 사장실에 계십니다."],
         explanation: "계시다 for where a superior is; the CEO's office is 사장실.",
       },
       {
@@ -433,7 +433,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (formal, as café staff).",
             source: "Your Americano is ready.",
             answer: "주문하신 아메리카노 나왔습니다.",
-            altAnswers: ["아메리카노 나왔습니다.", "주문하신 아메리카노가 나왔습니다."],
+            altAnswers: ["아메리카노 나왔습니다.", "주문하신 아메리카노가 나왔습니다.", "아메리카노 나왔어요.", "주문하신 아메리카노 나왔어요."],
             explanation: "The coffee comes out: plain 나왔습니다, not *나오셨습니다. 주문하신 is right: the customer ordered.",
           },
           {
@@ -517,7 +517,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite, to a customer).",
         source: "Do you need a receipt?",
         answer: "영수증 필요하세요?",
-        altAnswers: ["고객님, 영수증 필요하세요?", "영수증이 필요하세요?", "손님, 영수증 필요하세요?"],
+        altAnswers: ["고객님, 영수증 필요하세요?", "영수증이 필요하세요?", "영수증 필요하십니까?", "손님, 영수증 필요하세요?"],
         explanation: "The customer needs it: -시- is right.",
       },
       {
@@ -526,7 +526,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "This product isn't discounted.",
         answer: "이 상품은 할인이 안 됩니다.",
-        altAnswers: ["이 제품은 할인이 안 됩니다.", "이 상품은 할인되지 않습니다.", "이 상품은 할인이 되지 않습니다."],
+        altAnswers: ["이 상품은 할인이 안 돼요.", "이 제품은 할인이 안 됩니다.", "이 제품은 할인이 안 돼요.", "이 상품은 할인되지 않습니다."],
         explanation: "안 됩니다, not *안 되세요: the discount is the subject.",
       },
       {
@@ -559,7 +559,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "Takeaway is available.",
         answer: "포장 가능합니다.",
-        altAnswers: ["포장도 가능합니다.", "포장할 수 있습니다.", "포장해 드릴 수 있습니다."],
+        altAnswers: ["포장 가능해요.", "포장도 가능합니다.", "포장할 수 있습니다.", "포장해 드릴 수 있습니다."],
         explanation: "포장 'packing to take away'; *포장 가능하세요 would honour the packing.",
       },
       {
@@ -682,7 +682,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "Could you confirm the meeting time?",
         answer: "회의 시간 확인 부탁드립니다.",
-        altAnswers: ["회의 시간을 확인해 주시면 감사하겠습니다.", "회의 시간 확인해 주시겠습니까?", "회의 시간을 확인해 주시겠습니까?"],
+        altAnswers: ["회의 시간을 확인해 주시면 감사하겠습니다.", "회의 시간 확인해 주시겠습니까?", "회의 시간을 확인해 주시겠어요?", "회의 시간을 확인해 주실 수 있을까요?", "회의 시간 확인 부탁드려요."],
         explanation: "Noun + 부탁드립니다, or -아 / 어 주시겠습니까? as a question.",
       },
       {
@@ -755,7 +755,7 @@ export const KO_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (formal).",
         source: "Please contact me if you have any questions.",
         answer: "궁금하신 점이 있으시면 연락 주십시오.",
-        altAnswers: ["궁금하신 점이 있으시면 연락해 주십시오.", "궁금하신 점이 있으시면 말씀해 주십시오.", "궁금하신 점이 있으면 연락 주십시오.", "궁금한 점이 있으시면 연락 주십시오.", "질문이 있으시면 연락 주십시오.", "궁금하신 점이 있으시면 연락 부탁드립니다."],
+        altAnswers: ["궁금하신 점이 있으시면 연락해 주십시오.", "궁금하신 점이 있으시면 말씀해 주십시오.", "궁금하신 점이 있으면 연락 주십시오.", "궁금한 점이 있으시면 연락 주십시오.", "질문이 있으시면 연락 주십시오.", "궁금하신 점이 있으시면 연락 주세요."],
         explanation: "궁금하신 점 and 있으시면 honour the reader; 연락 주십시오 closes formally.",
       },
       {

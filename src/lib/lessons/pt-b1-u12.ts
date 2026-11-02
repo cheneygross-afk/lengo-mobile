@@ -247,12 +247,12 @@ export const PT_B1_U12: Lesson[] = [
       {
         heading: "Foi fechada or está fechada?",
         body: [
-          "Last lesson's passive, \"ser\" + participle, reports an action: \"a loja foi fechada pela prefeitura\" (the store was shut down by the city). Swap in \"estar\" and you describe the result, the state you can see now: \"a loja está fechada\" (the store is closed). Nobody is doing anything; it's simply shut.",
+          "Last lesson's passive, \"ser\" + participle, reports an action: \"a loja foi fechada pela prefeitura\" (the shop was shut down by the city). Swap in \"estar\" and you describe the result, the state you can see now: \"a loja está fechada\" (the shop is closed). Nobody is doing anything; it's simply shut.",
           "English blurs the two, because 'is closed' and 'was closed' can mean either. Ask yourself: am I saying what happened, or how things are? Event → \"ser\"; state → \"estar\". The participle agrees with the subject in both: \"a porta está aberta\", \"os documentos estão assinados\".",
         ],
         examples: [
-          { es: "A loja foi fechada pela prefeitura em 2019.", en: "The store was shut down by the city in 2019." },
-          { es: "A loja está fechada hoje.", en: "The store is closed today." },
+          { es: "A loja foi fechada pela prefeitura em 2019.", en: "The shop was shut down by the city in 2019." },
+          { es: "A loja está fechada hoje.", en: "The shop is closed today." },
           { es: "O contrato foi assinado ontem à tarde.", en: "The contract was signed yesterday afternoon." },
           { es: "O contrato já está assinado.", en: "The contract is already signed." },
           { es: "As janelas estão abertas.", en: "The windows are open." },
@@ -361,7 +361,7 @@ export const PT_B1_U12: Lesson[] = [
           {
             type: "speak",
             text: "O café da manhã está incluído?",
-            tip: "\"Incluído\" has four syllables, ĩ-kloo-EE-doo, with the stress on the accented í.",
+            tip: "\"Incluído\" has four syllables, in-clu-Í-do, with the stress on the accented í.",
             explanation: "\"Está incluído\": a state, so \"estar\" + participle, agreeing with \"o café da manhã\".",
           },
         ],
@@ -425,7 +425,7 @@ export const PT_B1_U12: Lesson[] = [
         type: "speak",
         text: "Está tudo resolvido?",
         prompt: "Say it in Portuguese: Is everything taken care of?",
-        tip: "In \"resolvido\" the s between vowels sounds like z: he-zol-VEE-doo.",
+        tip: "In \"resolvido\" the s between vowels sounds like z: re-zol-VI-do.",
         explanation: "\"Está resolvido\" describes the result: the problem has been dealt with.",
       },
       {
@@ -441,10 +441,10 @@ export const PT_B1_U12: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "A loja está fechada.", right: "The store is closed." },
-          { left: "A loja foi fechada.", right: "The store was shut down." },
-          { left: "A loja estava fechada.", right: "The store was closed when I got there." },
-          { left: "A loja ficou fechada.", right: "The store stayed closed." },
+          { left: "A loja está fechada.", right: "The shop is closed." },
+          { left: "A loja foi fechada.", right: "The shop was shut down." },
+          { left: "A loja estava fechada.", right: "The shop was closed when I got there." },
+          { left: "A loja ficou fechada.", right: "The shop stayed closed." },
         ],
         explanation: "\"Está\" is the state now, \"foi\" the action, \"estava\" the state in the past, and \"ficou\" the state it got into and stayed in.",
       },
@@ -552,7 +552,7 @@ export const PT_B1_U12: Lesson[] = [
           {
             type: "speak",
             text: "Eu tenho pago tudo no cartão.",
-            tip: "The final o in pago sounds like oo: PA-goo. Stress the first syllable of tenho: TÊ-nyoo.",
+            tip: "The final o in pago sounds like u: PA-gu. Stress the first syllable of tenho: TE-nhu.",
             explanation: "\"Tenho pago\" is the everyday Brazilian form. \"Tenho pagado\" is rarely heard.",
           },
         ],
@@ -803,7 +803,7 @@ export const PT_B1_U12: Lesson[] = [
         ],
         examples: [
           { es: "Aqui vende chip de celular?", en: "Do they sell SIM cards here?" },
-          { es: "Naquela loja conserta notebook.", en: "They repair laptops in that store." },
+          { es: "Naquela loja conserta notebook.", en: "They repair laptops in that shop." },
           { es: "Onde vende ingresso para o show?", en: "Where do they sell tickets for the concert?" },
           { es: "Na feira vende de tudo.", en: "You can buy anything at the street market." },
           { es: "Aqui aceita cartão?", en: "Do you take cards here?" },
@@ -813,7 +813,7 @@ export const PT_B1_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Do you take cards here? (casual, in a store)",
+            source: "Do you take cards here? (casual, in a shop)",
             answer: "Aqui aceita cartão?",
             altAnswers: ["Aceita cartão?", "Aceita cartão aqui?", "Aqui aceitam cartão?", "Vocês aceitam cartão?", "Vocês aceitam cartão aqui?"],
             explanation: "The spoken form: no \"se\" and a singular verb, \"aqui aceita cartão?\". \"Vocês aceitam\" is also natural if you're addressing the staff.",
@@ -851,7 +851,7 @@ export const PT_B1_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Gold bought. (on a store sign)",
+        source: "Gold bought. (on a shop sign)",
         answer: "Compra-se ouro.",
         altAnswers: ["Compramos ouro."],
         explanation: "\"Compra-se ouro\": the se passivo with a singular verb, because \"ouro\" is singular.",
@@ -885,7 +885,7 @@ export const PT_B1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[They repair] washing machines in that store. (casual)",
+        en: "[They repair] washing machines in that shop. (casual)",
         sentence: "Naquela loja ___ máquina de lavar.",
         answer: "conserta",
         altAnswers: ["consertam", "se conserta"],
@@ -989,7 +989,7 @@ export const PT_B1_U12: Lesson[] = [
         heading: "Dizem que: the unnamed they",
         body: [
           "The everyday way to hide who did something is a plain third-person plural with no subject: \"dizem que vai chover\" (they say it's going to rain), \"roubaram meu celular\" (my phone was stolen). It works even if only one person did it, because the verb isn't pointing at anyone.",
-          "Leaving out \"eles\" is what makes it impersonal. With \"eles\", Brazilians usually mean a specific group, often a store or company: \"eles fecham às dez\" (they close at ten). In conversation this is far more common than the passive. \"Consertaram a rua\" sounds natural, while \"a rua foi consertada\" sounds like the news.",
+          "Leaving out \"eles\" is what makes it impersonal. With \"eles\", Brazilians usually mean a specific group, often a shop or company: \"eles fecham às dez\" (they close at ten). In conversation this is far more common than the passive. \"Consertaram a rua\" sounds natural, while \"a rua foi consertada\" sounds like the news.",
         ],
         examples: [
           { es: "Dizem que vai chover amanhã.", en: "They say it's going to rain tomorrow." },
@@ -1302,7 +1302,7 @@ export const PT_B1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A store wants a carefully written sign offering used bikes. Which one should it put up?",
+            question: "A shop wants a carefully written sign offering used bikes. Which one should it put up?",
             options: [
               "Vendem-se bicicletas usadas.",
               "Vende-se bicicletas usadas.",
@@ -1414,7 +1414,7 @@ export const PT_B1_U12: Lesson[] = [
         type: "speak",
         text: "Prenderam o ladrão no centro.",
         prompt: "Say it in Portuguese: The thief was arrested downtown.",
-        tip: "Stress prẽ-DÊ-rãw. The final -am is nasal, like an unstressed ão.",
+        tip: "Stress pren-DE-ram. The final -am is nasal, like an unstressed ão.",
         explanation: "In speech, the subjectless \"prenderam\" is the natural choice when you don't name who did it.",
       },
       {
@@ -1580,7 +1580,7 @@ export const PT_B1_U12: Lesson[] = [
           {
             type: "speak",
             text: "Sério? Duvido que fique pronta até junho.",
-            tip: "Final -o in \"duvido\" sounds like oo, and the \"on\" in \"pronta\" is nasal, with no n at the end.",
+            tip: "Final -o in \"duvido\" sounds like u, and the \"on\" in \"pronta\" is nasal, with no n at the end.",
             explanation: "\"Duvido que\" takes the subjunctive: \"fique\", from \"ficar\" with the spelling change c → qu.",
           },
         ],
@@ -1761,7 +1761,7 @@ export const PT_B1_U12: Lesson[] = [
           {
             type: "speak",
             text: "As encomendas foram entregues ontem.",
-            tip: "In \"entregues\" the u is silent: say gue like the g in get followed by an ee sound.",
+            tip: "In \"entregues\" the u is silent: say gue like the g in get followed by an i sound.",
             explanation: "\"Foram entregues\": short participle with \"ser\", plural to match \"as encomendas\".",
           },
         ],
@@ -1896,7 +1896,7 @@ export const PT_B1_U12: Lesson[] = [
         type: "speak",
         text: "Os ingressos foram vendidos pelo clube.",
         prompt: "Say it in Portuguese: The tickets were sold by the club.",
-        tip: "Say \"pelo\" as PÊ-loo, with the final o sounding like oo.",
+        tip: "Say \"pelo\" as PE-lu, with the final o sounding like u.",
         explanation: "Masculine plural \"vendidos\" to match \"os ingressos\", and the agent with \"pelo\" (por + o).",
       },
       {
@@ -2163,7 +2163,7 @@ export const PT_B1_U12: Lesson[] = [
         type: "speak",
         text: "Dois suspeitos foram presos ontem em Salvador.",
         prompt: "Say it in Portuguese: Two suspects were arrested yesterday in Salvador.",
-        tip: "In \"presos\" the s between vowels sounds like z: PRÊ-zoos.",
+        tip: "In \"presos\" the s between vowels sounds like z: PRE-zus.",
         explanation: "This is how a news report expands the headline \"Dois suspeitos são presos em Salvador\": \"ser\" goes back to the past and the time is added.",
       },
       {

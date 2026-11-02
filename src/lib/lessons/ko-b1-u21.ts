@@ -957,7 +957,7 @@ export const KO_B1_U21: Lesson[] = [
         ],
         examples: [
           { es: "고기가 없으면 닭이라도 사 올까요?", en: "If there's no beef, shall I at least buy some chicken? [달기라도]" },
-          { es: "값이 너무 올랐어요.", en: "The price has gone up too much. [갑씨]" },
+          { es: "값이 너무 비싸요.", en: "The price is too high. [갑씨]" },
           { es: "아이들은 흙을 만지면서 놀아요.", en: "The children play with the soil. [흘글]" },
           { es: "도시의 삶이 가끔 힘들어요.", en: "City life is hard sometimes. [살미]" },
           { es: "이건 제 몫이에요.", en: "This is my share. [목씨에요]" },
@@ -980,7 +980,7 @@ export const KO_B1_U21: Lesson[] = [
           },
           {
             type: "speak",
-            text: "값이 너무 올랐어요.",
+            text: "값이 너무 비싸요.",
             tip: "Say 값이 as [갑씨]: the ㅅ moves over and turns tense.",
             explanation: "값 has the double final ㅄ; before 이, the ㅅ moves across as [씨].",
           },
@@ -1055,9 +1055,9 @@ export const KO_B1_U21: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "값이 너무 올랐어요.",
+        audio: "값이 너무 비싸요.",
         question: "What does it mean?",
-        options: ["The price has gone up too much.", "The rice has gone up too much.", "It suddenly got too cheap.", "Both of them went up too much."],
+        options: ["The price is too high.", "The rice is too expensive.", "It suddenly got too expensive.", "Both of them are too expensive."],
         correctIndex: 0,
         explanation: "[갑씨] is 값이 'the price': the ㅅ of ㅄ moves over and turns tense.",
       },
@@ -1171,7 +1171,7 @@ export const KO_B1_U21: Lesson[] = [
             question: "How does the speaker feel about the money?",
             options: ["It isn't enough.", "It's more than enough.", "It's exactly what they need.", "They don't know how much they have."],
             correctIndex: 0,
-            explanation: "Here 밖에 + 없어요 says 'not enough': that's all there is, and it's too little.",
+            explanation: "밖에 + 없어요 always says 'not enough'.",
           },
         ],
       },
@@ -1293,7 +1293,7 @@ export const KO_B1_U21: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "This is a limited edition.",
         answer: "이건 한정판이에요.",
-        altAnswers: ["이것은 한정판이에요.", "이거 한정판이에요."],
+        altAnswers: ["이것은 한정판이에요.", "이거 한정판이에요.", "이것은 한정판입니다.", "이건 한정판입니다."],
         explanation: "한정판: 한정 'limited' + 판 'edition'.",
       },
       {
@@ -1402,7 +1402,7 @@ export const KO_B1_U21: Lesson[] = [
             prompt: "Translate into Korean (polite, to a senior).",
             source: "I did as you said.",
             answer: "말씀하신 대로 했어요.",
-            altAnswers: ["말씀대로 했어요."],
+            altAnswers: ["말씀대로 했어요.", "말씀하신 대로 했습니다.", "말씀대로 했습니다."],
             explanation: "After the verb 말씀하시다, 대로 is spaced: 말씀하신 대로. After the noun 말씀, it's glued: 말씀대로.",
           },
           {
@@ -1689,7 +1689,7 @@ export const KO_B1_U21: Lesson[] = [
         prompt: "Translate into Korean (polite, modestly).",
         source: "I was only doing my job.",
         answer: "저는 제 일을 했을 뿐이에요.",
-        altAnswers: ["제 일을 했을 뿐이에요.", "저는 제 일을 한 것뿐이에요.", "제 일을 한 것뿐이에요.", "저는 제 할 일을 했을 뿐이에요.", "제 할 일을 했을 뿐이에요."],
+        altAnswers: ["제 일을 했을 뿐이에요.", "저는 제 일을 한 것뿐이에요.", "제 일을 한 것뿐이에요.", "저는 제 할 일을 했을 뿐이에요.", "제 할 일을 했을 뿐이에요.", "저는 제 일을 했을 뿐입니다."],
         explanation: "-(으)ㄹ 뿐이에요 plays down the thanks: nothing more than my job.",
       },
       {
@@ -2070,7 +2070,7 @@ export const KO_B1_U21: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I did it the way I learned.",
         answer: "배운 대로 했어요.",
-        altAnswers: ["저는 배운 대로 했어요."],
+        altAnswers: ["저는 배운 대로 했어요.", "배운 대로 했습니다."],
         explanation: "After a verb, 대로 is spaced: 배운 대로.",
       },
       {
@@ -2538,7 +2538,7 @@ export const KO_B1_U21: Lesson[] = [
             prompt: "Fix the mistake and translate into Korean (polite): *계획대로를 했어요.",
             source: "I did it as planned.",
             answer: "계획대로 했어요.",
-            altAnswers: ["저는 계획대로 했어요."],
+            altAnswers: ["계획대로 했습니다.", "저는 계획대로 했어요."],
             explanation: "계획대로 already acts as an adverb: no 를 after it.",
           },
           {

@@ -20,7 +20,7 @@ export const KO_B1_U13: Lesson[] = [
         heading: "-(으)ㄹ걸 그랬어요: I should have",
         body: [
           "To say 'I should have done it' (and didn't), Korean adds -(으)ㄹ걸 to the verb and follows it with 그랬어요, 'I did so'. A vowel or ㄹ stem takes -ㄹ걸 (갈걸, 예약할걸, 만들걸), a consonant stem -을걸 (먹을걸, 읽을걸). 걸 is written attached to the verb; 그랬어요 is a separate word.",
-          "English puts the past on the verb: 'I should have booked'. Korean keeps the verb before 걸 in its plain form and lets 그랬어요 carry the past: 미리 예약할걸 그랬어요, not *예약했을걸 그랬어요. The feeling is a light, everyday sigh: 'I wish I had'. It's usually about your own choice, so there's usually no subject.",
+          "English puts the past on the verb: 'I should have booked'. Korean keeps the verb before 걸 in its plain form and lets 그랬어요 carry the past: 미리 예약할걸 그랬어요, never *예약했을걸. The feeling is a light, everyday sigh: 'I wish I had'. It's usually about your own choice, so there's usually no subject.",
         ],
         examples: [
           { es: "우산을 가져올걸 그랬어요.", en: "I should have brought an umbrella." },
@@ -38,7 +38,7 @@ export const KO_B1_U13: Lesson[] = [
             source: "I should have brought an umbrella.",
             answer: "우산을 가져올걸 그랬어요.",
             altAnswers: ["우산 가져올걸 그랬어요.", "우산을 가지고 올걸 그랬어요.", "우산 가지고 올걸 그랬어요.", "우산을 챙길걸 그랬어요.", "우산 챙길걸 그랬어요."],
-            explanation: "가져오다 has a vowel stem, so -ㄹ걸: 가져올걸, then 그랬어요 for the past. *가져왔을걸 그랬어요 puts the past in the wrong place.",
+            explanation: "가져오다 has a vowel stem, so -ㄹ걸: 가져올걸, then 그랬어요 for the past. *가져왔을걸 puts the past in the wrong place.",
           },
           {
             type: "fill-blank",
@@ -493,7 +493,7 @@ export const KO_B1_U13: Lesson[] = [
             prompt: "Translate into Korean (formal, to your boss).",
             source: "I should have told you in advance. I'm sorry.",
             answer: "미리 말씀드렸어야 했는데 죄송합니다.",
-            altAnswers: ["미리 말씀을 드렸어야 했는데 죄송합니다.", "미리 말씀드렸어야 됐는데 죄송합니다.", "미리 말씀드렸어야 했습니다. 죄송합니다."],
+            altAnswers: ["미리 말씀드렸어야 했는데 죄송해요.", "미리 말씀을 드렸어야 했는데 죄송합니다.", "미리 말씀드렸어야 했는데요. 죄송합니다.", "미리 말씀드렸어야 됐는데 죄송합니다.", "미리 말씀드렸어야 했습니다. 죄송합니다."],
             explanation: "Humble 말씀드리다 for your boss, past 말씀드렸어야 했는데, then the apology.",
           },
           {
@@ -585,9 +585,9 @@ export const KO_B1_U13: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Your teammate forgot to send an important file. Which sentence fits?",
-        options: ["지은 씨가 그 파일을 보냈어야 했는데요.", "지은 씨가 그 파일을 보낼걸 그랬어요.", "지은 씨가 그 파일을 보내 놓았어요.", "지은 씨가 그 파일을 보낼 뻔했어요."],
+        options: ["지은 씨가 그 파일을 보냈어야 했는데요.", "지은 씨가 그 파일을 보낼걸 그랬어요.", "지은 씨가 그 파일을 보내야 했는데요.", "지은 씨가 그 파일을 보낼 뻔했어요."],
         correctIndex: 0,
-        explanation: "Someone else's failure: 보냈어야 했는데요. -(으)ㄹ걸 sounds odd about a third person, 보내 놓았어요 says she did send it, and 보낼 뻔했어요 says she nearly sent it.",
+        explanation: "Someone else's failure: 보냈어야 했는데요. -(으)ㄹ걸 sounds odd about a third person, and 보내야 했는데 lacks the past on the verb.",
       },
       {
         type: "multiple-choice",
@@ -704,7 +704,7 @@ export const KO_B1_U13: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "The road was slippery, so I nearly fell.",
             answer: "길이 미끄러워서 넘어질 뻔했어요.",
-            altAnswers: ["길이 미끄러워서 하마터면 넘어질 뻔했어요.", "길이 미끄러워서 미끄러질 뻔했어요.", "길이 미끄러워서 하마터면 미끄러질 뻔했어요."],
+            altAnswers: ["길이 미끄러워서 하마터면 넘어질 뻔했어요.", "길이 미끄러워서 미끄러질 뻔했어요.", "길이 미끄러워서 하마터면 미끄러질 뻔했어요.", "길이 미끄러워서 넘어질 뻔했습니다."],
             explanation: "미끄럽다 is ㅂ irregular: 미끄러워서. Then 넘어질 뻔했어요.",
           },
           {
@@ -1198,7 +1198,7 @@ export const KO_B1_U13: Lesson[] = [
         en: "Well, you [should have said] something.",
         sentence: "그럼 말을 ___.",
         answer: "했어야죠",
-        altAnswers: ["했어야지요"],
+        altAnswers: ["했어야지요", "했어야지"],
         explanation: "Polite reproach: 했어야죠.",
       },
       {
@@ -2125,7 +2125,7 @@ export const KO_B1_U13: Lesson[] = [
             en: "I [should have stayed] at a good hotel, even if it cost a bit more.",
             sentence: "조금 비싸도 좋은 호텔에 ___.",
             answer: "묵을걸 그랬다",
-            altAnswers: ["묵었어야 했는데", "묵었어야 했다"],
+            altAnswers: ["묵었어야 했는데", "잘걸 그랬다", "묵었어야 했다"],
             explanation: "묵다 'stay (at a hotel)' + -을걸 그랬다.",
           },
           {

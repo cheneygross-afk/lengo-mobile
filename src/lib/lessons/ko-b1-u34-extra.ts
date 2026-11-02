@@ -592,7 +592,7 @@ export const KO_B1_U34_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Let's walk along the beach.",
         answer: "바닷가를 걸어요.",
-        altAnswers: ["바닷가를 걸을까요?", "바닷가에서 걸어요.", "바닷가를 같이 걸어요.", "바닷가를 산책해요.", "바닷가를 따라 걸어요.", "바닷가를 따라 걸을까요?", "바닷가를 걸읍시다."],
+        altAnswers: ["바닷가를 걸을까요?", "바닷가에서 걸어요.", "바닷가를 같이 걸어요.", "바닷가를 산책해요.", "바닷가를 걸읍시다."],
         explanation: "바닷가 is 바다 + 가 with a 사이시옷, said [바다까].",
       },
       {

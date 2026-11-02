@@ -875,7 +875,7 @@ export const KO_B1_U16: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Seoul is fairly safe even at night.",
         answer: "서울은 밤에도 안전한 편이에요.",
-        altAnswers: ["서울은 밤에도 꽤 안전한 편이에요.", "서울은 밤에도 비교적 안전한 편이에요."],
+        altAnswers: ["서울은 밤에도 꽤 안전한 편이에요.", "서울은 밤에도 비교적 안전한 편이에요.", "서울은 밤에도 안전한 편입니다."],
         explanation: "안전하다 is an adjective: 안전한 편이에요.",
       },
       {
@@ -1358,7 +1358,6 @@ export const KO_B1_U16: Lesson[] = [
             en: "It's not great, but it's [edible].",
             sentence: "맛있지는 않지만 ___.",
             answer: "먹을 만해요",
-            altAnswers: ["먹을 만은 해요", "그냥 먹을 만해요"],
             explanation: "먹을 만해요 'good enough to eat', not 'delicious'.",
           },
           {
@@ -1367,8 +1366,7 @@ export const KO_B1_U16: Lesson[] = [
             en: "He's [a trustworthy] doctor.",
             sentence: "___ 의사예요.",
             answer: "믿을 만한",
-            altAnswers: ["믿을 수 있는"],
-            explanation: "Before a noun: 믿을 만한. 믿을 수 있는 'that can be trusted' also works.",
+            explanation: "Before a noun: 믿을 만한.",
           },
           {
             type: "fill-blank",
@@ -1974,7 +1972,7 @@ export const KO_B1_U16: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Please write it in the comments box.",
         answer: "의견란에 써 주세요.",
-        altAnswers: ["의견란에 적어 주세요."],
+        altAnswers: ["의견란에 적어 주세요.", "의견란에 써 주십시오.", "의견란에 적어 주십시오."],
         explanation: "의견란 'comments box', said [의견난].",
       },
       {
@@ -2188,8 +2186,7 @@ export const KO_B1_U16: Lesson[] = [
         en: "He's [a trustworthy] person.",
         sentence: "그분은 ___ 사람이에요.",
         answer: "믿을 만한",
-        altAnswers: ["믿을 수 있는"],
-        explanation: "만하다 → 만한 before a noun, never *만하는. 믿을 수 있는 is also fine.",
+        explanation: "만하다 → 만한 before a noun.",
       },
       {
         type: "translate",
@@ -2389,7 +2386,7 @@ export const KO_B1_U16: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "It's fairly crowded at weekends.",
         answer: "주말에는 사람이 좀 많은 편이에요.",
-        altAnswers: ["주말에는 사람이 많은 편이에요.", "주말에는 좀 많은 편이에요.", "주말에는 사람이 꽤 많은 편이에요.", "주말엔 사람이 좀 많은 편이에요.", "주말엔 사람이 많은 편이에요."],
+        altAnswers: ["주말에는 사람이 많은 편이에요.", "주말에는 좀 많은 편이에요.", "주말에는 사람이 꽤 많은 편이에요.", "주말엔 사람이 좀 많은 편이에요.", "주말엔 사람이 많은 편이에요.", "주말에는 사람이 좀 많은 편입니다."],
         explanation: "많다 → 많은 편이에요; 좀 keeps it soft.",
       },
       {

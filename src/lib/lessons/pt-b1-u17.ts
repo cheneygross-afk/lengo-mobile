@@ -747,7 +747,7 @@ export const PT_B1_U17: Lesson[] = [
         ],
         examples: [
           { es: "Bah, que frio, tchê!", en: "Wow, it's freezing, buddy!" },
-          { es: "Tchê, você vai no churrasco?", en: "Buddy, are you going to the barbecue?" },
+          { es: "Tchê, você vai no churrasco?", en: "Mate, are you going to the barbecue?" },
           { es: "Aquela guria é minha prima.", en: "That girl is my cousin." },
           { es: "Uai, cê não sabia?", en: "Why, didn't you know?" },
           { es: "Me passa esse trem aí, sô.", en: "Pass me that thing, man." },
@@ -1142,7 +1142,7 @@ export const PT_B1_U17: Lesson[] = [
       {
         type: "speak",
         text: "Oxe, cê tá doido?",
-        tip: "Say oxe as Ó-shee, with an open ó: the x sounds like sh and the final e sounds like ee.",
+        tip: "Say oxe as Ó-shi, with an open ó: the x sounds like sh and the final e sounds like i.",
         explanation: "This is very Nordeste: \"oxe\" for surprise. Locals would often say \"tu tá doido?\" with the same verb.",
       },
       {
@@ -1389,7 +1389,7 @@ export const PT_B1_U17: Lesson[] = [
         type: "speak",
         text: "Fechado, então. Sábado às oito.",
         prompt: "Say it in Portuguese: Done deal, then. Saturday at eight.",
-        tip: "Glide the oi in oito (OY-too), with the final o said like oo.",
+        tip: "Glide the oi in oito (OY-tu), with the final o said like u.",
         explanation: "\"Fechado\" seals a plan, and \"às oito\" is at eight, with \"à\" + \"as\".",
       },
     ],
@@ -1406,7 +1406,7 @@ export const PT_B1_U17: Lesson[] = [
         heading: "Slang in a work email",
         body: [
           "\"Cara\", \"valeu\", \"beleza\", \"show\" and \"de boa\" are everyday words among friends. In an email to a manager, a client or a recruiter, though, they read like 'hey, dude' on a job application. They come across as careless, not friendly.",
-          "Swap each one for a neutral equivalent. Replace \"valeu\" with \"obrigado\" or \"agradeço\", \"beleza\" with \"combinado\", \"de boa\" with \"sem problema\" and \"show!\" with \"ótimo\". Keep the frame from Unit 27: \"Prezado\" or \"Olá\" to open, \"Atenciosamente\" to close.",
+          "Swap each one for a neutral equivalent. Replace \"valeu\" with \"obrigado\" or \"agradeço\", \"beleza\" with \"combinado\", \"de boa\" with \"sem problema\" and \"show!\" with \"ótimo\". Keep the frame from Unit 15: \"Prezado\" or \"Olá\" to open, \"Atenciosamente\" to close.",
         ],
         examples: [
           { es: "Agradeço a oportunidade.", en: "Thank you for the opportunity." },
@@ -1485,7 +1485,7 @@ export const PT_B1_U17: Lesson[] = [
           { es: "Tô dentro! Levo a cerveja.", en: "I'm in! I'll bring the beer." },
           { es: "Valeu, pessoal, até amanhã!", en: "Thanks, guys, see you tomorrow!" },
           { es: "Cê pode comprar pão na volta?", en: "Can you buy bread on the way back?" },
-          { es: "Beleza, combinado. Abraço!", en: "OK, it's a deal. Take care!" },
+          { es: "Beleza, combinado. Abraço!", en: "OK, it's a deal. Cheers!" },
         ],
         checkpoint: [
           {
@@ -1651,12 +1651,12 @@ export const PT_B1_U17: Lesson[] = [
           "Going back, restore each full form with its spelling: \"tá\" becomes \"está\" with an accent, and \"pra\" becomes \"para\" with none.",
         ],
         examples: [
-          { es: "Você está pronto? Cê tá pronto?", en: "Are you ready?" },
-          { es: "Eu estou saindo agora. Tô saindo agora.", en: "I'm leaving now." },
-          { es: "Ela estava no trabalho. Ela tava no trabalho.", en: "She was at work." },
-          { es: "Vou para o centro. Vou pro centro.", en: "I'm going downtown." },
-          { es: "Esse presente é para você. Esse presente é pra você.", en: "This present is for you." },
-          { es: "O ônibus está atrasado, não é? O ônibus tá atrasado, né?", en: "The bus is late, isn't it?" },
+          { es: "Você está pronto? → Cê tá pronto?", en: "Are you ready?" },
+          { es: "Eu estou saindo agora. → Tô saindo agora.", en: "I'm leaving now." },
+          { es: "Ela estava no trabalho. → Ela tava no trabalho.", en: "She was at work." },
+          { es: "Vou para o centro. → Vou pro centro.", en: "I'm going downtown." },
+          { es: "Esse presente é para você. → Esse presente é pra você.", en: "This present is for you." },
+          { es: "O ônibus está atrasado, não é? → O ônibus tá atrasado, né?", en: "The bus is late, isn't it?" },
         ],
         checkpoint: [
           {
@@ -1695,12 +1695,12 @@ export const PT_B1_U17: Lesson[] = [
           "\"O senhor\" and \"a senhora\" never shrink. They mark respect for the person, not formal writing, so only the verb gets casual.",
         ],
         examples: [
-          { es: "Nós vamos para a praia. A gente vai pra praia.", en: "We're going to the beach." },
-          { es: "Nós nos vemos amanhã. A gente se vê amanhã.", en: "See you tomorrow." },
-          { es: "Nós o encontramos no metrô. A gente encontrou ele no metrô.", en: "We ran into him on the subway." },
-          { es: "Eu a vi na feira. Eu vi ela na feira.", en: "I saw her at the market." },
-          { es: "Vou ajudá-lo com a mudança. Vou te ajudar com a mudança.", en: "I'll help you with the move." },
-          { es: "A senhora está bem? A senhora tá bem?", en: "Are you OK? (to an older woman)" },
+          { es: "Nós vamos para a praia. → A gente vai pra praia.", en: "We're going to the beach." },
+          { es: "Nós nos vemos amanhã. → A gente se vê amanhã.", en: "See you tomorrow." },
+          { es: "Nós o encontramos no metrô. → A gente encontrou ele no metrô.", en: "We ran into him on the subway." },
+          { es: "Eu a vi na feira. → Eu vi ela na feira.", en: "I saw her at the market." },
+          { es: "Vou ajudá-lo com a mudança. → Vou te ajudar com a mudança.", en: "I'll help you with the move." },
+          { es: "A senhora está bem? → A senhora tá bem?", en: "Are you OK? (to an older woman)" },
         ],
         checkpoint: [
           {
@@ -1736,11 +1736,11 @@ export const PT_B1_U17: Lesson[] = [
           "Fillers have no formal version. Delete \"né\" and \"tipo\", and replace \"aí\" with a real connector such as \"em seguida\" or \"então\". The result should read as if you had written it that way from the start.",
         ],
         examples: [
-          { es: "A gente tá esperando a resposta. Nós estamos esperando a resposta.", en: "We're waiting for the answer." },
-          { es: "Tem um problema no sistema. Há um problema no sistema.", en: "There's a problem with the system." },
-          { es: "Liguei pra ela, mas ela tava numa reunião. Liguei para ela, mas ela estava em uma reunião.", en: "I called her, but she was in a meeting." },
-          { es: "Aí a gente mandou o relatório pro diretor. Em seguida, nós enviamos o relatório para o diretor.", en: "Then we sent the report to the director." },
-          { es: "Cê viu ele hoje? Você o viu hoje?", en: "Did you see him today?" },
+          { es: "A gente tá esperando a resposta. → Nós estamos esperando a resposta.", en: "We're waiting for the answer." },
+          { es: "Tem um problema no sistema. → Há um problema no sistema.", en: "There's a problem with the system." },
+          { es: "Liguei pra ela, mas ela tava numa reunião. → Liguei para ela, mas ela estava em uma reunião.", en: "I called her, but she was in a meeting." },
+          { es: "Aí a gente mandou o relatório pro diretor. → Em seguida, nós enviamos o relatório para o diretor.", en: "Then we sent the report to the director." },
+          { es: "Cê viu ele hoje? → Você o viu hoje?", en: "Did you see him today?" },
         ],
         checkpoint: [
           {
@@ -1876,16 +1876,16 @@ export const PT_B1_U17: Lesson[] = [
       {
         heading: "Mandando o convite: proposing the plan",
         body: [
-          "A plan in a group chat starts with one short message to everyone. Open with \"gente\" or \"galera\" (guys, everyone) and make the proposal: \"bora...?\" (should we...?, from \"vamos embora\"), \"que tal...?\" (how about...?) or \"alguém topa...?\" (is anyone up for...?). \"Topar\" means to accept a plan, so \"topo!\" is I'm up for it.",
+          "A plan in a group chat starts with one short message to everyone. Open with \"gente\" or \"galera\" (guys, everyone) and make the proposal: \"bora...?\" (shall we...?, from \"vamos embora\"), \"que tal...?\" (how about...?) or \"alguém topa...?\" (is anyone up for...?). \"Topar\" means to accept a plan, so \"topo!\" is I'm up for it.",
           "Write the way you speak, with the reductions from this unit: \"tô\", \"tá\", \"cês\", \"pra\", \"pro\". Chats also shorten words in writing: \"vc\" (você), \"tb\" (também), \"pq\" (porque), \"blz\" (beleza). Recognize them, but write whole words in the exercises; they're just as natural in a chat.",
         ],
         examples: [
-          { es: "Gente, bora pra praia no sábado?", en: "Guys, should we go to the beach on Saturday?" },
+          { es: "Gente, bora pra praia no sábado?", en: "Guys, shall we go to the beach on Saturday?" },
           { es: "Que tal um churrasco lá em casa no domingo?", en: "How about a barbecue at my place on Sunday?" },
           { es: "Alguém topa uma trilha no fim de semana?", en: "Is anyone up for a hike on the weekend?" },
           { es: "Galera, cês tão livres sexta à noite?", en: "Guys, are you free Friday night?" },
           { es: "Tô pensando em alugar uma casa em Ilhabela. Quem vem?", en: "I'm thinking of renting a house in Ilhabela. Who's coming?" },
-          { es: "Vai ter show no Ibirapuera. Bora?", en: "There's a concert at Ibirapuera. Want to go?" },
+          { es: "Vai ter show no Ibirapuera. Bora?", en: "There's a concert at Ibirapuera. Shall we go?" },
         ],
         checkpoint: [
           {
@@ -2000,7 +2000,7 @@ export const PT_B1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Guys, should we go to the beach on Saturday?",
+        source: "Guys, shall we go to the beach on Saturday?",
         answer: "Galera, bora pra praia no sábado?",
         altAnswers: ["Gente, bora pra praia no sábado?", "Galera, vamos pra praia no sábado?", "Gente, vamos pra praia no sábado?", "Galera, bora para a praia no sábado?", "Gente, bora para a praia no sábado?", "Galera, vamos para a praia no sábado?", "Gente, vamos para a praia no sábado?", "Galera, bora à praia no sábado?", "Gente, bora à praia no sábado?"],
         explanation: "\"Galera\" or \"gente\" addresses the group, and \"bora\" is the chat form of \"vamos\". \"Pra\" + \"a praia\" merges into \"pra praia\".",
@@ -2069,7 +2069,7 @@ export const PT_B1_U17: Lesson[] = [
       {
         type: "dictation",
         audio: "Que tal um churrasco no domingo?",
-        explanation: "\"Que tal\" + noun proposes a plan. \"Domingo\" ends in an oo sound, written o.",
+        explanation: "\"Que tal\" + noun proposes a plan. \"Domingo\" ends in an u sound, written o.",
       },
       {
         type: "speak",

@@ -370,10 +370,10 @@ export const DE_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I sat in front of the TV all evening.' in standard German (Germany)?",
+        question: "Which sentence is correct standard German?",
         options: ["Ich habe den ganzen Abend vor dem Fernseher gesessen.", "Ich bin den ganzen Abend vor dem Fernseher gesessen.", "Ich habe den ganzen Abend vor dem Fernseher gesitzt.", "Ich bin den ganzen Abend vor dem Fernseher gesetzt."],
         correctIndex: 0,
-        explanation: "In Germany \"sitzen\" takes \"haben\" and its participle is \"gesessen\": \"habe ... gesessen\". The tempting \"*bin ... gesessen*\" is southern German and Austrian usage, not the northern standard.",
+        explanation: "\"Sitzen\" takes \"haben\" in standard German (\"bin gesessen\" is southern), and its participle is \"gesessen\".",
       },
       {
         type: "translate",
@@ -1390,10 +1390,10 @@ export const DE_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Then we went to the cinema.'?",
+        question: "Which sentence is correct?",
         options: ["Dann sind wir ins Kino gegangen.", "Dann wir sind ins Kino gegangen.", "Dann sind wir gegangen ins Kino.", "Dann haben wir ins Kino gegangen."],
         correctIndex: 0,
-        explanation: "\"Dann\" fills position 1, so the verb \"sind\" comes next and the participle \"gegangen\" goes last; \"gehen\" takes \"sein\". \"*Dann wir sind*\" puts the subject in the verb's slot.",
+        explanation: "\"Dann\" fills position 1, verb second, participle last, and \"gehen\" takes \"sein\".",
       },
       {
         type: "translate",
@@ -1943,10 +1943,10 @@ export const DE_B1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'I've been working at the bank for three years.' (and still do)?",
+            question: "Which sentence is correct?",
             options: ["Ich arbeite seit drei Jahren bei der Bank.", "Ich arbeite für drei Jahre bei der Bank.", "Ich habe seit drei Jahren bei der Bank gearbeitet.", "Ich arbeite vor drei Jahren bei der Bank."],
             correctIndex: 0,
-            explanation: "Something still going on takes the present tense + \"seit\": \"Ich arbeite seit drei Jahren\". The tempting \"*für drei Jahre*\" copies English for; \"für\" gives a planned length, not time up to now.",
+            explanation: "Still going on: present tense + \"seit\".",
           },
         ],
       },
@@ -2194,10 +2194,10 @@ export const DE_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence in the email says 'We've been here since Saturday.' (and are still here)?",
+        question: "Which sentence from the email is correct?",
         options: ["Wir sind seit Samstag hier.", "Wir sind für Samstag hier.", "Wir sind seit Samstag hier gewesen.", "Wir sind vor Samstag hier."],
         correctIndex: 0,
-        explanation: "Still here, so the present tense + \"seit\": \"Wir sind seit Samstag hier\". \"*Wir sind seit Samstag hier gewesen*\" copies the English tense and sounds as if you have already left.",
+        explanation: "Still there: present + \"seit\".",
       },
       {
         type: "translate",
@@ -2547,10 +2547,10 @@ export const DE_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'All of a sudden my neighbour was standing at the door.'?",
+        question: "Which sentence is correct?",
         options: ["Auf einmal stand mein Nachbar vor der Tür.", "Auf einmal mein Nachbar stand vor der Tür.", "Auf einmal hat mein Nachbar vor der Tür gestehen.", "Auf einmal ist mein Nachbar vor der Tür gestanden gewesen."],
         correctIndex: 0,
-        explanation: "\"Auf einmal\" fills position 1, so the verb \"stand\" comes next; Präteritum \"stand\" is the natural narrative form. \"*Auf einmal mein Nachbar stand*\" puts the subject before the verb.",
+        explanation: "\"Auf einmal\" in position 1, verb next; \"stand\" is the natural Präteritum.",
       },
       {
         type: "translate",

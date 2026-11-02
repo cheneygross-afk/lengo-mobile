@@ -214,7 +214,7 @@ export const PT_C2_U14: Lesson[] = [
         type: "speak",
         text: "Me arrependo de não ter dito o que eu sentia.",
         prompt: "Say it in Portuguese: I regret not having said what I felt.",
-        tip: "\"Arrependo\" has a strong double r at the start of the second syllable, like an h: a-he-PEN-doo.",
+        tip: "\"Arrependo\" has a strong double r at the start of the second syllable, like an h: a-he-PEN-du.",
         explanation: "\"Arrepender-se de não ter\" + participle: regret for what you didn't do.",
       },
       {
@@ -307,7 +307,7 @@ export const PT_C2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Fiquei constrangido quando ele me pediu dinheiro na frente de todos.",
-            tip: "\"Constrangido\": the first \"on\" and the \"an\" are both nasal: kõs-trã-ZHI-doo.",
+            tip: "\"Constrangido\": the first \"on\" and the \"an\" are both nasal: kõs-trã-ZHI-du.",
             explanation: "\"Constrangido\" fits the awkwardness of being put on the spot in public.",
           },
         ],
@@ -433,7 +433,7 @@ export const PT_C2_U14: Lesson[] = [
         type: "speak",
         text: "Que inveja da sua viagem! Não é ciúme, é inveja mesmo.",
         prompt: "Say it in Portuguese: I'm so jealous of your trip! It's not jealousy, it's honest-to-goodness envy.",
-        tip: "\"Ciúme\" has three syllables, si-Ú-mee, with the stress on the accented ú.",
+        tip: "\"Ciúme\" has three syllables, si-Ú-mi, with the stress on the accented ú.",
         explanation: "\"Mesmo\" after a noun stresses that the word is meant exactly.",
       },
       {
@@ -523,7 +523,7 @@ export const PT_C2_U14: Lesson[] = [
           {
             type: "speak",
             text: "O banzo era uma tristeza que levava à morte.",
-            tip: "\"Banzo\" has a nasal a: BÃ-zoo. Don't pronounce the n as a separate consonant.",
+            tip: "\"Banzo\" has a nasal a: BÃ-zu. Don't pronounce the n as a separate consonant.",
             explanation: "\"Levar a\" + \"a morte\" = \"levar à morte\", with the crasis.",
           },
         ],
@@ -746,7 +746,7 @@ export const PT_C2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Nós nos orgulhamos do trabalho da equipe.",
-            tip: "\"Nos orgulhamos\": the s of \"nos\" links to the next vowel as a z: nu-zor-gu-LYA-moos.",
+            tip: "\"Nos orgulhamos\": the s of \"nos\" links to the next vowel as a z: nu-zor-gu-LYA-mus.",
             explanation: "\"Orgulhar-se de\": with \"nós\" the reflexive is \"nos\". In speech, \"a gente se orgulha\".",
           },
         ],
@@ -882,7 +882,7 @@ export const PT_C2_U14: Lesson[] = [
         type: "speak",
         text: "Me incomodou que ninguém tivesse avisado a família.",
         prompt: "Say it in Portuguese: It bothered me that nobody had told the family.",
-        tip: "\"Tivesse\" is stressed on \"ve\", with a closed ê: chee-VÊ-see, and the t before i as 'ch'.",
+        tip: "\"Tivesse\" is stressed on \"ve\", with a closed ê: tchi-VÊ-si, and the t before i as \"tch\".",
         explanation: "Past main verb, earlier event: pluperfect subjunctive.",
       },
     ],
@@ -958,12 +958,12 @@ export const PT_C2_U14: Lesson[] = [
             question: "A colleague's mother has just died. Which reaction fits the intensity?",
             options: ["Imagino que você esteja arrasado. Sinto muito.", "Imagino que você esteja um pouco chateado.", "Que chato, hein?", "Fica de boa, vai passar."],
             correctIndex: 0,
-            explanation: "A death calls for the top of the scale (\"arrasado\") and a condolence formula (Unit 4). \"Um pouco chateado\" and \"que chato\" minimize it.",
+            explanation: "A death calls for the top of the scale (\"arrasado\") and a condolence formula (Unit 11). \"Um pouco chateado\" and \"que chato\" minimize it.",
           },
           {
             type: "speak",
             text: "Fiquei um pouco chateado, mas já passou.",
-            tip: "\"Chateado\": the ch is a sh sound and the e before a is a glide: sha-chee-A-doo.",
+            tip: "\"Chateado\": the ch is a sh sound and the e before a is a glide: sha-tchi-A-du.",
             explanation: "Low on the scale: \"um pouco chateado\" and \"já passou\" signal it's minor.",
           },
         ],
@@ -1168,7 +1168,7 @@ export const PT_C2_U14: Lesson[] = [
           {
             type: "speak",
             text: "É importante ter uma rede de apoio nessas horas.",
-            tip: "\"Apoio\": three syllables, a-PÔ-yoo, with a closed ô.",
+            tip: "\"Apoio\": three syllables, a-PÔ-yu, with a closed ô.",
             explanation: "\"Nessas horas\" = at times like these.",
           },
         ],
@@ -1727,7 +1727,7 @@ export const PT_C2_U14: Lesson[] = [
       {
         heading: "Ciúme, inveja, arrependimento: wrong frames",
         body: [
-          "Each sentence here was written by an advanced learner. *\"Sou ciumento de você\" copies I'm jealous of you: \"ciumento\" describes a character and sounds unidiomatic with an object. Say \"tenho ciúme de você\" or \"estou com ciúme de você\". *\"Estou invejoso da sua viagem\" has the same problem: \"que inveja da sua viagem!\" or \"estou com inveja\".",
+          "Each sentence here was written by an advanced learner. *\"Sou ciumento de você\" copies I'm jealous of you: \"ciumento\" describes a character, it doesn't take an object. Say \"tenho ciúme de você\" or \"estou com ciúme de você\". *\"Estou invejoso da sua viagem\" has the same problem: \"que inveja da sua viagem!\" or \"estou com inveja\".",
           "*\"Me arrependo que fiz isso\" grafts English regret that onto \"arrepender-se\", which takes \"de\" + infinitive: \"me arrependo de ter feito isso\".",
         ],
         examples: [
@@ -1916,8 +1916,8 @@ export const PT_C2_U14: Lesson[] = [
         type: "speak",
         text: "Tenho ciúme de você, mas sei que não é justo.",
         prompt: "Say it in Portuguese: I'm jealous of you, but I know it isn't fair.",
-        tip: "\"Justo\": the j is like the s in English measure: ZHUS-too.",
-        explanation: "\"Ter ciúme de\" + person, not the unidiomatic \"ser ciumento de\".",
+        tip: "\"Justo\": the j is like the s in English measure: ZHUS-tu.",
+        explanation: "\"Ter ciúme de\" + person, never *\"ser ciumento de\".",
       },
     ],
   },
@@ -2170,7 +2170,7 @@ export const PT_C2_U14: Lesson[] = [
       {
         heading: "Feelings and tact",
         body: [
-          "Unit 4's social intelligence meets this unit's precision. A condolence names the loss without minimizing it (\"sinto muito pela sua perda\", \"imagino como você deve estar\"); a hint of hurt can be indirect (\"fiquei um pouco sentido, confesso\"); and \"sentido\" here means hurt, offended. Euphemism softens what is hard to say: \"ele nos deixou\", \"partiu\", \"descansou\" for died.",
+          "Unit 11's social intelligence meets this unit's precision. A condolence names the loss without minimizing it (\"sinto muito pela sua perda\", \"imagino como você deve estar\"); a hint of hurt can be indirect (\"fiquei um pouco sentido, confesso\"); and \"sentido\" here means hurt, offended. Euphemism softens what is hard to say: \"ele nos deixou\", \"partiu\", \"descansou\" for died.",
         ],
         examples: [
           { es: "Imagino como você deve estar. Sinto muito pela sua perda.", en: "I can imagine how you must be feeling. I'm so sorry for your loss." },
@@ -2200,7 +2200,7 @@ export const PT_C2_U14: Lesson[] = [
             type: "speak",
             text: "Imagino como você deve estar. Sinto muito pela sua perda.",
             tip: "Slow down and drop your pitch at \"perda\": condolences are said softly.",
-            explanation: "Two formulas from Unit 4, combined with this unit's emotional precision.",
+            explanation: "Two formulas from Unit 11, combined with this unit's emotional precision.",
           },
         ],
       },
@@ -2245,7 +2245,7 @@ export const PT_C2_U14: Lesson[] = [
         source: "Don't take it the wrong way, but your comment hurt me.",
         answer: "Não leve a mal, mas o seu comentário me magoou.",
         altAnswers: ["Não leve a mal, mas seu comentário me magoou.", "Não me leve a mal, mas o seu comentário me magoou.", "Não leva a mal, mas o seu comentário me magoou.", "Não leve a mal, mas fiquei magoado com o seu comentário.", "Não leve a mal, mas fiquei magoada com o seu comentário."],
-        explanation: "\"Não leve a mal\" softens what follows (Unit 4); \"magoar\" names the hurt precisely.",
+        explanation: "\"Não leve a mal\" softens what follows (Unit 11); \"magoar\" names the hurt precisely.",
       },
       {
         type: "translate",

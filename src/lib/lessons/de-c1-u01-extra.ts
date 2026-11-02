@@ -268,10 +268,10 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I feel as if I'd seen him before.'?",
+        question: "Which sentence is correct?",
         options: ["Es kommt mir vor, als hätte ich ihn schon mal gesehen.", "Es kommt mir vor, als ich hätte ihn schon mal gesehen.", "Es kommt mir vor, als ob hätte ich ihn schon mal gesehen.", "Es kommt mir vor, als ob ich hätte ihn schon mal gesehen."],
         correctIndex: 0,
-        explanation: "Plain \"als\" is followed straight by the verb: \"als hätte ich\". \"*als ob hätte ich*\" mixes the two patterns: with \"als ob\" the verb goes to the end (\"als ob ich ihn schon mal gesehen hätte\").",
+        explanation: "Plain \"als\" + verb; the other options break the word order of either pattern.",
       },
       {
         type: "translate",

@@ -151,7 +151,7 @@ export const PT_B2_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "Relaxa, a gente dá um jeito.",
         prompt: "Say it in Portuguese: Relax, we'll find a way.",
-        tip: "Jeito: 'ZHAY-too'; the j sounds like the s in measure.",
+        tip: "Jeito: ZHEI-tu.",
         explanation: "\"A gente dá um jeito\" is the classic Brazilian promise to sort something out; \"relaxa\" is the casual imperative used between friends.",
       },
       {
@@ -181,7 +181,7 @@ export const PT_B2_U11_EXTRA: Lesson[] = [
       {
         heading: "Classic idioms",
         body: [
-          "\"Pagar mico\" (embarrass yourself), \"encher linguiça\" (pad, ramble), \"chutar o balde\" (give up, lose it), \"enfiar o pé na jaca\" (overdo it, especially eating or drinking), \"tirar o cavalinho da chuva\" (forget it, don't count on it).",
+          "\"Pagar mico\" (embarrass yourself), \"encher linguiça\" (pad, waffle), \"chutar o balde\" (give up, lose it), \"enfiar o pé na jaca\" (overdo it, especially eating or drinking), \"tirar o cavalinho da chuva\" (forget it, don't count on it).",
           "\"Quebrar o galho\" (help out, make do), \"custar os olhos da cara\" (cost an arm and a leg), \"ser pão-duro\" (be stingy), \"estar com a pulga atrás da orelha\" (be suspicious).",
         ],
         examples: [
@@ -244,10 +244,10 @@ export const PT_B2_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, using an idiom.",
-        source: "Stop rambling and get to the point.",
+        source: "Stop waffling and get to the point.",
         answer: "Para de encher linguiça e vai direto ao ponto.",
         altAnswers: ["Pare de encher linguiça e vá direto ao ponto.", "Para de encher linguiça e vai direto ao assunto."],
-        explanation: "\"Encher linguiça\" (to stuff sausage) means to pad or ramble. \"Para de\" + infinitive is the casual way to say stop doing it.",
+        explanation: "\"Encher linguiça\" (to stuff sausage) means to pad or waffle. \"Para de\" + infinitive is the casual way to say stop doing it.",
       },
       {
         type: "translate",
@@ -314,7 +314,7 @@ export const PT_B2_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "Pode tirar o cavalinho da chuva!",
         prompt: "Say it in Portuguese: You can forget about it!",
-        tip: "Cavalinho: 'ka-va-LEE-nyoo'; the nh sounds like the ny in canyon.",
+        tip: "Cavalinho: ka-va-LI-nyu.",
         explanation: "\"Pode tirar o cavalinho da chuva\" is a firm but friendly no: forget about it.",
       },
       {
@@ -480,7 +480,7 @@ export const PT_B2_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "No fim, deu tudo certo.",
         prompt: "Say it in Portuguese: In the end, everything worked out.",
-        tip: "Certo: 'SÉR-too', with an open é.",
+        tip: "Certo: SER-tu.",
         explanation: "\"No fim, deu tudo certo\" is neutral, so it works in casual and formal settings alike.",
       },
       {

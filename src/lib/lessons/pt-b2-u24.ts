@@ -42,7 +42,7 @@ export const PT_B2_U24: Lesson[] = [
             en: "He talks as if the bakery [were] his.",
             sentence: "Ele fala como se a padaria ___ dele.",
             answer: "fosse",
-            explanation: "\"Como se\" takes the imperfect subjunctive for a situation at the same time: \"fosse\". For an earlier one it takes the pluperfect: \"como se tivesse sido dele\".",
+            explanation: "\"Como se\" always takes the imperfect subjunctive: \"fosse\".",
           },
         ],
       },
@@ -673,7 +673,7 @@ export const PT_B2_U24: Lesson[] = [
           { es: "O Olodum, grupo criado em 1979, vai se apresentar às 21h.", en: "Olodum, a group founded in 1979, will perform at 9 p.m." },
           { es: "Faltam apenas dois dias para o evento.", en: "There are only two days left before the event." },
           { es: "Serão montados dois palcos na praça.", en: "Two stages will be set up in the square." },
-          { es: "Existem ainda vagas para voluntários.", en: "There are still spots for volunteers." },
+          { es: "Existem ainda vagas para voluntários.", en: "There are still places for volunteers." },
         ],
         checkpoint: [
           {
@@ -1056,7 +1056,7 @@ export const PT_B2_U24: Lesson[] = [
             source: "I'm looking for an apartment that has a balcony.",
             answer: "Procuro um apartamento que tenha varanda.",
             altAnswers: ["Estou procurando um apartamento que tenha varanda.", "Procuro um apartamento que tenha sacada.", "Estou procurando um apartamento que tenha sacada.", "Procuro um apartamento com varanda.", "Estou procurando um apartamento com varanda."],
-            explanation: "The apartment may not exist yet, so the subjunctive \"tenha\".",
+            explanation: "The flat may not exist yet, so the subjunctive \"tenha\".",
           },
           {
             type: "multiple-choice",
@@ -1180,7 +1180,7 @@ export const PT_B2_U24: Lesson[] = [
         ],
         examples: [
           { es: "Moro em Recife há dez anos.", en: "I've lived in Recife for ten years." },
-          { es: "Daqui a duas semanas eu viajo.", en: "In two weeks I'm traveling." },
+          { es: "Daqui a duas semanas eu viajo.", en: "In two weeks' time I'm traveling." },
           { es: "Vou à farmácia e depois ao banco.", en: "I'm going to the pharmacy and then to the bank." },
           { es: "Ela chegou há pouco.", en: "She arrived a moment ago." },
           { es: "A reunião vai das duas às quatro.", en: "The meeting runs from two to four." },
@@ -2023,7 +2023,7 @@ export const PT_B2_U24: Lesson[] = [
             type: "listen-choose",
             audio: "Não houve feridos.",
             question: "What does it mean?",
-            options: ["No one was injured.", "There were no fires.", "No one heard anything.", "Nobody went on vacation."],
+            options: ["No one was injured.", "There were no fires.", "No one heard anything.", "There were no vacation."],
             correctIndex: 0,
             explanation: "\"Não houve feridos\" is the stock news phrase for no injuries.",
           },

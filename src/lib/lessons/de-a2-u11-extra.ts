@@ -133,10 +133,10 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The car is in front of the garage.'?",
+        question: "Which sentence is correct?",
         options: ["Das Auto steht vor der Garage.", "Das Auto steht vor die Garage.", "Das Auto steht vor den Garage.", "Das Auto steht vorm Garage."],
         correctIndex: 0,
-        explanation: "Location (wo?) → dative: feminine \"die Garage\" becomes \"vor der Garage\". \"*Vor die Garage*\" is the accusative, for movement.",
+        explanation: "Location → dative feminine \"der Garage\".",
       },
       {
         type: "listen-choose",
@@ -441,10 +441,10 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which pair says 'I go to the office. I work in the office.'?",
+        question: "Which pair is correct?",
         options: ["Ich gehe ins Büro. Im Büro arbeite ich.", "Ich gehe im Büro. Ins Büro arbeite ich.", "Ich gehe ins Büro. Ins Büro arbeite ich.", "Ich gehe im Büro. Im Büro arbeite ich."],
         correctIndex: 0,
-        explanation: "\"Ins\" (in das) for movement, \"im\" (in dem) for location. \"*Ich gehe im Büro*\" uses the location form for going somewhere.",
+        explanation: "\"Ins\" for movement, \"im\" for location.",
       },
       {
         type: "listen-choose",
@@ -1048,10 +1048,10 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How does the story continue: 'Finally Ayşe hung a photo on the wall.'?",
+        question: "Which sentence continues the story correctly?",
         options: ["Zum Schluss hat Ayşe ein Foto an die Wand gehängt.", "Zum Schluss hat Ayşe ein Foto an der Wand gehängt.", "Zum Schluss hat Ayşe ein Foto an die Wand gehangen.", "Zum Schluss ist Ayşe ein Foto an die Wand gehängt."],
         correctIndex: 0,
-        explanation: "An action with an object → accusative \"an die Wand\" + weak \"gehängt\" + \"haben\". \"*An der Wand gehängt*\" uses the dative, which is for position.",
+        explanation: "Action → accusative + weak \"gehängt\" + \"haben\".",
       },
       {
         type: "listen-choose",
@@ -1148,8 +1148,8 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The lights hung on the tree for a month.",
         answer: "Die Lichter haben einen Monat am Baum gehangen.",
-        altAnswers: ["Die Lichter hingen einen Monat am Baum.", "Die Lichter haben einen Monat lang am Baum gehangen.", "Die Lichter sind einen Monat am Baum gehangen."],
-        explanation: "Position: strong \"gehangen\". Standard in Germany is \"haben ... gehangen\"; in the south and Austria \"sind ... gehangen\" is also standard.",
+        altAnswers: ["Die Lichter hingen einen Monat am Baum.", "Die Lichter haben einen Monat lang am Baum gehangen."],
+        explanation: "Position: strong \"gehangen\".",
       },
       {
         type: "translate",
@@ -1206,10 +1206,10 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The coat was hanging on the hook.'?",
-        options: ["Der Mantel hat am Haken gehangen.", "Der Mantel hat am Haken gehängt.", "Der Mantel hat an den Haken gehangen.", "Der Mantel hat am Haken gehängen."],
+        question: "Which sentence is correct?",
+        options: ["Der Mantel hat am Haken gehangen.", "Der Mantel hat am Haken gehängt.", "Der Mantel hat an den Haken gehangen.", "Der Mantel ist an den Haken gehängt."],
         correctIndex: 0,
-        explanation: "No object, just position → strong \"gehangen\" + dative \"am Haken\". \"*Hat am Haken gehängt*\" is the action form (someone hangs something up).",
+        explanation: "No object, position → \"gehangen\" + dative.",
       },
       {
         type: "listen-choose",

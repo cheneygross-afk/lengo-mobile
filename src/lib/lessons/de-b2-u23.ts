@@ -140,10 +140,10 @@ export const DE_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Admittedly the work is hard, but it's worthwhile.'?",
+        question: "Which sentence is correct?",
         options: ["Zwar ist die Arbeit hart, aber sie ist sinnvoll.", "Zwar die Arbeit ist hart, aber sie ist sinnvoll.", "Zwar ist die Arbeit hart, aber ist sie sinnvoll.", "Die Arbeit zwar ist hart, aber sie ist sinnvoll."],
         correctIndex: 0,
-        explanation: "\"Zwar\" in position 1 → verb second; \"aber\" stands outside the clause, so normal order follows: \"aber sie ist\". \"*Zwar die Arbeit ist hart*\" keeps English word order after \"zwar\".",
+        explanation: "\"Zwar\" in position 1 → verb second; \"aber\" (position 0) → normal order.",
       },
       {
         type: "translate",
@@ -638,10 +638,10 @@ export const DE_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'The customer whose order got lost has called.'?",
+            question: "Which sentence is correct?",
             options: ["Der Kunde, dessen Bestellung verloren gegangen ist, hat angerufen.", "Der Kunde, dessen Bestellung ist verloren gegangen, hat angerufen.", "Der Kunde, dessen Bestellung verloren ist gegangen, hat angerufen.", "Der Kunde, dessen ist Bestellung verloren gegangen, hat angerufen."],
             correctIndex: 0,
-            explanation: "In a relative clause the whole verb group goes to the end, auxiliary last: \"verloren gegangen ist\". \"*dessen Bestellung ist verloren gegangen*\" keeps main-clause order.",
+            explanation: "The auxiliary \"ist\" goes to the very end of the relative clause.",
           },
         ],
       },
@@ -739,10 +739,10 @@ export const DE_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Can you give it back to me tomorrow?'?",
+        question: "Which sentence is correct?",
         options: ["Kannst du es mir morgen zurückgeben?", "Kannst du mir es morgen zurückgeben?", "Kannst du morgen mir es zurückgeben?", "Kannst du es morgen mir zurückgeben?"],
         correctIndex: 0,
-        explanation: "With two pronouns the accusative comes before the dative (\"es mir\"), then the time. \"*mir es*\" reverses the usual pronoun order.",
+        explanation: "Accusative pronoun before dative pronoun (\"es mir\"), then time.",
       },
       {
         type: "translate",
@@ -1475,10 +1475,10 @@ export const DE_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'A lot of guests came yesterday.'?",
+            question: "Which sentence is correct?",
             options: ["Gestern kamen viele Gäste.", "Gestern es kamen viele Gäste.", "Es gestern kamen viele Gäste.", "Gestern es kam viele Gäste."],
             correctIndex: 0,
-            explanation: "When \"gestern\" takes position 1, the placeholder \"es\" disappears and the verb agrees with \"viele Gäste\": \"kamen\". \"*Gestern es kamen*\" keeps \"es\" and puts two elements before the verb.",
+            explanation: "When \"gestern\" takes position 1, Platzhalter-\"es\" disappears; verb plural \"kamen\".",
           },
         ],
       },
@@ -1576,10 +1576,10 @@ export const DE_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'There was a lot of laughter.'?",
+        question: "Which sentence is correct?",
         options: ["Es wurde viel gelacht.", "Es wurden viel gelacht.", "Viel es wurde gelacht.", "Es viel wurde gelacht."],
         correctIndex: 0,
-        explanation: "The impersonal passive uses placeholder \"es\" and a singular verb: \"Es wurde viel gelacht\". \"*Es wurden*\" is wrong because there is no plural subject.",
+        explanation: "Impersonal passive with Platzhalter-\"es\": singular \"wurde\".",
       },
       {
         type: "translate",
@@ -2446,7 +2446,7 @@ export const DE_B2_U23: Lesson[] = [
     level: "DE-B2",
     number: 13,
     title: "Thematic Review: Erinnerungskultur",
-    summary: "A school class researches the \"Stolpersteine\" in their street: reported speech, the Präteritum narrative, formal relatives and respectful register.",
+    summary: "A school class researches the Stolpersteine in their street: reported speech, the Präteritum narrative, formal relatives and respectful register.",
     duration: "15 min",
     sections: [
       {

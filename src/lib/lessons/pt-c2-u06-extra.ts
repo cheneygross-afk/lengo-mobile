@@ -394,7 +394,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
           "Rhetorical questions hand the audience the answer: \"Até quando...?\", \"Quem de nós nunca...?\"; \"Será que...?\" sounds gentler. Prolepse takes the objection first: \"Alguns dirão que\" + indicative, \"Haverá quem diga que\" + subjunctive, then a short rebuttal (\"Há, sim\") or a reframe (\"não se trata de X, e sim de Y\").",
         ],
         examples: [
-          { es: "Precisamos de árvores, de calçadas e de coragem.", en: "We need trees, sidewalks and courage." },
+          { es: "Precisamos de árvores, de calçadas e de coragem.", en: "We need trees, pavements and courage." },
           { es: "Chega de enchente, chega de lama, chega de descaso.", en: "Enough floods, enough mud, enough neglect." },
           { es: "Não é justo que um aluno estude sem merenda.", en: "It isn't fair that a student should study without a school meal." },
           { es: "Quem de nós nunca esperou horas num posto de saúde?", en: "Which of us has never waited hours at a health clinic?" },
@@ -422,7 +422,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
             type: "speak",
             text: "Chega de promessas, chega de desculpas, chega de esperar.",
             prompt: "Deliver this anaphora, pausing briefly before each \"chega de\".",
-            tip: "Same pitch on each \"chega de\" (SHÊ-ga jee), and let the last item, \"esperar\", fall.",
+            tip: "Same pitch on each \"CHE-ga de\", and let the last item, \"esperar\", fall.",
             explanation: "The repeated frame is a map for listeners who can't reread.",
           },
         ],
@@ -620,7 +620,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
             type: "speak",
             text: "A nobre vereadora me concede um aparte?",
             prompt: "You want to interrupt a council member briefly. Ask her, formally, to yield.",
-            tip: "\"Aparte\" is one word: a-PAR-chee, not \"a parte\".",
+            tip: "\"Aparte\" is one word: a-PAR-tchi, not \"a parte\".",
             explanation: "You ask the speaker, not the chair, for an \"aparte\".",
           },
           {
@@ -656,14 +656,14 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "Questão de ordem, Senhor Presidente: a votação não pode ocorrer sem quórum.",
         prompt: "Raise a point of order aloud: the vote can't take place without a quorum.",
-        tip: "Stress the procedural words: kes-TÃW jee ÓR-dẽy, KWÓ-rũ.",
+        tip: "Stress the procedural words: ques-TÃO de OR-dem, QUÓ-rum.",
         explanation: "A point of order is about procedure, not the merits of the bill.",
       },
       {
         type: "speak",
         text: "Não tenho esses números em mãos, mas me comprometo a enviá-los ainda hoje.",
         prompt: "Deflect a question you can't answer on the spot, and promise the figures today.",
-        tip: "\"Enviá-los\": stress the a, ẽ-vee-Á-loos.",
+        tip: "\"Enviá-los\": stress the a, en-vi-A-los.",
         explanation: "Say why you can't answer, then offer something concrete.",
       },
       {

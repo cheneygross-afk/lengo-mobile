@@ -152,7 +152,7 @@ export const PT_C1_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "Me dá um cigarro.",
         prompt: "Say Oswald de Andrade's everyday line: Give me a cigarette.",
-        tip: "Run me and dá together, with the e of me reduced to ee and the stress on dá: mee-DÁ ũ see-GA-hoo.",
+        tip: "Run me and dá together, with the e of me reduced to i and the stress on dá: mi-DÁ ũ si-GA-hu.",
         explanation: "\"Me dá um cigarro\" starts with the pronoun, the way Brazilians speak. The grammar book demanded \"Dê-me\", which is the contrast Oswald's poem stages.",
       },
       {
@@ -316,7 +316,7 @@ export const PT_C1_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "Em Dom Casmurro, o narrador não é confiável.",
         prompt: "Say it in Portuguese: In Dom Casmurro, the narrator is unreliable.",
-        tip: "Confiável: kõ-fee-A-vew, with a nasal kõ and the final l sounding like u.",
+        tip: "Confiável: kõ-fi-A-veu, with a nasal kõ and the final l sounding like u.",
         explanation: "\"Não é confiável\" (is not reliable) states a defining trait, so it takes \"ser\". \"Em Dom Casmurro\" needs no article before the title.",
       },
       {
@@ -542,7 +542,7 @@ export const PT_C1_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "No meio do caminho tinha uma pedra.",
         prompt: "Say Drummond's line in Portuguese: In the middle of the road there was a stone.",
-        tip: "\"Tinha\": CHĨ-nya; the spoken \"tinha\" for \"havia\" was the scandal.",
+        tip: "\"Tinha\": TCHI-nya; the spoken \"tinha\" for \"havia\" was the scandal.",
         explanation: "Colloquial \"tinha\" was a modernist choice.",
       },
     ],

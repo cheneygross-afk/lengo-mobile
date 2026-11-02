@@ -1016,7 +1016,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "speak",
         text: "Foi pênalti, juiz! Não é possível!",
         prompt: "Say it in Portuguese: That was a penalty, ref! I can't believe it!",
-        tip: "\"Pênalti\" is stressed on the first syllable, with a closed ê: PÊ-naw-chee, and the final \"ti\" sounds like chee.",
+        tip: "\"Pênalti\" is stressed on the first syllable, with a closed ê: PÊ-nal-ti, and the final \"ti\" sounds like chee.",
         explanation: "\"Juiz\" is how fans address the referee, and \"não é possível!\" is pure disbelief.",
       },
       {
@@ -1249,7 +1249,7 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "A fogueira é acesa: ser + participle",
         body: [
-          "When you describe a tradition, who does it matters less than what is done, so Portuguese reaches for the passive from Unit 21: \"ser\" + participle, which agrees with the subject. \"A fogueira é acesa\", \"os blocos são formados por vizinhos\", \"as fantasias são feitas à mão\". Add \"por\" (\"pelo\", \"pela\") only if the agent is worth mentioning.",
+          "When you describe a tradition, who does it matters less than what is done, so Portuguese reaches for the passive from Unit 12: \"ser\" + participle, which agrees with the subject. \"A fogueira é acesa\", \"os blocos são formados por vizinhos\", \"as fantasias são feitas à mão\". Add \"por\" (\"pelo\", \"pela\") only if the agent is worth mentioning.",
           "Remember the short participles that go with \"ser\": \"aceso\" (acender), \"pago\", \"gasto\", \"entregue\", and the irregular \"feito\", \"dito\", \"posto\", \"aberto\". \"*A fogueira é acendida\" sounds wrong to Brazilians.",
         ],
         examples: [
@@ -1431,7 +1431,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "speak",
         text: "No Réveillon, costuma-se vestir branco e pular sete ondas.",
         prompt: "Say it in Portuguese: On New Year's Eve, people usually wear white and jump seven waves.",
-        tip: "Say \"costuma-se\" as one word, kos-TOO-ma-see: in Brazil the final \"se\" is light, almost \"see\".",
+        tip: "Say \"costuma-se\" as one word, cos-TU-ma-si: in Brazil the final \"se\" is light, almost \"si\".",
         explanation: "\"Costuma-se\" + two infinitives: the \"se\" is not repeated.",
       },
       {
@@ -1520,7 +1520,7 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "Tem crescido: the perfeito composto for the recent trend",
         body: [
-          "For a change that started recently and is still going on, use the perfeito composto from Unit 12: \"o Carnaval de rua tem crescido muito\", \"os ingressos têm ficado mais caros\". It only works for repetition or continuation up to now, never for a single finished event: \"*o desfile tem sido cancelado ontem\" is impossible.",
+          "For a change that started recently and is still going on, use the perfeito composto from Unit 7: \"o Carnaval de rua tem crescido muito\", \"os ingressos têm ficado mais caros\". It only works for repetition or continuation up to now, never for a single finished event: \"*o desfile tem sido cancelado ontem\" is impossible.",
           "Markers: \"ultimamente\", \"nos últimos anos\", \"cada vez mais\". \"Tem sido\" (from \"ser\") describes how something has been lately: \"o São João tem sido cada vez mais caro\".",
         ],
         examples: [
@@ -1628,7 +1628,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "speak",
         text: "Antigamente a festa era na rua, mas hoje é no clube.",
         prompt: "Say it in Portuguese: The party used to be in the street, but now it's at the club.",
-        tip: "In \"antigamente\" the \"ti\" sounds like chee and the \"te\" at the end like chee too: an-chee-ga-MẼN-chee.",
+        tip: "In \"antigamente\" the \"ti\" sounds like chee and the \"te\" at the end like chee too: an-chi-ga-MEN-chi.",
         explanation: "Imperfeito for then, present for now: the core contrast of this lesson.",
       },
       {
@@ -2053,7 +2053,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "speak",
         text: "Eu gosto de samba, mas torço para o Vasco.",
         prompt: "Say it in Portuguese: I like samba, but I support Vasco.",
-        tip: "\"Torço\" has a closed o: TÔR-soo (but \"torce\" has an open o). The ç is an s sound.",
+        tip: "\"Torço\" has a closed o: TÔR-su (but \"torce\" has an open o). The ç is an s sound.",
         explanation: "Both verbs with their prepositions: \"gostar de\" and \"torcer para\".",
       },
     ],
@@ -2245,7 +2245,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "speak",
         text: "Recomendo que você chegue cedo, porque enche muito.",
         prompt: "Say it in Portuguese: I recommend you get there early, because it gets really crowded.",
-        tip: "\"Chegue\": the ch is like sh, the \"gu\" is a hard g, and the final e sounds like ee: SHÊ-ghee.",
+        tip: "\"Chegue\": the \"gu\" is a hard g, and the final e is light, almost i: CHE-gi.",
         explanation: "\"Recomendar que\" + subjunctive \"chegue\". \"Encher\" (to fill up) is the everyday verb for crowded places.",
       },
       {
@@ -2444,7 +2444,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "speak",
         text: "Embora seja caro, o desfile no Sambódromo vale a pena.",
         prompt: "Say it in Portuguese: Even though it's expensive, the parade at the Sambódromo is worth it.",
-        tip: "\"Sambódromo\" is stressed on \"bó\", with an open o: sãm-BÓ-dro-moo.",
+        tip: "\"Sambódromo\" is stressed on \"bó\", with an open o: sam-BÓ-dro-mu.",
         explanation: "\"Embora\" + subjunctive \"seja\", then the indicative in the main clause.",
       },
       {
@@ -2471,6 +2471,6 @@ export const PT_B1_U32_WRITING: WriteExercise = {
     "Uses at least one relative clause: \"a cidade onde...\", \"o ritmo que...\", \"a festa de que eu mais gosto\".",
     "Recommends with the subjunctive: \"sugiro que você...\", \"é bom que você...\", \"tomara que...\".",
   ],
-  modelAnswer: "A festa de que eu mais gosto no Brasil é o São João de Campina Grande, a cidade onde acontece \"o maior São João do mundo\". Durante o mês de junho, as ruas são enfeitadas com bandeirinhas, a fogueira é acesa e dança-se forró até de manhã. Come-se pamonha, canjica e milho cozido, e bebe-se quentão.\n\nAntigamente, a festa era menor e mais familiar: as pessoas dançavam quadrilha na rua do bairro. Hoje em dia, é um grande evento com shows, e nos últimos anos o número de turistas tem crescido muito. Os preços também têm ficado mais altos.\n\nPara quem quer ir, sugiro que reserve o hotel com antecedência e que prove a comida das barracas. É bom que você leve roupa confortável, porque o forró não para. Tomara que você goste tanto quanto eu!",
+  modelAnswer: "A festa de que eu mais gosto no Brasil é o São João de Campina Grande, a cidade onde acontece \"o maior São João do mundo\". Durante o mês de junho, as ruas são enfeitadas com bandeirinhas, a fogueira é acesa e dança-se forró até de manhã. Come-se pamonha, canjica e milho cozido, e bebe-se quentão.\n\nAntigamente, a festa era menor e mais familiar: as pessoas dançavam quadrilha na rua do bairro. Hoje em dia, é um grande evento com shows, e nos últimos anos o número de turistas tem crescido muito. Os preços também têm ficado mais caros.\n\nPara quem quer ir, sugiro que reserve o hotel com antecedência e que prove a comida das barracas. É bom que você leve roupa confortável, porque o forró não para. Tomara que você goste tanto quanto eu!",
   explanation: "The passive (\"são enfeitadas\", \"é acesa\") and the se passivo (\"dança-se\", \"come-se\") describe customs without naming who does them. The imperfeito (\"era\", \"dançavam\") describes the past, the present describes now, and the perfeito composto (\"tem crescido\", \"têm ficado\") the recent trend. \"De que\" and \"onde\" introduce relative clauses, and \"sugiro que\", \"é bom que\" and \"tomara que\" take the subjunctive (\"reserve\", \"prove\", \"leve\", \"goste\").",
 };

@@ -1029,10 +1029,10 @@ export const DE_B1_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'He's not stupid, he's lazy.'?",
+        question: "Which sentence is correct?",
         options: ["Er ist nicht dumm, sondern faul.", "Er ist kein dumm, sondern faul.", "Er ist dumm, sondern faul.", "Er ist nicht dumm, sondern er faul ist."],
         correctIndex: 0,
-        explanation: "\"Sondern\" corrects a negation (not this, but that), and an adjective is negated with \"nicht\". \"*Er ist kein dumm*\" uses \"kein\", which only goes with nouns. (\"Er ist nicht dumm, aber faul\" is also German, but means he isn't stupid, though he is lazy.)",
+        explanation: "\"Sondern\" corrects a negation: not this, but that. An adjective is negated with \"nicht\", not \"kein\", and \"sondern\" needs a \"nicht\" before it. (\"Er ist nicht dumm, aber faul\" is also correct German, but means he isn't stupid, though he is lazy.)",
       },
       {
         type: "word-order",
@@ -1253,10 +1253,10 @@ export const DE_B1_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I read all day.'?",
+        question: "Which sentence is correct?",
         options: ["Ich habe den ganzen Tag gelesen.", "Ich habe den ganzen Tag gelest.", "Ich habe den ganzen Tag gelasen.", "Ich bin den ganzen Tag gelesen."],
         correctIndex: 0,
-        explanation: "\"Lesen, las, gelesen\" (e-a-e) with \"haben\". \"*gelest*\" treats \"lesen\" as a weak verb.",
+        explanation: "\"Lesen, las, gelesen\": e-a-e family, with \"haben\".",
       },
       {
         type: "translate",
@@ -1453,10 +1453,10 @@ export const DE_B1_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you write 'I resigned because I wanted more time.'?",
+        question: "Which sentence is correct in written German?",
         options: ["Ich habe gekündigt, weil ich mehr Zeit wollte.", "Ich habe gekündigt, weil ich wollte mehr Zeit.", "Ich habe gekündigt, deshalb ich wollte mehr Zeit.", "Ich habe gekündigt, denn ich mehr Zeit wollte."],
         correctIndex: 0,
-        explanation: "\"Weil\" sends the verb to the end: \"weil ich mehr Zeit wollte\". \"*denn ich mehr Zeit wollte*\" mixes them: \"denn\" keeps normal order.",
+        explanation: "\"Weil\" + verb last. \"Denn\" keeps normal order and \"deshalb\" needs inversion.",
       },
       {
         type: "word-order",

@@ -794,7 +794,7 @@ export const PT_C2_U29: Lesson[] = [
         body: [
           "Color compounds follow the same rule when both parts are adjectives: only the last agrees. \"Verde-claro\" gives \"paredes verde-claras\", and \"azul-escuro\" gives \"calças azul-escuras\". The first color stays in the masculine singular form.",
           "When the second element is a noun, the whole compound becomes invariable: \"olhos verde-limão\", \"camisas amarelo-ouro\", \"carros vermelho-sangue\", \"bolsas verde-musgo\", \"azulejos azul-piscina\". You can think of it as short for \"da cor de\": shirts the color of gold. Two fixed adjective compounds behave the same way by tradition: \"azul-marinho\" and \"azul-celeste\" never change (\"meias azul-marinho\"). \"Cor-de-rosa\" is invariable too.",
-          "A single noun used as a color is invariable in careful writing: \"sapatos vinho\", \"cortinas creme\", \"camisetas laranja\", \"blusas rosa\", \"ternos cinza\". Speech often pluralizes them (\"camisetas laranjas\"). In a catalog or a fashion article, an editor will put them back in the singular. Words that are plain adjectives, such as \"amarelo\", \"vermelho\" or \"verde\", of course agree: \"camisas amarelas\".",
+          "A single noun used as a color is invariable in careful writing: \"sapatos vinho\", \"cortinas creme\", \"camisetas laranja\", \"blusas rosa\", \"ternos cinza\". Speech often pluralizes them (\"camisetas laranjas\"). In a catalogue or a fashion article, an editor will put them back in the singular. Words that are plain adjectives, such as \"amarelo\", \"vermelho\" or \"verde\", of course agree: \"camisas amarelas\".",
         ],
         examples: [
           { es: "Pintamos as paredes do quarto de verde-claro.", en: "We painted the bedroom walls light green." },
@@ -815,7 +815,7 @@ export const PT_C2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In a fashion catalog, which caption is correct?",
+            question: "In a fashion catalogue, which caption is correct?",
             options: [
               "Tênis verdes-limão",
               "Tênis verde-limões",
@@ -966,7 +966,7 @@ export const PT_C2_U29: Lesson[] = [
         type: "speak",
         text: "Os casos de sequestro-relâmpago diminuíram nas grandes cidades.",
         prompt: "Say it in Portuguese: Cases of express kidnapping have decreased in the big cities.",
-        tip: "\"Diminuíram\": the accent on í splits \"u-í\" into two syllables, jee-mi-nu-Í-rãu.",
+        tip: "\"Diminuíram\": the accent on í splits \"u-í\" into two syllables, di-mi-nu-í-ram.",
         explanation: "\"Sequestro-relâmpago\" is a noun + descriptive noun; its plural is usually \"sequestros-relâmpago\".",
       },
       {
@@ -1204,7 +1204,7 @@ export const PT_C2_U29: Lesson[] = [
         type: "speak",
         text: "O feminicídio é crime específico no Brasil desde 2015.",
         prompt: "Say it in Portuguese: Femicide has been a specific crime in Brazil since 2015.",
-        tip: "\"Feminicídio\" is stressed on \"cí\": fe-mi-ni-SÍ-jyoo.",
+        tip: "\"Feminicídio\" is stressed on \"cí\": fe-mi-ni-CÍ-dio.",
         explanation: "\"-cídio\" names the killing and \"-cida\" the killer. The present \"é\" with \"desde\" gives the English has been.",
       },
       {
@@ -1464,7 +1464,7 @@ export const PT_C2_U29: Lesson[] = [
         heading: "New verbs are always -ar verbs",
         body: [
           "Every new Portuguese verb joins the first conjugation. Brazilians take a brand, a noun or an English word and add \"-ar\", \"-izar\" or \"-ear\": \"uberizar\" (to turn work into gig work, like Uber), \"gourmetizar\" (to make something pretentiously upmarket), \"viralizar\", \"printar\" (to take a screenshot), \"maratonar\" (to binge-watch), \"stalkear\", \"shippar\" (to root for two people as a couple). Older loans went the same way: \"deletar\", \"escanear\", \"postar\". Even an old verb can get a new meaning: \"curtir\" (to enjoy) is now also to like a post.",
-          "Because they are regular, you conjugate them without thinking, with one exception from the previous unit. Verbs in \"-ear\" take \"ei\" in the stressed forms, like \"passear\": \"eu stalkeio\", \"eles stalkeiam\", \"que ela escaneie\". Spoken loans also adapt their sound. \"Printar\" is said with a vowel after the t, roughly \"prin-CHAR\", and \"dar um print\" sounds like \"PRIN-chee\".",
+          "Because they are regular, you conjugate them without thinking, with one exception from the previous unit. Verbs in \"-ear\" take \"ei\" in the stressed forms, like \"passear\": \"eu stalkeio\", \"eles stalkeiam\", \"que ela escaneie\". Spoken loans also adapt their sound. \"Printar\" is said with a vowel after the t, roughly \"prin-tchár\", and \"dar um print\" sounds like \"prínt-chi\".",
           "\"-izar\" carries a meaning of its own: to subject something to a process. That is why it is the favorite suffix of the press and the social sciences. \"Uberização\", \"gourmetização\" and \"pejotização\" (hiring workers as companies, \"PJs\", to avoid labor costs) all name a trend and a criticism of it in one word.",
         ],
         examples: [
@@ -1517,7 +1517,7 @@ export const PT_C2_U29: Lesson[] = [
         examples: [
           { es: "Ela lacrou na apresentação de ontem.", en: "She absolutely nailed yesterday's presentation." },
           { es: "Meu tio escreveu mais um textão sobre política.", en: "My uncle wrote another long rant about politics." },
-          { es: "Sextou! Bora pro bar?", en: "Thank God it's Friday! Want to hit the bar?" },
+          { es: "Sextou! Bora pro bar?", en: "Thank God it's Friday! Shall we hit the bar?" },
           { es: "O cantor foi cancelado depois de um comentário infeliz.", en: "The singer was canceled after an unfortunate comment." },
           { es: "Pega um refri na geladeira pra mim?", en: "Can you grab me a soft drink from the fridge?" },
         ],
@@ -1660,7 +1660,7 @@ export const PT_C2_U29: Lesson[] = [
       {
         type: "speak",
         text: "Vamos maratonar a série nova no fim de semana?",
-        prompt: "Say it in Portuguese: Want to binge-watch the new series on the weekend?",
+        prompt: "Say it in Portuguese: Shall we binge-watch the new series on the weekend?",
         tip: "\"Maratonar\": keep the vowels open and clear, ma-ra-to-NAR.",
         explanation: "\"Maratonar\" is a new verb from \"maratona\", conjugated like any \"-ar\" verb.",
       },
@@ -1915,7 +1915,7 @@ export const PT_C2_U29: Lesson[] = [
         type: "speak",
         text: "O mal-estar passou, mas o menino continua malcriado.",
         prompt: "Say it in Portuguese: The sick feeling has passed, but the boy is still rude.",
-        tip: "\"Mal\" ends in a u-like sound in Brazil, roughly 'mau-es-TAR'.",
+        tip: "\"Mal\" ends in a u-like sound in Brazil, roughly 'máu-estar'.",
         explanation: "\"Mal-\" takes a hyphen before a vowel (\"mal-estar\") and joins before a consonant other than l (\"malcriado\").",
       },
     ],
@@ -2036,7 +2036,7 @@ export const PT_C2_U29: Lesson[] = [
           {
             type: "speak",
             text: "As ONGs luso-brasileiras apresentaram dados socioeconômicos.",
-            tip: "Say \"ONGs\" as a word, \"ÕN-gees\", the way Brazilians do.",
+            tip: "Say \"ONGs\" as a word, \"ôn-gis\", the way Brazilians do.",
             explanation: "The corrected sentence: \"ONGs\" without an apostrophe, \"luso-brasileiras\" with a fixed first element, \"socioeconômicos\" joined.",
           },
         ],
@@ -2341,7 +2341,7 @@ export const PT_C2_U29: Lesson[] = [
         type: "speak",
         text: "Eu odeio quando o micro-ondas apita no meio da noite.",
         prompt: "Say it in Portuguese: I hate it when the microwave beeps in the middle of the night.",
-        tip: "\"Odeio\": three syllables, o-DEI-oo, with the stress on the diphthong.",
+        tip: "\"Odeio\": three syllables, o-DEI-o, with the stress on the diphthong.",
         explanation: "\"Odiar\" takes \"ei\" in the stressed forms, and \"micro-ondas\" takes a hyphen.",
       },
       {

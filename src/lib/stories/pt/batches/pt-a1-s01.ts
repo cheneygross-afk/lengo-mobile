@@ -109,7 +109,7 @@ export const PT_A1_S01_STORIES: Story[] = [
       },
       {
         question: `What do Lucas and the man talk about?`,
-        options: [`Soccer, Campinas and work`, `Music and movies`, `Their families`, `The weather`],
+        options: [`Soccer, Campinas and work`, `Music and films`, `Their families`, `The weather`],
         correctIndex: 0,
         explanation: `"Os dois tomam café e conversam sobre futebol, sobre Campinas e sobre o trabalho."`,
       },

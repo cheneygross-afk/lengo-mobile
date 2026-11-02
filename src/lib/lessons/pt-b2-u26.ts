@@ -314,7 +314,7 @@ export const PT_B2_U26: Lesson[] = [
         ],
         examples: [
           { es: "Centenas de famílias foram desalojadas pela enchente.", en: "Hundreds of families were forced out of their homes by the flood." },
-          { es: "Os desabrigados foram levados para abrigos em escolas e ginásios.", en: "Those left homeless were taken to shelters in schools and gyms." },
+          { es: "Os desabrigados foram levados para abrigos em escolas e ginásios.", en: "Those left homeless were taken to shelters in schools and sports halls." },
           { es: "Mais de trezentas pessoas foram resgatadas de barco.", en: "More than three hundred people were rescued by boat." },
           { es: "A Defesa Civil enviou um alerta por SMS aos moradores.", en: "The civil defense sent residents a text alert." },
           { es: "A rodovia foi interditada por causa de um deslizamento.", en: "The highway was closed because of a landslide." },
@@ -333,7 +333,7 @@ export const PT_B2_U26: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Fifty people [were rescued] by the firefighters.",
+            en: "Fifty people [were rescued] by the fire brigade.",
             sentence: "Cinquenta pessoas ___ pelos bombeiros.",
             answer: "foram resgatadas",
             altAnswers: ["foram salvas"],
@@ -399,9 +399,9 @@ export const PT_B2_U26: Lesson[] = [
         type: "listen-choose",
         audio: "Os desabrigados foram levados para um ginásio.",
         question: "What does it mean?",
-        options: ["Those left homeless were taken to a sports arena.", "The homeless were taken to a gym to exercise.", "The shelters were moved to a school.", "The residents refused to go to the sports arena."],
+        options: ["Those left homeless were taken to a sports hall.", "The homeless were taken to a gym to exercise.", "The shelters were moved to a school.", "The residents refused to go to the sports hall."],
         correctIndex: 0,
-        explanation: "\"Desabrigados\" are people left without a home; a \"ginásio\" is an indoor sports arena, often used as a shelter.",
+        explanation: "\"Desabrigados\" are people left without a home; a \"ginásio\" is a sports hall, often used as a shelter.",
       },
       {
         type: "dictation",
@@ -737,9 +737,9 @@ export const PT_B2_U26: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Já que a usina gera empregos, sou a favor.", "Já que a usina gere empregos, sou a favor.", "Embora a usina gera empregos, sou contra.", "Visto que a usina gere empregos, sou a favor."],
+            options: ["Já que a usina gera empregos, sou a favor.", "Já que a usina gere empregos, sou a favor.", "Embora a usina gera empregos, sou contra.", "Uma vez que a usina gere empregos, sou a favor."],
             correctIndex: 0,
-            explanation: "\"Já que\" and \"visto que\" give a cause and take the indicative (\"gera\"). \"Embora\" needs the subjunctive (\"gere\").",
+            explanation: "\"Já que\" and \"uma vez que\" give a cause and take the indicative (\"gera\"). \"Embora\" needs the subjunctive (\"gere\").",
           },
           {
             type: "listen-choose",
@@ -1070,7 +1070,7 @@ export const PT_B2_U26: Lesson[] = [
         type: "speak",
         text: "Me manda o print da conversa?",
         prompt: "Say it in Portuguese, to a friend: Can you send me the screenshot of the conversation?",
-        tip: "Brazilians say print as PRIN-chee, adding a short i after the t.",
+        tip: "Brazilians say print as prin-tchi, adding a short i after the t.",
         explanation: "Starting with \"me\" is normal in Brazilian speech: \"me manda\".",
       },
       {
@@ -1185,7 +1185,7 @@ export const PT_B2_U26: Lesson[] = [
             question: "A store clerk asks \"CPF na nota?\" What does she want?",
             options: ["Your tax number on the receipt.", "Your phone number for a message.", "Your card password.", "Your signature on the receipt."],
             correctIndex: 0,
-            explanation: "The \"CPF\" is the Brazilian taxpayer number, often added to receipts for tax rebates and loyalty programs.",
+            explanation: "The \"CPF\" is the Brazilian taxpayer number, often added to receipts for tax rebates and loyalty schemes.",
           },
         ],
       },
@@ -2604,7 +2604,7 @@ export const PT_B2_U26: Lesson[] = [
         type: "listen-choose",
         audio: "Centenas de famílias foram desalojadas após a enchente.",
         question: "What does it mean?",
-        options: ["Hundreds of families were forced out of their homes after the flood.", "Hundreds of families moved away before the flood.", "Hundreds of families were rescued during the drought.", "Hundreds of families rented new homes after the flood."],
+        options: ["Hundreds of families were forced out of their homes after the flood.", "Hundreds of families moved house before the flood.", "Hundreds of families were rescued during the drought.", "Hundreds of families rented new homes after the flood."],
         correctIndex: 0,
         explanation: "\"Desalojadas\" had to leave their homes. \"Após\" is the written \"depois de\".",
       },

@@ -119,7 +119,7 @@ export const PT_B1_U19: Lesson[] = [
           {
             type: "speak",
             text: "Te aconselho a descansar.",
-            tip: "Te sounds like chee, and the lh in aconselho is like the lli in million.",
+            tip: "Te sounds like tchi, and the lh in aconselho is like the lli in million.",
             explanation: "The everyday pattern: object pronoun before the verb, then \"a\" + infinitive.",
           },
         ],
@@ -222,7 +222,7 @@ export const PT_B1_U19: Lesson[] = [
           { left: "Sugiro que a gente espere.", right: "I suggest we wait." },
           { left: "Recomendo esse livro.", right: "I recommend this book." },
           { left: "Te aconselho a esperar.", right: "I advise you to wait." },
-          { left: "Ele sugeriu um filme.", right: "He suggested a movie." },
+          { left: "Ele sugeriu um filme.", right: "He suggested a film." },
           { left: "Recomendo que vocês leiam.", right: "I recommend you all read it." },
         ],
         explanation: "A person who should act takes \"que\" + subjunctive or \"a\" + infinitive after \"aconselhar\"; a thing is just an object.",
@@ -311,7 +311,7 @@ export const PT_B1_U19: Lesson[] = [
           "How strong is each verb? From softest to strongest: \"sugerir\", \"recomendar\", \"aconselhar\", \"pedir\", \"insistir\", \"exigir\", \"proibir\".",
         ],
         examples: [
-          { es: "O síndico não deixa a gente fazer festa no salão.", en: "The building manager won't let us have parties in the party room." },
+          { es: "O síndico não deixa a gente fazer festa no salão.", en: "The building manager won't let us have parties in the function room." },
           { es: "Minha mãe não me deixa sair sozinha à noite.", en: "My mom doesn't let me go out alone at night." },
           { es: "Deixa eu pagar dessa vez.", en: "Let me pay this time." },
           { es: "Meu pai me proibiu de usar o carro.", en: "My dad banned me from using the car." },
@@ -424,7 +424,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "speak",
         text: "A escola não permite que os alunos usem celular.",
         prompt: "Say it in Portuguese: The school doesn't allow students to use phones.",
-        tip: "Celular ends in r, not l: se-loo-LAR, with a soft final r that often fades in fast speech.",
+        tip: "Celular ends in r, not l: ce-lu-LAR, with a soft final r that often fades in fast speech.",
         explanation: "\"Não permite que\" + subjunctive: \"usem\". The students are a different subject from the school, so \"que\" is needed.",
       },
       {
@@ -457,7 +457,7 @@ export const PT_B1_U19: Lesson[] = [
           { es: "O importante é que ninguém se machuque.", en: "The main thing is that nobody gets hurt." },
           { es: "O melhor é que a gente espere a chuva passar.", en: "The best thing is for us to wait for the rain to stop." },
           { es: "O certo é que ele peça desculpas.", en: "The right thing is for him to apologize." },
-          { es: "O ideal é beber dois litros de água por dia.", en: "Ideally, you should drink two liters of water a day." },
+          { es: "O ideal é beber dois litros de água por dia.", en: "Ideally, you should drink two litres of water a day." },
         ],
         checkpoint: [
           {
@@ -637,7 +637,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "speak",
         text: "O importante é que ninguém se machuque.",
         prompt: "Say it in Portuguese: The main thing is that nobody gets hurt.",
-        tip: "Machuque: ma-SHOO-kee. The qu sounds like k.",
+        tip: "Machuque: ma-SHOO-ki. The qu sounds like k.",
         explanation: "\"O importante é que\" + subjunctive. \"Machuco\" gives \"machuque\".",
       },
       {
@@ -740,7 +740,7 @@ export const PT_B1_U19: Lesson[] = [
           "With impersonal expressions you have a choice when you mean yourself: \"é melhor eu ir embora\" is the everyday form, \"é melhor que eu vá embora\" is a little more careful. Both are correct, and both keep \"eu\".",
         ],
         examples: [
-          { es: "Quero viajar para Fortaleza nas férias.", en: "I want to travel to Fortaleza for vacation." },
+          { es: "Quero viajar para Fortaleza nas férias.", en: "I want to travel to Fortaleza for the holidays." },
           { es: "Quero que você viaje comigo.", en: "I want you to travel with me." },
           { es: "É melhor eu ir embora antes da chuva.", en: "I'd better leave before the rain." },
           { es: "É melhor que eu vá embora antes da chuva.", en: "It's better if I leave before the rain." },
@@ -759,7 +759,7 @@ export const PT_B1_U19: Lesson[] = [
           {
             type: "speak",
             text: "Quero que você viaje comigo.",
-            tip: "Viaje has three syllables: vee-A-zhee.",
+            tip: "Viaje has three syllables: vi-A-ji.",
             explanation: "Two different people, so \"que\" + subjunctive \"viaje\".",
           },
         ],
@@ -842,7 +842,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "speak",
         text: "É bom que eu chegue cedo.",
         prompt: "Say it in Portuguese: It's good for me to get there early.",
-        tip: "Chegue: SHAY-gee, with a closed e and a hard g.",
+        tip: "Chegue: SHAY-gi, with a closed e and a hard g.",
         explanation: "\"Chegue\" could be eu, ele or você, so keep \"eu\" so the listener knows who arrives.",
       },
       {
@@ -941,7 +941,7 @@ export const PT_B1_U19: Lesson[] = [
           {
             type: "speak",
             text: "Espero que você passe na prova.",
-            tip: "Passe: the double s is a clear s, PA-see.",
+            tip: "Passe: the double s is a clear s, PA-si.",
             explanation: "The person hoping and the person passing are different, so \"que\" + subjunctive \"passe\".",
           },
         ],
@@ -1177,7 +1177,7 @@ export const PT_B1_U19: Lesson[] = [
           {
             type: "speak",
             text: "Insisto que você fique para o jantar.",
-            tip: "Fique: FEE-kee. The final r of jantar is soft (a light breath in Rio, a light tap in São Paulo) and often drops in fast speech.",
+            tip: "Fique: FEE-ki. The final r of jantar is soft (a light breath in Rio, a light tap in São Paulo) and often drops in fast speech.",
             explanation: "\"Insisto que\" here is a demand, so the subjunctive \"fique\" follows.",
           },
         ],
@@ -1491,7 +1491,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "speak",
         text: "É importante que o senhor faça exercício.",
         prompt: "Say it in Portuguese: It's important that you exercise, sir.",
-        tip: "Exercício: e-zer-SÍ-syoo. The x sounds like z.",
+        tip: "Exercício: e-zer-SÍ-si-u. The x sounds like z.",
         explanation: "\"Faça\" is the subjunctive of \"fazer\", built from \"faço\".",
       },
     ],
@@ -1686,7 +1686,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "speak",
         text: "Espero que ela se adapte à turma nova.",
         prompt: "Say it in Portuguese: I hope she settles into the new class.",
-        tip: "Adapte: a-DA-pee-chee. Brazilians add a little ee between p and t.",
+        tip: "Adapte: a-DA-pi-tchi. Brazilians add a little i between p and t.",
         explanation: "\"Espero que\" + reflexive subjunctive \"se adapte\".",
       },
       {
@@ -1907,7 +1907,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "speak",
         text: "Recomendo que você descanse.",
         prompt: "Say it in Portuguese: I recommend you rest.",
-        tip: "Descanse: jees-KAN-see. The final e sounds like ee.",
+        tip: "Descanse: dis-KAN-si. The final e sounds like i.",
         explanation: "\"Recomendo que\" + subjunctive: \"descansar\" becomes \"descanse\". Never \"recomendo você descansar\".",
       },
       {
@@ -1948,7 +1948,7 @@ export const PT_B1_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The building forbids residents to smoke in the elevator.",
+            source: "The building forbids residents to smoke in the lift.",
             answer: "O condomínio proíbe que os moradores fumem no elevador.",
             altAnswers: ["O prédio proíbe que os moradores fumem no elevador.", "O condomínio proíbe os moradores de fumar no elevador.", "O condomínio não permite que os moradores fumem no elevador."],
             explanation: "\"Não fume\" becomes \"proíbe que os moradores fumem\": the \"não\" goes, the verb goes plural.",
@@ -2112,7 +2112,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "speak",
         text: "Sugiro que vocês façam a festa mais cedo.",
         prompt: "Say it in Portuguese: I suggest you all have the party earlier.",
-        tip: "Façam ends in a nasal ão-like sound: FA-sãw.",
+        tip: "Façam ends in a nasal ão-like sound: FA-sowng.",
         explanation: "\"Façam\" is the subjunctive of \"fazer\" (from \"faço\") for vocês, after \"sugiro que\".",
       },
       {
@@ -2131,13 +2131,13 @@ export const PT_B1_U19: Lesson[] = [
     level: "PT-B1",
     number: 11,
     title: "Real-World Mission: A Notice for the Building",
-    summary: "Write the síndico's notice for the elevator and the bulletin board: a formal opening, rules with proibir que and não permitir que, requests with pedimos que and recommendations with o ideal é que.",
+    summary: "Write the síndico's notice for the lift and the noticeboard: a formal opening, rules with proibir que and não permitir que, requests with pedimos que and recommendations with o ideal é que.",
     duration: "14 min",
     sections: [
       {
         heading: "The shape of a comunicado",
         body: [
-          "In Brazil, the \"síndico\" (the elected building manager) communicates through a \"comunicado\" or \"aviso\" taped in the elevator and on the \"quadro de avisos\" (bulletin board). It opens with \"Prezados moradores\" (Dear residents), states the topic, lists rules and requests, and ends with \"Atenciosamente\" and \"A Administração\" or \"O Síndico\".",
+          "In Brazil, the \"síndico\" (the elected building manager) communicates through a \"comunicado\" or \"aviso\" taped in the lift and on the \"quadro de avisos\" (noticeboard). It opens with \"Prezados moradores\" (Dear residents), states the topic, lists rules and requests, and ends with \"Atenciosamente\" and \"A Administração\" or \"O Síndico\".",
           "The tone is formal and impersonal. Instead of commands, the notice uses \"pedimos que\", \"solicitamos que\" (we request that) and \"lembramos que\" (we remind you that). \"Solicitar que\" is a formal \"pedir que\" and takes the subjunctive; \"lembrar que\" reminds people of a fact and takes the indicative.",
         ],
         examples: [
@@ -2175,7 +2175,7 @@ export const PT_B1_U19: Lesson[] = [
         ],
         examples: [
           { es: "É proibido fumar nas áreas comuns.", en: "Smoking is forbidden in the common areas." },
-          { es: "É proibida a entrada de pessoas estranhas sem autorização.", en: "Entry by unknown persons without authorization is forbidden." },
+          { es: "É proibida a entrada de pessoas estranhas sem autorização.", en: "Entry by unknown persons without authorisation is forbidden." },
           { es: "Não é permitido jogar bola na garagem.", en: "Ball games are not allowed in the garage." },
           { es: "O regulamento não permite que os moradores estendam roupa na varanda.", en: "The rules don't allow residents to hang laundry on the balcony." },
           { es: "O condomínio exige que os moradores agendem as mudanças com antecedência.", en: "The building requires residents to book moves in advance." },
@@ -2279,7 +2279,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Smoking is not allowed in the elevator.",
+        source: "Smoking is not allowed in the lift.",
         answer: "É proibido fumar no elevador.",
         altAnswers: ["Não é permitido fumar no elevador.", "Proibido fumar no elevador."],
         explanation: "\"É proibido\" + infinitive for a general rule.",
@@ -2347,7 +2347,7 @@ export const PT_B1_U19: Lesson[] = [
         ],
         examples: [
           { es: "A médica me aconselhou a descansar uma semana.", en: "The doctor advised me to rest for a week." },
-          { es: "O síndico não deixou a gente usar o salão de festas.", en: "The building manager didn't let us use the party room." },
+          { es: "O síndico não deixou a gente usar o salão de festas.", en: "The building manager didn't let us use the function room." },
           { es: "Ela recomenda que eu tome o remédio depois do almoço.", en: "She recommends that I take the medicine after lunch." },
           { es: "Quando eu era criança, minha mãe não me deixava ver televisão à noite.", en: "When I was a child, my mom didn't let me watch TV at night." },
           { es: "Meu chefe me proibiu de trabalhar no fim de semana.", en: "My boss banned me from working on the weekend." },
@@ -2405,7 +2405,7 @@ export const PT_B1_U19: Lesson[] = [
           {
             type: "speak",
             text: "Acho que é só uma gripe.",
-            tip: "Gripe: GREE-pee.",
+            tip: "Gripe: GREE-pi.",
             explanation: "\"Acho que\" expresses belief, so the indicative \"é\" stays.",
           },
         ],
@@ -2496,7 +2496,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "speak",
         text: "Que pena que você não possa vir.",
         prompt: "Say it in Portuguese: What a shame you can't come.",
-        tip: "Possa: PÓ-sa, with an open ó.",
+        tip: "Possa: PO-sa, with an open o.",
         explanation: "\"Que pena que\" + subjunctive: \"poder\" gives \"posso\", so \"possa\".",
       },
       {
@@ -2514,7 +2514,7 @@ export const PT_B1_U19: Lesson[] = [
 
 export const PT_B1_U19_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You are the síndico of a building in Porto Alegre. After complaints about noise, trash and the garage, write the notice for the bulletin board (80-150 words). Open formally, remind residents of the facts, state the rules, make requests and give some friendly recommendations, and close politely.",
+  prompt: "You are the síndico of a building in Porto Alegre. After complaints about noise, trash and the garage, write the notice for the noticeboard (80-150 words). Open formally, remind residents of the facts, state the rules, make requests and give some friendly recommendations, and close politely.",
   minWords: 80,
   maxWords: 150,
   rubric: [

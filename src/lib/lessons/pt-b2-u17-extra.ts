@@ -214,7 +214,7 @@ export const PT_B2_U17_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "Se eu fosse você, eu procuraria um advogado.",
-            tip: "Advogado: 'a-jee-vo-GA-doo'. Brazilians slip in a short vowel between d and v, and that d becomes 'j'.",
+            tip: "Advogado: a-dvo-GA-du; Brazilians often slip in a short i: a-di-vo-GA-du.",
             explanation: "Advice with \"se eu fosse você\": the imperfect subjunctive \"fosse\", then the conditional \"procuraria\".",
           },
         ],

@@ -101,7 +101,7 @@ export const PT_B1_S04_STORIES: Story[] = [
       `Keila ficou preocupada. Será que havia alguma coisa errada com a comida dela? Será que o tal doutor estava usando as marmitas para algum tipo de teste? Numa quinta-feira, ela mesma foi entregar a marmita na clínica. Na recepção, havia uma placa: “Dr. Rogério Mendes, cardiologista.”`,
       `O médico, um homem baixinho de sessenta anos, a recebeu com um sorriso enorme. “Então a senhora é a famosa Keila! Pode se sentar, por favor.” Ele explicou que muitos dos seus pacientes tinham pressão alta e precisavam comer com menos sal, mas desistiam porque achavam a comida sem gosto. “Um dia, uma paciente me trouxe uma das suas marmitas. Eu provei e não acreditei. Desde então, eu peço que todos os meus pacientes experimentem.”`,
       `Depois, ele fez uma proposta. Queria um cardápio especial, com pouco sal e pouca gordura, para os pacientes da clínica, e se ofereceu para montar as receitas junto com uma nutricionista. “É importante que a comida seja saudável”, disse ele, “mas é ainda mais importante que seja gostosa. Senão, ninguém come.”`,
-      `Hoje, as Marmitas da Keila têm uma cozinha alugada, quatro funcionárias e uma linha chamada “Coração Feliz”. Keila contratou duas vizinhas, a prima e uma ex-colega do banco, e todas aprenderam a temperar sem sal. Na parede da cozinha, ao lado do alvará, há uma foto da avó dela, já falecida, sorrindo diante de um prato de comida. Embaixo, Keila escreveu: “Primeira cliente.”`,
+      `Hoje, as Marmitas da Keila têm uma cozinha alugada, quatro funcionárias e uma linha chamada “Coração Feliz”. Keila contratou duas vizinhas e a prima, e todas aprenderam a temperar sem sal. Na parede da cozinha, ao lado do alvará, há uma foto da avó dela, já falecida, sorrindo diante de um prato de comida. Embaixo, Keila escreveu: “Primeira cliente.”`,
     ],
     questions: [
       {
@@ -176,7 +176,7 @@ export const PT_B1_S04_STORIES: Story[] = [
     slug: "pt-a-doceria-dos-tres-irmaos",
     level: "PT-B1",
     title: `A doceria dos três irmãos`,
-    subtitle: `Three siblings who barely speak inherit their father's confectionery in Pelotas, with a condition in the will that none of them wanted.`,
+    subtitle: `Three siblings who barely speak inherit their father's sweet shop in Pelotas, with a condition in the will that none of them wanted.`,
     paragraphs: [
       `Seu Otávio passou cinquenta anos atrás do balcão da Doceria Otávio, no centro de Pelotas, vendendo quindins, camafeus e bem-casados para a cidade inteira. Quando ele morreu, em março, os três filhos voltaram para casa pela primeira vez em muitos anos. Helena, a mais velha, era advogada em Porto Alegre. Sérgio, o do meio, trabalhava com tecnologia em São Paulo. Mariana, a caçula, era atriz no Rio e estava, como ela mesma dizia, “entre dois trabalhos”.`,
       `Os três mal se falavam. Não tinha acontecido nenhuma grande briga, só anos de aniversários esquecidos e ligações curtas. No dia da leitura do testamento, eles se sentaram longe um do outro. O advogado leu: a doceria ficaria para os três, com uma condição. Eles teriam de administrar o negócio juntos durante um ano. Só depois disso poderiam vender. Se algum deles desistisse antes, a doceria passaria para Dona Iracema, a funcionária mais antiga.`,

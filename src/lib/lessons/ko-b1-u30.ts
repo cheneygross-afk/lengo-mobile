@@ -525,7 +525,7 @@ export const KO_B1_U30: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Please don't feel too bad about it.",
             answer: "너무 미안해하지 마세요.",
-            altAnswers: ["너무 미안해하지 마요."],
+            altAnswers: ["너무 미안해하지 마요.", "너무 미안해하지 마십시오."],
             explanation: "미안하다 → 미안해하다, then -지 마세요. This is what you say when someone keeps apologising.",
           },
           {
@@ -816,7 +816,7 @@ export const KO_B1_U30: Lesson[] = [
         prompt: "Translate into Korean (to a friend).",
         source: "I got dumped.",
         answer: "나 차였어.",
-        altAnswers: ["차였어."],
+        altAnswers: ["차였어.", "나 차였어요."],
         explanation: "The passive 차이다 is how you tell people you were dumped; 나 for 반말.",
       },
       {
@@ -861,9 +861,9 @@ export const KO_B1_U30: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct for 'They are getting married next spring'?",
-        options: ["두 사람은 내년 봄에 결혼해요.", "두 사람은 내년 봄을 결혼해요.", "두 사람이 내년 봄에 결혼돼요.", "두 사람은 내년 봄에 결혼시켜요."],
+        options: ["두 사람은 내년 봄에 결혼해요.", "두 사람은 내년 봄을 결혼해요.", "두 사람이 내년 봄에 결혼되어요.", "두 사람은 내년 봄에 결혼시켜요."],
         correctIndex: 0,
-        explanation: "결혼하다 is active and needs no object; 결혼되다 is not used for getting married. 결혼시키다 would be parents marrying off their child.",
+        explanation: "결혼하다 is active and needs no object. 결혼시키다 would be parents marrying off their child.",
       },
       {
         type: "word-order",
@@ -938,7 +938,7 @@ export const KO_B1_U30: Lesson[] = [
         heading: "A clue or a hunch: 피곤한가 봐요 and 피곤한 것 같아요",
         body: [
           "-나 보다 / -(으)ㄴ가 보다 (Unit 14) is a conclusion from a clue you've just noticed: he keeps yawning, so 민수 씨가 피곤한가 봐요 'Minsu must be tired'. Adjectives take -(으)ㄴ가 봐요, action verbs and past forms take -나 봐요: 두 사람이 헤어졌나 봐요. It is not for your own feelings, except when you discover them: 제가 많이 피곤했나 봐요 'I must have been really tired'.",
-          "-(으)ㄴ / 는 것 같다 is the all-purpose 'I think, it seems': the softest, fine with any kind of evidence and with your own state (저 감기에 걸린 것 같아요). When in doubt, it is almost always safe; the other three are sharper.",
+          "-(으)ㄴ / 는 것 같다 is the all-purpose 'I think, it seems': the softest, fine with any kind of evidence and with your own state (저 감기에 걸린 것 같아요). When in doubt, it is never wrong; the other three are sharper.",
         ],
         examples: [
           { es: "민수 씨가 계속 하품을 해요. 피곤한가 봐요.", en: "Minsu keeps yawning. He must be tired." },
@@ -1054,7 +1054,7 @@ export const KO_B1_U30: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "The child was happy to see her mum.",
         answer: "아이가 엄마를 보고 반가워했어요.",
-        altAnswers: ["아이가 엄마를 보고 좋아했어요.", "아이가 엄마를 보고 기뻐했어요.", "애가 엄마를 보고 반가워했어요.", "애가 엄마를 보고 좋아했어요."],
+        altAnswers: ["아이가 엄마를 보고 좋아했어요.", "아이가 엄마를 보고 기뻐했어요.", "아이가 엄마를 보고 반가워했습니다.", "애가 엄마를 보고 반가워했어요.", "애가 엄마를 보고 좋아했어요."],
         explanation: "반갑다 'glad to see' → 반가워하다 for the child's visible joy.",
       },
       {
@@ -2048,7 +2048,7 @@ export const KO_B1_U30: Lesson[] = [
         prompt: "Translate into Korean (to a friend).",
         source: "Don't worry.",
         answer: "걱정하지 마.",
-        altAnswers: ["걱정 마."],
+        altAnswers: ["걱정 마.", "걱정하지 마요.", "걱정하지 마세요."],
         explanation: "걱정하다 is a verb already; *걱정해하지 마 doubles the 하.",
       },
       {
@@ -2154,7 +2154,7 @@ export const KO_B1_U30: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I felt so hurt that I cried all night.",
             answer: "너무 서운해서 밤새 울었어요.",
-            altAnswers: ["너무 섭섭해서 밤새 울었어요.", "너무 속상해서 밤새 울었어요.", "정말 서운해서 밤새 울었어요.", "너무 서운해서 밤새도록 울었어요."],
+            altAnswers: ["너무 섭섭해서 밤새 울었어요.", "너무 속상해서 밤새 울었어요.", "정말 서운해서 밤새 울었어요.", "너무 서운해서 밤새도록 울었어요.", "너무 서운해서 밤새 울었습니다."],
             explanation: "Cause with -아 / 어서, 밤새 'all night'. 서운하다 for being let down by a friend.",
           },
           {
@@ -2417,7 +2417,7 @@ export const KO_B1_U30: Lesson[] = [
         prompt: "Translate into Korean (polite, to a senior colleague).",
         source: "Don't worry about work.",
         answer: "회사 일은 걱정하지 마세요.",
-        altAnswers: ["회사 일은 걱정 마세요.", "일은 걱정하지 마세요.", "회사 일은 신경 쓰지 마세요."],
+        altAnswers: ["회사 일은 걱정 마세요.", "일은 걱정하지 마세요.", "회사 일은 신경 쓰지 마세요.", "회사 일은 걱정하지 마십시오."],
         explanation: "은 contrasts work with everything else that matters more right now.",
       },
       {
@@ -2451,7 +2451,7 @@ export const KO_B1_U30: Lesson[] = [
         prompt: "Translate into Korean (polite, to a senior colleague).",
         source: "I hope your mother gets better soon.",
         answer: "어머님께서 빨리 나으셨으면 좋겠어요.",
-        altAnswers: ["어머님께서 빨리 나으시면 좋겠어요.", "어머님이 빨리 나으셨으면 좋겠어요.", "어머님께서 빨리 회복하셨으면 좋겠어요.", "어머님께서 얼른 나으셨으면 좋겠어요."],
+        altAnswers: ["어머님께서 빨리 나으시면 좋겠어요.", "어머님이 빨리 나으셨으면 좋겠어요.", "어머님께서 빨리 회복하셨으면 좋겠어요.", "어머님께서 빨리 나으셨으면 좋겠습니다.", "어머님께서 얼른 나으셨으면 좋겠어요."],
         explanation: "어머님 for someone else's mother, 나으시다 (ㅅ irregular) and the wish -았 / 었으면 좋겠어요.",
       },
       {

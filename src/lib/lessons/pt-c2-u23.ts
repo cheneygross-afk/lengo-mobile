@@ -172,7 +172,7 @@ export const PT_C2_U23: Lesson[] = [
         source: "The power of attorney must give specific powers to sell the property.",
         answer: "A procuração deve conferir poderes específicos para vender o imóvel.",
         altAnswers: ["A procuração precisa conferir poderes específicos para vender o imóvel.", "A procuração deve dar poderes específicos para vender o imóvel.", "A procuração tem que dar poderes específicos para vender o imóvel.", "A procuração precisa dar poderes específicos para a venda do imóvel.", "A procuração deve conferir poderes específicos para a venda do imóvel."],
-        explanation: "Powers are \"conferidos\" or \"dados\", and a sale needs \"poderes específicos\". \"Imóvel\" is the general word for a property, house or apartment.",
+        explanation: "Powers are \"conferidos\" or \"dados\", and a sale needs \"poderes específicos\". \"Imóvel\" is the general word for a property, house or flat.",
       },
       {
         type: "translate",
@@ -328,7 +328,7 @@ export const PT_C2_U23: Lesson[] = [
             type: "speak",
             text: "Quem vai ser o inventariante?",
             prompt: "Say it in Portuguese: Who's going to be the estate's administrator?",
-            tip: "The stress falls on AN: in-ven-ta-ri-Ã-chee; keep the an nasal and soften the final te to chee.",
+            tip: "The stress falls on AN: in-ven-ta-ri-AN-tchi; keep the an nasal and soften the final te to tchi.",
             explanation: "The \"inventariante\" represents the estate until the division is done.",
           },
         ],
@@ -506,7 +506,7 @@ export const PT_C2_U23: Lesson[] = [
           {
             type: "multiple-choice",
             question: "The seller says: \"Pode ficar tranquilo, o apartamento é meu, só não está no meu nome.\" What should you understand?",
-            options: ["On paper he isn't the owner; check the matrícula before going further.", "He owns the apartment and the paperwork is just a formality.", "The apartment belongs to the bank until you pay.", "The apartment has no matrícula at all."],
+            options: ["On paper he isn't the owner; check the matrícula before going further.", "He owns the apartment and the paperwork is just a formality.", "The flat belongs to the bank until you pay.", "The flat has no matrícula at all."],
             correctIndex: 0,
             explanation: "Whoever is on the matrícula is the legal owner. \"Não está no meu nome\" may mean an unregistered purchase, an unfinished inventário or worse: ask for the \"certidão de matrícula\".",
           },
@@ -756,7 +756,7 @@ export const PT_C2_U23: Lesson[] = [
       {
         heading: "Malha fina and a pending CPF",
         body: [
-          "If the numbers in your return don't match what others reported, the return is held for review: you \"caiu na malha fina\" (literally, fell into the fine mesh). Typical causes are a forgotten second job, a receipt for treatment the doctor never declared, or a dependent who also filed alone. You can see it on the \"e-CAC\" portal under \"pendências\", and fix it by sending a \"declaração retificadora\" before the Receita contacts you, which avoids the heavy \"multa de ofício\".",
+          "If the numbers in your return don't match what others reported, the return is held for review: you \"caiu na malha fina\" (literally, fell into the fine mesh). Typical causes are a forgotten second job, a receipt for treatment the doctor never declared, or a dependant who also filed alone. You can see it on the \"e-CAC\" portal under \"pendências\", and fix it by sending a \"declaração retificadora\" before the Receita contacts you, which avoids the heavy \"multa de ofício\".",
           "Your CPF has a \"situação cadastral\". It should be \"regular\". It becomes \"pendente de regularização\" when a mandatory return wasn't filed, and \"suspensa\" when the registration data don't add up, such as a wrong address or a misspelled name. A CPF that isn't regular blocks surprisingly much: opening a bank account, getting a loan, a passport or sometimes even being hired.",
         ],
         examples: [
@@ -765,7 +765,7 @@ export const PT_C2_U23: Lesson[] = [
           { es: "No e-CAC aparece uma pendência na declaração de 2023.", en: "The e-CAC portal shows an issue with the 2023 return." },
           { es: "Meu CPF está pendente de regularização porque esqueci de declarar.", en: "My CPF is pending because I forgot to file a return." },
           { es: "Com o CPF suspenso, o banco não abriu a conta.", en: "With a suspended CPF, the bank wouldn't open the account." },
-          { es: "O dependente não pode declarar sozinho também.", en: "A dependent can't file a separate return as well." },
+          { es: "O dependente não pode declarar sozinho também.", en: "A dependant can't file a separate return as well." },
         ],
         checkpoint: [
           {
@@ -1015,7 +1015,7 @@ export const PT_C2_U23: Lesson[] = [
             source: "If you resign, you can't withdraw your FGTS.",
             answer: "Quem pede demissão não pode sacar o FGTS.",
             altAnswers: ["Quem pede demissão não saca o FGTS.", "Se você pedir demissão, não pode sacar o FGTS.", "Se você pedir demissão, não pode sacar seu FGTS.", "Se você pedir demissão, não pode sacar o seu FGTS.", "Se você pede demissão, não pode sacar o FGTS.", "Quem pede demissão não consegue sacar o FGTS."],
-            explanation: "General 'you' is often \"quem\" in Portuguese: \"quem pede demissão\". Withdrawing from the fund is \"sacar\", the same verb as at an ATM.",
+            explanation: "General 'you' is often \"quem\" in Portuguese: \"quem pede demissão\". Withdrawing from the fund is \"sacar\", the same verb as at a ATM.",
           },
           {
             type: "fill-blank",
@@ -1045,7 +1045,7 @@ export const PT_C2_U23: Lesson[] = [
           { es: "Gostaria de solicitar a memória de cálculo da rescisão.", en: "I'd like to request the breakdown of the termination calculation." },
           { es: "No termo não constam as férias vencidas.", en: "The overdue vacation isn't listed on the form." },
           { es: "Preciso que conste no termo o aviso prévio de 48 dias.", en: "I need the form to show the 48 days' notice." },
-          { es: "Ela entrou com uma reclamação trabalhista contra a loja.", en: "She filed a labor claim against the store." },
+          { es: "Ela entrou com uma reclamação trabalhista contra a loja.", en: "She filed a labor claim against the shop." },
           { es: "O prazo para entrar na Justiça do Trabalho é de dois anos.", en: "The deadline for taking a case to the labor courts is two years." },
         ],
         checkpoint: [
@@ -1385,7 +1385,7 @@ export const PT_C2_U23: Lesson[] = [
         type: "speak",
         text: "Gostaria de saber se o protocolo vale como documento para viajar.",
         prompt: "Ask the officer in Portuguese: I'd like to know whether the receipt counts as a document for traveling.",
-        tip: "Stress the third syllable of \"protocolo\", with an open o: pro-to-CÓ-loo.",
+        tip: "Stress the third syllable of \"protocolo\", with an open o: pro-to-CÓ-lu.",
         explanation: "\"Gostaria de saber se\" is the polite indirect question for an official.",
       },
       {
@@ -1407,7 +1407,7 @@ export const PT_C2_U23: Lesson[] = [
     slug: "c2-survival-hospital-family",
     level: "PT-C2",
     number: 7,
-    title: "A Relative in the Hospital",
+    title: "A Relative in Hospital",
     summary: "Follow a relative's stay in a Brazilian hospital, from the pronto-socorro to the alta: the boletim médico, the UTI, the acompanhante, consent forms and the questions to ask.",
     duration: "18 min",
     kind: "teach",
@@ -1592,7 +1592,7 @@ export const PT_C2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your father wants to leave the hospital, but the doctors say he isn't ready. A nurse mentions \"alta a pedido\". What does it involve?",
+        question: "Your father wants to leave hospital, but the doctors say he isn't ready. A nurse mentions \"alta a pedido\". What does it involve?",
         options: ["Leaving against medical advice and signing a responsibility form.", "A discharge the doctor requests from the health plan.", "A normal discharge on the planned date.", "A transfer to another hospital."],
         correctIndex: 0,
         explanation: "\"Alta a pedido\" is the family's or patient's decision, against the team's advice. You sign a \"termo de responsabilidade\".",
@@ -2219,7 +2219,7 @@ export const PT_C2_U23: Lesson[] = [
             type: "speak",
             text: "Solicito o envio da certidão até sexta-feira.",
             prompt: "Say it formally in Portuguese: Please send the certificate by Friday.",
-            tip: "\"Solicito\" is stressed on the third syllable: so-li-SI-too.",
+            tip: "\"Solicito\" is stressed on the third syllable: so-li-CI-to.",
             explanation: "\"Solicito o envio de\" is the formal version of \"me manda\".",
           },
         ],
@@ -2307,7 +2307,7 @@ export const PT_C2_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Explain in plain Portuguese.",
-        source: "The apartment has no mortgage, no seizure and no debt.",
+        source: "The flat has no mortgage, no seizure and no debt.",
         answer: "O apartamento não tem hipoteca, penhora nem dívida.",
         altAnswers: ["O apartamento não tem hipoteca, nem penhora, nem dívida.", "O apartamento não tem hipoteca, penhora ou dívida.", "O apartamento está sem hipoteca, penhora nem dívida.", "O apartamento não tem hipoteca, penhora nem dívidas.", "O apartamento não tem nenhuma hipoteca, penhora ou dívida."],
         explanation: "The plain reading of \"livre e desembaraçado de quaisquer ônus\". After a negative verb, \"nem\" links the list: \"não tem X, Y nem Z\".",
@@ -2550,7 +2550,7 @@ export const PT_C2_U23: Lesson[] = [
         type: "speak",
         text: "Gostaria de saber quais documentos são necessários para o inventário extrajudicial.",
         prompt: "Ask the cartório precisely in Portuguese: I'd like to know which documents are needed for an out-of-court inventory.",
-        tip: "\"Extrajudicial\" has six syllables: es-tra-ju-jee-see-AL.",
+        tip: "\"Extrajudicial\" has six syllables: ex-tra-ju-di-ci-AL.",
         explanation: "A precise question with the name of the procedure gets you a precise list.",
       },
       {

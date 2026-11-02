@@ -214,7 +214,7 @@ export const PT_B2_U21_EXTRA: Lesson[] = [
           "After a modal: \"deve ser feito\", \"pode ser pago\", \"precisa ser revisado\" (no \"de\"). In progress: \"está sendo investigado\". For a single future action, no gerundismo: \"será enviado\", not \"vai estar sendo enviado\".",
         ],
         examples: [
-          { es: "O formulário deve ser preenchido com letra de forma.", en: "The form must be filled out in block letters." },
+          { es: "O formulário deve ser preenchido com letra de forma.", en: "The form must be filled in in block capitals." },
           { es: "A taxa pode ser paga com Pix.", en: "The fee can be paid by Pix." },
           { es: "O acidente está sendo investigado pela polícia.", en: "The accident is being investigated by the police." },
           { es: "O código será enviado por SMS.", en: "The code will be sent by text message." },
@@ -340,9 +340,9 @@ export const PT_B2_U21_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The form must be filled out by hand.",
+        prompt: "Put the words in order to say: The form must be filled in by hand.",
         words: ["O", "formulário", "deve", "ser", "preenchido", "à", "mão."],
-        translation: "The form must be filled out by hand.",
+        translation: "The form must be filled in by hand.",
         explanation: "Modal + \"ser\" + participle.",
       },
       {
@@ -354,7 +354,7 @@ export const PT_B2_U21_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ficou combinado que a gente se encontra no sábado.",
         prompt: "Say it in Portuguese: We agreed to meet on Saturday.",
-        tip: "\"A gente se encontra\": a-ZHẼN-chee see ẽn-KÕN-tra: the g of gente is the s of 'measure', and the t before i sounds like ch.",
+        tip: "\"A gente se encontra\": a-JEN-chi-si-en-CON-tra, with the t before i sounding like ch.",
         explanation: "\"Ficou combinado que\" for an agreed plan.",
       },
     ],
@@ -546,7 +546,7 @@ export const PT_B2_U21_EXTRA: Lesson[] = [
         type: "speak",
         text: "Precisa-se de professores de inglês.",
         prompt: "Say it in Portuguese (job ad): English teachers wanted.",
-        tip: "\"Inglês\" has a nasal first vowel and a stressed final syllable: ĩn-GLÊS.",
+        tip: "\"Inglês\" has a nasal first vowel and a stressed final syllable: in-GLÊS.",
         explanation: "Singular \"precisa-se\" because of \"de\".",
       },
     ],

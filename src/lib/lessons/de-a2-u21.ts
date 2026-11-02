@@ -360,10 +360,10 @@ export const DE_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We swam in the lake yesterday.'?",
-        options: ["Wir sind gestern im See geschwammen.", "Wir sind gestern im See geschwommen.", "Wir sind gestern im See geschwimmt.", "Wir haben gestern im See geschwimmt."],
+        question: "Which sentence is correct?",
+        options: ["Wir haben gestern im See geschwommen.", "Wir sind gestern im See geschwommen.", "Wir sind gestern im See geschwimmt.", "Wir haben gestern im See geschwimmt."],
         correctIndex: 1,
-        explanation: "\"Schwimmen\" is a movement verb with a strong participle: \"sind ... geschwommen\", with o. \"*Geschwimmt*\" treats it as a regular verb, and \"*geschwammen*\" borrows the a of the past \"schwamm\".",
+        explanation: "\"Schwimmen\" is a movement verb: \"sind ... geschwommen\", a strong participle with o.",
       },
       {
         type: "translate",
@@ -670,10 +670,10 @@ export const DE_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'a small present'?",
+            question: "Which phrase is correct?",
             options: ["ein kleines Geschenk", "ein kleine Geschenk", "ein kleiner Geschenk", "ein kleinen Geschenk"],
             correctIndex: 0,
-            explanation: "\"Ein\" doesn't show the neuter, so the adjective must: -es, \"ein kleines Geschenk\". \"*Ein kleiner Geschenk*\" uses the masculine ending.",
+            explanation: "\"Ein\" doesn't show the neuter, so the adjective must: -es, \"ein kleines Geschenk\".",
           },
         ],
       },
@@ -1140,10 +1140,10 @@ export const DE_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We found a small flat.'?",
+        question: "Which is correct?",
         options: ["Wir haben eine kleine Wohnung gefunden.", "Wir haben ein kleine Wohnung gefunden.", "Wir haben eine kleinen Wohnung gefunden.", "Wir haben eine kleines Wohnung gefunden."],
         correctIndex: 0,
-        explanation: "\"Die Wohnung\" is feminine: \"eine kleine Wohnung\" in the accusative. \"*Eine kleinen Wohnung*\" adds -en, which feminine only takes in the dative.",
+        explanation: "\"Die Wohnung\" is feminine: \"eine kleine Wohnung\" in the accusative.",
       },
       {
         type: "translate",
@@ -1253,10 +1253,10 @@ export const DE_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'I'm looking for a cheap laptop.'?",
+            question: "Which is correct?",
             options: ["Ich suche einen günstigen Laptop.", "Ich suche einen günstiger Laptop.", "Ich suche ein günstiger Laptop.", "Ich suche einen günstige Laptop."],
             correctIndex: 0,
-            explanation: "Masculine accusative: \"einen\" + -en, \"günstigen\". \"*Einen günstiger*\" keeps the nominative ending.",
+            explanation: "Masculine accusative: \"einen\" + -en, \"günstigen\".",
           },
         ],
       },
@@ -2123,10 +2123,10 @@ export const DE_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'He says that the food is cold.'?",
+        question: "Which sentence is correct?",
         options: ["Er sagt, dass das Essen kalt ist.", "Er sagt, das dass Essen kalt ist.", "Er sagt, dass das Essen ist kalt.", "Er sagt, das das Essen kalt ist."],
         correctIndex: 0,
-        explanation: "Conjunction \"dass\", article \"das\", verb last. \"*Dass das Essen ist kalt*\" keeps main-clause order.",
+        explanation: "Conjunction \"dass\", article \"das\", verb last.",
       },
       {
         type: "translate",
@@ -2235,10 +2235,10 @@ export const DE_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'a room with a great view'?",
+            question: "Which is correct?",
             options: ["ein Zimmer mit einem tollen Blick", "ein Zimmer mit einen tollen Blick", "ein Zimmer mit einem toller Blick", "ein Zimmer mit ein tollen Blick"],
             correctIndex: 0,
-            explanation: "\"Mit\" + dative: \"einem\", and the adjective after it takes -en: \"einem tollen Blick\". \"*Mit einen*\" uses the accusative.",
+            explanation: "\"Mit\" + dative: \"einem\", and the adjective after it takes -en.",
           },
         ],
       },

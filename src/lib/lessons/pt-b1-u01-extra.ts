@@ -151,12 +151,12 @@ export const PT_B1_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "Quero que você seja feliz.",
         prompt: "Say it in Portuguese: I want you to be happy.",
-        tip: "Seja: SÊ-zha, closed e.",
+        tip: "Seja: SE-zha, closed e.",
         explanation: "\"Seja\" is the irregular subjunctive of \"ser\". You'll learn it properly in Unit 2, but you'll hear it in wishes everywhere.",
       },
       {
         type: "matching",
-        instructions: "Match the Portuguese to the English.",
+        instructions: "Match the infinitive to its subjunctive (que eu...).",
         pairs: [{ left: "Quero que você fale.", right: "I want you to speak." }, { left: "Quero que você coma.", right: "I want you to eat." }, { left: "Quero que você abra.", right: "I want you to open it." }, { left: "Quero que você chegue.", right: "I want you to arrive." }, { left: "Quero que você leia.", right: "I want you to read." }],
         explanation: "-ar verbs take -e (\"fale\", \"chegue\" with gu), and -er/-ir verbs take -a (\"coma\", \"abra\", \"leia\" from \"leio\").",
       },
@@ -314,7 +314,7 @@ export const PT_B1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the Portuguese to the English.",
+        instructions: "Match the eu form to the subjunctive.",
         pairs: [{ left: "Ela quer que eu faça o jantar.", right: "She wants me to make dinner." }, { left: "Ela quer que eu diga a verdade.", right: "She wants me to tell the truth." }, { left: "Ela quer que eu tenha paciência.", right: "She wants me to be patient." }, { left: "Ela quer que eu venha cedo.", right: "She wants me to come early." }, { left: "Ela quer que eu veja o filme.", right: "She wants me to see the movie." }],
         explanation: "Each subjunctive comes from the eu form with the -o swapped for -a: faço → faça, digo → diga, tenho → tenha, venho → venha, vejo → veja.",
       },
@@ -468,7 +468,7 @@ export const PT_B1_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "Quero que você conheça a minha família.",
         prompt: "Say it in Portuguese: I want you to meet my family.",
-        tip: "Conheça: ko-NYÊ-sa.",
+        tip: "Conheça: ko-NYE-sa.",
         explanation: "\"Conhecer\" has \"eu conheço\", so the subjunctive is \"conheça\", with ç to keep the s sound before a.",
       },
       {

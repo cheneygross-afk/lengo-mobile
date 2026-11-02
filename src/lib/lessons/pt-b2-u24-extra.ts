@@ -41,7 +41,7 @@ export const PT_B2_U24_EXTRA: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "If I had more time, I'd learn to play the guitar.",
             answer: "Se eu tivesse mais tempo, aprenderia a tocar violão.",
-            altAnswers: ["Se eu tivesse mais tempo, eu aprenderia a tocar violão.", "Se eu tivesse mais tempo, ia aprender a tocar violão.", "Se eu tivesse mais tempo, eu ia aprender a tocar violão.", "Se tivesse mais tempo, aprenderia a tocar violão."],
+            altAnswers: ["Se eu tivesse mais tempo, eu aprenderia a tocar violão.", "Se eu tivesse mais tempo, ia aprender a tocar violão.", "Se eu tivesse mais tempo, eu ia aprender a tocar violão.", "Se tivesse mais tempo, aprenderia a tocar violão.", "Se eu tivesse mais tempo, aprenderia a tocar guitarra."],
             explanation: "\"Tivesse\" + \"aprenderia\". An acoustic guitar is \"violão\".",
           },
           {
@@ -355,8 +355,8 @@ export const PT_B2_U24_EXTRA: Lesson[] = [
           { es: "Havia muitas pessoas na reunião.", en: "There were many people at the meeting. (written)" },
           { es: "Me manda o arquivo quando puder?", en: "Send me the file when you can? (spoken)" },
           { es: "Peço que me envie o arquivo assim que possível.", en: "Please send me the file as soon as possible. (written)" },
-          { es: "Encontrei ele no corredor.", en: "I ran into him in the hallway. (spoken)" },
-          { es: "Encontrei-o no corredor.", en: "I met him in the hallway. (written)" },
+          { es: "Encontrei ele no corredor.", en: "I ran into him in the corridor. (spoken)" },
+          { es: "Encontrei-o no corredor.", en: "I met him in the corridor. (written)" },
         ],
         checkpoint: [
           {

@@ -428,10 +428,10 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I combed my hair.'?",
+        question: "Which sentence is correct?",
         options: ["Ich habe mir die Haare gekämmt.", "Ich habe mich die Haare gekämmt.", "Ich habe meine Haare mich gekämmt.", "Ich bin mir die Haare gekämmt."],
         correctIndex: 0,
-        explanation: "With an accusative object (\"die Haare\"), the reflexive is dative: \"mir\"; reflexive verbs take \"haben\". \"*Ich habe mich die Haare gekämmt*\" uses the accusative twice.",
+        explanation: "Dative \"mir\" with an accusative object; \"haben\" for every reflexive.",
       },
       {
         type: "listen-choose",
@@ -1048,17 +1048,17 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'At the weekend I have a rest.'?",
+        question: "Which sentence is correct?",
         options: ["Am Wochenende ruhe ich mich aus.", "Am Wochenende ich ruhe mich aus.", "Am Wochenende ruhe mich ich aus.", "Am Wochenende ausruhe ich mich."],
         correctIndex: 0,
-        explanation: "Verb second, then the pronoun subject, the reflexive, and the prefix last: \"ruhe ich mich aus\". \"*Am Wochenende ausruhe ich mich*\" forgets that \"aus-\" splits off.",
+        explanation: "Verb second, pronoun subject, reflexive, prefix last.",
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I put my shoes on.'?",
+        question: "Which sentence is correct?",
         options: ["Ich ziehe mir die Schuhe an.", "Ich ziehe mich die Schuhe an.", "Ich anziehe mir die Schuhe.", "Ich ziehe die Schuhe mich an."],
         correctIndex: 0,
-        explanation: "With an accusative object (\"die Schuhe\"), the reflexive is dative \"mir\"; the prefix \"an\" goes last. \"*Ich ziehe mich die Schuhe an*\" uses the accusative twice.",
+        explanation: "Dative \"mir\" with an accusative object; prefix last.",
       },
       {
         type: "listen-choose",
@@ -1517,10 +1517,10 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm hurrying.'?",
-        options: ["Ich beeile mich.", "Ich beeile.", "Ich beeile mir.", "Ich mich beeile."],
+        question: "Which sentence is correct German?",
+        options: ["Ich beeile mich.", "Ich stehe mich auf.", "Ich frühstücke mich.", "Ich schlafe mich."],
         correctIndex: 0,
-        explanation: "\"Sich beeilen\" always needs its accusative reflexive: \"Ich beeile mich\". \"*Ich beeile*\" leaves it out (unlike \"aufstehen\", \"frühstücken\" and \"schlafen\", which never take one).",
+        explanation: "Only \"sich beeilen\" is reflexive: \"Ich beeile mich\" (I hurry). \"Aufstehen\", \"frühstücken\" and \"schlafen\" never take a reflexive pronoun.",
       },
       {
         type: "listen-choose",

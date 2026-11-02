@@ -15,7 +15,7 @@ export const PT_C1_U15: Lesson[] = [
         heading: "Getting in: vaga, processo seletivo, contratar, admitir",
         body: [
           "A job opening is a \"vaga\", and the hiring process is the \"processo seletivo\". You \"se candidata a uma vaga\" (apply for a position) by sending your \"currículo\". The company \"contrata\" you, and you \"é contratado\" or \"contratada\". \"Aplicar para uma vaga\" is an anglicism many Brazilians frown on: in finance \"aplicar\" means to invest.",
-          "HR departments also say \"admitir\" for to hire, and the noun is \"admissão\": your \"data de admissão\" is your start date, printed on your employment record. This is a false friend in the other direction too: 'to admit a mistake' is \"reconhecer\" or \"admitir\", but 'admitted to the hospital' is \"internado\".",
+          "HR departments also say \"admitir\" for to hire, and the noun is \"admissão\": your \"data de admissão\" is your start date, printed on your employment record. This is a false friend in the other direction too: 'to admit a mistake' is \"reconhecer\" or \"admitir\", but 'admitted to hospital' is \"internado\".",
           "Most Brazilian contracts begin with a \"período de experiência\" of up to 90 days, the probation period. Passing it is \"ser efetivado\": you become a permanent employee. A temporary worker on a fixed contract is \"temporário\", and an intern is \"estagiário\".",
         ],
         examples: [
@@ -237,7 +237,7 @@ export const PT_C1_U15: Lesson[] = [
         type: "speak",
         text: "Eu pedi demissão e vou cumprir o aviso prévio.",
         prompt: "Say it in Portuguese: I've resigned and I'm going to work my notice.",
-        tip: "Demissão ends in a nasal ão; prévio has an open é: PRÉ-vyoo.",
+        tip: "Demissão ends in a nasal ão; prévio has an open é: PRÉ-vio.",
         explanation: "\"Pedir demissão\" is resigning; \"cumprir o aviso prévio\" is working the notice period.",
       },
       {
@@ -506,7 +506,7 @@ export const PT_C1_U15: Lesson[] = [
       {
         type: "speak",
         text: "Trabalho no modelo híbrido: três dias presenciais e dois de home office.",
-        tip: "Híbrido is stressed on the first syllable: Í-bri-doo, with a silent h. Presenciais ends in a diphthong: -ci-AIS.",
+        tip: "Híbrido is stressed on the first syllable: HÍ-bri-do. Presenciais ends in a diphthong: -ci-AIS.",
         explanation: "\"Presencial\" makes its plural \"presenciais\", and \"de home office\" follows the pattern of \"de férias\".",
       },
     ],
@@ -772,7 +772,7 @@ export const PT_C1_U15: Lesson[] = [
         type: "speak",
         text: "Estou juntando dinheiro, mas no fim do mês nunca sobra nada.",
         prompt: "Say it in Portuguese: I'm saving up, but there's never anything left at the end of the month.",
-        tip: "Juntando has two nasal vowels: jũ-TÃ-doo. The final o of dinheiro sounds like a short oo.",
+        tip: "Juntando has two nasal vowels: jun-TAN-do. The final o of dinheiro is a short u.",
         explanation: "\"Juntar dinheiro\" is to save up, and \"sobrar\" is to be left over.",
       },
     ],
@@ -798,7 +798,7 @@ export const PT_C1_U15: Lesson[] = [
           { es: "O Copom decidiu manter a Selic pela terceira reunião seguida.", en: "The Copom decided to hold the Selic rate for the third meeting in a row." },
           { es: "Os juros altos encarecem o crédito e freiam o consumo.", en: "High interest rates make credit more expensive and slow consumption." },
           { es: "O preço da cesta básica subiu em quinze capitais.", en: "The price of the basic food basket rose in fifteen state capitals." },
-          { es: "Com a alta dos alimentos, os aposentados perderam poder de compra.", en: "With food prices rising, retirees lost purchasing power." },
+          { es: "Com a alta dos alimentos, os aposentados perderam poder de compra.", en: "With food prices rising, pensioners lost purchasing power." },
         ],
         checkpoint: [
           {
@@ -1249,7 +1249,7 @@ export const PT_C1_U15: Lesson[] = [
       {
         type: "speak",
         text: "No acumulado do ano, os alimentos subiram cerca de oito por cento.",
-        tip: "Acumulado: a-coo-moo-LA-doo, every vowel clear. Por cento: the t of cento stays a plain t.",
+        tip: "Acumulado: a-cu-mu-LA-do, every vowel clear. Por cento: the t of cento stays a plain t.",
         explanation: "\"No acumulado do ano\" is year to date, and \"cerca de\" rounds the figure.",
       },
     ],
@@ -1371,7 +1371,7 @@ export const PT_C1_U15: Lesson[] = [
           "\"Pendurar a conta\" is to put it on a tab, and \"ficar devendo\" is to end up owing: \"te fico devendo essa\" (I owe you one) is used about favors, not only money.",
         ],
         examples: [
-          { es: "Vamos rachar a conta? Deu oitenta reais para cada um.", en: "Should we split the bill? It comes to eighty reais each." },
+          { es: "Vamos rachar a conta? Deu oitenta reais para cada um.", en: "Shall we split the bill? It comes to eighty reais each." },
           { es: "Hoje o almoço é por minha conta.", en: "Lunch is on me today." },
           { es: "O gerente errou e quem pagou o pato foi a estagiária.", en: "The manager made the mistake and the intern took the blame." },
           { es: "Os consumidores vão arcar com os custos do aumento.", en: "Consumers will bear the cost of the increase." },
@@ -1522,7 +1522,7 @@ export const PT_C1_U15: Lesson[] = [
       {
         heading: "Who did it to whom: demitir, ser demitido, demitir-se",
         body: [
-          "\"Demitir\" is transitive: the company dismisses someone. \"A loja demitiu dez vendedores.\" Turn it around and the employee \"foi demitido\", the passive. Add a reflexive pronoun and the meaning flips: \"demitir-se\" or \"se demitir\" is to resign, dismissing yourself. \"O ministro se demitiu\" means he quit, not that he was fired.",
+          "\"Demitir\" is transitive: the company dismisses someone. \"A loja demitiu dez vendedores.\" Turn it round and the employee \"foi demitido\", the passive. Add a reflexive pronoun and the meaning flips: \"demitir-se\" or \"se demitir\" is to resign, dismissing yourself. \"O ministro se demitiu\" means he quit, not that he was fired.",
           "In everyday life Brazilians say \"pedi demissão\" for I resigned and keep \"me demiti\" for speech or the press. The trap is mixing structures: \"*fui demitido-me\" or \"*me demitiram-me\" are impossible. Pick one: \"me demiti\" (I quit) or \"fui demitido\" / \"me demitiram\" (I was fired).",
           "In the public sector, appointees are not \"demitidos\" but \"exonerados\": \"o secretário foi exonerado\", and someone who leaves \"pede exoneração\". Civil servants dismissed after a disciplinary process are \"demitidos\".",
         ],
@@ -1575,7 +1575,7 @@ export const PT_C1_U15: Lesson[] = [
         body: [
           "\"Aposentar-se\" (in speech \"se aposentar\") is to retire, and the retired person is \"o aposentado\", with \"a aposentadoria\" as both retirement and pension. Without the pronoun, \"aposentar\" means to retire someone or something: \"o INSS aposentou meu pai por invalidez\", or, figuratively, \"aposentei meu celular velho\".",
           "Keep the pronoun with the person: \"vou me aposentar ano que vem\", not \"*vou aposentar\". The mistake is common among learners because English retire has no pronoun.",
-          "\"Contratar\" behaves like \"demitir\": \"a empresa me contratou\" or \"fui contratado\". There is no reflexive. In a contract the two parties are \"o contratante\" (the one who hires) and \"o contratado\" (the one hired), as you saw in Unit 7.",
+          "\"Contratar\" behaves like \"demitir\": \"a empresa me contratou\" or \"fui contratado\". There is no reflexive. In a contract the two parties are \"o contratante\" (the one who hires) and \"o contratado\" (the one hired), as you saw in Unit 5.",
         ],
         examples: [
           { es: "Minha mãe se aposentou depois de 35 anos como professora.", en: "My mother retired after 35 years as a teacher." },
@@ -1724,7 +1724,7 @@ export const PT_C1_U15: Lesson[] = [
         sentence: "Oferecemos ___ compatível com o mercado e benefícios.",
         answer: "remuneração",
         altAnswers: ["salário"],
-        explanation: "\"Remuneração\" is the formal word in job ads and covers the whole pay package. \"Compatível\" agrees with it.",
+        explanation: "\"Remuneração\" is the formal word in job adverts and covers the whole pay package. \"Compatível\" agrees with it.",
       },
       {
         type: "word-order",
@@ -1751,7 +1751,7 @@ export const PT_C1_U15: Lesson[] = [
       {
         type: "dictation",
         audio: "O ministro pediu demissão e foi substituído.",
-        explanation: "\"Pediu demissão\" means he quit. \"Substituído\" has the stress on the i: soobs-chee-too-Í-doo.",
+        explanation: "\"Pediu demissão\" means he quit. \"Substituído\" has the stress on the i: subs-ti-tu-Í-do.",
       },
       {
         type: "speak",
@@ -1822,13 +1822,13 @@ export const PT_C1_U15: Lesson[] = [
         body: [
           "Carlos offers a PJ contract with a higher figure. Juliana does the math aloud: as PJ she pays her own taxes and an accountant, and loses FGTS, 13º and paid vacation. A common rule of thumb is that a PJ offer must be noticeably higher than a CLT one just to break even.",
           "Then come the \"benefícios\": \"vale-refeição\" (VR, a card for restaurant meals), \"vale-alimentação\" (VA, for groceries), \"plano de saúde\" and \"plano odontológico\", and \"PLR\" (\"participação nos lucros e resultados\"), a yearly profit-sharing bonus. \"Vale-transporte\" covers commuting.",
-          "Notice how Juliana asks: \"O plano de saúde é extensivo aos dependentes?\" (Does the health plan cover dependents?) and \"A PLR é atrelada a metas individuais?\" (Is the profit share tied to individual targets?). \"Bater a meta\" is to hit a target.",
+          "Notice how Juliana asks: \"O plano de saúde é extensivo aos dependentes?\" (Does the health plan cover dependants?) and \"A PLR é atrelada a metas individuais?\" (Is the profit share tied to individual targets?). \"Bater a meta\" is to hit a target.",
         ],
         examples: [
           { es: "Carlos: Também temos a opção de contratação como PJ, com um valor de dezesseis mil.", en: "We also have the option of a contractor arrangement, at sixteen thousand." },
           { es: "Juliana: Como PJ eu perderia o FGTS, o décimo terceiro e as férias. Prefiro CLT.", en: "As a contractor I'd lose the FGTS, the thirteenth salary and paid vacation. I'd rather be under the CLT." },
           { es: "Carlos: No regime CLT, oferecemos vale-refeição de mil e duzentos por mês.", en: "Under the CLT, we offer a meal allowance of twelve hundred a month." },
-          { es: "Juliana: O plano de saúde é extensivo aos dependentes?", en: "Does the health plan cover dependents?" },
+          { es: "Juliana: O plano de saúde é extensivo aos dependentes?", en: "Does the health plan cover dependants?" },
           { es: "Carlos: É, sim. E a PLR pode chegar a dois salários se a equipe bater a meta.", en: "Yes, it does. And profit-sharing can reach two months' salary if the team hits its target." },
           { es: "Juliana: Entendi. A PLR é atrelada a metas individuais ou da empresa?", en: "I see. Is the profit share tied to individual or company targets?" },
         ],
@@ -1856,9 +1856,9 @@ export const PT_C1_U15: Lesson[] = [
             audio: "O vale-refeição é de mil reais e o plano de saúde é extensivo aos dependentes.",
             question: "What does it mean?",
             options: [
-              "The meal allowance is a thousand reais and the health plan covers dependents.",
-              "The meal allowance is a thousand reais and the health plan is expensive for dependents.",
-              "The transport allowance is a thousand reais and dependents pay for the health plan.",
+              "The meal allowance is a thousand reais and the health plan covers dependants.",
+              "The meal allowance is a thousand reais and the health plan is expensive for dependants.",
+              "The transport allowance is a thousand reais and dependants pay for the health plan.",
               "The salary is a thousand reais and the health plan is optional.",
             ],
             correctIndex: 0,
@@ -1949,7 +1949,7 @@ export const PT_C1_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Does the health plan cover dependents?",
+        source: "Does the health plan cover dependants?",
         answer: "O plano de saúde é extensivo aos dependentes?",
         altAnswers: ["O plano de saúde cobre os dependentes?", "O plano de saúde inclui os dependentes?", "O plano de saúde se estende aos dependentes?", "O plano de saúde vale para os dependentes?"],
         explanation: "\"Extensivo a\" is the HR phrase; \"cobre\" and \"inclui\" are the plain alternatives.",
@@ -2228,7 +2228,7 @@ export const PT_C1_U15: Lesson[] = [
         type: "speak",
         text: "Atualmente estou desempregado, mas me candidatei a várias vagas.",
         prompt: "Say it in Portuguese: I'm currently unemployed, but I've applied for several jobs. (a man speaking)",
-        tip: "Atualmente: a-too-au-MẼN-chee, with the stress on men. Candidatei: the di sounds like jee.",
+        tip: "Atualmente: a-tu-al-MEN-te, with the stress on men. Candidatei: the di sounds like ji.",
         explanation: "Here \"atualmente\" is right, because it means currently. \"Me candidatei a\" is to apply for.",
       },
     ],
@@ -2480,7 +2480,7 @@ export const PT_C1_U15: Lesson[] = [
       {
         type: "speak",
         text: "Em outras palavras, quase todo mundo deve alguma coisa, mas nem todos estão atrasados.",
-        tip: "Palavras: pa-LA-vras. In todo mundo the d of mundo is soft and the final o sounds like a short oo.",
+        tip: "Palavras: pa-LA-vras. In todo mundo the d of mundo is soft and the final o is a short u.",
         explanation: "\"Em outras palavras\" introduces the plain restatement, and \"nem todos\" (not all) adds the caveat.",
       },
     ],
@@ -2588,7 +2588,7 @@ export const PT_C1_U15: Lesson[] = [
       {
         heading: "Connectors and the closing request",
         body: [
-          "Spoken accounts chain with \"e\", \"aí\" and \"e o pior\". Neutral writing uses \"além disso\", \"também\" and \"por isso\". Formal writing prefers \"ademais\", \"outrossim\" (Unit 7), \"diante do exposto\" and \"razão pela qual\".",
+          "Spoken accounts chain with \"e\", \"aí\" and \"e o pior\". Neutral writing uses \"além disso\", \"também\" and \"por isso\". Formal writing prefers \"ademais\", \"outrossim\" (Unit 5), \"diante do exposto\" and \"razão pela qual\".",
           "Fernanda's \"Alguém tem que fazer alguma coisa!\" becomes a request in each register: \"Gostaria que o RH verificasse a situação\" (neutral), and \"Diante do exposto, solicita-se a intervenção do sindicato para que sejam pagas as verbas devidas\" (formal). \"Para que\" takes the subjunctive.",
           "Check your formal version for leftovers: no \"a gente\", no \"tá\", no \"aí\", every date named.",
         ],
@@ -2734,7 +2734,7 @@ export const PT_C1_U15: Lesson[] = [
         type: "speak",
         text: "Gostaria que o RH verificasse a situação com urgência.",
         prompt: "Say it in neutral Portuguese: I'd like HR to look into the situation urgently.",
-        tip: "RH is read erre-agá. Verificasse: ve-ri-fi-CAS-see, with a clear double s.",
+        tip: "RH is read erre-agá. Verificasse: ve-ri-fi-CAS-se, with a clear double s.",
         explanation: "\"Gostaria que\" takes the imperfect subjunctive \"verificasse\": a polite but clear request.",
       },
     ],
@@ -2784,13 +2784,13 @@ export const PT_C1_U15: Lesson[] = [
       {
         heading: "Compressing with reduced clauses",
         body: [
-          "Reduced clauses make reports dense: \"Ao ser demitido, ele sacou o FGTS\" (when he was dismissed). \"Tendo cumprido o aviso, ela recebeu a rescisão\" (having worked her notice). \"Feitas as contas, a proposta PJ não compensa\" (once the math is done).",
+          "Reduced clauses make reports dense: \"Ao ser demitido, ele sacou o FGTS\" (when he was dismissed). \"Tendo cumprido o aviso, ela recebeu a rescisão\" (having worked her notice). \"Feitas as contas, a proposta PJ não compensa\" (once the sums are done).",
           "Remember agreement in participle clauses: \"pagas as verbas\", \"assinado o contrato\", \"descontada a inflação\".",
         ],
         examples: [
           { es: "Ao ser demitido, ele deu entrada no seguro-desemprego.", en: "When he was dismissed, he applied for unemployment benefit." },
           { es: "Tendo cumprido o aviso prévio, ela recebeu as verbas rescisórias.", en: "Having worked her notice, she received her termination pay." },
-          { es: "Feitas as contas, a proposta como PJ não compensa.", en: "Once you do the math, the contractor offer isn't worth it." },
+          { es: "Feitas as contas, a proposta como PJ não compensa.", en: "Once you do the sums, the contractor offer isn't worth it." },
           { es: "Assinado o contrato, o funcionário passa a ter direito ao vale-transporte.", en: "Once the contract is signed, the employee is entitled to the transport allowance." },
           { es: "Sendo MEI, ela paga um valor fixo por mês.", en: "Being a microentrepreneur, she pays a fixed amount each month." },
         ],
@@ -2799,7 +2799,7 @@ export const PT_C1_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, using a participle clause.",
-            source: "Once the math is done, the CLT offer is better.",
+            source: "Once the sums are done, the CLT offer is better.",
             answer: "Feitas as contas, a proposta CLT é melhor.",
             altAnswers: ["Feitas as contas, a proposta pela CLT é melhor.", "Feitas as contas, a proposta CLT compensa mais.", "Feitas as contas, a proposta com carteira assinada é melhor.", "Feitas as contas, a proposta CLT vale mais a pena."],
             explanation: "\"Feitas as contas\" is an absolute participle clause: \"feitas\" agrees with \"as contas\".",
@@ -2829,7 +2829,7 @@ export const PT_C1_U15: Lesson[] = [
       {
         heading: "Official register for work and money",
         body: [
-          "From Unit 7: formal requests use \"venho, por meio deste, solicitar\", \"solicito a V. Sa. que\" + subjunctive, and \"nos termos do\" + the law or contract. The labor vocabulary of this unit slots straight in: \"o pagamento das verbas rescisórias\", \"a liberação do FGTS\", \"o reajuste salarial\".",
+          "From Unit 5: formal requests use \"venho, por meio deste, solicitar\", \"solicito a V. Sa. que\" + subjunctive, and \"nos termos do\" + the law or contract. The labor vocabulary of this unit slots straight in: \"o pagamento das verbas rescisórias\", \"a liberação do FGTS\", \"o reajuste salarial\".",
           "Formal letters about money state amounts in figures and words: \"R$ 3.450,00 (três mil quatrocentos e cinquenta reais)\".",
         ],
         examples: [
@@ -2975,7 +2975,7 @@ export const PT_C1_U15: Lesson[] = [
       {
         type: "speak",
         text: "Ao ser demitida, ela deu entrada no seguro-desemprego.",
-        tip: "Seguro-desemprego: link the two words, se-GOO-roo-de-zẽm-PRE-goo; the s of desemprego sounds like z.",
+        tip: "Seguro-desemprego: link the two words, se-GU-ro-de-zem-PRE-go; the s of desemprego sounds like z.",
         explanation: "\"Ao ser\" + participle makes the reduced passive clause, and \"dar entrada\" is to file an application.",
       },
     ],

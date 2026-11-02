@@ -20,7 +20,7 @@ export const PT_B1_U34_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Você é estudante e mora numa república em Ouro Preto.", en: "You're a student living in a shared student house in Ouro Preto." },
-          { es: "Escreva um e-mail para a imobiliária solicitando o conserto do chuveiro.", en: "Write an email to the rental agency asking for the shower to be repaired." },
+          { es: "Escreva um e-mail para a imobiliária solicitando o conserto do chuveiro.", en: "Write an email to the letting agency asking for the shower to be repaired." },
           { es: "Escreva um panfleto convidando os moradores para o mutirão.", en: "Write a leaflet inviting residents to the community work day." },
           { es: "Prezados senhores, escrevo para solicitar o conserto do chuveiro.", en: "Dear Sirs, I'm writing to request that the shower be repaired." },
           { es: "Oi, pessoal! Neste sábado tem mutirão na praça.", en: "Hi everyone! This Saturday there's a clean-up day in the square." },
@@ -31,7 +31,7 @@ export const PT_B1_U34_EXTRA: Lesson[] = [
             question: "\"Escreva um e-mail para a imobiliária solicitando o conserto do chuveiro.\" Which register fits?",
             options: ["Formal: Prezados senhores... Atenciosamente", "Informal: Oi, gente... Beijos", "A blog post with a title", "A leaflet with a call to action"],
             correctIndex: 0,
-            explanation: "A rental agency is an institution, so formal register. The gerund \"solicitando\" gives the purpose.",
+            explanation: "A letting agency is an institution, so formal register. The gerund \"solicitando\" gives the purpose.",
           },
           {
             type: "translate",
@@ -40,7 +40,7 @@ export const PT_B1_U34_EXTRA: Lesson[] = [
             source: "Write an email to the agency asking for the repair.",
             answer: "Escreva um e-mail para a imobiliária solicitando o conserto.",
             altAnswers: ["Escreva um e-mail para a imobiliária pedindo o conserto.", "Escreva um e-mail à imobiliária solicitando o conserto.", "Escreva um e-mail para a imobiliária para pedir o conserto.", "Escreva um e-mail para a imobiliária para solicitar o conserto."],
-            explanation: "Genre, reader and purpose in one line. A rental agency is an \"imobiliária\".",
+            explanation: "Genre, reader and purpose in one line. A letting agency is an \"imobiliária\".",
           },
         ],
       },
@@ -151,7 +151,7 @@ export const PT_B1_U34_EXTRA: Lesson[] = [
         type: "speak",
         text: "Prezados senhores, escrevo para solicitar o conserto do chuveiro.",
         prompt: "Say it in Portuguese: Dear Sirs, I'm writing to ask for the shower to be repaired.",
-        tip: "\"Chuveiro\": shoo-VAY-roo.",
+        tip: "\"Chuveiro\": shu-VAY-ru.",
         explanation: "Greeting and purpose in one line.",
       },
       {
@@ -186,7 +186,7 @@ export const PT_B1_U34_EXTRA: Lesson[] = [
         examples: [
           { es: "De acordo com a reportagem, o preço do aluguel subiu 12%.", en: "According to the report, rents went up 12%." },
           { es: "A redução do horário prejudica os trabalhadores.", en: "The cut in opening hours hurts workers." },
-          { es: "O parque foi reformado pela prefeitura no ano passado.", en: "The park was renovated by city hall last year." },
+          { es: "O parque foi reformado pela prefeitura no ano passado.", en: "The park was renovated by the council last year." },
           { es: "A campanha começou em maio. A iniciativa já atendeu mil famílias.", en: "The campaign started in May. The initiative has already helped a thousand families." },
           { es: "O estudo revela que os brasileiros estão dormindo menos.", en: "The study reveals that Brazilians are sleeping less." },
         ],
@@ -226,7 +226,7 @@ export const PT_B1_U34_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The park was renovated by city hall.",
+        source: "The park was renovated by the council.",
         answer: "O parque foi reformado pela prefeitura.",
         altAnswers: ["O parque foi reformado pela Prefeitura."],
         explanation: "Passive with \"ser\": \"foi reformado\". To renovate is \"reformar\".",
@@ -259,7 +259,7 @@ export const PT_B1_U34_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "City hall launched a program. [It] has already helped a thousand families.",
+        en: "The council launched a program. [It] has already helped a thousand families.",
         sentence: "A prefeitura lançou um programa. ___ já atendeu mil famílias.",
         answer: "Ele",
         altAnswers: ["O programa", "A iniciativa", "Essa iniciativa"],
@@ -350,7 +350,7 @@ export const PT_B1_U34_EXTRA: Lesson[] = [
           { es: "Deve ser um festival de música.", en: "It must be a music festival." },
           { es: "Talvez eles estejam comemorando alguma coisa.", en: "Maybe they're celebrating something." },
           { es: "No meu país os festivais costumam ser no verão.", en: "In my country festivals usually take place in summer." },
-          { es: "No lugar deles, eu levaria protetor de ouvido.", en: "If I were them, I'd bring earplugs." },
+          { es: "No lugar deles, eu levaria protetor de ouvido.", en: "In their place, I'd bring earplugs." },
         ],
         checkpoint: [
           {

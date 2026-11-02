@@ -289,10 +289,10 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Cologne isn't as big as Berlin.'?",
+        question: "Which sentence is correct?",
         options: ["Köln ist nicht so groß wie Berlin.", "Köln ist nicht so größer wie Berlin.", "Köln ist nicht so groß als Berlin.", "Köln ist nicht größer wie Berlin."],
         correctIndex: 0,
-        explanation: "'As ... as' is \"so\" + plain adjective + \"wie\". \"*Nicht so groß als*\" uses \"als\", which belongs to the comparative (\"größer als\").",
+        explanation: "\"So\" + plain adjective + \"wie\".",
       },
       {
         type: "listen-choose",
@@ -1225,10 +1225,10 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which forum sentence says 'The people were friendlier than in London.'?",
+        question: "Which sentence from the forum is correct?",
         options: ["Die Leute waren freundlicher als in London.", "Die Leute waren mehr freundlich als in London.", "Die Leute waren freundlicher wie in London.", "Die Leute waren freundlicherer als in London."],
         correctIndex: 0,
-        explanation: "Comparative with -er, then \"als\": \"freundlicher als\". \"*Mehr freundlich*\" builds it like English, and \"*freundlicher wie*\" uses the \"wie\" of \"so ... wie\".",
+        explanation: "\"Freundlicher als\".",
       },
       {
         type: "word-order",

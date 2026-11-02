@@ -153,7 +153,7 @@ export const PT_C1_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "O presente trabalho tem como objetivo analisar o tema.",
         prompt: "Say it in Portuguese: This paper aims to analyze the topic.",
-        tip: "Objetivo: o-bee-zhe-CHEE-voo, with a soft ee after the b and a ch sound for the t before i.",
+        tip: "Objetivo: o-bi-je-TCHI-vu, with a soft i after the b.",
         explanation: "The standard opening of a resumo: the text as subject (\"o presente trabalho\") + \"tem como objetivo\" + infinitive.",
       },
       {
@@ -183,8 +183,8 @@ export const PT_C1_U03_EXTRA: Lesson[] = [
       {
         heading: "Citation and cohesion",
         body: [
-          "Citation frames: \"segundo Freire (1996)\", \"para Freire\", \"conforme aponta Freire\", \"Freire afirma que\", \"defende que\" or \"argumenta que\". Indirect citation via another author: \"Freire apud Silva\" (cited in Silva). Several authors: \"Silva et al. (2020)\". The citation verb is indicative; the hedge comes from your own verb.",
-          "Cohesion: \"nesse sentido\", \"por sua vez\" (in turn), \"cabe destacar que\", \"em contrapartida\" (by contrast), \"diante disso\". Avoid anglicisms in academic writing: \"impactar\" is fine but \"deletar\", \"performar\" and \"randômico\" sound informal; prefer \"apagar\", \"desempenhar\", \"aleatório\".",
+          "Citation frames: \"segundo Freire (1996)\", \"para Freire\", \"conforme aponta Freire\", \"Freire afirma / defende / argumenta que\". Indirect citation via another author: \"Freire apud Silva\" (cited in Silva). Several authors: \"Silva et al. (2020)\". The citation verb is indicative; the hedge comes from your own verb.",
+          "Cohesion: \"nesse sentido\", \"por sua vez\" (in turn), \"cabe destacar que\", \"em contrapartida\" (on the other hand), \"diante disso\". Avoid anglicisms in academic writing: \"impactar\" is fine but \"deletar\", \"performar\" and \"randômico\" sound informal; prefer \"apagar\", \"desempenhar\", \"aleatório\".",
         ],
         examples: [
           { es: "Segundo Freire (1996), ensinar exige respeito.", en: "According to Freire (1996), teaching requires respect." },
@@ -215,7 +215,7 @@ export const PT_C1_U03_EXTRA: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Freire apud Silva afirma que a educação é um ato político.",
-            question: "What does \"apud\" tell you?",
+            question: "What does apud tell you?",
             options: ["Freire's idea is cited through Silva's work.", "Freire and Silva wrote together.", "Silva disagrees with Freire.", "Freire quotes Silva."],
             correctIndex: 0,
             explanation: "\"Apud\" (Latin for 'in the work of') marks a second-hand citation: the idea is Freire's, but the writer read it in Silva.",
@@ -476,7 +476,7 @@ export const PT_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in academic Portuguese: \"A gente viu que as faltas caíram no segundo semestre.\"",
+        prompt: "Rewrite in academic Portuguese: A gente viu que as faltas caíram no segundo semestre.",
         source: "We saw that absences fell in the second semester.",
         answer: "Constatou-se que as faltas diminuíram no segundo semestre.",
         altAnswers: ["Observou-se que as faltas diminuíram no segundo semestre.", "Constatou-se uma redução das faltas no segundo semestre.", "Verificou-se que as faltas diminuíram no segundo semestre.", "Constatamos que as faltas diminuíram no segundo semestre."],
@@ -485,7 +485,7 @@ export const PT_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in academic Portuguese: \"Um monte de participante mora na periferia.\"",
+        prompt: "Rewrite in academic Portuguese: Um monte de participante mora na periferia.",
         source: "A lot of the participants live on the outskirts.",
         answer: "Grande parte dos participantes mora na periferia.",
         altAnswers: ["Uma parcela significativa dos participantes mora na periferia.", "Grande parte dos participantes reside na periferia.", "Boa parte dos participantes mora na periferia.", "Grande parte dos participantes moram na periferia."],
@@ -512,7 +512,7 @@ export const PT_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Simplify this heavy sentence, keeping it academic: \"Foi realizada a avaliação da implementação do programa.\"",
+        prompt: "Simplify this heavy sentence, keeping it academic: Foi realizada a avaliação da implementação do programa.",
         source: "How the program was implemented was evaluated.",
         answer: "Avaliou-se como o programa foi implementado.",
         altAnswers: ["Avaliou-se a implementação do programa.", "A implementação do programa foi avaliada."],
@@ -546,7 +546,7 @@ export const PT_C1_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "Constatou-se que grande parte dos alunos chega em jejum.",
         prompt: "Say it in academic Portuguese: It was found that most students arrive without having eaten.",
-        tip: "\"Constatou-se\": the hyphen joins them into one word, kõs-ta-TÔ-see.",
+        tip: "\"Constatou-se\": the hyphen joins them into one word, cons-ta-TOU-si.",
         explanation: "Impersonal \"constatou-se\" plus \"grande parte de\" instead of \"um monte de\".",
       },
     ],

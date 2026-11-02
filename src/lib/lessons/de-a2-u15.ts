@@ -153,10 +153,10 @@ export const DE_A2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I don't have time tomorrow.'?",
+        question: "Which sentence is correct?",
         options: ["Morgen habe ich keine Zeit.", "Morgen ich habe keine Zeit.", "Morgen ich werde haben keine Zeit.", "Morgen haben ich keine Zeit."],
         correctIndex: 0,
-        explanation: "Time word first, verb second: \"Morgen habe ich\". \"*Morgen ich habe*\" puts the verb third.",
+        explanation: "Time word first, verb second: \"Morgen habe ich\".",
       },
       {
         type: "dictation",
@@ -1295,10 +1295,10 @@ export const DE_A2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Turn left at the traffic lights.' (formal)",
+        question: "Which direction is correct German?",
         options: ["Biegen Sie an der Ampel links ab.", "Biegen Sie an die Ampel links ab.", "Sie biegen ab an der Ampel links.", "Abbiegen Sie an der Ampel links."],
         correctIndex: 0,
-        explanation: "\"An der Ampel\" answers wo?, so dative; in the Sie-imperative the verb comes first and the prefix \"ab\" last. \"*An die Ampel*\" uses the accusative, for movement.",
+        explanation: "\"An der Ampel\" (wo?, dative); Sie-imperative with the prefix at the end.",
       },
       {
         type: "word-order",
@@ -1463,10 +1463,10 @@ export const DE_A2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is the next step: 'Then turn left.' (formal)",
+        question: "Which next step is correct?",
         options: ["Dann biegen Sie links ab.", "Dann Sie biegen links ab.", "Dann Sie links abbiegen.", "Dann biegen links Sie ab."],
         correctIndex: 0,
-        explanation: "\"Dann\" is position 1, so the verb comes next: \"Dann biegen Sie\". \"*Dann Sie biegen*\" puts the verb third.",
+        explanation: "\"Dann\" is position 1, so the verb comes next.",
       },
       {
         type: "word-order",

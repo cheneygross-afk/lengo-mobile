@@ -186,7 +186,7 @@ export const PT_C2_U19_EXTRA: Lesson[] = [
         type: "speak",
         text: "Por mais difícil que seja, a decisão é necessária.",
         prompt: "Say it in Portuguese: However hard it may be, the decision is necessary.",
-        tip: "Stress jee-FÍ-sil and ne-ces-SÁ-ria; the ss and c in \"necessária\" are both a clear s.",
+        tip: "Stress di-FÍ-cil and ne-ces-SÁ-ria; the ss and c in \"necessária\" are both a clear s.",
         explanation: "\"Por mais\" + adjective + \"que\" + subjunctive.",
       },
       {
@@ -594,7 +594,7 @@ export const PT_C2_U19_EXTRA: Lesson[] = [
         type: "speak",
         text: "Acho que estamos falando de coisas diferentes.",
         prompt: "Say it in Portuguese: I think we're talking about different things.",
-        tip: "Keep it slow and level, and nasalize \"diferentes\": jee-fe-RÊN-chees.",
+        tip: "Keep it slow and level, and nasalize \"diferentes\": di-fe-RÊN-tchis.",
         explanation: "Reframing the clash as a misunderstanding lowers the temperature.",
       },
       {

@@ -77,7 +77,7 @@ export const PT_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Tudo ótimo, e você?",
-            tip: "Stress the first syllable of ótimo, with an open ó: 'Ó-chee-moo'. The ê in você is closed, like the e in they.",
+            tip: "Stress the first syllable of ótimo: Ó-ti-mo. The ê in você is closed, like the e in they.",
             explanation: "\"Tudo ótimo\" answers \"tudo bem?\", and \"e você?\" asks it back.",
           },
         ],
@@ -467,7 +467,7 @@ export const PT_A1_U01: Lesson[] = [
         type: "speak",
         text: "Somos de Salvador.",
         prompt: "Say it in Portuguese: We're from Salvador.",
-        tip: "Say 'SÔ-moos': the first o is closed, and the last one sounds like oo.",
+        tip: "Say SÔ-mus: the first o is closed, and the last one sounds like u.",
         explanation: "\"Somos de Salvador\": \"nós\" is dropped because \"somos\" already means we are.",
       },
       {
@@ -670,7 +670,7 @@ export const PT_A1_U01: Lesson[] = [
       {
         type: "dictation",
         audio: "Muito prazer, Mariana.",
-        explanation: "\"Muito prazer\": \"muito\" sounds nasal in Brazil, close to 'MŨY-too'.",
+        explanation: "\"Muito prazer\": \"muito\" sounds nasal in Brazil, close to 'muintu'.",
       },
       {
         type: "speak",
@@ -937,7 +937,7 @@ export const PT_A1_U01: Lesson[] = [
       {
         heading: "Brasileira, inglesa: women and groups",
         body: [
-          "A nationality agrees with the person. Words in -o switch to -a for a woman: \"brasileiro\" becomes \"brasileira\", \"argentino\" becomes \"argentina\". Words in -ês add -a and drop the accent: \"português\" becomes \"portuguesa\", \"inglês\" becomes \"inglesa\", \"francês\" becomes \"francesa\", \"japonês\" becomes \"japonesa\".",
+          "A nationality agrees with the person. Words in -o switch to -a for a woman: \"brasileiro\" → \"brasileira\", \"argentino\" → \"argentina\". Words in -ês add -a and drop the accent: \"português\" → \"portuguesa\", \"inglês\" → \"inglesa\", \"francês\" → \"francesa\", \"japonês\" → \"japonesa\".",
           "\"Canadense\" ends in -e and never changes: \"ele é canadense\", \"ela é canadense\".",
           "For the plural, add -s: \"brasileiros\", \"brasileiras\", \"canadenses\". The -ês words add -es: \"ingleses\", \"franceses\", \"portugueses\". A group of men and women takes the masculine: \"eles são brasileiros\".",
         ],
@@ -968,7 +968,7 @@ export const PT_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Elas são inglesas.",
-            tip: "The s in inglesas sits between two vowels, so it sounds like a z: 'ĩ-GLAY-zahs'.",
+            tip: "The s in inglesas sits between two vowels, so it sounds like a z: 'een-GLAY-zahs'.",
             explanation: "\"Elas são\" for a group of women, and the nationality is feminine plural: \"inglesas\".",
           },
         ],
@@ -1056,7 +1056,7 @@ export const PT_A1_U01: Lesson[] = [
         prompt: "Put the words in order to say: Are you from the United States?",
         words: ["Você", "é", "dos", "Estados", "Unidos?"],
         translation: "Are you from the United States?",
-        explanation: "\"Dos\" is \"de\" + \"os\", because \"os Estados Unidos\" is plural.",
+        explanation: "\"Dos\" = \"de\" + \"os\", because \"os Estados Unidos\" is plural.",
       },
       {
         type: "translate",
@@ -1129,9 +1129,9 @@ export const PT_A1_U01: Lesson[] = [
       {
         heading: "Médico, médica: jobs for men and women",
         body: [
-          "Most job words work like nationalities: -o for a man, -a for a woman. \"Médico\" or \"médica\" (doctor), \"engenheiro\" or \"engenheira\" (engineer), \"advogado\" or \"advogada\" (lawyer), \"enfermeiro\" or \"enfermeira\" (nurse), \"cozinheiro\" or \"cozinheira\" (cook). \"Professor\" simply adds -a: \"professora\".",
+          "Most job words work like nationalities: -o for a man, -a for a woman. \"Médico\" / \"médica\" (doctor), \"engenheiro\" / \"engenheira\" (engineer), \"advogado\" / \"advogada\" (lawyer), \"enfermeiro\" / \"enfermeira\" (nurse), \"cozinheiro\" / \"cozinheira\" (cook). \"Professor\" simply adds -a: \"professora\".",
           "Jobs ending in -e or -ista never change: \"estudante\", \"motorista\" (driver), \"dentista\". The same word works for him and her: \"ele é dentista\", \"ela é dentista\".",
-          "Watch the stress: \"médico\" is stressed on the first syllable, 'MÉ-jee-koo', as the accent shows. \"Professor\" means any teacher, from elementary school to university.",
+          "Watch the stress: \"médico\" is stressed on the first syllable, MÉ-di-co, as the accent shows. \"Professor\" means any teacher, from primary school to university.",
         ],
         examples: [
           { es: "Ela é médica.", en: "She's a doctor." },
@@ -1416,7 +1416,7 @@ export const PT_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Nós somos brasileiros.",
-            tip: "Stress the first syllable: 'SÔ-moos'. The final o of somos and brasileiros sounds close to oo.",
+            tip: "Stress SO in somos. The final o of somos and brasileiros sounds close to u.",
             explanation: "\"Nós somos\" goes with a plural nationality: \"brasileiros\".",
           },
         ],
@@ -1606,7 +1606,7 @@ export const PT_A1_U01: Lesson[] = [
       {
         heading: "Ser in every person",
         body: [
-          "\"Ser\" has four present forms: \"eu sou\", \"você, ele, ela é\", \"nós somos\", \"vocês, eles, elas são\". Drop \"eu\" and \"nós\" freely, since \"sou\" and \"somos\" already say who.",
+          "\"Ser\" has four present forms: \"eu sou\", \"você / ele / ela é\", \"nós somos\", \"vocês / eles / elas são\". Drop \"eu\" and \"nós\" freely, since \"sou\" and \"somos\" already say who.",
           "Listen for the accent: \"é\" (is) is an open, stressed vowel; \"e\" (and) is a quick, weak i sound. \"Ela é professora e ele é médico\" uses both.",
         ],
         examples: [
@@ -1752,14 +1752,14 @@ export const PT_A1_U01: Lesson[] = [
         type: "speak",
         text: "Oi, meu nome é Rafael. Sou de Salvador.",
         prompt: "Say it in Portuguese: Hi, my name is Rafael. I'm from Salvador.",
-        tip: "The final e in \"nome\" sounds like a short ee: 'NÔ-mee'.",
+        tip: "The final e in \"nome\" sounds like a short i: \"nomi\".",
         explanation: "\"Meu nome é...\" to give your name, then \"sou de\" + city, dropping \"eu\".",
       },
       {
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Boa noite", right: "Good evening, good night" },
+          { left: "Boa noite", right: "Good evening / good night" },
           { left: "Até logo", right: "See you later" },
           { left: "De nada", right: "You're welcome" },
           { left: "Com licença", right: "Excuse me" },
@@ -1783,7 +1783,7 @@ export const PT_A1_U01: Lesson[] = [
     level: "PT-A1",
     number: 9,
     title: "Error Hunt: Ser, Nationalities & Jobs",
-    summary: "Spot and fix the classic beginner mistakes with ser, jobs, nationalities and obrigado and obrigada.",
+    summary: "Spot and fix the classic beginner mistakes with ser, jobs, nationalities and obrigado / obrigada.",
     duration: "10 min",
     kind: "drill",
     format: "Error Hunt",
@@ -2335,7 +2335,7 @@ export const PT_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Sou estudante. Tchau, pessoal!",
-            tip: "In \"estudante\" the final -e sounds like i, and the t before it like ch: 'es-too-DÃ-chee'.",
+            tip: "In \"estudante\" the final -e sounds like i, and the t before it like ch: 'es-too-DAHN-chee'.",
             explanation: "\"Sou estudante\" needs no article, and \"estudante\" is the same for men and women.",
           },
         ],
@@ -2635,7 +2635,7 @@ export const PT_A1_U01: Lesson[] = [
         type: "speak",
         text: "Muito prazer, eu sou de Recife.",
         prompt: "Say it in Portuguese: Nice to meet you, I'm from Recife.",
-        tip: "The \"ui\" in \"muito\" is nasal, close to 'MŨY-too'.",
+        tip: "The \"ui\" in \"muito\" is nasal, close to 'muintu'.",
         explanation: "\"Muito prazer\" answers an introduction, and \"sou de\" + city gives your origin.",
       },
       {

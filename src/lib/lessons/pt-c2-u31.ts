@@ -811,7 +811,7 @@ export const PT_C2_U31: Lesson[] = [
               "A paragraph comparing e-waste figures across continents",
               "The heavy metals released by phones in ordinary garbage",
               "The gold, silver and copper that can be recovered",
-              "The law that obliges stores to take devices back",
+              "The law that obliges shops to take devices back",
             ],
             correctIndex: 0,
             explanation: "Continental comparisons don't move a family to act. The danger, the value and the practical path all serve the propósito of the campaign.",
@@ -827,7 +827,7 @@ export const PT_C2_U31: Lesson[] = [
         examples: [
           { es: "O descarte de celulares no lixo comum libera metais pesados.", en: "Throwing phones away with ordinary garbage releases heavy metals. (verb turned into a noun)" },
           { es: "Sabe aquele celular antigo esquecido na gaveta?", en: "You know that old phone forgotten in the drawer? (the reader's point of view)" },
-          { es: "Por lei, as lojas são obrigadas a aceitar os aparelhos usados.", en: "By law, stores are obliged to accept used devices. (active turned passive)" },
+          { es: "Por lei, as lojas são obrigadas a aceitar os aparelhos usados.", en: "By law, shops are obliged to accept used devices. (active turned passive)" },
           { es: "O que parece lixo é, na verdade, uma pequena mina de ouro, prata e cobre.", en: "What looks like garbage is in fact a small mine of gold, silver and copper. (reframed)" },
           { es: "Esquecidos em gavetas ou jogados no lixo comum, os aparelhos antigos poluem e desperdiçam metais valiosos.", en: "Forgotten in drawers or thrown out with ordinary garbage, old devices pollute and waste valuable metals. (condensed)" },
         ],
@@ -926,7 +926,7 @@ export const PT_C2_U31: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[By law], stores are obliged to accept used devices.",
+        en: "[By law], shops are obliged to accept used devices.",
         sentence: "___, as lojas são obrigadas a aceitar os aparelhos usados.",
         answer: "Por lei",
         explanation: "\"Por lei\" (by law) has no article. The passive \"são obrigadas a\" rebuilds the source's active sentence.",
@@ -1794,9 +1794,9 @@ export const PT_C2_U31: Lesson[] = [
         examples: [
           { es: "Cê tá sabendo que a reunião mudou pra quinta?", en: "Did you hear the meeting's been moved to Thursday?" },
           { es: "Peraí, num é isso que eu falei.", en: "Hang on, that's not what I said." },
-          { es: "Cadê o pessoal? Já era pra ter chegado.", en: "Where is everyone? They should have gotten here by now." },
+          { es: "Cadê o pessoal? Já era pra ter chegado.", en: "Where is everyone? They should have got here by now." },
           { es: "Sei lá, acho que ele nem tá aí pra isso.", en: "No idea, I don't think he cares about it at all." },
-          { es: "Tô indo, tô indo! Bora?", en: "I'm coming, I'm coming! Should we go?" },
+          { es: "Tô indo, tô indo! Bora?", en: "I'm coming, I'm coming! Shall we go?" },
         ],
         checkpoint: [
           {
@@ -1809,7 +1809,7 @@ export const PT_C2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into informal spoken Portuguese.",
-            source: "Where is everyone? They should have gotten here by now.",
+            source: "Where is everyone? They should have got here by now.",
             answer: "Cadê o pessoal? Já era pra ter chegado.",
             altAnswers: [
               "Cadê o pessoal? Já era para ter chegado.",
@@ -2036,7 +2036,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into informal spoken Portuguese.",
-        source: "I'm coming, I'm coming! Should we go?",
+        source: "I'm coming, I'm coming! Shall we go?",
         answer: "Tô indo, tô indo! Bora?",
         altAnswers: [
           "Estou indo, estou indo! Bora?",
@@ -2749,6 +2749,7 @@ export const PT_C2_U31: Lesson[] = [
         answer: "Refiro-me à proposta apresentada ontem.",
         altAnswers: [
           "Eu me refiro à proposta apresentada ontem.",
+          "Me refiro à proposta apresentada ontem.",
           "Estou me referindo à proposta apresentada ontem.",
           "Refiro-me à proposta feita ontem.",
         ],
@@ -3097,11 +3098,11 @@ export const PT_C2_U31: Lesson[] = [
 
 export const PT_C2_U31_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Celpe-Bras task at the top band. You run a bookstore on Rua Sapucaí in Belo Horizonte. The local newspaper has just published a report on City Hall's plan to close the street to cars every Sunday and turn it into a leisure area. The report gives the results of a three-month pilot: visitors up by about 40%, families and cyclists enthusiastic, cafés and bars selling more, but some stores (yours among them) selling less because regular customers can no longer park nearby. Write a carta de leitor to the newspaper that refers to the report, takes a nuanced position, uses the report's information in your own words and proposes a compromise. Sign with your name, occupation and neighborhood (250-400 words).",
+  prompt: "A Celpe-Bras task at the top band. You run a bookstore on Rua Sapucaí in Belo Horizonte. The local newspaper has just published a report on City Hall's plan to close the street to cars every Sunday and turn it into a leisure area. The report gives the results of a three-month pilot: visitors up by about 40%, families and cyclists enthusiastic, cafés and bars selling more, but some shops (yours among them) selling less because regular customers can no longer park nearby. Write a carta de leitor to the newspaper that refers to the report, takes a nuanced position, uses the report's information in your own words and proposes a compromise. Sign with your name, occupation and neighborhood (250-400 words).",
   minWords: 250,
   maxWords: 400,
   rubric: [
-    "Adequação contextual: write as a store owner on the street, to the newspaper's readers, referring to the report at the start (\"Li com atenção a reportagem publicada...\") and closing with a signature that names your role (\"livreiro\", \"comerciante da Rua Sapucaí\").",
+    "Adequação contextual: write as a shopkeeper on the street, to the newspaper's readers, referring to the report at the start (\"Li com atenção a reportagem publicada...\") and closing with a signature that names your role (\"livreiro\", \"comerciante da Rua Sapucaí\").",
     "Transform the source instead of copying it: attribute the figures (\"segundo a reportagem\", \"cerca de 40%\") and turn them into arguments for your position and your proposal.",
     "Argue with nuance: concede what is true (\"É verdade que...\", \"Não se trata de ser contra...\"), then refute (\"No entanto\", \"o que a reportagem não mostra é que...\") and propose a compromise with \"desde que\" or \"de modo que\" + subjunctive.",
     "Keep the norma culta of a published letter: crase (\"aos domingos\", \"à prefeitura\", \"às famílias\"), agreement with \"a maioria dos\", clitics after attractors (\"não se pode\"), and no slang or \"a gente\".",

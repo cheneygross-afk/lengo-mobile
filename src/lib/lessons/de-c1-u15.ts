@@ -655,7 +655,7 @@ export const DE_C1_U15: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Real-World Mission: Grocery Shopping in Three Markets",
-    summary: "Shop at a Berlin \"Späti\" and supermarket, Vienna's Naschmarkt and a Zurich Migros: order bread, cheese and vegetables with the local words, and pay.",
+    summary: "Shop at a Berlin Späti and supermarket, Vienna's Naschmarkt and a Zurich Migros: order bread, cheese and vegetables with the local words, and pay.",
     duration: "18 min",
     sections: [
       {

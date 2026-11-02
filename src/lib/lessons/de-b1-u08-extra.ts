@@ -424,10 +424,10 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'd help you if I could.' (to a friend)?",
+        question: "Which sentence is correct?",
         options: ["Ich würde dir helfen, wenn ich könnte.", "Ich würde dir helfen, wenn könnte ich.", "Würde ich dir helfen, wenn ich könnte.", "Ich würde dir helfen, ich könnte wenn."],
         correctIndex: 0,
-        explanation: "The main clause comes first in normal order, and \"könnte\" goes to the end of the wenn-clause. \"*wenn könnte ich*\" keeps question order inside the clause.",
+        explanation: "Main clause first in normal order; \"könnte\" at the end.",
       },
       {
         type: "word-order",
@@ -568,10 +568,10 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Complete correctly: 'If I drink more coffee, I sleep worse.' \"Wenn ich mehr Kaffee trinke, ...\"",
+        question: "Which continues the chain correctly? \"Wenn ich mehr Kaffee trinke, ...\"",
         options: ["schlafe ich schlechter.", "ich schlafe schlechter.", "würde ich schlechter geschlafen.", "schlief ich schlechter."],
         correctIndex: 0,
-        explanation: "A real link takes the present indicative, and the main clause starts with its verb: \"schlafe ich\". \"*ich schlafe schlechter*\" puts the subject first after the wenn-clause.",
+        explanation: "Real chain: present indicative, verb first.",
       },
       {
         type: "word-order",
@@ -1017,10 +1017,10 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'If you have any questions, call me.' (to a friend)?",
+        question: "Which is correct?",
         options: ["Wenn du Fragen hast, ruf mich an.", "Wenn du Fragen hast, du rufst mich an.", "Wenn du hast Fragen, ruf mich an.", "Ob du Fragen hast, ruf mich an."],
         correctIndex: 0,
-        explanation: "Verb last in the wenn-clause, then the imperative \"ruf\" first. \"*du rufst mich an*\" is a statement, not an instruction, and has the subject first.",
+        explanation: "Verb last in the condition; imperative first after it.",
       },
       {
         type: "word-order",
@@ -1176,10 +1176,10 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm taking a jacket in case it gets cold.'?",
+        question: "Which is correct?",
         options: ["Ich nehme eine Jacke mit, falls es kalt wird.", "Ich nehme eine Jacke mit, falls es wird kalt.", "Ich nehme mit eine Jacke, falls es kalt wird.", "Ich nehme eine Jacke mit, ob es kalt wird."],
         correctIndex: 0,
-        explanation: "\"Mit\" goes to the end of the main clause, and \"wird\" to the end of the falls-clause. \"*falls es wird kalt*\" keeps main-clause order.",
+        explanation: "Separable prefix at the end of the main clause; verb at the end of the \"falls\" clause.",
       },
       {
         type: "word-order",

@@ -23,7 +23,7 @@ export const PT_B1_U34: Lesson[] = [
           { es: "Escreva uma carta para a seção do leitor do jornal da cidade.", en: "Write a letter to the readers' section of the city newspaper." },
           { es: "Na carta, reclame do barulho das obras durante a madrugada.", en: "In the letter, complain about the noise of the construction in the middle of the night." },
           { es: "Você é professor de uma escola municipal em Belém.", en: "You're a teacher at a city-run school in Belém." },
-          { es: "Escreva um e-mail para os pais dos alunos convidando-os para a feira de ciências.", en: "Write an email to the students' parents inviting them to the science fair." },
+          { es: "Escreva um e-mail para os pais dos alunos convidando-os para a feira de ciências.", en: "Write an email to the pupils' parents inviting them to the science fair." },
         ],
         checkpoint: [
           {
@@ -220,7 +220,7 @@ export const PT_B1_U34: Lesson[] = [
         type: "speak",
         text: "Quem sou eu, para quem escrevo e para que escrevo?",
         prompt: "Say it in Portuguese: Who am I, who am I writing to and what am I writing for?",
-        tip: "\"Escrevo\" has a closed ê, like the e in they; the final o sounds like oo.",
+        tip: "\"Escrevo\" has a closed ê, like the e in they; the final o sounds like u.",
         explanation: "The three questions to answer before writing: enunciador, interlocutor and propósito.",
       },
       {
@@ -445,7 +445,7 @@ export const PT_B1_U34: Lesson[] = [
         type: "speak",
         text: "Atenciosamente, Mariana Souza.",
         prompt: "Say it in Portuguese: Sincerely, Mariana Souza.",
-        tip: "\"Atenciosamente\": a-tẽn-syo-za-MẼN-chee; the final -te sounds like chee.",
+        tip: "\"Atenciosamente\": a-ten-si-o-za-MEN-chi; the final -te sounds like chi.",
         explanation: "The standard formal sign-off, followed by your full name.",
       },
       {
@@ -655,7 +655,7 @@ export const PT_B1_U34: Lesson[] = [
         type: "speak",
         text: "Pedimos que todos os pais levem os filhos ao posto de saúde.",
         prompt: "Say it in Portuguese: We ask all parents to take their children to the health center.",
-        tip: "\"Levem\" ends in a nasal sound, LÉ-vẽy, without a hard m.",
+        tip: "\"Levem\" ends in a nasal sound, like leh-vẽy, without a hard m.",
         explanation: "\"Pedimos que\" + subjunctive \"levem\": the call to action of the notice.",
       },
       {
@@ -701,7 +701,7 @@ export const PT_B1_U34: Lesson[] = [
           { es: "Nos últimos cinco anos, o número de ônibus em circulação caiu 15%.", en: "In the last five years, the number of buses in service fell by 15%." },
           { es: "Mais da metade dos passageiros reclama da lotação nos horários de pico.", en: "Over half the passengers complain about overcrowding at peak times." },
           { es: "Nos bairros da periferia, a espera no ponto chega ao dobro do tempo do centro.", en: "In the outlying neighborhoods, the wait at the stop is up to twice as long as in the center." },
-          { es: "A prefeitura promete criar cerca de trinta quilômetros de faixas exclusivas.", en: "City hall promises to create about thirty kilometers of bus lanes." },
+          { es: "A prefeitura promete criar cerca de trinta quilômetros de faixas exclusivas.", en: "The city council promises to create about thirty kilometers of bus lanes." },
           { es: "O projeto ainda precisa ser aprovado pela Câmara Municipal.", en: "The plan still needs to be approved by the City Council." },
         ],
         checkpoint: [
@@ -725,7 +725,7 @@ export const PT_B1_U34: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "City hall promises to create [about] thirty kilometers of bus lanes.",
+            en: "The council promises to create [about] thirty kilometers of bus lanes.",
             sentence: "A prefeitura promete criar ___ trinta quilômetros de faixas exclusivas.",
             answer: "cerca de",
             altAnswers: ["aproximadamente", "uns", "perto de"],
@@ -740,7 +740,7 @@ export const PT_B1_U34: Lesson[] = [
           "Use the data as evidence, not decoration. Introduce each figure with its source and tie it to your neighborhood: \"Segundo uma reportagem da rádio, a espera chega ao dobro do tempo nos bairros afastados. Em Venda Nova, isso significa...\". Two or three figures are enough.",
         ],
         examples: [
-          { es: "Prezado Vereador Antônio Ribeiro,", en: "Dear Council Member Antônio Ribeiro," },
+          { es: "Prezado Vereador Antônio Ribeiro,", en: "Dear Councillor Antônio Ribeiro," },
           { es: "Sou moradora de Venda Nova e uso o ônibus todos os dias.", en: "I live in Venda Nova and I take the bus every day." },
           { es: "Segundo uma reportagem que ouvi na rádio, a frota de ônibus diminuiu nos últimos anos.", en: "According to a radio report I heard, the bus fleet has shrunk in recent years." },
           { es: "Em Venda Nova, isso significa esperar quase meia hora no ponto.", en: "In Venda Nova, that means waiting almost half an hour at the stop." },
@@ -876,7 +876,7 @@ export const PT_B1_U34: Lesson[] = [
       {
         type: "speak",
         text: "Prezado Vereador, sou moradora de Venda Nova e escrevo para pedir o seu apoio.",
-        prompt: "Say it in Portuguese (as a woman): Dear Council Member, I live in Venda Nova and I'm writing to ask for your support.",
+        prompt: "Say it in Portuguese (as a woman): Dear Councillor, I live in Venda Nova and I'm writing to ask for your support.",
         tip: "\"Vereador\": ve-re-a-DOR; the final r is a soft h sound in Belo Horizonte.",
         explanation: "Greeting, role and purpose in one opening sentence, as the examiners want.",
       },
@@ -1138,7 +1138,7 @@ export const PT_B1_U34: Lesson[] = [
           { es: "O principal arraial fica na Praça Maria Aragão, no centro da cidade.", en: "The main festival ground is in Maria Aragão Square, in the city center." },
           { es: "A entrada é gratuita, mas as barracas de comida cobram à parte.", en: "Entry is free, but the food stalls charge separately." },
           { es: "Os grupos de bumba meu boi se apresentam a partir das 21h.", en: "The bumba meu boi groups perform from 9 p.m." },
-          { es: "A prefeitura vai oferecer ônibus extras até as duas da manhã.", en: "City hall will run extra buses until two in the morning." },
+          { es: "A prefeitura vai oferecer ônibus extras até as duas da manhã.", en: "The council will run extra buses until two in the morning." },
           { es: "Entre os pratos típicos estão o arroz de cuxá e o bolo de tapioca.", en: "Typical dishes include arroz de cuxá and tapioca cake." },
         ],
         checkpoint: [
@@ -1436,7 +1436,7 @@ export const PT_B1_U34: Lesson[] = [
           { es: "O aumento dos preços preocupa as famílias.", en: "The rise in prices worries families." },
           { es: "O fechamento da biblioteca prejudicou os estudantes.", en: "The closure of the library hurt the students." },
           { es: "A construção do viaduto vai levar dois anos.", en: "Building the overpass will take two years." },
-          { es: "A prefeitura lançou uma campanha. Essa iniciativa quer reduzir o lixo.", en: "City hall launched a campaign. This initiative aims to reduce litter." },
+          { es: "A prefeitura lançou uma campanha. Essa iniciativa quer reduzir o lixo.", en: "The council launched a campaign. This initiative aims to reduce litter." },
           { es: "Li a proposta e espero que os vereadores a aprovem.", en: "I read the proposal and I hope the council members approve it." },
         ],
         checkpoint: [
@@ -1498,7 +1498,7 @@ export const PT_B1_U34: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "City hall launched a campaign. [This initiative] aims to reduce waste.",
+        en: "The council launched a campaign. [This initiative] aims to reduce waste.",
         sentence: "A prefeitura lançou uma campanha. ___ quer reduzir o desperdício.",
         answer: "Essa iniciativa",
         altAnswers: ["Esta iniciativa", "A iniciativa", "Essa ação"],
@@ -1622,7 +1622,7 @@ export const PT_B1_U34: Lesson[] = [
           { es: "A ciclovia da avenida está em péssimo estado.", en: "The bike lane on the avenue is in a terrible state." },
           { es: "Queria te contar que passei na prova!", en: "I wanted to tell you that I passed the exam!" },
           { es: "Caso não seja possível, peço que me informem uma alternativa.", en: "If that isn't possible, please let me know an alternative." },
-          { es: "Na minha opinião, a prefeitura precisa investir na manutenção.", en: "In my opinion, city hall needs to invest in maintenance." },
+          { es: "Na minha opinião, a prefeitura precisa investir na manutenção.", en: "In my opinion, the council needs to invest in maintenance." },
         ],
         checkpoint: [
           {
@@ -1678,7 +1678,7 @@ export const PT_B1_U34: Lesson[] = [
             type: "speak",
             text: "Agradeço a atenção e fico no aguardo da sua resposta.",
             prompt: "Say it in Portuguese: Thank you for your attention; I look forward to your reply.",
-            tip: "\"Aguardo\": a-GWAR-doo; the u after g is pronounced.",
+            tip: "\"Aguardo\": a-GWAR-du; the u after g is pronounced.",
             explanation: "A complete closing line, ready for \"Atenciosamente\" and your name.",
           },
         ],
@@ -1722,7 +1722,7 @@ export const PT_B1_U34: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "A learner wrote \"segundo eu\". Write the Portuguese for the bold words.",
-        en: "[In my opinion], city hall needs to invest in maintenance.",
+        en: "[In my opinion], the council needs to invest in maintenance.",
         sentence: "___, a prefeitura precisa investir na manutenção.",
         answer: "Na minha opinião",
         altAnswers: ["Para mim", "No meu ponto de vista", "Do meu ponto de vista", "Na minha visão"],
@@ -1881,7 +1881,7 @@ export const PT_B1_U34: Lesson[] = [
           { es: "Quando eu morava em Recife, ia à feira todo domingo.", en: "When I lived in Recife, I used to go to the market every Sunday." },
           { es: "Lá é diferente, porque faz muito frio no inverno.", en: "It's different there, because it gets very cold in winter." },
           { es: "Eu gostaria de ter uma feira perto de casa.", en: "I'd like to have a market near home." },
-          { es: "No lugar da prefeitura, eu apoiaria os pequenos produtores.", en: "If I were running city hall, I'd support small producers." },
+          { es: "No lugar da prefeitura, eu apoiaria os pequenos produtores.", en: "If I were the council, I'd support small producers." },
         ],
         checkpoint: [
           {
@@ -2274,7 +2274,7 @@ export const PT_B1_U34: Lesson[] = [
             source: "Does the text achieve its purpose?",
             answer: "O texto cumpre o seu propósito?",
             altAnswers: ["O texto cumpre seu propósito?", "O texto cumpre o propósito?", "O texto atinge o seu propósito?", "O texto atinge o propósito?", "O texto alcança o seu propósito?"],
-            explanation: "\"Cumprir\" (fulfill) or \"atingir\" (reach) a purpose. \"Propósito\" is the purpose, not on purpose.",
+            explanation: "\"Cumprir\" (fulfil) or \"atingir\" (reach) a purpose. \"Propósito\" is the purpose, not on purpose.",
           },
         ],
       },
@@ -2474,7 +2474,7 @@ export const PT_B1_U34: Lesson[] = [
         ],
         examples: [
           { es: "A biblioteca vai deixar de abrir aos sábados a partir de março.", en: "The library will stop opening on Saturdays from March." },
-          { es: "Segundo a prefeitura, a medida é necessária por falta de funcionários.", en: "According to city hall, the measure is needed because of a staff shortage." },
+          { es: "Segundo a prefeitura, a medida é necessária por falta de funcionários.", en: "According to the council, the measure is needed because of a staff shortage." },
           { es: "A biblioteca recebe cerca de 400 visitantes por fim de semana.", en: "The library gets about 400 visitors per weekend." },
           { es: "Posição: sou contra o fechamento aos sábados.", en: "Position: I'm against closing on Saturdays." },
           { es: "Alternativa: fechar numa segunda-feira, quando o movimento é menor.", en: "Alternative: close on a Monday, when it's quieter." },
@@ -2509,7 +2509,7 @@ export const PT_B1_U34: Lesson[] = [
           { es: "Moro no bairro e frequento a biblioteca todos os sábados.", en: "I live in the neighborhood and go to the library every Saturday." },
           { es: "Como a maior parte dos visitantes é de estudantes, são eles os mais prejudicados.", en: "As most visitors are students, they're the ones who lose out most." },
           { es: "Embora a falta de funcionários seja um problema real, existem outras soluções.", en: "Although the staff shortage is a real problem, there are other solutions." },
-          { es: "Sugiro que a prefeitura feche a biblioteca às segundas, quando o movimento é menor.", en: "I suggest city hall close the library on Mondays, when it's quieter." },
+          { es: "Sugiro que a prefeitura feche a biblioteca às segundas, quando o movimento é menor.", en: "I suggest the council close the library on Mondays, when it's quieter." },
         ],
         checkpoint: [
           {
@@ -2524,7 +2524,7 @@ export const PT_B1_U34: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I suggest city hall [close] the library on Mondays.",
+            en: "I suggest the council [close] the library on Mondays.",
             sentence: "Sugiro que a prefeitura ___ a biblioteca às segundas.",
             answer: "feche",
             explanation: "\"Sugerir que\" + subjunctive: \"feche\" (from \"fecho\"). The proposal is the second job of the task.",
@@ -2555,8 +2555,8 @@ export const PT_B1_U34: Lesson[] = [
           {
             type: "speak",
             text: "Sugiro que a prefeitura feche a biblioteca às segundas, quando o movimento é menor.",
-            prompt: "Say it in Portuguese: I suggest city hall close the library on Mondays, when it's quieter.",
-            tip: "\"Feche\": the ch is like English sh, and the first e is closed and the final e sounds like ee: FÊ-shee.",
+            prompt: "Say it in Portuguese: I suggest the council close the library on Mondays, when it's quieter.",
+            tip: "\"Feche\": the ch is like English sh, and the e is closed and the final e sounds like i: FÊ-shi.",
             explanation: "\"Sugiro que\" + subjunctive, then \"quando\" + indicative for a known fact.",
           },
         ],
@@ -2593,10 +2593,10 @@ export const PT_B1_U34: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "According to city hall, the measure is necessary because of a lack of staff.",
+        source: "According to the council, the measure is necessary because of a lack of staff.",
         answer: "Segundo a prefeitura, a medida é necessária por falta de funcionários.",
         altAnswers: ["De acordo com a prefeitura, a medida é necessária por falta de funcionários.", "Segundo a prefeitura, a medida é necessária devido à falta de funcionários.", "Segundo a prefeitura, a medida é necessária por causa da falta de funcionários.", "Conforme a prefeitura, a medida é necessária por falta de funcionários.", "De acordo com a prefeitura, a medida é necessária por causa da falta de funcionários."],
-        explanation: "Attribute the city hall's reason to city hall: \"segundo a prefeitura\". \"Por falta de\" gives a cause without an article.",
+        explanation: "Attribute the council's reason to the council: \"segundo a prefeitura\". \"Por falta de\" gives a cause without an article.",
       },
       {
         type: "multiple-choice",
@@ -2634,9 +2634,9 @@ export const PT_B1_U34: Lesson[] = [
         type: "listen-choose",
         audio: "Embora a falta de funcionários seja um problema real, existem outras soluções.",
         question: "What does the writer do in this sentence?",
-        options: ["Accepts there's a problem but says there are other solutions", "Denies there's any staff shortage", "Agrees completely with city hall", "Asks city hall for more information"],
+        options: ["Accepts there's a problem but says there are other solutions", "Denies there's any staff shortage", "Agrees completely with the council", "Asks the council for more information"],
         correctIndex: 0,
-        explanation: "\"Embora\" concedes city hall's point, then the main clause pushes back. This is how a carta do leitor shows balance.",
+        explanation: "\"Embora\" concedes the council's point, then the main clause pushes back. This is how a carta do leitor shows balance.",
       },
       {
         type: "dictation",
@@ -2647,7 +2647,7 @@ export const PT_B1_U34: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I hope city hall reconsiders the decision.",
+        source: "I hope the council reconsiders the decision.",
         answer: "Espero que a prefeitura reveja a decisão.",
         altAnswers: ["Espero que a prefeitura reconsidere a decisão.", "Eu espero que a prefeitura reveja a decisão.", "Eu espero que a prefeitura reconsidere a decisão.", "Tomara que a prefeitura reveja a decisão.", "Espero que a prefeitura repense a decisão."],
         explanation: "\"Esperar que\" + subjunctive. \"Rever\" follows \"ver\": \"revejo\" → \"reveja\". \"Reconsidere\" is regular.",

@@ -69,7 +69,7 @@ export const PT_B2_U29: Lesson[] = [
           { es: "Entra, fica à vontade!", en: "Come in, make yourself comfortable!" },
           { es: "A casa é sua, viu?", en: "Make yourself at home, OK?" },
           { es: "Aceita um cafezinho ou uma água?", en: "Would you like a coffee or some water?" },
-          { es: "Come mais um pouquinho, tem muita comida!", en: "Have a bit more, there's plenty of food!" },
+          { es: "Come mais um pouquinho, tem muita comida!", en: "Have a bit more, there's loads of food!" },
           { es: "Tô satisfeito, sério. Estava uma delícia!", en: "I'm full, honestly. It was delicious!" },
           { es: "Só um pouquinho, então.", en: "Just a little, then." },
         ],
@@ -359,7 +359,7 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "Quando você for convidado: advice with the future subjunctive",
         body: [
-          "Advice about social situations is about future events that will happen, so Portuguese uses \"quando\" + future subjunctive (Unit 4): \"quando você for convidado para as oito, chegue lá pelas oito e meia\". The trap is copying English and writing \"quando você é convidado\", which describes a habit, not a coming occasion.",
+          "Advice about social situations is about future events that will happen, so Portuguese uses \"quando\" + future subjunctive (Unit 3): \"quando você for convidado para as oito, chegue lá pelas oito e meia\". The trap is copying English and writing \"quando você é convidado\", which describes a habit, not a coming occasion.",
           "The same goes for \"se\" with a likely condition and for \"assim que\": \"se você for se atrasar, avise\", \"assim que souber, me fala\". The main clause is often a command, standard (\"avise\", \"chegue\") or spoken (\"avisa\", \"chega\").",
         ],
         examples: [
@@ -535,7 +535,7 @@ export const PT_B2_U29: Lesson[] = [
           "\"Quebrar o galho\" (literally to break the branch) is to help out, often with an improvised fix: \"o vizinho quebrou o galho e me emprestou a furadeira\". Something that \"quebra o galho\" is a stopgap: \"não é o ideal, mas quebra o galho\". \"Dá-se um jeito\" or \"a gente dá um jeito\" is a reassuring promise: we'll manage.",
         ],
         examples: [
-          { es: "Não tem mais vaga, mas vou ver se dou um jeito.", en: "There are no spots left, but I'll see if I can sort something out." },
+          { es: "Não tem mais vaga, mas vou ver se dou um jeito.", en: "There are no places left, but I'll see if I can sort something out." },
           { es: "O vizinho quebrou o galho e me emprestou a furadeira.", en: "My neighbor helped me out and lent me his drill." },
           { es: "Esse carregador não é o ideal, mas quebra o galho.", en: "This charger isn't ideal, but it'll do for now." },
           { es: "Fica tranquila, a gente dá um jeito.", en: "Don't worry, we'll find a way." },
@@ -615,7 +615,7 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "Por um lado, por outro: arguing both sides",
         body: [
-          "The jeitinho is a classic topic for debate and for the Celpe-Bras, so you'll want concession (Unit 12). \"Embora\" and \"ainda que\" take the subjunctive: \"embora o jeitinho resolva problemas, ele também cria injustiças\". \"Apesar de\" takes a noun or an infinitive: \"apesar de ser criativo\". \"Por um lado... por outro (lado)...\" lays out the two sides.",
+          "The jeitinho is a classic topic for debate and for the Celpe-Bras, so you'll want concession (Unit 7). \"Embora\" and \"ainda que\" take the subjunctive: \"embora o jeitinho resolva problemas, ele também cria injustiças\". \"Apesar de\" takes a noun or an infinitive: \"apesar de ser criativo\". \"Por um lado... por outro (lado)...\" lays out the two sides.",
           "To land your view, use \"no entanto\" or \"mesmo assim\", and \"o problema é quando\" + indicative to mark the line: \"o problema é quando o jeitinho prejudica os outros\". Avoid \"mas\" twice in a sentence: pick one contrast and develop it.",
         ],
         examples: [
@@ -671,7 +671,7 @@ export const PT_B2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "There are no spots left, but I'll see if I can sort something out.",
+        source: "There are no places left, but I'll see if I can sort something out.",
         answer: "Não tem mais vaga, mas vou ver se dou um jeito.",
         altAnswers: ["Não há mais vagas, mas vou ver se dou um jeito.", "Não tem mais vaga, mas vou ver se consigo dar um jeito.", "Não tem mais vagas, mas vou ver se dou um jeito.", "Não há mais vaga, mas vou ver se consigo dar um jeito.", "Não tem mais vaga, mas eu vou ver se dou um jeito."],
         explanation: "\"Dar um jeito\" is to find a way round a problem. \"Não tem\" is spoken; \"não há\" is more formal.",
@@ -871,7 +871,7 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "A festa é realizada em...: describing a festival",
         body: [
-          "Describing a festival for a guide, a blog or the Celpe-Bras calls for the passive (Unit 10) and participles. Use \"ser\" + participle for what is done (\"a festa é realizada no Parque do Povo\", \"as fogueiras são acesas na véspera\") and the \"se\" passive for general practice in writing: \"come-se muito milho nessa época\".",
+          "Describing a festival for a guide, a blog or the Celpe-Bras calls for the passive (Unit 21) and participles. Use \"ser\" + participle for what is done (\"a festa é realizada no Parque do Povo\", \"as fogueiras são acesas na véspera\") and the \"se\" passive for general practice in writing: \"come-se muito milho nessa época\".",
           "\"Ficar\" + participle gives the resulting scene: \"a cidade fica lotada\", \"as ruas ficam enfeitadas\". Participles agree like adjectives: \"crianças vestidas de caipira\". One modern note: dressing \"de caipira\" is fun, but blacked-out teeth and exaggerated accents mock country people, and many schools now avoid them.",
         ],
         examples: [
@@ -1055,7 +1055,7 @@ export const PT_B2_U29: Lesson[] = [
             question: "A Brazilian colleague says she \"sai numa escola de samba\". What does she do?",
             options: [
               "She parades with a samba school's community association at Carnaval.",
-              "She teaches samba at an elementary school.",
+              "She teaches samba at a elementary school.",
               "She's leaving a dance school.",
               "She takes samba lessons twice a week.",
             ],
@@ -1140,7 +1140,7 @@ export const PT_B2_U29: Lesson[] = [
           {
             type: "speak",
             text: "O que mais chama a atenção em Salvador é a energia da multidão.",
-            tip: "\"Multidão\" ends in a nasal \"ão\"; the \"ti\" sounds like \"chee\".",
+            tip: "\"Multidão\" ends in a nasal \"ão\"; the \"ti\" is close to \"tchi\".",
             explanation: "\"O que mais chama a atenção é\" introduces the feature that stands out most.",
           },
         ],
@@ -2503,7 +2503,7 @@ export const PT_B2_U29: Lesson[] = [
         ],
         examples: [
           { es: "Em fevereiro ou março tem Carnaval, e a cidade para.", en: "In February or March there's Carnaval, and the city grinds to a halt." },
-          { es: "Em junho, não perca as festas juninas do bairro.", en: "In June, don't miss the neighborhood June festivals." },
+          { es: "Em junho, não perca as festas juninas da Pampulha.", en: "In June, don't miss the June festivals in Pampulha." },
           { es: "No réveillon, use uma roupa branca e leve chinelo.", en: "On New Year's Eve, wear something white and take flip-flops." },
           { es: "Quando você ouvir \"fica à vontade\", relaxe: é só gentileza.", en: "When you hear make yourself comfortable, relax: it's just kindness." },
           { es: "Para ir embora, comece com um \"bom, vou indo\".", en: "To leave, start with a well, I'd better get going." },

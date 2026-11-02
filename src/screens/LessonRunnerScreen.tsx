@@ -19,6 +19,7 @@ import { displayTitle } from "@/lib/lessons/levels";
 import { unitOf } from "@/lib/lessons/units";
 import { LEVEL_EXIT_SLUGS } from "@/lib/lessons/sequencing";
 import { authoredQuestions, buildReviewQuestions } from "@/lib/lessons/drill";
+import { lessonFlow, type BodyPiece, type Stage } from "@/lib/lessons/lessonFlow";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
 import LessonVideoLink from "@/components/LessonVideoLink";
@@ -67,6 +68,14 @@ const LEVEL_TEST_SLUGS = new Set<string>(Object.values(LEVEL_EXIT_SLUGS));
 
 const MIN_DRILL_QUESTIONS = 15;
 
+// Crawl, walk, run (lessonFlow.ts), as on the website.
+const STAGE_LABELS: Record<Stage | "try", string> = {
+  try: "✏️ Try it",
+  crawl: "🐢 Warm-up",
+  walk: "🚶 Guided practice",
+  run: "🏃 On your own",
+};
+
 // Screen 4's lesson player, section by section like the website's
 // LessonRunner: each section's reading gets its own screen, followed by
 // that section's checkpoint questions one per screen, so a concept is
@@ -76,7 +85,14 @@ const MIN_DRILL_QUESTIONS = 15;
 // MIN_DRILL_QUESTIONS questions.
 type QuestionSource = { slug: string; number: number; title: string };
 type Step =
-  | { kind: "teach"; sectionIndex: number | null; first: boolean }
+  | {
+      kind: "teach";
+      sectionIndex: number | null;
+      first: boolean;
+      // One short card of the section (lessonFlow.ts): its share of the
+      // body and of the examples (indexes into section.examples).
+      card?: { part: number; parts: number; body: BodyPiece[]; examples: number[] };
+    }
   | {
       kind: "exercise";
       exercise: Exercise;
@@ -91,6 +107,9 @@ type Step =
       passage?: string[];
       // A unit review's closing quiz (unit-reviews.ts).
       unitQuiz?: boolean;
+      // Where it sits on crawl, walk, run (lessonFlow.ts); "try" = straight
+      // after the card it tests.
+      stage?: Stage | "try";
     }
   | { kind: "complete" };
 
@@ -191,8 +210,8 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // authoredQuestions() order (see missedQuestions.ts).
     let q = 0;
     let authored = 0;
-    const pushOwn = (exercise: Exercise, passage?: string[], unitQuiz?: boolean) => {
-      const index = authored++;
+    const pushOwn = (exercise: Exercise, passage?: string[], unitQuiz?: boolean, at?: number, stage?: Stage | "try") => {
+      const index = at ?? authored++;
       if (skipExercise(exercise)) return;
       out.push({
         kind: "exercise",
@@ -203,20 +222,49 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         source: own,
         passage,
         unitQuiz,
+        stage,
       });
       q++;
     };
-    if (lesson.sections.length === 0) out.push({ kind: "teach", sectionIndex: null, first: true });
-    lesson.sections.forEach((section, si) => {
-      out.push({ kind: "teach", sectionIndex: si, first: si === 0 });
-      // Level tests (level-tests.ts): a reading text's questions show the text.
-      const passage =
-        LEVEL_TEST_SLUGS.has(lesson.slug) && section.body.length > 1 && section.checkpoint?.every((e) => e.type === "multiple-choice")
-          ? section.body.slice(1)
-          : undefined;
-      section.checkpoint?.forEach((e) => pushOwn(e, passage));
-    });
-    lesson.exercises.forEach((e) => pushOwn(e, undefined, lesson.unitReview));
+    // Level tests keep their reading screens; every other lesson goes in
+    // short portions, each tried straight away, then practice from
+    // warm-up to on your own (lessonFlow.ts, shared with the website).
+    if (LEVEL_TEST_SLUGS.has(lesson.slug) || lesson.sections.length === 0) {
+      if (lesson.sections.length === 0) out.push({ kind: "teach", sectionIndex: null, first: true });
+      lesson.sections.forEach((section, si) => {
+        out.push({ kind: "teach", sectionIndex: si, first: si === 0 });
+        // Level tests (level-tests.ts): a reading text's questions show the text.
+        const passage =
+          LEVEL_TEST_SLUGS.has(lesson.slug) && section.body.length > 1 && section.checkpoint?.every((e) => e.type === "multiple-choice")
+            ? section.body.slice(1)
+            : undefined;
+        section.checkpoint?.forEach((e) => pushOwn(e, passage));
+      });
+      lesson.exercises.forEach((e) => pushOwn(e, undefined, lesson.unitReview));
+    } else {
+      // Question ids follow authoredQuestions() order: every checkpoint in
+      // section order, then the exercises.
+      const before: number[] = [];
+      let n = 0;
+      lesson.sections.forEach((sec) => {
+        before.push(n);
+        n += sec.checkpoint?.length ?? 0;
+      });
+      for (const st of lessonFlow(lesson)) {
+        if (st.kind === "learn") {
+          const all = lesson.sections[st.section].examples ?? [];
+          out.push({
+            kind: "teach",
+            sectionIndex: st.section,
+            first: st.section === 0 && st.part === 0,
+            card: { part: st.part, parts: st.parts, body: st.body, examples: st.examples.map((e) => all.indexOf(e)) },
+          });
+        } else {
+          const at = st.ref.section === null ? n + st.ref.index : before[st.ref.section] + st.ref.index;
+          pushOwn(st.exercise, undefined, lesson.unitReview, at, st.stage);
+        }
+      }
+    }
     const review = buildReviewQuestions(
       lesson,
       trackLessons,
@@ -566,6 +614,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             unitLabel={unitLabel}
             sectionIndex={currentStep.sectionIndex}
             first={currentStep.first}
+            card={currentStep.card}
             note={lessonNote}
             nextIsQuestion={steps[stepIndex + 1]?.kind === "exercise"}
             onContinue={goNext}
@@ -580,7 +629,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         {currentStep?.kind === "exercise" && (
           <View>
             <Text style={s.badge}>
-              Question {currentStep.number} of {questionCount}
+              {currentStep.stage ? `${STAGE_LABELS[currentStep.stage]} · ` : ""}Question {currentStep.number} of {questionCount}
               {currentStep.review ? ` · Review from lesson ${currentStep.source.number}` : ""}
               {currentStep.unitQuiz ? " · Unit quiz" : ""}
             </Text>
@@ -737,6 +786,7 @@ function TeachStep({
   lesson,
   sectionIndex,
   first,
+  card,
   note,
   nextIsQuestion,
   onContinue,
@@ -761,6 +811,8 @@ function TeachStep({
   // (a pure review), which just gets the title screen.
   sectionIndex: number | null;
   first: boolean;
+  // One short card of the section; the whole section when absent.
+  card?: { part: number; parts: number; body: BodyPiece[]; examples: number[] };
   // Shown under the title on the first screen (the Latin America vosotros note).
   note: string | null;
   nextIsQuestion: boolean;
@@ -822,18 +874,25 @@ function TeachStep({
             <View style={[s.teachHeadingBar, { backgroundColor: accent }]} />
             <TapText text={section.heading} lang={lang} style={s.teachHeading} />
           </View>
-          {section.body.map((p, pi) => {
+          {card && card.parts > 1 ? (
+            <Text style={s.cardCount}>
+              {card.part + 1} / {card.parts}
+            </Text>
+          ) : null}
+          {(card ? card.body : section.body.map((text, from) => ({ text, from, whole: true }))).map((piece, pi) => {
             // Same blockKey scheme as the website's LessonRunner.tsx
             // (`sec${i}-body${j}`) -- highlights saved here read back
-            // correctly on deependspanish.com and vice versa.
-            const blockKey = `sec${si}-body${pi}`;
+            // correctly on deependspanish.com and vice versa. A paragraph
+            // split across cards can't hold highlights.
+            const p = piece.text;
+            const blockKey = piece.whole ? `sec${si}-body${piece.from}` : `sec${si}-body${piece.from}-part${pi}`;
             return (
               <HighlightableText
                 key={pi}
                 text={p}
                 blockKey={blockKey}
-                highlights={highlightsFor(blockKey)}
-                enabled={highlightsEnabled}
+                highlights={piece.whole ? highlightsFor(blockKey) : []}
+                enabled={highlightsEnabled && piece.whole}
                 markColor={markColor}
                 lang={lang}
                 mixed
@@ -845,6 +904,7 @@ function TeachStep({
             );
           })}
           {section.examples?.map((ex, ei) => {
+            if (card && !card.examples.includes(ei)) return null;
             // Matches the website's `sec${i}-ex${k}-es` / `-en` keys.
             const esKey = `sec${si}-ex${ei}-es`;
             const enKey = `sec${si}-ex${ei}-en`;
@@ -1025,6 +1085,7 @@ const s = StyleSheet.create({
   lessonHeaderTitleText: { fontSize: 14, fontWeight: "600", color: "#2A1513cc" },
 
   stepArea: { flex: 1 },
+  cardCount: { fontSize: 12, color: colors.ink, opacity: 0.55, marginBottom: 8, fontVariant: ["tabular-nums"] },
   stepContent: { padding: 20, paddingBottom: 40 },
   // Room to scroll a long answer (writing feedback) clear of the sheet.
   stepContentUnderSheet: { paddingBottom: 300 },

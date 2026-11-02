@@ -197,7 +197,7 @@ export const PT_B1_U23: Lesson[] = [
         type: "speak",
         text: "Gostaria de saber se a conta tem tarifa.",
         prompt: "Say it in Portuguese: I'd like to know whether the account has a fee.",
-        tip: "Link \"de saber\" smoothly, and stress gos-ta-REE-a.",
+        tip: "Link \"de saber\" smoothly, and stress gos-ta-RI-a.",
         explanation: "\"Gostaria de saber se\": the conditional softens it, and \"se\" means whether.",
       },
     ],
@@ -213,12 +213,12 @@ export const PT_B1_U23: Lesson[] = [
       {
         heading: "Conta corrente, poupança, banco digital",
         body: [
-          "A \"conta corrente\" is a checking account, the one your salary goes into. A \"conta poupança\" is a savings account. Many Brazilians now open a free account at a \"banco digital\" through an app, and keep a traditional bank for loans or a mortgage.",
+          "A \"conta corrente\" is a current (checking) account, the one your salary goes into. A \"conta poupança\" is a savings account. Many Brazilians now open a free account at a \"banco digital\" through an app, and keep a traditional bank for loans or a mortgage.",
           "At a traditional bank you go to an \"agência\". The false friend matters: \"agência\" is a branch, not an agency. The \"gerente\" is your account manager, a real person you can call. The \"caixa\" is the cashier, and \"o caixa eletrônico\" is the ATM.",
           "Traditional accounts charge a monthly \"tarifa\", often bundled as a \"pacote de serviços\". Ask about it before you sign: \"Tem tarifa de manutenção?\".",
         ],
         examples: [
-          { es: "Eu gostaria de abrir uma conta corrente.", en: "I'd like to open a checking account." },
+          { es: "Eu gostaria de abrir uma conta corrente.", en: "I'd like to open a current account." },
           { es: "A conta digital não tem tarifa.", en: "The digital account has no fees." },
           { es: "Qual é o número da agência?", en: "What's the branch number?" },
           { es: "Vou falar com a minha gerente.", en: "I'm going to talk to my account manager." },
@@ -292,7 +292,7 @@ export const PT_B1_U23: Lesson[] = [
         ],
         examples: [
           { es: "Qual é o limite do cartão?", en: "What's the card's limit?" },
-          { es: "O cartão chega em até dez dias úteis.", en: "The card arrives within ten business days." },
+          { es: "O cartão chega em até dez dias úteis.", en: "The card arrives within ten working days." },
           { es: "Esqueci a minha senha.", en: "I forgot my PIN." },
           { es: "Você precisa desbloquear o cartão pelo aplicativo.", en: "You need to unlock the card through the app." },
           { es: "Roubaram meu celular e eu quero bloquear o cartão.", en: "My phone was stolen and I want to block the card." },
@@ -348,7 +348,7 @@ export const PT_B1_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The card arrives within ten business days.",
+        source: "The card arrives within ten working days.",
         answer: "O cartão chega em até dez dias úteis.",
         altAnswers: ["O cartão chega em até 10 dias úteis.", "O cartão chega em dez dias úteis.", "O cartão vai chegar em até dez dias úteis."],
         explanation: "Working days are \"dias úteis\" (literally useful days). \"Em até\" means within.",
@@ -397,7 +397,7 @@ export const PT_B1_U23: Lesson[] = [
         type: "speak",
         text: "A conta digital não tem tarifa.",
         prompt: "Say it in Portuguese: The digital account has no fees.",
-        tip: "In Brazil the d before i in \"digital\" sounds like j, and the final l like w: jee-zhee-TOW.",
+        tip: "In Brazil the d before i in \"digital\" sounds like dj, and the final l like u: dji-zhi-TAU.",
         explanation: "\"Não tem tarifa\": a singular noun with no article, as in \"não tem fila\".",
       },
     ],
@@ -414,7 +414,7 @@ export const PT_B1_U23: Lesson[] = [
         heading: "Pix and the chave Pix",
         body: [
           "Pix is the instant payment system everyone in Brazil uses, free for individuals: rent, the street vendor, splitting the bill. To receive one you give a \"chave Pix\", a key linked to your account. It can be your CPF, your phone number, your e-mail or a \"chave aleatória\", a random code that keeps your data private.",
-          "The verbs are simple: \"fazer um Pix\" (send one), \"mandar um Pix\", \"receber\". When the money lands, people say \"caiu\": \"o Pix já caiu?\". Stores show a QR code or offer \"Pix copia e cola\", a long code you paste into your banking app.",
+          "The verbs are simple: \"fazer um Pix\" (send one), \"mandar um Pix\", \"receber\". When the money lands, people say \"caiu\": \"o Pix já caiu?\". Shops show a QR code or offer \"Pix copia e cola\", a long code you paste into your banking app.",
         ],
         examples: [
           { es: "Você me passa sua chave Pix?", en: "Can you give me your Pix key?" },
@@ -479,7 +479,7 @@ export const PT_B1_U23: Lesson[] = [
         heading: "À vista ou parcelado?",
         body: [
           "Brazilians split purchases into monthly installments, \"parcelas\", on the credit card. \"Em 10x sem juros\" is read \"em dez vezes sem juros\": ten installments, interest-free. \"À vista\" means paying in one go, and stores often give a \"desconto à vista\". \"Em dez parcelas sem juros\" is fine too, but \"juros\" stays plural: never \"sem juro\".",
-          "At the register the card machine is the \"maquininha\", and the cashier asks \"débito ou crédito?\". If you say crédito: \"à vista ou parcelado?\". Tapping your card is \"por aproximação\".",
+          "At the till the card machine is the \"maquininha\", and the cashier asks \"débito ou crédito?\". If you say crédito: \"à vista ou parcelado?\". Tapping your card is \"por aproximação\".",
         ],
         examples: [
           { es: "Dá pra parcelar em dez vezes sem juros.", en: "You can split it into ten interest-free installments." },
@@ -496,13 +496,13 @@ export const PT_B1_U23: Lesson[] = [
             source: "Can I split it into ten interest-free installments?",
             answer: "Posso parcelar em dez vezes sem juros?",
             altAnswers: ["Dá pra parcelar em dez vezes sem juros?", "Dá para parcelar em dez vezes sem juros?", "Posso parcelar em 10x sem juros?", "Eu posso parcelar em dez vezes sem juros?", "Dá pra parcelar em 10x sem juros?"],
-            explanation: "Installments are counted in \"vezes\" (times): \"em dez vezes\". \"Juros\" is always plural.",
+            explanation: "Instalments are counted in \"vezes\" (times): \"em dez vezes\". \"Juros\" is always plural.",
           },
           {
             type: "speak",
             text: "No crédito, em três vezes, por favor.",
             prompt: "Say it in Portuguese: Credit, in three installments, please.",
-            tip: "\"Vezes\" has two clear syllables: VAY-zees, with a closed ê, a z sound in the middle and the final es said like ees.",
+            tip: "\"Vezes\" has two clear syllables: VAY-zis, with a closed ê, a z sound in the middle and the final es said like is.",
             explanation: "\"No crédito\" answers \"débito ou crédito?\", and \"em três vezes\" sets the installments.",
           },
           {
@@ -594,7 +594,7 @@ export const PT_B1_U23: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "à vista", right: "paid in full" },
-          { left: "parcelado", right: "in installments" },
+          { left: "parcelado", right: "in instalments" },
           { left: "a segunda via", right: "a duplicate copy" },
           { left: "o vencimento", right: "the due date" },
           { left: "a maquininha", right: "the card machine" },
@@ -680,12 +680,12 @@ export const PT_B1_U23: Lesson[] = [
       {
         heading: "Arroba, ponto, traço, underline",
         body: [
-          "To spell an e-mail, say \"arroba\" for @, \"ponto\" for the dot, \"traço\" or \"hífen\" for -, and \"underline\" for _. \"Tudo junto\" means all one word and \"tudo minúsculo\" all lowercase. Brazilian addresses often end \"ponto com ponto br\".",
+          "To spell an e-mail, say \"arroba\" for @, \"ponto\" for the dot, \"traço\" or \"hífen\" for -, and \"underline\" for _. \"Tudo junto\" means all one word and \"tudo minúsculo\" all lower case. Brazilian addresses often end \"ponto com ponto br\".",
           "Spell names letter by letter and anchor the tricky ones: \"com dois esses\", \"com cê-cedilha\". Phone numbers are read digit by digit or in pairs, and for six many people say \"meia\" (from meia dúzia, half a dozen) so it isn't confused with \"três\".",
         ],
         examples: [
           { es: "É ana ponto souza arroba gmail ponto com.", en: "It's ana dot souza at gmail dot com." },
-          { es: "É joao underline lima, tudo junto e minúsculo.", en: "It's joao underscore lima, all one word, lowercase." },
+          { es: "É joao underline lima, tudo junto e minúsculo.", en: "It's joao underscore lima, all one word, lower case." },
           { es: "Souza com zê, não com esse.", en: "Souza with a z, not with an s." },
           { es: "O meu número é nove, nove, meia, um, dois.", en: "My number is nine, nine, six, one, two." },
           { es: "Pode repetir o e-mail mais devagar?", en: "Can you repeat the e-mail more slowly?" },
@@ -1008,7 +1008,7 @@ export const PT_B1_U23: Lesson[] = [
         examples: [
           { es: "Você tem o código de rastreio?", en: "Do you have the tracking code?" },
           { es: "A encomenda saiu para entrega hoje de manhã.", en: "The package went out for delivery this morning." },
-          { es: "O prazo de entrega era de cinco dias úteis.", en: "The delivery time was five business days." },
+          { es: "O prazo de entrega era de cinco dias úteis.", en: "The delivery time was five working days." },
           { es: "O entregador não achou o endereço.", en: "The delivery man couldn't find the address." },
           { es: "Pode deixar na portaria, por favor.", en: "You can leave it with the doorman, please." },
         ],
@@ -1037,7 +1037,7 @@ export const PT_B1_U23: Lesson[] = [
         body: [
           "Four words cover what you can ask for. A \"troca\" is an exchange for another item; a \"devolução\" is sending the product back; a \"reembolso\" is the refund itself; and an \"estorno\" is a refund put back on your credit card, the reversal of the charge.",
           "Your proof of purchase is the \"nota fiscal\", the official receipt. A \"garantia\" is the warranty. Under Brazilian consumer law, online purchases give you seven days to change your mind, the \"direito de arrependimento\", and a faulty product must be fixed or replaced.",
-          "Don't confuse \"devolver\" (to give back) with English devolve, or \"reembolso\" with \"troco\", the change you get at a register.",
+          "Don't confuse \"devolver\" (to give back) with English devolve, or \"reembolso\" with \"troco\", the change you get at a till.",
         ],
         examples: [
           { es: "Eu gostaria de fazer a troca deste tênis.", en: "I'd like to exchange these sneakers." },
@@ -1052,7 +1052,7 @@ export const PT_B1_U23: Lesson[] = [
             question: "You paid by credit card and want the charge reversed. Which word do you use?",
             options: ["estorno", "troco", "troca", "nota fiscal"],
             correctIndex: 0,
-            explanation: "An \"estorno\" cancels a card charge. \"Troco\" is change at the register, and a \"troca\" is an exchange.",
+            explanation: "An \"estorno\" cancels a card charge. \"Troco\" is change at the till, and a \"troca\" is an exchange.",
           },
           {
             type: "translate",
@@ -1094,7 +1094,7 @@ export const PT_B1_U23: Lesson[] = [
             source: "The phone arrived faulty.",
             answer: "O celular veio com defeito.",
             altAnswers: ["O celular chegou com defeito.", "O telefone veio com defeito.", "O telefone chegou com defeito."],
-            explanation: "\"Vir com defeito\" is the stock phrase for a product that arrives broken. Cell phone is \"celular\" in Brazil.",
+            explanation: "\"Vir com defeito\" is the stock phrase for a product that arrives broken. Mobile phone is \"celular\" in Brazil.",
           },
           {
             type: "speak",
@@ -1231,7 +1231,7 @@ export const PT_B1_U23: Lesson[] = [
             source: "Could you give me a ride tomorrow? (to a friend, softly)",
             answer: "Você podia me dar uma carona amanhã?",
             altAnswers: ["Podia me dar uma carona amanhã?", "Você pode me dar uma carona amanhã?", "Pode me dar uma carona amanhã?", "Será que você podia me dar uma carona amanhã?", "Você poderia me dar uma carona amanhã?"],
-            explanation: "With a friend, \"podia\" is the soft spoken choice. A ride is \"uma carona\" in Brazil.",
+            explanation: "With a friend, \"podia\" is the soft spoken choice. A lift is \"uma carona\" in Brazil.",
           },
         ],
       },
@@ -1372,7 +1372,7 @@ export const PT_B1_U23: Lesson[] = [
         type: "speak",
         text: "Você podia me ajudar com isso?",
         prompt: "Say it in Portuguese: Could you help me with this? (to a colleague)",
-        tip: "Stress po-JEE-a, with the d before i sounding like a j.",
+        tip: "Stress po-DI-a, with the d before i sounding like a j: \"podjia\".",
         explanation: "\"Podia\" (imperfeito) is the soft everyday request between colleagues: politer than \"pode\", less stiff than \"poderia\".",
       },
       {
@@ -1463,7 +1463,7 @@ export const PT_B1_U23: Lesson[] = [
         examples: [
           { es: "Poderia me explicar as tarifas da conta?", en: "Could you explain the account fees to me?" },
           { es: "Eu viajo daqui a três semanas e quero que o cartão chegue antes.", en: "I'm traveling in three weeks and I want the card to arrive before then." },
-          { es: "É possível que demore uns dez dias úteis.", en: "It may take about ten business days." },
+          { es: "É possível que demore uns dez dias úteis.", en: "It may take about ten working days." },
           { es: "Caso não chegue, a senhora pode usar o cartão virtual no aplicativo.", en: "If it doesn't arrive, you can use the virtual card in the app." },
           { es: "Pode deixar, eu peço com urgência.", en: "Leave it with me, I'll request it urgently." },
         ],
@@ -1481,7 +1481,7 @@ export const PT_B1_U23: Lesson[] = [
             type: "listen-choose",
             audio: "É possível que demore uns dez dias úteis.",
             question: "What does it mean?",
-            options: ["It may take about ten business days.", "It's possible to wait ten days.", "It took ten business days.", "It won't take more than ten days."],
+            options: ["It may take about ten working days.", "It's possible to wait ten days.", "It took ten working days.", "It won't take more than ten days."],
             correctIndex: 0,
             explanation: "\"É possível que\" + subjunctive \"demore\": it may take. \"Uns\" before a number means about.",
           },
@@ -1489,7 +1489,7 @@ export const PT_B1_U23: Lesson[] = [
             type: "speak",
             text: "Poderia me explicar as tarifas da conta?",
             prompt: "Say it in Portuguese: Could you explain the account fees to me?",
-            tip: "Run \"me explicar\" together: mee-es-plee-KAR, with the unstressed e of \"me\" sounding like ee.",
+            tip: "Run \"me explicar\" together: mi-ex-pli-CAR, with the unstressed e of \"me\" sounding like i.",
             explanation: "\"Poderia me explicar\" + noun is a formal request; no inversion after \"poderia\".",
           },
         ],
@@ -1572,7 +1572,7 @@ export const PT_B1_U23: Lesson[] = [
         type: "speak",
         text: "Pode deixar, eu peço com urgência.",
         prompt: "Say it in Portuguese: Leave it with me, I'll request it urgently.",
-        tip: "\"Peço\" has an open é and a final o said oo: PÉ-soo.",
+        tip: "\"Peço\" has an open é and a final o said u: PÉ-su.",
         explanation: "\"Pode deixar\" reassures; \"peço\" is the eu form of \"pedir\".",
       },
     ],
@@ -2168,7 +2168,7 @@ export const PT_B1_U23: Lesson[] = [
         type: "speak",
         text: "Peço que vocês troquem o produto o mais rápido possível.",
         prompt: "Say it in Portuguese: I ask that you replace the product as soon as possible.",
-        tip: "\"Troquem\" sounds TRÓ-kẽy, with a nasal ending.",
+        tip: "\"Troquem\" sounds TRÓ-kein, with a nasal ending.",
         explanation: "\"Pedir que\" + subjunctive for a formal request.",
       },
     ],
@@ -2271,7 +2271,7 @@ export const PT_B1_U23: Lesson[] = [
             type: "speak",
             text: "Espero que vocês entendam a situação.",
             prompt: "Say it in Portuguese: I hope you understand the situation.",
-            tip: "\"Situação\" ends in a nasal -ção: see-too-a-SÃO.",
+            tip: "\"Situação\" ends in a nasal -ção: si-tu-a-SÃO.",
             explanation: "\"Esperar que\" + subjunctive: \"entender\" → \"entendam\".",
           },
         ],

@@ -25,7 +25,7 @@ export const PT_C2_U01: Lesson[] = [
           { es: "A prova foi mamão com açúcar.", en: "The exam was a piece of cake." },
           { es: "O pé da mesa está quebrado.", en: "The table leg is broken." },
           { es: "Ela é a luz da minha vida.", en: "She's the light of my life." },
-          { es: "Que não seja imortal, posto que é chama, mas que seja infinito enquanto dure.", en: "Let it not be immortal, since it is a flame, but let it be infinite while it lasts. (Vinicius de Moraes)" },
+          { es: "Que não seja imortal, posto que é chama / Mas que seja infinito enquanto dure.", en: "Let it not be immortal, since it is a flame / but let it be infinite while it lasts. (Vinicius de Moraes)" },
         ],
         checkpoint: [
           {
@@ -65,10 +65,10 @@ export const PT_C2_U01: Lesson[] = [
         body: [
           "A \"metonímia\" swaps a word for another that is linked to it in reality, not by likeness. It can be the container for the content (\"tomar um copo\"), the author for the work (\"ler Machado\", \"ouvir Chico\"), or the place for the institution (\"Brasília decidiu\", \"o Planalto\" for the Presidency). English does the same with the White House, so the mechanism is familiar. What you have to learn are the particular links.",
           "The part for the whole, which older grammars call \"sinédoque\", is now usually filed under metonímia: \"mil cabeças de gado\", \"não ter um teto\". So is the concrete for the abstract: \"ter cabeça\" means to be sensible, and \"perder a cabeça\" means to lose your temper, as in English.",
-          "Brazilians also name products by brand, and English speakers get caught here. \"Durex\" is sticky tape, \"bombril\" is steel wool, \"gilete\" is any razor blade and \"cotonete\" is a cotton swab. You \"tirar xerox\" of a document whatever make the machine is. Ask for \"durex\" in a papelaria and you'll be handed a roll of tape.",
+          "Brazilians also name products by brand, and English speakers get caught here. \"Durex\" is sticky tape, \"bombril\" is steel wool, \"gilete\" is any razor blade and \"cotonete\" is a cotton bud. You \"tirar xerox\" of a document whatever make the machine is. Ask for \"durex\" in a papelaria and you'll be handed a roll of tape.",
         ],
         examples: [
-          { es: "Vamos tomar um copo depois do trabalho?", en: "Want to grab a drink after work?" },
+          { es: "Vamos tomar um copo depois do trabalho?", en: "Shall we grab a drink after work?" },
           { es: "Estou lendo Machado pela segunda vez.", en: "I'm reading Machado de Assis for the second time." },
           { es: "Brasília ainda não se pronunciou sobre o acordo.", en: "The federal government hasn't commented on the deal yet." },
           { es: "Você me passa o durex?", en: "Can you pass me the sticky tape?" },
@@ -80,7 +80,7 @@ export const PT_C2_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Want to grab a drink after work?",
+            source: "Shall we grab a drink after work?",
             answer: "Vamos tomar um copo depois do trabalho?",
             altAnswers: [
               "Vamos tomar uma depois do trabalho?",
@@ -211,15 +211,15 @@ export const PT_C2_U01: Lesson[] = [
         type: "listen-choose",
         audio: "Você me passa o durex?",
         question: "What does it mean?",
-        options: ["Can you pass me the sticky tape?", "Can you pass me the razor?", "Can you pass me the cotton swabs?", "Can you pass me the steel wool?"],
+        options: ["Can you pass me the sticky tape?", "Can you pass me the razor?", "Can you pass me the cotton buds?", "Can you pass me the steel wool?"],
         correctIndex: 0,
-        explanation: "\"Durex\" is the brand that names all sticky tape in Brazil. The razor would be \"gilete\", the cotton swabs \"cotonetes\" and the steel wool \"bombril\".",
+        explanation: "\"Durex\" is the brand that names all sticky tape in Brazil. The razor would be \"gilete\", the cotton buds \"cotonetes\" and the steel wool \"bombril\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "How about putting on some Chico Buarque in the car?",
+        source: "Shall we put on some Chico Buarque in the car?",
         answer: "Vamos ouvir Chico no carro?",
         altAnswers: ["Vamos ouvir Chico Buarque no carro?", "Vamos ouvir o Chico no carro?", "Vamos colocar um Chico no carro?", "Vamos ouvir um Chico no carro?"],
         explanation: "Author for work again: \"ouvir Chico\" means listening to his songs. Brazilians often say just the first name of famous musicians.",
@@ -322,7 +322,7 @@ export const PT_C2_U01: Lesson[] = [
           { es: "A empresa desligou duzentos colaboradores.", en: "The company let two hundred employees go." },
           { es: "O governo anunciou uma readequação das tarifas de energia.", en: "The government announced an 'adjustment' to electricity rates (a price rise)." },
           { es: "O novo chefe não é nada bobo.", en: "The new boss is no fool." },
-          { es: "Mudar de casa no meio das provas não foi das melhores ideias.", en: "Moving in the middle of exams wasn't the best idea." },
+          { es: "Mudar de casa no meio das provas não foi das melhores ideias.", en: "Moving house in the middle of exams wasn't the best idea." },
         ],
         checkpoint: [
           {
@@ -361,7 +361,7 @@ export const PT_C2_U01: Lesson[] = [
           "In writing, irony needs markers the voice can't supply. Writers put the mocked word in aspas, pay an overdone compliment, or trail off with an ellipsis. Brazilian columnists use irony freely, but reports and work emails don't. An English speaker's deadpan understatement in a work email risks being read literally.",
         ],
         examples: [
-          { es: "Que beleza! Começou a chover e eu sem guarda-chuva.", en: "Lovely! It's started raining and I don't have an umbrella." },
+          { es: "Que beleza! Começou a chover e eu sem guarda-chuva.", en: "Lovely! It's started raining and I've got no umbrella." },
           { es: "Chegou cedo hoje, hein?", en: "Early today, aren't we? (to someone who is late)" },
           { es: "Era só o que faltava: o pneu furou.", en: "That's all I needed: a flat tire." },
           { es: "Ah, tá. Você estudou a noite toda, sei.", en: "Oh, sure. You studied all night, I'm sure you did." },
@@ -381,7 +381,7 @@ export const PT_C2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Que beleza! Começou a chover.",
-            tip: "Make the irony audible: stretch the closed ê in beleza (be-LÊ-za) and keep the voice flat, not bright.",
+            tip: "Make the irony audible: stretch the é in beleza and keep the voice flat, not bright.",
             explanation: "\"Que beleza!\" said flatly means the opposite of lovely. Intonation, not grammar, carries the irony.",
           },
           {
@@ -453,7 +453,7 @@ export const PT_C2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm dying to see the new movie.",
+        source: "I'm dying to see the new film.",
         answer: "Estou morrendo de vontade de ver o filme novo.",
         altAnswers: ["Eu estou morrendo de vontade de ver o filme novo.", "Estou morrendo de vontade de ver o novo filme.", "Estou louco para ver o filme novo.", "Estou louca para ver o filme novo.", "Estou doido para ver o filme novo.", "Estou doida para ver o filme novo."],
         explanation: "Dying to is \"morrendo de vontade de\" or \"louco / doido para\", never \"morrendo para\". With \"louco\" and \"doido\", the adjective agrees with the speaker.",
@@ -553,7 +553,7 @@ export const PT_C2_U01: Lesson[] = [
       {
         heading: "Paradoxo and oxímoro: opposites in one thing",
         body: [
-          "A \"paradoxo\" goes a step further. It pins both opposites onto the same subject at the same moment, so the statement looks impossible until the deeper truth appears. Camões's sonnet, learned by every Brazilian student, is the classic case: \"Amor é fogo que arde sem se ver, é ferida que dói, e não se sente\". Fire is seen and wounds are felt. Love is the fire nobody sees and the wound nobody feels. The contradiction is the definition.",
+          "A \"paradoxo\" goes a step further. It pins both opposites onto the same subject at the same moment, so the statement looks impossible until the deeper truth appears. Camões's sonnet, learned by every Brazilian student, is the classic case: \"Amor é fogo que arde sem se ver, / é ferida que dói, e não se sente\". Fire is seen and wounds are felt. Love is the fire nobody sees and the wound nobody feels. The contradiction is the definition.",
           "Squeezed into two words, a paradox becomes an \"oxímoro\": \"silêncio ensurdecedor\", \"doce tortura\", Camões's \"contentamento descontente\". Vinicius de Moraes ends his \"Soneto de Fidelidade\" on one: love is a flame, so it cannot be immortal, yet it should be \"infinito enquanto dure\".",
           "A quick test: split an antithesis into two halves and both stay true (\"eles prometem\", \"nós cumprimos\"); split a paradox and the point vanishes. In casual English 'paradox' can mean any odd coincidence. In Portuguese literary analysis \"paradoxo\" means only this apparent logical contradiction.",
         ],
@@ -597,7 +597,7 @@ export const PT_C2_U01: Lesson[] = [
         body: [
           "A \"gradação\" lines up three or more terms in rising intensity (\"clímax\") or falling intensity (\"anticlímax\"). Olavo Bilac's \"O primeiro milhão possuído excita, acirra, assanha a gula do milionário\" climbs from arousing to provoking to inflaming. The verbs come without \"e\", a choice called \"assíndeto\" that speeds up the rhythm. Putting \"e\" before the last term slows the line down and lands the final step.",
           "Order is the whole device: each step must outweigh the last. \"Ele gritou, falou, sussurrou\" is a descending gradação. It is perfect for a voice fading out and absurd if you meant rage. Anticlimax also serves humor and disillusion, deflating big dreams one step at a time.",
-          "In speeches the ascending triad is the default closing, often ending on a hipérbole (see the lesson on irony and hyperbole): \"Esperamos um dia, um ano, uma vida inteira\". Check that the third element really is the biggest. A weak last step sounds like a mistake, not modesty.",
+          "In speeches the ascending triad is the default closing, often ending on a hipérbole (lesson 2): \"Esperamos um dia, um ano, uma vida inteira\". Check that the third element really is the biggest. A weak last step sounds like a mistake, not modesty.",
         ],
         examples: [
           { es: "O primeiro milhão possuído excita, acirra, assanha a gula do milionário.", en: "The first million possessed arouses, stirs up, inflames the millionaire's greed. (Olavo Bilac)" },
@@ -750,13 +750,13 @@ export const PT_C2_U01: Lesson[] = [
         heading: "Aliteração: repeating consonant sounds",
         body: [
           "\"Aliteração\" repeats a consonant sound across nearby words, usually at the start of stressed syllables. Brazilians first meet it as children in \"trava-línguas\" (tongue twisters). \"O rato roeu a roupa do rei de Roma\" drills the initial r, the h-like sound that English speakers tend to swap for an English r. Poets use it to make a line sound like what it describes. In Cruz e Sousa's \"Violões que choram\", the v's of \"vozes veladas, veludosas vozes\" hum like the guitars of the title.",
-          "Count sounds, not letters. \"Casa\", \"quero\" and \"cada\" alliterate on k. \"Chuva\", \"xícara\" and \"chão\" alliterate on sh, and \"sapo\", \"cebola\" and \"passo\" on s. Brazilian pronunciation adds pairings of its own. In most of the country \"ti\" and \"di\" sound like chee and jee, so \"tia\" chimes with \"tchau\", not with \"tatu\", and the final \"-te\" of \"noite\" joins them.",
+          "Count sounds, not letters. \"Casa\", \"quero\" and \"cada\" alliterate on k. \"Chuva\", \"xícara\" and \"chão\" alliterate on sh, and \"sapo\", \"cebola\" and \"passo\" on s. Brazilian pronunciation adds pairings of its own. In most of the country \"ti\" and \"di\" sound like chee and gee, so \"tia\" chimes with \"tchau\", not with \"tatu\", and the final \"-te\" of \"noite\" joins them.",
           "Advertising uses alliteration to make a name stick: \"Café Cabral: cada xícara, um carinho\". The trap is excess. Three or four repetitions sound musical. Eight sound like a tongue twister, which suits a joke and sinks a serious text.",
         ],
         examples: [
           { es: "O rato roeu a roupa do rei de Roma.", en: "The rat gnawed the king of Rome's clothes. (a tongue twister)" },
           { es: "Três pratos de trigo para três tigres tristes.", en: "Three plates of wheat for three sad tigers. (a tongue twister)" },
-          { es: "Vozes veladas, veludosas vozes, volúpias dos violões, vozes veladas", en: "Veiled voices, velvety voices, / the sensual pleasures of guitars, veiled voices (Cruz e Sousa; the slash marks the line break)" },
+          { es: "Vozes veladas, veludosas vozes, / volúpias dos violões, vozes veladas", en: "Veiled voices, velvety voices, / the sensual pleasures of guitars, veiled voices (Cruz e Sousa)" },
           { es: "Café Cabral: cada xícara, um carinho.", en: "Cabral Coffee: every cup, a caress. (an invented slogan)" },
           { es: "O vento vinha violento pelo vale.", en: "The wind came violently down the valley." },
         ],
@@ -781,7 +781,7 @@ export const PT_C2_U01: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which pair alliterates in sound, not just in spelling, in most Brazilian accents?",
-            options: ["chuva e xícara", "casa e cebola", "gato e girafa", "tatu e tia"],
+            options: ["chuva / xícara", "casa / cebola", "gato / girafa", "tatu / tia"],
             correctIndex: 0,
             explanation: "\"Ch\" and \"x\" both give sh here. The others share a letter but not a sound: \"casa\" has k and \"cebola\" has s, \"gato\" has a hard g and \"girafa\" has zh, and \"tia\" is said with a chee sound.",
           },
@@ -831,14 +831,14 @@ export const PT_C2_U01: Lesson[] = [
         body: [
           "\"Anáfora\" repeats a word or phrase at the start of successive lines or clauses. Gonçalves Dias's \"Canção do exílio\" uses \"nosso\" / \"nossa\" to list what Brazil has more of. Tom Jobim's \"Águas de março\" opens line after line with \"é\", like the Camões sonnet from the last lesson. The repetition creates expectation, and each new line fills the same frame with something different.",
           "Speeches use it to organize an argument for the ear, usually in threes: \"Queremos escola para todos, queremos saúde para todos, queremos futuro para todos.\" The repeated ending, \"para todos\", is an \"epístrofe\". A line that returns between stanzas is a \"refrão\". English speakers writing Portuguese often vary their words out of school habit, and that kills the effect. In rhetoric, the repetition is the point.",
-          "Don't confuse the figure with the \"anáfora\" of cohesion, where a pronoun points back to something already said (\"Conheci a Bia; ela mora em Recife\"). The figure repeats on purpose; the pronoun is there to avoid repetition. Drummond's \"No meio do caminho tinha uma pedra, tinha uma pedra no meio do caminho\" shows a cousin, the \"quiasmo\": the same words returning in reverse order.",
+          "Don't confuse the figure with the \"anáfora\" of cohesion, where a pronoun points back to something already said (\"Conheci a Bia; ela mora em Recife\"). The figure repeats on purpose; the pronoun is there to avoid repetition. Drummond's \"No meio do caminho tinha uma pedra / tinha uma pedra no meio do caminho\" shows a cousin, the \"quiasmo\": the same words returning in reverse order.",
         ],
         examples: [
-          { es: "Nosso céu tem mais estrelas, nossas várzeas têm mais flores, nossos bosques têm mais vida", en: "Our sky has more stars, / our meadows have more flowers, / our woods have more life (Gonçalves Dias)" },
+          { es: "Nosso céu tem mais estrelas, / Nossas várzeas têm mais flores, / Nossos bosques têm mais vida", en: "Our sky has more stars, / our meadows have more flowers, / our woods have more life (Gonçalves Dias)" },
           { es: "É pau, é pedra, é o fim do caminho", en: "It's a stick, it's a stone, it's the end of the road (Tom Jobim)" },
           { es: "Queremos escola para todos, queremos saúde para todos, queremos futuro para todos.", en: "We want schools for everyone, we want health for everyone, we want a future for everyone." },
           { es: "Nenhuma criança fora da escola, nenhuma família sem teto, nenhum idoso sozinho.", en: "No child out of school, no family without a home, no elderly person alone." },
-          { es: "No meio do caminho tinha uma pedra, tinha uma pedra no meio do caminho", en: "In the middle of the road there was a stone / there was a stone in the middle of the road (Drummond)" },
+          { es: "No meio do caminho tinha uma pedra / tinha uma pedra no meio do caminho", en: "In the middle of the road there was a stone / there was a stone in the middle of the road (Drummond)" },
           { es: "Conheci a Bia na faculdade; ela mora em Recife hoje.", en: "I met Bia at university; she lives in Recife now. (grammatical anaphora: \"ela\")" },
         ],
         checkpoint: [
@@ -1097,7 +1097,7 @@ export const PT_C2_U01: Lesson[] = [
           { es: "A mim, ninguém me engana.", en: "Me? Nobody fools me." },
           { es: "Ela chorou lágrimas amargas naquela despedida.", en: "She wept bitter tears at that farewell." },
           { es: "Subimos ao terraço para ver o pôr do sol.", en: "We went up to the roof terrace to watch the sunset." },
-          { es: "A ponte é o elo entre os dois bairros.", en: "The bridge is the link between the two neighborhoods." },
+          { es: "A ponte é o elo entre os dois bairros.", en: "The bridge is the link between the two neighbourhoods." },
           { es: "Há dez anos, ninguém falava disso.", en: "Ten years ago, nobody talked about this." },
         ],
         checkpoint: [
@@ -1425,7 +1425,7 @@ export const PT_C2_U01: Lesson[] = [
           {
             type: "speak",
             text: "A antítese evidencia o conflito da personagem.",
-            tip: "Stress \"antítese\" on -tí-, and make the t before i sound like ch: an-CHEE-te-zee. \"Evidencia\" is stressed on -ci-.",
+            tip: "Stress \"antítese\" on -tí-, and make the t before i sound like ch: an-TCHI-te-zi. \"Evidencia\" is stressed on -ci-.",
             explanation: "Figure + effect verb: \"a antítese evidencia\". \"Personagem\" is usually feminine in Brazil, even for a male character.",
           },
         ],
@@ -1637,7 +1637,7 @@ export const PT_C2_U01: Lesson[] = [
       {
         heading: "When the figure earns its place",
         body: [
-          "Figures win where the goal is to move, persuade or be remembered: speeches, ads, opinion columns, eulogies, a wedding toast. \"São Paulo é uma cidade que não dorme\" says more in a few words than a paragraph of statistics, and an audience will repeat it. The image must be clear at first hearing, though. If listeners have to decode it, you've lost them.",
+          "Figures win where the goal is to move, persuade or be remembered: speeches, adverts, opinion columns, eulogies, a wedding toast. \"São Paulo é uma cidade que não dorme\" says more in a few words than a paragraph of statistics, and an audience will repeat it. The image must be clear at first hearing, though. If listeners have to decode it, you've lost them.",
           "In conversation the fixed idiom is often more natural than the plain word. A Brazilian says \"está chovendo canivete\" or \"isso é moleza\" with no sense of being poetic. English speakers tend to carry idioms across word for word. Some survive (\"quebrar o gelo\", 'to break the ice'). Many don't: 'a piece of cake' is \"moleza\" or \"mamão com açúcar\", never \"um pedaço de bolo\". When no Portuguese image fits, the plain version is never wrong.",
           "Mixing the two in one text is normal: a column can open with an image and then give its facts plainly. What jars is a figure in the one sentence that must be exact, or a flat sentence where the audience expected a peak.",
         ],
@@ -1670,7 +1670,7 @@ export const PT_C2_U01: Lesson[] = [
             type: "speak",
             text: "Está chovendo canivete.",
             prompt: "Say it in Portuguese: It's raining cats and dogs.",
-            tip: "\"Ch\" in \"chovendo\" sounds like English sh, and the final -te of \"canivete\" sounds like chee: ka-nee-VÉ-chee.",
+            tip: "\"Ch\" in \"chovendo\" sounds like English sh, and the final -te of \"canivete\" sounds like tchi.",
             explanation: "\"Chovendo canivete\" ('raining penknives') is the everyday Brazilian image for a downpour. In speech it's simply the natural phrase.",
           },
         ],
@@ -1765,7 +1765,7 @@ export const PT_C2_U01: Lesson[] = [
         type: "speak",
         text: "O prazo é sexta-feira, às seis da tarde.",
         prompt: "Say it in Portuguese: The deadline is Friday at six p.m.",
-        tip: "The t in \"tarde\" stays a plain t, but the final -de sounds like jee: TAR-jee.",
+        tip: "The t in \"tarde\" stays a plain t, but the final -de sounds like dji: TAR-dji.",
         explanation: "A deadline is said plainly, with \"às\" (a + as) before the hour.",
       },
       {
@@ -2135,7 +2135,7 @@ export const PT_C2_U01: Lesson[] = [
           { es: "Do outro lado dessa ponte, alguém espera para voltar para casa.", en: "On the other side of that bridge, someone is waiting to go home." },
           { es: "Uma bolsa, um paciente, uma família, uma cidade inteira.", en: "One bag, one patient, one family, a whole city." },
           { es: "Tem gente esperando na UTI. Tem gente esperando na emergência. Tem gente esperando por você.", en: "There are people waiting in the ICU. There are people waiting in the ER. There are people waiting for you." },
-          { es: "Bora doar? O Hemocentro tá esperando a galera.", en: "Who's up for donating? The Hemocentro is waiting for everyone. (casual post)" },
+          { es: "Bora doar? O Hemocentro tá esperando a galera.", en: "Shall we go and donate? The Hemocentro is waiting for everyone. (casual post)" },
         ],
         checkpoint: [
           {
@@ -2205,7 +2205,7 @@ export const PT_C2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Sangue não se fabrica. Sangue se doa.",
-            tip: "In \"sangue\" the \"an\" is nasal, \"gue\" has a hard g, and the final -e sounds like ee: SÃN-ghee.",
+            tip: "In \"sangue\" the \"an\" is nasal, \"gue\" has a hard g, and the final -e sounds like i.",
             explanation: "Anáfora on \"sangue\" plus antítese between \"fabrica\" and \"doa\". The \"se\" goes before the verb, as in natural Brazilian usage.",
           },
           {
@@ -2265,7 +2265,7 @@ export const PT_C2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "(casual Instagram post) Who's up for donating? The Hemocentro is waiting for you guys.",
+        source: "(casual Instagram post) Shall we go and donate? The Hemocentro is waiting for you guys.",
         answer: "Bora doar? O Hemocentro tá esperando vocês.",
         altAnswers: [
           "Bora doar? O Hemocentro está esperando vocês.",
@@ -2367,7 +2367,7 @@ export const PT_C2_U01: Lesson[] = [
       {
         heading: "Figures of meaning: one reminder each",
         body: [
-          "No new rules here, only fresh sentences that mix the whole unit. A \"metáfora\" says that one thing is another (\"ele é um poço de paciência\"). A \"metonímia\" swaps a thing for something next to it: the author for the book (\"ler Clarice\"), the container for the contents (\"tomar um copo\"), the building for the institution (\"o Planalto\"). The test is the link between the two: likeness means metaphor, contiguity means metonymy. When translating, keep the figure if Portuguese readers decode it just as easily ('the White House' stays \"a Casa Branca\", as \"o Planalto\" does in a Brazilian text) and replace it if they don't.",
+          "No new rules here, only fresh sentences that mix the whole unit. A \"metáfora\" says that one thing is another (\"ele é um poço de paciência\"). A \"metonímia\" swaps a thing for something next to it: the author for the book (\"ler Clarice\"), the container for the contents (\"tomar um copo\"), the building for the institution (\"o Planalto\"). The test is the link between the two: likeness means metaphor, contiguity means metonymy. When translating, keep the figure if Portuguese has an equivalent ('the White House' becomes \"o Planalto\" or \"Brasília\") and replace it if it doesn't.",
           "\"Ironia\" says the opposite and needs context or tone. \"Hipérbole\" exaggerates and \"eufemismo\" softens. In analysis, name the effect as well as the figure: \"a hipérbole intensifica a frustração do narrador\" is analysis, while \"há uma hipérbole\" is only a label.",
           "Everyday Brazilian speech is full of worn-out figures (\"morrer de rir\", \"estar morto de cansaço\", \"mil vezes\"). They are still figures, but nobody hears them as images any more. In a text, only a fresh image carries stylistic weight.",
         ],

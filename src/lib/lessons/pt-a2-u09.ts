@@ -17,7 +17,7 @@ export const PT_A2_U09: Lesson[] = [
         body: [
           "To tell a friend to do something, Brazilians take the \"você\" form of the present and drop the subject. \"Você fala\" becomes \"Fala!\" (speak!), and \"você espera\" becomes \"Espera!\" (wait!). You already know every one: -ar verbs end in -a (\"fecha\", \"liga\"), and -er and -ir verbs end in -e (\"come\", \"abre\").",
           "The trap is keeping \"você\". \"Você fala mais devagar\" sounds like a statement: 'you speak more slowly'. Leave the subject out, as in English, and the verb alone gives the order.",
-          "The stress doesn't move: FA-la, es-PÉ-ra, A-bree. Don't mix it up with the past \"falou\" (he spoke), which is stressed on the end.",
+          "The stress doesn't move: FA-la, es-PE-ra, A-bre. Don't mix it up with the past \"falou\" (he spoke), which is stressed on the end.",
         ],
         examples: [
           { es: "Fala mais devagar, por favor.", en: "Speak more slowly, please." },
@@ -88,10 +88,10 @@ export const PT_A2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend is going to the bakery. You want him to buy you a pão de queijo. What do you say?",
+            question: "Your friend is going to the padaria. You want him to buy you a pão de queijo. What do you say?",
             options: ["Me compra um pão de queijo?", "Eu compro um pão de queijo?", "Você me comprou um pão de queijo?", "Compro um pão de queijo pra você?"],
             correctIndex: 0,
-            explanation: "\"Me compra...?\" is a command softened by a question tone. The other options mean 'Should I buy...?', 'Did you buy me...?' and 'Should I buy you...?'.",
+            explanation: "\"Me compra...?\" is a command softened by a question tone. The other options mean 'Shall I buy...?', 'Did you buy me...?' and 'Shall I buy you...?'.",
           },
         ],
       },
@@ -218,13 +218,13 @@ export const PT_A2_U09: Lesson[] = [
       {
         type: "dictation",
         audio: "Come mais um pouco.",
-        explanation: "\"Come\" is the command from \"você come\". The final -e sounds like ee: KO-mee.",
+        explanation: "\"Come\" is the command from \"você come\". The final -e sounds like i: CO-mi.",
       },
       {
         type: "speak",
         text: "Me manda o endereço.",
         prompt: "Say it in Portuguese: Send me the address.",
-        tip: "Say me lightly, like mee, and run it into manda. The final -o of endereço sounds like oo.",
+        tip: "Say me lightly, like 'mi', and run it into manda. The final -o of endereço sounds like u.",
         explanation: "\"Me manda\": pronoun before the command, as always in Brazilian speech.",
       },
       {
@@ -300,7 +300,7 @@ export const PT_A2_U09: Lesson[] = [
           { es: "Entre, por favor. Fique à vontade.", en: "Come in, please. Make yourself at home." },
           { es: "Aguarde um momento, por favor.", en: "Please wait a moment." },
           { es: "Assine aqui, por favor.", en: "Please sign here." },
-          { es: "Preencha o formulário com seus dados.", en: "Fill out the form with your details." },
+          { es: "Preencha o formulário com seus dados.", en: "Fill in the form with your details." },
           { es: "Senhora, use o elevador da direita.", en: "Ma'am, use the elevator on the right." },
         ],
         checkpoint: [
@@ -323,7 +323,7 @@ export const PT_A2_U09: Lesson[] = [
           {
             type: "speak",
             text: "Aguarde um momento, por favor.",
-            tip: "The final \"de\" in \"aguarde\" sounds like jee: a-GWAR-jee.",
+            tip: "The final \"de\" in \"aguarde\" sounds like dji: a-GUAR-dji.",
             explanation: "\"Aguardar\" → \"aguardo\" → \"aguarde\", the polite way to say wait in stores, offices and on the phone.",
           },
         ],
@@ -338,7 +338,7 @@ export const PT_A2_U09: Lesson[] = [
           { es: "Empurre a porta.", en: "Push the door." },
           { es: "Puxe a porta com força.", en: "Pull the door hard." },
           { es: "Aperte o botão e aguarde.", en: "Press the button and wait." },
-          { es: "Desligue o celular durante o filme.", en: "Turn off your phone during the movie." },
+          { es: "Desligue o celular durante o filme.", en: "Switch off your phone during the movie." },
           { es: "Misture o leite condensado e o chocolate.", en: "Mix the condensed milk and the chocolate." },
           { es: "Bata os ovos e acrescente o açúcar.", en: "Beat the eggs and add the sugar." },
         ],
@@ -418,7 +418,7 @@ export const PT_A2_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Turn off your phone. (on a sign)",
+        source: "Switch off your phone. (on a sign)",
         answer: "Desligue o celular.",
         altAnswers: ["Desligue o seu celular.", "Desliguem o celular.", "Desliguem os celulares.", "Desligue seu celular."],
         explanation: "\"Desligar\" → \"desligue\", with the same -gue spelling as \"ligue\". A sign for a group can also say \"desliguem\".",
@@ -458,7 +458,7 @@ export const PT_A2_U09: Lesson[] = [
         type: "speak",
         text: "Entre e fique à vontade.",
         prompt: "Say it in Portuguese: Come in and make yourself at home. (to an older woman)",
-        tip: "Final e sounds like ee: \"entre\" is Ẽ-tree, \"fique\" is FEE-kee.",
+        tip: "Final e sounds like i: \"entre\" is EN-tri, \"fique\" is FI-ki.",
         explanation: "Two standard commands in one style: \"entre\" and \"fique\" (\"ficar\" → \"fique\").",
       },
       {
@@ -468,8 +468,8 @@ export const PT_A2_U09: Lesson[] = [
           { left: "Aguarde.", right: "Wait." },
           { left: "Puxe.", right: "Pull." },
           { left: "Bata os ovos.", right: "Beat the eggs." },
-          { left: "Preencha o formulário.", right: "Fill out the form." },
-          { left: "Desligue o celular.", right: "Turn off your phone." },
+          { left: "Preencha o formulário.", right: "Fill in the form." },
+          { left: "Desligue o celular.", right: "Switch off your phone." },
         ],
         explanation: "All five are standard commands: -ar verbs end in -e (\"aguarde\", \"puxe\", \"desligue\"), -er verbs in -a (\"bata\", \"preencha\").",
       },
@@ -886,7 +886,7 @@ export const PT_A2_U09: Lesson[] = [
         type: "speak",
         text: "Não se preocupe, senhora.",
         prompt: "Say it in Portuguese: Don't worry, ma'am.",
-        tip: "The final -e of preocupe sounds like ee: pree-oo-KOO-pee.",
+        tip: "The final -e of preocupe sounds like i: preo-CU-pi.",
         explanation: "With \"a senhora\", use the standard \"não se preocupe\".",
       },
       {
@@ -1004,7 +1004,7 @@ export const PT_A2_U09: Lesson[] = [
         ],
         examples: [
           { es: "Será que você pode me ajudar com a mala?", en: "I wonder if you could help me with the suitcase." },
-          { es: "Será que o senhor poderia trocar de lugar comigo?", en: "Would you mind switching seats with me? (to a man)" },
+          { es: "Será que o senhor poderia trocar de lugar comigo?", en: "Would you mind swapping seats with me? (to a man)" },
           { es: "Será que tem um banheiro aqui perto?", en: "Is there a bathroom nearby, by any chance?" },
           { es: "Pode deixar!", en: "Leave it to me! / Sure, I'll do it." },
           { es: "Claro, posso sim.", en: "Sure, I can." },
@@ -1323,7 +1323,7 @@ export const PT_A2_U09: Lesson[] = [
         question: "What did you hear?",
         options: ["Desça na segunda estação.", "Desça na primeira estação.", "Desça no segundo ponto.", "Desce na segunda estação."],
         correctIndex: 0,
-        explanation: "\"Desça\" ends in an a sound, not the ee sound of \"desce\". \"Segunda estação\" is feminine, unlike \"segundo ponto\".",
+        explanation: "\"Desça\" ends in an a sound, not the i sound of \"desce\". \"Segunda estação\" is feminine, unlike \"segundo ponto\".",
       },
       {
         type: "dictation",
@@ -1367,7 +1367,7 @@ export const PT_A2_U09: Lesson[] = [
         body: [
           "Quick reminder: the everyday command is the present ele form (\"fala\", \"espera\", \"come\"), and the standard one swaps the final vowel (\"fale\", \"espere\", \"coma\"). Both mean exactly the same thing. What changes is who you're talking to.",
           "Friends, family, children and relaxed colleagues get \"fala\". Anyone you'd call \"o senhor\" or \"a senhora\" gets \"fale\": a client, an older stranger, a patient at the dentist. \"Fala\" to a customer can sound abrupt, while \"fale\" to your brother sounds oddly stiff.",
-          "In parts of the Northeast people also use standard forms in everyday speech, so don't be surprised by \"olhe\" or \"venha\" between friends in Recife. With \"o senhor\" and \"a senhora\", the standard form is always the safe choice.",
+          "In parts of the Nordeste people also use standard forms in everyday speech, so don't be surprised by \"olhe\" or \"venha\" between friends in Recife. With \"o senhor\" and \"a senhora\", the standard form is always the safe choice.",
         ],
         examples: [
           { es: "Fala mais devagar, Lucas!", en: "Speak more slowly, Lucas!" },
@@ -1525,7 +1525,7 @@ export const PT_A2_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Don't forget the key and [close] the door. (a note for guests at a guesthouse)",
+        en: "Don't forget the key and [close] the door. (a note for guests at a pousada)",
         sentence: "Não esqueça a chave e ___ a porta.",
         answer: "feche",
         explanation: "The note opens with the standard \"não esqueça\", so the next verb matches: \"feche\", not \"fecha\".",
@@ -1536,7 +1536,7 @@ export const PT_A2_U09: Lesson[] = [
         question: "What did you hear?",
         options: ["Fale mais devagar, por favor.", "Fala mais devagar, por favor.", "Fale mais alto, por favor.", "Fala mais alto, por favor."],
         correctIndex: 0,
-        explanation: "\"Fale\" ends in an ee-like sound, while \"fala\" ends in a. \"Devagar\" means slowly and \"alto\" means loud.",
+        explanation: "\"Fale\" ends in an i-like sound, while \"fala\" ends in a. \"Devagar\" means slowly and \"alto\" means loud.",
       },
       {
         type: "dictation",
@@ -1547,7 +1547,7 @@ export const PT_A2_U09: Lesson[] = [
         type: "speak",
         text: "Pegue o metrô e desça na Sé.",
         prompt: "Say it in Portuguese: Take the subway and get off at Sé. (to a stranger)",
-        tip: "In \"pegue\" the u is silent and the é is open: PÉ-gee. The ç in \"desça\" sounds like s.",
+        tip: "In \"pegue\" the u is silent and the é is open: PÉ-gi. The ç in \"desça\" sounds like s.",
         explanation: "Two standard forms for a stranger: \"pegue\" and \"desça\". Keep the same form for both verbs.",
       },
       {
@@ -1929,14 +1929,14 @@ export const PT_A2_U09: Lesson[] = [
       {
         heading: "Pão de queijo: the oven and the warnings",
         body: [
-          "For oven steps, use \"preaqueça o forno a 180 graus\" (preheat the oven to 180°C), \"coloque numa assadeira\" (put on a baking sheet) and \"asse até dourar\" (bake until golden). Brazil uses Celsius and grams: \"500 gramas de polvilho\" (cassava starch).",
+          "For oven steps, use \"preaqueça o forno a 180 graus\" (preheat the oven to 180°C), \"coloque numa assadeira\" (put on a baking tray) and \"asse até dourar\" (bake until golden). Brazil uses Celsius and grams: \"500 gramas de polvilho\" (cassava starch).",
           "A warning is a negative command: \"não\" + the same form, as in \"não deixe queimar\" (don't let it burn). Keep every step in the standard form, and don't slip in the everyday \"mexe\" or \"coloca\" halfway through.",
         ],
         examples: [
           { es: "Preaqueça o forno a 180 graus.", en: "Preheat the oven to 180 degrees." },
           { es: "Ferva o leite com o óleo e o sal.", en: "Boil the milk with the oil and the salt." },
           { es: "Despeje sobre o polvilho e misture bem.", en: "Pour it over the cassava starch and mix well." },
-          { es: "Faça bolinhas e coloque numa assadeira.", en: "Make little balls and put them on a baking sheet." },
+          { es: "Faça bolinhas e coloque numa assadeira.", en: "Make little balls and put them on a baking tray." },
           { es: "Não abra o forno nos primeiros quinze minutos.", en: "Don't open the oven in the first fifteen minutes." },
         ],
         checkpoint: [
@@ -2030,7 +2030,7 @@ export const PT_A2_U09: Lesson[] = [
         question: "What did you hear?",
         options: ["Coloque numa assadeira.", "Coloca numa assadeira.", "Coloque numa panela.", "Colocou numa assadeira."],
         correctIndex: 0,
-        explanation: "\"Coloque\" ends in an ee sound. \"Coloca\" ends in a, and \"colocou\" ends in the stressed ou of the past.",
+        explanation: "\"Coloque\" ends in an i sound. \"Coloca\" ends in a, and \"colocou\" ends in the stressed ou of the past.",
       },
       {
         type: "matching",
@@ -2301,7 +2301,7 @@ export const PT_A2_U09: Lesson[] = [
         type: "speak",
         text: "Siga em frente até a praça.",
         prompt: "Say it in Portuguese: Go straight ahead to the square. (to a stranger)",
-        tip: "The t before the final e in frente sounds like ch: FRẼ-chee.",
+        tip: "The t before the final e in frente sounds like ch: 'fren-chi'.",
         explanation: "\"Siga\" is the standard command of \"seguir\", the usual choice for directions to a stranger.",
       },
       {

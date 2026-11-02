@@ -930,10 +930,10 @@ export const DE_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We waited a long time.'?",
-        options: ["Wir haben lange gewartet.", "Wir sind lange gewartet.", "Wir haben lange gewarten.", "Wir haben lange wartet."],
+        question: "Which sentence is correct?",
+        options: ["Wir haben lange gewartet.", "Wir sind lange gewartet.", "Wir haben nach Hause gegangen.", "Wir sind Pizza gegessen."],
         correctIndex: 0,
-        explanation: "Waiting is not movement from A to B, so \"haben\": \"haben ... gewartet\". \"*Wir sind lange gewartet*\" uses \"sein\", which is for change of place or state.",
+        explanation: "Waiting is not movement: \"haben\". The others need the opposite helper.",
       },
       {
         type: "translate",
@@ -1134,10 +1134,10 @@ export const DE_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We danced at the party.'?",
-        options: ["Wir haben auf der Party getanzt.", "Wir sind auf der Party getanzt.", "Wir haben auf der Party getanzen.", "Wir haben auf der Party tanzt."],
+        question: "Which sentence is correct?",
+        options: ["Wir haben auf der Party getanzt.", "Wir sind auf der Party getanzt.", "Wir haben nach Rom geflogen.", "Ich habe mit dem Bus gefahren."],
         correctIndex: 0,
-        explanation: "Dancing on the spot is not going from A to B, so \"haben ... getanzt\". \"*Wir sind ... getanzt*\" uses \"sein\", which is for movement to somewhere.",
+        explanation: "Dancing on the spot: \"haben\". The others are A to B without an object: \"sein\".",
       },
       {
         type: "fill-blank",
@@ -1445,10 +1445,10 @@ export const DE_A2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which correction is right for \"*Sie ist den Bus genommen*\" ('She took the bus.')?",
+            question: "Which correction is right for \"*Sie ist den Bus genommen*\"?",
             options: ["Sie hat den Bus genommen.", "Sie ist den Bus genehmt.", "Sie ist mit den Bus genommen.", "Sie hat den Bus genehmt."],
             correctIndex: 0,
-            explanation: "\"Nehmen\" has an object, so it takes \"haben\": \"Sie hat den Bus genommen\". The participle \"genommen\" was already right; \"*genehmt*\" is not a word.",
+            explanation: "\"Nehmen\" with an object: \"haben\". The participle \"genommen\" was already right.",
           },
         ],
       },

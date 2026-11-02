@@ -24,7 +24,7 @@ export const PT_B2_U23_EXTRA: Lesson[] = [
           { es: "Que bom que vocês estejam felizes lá!", en: "Great that you're happy there!" },
           { es: "Obrigado pelo jantar! — Imagina, volta sempre!", en: "Thanks for dinner! — Don't mention it, come back any time!" },
           { es: "Só um parêntese: alguém viu minha chave?", en: "Quick aside: has anyone seen my key?" },
-          { es: "Peraí, ainda não cheguei na melhor parte!", en: "Hang on, I haven't gotten to the best part yet!" },
+          { es: "Peraí, ainda não cheguei na melhor parte!", en: "Hang on, I haven't got to the best part yet!" },
         ],
         checkpoint: [
           {
@@ -39,7 +39,7 @@ export const PT_B2_U23_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Hang on], I haven't gotten to the best part yet!",
+            en: "[Hang on], I haven't got to the best part yet!",
             sentence: "___, ainda não cheguei na melhor parte!",
             answer: "Peraí",
             altAnswers: ["Pera", "Espera aí", "Espera"],
@@ -422,9 +422,9 @@ export const PT_B2_U23_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into standard written Portuguese.",
         source: "Tell him to call me.",
-        answer: "Peça a ele que me ligue.",
-        altAnswers: ["Diga a ele que me ligue.", "Diga a ele para me ligar.", "Peça a ele para me ligar.", "Peça para ele me ligar.", "Fale para ele me ligar."],
-        explanation: "The spoken \"fala prele me ligar\" in writing: \"prele\" becomes \"a ele\" or \"para ele\", and the spoken command \"fala\" becomes \"peça\", \"diga\" or \"fale\".",
+        answer: "Fala para ele me ligar.",
+        altAnswers: ["Diga a ele para me ligar.", "Fale para ele me ligar.", "Peça para ele me ligar.", "Diz para ele me ligar.", "Peça a ele que me ligue.", "Diga a ele que me ligue."],
+        explanation: "\"Prele\" in full: \"para ele\".",
       },
       {
         type: "translate",

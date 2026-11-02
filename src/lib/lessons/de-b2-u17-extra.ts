@@ -136,10 +136,10 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I like coffee; my wife, on the other hand, only drinks tea.'?",
+        question: "Which sentence is correct?",
         options: ["Ich mag Kaffee, meine Frau hingegen trinkt nur Tee.", "Ich mag Kaffee, hingegen meine Frau trinkt nur Tee.", "Ich mag Kaffee, meine Frau hingegen nur Tee trinkt.", "Ich mag Kaffee, hingegen, meine Frau trinkt nur Tee."],
         correctIndex: 0,
-        explanation: "\"Hingegen\" can stand after the subject and the verb still comes second: \"meine Frau hingegen trinkt\". \"*hingegen meine Frau trinkt*\" puts two elements before the verb (it would need \"hingegen trinkt meine Frau\").",
+        explanation: "\"Hingegen\" can follow the subject; the verb stays in position 2 after \"meine Frau hingegen\".",
       },
       {
         type: "listen-choose",
@@ -289,10 +289,10 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'It was loud, so I couldn't sleep.'?",
+        question: "Which sentence is correct?",
         options: ["Es war laut, sodass ich nicht schlafen konnte.", "Es war laut, sodass konnte ich nicht schlafen.", "Es war laut, folglich ich konnte nicht schlafen.", "Es war laut, deshalb ich nicht schlafen konnte."],
         correctIndex: 0,
-        explanation: "\"Sodass\" is a conjunction and sends the verb to the end: \"sodass ich nicht schlafen konnte\". \"*deshalb ich nicht schlafen konnte*\" treats an adverb like a conjunction; \"deshalb\" needs the verb next (\"deshalb konnte ich ...\").",
+        explanation: "\"Sodass\" → verb last; \"folglich/deshalb\" → verb second.",
       },
       {
         type: "multiple-choice",
@@ -1088,10 +1088,10 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'However, the applause was short.'?",
+        question: "Which sentence is correct?",
         options: ["Allerdings war der Applaus kurz.", "Allerdings, der Applaus war kurz.", "Allerdings der Applaus war kurz.", "Nämlich war der Applaus kurz."],
         correctIndex: 0,
-        explanation: "\"Allerdings\" fills position 1, so the verb comes next: \"Allerdings war der Applaus kurz\". \"*Allerdings, der Applaus war kurz*\" copies the English comma and word order.",
+        explanation: "\"Allerdings\" + verb + subject.",
       },
       {
         type: "listen-choose",

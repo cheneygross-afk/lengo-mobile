@@ -19,7 +19,7 @@ export const PT_C1_U14_EXTRA: Lesson[] = [
           "No comma between subject and verb or verb and object, however long they are. Always a comma with the vocativo and around the explanatory aposto. A comma after a fronted adverbial or clause, two commas around an inserted expression (\"no entanto\", \"por exemplo\"), a comma before \"mas\", and none before the last \"e\" of a list.",
         ],
         examples: [
-          { es: "Os moradores do prédio da esquina reclamaram do barulho da obra.", en: "The residents of the building on the corner complained about the noise from the construction." },
+          { es: "Os moradores do prédio da esquina reclamaram do barulho da obra.", en: "The residents of the building on the corner complained about the noise from the works." },
           { es: "Pessoal, a reunião foi adiada para quinta.", en: "Everyone, the meeting has been moved to Thursday." },
           { es: "Salvador, primeira capital do Brasil, fica na Bahia.", en: "Salvador, Brazil's first capital, is in Bahia." },
           { es: "O ônibus, aliás, atrasou de novo.", en: "The bus, incidentally, was late again." },

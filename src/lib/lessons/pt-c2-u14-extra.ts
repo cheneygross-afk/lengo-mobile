@@ -132,7 +132,7 @@ export const PT_C2_U14_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I [hurt] my ankle on the stairs.",
+        en: "I [twisted] my ankle on the stairs.",
         sentence: "___ o tornozelo na escada.",
         answer: "Machuquei",
         altAnswers: ["Torci", "Eu machuquei", "Eu torci"],
@@ -218,7 +218,7 @@ export const PT_C2_U14_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "Me pesa não ter me despedido dela.",
-            tip: "\"Despedido\": the d before i sounds like 'j': des-pe-JEE-doo.",
+            tip: "\"Despedido\": the d before i sounds \"dj\": des-pe-DJI-du.",
             explanation: "\"Pesar\" with the experiencer as object; the infinitive clause is the subject.",
           },
         ],
@@ -511,7 +511,7 @@ export const PT_C2_U14_EXTRA: Lesson[] = [
         type: "speak",
         text: "Faz sentido você se sentir assim. Estou aqui com você.",
         prompt: "Say it in Portuguese: It makes sense that you feel this way. I'm here with you.",
-        tip: "Keep your voice low and calm. In \"sentir\" the t before i sounds like 'ch': sẽ-CHEER.",
+        tip: "Keep your voice low and calm. In \"sentir\" the t before i sounds like \"tch\": sẽ-TCHIR.",
         explanation: "Validation plus presence: \"acolhimento\" in two sentences.",
       },
     ],

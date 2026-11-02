@@ -17,7 +17,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
         heading: "Sei, sabe, sabemos, sabem; conheço, conhece, conhecemos, conhecem",
         body: [
           "\"Saber\" is for facts, information and skills (\"sei o endereço\", \"sabe nadar?\"); \"conhecer\" is for people and places, including places you've been (\"conheço a Ana\", \"conhece Manaus?\"). Only the eu forms are special: \"sei\" and \"conheço\".",
-          "Answer a question by repeating its verb. To \"Você sabe?\" say \"Sei\" or \"Não sei\". To \"Você conhece?\" say \"Conheço\" or \"Não, ainda não conheço\".",
+          "Answer a question by repeating its verb: \"Você sabe?\" → \"Sei.\" / \"Não sei.\"; \"Você conhece?\" → \"Conheço.\" / \"Não, ainda não conheço.\"",
         ],
         examples: [
           { es: "Vocês sabem o caminho?", en: "Do you all know the way?" },
@@ -156,7 +156,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu conheço o Rio, mas não sei o endereço.",
         prompt: "Say it in Portuguese: I know Rio, but I don't know the address.",
-        tip: "Endereço: 'ẽ-deh-RÊ-soo', with a nasal en.",
+        tip: "Endereço: en-de-RE-ço, with a nasal en.",
         explanation: "The place with \"conhecer\", the fact with \"saber\".",
       },
     ],
@@ -318,7 +318,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu saio, durmo, ouço, dou, trago, ponho e peço.",
         prompt: "Say the seven special eu forms aloud.",
-        tip: "Ponho: 'PÔ-nyoo', with the nh of canyon.",
+        tip: "Ponho: PO-nho, with the nh of canyon.",
         explanation: "The seven irregular eu forms of this unit.",
       },
     ],
@@ -336,7 +336,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
       {
         heading: "Summer and winter in Brazil",
         body: [
-          "Weather: \"faz calor\", \"faz frio\", \"faz sol\", \"está nublado\", \"está quente\", \"chove\", \"venta\". Free time: \"jogar\" for games, \"tocar\" for instruments, \"ir à praia\", \"ir ao cinema\", \"fazer academia\", \"andar de bicicleta\".",
+          "Weather: \"faz calor\" / \"faz frio\" / \"faz sol\", \"está nublado\" / \"está quente\", \"chove\", \"venta\". Free time: \"jogar\" for games, \"tocar\" for instruments, \"ir à praia\", \"ir ao cinema\", \"fazer academia\", \"andar de bicicleta\".",
           "Summer (December to March) means beaches; winter (June to September) is mild in the north and cold in the south.",
         ],
         examples: [
@@ -471,7 +471,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "No verão faz calor e nós vamos à praia.",
         prompt: "Say it in Portuguese: In summer it's hot and we go to the beach.",
-        tip: "Verão: 'veh-RÃW', nasal at the end.",
+        tip: "Verão: ve-RÃO, nasal at the end.",
         explanation: "Weather with \"fazer\", plans and habits with \"ir\".",
       },
     ],
@@ -638,7 +638,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu jogo vôlei e toco bateria.",
         prompt: "Say it in Portuguese: I play volleyball and I play the drums.",
-        tip: "Vôlei: 'VÔ-lay', with a closed ô.",
+        tip: "Vôlei: VÔ-lei, with a closed ô.",
         explanation: "\"Jogar\" for the sport, \"tocar\" for the instrument.",
       },
     ],

@@ -123,7 +123,7 @@ export const KO_B1_U31_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "I think more and more people [live] with pets.",
+        en: "I think [more and more people live] with pets.",
         sentence: "반려동물과 같이 ___ 사람이 점점 많아진다고 생각해요.",
         answer: "사는",
         explanation: "살다 drops ㄹ before ㄴ: 사는 사람. The opinion verb is 많아진다고, an action verb after -아 / 어지다.",
@@ -265,8 +265,8 @@ export const KO_B1_U31_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (formal, in a meeting).",
         source: "I agree with that opinion too.",
         answer: "저도 그 의견에 동의합니다.",
-        altAnswers: ["저 역시 그 의견에 동의합니다.", "저도 그 의견에 찬성합니다."],
-        explanation: "동의하다 takes 에; 합니다 suits a meeting, so the (formal) label asks for 동의합니다, not 동의해요.",
+        altAnswers: ["저도 그 의견에 동의해요.", "저 역시 그 의견에 동의합니다.", "저도 그 의견에 찬성합니다."],
+        explanation: "동의하다 takes 에; 합니다 suits a meeting.",
       },
       {
         type: "translate",
@@ -327,7 +327,7 @@ export const KO_B1_U31_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite, to a senior). Soften it.",
         source: "You're right too, but I think the schedule is a bit tight.",
         answer: "말씀도 맞지만 일정이 좀 빠듯한 것 같아요.",
-        altAnswers: ["말씀도 맞지만 일정이 조금 빠듯한 것 같아요.", "말씀도 맞지만 일정이 좀 빠듯하지 않을까 싶어요.", "말씀도 맞는데 일정이 좀 빠듯한 것 같아요."],
+        altAnswers: ["말씀도 맞지만 일정이 조금 빠듯한 것 같아요.", "말씀도 맞지만 일정이 좀 빠듯하지 않을까 싶어요.", "말씀도 맞지만 일정이 좀 빠듯한 것 같습니다.", "말씀도 맞지만 일정이 좀 빠듯하지 않을까 싶습니다.", "말씀도 맞는데 일정이 좀 빠듯한 것 같아요."],
         explanation: "말씀 is the honorific for a senior's words; -(으)ㄴ 것 같아요 or -지 않을까 싶어요 softens your point.",
       },
       {
@@ -349,7 +349,7 @@ export const KO_B1_U31_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite, to a colleague).",
         source: "Hmm, I see it a bit differently.",
         answer: "글쎄요, 저는 좀 다르게 생각해요.",
-        altAnswers: ["글쎄요, 저는 조금 다르게 생각해요.", "글쎄요, 저는 생각이 좀 달라요.", "글쎄요, 그건 좀 다르게 생각해요."],
+        altAnswers: ["글쎄요, 저는 조금 다르게 생각해요.", "글쎄요, 저는 생각이 좀 달라요.", "글쎄요, 그건 좀 다르게 생각해요.", "글쎄요, 저는 좀 다르게 생각합니다."],
         explanation: "The polite version of 난 좀 다르게 생각해: 저는 and 생각해요.",
       },
       {
@@ -455,9 +455,9 @@ export const KO_B1_U31_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence fits a written pros-and-cons paragraph?",
-        options: ["온라인 쇼핑은 편리한 반면에 충동구매를 하기 쉽다.", "온라인 쇼핑은 편리한데 충동구매를 하기 쉬워요.", "근데 온라인 쇼핑은 진짜 편해.", "온라인 쇼핑은 편리한 반면에 충동구매를 하기 쉬워."],
+        options: ["온라인 쇼핑은 편리한 반면에 충동구매를 하기 쉽다.", "온라인 쇼핑은 편리한데 충동구매를 하기 쉬워요.", "근데 온라인 쇼핑은 진짜 편해.", "온라인 쇼핑은 편리한 반면에 충동구매를 하기 쉽습니다요."],
         correctIndex: 0,
-        explanation: "한다체 with 반면에 suits writing. The others are spoken: 해요, or 반말 (진짜 편해, 쉬워), which is for friends, not for a paragraph.",
+        explanation: "한다체 with 반면에 suits writing. The others are spoken 해요, 반말, or an impossible mix of endings.",
       },
       {
         type: "fill-blank",
@@ -510,7 +510,7 @@ export const KO_B1_U31_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Korean (written style).",
-        source: "Online shopping is convenient, but it also makes it easy to buy on impulse.",
+        source: "Online shopping is convenient, while it is easy to buy on impulse.",
         answer: "온라인 쇼핑은 편리한 반면에 충동구매를 하기 쉽다.",
         altAnswers: ["온라인 쇼핑은 편리한 반면 충동구매를 하기 쉽다.", "온라인 쇼핑은 편리하지만 충동구매를 하기 쉽다.", "온라인 쇼핑은 편리한 반면에 충동구매하기 쉽다.", "온라인 쇼핑은 편리하지만 충동구매하기 쉽다.", "온라인 쇼핑은 편리한 반면에 충동구매를 하기가 쉽다."],
         explanation: "편리한 반면에 sets the two sides against each other; 충동구매 'impulse buying'.",

@@ -229,7 +229,7 @@ export const PT_A2_U02: Lesson[] = [
         heading: "Tive, teve: ter in the past",
         body: [
           "The perfeito of \"ter\" is irregular: \"eu tive\" (I had), \"você teve\", \"ele teve\", \"ela teve\" (you, he, she had), \"nós tivemos\" (we had), \"vocês tiveram\", \"eles tiveram\" (you all, they had). \"A gente\" takes \"teve\", like \"ele\".",
-          "Only the first vowel separates \"tive\" (eu) from \"teve\" (você, ele, ela). Both end in -e, so \"eu teve\" is an easy slip: keep the i for eu. The ê in \"teve\" is closed: TÊ-vee.",
+          "Only the first vowel separates \"tive\" (eu) from \"teve\" (você, ele, ela). Both end in -e, so \"eu teve\" is an easy slip: keep the i for eu. The ê in \"teve\" is closed: TÊ-vi.",
           "In speech \"tem\" means there is, and in the same way \"teve\" means there was for an event: \"teve uma festa ontem\" (there was a party yesterday).",
         ],
         examples: [
@@ -343,7 +343,7 @@ export const PT_A2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Desculpa, tive que sair cedo.",
-            tip: "In most of Brazil the t before i in tive sounds like the ch in cheese: CHEE-vee.",
+            tip: "In most of Brazil the t before i in tive sounds like the ch in cheese: TCHI-vi.",
             explanation: "\"Tive que sair\": had to leave, the past of \"ter que\" + infinitive.",
           },
         ],
@@ -434,7 +434,7 @@ export const PT_A2_U02: Lesson[] = [
         type: "speak",
         text: "Eu estive em Salvador em janeiro.",
         prompt: "Say it in Portuguese: I was in Salvador in January.",
-        tip: "Stress the middle of estive: es-CHEE-vee.",
+        tip: "Stress the middle of estive: es-TCHI-vi.",
         explanation: "\"Estive em\" + place: where you were. Months take \"em\" and are written in lower case.",
       },
       {
@@ -1359,13 +1359,13 @@ export const PT_A2_U02: Lesson[] = [
     level: "PT-A2",
     number: 7,
     title: "Dialogue Lab: Como Foi a Viagem?",
-    summary: "Follow a conversation about a trip to Brazil's Northeast and learn to ask how it was, say where you went, describe the weather and react to a friend's story.",
+    summary: "Follow a conversation about a trip to the Nordeste and learn to ask how it was, say where you went, describe the weather and react to a friend's story.",
     duration: "12 min",
     sections: [
       {
         heading: "Como foi?: asking about the trip",
         body: [
-          "Beatriz is back at the office in São Paulo after a week in the Northeast (\"o Nordeste\"), and her colleague Rafael wants to hear everything. His two questions share one verb form. \"Como foi a viagem?\" uses \"foi\" from \"ser\" (how was it?). \"Aonde você foi?\" uses \"foi\" from \"ir\" (where did you go?). The question word does the work: \"como\" asks how, \"aonde\" asks where to.",
+          "Beatriz is back at the office in São Paulo after a week in the Nordeste, and her colleague Rafael wants to hear everything. His two questions share one verb form. \"Como foi a viagem?\" uses \"foi\" from \"ser\" (how was it?). \"Aonde você foi?\" uses \"foi\" from \"ir\" (where did you go?). The question word does the work: \"como\" asks how, \"aonde\" asks where to.",
           "Beatriz answers the first question with \"foi\" and an adjective: \"foi incrível\", \"foi ótimo\". For the second she switches to the eu form: \"fui para Recife\". A common slip is to answer \"foi para Recife\", which means he or she went.",
         ],
         examples: [
@@ -1436,7 +1436,7 @@ export const PT_A2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Comi tapioca e muito peixe.",
-            tip: "In \"peixe\" the x sounds like sh and the final -e sounds like ee: PAY-shee.",
+            tip: "In \"peixe\" the x sounds like sh and the final -e sounds like i: PAY-shi.",
             explanation: "\"Comi\" is the eu form of \"comer\" in the past, with the stress on the last syllable.",
           },
         ],
@@ -1449,7 +1449,7 @@ export const PT_A2_U02: Lesson[] = [
         ],
         examples: [
           { es: "A gente teve muita sorte com o tempo.", en: "We were really lucky with the weather." },
-          { es: "Que legal! Eu nunca fui ao Nordeste.", en: "How cool! I've never been to the Northeast." },
+          { es: "Que legal! Eu nunca fui ao Nordeste.", en: "How cool! I've never been to the Nordeste." },
           { es: "Mas eu tive um problema com a mala.", en: "But I had a problem with my suitcase." },
           { es: "Que pena! E quando você voltou?", en: "What a shame! And when did you get back?" },
           { es: "Voltei há dois dias.", en: "I got back two days ago." },
@@ -1560,7 +1560,7 @@ export const PT_A2_U02: Lesson[] = [
       {
         type: "speak",
         text: "Fui ao Nordeste com a minha irmã.",
-        prompt: "Say it in Portuguese: I went to the Northeast with my sister.",
+        prompt: "Say it in Portuguese: I went to the Nordeste with my sister.",
         tip: "Say \"fui\" as one quick syllable, and keep \"irmã\" nasal, with no n at the end.",
         explanation: "\"Fui\" is I went. \"O Nordeste\" takes the article, so a + o becomes \"ao\".",
       },
@@ -1788,7 +1788,7 @@ export const PT_A2_U02: Lesson[] = [
         type: "speak",
         text: "Eu tive um dia ótimo.",
         prompt: "Say it in Portuguese: I had a great day.",
-        tip: "In most of Brazil the t before i sounds like the ch in cheese: \"tive\" sounds like CHEE-vee.",
+        tip: "In most of Brazil the t before i sounds like the ch in cheese: \"tive\" sounds like tchive.",
         explanation: "\"Eu tive\": the eu form of \"ter\" in the perfeito.",
       },
       {
@@ -2148,7 +2148,7 @@ export const PT_A2_U02: Lesson[] = [
           {
             type: "speak",
             text: "A festa foi ótima.",
-            tip: "Stress the first syllable of ótima with an open ó: Ó-chee-ma. The t before i sounds like ch.",
+            tip: "Stress the first syllable of ótima with an open ó: Ó-tchi-ma. The t before i sounds like ch.",
             explanation: "\"Foi ótima\": \"ótima\" is feminine to agree with \"a festa\".",
           },
         ],
@@ -2163,7 +2163,7 @@ export const PT_A2_U02: Lesson[] = [
           { es: "Fui ao banco e paguei o aluguel.", en: "I went to the bank and paid the rent." },
           { es: "Busquei as crianças na escola às cinco.", en: "I picked the kids up from school at five." },
           { es: "Comprei pão na padaria há uma hora.", en: "I bought bread at the bakery an hour ago." },
-          { es: "Há três dias ela levou o carro para a oficina.", en: "Three days ago she took the car to the mechanic." },
+          { es: "Há três dias ela levou o carro para a oficina.", en: "Three days ago she took the car to the garage." },
           { es: "Almocei no centro e voltei para o escritório.", en: "I had lunch downtown and went back to the office." },
         ],
         checkpoint: [
@@ -2279,7 +2279,7 @@ export const PT_A2_U02: Lesson[] = [
         type: "speak",
         text: "Eu estive em Salvador no ano passado.",
         prompt: "Say it in Portuguese: I was in Salvador last year.",
-        tip: "The t in estive sounds like ch: es-CHEE-vee, with the final e said as ee.",
+        tip: "The t in estive sounds like ch: es-TCHI-vi, with the final e said as i.",
         explanation: "\"Estive em\" for a place you visited. \"No ano passado\" is last year.",
       },
     ],

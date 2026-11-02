@@ -150,7 +150,7 @@ export const PT_A2_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "O fim de semana foi ótimo.",
         prompt: "Say it in Portuguese: The weekend was great.",
-        tip: "Ótimo is stressed on the first syllable: Ó-chee-moo, with the t before i sounding like ch.",
+        tip: "Ótimo is stressed on the first syllable: Ó-tchi-mu, with the t before i sounding like ch.",
         explanation: "A judgement about the weekend, so the past of \"ser\": \"foi\".",
       },
       {
@@ -213,7 +213,7 @@ export const PT_A2_U02_EXTRA: Lesson[] = [
             type: "speak",
             text: "Fiz compras no shopping.",
             prompt: "Say it in Portuguese: I went shopping at the mall.",
-            tip: "Before compras, the z of fiz sounds like s (sh in Rio): fees KÕ-pras, with a nasal o.",
+            tip: "Before compras, the z of fiz sounds like s: fis KOM-pras.",
             explanation: "\"Fazer compras\" is to go shopping: \"fiz compras\".",
           },
         ],
@@ -355,14 +355,14 @@ export const PT_A2_U02_EXTRA: Lesson[] = [
         heading: "Há and faz for ago",
         body: [
           "Ago is \"há\" or \"faz\" + the time: \"há dois dias\" or \"faz dois dias\" (two days ago). It can go at the start or the end: \"Fui lá há um mês\" / \"Há um mês, fui lá\". \"Há\" is written with an h and an accent; it's a form of \"haver\".",
-          "Don't confuse \"há\" (ago) with \"a\" for a time ahead: \"daqui a dois dias\" (two days from now). In speech \"faz\" is very common: \"faz tempo que não te vejo\" (it's been ages since I saw you).",
+          "Don't confuse \"há\" (ago) with \"a\" for a time ahead: \"daqui a dois dias\" (in two days' time). In speech \"faz\" is very common: \"faz tempo que não te vejo\" (it's been ages since I saw you).",
         ],
         examples: [
           { es: "Cheguei há dez minutos.", en: "I arrived ten minutes ago." },
           { es: "Ela foi para Lisboa faz um ano.", en: "She went to Lisbon a year ago." },
           { es: "Há três semanas, tivemos uma festa.", en: "Three weeks ago, we had a party." },
           { es: "Fiz essa viagem há muito tempo.", en: "I made that trip a long time ago." },
-          { es: "Daqui a dois dias eu viajo.", en: "Two days from now I'm traveling." },
+          { es: "Daqui a dois dias eu viajo.", en: "In two days' time I'm traveling." },
           { es: "Faz tempo que eu não vou à praia.", en: "It's been a while since I went to the beach." },
         ],
         checkpoint: [
@@ -444,7 +444,7 @@ export const PT_A2_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Yesterday I went to the market, I made lunch and I took a nap.",
+        source: "Yesterday I went to the market, I made lunch and I had a nap.",
         answer: "Ontem eu fui ao mercado, fiz o almoço e tirei um cochilo.",
         altAnswers: ["Ontem fui ao mercado, fiz o almoço e tirei um cochilo.", "Ontem eu fui ao mercado, fiz almoço e tirei um cochilo.", "Ontem eu fui no mercado, fiz o almoço e tirei uma soneca."],
         explanation: "A chain of finished events in the perfeito. \"Tirar um cochilo\" is to take a nap.",
@@ -498,7 +498,7 @@ export const PT_A2_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Faz muito tempo que eu não viajo.",
         prompt: "Say it in Portuguese: It's been a long time since I traveled.",
-        tip: "Before the m of muito, the z of faz is voiced, like the z in zoo (in Rio, like the s in measure). Muito is nasal: MŨY-too.",
+        tip: "Faz ends in an s sound before muito: fas MUIN-tu.",
         explanation: "\"Faz tempo que\" + \"não\" + present is the everyday Brazilian pattern.",
       },
       {
@@ -506,7 +506,7 @@ export const PT_A2_U02_EXTRA: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "há dois dias", right: "two days ago" },
-          { left: "daqui a dois dias", right: "two days from now" },
+          { left: "daqui a dois dias", right: "in two days' time" },
           { left: "faz um ano", right: "a year ago" },
           { left: "há muito tempo", right: "a long time ago" },
           { left: "há pouco", right: "a little while ago" },

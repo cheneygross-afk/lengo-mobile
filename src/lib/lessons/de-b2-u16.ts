@@ -1900,10 +1900,10 @@ export const DE_B2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'She must have forgotten the appointment.'?",
+        question: "Which sentence is correct?",
         options: ["Sie muss den Termin vergessen haben.", "Sie musste den Termin vergessen haben.", "Sie muss den Termin vergessen sein.", "Sie muss den Termin vergessen gehabt."],
         correctIndex: 0,
-        explanation: "A guess made now about the past is present \"muss\" + \"vergessen haben\". \"*Sie musste den Termin vergessen haben*\" moves the guess itself into the past (as in a story), which isn't what the English means here.",
+        explanation: "Present \"muss\" + \"vergessen haben\" (\"vergessen\" takes \"haben\"). \"Musste\" is wrong for a present guess.",
       },
       {
         type: "translate",
@@ -2109,10 +2109,10 @@ export const DE_B2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'If I had known that, I would have called.'?",
+        question: "Which sentence is correct?",
         options: ["Wenn ich das gewusst hätte, hätte ich angerufen.", "Wenn ich das würde gewusst haben, hätte ich angerufen.", "Wenn ich das gewusst habe, hätte ich angerufen.", "Wenn ich hätte das gewusst, hätte ich angerufen."],
         correctIndex: 0,
-        explanation: "Konjunktiv II past in both halves, with \"hätte\" at the end of the wenn-clause. \"*Wenn ich das gewusst habe*\" is the real Perfekt, not an unreal condition.",
+        explanation: "\"Hätte\" in both halves; in the wenn-clause it goes to the end.",
       },
       {
         type: "word-order",

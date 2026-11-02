@@ -580,7 +580,7 @@ export const PT_C2_U06: Lesson[] = [
         ],
         examples: [
           { es: "Senhor Presidente, peço a palavra.", en: "Mr. President, I ask for the floor." },
-          { es: "Concedo a palavra ao vereador Lucas Ramos.", en: "I give the floor to Councilman Lucas Ramos." },
+          { es: "Concedo a palavra ao vereador Lucas Ramos.", en: "I give the floor to Councillor Lucas Ramos." },
           { es: "Com a palavra, a deputada Ana Costa.", en: "Representative Ana Costa has the floor." },
           { es: "Pela ordem, Senhor Presidente!", en: "Mr. President, a procedural point!" },
           { es: "O nobre deputado me concede um aparte?", en: "Will the honorable member yield for a moment?" },
@@ -597,7 +597,7 @@ export const PT_C2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You are chairing a session of the Câmara Municipal and want to give the floor to Councilman Rafael Souza. What do you say?",
+            question: "You are chairing a session of the Câmara Municipal and want to give the floor to Councillor Rafael Souza. What do you say?",
             options: ["Peço a palavra, vereador Rafael Souza.", "Questão de ordem, vereador Rafael Souza.", "Com a palavra, o vereador Rafael Souza.", "O vereador Rafael Souza tem razão."],
             correctIndex: 2,
             explanation: "\"Com a palavra, o vereador...\" is how the chair announces the next speaker. \"Peço a palavra\" is what a member says to get the floor, and a \"questão de ordem\" is a procedural objection.",
@@ -815,7 +815,7 @@ export const PT_C2_U06: Lesson[] = [
         type: "speak",
         text: "Senhor Presidente, concluo em trinta segundos.",
         prompt: "Say it in Portuguese: Mr. President, I'll wrap up in thirty seconds.",
-        tip: "Pause after Presidente, whose final -te sounds like 'chee'; the d in -den- stays a hard d. End segundos with a soft 'oos'.",
+        tip: "Pause after Presidente, whose final -te sounds like tchi; the d in -den- stays a hard d. End segundos with a soft -us.",
         explanation: "The present \"concluo\" promises an imminent act, which is the natural reply to a time warning.",
       },
       {
@@ -1216,12 +1216,12 @@ export const PT_C2_U06: Lesson[] = [
       {
         heading: "Graduation: protocol first, then the class's voice",
         body: [
-          "At a \"colação de grau\" the \"orador da turma\" speaks for the graduating class, and the opening follows ceremonial protocol. Authorities come first, in order of rank, then teachers, then families and classmates. A university president (the \"reitor\") is addressed as \"Magnífico Reitor\", and high officials take \"Excelentíssimo\", as in the official letters of C1. To avoid listing twenty names, greet the highest authority and fold in the rest: \"Na pessoa do Magnífico Reitor, cumprimento as demais autoridades\".",
+          "At a \"colação de grau\" the \"orador da turma\" speaks for the graduating class, and the opening follows ceremonial protocol. Authorities come first, in order of rank, then teachers, then families and classmates. A university rector is \"Magnífico Reitor\", and high officials take \"Excelentíssimo\", as in the official letters of C1. To avoid listing twenty names, greet the highest authority and fold in the rest: \"Na pessoa do Magnífico Reitor, cumprimento as demais autoridades\".",
           "After that ritual opening the speech uses the first person plural, \"nós\" rather than \"a gente\": \"chegamos\", \"aprendemos\", \"devemos\". The expected moves are thanks to families and teachers, a shared memory of the course and a look ahead. \"Hoje não é um fim, mas um começo\" is said at every formatura in the country. If you use it, give it a twist.",
         ],
         examples: [
-          { es: "Magnífico Reitor, prezados professores, queridas famílias, boa noite.", en: "Honorable President of the University, dear professors, dear families, good evening." },
-          { es: "Na pessoa do Magnífico Reitor, cumprimento as demais autoridades presentes.", en: "Through the university president, I greet all the other authorities present." },
+          { es: "Magnífico Reitor, prezados professores, queridas famílias, boa noite.", en: "Rector, dear professors, dear families, good evening." },
+          { es: "Na pessoa do Magnífico Reitor, cumprimento as demais autoridades presentes.", en: "Through the Rector, I greet all the other authorities present." },
           { es: "Em nome da turma de Medicina de 2024, agradeço a honra de falar esta noite.", en: "On behalf of the 2024 Medicine class, thank you for the honor of speaking tonight." },
           { es: "Aos nossos pais, que tantas vezes abriram mão do próprio sonho para que o nosso fosse possível, o nosso muito obrigado.", en: "To our parents, who so often gave up their own dreams so that ours could come true: thank you." },
           { es: "Chegamos até aqui, mas ninguém chegou sozinho.", en: "We made it here, but none of us made it alone." },
@@ -1229,14 +1229,14 @@ export const PT_C2_U06: Lesson[] = [
         checkpoint: [
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Through the university president, I greet all the other authorities present.",
+            prompt: "Put the words in order to say: Through the Rector, I greet all the other authorities present.",
             words: ["Na pessoa do", "Magnífico Reitor,", "cumprimento", "as demais", "autoridades presentes."],
-            translation: "Through the university president, I greet all the other authorities present.",
+            translation: "Through the Rector, I greet all the other authorities present.",
             explanation: "\"Na pessoa de\" lets you greet one authority on behalf of all the others. \"Cumprimentar\" takes a direct object, so the norm says \"cumprimento as demais autoridades\".",
           },
           {
             type: "multiple-choice",
-            question: "You're the orador da turma and must open by greeting the university president, the professors and the families. Which opening fits?",
+            question: "You're the orador da turma and must open by greeting the Rector, the professors and the families. Which opening fits?",
             options: [
               "Magnífico Reitor, prezados professores, queridas famílias, boa noite.",
               "Queridas famílias, prezados professores, Magnífico Reitor, boa noite.",
@@ -1882,7 +1882,7 @@ export const PT_C2_U06: Lesson[] = [
           {
             type: "speak",
             text: "Eu quero uma cidade onde a mãe não espere uma hora pelo ônibus.",
-            tip: "Pause after cidade and let onde rise: in an anaphora the rhythm carries the argument. Cidade ends in a soft 'jee' sound.",
+            tip: "Pause after cidade and let onde rise: in an anaphora the rhythm carries the argument. Cidade ends in a soft dji sound.",
             explanation: "\"Espere\" is subjunctive because the city is a wish. Said three times with the same opening, the line becomes the clip people remember.",
           },
         ],
@@ -1960,7 +1960,7 @@ export const PT_C2_U06: Lesson[] = [
         type: "speak",
         text: "Agradeço à emissora pelo convite e cumprimento o prefeito.",
         prompt: "Say it in Portuguese: I thank the station for the invitation and greet the mayor.",
-        tip: "In Brazil the crase sounds just like a plain a, so link \"à emissora\" smoothly. Stress koom-pree-MẼN-too and keep the final -o a soft 'oo'.",
+        tip: "In Brazil the crase sounds just like a plain a, so link \"à emissora\" smoothly. Stress cum-pri-MEN-to and keep the final -o soft.",
         explanation: "\"Agradecer a\" plus \"a emissora\" gives \"à\". \"Cumprimentar\" takes a direct object: \"cumprimento o prefeito\".",
       },
       {
@@ -2112,7 +2112,7 @@ export const PT_C2_U06: Lesson[] = [
           "Keep forms of address consistent. If you open with \"senhoras e senhores\", don't slide into \"pessoal\" and \"galera\" halfway through. In a debate, don't call the same opponent \"o senhor\" in one sentence and \"você\" in the next. At the formal end, \"nós\" with its own verb is the safe choice; \"a gente\" belongs to semi-formal talks.",
         ],
         examples: [
-          { es: "Senhoras e senhores vereadores, agradeço a atenção de todos.", en: "Council members, ladies and gentlemen, thank you all for your attention." },
+          { es: "Senhoras e senhores vereadores, agradeço a atenção de todos.", en: "Councillors, ladies and gentlemen, thank you all for your attention." },
           { es: "Nós vamos apresentar três propostas.", en: "We're going to present three proposals." },
           { es: "Senhor candidato, o senhor ainda não respondeu à minha pergunta.", en: "Candidate, you still haven't answered my question." },
           { es: "Um brinde à Júlia e ao Pedro: que eles sejam muito felizes!", en: "A toast to Júlia and Pedro: may they be very happy!" },
@@ -2424,7 +2424,7 @@ export const PT_C2_U06: Lesson[] = [
           {
             type: "speak",
             text: "Repito: quase dois mil moradores, em dez dias.",
-            tip: "Pause after Repito, slow down on the numbers, and let the final -es of moradores sound like 'ees'.",
+            tip: "Pause after Repito, slow down on the numbers, and let the final -es of moradores sound like -is.",
             explanation: "Repeating your key figure after a pause is a spoken device: on paper it would be redundant, but at a microphone it is what the room remembers.",
           },
           {
@@ -2696,7 +2696,7 @@ export const PT_C2_U06: Lesson[] = [
           {
             type: "speak",
             text: "Proponho um brinde à Marina e ao Paulo, que hoje começam uma vida nova.",
-            tip: "The d in \"brinde\" sounds like 'jee' (BRĨN-jee); the o before nh in \"proponho\" is closed and nasal.",
+            tip: "The d in \"brinde\" sounds like dji (BRIN-dji); the o before nh in \"proponho\" is closed and nasal.",
             explanation: "Pause briefly after the names: the relative clause \"que hoje começam uma vida nova\" is the emotional payload.",
           },
         ],
@@ -2781,7 +2781,7 @@ export const PT_C2_U06: Lesson[] = [
         type: "speak",
         text: "Vou ser breve e vou terminar com um pedido.",
         prompt: "Say it in Portuguese: I'll be brief, and I'll end with a request.",
-        tip: "Link \"breve e\" into one breath (BRÉ-vee-ee), and keep the final -o of \"pedido\" as a soft 'oo'.",
+        tip: "Link \"breve e\" into one breath (BRÉ-vi-i), and keep the final -o of \"pedido\" as a soft u.",
         explanation: "Signposting the end prepares listeners for the peroração and its request.",
       },
       {

@@ -121,7 +121,7 @@ export const PT_A2_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "You all [used to sell] fruit at the street market.",
+        en: "You all [used to sell] fruit at the feira.",
         sentence: "Vocês ___ frutas na feira.",
         answer: "vendiam",
         explanation: "\"Vender\" → \"vendiam\" for vocês.",
@@ -378,7 +378,7 @@ export const PT_A2_U04_EXTRA: Lesson[] = [
             type: "speak",
             text: "Antigamente eu acordava cedo.",
             prompt: "Say it in Portuguese: I used to wake up early.",
-            tip: "Cedo has a closed e: SÊ-doo.",
+            tip: "Cedo has a closed e: SÊ-du.",
             explanation: "\"Acordava\" for a past habit.",
           },
         ],

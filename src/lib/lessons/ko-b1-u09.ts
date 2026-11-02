@@ -1213,7 +1213,7 @@ export const KO_B1_U09: Lesson[] = [
         question: "A colleague has a bandage on her finger. How do you ask what happened?",
         options: ["어쩌다가 다쳤어요?", "어쩌자마자 다쳤어요?", "어쩐 김에 다쳤어요?", "다쳤다가 어쩌셨어요?"],
         correctIndex: 0,
-        explanation: "어쩌다가 'how (did it happen)' is the set question. -자마자 and -김에 make no sense here, and 다쳤다가 어쩌셨어요? asks what she did after getting hurt.",
+        explanation: "어쩌다가 'how (did it happen)' is the set question. The others aren't Korean.",
       },
       {
         type: "word-order",
@@ -2132,7 +2132,7 @@ export const KO_B1_U09: Lesson[] = [
             en: "I fell [while running] to the salon.",
             sentence: "미용실에 ___ 넘어졌어요.",
             answer: "뛰어가다가",
-            altAnswers: ["뛰어가다", "달려가다가"],
+            altAnswers: ["뛰어가다", "가다가", "달려가다가"],
             explanation: "-다가 for the activity during the accident.",
           },
           {

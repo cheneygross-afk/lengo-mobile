@@ -267,10 +267,10 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'What's more, we could sell more.'?",
+            question: "Which sentence is correct?",
             options: ["Zudem könnten wir mehr verkaufen.", "Zudem, wir könnten mehr verkaufen.", "Zudem wir könnten mehr verkaufen.", "Zudem könnten mehr wir verkaufen."],
             correctIndex: 0,
-            explanation: "\"Zudem\" fills position 1, so the verb comes second: \"Zudem könnten wir ...\", with no comma. \"*Zudem, wir könnten*\" copies the English comma and word order.",
+            explanation: "\"Zudem\" fills position 1, so the verb comes second: \"Zudem könnten wir ...\". No comma after it.",
           },
         ],
       },
@@ -552,10 +552,10 @@ export const DE_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The winery, whose vineyards are on the Moselle, is old.'?",
+        question: "Which sentence is correct?",
         options: ["Das Weingut, dessen Weinberge an der Mosel liegen, ist alt.", "Das Weingut, deren Weinberge an der Mosel liegen, ist alt.", "Das Weingut, dessen Weinberge liegen an der Mosel, ist alt.", "Das Weingut, dessen die Weinberge an der Mosel liegen, ist alt."],
         correctIndex: 0,
-        explanation: "\"Das Weingut\" is neuter, so \"dessen\", with no article after it and the verb at the end. \"*deren Weinberge*\" would need a feminine or plural antecedent.",
+        explanation: "\"Das Weingut\" (neuter) → \"dessen\"; no article after it; verb at the end.",
       },
       {
         type: "translate",
@@ -681,10 +681,10 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the safest standard way to write 'within two weeks'?",
+            question: "Which correction of \"*innerhalb zwei Wochen*\" is right?",
             options: ["innerhalb von zwei Wochen", "innerhalb zwei Wochen lang", "innerhalb zweien Wochen", "innerhalb den zwei Wochen"],
             correctIndex: 0,
-            explanation: "With a number and no article, use \"von\" + dative: \"innerhalb von zwei Wochen\". Bare \"innerhalb zwei Wochen\" is heard and Duden tolerates it, but \"von\" is the safe choice; \"*innerhalb zweien Wochen*\" and \"*innerhalb den zwei Wochen*\" are wrong forms.",
+            explanation: "No article → \"von\" + dative: \"innerhalb von zwei Wochen\".",
           },
         ],
       },
@@ -955,10 +955,10 @@ export const DE_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I think you could have called more often.'?",
+        question: "Which sentence is correct?",
         options: ["Ich finde, dass du öfter hättest anrufen können.", "Ich finde, dass du öfter anrufen können hättest.", "Ich finde, dass du öfter hättest angerufen können.", "Ich finde, dass du hättest öfter anrufen gekonnt."],
         correctIndex: 0,
-        explanation: "In a subordinate clause \"hättest\" goes in front of the double infinitive: \"dass du öfter hättest anrufen können\". \"*anrufen können hättest*\" follows the usual verb-last rule, but the double infinitive is the exception.",
+        explanation: "In a subordinate clause \"hättest\" goes before the double infinitive \"anrufen können\".",
       },
       {
         type: "translate",
@@ -1020,7 +1020,7 @@ export const DE_B2_U22: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Real-World Mission: Ein formeller Text",
-    summary: "Write a residents' association statement (\"Stellungnahme\") about a planned multi-storey car park, using genitive prepositions, nominal style and formal relatives.",
+    summary: "Write a residents' association statement (Stellungnahme) about a planned multi-storey car park, using genitive prepositions, nominal style and formal relatives.",
     duration: "15 min",
     sections: [
       {
@@ -1255,10 +1255,10 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'He acts as if he knew everything.'?",
+            question: "Which sentence is correct?",
             options: ["Er tut so, als ob er alles wüsste.", "Er tut so, als ob wüsste er alles.", "Er tut so, als er alles wüsste.", "Er tut so, als ob er alles weißt."],
             correctIndex: 0,
-            explanation: "\"Als ob\" sends the verb to the end (\"als ob er alles wüsste\"); \"als\" alone takes the verb straight after it (\"als wüsste er alles\"). \"*als er alles wüsste*\" mixes the two.",
+            explanation: "\"Als ob\" → verb at the end; \"als\" alone → verb right after it (\"als wüsste er alles\").",
           },
         ],
       },
@@ -1366,10 +1366,10 @@ export const DE_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I'm not coming along; I have to study, you see.'?",
+        question: "Which sentence uses \"nämlich\" correctly?",
         options: ["Ich komme nicht mit, ich muss nämlich lernen.", "Ich komme nicht mit, nämlich ich muss lernen.", "Ich komme nicht mit. Nämlich muss ich lernen.", "Nämlich ich komme nicht mit, weil ich lernen muss."],
         correctIndex: 0,
-        explanation: "\"Nämlich\" sits in the middle field after the verb: \"ich muss nämlich lernen\". \"*nämlich ich muss lernen*\" uses it like English 'namely' at the front, which German doesn't allow.",
+        explanation: "\"Nämlich\" sits in the Mittelfeld after the verb; it can't open the clause.",
       },
       {
         type: "translate",
@@ -1460,10 +1460,10 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'The seal does react to touch, but it doesn't understand anything.'?",
+            question: "Which sentence is correct?",
             options: ["Zwar reagiert die Robbe auf Berührungen, aber sie versteht nichts.", "Zwar die Robbe reagiert auf Berührungen, aber sie versteht nichts.", "Zwar reagiert die Robbe auf Berührungen, aber versteht sie nichts.", "Die Robbe zwar reagiert auf Berührungen, aber sie versteht nichts."],
             correctIndex: 0,
-            explanation: "\"Zwar\" in position 1 → verb second; \"aber\" stands outside the clause, so normal order follows: \"aber sie versteht\". \"*aber versteht sie*\" wrongly inverts after \"aber\".",
+            explanation: "\"Zwar\" in position 1 → verb second. \"Aber\" is in position 0, so the clause after it has normal order: \"aber sie versteht\".",
           },
         ],
       },
@@ -2092,10 +2092,10 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'Nevertheless, I think the wind farm is necessary.'?",
+            question: "Which sentence is correct?",
             options: ["Dennoch halte ich den Windpark für notwendig.", "Dennoch ich halte den Windpark für notwendig.", "Dennoch, ich halte den Windpark für notwendig.", "Ich dennoch halte den Windpark für notwendig."],
             correctIndex: 0,
-            explanation: "\"Dennoch\" in position 1 → verb second, no comma: \"Dennoch halte ich ...\". \"*Dennoch, ich halte*\" copies the English comma and word order.",
+            explanation: "\"Dennoch\" in position 1 → verb second, no comma.",
           },
         ],
       },

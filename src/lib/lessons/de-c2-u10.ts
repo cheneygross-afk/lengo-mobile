@@ -766,10 +766,10 @@ export const DE_C2_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The funding is in the bag.'?",
+        question: "Which is correct?",
         options: ["Die Finanzierung ist in trockenen Tüchern.", "Die Finanzierung ist in trockene Tücher.", "Die Finanzierung ist im trockenen Tuch.", "Die Finanzierung ist auf trockenen Tüchern."],
         correctIndex: 0,
-        explanation: "A state: \"in trockenen Tüchern\" (dative plural). \"*in trockene Tücher*\" (accusative) is only for the movement: \"etwas in trockene Tücher bringen\".",
+        explanation: "State: \"in trockenen Tüchern\" (dative plural).",
       },
       {
         type: "word-order",
@@ -984,7 +984,7 @@ export const DE_C2_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm glad you raised that.",
         answer: "Gut, dass Sie das ansprechen.",
-        altAnswers: ["Gut, dass du das ansprichst.", "Schön, dass Sie das ansprechen.", "Gut, dass Sie das angesprochen haben.", "Gut, dass du das angesprochen hast."],
+        altAnswers: ["Gut, dass du das ansprichst.", "Schön, dass Sie das ansprechen.", "Gut, dass Sie das angesprochen haben."],
         explanation: "\"Etwas ansprechen\" = to raise a point.",
       },
       {
@@ -1458,10 +1458,10 @@ export const DE_C2_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'Now we have to do the job properly.'?",
+            question: "Which sentence is correct?",
             options: ["Jetzt müssen wir Nägel mit Köpfen machen.", "Jetzt müssen wir Nägel mit Köpfen tun.", "Jetzt müssen wir Nägel mit Köpfe machen.", "Jetzt müssen wir Nagel mit Kopf machen."],
             correctIndex: 0,
-            explanation: "Fixed form: \"Nägel mit Köpfen machen\" (dative plural \"Köpfen\"). \"*Nägel mit Köpfen tun*\" changes the verb, which an idiom doesn't allow.",
+            explanation: "Fixed form: \"Nägel mit Köpfen machen\" (dative plural \"Köpfen\").",
           },
           {
             type: "listen-choose",
@@ -1758,10 +1758,10 @@ export const DE_C2_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We should cancel, especially as the weather is bad.'?",
+        question: "Which sentence is correct?",
         options: ["Wir sollten absagen, zumal das Wetter schlecht ist.", "Wir sollten absagen, zumal ist das Wetter schlecht.", "Wir sollten absagen, zumal das Wetter ist schlecht.", "Zumal ist das Wetter schlecht, wir sollten absagen."],
         correctIndex: 0,
-        explanation: "\"Zumal\" is a subordinating conjunction: the verb goes to the end (\"schlecht ist\"). \"*zumal ist das Wetter*\" treats it like an adverb.",
+        explanation: "\"Zumal\" is a subordinating conjunction: the verb goes to the end.",
       },
       {
         type: "translate",

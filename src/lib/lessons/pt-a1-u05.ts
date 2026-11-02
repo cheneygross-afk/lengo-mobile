@@ -17,7 +17,7 @@ export const PT_A1_U05: Lesson[] = [
         body: [
           "Verbs ending in -er work like the -ar verbs you know, with e where -ar verbs have a. Take \"comer\" (to eat): \"eu como\", \"você come\", \"ele come\", \"ela come\", \"nós comemos\", \"vocês comem\", \"eles comem\", \"elas comem\".",
           "Compare \"falar\": \"falo, fala, falamos, falam\". The eu form still ends in -o, and every other ending swaps a for e. As always, \"você\" takes the ele form and \"vocês\" takes the eles form.",
-          "Final -e sounds like i, so \"come\" ends in an i sound: 'KÓ-mee'. Don't confuse \"eu como\" (I eat) with \"como?\" (how?). The sentence always tells you which one you have.",
+          "Final -e sounds like i, so \"come\" ends in an i sound: 'KOH-mee'. Don't confuse \"eu como\" (I eat) with \"como?\" (how?). The sentence always tells you which one you have.",
         ],
         examples: [
           { es: "Eu como pão de queijo.", en: "I eat cheese bread." },
@@ -116,7 +116,7 @@ export const PT_A1_U05: Lesson[] = [
           {
             type: "speak",
             text: "Nós abrimos a loja.",
-            tip: "Stress the middle syllable: 'ah-BREE-moos'.",
+            tip: "Stress the middle syllable: a-BRI-mos.",
             explanation: "\"Abrimos\": the nós form of an -ir verb ends in -imos.",
           },
         ],
@@ -416,7 +416,7 @@ export const PT_A1_U05: Lesson[] = [
         type: "speak",
         text: "Eu leio em português.",
         prompt: "Say it in Portuguese: I read in Portuguese.",
-        tip: "\"Leio\" sounds like 'LAY-oo': the final o is a u sound.",
+        tip: "\"Leio\" sounds like LAY-oo: the final o is a u sound.",
         explanation: "\"Leio\" is the irregular eu form of \"ler\".",
       },
       {
@@ -529,7 +529,7 @@ export const PT_A1_U05: Lesson[] = [
         heading: "Getting around: de ônibus, a pé, vamos!",
         body: [
           "How you travel takes \"de\" with no article: \"de ônibus\" (by bus), \"de metrô\", \"de carro\", \"de trem\", \"de bicicleta\". Walking is the exception: \"a pé\" (on foot). \"De pé\" means standing up, a common slip.",
-          "\"Vamos\" on its own means let's go: \"Vamos!\". With a rising voice it becomes an invitation: \"Vamos para a praia?\" (Should we go to the beach?).",
+          "\"Vamos\" on its own means let's go: \"Vamos!\". With a rising voice it becomes an invitation: \"Vamos para a praia?\" (Shall we go to the beach?).",
         ],
         examples: [
           { es: "Vou de ônibus.", en: "I go by bus." },
@@ -537,7 +537,7 @@ export const PT_A1_U05: Lesson[] = [
           { es: "Nós vamos a pé.", en: "We're walking." },
           { es: "Você vai de carro?", en: "Are you going by car?" },
           { es: "Vamos!", en: "Let's go!" },
-          { es: "Vamos para a praia?", en: "Should we go to the beach?" },
+          { es: "Vamos para a praia?", en: "Shall we go to the beach?" },
         ],
         checkpoint: [
           {
@@ -590,9 +590,9 @@ export const PT_A1_U05: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Should we go to the beach?",
+        prompt: "Put the words in order to say: Shall we go to the beach?",
         words: ["Vamos", "para", "a", "praia?"],
-        translation: "Should we go to the beach?",
+        translation: "Shall we go to the beach?",
         explanation: "\"Vamos\" with a rising voice is an invitation. \"Praia\" is feminine, so the article is \"a\".",
       },
       {
@@ -697,7 +697,7 @@ export const PT_A1_U05: Lesson[] = [
           {
             type: "speak",
             text: "Eu vou estudar português.",
-            tip: "Brazilians often say vou almost like 'VÔ'. Stress the end of estudar: 'es-too-DAR'.",
+            tip: "Brazilians often say vou almost like vô. Stress the end of estudar: es-tu-DAR.",
             explanation: "\"Vou\" + \"estudar\": ir in the eu form, then the infinitive.",
           },
         ],
@@ -1341,7 +1341,7 @@ export const PT_A1_U05: Lesson[] = [
         heading: "Vê, vem, veem, vêm: see or come?",
         body: [
           "\"Ver\" (to see) and \"vir\" (to come) have four present forms that look almost the same. For one person: \"ele vê\" (he sees), \"ele vem\" (he comes). For several: \"eles veem\" (they see), \"eles vêm\" (they come).",
-          "Listen for the nose. \"Vê\" is a plain closed ê; \"vem\" is nasal, like \"bem\". \"Veem\" has two syllables, 'VÊ-ẽy'. \"Vêm\" sounds exactly like \"vem\". The circumflex only marks the plural, so in speech the subject tells you which one it is.",
+          "Listen for the nose. \"Vê\" is a plain closed ê; \"vem\" is nasal, like \"bem\". \"Veem\" has two syllables, VÊ-eim. \"Vêm\" sounds exactly like \"vem\". The circumflex only marks the plural, so in speech the subject tells you which one it is.",
           "\"Nós\" splits too: \"nós vemos\" (we see), \"nós vimos\" (we come).",
         ],
         examples: [
@@ -1364,7 +1364,7 @@ export const PT_A1_U05: Lesson[] = [
               "We watch the game at the bar.",
             ],
             correctIndex: 0,
-            explanation: "You heard two syllables, 'VÊ-ẽy', so it's \"veem\" (they see) from \"ver\". \"Vêm\" (they come) is a single nasal syllable.",
+            explanation: "You heard two syllables, VÊ-eim, so it's \"veem\" (they see) from \"ver\". \"Vêm\" (they come) is a single nasal syllable.",
           },
           {
             type: "fill-blank",
@@ -1397,7 +1397,7 @@ export const PT_A1_U05: Lesson[] = [
           { es: "Amanhã eu venho aqui.", en: "I'm coming here tomorrow." },
           { es: "O João vai para o Rio.", en: "João is going to Rio." },
           { es: "O João vem para São Paulo.", en: "João is coming to São Paulo (where I am)." },
-          { es: "Já vou!", en: "I'm coming!" },
+          { es: "Já vou!", en: "I'm coming! / Coming!" },
           { es: "Vocês vêm aqui no sábado?", en: "Are you all coming here on Saturday?" },
         ],
         checkpoint: [
@@ -1463,7 +1463,7 @@ export const PT_A1_U05: Lesson[] = [
             type: "speak",
             text: "Venho do trabalho.",
             tip: "The nh in venho is like the ny in canyon, and the final o in trabalho sounds like u.",
-            explanation: "\"Venho do trabalho\": \"vir de\" for where you're coming from, with \"de\" + \"o\" gives \"do\".",
+            explanation: "\"Venho do trabalho\": \"vir de\" for where you're coming from, with \"de\" + \"o\" = \"do\".",
           },
         ],
       },
@@ -1559,7 +1559,7 @@ export const PT_A1_U05: Lesson[] = [
         type: "speak",
         text: "Já vou!",
         prompt: "Say it in Portuguese: I'm coming! (answering a friend who's calling you from the other room)",
-        tip: "Vou sounds like 'VÔ', with a closed o.",
+        tip: "Vou sounds like vô, with a closed o.",
         explanation: "You're moving toward your friend, away from where you are, so Portuguese uses \"ir\": \"Já vou!\".",
       },
       {
@@ -1590,7 +1590,7 @@ export const PT_A1_U05: Lesson[] = [
       {
         heading: "Eu faço, eu posso: the irregular eu forms",
         body: [
-          "Learners often write \"*eu fazo\" and \"*eu podo\", building the eu form the regular way, like \"comer\" becoming \"como\". Both verbs are irregular only here: \"eu faço\" (I do, I make) and \"eu posso\" (I can). The other persons are regular: \"faz\", \"fazemos\", \"pode\", \"podemos\".",
+          "Learners often write \"*eu fazo\" and \"*eu podo\", building the eu form the regular way, like \"comer\" → \"como\". Both verbs are irregular only here: \"eu faço\" (I do, I make) and \"eu posso\" (I can). The other persons are regular: \"faz\", \"fazemos\", \"pode\", \"podemos\".",
           "With this unit's irregular verbs, always check the eu form first. That is where they change: \"eu vou\", \"eu vejo\", \"eu venho\". The cedilla in \"faço\" keeps the s sound. Without it, the c would be read as a k.",
         ],
         examples: [
@@ -1631,7 +1631,7 @@ export const PT_A1_U05: Lesson[] = [
       {
         heading: "Comemos, abrimos; vem, vêm",
         body: [
-          "In the present, the nós ending follows the infinitive: \"comer\" gives \"comemos\" and \"abrir\" gives \"abrimos\". \"*Nós comimos\" gives an -er verb the -ir ending. The ending -imos belongs only to -ir verbs like \"partir\" and \"decidir\".",
+          "In the present, the nós ending follows the infinitive: \"comer\" → \"comemos\", \"abrir\" → \"abrimos\". \"*Nós comimos\" gives an -er verb the -ir ending. The ending -imos belongs only to -ir verbs like \"partir\" and \"decidir\".",
           "\"Vir\" marks the plural with a circumflex: \"ele vem\", \"eles vêm\", just like \"tem\" and \"têm\". The two sound almost the same, so \"*eles vem\" is a mistake you only catch in writing. \"Ver\" doubles the e instead: \"ele vê\", \"eles veem\".",
         ],
         examples: [
@@ -1680,7 +1680,7 @@ export const PT_A1_U05: Lesson[] = [
           { es: "Ela vai trabalhar amanhã.", en: "She's going to work tomorrow." },
           { es: "Nós vamos viajar no sábado.", en: "We're going to travel on Saturday." },
           { es: "Eu quero aprender português.", en: "I want to learn Portuguese." },
-          { es: "Vou para casa de metrô.", en: "I'm going home by metro." },
+          { es: "Vou para casa de metrô.", en: "I'm going home by subway." },
           { es: "Eles vão ao mercado.", en: "They're going to the market." },
           { es: "Estou em casa agora.", en: "I'm at home now." },
         ],
@@ -1797,7 +1797,7 @@ export const PT_A1_U05: Lesson[] = [
         type: "speak",
         text: "Eu não posso vir amanhã.",
         prompt: "Say it in Portuguese: I can't come tomorrow.",
-        tip: "The o in posso is open, as in law, and the final o sounds like u: 'PÓ-soo'.",
+        tip: "The o in posso is open, as in law, and the final o sounds like u: 'PAW-soo'.",
         explanation: "\"Não\" goes before \"posso\", and \"vir\" stays in the infinitive.",
       },
       {

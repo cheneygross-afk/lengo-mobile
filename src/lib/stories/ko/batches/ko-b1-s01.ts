@@ -231,7 +231,7 @@ export const KO_B1_S01_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "원룸", en: "studio flat, one-room apartment", forms: ["원룸을"] },
     { es: "전세", en: "jeonse, a lease paid with one large deposit returned at the end instead of monthly rent", forms: ["전세였다", "전세"] },
     { es: "월세", en: "monthly rent", forms: ["월세를"] },
-    { es: "사기", en: "fraud, scam", forms: ["사기", "사기를"] },
+    { es: "사기", en: "fraud, scam", forms: ["사기"] },
     { es: "보증금", en: "deposit", forms: ["보증금을", "보증금은"] },
     { es: "등기부등본", en: "property register certificate (shows who owns a building and what it owes)", forms: ["등기부등본을"] },
     { es: "대출", en: "loan", forms: ["대출이"] },

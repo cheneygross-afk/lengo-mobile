@@ -53,7 +53,7 @@ export const PT_B1_U08: Lesson[] = [
         ],
         examples: [
           { es: "Quando cheguei, o filme já tinha começado.", en: "When I arrived, the movie had already started." },
-          { es: "Quando ligamos, a loja já tinha fechado.", en: "When we called, the store had already closed." },
+          { es: "Quando ligamos, a loja já tinha fechado.", en: "When we called, the shop had already closed." },
           { es: "O ônibus ainda não tinha chegado.", en: "The bus hadn't arrived yet." },
           { es: "Quando a Beatriz acordou, o marido dela já tinha saído.", en: "When Beatriz woke up, her husband had already left." },
           { es: "Ela já tinha me avisado.", en: "She had already warned me." },
@@ -104,7 +104,7 @@ export const PT_B1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Nós nunca tínhamos experimentado comida baiana.",
-            tip: "Stress the first syllable of tínhamos (CHEE-nya-moos), and make the nh soft, like the ny in canyon.",
+            tip: "Stress the first syllable of tínhamos (TÍ-nha-mos), and make the nh soft, like the ny in canyon.",
             explanation: "\"Tínhamos experimentado\": the nós form of the mais-que-perfeito, a first experience seen from the past.",
           },
         ],
@@ -124,10 +124,10 @@ export const PT_B1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "When we called, the store had already closed.",
+        source: "When we called, the shop had already closed.",
         answer: "Quando ligamos, a loja já tinha fechado.",
         altAnswers: ["Quando nós ligamos, a loja já tinha fechado.", "A loja já tinha fechado quando ligamos.", "A loja já tinha fechado quando nós ligamos."],
-        explanation: "\"Ligamos\" (perfeito) is the reference point; the store closed before it, so \"já tinha fechado\".",
+        explanation: "\"Ligamos\" (perfeito) is the reference point; the shop closed before it, so \"já tinha fechado\".",
       },
       {
         type: "fill-blank",
@@ -187,7 +187,7 @@ export const PT_B1_U08: Lesson[] = [
         type: "speak",
         text: "Quando cheguei, o filme já tinha começado.",
         prompt: "Say it in Portuguese: When I arrived, the movie had already started.",
-        tip: "The ç in começado sounds like an s, and the final -o sounds like oo.",
+        tip: "The ç in começado sounds like an s, and the final -o sounds like u.",
         explanation: "\"Cheguei\" is the reference point; \"já tinha começado\" happened before it.",
       },
       {
@@ -326,7 +326,7 @@ export const PT_B1_U08: Lesson[] = [
           {
             type: "speak",
             text: "O avião já tinha decolado quando a gente chegou.",
-            tip: "The t in \"tinha\" before i sounds like the ch in cheese: CHEE-nya.",
+            tip: "The t in \"tinha\" before i sounds like the ch in cheese: tchinha.",
             explanation: "The spoken version: \"tinha decolado\" with \"a gente chegou\", where \"a gente\" takes the ele form.",
           },
         ],
@@ -435,7 +435,7 @@ export const PT_B1_U08: Lesson[] = [
         body: [
           "\"Antes de\" (before) and \"depois de\" (after) are followed by the infinitive where English uses -ing: \"antes de sair\" (before leaving), \"depois de comer\" (after eating). Never use the gerund here. \"Antes de saindo\" is the classic English speaker's slip.",
           "This works when the same person does both actions: \"Depois de jantar, eu lavei a louça.\" To stress that the first action was finished, you can also say \"depois de ter jantado\" (after having had dinner).",
-          "When the two actions have different subjects, switch to \"depois que\" + perfeito: \"Depois que as crianças dormiram, a gente viu um filme.\" \"Antes de\" with a new subject needs a form you'll meet in Unit 17.",
+          "When the two actions have different subjects, switch to \"depois que\" + perfeito: \"Depois que as crianças dormiram, a gente viu um filme.\" \"Antes de\" with a new subject needs a form you'll meet in Unit 9.",
         ],
         examples: [
           { es: "Antes de sair, eu fechei todas as janelas.", en: "Before leaving, I closed all the windows." },
@@ -519,7 +519,7 @@ export const PT_B1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Ela me ligou assim que soube da notícia.",
-            tip: "The t in notícia sounds like the ch in cheese: no-CHEE-sya.",
+            tip: "The t in notícia sounds like the ch in cheese: no-TCHI-sia.",
             explanation: "\"Soube\" here means found out, a single completed event, so it takes the perfeito after \"assim que\".",
           },
         ],
@@ -681,7 +681,7 @@ export const PT_B1_U08: Lesson[] = [
         type: "speak",
         text: "Quando acordei, meu marido já tinha saído.",
         prompt: "Say it in Portuguese: When I woke up, my husband had already left.",
-        tip: "Say saído in three syllables, sa-EE-doo. The accent keeps the a and the i apart.",
+        tip: "Say saído in three syllables, sa-Í-do. The accent keeps the a and the i apart.",
         explanation: "Your husband left before you woke up, so \"já tinha saído\".",
       },
       {
@@ -800,7 +800,7 @@ export const PT_B1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Quando liguei, ela ainda não tinha acordado.",
-            tip: "The t in \"tinha\" is soft before i: say it like the ch in cheese, CHEE-nya.",
+            tip: "The t in \"tinha\" is soft before i: say it like the ch in cheese, TCHI-nha.",
             explanation: "\"Ainda não tinha acordado\": not yet, at that point in the past.",
           },
         ],
@@ -954,7 +954,7 @@ export const PT_B1_U08: Lesson[] = [
         type: "speak",
         text: "Quando cheguei à estação, o trem já tinha saído.",
         prompt: "Say it in Portuguese: When I got to the station, the train had already left.",
-        tip: "Stress the í in \"saído\": sa-EE-doo, three syllables.",
+        tip: "Stress the í in \"saído\": sa-Í-do, three syllables.",
         explanation: "The train left before you arrived: \"já tinha saído\". \"À estação\" is a + a.",
       },
       {
@@ -981,7 +981,7 @@ export const PT_B1_U08: Lesson[] = [
           "\"Ninguém tinha me avisado\" (nobody had warned me) is the classic excuse. In Brazil the pronoun sits right before the participle, not before \"tinha\". And \"ninguém\" before the verb needs no \"não\".",
         ],
         examples: [
-          { es: "Eu não sabia que a loja fechava às seis.", en: "I didn't know the store closed at six." },
+          { es: "Eu não sabia que a loja fechava às seis.", en: "I didn't know the shop closed at six." },
           { es: "Eu não sabia que você tinha voltado de Recife.", en: "I didn't know you'd come back from Recife." },
           { es: "Ninguém tinha me avisado da reunião.", en: "Nobody had told me about the meeting." },
           { es: "Eu achava que o show era no sábado.", en: "I thought the concert was on Saturday." },
@@ -1207,8 +1207,8 @@ export const PT_B1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Eu não sabia que a loja fechava cedo.",
-        prompt: "Say it in Portuguese: I didn't know the store closed early.",
-        tip: "Say the d in \"cedo\" as a plain d, and let the final o sound like oo: SÊ-doo, with a closed ê.",
+        prompt: "Say it in Portuguese: I didn't know the shop closed early.",
+        tip: "Say the d in \"cedo\" as a plain d, and let the final o sound like u: SÊ-du, with a closed ê.",
         explanation: "\"Não sabia\" (a past state) + \"fechava\" (the imperfeito, a regular habit).",
       },
       {
@@ -1351,7 +1351,7 @@ export const PT_B1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Percebi que tinha esquecido o passaporte.",
-            tip: "The qu in esquecido sounds like k, the final -do is said 'doo', and the nh in tinha is like the ny in canyon.",
+            tip: "The qu in esquecido sounds like k, the final -do is said 'du', and the nh in tinha is like the ny in canyon.",
             explanation: "\"Percebi\" moves the story forward; \"tinha esquecido\" steps back to what had happened before.",
           },
         ],
@@ -1605,7 +1605,7 @@ export const PT_B1_U08: Lesson[] = [
       {
         heading: "Tinha feito, not tinha fazido",
         body: [
-          "The participle after \"tinha\" is the same one you used after \"tenho\" in Unit 12, so the irregular participles are the same too: \"feito\", \"dito\", \"visto\", \"escrito\", \"aberto\", \"posto\" and \"vindo\". Learners regularize them on the model of \"comido\" and \"saído\" and write \"tinha fazido\", \"tinha dizido\" or \"tinha abrido\". None of these forms exist.",
+          "The participle after \"tinha\" is the same one you used after \"tenho\" in Unit 7, so the irregular participles are the same too: \"feito\", \"dito\", \"visto\", \"escrito\", \"aberto\", \"posto\" and \"vindo\". Learners regularize them on the model of \"comido\" and \"saído\" and write \"tinha fazido\", \"tinha dizido\" or \"tinha abrido\". None of these forms exist.",
           "Watch the pair \"visto\" and \"vindo\": \"tinha visto\" means had seen (from \"ver\"), and \"tinha vindo\" means had come (from \"vir\"). After \"ter\" the participle never agrees with the subject: \"ela tinha saído\" and \"elas tinham feito\", never \"ela tinha saída\".",
         ],
         examples: [
@@ -1614,7 +1614,7 @@ export const PT_B1_U08: Lesson[] = [
           { es: "A Mariana nunca tinha visto o mar.", en: "Mariana had never seen the sea." },
           { es: "O João tinha vindo de Recife de ônibus.", en: "João had come from Recife by bus." },
           { es: "Elas tinham escrito tudo no quadro.", en: "They had written everything on the board." },
-          { es: "A loja ainda não tinha aberto.", en: "The store hadn't opened yet." },
+          { es: "A loja ainda não tinha aberto.", en: "The shop hadn't opened yet." },
         ],
         checkpoint: [
           {
@@ -1688,7 +1688,7 @@ export const PT_B1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Eu já tinha ido lá antes.",
-            tip: "The nh in tinha is like the ny in canyon: CHEE-nya, not CHEE-na. The t before i also sounds like the ch in cheese.",
+            tip: "The nh in tinha is like the ny in canyon: TCHI-nya, not TCHI-na. The t before i also sounds like the ch in cheese.",
             explanation: "\"Já tinha ido\": already, before another past moment.",
           },
         ],
@@ -1731,7 +1731,7 @@ export const PT_B1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The store [had already closed] when I arrived.",
+        en: "The shop [had already closed] when I arrived.",
         sentence: "A loja ___ quando eu cheguei.",
         answer: "já tinha fechado",
         altAnswers: ["já havia fechado"],
@@ -2187,7 +2187,7 @@ export const PT_B1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Gostaria de solicitar o reembolso da passagem.",
-            tip: "Say \"reembolso\" as he-ẽ-BOL-soo: a strong h-like r, then a nasal \"em\".",
+            tip: "Say \"reembolso\" as re-em-BOL-so: a strong h-like r, then a nasal \"em\".",
             explanation: "\"Gostaria\" is the futuro do pretérito, the polite would of formal requests.",
           },
         ],
@@ -2306,7 +2306,7 @@ export const PT_B1_U08: Lesson[] = [
         type: "speak",
         text: "Só depois descobri que tinha deixado o documento em casa.",
         prompt: "Say it in Portuguese: Only later did I find out that I had left my ID at home.",
-        tip: "Stress de-POIS and des-co-BRI on the last syllable, and let the final o of \"documento\" sound like oo.",
+        tip: "Stress de-POIS and des-co-BRI on the last syllable, and let the final o of \"documento\" sound like u.",
         explanation: "The discovery is perfeito (\"descobri\"). Leaving the ID came earlier, so it takes \"tinha deixado\".",
       },
     ],
@@ -2513,7 +2513,7 @@ export const PT_B1_U08: Lesson[] = [
         type: "speak",
         text: "Tenho dormido mal ultimamente.",
         prompt: "Say it in Portuguese: I've been sleeping badly lately.",
-        tip: "In \"ultimamente\" the t before i sounds like the ch in cheese, and the final -e sounds like ee.",
+        tip: "In \"ultimamente\" the t before i sounds like the ch in cheese, and the final -e sounds like i.",
         explanation: "\"Tenho dormido\": something ongoing up to now, so the perfeito composto.",
       },
       {

@@ -171,10 +171,10 @@ export const DE_B1_U34: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'If I had time, I'd help you.' (to a friend)?",
+        question: "Which sentence is correct?",
         options: ["Wenn ich Zeit hätte, würde ich dir helfen.", "Wenn ich Zeit hätte, ich würde dir helfen.", "Wenn ich hätte Zeit, würde ich dir helfen.", "Als ich Zeit hätte, würde ich dir helfen."],
         correctIndex: 0,
-        explanation: "Verb last in the wenn-clause, verb first in the main clause after it. \"*Als ich Zeit hätte*\" is wrong because \"als\" is never conditional.",
+        explanation: "Verb last in the wenn-clause, verb first in the main clause after it. \"Als\" is never conditional.",
       },
       {
         type: "word-order",
@@ -346,10 +346,10 @@ export const DE_B1_U34: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'After I had eaten, I phoned her.'?",
+        question: "Which sentence is correct?",
         options: ["Nachdem ich gegessen hatte, rief ich sie an.", "Nachdem ich aß, rief ich sie an.", "Nachdem ich gegessen hatte, ich rief sie an.", "Nach ich gegessen hatte, rief ich sie an."],
         correctIndex: 0,
-        explanation: "\"Nachdem\" takes a step back in tense (\"gegessen hatte\"), and the main clause starts with its verb. \"*Nach ich gegessen hatte*\" uses the preposition \"nach\" as a conjunction.",
+        explanation: "Tense step back after \"nachdem\"; main clause with its verb first; \"nach\" alone is a preposition.",
       },
       {
         type: "word-order",
@@ -961,10 +961,10 @@ export const DE_B1_U34: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'The longer I wait, the more nervous I get.'?",
+        question: "Which sentence is correct?",
         options: ["Je länger ich warte, desto nervöser werde ich.", "Je länger ich warte, desto ich werde nervöser.", "Je länger warte ich, desto nervöser werde ich.", "Je länger ich warte, nervöser werde ich."],
         correctIndex: 0,
-        explanation: "\"Je\" + verb last, then \"desto\" + comparative + verb: \"desto nervöser werde ich\". \"*desto ich werde nervöser*\" puts the subject first.",
+        explanation: "\"Je\" + verb last; \"desto\" + comparative + verb.",
       },
       {
         type: "word-order",
@@ -1099,10 +1099,10 @@ export const DE_B1_U34: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you start 'The man who stole the suitcase ...'?",
+            question: "Which version of the relative clause is correct?",
             options: ["Der Mann, der den Koffer gestohlen hat, ...", "Der Mann, dem den Koffer gestohlen hat, ...", "Der Mann, den den Koffer gestohlen hat, ...", "Der Mann, der hat den Koffer gestohlen, ..."],
             correctIndex: 0,
-            explanation: "The man is the subject of \"gestohlen hat\", so nominative \"der\", with the verb at the end. \"*dem*\" would be dative.",
+            explanation: "The man is the subject of \"gestohlen hat\": nominative \"der\", and the verb at the end.",
           },
           {
             type: "speak",
@@ -1810,10 +1810,10 @@ export const DE_B1_U34: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I heard that the bridge had to be closed.'?",
+        question: "Which sentence is correct?",
         options: ["Ich habe gehört, dass die Brücke gesperrt werden musste.", "Ich habe gehört, dass die Brücke musste gesperrt werden.", "Ich habe gehört, dass die Brücke gesperrt musste werden.", "Ich habe gehört, dass musste die Brücke gesperrt werden."],
         correctIndex: 0,
-        explanation: "In the dass-clause the conjugated modal \"musste\" goes last, after \"gesperrt werden\". \"*dass die Brücke musste gesperrt werden*\" keeps main-clause order.",
+        explanation: "In the dass-clause the conjugated modal \"musste\" goes last, after \"gesperrt werden\".",
       },
       {
         type: "word-order",

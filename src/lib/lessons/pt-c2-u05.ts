@@ -257,7 +257,7 @@ export const PT_C2_U05: Lesson[] = [
         type: "speak",
         text: "Na verdade, eu não pretendo me mudar tão cedo.",
         prompt: "Say it in Portuguese: Actually, I don't intend to move any time soon.",
-        tip: "The en in pretendo is nasal, with no full n. The de at the end of verdade sounds like 'jee'.",
+        tip: "The en in pretendo is nasal, with no full n. The de at the end of verdade sounds like dji.",
         explanation: "Actually is \"na verdade\", and to intend is \"pretender\". \"Tão cedo\" after a negative means any time soon.",
       },
       {
@@ -503,7 +503,7 @@ export const PT_C2_U05: Lesson[] = [
         type: "speak",
         text: "A gente aprende praticando.",
         prompt: "Say it in Portuguese: We learn by practicing.",
-        tip: "In \"gente\" the g is soft like the s in measure, and the final -te sounds like 'chee'.",
+        tip: "In \"gente\" the g is soft like the s in measure, and the final -te sounds like 'tchi'.",
         explanation: "By + -ing for means is the one case where the English -ing matches the gerúndio: \"praticando\".",
       },
     ],
@@ -759,7 +759,7 @@ export const PT_C2_U05: Lesson[] = [
         type: "speak",
         text: "Ela é gerente regional de vendas.",
         prompt: "Say it in Portuguese: She's the regional sales manager.",
-        tip: "In gerente, the final -te sounds like 'chee', and the en in vendas is nasal, with no n sound.",
+        tip: "In gerente, the final -te sounds like 'tchi', and the en in vendas is nasal, with no n sound.",
         explanation: "\"Regional\" describes the manager, so it sits right after the head, before \"de vendas\". Jobs take no article after \"ser\".",
       },
       {
@@ -806,7 +806,7 @@ export const PT_C2_U05: Lesson[] = [
         heading: "Tone and address: who is the text talking to?",
         body: [
           "A localized text should read as if it had been written in Brazil. Start with address. Brazilian brands, apps and even banks speak to customers as \"você\", in a warm, conversational voice. \"O senhor\" / \"a senhora\" belongs to face-to-face service and formal letters, and in an app it sounds stiff. Pick one form of address and keep it on every screen: switching from screen to screen is a classic sign of rushed localization.",
-          "English corporate enthusiasm doesn't travel literally. \"Estamos animados em anunciar\" for we're excited to announce reads as a calque. Brazilian copy says \"temos uma novidade\" or \"é com alegria que anunciamos\". Brazilian consumer brands also allow more intimacy than most English-language brands. Exclamation marks, \"a gente\" and even a diminutive (\"um descontinho\") are normal in a delivery app, but not in a bank's terms and conditions.",
+          "English corporate enthusiasm doesn't travel literally. \"Estamos animados em anunciar\" for we're excited to announce reads as a calque. Brazilian copy says \"temos uma novidade\" or \"é com alegria que anunciamos\". Brazilian consumer brands also allow more intimacy than British English. Exclamation marks, \"a gente\" and even a diminutive (\"um descontinho\") are normal in a delivery app, but not in a bank's terms and conditions.",
         ],
         examples: [
           { es: "Temos uma novidade pra você!", en: "We're excited to share some news with you!" },
@@ -941,7 +941,7 @@ export const PT_C2_U05: Lesson[] = [
           {
             type: "speak",
             text: "Ops! Algo deu errado. Tente novamente.",
-            tip: "The rr in errado is the h-like sound. The final -te in tente becomes 'chee' in most of Brazil.",
+            tip: "The rr in errado is the h-like sound. The final -te in tente becomes \"tchi\" in most of Brazil.",
             explanation: "\"Algo deu errado\" is the standard Brazilian error formula, friendlier than a literal \"ocorreu um erro\".",
           },
         ],
@@ -1190,7 +1190,7 @@ export const PT_C2_U05: Lesson[] = [
             type: "speak",
             text: "O que ele quis dizer é que o preço já inclui o frete.",
             prompt: "Say it in Portuguese: What he meant is that the price already includes shipping.",
-            tip: "The s of quis runs into dizer as a z sound, and the d before i sounds like the j in jeep: keez-jee-ZÊR.",
+            tip: "The s of quis runs into dizer as a z sound, and the d before i sounds like the j in jeep: ki-zdji-ZER.",
             explanation: "\"O que ele quis dizer é que...\" reframes a remark without claiming the speaker's words as yours. \"Quis dizer\" (meant) uses the perfeito of \"querer\".",
           },
           {
@@ -1437,7 +1437,7 @@ export const PT_C2_U05: Lesson[] = [
             type: "speak",
             text: "Vou transferir a sua ligação, só um momento.",
             prompt: "Say it in Portuguese: I'll be transferring your call, just a moment.",
-            tip: "Keep the ão in ligação nasal with no n at the end, and let the final -to of momento sound like 'too'.",
+            tip: "Keep the ão in ligação nasal with no n at the end, and let the final -to of momento sound like 'tu'.",
             explanation: "\"Vou transferir\", not \"vou estar transferindo\": one clear future, no gerundismo.",
           },
         ],
@@ -1609,7 +1609,7 @@ export const PT_C2_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're subtitling a movie. A character shrugs and says: 'It's no big deal.' Which subtitle reads like Portuguese?",
+        question: "You're subtitling a film. A character shrugs and says: 'It's no big deal.' Which subtitle reads like Portuguese?",
         options: [
           "Não é nada de mais.",
           "Não é um grande negócio.",
@@ -1926,7 +1926,7 @@ export const PT_C2_U05: Lesson[] = [
         type: "speak",
         text: "Negócio fechado, então. Eu te mando o contrato até sexta.",
         prompt: "Say it in Portuguese, as Emma's interpreter: It's a deal, then. I'll send you the contract by Friday.",
-        tip: "In \"contrato\" the r after t is a quick tap, and the final -o sounds like 'oo'.",
+        tip: "In \"contrato\" the r after t is a quick tap, and the final -o sounds like u.",
         explanation: "\"Negócio fechado\" seals the deal, and \"até sexta\" sets Friday as the latest day.",
       },
       {
@@ -2061,7 +2061,7 @@ export const PT_C2_U05: Lesson[] = [
           "The call-center English 'we will be sending' gave Brazil the notorious gerundismo, \"vou estar enviando\", which people mock as bureaucratic stalling; write \"vou enviar\" or simply \"envio\". English possessives with body parts and clothes are dropped: \"Ele levantou a mão\"; \"a sua mão\" could suggest someone else's hand, even the reader's. Unpack noun stacks from the head noun outward: \"o líder da equipe de atendimento ao cliente\".",
         ],
         examples: [
-          { es: "Ela recebeu o prêmio das mãos do reitor.", en: "She was given the award by the university president." },
+          { es: "Ela recebeu o prêmio das mãos do reitor.", en: "She was given the award by the rector." },
           { es: "É proibido fumar nas dependências da empresa.", en: "Smoking is prohibited on company premises." },
           { es: "Envio o relatório amanhã de manhã.", en: "I'll be sending the report tomorrow morning." },
           { es: "Ele levantou a mão para fazer uma pergunta.", en: "He raised his hand to ask a question." },
@@ -2131,7 +2131,7 @@ export const PT_C2_U05: Lesson[] = [
             type: "speak",
             text: "Fique à vontade para entrar em contato conosco.",
             prompt: "Say it in Portuguese: Feel free to get in touch with us.",
-            tip: "\"À\" sounds just like \"a\". In \"vontade\" the stress falls on -ta-, and the final -de sounds like 'jee'.",
+            tip: "\"À\" sounds just like \"a\". In \"vontade\" the stress falls on -ta-, and the final -de sounds like dji.",
             explanation: "\"Fique à vontade\" is the natural formula; \"sinta-se livre\" is a calque of feel free.",
           },
         ],
@@ -2313,7 +2313,7 @@ export const PT_C2_U05: Lesson[] = [
           { es: "Pague com Pix, cartão de crédito ou boleto.", en: "Pay by Pix, credit card or boleto (bank slip)." },
           { es: "Planos de treino de 5 km à maratona, no seu ritmo.", en: "Training plans from 5K to the marathon, at your own pace." },
           { es: "Atendimento de segunda a sexta, das 8h às 18h.", en: "Support Monday to Friday, 8am to 6pm." },
-          { es: "Promoção válida até 31 de dezembro.", en: "Offer ends December 31. (On a banner: \"até 31/12\".)" },
+          { es: "Promoção válida até 31/12.", en: "Offer ends December 31." },
         ],
         checkpoint: [
           {
@@ -2369,7 +2369,7 @@ export const PT_C2_U05: Lesson[] = [
           { es: "Somos apaixonados por corrida, do primeiro quilômetro à linha de chegada.", en: "We're obsessed with running, from your first mile to the finish line." },
           { es: "Sem pegadinha: cancele quando quiser.", en: "No strings attached: cancel anytime." },
           { es: "Treine para a São Silvestre com um plano feito para você.", en: "Train for the São Silvestre with a plan made for you. (UK page: the London Marathon)" },
-          { es: "Fale com a gente pelo WhatsApp.", en: "Chat with us on WhatsApp." },
+          { es: "Fale com a gente pelo WhatsApp.", en: "Chat to us on WhatsApp." },
           { es: "Usamos cookies para melhorar sua experiência.", en: "We use cookies to improve your experience." },
           { es: "Seus dados são tratados conforme a LGPD.", en: "Your data is processed in line with Brazil's data protection law (LGPD)." },
         ],
@@ -2391,15 +2391,15 @@ export const PT_C2_U05: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Chat with us on WhatsApp.",
+            prompt: "Put the words in order to say: Chat to us on WhatsApp.",
             words: ["Fale", "com", "a", "gente", "pelo", "WhatsApp."],
-            translation: "Chat with us on WhatsApp.",
+            translation: "Chat to us on WhatsApp.",
             explanation: "\"Fale com a gente\" gives the warm, close brand voice, and \"pelo\" (por + o) marks the channel. WhatsApp is a primary customer-service channel in Brazil.",
           },
           {
             type: "speak",
             text: "Usamos cookies para melhorar sua experiência.",
-            tip: "Stress experiência on -ên-, a closed nasal e. Cookies is said much as in English, roughly 'KOO-kees'.",
+            tip: "Stress experiência on -ên-, a closed nasal e. Cookies is said much as in English, roughly 'kúkis'.",
             explanation: "The standard opening of a Brazilian cookie banner: \"usamos\" drops \"nós\", and \"sua\" needs no article.",
           },
         ],
@@ -2507,7 +2507,7 @@ export const PT_C2_U05: Lesson[] = [
         pairs: [
           { left: "Entrar", right: "Log in" },
           { left: "Saiba mais", right: "Learn more" },
-          { left: "Adicionar ao carrinho", right: "Add to cart" },
+          { left: "Adicionar ao carrinho", right: "Add to basket" },
           { left: "Esqueci minha senha", right: "Forgot your password?" },
           { left: "Aceitar todos", right: "Accept all" },
           { left: "Fale conosco", right: "Contact us" },
@@ -2797,7 +2797,7 @@ export const PT_C2_U05: Lesson[] = [
         type: "speak",
         text: "Nós podemos entregar em maio, mas não antes.",
         prompt: "Say it in Portuguese, interpreting in the first person for the supplier: We can deliver in May, but not before.",
-        tip: "In \"antes\" the final -es sounds like 'ees', so the t becomes ch: ÃN-chees.",
+        tip: "In \"antes\" the final -es sounds like is, so the t becomes ch: AN-tchis.",
         explanation: "An interpreter keeps the speaker's person, \"nós podemos\", rather than reporting \"ele diz que eles podem\".",
       },
       {

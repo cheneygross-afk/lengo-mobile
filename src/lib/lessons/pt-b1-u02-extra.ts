@@ -151,12 +151,12 @@ export const PT_B1_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Espero que vocês estejam bem.",
         prompt: "Say it in Portuguese: I hope you're all well.",
-        tip: "Estejam: es-TÊ-zhãw.",
+        tip: "Estejam: es-TE-zhãw.",
         explanation: "Being well is a state, so \"estar\", and the vocês subjunctive is \"estejam\", with the plural -m.",
       },
       {
         type: "matching",
-        instructions: "Match the Portuguese to the English.",
+        instructions: "Match the infinitive to its subjunctive.",
         pairs: [{ left: "Espero que seja fácil.", right: "I hope it's easy." }, { left: "Espero que ela esteja bem.", right: "I hope she's well." }, { left: "Quero que você vá.", right: "I want you to go." }, { left: "Espero que haja lugar.", right: "I hope there's room." }, { left: "Espero que eles sejam felizes.", right: "I hope they're happy." }],
         explanation: "These subjunctives don't come from the eu form: \"ser\" → \"seja\", \"estar\" → \"esteja\", \"ir\" → \"vá\", \"haver\" → \"haja\".",
       },
@@ -315,7 +315,7 @@ export const PT_B1_U02_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the Portuguese to the English.",
+        instructions: "Match the infinitive to its subjunctive.",
         pairs: [{ left: "Quero que você saiba.", right: "I want you to know." }, { left: "Espero que ela queira vir.", right: "I hope she wants to come." }, { left: "Tomara que dê certo.", right: "Let's hope it works out." }, { left: "Espero que você possa vir.", right: "I hope you can come." }, { left: "Espero que eles me deem uma resposta.", right: "I hope they give me an answer." }],
         explanation: "\"Saiba\", \"queira\" and \"dê\" are irregular; \"possa\" comes from \"posso\". The plural of \"dê\" is \"deem\", with no accent.",
       },
@@ -468,7 +468,7 @@ export const PT_B1_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Feliz aniversário! Que você seja muito feliz!",
         prompt: "Say it in Portuguese: Happy birthday! I wish you lots of happiness!",
-        tip: "Aniversário: a-nee-ver-SA-ryoo.",
+        tip: "Aniversário: a-ni-ver-SA-rio.",
         explanation: "A classic birthday message: a fixed phrase, then a \"que\" wish with the subjunctive \"seja\".",
       },
       {

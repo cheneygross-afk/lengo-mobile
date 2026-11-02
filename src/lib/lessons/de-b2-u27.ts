@@ -255,10 +255,10 @@ export const DE_B2_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'The plan is good; it is expensive, though.'?",
+            question: "Which sentence is correct?",
             options: ["Der Plan ist gut, allerdings ist er teuer.", "Der Plan ist gut, allerdings er ist teuer.", "Der Plan ist gut, allerdings er teuer ist.", "Der Plan ist gut, allerdings teuer er ist."],
             correctIndex: 0,
-            explanation: "\"Allerdings\" counts as position 1: verb, then subject (\"allerdings ist er teuer\"). \"*allerdings er ist teuer*\" keeps English word order.",
+            explanation: "\"Allerdings\" counts as position 1: verb, then subject.",
           },
         ],
       },
@@ -1220,10 +1220,10 @@ export const DE_B2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'the company whose new boss I'm talking to'?",
+        question: "Which relative clause is correct?",
         options: ["die Firma, mit deren neuem Chef ich spreche", "die Firma, mit dessen neuem Chef ich spreche", "die Firma, mit deren neuen Chef ich spreche", "die Firma, mit der neuem Chef ich spreche"],
         correctIndex: 0,
-        explanation: "\"Deren\" for a feminine owner, then \"mit\" + dative with the strong ending: \"mit deren neuem Chef\". \"*deren neuen Chef*\" has the accusative ending, but \"mit\" takes the dative.",
+        explanation: "\"Deren\" (feminine owner), then \"mit\" + dative \"neuem Chef\" (strong ending after \"deren\").",
       },
       {
         type: "translate",
@@ -2069,10 +2069,10 @@ export const DE_B2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I think he'll call tomorrow.'?",
+        question: "Which sentence is correct?",
         options: ["Ich glaube, dass er morgen anruft.", "Ich glaube, dass er ruft morgen an.", "Ich glaube, dass er morgen ruft an.", "Ich glaube, dass anruft er morgen."],
         correctIndex: 0,
-        explanation: "In a subordinate clause the separable verb is joined up again at the end: \"dass er morgen anruft\". \"*dass er ruft morgen an*\" keeps main-clause order.",
+        explanation: "In a subordinate clause the separable verb is joined at the end.",
       },
       {
         type: "word-order",

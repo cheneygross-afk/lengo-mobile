@@ -192,10 +192,10 @@ export const DE_A2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I have a small room.'?",
+        question: "Which sentence is correct?",
         options: ["Ich habe ein kleines Zimmer.", "Ich habe ein kleine Zimmer.", "Ich habe einen kleinen Zimmer.", "Ich habe ein kleiner Zimmer."],
         correctIndex: 0,
-        explanation: "\"Das Zimmer\" is neuter, so accusative is still \"ein\" with no ending, and the adjective shows the neuter: -es. \"*Einen kleinen Zimmer*\" is only for masculine nouns.",
+        explanation: "\"Das Zimmer\" is neuter, so accusative is still \"ein\" with no ending, and the adjective shows the neuter: -es. \"*einen*\" is only for masculine nouns.",
       },
       {
         type: "dictation",
@@ -867,10 +867,10 @@ export const DE_A2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'We have fresh bread for breakfast.'?",
+            question: "Which sentence is correct?",
             options: ["Wir frühstücken mit frischem Brot.", "Wir frühstücken mit frischen Brot.", "Wir frühstücken mit frisches Brot.", "Wir frühstücken mit frische Brot."],
             correctIndex: 0,
-            explanation: "No article, dative neuter after \"mit\": the adjective takes the -em of \"dem\", \"frischem Brot\". \"*Mit frischen Brot*\" uses the -en that comes after an article.",
+            explanation: "No article and dative neuter: the adjective takes the -em of \"dem\".",
           },
         ],
       },
@@ -1859,10 +1859,10 @@ export const DE_A2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We wish you a happy new year.' (to a friend)",
+        question: "Which sentence is correct?",
         options: ["Wir wünschen dir ein schönes neues Jahr.", "Wir wünschen dir ein schöne neue Jahr.", "Wir wünschen dir einen schönen neuen Jahr.", "Wir wünschen dir ein schönes neue Jahr."],
         correctIndex: 0,
-        explanation: "\"Das Jahr\" is neuter accusative: \"ein\" shows no ending, so both adjectives take -es. \"*Ein schönes neue Jahr*\" forgets the -es on the second adjective.",
+        explanation: "\"Das Jahr\" is neuter accusative: silent \"ein\", so both adjectives take -es.",
       },
       {
         type: "multiple-choice",

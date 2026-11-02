@@ -243,7 +243,7 @@ export const PT_B2_U09: Lesson[] = [
       {
         heading: "The s: hiss or hush",
         body: [
-          "In most of Brazil an s before a consonant or at the end of a word sounds like English s. In Rio it becomes sh: \"festa\" sounds like 'fesh-ta', \"dois\" like 'doysh', and before a voiced consonant it's the s of 'measure', so \"mesmo\" is 'MEZH-moo'. This is the \"s chiado\", from the verb \"chiar\" (to hiss).",
+          "In most of Brazil an s before a consonant or at the end of a word sounds like English s. In Rio it becomes sh: \"festa\" sounds like 'fesh-ta', \"dois\" like 'doysh', and before a voiced consonant it's the s of 'measure', so \"mesmo\" is 'mezh-mo'. This is the \"s chiado\", from the verb \"chiar\" (to hiss).",
           "It's the quickest way to spot a \"carioca\", but Belém and Florianópolis have it too, and Recife hushes only before t and d: \"festa\" yes, \"mesmo\" no. Between vowels and at the start of a word, the s sounds the same everywhere.",
         ],
         examples: [
@@ -278,7 +278,7 @@ export const PT_B2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A new colleague says \"festa\" as 'fesh-ta' and \"mesmo\" as 'MEZH-moo'. Where is she most likely from?",
+            question: "A new colleague says \"festa\" as 'fesh-ta' and \"mesmo\" as 'mezh-mo'. Where is she most likely from?",
             options: ["Do Rio de Janeiro.", "De Recife.", "De Curitiba.", "Do interior de São Paulo."],
             correctIndex: 0,
             explanation: "The s is hushed before every consonant, \"m\" included, which is the full Rio chiado. Recife hushes only before t and d, so its \"mesmo\" keeps a plain s.",
@@ -368,7 +368,7 @@ export const PT_B2_U09: Lesson[] = [
             source: "Good morning, auntie! Do you want some hot milk?",
             answer: "Bom dia, tia! Você quer um leite quente?",
             altAnswers: ["Bom dia, tia! Quer um leite quente?", "Bom dia, tia! A senhora quer um leite quente?", "Bom dia, tia! Você quer leite quente?", "Bom dia, tia! Quer leite quente?"],
-            explanation: "\"Bom dia\" and \"tia\" both have d or t before an i sound. In Rio they're 'jee-a' and 'chee-a'; in Recife they stay hard.",
+            explanation: "\"Bom dia\" and \"tia\" both have d or t before an i sound. In Rio they're 'djia' and 'tchia'; in Recife they stay hard.",
           },
         ],
       },
@@ -520,7 +520,7 @@ export const PT_B2_U09: Lesson[] = [
         type: "speak",
         text: "Você é de onde? Adoro seu sotaque.",
         prompt: "Say it in Portuguese: Where are you from? I love your accent.",
-        tip: "The d of onde and of adoro: onde ends in an i sound, so most Brazilians say 'Õ-jee'; adoro keeps a plain d.",
+        tip: "The d of onde and of adoro: onde ends in an i sound, so most Brazilians say 'ondji'; adoro keeps a plain d.",
         explanation: "\"Você é de onde?\" is the natural spoken question, and \"adoro\" is stronger than \"gosto de\".",
       },
       {
@@ -858,7 +858,7 @@ export const PT_B2_U09: Lesson[] = [
         heading: "Dá-me, me dá: where the pronoun goes",
         body: [
           "In an ordinary affirmative sentence, Portugal puts the object pronoun after the verb with a hyphen, even in speech: \"Dá-me o sal\", \"Ele disse-me\", \"Chamo-me Rita\". Brazil puts it before the verb: \"Me dá o sal\", \"Ele me disse\", \"Eu me chamo Rita\".",
-          "The trigger words from Unit 9 work the same way in both countries. After \"não\", \"que\", \"já\" or \"nunca\", the pronoun comes first everywhere: \"Não me disse nada\". So the difference shows up mainly in plain affirmative sentences. With two verbs, Portugal hooks the pronoun onto one of them (\"vou-te ligar\" or \"vou ligar-te\"). Brazil leaves it loose between them: \"vou te ligar\".",
+          "The trigger words from Unit 5 work the same way in both countries. After \"não\", \"que\", \"já\" or \"nunca\", the pronoun comes first everywhere: \"Não me disse nada\". So the difference shows up mainly in plain affirmative sentences. With two verbs, Portugal hooks the pronoun onto one of them (\"vou-te ligar\" or \"vou ligar-te\"). Brazil leaves it loose between them: \"vou te ligar\".",
           "Portugal also keeps the third-person object pronoun in speech: \"vi-o ontem\". A Brazilian says \"vi ele ontem\", or \"eu o vi\" in writing.",
         ],
         examples: [
@@ -1008,7 +1008,7 @@ export const PT_B2_U09: Lesson[] = [
         type: "speak",
         text: "Estou te esperando na frente da padaria.",
         prompt: "Say it in Portuguese, the Brazilian way: I'm waiting for you in front of the bakery.",
-        tip: "In much of Brazil an unstressed \"te\" sounds like 'chee', and \"de\" sounds like 'jee'.",
+        tip: "In much of Brazil an unstressed \"te\" sounds like 'tchi', and \"de\" sounds like 'dji'.",
         explanation: "Brazilian progressive and pronoun placement together: \"estou te esperando\". In Portugal it would be \"estou à tua espera\".",
       },
       {
@@ -1238,7 +1238,7 @@ export const PT_B2_U09: Lesson[] = [
         type: "speak",
         text: "Com licença, onde fica o banheiro?",
         prompt: "Say it in Portuguese: Excuse me, where's the bathroom?",
-        tip: "In banheiro, nh is like the ny in canyon, and the final -o sounds like oo: ba-NYAY-roo.",
+        tip: "In banheiro, nh is like the ny in canyon, and the final -o sounds like u: ba-NHEI-ru.",
         explanation: "\"Onde fica\" asks where something is located. \"Banheiro\" is the Brazilian word.",
       },
     ],
@@ -1257,7 +1257,7 @@ export const PT_B2_U09: Lesson[] = [
         heading: "Grammar giveaways: a + infinitive, tu and the hyphen",
         body: [
           "The fastest clue is the progressive. Portugal says \"estou a falar\" where Brazil says \"estou falando\", so \"estar\" + \"a\" + infinitive marks a European text. Next comes the second person. Forms like \"tu tens\", \"tu estás\" and \"tu vens\", with their -s endings, are everyday Portugal. Brazil writes \"você tem\", \"você está\", \"você vem\".",
-          "Then look at the pronouns. A European sentence often opens with verb, hyphen, pronoun: \"Dá-me isso\", \"Chamo-me Rui\", \"Liga-me logo\". In Brazilian speech and everyday writing the pronoun comes first: \"Me dá isso\", \"Eu me chamo Rui\", \"Me liga\". Formal Brazilian prose also uses ênclise (Unit 9), so one hyphen proves nothing on its own. Look for a second clue.",
+          "Then look at the pronouns. A European sentence often opens with verb, hyphen, pronoun: \"Dá-me isso\", \"Chamo-me Rui\", \"Liga-me logo\". In Brazilian speech and everyday writing the pronoun comes first: \"Me dá isso\", \"Eu me chamo Rui\", \"Me liga\". Formal Brazilian prose also uses ênclise (Unit 5), so one hyphen proves nothing on its own. Look for a second clue.",
         ],
         examples: [
           { es: "Estou falando com a minha mãe.", en: "I'm talking to my mom. (Portugal: \"estou a falar\")" },
@@ -1704,7 +1704,7 @@ export const PT_B2_U09: Lesson[] = [
         type: "speak",
         text: "Moço, esse caldinho é apimentado?",
         prompt: "Say it in Portuguese: Excuse me (to a young man), is this caldinho spicy?",
-        tip: "The final -do of apimentado sounds like 'doo', and the d before i in caldinho can stay a plain d, Recife style.",
+        tip: "The final -do of apimentado sounds like 'du', and the d before i in caldinho can stay a plain d, Recife style.",
         explanation: "\"Moço\" addresses a young man. \"Apimentado\" means spicy-hot: ask before your first caldinho de feijão.",
       },
       {
@@ -1842,7 +1842,7 @@ export const PT_B2_U09: Lesson[] = [
           {
             type: "speak",
             text: "As variedades das classes mais pobres são as mais estigmatizadas.",
-            tip: "In \"estigmatizadas\" both t's come before i, so they sound like ch: es-chig-ma-chee-ZA-das.",
+            tip: "In \"estigmatizadas\" both t's come before i, so they sound like ch: es-tchig-ma-tchi-ZA-das.",
             explanation: "\"Estigmatizadas\" agrees with \"as variedades\": feminine plural.",
           },
         ],
@@ -1930,7 +1930,7 @@ export const PT_B2_U09: Lesson[] = [
         type: "speak",
         text: "Zombar do sotaque de alguém é preconceito linguístico.",
         prompt: "Say it in Portuguese: Making fun of someone's accent is linguistic prejudice.",
-        tip: "Stress \"linguístico\" on the -guís- syllable, and pronounce the u: lĩ-GWEES-chee-koo.",
+        tip: "Stress \"linguístico\" on the -guís- syllable, and pronounce the u: lin-GWIS-tchi-ku.",
         explanation: "\"Zombar de\" takes \"de\", which joins the article: \"do sotaque\". The infinitive \"zombar\" is the subject of the sentence.",
       },
     ],
@@ -1947,7 +1947,7 @@ export const PT_B2_U09: Lesson[] = [
         heading: "The shape of the guide: tone and the future",
         body: [
           "A guide for a friend is a chatty message, not a report. \"Você\", \"a gente\", \"pra\" and the everyday command (\"pede\", \"prova\", \"vai\") are exactly right. Open with the destination and a line of enthusiasm, then go topic by topic: getting around, food, how people talk.",
-          "Almost every tip is about the future, so the future subjunctive does the heavy lifting: \"quando você chegar\", \"se você tiver tempo\", \"assim que você provar\". Remember the trap from Unit 4: \"quando você chega\" describes a habit, not this trip.",
+          "Almost every tip is about the future, so the future subjunctive does the heavy lifting: \"quando você chegar\", \"se você tiver tempo\", \"assim que você provar\". Remember the trap from Unit 3: \"quando você chega\" describes a habit, not this trip.",
           "Keep it short, because your friend will read it on a phone. Five or six tips, each with a reason, beat a list of twenty words.",
         ],
         examples: [
@@ -2382,7 +2382,7 @@ export const PT_B2_U09: Lesson[] = [
           {
             type: "speak",
             text: "Não existe sotaque errado, existe sotaque diferente.",
-            tip: "The x in existe sounds like z, and the final -te sounds like chee in most of Brazil.",
+            tip: "The x in existe sounds like z, and the final -te sounds like tchi in most of Brazil.",
             explanation: "\"Existir\" is a neat way to say there is when you're making a general point.",
           },
         ],
@@ -2485,7 +2485,7 @@ export const PT_B2_U09: Lesson[] = [
         type: "speak",
         text: "Quando você vier para Salvador, me avisa.",
         prompt: "Say it in Portuguese: When you come to Salvador, let me know.",
-        tip: "Stress vi-ÉR, with an open é, and keep the e in me short and light.",
+        tip: "Stress vi-ER, and keep the e in me short and light.",
         explanation: "The future subjunctive of \"vir\" is \"vier\" (\"vir\" belongs to \"ver\"). \"Me avisa\" is the everyday command with the pronoun first.",
       },
       {
