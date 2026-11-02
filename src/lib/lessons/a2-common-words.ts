@@ -30,22 +30,31 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
     "9 min",
     [
       sec(
-        "Agreeing and giving your opinion: two verbs, two patterns",
+        "Agreeing: estar de acuerdo",
         [
           "Spanish builds opinions on two patterns you already know, not on a verb like \"to agree\" or \"to think of\".",
           "Pattern 1: estar de acuerdo (con). Agreeing is treated as a state you are in, so it takes estar, never ser: estoy de acuerdo, estamos de acuerdo. On its own, ¡De acuerdo! means \"OK, fine\" when you accept a plan.",
-          "Pattern 2: parecer works like gustar. The thing you're judging is the subject, and the person is me / te / le / nos / les: me parece bien (it seems fine to me), nos parecen caros (they seem expensive to us). ¿Qué te parece...? asks \"What do you think of...?\". Parece que... (no person) means \"it seems that...\".",
         ],
         [
           ["Estoy de acuerdo contigo.","I agree with you. (estar: a state; con + ti = contigo)"],
           ["—¿Nos vemos a las ocho? —De acuerdo.","—Shall we meet at eight? —OK."],
           ["No estamos de acuerdo con el plan.","We don't agree with the plan."],
+        ],
+        [
+          mc("Which sentence means \"I agree with you\"?", ["Estoy de acuerdo contigo.","Soy de acuerdo contigo.","Tengo acuerdo contigo.","Hago acuerdo contigo."], 0, "Agreeing is a state, so estar: estoy de acuerdo contigo. \"Soy de acuerdo\" uses ser, and \"tengo acuerdo\" and \"hago acuerdo\" aren't Spanish."),
+        ]
+      ),
+      sec(
+        "Parecer works like gustar",
+        [
+          "Pattern 2: parecer works like gustar. The thing you're judging is the subject, and the person is me / te / le / nos / les: me parece bien (it seems fine to me), nos parecen caros (they seem expensive to us). ¿Qué te parece...? asks \"What do you think of...?\". Parece que... (no person) means \"it seems that...\".",
+        ],
+        [
           ["Me parece una buena idea.","It seems like a good idea to me. (the idea is the subject, like gustar)"],
           ["¿Qué te parece el nuevo jefe?","What do you think of the new boss?"],
           ["Parece que va a llover.","It looks like it's going to rain. (no person: it seems that)"],
         ],
         [
-          mc("Which sentence means \"I agree with you\"?", ["Estoy de acuerdo contigo.","Soy de acuerdo contigo.","Tengo acuerdo contigo.","Hago acuerdo contigo."], 0, "Agreeing is a state, so estar: estoy de acuerdo contigo. \"Soy de acuerdo\" uses ser, and \"tengo acuerdo\" and \"hago acuerdo\" aren't Spanish."),
           mc("Parecer works like gustar. «A mis padres ___ muy caros los billetes.»", ["les parecen","les parece","parecen ellos","se parecen"], 0, "The subject is los billetes (plural), so parecen; the people who judge are a mis padres → les. Les parece would need a singular thing, and se parecen means \"they look alike\"."),
         ]
       ),
@@ -555,23 +564,37 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
     "10 min",
     [
       sec(
-        "Crazy, silly, nice",
+        "Crazy, silly, nice: mind the tone",
         [
           "Loco / loca means crazy. Between friends it's often friendly: ¡Estás loca! can just mean \"You're nuts!\". Estar loco por means to be crazy about something. The noun is la locura (madness), and ¡Qué locura! is \"That's crazy!\".",
           "Tonto (silly, dumb) and estúpido (stupid) are useful to understand, but be careful: said to a person, tonto can be rude and estúpido is an insult. Loco can be rude too, depending on the tone. For people you like, agradable (pleasant, nice) is always safe.",
-          "Two patterns help with new words. Adjectives in -o change for a woman or a feminine noun (loco → loca, tonto → tonta), but adjectives in -e, and many ending in a consonant, keep one form (agradable, feliz; but -or and nationality endings add -a: trabajadora, española). And many adjectives make a feminine noun with -ura: loco → la locura, like dulce → la dulzura (sweetness) or tierno → la ternura (tenderness).",
         ],
         [
           ["Mi hermano está loco por el fútbol.", "My brother is crazy about soccer."],
           ["¡Estás loca! El agua está muy fría.", "You're crazy! The water is really cold."],
-          ["¡Qué locura! Hay tres horas de tráfico.", "That's crazy! There are three hours of traffic."],
-          ["Trabajar doce horas al día es una locura.", "Working twelve hours a day is madness."],
           ["No es tonto, solo está cansado.", "He isn't dumb, he's just tired."],
-          ["Fue un error estúpido, pero no pasó nada.", "It was a stupid mistake, but nothing happened."],
           ["La nueva profesora es muy agradable.", "The new teacher is very nice."],
         ],
         [
+          mc(
+            "You want to say something kind about your new neighbor. Which word do you use?",
+            ["agradable", "tonto", "estúpido", "loco"],
+            0,
+            "Agradable (pleasant, nice) is a compliment. Tonto, estúpido and loco can all sound rude about a person."
+          ),
           fb("Complete the sentence.", "Mi primo está ___ por los videojuegos; juega todo el día.", "loco", "Estar loco por = to be crazy about. Mi primo is masculine: loco."),
+        ]
+      ),
+      sec(
+        "Two patterns: loco / loca, and nouns in -ura",
+        [
+          "Two patterns help with new words. Adjectives in -o change for a woman or a feminine noun (loco → loca, tonto → tonta), but adjectives in -e, and many ending in a consonant, keep one form (agradable, feliz; but -or and nationality endings add -a: trabajadora, española). And many adjectives make a feminine noun with -ura: loco → la locura, like dulce → la dulzura (sweetness) or tierno → la ternura (tenderness).",
+        ],
+        [
+          ["¡Qué locura! Hay tres horas de tráfico.", "That's crazy! There are three hours of traffic."],
+          ["Trabajar doce horas al día es una locura.", "Working twelve hours a day is madness."],
+        ],
+        [
           mc(
             "Your aunt is crazy about cats. Which sentence is right?",
             ["Mi tía está loca por los gatos.", "Mi tía está loco por los gatos.", "Mi tía está locura por los gatos.", "Mi tía es loca para los gatos."],
@@ -579,10 +602,10 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "Loco ends in -o, so it changes for a woman: loca. Locura is the noun (madness), and the chunk is estar loco por, not ser ... para."
           ),
           mc(
-            "You want to say something kind about your new neighbor. Which word do you use?",
-            ["agradable", "tonto", "estúpido", "loco"],
+            "Blanco means white. Using the -ura pattern, which noun means \"whiteness\"?",
+            ["la blancura", "el blancor", "la blanqueza", "el blanco"],
             0,
-            "Agradable (pleasant, nice) is a compliment. Tonto, estúpido and loco can all sound rude about a person."
+            "Many adjectives make a feminine noun with -ura: loco → la locura, blanco → la blancura. The noun is feminine, so not el, and -eza is a different ending that blanco does not take. El blanco is just \"the colour white\" or \"the target\"."
           ),
         ]
       ),
@@ -627,15 +650,25 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Big words: paz, peligro, alma, honor",
+        "Peace and danger: paz, peligro",
         [
           "La paz is peace. Dejar en paz means to leave alone: ¡Déjame en paz! (Leave me alone!). El peligro is danger: en peligro (in danger), ¡Peligro! on signs.",
-          "El alma (soul) is feminine, but it takes el because it starts with a stressed a, like el agua: el alma, but the adjective is still feminine: el alma está tranquila. Why? La + alma would run the two a sounds together, so Spanish switches to el in the singular only; in the plural it's las almas again. Con toda mi alma = with all my heart. El honor is honor: es un honor (it's an honor), en honor de (in honor of).",
         ],
         [
           ["Después de la guerra, por fin llegó la paz.", "After the war, peace finally came."],
           ["¡Déjame en paz, por favor!", "Leave me alone, please!"],
           ["Ese animal está en peligro.", "That animal is in danger."],
+        ],
+        [
+          fb("Complete the sentence.", "Aquí los niños no están en ___; es un lugar seguro.", "peligro", "Estar en peligro = to be in danger."),
+        ]
+      ),
+      sec(
+        "El alma and el honor",
+        [
+          "El alma (soul) is feminine, but it takes el because it starts with a stressed a, like el agua: el alma, but the adjective is still feminine: el alma está tranquila. Why? La + alma would run the two a sounds together, so Spanish switches to el in the singular only; in the plural it's las almas again. Con toda mi alma = with all my heart. El honor is honor: es un honor (it's an honor), en honor de (in honor of).",
+        ],
+        [
           ["Te quiero con toda mi alma.", "I love you with all my heart."],
           ["Es un honor conocerle, señor.", "It's an honor to meet you, sir."],
           ["Hicieron una cena en honor de su abuelo.", "They had a dinner in honor of their grandfather."],
@@ -647,7 +680,6 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             0,
             "Alma takes el (stressed a-), but it is still feminine, so the adjective is tranquila."
           ),
-          fb("Complete the sentence.", "Aquí los niños no están en ___; es un lugar seguro.", "peligro", "Estar en peligro = to be in danger."),
           mc(
             "Aula (classroom) is feminine and starts with a stressed a. Which sentence is right?",
             ["El aula está limpia.", "La aula está limpia.", "El aula está limpio.", "Las aula está limpia."],
@@ -841,15 +873,12 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         [
           "News Spanish is full of words that look like English: el gobierno (government), la situación, la investigación, el sistema, oficial.",
           "Words ending in -ción are feminine and lose the accent in the plural: la situación → las situaciones. Watch out for sistema and programa: they end in -a but are masculine: el sistema, el programa.",
-          "These are patterns you can use on words you've never seen. Spanish -ción = English -tion, always feminine (la población, la decisión works the same with -sión). And most nouns in -ma that come from Greek are masculine: el problema, el tema, el clima, el idioma. The accent drops in the plural because the extra syllable moves the natural stress onto -cio-: si-tua-CIO-nes.",
         ],
         [
           ["El gobierno anunció nuevas medidas ayer.", "The government announced new measures yesterday."],
           ["La situación económica es difícil.", "The economic situation is difficult."],
           ["La policía abrió una investigación.", "The police opened an investigation."],
-          ["Según la información oficial, no hay heridos.", "According to official information, there are no injuries."],
           ["El sistema de transporte funciona mal.", "The transportation system works badly."],
-          ["El español es la lengua oficial del país.", "Spanish is the official language of the country."],
         ],
         [
           mc(
@@ -859,11 +888,29 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "Sistema ends in -a but is masculine (from Greek), so el sistema es nuevo. The wrong options use \"la\" or the feminine \"nueva\"."
           ),
           fb("Complete the sentence.", "La policía empezó una ___ sobre el robo.", "investigación", "Una investigación = an investigation (feminine, -ción)."),
+        ]
+      ),
+      sec(
+        "Patterns for words you have never seen",
+        [
+          "These are patterns you can use on words you've never seen. Spanish -ción = English -tion, always feminine (la población, la decisión works the same with -sión). And most nouns in -ma that come from Greek are masculine: el problema, el tema, el clima, el idioma. The accent drops in the plural because the extra syllable moves the natural stress onto -cio-: si-tua-CIO-nes.",
+        ],
+        [
+          ["Según la información oficial, no hay heridos.", "According to official information, there are no injuries."],
+          ["El español es la lengua oficial del país.", "Spanish is the official language of the country."],
+        ],
+        [
           mc(
             "Clima (climate) ends in -ma and comes from Greek. Which sentence is right?",
             ["El clima aquí es muy seco.", "La clima aquí es muy seca.", "El clima aquí es muy seca.", "La clima aquí es muy seco."],
             0,
             "Like el sistema and el problema, el clima is masculine despite the -a, so the adjective is seco too. (Not every -a word works this way: la casa, la mesa are feminine; it's the Greek -ma nouns.)"
+          ),
+          mc(
+            "What is the plural of la estación (the station)?",
+            ["las estaciones", "las estaciónes", "los estaciones", "las estacións"],
+            0,
+            "-ción words are feminine and add -es; the extra syllable moves the natural stress onto -cio-, so the accent drops: es-ta-CIO-nes. Keeping the accent, switching to los or adding only -s are all wrong."
           ),
         ]
       ),

@@ -32,16 +32,27 @@ export const A2_GAPS: AnchoredLesson[] = [
     "10 min",
     [
       sec(
-        "¿ and ¡ open the question, wherever it starts",
+        "¿ and ¡: a question is marked at both ends",
         [
           "The idea behind all of this lesson: Spanish writing is built so that a reader can say any sentence aloud correctly on sight. ¿ and ¡ warn you early that the tone will rise or rise sharply, and written accents tell you which syllable to stress whenever the normal pattern doesn't apply.",
-          "Spanish marks a question or an exclamation at both ends: ¿...? and ¡...!. The opening mark goes where the question itself starts, which is not always the start of the sentence.",
-          "So a name, a greeting or a linking word that comes first stays outside: Oye, ¿vienes? / Laura, ¿dónde estás? / Si llueve, ¿qué hacemos?",
-          "On a phone keyboard, hold down ? or ! to find ¿ and ¡. In quick chats many people skip them, but in anything you write carefully they are expected.",
+          "Spanish marks a question or an exclamation at both ends: ¿...? and ¡...!.",
         ],
         [
           ["¿Tienes hambre?","Are you hungry?"],
           ["¡Qué frío hace!","It's so cold!"],
+        ],
+        [
+          mc("Which question is written correctly?", ["¿Dónde vive tu hermano?","Dónde vive tu hermano?","¿Dónde vive tu hermano¿","?Dónde vive tu hermano?"], 0, "A Spanish question opens with an upside-down ¿ and closes with a normal ?. Leaving out the opening mark, or using the same mark at both ends, breaks the both-ends rule."),
+        ]
+      ),
+      sec(
+        "¿ goes where the question starts",
+        [
+          "The opening mark goes where the question itself starts, which is not always the start of the sentence.",
+          "So a name, a greeting or a linking word that comes first stays outside: Oye, ¿vienes? / Laura, ¿dónde estás? / Si llueve, ¿qué hacemos?",
+          "On a phone keyboard, hold down ? or ! to find ¿ and ¡. In quick chats many people skip them, but in anything you write carefully they are expected.",
+        ],
+        [
           ["Oye, ¿vienes esta noche?","Hey, are you coming tonight?"],
           ["Si no hay tren, ¿cómo volvemos?","If there's no train, how do we get back?"],
           ["Perdona, ¿sabes qué hora es?","Sorry, do you know what time it is?"],
@@ -634,19 +645,14 @@ export const A2_GAPS: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "-illo, and diminutives with a twist",
+        "-illo, and diminutives that became new words",
         [
           "-illo / -illa is another diminutive ending, heard a lot in Spain, especially in Andalusia: un momentillo, un poquillo, una ventanilla.",
           "Some diminutives have become separate words with their own meaning: la ventanilla is a car window or a ticket window, el bocadillo is a sandwich in Spain, la bombilla is a light bulb, and la cucharilla is a teaspoon in Spain.",
-          "-ito can also make an adverb or adjective stronger: ahora → ahorita (right now; in Mexico it can also mean \"in a bit\"), cerca → cerquita (very close), despacio → despacito (really slowly).",
-          "Regional favourites: Costa Rica and Colombia are famous for -ico (un momentico, chiquitico), and Mexico uses -ito everywhere, even on ahorita and adiosito.",
         ],
         [
-          ["El museo está cerquita.", "The museum is really close."],
-          ["Habla despacito, que no te entiendo.", "Speak really slowly, I don't understand you."],
           ["Compra los billetes en la ventanilla.", "Buy the tickets at the ticket window."],
           ["Me comí un bocadillo de queso.", "I had a cheese sandwich. (Spain)"],
-          ["Ahorita vengo.", "I'll be right back. (Mexico)"],
         ],
         [
           mc(
@@ -654,6 +660,26 @@ export const A2_GAPS: AnchoredLesson[] = [
             ["A ham sandwich", "A small piece of ham", "A little mouthful of ham", "A ham soup"],
             0,
             "Bocadillo started as a diminutive of bocado (a mouthful) but is now its own word: a sandwich made with a baguette-style roll."
+          ),
+        ]
+      ),
+      sec(
+        "-ito on adverbs: cerquita, despacito, ahorita",
+        [
+          "-ito can also make an adverb or adjective stronger: ahora → ahorita (right now; in Mexico it can also mean \"in a bit\"), cerca → cerquita (very close), despacio → despacito (really slowly).",
+          "Regional favourites: Costa Rica and Colombia are famous for -ico (un momentico, chiquitico), and Mexico uses -ito everywhere, even on ahorita and adiosito.",
+        ],
+        [
+          ["El museo está cerquita.", "The museum is really close."],
+          ["Habla despacito, que no te entiendo.", "Speak really slowly, I don't understand you."],
+          ["Ahorita vengo.", "I'll be right back. (Mexico)"],
+        ],
+        [
+          mc(
+            "A friend says: \"Vivo lejitos del centro.\" What does she mean?",
+            ["I live quite far from the centre.", "I live right in the centre.", "I live very close to the centre.", "I used to live in the centre."],
+            0,
+            "-ito on an adverb makes it stronger or more personal: lejos → lejitos, \"quite far\". It does not shrink the distance into \"close\" (that would be cerca, cerquita), and it doesn't change the tense."
           ),
         ]
       ),

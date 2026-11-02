@@ -34,11 +34,24 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     "10 min",
     [
       sec(
-        "Two parts: haber + participle",
+        "Two parts: the helper is haber, never tener",
         [
           "Why two parts? Spanish builds this tense like English: a helper verb that shows the person (have / has) plus a fixed form of the main verb (eaten, worked). The helper is always haber, never tener: tener means to have or own (tengo un coche).",
+        ],
+        [],
+        [
+          mc(
+            "«Ellos ___ cenado.» (They have had dinner.)",
+            ["han", "tienen", "son", "están"],
+            0,
+            "The helper of this tense is always haber: han cenado. Tener is only for possession, and ser / estar do not build this tense."
+          ),
+        ]
+      ),
+      sec(
+        "Haber + -ado / -ido",
+        [
           "The present perfect is the present of haber (he, has, ha, hemos, habéis, han) plus a participle. Regular participles end in -ado for -ar verbs and -ido for -er and -ir verbs: hablado, comido, vivido. The rule works for any regular verb, even ones you have never seen in this tense.",
-          "The participle never changes: ella ha comido, ellos han comido. And nothing goes between the two parts: ¿Has comido? not ¿Has tú comido? Haber and the participle travel as one block.",
         ],
         [
           ["he trabajado","I have worked"],
@@ -53,8 +66,26 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         ]
       ),
       sec(
+        "One block that never changes",
+        [
+          "The participle never changes: ella ha comido, ellos han comido. And nothing goes between the two parts: ¿Has comido? not ¿Has tú comido? Haber and the participle travel as one block.",
+        ],
+        [],
+        [
+          mc(
+            "Which sentence is right?",
+            ["Las chicas han bailado.", "Las chicas han bailadas.", "Las chicas han bailados.", "Las chicas bailado han."],
+            0,
+            "After haber the participle never changes, even with a feminine plural subject: han bailado. And haber always comes first, in one block with the participle."
+          ),
+          toEs("Ellas han salidas.", "Ellas han salido.", "After haber the participle never agrees: salido, even for a feminine plural subject.", undefined, "Correct the sentence."),
+        ]
+      ),
+      sec(
         "When to use it",
-        "Why this tense? It links a past action to a period that includes now, so use it for actions in a time that isn't over yet: hoy, esta mañana, esta semana, este mes, este año. Also for news and for something that has just happened. In Spain this is the normal past for today; much of Latin America uses the preterite for the same thing, and both are understood everywhere.",
+        [
+          "Why this tense? It links a past action to a period that includes now, so use it for actions in a time that isn't over yet: hoy, esta mañana, esta semana, este mes, este año. Also for news and for something that has just happened. In Spain this is the normal past for today; much of Latin America uses the preterite for the same thing, and both are understood everywhere.",
+        ],
         [
           ["Esta semana he dormido muy poco.","This week I've slept very little."],
           ["¿Qué has hecho hoy?","What have you done today?"],
@@ -76,7 +107,6 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       toEs("He cenado con mis amigos.", "Hemos cenado con mis amigos.", "Only haber changes for the person: he → hemos. The participle stays cenado.", ["Hemos cenado con nuestros amigos."], "Change it to nosotros."),
       toEs("Ella ha bebido mucha agua.", "Ellas han bebido mucha agua.", "Haber changes (ha → han), but the participle doesn't take a plural: bebido.", undefined, "Make the subject plural (ellas)."),
       toEs("¿Has tú comido?", "¿Has comido tú?", "Nothing goes between haber and the participle: move tú after it (or before has).", ["¿Tú has comido?","¿Has comido?"], "Correct the sentence."),
-      toEs("Ellas han salidas.", "Ellas han salido.", "After haber the participle never agrees: salido, even for a feminine plural subject.", undefined, "Correct the sentence."),
       toEs("Tengo terminado el trabajo.", "He terminado el trabajo.", "The helper for the present perfect is haber (he), not tener.", ["Yo he terminado el trabajo.","Ya he terminado el trabajo."], "Correct the sentence."),
       toEs("Nosotros habemos llegado.", "Nosotros hemos llegado.", "The nosotros form of haber is hemos; habemos is not standard.", ["Hemos llegado."], "Correct the sentence."),
       toEs("Today I've eaten too much.", "Hoy he comido demasiado.", "Hoy is a time that isn't over → present perfect: he comido.", ["He comido demasiado hoy.","Hoy comí demasiado."]),

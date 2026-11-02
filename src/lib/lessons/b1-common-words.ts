@@ -576,12 +576,10 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "La idea: la terminación te dice el género",
         [
           "Recuerda la regla: en el vocabulario de la política, la terminación de la palabra casi siempre te dice cómo se comporta. Los sustantivos en -dad, -ción y -sión son femeninos: la sociedad, la unidad, la operación, la presión. Así sabes el género de una palabra nueva sin buscarla: la comunidad, la elección, la decisión.",
-          "Los adjetivos en -al, -ar y -ista no cambian con el género, porque no terminan en -o: el gobierno central / la estación central, el servicio militar / la vida militar, el movimiento ecologista / la asociación ecologista. Por eso nunca se dice «centrala» ni «socialisto».",
-          "Las personas en -o sí suelen tener femenino en -a (el ministro, la ministra), pero «líder» y «miembro» se quedan igual: solo cambia el artículo (la líder) o nada (ella es miembro).",
         ],
         [
           ["la comunidad, la elección, la decisión", "the community, the election, the decision (-dad, -ción, -sión → feminine)"],
-          ["un partido socialista, una diputada socialista", "a socialist party, a socialist (female) MP (-ista doesn't change)"],
+          ["la verdad, la nación, la tensión", "the truth, the nation, the tension (-dad, -ción, -sión → feminine)"],
         ],
         [
           mc(
@@ -589,6 +587,42 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             ["La", "El", "Los", "Lo"],
             0,
             "Manifestación termina en -ción, así que es femenina: la manifestación. «El» y «los» son masculinos y «lo» no acompaña a sustantivos."
+          ),
+        ]
+      ),
+      sec(
+        "Adjetivos en -al, -ar, -ista: no cambian",
+        [
+          "Los adjetivos en -al, -ar y -ista no cambian con el género, porque no terminan en -o: el gobierno central / la estación central, el servicio militar / la vida militar, el movimiento ecologista / la asociación ecologista. Por eso nunca se dice «centrala» ni «socialisto».",
+        ],
+        [
+          ["un partido socialista, una diputada socialista", "a socialist party, a socialist (female) MP (-ista doesn't change)"],
+          ["un problema global, una crisis global", "a global problem, a global crisis (-al doesn't change)"],
+        ],
+        [
+          mc(
+            "¿Qué adjetivo es igual en masculino y en femenino?",
+            ["popular", "rápido", "bonito", "pequeño"],
+            0,
+            "Popular termina en -ar, no en -o, así que no cambia: un cantante popular, una canción popular. Rápido, bonito y pequeño sí cambian: rápida, bonita, pequeña."
+          ),
+        ]
+      ),
+      sec(
+        "Las personas: ministro, ministra; líder y miembro",
+        [
+          "Las personas en -o sí suelen tener femenino en -a (el ministro, la ministra), pero «líder» y «miembro» se quedan igual: solo cambia el artículo (la líder) o nada (ella es miembro).",
+        ],
+        [
+          ["la ministra de Cultura", "the (female) Minister of Culture (-o → -a)"],
+          ["Ella es miembro del jurado.", "She is a member of the jury. (miembro doesn't change)"],
+        ],
+        [
+          mc(
+            "«Mi hermana es ___ del gobierno regional.»",
+            ["ministra", "ministro", "ministerio", "ministros"],
+            0,
+            "Las personas en -o suelen tener femenino en -a: el ministro, la ministra. «Ministro» es masculino, «ministerio» es el departamento, no la persona, y «ministros» es plural."
           ),
         ]
       ),
@@ -708,21 +742,37 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "La idea: terminaciones que traducen solas",
         [
           "Casi todas las palabras de esta lección se parecen al inglés porque vienen del latín, y las terminaciones cambian de forma regular. -dad / -tad = -ty: la propiedad (property), la cantidad (quantity), la libertad (liberty). -ía = -y: la teoría (theory). -ción = -tion: la organización. Con estas reglas puedes entender palabras que nunca has estudiado.",
-          "Dos avisos. Primero, el género lo da la terminación: -dad, -tad, -ción e -ía son femeninas (la cantidad, la teoría). Segundo, el parecido no garantiza el uso: el aspecto es también la apariencia (tener buen aspecto = to look well) y una obra puede ser una obra de teatro o unas obras en la calle.",
         ],
         [
           ["la propiedad, la cantidad", "property, quantity (-dad = -ty, femeninas)"],
           ["la teoría, la geografía", "theory, geography (-ía = -y)"],
           ["El proyecto necesita una buena organización.", "The project needs good organization. (-ción = -tion)"],
-          ["Tu padre tiene buen aspecto.", "Your father looks well. (aspecto = apariencia, no solo aspect)"],
         ],
         [
-          fb("Aplica la regla: forma la palabra española.", "velocity = la ___", "velocidad", "-ty en inglés corresponde a -dad en español: velocity → la velocidad, femenina como todas las palabras en -dad."),
           mc(
             "¿El o la? «___ capacidad de la sala es de cien personas.»",
             ["La", "El"],
             0,
             "Capacidad termina en -dad, y todas esas palabras son femeninas: la capacidad. La regla funciona aunque no conozcas la palabra."
+          ),
+          fb("Aplica la regla: forma la palabra española.", "velocity = la ___", "velocidad", "-ty en inglés corresponde a -dad en español: velocity → la velocidad, femenina como todas las palabras en -dad."),
+        ]
+      ),
+      sec(
+        "Dos avisos: el género y los falsos parecidos",
+        [
+          "Dos avisos. Primero, el género lo da la terminación: -dad, -tad, -ción e -ía son femeninas (la cantidad, la teoría). Segundo, el parecido no garantiza el uso: el aspecto es también la apariencia (tener buen aspecto = to look well) y una obra puede ser una obra de teatro o unas obras en la calle.",
+        ],
+        [
+          ["Tu padre tiene buen aspecto.", "Your father looks well. (aspecto = apariencia, no solo aspect)"],
+          ["Hay obras en mi calle.", "There are roadworks on my street. (obras: also building works)"],
+        ],
+        [
+          mc(
+            "¿Qué palabra es femenina?",
+            ["geografía", "proceso", "nivel", "aspecto"],
+            0,
+            "La terminación da el género: -ía es femenina, la geografía (como la teoría). Proceso, nivel y aspecto no tienen las terminaciones femeninas -dad, -tad, -ción o -ía, y son masculinos: el proceso, el nivel, el aspecto."
           ),
         ]
       ),
@@ -1139,27 +1189,53 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
     "10 min",
     [
       sec(
-        "Apenas, definitivamente, verdadera",
+        "Apenas",
         [
           "«Apenas» significa casi no (barely, hardly): apenas dormí. Al principio de una frase también puede significar «en cuanto» (as soon as): apenas llegué, me llamó.",
-          "«Definitivamente» significa «de forma definitiva, para siempre» (for good). En muchos países también se usa como «sin duda» (definitely). «Verdadero/verdadera» = real, auténtico: la verdadera razón, una verdadera amiga.",
-          "La idea de esta lección: muchas expresiones frecuentes se parecen al inglés, pero su sentido depende del lugar que ocupan en la frase (apenas + verbo = barely; apenas al principio = as soon as) o de la preposición que llevan (a propósito ≠ el propósito; deber ≠ deber de). Fíjate siempre en la posición y en la preposición.",
         ],
         [
           ["Apenas dormí anoche.", "I barely slept last night."],
           ["Apenas llegué a casa, empezó a llover.", "As soon as I got home, it started to rain."],
+        ],
+        [
+          fb("Completa la frase.", "Estaba tan cansado que ___ podía abrir los ojos.", "apenas", "Apenas = casi no (barely): apenas podía abrir los ojos."),
+        ]
+      ),
+      sec(
+        "Definitivamente, verdadera",
+        [
+          "«Definitivamente» significa «de forma definitiva, para siempre» (for good). En muchos países también se usa como «sin duda» (definitely). «Verdadero/verdadera» = real, auténtico: la verdadera razón, una verdadera amiga.",
+        ],
+        [
           ["Se fue a vivir a Chile definitivamente.", "He moved to Chile for good."],
           ["Definitivamente, esta es la mejor pizza de la ciudad.", "This is definitely the best pizza in town."],
           ["¿Cuál es la verdadera razón de tu viaje?", "What's the real reason for your trip?"],
           ["Es una verdadera amiga.", "She's a true friend."],
         ],
         [
-          fb("Completa la frase.", "Estaba tan cansado que ___ podía abrir los ojos.", "apenas", "Apenas = casi no (barely): apenas podía abrir los ojos."),
           mc(
             "«Nos mudamos a Lima definitivamente» significa…",
             ["Nos mudamos para siempre.", "Nos mudamos quizás.", "Nos mudamos por unos días.", "Nos mudamos otra vez."],
             0,
             "Definitivamente = de forma definitiva, para siempre. En esta frase no significa «definitely» (seguro), ni «quizás», ni «por unos días», ni «otra vez»."
+          ),
+        ]
+      ),
+      sec(
+        "La idea: la posición y la preposición",
+        [
+          "La idea de esta lección: muchas expresiones frecuentes se parecen al inglés, pero su sentido depende del lugar que ocupan en la frase (apenas + verbo = barely; apenas al principio = as soon as) o de la preposición que llevan (a propósito ≠ el propósito; deber ≠ deber de). Fíjate siempre en la posición y en la preposición.",
+        ],
+        [
+          ["Apenas como carne.", "I hardly eat meat. (apenas + verbo = barely)"],
+          ["El propósito del viaje es descansar.", "The purpose of the trip is to rest. (el propósito ≠ a propósito)"],
+        ],
+        [
+          mc(
+            "En «Apenas salió el sol, nos fuimos», ¿qué significa «apenas»?",
+            ["as soon as", "barely", "on purpose", "for good"],
+            0,
+            "Al principio de la frase, delante de un verbo que marca el momento, «apenas» = en cuanto (as soon as). Con el sentido de «casi no» (barely) va con lo que casi no pasa: apenas dormí. «On purpose» es a propósito y «for good» es definitivamente."
           ),
         ]
       ),

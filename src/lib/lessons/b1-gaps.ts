@@ -187,15 +187,11 @@ export const B1_GAPS: AnchoredLesson[] = [
         [
           "En español, el futuro simple no solo habla del futuro: también expresa una suposición sobre el presente. ¿Qué hora es? — No sé, serán las tres (= probablemente son las tres).",
           "Es muy frecuente con ser, estar, tener, haber y saber: Estará en casa. Tendrá unos cuarenta años. Habrá unas cien personas.",
-          "En preguntas expresa duda o curiosidad: ¿Dónde estará mi móvil? (= me pregunto dónde está). ¿Quién será a estas horas?",
-          "¿Por qué el futuro? Porque una suposición es algo que todavía no puedes confirmar: lo presentas como algo que se comprobará más tarde. Así, lo que probablemente es ahora va en futuro, y lo que probablemente era antes, en condicional.",
         ],
         [
           ["No sé qué hora es; serán las tres.", "I don't know what time it is; it must be about three."],
           ["María no contesta. Estará en el metro.", "María isn't answering. She's probably on the metro."],
           ["El profesor nuevo tendrá unos treinta años.", "The new teacher must be about thirty."],
-          ["¿Dónde estará mi móvil?", "Where can my phone be?"],
-          ["Llaman a la puerta. ¿Quién será?", "Someone's at the door. Who can it be?"],
         ],
         [
           mc(
@@ -203,6 +199,25 @@ export const B1_GAPS: AnchoredLesson[] = [
             ["Será un hombre de negocios.", "Sería un hombre de negocios.", "Ha sido un hombre de negocios.", "Fue un hombre de negocios."],
             0,
             "Suposición sobre el presente: futuro simple (será = probablemente es). El condicional se usa para suponer sobre el pasado."
+          ),
+        ]
+      ),
+      sec(
+        "En preguntas, y por qué el futuro",
+        [
+          "En preguntas expresa duda o curiosidad: ¿Dónde estará mi móvil? (= me pregunto dónde está). ¿Quién será a estas horas?",
+          "¿Por qué el futuro? Porque una suposición es algo que todavía no puedes confirmar: lo presentas como algo que se comprobará más tarde. Así, lo que probablemente es ahora va en futuro, y lo que probablemente era antes, en condicional.",
+        ],
+        [
+          ["¿Dónde estará mi móvil?", "Where can my phone be?"],
+          ["Llaman a la puerta. ¿Quién será?", "Someone's at the door. Who can it be?"],
+        ],
+        [
+          mc(
+            "Buscas tus gafas por toda la casa y no las encuentras. ¿Qué te preguntas?",
+            ["¿Dónde estarán mis gafas?", "¿Dónde estuvieron mis gafas?", "¿Dónde estaban mis gafas ayer?", "¿Dónde estarían mis gafas mañana?"],
+            0,
+            "Duda sobre el presente → futuro de probabilidad: ¿Dónde estarán? (= me pregunto dónde están ahora). «Estuvieron» y «estaban» hablan del pasado, y el condicional serviría para suponer sobre el pasado, no sobre mañana."
           ),
         ]
       ),
@@ -330,17 +345,50 @@ export const B1_GAPS: AnchoredLesson[] = [
     "10 min",
     [
       sec(
-        "Ir a y acabar de: justo antes y justo después",
+        "La idea: qué es una perífrasis",
         [
           "La idea: una perífrasis es un verbo conjugado + (preposición) + infinitivo, donde el primer verbo pierde parte de su significado y solo dice CÓMO está la acción: a punto de empezar, recién terminada, repetida, interrumpida. El primer verbo lleva el tiempo y la persona; el infinitivo, la acción. Y cada una tiene su preposición fija, que no se puede quitar.",
+        ],
+        [
+          ["Voy a salir. / Acabo de salir.", "I'm going to go out. / I've just gone out. (same infinitive; the first verb says how the action stands)"],
+          ["Dejé de correr.", "I stopped running. (dejar + de: the preposition is fixed)"],
+        ],
+        [
+          mc(
+            "En «Acabamos de cenar», ¿qué palabra lleva el tiempo y la persona?",
+            ["acabamos", "cenar", "de", "ninguna"],
+            0,
+            "En una perífrasis, el primer verbo (acabamos) lleva el tiempo y la persona; el infinitivo (cenar) solo da la acción, y «de» es la preposición fija de acabar de."
+          ),
+        ]
+      ),
+      sec(
+        "Ir a: planes, e iba a: planes que no se cumplieron",
+        [
           "Ya conoces ir a + infinitivo para planes e intenciones: Voy a llamar a mi madre. En el pasado, iba a + infinitivo expresa un plan o una intención, muchas veces uno que al final no se cumplió: Iba a llamarte, pero se me hizo tarde.",
+        ],
+        [
+          ["Iba a llamarte, pero se me hizo tarde.", "I was going to call you, but it got late."],
+          ["Íbamos a ir a la playa, pero llovió.", "We were going to go to the beach, but it rained."],
+        ],
+        [
+          mc(
+            "«I was going to tell you, but I forgot.»",
+            ["Iba a decírtelo, pero se me olvidó.", "Fui a decírtelo, pero se me olvidó.", "Voy a decírtelo, pero se me olvidó.", "Acababa de decírtelo, pero se me olvidó."],
+            0,
+            "Un plan del pasado que no se cumplió → iba a + infinitivo. «Fui a decírtelo» cuenta que fuiste (movimiento), «voy a» es un plan presente y «acababa de» diría que ya lo habías dicho."
+          ),
+        ]
+      ),
+      sec(
+        "Acabar de: acaba de pasar",
+        [
           "Acabar de + infinitivo significa que algo ha pasado hace muy poco: Acabo de llegar = I've just arrived. En pasado: Acababa de salir cuando empezó a llover (I had just gone out).",
           "Cuidado: acabar + gerundio o acabar por + infinitivo significan «terminar haciendo algo»: Acabé comprando el más caro.",
         ],
         [
           ["Acabo de ver a tu hermano en el mercado.", "I've just seen your brother at the market."],
           ["El tren acaba de salir.", "The train has just left."],
-          ["Iba a llamarte, pero se me hizo tarde.", "I was going to call you, but it got late."],
           ["Acababa de ducharme cuando sonó el timbre.", "I had just showered when the doorbell rang."],
         ],
         [
@@ -481,18 +529,32 @@ export const B1_GAPS: AnchoredLesson[] = [
     "10 min",
     [
       sec(
-        "Seguir + gerundio: todavía",
+        "La idea: el gerundio, una acción en marcha",
         [
           "La idea: el gerundio presenta una acción en marcha, sin principio ni final. Por eso estas perífrasis hablan de lo que continúa o dura: el verbo conjugado (seguir, llevar, ir, andar) dice cómo se ve esa acción en marcha, y el gerundio dice cuál es. Cuando la acción NO ocurre, el gerundio no sirve (no hay nada en marcha) y se usa sin + infinitivo.",
+        ],
+        [
+          ["Sigue lloviendo.", "It's still raining."],
+          ["Sigo sin entenderlo.", "I still don't understand it. (nothing in progress → sin + infinitive)"],
+        ],
+        [
+          mc(
+            "¿Por qué se dice «sigo sin entenderlo» y no «sigo no entendiéndolo»?",
+            ["Porque no hay ninguna acción en marcha, y el gerundio presenta acciones en marcha.", "Porque seguir es irregular.", "Porque entender no tiene gerundio.", "Porque el pronombre no puede ir pegado."],
+            0,
+            "El gerundio presenta una acción en marcha; si la acción no ocurre, no hay nada en marcha y se usa sin + infinitivo. Seguir es irregular, pero eso no decide la estructura; entender sí tiene gerundio (entendiendo) y el pronombre puede pegarse."
+          ),
+        ]
+      ),
+      sec(
+        "Seguir + gerundio: todavía",
+        [
           "Seguir / continuar + gerundio = una acción que continúa, que todavía pasa: Sigo viviendo en Sevilla (I still live in Seville). Es la forma más natural de decir «still» con un verbo.",
           "Seguir es irregular (e → i): sigo, sigues, sigue, seguimos, seguís, siguen.",
-          "En negativo se usa seguir sin + infinitivo: Sigo sin entenderlo (I still don't understand it). Sigue sin llamar (he still hasn't called).",
         ],
         [
           ["¿Sigues trabajando en el banco?", "Are you still working at the bank?"],
-          ["Sigue lloviendo.", "It's still raining."],
           ["Mis abuelos siguen viviendo en el pueblo.", "My grandparents still live in the village."],
-          ["Sigo sin encontrar las llaves.", "I still haven't found the keys."],
         ],
         [
           fe(
@@ -501,6 +563,18 @@ export const B1_GAPS: AnchoredLesson[] = [
             "Ten years have passed and I'm [still] in touch with my school friends.",
             "Seguir + estado o lugar (seguir en contacto) también expresa continuidad. Yo sigo: e → i."
           ),
+        ]
+      ),
+      sec(
+        "En negativo: seguir sin + infinitivo",
+        [
+          "En negativo se usa seguir sin + infinitivo: Sigo sin entenderlo (I still don't understand it). Sigue sin llamar (he still hasn't called).",
+        ],
+        [
+          ["Sigo sin encontrar las llaves.", "I still haven't found the keys."],
+          ["Mis vecinos siguen sin arreglar la puerta.", "My neighbours still haven't fixed the door."],
+        ],
+        [
           mc(
             "«I still don't know the answer.»",
             ["Sigo sin saber la respuesta.", "Sigo no sabiendo la respuesta.", "Todavía sé no la respuesta.", "Sigo sabiendo no la respuesta."],
@@ -637,15 +711,10 @@ export const B1_GAPS: AnchoredLesson[] = [
         "¿Existe o no lo sé?",
         [
           "La idea: después de «que» en una oración de relativo, el modo depende del antecedente (la persona o cosa de la que hablamos). ¿Por qué? El indicativo describe algo real que conoces; el subjuntivo describe algo que solo existe en tu búsqueda, tu deseo o tu pregunta. La pregunta clave: ¿existe y lo conozco?",
-          "Si sabes que existe y es concreta, indicativo: Tengo un piso que tiene terraza. Conozco a una chica que habla japonés.",
-          "Si no sabes si existe, la buscas o la deseas, subjuntivo: Busco un piso que tenga terraza. Necesito a alguien que hable japonés.",
-          "Por eso, en los anuncios de trabajo y de pisos se ve mucho subjuntivo: Se busca camarero que tenga experiencia.",
         ],
         [
           ["Vivo en un piso que tiene mucha luz.", "I live in a flat that has lots of light."],
           ["Busco un piso que tenga mucha luz.", "I'm looking for a flat that has lots of light."],
-          ["Tengo un amigo que sabe arreglar ordenadores.", "I have a friend who knows how to fix computers."],
-          ["¿Conoces a alguien que sepa arreglar ordenadores?", "Do you know anyone who can fix computers?"],
         ],
         [
           mc(
@@ -653,6 +722,26 @@ export const B1_GAPS: AnchoredLesson[] = [
             ["esté", "está", "estará", "estaba"],
             0,
             "Un hotel que buscamos, no uno concreto que ya conocemos: subjuntivo (esté). Con «Nos alojamos en un hotel que está cerca de la playa» sería indicativo."
+          ),
+        ]
+      ),
+      sec(
+        "Lo conozco: indicativo; lo busco: subjuntivo",
+        [
+          "Si sabes que existe y es concreta, indicativo: Tengo un piso que tiene terraza. Conozco a una chica que habla japonés.",
+          "Si no sabes si existe, la buscas o la deseas, subjuntivo: Busco un piso que tenga terraza. Necesito a alguien que hable japonés.",
+          "Por eso, en los anuncios de trabajo y de pisos se ve mucho subjuntivo: Se busca camarero que tenga experiencia.",
+        ],
+        [
+          ["Tengo un amigo que sabe arreglar ordenadores.", "I have a friend who knows how to fix computers."],
+          ["¿Conoces a alguien que sepa arreglar ordenadores?", "Do you know anyone who can fix computers?"],
+        ],
+        [
+          mc(
+            "Anuncio de una tienda: «Se busca dependiente que ___ inglés.»",
+            ["hable", "habla", "hablará", "hablaba"],
+            0,
+            "El anuncio busca a alguien que todavía no conoce (cualquiera que cumpla la condición) → subjuntivo: hable. «Habla» describiría a una persona concreta que ya existe y conoces; «hablará» y «hablaba» no encajan en el anuncio."
           ),
         ]
       ),
@@ -680,18 +769,14 @@ export const B1_GAPS: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "La a personal y el artículo son pistas",
+        "La a personal es una pista",
         [
           "Con una persona conocida se usa la a personal: Busco a la chica que vive en el tercero (la conozco, existe: indicativo).",
           "Con una persona desconocida, muchas veces sin a: Busco una chica que sepa alemán para un trabajo (cualquiera que cumpla la condición: subjuntivo). Con alguien y nadie, la a siempre aparece: Busco a alguien que...",
-          "El artículo también ayuda: el / la + indicativo suele ser concreto; un / una + subjuntivo suele ser «cualquiera».",
-          "Verás mucho más sobre esto en el nivel Avanzado. Por ahora, recuerda la pregunta clave: ¿existe y lo conozco?",
         ],
         [
           ["Busco a la profesora que da clase de yoga.", "I'm looking for the teacher who teaches yoga. (a specific one)"],
           ["Busco una profesora que dé clases de yoga.", "I'm looking for a teacher who teaches yoga. (any one)"],
-          ["Quiero el vestido que vi ayer.", "I want the dress I saw yesterday."],
-          ["Quiero un vestido que no sea muy caro.", "I want a dress that isn't too expensive."],
         ],
         [
           mc(
@@ -699,6 +784,25 @@ export const B1_GAPS: AnchoredLesson[] = [
             ["Busco al chico que trabaja en la biblioteca.", "Busco un chico que trabaje en la biblioteca.", "¿Hay algún chico que trabaje en la biblioteca?", "No hay ningún chico que trabaje en la biblioteca."],
             0,
             "Al chico (a personal + artículo definido) + indicativo: sabes quién es. Las otras hablan de alguien que no sabes si existe, o que no existe."
+          ),
+        ]
+      ),
+      sec(
+        "El artículo también ayuda",
+        [
+          "El artículo también ayuda: el / la + indicativo suele ser concreto; un / una + subjuntivo suele ser «cualquiera».",
+          "Verás mucho más sobre esto en el nivel Avanzado. Por ahora, recuerda la pregunta clave: ¿existe y lo conozco?",
+        ],
+        [
+          ["Quiero el vestido que vi ayer.", "I want the dress I saw yesterday."],
+          ["Quiero un vestido que no sea muy caro.", "I want a dress that isn't too expensive."],
+        ],
+        [
+          mc(
+            "«Quiero ___ coche que gaste poco; todavía no he elegido ninguno.»",
+            ["un", "el", "al", "del"],
+            0,
+            "No hablas de un coche concreto, sino de cualquiera que cumpla la condición: un + subjuntivo (gaste). «El coche que gasta poco» sería uno concreto que ya conoces; «al» y «del» no encajan después de querer."
           ),
         ]
       ),
