@@ -1447,7 +1447,7 @@ export const KO_B1_U23: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "What with a cold coming on and all, I left work early today.",
         answer: "감기 기운도 있고 해서 오늘은 일찍 퇴근했어요.",
-        altAnswers: ["감기 기운도 있고 해서 오늘 일찍 퇴근했어요.", "감기 기운도 있고 해서 오늘은 일찍 퇴근했습니다.", "오늘은 감기 기운도 있고 해서 일찍 퇴근했어요."],
+        altAnswers: ["감기 기운도 있고 해서 오늘 일찍 퇴근했어요.", "오늘은 감기 기운도 있고 해서 일찍 퇴근했어요."],
         explanation: "감기 기운 'the first signs of a cold' + 도 + 있고 해서; the past goes on 퇴근했어요.",
       },
       {
@@ -1503,7 +1503,7 @@ export const KO_B1_U23: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "My back has been hurting and all, so I've started yoga.",
         answer: "요즘 허리도 아프고 해서 요가를 시작했어요.",
-        altAnswers: ["허리도 아프고 해서 요가를 시작했어요.", "요즘 허리도 아프고 해서 요가 시작했어요.", "허리도 아프고 해서 요가를 시작했습니다."],
+        altAnswers: ["허리도 아프고 해서 요가를 시작했어요.", "요즘 허리도 아프고 해서 요가 시작했어요."],
         explanation: "허리도 아프고 해서: the back still hurts, so 아프고 stays in the present; 시작했어요 carries the past.",
       },
       {
@@ -1704,8 +1704,8 @@ export const KO_B1_U23: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Maybe because I stayed up all night, my eyes sting.",
             answer: "밤을 새워서 그런지 눈이 따가워요.",
-            altAnswers: ["밤을 새서 그런지 눈이 따가워요.", "밤새워서 그런지 눈이 따가워요.", "밤을 새워서 그런지 눈이 아파요."],
-            explanation: "밤을 새우다 'stay up all night' + -어서 그런지; 따가워요 is ㅂ irregular.",
+            altAnswers: ["밤새워서 그런지 눈이 따가워요.", "밤을 새워서 그런지 눈이 아파요."],
+            explanation: "밤을 새우다 'stay up all night' + -어서 그런지 (밤을 새서 is common in speech, but the standard verb is 새우다); 따가워요 is ㅂ irregular.",
           },
         ],
       },
@@ -2042,7 +2042,7 @@ export const KO_B1_U23: Lesson[] = [
         prompt: "Translate into Korean (polite, gently explaining to your team leader).",
         source: "What with not feeling well and all, I left early.",
         answer: "몸도 안 좋고 해서 일찍 갔어요.",
-        altAnswers: ["몸도 안 좋고 해서 일찍 퇴근했어요.", "몸도 안 좋고 해서 먼저 갔어요.", "몸도 좀 안 좋고 해서 일찍 갔어요.", "몸도 안 좋고 해서 일찍 들어갔어요.", "몸도 안 좋고 해서 일찍 퇴근했습니다."],
+        altAnswers: ["몸도 안 좋고 해서 일찍 퇴근했어요.", "몸도 안 좋고 해서 먼저 갔어요.", "몸도 좀 안 좋고 해서 일찍 갔어요.", "몸도 안 좋고 해서 일찍 들어갔어요."],
         explanation: "-고 해서 hints at other reasons and sounds least like an excuse; 때문에 would sound blunt.",
       },
       {
@@ -2244,7 +2244,7 @@ export const KO_B1_U23: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "A lot of people aren't sleeping well these days.",
         answer: "요즘 잠을 잘 못 자는 사람들이 많아요.",
-        altAnswers: ["요즘 잠을 잘 못 자는 사람이 많아요.", "요즘 잠을 잘 못 자는 분들이 많아요.", "요즘 잠을 잘 못 자는 분들이 많습니다.", "요즘 잠을 잘 못 자는 사람들이 많습니다.", "요즘 잠을 못 자는 사람이 많아요."],
+        altAnswers: ["요즘 잠을 잘 못 자는 사람이 많아요.", "요즘 잠을 잘 못 자는 분들이 많아요.", "요즘 잠을 못 자는 사람이 많아요."],
         explanation: "A modifier clause, 잘 못 자는, before 사람들; 분들 is the respectful version the doctor uses.",
       },
       {
@@ -2271,7 +2271,7 @@ export const KO_B1_U23: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Light stretching is also good for relieving tension.",
         answer: "가벼운 스트레칭도 긴장을 푸는 데 좋아요.",
-        altAnswers: ["가벼운 스트레칭도 긴장을 푸는 데 좋습니다.", "가벼운 스트레칭도 긴장을 푸는 데 도움이 돼요.", "가벼운 스트레칭도 긴장을 푸는 데 도움이 됩니다."],
+        altAnswers: ["가벼운 스트레칭도 긴장을 푸는 데 도움이 돼요.", "가벼운 스트레칭은 긴장을 푸는 데 좋아요."],
         explanation: "풀다 drops ㄹ before -는: 푸는 데 좋아요.",
       },
       {
@@ -2293,7 +2293,7 @@ export const KO_B1_U23: Lesson[] = [
         prompt: "Translate into Korean (formal, like the doctor).",
         source: "Don't look at your phone before bed.",
         answer: "자기 전에는 휴대폰을 보지 마십시오.",
-        altAnswers: ["자기 전에 휴대폰을 보지 마십시오.", "자기 전에는 휴대폰을 보지 마세요.", "자기 전에 휴대폰을 보지 마세요.", "자기 전에는 핸드폰을 보지 마십시오.", "자기 전에 핸드폰을 보지 마십시오.", "주무시기 전에는 휴대폰을 보지 마십시오."],
+        altAnswers: ["자기 전에 휴대폰을 보지 마십시오.", "자기 전에는 핸드폰을 보지 마십시오.", "자기 전에 핸드폰을 보지 마십시오.", "주무시기 전에는 휴대폰을 보지 마십시오."],
         explanation: "-지 마십시오 is the formal 'don't'; 휴대폰 and 핸드폰 are both everyday words for a mobile.",
       },
       {
@@ -2360,7 +2360,7 @@ export const KO_B1_U23: Lesson[] = [
             prompt: "Translate into Korean (formal, to your team leader).",
             source: "I've come down with aches and fever, so I'll stop by the clinic and come in this afternoon.",
             answer: "몸살이 나서 오늘 병원에 들렀다가 오후에 출근하겠습니다.",
-            altAnswers: ["몸살이 나서 병원에 들렀다가 오후에 출근하겠습니다.", "몸살이 나서 오늘 병원에 들렀다가 오후에 출근하겠어요.", "몸살이 나서 병원에 갔다가 오후에 출근하겠습니다.", "몸살이 나서 오늘 병원에 갔다가 오후에 출근하겠습니다.", "몸살이 나서 오늘은 병원에 들렀다가 오후에 출근하겠습니다."],
+            altAnswers: ["몸살이 나서 병원에 들렀다가 오후에 출근하겠습니다.", "몸살이 나서 병원에 갔다가 오후에 출근하겠습니다.", "몸살이 나서 오늘 병원에 갔다가 오후에 출근하겠습니다.", "몸살이 나서 오늘은 병원에 들렀다가 오후에 출근하겠습니다."],
             explanation: "몸살이 나서 gives the reason, 들렀다가 'after dropping in' links the two plans, and -겠습니다 is the formal intention.",
           },
           {
@@ -2419,7 +2419,7 @@ export const KO_B1_U23: Lesson[] = [
         prompt: "Translate into Korean (formal, to your team leader).",
         source: "Sorry, but I'm feeling quite unwell today.",
         answer: "팀장님, 죄송하지만 오늘 몸이 많이 안 좋습니다.",
-        altAnswers: ["죄송하지만 오늘 몸이 많이 안 좋습니다.", "팀장님, 죄송하지만 오늘 몸이 많이 안 좋아요.", "죄송하지만 오늘 몸이 많이 안 좋아요.", "팀장님, 죄송하지만 오늘 몸이 너무 안 좋습니다.", "죄송합니다. 오늘 몸이 많이 안 좋습니다."],
+        altAnswers: ["죄송하지만 오늘 몸이 많이 안 좋습니다.", "팀장님, 죄송하지만 오늘 몸이 너무 안 좋습니다.", "죄송합니다. 오늘 몸이 많이 안 좋습니다."],
         explanation: "몸이 안 좋다 'feel unwell' is the standard, slightly vague way to start.",
       },
       {
@@ -2428,7 +2428,7 @@ export const KO_B1_U23: Lesson[] = [
         prompt: "Translate into Korean (formal, to your team leader).",
         source: "I'll check anything urgent on the messenger.",
         answer: "급한 일은 메신저로 확인하겠습니다.",
-        altAnswers: ["급한 일은 메신저로 확인할게요.", "급한 건 메신저로 확인하겠습니다.", "급한 일은 메신저로 확인하도록 하겠습니다."],
+        altAnswers: ["급한 건 메신저로 확인하겠습니다.", "급한 일은 메신저로 확인하도록 하겠습니다."],
         explanation: "-겠습니다 for a formal promise; 로 marks the means.",
       },
       {
@@ -2497,7 +2497,7 @@ export const KO_B1_U23: Lesson[] = [
       },
       {
         type: "speak",
-        prompt: "Say it in Korean (formal, to your team leader): I've had a fever since last night and so on. Would it be all right if I took today off?",
+        prompt: "Say it in Korean (polite, to your team leader): I've had a fever since last night and so on. Would it be all right if I took today off?",
         text: "어젯밤부터 열도 나고 해서 오늘 하루 쉬어도 될까요?",
         explanation: "열도 나고 해서 softens the reason; -아도 될까요? asks permission politely.",
       },

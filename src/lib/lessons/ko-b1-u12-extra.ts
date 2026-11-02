@@ -244,7 +244,7 @@ export const KO_B1_U12_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "There's a sign [on] the door that says 'Do not enter'.",
+        en: "'Do not enter' [is written] on the door.",
         sentence: "문에 '들어오지 마세요'라고 ___.",
         answer: "쓰여 있어요",
         altAnswers: ["적혀 있어요"],
@@ -616,9 +616,9 @@ export const KO_B1_U12_EXTRA: Lesson[] = [
         prompt: "Write the Korean for the bold words.",
         en: "I [put] the documents on your desk.",
         sentence: "서류는 책상 위에 ___.",
-        answer: "놓아 뒀어요",
-        altAnswers: ["놔 뒀어요", "놓아 두었어요", "놔 두었어요", "놓았어요", "놨어요", "올려 놨어요", "올려 놓았어요"],
-        explanation: "놓아 / 놔 두다: put down and left there for them.",
+        answer: "놔뒀어요",
+        altAnswers: ["놓아뒀어요", "놓아두었어요", "놔두었어요", "놓았어요", "놨어요", "올려놨어요", "올려놓았어요"],
+        explanation: "놔두다 (short for 놓아두다) is one dictionary word, like 올려놓다: put down and left there for them.",
       },
       {
         type: "translate",

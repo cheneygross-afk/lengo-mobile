@@ -410,7 +410,7 @@ export const KO_B1_U12: Lesson[] = [
         question: "What does it mean?",
         options: ["Just leave the window open.", "Just close the window.", "The window has been opened.", "Please don't open the window."],
         correctIndex: 0,
-        explanation: "열어 놔요 = 열어 놓아요, here a casual suggestion: leave it open.",
+        explanation: "열어 놔요 = 열어 놓아요, here a friendly polite suggestion: leave it open.",
       },
       {
         type: "dictation",
@@ -727,7 +727,7 @@ export const KO_B1_U12: Lesson[] = [
       {
         heading: "Only verbs without an object",
         body: [
-          "Some verbs need no passive because they already take no object: 붙다 → 붙어 있어요 'is stuck on', 피다 → 피어 있어요 'is in bloom', 남다 → 남아 있어요 'is left over'. A verb that takes an object can't do it: *문이 열어 있어요 and *이름이 써 있어요 are the classic slips. Turn 열다 into 열리다 first, then add 있다.",
+          "Some verbs need no passive because they already take no object: 붙다 → 붙어 있어요 'is stuck on', 피다 → 피어 있어요 'is in bloom', 남다 → 남아 있어요 'is left over'. A verb that takes an object can't do it: *문이 열어 있어요 is the classic slip. Turn 열다 into 열리다 first, then add 있다. (You'll hear 이름이 써 있어요 in speech, but the standard form is 쓰여 있어요.)",
           "The same goes for 놓다: the state is 놓여 있어요, from the passive 놓이다. *놓아 있어요 mixes the active verb with 있다.",
         ],
         examples: [
@@ -897,7 +897,7 @@ export const KO_B1_U12: Lesson[] = [
         heading: "앉아 있어요 or 앉고 있어요?",
         body: [
           "-고 있다 puts you inside an action; -아 / 어 있다 describes the state after it. 앉아 있어요 is 'is seated'; 앉고 있어요 would be 'is in the middle of sitting down', which you almost never need. English 'is sitting' covers both, which is why learners say *의자에 앉고 있어요 for 'is seated'.",
-          "The same split works with movement verbs: 오고 있어요 'is on the way' vs 와 있어요 'has arrived and is here'; 눕고 있어요 'is lying down (right now)' is rare, 누워 있어요 'is lying in bed' is everyday.",
+          "The same split works with movement verbs: 오고 있어요 'is on the way' vs 와 있어요 'has arrived and is here'; 눕고 있어요 'is in the act of lying down' is rare, 누워 있어요 'is lying in bed' is everyday.",
         ],
         examples: [
           { es: "민수 씨는 맨 앞에 앉아 있어요.", en: "Minsu is sitting in the very front." },
@@ -1317,7 +1317,7 @@ export const KO_B1_U12: Lesson[] = [
         heading: "-고 말다 or -아 / 어 버리다?",
         body: [
           "Both can describe the same mishap, but they look at it differently. -아 / 어 버리다 is about the action being complete and gone; it can be something you chose to do (그냥 사 버렸어요). -고 말다 is about a result you fought against: you didn't mean to, and it happened anyway.",
-          "So for a plan you carried out, use 버리다, not 말다: 숙제를 다 해 버렸어요 is fine, but *숙제를 다 하고 말았어요 sounds as if homework were an accident. With a struggle, 말다 is the sharper choice: 결국 담배를 다시 피우고 말았어요 'in the end I started smoking again'.",
+          "So for a plan you carried out, use 버리다, not 말다: 숙제를 다 해 버렸어요 is fine, but 숙제를 다 하고 말았어요, though grammatical, sounds as if homework were an accident. With a struggle, 말다 is the sharper choice: 결국 담배를 다시 피우고 말았어요 'in the end I started smoking again'.",
         ],
         examples: [
           { es: "배가 고파서 케이크를 다 먹어 버렸어요.", en: "I was hungry, so I ate the whole cake." },
@@ -2144,10 +2144,10 @@ export const KO_B1_U12: Lesson[] = [
       {
         heading: "말다 for a plan, 있다 for wearing",
         body: [
-          "-고 말다 is for something you didn't want, so it can't describe a plan you carried out: *케이크를 다 먹고 말았어요 for a cake you meant to finish sounds like an accident; say 먹어 버렸어요. And clothes use -고 있다 for the state: *셔츠를 입어 있어요 → 셔츠를 입고 있어요.",
+          "-고 말다 is for something you didn't want, so it doesn't fit a plan you carried out: 케이크를 다 먹고 말았어요 is grammatical, but for a cake you meant to finish it sounds like an accident; say 먹어 버렸어요. And clothes use -고 있다 for the state: *셔츠를 입어 있어요 → 셔츠를 입고 있어요.",
         ],
         examples: [
-          { es: "배고파서 남은 피자를 다 먹어 버렸어요.", en: "I was hungry, so I finished off the pizza. (not *먹고 말았어요)" },
+          { es: "배고파서 남은 피자를 다 먹어 버렸어요.", en: "I was hungry, so I finished off the pizza. (not 먹고 말았어요, which sounds like an accident)" },
           { es: "민수 씨는 파란 셔츠를 입고 있어요.", en: "Minsu is wearing a blue shirt. (not *입어 있어요)" },
         ],
         checkpoint: [
@@ -2276,7 +2276,7 @@ export const KO_B1_U12: Lesson[] = [
           { es: "나비 사료하고 간식은 미리 사 놨어요.", en: "I've bought Nabi's food and treats in advance." },
           { es: "사료는 부엌 서랍에 들어 있어요.", en: "The food is in the kitchen drawer." },
           { es: "와이파이 비밀번호는 냉장고에 붙어 있어요.", en: "The Wi-Fi password is stuck on the fridge." },
-          { es: "택배가 오면 현관 앞에 놔 두세요.", en: "If a parcel comes, just leave it by the front door." },
+          { es: "택배가 오면 현관 앞에 놔두세요.", en: "If a parcel comes, just leave it by the front door." },
         ],
         checkpoint: [
           {
@@ -2316,7 +2316,7 @@ export const KO_B1_U12: Lesson[] = [
             prompt: "Translate into Korean (polite request).",
             source: "Keep the mail together on the dining table.",
             answer: "우편물은 식탁 위에 모아 두세요.",
-            altAnswers: ["우편물은 식탁 위에 모아 놓으세요.", "우편물은 식탁에 모아 두세요.", "우편물을 식탁 위에 모아 두세요.", "우편물을 식탁 위에 모아 놓으세요.", "우편물은 식탁 위에 놔 두세요.", "우편물은 식탁 위에 두세요."],
+            altAnswers: ["우편물은 식탁 위에 모아 놓으세요.", "우편물은 식탁에 모아 두세요.", "우편물을 식탁 위에 모아 두세요.", "우편물을 식탁 위에 모아 놓으세요.", "우편물은 식탁 위에 놔두세요.", "우편물은 식탁 위에 두세요."],
             explanation: "모아 두세요: collect it and keep it until you're back.",
           },
           {
@@ -2384,9 +2384,9 @@ export const KO_B1_U12: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Korean (polite request).",
         source: "If a parcel comes, just leave it by the front door.",
-        answer: "택배가 오면 현관 앞에 놔 두세요.",
-        altAnswers: ["택배가 오면 현관 앞에 놓아 두세요.", "택배가 오면 현관 앞에 두세요.", "택배가 오면 현관 앞에 놔 주세요.", "택배가 오면 현관 앞에 놓으세요.", "택배 오면 현관 앞에 놔 두세요.", "택배가 오면 그냥 현관 앞에 놔 두세요.", "택배가 오면 그냥 현관 앞에 두세요."],
-        explanation: "놔 두다 'leave it as it is' combines 놓다 and 두다: 놔 두세요.",
+        answer: "택배가 오면 현관 앞에 놔두세요.",
+        altAnswers: ["택배가 오면 현관 앞에 놓아두세요.", "택배가 오면 현관 앞에 두세요.", "택배가 오면 현관 앞에 놔 주세요.", "택배가 오면 현관 앞에 놓으세요.", "택배 오면 현관 앞에 놔두세요.", "택배가 오면 그냥 현관 앞에 놔두세요.", "택배가 오면 그냥 현관 앞에 두세요."],
+        explanation: "놔두다 'leave it there', short for 놓아두다, combines 놓다 and 두다 and is one dictionary word, written without a space: 놔두세요.",
       },
       {
         type: "fill-blank",

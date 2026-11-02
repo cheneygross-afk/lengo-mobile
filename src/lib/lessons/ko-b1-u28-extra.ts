@@ -312,7 +312,7 @@ export const KO_B1_U28_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "For foreigners, a passport is needed.",
         answer: "외국인의 경우 여권이 필요해요.",
-        altAnswers: ["외국인의 경우에는 여권이 필요해요.", "외국인의 경우 여권이 필요합니다.", "외국인의 경우에는 여권이 필요합니다.", "외국인인 경우 여권이 필요해요.", "외국인은 여권이 필요해요."],
+        altAnswers: ["외국인의 경우에는 여권이 필요해요.", "외국인인 경우 여권이 필요해요.", "외국인은 여권이 필요해요."],
         explanation: "외국인의 경우 'in the case of foreigners' + 여권이 필요해요.",
       },
       {

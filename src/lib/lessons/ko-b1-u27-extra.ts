@@ -451,7 +451,7 @@ export const KO_B1_U27_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Please sit on this chair.",
             answer: "이 의자에 앉으세요.",
-            altAnswers: ["이 의자에 앉아 주세요.", "이 의자에 좀 앉으세요.", "여기 의자에 앉으세요.", "이 의자에 앉으십시오."],
+            altAnswers: ["이 의자에 앉아 주세요.", "이 의자에 좀 앉으세요.", "여기 의자에 앉으세요."],
             explanation: "의자 starts the word, so it keeps a true [의].",
           },
         ],
@@ -481,7 +481,7 @@ export const KO_B1_U27_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "The floor is slippery, so be careful.",
             answer: "바닥이 미끄러우니까 주의하세요.",
-            altAnswers: ["바닥이 미끄러우니까 조심하세요.", "바닥이 미끄러우니 주의하세요.", "바닥이 미끄러우니 조심하세요.", "바닥이 미끄러우니까 주의하십시오."],
+            altAnswers: ["바닥이 미끄러우니까 조심하세요.", "바닥이 미끄러우니 주의하세요.", "바닥이 미끄러우니 조심하세요."],
             explanation: "Before a request, the reason takes -(으)니까, not -아 / 어서. 주의 is said [주의] or [주이].",
           },
           {

@@ -161,8 +161,9 @@ export const KO_B1_U31: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
         en: "I think [it isn't a big problem].",
-        sentence: "큰 ___ 생각해요.",
-        answer: "문제가 아니라고",
+        sentence: "___ 생각해요.",
+        answer: "큰 문제가 아니라고",
+        altAnswers: ["큰 문제는 아니라고", "그렇게 큰 문제가 아니라고"],
         explanation: "The negative noun quote is 이 / 가 아니라고: 문제가 아니라고 생각해요.",
       },
       {
@@ -208,7 +209,7 @@ export const KO_B1_U31: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "That wasn't my intention.",
         answer: "그런 의도는 아니었어요.",
-        altAnswers: ["그런 의도가 아니었어요.", "제 의도는 그게 아니었어요.", "그건 제 의도가 아니었어요."],
+        altAnswers: ["그런 의도가 아니었어요.", "제 의도는 그게 아니었어요.", "그건 제 의도가 아니었어요.", "그럴 의도는 아니었어요."],
         explanation: "의도 'intention' shares the root 의 with 의견 and 의미. A noun's past negative is 이 / 가 아니었어요; 은 / 는 contrasts it with what was understood.",
       },
       {
@@ -247,15 +248,15 @@ export const KO_B1_U31: Lesson[] = [
             prompt: "Translate into Korean (polite). Start with 'in my opinion'.",
             source: "In my opinion, remote work is more efficient.",
             answer: "제 생각에는 재택근무가 더 효율적이에요.",
-            altAnswers: ["제 생각에 재택근무가 더 효율적이에요.", "제 생각에는 재택근무가 더 효율적인 것 같아요.", "제 생각에 재택근무가 더 효율적인 것 같아요."],
+            altAnswers: ["제 생각에 재택근무가 더 효율적이에요.", "제 생각에는 재택근무가 더 효율적인 것 같아요.", "제 생각에 재택근무가 더 효율적인 것 같아요.", "제 생각에는 재택근무가 더 효율적이라고 생각해요."],
             explanation: "제 생각에는 already frames the opinion, so the sentence can end plainly in 효율적이에요. The 는 is often dropped in speech: 제 생각에.",
           },
           {
             type: "multiple-choice",
             question: "In a meeting, everyone likes a plan except you. Which opener marks your view as just your own?",
-            options: ["개인적으로", "제가 보기에는", "다른 사람들은", "누가 봐도"],
+            options: ["개인적으로", "우리 팀은", "다른 사람들은", "누가 봐도"],
             correctIndex: 0,
-            explanation: "개인적으로 'personally' sets your view apart politely. 누가 봐도 'anyone can see' claims the opposite: that everyone would agree.",
+            explanation: "개인적으로 'personally' sets your view apart politely. 우리 팀은 and 다른 사람들은 speak for the group, not for you, and 누가 봐도 'anyone can see' claims the opposite: that everyone would agree.",
           },
         ],
       },
@@ -395,7 +396,7 @@ export const KO_B1_U31: Lesson[] = [
         en: "[In my opinion,] this system is necessary. (written style)",
         sentence: "___ 이 제도가 꼭 필요하다.",
         answer: "내 생각에는",
-        altAnswers: ["내 생각에", "나는"],
+        altAnswers: ["내 생각에"],
         explanation: "In writing 저 becomes 나, so 제 생각에는 becomes 내 생각에는.",
       },
       {
@@ -434,7 +435,7 @@ export const KO_B1_U31: Lesson[] = [
             prompt: "Translate into Korean (polite, softened).",
             source: "This price seems a bit high.",
             answer: "이 가격은 좀 비싼 것 같아요.",
-            altAnswers: ["이 가격은 조금 비싼 것 같아요.", "이 가격이 좀 비싼 것 같아요.", "이 가격이 조금 비싼 것 같아요.", "가격이 좀 비싼 것 같아요.", "가격이 조금 비싼 것 같아요."],
+            altAnswers: ["이 가격은 좀 높은 것 같아요.", "이 가격은 조금 비싼 것 같아요.", "이 가격이 좀 비싼 것 같아요.", "이 가격이 조금 비싼 것 같아요.", "가격이 좀 비싼 것 같아요.", "가격이 조금 비싼 것 같아요."],
             explanation: "비싸다 is an adjective, so the present modifier is 비싼 + 것 같아요. 좀 softens it further.",
           },
           {
@@ -633,9 +634,9 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your colleague shares her view that the office is too cold. You think the same. What do you say?",
-            options: ["저도 그렇게 생각해요.", "저는 그 의견에 찬성해요.", "저는 반대해요.", "글쎄요."],
+            options: ["저도 그렇게 생각해요.", "저는 좀 다르게 생각해요.", "저는 반대해요.", "글쎄요."],
             correctIndex: 0,
-            explanation: "For a view, 저도 그렇게 생각해요 (or 동의해요). 찬성해요 is for a proposal, and 글쎄요 signals doubt.",
+            explanation: "For a view you share, 저도 그렇게 생각해요 (or 동의해요). 다르게 생각해요 and 반대해요 disagree, and 글쎄요 signals doubt.",
           },
         ],
       },
@@ -800,7 +801,7 @@ export const KO_B1_U31: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "That's right. I think so too.",
         answer: "맞아요. 저도 그렇게 생각해요.",
-        altAnswers: ["맞아요. 저도 그렇게 생각합니다.", "맞아요. 저도 같은 생각이에요."],
+        altAnswers: ["맞아요. 저도 같은 생각이에요."],
         explanation: "맞아요 agrees with a fact or view; 저도 그렇게 생각해요 adds that you share it. 도 'too' sits on 저.",
       },
       {
@@ -893,7 +894,7 @@ export const KO_B1_U31: Lesson[] = [
         ],
         examples: [
           { es: "장점과 단점을 비교해 보세요.", en: "Compare the advantages and disadvantages." },
-          { es: "요즘 물가가 너무 비싸요.", en: "The cost of living is so high these days." },
+          { es: "요즘 물가가 너무 높아요.", en: "The cost of living is so high these days." },
           { es: "이 가수는 요즘 인기가 많아요.", en: "This singer is very popular these days." },
           { es: "어제 큰 사건이 있었어요.", en: "There was a big incident yesterday." },
           { es: "근무 조건이 좋아서 이 회사를 골랐어요.", en: "I chose this company because the working conditions are good." },
@@ -977,8 +978,8 @@ export const KO_B1_U31: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "요즘 물가가 너무 비싸요.",
-        explanation: "You hear [물까가], but the spelling is 물가가: the tense sound never shows.",
+        audio: "요즘 물가가 너무 높아요.",
+        explanation: "You hear [물까가], but the spelling is 물가가: the tense sound never shows. Prices are 높다 'high' or 오르다 'rise'; 물가가 비싸다 is heard too, but 높다 is the tidier choice.",
       },
       {
         type: "matching",
@@ -1340,7 +1341,7 @@ export const KO_B1_U31: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "[Ask] me [anything].",
+        en: "Ask me [anything].",
         sentence: "___ 물어보세요.",
         answer: "뭐든지",
         altAnswers: ["무엇이든지", "뭐든"],
@@ -1381,9 +1382,9 @@ export const KO_B1_U31: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Your friend hasn't eaten all day and there's little in the fridge. What do you say?",
-        options: ["뭐라도 좀 먹어.", "뭐든지 좀 먹어.", "뭐던지 좀 먹어.", "뭐든지 말든지 먹어."],
+        options: ["뭐라도 좀 먹어.", "뭐든지 골라 먹어.", "뭐던지 좀 먹어.", "뭐든지 말든지 먹어."],
         correctIndex: 0,
-        explanation: "With little choice, (이)라도 'at least something' fits. 뭐든지 'whatever you like' suggests a full menu.",
+        explanation: "With little choice, (이)라도 'at least something' fits. 뭐든지 골라 먹어 'pick whatever you like' suggests a full menu; 뭐던지 is misspelled, and 말든지 needs a verb (먹든지 말든지).",
       },
       {
         type: "dictation",
@@ -1428,7 +1429,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [it's too expensive].",
+            en: "I think it's too [expensive].",
             sentence: "너무 ___ 생각해요.",
             answer: "비싸다고",
             explanation: "비싸다: adjective → 비싸다고.",
@@ -1436,7 +1437,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [the subway is convenient].",
+            en: "I think the subway [is convenient].",
             sentence: "지하철이 ___ 생각해요.",
             answer: "편하다고",
             altAnswers: ["편리하다고"],
@@ -1445,7 +1446,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [there's no time].",
+            en: "I think there's [no] time.",
             sentence: "시간이 ___ 생각해요.",
             answer: "없다고",
             altAnswers: ["부족하다고"],
@@ -1454,7 +1455,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [this drama is fun].",
+            en: "I think this drama [is fun].",
             sentence: "이 드라마가 ___ 생각해요.",
             answer: "재미있다고",
             altAnswers: ["재밌다고"],
@@ -1463,7 +1464,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [Korean is difficult].",
+            en: "I think Korean [is difficult].",
             sentence: "한국어가 ___ 생각해요.",
             answer: "어렵다고",
             explanation: "The ㅂ irregular doesn't change before -다고: 어렵다고.",
@@ -1482,7 +1483,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [prices keep going up].",
+            en: "I think prices keep [going up].",
             sentence: "물가가 계속 ___ 생각해요.",
             answer: "오른다고",
             altAnswers: ["올라간다고"],
@@ -1491,7 +1492,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [many people use] social media too much.",
+            en: "I think many people [use] social media too much.",
             sentence: "많은 사람들이 SNS를 너무 많이 ___ 생각해요.",
             answer: "쓴다고",
             altAnswers: ["사용한다고", "이용한다고", "한다고"],
@@ -1500,7 +1501,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [children don't read] books.",
+            en: "I think children don't [read] books.",
             sentence: "아이들이 책을 안 ___ 생각해요.",
             answer: "읽는다고",
             explanation: "읽다: consonant stem → 읽는다고 [잉는다고].",
@@ -1508,7 +1509,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [Minsu knows] the answer.",
+            en: "I think Minsu [knows] the answer.",
             sentence: "민수 씨가 답을 ___ 생각해요.",
             answer: "안다고",
             explanation: "알다: the ㄹ drops before ㄴ → 안다고, not *알는다고.",
@@ -1524,7 +1525,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [the world is changing] fast.",
+            en: "I think the world [is changing] fast.",
             sentence: "세상이 빨리 ___ 생각해요.",
             answer: "바뀐다고",
             altAnswers: ["변한다고"],
@@ -1533,7 +1534,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [he doesn't know] anything.",
+            en: "I think he [doesn't know] anything.",
             sentence: "그 사람은 아무것도 ___ 생각해요.",
             answer: "모른다고",
             explanation: "모르다 → 모른다고: an action verb with a vowel stem.",
@@ -1552,7 +1553,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [that's a good idea].",
+            en: "I think that's a good [idea].",
             sentence: "그게 좋은 ___ 생각해요.",
             answer: "생각이라고",
             altAnswers: ["아이디어라고"],
@@ -1561,7 +1562,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [that's the problem].",
+            en: "I think that's [the problem].",
             sentence: "그게 ___ 생각해요.",
             answer: "문제라고",
             explanation: "문제 ends in a vowel → 라고.",
@@ -1569,7 +1570,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [it isn't my fault].",
+            en: "I think it [isn't] my [fault].",
             sentence: "제 ___ 생각해요.",
             answer: "잘못이 아니라고",
             explanation: "Negative noun: 이 / 가 아니라고.",
@@ -1577,7 +1578,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [the most important thing is health].",
+            en: "I think the most important thing is [health].",
             sentence: "제일 중요한 건 ___ 생각해요.",
             answer: "건강이라고",
             explanation: "건강 ends in a consonant → 이라고.",
@@ -1585,7 +1586,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I see this as [a good opportunity].",
+            en: "I see this as a good [opportunity].",
             sentence: "이번 일을 좋은 ___ 봐요.",
             answer: "기회라고",
             explanation: "기회 ends in a vowel → 라고, with 봐요 for a firmer view.",
@@ -1604,7 +1605,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [the decision was right].",
+            en: "I think the decision [was right].",
             sentence: "그 결정이 ___ 생각해요.",
             answer: "옳았다고",
             altAnswers: ["맞았다고"],
@@ -1613,7 +1614,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [he worked hard].",
+            en: "I think he [worked] hard.",
             sentence: "그 사람이 열심히 ___ 생각해요.",
             answer: "일했다고",
             explanation: "하다 verbs: 했다고.",
@@ -1621,7 +1622,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [the meeting went well].",
+            en: "I think the meeting [went] well.",
             sentence: "회의가 잘 ___ 생각해요.",
             answer: "됐다고",
             altAnswers: ["되었다고"],
@@ -1630,7 +1631,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I think [it will rain] tomorrow.",
+            en: "I think it [will rain] tomorrow.",
             sentence: "내일 비가 ___ 생각해요.",
             answer: "올 거라고",
             altAnswers: ["올 것이라고"],
@@ -1648,7 +1649,7 @@ export const KO_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "I believe [single-person households will increase] more.",
+            en: "I believe single-person households [will increase] more.",
             sentence: "1인 가구가 더 ___ 봐요.",
             answer: "늘어날 거라고",
             altAnswers: ["늘어날 것이라고", "늘 거라고", "많아질 거라고"],
@@ -1982,7 +1983,7 @@ export const KO_B1_U31: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean (polite, telling a friend your view).",
+        prompt: "Translate into Korean (polite, giving your view).",
         source: "I think kiosks aren't convenient for everyone.",
         answer: "키오스크가 모든 사람에게 편리한 건 아니라고 생각해요.",
         altAnswers: ["키오스크가 모든 사람한테 편리한 건 아니라고 생각해요.", "키오스크가 모두에게 편리한 건 아니라고 생각해요.", "키오스크가 모든 사람에게 편리하지는 않다고 생각해요.", "키오스크가 모든 사람한테 편하지는 않다고 생각해요.", "키오스크가 모든 사람한테 편한 건 아니라고 생각해요.", "키오스크는 모든 사람에게 편리한 건 아니라고 생각해요.", "키오스크가 모든 사람에게 편리한 것은 아니라고 생각해요."],
@@ -2257,7 +2258,7 @@ export const KO_B1_U31: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I'm against the fare rise.",
             answer: "저는 요금 인상에 반대해요.",
-            altAnswers: ["요금 인상에 반대해요.", "저는 요금 인상을 반대해요.", "요금 인상을 반대해요.", "저는 요금 인상에 반대합니다.", "저는 요금을 올리는 것에 반대해요."],
+            altAnswers: ["요금 인상에 반대해요.", "저는 요금 인상을 반대해요.", "요금 인상을 반대해요.", "저는 요금을 올리는 것에 반대해요."],
             explanation: "A proposal takes 반대하다, with 에 (or 을 / 를). 인상 is 'a rise' in prices or fares.",
           },
           {
@@ -2357,7 +2358,6 @@ export const KO_B1_U31: Lesson[] = [
         en: "[I'm against] the fare rise.",
         sentence: "저는 요금 인상에 ___.",
         answer: "반대해요",
-        altAnswers: ["반대합니다"],
         explanation: "반대하다 'be against' a proposal, with 에.",
       },
       {

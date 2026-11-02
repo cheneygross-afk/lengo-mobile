@@ -188,7 +188,7 @@ export const KO_B1_U06_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (polite, to a stranger).",
             source: "Excuse me, may I ask your name?",
             answer: "실례지만 성함이 어떻게 되세요?",
-            altAnswers: ["실례지만 이름이 어떻게 되세요?", "실례지만 성함이 뭐예요?", "실례지만 이름이 뭐예요?", "실례지만 성함이 어떻게 되십니까?"],
+            altAnswers: ["실례지만 이름이 어떻게 되세요?", "실례지만 성함이 뭐예요?", "실례지만 이름이 뭐예요?"],
             explanation: "실례지만 + the honorific 성함 'name'.",
           },
           {
@@ -210,7 +210,7 @@ export const KO_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (formal, a waiter to a customer).",
         source: "I'm sorry, but this table is reserved.",
         answer: "죄송하지만 이 자리는 예약석입니다.",
-        altAnswers: ["죄송하지만 여기는 예약석입니다.", "죄송하지만 이 자리는 예약된 자리입니다.", "죄송하지만 이 자리는 예약석이에요.", "죄송하지만 여기는 예약석이에요."],
+        altAnswers: ["죄송하지만 여기는 예약석입니다.", "죄송하지만 이 자리는 예약된 자리입니다.", "죄송합니다만 이 자리는 예약석입니다."],
         explanation: "Bad news to a customer: 죄송하지만 + formal 입니다.",
       },
       {
@@ -411,9 +411,9 @@ export const KO_B1_U06_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A doctor is giving advice. Which sounds most natural?",
-        options: ["바쁘시더라도 약은 꼭 드세요.", "바쁘시지만 약은 꼭 드세요.", "바쁘셔서 약은 꼭 드세요.", "바쁘시는데 약은 꼭 드세요."],
+        options: ["바쁘시더라도 약은 꼭 드세요.", "바쁘시면서 약은 꼭 드세요.", "바쁘셔서 약은 꼭 드세요.", "바쁘시는데 약은 꼭 드세요."],
         correctIndex: 0,
-        explanation: "Supposition + advice: -더라도, here with honorific -시-. 바쁘셔서 can't precede a command, and *바쁘시는데 uses the verb form on an adjective.",
+        explanation: "Supposition + advice: -더라도, here with honorific -시-. -(으)면서 'while' makes no sense here, 바쁘셔서 can't precede a command, and *바쁘시는데 uses the verb form on an adjective (the adjective form is 바쁘신데).",
       },
       {
         type: "translate",
@@ -431,7 +431,7 @@ export const KO_B1_U06_EXTRA: Lesson[] = [
         sentence: "___ 일찍 일어나요.",
         answer: "주말이어도",
         altAnswers: ["주말이라도", "주말에도"],
-        explanation: "Noun ending in a consonant: 이어도.",
+        explanation: "Noun ending in a consonant: 이어도 'even if it's the weekend'. 주말에도 'on weekends too' is the most everyday way to say it.",
       },
       {
         type: "word-order",
@@ -590,9 +590,9 @@ export const KO_B1_U06_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Join: 시험이 어려워요. + 포기하지 마세요. Which is the best?",
-        options: ["시험이 어렵더라도 포기하지 마세요.", "시험이 어려워서 포기하지 마세요.", "시험이 어려운데 포기하지 마세요.", "시험이 어렵지만 포기하지 마세요."],
+        options: ["시험이 어렵더라도 포기하지 마세요.", "시험이 어려워서 포기하지 마세요.", "시험이 어렵는데 포기하지 마세요.", "시험이 어렵으니까 포기하지 마세요."],
         correctIndex: 0,
-        explanation: "A supposition overridden by advice: 어렵더라도 (or 어려워도). 어려워서 can't precede a command.",
+        explanation: "A supposition overridden by advice: 어렵더라도 (or 어려워도). 어려워서 can't precede a command, and *어렵는데 and *어렵으니까 ignore the ㅂ irregular (어려운데, 어려우니까); a reason wouldn't fit here anyway.",
       },
       {
         type: "listen-choose",

@@ -163,7 +163,7 @@ export const KO_B1_U05_EXTRA: Lesson[] = [
         type: "speak",
         prompt: "Say it in Korean (polite): The night view in Busan was really pretty.",
         text: "부산 야경이 정말 예쁘더라고요.",
-        tip: "Say 야경이 as [야경이], with the ㅇ sounding as [ng].",
+        tip: "Say 야경이 as [야경이]: the final ㅇ of 경 stays where it is and does not move onto 이.",
         explanation: "Your own impression: 예쁘더라고요.",
       },
     ],

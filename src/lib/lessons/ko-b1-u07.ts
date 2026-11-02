@@ -98,7 +98,7 @@ export const KO_B1_U07: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I'm planning to work out from next month.",
             answer: "다음 달부터 운동하려고 해요.",
-            altAnswers: ["다음 달부터 운동을 하려고 해요.", "다음 달부터 운동을 시작하려고 해요.", "다음 달부터 운동 시작하려고 해요.", "다음 달부터는 운동하려고 해요."],
+            altAnswers: ["다음 달부터 운동을 하려고 해요.", "다음 달부터 운동을 시작하려고 해요.", "다음 달부터 운동 시작하려고 해요.", "다음 달부터는 운동하려고 해요.", "다음 달부터 운동할 계획이에요."],
             explanation: "-(으)려고 해요 at the end of the sentence is a plan (A2), not a purpose.",
           },
         ],
@@ -143,8 +143,8 @@ export const KO_B1_U07: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I work a part-time job to save money.",
         answer: "돈을 모으려고 아르바이트를 해요.",
-        altAnswers: ["돈 모으려고 아르바이트해요.", "돈을 모으려고 아르바이트해요.", "돈 모으려고 아르바이트를 해요.", "저는 돈을 모으려고 아르바이트를 해요.", "돈을 벌려고 아르바이트를 해요.", "돈 벌려고 아르바이트해요."],
-        explanation: "모으다 ends in a vowel: 모으려고. The job is the action, so it comes last.",
+        altAnswers: ["돈 모으려고 아르바이트해요.", "돈을 모으려고 아르바이트해요.", "돈 모으려고 아르바이트를 해요.", "저는 돈을 모으려고 아르바이트를 해요.", "돈을 저축하려고 아르바이트를 해요.", "저축하려고 아르바이트를 해요."],
+        explanation: "모으다 ends in a vowel: 모으려고. The job is the action, so it comes last. 돈을 벌려고 would mean 'to earn money', not 'to save'.",
       },
       {
         type: "translate",
@@ -499,9 +499,9 @@ export const KO_B1_U07: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A doctor tells a patient to walk every day to stay healthy. Which is natural?",
-            options: ["건강을 지키기 위해서 매일 걸으세요.", "건강을 지키려고 매일 걸으세요.", "건강을 지키러 매일 걸으세요.", "건강하기 위해서 매일 걸으세요."],
+            options: ["건강을 지키기 위해서 매일 걸으세요.", "건강을 지키려고 매일 걸으세요.", "건강을 지키러 매일 걸으세요.", "건강을 위한 매일 걸으세요."],
             correctIndex: 0,
-            explanation: "A command can follow -기 위해서 but not -(으)려고, and -러 needs 가다 or 오다. *건강하기 위해서 puts an adjective where an action is needed.",
+            explanation: "A command can follow -기 위해서 but not -(으)려고, and -러 needs 가다 or 오다. 위한 must be followed by a noun, not a verb.",
           },
         ],
       },
@@ -550,7 +550,7 @@ export const KO_B1_U07: Lesson[] = [
       {
         heading: "Adjectives need a change",
         body: [
-          "-기 위해서 needs an action, something you can work towards. An adjective describes a state, so *건강하기 위해서 and *예쁘기 위해서 sound wrong. Turn the adjective into a change with -아 / 어지다 from A2 (건강해지기 위해서, 날씬해지기 위해서), or use the noun: 건강을 위해서.",
+          "-기 위해서 is made for actions, something you can work towards. An adjective describes a state, so textbooks and TOPIK graders prefer a change with -아 / 어지다 from A2 (건강해지기 위해서, 날씬해지기 위해서) or the noun (건강을 위해서). You will hear 건강하기 위해서 and 행복하기 위해서 from Koreans, but in careful speech and essays they count as less standard.",
         ],
         examples: [
           { es: "건강해지기 위해서 채소를 많이 먹어요.", en: "I eat a lot of vegetables to become healthier." },
@@ -605,9 +605,9 @@ export const KO_B1_U07: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which says 'I exercise to get slimmer'?",
-        options: ["날씬해지기 위해서 운동해요.", "날씬하기 위해서 운동해요.", "날씬해지기 위한 운동해요.", "날씬을 위해서 운동해요."],
+        options: ["날씬해지기 위해서 운동해요.", "날씬해지러 운동해요.", "날씬해지기 위한 운동해요.", "날씬을 위해서 운동해요."],
         correctIndex: 0,
-        explanation: "날씬하다 is an adjective, so make it a change: 날씬해지기 위해서. 위한 needs a noun after it, and 날씬 is not a noun.",
+        explanation: "날씬하다 is an adjective, so make it a change: 날씬해지기 위해서. -러 needs 가다 or 오다, 위한 needs a noun after it, and 날씬 is not a noun.",
       },
       {
         type: "translate",
@@ -631,7 +631,7 @@ export const KO_B1_U07: Lesson[] = [
         prompt: "Translate into Korean (polite advice).",
         source: "Walk every day to stay healthy.",
         answer: "건강을 지키기 위해서 매일 걸으세요.",
-        altAnswers: ["건강을 지키기 위해 매일 걸으세요.", "건강을 위해서 매일 걸으세요.", "건강을 위해 매일 걸으세요.", "건강을 유지하기 위해서 매일 걸으세요.", "건강을 지키기 위해서 매일 걸으십시오."],
+        altAnswers: ["건강을 지키기 위해 매일 걸으세요.", "건강을 위해서 매일 걸으세요.", "건강을 위해 매일 걸으세요.", "건강을 유지하기 위해서 매일 걸으세요."],
         explanation: "A command after a purpose needs -기 위해서 (or 을 위해서), not -(으)려고. 걷다 → 걸으세요 (ㄷ-irregular).",
       },
       {
@@ -664,7 +664,7 @@ export const KO_B1_U07: Lesson[] = [
         sentence: "___ 커피를 끊었어요.",
         answer: "건강을 위해서",
         altAnswers: ["건강을 위해"],
-        explanation: "Noun + 을 위해서. *건강하기 위해서 would be the adjective mistake.",
+        explanation: "Noun + 을 위해서. 건강하기 위해서 is heard, but the noun form is the standard choice.",
       },
       {
         type: "speak",
@@ -863,8 +863,8 @@ export const KO_B1_U07: Lesson[] = [
         prompt: "Translate into Korean (formal notice).",
         source: "Please be careful not to slip.",
         answer: "미끄러지지 않도록 조심하십시오.",
-        altAnswers: ["미끄러지지 않도록 조심하세요.", "미끄러지지 않게 조심하십시오.", "미끄러지지 않게 조심하세요.", "미끄러지지 않도록 주의하십시오.", "미끄러지지 않도록 주의하세요."],
-        explanation: "-지 않도록 + 조심하십시오 is the classic notice wording.",
+        altAnswers: ["미끄러지지 않게 조심하십시오.", "미끄러지지 않도록 주의하십시오."],
+        explanation: "-지 않도록 + 조심하십시오 is the classic notice wording; a formal notice uses -십시오, not 해요 조심하세요.",
       },
       {
         type: "translate",
@@ -1414,7 +1414,7 @@ export const KO_B1_U07: Lesson[] = [
         prompt: "Translate into Korean with -도록 하세요.",
         source: "Make sure you bring your passport.",
         answer: "여권을 꼭 챙기도록 하세요.",
-        altAnswers: ["여권을 꼭 가져오도록 하세요.", "여권을 꼭 가지고 오도록 하세요.", "여권 꼭 챙기도록 하세요.", "꼭 여권을 챙기도록 하세요.", "여권을 챙기도록 하세요.", "여권을 꼭 챙기도록 하십시오."],
+        altAnswers: ["여권을 꼭 가져오도록 하세요.", "여권을 꼭 가지고 오도록 하세요.", "여권 꼭 챙기도록 하세요.", "꼭 여권을 챙기도록 하세요.", "여권을 챙기도록 하세요."],
         explanation: "챙기다 'pack, remember to bring' + -도록 하세요.",
       },
       {
@@ -1918,7 +1918,7 @@ export const KO_B1_U07: Lesson[] = [
     level: "KO-B1",
     number: 9,
     title: "Error Hunt: Purpose",
-    summary: "Find and fix the purpose mistakes English speakers make: *공부하러 도서관에 앉아요, *사려고 가세요, *건강하기 위해서, *가족 위해서 in an essay, *늦지 않게 하도록, *목표가 합격하려고예요.",
+    summary: "Find and fix the purpose mistakes English speakers make: *공부하러 도서관에 앉아요, *사려고 가세요, 건강하기 위해서 (less standard), *가족 위해서 in an essay, *늦지 않게 하도록, *목표가 합격하려고예요.",
     duration: "14 min",
     sections: [
       {
@@ -1966,11 +1966,11 @@ export const KO_B1_U07: Lesson[] = [
       {
         heading: "위해서: adjectives and particles",
         body: [
-          "*건강하기 위해서: an adjective describes a state, not something you do. Use the change verb or the noun: 건강해지기 위해서, 건강을 위해서.",
+          "건강하기 위해서: you will hear it, but an adjective describes a state, not something you do, so careful speech and essays use the change verb or the noun: 건강해지기 위해서, 건강을 위해서.",
           "*가족 위해서 in an essay: speech often drops 를, but written Korean keeps it: 가족을 위해서. Before a noun, it's 위한, not 위해서: 가족을 위한 여행.",
         ],
         examples: [
-          { es: "건강해지기 위해서 운동을 시작했어요.", en: "I started exercising to get healthy. (not *건강하기 위해서)" },
+          { es: "건강해지기 위해서 운동을 시작했어요.", en: "I started exercising to get healthy. (better than 건강하기 위해서)" },
           { es: "건강을 위해서 채식을 해요.", en: "I eat a vegetarian diet for my health." },
           { es: "가족을 위해서 열심히 일한다.", en: "I work hard for my family. (written; not *가족 위해서)" },
           { es: "가족을 위한 여행을 계획했어요.", en: "I planned a trip for my family." },
@@ -1979,7 +1979,7 @@ export const KO_B1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean (polite). Avoid *건강하기 위해서.",
+            prompt: "Translate into Korean (polite). Avoid the less standard 건강하기 위해서.",
             source: "I started exercising to get healthy.",
             answer: "건강해지기 위해서 운동을 시작했어요.",
             altAnswers: ["건강해지기 위해 운동을 시작했어요.", "건강해지기 위해서 운동 시작했어요.", "건강을 위해서 운동을 시작했어요.", "건강을 위해 운동을 시작했어요.", "건강해지려고 운동을 시작했어요.", "건강해지려고 운동 시작했어요."],
@@ -2072,10 +2072,10 @@ export const KO_B1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["더 날씬해지기 위해서 저녁을 안 먹어요.", "더 날씬하기 위해서 저녁을 안 먹어요.", "더 날씬해지기 위한 저녁을 안 먹어요.", "더 날씬해지러 저녁을 안 먹어요."],
+        question: "Which says 'I skip dinner to get slimmer'?",
+        options: ["더 날씬해지기 위해서 저녁을 안 먹어요.", "더 날씬해졌으려고 저녁을 안 먹어요.", "더 날씬해지기 위한 저녁을 안 먹어요.", "더 날씬해지러 저녁을 안 먹어요."],
         correctIndex: 0,
-        explanation: "Adjective → -아 / 어지다 + -기 위해서. -러 needs 가다 or 오다.",
+        explanation: "Adjective → -아 / 어지다 + -기 위해서. The purpose verb takes no tense (*날씬해졌으려고), 위한 저녁 would mean 'a dinner for getting slim', and -러 needs 가다 or 오다.",
       },
       {
         type: "translate",
@@ -2310,7 +2310,7 @@ export const KO_B1_U07: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'll make sure I don't skip a single day!",
         answer: "하루도 빠지지 않도록 할 거예요!",
-        altAnswers: ["앞으로 하루도 빠지지 않도록 할 거예요!", "하루도 빠지지 않도록 할게요!", "앞으로 하루도 빠지지 않도록 할게요!", "하루도 안 빠지도록 할 거예요!", "하루도 빼먹지 않도록 할 거예요!", "하루도 빠지지 않도록 하겠습니다!"],
+        altAnswers: ["앞으로 하루도 빠지지 않도록 할 거예요!", "하루도 빠지지 않도록 할게요!", "앞으로 하루도 빠지지 않도록 할게요!", "하루도 안 빠지도록 할 거예요!", "하루도 빼먹지 않도록 할 거예요!"],
         explanation: "-지 않도록 하다 'make sure not to', here as a resolution.",
       },
       {
@@ -2344,7 +2344,7 @@ export const KO_B1_U07: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Today I'll introduce my study plan.",
         answer: "오늘은 제 공부 계획을 소개할게요.",
-        altAnswers: ["오늘은 제 공부 계획을 소개하겠습니다.", "오늘 제 공부 계획을 소개할게요.", "오늘은 저의 공부 계획을 소개할게요.", "오늘은 제 공부 계획을 소개해 드릴게요.", "오늘은 제 공부 계획을 알려 드릴게요."],
+        altAnswers: ["오늘 제 공부 계획을 소개할게요.", "오늘은 저의 공부 계획을 소개할게요.", "오늘은 제 공부 계획을 소개해 드릴게요.", "오늘은 제 공부 계획을 알려 드릴게요."],
         explanation: "-(으)ㄹ게요 for a friendly promise to readers; 계획 is said [게획].",
       },
       {
@@ -2515,7 +2515,7 @@ export const KO_B1_U07: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'll make sure I don't miss a day!",
         answer: "하루도 빠지지 않도록 할게요!",
-        altAnswers: ["하루도 빠지지 않도록 할 거예요!", "하루도 안 빠지도록 할게요!", "하루도 빼먹지 않도록 할게요!", "하루도 빠지지 않도록 하겠습니다!", "하루도 빠지지 않게 할게요!"],
+        altAnswers: ["하루도 빠지지 않도록 할 거예요!", "하루도 안 빠지도록 할게요!", "하루도 빼먹지 않도록 할게요!", "하루도 빠지지 않게 할게요!"],
         explanation: "-지 않도록 하다 + -(으)ㄹ게요: a promise.",
       },
       {

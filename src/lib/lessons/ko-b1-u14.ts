@@ -414,7 +414,7 @@ export const KO_B1_U14: Lesson[] = [
       {
         heading: "Evidence or any guess?",
         body: [
-          "비가 오나 봐요 needs something you noticed: wet umbrellas, the sound on the window. 비가 오는 것 같아요 works with or without evidence, and it is also the only one of the two that guesses the future: 내일 비가 올 것 같아요. -나 보다 has no future form, so 'it's going to rain' is always 올 것 같아요.",
+          "비가 오나 봐요 needs something you noticed: wet umbrellas, the sound on the window. 비가 오는 것 같아요 works with or without evidence, and it is also the only one of the two that guesses the future: 내일 비가 올 것 같아요. -나 보다 has no simple future of its own (the roundabout 올 건가 봐요 is rare), so 'it's going to rain' is normally 올 것 같아요 or 오겠어요.",
           "That makes -는 것 같다 the safe default and -나 보다 the precise one. When you say 비가 오나 봐요, the listener knows you are reasoning from what you see.",
         ],
         examples: [
@@ -436,9 +436,9 @@ export const KO_B1_U14: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A colleague asks your opinion of the new intern. You think she's good. What do you say?",
-            options: ["일을 잘하는 것 같아요.", "일을 잘하나 봐요.", "일을 잘해 보여요.", "일을 잘할 텐데요."],
+            options: ["일을 잘하는 것 같아요.", "일을 잘하나 봐요.", "일을 잘할걸 그랬어요.", "일을 잘할 텐데요."],
             correctIndex: 0,
-            explanation: "An opinion is a soft guess: -는 것 같다. 잘하나 봐요 sounds as if you'd only just noticed a clue, and 보이다 only goes with adjectives.",
+            explanation: "An opinion is a soft guess: -는 것 같다. 잘하나 봐요 sounds as if you'd only just noticed a clue, 잘할걸 그랬어요 is a regret (Unit 13), and 잘할 텐데요 sets up something unsaid.",
           },
         ],
       },
@@ -460,7 +460,7 @@ export const KO_B1_U14: Lesson[] = [
             prompt: "Translate into Korean (polite, to a doctor).",
             source: "I think I have a cold. My throat hurts.",
             answer: "감기에 걸린 것 같아요. 목이 아파요.",
-            altAnswers: ["감기 걸린 것 같아요. 목이 아파요.", "감기에 걸린 것 같습니다. 목이 아픕니다.", "저 감기에 걸린 것 같아요. 목이 아파요.", "감기에 걸린 것 같아요. 목이 좀 아파요."],
+            altAnswers: ["감기 걸린 것 같아요. 목이 아파요.", "저 감기에 걸린 것 같아요. 목이 아파요.", "감기에 걸린 것 같아요. 목이 좀 아파요."],
             explanation: "A plain statement about yourself: 걸린 것 같아요. 걸렸나 봐요 would sound like you'd only just found out.",
           },
           {
@@ -571,7 +571,7 @@ export const KO_B1_U14: Lesson[] = [
         source: "It's probably going to snow tomorrow.",
         answer: "내일 눈이 올 것 같아요.",
         altAnswers: ["내일은 눈이 올 것 같아요.", "내일 아마 눈이 올 것 같아요.", "내일 아마 눈이 올 거예요.", "아마 내일 눈이 올 거예요.", "내일은 아마 눈이 올 거예요.", "내일 눈이 오겠어요."],
-        explanation: "A future guess: 올 것 같아요 or 아마 올 거예요. -나 보다 can't look ahead.",
+        explanation: "A future guess: 올 것 같아요 or 아마 올 거예요. -나 보다 isn't used for a plain guess about the future.",
       },
       {
         type: "dictation",
@@ -639,7 +639,7 @@ export const KO_B1_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean (polite, to a friend's face).",
+            prompt: "Translate into Korean (polite, to a colleague).",
             source: "You must be really busy. Thanks for coming.",
             answer: "많이 바쁠 텐데 와 줘서 고마워요.",
             altAnswers: ["많이 바쁠 텐데 와 주어서 고마워요.", "바쁠 텐데 와 줘서 고마워요.", "정말 바쁠 텐데 와 줘서 고마워요.", "많이 바쁠 텐데 와 줘서 정말 고마워요.", "많이 바쁠 텐데 와 줘서 감사해요.", "바쁠 텐데 와 줘서 정말 고마워요.", "많이 바쁘실 텐데 와 주셔서 감사해요.", "바쁘실 텐데 와 주셔서 감사합니다."],
@@ -674,7 +674,7 @@ export const KO_B1_U14: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "You must be hungry. Go ahead and eat.",
             answer: "배고플 텐데 먼저 드세요.",
-            altAnswers: ["배고플 텐데 먼저 먹어요.", "배고프실 텐데 먼저 드세요.", "배가 고플 텐데 먼저 드세요.", "배가 고프실 텐데 먼저 드세요.", "배고플 텐데 먼저 드실래요?", "배고플 텐데 먼저 드시세요."],
+            altAnswers: ["배고플 텐데 먼저 먹어요.", "배고프실 텐데 먼저 드세요.", "배가 고플 텐데 먼저 드세요.", "배가 고프실 텐데 먼저 드세요.", "배고플 텐데 먼저 드실래요?"],
             explanation: "The guess about the listener's hunger sets up the offer: 배고플 텐데 먼저 드세요.",
           },
           {
@@ -798,9 +798,9 @@ export const KO_B1_U14: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your friend wants to order the spiciest dish for her young kids. How do you gently warn her?",
-            options: ["아이들한테는 좀 매울 텐데요.", "아이들한테는 좀 매운가 봐요.", "아이들한테는 좀 매워 보여요.", "아이들한테는 좀 매울 테니까요."],
+            options: ["아이들한테는 좀 매울 텐데요.", "아이들한테는 좀 매운가 봐요.", "아이들한테는 좀 매워 보여요.", "아이들한테는 좀 매울걸 그랬어요."],
             correctIndex: 0,
-            explanation: "-(으)ㄹ 텐데요 voices a concern softly. 매운가 봐요 would be a conclusion from some clue.",
+            explanation: "-(으)ㄹ 텐데요 voices a concern softly. 매운가 봐요 would be a conclusion from some clue, 매워 보여요 comments on looks, and 매울걸 그랬어요 is a regret.",
           },
         ],
       },
@@ -1302,7 +1302,7 @@ export const KO_B1_U14: Lesson[] = [
         en: "That job? [I'll do it].",
         sentence: "그 일요? ___.",
         answer: "제가 할게요",
-        altAnswers: ["제가 하겠습니다", "제가 할게"],
+        altAnswers: ["제가 하겠습니다"],
         explanation: "A promise is -(으)ㄹ게요. 제가 할걸요 would be a guess, and an odd one, about yourself.",
       },
       {
@@ -1932,7 +1932,7 @@ export const KO_B1_U14: Lesson[] = [
             prompt: "Fix the mistake: 제가 할걸요 as a promise. Translate into Korean (polite): I'll do it.",
             source: "I'll do it.",
             answer: "제가 할게요.",
-            altAnswers: ["제가 하겠습니다.", "그건 제가 할게요.", "그거 제가 할게요."],
+            altAnswers: ["그건 제가 할게요.", "그거 제가 할게요."],
             explanation: "A promise is -(으)ㄹ게요. -(으)ㄹ걸요 is a guess.",
           },
         ],
