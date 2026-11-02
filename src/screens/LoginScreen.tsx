@@ -99,8 +99,9 @@ const styles = StyleSheet.create({
   wordmark: {
     fontFamily: "Pacifico_400Regular",
     fontSize: 44,
-    lineHeight: 72,
-    paddingHorizontal: 12,
+    lineHeight: 80,
+    paddingHorizontal: 18,
+    paddingBottom: 4,
     color: "#8B0000",
   },
   tagline: { fontSize: 14, color: "#2A151399", marginTop: 6 },
