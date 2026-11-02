@@ -5530,15 +5530,18 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "a2d-speed-round-a2-traps",
     "Speed Round: The 10 Biggest Elementary Traps",
     "The mistakes Elementary learners make most, in one fast round: fue (ser/ir), lo vs. le, por vs. para, era vs. fue, hizo, dijeron, más mayor, se lo, nadie + no and gustan.",
-    "6 min",
+    "7 min",
     [
       sec(
-        "Traps 1 to 5: fue, lo or le, por or para, era, hizo",
+        "Traps 1 and 2: fue, lo or le",
         [
           "Speed round: these are the mistakes Elementary learners make most. Decide fast, but by the rule.",
-          "Remember the rule behind each trap. 1) Fue is both ser and ir in the preterite: context decides. 2) Lo / la for the person or thing acted on, le for the person who receives (dar, decir, contar algo a alguien). 3) Para for end points, por for cause, route, exchange (by train is en tren, not por tren). 4) Era describes, fue sums up a finished event. 5) Hacer → hizo. 6) J-stems drop the i: dijeron, trajeron. 7) Mayor, menor, mejor, peor are already comparatives: no más. 8) Le / les + lo / la → se lo / se la. 9) A negative word before the verb drops no. 10) Gustar agrees with the thing liked: gustan with plurals.",
+          "Remember the rule behind each trap. 1) Fue is both ser and ir in the preterite: context decides. 2) Lo / la for the person or thing acted on, le for the person who receives (dar, decir, contar algo a alguien).",
         ],
-        [],
+        [
+          ["Mi padre fue a Lima en 2015.", "My father went to Lima in 2015. (fue + a + a place: ir)"],
+          ["¿A Marta? La invité y le mandé la dirección.", "Marta? I invited her and sent her the address. (la: she is invited; le: she receives the address)"],
+        ],
         [
           mc(
             "«La fiesta fue un desastre.» Which verb is fue here?",
@@ -5546,16 +5549,42 @@ export const A2_DRILLS: AnchoredLesson[] = [
             0,
             "Fue is the preterite of both ser and ir, so context decides. A party being a disaster is what it was, summed up as a finished event: ser. Ir would need a destination with a (fue a casa)."
           ),
+          mc(
+            "«¿A tus padres? ___ escribí una carta.»",
+            ["Les", "Los", "Las", "Se"],
+            0,
+            "Escribir algo a alguien: the letter is what gets written and your parents receive it, so they take the indirect pronoun les. Los / las would make your parents the thing written, and se only replaces les when lo / la follows."
+          ),
         ]
       ),
       sec(
-        "Traps 6 to 10: dijeron, mayor, se lo, nadie, gustan",
+        "Traps 3 to 5: por or para, era or fue, hizo",
         [
-          "6) J-stems drop the i: dijeron, trajeron. 7) Mayor, menor, mejor, peor are already comparatives: no más. 8) Le / les + lo / la → se lo / se la. 9) A negative word before the verb drops no. 10) Gustar agrees with the thing liked: gustan with plurals.",
+          "3) Para for end points, por for cause, route, exchange (by train is en tren, not por tren). 4) Era describes, fue sums up a finished event. 5) Hacer → hizo.",
         ],
         [
-          ["Me gustan los perros, pero no tengo ninguno.", "I like dogs, but I don't have any. (gustan: los perros is plural)"],
-          ["¿Las entradas? Se las di a Pablo.", "The tickets? I gave them to Pablo. (le + las → se las)"],
+          ["Gracias por la ayuda; este regalo es para ti.", "Thanks for the help; this present is for you. (por: cause; para: end point)"],
+          ["El hotel era antiguo, pero el viaje fue perfecto.", "The hotel was old, but the trip was perfect. (era describes; fue sums up)"],
+          ["Mi tía hizo una paella enorme.", "My aunt made a huge paella. (hacer → hizo)"],
+        ],
+        [
+          mc(
+            "\"I'm going to Seville by train.\"",
+            ["Voy a Sevilla en tren.", "Voy a Sevilla por tren.", "Voy a Sevilla para tren.", "Voy por Sevilla en tren."],
+            0,
+            "A means of transport takes en: en tren, en autobús. Por tren is the classic trap, para tren would make the train a goal, and por Sevilla means through Seville, not to it."
+          ),
+          fb("Complete (hacer, preterite).", "Ayer Lucía ___ los deberes en una hora.", "hizo", "Hacer has the irregular preterite stem hic-, and in the él / ella form the c becomes z: hizo, with no accent. Hació does not exist."),
+        ]
+      ),
+      sec(
+        "Traps 6 and 7: dijeron, mayor",
+        [
+          "6) J-stems drop the i: dijeron, trajeron. 7) Mayor, menor, mejor, peor are already comparatives: no más.",
+        ],
+        [
+          ["Mis amigos trajeron la comida.", "My friends brought the food. (traer has a j-stem: trajeron)"],
+          ["Este café es mejor que el otro.", "This coffee is better than the other one. (mejor, never más mejor)"],
         ],
         [
           fb("Quick!", "Ellos me ___ la verdad. (decir, preterite)", "dijeron", "Decir has a j-stem in the preterite (dij-), and j-stems drop the i in the ellos ending: dijeron, not dijieron."),
@@ -5565,6 +5594,26 @@ export const A2_DRILLS: AnchoredLesson[] = [
             0,
             "Mayor already means \"older\", so it never takes más. Than is que, and after que comes the subject pronoun yo."
           ),
+        ]
+      ),
+      sec(
+        "Traps 8 to 10: se lo, nadie, gustan",
+        [
+          "8) Le / les + lo / la → se lo / se la. 9) A negative word before the verb drops no. 10) Gustar agrees with the thing liked: gustan with plurals.",
+        ],
+        [
+          ["Me gustan los perros, pero no tengo ninguno.", "I like dogs, but I don't have any. (gustan: los perros is plural)"],
+          ["¿Las entradas? Se las di a Pablo.", "The tickets? I gave them to Pablo. (le + las → se las)"],
+          ["Nadie llamó esta mañana.", "Nobody called this morning. (nadie comes first: no extra no)"],
+        ],
+        [
+          mc(
+            "\"Nobody understood the question.\"",
+            ["Nadie entendió la pregunta.", "Nadie no entendió la pregunta.", "No nadie entendió la pregunta."],
+            0,
+            "When the negative word nadie stands before the verb, it needs no extra no. No is only added when nadie comes after the verb (no la entendió nadie), and it never goes in front of nadie."
+          ),
+          fb("Complete (gustar).", "A mi hermano le ___ los videojuegos.", "gustan", "Gustar agrees with the thing liked, not with the person: los videojuegos is plural, so gustan. Le only shows who likes them."),
         ]
       ),
     ],

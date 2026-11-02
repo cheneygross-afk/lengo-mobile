@@ -13478,10 +13478,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La riqueza y el riesgo de la variación léxica",
+        "heading": "Una lengua policéntrica",
         "body": [
-          "El español es, ante todo, una lengua policéntrica: no existe un único centro de autoridad léxica, sino más de veinte países que aportan su propio vocabulario cotidiano sin que ninguno tenga mayor validez que otro. Un mismo objeto puede recibir nombres completamente distintos según la región: el vehículo particular es carro en buena parte de Centroamérica y el Caribe, coche en España y auto en el Cono Sur, y ninguna de las tres opciones es más correcta que las demás.",
-          "Para quien domina la gramática pero no esta variación, el riesgo no es la incomprensión total, sino el malentendido parcial: una palabra perfectamente normal en un país puede sonar anticuada, graciosa o incluso vulgar en otro. Reconocer esta riqueza como un rasgo natural de la lengua, y no como una fuente de confusión que hay que evitar, es el primer paso hacia una competencia léxica verdaderamente avanzada."
+          "El español es, ante todo, una lengua policéntrica: no existe un único centro de autoridad léxica, sino más de veinte países que aportan su propio vocabulario cotidiano sin que ninguno tenga mayor validez que otro. Un mismo objeto puede recibir nombres completamente distintos según la región: el vehículo particular es carro en buena parte de Centroamérica y el Caribe, coche en España y auto en el Cono Sur, y ninguna de las tres opciones es más correcta que las demás."
         ],
         "examples": [
           {
@@ -13491,18 +13490,6 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "el vehículo particular",
             "en": "el automóvil de uso personal, llamado carro, coche o auto según la región"
-          },
-          {
-            "es": "el malentendido parcial",
-            "en": "una confusión menor que surge cuando una palabra se interpreta de forma distinta a la esperada"
-          },
-          {
-            "es": "sonar anticuada",
-            "en": "dar la impresión de pertenecer a una época pasada"
-          },
-          {
-            "es": "una competencia léxica avanzada",
-            "en": "la capacidad de manejar con soltura el vocabulario propio de distintas variedades de una lengua"
           },
           {
             "es": "carecer de mayor validez",
@@ -13525,10 +13512,43 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La regla: cambiar de norma sin cambiar de lengua",
+        "heading": "El riesgo: el malentendido parcial",
         "body": [
-          "Como el español es policéntrico, pasar de una variedad a otra es sobre todo sustituir palabras, no corregir errores: la gramática se mantiene y cambia el léxico. Para hacerlo bien hay que cambiar todas las piezas del mismo campo (el vehículo, el aparcamiento y el verbo aparcar van juntos) y ajustar la concordancia cuando la palabra nueva tiene otro género (el móvil → el celular, pero la micro).",
-          "Lo que no varía es la gramática general: la negación (ningún país tiene, no «ningún país no tiene»), el contraste «no A, sino B» o el modo tras «cuando» se rigen igual en Madrid, Bogotá o Montevideo."
+          "Para quien domina la gramática pero no esta variación, el riesgo no es la incomprensión total, sino el malentendido parcial: una palabra perfectamente normal en un país puede sonar anticuada, graciosa o incluso vulgar en otro. Reconocer esta riqueza como un rasgo natural de la lengua, y no como una fuente de confusión que hay que evitar, es el primer paso hacia una competencia léxica verdaderamente avanzada."
+        ],
+        "examples": [
+          {
+            "es": "el malentendido parcial",
+            "en": "una confusión menor que surge cuando una palabra se interpreta de forma distinta a la esperada"
+          },
+          {
+            "es": "sonar anticuada",
+            "en": "dar la impresión de pertenecer a una época pasada"
+          },
+          {
+            "es": "una competencia léxica avanzada",
+            "en": "la capacidad de manejar con soltura el vocabulario propio de distintas variedades de una lengua"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la idea a un caso nuevo. Una madrileña dice en Buenos Aires «Voy a coger un taxi» y sus amigos se ríen. ¿Qué ha pasado?",
+            "options": [
+              "Un malentendido parcial: la frase se entiende, pero la palabra suena vulgar allí",
+              "Una incomprensión total: nadie entiende lo que quiere decir",
+              "Un error gramatical: el verbo no concuerda con el sujeto",
+              "Un uso incorrecto: «coger» no existe en el español de Argentina"
+            ],
+            "correctIndex": 0,
+            "explanation": "El riesgo de la variación no es la incomprensión total, sino el malentendido parcial: «coger» es neutro en España, pero en Argentina tiene un sentido vulgar, así que la frase se entiende y aun así suena graciosa. No hay error gramatical, y la palabra existe en Argentina: lo que cambia es su connotación."
+          }
+        ]
+      },
+      {
+        "heading": "La regla: cambiar de norma es cambiar palabras",
+        "body": [
+          "Como el español es policéntrico, pasar de una variedad a otra es sobre todo sustituir palabras, no corregir errores: la gramática se mantiene y cambia el léxico. Para hacerlo bien hay que cambiar todas las piezas del mismo campo (el vehículo, el aparcamiento y el verbo aparcar van juntos) y ajustar la concordancia cuando la palabra nueva tiene otro género (el móvil → el celular, pero la micro)."
         ],
         "examples": [
           {
@@ -13558,6 +13578,26 @@ const C1_BASE_LESSONS: Lesson[] = [
             "explanation": "En Colombia se dice «celular» y «dañarse» por «estropearse»; la estructura «se me…» es la misma. «La móvil» cambia mal el género, la tercera opción cambia el sentido y la cuarta añade una doble negación incorrecta."
           }
         ]
+      },
+      {
+        "heading": "Lo que no cambia: la gramática",
+        "body": [
+          "Lo que no varía es la gramática general: la negación (ningún país tiene, no «ningún país no tiene»), el contraste «no A, sino B» o el modo tras «cuando» se rigen igual en Madrid, Bogotá o Montevideo."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Adaptas a Montevideo la frase «No cogí el coche, sino el autobús». ¿Qué versión mantiene bien la gramática?",
+            "options": [
+              "No tomé el auto, sino el ómnibus.",
+              "No tomé el auto, sino que el ómnibus.",
+              "No tomé el auto, pero el ómnibus.",
+              "Ningún auto no tomé, sino el ómnibus."
+            ],
+            "correctIndex": 0,
+            "explanation": "Solo cambia el léxico (en Uruguay: tomar, auto, ómnibus); el contraste «no A, sino B» se rige igual en todas partes. «Sino que» solo va ante un verbo conjugado, «pero» no corrige una negación y «ningún… no» antepuesto es una doble negación incorrecta en cualquier país."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -13584,10 +13624,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "La regla: un objeto, varios nombres",
+        "heading": "Primera dirección: un objeto, varios nombres",
         "body": [
-          "La variación léxica funciona en dos direcciones, y conviene distinguirlas. La primera es la más visible: un mismo objeto recibe nombres distintos según el país. Las palomitas de maíz del cine son palomitas en España, pochoclo en Argentina, cabritas en Chile y canchita en Perú; el autobús urbano es guagua en Cuba y Canarias, camión en buena parte de México, colectivo en Argentina y micro en Chile.",
-          "¿Por qué pasa? El español se asentó en territorios separados por miles de kilómetros, cada uno en contacto con otras lenguas (canchita viene del quechua) y con su propia historia; cada zona fijó su palabra y ninguna es más correcta que las demás. Por eso la estrategia no es buscar «la palabra buena», sino identificar la región por el contexto (Lima, Santiago, La Habana) y elegir la palabra local. Estos casos no son una curiosidad menor: el mismo patrón se repite en decenas de campos semánticos cotidianos (la alimentación, el transporte, la ropa, los objetos domésticos)."
+          "La variación léxica funciona en dos direcciones, y conviene distinguirlas. La primera es la más visible: un mismo objeto recibe nombres distintos según el país. Las palomitas de maíz del cine son palomitas en España, pochoclo en Argentina, cabritas en Chile y canchita en Perú; el autobús urbano es guagua en Cuba y Canarias, camión en buena parte de México, colectivo en Argentina y micro en Chile."
         ],
         "examples": [
           {
@@ -13601,14 +13640,6 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "El colectivo de las ocho siempre viene lleno.",
             "en": "The eight o'clock bus is always full. (Argentina: el colectivo)"
-          },
-          {
-            "es": "un campo semántico",
-            "en": "un conjunto de palabras de un mismo ámbito de significado (alimentación, transporte…)"
-          },
-          {
-            "es": "una curiosidad menor",
-            "en": "un dato llamativo pero de poca importancia práctica"
           }
         ],
         "checkpoint": [
@@ -13627,10 +13658,39 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La trampa: una palabra, varios objetos",
+        "heading": "Por qué pasa y cómo elegir la palabra",
         "body": [
-          "La segunda dirección es la peligrosa: una palabra que parece idéntica en dos países designa cosas distintas. Guagua es el autobús en Cuba y Canarias, pero en Chile y los países andinos significa bebé (del quechua wawa). Los dos significados no tienen relación: es una coincidencia formal, dos palabras de origen distinto que se escriben igual.",
-          "La trampa es que aquí no notas que no has entendido: reconoces la palabra y le das tu significado. La regla práctica: cuando una palabra conocida aparece en un contexto que no encaja («la guagua se despertó llorando»), sospecha un segundo sentido regional en lugar de forzar el tuyo."
+          "¿Por qué pasa? El español se asentó en territorios separados por miles de kilómetros, cada uno en contacto con otras lenguas (canchita viene del quechua) y con su propia historia; cada zona fijó su palabra y ninguna es más correcta que las demás. Por eso la estrategia no es buscar «la palabra buena», sino identificar la región por el contexto (Lima, Santiago, La Habana) y elegir la palabra local. Estos casos no son una curiosidad menor: el mismo patrón se repite en decenas de campos semánticos cotidianos (la alimentación, el transporte, la ropa, los objetos domésticos)."
+        ],
+        "examples": [
+          {
+            "es": "un campo semántico",
+            "en": "un conjunto de palabras de un mismo ámbito de significado (alimentación, transporte…)"
+          },
+          {
+            "es": "una curiosidad menor",
+            "en": "un dato llamativo pero de poca importancia práctica"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un turista español en Lima comenta: «Aquí lo dicen mal: es palomitas, no canchita». Según la regla, ¿qué hay que responderle?",
+            "options": [
+              "Que ninguna forma es más correcta: cada zona fijó su palabra y en Lima lo local es canchita",
+              "Que tiene razón, porque la palabra de España es la norma para todos",
+              "Que canchita es más correcta, porque viene del quechua",
+              "Que conviene evitar las dos y decir solo «maíz»"
+            ],
+            "correctIndex": 0,
+            "explanation": "El español se asentó en zonas separadas, cada una fijó su palabra y ninguna es más correcta que las demás; la estrategia es identificar la región y usar la palabra local. España no es la norma de todos, y el origen quechua tampoco hace a canchita «mejor»: solo explica de dónde viene."
+          }
+        ]
+      },
+      {
+        "heading": "Segunda dirección: una palabra, varios objetos",
+        "body": [
+          "La segunda dirección es la peligrosa: una palabra que parece idéntica en dos países designa cosas distintas. Guagua es el autobús en Cuba y Canarias, pero en Chile y los países andinos significa bebé (del quechua wawa). Los dos significados no tienen relación: es una coincidencia formal, dos palabras de origen distinto que se escriben igual."
         ],
         "examples": [
           {
@@ -13645,6 +13705,26 @@ const C1_BASE_LESSONS: Lesson[] = [
             "es": "una coincidencia formal",
             "en": "dos palabras que suenan o se escriben igual sin compartir significado"
           }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según la regla, ¿por qué «guagua» significa «autobús» en Cuba y «bebé» en Chile?",
+            "options": [
+              "Porque son dos palabras de origen distinto que se escriben igual",
+              "Porque los chilenos cambiaron a propósito el sentido cubano",
+              "Porque una de las dos es una falta de ortografía",
+              "Porque «bebé» es un sentido figurado de «autobús»"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es una coincidencia formal: la guagua chilena viene del quechua wawa y no tiene relación con la cubana. No es un cambio deliberado, ni un error ortográfico, ni una metáfora: los dos sentidos no están relacionados."
+          }
+        ]
+      },
+      {
+        "heading": "La trampa: crees que has entendido",
+        "body": [
+          "La trampa es que aquí no notas que no has entendido: reconoces la palabra y le das tu significado. La regla práctica: cuando una palabra conocida aparece en un contexto que no encaja («la guagua se despertó llorando»), sospecha un segundo sentido regional en lugar de forzar el tuyo."
         ],
         "checkpoint": [
           {
@@ -13772,10 +13852,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Cómo comentar las diferencias: designar, llamarse, resultar",
+        "heading": "Tres construcciones: designar, llamarse, resultar",
         "body": [
-          "Para hablar de la variación léxica con precisión no basta con «en Chile dicen…». Tres construcciones hacen el trabajo, y cada una tiene su gramática. Designar pone la palabra como sujeto y el objeto como complemento: «En Chile, micro designa el autobús urbano». Llamarse pone el objeto como sujeto, así que el verbo concuerda con él: «En Chile las palomitas se llaman cabritas» (plural, porque el sujeto es «las palomitas»). Resultar + adjetivo valora el hecho, y el adjetivo concuerda con el sujeto: «Este contraste resulta proverbial» / «Estos contrastes resultan proverbiales».",
-          "¿Por qué importa? Porque en un texto C1 elegir la construcción es elegir el foco: designar habla de la palabra; llamarse, de la cosa; resultar, de tu valoración. Y hace falta una atención fina (atención que capta matices) para mantener la concordancia: «hace falta» va con un sustantivo singular sin preposición («hace falta una atención fina»), y algo «resulta proverbial» cuando todo el mundo lo cita como ejemplo."
+          "Para hablar de la variación léxica con precisión no basta con «en Chile dicen…». Tres construcciones hacen el trabajo, y cada una tiene su gramática. Designar pone la palabra como sujeto y el objeto como complemento: «En Chile, micro designa el autobús urbano». Llamarse pone el objeto como sujeto, así que el verbo concuerda con él: «En Chile las palomitas se llaman cabritas» (plural, porque el sujeto es «las palomitas»). Resultar + adjetivo valora el hecho, y el adjetivo concuerda con el sujeto: «Este contraste resulta proverbial» / «Estos contrastes resultan proverbiales»."
         ],
         "examples": [
           {
@@ -13791,41 +13870,11 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "These examples have become proverbial. (resultan… proverbiales: plural)"
           },
           {
-            "es": "resultar proverbial",
-            "en": "haberse vuelto tan conocido que se cita como ejemplo habitual"
-          },
-          {
-            "es": "una atención fina",
-            "en": "un grado de cuidado y precisión superior al habitual"
-          },
-          {
             "es": "designar un objeto",
             "en": "nombrar o referirse a una cosa mediante una palabra determinada"
           }
         ],
         "checkpoint": [
-          {
-            "type": "multi-select",
-            "question": "¿Cuáles de las siguientes afirmaciones sobre la variación léxica regional son correctas según el texto?",
-            "options": [
-              "La palabra guagua puede significar tanto autobús como bebé según el país",
-              "Todas las palabras que varían por región tienen un significado idéntico en todas partes",
-              "Las palomitas de maíz reciben distintos nombres según el país",
-              "La variación léxica se limita únicamente al vocabulario del transporte"
-            ],
-            "correctIndexes": [
-              0,
-              2
-            ],
-            "explanation": "El texto confirma la doble acepción de guagua y la variación en el nombre de las palomitas de maíz; en cambio, aclara que hay palabras con significados distintos según la región y que la variación abarca muchos campos, no solo el transporte."
-          },
-          {
-            "type": "fill-blank",
-            "prompt": "Completa con el verbo adecuado (caso nuevo: Venezuela).",
-            "sentence": "En Venezuela, la palabra «caraotas» ___ los frijoles negros.",
-            "answer": "designa",
-            "explanation": "La palabra es el sujeto («la palabra caraotas») y lo nombrado es el complemento: designar, en singular porque el sujeto es singular. Con «se llaman» el orden sería otro: «los frijoles negros se llaman caraotas»."
-          },
           {
             "type": "multiple-choice",
             "question": "«Los distintos nombres del aguacate ya ___ proverbiales entre los profesores.»",
@@ -13837,6 +13886,50 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Resultar + adjetivo concuerda con el sujeto, que es plural («los distintos nombres»): resultan proverbiales. «Resulta» no concuerda; «resulten» (subjuntivo) no tiene inductor que lo pida, y el gerundio no puede ser el verbo principal."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con el verbo adecuado (caso nuevo: Venezuela).",
+            "sentence": "En Venezuela, la palabra «caraotas» ___ los frijoles negros.",
+            "answer": "designa",
+            "explanation": "La palabra es el sujeto («la palabra caraotas») y lo nombrado es el complemento: designar, en singular porque el sujeto es singular. Con «se llaman» el orden sería otro: «los frijoles negros se llaman caraotas»."
+          }
+        ]
+      },
+      {
+        "heading": "Elegir el foco",
+        "body": [
+          "¿Por qué importa? Porque en un texto C1 elegir la construcción es elegir el foco: designar habla de la palabra; llamarse, de la cosa; resultar, de tu valoración. Y hace falta una atención fina (atención que capta matices) para mantener la concordancia: «hace falta» va con un sustantivo singular sin preposición («hace falta una atención fina»), y algo «resulta proverbial» cuando todo el mundo lo cita como ejemplo."
+        ],
+        "examples": [
+          {
+            "es": "resultar proverbial",
+            "en": "haberse vuelto tan conocido que se cita como ejemplo habitual"
+          },
+          {
+            "es": "una atención fina",
+            "en": "un grado de cuidado y precisión superior al habitual"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Quieres hablar de tu valoración, no de la palabra ni de la cosa. ¿Qué frase eliges? (caso nuevo: chompa, «jersey» en Perú)",
+            "options": [
+              "Este contraste resulta muy llamativo.",
+              "En Perú, chompa designa el jersey.",
+              "En Perú los jerséis se llaman chompas.",
+              "En Perú dicen chompa al jersey."
+            ],
+            "correctIndex": 0,
+            "explanation": "Resultar + adjetivo expresa tu valoración del hecho. Designar pone el foco en la palabra (chompa es el sujeto) y llamarse en la cosa (los jerséis); «dicen» solo informa, sin valorar."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con la forma correcta de «hacer falta».",
+            "sentence": "Para no confundir estas palabras ___ mucha atención.",
+            "answer": "hace falta",
+            "explanation": "«Hace falta» va con un sustantivo sin preposición y concuerda con él: «mucha atención» es singular, así que hace falta. Con un plural sería «hacen falta muchos ejemplos»."
           }
         ]
       }
@@ -13911,6 +14004,21 @@ const C1_BASE_LESSONS: Lesson[] = [
           "En Chile, guagua designa el bebé."
         ],
         "explanation": "El dato es falso: en Chile guagua designa al bebé (del quechua wawa); el autobús urbano es la micro. Guagua es autobús en Cuba y Canarias."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes afirmaciones sobre la variación léxica regional son correctas según el texto?",
+        "options": [
+          "La palabra guagua puede significar tanto autobús como bebé según el país",
+          "Todas las palabras que varían por región tienen un significado idéntico en todas partes",
+          "Las palomitas de maíz reciben distintos nombres según el país",
+          "La variación léxica se limita únicamente al vocabulario del transporte"
+        ],
+        "correctIndexes": [
+          0,
+          2
+        ],
+        "explanation": "El texto confirma la doble acepción de guagua y la variación en el nombre de las palomitas de maíz; en cambio, aclara que hay palabras con significados distintos según la región y que la variación abarca muchos campos, no solo el transporte."
       }
     ]
   },
@@ -13925,9 +14033,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La regla: neutra aquí, malsonante allí",
         "body": [
-          "La regla: una palabra perfectamente neutra en un país puede ser malsonante en otro, y no hay forma de deducirlo por la palabra misma. Por eso la estrategia no es adivinar, sino sustituir: cuando una palabra tiene un sentido delicado en alguna zona, se usa la variante que es neutra en todas (tomar o agarrar en lugar de coger; ayudante de cocina en lugar de pinche).",
-          "Un fenómeno particularmente delicado es el de las palabras que resultan neutras en un país y malsonantes o incluso vulgares en otro, sin que exista ninguna relación etimológica que lo explique de forma evidente. El verbo coger, por ejemplo, significa simplemente tomar o agarrar en España, Colombia y buena parte del Caribe, pero en México, Argentina, Uruguay, Venezuela y gran parte de Centroamérica posee una connotación sexual explícita que lo vuelve inapropiado en el habla cotidiana, donde se prefiere agarrar o tomar.",
-          "Este tipo de contraste no es anecdótico: puede generar situaciones incómodas para quien viaja o se comunica con hablantes de otra región sin conocer el matiz. La estrategia más prudente para quien domina el español a un nivel avanzado no consiste en memorizar una lista exhaustiva de palabras prohibidas, sino en desarrollar una actitud de escucha atenta y, ante la duda, optar por la variante más neutra y menos marcada regionalmente."
+          "La regla: una palabra perfectamente neutra en un país puede ser malsonante en otro, y no hay forma de deducirlo por la palabra misma. Por eso la estrategia no es adivinar, sino sustituir: cuando una palabra tiene un sentido delicado en alguna zona, se usa la variante que es neutra en todas (tomar o agarrar en lugar de coger; ayudante de cocina en lugar de pinche)."
         ],
         "examples": [
           {
@@ -13937,7 +14043,29 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Agarrá tu abrigo, que nos vamos. (Argentina)",
             "en": "Grab your coat, we're leaving. (agarrar en lugar de coger)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la estrategia a una palabra nueva. Redactas una oferta de empleo para un restaurante de Guadalajara (México). ¿Qué expresión es la segura?",
+            "options": [
+              "ayudante de cocina",
+              "pinche de cocina",
+              "pinche cocinero",
+              "pinche"
+            ],
+            "correctIndex": 0,
+            "explanation": "En España un pinche es el ayudante de cocina, pero en México pinche es un adjetivo grosero («maldito», «de mala calidad»). La regla es sustituir por la variante neutra en todas partes: ayudante de cocina. Las otras tres opciones contienen la palabra delicada."
+          }
+        ]
+      },
+      {
+        "heading": "El caso de coger",
+        "body": [
+          "Un fenómeno particularmente delicado es el de las palabras que resultan neutras en un país y malsonantes o incluso vulgares en otro, sin que exista ninguna relación etimológica que lo explique de forma evidente. El verbo coger, por ejemplo, significa simplemente tomar o agarrar en España, Colombia y buena parte del Caribe, pero en México, Argentina, Uruguay, Venezuela y gran parte de Centroamérica posee una connotación sexual explícita que lo vuelve inapropiado en el habla cotidiana, donde se prefiere agarrar o tomar."
+        ],
+        "examples": [
           {
             "es": "una palabra malsonante",
             "en": "una palabra que resulta chocante o inapropiada por su connotación"
@@ -13949,7 +14077,41 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "carecer de relación etimológica",
             "en": "no compartir un mismo origen histórico que explique una coincidencia"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿En cuál de estos países «coger el autobús» es una frase neutra?",
+            "options": [
+              "Colombia",
+              "México",
+              "Argentina",
+              "Venezuela"
+            ],
+            "correctIndex": 0,
+            "explanation": "Coger es neutro (tomar, agarrar) en España, Colombia y buena parte del Caribe. En México, Argentina y Venezuela tiene una connotación sexual y se prefiere tomar o agarrar."
           },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la oración con el verbo más neutro para evitar el matiz sensible que adquiere coger en varios países.",
+            "sentence": "¿Me ayudas a ___ esa maleta del estante?",
+            "answer": "agarrar",
+            "altAnswers": [
+              "tomar",
+              "bajar"
+            ],
+            "explanation": "En México, Argentina y otros países de América se prefiere agarrar o tomar en lugar de coger, que allí posee una connotación sexual explícita (en España, Colombia o el Caribe coger es neutro).",
+            "hint": "Piensa en un verbo neutro y ampliamente aceptado en toda Hispanoamérica."
+          }
+        ]
+      },
+      {
+        "heading": "La estrategia: escucha atenta y variante neutra",
+        "body": [
+          "Este tipo de contraste no es anecdótico: puede generar situaciones incómodas para quien viaja o se comunica con hablantes de otra región sin conocer el matiz. La estrategia más prudente para quien domina el español a un nivel avanzado no consiste en memorizar una lista exhaustiva de palabras prohibidas, sino en desarrollar una actitud de escucha atenta y, ante la duda, optar por la variante más neutra y menos marcada regionalmente."
+        ],
+        "examples": [
           {
             "es": "una situación incómoda",
             "en": "un momento embarazoso derivado de un malentendido social o lingüístico"
@@ -13965,28 +14127,16 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
-            "type": "fill-blank",
-            "prompt": "Completa la oración con el verbo más neutro para evitar el matiz sensible que adquiere coger en varios países.",
-            "sentence": "¿Me ayudas a ___ esa maleta del estante?",
-            "answer": "agarrar",
-            "altAnswers": [
-              "tomar",
-              "bajar"
-            ],
-            "explanation": "En México, Argentina y otros países de América se prefiere agarrar o tomar en lugar de coger, que allí posee una connotación sexual explícita (en España, Colombia o el Caribe coger es neutro).",
-            "hint": "Piensa en un verbo neutro y ampliamente aceptado en toda Hispanoamérica."
-          },
-          {
             "type": "multiple-choice",
-            "question": "Aplica la estrategia a una palabra nueva. Redactas una oferta de empleo para un restaurante de Guadalajara (México). ¿Qué expresión es la segura?",
+            "question": "Vas a dar una charla ante un público de varios países y dudas si una palabra es delicada en alguno de ellos. ¿Qué recomienda la regla?",
             "options": [
-              "ayudante de cocina",
-              "pinche de cocina",
-              "pinche cocinero",
-              "pinche"
+              "Optar por la variante más neutra y menos marcada",
+              "Usar la palabra de tu país, porque también es correcta",
+              "Memorizar antes una lista completa de palabras prohibidas",
+              "Usarla y explicar después su sentido si alguien se ríe"
             ],
             "correctIndex": 0,
-            "explanation": "En España un pinche es el ayudante de cocina, pero en México pinche es un adjetivo grosero («maldito», «de mala calidad»). La regla es sustituir por la variante neutra en todas partes: ayudante de cocina. Las otras tres opciones contienen la palabra delicada."
+            "explanation": "Ante la duda, la estrategia es elegir la variante neutra en todas las zonas, con una actitud de escucha atenta. Que tu palabra sea correcta en tu país no evita la situación incómoda, y el texto descarta memorizar listas exhaustivas."
           }
         ]
       }
@@ -14095,11 +14245,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La regla: elige la palabra según el público",
+        "heading": "La regla: ¿quién me va a leer?",
         "body": [
-          "La regla que ordena todas las estrategias es una pregunta: ¿quién me va a leer o escuchar? Si el público es mixto o desconocido (un correo a clientes de varios países, un vídeo, unos subtítulos), prioriza el término de mayor alcance geográfico: celular, computadora, autobús. Si estás en un país concreto, adopta la palabra local cuanto antes: pileta en Buenos Aires, carro en Bogotá. Y si no sabes qué significa una palabra, pregunta sin reparos. ¿Por qué funciona? Porque la palabra de mayor alcance no se equivoca con nadie, y la local muestra sensibilidad hacia la cultura de acogida.",
-          "Frente a esta diversidad, existen varias estrategias útiles para quien busca comunicarse con soltura en cualquier país hispanohablante. La primera consiste en priorizar, siempre que exista, el término de mayor alcance geográfico o el que se emplea en el llamado español neutro de los medios de comunicación internacionales, que suele resultar comprensible en todas partes aunque no sea el más idiomático en ningún lugar concreto.",
-          "La segunda estrategia consiste en adoptar rápidamente el vocabulario local una vez que se llega a un país determinado, mostrando así una sensibilidad hacia la cultura de acogida que suele valorarse positivamente. Finalmente, conviene aceptar que ningún hablante, ni siquiera nativo, domina todas las variantes léxicas del español; lo que distingue a un hablante avanzado no es conocerlas todas, sino saber reconocer cuándo una palabra puede generar un malentendido y preguntar sin reparos por su significado local."
+          "La regla que ordena todas las estrategias es una pregunta: ¿quién me va a leer o escuchar? Si el público es mixto o desconocido (un correo a clientes de varios países, un vídeo, unos subtítulos), prioriza el término de mayor alcance geográfico: celular, computadora, autobús. Si estás en un país concreto, adopta la palabra local cuanto antes: pileta en Buenos Aires, carro en Bogotá. Y si no sabes qué significa una palabra, pregunta sin reparos. ¿Por qué funciona? Porque la palabra de mayor alcance no se equivoca con nadie, y la local muestra sensibilidad hacia la cultura de acogida."
         ],
         "examples": [
           {
@@ -14113,11 +14261,59 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Perdón, ¿qué significa «chamba»? (en Lima)",
             "en": "Sorry, what does «chamba» mean? (preguntar sin reparos)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla. Grabas un tutorial para estudiantes de toda Latinoamérica. ¿Qué palabra eliges para «computer»?",
+            "options": [
+              "computadora",
+              "ordenador",
+              "compu",
+              "computador"
+            ],
+            "correctIndex": 0,
+            "explanation": "Público mixto americano → el término de mayor alcance: computadora. Ordenador es de España; compu es coloquial (Cono Sur), y computador se limita sobre todo a Colombia y Chile."
+          }
+        ]
+      },
+      {
+        "heading": "Primera estrategia: el término de mayor alcance",
+        "body": [
+          "Frente a esta diversidad, existen varias estrategias útiles para quien busca comunicarse con soltura en cualquier país hispanohablante. La primera consiste en priorizar, siempre que exista, el término de mayor alcance geográfico o el que se emplea en el llamado español neutro de los medios de comunicación internacionales, que suele resultar comprensible en todas partes aunque no sea el más idiomático en ningún lugar concreto."
+        ],
+        "examples": [
           {
             "es": "el alcance geográfico",
             "en": "la extensión territorial en la que una palabra o expresión se entiende o se usa"
           },
+          {
+            "es": "priorizar un término",
+            "en": "dar preferencia a una palabra frente a otras posibles opciones"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué ventaja y qué límite tiene el español neutro de los medios internacionales?",
+            "options": [
+              "Se entiende en todas partes, aunque no es el más idiomático en ningún lugar",
+              "Es el más idiomático en todos los países hispanohablantes",
+              "Solo se entiende bien en España y en México",
+              "Es la norma oficial y las variantes locales son incorrectas"
+            ],
+            "correctIndex": 0,
+            "explanation": "El término de mayor alcance resulta comprensible en todas partes, pero no es el más idiomático en ningún lugar concreto. Por eso no sustituye a la palabra local cuando estás en un país, y tampoco convierte en incorrectas las demás variantes."
+          }
+        ]
+      },
+      {
+        "heading": "Segunda estrategia: adoptar lo local y preguntar",
+        "body": [
+          "La segunda estrategia consiste en adoptar rápidamente el vocabulario local una vez que se llega a un país determinado, mostrando así una sensibilidad hacia la cultura de acogida que suele valorarse positivamente. Finalmente, conviene aceptar que ningún hablante, ni siquiera nativo, domina todas las variantes léxicas del español; lo que distingue a un hablante avanzado no es conocerlas todas, sino saber reconocer cuándo una palabra puede generar un malentendido y preguntar sin reparos por su significado local."
+        ],
+        "examples": [
           {
             "es": "la cultura de acogida",
             "en": "el entorno social y cultural del país en el que alguien se encuentra o se instala"
@@ -14129,10 +14325,6 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "mostrar sensibilidad",
             "en": "demostrar consideración y respeto hacia las costumbres de otra comunidad"
-          },
-          {
-            "es": "priorizar un término",
-            "en": "dar preferencia a una palabra frente a otras posibles opciones"
           }
         ],
         "checkpoint": [
@@ -14147,18 +14339,6 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 2,
             "explanation": "El texto concluye que ni siquiera los hablantes nativos dominan todas las variantes; lo distintivo de un nivel avanzado es la capacidad de detectar riesgos de malentendido y preguntar con naturalidad. Nadie conoce todas las variantes, evitar el léxico regional empobrece la comunicación y el término más formal no evita los malentendidos."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Aplica la regla. Grabas un tutorial para estudiantes de toda Latinoamérica. ¿Qué palabra eliges para «computer»?",
-            "options": [
-              "computadora",
-              "ordenador",
-              "compu",
-              "computador"
-            ],
-            "correctIndex": 0,
-            "explanation": "Público mixto americano → el término de mayor alcance: computadora. Ordenador es de España; compu es coloquial (Cono Sur), y computador se limita sobre todo a Colombia y Chile."
           }
         ]
       }
@@ -14263,23 +14443,14 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "La regla: cómo se negocia una palabra en la conversación",
+        "heading": "Tres pasos: eco, explicación, adaptación",
         "body": [
-          "Cuando una palabra local no te cierra (no te encaja), la conversación sigue casi siempre tres pasos. Primero, el eco con pregunta: repites la palabra con tono de duda («Perdón, ¿un colectivo?»). Después, el local explica con una fórmula general: «acá le decimos colectivo», «acá se dice pochoclo». Por último, te adaptas: «Ah, entonces tomamos el colectivo».",
-          "¿Por qué funciona? El eco señala que no has entendido sin acusar a nadie de hablar mal, y las fórmulas impersonales (se dice, le decimos) presentan la palabra como costumbre del lugar, no como «la correcta». Fíjate en la gramática: en «al autobús le decimos colectivo», le repite el complemento indirecto (al autobús); y para contar lo que creías antes se usa el imperfecto: «yo pensaba que acá se decía camión»."
+          "Cuando una palabra local no te cierra (no te encaja), la conversación sigue casi siempre tres pasos. Primero, el eco con pregunta: repites la palabra con tono de duda («Perdón, ¿un colectivo?»). Después, el local explica con una fórmula general: «acá le decimos colectivo», «acá se dice pochoclo». Por último, te adaptas: «Ah, entonces tomamos el colectivo»."
         ],
         "examples": [
           {
             "es": "—¿Vamos en micro? —Perdón, ¿en micro? —Sí, acá a los buses les decimos micros.",
             "en": "—Shall we go by bus? —Sorry, by micro? —Yes, here we call buses micros. (eco + explicación; Chile)"
-          },
-          {
-            "es": "Yo creía que en Lima se decía palomitas.",
-            "en": "I thought they said palomitas in Lima. (imperfecto para la creencia anterior)"
-          },
-          {
-            "es": "Con el tiempo le vas a agarrar la mano.",
-            "en": "In time you'll get the hang of it. (agarrarle la mano a algo: rioplatense)"
           }
         ],
         "checkpoint": [
@@ -14298,13 +14469,69 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "Por qué funciona, y su gramática",
+        "body": [
+          "¿Por qué funciona? El eco señala que no has entendido sin acusar a nadie de hablar mal, y las fórmulas impersonales (se dice, le decimos) presentan la palabra como costumbre del lugar, no como «la correcta». Fíjate en la gramática: en «al autobús le decimos colectivo», le repite el complemento indirecto (al autobús); y para contar lo que creías antes se usa el imperfecto: «yo pensaba que acá se decía camión»."
+        ],
+        "examples": [
+          {
+            "es": "Yo creía que en Lima se decía palomitas.",
+            "en": "I thought they said palomitas in Lima. (imperfecto para la creencia anterior)"
+          },
+          {
+            "es": "Con el tiempo le vas a agarrar la mano.",
+            "en": "In time you'll get the hang of it. (agarrarle la mano a algo: rioplatense)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Completa: «A las palomitas acá ___ decimos pochoclo.»",
+            "options": [
+              "les",
+              "las",
+              "le",
+              "los"
+            ],
+            "correctIndex": 0,
+            "explanation": "El pronombre repite el complemento indirecto «a las palomitas», que es plural: les decimos. «Las» y «los» serían complemento directo, y «le» no concuerda con el plural (aunque en el habla se oye mucho)."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Cuenta lo que creías antes (pensar).",
+            "sentence": "Yo ___ que en Chile se decía bus.",
+            "answer": "pensaba",
+            "explanation": "Para contar una creencia anterior que ahora corriges se usa el imperfecto: pensaba. El presente «pienso» diría que aún lo crees."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (1): el colectivo",
         "body": [
           "— Che, cuando lleguemos, ¿tomamos un colectivo o vamos caminando?",
           "— Perdón, ¿un colectivo? Yo pensé que acá se decía camión...",
           "— Ah, cierto, vos sos de México. Acá le decimos colectivo, aunque también se entiende bus.",
           "— Qué interesante. En mi país, si digo camión, todo el mundo entiende que es el transporte público, no un vehículo de carga.",
-          "— Y en Chile le dicen micro, y en España, autobús a secas. Cada país con lo suyo.",
+          "— Y en Chile le dicen micro, y en España, autobús a secas. Cada país con lo suyo."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En el diálogo, ¿qué hace la mexicana cuando oye «colectivo»?",
+            "options": [
+              "Repite la palabra con tono de duda: el eco con pregunta",
+              "Corrige a su amigo: en español se dice camión",
+              "Finge que entiende y cambia de tema",
+              "Pide que le hablen en inglés"
+            ],
+            "correctIndex": 0,
+            "explanation": "Es el primer paso de la negociación: «Perdón, ¿un colectivo?» repite la palabra con tono de duda. No corrige a nadie (camión no es «la palabra correcta»), y el amigo responde con la fórmula general «acá le decimos colectivo»."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): las palomitas",
+        "body": [
           "— Lo que más me costó al llegar fue lo de las palomitas. Pedí palomitas en el cine y la señora no entendió nada.",
           "— Claro, acá es pochoclo. Con el tiempo le vas agarrando la mano a estas cosas.",
           "— Sí, ya me di cuenta de que lo mejor es preguntar sin pena cuando algo no me cierra.",
@@ -14418,8 +14645,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El patrón: gentilicio + -ismo",
         "body": [
-          "La mitad de esta lista se construye con una sola regla: toma el gentilicio, quita la vocal final y añade -ismo. Mexicano → mexicanismo; chileno → chilenismo; peninsular → peninsularismo; caribeño → caribeñismo. El resultado es siempre masculino (un chilenismo) y designa una palabra o expresión propia de ese lugar. ¿Por qué -ismo? Porque es el sufijo que convierte una procedencia en una categoría: lo mismo vale para las lenguas de origen (anglicismo, del inglés; indigenismo, de una lengua indígena).",
-          "Hay dos excepciones útiles: lo que viene del francés es un galicismo (de galo, el nombre antiguo de los franceses) y lo que viene del inglés, un anglicismo (de anglo). Con la regla puedes formar palabras que no están en la lista: peruanismo, cubanismo, uruguayismo, arabismo."
+          "La mitad de esta lista se construye con una sola regla: toma el gentilicio, quita la vocal final y añade -ismo. Mexicano → mexicanismo; chileno → chilenismo; peninsular → peninsularismo; caribeño → caribeñismo. El resultado es siempre masculino (un chilenismo) y designa una palabra o expresión propia de ese lugar. ¿Por qué -ismo? Porque es el sufijo que convierte una procedencia en una categoría: lo mismo vale para las lenguas de origen (anglicismo, del inglés; indigenismo, de una lengua indígena)."
         ],
         "examples": [
           {
@@ -14437,12 +14663,32 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
+            "type": "multiple-choice",
+            "question": "Aplica el patrón: una palabra propia del español de Bolivia es un…",
+            "options": [
+              "bolivianismo",
+              "bolivianisma",
+              "bolivianista",
+              "bolivianidad"
+            ],
+            "correctIndex": 0,
+            "explanation": "Gentilicio sin la vocal final + -ismo: boliviano → bolivian- + -ismo = bolivianismo, siempre masculino. «Bolivianista» sería una persona (un especialista), y «bolivianidad», la cualidad de ser boliviano."
+          },
+          {
             "type": "fill-blank",
             "prompt": "Forma la palabra con el patrón (caso nuevo).",
             "sentence": "Una palabra propia del español de Cuba es un ___.",
             "answer": "cubanismo",
             "explanation": "Gentilicio + -ismo: cubano → cuban- + -ismo = cubanismo. Es masculino, como todos los sustantivos en -ismo."
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Dos excepciones: galicismo y anglicismo",
+        "body": [
+          "Hay dos excepciones útiles: lo que viene del francés es un galicismo (de galo, el nombre antiguo de los franceses) y lo que viene del inglés, un anglicismo (de anglo). Con la regla puedes formar palabras que no están en la lista: peruanismo, cubanismo, uruguayismo, arabismo."
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "¿Cuál de estas palabras NO sigue el patrón «gentilicio actual + -ismo»?",
@@ -14750,11 +14996,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "El español neutro: una construcción artificial y útil",
+        "heading": "La regla: tres sustituciones",
         "body": [
-          "La regla: neutralizar un texto es hacer tres sustituciones. 1) El tratamiento marcado (vos, vosotros) pasa a la forma general: tú o usted en singular, ustedes en plural. 2) Los modismos locales (re copado, güey, ¿viste?) pasan a su equivalente llano (muy bueno, amigo, ¿verdad?). 3) Entre dos palabras, gana la de mayor difusión (celular en América, computadora). ¿Por qué? Porque el objetivo no es sonar a ningún sitio, sino que nadie tropiece: cada rasgo local que quitas es un público que deja de quedarse fuera.",
-          "El llamado español neutro no es la lengua materna de nadie, sino una construcción deliberada, pensada para que un mensaje resulte comprensible en el mayor número posible de países hispanohablantes a la vez. Surge principalmente en el ámbito de los medios de comunicación, el doblaje audiovisual y la documentación técnica, donde interesa evitar regionalismos marcados que puedan confundir o distraer a una parte de la audiencia.",
-          "Esta variedad se caracteriza por evitar el voseo, prescindir de modismos muy localizados y preferir siempre la palabra de mayor difusión frente a la más idiomática de un solo país. El resultado es una lengua correcta, clara y eficaz, pero que ningún hablante emplea de manera espontánea en su vida cotidiana: nadie piensa ni sueña en español neutro, precisamente porque carece del color y la textura propios del habla natural de una comunidad concreta."
+          "La regla: neutralizar un texto es hacer tres sustituciones. 1) El tratamiento marcado (vos, vosotros) pasa a la forma general: tú o usted en singular, ustedes en plural. 2) Los modismos locales (re copado, güey, ¿viste?) pasan a su equivalente llano (muy bueno, amigo, ¿verdad?). 3) Entre dos palabras, gana la de mayor difusión (celular en América, computadora). ¿Por qué? Porque el objetivo no es sonar a ningún sitio, sino que nadie tropiece: cada rasgo local que quitas es un público que deja de quedarse fuera."
         ],
         "examples": [
           {
@@ -14766,28 +15010,38 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "It's really good, isn't it? (sin modismos rioplatenses)"
           },
           {
+            "es": "la palabra de mayor difusión",
+            "en": "el término más ampliamente entendido en distintos países"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a una frase nueva. ¿Cuál es la versión neutra de «¿Os apetece un café, chavales?»?",
+            "options": [
+              "¿Quieren un café, chicos?",
+              "¿Os apetece un café, chicos?",
+              "¿Quieren un cafecito, chamos?",
+              "¿Les apetece un café, chavales?"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dos sustituciones: vosotros (os) pasa a ustedes (quieren o les apetece), y el modismo chavales (España) pasa a chicos. «Os apetece» conserva el vosotros; «chamos» es venezolano, y «chavales» sigue siendo peninsular."
+          }
+        ]
+      },
+      {
+        "heading": "Una construcción deliberada",
+        "body": [
+          "El llamado español neutro no es la lengua materna de nadie, sino una construcción deliberada, pensada para que un mensaje resulte comprensible en el mayor número posible de países hispanohablantes a la vez. Surge principalmente en el ámbito de los medios de comunicación, el doblaje audiovisual y la documentación técnica, donde interesa evitar regionalismos marcados que puedan confundir o distraer a una parte de la audiencia."
+        ],
+        "examples": [
+          {
             "es": "una construcción deliberada",
             "en": "algo creado de forma consciente y con un propósito específico, no de manera espontánea"
           },
           {
             "es": "el ámbito del doblaje",
             "en": "el terreno de la traducción oral de películas y series para su difusión en otros países"
-          },
-          {
-            "es": "prescindir de un modismo",
-            "en": "evitar el uso de una expresión propia de una sola región"
-          },
-          {
-            "es": "carecer de color",
-            "en": "faltarle a un habla la expresividad y el matiz propios de una comunidad concreta"
-          },
-          {
-            "es": "la palabra de mayor difusión",
-            "en": "el término más ampliamente entendido en distintos países"
-          },
-          {
-            "es": "resultar eficaz",
-            "en": "cumplir bien su función comunicativa"
           }
         ],
         "checkpoint": [
@@ -14802,18 +15056,40 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto define el español neutro como una construcción artificial, sin hablantes nativos, orientada a la comprensión amplia entre países. No es la lengua materna de ninguna región, no es propio de los medios españoles (nació sobre todo en el doblaje y la traducción para América) y también se usa oralmente."
+          }
+        ]
+      },
+      {
+        "heading": "Correcto, claro… y sin color",
+        "body": [
+          "Esta variedad se caracteriza por evitar el voseo, prescindir de modismos muy localizados y preferir siempre la palabra de mayor difusión frente a la más idiomática de un solo país. El resultado es una lengua correcta, clara y eficaz, pero que ningún hablante emplea de manera espontánea en su vida cotidiana: nadie piensa ni sueña en español neutro, precisamente porque carece del color y la textura propios del habla natural de una comunidad concreta."
+        ],
+        "examples": [
+          {
+            "es": "prescindir de un modismo",
+            "en": "evitar el uso de una expresión propia de una sola región"
           },
           {
+            "es": "carecer de color",
+            "en": "faltarle a un habla la expresividad y el matiz propios de una comunidad concreta"
+          },
+          {
+            "es": "resultar eficaz",
+            "en": "cumplir bien su función comunicativa"
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Aplica la regla a una frase nueva. ¿Cuál es la versión neutra de «¿Os apetece un café, chavales?»?",
+            "question": "Un guionista quiere que un personaje porteño de su serie suene auténtico. ¿Le conviene escribir sus diálogos en español neutro?",
             "options": [
-              "¿Quieren un café, chicos?",
-              "¿Os apetece un café, chicos?",
-              "¿Quieren un cafecito, chamos?",
-              "¿Les apetece un café, chavales?"
+              "No: el neutro es claro y correcto, pero carece del color del habla de una comunidad concreta",
+              "Sí: el neutro es la variedad más correcta y por eso suena más natural",
+              "Sí: es la variedad que los porteños usan en su casa",
+              "No: el español neutro tiene errores gramaticales"
             ],
             "correctIndex": 0,
-            "explanation": "Dos sustituciones: vosotros (os) pasa a ustedes (quieren o les apetece), y el modismo chavales (España) pasa a chicos. «Os apetece» conserva el vosotros; «chamos» es venezolano, y «chavales» sigue siendo peninsular."
+            "explanation": "El español neutro es correcto, claro y eficaz, pero nadie lo habla de forma espontánea: le faltan el color y la textura del habla de una comunidad. Para un personaje porteño auténtico hacen falta voseo y modismos rioplatenses. El neutro no tiene errores; simplemente no suena a ningún sitio."
           }
         ]
       }
@@ -14914,11 +15190,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "El habla coloquial: espontaneidad, cercanía y economía expresiva",
+        "heading": "La regla: decir menos, exagerar más",
         "body": [
-          "La regla: el habla coloquial se apoya en lo que los interlocutores ya comparten, y por eso puede decir menos y exagerar más. Deja frases a medias porque el otro las completa (economía expresiva), rellena con muletillas (bueno, o sea, pues) mientras piensa, suaviza con diminutivos (un momentito) y exagera o dice lo contrario de lo que piensa (hipérbole, ironía) porque confía en que el otro lo interpretará bien. El registro formal hace justo lo contrario: lo dice todo de forma explícita, porque no puede contar con ese contexto. Pasar de uno a otro es, sobre todo, cambiar cuánto se da por sabido.",
-          "Frente a la neutralidad calculada, el habla coloquial se caracteriza por su espontaneidad: surge en la conversación cotidiana, entre personas que comparten un contexto y una confianza mutua, y recurre a muletillas, diminutivos, interjecciones y expresiones fijas que rara vez aparecen en un texto formal. Esta variedad privilegia la economía expresiva por encima de la precisión: se dicen frases incompletas, se sobreentienden ideas y se confía en el contexto compartido para completar el sentido.",
-          "Lejos de ser una versión descuidada o empobrecida de la lengua, el habla coloquial posee una riqueza expresiva propia, con recursos como la ironía, la hipérbole o el doble sentido que a menudo resultan imposibles de trasladar a un registro más formal sin perder buena parte de su efecto. Dominarla exige tanto conocimiento cultural como dominio gramatical, porque su lógica no es la de la corrección normativa, sino la de la eficacia social dentro de un grupo concreto."
+          "La regla: el habla coloquial se apoya en lo que los interlocutores ya comparten, y por eso puede decir menos y exagerar más. Deja frases a medias porque el otro las completa (economía expresiva), rellena con muletillas (bueno, o sea, pues) mientras piensa, suaviza con diminutivos (un momentito) y exagera o dice lo contrario de lo que piensa (hipérbole, ironía) porque confía en que el otro lo interpretará bien. El registro formal hace justo lo contrario: lo dice todo de forma explícita, porque no puede contar con ese contexto. Pasar de uno a otro es, sobre todo, cambiar cuánto se da por sabido."
         ],
         "examples": [
           {
@@ -14932,7 +15206,29 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Dame un segundito, que lo busco.",
             "en": "Give me a sec, I'll look for it. (diminutivo que suaviza)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un caso nuevo. Un amigo levanta tu maleta y dice: «¿Qué llevas aquí, piedras? Pesa una tonelada». ¿Qué recursos usa?",
+            "options": [
+              "Ironía e hipérbole",
+              "Diminutivo y muletilla",
+              "Lenguaje técnico",
+              "Ningún recurso: es una descripción literal"
+            ],
+            "correctIndex": 0,
+            "explanation": "«¿Piedras?» es una pregunta irónica (no cree que lleves piedras) y «pesa una tonelada» es una hipérbole: exagera para expresar que pesa mucho. Ambos funcionan porque los dos saben que no es literal: es el contexto compartido del habla coloquial."
+          }
+        ]
+      },
+      {
+        "heading": "Espontaneidad y economía expresiva",
+        "body": [
+          "Frente a la neutralidad calculada, el habla coloquial se caracteriza por su espontaneidad: surge en la conversación cotidiana, entre personas que comparten un contexto y una confianza mutua, y recurre a muletillas, diminutivos, interjecciones y expresiones fijas que rara vez aparecen en un texto formal. Esta variedad privilegia la economía expresiva por encima de la precisión: se dicen frases incompletas, se sobreentienden ideas y se confía en el contexto compartido para completar el sentido."
+        ],
+        "examples": [
           {
             "es": "la economía expresiva",
             "en": "la tendencia a comunicar con el menor número de palabras posible, apoyándose en el contexto"
@@ -14946,16 +15242,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "dar por comprendido algo sin necesidad de expresarlo de forma explícita"
           },
           {
-            "es": "la riqueza expresiva",
-            "en": "la capacidad de una forma de hablar para transmitir matices variados y creativos"
-          },
-          {
             "es": "el contexto compartido",
             "en": "el conjunto de información conocida por ambos interlocutores que permite entenderse sin explicarlo todo"
-          },
-          {
-            "es": "una versión empobrecida",
-            "en": "una forma de hablar considerada, erróneamente, como inferior o menos completa"
           }
         ],
         "checkpoint": [
@@ -14974,18 +15262,36 @@ const C1_BASE_LESSONS: Lesson[] = [
               3
             ],
             "explanation": "El texto describe el habla coloquial como espontánea, rica en muletillas e interjecciones y apoyada en el contexto compartido; en ningún momento afirma que carezca de recursos como la ironía, sino todo lo contrario."
+          }
+        ]
+      },
+      {
+        "heading": "No es una lengua empobrecida",
+        "body": [
+          "Lejos de ser una versión descuidada o empobrecida de la lengua, el habla coloquial posee una riqueza expresiva propia, con recursos como la ironía, la hipérbole o el doble sentido que a menudo resultan imposibles de trasladar a un registro más formal sin perder buena parte de su efecto. Dominarla exige tanto conocimiento cultural como dominio gramatical, porque su lógica no es la de la corrección normativa, sino la de la eficacia social dentro de un grupo concreto."
+        ],
+        "examples": [
+          {
+            "es": "la riqueza expresiva",
+            "en": "la capacidad de una forma de hablar para transmitir matices variados y creativos"
           },
           {
+            "es": "una versión empobrecida",
+            "en": "una forma de hablar considerada, erróneamente, como inferior o menos completa"
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Aplica la regla a un caso nuevo. Un amigo levanta tu maleta y dice: «¿Qué llevas aquí, piedras? Pesa una tonelada». ¿Qué recursos usa?",
+            "question": "Un compañero afirma: «El habla coloquial es español mal hablado». ¿Qué le responde el texto?",
             "options": [
-              "Ironía e hipérbole",
-              "Diminutivo y muletilla",
-              "Lenguaje técnico",
-              "Ningún recurso: es una descripción literal"
+              "Que tiene una riqueza expresiva propia y su lógica es la eficacia social, no la corrección normativa",
+              "Que tiene razón: es una versión descuidada de la lengua culta",
+              "Que solo es aceptable en España, no en América",
+              "Que todo lo coloquial se puede pasar al registro formal sin perder nada"
             ],
             "correctIndex": 0,
-            "explanation": "«¿Piedras?» es una pregunta irónica (no cree que lleves piedras) y «pesa una tonelada» es una hipérbole: exagera para expresar que pesa mucho. Ambos funcionan porque los dos saben que no es literal: es el contexto compartido del habla coloquial."
+            "explanation": "El texto rechaza que lo coloquial sea una versión empobrecida: la ironía, la hipérbole o el doble sentido son recursos propios, a menudo intraducibles al registro formal sin perder su efecto, y dominarlos exige conocimiento cultural y gramatical. Por eso la última opción también es falsa."
           }
         ]
       }
@@ -15095,11 +15401,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Cuándo elegir cada registro: la pertinencia como criterio",
+        "heading": "La regla: tres preguntas",
         "body": [
-          "La regla: el registro se elige con tres preguntas, no por gusto. ¿Qué función tiene el texto (informar, instruir, entretener, convencer)? ¿Qué relación tengo con quien lo recibe (desconocido, cliente, amigo)? ¿Por qué canal llega (documento, redes, mensaje de voz)? Si la función es informar a muchos desconocidos, el registro pertinente es neutro y formal; si es mantener la cercanía con alguien conocido, el coloquial. ¿Por qué? Porque un registro desajustado no falla en la gramática, sino en el efecto: la jerga resta credibilidad a una reclamación, y el estilo administrativo enfría un mensaje entre amigos.",
-          "La pregunta relevante nunca es cuál de los dos registros resulta superior, sino cuál resulta pertinente en cada situación comunicativa. Un informe institucional, una noticia internacional o un manual de instrucciones exigen un español neutro y formal, porque su función es transmitir información con la máxima claridad y el mínimo riesgo de ambigüedad regional. Una conversación entre amigos, un mensaje de voz o una publicación en redes sociales, en cambio, sonarían artificiales y distantes si se redactaran con ese mismo grado de neutralidad.",
-          "El verdadero dominio del español a nivel avanzado no consiste en preferir un registro sobre otro, sino en moverse con soltura entre ambos según lo exija cada contexto, e incluso combinarlos conscientemente dentro de un mismo texto cuando la intención comunicativa lo requiere, como ocurre en la publicidad o en cierto periodismo de opinión que busca cercanía sin renunciar a la claridad."
+          "La regla: el registro se elige con tres preguntas, no por gusto. ¿Qué función tiene el texto (informar, instruir, entretener, convencer)? ¿Qué relación tengo con quien lo recibe (desconocido, cliente, amigo)? ¿Por qué canal llega (documento, redes, mensaje de voz)? Si la función es informar a muchos desconocidos, el registro pertinente es neutro y formal; si es mantener la cercanía con alguien conocido, el coloquial. ¿Por qué? Porque un registro desajustado no falla en la gramática, sino en el efecto: la jerga resta credibilidad a una reclamación, y el estilo administrativo enfría un mensaje entre amigos."
         ],
         "examples": [
           {
@@ -15109,7 +15413,29 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "¡Qué ganas de verte el finde!",
             "en": "Can't wait to see you at the weekend! (mensaje a una amiga → coloquial)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica las tres preguntas a un caso nuevo: la asociación de vecinos publica en su cuenta de Instagram que la fiesta del barrio se aplaza. ¿Qué frase es la más pertinente?",
+            "options": [
+              "¡Cambio de planes! La fiesta del barrio se pasa al sábado 14. ¡Os esperamos!",
+              "Por medio de la presente se comunica el aplazamiento de la fiesta vecinal.",
+              "O sea, tipo que la fiesta no es el sábado, ¿vale?",
+              "Se aplaza la fiesta. Fin."
+            ],
+            "correctIndex": 0,
+            "explanation": "Función: informar; relación: vecinos conocidos; canal: redes sociales. Pide un tono cercano pero claro, con el dato completo. «Por medio de la presente» es de carta administrativa (frío para Instagram); la versión con muletillas no informa con claridad, y «Fin» suena seco y poco amable."
+          }
+        ]
+      },
+      {
+        "heading": "Pertinente, no superior",
+        "body": [
+          "La pregunta relevante nunca es cuál de los dos registros resulta superior, sino cuál resulta pertinente en cada situación comunicativa. Un informe institucional, una noticia internacional o un manual de instrucciones exigen un español neutro y formal, porque su función es transmitir información con la máxima claridad y el mínimo riesgo de ambigüedad regional. Una conversación entre amigos, un mensaje de voz o una publicación en redes sociales, en cambio, sonarían artificiales y distantes si se redactaran con ese mismo grado de neutralidad."
+        ],
+        "examples": [
           {
             "es": "resultar pertinente",
             "en": "ser adecuado o apropiado para una situación concreta"
@@ -15117,7 +15443,37 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "el riesgo de ambigüedad regional",
             "en": "la posibilidad de que una palabra se malinterprete por variar su significado según el país"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál de estos textos exige un español neutro y formal?",
+            "options": [
+              "El manual de instrucciones de una lavadora",
+              "Un audio de WhatsApp a tu hermano",
+              "Una publicación personal en tus redes sociales",
+              "Una nota para tu compañero de piso"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un manual informa e instruye a muchos desconocidos: necesita claridad máxima y ningún riesgo de ambigüedad regional. Los otros tres son textos para gente conocida, donde ese grado de neutralidad sonaría artificial y distante."
           },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la idea central de esta sección.",
+            "sentence": "El criterio decisivo para elegir un registro no es la superioridad de uno sobre otro, sino su ___ en cada situación.",
+            "answer": "pertinencia",
+            "explanation": "El texto insiste en que lo relevante es la pertinencia del registro para cada contexto comunicativo, no una jerarquía entre formal y coloquial.",
+            "hint": "Piensa en la palabra que expresa lo adecuado que resulta algo para una situación concreta."
+          }
+        ]
+      },
+      {
+        "heading": "Moverse entre registros (y mezclarlos)",
+        "body": [
+          "El verdadero dominio del español a nivel avanzado no consiste en preferir un registro sobre otro, sino en moverse con soltura entre ambos según lo exija cada contexto, e incluso combinarlos conscientemente dentro de un mismo texto cuando la intención comunicativa lo requiere, como ocurre en la publicidad o en cierto periodismo de opinión que busca cercanía sin renunciar a la claridad."
+        ],
+        "examples": [
           {
             "es": "moverse con soltura",
             "en": "actuar con naturalidad y facilidad entre distintas opciones o registros"
@@ -15133,24 +15489,16 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "checkpoint": [
           {
-            "type": "fill-blank",
-            "prompt": "Completa la idea central de esta sección.",
-            "sentence": "El criterio decisivo para elegir un registro no es la superioridad de uno sobre otro, sino su ___ en cada situación.",
-            "answer": "pertinencia",
-            "explanation": "El texto insiste en que lo relevante es la pertinencia del registro para cada contexto comunicativo, no una jerarquía entre formal y coloquial.",
-            "hint": "Piensa en la palabra que expresa lo adecuado que resulta algo para una situación concreta."
-          },
-          {
             "type": "multiple-choice",
-            "question": "Aplica las tres preguntas a un caso nuevo: la asociación de vecinos publica en su cuenta de Instagram que la fiesta del barrio se aplaza. ¿Qué frase es la más pertinente?",
+            "question": "Una marca de zumos quiere un anuncio cercano sin renunciar a la claridad. ¿Qué eslogan combina conscientemente los dos registros?",
             "options": [
-              "¡Cambio de planes! La fiesta del barrio se pasa al sábado 14. ¡Os esperamos!",
-              "Por medio de la presente se comunica el aplazamiento de la fiesta vecinal.",
-              "O sea, tipo que la fiesta no es el sábado, ¿vale?",
-              "Se aplaza la fiesta. Fin."
+              "Cien por cien fruta y sin azúcar añadido. Vamos, que está buenísimo.",
+              "Se informa de que el producto no contiene azúcares añadidos.",
+              "Tío, este zumo mola un montón, en plan, ¿sabes?",
+              "El presente producto se compone de zumo de fruta."
             ],
             "correctIndex": 0,
-            "explanation": "Función: informar; relación: vecinos conocidos; canal: redes sociales. Pide un tono cercano pero claro, con el dato completo. «Por medio de la presente» es de carta administrativa (frío para Instagram); la versión con muletillas no informa con claridad, y «Fin» suena seco y poco amable."
+            "explanation": "La primera frase informa con claridad (registro neutro) y la segunda añade cercanía coloquial («vamos, que…»): es la mezcla deliberada propia de la publicidad. La segunda y la cuarta son solo formales y frías; la tercera es solo coloquial y pierde la claridad."
           }
         ]
       }
@@ -15242,21 +15590,37 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Cómo cambia el significado según el registro elegido",
+        "heading": "La regla: el registro también es actitud",
         "body": [
-          "La regla: el registro no solo viste el contenido, también dice qué piensas de él y de tu interlocutor. Con la misma información, la palabra formal crea distancia y suena a juicio («una decisión desacertada»), y la coloquial crea complicidad y suele quitar gravedad («una metida de pata»). Por eso elegir registro es elegir actitud: severidad o indulgencia, distancia o cercanía. Y por escrito el riesgo crece, porque faltan la entonación y el gesto que avisan de que algo es broma o ironía.",
-          "Un mismo mensaje puede transmitir intenciones muy distintas según el registro en que se formule, incluso cuando el contenido informativo es idéntico. Decir que una decisión fue desacertada suena a evaluación técnica y distante; decir que fue una metida de pata añade cercanía, complicidad e incluso cierta indulgencia hacia quien la cometió. La elección del registro, entonces, no solo adapta la forma del mensaje, sino que modifica su carga emocional y su efecto sobre quien escucha.",
-          "Este fenómeno se vuelve especialmente delicado en la comunicación escrita, donde faltan la entonación y el gesto que en el habla oral matizan una expresión coloquial. Un chiste o una ironía que resultarían evidentes al escucharse pueden malinterpretarse por escrito si el destinatario no comparte el mismo registro o el mismo código cultural, lo que explica por qué ciertos mensajes informales generan malentendidos cuando se sacan de su contexto original."
+          "La regla: el registro no solo viste el contenido, también dice qué piensas de él y de tu interlocutor. Con la misma información, la palabra formal crea distancia y suena a juicio («una decisión desacertada»), y la coloquial crea complicidad y suele quitar gravedad («una metida de pata»). Por eso elegir registro es elegir actitud: severidad o indulgencia, distancia o cercanía. Y por escrito el riesgo crece, porque faltan la entonación y el gesto que avisan de que algo es broma o ironía."
         ],
         "examples": [
           {
             "es": "Fue un despiste. / Fue una negligencia.",
             "en": "It was a slip. / It was negligence. (misma información; la primera disculpa, la segunda acusa)"
-          },
+          }
+        ],
+        "checkpoint": [
           {
-            "es": "¡Genial, otra reunión! (escrito en un chat)",
-            "en": "Great, another meeting! (sin entonación, la ironía puede leerse como entusiasmo)"
-          },
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un caso nuevo. Tu compañera olvidó enviar un archivo y quieres quitarle importancia delante del equipo. ¿Qué dices?",
+            "options": [
+              "Nada, un despiste, le pasa a cualquiera.",
+              "Se ha producido un incumplimiento en el envío.",
+              "Ha sido una negligencia grave.",
+              "Consta un error en el procedimiento de envío."
+            ],
+            "correctIndex": 0,
+            "explanation": "Para quitar gravedad, el registro coloquial y la palabra indulgente (despiste) crean complicidad. Las otras tres frases transmiten la misma información, pero con un registro formal que suena a acusación o a informe."
+          }
+        ]
+      },
+      {
+        "heading": "Misma información, otra carga emocional",
+        "body": [
+          "Un mismo mensaje puede transmitir intenciones muy distintas según el registro en que se formule, incluso cuando el contenido informativo es idéntico. Decir que una decisión fue desacertada suena a evaluación técnica y distante; decir que fue una metida de pata añade cercanía, complicidad e incluso cierta indulgencia hacia quien la cometió. La elección del registro, entonces, no solo adapta la forma del mensaje, sino que modifica su carga emocional y su efecto sobre quien escucha."
+        ],
+        "examples": [
           {
             "es": "una metida de pata",
             "en": "un error cometido de forma torpe o inoportuna"
@@ -15264,6 +15628,32 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "la carga emocional",
             "en": "el componente afectivo que transmite un mensaje además de su contenido informativo"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué añade la expresión coloquial 'una metida de pata' frente a la formulación técnica 'una decisión desacertada'?",
+            "options": [
+              "Mayor precisión estadística",
+              "Cercanía, complicidad e indulgencia hacia quien cometió el error",
+              "Una connotación exclusivamente negativa y severa",
+              "Ninguna diferencia real de significado"
+            ],
+            "correctIndex": 1,
+            "explanation": "El texto explica que la formulación coloquial aporta cercanía y cierta indulgencia, mientras que la técnica suena distante y evaluativa. No aporta precisión estadística, no es más severa (al contrario, suaviza el juicio) y sí cambia el matiz."
+          }
+        ]
+      },
+      {
+        "heading": "Por escrito, más riesgo",
+        "body": [
+          "Este fenómeno se vuelve especialmente delicado en la comunicación escrita, donde faltan la entonación y el gesto que en el habla oral matizan una expresión coloquial. Un chiste o una ironía que resultarían evidentes al escucharse pueden malinterpretarse por escrito si el destinatario no comparte el mismo registro o el mismo código cultural, lo que explica por qué ciertos mensajes informales generan malentendidos cuando se sacan de su contexto original."
+        ],
+        "examples": [
+          {
+            "es": "¡Genial, otra reunión! (escrito en un chat)",
+            "en": "Great, another meeting! (sin entonación, la ironía puede leerse como entusiasmo)"
           },
           {
             "es": "matizar una expresión",
@@ -15281,27 +15671,15 @@ const C1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Según el texto, ¿qué añade la expresión coloquial 'una metida de pata' frente a la formulación técnica 'una decisión desacertada'?",
+            "question": "Escribes en el chat del equipo «¡Qué bien, otra vez sin luz en la oficina!» y un compañero responde «¡Me alegro mucho!». ¿Qué ha pasado?",
             "options": [
-              "Mayor precisión estadística",
-              "Cercanía, complicidad e indulgencia hacia quien cometió el error",
-              "Una connotación exclusivamente negativa y severa",
-              "Ninguna diferencia real de significado"
-            ],
-            "correctIndex": 1,
-            "explanation": "El texto explica que la formulación coloquial aporta cercanía y cierta indulgencia, mientras que la técnica suena distante y evaluativa. No aporta precisión estadística, no es más severa (al contrario, suaviza el juicio) y sí cambia el matiz."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Aplica la regla a un caso nuevo. Tu compañera olvidó enviar un archivo y quieres quitarle importancia delante del equipo. ¿Qué dices?",
-            "options": [
-              "Nada, un despiste, le pasa a cualquiera.",
-              "Se ha producido un incumplimiento en el envío.",
-              "Ha sido una negligencia grave.",
-              "Consta un error en el procedimiento de envío."
+              "Sin entonación ni gesto, ha leído tu ironía de forma literal",
+              "Has usado un registro demasiado formal para un chat",
+              "Tu mensaje tiene un error gramatical que cambia el sentido",
+              "Tu compañero no conoce la expresión «sin luz»"
             ],
             "correctIndex": 0,
-            "explanation": "Para quitar gravedad, el registro coloquial y la palabra indulgente (despiste) crean complicidad. Las otras tres frases transmiten la misma información, pero con un registro formal que suena a acusación o a informe."
+            "explanation": "Por escrito faltan la entonación y el gesto que avisan de la ironía, así que tu queja se ha leído como entusiasmo. El registro (coloquial) era adecuado para un chat y la frase es gramatical: el problema es la ironía sin las pistas del habla oral."
           }
         ]
       }
@@ -15401,17 +15779,12 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La regla: cada registro tiene su lugar",
         "body": [
-          "La regla del diálogo que vas a leer: el mismo hecho se cuenta de forma distinta según dónde se publica. Un comunicado oficial dice «la situación se agravó»; un comentario entre amigos, «la cosa se puso fea». Ninguna de las dos es incorrecta: el comunicado necesita sonar neutro para informar sin ambigüedades a todos, y la charla necesita sonar natural para crear cercanía. Lo que falla es el cruce: un aviso oficial coloquial «quedaría fatal», y una charla en tono de comunicado sonaría acartonada.",
-          "El vocabulario de esta lección sirve justo para juzgar ese cruce. Unas palabras critican el exceso de formalidad o de fingimiento (acartonado, artificioso, impostado); otras elogian lo sencillo (llano, de andar por casa, la naturalidad, el desenfado)."
+          "La regla del diálogo que vas a leer: el mismo hecho se cuenta de forma distinta según dónde se publica. Un comunicado oficial dice «la situación se agravó»; un comentario entre amigos, «la cosa se puso fea». Ninguna de las dos es incorrecta: el comunicado necesita sonar neutro para informar sin ambigüedades a todos, y la charla necesita sonar natural para crear cercanía. Lo que falla es el cruce: un aviso oficial coloquial «quedaría fatal», y una charla en tono de comunicado sonaría acartonada."
         ],
         "examples": [
           {
             "es": "La situación se agravó. / La cosa se puso fea.",
             "en": "The situation worsened. / Things got ugly. (comunicado / charla)"
-          },
-          {
-            "es": "Un diálogo acartonado no suena a gente real.",
-            "en": "A stiff dialogue doesn't sound like real people. (crítica al exceso de formalidad)"
           }
         ],
         "checkpoint": [
@@ -15430,16 +15803,38 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "En la práctica",
+        "heading": "Palabras para juzgar el cruce",
+        "body": [
+          "El vocabulario de esta lección sirve justo para juzgar ese cruce. Unas palabras critican el exceso de formalidad o de fingimiento (acartonado, artificioso, impostado); otras elogian lo sencillo (llano, de andar por casa, la naturalidad, el desenfado)."
+        ],
+        "examples": [
+          {
+            "es": "Un diálogo acartonado no suena a gente real.",
+            "en": "A stiff dialogue doesn't sound like real people. (crítica al exceso de formalidad)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un crítico escribe que los diálogos de una serie «suenan impostados». ¿Qué les reprocha?",
+            "options": [
+              "Que suenan fingidos, faltos de naturalidad",
+              "Que son demasiado llanos y sencillos",
+              "Que tienen un desenfado excesivo",
+              "Que usan un vocabulario de andar por casa"
+            ],
+            "correctIndex": 0,
+            "explanation": "Impostado está en el grupo de las palabras que critican el fingimiento o el exceso de formalidad, como acartonado o artificioso. Llano, desenfado y de andar por casa están en el otro grupo: elogian lo sencillo y natural."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (1): la nota y los comentarios",
         "body": [
           "— Che, viste la nota que salió hoy sobre la reunión, ¿no? Un embole total, todo en un tono re formal.",
           "— Sí, la leí. Tiene sentido, es un comunicado oficial, tiene que sonar neutro para que se entienda en todos lados.",
           "— Ya sé, pero después me metí a leer los comentarios y ahí sí que la gente se mandó cada comentario...",
-          "— Jaja, eso siempre pasa. Ahí la gente escribe como habla, sin filtro ninguno.",
-          "— Es que un comunicado institucional no puede sonar así, quedaría fatal, ¿no te parece?",
-          "— Totalmente. Imaginate un aviso oficial que dijera 'la cosa se puso fea' en vez de 'la situación se agravó'.",
-          "— Sonaría rarísimo, aunque en el fondo signifique lo mismo.",
-          "— Exacto, por eso cada registro tiene su lugar: uno para informar sin ambigüedades, otro para charlar entre nosotros."
+          "— Jaja, eso siempre pasa. Ahí la gente escribe como habla, sin filtro ninguno."
         ],
         "checkpoint": [
           {
@@ -15453,6 +15848,29 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Embole (de embolarse, aburrirse) es un coloquialismo rioplatense: aburrimiento. Ella critica el tono «re formal» de la nota, aunque reconoce que un comunicado tiene que sonar neutro."
+          }
+        ]
+      },
+      {
+        "heading": "En la práctica (2): cada registro, su lugar",
+        "body": [
+          "— Es que un comunicado institucional no puede sonar así, quedaría fatal, ¿no te parece?",
+          "— Totalmente. Imaginate un aviso oficial que dijera 'la cosa se puso fea' en vez de 'la situación se agravó'.",
+          "— Sonaría rarísimo, aunque en el fondo signifique lo mismo.",
+          "— Exacto, por eso cada registro tiene su lugar: uno para informar sin ambigüedades, otro para charlar entre nosotros."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En el diálogo, ¿por qué un aviso oficial que dijera «la cosa se puso fea» «quedaría fatal»?",
+            "options": [
+              "Porque cruza los registros: un comunicado debe sonar neutro para informar sin ambigüedades",
+              "Porque «la cosa se puso fea» es una frase gramaticalmente incorrecta",
+              "Porque significa algo distinto de «la situación se agravó»",
+              "Porque en Argentina nadie entendería esa expresión"
+            ],
+            "correctIndex": 0,
+            "explanation": "Las dos frases dicen lo mismo («en el fondo signifique lo mismo») y las dos son correctas; lo que falla es usar la coloquial donde corresponde el registro neutro del comunicado. No es un problema de gramática ni de comprensión regional."
           }
         ]
       },
@@ -15653,8 +16071,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El patrón: sufijos que cargan emoción",
         "body": [
-          "Buena parte de esta lista describe un mecanismo del habla coloquial: los sufijos apreciativos, que no cambian el significado de la palabra, sino la actitud del hablante hacia lo que nombra. El diminutivo (-ito, -illo, y en América también -ico) transmite cariño o atenúa: casita, cafecito, un momentito. El aumentativo (-ón, -azo, -ote) agranda, y el despectivo (-ucho, -ejo, -uzo) desprecia: casucha, pueblucho, gentuza.",
-          "¿Por qué son coloquiales? Porque expresan una emoción personal, y el registro formal la evita: un informe dice «una vivienda pequeña», no «una casita». Ojo: -azo puede ser despectivo o, muy a menudo, de admiración (un cochazo, un golazo); lo decide el contexto. Y el diminutivo de las palabras agudas en vocal o de una sílaba se forma con -cito o -ecito: café → cafecito, pan → panecito (o pancito en América), flor → florecita."
+          "Buena parte de esta lista describe un mecanismo del habla coloquial: los sufijos apreciativos, que no cambian el significado de la palabra, sino la actitud del hablante hacia lo que nombra. El diminutivo (-ito, -illo, y en América también -ico) transmite cariño o atenúa: casita, cafecito, un momentito. El aumentativo (-ón, -azo, -ote) agranda, y el despectivo (-ucho, -ejo, -uzo) desprecia: casucha, pueblucho, gentuza."
         ],
         "examples": [
           {
@@ -15664,23 +16081,9 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Vivían en una casucha sin luz.",
             "en": "They lived in a miserable shack with no electricity. (-ucho: despectivo)"
-          },
-          {
-            "es": "¡Qué golazo!",
-            "en": "What a goal! (-azo: aquí admiración, no desprecio)"
           }
         ],
         "checkpoint": [
-          {
-            "type": "fill-blank",
-            "prompt": "Aplica el patrón a una palabra nueva: forma el diminutivo afectivo.",
-            "sentence": "Pasamos el verano en un ___ de la sierra. (pueblo)",
-            "answer": "pueblecito",
-            "altAnswers": [
-              "pueblito"
-            ],
-            "explanation": "Pueblo forma el diminutivo con -ecito en España (pueblecito) y con -ito en buena parte de América (pueblito). Transmite cariño, no solo tamaño."
-          },
           {
             "type": "multiple-choice",
             "question": "Un vecino dice: «No pienso alquilar ese cuartucho». ¿Qué expresa el sufijo?",
@@ -15692,6 +16095,49 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "-ucho es un sufijo despectivo (como en casucha o pueblucho): el cuarto le parece pobre y feo. El cariño lo daría -ito (cuartito) y el tamaño grande, -azo u -ón."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Aplica el patrón a una palabra nueva: forma el diminutivo afectivo.",
+            "sentence": "Pasamos el verano en un ___ de la sierra. (pueblo)",
+            "answer": "pueblecito",
+            "altAnswers": [
+              "pueblito"
+            ],
+            "explanation": "Pueblo forma el diminutivo con -ecito en España (pueblecito) y con -ito en buena parte de América (pueblito). Transmite cariño, no solo tamaño."
+          }
+        ]
+      },
+      {
+        "heading": "Por qué son coloquiales, y dos trampas",
+        "body": [
+          "¿Por qué son coloquiales? Porque expresan una emoción personal, y el registro formal la evita: un informe dice «una vivienda pequeña», no «una casita». Ojo: -azo puede ser despectivo o, muy a menudo, de admiración (un cochazo, un golazo); lo decide el contexto. Y el diminutivo de las palabras agudas en vocal o de una sílaba se forma con -cito o -ecito: café → cafecito, pan → panecito (o pancito en América), flor → florecita."
+        ],
+        "examples": [
+          {
+            "es": "¡Qué golazo!",
+            "en": "What a goal! (-azo: aquí admiración, no desprecio)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "«¡Menudo exitazo ha tenido el concierto!» ¿Qué expresa aquí el sufijo -azo?",
+            "options": [
+              "Admiración: un éxito enorme",
+              "Desprecio hacia el concierto",
+              "Que el éxito fue pequeño",
+              "Nada: «exitazo» es la palabra formal"
+            ],
+            "correctIndex": 0,
+            "explanation": "-azo puede ser despectivo, pero muy a menudo expresa admiración, y el contexto lo decide: «¡menudo…!» y el éxito indican entusiasmo. No es diminutivo, y como todo sufijo apreciativo es coloquial: un informe diría «un gran éxito»."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Forma el diminutivo (palabra de una sílaba).",
+            "sentence": "Me habló con una ___ muy dulce. (voz)",
+            "answer": "vocecita",
+            "explanation": "Las palabras de una sílaba forman el diminutivo con -ecito / -ecita, como pan → panecito o flor → florecita: voz → vocecita (la z pasa a c ante e). «Vozita» olvida a la vez el -ec- y el cambio ortográfico."
           }
         ]
       },
@@ -15865,11 +16311,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La arquitectura de una carta o un correo formal",
+        "heading": "La regla: tres partes, tres trabajos",
         "body": [
-          "La regla: un escrito formal tiene tres partes fijas y cada una hace un trabajo. El encabezamiento saluda (Estimada señora: , con dos puntos y no con coma, como en inglés). El primer párrafo del cuerpo dice el motivo del escrito, sin preámbulos (Le escribo para…, Por medio de la presente…). El cierre reitera la petición y despide (Quedo a la espera de su respuesta. Atentamente). ¿Por qué tan rígido? Porque quien lee una carta formal suele leer muchas: si el asunto está donde se espera, lo encuentra en segundos.",
-          "La correspondencia formal en español sigue una estructura reconocible que rara vez se improvisa: un encabezamiento con la fórmula de saludo, un cuerpo dividido en párrafos claros con el motivo del escrito, y un cierre con la fórmula de despedida y la firma. Esta arquitectura no es un capricho estilístico, sino una convención que permite al destinatario ubicar rápidamente la información esencial sin tener que leer todo el texto para entender su propósito.",
-          "A diferencia de un mensaje informal, donde el orden de las ideas puede ser flexible, en un escrito formal se espera que el asunto quede planteado desde el primer párrafo, que el desarrollo aporte los detalles necesarios sin digresiones y que el cierre reitere, si corresponde, la petición o expectativa concreta del remitente. Esta previsibilidad estructural es, precisamente, lo que da seriedad y profesionalismo a un documento."
+          "La regla: un escrito formal tiene tres partes fijas y cada una hace un trabajo. El encabezamiento saluda (Estimada señora: , con dos puntos y no con coma, como en inglés). El primer párrafo del cuerpo dice el motivo del escrito, sin preámbulos (Le escribo para…, Por medio de la presente…). El cierre reitera la petición y despide (Quedo a la espera de su respuesta. Atentamente). ¿Por qué tan rígido? Porque quien lee una carta formal suele leer muchas: si el asunto está donde se espera, lo encuentra en segundos."
         ],
         "examples": [
           {
@@ -15883,7 +16327,29 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Por medio de la presente le solicito una prórroga del plazo.",
             "en": "I hereby request an extension of the deadline. (fórmula de apertura muy formal)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla. ¿Qué primera frase del cuerpo cumple la convención en un correo al servicio de atención al cliente?",
+            "options": [
+              "Le escribo para reclamar el reembolso del pedido n.º 4521, que llegó dañado.",
+              "Espero que tengan un buen día; hace mucho calor aquí.",
+              "Antes de nada, quiero contarles cómo descubrí su tienda.",
+              "Atentamente, Laura Gil."
+            ],
+            "correctIndex": 0,
+            "explanation": "El primer párrafo plantea el asunto de inmediato: qué se pide y sobre qué. Los saludos sobre el tiempo o la historia personal son digresiones que retrasan el motivo, y «Atentamente» pertenece al cierre."
+          }
+        ]
+      },
+      {
+        "heading": "Una convención, no un capricho",
+        "body": [
+          "La correspondencia formal en español sigue una estructura reconocible que rara vez se improvisa: un encabezamiento con la fórmula de saludo, un cuerpo dividido en párrafos claros con el motivo del escrito, y un cierre con la fórmula de despedida y la firma. Esta arquitectura no es un capricho estilístico, sino una convención que permite al destinatario ubicar rápidamente la información esencial sin tener que leer todo el texto para entender su propósito."
+        ],
+        "examples": [
           {
             "es": "el encabezamiento",
             "en": "la parte inicial de un escrito donde se sitúa la fórmula de saludo"
@@ -15895,7 +16361,29 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "una convención",
             "en": "una norma aceptada por costumbre dentro de una comunidad"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿para qué sirve que las cartas formales sigan siempre la misma arquitectura?",
+            "options": [
+              "Para que el destinatario encuentre la información esencial sin leer todo el texto",
+              "Para que la carta parezca más larga y más completa",
+              "Porque una ley obliga a usar esa estructura en los documentos oficiales",
+              "Para que el remitente no tenga que pensar en el contenido"
+            ],
+            "correctIndex": 0,
+            "explanation": "La estructura es una convención: como el lector sabe dónde está cada cosa, ubica rápido el propósito. No es un capricho estilístico ni una obligación legal, y no sustituye al contenido: solo lo ordena."
+          }
+        ]
+      },
+      {
+        "heading": "Previsibilidad: el asunto, desde el principio",
+        "body": [
+          "A diferencia de un mensaje informal, donde el orden de las ideas puede ser flexible, en un escrito formal se espera que el asunto quede planteado desde el primer párrafo, que el desarrollo aporte los detalles necesarios sin digresiones y que el cierre reitere, si corresponde, la petición o expectativa concreta del remitente. Esta previsibilidad estructural es, precisamente, lo que da seriedad y profesionalismo a un documento."
+        ],
+        "examples": [
           {
             "es": "plantear el asunto",
             "en": "exponer con claridad el motivo de un escrito"
@@ -15924,15 +16412,15 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "Aplica la regla. ¿Qué primera frase del cuerpo cumple la convención en un correo al servicio de atención al cliente?",
+            "question": "Un correo a un proveedor dedica el primer párrafo al buen tiempo y a los éxitos de la empresa, y el pedido aparece al final. ¿Qué falla?",
             "options": [
-              "Le escribo para reclamar el reembolso del pedido n.º 4521, que llegó dañado.",
-              "Espero que tengan un buen día; hace mucho calor aquí.",
-              "Antes de nada, quiero contarles cómo descubrí su tienda.",
-              "Atentamente, Laura Gil."
+              "El asunto no queda planteado desde el primer párrafo y hay digresiones",
+              "El saludo debería ir seguido de coma",
+              "El cierre no reitera la despedida",
+              "El cuerpo debería ir en un solo párrafo"
             ],
             "correctIndex": 0,
-            "explanation": "El primer párrafo plantea el asunto de inmediato: qué se pide y sobre qué. Los saludos sobre el tiempo o la historia personal son digresiones que retrasan el motivo, y «Atentamente» pertenece al cierre."
+            "explanation": "En un escrito formal el motivo se plantea en el primer párrafo y el desarrollo evita las digresiones; aquí el lector tiene que llegar al final para saber qué se le pide. El signo del saludo y la longitud de los párrafos no son el problema."
           }
         ]
       }
@@ -16025,11 +16513,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Las fórmulas fijas de saludo y despedida",
+        "heading": "La regla: dos criterios, un mismo nivel",
         "body": [
-          "La regla: la fórmula de saludo y la de despedida se eligen con dos criterios, la distancia jerárquica y si conoces el nombre del destinatario, y las dos tienen que estar al mismo nivel. Distancia máxima o institución sin nombre: Muy señor mío / Muy señores míos (… Le saluda atentamente). Distancia normal, con nombre: Estimado señor Vidal (… Atentamente). Colega conocido: Estimada Lucía o Hola, Lucía (… Un cordial saludo). ¿Por qué deben coincidir? Porque cada fórmula fija una distancia; si el saludo pone una y la despedida otra, el lector percibe descuido.",
-          "El español formal dispone de un repertorio bastante estable de fórmulas de apertura y cierre, y elegir la adecuada según el grado de formalidad y la relación previa con el destinatario resulta tan importante como el contenido mismo del mensaje. Estimado señor o estimada señora, seguido del apellido, constituye una apertura segura cuando existe cierta distancia jerárquica; muy señor mío o distinguida señora resultan aún más solemnes y se reservan para instituciones o autoridades.",
-          "El cierre sigue una lógica paralela: atentamente funciona en casi cualquier contexto profesional, mientras que quedo a la espera de su respuesta o quedo a su disposición para cualquier consulta añaden una nota de cortesía adicional antes de la despedida final. Combinar un saludo excesivamente solemne con un cierre demasiado informal, o viceversa, produce un efecto de descuido que un lector atento percibe de inmediato."
+          "La regla: la fórmula de saludo y la de despedida se eligen con dos criterios, la distancia jerárquica y si conoces el nombre del destinatario, y las dos tienen que estar al mismo nivel. Distancia máxima o institución sin nombre: Muy señor mío / Muy señores míos (… Le saluda atentamente). Distancia normal, con nombre: Estimado señor Vidal (… Atentamente). Colega conocido: Estimada Lucía o Hola, Lucía (… Un cordial saludo). ¿Por qué deben coincidir? Porque cada fórmula fija una distancia; si el saludo pone una y la despedida otra, el lector percibe descuido."
         ],
         "examples": [
           {
@@ -16043,7 +16529,29 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Estimado Andrés: … Un cordial saludo,",
             "en": "Dear Andrés, … Kind regards, (colega conocido)"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla. Escribes por primera vez al departamento de reclamaciones de una aerolínea y no sabes quién lo leerá. ¿Qué pareja de fórmulas encaja?",
+            "options": [
+              "Muy señores míos: … Les saluda atentamente,",
+              "Hola: … Un abrazo,",
+              "Querido equipo: … Besos,",
+              "Estimado Juan: … Atentamente,"
+            ],
+            "correctIndex": 0,
+            "explanation": "Institución y destinatario desconocido: distancia máxima, con saludo y despedida al mismo nivel (Muy señores míos / Les saluda atentamente). «Hola… Un abrazo» y «Querido… Besos» son de confianza, y «Estimado Juan» supone un nombre que no conoces."
+          }
+        ]
+      },
+      {
+        "heading": "Las aperturas",
+        "body": [
+          "El español formal dispone de un repertorio bastante estable de fórmulas de apertura y cierre, y elegir la adecuada según el grado de formalidad y la relación previa con el destinatario resulta tan importante como el contenido mismo del mensaje. Estimado señor o estimada señora, seguido del apellido, constituye una apertura segura cuando existe cierta distancia jerárquica; muy señor mío o distinguida señora resultan aún más solemnes y se reservan para instituciones o autoridades."
+        ],
+        "examples": [
           {
             "es": "un repertorio estable",
             "en": "un conjunto de expresiones fijas y reconocidas dentro de un uso determinado"
@@ -16060,15 +16568,35 @@ const C1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Aplica la regla. Escribes por primera vez al departamento de reclamaciones de una aerolínea y no sabes quién lo leerá. ¿Qué pareja de fórmulas encaja?",
+            "question": "Escribes al rector de una universidad, una autoridad a la que no conoces. ¿Qué apertura es la más adecuada?",
             "options": [
-              "Muy señores míos: … Les saluda atentamente,",
-              "Hola: … Un abrazo,",
-              "Querido equipo: … Besos,",
-              "Estimado Juan: … Atentamente,"
+              "Distinguido señor rector:",
+              "Hola, rector:",
+              "Querido rector:",
+              "Buenas, señor rector:"
             ],
             "correctIndex": 0,
-            "explanation": "Institución y destinatario desconocido: distancia máxima, con saludo y despedida al mismo nivel (Muy señores míos / Les saluda atentamente). «Hola… Un abrazo» y «Querido… Besos» son de confianza, y «Estimado Juan» supone un nombre que no conoces."
+            "explanation": "Con una autoridad y mucha distancia jerárquica se usan las fórmulas más solemnes, como distinguido señor o muy señor mío. «Querido» exige trato personal, y «hola» y «buenas» son semiformales o coloquiales."
+          }
+        ]
+      },
+      {
+        "heading": "Los cierres",
+        "body": [
+          "El cierre sigue una lógica paralela: atentamente funciona en casi cualquier contexto profesional, mientras que quedo a la espera de su respuesta o quedo a su disposición para cualquier consulta añaden una nota de cortesía adicional antes de la despedida final. Combinar un saludo excesivamente solemne con un cierre demasiado informal, o viceversa, produce un efecto de descuido que un lector atento percibe de inmediato."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué correo produce un efecto de descuido?",
+            "options": [
+              "Muy señor mío: … Un besito,",
+              "Estimada señora Ruiz: … Atentamente,",
+              "Muy señores míos: … Les saluda atentamente,",
+              "Estimado Andrés: … Un cordial saludo,"
+            ],
+            "correctIndex": 0,
+            "explanation": "El cierre sigue la lógica del saludo: «Muy señor mío», el saludo más solemne, no puede terminar con una despedida íntima como «un besito». En las otras tres parejas saludo y despedida están en el mismo nivel."
           }
         ]
       },
@@ -16202,11 +16730,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Fórmulas de transición y expresiones fijas del cuerpo del texto",
+        "heading": "La regla: cada fórmula, un trabajo y una gramática",
         "body": [
-          "La regla: cada fórmula del cuerpo hace un trabajo concreto y tiene una gramática fija que no se toca. Por medio de la presente (= de esta carta, por eso es femenino) introduce el motivo. En relación con el asunto de la referencia remite a algo ya tratado. Dejar constancia de algo / de que… registra un hecho por escrito (siempre con de). Agradecer de antemano + lo agradecido (sin por) anticipa la cortesía antes del cierre. ¿Por qué usarlas? Porque el lector reconoce al instante qué tipo de párrafo está leyendo. ¿Y el límite? Una fórmula sin datos concretos detrás produce un texto hueco.",
-          "Además del saludo y la despedida, el español formal recurre a expresiones fijas que estructuran internamente el cuerpo del mensaje y le otorgan un tono institucional reconocible. Por medio de la presente introduce el motivo del escrito de forma solemne; en relación con el asunto de la referencia retoma un intercambio previo sin necesidad de resumirlo por completo; y agradezco de antemano su atención cierra una petición dejando constancia de cortesía anticipada.",
-          "Estas fórmulas cumplen una función que va más allá de lo decorativo: permiten que el lector reconozca de inmediato la naturaleza institucional del escrito y facilitan la lectura rápida de documentos similares, algo especialmente valioso en contextos donde se manejan grandes volúmenes de correspondencia. Sin embargo, un uso excesivo de estas fórmulas, sin aportar contenido concreto entre una y otra, puede producir un texto hueco, cargado de solemnidad pero vacío de sustancia."
+          "La regla: cada fórmula del cuerpo hace un trabajo concreto y tiene una gramática fija que no se toca. Por medio de la presente (= de esta carta, por eso es femenino) introduce el motivo. En relación con el asunto de la referencia remite a algo ya tratado. Dejar constancia de algo / de que… registra un hecho por escrito (siempre con de). Agradecer de antemano + lo agradecido (sin por) anticipa la cortesía antes del cierre. ¿Por qué usarlas? Porque el lector reconoce al instante qué tipo de párrafo está leyendo. ¿Y el límite? Una fórmula sin datos concretos detrás produce un texto hueco."
         ],
         "examples": [
           {
@@ -16218,6 +16744,32 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "Thank you in advance for your cooperation. (agradecer algo, sin «por»)"
           },
           {
+            "es": "dejar constancia de algo",
+            "en": "hacer explícito por escrito un hecho o una intención para que quede registrado"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla. Escribes a tu casero y quieres que quede registrado por escrito que la caldera lleva una semana averiada. ¿Qué fórmula usas?",
+            "options": [
+              "Quiero dejar constancia de que la caldera lleva una semana averiada.",
+              "Le agradezco de antemano que la caldera lleve una semana averiada.",
+              "En relación con el asunto de la referencia, la caldera.",
+              "Por medio del presente, caldera averiada."
+            ],
+            "correctIndex": 0,
+            "explanation": "Para registrar un hecho por escrito: dejar constancia de que + oración. Agradecer de antemano no tiene sentido con una avería; «en relación con el asunto…, la caldera» es un texto hueco sin verbo, y «por medio del presente» cambia el género de la fórmula (es «la presente», la carta)."
+          }
+        ]
+      },
+      {
+        "heading": "Un tono institucional",
+        "body": [
+          "Además del saludo y la despedida, el español formal recurre a expresiones fijas que estructuran internamente el cuerpo del mensaje y le otorgan un tono institucional reconocible. Por medio de la presente introduce el motivo del escrito de forma solemne; en relación con el asunto de la referencia retoma un intercambio previo sin necesidad de resumirlo por completo; y agradezco de antemano su atención cierra una petición dejando constancia de cortesía anticipada."
+        ],
+        "examples": [
+          {
             "es": "por medio de la presente",
             "en": "una fórmula fija que introduce el motivo de un escrito formal"
           },
@@ -16226,20 +16778,38 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el tema previamente tratado al que un escrito formal vuelve a hacer alusión"
           },
           {
-            "es": "dejar constancia de algo",
-            "en": "hacer explícito por escrito un hecho o una intención para que quede registrado"
-          },
-          {
             "es": "una cortesía anticipada",
             "en": "una muestra de agradecimiento expresada antes de recibir la respuesta esperada"
           },
           {
-            "es": "un texto hueco",
-            "en": "un escrito cargado de fórmulas pero con poco contenido real"
-          },
-          {
             "es": "un tono institucional",
             "en": "un estilo de escritura propio de organismos, empresas o entidades formales"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Respondes a un correo anterior sobre una factura y no quieres resumirlo todo otra vez. ¿Con qué fórmula empiezas?",
+            "options": [
+              "En relación con el asunto de la referencia, …",
+              "Por medio de la presente le comunico que…",
+              "Le agradezco de antemano su atención.",
+              "Quedo a la espera de su respuesta."
+            ],
+            "correctIndex": 0,
+            "explanation": "«En relación con el asunto de la referencia» retoma un intercambio previo sin resumirlo. «Por medio de la presente» introduce un motivo nuevo, y las dos últimas son fórmulas de cortesía para el cierre, no para empezar."
+          }
+        ]
+      },
+      {
+        "heading": "Ni decoración ni relleno",
+        "body": [
+          "Estas fórmulas cumplen una función que va más allá de lo decorativo: permiten que el lector reconozca de inmediato la naturaleza institucional del escrito y facilitan la lectura rápida de documentos similares, algo especialmente valioso en contextos donde se manejan grandes volúmenes de correspondencia. Sin embargo, un uso excesivo de estas fórmulas, sin aportar contenido concreto entre una y otra, puede producir un texto hueco, cargado de solemnidad pero vacío de sustancia."
+        ],
+        "examples": [
+          {
+            "es": "un texto hueco",
+            "en": "un escrito cargado de fórmulas pero con poco contenido real"
           }
         ],
         "checkpoint": [
@@ -16254,18 +16824,6 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 1,
             "explanation": "El texto explica que estas fórmulas otorgan reconocibilidad institucional y agilizan la lectura, aunque advierte contra su abuso vacío de contenido. No sustituyen la explicación del motivo, no ocultan el propósito y no son mero adorno: tienen una función práctica."
-          },
-          {
-            "type": "multiple-choice",
-            "question": "Aplica la regla. Escribes a tu casero y quieres que quede registrado por escrito que la caldera lleva una semana averiada. ¿Qué fórmula usas?",
-            "options": [
-              "Quiero dejar constancia de que la caldera lleva una semana averiada.",
-              "Le agradezco de antemano que la caldera lleve una semana averiada.",
-              "En relación con el asunto de la referencia, la caldera.",
-              "Por medio del presente, caldera averiada."
-            ],
-            "correctIndex": 0,
-            "explanation": "Para registrar un hecho por escrito: dejar constancia de que + oración. Agradecer de antemano no tiene sentido con una avería; «en relación con el asunto…, la caldera» es un texto hueco sin verbo, y «por medio del presente» cambia el género de la fórmula (es «la presente», la carta)."
           }
         ]
       }
@@ -16368,11 +16926,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Precisión, cortesía y concisión: el equilibrio del escrito formal",
+        "heading": "La regla: tres filtros y la gramática de la cortesía",
         "body": [
-          "La regla: cada frase de una petición formal pasa tres filtros. Precisión: ¿están los datos exactos (fecha, número de pedido, importe)? Cortesía: ¿está suavizada la petición? Concisión: ¿sobra algo? La cortesía tiene una gramática propia: el condicional atenúa el verbo principal (le agradecería, le rogaría, quisiera) y lo que se pide va en imperfecto de subjuntivo (le agradecería que me enviara). ¿Por qué el pasado? Porque el condicional y el subjuntivo alejan la petición de la orden directa, y el tiempo de la subordinada concuerda con ese condicional.",
-          "Un buen escrito formal equilibra tres exigencias que a veces parecen tirar en direcciones opuestas: la precisión, que exige nombrar con exactitud fechas, referencias y solicitudes; la cortesía, que exige suavizar cualquier petición o reclamo mediante fórmulas atenuadoras; y la concisión, que exige eliminar cualquier información irrelevante para el propósito del mensaje. Un escrito extenso no es necesariamente más completo, y a menudo resulta menos eficaz que uno breve y bien organizado.",
-          "Lograr este equilibrio exige revisar el texto una vez redactado, preguntándose si cada frase aporta algo indispensable o si simplemente ocupa espacio. Una petición formulada con exceso de rodeos puede resultar tan ineficaz como una petición demasiado directa que prescinda de cualquier fórmula de cortesía; el punto medio entre ambos extremos es precisamente lo que distingue una correspondencia profesional bien redactada de una improvisada."
+          "La regla: cada frase de una petición formal pasa tres filtros. Precisión: ¿están los datos exactos (fecha, número de pedido, importe)? Cortesía: ¿está suavizada la petición? Concisión: ¿sobra algo? La cortesía tiene una gramática propia: el condicional atenúa el verbo principal (le agradecería, le rogaría, quisiera) y lo que se pide va en imperfecto de subjuntivo (le agradecería que me enviara). ¿Por qué el pasado? Porque el condicional y el subjuntivo alejan la petición de la orden directa, y el tiempo de la subordinada concuerda con ese condicional."
         ],
         "examples": [
           {
@@ -16382,22 +16938,39 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "Quisiera solicitar una prórroga de dos semanas.",
             "en": "I would like to request a two-week extension. (quisiera: atenúa sin rodeos)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica los tres filtros. ¿Qué petición es precisa, cortés y concisa?",
+            "options": [
+              "Le agradecería que me devolviera el importe del pedido n.º 4521 (59 €).",
+              "Devuélvanme el dinero ya.",
+              "Quisiera, si no es molestia y en la medida de lo posible, ver si acaso pudiera usted, tal vez, considerar devolverme algo.",
+              "Le agradecería que me devuelva algo del dinero de un pedido."
+            ],
+            "correctIndex": 0,
+            "explanation": "La primera pasa los tres filtros: datos exactos, condicional + imperfecto de subjuntivo y nada que sobre. La segunda no es cortés; la tercera se pierde en rodeos, y la cuarta es imprecisa y además rompe la concordancia (agradecería que… devolviera, no devuelva)."
           },
+          {
+            "type": "fill-blank",
+            "prompt": "Suaviza la petición (enviar).",
+            "sentence": "Le agradecería que me ___ la factura corregida antes del viernes.",
+            "answer": "enviara",
+            "explanation": "Tras el condicional de cortesía (le agradecería), lo que se pide va en imperfecto de subjuntivo: que me enviara. «Envíe» (presente) no concuerda con el condicional, y «enviaría» no puede ir tras «que» en una petición."
+          }
+        ]
+      },
+      {
+        "heading": "Precisión, cortesía, concisión",
+        "body": [
+          "Un buen escrito formal equilibra tres exigencias que a veces parecen tirar en direcciones opuestas: la precisión, que exige nombrar con exactitud fechas, referencias y solicitudes; la cortesía, que exige suavizar cualquier petición o reclamo mediante fórmulas atenuadoras; y la concisión, que exige eliminar cualquier información irrelevante para el propósito del mensaje. Un escrito extenso no es necesariamente más completo, y a menudo resulta menos eficaz que uno breve y bien organizado."
+        ],
+        "examples": [
           {
             "es": "una fórmula atenuadora",
             "en": "una expresión que suaviza el tono de una petición o un reclamo"
-          },
-          {
-            "es": "un exceso de rodeos",
-            "en": "una forma de expresarse que da demasiadas vueltas antes de llegar al punto central"
-          },
-          {
-            "es": "resultar ineficaz",
-            "en": "no lograr el efecto o el objetivo comunicativo esperado"
-          },
-          {
-            "es": "el punto medio",
-            "en": "el equilibrio adecuado entre dos extremos opuestos"
           },
           {
             "es": "una información irrelevante",
@@ -16420,18 +16993,40 @@ const C1_BASE_LESSONS: Lesson[] = [
               3
             ],
             "explanation": "El texto identifica la precisión, la cortesía y la concisión como las tres exigencias que un buen escrito formal debe equilibrar; la extensión máxima no aparece como un valor deseable en sí mismo."
+          }
+        ]
+      },
+      {
+        "heading": "Revisar: ni rodeos ni brusquedad",
+        "body": [
+          "Lograr este equilibrio exige revisar el texto una vez redactado, preguntándose si cada frase aporta algo indispensable o si simplemente ocupa espacio. Una petición formulada con exceso de rodeos puede resultar tan ineficaz como una petición demasiado directa que prescinda de cualquier fórmula de cortesía; el punto medio entre ambos extremos es precisamente lo que distingue una correspondencia profesional bien redactada de una improvisada."
+        ],
+        "examples": [
+          {
+            "es": "un exceso de rodeos",
+            "en": "una forma de expresarse que da demasiadas vueltas antes de llegar al punto central"
           },
           {
+            "es": "resultar ineficaz",
+            "en": "no lograr el efecto o el objetivo comunicativo esperado"
+          },
+          {
+            "es": "el punto medio",
+            "en": "el equilibrio adecuado entre dos extremos opuestos"
+          }
+        ],
+        "checkpoint": [
+          {
             "type": "multiple-choice",
-            "question": "Aplica los tres filtros. ¿Qué petición es precisa, cortés y concisa?",
+            "question": "¿Qué petición peca de exceso de rodeos?",
             "options": [
-              "Le agradecería que me devolviera el importe del pedido n.º 4521 (59 €).",
-              "Devuélvanme el dinero ya.",
-              "Quisiera, si no es molestia y en la medida de lo posible, ver si acaso pudiera usted, tal vez, considerar devolverme algo.",
-              "Le agradecería que me devuelva algo del dinero de un pedido."
+              "Me permito, si no es molestia y en la medida de lo posible, plantearle la eventual posibilidad de que quizá revisara la factura.",
+              "Revise la factura.",
+              "Le rogaría que revisara la factura n.º 88.",
+              "Quisiera pedirle que revisara la factura n.º 88."
             ],
             "correctIndex": 0,
-            "explanation": "La primera pasa los tres filtros: datos exactos, condicional + imperfecto de subjuntivo y nada que sobre. La segunda no es cortés; la tercera se pierde en rodeos, y la cuarta es imprecisa y además rompe la concordancia (agradecería que… devolviera, no devuelva)."
+            "explanation": "La primera da tantas vueltas que la petición se pierde: es tan ineficaz como el extremo contrario, «Revise la factura», que es demasiado directa y sin cortesía. Las dos últimas están en el punto medio: atenuadas, precisas y breves."
           }
         ]
       }
@@ -16803,10 +17398,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "La regla: el tipo de escrito depende de quién escribe a quién",
+        "heading": "La regla: quién escribe a quién",
         "body": [
-          "Los nombres de los documentos no se memorizan sueltos: cada uno responde a una dirección de la comunicación. De una institución a otra: el oficio. De una persona a una autoridad, para pedir algo: la instancia (o la solicitud). De un emisor a muchos destinatarios con el mismo texto: la circular. Dentro de una misma organización, breve y práctico: el memorando. ¿Por qué importa? Porque cada tipo tiene su formato y su tono, y llamar «circular» a lo que es una instancia confunde al lector sobre quién pide y quién decide.",
-          "Y a cualquier escrito se le aplican las mismas cualidades: claridad expositiva y concisión. Su enemigo es el formulismo, el abuso de fórmulas fijas que suenan solemnes pero no dicen nada."
+          "Los nombres de los documentos no se memorizan sueltos: cada uno responde a una dirección de la comunicación. De una institución a otra: el oficio. De una persona a una autoridad, para pedir algo: la instancia (o la solicitud). De un emisor a muchos destinatarios con el mismo texto: la circular. Dentro de una misma organización, breve y práctico: el memorando. ¿Por qué importa? Porque cada tipo tiene su formato y su tono, y llamar «circular» a lo que es una instancia confunde al lector sobre quién pide y quién decide."
         ],
         "examples": [
           {
@@ -16846,6 +17440,26 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Una persona que pide algo a una autoridad presenta una instancia (o solicitud). La circular y el memorando son comunicaciones de una organización, y la copia de cortesía es un duplicado para alguien que no es el destinatario principal."
+          }
+        ]
+      },
+      {
+        "heading": "Claridad, concisión y el enemigo: el formulismo",
+        "body": [
+          "Y a cualquier escrito se le aplican las mismas cualidades: claridad expositiva y concisión. Su enemigo es el formulismo, el abuso de fórmulas fijas que suenan solemnes pero no dicen nada."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase es un ejemplo de formulismo?",
+            "options": [
+              "Por medio de la presente, y sin otro particular, me es grato dirigirme a usted a los efectos oportunos.",
+              "Le escribo para solicitar el certificado de empadronamiento.",
+              "El plazo de inscripción termina el 30 de junio.",
+              "Adjunto la factura n.º 52 del mes de mayo."
+            ],
+            "correctIndex": 0,
+            "explanation": "El formulismo acumula fórmulas que suenan solemnes pero no dicen nada: la primera frase termina sin que sepamos qué se pide. Las otras tres son claras y concisas: dicen el motivo, el dato o el documento."
           }
         ]
       },
@@ -16922,6 +17536,20 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "a la espera de",
             "en": "aguardando algo («quedo a la espera de su respuesta»)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Escribes a un cliente y quieres que tu jefa reciba también el correo, solo para que esté informada. ¿Qué le envías?",
+            "options": [
+              "Una copia de cortesía",
+              "Una instancia",
+              "Un oficio",
+              "Una rúbrica"
+            ],
+            "correctIndex": 0,
+            "explanation": "La copia de cortesía es el duplicado que se envía a alguien por deferencia, para que esté al tanto. La instancia es una petición a una autoridad, el oficio es un escrito entre instituciones y la rúbrica es el trazo de la firma."
           }
         ]
       }
@@ -17017,10 +17645,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La regla: la tesis se defiende, la hipótesis se comprueba",
+        "heading": "Tesis o hipótesis: defender o comprobar",
         "body": [
-          "Antes de escribir una línea, pregúntate qué papel cumple tu idea principal. Si es la afirmación que el texto entero va a sostener con argumentos, es la tesis: se defiende. Si es una suposición provisional que todavía no sabes si es cierta, es la hipótesis: se comprueba, y los datos pueden confirmarla (resultó cierta) o refutarla (resultó falsa).",
-          "¿Por qué importa la diferencia? Porque cambia lo que el lector espera. Ante una tesis espera razones; ante una hipótesis espera pruebas y admite que puedan salir en contra. Y una tesis solo merece ese nombre si alguien podría discutirla con argumentos: si nadie razonable la negaría, no hay nada que defender."
+          "Antes de escribir una línea, pregúntate qué papel cumple tu idea principal. Si es la afirmación que el texto entero va a sostener con argumentos, es la tesis: se defiende. Si es una suposición provisional que todavía no sabes si es cierta, es la hipótesis: se comprueba, y los datos pueden confirmarla (resultó cierta) o refutarla (resultó falsa)."
         ],
         "examples": [
           {
@@ -17039,18 +17666,6 @@ const C1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Aplica la regla: ¿cuál de estas frases puede funcionar como tesis de un ensayo?",
-            "options": [
-              "Los museos públicos deberían ser gratuitos los domingos.",
-              "El agua está formada por hidrógeno y oxígeno.",
-              "Madrid es la capital de España.",
-              "Hay siete días en una semana."
-            ],
-            "correctIndex": 0,
-            "explanation": "Solo la primera admite una postura contraria razonable (alguien podría defender que los museos necesitan esos ingresos), así que puede defenderse con argumentos. Las otras tres son hechos que nadie discute: no hay tesis que sostener."
-          },
-          {
-            "type": "multiple-choice",
             "question": "Un estudio supone que leer en papel mejora la comprensión, pero los resultados muestran que no hay diferencia. ¿Qué ha pasado con la hipótesis?",
             "options": [
               "Ha sido refutada.",
@@ -17064,10 +17679,29 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La tesis y la hipótesis como columna vertebral del ensayo",
+        "heading": "Por qué importa: lo que espera el lector",
         "body": [
-          "Todo ensayo argumentativo académico gira alrededor de una tesis: una afirmación clara y defendible que el resto del texto se propone sostener mediante evidencia y razonamiento. A diferencia de una opinión suelta, la tesis debe formularse de manera que admita, al menos en principio, una postura contraria razonable, porque un ensayo que defiende algo evidente para cualquiera carece de verdadero interés argumentativo.",
-          "La hipótesis, por su parte, cumple una función distinta: no es la conclusión que el ensayo defiende, sino la suposición de partida que la investigación o el razonamiento intentan confirmar o refutar a lo largo del desarrollo. Confundir ambos conceptos —tratar la hipótesis como si ya fuera la tesis demostrada— es uno de los errores más frecuentes entre quienes se inician en la escritura académica, y debilita considerablemente la solidez del argumento final."
+          "¿Por qué importa la diferencia? Porque cambia lo que el lector espera. Ante una tesis espera razones; ante una hipótesis espera pruebas y admite que puedan salir en contra. Y una tesis solo merece ese nombre si alguien podría discutirla con argumentos: si nadie razonable la negaría, no hay nada que defender."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla: ¿cuál de estas frases puede funcionar como tesis de un ensayo?",
+            "options": [
+              "Los museos públicos deberían ser gratuitos los domingos.",
+              "El agua está formada por hidrógeno y oxígeno.",
+              "Madrid es la capital de España.",
+              "Hay siete días en una semana."
+            ],
+            "correctIndex": 0,
+            "explanation": "Solo la primera admite una postura contraria razonable (alguien podría defender que los museos necesitan esos ingresos), así que puede defenderse con argumentos. Las otras tres son hechos que nadie discute: no hay tesis que sostener."
+          }
+        ]
+      },
+      {
+        "heading": "La tesis: una afirmación defendible",
+        "body": [
+          "Todo ensayo argumentativo académico gira alrededor de una tesis: una afirmación clara y defendible que el resto del texto se propone sostener mediante evidencia y razonamiento. A diferencia de una opinión suelta, la tesis debe formularse de manera que admita, al menos en principio, una postura contraria razonable, porque un ensayo que defiende algo evidente para cualquiera carece de verdadero interés argumentativo."
         ],
         "examples": [
           {
@@ -17077,7 +17711,29 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "una postura contraria razonable",
             "en": "una posición opuesta que también podría defenderse con argumentos válidos"
-          },
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué característica debe tener una buena tesis académica?",
+            "options": [
+              "Debe ser evidente para cualquier lector sin necesidad de argumentarla",
+              "Debe admitir, al menos en principio, una postura contraria razonable",
+              "Debe formularse siempre como una pregunta sin respuesta",
+              "Debe coincidir exactamente con la hipótesis inicial"
+            ],
+            "correctIndex": 1,
+            "explanation": "El texto explica que una tesis interesante debe poder ser cuestionada por una postura contraria razonable; de lo contrario, carece de valor argumentativo. Una tesis evidente no necesita argumentación, formularla como pregunta la dejaría sin respuesta y no tiene por qué coincidir con la hipótesis inicial."
+          }
+        ]
+      },
+      {
+        "heading": "La hipótesis: punto de partida, no conclusión",
+        "body": [
+          "La hipótesis, por su parte, cumple una función distinta: no es la conclusión que el ensayo defiende, sino la suposición de partida que la investigación o el razonamiento intentan confirmar o refutar a lo largo del desarrollo. Confundir ambos conceptos —tratar la hipótesis como si ya fuera la tesis demostrada— es uno de los errores más frecuentes entre quienes se inician en la escritura académica, y debilita considerablemente la solidez del argumento final."
+        ],
+        "examples": [
           {
             "es": "la suposición de partida",
             "en": "la idea inicial que un razonamiento o una investigación intenta comprobar"
@@ -17098,15 +17754,15 @@ const C1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Según el texto, ¿qué característica debe tener una buena tesis académica?",
+            "question": "¿Qué frase trata la hipótesis como si ya fuera la tesis demostrada?",
             "options": [
-              "Debe ser evidente para cualquier lector sin necesidad de argumentarla",
-              "Debe admitir, al menos en principio, una postura contraria razonable",
-              "Debe formularse siempre como una pregunta sin respuesta",
-              "Debe coincidir exactamente con la hipótesis inicial"
+              "Como ya está demostrado que el teletrabajo aumenta la productividad, este estudio lo comprobará.",
+              "Partimos de la hipótesis de que el teletrabajo aumenta la productividad.",
+              "Los datos confirmaron la hipótesis inicial sobre el teletrabajo.",
+              "Los resultados refutaron la suposición de partida."
             ],
-            "correctIndex": 1,
-            "explanation": "El texto explica que una tesis interesante debe poder ser cuestionada por una postura contraria razonable; de lo contrario, carece de valor argumentativo. Una tesis evidente no necesita argumentación, formularla como pregunta la dejaría sin respuesta y no tiene por qué coincidir con la hipótesis inicial."
+            "correctIndex": 0,
+            "explanation": "La hipótesis es una suposición que todavía hay que comprobar; la primera frase la da por demostrada antes de investigar, el error que debilita el argumento. Las otras tres la tratan bien: la plantean como punto de partida, o dicen que los datos la confirmaron o la refutaron."
           }
         ]
       }
@@ -17199,23 +17855,14 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "La regla: que hablen los datos, no el «yo»",
+        "heading": "Tres salidas para evitar el «yo»",
         "body": [
-          "En un texto académico, el «yo opino» se cambia por una de tres salidas. 1) Una fórmula impersonal: cabe afirmar que, cabe señalar que. 2) El se impersonal o la pasiva refleja: se observa, se analizaron. 3) Un sujeto que no es el autor: los datos permiten sostener que, este estudio propone. También se admite el plural de modestia (examinamos, proponemos), pero no el singular (examino, creo).",
-          "¿Por qué? Porque así la afirmación se apoya en la evidencia y no en la persona que escribe: «creo que» invita al lector a contestar «pues yo no»; «los datos indican que» le invita a mirar los datos. Y una trampa de concordancia: en la pasiva refleja el verbo concuerda con lo que se observa (se observan dos tendencias), pero si se trata de personas con «a», el verbo queda en singular (se entrevistó a cuarenta docentes)."
+          "En un texto académico, el «yo opino» se cambia por una de tres salidas. 1) Una fórmula impersonal: cabe afirmar que, cabe señalar que. 2) El se impersonal o la pasiva refleja: se observa, se analizaron. 3) Un sujeto que no es el autor: los datos permiten sostener que, este estudio propone. También se admite el plural de modestia (examinamos, proponemos), pero no el singular (examino, creo)."
         ],
         "examples": [
           {
             "es": "Cabe destacar que la muestra es pequeña.",
             "en": "It should be noted that the sample is small. (en vez de «yo destaco»)"
-          },
-          {
-            "es": "Se analizaron tres periódicos de la época.",
-            "en": "Three newspapers from the period were analysed. (pasiva refleja: plural, concuerda con «periódicos»)"
-          },
-          {
-            "es": "Se consultó a varios expertos.",
-            "en": "Several experts were consulted. (personas con «a»: singular)"
           }
         ],
         "checkpoint": [
@@ -17230,7 +17877,25 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La primera atribuye la conclusión a la evidencia (las cifras sugieren). Las otras tres la apoyan en la opinión del autor (yo pienso, me parece, estoy seguro), que es justo lo que la convención evita."
+          }
+        ]
+      },
+      {
+        "heading": "Por qué, y la trampa de la concordancia",
+        "body": [
+          "¿Por qué? Porque así la afirmación se apoya en la evidencia y no en la persona que escribe: «creo que» invita al lector a contestar «pues yo no»; «los datos indican que» le invita a mirar los datos. Y una trampa de concordancia: en la pasiva refleja el verbo concuerda con lo que se observa (se observan dos tendencias), pero si se trata de personas con «a», el verbo queda en singular (se entrevistó a cuarenta docentes)."
+        ],
+        "examples": [
+          {
+            "es": "Se analizaron tres periódicos de la época.",
+            "en": "Three newspapers from the period were analysed. (pasiva refleja: plural, concuerda con «periódicos»)"
           },
+          {
+            "es": "Se consultó a varios expertos.",
+            "en": "Several experts were consulted. (personas con «a»: singular)"
+          }
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "¿Qué frase tiene la concordancia correcta?",
@@ -17246,10 +17911,9 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La impersonalidad y la evitación de la primera persona",
+        "heading": "Una convención muy marcada",
         "body": [
-          "Una de las convenciones más marcadas del lenguaje académico en español es la tendencia a evitar la primera persona del singular, sustituyéndola por construcciones impersonales o por la primera persona del plural. En lugar de escribir creo que los datos confirman la hipótesis, el registro académico prefiere formulaciones como los datos permiten sostener que, cabe afirmar que o se observa que, que desplazan el énfasis desde el autor individual hacia el razonamiento mismo.",
-          "Esta preferencia no responde a un simple capricho estilístico, sino a una convención que busca presentar el argumento como algo sostenido por la evidencia y la lógica, y no como una simple opinión personal del autor. El uso del se impersonal y de la voz pasiva refleja cumple precisamente esta función: diluir la presencia explícita del autor sin renunciar a la responsabilidad intelectual sobre lo afirmado."
+          "Una de las convenciones más marcadas del lenguaje académico en español es la tendencia a evitar la primera persona del singular, sustituyéndola por construcciones impersonales o por la primera persona del plural. En lugar de escribir creo que los datos confirman la hipótesis, el registro académico prefiere formulaciones como los datos permiten sostener que, cabe afirmar que o se observa que, que desplazan el énfasis desde el autor individual hacia el razonamiento mismo."
         ],
         "examples": [
           {
@@ -17265,19 +17929,23 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "una construcción con se que expresa una acción sin mencionar directamente a quien la realiza"
           },
           {
-            "es": "diluir la presencia del autor",
-            "en": "reducir la visibilidad explícita de quien escribe dentro del texto"
-          },
-          {
-            "es": "la responsabilidad intelectual",
-            "en": "el compromiso del autor con la validez de lo que afirma en su escrito"
-          },
-          {
             "es": "desplazar el énfasis",
             "en": "trasladar la atención principal de un elemento del discurso hacia otro"
           }
         ],
         "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué formulación prefiere el registro académico?",
+            "options": [
+              "Se observa que la tasa ha descendido.",
+              "Yo veo que la tasa ha descendido.",
+              "Creo que la tasa ha descendido.",
+              "Me parece que la tasa ha descendido."
+            ],
+            "correctIndex": 0,
+            "explanation": "El registro académico evita la primera persona del singular y desplaza el énfasis hacia el razonamiento: «se observa que». Las otras tres ponen al autor individual en primer plano (yo veo, creo, me parece)."
+          },
           {
             "type": "fill-blank",
             "prompt": "Reescribe la idea evitando la primera persona, según la convención académica estudiada.",
@@ -17285,6 +17953,36 @@ const C1_BASE_LESSONS: Lesson[] = [
             "answer": "Cabe",
             "explanation": "El registro académico prefiere formulaciones impersonales como cabe afirmar que, que desplazan el énfasis del autor hacia el razonamiento mismo.",
             "hint": "Piensa en el verbo impersonal de la fórmula «___ afirmar que»."
+          }
+        ]
+      },
+      {
+        "heading": "No es un capricho, es una convención",
+        "body": [
+          "Esta preferencia no responde a un simple capricho estilístico, sino a una convención que busca presentar el argumento como algo sostenido por la evidencia y la lógica, y no como una simple opinión personal del autor. El uso del se impersonal y de la voz pasiva refleja cumple precisamente esta función: diluir la presencia explícita del autor sin renunciar a la responsabilidad intelectual sobre lo afirmado."
+        ],
+        "examples": [
+          {
+            "es": "diluir la presencia del autor",
+            "en": "reducir la visibilidad explícita de quien escribe dentro del texto"
+          },
+          {
+            "es": "la responsabilidad intelectual",
+            "en": "el compromiso del autor con la validez de lo que afirma en su escrito"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Según el texto, ¿qué consigue el se impersonal en un artículo académico?",
+            "options": [
+              "Diluir la presencia del autor sin que este renuncie a su responsabilidad sobre lo afirmado",
+              "Ocultar al autor para que no tenga que responder de lo que escribe",
+              "Hacer el texto más cercano y coloquial",
+              "Evitar tener que dar datos concretos"
+            ],
+            "correctIndex": 0,
+            "explanation": "La impersonalidad presenta el argumento como sostenido por la evidencia, no por la opinión del autor, pero el autor sigue respondiendo de lo que afirma: diluye su presencia, no su responsabilidad. No vuelve el texto coloquial ni sustituye a los datos."
           }
         ]
       }
@@ -17375,10 +18073,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La regla: el conector lo decide la relación entre las dos ideas",
+        "heading": "La regla: ¿qué hace la segunda idea?",
         "body": [
-          "Para elegir conector no mires la primera frase ni la segunda por separado: pregúntate qué hace la segunda respecto a la primera. Si se deriva de ella, es una consecuencia: por consiguiente, en consecuencia. Si va en contra de lo que cabría esperar, es una objeción o un matiz: sin embargo, no obstante. Si suma otra razón en la misma dirección, es una adición: asimismo, por otra parte.",
-          "¿Por qué tanto cuidado? Porque el conector equivocado no produce una frase agramatical, sino un razonamiento falso: «la muestra es pequeña; por consiguiente, los resultados son fiables» dice que la fiabilidad se debe al tamaño reducido. El lector cree al conector antes que al contenido. Una prueba rápida: si puedes decir «por eso», es consecuencia; si puedes decir «pero», es objeción; si puedes decir «y además», es adición."
+          "Para elegir conector no mires la primera frase ni la segunda por separado: pregúntate qué hace la segunda respecto a la primera. Si se deriva de ella, es una consecuencia: por consiguiente, en consecuencia. Si va en contra de lo que cabría esperar, es una objeción o un matiz: sin embargo, no obstante. Si suma otra razón en la misma dirección, es una adición: asimismo, por otra parte."
         ],
         "examples": [
           {
@@ -17422,10 +18119,29 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Conectores argumentativos y el andamiaje lógico del ensayo",
+        "heading": "Un conector equivocado, un razonamiento falso",
         "body": [
-          "El ensayo académico avanza mediante una red de conectores que hacen explícita la relación lógica entre una idea y la siguiente: por consiguiente y en consecuencia señalan una conclusión que se desprende de lo anterior; sin embargo y no obstante introducen una objeción o un matiz; asimismo y por otra parte añaden un argumento adicional sin contradecir el anterior. Sin este andamiaje, un texto puede contener ideas correctas por separado y, aun así, resultar difícil de seguir como argumento unificado.",
-          "El uso de estos conectores exige, sin embargo, precisión semántica: emplear por consiguiente donde en realidad corresponde sin embargo invierte la lógica del razonamiento y confunde al lector, por más correcta que sea la gramática de la oración. Cabe señalar, además, que un ensayo maduro no abusa de los conectores más vistosos, sino que los dosifica allí donde realmente aclaran una transición que de otro modo resultaría ambigua."
+          "¿Por qué tanto cuidado? Porque el conector equivocado no produce una frase agramatical, sino un razonamiento falso: «la muestra es pequeña; por consiguiente, los resultados son fiables» dice que la fiabilidad se debe al tamaño reducido. El lector cree al conector antes que al contenido. Una prueba rápida: si puedes decir «por eso», es consecuencia; si puedes decir «pero», es objeción; si puedes decir «y además», es adición."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué falla en «El experimento se repitió diez veces; sin embargo, los resultados son sólidos»?",
+            "options": [
+              "Introduce como objeción lo que es una consecuencia: debería ser «por consiguiente»",
+              "La frase es agramatical",
+              "Usa una adición donde debería haber una objeción",
+              "No falla nada: «sin embargo» encaja"
+            ],
+            "correctIndex": 0,
+            "explanation": "Aplica la prueba rápida: entre «se repitió diez veces» y «son sólidos» cabe «por eso», no «pero»; es una consecuencia. La gramática es correcta: lo falso es el razonamiento, porque «sin embargo» sugiere que la solidez va en contra de la repetición."
+          }
+        ]
+      },
+      {
+        "heading": "El andamiaje lógico del ensayo",
+        "body": [
+          "El ensayo académico avanza mediante una red de conectores que hacen explícita la relación lógica entre una idea y la siguiente: por consiguiente y en consecuencia señalan una conclusión que se desprende de lo anterior; sin embargo y no obstante introducen una objeción o un matiz; asimismo y por otra parte añaden un argumento adicional sin contradecir el anterior. Sin este andamiaje, un texto puede contener ideas correctas por separado y, aun así, resultar difícil de seguir como argumento unificado."
         ],
         "examples": [
           {
@@ -17439,14 +18155,6 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "es": "desprenderse de algo",
             "en": "derivarse lógicamente de una idea o un dato anterior"
-          },
-          {
-            "es": "invertir la lógica",
-            "en": "alterar el sentido correcto de una relación de causa o consecuencia"
-          },
-          {
-            "es": "dosificar un recurso",
-            "en": "usar un recurso con mesura, evitando tanto su ausencia como su exceso"
           },
           {
             "es": "un argumento unificado",
@@ -17480,6 +18188,36 @@ const C1_BASE_LESSONS: Lesson[] = [
               2
             ],
             "explanation": "Sin embargo y no obstante introducen una objeción o un matiz, mientras que por consiguiente marca una conclusión y asimismo añade un argumento sin contradicción."
+          }
+        ]
+      },
+      {
+        "heading": "Precisión y dosificación",
+        "body": [
+          "El uso de estos conectores exige, sin embargo, precisión semántica: emplear por consiguiente donde en realidad corresponde sin embargo invierte la lógica del razonamiento y confunde al lector, por más correcta que sea la gramática de la oración. Cabe señalar, además, que un ensayo maduro no abusa de los conectores más vistosos, sino que los dosifica allí donde realmente aclaran una transición que de otro modo resultaría ambigua."
+        ],
+        "examples": [
+          {
+            "es": "invertir la lógica",
+            "en": "alterar el sentido correcto de una relación de causa o consecuencia"
+          },
+          {
+            "es": "dosificar un recurso",
+            "en": "usar un recurso con mesura, evitando tanto su ausencia como su exceso"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un ensayo empieza casi cada frase con un conector vistoso (asimismo, no obstante, por consiguiente…). ¿Qué le aconseja el texto?",
+            "options": [
+              "Dosificarlos: usarlos solo donde aclaran una transición que sería ambigua",
+              "Añadir todavía más para que suene más académico",
+              "Eliminarlos todos, porque estorban",
+              "Sustituirlos por expresiones orales como «o sea» o «pues»"
+            ],
+            "correctIndex": 0,
+            "explanation": "Un ensayo maduro no abusa de los conectores, pero tampoco prescinde de ellos: los dosifica allí donde aclaran una transición. Quitarlos todos dejaría ideas sueltas, y las muletillas orales no pertenecen al registro académico."
           }
         ]
       }
@@ -17868,11 +18606,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "La atenuación y la reserva epistémica en el discurso académico",
+        "heading": "La reserva epistémica",
         "body": [
-          "El lenguaje académico maduro rara vez afirma sus conclusiones de manera absoluta; en su lugar, recurre a expresiones de atenuación que reconocen los límites del conocimiento disponible: los datos sugieren, parecería razonable pensar que o todo indica que comunican una conclusión sostenida por la evidencia sin presentarla como una verdad incuestionable. Esta reserva epistémica no es una muestra de debilidad argumentativa, sino de honestidad intelectual frente a la complejidad del objeto de estudio.",
-          "Un ensayo que abusa de afirmaciones categóricas —siempre, nunca, es evidente que— sin matizarlas suele generar desconfianza en un lector experimentado, porque ignora la posibilidad legítima de excepciones o de interpretaciones alternativas. Encontrar el punto medio entre la atenuación excesiva, que diluye cualquier postura clara, y la afirmación categórica, que cierra el debate de forma artificial, constituye una de las destrezas más difíciles de dominar en la escritura argumentativa.",
-          "Regla práctica: la atenuación ajusta la fuerza de la afirmación a la fuerza de la evidencia. Tres recursos: cambiar el verbo (demuestra → sugiere, apunta a), pasar al condicional (es → podría ser, parecería) o añadir un marco (todo indica que…, en cierta medida). Tras estos marcos va indicativo, porque se informa de lo que muestran los datos: «todo indica que la tendencia continuará»."
+          "El lenguaje académico maduro rara vez afirma sus conclusiones de manera absoluta; en su lugar, recurre a expresiones de atenuación que reconocen los límites del conocimiento disponible: los datos sugieren, parecería razonable pensar que o todo indica que comunican una conclusión sostenida por la evidencia sin presentarla como una verdad incuestionable. Esta reserva epistémica no es una muestra de debilidad argumentativa, sino de honestidad intelectual frente a la complejidad del objeto de estudio."
         ],
         "examples": [
           {
@@ -17884,23 +18620,23 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la cautela con que se presenta un conocimiento, reconociendo sus límites"
           },
           {
-            "es": "una afirmación categórica",
-            "en": "una afirmación presentada como absolutamente cierta, sin matices"
-          },
-          {
             "es": "la honestidad intelectual",
             "en": "la actitud de reconocer los límites y las incertidumbres del propio conocimiento"
-          },
-          {
-            "es": "generar desconfianza",
-            "en": "provocar en el lector dudas sobre la fiabilidad de un argumento"
-          },
-          {
-            "es": "cerrar el debate artificialmente",
-            "en": "dar por concluida una discusión sin haber considerado posturas alternativas legítimas"
           }
         ],
         "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase presenta la conclusión con reserva epistémica?",
+            "options": [
+              "Los datos sugieren que el programa reduce el abandono escolar.",
+              "Es evidente que el programa reduce el abandono escolar.",
+              "El programa siempre reduce el abandono escolar.",
+              "Nadie puede negar que el programa reduce el abandono escolar."
+            ],
+            "correctIndex": 0,
+            "explanation": "«Los datos sugieren» sostiene la conclusión en la evidencia sin presentarla como verdad incuestionable. «Es evidente», «siempre» y «nadie puede negar» son afirmaciones categóricas que no dejan lugar a excepciones."
+          },
           {
             "type": "fill-blank",
             "prompt": "Completa la oración con una expresión de atenuación adecuada al registro académico.",
@@ -17914,7 +18650,49 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "explanation": "La expresión los resultados sugieren atenúa la afirmación y refleja la reserva epistémica propia del discurso académico maduro.",
             "hint": "Piensa en un verbo que comunique una conclusión probable sin presentarla como certeza absoluta."
+          }
+        ]
+      },
+      {
+        "heading": "Ni categórico ni diluido",
+        "body": [
+          "Un ensayo que abusa de afirmaciones categóricas —siempre, nunca, es evidente que— sin matizarlas suele generar desconfianza en un lector experimentado, porque ignora la posibilidad legítima de excepciones o de interpretaciones alternativas. Encontrar el punto medio entre la atenuación excesiva, que diluye cualquier postura clara, y la afirmación categórica, que cierra el debate de forma artificial, constituye una de las destrezas más difíciles de dominar en la escritura argumentativa."
+        ],
+        "examples": [
+          {
+            "es": "una afirmación categórica",
+            "en": "una afirmación presentada como absolutamente cierta, sin matices"
           },
+          {
+            "es": "generar desconfianza",
+            "en": "provocar en el lector dudas sobre la fiabilidad de un argumento"
+          },
+          {
+            "es": "cerrar el debate artificialmente",
+            "en": "dar por concluida una discusión sin haber considerado posturas alternativas legítimas"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué frase cae en la atenuación excesiva, que diluye cualquier postura clara?",
+            "options": [
+              "Podría quizá parecer, en cierta medida y hasta cierto punto, que tal vez el programa funcione.",
+              "Los datos sugieren que el programa funciona.",
+              "Todo indica que el programa funciona en las zonas rurales.",
+              "El programa parece eficaz, al menos a corto plazo."
+            ],
+            "correctIndex": 0,
+            "explanation": "La primera acumula atenuadores (podría, quizá, en cierta medida, hasta cierto punto, tal vez) hasta que no afirma nada: es el extremo contrario de la afirmación categórica. Las otras tres matizan una sola vez y mantienen una postura clara."
+          }
+        ]
+      },
+      {
+        "heading": "Regla práctica: tres recursos",
+        "body": [
+          "Regla práctica: la atenuación ajusta la fuerza de la afirmación a la fuerza de la evidencia. Tres recursos: cambiar el verbo (demuestra → sugiere, apunta a), pasar al condicional (es → podría ser, parecería) o añadir un marco (todo indica que…, en cierta medida). Tras estos marcos va indicativo, porque se informa de lo que muestran los datos: «todo indica que la tendencia continuará»."
+        ],
+        "checkpoint": [
           {
             "type": "multiple-choice",
             "question": "¿Qué versión ajusta mejor la afirmación a una evidencia limitada (un solo estudio, cien participantes)?",
@@ -17926,6 +18704,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "Con un solo estudio pequeño, lo honesto es atenuar: «sugiere» + «podría». «Está demostrado», «siempre» y «es evidente» presentan como cerrada una cuestión que un estudio de cien personas no puede zanjar."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa tras el marco de atenuación (seguir).",
+            "sentence": "Todo indica que la demanda ___ creciendo durante los próximos años.",
+            "answer": "seguirá",
+            "altAnswers": [
+              "va a seguir"
+            ],
+            "explanation": "Tras marcos como «todo indica que» va indicativo, porque se informa de lo que muestran los datos: seguirá. El subjuntivo «siga» solo aparecería con una negación o una duda («no está claro que siga»)."
           }
         ]
       }
@@ -17957,16 +18745,9 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "En la práctica",
+        "heading": "La regla: cada párrafo, un marcador",
         "body": [
-          "La regla: cada párrafo de un ensayo cumple una función y la anuncia con un marcador. «En primer lugar» ordena, «ahora bien» limita lo que se acaba de afirmar, «por otra parte» abre otra perspectiva, «no obstante» contrapone, «en consecuencia» extrae una conclusión y «a modo de cierre» termina. El marcador le dice al lector cómo se relaciona la frase con la anterior: si eliges uno equivocado, la lógica se rompe aunque la gramática sea correcta. Fíjate en este modelo:",
-          "Introducción: el presente ensayo sostiene que la expansión del comercio digital ha modificado sustancialmente los hábitos de consumo en la región durante la última década.",
-          "En primer lugar, cabe señalar que los datos disponibles sugieren un crecimiento sostenido de las transacciones realizadas por medios electrónicos.",
-          "Ahora bien, se observa que este fenómeno no ha afectado por igual a todos los sectores de la población, lo cual introduce una limitación importante al alcance de esta conclusión.",
-          "Por otra parte, conviene reconocer que existen interpretaciones alternativas: algunos autores atribuyen este cambio principalmente a factores demográficos, y no exclusivamente tecnológicos.",
-          "No obstante, la evidencia recopilada permite sostener que ambos factores actúan de manera complementaria, más que excluyente.",
-          "En consecuencia, resulta razonable afirmar que cualquier análisis futuro debería considerar la interacción entre ambas variables, y no privilegiar una sobre la otra.",
-          "A modo de cierre, este ensayo no pretende agotar la discusión, sino ofrecer un marco inicial que futuras investigaciones puedan matizar o ampliar."
+          "La regla: cada párrafo de un ensayo cumple una función y la anuncia con un marcador. «En primer lugar» ordena, «ahora bien» limita lo que se acaba de afirmar, «por otra parte» abre otra perspectiva, «no obstante» contrapone, «en consecuencia» extrae una conclusión y «a modo de cierre» termina. El marcador le dice al lector cómo se relaciona la frase con la anterior: si eliges uno equivocado, la lógica se rompe aunque la gramática sea correcta. Fíjate en este modelo:"
         ],
         "checkpoint": [
           {
@@ -17980,6 +18761,51 @@ const C1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "La pérdida de clientes se presenta como efecto del crecimiento en línea: hace falta un conector de consecuencia. «Ahora bien» introduciría una limitación, «a modo de cierre» solo sirve para terminar el ensayo y «en primer lugar» abre una enumeración."
+          }
+        ]
+      },
+      {
+        "heading": "El modelo (1): tesis, orden y límite",
+        "body": [
+          "Introducción: el presente ensayo sostiene que la expansión del comercio digital ha modificado sustancialmente los hábitos de consumo en la región durante la última década.",
+          "En primer lugar, cabe señalar que los datos disponibles sugieren un crecimiento sostenido de las transacciones realizadas por medios electrónicos.",
+          "Ahora bien, se observa que este fenómeno no ha afectado por igual a todos los sectores de la población, lo cual introduce una limitación importante al alcance de esta conclusión."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En el modelo, ¿qué función cumple el párrafo que empieza con «Ahora bien»?",
+            "options": [
+              "Limita el alcance de lo que se acaba de afirmar",
+              "Añade otro argumento en la misma dirección",
+              "Extrae la conclusión final del ensayo",
+              "Anuncia la tesis del ensayo"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Ahora bien» limita lo anterior: el crecimiento del comercio digital no ha afectado a todos por igual. La tesis está en la introducción, la conclusión la anuncia «en consecuencia», y para sumar argumentos se usaría «asimismo» o «además»."
+          }
+        ]
+      },
+      {
+        "heading": "El modelo (2): otra perspectiva, contraste y cierre",
+        "body": [
+          "Por otra parte, conviene reconocer que existen interpretaciones alternativas: algunos autores atribuyen este cambio principalmente a factores demográficos, y no exclusivamente tecnológicos.",
+          "No obstante, la evidencia recopilada permite sostener que ambos factores actúan de manera complementaria, más que excluyente.",
+          "En consecuencia, resulta razonable afirmar que cualquier análisis futuro debería considerar la interacción entre ambas variables, y no privilegiar una sobre la otra.",
+          "A modo de cierre, este ensayo no pretende agotar la discusión, sino ofrecer un marco inicial que futuras investigaciones puedan matizar o ampliar."
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Aplica la regla a un ensayo nuevo: «Algunos expertos culpan a los pisos turísticos de la subida del alquiler. ___, otros señalan el estancamiento de los salarios.» ¿Qué marcador abre otra perspectiva?",
+            "options": [
+              "Por otra parte",
+              "En consecuencia",
+              "A modo de cierre",
+              "En primer lugar"
+            ],
+            "correctIndex": 0,
+            "explanation": "«Por otra parte» abre otra perspectiva, como en el modelo con las interpretaciones demográficas. «En consecuencia» presentaría los salarios como efecto de los pisos turísticos, «a modo de cierre» terminaría el ensayo y «en primer lugar» empezaría una enumeración."
           }
         ]
       }

@@ -181,15 +181,14 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
     "9 min",
     [
       sec(
-        "La idea: dos patrones que te ahorran memoria",
+        "Patrón 1: familias de palabras",
         [
+          "La idea: dos patrones que te ahorran memoria.",
           "1) Familias de palabras. Muchas palabras de la justicia salen de un verbo que ya conoces: buscar → la búsqueda, sospechar → el sospechoso / sospechoso (suspicious), acusar → el acusado, juzgar → el juez y el juicio, culpa → culpable. Si ves una palabra nueva, busca el verbo que hay dentro.",
-          "2) El género de las personas. Las palabras en -o cambian a -a (el abogado → la abogada). Pero las que terminan en -e, -ista o -al suelen ser iguales para los dos y solo cambia el artículo: el/la agente, el/la fiscal, el/la periodista; y algunas en -o, como testigo, también son iguales: el/la testigo. Juez admite «la juez» y, cada vez más, «la jueza».",
         ],
         [
           ["La búsqueda duró dos días.", "The search lasted two days. (buscar → la búsqueda)"],
-          ["La testigo vio al sospechoso.", "The (female) witness saw the suspect. (testigo: solo cambia el artículo)"],
-          ["La abogada dice que su cliente es inocente.", "The (female) lawyer says her client is innocent. (abogado → abogada)"],
+          ["El acusado no quiso hablar.", "The defendant refused to speak. (acusar → el acusado)"],
         ],
         [
           mc(
@@ -198,12 +197,26 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             0,
             "Verbo → nombre con -ción: detener → la detención (the arrest), igual que proteger → la protección. El detective, el preso y el juicio son otras palabras."
           ),
+          fb("Completa con un nombre de la familia de «juzgar».", "Mañana empieza el ___ contra el alcalde.", "juicio", "Juzgar da dos nombres: el juez (la persona que juzga) y el juicio (el proceso, the trial). Aquí algo «empieza», así que es el proceso: el juicio, no el juez."),
+        ]
+      ),
+      sec(
+        "Patrón 2: el género de las personas",
+        [
+          "2) El género de las personas. Las palabras en -o cambian a -a (el abogado → la abogada). Pero las que terminan en -e, -ista o -al suelen ser iguales para los dos y solo cambia el artículo: el/la agente, el/la fiscal, el/la periodista; y algunas en -o, como testigo, también son iguales: el/la testigo. Juez admite «la juez» y, cada vez más, «la jueza».",
+        ],
+        [
+          ["La testigo vio al sospechoso.", "The (female) witness saw the suspect. (testigo: solo cambia el artículo)"],
+          ["La abogada dice que su cliente es inocente.", "The (female) lawyer says her client is innocent. (abogado → abogada)"],
+        ],
+        [
           mc(
             "¿Cómo se dice «the (female) police officer»?",
             ["la agente de policía", "la agenta de policía", "el agente de policía"],
             0,
             "Agente termina en -e y es igual para hombres y mujeres: solo cambia el artículo, la agente. «Agenta» no existe y «el agente» sería un hombre."
           ),
+          toEs("El periodista habló con el testigo.", "La periodista habló con la testigo.", "Periodista (-ista) y testigo son iguales para los dos géneros: solo cambia el artículo, la periodista, la testigo. «Periodisto» y «testiga» no existen.", [], "Cambia a femenino (las dos personas son mujeres)."),
         ]
       ),
       sec(
