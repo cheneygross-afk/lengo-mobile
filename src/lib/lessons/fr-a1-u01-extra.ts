@@ -565,6 +565,7 @@ export const FR_A1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "The old man is very kind.",
         answer: "Le vieil homme est très gentil.",
+        altAnswers: ["Le vieux monsieur est très gentil."],
         explanation: "\"Homme\" has a silent h: \"vieil\".",
       },
       {

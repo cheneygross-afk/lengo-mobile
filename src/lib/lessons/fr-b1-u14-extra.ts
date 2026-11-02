@@ -158,7 +158,7 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form is correct?",
+        question: "How do you say: She had opened the door?",
         options: ["Elle avait ouvert la porte.", "Elle avait ouvri la porte.", "Elle était ouvert la porte.", "Elle avait ouvrée la porte."],
         correctIndex: 0,
         explanation: "\"Ouvrir\" → \"ouvert\", with avoir.",
@@ -332,7 +332,7 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: They had got lost? (a group of women)",
         options: ["Elles s'étaient perdues.", "Elles s'avaient perdues.", "Elles s'étaient perdu.", "Elles étaient se perdues."],
         correctIndex: 0,
         explanation: "Être + agreement; the pronoun goes before the auxiliary.",
@@ -899,7 +899,7 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "How do you say: They had sat down at the back? (a group of women)",
         options: [
           "Elles s'étaient assises au fond.",
           "Elles s'avaient assises au fond.",
@@ -2353,7 +2353,7 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correctly spelled?",
+        question: "How do you say: They had got up early? (a group of women)",
         options: ["Elles s'étaient levées tôt.", "Elles s'étaient levés tôt.", "Elles s'étaient levé tôt.", "Elles s'était levées tôt."],
         correctIndex: 0,
         explanation: "Feminine plural on both auxiliary (\"étaient\") and participle (\"levées\").",

@@ -458,7 +458,7 @@ export const FR_A2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your colleague asks: \"Vous avez parlé du budget ?\" You want to say: Yes, we talked about it. Which is right?",
+            question: "Your colleague asks: \"Vous avez parlé du budget ?\" You want to say: Yes, we talked about it. How do you say it?",
             options: ["Oui, on en a parlé.", "Oui, on l'a parlé.", "Oui, on y a parlé.", "Oui, on a parlé."],
             correctIndex: 0,
             explanation: "\"Parler de\" + thing → en: \"on en a parlé\". \"Le\" would need a direct object, \"y\" goes with \"à\".",
@@ -577,7 +577,7 @@ export const FR_A2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Someone asks if you need help with your suitcases. You want to say: No, I don't need it. Which is right?",
+        question: "Someone asks if you need help with your suitcases. You want to say: No, I don't need it. How do you say it?",
         options: ["Non, je n'en ai pas besoin.", "Non, je ne l'ai pas besoin.", "Non, je n'ai pas besoin.", "Non, je n'y ai pas besoin."],
         correctIndex: 0,
         explanation: "\"Avoir besoin de\" → en, inside the negation: \"je n'en ai pas besoin\".",
@@ -766,7 +766,7 @@ export const FR_A2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Tu penses à Julie ?\" You want to say: Yes, I think about her a lot. Which is right?",
+        question: "\"Tu penses à Julie ?\" You want to say: Yes, I think about her a lot. How do you say it?",
         options: ["Oui, je pense beaucoup à elle.", "Oui, j'y pense beaucoup.", "Oui, j'en pense beaucoup.", "Oui, je lui pense beaucoup."],
         correctIndex: 0,
         explanation: "For a person, \"penser à\" keeps à + stressed pronoun: \"à elle\". Y is for things, and \"penser\" never takes lui.",
@@ -1186,7 +1186,7 @@ export const FR_A2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You want to say: She sings better than me. Which is right?",
+        question: "You want to say: She sings better than me. How do you say it?",
         options: ["Elle chante mieux que moi.", "Elle chante meilleur que moi.", "Elle chante plus bien que moi.", "Elle chante mieux que je."],
         correctIndex: 0,
         explanation: "Better with a verb is \"mieux\", and \"que\" takes the stressed pronoun \"moi\".",
@@ -1366,7 +1366,7 @@ export const FR_A2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You want to say: He's a very kind person. Which is right?",
+        question: "You want to say: He's a very kind person. How do you say it?",
         options: ["C'est une personne très gentille.", "C'est un personne très gentil.", "C'est un gens très gentil.", "C'est une gens très gentille."],
         correctIndex: 0,
         explanation: "\"Une personne\" is always feminine, so the adjective is too, even for a man. \"Gens\" has no singular.",

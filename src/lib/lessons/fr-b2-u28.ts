@@ -933,7 +933,7 @@ export const FR_B2_U28: Lesson[] = [
           { es: "« Il fallait que nous limitions la fréquentation pour que la végétation puisse se régénérer. »", en: "We had to limit visitor numbers so that the vegetation could regenerate." },
           { es: "« Bien que la réservation soit gratuite, beaucoup de gens l'ont mal acceptée au début. »", en: "Although booking is free, a lot of people took it badly at first." },
           { es: "« Ce que les visiteurs ne voient pas, c'est l'érosion des sentiers, piétinés par des milliers de pieds. »", en: "What visitors don't see is the erosion of the paths, trampled by thousands of feet." },
-          { es: "« Aujourd'hui, la plupart des gens comprennent qu'on doive protéger cet endroit. »", en: "Today most people understand that this place has to be protected." },
+          { es: "« Aujourd'hui, la plupart des gens comprennent qu'il faut protéger cet endroit. »", en: "Today most people understand that this place has to be protected." },
         ],
         checkpoint: [
           {
@@ -1342,15 +1342,15 @@ export const FR_B2_U28: Lesson[] = [
           { es: "D'autre part, il permet de financer l'entretien du patrimoine.", en: "On the other hand, it helps pay for the upkeep of heritage sites." },
           { es: "En effet, les entrées du Mont-Saint-Michel servent en partie à restaurer l'abbaye.", en: "Indeed, the entrance fees at Mont-Saint-Michel partly go toward restoring the abbey." },
           { es: "En outre, les locations de courte durée font flamber les loyers dans les centres historiques.", en: "Moreover, short-term rentals send rents soaring in historic centres." },
-          { es: "Les habitants partent, si bien que certains quartiers se transforment en décors de cinéma.", en: "Residents leave, so that some neighbourhoods turn into film sets." },
-          { es: "Dans la mesure où la nature ne se régénère pas, il faudrait limiter le nombre de visiteurs dans les Calanques.", en: "Insofar as nature does not regenerate, the number of visitors to the Calanques should be limited." },
+          { es: "Les habitants partent, si bien que certains quartiers se transforment en décors de cinéma.", en: "Residents leave, so some neighbourhoods turn into film sets." },
+          { es: "Dans la mesure où la nature ne se régénère pas assez vite, il faudrait limiter le nombre de visiteurs dans les Calanques.", en: "Insofar as nature does not regenerate fast enough, the number of visitors to the Calanques should be limited." },
           { es: "Aussi faut-il repenser notre façon de voyager.", en: "We must therefore rethink the way we travel." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "Residents are leaving, [so that] the centre is emptying.",
+            en: "Residents are leaving, [so] the centre is emptying.",
             sentence: "Les habitants partent, ___ le centre se vide.",
             answer: "si bien que",
             altAnswers: ["de sorte que", "de telle sorte que"],
@@ -1440,8 +1440,8 @@ export const FR_B2_U28: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[Insofar as] nature does not regenerate, we must limit visits.",
-        sentence: "___ la nature ne se régénère pas, il faut limiter les visites.",
+        en: "[Insofar as] nature does not regenerate fast enough, we must limit visits.",
+        sentence: "___ la nature ne se régénère pas assez vite, il faut limiter les visites.",
         answer: "Dans la mesure où",
         altAnswers: ["dans la mesure où"],
         explanation: "\"Dans la mesure où\" gives a cause or a condition and takes the indicative.",
@@ -1583,7 +1583,7 @@ export const FR_B2_U28: Lesson[] = [
         ],
         examples: [
           { es: "Hélène Roussel, faut-il bannir la voiture des centres-villes ?", en: "Helene Roussel, should cars be banned from city centres?" },
-          { es: "Bannir, non ; mais il me semble qu'il faut lui rendre moins de place.", en: "Ban them, no; but it seems to me that we should give them less space." },
+          { es: "Bannir, non ; mais il me semble qu'il faut lui laisser moins de place.", en: "Ban them, no; but it seems to me that we should give them less space." },
           { es: "À Pontevedra, en Espagne, le centre est piéton depuis plus de vingt ans.", en: "In Pontevedra, in Spain, the centre has been pedestrian for over twenty years." },
           { es: "Les commerçants craignaient de perdre leurs clients ; or, c'est l'inverse qui s'est produit.", en: "Shopkeepers feared they would lose their customers; yet the opposite happened." },
           { es: "Dans une certaine mesure, ce modèle pourrait s'appliquer aux villes françaises.", en: "To some extent, this model could apply to French cities." },
@@ -1712,7 +1712,7 @@ export const FR_B2_U28: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "Bannir, non ; mais il me semble qu'il faut lui rendre moins de place.",
+        audio: "Bannir, non ; mais il me semble qu'il faut lui laisser moins de place.",
         question: "What does the town planner think about cars in city centres?",
         options: ["They should not be banned, but should have less space.", "They should be banned completely.", "They should have more parking spaces.", "She has no opinion."],
         correctIndex: 0,

@@ -334,7 +334,7 @@ export const FR_C1_U09: Lesson[] = [
       {
         heading: "People: de lui, d'elle, and the link to dont",
         body: [
-          "With a person, standard French keeps \"de\" + a stressed pronoun after the verb: \"Tu te souviens de Claire ? Oui, je me souviens d'elle.\" \"Je me méfie de lui.\" \"Elle s'occupe d'eux le mercredi.\" Using \"en\" for a specific person (\"*je m'en souviens\" meaning Claire) is heard in casual speech but is marked as careless in writing.",
+          "With a person, standard French keeps \"de\" + a stressed pronoun after the verb: \"Tu te souviens de Claire ? Oui, je me souviens d'elle.\" \"Je me méfie de lui.\" \"Elle s'occupe d'eux le mercredi.\" Using \"en\" for a specific person (\"je m'en souviens\" meaning Claire) is common in speech, and some grammarians accept it, but \"de\" + stressed pronoun remains the recommended choice in careful writing.",
           "\"En\" for people is normal in one case: when the people are an indefinite group or a quantity. \"Des collaborateurs fiables, on en a besoin\" (reliable staff: we need them) is perfectly standard.",
           "These de-verbs are also the engine of \"dont\", which you saw at the Upper-intermediate level. \"Dont\" replaces \"de + antecedent\": \"le collègue dont je me méfie\" (the colleague I don't trust), \"le jour dont je me souviens\", \"les outils dont nous avons besoin\". If the verb takes de, the relative is dont; if you are unsure, check the verb's construction first.",
         ],
@@ -436,10 +436,10 @@ export const FR_C1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct written French for: My sister? I've always looked after her.",
+        question: "Which sentence follows the recommended written usage for: My sister? I've always looked after her.",
         options: ["Ma sœur ? Je me suis toujours occupé d'elle.", "Ma sœur ? Je m'en suis toujours occupé.", "Ma sœur ? Je lui suis toujours occupé.", "Ma sœur ? Je me suis toujours occupé à elle."],
         correctIndex: 0,
-        explanation: "A specific person after a de-verb: \"d'elle\". \"Je m'en suis occupé\" is heard in speech but avoided in careful French.",
+        explanation: "A specific person after a de-verb: \"d'elle\". \"Je m'en suis occupé\" is heard in speech, but careful writing prefers de + stressed pronoun for a specific person.",
       },
       {
         type: "translate",
@@ -1486,7 +1486,7 @@ export const FR_C1_U09: Lesson[] = [
           { es: "La grève les a empêchés de rentrer à temps.", en: "The strike stopped them from getting home in time." },
           { es: "Je vous remercie de m'avoir répondu si vite.", en: "Thank you for replying so quickly." },
           { es: "Ses amis l'ont encouragée à reprendre ses études.", en: "Her friends encouraged her to go back to studying." },
-          { es: "On leur a interdit de garer leur camion devant l'école.", en: "They were forbidden to park their van in front of the school." },
+          { es: "On leur a interdit de garer leur camion devant l'école.", en: "They were forbidden to park their lorry in front of the school." },
           { es: "Rien ne l'oblige à accepter ces conditions.", en: "Nothing forces him to accept these conditions." },
         ],
         checkpoint: [

@@ -580,7 +580,7 @@ export const FR_C1_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "That's not entirely accurate.",
         answer: "Ce n'est pas tout à fait exact.",
-        altAnswers: ["Ce n'est pas tout à fait juste.", "Ce n'est pas totalement exact."],
+        altAnswers: ["Ce n'est pas tout à fait juste.", "Ce n'est pas totalement exact.", "Ce n'est pas entièrement exact."],
         explanation: "The polite way to say 'that's wrong'.",
       },
       {
@@ -1019,7 +1019,7 @@ export const FR_C1_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "Seeing as you're here, can you help me?",
         answer: "Vu que tu es là, tu peux m'aider ?",
-        altAnswers: ["Puisque tu es là, tu peux m'aider ?", "Vu que tu es là, est-ce que tu peux m'aider ?", "Vu que vous êtes là, vous pouvez m'aider ?", "Puisque vous êtes là, pouvez-vous m'aider ?", "Vu que tu es là, peux-tu m'aider ?", "Vu que vous êtes là, pouvez-vous m'aider ?"],
+        altAnswers: ["Puisque tu es là, tu peux m'aider ?", "Vu que tu es là, est-ce que tu peux m'aider ?", "Vu que vous êtes là, vous pouvez m'aider ?", "Puisque vous êtes là, pouvez-vous m'aider ?", "Vu que tu es là, peux-tu m'aider ?", "Vu que vous êtes là, pouvez-vous m'aider ?", "Puisque tu es là, peux-tu m'aider ?", "Puisque tu es là, est-ce que tu peux m'aider ?", "Puisque vous êtes là, vous pouvez m'aider ?", "Vu que vous êtes là, est-ce que vous pouvez m'aider ?", "Puisque vous êtes là, est-ce que vous pouvez m'aider ?"],
         explanation: "\"Vu que\" is the conversational 'seeing as'.",
       },
       {
@@ -1944,7 +1944,7 @@ export const FR_C1_U10: Lesson[] = [
         prompt: "Translate into French (casual speech).",
         source: "So basically, I'm calling about the party.",
         answer: "En fait, je t'appelle pour la fête.",
-        altAnswers: ["En fait, je t'appelle pour la soirée.", "En fait, je vous appelle pour la fête.", "En fait, je t'appelle à propos de la fête."],
+        altAnswers: ["En fait, je t'appelle pour la soirée.", "En fait, je vous appelle pour la fête.", "En fait, je t'appelle à propos de la fête.", "En fait, je vous appelle pour la soirée.", "En fait, je vous appelle à propos de la fête."],
         explanation: "\"En fait\" introduces the topic in speech.",
       },
       {
@@ -2286,10 +2286,10 @@ export const FR_C1_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French, making it clear that it's the son who called back.",
-            source: "I wrote to my neighbour's son, who called me back the next day.",
+            source: "I wrote to my neighbour's son, who called me back the next day. (The neighbour is a woman.)",
             answer: "J'ai écrit au fils de ma voisine, lequel m'a rappelé le lendemain.",
-            altAnswers: ["J'ai écrit au fils de ma voisine, lequel m'a rappelée le lendemain.", "J'ai écrit au fils de mon voisin, lequel m'a rappelé le lendemain.", "J'ai écrit au fils de mon voisin, lequel m'a rappelée le lendemain."],
-            explanation: "\"Lequel\" (masculine) points unambiguously to \"le fils\".",
+            altAnswers: ["J'ai écrit au fils de ma voisine, lequel m'a rappelée le lendemain."],
+            explanation: "\"Lequel\" (masculine) points unambiguously to \"le fils\", because \"ma voisine\" is feminine. With \"mon voisin\", \"lequel\" could refer to either man, so it would no longer remove the ambiguity.",
           },
           {
             type: "multiple-choice",
@@ -2561,6 +2561,7 @@ export const FR_C1_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "Admittedly, the car is practical, but it pollutes.",
         answer: "Certes, la voiture est pratique, mais elle pollue.",
+        altAnswers: ["Certes, la voiture est pratique, mais elle est polluante."],
         explanation: "\"Certes... mais\": concede, then oppose.",
       },
       {

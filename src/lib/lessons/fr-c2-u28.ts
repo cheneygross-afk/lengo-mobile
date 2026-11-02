@@ -310,8 +310,7 @@ export const FR_C2_U28: Lesson[] = [
             en: "[Just because] it has a cause [doesn't mean] it isn't free.",
             sentence: "___ un acte a une cause qu'il n'est pas libre.",
             answer: "Ce n'est pas parce qu'",
-            altAnswers: ["Ce n'est pas parce que"],
-            explanation: "\"Ce n'est pas parce que... que...\" refutes a faulty inference; elision before \"un\".",
+            explanation: "\"Ce n'est pas parce que... que...\" refutes a faulty inference; \"que\" must elide before \"un\": \"parce qu'un acte\".",
           },
           {
             type: "multiple-choice",
@@ -672,7 +671,7 @@ export const FR_C2_U28: Lesson[] = [
         prompt: "Translate into French.",
         source: "She is a conscientious student.",
         answer: "C'est une étudiante consciencieuse.",
-        altAnswers: ["C'est une élève consciencieuse.", "Elle est consciencieuse."],
+        altAnswers: ["C'est une élève consciencieuse."],
         explanation: "\"Consciencieux\" = conscientious (careful, diligent); \"conscient\" = aware.",
       },
     ],
@@ -941,8 +940,7 @@ export const FR_C2_U28: Lesson[] = [
             en: "Man, [as] a social being, needs others.",
             sentence: "L'homme, ___ être social, a besoin des autres.",
             answer: "en tant qu'",
-            altAnswers: ["en tant que"],
-            explanation: "\"En tant que\" = as, qua; not \"autant que\" (as much as).",
+            explanation: "\"En tant que\" = as, qua; not \"autant que\" (as much as). It elides before \"être\": \"en tant qu'être\".",
           },
           {
             type: "multiple-choice",

@@ -585,8 +585,8 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into French (convert to indirect speech): \"« Je partais quand tu as appelé », a-t-il expliqué.\"",
         source: "He explained he was leaving when I called.",
         answer: "Il a expliqué qu'il partait quand j'ai appelé.",
-        altAnswers: ["Il a expliqué qu'il partait quand j'avais appelé.", "Il a expliqué qu'il partait au moment où j'ai appelé.", "Il a expliqué qu'il partait au moment où j'avais appelé."],
-        explanation: "The imparfait doesn't change. In a time clause the passé composé usually stays (\"quand j'ai appelé\"), since the call happens at the same moment as \"partait\"; a strict backshift to \"j'avais appelé\" is also found.",
+        altAnswers: ["Il a expliqué qu'il partait au moment où j'ai appelé."],
+        explanation: "The imparfait doesn't change. In a time clause the passé composé usually stays (\"quand j'ai appelé\"), since the call happens at the same moment as \"partait\". A mechanical backshift to \"j'avais appelé\" would place the call before the leaving, which is not what he meant.",
       },
       {
         type: "fill-blank",

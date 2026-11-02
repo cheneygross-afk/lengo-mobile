@@ -15,7 +15,7 @@ export const FR_A2_U23_WRITING: WriteExercise = {
     "Includes a comparison (\"plus... que\", \"meilleur\") and a plan in the futur simple (\"j'y retournerai\", \"je reviendrai\")",
   ],
   modelAnswer: "Salut Hugo !\n\nJe viens de rentrer de Marseille. J'avais une chambre près du Vieux-Port : elle était petite mais très jolie, et il faisait beau tous les jours. Lundi, j'ai pris le bateau pour les calanques et mercredi, j'ai mangé une bouillabaisse. J'en rêve encore ! Jeudi, j'ai perdu mon portefeuille dans le bus, mais un chauffeur l'a trouvé et je l'ai récupéré au dépôt. Marseille est plus animée que ma ville, et la mer est beaucoup plus belle ! J'y retournerai l'été prochain. Tu viendras avec moi ?\n\nÀ bientôt,\nSam",
-  explanation: "The imparfait describes (\"j'avais\", \"elle était\", \"il faisait\"), the passé composé tells the events (\"j'ai pris\", \"j'ai perdu\", \"il l'a trouvé\"), pronouns avoid repetition (\"j'en rêve\", \"l'a trouvé\", \"j'y retournerai\"), \"plus... que\" compares, and the futur simple makes the plan (\"j'y retournerai\", \"tu viendras\"). \"Je viens de rentrer\" = I've just got back.",
+  explanation: "The imparfait describes (\"j'avais\", \"elle était\", \"il faisait\"), the passé composé tells the events (\"j'ai pris\", \"j'ai perdu\", \"un chauffeur l'a trouvé\"), pronouns avoid repetition (\"j'en rêve\", \"l'a trouvé\", \"j'y retournerai\"), \"plus... que\" compares, and the futur simple makes the plan (\"j'y retournerai\", \"tu viendras\"). \"Je viens de rentrer\" = I've just got back.",
 };
 
 export const FR_A2_U23: Lesson[] = [

@@ -266,8 +266,8 @@ export const DALF_C1_CO: ExamPaper = {
           question: "Quelle limite le chroniqueur signale-t-il ?",
           options: [
             "Le coût de l'entretien, que certaines communes n'avaient pas prévu.",
-            "Le manque d'arbres adaptés au climat.",
-            "L'opposition des enseignants au projet.",
+            "Le manque d'arbres adaptés aux fortes chaleurs de l'été.",
+            "L'opposition des enseignants, qui jugent le projet trop coûteux.",
           ],
           answer: 0,
           explanation:
@@ -278,8 +278,8 @@ export const DALF_C1_CO: ExamPaper = {
           source: 1,
           question: "Selon le médecin, le manque de sommeil des lycéens s'explique d'abord par…",
           options: [
-            "leur manque de discipline.",
-            "l'usage excessif des écrans.",
+            "leur manque de discipline et de volonté le soir.",
+            "l'usage excessif des écrans avant de se coucher.",
             "un décalage naturel de leur horloge biologique.",
           ],
           answer: 2,

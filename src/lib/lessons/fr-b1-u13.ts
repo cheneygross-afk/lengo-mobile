@@ -220,7 +220,7 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: If I had money, I'd buy a house?",
         options: [
           "Si j'avais de l'argent, j'achèterais une maison.",
           "Si j'aurais de l'argent, j'achèterais une maison.",
@@ -551,7 +551,7 @@ export const FR_B1_U13: Lesson[] = [
         examples: [
           { es: "J'espère que je trouverai un nouvel appartement avant l'été.", en: "I hope I'll find a new flat before the summer." },
           { es: "Pourvu qu'il fasse beau pour le mariage !", en: "Let's hope the weather's nice for the wedding!" },
-          { es: "J'espère que tu auras ton examen.", en: "I hope you'll pass your exam." },
+          { es: "J'espère que tu réussiras ton examen.", en: "I hope you'll pass your exam." },
           { es: "Pourvu que le train ne soit pas en retard !", en: "Fingers crossed the train isn't late!" },
           { es: "J'espère qu'on se verra plus souvent cette année.", en: "I hope we'll see each other more often this year." },
           { es: "Pourvu que les enfants ne tombent pas malades pendant les vacances !", en: "Let's hope the kids don't get sick during the holidays!" },
@@ -687,7 +687,7 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I hope it'll be nice tomorrow?",
         options: [
           "J'espère qu'il fera beau demain.",
           "J'espère qu'il fasse beau demain.",
@@ -1241,7 +1241,7 @@ export const FR_B1_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say: She took the suitcases up?",
             options: ["Elle a monté les valises.", "Elle est monté les valises.", "Elle est montée les valises.", "Elle a montée les valises."],
             correctIndex: 0,
             explanation: "With a direct object (les valises), monter takes avoir, and the participle doesn't agree with the subject.",
@@ -1688,7 +1688,7 @@ export const FR_B1_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say: The flight may be cancelled? (use il est possible que)",
             options: [
               "Il est possible que le vol soit annulé.",
               "Il est possible que le vol est annulé.",

@@ -1046,8 +1046,8 @@ export const FR_B2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "By going to bed at ten.",
         answer: "En me couchant à dix heures.",
-        altAnswers: ["En me couchant à vingt-deux heures.", "En me couchant à 22 heures.", "En allant me coucher à dix heures.", "En allant au lit à dix heures."],
-        explanation: "The answer is about me: \"en me couchant\".",
+        altAnswers: ["En me couchant à vingt-deux heures.", "En me couchant à 22 heures.", "En allant me coucher à dix heures.", "En allant au lit à dix heures.", "En se couchant à dix heures.", "En nous couchant à dix heures."],
+        explanation: "As an answer about yourself: \"en me couchant\". The pronoun follows the subject, so a general answer is \"en se couchant\" and one about us is \"en nous couchant\".",
       },
       {
         type: "translate",

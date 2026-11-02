@@ -166,9 +166,9 @@ export const DELF_B1_CE: ExamPaper = {
           n: 12,
           question: "Quel problème rencontrent certains habitants ?",
           options: [
-            "La mairie est fermée le mercredi.",
+            "La mairie est désormais fermée tous les mercredis.",
             "La personne qui s'occupe de leur dossier n'est pas toujours présente.",
-            "Les horaires d'ouverture ont été réduits.",
+            "Les horaires d'ouverture au public ont été réduits.",
           ],
           answer: 1,
           explanation: "Chaque agent a un jour de repos différent : il faut parfois revenir le lendemain.",
@@ -238,8 +238,8 @@ export const DELF_B1_CE: ExamPaper = {
           n: 17,
           question: "Si vous rendez vos documents en retard…",
           options: [
-            "vous devrez payer une amende.",
-            "votre inscription sera annulée.",
+            "vous devrez payer une amende pour chaque jour de retard.",
+            "votre inscription sera annulée pour l'année en cours.",
             "vous ne pourrez plus emprunter jusqu'à leur retour.",
           ],
           answer: 2,

@@ -654,16 +654,16 @@ export const FR_B1_U02: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each infinitive with its subjunctive (que je...).",
+        instructions: "Match the French and the English.",
         pairs: [
-          { left: "lire", right: "lise" },
-          { left: "écrire", right: "écrive" },
-          { left: "dire", right: "dise" },
-          { left: "mettre", right: "mette" },
-          { left: "connaître", right: "connaisse" },
-          { left: "dormir", right: "dorme" },
+          { left: "Il faut que je lise.", right: "I have to read." },
+          { left: "Il faut que j'écrive.", right: "I have to write." },
+          { left: "Il faut que je dise oui.", right: "I have to say yes." },
+          { left: "Il faut que je mette un pull.", right: "I have to put a jumper on." },
+          { left: "Il faut que je connaisse le code.", right: "I need to know the code." },
+          { left: "Il faut que je dorme.", right: "I need to sleep." },
         ],
-        explanation: "Each subjunctive stem comes from the ils form of the present.",
+        explanation: "Each subjunctive stem comes from the ils form of the present: ils lisent → \"lise\", ils écrivent → \"écrive\", ils disent → \"dise\", ils mettent → \"mette\", ils connaissent → \"connaisse\", ils dorment → \"dorme\".",
       },
       {
         type: "listen-choose",
@@ -1114,8 +1114,8 @@ export const FR_B1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say: We mustn't forget. (Il ne faut pas...)",
-        options: ["que nous oublions", "que nous oublieons", "que nous oubliions", "que nous oubliyons"],
+        question: "How do you say: We mustn't forget?",
+        options: ["Il ne faut pas que nous oublions.", "Il ne faut pas que nous oublieons.", "Il ne faut pas que nous oubliions.", "Il ne faut pas que nous oubliyons."],
         correctIndex: 2,
         explanation: "\"Il ne faut pas que nous oubliions\": stem \"oubli-\" + \"-ions\" gives a double i. \"Oublions\" without the second i is the present.",
       },
@@ -1411,7 +1411,7 @@ export const FR_B1_U02: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In which sentence is \"parlions\" a subjunctive?",
+            question: "Which sentence means: We need to talk to your father?",
             options: [
               "Avant, nous parlions tous les jours.",
               "Nous parlions quand il est arrivé.",
@@ -1636,8 +1636,8 @@ export const FR_B1_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which form is correct?",
-            options: ["que tu écrises", "que tu écris", "que tu écrives", "que tu écrire"],
+            question: "How do you say: You need to write your address? (to a friend)",
+            options: ["Il faut que tu écrises ton adresse.", "Il faut que tu écris ton adresse.", "Il faut que tu écrives ton adresse.", "Il faut que tu écrire ton adresse."],
             correctIndex: 2,
             explanation: "Ils écrivent → \"écriv-\" + \"-es\".",
           },
@@ -1992,10 +1992,10 @@ export const FR_B1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say: I think you work too much? (formal) \"Je pense que vous ___ trop.\"",
-        options: ["travailliez", "travailler", "travaillent", "travaillez"],
+        question: "How do you say: I think you work too much? (formal)",
+        options: ["Je pense que vous travailliez trop.", "Je pense que vous travailler trop.", "Je pense que vous travaillent trop.", "Je pense que vous travaillez trop."],
         correctIndex: 3,
-        explanation: "\"Penser que\" in the affirmative introduces a statement: indicative.",
+        explanation: "\"Penser que\" in the affirmative introduces a statement: indicative \"travaillez\". \"Travailliez\" would be the subjunctive (or the imparfait), which belongs after \"il faut que\".",
       },
       {
         type: "listen-choose",

@@ -5,7 +5,7 @@ import type { FrGrammarGuide } from "./fr-types";
 export const FR_C1_GUIDES: FrGrammarGuide[] = [
   {
     slug: "french-subjunctive-advanced",
-    title: "The French Subjunctive at the Advanced level: Superlatives, Que-Fronting and Qui Que",
+    title: "The French Subjunctive at the Advanced Level: Superlatives, Que-Fronting and Qui Que",
     description:
       "The subjunctive beyond the usual triggers: after superlatives and le seul, in sentences that open with que, after le fait que, with qui que / quoi que / où que, and as a tool for tactful disagreement.",
     level: "C1",
@@ -618,7 +618,7 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
   },
   {
     slug: "impersonal-constructions-and-passive-alternatives",
-    title: "Impersonal Il and the Passive at the Advanced level: Il S'agit De, Se Faire + Infinitive, Ça Ne Se Fait Pas",
+    title: "Impersonal Il and the Passive at the Advanced Level: Il S'agit De, Se Faire + Infinitive, Ça Ne Se Fait Pas",
     description:
       "How French hides or downplays the agent: the passive in every tense with par or de, impersonal il (il s'agit de, il manque, il est + adjective + de), se faire and se voir + infinitive, and the pronominal passive.",
     level: "C1",
@@ -1211,7 +1211,7 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
   },
   {
     slug: "emphasis-pseudo-clefts-and-inversion",
-    title: "Emphasis in French at the Advanced level: Clefts, Pseudo-Clefts, Dislocation and Stylistic Inversion",
+    title: "Emphasis in French at the Advanced Level: Clefts, Pseudo-Clefts, Dislocation and Stylistic Inversion",
     description:
       "How French puts words in focus without raising its voice: c'est... qui / que with prepositions and agreement, ce que... c'est and ce dont... c'est de, dislocation with y and en, inversion (rares sont ceux qui, tel est), and litotes.",
     level: "C1",

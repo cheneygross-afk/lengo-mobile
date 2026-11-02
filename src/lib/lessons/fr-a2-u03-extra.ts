@@ -1616,8 +1616,8 @@ export const FR_A2_U03_EXTRA: Lesson[] = [
         en: "My wife and I [left] on Friday.",
         sentence: "Ma femme et moi, on ___ vendredi.",
         answer: "est partis",
-        altAnswers: ["est parti"],
-        explanation: "\"On\" = a couple → \"partis\".",
+        altAnswers: ["est parti", "est parties"],
+        explanation: "\"On\" = a couple → \"partis\" (a woman speaking about herself and her wife would write \"parties\"); \"on est parti\" is also accepted.",
       },
       {
         type: "multiple-choice",

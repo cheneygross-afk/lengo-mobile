@@ -650,7 +650,7 @@ export const FR_B1_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How does the recipe say: Take the whisk that's in the drawer?",
         options: [
           "Prenez le fouet qui est dans le tiroir.",
           "Prenez le fouet que est dans le tiroir.",
@@ -864,7 +864,7 @@ export const FR_B1_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: The slides I had made have disappeared?",
         options: [
           "Les diapos que j'avais faites ont disparu.",
           "Les diapos que j'avais fait ont disparu.",
@@ -1967,7 +1967,7 @@ export const FR_B1_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: It's the car I want?",
         options: [
           "C'est la voiture dont j'ai envie.",
           "C'est la voiture que j'ai envie.",
@@ -2699,10 +2699,10 @@ export const FR_B1_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "That's the problem [I'm worried about].",
-        sentence: "C'est le problème ___ je m'inquiète.",
+        en: "That's the problem [I told you about].",
+        sentence: "C'est le problème ___ je t'ai parlé.",
         answer: "dont",
-        explanation: "\"S'inquiéter de\" → \"dont\".",
+        explanation: "\"Parler de\" → \"dont\". \"Que\" would be wrong: \"parler\" is not followed by a direct object here.",
       },
       {
         type: "listen-choose",
@@ -2790,7 +2790,7 @@ export const FR_B1_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "How do you say: It's important that you're on time? (formal)",
             options: [
               "Il est important que vous soyez à l'heure.",
               "Il est important que vous êtes à l'heure.",

@@ -368,8 +368,8 @@ export const FR_B1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which spelling is correct? (I would call)",
-            options: ["j'appellerais", "j'appelerais", "j'apellerais", "j'appèlerais"],
+            question: "How do you say: I'd call you tonight? (to a friend)",
+            options: ["Je t'appellerais ce soir.", "Je t'appelerais ce soir.", "Je t'apellerais ce soir.", "Je t'appèlerais ce soir."],
             correctIndex: 0,
             explanation: "\"Appeler\" doubles the l before a silent e, in the present (\"j'appelle\") and in the future and conditional stem.",
           },
@@ -681,7 +681,7 @@ export const FR_B1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is spelled correctly?",
+        question: "How do you say: My neighbours would like to sell their house?",
         options: [
           "Mes voisins aimeraient vendre leur maison.",
           "Mes voisins aimerait vendre leur maison.",
@@ -1396,10 +1396,10 @@ export const FR_B1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence gives advice?",
+        question: "How do you say: You should sleep more? (advice to a friend)",
         options: ["Tu devrais dormir plus.", "Tu devras dormir plus.", "Tu devais dormir plus.", "Tu dois dormir plus, sinon je me fâche."],
         correctIndex: 0,
-        explanation: "\"Devrais\" is the conditional: should, a piece of advice.",
+        explanation: "\"Devrais\" is the conditional: should, a piece of advice. \"Devras\" is the future (you will have to), \"devais\" the imparfait, and \"tu dois..., sinon je me fâche\" is an order, not advice.",
       },
       {
         type: "listen-choose",

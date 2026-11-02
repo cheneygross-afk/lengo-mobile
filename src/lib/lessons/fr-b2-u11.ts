@@ -344,7 +344,8 @@ export const FR_B2_U11: Lesson[] = [
         prompt: "Translate into French.",
         source: "He told me he could drive.",
         answer: "Il m'a dit qu'il savait conduire.",
-        explanation: "Ability learned (can drive) = \"savoir\": \"« je sais »\" → \"il savait\".",
+        altAnswers: ["Il m'a dit qu'il pouvait conduire."],
+        explanation: "Ability learned (can drive) = \"savoir\": \"« je sais »\" → \"il savait\". \"Il pouvait conduire\" (he was able to, e.g. he hadn't been drinking) also fits the English.",
       },
       {
         type: "translate",
@@ -1280,8 +1281,8 @@ export const FR_B2_U11: Lesson[] = [
         prompt: "Translate into French.",
         source: "My cousin is the only one who can speak Japanese.",
         answer: "Mon cousin est le seul qui sache parler japonais.",
-        altAnswers: ["Ma cousine est la seule qui sache parler japonais.", "Mon cousin est le seul qui parle japonais.", "Mon cousin est le seul à parler japonais.", "Mon cousin est le seul qui sache parler le japonais."],
-        explanation: "\"Le seul qui\" + subjunctive (or \"le seul à\" + infinitive).",
+        altAnswers: ["Ma cousine est la seule qui sache parler japonais.", "Mon cousin est le seul qui parle japonais.", "Mon cousin est le seul à parler japonais.", "Mon cousin est le seul qui sache parler le japonais.", "Mon cousin est le seul qui sait parler japonais.", "Ma cousine est la seule qui sait parler japonais."],
+        explanation: "\"Le seul qui\" + subjunctive (or \"le seul à\" + infinitive). The indicative \"qui sait\" is also correct when you present it as a plain fact.",
       },
       {
         type: "translate",
@@ -2284,7 +2285,7 @@ export const FR_B2_U11: Lesson[] = [
         examples: [
           { es: "Lucie m'a demandé si tu viendrais.", en: "Lucie asked me if you'd come." },
           { es: "Karim m'a demandé où tu étais.", en: "Karim asked me where you were." },
-          { es: "Je lui ai répondu que tu étais malade.", en: "I told him you were ill." },
+          { es: "Je lui ai répondu que tu étais malade.", en: "I replied that you were ill." },
           { es: "Je lui ai dit de t'appeler.", en: "I told him to call you." },
           { es: "Elle voulait savoir pourquoi tu n'avais pas répondu à son message.", en: "She wanted to know why you hadn't answered her message." },
         ],
@@ -2300,7 +2301,7 @@ export const FR_B2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Je lui ai répondu que tu étais malade.",
-            prompt: "Say it in French, to a friend: I told him you were ill.",
+            prompt: "Say it in French, to a friend: I replied to him that you were ill.",
             explanation: "\"Répondre à quelqu'un que\" + backshifted indicative.",
           },
         ],

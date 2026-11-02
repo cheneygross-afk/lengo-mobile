@@ -1440,7 +1440,7 @@ export const FR_B2_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "[Since his wife died], he hasn't gone out.",
+            en: "[Since his wife died], he doesn't go out any more.",
             sentence: "___, il ne sort plus.",
             answer: "Depuis que sa femme est morte",
             altAnswers: ["Depuis que sa femme est décédée", "Depuis la mort de sa femme"],

@@ -390,10 +390,10 @@ export const FR_C1_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Hello, uncle, how's the family? (to an older man, vous)",
+        source: "Hello, uncle, how's the family? (to an older man)",
         answer: "Bonjour tonton, comment va la famille ?",
-        altAnswers: ["Bonjour tonton, et la famille ?", "Bonjour tonton, la famille va bien ?", "Bonjour tonton, comment se porte la famille ?", "Bonjour tonton, vous allez bien ? Et la famille ?"],
-        explanation: "\"Tonton\" for an older man; asking about the family is part of the greeting.",
+        altAnswers: ["Bonjour tonton, et la famille ?", "Bonjour tonton, la famille va bien ?", "Bonjour tonton, comment se porte la famille ?", "Bonjour tonton, vous allez bien ? Et la famille ?", "Bonjour tonton, comment va votre famille ?", "Bonjour tonton, votre famille va bien ?"],
+        explanation: "\"Tonton\" for an older man; asking about the family is part of the greeting. To say your family, use respectful \"votre\".",
       },
       {
         type: "translate",

@@ -158,7 +158,7 @@ export const FR_A1_S02_STORIES: Story[] = [
       `Au travail, ses collègues disent « Bonjour », c'est tout. À midi, sa meilleure amie, Julie, est occupée. Camille est triste. « Tout le monde oublie mon anniversaire ! » pense-t-elle.`,
       `Le soir, Camille rentre chez elle, à Nantes. Il est sept heures. L'appartement est sombre et silencieux. Elle cherche l'interrupteur.`,
       `Soudain, la lumière s'allume et tout le monde crie : « Surprise ! Joyeux anniversaire ! » Il y a ses parents, sa sœur, Julie et ses collègues. Il y a un gâteau au chocolat avec trente bougies.`,
-      `Camille rit et pleure en même temps. « Vous êtes horribles... et je vous adore ! »`,
+      `Camille rit et pleure en même temps. « Vous êtes horribles... et adorables ! »`,
     ],
     questions: [
       {
@@ -217,7 +217,7 @@ export const FR_A1_S02_ENGLISH: Record<string, string[]> = {
     `At work, her colleagues say "Hello", and that's all. At noon, her best friend, Julie, is busy. Camille is sad. "Everybody forgets my birthday!" she thinks.`,
     `In the evening, Camille goes home, in Nantes. It's seven o'clock. The apartment is dark and silent. She looks for the light switch.`,
     `Suddenly, the light comes on and everyone shouts: "Surprise! Happy birthday!" Her parents, her sister, Julie and her colleagues are there. There's a chocolate cake with thirty candles.`,
-    `Camille laughs and cries at the same time. "You're horrible... and I love you!"`,
+    `Camille laughs and cries at the same time. "You're horrible... and adorable!"`,
   ],
 };
 

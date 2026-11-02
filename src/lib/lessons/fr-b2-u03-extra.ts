@@ -502,7 +502,7 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
         heading: "Recap: a ne that doesn't negate",
         body: [
           "After \"avant que\", \"à moins que\", \"de peur que\" and \"de crainte que\", formal French often adds a lone \"ne\": \"avant qu'il ne parte\", \"à moins qu'il ne pleuve\", \"de peur qu'elle ne tombe\". It has no negative meaning and is always optional.",
-          "Never add it after \"pour que\", \"bien que\", \"jusqu'à ce que\" or \"sans que\". A real negation needs \"ne... pas\": \"de peur qu'il ne vienne pas\" means 'for fear he won't come'.",
+          "Never add it after \"pour que\", \"bien que\" or \"jusqu'à ce que\". After \"sans que\" you will often hear it (\"sans qu'il ne s'en aperçoive\"), but careful grammars reject it there, so leave it out when you write. A real negation needs \"ne... pas\": \"de peur qu'il ne vienne pas\" means 'for fear he won't come'.",
         ],
         examples: [
           { es: "Partons avant qu'il ne fasse nuit.", en: "Let's leave before it gets dark." },
@@ -879,7 +879,7 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
         source: "They can have dessert provided they finish their vegetables.",
         answer: "Ils peuvent avoir un dessert à condition de finir leurs légumes.",
         altAnswers: ["Ils ont droit à un dessert à condition de finir leurs légumes.", "Ils peuvent prendre un dessert à condition de finir leurs légumes.", "Ils peuvent avoir un dessert pourvu qu'ils finissent leurs légumes.", "Ils ont droit à un dessert pourvu qu'ils finissent leurs légumes."],
-        explanation: "Same subject (they have dessert, they finish): \"à condition de\" + infinitive, not \"à condition qu'ils finissent\". \"Pourvu que\" has no infinitive partner, so \"pourvu qu'ils finissent\" also works.",
+        explanation: "Same subject (they have dessert, they finish): \"à condition de\" + infinitive; \"à condition qu'ils finissent\" is heard, but with one subject French prefers the infinitive. \"Pourvu que\" has no infinitive partner, so \"pourvu qu'ils finissent\" also works.",
       },
       {
         type: "translate",

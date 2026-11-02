@@ -687,9 +687,9 @@ export const FR_C1_U05: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A friend asks what your new book is about. Which question is correct French?",
-            options: ["De quoi il s'agit, ton livre ?", "Ton livre s'agit de quoi ?", "Ça s'agit de quoi, ton livre ?", "Qu'est-ce que ton livre s'agit ?"],
+            options: ["Ça parle de quoi, ton livre ?", "Ton livre s'agit de quoi ?", "Ça s'agit de quoi, ton livre ?", "Qu'est-ce que ton livre s'agit ?"],
             correctIndex: 0,
-            explanation: "Only \"il\" can be the subject of \"s'agir\". The spoken \"de quoi il s'agit, ton livre ?\" works; \"ça parle de quoi, ton livre ?\" would be even more natural.",
+            explanation: "Only \"il\" can be the subject of \"s'agir\", so \"ton livre\" needs another verb: \"ça parle de quoi, ton livre ?\" is the natural spoken question. Without the book, \"de quoi il s'agit ?\" also works.",
           },
         ],
       },

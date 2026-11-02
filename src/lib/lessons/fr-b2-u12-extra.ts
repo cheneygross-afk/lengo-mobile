@@ -102,8 +102,8 @@ export const FR_B2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "Tell me what you need.",
         answer: "Dis-moi ce dont tu as besoin.",
-        altAnswers: ["Dites-moi ce dont vous avez besoin."],
-        explanation: "\"Avoir besoin de\" → \"ce dont\", not \"ce que\".",
+        altAnswers: ["Dites-moi ce dont vous avez besoin.", "Dis-moi de quoi tu as besoin.", "Dites-moi de quoi vous avez besoin."],
+        explanation: "\"Avoir besoin de\" → \"ce dont\" (or \"de quoi\"), not \"ce que\".",
       },
       {
         type: "translate",
@@ -124,7 +124,7 @@ export const FR_B2_U12_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "She asked me [if] they had arrived.",
+        en: "She asked me [if they] had arrived.",
         sentence: "Elle m'a demandé ___ étaient arrivés.",
         answer: "s'ils",
         explanation: "\"Si\" + \"ils\" → \"s'ils\".",
@@ -285,7 +285,7 @@ export const FR_B2_U12_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "\"« Ne l'appelle pas ! »\" is reported as:",
-        options: ["Elle m'a dit de ne pas l'appeler.", "Elle m'a dit de l'appeler pas.", "Elle m'a dit que je ne l'appelle pas.", "Elle m'a dit de ne l'appeler pas."],
+        options: ["Elle m'a dit de ne pas l'appeler.", "Elle m'a dit de l'appeler pas.", "Elle m'a dit de pas ne l'appeler.", "Elle m'a dit de ne l'appeler pas."],
         correctIndex: 0,
         explanation: "\"De ne pas\" + pronoun + infinitive.",
       },

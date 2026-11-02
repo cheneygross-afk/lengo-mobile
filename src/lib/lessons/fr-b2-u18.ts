@@ -934,14 +934,14 @@ export const FR_B2_U18: Lesson[] = [
       {
         heading: "How she changed",
         body: [
-          "Verbs of change tell the story: \"je suis devenue bilingue\", \"l'exil a rendu ma mère plus forte\", \"je me suis mise à cuisiner le thiéboudienne de ma grand-mère\" (Senegal's national dish of fish and rice), \"j'ai fini par accepter que je viens de deux endroits\".",
+          "Verbs of change tell the story: \"je suis devenue bilingue\", \"l'exil a rendu ma mère plus forte\", \"je me suis mise à cuisiner le thiéboudienne de ma grand-mère\" (Senegal's national dish of fish and rice), \"j'ai fini par accepter le fait que je viens de deux endroits\".",
           "Her conclusion balances with connectors: \"Certes, je ne suis complètement chez moi nulle part ; pourtant, je ne changerais ma double culture pour rien au monde.\"",
         ],
         examples: [
           { es: "Je suis devenue bilingue sans m'en rendre compte.", en: "I became bilingual without realising it." },
           { es: "L'exil a rendu ma mère plus forte.", en: "Exile made my mother stronger." },
           { es: "Je me suis mise à cuisiner les recettes de ma grand-mère.", en: "I started cooking my grandmother's recipes." },
-          { es: "J'ai fini par accepter que je viens de deux endroits.", en: "I eventually accepted that I come from two places." },
+          { es: "J'ai fini par accepter le fait que je viens de deux endroits.", en: "I eventually accepted the fact that I come from two places." },
           { es: "Certes, je ne suis complètement chez moi nulle part ; pourtant, je ne changerais rien.", en: "Admittedly I'm not completely at home anywhere; and yet I wouldn't change a thing." },
           { es: "Ma mère a beaucoup vieilli, mais elle n'a jamais perdu son accent.", en: "My mother has aged a lot, but she has never lost her accent." },
         ],
@@ -1010,11 +1010,11 @@ export const FR_B2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "I [eventually accepted] that I come from two places.",
-        sentence: "J'___ que je viens de deux endroits.",
+        en: "I [eventually accepted] the fact that I come from two places.",
+        sentence: "J'___ le fait que je viens de deux endroits.",
         answer: "ai fini par accepter",
         altAnswers: ["ai finalement accepté"],
-        explanation: "\"Finir par\" + infinitive = eventually do.",
+        explanation: "\"Finir par\" + infinitive = eventually do. \"Accepter que\" would need the subjunctive; \"accepter le fait que\" + indicative states a fact.",
       },
       {
         type: "translate",

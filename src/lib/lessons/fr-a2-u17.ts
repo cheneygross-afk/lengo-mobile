@@ -1518,7 +1518,7 @@ export const FR_A2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Is there any bread left? — Yes, there are two baguettes. Which answer is right?",
+            question: "Is there any bread left? — Yes, there are two baguettes. How do you answer?",
             options: ["Oui, il y en a deux.", "Oui, il y a deux.", "Oui, il en y a deux.", "Oui, il y les a deux."],
             correctIndex: 0,
             explanation: "With a number, French needs \"en\": \"il y en a deux\". \"Y\" comes before \"en\".",
@@ -1733,6 +1733,6 @@ export const FR_A2_U17_WRITING: WriteExercise = {
     "Reports a problem politely and the staff's reaction (\"ce n'est pas ce que j'ai commandé\", \"il s'est excusé\")",
     "Ends with a judgement or plan using the future (\"j'y retournerai\", \"je n'y retournerai pas\")",
   ],
-  modelAnswer: "Samedi dernier, j'ai réservé une table pour deux au Petit Bouchon, à Lyon. C'était un petit restaurant très sympa et il y avait beaucoup de monde. En entrée, j'ai pris une salade de chèvre, et ensuite le plat du jour : un steak à point. Malheureusement, le steak est arrivé bien cuit. J'ai dit au serveur : « Excusez-moi, ce n'est pas ce que j'ai commandé. » Il s'est excusé et il m'en a apporté un autre tout de suite. Il nous a même offert les cafés ! J'y retournerai avec plaisir.",
-  explanation: "The review mixes the imparfait for the setting (\"c'était\", \"il y avait\") with the passé composé for the events (\"j'ai réservé\", \"le steak est arrivé\", \"il s'est excusé\"). Pronouns save repetition: \"il m'en a apporté un autre\" (another steak, to me) and \"j'y retournerai\" (y = to the restaurant, in the futur simple).",
+  modelAnswer: "Samedi dernier, j'ai réservé une table pour deux au Petit Bouchon, à Lyon. C'était un petit restaurant très sympa et il y avait beaucoup de monde. En entrée, j'ai pris une salade de chèvre, et ensuite le plat du jour : un steak à point. Malheureusement, le steak est arrivé bien cuit. J'ai dit au serveur : « Excusez-moi, ce n'est pas ce que j'ai commandé. » Il s'est excusé et il m'a apporté un autre steak tout de suite. Il nous a même offert les cafés ! J'y retournerai avec plaisir.",
+  explanation: "The review mixes the imparfait for the setting (\"c'était\", \"il y avait\") with the passé composé for the events (\"j'ai réservé\", \"le steak est arrivé\", \"il s'est excusé\"). Pronouns save repetition: \"il m'a apporté\" (m' = to me) and \"j'y retournerai\" (y = to the restaurant, in the futur simple).",
 };

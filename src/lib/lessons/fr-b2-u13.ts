@@ -649,7 +649,7 @@ export const FR_B2_U13: Lesson[] = [
             prompt: "Translate into French.",
             source: "My father had hidden from us that he had a half-brother.",
             answer: "Mon père nous avait caché qu'il avait un demi-frère.",
-            explanation: "\"Cacher quelque chose à quelqu'un\": the person is an indirect object (\"nous\"). The plus-que-parfait sets the hiding before now.",
+            explanation: "\"Cacher quelque chose à quelqu'un\": the person is an indirect object (\"nous\"). The plus-que-parfait puts the hiding before a later past moment (when we found out).",
           },
           {
             type: "fill-blank",

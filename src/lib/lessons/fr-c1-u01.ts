@@ -1033,7 +1033,6 @@ export const FR_C1_U01: Lesson[] = [
             en: "Tell Léa [to call] me back. (to a friend)",
             sentence: "Dis à Léa qu'elle me ___.",
             answer: "rappelle",
-            altAnswers: ["téléphone"],
             explanation: "An order passed on: \"dire que\" + subjunctive. For -er verbs the subjunctive \"rappelle\" looks like the indicative; the meaning comes from context.",
           },
           {

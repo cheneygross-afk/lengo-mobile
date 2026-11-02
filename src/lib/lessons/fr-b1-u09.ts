@@ -1078,7 +1078,7 @@ export const FR_B1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which note is correct?",
+            question: "How does the note say: There's soup left, heat up a bowl. (to a flatmate)",
             options: [
               "Il reste de la soupe, réchauffes-en un bol.",
               "Il reste de la soupe, réchauffe-en un bol.",
@@ -1195,14 +1195,14 @@ export const FR_B1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which note is correct?",
+        question: "How does the note say: The parcel? Don't give it to her. (to a flatmate)",
         options: ["Le colis ? Ne le lui donne pas.", "Le colis ? Ne donne-le-lui pas.", "Le colis ? Ne lui le donne pas.", "Le colis ? Le lui ne donne pas."],
         correctIndex: 0,
         explanation: "Negative: \"ne\" + \"le lui\" + verb + \"pas\"; le comes before lui.",
       },
       {
         type: "multiple-choice",
-        question: "Which note is correct?",
+        question: "How does the note say: Go there early tomorrow. (to a flatmate)",
         options: ["Vas-y tôt demain.", "Va-y tôt demain.", "Vas y tôt demain.", "Y va tôt demain."],
         correctIndex: 0,
         explanation: "Before y the s returns and the two words are joined: \"vas-y\".",

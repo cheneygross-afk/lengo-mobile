@@ -1551,7 +1551,7 @@ export const FR_C2_U11: Lesson[] = [
         type: "speak",
         text: "En fait, c'est plus compliqué que ça.",
         prompt: "Say it in French: Actually, it's more complicated than that.",
-        tip: "In relaxed speech, \"en fait\" is often pronounced with the final t sounded, as if spelt \"en fète\".",
+        tip: "Most speakers sound the final t of \"en fait\" ([ɑ̃fɛt]), as if it were spelt \"en fète\", in every register; [ɑ̃fɛ] is also heard.",
         explanation: "\"En fait\" corrects an assumption.",
       },
     ],

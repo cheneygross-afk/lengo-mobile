@@ -38,7 +38,7 @@ export const FR_A2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A man says: I went to the cinema yesterday. Which is correct?",
+            question: "A man says: I went to the cinema yesterday. How does he say it?",
             options: ["J'ai allé au cinéma hier.", "Je suis aller au cinéma hier.", "Je vais au cinéma hier.", "Je suis allé au cinéma hier."],
             correctIndex: 3,
             explanation: "\"Aller\" takes \"être\": \"je suis allé\". Never *j'ai allé*.",
@@ -679,7 +679,7 @@ export const FR_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A woman says: I was born in Lyon. Which is correct?",
+        question: "A woman says: I was born in Lyon. How does she say it?",
         options: ["J'ai été née à Lyon.", "J'ai né à Lyon.", "Je suis naît à Lyon.", "Je suis née à Lyon."],
         correctIndex: 3,
         explanation: "\"Naître\" → \"née\" with \"être\".",
@@ -972,7 +972,7 @@ export const FR_A2_U03: Lesson[] = [
           { es: "Elle est montée au grenier.", en: "She went up to the attic." },
           { es: "Elle a monté les valises.", en: "She carried the suitcases up." },
           { es: "Nous sommes descendus à pied.", en: "We came down on foot." },
-          { es: "Nous avons descendu l'escalier en courant.", en: "We ran down the stairs." },
+          { es: "Nous avons descendu les cartons à la cave.", en: "We took the boxes down to the cellar." },
         ],
         checkpoint: [
           {

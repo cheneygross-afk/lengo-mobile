@@ -27,7 +27,7 @@ export const DALF_C1_CE: ExamPaper = {
           label: "Article",
           title: "Réparer, un geste ordinaire devenu politique",
           body:
-            "Il y a encore une génération, faire ressemeler ses chaussures ou porter son grille-pain chez l'électricien du quartier n'avait rien d'exceptionnel. Puis le prix des appareils neufs a chuté, les boutiques de réparation ont fermé les unes après les autres, et jeter est devenu le réflexe le plus rationnel : pourquoi payer quatre-vingts euros pour faire réparer un lave-linge quand on en trouve un neuf pour trois cents ? Depuis quelques années pourtant, le vent semble tourner. Les ateliers de réparation bénévoles se multiplient, la loi impose désormais aux fabricants d'afficher un indice de réparabilité sur certains produits, et un « bonus réparation » permet de réduire la facture chez les artisans agréés. Faut-il y voir le début d'une véritable révolution des usages, ou une simple mode portée par une minorité de consommateurs déjà convaincus ?\n\n" +
+            "Il y a encore une génération, faire ressemeler ses chaussures ou porter son grille-pain chez l'électricien du quartier n'avait rien d'exceptionnel. Puis le prix des appareils neufs a chuté, les boutiques de réparation ont fermé les unes après les autres, et jeter est devenu le réflexe le plus rationnel : pourquoi payer deux cent cinquante euros pour faire réparer un vieux lave-linge quand on en trouve un neuf pour trois cents ? Depuis quelques années pourtant, le vent semble tourner. Les ateliers de réparation bénévoles se multiplient, la loi impose désormais aux fabricants d'afficher un indice de réparabilité sur certains produits, et un « bonus réparation » permet de réduire la facture chez les artisans agréés. Faut-il y voir le début d'une véritable révolution des usages, ou une simple mode portée par une minorité de consommateurs déjà convaincus ?\n\n" +
             "Les chiffres invitent à la prudence. Selon les études publiées par les pouvoirs publics, moins de la moitié des appareils électriques tombés en panne font l'objet d'une tentative de réparation. Le premier obstacle reste le prix : tant que la main-d'œuvre coûtera plus cher ici que la fabrication à l'autre bout du monde, l'équation économique jouera contre le réparateur. Le bonus réparation, conçu pour corriger ce déséquilibre, a d'ailleurs connu des débuts laborieux : faute d'être connu du grand public et faute d'un nombre suffisant d'artisans agréés, une large part de l'enveloppe prévue est restée inutilisée la première année. Le montant de l'aide a depuis été revalorisé et la liste des appareils concernés élargie, mais il est encore trop tôt pour en mesurer les effets.\n\n" +
             "Le deuxième obstacle est plus discret, et sans doute plus profond : beaucoup de produits ne sont tout simplement pas conçus pour être réparés. Batteries collées, vis aux formats propriétaires, pièces détachées introuvables ou vendues à un prix dissuasif : les procédés qui empêchent d'ouvrir un appareil ne manquent pas. Les associations de consommateurs parlent volontiers d'« obsolescence programmée ». Les industriels récusent le terme, qui suppose une intention de nuire, et préfèrent invoquer des contraintes de miniaturisation ou d'étanchéité. La vérité se situe probablement entre les deux : nul besoin de prêter aux fabricants un plan machiavélique pour constater qu'ils n'ont, jusqu'ici, guère eu intérêt à prolonger la vie de ce qu'ils vendent.\n\n" +
             "C'est précisément ce que l'indice de réparabilité cherche à changer. En attribuant à chaque produit une note sur dix, calculée notamment d'après la facilité de démontage, la disponibilité des pièces et la documentation fournie, il ne contraint personne à réparer, mais il rend visible un critère jusque-là ignoré au moment de l'achat. Son effet le plus notable ne se situe d'ailleurs pas forcément là où on l'attendait. Les consommateurs le consultent encore assez peu ; en revanche, plusieurs fabricants ont modifié la conception de leurs modèles pour ne pas afficher une mauvaise note en rayon. Autrement dit, l'outil agit davantage sur l'offre que sur la demande. Ses détracteurs lui reprochent toutefois de reposer en grande partie sur les déclarations des fabricants eux-mêmes, les contrôles restant rares.\n\n" +
@@ -98,8 +98,8 @@ export const DALF_C1_CE: ExamPaper = {
           n: 6,
           question: "Quelle est la position de l'auteur dans ce débat ?",
           options: [
-            "Il donne entièrement raison aux associations de consommateurs.",
-            "Il juge les contraintes techniques invoquées par les industriels tout à fait convaincantes.",
+            "Il donne entièrement raison aux associations, qui accusent les fabricants de vouloir délibérément nuire.",
+            "Il juge tout à fait convaincantes les contraintes de miniaturisation et d'étanchéité invoquées par les industriels.",
             "Sans leur prêter de mauvaises intentions, il constate que les fabricants n'avaient pas intérêt à faire durer leurs produits.",
           ],
           answer: 2,
@@ -134,8 +134,8 @@ export const DALF_C1_CE: ExamPaper = {
           n: 9,
           question: "Quelle critique ses détracteurs adressent-ils à l'indice ?",
           options: [
-            "Sa note est trop difficile à comprendre.",
-            "Il ne concerne que les produits les plus chers.",
+            "Sa note sur dix est trop difficile à comprendre pour les consommateurs.",
+            "Il ne concerne que les produits les plus chers vendus en grande surface.",
             "Il s'appuie largement sur des déclarations des fabricants rarement vérifiées.",
           ],
           answer: 2,

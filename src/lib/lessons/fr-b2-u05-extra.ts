@@ -385,9 +385,9 @@ export const FR_B2_U05_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "Although the baby is still small, she sleeps well.",
-        answer: "Bien que le bébé soit encore petit, elle dort bien.",
-        altAnswers: ["Bien que le bébé soit encore petit, il dort bien.", "Quoique le bébé soit encore petit, elle dort bien."],
-        explanation: "\"Bien que\" + present subjunctive for a current fact conceded.",
+        answer: "Bien que le bébé soit encore petit, il dort bien.",
+        altAnswers: ["Bien que le bébé soit encore petit, elle dort bien.", "Quoique le bébé soit encore petit, il dort bien.", "Quoique le bébé soit encore petit, elle dort bien."],
+        explanation: "\"Bien que\" + present subjunctive for a current fact conceded. \"Le bébé\" is masculine even for a girl, so the pronoun is normally \"il\"; \"elle\" is heard when everyone knows it's a girl.",
       },
       {
         type: "fill-blank",

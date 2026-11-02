@@ -810,7 +810,7 @@ export const FR_B1_U17: Lesson[] = [
         body: [
           "Look at what follows and ask what the verb needs. A verb right after the gap: \"ce qui\" (\"ce qui arrive\"). A subject + a verb with a direct object: \"ce que\" (\"ce que je veux\"). A verb with de: \"ce dont\" (\"ce dont je parle\"). A verb with à: \"ce à quoi\" (\"ce à quoi je pense\").",
           "Some verbs change construction from English: \"se souvenir de\" (ce dont) but \"se rappeler\" with a direct object (ce que): \"ce dont je me souviens\" = \"ce que je me rappelle\". Likewise \"s'occuper de\" (ce dont) vs \"gérer\" (ce que).",
-          "Other prepositions follow the \"ce à quoi\" model with \"quoi\": \"ce sur quoi je compte\" (what I'm counting on), \"ce contre quoi il se bat\" (what he's fighting against). These are rarer; at Intermediate just recognise them.",
+          "Other prepositions follow the \"ce à quoi\" model with \"quoi\": \"ce sur quoi je compte\" (what I'm counting on), \"ce contre quoi il se bat\" (what he's fighting against). These are rarer, but you can use them as fixed frames; in everyday speech people also turn the sentence round: \"c'est sur ça que je compte\".",
         ],
         examples: [
           { es: "Ce qui arrive est grave.", en: "What's happening is serious." },
@@ -1099,7 +1099,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: It's the book I need?",
         options: [
           "C'est le livre dont j'ai besoin.",
           "C'est le livre que j'ai besoin.",
@@ -1690,7 +1690,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: What worries me is your health?",
         options: [
           "Ce qui m'inquiète, c'est ta santé.",
           "Ce que m'inquiète, c'est ta santé.",
@@ -1702,7 +1702,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: The people I talked to were nice?",
         options: [
           "Les gens à qui j'ai parlé étaient sympas.",
           "Les gens à qui j'ai parlés étaient sympas.",
@@ -2108,7 +2108,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: What annoys me is that everyone is on their phone?",
         options: [
           "Ce qui m'énerve, c'est que tout le monde est sur son téléphone.",
           "Ce qui m'énerve, c'est tout le monde est sur son téléphone.",
@@ -2305,7 +2305,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which version of Emma's sentence is fully correct?",
+        question: "Emma wants to say: What surprised me was how kind the people of Lyon are. Which version is fully correct?",
         options: [
           "Ce qui m'a surprise, c'est la gentillesse des Lyonnais.",
           "Ce que m'a surprise, c'est la gentillesse des Lyonnais.",
@@ -2913,7 +2913,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I'd like you to read the book I told you about?",
         options: [
           "J'aimerais que tu lises le livre dont je t'ai parlé.",
           "J'aimerais que tu lis le livre dont je t'ai parlé.",

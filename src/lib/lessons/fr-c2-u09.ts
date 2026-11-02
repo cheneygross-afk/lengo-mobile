@@ -1481,7 +1481,7 @@ export const FR_C2_U09: Lesson[] = [
             sentence: "Deux cyclistes sont ___ au carrefour.",
             answer: "entrés en collision",
             altAnswers: ["rentrés en collision"],
-            explanation: "\"Entrer en collision\" (a crash); \"collusion\" is secret collaboration.",
+            explanation: "\"Entrer en collision\" (a crash). \"Rentrer en collision\" is very common in speech but criticised in careful writing. \"Collusion\" is secret collaboration.",
           },
           {
             type: "listen-choose",

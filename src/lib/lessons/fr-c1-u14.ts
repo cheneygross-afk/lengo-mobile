@@ -2258,7 +2258,7 @@ export const FR_C1_U14: Lesson[] = [
     level: "FR-C1",
     number: 12,
     title: "Mastery Check: French Around the World, Part 2",
-    summary: "Belgian, Swiss and African features in three scenes, without hints: Brussels, Lausanne and Abidjan.",
+    summary: "Belgian, Swiss and African features in three scenes, without hints: Liège, Lausanne and Abidjan.",
     duration: "16 min",
     sections: [
       {

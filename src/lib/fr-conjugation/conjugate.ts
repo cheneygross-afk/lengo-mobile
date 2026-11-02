@@ -520,7 +520,7 @@ function notesFor(c: FrConjugation, rules: SpellRule[]): string[] {
   }
   if (c.base === "demeurer") n.push("Meaning to remain, it takes être: elle est demeurée silencieuse. Meaning to live (formal), it takes avoir: il a demeuré à Lyon.");
   if (c.base === "asseoir") n.push("Also correct, and common in speech: je m'assois, nous nous assoyons, je m'assoirai.");
-  if (c.base === "envoyer" || c.base === "renvoyer") n.push(`Regular except the future and conditional: ${je(t.fut.je)}, ${je(t.cond.je)}.`);
+  if (c.base === "envoyer" || c.base === "renvoyer") n.push(`Like other -oyer verbs, y becomes i before a silent ending (${je(t.pres.je)}, ils ${first(t.pres.ils)}); the future and conditional are irregular: ${je(t.fut.je)}, ${je(t.cond.je)}.`);
   return n;
 }
 

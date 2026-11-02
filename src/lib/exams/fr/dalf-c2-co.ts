@@ -104,9 +104,9 @@ export const DALF_C2_CO: ExamPaper = {
           question: "Pourquoi l'indicateur annuel de fécondité doit-il être interprété avec prudence ?",
           options: [
             "Il baisse mécaniquement quand les naissances sont retardées, même si le nombre final d'enfants ne change pas.",
-            "Il ne tient pas compte des naissances chez les femmes immigrées.",
-            "Il n'est calculé que tous les dix ans.",
-            "Il surestime le nombre d'enfants des femmes diplômées.",
+            "Il ne tient pas compte des naissances chez les femmes immigrées arrivées récemment en France.",
+            "Il n'est calculé que tous les dix ans, à partir des données du recensement.",
+            "Il surestime systématiquement le nombre d'enfants des femmes les plus diplômées.",
           ],
           answer: 0,
           explanation:
@@ -155,8 +155,8 @@ export const DALF_C2_CO: ExamPaper = {
           n: 6,
           question: "D'après les comparaisons internationales qu'il cite, la fécondité est souvent la plus faible dans les pays où…",
           options: [
-            "les femmes travaillent peu.",
-            "les politiques familiales sont les plus généreuses.",
+            "les femmes travaillent peu et restent souvent au foyer.",
+            "les politiques familiales sont les plus généreuses du continent.",
             "les femmes travaillent beaucoup, mais où le partage des tâches reste très inégal.",
             "l'âge moyen au mariage est le plus élevé.",
           ],
@@ -181,9 +181,9 @@ export const DALF_C2_CO: ExamPaper = {
           n: 8,
           question: "Comment discute-t-il, sur le fond, le raisonnement écologique ?",
           options: [
-            "Les enfants consomment moins que les adultes.",
-            "Les émissions françaises sont négligeables à l'échelle mondiale.",
-            "La population mondiale va bientôt diminuer d'elle-même.",
+            "Les enfants consomment beaucoup moins que les adultes, si bien que leur empreinte reste faible.",
+            "Les émissions françaises sont négligeables à l'échelle mondiale, quel que soit le nombre de naissances.",
+            "La population mondiale va bientôt diminuer d'elle-même, ce qui rend ce renoncement inutile.",
             "L'empreinte d'une population dépend surtout de sa consommation, et les effets d'une baisse des naissances seraient très tardifs.",
           ],
           answer: 3,
@@ -195,9 +195,9 @@ export const DALF_C2_CO: ExamPaper = {
           question: "Quelle distinction juge-t-il indispensable ?",
           options: [
             "Entre la décroissance de la population, qui n'est pas imminente, et son vieillissement, qui est certain.",
-            "Entre la natalité des villes et celle des campagnes.",
-            "Entre le financement des retraites et celui de la santé.",
-            "Entre les migrations temporaires et les migrations définitives.",
+            "Entre la natalité des villes, en baisse rapide, et celle des campagnes, plus stable.",
+            "Entre le financement des retraites et celui de l'assurance maladie, souvent confondus.",
+            "Entre les migrations temporaires, liées au travail, et les migrations définitives.",
           ],
           answer: 0,
           explanation:

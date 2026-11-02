@@ -107,7 +107,7 @@ export const FR_B2_U12: Lesson[] = [
           {
             type: "multiple-choice",
             question: "'She told me to call her' is:",
-            options: ["Elle m'a dit de l'appeler.", "Elle m'a dit que je l'appelle.", "Elle m'a dit d'appeler moi.", "Elle m'a dit que je l'appelais."],
+            options: ["Elle m'a dit de l'appeler.", "Elle m'a dit à l'appeler.", "Elle m'a dit d'appeler moi.", "Elle m'a dit que je l'appelais."],
             correctIndex: 0,
             explanation: "An order: \"dire de\" + infinitive, with the pronoun before the infinitive.",
           },
@@ -1935,7 +1935,7 @@ export const FR_B2_U12: Lesson[] = [
           {
             type: "multiple-choice",
             question: "\"« Ne touche à rien ! »\" is reported as:",
-            options: ["Il m'a dit de ne toucher à rien.", "Il m'a dit que je ne touche à rien.", "Il m'a dit de toucher à rien ne.", "Il m'a demandé si je touchais à rien."],
+            options: ["Il m'a dit de ne toucher à rien.", "Il m'a dit de ne pas toucher à rien.", "Il m'a dit de toucher à rien ne.", "Il m'a demandé si je touchais à rien."],
             correctIndex: 0,
             explanation: "\"De ne rien\" / \"de ne toucher à rien\" + infinitive.",
           },
