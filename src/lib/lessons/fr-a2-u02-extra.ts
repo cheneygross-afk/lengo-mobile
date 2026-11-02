@@ -1044,10 +1044,10 @@ export const FR_A2_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "At midnight [I turned off] the light.",
-        sentence: "À minuit, ___ la lumière.",
-        answer: "j'ai éteint",
-        explanation: "\"Éteindre\" → \"éteint\", another -t participle.",
+        en: "At midnight [I finished] my book.",
+        sentence: "À minuit, ___ mon livre.",
+        answer: "j'ai fini",
+        explanation: "\"Finir\" → \"fini\": a regular -ir verb, so just -i, with no hidden letter (feminine \"finie\").",
       },
       {
         type: "fill-blank",

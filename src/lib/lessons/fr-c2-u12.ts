@@ -915,7 +915,7 @@ export const FR_C2_U12: Lesson[] = [
       {
         heading: "Abbreviations and symbols",
         body: [
-          "French students take notes with a shared set of abbreviations. Common words: \"qqch\" (quelque chose), \"qqn\" (quelqu'un), \"pb\" (problème), \"tjs\" (toujours), \"ds\" (dans), \"pr\" (pour), \"ms\" (mais), \"tt\" (tout), \"bcp\" (beaucoup), \"cad\" or \"c-à-d\" (c'est-à-dire), \"cf.\" (Latin \"confer\": voir, se reporter à). Endings: \"-mt\" for \"-ment\" (\"gvt\" gouvernement, \"dvpt\" développement), \"°\" (or a superscript \"on\") for \"-tion\" (\"educ°\" for \"éducation\").",
+          "French students take notes with a shared set of abbreviations. Common words: \"qqch\" (quelque chose), \"qqn\" (quelqu'un), \"pb\" (problème), \"tjs\" (toujours), \"ds\" (dans), \"pr\" (pour), \"ms\" (mais), \"tt\" (tout), \"bcp\" (beaucoup), \"cad\" or \"c-à-d\" (c'est-à-dire), \"cf.\" (Latin \"confer\": voir, se reporter à). Endings: \"-mt\" for \"-ment\" (\"seulemt\", \"rapidemt\"), and frequent nouns shrink to a few consonants (\"gvt\" gouvernement, \"dvpt\" développement, \"logt\" logement); \"°\" (or a superscript \"on\") for \"-tion\" (\"educ°\" for \"éducation\").",
           "Symbols replace logical words: → (entraîne, donc), ← (provient de), = (égale, signifie), ≠ (différent de, s'oppose à), ⊂ (fait partie de), + / - (plus, moins), ↗ / ↘ (augmente, diminue), ∆ (changement), ∴ (donc), NB (nota bene, important). Use them consistently; inventing a new one mid-lecture is a recipe for confusion when you reread.",
           "Abbreviations must remain readable a week later. A good rule: abbreviate frequent grammatical words and the lecture's recurring key terms (decide on an abbreviation at the start: \"mondialisat°\" → \"MD\"), but write rare or technical words in full.",
         ],
@@ -938,7 +938,7 @@ export const FR_C2_U12: Lesson[] = [
               { left: "tjs", right: "toujours" },
               { left: "cad", right: "c'est-à-dire" },
             ],
-            explanation: "French notes drop vowels and use \"-mt\" for \"-ment\".",
+            explanation: "French notes drop vowels and shrink frequent words to a few consonants: \"gvt\", \"dvpt\", \"tjs\".",
           },
           {
             type: "translate",

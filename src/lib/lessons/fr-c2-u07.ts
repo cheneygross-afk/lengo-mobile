@@ -1421,7 +1421,7 @@ export const FR_C2_U07: Lesson[] = [
         heading: "Hugo, Demain, dès l'aube",
         body: [
           "Victor Hugo wrote this poem in 1847 for his daughter Léopoldine, drowned four years earlier. \"Demain, dès l'aube, à l'heure où blanchit la campagne, / Je partirai. Vois-tu, je sais que tu m'attends. / J'irai par la forêt, j'irai par la montagne. / Je ne puis demeurer loin de toi plus longtemps.\" The reader believes it is a love poem; only the last stanza reveals that the poet is walking to a grave.",
-          "Figures to identify: the anaphora \"j'irai par la forêt, j'irai par la montagne\" (determination, the rhythm of walking); the personification of the countryside that \"blanchit\" (turns white at dawn); the address to an absent \"tu\" (\"vois-tu\", \"tu m'attends\"), \"une apostrophe\" that makes the dead daughter present. The suspense created by withholding the identity of \"tu\" is part of the poem's power.",
+          "Figures to identify: the anaphora \"j'irai par la forêt, j'irai par la montagne\" (determination, the rhythm of walking); the inversion \"à l'heure où blanchit la campagne\", which puts the subject last and makes the dawn landscape the end point of the line (\"blanchir\" here is simply the pale light of daybreak, not a personification); the address to an absent \"tu\" (\"vois-tu\", \"tu m'attends\"), \"une apostrophe\" that makes the dead daughter present. The suspense created by withholding the identity of \"tu\" is part of the poem's power.",
           "Commenting: \"l'anaphore de « j'irai » souligne la détermination du poète\", \"l'apostrophe rend présente la fille disparue\", \"Hugo crée un effet de surprise en retardant la révélation\". The verbs souligner, mettre en relief, créer un effet de, suggérer, traduire are the backbone of a French commentaire.",
         ],
         examples: [
@@ -1444,10 +1444,10 @@ export const FR_C2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In « à l'heure où blanchit la campagne », which figure is « blanchit »?",
-            options: ["a personification", "an oxymoron", "a chiasmus", "a litotes"],
+            question: "In « Vois-tu, je sais que tu m'attends », the poet speaks directly to his absent daughter. Which figure is this?",
+            options: ["une apostrophe", "une anaphore", "une litote", "un oxymore"],
             correctIndex: 0,
-            explanation: "The countryside acts (it whitens, as a face pales); note also the inversion verb-subject after \"où\".",
+            explanation: "Addressing an absent or dead person as \"tu\" is an apostrophe: it makes Léopoldine present, and hides for three stanzas that she is dead.",
           },
         ],
       },

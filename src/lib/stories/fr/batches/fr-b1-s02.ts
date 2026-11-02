@@ -100,7 +100,7 @@ export const FR_B1_S02_STORIES: Story[] = [
       `C'est alors que la porte du premier étage s'est ouverte. Monsieur Pujol, quatre-vingt-trois ans, est sorti chercher son journal. Il a regardé le pyjama de Simon de haut en bas. « Vous avez un problème, jeune homme ? » Simon a tout expliqué. Le vieil homme a réfléchi, puis il a dit : « Ma défunte femme gardait les doubles des clés de la moitié de l'immeuble. Elle disait que les gens perdaient toujours tout. Attendez-moi. »`,
       `Il est revenu avec une vieille boîte à biscuits en fer. Dedans, il y avait au moins quarante clés, de toutes les formes, et aucune n'avait d'étiquette. « Elle savait par cœur à qui était chaque clé, a-t-il expliqué. Moi, pas du tout. » Ils ont donc monté les trois étages et ils ont commencé à les essayer une par une.`,
       `Au bout de vingt minutes, ils n'étaient plus seuls. L'étudiant les avait rejoints, puis la dame du deuxième avec son chien, puis une famille qui partait au marché. Tout le monde voulait essayer une clé. On riait, on faisait des paris. Les enfants avaient surnommé Simon « le monsieur en pyjama ». Quelqu'un a apporté des croissants. On n'avait jamais vu autant de monde dans l'escalier.`,
-      `Enfin, tout au fond de la boîte, Monsieur Pujol a trouvé une petite clé attachée à un ruban rouge. Sur le ruban, une étiquette disait, d'une écriture tremblante : « Quatrième gauche. Le monsieur distrait. Il en aura besoin un jour. » La clé a tourné dans la serrure du premier coup. Tout l'escalier a applaudi, et Simon ne savait pas s'il devait être vexé ou ému.`,
+      `Enfin, tout au fond de la boîte, Monsieur Pujol a trouvé une petite clé attachée à un ruban rouge. Sur le ruban lui-même, quelqu'un avait écrit à l'encre, d'une écriture tremblante : « Quatrième gauche. Le monsieur distrait. Il en aura besoin un jour. » La clé a tourné dans la serrure du premier coup. Tout l'escalier a applaudi, et Simon ne savait pas s'il devait être vexé ou ému.`,
       `Le soir, quand sa femme est rentrée, il lui a raconté l'histoire. Elle a souri. « Ah oui, c'est moi qui ai donné cette clé à Madame Pujol, il y a six ans. Elle m'avait dit : ton mari, un jour, il va s'enfermer dehors. » Le dimanche suivant, Simon a invité tout l'immeuble pour l'apéritif. Il avait mis un pantalon. Et ses clés étaient dans sa poche.`,
     ],
     questions: [
@@ -244,7 +244,7 @@ export const FR_B1_S02_ENGLISH: Record<string, string[]> = {
     `That's when the first-floor door opened. Monsieur Pujol, eighty-three, came out to fetch his newspaper. He looked Simon's pyjamas up and down. "Got a problem, young man?" Simon explained everything. The old man thought for a moment, then said: "My late wife kept spare keys for half the building. She used to say people were always losing everything. Wait for me."`,
     `He came back with an old biscuit tin. Inside there were at least forty keys of all shapes, and not one had a label. "She knew by heart whose key was whose," he explained. "I don't have a clue." So they climbed the three floors and started trying them one by one.`,
     `After twenty minutes they were no longer alone. The student had joined them, then the lady from the second floor with her dog, then a family on their way to the market. Everyone wanted to try a key. People laughed and placed bets. The children had nicknamed Simon "the pyjama man." Someone brought croissants. The staircase had never been so crowded.`,
-    `At last, at the very bottom of the tin, Monsieur Pujol found a small key tied to a red ribbon. On the ribbon, a label said, in shaky handwriting: "Fourth floor, left. The absent-minded gentleman. He'll need it one day." The key turned in the lock first time. The whole staircase applauded, and Simon didn't know whether to feel offended or touched.`,
+    `At last, at the very bottom of the tin, Monsieur Pujol found a small key tied to a red ribbon. On the ribbon itself, someone had written in ink, in shaky handwriting: "Fourth floor, left. The absent-minded gentleman. He'll need it one day." The key turned in the lock first time. The whole staircase applauded, and Simon didn't know whether to feel offended or touched.`,
     `That evening, when his wife came home, he told her the story. She smiled. "Oh yes, I'm the one who gave that key to Madame Pujol, six years ago. She told me: one day your husband is going to lock himself out." The following Sunday, Simon invited the whole building for drinks. He had put trousers on. And his keys were in his pocket.`,
   ],
   "fr-b1-papa-passe-son-permis": [
@@ -309,7 +309,7 @@ export const FR_B1_S02_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "raccrocher", en: "to hang up (the phone)", forms: ["raccroché"] },
     { es: "défunt, défunte", en: "late (deceased)", forms: ["défunte"] },
     { es: "le double", en: "spare key, copy", forms: ["doubles"] },
-    { es: "l'étiquette", en: "label", forms: ["d'étiquette", "étiquette"] },
+    { es: "l'étiquette", en: "label", forms: ["d'étiquette"] },
     { es: "distrait, distraite", en: "absent-minded", forms: ["distrait"] },
   ],
   "fr-b1-papa-passe-son-permis": [

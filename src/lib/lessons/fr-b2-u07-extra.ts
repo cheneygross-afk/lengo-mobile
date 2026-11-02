@@ -597,9 +597,9 @@ export const FR_B2_U07_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Je laisse la lumière allumée au cas où tu rentrerais tard.", "Je laisse la lumière allumée au cas où tu rentres tard demain.", "Je laisse la lumière allumée au cas où tu rentreras tard.", "Je laisse la lumière allumée au cas où tu rentrasses tard."],
+        options: ["Je laisse la lumière allumée au cas où tu rentrerais tard.", "Je laisse la lumière allumée au cas où tu rentrais tard.", "Je laisse la lumière allumée au cas où tu rentreras tard.", "Je laisse la lumière allumée au cas où tu rentrasses tard."],
         correctIndex: 0,
-        explanation: "Standard: \"au cas où\" + conditional.",
+        explanation: "\"Au cas où\" + conditional \"rentrerais\": not the imparfait, the future or a subjunctive.",
       },
       {
         type: "translate",

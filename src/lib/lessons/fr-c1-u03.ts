@@ -2453,7 +2453,7 @@ export const FR_C1_U03: Lesson[] = [
         body: [
           "Now the reverse. A journalist's notes say: \"Le conseil municipal a voté hier soir la gratuité des transports pour les moins de 18 ans.\" Headline: \"Transports gratuits pour les moins de 18 ans : feu vert du conseil municipal\" or \"Gratuité des transports pour les moins de 18 ans : le conseil municipal dit oui\".",
           "Good French headlines play with rhythm and contrast: a topic, a colon, a nominal phrase or a short verbal punchline. They avoid the passé composé and often use the present for drama: \"Le conseil municipal dit oui\".",
-          "Common derived adjectives in headlines: \"gratuit → la gratuité\", \"accessible → l'accessibilité\", \"sécurisé → la sécurisation\", \"piéton → la piétonnisation\" (making a street pedestrian), \"végétal → la végétalisation\" (greening). These -isation nouns are typical of urban-planning news.",
+          "Common nouns built on adjectives in headlines: \"gratuit → la gratuité\", \"accessible → l'accessibilité\", \"sécurisé → la sécurisation\", \"piéton → la piétonnisation\" (making a street pedestrian), \"végétal → la végétalisation\" (greening). These -isation nouns are typical of urban-planning news.",
         ],
         examples: [
           { es: "Transports gratuits pour les moins de 18 ans : feu vert du conseil municipal", en: "Free transport for under-18s: council gives green light" },

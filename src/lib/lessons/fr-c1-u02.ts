@@ -2191,7 +2191,7 @@ export const FR_C1_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with avoir beau.",
-        source: "The chef may be talented, the prices are excessive.",
+        source: "The chef may be talented, but the prices are excessive.",
         answer: "Le chef a beau être talentueux, les prix sont excessifs.",
         altAnswers: ["Le chef a beau avoir du talent, les prix sont excessifs.", "Le chef a beau être doué, les prix sont excessifs.", "Le chef a beau être talentueux, les prix sont exagérés."],
         explanation: "\"Avoir beau être\" + adjective.",

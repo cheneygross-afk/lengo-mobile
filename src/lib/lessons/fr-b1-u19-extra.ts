@@ -1363,7 +1363,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
         source: "Visitors are asked to stay on the path.",
         answer: "On demande aux visiteurs de rester sur le chemin.",
         altAnswers: ["Prière de rester sur le chemin.", "Les visiteurs sont priés de rester sur le chemin.", "Merci de rester sur le chemin."],
-        explanation: "\"Dire à\" has no passive. \"Être prié de\" (to be requested to) is a fixed formal exception.",
+        explanation: "\"Dire à\" has no passive. \"Les visiteurs sont priés de\" (visitors are requested to) is correct, because \"prier quelqu'un de faire\" takes a direct object; it's a formal notice style.",
       },
       {
         type: "translate",

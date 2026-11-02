@@ -51,7 +51,7 @@ export const FR_B1_U18: Lesson[] = [
             source: "I've got toothache.",
             answer: "J'ai mal aux dents.",
             altAnswers: ["J'ai mal à une dent."],
-            explanation: "\"Avoir mal à\" + les dents → \"aux dents\". Not *ma dent fait mal*.",
+            explanation: "\"Avoir mal à\" + les dents → \"aux dents\". Don't translate word for word with *ma dent fait mal*: you'd need \"me\" (\"j'ai une dent qui me fait mal\"), and \"avoir mal aux dents\" is the everyday way to say it.",
           },
           {
             type: "translate",

@@ -307,7 +307,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "Look-alikes: fit / fut, vit / vécut",
         body: [
-          "Three pairs cause most reading errors. \"Il fit\" (faire, he did / made) vs \"il fut\" (être, he was): \"il fit une erreur\" (he made a mistake), \"il fut surpris\" (he was surprised). Remember: faire → i like \"fait\", être → u like the old participle.",
+          "Three pairs cause most reading errors. \"Il fit\" (faire, he did / made) vs \"il fut\" (être, he was): \"il fit une erreur\" (he made a mistake), \"il fut surpris\" (he was surprised). Remember: faire → i like \"fait\", être → u like \"futur\" (both come from the Latin verb for to be).",
           "\"Il vit\" (voir, he saw) vs \"il vécut\" (vivre, he lived). Worse, \"il vit\" is also the present of \"vivre\": \"il vit à Paris\" (he lives in Paris). In narrative, \"il vit\" is almost always 'he saw': \"il vit une ombre\".",
           "\"Il finit\", \"il dit\", \"il lit\", \"il rit\" are identical to the present. Context and neighbouring verbs decide. And watch \"il eut\" (had) vs \"il eût\" (with a circumflex, the imparfait du subjonctif you met in Unit 1).",
         ],

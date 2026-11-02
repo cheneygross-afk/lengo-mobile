@@ -277,7 +277,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "On the first photo, she has long hair; on the second, she has had it cut.",
+        source: "In the first photo, she has long hair; in the second, she has had it cut.",
         answer: "Sur la première photo, elle a les cheveux longs ; sur la deuxième, elle se les est fait couper.",
         altAnswers: ["Sur la première photo, elle a les cheveux longs ; sur la seconde, elle se les est fait couper.", "Sur la première photo, elle a les cheveux longs, sur la deuxième, elle se les est fait couper.", "Sur la première photo, elle a les cheveux longs ; sur la deuxième, elle les a fait couper."],
         explanation: "\"Se faire couper les cheveux\": with the pronoun, \"elle se les est fait couper\" (no agreement on \"fait\").",
@@ -498,7 +498,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "En quittant la ville, j'ai fait rénover une vieille maison, et ma vie est devenue plus simple.",
-        prompt: "Say it in French: By leaving the city, I had an old house renovated, and my life became simpler.",
+        prompt: "Say it in French: When I left the city, I had an old house renovated, and my life became simpler.",
         explanation: "Gérondif, faire + infinitive and devenir in one sentence.",
       },
     ],

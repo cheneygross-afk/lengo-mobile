@@ -147,7 +147,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "Valentina Tereshkova was the first woman who went into space.",
         answer: "Valentina Terechkova est la première femme qui est allée dans l'espace.",
-        altAnswers: ["Valentina Terechkova a été la première femme qui est allée dans l'espace.", "Valentina Terechkova fut la première femme qui est allée dans l'espace.", "Valentina Terechkova est la première femme à être allée dans l'espace.", "Valentina Terechkova a été la première femme à être allée dans l'espace.", "Valentina Terechkova est la première femme qui soit allée dans l'espace."],
+        altAnswers: ["Valentina Terechkova a été la première femme qui est allée dans l'espace.", "Valentina Terechkova est la première femme à être allée dans l'espace.", "Valentina Terechkova a été la première femme à être allée dans l'espace.", "Valentina Terechkova est la première femme qui soit allée dans l'espace."],
         explanation: "A historical record, not a judgement → indicative \"qui est allée\" (être verb, agreeing with \"femme\"), or the infinitive \"à être allée\". The subjunctive is still found in careful writing and is accepted.",
       },
       {
@@ -948,7 +948,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "After she left, the house was quiet.",
         answer: "Après qu'elle est partie, la maison était calme.",
-        altAnswers: ["Après son départ, la maison était calme.", "Après qu'elle fut partie, la maison était calme.", "Une fois qu'elle est partie, la maison était calme.", "Après qu'elle était partie, la maison était calme."],
+        altAnswers: ["Après son départ, la maison était calme.", "Une fois qu'elle est partie, la maison était calme.", "Après qu'elle était partie, la maison était calme."],
         explanation: "\"Après que\" → indicative in standard grammar; the noun \"après son départ\" sidesteps the issue.",
       },
       {

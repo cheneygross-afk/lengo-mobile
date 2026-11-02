@@ -281,7 +281,7 @@ export const FR_B2_U10: Lesson[] = [
             source: "She organised the party without anyone knowing.",
             answer: "Elle a organisé la fête sans que personne le sache.",
             altAnswers: ["Elle a organisé la fête sans que personne ne le sache.", "Elle a organisé la soirée sans que personne le sache.", "Elle a organisé la fête sans que personne ne soit au courant."],
-            explanation: "\"Sans que\" + subjunctive (\"sache\"); \"personne\" usually without \"ne\" after \"sans que\" (\"ne\" is tolerated in speech).",
+            explanation: "\"Sans que\" + subjunctive (\"sache\"); \"personne\" usually without \"ne\" after \"sans que\" (\"ne\" is common, even in writing, but careful usage leaves it out).",
           },
           {
             type: "fill-blank",
@@ -902,7 +902,7 @@ export const FR_B2_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is wrong?",
+        question: "Which sentence is wrong as a reproach meaning 'You should have called'?",
         options: ["Tu devrais avoir appelé.", "Tu aurais dû appeler.", "Tu aurais pu appeler.", "Il aurait fallu que tu appelles."],
         correctIndex: 0,
         explanation: "\"Tu devrais avoir appelé\" is a calque of English should have called; say \"tu aurais dû appeler\".",
@@ -2644,6 +2644,6 @@ export const FR_B2_U10_WRITING: WriteExercise = {
     "Makes a gentle reproach with \"tu aurais pu\" + infinitive",
     "Uses at least one past hypothetical (\"si j'avais...\", conditionnel passé) and one \"j'aurais aimé que\" + subjunctive",
   ],
-  modelAnswer: "Chère Camille,\n\nJe suis vraiment désolé pour samedi. Je n'arrive pas à croire que je t'ai laissée attendre deux heures à la gare. Je te demande pardon.\n\nVoilà ce qui s'est passé : j'avais noté ton arrivée pour dimanche dans mon agenda. J'aurais dû vérifier ton message au lieu de me fier à ma mémoire. Si j'avais relu ton texto vendredi soir, je me serais rendu compte de mon erreur et je serais venu te chercher à l'heure. J'aurais mieux fait de mettre une alarme sur mon téléphone, comme d'habitude.\n\nCela dit, tu aurais pu demander à quelqu'un de te prêter son téléphone pour m'appeler ! J'ai essayé de te joindre dix fois quand j'ai vu ton message, mais ton portable était éteint. J'aurais aimé que tu me préviennes plus tôt, je serais arrivé en vingt minutes.\n\nJe regrette sincèrement d'avoir gâché ton arrivée. Pour me faire pardonner, je t'invite au restaurant samedi prochain, et c'est moi qui paie le taxi du retour !\n\nJ'espère que tu ne m'en veux pas trop.\n\nJe t'embrasse,\nThomas",
+  modelAnswer: "Chère Camille,\n\nJe suis vraiment désolé pour samedi. Je n'arrive pas à croire que je t'aie laissée attendre deux heures à la gare. Je te demande pardon.\n\nVoilà ce qui s'est passé : j'avais noté ton arrivée pour dimanche dans mon agenda. J'aurais dû vérifier ton message au lieu de me fier à ma mémoire. Si j'avais relu ton texto vendredi soir, je me serais rendu compte de mon erreur et je serais venu te chercher à l'heure. J'aurais mieux fait de mettre une alarme sur mon téléphone, comme d'habitude.\n\nCela dit, tu aurais pu demander à quelqu'un de te prêter son téléphone pour m'appeler ! J'ai essayé de te joindre dix fois quand j'ai vu ton message, mais ton portable était éteint. J'aurais aimé que tu me préviennes plus tôt, je serais arrivé en vingt minutes.\n\nJe regrette sincèrement d'avoir gâché ton arrivée. Pour me faire pardonner, je t'invite au restaurant samedi prochain, et c'est moi qui paie le taxi du retour !\n\nJ'espère que tu ne m'en veux pas trop.\n\nJe t'embrasse,\nThomas",
   explanation: "Regrets use \"j'aurais dû\" / \"j'aurais mieux fait de\" + plain infinitive (never *\"je devrais avoir\"); the reproach uses \"tu aurais pu\" + infinitive. The past hypothetical has the plus-que-parfait after si and the conditionnel passé in the result. \"Regretter de\" takes the past infinitive for a past action, and \"j'aurais aimé que\" is followed by the present subjunctive (\"préviennes\").",
 };

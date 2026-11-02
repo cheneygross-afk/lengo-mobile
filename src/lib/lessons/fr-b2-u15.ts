@@ -1053,7 +1053,7 @@ export const FR_B2_U15: Lesson[] = [
         type: "listen-choose",
         audio: "Il me parle comme si rien ne s'était passé.",
         question: "What does it mean?",
-        options: ["He talks to me as if nothing had happened.", "He talks to me as if nothing were happening.", "He told me nothing had happened.", "He doesn't talk to me since it happened."],
+        options: ["He talks to me as if nothing had happened.", "He talks to me as if nothing were happening.", "He told me nothing had happened.", "He hasn't talked to me since it happened."],
         correctIndex: 0,
         explanation: "Plus-que-parfait: as if nothing had happened.",
       },

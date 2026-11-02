@@ -508,7 +508,7 @@ export const FR_B1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence suggests the speaker probably won't have money?",
+        question: "How do you say: If I had money, I'd buy a car? (you probably won't have it)",
         options: [
           "Si j'avais de l'argent, j'achèterais une voiture.",
           "Si j'ai de l'argent, j'achèterai une voiture.",
@@ -863,7 +863,7 @@ export const FR_B1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is a correct notice?",
+        question: "How does the notice say: If the alarm goes off, leave immediately?",
         options: [
           "Si l'alarme sonne, sortez immédiatement.",
           "Si l'alarme sonnera, sortez immédiatement.",
@@ -1212,7 +1212,7 @@ export const FR_B1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which line fits Chloé's list?",
+        question: "How does Chloé write: If it's cold, I'll take a jumper?",
         options: [
           "S'il fait froid, je prendrai un pull.",
           "S'il fera froid, je prendrai un pull.",
@@ -1569,7 +1569,7 @@ export const FR_B1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which question asks about a real possibility?",
+        question: "How do you say: What will happen if I leave?",
         options: [
           "Qu'est-ce qui se passera si je pars ?",
           "Qu'est-ce qui se passerait si je partais ?",
@@ -1748,7 +1748,7 @@ export const FR_B1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I hope he'll come?",
         options: ["J'espère qu'il viendra.", "J'espère qu'il vienne.", "Pourvu qu'il viendra.", "Si il viendra, je serai content."],
         correctIndex: 0,
         explanation: "\"Espérer que\" + indicative; \"pourvu que\" needs the subjunctive; \"si\" never takes the future.",

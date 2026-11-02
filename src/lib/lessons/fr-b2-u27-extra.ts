@@ -38,9 +38,9 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Il semble que le magasin soit fermé.", "Il semble que le magasin est fermé sans doute.", "Il me semble que le magasin soit fermé.", "J'espère que le magasin soit ouvert."],
+            options: ["Il semble que le magasin soit fermé.", "Il est possible que le magasin est fermé.", "Il me semble que le magasin soit fermé.", "J'espère que le magasin soit ouvert."],
             correctIndex: 0,
-            explanation: "\"Il semble que\" + subjunctive; \"il me semble que\" and \"espérer\" + indicative.",
+            explanation: "\"Il semble que\" and \"il est possible que\" + subjunctive; \"il me semble que\" and \"espérer\" + indicative.",
           },
         ],
       },

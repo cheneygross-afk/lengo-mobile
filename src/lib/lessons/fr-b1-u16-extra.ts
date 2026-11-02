@@ -148,7 +148,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: The photos I took are blurry?",
         options: [
           "Les photos que j'ai prises sont floues.",
           "Les photos que j'ai pris sont floues.",
@@ -512,7 +512,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: It's the thing I want?",
         options: [
           "C'est la chose dont j'ai envie.",
           "C'est la chose que j'ai envie.",
@@ -698,7 +698,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You reply to an ad. Which sentence is correct?",
+        question: "You reply to an ad. How do you say: I'm writing about the flat whose ad I saw?",
         options: [
           "Je vous écris au sujet de l'appartement dont j'ai vu l'annonce.",
           "Je vous écris au sujet de l'appartement que j'ai vu son annonce.",
@@ -1802,7 +1802,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence suits the ad?",
+        question: "How does the ad say: Studio two minutes from the metro?",
         options: [
           "Studio qui se trouve à deux minutes du métro.",
           "Studio que se trouve à deux minutes du métro.",

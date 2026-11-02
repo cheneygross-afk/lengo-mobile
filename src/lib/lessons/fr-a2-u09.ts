@@ -779,7 +779,7 @@ export const FR_A2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Thomas says he got up late. Which sentence is correct?",
+        question: "Thomas says he got up late. What does he say?",
         options: ["Je me suis levé tard.", "Je m'ai levé tard.", "Je me suis levée tard.", "Je suis me levé tard."],
         correctIndex: 0,
         explanation: "Être, pronoun first, and no -e because Thomas is a man.",
@@ -823,7 +823,7 @@ export const FR_A2_U09: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You tell a friend: You have to hurry! Which is correct?",
+            question: "You tell a friend: You have to hurry! How do you say it?",
             options: ["Tu dois te dépêcher !", "Tu dois se dépêcher !", "Tu te dois dépêcher !", "Tu dois dépêcher !"],
             correctIndex: 0,
             explanation: "The pronoun goes before the infinitive and matches \"tu\": \"te dépêcher\".",
@@ -1450,7 +1450,7 @@ export const FR_A2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Inès (a woman) says: Then I got dressed. Which is correct?",
+            question: "Inès (a woman) says: Then I got dressed. How does she say it?",
             options: ["Ensuite, je me suis habillée.", "Ensuite, je me suis habillé.", "Ensuite, je m'ai habillée.", "Ensuite, je suis habillée."],
             correctIndex: 0,
             explanation: "Être + agreement with Inès: \"habillée\". Without \"me\", \"je suis habillée\" just means I'm dressed (a state).",

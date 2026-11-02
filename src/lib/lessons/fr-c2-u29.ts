@@ -1014,7 +1014,7 @@ export const FR_C2_U29: Lesson[] = [
         prompt: "Translate into French.",
         source: "It took her years to come to terms with her mother's death.",
         answer: "Il lui a fallu des années pour faire le deuil de sa mère.",
-        altAnswers: ["Elle a mis des années à faire le deuil de sa mère.", "Elle a mis des années à faire son deuil."],
+        altAnswers: ["Elle a mis des années à faire le deuil de sa mère."],
         explanation: "\"Faire le deuil de quelqu'un\"; \"il lui a fallu des années pour\" or \"elle a mis des années à\" for it took her years.",
       },
       {
@@ -1243,7 +1243,7 @@ export const FR_C2_U29: Lesson[] = [
         prompt: "Translate into French.",
         source: "My boss presented my idea as his own.",
         answer: "Mon chef a présenté mon idée comme la sienne.",
-        altAnswers: ["Mon patron a présenté mon idée comme la sienne.", "Mon supérieur a présenté mon idée comme la sienne.", "Ma cheffe a présenté mon idée comme la sienne."],
+        altAnswers: ["Mon patron a présenté mon idée comme la sienne.", "Mon supérieur a présenté mon idée comme la sienne."],
         explanation: "The possessive pronoun agrees with the thing owned: \"l'idée\" → \"la sienne\".",
       },
       {
@@ -1346,7 +1346,7 @@ export const FR_C2_U29: Lesson[] = [
       {
         heading: "Proust: involuntary memory and the joy that has no cause",
         body: [
-          "In \"Du côté de chez Swann\" (1913), the first volume of \"À la recherche du temps perdu\", the narrator dips a madeleine into lime-blossom tea and is overwhelmed: « Un plaisir délicieux m'avait envahi, isolé, sans la notion de sa cause. » Then, after a long struggle: « Et tout d'un coup le souvenir m'est apparu. Ce goût, c'était celui du petit morceau de madeleine que le dimanche matin à Combray [...] ma tante Léonie m'offrait après l'avoir trempé dans son infusion de thé ou de tilleul. »",
+          "In \"Du côté de chez Swann\" (1913), the first volume of \"À la recherche du temps perdu\", the narrator dips a madeleine into the tea his mother has offered him and is overwhelmed: « Un plaisir délicieux m'avait envahi, isolé, sans la notion de sa cause. » Then, after a long struggle: « Et tout d'un coup le souvenir m'est apparu. Ce goût, c'était celui du petit morceau de madeleine que le dimanche matin à Combray [...] ma tante Léonie m'offrait après l'avoir trempé dans son infusion de thé ou de tilleul. »",
           "This is \"la mémoire involontaire\": the past returns not through effort but through a sensation. Notice the emotional vocabulary: \"un plaisir délicieux\", \"envahi\" (invaded, the same verb we used for melancholy), and the paradox of a joy \"sans la notion de sa cause\", the exact opposite of nostalgia, which knows what it misses.",
           "Grammar to notice: the construction \"ce goût, c'était celui de\" (a dislocation that holds back the revelation), the relative clause with a long insertion, and \"après l'avoir trempé\" (past infinitive). Today \"une madeleine de Proust\" is a common phrase for any taste, smell or song that brings back the past: \"cette odeur de craie, c'est ma madeleine de Proust\".",
         ],
@@ -2005,6 +2005,7 @@ export const FR_C2_U29: Lesson[] = [
             prompt: "Translate into French.",
             source: "He eventually understood.",
             answer: "Il a fini par comprendre.",
+            altAnswers: ["Il a finalement compris."],
             explanation: "\"Finir par\" + infinitive: the outcome reached at the end of a process.",
           },
           {

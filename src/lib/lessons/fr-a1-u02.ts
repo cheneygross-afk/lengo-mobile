@@ -504,7 +504,7 @@ export const FR_A1_U02: Lesson[] = [
         heading: "When the nasal disappears: bon, bonne",
         body: [
           "A vowel is nasal only when the n or m is not followed by a vowel or another n/m. As soon as an -e is added, the n becomes a real consonant and the vowel is no longer nasal: \"bon\" (nasal) → \"bonne\" (bo-n), \"américain\" → \"américaine\" (a clear è + n), \"brun\" → \"brune\", \"canadien\" → \"canadienne\".",
-          "This is how you hear the feminine of many adjectives. Same for \"un\" (nasal) → \"une\" (ü + n). Before a vowel, \"un\" and \"bon\" keep the nasal and add an n link: \"un_ami\", \"un bon_ami\".",
+          "This is how you hear the feminine of many adjectives. Same for \"un\" (nasal) → \"une\" (ü + n). Before a vowel, \"un\" keeps its nasal and adds an n link (\"un_ami\"), while \"bon\" loses its nasal and sounds just like \"bonne\": \"un bon_ami\" (bo-nami).",
         ],
         examples: [
           { es: "Il est américain, elle est américaine.", en: "He's American, she's American." },

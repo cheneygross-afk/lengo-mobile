@@ -2217,7 +2217,7 @@ export const FR_A1_U08: Lesson[] = [
             question: "What did you hear?",
             options: ["Ils dorment.", "Il dort.", "Ils sortent.", "Il sort."],
             correctIndex: 0,
-            explanation: "You hear the m of the plural \"dorment\"; singular \"dort\" ends on an o sound.",
+            explanation: "You hear the m of the plural \"dorment\"; singular \"dort\" ends on the r, with a silent t.",
           },
         ],
       },

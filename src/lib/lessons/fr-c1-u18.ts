@@ -2352,7 +2352,7 @@ export const FR_C1_U18: Lesson[] = [
           { es: "Passons à présent aux solutions envisagées.", en: "Let us now turn to the solutions being considered." },
           { es: "Comme le montre le graphique du document 3, la vacance commerciale a doublé en dix ans.", en: "As the graph in document 3 shows, the number of empty shops has doubled in ten years." },
           { es: "Comme je l'ai évoqué tout à l'heure, le prix des loyers joue un rôle central.", en: "As I mentioned earlier, rent levels play a central role." },
-          { es: "Pour ma part, je serais plutôt favorable à une piétonnisation progressive.", en: "Personally, I would rather be in favour of gradual pedestrianisation." },
+          { es: "Pour ma part, je serais plutôt favorable à une piétonnisation progressive.", en: "Personally, I would tend to favour gradual pedestrianisation." },
           { es: "Je vous remercie de votre attention et suis prête à répondre à vos questions.", en: "Thank you for your attention; I am ready to answer your questions. (woman speaking)" },
         ],
         checkpoint: [
@@ -2480,7 +2480,7 @@ export const FR_C1_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French (a man speaking).",
-        source: "Personally, I would rather be in favour of gradual pedestrianisation.",
+        source: "Personally, I would tend to favour gradual pedestrianisation.",
         answer: "Pour ma part, je serais plutôt favorable à une piétonnisation progressive.",
         altAnswers: ["À titre personnel, je serais plutôt favorable à une piétonnisation progressive.", "Personnellement, je serais plutôt favorable à une piétonnisation progressive.", "Pour ma part, je serais plutôt partisan d'une piétonnisation progressive."],
         explanation: "\"Pour ma part\" marks your own view; \"favorable à\" + noun.",
@@ -2690,9 +2690,9 @@ export const FR_C1_U18: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The summary follows the order of the original ideas.",
+        prompt: "Put the words in order to say: The summary follows the order of ideas in the original text.",
         words: ["Le résumé", "respecte", "l'ordre", "des idées", "du texte initial."],
-        translation: "The summary follows the order of the original ideas.",
+        translation: "The summary follows the order of ideas in the original text.",
         explanation: "\"Respecter l'ordre\" = to follow the order; \"le texte initial\" = the original text.",
       },
       {
@@ -2861,8 +2861,8 @@ export const FR_C1_U18: Lesson[] = [
         en: "[Although] these tools [are] imperfect, they save valuable time.",
         sentence: "___ imparfaits, ces outils permettent de gagner un temps précieux.",
         answer: "Bien qu'ils soient",
-        altAnswers: ["Quoiqu'ils soient"],
-        explanation: "\"Bien que\" + subjunctive \"soient\"; the pronoun \"ils\" anticipates \"ces outils\", a common pattern in written French.",
+        altAnswers: ["Quoiqu'ils soient", "Bien qu'", "Quoiqu'"],
+        explanation: "\"Bien que\" + subjunctive \"soient\"; the pronoun \"ils\" anticipates \"ces outils\", a common pattern in written French. The verbless \"Bien qu'imparfaits\" is also correct.",
       },
       {
         type: "translate",

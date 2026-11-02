@@ -2007,7 +2007,7 @@ export const FR_A1_U01: Lesson[] = [
         prompt: "Translate into French.",
         source: "The new teacher is Canadian.",
         answer: "Le nouveau professeur est canadien.",
-        altAnswers: ["La nouvelle professeure est canadienne.", "La nouvelle prof est canadienne.", "Le nouveau prof est canadien."],
+        altAnswers: ["La nouvelle professeure est canadienne.", "La nouvelle prof est canadienne.", "La nouvelle professeur est canadienne.", "Le nouveau prof est canadien."],
         explanation: "\"Nouveau\" goes before the noun; the nationality follows être and agrees.",
       },
       {

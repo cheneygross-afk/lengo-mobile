@@ -1605,7 +1605,7 @@ export const FR_B1_U31: Lesson[] = [
       {
         heading: "The essay and its structure",
         body: [
-          "Kevin, a learner, wrote this DELF B1 essay on the topic \"Les petits gestes du quotidien peuvent-ils sauver la planète ?\": \"Je pense que les petits gestes soient importants. On doit recycler. On doit prendre le vélo. Mais le gouvernement doit faire plus. Dans mon opinion, c'est les deux.\" The French is understandable, but the examiner would mark down the wrong moods, the anglicisms and, above all, the lack of structure.",
+          "Kevin, a learner, wrote this DELF B1 essay on the topic \"Les petits gestes du quotidien peuvent-ils sauver la planète ?\": \"Je pense que les petits gestes soient importants. On doit recycler. On doit prendre le vélo. Mais il faut que le gouvernement fait plus. J'espère que les gens fassent des efforts. Dans mon opinion, c'est les deux.\" The French is understandable, but the examiner would mark down the wrong moods, the anglicisms and, above all, the lack of structure.",
           "An Intermediate essay needs connectors: to introduce (\"Aujourd'hui, ...\"), to list (\"d'abord\", \"ensuite\", \"enfin\"), to add (\"de plus\", \"en outre\", \"par ailleurs\"), to contrast (\"cependant\", \"pourtant\", \"en revanche\", \"mais\"), to give an example (\"par exemple\"), to explain (\"en effet\", \"car\"), and to conclude (\"en conclusion\", \"pour conclure\", \"finalement\").",
         ],
         examples: [

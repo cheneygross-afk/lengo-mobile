@@ -398,7 +398,7 @@ export const FR_B2_U06_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "I want you to tell me the truth. (to a friend)",
         answer: "Je veux que tu me dises la vérité.",
-        explanation: "\"Vouloir que\" + subjunctive; never *\"je veux te dire de\".",
+        explanation: "\"Vouloir que\" + subjunctive. Unlike \"dire à quelqu'un de\", vouloir has no \"à quelqu'un de\" + infinitive pattern, so never *\"je te veux de me dire\".",
       },
       {
         type: "translate",
@@ -431,7 +431,7 @@ export const FR_B2_U06_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "My parents allowed us to go to the concert.",
         answer: "Mes parents nous ont permis d'aller au concert.",
-        altAnswers: ["Mes parents nous ont laissés aller au concert.", "Mes parents nous ont laissées aller au concert.", "Mes parents nous ont autorisés à aller au concert."],
+        altAnswers: ["Mes parents nous ont laissé aller au concert.", "Mes parents nous ont laissés aller au concert.", "Mes parents nous ont laissées aller au concert.", "Mes parents nous ont autorisés à aller au concert."],
         explanation: "\"Permettre à quelqu'un de\" or \"autoriser quelqu'un à\".",
       },
       {

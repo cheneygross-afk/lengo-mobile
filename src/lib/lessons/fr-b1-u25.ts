@@ -593,7 +593,7 @@ export const FR_B1_U25: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "It's expensive. That said, the quality is excellent.", answer: "C'est cher. Cela dit, la qualité est excellente.", altAnswers: ["C'est cher. Ceci dit, la qualité est excellente.", "C'est cher. Cela dit, la qualité est très bonne."], explanation: "\"Cela dit\" (or \"ceci dit\") = that said." },
           { type: "fill-blank", prompt: "Write the French for the bold words.", en: "I was ill on Monday, but [apart from that], everything's fine.", sentence: "J'ai été malade lundi, mais ___, tout va bien.", answer: "à part ça", altAnswers: ["à part cela"], explanation: "\"À part ça\" = apart from that, very common in speech." },
-          { type: "listen-choose", audio: "Lisez ceci avant de signer.", question: "What does it mean?", options: ["Read this before you sign.", "Read that after you sign.", "Read it before signing it.", "Sign this before you read it."], correctIndex: 0, explanation: "\"Ceci\" points to what's in front of you; \"avant de\" + infinitive = before ...ing." },
+          { type: "listen-choose", audio: "Lisez ceci avant de signer.", question: "What does it mean?", options: ["Read this before you sign.", "Read that after you sign.", "Read this while you sign.", "Sign this before you read it."], correctIndex: 0, explanation: "\"Ceci\" points to what's in front of you; \"avant de\" + infinitive = before ...ing." },
         ],
       },
       {

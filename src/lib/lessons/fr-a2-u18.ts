@@ -210,7 +210,7 @@ export const FR_A2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You want to know a pair of boots' price. What do you ask?",
+        question: "You want to know how much a pair of boots costs. What do you ask?",
         options: ["Elles coûtent combien ?", "Ils coûtent combien ?", "Combien elles sont chères ?", "Elles sont combien chères ?"],
         correctIndex: 0,
         explanation: "\"Les bottes\" is feminine plural, so \"elles\"; \"coûter combien\" asks the price.",
@@ -656,7 +656,7 @@ export const FR_A2_U18: Lesson[] = [
         prompt: "Translate into French.",
         source: "Don't you have anything earlier?",
         answer: "Vous n'avez rien de plus tôt ?",
-        altAnswers: ["Vous n'avez rien plus tôt ?", "Vous n'avez pas quelque chose de plus tôt ?", "Il n'y a rien plus tôt ?", "Il n'y a rien de plus tôt ?"],
+        altAnswers: ["Vous n'avez pas quelque chose de plus tôt ?", "Il n'y a rien de plus tôt ?"],
         explanation: "\"Ne... rien\" wraps \"avez\"; earlier is \"plus tôt\", linked with \"de\" as in \"rien de grave\".",
       },
       {

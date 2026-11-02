@@ -82,7 +82,7 @@ export const FR_B1_U26: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Everyone ought to tidy away their stuff.", answer: "Il faudrait que chacun range ses affaires.", altAnswers: ["Chacun devrait ranger ses affaires.", "Il faudrait que tout le monde range ses affaires."], explanation: "\"Il faudrait que\" + subjunctive (\"range\"); after \"chacun\", the possessive is \"ses\"." },
           { type: "fill-blank", prompt: "Write the French for the bold words.", en: "If everyone washed their own dishes, [it would be] simpler.", sentence: "Si chacun lavait sa vaisselle, ___ plus simple.", answer: "ce serait", altAnswers: ["ça serait"], explanation: "Si + imparfait, then the conditional: \"ce serait\"." },
-          { type: "speak", text: "On pourrait faire un planning pour le ménage.", tip: "Planning is said the French way: plan-ning, with a nasal an.", explanation: "\"On pourrait\" + infinitive: a soft suggestion." },
+          { type: "speak", text: "On pourrait faire un planning pour le ménage.", tip: "Planning is an English loanword: say pla-ning, with no nasal vowel and a light ng at the end.", explanation: "\"On pourrait\" + infinitive: a soft suggestion." },
         ],
       },
     ],

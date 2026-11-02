@@ -653,7 +653,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
         heading: "Recap: four presentatives",
         body: [
           "\"Il y a\" states that something exists or happens: \"Il y a un problème\". \"C'est\" identifies or comments: \"C'est un problème\", \"C'est difficile\". \"Il est\" gives the time (\"Il est midi\") and, in writing, introduces adjective + \"de\" / \"que\" (\"Il est difficile de...\"); literary \"il est des\" = \"il y a des\". \"Voilà\" points (\"Voilà le problème\") and expresses duration with impatience (\"Voilà une heure que...\").",
-          "Common errors: *\"Il est un problème\" for 'there's a problem'; *\"C'est midi\" for 'it's noon' (spoken, but not standard); *\"Il y a difficile\".",
+          "Common errors: *\"Il est un problème\" for 'there's a problem'; *\"Il y a difficile\". Note: \"Il est midi\" states the clock time; spoken \"C'est midi\" is also natural, meaning it's noon, time for lunch.",
         ],
         examples: [
           { es: "Il y a un problème avec ta réservation.", en: "There's a problem with your booking." },

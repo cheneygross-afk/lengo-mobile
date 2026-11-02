@@ -14,7 +14,7 @@ export const FR_B1_U29_WRITING: WriteExercise = {
     "Asks about documents with the subjunctive after \"il faut que\" (\"Quels documents faut-il que je fournisse ?\")",
     "Uses a si-clause with the present (\"Si l'appartement est toujours disponible, je...\") and flat vocabulary (\"le loyer\", \"les charges\", \"le dépôt de garantie\", \"meublé\")",
   ],
-  modelAnswer: "Madame, Monsieur,\n\nJe me permets de vous écrire au sujet de l'annonce pour le T2 meublé situé rue Victor-Hugo. Je suis infirmière et je viens d'être embauchée à l'hôpital Édouard-Herriot. J'aimerais savoir si le loyer de 750 euros est charges comprises. Pourriez-vous aussi me dire quel est le montant du dépôt de garantie ? Par ailleurs, quels documents faut-il que je fournisse pour le dossier ? J'ai un garant, mes parents, qui peuvent vous envoyer leurs justificatifs. Si l'appartement est toujours disponible, je serais ravie de le visiter cette semaine, de préférence en fin de journée. Je vous remercie par avance de votre réponse.\n\nJe vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.\n\nClaire Morel",
+  modelAnswer: "Madame, Monsieur,\n\nJe me permets de vous écrire au sujet de l'annonce pour le T2 meublé situé rue Victor-Hugo. Je suis infirmière et je viens d'être embauchée à l'hôpital Édouard-Herriot. J'aimerais savoir si le loyer de 750 euros est charges comprises. Pourriez-vous aussi me dire quel est le montant du dépôt de garantie ? Par ailleurs, quels documents faut-il que je fournisse pour le dossier ? Mes parents se portent garants et peuvent vous envoyer leurs justificatifs. Si l'appartement est toujours disponible, je serais ravie de le visiter cette semaine, de préférence en fin de journée. Je vous remercie par avance de votre réponse.\n\nJe vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.\n\nClaire Morel",
   explanation: "The conditional softens every request (\"j'aimerais savoir si\", \"pourriez-vous\", \"je serais ravie\"); \"il faut que\" takes the subjunctive (\"que je fournisse\"); \"si\" + present introduces a real possibility with a conditional or future result. \"Je me permets de vous écrire\" and \"Je vous prie d'agréer\" frame a formal letter.",
 };
 
@@ -473,7 +473,7 @@ export const FR_B1_U29: Lesson[] = [
         examples: [
           { es: "Le ciel se couvre et le temps se gâte.", en: "The sky is clouding over and the weather is turning bad." },
           { es: "Malik s'est tordu la cheville en descendant un rocher.", en: "Malik twisted his ankle coming down a rock." },
-          { es: "On marchait depuis six heures quand l'orage a commencé.", en: "We'd been walking for six hours when the storm started." },
+          { es: "On marchait depuis six heures quand il a commencé à pleuvoir.", en: "We'd been walking for six hours when it started to rain." },
           { es: "Le refuge est encore à deux heures de marche.", en: "The hut is still two hours' walk away." },
           { es: "La nuit tombe vers sept heures en octobre.", en: "Night falls at around seven in October." },
           { es: "On n'a presque plus d'eau.", en: "We've got almost no water left." },
@@ -491,8 +491,8 @@ export const FR_B1_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "We [had been walking] for six hours when the storm started.",
-            sentence: "On ___ depuis six heures quand l'orage a commencé.",
+            en: "We [had been walking] for six hours when it started to rain.",
+            sentence: "On ___ depuis six heures quand il a commencé à pleuvoir.",
             answer: "marchait",
             explanation: "An action still going on at a past moment: imparfait + \"depuis\" (English had been ...ing).",
           },

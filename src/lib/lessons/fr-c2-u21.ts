@@ -363,7 +363,7 @@ export const FR_C2_U21: Lesson[] = [
             question: "Which is the best rewrite of \"Je suis le meilleur commercial de France\" ?",
             options: ["Je crois avoir un vrai sens commercial : l'an dernier, j'ai dépassé mes objectifs de 30 %.", "Je suis sans doute le meilleur commercial de France.", "Je ne suis pas très bon, mais j'essaie.", "Tout le monde dit que je suis le meilleur, donc c'est vrai."],
             correctIndex: 0,
-            explanation: "The rewrite keeps the strength, moderates it with \"je crois\", and lets a fact (30 % above target) carry the weight.",
+            explanation: "The rewrite keeps the strength, moderates it with \"je crois\", and lets a fact (30% above target) carry the weight.",
           },
         ],
       },
@@ -1428,9 +1428,9 @@ export const FR_C2_U21: Lesson[] = [
       {
         heading: "Brut annuel, net mensuel",
         body: [
-          "The single most important convention: in France, salaries are discussed \"en brut annuel\" (gross per year). A recruiter who asks « Quelles sont vos prétentions salariales ? » expects an answer like « autour de 48 000 euros brut annuel », often shortened to « 48 K » in speech (said « quarante-huit K », pronounced like the letter k). Your bank account sees \"le net mensuel\" (net per month), roughly 75 to 78 % of the gross for an employee, after \"les cotisations sociales\" (social contributions) and before income tax, which since 2019 is deducted at source (\"le prélèvement à la source\").",
+          "The single most important convention: in France, salaries are discussed \"en brut annuel\" (gross per year). A recruiter who asks « Quelles sont vos prétentions salariales ? » expects an answer like « autour de 48 000 euros brut annuel », often shortened to « 48 K » in speech (said « quarante-huit K », pronounced like the letter k). Your bank account sees \"le net mensuel\" (net per month), roughly 75% to 78% of the gross for an employee, after \"les cotisations sociales\" (social contributions) and before income tax, which since 2019 is deducted at source (\"le prélèvement à la source\").",
           "English speakers make two classic mistakes: answering in net monthly pay (« je voudrais 3 000 euros ») and leaving the recruiter to guess, or confusing \"le salaire\" with \"la rémunération\". \"La rémunération\" is the whole package: fixed salary (\"le fixe\"), variable pay (\"la part variable\", \"les primes\", bonuses), and \"les avantages\" (benefits). In job ads you'll read \"rémunération selon profil\" (pay depending on experience) or \"package attractif\".",
-          "\"Le treizième mois\" is an extra month's salary, usually paid in December, which some employers and many collective agreements (\"conventions collectives\") provide. When comparing offers, ask whether a figure is « sur douze ou sur treize mois »: 39 000 euros on thirteen months means 3 000 euros gross a month plus a December bonus.",
+          "\"Le treizième mois\" is an extra month's salary, usually paid in December, which some employers and many collective agreements (\"conventions collectives\") provide. When comparing offers, ask whether a figure is « sur douze ou sur treize mois »: 39,000 euros over thirteen months means 3,000 euros gross a month plus a December bonus.",
         ],
         examples: [
           { es: "Quelles sont vos prétentions salariales ?", en: "What are your salary expectations?" },
@@ -1455,14 +1455,14 @@ export const FR_C2_U21: Lesson[] = [
             question: "A friend in Paris says her new job pays \"39 K sur treize mois\". What does she earn per month (gross), excluding the December bonus?",
             options: ["3 000 euros brut", "3 250 euros brut", "3 900 euros brut", "3 000 euros net"],
             correctIndex: 0,
-            explanation: "39 000 ÷ 13 = 3 000 euros gross a month, plus a thirteenth payment in December. Net would be roughly 2 300 euros.",
+            explanation: "39,000 ÷ 13 = 3,000 euros gross a month, plus a thirteenth payment in December. Net would be roughly 2,300 euros.",
           },
         ],
       },
       {
         heading: "Contracts: CDI, CDD and the période d'essai",
         body: [
-          "\"Le CDI\" (contrat à durée indéterminée, a permanent contract) is still the norm and the goal; \"le CDD\" (contrat à durée déterminée) is a fixed-term contract, legally limited and normally ending with \"une indemnité de fin de contrat\" (often called \"la prime de précarité\", 10 % of the total gross pay). Interim work is \"l'intérim\" (\"une mission d'intérim\"), and freelancing \"le freelance\" or \"travailler en indépendant\".",
+          "\"Le CDI\" (contrat à durée indéterminée, a permanent contract) is still the norm and the goal; \"le CDD\" (contrat à durée déterminée) is a fixed-term contract, legally limited and normally ending with \"une indemnité de fin de contrat\" (often called \"la prime de précarité\", 10% of the total gross pay). Interim work is \"l'intérim\" (\"une mission d'intérim\"), and freelancing \"le freelance\" or \"travailler en indépendant\".",
           "Every contract can start with \"une période d'essai\" (a trial period), during which either side can end the contract with short notice. For a CDI, the legal maximum is two months for employees (\"employés\"), three for supervisors (\"agents de maîtrise\" and \"techniciens\") and four for \"cadres\" (managerial and professional staff), renewable once if the collective agreement allows it. \"Le statut cadre\" matters in France: it affects pension contributions, working-time rules and how you're perceived.",
           "Use the preposition carefully: \"être en CDI\" (to be on a permanent contract), \"signer un CDI\", \"un poste en CDD de six mois\", \"être en période d'essai\". The article is masculine (\"le contrat\"), so \"un CDI\", \"un CDD\".",
         ],

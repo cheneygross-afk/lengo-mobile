@@ -661,7 +661,7 @@ export const FR_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you answer 'Did you give the keys to the neighbours?' with 'Yes, I gave them to them'?",
+        question: "Someone asks: Did you give the keys to the neighbours? How do you write the answer: Yes, I gave them to them?",
         options: ["je les leur ai données.", "je leur les ai données.", "je les leur ai donné.", "je les ai leur données."],
         correctIndex: 0,
         explanation: "\"Les leur\" before \"ai\"; \"données\" agrees with \"les\" (les clés, feminine plural).",
@@ -1453,7 +1453,7 @@ export const FR_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say: The books? I carried them up to her flat.",
+            question: "How do you write: The books? I carried them up for her.",
             options: ["Je les lui ai montés.", "Je lui les ai montés.", "Je les lui suis montés.", "Je les lui ai monté."],
             correctIndex: 0,
             explanation: "\"Monter\" + object → \"avoir\"; \"les lui\" order; \"montés\" agrees with \"les\".",

@@ -1782,7 +1782,7 @@ export const FR_B2_U07: Lesson[] = [
       {
         heading: "Hard decisions",
         body: [
-          "The journalist asks what Dr Moreau would do in difficult situations. Her answers mix the conditional with conjunctions from Units 3-4: \"à moins que\", \"à condition que\", \"au cas où\".",
+          "The journalist asks what Dr Moreau would do in difficult situations. Her answers mix the conditional with the subjunctive conjunctions from Units 3-4 (\"à moins que\", \"à condition que\") and with this unit's \"au cas où\" + conditional.",
         ],
         examples: [
           { es: "Que feriez-vous si deux patients vous appelaient en même temps la nuit ?", en: "What would you do if two patients called you at the same time at night?" },

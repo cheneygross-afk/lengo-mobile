@@ -1391,7 +1391,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         heading: "Demeurer: to remain or to live",
         body: [
-          "\"Demeurer\" is a formal verb with two meanings and two auxiliaries. With \"être\", it means to remain, to stay: \"Il est demeuré silencieux\", \"La question est demeurée sans réponse\". With \"avoir\", it means to reside, to live (somewhere): \"Il a demeuré vingt ans à Nantes\" — very formal, found in legal documents and older literature.",
+          "\"Demeurer\" is a formal verb with two meanings and two auxiliaries. With \"être\", it means to remain, to stay: \"Il est demeuré silencieux\", \"La question est demeurée sans réponse\". With \"avoir\", it means to reside, to live (somewhere): \"Il a demeuré vingt ans à Nantes\" — very formal, found in legal documents and older literature (in this sense, modern writers sometimes use \"être\" too).",
           "In legal French, \"demeurant à\" is the standard formula on contracts: \"M. Diallo, demeurant 12 rue des Lilas à Lyon\". Everyday French prefers \"habiter\" or \"vivre\".",
           "\"Demeurer\" (remain) is a stylish alternative to \"rester\" in formal writing: \"Il n'en demeure pas moins que...\" (the fact remains that...) is a fixed connector worth having in your essays.",
         ],

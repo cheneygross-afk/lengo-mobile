@@ -340,16 +340,16 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the infinitive with its subjunctive (il form).",
+        instructions: "Match the French and the English.",
         pairs: [
-          { left: "être", right: "qu'il soit" },
-          { left: "avoir", right: "qu'il ait" },
-          { left: "aller", right: "qu'il aille" },
-          { left: "faire", right: "qu'il fasse" },
-          { left: "pouvoir", right: "qu'il puisse" },
-          { left: "savoir", right: "qu'il sache" },
+          { left: "Je suis content qu'il soit là.", right: "I'm glad he's here." },
+          { left: "Je suis triste qu'il ait froid.", right: "I'm sad he's cold." },
+          { left: "Je suis ravi qu'il aille mieux.", right: "I'm delighted he's better." },
+          { left: "Je suis surpris qu'il fasse du yoga.", right: "I'm surprised he does yoga." },
+          { left: "C'est dommage qu'il ne puisse pas venir.", right: "It's a shame he can't come." },
+          { left: "C'est génial qu'il sache nager.", right: "It's great that he can swim." },
         ],
-        explanation: "The seven irregulars, here in the il form (vouloir: veuille).",
+        explanation: "Six of the seven irregulars after emotion triggers, in the il form: \"soit\" (être), \"ait\" (avoir), \"aille\" (aller), \"fasse\" (faire), \"puisse\" (pouvoir), \"sache\" (savoir). The seventh is \"veuille\" (vouloir).",
       },
       {
         type: "listen-choose",
@@ -1258,10 +1258,10 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Complete: \"C'est dommage que vous ne ___ pas rester.\"",
-        options: ["pouvez", "pouvoir", "puissez", "puissiez"],
+        question: "How do you say: It's a shame you can't stay? (formal)",
+        options: ["C'est dommage que vous ne pouvez pas rester.", "C'est dommage que vous ne pouvoir pas rester.", "C'est dommage que vous ne puissez pas rester.", "C'est dommage que vous ne puissiez pas rester."],
         correctIndex: 3,
-        explanation: "\"C'est dommage que\" + subjunctive \"puissiez\".",
+        explanation: "\"C'est dommage que\" + subjunctive \"puissiez\" (stem \"puiss-\" + \"-iez\"). \"Pouvez\" is the indicative; \"*puissez\" forgets the i of the vous ending.",
       },
       {
         type: "listen-choose",
@@ -2297,8 +2297,8 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Je sais que tu ___ fatigué, mais il faut que tu ___ ce dossier.\"",
-        options: ["es / finisses", "sois / finis", "es / finis", "sois / finisses"],
+        question: "How do you say: I know you're tired, but you have to finish this file? (to a friend)",
+        options: ["Je sais que tu es fatigué, mais il faut que tu finisses ce dossier.", "Je sais que tu sois fatigué, mais il faut que tu finis ce dossier.", "Je sais que tu es fatigué, mais il faut que tu finis ce dossier.", "Je sais que tu sois fatigué, mais il faut que tu finisses ce dossier."],
         correctIndex: 0,
         explanation: "\"Savoir que\" + indicative \"es\"; \"il faut que\" + subjunctive \"finisses\".",
       },
@@ -2348,15 +2348,15 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "\"J'espère que tu ___ (pouvoir) venir.\" Which form, and why?",
+            question: "How do you say: I hope you'll be able to come? (to a friend)",
             options: [
-              "pourras: espérer takes the indicative",
-              "puisses: espérer is a wish",
-              "pouvoir: same subject",
-              "pouvais: past habit",
+              "J'espère que tu pourras venir.",
+              "J'espère que tu puisses venir.",
+              "J'espère pouvoir venir.",
+              "J'espère que tu pouvais venir.",
             ],
             correctIndex: 0,
-            explanation: "\"Espérer que\" is followed by the indicative, usually the future.",
+            explanation: "\"Espérer que\" is followed by the indicative, usually the future: \"pourras\". Although hoping is a wish, \"*que tu puisses\" is wrong after \"espérer\"; \"j'espère pouvoir venir\" means I hope I can come.",
           },
           {
             type: "translate",
@@ -2372,15 +2372,15 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "\"Je souhaite que tu ___ (être) heureux.\" Which form, and why?",
+        question: "Using \"souhaiter\", how do you say: I hope you'll be happy? (to a man)",
         options: [
-          "es: souhaiter is like espérer",
-          "seras: future after a wish",
-          "sois: souhaiter takes the subjunctive",
-          "être: same subject",
+          "Je souhaite que tu es heureux.",
+          "Je souhaite que tu seras heureux.",
+          "Je souhaite que tu sois heureux.",
+          "Je souhaite être heureux.",
         ],
         correctIndex: 2,
-        explanation: "\"Souhaiter que\" + subjunctive.",
+        explanation: "\"Souhaiter que\" + subjunctive \"sois\", even for the future; only \"espérer\" takes the indicative. \"Je souhaite être heureux\" is about yourself.",
       },
       {
         type: "translate",
