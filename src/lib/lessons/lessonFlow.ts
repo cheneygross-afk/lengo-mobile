@@ -69,47 +69,81 @@ export type FlowStep =
  * from = its index in section.body; whole = it is the entire paragraph. */
 export type BodyPiece = { text: string; from: number; whole: boolean };
 
-// About one phone screen of reading per card.
-const CARD_WORDS = 80;
-// Never leave a card shorter than this (it would read as a fragment).
-const MIN_CARD_WORDS = 35;
+// One card is one short portion: at most CARD_CHARS characters of text
+// (a CJK character counts as two), so no card reads as a wall of text.
+// The QA script scripts/qa/flow-check.ts --max-card reports any card over
+// the limit.
+export const CARD_CHARS = 300;
+// A card shorter than this is merged with its neighbour when they fit
+// together, so cards don't read as fragments.
+const MIN_CARD_CHARS = 110;
 export const words = (s: string) => {
   const cjk = s.match(/[぀-ヿ㐀-鿿가-힯]/g)?.length ?? 0;
   return s.split(/\s+/).filter(Boolean).length + Math.round(cjk / 2);
 };
+/** Reading length of a card's text: characters, CJK counted twice. */
+export const cardLength = (s: string) => s.length + (s.match(/[぀-ヿ㐀-鿿가-힯]/g)?.length ?? 0);
 
-// A long paragraph splits at sentence ends; short ones pack together.
-export function chunkBody(body: string[], max = CARD_WORDS): BodyPiece[][] {
+const joinText = (a: string, b: string) => (a ? `${a}${/[。！？：；，]$/.test(a) ? "" : " "}${b}` : b);
+
+// Cut text into runs no longer than max: at sentence ends first, then at
+// clause breaks (; : , and their CJK forms), then between words.
+function cut(text: string, max: number): string[] {
+  if (cardLength(text) <= max) return [text];
+  const levels = [/(?<=[.!?。！？])\s*(?=\S)/, /(?<=[;:；：])\s*(?=\S)/, /(?<=[,，、])\s*(?=\S)/, /\s+/];
+  for (const re of levels) {
+    const parts = text.split(re).filter(Boolean);
+    if (parts.length < 2) continue;
+    const out: string[] = [];
+    let cur = "";
+    for (const part of parts) {
+      const next = joinText(cur, part);
+      if (cur && cardLength(next) > max) {
+        out.push(cur);
+        cur = part;
+      } else cur = next;
+    }
+    if (cur) out.push(cur);
+    return out.flatMap((t) => cut(t, max));
+  }
+  // One unbreakable run (e.g. a long CJK sentence with no punctuation).
+  const chars = Array.from(text);
+  const out: string[] = [];
+  for (let i = 0; i < chars.length; ) {
+    let j = i;
+    let len = 0;
+    while (j < chars.length && len + cardLength(chars[j]) <= max) len += cardLength(chars[j++]);
+    out.push(chars.slice(i, Math.max(j, i + 1)).join(""));
+    i = Math.max(j, i + 1);
+  }
+  return out;
+}
+
+// A long paragraph splits into runs; short paragraphs pack together.
+export function chunkBody(body: string[], max = CARD_CHARS): BodyPiece[][] {
   const pieces: BodyPiece[] = [];
   body.forEach((p, from) => {
-    if (words(p) <= max * 1.3) {
-      pieces.push({ text: p, from, whole: true });
-      return;
-    }
-    let cur = "";
-    for (const s of p.split(/(?<=[.!?。！？])\s*(?=\S)/)) {
-      if (cur && words(cur + " " + s) > max) {
-        pieces.push({ text: cur, from, whole: false });
-        cur = s;
-      } else cur = cur ? `${cur}${/[。！？]$/.test(cur) ? "" : " "}${s}` : s;
-    }
-    if (cur) pieces.push({ text: cur, from, whole: false });
+    const runs = cut(p, max);
+    if (runs.length === 1) pieces.push({ text: p, from, whole: true });
+    else for (const text of runs) pieces.push({ text, from, whole: false });
   });
   const cards: BodyPiece[][] = [];
   let card: BodyPiece[] = [];
   let n = 0;
   for (const p of pieces) {
-    const w = words(p.text);
-    if (card.length && n >= MIN_CARD_WORDS && n + w > max) {
+    // +1 for the space between pieces on the card.
+    const w = cardLength(p.text) + (card.length ? 1 : 0);
+    if (card.length && n + w > max) {
       cards.push(card);
       card = [];
       n = 0;
     }
     card.push(p);
-    n += w;
+    n += card.length > 1 ? w : cardLength(p.text);
   }
-  // A short last card joins the one before.
-  if (card.length && cards.length && n < MIN_CARD_WORDS) cards[cards.length - 1].push(...card);
+  // A short last card joins the one before when the two still fit.
+  const prev = cards[cards.length - 1];
+  if (card.length && prev && n < MIN_CARD_CHARS && n + 1 + prev.reduce((a, q) => a + cardLength(q.text) + 1, -1) <= max) prev.push(...card);
   else if (card.length || !cards.length) cards.push(card);
   return cards;
 }
