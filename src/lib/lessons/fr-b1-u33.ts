@@ -28,19 +28,63 @@ export const FR_B1_U33: Lesson[] = [
     duration: "13 min",
     sections: [
       {
-        heading: "Looking back: ce que j'ai appris, ce qui m'a aidé",
+        heading: "Looking back: ce que j'ai appris",
         body: [
           "A year of French deserves a proper look back, and the highlighting structures from Unit 17 are made for it: \"ce que j'ai appris, c'est...\" (what I learned is...), \"ce qui m'a le plus aidé, c'est...\" (what helped me most was...). English starts with what; French needs \"ce\" + a relative pronoun, then picks the idea up again with \"c'est\".",
-          "Choose the relative by its job in its own clause. \"Ce qui\" is the subject of the next verb (\"ce qui m'a aidé\": the thing helped me). \"Ce que\" is the object (\"ce que j'ai aimé\": I liked the thing). A quick test: if a subject pronoun such as \"je\" or \"on\" comes next, you need \"ce que\".",
-          "Watch the tenses: things you did during the year are in the passé composé (\"j'ai regardé des séries\"), how things used to be is in the imparfait (\"au début, je ne comprenais rien\"). In a compound tense \"le plus\" usually sits between the auxiliary and the participle: \"ce qui m'a le plus aidé\". When what follows is plural, careful French says \"ce sont\" (\"ce sont les podcasts\"), though \"c'est les podcasts\" is common in speech.",
         ],
         examples: [
           { es: "Ce que j'ai appris cette année, c'est à ne pas avoir peur de parler.", en: "What I learned this year is not to be afraid of speaking." },
-          { es: "Ce qui m'a le plus aidé, ce sont les séries en version originale.", en: "What helped me most was watching series in the original language." },
-          { es: "Au début, je ne comprenais rien quand les gens parlaient vite.", en: "At first I didn't understand a thing when people spoke fast." },
           { es: "Ce que j'ai préféré, c'est la semaine que j'ai passée à Lyon.", en: "What I enjoyed most was the week I spent in Lyon." },
           { es: "Ce qui m'a surpris, c'est que les Français parlent si vite au téléphone.", en: "What surprised me was how fast French people talk on the phone." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[What] I found hardest was the subjunctive.",
+            sentence: "___ j'ai trouvé le plus difficile, c'est le subjonctif.",
+            answer: "Ce que",
+            explanation: "English starts with what; French needs \"ce\" + a relative, and \"j'\" is the subject of \"ai trouvé\", so \"ce que\".",
+          },
+        ],
+      },
+      {
+        heading: "Ce qui or ce que?",
+        body: [
+          "Choose the relative by its job in its own clause. \"Ce qui\" is the subject of the next verb (\"ce qui m'a aidé\": the thing helped me). \"Ce que\" is the object (\"ce que j'ai aimé\": I liked the thing). A quick test: if a subject pronoun such as \"je\" or \"on\" comes next, you need \"ce que\".",
+        ],
+        examples: [
+          { es: "Ce qui me plaît, c'est l'accent du Sud.", en: "What I like is the southern accent." },
+          { es: "Ce que je regarde, ce sont surtout des séries.", en: "What I watch is mostly series." },
+          { es: "Ce qu'on oublie vite, c'est le vocabulaire.", en: "What you forget quickly is vocabulary." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Complete: \"___ m'a motivé, c'est mon voyage à Nice.\"",
+            options: ["Ce qui", "Ce que", "Ce dont", "Qu'est-ce qui"],
+            correctIndex: 0,
+            explanation: "The next word is \"m'a\", with no subject before the verb, so the relative is the subject: \"ce qui\". \"Ce que\" needs a subject such as \"je\" after it.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Ce qui j'ai aimé, c'est la musique.",
+            answer: "Ce que j'ai aimé, c'est la musique.",
+            explanation: "\"J'\" is the subject of \"ai aimé\", so the relative is its object: \"ce que\". *Ce qui j'ai is the classic slip.",
+          },
+        ],
+      },
+      {
+        heading: "Tenses, le plus and ce sont",
+        body: [
+          "Watch the tenses: things you did during the year are in the passé composé (\"j'ai regardé des séries\"), how things used to be is in the imparfait (\"au début, je ne comprenais rien\"). In a compound tense \"le plus\" usually sits between the auxiliary and the participle: \"ce qui m'a le plus aidé\". When what follows is plural, careful French says \"ce sont\" (\"ce sont les podcasts\"), though \"c'est les podcasts\" is common in speech.",
+        ],
+        examples: [
+          { es: "Au début, je ne comprenais rien quand les gens parlaient vite.", en: "At first I didn't understand a thing when people spoke fast." },
           { es: "J'ai fait beaucoup de progrès depuis septembre.", en: "I've made a lot of progress since September." },
+          { es: "Ce qui m'a le plus aidé, ce sont les séries en version originale.", en: "What helped me most was watching series in the original language." },
         ],
         checkpoint: [
           {
@@ -53,40 +97,33 @@ export const FR_B1_U33: Lesson[] = [
             explanation: "\"Ce qui\" because it is the subject of \"m'a aidé\". With a plural noun after it, \"ce sont\" is the careful form; \"c'est\" is fine in speech. A woman can write \"aidée\", since \"m'\" is a preceding direct object.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "[What] I liked best was the trip to Lyon.",
-            sentence: "___ j'ai préféré, c'est le voyage à Lyon.",
-            answer: "Ce que",
-            explanation: "\"J'\" is the subject of \"ai préféré\", so the relative is the object form \"ce que\". *Ce qui j'ai préféré is the classic slip.",
-          },
-          {
             type: "listen-choose",
-            audio: "Au début, je ne comprenais rien.",
+            audio: "Au début, je n'osais pas répondre au téléphone.",
             question: "What does it mean?",
-            options: ["At first I didn't understand anything.", "At first I understood everything.", "In the end I didn't understand anything.", "At first I didn't understand him."],
+            options: ["At first I didn't dare answer the phone.", "At first I didn't answer the phone once.", "In the end I didn't dare answer the phone.", "At first I didn't want a phone."],
             correctIndex: 0,
-            explanation: "\"Au début\" is at first (at the end would be \"à la fin\"); \"je ne comprenais rien\" is an imparfait describing an ongoing situation.",
+            explanation: "\"Au début\" is at first, and the imparfait \"je n'osais pas\" describes how things used to be, not a single event.",
           },
         ],
       },
       {
-        heading: "What you still need: ce dont j'ai besoin, j'aimerais que...",
+        heading: "What you still need: ce dont",
         body: [
           "\"Avoir besoin de\" takes \"de\", so the relative that replaces its object is \"ce dont\": \"ce dont j'ai encore besoin, c'est de pratique\". The same goes for \"avoir envie de\", \"avoir peur de\", \"parler de\": \"ce dont j'ai peur, c'est de tout oublier\". English speakers write *ce que j'ai besoin because English need takes no preposition; in French the \"de\" has to surface in the relative.",
-          "To say what you'd like other people to do, use \"j'aimerais que\" or \"je voudrais que\" + the subjunctive: \"j'aimerais que mon prof me corrige plus souvent\". English uses an infinitive (I'd like him to correct me); French needs a full clause with \"que\". When you are the one doing it, keep the infinitive: \"j'aimerais parler plus vite\", never *j'aimerais que je parle.",
-          "Two useful chunks for weaknesses: \"avoir du mal à\" + infinitive (to struggle to) and \"encore\" for still: \"j'ai encore du mal à suivre les films sans sous-titres\". \"Toujours\" also means still, but with a nuance of annoyance: \"je fais toujours la même faute\".",
         ],
         examples: [
           { es: "Ce dont j'ai encore besoin, c'est de vocabulaire.", en: "What I still need is vocabulary." },
-          { es: "J'ai encore du mal à comprendre les films sans sous-titres.", en: "I still struggle to understand films without subtitles." },
-          { es: "J'aimerais que mon prof me corrige plus souvent.", en: "I'd like my teacher to correct me more often." },
-          { es: "Je voudrais que mes collègues me parlent en français.", en: "I'd like my colleagues to speak to me in French." },
-          { es: "J'aimerais parler sans réfléchir à chaque mot.", en: "I'd like to speak without thinking about every word." },
           { es: "Ce dont j'ai peur, c'est de tout oublier pendant l'été.", en: "What I'm afraid of is forgetting everything over the summer." },
-          { es: "Je fais toujours la même faute avec les accords.", en: "I still make the same mistake with agreements." },
+          { es: "Ce dont je parle le plus, c'est de mon travail.", en: "What I talk about most is my job." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Complete: \"___ j'ai envie, c'est de vacances.\"",
+            options: ["Ce dont", "Ce que", "Ce qui", "Ce où"],
+            correctIndex: 0,
+            explanation: "\"Avoir envie de\" ends in \"de\", so the relative is \"ce dont\". \"Ce que\" would only fit a verb with no preposition.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -96,6 +133,19 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["Ce dont j'ai besoin, c'est de la pratique.", "Ce dont j'ai besoin, c'est de pratiquer.", "Ce dont j'ai besoin, c'est de m'entraîner."],
             explanation: "\"Avoir besoin de\" → \"ce dont\", and the \"de\" comes back after \"c'est\": \"c'est de pratique\". *Ce que j'ai besoin is wrong.",
           },
+        ],
+      },
+      {
+        heading: "Wishes for others: j'aimerais que...",
+        body: [
+          "To say what you'd like other people to do, use \"j'aimerais que\" or \"je voudrais que\" + the subjunctive: \"j'aimerais que mon prof me corrige plus souvent\". English uses an infinitive (I'd like him to correct me); French needs a full clause with \"que\". When you are the one doing it, keep the infinitive: \"j'aimerais parler plus vite\", never *j'aimerais que je parle.",
+        ],
+        examples: [
+          { es: "J'aimerais que mon prof me corrige plus souvent.", en: "I'd like my teacher to correct me more often." },
+          { es: "Je voudrais que mes collègues me parlent en français.", en: "I'd like my colleagues to speak to me in French." },
+          { es: "J'aimerais parler sans réfléchir à chaque mot.", en: "I'd like to speak without thinking about every word." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "How do you say: I'd like my friends to speak to me in French?",
@@ -115,18 +165,34 @@ export const FR_B1_U33: Lesson[] = [
         ],
       },
       {
-        heading: "Looking ahead: quand j'aurai fini ce niveau",
+        heading: "Weak points: avoir du mal à, encore, toujours",
+        body: [
+          "Two useful chunks for weaknesses: \"avoir du mal à\" + infinitive (to struggle to) and \"encore\" for still: \"j'ai encore du mal à suivre les films sans sous-titres\". \"Toujours\" also means still, but with a nuance of annoyance: \"je fais toujours la même faute\".",
+        ],
+        examples: [
+          { es: "J'ai encore du mal à comprendre les films sans sous-titres.", en: "I still struggle to understand films without subtitles." },
+          { es: "Je fais toujours la même faute avec les accords.", en: "I still make the same mistake with agreements." },
+          { es: "J'ai du mal à prononcer le r.", en: "I find it hard to pronounce the r." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "I [struggle to] follow fast conversations.",
+            sentence: "J'___ suivre les conversations rapides.",
+            answer: "ai du mal à",
+            explanation: "\"Avoir du mal à\" + infinitive = to struggle to; the preposition is \"à\", not \"de\".",
+          },
+        ],
+      },
+      {
+        heading: "Looking ahead: quand j'aurai fini",
         body: [
           "Plans for after the course need the futur antérieur in the time clause: \"quand j'aurai fini ce niveau, je passerai le DELF\". English says when I've finished, a present perfect; French moves both actions into the future, and the one that will be completed first goes into the futur antérieur (\"avoir\" or \"être\" in the future + past participle).",
-          "The same rule applies after \"dès que\" (as soon as), \"une fois que\" (once) and \"lorsque\" (when): \"dès que j'aurai obtenu mon diplôme, je partirai\". *Quand j'ai fini, je passerai is the most frequent slip; *quand je finirai is possible only if the two actions happen at the same time.",
-          "For dreams rather than plans, use \"si\" + imparfait + conditional: \"si j'avais plus de temps, je prendrais des cours particuliers\". And remember \"espérer\" takes the indicative, so a future is fine after it: \"j'espère que je pourrai suivre les infos\".",
         ],
         examples: [
           { es: "Quand j'aurai fini ce niveau, je passerai le DELF.", en: "When I've finished this level, I'll take the DELF." },
-          { es: "Dès que j'aurai obtenu mon diplôme, je partirai vivre à Bordeaux.", en: "As soon as I've got my degree, I'll go and live in Bordeaux." },
           { es: "Une fois que j'aurai lu ce roman, je le prêterai à ma sœur.", en: "Once I've read this novel, I'll lend it to my sister." },
-          { es: "Si j'avais plus de temps, je prendrais des cours particuliers.", en: "If I had more time, I'd take private lessons." },
-          { es: "J'espère que l'année prochaine, je pourrai suivre les infos sans difficulté.", en: "I hope that next year I'll be able to follow the news without difficulty." },
           { es: "Quand je serai rentré de Montréal, je chercherai un club de conversation.", en: "When I'm back from Montreal, I'll look for a conversation club." },
         ],
         checkpoint: [
@@ -140,6 +206,25 @@ export const FR_B1_U33: Lesson[] = [
             explanation: "The earlier future action goes into the futur antérieur (\"j'aurai fini\"), the later one into the futur simple (\"j'irai\"). English 'I've finished' is not a passé composé here.",
           },
           {
+            type: "speak",
+            text: "Quand j'aurai économisé assez, je partirai au Québec.",
+            prompt: "Say it in French: When I've saved enough, I'll go to Quebec.",
+            explanation: "Futur antérieur in the \"quand\" clause, futur simple in the main clause.",
+          },
+        ],
+      },
+      {
+        heading: "Dès que, une fois que, lorsque",
+        body: [
+          "The same rule applies after \"dès que\" (as soon as), \"une fois que\" (once) and \"lorsque\" (when): \"dès que j'aurai obtenu mon diplôme, je partirai\". *Quand j'ai fini, je passerai is the most frequent slip; *quand je finirai is possible only if the two actions happen at the same time.",
+        ],
+        examples: [
+          { es: "Dès que j'aurai obtenu mon diplôme, je partirai vivre à Bordeaux.", en: "As soon as I've got my degree, I'll go and live in Bordeaux." },
+          { es: "Lorsque nous aurons déménagé, nous inviterons nos amis.", en: "When we've moved, we'll invite our friends." },
+          { es: "Une fois que tu auras lu la lettre, appelle-moi.", en: "Once you've read the letter, call me." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "As soon as [I've passed] the exam, I'll throw a party.",
@@ -148,10 +233,34 @@ export const FR_B1_U33: Lesson[] = [
             explanation: "Futur antérieur after \"dès que\". To pass an exam is \"réussir\"; \"passer un examen\" only means to take it.",
           },
           {
-            type: "speak",
-            text: "Quand j'aurai fini ce niveau, je passerai le DELF.",
-            tip: "Say DELF as one word, \"delf\", the way French learners and teachers do.",
-            explanation: "Futur antérieur in the \"quand\" clause, futur simple in the main clause.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Dès que j'ai fini mes études, je chercherai un travail.",
+            answer: "Dès que j'aurai fini mes études, je chercherai un travail.",
+            altAnswers: ["Dès que j'aurai terminé mes études, je chercherai un travail."],
+            explanation: "Both actions are still to come, so the first one goes into the futur antérieur: \"j'aurai fini\", not the passé composé.",
+          },
+        ],
+      },
+      {
+        heading: "Dreams and hopes",
+        body: [
+          "For dreams rather than plans, use \"si\" + imparfait + conditional: \"si j'avais plus de temps, je prendrais des cours particuliers\". And remember \"espérer\" takes the indicative, so a future is fine after it: \"j'espère que je pourrai suivre les infos\".",
+        ],
+        examples: [
+          { es: "Si j'avais plus de temps, je prendrais des cours particuliers.", en: "If I had more time, I'd take private lessons." },
+          { es: "J'espère que l'année prochaine, je pourrai suivre les infos sans difficulté.", en: "I hope that next year I'll be able to follow the news without difficulty." },
+          { es: "Si je vivais en France, je parlerais français tous les jours.", en: "If I lived in France, I'd speak French every day." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into a dream with \"si\" + imparfait.",
+            source: "Si j'ai le temps, je ferai un stage à Paris.",
+            answer: "Si j'avais le temps, je ferais un stage à Paris.",
+            explanation: "A dream rather than a plan: \"si\" + imparfait (\"j'avais\"), then the conditional (\"je ferais\").",
           },
         ],
       },
@@ -179,19 +288,27 @@ export const FR_B1_U33: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "What I still need is confidence.",
-        answer: "Ce dont j'ai encore besoin, c'est de confiance.",
-        altAnswers: ["Ce dont j'ai encore besoin, c'est de confiance en moi.", "Ce dont j'ai toujours besoin, c'est de confiance."],
-        explanation: "\"Avoir besoin de\" → \"ce dont\". \"Encore\" (still) sits after the conjugated verb.",
+        source: "What I still need is a French friend.",
+        answer: "Ce dont j'ai encore besoin, c'est d'un ami français.",
+        altAnswers: ["Ce dont j'ai encore besoin, c'est d'une amie française.", "Ce dont j'ai toujours besoin, c'est d'un ami français."],
+        explanation: "\"Avoir besoin de\" → \"ce dont\", and the \"de\" comes back before the noun: \"c'est d'un ami\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Ce que j'ai envie, c'est de dormir.",
+        answer: "Ce dont j'ai envie, c'est de dormir.",
+        explanation: "\"Avoir envie de\" has a \"de\", so the relative must be \"ce dont\", not \"ce que\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[At first], I didn't understand anything.",
-        sentence: "___, je ne comprenais rien.",
+        en: "[At first], I was afraid of making mistakes.",
+        sentence: "___, j'avais peur de faire des fautes.",
         answer: "Au début",
         altAnswers: ["Au départ"],
-        explanation: "\"Au début\" (at the beginning) sets the scene, and the imparfait \"comprenais\" describes a situation that lasted.",
+        explanation: "\"Au début\" (at the beginning) sets the scene, and the imparfait \"avais\" describes a situation that lasted.",
       },
       {
         type: "word-order",
@@ -241,11 +358,11 @@ export const FR_B1_U33: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "Dès que j'aurai obtenu mon diplôme, je partirai.",
+        audio: "Dès que j'aurai trouvé un travail, je déménagerai.",
         question: "What does it mean?",
-        options: ["As soon as I've got my degree, I'll leave.", "As soon as I got my degree, I left.", "If I got my degree, I would leave.", "Since I got my degree, I've been leaving."],
+        options: ["As soon as I've found a job, I'll move.", "As soon as I found a job, I moved.", "If I found a job, I would move.", "Since I found a job, I've been moving."],
         correctIndex: 0,
-        explanation: "\"J'aurai obtenu\" is the futur antérieur and \"je partirai\" the futur simple: both actions are still to come.",
+        explanation: "\"J'aurai trouvé\" is the futur antérieur and \"je déménagerai\" the futur simple: both actions are still to come.",
       },
       {
         type: "speak",
@@ -264,39 +381,68 @@ export const FR_B1_U33: Lesson[] = [
     duration: "14 min",
     sections: [
       {
-        heading: "Getting around: transports, correspondances, heures de pointe",
+        heading: "Getting around: les transports en commun",
         body: [
           "Public transport is \"les transports en commun\", always plural; *le transport public sounds like a translation. You take them (\"prendre le métro, le bus, le tram, le RER\") and travel \"en métro\", \"en bus\", but \"à pied\" and \"à vélo\" (\"en vélo\" is very common in speech too).",
-          "\"Une correspondance\" is a connection: the place where you change lines (\"à République, prenez la correspondance pour la ligne 3\"), and also a connecting train or flight (\"j'ai raté ma correspondance\"). To change lines is \"changer\": \"il faut changer à Châtelet\".",
-          "Rush hour is \"les heures de pointe\" (plural); off-peak is \"les heures creuses\". A traffic jam is \"un embouteillage\", or \"un bouchon\" in everyday speech and on the radio. A crowded train is \"bondé\". A pedestrian is \"un piéton\" (a pedestrianised street is \"une rue piétonne\"), and a cycle lane is \"une piste cyclable\".",
         ],
         examples: [
           { es: "Je prends les transports en commun pour aller au travail.", en: "I take public transport to work." },
+          { es: "Je vais au bureau à vélo quand il fait beau.", en: "I cycle to the office when the weather's nice." },
+          { es: "On y va en bus ou à pied ?", en: "Shall we go by bus or on foot?" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "'I go to school on foot.' Which is correct?",
+            options: ["Je vais à l'école à pied.", "Je vais à l'école en pied.", "Je vais à l'école par pied.", "Je vais à l'école avec les pieds."],
+            correctIndex: 0,
+            explanation: "Vehicles you ride inside take \"en\" (\"en bus\", \"en métro\"), but on foot is always \"à pied\" (and by bike \"à vélo\").",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "We came [by tram].",
+            sentence: "On est venus ___.",
+            answer: "en tram",
+            altAnswers: ["en tramway"],
+            explanation: "You travel inside the tram, so \"en tram\", like \"en métro\" and \"en bus\".",
+          },
+        ],
+      },
+      {
+        heading: "Correspondances: changing lines",
+        body: [
+          "\"Une correspondance\" is a connection: the place where you change lines (\"à République, prenez la correspondance pour la ligne 3\"), and also a connecting train or flight (\"j'ai raté ma correspondance\"). To change lines is \"changer\": \"il faut changer à Châtelet\".",
+        ],
+        examples: [
           { es: "À Bastille, il faut prendre la correspondance pour la ligne 1.", en: "At Bastille you have to change to line 1." },
-          { es: "Aux heures de pointe, le métro est bondé.", en: "At rush hour the metro is packed." },
-          { es: "On est restés coincés une heure dans les embouteillages.", en: "We were stuck in traffic for an hour." },
-          { es: "La mairie a créé une piste cyclable le long des quais.", en: "The town council has created a cycle lane along the river." },
-          { es: "Cette rue est réservée aux piétons le dimanche.", en: "This street is for pedestrians only on Sundays." },
           { es: "J'ai raté ma correspondance à Lyon à cause du retard.", en: "I missed my connection in Lyon because of the delay." },
+          { es: "Il faut changer deux fois pour aller à l'aéroport.", en: "You have to change twice to get to the airport." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "I take public transport every day.",
-            answer: "Je prends les transports en commun tous les jours.",
-            altAnswers: ["Tous les jours, je prends les transports en commun.", "Je prends les transports en commun chaque jour."],
-            explanation: "\"Les transports en commun\" is the everyday term, plural, with \"prendre\".",
+            source: "You have to change at Châtelet.",
+            answer: "Il faut changer à Châtelet.",
+            altAnswers: ["Vous devez changer à Châtelet.", "Tu dois changer à Châtelet.", "Il faut prendre la correspondance à Châtelet.", "On doit changer à Châtelet."],
+            explanation: "To change lines is simply \"changer\"; \"il faut\" + infinitive is the general you have to.",
           },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "Avoid the metro [at rush hour].",
-            sentence: "Évitez le métro ___.",
-            answer: "aux heures de pointe",
-            explanation: "\"Les heures de pointe\" is plural, so at rush hour is \"aux heures de pointe\" (à + les).",
-          },
+        ],
+      },
+      {
+        heading: "Rush hour, traffic and pedestrians",
+        body: [
+          "Rush hour is \"les heures de pointe\" (plural); off-peak is \"les heures creuses\". A traffic jam is \"un embouteillage\", or \"un bouchon\" in everyday speech and on the radio. A crowded train is \"bondé\". A pedestrian is \"un piéton\" (a pedestrianised street is \"une rue piétonne\"), and a cycle lane is \"une piste cyclable\".",
+        ],
+        examples: [
+          { es: "Aux heures de pointe, le métro est bondé.", en: "At rush hour the metro is packed." },
+          { es: "On est restés coincés une heure dans les embouteillages.", en: "We were stuck in traffic for an hour." },
+          { es: "La mairie a créé une piste cyclable le long des quais.", en: "The town council has created a cycle lane along the river." },
+          { es: "Cette rue est réservée aux piétons le dimanche.", en: "This street is for pedestrians only on Sundays." },
+        ],
+        checkpoint: [
           {
             type: "matching",
             instructions: "Match the French to the English.",
@@ -309,23 +455,77 @@ export const FR_B1_U33: Lesson[] = [
             ],
             explanation: "\"Un bouchon\" is the spoken word for \"un embouteillage\"; \"les heures creuses\" are the opposite of \"les heures de pointe\".",
           },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Avoid the metro [at rush hour].",
+            sentence: "Évitez le métro ___.",
+            answer: "aux heures de pointe",
+            explanation: "\"Les heures de pointe\" is plural, so at rush hour is \"aux heures de pointe\" (à + les).",
+          },
         ],
       },
       {
-        heading: "Where you live: quartier, centre-ville, banlieue",
+        heading: "Your quartier",
         body: [
           "\"Un quartier\" is a neighbourhood or district, the unit French people think in: \"j'aime bien mon quartier\", \"c'est un quartier animé / calme / chic / populaire\". \"Populaire\" here means working-class, not popular. The centre is \"le centre-ville\" (with a hyphen), and \"en ville\" means into town.",
-          "\"La banlieue\" is the ring of towns around a big city, and you live \"en banlieue\". Translate it with care: the word often evokes the large housing estates (\"les cités\", the \"HLM\" tower blocks) and the social problems the media associate with them, so \"les jeunes de banlieue\" is far from neutral. For a leafy commuter suburb, French tends to name the town or say \"un quartier résidentiel\", \"une ville de la proche banlieue\".",
-          "\"La mairie\" (\"l'hôtel de ville\" in big cities) is both the town hall building and the local council: \"la mairie a décidé de...\". \"Les espaces verts\" are parks, gardens and other green areas, and \"les habitants\" are the residents of a place.",
         ],
         examples: [
-          { es: "J'habite en banlieue, à vingt minutes de Paris en RER.", en: "I live in the suburbs, twenty minutes from Paris by RER." },
           { es: "C'est un quartier calme où il y a beaucoup d'espaces verts.", en: "It's a quiet area with lots of green spaces." },
-          { es: "Le marché a lieu sur la place de la mairie le samedi matin.", en: "The market is held on the town hall square on Saturday mornings." },
           { es: "Les loyers du centre-ville ont beaucoup augmenté.", en: "Rents in the city centre have gone up a lot." },
           { es: "Ce qui me plaît dans mon quartier, c'est qu'on peut tout faire à pied.", en: "What I like about my neighbourhood is that you can do everything on foot." },
           { es: "La Croix-Rousse est un ancien quartier populaire de Lyon.", en: "La Croix-Rousse is an old working-class district of Lyon." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A French friend says: \"C'est un quartier populaire.\" What does she mean?",
+            options: ["It's a working-class area.", "It's a fashionable area everybody loves.", "It's a crowded tourist area.", "It's a residential suburb."],
+            correctIndex: 0,
+            explanation: "\"Populaire\" applied to a district means working-class (du peuple), a false friend of popular. A trendy area is \"branché\" or \"à la mode\".",
+          },
+        ],
+      },
+      {
+        heading: "La banlieue: a loaded word",
+        body: [
+          "\"La banlieue\" is the ring of towns around a big city, and you live \"en banlieue\". Translate it with care: the word often evokes the large housing estates (\"les cités\", the \"HLM\" tower blocks) and the social problems the media associate with them, so \"les jeunes de banlieue\" is far from neutral. For a leafy commuter suburb, French tends to name the town or say \"un quartier résidentiel\", \"une ville de la proche banlieue\".",
+        ],
+        examples: [
+          { es: "J'habite en banlieue, à vingt minutes de Paris en RER.", en: "I live in the suburbs, twenty minutes from Paris by RER." },
+          { es: "Ils ont acheté une maison dans un quartier résidentiel.", en: "They bought a house in a residential area." },
+          { es: "Il a grandi dans une cité de la banlieue nord.", en: "He grew up on a housing estate in the northern suburbs." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "My sister lives in the suburbs.",
+            answer: "Ma sœur habite en banlieue.",
+            altAnswers: ["Ma sœur vit en banlieue."],
+            explanation: "\"En banlieue\", with \"en\" and no article. Remember the word can carry social connotations.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Nous habitons à la banlieue.",
+            answer: "Nous habitons en banlieue.",
+            altAnswers: ["On habite en banlieue."],
+            explanation: "Living in the suburbs is \"en banlieue\", with \"en\" and no article.",
+          },
+        ],
+      },
+      {
+        heading: "La mairie and les espaces verts",
+        body: [
+          "\"La mairie\" (\"l'hôtel de ville\" in big cities) is both the town hall building and the local council: \"la mairie a décidé de...\". \"Les espaces verts\" are parks, gardens and other green areas, and \"les habitants\" are the residents of a place.",
+        ],
+        examples: [
+          { es: "Le marché a lieu sur la place de la mairie le samedi matin.", en: "The market is held on the town hall square on Saturday mornings." },
           { es: "Les habitants se sont mobilisés pour sauver leur boulangerie.", en: "The residents got together to save their bakery." },
+          { es: "La mairie a décidé de fermer la piscine en août.", en: "The council has decided to close the pool in August." },
         ],
         checkpoint: [
           {
@@ -337,31 +537,56 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["On habite dans un quartier calme où il y a beaucoup d'espaces verts.", "Nous vivons dans un quartier calme où il y a beaucoup d'espaces verts.", "On vit dans un quartier calme où il y a beaucoup d'espaces verts.", "Nous habitons dans un quartier calme avec beaucoup d'espaces verts.", "On habite dans un quartier calme avec beaucoup d'espaces verts."],
             explanation: "\"Un quartier\" for neighbourhood; \"où il y a\" or \"avec\" for with; \"beaucoup d'espaces verts\" (de, not des, after beaucoup).",
           },
+        ],
+      },
+      {
+        heading: "Describing city problems",
+        body: [
+          "Complaining about the city is a national sport, and Intermediate grammar gives you the tools. Describe the problem with the present or \"ça fait... que\": \"ça fait six mois qu'il y a des travaux dans ma rue\". \"La circulation\" is traffic (the flow of cars), \"le bruit\" noise, \"la pollution\" pollution, and \"les travaux\" roadworks or building works, always plural.",
+        ],
+        examples: [
+          { es: "Ça fait six mois qu'il y a des travaux dans ma rue.", en: "There have been roadworks in my street for six months." },
+          { es: "Je ne supporte plus le bruit de la circulation sous mes fenêtres.", en: "I can't stand the noise of the traffic under my windows any more." },
+          { es: "La pollution augmente chaque été.", en: "Pollution goes up every summer." },
+        ],
+        checkpoint: [
           {
-            type: "multiple-choice",
-            question: "A French friend says: \"C'est un quartier populaire.\" What does she mean?",
-            options: ["It's a working-class area.", "It's a fashionable area everybody loves.", "It's a crowded tourist area.", "It's a residential suburb."],
-            correctIndex: 0,
-            explanation: "\"Populaire\" applied to a district means working-class (du peuple), a false friend of popular. A trendy area is \"branché\" or \"à la mode\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "There's been a lot of noise in the square for a week.",
+            answer: "Ça fait une semaine qu'il y a beaucoup de bruit sur la place.",
+            altAnswers: ["Il y a beaucoup de bruit sur la place depuis une semaine.", "Il y a une semaine qu'il y a beaucoup de bruit sur la place."],
+            explanation: "Still going on: \"ça fait... que\" + present, or present + \"depuis\". A square is \"une place\", and you are \"sur la place\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Le travail dans ma rue fait beaucoup de bruit.",
+            answer: "Les travaux dans ma rue font beaucoup de bruit.",
+            explanation: "Roadworks are always \"les travaux\" (plural), so the verb is plural too: \"font\". \"Le travail\" is work or a job.",
           },
         ],
       },
       {
-        heading: "City problems and wishes: il faudrait que la mairie...",
+        heading: "Suggesting solutions",
         body: [
-          "Complaining about the city is a national sport, and Intermediate grammar gives you the tools. Describe the problem with the present or \"ça fait... que\": \"ça fait six mois qu'il y a des travaux dans ma rue\". \"La circulation\" is traffic (the flow of cars), \"le bruit\" noise, \"la pollution\" pollution, and \"les travaux\" roadworks or building works, always plural.",
           "Suggest solutions with the conditional (\"on devrait interdire les voitures\", \"ce serait bien d'avoir plus de bancs\") or with \"il faudrait que\" + subjunctive (\"il faudrait que la mairie construise plus de pistes cyclables\"). \"Il faudrait\" is the softer conditional of \"il faut\": it ought to happen.",
-          "Hypotheses use \"si\" + imparfait + conditional: \"si les transports étaient gratuits, moins de gens prendraient la voiture\". To say what has been done, the passive or \"on\": \"la place a été rénovée\", \"on a fermé la rue\".",
         ],
         examples: [
           { es: "Il faudrait que la mairie construise plus de pistes cyclables.", en: "The council ought to build more cycle lanes." },
-          { es: "Ça fait six mois qu'il y a des travaux dans ma rue.", en: "There have been roadworks in my street for six months." },
           { es: "On devrait interdire les voitures dans le centre-ville.", en: "Cars should be banned from the city centre." },
-          { es: "Si les transports étaient gratuits, moins de gens prendraient la voiture.", en: "If public transport were free, fewer people would take the car." },
-          { es: "La place du marché a été entièrement rénovée l'année dernière.", en: "The market square was completely renovated last year." },
-          { es: "Je ne supporte plus le bruit de la circulation sous mes fenêtres.", en: "I can't stand the noise of the traffic under my windows any more." },
+          { es: "Ce serait bien d'avoir plus de bancs dans le parc.", en: "It would be nice to have more benches in the park." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "You want to suggest that shops should open on Sundays. Which is correct?",
+            options: ["Il faudrait que les magasins ouvrent le dimanche.", "Il faudrait que les magasins ouvriront le dimanche.", "Il faudrait que les magasins ouvrir le dimanche.", "Il faudrait que les magasins ouvriraient le dimanche."],
+            correctIndex: 0,
+            explanation: "\"Il faudrait que\" needs the subjunctive \"ouvrent\", not the future, the infinitive or the conditional.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -371,6 +596,19 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["La mairie devrait planter plus d'arbres.", "Il faudrait que la mairie plante davantage d'arbres.", "La mairie devrait planter davantage d'arbres."],
             explanation: "\"Il faudrait que\" + subjunctive (\"plante\") or simply \"devrait\" + infinitive: both make a polite suggestion.",
           },
+        ],
+      },
+      {
+        heading: "What if... and what has been done",
+        body: [
+          "Hypotheses use \"si\" + imparfait + conditional: \"si les transports étaient gratuits, moins de gens prendraient la voiture\". To say what has been done, the passive or \"on\": \"la place a été rénovée\", \"on a fermé la rue\".",
+        ],
+        examples: [
+          { es: "Si les transports étaient gratuits, moins de gens prendraient la voiture.", en: "If public transport were free, fewer people would take the car." },
+          { es: "La place du marché a été entièrement rénovée l'année dernière.", en: "The market square was completely renovated last year." },
+          { es: "On a fermé la rue aux voitures.", en: "The street has been closed to cars." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -380,24 +618,17 @@ export const FR_B1_U33: Lesson[] = [
             explanation: "\"Si\" + imparfait, never the conditional: *si les bus seraient is a classic error.",
           },
           {
-            type: "speak",
-            text: "Il faudrait que la mairie construise plus de pistes cyclables.",
-            tip: "In \"plus de pistes\" the s of plus is silent: \"plu de\".",
-            explanation: "\"Il faudrait que\" + subjunctive: \"construise\" comes from \"ils construisent\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change to the passive.",
+            source: "On a agrandi le parc.",
+            answer: "Le parc a été agrandi.",
+            explanation: "The object \"le parc\" becomes the subject, with \"a été\" + participle agreeing with it.",
           },
         ],
       },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "You have to change at Châtelet.",
-        answer: "Il faut changer à Châtelet.",
-        altAnswers: ["Vous devez changer à Châtelet.", "Tu dois changer à Châtelet.", "Il faut prendre la correspondance à Châtelet.", "On doit changer à Châtelet."],
-        explanation: "To change lines is simply \"changer\"; \"il faut\" + infinitive is the general you have to.",
-      },
       {
         type: "translate",
         direction: "en-es",
@@ -408,22 +639,21 @@ export const FR_B1_U33: Lesson[] = [
         explanation: "\"Une correspondance\" is a connecting train or flight; \"rater\" (or \"manquer\", familiar \"louper\") is to miss it. \"À cause de\" for a bad cause.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "My sister lives in the suburbs.",
-        answer: "Ma sœur habite en banlieue.",
-        altAnswers: ["Ma sœur vit en banlieue."],
-        explanation: "\"En banlieue\", with \"en\" and no article. Remember the word can carry social connotations.",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "We were stuck for an hour [in a traffic jam].",
-        sentence: "On est restés coincés une heure ___.",
-        answer: "dans un embouteillage",
-        altAnswers: ["dans un bouchon", "dans les embouteillages", "dans les bouchons"],
-        explanation: "\"Un embouteillage\" or, more informally, \"un bouchon\". Note the plural agreement \"restés coincés\" with \"on\" meaning we.",
+        en: "There's [a traffic jam] on the motorway.",
+        sentence: "Il y a ___ sur l'autoroute.",
+        answer: "un bouchon",
+        altAnswers: ["un embouteillage", "des bouchons", "des embouteillages"],
+        explanation: "\"Un bouchon\" is what you hear on the radio; \"un embouteillage\" is the neutral word.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Les transports en commun est en grève.",
+        answer: "Les transports en commun sont en grève.",
+        explanation: "\"Les transports en commun\" is always plural, so the verb is \"sont\".",
       },
       {
         type: "word-order",
@@ -436,39 +666,23 @@ export const FR_B1_U33: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "There have been roadworks in our street for three months.",
-        answer: "Ça fait trois mois qu'il y a des travaux dans notre rue.",
-        altAnswers: ["Il y a des travaux dans notre rue depuis trois mois.", "Il y a trois mois qu'il y a des travaux dans notre rue.", "Ça fait trois mois qu'il y a des travaux dans notre rue !"],
-        explanation: "Still going on: present + \"depuis\" or \"ça fait... que\" + present. \"Les travaux\" is always plural.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The square was renovated last year.",
-        answer: "La place a été rénovée l'année dernière.",
-        altAnswers: ["La place a été rénovée l'an dernier.", "On a rénové la place l'année dernière.", "On a rénové la place l'an dernier."],
-        explanation: "Passive passé composé \"a été rénovée\" (agreeing with \"la place\"), or the everyday \"on a rénové\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "You want to suggest that cars should be banned from the centre. Which is correct?",
-        options: ["On devrait interdire les voitures dans le centre-ville.", "Il faudrait qu'on interdit les voitures dans le centre-ville.", "On devrait d'interdire les voitures dans le centre-ville.", "Il faudrait qu'on interdirait les voitures dans le centre-ville."],
-        correctIndex: 0,
-        explanation: "The conditional \"devrait\" turns must into should. With \"il faudrait que\" you need the subjunctive \"qu'on interdise\", not the indicative or the conditional, and \"devoir\" takes no \"de\".",
+        source: "The station was rebuilt in 2020.",
+        answer: "La gare a été reconstruite en 2020.",
+        altAnswers: ["On a reconstruit la gare en 2020."],
+        explanation: "Passive passé composé \"a été reconstruite\" (agreeing with \"la gare\"), or the everyday \"on a reconstruit\".",
       },
       {
         type: "listen-choose",
-        audio: "Aux heures de pointe, le métro est bondé.",
+        audio: "Aux heures creuses, le tram est presque vide.",
         question: "What does it mean?",
-        options: ["At rush hour the metro is packed.", "At night the metro is closed.", "Off-peak, the metro is empty.", "At rush hour the metro is late."],
+        options: ["Off-peak, the tram is almost empty.", "At rush hour, the tram is packed.", "At night, the tram doesn't run.", "Off-peak, the tram is often late."],
         correctIndex: 0,
-        explanation: "\"Les heures de pointe\" is rush hour and \"bondé\" means packed.",
+        explanation: "\"Les heures creuses\" are off-peak hours, the opposite of \"les heures de pointe\".",
       },
       {
         type: "dictation",
-        audio: "Cette rue est réservée aux piétons.",
-        explanation: "\"Réservée\" agrees with \"la rue\"; \"aux piétons\" = à + les piétons.",
+        audio: "Le centre-ville est fermé aux voitures le dimanche.",
+        explanation: "\"Le centre-ville\" has a hyphen; \"aux voitures\" = à + les voitures.",
       },
       {
         type: "translate",
@@ -496,14 +710,40 @@ export const FR_B1_U33: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Present and compound tenses: je le lui ai donné",
+        heading: "One order: je le lui donne",
         body: [
           "One order covers every tense except the affirmative imperative: \"me / te / se / nous / vous\" → \"le / la / les\" → \"lui / leur\" → \"y\" → \"en\". Two handy shortcuts: with \"lui / leur\" the direct object comes first (\"je le lui donne\"), with \"me / te / nous / vous\" it comes second (\"il me le donne\").",
-          "In compound tenses the whole block sits before the auxiliary, and \"ne... pas\" wraps around block + auxiliary: \"je ne le lui ai pas dit\". A preceding direct object \"la\" or \"les\" makes the participle agree (\"les photos ? je te les ai envoyées\"), but \"en\" never triggers agreement (\"des fleurs ? il m'en a offert\").",
           "For speed, do it in two steps: replace each noun, then line the pronouns up by the chart. Speak the block as one unit: \"je-le-lui\", \"il-me-l'a\", \"je-t'en-ai\".",
         ],
         examples: [
           { es: "Ta voiture ? Oui, je la lui prête de temps en temps.", en: "Your car? Yes, I lend it to him now and then." },
+          { es: "Ce secret ? Elle nous le cache depuis des mois.", en: "That secret? She's been hiding it from us for months." },
+          { es: "Des bonbons ? Mamie leur en donne beaucoup trop.", en: "Sweets? Grandma gives them far too many." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "'The newspaper? I buy it for him every day.' Which is correct?",
+            options: ["Le journal ? Je le lui achète tous les jours.", "Le journal ? Je lui le achète tous les jours.", "Le journal ? Je lui l'achète tous les jours.", "Le journal ? J'achète le lui tous les jours."],
+            correctIndex: 0,
+            explanation: "With \"lui\", the direct object comes first: \"le lui\", and the block goes before the verb.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The bike? He lends it to us on Sundays.",
+            answer: "Le vélo ? Il nous le prête le dimanche.",
+            explanation: "With \"nous\", the direct object comes second: \"nous le\".",
+          },
+        ],
+      },
+      {
+        heading: "Compound tenses: the block before the auxiliary",
+        body: [
+          "In compound tenses the whole block sits before the auxiliary, and \"ne... pas\" wraps around block + auxiliary: \"je ne le lui ai pas dit\". A preceding direct object \"la\" or \"les\" makes the participle agree (\"les photos ? je te les ai envoyées\"), but \"en\" never triggers agreement (\"des fleurs ? il m'en a offert\").",
+        ],
+        examples: [
           { es: "Cette montre ? Mon père me l'a offerte pour mes vingt ans.", en: "This watch? My father gave it to me for my twentieth birthday." },
           { es: "Les photos ? Je te les ai envoyées hier soir.", en: "The photos? I sent them to you last night." },
           { es: "La nouvelle ? Je ne la leur ai pas encore annoncée.", en: "The news? I haven't told them yet." },
@@ -528,31 +768,18 @@ export const FR_B1_U33: Lesson[] = [
             answer: "ne les lui ai",
             explanation: "\"Ne\" + pronoun block + auxiliary + \"pas\": \"je ne les lui ai pas rendues\", with \"rendues\" agreeing with \"les clés\".",
           },
-          {
-            type: "listen-choose",
-            audio: "Je te les ai envoyées hier soir.",
-            question: "What did you hear?",
-            options: ["Je te les ai envoyées hier soir.", "Je les lui ai envoyées hier soir.", "Je te l'ai envoyée hier soir.", "Je t'en ai envoyé hier soir."],
-            correctIndex: 0,
-            explanation: "\"Te les ai\" has the liaison \"les-z-ai\"; \"te l'ai\" has none, and \"t'en ai\" has a nasal vowel.",
-          },
         ],
       },
       {
         heading: "Before an infinitive: je vais le lui dire",
         body: [
           "When a conjugated verb is followed by an infinitive (\"aller\", \"venir de\", \"pouvoir\", \"vouloir\", \"devoir\", \"être sur le point de\"), the pronouns belong to the infinitive and go right in front of it: \"je vais le lui dire\", \"je viens de te l'envoyer\". English speakers often put them before the first verb, *je le lui vais dire, which is old-fashioned at best.",
-          "The same applies after prepositions: \"pour le lui rendre\", \"sans nous le dire\", \"avant de les leur montrer\". In a negative infinitive, \"ne pas\" goes in front of the whole block: \"j'ai promis de ne pas le leur répéter\".",
-          "With \"après avoir\" the pronouns sit before \"avoir\", and the participle agrees with a preceding direct object: \"après l'avoir lue, je te la prêterai\" (la lettre).",
         ],
         examples: [
           { es: "Je vais le lui dire ce soir.", en: "I'm going to tell him tonight." },
           { es: "Je viens de te l'envoyer par mail.", en: "I've just emailed it to you." },
           { es: "Je ne peux pas vous la prêter, j'en ai besoin demain.", en: "I can't lend it to you, I need it tomorrow." },
-          { es: "Il est parti sans nous le dire.", en: "He left without telling us." },
-          { es: "J'ai promis de ne pas le leur répéter.", en: "I promised not to repeat it to them." },
           { es: "J'étais sur le point de te les rapporter.", en: "I was just about to bring them back to you." },
-          { es: "Après l'avoir lue, je te la prêterai.", en: "Once I've read it, I'll lend it to you." },
         ],
         checkpoint: [
           {
@@ -565,29 +792,47 @@ export const FR_B1_U33: Lesson[] = [
             explanation: "The pronouns go before the infinitive \"expliquer\": \"le\" then \"leur\". No -s on \"leur\" as a pronoun.",
           },
           {
-            type: "word-order",
-            prompt: "Put the words in order to say: She left without telling us.",
-            words: ["Elle", "est partie", "sans", "nous le", "dire."],
-            translation: "She left without telling us.",
-            explanation: "After \"sans\" the infinitive keeps its pronouns in front: \"sans nous le dire\" (nous before le).",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Je la leur peux montrer.",
+            answer: "Je peux la leur montrer.",
+            explanation: "The pronouns belong to the infinitive \"montrer\", so they go right in front of it, after \"peux\".",
           },
         ],
       },
       {
-        heading: "Commands: donne-le-moi, ne me le donne pas",
+        heading: "After prepositions and après avoir",
+        body: [
+          "The same applies after prepositions: \"pour le lui rendre\", \"sans nous le dire\", \"avant de les leur montrer\". In a negative infinitive, \"ne pas\" goes in front of the whole block: \"j'ai promis de ne pas le leur répéter\".",
+          "With \"après avoir\" the pronouns sit before \"avoir\", and the participle agrees with a preceding direct object: \"après l'avoir lue, je te la prêterai\" (la lettre).",
+        ],
+        examples: [
+          { es: "Il est parti sans nous le dire.", en: "He left without telling us." },
+          { es: "J'ai promis de ne pas le leur répéter.", en: "I promised not to repeat it to them." },
+          { es: "Après l'avoir lue, je te la prêterai.", en: "Once I've read it, I'll lend it to you." },
+        ],
+        checkpoint: [
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: I decided not to show them to him.",
+            words: ["J'ai décidé", "de ne pas", "les lui", "montrer."],
+            translation: "I decided not to show them to him.",
+            explanation: "A negative infinitive: \"ne pas\" goes in front of the whole block \"les lui\", which stays in front of \"montrer\".",
+          },
+        ],
+      },
+      {
+        heading: "Affirmative commands: donne-le-moi",
         body: [
           "The affirmative imperative is the one exception: the pronouns follow the verb, joined by hyphens, and the direct object always comes first: \"donne-le-moi\", \"envoyez-les-leur\", \"prête-la-lui\". \"Me\" and \"te\" become \"moi\" and \"toi\" at the end, but \"m'\" and \"t'\" before \"en\": \"donne-m'en\", \"va-t'en\".",
-          "Negative commands go back to the normal order before the verb: \"ne me le donne pas\", \"ne la lui prête pas\", \"ne nous en parle plus\". So the same pair of pronouns swaps places when you add a negation: \"dis-le-lui\" / \"ne le lui dis pas\".",
           "Two traps: *donne-moi-le (wrong order; the direct object comes first) and *donne-moi-en (the right form is \"donne-m'en\").",
         ],
         examples: [
           { es: "Donne-le-moi, s'il te plaît.", en: "Give it to me, please." },
-          { es: "Ne me le donne pas maintenant, je n'ai pas de place.", en: "Don't give it to me now, I haven't got room." },
           { es: "Envoyez-les-leur avant vendredi.", en: "Send them to them before Friday." },
-          { es: "Ta voiture ? Ne la lui prête surtout pas !", en: "Your car? Whatever you do, don't lend it to him!" },
           { es: "Il reste du gâteau ? Donne-m'en un morceau.", en: "Is there any cake left? Give me a piece." },
           { es: "Parlez-lui-en avant la réunion.", en: "Talk to her about it before the meeting." },
-          { es: "Ne nous en parle plus, on a compris.", en: "Don't talk to us about it any more, we get it." },
         ],
         checkpoint: [
           {
@@ -600,6 +845,27 @@ export const FR_B1_U33: Lesson[] = [
             explanation: "Affirmative command: verb + \"la\" + \"leur\", with hyphens. \"La\" because \"la photo\" is feminine.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Prête-moi-la, s'il te plaît.",
+            answer: "Prête-la-moi, s'il te plaît.",
+            explanation: "After an affirmative imperative the direct object always comes first: \"la\" before \"moi\".",
+          },
+        ],
+      },
+      {
+        heading: "Negative commands: ne me le donne pas",
+        body: [
+          "Negative commands go back to the normal order before the verb: \"ne me le donne pas\", \"ne la lui prête pas\", \"ne nous en parle plus\". So the same pair of pronouns swaps places when you add a negation: \"dis-le-lui\" / \"ne le lui dis pas\".",
+        ],
+        examples: [
+          { es: "Ne me le donne pas maintenant, je n'ai pas de place.", en: "Don't give it to me now, I haven't got room." },
+          { es: "Ta voiture ? Ne la lui prête surtout pas !", en: "Your car? Whatever you do, don't lend it to him!" },
+          { es: "Ne nous en parle plus, on a compris.", en: "Don't talk to us about it any more, we get it." },
+        ],
+        checkpoint: [
+          {
             type: "multiple-choice",
             question: "How do you tell a friend: Don't give it to me (the bag)?",
             options: ["Ne me le donne pas.", "Ne donne-le-moi pas.", "Ne le me donne pas.", "Ne donne pas-le-moi."],
@@ -607,15 +873,25 @@ export const FR_B1_U33: Lesson[] = [
             explanation: "Negative commands use the normal order before the verb: \"me\" before \"le\".",
           },
           {
-            type: "speak",
-            text: "Donne-le-moi, s'il te plaît.",
-            tip: "Run it together as one word: \"donne-l'moi\", with the e of le barely heard.",
-            explanation: "After the affirmative imperative: direct object first, then \"moi\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it negative.",
+            source: "Envoie-la-leur.",
+            answer: "Ne la leur envoie pas.",
+            explanation: "In the negative the pronouns move before the verb in the normal order, \"la\" then \"leur\", with no hyphens.",
           },
         ],
       },
     ],
     exercises: [
+      {
+        type: "listen-choose",
+        audio: "Je vous les ai rendues hier.",
+        question: "What did you hear?",
+        options: ["Je vous les ai rendues hier.", "Je vous l'ai rendue hier.", "Je les leur ai rendues hier.", "Je vous en ai rendu hier."],
+        correctIndex: 0,
+        explanation: "\"Vous les ai\" has the liaison \"les-z-ai\"; \"vous l'ai\" has none, and \"vous en ai\" has a nasal vowel.",
+      },
       {
         type: "translate",
         direction: "en-es",
@@ -662,16 +938,15 @@ export const FR_B1_U33: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "I can't lend it to you. (to a friend, the car)",
-        answer: "Je ne peux pas te la prêter.",
-        explanation: "The pronouns go before the infinitive \"prêter\": \"te\" before \"la\"; \"ne... pas\" wraps around \"peux\".",
+        source: "I can't send it to her today. (the letter)",
+        answer: "Je ne peux pas la lui envoyer aujourd'hui.",
+        explanation: "The pronouns go before the infinitive \"envoyer\": \"la\" before \"lui\"; \"ne... pas\" wraps around \"peux\".",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Send them to her before Friday.",
-        words: ["Envoyez-les-lui", "avant", "vendredi."],
-        altOrders: [["Avant", "vendredi.", "Envoyez-les-lui"]],
-        translation: "Send them to her before Friday.",
+        prompt: "Put the words in order to say: Explain it to them before the meeting.",
+        words: ["Explique-le-leur", "avant", "la réunion."],
+        translation: "Explain it to them before the meeting.",
         explanation: "Affirmative command: verb-direct object-indirect object, all hyphenated.",
       },
       {
@@ -691,22 +966,22 @@ export const FR_B1_U33: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Je ne la lui ai pas encore annoncée.",
-        explanation: "\"La\" (la nouvelle) before \"lui\"; \"annoncée\" agrees with the preceding feminine direct object.",
+        audio: "Je ne les leur ai pas encore rendus.",
+        explanation: "\"Les\" before \"leur\", the block before the auxiliary; \"rendus\" agrees with the preceding plural direct object.",
       },
       {
         type: "listen-choose",
-        audio: "Ne me le donne pas.",
+        audio: "Ne m'en parle pas.",
         question: "What does it mean?",
-        options: ["Don't give it to me.", "Give it to me.", "Don't give it to him.", "Don't give me any."],
+        options: ["Don't talk to me about it.", "Talk to me about it.", "Don't talk to him about it.", "Don't give me any."],
         correctIndex: 0,
-        explanation: "\"Ne... pas\" makes it negative, and \"me le\" is it to me. Don't give me any would be \"ne m'en donne pas\".",
+        explanation: "\"Ne... pas\" makes it negative, and \"m'en\" with \"parler\" is to me about it.",
       },
       {
         type: "speak",
-        text: "Ne la lui prête surtout pas !",
-        prompt: "Say it in French: Whatever you do, don't lend it to him! (your car)",
-        explanation: "Negative command: pronouns before the verb, \"la\" (la voiture) then \"lui\"; \"surtout\" after the verb adds whatever you do. With \"ton vélo\" you'd say \"ne le lui prête surtout pas\".",
+        text: "Ne le leur montre surtout pas !",
+        prompt: "Say it in French: Whatever you do, don't show it to them! (the photo album)",
+        explanation: "Negative command: pronouns before the verb, \"le\" (l'album) then \"leur\"; \"surtout\" after the verb adds whatever you do.",
       },
     ],
   },
@@ -719,19 +994,14 @@ export const FR_B1_U33: Lesson[] = [
     duration: "14 min",
     sections: [
       {
-        heading: "People and companies: patron, salarié, entreprise",
+        heading: "Companies and employees",
         body: [
           "\"Une entreprise\" is a company or business of any size, the neutral everyday word; in speech people say \"une boîte\" (\"je travaille dans une petite boîte\"). \"Une société\" is the legal word for a firm. \"L'employeur\" is the employer, and the people who work there are \"les salariés\" (anyone on a wage, the word used in law and the news) or \"les employés\" (often office or shop staff).",
-          "\"Le patron\" is the boss, especially the owner; \"le chef\" or \"la cheffe\" is your line manager, and many companies say \"mon manager\". \"Un cadre\" is a salaried professional or manager, a key French category (\"elle est cadre dans une banque\") that has no exact English equivalent. \"Un collègue\" / \"une collègue\" is a colleague.",
-          "Jobs: \"un métier\" is a trade or profession (\"c'est un beau métier\"), \"un poste\" a position (\"un poste de comptable\"), \"un emploi\" a job in the formal sense, and \"un boulot\" a job in everyday speech.",
         ],
         examples: [
           { es: "Je travaille dans une petite entreprise de cinquante salariés.", en: "I work in a small company with fifty employees." },
-          { es: "Mon patron est exigeant mais juste.", en: "My boss is demanding but fair." },
-          { es: "Elle est cadre dans une grande banque parisienne.", en: "She's a manager at a big Paris bank." },
-          { es: "J'ai trouvé un poste de comptable dans une boîte de logiciels.", en: "I found a job as an accountant at a software company." },
-          { es: "Mes collègues m'ont organisé un pot pour mon départ.", en: "My colleagues threw me a little leaving do." },
-          { es: "Infirmière, c'est un métier difficile mais passionnant.", en: "Nursing is a hard but fascinating job." },
+          { es: "Elle a créé sa société en 2019.", en: "She set up her firm in 2019." },
+          { es: "Les salariés de l'usine ont fait grève hier.", en: "The factory workers went on strike yesterday." },
         ],
         checkpoint: [
           {
@@ -743,6 +1013,39 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["Ma sœur travaille pour une grande entreprise.", "Ma sœur travaille dans une grosse entreprise.", "Ma sœur travaille pour une grosse entreprise.", "Ma sœur travaille dans une grande boîte."],
             explanation: "\"Une entreprise\" is the everyday word for a company; you work \"dans\" or \"pour\" it.",
           },
+        ],
+      },
+      {
+        heading: "Bosses and cadres",
+        body: [
+          "\"Le patron\" is the boss, especially the owner; \"le chef\" or \"la cheffe\" is your line manager, and many companies say \"mon manager\". \"Un cadre\" is a salaried professional or manager, a key French category (\"elle est cadre dans une banque\") that has no exact English equivalent. \"Un collègue\" / \"une collègue\" is a colleague.",
+        ],
+        examples: [
+          { es: "Mon patron est exigeant mais juste.", en: "My boss is demanding but fair." },
+          { es: "Elle est cadre dans une grande banque parisienne.", en: "She's a manager at a big Paris bank." },
+          { es: "Mes collègues m'ont organisé un pot pour mon départ.", en: "My colleagues threw me a little leaving do." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "\"Mon père est cadre dans une assurance.\" What does this tell you?",
+            options: ["He's a salaried professional or manager at an insurance company.", "He frames pictures for an insurance company.", "He owns an insurance company.", "He's an intern at an insurance company."],
+            correctIndex: 0,
+            explanation: "\"Un cadre\" is a salaried professional or manager, a French category with no exact English match. The owner would be \"le patron\", an intern \"un stagiaire\".",
+          },
+        ],
+      },
+      {
+        heading: "Métier, poste, emploi, boulot",
+        body: [
+          "Jobs: \"un métier\" is a trade or profession (\"c'est un beau métier\"), \"un poste\" a position (\"un poste de comptable\"), \"un emploi\" a job in the formal sense, and \"un boulot\" a job in everyday speech.",
+        ],
+        examples: [
+          { es: "J'ai trouvé un poste de comptable dans une boîte de logiciels.", en: "I found a job as an accountant at a software company." },
+          { es: "Infirmière, c'est un métier difficile mais passionnant.", en: "Nursing is a hard but fascinating job." },
+          { es: "J'ai changé de boulot en mai.", en: "I changed jobs in May." },
+        ],
+        checkpoint: [
           {
             type: "matching",
             instructions: "Match the French to the English.",
@@ -758,20 +1061,43 @@ export const FR_B1_U33: Lesson[] = [
         ],
       },
       {
-        heading: "Getting in and getting out: embaucher, licencier, démissionner",
+        heading: "Hiring and firing",
         body: [
           "A company \"embauche\" (hires) or \"recrute\" (recruits) people: \"ils m'ont embauché en CDI\". If the company lets you go, it \"licencie\": \"elle a été licenciée\" means she was laid off or dismissed. Beware: \"licencier\" has nothing to do with a licence; it is the standard verb for firing. In speech, \"se faire virer\" is to get fired.",
-          "If you leave by choice, you resign: \"démissionner\", as in \"j'ai démissionné\" (I resigned), and the resignation is \"la démission\". Without work you are \"au chômage\" (unemployed), and when you stop working at the end of your career you retire: \"prendre sa retraite\".",
-          "Moving up: \"une augmentation\" is a pay rise (\"demander une augmentation\"), and \"une promotion\" a promotion, though in a shop \"en promotion\" means on special offer. \"Le salaire\" is your pay; \"brut\" and \"net\" mean before and after social contributions.",
         ],
         examples: [
           { es: "L'entreprise a embauché dix personnes cette année.", en: "The company hired ten people this year." },
           { es: "Il a été licencié après la fermeture de l'usine.", en: "He was laid off after the factory closed." },
+          { es: "Il s'est fait virer au bout de trois semaines.", en: "He got fired after three weeks." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A friend writes: \"Mon frère a été licencié.\" What happened?",
+            options: ["Her brother was laid off.", "Her brother got his driving licence.", "Her brother graduated.", "Her brother resigned."],
+            correctIndex: 0,
+            explanation: "\"Licencier\" means to dismiss or lay off, a false friend of licence. Graduating is \"obtenir son diplôme\"; resigning is \"démissionner\".",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "They [hired] me last month.",
+            sentence: "Ils m'___ le mois dernier.",
+            answer: "ont embauché",
+            altAnswers: ["ont embauchée", "ont recruté", "ont recrutée"],
+            explanation: "To hire is \"embaucher\" (or \"recruter\"); with \"m'\" before \"avoir\", a woman can write \"embauchée\".",
+          },
+        ],
+      },
+      {
+        heading: "Leaving: démissionner, le chômage, la retraite",
+        body: [
+          "If you leave by choice, you resign: \"démissionner\", as in \"j'ai démissionné\" (I resigned), and the resignation is \"la démission\". Without work you are \"au chômage\" (unemployed), and when you stop working at the end of your career you retire: \"prendre sa retraite\".",
+        ],
+        examples: [
           { es: "J'ai démissionné parce que je ne supportais plus l'ambiance.", en: "I resigned because I couldn't stand the atmosphere any more." },
           { es: "Ça fait six mois qu'elle est au chômage.", en: "She's been unemployed for six months." },
-          { es: "Je vais demander une augmentation à mon chef.", en: "I'm going to ask my manager for a pay rise." },
           { es: "Mon père prendra sa retraite l'année prochaine.", en: "My father is retiring next year." },
-          { es: "Il s'est fait virer au bout de trois semaines.", en: "He got fired after three weeks." },
         ],
         checkpoint: [
           {
@@ -783,35 +1109,81 @@ export const FR_B1_U33: Lesson[] = [
             explanation: "\"Démissionner\" takes avoir and no object: \"elle a démissionné\". *Elle a résigné is an anglicism.",
           },
           {
-            type: "multiple-choice",
-            question: "A friend writes: \"Mon frère a été licencié.\" What happened?",
-            options: ["Her brother was laid off.", "Her brother got his driving licence.", "Her brother graduated.", "Her brother resigned."],
-            correctIndex: 0,
-            explanation: "\"Licencier\" means to dismiss or lay off, a false friend of licence. Graduating is \"obtenir son diplôme\"; resigning is \"démissionner\".",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "I'm going to [ask for a pay rise].",
-            sentence: "Je vais ___.",
-            answer: "demander une augmentation",
-            explanation: "\"Une augmentation (de salaire)\" is a pay rise; you ask your boss for it: \"demander une augmentation à son patron\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "J'ai résigné hier, je pars en juin.",
+            answer: "J'ai démissionné hier, je pars en juin.",
+            explanation: "To resign from a job is \"démissionner\"; \"résigner\" is a false friend (\"se résigner\" means to accept something unwillingly).",
           },
         ],
       },
       {
-        heading: "Time off and ways of working: congés, RTT, télétravail, formation",
+        heading: "Pay rises and promotions",
+        body: [
+          "Moving up: \"une augmentation\" is a pay rise (\"demander une augmentation\"), and \"une promotion\" a promotion, though in a shop \"en promotion\" means on special offer. \"Le salaire\" is your pay; \"brut\" and \"net\" mean before and after social contributions.",
+        ],
+        examples: [
+          { es: "Je vais demander une augmentation à mon chef.", en: "I'm going to ask my manager for a pay rise." },
+          { es: "On lui a proposé une promotion.", en: "She's been offered a promotion." },
+          { es: "Mon salaire net est de 2 000 euros.", en: "My take-home pay is 2,000 euros." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "In a supermarket, the coffee is \"en promotion\". What does that mean?",
+            options: ["It's on special offer.", "It's been moved to a better shelf.", "It's a new product.", "It's sold out."],
+            correctIndex: 0,
+            explanation: "In a shop \"en promotion\" means on special offer; at work \"une promotion\" is a step up.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "My colleague [got a pay rise].",
+            sentence: "Mon collègue ___.",
+            answer: "a eu une augmentation",
+            altAnswers: ["a obtenu une augmentation"],
+            explanation: "A pay rise is \"une augmentation\" (de salaire); you \"avoir\" or \"obtenir\" one.",
+          },
+        ],
+      },
+      {
+        heading: "Time off: congés payés and RTT",
         body: [
           "French employees have five weeks of \"congés payés\" (paid leave) a year. You book days off with \"poser\" (\"j'ai posé une semaine en août\") and are then \"en congé\" or simply \"en vacances\". Many also get \"RTT\" days (réduction du temps de travail), extra days off that compensate for working more than 35 hours a week: \"je prends une RTT vendredi\".",
-          "\"Le télétravail\" is working from home or remotely (\"je suis en télétravail le lundi\", \"je télétravaille deux jours par semaine\"). \"Les horaires\" are your working hours, \"les heures supplémentaires\" (\"les heures sup\") overtime, and \"un arrêt maladie\" sick leave signed off by a doctor.",
-          "Trap: \"une formation\" is training or a training course (\"je suis une formation en gestion de projet\"), and also your education or background (\"il a une formation d'ingénieur\": he trained as an engineer). It is not the English formation. Likewise \"un stage\" is an internship or a short course, not a stage.",
         ],
         examples: [
           { es: "J'ai posé deux semaines de congés en août.", en: "I've booked two weeks off in August." },
           { es: "Je prends une RTT vendredi pour faire le pont.", en: "I'm taking a day off on Friday to make a long weekend of it." },
+          { es: "Elle est en congé jusqu'à lundi.", en: "She's on leave until Monday." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Il me reste trois RTT à poser.",
+            question: "What does it mean?",
+            options: ["I still have three days off to take.", "I have three trains left to catch.", "I have three hours of overtime to do.", "I've taken three days off already."],
+            correctIndex: 0,
+            explanation: "An \"RTT\" is a day off earned by working more than 35 hours a week; you \"poser\" (book) it.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "I've booked a week off in July.",
+            answer: "J'ai posé une semaine de congés en juillet.",
+            altAnswers: ["J'ai posé une semaine de congé en juillet.", "J'ai pris une semaine de congés en juillet.", "J'ai posé une semaine en juillet.", "J'ai pris une semaine de congé en juillet."],
+            explanation: "\"Poser\" (or \"prendre\") \"des congés\"; months take \"en\": \"en juillet\".",
+          },
+        ],
+      },
+      {
+        heading: "Télétravail, hours and sick leave",
+        body: [
+          "\"Le télétravail\" is working from home or remotely (\"je suis en télétravail le lundi\", \"je télétravaille deux jours par semaine\"). \"Les horaires\" are your working hours, \"les heures supplémentaires\" (\"les heures sup\") overtime, and \"un arrêt maladie\" sick leave signed off by a doctor.",
+        ],
+        examples: [
           { es: "Je suis en télétravail le lundi et le vendredi.", en: "I work from home on Mondays and Fridays." },
-          { es: "L'entreprise m'a payé une formation en gestion de projet.", en: "The company paid for a project management course for me." },
-          { es: "Il a une formation d'ingénieur, mais il est devenu prof.", en: "He trained as an engineer, but he became a teacher." },
           { es: "Je fais beaucoup d'heures sup en ce moment.", en: "I'm doing a lot of overtime at the moment." },
           { es: "Elle est en arrêt maladie depuis lundi.", en: "She's been on sick leave since Monday." },
         ],
@@ -825,6 +1197,26 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["Je télétravaille deux jours par semaine.", "Je travaille de chez moi deux jours par semaine.", "Je travaille à la maison deux jours par semaine.", "Je fais du télétravail deux jours par semaine."],
             explanation: "\"Être en télétravail\", \"télétravailler\" or \"travailler de chez moi\". A week is \"par semaine\".",
           },
+        ],
+      },
+      {
+        heading: "Formation and stage: false friends",
+        body: [
+          "Trap: \"une formation\" is training or a training course (\"je suis une formation en gestion de projet\"), and also your education or background (\"il a une formation d'ingénieur\": he trained as an engineer). It is not the English formation. Likewise \"un stage\" is an internship or a short course, not a stage.",
+        ],
+        examples: [
+          { es: "L'entreprise m'a payé une formation en gestion de projet.", en: "The company paid for a project management course for me." },
+          { es: "Il a une formation d'ingénieur, mais il est devenu prof.", en: "He trained as an engineer, but he became a teacher." },
+          { es: "Mon fils fait un stage dans un hôpital.", en: "My son is doing an internship at a hospital." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A colleague says: \"Il a une formation de juriste.\" What does this tell you?",
+            options: ["He trained as a lawyer.", "He's in a lawyers' football team.", "He's taking a law exam next week.", "He's been sacked from a law firm."],
+            correctIndex: 0,
+            explanation: "\"Avoir une formation de...\" describes someone's training or professional background.",
+          },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -833,12 +1225,6 @@ export const FR_B1_U33: Lesson[] = [
             answer: "une formation",
             explanation: "\"Une formation\" is a training course; you follow it (\"suivre une formation\") or do it (\"faire une formation\").",
           },
-          {
-            type: "speak",
-            text: "J'ai posé deux semaines de congés en août.",
-            tip: "In \"août\", say just \"oute\" (or \"ou\"); the a is silent.",
-            explanation: "\"Poser des congés\" is the everyday way to book time off.",
-          },
         ],
       },
     ],
@@ -846,11 +1232,11 @@ export const FR_B1_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The company hired five people last year.",
-        answer: "L'entreprise a embauché cinq personnes l'année dernière.",
-        altAnswers: ["L'entreprise a recruté cinq personnes l'année dernière.", "L'entreprise a embauché cinq personnes l'an dernier.", "L'entreprise a recruté cinq personnes l'an dernier.", "La société a embauché cinq personnes l'année dernière."],
-        explanation: "\"Embaucher\" or \"recruter\" for to hire; \"l'année dernière\" or \"l'an dernier\" for last year.",
+        prompt: "Change to the passive.",
+        source: "L'entreprise a licencié vingt salariés.",
+        answer: "Vingt salariés ont été licenciés par l'entreprise.",
+        altAnswers: ["Vingt salariés ont été licenciés."],
+        explanation: "The object becomes the subject: \"vingt salariés ont été licenciés\", with plural agreement; the company comes after \"par\".",
       },
       {
         type: "translate",
@@ -889,48 +1275,24 @@ export const FR_B1_U33: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "I've booked a week off in July.",
-        answer: "J'ai posé une semaine de congés en juillet.",
-        altAnswers: ["J'ai posé une semaine de congé en juillet.", "J'ai pris une semaine de congés en juillet.", "J'ai posé une semaine en juillet.", "J'ai pris une semaine de congé en juillet."],
-        explanation: "\"Poser\" (or \"prendre\") \"des congés\"; months take \"en\": \"en juillet\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
         source: "If I asked for a pay rise, my boss would say no.",
         answer: "Si je demandais une augmentation, mon patron dirait non.",
         altAnswers: ["Si je demandais une augmentation, mon chef dirait non.", "Si je demandais une augmentation, mon patron refuserait.", "Si je demandais une augmentation, mon chef refuserait.", "Mon patron dirait non si je demandais une augmentation."],
         explanation: "\"Si\" + imparfait, then the conditional \"dirait\" (from the future stem \"dir-\").",
       },
       {
-        type: "multiple-choice",
-        question: "A colleague says: \"Il a une formation de juriste.\" What does this tell you?",
-        options: ["He trained as a lawyer.", "He's in a lawyers' football team.", "He's taking a law exam next week.", "He's been sacked from a law firm."],
-        correctIndex: 0,
-        explanation: "\"Avoir une formation de...\" describes someone's training or professional background.",
-      },
-      {
-        type: "listen-choose",
-        audio: "Je prends une RTT vendredi.",
-        question: "What does it mean?",
-        options: ["I'm taking a day off on Friday.", "I'm taking the train on Friday.", "I'm working late on Friday.", "I'm starting a course on Friday."],
-        correctIndex: 0,
-        explanation: "An \"RTT\" is a day off earned by working more than the 35-hour week.",
-      },
-      {
-        type: "dictation",
-        audio: "Elle est en arrêt maladie depuis lundi.",
-        explanation: "\"Un arrêt maladie\" is sick leave; \"depuis lundi\" with the present because she is still off.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "My father retired last year.",
-        answer: "Mon père a pris sa retraite l'année dernière.",
-        altAnswers: ["Mon père a pris sa retraite l'an dernier.", "Mon père est parti à la retraite l'année dernière.", "Mon père est parti à la retraite l'an dernier."],
-        explanation: "\"Prendre sa retraite\" (avoir) or \"partir à la retraite\" (être). *Il a retiré means he withdrew (money).",
+        source: "My mother retired at 62.",
+        answer: "Ma mère a pris sa retraite à 62 ans.",
+        altAnswers: ["Ma mère a pris sa retraite à soixante-deux ans.", "Ma mère est partie à la retraite à 62 ans.", "Ma mère est partie à la retraite à soixante-deux ans."],
+        explanation: "\"Prendre sa retraite\" (avoir) or \"partir à la retraite\" (être). *Elle a retiré means she withdrew (money).",
+      },
+      {
+        type: "dictation",
+        audio: "Il est en arrêt maladie pour une semaine.",
+        explanation: "\"Un arrêt maladie\" is sick leave signed off by a doctor.",
       },
       {
         type: "speak",
@@ -949,20 +1311,14 @@ export const FR_B1_U33: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Station 1: moods (subjunctive, imperative, conditional, si)",
+        heading: "Station 1a: the subjunctive",
         body: [
           "The subjunctive follows \"que\" after a trigger of wish, necessity, emotion or doubt (\"il faut que tu viennes\", \"je suis contente que vous soyez là\", \"je doute qu'il sache\"). Same subject? Use an infinitive: \"je suis contente d'être là\". And \"espérer que\" takes the indicative.",
-          "Commands with pronouns: affirmative → after the verb with hyphens (\"dis-le-lui\", \"vas-y\"); negative → before the verb (\"ne le lui dis pas\"). The conditional softens (\"pourriez-vous...\", \"je voudrais\"), advises (\"tu devrais\") and imagines.",
-          "Si-clauses come in two families: \"si\" + present → present, future or imperative (\"si tu veux, on ira au cinéma\"); \"si\" + imparfait → conditional (\"si j'étais toi, je refuserais\"). Never a future or a conditional right after \"si\".",
         ],
         examples: [
           { es: "Il faut que tu viennes avant huit heures.", en: "You need to come before eight." },
           { es: "Je suis contente que vous soyez là.", en: "I'm glad you're here." },
           { es: "Je doute qu'il sache la vérité.", en: "I doubt he knows the truth." },
-          { es: "Vas-y, dis-le-lui !", en: "Go on, tell him!" },
-          { es: "Pourriez-vous m'envoyer le dossier avant lundi ?", en: "Could you send me the file before Monday?" },
-          { es: "Si tu veux, on ira au cinéma ce soir.", en: "If you like, we'll go to the cinema tonight." },
-          { es: "Si j'étais toi, je refuserais ce poste.", en: "If I were you, I'd turn that job down." },
         ],
         checkpoint: [
           {
@@ -973,15 +1329,6 @@ export const FR_B1_U33: Lesson[] = [
             answer: "Je veux que tu viennes avec moi.",
             altAnswers: ["J'aimerais que tu viennes avec moi.", "Je voudrais que tu viennes avec moi."],
             explanation: "Wanting something of someone else: \"vouloir que\" + subjunctive (\"viennes\", from \"ils viennent\"). *Je veux toi venir doesn't exist.",
-          },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "If I were you, I'd accept.",
-            answer: "Si j'étais toi, j'accepterais.",
-            altAnswers: ["Si j'étais vous, j'accepterais.", "À ta place, j'accepterais.", "À votre place, j'accepterais."],
-            explanation: "\"Si\" + imparfait (\"j'étais\"), then the conditional. \"À ta place\" (in your place) is an equally common way to give advice.",
           },
           {
             type: "fill-blank",
@@ -995,19 +1342,56 @@ export const FR_B1_U33: Lesson[] = [
         ],
       },
       {
-        heading: "Station 2: pasts and futures",
+        heading: "Station 1b: commands and the conditional",
+        body: [
+          "Commands with pronouns: affirmative → after the verb with hyphens (\"dis-le-lui\", \"vas-y\"); negative → before the verb (\"ne le lui dis pas\"). The conditional softens (\"pourriez-vous...\", \"je voudrais\"), advises (\"tu devrais\") and imagines.",
+        ],
+        examples: [
+          { es: "Vas-y, dis-le-lui !", en: "Go on, tell him!" },
+          { es: "Pourriez-vous m'envoyer le dossier avant lundi ?", en: "Could you send me the file before Monday?" },
+          { es: "Tu devrais lui en parler.", en: "You should talk to her about it." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it negative.",
+            source: "Prête-les-moi.",
+            answer: "Ne me les prête pas.",
+            explanation: "A negative command puts the pronouns back before the verb in the normal order: \"me\" before \"les\", and \"moi\" becomes \"me\".",
+          },
+        ],
+      },
+      {
+        heading: "Station 1c: si-clauses",
+        body: [
+          "Si-clauses come in two families: \"si\" + present → present, future or imperative (\"si tu veux, on ira au cinéma\"); \"si\" + imparfait → conditional (\"si j'étais toi, je refuserais\"). Never a future or a conditional right after \"si\".",
+        ],
+        examples: [
+          { es: "Si tu veux, on ira au cinéma ce soir.", en: "If you like, we'll go to the cinema tonight." },
+          { es: "Si j'étais toi, je refuserais ce poste.", en: "If I were you, I'd turn that job down." },
+          { es: "S'il fait beau, on mangera dehors.", en: "If the weather's nice, we'll eat outside." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Si on gagnerait, on ferait la fête.",
+            answer: "Si on gagnait, on ferait la fête.",
+            explanation: "Never a conditional right after \"si\": \"si\" + imparfait (\"gagnait\"), then the conditional \"ferait\".",
+          },
+        ],
+      },
+      {
+        heading: "Station 2a: four pasts",
         body: [
           "Four pasts: the passé composé for completed events, the imparfait for background and habits, the plus-que-parfait for what had happened before (\"le film avait déjà commencé\"), and \"venir de\" for what had just happened (\"je venais de m'endormir quand...\").",
-          "Durations: \"depuis\" + present for what is still going on (\"elle habite à Nantes depuis 2019\"), \"il y a\" for ago, \"pendant\" for a closed period.",
-          "Futures: the futur simple for plans and predictions, and the futur antérieur for a future action completed before another (\"dès que tu auras fini, appelle-moi\").",
         ],
         examples: [
           { es: "Quand je suis arrivé, le film avait déjà commencé.", en: "When I arrived, the film had already started." },
           { es: "Il pleuvait et je n'avais pas de parapluie.", en: "It was raining and I didn't have an umbrella." },
           { es: "Je venais de m'endormir quand le téléphone a sonné.", en: "I had just fallen asleep when the phone rang." },
-          { es: "Ils se sont rencontrés il y a dix ans à Toulouse.", en: "They met ten years ago in Toulouse." },
-          { es: "Elle habite à Nantes depuis 2019.", en: "She's lived in Nantes since 2019." },
-          { es: "Dès que tu auras fini, appelle-moi.", en: "As soon as you've finished, call me." },
         ],
         checkpoint: [
           {
@@ -1018,6 +1402,47 @@ export const FR_B1_U33: Lesson[] = [
             answer: "Quand je suis arrivé, elle était déjà partie.",
             altAnswers: ["Quand je suis arrivée, elle était déjà partie.", "Lorsque je suis arrivé, elle était déjà partie.", "Lorsque je suis arrivée, elle était déjà partie."],
             explanation: "The earlier action is in the plus-que-parfait: \"partir\" takes être, so \"elle était partie\", with agreement.",
+          },
+        ],
+      },
+      {
+        heading: "Station 2b: durations",
+        body: [
+          "Durations: \"depuis\" + present for what is still going on (\"elle habite à Nantes depuis 2019\"), \"il y a\" for ago, \"pendant\" for a closed period.",
+        ],
+        examples: [
+          { es: "Elle habite à Nantes depuis 2019.", en: "She's lived in Nantes since 2019." },
+          { es: "Ils se sont rencontrés il y a dix ans à Toulouse.", en: "They met ten years ago in Toulouse." },
+          { es: "On a vécu à Lille pendant trois ans.", en: "We lived in Lille for three years." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "I've been working here [for five years].",
+            sentence: "Je travaille ici ___.",
+            answer: "depuis cinq ans",
+            explanation: "Still true now: present + \"depuis\". Never *j'ai travaillé ici depuis.",
+          },
+        ],
+      },
+      {
+        heading: "Station 2c: futures",
+        body: [
+          "Futures: the futur simple for plans and predictions, and the futur antérieur for a future action completed before another (\"dès que tu auras fini, appelle-moi\").",
+        ],
+        examples: [
+          { es: "Dès que tu auras fini, appelle-moi.", en: "As soon as you've finished, call me." },
+          { es: "L'année prochaine, je partirai au Canada.", en: "Next year I'll go to Canada." },
+          { es: "Quand on aura déménagé, on adoptera un chat.", en: "When we've moved, we'll get a cat." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Dès que j'aurai reçu ta réponse, je réserverai.", "Dès que j'ai reçu ta réponse, je réserverai.", "Dès que je recevrais ta réponse, je réserverai.", "Dès que j'aurais reçu ta réponse, je réserverai."],
+            correctIndex: 0,
+            explanation: "Futur antérieur (\"j'aurai reçu\", no -s) for the action completed first. \"J'aurais reçu\" is the past conditional, a different tense.",
           },
           {
             type: "fill-blank",
@@ -1031,30 +1456,67 @@ export const FR_B1_U33: Lesson[] = [
         ],
       },
       {
-        heading: "Station 3: every kind of pronoun",
+        heading: "Station 3a: relative pronouns",
         body: [
           "Relatives: \"qui\" (subject), \"que\" (object), \"où\" (place and time), \"dont\" (replaces de + noun: \"le film dont je t'ai parlé\"), and their \"ce\" forms when there is no noun (\"ce qui m'énerve, c'est...\").",
-          "Object pronouns: one order before the verb (\"je le lui ai rendu\"), the reverse block after an affirmative imperative (\"rends-le-lui\").",
-          "Possessive pronouns agree with the thing owned (\"c'est le tien\", \"ce sont les miennes\"); demonstratives point (\"celui-ci\", \"celle que tu as achetée\", \"ceux de Paul\").",
         ],
         examples: [
           { es: "C'est le film dont je t'ai parlé.", en: "It's the film I told you about." },
           { es: "Ce qui m'énerve, c'est qu'il ne prévient jamais.", en: "What annoys me is that he never lets you know." },
           { es: "La ville où je suis né a beaucoup changé.", en: "The town where I was born has changed a lot." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Voilà le livre dont j'ai besoin.",
+            question: "What does it mean?",
+            options: ["Here's the book I need.", "Here's the book that needs me.", "Here's the book I needed yesterday.", "Here's the book I told you about."],
+            correctIndex: 0,
+            explanation: "\"Dont\" stands for de + the book: \"j'ai besoin du livre\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "It's the restaurant I dream about.",
+            answer: "C'est le restaurant dont je rêve.",
+            explanation: "\"Rêver de\" → \"dont\". English leaves about at the end; French needs \"dont\".",
+          },
+        ],
+      },
+      {
+        heading: "Station 3b: object pronouns",
+        body: [
+          "Object pronouns: one order before the verb (\"je le lui ai rendu\"), the reverse block after an affirmative imperative (\"rends-le-lui\").",
+        ],
+        examples: [
           { es: "Ton livre ? Je te l'ai rendu hier !", en: "Your book? I gave it back to you yesterday!" },
-          { es: "Ce n'est pas mon téléphone, c'est le tien.", en: "It's not my phone, it's yours." },
-          { es: "Celle que tu as achetée est plus jolie que la mienne.", en: "The one you bought is prettier than mine." },
+          { es: "Rends-le-lui demain.", en: "Give it back to him tomorrow." },
+          { es: "Je ne le lui ai pas dit.", en: "I didn't tell her." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "It's the book I told you about.",
-            answer: "C'est le livre dont je t'ai parlé.",
-            altAnswers: ["C'est le livre dont je vous ai parlé."],
-            explanation: "\"Parler de\" → \"dont\". English drops the relative and leaves about at the end; French needs \"dont\".",
+            source: "Don't tell her! (to a friend)",
+            answer: "Ne le lui dis pas !",
+            altAnswers: ["Ne lui dis pas !", "Ne le lui dis pas."],
+            explanation: "Negative command: \"le\" before \"lui\", both before the verb.",
           },
+        ],
+      },
+      {
+        heading: "Station 3c: possessives and demonstratives",
+        body: [
+          "Possessive pronouns agree with the thing owned (\"c'est le tien\", \"ce sont les miennes\"); demonstratives point (\"celui-ci\", \"celle que tu as achetée\", \"ceux de Paul\").",
+        ],
+        examples: [
+          { es: "Ce n'est pas mon téléphone, c'est le tien.", en: "It's not my phone, it's yours." },
+          { es: "Celle que tu as achetée est plus jolie que la mienne.", en: "The one you bought is prettier than mine." },
+          { es: "Ceux de Paul sont plus grands.", en: "Paul's are bigger." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1064,40 +1526,41 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["Ce sont pas mes clés, ce sont les tiennes.", "C'est pas mes clés, c'est les tiennes.", "Ce ne sont pas mes clés, c'est les tiennes."],
             explanation: "\"Les clés\" is feminine plural, so yours is \"les tiennes\".",
           },
-          {
-            type: "listen-choose",
-            audio: "C'est le film dont je t'ai parlé.",
-            question: "What does it mean?",
-            options: ["It's the film I told you about.", "It's the film I talked to you during.", "It's the film you told me about.", "It's the film I'm going to tell you about."],
-            correctIndex: 0,
-            explanation: "\"Dont\" stands for de + the film: \"je t'ai parlé du film\".",
-          },
         ],
       },
       {
-        heading: "Station 4: the passive, on and spoken French",
+        heading: "Station 4a: the passive, on and se",
         body: [
           "The passive is \"être\" + participle, agreeing with the subject (\"le château a été construit au XVIe siècle\"). In everyday French, \"on\" often replaces it, and it is the only way when English promotes an indirect object: I was given is \"on m'a offert / donné\", never *j'ai été donné. The pronominal \"se\" states general rules: \"ça ne se fait pas\".",
-          "Spoken French drops \"ne\" (\"je sais pas\"), uses \"on\" for we (with plural agreement: \"on est partis\"), \"ça\" for \"cela\", and puts question words at the end (\"tu vas où ?\"). Know when to switch it off: emails to strangers, letters, exams.",
         ],
         examples: [
           { es: "Le château a été construit au XVIe siècle.", en: "The castle was built in the 16th century." },
           { es: "On m'a volé mon portefeuille dans le métro.", en: "My wallet was stolen on the metro." },
           { es: "Ça ne se fait pas de parler la bouche pleine.", en: "You don't talk with your mouth full." },
-          { es: "Je sais pas, mais c'est pas grave.", en: "I don't know, but it doesn't matter." },
-          { es: "On est partis tôt pour éviter les bouchons.", en: "We left early to avoid the traffic." },
-          { es: "Tu fais quoi ce week-end ?", en: "What are you doing this weekend?" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "I was given a watch for my birthday.",
-            answer: "On m'a offert une montre pour mon anniversaire.",
-            altAnswers: ["On m'a donné une montre pour mon anniversaire.", "On m'a offert une montre pour mon anniversaire !"],
-            explanation: "French can't make the receiver the subject of a passive: \"on m'a offert\" (someone gave me).",
+            source: "I was shown the way.",
+            answer: "On m'a montré le chemin.",
+            altAnswers: ["On m'a indiqué le chemin."],
+            explanation: "\"Montrer quelque chose à quelqu'un\": the receiver can't be a passive subject, so French says \"on m'a montré\".",
           },
+        ],
+      },
+      {
+        heading: "Station 4b: spoken French",
+        body: [
+          "Spoken French drops \"ne\" (\"je sais pas\"), uses \"on\" for we (with plural agreement: \"on est partis\"), \"ça\" for \"cela\", and puts question words at the end (\"tu vas où ?\"). Know when to switch it off: emails to strangers, letters, exams.",
+        ],
+        examples: [
+          { es: "Je sais pas, mais c'est pas grave.", en: "I don't know, but it doesn't matter." },
+          { es: "On est partis tôt pour éviter les bouchons.", en: "We left early to avoid the traffic." },
+          { es: "Tu fais quoi ce week-end ?", en: "What are you doing this weekend?" },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which is the natural spoken version of \"Nous ne savons pas où il est\" ?",
@@ -1107,9 +1570,10 @@ export const FR_B1_U33: Lesson[] = [
           },
           {
             type: "speak",
-            text: "On est partis tôt pour éviter les bouchons.",
+            text: "On est arrivés en retard, mais c'est pas grave.",
+            prompt: "Say it casually in French: We arrived late, but it doesn't matter.",
             tip: "Always make the liaison in \"on est\": say \"on-n-est\".",
-            explanation: "\"On\" meaning we: the participle agrees in the plural, \"partis\".",
+            explanation: "\"On\" meaning we: the participle agrees in the plural, \"arrivés\"; \"ne\" is dropped in \"c'est pas\".",
           },
         ],
       },
@@ -1123,15 +1587,6 @@ export const FR_B1_U33: Lesson[] = [
         answer: "C'est dommage que tu ne puisses pas venir.",
         altAnswers: ["C'est dommage que vous ne puissiez pas venir.", "Dommage que tu ne puisses pas venir.", "Dommage que vous ne puissiez pas venir."],
         explanation: "\"C'est dommage que\" + subjunctive: \"puisses\" (pouvoir).",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Don't tell her! (to a friend)",
-        answer: "Ne le lui dis pas !",
-        altAnswers: ["Ne lui dis pas !", "Ne le lui dis pas."],
-        explanation: "Negative command: \"le\" before \"lui\", both before the verb.",
       },
       {
         type: "translate",
@@ -1152,14 +1607,6 @@ export const FR_B1_U33: Lesson[] = [
         explanation: "Had just = \"venir de\" in the imparfait; the interrupting event is in the passé composé.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "I've been working here [for five years].",
-        sentence: "Je travaille ici ___.",
-        answer: "depuis cinq ans",
-        explanation: "Still true now: present + \"depuis\". Never *j'ai travaillé ici depuis.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -1169,32 +1616,32 @@ export const FR_B1_U33: Lesson[] = [
         explanation: "\"Avoir besoin de\" → \"ce dont\". \"Les vacances\" is always plural in this sense.",
       },
       {
-        type: "word-order",
-        prompt: "Put the words in order to say: The town where I grew up has changed a lot.",
-        words: ["La ville", "où", "j'ai grandi", "a beaucoup", "changé."],
-        translation: "The town where I grew up has changed a lot.",
-        explanation: "\"Où\" for a place; \"beaucoup\" sits between the auxiliary and the participle.",
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Voilà la fille que je t'ai parlé.",
+        answer: "Voilà la fille dont je t'ai parlé.",
+        explanation: "\"Parler de quelqu'un\" → \"dont\". \"Que\" only replaces a direct object.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The bridge was built in 1890.",
-        answer: "Le pont a été construit en 1890.",
-        altAnswers: ["On a construit le pont en 1890."],
-        explanation: "Passive passé composé for a completed past event, or the active with \"on\".",
+        prompt: "Change to the passive.",
+        source: "On a fermé la piscine en 2018.",
+        answer: "La piscine a été fermée en 2018.",
+        explanation: "The object becomes the subject, \"a été\" + participle, agreeing with \"la piscine\": \"fermée\".",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Dès que j'aurai reçu ta réponse, je réserverai.", "Dès que j'ai reçu ta réponse, je réserverai.", "Dès que je recevrais ta réponse, je réserverai.", "Dès que j'aurais reçu ta réponse, je réserverai."],
-        correctIndex: 0,
-        explanation: "Futur antérieur (\"j'aurai reçu\", no -s) for the action completed first. \"J'aurais reçu\" is the past conditional, a different tense.",
+        type: "word-order",
+        prompt: "Put the words in order to say: The area where I live is very quiet.",
+        words: ["Le quartier", "où", "j'habite", "est", "très calme."],
+        translation: "The area where I live is very quiet.",
+        explanation: "\"Où\" for a place, right after the noun it describes.",
       },
       {
         type: "dictation",
-        audio: "Celle que tu as achetée est plus jolie que la mienne.",
-        explanation: "\"Celle\" stands for a feminine noun; \"achetée\" agrees with \"que\" (= celle); \"la mienne\" agrees with the thing owned.",
+        audio: "Ceux que j'ai vus étaient trop chers.",
+        explanation: "\"Ceux\" stands for a masculine plural noun; \"vus\" agrees with \"que\" (= ceux) placed before \"avoir\".",
       },
       {
         type: "listen-choose",
@@ -1206,9 +1653,9 @@ export const FR_B1_U33: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Je sais pas où il est, mais c'est pas grave.",
-        prompt: "Say it casually in French: I don't know where he is, but it doesn't matter.",
-        explanation: "Spoken French drops \"ne\": \"je sais pas\", \"c'est pas grave\".",
+        text: "Ça me dérange pas, on se voit demain.",
+        prompt: "Say it casually in French: I don't mind, we'll see each other tomorrow.",
+        explanation: "Spoken French drops \"ne\" (\"ça me dérange pas\") and uses \"on\" for we.",
       },
     ],
   },
@@ -1221,19 +1668,14 @@ export const FR_B1_U33: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Why these participles matter",
+        heading: "Agreements you can hear",
         body: [
           "Most participle agreements are invisible to the ear: \"mangé\" and \"mangée\", \"fini\" and \"finie\", \"vu\" and \"vue\" sound the same. But participles that end in a silent consonant reveal it when they agree: \"fait\" [fɛ] → \"faite\" [fɛt], \"mis\" [mi] → \"mise\" [miz]. A French listener hears the mistake straight away.",
-          "The family: \"fait\" / \"faite\", \"dit\" / \"dite\", \"écrit\" / \"écrite\", \"mis\" / \"mise\", \"pris\" / \"prise\", plus their relatives \"compris\", \"appris\", \"surpris\", \"permis\", \"promis\", \"conduit\", \"produit\", and \"ouvert\" / \"ouverte\", \"offert\" / \"offerte\". The masculine plural adds a silent -s (\"faits\", \"mis\" stays \"mis\"); the feminine plural sounds just like the feminine singular (\"faites\").",
-          "The rule hasn't changed: with \"avoir\", the participle agrees only with a direct object placed before it. \"Elle a pris la voiture\" (object after: no agreement); \"la voiture ? elle l'a prise\" (object before: agreement, and you hear the z).",
         ],
         examples: [
-          { es: "Elle a pris la voiture ce matin.", en: "She took the car this morning." },
-          { es: "La voiture ? Elle l'a prise ce matin.", en: "The car? She took it this morning." },
+          { es: "Le dessert ? Je l'ai fait moi-même.", en: "The dessert? I made it myself. (\"fait\": silent t)" },
+          { es: "La tarte ? Je l'ai faite moi-même.", en: "The tart? I made it myself. (\"faite\": you hear the t)" },
           { es: "J'ai fait une erreur.", en: "I made a mistake." },
-          { es: "C'est une erreur que j'ai faite plusieurs fois.", en: "It's a mistake I've made several times." },
-          { es: "Il a ouvert la fenêtre parce qu'il faisait chaud.", en: "He opened the window because it was hot." },
-          { es: "La fenêtre ? C'est moi qui l'ai ouverte.", en: "The window? I'm the one who opened it." },
         ],
         checkpoint: [
           {
@@ -1244,6 +1686,39 @@ export const FR_B1_U33: Lesson[] = [
             correctIndex: 0,
             explanation: "You hear the final t of \"ouverte\": the participle agrees with \"l'\" (la porte), placed before the auxiliary.",
           },
+        ],
+      },
+      {
+        heading: "The audible family",
+        body: [
+          "The family: \"fait\" / \"faite\", \"dit\" / \"dite\", \"écrit\" / \"écrite\", \"mis\" / \"mise\", \"pris\" / \"prise\", plus their relatives \"compris\", \"appris\", \"surpris\", \"permis\", \"promis\", \"conduit\", \"produit\", and \"ouvert\" / \"ouverte\", \"offert\" / \"offerte\". The masculine plural adds a silent -s (\"faits\", \"mis\" stays \"mis\"); the feminine plural sounds just like the feminine singular (\"faites\").",
+        ],
+        examples: [
+          { es: "Il a ouvert la fenêtre parce qu'il faisait chaud.", en: "He opened the window because it was hot." },
+          { es: "La fenêtre ? C'est moi qui l'ai ouverte.", en: "The window? I'm the one who opened it." },
+          { es: "Les cadeaux ? Je les ai offerts hier.", en: "The presents? I gave them yesterday." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "'The lesson? I understood it.' Which is correct?",
+            options: ["La leçon ? Je l'ai comprise.", "La leçon ? Je l'ai compris.", "La leçon ? Je l'ai comprit.", "La leçon ? Je l'ai comprises."],
+            correctIndex: 0,
+            explanation: "\"Compris\" belongs to the \"pris\" family: with \"l'\" = la leçon before the auxiliary it becomes \"comprise\", and you hear the z.",
+          },
+        ],
+      },
+      {
+        heading: "The rule: a direct object before avoir",
+        body: [
+          "The rule hasn't changed: with \"avoir\", the participle agrees only with a direct object placed before it. \"Elle a pris la voiture\" (object after: no agreement); \"la voiture ? elle l'a prise\" (object before: agreement, and you hear the z).",
+        ],
+        examples: [
+          { es: "Elle a pris la voiture ce matin.", en: "She took the car this morning." },
+          { es: "La voiture ? Elle l'a prise ce matin.", en: "The car? She took it this morning." },
+          { es: "Il a écrit une lettre à sa grand-mère.", en: "He wrote a letter to his grandmother." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1253,22 +1728,25 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["La décision ? On l'a prise hier."],
             explanation: "To make a decision is \"prendre une décision\". \"L'\" (la décision) comes before the auxiliary, so \"prise\", with an audible z.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Replace \"la valise\" with a pronoun.",
+            source: "J'ai pris la valise.",
+            answer: "Je l'ai prise.",
+            explanation: "\"La valise\" becomes \"l'\" before the auxiliary, and now the participle agrees: \"prise\".",
+          },
         ],
       },
       {
         heading: "After que: la lettre que j'ai écrite",
         body: [
           "The relative \"que\" is a direct object placed before the verb, so the participle agrees with the noun \"que\" stands for: \"la lettre que j'ai écrite\", \"les choses qu'il a dites\", \"la robe qu'elle a mise\". Look back at the noun, find its gender and number, and pronounce the consonant if it's feminine.",
-          "This is the pattern that most often slips in speech, even among native speakers in casual talk, but in careful French, exams and writing it is expected. Practise saying the phrase as a chunk: \"la décision qu'on a prise\", \"la promesse qu'il m'a faite\".",
-          "Don't over-apply it: with \"qui\" there's no direct object (\"la femme qui a pris le train\"), and with \"être\" verbs the participle agrees with the subject anyway (\"elle est partie\").",
         ],
         examples: [
           { es: "J'ai retrouvé la lettre que j'avais écrite à quinze ans.", en: "I found the letter I'd written when I was fifteen." },
-          { es: "Tu as remis les clés que tu as prises ?", en: "Did you put back the keys you took?" },
           { es: "La robe qu'elle a mise pour le mariage était magnifique.", en: "The dress she wore for the wedding was gorgeous." },
           { es: "Je repense aux choses qu'il m'a dites.", en: "I keep thinking about the things he said to me." },
-          { es: "C'est une promesse qu'il m'a faite il y a longtemps.", en: "It's a promise he made me a long time ago." },
-          { es: "Les leçons qu'on a apprises cette année vont servir.", en: "The lessons we learned this year will come in handy." },
         ],
         checkpoint: [
           {
@@ -1288,29 +1766,46 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["Je crois pas les choses qu'elle a dites."],
             explanation: "\"Que\" = \"les choses\", feminine plural, so \"dites\". English drops the relative; French never does.",
           },
+        ],
+      },
+      {
+        heading: "Careful French, and where que doesn't apply",
+        body: [
+          "This is the pattern that most often slips in speech, even among native speakers in casual talk, but in careful French, exams and writing it is expected. Practise saying the phrase as a chunk: \"la décision qu'on a prise\", \"la promesse qu'il m'a faite\".",
+          "Don't over-apply it: with \"qui\" there's no direct object (\"la femme qui a pris le train\"), and with \"être\" verbs the participle agrees with the subject anyway (\"elle est partie\").",
+        ],
+        examples: [
+          { es: "C'est une promesse qu'il m'a faite il y a longtemps.", en: "It's a promise he made me a long time ago." },
+          { es: "Les leçons qu'on a apprises cette année vont servir.", en: "The lessons we learned this year will come in handy." },
+          { es: "La femme qui a pris le train est ma tante.", en: "The woman who took the train is my aunt." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Les photos qu'il a pris sont toutes floues.",
+            answer: "Les photos qu'il a prises sont toutes floues.",
+            explanation: "\"Que\" stands for \"les photos\", a feminine plural direct object placed before \"a\", so \"prises\".",
+          },
           {
             type: "speak",
-            text: "La robe qu'elle a mise était magnifique.",
-            tip: "Pronounce the z of \"mise\": \"miz\".",
-            explanation: "\"Mise\" agrees with \"que\" = la robe.",
+            text: "La lettre qu'il m'a écrite m'a fait pleurer.",
+            prompt: "Say it in French: The letter he wrote me made me cry.",
+            tip: "Pronounce the t of \"écrite\".",
+            explanation: "\"Écrite\" agrees with \"que\" = la lettre; \"m'\" is indirect (to me) and doesn't count.",
           },
         ],
       },
       {
-        heading: "After le, la, les, and where not to agree",
+        heading: "After le, la, les",
         body: [
           "Object pronouns placed before the auxiliary trigger the same agreement: \"ta veste ? je l'ai mise dans l'armoire\", \"ces lettres, je les ai écrites à vingt ans\", \"les photos, c'est Karim qui les a prises\".",
-          "Three places where there is no agreement: with \"en\" (\"des photos ? j'en ai pris des centaines\"), with indirect pronouns \"lui / leur\" (\"je leur ai écrit\": to them), and when the direct object comes after the verb (\"elle a mis sa robe rouge\").",
-          "With a double pronoun, only the direct object counts: \"la lettre ? je la lui ai écrite\" (agrees with \"la\", not with \"lui\").",
         ],
         examples: [
           { es: "Ta veste ? Je l'ai mise dans l'armoire.", en: "Your jacket? I put it in the wardrobe." },
           { es: "Ces lettres, je les ai écrites à vingt ans.", en: "I wrote these letters when I was twenty." },
           { es: "Les photos, c'est Karim qui les a prises.", en: "Karim's the one who took the photos." },
-          { es: "Des photos ? J'en ai pris des centaines.", en: "Photos? I took hundreds of them." },
-          { es: "Je leur ai écrit une longue lettre.", en: "I wrote them a long letter." },
-          { es: "La lettre ? Je la lui ai écrite hier soir.", en: "The letter? I wrote it to him last night." },
-          { es: "Ces remarques, il les a faites devant tout le monde.", en: "He made those remarks in front of everyone." },
         ],
         checkpoint: [
           {
@@ -1322,6 +1817,20 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["Mes lunettes ? Je les ai posées sur la table."],
             explanation: "\"Les\" = \"mes lunettes\" (feminine plural), placed before the auxiliary: \"mises\".",
           },
+        ],
+      },
+      {
+        heading: "Where not to agree",
+        body: [
+          "Three places where there is no agreement: with \"en\" (\"des photos ? j'en ai pris des centaines\"), with indirect pronouns \"lui / leur\" (\"je leur ai écrit\": to them), and when the direct object comes after the verb (\"elle a mis sa robe rouge\").",
+          "With a double pronoun, only the direct object counts: \"la lettre ? je la lui ai écrite\" (agrees with \"la\", not with \"lui\").",
+        ],
+        examples: [
+          { es: "Des photos ? J'en ai pris des centaines.", en: "Photos? I took hundreds of them." },
+          { es: "Je leur ai écrit une longue lettre.", en: "I wrote them a long letter." },
+          { es: "La lettre ? Je la lui ai écrite hier soir.", en: "The letter? I wrote it to him last night." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
@@ -1351,6 +1860,14 @@ export const FR_B1_U33: Lesson[] = [
         explanation: "\"Prendre une décision\"; \"que\" stands for la décision, a feminine direct object placed before the verb, so \"prise\", with an audible z.",
       },
       {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change \"le gâteau\" to \"la tarte\".",
+        source: "Le gâteau ? Je l'ai fait hier.",
+        answer: "La tarte ? Je l'ai faite hier.",
+        explanation: "\"L'\" now stands for a feminine noun before the auxiliary, so \"fait\" becomes \"faite\", and you hear the t.",
+      },
+      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "The cake? My grandmother [made it].",
@@ -1359,12 +1876,11 @@ export const FR_B1_U33: Lesson[] = [
         explanation: "\"Le gâteau\" is masculine, so \"fait\" with no agreement, and \"qui\" makes the grandmother the subject.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Where did you put the keys? (to a friend)",
-        answer: "Où est-ce que tu as mis les clés ?",
-        altAnswers: ["Où as-tu mis les clés ?", "Tu as mis les clés où ?", "T'as mis les clés où ?"],
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "Where did you [put] the keys? (to a friend)",
+        sentence: "Où est-ce que tu as ___ les clés ?",
+        answer: "mis",
         explanation: "The object \"les clés\" comes after the verb, so no agreement: \"mis\".",
       },
       {
@@ -1378,10 +1894,10 @@ export const FR_B1_U33: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I reread the letter that I had written.",
-        words: ["J'ai relu", "la lettre", "que", "j'avais", "écrite."],
-        translation: "I reread the letter that I had written.",
-        explanation: "The plus-que-parfait follows the same rule: \"écrite\" agrees with \"que\" = la lettre.",
+        prompt: "Put the words in order to say: I lost the key you lent me.",
+        words: ["J'ai perdu", "la clé", "que", "tu m'as", "prêtée."],
+        translation: "I lost the key you lent me.",
+        explanation: "\"Prêtée\" agrees with \"que\" = la clé, even though here you can't hear it.",
       },
       {
         type: "translate",
@@ -1409,8 +1925,8 @@ export const FR_B1_U33: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Ta veste ? Je l'ai mise dans l'armoire.",
-        explanation: "\"L'\" = ta veste, so \"mise\" with an -e.",
+        audio: "La table ? Je l'ai mise dans le garage.",
+        explanation: "\"L'\" = la table, so \"mise\" with an -e, and you hear the z.",
       },
       {
         type: "translate",
@@ -1423,10 +1939,10 @@ export const FR_B1_U33: Lesson[] = [
       },
       {
         type: "speak",
-        text: "La décision qu'on a prise était la bonne.",
-        prompt: "Say it in French: The decision we made was the right one.",
-        tip: "Pronounce \"prise\" with a final z.",
-        explanation: "\"Que\" = la décision: \"prise\".",
+        text: "Les fleurs que tu m'as offertes sont magnifiques.",
+        prompt: "Say it in French (to a friend): The flowers you gave me are beautiful.",
+        tip: "Pronounce the t of \"offertes\".",
+        explanation: "\"Que\" = les fleurs (feminine plural): \"offertes\".",
       },
     ],
   },
@@ -1439,19 +1955,64 @@ export const FR_B1_U33: Lesson[] = [
     duration: "13 min",
     sections: [
       {
-        heading: "Gifts: qui te l'a offert ? à qui tu l'as offert ?",
+        heading: "Two mirror questions",
         body: [
           "Two mirror questions: \"Qui te l'a offert ?\" (who gave it to you?) and \"À qui tu l'as offert ?\" (who did you give it to?). In the first, \"qui\" is the subject; in the second, \"à qui\" is the receiver, and English puts its to at the end. Formal versions: \"À qui l'as-tu offert ?\", \"À qui est-ce que tu l'as offert ?\".",
-          "In the answer, swap the pronouns: \"C'est mon frère qui me l'a offert\" or simply \"Mon frère me l'a offert\"; \"Je l'ai offert à ma mère\" or, once the person is known, \"Je le lui ai offert\".",
-          "Agreement still applies: for a feminine object, \"Qui te l'a offerte ?\" (ta montre) and \"Je la lui ai offerte\". You hear the t in \"offerte\".",
         ],
         examples: [
           { es: "Elle est jolie, ta montre ! Qui te l'a offerte ?", en: "Your watch is lovely! Who gave it to you?" },
-          { es: "C'est ma sœur qui me l'a offerte pour Noël.", en: "My sister gave it to me for Christmas." },
           { es: "Et ce livre, à qui tu l'as offert ?", en: "And that book, who did you give it to?" },
+          { es: "À qui est-ce que vous avez envoyé le colis ?", en: "Who did you send the parcel to?" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Your friend has a new hat. You want to know who gave it to him. What do you ask?",
+            options: ["Qui te l'a offert ?", "À qui tu l'as offert ?", "Qui tu l'as offert ?", "À qui te l'a offert ?"],
+            correctIndex: 0,
+            explanation: "The giver is the subject, so plain \"qui\", and your friend is the receiver, \"te\". \"À qui tu l'as offert ?\" would ask who he gave it to.",
+          },
+          {
+            type: "listen-choose",
+            audio: "À qui tu l'as prêté ?",
+            question: "What does it mean?",
+            options: ["Who did you lend it to?", "Who lent it to you?", "Who did you borrow it from?", "Did you lend it to him?"],
+            correctIndex: 0,
+            explanation: "\"À qui\" asks for the receiver; \"tu\" is the lender. Who lent it to you would be \"Qui te l'a prêté ?\".",
+          },
+        ],
+      },
+      {
+        heading: "Answering: swap the pronouns",
+        body: [
+          "In the answer, swap the pronouns: \"C'est mon frère qui me l'a offert\" or simply \"Mon frère me l'a offert\"; \"Je l'ai offert à ma mère\" or, once the person is known, \"Je le lui ai offert\".",
+        ],
+        examples: [
+          { es: "C'est ma sœur qui me l'a offerte pour Noël.", en: "My sister gave it to me for Christmas." },
           { es: "Je l'ai offert à mon père pour ses soixante ans.", en: "I gave it to my father for his sixtieth birthday." },
-          { es: "Les fleurs ? Je les lui ai offertes pour s'excuser.", en: "The flowers? I gave them to her to say sorry." },
           { es: "Mes parents nous en ont offert un pour notre mariage.", en: "My parents gave us one for our wedding." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "I gave it to her for her birthday. (the bracelet)",
+            answer: "Je le lui ai offert pour son anniversaire.",
+            altAnswers: ["Je le lui ai donné pour son anniversaire."],
+            explanation: "\"Le\" (le bracelet) before \"lui\". Masculine, so \"offert\" doesn't change.",
+          },
+        ],
+      },
+      {
+        heading: "Agreement: offert or offerte?",
+        body: [
+          "Agreement still applies: for a feminine object, \"Qui te l'a offerte ?\" (ta montre) and \"Je la lui ai offerte\". You hear the t in \"offerte\".",
+        ],
+        examples: [
+          { es: "Les fleurs ? Je les lui ai offertes pour s'excuser.", en: "The flowers? I gave them to her to say sorry." },
+          { es: "La lampe ? Je la lui ai offerte pour son nouvel appartement.", en: "The lamp? I gave it to him for his new flat." },
+          { es: "Ces boucles d'oreilles, qui te les a offertes ?", en: "These earrings, who gave them to you?" },
         ],
         checkpoint: [
           {
@@ -1463,39 +2024,17 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["Qui te l'a donnée ?", "C'est qui qui te l'a offerte ?"],
             explanation: "\"L'\" stands for \"ton écharpe\" (feminine), placed before the auxiliary: \"offerte\". \"Me / te\" come before \"le / la\".",
           },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I gave it to her for her birthday. (the bracelet)",
-            answer: "Je le lui ai offert pour son anniversaire.",
-            altAnswers: ["Je le lui ai donné pour son anniversaire."],
-            explanation: "\"Le\" (le bracelet) before \"lui\". Masculine, so \"offert\" doesn't change.",
-          },
-          {
-            type: "listen-choose",
-            audio: "À qui tu l'as offert ?",
-            question: "What does it mean?",
-            options: ["Who did you give it to?", "Who gave it to you?", "Who did you buy it for?", "Did you give it to him?"],
-            correctIndex: 0,
-            explanation: "\"À qui\" asks for the receiver; \"tu\" is the giver. Who gave it to you would be \"Qui te l'a offert ?\".",
-          },
         ],
       },
       {
-        heading: "Whose is it? c'est à qui ? c'est le mien",
+        heading: "Whose is it? c'est à qui ?",
         body: [
           "\"C'est à qui ?\" (whose is it?) is answered with \"être à\" + a stressed pronoun (\"c'est à moi\", \"c'est à elle\") or with a possessive pronoun (\"c'est le mien\"). English whose has no single French word: you ask \"à qui\".",
-          "Possessive pronouns agree with the thing owned, not the owner: \"le sien\" is his or hers for a masculine thing, \"la sienne\" for a feminine one. So \"Ce manteau est à Julie ? Oui, c'est le sien\" (her coat, masculine). English speakers want *la sienne because Julie is a woman.",
-          "To name the owner, use \"celui / celle / ceux / celles de\": \"Ce n'est pas mon parapluie, c'est celui de Thomas\".",
         ],
         examples: [
           { es: "Ce parapluie, c'est à qui ?", en: "Whose is this umbrella?" },
           { es: "C'est à moi, merci !", en: "It's mine, thanks!" },
-          { es: "Ce manteau est à Julie ? Oui, c'est le sien.", en: "Is this coat Julie's? Yes, it's hers." },
           { es: "Ce ne sont pas mes gants, ce sont les tiens.", en: "These aren't my gloves, they're yours." },
-          { es: "Ce n'est pas ma valise, c'est celle de Thomas.", en: "It's not my suitcase, it's Thomas's." },
-          { es: "Nos enfants ont le même vélo que les vôtres.", en: "Our children have the same bike as yours." },
         ],
         checkpoint: [
           {
@@ -1507,6 +2046,19 @@ export const FR_B1_U33: Lesson[] = [
             altAnswers: ["Ce sac est à toi ?", "C'est le tien, ce sac ?", "Est-ce que ce sac est à toi ?", "Ce sac, c'est le tien ?", "Ce sac est le tien ?"],
             explanation: "Ownership with \"être à toi\", the possessive pronoun \"le tien\" or just \"ton sac\".",
           },
+        ],
+      },
+      {
+        heading: "Le sien or la sienne?",
+        body: [
+          "Possessive pronouns agree with the thing owned, not the owner: \"le sien\" is his or hers for a masculine thing, \"la sienne\" for a feminine one. So \"Ce manteau est à Julie ? Oui, c'est le sien\" (her coat, masculine). English speakers want *la sienne because Julie is a woman.",
+        ],
+        examples: [
+          { es: "Ce manteau est à Julie ? Oui, c'est le sien.", en: "Is this coat Julie's? Yes, it's hers." },
+          { es: "Sa chambre est plus grande que la mienne.", en: "His room is bigger than mine." },
+          { es: "Nos enfants ont le même vélo que les vôtres.", en: "Our children have the same bike as yours." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "You're asked if this car belongs to Karim. It does. What do you say?",
@@ -1514,23 +2066,96 @@ export const FR_B1_U33: Lesson[] = [
             correctIndex: 0,
             explanation: "\"La voiture\" is feminine, so \"la sienne\", even though Karim is a man.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Ce pull est à Sophie ? Oui, c'est la sienne.",
+            answer: "Ce pull est à Sophie ? Oui, c'est le sien.",
+            altAnswers: ["Ce pull est à Sophie ? Oui, c'est à elle."],
+            explanation: "The possessive agrees with the thing owned: \"le pull\" is masculine, so \"le sien\", whatever the owner's gender.",
+          },
         ],
       },
       {
-        heading: "Lending and giving back: tu me le prêtes ? je te le rends",
+        heading: "Naming the owner: celui de",
         body: [
-          "\"Prêter quelque chose à quelqu'un\" is to lend; \"emprunter quelque chose à quelqu'un\" is to borrow, also with \"à\". So \"je lui ai emprunté sa voiture\" means I borrowed his car from him. \"Rendre\" is to give back.",
-          "These verbs make perfect double-pronoun practice: \"Tu me le prêtes ?\", \"Je te le rends demain\", \"Tu me l'as rendu ?\", \"Je les lui ai rendus hier\". In compound tenses the participle agrees with the preceding direct object: \"Ma perceuse ? Il me l'a empruntée en mars et il ne me l'a jamais rendue !\"",
-          "Asking politely: \"Tu pourrais me le prêter ?\", \"Ça te dérangerait de me la prêter ?\" Pronouns go before the infinitive.",
+          "To name the owner, use \"celui / celle / ceux / celles de\": \"Ce n'est pas mon parapluie, c'est celui de Thomas\".",
         ],
         examples: [
+          { es: "Ce n'est pas ma valise, c'est celle de Thomas.", en: "It's not my suitcase, it's Thomas's." },
+          { es: "Ce vélo, c'est celui de mon voisin.", en: "That bike is my neighbour's." },
+          { es: "Mes clés sont dans mon sac, celles de Paul sont sur la table.", en: "My keys are in my bag, Paul's are on the table." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "These aren't my shoes, they're [Marie's].",
+            sentence: "Ce ne sont pas mes chaussures, ce sont ___.",
+            answer: "celles de Marie",
+            explanation: "\"Les chaussures\" is feminine plural, so \"celles de\" + the owner. French has no 's.",
+          },
+        ],
+      },
+      {
+        heading: "Lend, borrow, give back",
+        body: [
+          "\"Prêter quelque chose à quelqu'un\" is to lend; \"emprunter quelque chose à quelqu'un\" is to borrow, also with \"à\". So \"je lui ai emprunté sa voiture\" means I borrowed his car from him. \"Rendre\" is to give back.",
+        ],
+        examples: [
+          { es: "J'ai emprunté sa tente à Hugo pour le festival.", en: "I borrowed Hugo's tent for the festival." },
           { es: "Ton chargeur, tu me le prêtes deux minutes ?", en: "Can I borrow your charger for two minutes?" },
           { es: "Je te le rends demain, promis.", en: "I'll give it back to you tomorrow, I promise." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "\"Je lui ai emprunté son appareil photo.\" What happened?",
+            options: ["I borrowed his camera from him.", "I lent him my camera.", "He borrowed my camera.", "I gave him back his camera."],
+            correctIndex: 0,
+            explanation: "\"Emprunter à quelqu'un\" = to borrow from someone, so \"lui\" is the owner. Lending would be \"prêter\", giving back \"rendre\".",
+          },
+        ],
+      },
+      {
+        heading: "Double pronouns in the past",
+        body: [
+          "These verbs make perfect double-pronoun practice: \"Tu me le prêtes ?\", \"Je te le rends demain\", \"Tu me l'as rendu ?\", \"Je les lui ai rendus hier\". In compound tenses the participle agrees with the preceding direct object: \"Ma perceuse ? Il me l'a empruntée en mars et il ne me l'a jamais rendue !\"",
+        ],
+        examples: [
           { es: "Ma perceuse ? Il me l'a empruntée en mars.", en: "My drill? He borrowed it from me in March." },
           { es: "Et il ne me l'a jamais rendue !", en: "And he never gave it back!" },
           { es: "Les livres ? Je les lui ai rendus hier.", en: "The books? I gave them back to her yesterday." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "My umbrella? He [never gave it back to me]!",
+            sentence: "Mon parapluie ? Il ___ !",
+            answer: "ne me l'a jamais rendu",
+            explanation: "\"Ne\" + \"me l'\" + auxiliary + \"jamais\" + participle. Masculine object, so \"rendu\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it negative.",
+            source: "Ta tente ? Il me l'a rendue.",
+            answer: "Ta tente ? Il ne me l'a pas rendue.",
+            explanation: "\"Ne\" goes before the whole pronoun block and \"pas\" after the auxiliary; \"rendue\" still agrees with \"l'\" = la tente.",
+          },
+        ],
+      },
+      {
+        heading: "Asking politely",
+        body: [
+          "Asking politely: \"Tu pourrais me le prêter ?\", \"Ça te dérangerait de me la prêter ?\" Pronouns go before the infinitive.",
+        ],
+        examples: [
           { es: "Ça te dérangerait de me la prêter ce week-end ?", en: "Would you mind lending it to me this weekend?" },
-          { es: "J'ai emprunté sa tente à Hugo pour le festival.", en: "I borrowed Hugo's tent for the festival." },
+          { es: "Tu pourrais me les prêter jusqu'à lundi ?", en: "Could you lend them to me until Monday?" },
+          { es: "Tu pourrais me la rapporter ce soir ?", en: "Could you bring it back to me tonight?" },
         ],
         checkpoint: [
           {
@@ -1541,20 +2166,6 @@ export const FR_B1_U33: Lesson[] = [
             answer: "Tu peux me le prêter ?",
             altAnswers: ["Tu pourrais me le prêter ?", "Est-ce que tu peux me le prêter ?", "Est-ce que tu pourrais me le prêter ?", "Peux-tu me le prêter ?", "Pourrais-tu me le prêter ?", "Tu me le prêtes ?"],
             explanation: "\"Ton vélo\" is masculine: \"le\". The pronouns go before the infinitive \"prêter\": \"me le prêter\".",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "My umbrella? He [never gave it back to me]!",
-            sentence: "Mon parapluie ? Il ___ !",
-            answer: "ne me l'a jamais rendu",
-            explanation: "\"Ne\" + \"me l'\" + auxiliary + \"jamais\" + participle. Masculine object, so \"rendu\".",
-          },
-          {
-            type: "speak",
-            text: "Je te le rends demain, promis.",
-            tip: "\"Je te le\" runs together: \"j'te l'\".",
-            explanation: "\"Te\" before \"le\"; the present tense for a near-future promise is very common.",
           },
         ],
       },
@@ -1588,14 +2199,6 @@ export const FR_B1_U33: Lesson[] = [
         explanation: "Whose is \"à qui\" + \"être\". \"Les lunettes\" (glasses) is always plural.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "It's not my phone, it's [Thomas's].",
-        sentence: "Ce n'est pas mon téléphone, c'est ___.",
-        answer: "celui de Thomas",
-        explanation: "\"Celui de\" + the owner replaces \"le téléphone de\". French has no 's.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -1613,11 +2216,19 @@ export const FR_B1_U33: Lesson[] = [
         explanation: "\"Les\" (les clés, feminine plural) before \"lui\"; \"rendues\" agrees with \"les\".",
       },
       {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Tu peux prêter-me-le ?",
+        answer: "Tu peux me le prêter ?",
+        explanation: "With an infinitive, the pronouns go before it in the normal order, with no hyphens: \"me le prêter\". Hyphens only come after an affirmative imperative.",
+      },
+      {
         type: "word-order",
-        prompt: "Put the words in order to say: Would you mind lending it to me?",
-        words: ["Ça", "te dérangerait", "de", "me le", "prêter ?"],
-        translation: "Would you mind lending it to me?",
-        explanation: "The pronouns go before the infinitive \"prêter\"; \"ça te dérangerait de\" is a polite conditional.",
+        prompt: "Put the words in order to say: Could you give them back to me on Monday?",
+        words: ["Vous", "pourriez", "me les", "rendre", "lundi ?"],
+        translation: "Could you give them back to me on Monday?",
+        explanation: "The pronouns go before the infinitive \"rendre\"; the conditional \"pourriez\" makes the request polite.",
       },
       {
         type: "multiple-choice",
@@ -1637,23 +2248,23 @@ export const FR_B1_U33: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Qui te l'a offerte ?",
-        explanation: "\"L'\" is feminine here (la montre, la bague...), so \"offerte\" with -e.",
+        audio: "Qui te les a offertes ?",
+        explanation: "\"Les\" is feminine plural here (les fleurs, les boucles d'oreilles...), so \"offertes\".",
       },
       {
         type: "listen-choose",
-        audio: "Il me l'a empruntée et ne me l'a jamais rendue.",
+        audio: "Elle me l'a prêté et je le lui ai rendu.",
         question: "What does it mean?",
-        options: ["He borrowed it from me and never gave it back.", "He lent it to me and I never gave it back.", "He gave it to me and never asked for it back.", "I borrowed it from him and never gave it back."],
+        options: ["She lent it to me and I gave it back to her.", "I lent it to her and she gave it back to me.", "She borrowed it from me and gave it back.", "She gave it to me and I kept it."],
         correctIndex: 0,
-        explanation: "\"Il\" is the borrower; \"me\" is the person it was borrowed from. \"Rendre\" = to give back.",
+        explanation: "\"Elle me l'a prêté\": she is the lender, me the receiver; \"je le lui ai rendu\": I gave it back to her.",
       },
       {
         type: "speak",
-        text: "Elle est jolie, ta montre ! Qui te l'a offerte ?",
-        prompt: "Say it in French to a friend: Your watch is lovely! Who gave it to you?",
-        tip: "Say the t of \"offerte\".",
-        explanation: "\"Qui te l'a offerte\": \"te\" before \"l'\", agreement with the feminine \"montre\".",
+        text: "Je te la rends ce soir, promis.",
+        prompt: "Say it in French to a friend: I'll give it back to you tonight, I promise. (your tent)",
+        tip: "\"Je te la\" runs together: \"j'te la\".",
+        explanation: "\"Te\" before \"la\" (la tente); the present tense for a near-future promise is very common.",
       },
     ],
   },
