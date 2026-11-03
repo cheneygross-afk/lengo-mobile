@@ -3414,7 +3414,7 @@ export const EN_C1_U12: Lesson[] = [
         body: [
           "In casual speech, especially among younger American and British speakers, reported speech is often replaced by a kind of performance. A speaker says \"So she was like\" and then acts out her words, \"Where have you been?\", followed by \"And I was like\" and the reply, \"Nowhere!\". The quote is performed, often with a change of voice.",
           "Other informal quotatives: \"He goes\" (narrative present), \"She's all\" (American, very casual) and \"And I'm like\". There is no backshift: the original words are reproduced directly.",
-          "Understand these in films, series and conversation. Use them, if at all, only in very relaxed speech. Never use them in writing for work or study: \"The manager was like, we need to cut costs\" in a report is a serious register clash.",
+          "Understand these in movies, TV shows and conversation. Use them, if at all, only in very relaxed speech. Never use them in writing for work or study: \"The manager was like, we need to cut costs\" in a report is a serious register clash.",
         ],
         examples: [
           { es: "She was like, \"Where have you been?\"", en: "Y ella como que: «¿Dónde has estado?»" },
@@ -3737,7 +3737,7 @@ export const EN_C1_U12: Lesson[] = [
         heading: "Discrimination, welfare and marginalized groups",
         body: [
           "\"Discrimination\" takes \"against\": \"discrimination against women\", \"to discriminate against someone\". Spanish speakers often write *discrimination to, from «discriminación hacia».",
-          "\"Welfare\" is tricky. In British English \"the welfare state\" means the whole system of state support, and benefits are \"welfare benefits\" or simply \"benefits\". In American English, \"welfare\" often refers specifically to payments to people on low incomes, and \"to be on welfare\" can sound negative. Neutral alternatives: \"social security\", \"public assistance\", \"benefits\".",
+          "\"Welfare\" is tricky. In British English \"the welfare state\" means the whole system of state support, and benefits are \"welfare benefits\" or simply \"benefits\". In American English, \"welfare\" often refers specifically to payments to people on low incomes, and \"to be on welfare\" can sound negative. Neutral alternatives: \"public assistance\", \"benefits\" or, in British English, \"social security\" (in the US, \"Social Security\" is the state pension system).",
           "\"Marginalised\" (British) or \"marginalized\" (American) groups are those pushed to the edge of society: \"marginalized communities\". Other key words: \"social exclusion\", \"vulnerable groups\", \"the gender pay gap\".",
         ],
         examples: [

@@ -1272,11 +1272,10 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
         answer: "Actually, I've never been to Bogota.",
         altAnswers: [
           "Actually, I have never been to Bogota.",
-          "Actually, I've never been to Bogota.",
           "In fact, I've never been to Bogota.",
-          "In fact, I've never been to Bogota.",
+          "In fact, I have never been to Bogota.",
           "Actually I've never been to Bogota.",
-          "Actually I've never been to Bogota.",
+          "Actually, I've never visited Bogota.",
         ],
         explanation: "This is the real meaning of \"actually\": «en realidad», «de hecho», to correct or add surprising information.",
       },
@@ -1687,7 +1686,7 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
       {
         heading: "Recap: the advanced false friends",
         body: [
-          "«Casualidad» is \"coincidence\" (a \"casualty\" is a victim), «estar constipado» is \"have a cold\", «molestar» is \"bother\", «parientes» are \"relatives\", «fábrica» is \"factory\" (\"fabric\" is «tela»), «beca» is \"scholarship\", «recordar» is \"remember\" or \"remind\", «carrera» (studies) is a \"degree\", «lectura» is \"reading\", «tópico» is \"cliche\" or \"stereotype\", «noticia» is \"news\", «contestar» is \"answer\" and the «argumento» of a movie is the \"plot\".",
+          "«Casualidad» is \"coincidence\" (a \"casualty\" is a victim), «estar resfriado» (in Spain, «constipado») is \"have a cold\", «molestar» is \"bother\", «parientes» are \"relatives\", «fábrica» is \"factory\" (\"fabric\" is «tela»), «beca» is \"scholarship\", «recordar» is \"remember\" or \"remind\", «carrera» (studies) is a \"degree\", «lectura» is \"reading\", «tópico» is \"cliche\" or \"stereotype\", «noticia» is \"news\", «contestar» is \"answer\" and the «argumento» of a movie is the \"plot\".",
           "Some look-alikes are only partial false friends: you can \"introduce\" a law, \"realize\" a dream, make a strong \"argument\" and \"compromise\" security. Always check which meaning the Spanish word has in the sentence.",
         ],
         examples: [
@@ -1726,14 +1725,14 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estoy constipado desde el lunes.",
+        source: "Estoy resfriado desde el lunes.",
         answer: "I've had a cold since Monday.",
         altAnswers: [
           "I have had a cold since Monday.",
           "I've been congested since Monday.",
           "I have been congested since Monday.",
         ],
-        explanation: "«Estar constipado» is \"have a cold\" or \"be congested\". \"Constipated\" means «estreñido». With \"since\", use the present perfect.",
+        explanation: "«Estar resfriado» (in Spain, «constipado») is \"have a cold\"; a stuffy nose is \"be congested\". \"Constipated\" means «estreñido». With \"since\", use the present perfect.",
       },
       {
         type: "fill-blank",
@@ -2537,10 +2536,10 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence is correct?",
         options: [
-          "Public transport here is inefficient and uncomfortable.",
-          "Public transport here is unefficient and inconfortable.",
-          "Public transport here is inefficient and incomfortable.",
-          "Public transport here is unefficient and uncomfortable.",
+          "Public transportation here is inefficient and uncomfortable.",
+          "Public transportation here is unefficient and inconfortable.",
+          "Public transportation here is inefficient and incomfortable.",
+          "Public transportation here is unefficient and uncomfortable.",
         ],
         correctIndex: 0,
         explanation: "\"Inefficient\" takes \"in-\" (like «ineficiente») but «incómodo» is \"uncomfortable\". The errors go both ways, so you have to learn each word.",

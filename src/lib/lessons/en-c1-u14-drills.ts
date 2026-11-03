@@ -16,7 +16,7 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
         heading: "Recap: a linear essay",
         body: [
           "An English essay is linear: an introduction that ends with your thesis, body paragraphs with one idea each, opened by a topic sentence (Point, Evidence, Explanation, Link), and a short conclusion that answers the question. A thesis can be argued against: \"Although X, Y\" works; \"X has advantages and disadvantages\" does not.",
-          "Support each claim (\"for instance\", \"a case in point is...\") and deal with the other side: \"Admittedly, ...\", then \"However, this overlooks...\". Avoid *In my opinion, I think (choose one), and remember that the «argumento» of a film is its \"plot\".",
+          "Support each claim (\"for instance\", \"a case in point is...\") and deal with the other side: \"Admittedly, ...\", then \"However, this overlooks...\". Avoid *In my opinion, I think (choose one), and remember that the «argumento» of a movie is its \"plot\".",
         ],
         examples: [
           { es: "This essay will argue that public universities should be tuition-free.", en: "En este ensayo se defenderá que las universidades públicas deberían ser gratuitas." },
@@ -228,7 +228,7 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
         question: "«El argumento de la novela es muy original.» Which is correct?",
         options: ["The plot of the novel is very original.", "The argument of the novel is very original.", "The argue of the novel is very original.", "The trama of the novel is very original."],
         correctIndex: 0,
-        explanation: "The story of a novel or film is its \"plot\". An \"argument\" is a line of reasoning, or a quarrel.",
+        explanation: "The story of a novel or movie is its \"plot\". An \"argument\" is a line of reasoning, or a quarrel.",
       },
       {
         type: "translate",

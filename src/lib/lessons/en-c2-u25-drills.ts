@@ -125,7 +125,7 @@ export const EN_C2_U25_DRILLS: Lesson[] = [
         "\"By then / by the time\" looks back from a past moment, so the earlier action takes the past perfect. *abandoned alone would suggest they left after the reinforcements arrived.",
       ),
       tx(
-        "A raíz de la huelga, el director de la empresa dimitió.",
+        "A raíz de la huelga, el director de la empresa renunció.",
         [
           "In the wake of the strike, the {company's director|director of the company|company director} resigned.",
           "The {company's director|director of the company|company director} resigned in the wake of the strike.",
@@ -281,7 +281,7 @@ export const EN_C2_U25_DRILLS: Lesson[] = [
       ),
       tx(
         "El estallido de la guerra interrumpió la construcción del ferrocarril.",
-        "The outbreak of {war|the war} {interrupted|halted} {the construction of the railway|the construction of the railroad|construction of the railway|construction of the railroad|the building of the railway|the building of the railroad}.",
+        "The outbreak of {war|the war} {interrupted|halted} {the construction of the railroad|the construction of the railway|construction of the railroad|construction of the railway|the building of the railroad|the building of the railway}.",
         "\"The outbreak of war\" is the standard nominalization for «el estallido de la guerra», and \"the construction of\" packs the second process into a noun phrase.",
       ),
       wo(
@@ -302,8 +302,8 @@ export const EN_C2_U25_DRILLS: Lesson[] = [
         "Historical nouns choose their verbs: \"stage a coup\", \"wage war\", \"lay siege to\", \"ratify a treaty\", \"crush a rebellion\", \"seize power\". Translating «hacer» or «tomar» word for word (*make war, *take power by a coup) sounds non-native.",
       ),
       fb(
-        "A rebellion ___ out in the northern provinces in 1569.",
-        "broke",
+        "A rebellion ___ in the northern provinces in 1569.",
+        "broke out",
         "En 1569 [estalló] una rebelión en las provincias del norte.",
         [],
         "Uprisings and wars \"break out\" («estallar»). The past is irregular: \"broke out\", never *breaked out.",

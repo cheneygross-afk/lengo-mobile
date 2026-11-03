@@ -1142,7 +1142,7 @@ export const EN_C2_U21: Lesson[] = [
         examples: [
           { es: "I underestimated how long the testing phase would take.", en: "Subestimé cuánto tiempo llevaría la fase de pruebas." },
           { es: "I missed the deadline because I hadn't built in any time for testing.", en: "Incumplí el plazo porque no había previsto tiempo para las pruebas." },
-          { es: "I told the client straight away and offered a revised date.", en: "Se lo comuniqué al cliente de inmediato y le ofrecí una nueva fecha." },
+          { es: "I told the client right away and offered a revised date.", en: "Se lo comuniqué al cliente de inmediato y le ofrecí una nueva fecha." },
           { es: "Since then, I always add a buffer of at least a week.", en: "Desde entonces, siempre añado un margen de al menos una semana." },
           { es: "On the next launch, we delivered two days early.", en: "En el siguiente lanzamiento, entregamos con dos días de antelación." },
         ],
@@ -1311,7 +1311,7 @@ export const EN_C2_U21: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Se lo comuniqué al cliente de inmediato y le propuse una nueva fecha.",
-        answer: "I told the client straight away and proposed a new date.",
+        answer: "I told the client right away and proposed a new date.",
         altAnswers: alts(
           ["I told the client", "I informed the client", "I let the client know"],
           ["straight away", "immediately", "right away", "at once"],
@@ -1339,7 +1339,7 @@ export const EN_C2_U21: Lesson[] = [
           "Includes a clear Action and a concrete Result.",
           "Ends with the lesson learned and evidence that it was applied (Since then...).",
         ],
-        modelAnswer: "Two years ago I was leading the launch of a new booking app for a hotel chain. I had promised the client a launch date in May, but I underestimated how long testing would take, and two weeks before the deadline it was clear we wouldn't make it. I told the client straight away rather than hoping for a miracle, explained exactly what was left, and proposed a revised date three weeks later. I also reorganized the team so that two developers worked only on the critical bugs. We launched on the new date with no major issues, and the client renewed our contract. Since then, I always build a testing buffer of at least two weeks into every plan, and my last two projects were delivered on time.",
+        modelAnswer: "Two years ago I was leading the launch of a new booking app for a hotel chain. I had promised the client a launch date in May, but I underestimated how long testing would take, and two weeks before the deadline it was clear we wouldn't make it. I told the client right away rather than hoping for a miracle, explained exactly what was left, and proposed a revised date three weeks later. I also reorganized the team so that two developers worked only on the critical bugs. We launched on the new date with no major issues, and the client renewed our contract. Since then, I always build a testing buffer of at least two weeks into every plan, and my last two projects were delivered on time.",
         explanation: "The model owns the mistake, gives most of its length to the response, and closes with a verifiable change in behavior.",
       },
       {
@@ -1891,7 +1891,7 @@ export const EN_C2_U21: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Conseguimos financiación de dos fondos de capital riesgo.",
+            source: "Conseguimos financiación de dos fondos de capital de riesgo.",
             answer: "We secured funding from two venture capital funds.",
             altAnswers: alts(
               ["We secured", "We obtained", "We raised", "We got"],

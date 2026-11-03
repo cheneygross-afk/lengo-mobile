@@ -795,12 +795,12 @@ export const EN_C1_U07: Lesson[] = [
       {
         heading: "When NOT to use a participle clause",
         body: [
-          "Don't use one when the subjects are different: that creates a dangling participle. *Being a holiday, the shops were closed needs \"As it was a holiday, the shops were closed\" (or the formal \"It being a holiday, ...\").",
+          "Don't use one when the subjects are different: that creates a dangling participle. *Being a holiday, the stores were closed needs \"As it was a holiday, the stores were closed\" (or the formal \"It being a holiday, ...\").",
           "Avoid them in casual speech. If a friend asks why you're late, \"Having missed the bus, I had to walk\" sounds like a novel. \"I missed the bus, so I had to walk\" is what people say.",
           "Avoid them when the meaning would be unclear and the exact relation matters, for example in contracts or instructions: \"If damaged, the item will be replaced\" is clear; \"Being damaged, the item...\" is not (because? if?).",
         ],
         examples: [
-          { es: "As it was a holiday, the shops were closed.", en: "Como era festivo, las tiendas estaban cerradas." },
+          { es: "As it was a holiday, the stores were closed.", en: "Como era festivo, las tiendas estaban cerradas." },
           { es: "I missed the bus, so I had to walk.", en: "Perdí el autobús, así que tuve que irme caminando." },
           { es: "If damaged, the item will be replaced free of charge.", en: "Si está dañado, el artículo se sustituirá sin costo alguno." },
           { es: "Because I didn't have my keys, I waited in the coffee shop.", en: "Como no tenía las llaves, esperé en la cafetería." },
@@ -2186,7 +2186,7 @@ export const EN_C1_U07: Lesson[] = [
           "«Todo lo que» = \"everything (that)\"; \"whatever / whoever / whichever\" = «lo que / quien / el que sea». If you miss these, review Advanced Relative Clauses, Part 2.",
         ],
         examples: [
-          { es: "The shop closed early, which meant we couldn't buy anything.", en: "La tienda cerró temprano, lo que hizo que no pudiéramos comprar nada." },
+          { es: "The store closed early, which meant we couldn't buy anything.", en: "La tienda cerró temprano, lo que hizo que no pudiéramos comprar nada." },
           { es: "There's an agreement whereby both countries share the data.", en: "Hay un acuerdo por el cual ambos países comparten los datos." },
           { es: "Everything he told me turned out to be false.", en: "Todo lo que me dijo resultó ser falso." },
         ],
@@ -4251,7 +4251,7 @@ export const EN_C1_U07: Lesson[] = [
               "Before we finish, I'd like to make a matter.",
             ],
             correctIndex: 0,
-            explanation: "\"Raise an issue\" is the standard collocation. \"Theme\" is for books and films, and \"rise\" has no object.",
+            explanation: "\"Raise an issue\" is the standard collocation. \"Theme\" is for books and movies, and \"rise\" has no object.",
           },
           {
             type: "translate",
@@ -4460,7 +4460,7 @@ export const EN_C1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The two films were released in 2019 and 2022, ___.",
+        sentence: "The two movies were released in 2019 and 2022, ___.",
         answer: "respectively",
         en: "Las dos películas se estrenaron en 2019 y 2022, [respectivamente].",
         explanation: "\"Respectively\" goes at the end of the sentence and matches the items in order.",

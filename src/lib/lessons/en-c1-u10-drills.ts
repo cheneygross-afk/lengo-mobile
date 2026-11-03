@@ -1199,7 +1199,7 @@ export const EN_C1_U10_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English, using an idiom.",
-        source: "Estoy hasta las narices de las reuniones que no sirven para nada.",
+        source: "Estoy hasta la coronilla de las reuniones que no sirven para nada.",
         answer: "I'm fed up with meetings that are useless.",
         altAnswers: [
           "I'm fed up with pointless meetings.",
@@ -1212,7 +1212,7 @@ export const EN_C1_U10_DRILLS: Lesson[] = [
           "I'm fed up with meetings that serve no purpose.",
           "I'm fed up with meetings that don't achieve anything.",
         ],
-        explanation: "«Estar hasta las narices» is \"be fed up with\" or \"be sick and tired of\". Note the prepositions: \"with\" and \"of\".",
+        explanation: "«Estar hasta la coronilla» is \"be fed up with\" or \"be sick and tired of\". Note the prepositions: \"with\" and \"of\".",
       },
       {
         type: "word-order",

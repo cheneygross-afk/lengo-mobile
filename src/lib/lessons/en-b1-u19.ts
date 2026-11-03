@@ -875,11 +875,11 @@ export const EN_B1_U19: Lesson[] = [
         body: [
           "If you report words that were said a moment ago, there is usually no backshift, because the situation hasn't changed: \"Who was that?\" \"It was Tom. He said he's on his way.\"",
           "This is very common when you repeat something you said before: \"I told you I'm busy!\" (I am still busy).",
-          "Spanish works the same way: «te he dicho que estoy ocupado».",
+          "Spanish works the same way: «te dije que estoy ocupado».",
         ],
         examples: [
           { es: "Tom just called. He said he's on his way.", en: "Acaba de llamar Tom. Dijo que viene de camino." },
-          { es: "I told you I'm busy!", en: "¡Te he dicho que estoy ocupado!" },
+          { es: "I told you I'm busy!", en: "¡Te dije que estoy ocupado!" },
           { es: "The waiter said the kitchen is closed.", en: "El mesero dijo que la cocina está cerrada." },
           { es: "She said she'll be here in five minutes.", en: "Dijo que estará aquí en cinco minutos." },
         ],
@@ -888,7 +888,7 @@ export const EN_B1_U19: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¡Te he dicho que estoy ocupado!",
+            source: "¡Te dije que estoy ocupado!",
             answer: "I told you I'm busy!",
             altAnswers: ["I've told you I'm busy!", "I told you that I'm busy!", "I've told you that I'm busy!", "I told you I was busy!"],
             explanation: "You are still busy, so the present stays: \"I'm busy\". Note \"told you\", never *said you.",

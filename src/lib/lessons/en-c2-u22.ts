@@ -1037,7 +1037,7 @@ export const EN_C2_U22: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["Would", "it", "be", "all", "right", "if", "I", "got", "back", "to", "you", "by", "Friday?"],
         translation: "¿Le parecería bien que le diera una respuesta antes del viernes?",
-        explanation: "The unreal past \"came\" after \"Would it be all right if...\" makes the request more tentative.",
+        explanation: "The unreal past \"got\" after \"Would it be all right if...\" makes the request more tentative.",
       },
       {
         type: "translate",
@@ -1146,7 +1146,7 @@ export const EN_C2_U22: Lesson[] = [
           "If it keeps happening, propose a solution rather than apologizing again and again: \"Would it help if I turned my camera off for a moment?\" \"Shall I call back on the same link?\" Note: «Se le ha congelado la imagen» is simply \"You froze\", and «Está en silencio» is \"You're on mute\", not *You are in silence.",
         ],
         examples: [
-          { es: "Sorry, you froze for a second. Could you repeat the last part?", en: "Perdón, se le ha congelado la imagen un segundo. ¿Podría repetir la última parte?" },
+          { es: "Sorry, you froze for a second. Could you repeat the last part?", en: "Perdón, se le congeló la imagen un segundo. ¿Podría repetir la última parte?" },
           { es: "I think you're on mute.", en: "Creo que tiene el micrófono silenciado." },
           { es: "You're breaking up a little.", en: "Se le entrecorta un poco el audio." },
           { es: "I think I lost you there for a moment.", en: "Creo que lo perdí un momento." },
@@ -1159,7 +1159,7 @@ export const EN_C2_U22: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Perdón, se le ha congelado la imagen un segundo. ¿Podría repetir la última parte?",
+            source: "Perdón, se le congeló la imagen un segundo. ¿Podría repetir la última parte?",
             answer: "Sorry, you froze for a second. Could you repeat the last part?",
             altAnswers: alts(
               ["Sorry, you froze for a second.", "Sorry, you froze for a moment.", "Sorry, your screen froze for a second.", "Sorry, your video froze for a second.", "Sorry, your image froze for a second.", "Sorry, you froze there for a second.", "Sorry, you just froze for a second.", "I'm sorry, you froze for a second."],
@@ -1186,7 +1186,7 @@ export const EN_C2_U22: Lesson[] = [
           "Panels often include someone from HR, a future manager and a technical expert, so adapt the depth of your answer to the person asking. If two panel members ask at once, it is fine to manage the turn: \"Shall I start with the budget question and then come back to the timeline?\"",
         ],
         examples: [
-          { es: "As Tom mentioned earlier, the team is growing quickly.", en: "Como ha comentado Tom antes, el equipo está creciendo rápidamente." },
+          { es: "As Tom mentioned earlier, the team is growing quickly.", en: "Como comentó Tom antes, el equipo está creciendo rápidamente." },
           { es: "To pick up on your point about budgets, Emma, we reduced costs by twelve percent.", en: "Retomando lo que decía sobre los presupuestos, Emma, redujimos los costos un doce por ciento." },
           { es: "Shall I start with the budget question and then come back to the timeline?", en: "¿Empiezo por la pregunta del presupuesto y luego vuelvo al calendario?" },
           { es: "That's a great question, and it links to what Carlos asked earlier.", en: "Es una muy buena pregunta, y enlaza con lo que preguntaba Carlos antes." },
@@ -1197,7 +1197,7 @@ export const EN_C2_U22: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Como ha comentado Tom antes, el equipo está creciendo rápidamente.",
+            source: "Como comentó Tom antes, el equipo está creciendo rápidamente.",
             answer: "As Tom mentioned earlier, the team is growing quickly.",
             altAnswers: alts(
               ["As Tom mentioned earlier,", "As Tom mentioned before,", "As Tom said earlier,", "As Tom said before,", "As Tom has mentioned,", "As Tom mentioned,", "As Tom pointed out earlier,"],
@@ -1227,7 +1227,7 @@ export const EN_C2_U22: Lesson[] = [
           "Avoid interrupting with a bare \"No, no, no\", a common way of taking the floor in Spanish conversation. In English it sounds aggressive. \"Sorry, can I just come in here?\" is the polite way to take a turn.",
         ],
         examples: [
-          { es: "Building on what Sofia said, we could start with the cheapest option.", en: "Partiendo de lo que ha dicho Sofia, podríamos empezar por la opción más barata." },
+          { es: "Building on what Sofia said, we could start with the cheapest option.", en: "Partiendo de lo que dijo Sofia, podríamos empezar por la opción más barata." },
           { es: "Diego, what do you think?", en: "Diego, ¿tú qué opinas?" },
           { es: "We've got about ten minutes left, so shall we agree on a recommendation?", en: "Nos quedan unos diez minutos, así que, ¿acordamos una recomendación?" },
           { es: "I see your point, but I wonder if the timeline is realistic.", en: "Entiendo lo que dices, pero me pregunto si el calendario es realista." },
@@ -1274,13 +1274,13 @@ export const EN_C2_U22: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Creo que se ha caído mi conexión. ¿Me oye ahora?",
+        source: "Creo que se me cayó la conexión. ¿Me oye ahora?",
         answer: "I think my connection dropped. Can you hear me now?",
         altAnswers: alts(
           ["I think my connection dropped.", "I think my connection has dropped.", "I think my connection dropped out.", "I think my connection has dropped out.", "I think I lost my connection.", "I think I've lost my connection.", "I think my connection went down.", "I think my connection cut out."],
           ["Can you hear me now?", "Can you hear me OK now?", "Can you hear me okay now?", "Could you hear me now?"],
         ),
-        explanation: "A connection \"drops\" or \"drops out\"; *my connection fell is a calque of «se ha caído».",
+        explanation: "A connection \"drops\" or \"drops out\"; *my connection fell is a calque of «se me cayó».",
       },
       {
         type: "fill-blank",
@@ -1295,10 +1295,10 @@ export const EN_C2_U22: Lesson[] = [
         type: "matching",
         instructions: "Match each expression with its meaning.",
         pairs: [
-          { left: "You froze.", right: "Se te ha congelado la imagen." },
+          { left: "You froze.", right: "Se te congeló la imagen." },
           { left: "You're on mute.", right: "Tienes el micrófono silenciado." },
           { left: "There's a lag.", right: "Hay retraso en la conexión." },
-          { left: "I lost you.", right: "Se ha cortado y no te oigo." },
+          { left: "I lost you.", right: "Se cortó y no te oigo." },
           { left: "Can I just come in here?", right: "¿Puedo intervenir un momento?" },
         ],
         explanation: "These are the core phrases for keeping a video call or group discussion running smoothly.",
@@ -1684,7 +1684,7 @@ export const EN_C2_U22: Lesson[] = [
         examples: [
           { es: "Thanks for having me. It's good to meet you in person.", en: "Gracias por recibirme. Me alegro de conocerla en persona." },
           { es: "I'm currently a supply chain analyst at a food distribution company.", en: "Actualmente soy analista de cadena de suministro en una empresa de distribución alimentaria." },
-          { es: "Over the last two years, I've cut our stock-outs by almost a third.", en: "En los dos últimos años he reducido nuestras roturas de stock en casi un tercio." },
+          { es: "Over the last two years, I've cut our stock-outs by almost a third.", en: "En los dos últimos años he reducido nuestros quiebres de stock en casi un tercio." },
           { es: "Before that, I spent four years in procurement at a car manufacturer.", en: "Antes de eso, pasé cuatro años en compras en un fabricante de automóviles." },
           { es: "Now I'm looking for a role where I can lead a team and shape strategy.", en: "Ahora busco un puesto en el que pueda dirigir un equipo y definir la estrategia." },
         ],
@@ -1693,7 +1693,7 @@ export const EN_C2_U22: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "En los dos últimos años he reducido nuestras roturas de stock en casi un tercio.",
+            source: "En los dos últimos años he reducido nuestros quiebres de stock en casi un tercio.",
             answer: "Over the last two years, I've cut our stock-outs by almost a third.",
             altAnswers: alts(
               ["Over the last two years,", "Over the past two years,", "In the last two years,", "In the past two years,"],

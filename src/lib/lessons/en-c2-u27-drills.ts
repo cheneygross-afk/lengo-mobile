@@ -124,7 +124,7 @@ export const EN_C2_U27_DRILLS: Lesson[] = [
       ),
       tx(
         "La contaminación atmosférica es un problema grave en la capital.",
-        "Air pollution is a {serious|major|grave} problem in the capital.",
+        "Air pollution is a {serious|major|grave|big} {problem|issue} in the capital.",
         "Dirty air in general is \"air pollution\", with no article. *The air contamination is wrong on two counts.",
       ),
       mc(
@@ -540,11 +540,11 @@ export const EN_C2_U27_DRILLS: Lesson[] = [
         "\"Deny\" is followed by a noun or an -ing form, never by an infinitive: *denies to receive is wrong.",
       ),
       tx(
-        "Se cree que el director dimitirá la semana próxima.",
+        "Se cree que el director renunciará la semana próxima.",
         [
-          "The director is expected to resign next week.",
-          "The director is {believed|thought|expected} to be resigning next week.",
-          "It is {believed|thought} that the director will resign next week.",
+          "The director is believed to be resigning next week.",
+          "The director is {believed|thought|expected} to {be resigning|resign} next week.",
+          "It is {believed|thought} that the director {will resign|is going to resign|is resigning} next week.",
         ],
         "Both passive patterns work: \"It is believed that...\" or, in typical news style, \"The director is believed to be resigning...\" (continuous infinitive for a planned event). \"Is expected to resign\" also works. Take the subject of the «que» clause and make it the subject.",
       ),

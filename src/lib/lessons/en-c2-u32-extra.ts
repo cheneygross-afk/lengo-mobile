@@ -27,7 +27,7 @@ export const EN_C2_U32_EXTRA: Lesson[] = [
         examples: [
           { es: "\"I'm tired,\" she said.", en: "—Estoy cansada —dijo ella." },
           { es: "She said, \"I'm tired.\"", en: "Ella dijo: «Estoy cansada»." },
-          { es: "\"Where,\" he asked, \"did you put the keys?\"", en: "—¿Dónde —preguntó él— has puesto las llaves?" },
+          { es: "\"Where,\" he asked, \"did you put the keys?\"", en: "—¿Dónde —preguntó él— pusiste las llaves?" },
           { es: "\"It's late,\" Emma said. \"Let's go.\"", en: "—Es tarde —dijo Emma—. Vámonos." },
           { es: "\"Fine.\" He shrugged.", en: "—Está bien. —Se encogió de hombros." },
         ],
@@ -188,7 +188,7 @@ export const EN_C2_U32_EXTRA: Lesson[] = [
         sentence: "\"I'm not hungry,\" ___. \"I ate at work.\"",
         answer: "Tom said",
         altAnswers: ["said Tom"],
-        en: "—No tengo hambre —[dijo Tom]—. He comido en el trabajo.",
+        en: "—No tengo hambre —[dijo Tom]—. Comí en el trabajo.",
         explanation: "Two separate sentences of speech: comma before the tag, period after it, and the second sentence starts with a capital.",
       },
       {
@@ -323,7 +323,7 @@ export const EN_C2_U32_EXTRA: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this Spanish dialogue as English prose with correct punctuation and paragraphing, translating it into English: «—¿Dónde estabas? —preguntó Ana. —En la biblioteca —respondió Tom, sin mirarla—. Tenía que terminar el trabajo. Ana suspiró. —Te he llamado tres veces».",
+        prompt: "Rewrite this Spanish dialogue as English prose with correct punctuation and paragraphing, translating it into English: «—¿Dónde estabas? —preguntó Ana. —En la biblioteca —respondió Tom, sin mirarla—. Tenía que terminar el trabajo. Ana suspiró. —Te llamé tres veces».",
         minWords: 25,
         maxWords: 60,
         rubric: [

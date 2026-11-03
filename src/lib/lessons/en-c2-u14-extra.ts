@@ -27,7 +27,7 @@ export const EN_C2_U14_EXTRA: Lesson[] = [
           { es: "However much you earn, you'll always want more.", en: "Ganes lo que ganes, siempre querrás más." },
           { es: "Strange as it may seem, the cheaper option is also the safer one.", en: "Por extraño que parezca, la opción más barata es también la más segura." },
           { es: "Exhausted though they were, the volunteers kept working until dawn.", en: "Aunque estaban agotados, los voluntarios siguieron trabajando hasta el amanecer." },
-          { es: "In spite of the fact that the report was leaked, nobody resigned.", en: "A pesar de que se filtró el informe, nadie dimitió. (incorrecto: *in spite that)" },
+          { es: "In spite of the fact that the report was leaked, nobody resigned.", en: "A pesar de que se filtró el informe, nadie renunció. (incorrecto: *in spite that)" },
         ],
         checkpoint: [
           {

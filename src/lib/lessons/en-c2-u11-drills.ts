@@ -149,6 +149,9 @@ export const EN_C2_U11_DRILLS: Lesson[] = [
           "The eventual winner was a 15-year-old girl.",
           "The winner in the end was a fifteen-year-old girl.",
           "The eventual winner was a girl of fifteen.",
+          "In the end, the winner was a fifteen-year-old girl.",
+          "The winner turned out to be a fifteen-year-old girl.",
+          "The final winner was a fifteen-year-old girl.",
         ],
         "English \"eventual\" means «final», the one who won in the end. Note the hyphenated compound adjective with singular \"year\": \"a fifteen-year-old girl\", never *fifteen-years-old.",
       ),
@@ -574,7 +577,7 @@ export const EN_C2_U11_DRILLS: Lesson[] = [
           "I ask him if he'd see her.",
         ],
         0,
-        "The d of \"asked\" links to \"him\" (whose h drops), \"he\" loses its h, and the n of \"seen\" links to \"her\". There is no Tim: the t comes from \"asked him\".",
+        "The final /t/ of \"asked\" links to \"him\" (whose h drops), \"he\" loses its h, and the n of \"seen\" links to \"her\". There is no Tim: the t comes from \"asked him\".",
       ),
       lc(
         "Gotcha. I'll send it over in a minute.",
@@ -613,7 +616,7 @@ export const EN_C2_U11_DRILLS: Lesson[] = [
           "illegal",
         ],
         0,
-        "The context (refusing to pay for repairs, tenants freezing) points to stinginess. Spanish «parsimonioso» (slow, calm) is a deceptive cognate here: test your guess against the whole sentence.",
+        "The context (refusing to pay for repairs, tenants freezing) points to stinginess. Spanish «parsimonioso» usually suggests slowness or calm, so it can mislead you, although its older sense («ahorrativo, mezquino») matches the English: test your guess against the whole sentence.",
       ),
       mc(
         "Using the root \"bene-\" (good), what is a \"benefactor\" most likely to be?",

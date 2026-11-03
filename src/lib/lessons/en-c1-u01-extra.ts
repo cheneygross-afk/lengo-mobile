@@ -27,7 +27,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         examples: [
           { es: "Never have I tasted coffee this strong.", en: "Nunca he probado un café tan fuerte." },
           { es: "Rarely does she ask for help.", en: "Rara vez pide ayuda." },
-          { es: "Seldom do we eat out these days.", en: "Últimamente pocas veces comemos fuera." },
+          { es: "Seldom do we eat out these days.", en: "Últimamente pocas veces salimos a comer." },
           { es: "Little did we know what was coming.", en: "Poco sabíamos lo que se nos venía encima." },
           { es: "Not only does she speak Japanese, but she also writes it.", en: "No solo habla japonés, sino que también lo escribe." },
         ],
@@ -1006,7 +1006,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Should you have any questions, please call.", en: "Si tiene alguna pregunta, llame, por favor." },
-          { es: "Were the weather better, we'd eat outside.", en: "Si hiciera mejor tiempo, comeríamos fuera." },
+          { es: "Were the weather better, we'd eat outside.", en: "Si hiciera mejor tiempo, comeríamos afuera." },
           { es: "If I were you, I'd apologize.", en: "Yo que tú, pediría perdón." },
           { es: "Had I not read the email, I would never have known.", en: "Si no hubiera leído el correo, nunca lo habría sabido." },
         ],
@@ -1180,7 +1180,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         sentence: "___ canceled, all tickets will be refunded.",
         answer: "Should the concert be",
         altAnswers: ["If the concert is", "If the concert should be", "Should the show be", "If the show is"],
-        en: "[Si se cancelara el concierto], se reembolsarán todas las entradas.",
+        en: "[En caso de que se cancele el concierto], se reembolsarán todas las entradas.",
         explanation: "Passive with inverted \"should\": \"Should the concert be canceled\". The main clause can use \"will\" because \"should\" here only makes the event sound less likely.",
       },
       {

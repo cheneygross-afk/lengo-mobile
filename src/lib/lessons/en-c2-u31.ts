@@ -109,7 +109,7 @@ export const EN_C2_U31: Lesson[] = [
           "When an effect feeds back into its own cause, the result is a \"vicious circle\" (US also \"vicious cycle\") or, if it is positive, a \"virtuous circle\". «Espiral» is \"spiral\": \"a wage-price spiral\", \"a deflationary spiral\".",
         ],
         examples: [
-          { es: "The factory closure had a knock-on effect on local shops.", en: "El cierre de la fábrica tuvo un efecto dominó en los comercios de la zona." },
+          { es: "The factory closure had a knock-on effect on local businesses.", en: "El cierre de la fábrica tuvo un efecto dominó en los comercios de la zona." },
           { es: "Higher rates cool demand, which in turn eases pressure on prices.", en: "Unas tasas más altas enfrían la demanda, lo que a su vez alivia la presión sobre los precios." },
           { es: "Falling prices make people delay purchases, which deepens the slump.", en: "La caída de los precios hace que la gente retrase sus compras, lo que agrava la crisis." },
           { es: "It is a classic vicious circle.", en: "Es un clásico círculo vicioso." },
@@ -575,7 +575,7 @@ export const EN_C2_U31: Lesson[] = [
           { left: "assets", right: "activo" },
           { left: "liabilities", right: "pasivo" },
           { left: "cash flow", right: "flujo de caja" },
-          { left: "overheads", right: "gastos generales" },
+          { left: "overhead", right: "gastos generales" },
         ],
         explanation: "These are the core terms of an income statement and a balance sheet. \"Overheads\" is British; Americans usually say \"overhead\".",
       },
@@ -1729,7 +1729,7 @@ export const EN_C2_U31: Lesson[] = [
           "Uses a collective noun consistently (verb and pronoun).",
           "Treats \"feedback\", \"information\" or \"advice\" as uncountable.",
         ],
-        modelAnswer: "This year's staff survey received 640 responses. The number of employees who describe themselves as satisfied has risen to 72%, although a number of departments have reported concerns about workload. Sixty percent of respondents say they would recommend the company as an employer, while 15% of the workforce is considering leaving within a year. Neither of the two pilot schemes has had a measurable effect yet. The board has reviewed the data and has asked each department to submit its own action plan. All feedback will be published on the intranet.",
+        modelAnswer: "This year's staff survey received 640 responses. The number of employees who describe themselves as satisfied has risen to 72%, although a number of departments have reported concerns about workload. Sixty percent of respondents say they would recommend the company as an employer, while 15% of the workforce is considering leaving within a year. Neither of the two pilot programs has had a measurable effect yet. The board has reviewed the data and has asked each department to submit its own action plan. All feedback will be published on the intranet.",
         explanation: "Each subject controls its verb: \"the number ... has\", \"a number of departments have\", \"60% of respondents say\", \"15% of the workforce is\", \"neither ... has\", \"the board has ... its\" and uncountable \"feedback\".",
       },
       {
@@ -2150,7 +2150,7 @@ export const EN_C2_U31: Lesson[] = [
           "Spanish speakers often ask *Can you explain me...? Remember that \"explain\" needs \"to\" before the person: \"Could you explain to us how...?\", or better, \"Could you walk us through...?\".",
         ],
         examples: [
-          { es: "Could you walk us through how you arrived at that figure?", en: "¿Podrías explicarnos paso a paso cómo has llegado a esa cifra?" },
+          { es: "Could you walk us through how you arrived at that figure?", en: "¿Podrías explicarnos paso a paso cómo llegaste a esa cifra?" },
           { es: "What assumptions underpin the revenue forecast?", en: "¿En qué supuestos se basa la previsión de ingresos?" },
           { es: "Could you break that down by region?", en: "¿Podrías desglosarlo por regiones?" },
           { es: "Is that a one-time cost or a recurring one?", en: "¿Es un costo puntual o recurrente?" },
@@ -2162,7 +2162,7 @@ export const EN_C2_U31: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Podrías explicarnos cómo has llegado a esa cifra?",
+            source: "¿Podrías explicarnos cómo llegaste a esa cifra?",
             answer: "Could you explain to us how you arrived at that figure?",
             altAnswers: [
               "Could you walk us through how you arrived at that figure?",
@@ -3167,7 +3167,7 @@ export const EN_C2_U31: Lesson[] = [
           "Keep claims as precise as the evidence: \"appears to\", \"is likely to\", \"in most cases\". A finding is not a conclusion: \"Sales fell by 12%\" is a finding; \"The pricing strategy has failed\" is a conclusion, and it goes in the next section.",
         ],
         examples: [
-          { es: "The survey revealed that most customers were unaware of the loyalty scheme.", en: "La encuesta reveló que la mayoría de los clientes desconocían el programa de fidelización." },
+          { es: "The survey revealed that most customers were unaware of the loyalty program.", en: "La encuesta reveló que la mayoría de los clientes desconocían el programa de fidelización." },
           { es: "It emerged that two of the three suppliers had missed deadlines.", en: "Se puso de manifiesto que dos de los tres proveedores habían incumplido los plazos." },
           { es: "Respondents cited price as the main reason for switching.", en: "Los encuestados señalaron el precio como principal motivo para cambiar de proveedor." },
           { es: "The booking system was found to be slow and unreliable.", en: "Se constató que el sistema de reservas era lento y poco confiable." },

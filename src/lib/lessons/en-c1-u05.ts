@@ -895,7 +895,7 @@ export const EN_C1_U05: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Would", "it", "make", "sense", "to", "postpone", "the", "launch?"],
-        translation: "¿Tendría sentido aplazar el lanzamiento?",
+        translation: "¿Tendría sentido posponer el lanzamiento?",
         explanation: "A question with \"would\" is a tentative way to propose an idea in a meeting.",
       },
       {
@@ -2510,7 +2510,7 @@ export const EN_C1_U05: Lesson[] = [
           { es: "Over half of the staff work remotely.", en: "Más de la mitad del personal trabaja a distancia." },
           { es: "The new rule affects the whole company.", en: "La nueva norma afecta a toda la empresa." },
           { es: "Personally, I found it very useful.", en: "A nivel personal, me resultó muy útil." },
-          { es: "The software reduces errors by checking every entry twice.", en: "El programa reduce los errores comprobando cada entrada dos veces." },
+          { es: "The software reduces errors by checking every entry twice.", en: "El programa reduce los errores verificando cada entrada dos veces." },
         ],
         checkpoint: [
           {
@@ -3020,7 +3020,7 @@ export const EN_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English, using the word in capitals.",
-            sentence: "It's almost certain that the shop will be closed. (BOUND) The shop ___ closed.",
+            sentence: "It's almost certain that the store will be closed. (BOUND) The store ___ closed.",
             answer: "is bound to be",
             altAnswers: ["'s bound to be"],
             en: "[Seguro que] la tienda está cerrada.",
@@ -3677,7 +3677,7 @@ export const EN_C1_U05: Lesson[] = [
       {
         heading: "False friends: constipated, intoxication, cold",
         body: [
-          "\"Constipated\" means «estreñido», not «constipado». If you have a cold, say \"I've got a cold\" or \"I have a cold\". Saying \"I'm constipated\" at work will get you some strange looks.",
+          "\"Constipated\" means «estreñido», not «resfriado» (or «constipado», which means \"having a cold\" only in Spain). If you have a cold, say \"I've got a cold\" or \"I have a cold\". Saying \"I'm constipated\" at work will get you some strange looks.",
           "\"Intoxication\" in English usually means being drunk (\"alcohol intoxication\"). For «intoxicación alimentaria» say \"food poisoning\": \"Half the guests got food poisoning\". For chemicals, use \"poisoning\": \"carbon monoxide poisoning\".",
           "Also: «resfriado» is \"a cold\" (to \"catch a cold\"), «gripe» is \"flu\", «receta» from a doctor is \"a prescription\" (a \"recipe\" is for cooking), and «herida» is \"an injury\" or \"a wound\".",
         ],
@@ -3694,7 +3694,7 @@ export const EN_C1_U05: Lesson[] = [
             question: "How do you say «estoy constipado» in English?",
             options: ["I've got a cold.", "I'm constipated.", "I'm intoxicated.", "I have a flu of the nose."],
             correctIndex: 0,
-            explanation: "«Constipado» is \"a cold\". \"Constipated\" means «estreñido», and \"intoxicated\" usually means drunk.",
+            explanation: "«Estar resfriado» (in Spain also «constipado») is \"to have a cold\". \"Constipated\" means «estreñido», and \"intoxicated\" usually means drunk.",
           },
         ],
       },

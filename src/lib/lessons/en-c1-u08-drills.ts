@@ -2024,7 +2024,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
       {
         heading: "Recap: were, fixed chunks and formal decisions",
         body: [
-          "\"Were\" is used for all persons in unreal clauses (\"If I were you\", where \"was\" is not possible) and in formal inversion: \"Were the company to relocate...\", \"Were it not for the scholarship...\". For a real past possibility, keep \"was\".",
+          "\"Were\" is used for all persons in unreal clauses (\"If I were you\", where \"was\" sounds careless) and in formal inversion: \"Were the company to relocate...\", \"Were it not for the scholarship...\". For a real past possibility, keep \"was\".",
           "Fixed subjunctives are invariable chunks: \"be that as it may\", \"so be it\", \"come what may\", \"if need be\", \"suffice it to say\", \"far be it from me to\", \"as it were\". They're formal; everyday alternatives are \"even so\", \"fine\", \"whatever happens\", \"if necessary\", \"let's just say\".",
           "Reports and minutes use the subjunctive after recommend, propose, move, resolve and agree: \"Mr. Chen moved that the budget be increased\". Neutral alternatives: \"should\", or \"for\" + object + infinitive after adjectives. Never after \"hope\" or \"want\".",
         ],
@@ -2101,7 +2101,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
           "If I were in your shoes, I'd speak to her.",
           "If I were in your shoes, I'd speak with her.",
         ],
-        explanation: "«Yo que tú» or «si fuera tú» = \"If I were you\". \"Was\" is not possible in this fixed phrase.",
+        explanation: "«Yo que tú» or «si fuera tú» = \"If I were you\". \"If I was you\" is heard in casual speech, but \"were\" is the standard form.",
       },
       {
         type: "multiple-choice",

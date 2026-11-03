@@ -503,7 +503,7 @@ export const EN_C1_U01: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Only", "after", "the", "storm", "passed", "did", "they", "leave."],
-        translation: "Solo después de que pasara la tormenta se marcharon.",
+        translation: "Solo después de que pasara la tormenta se fueron.",
         explanation: "The \"after\" clause keeps normal order (\"the storm passed\"); the main clause inverts (\"did they leave\").",
       },
       {
@@ -1164,7 +1164,7 @@ export const EN_C1_U01: Lesson[] = [
         ],
         examples: [
           { es: "Often I go running before work.", en: "A menudo salgo a correr antes del trabajo." },
-          { es: "Sometimes we eat out on Fridays.", en: "A veces cenamos fuera los viernes." },
+          { es: "Sometimes we eat out on Fridays.", en: "A veces salimos a cenar los viernes." },
           { es: "Yesterday I saw Tom at the station.", en: "Ayer vi a Tom en la estación." },
           { es: "Rarely do I go running before work.", en: "Pocas veces salgo a correr antes del trabajo." },
         ],
@@ -1664,12 +1664,12 @@ export const EN_C1_U01: Lesson[] = [
       {
         heading: "So + adjective/adverb at the front",
         body: [
-          "To stress the degree of something, you can move \"so\" + adjective (or adverb) to the front, invert, and finish with a \"that\" clause: \"The demand was so great that the shop ran out\" becomes \"So great was the demand that the shop ran out\".",
+          "To stress the degree of something, you can move \"so\" + adjective (or adverb) to the front, invert, and finish with a \"that\" clause: \"The demand was so great that the store ran out\" becomes \"So great was the demand that the store ran out\".",
           "With \"be\", the verb itself moves: \"So great was the demand\". With other verbs you need do-support: \"So quickly did she run that nobody could catch her\".",
           "This is a written, dramatic structure. It works well in narration and journalism.",
         ],
         examples: [
-          { es: "So great was the demand that the shop ran out of stock.", en: "Era tal la demanda que la tienda se quedó sin existencias." },
+          { es: "So great was the demand that the store ran out of stock.", en: "Era tal la demanda que la tienda se quedó sin existencias." },
           { es: "So loud was the music that we couldn't hear each other.", en: "La música estaba tan alta que no nos oíamos." },
           { es: "So quickly did she run that nobody could catch her.", en: "Corrió tan deprisa que nadie pudo alcanzarla." },
           { es: "So tired was he that he fell asleep at dinner.", en: "Estaba tan cansado que se quedó dormido en la cena." },
@@ -1758,7 +1758,7 @@ export const EN_C1_U01: Lesson[] = [
           { es: "Here it comes!", en: "¡Ahí viene!" },
           { es: "Down came the rain.", en: "Y empezó a caer la lluvia." },
           { es: "In the corner stood an old piano.", en: "En el rincón había un viejo piano." },
-          { es: "Off they went, without saying goodbye.", en: "Y se marcharon sin despedirse." },
+          { es: "Off they went, without saying goodbye.", en: "Y se fueron sin despedirse." },
           { es: "There goes my last chance.", en: "Ahí se va mi última oportunidad." },
         ],
         checkpoint: [
@@ -1996,7 +1996,7 @@ export const EN_C1_U01: Lesson[] = [
         ],
         examples: [
           { es: "Had we been informed of the delay, we would have booked another flight.", en: "De habernos informado del retraso, habríamos reservado otro vuelo." },
-          { es: "Had your staff checked the booking, this would not have happened.", en: "Si su personal hubiera comprobado la reserva, esto no habría ocurrido." },
+          { es: "Had your staff checked the booking, this would not have happened.", en: "Si su personal hubiera revisado la reserva, esto no habría ocurrido." },
           { es: "Had I known about the extra charges, I would never have signed.", en: "Si hubiera sabido lo de los cargos adicionales, nunca habría firmado." },
         ],
         checkpoint: [
@@ -2820,10 +2820,10 @@ export const EN_C1_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Such ___ that the shop sold out in an hour.",
+        sentence: "Such ___ that the store sold out in an hour.",
         answer: "was the demand",
         altAnswers: ["was the popularity", "was the interest"],
-        en: "[Fue tal la demanda] que la tienda lo agotó en una hora.",
+        en: "[Fue tal la demanda] que la tienda se quedó sin nada en una hora.",
         explanation: "\"The demand was so high that...\" (SUCH) becomes \"Such was the demand that...\".",
       },
       {

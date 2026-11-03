@@ -179,13 +179,13 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
         audio: "The release of the new model has been postponed.",
         question: "What does it mean?",
         options: [
-          "Se ha aplazado el lanzamiento del nuevo modelo.",
+          "Se ha pospuesto el lanzamiento del nuevo modelo.",
           "Han liberado al nuevo modelo antes de tiempo.",
           "El nuevo modelo ya salió a la venta.",
           "Se canceló la presentación de la nueva modelo.",
         ],
         correctIndex: 0,
-        explanation: "\"Release\" is both verb and noun; here it is the noun «lanzamiento». \"Has been postponed\" is «se ha aplazado».",
+        explanation: "\"Release\" is both verb and noun; here it is the noun «lanzamiento». \"Has been postponed\" is «se ha pospuesto».",
       },
       {
         type: "translate",
@@ -311,7 +311,7 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English using a noun instead of «decidió».",
-        source: "El ayuntamiento decidió cerrar la biblioteca, lo que enojó a los vecinos.",
+        source: "La alcaldía decidió cerrar la biblioteca, lo que enojó a los vecinos.",
         answer: "The city council's decision to close the library angered residents.",
         altAnswers: [
           "The city council's decision to close the library angered the residents.",
@@ -534,8 +534,8 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Everyone", "should", "have", "access", "to", "free", "healthcare"],
-        translation: "Todo el mundo debería tener acceso a la sanidad gratuita.",
-        explanation: "\"Access to\" + noun. \"Healthcare\" in general takes no article, unlike «la sanidad».",
+        translation: "Todo el mundo debería tener acceso a la atención médica gratuita.",
+        explanation: "\"Access to\" + noun. \"Healthcare\" in general takes no article, unlike «la atención médica».",
       },
       {
         type: "multiple-choice",
@@ -1118,7 +1118,7 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "The new recycling schedule starts on March 1. Put your bins out on Mondays.",
+        audio: "The new recycling schedule starts on March 1. Put your trash cans out on Mondays.",
         explanation: "A good mix: a noun phrase names the topic (\"the new recycling schedule\"), then a verb tells people what to do.",
       },
       {
@@ -2375,7 +2375,7 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English, using a noun subject.",
-        source: "Se acordó aplazar la reunión.",
+        source: "Se acordó posponer la reunión.",
         answer: "An agreement was reached to postpone the meeting.",
         altAnswers: [
           "An agreement was reached to put off the meeting.",

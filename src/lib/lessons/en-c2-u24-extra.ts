@@ -337,7 +337,7 @@ export const EN_C2_U24_EXTRA: Lesson[] = [
         ],
         examples: [
           {
-            es: "Before the railway, goods used to travel by canal.",
+            es: "Before the railroad, goods used to travel by canal.",
             en: "Antes del ferrocarril, las mercancías se transportaban por canal.",
           },
           {

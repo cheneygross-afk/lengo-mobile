@@ -206,7 +206,7 @@ export const EN_C2_U28_DRILLS: Lesson[] = [
       ),
       tx(
         "La naturaleza humana no cambia de un siglo a otro.",
-        "Human nature {does not|doesn't} change from one century to {another|the next}.",
+        ["Human nature {does not|doesn't} change from one century to {another|the next}.", "Human nature {does not|doesn't} change from century to century."],
         "*The human nature is one of the clearest markers of Spanish interference in writing; adjective + abstract noun stays general.",
       ),
       tx(
@@ -411,8 +411,9 @@ export const EN_C2_U28_DRILLS: Lesson[] = [
           "The conditions under which the experiment was {carried out|conducted|done|performed} {are not|aren't} clear.",
           "The conditions under which the experiment was {carried out|conducted|done|performed} {are|remain} unclear.",
           "It is not clear under what conditions the experiment was {carried out|conducted|done|performed}.",
+          "The conditions in which the experiment was {carried out|conducted|done|performed} {are not|aren\'t} clear.",
         ],
-        "The preposition comes from the collocation \"under certain conditions\", hence \"the conditions under which\". *The conditions in which the experiment was done is less idiomatic in formal writing.",
+        "The preposition comes from the collocation \"under certain conditions\", hence \"the conditions under which\", the most idiomatic choice in formal writing; \"the conditions in which\" is also correct.",
       ),
       wo(
         "There is a sense in which every promise limits our freedom",
@@ -528,7 +529,7 @@ export const EN_C2_U28_DRILLS: Lesson[] = [
       fb(
         "Recent research ___ that memory is less reliable than we think.",
         "suggests",
-        "Las investigaciones recientes [indican] que la memoria es menos fiable de lo que creemos.",
+        "Las investigaciones recientes [indican] que la memoria es menos confiable de lo que creemos.",
         ["shows", "indicates"],
         "\"Research\" is uncountable and takes a singular verb: \"research suggests\", never *researches suggest.",
       ),

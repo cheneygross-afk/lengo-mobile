@@ -394,7 +394,7 @@ export const EN_C2_U20_DRILLS: Lesson[] = [
       ["I haven't, no. But the teachers in the study have.", "No, no lo he hecho. Pero los profesores del estudio sí."],
       ["You haven't seen the figures, have you? I have, as it happens.", "No ha visto las cifras, ¿verdad? Pues sí, da la casualidad de que las he visto."],
       ["Granted, it takes longer. Even so, it is worth it.", "Es verdad que lleva más tiempo. Aun así, vale la pena."],
-      ["Never has the case been stronger.", "Nunca habían sido tan sólidos los argumentos."],
+      ["Never has the case been stronger.", "Nunca han sido tan sólidos los argumentos."],
     ],
     [
       mc(

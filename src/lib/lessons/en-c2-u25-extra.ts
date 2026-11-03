@@ -351,7 +351,7 @@ export const EN_C2_U25_EXTRA: Lesson[] = [
           "Having lost army support, the dictator stepped down.",
           "Having lost army support, the dictator stood down.",
         ],
-        explanation: "\"Having\" + past participle for a completed earlier action. «Dimitir» = \"resign\" or \"step down\", never *dimit.",
+        explanation: "\"Having\" + past participle for a completed earlier action. «Renunciar» (Spain: «dimitir») to a post = \"resign\" or \"step down\", never *renounce or *dimit.",
       },
       {
         type: "matching",

@@ -869,13 +869,13 @@ export const EN_C1_U10: Lesson[] = [
         body: [
           "«Estar en las nubes» means to be distracted. English \"have your head in the clouds\" exists, but it describes a dreamy, unrealistic person in general. For a moment of distraction, say \"I was miles away\" or \"I was daydreaming\".",
           "«Ponerse las pilas» has nothing to do with batteries in English: say \"get your act together\", \"pull your socks up\" (British) or \"step it up\". And «ser pan comido» is \"a piece of cake\", \"a breeze\" or \"a walk in the park\", never *eaten bread.",
-          "Similarly, «estar hasta las narices» is \"be fed up (with)\" or \"be sick and tired (of)\"; «dar gato por liebre» is \"rip someone off\"; «ser uña y carne» is \"be joined at the hip\" or \"be as thick as thieves\".",
+          "Similarly, «estar hasta la coronilla» is \"be fed up (with)\" or \"be sick and tired (of)\"; «dar gato por liebre» is \"rip someone off\"; «ser uña y carne» is \"be joined at the hip\" or \"be as thick as thieves\".",
         ],
         examples: [
           { es: "Sorry, what did you say? I was miles away.", en: "Perdona, ¿qué dijiste? Estaba en las nubes." },
           { es: "You need to get your act together.", en: "Tienes que ponerte las pilas." },
           { es: "The driving test was a breeze.", en: "El examen de manejo fue pan comido." },
-          { es: "I'm fed up with this noise.", en: "Estoy hasta las narices de este ruido." },
+          { es: "I'm fed up with this noise.", en: "Estoy hasta la coronilla de este ruido." },
           { es: "They ripped us off.", en: "Nos dieron gato por liebre." },
           { es: "Those two are joined at the hip.", en: "Esos dos son uña y carne." },
         ],
@@ -950,7 +950,7 @@ export const EN_C1_U10: Lesson[] = [
         instructions: "Match each Spanish idiom with its English equivalent.",
         pairs: [
           { left: "pull someone's leg", right: "tomar el pelo" },
-          { left: "be fed up", right: "estar hasta las narices" },
+          { left: "be fed up", right: "estar hasta la coronilla" },
           { left: "put your foot in it", right: "meter la pata" },
           { left: "not mince your words", right: "no tener pelos en la lengua" },
           { left: "go all out", right: "tirar la casa por la ventana" },
@@ -1005,7 +1005,7 @@ export const EN_C1_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estoy hasta las narices de sus excusas.",
+        source: "Estoy hasta la coronilla de sus excusas.",
         answer: "I'm fed up with his excuses.",
         altAnswers: [
           "I'm fed up with her excuses.",
@@ -1024,7 +1024,7 @@ export const EN_C1_U10: Lesson[] = [
           "I've had enough of her excuses.",
           "I've had enough of their excuses.",
         ],
-        explanation: "«Estar hasta las narices de» is \"be fed up with\" or \"be sick and tired of\". Watch the prepositions: \"fed up with\", \"tired of\".",
+        explanation: "«Estar hasta la coronilla de» is \"be fed up with\" or \"be sick and tired of\". Watch the prepositions: \"fed up with\", \"tired of\".",
       },
       {
         type: "multiple-choice",
@@ -1676,7 +1676,7 @@ export const EN_C1_U10: Lesson[] = [
               "I'm sick and tired of this weather.",
               "I'm tired and sick of this weather.",
               "I'm more tired than a mule of this weather.",
-              "I'm until the noses of this weather.",
+              "I'm up to the crown of this weather.",
             ],
             correctIndex: 0,
             explanation: "\"Sick and tired\" is a binomial with a fixed order. Review Binomials and Similes if you hesitated.",
@@ -2358,7 +2358,7 @@ export const EN_C1_U10: Lesson[] = [
     level: "EN-C1",
     number: 10,
     title: "Transformations: Saying It with an Idiom",
-    summary: "Rewrite plain sentences with a given idiom or binomial, keeping the meaning exactly, as in the C1 Advanced key-word transformations. Then go the other way: explain idioms in plain English.",
+    summary: "Rewrite plain sentences with a given idiom or binomial, keeping the meaning exactly, as in the key-word transformations of the Cambridge Advanced exam. Then go the other way: explain idioms in plain English.",
     duration: "12 min",
     sections: [
       {

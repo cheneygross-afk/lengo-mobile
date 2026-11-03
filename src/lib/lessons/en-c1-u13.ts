@@ -1244,7 +1244,7 @@ export const EN_C1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is a «reclamación» in a shop or on a flight?",
+        question: "What is a «reclamación» in a store or on a flight?",
         options: ["a complaint", "a reclamation", "a claiming", "a reclaim"],
         correctIndex: 0,
         explanation: "\"Complaint\". \"Reclamation\" is recovering land or materials. You can also \"make a claim\" for compensation.",
@@ -2261,7 +2261,7 @@ export const EN_C1_U13: Lesson[] = [
             question: "A colleague messages: \"The link in the newsletter is broken.\" What is the most natural reply?",
             options: ["Thanks for flagging, I'll fix it now.", "Dear colleague, I acknowledge receipt of your message.", "ok", "Thanks you for the advise."],
             correctIndex: 0,
-            explanation: "\"Thanks for flagging\" is the standard reply when someone points out a problem. \"ok\" alone can seem curt, and the last option has two errors (\"Thank you\", \"advice\").",
+            explanation: "\"Thanks for flagging\" is the standard reply when someone points out a problem. \"ok\" alone can seem curt, and \"Thanks you for the advise\" has two errors (\"Thank you\", \"advice\").",
           },
           {
             type: "translate",
@@ -3078,7 +3078,7 @@ export const EN_C1_U13: Lesson[] = [
               "The budget should maybe be approved soon, if possible, more or less.",
             ],
             correctIndex: 0,
-            explanation: "Request first, then a short reason with specific details. The second option buries the request in subordinate clauses, a very Spanish structure.",
+            explanation: "Request first, then a short reason with specific details. The \"As you know, regarding the event...\" version buries the request in subordinate clauses, a very Spanish structure.",
           },
         ],
       },
@@ -3147,7 +3147,7 @@ export const EN_C1_U13: Lesson[] = [
           "If you do not confirm at noon, we may release the room.",
         ],
         correctIndex: 0,
-        explanation: "\"Unless\" = \"if not\". The last option changes \"by\" to \"at\" and \"will\" to \"may\", so the meaning shifts.",
+        explanation: "\"Unless\" = \"if not\". The \"at noon... may release\" rewrite changes \"by\" to \"at\" and \"will\" to \"may\", so the meaning shifts.",
       },
       {
         type: "translate",

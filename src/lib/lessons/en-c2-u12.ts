@@ -1551,15 +1551,13 @@ export const EN_C2_U12: Lesson[] = [
           "That's not what I asked you.",
           "That isn't what I asked.",
           "That isn't what I asked you.",
-          "That's not what I've asked.",
-          "That's not what I've asked you.",
           "That's not what I was asking.",
           "That wasn't what I asked.",
           "That wasn't what I asked you.",
           "That's not my question.",
           "That's not what I'm asking.",
         ],
-        explanation: "English uses the past simple for a question just asked (\"what I asked\"), where Spain's Spanish often uses the perfect «he preguntado».",
+        explanation: "English uses the past simple for a question just asked (\"what I asked\"), or the present continuous (\"what I'm asking\"); *what I've asked sounds unnatural here, even though Spain's Spanish would say «lo que le he preguntado».",
       },
       {
         type: "speak",
@@ -2130,7 +2128,7 @@ export const EN_C2_U12: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Neither", "writer", "suggests", "that", "tourism", "should", "be", "banned"],
+        words: ["Neither", "writer", "suggests", "that", "tourism", "should", "be", "banned."],
         translation: "Ninguno de los dos autores sugiere que se deba prohibir el turismo.",
         explanation: "\"Neither\" + singular noun + singular verb. \"Suggest that\" + \"should\" + passive infinitive is a formal, neutral way to report a proposal.",
       },
@@ -2214,10 +2212,10 @@ export const EN_C2_U12: Lesson[] = [
         body: [
           "English headlines follow their own grammar, sometimes called headlinese. Articles and the verb \"be\" disappear: \"Minister in expenses row\" means \"A minister is involved in a row about expenses\".",
           "Tense works differently. The present simple reports a recent past event (\"Minister quits\" = the minister has resigned). The to-infinitive announces the future (\"PM to visit Madrid\" = the Prime Minister is going to visit Madrid). A past participle on its own is passive (\"Three hurt in crash\" = three people were hurt).",
-          "Punctuation is compressed too: a comma can replace \"and\" (\"Rain, wind to hit coast\"), and a colon attributes a quotation to its source (\"Strike will go ahead: union\" = the union says the strike will go ahead). Spanish headlines often put the verb first («Dimite la ministra»); English puts the subject first: \"Minister resigns\".",
+          "Punctuation is compressed too: a comma can replace \"and\" (\"Rain, wind to hit coast\"), and a colon attributes a quotation to its source (\"Strike will go ahead: union\" = the union says the strike will go ahead). Spanish headlines often put the verb first («Renuncia la ministra»); English puts the subject first: \"Minister resigns\".",
         ],
         examples: [
-          { es: "Minister quits", en: "Dimite el ministro." },
+          { es: "Minister quits", en: "Renuncia el ministro." },
           { es: "PM to visit Madrid", en: "El primer ministro visitará Madrid." },
           { es: "Three hurt in highway crash", en: "Tres heridos en un accidente en la autopista." },
           { es: "Strike will go ahead: union", en: "La huelga seguirá adelante, según el sindicato." },
@@ -2351,7 +2349,7 @@ export const EN_C2_U12: Lesson[] = [
           "Replace the dramatic verbs: \"slams\" becomes \"has strongly criticized\", \"axes\" becomes \"is cutting\" or \"has closed\", \"bid\" becomes \"attempt\". A good full sentence sounds like a news reader, not like a tabloid.",
         ],
         examples: [
-          { es: "A minister has resigned after a dispute about expenses.", en: "Un ministro ha dimitido tras una polémica por sus gastos." },
+          { es: "A minister has resigned after a dispute about expenses.", en: "Un ministro renunció tras una polémica por sus gastos." },
           { es: "The Prime Minister is going to visit Madrid.", en: "El primer ministro va a visitar Madrid." },
           { es: "Two people have been arrested after a robbery.", en: "Dos personas han sido detenidas tras un robo." },
           { es: "The union has strongly criticized the pay offer.", en: "El sindicato ha criticado duramente la oferta salarial." },
@@ -2378,7 +2376,7 @@ export const EN_C2_U12: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Dimite la ministra de Salud.",
+        source: "Renuncia la ministra de Salud.",
         answer: "Health minister quits",
         altAnswers: [
           "Health minister resigns",
@@ -2609,7 +2607,7 @@ export const EN_C2_U12: Lesson[] = [
         examples: [
           { es: "Government to curb rent rises", en: "El gobierno pondrá freno a las subidas de los alquileres." },
           { es: "The government is going to limit rent increases.", en: "El gobierno va a limitar las subidas de los alquileres." },
-          { es: "Bank boss quits over pay row", en: "Dimite el jefe del banco por la polémica sobre su sueldo." },
+          { es: "Bank boss quits over pay row", en: "Renuncia el jefe del banco por la polémica sobre su sueldo." },
         ],
         checkpoint: [
           {

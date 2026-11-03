@@ -117,7 +117,7 @@ export const EN_C1_U16_DRILLS: Lesson[] = [
           "colour, center, analyse, traveled",
         ],
         correctIndex: 0,
-        explanation: "American: -or, -er, -yze and a single l. The second set is consistently British; the others mix, as Spanish speakers often do because «color» looks American and «centro» looks British.",
+        explanation: "American: -or, -er, -yze and a single l. \"colour, centre, analyse, travelled\" is consistently British; the other two sets mix, as Spanish speakers often do because «color» looks American and «centro» looks British.",
       },
       {
         type: "multiple-choice",

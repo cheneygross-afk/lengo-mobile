@@ -311,7 +311,7 @@ export const EN_C2_U09_DRILLS: Lesson[] = [
       ),
       dt(
         "Why on earth would anyone pay that much for a sandwich?",
-        "\"On earth\" links to \"why\": /waɪ ɒn ɜːrθ/. Write it as three words, unlike the one-word \"whatever\" or \"whoever\".",
+        "\"On earth\" links to \"why\": /waɪ ɑːn ɜːrθ/. Write it as three words, unlike the one-word \"whatever\" or \"whoever\".",
       ),
       mc(
         "\"Her voice is quite amazing.\" What does \"quite\" mean here?",
@@ -411,7 +411,7 @@ export const EN_C2_U09_DRILLS: Lesson[] = [
       sp(
         "Whoever gave you that idea? It's downright dangerous.",
         "¿Pero quién te dio esa idea? Es francamente peligrosa.",
-        "Stress \"who-\" with a rising, incredulous tone, then \"downright\" and \"dangerous\".",
+        "Stress \"-EV-\" in \"whoever\" with a rising, incredulous tone, then \"downright\" and \"dangerous\".",
         "Emphatic \"whoever\" (one word) shows bafflement, like «¿Pero quién...?», and \"downright\" is the natural intensifier for a negative word like \"dangerous\".",
       ),
       dt(
@@ -430,7 +430,7 @@ export const EN_C2_U09_DRILLS: Lesson[] = [
     "Translate Spanish diminutives, augmentatives and pejoratives by meaning, choose the right negative and precise prefixes and suffixes, place the stress correctly in word families, and combine it all with the unit's exclamations and intensifiers.",
     "Recap: words instead of suffixes",
     [
-      "English has no living -ito or -azo: translate the meaning. Brevity is \"a quick coffee\" or \"just a sec\", warmth is \"nice and warm\", size and affection is \"a lovely little cafe\"; admiration is \"a huge hit\" or \"a flash car\", a blow is usually a verb (\"slam the door\"), and contempt is a word like \"hovel\" or \"bossy\".",
+      "English has no living -ito or -azo: translate the meaning. Brevity is \"a quick coffee\" or \"just a sec\", warmth is \"nice and warm\", size and affection is \"a lovely little cafe\"; admiration is \"a huge hit\" or \"a fancy car\", a blow is usually a verb (\"slam the door\"), and contempt is a word like \"hovel\" or \"bossy\".",
       "Prefixes are chosen word by word (impossible, irresponsible, uncomfortable, dishonest; mis-, counter-, non-, pseudo-), and suffixes often move the stress: PHO-to-graph, pho-TO-gra-pher, pho-to-GRA-phic; a RE-cord, to re-CORD.",
     ],
     [
@@ -708,7 +708,7 @@ export const EN_C2_U09_DRILLS: Lesson[] = [
         "Our photographer took a fantastic photograph of the Japanese garden.",
         "Nuestro fotógrafo tomó una foto fantástica del jardín japonés.",
         "pho-TO-gra-pher, PHO-to-graph, Ja-pa-NESE.",
-        "The suffix \"-er\" does not move the stress, but the family shifts between \"photograph\" and \"photographer\"; \"-ese\" takes the stress itself.",
+        "In this family the stress moves: PHO-to-graph, but pho-TO-gra-pher (like pho-TO-gra-phy); \"-ese\" takes the stress itself.",
       ),
       dt(
         "Unemployment in the industry is a natural consequence of the crisis.",

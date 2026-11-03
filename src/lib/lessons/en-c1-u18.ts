@@ -2243,7 +2243,7 @@ export const EN_C1_U18: Lesson[] = [
           "Social media can possibly perhaps cause depression in teenagers.",
         ],
         correctIndex: 0,
-        explanation: "\"May contribute to\" softens the verb and \"some\" limits the scope. The last option stacks hedges and sounds clumsy.",
+        explanation: "\"May contribute to\" softens the verb and \"some\" limits the scope. \"Can possibly perhaps cause\" stacks hedges and sounds clumsy.",
       },
       {
         type: "fill-blank",
@@ -3455,7 +3455,7 @@ export const EN_C1_U18: Lesson[] = [
           "I shall endeavor to dispatch the aforementioned document.",
         ],
         correctIndex: 0,
-        explanation: "Match the situation: a short, friendly, professional reply. The second and fourth options are absurdly over-formal.",
+        explanation: "Match the situation: a short, friendly, professional reply. \"Attached herewith forthwith\" and \"I shall endeavor to dispatch the aforementioned document\" are absurdly over-formal.",
       },
       {
         type: "fill-blank",
@@ -3765,7 +3765,7 @@ export const EN_C1_U18: Lesson[] = [
               "Maybe, if it's not too much trouble, you could perhaps think about a small refund?",
             ],
             correctIndex: 0,
-            explanation: "Firm and polite: a clear request with \"I would request\" and the formal linker \"therefore\". The last option is so tentative that it undermines the complaint.",
+            explanation: "Firm and polite: a clear request with \"I would request\" and the formal linker \"therefore\". \"Maybe, if it's not too much trouble...\" is so tentative that it undermines the complaint.",
           },
         ],
       },

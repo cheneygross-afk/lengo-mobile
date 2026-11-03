@@ -328,13 +328,13 @@ export const EN_C2_U17_DRILLS: Lesson[] = [
         ["I thank Dr. Chen for drawing my attention to this error.", "I would like to thank Dr. Chen for drawing my attention to this error."],
       ),
       wo(
-        "In English the note number follows the comma",
+        "In English the note number follows the comma.",
         "En inglés la llamada de nota va después de la coma.",
         "English style guides put the superscript number after commas, periods, quotation marks and closing parentheses; the Spanish Academy puts it before. Only a dash comes after the number.",
-        ["The note number follows the comma in English"],
+        ["The note number follows the comma in English."],
       ),
       wo(
-        "This is not to suggest that the editors were careless",
+        "This is not to suggest that the editors were careless.",
         "Con esto no quiero decir que los editores fueran descuidados.",
         "A stock phrase of the discursive footnote: \"This is not to suggest that...\" heads off a misreading of the main text.",
       ),
@@ -612,17 +612,17 @@ export const EN_C2_U17_DRILLS: Lesson[] = [
         "These are false friends and calques: «realizar», «actual», «pretender», «según yo», «nos explica» and «investigaciones» all have different English equivalents from the look-alike words.",
       ),
       wo(
-        "The minister denied that the figures had been altered",
+        "The minister denied that the figures had been altered.",
         "El ministro negó que las cifras se hubieran alterado.",
         "\"Deny that\" + backshifted clause. The passive \"had been altered\" matches «se hubieran alterado».",
       ),
       wo(
-        "What the authors do not explain is why sales fell",
+        "What the authors do not explain is why sales fell.",
         "Lo que los autores no explican es por qué bajaron las ventas.",
         "After a citation, mark where your own comment begins. Note statement order in \"why sales fell\".",
       ),
       wo(
-        "Reviewers praised the author for her careful use of sources",
+        "Reviewers praised the author for her careful use of sources.",
         "Los reseñadores elogiaron a la autora por su uso cuidadoso de las fuentes.",
         "\"Praise X for\" + noun or -ing, like \"criticize X for\" and \"commend X for\".",
       ),

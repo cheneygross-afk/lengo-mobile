@@ -58,7 +58,7 @@ export const EN_C1_U16: Lesson[] = [
               "We took the lift up to our flat.",
             ],
             correctIndex: 0,
-            explanation: "\"Elevator\" and \"apartment\" are both American. The last option is consistently British; the two middle ones mix the standards.",
+            explanation: "\"Elevator\" and \"apartment\" are both American. \"We took the lift up to our flat\" is consistently British; the other two sentences mix the standards.",
           },
         ],
       },
@@ -300,7 +300,7 @@ export const EN_C1_U16: Lesson[] = [
           "The organisation's new center will open in the fall.",
         ],
         correctIndex: 3,
-        explanation: "\"Organisation\" with s is only British, so it clashes with American \"center\" and \"fall\". The third option is fine: British English also accepts -ize.",
+        explanation: "\"Organisation\" with s is only British, so it clashes with American \"center\" and \"fall\". \"The organization's new centre will open in the autumn\" is fine: British English also accepts -ize.",
       },
       {
         type: "translate",
@@ -462,7 +462,7 @@ export const EN_C1_U16: Lesson[] = [
               "The band are recording its new album.",
             ],
             correctIndex: 0,
-            explanation: "A plural verb with a collective noun (\"the band are\") is British. The singular \"the band is... its\" works everywhere. The last option mixes plural verb and singular pronoun, which is inconsistent in any variety.",
+            explanation: "A plural verb with a collective noun (\"the band are\") is British. The singular \"the band is... its\" works everywhere. \"The band are... its\" mixes plural verb and singular pronoun, which is inconsistent in any variety.",
           },
           {
             type: "translate",
@@ -3487,7 +3487,7 @@ export const EN_C1_U16: Lesson[] = [
               "I am somewhat fatigued; however, the matter is minor.",
             ],
             correctIndex: 0,
-            explanation: "\"Knackered\" is British slang and \"not the end of the world\" is an idiom. The third option is informal American; the second and fourth are neutral and formal.",
+            explanation: "\"Knackered\" is British slang and \"not the end of the world\" is an idiom. \"I'm beat, but it's no big deal\" is informal American; \"extremely tired\" is neutral and \"somewhat fatigued\" is formal.",
           },
           {
             type: "translate",
@@ -3678,7 +3678,7 @@ export const EN_C1_U16: Lesson[] = [
           "We are most obliged for your forbearance. The figures shall be dispatched on Thursday.",
         ],
         correctIndex: 0,
-        explanation: "Neutral-professional and American. The second and third are informal British; the fourth is so formal it sounds old-fashioned.",
+        explanation: "Neutral-professional and American. The \"Cheers... mate\" and \"Ta for waiting\" versions are informal British; \"We are most obliged for your forbearance\" is so formal it sounds old-fashioned.",
       },
       {
         type: "translate",
@@ -3801,7 +3801,7 @@ export const EN_C1_U16: Lesson[] = [
         examples: [
           { es: "The tap in the kitchen is dripping.", en: "El grifo de la cocina gotea. (británico)" },
           { es: "The kitchen faucet is dripping.", en: "La llave de la cocina gotea. (americano)" },
-          { es: "Put the leftovers in the fridge and cover them with cling film.", en: "Mete las sobras en la nevera y tápalas con film transparente. (británico)" },
+          { es: "Put the leftovers in the fridge and cover them with cling film.", en: "Mete las sobras en el refrigerador y tápalas con plástico adherente. (británico)" },
           { es: "Can you take out the trash?", en: "¿Puedes sacar la basura? (americano)" },
           { es: "Can you take the rubbish out?", en: "¿Puedes sacar la basura? (británico)" },
           { es: "I'll do the washing-up.", en: "Yo lavo los platos. (británico)" },

@@ -518,8 +518,9 @@ export const EN_C1_U09_DRILLS: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The new bus routes don't ___ of people who work night shifts.",
         answer: "meet the needs",
+        altAnswers: ["satisfy the needs", "cater to the needs"],
         en: "Las nuevas rutas de autobús no [satisfacen las necesidades] de las personas que trabajan de noche.",
-        explanation: "Needs, requirements and expectations are \"met\". *Satisfy the needs is understood, but \"meet the needs of\" is the natural collocation.",
+        explanation: "Needs, requirements and expectations are \"met\". \"Satisfy the needs\" is also correct, but \"meet the needs of\" is the most natural collocation.",
       },
       {
         type: "translate",

@@ -107,6 +107,8 @@ export const EN_C2_U02_DRILLS: Lesson[] = [
           "Business Day means any day other than a Saturday, Sunday or a public holiday.",
           "Business Day means a day other than a Saturday, a Sunday or a public holiday.",
           "Business Day means any day other than Saturday, Sunday or a public holiday.",
+          "Business Day means any day other than a Saturday, Sunday or holiday.",
+          "Business Day means any day other than a Saturday, Sunday or legal holiday.",
           "\"Business Day\" means any day other than a Saturday, Sunday or public holiday.",
         ],
         "Definitions use \"means\" (exhaustive), not *signifies or *will be understood as. «Día hábil» is \"business day\", never *hábil day.",
@@ -476,7 +478,7 @@ export const EN_C2_U02_DRILLS: Lesson[] = [
     [
       "In a lease, check the rent (\"payable in advance\"), the deposit and the \"deductions\" the landlord may make, the break clause (when, how much notice, in what form), \"fair wear and tear\" (normal deterioration, not the tenant's fault) and consent \"not to be unreasonably withheld\".",
       "Fix drafts by checking prepositions (\"responsible for\", \"in accordance with\", \"subject to\", \"comply with\"), keeping \"shall\" for duties only (\"If the Buyer fails to pay\", not *shall fail), replacing \"and/or\" with \"A or B or both\", and avoiding calques like *the present contract. With a lawyer, ask \"What exactly does this commit me to?\" and negotiate tentatively: \"Would they be open to...?\".",
-      "Appeals and complaints state the purpose first (\"I am writing to appeal against...\"), give numbered \"grounds\", cite the rule (\"Under section 5...\"), request a remedy with the subjunctive (\"I request that the fine be cancelled\") and stay firm but courteous: \"I would be grateful if you could...\", \"I will have no option but to...\".",
+      "Appeals and complaints state the purpose first (\"I am writing to appeal against...\"), give numbered \"grounds\", cite the rule (\"Under section 5...\"), request a remedy with the subjunctive (\"I request that the fine be canceled\") and stay firm but courteous: \"I would be grateful if you could...\", \"I will have no option but to...\".",
     ],
     [
       ["The Landlord may deduct any unpaid rent from the deposit.", "El Arrendador podrá descontar de la fianza cualquier renta adeudada."],

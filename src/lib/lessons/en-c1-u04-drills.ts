@@ -120,7 +120,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Can", "I", "use", "your", "charger", "I", "suppose", "so"],
+        words: ["Can", "I", "use", "your", "charger?", "I", "suppose", "so."],
         translation: "¿Puedo usar tu cargador? Supongo que sí.",
         explanation: "\"I suppose so\" is a slightly reluctant yes: «supongo que sí».",
       },
@@ -214,7 +214,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Which", "one", "is", "yours", "The", "one", "by", "the", "window"],
+        words: ["Which", "one", "is", "yours?", "The", "one", "by", "the", "window."],
         translation: "¿Cuál es el tuyo? El de al lado de la ventana.",
         explanation: "«El de» + place is \"the one\" + preposition phrase: \"the one by the window\".",
       },
@@ -384,7 +384,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The prices in this store are higher than ___ online shops.",
+        sentence: "The prices in this store are higher than ___ online stores.",
         answer: "those in",
         altAnswers: ["those of", "those at"],
         en: "Los precios de esta tienda son más altos que [los de las] tiendas en línea.",
@@ -870,7 +870,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Will it be cold in Bogotá? ___.",
+        sentence: "Will it be cold in Bogota? ___.",
         answer: "Probably not",
         en: "¿Va a hacer frío en Bogotá? [Probablemente no].",
         explanation: "Adverb + \"not\": \"Probably not\". *Probably no is a typical Spanish-speaker error.",
@@ -1022,7 +1022,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Are", "you", "going", "to", "apply", "I", "might"],
+        words: ["Are", "you", "going", "to", "apply?", "I", "might."],
         translation: "¿Vas a solicitar el puesto? Puede ser.",
         explanation: "\"I might\" (= I might apply). The modal shows you are not sure.",
       },
@@ -1120,7 +1120,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["I'll", "bring", "a", "salad", "then", "A", "big", "one"],
+        words: ["I'll", "bring", "a", "salad,", "then.", "A", "big", "one."],
         translation: "Entonces llevo una ensalada. ¡Una grande!",
         explanation: "\"A big one\" replaces \"a big salad\": \"one\" with a new adjective.",
       },
@@ -1391,7 +1391,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Stop", "laughing", "Sorry", "I", "can't", "help", "it"],
+        words: ["Stop", "laughing!", "Sorry,", "I", "can't", "help", "it."],
         translation: "¡Deja de reírte! Perdón, no lo puedo evitar.",
         explanation: "\"I can't help it\" needs \"it\": «no lo puedo evitar».",
       },
@@ -1613,7 +1613,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Will", "the", "rent", "go", "up", "again", "I'm", "afraid", "so"],
+        words: ["Will", "the", "rent", "go", "up", "again?", "I'm", "afraid", "so."],
         translation: "¿Va a volver a subir el alquiler? Me temo que sí.",
         explanation: "\"I'm afraid so\" takes \"so\" like think and hope; *I'm afraid it or *I'm afraid yes are calques.",
       },
@@ -1663,7 +1663,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "\"The city banned cars from the old town. ___ angered many shop owners.\" Which is clearest?",
+        question: "\"The city banned cars from the old town. ___ angered many store owners.\" Which is clearest?",
         options: ["This decision", "It", "The last", "Such"],
         correctIndex: 0,
         explanation: "\"This\" + summary noun labels the whole previous idea. \"It\" could mean the city or the old town.",
@@ -2350,7 +2350,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["My", "parents", "don't", "use", "social", "media", "Neither", "do", "mine"],
+        words: ["My", "parents", "don't", "use", "social", "media.", "Neither", "do", "mine."],
         translation: "Mis papás no usan redes sociales. Los míos tampoco.",
         explanation: "\"Neither do mine\" = my parents don't use it either. The subject (\"mine\") follows the auxiliary.",
       },
@@ -2725,7 +2725,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Both theories are interesting, but ___ is easier to test.",
         answer: "the latter",
-        en: "Las dos teorías son interesantes, pero [esta última] es más fácil de comprobar.",
+        en: "Las dos teorías son interesantes, pero [esta última] es más fácil de verificar.",
         explanation: "Unit review: «esta última» (the second of two) is \"the latter\", never *the last.",
       },
       {
@@ -2829,7 +2829,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Is", "she", "still", "clingy", "I'm", "afraid", "so"],
+        words: ["Is", "she", "still", "clingy?", "I'm", "afraid", "so."],
         translation: "¿Sigue siendo tan absorbente? Me temo que sí.",
         explanation: "Unit review: \"I'm afraid so\" for bad news, and \"clingy\" (informal, negative) for a partner who needs too much attention.",
       },

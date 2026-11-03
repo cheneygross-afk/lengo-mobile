@@ -233,10 +233,10 @@ export const EN_C2_U18_DRILLS: Lesson[] = [
         "Key qualifications (\"only for small firms\", \"in the short term\") belong in even a one-sentence summary; dropping one changes the finding.",
       ),
       wo(
-        "Drawing on interviews with 40 farmers, Rojas argues that drought drives farm abandonment",
+        "Drawing on interviews with 40 farmers, Rojas argues that drought drives farm abandonment.",
         "A partir de entrevistas con 40 agricultores, Rojas sostiene que la sequía provoca el abandono de las granjas.",
         "The one-sentence summary template: method or scope (\"Drawing on...\"), author, reporting verb, main claim.",
-        ["Rojas, drawing on interviews with 40 farmers, argues that drought drives farm abandonment"],
+        ["Rojas, drawing on interviews with 40 farmers, argues that drought drives farm abandonment."],
       ),
       mc(
         "«El estado de la cuestión sobre la obesidad infantil es fragmentario.» Which version is correct?",
@@ -324,7 +324,7 @@ export const EN_C2_U18_DRILLS: Lesson[] = [
         "\"By contrast\" starts a new sentence comparing two sources. \"On the contrary\", like «al contrario», contradicts a negative statement just made; \"whereas\" needs a second clause in the same sentence.",
       ),
       wo(
-        "Both studies rely on small samples, yet neither examines older adults",
+        "Both studies rely on small samples, yet neither examines older adults.",
         "Ambos estudios se basan en muestras pequeñas, pero ninguno examina a los adultos mayores.",
         "\"Both..., yet neither...\" points to a shared limitation. \"Neither\" takes a singular verb in formal writing (\"examines\"); *neither examine is marked as an error in academic prose.",
       ),
@@ -624,12 +624,12 @@ export const EN_C2_U18_DRILLS: Lesson[] = [
         "\"By which time\" points to a deadline and usually needs the future perfect (\"will have moved\").",
       ),
       wo(
-        "Whether these effects last beyond one year has yet to be examined",
+        "Whether these effects last beyond one year has yet to be examined.",
         "Aún no se ha estudiado si estos efectos duran más de un año.",
         "A whether-clause can be the subject, followed by the gap formula \"has yet to be examined\".",
       ),
       wo(
-        "The present study extends this line of research to secondary schools",
+        "The present study extends this line of research to secondary schools.",
         "Este estudio amplía esta línea de investigación a las escuelas secundarias.",
         "Positioning the study: \"the present study\", \"extend X to Y\", \"line of research\".",
       ),

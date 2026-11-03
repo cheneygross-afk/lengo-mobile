@@ -299,7 +299,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "What I need is a vacation.", en: "Lo que necesito son unas vacaciones." },
-          { es: "What happened was that the train broke down.", en: "Lo que pasó fue que se averió el tren." },
+          { es: "What happened was that the train broke down.", en: "Lo que pasó fue que se descompuso el tren." },
           { es: "What I like about her is her honesty.", en: "Lo que me gusta de ella es su sinceridad." },
           { es: "The thing I miss most is the food.", en: "Lo que más echo de menos es la comida." },
           { es: "What we need is more volunteers.", en: "Lo que necesitamos son más voluntarios." },
@@ -388,7 +388,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo que pasó fue que se nos averió el carro en la autopista.",
+        source: "Lo que pasó fue que se nos descompuso el carro en la autopista.",
         answer: "What happened was that our car broke down on the highway.",
         altAnswers: [
           "What happened was that our car broke down on the motorway.",
@@ -403,7 +403,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
           "What happened was the car broke down on the motorway.",
           "What happened was the car broke down on the freeway.",
         ],
-        explanation: "\"What happened was (that)...\" introduces the story. «Se nos averió el carro» becomes a normal subject + verb: \"our car broke down\".",
+        explanation: "\"What happened was (that)...\" introduces the story. «Se nos descompuso el carro» becomes a normal subject + verb: \"our car broke down\".",
       },
       {
         type: "fill-blank",
@@ -867,7 +867,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         examples: [
           { es: "It was Tom who booked the hotel, not me.", en: "Fue Tom quien reservó el hotel, no yo." },
           { es: "What we need is a clear plan.", en: "Lo que necesitamos es un plan claro." },
-          { es: "I did lock the door! Go and check.", en: "¡Que sí que cerré la puerta con llave! Ve a comprobarlo." },
+          { es: "I did lock the door! Go and check.", en: "¡Que sí que cerré la puerta con llave! Ve a revisarlo." },
           { es: "Much as I'd like to help, I can't this week.", en: "Aunque me encantaría ayudar, esta semana no puedo." },
           { es: "Never before has the company faced such a challenge.", en: "Nunca antes se ha enfrentado la empresa a semejante reto." },
         ],

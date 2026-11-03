@@ -510,10 +510,10 @@ export const EN_C2_U22_DRILLS: Lesson[] = [
       ),
       fb(
         "Would it be all right if I ___ back to you on Monday?",
-        "came",
+        "got",
         "¿Le parecería bien que le [diera una respuesta] el lunes?",
-        ["got"],
-        "The unreal past after \"Would it be all right if I...\" makes the request more tentative. \"Came back to you\" and \"got back to you\" are both natural.",
+        ["came"],
+        "The unreal past after \"Would it be all right if I...\" makes the request more tentative. \"Got back to you\" is the usual form; British English also says \"came back to you\".",
       ),
       tr(
         "Solo quisiera revisar los detalles antes de darle una respuesta definitiva.",
@@ -831,7 +831,7 @@ export const EN_C2_U22_DRILLS: Lesson[] = [
           "Could you tell me what are the next steps?",
         ],
         0,
-        "Questions about the work and the team impress; perks can wait until the offer. \"No questions\" wastes the chance, and the last option breaks indirect-question word order (\"what the next steps are\").",
+        "Questions about the work and the team impress; perks can wait until the offer. \"No questions\" wastes the chance, and *Could you tell me what are the next steps? breaks indirect-question word order (\"what the next steps are\").",
       ),
       sp(
         "I'm delighted to accept the offer. Just to confirm, the start date will be the third of March.",

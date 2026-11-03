@@ -370,9 +370,9 @@ export const EN_C2_U14_DRILLS: Lesson[] = [
       ),
       tr(
         "Uno de cada tres jubilados vive solo.",
-        "One in three pensioners lives alone.",
+        "One in three retirees lives alone.",
         [
-          "One in three retirees lives alone.",
+          "One in three pensioners lives alone.",
           "One out of three pensioners lives alone.",
           "One out of three retirees lives alone.",
           "One in every three pensioners lives alone.",

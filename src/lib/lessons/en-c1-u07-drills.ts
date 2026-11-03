@@ -958,7 +958,7 @@ export const EN_C1_U07_DRILLS: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Tal como hablamos en la reunión, le envío el presupuesto adjunto.",
-        answer: "As discussed in the meeting, I am sending the budget.",
+        answer: "As discussed in the meeting, I am attaching the budget.",
         altAnswers: [
           "As discussed in the meeting, I am sending the budget as an attachment.",
           "As discussed in the meeting, I am sending the quote.",

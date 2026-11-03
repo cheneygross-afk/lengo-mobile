@@ -28,7 +28,7 @@ export const EN_C2_U26_EXTRA: Lesson[] = [
           },
           {
             es: "It is widely believed that the virus originated in bats.",
-            en: "Se cree ampliamente que el virus se originó en murciélagos.",
+            en: "Se cree generalmente que el virus se originó en murciélagos.",
           },
           {
             es: "It has been suggested that the effect is temporary.",

@@ -255,7 +255,7 @@ export const EN_C1_U05_DRILLS: Lesson[] = [
         "\"Apparently\" reports hearsay («por lo visto»); the «aparentemente» that means «parece, pero quizá no» is \"seemingly\". \"Largely\" limits the scope of a claim.",
       ),
       fb(
-        "___, the airline is going to cancel all its flights to Cancún.",
+        "___, the airline is going to cancel all its flights to Cancun.",
         "Apparently",
         "[Por lo visto], la aerolínea va a cancelar todos sus vuelos a Cancún.",
         ["Reportedly"],
@@ -969,7 +969,7 @@ export const EN_C1_U05_DRILLS: Lesson[] = [
       ),
       sp(
         "I wonder whether we should postpone the training.",
-        "Me pregunto si no deberíamos aplazar la capacitación.",
+        "Me pregunto si no deberíamos posponer la capacitación.",
         "\"Wonder\" sounds like /ˈwʌndər/, not like \"wander\".",
         "\"I wonder whether we should...\" puts a suggestion on the table as a question, which sounds open rather than pushy.",
       ),
@@ -1465,7 +1465,7 @@ export const EN_C1_U05_DRILLS: Lesson[] = [
         "\"Likelihood\" is stressed on the first syllable: /ˈlaɪklihʊd/.",
       ),
       fb(
-        "Chances ___ the shop is already closed.",
+        "Chances ___ the store is already closed.",
         "are",
         "[Lo más probable es que] la tienda ya esté cerrada.",
         [],
@@ -1993,7 +1993,7 @@ export const EN_C1_U05_DRILLS: Lesson[] = [
         "«Estoy constipado.» What should you say in English?",
         ["I've got a cold.", "I'm constipated.", "I'm intoxicated.", "I have a constipation."],
         0,
-        "«Constipado» is \"I've got a cold\". \"Constipated\" means «estreñido», and \"intoxicated\" usually means drunk.",
+        "«Estoy resfriado» (in Spain also «constipado») is \"I've got a cold\". \"Constipated\" means «estreñido», and \"intoxicated\" usually means drunk.",
       ),
       tr(
         "Debe de haber sido una intoxicación alimentaria.",
@@ -2399,7 +2399,7 @@ export const EN_C1_U05_DRILLS: Lesson[] = [
       ),
       sp(
         "In all likelihood, they'll postpone the launch.",
-        "Con toda probabilidad, aplazarán el lanzamiento.",
+        "Con toda probabilidad, pospondrán el lanzamiento.",
         "Pause briefly after \"likelihood\"; stress \"postpone\" on the second syllable.",
         "\"In all likelihood\" is a formal marker of high probability, followed by a normal future.",
       ),

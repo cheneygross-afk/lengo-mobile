@@ -471,7 +471,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["In", "spite", "of", "the", "cold,", "the", "children", "played", "outside", "all", "afternoon."],
-        translation: "A pesar del frío, los niños jugaron fuera toda la tarde.",
+        translation: "A pesar del frío, los niños jugaron afuera toda la tarde.",
         altOrders: [
           ["The", "children", "played", "outside", "all", "afternoon", "in", "spite", "of", "the", "cold."],
         ],
@@ -644,7 +644,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I don't really feel like going out tonight. ___, I'm tired, and it's freezing outside.",
         answer: "I mean",
-        en: "No tengo muchas ganas de salir esta noche. [O sea], estoy cansado y hace un frío que pela.",
+        en: "No tengo muchas ganas de salir esta noche. [O sea], estoy cansado y hace muchísimo frío.",
         explanation: "\"I mean\" explains or expands on what you just said. Never *or be for «o sea».",
       },
       {

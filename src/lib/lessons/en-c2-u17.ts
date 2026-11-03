@@ -1923,7 +1923,7 @@ export const EN_C2_U17: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["The", "report", "calls", "on", "ministers", "to", "resign."],
-        translation: "El informe pide a los ministros que dimitan.",
+        translation: "El informe pide a los ministros que renuncien.",
         explanation: "\"Call on\" + person + to-infinitive. Spanish «pedir a alguien que + subjuntivo» becomes an infinitive in English.",
       },
       {

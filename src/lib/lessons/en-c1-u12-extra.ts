@@ -324,7 +324,7 @@ export const EN_C1_U12_EXTRA: Lesson[] = [
         heading: "Quick recap: distance makes it polite",
         body: [
           "English makes requests softer by stepping back in time and adding tentative words: \"I was wondering if you could...\", \"I was hoping you might...\", \"I wanted to ask...\". The past tense does not refer to the past; it creates polite distance.",
-          "Spanish «quiero» in a shop or restaurant is normal, but \"I want\" sounds demanding in English. Use \"I'd like\", \"Could I have...?\" or, in the US, \"Can I get...?\". In formal situations, \"Can you give me...?\" is also too direct: \"Could you possibly...?\" or \"Would it be possible to...?\" is better.",
+          "Spanish «quiero» in a store or restaurant is normal, but \"I want\" sounds demanding in English. Use \"I'd like\", \"Could I have...?\" or, in the US, \"Can I get...?\". In formal situations, \"Can you give me...?\" is also too direct: \"Could you possibly...?\" or \"Would it be possible to...?\" is better.",
         ],
         examples: [
           { es: "I was wondering if I could leave early on Friday.", en: "Quería preguntarte si podría salir antes el viernes." },

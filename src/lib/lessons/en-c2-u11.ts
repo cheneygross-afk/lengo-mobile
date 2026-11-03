@@ -68,7 +68,7 @@ export const EN_C2_U11: Lesson[] = [
           { es: "His loquacious style wore everyone out.", en: "Su estilo locuaz agotaba a todo el mundo." },
           { es: "The quote was misattributed to Churchill.", en: "La cita se atribuyó erróneamente a Churchill." },
           { es: "Unbeknownst to her, the meeting had been moved.", en: "Sin que ella lo supiera, habían cambiado la reunión de fecha." },
-          { es: "I can't fathom why he resigned.", en: "No logro entender por qué dimitió." },
+          { es: "I can't fathom why he resigned.", en: "No logro entender por qué renunció." },
           { es: "She winced when she saw the bill.", en: "Hizo una mueca de dolor al ver la cuenta." },
         ],
         checkpoint: [
@@ -222,7 +222,7 @@ export const EN_C2_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No logro entender por qué dimitió.",
+        source: "No logro entender por qué renunció.",
         answer: "I can't fathom why he resigned.",
         altAnswers: [
           "I can't fathom why she resigned.",
@@ -237,7 +237,7 @@ export const EN_C2_U11: Lesson[] = [
           "I just can't fathom why he resigned.",
           "I just can't fathom why she resigned.",
         ],
-        explanation: "\"Fathom\" (usually negative: \"can't fathom\") means to understand something puzzling. «Dimitir» is \"resign\", or \"step down\" for a top position.",
+        explanation: "\"Fathom\" (usually negative: \"can't fathom\") means to understand something puzzling. «Renunciar» (Spain: «dimitir») is \"resign\", or \"step down\" for a top position.",
       },
       {
         type: "matching",
@@ -941,7 +941,7 @@ export const EN_C2_U11: Lesson[] = [
         ],
         examples: [
           { es: "She promised to call, and she did.", en: "Prometió llamar, y lo hizo." },
-          { es: "He said he would resign, but he never did so.", en: "Dijo que dimitiría, pero nunca lo hizo." },
+          { es: "He said he would resign, but he never did so.", en: "Dijo que renunciaría, pero nunca lo hizo." },
           { es: "Is she coming? I think so.", en: "¿Viene? Creo que sí." },
           { es: "Will it rain? I hope not.", en: "¿Lloverá? Espero que no." },
           { es: "I'd help you if I could.", en: "Te ayudaría si pudiera." },
@@ -961,7 +961,7 @@ export const EN_C2_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Dijo que dimitiría, pero nunca lo hizo.",
+            source: "Dijo que renunciaría, pero nunca lo hizo.",
             answer: "He said he would resign, but he never did.",
             altAnswers: [
               "He said he would resign, but he never did so.",
@@ -1692,9 +1692,9 @@ export const EN_C2_U11: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Lleva una semana ingresada en el hospital.",
-        answer: "She has been in hospital for a week.",
+        answer: "She has been in the hospital for a week.",
         altAnswers: [
-          "She has been in the hospital for a week.",
+          "She has been in hospital for a week.",
           "She's been in hospital for a week.",
           "She's been in the hospital for a week.",
           "She has been in hospital for a week now.",
@@ -2544,7 +2544,7 @@ export const EN_C2_U11: Lesson[] = [
         ],
         examples: [
           { es: "Having finished the report, she went home.", en: "Una vez terminado el informe, se fue a casa." },
-          { es: "Faced with mounting criticism, the minister resigned.", en: "Ante las crecientes críticas, el ministro dimitió." },
+          { es: "Faced with mounting criticism, the minister resigned.", en: "Ante las crecientes críticas, el ministro renunció." },
           { es: "Written in 1850, the novel still feels modern.", en: "Escrita en 1850, la novela sigue pareciendo moderna." },
           { es: "Not knowing what to say, he stayed silent.", en: "Al no saber qué decir, se quedó callado." },
         ],

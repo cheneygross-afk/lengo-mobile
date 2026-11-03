@@ -1049,7 +1049,7 @@ export const EN_C2_U29: Lesson[] = [
           "Some adjectives change preposition with a person or a thing: \"angry WITH (or at) Ana\" but \"angry ABOUT the decision\"; \"disappointed IN him\" but \"disappointed WITH the result\".",
         ],
         examples: [
-          { es: "She's resentful of her sister's success.", en: "Le guarda rencor al éxito de su hermana." },
+          { es: "She's resentful of her sister's success.", en: "Siente resentimiento por el éxito de su hermana." },
           { es: "I'm a bit apprehensive about the operation.", en: "La operación me inquieta un poco." },
           { es: "I'm fed up with the noise from upstairs.", en: "Estoy harto del ruido de los de arriba." },
           { es: "He's not very keen on spicy food.", en: "No le entusiasma mucho la comida picante." },
@@ -2160,7 +2160,7 @@ export const EN_C2_U29: Lesson[] = [
           { es: "She glared at me across the table.", en: "Me fulminó con la mirada desde el otro lado de la mesa." },
           { es: "He just shrugged and said nothing.", en: "Simplemente se encogió de hombros y no dijo nada." },
           { es: "The kids were fidgeting all through the ceremony.", en: "Los niños no pararon quietos en toda la ceremonia." },
-          { es: "She was pacing up and down the corridor.", en: "Daba vueltas de un lado a otro del pasillo." },
+          { es: "She was pacing up and down the hallway.", en: "Daba vueltas de un lado a otro del pasillo." },
           { es: "He winced when he heard the price.", en: "Hizo una mueca al oír el precio." },
           { es: "\"Not now,\" she snapped.", en: "«Ahora no», le soltó de malos modos." },
         ],

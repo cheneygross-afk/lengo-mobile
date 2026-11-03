@@ -414,7 +414,7 @@ export const EN_C2_U08_DRILLS: Lesson[] = [
       ),
       dt(
         "Just a friendly reminder that the invoice is now two weeks overdue.",
-        "\"Friendly reminder\" sounds soft, but it means «vas tarde». Note \"overdue\", /ˌoʊvərˈduː/.",
+        "\"Friendly reminder\" sounds soft, but it means «tu pago ya está atrasado». Note \"overdue\", /ˌoʊvərˈduː/.",
       ),
       dt(
         "With the greatest respect, I think you've misread the situation.",
@@ -492,7 +492,7 @@ export const EN_C2_U08_DRILLS: Lesson[] = [
         "accessible",
         "El museo está totalmente [adaptado] para usuarios de silla de ruedas.",
         [],
-        "\"Accessible\" is the standard word for entrances, parking and toilets; Spanish «adaptado» is never *adapted or *handicapped here.",
+        "\"Accessible\" is the standard word for entrances, parking and restrooms; Spanish «adaptado» is never *adapted or *handicapped here.",
       ),
       mc(
         "Which sentence follows current inclusive guidance?",
@@ -615,7 +615,7 @@ export const EN_C2_U08_DRILLS: Lesson[] = [
       ),
       kw(
         "BRING",
-        "We have cancelled the project.",
+        "We have canceled the project.",
         "We have decided to ___ to a close.",
         "bring the project",
         ["bring it"],

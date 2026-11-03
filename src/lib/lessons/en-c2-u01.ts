@@ -65,7 +65,7 @@ export const EN_C2_U01: Lesson[] = [
           "Spanish uses demonstratives where English uses these compounds: «la presente», «el presente contrato», «en lo sucesivo», «del mismo». The calque *the present contract is a classic Spanish-speaker error; English says \"this Agreement\" or \"this contract\".",
         ],
         examples: [
-          { es: "I hereby resign from my position as treasurer.", en: "Por la presente dimito de mi cargo de tesorero." },
+          { es: "I hereby resign from my position as treasurer.", en: "Por la presente renuncio a mi cargo de tesorero." },
           { es: "Except as provided herein, no refunds will be given.", en: "Salvo lo dispuesto en el presente documento, no se harán reembolsos." },
           { es: "Atlas Ltd (hereinafter referred to as the Company)", en: "Atlas Ltd (en lo sucesivo, la Empresa)" },
           { es: "The parties hereto agree as follows.", en: "Las partes del presente contrato acuerdan lo siguiente." },
@@ -2408,7 +2408,7 @@ export const EN_C2_U01: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se cree que el director ha dimitido.",
+        source: "Se cree que el director ha renunciado.",
         answer: "The director is believed to have resigned.",
         altAnswers: [
           ...alts(["The director", "The manager"], ["is believed to have resigned.", "is thought to have resigned."]),

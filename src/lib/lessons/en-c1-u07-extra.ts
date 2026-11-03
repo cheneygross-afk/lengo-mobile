@@ -1297,7 +1297,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
           "Test: if you can replace «lo que» with «y eso», use \"which\". If you can replace it with «la cosa que», use \"what\".",
         ],
         examples: [
-          { es: "He resigned, which surprised everyone.", en: "Dimitió, lo que sorprendió a todos." },
+          { es: "He resigned, which surprised everyone.", en: "Renunció, lo que sorprendió a todos." },
           { es: "What surprised everyone was his resignation.", en: "Lo que sorprendió a todos fue su renuncia." },
           { es: "The train was late, which meant we missed the start.", en: "El tren llegó tarde, lo que hizo que nos perdiéramos el principio." },
           { es: "I'll give you everything you need.", en: "Te daré todo lo que necesites." },

@@ -1760,14 +1760,14 @@ export const EN_C1_U02: Lesson[] = [
         heading: "Reflexives, \"by far\", \"such\" and \"so\"",
         body: [
           "An emphatic reflexive stresses that it was that person and nobody else: \"I made it myself\" (= «lo hice yo mismo»), \"The CEO herself called me\" (= «la mismísima directora»). It goes right after the noun or at the end of the clause.",
-          "\"By far\" strengthens a superlative: \"She's by far the best player\" or \"She's the best player by far\" = «con diferencia». Spanish speakers sometimes use \"the most\" as an intensifier (*It was the most beautiful, meaning «fue precioso»). In English, \"the most\" needs a comparison; for plain intensity say \"absolutely beautiful\" or \"so beautiful\".",
+          "\"By far\" strengthens a superlative: \"She's by far the best player\" or \"She's the best player by far\" = «por mucho». Spanish speakers sometimes use \"the most\" as an intensifier (*It was the most beautiful, meaning «fue precioso»). In English, \"the most\" needs a comparison; for plain intensity say \"absolutely beautiful\" or \"so beautiful\".",
           "\"Such (a) + adjective + noun\" and \"so + adjective\": \"It was such a good movie\", \"The movie was so good\". Never *so good film or *a such good film.",
           "Finally, word order with \"very much\": it goes after the object, not between the verb and the object: \"I like coffee very much\", not *I like very much coffee. In formal speech, it can go before a few verbs: \"I very much appreciate it\", \"I'd very much like to\".",
         ],
         examples: [
           { es: "I made it myself.", en: "Lo hice yo mismo." },
           { es: "The CEO herself called me.", en: "Me llamó la mismísima directora general." },
-          { es: "She's by far the best player on the team.", en: "Es, con diferencia, la mejor jugadora del equipo." },
+          { es: "She's by far the best player on the team.", en: "Es, por mucho, la mejor jugadora del equipo." },
           { es: "It was such a good movie.", en: "Fue una película tan buena." },
           { es: "I like this song very much.", en: "Me gusta mucho esta canción." },
           { es: "I'd very much like to meet her.", en: "Me gustaría mucho conocerla." },
@@ -1789,7 +1789,7 @@ export const EN_C1_U02: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Es, con diferencia, el mejor restaurante de la ciudad.",
+            source: "Es, por mucho, el mejor restaurante de la ciudad.",
             answer: "It's by far the best restaurant in the city.",
             altAnswers: [
               "It's by far the best restaurant in town.",
@@ -2235,7 +2235,7 @@ export const EN_C1_U02: Lesson[] = [
           {
             type: "multiple-choice",
             question: "\"Let's watch a horror movie.\" \"I can't stand horror movies.\" Where does the main stress naturally fall in the reply?",
-            options: ["STAND", "FILMS", "I", "HORROR"],
+            options: ["STAND", "MOVIES", "I", "HORROR"],
             correctIndex: 0,
             explanation: "\"Horror movies\" is already given, so it loses its stress. The new information is your reaction: \"I can't STAND horror movies.\"",
           },
@@ -3249,7 +3249,7 @@ export const EN_C1_U02: Lesson[] = [
         examples: [
           { es: "What surprised me was the weather.", en: "Lo que me sorprendió fue el tiempo." },
           { es: "What she did was resign.", en: "Lo que hizo fue renunciar." },
-          { es: "What happened was that the car broke down.", en: "Lo que pasó fue que se averió el carro." },
+          { es: "What happened was that the car broke down.", en: "Lo que pasó fue que se descompuso el carro." },
           { es: "All you have to do is sign.", en: "Lo único que tienes que hacer es firmar." },
         ],
         checkpoint: [
@@ -3659,7 +3659,7 @@ export const EN_C1_U02: Lesson[] = [
           "Includes one other emphatic device (fronting, emphatic do, an intensifier).",
           "No inversion after \"that\" in a cleft.",
         ],
-        modelAnswer: "Never has our town center been as crowded and noisy as it is today. What we need is not another parking lot but streets where people can walk safely. Car-free weekends do work: they have been tried in many European cities, and it is the local shops that benefit most. Popular as driving is, few residents would miss the traffic. Should the council decide to try it, I am convinced that within a year nobody would want to go back.",
+        modelAnswer: "Never has our town center been as crowded and noisy as it is today. What we need is not another parking lot but streets where people can walk safely. Car-free weekends do work: they have been tried in many European cities, and it is the local stores that benefit most. Popular as driving is, few residents would miss the traffic. Should the council decide to try it, I am convinced that within a year nobody would want to go back.",
         explanation: "The model uses negative inversion, a wh-cleft, emphatic do, an it-cleft, concessive fronting and conditional inversion, each in its own sentence.",
       },
     ],

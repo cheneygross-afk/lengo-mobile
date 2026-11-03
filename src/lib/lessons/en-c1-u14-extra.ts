@@ -538,7 +538,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
               "Despite the policy was expensive, it reduced unemployment.",
             ],
             correctIndex: 0,
-            explanation: "The first option changes structure (\"despite\" + noun) and vocabulary while keeping the meaning. The second copies, the third changes the meaning, and the fourth uses \"despite\" with a clause.",
+            explanation: "\"Despite its high cost\" changes structure (\"despite\" + noun) and vocabulary while keeping the meaning. Adding \"a lot\" only copies the original, \"because it reduced unemployment\" changes the meaning, and *Despite the policy was expensive uses \"despite\" with a clause.",
           },
           {
             type: "fill-blank",

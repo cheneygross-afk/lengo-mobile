@@ -26,7 +26,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "The union insists that the agreement be respected.", en: "El sindicato insiste en que se respete el acuerdo." },
-          { es: "They demanded that the minister resign.", en: "Exigieron que el ministro dimitiera. (incorrecto: *resigned)" },
+          { es: "They demanded that the minister resign.", en: "Exigieron que el ministro renunciara. (incorrecto: *resigned)" },
           { es: "It is essential that every patient sign the form.", en: "Es imprescindible que todos los pacientes firmen el formulario." },
           { es: "The doctor recommended that she rest for a week.", en: "El médico le recomendó que descansara una semana." },
           { es: "We asked that our names not be published.", en: "Pedimos que no se publicaran nuestros nombres." },

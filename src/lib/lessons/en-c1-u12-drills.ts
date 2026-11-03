@@ -2807,7 +2807,7 @@ export const EN_C1_U12_DRILLS: Lesson[] = [
           "Heads-up! We're closed Monday for the holiday.",
           "Heads-up! We'll be closed Monday for the holiday.",
         ],
-        explanation: "\"Please be advised that...\" becomes \"Heads-up!\", and the impersonal notice becomes \"we\". The facts stay identical.",
+        explanation: "In a friendly post, «¡Atención!» is \"Heads-up!\" (not *Attention!, which sounds like an announcement), «cerramos» is \"we're closed\" or \"we'll be closed\", and «el feriado» is \"the holiday\".",
       },
       {
         type: "multiple-choice",

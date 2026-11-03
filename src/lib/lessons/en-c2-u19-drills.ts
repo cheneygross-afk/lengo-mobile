@@ -246,6 +246,7 @@ export const EN_C2_U19_DRILLS: Lesson[] = [
         "That I am not going to sign",
         "Eso no lo voy a firmar.",
         "A fronted object leaves an empty gap. Spanish repeats it with «lo»; English has no such pronoun, so nothing follows \"sign\".",
+        ["I am not going to sign that"],
       ),
       mc(
         "«Eso no me lo creo.» Which fronted version is correct?",
@@ -544,15 +545,15 @@ export const EN_C2_U19_DRILLS: Lesson[] = [
         "The negative is already in \"wasn't until\", so the verb after \"that\" is affirmative. Spanish «no nos dimos cuenta» tempts *that we didn't realize.",
       ),
       fb(
-        "Rarely ___ my boss complain about overtime.",
-        "does",
-        "Rara vez se [queja] mi jefa de las horas extra.",
+        "Rarely ___ about overtime.",
+        "does my boss complain",
+        "Rara vez [se queja mi jefa] de las horas extra.",
         [],
         "The auxiliary carries the -s, so the main verb is bare: \"Rarely does my boss complain\". *Rarely does she complains marks the tense twice.",
       ),
       fb(
-        "Seldom ___ we go out on weeknights when the kids were small.",
-        "did",
+        "Seldom ___ out on weeknights when the kids were small.",
+        "did we go",
         "Rara vez [salíamos] entre semana cuando los niños eran pequeños.",
         [],
         "Past tense goes on the auxiliary: \"Seldom did we go\", never *Seldom did we went or *Seldom we went.",
@@ -587,12 +588,12 @@ export const EN_C2_U19_DRILLS: Lesson[] = [
       ),
       wo(
         "Nowhere is this clearer than in our hospitals",
-        "En ningún sitio se ve esto más claro que en nuestros hospitales.",
+        "En ningún lugar se ve esto más claro que en nuestros hospitales.",
         "\"Nowhere\" fronted: \"is\" comes before the subject \"this\".",
       ),
       wo(
         "Never before has the evidence been so clear",
-        "Nunca antes habían sido tan claras las pruebas.",
+        "Nunca antes han sido tan claras las pruebas.",
         "Negative inversion with the present perfect: \"has\" + subject + \"been\". \"Evidence\" is uncountable, so the verb is singular.",
       ),
       tr(
@@ -606,7 +607,7 @@ export const EN_C2_U19_DRILLS: Lesson[] = [
         "A wh-cleft with a contrast: \"What we need is not X but Y\". No \"it\" before \"is\".",
       ),
       dt(
-        "Little did we know that the shop would close the following week.",
+        "Little did we know that the store would close the following week.",
         "\"Little did we know\": auxiliary + subject + base verb after the restrictive \"little\".",
       ),
       lc(
@@ -635,7 +636,7 @@ export const EN_C2_U19_DRILLS: Lesson[] = [
       ),
       sp(
         "Not only did he arrive late, but he also forgot his keys.",
-        "No solo llegó tarde, sino que además se olvidó las llaves.",
+        "No solo llegó tarde, sino que además olvidó las llaves.",
         "Stress \"Not only\" and \"also\"; keep \"did he\" light.",
         "Inversion in the first clause only; the second clause has normal order with \"but... also\".",
       ),
