@@ -13,28 +13,16 @@ export const FR_C2_U09: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Genuine surprise: ça alors !, sans blague !, c'est pas vrai !",
+        heading: "Real surprise, and why it is spoken French",
         body: [
           "Textbook French gives you \"quelle surprise !\", which natives use mostly with a touch of irony. Real surprise sounds like this: \"ça alors !\" (well I never!), \"sans blague !\" (no kidding!), \"c'est pas vrai !\" (no way!), \"pas possible !\", \"non ?!\" and, for scandalised disbelief, \"non mais je rêve !\" (I must be dreaming!). Note that all of them are spoken French: the \"ne\" disappears in \"c'est pas vrai\", and writing \"ce n'est pas vrai !\" in a text message would sound oddly stiff.",
-          "Each one has its own colour. \"Ça alors !\" is pure astonishment, slightly old-fashioned and very warm, the reaction of someone who bumps into an old friend in a foreign station. \"Sans blague ?\" with a rising tone asks for confirmation; with a falling tone it becomes ironic (see the next section). \"Non mais je rêve !\" or \"non mais allô !\" is outrage at something absurd or rude: someone has just pushed in front of you in the queue.",
-          "Intonation does most of the work. A long, rising \"non ?!\" invites the speaker to go on; a short, flat \"non.\" is a refusal. When you listen to French radio or films, pay attention to the melody before the words: the same \"c'est pas vrai\" can be delighted, horrified or exhausted.",
         ],
         examples: [
           { es: "Ça alors ! Karim, qu'est-ce que tu fais à la gare de Lille ?", en: "Well I never! Karim, what are you doing at Lille station?" },
           { es: "Elle a démissionné ? Sans blague !", en: "She's resigned? No kidding!" },
           { es: "C'est pas vrai, tu as eu le poste ? Bravo !", en: "No way, you got the job? Well done!" },
-          { es: "Il m'a doublée dans la file d'attente sans même s'excuser. Non mais je rêve !", en: "He pushed in front of me in the queue without even apologising. Unbelievable!" },
-          { es: "Pas possible, vous vous connaissez depuis l'école primaire ?", en: "You're kidding, you've known each other since primary school?" },
-          { es: "Ils ont repeint toute la façade en violet ? Non ?!", en: "They've painted the whole front purple? They haven't!" },
         ],
         checkpoint: [
-          {
-            type: "multiple-choice",
-            question: "A stranger has just pushed in front of you at the bakery and rolls their eyes when you object. Which reaction fits best?",
-            options: ["Non mais je rêve !", "Ça alors !", "Sans blague ?", "Quelle bonne surprise !"],
-            correctIndex: 0,
-            explanation: "\"Non mais je rêve !\" expresses outraged disbelief at rudeness. \"Ça alors !\" is wonder, and \"sans blague ?\" asks for confirmation of news.",
-          },
           {
             type: "translate",
             direction: "en-es",
@@ -55,20 +43,54 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Ironic disbelief: tu m'étonnes !, mon œil !, ben voyons !, tu parles !",
+        heading: "Each exclamation has its colour",
+        body: [
+          "Each one has its own colour. \"Ça alors !\" is pure astonishment, slightly old-fashioned and very warm, the reaction of someone who bumps into an old friend in a foreign station. \"Sans blague ?\" with a rising tone asks for confirmation; with a falling tone it becomes ironic (see the next section). \"Non mais je rêve !\" or \"non mais allô !\" is outrage at something absurd or rude: someone has just pushed in front of you in the queue.",
+        ],
+        examples: [
+          { es: "Il m'a doublée dans la file d'attente sans même s'excuser. Non mais je rêve !", en: "He pushed in front of me in the queue without even apologising. Unbelievable!" },
+          { es: "Pas possible, vous vous connaissez depuis l'école primaire ?", en: "You're kidding, you've known each other since primary school?" },
+          { es: "Ça alors ! Je ne t'avais pas reconnue avec cette coupe.", en: "Well I never! I didn't recognise you with that haircut." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A stranger has just pushed in front of you at the bakery and rolls their eyes when you object. Which reaction fits best?",
+            options: ["Non mais je rêve !", "Ça alors !", "Sans blague ?", "Quelle bonne surprise !"],
+            correctIndex: 0,
+            explanation: "\"Non mais je rêve !\" expresses outraged disbelief at rudeness. \"Ça alors !\" is wonder, and \"sans blague ?\" asks for confirmation of news.",
+          },
+        ],
+      },
+      {
+        heading: "Intonation does most of the work",
+        body: [
+          "Intonation does most of the work. A long, rising \"non ?!\" invites the speaker to go on; a short, flat \"non.\" is a refusal. When you listen to French radio or films, pay attention to the melody before the words: the same \"c'est pas vrai\" can be delighted, horrified or exhausted.",
+        ],
+        examples: [
+          { es: "Ils ont repeint toute la façade en violet ? Non ?!", en: "They've painted the whole front purple? They haven't!" },
+          { es: "Non ?! Raconte-moi tout, je t'écoute.", en: "They haven't! Tell me everything, I'm listening." },
+          { es: "C'est pas vrai... j'ai encore perdu mon badge.", en: "Oh no... I've lost my badge again." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Someone says « Non ?! » with a long rising tone after your news. What are they doing?",
+            options: ["Inviting you to tell them more.", "Refusing what you have said.", "Correcting you.", "Ending the conversation."],
+            correctIndex: 0,
+            explanation: "A long, rising \"non ?!\" is astonished encouragement: go on. A short, flat \"non.\" is the refusal.",
+          },
+        ],
+      },
+      {
+        heading: "Tu m'étonnes: irony number one",
         body: [
           "This is where advanced learners get caught. Several common exclamations say the opposite of their literal meaning. \"Tu m'étonnes !\" literally 'you surprise me', almost always means 'no surprise there, obviously': \"Il est fatigué après trois nuits blanches. – Tu m'étonnes !\" It is complicit agreement, not astonishment.",
-          "\"Mon œil !\" (my eye!) means 'I don't believe a word of it', a bit like English 'my foot!' or 'yeah, right'. \"Ben voyons !\" (well, of course!) is sarcastic: you pretend to accept a claim that is outrageous or self-serving. \"Tu parles !\" is dismissive: 'you must be joking', 'some chance'. \"Tu parles d'un ami !\" means 'some friend he is!'.",
-          "Because they are ironic, they need context and a knowing tone; said flatly to a stranger they can sound rude. With people you call \"vous\", the forms exist (\"vous parlez !\", \"vous m'étonnez !\"), but they are rarer and sound pointed. Also note \"je veux !\" (and how!) and \"un peu !\" (I'll say!), which agree strongly by understatement.",
         ],
         examples: [
           { es: "Elle est épuisée après le déménagement. – Tu m'étonnes ! Quatre étages sans ascenseur.", en: "She's exhausted after the move. – No wonder! Four floors with no lift." },
-          { es: "Il dit qu'il était malade lundi ? Mon œil ! Je l'ai vu au match.", en: "He says he was ill on Monday? My foot! I saw him at the match." },
-          { es: "Le patron veut qu'on reste jusqu'à vingt heures, bénévolement bien sûr. Ben voyons !", en: "The boss wants us to stay till eight, unpaid of course. Oh, naturally!" },
-          { es: "Tu crois qu'il va rembourser ? Tu parles ! Il ne m'a jamais rien rendu.", en: "You think he'll pay it back? Fat chance! He's never given me anything back." },
-          { es: "Tu parles d'une soirée ! On s'est ennuyés à mourir.", en: "Some party that was! We were bored to death." },
-          { es: "Ça t'a plu, le concert ? – Un peu ! J'y retournerais demain.", en: "Did you like the concert? – I'll say! I'd go back tomorrow." },
-          { es: "Tu as envie de partir en vacances ? – Je veux !", en: "Do you fancy a holiday? – Do I ever!" },
+          { es: "Il a mal au dos ? Tu m'étonnes, il porte des caisses toute la journée.", en: "His back hurts? No wonder, he carries crates all day." },
+          { es: "Elle a eu une amende ? Tu m'étonnes, elle roule comme une folle.", en: "She got a fine? Hardly surprising, she drives like a maniac." },
         ],
         checkpoint: [
           {
@@ -78,6 +100,20 @@ export const FR_C2_U09: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Tu m'étonnes !\" is ironic: it means 'no wonder', the opposite of its literal sense.",
           },
+        ],
+      },
+      {
+        heading: "Mon œil, ben voyons, tu parles",
+        body: [
+          "\"Mon œil !\" (my eye!) means 'I don't believe a word of it', a bit like English 'my foot!' or 'yeah, right'. \"Ben voyons !\" (well, of course!) is sarcastic: you pretend to accept a claim that is outrageous or self-serving. \"Tu parles !\" is dismissive: 'you must be joking', 'some chance'. \"Tu parles d'un ami !\" means 'some friend he is!'.",
+        ],
+        examples: [
+          { es: "Il dit qu'il était malade lundi ? Mon œil ! Je l'ai vu au match.", en: "He says he was ill on Monday? My foot! I saw him at the match." },
+          { es: "Le patron veut qu'on reste jusqu'à vingt heures, bénévolement bien sûr. Ben voyons !", en: "The boss wants us to stay till eight, unpaid of course. Oh, naturally!" },
+          { es: "Tu crois qu'il va rembourser ? Tu parles ! Il ne m'a jamais rien rendu.", en: "You think he'll pay it back? Fat chance! He's never given me anything back." },
+          { es: "Tu parles d'une soirée ! On s'est ennuyés à mourir.", en: "Some party that was! We were bored to death." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -99,19 +135,36 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Swearing by register: mince, zut, punaise, la vache",
+        heading: "When irony works, and the strong yes",
+        body: [
+          "Because they are ironic, they need context and a knowing tone; said flatly to a stranger they can sound rude. With people you call \"vous\", the forms exist (\"vous parlez !\", \"vous m'étonnez !\"), but they are rarer and sound pointed. Also note \"je veux !\" (and how!) and \"un peu !\" (I'll say!), which agree strongly by understatement.",
+        ],
+        examples: [
+          { es: "Ça t'a plu, le concert ? – Un peu ! J'y retournerais demain.", en: "Did you like the concert? – I'll say! I'd go back tomorrow." },
+          { es: "Tu as envie de partir en vacances ? – Je veux !", en: "Do you fancy a holiday? – Do I ever!" },
+          { es: "Vous m'étonnez ! Avec ce budget, personne n'aurait réussi.", en: "You surprise me! With that budget, nobody would have managed." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Are you coming to the beach with us? – Do I ever!",
+            answer: "Tu viens à la plage avec nous ? – Je veux !",
+            altAnswers: ["Vous venez à la plage avec nous ? – Je veux !", "Tu viens à la plage avec nous ? – Un peu !", "Vous venez à la plage avec nous ? – Un peu !", "Tu viens à la plage avec nous ? – Et comment !", "Vous venez à la plage avec nous ? – Et comment !"],
+            explanation: "\"Je veux !\" and \"un peu !\" are enthusiastic yeses by understatement. \"Mon œil\" or \"ben voyons\" would express disbelief instead.",
+          },
+        ],
+      },
+      {
+        heading: "The bottom rung: mince, zut, punaise",
         body: [
           "French has a whole ladder of mild oaths, and choosing the rung is part of sounding native. At the bottom, acceptable in front of children and in the office: \"mince !\" and \"zut !\" (bother!, drat!), \"oh là là !\", and the regional or slightly playful \"punaise !\" (literally 'drawing pin') and \"purée !\" (literally 'mash', a polite stand-in in the south). \"Mince alors !\" and \"zut alors !\" sound a little old-fashioned and comic.",
-          "One rung up: \"la vache !\" (wow!, crikey!) for amazement, positive or negative, and \"flûte !\". These are familiar but not offensive. Above them come the real swear words that you will hear constantly in films and in the street, \"merde !\" and \"putain !\". Learn to recognise them; \"merde\" is vulgar but very common among friends, while \"putain\" ranges from punctuation in southern speech to genuinely offensive. As a non-native speaker, overusing them sounds forced rather than fluent.",
-          "Many polite oaths are euphemisms that replace the first syllable of a ruder word: \"mince\" and \"miel\" stand in for \"merde\", \"punaise\" and \"purée\" for \"putain\", just as English says 'shoot' or 'fudge'. \"Merde\" also has a positive use in the theatre: you say it to an actor before the show, as English says 'break a leg'.",
         ],
         examples: [
           { es: "Mince, j'ai oublié mes clés au bureau.", en: "Drat, I've left my keys at the office." },
           { es: "Zut, il pleut encore et je n'ai pas de parapluie.", en: "Bother, it's raining again and I haven't got an umbrella." },
           { es: "Punaise, le train est encore annulé !", en: "Blast, the train's been cancelled again!" },
-          { es: "La vache ! Tu as vu la taille de ce gâteau ?", en: "Crikey! Have you seen the size of that cake?" },
-          { es: "Purée, qu'est-ce qu'il fait chaud aujourd'hui !", en: "Gosh, it's hot today!" },
-          { es: "Tu passes l'audition demain ? Je te dis merde !", en: "Your audition is tomorrow? Break a leg!" },
         ],
         checkpoint: [
           {
@@ -132,11 +185,54 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Zut, j'ai raté le bus.", "Mince, j'ai loupé le bus.", "Zut, j'ai loupé le bus.", "Mince, j'ai manqué le bus.", "Zut, j'ai manqué le bus.", "Punaise, j'ai raté le bus."],
             explanation: "\"Mince\" or \"zut\" is the polite, everyday 'drat'. \"Rater\" or \"louper\" le bus is the natural verb for missing it.",
           },
+        ],
+      },
+      {
+        heading: "One rung up: la vache, and the real ones",
+        body: [
+          "One rung up: \"la vache !\" (wow!, crikey!) for amazement, positive or negative, and \"flûte !\". These are familiar but not offensive. Above them come the real swear words that you will hear constantly in films and in the street, \"merde !\" and \"putain !\". Learn to recognise them; \"merde\" is vulgar but very common among friends, while \"putain\" ranges from punctuation in southern speech to genuinely offensive. As a non-native speaker, overusing them sounds forced rather than fluent.",
+        ],
+        examples: [
+          { es: "La vache ! Tu as vu la taille de ce gâteau ?", en: "Crikey! Have you seen the size of that cake?" },
+          { es: "Flûte, j'ai laissé mon badge dans la voiture.", en: "Blast, I've left my badge in the car." },
+          { es: "La vache, il a fait ça en deux heures !", en: "Crikey, he did that in two hours!" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "You are presenting to clients and your laptop dies. Which reaction is safe?",
+            options: ["Mince !", "Putain !", "Merde !", "J'en ai plein le dos !"],
+            correctIndex: 0,
+            explanation: "\"Mince\" (like \"zut\") is office-safe. \"Merde\" is vulgar though common among friends, \"putain\" can be genuinely offensive, and the fourth is a familiar complaint.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Crikey, that's expensive!",
+            answer: "La vache, c'est cher !",
+            altAnswers: ["La vache, qu'est-ce que c'est cher !", "La vache, c'est hors de prix !", "La vache, que c'est cher !", "La vache, ce que c'est cher !"],
+            explanation: "\"La vache !\" is familiar amazement, stronger than \"oh là là\" but not vulgar.",
+          },
+        ],
+      },
+      {
+        heading: "Oaths that hide a ruder word",
+        body: [
+          "Many polite oaths are euphemisms that replace the first syllable of a ruder word: \"mince\" and \"miel\" stand in for \"merde\", \"punaise\" and \"purée\" for \"putain\", just as English says 'shoot' or 'fudge'. \"Merde\" also has a positive use in the theatre: you say it to an actor before the show, as English says 'break a leg'.",
+        ],
+        examples: [
+          { es: "Purée, qu'est-ce qu'il fait chaud aujourd'hui !", en: "Gosh, it's hot today!" },
+          { es: "Tu passes l'audition demain ? Je te dis merde !", en: "Your audition is tomorrow? Break a leg!" },
+          { es: "Miel ! J'ai appuyé sur le mauvais bouton.", en: "Sugar! I pressed the wrong button." },
+        ],
+        checkpoint: [
           {
             type: "speak",
-            text: "La vache ! Tu as vu la taille de ce gâteau ?",
+            text: "La vache ! Ils ont repeint toute la cuisine en une journée.",
             tip: "Stretch the first syllable of vache to show amazement.",
-            explanation: "\"La vache !\" is a familiar but inoffensive exclamation of amazement.",
+            explanation: "\"La vache !\" is amazement, positive or negative; familiar but not offensive.",
+            prompt: "Say it in French, impressed: Crikey! They've repainted the whole kitchen in a day.",
           },
         ],
       },
@@ -182,15 +278,6 @@ export const FR_C2_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Are you coming to the beach with us? – Do I ever!",
-        answer: "Tu viens à la plage avec nous ? – Je veux !",
-        altAnswers: ["Vous venez à la plage avec nous ? – Je veux !", "Tu viens à la plage avec nous ? – Un peu !", "Vous venez à la plage avec nous ? – Un peu !", "Tu viens à la plage avec nous ? – Et comment !", "Vous venez à la plage avec nous ? – Et comment !"],
-        explanation: "\"Je veux !\" and \"un peu !\" are enthusiastic yeses by understatement. \"Mon œil\" or \"ben voyons\" would express disbelief instead.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
         source: "Bother, the shop is already closed.",
         answer: "Zut, le magasin est déjà fermé.",
         altAnswers: ["Mince, le magasin est déjà fermé.", "Zut, la boutique est déjà fermée.", "Mince, la boutique est déjà fermée.", "Punaise, le magasin est déjà fermé."],
@@ -216,15 +303,6 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "\"Non mais je rêve !\" expresses outrage at something absurd or rude.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Crikey, that's expensive!",
-        answer: "La vache, c'est cher !",
-        altAnswers: ["La vache, qu'est-ce que c'est cher !", "La vache, c'est hors de prix !", "La vache, que c'est cher !", "La vache, ce que c'est cher !"],
-        explanation: "\"La vache !\" is familiar amazement, stronger than \"oh là là\" but not vulgar.",
-      },
-      {
         type: "listen-choose",
         audio: "Tu crois qu'il va venir ? Tu parles !",
         question: "What does the speaker think?",
@@ -234,14 +312,31 @@ export const FR_C2_U09: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Sans blague, elle a démissionné ?",
-        explanation: "\"Sans blague\" asks for confirmation of surprising news; \"démissionner\" is to resign.",
+        audio: "Ça alors, ils se connaissent depuis l'école primaire !",
+        explanation: "\"Ça alors\" is warm astonishment, the reaction to a coincidence.",
       },
       {
         type: "speak",
         text: "Il dit qu'il était malade ? Mon œil !",
         prompt: "Say it in French: He says he was ill? My foot!",
         explanation: "\"Mon œil !\" dismisses an excuse you don't believe.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite the reply as a complicit « no wonder » exclamation.",
+        source: "Il est fatigué après trois nuits blanches. – Ce n'est pas étonnant.",
+        answer: "Il est fatigué après trois nuits blanches. – Tu m'étonnes !",
+        altAnswers: ["Il est fatigué après trois nuits blanches. – Tu m'étonnes !"],
+        explanation: "\"Tu m'étonnes !\" says the opposite of its words: it means that is hardly surprising, and it makes you the other person's ally.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Sans blague, tu as rencontré le président ? Je n'arrive pas y croire !",
+        answer: "Sans blague, tu as rencontré le président ? Je n'arrive pas à y croire !",
+        explanation: "\"Arriver à\" + infinitive needs its preposition: \"je n'arrive pas à y croire\". The exclamation itself is correct.",
       },
     ],
   },
@@ -254,19 +349,14 @@ export const FR_C2_U09: Lesson[] = [
     duration: "16 min",
     sections: [
       {
-        heading: "Refusing and agreeing: pas question !, et comment !",
+        heading: "Remember the rule: store them by function",
         body: [
           "A useful way to store exclamations is by function rather than by meaning. Start with the two poles. To refuse flatly: \"pas question !\", \"(c'est) hors de question !\", \"jamais de la vie !\", \"il n'en est pas question\". \"Hors de question\" is the most formal and works at work too (\"il est hors de question que nous signions\", with the subjunctive). \"Jamais de la vie !\" is emphatic and emotional: 'not on your life!'.",
-          "To agree strongly: \"et comment !\" (and how!), \"carrément !\" (totally!, colloquial and youthful), \"tu l'as dit !\" (you said it!), \"tout à fait !\", \"exactement !\", \"absolument !\". \"Et comment !\" answers a question that underestimates something: \"Tu étais content ? – Et comment !\". \"Carrément\" has become a generic enthusiastic yes; in a business email it would be too casual, where \"tout à fait\" or \"absolument\" belong.",
-          "Learners often confuse \"tu l'as dit\" with 'you told it'. It is set agreement with what the other person has just said, often with a sigh: \"C'est la galère, ces travaux. – Tu l'as dit !\". The vous form, \"vous l'avez dit\", is perfectly usable with a colleague.",
         ],
         examples: [
           { es: "Prêter ma voiture à ton cousin ? Pas question !", en: "Lend my car to your cousin? No way!" },
           { es: "Il est hors de question que nous acceptions ces conditions.", en: "It is out of the question that we accept these conditions." },
           { es: "Moi, sauter en parachute ? Jamais de la vie !", en: "Me, go skydiving? Not on your life!" },
-          { es: "Tu as aimé le film ? – Et comment ! Je l'ai vu deux fois.", en: "Did you like the film? – And how! I've seen it twice." },
-          { es: "On commande des pizzas ce soir ? – Carrément !", en: "Shall we order pizzas tonight? – Totally!" },
-          { es: "Ces réunions du lundi sont interminables. – Vous l'avez dit !", en: "These Monday meetings go on forever. – You can say that again!" },
         ],
         checkpoint: [
           {
@@ -288,18 +378,64 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Resignation: tant pis, bon ben..., qu'est-ce que tu veux",
+        heading: "Agreeing strongly",
+        body: [
+          "To agree strongly: \"et comment !\" (and how!), \"carrément !\" (totally!, colloquial and youthful), \"tu l'as dit !\" (you said it!), \"tout à fait !\", \"exactement !\", \"absolument !\". \"Et comment !\" answers a question that underestimates something: \"Tu étais content ? – Et comment !\". \"Carrément\" has become a generic enthusiastic yes; in a business email it would be too casual, where \"tout à fait\" or \"absolument\" belong.",
+        ],
+        examples: [
+          { es: "Tu as aimé le film ? – Et comment ! Je l'ai vu deux fois.", en: "Did you like the film? – And how! I've seen it twice." },
+          { es: "On commande des pizzas ce soir ? – Carrément !", en: "Shall we order pizzas tonight? – Totally!" },
+          { es: "Vous êtes d'accord avec cette analyse ? – Tout à fait.", en: "Do you agree with that analysis? – Absolutely." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Were you scared? – And how!",
+            answer: "Tu as eu peur ? – Et comment !",
+            altAnswers: ["Vous avez eu peur ? – Et comment !", "T'as eu peur ? – Et comment !", "Est-ce que tu as eu peur ? – Et comment !", "As-tu eu peur ? – Et comment !"],
+            explanation: "\"Et comment !\" agrees emphatically with a question that understates something.",
+          },
+          {
+            type: "multiple-choice",
+            question: "Which answer belongs in a reply to a client's email?",
+            options: ["Absolument, nous livrerons avant le 15.", "Carrément, on livre avant le 15.", "Et comment, on livre avant le 15 !", "Tu l'as dit, avant le 15 !"],
+            correctIndex: 0,
+            explanation: "\"Absolument\" and \"tout à fait\" are the written, professional strong yes. \"Carrément\" is youthful slang, and the last two are spoken agreement between friends.",
+          },
+        ],
+      },
+      {
+        heading: "Tu l'as dit: agreeing with a sigh",
+        body: [
+          "Learners often confuse \"tu l'as dit\" with 'you told it'. It is set agreement with what the other person has just said, often with a sigh: \"C'est la galère, ces travaux. – Tu l'as dit !\". The vous form, \"vous l'avez dit\", is perfectly usable with a colleague.",
+        ],
+        examples: [
+          { es: "Ces réunions du lundi sont interminables. – Vous l'avez dit !", en: "These Monday meetings go on forever. – You can say that again!" },
+          { es: "C'est la galère, ces travaux. – Tu l'as dit !", en: "These roadworks are a nightmare. – You said it!" },
+          { es: "Les transports sont de plus en plus chers. – Vous l'avez dit.", en: "Transport is more and more expensive. – You can say that again." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "This heat is unbearable. – [You said it!]",
+            sentence: "Cette chaleur est insupportable. – ___",
+            answer: "Tu l'as dit !",
+            altAnswers: ["Tu l'as dit", "Vous l'avez dit !", "Vous l'avez dit", "À qui le dis-tu !", "À qui le dites-vous !"],
+            explanation: "\"Tu l'as dit !\" is set agreement; \"à qui le dis-tu !\" (who are you telling!) is a close equivalent.",
+          },
+        ],
+      },
+      {
+        heading: "Tant pis, tant mieux",
         body: [
           "French has a rich vocabulary of shrugging. \"Tant pis\" (never mind, too bad) accepts a loss: \"Il n'y a plus de place ? Tant pis, on ira demain.\" Its opposite, \"tant mieux\" (so much the better), welcomes good news. \"Tant pis pour lui\" means 'that's his problem': it can be harsh.",
-          "\"Bon ben...\" (well then...) marks resignation and moves the conversation on, typically before a decision: \"Bon ben, on rentre.\" \"Qu'est-ce que tu veux (que j'y fasse) ?\" or \"que veux-tu ?\" means 'what can you do?' and is the classic sigh in the face of fate. Add \"c'est la vie\" and \"on fait avec\" (we make do), and you have the whole Gallic shrug.",
-          "\"Ce n'est pas grave\" (it doesn't matter) reassures someone who apologises; it is not resignation but kindness. Note the false friend: \"grave\" here means serious, and in youth slang \"grave\" is also an intensifier (\"il est grave sympa\", he's seriously nice).",
         ],
         examples: [
           { es: "Le musée est fermé le mardi ? Tant pis, on ira au parc.", en: "The museum is closed on Tuesdays? Never mind, we'll go to the park." },
           { es: "Il a raté son train ? Tant pis pour lui, il n'avait qu'à partir plus tôt.", en: "He missed his train? His own fault, he should have left earlier." },
-          { es: "Bon ben, puisqu'il pleut, on reste à la maison.", en: "Well then, since it's raining, we'll stay at home." },
-          { es: "Les prix augmentent encore, qu'est-ce que tu veux.", en: "Prices are going up again, what can you do." },
-          { es: "Pas de vacances cette année, on fait avec.", en: "No holiday this year, we'll make do." },
           { es: "Le concert est reporté ? Tant mieux, je ne pouvais pas venir samedi.", en: "The concert's been postponed? Just as well, I couldn't come on Saturday." },
         ],
         checkpoint: [
@@ -313,15 +449,6 @@ export const FR_C2_U09: Lesson[] = [
             explanation: "\"Tant pis\" accepts a disappointment and moves on; \"tant mieux\" would welcome good news.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "The rent is going up again, [what can you do].",
-            sentence: "Le loyer augmente encore, ___.",
-            answer: "qu'est-ce que tu veux",
-            altAnswers: ["qu'est-ce que vous voulez", "que veux-tu", "que voulez-vous", "c'est la vie"],
-            explanation: "\"Qu'est-ce que tu veux\" (or \"que veux-tu\") is the resigned shrug: nothing can be done.",
-          },
-          {
             type: "listen-choose",
             audio: "Tant mieux, je ne pouvais pas venir.",
             question: "How does the speaker feel about the news?",
@@ -332,20 +459,56 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Complaint and relief: j'en ai marre !, ras-le-bol !, ouf !",
+        heading: "Bon ben, qu'est-ce que tu veux",
+        body: [
+          "\"Bon ben...\" (well then...) marks resignation and moves the conversation on, typically before a decision: \"Bon ben, on rentre.\" \"Qu'est-ce que tu veux (que j'y fasse) ?\" or \"que veux-tu ?\" means 'what can you do?' and is the classic sigh in the face of fate. Add \"c'est la vie\" and \"on fait avec\" (we make do), and you have the whole Gallic shrug.",
+        ],
+        examples: [
+          { es: "Bon ben, puisqu'il pleut, on reste à la maison.", en: "Well then, since it's raining, we'll stay at home." },
+          { es: "Les prix augmentent encore, qu'est-ce que tu veux.", en: "Prices are going up again, what can you do." },
+          { es: "Pas de vacances cette année, on fait avec.", en: "No holiday this year, we'll make do." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The rent is going up again, [what can you do].",
+            sentence: "Le loyer augmente encore, ___.",
+            answer: "qu'est-ce que tu veux",
+            altAnswers: ["qu'est-ce que vous voulez", "que veux-tu", "que voulez-vous", "c'est la vie"],
+            explanation: "\"Qu'est-ce que tu veux\" (or \"que veux-tu\") is the resigned shrug: nothing can be done.",
+          },
+        ],
+      },
+      {
+        heading: "Ce n'est pas grave, and the slang « grave »",
+        body: [
+          "\"Ce n'est pas grave\" (it doesn't matter) reassures someone who apologises; it is not resignation but kindness. Note the false friend: \"grave\" here means serious, and in youth slang \"grave\" is also an intensifier (\"il est grave sympa\", he's seriously nice).",
+        ],
+        examples: [
+          { es: "Je suis désolée pour le retard. – Ce n'est pas grave, entrez.", en: "I'm sorry I'm late. – It doesn't matter, come in." },
+          { es: "Ton frère est grave sympa.", en: "Your brother is seriously nice. (youth slang)" },
+          { es: "Ne t'inquiète pas, ce n'est pas grave du tout.", en: "Don't worry, it doesn't matter at all." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A guest apologises for breaking a glass. What do you say?",
+            options: ["Ce n'est pas grave, je vais chercher un torchon.", "Tant pis pour vous.", "Y en a marre !", "Qu'est-ce que vous voulez que j'y fasse ?"],
+            correctIndex: 0,
+            explanation: "\"Ce n'est pas grave\" reassures. \"Tant pis pour vous\" blames the guest, and the other two are complaint and resignation.",
+          },
+        ],
+      },
+      {
+        heading: "J'en ai marre: the complaint kit",
         body: [
           "Complaining is something of a national sport, and the language is well equipped for it. \"J'en ai marre !\" (I'm fed up!) is the everyday form; \"j'en ai marre de + noun / infinitive\" says what of: \"j'en ai marre de ce bruit\", \"j'en ai marre d'attendre\". Synonyms in the same familiar register: \"j'en ai ma claque\", \"j'en ai ras le bol\", \"j'en ai plein le dos\"; the vulgar version is \"j'en ai plein le cul\".",
-          "\"Y en a marre !\" (spoken form of \"il y en a marre\") is collective: everyone has had enough, the slogan of strikes and demonstrations. \"Ras-le-bol !\" (fed up to the brim) is also a noun: \"le ras-le-bol des usagers\" is the commuters' exasperation, a phrase you will meet in newspapers.",
-          "When the trouble is over: \"ouf !\" (phew!), \"enfin !\" (at last!), \"on l'a échappé belle\" (that was a close shave), \"quel soulagement !\". Note \"enfin\" also corrects or softens (\"il est sympa, enfin, la plupart du temps\"), so the exclamation mark and the intonation matter.",
         ],
         examples: [
           { es: "J'en ai marre de ces embouteillages tous les matins.", en: "I'm fed up with these traffic jams every morning." },
           { es: "J'en ai ras le bol d'attendre ses réponses.", en: "I'm sick of waiting for his answers." },
-          { es: "Les cheminots sont dans la rue : « Y en a marre ! »", en: "The railway workers are out on the streets: 'We've had enough!'" },
-          { es: "Le ras-le-bol des habitants face aux travaux est palpable.", en: "The residents' exasperation with the roadworks is palpable." },
-          { es: "Ouf, on a eu le dernier train !", en: "Phew, we caught the last train!" },
-          { es: "Enfin ! Ça fait une heure qu'on t'attend.", en: "At last! We've been waiting for you for an hour." },
-          { es: "La voiture a freiné à temps : on l'a échappé belle.", en: "The car braked in time: that was a close shave." },
+          { es: "J'en ai ma claque de ces réunions qui ne décident rien.", en: "I've had it with these meetings that decide nothing." },
         ],
         checkpoint: [
           {
@@ -358,11 +521,53 @@ export const FR_C2_U09: Lesson[] = [
             explanation: "\"En avoir marre de\" + infinitive. The \"en\" is fixed: never \"*j'ai marre\".",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite the refusal in a formal register.",
+            source: "Baisser le prix ? Jamais de la vie !",
+            answer: "Il est hors de question de baisser le prix.",
+            altAnswers: ["Il est hors de question que nous baissions le prix.", "Il n'en est pas question : nous ne baisserons pas le prix."],
+            explanation: "\"Hors de question\" works at work and in writing; \"jamais de la vie\" is emotional and spoken.",
+          },
+        ],
+      },
+      {
+        heading: "Y en a marre, le ras-le-bol",
+        body: [
+          "\"Y en a marre !\" (spoken form of \"il y en a marre\") is collective: everyone has had enough, the slogan of strikes and demonstrations. \"Ras-le-bol !\" (fed up to the brim) is also a noun: \"le ras-le-bol des usagers\" is the commuters' exasperation, a phrase you will meet in newspapers.",
+        ],
+        examples: [
+          { es: "Les cheminots sont dans la rue : « Y en a marre ! »", en: "The railway workers are out on the streets: 'We've had enough!'" },
+          { es: "Le ras-le-bol des habitants face aux travaux est palpable.", en: "The residents' exasperation with the roadworks is palpable." },
+          { es: "Le ras-le-bol fiscal revient dans tous les éditoriaux.", en: "Tax exasperation is back in every editorial." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A newspaper headline reads « Le ras-le-bol des agriculteurs ». What does it refer to?",
+            options: ["The farmers' exasperation", "The farmers' harvest", "The farmers' celebrations", "The farmers' bowl of soup"],
+            correctIndex: 0,
+            explanation: "\"Le ras-le-bol\" is the noun of \"ras-le-bol !\": widespread exasperation.",
+          },
+        ],
+      },
+      {
+        heading: "Relief: ouf, enfin, on l'a échappé belle",
+        body: [
+          "When the trouble is over: \"ouf !\" (phew!), \"enfin !\" (at last!), \"on l'a échappé belle\" (that was a close shave), \"quel soulagement !\". Note \"enfin\" also corrects or softens (\"il est sympa, enfin, la plupart du temps\"), so the exclamation mark and the intonation matter.",
+        ],
+        examples: [
+          { es: "Ouf, on a eu le dernier train !", en: "Phew, we caught the last train!" },
+          { es: "Enfin ! Ça fait une heure qu'on t'attend.", en: "At last! We've been waiting for you for an hour." },
+          { es: "La voiture a freiné à temps : on l'a échappé belle.", en: "The car braked in time: that was a close shave." },
+        ],
+        checkpoint: [
+          {
             type: "word-order",
-            prompt: "Put the words in order to say: Phew, we caught the last train!",
-            words: ["Ouf,", "on", "a", "eu", "le", "dernier", "train !"],
-            translation: "Phew, we caught the last train!",
-            explanation: "\"Ouf !\" is relief. \"Avoir le train\" is the everyday way to say you caught it.",
+            prompt: "Put the words in order to say: Phew, the train was waiting for us!",
+            words: ["Ouf,", "le train", "nous attendait", "!"],
+            translation: "Phew, the train was waiting for us!",
+            explanation: "\"Ouf\" opens the sentence; the imparfait \"attendait\" describes the situation you found.",
           },
         ],
       },
@@ -381,24 +586,6 @@ export const FR_C2_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Were you scared? – And how!",
-        answer: "Tu as eu peur ? – Et comment !",
-        altAnswers: ["Vous avez eu peur ? – Et comment !", "T'as eu peur ? – Et comment !", "Est-ce que tu as eu peur ? – Et comment !", "As-tu eu peur ? – Et comment !"],
-        explanation: "\"Et comment !\" agrees emphatically with a question that understates something.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "This heat is unbearable. – [You said it!]",
-        sentence: "Cette chaleur est insupportable. – ___",
-        answer: "Tu l'as dit !",
-        altAnswers: ["Tu l'as dit", "Vous l'avez dit !", "Vous l'avez dit", "À qui le dis-tu !", "À qui le dites-vous !"],
-        explanation: "\"Tu l'as dit !\" is set agreement; \"à qui le dis-tu !\" (who are you telling!) is a close equivalent.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
         source: "He didn't want to come? His loss!",
         answer: "Il n'a pas voulu venir ? Tant pis pour lui !",
         altAnswers: ["Il ne voulait pas venir ? Tant pis pour lui !", "Il n'a pas voulu venir ? Tant pis pour lui.", "Il voulait pas venir ? Tant pis pour lui !"],
@@ -412,13 +599,6 @@ export const FR_C2_U09: Lesson[] = [
         answer: "La réunion est annulée ? Tant mieux, je n'étais pas prêt.",
         altAnswers: ["La réunion est annulée ? Tant mieux, je n'étais pas prête.", "La réunion est annulée ? Tant mieux, j'étais pas prêt.", "La réunion est annulée ? Tant mieux, j'étais pas prête."],
         explanation: "\"Tant mieux\" welcomes news that suits you; the speaker's gender decides \"prêt / prête\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "A newspaper headline reads « Le ras-le-bol des agriculteurs ». What does it refer to?",
-        options: ["The farmers' exasperation", "The farmers' harvest", "The farmers' celebrations", "The farmers' bowl of soup"],
-        correctIndex: 0,
-        explanation: "\"Le ras-le-bol\" is the noun of \"ras-le-bol !\": widespread exasperation.",
       },
       {
         type: "matching",
@@ -462,6 +642,32 @@ export const FR_C2_U09: Lesson[] = [
         prompt: "Say it in French: Lend my car? No way!",
         explanation: "\"Pas question !\" is the everyday flat refusal.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "J'en ai marre ces coupures d'électricité.",
+        answer: "J'en ai marre de ces coupures d'électricité.",
+        explanation: "\"En avoir marre\" is followed by \"de\" + what you are fed up with: \"j'en ai marre de ces embouteillages\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "No holiday this summer? Never mind, we'll go in the spring.",
+        answer: "Pas de vacances cet été ? Tant pis, on partira au printemps.",
+        altAnswers: ["Pas de vacances cet été ? Tant pis, nous partirons au printemps."],
+        explanation: "\"Tant pis\" accepts the loss without complaint, and the future says what you do instead.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "Phew, the parcel arrived before the shop closed.",
+        answer: "Ouf, le colis est arrivé avant la fermeture du magasin.",
+        altAnswers: ["Ouf, le colis est arrivé avant que le magasin ferme."],
+        explanation: "\"Ouf !\" is relief after the danger has passed; \"avant la fermeture de\" avoids a subjunctive clause.",
+      },
     ],
   },
   {
@@ -473,19 +679,34 @@ export const FR_C2_U09: Lesson[] = [
     duration: "16 min",
     sections: [
       {
-        heading: "The soft end: bof, pas vraiment, pas trop",
+        heading: "Bof: the lukewarm end",
         body: [
           "French people rarely say a bare \"non\" to an invitation or an offer: it sounds curt. The soft end of the scale lets you decline while sparing feelings. \"Bof\", with a shrug and pursed lips, means 'meh, not really': lukewarm, not hostile. It is very colloquial and can sound dismissive about someone's work (\"Ton exposé ? Bof.\" is unkind).",
-          "\"Pas vraiment\" (not really) and \"pas trop\" (not much) are the polite all-rounders: \"Tu as faim ? – Pas trop.\" \"Pas spécialement\" and \"pas particulièrement\" are a shade more formal. \"Je ne suis pas très ...\" (\"je ne suis pas très cinéma\", I'm not really a film person) refuses by describing your tastes rather than rejecting the offer.",
-          "To decline an invitation gracefully, the usual pattern is softener + reason + regret: \"Ce soir, ça va être compliqué, je suis crevé. Une autre fois ?\" Note \"ça va être compliqué\": in French, 'it's going to be complicated' is very often a polite way of saying no, and should be heard as one.",
         ],
         examples: [
           { es: "Tu veux voir le nouveau film d'Ozon ? – Bof, pas trop envie.", en: "Do you want to see the new Ozon film? – Meh, I don't really feel like it." },
+          { es: "Ça te dit, une randonnée dimanche ? – Bof, je suis un peu fatigué.", en: "Fancy a hike on Sunday? – Meh, I'm a bit tired." },
+          { es: "Ce nouveau restaurant, bof. Rien d'extraordinaire.", en: "That new restaurant? Meh. Nothing special." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Your colleague shows you the slides she worked on all weekend. Which reply would hurt?",
+            options: ["Bof.", "Pas mal du tout !", "C'est très clair, bravo.", "J'aime beaucoup la dernière partie."],
+            correctIndex: 0,
+            explanation: "\"Bof\" about someone's own work is dismissive: it says you cannot even be bothered to judge it. Used about a film or a restaurant it is simply lukewarm.",
+          },
+        ],
+      },
+      {
+        heading: "Pas vraiment, pas trop, pas spécialement",
+        body: [
+          "\"Pas vraiment\" (not really) and \"pas trop\" (not much) are the polite all-rounders: \"Tu as faim ? – Pas trop.\" \"Pas spécialement\" and \"pas particulièrement\" are a shade more formal. \"Je ne suis pas très ...\" (\"je ne suis pas très cinéma\", I'm not really a film person) refuses by describing your tastes rather than rejecting the offer.",
+        ],
+        examples: [
           { es: "Tu as aimé le restaurant ? – Pas vraiment, c'était un peu fade.", en: "Did you like the restaurant? – Not really, it was a bit bland." },
           { es: "Je ne suis pas très football, mais je viendrai pour l'ambiance.", en: "I'm not much of a football person, but I'll come for the atmosphere." },
-          { es: "Samedi, ça va être compliqué. On peut voir pour la semaine prochaine ?", en: "Saturday's going to be tricky. Can we look at next week?" },
           { es: "Vous aimez la cuisine épicée ? – Pas spécialement.", en: "Do you like spicy food? – Not especially." },
-          { es: "Ça te dit, une randonnée dimanche ? – Bof, je suis un peu fatigué.", en: "Fancy a hike on Sunday? – Meh, I'm a bit tired." },
         ],
         checkpoint: [
           {
@@ -497,6 +718,19 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Vous avez faim ? – Pas vraiment.", "Tu as faim ? – Pas trop.", "Vous avez faim ? – Pas trop.", "T'as faim ? – Pas vraiment.", "As-tu faim ? – Pas vraiment.", "Avez-vous faim ? – Pas vraiment."],
             explanation: "\"Pas vraiment\" or \"pas trop\" is a gentle no; a bare \"non\" would be blunter.",
           },
+        ],
+      },
+      {
+        heading: "Declining an invitation gracefully",
+        body: [
+          "To decline an invitation gracefully, the usual pattern is softener + reason + regret: \"Ce soir, ça va être compliqué, je suis crevé. Une autre fois ?\" Note \"ça va être compliqué\": in French, 'it's going to be complicated' is very often a polite way of saying no, and should be heard as one.",
+        ],
+        examples: [
+          { es: "Samedi, ça va être compliqué. On peut voir pour la semaine prochaine ?", en: "Saturday's going to be tricky. Can we look at next week?" },
+          { es: "Jeudi, ça va être compliqué. Vendredi, en revanche, je suis libre.", en: "Thursday's going to be tricky. Friday, on the other hand, I'm free." },
+          { es: "Merci de l'invitation, mais je ne pourrai pas me libérer.", en: "Thank you for the invitation, but I won't be able to get away." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "A colleague invites you to her birthday drinks, but you'd rather not go. Which reply is the most tactful?",
@@ -504,23 +738,26 @@ export const FR_C2_U09: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Ça va être compliqué\" is the classic polite refusal, and the good wishes soften it. \"Bof\" would be dismissive.",
           },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Tonight's [going to be tricky], I'm exhausted.",
+            sentence: "Ce soir, ça ___, je suis épuisé.",
+            answer: "va être compliqué",
+            altAnswers: ["va être difficile", "risque d'être compliqué"],
+            explanation: "\"Ça va être compliqué\" is the standard polite refusal: the listener hears no.",
+          },
         ],
       },
       {
-        heading: "The hard end: pas question, jamais de la vie, plutôt mourir",
+        heading: "The hard end: a door that shuts",
         body: [
           "At the other end of the scale, the refusal leaves no room for negotiation. \"Non, merci\" is polite and final. \"Certainement pas\" and \"sûrement pas\" are firm and can be cold. \"Pas question\" and \"hors de question\" shut the door; \"jamais de la vie\" adds emotion; \"plutôt mourir !\" (I'd rather die!) is hyperbolic and usually comic: \"Aller au karaoké avec mes collègues ? Plutôt mourir !\".",
-          "Other strong refusals: \"il n'en est pas question\", \"même pas en rêve !\" (not even in your dreams, colloquial and teasing), \"tu peux toujours courir !\" (you can whistle for it), \"c'est non !\" (the parent's final word). \"Des clous !\" and \"des nèfles !\" are dated but you will meet them in older novels and films.",
-          "Choose by listener as much as by intensity. With a client, \"je crains que ce ne soit pas possible\" or \"malheureusement, nous ne pourrons pas donner suite\" is as firm as \"pas question\" but leaves faces intact. With a teenager who wants the car keys, \"c'est non\" is perfect. Using \"même pas en rêve\" with your manager is a joke that might not land.",
         ],
         examples: [
           { es: "Aller au karaoké avec le service compta ? Plutôt mourir !", en: "Go to karaoke with the accounts department? I'd rather die!" },
-          { es: "Tu me prêtes ta moto ? – Même pas en rêve !", en: "Will you lend me your motorbike? – Not even in your dreams!" },
-          { es: "Il veut que je lui fasse ses devoirs ? Il peut toujours courir !", en: "He wants me to do his homework for him? He can whistle for it!" },
-          { es: "J'ai dit non, c'est non !", en: "I said no, and no means no!" },
-          { es: "Je crains que ce ne soit pas possible dans ces délais.", en: "I'm afraid that won't be possible within this timeframe." },
-          { es: "Malheureusement, nous ne pourrons pas donner suite à votre demande.", en: "Unfortunately, we will not be able to take your request further." },
           { es: "Tu vas lui pardonner ? – Sûrement pas.", en: "Are you going to forgive him? – Certainly not." },
+          { es: "Signer sans lire le contrat ? Certainement pas.", en: "Sign without reading the contract? Certainly not." },
         ],
         checkpoint: [
           {
@@ -532,6 +769,49 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Chanter devant tout le monde ? Jamais de la vie !", "Chanter devant tout le monde ? Plutôt mourir."],
             explanation: "\"Plutôt mourir !\" is a comic, hyperbolic refusal, exactly like English 'I'd rather die'.",
           },
+        ],
+      },
+      {
+        heading: "Teasing and dated refusals",
+        body: [
+          "Other strong refusals: \"il n'en est pas question\", \"même pas en rêve !\" (not even in your dreams, colloquial and teasing), \"tu peux toujours courir !\" (you can whistle for it), \"c'est non !\" (the parent's final word). \"Des clous !\" and \"des nèfles !\" are dated but you will meet them in older novels and films.",
+        ],
+        examples: [
+          { es: "Tu me prêtes ta moto ? – Même pas en rêve !", en: "Will you lend me your motorbike? – Not even in your dreams!" },
+          { es: "Il veut que je lui fasse ses devoirs ? Il peut toujours courir !", en: "He wants me to do his homework for him? He can whistle for it!" },
+          { es: "J'ai dit non, c'est non !", en: "I said no, and no means no!" },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Tu peux toujours courir !",
+            question: "What does it mean?",
+            options: ["You can whistle for it!", "You can always run!", "You'd better run!", "You can still catch it!"],
+            correctIndex: 0,
+            explanation: "\"Tu peux toujours courir\" is a mocking refusal: you'll never get it.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "He wants my place in the queue? Not even in his dreams!",
+            answer: "Il veut ma place dans la file ? Même pas en rêve !",
+            altAnswers: ["Il veut ma place dans la queue ? Même pas en rêve !"],
+            explanation: "\"Même pas en rêve\" is colloquial and teasing; it refuses without hostility.",
+          },
+        ],
+      },
+      {
+        heading: "Choose by listener, not only by strength",
+        body: [
+          "Choose by listener as much as by intensity. With a client, \"je crains que ce ne soit pas possible\" or \"malheureusement, nous ne pourrons pas donner suite\" is as firm as \"pas question\" but leaves faces intact. With a teenager who wants the car keys, \"c'est non\" is perfect. Using \"même pas en rêve\" with your manager is a joke that might not land.",
+        ],
+        examples: [
+          { es: "Je crains que ce ne soit pas possible dans ces délais.", en: "I'm afraid that won't be possible within this timeframe." },
+          { es: "Malheureusement, nous ne pourrons pas donner suite à votre demande.", en: "Unfortunately, we will not be able to take your request further." },
+          { es: "Avec un client, mieux vaut « malheureusement » que « pas question ».", en: "With a client, \"malheureusement\" is wiser than \"pas question\"." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -542,29 +822,23 @@ export const FR_C2_U09: Lesson[] = [
             explanation: "\"Je crains que\" takes the subjunctive (\"soit\") and an optional expletive \"ne\". The \"ne\" here is the real negation with \"pas\".",
           },
           {
-            type: "listen-choose",
-            audio: "Tu peux toujours courir !",
-            question: "What does it mean?",
-            options: ["You can whistle for it!", "You can always run!", "You'd better run!", "You can still catch it!"],
+            type: "multiple-choice",
+            question: "Your teenage son asks for the third time if he can go to a party on a school night. You want to end the discussion. What do you say?",
+            options: ["J'ai dit non, c'est non !", "Bof.", "Je crains que ce ne soit pas possible.", "Pas vraiment."],
             correctIndex: 0,
-            explanation: "\"Tu peux toujours courir\" is a mocking refusal: you'll never get it.",
+            explanation: "\"C'est non !\" is the parent's final word. The formal \"je crains que\" would sound comically distant here.",
           },
         ],
       },
       {
-        heading: "Si ! Contradicting a negative",
+        heading: "Si: the word English hasn't got",
         body: [
           "English answers a negative question with 'yes' and context; French has a dedicated word. When someone asks or claims something in the negative and you want to contradict it, the answer is \"si\", not \"oui\": \"Tu ne viens pas ce soir ? – Si, je viens !\". Answering \"oui\" here is a classic learner error that leaves people genuinely unsure what you mean.",
-          "\"Si\" can be reinforced: \"si, si !\", \"mais si !\" (impatient: but I do!), \"que si !\" (literary and emphatic, often in answer to \"que non\"). To confirm the negative, keep \"non\": \"Tu ne viens pas ? – Non, je ne viens pas.\" or \"Non, désolé.\"",
-          "\"Si\" also contradicts negative statements, not just questions: \"Ce n'est pas possible. – Si, c'est possible, je l'ai déjà fait.\" And in the playground, the eternal duel \"Non ! – Si ! – Non ! – Si !\" sums up the system. Note \"pas du tout\" (not at all) and \"mais non !\" (of course not!) on the negative side.",
         ],
         examples: [
           { es: "Tu n'as pas faim ? – Si, je meurs de faim !", en: "Aren't you hungry? – Yes I am, I'm starving!" },
           { es: "Vous n'avez pas reçu mon courriel ? – Si, je l'ai reçu ce matin.", en: "Didn't you get my email? – Yes, I got it this morning." },
-          { es: "Il ne reste plus de pain ? – Mais si, regarde dans le placard.", en: "Is there no bread left? – Of course there is, look in the cupboard." },
-          { es: "Tu ne m'aimes plus. – Mais si, je t'aime !", en: "You don't love me any more. – But I do love you!" },
-          { es: "Tu ne veux pas venir ? – Non, pas ce soir.", en: "Don't you want to come? – No, not tonight." },
-          { es: "On ne peut pas faire ça en une journée. – Si, c'est faisable.", en: "We can't do that in one day. – Yes we can, it's doable." },
+          { es: "Tu n'as pas vu mes lunettes ? – Si, elles sont sur la table.", en: "Haven't you seen my glasses? – Yes, they're on the table." },
         ],
         checkpoint: [
           {
@@ -576,6 +850,19 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Vous ne venez pas ? – Si, je viens !", "Tu viens pas ? – Si, je viens !", "Tu ne viens pas ? – Si !", "Vous ne venez pas ? – Si !", "Tu ne viens pas ? – Mais si, je viens !", "Vous ne venez pas ? – Mais si, je viens !"],
             explanation: "A negative question contradicted takes \"si\", never \"oui\".",
           },
+        ],
+      },
+      {
+        heading: "Si, si ! Mais si ! Que si !",
+        body: [
+          "\"Si\" can be reinforced: \"si, si !\", \"mais si !\" (impatient: but I do!), \"que si !\" (literary and emphatic, often in answer to \"que non\"). To confirm the negative, keep \"non\": \"Tu ne viens pas ? – Non, je ne viens pas.\" or \"Non, désolé.\"",
+        ],
+        examples: [
+          { es: "Il ne reste plus de pain ? – Mais si, regarde dans le placard.", en: "Is there no bread left? – Of course there is, look in the cupboard." },
+          { es: "Tu ne m'aimes plus. – Mais si, je t'aime !", en: "You don't love me any more. – But I do love you!" },
+          { es: "Tu ne m'écoutes pas. – Mais si, je t'écoute depuis dix minutes !", en: "You're not listening to me. – I am, I've been listening for ten minutes!" },
+        ],
+        checkpoint: [
           {
             type: "word-order",
             prompt: "Put the words in order to say: Of course I do, I love you!",
@@ -583,18 +870,48 @@ export const FR_C2_U09: Lesson[] = [
             translation: "Of course I do, I love you!",
             explanation: "\"Mais si\" contradicts a negative statement with insistence.",
           },
+          {
+            type: "listen-choose",
+            audio: "Tu ne viens pas ? – Si !",
+            question: "Is the second speaker coming?",
+            options: ["Yes, they are.", "No, they aren't.", "They haven't decided.", "They're asking a question."],
+            correctIndex: 0,
+            explanation: "\"Si\" contradicts the negative question: yes, I am coming.",
+          },
+        ],
+      },
+      {
+        heading: "Si against statements, and the negative side",
+        body: [
+          "\"Si\" also contradicts negative statements, not just questions: \"Ce n'est pas possible. – Si, c'est possible, je l'ai déjà fait.\" And in the playground, the eternal duel \"Non ! – Si ! – Non ! – Si !\" sums up the system. Note \"pas du tout\" (not at all) and \"mais non !\" (of course not!) on the negative side.",
+        ],
+        examples: [
+          { es: "Tu ne veux pas venir ? – Non, pas ce soir.", en: "Don't you want to come? – No, not tonight." },
+          { es: "On ne peut pas faire ça en une journée. – Si, c'est faisable.", en: "We can't do that in one day. – Yes we can, it's doable." },
+          { es: "Tu as froid ? – Pas du tout, je suis très bien.", en: "Are you cold? – Not at all, I'm very comfortable." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change the answer so it contradicts the statement.",
+            source: "Ce dossier n'est pas prêt. – Non, il est prêt depuis hier.",
+            answer: "Ce dossier n'est pas prêt. – Si, il est prêt depuis hier.",
+            altAnswers: ["Ce dossier n'est pas prêt. – Mais si, il est prêt depuis hier."],
+            explanation: "To contradict a negative you need \"si\"; \"non\" would agree that the file is not ready, which is the opposite of what follows.",
+          },
         ],
       },
     ],
     exercises: [
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Did you like the book? – Meh.",
-        answer: "Tu as aimé le livre ? – Bof.",
-        altAnswers: ["Vous avez aimé le livre ? – Bof.", "T'as aimé le livre ? – Bof.", "Le livre t'a plu ? – Bof.", "Le livre vous a plu ? – Bof.", "As-tu aimé le livre ? – Bof."],
-        explanation: "\"Bof\" is the lukewarm, shrugging 'meh': not a strong no, but not praise.",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        answer: "Bof",
+        altAnswers: ["Bof bof"],
+        explanation: "\"Bof\" is lukewarm, not hostile: it says the book left you indifferent.",
+        en: "Did you like the book? – [Meh], I gave up halfway through.",
+        sentence: "Tu as aimé le livre ? – ___, je l'ai abandonné au milieu.",
       },
       {
         type: "translate",
@@ -609,35 +926,10 @@ export const FR_C2_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Will you lend me your car? – Not even in your dreams!",
-        answer: "Tu me prêtes ta voiture ? – Même pas en rêve !",
-        altAnswers: ["Tu me prêtes ta voiture ? – Même pas en rêves !", "Tu peux me prêter ta voiture ? – Même pas en rêve !", "Vous me prêtez votre voiture ? – Même pas en rêve !", "Tu me prêterais ta voiture ? – Même pas en rêve !"],
-        explanation: "\"Même pas en rêve !\" is a teasing, colloquial flat refusal, for friends and family.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "Tonight's [going to be tricky], I'm exhausted.",
-        sentence: "Ce soir, ça ___, je suis épuisé.",
-        answer: "va être compliqué",
-        altAnswers: ["va être difficile", "risque d'être compliqué"],
-        explanation: "\"Ça va être compliqué\" is the standard polite refusal: the listener hears no.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
         source: "I'm not much of a museum person.",
         answer: "Je ne suis pas très musée.",
         altAnswers: ["Je suis pas très musée.", "Je ne suis pas très musées.", "Les musées, ce n'est pas trop mon truc.", "Les musées, ce n'est pas vraiment mon truc.", "Les musées, c'est pas mon truc."],
         explanation: "\"Ne pas être très + noun\" describes your tastes: a soft way to decline.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Your teenage son asks for the third time if he can go to a party on a school night. You want to end the discussion. What do you say?",
-        options: ["J'ai dit non, c'est non !", "Bof.", "Je crains que ce ne soit pas possible.", "Pas vraiment."],
-        correctIndex: 0,
-        explanation: "\"C'est non !\" is the parent's final word. The formal \"je crains que\" would sound comically distant here.",
       },
       {
         type: "translate",
@@ -670,18 +962,37 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "The scale runs from indifference to comic hyperbole; pick the rung by the situation and the listener.",
       },
       {
-        type: "listen-choose",
-        audio: "Tu ne viens pas ? – Si !",
-        question: "Is the second speaker coming?",
-        options: ["Yes, they are.", "No, they aren't.", "They haven't decided.", "They're asking a question."],
-        correctIndex: 0,
-        explanation: "\"Si\" contradicts the negative question: yes, I am coming.",
-      },
-      {
         type: "speak",
         text: "Mais si, c'est possible, je l'ai déjà fait !",
         prompt: "Say it in French: Yes it is possible, I've already done it!",
         explanation: "\"Mais si\" firmly contradicts a negative statement.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Tu ne viens pas ce soir ? – Oui, je viens avec Camille.",
+        answer: "Tu ne viens pas ce soir ? – Si, je viens avec Camille.",
+        altAnswers: ["Tu ne viens pas ce soir ? – Mais si, je viens avec Camille."],
+        explanation: "A negative question is contradicted with \"si\", never \"oui\": with \"oui\" the listener cannot tell whether you are coming.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite the refusal for a client (formal register).",
+        source: "Pas question de livrer avant le mois de mars.",
+        answer: "Je crains que ce ne soit pas possible avant le mois de mars.",
+        altAnswers: ["Malheureusement, nous ne pourrons pas livrer avant le mois de mars.", "Je crains que ce ne soit pas possible avant mars."],
+        explanation: "\"Je crains que\" + subjunctive (with the optional \"ne\" of literary style) refuses as firmly as \"pas question\" while leaving the client's face intact.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "Fancy a swim on Sunday? – Not especially, it's too cold.",
+        answer: "Ça te dit, une baignade dimanche ? – Pas spécialement, il fait trop froid.",
+        altAnswers: ["Ça te dit, une baignade dimanche ? – Pas particulièrement, il fait trop froid."],
+        explanation: "\"Pas spécialement\" is the polite mild no; \"ça te dit ?\" is the usual way to float a suggestion.",
       },
     ],
   },
@@ -694,30 +1005,16 @@ export const FR_C2_U09: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "Quel, que de, comme: the building blocks",
+        heading: "Quel + noun, with no article",
         body: [
           "\"Quel\" + noun agrees with the noun and takes no article: \"quel temps !\", \"quelle chance !\", \"quels idiots !\", \"quelles vacances !\". English says 'what a', but French never adds \"un\": \"*quel un désastre\" is impossible. An adjective can slip in: \"quelle belle journée !\", \"quel sale temps !\".",
-          "\"Que de\" + noun exclaims over quantity: \"que de monde !\" (what a crowd!), \"que de temps perdu !\" (so much wasted time!). It is slightly literary but alive in speech. \"Comme\" + a whole clause exclaims over degree: \"comme c'est beau !\", \"comme il a grandi !\". The adjective or adverb stays after the verb, unlike English 'how beautiful it is'.",
-          "Trap: \"comment\" is never exclamative. \"*Comment c'est beau !\" is a learner error carried over from English 'how'. Use \"comme\", \"que\" or \"qu'est-ce que\".",
         ],
         examples: [
           { es: "Quelle chance tu as eue de trouver cet appartement !", en: "How lucky you were to find this flat!" },
           { es: "Quel sale temps pour un mois de juillet !", en: "What awful weather for July!" },
-          { es: "Que de souvenirs dans cette vieille maison !", en: "So many memories in this old house!" },
-          { es: "Comme il a grandi depuis l'an dernier !", en: "How he's grown since last year!" },
-          { es: "Comme c'est gentil de votre part !", en: "How kind of you!" },
           { es: "Quelles vacances, on n'a pas vu le soleil une seule fois !", en: "Some holiday, we didn't see the sun once!" },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "How beautiful it is!",
-            answer: "Comme c'est beau !",
-            altAnswers: ["Que c'est beau !", "Qu'est-ce que c'est beau !", "Ce que c'est beau !", "Comme c'est joli !", "Que c'est joli !", "Qu'est-ce que c'est joli !"],
-            explanation: "\"Comme\" + clause exclaims over degree. \"Comment c'est beau\" is a common error: comment is only interrogative.",
-          },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -726,6 +1023,19 @@ export const FR_C2_U09: Lesson[] = [
             answer: "Quelle",
             explanation: "\"Quel\" agrees with \"surprise\" (feminine) and takes no article: never \"*quelle une surprise\".",
           },
+        ],
+      },
+      {
+        heading: "Que de for quantity, comme for degree",
+        body: [
+          "\"Que de\" + noun exclaims over quantity: \"que de monde !\" (what a crowd!), \"que de temps perdu !\" (so much wasted time!). It is slightly literary but alive in speech. \"Comme\" + a whole clause exclaims over degree: \"comme c'est beau !\", \"comme il a grandi !\". The adjective or adverb stays after the verb, unlike English 'how beautiful it is'.",
+        ],
+        examples: [
+          { es: "Que de souvenirs dans cette vieille maison !", en: "So many memories in this old house!" },
+          { es: "Comme il a grandi depuis l'an dernier !", en: "How he's grown since last year!" },
+          { es: "Comme c'est gentil de votre part !", en: "How kind of you!" },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -735,22 +1045,88 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Qu'est-ce qu'il y a comme monde !", "Il y a un monde fou !", "Quelle foule !", "Ce qu'il y a comme monde !"],
             explanation: "\"Que de\" + noun exclaims over quantity; \"monde\" here is people, not the world.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "How beautiful it is!",
+            answer: "Comme c'est beau !",
+            altAnswers: ["Que c'est beau !", "Qu'est-ce que c'est beau !", "Ce que c'est beau !", "Comme c'est joli !", "Que c'est joli !", "Qu'est-ce que c'est joli !"],
+            explanation: "\"Comme\" + clause exclaims over degree. \"Comment c'est beau\" is a common error: comment is only interrogative.",
+          },
         ],
       },
       {
-        heading: "Ce que, qu'est-ce que, que: the same idea in three registers",
+        heading: "The trap: comment is never exclamative",
+        body: [
+          "Trap: \"comment\" is never exclamative. \"*Comment c'est beau !\" is a learner error carried over from English 'how'. Use \"comme\", \"que\" or \"qu'est-ce que\".",
+        ],
+        examples: [
+          { es: "Comme c'est calme, ce village le dimanche !", en: "How quiet this village is on a Sunday!" },
+          { es: "Qu'est-ce que c'est pratique, cette application !", en: "How handy this app is!" },
+          { es: "Que cette route est longue !", en: "How long this road is!" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct French?",
+            options: ["Comme il chante bien !", "Comment il chante bien !", "Quel bien il chante !", "Qu'est-ce que chante-t-il bien !"],
+            correctIndex: 0,
+            explanation: "\"Comme\" + declarative clause. \"Comment\" is not exclamative, and there is no inversion after \"qu'est-ce que\".",
+          },
+        ],
+      },
+      {
+        heading: "Three registers of « how...! »",
         body: [
           "French has three ways of saying 'how...!' with a clause, sorted by register. \"Qu'est-ce que c'est cher !\" is everyday spoken French. \"Ce que c'est cher !\" is also spoken, a little more colloquial and expressive. \"Que c'est cher !\" is neutral to slightly formal, and \"comme c'est cher !\" sits in the middle and is safe everywhere.",
-          "In writing, avoid \"qu'est-ce que\" exclamations unless you are reproducing speech; in a novel's narration or a formal letter, \"comme\" and \"que\" are the norm: \"Que la vie était douce alors !\". In the most literary style you will also find \"combien\": \"Combien il a souffert !\" (how much he suffered!).",
-          "The word order inside the clause stays declarative: subject + verb + rest. Do not invert after \"qu'est-ce que\" (\"*qu'est-ce qu'est-il bête\"). And the exclamation can bear on a verb, not just an adjective: \"Qu'est-ce qu'on a ri !\" (how we laughed!), \"Ce qu'il peut être pénible !\" (he can be such a pain!), with \"pouvoir\" adding exasperation.",
         ],
         examples: [
           { es: "Qu'est-ce qu'il fait froid ce matin !", en: "It's so cold this morning!" },
-          { es: "Ce qu'il peut être pénible quand il est fatigué !", en: "He can be such a pain when he's tired!" },
-          { es: "Que la vie était douce dans ce petit village !", en: "How sweet life was in that little village!" },
-          { es: "Qu'est-ce qu'on a ri hier soir !", en: "We laughed so much last night!" },
           { es: "Comme le temps passe vite !", en: "How time flies!" },
+          { es: "Ce que ce train est lent, aujourd'hui !", en: "This train is so slow today!" },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "It's so expensive! (spoken)",
+            answer: "Qu'est-ce que c'est cher !",
+            altAnswers: ["Ce que c'est cher !", "Que c'est cher !", "Comme c'est cher !"],
+            explanation: "\"Qu'est-ce que\" + clause is the everyday spoken exclamation; normal word order follows.",
+          },
+        ],
+      },
+      {
+        heading: "In writing: comme, que, combien",
+        body: [
+          "In writing, avoid \"qu'est-ce que\" exclamations unless you are reproducing speech; in a novel's narration or a formal letter, \"comme\" and \"que\" are the norm: \"Que la vie était douce alors !\". In the most literary style you will also find \"combien\": \"Combien il a souffert !\" (how much he suffered!).",
+        ],
+        examples: [
+          { es: "Que la vie était douce dans ce petit village !", en: "How sweet life was in that little village!" },
           { es: "Combien de fois je te l'ai répété !", en: "How many times have I told you!" },
+          { es: "Combien il a souffert avant de parler !", en: "How much he suffered before speaking!" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "You are writing the narration of a short story set in the 1950s. Which sentence fits the register?",
+            options: ["Que les étés étaient longs, alors !", "Qu'est-ce qu'ils étaient longs, les étés !", "Ce qu'ils étaient longs, les étés, quoi !", "Comment les étés étaient longs !"],
+            correctIndex: 0,
+            explanation: "\"Que\" + clause suits written narration; \"qu'est-ce que\" and \"ce que\" belong to speech, and \"comment\" is wrong.",
+          },
+        ],
+      },
+      {
+        heading: "Word order, and exclaiming over a verb",
+        body: [
+          "The word order inside the clause stays declarative: subject + verb + rest. Do not invert after \"qu'est-ce que\" (\"*qu'est-ce qu'est-il bête\"). And the exclamation can bear on a verb, not just an adjective: \"Qu'est-ce qu'on a ri !\" (how we laughed!), \"Ce qu'il peut être pénible !\" (he can be such a pain!), with \"pouvoir\" adding exasperation.",
+        ],
+        examples: [
+          { es: "Ce qu'il peut être pénible quand il est fatigué !", en: "He can be such a pain when he's tired!" },
+          { es: "Qu'est-ce qu'on a ri hier soir !", en: "We laughed so much last night!" },
+          { es: "Ce qu'elle peut être têtue, cette enfant !", en: "That child can be so stubborn!" },
         ],
         checkpoint: [
           {
@@ -762,29 +1138,16 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Ce qu'on a ri !", "Qu'est-ce que nous avons ri !", "Que nous avons ri !", "Comme on a ri !", "Comme nous avons ri !", "Qu'on a ri !"],
             explanation: "An exclamation can bear on the verb itself; the clause keeps normal word order.",
           },
-          {
-            type: "multiple-choice",
-            question: "You are writing the narration of a short story set in the 1950s. Which sentence fits the register?",
-            options: ["Que les étés étaient longs, alors !", "Qu'est-ce qu'ils étaient longs, les étés !", "Ce qu'ils étaient longs, les étés, quoi !", "Comment les étés étaient longs !"],
-            correctIndex: 0,
-            explanation: "\"Que\" + clause suits written narration; \"qu'est-ce que\" and \"ce que\" belong to speech, and \"comment\" is wrong.",
-          },
         ],
       },
       {
-        heading: "Wishes, regrets and indignation: pourvu que, et dire que, moi, mentir !",
+        heading: "Anxious wishes and regrets",
         body: [
           "\"Pourvu que\" + subjunctive is an anxious wish, 'let's hope', 'if only': \"Pourvu qu'il fasse beau demain !\", \"pourvu qu'elle ne soit pas en retard !\". It stands alone as a main clause. \"Si tu savais !\" (if only you knew!) promises a story or hints at something unspeakable, and \"si seulement\" + imparfait or plus-que-parfait expresses regret: \"Si seulement j'avais su !\"",
-          "\"Et dire que...!\" (and to think that...!) introduces a bitter or wistful contrast: \"Et dire qu'on aurait pu rester au lit !\". The infinitive exclamation expresses indignation at an idea: \"Moi, mentir ! Jamais.\" (Me, lie? Never.), \"Lui, s'excuser ? Tu rêves !\". The stressed pronoun announces the subject, and the infinitive carries the outrageous idea.",
-          "Finally, \"être d'un + adjective\" intensifies in speech: \"il est d'un ennuyeux !\" (he is so boring!), \"elle est d'une patience !\" (she's so patient!), \"ce film est d'un long !\". The adjective stays masculine whatever the subject, because it works like a noun: \"elle est d'un ennuyeux !\", \"elle est d'un snob !\". With a real noun, the article agrees: \"d'une patience\", \"d'une lenteur\". It is spoken French; in writing, prefer \"si\" or \"tellement\".",
         ],
         examples: [
           { es: "Pourvu qu'il ne pleuve pas pour le mariage !", en: "Let's hope it doesn't rain for the wedding!" },
           { es: "Si tu savais ce qu'il m'a dit au téléphone !", en: "If only you knew what he said to me on the phone!" },
-          { es: "Et dire qu'on a fait deux heures de queue pour ça !", en: "And to think we queued for two hours for that!" },
-          { es: "Moi, tricher à un examen ? Jamais de la vie !", en: "Me, cheat in an exam? Never!" },
-          { es: "Ce colloque était d'un ennuyeux !", en: "That conference was so boring!" },
-          { es: "Ta grand-mère est d'une patience avec les enfants !", en: "Your grandmother is so patient with the children!" },
           { es: "Si seulement j'avais pris le train de sept heures !", en: "If only I'd taken the seven o'clock train!" },
         ],
         checkpoint: [
@@ -797,6 +1160,28 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Pourvu qu'elle arrive à l'heure !", "Pourvu qu'elle ne soit pas en retard !", "Pourvu qu'elle n'arrive pas en retard !"],
             explanation: "\"Pourvu que\" + subjunctive (\"soit\") expresses an anxious wish.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Let's hope the train isn't cancelled!",
+            answer: "Pourvu que le train ne soit pas annulé !",
+            altAnswers: ["Pourvu que le train ne soit pas supprimé !"],
+            explanation: "\"Pourvu que\" + subjunctive: \"soit\", not \"est\".",
+          },
+        ],
+      },
+      {
+        heading: "Et dire que, and indignation in the infinitive",
+        body: [
+          "\"Et dire que...!\" (and to think that...!) introduces a bitter or wistful contrast: \"Et dire qu'on aurait pu rester au lit !\". The infinitive exclamation expresses indignation at an idea: \"Moi, mentir ! Jamais.\" (Me, lie? Never.), \"Lui, s'excuser ? Tu rêves !\". The stressed pronoun announces the subject, and the infinitive carries the outrageous idea.",
+        ],
+        examples: [
+          { es: "Et dire qu'on a fait deux heures de queue pour ça !", en: "And to think we queued for two hours for that!" },
+          { es: "Moi, tricher à un examen ? Jamais de la vie !", en: "Me, cheat in an exam? Never!" },
+          { es: "Lui, reconnaître son erreur ? Tu rêves !", en: "Him, admit his mistake? You're dreaming!" },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -818,20 +1203,37 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Interjections and their spelling",
+        heading: "Être d'un + adjective",
+        body: [
+          "Finally, \"être d'un + adjective\" intensifies in speech: \"il est d'un ennuyeux !\" (he is so boring!), \"elle est d'une patience !\" (she's so patient!), \"ce film est d'un long !\". The adjective stays masculine whatever the subject, because it works like a noun: \"elle est d'un ennuyeux !\", \"elle est d'un snob !\". With a real noun, the article agrees: \"d'une patience\", \"d'une lenteur\". It is spoken French; in writing, prefer \"si\" or \"tellement\".",
+        ],
+        examples: [
+          { es: "Ce colloque était d'un ennuyeux !", en: "That conference was so boring!" },
+          { es: "Ta grand-mère est d'une patience avec les enfants !", en: "Your grandmother is so patient with the children!" },
+          { es: "Ce roman est d'une lenteur !", en: "This novel is so slow!" },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The lecture was [so boring]!",
+            sentence: "La conférence était ___ !",
+            answer: "d'un ennuyeux",
+            altAnswers: ["d'un ennui", "tellement ennuyeuse", "si ennuyeuse"],
+            explanation: "\"Être d'un + adjective\" is a colloquial intensifier; the adjective stays masculine because it works like a noun.",
+          },
+        ],
+      },
+      {
+        heading: "Interjections: pain, disgust, silence",
         body: [
           "Interjections have fixed spellings that you need to recognise in comics, chats and novels. Pain: \"aïe !\" (ow!, with a tréma), \"ouille !\" or \"aïe aïe aïe\" for worry. Disgust: \"beurk !\" (yuck!). Pleasure: \"miam !\" (yum!). Silence: \"chut !\" (shh!). Contempt or indifference: \"bah !\", \"pff\". Hesitation: \"euh...\". Pain of a different kind: \"hélas\" (alas), literary.",
-          "\"Hein ?\" asks someone to repeat ('eh?', rather rude) or seeks agreement at the end of a sentence: \"c'est bon, hein ?\" (it's good, isn't it?). \"Ben\" is the spoken form of \"bien\" and opens replies: \"ben oui\", \"ben non\", \"ben quoi ?\" (so what?). \"Bon\" closes a topic: \"Bon, on y va ?\". \"Allez !\" encourages, and \"oh là là\" (not \"ooh la la\") expresses dismay far more often than titillation.",
-          "Spelling matters because a misspelt interjection looks foreign: \"aïe\" (not \"aie\", which is a form of avoir), \"hein\" (not \"hun\"), \"oh là là\" (with the grave accent on là). In formal writing, interjections are avoided except \"hélas\" and, in rhetoric, \"ô\".",
         ],
         examples: [
           { es: "Aïe ! Je me suis coincé le doigt dans la porte.", en: "Ow! I've caught my finger in the door." },
           { es: "Beurk, il y a un cheveu dans ma soupe !", en: "Yuck, there's a hair in my soup!" },
           { es: "Miam, ça sent bon la tarte aux pommes !", en: "Yum, the apple tart smells good!" },
           { es: "Chut ! Le bébé dort.", en: "Shh! The baby's asleep." },
-          { es: "Il fait beau, hein ?", en: "It's a lovely day, isn't it?" },
-          { es: "Ben quoi ? J'ai le droit de dire ce que je pense !", en: "So what? I'm allowed to say what I think!" },
-          { es: "Oh là là, on va encore être en retard.", en: "Oh dear, we're going to be late again." },
         ],
         checkpoint: [
           {
@@ -857,6 +1259,47 @@ export const FR_C2_U09: Lesson[] = [
           },
         ],
       },
+      {
+        heading: "Hein, ben, bon, allez",
+        body: [
+          "\"Hein ?\" asks someone to repeat ('eh?', rather rude) or seeks agreement at the end of a sentence: \"c'est bon, hein ?\" (it's good, isn't it?). \"Ben\" is the spoken form of \"bien\" and opens replies: \"ben oui\", \"ben non\", \"ben quoi ?\" (so what?). \"Bon\" closes a topic: \"Bon, on y va ?\". \"Allez !\" encourages, and \"oh là là\" (not \"ooh la la\") expresses dismay far more often than titillation.",
+        ],
+        examples: [
+          { es: "Il fait beau, hein ?", en: "It's a lovely day, isn't it?" },
+          { es: "Ben quoi ? J'ai le droit de dire ce que je pense !", en: "So what? I'm allowed to say what I think!" },
+          { es: "Oh là là, on va encore être en retard.", en: "Oh dear, we're going to be late again." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence uses « hein » the way a French speaker would?",
+            options: ["C'est joli, ce quartier, hein ?", "Hein, le train part à quelle heure, s'il vous plaît ?", "Hein ! Quelle belle journée !", "Je hein que tu as raison."],
+            correctIndex: 0,
+            explanation: "At the end of a sentence \"hein ?\" seeks agreement, like isn't it. On its own it means what? and is rather rude to a stranger.",
+          },
+        ],
+      },
+      {
+        heading: "Spelling, and what formal writing allows",
+        body: [
+          "Spelling matters because a misspelt interjection looks foreign: \"aïe\" (not \"aie\", which is a form of avoir), \"hein\" (not \"hun\"), \"oh là là\" (with the grave accent on là). In formal writing, interjections are avoided except \"hélas\" and, in rhetoric, \"ô\".",
+        ],
+        examples: [
+          { es: "Aïe, mon doigt ! Attention à la porte.", en: "Ow, my finger! Mind the door." },
+          { es: "Hélas, la bibliothèque avait déjà fermé.", en: "Alas, the library had already closed." },
+          { es: "Oh là là, quelle queue devant le musée !", en: "Oh dear, what a queue outside the museum!" },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Aïe ! Ça fait mal !",
+            question: "What did you hear?",
+            options: ["Aïe ! Ça fait mal !", "Ah ! Ça fait mal !", "Aïe ! Ça fait mieux !", "Hein ? Ça fait mal ?"],
+            correctIndex: 0,
+            explanation: "\"Aïe\" (ow) is a single syllable, pronounced like \"aille\"; \"ça fait mal\" is 'it hurts'.",
+          },
+        ],
+      },
     ],
     exercises: [
       {
@@ -867,33 +1310,6 @@ export const FR_C2_U09: Lesson[] = [
         answer: "Quelle belle journée !",
         altAnswers: ["Quelle journée magnifique !", "Quelle magnifique journée !", "Quel beau jour !"],
         explanation: "\"Quelle\" agrees with \"journée\" and takes no article.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "It's so expensive! (spoken)",
-        answer: "Qu'est-ce que c'est cher !",
-        altAnswers: ["Ce que c'est cher !", "Que c'est cher !", "Comme c'est cher !"],
-        explanation: "\"Qu'est-ce que\" + clause is the everyday spoken exclamation; normal word order follows.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Let's hope the train isn't cancelled!",
-        answer: "Pourvu que le train ne soit pas annulé !",
-        altAnswers: ["Pourvu que le train ne soit pas supprimé !"],
-        explanation: "\"Pourvu que\" + subjunctive: \"soit\", not \"est\".",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The lecture was [so boring]!",
-        sentence: "La conférence était ___ !",
-        answer: "d'un ennuyeux",
-        altAnswers: ["d'un ennui", "tellement ennuyeuse", "si ennuyeuse"],
-        explanation: "\"Être d'un + adjective\" is a colloquial intensifier; the adjective stays masculine because it works like a noun.",
       },
       {
         type: "translate",
@@ -914,13 +1330,6 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "\"Si tu savais\" + exclamative \"comme\" or \"à quel point\": the imparfait after si, as in any hypothesis.",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is correct French?",
-        options: ["Comme il chante bien !", "Comment il chante bien !", "Quel bien il chante !", "Qu'est-ce que chante-t-il bien !"],
-        correctIndex: 0,
-        explanation: "\"Comme\" + declarative clause. \"Comment\" is not exclamative, and there is no inversion after \"qu'est-ce que\".",
-      },
-      {
         type: "word-order",
         prompt: "Put the words in order to say: And to think he'd promised me!",
         words: ["Et", "dire", "qu'il", "me", "l'avait", "promis !"],
@@ -937,23 +1346,42 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "\"Que de\" + noun exclaims over quantity.",
       },
       {
-        type: "listen-choose",
-        audio: "Aïe ! Ça fait mal !",
-        question: "What did you hear?",
-        options: ["Aïe ! Ça fait mal !", "Ah ! Ça fait mal !", "Aïe ! Ça fait mieux !", "Hein ? Ça fait mal ?"],
-        correctIndex: 0,
-        explanation: "\"Aïe\" (ow) is a single syllable, pronounced like \"aille\"; \"ça fait mal\" is 'it hurts'.",
-      },
-      {
         type: "dictation",
-        audio: "Comme le temps passe vite !",
-        explanation: "\"Comme\" + clause: the exclamation of degree.",
+        audio: "Que de monde devant la mairie ce matin !",
+        explanation: "\"Que de\" + noun: an exclamation over quantity, with no verb.",
       },
       {
         type: "speak",
         text: "Pourvu qu'il fasse beau demain !",
         prompt: "Say it in French: Let's hope the weather is nice tomorrow!",
         explanation: "\"Pourvu que\" + subjunctive \"fasse\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Comment c'est beau, ce paysage !",
+        answer: "Comme c'est beau, ce paysage !",
+        altAnswers: ["Qu'est-ce que c'est beau, ce paysage !", "Que c'est beau, ce paysage !"],
+        explanation: "\"Comment\" asks how something is done and is never exclamative; the exclamation uses \"comme\", \"que\" or \"qu'est-ce que\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it with « comme » (neutral register).",
+        source: "Qu'est-ce qu'il fait chaud dans ce bureau !",
+        answer: "Comme il fait chaud dans ce bureau !",
+        altAnswers: ["Qu'il fait chaud dans ce bureau !"],
+        explanation: "\"Qu'est-ce que\" belongs to speech; \"comme\" (or \"que\") carries the same exclamation in neutral or written French, with the same word order.",
+      },
+      {
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "[What a lot of forms] for one application!",
+        sentence: "___ pour un seul dossier !",
+        answer: "Que de formulaires",
+        altAnswers: ["Que de papiers"],
+        explanation: "\"Que de\" + noun exclaims over quantity, with no article and no verb.",
       },
     ],
   },
@@ -966,19 +1394,54 @@ export const FR_C2_U09: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Good news: a promotion, a lottery win, a baby",
+        heading: "How a native reaction is built",
         body: [
           "In this lab, Camille, who has just come back from three weeks abroad, catches up with her friend Antoine over coffee in Rennes. The news comes thick and fast, and each piece calls for a different reaction. A native reaction usually has three parts: the exclamation, a follow-up question, and a comment. \"Sans blague ! Depuis quand ? Tu dois être ravi !\"",
-          "Antoine: « Tu sais quoi ? J'ai été promu chef de projet. » Camille: « C'est pas vrai ! Félicitations ! Tu l'as bien mérité, depuis le temps que tu bosses comme un fou. » Antoine: « Et ce n'est pas tout : mon frère a gagné au Loto. » Camille: « La vache ! Combien ? » Antoine: « Cent mille euros. » Camille: « Ben dis donc ! Il va arrêter de travailler ? »",
-          "Note \"ben dis donc !\" (well I never!, well!), a very common spoken reaction to impressive figures, and \"félicitations\" (always plural) for an achievement. For a birth or a wedding, French says \"toutes mes félicitations\" or, more warmly, \"c'est génial, je suis trop contente pour vous !\". \"Je suis contente pour toi\" is the standard 'I'm happy for you'; English speakers often forget the \"pour\".",
         ],
         examples: [
           { es: "J'ai été promu chef de projet. – C'est pas vrai ! Félicitations !", en: "I've been promoted to project manager. – No way! Congratulations!" },
-          { es: "Mon frère a gagné cent mille euros au Loto. – Ben dis donc !", en: "My brother won a hundred thousand euros on the lottery. – Well I never!" },
           { es: "Tu l'as bien mérité, depuis le temps que tu travailles dur.", en: "You really deserve it, after all the hard work you've put in." },
+          { es: "Sans blague ! Depuis quand ? Tu dois être ravi !", en: "No kidding! Since when? You must be delighted!" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A friend says « J'ai enfin trouvé un appartement ! ». Which reply is built like a native reaction?",
+            options: ["C'est pas vrai ! Dans quel quartier ? Tu dois être soulagé !", "C'est pas vrai !", "Dans quel quartier ?", "Tu dois être soulagé."],
+            correctIndex: 0,
+            explanation: "The full pattern is exclamation + follow-up question + comment. Each of the other three gives only one of the three parts, which sounds abrupt.",
+          },
+        ],
+      },
+      {
+        heading: "The dialogue: the good news",
+        body: [
+          "Antoine: « Tu sais quoi ? J'ai été promu chef de projet. » Camille: « C'est pas vrai ! Félicitations ! Tu l'as bien mérité, depuis le temps que tu bosses comme un fou. » Antoine: « Et ce n'est pas tout : mon frère a gagné au Loto. » Camille: « La vache ! Combien ? » Antoine: « Cent mille euros. » Camille: « Ben dis donc ! Il va arrêter de travailler ? »",
+        ],
+        examples: [
+          { es: "Mon frère a gagné cent mille euros au Loto. – Ben dis donc !", en: "My brother won a hundred thousand euros on the lottery. – Well I never!" },
+          { es: "Il va arrêter de travailler, du coup ?", en: "So is he going to stop working?" },
+          { es: "Tu sais quoi ? J'ai été promu chef de projet.", en: "You know what? I've been promoted to project manager." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Antoine says his brother won 100,000 euros. Which reaction is the most natural?",
+            options: ["Ben dis donc ! Il va en faire quoi ?", "Tant pis ! Il va en faire quoi ?", "Tu m'étonnes ! Il va en faire quoi ?", "Bof ! Il va en faire quoi ?"],
+            correctIndex: 0,
+            explanation: "\"Ben dis donc !\" expresses impressed surprise. \"Tu m'étonnes\" would mean it was predictable, and \"tant pis\" is resignation.",
+          },
+        ],
+      },
+      {
+        heading: "Congratulating in French",
+        body: [
+          "Note \"ben dis donc !\" (well I never!, well!), a very common spoken reaction to impressive figures, and \"félicitations\" (always plural) for an achievement. For a birth or a wedding, French says \"toutes mes félicitations\" or, more warmly, \"c'est génial, je suis trop contente pour vous !\". \"Je suis contente pour toi\" is the standard 'I'm happy for you'; English speakers often forget the \"pour\".",
+        ],
+        examples: [
           { es: "On attend un bébé pour le mois de mars. – Oh, c'est génial ! Je suis trop contente pour vous !", en: "We're expecting a baby in March. – Oh, that's wonderful! I'm so happy for you!" },
           { es: "Toutes mes félicitations pour ton mariage !", en: "Many congratulations on your wedding!" },
-          { es: "Il va arrêter de travailler, du coup ?", en: "So is he going to stop working?" },
+          { es: "Félicitations à tous les deux, c'est une excellente nouvelle !", en: "Congratulations to you both, that's excellent news!" },
         ],
         checkpoint: [
           {
@@ -991,40 +1454,77 @@ export const FR_C2_U09: Lesson[] = [
             explanation: "\"Content pour quelqu'un\" is happy for someone. \"Trop\" is the colloquial 'so' between friends.",
           },
           {
-            type: "multiple-choice",
-            question: "Antoine says his brother won 100,000 euros. Which reaction is the most natural?",
-            options: ["Ben dis donc ! Il va en faire quoi ?", "Tant pis ! Il va en faire quoi ?", "Tu m'étonnes ! Il va en faire quoi ?", "Bof ! Il va en faire quoi ?"],
-            correctIndex: 0,
-            explanation: "\"Ben dis donc !\" expresses impressed surprise. \"Tu m'étonnes\" would mean it was predictable, and \"tant pis\" is resignation.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "We're expecting a baby! – That's wonderful, I'm so happy for you!",
+            answer: "On attend un bébé ! – C'est génial, je suis trop content pour vous !",
+            altAnswers: ["On attend un bébé ! – C'est génial, je suis trop contente pour vous !", "Nous attendons un bébé ! – C'est génial, je suis tellement content pour vous !", "Nous attendons un bébé ! – C'est génial, je suis tellement contente pour vous !", "On attend un bébé ! – C'est merveilleux, je suis tellement content pour vous !", "On attend un bébé ! – C'est merveilleux, je suis tellement contente pour vous !", "On attend un bébé ! – C'est génial, je suis tellement content pour vous !", "On attend un bébé ! – C'est génial, je suis tellement contente pour vous !"],
+            explanation: "\"Attendre un bébé\" is to be expecting; \"content pour vous\" is 'happy for you'.",
           },
         ],
       },
       {
-        heading: "Bad news: a burglary, a broken engagement",
+        heading: "The dialogue: a burglary",
         body: [
           "Antoine: « Par contre, ma sœur s'est fait cambrioler la semaine dernière. » Camille: « Oh non, c'est horrible ! Ils ont pris beaucoup de choses ? » Antoine: « Son ordinateur et les bijoux de sa grand-mère. » Camille: « Oh, la pauvre... Elle a porté plainte ? »",
-          "For misfortune, the reactions are sympathy, not surprise: \"oh non !\", \"c'est pas vrai...\" said low and slowly, \"le/la pauvre !\", \"c'est affreux\", \"quelle horreur\", \"ça a dû être terrible\". \"Mon pauvre / ma pauvre\" addressed to the person is warm and familiar, but avoid it with a superior. With bad news, the follow-up question shows care: \"Comment elle va ?\", \"Je peux faire quelque chose ?\".",
-          "A broken engagement needs tact: Antoine: « Et Julie et Marc, ils ont rompu leurs fiançailles. » Camille: « Mince... Je ne m'y attendais pas du tout. Comment elle le vit ? » Here \"mince\" signals dismay without drama, and \"je ne m'y attendais pas\" (I didn't see that coming) avoids judging. A breezy \"ça alors !\" would sound like gossip.",
         ],
         examples: [
           { es: "Ma sœur s'est fait cambrioler. – Oh non, c'est horrible !", en: "My sister has been burgled. – Oh no, that's awful!" },
           { es: "Ils ont pris les bijoux de sa grand-mère ? Oh, la pauvre...", en: "They took her grandmother's jewellery? Oh, poor thing..." },
           { es: "Elle a porté plainte au commissariat ?", en: "Has she reported it to the police?" },
-          { es: "Ils ont rompu leurs fiançailles. – Mince... Je ne m'y attendais pas du tout.", en: "They've broken off their engagement. – Oh dear... I didn't see that coming at all." },
-          { es: "Comment elle le vit ?", en: "How is she coping with it?" },
-          { es: "Ça a dû être un choc terrible.", en: "It must have been a terrible shock." },
-          { es: "Si je peux faire quoi que ce soit, n'hésite pas.", en: "If there's anything I can do, just ask." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "Oh no, that's awful! Did she report it?",
-            answer: "Oh non, c'est horrible ! Elle a porté plainte ?",
-            altAnswers: ["Oh non, c'est affreux ! Elle a porté plainte ?", "Oh non, c'est terrible ! Elle a porté plainte ?", "Oh non, c'est horrible ! Est-ce qu'elle a porté plainte ?", "Oh non, c'est affreux ! Est-ce qu'elle a porté plainte ?", "Oh non, quelle horreur ! Elle a porté plainte ?"],
-            explanation: "Sympathy first, then a caring follow-up. Reporting a crime is \"porter plainte\".",
+            type: "multiple-choice",
+            question: "Antoine says his sister has been burgled. Which reply fits?",
+            options: ["Oh non, c'est horrible ! Ils ont pris beaucoup de choses ?", "Ça alors ! Raconte !", "Ben dis donc ! Combien ?", "Tu m'étonnes !"],
+            correctIndex: 0,
+            explanation: "Bad news calls for sympathy and a caring question. \"Ça alors\" and \"ben dis donc\" greet impressive news, and \"tu m'étonnes\" would mean she had it coming.",
           },
+        ],
+      },
+      {
+        heading: "Reacting to misfortune",
+        body: [
+          "For misfortune, the reactions are sympathy, not surprise: \"oh non !\", \"c'est pas vrai...\" said low and slowly, \"le/la pauvre !\", \"c'est affreux\", \"quelle horreur\", \"ça a dû être terrible\". \"Mon pauvre / ma pauvre\" addressed to the person is warm and familiar, but avoid it with a superior. With bad news, the follow-up question shows care: \"Comment elle va ?\", \"Je peux faire quelque chose ?\".",
+        ],
+        examples: [
+          { es: "Ça a dû être un choc terrible.", en: "It must have been a terrible shock." },
+          { es: "Si je peux faire quoi que ce soit, n'hésite pas.", en: "If there's anything I can do, just ask." },
+          { es: "Quelle horreur ! Comment elle va, depuis ?", en: "How awful! How has she been since?" },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Ça a dû être un choc terrible.",
+            question: "What does it mean?",
+            options: ["It must have been a terrible shock.", "It had to be a terrible shock.", "It was a terrible shock.", "It will be a terrible shock."],
+            correctIndex: 0,
+            explanation: "\"Ça a dû être\" is the passé composé of devoir expressing probability about the past: 'it must have been'.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "They took everything? [Poor thing]... (about a woman)",
+            sentence: "Ils ont tout pris ? ___...",
+            answer: "La pauvre",
+            altAnswers: ["la pauvre", "Oh, la pauvre"],
+            explanation: "\"Le / la pauvre\" expresses sympathy for a third person; the adjective is used as a noun.",
+          },
+        ],
+      },
+      {
+        heading: "The broken engagement: tact",
+        body: [
+          "A broken engagement needs tact: Antoine: « Et Julie et Marc, ils ont rompu leurs fiançailles. » Camille: « Mince... Je ne m'y attendais pas du tout. Comment elle le vit ? » Here \"mince\" signals dismay without drama, and \"je ne m'y attendais pas\" (I didn't see that coming) avoids judging. A breezy \"ça alors !\" would sound like gossip.",
+        ],
+        examples: [
+          { es: "Ils ont rompu leurs fiançailles. – Mince... Je ne m'y attendais pas du tout.", en: "They've broken off their engagement. – Oh dear... I didn't see that coming at all." },
+          { es: "Comment elle le vit ?", en: "How is she coping with it?" },
+          { es: "Je ne savais pas du tout, tu as de ses nouvelles ?", en: "I had no idea; have you heard from her?" },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1035,29 +1535,43 @@ export const FR_C2_U09: Lesson[] = [
             explanation: "\"S'attendre à\" + y: \"je ne m'y attendais pas\" shows surprise without judging.",
           },
           {
-            type: "listen-choose",
-            audio: "Ça a dû être un choc terrible.",
-            question: "What does it mean?",
-            options: ["It must have been a terrible shock.", "It had to be a terrible shock.", "It was a terrible shock.", "It will be a terrible shock."],
+            type: "multiple-choice",
+            question: "A friend tells you, sadly, that his engagement is off. Which reaction is appropriate?",
+            options: ["Oh mince... Comment tu te sens ?", "Ça alors ! Raconte !", "Tu m'étonnes !", "Ben voyons !"],
             correctIndex: 0,
-            explanation: "\"Ça a dû être\" is the passé composé of devoir expressing probability about the past: 'it must have been'.",
+            explanation: "Bad personal news calls for quiet sympathy and a caring question; the others sound gleeful or sarcastic.",
           },
         ],
       },
       {
-        heading: "Annoyance and irony: a strike, a rent rise, a fib",
+        heading: "Annoyance: the strike and the rent",
         body: [
           "Antoine: « Au fait, tu as entendu ? Grève SNCF jeudi et vendredi. » Camille: « Non mais c'est pas possible ! Encore ? Et moi qui dois aller à Paris jeudi... » Antoine: « Et notre proprio augmente le loyer de dix pour cent. » Camille: « Ben voyons ! Avec les fenêtres qui ferment même pas. »",
-          "\"Et moi qui...\" (and here's me who...) is an excellent native turn for expressing how bad news affects you personally: \"et moi qui avais réservé un hôtel !\". It is followed by the indicative and often trails off. \"Encore ?\" or \"encore !\" (again!) adds weariness.",
-          "Finally, irony: Antoine: « Paul dit qu'il arrêtera de fumer le premier janvier. » Camille: « Mon œil ! Il dit ça tous les ans. » Antoine: « Bon, et toi, ton voyage, c'était bien ? » Camille: « Si tu savais ! Je te raconte tout. » \"Si tu savais !\" is the perfect hook to take over the conversation with your own story.",
         ],
         examples: [
           { es: "Grève SNCF jeudi et vendredi. – Non mais c'est pas possible ! Encore ?", en: "Rail strike on Thursday and Friday. – Oh, you can't be serious! Again?" },
+          { es: "Le propriétaire augmente le loyer de dix pour cent. – Ben voyons !", en: "The landlord is putting the rent up by ten per cent. – Oh, of course he is!" },
+          { es: "Encore ! C'est la troisième grève du trimestre.", en: "Again! That's the third strike this term." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Your landlord raises the rent although the windows still don't close. Which reaction is ironic, as the dialogue is?",
+            options: ["Ben voyons ! Avec des fenêtres qui ne ferment même pas.", "Tant mieux ! Avec des fenêtres qui ne ferment même pas.", "Ouf ! Avec des fenêtres qui ne ferment même pas.", "Carrément ! Avec des fenêtres qui ne ferment même pas."],
+            correctIndex: 0,
+            explanation: "\"Ben voyons !\" pretends to accept something outrageous, which is irony. \"Tant mieux\" and \"ouf\" welcome good news, and \"carrément\" agrees enthusiastically.",
+          },
+        ],
+      },
+      {
+        heading: "Et moi qui...: making it personal",
+        body: [
+          "\"Et moi qui...\" (and here's me who...) is an excellent native turn for expressing how bad news affects you personally: \"et moi qui avais réservé un hôtel !\". It is followed by the indicative and often trails off. \"Encore ?\" or \"encore !\" (again!) adds weariness.",
+        ],
+        examples: [
           { es: "Et moi qui dois aller à Paris jeudi pour un entretien !", en: "And there's me having to go to Paris on Thursday for an interview!" },
           { es: "Et moi qui avais réservé un hôtel non remboursable...", en: "And I'd gone and booked a non-refundable hotel..." },
-          { es: "Le propriétaire augmente le loyer de dix pour cent. – Ben voyons !", en: "The landlord is putting the rent up by ten per cent. – Oh, of course he is!" },
-          { es: "Il dit qu'il arrêtera de fumer le premier janvier. – Mon œil ! Il dit ça tous les ans.", en: "He says he'll quit smoking on the first of January. – Yeah, right! He says that every year." },
-          { es: "Et ton voyage, c'était bien ? – Si tu savais ! Je te raconte tout.", en: "And your trip, was it good? – You have no idea! I'll tell you everything." },
+          { es: "Et moi qui comptais prendre le train de sept heures !", en: "And there's me counting on catching the seven o'clock train!" },
         ],
         checkpoint: [
           {
@@ -1069,6 +1583,19 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Encore une grève ? Et moi qui ai un vol vendredi !", "Encore une grève ? Et moi qui prends l'avion vendredi !", "Une autre grève ? Et moi qui ai un vol vendredi !", "Une autre grève ? Et moi qui ai un avion vendredi !"],
             explanation: "\"Et moi qui\" + verb agreeing with \"moi\" (first person: \"ai\"), a native way to say how the news affects you.",
           },
+        ],
+      },
+      {
+        heading: "Irony, and taking over the conversation",
+        body: [
+          "Finally, irony: Antoine: « Paul dit qu'il arrêtera de fumer le premier janvier. » Camille: « Mon œil ! Il dit ça tous les ans. » Antoine: « Bon, et toi, ton voyage, c'était bien ? » Camille: « Si tu savais ! Je te raconte tout. » \"Si tu savais !\" is the perfect hook to take over the conversation with your own story.",
+        ],
+        examples: [
+          { es: "Il dit qu'il arrêtera de fumer le premier janvier. – Mon œil ! Il dit ça tous les ans.", en: "He says he'll quit smoking on the first of January. – Yeah, right! He says that every year." },
+          { es: "Et ton voyage, c'était bien ? – Si tu savais ! Je te raconte tout.", en: "And your trip, was it good? – You have no idea! I'll tell you everything." },
+          { es: "Si tu savais ce qu'on a vu à Lisbonne !", en: "If only you knew what we saw in Lisbon!" },
+        ],
+        checkpoint: [
           {
             type: "word-order",
             prompt: "Put the words in order to say: You have no idea! I'll tell you everything.",
@@ -1099,22 +1626,6 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "French prefers \"on m'a volé\" or \"je me suis fait voler\" to the passive for misfortunes that happen to you.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "They took everything? [Poor thing]... (about a woman)",
-        sentence: "Ils ont tout pris ? ___...",
-        answer: "La pauvre",
-        altAnswers: ["la pauvre", "Oh, la pauvre"],
-        explanation: "\"Le / la pauvre\" expresses sympathy for a third person; the adjective is used as a noun.",
-      },
-      {
-        type: "multiple-choice",
-        question: "A friend tells you, sadly, that his engagement is off. Which reaction is appropriate?",
-        options: ["Oh mince... Comment tu te sens ?", "Ça alors ! Raconte !", "Tu m'étonnes !", "Ben voyons !"],
-        correctIndex: 0,
-        explanation: "Bad personal news calls for quiet sympathy and a caring question; the others sound gleeful or sarcastic.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -1142,15 +1653,6 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "\"Et moi qui\" + indicative, here a plus-que-parfait for an effort now wasted.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "We're expecting a baby! – That's wonderful, I'm so happy for you!",
-        answer: "On attend un bébé ! – C'est génial, je suis trop content pour vous !",
-        altAnswers: ["On attend un bébé ! – C'est génial, je suis trop contente pour vous !", "Nous attendons un bébé ! – C'est génial, je suis tellement content pour vous !", "Nous attendons un bébé ! – C'est génial, je suis tellement contente pour vous !", "On attend un bébé ! – C'est merveilleux, je suis tellement content pour vous !", "On attend un bébé ! – C'est merveilleux, je suis tellement contente pour vous !", "On attend un bébé ! – C'est génial, je suis tellement content pour vous !", "On attend un bébé ! – C'est génial, je suis tellement contente pour vous !"],
-        explanation: "\"Attendre un bébé\" is to be expecting; \"content pour vous\" is 'happy for you'.",
-      },
-      {
         type: "listen-choose",
         audio: "Ben dis donc ! Cent mille euros !",
         question: "How does the speaker feel?",
@@ -1160,9 +1662,27 @@ export const FR_C2_U09: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Si je peux faire quoi que ce soit, n'hésite pas.",
-        prompt: "Say it in French to a friend: If there's anything I can do, just ask.",
-        explanation: "\"Quoi que ce soit\" (anything at all) takes the subjunctive \"soit\".",
+        text: "Dis-moi si tu as besoin de quoi que ce soit.",
+        prompt: "Say it in French to a friend: Tell me if you need anything at all.",
+        explanation: "\"Quoi que ce soit\" = anything at all; the offer matters more than the exclamation that came before it.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Et moi qui aurais pris un billet non échangeable !",
+        answer: "Et moi qui avais pris un billet non échangeable !",
+        altAnswers: ["Et moi qui ai pris un billet non échangeable !"],
+        explanation: "\"Et moi qui\" is followed by the indicative, so the plus-que-parfait \"avais réservé\" (or the passé composé); the conditional \"aurais réservé\" would mean you never booked at all.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite the ironic reaction for your manager (vous, no slang).",
+        source: "Mon œil ! Il dit ça tous les ans.",
+        answer: "Permettez-moi d'en douter : il dit cela chaque année.",
+        altAnswers: ["Permettez-moi d'en douter, il dit cela chaque année.", "J'avoue en douter : il dit cela chaque année."],
+        explanation: "\"Mon œil !\" is familiar irony between friends; at work the same doubt goes through \"permettez-moi d'en douter\".",
       },
     ],
   },
@@ -1175,20 +1695,14 @@ export const FR_C2_U09: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Prétendre, demander, la déception, rude",
+        heading: "Prétendre is to claim",
         body: [
           "\"Prétendre\" means to claim, usually with doubt: \"il prétend qu'il était chez lui\" (he claims he was at home). To pretend is \"faire semblant de\": \"il fait semblant de dormir\". \"Prétendre à\" is to aspire to, to be entitled to: \"prétendre à une pension\". And \"prétendu\" means so-called, alleged: \"le prétendu expert\".",
-          "\"Demander\" is to ask, never to demand: \"il m'a demandé de l'aider\". To demand is \"exiger\" or \"réclamer\": \"les syndicats exigent une hausse des salaires\". \"La demande\" is a request (\"une demande de visa\") or, in economics, demand. Translating 'they demanded an apology' with \"demander\" waters it down; use \"exiger des excuses\".",
-          "\"La déception\" is disappointment, not deception (\"la tromperie\", \"la supercherie\"): \"quelle déception !\" means 'how disappointing!'. \"Déçu\" is disappointed. And \"rude\" in French means harsh, tough, hard (\"un hiver rude\", \"une rude épreuve\"), occasionally coarse; 'rude' in the English sense is \"impoli\" or \"grossier\".",
         ],
         examples: [
           { es: "Il prétend qu'il n'a jamais reçu ma lettre.", en: "He claims he never received my letter." },
           { es: "Arrête de faire semblant de ne pas me voir !", en: "Stop pretending you can't see me!" },
-          { es: "Les riverains exigent des excuses publiques de la mairie.", en: "The local residents are demanding a public apology from the town hall." },
-          { es: "Elle m'a demandé de passer la voir après le travail.", en: "She asked me to drop by after work." },
-          { es: "Le film a été une vraie déception pour les fans du roman.", en: "The film was a real disappointment for fans of the novel." },
-          { es: "L'hiver a été rude dans les Vosges cette année.", en: "The winter was harsh in the Vosges this year." },
-          { es: "Le serveur a été franchement impoli avec nous.", en: "The waiter was frankly rude to us." },
+          { es: "Le prétendu spécialiste n'avait aucun diplôme.", en: "The so-called specialist had no qualifications." },
         ],
         checkpoint: [
           {
@@ -1200,6 +1714,19 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Elle fait semblant d'être endormie.", "Elle fait mine de dormir."],
             explanation: "To pretend is \"faire semblant de\". \"Elle prétend dormir\" would mean she claims to be asleep.",
           },
+        ],
+      },
+      {
+        heading: "Demander, exiger, réclamer",
+        body: [
+          "\"Demander\" is to ask, never to demand: \"il m'a demandé de l'aider\". To demand is \"exiger\" or \"réclamer\": \"les syndicats exigent une hausse des salaires\". \"La demande\" is a request (\"une demande de visa\") or, in economics, demand. Translating 'they demanded an apology' with \"demander\" waters it down; use \"exiger des excuses\".",
+        ],
+        examples: [
+          { es: "Les riverains exigent des excuses publiques de la mairie.", en: "The local residents are demanding a public apology from the town hall." },
+          { es: "Elle m'a demandé de passer la voir après le travail.", en: "She asked me to drop by after work." },
+          { es: "Sa demande de visa a été refusée en mars.", en: "His visa application was refused in March." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1209,6 +1736,19 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Les salariés réclament une augmentation de salaire.", "Les employés exigent une augmentation de salaire.", "Les employés réclament une augmentation de salaire.", "Les ouvriers exigent une augmentation de salaire.", "Les ouvriers réclament une augmentation de salaire.", "Les salariés exigent une hausse de salaire.", "Les salariés réclament une hausse des salaires.", "Les salariés exigent une augmentation.", "Les salariés réclament une augmentation."],
             explanation: "To demand is \"exiger\" or \"réclamer\"; \"demander\" only means to ask.",
           },
+        ],
+      },
+      {
+        heading: "La déception, and rude",
+        body: [
+          "\"La déception\" is disappointment, not deception (\"la tromperie\", \"la supercherie\"): \"quelle déception !\" means 'how disappointing!'. \"Déçu\" is disappointed. And \"rude\" in French means harsh, tough, hard (\"un hiver rude\", \"une rude épreuve\"), occasionally coarse; 'rude' in the English sense is \"impoli\" or \"grossier\".",
+        ],
+        examples: [
+          { es: "Le film a été une vraie déception pour les fans du roman.", en: "The film was a real disappointment for fans of the novel." },
+          { es: "L'hiver a été rude dans les Vosges cette année.", en: "The winter was harsh in the Vosges this year." },
+          { es: "Le serveur a été franchement impoli avec nous.", en: "The waiter was frankly rude to us." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "What does « Ce fut une rude journée » mean?",
@@ -1216,22 +1756,69 @@ export const FR_C2_U09: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Rude\" means hard, harsh or tough in French; rude in the English sense is \"impoli\".",
           },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            answer: "déception",
+            explanation: "\"Une déception\" is a disappointment; deception would be \"une tromperie\" or \"une supercherie\".",
+            en: "The concert was a real [disappointment].",
+            sentence: "Le concert a été une vraie ___.",
+          },
         ],
       },
       {
-        heading: "Location, sympathique, définitivement",
+        heading: "Une location is a rental",
         body: [
           "\"Une location\" is a rental: \"une voiture de location\" (a hire car), \"une location de vacances\" (a holiday let), \"louer\" (to rent or to let). A location is \"un emplacement\", \"un lieu\" or \"un endroit\"; a film location is \"un lieu de tournage\".",
-          "\"Sympathique\" (or \"sympa\") means nice, likeable, friendly: \"ton frère est très sympathique\". Sympathetic in the sense of understanding is \"compréhensif\" (see Part 1) or \"bienveillant\"; to sympathise is \"compatir\". \"La sympathie\" is liking: \"j'ai beaucoup de sympathie pour elle\" means I like her, but \"toute ma sympathie\" in a condolence message does carry sympathy.",
-          "\"Définitivement\" means permanently, for good: \"il a quitté la France définitivement\" (he left France for good). It does not mean definitely, which is \"sans aucun doute\", \"certainement\", \"absolument\" or, in speech, \"carrément\". \"*C'est définitivement le meilleur film de l'année\" is an anglicism that many young French speakers now use, but careful writers avoid it.",
         ],
         examples: [
           { es: "Nous avons pris une voiture de location à l'aéroport de Nice.", en: "We hired a car at Nice airport." },
           { es: "L'emplacement de l'hôtel était idéal, à deux pas de la plage.", en: "The hotel's location was ideal, a stone's throw from the beach." },
+          { es: "Le lieu de tournage se trouvait à cinquante kilomètres de Montpellier.", en: "The film location was fifty kilometres from Montpellier." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "We've found a holiday rental in Brittany.",
+            answer: "Nous avons trouvé une location de vacances en Bretagne.",
+            altAnswers: ["On a trouvé une location de vacances en Bretagne.", "Nous avons trouvé une location en Bretagne pour les vacances.", "On a trouvé une location en Bretagne pour les vacances."],
+            explanation: "\"Une location\" is a rental. A location would be \"un emplacement\".",
+          },
+        ],
+      },
+      {
+        heading: "Sympathique is likeable",
+        body: [
+          "\"Sympathique\" (or \"sympa\") means nice, likeable, friendly: \"ton frère est très sympathique\". Sympathetic in the sense of understanding is \"compréhensif\" (see Part 1) or \"bienveillant\"; to sympathise is \"compatir\". \"La sympathie\" is liking: \"j'ai beaucoup de sympathie pour elle\" means I like her, but \"toute ma sympathie\" in a condolence message does carry sympathy.",
+        ],
+        examples: [
           { es: "Tes voisins ont l'air très sympathiques.", en: "Your neighbours seem very nice." },
           { es: "Mon médecin a été très compréhensif quand je lui ai parlé de mes horaires.", en: "My doctor was very sympathetic when I told him about my working hours." },
+          { es: "J'ai beaucoup de sympathie pour elle, mais nous ne sommes pas proches.", en: "I like her a lot, but we are not close." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "She's [very sympathetic]: you can tell her anything.",
+            sentence: "Elle est ___ : tu peux tout lui dire.",
+            answer: "très compréhensive",
+            altAnswers: ["très bienveillante", "très à l'écoute"],
+            explanation: "Sympathetic (understanding) is \"compréhensif / compréhensive\"; \"sympathique\" means likeable.",
+          },
+        ],
+      },
+      {
+        heading: "Définitivement is for good",
+        body: [
+          "\"Définitivement\" means permanently, for good: \"il a quitté la France définitivement\" (he left France for good). It does not mean definitely, which is \"sans aucun doute\", \"certainement\", \"absolument\" or, in speech, \"carrément\". \"*C'est définitivement le meilleur film de l'année\" is an anglicism that many young French speakers now use, but careful writers avoid it.",
+        ],
+        examples: [
           { es: "Après vingt ans à Londres, elle est rentrée définitivement à Toulouse.", en: "After twenty years in London, she has moved back to Toulouse for good." },
           { es: "C'est sans aucun doute le meilleur roman de l'année.", en: "It's definitely the best novel of the year." },
+          { es: "Le magasin a fermé définitivement au mois d'août.", en: "The shop closed for good in August." },
         ],
         checkpoint: [
           {
@@ -1252,32 +1839,17 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["certainement", "incontestablement", "sans conteste", "assurément", "indéniablement"],
             explanation: "Definitely is \"sans aucun doute\" or \"incontestablement\"; \"définitivement\" means permanently.",
           },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "We've found a holiday rental in Brittany.",
-            answer: "Nous avons trouvé une location de vacances en Bretagne.",
-            altAnswers: ["On a trouvé une location de vacances en Bretagne.", "Nous avons trouvé une location en Bretagne pour les vacances.", "On a trouvé une location en Bretagne pour les vacances."],
-            explanation: "\"Une location\" is a rental. A location would be \"un emplacement\".",
-          },
         ],
       },
       {
-        heading: "Calques that betray translation",
+        heading: "Calques: avoir du sens",
         body: [
           "A calque is a literal translation that keeps the English structure. Calques are harder to spot than false friends because every word is French. 'To make sense' is \"avoir du sens\" or \"avoir un sens\" (\"ça a du sens\"); \"*faire du sens\" is a widespread anglicism, still criticised. 'It doesn't make sense' is \"ça n'a pas de sens\" or \"ça ne tient pas debout\".",
-          "\"Au niveau de\" means at the level of (\"au niveau de la mer\"); it is massively overused for 'regarding' or 'in terms of': \"*au niveau de la communication, il y a des problèmes\". Prefer \"en matière de\", \"pour ce qui est de\", \"sur le plan de\" or simply restructure: \"la communication pose problème\".",
-          "'To be comfortable with' is not \"*être confortable avec\" (a sofa is \"confortable\", a person is \"à l'aise\"): \"je suis à l'aise avec cette idée\". 'To apply for a job' is \"postuler à un poste\" or \"poser sa candidature\", not \"*appliquer pour\" (\"appliquer\" is to apply a rule or a cream). And 'to support a team' is \"soutenir\" or \"être supporter de\"; \"supporter\" as a verb means to bear, to stand: \"je ne supporte pas cette équipe\" means I can't stand them!",
         ],
         examples: [
           { es: "Ta proposition a du sens, mais elle coûte trop cher.", en: "Your proposal makes sense, but it's too expensive." },
           { es: "Son alibi ne tient pas debout.", en: "His alibi doesn't make sense." },
-          { es: "En matière de sécurité, l'entreprise a beaucoup progressé.", en: "When it comes to safety, the company has made great progress." },
-          { es: "Je ne suis pas très à l'aise avec l'idée de parler en public.", en: "I'm not very comfortable with the idea of speaking in public." },
-          { es: "Elle a postulé à un poste de traductrice à Genève.", en: "She applied for a job as a translator in Geneva." },
-          { es: "Depuis tout petit, il soutient l'Olympique de Marseille.", en: "He's supported Olympique de Marseille since he was a little boy." },
-          { es: "Je ne supporte plus le bruit de la rue.", en: "I can't stand the street noise any more." },
+          { es: "Cette décision n'a aucun sens pour les habitants du quartier.", en: "That decision makes no sense to the people living in the area." },
         ],
         checkpoint: [
           {
@@ -1289,6 +1861,40 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Cela n'a pas de sens.", "Ça n'a aucun sens.", "Cela n'a aucun sens.", "Ça ne tient pas debout.", "Cela ne tient pas debout.", "Ça a pas de sens."],
             explanation: "\"Avoir du sens\" is the French structure; \"*ça ne fait pas de sens\" is a calque.",
           },
+        ],
+      },
+      {
+        heading: "Au niveau de, and what to say instead",
+        body: [
+          "\"Au niveau de\" means at the level of (\"au niveau de la mer\"); it is massively overused for 'regarding' or 'in terms of': \"*au niveau de la communication, il y a des problèmes\". Prefer \"en matière de\", \"pour ce qui est de\", \"sur le plan de\" or simply restructure: \"la communication pose problème\".",
+        ],
+        examples: [
+          { es: "En matière de sécurité, l'entreprise a beaucoup progressé.", en: "When it comes to safety, the company has made great progress." },
+          { es: "Au niveau de la mer, la pression est de un bar.", en: "At sea level, the pressure is one bar." },
+          { es: "Pour ce qui est des délais, rien n'est encore fixé.", en: "As for the deadlines, nothing has been settled yet." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A report says: « Au niveau de la communication, au niveau des délais et au niveau du budget, il y a des problèmes. » Which rewrite would an editor prefer?",
+            options: ["La communication, les délais et le budget posent problème.", "Au niveau communication, délais et budget, il y a des problèmes.", "Il y a des problèmes au niveau de tout.", "Au niveau de la communication, des délais et du budget, ça pose des problèmes."],
+            correctIndex: 0,
+            explanation: "Overused \"au niveau de\" is best removed by making the nouns the subject of the sentence.",
+          },
+        ],
+      },
+      {
+        heading: "À l'aise, postuler, supporter",
+        body: [
+          "'To be comfortable with' is not \"*être confortable avec\" (a sofa is \"confortable\", a person is \"à l'aise\"): \"je suis à l'aise avec cette idée\". 'To apply for a job' is \"postuler à un poste\" or \"poser sa candidature\", not \"*appliquer pour\" (\"appliquer\" is to apply a rule or a cream). And 'to support a team' is \"soutenir\" or \"être supporter de\"; \"supporter\" as a verb means to bear, to stand: \"je ne supporte pas cette équipe\" means I can't stand them!",
+        ],
+        examples: [
+          { es: "Je ne suis pas très à l'aise avec l'idée de parler en public.", en: "I'm not very comfortable with the idea of speaking in public." },
+          { es: "Elle a postulé à un poste de traductrice à Genève.", en: "She applied for a job as a translator in Geneva." },
+          { es: "Depuis tout petit, il soutient l'Olympique de Marseille.", en: "He's supported Olympique de Marseille since he was a little boy." },
+          { es: "Je ne supporte plus le bruit de la rue.", en: "I can't stand the street noise any more." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1297,6 +1903,14 @@ export const FR_C2_U09: Lesson[] = [
             answer: "J'ai postulé à un poste à Lyon.",
             altAnswers: ["J'ai postulé pour un poste à Lyon.", "J'ai posé ma candidature pour un poste à Lyon.", "J'ai candidaté à un poste à Lyon.", "J'ai candidaté pour un poste à Lyon.", "J'ai postulé à une offre d'emploi à Lyon."],
             explanation: "To apply for a job is \"postuler (à / pour)\" or \"poser sa candidature\"; \"appliquer\" is a calque.",
+          },
+          {
+            type: "listen-choose",
+            audio: "Je ne supporte pas cette équipe.",
+            question: "What does it mean?",
+            options: ["I can't stand this team.", "I don't support this team.", "I'm not a member of this team.", "I can't carry this team."],
+            correctIndex: 0,
+            explanation: "\"Supporter\" means to bear, to tolerate; to support a team is \"soutenir\".",
           },
         ],
       },
@@ -1312,30 +1926,13 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "\"Prétendre\" means to claim. Note the agreement \"rencontrée\" with the preceding direct object \"l'\" (her).",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "What a disappointment!",
-        answer: "Quelle déception !",
-        explanation: "\"La déception\" is disappointment; deception would be \"la tromperie\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The customers demanded a refund.",
-        answer: "Les clients ont exigé un remboursement.",
-        altAnswers: ["Les clients ont réclamé un remboursement.", "Les clients exigeaient un remboursement.", "Les clients réclamaient un remboursement.", "Les clients ont exigé d'être remboursés."],
-        explanation: "\"Exiger\" or \"réclamer\" for demand; \"demander\" would only be asking.",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "She's [very sympathetic]: you can tell her anything.",
-        sentence: "Elle est ___ : tu peux tout lui dire.",
-        answer: "très compréhensive",
-        altAnswers: ["très bienveillante", "très à l'écoute"],
-        explanation: "Sympathetic (understanding) is \"compréhensif / compréhensive\"; \"sympathique\" means likeable.",
+        answer: "exigé",
+        altAnswers: ["réclamé"],
+        explanation: "To demand is \"exiger\" or \"réclamer\"; \"demander\" would only be to ask for one.",
+        en: "The customers [demanded] a refund.",
+        sentence: "Les clients ont ___ un remboursement.",
       },
       {
         type: "translate",
@@ -1354,13 +1951,6 @@ export const FR_C2_U09: Lesson[] = [
         answer: "Tu soutiens quelle équipe ?",
         altAnswers: ["Quelle équipe soutiens-tu ?", "Quelle équipe est-ce que tu soutiens ?", "Vous soutenez quelle équipe ?", "Quelle équipe soutenez-vous ?", "Quelle équipe est-ce que vous soutenez ?", "Tu es supporter de quelle équipe ?", "Vous êtes supporter de quelle équipe ?"],
         explanation: "To support a team is \"soutenir\"; \"supporter\" as a verb means to stand, to put up with.",
-      },
-      {
-        type: "multiple-choice",
-        question: "A report says: « Au niveau de la communication, au niveau des délais et au niveau du budget, il y a des problèmes. » Which rewrite would an editor prefer?",
-        options: ["La communication, les délais et le budget posent problème.", "Au niveau communication, délais et budget, il y a des problèmes.", "Il y a des problèmes au niveau de tout.", "Au niveau de la communication, des délais et du budget, ça pose des problèmes."],
-        correctIndex: 0,
-        explanation: "Overused \"au niveau de\" is best removed by making the nouns the subject of the sentence.",
       },
       {
         type: "matching",
@@ -1383,18 +1973,37 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "\"Ne pas tenir debout\" (literally 'not stand up') is the idiomatic way to say a story is implausible.",
       },
       {
-        type: "listen-choose",
-        audio: "Je ne supporte pas cette équipe.",
-        question: "What does it mean?",
-        options: ["I can't stand this team.", "I don't support this team.", "I'm not a member of this team.", "I can't carry this team."],
-        correctIndex: 0,
-        explanation: "\"Supporter\" means to bear, to tolerate; to support a team is \"soutenir\".",
+        type: "speak",
+        text: "J'ai posé ma candidature pour un poste à Bordeaux.",
+        prompt: "Say it in French: I applied for a post in Bordeaux.",
+        explanation: "\"Poser sa candidature\" or \"postuler à\": \"appliquer\" is for rules and creams, never for jobs.",
       },
       {
-        type: "speak",
-        text: "Elle a postulé à un poste de traductrice.",
-        prompt: "Say it in French: She applied for a translator's job.",
-        explanation: "\"Postuler à un poste\", not \"*appliquer pour\".",
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Je suis confortable avec cette méthode de travail.",
+        answer: "Je suis à l'aise avec cette méthode de travail.",
+        altAnswers: ["Cette méthode de travail ne me pose aucun problème."],
+        explanation: "A sofa is \"confortable\"; a person is \"à l'aise\". \"Être confortable avec\" is a calque of the English.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it without the calque « au niveau de ».",
+        source: "Au niveau du budget, il y a un vrai problème.",
+        answer: "En matière de budget, il y a un vrai problème.",
+        altAnswers: ["Le budget pose un vrai problème.", "Pour ce qui est du budget, il y a un vrai problème.", "Sur le plan budgétaire, il y a un vrai problème."],
+        explanation: "\"Au niveau de\" means at the level of; for regarding, French uses \"en matière de\", \"pour ce qui est de\", \"sur le plan de\", or restructures the sentence.",
+      },
+      {
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "He [claims] he was at home all evening.",
+        sentence: "Il ___ qu'il était chez lui toute la soirée.",
+        answer: "prétend",
+        altAnswers: ["soutient"],
+        explanation: "\"Prétendre\" = to claim, with a hint of doubt; to pretend would be \"faire semblant de\".",
       },
     ],
   },
@@ -1407,20 +2016,34 @@ export const FR_C2_U09: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Affliger / infliger, éminent / imminent, perpétrer / perpétuer",
+        heading: "What a paronym is",
         body: [
           "Paronyms are words with nearly the same form and different meanings. Even educated French writers confuse them, which is why they are a favourite of the DALF and of the Bescherelle-style quizzes in newspapers. The only cure is to anchor each one in a typical collocation.",
+        ],
+        examples: [
+          { es: "Les paronymes se ressemblent par la forme et diffèrent par le sens.", en: "Paronyms look alike and mean different things." },
+          { es: "Le meilleur remède est d'apprendre la collocation entière.", en: "The best cure is to learn the whole collocation." },
+          { es: "Les quiz de journaux adorent ces pièges.", en: "Newspaper quizzes love these traps." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What is the most reliable way to keep a pair of paronyms apart?",
+            options: ["Learning each one inside a typical phrase.", "Learning the two definitions side by side.", "Choosing the longer word when in doubt.", "Avoiding both words altogether."],
+            correctIndex: 0,
+            explanation: "Paronyms are told apart by their collocations: \"infliger une amende\", \"un spectacle affligeant\". A bare definition is forgotten; a phrase is not.",
+          },
+        ],
+      },
+      {
+        heading: "Infliger and affliger",
+        body: [
           "\"Infliger\" is to impose something unpleasant on someone: \"infliger une amende, une peine, une défaite\". \"Affliger\" is to cause grief or dismay: \"cette nouvelle m'afflige\", and \"affligeant\" is pitiful, dismal (\"un spectacle affligeant\"). You inflict a punishment; you are afflicted by sorrow. \"*Affliger une amende\" is a classic mistake.",
-          "\"Éminent\" means distinguished, eminent (\"un éminent chercheur\"); \"imminent\" means about to happen (\"un danger imminent\"). \"Perpétrer\" is to commit a crime (\"perpétrer un attentat\"); \"perpétuer\" is to perpetuate, keep alive (\"perpétuer une tradition\"). The first is always criminal, the second usually positive.",
         ],
         examples: [
           { es: "Le tribunal lui a infligé une amende de deux mille euros.", en: "The court fined him two thousand euros." },
           { es: "Le niveau du débat d'hier soir était affligeant.", en: "The level of last night's debate was dismal." },
           { es: "Sa disparition a profondément affligé toute la famille.", en: "His death deeply distressed the whole family." },
-          { es: "Un éminent spécialiste du cerveau donnera une conférence jeudi.", en: "An eminent brain specialist will give a lecture on Thursday." },
-          { es: "Les météorologues annoncent l'arrivée imminente de la tempête.", en: "Forecasters are announcing the imminent arrival of the storm." },
-          { es: "L'attentat a été perpétré par un groupe inconnu.", en: "The attack was carried out by an unknown group." },
-          { es: "Le village perpétue la tradition des feux de la Saint-Jean.", en: "The village keeps alive the tradition of Midsummer bonfires." },
         ],
         checkpoint: [
           {
@@ -1432,6 +2055,27 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["L'arbitre lui a infligé une sanction sévère.", "L'arbitre lui a infligé une lourde pénalité.", "L'arbitre lui a infligé une pénalité sévère."],
             explanation: "\"Infliger\" a penalty, a fine, a defeat. \"Affliger\" means to cause sorrow.",
           },
+        ],
+      },
+      {
+        heading: "Éminent / imminent, perpétrer / perpétuer",
+        body: [
+          "\"Éminent\" means distinguished, eminent (\"un éminent chercheur\"); \"imminent\" means about to happen (\"un danger imminent\"). \"Perpétrer\" is to commit a crime (\"perpétrer un attentat\"); \"perpétuer\" is to perpetuate, keep alive (\"perpétuer une tradition\"). The first is always criminal, the second usually positive.",
+        ],
+        examples: [
+          { es: "Un éminent spécialiste du cerveau donnera une conférence jeudi.", en: "An eminent brain specialist will give a lecture on Thursday." },
+          { es: "Les météorologues annoncent l'arrivée imminente de la tempête.", en: "Forecasters are announcing the imminent arrival of the storm." },
+          { es: "L'attentat a été perpétré par un groupe inconnu.", en: "The attack was carried out by an unknown group." },
+          { es: "Le village perpétue la tradition des feux de la Saint-Jean.", en: "The village keeps alive the tradition of Midsummer bonfires." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Un départ imminent est prévu.", "Un départ éminent est prévu.", "Un imminent professeur est arrivé.", "La crise est éminente."],
+            correctIndex: 0,
+            explanation: "\"Imminent\" is about to happen; \"éminent\" describes distinguished people.",
+          },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1440,28 +2084,17 @@ export const FR_C2_U09: Lesson[] = [
             answer: "perpétuent",
             explanation: "\"Perpétuer\" is to keep alive; \"perpétrer\" is to commit a crime.",
           },
-          {
-            type: "multiple-choice",
-            question: "Which sentence is correct?",
-            options: ["Un départ imminent est prévu.", "Un départ éminent est prévu.", "Un imminent professeur est arrivé.", "La crise est éminente."],
-            correctIndex: 0,
-            explanation: "\"Imminent\" is about to happen; \"éminent\" describes distinguished people.",
-          },
         ],
       },
       {
-        heading: "Conjecture / conjoncture, collusion / collision",
+        heading: "Conjecture and conjoncture",
         body: [
           "\"Une conjecture\" is a hypothesis, a guess: \"se perdre en conjectures\" (to be lost in speculation). \"La conjoncture\" is the current economic or political situation: \"la conjoncture économique\", \"une période de conjoncture difficile\". Journalists mix them up surprisingly often; the economic one has an \"o\" like \"économie\".",
-          "\"Une collision\" is a crash (\"une collision entre deux trains\"), \"entrer en collision avec\". \"Une collusion\" is secret, illegal collaboration, collusion: \"la collusion entre certains élus et des promoteurs\". Both are feminine.",
-          "These pairs belong to the formal register of the press and of reports, which is exactly where a Mastery learner wants to sound precise. A useful habit: when you meet one in a newspaper, note the whole phrase (\"en l'état actuel de la conjoncture\", \"soupçons de collusion\") rather than the bare word.",
         ],
         examples: [
           { es: "Les enquêteurs en sont réduits aux conjectures.", en: "The investigators are reduced to guesswork." },
           { es: "Dans la conjoncture actuelle, nous ne recruterons pas cette année.", en: "In the current economic climate, we won't be recruiting this year." },
           { es: "La conjoncture internationale pèse sur les exportations.", en: "The international situation is weighing on exports." },
-          { es: "Un camion est entré en collision avec un car scolaire.", en: "A lorry collided with a school bus." },
-          { es: "Le rapport dénonce une collusion entre le maire et un promoteur immobilier.", en: "The report denounces collusion between the mayor and a property developer." },
           { es: "On se perd en conjectures sur les raisons de sa démission.", en: "People are lost in speculation about why she resigned." },
         ],
         checkpoint: [
@@ -1474,6 +2107,19 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Compte tenu de la conjoncture actuelle, le projet est reporté.", "Étant donné la conjoncture actuelle, le projet est reporté.", "Vu la conjoncture économique actuelle, le projet est reporté.", "Compte tenu de la conjoncture économique actuelle, le projet est reporté.", "En raison de la conjoncture actuelle, le projet est reporté."],
             explanation: "\"La conjoncture\" is the economic situation; \"une conjecture\" is a guess.",
           },
+        ],
+      },
+      {
+        heading: "Collision and collusion",
+        body: [
+          "\"Une collision\" is a crash (\"une collision entre deux trains\"), \"entrer en collision avec\". \"Une collusion\" is secret, illegal collaboration, collusion: \"la collusion entre certains élus et des promoteurs\". Both are feminine.",
+        ],
+        examples: [
+          { es: "Un camion est entré en collision avec un car scolaire.", en: "A lorry collided with a school bus." },
+          { es: "Le rapport dénonce une collusion entre le maire et un promoteur immobilier.", en: "The report denounces collusion between the mayor and a property developer." },
+          { es: "Deux soupçons de collusion pèsent sur l'appel d'offres.", en: "Two suspicions of collusion hang over the tender." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1494,19 +2140,56 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Acception / acceptation, effraction / infraction",
+        heading: "Noting the whole phrase",
+        body: [
+          "These pairs belong to the formal register of the press and of reports, which is exactly where a Mastery learner wants to sound precise. A useful habit: when you meet one in a newspaper, note the whole phrase (\"en l'état actuel de la conjoncture\", \"soupçons de collusion\") rather than the bare word.",
+        ],
+        examples: [
+          { es: "En l'état actuel de la conjoncture, mieux vaut attendre.", en: "As things stand economically, it is better to wait." },
+          { es: "Le rapport parle de soupçons de collusion, sans preuve.", en: "The report speaks of suspicions of collusion, with no proof." },
+          { es: "Notez la phrase entière, pas le mot seul.", en: "Note the whole phrase, not the bare word." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Investigators are [lost in speculation] about the motive.",
+            sentence: "Les enquêteurs ___ sur le mobile.",
+            answer: "se perdent en conjectures",
+            altAnswers: ["en sont réduits aux conjectures"],
+            explanation: "\"Se perdre en conjectures\" is the fixed phrase; \"la conjoncture\", with its o, is the economic situation.",
+          },
+        ],
+      },
+      {
+        heading: "Acception and acceptation",
         body: [
           "\"Une acception\" is a meaning of a word, a sense: \"dans toutes les acceptions du terme\" (in every sense of the word). \"Une acceptation\" is the act of accepting: \"l'acceptation d'une offre\", \"l'acceptation de soi\". The first is a term of linguistics and the essay; the second is everyday.",
-          "\"Une effraction\" is breaking in: \"un vol avec effraction\" (burglary), \"entrer par effraction\" (to break in). \"Une infraction\" is an offence, a breach of a rule: \"une infraction au code de la route\", \"être en infraction\". Every burglary is an infraction, but not the other way round. \"Une fraction\" is just a fraction.",
-          "These two pairs show why morphology helps: \"ef-fraction\" contains the idea of breaking (as in \"fracture\"), \"in-fraction\" the idea of breaking a rule. When you hesitate, decompose the word, then check it against a typical phrase.",
         ],
         examples: [
           { es: "C'est un aventurier, dans toutes les acceptions du terme.", en: "He's an adventurer in every sense of the word." },
           { es: "L'acceptation de l'offre doit nous parvenir avant le 30 juin.", en: "Acceptance of the offer must reach us before 30 June." },
+          { es: "Le mot « libéral » n'a pas la même acception en France et aux États-Unis.", en: "The word 'liberal' doesn't have the same meaning in France and in the United States." },
+        ],
+        checkpoint: [
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: in every sense of the word",
+            words: ["dans", "toutes", "les", "acceptions", "du", "terme"],
+            translation: "in every sense of the word",
+            explanation: "\"Acception\" is the meaning of a word; \"acceptation\" is the act of accepting.",
+          },
+        ],
+      },
+      {
+        heading: "Effraction and infraction",
+        body: [
+          "\"Une effraction\" is breaking in: \"un vol avec effraction\" (burglary), \"entrer par effraction\" (to break in). \"Une infraction\" is an offence, a breach of a rule: \"une infraction au code de la route\", \"être en infraction\". Every burglary is an infraction, but not the other way round. \"Une fraction\" is just a fraction.",
+        ],
+        examples: [
           { es: "Les cambrioleurs sont entrés par effraction pendant la nuit.", en: "The burglars broke in during the night." },
           { es: "Il a été condamné pour vol avec effraction.", en: "He was convicted of burglary." },
           { es: "Rouler à 70 en ville est une infraction passible d'amende.", en: "Driving at 70 in town is an offence punishable by a fine." },
-          { es: "Le mot « libéral » n'a pas la même acception en France et aux États-Unis.", en: "The word 'liberal' doesn't have the same meaning in France and in the United States." },
         ],
         checkpoint: [
           {
@@ -1519,11 +2202,34 @@ export const FR_C2_U09: Lesson[] = [
             explanation: "\"Entrer par effraction\" is to break in; \"infraction\" is any breach of the law.",
           },
           {
-            type: "word-order",
-            prompt: "Put the words in order to say: in every sense of the word",
-            words: ["dans", "toutes", "les", "acceptions", "du", "terme"],
-            translation: "in every sense of the word",
-            explanation: "\"Acception\" is the meaning of a word; \"acceptation\" is the act of accepting.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Parking here is an offence.",
+            answer: "Se garer ici est une infraction.",
+            altAnswers: ["Stationner ici est une infraction.", "Le stationnement ici est une infraction.", "Se garer ici constitue une infraction.", "Stationner ici constitue une infraction."],
+            explanation: "\"Infraction\" is a breach of a rule; \"effraction\" is breaking in.",
+          },
+        ],
+      },
+      {
+        heading: "Decompose, then check the phrase",
+        body: [
+          "These two pairs show why morphology helps: \"ef-fraction\" contains the idea of breaking (as in \"fracture\"), \"in-fraction\" the idea of breaking a rule. When you hesitate, decompose the word, then check it against a typical phrase.",
+        ],
+        examples: [
+          { es: "« Ef-fraction » contient l'idée de briser, comme dans fracture.", en: "\"Ef-fraction\" carries the idea of breaking, as in \"fracture\"." },
+          { es: "« In-fraction » contient l'idée de briser une règle.", en: "\"In-fraction\" carries the idea of breaking a rule." },
+          { es: "Tout cambriolage est une infraction, l'inverse est faux.", en: "Every burglary is an offence; the reverse is not true." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Les voleurs sont entrés par infraction dans l'entrepôt.",
+            answer: "Les voleurs sont entrés par effraction dans l'entrepôt.",
+            explanation: "\"Entrer par effraction\" = to break in (ef-fraction, breaking something open). \"Une infraction\" is a breach of a rule, which you commit, not a way of getting in.",
           },
         ],
       },
@@ -1563,15 +2269,6 @@ export const FR_C2_U09: Lesson[] = [
         answer: "perpétré",
         altAnswers: ["commis"],
         explanation: "\"Perpétrer\" a crime (formal); \"perpétuer\" means keep alive.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Parking here is an offence.",
-        answer: "Se garer ici est une infraction.",
-        altAnswers: ["Stationner ici est une infraction.", "Le stationnement ici est une infraction.", "Se garer ici constitue une infraction.", "Stationner ici constitue une infraction."],
-        explanation: "\"Infraction\" is a breach of a rule; \"effraction\" is breaking in.",
       },
       {
         type: "translate",
@@ -1622,6 +2319,24 @@ export const FR_C2_U09: Lesson[] = [
         prompt: "Say it in French: In the current economic climate, we're staying cautious.",
         explanation: "\"La conjoncture\" with an o, like \"économie\".",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it with « perpétuer » instead of « garder vivante ».",
+        source: "La confrérie garde vivante la coutume des santons.",
+        answer: "La confrérie perpétue la coutume des santons.",
+        altAnswers: ["La confrérie perpétue la tradition des santons."],
+        explanation: "\"Perpétuer\" = to keep alive, and is usually positive; \"perpétrer\" would mean the brotherhood committed the custom as a crime.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "The court imposed a six-month suspended sentence on him.",
+        answer: "Le tribunal lui a infligé six mois de prison avec sursis.",
+        altAnswers: ["Le tribunal lui a infligé une peine de six mois avec sursis."],
+        explanation: "You \"infliger\" a penalty to someone; \"affliger\" would mean the sentence saddened him.",
+      },
     ],
   },
   {
@@ -1633,19 +2348,15 @@ export const FR_C2_U09: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "-et and -ette: the main diminutive",
+        heading: "-et and -ette, the main diminutive",
         body: [
           "The most common French diminutive suffix is \"-et\" for masculine nouns and \"-ette\" for feminine ones: \"un jardin\" → \"un jardinet\" (a small garden), \"une maison\" → \"une maisonnette\" (a little house, a cottage), \"une fille\" → \"une fillette\" (a little girl), \"un garçon\" → \"un garçonnet\" (a little boy, mostly in shop language: \"rayon garçonnet\"). The derived noun normally keeps the gender of its base.",
-          "A final \"n\" is usually doubled before the suffix: \"maisonnette\", \"chansonnette\", \"cochonnet\". And the suffix can change the meaning more than the size: \"une sucette\" is a lollipop, \"une camionnette\" a van, \"une tablette\" a bar of chocolate or a tablet computer.",
-          "Unlike Spanish or Italian, French does not let you add a diminutive to almost any noun. \"Un livret\" exists, but means a booklet or a savings book, not a little book; \"une tablette\" is not a small table. So the productive tool for size or affection is the adjective: \"un petit livre\", \"une petite table\". Use the suffix only in words you have met.",
         ],
         examples: [
           { es: "Derrière la maison, il y a un jardinet plein de lavande.", en: "Behind the house there's a little garden full of lavender." },
           { es: "Ils ont loué une maisonnette au bord du lac d'Annecy.", en: "They've rented a cottage on the shore of Lake Annecy." },
           { es: "Une fillette d'environ six ans s'est perdue au supermarché.", en: "A little girl of about six got lost in the supermarket." },
           { es: "Le rayon garçonnet est au premier étage.", en: "The boys' clothing department is on the first floor." },
-          { es: "Elle porte une chaînette en or au poignet.", en: "She wears a thin gold chain on her wrist." },
-          { es: "Il m'a offert un livret d'épargne pour mes dix-huit ans.", en: "He gave me a savings account book for my eighteenth birthday." },
         ],
         checkpoint: [
           {
@@ -1657,6 +2368,41 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Ils habitent dans une maisonnette au bord de la mer.", "Ils vivent dans une maisonnette au bord de la mer.", "Ils habitent une petite maison au bord de la mer.", "Ils habitent dans une petite maison au bord de la mer.", "Ils vivent dans une petite maison au bord de la mer.", "Elles habitent une maisonnette au bord de la mer."],
             explanation: "\"Maisonnette\" (double n) is the established diminutive; \"une petite maison\" is just as correct.",
           },
+        ],
+      },
+      {
+        heading: "A doubled n, and meanings that shift",
+        body: [
+          "A final \"n\" is usually doubled before the suffix: \"maisonnette\", \"chansonnette\", \"cochonnet\". And the suffix can change the meaning more than the size: \"une sucette\" is a lollipop, \"une camionnette\" a van, \"une tablette\" a bar of chocolate or a tablet computer.",
+        ],
+        examples: [
+          { es: "Elle porte une chaînette en or au poignet.", en: "She wears a thin gold chain on her wrist." },
+          { es: "Les enfants réclament une sucette à la sortie de l'école.", en: "The children ask for a lollipop on the way out of school." },
+          { es: "Il fredonnait une chansonnette de son enfance.", en: "He was humming a little song from his childhood." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The painter arrived in [a small van].",
+            sentence: "Le peintre est arrivé en ___.",
+            answer: "camionnette",
+            altAnswers: ["une camionnette"],
+            explanation: "\"Camionnette\" is built on \"camion\" with a doubled n, and the suffix has settled into a meaning of its own: a van, not just a small lorry.",
+          },
+        ],
+      },
+      {
+        heading: "Not productive: « petit » is the tool",
+        body: [
+          "Unlike Spanish or Italian, French does not let you add a diminutive to almost any noun. \"Un livret\" exists, but means a booklet or a savings book, not a little book; \"une tablette\" is not a small table. So the productive tool for size or affection is the adjective: \"un petit livre\", \"une petite table\". Use the suffix only in words you have met.",
+        ],
+        examples: [
+          { es: "Il m'a offert un livret d'épargne pour mes dix-huit ans.", en: "He gave me a savings account book for my eighteenth birthday." },
+          { es: "Pose la lampe sur la petite table de l'entrée.", en: "Put the lamp on the small table in the hall." },
+          { es: "J'ai lu un petit livre très drôle sur les trains.", en: "I read a very funny little book about trains." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "How do you naturally say 'a little table' in French?",
@@ -1664,20 +2410,25 @@ export const FR_C2_U09: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Une tablette\" is a bar of chocolate, a shelf or a tablet computer. The productive diminutive is the adjective \"petit\".",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "My little brother is twelve.",
+            answer: "Mon petit frère a douze ans.",
+            altAnswers: ["Mon frérot a douze ans.", "Mon petit frère a 12 ans."],
+            explanation: "\"Petit frère\" is neutral; \"frérot\" is affectionate and familiar.",
+          },
         ],
       },
       {
-        heading: "-on, -eau, -elle: young animals and narrow things",
+        heading: "-on: young animals, and affection",
         body: [
           "\"-on\" names young animals: \"un chat\" → \"un chaton\" (a kitten), \"un ours\" → \"un ourson\" (a bear cub), \"un aigle\" → \"un aiglon\" (an eaglet; \"l'Aiglon\" was Napoleon's son), \"un âne\" → \"un ânon\". With people, \"-on\" can be affectionate: \"mon chaton\" for a child or a partner.",
-          "\"-eau\" and its feminine \"-elle\" are older suffixes from Latin: \"un lion\" → \"un lionceau\" (a lion cub), \"un éléphant\" → \"un éléphanteau\", \"une rue\" → \"une ruelle\" (an alley), \"un arbre\" → \"un arbrisseau\" (a shrub). Many of these are now fixed words; \"une ruelle\" is not just a small street but a narrow back street.",
-          "Notice that the gender can switch with the suffix only in rare cases; the rule of thumb is that \"-on\", \"-eau\", \"-et\" are masculine and \"-elle\", \"-ette\" feminine. Animal cubs are masculine even for a female (\"un chaton femelle\").",
         ],
         examples: [
           { es: "La chatte a eu cinq chatons la nuit dernière.", en: "The cat had five kittens last night." },
           { es: "Au parc national, on a aperçu une ourse et ses deux oursons.", en: "In the national park, we spotted a she-bear and her two cubs." },
-          { es: "Le lionceau suivait sa mère à quelques mètres.", en: "The lion cub followed its mother a few metres behind." },
-          { es: "Ils se sont donné rendez-vous dans une ruelle du Vieux-Lyon.", en: "They arranged to meet in a narrow street in Old Lyon." },
           { es: "L'Aiglon, le fils de Napoléon, est mort à vingt et un ans.", en: "The Eaglet, Napoleon's son, died at twenty-one." },
           { es: "Viens là, mon chaton, il est l'heure d'aller au lit.", en: "Come here, sweetie, it's time for bed." },
         ],
@@ -1691,6 +2442,19 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["On a adopté deux chatons."],
             explanation: "\"Chaton\" is formed with \"-on\", the suffix for young animals.",
           },
+        ],
+      },
+      {
+        heading: "-eau and -elle, the older suffixes",
+        body: [
+          "\"-eau\" and its feminine \"-elle\" are older suffixes from Latin: \"un lion\" → \"un lionceau\" (a lion cub), \"un éléphant\" → \"un éléphanteau\", \"une rue\" → \"une ruelle\" (an alley), \"un arbre\" → \"un arbrisseau\" (a shrub). Many of these are now fixed words; \"une ruelle\" is not just a small street but a narrow back street.",
+        ],
+        examples: [
+          { es: "Le lionceau suivait sa mère à quelques mètres.", en: "The lion cub followed its mother a few metres behind." },
+          { es: "Ils se sont donné rendez-vous dans une ruelle du Vieux-Lyon.", en: "They arranged to meet in a narrow street in Old Lyon." },
+          { es: "Un arbrisseau avait poussé entre deux pierres du mur.", en: "A shrub had grown between two stones in the wall." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1711,20 +2475,35 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "-ot / -otte and frozen diminutives",
+        heading: "The gender of the derived noun",
+        body: [
+          "Notice that the gender can switch with the suffix only in rare cases; the rule of thumb is that \"-on\", \"-eau\", \"-et\" are masculine and \"-elle\", \"-ette\" feminine. Animal cubs are masculine even for a female (\"un chaton femelle\").",
+        ],
+        examples: [
+          { es: "Le chaton femelle est resté dans le panier.", en: "The female kitten stayed in the basket." },
+          { es: "Une ruelle, une chaînette : le féminin suit -elle et -ette.", en: "\"Une ruelle\", \"une chaînette\": the feminine follows -elle and -ette." },
+          { es: "Un jardinet, un lionceau, un ânon : tous masculins.", en: "\"Un jardinet\", \"un lionceau\", \"un ânon\": all masculine." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which article is right for the cub of a female lion?",
+            options: ["un lionceau", "une lionceau", "une lioncelle", "un lioncette"],
+            correctIndex: 0,
+            explanation: "Cubs in -eau, -on and -et are masculine whatever the animal's sex: \"un lionceau\", even for a female. Only -elle and -ette give feminine nouns.",
+          },
+        ],
+      },
+      {
+        heading: "-ot and -otte: familiar and affectionate",
         body: [
           "\"-ot\" and \"-otte\" are familiar and affectionate: \"frère\" → \"frérot\" (little brother, bro), \"sœur\" → \"sœurette\" (with -ette), \"Pierre\" → \"Pierrot\", \"main\" → \"menotte\" (a child's little hand; in the plural \"des menottes\" are handcuffs!). \"Un îlot\" is a small island or a block of buildings, and \"un cheminot\" is a railway worker: here the suffix has lost all idea of size.",
-          "That loss is common. Many words built with a diminutive suffix are now ordinary words with no sense of smallness at all: \"une cigarette\" (from cigare), \"une allumette\" (a match), \"des lunettes\" (glasses, from lune), \"une serviette\" (a towel or napkin), \"une camionnette\" (a van), \"une baguette\", \"une chaussette\" (a sock), \"un poulet\" (a chicken). Linguists call them lexicalised: the suffix is fossilised.",
-          "Practical consequence: don't try to read size into these words, and don't invent new ones. If you need to say small or affectionate, \"petit\" is the default, and the next lesson shows that even \"petit\" often has nothing to do with size.",
         ],
         examples: [
           { es: "Salut frérot, ça fait longtemps !", en: "Hi bro, long time no see!" },
           { es: "Le bébé a attrapé mon doigt avec sa petite menotte.", en: "The baby grabbed my finger with his tiny hand." },
           { es: "Les policiers lui ont passé les menottes.", en: "The police handcuffed him." },
           { es: "Les cheminots ont voté la grève pour jeudi.", en: "The railway workers have voted to strike on Thursday." },
-          { es: "Je ne trouve plus mes lunettes, tu les as vues ?", en: "I can't find my glasses, have you seen them?" },
-          { es: "Il a craqué une allumette pour allumer la bougie.", en: "He struck a match to light the candle." },
-          { es: "On a livré les meubles avec une camionnette de location.", en: "We delivered the furniture in a hired van." },
         ],
         checkpoint: [
           {
@@ -1736,6 +2515,19 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Le suspect a été menotté.", "On a menotté le suspect.", "Les policiers ont passé les menottes au suspect.", "Les policiers ont menotté le suspect."],
             explanation: "\"Les menottes\" are handcuffs, though \"une menotte\" is a child's little hand. French prefers \"on\" or an active verb here.",
           },
+        ],
+      },
+      {
+        heading: "Lexicalised: the suffix has fossilised",
+        body: [
+          "That loss is common. Many words built with a diminutive suffix are now ordinary words with no sense of smallness at all: \"une cigarette\" (from cigare), \"une allumette\" (a match), \"des lunettes\" (glasses, from lune), \"une serviette\" (a towel or napkin), \"une camionnette\" (a van), \"une baguette\", \"une chaussette\" (a sock), \"un poulet\" (a chicken). Linguists call them lexicalised: the suffix is fossilised.",
+        ],
+        examples: [
+          { es: "Je ne trouve plus mes lunettes, tu les as vues ?", en: "I can't find my glasses, have you seen them?" },
+          { es: "Il a craqué une allumette pour allumer la bougie.", en: "He struck a match to light the candle." },
+          { es: "On a livré les meubles avec une camionnette de location.", en: "We delivered the furniture in a hired van." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1744,6 +2536,34 @@ export const FR_C2_U09: Lesson[] = [
             answer: "Tu as une allumette ?",
             altAnswers: ["Vous avez une allumette ?", "As-tu une allumette ?", "Avez-vous une allumette ?", "Est-ce que tu as une allumette ?", "Est-ce que vous avez une allumette ?", "T'as une allumette ?"],
             explanation: "\"Allumette\" is a lexicalised diminutive: it no longer means anything small.",
+          },
+          {
+            type: "multiple-choice",
+            question: "In which word does the suffix still clearly mean 'small'?",
+            options: ["un chaton", "une cigarette", "une serviette", "un cheminot"],
+            correctIndex: 0,
+            explanation: "\"Chaton\" is a young cat. The others are lexicalised: the suffix no longer shrinks anything.",
+          },
+        ],
+      },
+      {
+        heading: "Don't invent new ones",
+        body: [
+          "Practical consequence: don't try to read size into these words, and don't invent new ones. If you need to say small or affectionate, \"petit\" is the default, and the next lesson shows that even \"petit\" often has nothing to do with size.",
+        ],
+        examples: [
+          { es: "« Une tablette » n'est pas une petite table.", en: "\"Une tablette\" is not a small table." },
+          { es: "Pour la taille ou l'affection, « petit » reste la solution sûre.", en: "For size or affection, \"petit\" remains the safe choice." },
+          { es: "N'inventez pas de diminutifs : employez ceux que vous avez rencontrés.", en: "Don't invent diminutives: use the ones you have met." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La librairie se cache dans un ruelle du vieux quartier.",
+            answer: "La librairie se cache dans une ruelle du vieux quartier.",
+            explanation: "Nouns in -elle are feminine: \"une ruelle\", like \"une maisonnette\" in -ette.",
           },
         ],
       },
@@ -1775,22 +2595,6 @@ export const FR_C2_U09: Lesson[] = [
         answer: "un jardinet",
         altAnswers: ["un petit jardin"],
         explanation: "\"Jardinet\" keeps the masculine gender of \"jardin\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "My little brother is twelve.",
-        answer: "Mon petit frère a douze ans.",
-        altAnswers: ["Mon frérot a douze ans.", "Mon petit frère a 12 ans."],
-        explanation: "\"Petit frère\" is neutral; \"frérot\" is affectionate and familiar.",
-      },
-      {
-        type: "multiple-choice",
-        question: "In which word does the suffix still clearly mean 'small'?",
-        options: ["un chaton", "une cigarette", "une serviette", "un cheminot"],
-        correctIndex: 0,
-        explanation: "\"Chaton\" is a young cat. The others are lexicalised: the suffix no longer shrinks anything.",
       },
       {
         type: "translate",
@@ -1836,9 +2640,27 @@ export const FR_C2_U09: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Salut frérot, ça fait longtemps !",
-        prompt: "Say it in French: Hi bro, long time no see!",
-        explanation: "\"Frérot\": affectionate \"-ot\".",
+        text: "Salut frérot, tu viens samedi ?",
+        prompt: "Say it in French: Hi bro, are you coming on Saturday?",
+        explanation: "\"Frérot\" is the affectionate -ot diminutive of \"frère\", used between friends and siblings.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it with the diminutive noun instead of « petite maison ».",
+        source: "Ils ont acheté une petite maison près de Dinan.",
+        answer: "Ils ont acheté une maisonnette près de Dinan.",
+        altAnswers: ["Ils ont acheté une maisonnette à côté de Dinan."],
+        explanation: "\"Maisonnette\" is one of the diminutives that really exists, with its doubled n; most nouns take \"petit\" instead.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "A shrub and a thin chain were all that was left in the garden.",
+        answer: "Il ne restait qu'un arbrisseau et une chaînette dans le jardin.",
+        altAnswers: ["Il ne restait dans le jardin qu'un arbrisseau et une chaînette."],
+        explanation: "\"Arbrisseau\" (-eau, masculine) and \"chaînette\" (-ette, feminine) show the gender rule of the two suffixes.",
       },
     ],
   },
@@ -1851,30 +2673,58 @@ export const FR_C2_U09: Lesson[] = [
     duration: "16 min",
     sections: [
       {
-        heading: "Petit as politeness and affection",
+        heading: "Petit as politeness",
         body: [
           "\"Petit\" is the true French diminutive, and very often it has nothing to do with size. In shops and cafés it softens a request and makes it friendlier: \"je vais prendre un petit café\", \"vous voulez un petit sac ?\", \"une petite signature ici, s'il vous plaît\". Nobody expects a smaller coffee or a shorter signature.",
-          "It also expresses fondness and pleasure: \"on se fait un petit restau ?\" (shall we treat ourselves to a meal out?), \"un petit week-end à la mer\", \"un petit vin de pays\" (a nice little local wine). Here \"petit\" means cosy, modest and enjoyable at once.",
-          "With time, it minimises a burden: \"un petit effort\", \"un petit service\" (a small favour), \"j'ai un petit souci\" (I have a slight problem), which can introduce a very large problem indeed. Learning to hear this \"petit\" as a softener rather than a measure is part of reading French politeness.",
         ],
         examples: [
           { es: "Je vais prendre un petit café, s'il vous plaît.", en: "I'll have a coffee, please." },
           { es: "Une petite signature en bas de la page, et c'est fini.", en: "Just sign at the bottom of the page, and you're done." },
+          { es: "Vous voulez un petit sac pour les emporter ?", en: "Would you like a bag to carry them in?" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A waiter asks « Un petit dessert ? ». What is he offering?",
+            options: ["A dessert, offered in a friendly way.", "A half portion of dessert.", "The cheapest dessert on the menu.", "A dessert for a child."],
+            correctIndex: 0,
+            explanation: "In shops and cafés \"petit\" softens the offer; nothing on the plate gets smaller.",
+          },
+        ],
+      },
+      {
+        heading: "Petit as fondness",
+        body: [
+          "It also expresses fondness and pleasure: \"on se fait un petit restau ?\" (shall we treat ourselves to a meal out?), \"un petit week-end à la mer\", \"un petit vin de pays\" (a nice little local wine). Here \"petit\" means cosy, modest and enjoyable at once.",
+        ],
+        examples: [
           { es: "Et si on se faisait un petit restau samedi ?", en: "How about we go out for a nice meal on Saturday?" },
-          { es: "Tu pourrais me rendre un petit service ?", en: "Could you do me a small favour?" },
-          { es: "On a un petit souci avec votre commande : elle est partie à Lille.", en: "There's a slight problem with your order: it's gone to Lille." },
-          { es: "Allez, encore un petit effort, on est presque au sommet !", en: "Come on, one last push, we're nearly at the top!" },
+          { es: "Ils sont partis en petit week-end à Honfleur.", en: "They've gone away for a nice weekend in Honfleur." },
+          { es: "On a bu un petit vin de pays très agréable.", en: "We drank a very pleasant local wine." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "Could you do me a favour?",
-            answer: "Tu pourrais me rendre un petit service ?",
-            altAnswers: ["Vous pourriez me rendre un petit service ?", "Tu pourrais me rendre un service ?", "Vous pourriez me rendre un service ?", "Pourrais-tu me rendre un petit service ?", "Pourriez-vous me rendre un petit service ?", "Tu peux me rendre un petit service ?", "Vous pouvez me rendre un petit service ?"],
-            explanation: "\"Rendre un service\" is to do a favour; \"petit\" softens the request.",
+            source: "Shall we go away for a nice weekend by the sea?",
+            answer: "On se fait un petit week-end à la mer ?",
+            altAnswers: ["Et si on partait un petit week-end à la mer ?", "On part un petit week-end à la mer ?", "Si on se faisait un petit week-end à la mer ?", "Ça te dit, un petit week-end à la mer ?", "Ça vous dit, un petit week-end à la mer ?"],
+            explanation: "\"Petit\" here adds pleasure and cosiness rather than size.",
           },
+        ],
+      },
+      {
+        heading: "Petit as minimiser",
+        body: [
+          "With time, it minimises a burden: \"un petit effort\", \"un petit service\" (a small favour), \"j'ai un petit souci\" (I have a slight problem), which can introduce a very large problem indeed. Learning to hear this \"petit\" as a softener rather than a measure is part of reading French politeness.",
+        ],
+        examples: [
+          { es: "Tu pourrais me rendre un petit service ?", en: "Could you do me a small favour?" },
+          { es: "On a un petit souci avec votre commande : elle est partie à Lille.", en: "There's a slight problem with your order: it's gone to Lille." },
+          { es: "Allez, encore un petit effort, on est presque au sommet !", en: "Come on, one last push, we're nearly at the top!" },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "The bank adviser says: « On a un petit souci avec votre dossier. » What should you expect?",
@@ -1882,22 +2732,83 @@ export const FR_C2_U09: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Petit\" softens bad news; the size of the problem is not measured by it.",
           },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "There's [a slight problem] with your booking.",
+            sentence: "Il y a ___ avec votre réservation.",
+            answer: "un petit souci",
+            altAnswers: ["un petit problème", "un léger souci", "un léger problème"],
+            explanation: "\"Un petit souci\" announces bad news politely.",
+          },
         ],
       },
       {
-        heading: "Petit with irony and condescension",
+        heading: "Petit as irony about time",
         body: [
           "\"Un petit quart d'heure\" or \"cinq petites minutes\" promises a short wait and usually announces a long one: when the plumber says \"j'en ai pour un petit quart d'heure\", plan on an hour. Conversely, \"un bon quart d'heure\" means a good fifteen minutes or more.",
-          "\"Ma petite dame\" or \"mon petit monsieur\" addressed to an adult is condescending, the tone of an impatient official or salesman. \"Mon petit\" from an older person to a young one can be affectionate or patronising depending on the voice. \"Une petite nature\" is someone delicate, easily tired or ill; it is gently mocking.",
-          "\"Un petit boulot\" is a casual, low-paid job (a student job), \"un petit chef\" a petty tyrant of a manager, \"un petit esprit\" a narrow mind. In each case \"petit\" judges rather than measures. Placement matters too: before the noun it is evaluative, after it (\"un homme petit\") it can only describe physical size, and is rare.",
         ],
         examples: [
           { es: "J'en ai pour un petit quart d'heure, promis.", en: "I'll only be fifteen minutes or so, I promise." },
           { es: "Il nous a fait attendre un bon quart d'heure.", en: "He kept us waiting a good fifteen minutes." },
+          { es: "Cinq petites minutes et je suis à vous.", en: "Just five minutes and I'll be with you." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The repair will take [a good fifteen minutes].",
+            sentence: "La réparation va prendre ___.",
+            answer: "un bon quart d'heure",
+            explanation: "\"Un bon quart d'heure\" means at least fifteen minutes; \"un petit quart d'heure\" pretends it will be shorter.",
+          },
+          {
+            type: "listen-choose",
+            audio: "Il nous a fait attendre un bon quart d'heure.",
+            question: "What does it mean?",
+            options: ["He kept us waiting a good fifteen minutes.", "He kept us waiting a short quarter of an hour.", "He waited for us for fifteen good minutes.", "He made us wait for an hour."],
+            correctIndex: 0,
+            explanation: "\"Un bon quart d'heure\" is at least fifteen minutes.",
+          },
+        ],
+      },
+      {
+        heading: "Petit as condescension",
+        body: [
+          "\"Ma petite dame\" or \"mon petit monsieur\" addressed to an adult is condescending, the tone of an impatient official or salesman. \"Mon petit\" from an older person to a young one can be affectionate or patronising depending on the voice. \"Une petite nature\" is someone delicate, easily tired or ill; it is gently mocking.",
+        ],
+        examples: [
           { es: "Écoutez, ma petite dame, ce n'est pas moi qui fais les règles.", en: "Listen, love, I'm not the one who makes the rules." },
-          { es: "Pendant mes études, j'ai enchaîné les petits boulots.", en: "While I was a student, I did one casual job after another." },
           { es: "Deux kilomètres à pied et tu es épuisé ? Quelle petite nature !", en: "Two kilometres on foot and you're exhausted? What a delicate flower!" },
+          { es: "Mon petit, vous apprendrez tout cela avec le temps.", en: "My boy, you'll learn all that in time." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Écoutez, ma petite dame, ce n'est pas mon problème.",
+            question: "What tone does the speaker take?",
+            options: ["Condescending", "Affectionate", "Respectful", "Flirtatious"],
+            correctIndex: 0,
+            explanation: "\"Ma petite dame\" to an adult stranger is patronising.",
+          },
+          {
+            type: "multiple-choice",
+            question: "A friend complains of being exhausted after a short walk. You tease him. What do you say?",
+            options: ["Quelle petite nature !", "Quel petit boulot !", "Quel petit chef !", "Quel petit souci !"],
+            correctIndex: 0,
+            explanation: "\"Une petite nature\" is someone delicate and easily tired, a gentle mockery.",
+          },
+        ],
+      },
+      {
+        heading: "Petit as judgement, and where it stands",
+        body: [
+          "\"Un petit boulot\" is a casual, low-paid job (a student job), \"un petit chef\" a petty tyrant of a manager, \"un petit esprit\" a narrow mind. In each case \"petit\" judges rather than measures. Placement matters too: before the noun it is evaluative, after it (\"un homme petit\") it can only describe physical size, and is rare.",
+        ],
+        examples: [
+          { es: "Pendant mes études, j'ai enchaîné les petits boulots.", en: "While I was a student, I did one casual job after another." },
           { es: "Ce petit chef passe ses journées à contrôler nos pauses.", en: "That petty boss spends his days checking our breaks." },
+          { es: "C'est un petit esprit : tout le dépasse.", en: "He has a narrow mind: everything is beyond him." },
         ],
         checkpoint: [
           {
@@ -1910,37 +2821,23 @@ export const FR_C2_U09: Lesson[] = [
             explanation: "\"Un petit boulot\" is a casual job; \"petit\" judges its status, not its size.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "The repair will take [a good fifteen minutes].",
-            sentence: "La réparation va prendre ___.",
-            answer: "un bon quart d'heure",
-            explanation: "\"Un bon quart d'heure\" means at least fifteen minutes; \"un petit quart d'heure\" pretends it will be shorter.",
-          },
-          {
-            type: "listen-choose",
-            audio: "Écoutez, ma petite dame, ce n'est pas mon problème.",
-            question: "What tone does the speaker take?",
-            options: ["Condescending", "Affectionate", "Respectful", "Flirtatious"],
+            type: "multiple-choice",
+            question: "Which sentence can only be about physical height?",
+            options: ["C'est un homme petit.", "C'est un petit homme.", "C'est un petit chef.", "C'est un petit esprit."],
             correctIndex: 0,
-            explanation: "\"Ma petite dame\" to an adult stranger is patronising.",
+            explanation: "After the noun, \"petit\" measures: \"un homme petit\" is a short man. Before the noun it judges, which is why \"un petit chef\" is a petty tyrant, not a short one.",
           },
         ],
       },
       {
-        heading: "Terms of endearment and reduplication",
+        heading: "Endearments from food and animals",
         body: [
           "French endearments often come from food and small animals, and they are grammatically surprising: \"mon chou\" (my cabbage, from \"chou à la crème\"), \"ma puce\" (my flea), \"mon lapin\", \"ma biche\" (my doe), \"mon cœur\", \"mon trésor\". \"Ma puce\" is common for little girls and partners; \"mon chou\" stays masculine even for a woman.",
-          "Reduplication is the other childlike diminutive: repeat a syllable to make a pet name or a baby word. \"Fifille\" (from fille, often ironic: \"la fifille à son papa\", daddy's girl), \"nounours\" (teddy bear, from ours), \"Mimi\", \"Jojo\", \"Lolo\", \"dodo\" (sleep: \"au dodo !\"), \"bobo\" (a little hurt, a boo-boo), \"toutou\" (doggy). Some, like \"Jojo\" or \"Mimi\", are now ordinary nicknames for adults.",
-          "Register matters: these words belong to the family and to couples. In the office, even among friends, they would sound strange, unless used ironically: \"Alors, mon lapin, ce rapport ?\" from a manager is a joke or a red flag.",
         ],
         examples: [
           { es: "Bonne nuit, ma puce, fais de beaux rêves.", en: "Good night, sweetheart, sweet dreams." },
           { es: "Tu as passé une bonne journée, mon chou ?", en: "Did you have a good day, darling?" },
-          { es: "Le petit ne s'endort jamais sans son nounours.", en: "The little one never goes to sleep without his teddy bear." },
-          { es: "Allez, les enfants, au dodo !", en: "Come on, kids, off to bed!" },
-          { es: "Montre-moi ton bobo, je vais mettre un pansement.", en: "Show me where it hurts, I'll put a plaster on it." },
-          { es: "C'est la fifille à son papa : elle obtient toujours ce qu'elle veut.", en: "She's daddy's little girl: she always gets what she wants." },
+          { es: "Viens là, mon lapin, je te mets ton manteau.", en: "Come here, sweetheart, let me put your coat on." },
         ],
         checkpoint: [
           {
@@ -1953,11 +2850,54 @@ export const FR_C2_U09: Lesson[] = [
             explanation: "\"Ma puce\" (my flea) is a typical endearment for a little girl; \"mon cœur\" and \"mon trésor\" work for anyone.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Show me where it hurts, sweetie.",
+            answer: "Montre-moi ton bobo, mon chou.",
+            altAnswers: ["Montre-moi ton bobo, ma puce.", "Montre-moi où tu as mal, mon chou.", "Montre-moi où tu as mal, ma puce.", "Montre-moi ton bobo, mon chéri.", "Montre-moi ton bobo, ma chérie.", "Montre-moi où tu as mal, mon chéri.", "Montre-moi où tu as mal, ma chérie.", "Montre-moi ton bobo, mon cœur.", "Montre-moi où tu as mal, mon cœur."],
+            explanation: "\"Bobo\" is the reduplicated baby word for a hurt; \"mon chou\" stays masculine for any child.",
+          },
+        ],
+      },
+      {
+        heading: "Reduplication: nounours, dodo, bobo",
+        body: [
+          "Reduplication is the other childlike diminutive: repeat a syllable to make a pet name or a baby word. \"Fifille\" (from fille, often ironic: \"la fifille à son papa\", daddy's girl), \"nounours\" (teddy bear, from ours), \"Mimi\", \"Jojo\", \"Lolo\", \"dodo\" (sleep: \"au dodo !\"), \"bobo\" (a little hurt, a boo-boo), \"toutou\" (doggy). Some, like \"Jojo\" or \"Mimi\", are now ordinary nicknames for adults.",
+        ],
+        examples: [
+          { es: "Le petit ne s'endort jamais sans son nounours.", en: "The little one never goes to sleep without his teddy bear." },
+          { es: "Allez, les enfants, au dodo !", en: "Come on, kids, off to bed!" },
+          { es: "Montre-moi ton bobo, je vais mettre un pansement.", en: "Show me where it hurts, I'll put a plaster on it." },
+          { es: "C'est la fifille à son papa : elle obtient toujours ce qu'elle veut.", en: "She's daddy's little girl: she always gets what she wants." },
+        ],
+        checkpoint: [
+          {
             type: "word-order",
             prompt: "Put the words in order to say: Come on, off to bed, it's late!",
             words: ["Allez,", "au", "dodo,", "il", "est", "tard !"],
             translation: "Come on, off to bed, it's late!",
             explanation: "\"Dodo\" is the reduplicated baby word for sleep, from \"dormir\".",
+          },
+        ],
+      },
+      {
+        heading: "Register: family, couples, and jokes",
+        body: [
+          "Register matters: these words belong to the family and to couples. In the office, even among friends, they would sound strange, unless used ironically: \"Alors, mon lapin, ce rapport ?\" from a manager is a joke or a red flag.",
+        ],
+        examples: [
+          { es: "Ces mots appartiennent à la famille et au couple.", en: "These words belong to the family and to couples." },
+          { es: "Au bureau, « mon lapin » serait au mieux une plaisanterie.", en: "At work, \"mon lapin\" would at best be a joke." },
+          { es: "Jojo et Mimi sont devenus des surnoms d'adultes.", en: "\"Jojo\" and \"Mimi\" have become grown-up nicknames." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Your manager says « Alors, mon lapin, ce rapport ? ». How do you read it?",
+            options: ["Either a joke between close colleagues, or a worrying familiarity.", "A standard professional greeting.", "A compliment on your work.", "A sign that you are being promoted."],
+            correctIndex: 0,
+            explanation: "Endearments belong to the family and to couples; from a manager they are either irony or a red flag.",
           },
         ],
       },
@@ -1967,44 +2907,19 @@ export const FR_C2_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Shall we go away for a nice weekend by the sea?",
-        answer: "On se fait un petit week-end à la mer ?",
-        altAnswers: ["Et si on partait un petit week-end à la mer ?", "On part un petit week-end à la mer ?", "Si on se faisait un petit week-end à la mer ?", "Ça te dit, un petit week-end à la mer ?", "Ça vous dit, un petit week-end à la mer ?"],
-        explanation: "\"Petit\" here adds pleasure and cosiness rather than size.",
+        source: "I'll have a salad, please.",
+        answer: "Je vais prendre une petite salade, s'il vous plaît.",
+        altAnswers: ["Je prendrai une petite salade, s'il vous plaît.", "Je vais prendre une salade, s'il vous plaît."],
+        explanation: "The café \"petit\" is pure friendliness: the cup is the usual size.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "I'll have a coffee, please. (in a café)",
-        answer: "Je vais prendre un petit café, s'il vous plaît.",
-        altAnswers: ["Je vais prendre un café, s'il vous plaît.", "Un petit café, s'il vous plaît.", "Un café, s'il vous plaît.", "Je prendrai un petit café, s'il vous plaît.", "Je prendrai un café, s'il vous plaît."],
-        explanation: "\"Un petit café\" is a friendly way to order; it doesn't ask for a smaller one.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "There's [a slight problem] with your booking.",
-        sentence: "Il y a ___ avec votre réservation.",
-        answer: "un petit souci",
-        altAnswers: ["un petit problème", "un léger souci", "un léger problème"],
-        explanation: "\"Un petit souci\" announces bad news politely.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I'll only be fifteen minutes or so.",
-        answer: "J'en ai pour un petit quart d'heure.",
-        altAnswers: ["J'en ai pour un quart d'heure.", "J'en ai pour un petit quart d'heure, pas plus.", "Ça va me prendre un petit quart d'heure."],
-        explanation: "\"En avoir pour + duration\" is how long something will take you; \"petit\" minimises.",
-      },
-      {
-        type: "multiple-choice",
-        question: "A friend complains of being exhausted after a short walk. You tease him. What do you say?",
-        options: ["Quelle petite nature !", "Quel petit boulot !", "Quel petit chef !", "Quel petit souci !"],
-        correctIndex: 0,
-        explanation: "\"Une petite nature\" is someone delicate and easily tired, a gentle mockery.",
+        source: "The plumber says he'll only be fifteen minutes or so.",
+        answer: "Le plombier dit qu'il en a pour un petit quart d'heure.",
+        altAnswers: ["Le plombier dit qu'il en a pour un petit quart d'heure seulement."],
+        explanation: "\"Un petit quart d'heure\" promises less than it delivers; \"un bon quart d'heure\" promises more.",
       },
       {
         type: "translate",
@@ -2014,15 +2929,6 @@ export const FR_C2_U09: Lesson[] = [
         answer: "C'est un petit chef qui contrôle tout.",
         altAnswers: ["C'est un petit chef qui vérifie tout.", "Il est petit chef et contrôle tout."],
         explanation: "\"Un petit chef\" is a petty manager; \"petit\" carries contempt.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Show me where it hurts, sweetie.",
-        answer: "Montre-moi ton bobo, mon chou.",
-        altAnswers: ["Montre-moi ton bobo, ma puce.", "Montre-moi où tu as mal, mon chou.", "Montre-moi où tu as mal, ma puce.", "Montre-moi ton bobo, mon chéri.", "Montre-moi ton bobo, ma chérie.", "Montre-moi où tu as mal, mon chéri.", "Montre-moi où tu as mal, ma chérie.", "Montre-moi ton bobo, mon cœur.", "Montre-moi où tu as mal, mon cœur."],
-        explanation: "\"Bobo\" is the reduplicated baby word for a hurt; \"mon chou\" stays masculine for any child.",
       },
       {
         type: "matching",
@@ -2044,18 +2950,36 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "\"Une petite signature\" makes the request lighter and friendlier.",
       },
       {
-        type: "listen-choose",
-        audio: "Il nous a fait attendre un bon quart d'heure.",
-        question: "What does it mean?",
-        options: ["He kept us waiting a good fifteen minutes.", "He kept us waiting a short quarter of an hour.", "He waited for us for fifteen good minutes.", "He made us wait for an hour."],
-        correctIndex: 0,
-        explanation: "\"Un bon quart d'heure\" is at least fifteen minutes.",
+        type: "speak",
+        text: "Tu pourrais me donner un petit coup de main ?",
+        prompt: "Say it in French to a friend: Could you give me a hand?",
+        explanation: "\"Un petit service\" minimises what you are asking, which is exactly what makes it polite.",
       },
       {
-        type: "speak",
-        text: "Tu pourrais me rendre un petit service ?",
-        prompt: "Say it in French to a friend: Could you do me a small favour?",
-        explanation: "\"Petit\" softens the request.",
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite the request with the softening « petit ».",
+        source: "Signez en bas de la page, s'il vous plaît.",
+        answer: "Une petite signature en bas de la page, s'il vous plaît.",
+        altAnswers: ["Une petite signature au bas de la page, s'il vous plaît."],
+        explanation: "The noun phrase with \"petit\" replaces the bare imperative and sounds friendlier; the signature is no shorter for it.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Il m'a fait attendre une bonne quart d'heure devant la porte.",
+        answer: "Il m'a fait attendre un bon quart d'heure devant la porte.",
+        explanation: "\"Un quart d'heure\" is masculine, so the adjective is \"un bon\"; \"un bon quart d'heure\" means fifteen minutes or more, unlike the ironic \"un petit quart d'heure\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "Two kilometres and he's tired? What a delicate soul!",
+        answer: "Deux kilomètres et il est fatigué ? Quelle petite nature !",
+        altAnswers: ["Deux kilomètres et il est fatigué ? Quelle petite nature, celui-là !"],
+        explanation: "\"Une petite nature\" gently mocks someone easily tired or ill; it judges, it does not measure.",
       },
     ],
   },
@@ -2068,19 +2992,14 @@ export const FR_C2_U09: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "-ard and -aud: people with a fault",
+        heading: "-ard: a label with a fault in it",
         body: [
           "\"-ard\" (feminine \"-arde\") turns a word into a disparaging label for a person: \"un chauffard\" (a reckless driver, from chauffeur), \"un froussard\" (a coward, from la frousse, fear), \"un vantard\" (a boaster, from se vanter), \"un richard\" (a moneybags), \"un soûlard\" (a drunkard), \"un fêtard\" (a party animal, milder). Note English has the same suffix in drunkard, coward, laggard.",
-          "\"-aud\" (feminine \"-aude\") is similar but often mocks someone's body or manner: \"un lourdaud\" (a clumsy oaf), \"rougeaud\" (ruddy-faced), \"un salaud\" (a bastard, offensive), \"un costaud\" (a hefty man, which is actually positive). Context and tone tell you how offensive the word is.",
-          "Both suffixes are still somewhat productive in speech and in the press: \"un banlieusard\" (a suburban commuter, mildly condescending), \"un communard\" (historical: a member of the Paris Commune). Beware: not every -ard word is negative (\"un montagnard\", a mountain dweller; \"un campagnard\", a country person, neutral or slightly rustic).",
         ],
         examples: [
           { es: "Un chauffard a grillé le feu rouge et percuté un scooter.", en: "A reckless driver ran the red light and hit a scooter." },
           { es: "Ne fais pas ton froussard, ce n'est qu'un orage !", en: "Don't be such a scaredy-cat, it's only a storm!" },
           { es: "Quel vantard, il raconte partout qu'il a couru le marathon en trois heures.", en: "What a show-off, he's telling everyone he ran the marathon in three hours." },
-          { es: "Le patron du café, un gros homme rougeaud, nous a servis lui-même.", en: "The man who runs the cafe, a stout, ruddy-faced man, served us himself." },
-          { es: "Les banlieusards ont encore subi des retards ce matin.", en: "Commuters from the suburbs suffered delays again this morning." },
-          { es: "Son frère est un vrai costaud : il a porté le frigo tout seul.", en: "Her brother is a real strongman: he carried the fridge on his own." },
         ],
         checkpoint: [
           {
@@ -2092,6 +3011,41 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Un chauffard a provoqué l'accident.", "C'est un chauffard qui a causé l'accident.", "C'est un chauffard qui a provoqué l'accident.", "L'accident a été causé par un chauffard.", "L'accident a été provoqué par un chauffard."],
             explanation: "\"Chauffard\" is the pejorative \"-ard\" form of \"chauffeur\".",
           },
+        ],
+      },
+      {
+        heading: "-aud: mocking the body or the manner",
+        body: [
+          "\"-aud\" (feminine \"-aude\") is similar but often mocks someone's body or manner: \"un lourdaud\" (a clumsy oaf), \"rougeaud\" (ruddy-faced), \"un salaud\" (a bastard, offensive), \"un costaud\" (a hefty man, which is actually positive). Context and tone tell you how offensive the word is.",
+        ],
+        examples: [
+          { es: "Le patron du café, un gros homme rougeaud, nous a servis lui-même.", en: "The man who runs the cafe, a stout, ruddy-faced man, served us himself." },
+          { es: "Son frère est un vrai costaud : il a porté le frigo tout seul.", en: "Her brother is a real strongman: he carried the fridge on his own." },
+          { es: "Ce lourdaud a renversé son verre sur la nappe.", en: "That clumsy oaf knocked his glass over on the tablecloth." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Her brother is a real [hefty fellow].",
+            sentence: "Son frère est un vrai ___.",
+            answer: "costaud",
+            altAnswers: ["costaud, il soulève tout"],
+            explanation: "\"Costaud\" is one of the rare -aud words that flatters: strong and solid.",
+          },
+        ],
+      },
+      {
+        heading: "Still productive, but not always negative",
+        body: [
+          "Both suffixes are still somewhat productive in speech and in the press: \"un banlieusard\" (a suburban commuter, mildly condescending), \"un communard\" (historical: a member of the Paris Commune). Beware: not every -ard word is negative (\"un montagnard\", a mountain dweller; \"un campagnard\", a country person, neutral or slightly rustic).",
+        ],
+        examples: [
+          { es: "Les banlieusards ont encore subi des retards ce matin.", en: "Commuters from the suburbs suffered delays again this morning." },
+          { es: "Les montagnards connaissent chaque sentier du massif.", en: "The mountain people know every path in the range." },
+          { es: "Mon oncle est un campagnard qui déteste la ville.", en: "My uncle is a countryman who hates the city." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which -ard / -aud word is NOT negative?",
@@ -2102,20 +3056,14 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "-asse, -âtre and verbs in -ailler / -asser",
+        heading: "-asse: scorn for things",
         body: [
-          "\"-asse\" expresses scorn for things: \"la paperasse\" (red tape, piles of paperwork), \"la vinasse\" (plonk), \"fadasse\" (insipid, from fade), \"une blondasse\" (a dumb blonde, offensive). With adjectives, \"-âtre\" means 'roughly, -ish' and is often unflattering: \"rougeâtre\" (reddish), \"verdâtre\" (greenish, often sickly), \"douceâtre\" (sickly sweet), \"blanchâtre\". With people it is clearly pejorative: \"un bellâtre\" is a vain, superficially handsome man.",
-          "Watch \"marâtre\": historically simply a stepmother, today it means a cruel stepmother (the one in fairy tales). A neutral stepmother is \"une belle-mère\", which is also a mother-in-law; context decides.",
-          "Verbs take pejorative suffixes too: \"-ailler\" and \"-asser\" add repetition, pettiness or laziness. \"Criailler\" (to squawk on and on), \"traînailler\" or \"traînasser\" (to hang about doing nothing), \"rêvasser\" (to daydream idly), \"rimailler\" (to write bad verse), \"tirailler\" (to pull this way and that: \"être tiraillé entre deux choix\"). They add a judgement English expresses with adverbs.",
+          "\"-asse\" expresses scorn for things: \"la paperasse\" (red tape, piles of paperwork), \"la vinasse\"",
         ],
         examples: [
           { es: "Pour ouvrir un compte, il faut remplir une montagne de paperasse.", en: "To open an account, you have to fill in a mountain of paperwork." },
           { es: "Cette soupe est fadasse, tu as oublié le sel ?", en: "This soup is bland, did you forget the salt?" },
-          { es: "L'eau du canal avait pris une couleur verdâtre.", en: "The canal water had turned a greenish colour." },
-          { es: "Dans le conte, la marâtre envoie Cendrillon nettoyer la cheminée.", en: "In the fairy tale, the wicked stepmother sends Cinderella to clean the chimney." },
-          { es: "Au lieu de réviser, il rêvasse en regardant par la fenêtre.", en: "Instead of revising, he's daydreaming, looking out of the window." },
-          { es: "Le dimanche, on traînasse en pyjama jusqu'à midi.", en: "On Sundays we laze around in our pyjamas until noon." },
-          { es: "Elle est tiraillée entre sa carrière et sa famille.", en: "She's torn between her career and her family." },
+          { es: "Ils nous ont servi une vinasse imbuvable.", en: "They served us some undrinkable plonk." },
         ],
         checkpoint: [
           {
@@ -2127,6 +3075,68 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["J'ai horreur de toute cette paperasse.", "Je déteste toute cette paperasserie."],
             explanation: "\"La paperasse\" (with -asse) expresses irritation; \"les papiers administratifs\" would be neutral.",
           },
+        ],
+      },
+      {
+        heading: "-âtre: roughly that colour, and worse",
+        body: [
+          "(plonk), \"fadasse\" (insipid, from fade), \"une blondasse\" (a dumb blonde, offensive). With adjectives, \"-âtre\" means 'roughly, -ish' and is often unflattering: \"rougeâtre\" (reddish), \"verdâtre\" (greenish, often sickly), \"douceâtre\" (sickly sweet), \"blanchâtre\". With people it is clearly pejorative: \"un bellâtre\" is a vain, superficially handsome man.",
+        ],
+        examples: [
+          { es: "L'eau du canal avait pris une couleur verdâtre.", en: "The canal water had turned a greenish colour." },
+          { es: "Le mur avait une teinte blanchâtre, comme délavée.", en: "The wall was a whitish shade, as if washed out." },
+          { es: "Ce bellâtre passe son temps devant le miroir.", en: "That vain pretty boy spends his time in front of the mirror." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Le ciel avait pris une teinte rougeâtre.",
+            question: "What does it mean?",
+            options: ["The sky had turned a reddish colour.", "The sky had turned bright red.", "The sky had turned a rosy pink.", "The sky had turned dark."],
+            correctIndex: 0,
+            explanation: "\"-âtre\" means roughly, '-ish', often with an unpleasant nuance.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The sauce has a [sickly sweet] taste.",
+            sentence: "La sauce a un goût ___.",
+            answer: "douceâtre",
+            explanation: "\"-âtre\" adds an unpleasant approximation: sweetish in a cloying way.",
+          },
+        ],
+      },
+      {
+        heading: "The case of « marâtre »",
+        body: [
+          "Watch \"marâtre\": historically simply a stepmother, today it means a cruel stepmother (the one in fairy tales). A neutral stepmother is \"une belle-mère\", which is also a mother-in-law; context decides.",
+        ],
+        examples: [
+          { es: "Dans le conte, la marâtre envoie Cendrillon nettoyer la cheminée.", en: "In the fairy tale, the wicked stepmother sends Cinderella to clean the chimney." },
+          { es: "Ma belle-mère est aussi la mère de mon mari.", en: "My \"belle-mère\" is also my husband's mother." },
+          { es: "Dans les contes, la marâtre est toujours cruelle.", en: "In fairy tales, the \"marâtre\" is always cruel." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does « la marâtre » mean in modern French?",
+            options: ["a cruel stepmother", "a stepmother, neutrally", "a mother-in-law", "a godmother"],
+            correctIndex: 0,
+            explanation: "\"Marâtre\" has become pejorative; a neutral stepmother is \"une belle-mère\".",
+          },
+        ],
+      },
+      {
+        heading: "Verbs in -ailler and -asser",
+        body: [
+          "Verbs take pejorative suffixes too: \"-ailler\" and \"-asser\" add repetition, pettiness or laziness. \"Criailler\" (to squawk on and on), \"traînailler\" or \"traînasser\" (to hang about doing nothing), \"rêvasser\" (to daydream idly), \"rimailler\" (to write bad verse), \"tirailler\" (to pull this way and that: \"être tiraillé entre deux choix\"). They add a judgement English expresses with adverbs.",
+        ],
+        examples: [
+          { es: "Au lieu de réviser, il rêvasse en regardant par la fenêtre.", en: "Instead of revising, he's daydreaming, looking out of the window." },
+          { es: "Le dimanche, on traînasse en pyjama jusqu'à midi.", en: "On Sundays we laze around in our pyjamas until noon." },
+          { es: "Elle est tiraillée entre sa carrière et sa famille.", en: "She's torn between her career and her family." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -2137,29 +3147,23 @@ export const FR_C2_U09: Lesson[] = [
             explanation: "\"Rêvasser\" (-asser) is to daydream idly, with a hint of disapproval.",
           },
           {
-            type: "listen-choose",
-            audio: "Le ciel avait pris une teinte rougeâtre.",
-            question: "What does it mean?",
-            options: ["The sky had turned a reddish colour.", "The sky had turned bright red.", "The sky had turned a rosy pink.", "The sky had turned dark."],
-            correctIndex: 0,
-            explanation: "\"-âtre\" means roughly, '-ish', often with an unpleasant nuance.",
+            type: "word-order",
+            prompt: "Put the words in order to say: On Sundays, we laze around until noon.",
+            words: ["Le", "dimanche,", "on", "traînasse", "jusqu'à", "midi."],
+            translation: "On Sundays, we laze around until noon.",
+            explanation: "\"Traînasser\" (-asser) expresses idle lingering.",
           },
         ],
       },
       {
-        heading: "Intensifiers: super-, hyper-, archi-, ultra-, méga-, -issime",
+        heading: "Intensifying prefixes",
         body: [
           "To intensify, spoken French loves prefixes: \"super\" (\"super content\", \"super bien\"), \"hyper\" (\"hyper important\"), \"ultra\" (\"ultra rapide\"), \"méga\" (\"une méga fête\", youthful), and \"archi\" (\"archiplein\", \"archifaux\", \"archiconnu\"), which is especially common with \"plein\", \"faux\" and \"connu\". Spelling varies: \"archiplein\" is joined, \"super content\" separate; \"hyper\" and \"ultra\" are often joined with a hyphen or solid in established words (\"ultrarapide\", \"hypermarché\").",
-          "These are colloquial. In a report or a cover letter, use \"très\", \"extrêmement\", \"particulièrement\", \"tout à fait\" instead. Writing \"un projet hyper intéressant\" in a formal email is like writing 'a super interesting project' in a job application.",
-          "The suffix \"-issime\", borrowed from Italian, survives in a handful of words: \"richissime\" (fabulously rich), \"rarissime\" (extremely rare), \"illustrissime\", \"grandissime\". It is either formal (\"un manuscrit rarissime\") or jocular (\"c'est importantissime !\"). Don't invent new -issime words except as a joke.",
         ],
         examples: [
           { es: "Le métro était archiplein à huit heures.", en: "The metro was absolutely packed at eight o'clock." },
           { es: "Ce qu'il raconte est archifaux.", en: "What he's saying is completely untrue." },
           { es: "Je suis super contente de te revoir !", en: "I'm so happy to see you again!" },
-          { es: "C'est une collectionneuse richissime qui a acheté le tableau.", en: "It was a fabulously wealthy collector who bought the painting." },
-          { es: "Ce timbre est rarissime : il n'en existe que trois exemplaires.", en: "This stamp is extremely rare: only three copies exist." },
-          { es: "La réunion de demain est particulièrement importante.", en: "Tomorrow's meeting is especially important." },
           { es: "Ils ont organisé une méga fête pour ses trente ans.", en: "They threw a huge party for his thirtieth." },
         ],
         checkpoint: [
@@ -2172,6 +3176,19 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Le train était archi-plein.", "Le train était bondé.", "Le train était plein à craquer.", "Le train était complètement plein.", "Le train était hyper plein."],
             explanation: "\"Archiplein\" (colloquial) or \"bondé\" (neutral) for packed.",
           },
+        ],
+      },
+      {
+        heading: "Not in a cover letter",
+        body: [
+          "These are colloquial. In a report or a cover letter, use \"très\", \"extrêmement\", \"particulièrement\", \"tout à fait\" instead. Writing \"un projet hyper intéressant\" in a formal email is like writing 'a super interesting project' in a job application.",
+        ],
+        examples: [
+          { es: "La réunion de demain est particulièrement importante.", en: "Tomorrow's meeting is especially important." },
+          { es: "Votre proposition est extrêmement intéressante.", en: "Your proposal is extremely interesting." },
+          { es: "Ce dossier est tout à fait prioritaire.", en: "This file is absolutely a priority." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "In a cover letter, how should you describe a project you found very interesting?",
@@ -2179,6 +3196,19 @@ export const FR_C2_U09: Lesson[] = [
             correctIndex: 0,
             explanation: "The prefixes are colloquial and \"-issime\" here is a joke; formal writing uses \"particulièrement\" or \"extrêmement\".",
           },
+        ],
+      },
+      {
+        heading: "-issime, borrowed from Italian",
+        body: [
+          "The suffix \"-issime\", borrowed from Italian, survives in a handful of words: \"richissime\" (fabulously rich), \"rarissime\" (extremely rare), \"illustrissime\", \"grandissime\". It is either formal (\"un manuscrit rarissime\") or jocular (\"c'est importantissime !\"). Don't invent new -issime words except as a joke.",
+        ],
+        examples: [
+          { es: "C'est une collectionneuse richissime qui a acheté le tableau.", en: "It was a fabulously wealthy collector who bought the painting." },
+          { es: "Ce timbre est rarissime : il n'en existe que trois exemplaires.", en: "This stamp is extremely rare: only three copies exist." },
+          { es: "Son cadeau était gentillissime, pour plaisanter.", en: "His present was super kind, said as a joke." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -2211,14 +3241,6 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "\"La vinasse\": -asse makes it contemptuous.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The sauce has a [sickly sweet] taste.",
-        sentence: "La sauce a un goût ___.",
-        answer: "douceâtre",
-        explanation: "\"-âtre\" adds an unpleasant approximation: sweetish in a cloying way.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -2235,13 +3257,6 @@ export const FR_C2_U09: Lesson[] = [
         answer: "Son histoire est archifausse.",
         altAnswers: ["Son histoire est complètement fausse.", "Son histoire est totalement fausse.", "Son histoire est archi-fausse.", "Son histoire est entièrement fausse."],
         explanation: "\"Archi-\" intensifies colloquially; note the agreement \"fausse\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "What does « la marâtre » mean in modern French?",
-        options: ["a cruel stepmother", "a stepmother, neutrally", "a mother-in-law", "a godmother"],
-        correctIndex: 0,
-        explanation: "\"Marâtre\" has become pejorative; a neutral stepmother is \"une belle-mère\".",
       },
       {
         type: "matching",
@@ -2265,13 +3280,6 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "\"Richissime\" is the established -issime form of \"riche\".",
       },
       {
-        type: "word-order",
-        prompt: "Put the words in order to say: On Sundays, we laze around until noon.",
-        words: ["Le", "dimanche,", "on", "traînasse", "jusqu'à", "midi."],
-        translation: "On Sundays, we laze around until noon.",
-        explanation: "\"Traînasser\" (-asser) expresses idle lingering.",
-      },
-      {
         type: "listen-choose",
         audio: "Quel vantard !",
         question: "What did you hear?",
@@ -2285,6 +3293,32 @@ export const FR_C2_U09: Lesson[] = [
         prompt: "Say it in French: There's a mountain of paperwork to fill in.",
         explanation: "\"La paperasse\": irritation expressed by -asse.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it with the -ard noun instead of the phrase.",
+        source: "Un conducteur imprudent a grillé le feu rouge.",
+        answer: "Un chauffard a grillé le feu rouge.",
+        altAnswers: ["Un chauffard est passé au feu rouge."],
+        explanation: "\"-ard\" packs the judgement into the noun: \"un chauffard\" is a driver and a condemnation at once.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Son histoire est archifaux, personne ne le croit.",
+        answer: "Son histoire est archifausse, personne ne le croit.",
+        explanation: "\"Archi-\" does not stop the adjective agreeing: \"une histoire\" is feminine, so \"archifausse\".",
+      },
+      {
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "Instead of revising, he [daydreams] for hours.",
+        sentence: "Au lieu de réviser, il ___ pendant des heures.",
+        answer: "rêvasse",
+        altAnswers: ["rêvasse souvent"],
+        explanation: "\"Rêvasser\" adds idleness to \"rêver\": the -asser suffix carries the judgement.",
+      },
     ],
   },
   {
@@ -2296,19 +3330,34 @@ export const FR_C2_U09: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Contempt: who and what you look down on",
+        heading: "Remember the rule: contempt, by target",
         body: [
           "The first branch of the web is contempt. People: \"un chauffard\", \"un soûlard\", \"un richard\", \"un vantard\", \"un bellâtre\", \"une blondasse\", \"un lourdaud\", \"un écrivaillon\" (a hack writer, -illon). Things: \"la paperasse\", \"la vinasse\", \"la caillasse\" (rubble), \"une bicoque\" (a shack), \"un film fadasse\". Actions: \"rimailler\", \"criailler\", \"traînasser\", \"rêvasser\".",
-          "In speech, these words carry the speaker's attitude, so they are a gift for anyone describing a character. In a formal text they are almost always replaced by neutral vocabulary plus an evaluative adjective: \"un conducteur imprudent\" instead of \"un chauffard\", \"des formalités administratives excessives\" instead of \"la paperasse\".",
-          "Some are genuinely offensive (\"blondasse\", \"salaud\", \"pétasse\"), and you should recognise them without using them. Others are mild and even affectionate between friends (\"froussard\", \"fêtard\", \"traînasser\").",
         ],
         examples: [
           { es: "Ce romancier n'est qu'un écrivaillon sans talent.", en: "That novelist is nothing but a talentless hack." },
           { es: "Le chemin n'était que de la caillasse et des ronces.", en: "The path was nothing but loose stones and brambles." },
           { es: "Ils ont acheté une vieille bicoque pour la retaper.", en: "They bought an old shack to do up." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which word shows contempt for a thing rather than a person?",
+            options: ["la caillasse", "un richard", "un bellâtre", "un lourdaud"],
+            correctIndex: 0,
+            explanation: "\"La caillasse\" (rubble, loose stones) is scorn for a thing, built with -asse. The other three label people.",
+          },
+        ],
+      },
+      {
+        heading: "The same idea in a formal text",
+        body: [
+          "In speech, these words carry the speaker's attitude, so they are a gift for anyone describing a character. In a formal text they are almost always replaced by neutral vocabulary plus an evaluative adjective: \"un conducteur imprudent\" instead of \"un chauffard\", \"des formalités administratives excessives\" instead of \"la paperasse\".",
+        ],
+        examples: [
           { es: "Un conducteur imprudent a provoqué la collision.", en: "A careless driver caused the collision." },
           { es: "Les formalités administratives découragent les créateurs d'entreprise.", en: "Red tape discourages people from starting businesses." },
-          { es: "Mon coloc est un fêtard, il ne rentre jamais avant l'aube.", en: "My flatmate is a party animal, he never gets home before dawn." },
+          { es: "Des propos excessifs ont été rapportés par la presse.", en: "Excessive remarks were reported by the press." },
         ],
         checkpoint: [
           {
@@ -2320,6 +3369,19 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Un conducteur imprudent a causé l'accident.", "L'accident a été provoqué par un conducteur imprudent.", "L'accident a été causé par un conducteur imprudent."],
             explanation: "In a formal register, \"chauffard\" becomes \"conducteur imprudent\": the judgement moves into a neutral adjective.",
           },
+        ],
+      },
+      {
+        heading: "Offensive, or mild between friends",
+        body: [
+          "Some are genuinely offensive (\"blondasse\", \"salaud\", \"pétasse\"), and you should recognise them without using them. Others are mild and even affectionate between friends (\"froussard\", \"fêtard\", \"traînasser\").",
+        ],
+        examples: [
+          { es: "Mon coloc est un fêtard, il ne rentre jamais avant l'aube.", en: "My flatmate is a party animal, he never gets home before dawn." },
+          { es: "Ne fais pas ton froussard, la vague est petite.", en: "Don't be such a scaredy-cat, the wave is small." },
+          { es: "Le dimanche, on traînasse et on ne fait rien.", en: "On Sundays we laze about and do nothing." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -2329,32 +3391,26 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Ma voisine est une vraie fêtarde.", "Mon voisin, c'est un vrai fêtard.", "Ma voisine, c'est une vraie fêtarde."],
             explanation: "\"Fêtard\" is a mild, almost affectionate -ard word.",
           },
+          {
+            type: "multiple-choice",
+            question: "Which word is affectionate or mild rather than offensive?",
+            options: ["rondelet", "blondasse", "salaud", "soûlard"],
+            correctIndex: 0,
+            explanation: "\"Rondelet\" (chubby) uses the gentle \"-et\"; the others are insults.",
+          },
         ],
       },
       {
-        heading: "Approximation: -âtre and -et for adjectives",
+        heading: "-âtre: approximation that spoils",
         body: [
           "The second branch is approximation, mostly with colours and tastes. \"-âtre\" gives '-ish': \"bleuâtre\", \"verdâtre\", \"jaunâtre\", \"grisâtre\", \"noirâtre\", \"douceâtre\", \"saumâtre\" (brackish, and figuratively unpleasant: \"la trouver saumâtre\", to find it hard to swallow). It almost always suggests something murky or unappealing.",
-          "For a neutral '-ish', French uses \"tirant sur le\" + colour (\"un vert tirant sur le bleu\") or \"légèrement\": \"une lumière légèrement bleutée\". A softer, pleasant nuance comes from \"bleuté\" (formed with \"-é\") and from the suffix \"-et\" on adjectives: \"rondelet\" (plump, chubby, gently), \"maigrelet\" (skinny, affectionate or mocking), \"aigrelet\" (slightly sour).",
-          "So \"une eau verdâtre\" is unappetising, whereas \"des reflets bleutés\" is poetic. Choosing between them is choosing a point of view.",
         ],
         examples: [
           { es: "Une fumée grisâtre s'échappait de la cheminée de l'usine.", en: "Greyish smoke was rising from the factory chimney." },
           { es: "Elle a trouvé la plaisanterie saumâtre.", en: "She found the joke hard to swallow." },
-          { es: "Le lac avait des reflets bleutés au coucher du soleil.", en: "The lake had bluish glints at sunset." },
-          { es: "C'est un petit garçon rondelet aux joues roses.", en: "He's a chubby little boy with pink cheeks." },
-          { es: "Ce vin blanc est un peu aigrelet.", en: "This white wine is a little on the sour side." },
-          { es: "Un vert tirant sur le bleu, c'est la couleur que je cherche.", en: "A green verging on blue is the colour I'm looking for." },
+          { es: "L'eau du bassin était jaunâtre après l'orage.", en: "The water in the pond was yellowish after the storm." },
         ],
         checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "The sea had [bluish] glints.",
-            sentence: "La mer avait des reflets ___.",
-            answer: "bleutés",
-            explanation: "\"Bleuté\" is a pleasant '-ish'; \"bleuâtre\" would sound murky.",
-          },
           {
             type: "multiple-choice",
             question: "Which phrase makes the water sound unappealing?",
@@ -2373,19 +3429,120 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Intensity and register: from super to -issime",
+        heading: "A pleasant nuance: bleuté, -et",
+        body: [
+          "For a neutral '-ish', French uses \"tirant sur le\" + colour (\"un vert tirant sur le bleu\") or \"légèrement\": \"une lumière légèrement bleutée\". A softer, pleasant nuance comes from \"bleuté\" (formed with \"-é\") and from the suffix \"-et\" on adjectives: \"rondelet\" (plump, chubby, gently), \"maigrelet\" (skinny, affectionate or mocking), \"aigrelet\" (slightly sour).",
+        ],
+        examples: [
+          { es: "Le lac avait des reflets bleutés au coucher du soleil.", en: "The lake had bluish glints at sunset." },
+          { es: "C'est un petit garçon rondelet aux joues roses.", en: "He's a chubby little boy with pink cheeks." },
+          { es: "Ce vin blanc est un peu aigrelet.", en: "This white wine is a little on the sour side." },
+          { es: "Un vert tirant sur le bleu, c'est la couleur que je cherche.", en: "A green verging on blue is the colour I'm looking for." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The sea had [bluish] glints.",
+            sentence: "La mer avait des reflets ___.",
+            answer: "bleutés",
+            explanation: "\"Bleuté\" is a pleasant '-ish'; \"bleuâtre\" would sound murky.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "This cider is a little on the sour side.",
+            answer: "Ce cidre est un peu aigrelet.",
+            altAnswers: ["Ce cidre est légèrement aigrelet."],
+            explanation: "\"-et\" on an adjective softens it: \"aigrelet\" is slightly sour, with none of the murk of \"-âtre\".",
+          },
+        ],
+      },
+      {
+        heading: "Choosing your point of view",
+        body: [
+          "So \"une eau verdâtre\" is unappetising, whereas \"des reflets bleutés\" is poetic. Choosing between them is choosing a point of view.",
+        ],
+        examples: [
+          { es: "Une eau verdâtre donne envie de partir.", en: "Greenish water makes you want to leave." },
+          { es: "Des reflets bleutés donnent envie de rester.", en: "Bluish glints make you want to stay." },
+          { es: "Le même lac, deux suffixes, deux regards.", en: "The same lake, two suffixes, two points of view." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it so the water sounds appealing instead of murky.",
+            source: "Le lac avait une couleur verdâtre.",
+            answer: "Le lac avait des reflets verts très clairs.",
+            altAnswers: ["Le lac avait une couleur vert émeraude.", "Le lac avait des reflets vert émeraude."],
+            explanation: "\"-âtre\" always drags the colour towards the murky; a neutral or pleasant nuance needs \"reflets\", \"tirant sur le\" or a precise colour name.",
+          },
+        ],
+      },
+      {
+        heading: "Intensity, sorted by register",
         body: [
           "The third branch is intensity, sorted by register. Colloquial and youthful: \"super\", \"hyper\", \"méga\", \"trop\" (\"c'est trop bien\"), \"grave\" (\"il est grave sympa\"). Colloquial and slightly older: \"archi\" (\"archiconnu\", \"archicomble\"), \"vachement\" (\"c'est vachement bien\"). Neutral: \"très\", \"vraiment\", \"tout à fait\". Formal: \"extrêmement\", \"particulièrement\", \"éminemment\", \"au plus haut point\".",
-          "\"-issime\" floats between two worlds: formal in a few fixed words (\"rarissime\", \"richissime\", \"illustrissime\"), jocular when stretched (\"c'est urgentissime\", \"une affaire importantissime\"). \"Ultra\" is neutral-technical in compounds (\"ultraviolet\", \"ultrasensible\") and colloquial on its own (\"il est ultra motivé\").",
-          "A useful exercise is to rewrite a sentence up and down the scale: \"Le concert était hyper bien\" → \"le concert était vraiment réussi\" → \"le concert fut une réussite éclatante\". The meaning stays, the speaker changes.",
         ],
         examples: [
           { es: "La salle était archicomble pour la première.", en: "The hall was packed to the rafters for the premiere." },
           { es: "C'est vachement bien, ce que tu as fait.", en: "What you've done is really great." },
           { es: "Ce dossier est éminemment politique.", en: "This issue is highly political." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French. (casual register)",
+            source: "The film was really great!",
+            answer: "Le film était vachement bien !",
+            altAnswers: ["Le film était super bien !", "Le film était hyper bien !", "Le film était trop bien !", "Le film était génial !", "Le film était vraiment bien !", "Le film était méga bien !"],
+            explanation: "Casual French intensifies with \"vachement\", \"super\", \"trop\" or \"hyper\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The station was absolutely packed.",
+            answer: "La gare était archicomble.",
+            altAnswers: ["La gare était archipleine.", "La gare était bondée.", "La gare était pleine à craquer.", "La gare était archi-comble.", "La gare était noire de monde."],
+            explanation: "\"Archicomble\" or \"archipleine\": \"archi-\" is the colloquial intensifier of fullness.",
+          },
+        ],
+      },
+      {
+        heading: "-issime and ultra",
+        body: [
+          "\"-issime\" floats between two worlds: formal in a few fixed words (\"rarissime\", \"richissime\", \"illustrissime\"), jocular when stretched (\"c'est urgentissime\", \"une affaire importantissime\"). \"Ultra\" is neutral-technical in compounds (\"ultraviolet\", \"ultrasensible\") and colloquial on its own (\"il est ultra motivé\").",
+        ],
+        examples: [
           { es: "Bon, c'est urgentissime, tu me rappelles dès que tu peux !", en: "Right, it's super-mega-urgent, call me back as soon as you can!" },
           { es: "Ce capteur est ultrasensible à la lumière.", en: "This sensor is extremely sensitive to light." },
+          { es: "Ce manuscrit est rarissime, trois exemplaires au monde.", en: "This manuscript is extremely rare: three copies in the world." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "It's extremely urgent! (jokingly, to a friend)",
+            answer: "C'est urgentissime !",
+            altAnswers: ["C'est hyper urgent !", "C'est super urgent !", "C'est méga urgent !", "C'est ultra urgent !", "C'est archi-urgent !", "C'est archiurgent !"],
+            explanation: "\"-issime\" stretched to a new word is jocular, which suits a joke between friends.",
+          },
+        ],
+      },
+      {
+        heading: "Rewriting up and down the scale",
+        body: [
+          "A useful exercise is to rewrite a sentence up and down the scale: \"Le concert était hyper bien\" → \"le concert était vraiment réussi\" → \"le concert fut une réussite éclatante\". The meaning stays, the speaker changes.",
+        ],
+        examples: [
           { es: "Le concert fut une réussite éclatante.", en: "The concert was a resounding success." },
+          { es: "Le concert était hyper bien, franchement.", en: "The concert was really great, honestly." },
+          { es: "Le concert était vraiment réussi.", en: "The concert was genuinely good." },
         ],
         checkpoint: [
           {
@@ -2397,36 +3554,17 @@ export const FR_C2_U09: Lesson[] = [
             altAnswers: ["Cette question est extrêmement sensible.", "Cette question est éminemment sensible.", "Cette question est hautement sensible."],
             explanation: "Formal intensifiers: \"particulièrement\", \"extrêmement\", \"éminemment\". \"Hyper sensible\" would be too casual.",
           },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French. (casual register)",
-            source: "The film was really great!",
-            answer: "Le film était vachement bien !",
-            altAnswers: ["Le film était super bien !", "Le film était hyper bien !", "Le film était trop bien !", "Le film était génial !", "Le film était vraiment bien !", "Le film était méga bien !"],
-            explanation: "Casual French intensifies with \"vachement\", \"super\", \"trop\" or \"hyper\".",
-          },
         ],
       },
     ],
     exercises: [
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The station was absolutely packed.",
-        answer: "La gare était archicomble.",
-        altAnswers: ["La gare était archipleine.", "La gare était bondée.", "La gare était pleine à craquer.", "La gare était archi-comble.", "La gare était noire de monde."],
-        explanation: "\"Archicomble\" or \"archipleine\": \"archi-\" is the colloquial intensifier of fullness.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Greyish smoke was coming out of the chimney.",
-        answer: "Une fumée grisâtre sortait de la cheminée.",
-        altAnswers: ["Une fumée grisâtre s'échappait de la cheminée.", "De la fumée grisâtre sortait de la cheminée.", "De la fumée grisâtre s'échappait de la cheminée."],
-        explanation: "\"Grisâtre\": approximate and unappealing.",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        answer: "grisâtre",
+        explanation: "\"-âtre\" gives the murky approximation: greyish, and not in a good way.",
+        en: "[Greyish] smoke was coming out of the chimney.",
+        sentence: "Une fumée ___ sortait de la cheminée.",
       },
       {
         type: "fill-blank",
@@ -2435,22 +3573,6 @@ export const FR_C2_U09: Lesson[] = [
         sentence: "C'est un ___ qui écrit un roman par mois.",
         answer: "écrivaillon",
         explanation: "\"-illon\" adds contempt to \"écrivain\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "It's extremely urgent! (jokingly, to a friend)",
-        answer: "C'est urgentissime !",
-        altAnswers: ["C'est hyper urgent !", "C'est super urgent !", "C'est méga urgent !", "C'est ultra urgent !", "C'est archi-urgent !", "C'est archiurgent !"],
-        explanation: "\"-issime\" stretched to a new word is jocular, which suits a joke between friends.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which word is affectionate or mild rather than offensive?",
-        options: ["rondelet", "blondasse", "salaud", "soûlard"],
-        correctIndex: 0,
-        explanation: "\"Rondelet\" (chubby) uses the gentle \"-et\"; the others are insults.",
       },
       {
         type: "translate",
@@ -2474,15 +3596,6 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "The same base can carry very different attitudes depending on the affix.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "This white wine is a bit sour.",
-        answer: "Ce vin blanc est un peu aigrelet.",
-        altAnswers: ["Ce vin blanc est un peu acide.", "Ce vin blanc est un peu aigre."],
-        explanation: "\"Aigrelet\" (slightly sour) uses the gentle \"-et\" suffix.",
-      },
-      {
         type: "word-order",
         prompt: "Put the words in order to say: The lake had bluish glints.",
         words: ["Le", "lac", "avait", "des", "reflets", "bleutés."],
@@ -2491,14 +3604,40 @@ export const FR_C2_U09: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Ce dossier est éminemment politique.",
-        explanation: "\"Éminemment\" (highly), from \"éminent\": the formal intensifier.",
+        audio: "Cette question est éminemment politique.",
+        explanation: "\"Éminemment\" is the formal intensifier, far from \"super\" or \"hyper\".",
       },
       {
         type: "speak",
-        text: "C'est vachement bien, ce que tu as fait.",
-        prompt: "Say it in French to a friend: What you've done is really great.",
-        explanation: "\"Vachement\" is a colloquial intensifier.",
+        text: "Cette boulangerie est vachement bien.",
+        prompt: "Say it in French to a friend: That bakery is really good.",
+        explanation: "\"Vachement\" is colloquial intensity, slightly older than \"hyper\" or \"méga\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "La salle était archicomble, le public était ravis.",
+        answer: "La salle était archicomble, le public était ravi.",
+        explanation: "\"Le public\" is singular in French, so the adjective is \"ravi\": the crowd is one collective noun, unlike the English plural.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it in a formal register (no colloquial intensifier).",
+        source: "Ce dossier est hyper important pour nous.",
+        answer: "Ce dossier est particulièrement important pour nous.",
+        altAnswers: ["Ce dossier est extrêmement important pour nous.", "Ce dossier revêt une importance particulière pour nous."],
+        explanation: "\"Hyper\" belongs to speech; a report or a letter uses \"particulièrement\", \"extrêmement\" or a noun construction.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "A talentless hack writes two novels a year.",
+        answer: "Un écrivaillon sans talent écrit deux romans par an.",
+        altAnswers: ["Un écrivaillon sans talent publie deux romans par an."],
+        explanation: "\"-illon\" works like \"-ard\": it packs the contempt into the noun itself.",
       },
     ],
   },
@@ -2511,17 +3650,12 @@ export const FR_C2_U09: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "A short story: living and frozen suffixes",
+        heading: "The story: Saturday at the market",
         body: [
           "Read this original short story, then look at how the suffixes work. « Chaque samedi, mémé Jeanne descendait au marché avec son cabas et sa canne. Elle achetait une baguette, un poulet fermier et, pour le petit, une sucette à la fraise. Le petit, c'était Jojo, son arrière-petit-fils, un garçonnet rondelet qui la suivait en traînassant entre les étals. “Allez, mon lapin, encore un petit effort !” Au retour, ils s'asseyaient sur le muret du jardinet, et Jeanne enlevait ses lunettes pour regarder passer les hirondelles. »",
-          "Frozen (lexicalised) suffixes: \"baguette\", \"poulet\", \"sucette\", \"lunettes\", \"muret\" (a low wall, still felt as small). None of them makes the reader think of smallness, except perhaps \"muret\". Living suffixes, chosen for effect: \"garçonnet\", \"rondelet\", \"jardinet\" (smallness and tenderness), \"traînassant\" (gentle reproach), and reduplication in \"mémé\" and \"Jojo\". Add \"le petit\" and \"un petit effort\", and the whole passage is bathed in affection.",
-          "This is the stylistic point: a writer piles up diminutives to create a mood of tenderness, nostalgia or childhood. Replace them with neutral words (\"un garçon de cinq ans un peu gros\", \"le petit mur du jardin\") and the mood disappears.",
         ],
         examples: [
           { es: "Elle achetait une baguette et un poulet fermier.", en: "She would buy a baguette and a free-range chicken." },
-          { es: "C'était un garçonnet rondelet qui traînassait entre les étals.", en: "He was a chubby little boy who dawdled between the stalls." },
-          { es: "Ils s'asseyaient sur le muret du jardinet.", en: "They would sit on the low wall of the little garden." },
-          { es: "Jeanne enlevait ses lunettes pour regarder passer les hirondelles.", en: "Jeanne would take off her glasses to watch the swallows go by." },
           { es: "Allez, mon lapin, encore un petit effort !", en: "Come on, sweetie, one last push!" },
           { es: "Mémé Jeanne descendait au marché avec son cabas.", en: "Granny Jeanne would go down to the market with her shopping bag." },
         ],
@@ -2533,6 +3667,19 @@ export const FR_C2_U09: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Baguette\" is lexicalised: it is just the name of the loaf. The others still add smallness or tenderness.",
           },
+        ],
+      },
+      {
+        heading: "Frozen suffixes and living ones",
+        body: [
+          "Frozen (lexicalised) suffixes: \"baguette\", \"poulet\", \"sucette\", \"lunettes\", \"muret\" (a low wall, still felt as small). None of them makes the reader think of smallness, except perhaps \"muret\". Living suffixes, chosen for effect: \"garçonnet\", \"rondelet\", \"jardinet\" (smallness and tenderness), \"traînassant\" (gentle reproach), and reduplication in \"mémé\" and \"Jojo\". Add \"le petit\" and \"un petit effort\", and the whole passage is bathed in affection.",
+        ],
+        examples: [
+          { es: "C'était un garçonnet rondelet qui traînassait entre les étals.", en: "He was a chubby little boy who dawdled between the stalls." },
+          { es: "Ils s'asseyaient sur le muret du jardinet.", en: "They would sit on the low wall of the little garden." },
+          { es: "Jeanne enlevait ses lunettes pour regarder passer les hirondelles.", en: "Jeanne would take off her glasses to watch the swallows go by." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -2554,28 +3701,36 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "A Brussels chronicle: -ke and regional colour",
+        heading: "Why the writer piles them up",
+        body: [
+          "This is the stylistic point: a writer piles up diminutives to create a mood of tenderness, nostalgia or childhood. Replace them with neutral words (\"un garçon de cinq ans un peu gros\", \"le petit mur du jardin\") and the mood disappears.",
+        ],
+        examples: [
+          { es: "Un garçon de cinq ans un peu gros : le ton a changé.", en: "A slightly fat five-year-old boy: the tone has changed." },
+          { es: "Le petit mur du jardin ne dit plus la tendresse.", en: "\"Le petit mur du jardin\" no longer conveys the tenderness." },
+          { es: "Les diminutifs créent la nostalgie de l'enfance.", en: "The diminutives create a nostalgia for childhood." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Why does replacing the diminutives change the passage?",
+            options: ["The suffixes carried the narrator's tenderness, not just the size.", "The neutral words are grammatically wrong.", "The neutral words are longer.", "The suffixes gave the facts, the neutral words hide them."],
+            correctIndex: 0,
+            explanation: "The facts survive the rewrite; the affection does not. That is what a living diminutive adds.",
+          },
+        ],
+      },
+      {
+        heading: "The Brussels chronicle",
         body: [
           "Now an original newspaper chronicle in the Brussels style. « Dimanche matin, place du Jeu de Balle. Un ketje d'une dizaine d'années marchande un vieux vélo avec l'aplomb d'un brocanteur. “Allez, m'fieu, quinze euros, c'est donné !” lui lance le vendeur. À deux pas, devant le Manneken-Pis habillé pour l'occasion, des touristes photographient le petit bonhomme en bronze. On boit un café, on mange une gaufre, et l'on se dit qu'à Bruxelles, même l'ironie a quelque chose de tendre. »",
-          "\"-ke\" and \"-tje\" are Brussels and Flemish diminutive suffixes, borrowed from Dutch: \"un ketje\" is a Brussels street kid, cheeky and lovable; \"manneke\" a little man (as in \"Manneken-Pis\"); \"un pistolet\" in Belgium is a bread roll. \"M'fieu\" (from \"mon fils\") is a Brussels address between men, like 'mate'. These words signal place and community: using them, the chronicler stands with the locals.",
-          "The tone is affectionate self-mockery, typical of Belgian chronicles. Compare a neutral version: « un garçon d'une dizaine d'années négocie le prix d'un vélo d'occasion ». The facts are the same; the warmth and the sense of place are gone.",
         ],
         examples: [
           { es: "Un ketje d'une dizaine d'années marchande un vieux vélo.", en: "A Brussels kid of about ten haggles over an old bike." },
           { es: "Allez, m'fieu, quinze euros, c'est donné !", en: "Come on, mate, fifteen euros, it's a steal!" },
           { es: "Les touristes photographient le petit bonhomme en bronze.", en: "The tourists photograph the little bronze fellow." },
-          { es: "À Bruxelles, on achète des pistolets chez le boulanger.", en: "In Brussels, you buy bread rolls at the baker's." },
-          { es: "Même l'ironie a quelque chose de tendre.", en: "Even the irony has something tender about it." },
-          { es: "Un garçon d'une dizaine d'années négocie le prix d'un vélo d'occasion.", en: "A boy of about ten is negotiating the price of a second-hand bike." },
         ],
         checkpoint: [
-          {
-            type: "multiple-choice",
-            question: "What does the chronicler's use of « ketje » and « m'fieu » achieve?",
-            options: ["It anchors the text in Brussels and shows affection for its people.", "It shows contempt for the local children.", "It makes the text more formal.", "It signals that the scene takes place in Paris."],
-            correctIndex: 0,
-            explanation: "Regional diminutives and forms of address create local colour and complicity.",
-          },
           {
             type: "translate",
             direction: "en-es",
@@ -2584,6 +3739,26 @@ export const FR_C2_U09: Lesson[] = [
             answer: "Un garçon marchande le prix d'un vieux vélo.",
             altAnswers: ["Un garçon négocie le prix d'un vieux vélo.", "Un gamin marchande le prix d'un vieux vélo.", "Un gamin négocie le prix d'un vieux vélo.", "Un ketje marchande un vieux vélo.", "Un garçon marchande un vieux vélo."],
             explanation: "\"Marchander\" is to haggle; \"négocier\" is more neutral.",
+          },
+        ],
+      },
+      {
+        heading: "-ke and -tje: Brussels diminutives",
+        body: [
+          "\"-ke\" and \"-tje\" are Brussels and Flemish diminutive suffixes, borrowed from Dutch: \"un ketje\" is a Brussels street kid, cheeky and lovable; \"manneke\" a little man (as in \"Manneken-Pis\"); \"un pistolet\" in Belgium is a bread roll. \"M'fieu\" (from \"mon fils\") is a Brussels address between men, like 'mate'. These words signal place and community: using them, the chronicler stands with the locals.",
+        ],
+        examples: [
+          { es: "À Bruxelles, on achète des pistolets chez le boulanger.", en: "In Brussels, you buy bread rolls at the baker's." },
+          { es: "Le Manneken-Pis porte un costume différent chaque semaine.", en: "The Manneken-Pis wears a different outfit every week." },
+          { es: "Un ketje connaît toutes les rues du quartier.", en: "A Brussels kid knows every street in the area." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does the chronicler's use of « ketje » and « m'fieu » achieve?",
+            options: ["It anchors the text in Brussels and shows affection for its people.", "It shows contempt for the local children.", "It makes the text more formal.", "It signals that the scene takes place in Paris."],
+            correctIndex: 0,
+            explanation: "Regional diminutives and forms of address create local colour and complicity.",
           },
           {
             type: "listen-choose",
@@ -2596,16 +3771,64 @@ export const FR_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Explaining the effect of a suffix",
+        heading: "What the neutral version loses",
+        body: [
+          "The tone is affectionate self-mockery, typical of Belgian chronicles. Compare a neutral version: « un garçon d'une dizaine d'années négocie le prix d'un vélo d'occasion ». The facts are the same; the warmth and the sense of place are gone.",
+        ],
+        examples: [
+          { es: "Même l'ironie a quelque chose de tendre.", en: "Even the irony has something tender about it." },
+          { es: "Un garçon d'une dizaine d'années négocie le prix d'un vélo d'occasion.", en: "A boy of about ten is negotiating the price of a second-hand bike." },
+          { es: "La chronique belge pratique l'autodérision tendre.", en: "The Belgian chronicle practises a tender self-mockery." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The tourists were photographing the little bronze statue.",
+            answer: "Les touristes photographiaient la petite statue en bronze.",
+            altAnswers: ["Les touristes prenaient en photo la petite statue en bronze.", "Les touristes photographiaient la petite statue de bronze.", "Les touristes photographiaient le petit bonhomme en bronze."],
+            explanation: "The imparfait sets the scene; \"en bronze\" gives the material.",
+          },
+        ],
+      },
+      {
+        heading: "Explaining a suffix in French",
         body: [
           "In a DALF-style text commentary you may need to explain stylistic choices in French. Useful phrases: \"l'auteur multiplie les diminutifs\", \"le suffixe -et confère une nuance affectueuse\", \"le suffixe péjoratif -asse traduit le mépris du narrateur\", \"ce terme régional ancre le récit dans un lieu\", \"le mot est lexicalisé : le suffixe a perdu sa valeur diminutive\".",
-          "Keep your analysis precise: say which suffix, what value (diminution, affection, contempt, approximation, intensity), and what effect on the reader (tenderness, irony, distance, local colour). For example: \"En qualifiant l'enfant de 'garçonnet rondelet', la narratrice adopte le regard attendri de l'arrière-grand-mère.\"",
-          "Note that in French analysis you quote words with « » or italics; we keep double quotes here so that you can tap to hear them.",
         ],
         examples: [
           { es: "L'auteur multiplie les diminutifs pour créer une atmosphère de tendresse.", en: "The author piles up diminutives to create an atmosphere of tenderness." },
           { es: "Le suffixe -et confère une nuance affectueuse au portrait.", en: "The suffix -et lends the portrait an affectionate touch." },
           { es: "Le suffixe péjoratif traduit le mépris du narrateur.", en: "The pejorative suffix conveys the narrator's contempt." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The author [piles up] diminutives.",
+            sentence: "L'auteur ___ les diminutifs.",
+            answer: "multiplie",
+            altAnswers: ["accumule"],
+            explanation: "\"Multiplier\" or \"accumuler\" are the standard verbs of commentary for repeated devices.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The suffix [conveys] the author's irony.",
+            sentence: "Le suffixe ___ l'ironie de l'auteur.",
+            answer: "traduit",
+            altAnswers: ["exprime", "rend"],
+            explanation: "\"Traduire\" here means to convey, to express: the standard verb of a French text commentary.",
+          },
+        ],
+      },
+      {
+        heading: "Being precise: suffix, value, effect",
+        body: [
+          "Keep your analysis precise: say which suffix, what value (diminution, affection, contempt, approximation, intensity), and what effect on the reader (tenderness, irony, distance, local colour). For example: \"En qualifiant l'enfant de 'garçonnet rondelet', la narratrice adopte le regard attendri de l'arrière-grand-mère.\"",
+        ],
+        examples: [
           { es: "Ce terme régional ancre le récit à Bruxelles.", en: "This regional term anchors the story in Brussels." },
           { es: "Le mot est lexicalisé : le suffixe a perdu sa valeur diminutive.", en: "The word is lexicalised: the suffix has lost its diminutive value." },
           { es: "La narratrice adopte le regard attendri de l'arrière-grand-mère.", en: "The narrator adopts the great-grandmother's fond gaze." },
@@ -2619,14 +3842,26 @@ export const FR_C2_U09: Lesson[] = [
             answer: "Le suffixe a perdu sa valeur diminutive.",
             explanation: "\"Valeur\" is the technical word for the meaning an affix contributes.",
           },
+        ],
+      },
+      {
+        heading: "How to quote the words you analyse",
+        body: [
+          "Note that in French analysis you quote words with « » or italics; we keep double quotes here so that you can tap to hear them.",
+        ],
+        examples: [
+          { es: "En français, on cite les mots entre guillemets ou en italique.", en: "In French, you quote words in guillemets or in italics." },
+          { es: "L'analyse nomme le suffixe, sa valeur et son effet.", en: "The analysis names the suffix, its value and its effect." },
+          { es: "Le commentaire reste précis et bref.", en: "The commentary stays precise and brief." },
+        ],
+        checkpoint: [
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "The author [piles up] diminutives.",
-            sentence: "L'auteur ___ les diminutifs.",
-            answer: "multiplie",
-            altAnswers: ["accumule"],
-            explanation: "\"Multiplier\" or \"accumuler\" are the standard verbs of commentary for repeated devices.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Ce terme régional ancre le récit à un lieu précis.",
+            answer: "Ce terme régional ancre le récit dans un lieu précis.",
+            explanation: "\"Ancrer quelque chose dans\" takes \"dans\" before a place: \"ancrer le récit dans un lieu\". \"À\" only works with a place name (\"à Bruxelles\").",
           },
         ],
       },
@@ -2651,15 +3886,6 @@ export const FR_C2_U09: Lesson[] = [
         explanation: "\"Sucette\" is a frozen diminutive; \"le petit\" is the affectionate way to refer to a child.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The pejorative suffix [conveys] the narrator's contempt.",
-        sentence: "Le suffixe péjoratif ___ le mépris du narrateur.",
-        answer: "traduit",
-        altAnswers: ["exprime", "révèle", "trahit"],
-        explanation: "\"Traduire\" in commentary means to express, to reveal.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -2674,15 +3900,6 @@ export const FR_C2_U09: Lesson[] = [
         options: ["jardinet / lunettes", "baguette / chaussette", "garçonnet / fillette", "poulet / cigarette"],
         correctIndex: 0,
         explanation: "\"Jardinet\" still means a small garden; \"lunettes\" is fully lexicalised.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The tourists were photographing the little bronze statue.",
-        answer: "Les touristes photographiaient la petite statue en bronze.",
-        altAnswers: ["Les touristes prenaient en photo la petite statue en bronze.", "Les touristes photographiaient la petite statue de bronze.", "Les touristes photographiaient le petit bonhomme en bronze."],
-        explanation: "The imparfait sets the scene; \"en bronze\" gives the material.",
       },
       {
         type: "matching",
@@ -2707,10 +3924,10 @@ export const FR_C2_U09: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Even the irony has something tender about it.",
-        words: ["Même", "l'ironie", "a", "quelque", "chose", "de", "tendre."],
-        translation: "Even the irony has something tender about it.",
-        explanation: "\"Quelque chose de\" + masculine adjective.",
+        prompt: "Put the words in order to say: In Brussels, even the irony is gentle.",
+        words: ["À Bruxelles,", "même l'ironie", "est douce."],
+        translation: "In Brussels, even the irony is gentle.",
+        explanation: "\"Même\" before the noun means even; the sentence sums up the chronicler's tone.",
       },
       {
         type: "dictation",
@@ -2719,9 +3936,27 @@ export const FR_C2_U09: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Le suffixe confère une nuance affectueuse au portrait.",
-        prompt: "Say it in French: The suffix lends the portrait an affectionate touch.",
-        explanation: "\"Conférer une nuance\" is formal commentary vocabulary.",
+        text: "Le mot est lexicalisé : le suffixe ne dit plus rien de petit.",
+        prompt: "Say it in French: The word is lexicalised: the suffix no longer means anything small.",
+        explanation: "\"Lexicalisé\" is the technical term: the suffix has fossilised inside the word.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite the sentence in neutral French, without the diminutives.",
+        source: "Un garçonnet rondelet traînassait entre les étals.",
+        answer: "Un garçon un peu gros marchait lentement entre les étals.",
+        altAnswers: ["Un garçon un peu gros avançait lentement entre les étals.", "Un petit garçon un peu gros marchait lentement entre les étals."],
+        explanation: "Neutral French needs a noun plus an adjective and an adverb; the suffixes had carried both the size and the narrator's fondness.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "The regional word tells us where the narrator stands.",
+        answer: "Le mot régional nous dit de quel côté se place le narrateur.",
+        altAnswers: ["Le terme régional nous dit de quel côté se place le narrateur."],
+        explanation: "A French commentary names the effect: a regional term shows the writer siding with the locals.",
       },
     ],
   },

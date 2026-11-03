@@ -14,17 +14,15 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Recap: one word apart, worlds apart",
+        heading: "Remember the rule: one word apart, worlds apart",
         body: [
           "Many idioms share a body part and differ by one word. \"Avoir le bras long\" = to have influence; \"en avoir les bras qui tombent\" or \"les bras m'en tombent\" = to be flabbergasted. \"Avoir la tête dure\" = to be stubborn; \"avoir la grosse tête\" = to be big-headed; \"avoir la tête sur les épaules\" = to be sensible; \"en avoir par-dessus la tête\" = to be fed up. \"Avoir les yeux plus gros que le ventre\" = to bite off more than one can chew; \"avoir l'œil\" = to be observant.",
-          "Restrictions are part of the meaning: \"poser un lapin\" needs \"un\"; \"avoir d'autres chats à fouetter\" needs \"d'autres\"; \"ne pas y aller de main morte\" (to go at it hard, not hold back) needs the negation and \"y\"; \"en avoir ras le bol\" needs \"en\". Change any of these and the idiom breaks.",
         ],
         examples: [
           { es: "Son père a le bras long, il connaît tout le monde à la mairie.", en: "Her father has influence; he knows everyone at the town hall." },
           { es: "Quand j'ai vu la note, les bras m'en sont tombés.", en: "When I saw the bill, I was flabbergasted." },
           { es: "Depuis son succès, il a un peu la grosse tête.", en: "Since his success, he's become a bit big-headed." },
           { es: "Elle est jeune, mais elle a la tête sur les épaules.", en: "She's young, but she has her head screwed on." },
-          { es: "Le critique n'y est pas allé de main morte.", en: "The critic didn't pull his punches." },
         ],
         checkpoint: [
           {
@@ -33,6 +31,37 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
             options: ["He is stubborn.", "He is big-headed.", "He is sensible.", "He has a headache."],
             correctIndex: 0,
             explanation: "\"La tête dure\" = stubborn; \"la grosse tête\" = conceited.",
+          },
+          {
+            type: "matching",
+            instructions: "Match each idiom with its meaning.",
+            pairs: [
+              { left: "avoir la tête dure", right: "to be stubborn" },
+              { left: "avoir la grosse tête", right: "to be big-headed" },
+              { left: "en avoir par-dessus la tête", right: "to be fed up" },
+              { left: "avoir la tête sur les épaules", right: "to be sensible" },
+            ],
+            explanation: "Four head idioms, four different meanings.",
+          },
+        ],
+      },
+      {
+        heading: "Restrictions are part of the meaning",
+        body: [
+          "Restrictions are part of the meaning: \"poser un lapin\" needs \"un\"; \"avoir d'autres chats à fouetter\" needs \"d'autres\"; \"ne pas y aller de main morte\" (to go at it hard, not hold back) needs the negation and \"y\"; \"en avoir ras le bol\" needs \"en\". Change any of these and the idiom breaks.",
+        ],
+        examples: [
+          { es: "Le critique n'y est pas allé de main morte.", en: "The critic didn't pull his punches." },
+          { es: "Désolé, j'ai d'autres chats à fouetter.", en: "Sorry, I've got bigger fish to fry." },
+          { es: "J'en ai ras le bol de ces bouchons.", en: "I'm sick of these traffic jams." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Il n'y est pas allé de main morte.", "Il y est allé de main morte.", "Il n'est pas allé de main morte.", "Il n'y est pas allé de la main morte."],
+            correctIndex: 0,
+            explanation: "Negation, \"y\" and no article are all frozen.",
           },
           {
             type: "translate",
@@ -77,12 +106,7 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence keeps the frozen form?",
-        options: [
-          "J'en ai ras le bol.",
-          "J'ai ras le bol.",
-          "J'en ai un ras le bol.",
-          "J'en ai ras les bols.",
-        ],
+        options: ["J'en ai ras le bol.", "J'ai ras le bol.", "J'en ai un ras le bol.", "J'en ai ras les bols."],
         correctIndex: 0,
         explanation: "\"En avoir ras le bol\": \"en\" is obligatory.",
       },
@@ -113,17 +137,6 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         explanation: "\"Avoir l'œil\" = to have a keen eye.",
       },
       {
-        type: "matching",
-        instructions: "Match each idiom with its meaning.",
-        pairs: [
-          { left: "avoir la tête dure", right: "to be stubborn" },
-          { left: "avoir la grosse tête", right: "to be big-headed" },
-          { left: "en avoir par-dessus la tête", right: "to be fed up" },
-          { left: "avoir la tête sur les épaules", right: "to be sensible" },
-        ],
-        explanation: "Four head idioms, four different meanings.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with an idiom.",
@@ -131,18 +144,6 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         answer: "J'en ai par-dessus la tête de ces réunions.",
         altAnswers: ["J'en ai marre de ces réunions.", "J'en ai ras le bol de ces réunions.", "J'en ai assez de ces réunions."],
         explanation: "\"En avoir par-dessus la tête de\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: [
-          "Il n'y est pas allé de main morte.",
-          "Il y est allé de main morte.",
-          "Il n'est pas allé de main morte.",
-          "Il n'y est pas allé de la main morte.",
-        ],
-        correctIndex: 0,
-        explanation: "Negation, \"y\" and no article are all frozen.",
       },
       {
         type: "translate",
@@ -168,10 +169,27 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Il est jeune, mais il a la tête sur les épaules.",
-        prompt: "Say it in French: He's young, but he has his head screwed on.",
-        tip: "Stress the contrast after \"mais\".",
+        text: "Pour un garçon de seize ans, il a la tête sur les épaules.",
+        prompt: "Say it in French: For a sixteen-year-old, he has his head screwed on.",
+        tip: "Slight pause after the comma, then stress \"sur les épaules\".",
         explanation: "A compliment idiom.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change to nous.",
+        source: "J'en ai par-dessus la tête de ces travaux.",
+        answer: "Nous en avons par-dessus la tête de ces travaux.",
+        altAnswers: ["On en a par-dessus la tête de ces travaux."],
+        explanation: "Only the verb and the subject change: \"en avoir par-dessus la tête\" keeps its \"en\" and its frozen words.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Mon fils a toujours les yeux plus gros que l'estomac.",
+        answer: "Mon fils a toujours les yeux plus gros que le ventre.",
+        explanation: "The idiom is frozen: \"avoir les yeux plus gros que le ventre\". Swapping in \"l'estomac\" breaks it, even though the meaning seems the same.",
       },
     ],
   },
@@ -185,31 +203,23 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
     duration: "16 min",
     sections: [
       {
-        heading: "Recap: one idea, five places",
+        heading: "Remember the rule: one idea, several places",
         body: [
           "Heavy rain: France \"il pleut des cordes\", Belgium \"il drache\" (\"une drache\" = a downpour), Québec \"il pleut à boire debout\". Being fed up: France \"j'en ai marre\", Québec \"j'ai mon voyage\" (which can also express astonishment), Belgium and France \"j'en ai ras le bol\". Boring: France \"c'est barbant\" or \"c'est rasoir\", Québec \"c'est plate\". See you later: Belgium \"à tantôt\", Québec \"à tantôt\" too, Switzerland \"à tout à l'heure\" or \"à plus\" like France. That works: Switzerland \"ça joue\", Québec \"c'est correct\" (it's fine, OK), France \"ça marche\".",
-          "West Africa (Côte d'Ivoire, Sénégal, Cameroun and others) has its own vivid French: \"bonne arrivée\" (welcome, said to someone who has just arrived), \"on dit quoi ?\" (what's up?), \"la voiture est gâtée\" (the car has broken down), \"un deuxième bureau\" (a mistress, a second partner), \"il est en haut\" (he's doing well, he's made it). When speaking with someone from another region, use the general French expression unless you are sure they share the local one; understanding all of them is the Mastery goal.",
         ],
         examples: [
           { es: "Prends ton parapluie, il drache !", en: "Take your umbrella, it's pouring!" },
           { es: "Il pleut à boire debout depuis ce matin.", en: "It's been bucketing down since this morning." },
           { es: "Ce film est vraiment plate.", en: "This film is really boring." },
           { es: "On se voit à tantôt !", en: "See you later!" },
-          { es: "Bonne arrivée ! Le voyage s'est bien passé ?", en: "Welcome! Did the journey go well?" },
-          { es: "Je ne peux pas venir, ma voiture est gâtée.", en: "I can't come, my car has broken down." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In Abidjan, a friend says \"Ma moto est gâtée\". What does he mean?",
-            options: [
-              "His motorbike has broken down.",
-              "His motorbike is spoilt with accessories.",
-              "His motorbike is brand new.",
-              "His motorbike has been stolen.",
-            ],
+            question: "A Québécoise says \"Il pleut à boire debout\". What is the weather like?",
+            options: ["Very heavy rain", "Light drizzle", "Fog", "Sunshine after rain"],
             correctIndex: 0,
-            explanation: "In West African French, \"gâté\" = broken, out of order.",
+            explanation: "Rain so heavy you could drink standing up.",
           },
           {
             type: "translate",
@@ -219,6 +229,33 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
             answer: "Il pleut des cordes.",
             altAnswers: ["Il pleut à verse.", "Il pleut à torrents.", "Il tombe des cordes."],
             explanation: "\"Il drache\" and \"il pleut à boire debout\" are regional.",
+          },
+        ],
+      },
+      {
+        heading: "West African French, and which one to use",
+        body: [
+          "West Africa (Côte d'Ivoire, Sénégal, Cameroun and others) has its own vivid French: \"bonne arrivée\" (welcome, said to someone who has just arrived), \"on dit quoi ?\" (what's up?), \"la voiture est gâtée\" (the car has broken down), \"un deuxième bureau\" (a mistress, a second partner), \"il est en haut\" (he's doing well, he's made it). When speaking with someone from another region, use the general French expression unless you are sure they share the local one; understanding all of them is the Mastery goal.",
+        ],
+        examples: [
+          { es: "Bonne arrivée ! Le voyage s'est bien passé ?", en: "Welcome! Did the journey go well?" },
+          { es: "Je ne peux pas venir, ma voiture est gâtée.", en: "I can't come, my car has broken down." },
+          { es: "Depuis qu'il a ouvert son entreprise, il est en haut.", en: "Since he opened his business, he's really made it." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "In Abidjan, a friend says \"Ma moto est gâtée\". What does he mean?",
+            options: ["His motorbike has broken down.", "His motorbike is spoilt with accessories.", "His motorbike is brand new.", "His motorbike has been stolen."],
+            correctIndex: 0,
+            explanation: "In West African French, \"gâté\" = broken, out of order.",
+          },
+          {
+            type: "multiple-choice",
+            question: "In Dakar, someone greets you with \"On dit quoi ?\". What is the best reply?",
+            options: ["Ça va, et toi ?", "Je ne sais pas ce qu'on dit.", "On dit bonjour.", "Répétez, s'il vous plaît."],
+            correctIndex: 0,
+            explanation: "\"On dit quoi ?\" = what's up? A greeting, not a real question.",
           },
         ],
       },
@@ -243,13 +280,6 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         answer: "Ce cours est vraiment ennuyeux.",
         altAnswers: ["Cette conférence est vraiment ennuyeuse.", "Ce cours est vraiment barbant.", "Cette conférence est vraiment barbante.", "Ce cours est vraiment rasoir."],
         explanation: "General French; in Québec you would hear \"c'est plate\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "A Québécoise says \"Il pleut à boire debout\". What is the weather like?",
-        options: ["Very heavy rain", "Light drizzle", "Fog", "Sunshine after rain"],
-        correctIndex: 0,
-        explanation: "Rain so heavy you could drink standing up.",
       },
       {
         type: "translate",
@@ -287,18 +317,6 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         explanation: "\"Bonne arrivée\" is the West African equivalent of the welcome.",
       },
       {
-        type: "multiple-choice",
-        question: "In Dakar, someone greets you with \"On dit quoi ?\". What is the best reply?",
-        options: [
-          "Ça va, et toi ?",
-          "Je ne sais pas ce qu'on dit.",
-          "On dit bonjour.",
-          "Répétez, s'il vous plaît.",
-        ],
-        correctIndex: 0,
-        explanation: "\"On dit quoi ?\" = what's up? A greeting, not a real question.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into general French.",
@@ -327,19 +345,14 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "Prends ton imperméable, il drache depuis ce matin.",
         question: "Where is the speaker probably from, and what is the weather?",
-        options: [
-          "Belgium; heavy rain",
-          "Switzerland; snow",
-          "Québec; strong wind",
-          "Senegal; heat",
-        ],
+        options: ["Belgium; heavy rain", "Switzerland; snow", "Québec; strong wind", "Senegal; heat"],
         correctIndex: 0,
         explanation: "\"Dracher\" is Belgian French for heavy rain.",
       },
       {
         type: "dictation",
-        audio: "Il pleut à boire debout depuis ce matin.",
-        explanation: "Québécois idiom for heavy rain.",
+        audio: "Ça fait trois jours qu'il pleut à boire debout.",
+        explanation: "\"Il pleut à boire debout\": Québec French for very heavy rain; \"ça fait trois jours que\" + present for an ongoing situation.",
       },
       {
         type: "speak",
@@ -347,6 +360,23 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         prompt: "Greet a friend arriving in Abidjan in French: Welcome! Did you have a good trip?",
         tip: "Warm, open intonation; \"bonne arrivée\" is said with a smile.",
         explanation: "The West African welcome followed by a general French question.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Make it general French.",
+        source: "La réunion était plate, comme d'habitude.",
+        answer: "La réunion était ennuyeuse, comme d'habitude.",
+        altAnswers: ["La réunion était barbante, comme d'habitude.", "La réunion était rasoir, comme d'habitude.", "La réunion était chiante, comme d'habitude."],
+        explanation: "\"C'est plate\" is Québec French. In France say \"ennuyeux\", or familiar \"barbant\" or \"rasoir\", and the adjective agrees with \"la réunion\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Prends tes bottes, il pleut à boire assis depuis hier.",
+        answer: "Prends tes bottes, il pleut à boire debout depuis hier.",
+        explanation: "The Québec idiom is frozen: \"il pleut à boire debout\" (rain so heavy you could drink it standing up). Changing \"debout\" breaks the image.",
       },
     ],
   },
@@ -360,28 +390,20 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Recap: from the pitch to the front page",
+        heading: "Remember the rule: from the pitch to the front page",
         body: [
           "Sport gives French journalism many of its images. \"Jouer les prolongations\" (to go into extra time) = to last longer than planned: \"les négociations jouent les prolongations\". \"Sur le fil\" (at the line) = at the very last moment, by a whisker: \"le texte a été adopté sur le fil\". \"Mettre la pression\" = to pressure. \"Botter en touche\" (to kick the ball into touch, in rugby) = to dodge a question: \"interrogé sur les impôts, le ministre a botté en touche\".",
-          "More: \"être sur le banc de touche\" (on the bench) = sidelined; \"mouiller le maillot\" (to soak the shirt with sweat) = to put in real effort; \"marquer un but contre son camp\" = to score an own goal, to harm one's own side; \"un coup franc\" or \"un carton rouge\" also appear figuratively. In the press these are courant: they can appear in a serious newspaper, but not in an official report.",
         ],
         examples: [
           { es: "Les négociations sur le budget jouent les prolongations.", en: "The budget negotiations are going into extra time." },
           { es: "Le projet de loi a été adopté sur le fil.", en: "The bill was passed by a whisker." },
           { es: "Interrogée sur sa candidature, elle a botté en touche.", en: "Asked about her candidacy, she sidestepped the question." },
-          { es: "Depuis le remaniement, l'ancien ministre est sur le banc de touche.", en: "Since the reshuffle, the former minister has been sidelined." },
-          { es: "Toute l'équipe a mouillé le maillot pour finir à temps.", en: "The whole team worked their socks off to finish on time." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "Headline: \"Retraites : le gouvernement botte en touche\". What has the government done?",
-            options: [
-              "It has avoided answering or deciding.",
-              "It has scored a decisive victory.",
-              "It has resigned.",
-              "It has accepted the unions' demands.",
-            ],
+            options: ["It has avoided answering or deciding.", "It has scored a decisive victory.", "It has resigned.", "It has accepted the unions' demands."],
             correctIndex: 0,
             explanation: "\"Botter en touche\" = to dodge the issue.",
           },
@@ -393,6 +415,35 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
             answer: "La réunion a joué les prolongations.",
             altAnswers: ["La réunion a joué les prolongations hier soir.", "La réunion s'est prolongée."],
             explanation: "\"Jouer les prolongations\": always plural \"les\".",
+          },
+        ],
+      },
+      {
+        heading: "The bench, the shirt and the own goal",
+        body: [
+          "More: \"être sur le banc de touche\" (on the bench) = sidelined; \"mouiller le maillot\" (to soak the shirt with sweat) = to put in real effort; \"marquer un but contre son camp\" = to score an own goal, to harm one's own side; \"un coup franc\" or \"un carton rouge\" also appear figuratively. In the press these are courant: they can appear in a serious newspaper, but not in an official report.",
+        ],
+        examples: [
+          { es: "Depuis le remaniement, l'ancien ministre est sur le banc de touche.", en: "Since the reshuffle, the former minister has been sidelined." },
+          { es: "Toute l'équipe a mouillé le maillot pour finir à temps.", en: "The whole team worked their socks off to finish on time." },
+          { es: "En critiquant ses alliés, la députée a marqué un but contre son camp.", en: "By criticising her allies, the MP scored an own goal." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which context suits \"mouiller le maillot\" best?",
+            options: ["A newspaper praising a hard-working team", "An official court judgment", "A medical report", "A legal contract"],
+            correctIndex: 0,
+            explanation: "Press idioms are courant: fine in journalism, out of place in official texts.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with a sports idiom.",
+            source: "Since the scandal, he has been sidelined.",
+            answer: "Depuis le scandale, il est sur le banc de touche.",
+            altAnswers: ["Depuis le scandale, il a été mis sur le banc de touche.", "Depuis le scandale, il est mis sur la touche.", "Depuis le scandale, il a été mis sur la touche."],
+            explanation: "\"Être sur le banc de touche\" or \"être mis sur la touche\".",
           },
         ],
       },
@@ -435,34 +486,13 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         explanation: "\"Marquer un but contre son camp\" = to harm one's own side.",
       },
       {
-        type: "multiple-choice",
-        question: "Which context suits \"mouiller le maillot\" best?",
-        options: [
-          "A newspaper praising a hard-working team",
-          "An official court judgment",
-          "A medical report",
-          "A legal contract",
-        ],
-        correctIndex: 0,
-        explanation: "Press idioms are courant: fine in journalism, out of place in official texts.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with a sports idiom.",
-        source: "Since the scandal, he has been sidelined.",
-        answer: "Depuis le scandale, il est sur le banc de touche.",
-        altAnswers: ["Depuis le scandale, il a été mis sur le banc de touche.", "Depuis le scandale, il est mis sur la touche.", "Depuis le scandale, il a été mis sur la touche."],
-        explanation: "\"Être sur le banc de touche\" or \"être mis sur la touche\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with a sports idiom.",
-        source: "Everyone worked their socks off.",
-        answer: "Tout le monde a mouillé le maillot.",
-        altAnswers: ["Tout le monde a mouillé sa chemise.", "Chacun a mouillé le maillot."],
-        explanation: "\"Mouiller le maillot\" (sport) or \"mouiller sa chemise\".",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        answer: "mouillé le maillot",
+        altAnswers: ["mouillé la chemise"],
+        explanation: "\"Mouiller le maillot\": soak the shirt with sweat, so put in real effort; \"mouiller la chemise\" is a common variant.",
+        en: "For the move, everyone [worked their socks off].",
+        sentence: "Pour le déménagement, tout le monde a ___.",
       },
       {
         type: "matching",
@@ -486,21 +516,16 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The bill was passed by a whisker.",
-        words: ["Le", "projet de loi", "a été", "adopté", "sur le fil."],
-        translation: "The bill was passed by a whisker.",
-        explanation: "\"Sur le fil\" at the end, as in a headline.",
+        prompt: "Put the words in order to say: The contract was signed at the very last moment.",
+        words: ["Le", "contrat", "a", "été", "signé", "sur", "le", "fil."],
+        translation: "The contract was signed at the very last moment.",
+        explanation: "\"Sur le fil\": at the finishing line, so by a whisker or at the last moment.",
       },
       {
         type: "listen-choose",
         audio: "Après trois heures de débat, la réunion joue encore les prolongations.",
         question: "What is happening?",
-        options: [
-          "The meeting is running over time.",
-          "The meeting has been cancelled.",
-          "The meeting ended early.",
-          "The meeting is about sport.",
-        ],
+        options: ["The meeting is running over time.", "The meeting has been cancelled.", "The meeting ended early.", "The meeting is about sport."],
         correctIndex: 0,
         explanation: "\"Jouer les prolongations\" = to go on beyond the planned time.",
       },
@@ -525,6 +550,24 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         tip: "Steady news-reading pace; pause after \"prolongations\".",
         explanation: "Two press idioms in one sentence.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it in neutral French, without the idiom.",
+        source: "La députée a marqué un but contre son camp avec ce tweet.",
+        answer: "La députée a nui à son propre camp avec ce tweet.",
+        altAnswers: ["La députée a desservi son propre camp avec ce tweet.", "La députée a fait du tort à son propre camp avec ce tweet.", "La députée a porté préjudice à son propre camp avec ce tweet."],
+        explanation: "\"Marquer un but contre son camp\" is courant press French; an official report would say \"nuire à son propre camp\" or \"desservir son camp\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "L'équipe a mouillé la serviette jusqu'au bout.",
+        answer: "L'équipe a mouillé le maillot jusqu'au bout.",
+        altAnswers: ["L'équipe a mouillé la chemise jusqu'au bout."],
+        explanation: "The idiom is frozen: \"mouiller le maillot\" (or \"la chemise\"). A towel is not part of the image.",
+      },
     ],
   },
   {
@@ -537,17 +580,14 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Recap: close candidates",
+        heading: "Remember the rule: close candidates, different jobs",
         body: [
           "Three \"tomber\" idioms: \"tomber à pic\" (to come at just the right moment), \"tomber à l'eau\" (to fall through: \"nos vacances sont tombées à l'eau\") and \"tomber comme un cheveu sur la soupe\" (to come at the worst moment, out of place). Trouble: \"être dans le pétrin\" or \"être dans de beaux draps\" (to be in a mess, ironic \"beaux\"), \"ne pas être sorti de l'auberge\" (to be far from out of trouble yet), \"avoir du pain sur la planche\" (to have a lot of work ahead, not necessarily trouble).",
-          "Letting someone down: \"poser un lapin\" (familiar: not turning up to a date) vs \"faire faux bond à quelqu'un\" (courant: failing to show or to keep a commitment, usable at work). Sleeping: \"faire la grasse matinée\" (to sleep in) vs \"dormir sur ses deux oreilles\" (to sleep soundly, to have nothing to worry about) vs \"dormir à poings fermés\" (to be fast asleep).",
         ],
         examples: [
           { es: "Ton appel tombe à pic, j'allais justement t'écrire.", en: "Your call comes at just the right time; I was about to write to you." },
           { es: "À cause de la grève, notre voyage est tombé à l'eau.", en: "Because of the strike, our trip fell through." },
           { es: "On a réparé la fuite, mais on n'est pas sortis de l'auberge.", en: "We fixed the leak, but we're not out of the woods yet." },
-          { es: "Le traducteur nous a fait faux bond à la dernière minute.", en: "The translator let us down at the last minute." },
-          { es: "Avec une alarme pareille, vous pouvez dormir sur vos deux oreilles.", en: "With an alarm like that, you can sleep easy." },
         ],
         checkpoint: [
           {
@@ -558,13 +598,41 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
             explanation: "\"Tomber à pic\" = at exactly the right moment.",
           },
           {
+            type: "multiple-choice",
+            question: "The roof is fixed, but the walls are cracked and the money has run out. Which idiom fits?",
+            options: ["On n'est pas sortis de l'auberge.", "Ça tombe à pic.", "On dort sur nos deux oreilles.", "On fait la grasse matinée."],
+            correctIndex: 0,
+            explanation: "Far from out of trouble yet.",
+          },
+        ],
+      },
+      {
+        heading: "Letting people down, and three ways to sleep",
+        body: [
+          "Letting someone down: \"poser un lapin\" (familiar: not turning up to a date) vs \"faire faux bond à quelqu'un\" (courant: failing to show or to keep a commitment, usable at work). Sleeping: \"faire la grasse matinée\" (to sleep in) vs \"dormir sur ses deux oreilles\" (to sleep soundly, to have nothing to worry about) vs \"dormir à poings fermés\" (to be fast asleep).",
+        ],
+        examples: [
+          { es: "Le traducteur nous a fait faux bond à la dernière minute.", en: "The translator let us down at the last minute." },
+          { es: "Avec une alarme pareille, vous pouvez dormir sur vos deux oreilles.", en: "With an alarm like that, you can sleep easy." },
+          { es: "Après le marathon, il a dormi à poings fermés.", en: "After the marathon, he slept like a log." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "On Sunday I [slept in] until eleven.",
+            sentence: "Dimanche, j'ai ___ jusqu'à onze heures.",
+            answer: "fait la grasse matinée",
+            explanation: "Not \"dormir sur ses deux oreilles\", which means to sleep without worry.",
+          },
+          {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French with an idiom suitable at work.",
-            source: "The supplier let us down at the last minute.",
-            answer: "Le fournisseur nous a fait faux bond à la dernière minute.",
-            altAnswers: ["Le fournisseur nous a lâchés à la dernière minute.", "Le fournisseur nous a fait faux bond au dernier moment."],
-            explanation: "\"Faire faux bond\" is courant; \"poser un lapin\" is too familiar here.",
+            source: "The caterer let us down the day before the wedding.",
+            answer: "Le traiteur nous a fait faux bond la veille du mariage.",
+            altAnswers: ["Le traiteur nous a fait faux bond la veille des noces.", "Le traiteur nous a lâchés la veille du mariage."],
+            explanation: "\"Faire faux bond à quelqu'un\" is courant, so it suits a professional let-down; \"poser un lapin\" would sound too familiar.",
           },
         ],
       },
@@ -589,18 +657,6 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         explanation: "Lots of work, not necessarily a problem.",
       },
       {
-        type: "multiple-choice",
-        question: "The roof is fixed, but the walls are cracked and the money has run out. Which idiom fits?",
-        options: [
-          "On n'est pas sortis de l'auberge.",
-          "Ça tombe à pic.",
-          "On dort sur nos deux oreilles.",
-          "On fait la grasse matinée.",
-        ],
-        correctIndex: 0,
-        explanation: "Far from out of trouble yet.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with an idiom.",
@@ -608,14 +664,6 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         answer: "Nous voilà dans de beaux draps.",
         altAnswers: ["On est dans de beaux draps.", "Nous sommes dans le pétrin.", "On est dans le pétrin.", "Nous voilà dans le pétrin."],
         explanation: "\"De beaux draps\" is ironic; \"le pétrin\" is the kneading trough.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "On Sunday I [slept in] until eleven.",
-        sentence: "Dimanche, j'ai ___ jusqu'à onze heures.",
-        answer: "fait la grasse matinée",
-        explanation: "Not \"dormir sur ses deux oreilles\", which means to sleep without worry.",
       },
       {
         type: "translate",
@@ -629,12 +677,7 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "During a funeral, someone tells a joke. The joke...",
-        options: [
-          "tombe comme un cheveu sur la soupe.",
-          "tombe à pic.",
-          "tombe à l'eau.",
-          "fait faux bond.",
-        ],
+        options: ["tombe comme un cheveu sur la soupe.", "tombe à pic.", "tombe à l'eau.", "fait faux bond."],
         correctIndex: 0,
         explanation: "Out of place at the worst moment.",
       },
@@ -678,12 +721,7 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "On a trouvé un financement, mais on n'est pas encore sortis de l'auberge.",
         question: "How does the speaker feel about the situation?",
-        options: [
-          "Relieved, but aware the problems aren't over.",
-          "Completely reassured.",
-          "Ready to give up.",
-          "Angry at the funders.",
-        ],
+        options: ["Relieved, but aware the problems aren't over.", "Completely reassured.", "Ready to give up.", "Angry at the funders."],
         correctIndex: 0,
         explanation: "\"Ne pas être sorti de l'auberge\" = still a long way to go.",
       },
@@ -699,6 +737,22 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         tip: "Cheerful tone; \"à pic\" is short and stressed.",
         explanation: "\"Tomber à pic\" + \"justement\".",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change to the passé composé.",
+        source: "Notre sortie au lac tombe à l'eau à cause de l'orage.",
+        answer: "Notre sortie au lac est tombée à l'eau à cause de l'orage.",
+        explanation: "\"Tomber à l'eau\" keeps the auxiliary \"être\" of \"tomber\", so the participle agrees with \"notre sortie\": \"est tombée\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Ta remarque tombe comme un cheveu dans la soupe.",
+        answer: "Ta remarque tombe comme un cheveu sur la soupe.",
+        explanation: "The idiom is frozen: \"tomber comme un cheveu sur la soupe\", with \"sur\". It means to come at the worst moment, out of place.",
+      },
     ],
   },
   {
@@ -711,18 +765,14 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
     duration: "16 min",
     sections: [
       {
-        heading: "Recap: translate the function, not the words",
+        heading: "Remember the rule: translate the function, not the words",
         body: [
-          "Professional translators look for \"l'équivalent fonctionnel\": the French idiom that a French speaker would use in the same situation, with the same register. Spill the beans or let the cat out of the bag → \"vendre la mèche\". Beat around the bush → \"tourner autour du pot\". Once in a blue moon → \"tous les trente-six du mois\". It's all Greek to me → \"c'est du chinois\" or \"c'est de l'hébreu pour moi\". Pull someone's leg → \"faire marcher quelqu'un\" or \"mettre quelqu'un en boîte\". A storm in a teacup → \"une tempête dans un verre d'eau\". Over the moon → \"aux anges\".",
-          "Sometimes there is no idiom in French, and the best translation is neutral: the elephant in the room → \"le sujet que tout le monde évite\" or \"le sujet qui fâche\"; to have a sweet tooth → \"être gourmand\" or \"adorer les sucreries\". A forced idiom is worse than a clear sentence. And sometimes the image survives: cry wolf → \"crier au loup\", the tip of the iceberg → \"la partie émergée de l'iceberg\".",
+          "Professional translators look for \"l'équivalent fonctionnel\": the French idiom that a French speaker would use in the same situation, with the same register. Spill the beans or let the cat out of the bag → \"vendre la mèche\". Beat around the bush → \"tourner autour du pot\". Once in a blue moon → \"tous les trente-six du mois\".",
         ],
         examples: [
           { es: "C'est son frère qui a vendu la mèche.", en: "It was her brother who spilled the beans." },
           { es: "Arrête de tourner autour du pot et dis-moi la vérité.", en: "Stop beating around the bush and tell me the truth." },
           { es: "Il vient nous voir tous les trente-six du mois.", en: "He visits us once in a blue moon." },
-          { es: "Ce contrat, pour moi, c'est du chinois.", en: "This contract is all Greek to me." },
-          { es: "Je t'ai fait marcher, il n'y a pas de réunion !", en: "I was pulling your leg, there's no meeting!" },
-          { es: "Depuis qu'elle a eu le poste, elle est aux anges.", en: "Since she got the job, she's been over the moon." },
         ],
         checkpoint: [
           {
@@ -735,30 +785,76 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
             explanation: "\"Vendre la mèche\" = to give away a secret.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with the equivalent idiom.",
+            source: "Stop beating around the bush.",
+            answer: "Arrête de tourner autour du pot.",
+            altAnswers: ["Arrêtez de tourner autour du pot.", "Ne tourne pas autour du pot.", "Ne tournez pas autour du pot."],
+            explanation: "\"Tourner autour du pot\".",
+          },
+        ],
+      },
+      {
+        heading: "More equivalents: Greek, legs, teacups and the moon",
+        body: [
+          "It's all Greek to me → \"c'est du chinois\" or \"c'est de l'hébreu pour moi\". Pull someone's leg → \"faire marcher quelqu'un\" or \"mettre quelqu'un en boîte\". A storm in a teacup → \"une tempête dans un verre d'eau\". Over the moon → \"aux anges\".",
+        ],
+        examples: [
+          { es: "Ce contrat, pour moi, c'est du chinois.", en: "This contract is all Greek to me." },
+          { es: "Je t'ai fait marcher, il n'y a pas de réunion !", en: "I was pulling your leg, there's no meeting!" },
+          { es: "Depuis qu'elle a eu le poste, elle est aux anges.", en: "Since she got the job, she's been over the moon." },
+        ],
+        checkpoint: [
+          {
             type: "multiple-choice",
             question: "Best French equivalent of a storm in a teacup:",
-            options: [
-              "une tempête dans un verre d'eau",
-              "une tempête dans une tasse de thé",
-              "un orage dans une tasse",
-              "une tempête de thé",
-            ],
+            options: ["une tempête dans un verre d'eau", "une tempête dans une tasse de thé", "un orage dans une tasse", "une tempête de thé"],
             correctIndex: 0,
             explanation: "French has the same image, but with a glass of water.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "When she heard the news, she was [over the moon].",
+            sentence: "Quand elle a appris la nouvelle, elle était ___.",
+            answer: "aux anges",
+            altAnswers: ["au septième ciel"],
+            explanation: "\"Être aux anges\" or \"au septième ciel\".",
+          },
+        ],
+      },
+      {
+        heading: "When there is no idiom, and when the image survives",
+        body: [
+          "Sometimes there is no idiom in French, and the best translation is neutral: the elephant in the room → \"le sujet que tout le monde évite\" or \"le sujet qui fâche\"; to have a sweet tooth → \"être gourmand\" or \"adorer les sucreries\". A forced idiom is worse than a clear sentence. And sometimes the image survives: cry wolf → \"crier au loup\", the tip of the iceberg → \"la partie émergée de l'iceberg\".",
+        ],
+        examples: [
+          { es: "Le budget, c'est le sujet que tout le monde évite.", en: "The budget is the elephant in the room." },
+          { es: "Ma grand-mère adore les sucreries.", en: "My grandmother has a sweet tooth." },
+          { es: "Arrête de crier au loup, plus personne ne te croit.", en: "Stop crying wolf, nobody believes you any more." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is the best French version of to cry wolf?",
+            options: ["crier au loup", "pleurer le loup", "hurler avec les loups", "avoir une faim de loup"],
+            correctIndex: 0,
+            explanation: "Shared image. \"Hurler avec les loups\" means to follow the crowd.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into natural French (no forced idiom).",
+            source: "Nobody mentioned the elephant in the room.",
+            answer: "Personne n'a abordé le sujet qui fâche.",
+            altAnswers: ["Personne n'a parlé du sujet qui fâche.", "Personne n'a évoqué le sujet que tout le monde évitait.", "Personne n'a abordé le sujet que tout le monde évitait."],
+            explanation: "No French idiom: use a clear phrase. \"L'éléphant dans la pièce\" is a calque, though spreading in the press.",
           },
         ],
       },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with the equivalent idiom.",
-        source: "Stop beating around the bush.",
-        answer: "Arrête de tourner autour du pot.",
-        altAnswers: ["Arrêtez de tourner autour du pot.", "Ne tourne pas autour du pot.", "Ne tournez pas autour du pot."],
-        explanation: "\"Tourner autour du pot\".",
-      },
       {
         type: "translate",
         direction: "en-es",
@@ -785,31 +881,6 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         answer: "La physique, pour moi, c'est du chinois.",
         altAnswers: ["La physique, c'est du chinois pour moi.", "La physique, c'est de l'hébreu pour moi.", "Pour moi, la physique, c'est du chinois."],
         explanation: "French uses Chinese or Hebrew for incomprehensible things.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "When she heard the news, she was [over the moon].",
-        sentence: "Quand elle a appris la nouvelle, elle était ___.",
-        answer: "aux anges",
-        altAnswers: ["au septième ciel"],
-        explanation: "\"Être aux anges\" or \"au septième ciel\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into natural French (no forced idiom).",
-        source: "Nobody mentioned the elephant in the room.",
-        answer: "Personne n'a abordé le sujet qui fâche.",
-        altAnswers: ["Personne n'a parlé du sujet qui fâche.", "Personne n'a évoqué le sujet que tout le monde évitait.", "Personne n'a abordé le sujet que tout le monde évitait."],
-        explanation: "No French idiom: use a clear phrase. \"L'éléphant dans la pièce\" is a calque, though spreading in the press.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which is the best French version of to cry wolf?",
-        options: ["crier au loup", "pleurer le loup", "hurler avec les loups", "avoir une faim de loup"],
-        correctIndex: 0,
-        explanation: "Shared image. \"Hurler avec les loups\" means to follow the crowd.",
       },
       {
         type: "translate",
@@ -851,19 +922,14 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "Mais non, je te fais marcher, la réunion est bien demain !",
         question: "What does the speaker admit?",
-        options: [
-          "He was joking about the meeting.",
-          "He made the meeting walk.",
-          "He cancelled the meeting.",
-          "He forgot about the meeting.",
-        ],
+        options: ["He was joking about the meeting.", "He made the meeting walk.", "He cancelled the meeting.", "He forgot about the meeting."],
         correctIndex: 0,
         explanation: "\"Faire marcher quelqu'un\" = to pull someone's leg.",
       },
       {
         type: "dictation",
-        audio: "Arrête de tourner autour du pot et dis-moi la vérité.",
-        explanation: "\"Tourner autour du pot\" = to beat around the bush.",
+        audio: "Elle tourne autour du pot depuis dix minutes.",
+        explanation: "\"Tourner autour du pot\" = to beat around the bush; \"depuis\" + present for an action still going on.",
       },
       {
         type: "speak",
@@ -871,6 +937,23 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         prompt: "Say it in French: I won't beat around the bush: the project is cancelled.",
         tip: "Pause at the colon, then deliver the news plainly.",
         explanation: "The idiom announces directness.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Make it negative.",
+        source: "Je te fais marcher.",
+        answer: "Je ne te fais pas marcher.",
+        altAnswers: ["Je ne te fais pas marcher !"],
+        explanation: "\"Faire marcher quelqu'un\" (to pull someone's leg): the negation surrounds the conjugated verb, and the object pronoun \"te\" stays inside it.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Arrête de battre autour du buisson et réponds-moi.",
+        answer: "Arrête de tourner autour du pot et réponds-moi.",
+        explanation: "Beat around the bush translated word for word means nothing in French. The functional equivalent is \"tourner autour du pot\".",
       },
     ],
   },
@@ -884,16 +967,31 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Recap: the column",
+        heading: "The column, part 1: a U-turn on the car park",
         body: [
           "Read this original column about an imaginary town council: \"À Valmont-sur-Loire, le feuilleton du nouveau parking n'en finit pas. Il y a six mois, l'adjoint aux finances jurait ses grands dieux que le projet coûterait trop cher. Cette semaine, il a retourné sa veste et défend le projet avec ferveur. L'opposition est aussitôt montée au créneau pour dénoncer un revirement « inexplicable ». Le maire, lui, a préféré noyer le poisson : interrogé sur le coût réel des travaux, il a parlé de l'avenir du centre-ville, de la qualité de vie, du commerce local... tout sauf des chiffres.",
-          "Ses alliés écologistes, qui avaient promis de ne jamais voter « un parking de plus », ont dû avaler des couleuvres. Quant aux deux camps, ils se renvoient la balle : la majorité accuse l'ancienne équipe d'avoir laissé les finances dans un état déplorable, l'opposition répond que la majorité jette de l'huile sur le feu. L'adjoint, désormais sur la sellette, ferait bien de mettre de l'eau dans son vin s'il veut garder sa délégation.\"",
-          "Glossary: \"retourner sa veste\" = to change sides, to do a U-turn; \"monter au créneau\" = to step up to defend or attack (from the battlements of a castle); \"noyer le poisson\" = to muddy the waters, to evade with confusion; \"avaler des couleuvres\" = to swallow insults or humiliating compromises (literally grass snakes); \"se renvoyer la balle\" = to pass the buck back and forth; \"jeter de l'huile sur le feu\" = to inflame a situation; \"être sur la sellette\" = to be under scrutiny, in a precarious position; \"mettre de l'eau dans son vin\" = to tone it down, to compromise.",
         ],
         examples: [
           { es: "Le député a retourné sa veste juste avant les élections.", en: "The MP switched sides just before the election." },
           { es: "La ministre est montée au créneau pour défendre la réforme.", en: "The minister stepped up to defend the reform." },
           { es: "Au lieu de répondre, il a noyé le poisson.", en: "Instead of answering, he muddied the waters." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "In the column, what did the deputy for finance do?",
+            options: ["He changed his position on the car park.", "He resigned from the council.", "He refused to answer journalists.", "He doubled the project's budget."],
+            correctIndex: 0,
+            explanation: "\"Il a retourné sa veste\": a U-turn.",
+          },
+        ],
+      },
+      {
+        heading: "The column, part 2: blame and bitter pills",
+        body: [
+          "Ses alliés écologistes, qui avaient promis de ne jamais voter « un parking de plus », ont dû avaler des couleuvres. Quant aux deux camps, ils se renvoient la balle : la majorité accuse l'ancienne équipe d'avoir laissé les finances dans un état déplorable, l'opposition répond que la majorité jette de l'huile sur le feu. L'adjoint, désormais sur la sellette, ferait bien de mettre de l'eau dans son vin s'il veut garder sa délégation.\"",
+        ],
+        examples: [
           { es: "Les syndicats ont dû avaler des couleuvres.", en: "The unions had to swallow a bitter pill." },
           { es: "Le gouvernement et la mairie se renvoient la balle.", en: "The government and the town hall keep passing the buck." },
           { es: "Ces déclarations ne font que jeter de l'huile sur le feu.", en: "These statements are only adding fuel to the fire." },
@@ -901,16 +999,68 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In the column, what did the deputy for finance do?",
+            question: "Why did the Green allies have to « avaler des couleuvres »?",
             options: [
-              "He changed his position on the car park.",
-              "He resigned from the council.",
-              "He refused to answer journalists.",
-              "He doubled the project's budget.",
+              "They had promised never to vote for another car park, and had to accept one.",
+              "They ate a strange dish at a council dinner.",
+              "They won the vote on the car park.",
+              "They left the council in protest.",
             ],
             correctIndex: 0,
-            explanation: "\"Il a retourné sa veste\": a U-turn.",
+            explanation: "\"Avaler des couleuvres\" (swallow grass snakes) = to accept a humiliating compromise: the Greens had sworn \"pas un parking de plus\".",
           },
+          {
+            type: "multiple-choice",
+            question: "\"Les deux ministères se renvoient la balle.\" What is happening?",
+            options: ["Each ministry blames the other.", "The ministries are cooperating well.", "The ministries are playing sport together.", "The ministries have merged."],
+            correctIndex: 0,
+            explanation: "\"Se renvoyer la balle\" = to pass the buck back and forth.",
+          },
+        ],
+      },
+      {
+        heading: "Glossary, part 1: veste, créneau, poisson, couleuvres",
+        body: [
+          "Glossary: \"retourner sa veste\" = to change sides, to do a U-turn; \"monter au créneau\" = to step up to defend or attack (from the battlements of a castle); \"noyer le poisson\" = to muddy the waters, to evade with confusion; \"avaler des couleuvres\" = to swallow insults or humiliating compromises (literally grass snakes).",
+        ],
+        examples: [
+          { es: "Le porte-parole est monté au créneau dès le matin.", en: "The spokesman stepped up first thing in the morning." },
+          { es: "Pour garder son poste, elle a avalé bien des couleuvres.", en: "To keep her job, she swallowed a lot of humiliation." },
+          { es: "Ce rapport ne fait que noyer le poisson.", en: "This report only muddies the waters." },
+        ],
+        checkpoint: [
+          {
+            type: "matching",
+            instructions: "Match each idiom with its meaning.",
+            pairs: [
+              { left: "retourner sa veste", right: "to switch sides" },
+              { left: "noyer le poisson", right: "to evade with confusion" },
+              { left: "être sur la sellette", right: "to be under scrutiny" },
+              { left: "monter au créneau", right: "to step up to fight" },
+            ],
+            explanation: "The core idioms of political journalism.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Asked about the cost, the spokesman [muddied the waters].",
+            sentence: "Interrogé sur le coût, le porte-parole a ___.",
+            answer: "noyé le poisson",
+            explanation: "\"Noyer le poisson\": tire the fish out until it gives up, so to evade.",
+          },
+        ],
+      },
+      {
+        heading: "Glossary, part 2: balle, huile, sellette, eau dans son vin",
+        body: [
+          "\"Se renvoyer la balle\" = to pass the buck back and forth; \"jeter de l'huile sur le feu\" = to inflame a situation; \"être sur la sellette\" = to be under scrutiny, in a precarious position; \"mettre de l'eau dans son vin\" = to tone it down, to compromise.",
+        ],
+        examples: [
+          { es: "Depuis l'enquête, le directeur est sur la sellette.", en: "Since the inquiry, the director has been in the hot seat." },
+          { es: "Les deux voisins se renvoient la balle depuis des mois.", en: "The two neighbours have been passing the buck for months." },
+          { es: "Les deux camps ont fini par mettre de l'eau dans leur vin.", en: "Both sides ended up toning it down." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -919,6 +1069,15 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
             answer: "Le maire est sur la sellette.",
             altAnswers: ["La maire est sur la sellette.", "Le maire est désormais sur la sellette.", "Le maire se retrouve sur la sellette."],
             explanation: "\"Être sur la sellette\" (originally the stool for the accused).",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with an idiom.",
+            source: "The two parties keep blaming each other.",
+            answer: "Les deux partis se renvoient la balle.",
+            altAnswers: ["Les deux partis ne cessent de se renvoyer la balle.", "Les deux partis n'arrêtent pas de se renvoyer la balle."],
+            explanation: "\"Se renvoyer la balle\": reciprocal pronoun.",
           },
         ],
       },
@@ -943,14 +1102,6 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         explanation: "French uses oil, English fuel.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "Asked about the cost, the spokesman [muddied the waters].",
-        sentence: "Interrogé sur le coût, le porte-parole a ___.",
-        answer: "noyé le poisson",
-        explanation: "\"Noyer le poisson\": tire the fish out until it gives up, so to evade.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with an idiom.",
@@ -958,18 +1109,6 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         answer: "L'opposition est montée au créneau pour attaquer le budget.",
         altAnswers: ["L'opposition est montée au créneau contre le budget.", "L'opposition est montée au créneau pour critiquer le budget.", "L'opposition est montée au créneau pour dénoncer le budget."],
         explanation: "\"Monter au créneau\" takes \"être\"; \"montée\" agrees with \"l'opposition\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "\"Les deux ministères se renvoient la balle.\" What is happening?",
-        options: [
-          "Each ministry blames the other.",
-          "The ministries are cooperating well.",
-          "The ministries are playing sport together.",
-          "The ministries have merged.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Se renvoyer la balle\" = to pass the buck back and forth.",
       },
       {
         type: "translate",
@@ -990,17 +1129,6 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         explanation: "\"Mettre de l'eau dans son vin\" = to moderate one's position.",
       },
       {
-        type: "matching",
-        instructions: "Match each idiom with its meaning.",
-        pairs: [
-          { left: "retourner sa veste", right: "to switch sides" },
-          { left: "noyer le poisson", right: "to evade with confusion" },
-          { left: "être sur la sellette", right: "to be under scrutiny" },
-          { left: "monter au créneau", right: "to step up to fight" },
-        ],
-        explanation: "The core idioms of political journalism.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into neutral French (no idiom).",
@@ -1011,32 +1139,18 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Instead of answering, he muddied the waters.",
-        words: ["Au lieu", "de répondre,", "il a", "noyé", "le poisson."],
-        translation: "Instead of answering, he muddied the waters.",
-        explanation: "\"Au lieu de\" + infinitive.",
+        prompt: "Put the words in order to say: She muddied the waters again.",
+        words: ["Elle", "a", "encore", "noyé", "le", "poisson."],
+        translation: "She muddied the waters again.",
+        explanation: "\"Noyer le poisson\": to drown the fish, so to evade a question with confusion; \"encore\" sits between the auxiliary and the participle.",
       },
       {
         type: "listen-choose",
         audio: "Le maire, désormais sur la sellette, ferait bien de mettre de l'eau dans son vin.",
         question: "What does the columnist advise?",
-        options: [
-          "The mayor, now under pressure, should moderate his stance.",
-          "The mayor should resign immediately.",
-          "The mayor should celebrate his victory.",
-          "The mayor should drink less.",
-        ],
+        options: ["The mayor, now under pressure, should moderate his stance.", "The mayor should resign immediately.", "The mayor should celebrate his victory.", "The mayor should drink less."],
         correctIndex: 0,
         explanation: "\"Faire bien de\" + infinitive = would do well to.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with an idiom.",
-        source: "The two parties keep blaming each other.",
-        answer: "Les deux partis se renvoient la balle.",
-        altAnswers: ["Les deux partis ne cessent de se renvoyer la balle.", "Les deux partis n'arrêtent pas de se renvoyer la balle."],
-        explanation: "\"Se renvoyer la balle\": reciprocal pronoun.",
       },
       {
         type: "dictation",
@@ -1049,6 +1163,23 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         prompt: "Say it in French: Instead of adding fuel to the fire, everyone should tone it down.",
         tip: "Balance the two halves: oil and fire, water and wine.",
         explanation: "Two opposite images in one sentence.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it in neutral French, without the idiom.",
+        source: "Le syndicat et la direction se renvoient la balle.",
+        answer: "Le syndicat et la direction s'accusent mutuellement.",
+        altAnswers: ["Le syndicat et la direction se rejettent la responsabilité.", "Le syndicat et la direction se rejettent mutuellement la responsabilité.", "Le syndicat et la direction s'accusent l'un l'autre."],
+        explanation: "\"Se renvoyer la balle\" is press French; a neutral report says \"s'accuser mutuellement\" or \"se rejeter la responsabilité\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "La ministre a avalé des serpents pour garder son poste.",
+        answer: "La ministre a avalé des couleuvres pour garder son poste.",
+        explanation: "The idiom is frozen: \"avaler des couleuvres\". Swapping in \"des serpents\" breaks it, though a \"couleuvre\" is a kind of snake.",
       },
     ],
   },
