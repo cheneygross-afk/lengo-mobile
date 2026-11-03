@@ -1,6 +1,6 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/questionCap.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Exercise, Lesson, LessonSection } from "./types";
-import { familyOf, keepsAuthoredOrder, stageOf } from "./lessonFlow";
+import { familyOf, keepsAuthoredOrder, stageOf, type Family } from "./lessonFlow";
 
 // No lesson asks more than MAX_LESSON_QUESTIONS questions (owner rule,
 // 2026-11-03: "no lesson should be more than 30 questions, no matter
@@ -151,7 +151,7 @@ function deal(exercises: Exercise[], q: number[], checkpoints: Exercise[][], exa
   const STAGES = { crawl: 0, walk: 1, run: 2 } as const;
   const got = q.map(() => [] as { e: Exercise; index: number }[]);
   const fams = checkpoints.map((c) => new Set(c.map(familyOf)));
-  const place = (items: { e: Exercise; index: number; fam: string }[], quota: number[]) => {
+  const place = (items: { e: Exercise; index: number; fam: Family }[], quota: number[]) => {
     const used = quota.map(() => 0);
     for (const item of items) {
       const echo = exampleWords.map((ex) => ex.some((x) => echoed(x, [item.e])));
