@@ -17,11 +17,23 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         heading: "Recap: what the DELF listening paper tests",
         body: [
           "You hear each document twice. Questions target the speakers' positions, their degree of certainty, the figures and the arguments they report. Read the questions before the first listening, note key words during it, and check nuances during the second.",
-          "Hedging tells you how sure a speaker is: \"il me semble que\", \"dans une certaine mesure\", \"a priori\", \"sans doute\" (probably, not 'without doubt'). Contrast markers signal the real point: \"or\", \"en revanche\", \"il n'en reste pas moins que\".",
         ],
         examples: [
           { es: "Selon une étude récente, un Français sur trois ne prend jamais le train.", en: "According to a recent study, one French person in three never takes the train." },
           { es: "Le ministre a affirmé que les prix baisseraient l'an prochain.", en: "The minister stated that prices would fall next year." },
+          { es: "Le journaliste a demandé au maire s'il se représenterait.", en: "The journalist asked the mayor whether he would stand again." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "You hear: « Selon le maire, le projet coûterait deux millions d'euros. » What do you note?", options: ["The mayor's estimate, which the speaker doesn't vouch for.", "The project cost two million euros.", "The project will definitely cost two million euros.", "The mayor refuses to pay two million euros."], correctIndex: 0, explanation: "\"Selon\" + the conditional (\"coûterait\") reports someone else's figure without confirming it. Nothing says it has been spent or is certain." },
+          { type: "translate", direction: "en-es", prompt: "Turn it into reported speech after « Le ministre a affirmé ».", source: "« Les impôts baisseront l'an prochain. »", answer: "Le ministre a affirmé que les impôts baisseraient l'année suivante.", altAnswers: ["Le ministre a affirmé que les impôts baisseraient l'an prochain.", "Le ministre a affirmé que les impôts baisseraient l'année prochaine.", "La ministre a affirmé que les impôts baisseraient l'année suivante.", "La ministre a affirmé que les impôts baisseraient l'an prochain."], explanation: "After a past reporting verb the futur becomes the conditionnel: \"baisseront\" → \"baisseraient\". \"L'an prochain\" becomes \"l'année suivante\", or stays if it is still ahead of us." },
+        ],
+      },
+      {
+        heading: "Recap: hedging and contrast markers",
+        body: [
+          "Hedging tells you how sure a speaker is: \"il me semble que\", \"dans une certaine mesure\", \"a priori\", \"sans doute\" (probably, not 'without doubt'). Contrast markers signal the real point: \"or\", \"en revanche\", \"il n'en reste pas moins que\".",
+        ],
+        examples: [
           { es: "Sans doute, mais il faut nuancer ces chiffres.", en: "Probably, but these figures need to be qualified." },
           { es: "A priori, je ne suis pas contre, mais je demande à voir.", en: "In principle I'm not against it, but I'll believe it when I see it." },
           { es: "En revanche, les jeunes se montrent beaucoup plus optimistes.", en: "On the other hand, young people are much more optimistic." },
@@ -34,15 +46,6 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
             options: ["He partly accepts them but wants to qualify them.", "He rejects them completely.", "He is absolutely certain they are right.", "He refuses to comment."],
             correctIndex: 0,
             explanation: "\"Sans doute\" means 'probably'; \"nuancer\" means to qualify.",
-          },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "The minister stated that prices would fall next year.",
-            answer: "Le ministre a affirmé que les prix baisseraient l'an prochain.",
-            altAnswers: ["Le ministre a affirmé que les prix baisseraient l'année prochaine.", "Le ministre a déclaré que les prix baisseraient l'an prochain.", "La ministre a affirmé que les prix baisseraient l'an prochain."],
-            explanation: "Reported speech after a past verb: future → conditional.",
           },
           {
             type: "fill-blank",
@@ -73,15 +76,7 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         correctIndex: 0,
         explanation: "\"Je demande à voir\" expresses wait-and-see scepticism.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "According to a recent study, young people read less and less.",
-        answer: "Selon une étude récente, les jeunes lisent de moins en moins.",
-        altAnswers: ["D'après une étude récente, les jeunes lisent de moins en moins."],
-        explanation: "\"De moins en moins\" = less and less.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Selon une étude récente, les jeunes lisent de moins à moins.", answer: "Selon une étude récente, les jeunes lisent de moins en moins.", explanation: "The fixed expression is \"de moins en moins\" (less and less), like \"de plus en plus\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -150,11 +145,7 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         correctIndex: 0,
         explanation: "\"Ne pas partager l'avis de quelqu'un\" = to disagree.",
       },
-      {
-        type: "dictation",
-        audio: "Le ministre a affirmé que les prix baisseraient l'an prochain.",
-        explanation: "Conditional ending \"-raient\" after the past \"a affirmé\".",
-      },
+      { type: "dictation", audio: "La ministre a reconnu que les chiffres étaient inquiétants.", explanation: "Reported speech: the present \"sont\" becomes the imparfait \"étaient\" after \"a reconnu\"." },
       {
         type: "speak",
         text: "Je ne partage pas tout à fait votre avis.",
@@ -182,17 +173,36 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
     duration: "14 min",
     sections: [
       {
-        heading: "Recap: reading an opinion article",
+        heading: "Recap: thesis, arguments, concessions, tone",
         body: [
           "The DELF reading paper often uses an opinion piece. First find the thesis (often in the first or last paragraph), then the arguments, the concessions and the tone: ironic, indignant, nuanced. Questions may ask you to justify an answer by quoting the text.",
-          "Read the extract below, from a column on \"la mode jetable\" (fast fashion). Notice the irony of the opening question, the concession with \"certes\", and the call to action with the subjunctive.",
         ],
         examples: [
           { es: "Qui n'a jamais acheté un tee-shirt à cinq euros sans se demander qui l'avait fabriqué ?", en: "Who has never bought a five-euro T-shirt without wondering who had made it?" },
           { es: "Certes, la mode à petit prix permet à tous de s'habiller.", en: "Admittedly, cheap fashion allows everyone to get dressed." },
           { es: "Mais ce tee-shirt, que l'on porte trois fois avant de le jeter, a parcouru des milliers de kilomètres.", en: "But that T-shirt, which we wear three times before throwing it away, has travelled thousands of kilometres." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which sentence states a thesis rather than a concession?", options: ["La mode jetable doit être freinée.", "Certes, elle permet à tous de s'habiller.", "Il est vrai que les prix sont bas.", "Bien sûr, tout le monde aime les soldes."], correctIndex: 0, explanation: "A thesis is the position the author defends. \"Certes\", \"il est vrai que\" and \"bien sûr\" grant a point to the other side before the author answers it." },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "A T-shirt [which] we wear three times.",
+            sentence: "Un tee-shirt ___ l'on porte trois fois.",
+            answer: "que",
+            explanation: "\"Que\" is the direct object of \"porter\"; \"l'on\" is a formal variant of \"on\".",
+          },
+        ],
+      },
+      {
+        heading: "Recap: irony, the reported figure and the call to action",
+        body: [
+          "Read the extract below, from a column on \"la mode jetable\" (fast fashion). Notice the irony of the opening question, the concession with \"certes\", and the call to action with the subjunctive.",
+        ],
+        examples: [
           { es: "L'industrie textile serait responsable de près de dix pour cent des émissions mondiales.", en: "The textile industry is reportedly responsible for nearly ten percent of global emissions." },
           { es: "Il est temps que les consommateurs, et non seulement les marques, prennent leurs responsabilités.", en: "It is time consumers, and not only brands, took responsibility." },
+          { es: "Il faudrait que chacun réfléchisse avant d'acheter.", en: "Everyone ought to think before buying." },
         ],
         checkpoint: [
           {
@@ -210,14 +220,6 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
             answer: "Il est temps que les consommateurs prennent leurs responsabilités.",
             altAnswers: ["Il est temps que les consommateurs prennent leur responsabilité."],
             explanation: "\"Il est temps que\" + subjunctive.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "A T-shirt [which] we wear three times.",
-            sentence: "Un tee-shirt ___ l'on porte trois fois.",
-            answer: "que",
-            explanation: "\"Que\" is the direct object of \"porter\"; \"l'on\" is a formal variant of \"on\".",
           },
         ],
       },
@@ -237,15 +239,7 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         correctIndex: 0,
         explanation: "\"Les consommateurs, et non seulement les marques\".",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The textile industry is reportedly responsible for ten percent of emissions.",
-        answer: "L'industrie textile serait responsable de dix pour cent des émissions.",
-        altAnswers: ["L'industrie du textile serait responsable de dix pour cent des émissions.", "L'industrie textile serait responsable de 10 % des émissions."],
-        explanation: "Conditional for reported, unconfirmed information.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Change it to the journalistic conditional: the figure is not confirmed.", source: "Le transport maritime produit trois pour cent des émissions.", answer: "Le transport maritime produirait trois pour cent des émissions.", explanation: "News French marks an unconfirmed figure with the conditional: \"produit\" → \"produirait\" (reportedly)." },
       {
         type: "translate",
         direction: "en-es",
@@ -255,14 +249,7 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         altAnswers: ["Nous jetons des vêtements après les avoir portés trois fois.", "On jette les vêtements après les avoir portés trois fois.", "Nous jetons les vêtements après les avoir portés trois fois."],
         explanation: "\"Après\" + past infinitive; \"portés\" agrees with \"les\" (the clothes).",
       },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "[Admittedly], cheap fashion lets everyone get dressed.",
-        sentence: "___, la mode à petit prix permet à tous de s'habiller.",
-        answer: "Certes",
-        explanation: "\"Certes\" opens a concession.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Il est temps que les marques font des efforts.", answer: "Il est temps que les marques fassent des efforts.", explanation: "\"Il est temps que\" always takes the subjunctive: \"faire\" → \"qu'elles fassent\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -346,75 +333,40 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
     duration: "14 min",
     sections: [
       {
-        heading: "Recap: the exposé and the debate",
+        heading: "Recap: the exposé",
         body: [
           "The DELF B2 oral starts with a short document (an article or a headline). You have thirty minutes to prepare. Then: present the document and the problem it raises, give your opinion in a structured way (introduction, two or three arguments, conclusion), and answer the examiner, who will challenge you.",
-          "To defend your view, acknowledge the objection, then answer it: \"je vois ce que vous voulez dire, mais...\", \"c'est un argument recevable ; cependant...\". To gain time politely: \"c'est une question intéressante\", \"laissez-moi réfléchir un instant\".",
         ],
         examples: [
           { es: "Ce document, tiré du Monde, traite de la semaine de quatre jours.", en: "This document, taken from Le Monde, deals with the four-day week." },
           { es: "Il pose la question suivante : peut-on travailler moins sans produire moins ?", en: "It raises the following question: can we work less without producing less?" },
-          { es: "Je vois ce que vous voulez dire, mais je ne suis pas convaincu.", en: "I see what you mean, but I'm not convinced." },
-          { es: "C'est un argument recevable ; cependant, il ne tient pas compte des petites entreprises.", en: "That's a valid argument; however, it doesn't take small businesses into account." },
-          { es: "Laissez-moi réfléchir un instant.", en: "Let me think for a moment." },
           { es: "En conclusion, je reste persuadé que cette réforme serait bénéfique.", en: "In conclusion, I remain convinced that this reform would be beneficial." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I see what you mean, but I'm not convinced.",
-            answer: "Je vois ce que vous voulez dire, mais je ne suis pas convaincu.",
-            altAnswers: ["Je vois ce que vous voulez dire, mais je ne suis pas convaincue.", "Je vois ce que tu veux dire, mais je ne suis pas convaincu.", "Je vois ce que tu veux dire, mais je ne suis pas convaincue."],
-            explanation: "\"Ce que\" because \"vouloir dire\" takes a direct object.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "This document [deals with] the four-day week.",
-            sentence: "Ce document ___ la semaine de quatre jours.",
-            answer: "traite de",
-            altAnswers: ["porte sur", "parle de"],
-            explanation: "\"Traiter de\" = to deal with a subject.",
-          },
-          {
-            type: "speak",
-            text: "Laissez-moi réfléchir un instant.",
-            prompt: "Say it in French: Let me think for a moment.",
-            explanation: "A polite way to gain time in the exam.",
-          },
+          { type: "multiple-choice", question: "Which sentence presents the problem a document raises?", options: ["Ce texte soulève la question du prix des loyers.", "Je suis d'accord avec ce texte.", "Ce texte, je l'ai lu hier.", "Laissez-moi réfléchir un instant."], correctIndex: 0, explanation: "The exposé starts by naming the document's problem: \"soulever la question de\". The others give an opinion, a comment or gain time." },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "This article [deals with] remote work.", sentence: "Cet article ___ le télétravail.", answer: "traite du", altAnswers: ["porte sur", "parle du"], explanation: "\"Traiter de\" + \"le télétravail\" contracts: \"traite du\"." },
+        ],
+      },
+      {
+        heading: "Recap: answering objections and gaining time",
+        body: [
+          "To defend your view, acknowledge the objection, then answer it: \"je vois ce que vous voulez dire, mais...\", \"c'est un argument recevable ; cependant...\". To gain time politely: \"c'est une question intéressante\", \"laissez-moi réfléchir un instant\".",
+        ],
+        examples: [
+          { es: "Je vois ce que vous voulez dire, mais je ne suis pas convaincu.", en: "I see what you mean, but I'm not convinced." },
+          { es: "C'est un argument recevable ; cependant, il ne tient pas compte des petites entreprises.", en: "That's a valid argument; however, it doesn't take small businesses into account." },
+          { es: "Laissez-moi réfléchir un instant.", en: "Let me think for a moment." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I understand your objection; however, I remain convinced.", answer: "Je comprends votre objection ; cependant, je reste convaincu.", altAnswers: ["Je comprends votre objection ; cependant, je reste convaincue.", "Je comprends votre objection ; toutefois, je reste convaincu.", "Je comprends votre objection ; toutefois, je reste convaincue.", "Je comprends votre objection, mais je reste convaincu.", "Je comprends votre objection, mais je reste convaincue."], explanation: "Acknowledge first (\"je comprends votre objection\"), then answer with \"cependant\" or \"toutefois\"." },
+          { type: "speak", text: "C'est une bonne question ; laissez-moi y réfléchir.", prompt: "Say it in French: That's a good question; let me think about it.", explanation: "\"Réfléchir à quelque chose\" → \"y réfléchir\"; in the affirmative imperative the pronoun follows: \"laissez-moi\"." },
         ],
       },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "It raises the following question: can we work less without earning less?",
-        answer: "Il pose la question suivante : peut-on travailler moins sans gagner moins ?",
-        altAnswers: ["Il soulève la question suivante : peut-on travailler moins sans gagner moins ?", "Il pose la question suivante : est-ce qu'on peut travailler moins sans gagner moins ?"],
-        explanation: "Space before the colon and the question mark in French.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "That's a valid argument; however, it doesn't take small businesses into account.",
-        answer: "C'est un argument recevable ; cependant, il ne tient pas compte des petites entreprises.",
-        altAnswers: ["C'est un argument valable ; cependant, il ne tient pas compte des petites entreprises.", "C'est un argument recevable ; toutefois, il ne tient pas compte des petites entreprises.", "C'est un argument recevable, mais il ne tient pas compte des petites entreprises."],
-        explanation: "\"Tenir compte de\" = to take into account.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "I remain [convinced] that this reform would be beneficial.",
-        sentence: "Je reste ___ que cette réforme serait bénéfique.",
-        answer: "persuadé",
-        altAnswers: ["convaincu", "persuadée", "convaincue"],
-        explanation: "\"Persuadé que\" + indicative or conditional.",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: Can we work less without earning less?", words: ["Peut-on", "travailler", "moins", "sans", "gagner", "moins ?"], translation: "Can we work less without earning less?", explanation: "Formal question with inversion \"peut-on\"; \"sans\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Je ne pense pas que cette réforme est une bonne idée.", answer: "Je ne pense pas que cette réforme soit une bonne idée.", explanation: "A negative opinion (\"je ne pense pas que\") takes the subjunctive: \"soit\"." },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "I'm [convinced] that we should try it.", sentence: "Je suis ___ qu'il faudrait essayer.", answer: "convaincu", altAnswers: ["convaincue", "persuadé", "persuadée"], explanation: "\"Convaincu que\" / \"persuadé que\" + indicative or conditional; the adjective agrees with the speaker." },
       {
         type: "translate",
         direction: "en-es",
@@ -424,15 +376,7 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         altAnswers: ["Voilà une question intéressante."],
         explanation: "A classic way to gain a few seconds.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "If companies adopted the four-day week, employees would be less tired.",
-        answer: "Si les entreprises adoptaient la semaine de quatre jours, les salariés seraient moins fatigués.",
-        altAnswers: ["Si les entreprises adoptaient la semaine de quatre jours, les employés seraient moins fatigués."],
-        explanation: "\"Si\" + imparfait → conditionnel présent.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Change it to a real condition (si + présent).", source: "Si les entreprises adoptaient la semaine de quatre jours, les salariés seraient moins fatigués.", answer: "Si les entreprises adoptent la semaine de quatre jours, les salariés seront moins fatigués.", altAnswers: ["Si les entreprises adoptent la semaine de quatre jours, les employés seront moins fatigués."], explanation: "A real condition: \"si\" + présent (\"adoptent\"), then the futur (\"seront\")." },
       {
         type: "word-order",
         prompt: "Put the words in order to say: I'd like to come back to your example.",
@@ -481,11 +425,7 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         correctIndex: 0,
         explanation: "\"Recevable\" = acceptable; \"cependant\" introduces the limit.",
       },
-      {
-        type: "dictation",
-        audio: "Ce document traite de la semaine de quatre jours.",
-        explanation: "\"Traiter de\" = to deal with.",
-      },
+      { type: "dictation", audio: "Cet article traite du coût de la vie étudiante.", explanation: "\"Traiter de\" + \"le coût\" → \"traite du coût\"." },
       {
         type: "speak",
         text: "Ce document pose la question suivante : peut-on travailler moins sans produire moins ?",

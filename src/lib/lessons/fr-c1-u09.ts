@@ -13,21 +13,44 @@ export const FR_C1_U09: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "The à family: verbs you must learn with their preposition",
+        heading: "The à family: learn the verb with its preposition",
         body: [
           "At the Advanced level, the mistakes that still give you away are rarely in the conjugation: they are in the little word after the verb. French verbs come with a fixed construction, and it often differs from English. \"Penser à\" (to think about), \"s'intéresser à\" (to be interested in), \"renoncer à\" (to give up), \"tenir à\" (to be attached to, to insist on), \"assister à\" (to attend), \"obéir à\" (to obey), \"nuire à\" (to harm) and \"ressembler à\" (to look like) all take \"à\", whatever English does.",
-          "Notice how many English equivalents use a different preposition (think about, interested in, give up) or none at all (attend, obey, harm, resemble). That is exactly why these verbs need to be learned as chunks: \"assister à une réunion\", never \"*assister une réunion\", which would mean something else entirely (\"assister quelqu'un\" is to assist someone).",
-          "Remember the contractions: \"à + le = au\", \"à + les = aux\". \"Il a renoncé au poste\", \"elle s'intéresse aux langues anciennes\". Forgetting the contraction (\"*à le poste\") is an instant marker of a foreign writer.",
         ],
         examples: [
           { es: "Je pense souvent à mon premier poste à Lyon.", en: "I often think about my first job in Lyon." },
           { es: "Elle s'intéresse depuis toujours à l'architecture.", en: "She has always been interested in architecture." },
-          { es: "Après dix ans de procédures, il a renoncé à son héritage.", en: "After ten years of legal proceedings, he gave up his inheritance." },
-          { es: "Tous les salariés doivent assister à la réunion de lundi.", en: "All employees must attend Monday's meeting." },
-          { es: "Le tabac nuit gravement à la santé.", en: "Smoking seriously harms your health." },
           { es: "Ta fille ressemble de plus en plus à ta mère.", en: "Your daughter looks more and more like your mother." },
         ],
         checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "She's [interested in] contemporary art.",
+            sentence: "Elle ___ l'art contemporain.",
+            answer: "s'intéresse à",
+            explanation: "\"S'intéresser à\": English says interested in, French always says \"à\".",
+          },
+        ],
+      },
+      {
+        heading: "Where English has another preposition, or none",
+        body: [
+          "Notice how many English equivalents use a different preposition (think about, interested in, give up) or none at all (attend, obey, harm, resemble). That is exactly why these verbs need to be learned as chunks: \"assister à une réunion\", never \"*assister une réunion\", which would mean something else entirely (\"assister quelqu'un\" is to assist someone).",
+        ],
+        examples: [
+          { es: "Tous les salariés doivent assister à la réunion de lundi.", en: "All employees must attend Monday's meeting." },
+          { es: "Le tabac nuit gravement à la santé.", en: "Smoking seriously harms your health." },
+          { es: "Il faut obéir au règlement.", en: "You have to obey the rules." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say: Smoking harms your health.",
+            options: ["Le tabac nuit à la santé.", "Le tabac nuit la santé.", "Le tabac nuit de la santé.", "Le tabac nuit pour la santé."],
+            correctIndex: 0,
+            explanation: "\"Nuire à\" takes à. English 'harm' is transitive, which pushes learners to drop the preposition.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -37,6 +60,19 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Hier, elle a assisté à la réunion.", "Elle a assisté hier à la réunion."],
             explanation: "'To attend' is \"assister à\": the à is compulsory. \"Assister la réunion\" is wrong, and \"assister quelqu'un\" means to help someone.",
           },
+        ],
+      },
+      {
+        heading: "Don't forget au and aux",
+        body: [
+          "Remember the contractions: \"à + le = au\", \"à + les = aux\". \"Il a renoncé au poste\", \"elle s'intéresse aux langues anciennes\". Forgetting the contraction (\"*à le poste\") is an instant marker of a foreign writer.",
+        ],
+        examples: [
+          { es: "Après dix ans de procédures, il a renoncé à son héritage.", en: "After ten years of legal proceedings, he gave up his inheritance." },
+          { es: "Nous avons assisté au concert de clôture.", en: "We attended the closing concert." },
+          { es: "Il pense aux vacances depuis janvier.", en: "He's been thinking about the holidays since January." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -45,31 +81,27 @@ export const FR_C1_U09: Lesson[] = [
             answer: "a renoncé au",
             explanation: "\"Renoncer à\" + \"le poste\" contracts to \"au poste\". English 'give up' has no preposition you could map onto it.",
           },
-          {
-            type: "multiple-choice",
-            question: "How do you say: Smoking harms your health.",
-            options: ["Le tabac nuit à la santé.", "Le tabac nuit la santé.", "Le tabac nuit de la santé.", "Le tabac nuit pour la santé."],
-            correctIndex: 0,
-            explanation: "\"Nuire à\" takes à. English 'harm' is transitive, which pushes learners to drop the preposition.",
-          },
         ],
       },
       {
         heading: "Things: y replaces à + a thing",
         body: [
           "When the complement of an à-verb is a thing, an idea or a place, you replace \"à + noun\" with \"y\", placed before the conjugated verb (or before the infinitive): \"Tu penses à ton entretien ? Oui, j'y pense sans arrêt.\" In a compound tense it goes before the auxiliary: \"j'y ai renoncé\".",
-          "\"Y\" also replaces a whole idea introduced by \"à\", including an infinitive clause: \"Tu tiens vraiment à partir demain ? Oui, j'y tiens.\" English simply says 'Yes, I do' or 'I insist'; French needs the pronoun, and leaving it out (\"*Oui, je tiens\") sounds broken.",
-          "In the negative, \"y\" stays glued to the verb: \"je n'y pense plus\", \"elle n'y a jamais renoncé\". In the affirmative imperative it follows with a hyphen: \"Pensez-y !\", and with the tu form the -s comes back before y: \"Penses-y !\", \"Vas-y !\".",
         ],
         examples: [
           { es: "Ton entretien de jeudi ? J'y pense jour et nuit.", en: "Your interview on Thursday? I think about it day and night." },
-          { es: "Ce projet, elle y tient plus que tout.", en: "That project, she cares about it more than anything." },
           { es: "Le concert était complet, mais nous y avons assisté depuis les coulisses.", en: "The concert was sold out, but we watched it from the wings." },
           { es: "Le poste à l'étranger ? Il n'y a pas encore renoncé.", en: "The job abroad? He hasn't given it up yet." },
-          { es: "La politique locale ? Je ne m'y intéresse pas du tout.", en: "Local politics? I'm not interested in it at all." },
-          { es: "Réfléchis bien à ma proposition. Penses-y ce week-end.", en: "Think carefully about my offer. Think about it this weekend." },
         ],
         checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "J'y tiens beaucoup.",
+            question: "What does it mean?",
+            options: ["It means a lot to me.", "I'm holding it tightly.", "I'm keeping it there.", "I think about it a lot."],
+            correctIndex: 0,
+            explanation: "\"Tenir à quelque chose\" is to value it, to be attached to it; \"j'y tiens\" means it matters to me.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -79,6 +111,20 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Votre proposition ? J'y pense.", "Ton offre ? J'y pense.", "Votre offre ? J'y pense.", "Ta proposition ? J'y réfléchis.", "Votre proposition ? J'y réfléchis."],
             explanation: "\"Penser à\" + a thing becomes \"y penser\". \"Réfléchir à\" works the same way: \"j'y réfléchis\".",
           },
+        ],
+      },
+      {
+        heading: "Y for a whole idea, and where y goes",
+        body: [
+          "\"Y\" also replaces a whole idea introduced by \"à\", including an infinitive clause: \"Tu tiens vraiment à partir demain ? Oui, j'y tiens.\" English simply says 'Yes, I do' or 'I insist'; French needs the pronoun, and leaving it out (\"*Oui, je tiens\") sounds broken.",
+          "In the negative, \"y\" stays glued to the verb: \"je n'y pense plus\", \"elle n'y a jamais renoncé\". In the affirmative imperative it follows with a hyphen: \"Pensez-y !\", and with the tu form the -s comes back before y: \"Penses-y !\", \"Vas-y !\".",
+        ],
+        examples: [
+          { es: "Ce projet, elle y tient plus que tout.", en: "That project, she cares about it more than anything." },
+          { es: "La politique locale ? Je ne m'y intéresse pas du tout.", en: "Local politics? I'm not interested in it at all." },
+          { es: "Réfléchis bien à ma proposition. Penses-y ce week-end.", en: "Think carefully about my offer. Think about it this weekend." },
+        ],
+        checkpoint: [
           {
             type: "word-order",
             prompt: "Put the words in order to say: She has never given it up.",
@@ -86,33 +132,27 @@ export const FR_C1_U09: Lesson[] = [
             translation: "She has never given it up.",
             explanation: "\"Y\" stands before the auxiliary, inside the negation: \"n'y a jamais renoncé\".",
           },
-          {
-            type: "listen-choose",
-            audio: "J'y tiens beaucoup.",
-            question: "What does it mean?",
-            options: ["It means a lot to me.", "I'm holding it tightly.", "I'm keeping it there.", "I think about it a lot."],
-            correctIndex: 0,
-            explanation: "\"Tenir à quelque chose\" is to value it, to be attached to it; \"j'y tiens\" means it matters to me.",
-          },
         ],
       },
       {
-        heading: "People: à lui, à elle, or plain lui?",
+        heading: "People: à lui, à elle after the verb",
         body: [
           "Here is the trap that survives to the Advanced level. With a person, most à-verbs do NOT take \"lui\" or \"leur\": they keep \"à\" + a stressed pronoun after the verb. \"Je pense à Marc\" becomes \"je pense à lui\", never \"*je lui pense\". The same goes for \"s'intéresser à\", \"tenir à\", \"renoncer à\", \"faire attention à\", \"s'habituer à\", \"s'adresser à\" and \"avoir affaire à\": \"elle tient beaucoup à eux\", \"adressez-vous à elle\".",
-          "Two groups behave differently. Verbs of communication and exchange, where the person is a receiver, take \"lui / leur\" before the verb: \"parler à\", \"répondre à\", \"téléphoner à\", \"écrire à\", \"dire à\", \"donner à\". And a short list of other verbs does too: \"ressembler à\" (je lui ressemble), \"obéir à\" (ils lui obéissent), \"plaire à\" (ça leur plaît), \"nuire à\" (ça lui nuit), \"sourire à\", \"appartenir à\".",
-          "A useful rule of thumb: all pronominal verbs (\"s'intéresser à\", \"s'adresser à\", \"se fier à\") and \"penser / songer à\" use \"à + stressed pronoun\". When in doubt, a dictionary entry that says \"penser à qqn\" with no 'lui' example is your clue; the y / lui choice is part of the verb, not something you can work out from English.",
         ],
         examples: [
           { es: "Je pense souvent à elle depuis son départ.", en: "I've often thought about her since she left." },
           { es: "Ma grand-mère ? Je tiens énormément à elle.", en: "My grandmother? I'm extremely attached to her." },
           { es: "Pour le remboursement, adressez-vous à lui directement.", en: "For the refund, speak to him directly." },
-          { es: "Tout le monde dit que je lui ressemble.", en: "Everyone says I look like him." },
-          { es: "Les chiens obéissent à Karim mais pas à nous : ils lui obéissent au doigt et à l'œil.", en: "The dogs obey Karim but not us: they obey him instantly." },
           { es: "Ses collègues ? Il ne s'intéresse pas du tout à eux.", en: "His colleagues? He isn't interested in them at all." },
-          { es: "Cette rumeur lui a beaucoup nui.", en: "That rumour did him a lot of harm." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Your colleague asks about the new manager. How do you say: I'm not used to her yet.",
+            options: ["Je ne me suis pas encore habitué à elle.", "Je ne lui suis pas encore habitué.", "Je ne m'y suis pas encore habitué à elle.", "Je ne m'en suis pas encore habitué."],
+            correctIndex: 0,
+            explanation: "\"S'habituer à\" is pronominal, so a person stays after the verb as \"à elle\". (A woman speaking writes \"habituée\".)",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -122,6 +162,19 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Je pense à lui chaque jour."],
             explanation: "\"Penser à\" + a person keeps à + stressed pronoun: \"à lui\". \"Je lui pense\" is a classic error.",
           },
+        ],
+      },
+      {
+        heading: "The lui / leur group",
+        body: [
+          "Two groups behave differently. Verbs of communication and exchange, where the person is a receiver, take \"lui / leur\" before the verb: \"parler à\", \"répondre à\", \"téléphoner à\", \"écrire à\", \"dire à\", \"donner à\". And a short list of other verbs does too: \"ressembler à\" (je lui ressemble), \"obéir à\" (ils lui obéissent), \"plaire à\" (ça leur plaît), \"nuire à\" (ça lui nuit), \"sourire à\", \"appartenir à\".",
+        ],
+        examples: [
+          { es: "Tout le monde dit que je lui ressemble.", en: "Everyone says I look like him." },
+          { es: "Les chiens obéissent à Karim mais pas à nous : ils lui obéissent au doigt et à l'œil.", en: "The dogs obey Karim but not us: they obey him instantly." },
+          { es: "Cette rumeur lui a beaucoup nui.", en: "That rumour did him a lot of harm." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -130,12 +183,25 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Elle lui ressemble.",
             explanation: "\"Ressembler à\" is one of the verbs that take \"lui / leur\" before the verb: \"elle lui ressemble\", not \"elle ressemble à lui\".",
           },
+        ],
+      },
+      {
+        heading: "A rule of thumb",
+        body: [
+          "A useful rule of thumb: all pronominal verbs (\"s'intéresser à\", \"s'adresser à\", \"se fier à\") and \"penser / songer à\" use \"à + stressed pronoun\". When in doubt, a dictionary entry that says \"penser à qqn\" with no 'lui' example is your clue; the y / lui choice is part of the verb, not something you can work out from English.",
+        ],
+        examples: [
+          { es: "Je me fie à elle les yeux fermés.", en: "I trust her completely." },
+          { es: "Il songe à eux chaque fois qu'il passe par Nantes.", en: "He thinks of them every time he goes through Nantes." },
+          { es: "Adressez-vous à eux pour les horaires.", en: "Ask them about the timetable." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your colleague asks about the new manager. How do you say: I'm not used to her yet.",
-            options: ["Je ne me suis pas encore habitué à elle.", "Je ne lui suis pas encore habitué.", "Je ne m'y suis pas encore habitué à elle.", "Je ne m'en suis pas encore habitué."],
+            question: "Your colleague Paul is reliable. How do you say: I trust him?",
+            options: ["Je me fie à lui.", "Je lui fie.", "Je m'y fie.", "Je me fie de lui."],
             correctIndex: 0,
-            explanation: "\"S'habituer à\" is pronominal, so a person stays after the verb as \"à elle\". (A woman speaking writes \"habituée\".)",
+            explanation: "\"Se fier à\" is pronominal, so a person stays after the verb as \"à lui\". \"Je m'y fie\" would be for a thing (a method, a forecast).",
           },
         ],
       },
@@ -144,11 +210,11 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "We attended the whole ceremony.",
+        prompt: "Correct the sentence.",
+        source: "Nous avons assisté toute la cérémonie.",
         answer: "Nous avons assisté à toute la cérémonie.",
-        altAnswers: ["On a assisté à toute la cérémonie.", "Nous avons assisté à la cérémonie entière.", "On a assisté à la cérémonie entière."],
-        explanation: "\"Assister à\": 'attend' takes à in French.",
+        altAnswers: ["On a assisté à toute la cérémonie."],
+        explanation: "'To attend' is \"assister à\"; without \"à\", \"assister\" means to help someone.",
       },
       {
         type: "translate",
@@ -226,8 +292,8 @@ export const FR_C1_U09: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Le tabac nuit gravement à la santé.",
-        explanation: "The warning printed on French cigarette packets: \"nuire à\".",
+        audio: "Le bruit nuit aussi à la santé des enfants.",
+        explanation: "\"Nuire à\" + a thing: the \"à\" contracts with nothing here, but it is compulsory (\"à la santé\").",
       },
       {
         type: "speak",
@@ -235,6 +301,31 @@ export const FR_C1_U09: Lesson[] = [
         prompt: "Say it in French (to a friend): My offer? Think about it this weekend.",
         tip: "Link the s to y: \"pen-sə-zi\".",
         explanation: "The imperative \"penses-y\" adds an s that is pronounced as a z before y.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "Je pense souvent à ce voyage.",
+        answer: "J'y pense souvent.",
+        explanation: "\"Penser à\" + a thing becomes \"y\", placed before the verb.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "Elle ressemble beaucoup à sa mère.",
+        answer: "Elle lui ressemble beaucoup.",
+        explanation: "\"Ressembler à\" belongs to the lui / leur group: the person becomes \"lui\" before the verb.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Je lui pense souvent.",
+        answer: "Je pense souvent à lui.",
+        altAnswers: ["Je pense souvent à elle."],
+        explanation: "\"Penser à\" + a person keeps \"à\" + stressed pronoun after the verb; \"lui\" before the verb is reserved for verbs like \"parler à\".",
       },
     ],
   },
@@ -250,19 +341,21 @@ export const FR_C1_U09: Lesson[] = [
         heading: "The de family",
         body: [
           "A second large family of verbs takes \"de\": \"se souvenir de\" (to remember), \"dépendre de\" (to depend on), \"se méfier de\" (to distrust, be wary of), \"se passer de\" (to do without), \"profiter de\" (to take advantage of, to make the most of), \"s'occuper de\" (to take care of, to deal with), \"se moquer de\" (to make fun of, or not to care about), \"avoir besoin de\", \"parler de\", \"rêver de\".",
-          "English rarely signals the \"de\": we say depend on, remember, distrust, do without. Learners therefore drop it (\"*je me souviens ce jour\") or import an English preposition (\"*dépendre sur\"). Always learn the verb with its little word: \"se souvenir de quelque chose\".",
-          "As with à, contractions are compulsory: \"de + le = du\", \"de + les = des\". \"Il s'occupe du dossier\", \"je me méfie des promesses électorales\". And \"de\" becomes \"d'\" before a vowel: \"il dépend d'elle\".",
         ],
         examples: [
           { es: "Tu te souviens du jour où on s'est rencontrés ?", en: "Do you remember the day we met?" },
           { es: "Le succès du projet dépend surtout du budget.", en: "The success of the project depends mainly on the budget." },
-          { es: "Je me méfie toujours des offres trop belles pour être vraies.", en: "I'm always wary of offers that are too good to be true." },
           { es: "Je peux me passer de voiture : je vais partout à vélo.", en: "I can do without a car: I go everywhere by bike." },
-          { es: "Profitez du beau temps pour visiter la vieille ville.", en: "Make the most of the good weather to visit the old town." },
           { es: "C'est Mme Leroy qui s'occupe des inscriptions.", en: "Mrs Leroy is the one who deals with registrations." },
-          { es: "Il se moque complètement de ce que pensent les voisins.", en: "He couldn't care less about what the neighbours think." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does \"Il se moque de mon avis\" mean?",
+            options: ["He doesn't care about my opinion.", "He laughs at my opinion in public.", "He's asking for my opinion.", "He's afraid of my opinion."],
+            correctIndex: 0,
+            explanation: "\"Se moquer de\" means to make fun of, but very often 'not to care about': \"je m'en moque\", I don't care.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -272,6 +365,20 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Je me souviens très bien de ce soir-là.", "Je me rappelle très bien cette soirée.", "Je me rappelle très bien ce soir-là."],
             explanation: "\"Se souvenir de\" needs de. Its synonym \"se rappeler\" is direct: \"je me rappelle cette soirée\" (no de).",
           },
+        ],
+      },
+      {
+        heading: "English hides the de",
+        body: [
+          "English rarely signals the \"de\": we say depend on, remember, distrust, do without. Learners therefore drop it (\"*je me souviens ce jour\") or import an English preposition (\"*dépendre sur\"). Always learn the verb with its little word: \"se souvenir de quelque chose\".",
+          "As with à, contractions are compulsory: \"de + le = du\", \"de + les = des\". \"Il s'occupe du dossier\", \"je me méfie des promesses électorales\". And \"de\" becomes \"d'\" before a vowel: \"il dépend d'elle\".",
+        ],
+        examples: [
+          { es: "Je me méfie toujours des offres trop belles pour être vraies.", en: "I'm always wary of offers that are too good to be true." },
+          { es: "Profitez du beau temps pour visiter la vieille ville.", en: "Make the most of the good weather to visit the old town." },
+          { es: "Il se moque complètement de ce que pensent les voisins.", en: "He couldn't care less about what the neighbours think." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -280,29 +387,17 @@ export const FR_C1_U09: Lesson[] = [
             answer: "dépend du",
             explanation: "\"Dépendre de\" + \"le temps\" = \"dépend du temps\". Never \"*dépend sur\".",
           },
-          {
-            type: "multiple-choice",
-            question: "What does \"Il se moque de mon avis\" mean?",
-            options: ["He doesn't care about my opinion.", "He laughs at my opinion in public.", "He's asking for my opinion.", "He's afraid of my opinion."],
-            correctIndex: 0,
-            explanation: "\"Se moquer de\" means to make fun of, but very often 'not to care about': \"je m'en moque\", I don't care.",
-          },
         ],
       },
       {
         heading: "Things: en replaces de + a thing",
         body: [
           "When the complement of a de-verb is a thing, an idea or an infinitive, it becomes \"en\" before the verb: \"Tu te souviens de son adresse ? Non, je ne m'en souviens plus.\" \"Ce dossier, je m'en occupe.\" \"Ça en dépend\" is rare; French prefers \"ça dépend\" on its own, or \"tout en dépend\" with a subject.",
-          "\"En\" can also stand for a whole clause or infinitive: \"Il a menti ? Je m'en doutais\" (I suspected as much). \"Tu as besoin de partir ? Oui, j'en ai besoin.\" In set expressions, en has become frozen: \"je m'en fiche\", \"je m'en moque\", \"je m'en souviendrai\" (I won't forget it, sometimes a threat).",
-          "Position works like y: before the auxiliary in compound tenses (\"je m'en suis occupé\"), after the verb with a hyphen in the affirmative imperative (\"occupe-t'en\", \"profitez-en !\"). Note \"occupe-t'en\": te becomes t' before en.",
         ],
         examples: [
           { es: "Le code du portail ? Je ne m'en souviens plus.", en: "The gate code? I can't remember it any more." },
           { es: "Ne t'inquiète pas pour les billets, je m'en occupe.", en: "Don't worry about the tickets, I'll take care of it." },
-          { es: "Les soldes se terminent demain : profitez-en !", en: "The sales end tomorrow: make the most of them!" },
           { es: "Le café, je ne peux pas m'en passer le matin.", en: "Coffee, I can't do without it in the morning." },
-          { es: "Il allait démissionner ? Je m'en doutais.", en: "He was going to resign? I suspected as much." },
-          { es: "Ce dossier est urgent : occupe-t'en dès ce matin.", en: "This file is urgent: deal with it first thing this morning." },
         ],
         checkpoint: [
           {
@@ -314,13 +409,19 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Les réservations ? Je m'en suis occupée.", "Les réservations ? Je m'en suis chargé.", "Les réservations ? Je m'en suis chargée."],
             explanation: "\"S'occuper de\" + a thing → \"s'en occuper\". The participle agrees with the subject (je), not with en.",
           },
-          {
-            type: "word-order",
-            prompt: "Put the words in order to say: I can't do without it.",
-            words: ["Je", "ne", "peux", "pas", "m'en", "passer."],
-            translation: "I can't do without it.",
-            explanation: "With a modal + infinitive, \"en\" goes before the infinitive it belongs to: \"m'en passer\".",
-          },
+        ],
+      },
+      {
+        heading: "En for a clause, and frozen en",
+        body: [
+          "\"En\" can also stand for a whole clause or infinitive: \"Il a menti ? Je m'en doutais\" (I suspected as much). \"Tu as besoin de partir ? Oui, j'en ai besoin.\" In set expressions, en has become frozen: \"je m'en fiche\", \"je m'en moque\", \"je m'en souviendrai\" (I won't forget it, sometimes a threat).",
+        ],
+        examples: [
+          { es: "Il allait démissionner ? Je m'en doutais.", en: "He was going to resign? I suspected as much." },
+          { es: "Tu as besoin de la voiture ? Oui, j'en ai besoin ce soir.", en: "Do you need the car? Yes, I need it tonight." },
+          { es: "Ce rendez-vous, je m'en souviendrai !", en: "That appointment: I won't forget it!" },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Je m'en doutais.",
@@ -332,19 +433,34 @@ export const FR_C1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "People: de lui, d'elle, and the link to dont",
+        heading: "Where en goes",
+        body: [
+          "Position works like y: before the auxiliary in compound tenses (\"je m'en suis occupé\"), after the verb with a hyphen in the affirmative imperative (\"occupe-t'en\", \"profitez-en !\"). Note \"occupe-t'en\": te becomes t' before en.",
+        ],
+        examples: [
+          { es: "Les soldes se terminent demain : profitez-en !", en: "The sales end tomorrow: make the most of them!" },
+          { es: "Ce dossier est urgent : occupe-t'en dès ce matin.", en: "This file is urgent: deal with it first thing this morning." },
+          { es: "Je m'en suis occupée hier soir.", en: "I dealt with it last night." },
+        ],
+        checkpoint: [
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: I can't do without it.",
+            words: ["Je", "ne", "peux", "pas", "m'en", "passer."],
+            translation: "I can't do without it.",
+            explanation: "With a modal + infinitive, \"en\" goes before the infinitive it belongs to: \"m'en passer\".",
+          },
+        ],
+      },
+      {
+        heading: "People: de lui, d'elle",
         body: [
           "With a person, standard French keeps \"de\" + a stressed pronoun after the verb: \"Tu te souviens de Claire ? Oui, je me souviens d'elle.\" \"Je me méfie de lui.\" \"Elle s'occupe d'eux le mercredi.\" Using \"en\" for a specific person (\"je m'en souviens\" meaning Claire) is common in speech, and some grammarians accept it, but \"de\" + stressed pronoun remains the recommended choice in careful writing.",
-          "\"En\" for people is normal in one case: when the people are an indefinite group or a quantity. \"Des collaborateurs fiables, on en a besoin\" (reliable staff: we need them) is perfectly standard.",
-          "These de-verbs are also the engine of \"dont\", which you saw at the Upper-intermediate level. \"Dont\" replaces \"de + antecedent\": \"le collègue dont je me méfie\" (the colleague I don't trust), \"le jour dont je me souviens\", \"les outils dont nous avons besoin\". If the verb takes de, the relative is dont; if you are unsure, check the verb's construction first.",
         ],
         examples: [
           { es: "Mon ancien professeur ? Je me souviens très bien de lui.", en: "My old teacher? I remember him very well." },
           { es: "Méfie-toi d'elle, elle répète tout.", en: "Be careful with her, she repeats everything." },
           { es: "Le mercredi, c'est mon père qui s'occupe d'eux.", en: "On Wednesdays it's my father who looks after them." },
-          { es: "Des bénévoles motivés, l'association en a toujours besoin.", en: "Motivated volunteers: the association always needs them." },
-          { es: "C'est le genre de détail dont personne ne se souvient.", en: "It's the kind of detail nobody remembers." },
-          { es: "Voici le fournisseur dont nous dépendons pour les pièces.", en: "Here is the supplier we depend on for parts." },
         ],
         checkpoint: [
           {
@@ -357,6 +473,47 @@ export const FR_C1_U09: Lesson[] = [
             explanation: "\"Se méfier de\" + a specific person: \"de lui\" after the verb, not \"je m'en méfie\". \"Ne pas faire confiance à\" (lui) also works.",
           },
           {
+            type: "speak",
+            text: "Ton ancien voisin ? Je me souviens très bien de lui.",
+            prompt: "Say it in French (to a friend): Your old neighbour? I remember him very well.",
+            explanation: "A specific person after \"se souvenir de\": \"de lui\".",
+          },
+        ],
+      },
+      {
+        heading: "En for an indefinite group",
+        body: [
+          "\"En\" for people is normal in one case: when the people are an indefinite group or a quantity. \"Des collaborateurs fiables, on en a besoin\" (reliable staff: we need them) is perfectly standard.",
+        ],
+        examples: [
+          { es: "Des bénévoles motivés, l'association en a toujours besoin.", en: "Motivated volunteers: the association always needs them." },
+          { es: "Des amis fidèles, il en a peu.", en: "Loyal friends: he has few of them." },
+          { es: "Des médecins, la région en manque cruellement.", en: "Doctors: the region badly lacks them." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Good translators? We'll always need them.",
+            answer: "De bons traducteurs ? On en aura toujours besoin.",
+            altAnswers: ["De bons traducteurs ? Nous en aurons toujours besoin.", "Des bons traducteurs ? On en aura toujours besoin.", "Des bons traducteurs ? Nous en aurons toujours besoin."],
+            explanation: "An indefinite group of people can be replaced by \"en\": \"on en aura toujours besoin\".",
+          },
+        ],
+      },
+      {
+        heading: "De-verbs feed dont",
+        body: [
+          "These de-verbs are also the engine of \"dont\", which you saw at the Upper-intermediate level. \"Dont\" replaces \"de + antecedent\": \"le collègue dont je me méfie\" (the colleague I don't trust), \"le jour dont je me souviens\", \"les outils dont nous avons besoin\". If the verb takes de, the relative is dont; if you are unsure, check the verb's construction first.",
+        ],
+        examples: [
+          { es: "C'est le genre de détail dont personne ne se souvient.", en: "It's the kind of detail nobody remembers." },
+          { es: "Voici le fournisseur dont nous dépendons pour les pièces.", en: "Here is the supplier we depend on for parts." },
+          { es: "Voici l'appartement dont je rêvais.", en: "Here's the flat I was dreaming of." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "These are the documents [that we need].",
@@ -364,12 +521,6 @@ export const FR_C1_U09: Lesson[] = [
             answer: "dont nous avons",
             altAnswers: ["dont on a"],
             explanation: "\"Avoir besoin de\" → the relative is \"dont\". 'That' in English hides the de.",
-          },
-          {
-            type: "speak",
-            text: "Ton ancien voisin ? Je me souviens très bien de lui.",
-            prompt: "Say it in French (to a friend): Your old neighbour? I remember him very well.",
-            explanation: "A specific person after \"se souvenir de\": \"de lui\".",
           },
         ],
       },
@@ -442,15 +593,6 @@ export const FR_C1_U09: Lesson[] = [
         explanation: "A specific person after a de-verb: \"d'elle\". \"Je m'en suis occupé\" is heard in speech, but careful writing prefers de + stressed pronoun for a specific person.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Good translators? We'll always need them.",
-        answer: "De bons traducteurs ? On en aura toujours besoin.",
-        altAnswers: ["De bons traducteurs ? Nous en aurons toujours besoin.", "Des bons traducteurs ? On en aura toujours besoin.", "Des bons traducteurs ? Nous en aurons toujours besoin."],
-        explanation: "An indefinite group of people can be replaced by \"en\": \"on en aura toujours besoin\".",
-      },
-      {
         type: "listen-choose",
         audio: "Je me souviens d'elle.",
         question: "What did you hear?",
@@ -465,10 +607,42 @@ export const FR_C1_U09: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Les soldes se terminent demain : profitez-en !",
-        prompt: "Say it in French (to customers): The sales end tomorrow: make the most of them!",
+        text: "La piscine ferme ce soir : profitez-en !",
+        prompt: "Say it in French (to customers): The pool closes tonight: make the most of it!",
         tip: "Link the z: \"pro-fi-té-zan\".",
         explanation: "\"Profitez-en\": the liaison z between the verb and en is required.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "Je me souviens très bien de ce voyage.",
+        answer: "Je m'en souviens très bien.",
+        explanation: "\"Se souvenir de\" + a thing becomes \"en\", between the reflexive pronoun and the verb.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "Elle s'occupe de ses neveux le samedi.",
+        answer: "Elle s'occupe d'eux le samedi.",
+        explanation: "Specific people after a de-verb: \"de\" + stressed pronoun after the verb, \"d'eux\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Le prix dépend sur la saison.",
+        answer: "Le prix dépend de la saison.",
+        explanation: "\"Dépendre de\": English depend on pushes learners towards \"sur\", which is never used here.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "C'est le livre que j'ai besoin.",
+        answer: "C'est le livre dont j'ai besoin.",
+        explanation: "\"Avoir besoin de\" needs \"dont\", which absorbs the \"de\"; \"que\" is only for direct objects.",
       },
     ],
   },
@@ -481,20 +655,14 @@ export const FR_C1_U09: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "Penser à / penser de; croire, croire à, croire en",
+        heading: "Penser à or penser de",
         body: [
           "\"Penser à\" is to have something in mind (to think about it, to remember to do it): \"pense à acheter du pain\". \"Penser de\" asks for an opinion and lives almost only in questions: \"Qu'est-ce que tu penses de mon projet ?\", \"Qu'en penses-tu ?\" (en = de + it). For a statement of opinion, French uses \"penser que\" or \"trouver\": \"je trouve ton projet ambitieux\", rather than the heavy \"je pense de ton projet qu'il...\".",
-          "\"Croire\" has three constructions. \"Croire quelqu'un / quelque chose\": to believe a person or a statement (\"je te crois\", \"je ne crois pas cette histoire\"). \"Croire à\": to believe in the existence, truth or value of something (\"croire au Père Noël\", \"croire aux fantômes\", \"croire à un projet\"). \"Croire en\": to have faith or trust in someone (\"croire en Dieu\", \"je crois en toi\", \"croire en soi\").",
-          "The difference between \"croire à\" and \"croire en\" is subtle and natives overlap them, but the core is: à = I believe it exists or will work; en = I trust that person. \"Je crois en toi\" is what a coach says; \"je crois à ton projet\" is what an investor says.",
         ],
         examples: [
           { es: "N'oublie pas : pense à réserver la salle avant vendredi.", en: "Don't forget: remember to book the room before Friday." },
           { es: "Qu'est-ce que vous pensez de la nouvelle directrice ?", en: "What do you think of the new director?" },
           { es: "J'ai lu ton rapport. Franchement, qu'en penses-tu toi-même ?", en: "I've read your report. Honestly, what do you think of it yourself?" },
-          { es: "Je te crois, mais personne d'autre ne te croira.", en: "I believe you, but nobody else will." },
-          { es: "Mon fils croit encore au Père Noël.", en: "My son still believes in Father Christmas." },
-          { es: "Ne baisse pas les bras : je crois en toi.", en: "Don't give up: I believe in you." },
-          { es: "Les investisseurs croient vraiment à cette start-up.", en: "The investors really believe in this start-up." },
         ],
         checkpoint: [
           {
@@ -505,13 +673,6 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Qu'est-ce que tu penses de mon nouvel appartement ?",
             altAnswers: ["Que penses-tu de mon nouvel appartement ?", "Tu penses quoi de mon nouvel appartement ?"],
             explanation: "Asking for an opinion: \"penser de\". \"Penser à\" would mean 'Are you thinking about my flat?'.",
-          },
-          {
-            type: "multiple-choice",
-            question: "A friend is about to sit a difficult exam. What do you say to encourage her?",
-            options: ["Je crois en toi.", "Je te crois.", "Je crois à toi.", "Je pense de toi."],
-            correctIndex: 0,
-            explanation: "Trust in a person is \"croire en\". \"Je te crois\" means 'I believe what you're saying'.",
           },
           {
             type: "translate",
@@ -525,21 +686,65 @@ export const FR_C1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Manquer: the reversal trap",
+        heading: "Croire, croire à, croire en",
+        body: [
+          "\"Croire\" has three constructions. \"Croire quelqu'un / quelque chose\": to believe a person or a statement (\"je te crois\", \"je ne crois pas cette histoire\"). \"Croire à\": to believe in the existence, truth or value of something (\"croire au Père Noël\", \"croire aux fantômes\", \"croire à un projet\"). \"Croire en\": to have faith or trust in someone (\"croire en Dieu\", \"je crois en toi\", \"croire en soi\").",
+        ],
+        examples: [
+          { es: "Je te crois, mais personne d'autre ne te croira.", en: "I believe you, but nobody else will." },
+          { es: "Mon fils croit encore au Père Noël.", en: "My son still believes in Father Christmas." },
+          { es: "Les investisseurs croient vraiment à cette start-up.", en: "The investors really believe in this start-up." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "I [don't believe] a word of his story.",
+            sentence: "Je ___ un mot de son histoire.",
+            answer: "ne crois pas",
+            explanation: "Believing (or not) a statement is direct: \"croire quelque chose\", no preposition.",
+          },
+        ],
+      },
+      {
+        heading: "Croire à or croire en?",
+        body: [
+          "The difference between \"croire à\" and \"croire en\" is subtle and natives overlap them, but the core is: à = I believe it exists or will work; en = I trust that person. \"Je crois en toi\" is what a coach says; \"je crois à ton projet\" is what an investor says.",
+        ],
+        examples: [
+          { es: "Ne baisse pas les bras : je crois en toi.", en: "Don't give up: I believe in you." },
+          { es: "Elle croit en ses élèves, même les plus faibles.", en: "She believes in her pupils, even the weakest." },
+          { es: "Il croit à l'énergie solaire pour l'avenir.", en: "He believes in solar energy for the future." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A friend is about to sit a difficult exam. What do you say to encourage her?",
+            options: ["Je crois en toi.", "Je te crois.", "Je crois à toi.", "Je pense de toi."],
+            correctIndex: 0,
+            explanation: "Trust in a person is \"croire en\". \"Je te crois\" means 'I believe what you're saying'.",
+          },
+        ],
+      },
+      {
+        heading: "Manquer à: the reversal",
         body: [
           "\"Manquer\" has three constructions, and one of them flips the English sentence inside out. \"Manquer à quelqu'un\" means to be missed by someone: \"Tu me manques\" = I miss you (literally, you are lacking to me). The thing or person missed is the subject; the person who misses is the indirect object.",
-          "Work it out step by step. 'Léa misses Paris' → Paris is missing to Léa → \"Paris manque à Léa\" → \"Paris lui manque\". 'We miss our friends' → \"Nos amis nous manquent\" (plural verb, because the friends are the subject). Learners who translate word for word produce \"*Je te manque\", which means the exact opposite: you miss me.",
-          "\"Manquer de\" means to lack (\"il manque de patience\", \"on manque de personnel\"), and with an infinitive, to almost do something (\"j'ai manqué de tomber\", a slightly literary equivalent of \"j'ai failli tomber\"). Finally, \"manquer\" + a direct object is to miss a train, a target, a class: \"j'ai manqué mon train\" (in speech, \"j'ai raté mon train\").",
         ],
         examples: [
           { es: "Tu me manques terriblement depuis ton départ.", en: "I've missed you terribly since you left." },
           { es: "Ses enfants lui manquent quand il part en mission.", en: "He misses his children when he's away on assignment." },
           { es: "Le soleil du Sud nous manque beaucoup à Lille.", en: "We really miss the southern sun in Lille." },
-          { es: "Ce stagiaire ne manque pas d'idées, mais il manque de rigueur.", en: "This intern isn't short of ideas, but he lacks rigour." },
-          { es: "En descendant l'escalier, j'ai manqué de tomber.", en: "Going down the stairs, I nearly fell." },
-          { es: "Elle a manqué le dernier train et a dormi à la gare.", en: "She missed the last train and slept at the station." },
         ],
         checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Vous nous manquez.",
+            question: "What does it mean?",
+            options: ["We miss you.", "You miss us.", "You're missing from our team.", "We're missing you at the station."],
+            correctIndex: 0,
+            explanation: "\"Vous\" is the subject: you are missed by us, so 'We miss you'.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -548,6 +753,19 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Tu me manques.",
             explanation: "The person missed is the subject: \"tu me manques\". \"Je te manque\" would mean you miss me.",
           },
+        ],
+      },
+      {
+        heading: "Working out who misses whom",
+        body: [
+          "Work it out step by step. 'Léa misses Paris' → Paris is missing to Léa → \"Paris manque à Léa\" → \"Paris lui manque\". 'We miss our friends' → \"Nos amis nous manquent\" (plural verb, because the friends are the subject). Learners who translate word for word produce \"*Je te manque\", which means the exact opposite: you miss me.",
+        ],
+        examples: [
+          { es: "Lyon manque à Karim. → Lyon lui manque.", en: "Karim misses Lyon." },
+          { es: "Nos voisins nous manquent depuis qu'ils ont déménagé.", en: "We've missed our neighbours since they moved." },
+          { es: "Ma grand-mère manque beaucoup à ma mère.", en: "My mother misses my grandmother a lot." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -557,31 +775,38 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Leur village leur manque.", "Mes parents regrettent leur village."],
             explanation: "The village is missed, so it is the subject: \"leur village manque à mes parents\" (or \"leur village leur manque\").",
           },
+        ],
+      },
+      {
+        heading: "Manquer de, and manquer + object",
+        body: [
+          "\"Manquer de\" means to lack (\"il manque de patience\", \"on manque de personnel\"), and with an infinitive, to almost do something (\"j'ai manqué de tomber\", a slightly literary equivalent of \"j'ai failli tomber\"). Finally, \"manquer\" + a direct object is to miss a train, a target, a class: \"j'ai manqué mon train\" (in speech, \"j'ai raté mon train\").",
+        ],
+        examples: [
+          { es: "Ce stagiaire ne manque pas d'idées, mais il manque de rigueur.", en: "This intern isn't short of ideas, but he lacks rigour." },
+          { es: "En descendant l'escalier, j'ai manqué de tomber.", en: "Going down the stairs, I nearly fell." },
+          { es: "Elle a manqué le dernier train et a dormi à la gare.", en: "She missed the last train and slept at the station." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "Vous nous manquez.",
-            question: "What does it mean?",
-            options: ["We miss you.", "You miss us.", "You're missing from our team.", "We're missing you at the station."],
+            type: "multiple-choice",
+            question: "What does \"J'ai manqué de me faire renverser\" mean?",
+            options: ["I nearly got run over.", "I missed being run over by a car.", "I lacked the courage to cross.", "I missed the bus that ran me over."],
             correctIndex: 0,
-            explanation: "\"Vous\" is the subject: you are missed by us, so 'We miss you'.",
+            explanation: "\"Manquer de\" + infinitive = to nearly do something (= \"faillir\").",
           },
         ],
       },
       {
-        heading: "Servir à / de, se servir de; tenir à / de",
+        heading: "Servir à, servir de, se servir de",
         body: [
           "\"Servir à\" gives the purpose of a thing: \"À quoi sert ce bouton ?\" (What is this button for?), \"ça ne sert à rien\" (it's no use). \"Servir de\" gives a role played by something that isn't normally that: \"ce canapé sert de lit\" (this sofa is used as a bed), \"elle m'a servi d'interprète\". \"Se servir de\" means to use: \"je me sers de ce logiciel tous les jours\" → \"je m'en sers\".",
-          "\"Tenir à\" you met in Part 1: to be attached to (\"je tiens à ce bijou\") or to insist on doing something (\"je tiens à vous remercier\", I really want to thank you). \"Tenir de\" means to take after a relative: \"il tient de sa mère\" (he takes after his mother), or to get something from a source (\"je tiens cette information d'un collègue\").",
-          "Two more pairs from earlier levels complete the picture: \"jouer à\" for games and sports (\"jouer au tennis, aux échecs\") vs \"jouer de\" for instruments (\"jouer du piano, de la guitare\"); and \"parler à\" (talk to) vs \"parler de\" (talk about). At the Advanced level the challenge is not knowing them but choosing them automatically, with the right pronoun.",
         ],
         examples: [
           { es: "À quoi sert cette petite clé sur le trousseau ?", en: "What's this little key on the key ring for?" },
           { es: "Inutile de crier, ça ne sert à rien.", en: "There's no point shouting, it's no use." },
           { es: "Pendant le salon, Hugo nous a servi d'interprète.", en: "During the trade fair, Hugo acted as our interpreter." },
           { es: "Ce vieux logiciel, plus personne ne s'en sert.", en: "That old software, nobody uses it any more." },
-          { es: "Je tiens à vous remercier pour votre accueil.", en: "I'd really like to thank you for your welcome." },
-          { es: "Elle a le caractère de son grand-père : elle tient vraiment de lui.", en: "She has her grandfather's temperament: she really takes after him." },
-          { es: "Il joue du violoncelle et sa sœur joue au volley.", en: "He plays the cello and his sister plays volleyball." },
         ],
         checkpoint: [
           {
@@ -594,6 +819,26 @@ export const FR_C1_U09: Lesson[] = [
             explanation: "A role taken on by something: \"servir de\". \"Servir à\" would need a purpose (à quoi ? à travailler).",
           },
           {
+            type: "word-order",
+            prompt: "Put the words in order to say: I use it every day.",
+            words: ["Je", "m'en", "sers", "tous", "les", "jours."],
+            translation: "I use it every day.",
+            explanation: "\"Se servir de\" + a thing → \"s'en servir\": \"je m'en sers\".",
+          },
+        ],
+      },
+      {
+        heading: "Tenir à or tenir de",
+        body: [
+          "\"Tenir à\" you met in Part 1: to be attached to (\"je tiens à ce bijou\") or to insist on doing something (\"je tiens à vous remercier\", I really want to thank you). \"Tenir de\" means to take after a relative: \"il tient de sa mère\" (he takes after his mother), or to get something from a source (\"je tiens cette information d'un collègue\").",
+        ],
+        examples: [
+          { es: "Je tiens à vous remercier pour votre accueil.", en: "I'd really like to thank you for your welcome." },
+          { es: "Elle a le caractère de son grand-père : elle tient vraiment de lui.", en: "She has her grandfather's temperament: she really takes after him." },
+          { es: "Je tiens ce chiffre d'une source sûre.", en: "I have this figure from a reliable source." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "He [takes after] his father: same laugh, same temper.",
@@ -601,12 +846,25 @@ export const FR_C1_U09: Lesson[] = [
             answer: "tient de",
             explanation: "\"Tenir de\" = take after a relative. \"Tenir à\" would mean he is attached to his father.",
           },
+        ],
+      },
+      {
+        heading: "Jouer à / de, parler à / de",
+        body: [
+          "Two more pairs from earlier levels complete the picture: \"jouer à\" for games and sports (\"jouer au tennis, aux échecs\") vs \"jouer de\" for instruments (\"jouer du piano, de la guitare\"); and \"parler à\" (talk to) vs \"parler de\" (talk about). At the Advanced level the challenge is not knowing them but choosing them automatically, with the right pronoun.",
+        ],
+        examples: [
+          { es: "Il joue du violoncelle et sa sœur joue au volley.", en: "He plays the cello and his sister plays volleyball." },
+          { es: "On joue aux cartes ce soir ?", en: "Shall we play cards tonight?" },
+          { es: "Il m'a parlé de son voyage, puis il a parlé à son chef.", en: "He told me about his trip, then he spoke to his boss." },
+        ],
+        checkpoint: [
           {
-            type: "word-order",
-            prompt: "Put the words in order to say: I use it every day.",
-            words: ["Je", "m'en", "sers", "tous", "les", "jours."],
-            translation: "I use it every day.",
-            explanation: "\"Se servir de\" + a thing → \"s'en servir\": \"je m'en sers\".",
+            type: "multi-select",
+            question: "Which sentences are correct?",
+            options: ["Elle joue du piano.", "Elle joue au piano.", "Ils jouent aux échecs.", "Ils jouent des échecs."],
+            correctIndexes: [0, 2],
+            explanation: "Instruments take \"jouer de\" (\"du piano\"); games and sports take \"jouer à\" (\"aux échecs\").",
           },
         ],
       },
@@ -664,13 +922,6 @@ export const FR_C1_U09: Lesson[] = [
         explanation: "\"Tenir à\" + infinitive: to insist on doing, a warm formal way to say 'I'd like to'.",
       },
       {
-        type: "multiple-choice",
-        question: "What does \"J'ai manqué de me faire renverser\" mean?",
-        options: ["I nearly got run over.", "I missed being run over by a car.", "I lacked the courage to cross.", "I missed the bus that ran me over."],
-        correctIndex: 0,
-        explanation: "\"Manquer de\" + infinitive = to nearly do something (= \"faillir\").",
-      },
-      {
         type: "matching",
         instructions: "Match each French phrase to its meaning.",
         pairs: [
@@ -709,6 +960,31 @@ export const FR_C1_U09: Lesson[] = [
         text: "Tu me manques, tu sais.",
         prompt: "Say it in French (to a friend): I miss you, you know.",
         explanation: "\"Tu me manques\": the person missed is the subject.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Tu penses quoi à mon idée ?",
+        answer: "Tu penses quoi de mon idée ?",
+        altAnswers: ["Qu'est-ce que tu penses de mon idée ?", "Que penses-tu de mon idée ?"],
+        explanation: "Asking for an opinion needs \"penser de\"; \"penser à\" means to have in mind.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Il joue la guitare depuis dix ans.",
+        answer: "Il joue de la guitare depuis dix ans.",
+        explanation: "Instruments take \"jouer de\": \"de la guitare\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "Elle se sert de son vélo pour aller au travail.",
+        answer: "Elle s'en sert pour aller au travail.",
+        explanation: "\"Se servir de\" + a thing becomes \"en\", between \"se\" and the verb.",
       },
     ],
   },
@@ -832,19 +1108,19 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "He's interested in her.",
-        answer: "Il s'intéresse à elle.",
-        explanation: "Pronominal verb + a person: \"à elle\" after the verb, never \"*il lui s'intéresse\".",
+        prompt: "Correct the sentence.",
+        source: "Il s'intéresse beaucoup d'elle.",
+        answer: "Il s'intéresse beaucoup à elle.",
+        explanation: "\"S'intéresser à\": a pronominal à-verb keeps \"à\" + stressed pronoun for a person.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "He answered them politely.",
+        prompt: "Correct the sentence.",
+        source: "Il a répondu à eux poliment.",
         answer: "Il leur a répondu poliment.",
         altAnswers: ["Il leur a poliment répondu."],
-        explanation: "\"Répondre à\" is a communication verb: \"leur\" before the verb.",
+        explanation: "\"Répondre à\" is a communication verb: the person becomes \"leur\" before the verb.",
       },
       {
         type: "translate",
@@ -858,10 +1134,10 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "We miss Marseille.",
+        prompt: "Correct the sentence.",
+        source: "Nous manquons Marseille.",
         answer: "Marseille nous manque.",
-        explanation: "Marseille is the subject of \"manquer\"; we become \"nous\".",
+        explanation: "With \"manquer à\" the place missed is the subject; \"nous manquons Marseille\" would mean we fail to reach it.",
       },
       {
         type: "fill-blank",
@@ -899,10 +1175,10 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "He takes after his grandmother.",
-        answer: "Il tient de sa grand-mère.",
-        explanation: "\"Tenir de\" = to take after a relative.",
+        prompt: "Change the complement to a pronoun.",
+        source: "Il tient beaucoup de sa grand-mère.",
+        answer: "Il tient beaucoup d'elle.",
+        explanation: "\"Tenir de\" + a specific person: \"de\" + stressed pronoun after the verb.",
       },
       {
         type: "multiple-choice",
@@ -926,9 +1202,17 @@ export const FR_C1_U09: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Que pensez-vous de cette proposition ?",
-        prompt: "Say it in French (formal): What do you think of this proposal?",
+        text: "Que pensez-vous de ce nouveau planning ?",
+        prompt: "Say it in French (formal): What do you think of this new schedule?",
         explanation: "Asking for an opinion: \"penser de\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "Elle a renoncé à son projet de voyage.",
+        answer: "Elle y a renoncé.",
+        explanation: "\"Renoncer à\" + a thing becomes \"y\", before the auxiliary.",
       },
     ],
   },
@@ -944,17 +1228,11 @@ export const FR_C1_U09: Lesson[] = [
         heading: "English has a preposition, French doesn't",
         body: [
           "A handful of very common verbs are direct in French even though English uses a preposition: \"attendre\" (wait for), \"chercher\" (look for), \"écouter\" (listen to), \"regarder\" (look at), \"payer\" (pay for), \"demander\" (ask for), \"approuver\" (approve of), \"habiter\" (live in, optionally). The preposition is built into the French verb.",
-          "So \"j'attends le bus\", \"je cherche mes clés\", \"j'écoute la radio\", \"c'est moi qui paie le repas\", \"il a demandé l'addition\". Adding \"pour\" or \"à\" is the most frequent interference error in English speakers' French, and it persists because these verbs are so common that the mistake becomes automatic.",
-          "The pronouns follow: these are direct objects, so \"le, la, les\" before the verb: \"je l'attends depuis une heure\", \"tu les as cherchées partout ?\". And because they are direct objects, the past participle agrees when the object comes first: \"les clés que j'ai cherchées\".",
         ],
         examples: [
           { es: "Ça fait vingt minutes que j'attends le tram.", en: "I've been waiting for the tram for twenty minutes." },
           { es: "Je cherche un appartement près de la gare.", en: "I'm looking for a flat near the station." },
-          { es: "Écoute-moi bien, c'est important.", en: "Listen to me carefully, it's important." },
-          { es: "Ne regarde pas l'écran pendant que tu conduis.", en: "Don't look at the screen while you're driving." },
-          { es: "Laisse, c'est moi qui paie les cafés.", en: "Leave it, I'm paying for the coffees." },
           { es: "Le comité n'a pas approuvé notre décision.", en: "The committee didn't approve of our decision." },
-          { es: "Mes lunettes ? Je les ai cherchées toute la matinée.", en: "My glasses? I looked for them all morning." },
         ],
         checkpoint: [
           {
@@ -965,6 +1243,19 @@ export const FR_C1_U09: Lesson[] = [
             answer: "J'attends ma sœur.",
             explanation: "\"Attendre\" is direct: no \"pour\".",
           },
+        ],
+      },
+      {
+        heading: "Why the mistake sticks",
+        body: [
+          "So \"j'attends le bus\", \"je cherche mes clés\", \"j'écoute la radio\", \"c'est moi qui paie le repas\", \"il a demandé l'addition\". Adding \"pour\" or \"à\" is the most frequent interference error in English speakers' French, and it persists because these verbs are so common that the mistake becomes automatic.",
+        ],
+        examples: [
+          { es: "Écoute-moi bien, c'est important.", en: "Listen to me carefully, it's important." },
+          { es: "Ne regarde pas l'écran pendant que tu conduis.", en: "Don't look at the screen while you're driving." },
+          { es: "Laisse, c'est moi qui paie les cafés.", en: "Leave it, I'm paying for the coffees." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -974,6 +1265,19 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Qui est-ce qui a payé les billets ?", "Qui a payé les places ?"],
             explanation: "\"Payer quelque chose\" is direct. \"Payer pour\" means to pay on behalf of someone or to pay the price for a misdeed.",
           },
+        ],
+      },
+      {
+        heading: "Direct objects: le, la, les and agreement",
+        body: [
+          "The pronouns follow: these are direct objects, so \"le, la, les\" before the verb: \"je l'attends depuis une heure\", \"tu les as cherchées partout ?\". And because they are direct objects, the past participle agrees when the object comes first: \"les clés que j'ai cherchées\".",
+        ],
+        examples: [
+          { es: "Mes lunettes ? Je les ai cherchées toute la matinée.", en: "My glasses? I looked for them all morning." },
+          { es: "Le bus ? Je l'attends depuis un quart d'heure.", en: "The bus? I've been waiting for it for a quarter of an hour." },
+          { es: "Les chansons que j'ai écoutées hier étaient tristes.", en: "The songs I listened to yesterday were sad." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Je les ai cherchées partout.",
@@ -982,22 +1286,48 @@ export const FR_C1_U09: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Chercher\" = look for. The participle agrees with \"les\" (feminine plural: \"cherchées\").",
           },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The photos? I [looked at them] for hours.",
+            sentence: "Les photos ? Je ___ pendant des heures.",
+            answer: "les ai regardées",
+            explanation: "\"Regarder\" is direct, so \"les\"; the object comes first, so the participle agrees: \"regardées\".",
+          },
         ],
       },
       {
         heading: "French has a preposition, English doesn't",
         body: [
           "The opposite group: verbs that are direct in English but need a preposition in French. \"Téléphoner à\" (phone someone), \"répondre à\" (answer), \"obéir à\" (obey), \"ressembler à\" (resemble), \"entrer dans\" (enter), \"se marier avec\" (marry), \"changer de\" (change), \"jouir de\" (enjoy a right, an advantage), \"se servir de\" (use), \"douter de\" (doubt).",
-          "\"Entrer dans une pièce\" (enter a room) and \"changer de train\" (change trains) are worth isolating. \"Changer de\" takes a bare singular noun with no article for a swap of one thing for another: \"changer d'avis\" (change your mind), \"changer de voiture\", \"changer de place\". \"Changer la voiture\" would suggest altering the car itself.",
-          "\"Se marier avec\" (to marry someone) is the everyday form; \"épouser\" is direct and a little more formal: \"elle s'est mariée avec Julien\" = \"elle a épousé Julien\". English 'marry' maps onto épouser, not onto se marier.",
         ],
         examples: [
           { es: "Téléphone à ta mère, elle s'inquiète.", en: "Phone your mother, she's worried." },
           { es: "Il n'a toujours pas répondu à mon courriel.", en: "He still hasn't answered my email." },
+          { es: "Les résidents jouissent d'une vue exceptionnelle sur le lac.", en: "Residents enjoy an exceptional view of the lake." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Did you answer them? (to a friend)",
+            answer: "Tu leur as répondu ?",
+            altAnswers: ["Est-ce que tu leur as répondu ?", "Leur as-tu répondu ?"],
+            explanation: "\"Répondre à\" → \"leur\". 'Answer' is direct in English but not in French.",
+          },
+        ],
+      },
+      {
+        heading: "Entrer dans, changer de, se marier avec",
+        body: [
+          "\"Entrer dans une pièce\" (enter a room) and \"changer de train\" (change trains) are worth isolating. \"Changer de\" takes a bare singular noun with no article for a swap of one thing for another: \"changer d'avis\" (change your mind), \"changer de voiture\", \"changer de place\". \"Changer la voiture\" would suggest altering the car itself.",
+          "\"Se marier avec\" (to marry someone) is the everyday form; \"épouser\" is direct and a little more formal: \"elle s'est mariée avec Julien\" = \"elle a épousé Julien\". English 'marry' maps onto épouser, not onto se marier.",
+        ],
+        examples: [
           { es: "Entrez dans la salle sans faire de bruit.", en: "Enter the room without making any noise." },
           { es: "À Lyon, il faut changer de train pour aller à Grenoble.", en: "In Lyon you have to change trains to go to Grenoble." },
           { es: "Elle s'est mariée avec un Québécois.", en: "She married a man from Quebec." },
-          { es: "Les résidents jouissent d'une vue exceptionnelle sur le lac.", en: "Residents enjoy an exceptional view of the lake." },
         ],
         checkpoint: [
           {
@@ -1016,31 +1346,57 @@ export const FR_C1_U09: Lesson[] = [
             answer: "changé d'avis",
             explanation: "\"Changer de\" + bare noun: \"changer d'avis\". No possessive, no article.",
           },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "Did you answer them? (to a friend)",
-            answer: "Tu leur as répondu ?",
-            altAnswers: ["Est-ce que tu leur as répondu ?", "Leur as-tu répondu ?"],
-            explanation: "\"Répondre à\" → \"leur\". 'Answer' is direct in English but not in French.",
-          },
         ],
       },
       {
-        heading: "Demander, emprunter, cacher: something to someone",
+        heading: "Something to someone",
         body: [
           "Many exchange verbs take a direct object (the thing) and an indirect object with à (the person): \"demander quelque chose à quelqu'un\", \"emprunter quelque chose à quelqu'un\" (borrow from), \"voler quelque chose à quelqu'un\" (steal from), \"cacher quelque chose à quelqu'un\" (hide from), \"acheter quelque chose à quelqu'un\" (buy from, or for: context decides).",
-          "English says 'ask him for the time', 'borrow from her', 'hide it from them': the person comes with different prepositions, or none. French always puts the person behind \"à\", which becomes \"lui / leur\": \"je lui ai demandé l'heure\", \"elle lui a emprunté sa voiture\", \"on leur a caché la vérité\". With both pronouns: \"je la lui ai demandée\".",
-          "Watch out for \"demander\": the person is never a direct object. \"*Je l'ai demandé de venir\" is wrong; it's \"je lui ai demandé de venir\". And 'ask a question' is \"poser une question\", not \"demander une question\".",
         ],
         examples: [
           { es: "J'ai demandé mon chemin à un passant.", en: "I asked a passer-by for directions." },
           { es: "Tu peux emprunter la perceuse à Thomas.", en: "You can borrow the drill from Thomas." },
-          { es: "On lui a volé son portefeuille dans le métro.", en: "His wallet was stolen in the metro." },
           { es: "Ils ont caché la vérité à leurs enfants pendant des années.", en: "They hid the truth from their children for years." },
-          { es: "Je lui ai demandé de rappeler après dix-huit heures.", en: "I asked her to call back after six." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "The ladder? How do you say: I borrowed it from my neighbour.",
+            options: ["Je l'ai empruntée à ma voisine.", "Je l'ai empruntée de ma voisine.", "Je l'ai empruntée par ma voisine.", "Je l'ai empruntée ma voisine."],
+            correctIndex: 0,
+            explanation: "\"Emprunter quelque chose à quelqu'un\": the person you borrow from always comes after \"à\". English from tempts learners towards \"de\".",
+          },
+        ],
+      },
+      {
+        heading: "The person becomes lui / leur",
+        body: [
+          "English says 'ask him for the time', 'borrow from her', 'hide it from them': the person comes with different prepositions, or none. French always puts the person behind \"à\", which becomes \"lui / leur\": \"je lui ai demandé l'heure\", \"elle lui a emprunté sa voiture\", \"on leur a caché la vérité\". With both pronouns: \"je la lui ai demandée\".",
+        ],
+        examples: [
+          { es: "On lui a volé son portefeuille dans le métro.", en: "His wallet was stolen in the metro." },
           { es: "Sa voiture ? Je la lui ai empruntée pour le week-end.", en: "His car? I borrowed it from him for the weekend." },
+          { es: "Je leur ai demandé l'adresse.", en: "I asked them for the address." },
+        ],
+        checkpoint: [
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: We hid it from them.",
+            words: ["Nous", "le", "leur", "avons", "caché."],
+            translation: "We hid it from them.",
+            explanation: "\"Cacher quelque chose à quelqu'un\": le (the thing) before leur (the people).",
+          },
+        ],
+      },
+      {
+        heading: "Demander: never a direct person",
+        body: [
+          "Watch out for \"demander\": the person is never a direct object. \"*Je l'ai demandé de venir\" is wrong; it's \"je lui ai demandé de venir\". And 'ask a question' is \"poser une question\", not \"demander une question\".",
+        ],
+        examples: [
+          { es: "Je lui ai demandé de rappeler après dix-huit heures.", en: "I asked her to call back after six." },
+          { es: "Elle m'a posé une question difficile.", en: "She asked me a difficult question." },
+          { es: "Nous leur avons demandé de patienter.", en: "We asked them to wait." },
         ],
         checkpoint: [
           {
@@ -1051,13 +1407,6 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Je lui ai demandé d'attendre.",
             explanation: "\"Demander à quelqu'un de faire\": the person is indirect, so \"lui\". \"Je l'ai demandé\" is a common error.",
           },
-          {
-            type: "word-order",
-            prompt: "Put the words in order to say: We hid it from them.",
-            words: ["Nous", "le", "leur", "avons", "caché."],
-            translation: "We hid it from them.",
-            explanation: "\"Cacher quelque chose à quelqu'un\": le (the thing) before leur (the people).",
-          },
         ],
       },
     ],
@@ -1065,18 +1414,18 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I'm looking for the station.",
+        prompt: "Correct the sentence.",
+        source: "Je cherche pour la gare.",
         answer: "Je cherche la gare.",
-        explanation: "\"Chercher\" = look for, no preposition.",
+        explanation: "\"Chercher\" already means to look for: no \"pour\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "He never listens to his parents.",
+        prompt: "Correct the sentence.",
+        source: "Il n'écoute jamais à ses parents.",
         answer: "Il n'écoute jamais ses parents.",
-        explanation: "\"Écouter\" is direct: \"écouter ses parents\". \"*Écouter à\" is an anglicism.",
+        explanation: "\"Écouter\" is direct; \"écouter à\" copies English listen to.",
       },
       {
         type: "translate",
@@ -1155,6 +1504,22 @@ export const FR_C1_U09: Lesson[] = [
         prompt: "Say it in French: I've been waiting for the bus for twenty minutes.",
         explanation: "\"Attendre\" is direct, and \"depuis\" + present for an action still going on.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "J'attends mes collègues devant la gare.",
+        answer: "Je les attends devant la gare.",
+        explanation: "\"Attendre\" is direct, so the people become \"les\" before the verb.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change both complements to pronouns.",
+        source: "J'ai demandé la facture au serveur.",
+        answer: "Je la lui ai demandée.",
+        explanation: "The thing is direct (\"la\"), the person indirect (\"lui\"); \"la\" comes first, so the participle agrees: \"demandée\".",
+      },
     ],
   },
   {
@@ -1169,16 +1534,12 @@ export const FR_C1_U09: Lesson[] = [
         heading: "Manquer in four sentences",
         body: [
           "Put the four constructions of \"manquer\" next to each other and the logic appears. (1) \"Manquer quelque chose\": to miss a train, a class, an opportunity (\"il a manqué le début du film\"). (2) \"Manquer à quelqu'un\": to be missed by (\"ma ville me manque\"). (3) \"Manquer de quelque chose\": to lack (\"on manque de temps\"). (4) Impersonal \"il manque\": something is missing (\"il manque deux chaises\", \"il me manque dix euros\").",
-          "The impersonal form (4) is the one to master for professional French: the verb stays singular, whatever follows. \"Il manque trois pages au dossier\" (three pages are missing from the file). Compare \"trois pages manquent\", also correct but less natural.",
-          "Pronoun check: \"Le train ? Je l'ai manqué.\" (direct) / \"Paris ? Il me manque.\" (indirect person) / \"Du temps ? On en manque.\" (de → en) / \"Il nous en manque deux.\" (impersonal with both).",
         ],
         examples: [
           { es: "Dépêche-toi, on va manquer le début du spectacle !", en: "Hurry up, we're going to miss the start of the show!" },
           { es: "Ses petits-enfants lui manquent depuis qu'ils vivent au Canada.", en: "She has missed her grandchildren since they moved to Canada." },
           { es: "Ce restaurant ne manque pas de charme.", en: "This restaurant is not without charm." },
           { es: "Il manque encore deux signatures au contrat.", en: "Two signatures are still missing from the contract." },
-          { es: "Des chaises ? Il nous en manque au moins cinq.", en: "Chairs? We're short of at least five." },
-          { es: "Ne manque pas de m'appeler en arrivant.", en: "Be sure to call me when you arrive." },
         ],
         checkpoint: [
           {
@@ -1189,13 +1550,6 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Il nous manque deux joueurs.",
             altAnswers: ["Il nous manque deux joueuses.", "On a besoin de deux joueurs de plus."],
             explanation: "Impersonal \"il manque\" + what is missing, with \"nous\" for who is short. The verb stays singular.",
-          },
-          {
-            type: "multiple-choice",
-            question: "What does \"Ne manquez pas de visiter le château\" mean?",
-            options: ["Be sure to visit the castle.", "Don't miss the castle when it falls.", "You don't lack time to visit the castle.", "Don't miss us when you visit the castle."],
-            correctIndex: 0,
-            explanation: "\"Ne pas manquer de\" + infinitive = make sure you do it; a set phrase in guides and invitations.",
           },
           {
             type: "translate",
@@ -1209,18 +1563,36 @@ export const FR_C1_U09: Lesson[] = [
         ],
       },
       {
+        heading: "Impersonal il manque, and the pronouns",
+        body: [
+          "The impersonal form (4) is the one to master for professional French: the verb stays singular, whatever follows. \"Il manque trois pages au dossier\" (three pages are missing from the file). Compare \"trois pages manquent\", also correct but less natural.",
+          "Pronoun check: \"Le train ? Je l'ai manqué.\" (direct) / \"Paris ? Il me manque.\" (indirect person) / \"Du temps ? On en manque.\" (de → en) / \"Il nous en manque deux.\" (impersonal with both).",
+        ],
+        examples: [
+          { es: "Des chaises ? Il nous en manque au moins cinq.", en: "Chairs? We're short of at least five." },
+          { es: "Ne manque pas de m'appeler en arrivant.", en: "Be sure to call me when you arrive." },
+          { es: "Le train ? Je l'ai manqué de deux minutes.", en: "The train? I missed it by two minutes." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does \"Ne manquez pas de visiter le château\" mean?",
+            options: ["Be sure to visit the castle.", "Don't miss the castle when it falls.", "You don't lack time to visit the castle.", "Don't miss us when you visit the castle."],
+            correctIndex: 0,
+            explanation: "\"Ne pas manquer de\" + infinitive = make sure you do it; a set phrase in guides and invitations.",
+          },
+        ],
+      },
+      {
         heading: "Tenir in four sentences",
         body: [
           "\"Tenir\" + a direct object is to hold or to keep (\"tenir la porte\", \"tenir une promesse\", \"tenir un restaurant\" = to run one). \"Tenir à\" is to value or to insist (\"je tiens à mon indépendance\", \"elle tient à payer\"). \"Tenir de\" is to take after (\"elle tient de son père\"). And the pronominal \"se tenir\" is to behave or to hold on (\"tiens-toi bien à table\", \"tiens-toi à la rampe\"), while \"s'en tenir à\" (Part 6) is to stick to.",
-          "The pronouns differ for each meaning, which is the real test: \"La porte ? Je la tiens.\" / \"Ce bijou ? J'y tiens.\" / \"Ma mère ? Je tiens beaucoup à elle.\" / \"Son père ? Elle tient de lui.\"",
-          "\"Tenir à ce que\" + subjunctive (insist that someone else does something) comes in Part 5; for now, notice that \"tenir à\" + infinitive needs the same subject: \"je tiens à venir\" = I insist on coming.",
         ],
         examples: [
           { es: "Ils tiennent une petite librairie à Nantes.", en: "They run a small bookshop in Nantes." },
           { es: "Il a tenu sa promesse, contre toute attente.", en: "He kept his promise, against all expectations." },
           { es: "Elle tient beaucoup à son indépendance.", en: "Her independence matters a lot to her." },
           { es: "Non, laisse, je tiens à payer.", en: "No, leave it, I insist on paying." },
-          { es: "Ce sens de l'humour, il le tient de sa mère.", en: "He gets that sense of humour from his mother." },
           { es: "Tiens-toi à la rampe, l'escalier est glissant.", en: "Hold on to the rail, the stairs are slippery." },
         ],
         checkpoint: [
@@ -1233,6 +1605,20 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["J'insiste pour payer."],
             explanation: "\"Tenir à\" + infinitive (same subject). \"Insister pour\" + infinitive is also natural.",
           },
+        ],
+      },
+      {
+        heading: "Tenir: one pronoun per meaning",
+        body: [
+          "The pronouns differ for each meaning, which is the real test: \"La porte ? Je la tiens.\" / \"Ce bijou ? J'y tiens.\" / \"Ma mère ? Je tiens beaucoup à elle.\" / \"Son père ? Elle tient de lui.\"",
+          "\"Tenir à ce que\" + subjunctive (insist that someone else does something) comes in Part 5; for now, notice that \"tenir à\" + infinitive needs the same subject: \"je tiens à venir\" = I insist on coming.",
+        ],
+        examples: [
+          { es: "Ce sens de l'humour, il le tient de sa mère.", en: "He gets that sense of humour from his mother." },
+          { es: "Sa grand-mère ? Il tient beaucoup à elle.", en: "His grandmother? He's very attached to her." },
+          { es: "Je tiens à venir, même en retard.", en: "I insist on coming, even if I'm late." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1247,16 +1633,34 @@ export const FR_C1_U09: Lesson[] = [
         heading: "Servir in four sentences",
         body: [
           "\"Servir\" + direct object: to serve food or customers (\"on vous sert ?\", \"servir le dessert\"). \"Servir à\": purpose, often in questions and negations (\"à quoi ça sert ?\", \"ça ne sert à rien de pleurer\"). \"Servir de\": to act as, to be used as (\"le salon sert de chambre d'amis\"). \"Se servir de\": to use (\"je me sers d'une appli pour mes comptes\"); and plain \"se servir\" is to help oneself (\"servez-vous !\").",
+        ],
+        examples: [
+          { es: "Bonjour, on vous sert ou vous attendez quelqu'un ?", en: "Hello, are you being served or are you waiting for someone?" },
+          { es: "Le grenier nous sert de bureau.", en: "We use the attic as an office." },
+          { es: "Je me sers de ce tableur pour tous mes devis.", en: "I use this spreadsheet for all my quotes." },
+          { es: "Il y a du gâteau, servez-vous !", en: "There's cake, help yourselves!" },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Ça ne sert à rien.",
+            question: "What does it mean?",
+            options: ["It's no use.", "It doesn't serve anyone.", "Nobody uses it.", "Nothing is served."],
+            correctIndex: 0,
+            explanation: "\"Ne servir à rien\": to be pointless.",
+          },
+        ],
+      },
+      {
+        heading: "Servir with people",
+        body: [
           "With people, \"servir de\" is a nice Advanced tool: \"il m'a servi de guide\" (he acted as my guide), \"elle lui sert de mère\" (she's like a mother to him). With \"à\", the person who benefits appears as an indirect pronoun: \"ça m'a beaucoup servi\" (it was very useful to me).",
           "The \"se servir de\" pronouns: a thing → en (\"je m'en sers\"), a person → de + stressed pronoun, and the meaning becomes negative: \"il se sert de toi\" = he's using you.",
         ],
         examples: [
-          { es: "Bonjour, on vous sert ou vous attendez quelqu'un ?", en: "Hello, are you being served or are you waiting for someone?" },
           { es: "Ces cours d'italien m'ont beaucoup servi en Toscane.", en: "Those Italian classes were really useful to me in Tuscany." },
-          { es: "Le grenier nous sert de bureau.", en: "We use the attic as an office." },
-          { es: "Je me sers de ce tableur pour tous mes devis.", en: "I use this spreadsheet for all my quotes." },
           { es: "Ouvre les yeux : il se sert de toi.", en: "Open your eyes: he's using you." },
-          { es: "Il y a du gâteau, servez-vous !", en: "There's cake, help yourselves!" },
+          { es: "Mon frère m'a servi de chauffeur tout l'été.", en: "My brother acted as my driver all summer." },
         ],
         checkpoint: [
           {
@@ -1267,14 +1671,6 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Il se sert de toi.",
             altAnswers: ["Il t'utilise.", "Il profite de toi."],
             explanation: "\"Se servir de quelqu'un\" = to use a person, with de + stressed pronoun.",
-          },
-          {
-            type: "listen-choose",
-            audio: "Ça ne sert à rien.",
-            question: "What does it mean?",
-            options: ["It's no use.", "It doesn't serve anyone.", "Nobody uses it.", "Nothing is served."],
-            correctIndex: 0,
-            explanation: "\"Ne servir à rien\": to be pointless.",
           },
         ],
       },
@@ -1373,9 +1769,41 @@ export const FR_C1_U09: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Non, laisse, je tiens à payer.",
-        prompt: "Say it in French (to a friend): No, leave it, I insist on paying.",
+        text: "Non, range ta carte, je tiens à t'inviter.",
+        prompt: "Say it in French (to a friend): No, put your card away, I insist on treating you.",
         explanation: "\"Tenir à\" + infinitive.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "Je tiens beaucoup à ces photos.",
+        answer: "J'y tiens beaucoup.",
+        explanation: "\"Tenir à\" + a thing becomes \"y\": \"j'y tiens\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "Elle se sert souvent de son dictionnaire.",
+        answer: "Elle s'en sert souvent.",
+        explanation: "\"Se servir de\" + a thing becomes \"en\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Je manque ma famille.",
+        answer: "Ma famille me manque.",
+        explanation: "In the sense of missing someone, the person missed is the subject of \"manquer à\"; \"je manque ma famille\" would mean I fail to catch them.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Ce canapé sert à lit quand on a des invités.",
+        answer: "Ce canapé sert de lit quand on a des invités.",
+        explanation: "A role taken on by something is \"servir de\" + bare noun; \"servir à\" gives a purpose.",
       },
     ],
   },
@@ -1391,17 +1819,13 @@ export const FR_C1_U09: Lesson[] = [
         heading: "Verb + à + infinitive",
         body: [
           "When a verb is followed by an infinitive, French chooses between nothing, à and de, and the choice belongs to the verb. The à group often expresses effort or direction towards a goal: \"chercher à\" (to try to, to seek to), \"hésiter à\" (to hesitate to), \"s'attendre à\" (to expect to), \"réussir à / parvenir à\" (to manage to), \"se mettre à\" (to start), \"apprendre à\" (to learn to), \"consister à\" (to consist in), \"tenir à\" (to insist on), \"s'habituer à\", \"se décider à\".",
-          "\"Chercher à\" is worth singling out: it is the elegant, slightly formal equivalent of 'try to' or 'aim to' (\"nous cherchons à réduire les délais\"), and it is far more natural in a report than \"essayer de\" repeated three times.",
-          "The verbs with no preposition are the ones you already know: modals and verbs of wish, preference, movement and perception: \"vouloir, pouvoir, devoir, savoir, espérer, compter (to intend), préférer, aimer, oser, sembler, aller, venir\". \"J'espère te revoir\", \"il compte partir en mai\", \"elle n'ose pas demander\".",
         ],
         examples: [
-          { es: "Nous cherchons à réduire nos délais de livraison.", en: "We're aiming to reduce our delivery times." },
           { es: "N'hésitez pas à me contacter pour toute question.", en: "Don't hesitate to contact me with any questions." },
           { es: "Je ne m'attendais pas à le revoir si tôt.", en: "I didn't expect to see him again so soon." },
           { es: "Elle est enfin parvenue à joindre le service client.", en: "She finally managed to reach customer service." },
           { es: "Le travail consiste à accueillir les visiteurs et à répondre au téléphone.", en: "The job consists of welcoming visitors and answering the phone." },
           { es: "Dès qu'il est rentré, il s'est mis à pleuvoir.", en: "As soon as he got home, it started to rain." },
-          { es: "Nous comptons ouvrir une deuxième boutique à Rennes.", en: "We intend to open a second shop in Rennes." },
         ],
         checkpoint: [
           {
@@ -1413,6 +1837,19 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["N'hésitez pas à me téléphoner.", "N'hésitez pas à me contacter."],
             explanation: "\"Hésiter à\" + infinitive; a set phrase at the end of professional emails.",
           },
+        ],
+      },
+      {
+        heading: "Chercher à: aim to",
+        body: [
+          "\"Chercher à\" is worth singling out: it is the elegant, slightly formal equivalent of 'try to' or 'aim to' (\"nous cherchons à réduire les délais\"), and it is far more natural in a report than \"essayer de\" repeated three times.",
+        ],
+        examples: [
+          { es: "Nous cherchons à réduire nos délais de livraison.", en: "We're aiming to reduce our delivery times." },
+          { es: "Le projet cherche à rapprocher les générations.", en: "The project aims to bring the generations together." },
+          { es: "Elle cherche à comprendre ce qui s'est passé.", en: "She's trying to understand what happened." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1421,6 +1858,19 @@ export const FR_C1_U09: Lesson[] = [
             answer: "cherchons à",
             explanation: "\"Chercher à\" + infinitive: aim to, seek to. Without à, \"chercher\" means look for.",
           },
+        ],
+      },
+      {
+        heading: "No preposition at all",
+        body: [
+          "The verbs with no preposition are the ones you already know: modals and verbs of wish, preference, movement and perception: \"vouloir, pouvoir, devoir, savoir, espérer, compter (to intend), préférer, aimer, oser, sembler, aller, venir\". \"J'espère te revoir\", \"il compte partir en mai\", \"elle n'ose pas demander\".",
+        ],
+        examples: [
+          { es: "Nous comptons ouvrir une deuxième boutique à Rennes.", en: "We intend to open a second shop in Rennes." },
+          { es: "J'espère te revoir bientôt.", en: "I hope to see you again soon." },
+          { es: "Il n'ose pas demander une augmentation.", en: "He doesn't dare ask for a pay rise." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "How do you say: I intend to leave in May.",
@@ -1434,16 +1884,52 @@ export const FR_C1_U09: Lesson[] = [
         heading: "Verb + de + infinitive",
         body: [
           "The de group is the largest: \"essayer de\", \"décider de\", \"accepter de\", \"refuser de\", \"oublier de\", \"éviter de\", \"regretter de\", \"s'efforcer de\" (to strive to), \"se dépêcher de\", \"faire semblant de\", \"menacer de\", \"choisir de\", \"envisager de\", \"avoir l'intention de\".",
-          "Some verbs exist in both groups with a nuance: \"continuer à / de\" are interchangeable; \"commencer à\" is standard and \"commencer de\" literary. \"Décider de\" (to decide to) vs \"se décider à\" (to make up your mind to, after hesitating): \"il a enfin décidé de partir\" / \"il s'est enfin décidé à partir\".",
-          "Pronouns go before the infinitive they belong to: \"j'ai décidé de le lui dire\", \"évite d'y aller seul\". And negation of the infinitive puts both parts in front: \"il a promis de ne plus recommencer\", \"je regrette de ne pas être venu\".",
         ],
         examples: [
           { es: "Nous nous efforçons de répondre sous quarante-huit heures.", en: "We strive to reply within forty-eight hours." },
           { es: "Évitez de prendre la voiture pendant les heures de pointe.", en: "Avoid taking the car during rush hour." },
+          { es: "La direction envisage de fermer le site de Brest.", en: "Management is considering closing the Brest site." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say: They refused to sign.",
+            options: ["Ils ont refusé de signer.", "Ils ont refusé à signer.", "Ils ont refusé signer.", "Ils ont refusé pour signer."],
+            correctIndex: 0,
+            explanation: "\"Refuser\" belongs to the large de group: \"refuser de\" + infinitive.",
+          },
+        ],
+      },
+      {
+        heading: "Both groups, with a nuance",
+        body: [
+          "Some verbs exist in both groups with a nuance: \"continuer à / de\" are interchangeable; \"commencer à\" is standard and \"commencer de\" literary. \"Décider de\" (to decide to) vs \"se décider à\" (to make up your mind to, after hesitating): \"il a enfin décidé de partir\" / \"il s'est enfin décidé à partir\".",
+        ],
+        examples: [
+          { es: "Après des mois d'hésitation, elle s'est décidée à vendre la maison.", en: "After months of hesitation, she made up her mind to sell the house." },
+          { es: "Il a continué à travailler malgré la fatigue.", en: "He kept working despite being tired." },
+          { es: "Elle a décidé de partir en mai.", en: "She decided to leave in May." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Il s'est enfin décidé à parler.",
+            question: "What does it mean?",
+            options: ["He finally made up his mind to speak.", "He finally decided not to speak.", "He was finally allowed to speak.", "He finally stopped speaking."],
+            correctIndex: 0,
+            explanation: "\"Se décider à\" stresses the end of a hesitation.",
+          },
+        ],
+      },
+      {
+        heading: "Pronouns and negation before the infinitive",
+        body: [
+          "Pronouns go before the infinitive they belong to: \"j'ai décidé de le lui dire\", \"évite d'y aller seul\". And negation of the infinitive puts both parts in front: \"il a promis de ne plus recommencer\", \"je regrette de ne pas être venu\".",
+        ],
+        examples: [
           { es: "Je regrette de ne pas avoir accepté ce poste.", en: "I regret not accepting that job." },
           { es: "Il fait semblant de ne pas me voir.", en: "He pretends not to see me." },
-          { es: "Après des mois d'hésitation, elle s'est décidée à vendre la maison.", en: "After months of hesitation, she made up her mind to sell the house." },
-          { es: "La direction envisage de fermer le site de Brest.", en: "Management is considering closing the Brest site." },
+          { es: "J'ai décidé de le lui dire ce soir.", en: "I've decided to tell him tonight." },
         ],
         checkpoint: [
           {
@@ -1463,31 +1949,17 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Elle a fait semblant de ne pas comprendre.",
             explanation: "\"Faire semblant de\" + infinitive; the negated infinitive puts \"ne pas\" before it.",
           },
-          {
-            type: "listen-choose",
-            audio: "Il s'est enfin décidé à parler.",
-            question: "What does it mean?",
-            options: ["He finally made up his mind to speak.", "He finally decided not to speak.", "He was finally allowed to speak.", "He finally stopped speaking."],
-            correctIndex: 0,
-            explanation: "\"Se décider à\" stresses the end of a hesitation.",
-          },
         ],
       },
       {
-        heading: "Two objects: à quelqu'un de faire / quelqu'un à faire",
+        heading: "Pattern A: à quelqu'un de faire",
         body: [
           "Verbs that make someone else act come in two patterns, and the difference matters for the pronoun. Pattern A, person with à + action with de: \"permettre à quelqu'un de\", \"conseiller à\", \"demander à\", \"dire à\", \"interdire à\", \"proposer à\", \"promettre à\", \"reprocher à\". The person becomes \"lui / leur\": \"je lui ai conseillé de partir\".",
-          "Pattern B, direct person + de: \"empêcher quelqu'un de\", \"remercier quelqu'un de\", \"prier quelqu'un de\", \"convaincre / persuader quelqu'un de\", \"accuser quelqu'un de\", \"féliciter quelqu'un de\". The person becomes \"le / la / les\": \"je l'ai empêché de partir\". Pattern C, direct person + à: \"inviter, aider, encourager, obliger, autoriser, pousser, inciter quelqu'un à\": \"je l'ai aidée à déménager\".",
-          "English hides all of this ('I advised him to', 'I stopped him from', 'I helped him to': him every time), which is why \"*je l'ai conseillé de\" and \"*je lui ai aidé à\" are so persistent. A good test: could you say 'conseiller quelque chose à quelqu'un'? Then the person is indirect.",
         ],
         examples: [
           { es: "Le médecin lui a conseillé de ralentir le rythme.", en: "The doctor advised him to slow down." },
           { es: "Ce badge permet aux visiteurs d'accéder au premier étage.", en: "This badge allows visitors to access the first floor." },
-          { es: "La grève les a empêchés de rentrer à temps.", en: "The strike stopped them from getting home in time." },
-          { es: "Je vous remercie de m'avoir répondu si vite.", en: "Thank you for replying so quickly." },
-          { es: "Ses amis l'ont encouragée à reprendre ses études.", en: "Her friends encouraged her to go back to studying." },
           { es: "On leur a interdit de garer leur camion devant l'école.", en: "They were forbidden to park their lorry in front of the school." },
-          { es: "Rien ne l'oblige à accepter ces conditions.", en: "Nothing forces him to accept these conditions." },
         ],
         checkpoint: [
           {
@@ -1498,6 +1970,20 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Je lui ai conseillé d'accepter.",
             explanation: "\"Conseiller à quelqu'un de\": the person is indirect, so \"lui\", never \"je l'ai conseillée\".",
           },
+        ],
+      },
+      {
+        heading: "Patterns B and C: a direct person",
+        body: [
+          "Pattern B, direct person + de: \"empêcher quelqu'un de\", \"remercier quelqu'un de\", \"prier quelqu'un de\", \"convaincre / persuader quelqu'un de\", \"accuser quelqu'un de\", \"féliciter quelqu'un de\". The person becomes \"le / la / les\": \"je l'ai empêché de partir\". Pattern C, direct person + à: \"inviter, aider, encourager, obliger, autoriser, pousser, inciter quelqu'un à\": \"je l'ai aidée à déménager\".",
+        ],
+        examples: [
+          { es: "La grève les a empêchés de rentrer à temps.", en: "The strike stopped them from getting home in time." },
+          { es: "Je vous remercie de m'avoir répondu si vite.", en: "Thank you for replying so quickly." },
+          { es: "Ses amis l'ont encouragée à reprendre ses études.", en: "Her friends encouraged her to go back to studying." },
+          { es: "Rien ne l'oblige à accepter ces conditions.", en: "Nothing forces him to accept these conditions." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1516,16 +2002,36 @@ export const FR_C1_U09: Lesson[] = [
           },
         ],
       },
+      {
+        heading: "Why English doesn't help",
+        body: [
+          "English hides all of this ('I advised him to', 'I stopped him from', 'I helped him to': him every time), which is why \"*je l'ai conseillé de\" and \"*je lui ai aidé à\" are so persistent. A good test: could you say 'conseiller quelque chose à quelqu'un'? Then the person is indirect.",
+        ],
+        examples: [
+          { es: "Elle leur a proposé de venir dîner.", en: "She suggested they come to dinner." },
+          { es: "On l'a aidé à remplir le formulaire.", en: "We helped him fill in the form." },
+          { es: "Je les ai encouragés à postuler.", en: "I encouraged them to apply." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Je lui ai demandé de patienter.", "Je l'ai demandé de patienter.", "Je lui ai demandé à patienter.", "Je l'ai demandé à patienter."],
+            correctIndex: 0,
+            explanation: "\"Demander à quelqu'un de faire\": indirect person (lui) + de.",
+          },
+        ],
+      },
     ],
     exercises: [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "We're aiming to reduce costs.",
+        prompt: "Correct the sentence.",
+        source: "Nous cherchons de réduire les coûts.",
         answer: "Nous cherchons à réduire les coûts.",
-        altAnswers: ["On cherche à réduire les coûts.", "Nous cherchons à réduire nos coûts.", "On cherche à réduire nos coûts.", "Nous visons à réduire les coûts."],
-        explanation: "\"Chercher à\" + infinitive = aim to.",
+        altAnswers: ["On cherche à réduire les coûts.", "Nous cherchons à réduire nos coûts."],
+        explanation: "Aiming to is \"chercher à\" + infinitive; \"chercher de\" doesn't exist.",
       },
       {
         type: "translate",
@@ -1581,13 +2087,6 @@ export const FR_C1_U09: Lesson[] = [
         explanation: "\"Convaincre quelqu'un de\": direct person (l'), then de.",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Je lui ai demandé de patienter.", "Je l'ai demandé de patienter.", "Je lui ai demandé à patienter.", "Je l'ai demandé à patienter."],
-        correctIndex: 0,
-        explanation: "\"Demander à quelqu'un de faire\": indirect person (lui) + de.",
-      },
-      {
         type: "matching",
         instructions: "Match each verb to its pattern.",
         pairs: [
@@ -1617,6 +2116,39 @@ export const FR_C1_U09: Lesson[] = [
         prompt: "Say it in French: The doctor advised her to rest.",
         explanation: "\"Conseiller à quelqu'un de\" → \"lui a conseillé de\".",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Je l'ai conseillé de partir tôt.",
+        answer: "Je lui ai conseillé de partir tôt.",
+        explanation: "\"Conseiller à quelqu'un de\": the person is indirect, so \"lui\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Je lui ai aidé à porter les cartons.",
+        answer: "Je l'ai aidé à porter les cartons.",
+        altAnswers: ["Je l'ai aidée à porter les cartons."],
+        explanation: "\"Aider quelqu'un à\": the person is a direct object, so \"l'\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the people to a pronoun.",
+        source: "J'ai remercié mes voisins de leur aide.",
+        answer: "Je les ai remerciés de leur aide.",
+        explanation: "\"Remercier quelqu'un de\": direct person, so \"les\", and the participle agrees: \"remerciés\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Make it negative: negate the infinitive.",
+        source: "Elle a décidé de prendre la voiture.",
+        answer: "Elle a décidé de ne pas prendre la voiture.",
+        explanation: "A negated infinitive has both parts in front of it: \"de ne pas prendre\".",
+      },
     ],
   },
   {
@@ -1631,16 +2163,12 @@ export const FR_C1_U09: Lesson[] = [
         heading: "À ce que + subjunctive",
         body: [
           "A verb built with \"à\" can't be followed directly by \"que\": the preposition needs something to hold on to. French inserts \"ce\": \"s'attendre à ce que\", \"tenir à ce que\", \"veiller à ce que\" (to make sure that), \"s'opposer à ce que\", \"consentir à ce que\", \"être habitué à ce que\", \"faire attention à ce que\". \"*Je m'attends qu'il vienne\" is a mistake natives notice at once.",
-          "These verbs all express expectation, will, care or opposition, so the clause is in the subjunctive: \"je m'attends à ce qu'il pleuve\", \"je tiens à ce que tout soit prêt\", \"veillez à ce que la porte soit fermée\".",
-          "With the same subject, go back to the infinitive: \"je tiens à venir\" (I'm the one coming) but \"je tiens à ce que tu viennes\" (you're coming). This is the same rule as \"je veux partir / je veux que tu partes\".",
         ],
         examples: [
           { es: "Je m'attends à ce que les prix augmentent encore cet hiver.", en: "I expect prices to go up again this winter." },
           { es: "Le directeur tient à ce que tout le monde soit présent.", en: "The director insists that everyone be present." },
           { es: "Veillez à ce que les fenêtres soient fermées avant de partir.", en: "Make sure the windows are closed before you leave." },
           { es: "Les riverains s'opposent à ce qu'on construise une tour ici.", en: "Local residents are opposed to a tower being built here." },
-          { es: "Mon père a fini par consentir à ce que je parte un an en Australie.", en: "My father eventually agreed to my going to Australia for a year." },
-          { es: "Elle n'est pas habituée à ce qu'on lui dise non.", en: "She isn't used to being told no." },
         ],
         checkpoint: [
           {
@@ -1660,6 +2188,20 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Veillez à ce que",
             explanation: "\"Veiller à ce que\" + subjunctive: the standard formula in instructions and notices.",
           },
+        ],
+      },
+      {
+        heading: "Same subject: back to the infinitive",
+        body: [
+          "These verbs all express expectation, will, care or opposition, so the clause is in the subjunctive: \"je m'attends à ce qu'il pleuve\", \"je tiens à ce que tout soit prêt\", \"veillez à ce que la porte soit fermée\".",
+          "With the same subject, go back to the infinitive: \"je tiens à venir\" (I'm the one coming) but \"je tiens à ce que tu viennes\" (you're coming). This is the same rule as \"je veux partir / je veux que tu partes\".",
+        ],
+        examples: [
+          { es: "Mon père a fini par consentir à ce que je parte un an en Australie.", en: "My father eventually agreed to my going to Australia for a year." },
+          { es: "Elle n'est pas habituée à ce qu'on lui dise non.", en: "She isn't used to being told no." },
+          { es: "Je tiens à partir tôt, mais je tiens à ce que tu restes.", en: "I want to leave early, but I insist that you stay." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "How do you say: I insist on coming.",
@@ -1670,20 +2212,44 @@ export const FR_C1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "De ce que: complaints, surprise and taking advantage",
+        heading: "De ce que: formal and rare",
         body: [
           "Verbs built with \"de\" do the same thing: \"se plaindre de ce que\", \"s'étonner de ce que\", \"profiter de ce que\", \"se réjouir de ce que\". In modern French this construction is formal and fairly rare; in speech, people simply use \"que\" after emotion verbs (\"je me réjouis que tu viennes\") or rephrase.",
+        ],
+        examples: [
+          { es: "On s'étonne de ce que personne n'ait réagi plus tôt.", en: "It's surprising that nobody reacted sooner." },
+          { es: "Les voisins se plaignent que la fête ait duré jusqu'à trois heures.", en: "The neighbours are complaining that the party went on until three." },
+          { es: "Je me réjouis que tu viennes cet été.", en: "I'm delighted you're coming this summer." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Chatting with a friend, which is the most natural way to say: I'm glad you're here.",
+            options: ["Je suis content que tu sois là.", "Je me réjouis de ce que tu es là.", "Je suis content de ce que tu sois là.", "Je suis content que tu es là."],
+            correctIndex: 0,
+            explanation: "In everyday French an emotion verb takes plain \"que\" + subjunctive. \"De ce que\" belongs to formal writing, and \"que tu es\" breaks the mood rule.",
+          },
+        ],
+      },
+      {
+        heading: "Which mood after de ce que?",
+        body: [
           "The mood is interesting. \"Se plaindre de ce que\" often takes the indicative, because the complaint presents a real fact: \"les usagers se plaignent de ce que le bus est toujours en retard\". \"Profiter de ce que\" always takes the indicative (a fact you take advantage of): \"j'ai profité de ce que les enfants dormaient pour lire\". \"S'étonner de ce que\" accepts both.",
-          "For the DALF, recognise these and use one or two in formal writing; in everyday French, \"se plaindre que\" + subjunctive or indicative and \"profiter du fait que\" are perfectly correct alternatives.",
         ],
         examples: [
           { es: "Les usagers se plaignent de ce que les trains sont souvent supprimés.", en: "Passengers complain that trains are often cancelled." },
           { es: "J'ai profité de ce que la boutique était vide pour essayer plusieurs robes.", en: "I took advantage of the shop being empty to try on several dresses." },
-          { es: "On s'étonne de ce que personne n'ait réagi plus tôt.", en: "It's surprising that nobody reacted sooner." },
-          { es: "Les voisins se plaignent que la fête ait duré jusqu'à trois heures.", en: "The neighbours are complaining that the party went on until three." },
-          { es: "Il a profité du fait que j'étais absent pour changer le planning.", en: "He took advantage of my being away to change the schedule." },
+          { es: "Il a profité de ce qu'elle était au téléphone pour filer.", en: "He took advantage of her being on the phone to slip away." },
         ],
         checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Ils se plaignent de ce que le loyer est trop cher.",
+            question: "What does it mean?",
+            options: ["They're complaining that the rent is too high.", "They're complaining to the landlord about the rent.", "They're pleased the rent is cheaper.", "They complain about everything except the rent."],
+            correctIndex: 0,
+            explanation: "\"Se plaindre de ce que\" introduces the content of the complaint, here in the indicative.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1693,29 +2259,60 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["J'ai profité du fait que la pluie s'était arrêtée pour sortir.", "J'ai profité de ce qu'il ne pleuvait plus pour sortir.", "J'ai profité du fait qu'il ne pleuvait plus pour sortir."],
             explanation: "\"Profiter de ce que\" + indicative: a real situation you made use of.",
           },
+        ],
+      },
+      {
+        heading: "Everyday alternatives",
+        body: [
+          "For the DALF, recognise these and use one or two in formal writing; in everyday French, \"se plaindre que\" + subjunctive or indicative and \"profiter du fait que\" are perfectly correct alternatives.",
+        ],
+        examples: [
+          { es: "Il a profité du fait que j'étais absent pour changer le planning.", en: "He took advantage of my being away to change the schedule." },
+          { es: "Les clients se plaignent que le service soit lent.", en: "Customers complain that the service is slow." },
+          { es: "J'ai profité du fait qu'il faisait beau pour repeindre la façade.", en: "I took advantage of the fine weather to repaint the front." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "Ils se plaignent de ce que le loyer est trop cher.",
-            question: "What does it mean?",
-            options: ["They're complaining that the rent is too high.", "They're complaining to the landlord about the rent.", "They're pleased the rent is cheaper.", "They complain about everything except the rent."],
-            correctIndex: 0,
-            explanation: "\"Se plaindre de ce que\" introduces the content of the complaint, here in the indicative.",
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "I took advantage of [the fact that] the shop was empty.",
+            sentence: "J'ai profité ___ le magasin était vide.",
+            answer: "du fait que",
+            altAnswers: ["de ce que"],
+            explanation: "\"Profiter du fait que\" + indicative is the everyday alternative to formal \"profiter de ce que\".",
           },
         ],
       },
       {
-        heading: "Choosing between infinitive, à ce que and a noun",
+        heading: "Noun, infinitive or à ce que",
         body: [
           "At the Advanced level you have three ways to complete these verbs, and good writers switch between them for style. A noun: \"je m'attends à une hausse des prix\". An infinitive (same subject): \"je m'attends à payer plus\". A clause with \"à ce que\" (different subject): \"je m'attends à ce que les prix augmentent\".",
           "The noun version is often the most elegant in writing (remember Unit 3 on nominalization): \"veillez à la fermeture des fenêtres\", \"les habitants s'opposent à la construction de la tour\". The clause version is clearer when the subject matters.",
-          "Pronouns sum up a whole clause too: \"Tu t'attends à ce qu'il accepte ? Oui, je m'y attends.\" \"Il tient à ce qu'on vienne ? Oui, il y tient beaucoup.\"",
         ],
         examples: [
           { es: "Les habitants s'opposent à la construction d'une nouvelle autoroute.", en: "Residents are opposed to the building of a new motorway." },
           { es: "Les habitants s'opposent à ce qu'on construise une nouvelle autoroute.", en: "Residents are opposed to a new motorway being built." },
-          { es: "Il démissionne ? Je m'y attendais.", en: "He's resigning? I expected as much." },
           { es: "Veillez au respect des consignes de sécurité.", en: "Make sure the safety instructions are followed." },
+        ],
+        checkpoint: [
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: My mother insists that we come.",
+            words: ["Ma mère", "tient", "à ce", "que", "nous", "venions."],
+            translation: "My mother insists that we come.",
+            explanation: "\"Tenir à ce que\" + subjunctive \"venions\".",
+          },
+        ],
+      },
+      {
+        heading: "One pronoun for a whole clause",
+        body: [
+          "Pronouns sum up a whole clause too: \"Tu t'attends à ce qu'il accepte ? Oui, je m'y attends.\" \"Il tient à ce qu'on vienne ? Oui, il y tient beaucoup.\"",
+        ],
+        examples: [
+          { es: "Il démissionne ? Je m'y attendais.", en: "He's resigning? I expected as much." },
           { es: "Ma mère tient à ce qu'on dîne ensemble le dimanche ; elle y tient beaucoup.", en: "My mother insists we have dinner together on Sundays; it matters a lot to her." },
+          { es: "Tu t'attends à ce qu'il pleuve ? Oui, je m'y attends.", en: "Do you expect it to rain? Yes, I expect so." },
         ],
         checkpoint: [
           {
@@ -1726,13 +2323,6 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Elle démissionne ? Je m'y attendais.",
             altAnswers: ["Elle démissionne ? Je m'en doutais."],
             explanation: "\"Y\" sums up the whole expectation (\"s'attendre à ça\"). \"Je m'en doutais\" is an equally idiomatic alternative.",
-          },
-          {
-            type: "word-order",
-            prompt: "Put the words in order to say: My mother insists that we come.",
-            words: ["Ma mère", "tient", "à ce", "que", "nous", "venions."],
-            translation: "My mother insists that we come.",
-            explanation: "\"Tenir à ce que\" + subjunctive \"venions\".",
           },
         ],
       },
@@ -1833,6 +2423,38 @@ export const FR_C1_U09: Lesson[] = [
         prompt: "Say it in French: I insist that everything be ready at eight.",
         explanation: "\"Tenir à ce que\" + subjunctive \"soit\".",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Je m'attends qu'elle refuse.",
+        answer: "Je m'attends à ce qu'elle refuse.",
+        explanation: "A verb built with \"à\" can't take \"que\" directly: French inserts \"à ce que\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Veillez à ce que les enfants sont attachés.",
+        answer: "Veillez à ce que les enfants soient attachés.",
+        explanation: "\"Veiller à ce que\" expresses care and will, so the clause is in the subjunctive: \"soient\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change it to a noun phrase.",
+        source: "Les habitants s'opposent à ce qu'on ferme l'école.",
+        answer: "Les habitants s'opposent à la fermeture de l'école.",
+        explanation: "The clause becomes a noun (\"la fermeture de\"), and \"à\" + \"la\" stays as it is: the most elegant written version.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the subject of the second verb to tu.",
+        source: "Je tiens à venir.",
+        answer: "Je tiens à ce que tu viennes.",
+        explanation: "With a different subject, the infinitive becomes \"à ce que\" + subjunctive: \"tu viennes\".",
+      },
     ],
   },
   {
@@ -1847,26 +2469,20 @@ export const FR_C1_U09: Lesson[] = [
         heading: "Prepositions that shouldn't be there",
         body: [
           "The first family of errors comes from adding an English preposition to a French verb that is direct. \"*Je cherche pour un stage\" (look for), \"*j'attends pour ta réponse\" (wait for), \"*il a demandé pour l'addition\" (ask for), \"*elle écoute à la radio\" (listen to), \"*on a payé pour les boissons\" (pay for), \"*regarde à ça\" (look at).",
-          "The fix is always to delete the preposition: \"je cherche un stage\", \"j'attends ta réponse\", \"il a demandé l'addition\", \"elle écoute la radio\", \"on a payé les boissons\", \"regarde ça\". Note that \"pour\" after these verbs is not always wrong: \"je l'attends pour dîner\" (I'm waiting for him so we can have dinner) is fine, because \"pour\" there introduces a purpose, not the object.",
-          "Each sentence below is from a learner's email or post. Find the intruder, then write the corrected French.",
         ],
         examples: [
           { es: "Je cherche un stage dans le secteur culturel.", en: "I'm looking for an internship in the cultural sector." },
           { es: "Nous attendons votre confirmation avant de réserver.", en: "We're waiting for your confirmation before booking." },
           { es: "Il a demandé l'addition au serveur.", en: "He asked the waiter for the bill." },
           { es: "Le soir, j'écoute des podcasts sur l'histoire.", en: "In the evening I listen to history podcasts." },
-          { es: "C'est l'entreprise qui paie le déplacement.", en: "The company pays for the trip." },
-          { es: "Je t'attends pour commencer la réunion.", en: "I'm waiting for you so we can start the meeting." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "A learner wrote \"*J'attends pour votre réponse avec impatience.\" Write the correct French for: I'm eagerly waiting for your reply.",
-            source: "I'm eagerly waiting for your reply.",
-            answer: "J'attends votre réponse avec impatience.",
-            altAnswers: ["J'attends ta réponse avec impatience.", "J'attends avec impatience votre réponse.", "J'attends avec impatience ta réponse."],
-            explanation: "\"Attendre\" is direct: delete \"pour\".",
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Elle écoute la radio en cuisinant.", "Elle écoute à la radio en cuisinant.", "Elle écoute pour la radio en cuisinant.", "Elle écoute de la radio en cuisinant."],
+            correctIndex: 0,
+            explanation: "\"Écouter quelque chose\": direct object.",
           },
           {
             type: "fill-blank",
@@ -1876,12 +2492,28 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Je cherche",
             explanation: "\"Chercher\" = look for. \"Chercher pour\" is pure English interference.",
           },
+        ],
+      },
+      {
+        heading: "The fix: delete the preposition",
+        body: [
+          "The fix is always to delete the preposition: \"je cherche un stage\", \"j'attends ta réponse\", \"il a demandé l'addition\", \"elle écoute la radio\", \"on a payé les boissons\", \"regarde ça\". Note that \"pour\" after these verbs is not always wrong: \"je l'attends pour dîner\" (I'm waiting for him so we can have dinner) is fine, because \"pour\" there introduces a purpose, not the object.",
+          "Each sentence below is from a learner's email or post. Find the intruder, then write the corrected French.",
+        ],
+        examples: [
+          { es: "C'est l'entreprise qui paie le déplacement.", en: "The company pays for the trip." },
+          { es: "Je t'attends pour commencer la réunion.", en: "I'm waiting for you so we can start the meeting." },
+          { es: "Regarde ça, c'est incroyable !", en: "Look at that, it's incredible!" },
+        ],
+        checkpoint: [
           {
-            type: "multiple-choice",
-            question: "Which sentence is correct?",
-            options: ["Elle écoute la radio en cuisinant.", "Elle écoute à la radio en cuisinant.", "Elle écoute pour la radio en cuisinant.", "Elle écoute de la radio en cuisinant."],
-            correctIndex: 0,
-            explanation: "\"Écouter quelque chose\": direct object.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "J'attends pour votre réponse avec impatience.",
+            answer: "J'attends votre réponse avec impatience.",
+            altAnswers: ["J'attends ta réponse avec impatience.", "J'attends avec impatience votre réponse.", "J'attends avec impatience ta réponse."],
+            explanation: "\"Attendre\" is direct: delete \"pour\".",
           },
         ],
       },
@@ -1889,26 +2521,14 @@ export const FR_C1_U09: Lesson[] = [
         heading: "The wrong preposition",
         body: [
           "The second family uses a preposition, but the English one. \"*Participer dans\" → \"participer à\" (take part in). \"*Dépendre sur\" → \"dépendre de\". \"*Être intéressé dans\" → \"s'intéresser à\" / \"être intéressé par\". \"*Rêver sur\" or \"*rêver à propos\" → \"rêver de\". \"*Se concentrer dans\" → \"se concentrer sur\". \"*Consister de\" → \"consister en\" (+ noun) or \"consister à\" (+ infinitive). \"Compter sur\" is actually correct (to rely on), a rare case where French and English match.",
-          "These errors are hard to spot because the sentence still sounds 'prepositional': there is a word in the slot, just not the right one. The cure is the same as in the rest of this unit: learn \"participer à\", \"dépendre de\", \"se concentrer sur\" as whole units.",
-          "The relative pronoun follows the preposition: \"le projet auquel j'ai participé\" (not \"*dans lequel\"), \"les facteurs dont dépend le résultat\".",
         ],
         examples: [
-          { es: "J'ai participé à plusieurs projets européens.", en: "I took part in several European projects." },
           { es: "Le prix dépend de la saison.", en: "The price depends on the season." },
-          { es: "Je m'intéresse beaucoup à la photographie.", en: "I'm very interested in photography." },
           { es: "Depuis l'enfance, elle rêve de voir la Patagonie.", en: "Since childhood she's dreamed of seeing Patagonia." },
           { es: "Concentre-toi sur l'essentiel.", en: "Focus on what matters." },
           { es: "Le dossier consiste en trois parties.", en: "The file consists of three parts." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "A CV says \"*J'ai participé dans l'organisation du festival.\" Write the correct French for: I took part in organising the festival.",
-            source: "I took part in organising the festival.",
-            answer: "J'ai participé à l'organisation du festival.",
-            explanation: "\"Participer à\": take part in. \"Dans\" is borrowed from English 'in'.",
-          },
           {
             type: "translate",
             direction: "en-es",
@@ -1918,33 +2538,50 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Cela dépend du temps.", "Ça dépend de la météo.", "Cela dépend de la météo."],
             explanation: "\"Dépendre de\" + le temps = \"du temps\". Never \"sur\".",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "J'ai participé dans l'organisation du festival.",
+            answer: "J'ai participé à l'organisation du festival.",
+            explanation: "\"Participer à\": take part in. \"Dans\" is borrowed from English 'in'.",
+          },
         ],
       },
       {
-        heading: "Missing prepositions and the wrong object",
+        heading: "Learn the verb as a unit, relatives included",
+        body: [
+          "These errors are hard to spot because the sentence still sounds 'prepositional': there is a word in the slot, just not the right one. The cure is the same as in the rest of this unit: learn \"participer à\", \"dépendre de\", \"se concentrer sur\" as whole units.",
+          "The relative pronoun follows the preposition: \"le projet auquel j'ai participé\" (not \"*dans lequel\"), \"les facteurs dont dépend le résultat\".",
+        ],
+        examples: [
+          { es: "J'ai participé à plusieurs projets européens.", en: "I took part in several European projects." },
+          { es: "Je m'intéresse beaucoup à la photographie.", en: "I'm very interested in photography." },
+          { es: "Le projet auquel j'ai participé a été primé.", en: "The project I took part in won an award." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "These are the factors [on which] the result [depends].",
+            sentence: "Voici les facteurs ___ le résultat.",
+            answer: "dont dépend",
+            explanation: "\"Dépendre de\" → \"dont\"; after \"dont\" the subject can follow the verb in formal style.",
+          },
+        ],
+      },
+      {
+        heading: "Missing prepositions",
         body: [
           "The third family drops a preposition French needs: \"*entrer la salle\" → \"entrer dans la salle\", \"*téléphoner quelqu'un\" → \"téléphoner à quelqu'un\", \"*répondre la question\" → \"répondre à la question\", \"*obéir les règles\" → \"obéir aux règles\", \"*assister la conférence\" → \"assister à la conférence\".",
-          "Then there are the pronoun errors that follow from the wrong pattern: \"*je l'ai téléphoné\" → \"je lui ai téléphoné\"; \"*je l'ai demandé de venir\" → \"je lui ai demandé de venir\"; \"*je lui ai aidé\" → \"je l'ai aidé\". If you get the preposition right in your head, the pronoun follows automatically.",
-          "A good proofreading habit for your DALF essay: underline every verb + complement and ask 'direct, à or de?'. It takes two minutes and removes the commonest class of error at this level.",
         ],
         examples: [
           { es: "Le directeur est entré dans la salle sans dire un mot.", en: "The director entered the room without a word." },
           { es: "Tu as téléphoné à l'assurance ?", en: "Did you phone the insurance company?" },
           { es: "Répondez à toutes les questions en français.", en: "Answer all the questions in French." },
-          { es: "Je lui ai téléphoné trois fois hier.", en: "I phoned her three times yesterday." },
-          { es: "Ma voisine m'a aidé à monter le canapé.", en: "My neighbour helped me carry the sofa upstairs." },
           { es: "Tous les participants doivent obéir aux consignes de sécurité.", en: "All participants must follow the safety instructions." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "A learner wrote \"*Je l'ai téléphoné hier.\" Write the correct French for: I phoned him yesterday.",
-            source: "I phoned him yesterday.",
-            answer: "Je lui ai téléphoné hier.",
-            altAnswers: ["Je l'ai appelé hier.", "Hier, je lui ai téléphoné.", "Hier, je l'ai appelé."],
-            explanation: "\"Téléphoner à\" → lui. \"Appeler\", its synonym, is direct (\"je l'ai appelé\").",
-          },
           {
             type: "listen-choose",
             audio: "Il est entré dans le bureau.",
@@ -1955,13 +2592,36 @@ export const FR_C1_U09: Lesson[] = [
           },
         ],
       },
+      {
+        heading: "The wrong pronoun follows",
+        body: [
+          "Then there are the pronoun errors that follow from the wrong pattern: \"*je l'ai téléphoné\" → \"je lui ai téléphoné\"; \"*je l'ai demandé de venir\" → \"je lui ai demandé de venir\"; \"*je lui ai aidé\" → \"je l'ai aidé\". If you get the preposition right in your head, the pronoun follows automatically.",
+          "A good proofreading habit for your DALF essay: underline every verb + complement and ask 'direct, à or de?'. It takes two minutes and removes the commonest class of error at this level.",
+        ],
+        examples: [
+          { es: "Je lui ai téléphoné trois fois hier.", en: "I phoned her three times yesterday." },
+          { es: "Ma voisine m'a aidé à monter le canapé.", en: "My neighbour helped me carry the sofa upstairs." },
+          { es: "Je lui ai demandé de venir plus tôt.", en: "I asked him to come earlier." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Je l'ai téléphoné hier.",
+            answer: "Je lui ai téléphoné hier.",
+            altAnswers: ["Je l'ai appelé hier.", "Hier, je lui ai téléphoné.", "Hier, je l'ai appelé."],
+            explanation: "\"Téléphoner à\" → lui. \"Appeler\", its synonym, is direct (\"je l'ai appelé\").",
+          },
+        ],
+      },
     ],
     exercises: [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Il a demandé pour un délai.\" Write the correct French for: He asked for an extension.",
-        source: "He asked for an extension.",
+        prompt: "Correct the sentence.",
+        source: "Il a demandé pour un délai.",
         answer: "Il a demandé un délai.",
         altAnswers: ["Il a demandé un délai supplémentaire.", "Il a demandé une prolongation."],
         explanation: "\"Demander quelque chose\": no \"pour\".",
@@ -1969,8 +2629,8 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Nous avons payé pour le repas.\" Write the correct French for: We paid for the meal.",
-        source: "We paid for the meal.",
+        prompt: "Correct the sentence.",
+        source: "Nous avons payé pour le repas.",
         answer: "Nous avons payé le repas.",
         altAnswers: ["On a payé le repas."],
         explanation: "\"Payer quelque chose\" is direct.",
@@ -1978,8 +2638,8 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Je suis intéressé dans ce poste.\" Write the correct French for: I'm interested in this position.",
-        source: "I'm interested in this position.",
+        prompt: "Correct the sentence.",
+        source: "Je suis intéressé dans ce poste.",
         answer: "Ce poste m'intéresse.",
         altAnswers: ["Je suis intéressé par ce poste.", "Je suis intéressée par ce poste.", "Je m'intéresse à ce poste."],
         explanation: "The most natural French makes the job the subject: \"ce poste m'intéresse\". Otherwise \"intéressé par\" or \"s'intéresser à\", never \"dans\".",
@@ -1987,8 +2647,8 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Elle a répondu la lettre.\" Write the correct French for: She answered the letter.",
-        source: "She answered the letter.",
+        prompt: "Correct the sentence.",
+        source: "Elle a répondu la lettre.",
         answer: "Elle a répondu à la lettre.",
         explanation: "\"Répondre à\": the à is compulsory.",
       },
@@ -2003,8 +2663,8 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Je rêve sur une maison à la campagne.\" Write the correct French for: I dream of a house in the country.",
-        source: "I dream of a house in the country.",
+        prompt: "Correct the sentence.",
+        source: "Je rêve sur une maison à la campagne.",
         answer: "Je rêve d'une maison à la campagne.",
         explanation: "\"Rêver de\" for a wish.",
       },
@@ -2033,22 +2693,38 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*L'examen consiste de trois épreuves.\" Write the correct French for: The exam consists of three papers.",
-        source: "The exam consists of three papers.",
+        prompt: "Correct the sentence.",
+        source: "L'examen consiste de trois épreuves.",
         answer: "L'examen consiste en trois épreuves.",
         altAnswers: ["L'examen comporte trois épreuves.", "L'examen se compose de trois épreuves.", "L'examen comprend trois épreuves."],
         explanation: "\"Consister en\" + noun (\"consister à\" + infinitive). \"Se composer de\" and \"comporter\" are good alternatives.",
       },
       {
         type: "dictation",
-        audio: "J'ai participé à l'organisation du festival.",
-        explanation: "\"Participer à\" + \"l'organisation\".",
+        audio: "Elle a participé à la rédaction du rapport.",
+        explanation: "\"Participer à\" + \"la rédaction\": the à is compulsory.",
       },
       {
         type: "speak",
         text: "Je cherche un stage dans l'édition.",
         prompt: "Say it in French: I'm looking for an internship in publishing.",
         explanation: "\"Chercher\" is direct.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "J'ai téléphoné à mes cousins hier soir.",
+        answer: "Je leur ai téléphoné hier soir.",
+        explanation: "\"Téléphoner à\" takes an indirect person: \"leur\" before the auxiliary.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the complement to a pronoun.",
+        source: "Elle a aidé sa voisine à déménager.",
+        answer: "Elle l'a aidée à déménager.",
+        explanation: "\"Aider quelqu'un à\": the person is direct (\"l'\"), so the participle agrees with it: \"aidée\".",
       },
     ],
   },
@@ -2061,21 +2737,44 @@ export const FR_C1_U09: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "De-verbs → dont, ce dont",
+        heading: "De-verbs → dont",
         body: [
           "Every relative clause starts from the verb's construction. Take \"j'ai besoin de cet outil\" and make 'the tool I need': the \"de\" + antecedent becomes \"dont\": \"l'outil dont j'ai besoin\". English strands its preposition at the end ('the tool I need', 'the colleague I'm wary of'); French must bring it to the front, and with de it fuses into dont.",
-          "When there is no noun antecedent ('what I need'), use \"ce dont\": \"ce dont j'ai besoin, c'est de calme\". Learners often write \"*ce que j'ai besoin\", forgetting that avoir besoin takes de.",
-          "Transformation steps: (1) find the verb and its preposition; (2) replace de + noun with dont; (3) put dont right after the antecedent; (4) keep normal word order after dont: \"le collègue dont je me méfie\".",
         ],
         examples: [
           { es: "Voici l'outil dont je me sers pour mes montages vidéo.", en: "Here's the tool I use for my video editing." },
           { es: "C'est un voyage dont je me souviendrai toute ma vie.", en: "It's a trip I'll remember all my life." },
-          { es: "Ce dont nous avons besoin, c'est d'un vrai plan.", en: "What we need is a real plan." },
           { es: "Le fournisseur dont nous dépendons a augmenté ses prix.", en: "The supplier we depend on has put up its prices." },
-          { es: "Je ne sais pas ce dont il parle.", en: "I don't know what he's talking about." },
-          { es: "C'est la seule personne dont je ne me méfie pas.", en: "She's the only person I'm not wary of." },
         ],
         checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "It's the film [everyone is talking about].",
+            sentence: "C'est le film ___.",
+            answer: "dont tout le monde parle",
+            explanation: "\"Parler de\" → \"dont\", with normal subject-verb order after it.",
+          },
+        ],
+      },
+      {
+        heading: "No antecedent: ce dont",
+        body: [
+          "When there is no noun antecedent ('what I need'), use \"ce dont\": \"ce dont j'ai besoin, c'est de calme\". Learners often write \"*ce que j'ai besoin\", forgetting that avoir besoin takes de.",
+        ],
+        examples: [
+          { es: "Ce dont nous avons besoin, c'est d'un vrai plan.", en: "What we need is a real plan." },
+          { es: "Je ne sais pas ce dont il parle.", en: "I don't know what he's talking about." },
+          { es: "Ce dont il se plaint, c'est du bruit.", en: "What he complains about is the noise." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say: I don't know what you're afraid of.",
+            options: ["Je ne sais pas ce dont tu as peur.", "Je ne sais pas ce que tu as peur.", "Je ne sais pas de quoi que tu as peur.", "Je ne sais pas ce qui tu as peur."],
+            correctIndex: 0,
+            explanation: "\"Avoir peur de\" → \"ce dont\". (\"Je ne sais pas de quoi tu as peur\" is also correct, as an indirect question.)",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2085,37 +2784,39 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Ce dont j'ai besoin, ce sont des vacances."],
             explanation: "\"Avoir besoin de\" → \"ce dont\". The de comes back after c'est: \"c'est de vacances\".",
           },
+        ],
+      },
+      {
+        heading: "The transformation, step by step",
+        body: [
+          "Transformation steps: (1) find the verb and its preposition; (2) replace de + noun with dont; (3) put dont right after the antecedent; (4) keep normal word order after dont: \"le collègue dont je me méfie\".",
+        ],
+        examples: [
+          { es: "C'est la seule personne dont je ne me méfie pas.", en: "She's the only person I'm not wary of." },
+          { es: "J'ai besoin de ce livre. → Le livre dont j'ai besoin.", en: "I need this book. → The book I need." },
+          { es: "Il se méfie de ce collègue. → Le collègue dont il se méfie.", en: "He distrusts this colleague. → The colleague he distrusts." },
+        ],
+        checkpoint: [
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "It's the film [everyone is talking about].",
-            sentence: "C'est le film ___.",
-            answer: "dont tout le monde parle",
-            explanation: "\"Parler de\" → \"dont\", with normal subject-verb order after it.",
-          },
-          {
-            type: "multiple-choice",
-            question: "How do you say: I don't know what you're afraid of.",
-            options: ["Je ne sais pas ce dont tu as peur.", "Je ne sais pas ce que tu as peur.", "Je ne sais pas de quoi que tu as peur.", "Je ne sais pas ce qui tu as peur."],
-            correctIndex: 0,
-            explanation: "\"Avoir peur de\" → \"ce dont\". (\"Je ne sais pas de quoi tu as peur\" is also correct, as an indirect question.)",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn the two sentences into one with a relative pronoun.",
+            source: "Voici le rapport. Je m'occupe de ce rapport.",
+            answer: "Voici le rapport dont je m'occupe.",
+            explanation: "\"S'occuper de\" + the antecedent becomes \"dont\", right after \"le rapport\", with normal word order after it.",
           },
         ],
       },
       {
-        heading: "À-verbs → auquel, à laquelle, ce à quoi, à qui",
+        heading: "À-verbs → auquel, à laquelle, à qui",
         body: [
           "With an à-verb, the preposition stays visible: \"à + lequel\" for things (\"le projet auquel je travaille\", \"la question à laquelle il n'a pas répondu\", \"les détails auxquels je tiens\"), \"à qui\" for people (\"la personne à qui j'ai parlé\"; \"à laquelle\" is also possible).",
-          "Without an antecedent, use \"ce à quoi\": \"ce à quoi je pense\", \"ce à quoi je tiens le plus\". In a pseudo-cleft the preposition is repeated after c'est: \"Ce à quoi je tiens, c'est à ma liberté\" (in speech often \"c'est ma liberté\").",
-          "Remember the contractions: \"à + lequel = auquel\", \"à + lesquels / lesquelles = auxquels / auxquelles\"; \"à laquelle\" never contracts.",
         ],
         examples: [
           { es: "C'est un projet auquel je travaille depuis deux ans.", en: "It's a project I've been working on for two years." },
           { es: "Voilà la question à laquelle personne n'a su répondre.", en: "That's the question nobody could answer." },
           { es: "Ce sont des valeurs auxquelles je tiens beaucoup.", en: "These are values that matter a lot to me." },
           { es: "La conseillère à qui j'ai parlé était très aimable.", en: "The adviser I spoke to was very friendly." },
-          { es: "Ce à quoi je ne m'attendais pas, c'est sa réaction.", en: "What I wasn't expecting was his reaction." },
-          { es: "Dis-moi ce à quoi tu penses.", en: "Tell me what you're thinking about." },
         ],
         checkpoint: [
           {
@@ -2127,6 +2828,20 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["C'est une question à laquelle je ne sais pas répondre."],
             explanation: "\"Répondre à\" → \"à laquelle\" (feminine antecedent, no contraction).",
           },
+        ],
+      },
+      {
+        heading: "Ce à quoi, and the contractions",
+        body: [
+          "Without an antecedent, use \"ce à quoi\": \"ce à quoi je pense\", \"ce à quoi je tiens le plus\". In a pseudo-cleft the preposition is repeated after c'est: \"Ce à quoi je tiens, c'est à ma liberté\" (in speech often \"c'est ma liberté\").",
+          "Remember the contractions: \"à + lequel = auquel\", \"à + lesquels / lesquelles = auxquels / auxquelles\"; \"à laquelle\" never contracts.",
+        ],
+        examples: [
+          { es: "Ce à quoi je ne m'attendais pas, c'est sa réaction.", en: "What I wasn't expecting was his reaction." },
+          { es: "Dis-moi ce à quoi tu penses.", en: "Tell me what you're thinking about." },
+          { es: "Les règles auxquelles nous obéissons sont strictes.", en: "The rules we obey are strict." },
+        ],
+        checkpoint: [
           {
             type: "word-order",
             prompt: "Put the words in order to say: What matters to me is my family.",
@@ -2137,21 +2852,27 @@ export const FR_C1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Other prepositions: sur qui, avec lequel, parmi lesquels",
+        heading: "Other prepositions move to the front",
         body: [
           "Any other preposition simply moves to the front with \"qui\" (people) or \"lequel\" (things, and people too in formal style): \"compter sur\" → \"la collègue sur qui je compte\" / \"sur laquelle je compte\"; \"travailler avec\" → \"les gens avec qui je travaille\"; \"se fâcher contre\" → \"le voisin contre qui il s'est fâché\".",
           "After \"parmi\" and \"entre\", only \"lesquels / lesquelles\" are possible, even for people: \"les candidats parmi lesquels nous choisirons\".",
-          "Never strand the preposition: \"*la personne que je travaille avec\" is English syntax with French words. And \"*la chose que je pense\" (for the thing I'm thinking about) drops the à entirely; it must be \"la chose à laquelle je pense\".",
         ],
         examples: [
           { es: "C'est une collègue sur qui on peut toujours compter.", en: "She's a colleague you can always count on." },
           { es: "Les gens avec qui je travaille sont formidables.", en: "The people I work with are wonderful." },
           { es: "L'entreprise pour laquelle il travaille vient d'être rachetée.", en: "The company he works for has just been taken over." },
           { es: "Voici les candidats parmi lesquels nous devrons choisir.", en: "Here are the candidates we'll have to choose from." },
-          { es: "C'est le principe sur lequel repose tout notre système.", en: "It's the principle on which our whole system rests." },
           { es: "Le voisin contre qui il s'est emporté a porté plainte.", en: "The neighbour he lost his temper with has filed a complaint." },
         ],
         checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "C'est quelqu'un sur qui on peut compter.",
+            question: "What does it mean?",
+            options: ["He's someone you can count on.", "He's someone who counts on us.", "He's someone we counted.", "He's someone who can count."],
+            correctIndex: 0,
+            explanation: "\"Compter sur\" → \"sur qui\".",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2161,13 +2882,25 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Les personnes avec qui je vis sont étudiantes.", "Les gens avec qui j'habite sont étudiants.", "Les personnes avec qui j'habite sont étudiantes.", "Les gens avec lesquels je vis sont étudiants."],
             explanation: "No stranding: \"avec qui\" goes to the front.",
           },
+        ],
+      },
+      {
+        heading: "Never strand the preposition",
+        body: [
+          "Never strand the preposition: \"*la personne que je travaille avec\" is English syntax with French words. And \"*la chose que je pense\" (for the thing I'm thinking about) drops the à entirely; it must be \"la chose à laquelle je pense\".",
+        ],
+        examples: [
+          { es: "C'est le principe sur lequel repose tout notre système.", en: "It's the principle on which our whole system rests." },
+          { es: "La personne avec qui je travaille s'appelle Sarah.", en: "The person I work with is called Sarah." },
+          { es: "La chose à laquelle je pense, c'est ton anniversaire.", en: "The thing I'm thinking about is your birthday." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "C'est quelqu'un sur qui on peut compter.",
-            question: "What does it mean?",
-            options: ["He's someone you can count on.", "He's someone who counts on us.", "He's someone we counted.", "He's someone who can count."],
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["C'est la personne avec qui je travaille.", "C'est la personne que je travaille avec.", "C'est la personne qui je travaille avec.", "C'est la personne dont je travaille avec."],
             correctIndex: 0,
-            explanation: "\"Compter sur\" → \"sur qui\".",
+            explanation: "French never strands a preposition: \"avec qui\" comes first.",
           },
         ],
       },
@@ -2194,10 +2927,10 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The conference I attended was excellent.",
+        prompt: "Turn the two sentences into one with a relative pronoun.",
+        source: "La conférence était excellente. J'ai assisté à cette conférence.",
         answer: "La conférence à laquelle j'ai assisté était excellente.",
-        explanation: "\"Assister à\" → \"à laquelle\".",
+        explanation: "\"Assister à\" → \"à laquelle\" (feminine antecedent), placed right after \"la conférence\".",
       },
       {
         type: "fill-blank",
@@ -2210,8 +2943,8 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The company she works for is based in Toulouse.",
+        prompt: "Correct the sentence.",
+        source: "L'entreprise qu'elle travaille pour est basée à Toulouse.",
         answer: "L'entreprise pour laquelle elle travaille est basée à Toulouse.",
         altAnswers: ["La société pour laquelle elle travaille est basée à Toulouse.", "L'entreprise pour laquelle elle travaille se trouve à Toulouse.", "L'entreprise pour laquelle elle travaille est installée à Toulouse."],
         explanation: "\"Travailler pour\" → \"pour laquelle\", never stranded.",
@@ -2233,13 +2966,6 @@ export const FR_C1_U09: Lesson[] = [
         answer: "Ce à quoi je pense, c'est au budget.",
         altAnswers: ["Ce à quoi je pense, c'est le budget."],
         explanation: "\"Penser à\" → \"ce à quoi\"; the à is repeated after c'est in careful French.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["C'est la personne avec qui je travaille.", "C'est la personne que je travaille avec.", "C'est la personne qui je travaille avec.", "C'est la personne dont je travaille avec."],
-        correctIndex: 0,
-        explanation: "French never strands a preposition: \"avec qui\" comes first.",
       },
       {
         type: "matching",
@@ -2271,6 +2997,23 @@ export const FR_C1_U09: Lesson[] = [
         prompt: "Say it in French: What we need is time.",
         explanation: "\"Ce dont\" + \"c'est de\": the de reappears.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "C'est exactement ce que j'ai besoin.",
+        answer: "C'est exactement ce dont j'ai besoin.",
+        explanation: "\"Avoir besoin de\" needs \"ce dont\"; \"ce que\" is only for direct verbs.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn the two sentences into one with a relative pronoun.",
+        source: "Voici mon collègue. Je compte beaucoup sur lui.",
+        answer: "Voici mon collègue sur qui je compte beaucoup.",
+        altAnswers: ["Voici mon collègue, sur qui je compte beaucoup.", "Voici mon collègue sur lequel je compte beaucoup."],
+        explanation: "\"Compter sur\": the preposition moves to the front with \"qui\" for a person.",
+      },
     ],
   },
   {
@@ -2282,20 +3025,14 @@ export const FR_C1_U09: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "Frozen en: s'en aller, s'en sortir, s'en tenir à, s'en prendre à",
+        heading: "Frozen en: s'en aller, s'en sortir",
         body: [
-          "In a set of very frequent idioms, \"en\" or \"y\" no longer replaces anything: it is part of the verb, and the meaning cannot be guessed from the parts. \"S'en aller\" is to leave, to go away (\"je m'en vais\", \"va-t'en !\"). \"S'en sortir\" is to manage, to cope, to pull through (\"tu t'en sors avec ce dossier ?\"). \"S'en tenir à\" is to stick to, to go no further than (\"tenons-nous-en aux faits\"). \"S'en prendre à\" is to lash out at, to blame, to attack (\"ne t'en prends pas à moi, je n'y suis pour rien\").",
-          "The pronouns always come in the order reflexive + en: \"je m'en vais\", \"elle s'en est sortie\", \"ils s'en sont pris au gouvernement\". In the passé composé these verbs take \"être\", and the participle agrees with the subject: \"elles s'en sont bien sorties\".",
-          "The affirmative imperative is the tricky bit: \"va-t'en\" (te → t' before en), \"allons-nous-en\", \"allez-vous-en\", \"tenez-vous-en là\". In the negative, normal order returns: \"ne t'en va pas\", \"ne t'en prends pas à lui\".",
+          "In a set of very frequent idioms, \"en\" or \"y\" no longer replaces anything: it is part of the verb, and the meaning cannot be guessed from the parts. \"S'en aller\" is to leave, to go away (\"je m'en vais\", \"va-t'en !\"). \"S'en sortir\" is to manage, to cope, to pull through (\"tu t'en sors avec ce dossier ?\").",
         ],
         examples: [
           { es: "Il est tard, je m'en vais.", en: "It's late, I'm off." },
-          { es: "Va-t'en, je ne veux plus te voir !", en: "Go away, I don't want to see you any more!" },
           { es: "Avec trois enfants et un seul salaire, ils s'en sortent difficilement.", en: "With three children and one salary, they're struggling to get by." },
           { es: "Elle s'en est très bien sortie à l'oral.", en: "She did very well in the oral exam." },
-          { es: "Tenons-nous-en aux faits, s'il vous plaît.", en: "Let's stick to the facts, please." },
-          { es: "Quand il perd, il s'en prend toujours à l'arbitre.", en: "When he loses, he always takes it out on the referee." },
-          { es: "Ne t'en prends pas à moi, je n'y suis pour rien !", en: "Don't take it out on me, it's not my fault!" },
         ],
         checkpoint: [
           {
@@ -2307,14 +3044,20 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Est-ce que tu t'en sors ?", "Tu t'en sors bien ?", "Ça va, tu t'en sors ?"],
             explanation: "\"S'en sortir\" = to cope, to manage. Frozen en.",
           },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "[Let's stick to] the agenda.",
-            sentence: "___ à l'ordre du jour.",
-            answer: "Tenons-nous-en",
-            explanation: "Affirmative imperative of \"s'en tenir à\": verb-nous-en, with hyphens.",
-          },
+        ],
+      },
+      {
+        heading: "S'en tenir à, s'en prendre à, and the word order",
+        body: [
+          "\"S'en tenir à\" is to stick to, to go no further than (\"tenons-nous-en aux faits\"). \"S'en prendre à\" is to lash out at, to blame, to attack (\"ne t'en prends pas à moi, je n'y suis pour rien\").",
+          "The pronouns always come in the order reflexive + en: \"je m'en vais\", \"elle s'en est sortie\", \"ils s'en sont pris au gouvernement\". In the passé composé these verbs take \"être\", and the participle agrees with the subject: \"elles s'en sont bien sorties\".",
+        ],
+        examples: [
+          { es: "Tenons-nous-en aux faits, s'il vous plaît.", en: "Let's stick to the facts, please." },
+          { es: "Quand il perd, il s'en prend toujours à l'arbitre.", en: "When he loses, he always takes it out on the referee." },
+          { es: "Ne t'en prends pas à moi, je n'y suis pour rien !", en: "Don't take it out on me, it's not my fault!" },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "What does \"Il s'en est pris à sa sœur\" mean?",
@@ -2325,21 +3068,45 @@ export const FR_C1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "En vouloir à quelqu'un, s'en vouloir",
+        heading: "Frozen en in the imperative",
+        body: [
+          "The affirmative imperative is the tricky bit: \"va-t'en\" (te → t' before en), \"allons-nous-en\", \"allez-vous-en\", \"tenez-vous-en là\". In the negative, normal order returns: \"ne t'en va pas\", \"ne t'en prends pas à lui\".",
+        ],
+        examples: [
+          { es: "Va-t'en, je ne veux plus te voir !", en: "Go away, I don't want to see you any more!" },
+          { es: "Allez-vous-en, c'est privé ici !", en: "Go away, this is private!" },
+          { es: "Ne t'en va pas tout de suite.", en: "Don't leave straight away." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[Let's stick to] the agenda.",
+            sentence: "___ à l'ordre du jour.",
+            answer: "Tenons-nous-en",
+            explanation: "Affirmative imperative of \"s'en tenir à\": verb-nous-en, with hyphens.",
+          },
+        ],
+      },
+      {
+        heading: "En vouloir à quelqu'un",
         body: [
           "\"En vouloir à quelqu'un\" means to hold something against someone, to be angry with them: \"tu m'en veux ?\" (are you angry with me?), \"je ne t'en veux pas\" (I don't hold it against you). The reason comes with \"de\": \"il en veut à son frère de lui avoir menti\".",
-          "The reflexive \"s'en vouloir\" is to blame yourself, to feel bad: \"je m'en veux de ne pas l'avoir appelé\" (I feel terrible for not calling him). It's the natural French for 'I kick myself', 'I can't forgive myself'.",
-          "Note the polite negative imperative: \"ne m'en veux pas\" in everyday French; formal \"ne m'en veuillez pas\" uses the special imperative of vouloir (\"veuillez\", as in \"veuillez agréer\").",
         ],
         examples: [
           { es: "Tu m'en veux encore pour samedi ?", en: "Are you still angry with me about Saturday?" },
           { es: "Je ne lui en veux pas, il ne pouvait pas savoir.", en: "I don't hold it against him, he couldn't have known." },
           { es: "Elle en veut à ses parents de l'avoir envoyée en pension.", en: "She resents her parents for sending her to boarding school." },
-          { es: "Je m'en veux de ne pas avoir vu qu'il allait mal.", en: "I feel awful for not seeing he was in a bad way." },
-          { es: "Ne m'en veuillez pas, mais je dois partir plus tôt.", en: "Please don't be offended, but I have to leave early." },
-          { es: "Il s'en est longtemps voulu de cette erreur.", en: "He blamed himself for that mistake for a long time." },
         ],
         checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Je ne t'en veux pas.",
+            question: "What does it mean?",
+            options: ["I'm not angry with you.", "I don't want any from you.", "I don't want you any more.", "I'm not asking you for it."],
+            correctIndex: 0,
+            explanation: "\"Ne pas en vouloir à quelqu'un\" = not to hold it against them.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2349,6 +3116,20 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Est-ce que tu m'en veux ?", "Tu es fâché contre moi ?", "Tu es fâchée contre moi ?", "M'en veux-tu ?"],
             explanation: "\"En vouloir à quelqu'un\": the person is indirect (m'), and en is frozen.",
           },
+        ],
+      },
+      {
+        heading: "S'en vouloir: blaming yourself",
+        body: [
+          "The reflexive \"s'en vouloir\" is to blame yourself, to feel bad: \"je m'en veux de ne pas l'avoir appelé\" (I feel terrible for not calling him). It's the natural French for 'I kick myself', 'I can't forgive myself'.",
+          "Note the polite negative imperative: \"ne m'en veux pas\" in everyday French; formal \"ne m'en veuillez pas\" uses the special imperative of vouloir (\"veuillez\", as in \"veuillez agréer\").",
+        ],
+        examples: [
+          { es: "Je m'en veux de ne pas avoir vu qu'il allait mal.", en: "I feel awful for not seeing he was in a bad way." },
+          { es: "Ne m'en veuillez pas, mais je dois partir plus tôt.", en: "Please don't be offended, but I have to leave early." },
+          { es: "Il s'en est longtemps voulu de cette erreur.", en: "He blamed himself for that mistake for a long time." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -2357,30 +3138,18 @@ export const FR_C1_U09: Lesson[] = [
             answer: "Je m'en veux d'avoir oublié son anniversaire.",
             explanation: "\"S'en vouloir de\" + past infinitive for something already done.",
           },
-          {
-            type: "listen-choose",
-            audio: "Je ne t'en veux pas.",
-            question: "What does it mean?",
-            options: ["I'm not angry with you.", "I don't want any from you.", "I don't want you any more.", "I'm not asking you for it."],
-            correctIndex: 0,
-            explanation: "\"Ne pas en vouloir à quelqu'un\" = not to hold it against them.",
-          },
         ],
       },
       {
-        heading: "Frozen y: s'y prendre, s'y connaître; ne pas en revenir",
+        heading: "Frozen y: s'y prendre, s'y connaître",
         body: [
           "\"S'y prendre\" is to go about something, to handle it: \"comment tu t'y prends pour faire un si bon pain ?\", \"il s'y est mal pris\" (he went about it the wrong way), \"il faut s'y prendre à l'avance\" (you need to start early). \"S'y connaître (en)\" is to know a lot about something: \"elle s'y connaît en vins\", \"je ne m'y connais pas du tout en mécanique\".",
-          "\"Ne pas en revenir\" is to be amazed, to be unable to get over something: \"je n'en reviens pas !\" (I can't believe it!). It's almost always negative and often used as an exclamation. Add the cause with \"de\": \"je n'en reviens pas de sa réaction\".",
-          "Other idioms of the same family that you already know: \"s'en faire\" (to worry: ne t'en fais pas), \"s'y faire\" (to get used to it), \"en avoir marre\" (to be fed up), \"ça y est\" (that's it, done).",
         ],
         examples: [
           { es: "Comment est-ce que tu t'y prends pour garder ton calme ?", en: "How do you manage to stay calm?" },
           { es: "Pour avoir des places, il faut s'y prendre des mois à l'avance.", en: "To get seats, you have to book months in advance." },
           { es: "Demande à Karim, il s'y connaît en informatique.", en: "Ask Karim, he knows a lot about computers." },
           { es: "Je ne m'y connais pas du tout en jardinage.", en: "I know nothing about gardening." },
-          { es: "Il a eu son bac avec mention ? Je n'en reviens pas !", en: "He passed his final exams with honours? I can't believe it!" },
-          { es: "Elle n'en revenait pas qu'on l'ait choisie.", en: "She couldn't get over being chosen." },
         ],
         checkpoint: [
           {
@@ -2398,6 +3167,27 @@ export const FR_C1_U09: Lesson[] = [
             words: ["Il", "s'y", "est", "mal", "pris."],
             translation: "He went about it badly.",
             explanation: "\"S'y prendre\" in the passé composé: être, and \"mal\" before the participle.",
+          },
+        ],
+      },
+      {
+        heading: "Ne pas en revenir, and the rest of the family",
+        body: [
+          "\"Ne pas en revenir\" is to be amazed, to be unable to get over something: \"je n'en reviens pas !\" (I can't believe it!). It's almost always negative and often used as an exclamation. Add the cause with \"de\": \"je n'en reviens pas de sa réaction\".",
+          "Other idioms of the same family that you already know: \"s'en faire\" (to worry: ne t'en fais pas), \"s'y faire\" (to get used to it), \"en avoir marre\" (to be fed up), \"ça y est\" (that's it, done).",
+        ],
+        examples: [
+          { es: "Il a eu son bac avec mention ? Je n'en reviens pas !", en: "He passed his final exams with honours? I can't believe it!" },
+          { es: "Elle n'en revenait pas qu'on l'ait choisie.", en: "She couldn't get over being chosen." },
+          { es: "Ne t'en fais pas, tu vas t'y faire.", en: "Don't worry, you'll get used to it." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "When would you exclaim « Je n'en reviens pas ! »?",
+            options: ["When some news amazes you", "When you can't come back from a trip", "When you refuse to give something back", "When you've lost your way"],
+            correctIndex: 0,
+            explanation: "\"Ne pas en revenir\" is a frozen idiom of amazement: I can't get over it. It has nothing to do with returning.",
           },
         ],
       },
@@ -2460,9 +3250,9 @@ export const FR_C1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "I know nothing about cars.",
-        answer: "Je ne m'y connais pas du tout en voitures.",
-        altAnswers: ["Je ne m'y connais pas en voitures.", "Je ne m'y connais pas du tout en mécanique.", "Je n'y connais rien en voitures.", "Je n'y connais rien en mécanique."],
+        source: "My father knows nothing about football.",
+        answer: "Mon père ne s'y connaît pas en football.",
+        altAnswers: ["Mon père n'y connaît rien en football.", "Mon père ne s'y connaît pas du tout en football."],
         explanation: "\"S'y connaître en\", negated. \"N'y rien connaître\" is a common alternative.",
       },
       {
@@ -2503,6 +3293,38 @@ export const FR_C1_U09: Lesson[] = [
         prompt: "Say it in French: I can't believe it!",
         tip: "In speech the ne often disappears: \"j'en reviens pas !\"",
         explanation: "\"Ne pas en revenir\": amazement.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Ils s'en ont sorti de justesse.",
+        answer: "Ils s'en sont sortis de justesse.",
+        explanation: "Pronominal verbs take \"être\", and the participle agrees with \"ils\": \"s'en sont sortis\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Il se veut d'avoir crié sur son fils.",
+        answer: "Il s'en veut d'avoir crié sur son fils.",
+                explanation: "The idiom is \"s'en vouloir\": the frozen \"en\" can't be dropped.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Make it negative.",
+        source: "Allez-vous-en !",
+        answer: "Ne vous en allez pas !",
+        explanation: "In the negative imperative the pronouns go back in front, in normal order, with no hyphens.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change it to the passé composé.",
+        source: "Ils s'en prennent à l'arbitre.",
+        answer: "Ils s'en sont pris à l'arbitre.",
+        explanation: "Pronominal verb, so \"être\"; \"pris\" agrees with \"ils\" and en stays frozen before the auxiliary.",
       },
     ],
   },
@@ -2613,10 +3435,10 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "He didn't dare to say no.",
+        prompt: "Correct the sentence.",
+        source: "Il n'a pas osé de dire non.",
         answer: "Il n'a pas osé dire non.",
-        explanation: "\"Oser\" + bare infinitive.",
+        explanation: "\"Oser\" takes a bare infinitive, like the modal verbs.",
       },
       {
         type: "translate",
@@ -2630,10 +3452,10 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The doctor forbade him to smoke.",
+        prompt: "Correct the sentence.",
+        source: "Le médecin l'a interdit de fumer.",
         answer: "Le médecin lui a interdit de fumer.",
-        explanation: "\"Interdire à quelqu'un de\": lui + de.",
+        explanation: "\"Interdire à quelqu'un de\": the person is indirect, so \"lui\".",
       },
       {
         type: "translate",
@@ -2664,10 +3486,10 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Nothing prevents you from trying. (to a friend)",
+        prompt: "Correct the sentence.",
+        source: "Rien ne t'empêche à essayer.",
         answer: "Rien ne t'empêche d'essayer.",
-        explanation: "\"Empêcher quelqu'un de\": direct person (t').",
+        explanation: "\"Empêcher quelqu'un de\" + infinitive: the action takes \"de\".",
       },
       {
         type: "word-order",
@@ -2686,11 +3508,10 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Let's stick to the plan.",
+        prompt: "Change it to the imperative with nous.",
+        source: "On s'en tient au plan.",
         answer: "Tenons-nous-en au plan.",
-        altAnswers: ["On s'en tient au plan.", "Tenons-nous-en au programme."],
-        explanation: "Imperative of \"s'en tenir à\" + au plan.",
+        explanation: "Affirmative imperative of \"s'en tenir à\": verb-nous-en, with hyphens.",
       },
       {
         type: "dictation",
@@ -2703,6 +3524,14 @@ export const FR_C1_U09: Lesson[] = [
         prompt: "Say it in French (to a friend): Don't worry, you'll do very well.",
         explanation: "\"S'en faire\" (worry) and \"s'en sortir\" (cope), two frozen-en idioms.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change it to the passé composé.",
+        source: "Il s'y prend mal.",
+        answer: "Il s'y est mal pris.",
+        explanation: "\"S'y prendre\" is pronominal: \"être\" in the passé composé, with \"mal\" before the participle.",
+      },
     ],
   },
   {
@@ -2714,38 +3543,16 @@ export const FR_C1_U09: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "The opening: why you're writing",
+        heading: "The opening: form of address",
         body: [
           "The French \"lettre de motivation\" is more formal and more formulaic than an English cover letter. It opens with \"Madame, Monsieur,\" (or \"Madame la Directrice,\" if you know the title), never with a first name, and gets straight to the point: which job, where you saw it, and why it attracts you.",
-          "The opening paragraph is a showcase of verb + preposition patterns: \"je me permets de vous adresser ma candidature au poste de...\", \"c'est avec un vif intérêt que j'ai pris connaissance de votre annonce\", \"je m'intéresse depuis plusieurs années à...\", \"postuler à un poste\" (\"postuler pour\" is common too). Each of these is checked by recruiters, consciously or not.",
-          "Your mission in this lesson: Camille Roussel, a project coordinator in Nantes, applies for a job at a cultural foundation in Lyon. Build her letter, paragraph by paragraph.",
         ],
         examples: [
           { es: "Madame, Monsieur,", en: "Dear Sir or Madam," },
           { es: "Suite à votre annonce parue sur le site de l'APEC, je me permets de vous adresser ma candidature au poste de chargée de projets culturels.", en: "Following your advertisement on the APEC website, I am writing to apply for the position of cultural project officer." },
           { es: "C'est avec un vif intérêt que j'ai pris connaissance de votre offre.", en: "I read your job offer with great interest." },
-          { es: "Je m'intéresse depuis longtemps à la médiation culturelle auprès des jeunes publics.", en: "I have long been interested in cultural outreach for young audiences." },
-          { es: "Votre fondation, dont je suis les activités depuis plusieurs années, correspond exactement à mes aspirations.", en: "Your foundation, whose activities I have followed for several years, matches my aspirations exactly." },
-          { es: "Je souhaiterais vivement rejoindre votre équipe.", en: "I would very much like to join your team." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I am writing to apply for the position of sales assistant.",
-            answer: "Je me permets de vous adresser ma candidature au poste d'assistant commercial.",
-            altAnswers: ["Je me permets de vous adresser ma candidature au poste d'assistante commerciale.", "Je vous adresse ma candidature au poste d'assistant commercial.", "Je vous adresse ma candidature au poste d'assistante commerciale.", "Je souhaite postuler au poste d'assistant commercial.", "Je souhaite postuler au poste d'assistante commerciale."],
-            explanation: "\"Se permettre de\" + infinitive is the polite opening; \"candidature au poste de\".",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "I have long [been interested in] renewable energy.",
-            sentence: "Je ___ depuis longtemps aux énergies renouvelables.",
-            answer: "m'intéresse",
-            explanation: "\"S'intéresser à\" + present with \"depuis\": an interest that still continues.",
-          },
           {
             type: "multiple-choice",
             question: "Which opening line is right for a French cover letter?",
@@ -2756,20 +3563,46 @@ export const FR_C1_U09: Lesson[] = [
         ],
       },
       {
+        heading: "The opening paragraph: verb patterns on show",
+        body: [
+          "The opening paragraph is a showcase of verb + preposition patterns: \"je me permets de vous adresser ma candidature au poste de...\", \"c'est avec un vif intérêt que j'ai pris connaissance de votre annonce\", \"je m'intéresse depuis plusieurs années à...\", \"postuler à un poste\" (\"postuler pour\" is common too). Each of these is checked by recruiters, consciously or not.",
+          "Your mission in this lesson: Camille Roussel, a project coordinator in Nantes, applies for a job at a cultural foundation in Lyon. Build her letter, paragraph by paragraph.",
+        ],
+        examples: [
+          { es: "Je m'intéresse depuis longtemps à la médiation culturelle auprès des jeunes publics.", en: "I have long been interested in cultural outreach for young audiences." },
+          { es: "Votre fondation, dont je suis les activités depuis plusieurs années, correspond exactement à mes aspirations.", en: "Your foundation, whose activities I have followed for several years, matches my aspirations exactly." },
+          { es: "Je souhaiterais vivement rejoindre votre équipe.", en: "I would very much like to join your team." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "I have long [been interested in] renewable energy.",
+            sentence: "Je ___ depuis longtemps aux énergies renouvelables.",
+            answer: "m'intéresse",
+            explanation: "\"S'intéresser à\" + present with \"depuis\": an interest that still continues.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "I am writing to apply for the position of sales assistant.",
+            answer: "Je me permets de vous adresser ma candidature au poste d'assistant commercial.",
+            altAnswers: ["Je me permets de vous adresser ma candidature au poste d'assistante commerciale.", "Je vous adresse ma candidature au poste d'assistant commercial.", "Je vous adresse ma candidature au poste d'assistante commerciale.", "Je souhaite postuler au poste d'assistant commercial.", "Je souhaite postuler au poste d'assistante commerciale."],
+            explanation: "\"Se permettre de\" + infinitive is the polite opening; \"candidature au poste de\".",
+          },
+        ],
+      },
+      {
         heading: "The middle: what you've done",
         body: [
           "The central paragraph proves your claims with experience. Its verbs are almost all prepositional: \"j'ai participé à\" (I took part in), \"j'ai contribué à\" (I helped to, contributed to), \"je me suis chargé(e) de\" (I took charge of), \"je suis parvenu(e) à\" (I managed to), \"j'ai été amené(e) à\" (my role led me to), \"j'ai eu l'occasion de\" (I had the opportunity to), \"j'ai appris à\" (I learned to).",
-          "\"Être amené à\" + infinitive is a gem of French professional writing: it presents a responsibility modestly, as something the job required of you. \"J'ai été amenée à encadrer une équipe de six personnes\" sounds both precise and unboastful.",
-          "Avoid the English-style \"*j'ai été en charge de\": careful French prefers \"j'ai été chargée de\" or \"je me suis chargée de\". And remember \"responsable de\", never \"*responsable pour\".",
         ],
         examples: [
-          { es: "Depuis 2021, je coordonne les ateliers d'un centre culturel nantais.", en: "Since 2021 I have coordinated the workshops of a cultural centre in Nantes." },
           { es: "J'ai participé à l'organisation de trois festivals régionaux.", en: "I took part in organising three regional festivals." },
           { es: "Je me suis chargée de la recherche de mécènes et suis parvenue à doubler notre budget.", en: "I took charge of finding sponsors and managed to double our budget." },
-          { es: "J'ai été amenée à encadrer une équipe de six personnes.", en: "My role led me to supervise a team of six people." },
           { es: "Cette expérience m'a permis de développer un solide réseau de partenaires.", en: "This experience enabled me to build a solid network of partners." },
           { es: "J'ai également contribué à la création d'une saison jeune public.", en: "I also helped create a season for young audiences." },
-          { es: "J'ai été responsable de la communication auprès des écoles.", en: "I was responsible for communication with schools." },
         ],
         checkpoint: [
           {
@@ -2789,6 +3622,20 @@ export const FR_C1_U09: Lesson[] = [
             altAnswers: ["Cet emploi m'a permis d'améliorer mon anglais.", "Ce travail m'a permis d'améliorer mon anglais.", "Ce poste m'a permis de perfectionner mon anglais."],
             explanation: "\"Permettre à quelqu'un de\": me (indirect) + de.",
           },
+        ],
+      },
+      {
+        heading: "Être amené à, chargé de, responsable de",
+        body: [
+          "\"Être amené à\" + infinitive is a gem of French professional writing: it presents a responsibility modestly, as something the job required of you. \"J'ai été amenée à encadrer une équipe de six personnes\" sounds both precise and unboastful.",
+          "Avoid the English-style \"*j'ai été en charge de\": careful French prefers \"j'ai été chargée de\" or \"je me suis chargée de\". And remember \"responsable de\", never \"*responsable pour\".",
+        ],
+        examples: [
+          { es: "Depuis 2021, je coordonne les ateliers d'un centre culturel nantais.", en: "Since 2021 I have coordinated the workshops of a cultural centre in Nantes." },
+          { es: "J'ai été amenée à encadrer une équipe de six personnes.", en: "My role led me to supervise a team of six people." },
+          { es: "J'ai été responsable de la communication auprès des écoles.", en: "I was responsible for communication with schools." },
+        ],
+        checkpoint: [
           {
             type: "word-order",
             prompt: "Put the words in order to say: I was led to manage the budget.",
@@ -2796,33 +3643,29 @@ export const FR_C1_U09: Lesson[] = [
             translation: "I was led to manage the budget.",
             explanation: "\"Être amené à\" + infinitive presents a responsibility modestly. (A woman writes \"amenée\".)",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "J'ai été en charge de la logistique.",
+            answer: "J'ai été chargée de la logistique.",
+            altAnswers: ["Je me suis chargée de la logistique.", "J'ai été chargé de la logistique.", "Je me suis chargé de la logistique."],
+            explanation: "Careful French avoids the English-style \"être en charge de\": \"être chargé(e) de\" or \"se charger de\".",
+          },
         ],
       },
       {
-        heading: "The close: what you offer and the sign-off",
+        heading: "The close: what you offer",
         body: [
           "The last paragraph links you to the employer's future: \"je souhaiterais mettre mon expérience au service de votre fondation\", \"je serais heureuse de contribuer à vos projets\". Then it asks for an interview with a fixed formula: \"je me tiens à votre disposition pour un entretien\" (I'm available for an interview), \"je serais ravi(e) de vous exposer plus en détail mes motivations\".",
-          "The final sentence is the French formal close, which has no English equivalent in length: \"Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\" Shorter modern variants are accepted: \"Veuillez recevoir, Madame, Monsieur, mes salutations distinguées.\" Repeat the opening form of address exactly (\"Madame, Monsieur\").",
-          "\"Dans l'attente de votre réponse\" (looking forward to your reply) often comes just before. Don't write \"*en attendant votre réponse\" here: it sounds impatient and informal.",
         ],
         examples: [
           { es: "Je souhaiterais mettre mon expérience au service de vos projets.", en: "I would like to put my experience at the service of your projects." },
           { es: "Je serais heureuse de contribuer au développement de votre programme éducatif.", en: "I would be happy to contribute to the development of your educational programme." },
           { es: "Je me tiens à votre disposition pour un entretien.", en: "I am available for an interview at your convenience." },
           { es: "Je serais ravie de vous exposer plus en détail mes motivations.", en: "I would be delighted to explain my motivation in more detail." },
-          { es: "Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.", en: "I look forward to hearing from you. Yours faithfully." },
-          { es: "Je tiens à souligner ma grande disponibilité dès le mois de septembre.", en: "I would like to stress that I am fully available from September." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I am available for an interview.",
-            answer: "Je me tiens à votre disposition pour un entretien.",
-            altAnswers: ["Je reste à votre disposition pour un entretien.", "Je suis à votre disposition pour un entretien."],
-            explanation: "\"Se tenir à la disposition de quelqu'un\": the fixed formula of French professional letters.",
-          },
           {
             type: "listen-choose",
             audio: "Je serais heureux de contribuer à vos projets.",
@@ -2830,6 +3673,36 @@ export const FR_C1_U09: Lesson[] = [
             options: ["I would be happy to contribute to your projects.", "I was happy to contribute to your projects.", "I will be happy if you contribute to my projects.", "I am happy with your projects."],
             correctIndex: 0,
             explanation: "Conditional \"serais\" for polite wishes; \"contribuer à\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "I am available to discuss my application.",
+            answer: "Je me tiens à votre disposition pour discuter de ma candidature.",
+            altAnswers: ["Je reste à votre disposition pour discuter de ma candidature.", "Je suis à votre disposition pour discuter de ma candidature.", "Je me tiens à votre disposition pour parler de ma candidature."],
+            explanation: "\"Se tenir à la disposition de quelqu'un\" + \"pour\"; \"discuter de\" takes de.",
+          },
+        ],
+      },
+      {
+        heading: "The sign-off",
+        body: [
+          "The final sentence is the French formal close, which has no English equivalent in length: \"Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\" Shorter modern variants are accepted: \"Veuillez recevoir, Madame, Monsieur, mes salutations distinguées.\" Repeat the opening form of address exactly (\"Madame, Monsieur\").",
+          "\"Dans l'attente de votre réponse\" (looking forward to your reply) often comes just before. Don't write \"*en attendant votre réponse\" here: it sounds impatient and informal.",
+        ],
+        examples: [
+          { es: "Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.", en: "I look forward to hearing from you. Yours faithfully." },
+          { es: "Je tiens à souligner ma grande disponibilité dès le mois de septembre.", en: "I would like to stress that I am fully available from September." },
+          { es: "Veuillez recevoir, Madame, Monsieur, mes salutations distinguées.", en: "Yours faithfully." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which closing sentence is correct and appropriately formal?",
+            options: ["Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.", "Je vous prie d'agréer, Madame, Monsieur, à l'expression de mes salutations distinguées.", "Je vous prie agréer, Madame, Monsieur, mes meilleures bises.", "En attendant votre réponse, salutations."],
+            correctIndex: 0,
+            explanation: "\"Prier quelqu'un de\" + \"agréer\" (direct object: l'expression). The formula is fixed.",
           },
         ],
       },
@@ -2839,9 +3712,9 @@ export const FR_C1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "I read your advertisement with great interest.",
-        answer: "C'est avec un vif intérêt que j'ai pris connaissance de votre annonce.",
-        altAnswers: ["J'ai pris connaissance de votre annonce avec un vif intérêt.", "J'ai lu votre annonce avec un vif intérêt.", "J'ai lu votre annonce avec beaucoup d'intérêt.", "C'est avec un grand intérêt que j'ai lu votre annonce."],
+        source: "I read the description of the position with great interest.",
+        answer: "C'est avec un grand intérêt que j'ai pris connaissance de la description du poste.",
+        altAnswers: ["J'ai pris connaissance de la description du poste avec un grand intérêt.", "C'est avec un vif intérêt que j'ai pris connaissance de la description du poste.", "J'ai lu la description du poste avec beaucoup d'intérêt.", "J'ai lu avec un grand intérêt la description du poste."],
         explanation: "\"Prendre connaissance de\" (to read, take note of) + the cleft \"c'est avec... que\".",
       },
       {
@@ -2889,13 +3762,6 @@ export const FR_C1_U09: Lesson[] = [
         explanation: "\"Être amené à\" + infinitive; \"de nombreux\" before an adjective + noun.",
       },
       {
-        type: "multiple-choice",
-        question: "Which closing sentence is correct and appropriately formal?",
-        options: ["Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.", "Je vous prie d'agréer, Madame, Monsieur, à l'expression de mes salutations distinguées.", "Je vous prie agréer, Madame, Monsieur, mes meilleures bises.", "En attendant votre réponse, salutations."],
-        correctIndex: 0,
-        explanation: "\"Prier quelqu'un de\" + \"agréer\" (direct object: l'expression). The formula is fixed.",
-      },
-      {
         type: "word-order",
         prompt: "Put the words in order to say: I am at your disposal for any further information.",
         words: ["Je", "me tiens", "à votre disposition", "pour tout", "renseignement complémentaire."],
@@ -2921,14 +3787,30 @@ export const FR_C1_U09: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "J'ai participé à l'organisation de trois festivals.",
-        explanation: "\"Participer à\" + noun.",
+        audio: "J'ai contribué à la réussite de deux salons professionnels.",
+        explanation: "\"Contribuer à\" + noun: \"à la réussite\".",
       },
       {
         type: "speak",
-        text: "Je me tiens à votre disposition pour un entretien.",
-        prompt: "Say it in French: I am available for an interview.",
-        explanation: "The fixed formula before the sign-off.",
+        text: "Je serais ravie de vous rencontrer pour un entretien.",
+        prompt: "Say it in French (a woman writing): I would be delighted to meet you for an interview.",
+        explanation: "Conditional \"serais\" for a polite wish; \"ravie\" agrees with the writer.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Je suis responsable pour la communication interne.",
+        answer: "Je suis responsable de la communication interne.",
+        explanation: "\"Responsable de\", never \"responsable pour\": the English for doesn't carry over.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change it to the passé composé.",
+        source: "Je participe à l'organisation du salon.",
+        answer: "J'ai participé à l'organisation du salon.",
+        explanation: "\"Participer\" takes \"avoir\"; the \"à\" stays with the verb.",
       },
     ],
   },
@@ -3055,11 +3937,11 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Thank you for letting me know. (formal)",
+        prompt: "Correct the sentence.",
+        source: "Je vous remercie pour m'avoir prévenu.",
         answer: "Je vous remercie de m'avoir prévenu.",
-        altAnswers: ["Je vous remercie de m'avoir prévenue.", "Merci de m'avoir prévenu.", "Merci de m'avoir prévenue.", "Je vous remercie de m'avoir informé.", "Je vous remercie de m'avoir informée."],
-        explanation: "\"Remercier quelqu'un de\" + past infinitive.",
+        altAnswers: ["Je vous remercie de m'avoir prévenue.", "Merci de m'avoir prévenu.", "Merci de m'avoir prévenue."],
+        explanation: "\"Remercier quelqu'un de\" + past infinitive: \"pour\" is only possible before a noun (\"merci pour votre aide\").",
       },
       {
         type: "translate",
@@ -3108,11 +3990,11 @@ export const FR_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Don't hesitate to ask me for help. (to a friend)",
+        prompt: "Correct the sentence.",
+        source: "N'hésite pas de me demander de l'aide.",
         answer: "N'hésite pas à me demander de l'aide.",
-        altAnswers: ["N'hésite pas à me demander de l'aide si besoin.", "N'hésite pas à me demander un coup de main."],
-        explanation: "\"Hésiter à\" + infinitive; \"demander quelque chose à quelqu'un\" (me).",
+        altAnswers: ["N'hésite pas à me demander un coup de main."],
+        explanation: "\"Hésiter à\" + infinitive: the à is part of the verb.",
       },
       {
         type: "multiple-choice",
@@ -3147,9 +4029,27 @@ export const FR_C1_U09: Lesson[] = [
       },
       {
         type: "speak",
-        text: "C'est un cadeau auquel je tiens énormément.",
-        prompt: "Say it in French: It's a present that means a great deal to me.",
-        explanation: "\"Tenir à\" → \"auquel\".",
+        text: "C'est une montre à laquelle je tiens énormément.",
+        prompt: "Say it in French: It's a watch that means a great deal to me.",
+        explanation: "\"Tenir à\" → \"à laquelle\" (feminine, no contraction).",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change the subject of the second verb to vous.",
+        source: "Je tiens à être présent.",
+        answer: "Je tiens à ce que vous soyez présent.",
+        altAnswers: ["Je tiens à ce que vous soyez présents.", "Je tiens à ce que vous soyez présente.", "Je tiens à ce que vous soyez présentes."],
+        explanation: "A different subject turns the infinitive into \"à ce que\" + subjunctive: \"vous soyez\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn the two sentences into one with a relative pronoun.",
+        source: "C'est un projet. Je suis fier de ce projet.",
+        answer: "C'est un projet dont je suis fier.",
+        altAnswers: ["C'est un projet dont je suis fière."],
+        explanation: "\"Être fier de\" → \"dont\", placed right after \"un projet\".",
       },
     ],
   },

@@ -25,32 +25,45 @@ export const FR_C2_U02: Lesson[] = [
     number: 1,
     title: "Le Français Juridique et Administratif, Part 4 of 7",
     summary: "The life of a contract: conclusion, avenant, échéance, tacite reconduction, résiliation, préavis, pénalités de retard and force majeure, with il est convenu que, il est entendu que and the pronominal passive.",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
-        heading: "\"Les contrats légalement formés tiennent lieu de loi\"",
+        heading: "« Les contrats légalement formés tiennent lieu de loi »",
         body: [
           "Article 1103 of the Code civil, rewritten in 2016 from the famous article 1134 of 1804, states the founding principle: \"Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\" A contract that has been validly formed is law for its parties. \"Tenir lieu de\" means to take the place of, to serve as: a phrase worth stealing for any formal text (\"cette lettre tient lieu de convocation\").",
-          "A contract is \"conclu\" (concluded) or \"passé\" between the parties, not 'made': \"conclure un contrat\", \"passer un contrat avec un fournisseur\", \"signer un contrat\" when you mean the physical act. Any later change is made by \"un avenant\" (an amendment, a rider): \"un avenant au contrat de travail\" changes your working hours or salary. The contract runs until \"son échéance\" (its expiry date); \"l'échéance\" is also the due date of a payment (\"payer à l'échéance\", \"les échéances d'un prêt\").",
-          "A very common type of contract renews itself automatically: \"le contrat se renouvelle par tacite reconduction\" (it is tacitly renewed). This pronominal passive (\"se renouvelle\", \"se conclut\", \"se résilie\") presents the renewal as something that happens by itself, with nobody acting. Insurance policies, gym memberships and phone contracts work this way, which is why French consumer law obliges the company to remind you before the date by which you can refuse renewal.",
         ],
         examples: [
           { es: "Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.", en: "Contracts lawfully formed have the force of law for those who made them." },
-          { es: "Nous avons conclu un contrat de maintenance avec une société lyonnaise.", en: "We concluded a maintenance contract with a company from Lyon." },
-          { es: "Un avenant au contrat de travail a modifié ses horaires.", en: "An amendment to his employment contract changed his hours." },
-          { es: "Le contrat arrive à échéance le 31 décembre.", en: "The contract expires on 31 December." },
-          { es: "L'abonnement se renouvelle par tacite reconduction chaque année.", en: "The subscription is renewed automatically every year." },
           { es: "Ce courrier tient lieu de facture.", en: "This letter serves as an invoice." },
+          { es: "Ce reçu tient lieu de justificatif de paiement.", en: "This receipt serves as proof of payment." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "The contract is renewed automatically unless one of the parties objects.",
-            answer: "Le contrat se renouvelle par tacite reconduction, sauf opposition de l'une des parties.",
-            altAnswers: ["Le contrat se renouvelle par tacite reconduction, sauf si l'une des parties s'y oppose.", "Le contrat est renouvelé par tacite reconduction, sauf opposition de l'une des parties.", "Le contrat est renouvelé par tacite reconduction, sauf si l'une des parties s'y oppose.", "Le contrat se renouvelle par tacite reconduction, à moins que l'une des parties ne s'y oppose."],
-            explanation: "\"Se renouveler par tacite reconduction\" (pronominal passive). \"Sauf opposition de\" is the nominal version of \"sauf si... s'y oppose\".",
+            type: "multiple-choice",
+            question: "« Cette attestation tient lieu de diplôme jusqu'à sa délivrance. » What does it mean?",
+            options: ["This certificate serves as the diploma until the diploma is issued.", "This certificate is worth more than the diploma.", "This certificate replaces the diploma for ever.", "This certificate is held at the place where the diploma is issued."],
+            correctIndex: 0,
+            explanation: "\"Tenir lieu de\" means to take the place of, to serve as: the certificate stands in for the diploma, here only until it is issued. It has nothing to do with a place (\"lieu\" as location).",
+          },
+        ],
+      },
+      {
+        heading: "Conclure, un avenant, l'échéance",
+        body: [
+          "A contract is \"conclu\" (concluded) or \"passé\" between the parties, not 'made': \"conclure un contrat\", \"passer un contrat avec un fournisseur\", \"signer un contrat\" when you mean the physical act. Any later change is made by \"un avenant\" (an amendment, a rider): \"un avenant au contrat de travail\" changes your working hours or salary. The contract runs until \"son échéance\" (its expiry date); \"l'échéance\" is also the due date of a payment (\"payer à l'échéance\", \"les échéances d'un prêt\").",
+        ],
+        examples: [
+          { es: "Nous avons conclu un contrat de maintenance avec une société lyonnaise.", en: "We concluded a maintenance contract with a company from Lyon." },
+          { es: "Un avenant au contrat de travail a modifié ses horaires.", en: "An amendment to his employment contract changed his hours." },
+          { es: "Le contrat arrive à échéance le 31 décembre.", en: "The contract expires on 31 December." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which verb would a lawyer use? « Nous avons ___ un contrat de location avec la société Martin. »",
+            options: ["conclu", "fait", "réalisé", "effectué"],
+            correctIndex: 0,
+            explanation: "A contract is \"conclu\" (or \"passé\") between the parties: \"conclure un contrat\". \"Faire un contrat\" is a calque of to make a contract, and \"réaliser\" or \"effectuer\" a contract are not French collocations.",
           },
           {
             type: "fill-blank",
@@ -63,21 +76,53 @@ export const FR_C2_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Ending a contract: résilier is not 'resilient'",
+        heading: "Tacite reconduction: the contract renews itself",
+        body: [
+          "A very common type of contract renews itself automatically: \"le contrat se renouvelle par tacite reconduction\" (it is tacitly renewed). This pronominal passive (\"se renouvelle\", \"se conclut\", \"se résilie\") presents the renewal as something that happens by itself, with nobody acting. Insurance policies, gym memberships and phone contracts work this way, which is why French consumer law obliges the company to remind you before the date by which you can refuse renewal.",
+        ],
+        examples: [
+          { es: "L'abonnement se renouvelle par tacite reconduction chaque année.", en: "The subscription is renewed automatically every year." },
+          { es: "L'assurance se résilie par lettre recommandée.", en: "The insurance policy is cancelled by registered letter." },
+          { es: "Le contrat se conclut par la signature des deux parties.", en: "The contract is concluded by the signature of both parties." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The contract is renewed automatically unless one of the parties objects.",
+            answer: "Le contrat se renouvelle par tacite reconduction, sauf opposition de l'une des parties.",
+            altAnswers: ["Le contrat se renouvelle par tacite reconduction, sauf si l'une des parties s'y oppose.", "Le contrat est renouvelé par tacite reconduction, sauf opposition de l'une des parties.", "Le contrat est renouvelé par tacite reconduction, sauf si l'une des parties s'y oppose.", "Le contrat se renouvelle par tacite reconduction, à moins que l'une des parties ne s'y oppose."],
+            explanation: "\"Se renouveler par tacite reconduction\" (pronominal passive). \"Sauf opposition de\" is the nominal version of \"sauf si... s'y oppose\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into a pronominal passive.",
+            source: "On renouvelle le contrat d'entretien tous les deux ans.",
+            answer: "Le contrat d'entretien se renouvelle tous les deux ans.",
+            explanation: "The pronominal passive \"se renouvelle\" presents the renewal as something that happens by itself, with nobody acting: the object of \"on renouvelle\" becomes the subject.",
+          },
+        ],
+      },
+      {
+        heading: "Résilier is not 'resilient'",
         body: [
           "\"Résilier\" means to terminate a contract for the future: \"résilier son abonnement\", \"résilier un bail\", \"la résiliation de mon contrat d'assurance\". It is one of the most deceptive false friends for English speakers, who connect it with 'resilient' (\"résilient\", from \"la résilience\", a word with a completely different origin). You \"résiliez\" a phone contract; you are \"résilient\" after a hard year.",
-          "Ending a contract usually needs \"un préavis\" (notice), given \"par lettre recommandée avec accusé de réception\" and running \"à compter de\" its receipt: \"un préavis de deux mois\". Many contracts run until \"l'échéance\" and can only be ended \"à la date anniversaire\" (on the anniversary date). Late performance triggers \"des pénalités de retard\" (late penalties), and serious breach can lead to termination \"aux torts\" of the party at fault (\"résilié aux torts exclusifs du prestataire\").",
-          "\"La force majeure\" excuses non-performance: since 2016 the Code civil defines it (article 1218) as an event beyond the debtor's control, which could not reasonably be foreseen when the contract was concluded and whose effects cannot be avoided by appropriate measures. A rise in prices or a supplier's delay rarely qualifies; a natural disaster or a sudden legal ban may.",
         ],
         examples: [
           { es: "J'ai résilié mon abonnement à la salle de sport.", en: "I cancelled my gym membership." },
-          { es: "La résiliation prendra effet à l'issue d'un préavis de deux mois.", en: "The termination will take effect after two months' notice." },
-          { es: "Le contrat ne peut être résilié qu'à sa date anniversaire.", en: "The contract can only be terminated on its anniversary date." },
-          { es: "Des pénalités de retard de 50 euros par jour seront appliquées.", en: "Late penalties of 50 euros a day will be applied." },
-          { es: "Le contrat a été résilié aux torts exclusifs du prestataire.", en: "The contract was terminated with the service provider solely at fault." },
-          { es: "L'entreprise a invoqué la force majeure pour justifier le retard.", en: "The company invoked force majeure to justify the delay." },
+          { es: "Elle a demandé la résiliation de son bail.", en: "She asked for her lease to be terminated." },
+          { es: "Après la crise, l'entreprise s'est montrée résiliente.", en: "After the crisis, the company proved resilient." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does \"Elle a fait preuve d'une grande résilience\" mean?",
+            options: ["She showed great resilience.", "She terminated a big contract.", "She resigned with great dignity.", "She showed great resistance to the contract."],
+            correctIndex: 0,
+            explanation: "\"La résilience\" (resilience) and \"la résiliation\" (termination) look alike but are unrelated in meaning.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -87,42 +132,68 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["Je souhaite résilier mon contrat d'assurance.", "Je voudrais résilier mon contrat d'assurance.", "Je veux résilier ma police d'assurance.", "Je souhaite résilier ma police d'assurance."],
             explanation: "Ending a contract is \"résilier\", not \"annuler\" (which suggests it never existed) and nothing to do with \"résilient\".",
           },
-          {
-            type: "multiple-choice",
-            question: "What does \"Elle a fait preuve d'une grande résilience\" mean?",
-            options: ["She showed great resilience.", "She terminated a big contract.", "She resigned with great dignity.", "She showed great resistance to the contract."],
-            correctIndex: 0,
-            explanation: "\"La résilience\" (resilience) and \"la résiliation\" (termination) look alike but are unrelated in meaning.",
-          },
+        ],
+      },
+      {
+        heading: "Notice, anniversary dates, penalties, fault",
+        body: [
+          "Ending a contract usually needs \"un préavis\" (notice), given \"par lettre recommandée avec accusé de réception\" and running \"à compter de\" its receipt: \"un préavis de deux mois\". Many contracts run until \"l'échéance\" and can only be ended \"à la date anniversaire\" (on the anniversary date). Late performance triggers \"des pénalités de retard\" (late penalties), and serious breach can lead to termination \"aux torts\" of the party at fault (\"résilié aux torts exclusifs du prestataire\").",
+        ],
+        examples: [
+          { es: "La résiliation prendra effet à l'issue d'un préavis de deux mois.", en: "The termination will take effect after two months' notice." },
+          { es: "Le contrat ne peut être résilié qu'à sa date anniversaire.", en: "The contract can only be terminated on its anniversary date." },
+          { es: "Des pénalités de retard de 50 euros par jour seront appliquées.", en: "Late penalties of 50 euros a day will be applied." },
+          { es: "Le contrat a été résilié aux torts exclusifs du prestataire.", en: "The contract was terminated with the service provider solely at fault." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Le préavis court à compter de la réception de votre lettre.",
             question: "What does it mean?",
-            options: [
-              "The notice period starts when your letter is received.",
-              "The notice period is short once we receive your letter.",
-              "Please send your letter quickly before the notice ends.",
-              "The notice is attached to your letter.",
-            ],
+            options: ["The notice period starts when your letter is received.", "The notice period is short once we receive your letter.", "Please send your letter quickly before the notice ends.", "The notice is attached to your letter."],
             correctIndex: 0,
             explanation: "A deadline \"court\" (runs, from courir) \"à compter de\" its starting point. \"Court\" here is not the adjective short.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The insurer terminated the policy [with the insured party at fault].",
+            sentence: "L'assureur a résilié le contrat ___.",
+            answer: "aux torts de l'assuré",
+            altAnswers: ["aux torts exclusifs de l'assuré"],
+            explanation: "Termination for serious breach is pronounced \"aux torts de\" the party at fault: \"aux torts de l'assuré\", \"aux torts exclusifs du prestataire\".",
           },
         ],
       },
       {
-        heading: "Il est convenu que, il est entendu que; une convention",
+        heading: "La force majeure",
+        body: [
+          "\"La force majeure\" excuses non-performance: since 2016 the Code civil defines it (article 1218) as an event beyond the debtor's control, which could not reasonably be foreseen when the contract was concluded and whose effects cannot be avoided by appropriate measures. A rise in prices or a supplier's delay rarely qualifies; a natural disaster or a sudden legal ban may.",
+        ],
+        examples: [
+          { es: "L'entreprise a invoqué la force majeure pour justifier le retard.", en: "The company invoked force majeure to justify the delay." },
+          { es: "Une grève annoncée longtemps à l'avance ne constitue pas un cas de force majeure.", en: "A strike announced well in advance is not a case of force majeure." },
+          { es: "L'inondation de l'entrepôt a été reconnue comme un cas de force majeure.", en: "The flooding of the warehouse was recognised as force majeure." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A caterer cancels a wedding dinner. Which reason is most likely to count as force majeure?",
+            options: ["A ban on gatherings ordered by the prefect the day before.", "A rise in the price of butter.", "The chef's car breaking down that morning.", "A supplier who is often late."],
+            correctIndex: 0,
+            explanation: "Force majeure needs an event beyond the debtor's control, unforeseeable when the contract was made and unavoidable: a sudden legal ban qualifies. Price rises, breakdowns and usual delays were foreseeable or avoidable.",
+          },
+        ],
+      },
+      {
+        heading: "Il est convenu que + indicative",
         body: [
           "Contracts state agreed points with impersonal formulas: \"Il est convenu que le paiement interviendra en trois versements\" (it is agreed that...), \"Il est expressément convenu que...\" (for emphasis), \"Il est entendu que les frais de déplacement restent à la charge du client\" (it is understood that). Both take the indicative (or the future), because they state settled facts, not wishes.",
-          "\"Il est entendu que\" is subtly different from \"il est convenu que\": it often introduces a clarification or a reservation that both parties take for granted, the equivalent of 'it being understood that'. Its participial form \"étant entendu que\" is common in the middle of a sentence: \"Le prestataire pourra sous-traiter certaines tâches, étant entendu qu'il en restera seul responsable.\"",
-          "A related false friend: \"une convention\" is very often just an agreement, a contract with another name. \"Une convention de stage\" (the internship agreement between student, school and company), \"une convention collective\" (a collective bargaining agreement for a whole sector), \"une convention de divorce\". The English sense of a conference is \"un congrès\" or \"un salon\", and a social convention is \"un usage\" or \"une convention\" (in that sense it does exist).",
         ],
         examples: [
           { es: "Il est convenu que le paiement interviendra en trois versements.", en: "It is agreed that payment will be made in three instalments." },
           { es: "Il est expressément convenu que le prix ne pourra pas être révisé.", en: "It is expressly agreed that the price may not be revised." },
           { es: "Il est entendu que les frais de déplacement restent à la charge du client.", en: "It is understood that travel expenses remain payable by the client." },
-          { es: "Le prestataire pourra sous-traiter, étant entendu qu'il en restera seul responsable.", en: "The service provider may subcontract, it being understood that he will remain solely responsible." },
-          { es: "L'université n'a pas encore signé ma convention de stage.", en: "The university hasn't signed my internship agreement yet." },
-          { es: "Notre convention collective prévoit un treizième mois.", en: "Our collective agreement provides for a thirteenth-month bonus." },
         ],
         checkpoint: [
           {
@@ -135,6 +206,28 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "\"Il est convenu que\" + indicative (here the future). \"Achever\" is the formal to finish.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il est convenu que le loyer soit payé le 1er du mois.",
+            answer: "Il est convenu que le loyer sera payé le 1er du mois.",
+            altAnswers: ["Il est convenu que le loyer est payé le 1er du mois.", "Il est convenu que le loyer sera versé le 1er du mois."],
+            explanation: "\"Il est convenu que\" states a settled fact, so it takes the indicative or the future, not the subjunctive: \"sera payé\" (or \"est payé\").",
+          },
+        ],
+      },
+      {
+        heading: "Étant entendu que: the shared reservation",
+        body: [
+          "\"Il est entendu que\" is subtly different from \"il est convenu que\": it often introduces a clarification or a reservation that both parties take for granted, the equivalent of 'it being understood that'. Its participial form \"étant entendu que\" is common in the middle of a sentence: \"Le prestataire pourra sous-traiter certaines tâches, étant entendu qu'il en restera seul responsable.\"",
+        ],
+        examples: [
+          { es: "Le prestataire pourra sous-traiter, étant entendu qu'il en restera seul responsable.", en: "The service provider may subcontract, it being understood that he will remain solely responsible." },
+          { es: "Le salarié pourra télétravailler, étant entendu qu'il restera joignable.", en: "The employee may work from home, it being understood that he will remain reachable." },
+          { es: "Il est entendu que cette remise ne vaut que pour la première commande.", en: "It is understood that this discount applies only to the first order." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "The tenant may paint the walls, [it being understood that] he will restore them on leaving.",
@@ -142,6 +235,26 @@ export const FR_C2_U02: Lesson[] = [
             answer: "étant entendu qu'",
             altAnswers: ["étant entendu que"],
             explanation: "\"Étant entendu que\" adds an agreed reservation in mid-sentence, with the indicative.",
+          },
+        ],
+      },
+      {
+        heading: "Une convention is usually an agreement",
+        body: [
+          "A related false friend: \"une convention\" is very often just an agreement, a contract with another name. \"Une convention de stage\" (the internship agreement between student, school and company), \"une convention collective\" (a collective bargaining agreement for a whole sector), \"une convention de divorce\". The English sense of a conference is \"un congrès\" or \"un salon\", and a social convention is \"un usage\" or \"une convention\" (in that sense it does exist).",
+        ],
+        examples: [
+          { es: "L'université n'a pas encore signé ma convention de stage.", en: "The university hasn't signed my internship agreement yet." },
+          { es: "Notre convention collective prévoit un treizième mois.", en: "Our collective agreement provides for a thirteenth-month bonus." },
+          { es: "Le congrès annuel des notaires se tient à Lyon.", en: "The notaries' annual convention is held in Lyon." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Your company is signing \"une convention\" with a university. What is it most likely to be?",
+            options: ["a formal agreement", "a conference", "a social custom", "a court summons"],
+            correctIndex: 0,
+            explanation: "\"Une convention\" in legal and administrative French is an agreement (convention de partenariat, de stage...).",
           },
         ],
       },
@@ -193,13 +306,6 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "\"Pénalités de retard\" is the fixed term; \"appliquer\" or \"facturer\" them.",
       },
       {
-        type: "multiple-choice",
-        question: "Your company is signing \"une convention\" with a university. What is it most likely to be?",
-        options: ["a formal agreement", "a conference", "a social custom", "a court summons"],
-        correctIndex: 0,
-        explanation: "\"Une convention\" in legal and administrative French is an agreement (convention de partenariat, de stage...).",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French in legal style.",
@@ -217,13 +323,13 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Le contrat a été résilié aux torts du prestataire.",
-        explanation: "\"Aux torts de\": with the fault lying with; \"tort\" here is fault, not a legal tort.",
+        audio: "La résiliation du bail a été prononcée aux torts du locataire.",
+        explanation: "\"Aux torts du locataire\": the tenant is the party at fault, so the lease was terminated against him.",
       },
       {
         type: "speak",
-        text: "Je souhaiterais résilier mon abonnement à compter du mois prochain.",
         prompt: "Say it in French to customer service: I would like to cancel my subscription from next month.",
+        text: "Je souhaiterais résilier mon abonnement à compter du mois prochain.",
         explanation: "\"Résilier\" + \"à compter de\": precise and polite.",
       },
       {
@@ -243,19 +349,43 @@ export const FR_C2_U02: Lesson[] = [
     number: 2,
     title: "Le Français Juridique et Administratif, Part 5 of 7",
     summary: "Formal notices and deadlines: the LRAR, la mise en demeure, la sommation, le commandement de payer; sous huitaine, sous quinzaine, faute de quoi, sous peine de, and absolute participle clauses (le délai expiré).",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
-        heading: "The registered letter and the mise en demeure",
+        heading: "The registered letter: LRAR",
         body: [
           "In France, anything that may end up in court is sent \"en recommandé avec accusé de réception\" (LRAR, or \"RAR\"): a registered letter whose signed receipt (\"l'accusé de réception\", \"l'AR\") comes back to the sender and proves the date of delivery. If nobody is home, the postman leaves \"un avis de passage\" and the letter waits at the post office for fifteen days; a letter not collected is \"un pli non réclamé\", and in many cases the law treats it as delivered anyway. Since 2018 an electronic equivalent exists (\"la lettre recommandée électronique\").",
-          "\"Une mise en demeure\" is the formal demand that a debtor perform an obligation within a deadline. It is the step before going to court, and it often has legal effects of its own: interest starts to run, and the debtor can no longer claim he didn't know. The key verb is \"mettre quelqu'un en demeure de\" + infinitive: \"je vous mets en demeure de me rembourser\". The letter usually contains the sentence \"La présente vaut mise en demeure\".",
-          "The tone of a mise en demeure is firm but never insulting: facts, dates, the legal or contractual basis, the demand, the deadline, the consequence. English speakers often write too emotionally (\"je suis scandalisé\") or too vaguely (\"rapidement\", \"dès que possible\"). French readers, and judges, expect precision.",
         ],
         examples: [
           { es: "Je vous ai adressé un courrier en recommandé avec accusé de réception le 3 février.", en: "I sent you a letter by recorded delivery with proof of receipt on 3 February." },
           { es: "Le facteur a laissé un avis de passage dans ma boîte aux lettres.", en: "The postman left a delivery notice in my letterbox." },
           { es: "Le pli est revenu avec la mention « non réclamé ».", en: "The letter came back marked 'not collected'." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does \"l'accusé de réception\" prove?",
+            options: ["The date on which the letter was delivered.", "That the recipient accepts the demand.", "That the recipient is guilty.", "The content of the letter."],
+            correctIndex: 0,
+            explanation: "The AR proves delivery and its date, not the content of the envelope (which is why some people use a commissaire de justice for important notices).",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "I kept [the proof of receipt] as evidence.",
+            sentence: "J'ai conservé ___ comme preuve.",
+            answer: "l'accusé de réception",
+            altAnswers: ["l'AR", "l'avis de réception"],
+            explanation: "\"L'accusé de réception\" (the AR) is the signed receipt that comes back to the sender and proves the date of delivery.",
+          },
+        ],
+      },
+      {
+        heading: "The mise en demeure",
+        body: [
+          "\"Une mise en demeure\" is the formal demand that a debtor perform an obligation within a deadline. It is the step before going to court, and it often has legal effects of its own: interest starts to run, and the debtor can no longer claim he didn't know. The key verb is \"mettre quelqu'un en demeure de\" + infinitive: \"je vous mets en demeure de me rembourser\". The letter usually contains the sentence \"La présente vaut mise en demeure\".",
+        ],
+        examples: [
           { es: "Je vous mets en demeure de me restituer le dépôt de garantie.", en: "I hereby formally demand that you return my deposit." },
           { es: "La présente vaut mise en demeure.", en: "This letter constitutes formal notice." },
           { es: "Malgré une mise en demeure restée sans effet, le locataire n'a pas réglé ses loyers.", en: "Despite a formal notice that produced no result, the tenant has not paid his rent." },
@@ -271,27 +401,72 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "\"Mettre quelqu'un en demeure de\" + infinitive; \"régler\" is the formal pay (an invoice).",
           },
           {
-            type: "multiple-choice",
-            question: "What does \"l'accusé de réception\" prove?",
-            options: ["The date on which the letter was delivered.", "That the recipient accepts the demand.", "That the recipient is guilty.", "The content of the letter."],
-            correctIndex: 0,
-            explanation: "The AR proves delivery and its date, not the content of the envelope (which is why some people use a commissaire de justice for important notices).",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Je vous mets en demeure à me rembourser les frais engagés.",
+            answer: "Je vous mets en demeure de me rembourser les frais engagés.",
+            explanation: "The construction is \"mettre quelqu'un en demeure de\" + infinitive, with \"de\", like \"sommer de\" and \"enjoindre de\".",
           },
         ],
       },
       {
-        heading: "Escalation: sommation, commandement de payer, injonction",
+        heading: "Firm, precise, never insulting",
+        body: [
+          "The tone of a mise en demeure is firm but never insulting: facts, dates, the legal or contractual basis, the demand, the deadline, the consequence. English speakers often write too emotionally (\"je suis scandalisé\") or too vaguely (\"rapidement\", \"dès que possible\"). French readers, and judges, expect precision.",
+        ],
+        examples: [
+          { es: "Conformément à l'article 4 du contrat, la livraison devait intervenir le 2 mai.", en: "Under article 4 of the contract, delivery was due on 2 May." },
+          { es: "À ce jour, je n'ai reçu aucune réponse.", en: "To date, I have received no reply." },
+          { es: "Je vous demande de régler la somme de 450 euros avant le 15 mars.", en: "I ask you to pay the sum of 450 euros before 15 March." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence suits a mise en demeure?",
+            options: ["Je vous demande de me rembourser la somme de 300 euros avant le 10 juin.", "Je suis scandalisé par votre attitude honteuse.", "Merci de me rembourser dès que possible.", "Remboursez-moi rapidement, sinon vous verrez."],
+            correctIndex: 0,
+            explanation: "A mise en demeure states the demand, the amount and a precise deadline, firmly and calmly. Emotion (\"scandalisé\"), vagueness (\"dès que possible\", \"rapidement\") and threats weaken it.",
+          },
+        ],
+      },
+      {
+        heading: "Escalation: sommation and commandement de payer",
         body: [
           "When a mise en demeure fails, a creditor moves up a level. \"Une sommation\" (\"sommer quelqu'un de\") is a formal summons to do something, served by a commissaire de justice. \"Un commandement de payer\" is the commissaire's order to pay, which comes before seizure (\"la saisie\") or, for a tenant, before the termination of the lease: \"un commandement de payer visant la clause résolutoire\" gives the tenant six weeks (formerly two months) to pay.",
-          "For an undisputed debt there is a quick court procedure: \"l'injonction de payer\". The creditor files \"une requête\" without a hearing; the judge issues \"une ordonnance d'injonction de payer\"; the debtor can \"former opposition\" (object) within one month of being served. Notice the pattern of all these words: \"sommer de\", \"enjoindre à quelqu'un de\" (to order someone to), \"commander de\".",
-          "Register matters. \"Sommer\" and \"enjoindre\" are legal or very formal; in a newspaper you read \"le gouvernement a sommé l'entreprise de s'expliquer\" with a figurative force. In everyday speech you just \"relancer\" someone (follow up) or \"mettre la pression\" on them.",
         ],
         examples: [
           { es: "Le commissaire de justice a délivré une sommation de quitter les lieux.", en: "The bailiff served a formal order to vacate the premises." },
           { es: "Le locataire a reçu un commandement de payer visant la clause résolutoire.", en: "The tenant received an order to pay invoking the termination clause." },
+          { es: "Faute de paiement, le commissaire de justice a procédé à la saisie du véhicule.", en: "For lack of payment, the bailiff seized the vehicle." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What usually comes just before a seizure (« la saisie ») of a debtor's goods?",
+            options: ["un commandement de payer", "une main courante", "un avenant", "un accusé de réception"],
+            correctIndex: 0,
+            explanation: "\"Le commandement de payer\" is the commissaire de justice's order to pay, which comes before \"la saisie\". A main courante records an incident with the police, an avenant amends a contract, and an AR proves delivery of a letter.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The tenant received an order to pay from the bailiff.",
+            answer: "Le locataire a reçu un commandement de payer du commissaire de justice.",
+            altAnswers: ["Le locataire a reçu un commandement de payer de l'huissier.", "La locataire a reçu un commandement de payer du commissaire de justice.", "Le commissaire de justice a délivré un commandement de payer au locataire.", "L'huissier a délivré un commandement de payer au locataire."],
+            explanation: "\"Un commandement de payer\" is served (\"délivré\", \"signifié\") by a commissaire de justice, ex-huissier.",
+          },
+        ],
+      },
+      {
+        heading: "The injonction de payer",
+        body: [
+          "For an undisputed debt there is a quick court procedure: \"l'injonction de payer\". The creditor files \"une requête\" without a hearing; the judge issues \"une ordonnance d'injonction de payer\"; the debtor can \"former opposition\" (object) within one month of being served. Notice the pattern of all these words: \"sommer de\", \"enjoindre à quelqu'un de\" (to order someone to), \"commander de\".",
+        ],
+        examples: [
           { es: "Le juge a rendu une ordonnance d'injonction de payer.", en: "The judge issued an order for payment." },
           { es: "Le débiteur dispose d'un mois pour former opposition.", en: "The debtor has one month to lodge an objection." },
-          { es: "La ministre a sommé la plateforme de retirer les contenus illicites.", en: "The minister ordered the platform to remove the illegal content." },
           { es: "Le tribunal a enjoint à la mairie de réexaminer la demande.", en: "The court ordered the town hall to reconsider the application." },
         ],
         checkpoint: [
@@ -315,19 +490,41 @@ export const FR_C2_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Deadlines and consequences: sous huitaine, faute de quoi",
+        heading: "Register: sommer in the news, relancer at home",
+        body: [
+          "Register matters. \"Sommer\" and \"enjoindre\" are legal or very formal; in a newspaper you read \"le gouvernement a sommé l'entreprise de s'expliquer\" with a figurative force. In everyday speech you just \"relancer\" someone (follow up) or \"mettre la pression\" on them.",
+        ],
+        examples: [
+          { es: "La ministre a sommé la plateforme de retirer les contenus illicites.", en: "The minister ordered the platform to remove the illegal content." },
+          { es: "Je l'ai relancé trois fois par mail.", en: "I've chased him up three times by email." },
+          { es: "Le patron nous met la pression pour finir avant vendredi.", en: "The boss is putting pressure on us to finish before Friday." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "You tell a friend you chased up your plumber twice. Which is natural?",
+            options: ["J'ai relancé le plombier deux fois.", "J'ai sommé le plombier deux fois.", "J'ai enjoint au plombier deux fois.", "J'ai mis le plombier en demeure deux fois."],
+            correctIndex: 0,
+            explanation: "In everyday speech you \"relancer\" someone. \"Sommer\", \"enjoindre\" and \"mettre en demeure\" are legal or very formal, and would make a casual chat sound like a court document.",
+          },
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: The minister ordered the company to explain itself.",
+            words: ["La ministre", "a", "sommé", "l'entreprise", "de", "s'expliquer."],
+            translation: "The minister ordered the company to explain itself.",
+            explanation: "\"Sommer quelqu'un de\" + infinitive: direct object, then de.",
+          },
+        ],
+      },
+      {
+        heading: "Deadlines: sous huitaine, passé ce délai",
         body: [
           "Legal French has its own deadline vocabulary. \"Sous huitaine\" means within eight days, \"sous quinzaine\" within fifteen days: \"sous\" here means within, not under, and \"huitaine\" is a set of about eight days (as \"une quinzaine\" is a fortnight). \"Dans un délai de deux mois à compter de la réception\" sets the start precisely. \"Au plus tard le\" fixes an end date. \"Passé ce délai\" means once this period has expired.",
-          "Consequences follow a small set of connectors. \"Faute de quoi\" and \"à défaut\" (failing which) start a new clause after the demand: \"Je vous demande de régler cette somme sous huitaine, faute de quoi je saisirai le tribunal.\" \"Sous peine de\" + noun or infinitive attaches the penalty directly: \"sous peine de poursuites\", \"sous peine d'être exclu\". \"À moins que\" takes the subjunctive (often with ne explétif), \"sauf si\" the indicative.",
-          "The absolute participle clause, met at the Advanced level, is the hallmark of notices: it states a completed fact as the ground for what follows. \"Le délai étant expiré, nous procéderons au recouvrement forcé.\" \"La présente ayant été notifiée le 4 mars, le délai court jusqu'au 4 mai.\" Even shorter, without \"étant\": \"Le délai expiré, aucune réclamation ne sera admise.\" The participle agrees with its own subject.",
         ],
         examples: [
           { es: "Je vous prie de me faire parvenir ce document sous huitaine.", en: "Please send me this document within eight days." },
-          { es: "Veuillez régulariser votre situation sous quinzaine, faute de quoi votre dossier sera clos.", en: "Please settle your situation within fifteen days, failing which your file will be closed." },
-          { es: "Les candidats doivent se présenter à l'heure, sous peine d'exclusion.", en: "Candidates must arrive on time or face exclusion." },
           { es: "Passé ce délai, aucune réclamation ne sera recevable.", en: "After this deadline, no claim will be admissible." },
-          { es: "Le délai étant expiré, nous procéderons au recouvrement forcé de la créance.", en: "The deadline having expired, we will proceed with enforced recovery of the debt." },
-          { es: "La présente ayant été notifiée le 4 mars, vous avez jusqu'au 4 mai pour répondre.", en: "This letter having been served on 4 March, you have until 4 May to reply." },
+          { es: "Le dossier doit être déposé au plus tard le 30 septembre.", en: "The file must be submitted by 30 September at the latest." },
         ],
         checkpoint: [
           {
@@ -340,12 +537,54 @@ export const FR_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
+            prompt: "Change « dans les huit jours » to legal style.",
+            source: "Merci de renvoyer le formulaire dans les huit jours.",
+            answer: "Merci de renvoyer le formulaire sous huitaine.",
+            altAnswers: ["Veuillez renvoyer le formulaire sous huitaine.", "Merci de nous renvoyer le formulaire sous huitaine."],
+            explanation: "\"Sous huitaine\" is the legal way to say within eight days (\"sous quinzaine\": within fifteen days); \"sous\" here means within, not under.",
+          },
+        ],
+      },
+      {
+        heading: "Consequences: faute de quoi, sous peine de",
+        body: [
+          "Consequences follow a small set of connectors. \"Faute de quoi\" and \"à défaut\" (failing which) start a new clause after the demand: \"Je vous demande de régler cette somme sous huitaine, faute de quoi je saisirai le tribunal.\" \"Sous peine de\" + noun or infinitive attaches the penalty directly: \"sous peine de poursuites\", \"sous peine d'être exclu\". \"À moins que\" takes the subjunctive (often with ne explétif), \"sauf si\" the indicative.",
+        ],
+        examples: [
+          { es: "Veuillez régulariser votre situation sous quinzaine, faute de quoi votre dossier sera clos.", en: "Please settle your situation within fifteen days, failing which your file will be closed." },
+          { es: "Les candidats doivent se présenter à l'heure, sous peine d'exclusion.", en: "Candidates must arrive on time or face exclusion." },
+          { es: "Vous devez quitter le logement avant le 30 juin, faute de quoi une procédure sera engagée.", en: "You must leave the property before 30 June, failing which proceedings will be started." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence uses the mood correctly?",
+            options: ["Je saisirai le tribunal, à moins que vous ne régliez la somme sous huitaine.", "Je saisirai le tribunal, à moins que vous réglez la somme sous huitaine.", "Je saisirai le tribunal, sauf si vous régliez la somme sous huitaine.", "Je saisirai le tribunal, sauf si vous ne régliez la somme sous huitaine."],
+            correctIndex: 0,
+            explanation: "\"À moins que\" + subjunctive (\"régliez\"), here with the ne explétif; \"sauf si\" would need the present indicative \"réglez\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
             prompt: "Translate into French in the style of a formal notice.",
             source: "Please pay this sum within fifteen days, failing which I will refer the matter to the court.",
             answer: "Je vous prie de régler cette somme sous quinzaine, faute de quoi je saisirai le tribunal.",
             altAnswers: ["Je vous prie de régler cette somme sous quinzaine, à défaut de quoi je saisirai le tribunal.", "Je vous prie de régler cette somme dans un délai de quinze jours, faute de quoi je saisirai le tribunal.", "Je vous demande de régler cette somme sous quinzaine, faute de quoi je saisirai le tribunal.", "Veuillez régler cette somme sous quinzaine, faute de quoi je saisirai le tribunal.", "Je vous prie de régler cette somme sous quinzaine, à défaut je saisirai le tribunal."],
             explanation: "\"Sous quinzaine\" (within fifteen days) and \"faute de quoi\" (failing which); \"saisir le tribunal\" is to refer a matter to a court.",
           },
+        ],
+      },
+      {
+        heading: "The absolute participle clause",
+        body: [
+          "The absolute participle clause, met at the Advanced level, is the hallmark of notices: it states a completed fact as the ground for what follows. \"Le délai étant expiré, nous procéderons au recouvrement forcé.\" \"La présente ayant été notifiée le 4 mars, le délai court jusqu'au 4 mai.\" Even shorter, without \"étant\": \"Le délai expiré, aucune réclamation ne sera admise.\" The participle agrees with its own subject.",
+        ],
+        examples: [
+          { es: "Le délai étant expiré, nous procéderons au recouvrement forcé de la créance.", en: "The deadline having expired, we will proceed with enforced recovery of the debt." },
+          { es: "La présente ayant été notifiée le 4 mars, vous avez jusqu'au 4 mai pour répondre.", en: "This letter having been served on 4 March, you have until 4 May to reply." },
+          { es: "Les travaux terminés, l'entreprise a remis les clés.", en: "The works finished, the company handed back the keys." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -354,6 +593,15 @@ export const FR_C2_U02: Lesson[] = [
             answer: "Le délai étant expiré, votre demande n'est plus recevable.",
             altAnswers: ["Le délai expiré, votre demande n'est plus recevable.", "Le délai ayant expiré, votre demande n'est plus recevable.", "Le délai étant expiré, votre candidature n'est plus recevable."],
             explanation: "\"Le délai étant expiré\" (or simply \"le délai expiré\") states the ground in absolute participle form; \"recevable\" is the legal admissible.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into an absolute participle clause.",
+            source: "Comme le contrat a été signé, les travaux peuvent commencer.",
+            answer: "Le contrat ayant été signé, les travaux peuvent commencer.",
+            altAnswers: ["Le contrat signé, les travaux peuvent commencer.", "Le contrat étant signé, les travaux peuvent commencer."],
+            explanation: "The absolute participle states a completed fact as the ground for what follows: \"le contrat ayant été signé\" replaces \"comme le contrat a été signé\". The shorter \"le contrat signé\" works too.",
           },
         ],
       },
@@ -372,10 +620,10 @@ export const FR_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "This letter constitutes formal notice.",
-        answer: "La présente vaut mise en demeure.",
-        altAnswers: ["Le présent courrier vaut mise en demeure.", "La présente lettre vaut mise en demeure.", "Ce courrier vaut mise en demeure."],
-        explanation: "The fixed sentence that gives a letter its legal force: \"valoir\" + noun with no article.",
+        source: "This letter constitutes formal notice to pay the outstanding rent.",
+        answer: "La présente vaut mise en demeure de payer les loyers impayés.",
+        altAnswers: ["La présente vaut mise en demeure de payer l'arriéré de loyers.", "La présente vaut mise en demeure de régler les loyers impayés.", "La présente vaut mise en demeure de payer les loyers dus.", "La présente vaut mise en demeure de régler les loyers dus.", "La présente lettre vaut mise en demeure de payer les loyers impayés.", "La présente vaut mise en demeure de régler l'arriéré de loyers."],
+        explanation: "\"La présente\" (this letter) \"vaut mise en demeure de\" + infinitive: the letter itself is the formal notice, and it names what must be done.",
       },
       {
         type: "fill-blank",
@@ -390,31 +638,10 @@ export const FR_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "The tenant received an order to pay from the bailiff.",
-        answer: "Le locataire a reçu un commandement de payer du commissaire de justice.",
-        altAnswers: ["Le locataire a reçu un commandement de payer de l'huissier.", "La locataire a reçu un commandement de payer du commissaire de justice.", "Le commissaire de justice a délivré un commandement de payer au locataire.", "L'huissier a délivré un commandement de payer au locataire."],
-        explanation: "\"Un commandement de payer\" is served (\"délivré\", \"signifié\") by a commissaire de justice, ex-huissier.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
         source: "After this deadline, no claim will be accepted.",
         answer: "Passé ce délai, aucune réclamation ne sera acceptée.",
         altAnswers: ["Passé ce délai, aucune réclamation ne sera recevable.", "Passé ce délai, aucune réclamation ne sera admise.", "Au-delà de ce délai, aucune réclamation ne sera acceptée.", "Passé ce délai, aucune réclamation ne sera prise en compte."],
         explanation: "\"Passé ce délai\": the participle stays invariable when it comes first, like a preposition (as \"vu\" and \"excepté\").",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence uses the mood correctly?",
-        options: [
-          "Je saisirai le tribunal, à moins que vous ne régliez la somme sous huitaine.",
-          "Je saisirai le tribunal, à moins que vous réglez la somme sous huitaine.",
-          "Je saisirai le tribunal, sauf si vous régliez la somme sous huitaine.",
-          "Je saisirai le tribunal, sauf si vous ne régliez la somme sous huitaine.",
-        ],
-        correctIndex: 0,
-        explanation: "\"À moins que\" + subjunctive (\"régliez\"), here with the ne explétif; \"sauf si\" would need the present indicative \"réglez\".",
       },
       {
         type: "translate",
@@ -426,13 +653,6 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "\"Ayant été notifiée\" (compound passive participle) agrees with \"la mise en demeure\"; a deadline \"court\".",
       },
       {
-        type: "word-order",
-        prompt: "Put the words in order to say: The minister ordered the company to explain itself.",
-        words: ["La ministre", "a", "sommé", "l'entreprise", "de", "s'expliquer."],
-        translation: "The minister ordered the company to explain itself.",
-        explanation: "\"Sommer quelqu'un de\" + infinitive: direct object, then de.",
-      },
-      {
         type: "listen-choose",
         audio: "Veuillez régulariser votre situation sous quinzaine.",
         question: "What does it mean?",
@@ -442,8 +662,8 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Faute de quoi, je me verrai contraint de saisir le tribunal.",
         prompt: "Say it in French (as a man): Failing which, I shall be compelled to take the matter to court.",
+        text: "Faute de quoi, je me verrai contraint de saisir le tribunal.",
         tip: "Contraint ends in a nasal sound: con-trin, no t.",
         explanation: "\"Se voir contraint(e) de\" is the polite-but-firm formula of formal notices; a woman says \"contrainte\".",
       },
@@ -451,10 +671,10 @@ export const FR_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "The letter came back marked 'not collected'.",
-        answer: "Le pli est revenu avec la mention « non réclamé ».",
-        altAnswers: ["La lettre est revenue avec la mention « non réclamée ».", "Le courrier est revenu avec la mention « non réclamé ».", "Le pli m'a été retourné avec la mention « non réclamé ».", "La lettre m'a été retournée avec la mention « non réclamé »."],
-        explanation: "\"Un pli\" is the formal word for a letter or envelope; \"la mention\" is what is written on it.",
+        source: "The letter, which was not collected, came back after fifteen days.",
+        answer: "Le pli, non réclamé, est revenu au bout de quinze jours.",
+        altAnswers: ["Le pli non réclamé est revenu au bout de quinze jours.", "Le pli, qui n'a pas été réclamé, est revenu au bout de quinze jours.", "La lettre, non réclamée, est revenue au bout de quinze jours.", "Le pli, non réclamé, m'est revenu au bout de quinze jours.", "Le pli, non réclamé, est revenu après quinze jours."],
+        explanation: "A registered letter nobody collects is \"un pli non réclamé\"; it waits fifteen days at the post office, then goes back to the sender.",
       },
     ],
   },
@@ -464,22 +684,17 @@ export const FR_C2_U02: Lesson[] = [
     number: 3,
     title: "Error Hunt: Clauses Mal Rédigées",
     summary: "Find and fix badly drafted clauses: anglicisms (ASAP, la compagnie), mixed registers, deadlines with no starting point, et/ou, ambiguous pronouns and vague obligations.",
-    duration: "17 min",
+    duration: "18 min",
     sections: [
       {
-        heading: "Anglicisms and wrong register",
+        heading: "Anglicisms in the nouns: ASAP, compagnie, deadline",
         body: [
           "Contracts drafted in international companies are often half-translated from English, and French readers notice at once. \"Le client devra payer ASAP\" mixes an English acronym into a legal text and says nothing measurable: write \"dans un délai de trente jours à compter de la date de facturation\". \"La compagnie\" for a company is an anglicism except for airlines, insurers and a few historic firms (\"une compagnie aérienne\", \"une compagnie d'assurances\"): in a contract write \"la société\". \"La deadline\" becomes \"la date limite\" or \"l'échéance\"; \"le process\" becomes \"la procédure\" or \"le processus\".",
-          "Watch the verbs too. \"Adresser un problème\" is a calque of 'address a problem': write \"traiter\", \"remédier à\" or \"régler un problème\". \"Supporter\" means to bear or tolerate (\"supporter les frais\" = to bear the costs), not to support (\"soutenir\"). \"Délivrer\" is to issue a document (\"délivrer une attestation\"), and goods are \"livrés\". \"Éventuellement\" means possibly, not eventually (\"finalement\", \"à terme\").",
-          "Mixed registers are the other giveaway. A clause like \"Le locataire doit pas faire de bruit après 22 h\" drops the \"ne\" and uses a vague \"faire du bruit\". Legal style: \"Le preneur s'engage à ne causer aucune nuisance sonore après 22 heures.\" Contracts use the full negation, the deontic present or future, and nominal precision.",
         ],
         examples: [
           { es: "Le paiement interviendra dans un délai de trente jours à compter de la date de facturation.", en: "Payment will be made within thirty days of the invoice date." },
           { es: "La société s'engage à livrer la marchandise au plus tard le 15 mai.", en: "The company undertakes to deliver the goods by 15 May at the latest." },
-          { es: "Les frais de transport sont supportés par l'acheteur.", en: "Transport costs are borne by the buyer." },
-          { es: "Le prestataire s'engage à remédier à toute anomalie sous quarante-huit heures.", en: "The provider undertakes to remedy any malfunction within forty-eight hours." },
-          { es: "La mairie délivre l'attestation dans un délai de dix jours.", en: "The town hall issues the certificate within ten days." },
-          { es: "Le preneur s'engage à ne causer aucune nuisance sonore après 22 heures.", en: "The tenant undertakes not to cause any noise nuisance after 10 p.m." },
+          { es: "La date limite de dépôt des offres est fixée au 3 juin.", en: "The deadline for submitting bids is set for 3 June." },
         ],
         checkpoint: [
           {
@@ -492,72 +707,213 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "A deadline in a contract needs a length and a starting point: \"dans un délai de trente jours à compter de la date de facturation\".",
           },
           {
-            type: "multiple-choice",
-            question: "Which sentence is correct in a contract?",
-            options: [
-              "Les frais de dossier sont supportés par le client.",
-              "Les frais de dossier sont supportés pour le client.",
-              "La compagnie supportera le client dans ses démarches.",
-              "Le prestataire adressera le problème rapidement.",
-            ],
-            correctIndex: 0,
-            explanation: "\"Supporter les frais\" = to bear the costs. To support someone is \"soutenir / accompagner\"; to address a problem is \"traiter / régler\"; a company is \"la société\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La compagnie s'engage à respecter la deadline.",
+            answer: "La société s'engage à respecter la date limite.",
+            altAnswers: ["La société s'engage à respecter l'échéance.", "La société s'engage à respecter le délai."],
+            explanation: "Two anglicisms: in a contract a company is \"la société\" (\"compagnie\" is for airlines, insurers and a few historic firms), and \"la deadline\" is \"la date limite\" or \"l'échéance\".",
           },
         ],
       },
       {
-        heading: "Time, numbers and lists: say exactly what you mean",
+        heading: "Calqued verbs: adresser, supporter, délivrer, éventuellement",
+        body: [
+          "Watch the verbs too. \"Adresser un problème\" is a calque of 'address a problem': write \"traiter\", \"remédier à\" or \"régler un problème\". \"Supporter\" means to bear or tolerate (\"supporter les frais\" = to bear the costs), not to support (\"soutenir\"). \"Délivrer\" is to issue a document (\"délivrer une attestation\"), and goods are \"livrés\". \"Éventuellement\" means possibly, not eventually (\"finalement\", \"à terme\").",
+        ],
+        examples: [
+          { es: "Les frais de transport sont supportés par l'acheteur.", en: "Transport costs are borne by the buyer." },
+          { es: "Le prestataire s'engage à remédier à toute anomalie sous quarante-huit heures.", en: "The provider undertakes to remedy any malfunction within forty-eight hours." },
+          { es: "La mairie délivre l'attestation dans un délai de dix jours.", en: "The town hall issues the certificate within ten days." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct in a contract?",
+            options: ["Les frais de dossier sont supportés par le client.", "Les frais de dossier sont supportés pour le client.", "La compagnie supportera le client dans ses démarches.", "Le prestataire adressera le problème rapidement."],
+            correctIndex: 0,
+            explanation: "\"Supporter les frais\" = to bear the costs. To support someone is \"soutenir / accompagner\"; to address a problem is \"traiter / régler\"; a company is \"la société\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Le prestataire adressera le problème sous vingt-quatre heures.",
+            answer: "Le prestataire traitera le problème sous vingt-quatre heures.",
+            altAnswers: ["Le prestataire réglera le problème sous vingt-quatre heures.", "Le prestataire remédiera au problème sous vingt-quatre heures."],
+            explanation: "\"Adresser un problème\" is a calque of to address a problem. French \"traite\", \"règle\" or \"remédie à\" a problem.",
+          },
+        ],
+      },
+      {
+        heading: "Mixed registers: full negation, deontic verbs",
+        body: [
+          "Mixed registers are the other giveaway. A clause like \"Le locataire doit pas faire de bruit après 22 h\" drops the \"ne\" and uses a vague \"faire du bruit\". Legal style: \"Le preneur s'engage à ne causer aucune nuisance sonore après 22 heures.\" Contracts use the full negation, the deontic present or future, and nominal precision.",
+        ],
+        examples: [
+          { es: "Le preneur s'engage à ne causer aucune nuisance sonore après 22 heures.", en: "The tenant undertakes not to cause any noise nuisance after 10 p.m." },
+          { es: "Le preneur s'interdit de fumer dans les parties communes.", en: "The tenant shall not smoke in the common areas." },
+          { es: "Le preneur ne pourra en aucun cas sous-louer le logement.", en: "The tenant may under no circumstances sublet the property." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into legal style with « le preneur s'engage à ».",
+            source: "Le locataire doit pas laisser son vélo dans l'entrée.",
+            answer: "Le preneur s'engage à ne pas laisser son vélo dans l'entrée.",
+            altAnswers: ["Le preneur s'engage à ne laisser aucun vélo dans l'entrée.", "Le preneur s'engage à ne pas laisser sa bicyclette dans l'entrée.", "Le preneur s'engage à ne pas laisser son vélo dans le hall d'entrée."],
+            explanation: "Legal style restores the full negation (\"ne pas\", placed before the infinitive) and uses the deontic \"s'engage à\" with the legal role, \"le preneur\", instead of everyday \"doit\".",
+          },
+        ],
+      },
+      {
+        heading: "Days: calendaires, ouvrables, ouvrés",
         body: [
           "\"Dans les 30 jours\" is the most common flaw: 30 days from what? From the signature, the invoice, the delivery, the receipt of the letter? And what kind of days? French distinguishes \"jours calendaires\" (every day of the calendar), \"jours ouvrables\" (all days except Sundays and public holidays, so usually Monday to Saturday) and \"jours ouvrés\" (the days the company actually works, usually Monday to Friday). A deadline of \"cinq jours\" can mean a week or more depending on the choice.",
-          "\"Et/ou\" is ambiguous and frowned upon in French legal style. Write what you mean: \"l'un ou l'autre, ou les deux\", or rephrase: \"le locataire ou son conjoint, ou les deux\". \"Etc.\" has no place in a list of obligations: either the list is exhaustive, or you say so with \"notamment\" (in particular, not limited to): \"les charges comprennent notamment l'entretien des parties communes\".",
-          "Numbers: in contracts, sums are written in figures and in words, and the words prevail if they differ: \"la somme de mille deux cents euros (1 200 €)\". Hours use the 24-hour clock: \"22 heures\", never \"10 h du soir\". Dates are complete: \"le 15 mai 2026\", not \"le 15/05\".",
         ],
         examples: [
           { es: "La livraison interviendra dans un délai de dix jours ouvrés à compter de la commande.", en: "Delivery will take place within ten working days of the order." },
           { es: "Le délai de rétractation est de quatorze jours calendaires.", en: "The cooling-off period is fourteen calendar days." },
-          { es: "Les charges comprennent notamment l'entretien des parties communes.", en: "The charges include, in particular, the upkeep of the common areas." },
-          { es: "Le prix est fixé à la somme de mille deux cents euros (1 200 €).", en: "The price is set at the sum of one thousand two hundred euros (1,200 euros)." },
-          { es: "Le locataire ou son conjoint, ou les deux, pourront signer le congé.", en: "The tenant or his spouse, or both, may sign the notice." },
-          { es: "Les travaux bruyants sont interdits après 20 heures.", en: "Noisy works are prohibited after 8 p.m." },
+          { es: "Le colis sera livré sous cinq jours ouvrables.", en: "The parcel will be delivered within five working days (Saturdays included)." },
         ],
         checkpoint: [
           {
-            type: "fill-blank",
-            prompt: "Fix the vague \"dans les 10 jours\". Write the French for the bold words.",
-            en: "Delivery will take place within ten working days [from the order].",
-            sentence: "La livraison aura lieu dans un délai de dix jours ouvrés ___.",
-            answer: "à compter de la commande",
-            altAnswers: ["à compter de la date de commande", "à partir de la commande", "suivant la commande"],
-            explanation: "\"À compter de\" + a precise event gives the deadline its starting point.",
+            type: "multiple-choice",
+            question: "The contract says \"dix jours ouvrés\". Which days count?",
+            options: ["The days the company works, usually Monday to Friday.", "Every day of the calendar.", "All days except Sundays and public holidays.", "Only days when the shop is open late."],
+            correctIndex: 0,
+            explanation: "\"Ouvrés\" = actually worked (Mon-Fri); \"ouvrables\" = Monday to Saturday except holidays; \"calendaires\" = every day.",
           },
           {
-            type: "multiple-choice",
-            question: "A clause says: \"Les charges comprennent l'entretien de l'ascenseur, le ménage, etc.\" What is the best correction?",
-            options: [
-              "Les charges comprennent notamment l'entretien de l'ascenseur et le ménage des parties communes.",
-              "Les charges comprennent l'entretien de l'ascenseur et/ou le ménage.",
-              "Les charges comprennent l'entretien de l'ascenseur, le ménage, et cetera.",
-              "Les charges comprennent plein de choses comme l'ascenseur.",
-            ],
-            correctIndex: 0,
-            explanation: "\"Notamment\" signals a non-exhaustive list in legal style; \"etc.\" and \"et/ou\" are banned, and \"plein de choses\" is colloquial.",
+            type: "fill-blank",
+            prompt: "Fix the vague \"dans les 5 jours\". Write the French for the bold words.",
+            en: "Repairs will be carried out within five working days [from the report of the fault].",
+            sentence: "Les réparations seront effectuées dans un délai de cinq jours ouvrés ___.",
+            answer: "à compter du signalement de la panne",
+            altAnswers: ["à compter du signalement de l'incident", "à compter du signalement de la défaillance", "à compter de la date du signalement de la panne"],
+            explanation: "A deadline needs its starting point: \"à compter du signalement de la panne\" (from the report). \"Jours ouvrés\" also says which days count.",
           },
         ],
       },
       {
-        heading: "Ambiguous pronouns and empty obligations",
+        heading: "No et/ou, no etc.: say notamment",
+        body: [
+          "\"Et/ou\" is ambiguous and frowned upon in French legal style. Write what you mean: \"l'un ou l'autre, ou les deux\", or rephrase: \"le locataire ou son conjoint, ou les deux\". \"Etc.\" has no place in a list of obligations: either the list is exhaustive, or you say so with \"notamment\" (in particular, not limited to): \"les charges comprennent notamment l'entretien des parties communes\".",
+        ],
+        examples: [
+          { es: "Les charges comprennent notamment l'entretien des parties communes.", en: "The charges include, in particular, the upkeep of the common areas." },
+          { es: "Le locataire ou son conjoint, ou les deux, pourront signer le congé.", en: "The tenant or his spouse, or both, may sign the notice." },
+          { es: "Les frais comprennent notamment les honoraires d'expert.", en: "The costs include, in particular, the expert's fees." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A clause says: \"Les charges comprennent l'entretien de l'ascenseur, le ménage, etc.\" What is the best correction?",
+            options: ["Les charges comprennent notamment l'entretien de l'ascenseur et le ménage des parties communes.", "Les charges comprennent l'entretien de l'ascenseur et/ou le ménage.", "Les charges comprennent l'entretien de l'ascenseur, le ménage, et cetera.", "Les charges comprennent plein de choses comme l'ascenseur."],
+            correctIndex: 0,
+            explanation: "\"Notamment\" signals a non-exhaustive list in legal style; \"etc.\" and \"et/ou\" are banned, and \"plein de choses\" is colloquial.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Fix this clause: \"Le salarié et/ou son manager valideront les congés.\" Translate the corrected version into French.",
+            source: "Leave will be approved by the employee's manager.",
+            answer: "Les congés seront validés par le responsable hiérarchique du salarié.",
+            altAnswers: ["Les congés seront validés par le supérieur hiérarchique du salarié.", "Les congés seront approuvés par le responsable hiérarchique du salarié.", "Les congés seront approuvés par le supérieur hiérarchique du salarié.", "Le responsable hiérarchique du salarié validera les congés."],
+            explanation: "Drop \"et/ou\" and the anglicism \"manager\" in a legal text: \"le responsable / supérieur hiérarchique\".",
+          },
+        ],
+      },
+      {
+        heading: "Sums in words, hours on the 24-hour clock, full dates",
+        body: [
+          "Numbers: in contracts, sums are written in figures and in words, and the words prevail if they differ: \"la somme de mille deux cents euros (1 200 €)\". Hours use the 24-hour clock: \"22 heures\", never \"10 h du soir\". Dates are complete: \"le 15 mai 2026\", not \"le 15/05\".",
+        ],
+        examples: [
+          { es: "Le prix est fixé à la somme de mille deux cents euros (1 200 €).", en: "The price is set at the sum of one thousand two hundred euros (1,200 euros)." },
+          { es: "Les travaux bruyants sont interdits après 20 heures.", en: "Noisy works are prohibited after 8 p.m." },
+          { es: "Le rendez-vous est fixé au 3 juin 2026 à 14 heures.", en: "The appointment is set for 3 June 2026 at 2 p.m." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "L'état des lieux aura lieu le 15/05/2026 à 3 h de l'après-midi.",
+            answer: "L'état des lieux aura lieu le 15 mai 2026 à 15 heures.",
+            altAnswers: ["L'état des lieux aura lieu le 15 mai 2026 à 15 h."],
+            explanation: "In a contract the date is written in full (\"le 15 mai 2026\") and the hour on the 24-hour clock (\"15 heures\"), never \"3 h de l'après-midi\".",
+          },
+        ],
+      },
+      {
+        heading: "Ambiguous pronouns: repeat the role, or use lequel",
         body: [
           "A clause like \"Le bailleur informera le preneur de toute modification lorsqu'il le jugera nécessaire\" leaves a question: who judges, the landlord or the tenant? \"Il\" can refer to either. Legal French avoids the risk by repeating the role: \"lorsque le bailleur le jugera nécessaire\", or by using \"ce dernier\" (the latter) for the nearest noun: \"Le bailleur informe le preneur, lequel dispose alors d'un mois pour répondre.\" \"Lequel / laquelle\" as a relative is also used precisely because it shows gender and number.",
-          "An obligation without content is unenforceable. \"Le prestataire fera de son mieux pour livrer rapidement\" binds nobody. If you mean a best-efforts obligation, French law has a term for it: \"une obligation de moyens\" (\"le prestataire mettra en œuvre tous les moyens raisonnables pour...\"), opposed to \"une obligation de résultat\" (\"le prestataire s'engage à livrer au plus tard le...\"). Choosing between them is a legal decision, not a stylistic one.",
-          "Finally, beware of \"devra\" without a subject who can be held to it, and of the passive with no agent: \"Les clés devront être rendues\" (by whom? to whom? when?). Write: \"Le preneur remettra les clés au bailleur le jour de l'état des lieux de sortie.\"",
         ],
         examples: [
           { es: "Le bailleur informera le preneur de toute modification lorsque le bailleur le jugera nécessaire.", en: "The landlord will inform the tenant of any change when the landlord deems it necessary." },
           { es: "Le bailleur avise le preneur, lequel dispose alors d'un mois pour répondre.", en: "The landlord notifies the tenant, who then has one month to reply." },
+          { es: "Le vendeur a informé l'acheteur de ce défaut, ce dernier ayant alors renoncé à la vente.", en: "The seller informed the buyer of this defect, the latter then withdrawing from the sale." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "\"Le bailleur informera le preneur s'il le juge utile.\" What is the problem?",
+            options: ["\"Il\" could refer to either the landlord or the tenant.", "\"Informer\" cannot take a person as object.", "The future is not allowed in contracts.", "\"Utile\" must agree with \"preneur\"."],
+            correctIndex: 0,
+            explanation: "The pronoun is ambiguous; repeat the role (\"si le bailleur le juge utile\") or use \"ce dernier\" / \"lequel\".",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The landlord notifies the tenant, [who] then has fifteen days to reply.",
+            sentence: "Le bailleur avise le preneur, ___ dispose alors de quinze jours pour répondre.",
+            answer: "lequel",
+            altAnswers: ["ce dernier", "qui"],
+            explanation: "\"Lequel\" (or \"ce dernier\") is the legal drafter's choice: it marks gender and number and leaves no doubt that the tenant is meant. \"Qui\" is grammatical too, but in a long clause with two masculine roles it is less explicit.",
+          },
+        ],
+      },
+      {
+        heading: "Obligation de moyens or de résultat",
+        body: [
+          "An obligation without content is unenforceable. \"Le prestataire fera de son mieux pour livrer rapidement\" binds nobody. If you mean a best-efforts obligation, French law has a term for it: \"une obligation de moyens\" (\"le prestataire mettra en œuvre tous les moyens raisonnables pour...\"), opposed to \"une obligation de résultat\" (\"le prestataire s'engage à livrer au plus tard le...\"). Choosing between them is a legal decision, not a stylistic one.",
+        ],
+        examples: [
           { es: "Le prestataire est tenu d'une obligation de moyens.", en: "The provider is bound by a best-efforts obligation." },
           { es: "Le transporteur est tenu d'une obligation de résultat.", en: "The carrier is bound by an obligation to achieve a specific result." },
+          { es: "Le prestataire s'engage à livrer le logiciel au plus tard le 1er octobre.", en: "The provider undertakes to deliver the software by 1 October at the latest." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "« Le prestataire fera de son mieux pour livrer rapidement. » What is wrong with this clause?",
+            options: ["It binds nobody: nothing in it can be measured or enforced.", "\"Faire de son mieux\" is too formal for a contract.", "The future tense is not allowed in contracts.", "\"Livrer\" should be \"délivrer\"."],
+            correctIndex: 0,
+            explanation: "An obligation without content is unenforceable. Either write a best-efforts obligation (\"mettra en œuvre tous les moyens raisonnables\") or a result (\"s'engage à livrer au plus tard le...\"). The future is normal in contracts, and goods are \"livrées\".",
+          },
+          {
+            type: "listen-choose",
+            audio: "Le prestataire est tenu d'une obligation de résultat.",
+            question: "What does it mean?",
+            options: ["The provider must achieve the promised result.", "The provider only has to do his best.", "The provider must report his results.", "The provider is paid according to results."],
+            correctIndex: 0,
+            explanation: "\"Une obligation de résultat\": failure to achieve the result is a breach in itself. Its opposite is \"une obligation de moyens\".",
+          },
+        ],
+      },
+      {
+        heading: "Who must do it? Name the subject",
+        body: [
+          "Finally, beware of \"devra\" without a subject who can be held to it, and of the passive with no agent: \"Les clés devront être rendues\" (by whom? to whom? when?). Write: \"Le preneur remettra les clés au bailleur le jour de l'état des lieux de sortie.\"",
+        ],
+        examples: [
           { es: "Le preneur remettra les clés au bailleur le jour de l'état des lieux de sortie.", en: "The tenant will hand the keys to the landlord on the day of the move-out inspection." },
-          { es: "Le vendeur a informé l'acheteur de ce défaut, ce dernier ayant alors renoncé à la vente.", en: "The seller informed the buyer of this defect, the latter then withdrawing from the sale." },
+          { es: "Le bailleur restituera le dépôt de garantie au preneur dans un délai d'un mois.", en: "The landlord will return the deposit to the tenant within one month." },
+          { es: "L'acheteur réglera le solde au vendeur le jour de la livraison.", en: "The buyer will pay the balance to the seller on the day of delivery." },
         ],
         checkpoint: [
           {
@@ -570,26 +926,13 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "Name who acts, towards whom and when; \"remettre\" or \"restituer\" are the precise verbs.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "The landlord notifies the tenant, [who] then has fifteen days to reply.",
-            sentence: "Le bailleur avise le preneur, ___ dispose alors de quinze jours pour répondre.",
-            answer: "lequel",
-            altAnswers: ["ce dernier", "qui"],
-            explanation: "\"Lequel\" (or \"ce dernier\") is the legal drafter's choice: it marks gender and number and leaves no doubt that the tenant is meant. \"Qui\" is grammatical too, but in a long clause with two masculine roles it is less explicit.",
-          },
-          {
-            type: "listen-choose",
-            audio: "Le prestataire est tenu d'une obligation de résultat.",
-            question: "What does it mean?",
-            options: [
-              "The provider must achieve the promised result.",
-              "The provider only has to do his best.",
-              "The provider must report his results.",
-              "The provider is paid according to results.",
-            ],
-            correctIndex: 0,
-            explanation: "\"Une obligation de résultat\": failure to achieve the result is a breach in itself. Its opposite is \"une obligation de moyens\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into an active sentence with « le preneur » as the subject.",
+            source: "Les lieux devront être nettoyés avant le départ.",
+            answer: "Le preneur nettoiera les lieux avant son départ.",
+            altAnswers: ["Le preneur devra nettoyer les lieux avant son départ.", "Le preneur nettoiera les lieux avant le départ.", "Le preneur devra nettoyer les lieux avant le départ."],
+            explanation: "A passive with no agent leaves open who is bound. Name the party and use the deontic future: \"le preneur nettoiera\" (or \"devra nettoyer\").",
           },
         ],
       },
@@ -608,17 +951,10 @@ export const FR_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French in legal style.",
-        source: "Transport costs will be borne by the buyer.",
-        answer: "Les frais de transport seront supportés par l'acheteur.",
-        altAnswers: ["Les frais de transport seront à la charge de l'acheteur.", "Les frais de transport seront supportés par l'acquéreur.", "Les frais de transport seront à la charge de l'acquéreur.", "Les frais de transport sont à la charge de l'acheteur."],
-        explanation: "\"Supporter les frais\" means to bear them; \"à la charge de\" is the alternative.",
-      },
-      {
-        type: "multiple-choice",
-        question: "The contract says \"dix jours ouvrés\". Which days count?",
-        options: ["The days the company works, usually Monday to Friday.", "Every day of the calendar.", "All days except Sundays and public holidays.", "Only days when the shop is open late."],
-        correctIndex: 0,
-        explanation: "\"Ouvrés\" = actually worked (Mon-Fri); \"ouvrables\" = Monday to Saturday except holidays; \"calendaires\" = every day.",
+        source: "Installation costs will be borne by the landlord.",
+        answer: "Les frais d'installation seront supportés par le bailleur.",
+        altAnswers: ["Les frais d'installation seront à la charge du bailleur.", "Les frais d'installation sont supportés par le bailleur.", "Les frais d'installation sont à la charge du bailleur.", "Les frais d'installation seront supportés par le propriétaire."],
+        explanation: "\"Supporter les frais\" means to bear the costs (not to support); \"à la charge de\" says the same.",
       },
       {
         type: "translate",
@@ -641,22 +977,10 @@ export const FR_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French in legal style.",
-        source: "The price is set at the sum of two thousand five hundred euros.",
-        answer: "Le prix est fixé à la somme de deux mille cinq cents euros.",
-        altAnswers: ["Le prix est fixé à la somme de deux mille cinq cents euros (2 500 €).", "Le prix est arrêté à la somme de deux mille cinq cents euros.", "Le prix est fixé à la somme de 2 500 euros."],
-        explanation: "Sums are written in words (and figures). \"Cents\" takes an s when nothing follows: \"cinq cents euros\", but \"cinq cent dix\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "\"Le bailleur informera le preneur s'il le juge utile.\" What is the problem?",
-        options: [
-          "\"Il\" could refer to either the landlord or the tenant.",
-          "\"Informer\" cannot take a person as object.",
-          "The future is not allowed in contracts.",
-          "\"Utile\" must agree with \"preneur\".",
-        ],
-        correctIndex: 0,
-        explanation: "The pronoun is ambiguous; repeat the role (\"si le bailleur le juge utile\") or use \"ce dernier\" / \"lequel\".",
+        source: "The deposit is set at the sum of nine hundred and fifty euros.",
+        answer: "Le dépôt de garantie est fixé à la somme de neuf cent cinquante euros.",
+        altAnswers: ["Le dépôt de garantie est fixé à la somme de neuf cent cinquante euros (950 €).", "Le dépôt de garantie est fixé à la somme de neuf cent cinquante euros (950 euros).", "Le dépôt de garantie s'élève à la somme de neuf cent cinquante euros."],
+        explanation: "Sums are written in words (and in figures): \"neuf cent cinquante\" (no -s on \"cent\" when another number follows).",
       },
       {
         type: "translate",
@@ -668,15 +992,6 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "The wording of \"une obligation de moyens\": \"mettre en œuvre tous les moyens\" (œ ligature).",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Fix this clause: \"Le salarié et/ou son manager valideront les congés.\" Translate the corrected version into French.",
-        source: "Leave will be approved by the employee's manager.",
-        answer: "Les congés seront validés par le responsable hiérarchique du salarié.",
-        altAnswers: ["Les congés seront validés par le supérieur hiérarchique du salarié.", "Les congés seront approuvés par le responsable hiérarchique du salarié.", "Les congés seront approuvés par le supérieur hiérarchique du salarié.", "Le responsable hiérarchique du salarié validera les congés."],
-        explanation: "Drop \"et/ou\" and the anglicism \"manager\" in a legal text: \"le responsable / supérieur hiérarchique\".",
-      },
-      {
         type: "word-order",
         prompt: "Put the words in order to say: The certificate is issued by the town hall.",
         words: ["L'attestation", "est", "délivrée", "par", "la mairie."],
@@ -685,13 +1000,13 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Le délai de rétractation est de quatorze jours calendaires.",
-        explanation: "\"Calendaires\" counts every day. Write \"rétractation\" (-tation), not \"rétraction\", which is a physical shrinking.",
+        audio: "Le délai de rétractation de quatorze jours court à compter de la livraison.",
+        explanation: "\"Court à compter de la livraison\": the deadline has a precise starting point, the delivery.",
       },
       {
         type: "speak",
-        text: "Ce délai court à compter de quelle date, exactement ?",
         prompt: "Say it in French, reviewing a contract: From what date exactly does this deadline run?",
+        text: "Ce délai court à compter de quelle date, exactement ?",
         explanation: "The first question to ask about any deadline: its starting point (\"à compter de\").",
       },
     ],
@@ -702,61 +1017,104 @@ export const FR_C2_U02: Lesson[] = [
     number: 4,
     title: "Contrast Clinic: Solidaire ou Conjoint; Résilier, Résoudre, Annuler",
     summary: "Joint and several liability (solidaire) vs joint liability (conjointe), the caution solidaire, and the four ways out of a contract: résilier, résoudre, annuler, se rétracter.",
-    duration: "17 min",
+    duration: "18 min",
     sections: [
       {
-        heading: "Solidaire or conjoint: who owes how much?",
+        heading: "Solidaire or conjointe: who owes how much?",
         body: [
           "Three friends rent a flat in Lille for 1,200 euros a month. If the lease has \"une clause de solidarité\", they are \"tenus solidairement\": the landlord can demand the whole 1,200 euros from any one of them, and it is up to that one to recover the others' shares afterwards. Without that clause, the obligation is \"conjointe\": each owes only his share, 400 euros, and the landlord must pursue each separately. In English: joint and several liability (\"solidaire\") vs joint liability (\"conjointe\").",
-          "In everyday French \"solidaire\" means showing solidarity (\"être solidaire des grévistes\"), and \"conjoint\" as a noun means a spouse. In law both words have this narrow technical sense, and a single word in a lease can decide who pays when one flatmate disappears. Note also the adverbs: \"solidairement\" and \"conjointement\", and the noun \"la solidarité\" (\"la solidarité entre colocataires\").",
-          "The same distinction applies to guarantors. \"Une caution simple\" can insist that the landlord first try to recover the money from the tenant (\"le bénéfice de discussion\"). \"Une caution solidaire\" gives up that right: the landlord can go straight to the guarantor as soon as the tenant fails to pay. Almost every French lease asks for a caution solidaire, which is why parents should read the act of guarantee (\"l'acte de cautionnement\") before signing it.",
         ],
         examples: [
           { es: "Les colocataires sont tenus solidairement au paiement du loyer.", en: "The flatmates are jointly and severally liable for the rent." },
           { es: "En l'absence de clause de solidarité, chacun ne doit que sa part.", en: "Without a joint liability clause, each one only owes his share." },
           { es: "Le bailleur a réclamé la totalité du loyer à Sarah, seule colocataire solvable.", en: "The landlord claimed the whole rent from Sarah, the only solvent flatmate." },
-          { es: "Les deux associés sont responsables conjointement des dettes de la société.", en: "The two partners are jointly liable for the company's debts." },
-          { es: "Son père s'est porté caution solidaire pour toute la durée du bail.", en: "Her father stood as joint and several guarantor for the whole lease." },
-          { es: "La caution simple bénéficie du bénéfice de discussion.", en: "An ordinary guarantor can require the creditor to pursue the debtor first." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "Karim, Léa and Hugo signed a lease with a clause de solidarité. Hugo leaves without paying. What can the landlord do?",
-            options: [
-              "Demand Hugo's share, or even the whole rent, from Karim or Léa.",
-              "Only demand Hugo's share from Hugo.",
-              "Cancel the lease retroactively.",
-              "Nothing until Hugo is found.",
-            ],
+            options: ["Demand Hugo's share, or even the whole rent, from Karim or Léa.", "Only demand Hugo's share from Hugo.", "Cancel the lease retroactively.", "Nothing until Hugo is found."],
             correctIndex: 0,
             explanation: "\"Solidairement\" means each co-tenant can be asked for the whole debt. Recovering it from Hugo is then Karim's and Léa's problem.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French in legal style.",
-            source: "The tenants are jointly and severally liable for the payment of the rent.",
-            answer: "Les preneurs sont tenus solidairement au paiement du loyer.",
-            altAnswers: ["Les locataires sont tenus solidairement au paiement du loyer.", "Les preneurs sont solidairement tenus au paiement du loyer.", "Les locataires sont solidairement tenus au paiement du loyer.", "Les preneurs sont solidairement responsables du paiement du loyer.", "Les locataires sont solidairement responsables du paiement du loyer."],
-            explanation: "\"Être tenu(s) solidairement à\" is the legal phrase for joint and several liability.",
+            prompt: "Change it so that each flatmate only owes his share.",
+            source: "Les colocataires sont tenus solidairement au paiement des charges.",
+            answer: "Les colocataires sont tenus conjointement au paiement des charges.",
+            altAnswers: ["Les colocataires sont tenus conjointement du paiement des charges."],
+            explanation: "Each owing only his share is a joint obligation: \"conjointement\". \"Solidairement\" lets the creditor claim the whole sum from any one of them.",
           },
         ],
       },
       {
-        heading: "Résilier, résoudre, annuler: three ways to end a contract",
+        heading: "Everyday senses, legal senses",
+        body: [
+          "In everyday French \"solidaire\" means showing solidarity (\"être solidaire des grévistes\"), and \"conjoint\" as a noun means a spouse. In law both words have this narrow technical sense, and a single word in a lease can decide who pays when one flatmate disappears. Note also the adverbs: \"solidairement\" and \"conjointement\", and the noun \"la solidarité\" (\"la solidarité entre colocataires\").",
+        ],
+        examples: [
+          { es: "Les deux associés sont responsables conjointement des dettes de la société.", en: "The two partners are jointly liable for the company's debts." },
+          { es: "Les salariés se sont montrés solidaires des grévistes.", en: "The employees showed solidarity with the strikers." },
+          { es: "Le conjoint survivant hérite d'une partie des biens.", en: "The surviving spouse inherits part of the estate." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "In which sentence is « solidaire » used in its legal sense?",
+            options: ["Le bail prévoit que les colocataires sont solidaires du paiement.", "Les infirmières sont solidaires des grévistes.", "C'est une équipe très solidaire.", "Je me sens solidaire des victimes."],
+            correctIndex: 0,
+            explanation: "In law, \"solidaire\" means each party can be made to pay the whole debt: here the lease makes the flatmates \"solidaires du paiement\". The other three use the everyday sense, showing solidarity.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French in legal style.",
+            source: "The two buyers are jointly and severally liable for the payment of the price.",
+            answer: "Les deux acquéreurs sont tenus solidairement au paiement du prix.",
+            altAnswers: ["Les deux acheteurs sont tenus solidairement au paiement du prix.", "Les deux acquéreurs sont solidairement tenus au paiement du prix.", "Les deux acquéreurs sont tenus solidairement du paiement du prix.", "Les deux acheteurs sont solidairement tenus au paiement du prix.", "Les deux acheteurs sont tenus solidairement du paiement du prix."],
+            explanation: "Joint and several liability is \"être tenus solidairement\" (au or du paiement): the seller can claim the whole price from either buyer.",
+          },
+        ],
+      },
+      {
+        heading: "Caution simple, caution solidaire",
+        body: [
+          "The same distinction applies to guarantors. \"Une caution simple\" can insist that the landlord first try to recover the money from the tenant (\"le bénéfice de discussion\"). \"Une caution solidaire\" gives up that right: the landlord can go straight to the guarantor as soon as the tenant fails to pay. Almost every French lease asks for a caution solidaire, which is why parents should read the act of guarantee (\"l'acte de cautionnement\") before signing it.",
+        ],
+        examples: [
+          { es: "Son père s'est porté caution solidaire pour toute la durée du bail.", en: "Her father stood as joint and several guarantor for the whole lease." },
+          { es: "La caution simple bénéficie du bénéfice de discussion.", en: "An ordinary guarantor can require the creditor to pursue the debtor first." },
+          { es: "Le bailleur s'est adressé directement à la caution solidaire.", en: "The landlord went straight to the joint and several guarantor." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Your father signed as « caution simple ». The tenant stops paying. What can your father insist on?",
+            options: ["That the landlord first try to recover the money from the tenant.", "That he pays only half of the debt.", "That the lease be cancelled.", "Nothing: he must pay at once."],
+            correctIndex: 0,
+            explanation: "A \"caution simple\" keeps \"le bénéfice de discussion\": the landlord must first pursue the tenant. Paying at once with no such right is the position of a \"caution solidaire\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "My mother stood as joint and several guarantor for my lease.",
+            answer: "Ma mère s'est portée caution solidaire pour mon bail.",
+            altAnswers: ["Ma mère s'est portée caution solidaire de mon bail.", "Ma mère s'est portée caution solidaire pour mon logement.", "Ma mère s'est portée caution solidaire pour ma location."],
+            explanation: "\"Se porter caution solidaire\": \"portée\" agrees with \"ma mère\"; \"caution\" stays invariable.",
+          },
+        ],
+      },
+      {
+        heading: "Résilier for the future, résoudre for breach",
         body: [
           "English 'cancel' covers everything; French law distinguishes by time and by cause. \"Résilier\" (la résiliation) ends a contract for the future only: what was done before remains valid. You \"résilier\" a phone subscription, a lease, an insurance policy. \"Résoudre\" (la résolution) ends a contract because one party failed to perform (\"pour inexécution\"), and it is in principle retroactive: the parties return what they received. If you paid for a car that was never delivered, you seek \"la résolution de la vente\" and get your money back.",
-          "\"Annuler\" (l'annulation) in its legal sense means declaring that the contract was never validly formed: \"la nullité du contrat\". The causes are defects at birth: \"un vice du consentement\" (mistake, \"l'erreur\"; fraud, \"le dol\"; duress, \"la violence\"), a missing legal formality, an illegal object. A nullity wipes the contract out from the start. In everyday French, of course, people \"annulent\" a dinner or a booking: that is not the legal sense.",
-          "Finally, \"se rétracter\" (la rétractation) is a consumer's right to change his mind within a legal period (\"le délai de rétractation\": fourteen days for distance selling, ten days for buying a home) without giving any reason. It applies only where the law grants it: there is no general right to cancel a purchase in a shop.",
         ],
         examples: [
           { es: "J'ai résilié mon contrat d'électricité en changeant de fournisseur.", en: "I terminated my electricity contract when I switched supplier." },
           { es: "L'acheteur a obtenu la résolution de la vente pour défaut de livraison.", en: "The buyer obtained the rescission of the sale for non-delivery." },
-          { es: "Le contrat a été annulé pour dol : le vendeur avait caché l'état de la charpente.", en: "The contract was annulled for fraud: the seller had concealed the state of the roof timbers." },
-          { es: "La nullité du contrat entraîne la restitution des sommes versées.", en: "The nullity of the contract means the sums paid must be returned." },
-          { es: "Vous disposez d'un délai de quatorze jours pour vous rétracter.", en: "You have fourteen days to withdraw." },
-          { es: "Il s'est rétracté avant la fin du délai et a récupéré son acompte.", en: "He withdrew before the end of the period and got his deposit back." },
+          { es: "La vente a été résolue : le vendeur a remboursé le prix.", en: "The sale was rescinded: the seller refunded the price." },
         ],
         checkpoint: [
           {
@@ -765,6 +1123,34 @@ export const FR_C2_U02: Lesson[] = [
             options: ["la résolution de la vente", "la résiliation de la vente", "la rétractation de la vente", "la solidarité de la vente"],
             correctIndex: 0,
             explanation: "Non-performance by one party → \"résolution\", with restitution of what was paid. \"Résiliation\" is for contracts that run over time.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The client asked for [the rescission] of the contract, the work never having been done.",
+            sentence: "Le client a demandé ___ du contrat, les travaux n'ayant jamais été réalisés.",
+            answer: "la résolution",
+            explanation: "Ending a contract because the other party failed to perform is \"la résolution\" (\"pour inexécution\"), retroactive in principle. \"La résiliation\" would only end it for the future.",
+          },
+        ],
+      },
+      {
+        heading: "Annuler: a contract that was never valid",
+        body: [
+          "\"Annuler\" (l'annulation) in its legal sense means declaring that the contract was never validly formed: \"la nullité du contrat\". The causes are defects at birth: \"un vice du consentement\" (mistake, \"l'erreur\"; fraud, \"le dol\"; duress, \"la violence\"), a missing legal formality, an illegal object. A nullity wipes the contract out from the start. In everyday French, of course, people \"annulent\" a dinner or a booking: that is not the legal sense.",
+        ],
+        examples: [
+          { es: "Le contrat a été annulé pour dol : le vendeur avait caché l'état de la charpente.", en: "The contract was annulled for fraud: the seller had concealed the state of the roof timbers." },
+          { es: "La nullité du contrat entraîne la restitution des sommes versées.", en: "The nullity of the contract means the sums paid must be returned." },
+          { es: "Il a signé sous la menace : le contrat est nul pour violence.", en: "He signed under threat: the contract is void for duress." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which situation calls for \"la nullité\"?",
+            options: ["The seller lied about the car's mileage to make the buyer sign.", "The tenant wants to leave the flat next month.", "The supplier never delivered the goods.", "The buyer of an online jacket changes his mind after five days."],
+            correctIndex: 0,
+            explanation: "A lie that vitiated consent (\"le dol\") makes the contract voidable from the start. The others are résiliation, résolution and rétractation.",
           },
           {
             type: "translate",
@@ -778,19 +1164,72 @@ export const FR_C2_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Choosing the right word in context",
+        heading: "Se rétracter: the consumer's cooling-off right",
+        body: [
+          "Finally, \"se rétracter\" (la rétractation) is a consumer's right to change his mind within a legal period (\"le délai de rétractation\": fourteen days for distance selling, ten days for buying a home) without giving any reason. It applies only where the law grants it: there is no general right to cancel a purchase in a shop.",
+        ],
+        examples: [
+          { es: "Vous disposez d'un délai de quatorze jours pour vous rétracter.", en: "You have fourteen days to withdraw." },
+          { es: "Il s'est rétracté avant la fin du délai et a récupéré son acompte.", en: "He withdrew before the end of the period and got his deposit back." },
+          { es: "Le droit de rétractation ne s'applique pas aux achats en magasin.", en: "The right of withdrawal does not apply to purchases made in a shop." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "You bought a coat in a shop in Lyon and change your mind two days later. Can you « vous rétracter »?",
+            options: ["No: the cooling-off right exists only where the law grants it, as for distance selling.", "Yes, within fourteen days.", "Yes, within ten days.", "Yes, but only with the receipt."],
+            correctIndex: 0,
+            explanation: "\"Le délai de rétractation\" is a legal right for specific cases (fourteen days for distance selling, ten for buying a home). There is no general right to cancel a purchase in a shop.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "For this purchase in a shop there is no [right of withdrawal].",
+            sentence: "Pour cet achat en magasin, il n'y a pas de ___.",
+            answer: "droit de rétractation",
+            explanation: "The consumer's right to change his mind is \"le droit de rétractation\" (with -tation), and it does not cover purchases in a shop.",
+          },
+        ],
+      },
+      {
+        heading: "Two questions to choose the word",
         body: [
           "To choose, ask two questions. Was the contract validly formed? If not → \"nullité / annuler\". If yes, is it ending because someone failed to perform? If so → \"résolution / résoudre\" (or, for contracts that run over time like leases, \"résiliation pour faute\"). Is it ending normally, at someone's initiative, for the future? → \"résiliation / résilier\". Is it a consumer using a legal cooling-off period? → \"rétractation / se rétracter\".",
-          "Watch the forms. \"Résoudre\" conjugates like the problem-solving verb: \"le contrat a été résolu\" (past participle \"résolu\"), \"la résolution\". \"Résilier\" is regular: \"résilié\", \"la résiliation\". \"Se rétracter\" is pronominal: \"elle s'est rétractée\". And the legal noun is \"rétractation\", with -tation: \"la rétraction\" is a physical shrinking (of a muscle, a material).",
-          "In daily life you will hear \"annuler\" for everything, and that is fine at the bakery. In a letter to an insurer, a landlord or a lawyer, the precise word shows you know what you are asking for, and it often decides whether you get your money back.",
         ],
         examples: [
           { es: "Le bail a été résilié pour défaut de paiement des loyers.", en: "The lease was terminated for non-payment of rent." },
           { es: "Le juge a prononcé la résolution du contrat aux torts du vendeur.", en: "The judge ordered the rescission of the contract with the seller at fault." },
-          { es: "Le contrat a été résolu et l'acompte restitué.", en: "The contract was rescinded and the deposit returned." },
           { es: "Faute de signature des deux époux, l'acte est nul.", en: "Since both spouses did not sign, the deed is void." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Le juge a prononcé la nullité du contrat.",
+            question: "What does it mean?",
+            options: ["The judge declared the contract void from the start.", "The judge ended the contract for the future.", "The judge declared the contract worthless in money.", "The judge renewed the contract."],
+            correctIndex: 0,
+            explanation: "\"La nullité\" means the contract was never validly formed and is wiped out retroactively.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Le juge a prononcé la résiliation de la vente pour défaut de livraison.",
+            answer: "Le juge a prononcé la résolution de la vente pour défaut de livraison.",
+            altAnswers: ["Le juge a prononcé la résolution de la vente pour absence de livraison."],
+            explanation: "The goods were never delivered: the contract ends because of a failure to perform, and a sale is unwound retroactively. That is \"la résolution\", not \"la résiliation\" (which ends a contract for the future).",
+          },
+        ],
+      },
+      {
+        heading: "Watch the forms: résolu, résilié, rétractation",
+        body: [
+          "Watch the forms. \"Résoudre\" conjugates like the problem-solving verb: \"le contrat a été résolu\" (past participle \"résolu\"), \"la résolution\". \"Résilier\" is regular: \"résilié\", \"la résiliation\". \"Se rétracter\" is pronominal: \"elle s'est rétractée\". And the legal noun is \"rétractation\", with -tation: \"la rétraction\" is a physical shrinking (of a muscle, a material).",
+        ],
+        examples: [
+          { es: "Le contrat a été résolu et l'acompte restitué.", en: "The contract was rescinded and the deposit returned." },
           { es: "Elle s'est rétractée le huitième jour, par lettre recommandée.", en: "She withdrew on the eighth day, by registered letter." },
-          { es: "J'ai annulé ma réservation au restaurant.", en: "I cancelled my restaurant booking." },
+          { es: "La rétraction du béton a provoqué des fissures.", en: "The shrinkage of the concrete caused cracks." },
         ],
         checkpoint: [
           {
@@ -804,6 +1243,27 @@ export const FR_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Le contrat a été résous pour inexécution.",
+            answer: "Le contrat a été résolu pour inexécution.",
+            explanation: "\"Résoudre\" has the past participle \"résolu\", as in \"un problème résolu\". \"Résous\" is only the present tense (\"je résous\").",
+          },
+        ],
+      },
+      {
+        heading: "At the bakery and in a letter",
+        body: [
+          "In daily life you will hear \"annuler\" for everything, and that is fine at the bakery. In a letter to an insurer, a landlord or a lawyer, the precise word shows you know what you are asking for, and it often decides whether you get your money back.",
+        ],
+        examples: [
+          { es: "J'ai annulé ma réservation au restaurant.", en: "I cancelled my restaurant booking." },
+          { es: "Je souhaite résilier mon contrat d'assurance habitation à son échéance.", en: "I wish to terminate my home insurance policy on its expiry date." },
+          { es: "On a annulé la soirée à cause de la pluie.", en: "We cancelled the party because of the rain." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
             prompt: "Translate into French.",
             source: "I terminated my gym membership at the end of the year.",
             answer: "J'ai résilié mon abonnement à la salle de sport à la fin de l'année.",
@@ -811,17 +1271,12 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "A subscription ending for the future is \"résilié\".",
           },
           {
-            type: "listen-choose",
-            audio: "Le juge a prononcé la nullité du contrat.",
-            question: "What does it mean?",
-            options: [
-              "The judge declared the contract void from the start.",
-              "The judge ended the contract for the future.",
-              "The judge declared the contract worthless in money.",
-              "The judge renewed the contract.",
-            ],
-            correctIndex: 0,
-            explanation: "\"La nullité\" means the contract was never validly formed and is wiped out retroactively.",
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "I would like [to terminate] my phone contract on its anniversary date.",
+            sentence: "Je voudrais ___ mon forfait téléphonique à sa date anniversaire.",
+            answer: "résilier",
+            explanation: "In a letter to the operator, ending a contract normally, for the future, is \"résilier\". \"Annuler\" is fine for a dinner but imprecise here.",
           },
         ],
       },
@@ -835,35 +1290,6 @@ export const FR_C2_U02: Lesson[] = [
         answer: "Sans clause de solidarité, chaque colocataire ne doit que sa part.",
         altAnswers: ["En l'absence de clause de solidarité, chaque colocataire ne doit que sa part.", "Sans clause de solidarité, chaque colocataire doit seulement sa part.", "Sans clause de solidarité, chaque colocataire ne doit payer que sa part.", "En l'absence de clause de solidarité, chaque colocataire n'est tenu que de sa part."],
         explanation: "Without the clause, the obligation is \"conjointe\": each pays his share. \"Ne... que\" = only.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "My mother stood as joint and several guarantor for my lease.",
-        answer: "Ma mère s'est portée caution solidaire pour mon bail.",
-        altAnswers: ["Ma mère s'est portée caution solidaire de mon bail.", "Ma mère s'est portée caution solidaire pour mon logement.", "Ma mère s'est portée caution solidaire pour ma location."],
-        explanation: "\"Se porter caution solidaire\": \"portée\" agrees with \"ma mère\"; \"caution\" stays invariable.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The buyer asked for [the rescission] of the sale for non-delivery.",
-        sentence: "L'acheteur a demandé ___ de la vente pour défaut de livraison.",
-        answer: "la résolution",
-        explanation: "Breach by the other party → \"la résolution\", which unwinds the sale.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which situation calls for \"la nullité\"?",
-        options: [
-          "The seller lied about the car's mileage to make the buyer sign.",
-          "The tenant wants to leave the flat next month.",
-          "The supplier never delivered the goods.",
-          "The buyer of an online jacket changes his mind after five days.",
-        ],
-        correctIndex: 0,
-        explanation: "A lie that vitiated consent (\"le dol\") makes the contract voidable from the start. The others are résiliation, résolution and rétractation.",
       },
       {
         type: "translate",
@@ -884,15 +1310,6 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "\"Conjointement\" = each for his share (joint liability), unlike \"solidairement\".",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The lease was terminated for non-payment of rent.",
-        answer: "Le bail a été résilié pour défaut de paiement des loyers.",
-        altAnswers: ["Le bail a été résilié pour non-paiement des loyers.", "Le bail a été résilié pour défaut de paiement du loyer.", "Le bail a été résilié pour non-paiement du loyer.", "Le bail a été résilié faute de paiement des loyers."],
-        explanation: "A lease, which runs over time, is \"résilié\" even for breach: the past months stay valid.",
-      },
-      {
         type: "matching",
         instructions: "Match each word to its meaning.",
         pairs: [
@@ -905,8 +1322,8 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Le bail comporte-t-il une clause de solidarité ?",
         prompt: "Say it in French to the letting agent: Does the lease contain a joint liability clause?",
+        text: "Le bail comporte-t-il une clause de solidarité ?",
         tip: "Comporte-t-il: the t between hyphens is pronounced, com-por-te-til.",
         explanation: "Inversion with the euphonic -t- is the natural register for this formal question.",
       },
@@ -924,6 +1341,13 @@ export const FR_C2_U02: Lesson[] = [
         altAnswers: ["J'ai annulé le dîner, et non le contrat !", "C'est le dîner que j'ai annulé, pas le contrat !"],
         explanation: "In everyday French \"annuler\" is fine for a dinner or a booking; for a contract the right word depends on the situation.",
       },
+      {
+        type: "word-order",
+        prompt: "Put the words in order to say: She withdrew within the time limit.",
+        words: ["Elle", "s'est", "rétractée", "dans", "les", "délais."],
+        translation: "She withdrew within the time limit.",
+        explanation: "\"Se rétracter\" is pronominal, so it takes \"être\" and the participle agrees: \"elle s'est rétractée\".",
+      },
     ],
   },
   {
@@ -932,22 +1356,46 @@ export const FR_C2_U02: Lesson[] = [
     number: 5,
     title: "Le Français Juridique et Administratif, Part 6 of 7",
     summary: "The notaire and property: acte authentique vs acte sous seing privé, compromis vs promesse unilatérale de vente, the ten-day cooling-off period, frais de notaire, procuration, succession, testament and donation.",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
         heading: "The notaire and the acte authentique",
         body: [
           "A French notaire is not a notary public who stamps signatures. He or she is \"un officier public\", appointed by the State, who drafts and authenticates deeds, keeps them for 75 years or more, and collects certain taxes for the State. An act drawn up by a notaire is \"un acte authentique\" (\"un acte notarié\"): its date and content are presumed true until proven forgery, and it can be enforced without going to court. An act signed by the parties alone is \"un acte sous seing privé\" (literally under private signature): perfectly valid between them, but with less force as evidence.",
-          "Some acts must be authentique: the final sale of property (\"l'acte de vente\"), a marriage contract, a donation of property, a mortgage. Its opening is ceremonious: \"Par-devant Maître Claire Lemoine, notaire à Angers, soussignée, ont comparu...\" (before Ms Lemoine, notary in Angers, the undersigned, appeared...). \"Comparaître\" is the same verb as in court: the parties appear before the officer.",
-          "Notaires are addressed as \"Maître\" (\"Maître Lemoine\", or \"Maître\" alone when speaking to them), and their office is \"l'étude\" (\"l'étude de Maître Lemoine\"). The notaire's clerk who prepares the file is \"le clerc de notaire\". English 'notary' alone is misleading; in a translation, \"civil-law notary\" or simply 'notaire' are clearer.",
         ],
         examples: [
-          { es: "L'acte de vente a été signé en l'étude de Maître Lemoine.", en: "The deed of sale was signed at Ms Lemoine's office." },
-          { es: "Par-devant Maître Claire Lemoine, notaire à Angers, ont comparu les personnes ci-après désignées.", en: "Before Ms Claire Lemoine, notary in Angers, appeared the persons named below." },
           { es: "Un acte authentique fait foi jusqu'à inscription de faux.", en: "An authenticated deed is conclusive evidence unless proven to be a forgery." },
           { es: "Un bail peut être conclu sous seing privé, sans passer chez le notaire.", en: "A lease can be signed privately, without going to a notary." },
-          { es: "Le clerc de notaire nous a envoyé le projet d'acte.", en: "The notary's clerk sent us the draft deed." },
-          { es: "Maître, pourriez-vous nous expliquer cette clause ?", en: "Could you explain this clause to us? (to the notary)" },
+          { es: "Le notaire conserve l'original de l'acte, appelé la minute.", en: "The notary keeps the original deed, called the minute." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Two friends sell each other a used bike and both sign a sheet of paper. What kind of act is it?",
+            options: ["un acte sous seing privé", "un acte authentique", "un acte notarié", "un acte de notoriété"],
+            correctIndex: 0,
+            explanation: "An act signed by the parties alone is \"un acte sous seing privé\": valid between them, but with less force as evidence. \"Authentique\" and \"notarié\" both mean drawn up by a notaire; \"l'acte de notoriété\" identifies heirs.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "A lease can be signed privately, but the sale of a house requires a notarial deed.",
+            answer: "Un bail peut être conclu sous seing privé, mais la vente d'une maison exige un acte authentique.",
+            altAnswers: ["Un bail peut être signé sous seing privé, mais la vente d'une maison exige un acte authentique.", "Un bail peut être conclu sous seing privé, mais la vente d'une maison nécessite un acte notarié.", "Un bail peut être conclu sous seing privé, mais la vente d'une maison exige un acte notarié.", "Un bail peut être signé sous seing privé, mais la vente d'une maison nécessite un acte authentique."],
+            explanation: "\"Sous seing privé\" vs \"acte authentique / notarié\".",
+          },
+        ],
+      },
+      {
+        heading: "When the acte must be authentique, and how it opens",
+        body: [
+          "Some acts must be authentique: the final sale of property (\"l'acte de vente\"), a marriage contract, a donation of property, a mortgage. Its opening is ceremonious: \"Par-devant Maître Claire Lemoine, notaire à Angers, soussignée, ont comparu...\" (before Ms Lemoine, notary in Angers, the undersigned, appeared...). \"Comparaître\" is the same verb as in court: the parties appear before the officer.",
+        ],
+        examples: [
+          { es: "Par-devant Maître Claire Lemoine, notaire à Angers, ont comparu les personnes ci-après désignées.", en: "Before Ms Claire Lemoine, notary in Angers, appeared the persons named below." },
+          { es: "Le contrat de mariage doit être reçu par un notaire.", en: "A marriage contract must be drawn up by a notary." },
+          { es: "Les parties ont comparu en personne.", en: "The parties appeared in person." },
         ],
         checkpoint: [
           {
@@ -958,6 +1406,27 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "The sale of property must be recorded by a notaire for publication in the land register. Leases, employment contracts and car sales can be \"sous seing privé\".",
           },
           {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Before Ms Lemoine, notary in Angers, [appeared] Mr and Mrs Girard.",
+            sentence: "Par-devant Maître Lemoine, notaire à Angers, ___ M. et Mme Girard.",
+            answer: "ont comparu",
+            explanation: "\"Comparaître\" (past participle \"comparu\"), with the subject after the verb in this ceremonial opening.",
+          },
+        ],
+      },
+      {
+        heading: "Maître, l'étude, le clerc",
+        body: [
+          "Notaires are addressed as \"Maître\" (\"Maître Lemoine\", or \"Maître\" alone when speaking to them), and their office is \"l'étude\" (\"l'étude de Maître Lemoine\"). The notaire's clerk who prepares the file is \"le clerc de notaire\". English 'notary' alone is misleading; in a translation, \"civil-law notary\" or simply 'notaire' are clearer.",
+        ],
+        examples: [
+          { es: "L'acte de vente a été signé en l'étude de Maître Lemoine.", en: "The deed of sale was signed at Ms Lemoine's office." },
+          { es: "Le clerc de notaire nous a envoyé le projet d'acte.", en: "The notary's clerk sent us the draft deed." },
+          { es: "Maître, pourriez-vous nous expliquer cette clause ?", en: "Could you explain this clause to us? (to the notary)" },
+        ],
+        checkpoint: [
+          {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
@@ -966,22 +1435,53 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["Nous avons signé l'acte à l'étude du notaire vendredi.", "On a signé l'acte chez le notaire vendredi.", "Nous avons signé l'acte en l'étude du notaire vendredi.", "Nous avons signé l'acte chez le notaire ce vendredi."],
             explanation: "\"Chez le notaire\" in everyday French; \"à l'étude\" or \"en l'étude\" in formal style. The deed is \"l'acte\".",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Bonjour Monsieur le Notaire, j'ai une question sur l'acte.",
+            answer: "Bonjour Maître, j'ai une question sur l'acte.",
+            explanation: "A notaire, like a lawyer, is addressed as \"Maître\" (or \"Maître Lemoine\"), never \"Monsieur le Notaire\".",
+          },
         ],
       },
       {
-        heading: "Buying a home: compromis, promesse, rétractation",
+        heading: "Buying a home: compromis or promesse unilatérale",
         body: [
           "A French property purchase has two stages. First, a preliminary contract: either \"un compromis de vente\" (\"une promesse synallagmatique\"), in which both seller and buyer commit, or \"une promesse unilatérale de vente\", in which only the seller commits and the buyer gets an option for a set period in exchange for \"une indemnité d'immobilisation\" (usually around 10% of the price). Then, about three months later, \"l'acte de vente\" (\"l'acte authentique\"), signed before the notaire, transfers ownership.",
-          "The preliminary contract contains \"des conditions suspensives\": conditions on which the sale depends, above all \"l'obtention du prêt\" (getting the mortgage). If the bank refuses the loan, the condition fails and the buyer recovers his deposit. The buyer of a home also has \"un délai de rétractation de dix jours\", which starts the day after the signed compromis is first presented to him by registered letter (or handed to him). During those ten days he can withdraw without any reason or penalty.",
-          "\"Les frais de notaire\" are mostly taxes, not the notaire's fee: about 7 to 8% of the price for an older property (\"dans l'ancien\"), 2 to 3% for a new build (\"dans le neuf\"). The main tax is \"les droits de mutation\" (transfer duties). People say \"frais de notaire\", professionals prefer \"frais d'acquisition\".",
         ],
         examples: [
           { es: "Nous avons signé le compromis de vente le 12 mai.", en: "We signed the preliminary sale agreement on 12 May." },
+          { es: "La signature de l'acte authentique est prévue pour septembre.", en: "The signing of the final deed is planned for September." },
+          { es: "Le vendeur s'est engagé par une promesse unilatérale de vente valable trois mois.", en: "The seller committed himself through a unilateral promise to sell, valid for three months." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "In a promesse unilatérale de vente, who is committed to the sale?",
+            options: ["Only the seller; the buyer has an option.", "Both seller and buyer.", "Only the buyer.", "Only the notaire."],
+            correctIndex: 0,
+            explanation: "\"Unilatérale\": only the seller promises; the buyer pays an \"indemnité d'immobilisation\" for the option. In a compromis, both commit.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The buyer paid [a reservation fee] of 10% to the seller.",
+            sentence: "L'acheteur a versé ___ de 10 % au vendeur.",
+            answer: "une indemnité d'immobilisation",
+            explanation: "In a promesse unilatérale, the buyer pays \"une indemnité d'immobilisation\" (usually about 10%) for the option, because the seller takes the property off the market.",
+          },
+        ],
+      },
+      {
+        heading: "Conditions suspensives and the ten-day withdrawal",
+        body: [
+          "The preliminary contract contains \"des conditions suspensives\": conditions on which the sale depends, above all \"l'obtention du prêt\" (getting the mortgage). If the bank refuses the loan, the condition fails and the buyer recovers his deposit. The buyer of a home also has \"un délai de rétractation de dix jours\", which starts the day after the signed compromis is first presented to him by registered letter (or handed to him). During those ten days he can withdraw without any reason or penalty.",
+        ],
+        examples: [
           { es: "La vente est conclue sous la condition suspensive de l'obtention d'un prêt.", en: "The sale is subject to the buyer obtaining a loan." },
           { es: "L'acquéreur dispose d'un délai de rétractation de dix jours.", en: "The buyer has a ten-day cooling-off period." },
           { es: "La banque ayant refusé le prêt, la condition suspensive n'est pas réalisée.", en: "The bank having refused the loan, the condition precedent has not been met." },
-          { es: "Les frais de notaire représentent environ 8 % du prix dans l'ancien.", en: "Notary's fees amount to about 8% of the price for older properties." },
-          { es: "La signature de l'acte authentique est prévue pour septembre.", en: "The signing of the final deed is planned for September." },
         ],
         checkpoint: [
           {
@@ -996,27 +1496,51 @@ export const FR_C2_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "The buyer has [a ten-day cooling-off period].",
-            sentence: "L'acquéreur dispose d'___.",
+            en: "From the day after the compromis is handed to her, Ms Girard has [a ten-day cooling-off period].",
+            sentence: "À compter du lendemain de la remise du compromis, Mme Girard dispose d'___.",
             answer: "un délai de rétractation de dix jours",
-            explanation: "\"Un délai de rétractation\" (from \"se rétracter\"), ten days for a home purchase.",
+            explanation: "The buyer of a home has \"un délai de rétractation de dix jours\", starting the day after the signed compromis is first presented (by registered letter) or handed over.",
           },
         ],
       },
       {
-        heading: "Procuration, succession, testament, donation",
+        heading: "Les frais de notaire are mostly taxes",
+        body: [
+          "\"Les frais de notaire\" are mostly taxes, not the notaire's fee: about 7 to 8% of the price for an older property (\"dans l'ancien\"), 2 to 3% for a new build (\"dans le neuf\"). The main tax is \"les droits de mutation\" (transfer duties). People say \"frais de notaire\", professionals prefer \"frais d'acquisition\".",
+        ],
+        examples: [
+          { es: "Les frais de notaire représentent environ 8 % du prix dans l'ancien.", en: "Notary's fees amount to about 8% of the price for older properties." },
+          { es: "Dans le neuf, les frais d'acquisition sont réduits.", en: "For a new build, the acquisition costs are lower." },
+          { es: "Les droits de mutation sont reversés au département.", en: "Transfer duties go to the department (the local authority)." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A friend says: « Le notaire va empocher 25 000 euros de frais ! » What do you explain?",
+            options: ["Most of the \"frais de notaire\" are taxes, mainly transfer duties.", "The notaire's personal fee is 8% of the price.", "The bank keeps the \"frais de notaire\".", "\"Frais de notaire\" are only paid for new builds."],
+            correctIndex: 0,
+            explanation: "\"Les frais de notaire\" (professionals say \"frais d'acquisition\") are mostly taxes collected for the State, above all \"les droits de mutation\". They are higher \"dans l'ancien\" (7-8%) than \"dans le neuf\" (2-3%).",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The notary's fees represent about seven per cent of the price.",
+            answer: "Les frais de notaire représentent environ sept pour cent du prix.",
+            altAnswers: ["Les frais de notaire représentent environ 7 % du prix.", "Les frais de notaire s'élèvent à environ 7 % du prix.", "Les frais de notaire s'élèvent à environ sept pour cent du prix.", "Les frais d'acquisition représentent environ 7 % du prix."],
+            explanation: "\"Les frais de notaire\" (always plural), mostly transfer taxes; \"représenter\" or \"s'élever à\".",
+          },
+        ],
+      },
+      {
+        heading: "La procuration (not the procureur)",
         body: [
           "If you cannot attend the signing, you give \"une procuration\" (a power of attorney) to someone, often a clerk of the notaire: \"donner procuration à quelqu'un pour signer en son nom\". The person holding it is \"le mandataire\" you met in Unit 1. Do not confuse \"la procuration\" with \"le procureur\" (the prosecutor): they share a Latin root, nothing else. \"Voter par procuration\" (by proxy) uses the same word.",
-          "When someone dies, the notaire handles \"la succession\" (the estate and its settlement): he draws up \"l'acte de notoriété\" that identifies the heirs (\"les héritiers\"), lists the assets, and calculates \"les droits de succession\" (inheritance tax). \"Le défunt\" or \"la défunte\" is the deceased. French law protects children with \"la réserve héréditaire\": a share of the estate that cannot be taken away from them by will.",
-          "\"Un testament\" can be \"olographe\" (written entirely by hand, dated and signed by the testator) or \"authentique\" (dictated to a notaire before witnesses). \"Léguer\" is to bequeath (\"un legs\", pronounced [lɛɡ] or [lɛ]); \"le légataire\" is the beneficiary. \"Une donation\" is a gift made during one's lifetime, before a notaire for property: \"faire une donation à ses enfants\", \"donation-partage\". Grammar note: \"hériter de quelque chose\" (\"elle a hérité de la maison\") but \"hériter quelque chose de quelqu'un\" (\"elle a hérité la maison de sa tante\").",
         ],
         examples: [
           { es: "J'ai donné procuration à ma sœur pour signer l'acte à ma place.", en: "I gave my sister power of attorney to sign the deed in my place." },
-          { es: "Le notaire est chargé de régler la succession.", en: "The notary is in charge of settling the estate." },
-          { es: "La défunte avait rédigé un testament olographe.", en: "The deceased had written a handwritten will." },
-          { es: "Il a légué sa bibliothèque à la ville de Rouen.", en: "He bequeathed his library to the city of Rouen." },
-          { es: "Les enfants ne peuvent pas être privés de leur réserve héréditaire.", en: "Children cannot be deprived of their reserved share of the estate." },
-          { es: "Elle a hérité la maison de sa grand-tante.", en: "She inherited the house from her great-aunt." },
+          { es: "Le procureur a requis deux ans de prison.", en: "The prosecutor called for two years in prison." },
+          { es: "Le mandataire signera en vertu d'une procuration notariée.", en: "The agent will sign under a notarised power of attorney." },
         ],
         checkpoint: [
           {
@@ -1029,18 +1553,6 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "\"Donner procuration à\" (no article). Not \"procureur\", who is a prosecutor.",
           },
           {
-            type: "multiple-choice",
-            question: "Which sentence is correct?",
-            options: [
-              "Il a hérité de la maison de ses parents.",
-              "Il a hérité la maison à ses parents.",
-              "Il a hérité de ses parents de la maison.",
-              "Il a hérité ses parents la maison.",
-            ],
-            correctIndex: 0,
-            explanation: "\"Hériter de\" + thing (\"de la maison de ses parents\"), or \"hériter\" + thing + \"de\" + person (\"hériter la maison de ses parents\").",
-          },
-          {
             type: "listen-choose",
             audio: "Il a voté par procuration.",
             question: "What does it mean?",
@@ -1050,17 +1562,63 @@ export const FR_C2_U02: Lesson[] = [
           },
         ],
       },
+      {
+        heading: "La succession: heirs, tax and the reserved share",
+        body: [
+          "When someone dies, the notaire handles \"la succession\" (the estate and its settlement): he draws up \"l'acte de notoriété\" that identifies the heirs (\"les héritiers\"), lists the assets, and calculates \"les droits de succession\" (inheritance tax). \"Le défunt\" or \"la défunte\" is the deceased. French law protects children with \"la réserve héréditaire\": a share of the estate that cannot be taken away from them by will.",
+        ],
+        examples: [
+          { es: "Le notaire est chargé de régler la succession.", en: "The notary is in charge of settling the estate." },
+          { es: "Les enfants ne peuvent pas être privés de leur réserve héréditaire.", en: "Children cannot be deprived of their reserved share of the estate." },
+          { es: "Les héritiers ont reçu l'acte de notoriété la semaine dernière.", en: "The heirs received the act of notoriety last week." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A father wants to leave everything to a charity and nothing to his two children. What prevents him?",
+            options: ["la réserve héréditaire", "l'acte de notoriété", "le délai de rétractation", "la condition suspensive"],
+            correctIndex: 0,
+            explanation: "French law protects children with \"la réserve héréditaire\", a share of the estate that cannot be taken from them by will. \"L'acte de notoriété\" only identifies the heirs.",
+          },
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: The heirs must pay inheritance tax.",
+            words: ["Les", "héritiers", "doivent", "payer", "les", "droits", "de", "succession."],
+            translation: "The heirs must pay inheritance tax.",
+            explanation: "Inheritance tax is \"les droits de succession\", paid by \"les héritiers\" once the notaire has settled the estate.",
+          },
+        ],
+      },
+      {
+        heading: "Testament, legs, donation; hériter de",
+        body: [
+          "\"Un testament\" can be \"olographe\" (written entirely by hand, dated and signed by the testator) or \"authentique\" (dictated to a notaire before witnesses). \"Léguer\" is to bequeath (\"un legs\", pronounced [lɛɡ] or [lɛ]); \"le légataire\" is the beneficiary. \"Une donation\" is a gift made during one's lifetime, before a notaire for property: \"faire une donation à ses enfants\", \"donation-partage\". Grammar note: \"hériter de quelque chose\" (\"elle a hérité de la maison\") but \"hériter quelque chose de quelqu'un\" (\"elle a hérité la maison de sa tante\").",
+        ],
+        examples: [
+          { es: "La défunte avait rédigé un testament olographe.", en: "The deceased had written a handwritten will." },
+          { es: "Il a légué sa bibliothèque à la ville de Rouen.", en: "He bequeathed his library to the city of Rouen." },
+          { es: "Elle a hérité la maison de sa grand-tante.", en: "She inherited the house from her great-aunt." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Il a hérité de la maison de ses parents.", "Il a hérité la maison à ses parents.", "Il a hérité de ses parents de la maison.", "Il a hérité ses parents la maison."],
+            correctIndex: 0,
+            explanation: "\"Hériter de\" + thing (\"de la maison de ses parents\"), or \"hériter\" + thing + \"de\" + person (\"hériter la maison de ses parents\").",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Nous avons hérité le château.",
+            answer: "Nous avons hérité du château.",
+            explanation: "With only the thing inherited, the verb is \"hériter de\": \"hériter du château\". The direct object appears only when the person is named: \"hériter le château de son oncle\".",
+          },
+        ],
+      },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "A lease can be signed privately, but the sale of a house requires a notarial deed.",
-        answer: "Un bail peut être conclu sous seing privé, mais la vente d'une maison exige un acte authentique.",
-        altAnswers: ["Un bail peut être signé sous seing privé, mais la vente d'une maison exige un acte authentique.", "Un bail peut être conclu sous seing privé, mais la vente d'une maison nécessite un acte notarié.", "Un bail peut être conclu sous seing privé, mais la vente d'une maison exige un acte notarié.", "Un bail peut être signé sous seing privé, mais la vente d'une maison nécessite un acte authentique."],
-        explanation: "\"Sous seing privé\" vs \"acte authentique / notarié\".",
-      },
       {
         type: "translate",
         direction: "en-es",
@@ -1069,30 +1627,6 @@ export const FR_C2_U02: Lesson[] = [
         answer: "La banque ayant refusé le prêt, l'acquéreur a récupéré son dépôt de garantie.",
         altAnswers: ["La banque ayant refusé le prêt, l'acquéreur a récupéré son acompte.", "La banque ayant refusé le prêt, l'acheteur a récupéré son acompte.", "La banque ayant refusé le prêt, l'acheteur a récupéré son dépôt de garantie.", "Le prêt ayant été refusé par la banque, l'acquéreur a récupéré son dépôt de garantie."],
         explanation: "An absolute participle clause (\"La banque ayant refusé\") gives the ground; the failed condition suspensive returns the deposit.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "Before Ms Lemoine, notary in Angers, [appeared] Mr and Mrs Girard.",
-        sentence: "Par-devant Maître Lemoine, notaire à Angers, ___ M. et Mme Girard.",
-        answer: "ont comparu",
-        explanation: "\"Comparaître\" (past participle \"comparu\"), with the subject after the verb in this ceremonial opening.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The notary's fees represent about seven per cent of the price.",
-        answer: "Les frais de notaire représentent environ sept pour cent du prix.",
-        altAnswers: ["Les frais de notaire représentent environ 7 % du prix.", "Les frais de notaire s'élèvent à environ 7 % du prix.", "Les frais de notaire s'élèvent à environ sept pour cent du prix.", "Les frais d'acquisition représentent environ 7 % du prix."],
-        explanation: "\"Les frais de notaire\" (always plural), mostly transfer taxes; \"représenter\" or \"s'élever à\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "In a promesse unilatérale de vente, who is committed to the sale?",
-        options: ["Only the seller; the buyer has an option.", "Both seller and buyer.", "Only the buyer.", "Only the notaire."],
-        correctIndex: 0,
-        explanation: "\"Unilatérale\": only the seller promises; the buyer pays an \"indemnité d'immobilisation\" for the option. In a compromis, both commit.",
       },
       {
         type: "translate",
@@ -1113,11 +1647,13 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "The three conditions of \"un testament olographe\": \"écrit en entier, daté et signé de la main du testateur\" (Code civil, article 970).",
       },
       {
-        type: "word-order",
-        prompt: "Put the words in order to say: The notary is in charge of settling the estate.",
-        words: ["Le notaire", "est", "chargé", "de régler", "la succession."],
-        translation: "The notary is in charge of settling the estate.",
-        explanation: "\"Être chargé de\" + infinitive; \"régler une succession\" = to settle an estate.",
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change « hériter » to « léguer », with the aunt as the subject.",
+        source: "Paul a hérité la maison de sa tante.",
+        answer: "Sa tante a légué la maison à Paul.",
+        altAnswers: ["Sa tante lui a légué la maison.", "La tante de Paul lui a légué la maison."],
+        explanation: "\"Léguer\" looks at the gift from the giver's side: \"léguer quelque chose à quelqu'un\". \"Hériter\" looks from the heir's side: \"hériter quelque chose de quelqu'un\".",
       },
       {
         type: "dictation",
@@ -1126,8 +1662,8 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Maître, à partir de quand court le délai de rétractation ?",
         prompt: "Say it in French to the notary: From when does the cooling-off period run?",
+        text: "Maître, à partir de quand court le délai de rétractation ?",
         explanation: "\"Maître\" as address; \"court\" from courir: a deadline runs.",
       },
       {
@@ -1147,22 +1683,17 @@ export const FR_C2_U02: Lesson[] = [
     number: 6,
     title: "Le Français Juridique et Administratif, Part 7 of 7",
     summary: "Rights and recourse: recours gracieux, hiérarchique and contentieux, the délai de recours, the Défenseur des droits, the conciliateur de justice, aide juridictionnelle and protection juridique; contester, former un recours, saisir.",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
-        heading: "Three kinds of recours against an administrative decision",
+        heading: "Three kinds of recours: gracieux, hiérarchique, contentieux",
         body: [
           "When an administration refuses you something (a permit, a benefit, a place in a school), French law offers three kinds of challenge, \"des recours\". \"Le recours gracieux\" is addressed to the very authority that made the decision, asking it to reconsider (\"gracieux\" as in grace: you appeal to its goodwill). \"Le recours hiérarchique\" goes to its superior: from the mayor's services to the mayor, from the préfecture to the minister. \"Le recours contentieux\" goes to a court, usually the tribunal administratif.",
-          "The magic number is two months: \"le délai de recours contentieux\" is generally two months from the notification of the decision, and the decision must mention it (\"les voies et délais de recours\", printed at the bottom of the letter). A recours gracieux or hiérarchique made within that period interrupts it: the two months start again from the answer, or from the implicit refusal. On that point, note the principle since 2014: \"le silence gardé pendant deux mois par l'administration vaut acceptation\" (silence means yes), though the exceptions are so many that for a recours the silence usually means \"rejet implicite\" (implicit refusal).",
-          "The verbs: one \"forme\" or \"exerce un recours\", \"conteste une décision\", \"demande le réexamen\" of a file, and in court \"demande l'annulation\" of the decision. \"Un recours\" also exists in private law: \"un recours contre l'assureur\".",
         ],
         examples: [
           { es: "J'ai formé un recours gracieux contre le refus de permis de construire.", en: "I lodged an appeal with the authority against the refusal of planning permission." },
           { es: "En l'absence de réponse, un recours hiérarchique a été adressé au ministre.", en: "With no reply, an appeal was sent to the minister." },
-          { es: "Vous pouvez contester cette décision dans un délai de deux mois à compter de sa notification.", en: "You may challenge this decision within two months of its notification." },
-          { es: "Le recours gracieux interrompt le délai de recours contentieux.", en: "An appeal to the authority interrupts the time limit for going to court." },
-          { es: "Le silence gardé par l'administration vaut rejet implicite.", en: "The administration's silence amounts to an implicit refusal." },
-          { es: "Elle a demandé l'annulation de l'arrêté devant le tribunal administratif.", en: "She asked the administrative court to annul the order." },
+          { es: "Il a déposé un recours contentieux devant le tribunal administratif de Lyon.", en: "He brought an appeal before the Lyon administrative court." },
         ],
         checkpoint: [
           {
@@ -1176,6 +1707,35 @@ export const FR_C2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
+            source: "I lodged an appeal with the prefect against the refusal of my residence permit.",
+            answer: "J'ai formé un recours gracieux auprès du préfet contre le refus de mon titre de séjour.",
+            altAnswers: ["J'ai formé un recours gracieux auprès de la préfète contre le refus de mon titre de séjour.", "J'ai exercé un recours gracieux auprès du préfet contre le refus de mon titre de séjour.", "J'ai adressé un recours gracieux au préfet contre le refus de mon titre de séjour.", "J'ai formé un recours gracieux auprès du préfet contre le refus de ma carte de séjour."],
+            explanation: "The préfet made the decision, so appealing to him is a \"recours gracieux\"; \"former un recours auprès de\".",
+          },
+        ],
+      },
+      {
+        heading: "Two months, and what silence means",
+        body: [
+          "The magic number is two months: \"le délai de recours contentieux\" is generally two months from the notification of the decision, and the decision must mention it (\"les voies et délais de recours\", printed at the bottom of the letter). A recours gracieux or hiérarchique made within that period interrupts it: the two months start again from the answer, or from the implicit refusal. On that point, note the principle since 2014: \"le silence gardé pendant deux mois par l'administration vaut acceptation\" (silence means yes), though the exceptions are so many that for a recours the silence usually means \"rejet implicite\" (implicit refusal).",
+        ],
+        examples: [
+          { es: "Vous pouvez contester cette décision dans un délai de deux mois à compter de sa notification.", en: "You may challenge this decision within two months of its notification." },
+          { es: "Le recours gracieux interrompt le délai de recours contentieux.", en: "An appeal to the authority interrupts the time limit for going to court." },
+          { es: "Le silence gardé par l'administration vaut rejet implicite.", en: "The administration's silence amounts to an implicit refusal." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "The préfecture has not answered your recours gracieux for two months. What does that usually mean?",
+            options: ["An implicit refusal: the two months to go to court now start.", "An acceptance: you have won.", "Your file has been lost.", "You must wait another two months before doing anything."],
+            correctIndex: 0,
+            explanation: "For a recours, the administration's silence usually means \"rejet implicite\". The recours had interrupted the deadline, so the two months for the recours contentieux start again from that implicit refusal.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
             source: "You can challenge this decision within two months.",
             answer: "Vous pouvez contester cette décision dans un délai de deux mois.",
             altAnswers: ["Vous pouvez contester cette décision dans les deux mois.", "Vous disposez de deux mois pour contester cette décision.", "Vous pouvez contester cette décision sous deux mois.", "Vous disposez d'un délai de deux mois pour contester cette décision."],
@@ -1184,19 +1744,65 @@ export const FR_C2_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Help without a lawsuit, and help paying for one",
+        heading: "The verbs of a recours",
+        body: [
+          "The verbs: one \"forme\" or \"exerce un recours\", \"conteste une décision\", \"demande le réexamen\" of a file, and in court \"demande l'annulation\" of the decision. \"Un recours\" also exists in private law: \"un recours contre l'assureur\".",
+        ],
+        examples: [
+          { es: "Elle a demandé l'annulation de l'arrêté devant le tribunal administratif.", en: "She asked the administrative court to annul the order." },
+          { es: "Nous avons exercé un recours contre l'assureur du conducteur.", en: "We brought a claim against the driver's insurer." },
+          { es: "Le candidat conteste la décision du jury.", en: "The candidate is challenging the panel's decision." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into a noun phrase with « l'annulation ».",
+            source: "Elle demande au tribunal d'annuler l'arrêté.",
+            answer: "Elle demande au tribunal l'annulation de l'arrêté.",
+            altAnswers: ["Elle demande l'annulation de l'arrêté au tribunal."],
+            explanation: "In court one \"demande l'annulation\" of a decision: the verb \"annuler\" becomes the noun, and its object follows with \"de\".",
+          },
+        ],
+      },
+      {
+        heading: "Conciliateur and médiateur",
         body: [
           "Not every dispute needs a judge. \"Le conciliateur de justice\" is a volunteer appointed by the court who helps two parties reach an agreement, for free, in neighbour disputes, consumer problems or small debts; for many small claims an attempt at conciliation is even compulsory before going to court. \"Le médiateur\" does a similar job in a given sector (\"le médiateur de l'énergie\", \"le médiateur de la consommation\").",
-          "\"Le Défenseur des droits\" is an independent constitutional authority created in 2011: you can refer a case to this office (\"saisir le Défenseur des droits\") for free if you think a public service has failed you, if you suffered discrimination, or if a child's rights were not respected. The institution has local delegates in préfectures and town halls.",
-          "If you do go to court, \"l'aide juridictionnelle\" pays all or part of the lawyer's and court costs for people on modest incomes. Many home or car insurance policies also include \"une assurance protection juridique\" (legal expenses insurance), which covers fees and often offers legal advice by phone. Check yours before paying a lawyer.",
         ],
         examples: [
           { es: "Le conciliateur de justice a permis aux deux voisins de trouver un accord.", en: "The court conciliator helped the two neighbours reach an agreement." },
           { es: "Une tentative de conciliation est obligatoire avant de saisir le juge.", en: "An attempt at conciliation is compulsory before going to the judge." },
-          { es: "Elle a saisi le Défenseur des droits pour discrimination à l'embauche.", en: "She referred her case to the Defender of Rights for discrimination in hiring." },
-          { es: "Il a obtenu l'aide juridictionnelle totale.", en: "He obtained full legal aid." },
-          { es: "Mon assurance protection juridique prendra en charge les honoraires d'avocat.", en: "My legal expenses insurance will cover the lawyer's fees." },
           { es: "Le médiateur de l'énergie a donné raison à la cliente.", en: "The energy ombudsman ruled in the customer's favour." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Your electricity supplier keeps overcharging you, and its customer service won't listen. Who can you turn to for free?",
+            options: ["le médiateur de l'énergie", "le procureur", "le notaire", "la cour d'assises"],
+            correctIndex: 0,
+            explanation: "A sector \"médiateur\" (\"le médiateur de l'énergie\", \"de la consommation\") helps settle such disputes without a judge, for free.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The court conciliator helps neighbours reach an agreement free of charge.",
+            answer: "Le conciliateur de justice aide gratuitement les voisins à trouver un accord.",
+            altAnswers: ["Le conciliateur de justice aide les voisins à trouver un accord gratuitement.", "Le conciliateur de justice aide gratuitement des voisins à trouver un accord.", "Le conciliateur de justice aide gratuitement les voisins à parvenir à un accord.", "Le conciliateur de justice aide les voisins à parvenir à un accord gratuitement."],
+            explanation: "\"Le conciliateur de justice\" is a volunteer appointed by the court who helps parties reach an agreement, for free; \"aider quelqu'un à\" + infinitive.",
+          },
+        ],
+      },
+      {
+        heading: "Le Défenseur des droits",
+        body: [
+          "\"Le Défenseur des droits\" is an independent constitutional authority created in 2011: you can refer a case to this office (\"saisir le Défenseur des droits\") for free if you think a public service has failed you, if you suffered discrimination, or if a child's rights were not respected. The institution has local delegates in préfectures and town halls.",
+        ],
+        examples: [
+          { es: "Elle a saisi le Défenseur des droits pour discrimination à l'embauche.", en: "She referred her case to the Defender of Rights for discrimination in hiring." },
+          { es: "Les délégués du Défenseur des droits tiennent des permanences en préfecture.", en: "The Defender of Rights' delegates hold drop-in sessions at the prefecture." },
+          { es: "La saisine du Défenseur des droits est gratuite.", en: "Referring a case to the Defender of Rights is free." },
         ],
         checkpoint: [
           {
@@ -1208,6 +1814,19 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["J'ai saisi le Défenseur des droits de cette affaire.", "J'ai porté l'affaire devant le Défenseur des droits."],
             explanation: "\"Saisir\" + an authority or a court = to refer a matter to it. Capital D for this institution.",
           },
+        ],
+      },
+      {
+        heading: "Help paying: aide juridictionnelle, protection juridique",
+        body: [
+          "If you do go to court, \"l'aide juridictionnelle\" pays all or part of the lawyer's and court costs for people on modest incomes. Many home or car insurance policies also include \"une assurance protection juridique\" (legal expenses insurance), which covers fees and often offers legal advice by phone. Check yours before paying a lawyer.",
+        ],
+        examples: [
+          { es: "Il a obtenu l'aide juridictionnelle totale.", en: "He obtained full legal aid." },
+          { es: "Mon assurance protection juridique prendra en charge les honoraires d'avocat.", en: "My legal expenses insurance will cover the lawyer's fees." },
+          { es: "Son dossier d'aide juridictionnelle a été accepté.", en: "His legal aid application was accepted." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1216,33 +1835,32 @@ export const FR_C2_U02: Lesson[] = [
             answer: "l'aide juridictionnelle",
             explanation: "\"L'aide juridictionnelle\" (AJ) pays court and lawyer costs for low incomes. Not \"aide juridique\", which is the broader access to legal information.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Does your home insurance include legal expenses cover?",
+            answer: "Votre assurance habitation comprend-elle une protection juridique ?",
+            altAnswers: ["Est-ce que votre assurance habitation comprend une protection juridique ?", "Votre assurance habitation inclut-elle une protection juridique ?", "Est-ce que votre assurance habitation inclut une protection juridique ?", "Votre assurance habitation comprend-elle une assurance protection juridique ?", "Ton assurance habitation comprend-elle une protection juridique ?", "Est-ce que ton assurance habitation comprend une protection juridique ?"],
+            explanation: "Legal expenses cover is \"une (assurance) protection juridique\", often included in home or car insurance: worth checking before paying a lawyer.",
+          },
         ],
       },
       {
-        heading: "Saisir: a court, a file, a chance, or goods",
+        heading: "Saisir a court, saisir goods",
         body: [
           "\"Saisir\" has several senses, and legal French uses two that look opposite. \"Saisir le tribunal\", \"saisir le juge\", \"saisir la CNIL\" means to refer a matter to it, to bring it before it; \"le tribunal est saisi de l'affaire\" means the court has the case. \"Saisir les biens\" means to seize property: \"le commissaire de justice a saisi la voiture\", \"une saisie sur salaire\" (wage garnishment). The first sense is a beginning, the second an enforcement.",
-          "Add the everyday senses and you have a word that rewards precision: \"saisir une occasion\" (to seize an opportunity), \"saisir le sens\" (to grasp the meaning: \"je ne saisis pas\" = I don't follow), \"saisir des données\" (to type in data, \"la saisie\" on a keyboard), and in cooking \"saisir la viande\" (to sear it). The noun follows the sense: \"la saisine\" for referring a court, \"la saisie\" for seizure and data entry.",
-          "So the sentence \"Après la saisine du tribunal par le créancier, le juge a autorisé la saisie du compte bancaire du débiteur\" contains both: the creditor brought the case, and the judge allowed the debtor's account to be seized.",
         ],
         examples: [
           { es: "Le syndicat a saisi le tribunal administratif.", en: "The union took the matter to the administrative court." },
-          { es: "La cour est saisie de trois recours sur ce texte.", en: "The court has three appeals against this text before it." },
           { es: "Le commissaire de justice a procédé à la saisie des meubles.", en: "The bailiff seized the furniture." },
           { es: "Il a subi une saisie sur salaire pendant un an.", en: "His wages were garnished for a year." },
-          { es: "Je ne saisis pas bien la différence entre ces deux recours.", en: "I don't quite grasp the difference between these two appeals." },
-          { es: "La saisine du Conseil constitutionnel suspend la promulgation de la loi.", en: "Referral to the Constitutional Council suspends the promulgation of the law." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "\"Soixante députés ont saisi le Conseil constitutionnel.\" What happened?",
-            options: [
-              "Sixty MPs referred the law to the Constitutional Council.",
-              "Sixty MPs seized control of the Constitutional Council.",
-              "Sixty MPs were arrested by the Constitutional Council.",
-              "Sixty MPs grasped the Council's decision.",
-            ],
+            options: ["Sixty MPs referred the law to the Constitutional Council.", "Sixty MPs seized control of the Constitutional Council.", "Sixty MPs were arrested by the Constitutional Council.", "Sixty MPs grasped the Council's decision."],
             correctIndex: 0,
             explanation: "\"Saisir\" + a court or authority = to refer a matter to it; the noun is \"la saisine\".",
           },
@@ -1255,32 +1873,67 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["L'huissier a saisi la voiture du débiteur.", "Le commissaire de justice a saisi le véhicule du débiteur.", "L'huissier a saisi le véhicule du débiteur.", "Le commissaire de justice a procédé à la saisie de la voiture du débiteur."],
             explanation: "\"Saisir\" + goods = to seize them; the noun is \"la saisie\".",
           },
+        ],
+      },
+      {
+        heading: "Everyday saisir, and saisine vs saisie",
+        body: [
+          "Add the everyday senses and you have a word that rewards precision: \"saisir une occasion\" (to seize an opportunity), \"saisir le sens\" (to grasp the meaning: \"je ne saisis pas\" = I don't follow), \"saisir des données\" (to type in data, \"la saisie\" on a keyboard), and in cooking \"saisir la viande\" (to sear it). The noun follows the sense: \"la saisine\" for referring a court, \"la saisie\" for seizure and data entry.",
+        ],
+        examples: [
+          { es: "Je ne saisis pas bien la différence entre ces deux recours.", en: "I don't quite grasp the difference between these two appeals." },
+          { es: "Elle a saisi l'occasion pour demander une augmentation.", en: "She seized the opportunity to ask for a raise." },
+          { es: "La saisie des données prendra une journée.", en: "Entering the data will take a day." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which use of \"saisir\" means to seize goods?",
+            options: ["Le fisc a saisi son compte bancaire.", "Le maire a saisi le préfet du dossier.", "Elle n'a pas saisi l'allusion.", "Il faut saisir le juge des référés."],
+            correctIndex: 0,
+            explanation: "The tax office seized (froze and took) his bank account. The others: refer a file, grasp an allusion, bring before a judge.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La saisie du tribunal par le syndicat date de mars.",
+            answer: "La saisine du tribunal par le syndicat date de mars.",
+            explanation: "Referring a matter to a court is \"la saisine\"; \"la saisie\" is the seizure of goods (or data entry).",
+          },
+        ],
+      },
+      {
+        heading: "Both senses in one sentence",
+        body: [
+          "So the sentence \"Après la saisine du tribunal par le créancier, le juge a autorisé la saisie du compte bancaire du débiteur\" contains both: the creditor brought the case, and the judge allowed the debtor's account to be seized.",
+        ],
+        examples: [
+          { es: "La cour est saisie de trois recours sur ce texte.", en: "The court has three appeals against this text before it." },
+          { es: "La saisine du Conseil constitutionnel suspend la promulgation de la loi.", en: "Referral to the Constitutional Council suspends the promulgation of the law." },
+          { es: "Le juge, saisi par la banque, a ordonné la saisie de la maison.", en: "The judge, to whom the bank had referred the case, ordered the seizure of the house." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "La saisine du tribunal interrompt la prescription.",
             question: "What does it mean?",
-            options: [
-              "Bringing the case before the court stops the limitation period from running.",
-              "The court's seizure of goods cancels the prescription.",
-              "The court's decision interrupts the doctor's prescription.",
-              "The court's referral is interrupted by the statute of limitations.",
-            ],
+            options: ["Bringing the case before the court stops the limitation period from running.", "The court's seizure of goods cancels the prescription.", "The court's decision interrupts the doctor's prescription.", "The court's referral is interrupted by the statute of limitations."],
             correctIndex: 0,
             explanation: "\"La saisine\" = referral to a court; \"la prescription\" here is the limitation period, not a medical prescription.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[The referral] of the law to the Council by sixty MPs delayed its promulgation.",
+            sentence: "___ de la loi au Conseil par soixante députés a retardé sa promulgation.",
+            answer: "La saisine",
+            explanation: "Bringing a matter before a court or council is \"la saisine\"; \"la saisie\" would mean seizing it like goods.",
           },
         ],
       },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I lodged an appeal with the prefect against the refusal of my residence permit.",
-        answer: "J'ai formé un recours gracieux auprès du préfet contre le refus de mon titre de séjour.",
-        altAnswers: ["J'ai formé un recours gracieux auprès de la préfète contre le refus de mon titre de séjour.", "J'ai exercé un recours gracieux auprès du préfet contre le refus de mon titre de séjour.", "J'ai adressé un recours gracieux au préfet contre le refus de mon titre de séjour.", "J'ai formé un recours gracieux auprès du préfet contre le refus de ma carte de séjour."],
-        explanation: "The préfet made the decision, so appealing to him is a \"recours gracieux\"; \"former un recours auprès de\".",
-      },
       {
         type: "translate",
         direction: "en-es",
@@ -1297,36 +1950,6 @@ export const FR_C2_U02: Lesson[] = [
         sentence: "La décision doit mentionner ___.",
         answer: "les voies et délais de recours",
         explanation: "\"Les voies et délais de recours\": if they are missing, the two-month limit does not start to run.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "An attempt at conciliation is compulsory before going to court.",
-        answer: "Une tentative de conciliation est obligatoire avant de saisir le tribunal.",
-        altAnswers: ["Une tentative de conciliation est obligatoire avant de saisir le juge.", "Une tentative de conciliation est obligatoire avant toute saisine du tribunal.", "Une tentative de conciliation est obligatoire avant d'aller au tribunal."],
-        explanation: "\"Saisir le tribunal / le juge\" = to bring the matter before the court; \"avant toute saisine\" is the nominal version.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which use of \"saisir\" means to seize goods?",
-        options: [
-          "Le fisc a saisi son compte bancaire.",
-          "Le maire a saisi le préfet du dossier.",
-          "Elle n'a pas saisi l'allusion.",
-          "Il faut saisir le juge des référés.",
-        ],
-        correctIndex: 0,
-        explanation: "The tax office seized (froze and took) his bank account. The others: refer a file, grasp an allusion, bring before a judge.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "My legal expenses insurance covers the lawyer's fees.",
-        answer: "Mon assurance protection juridique prend en charge les honoraires d'avocat.",
-        altAnswers: ["Mon assurance protection juridique couvre les honoraires d'avocat.", "Ma protection juridique prend en charge les honoraires de l'avocat.", "Mon assurance protection juridique prend en charge les honoraires de l'avocat.", "Ma protection juridique couvre les honoraires d'avocat."],
-        explanation: "\"Prendre en charge\" (to cover a cost); a lawyer's fees are \"les honoraires\" (always plural, h muet).",
       },
       {
         type: "translate",
@@ -1351,8 +1974,8 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Je souhaiterais former un recours gracieux contre cette décision.",
         prompt: "Say it in French at the town hall: I would like to lodge an appeal against this decision.",
+        text: "Je souhaiterais former un recours gracieux contre cette décision.",
         explanation: "\"Former un recours gracieux\" asks the author of the decision to reconsider it.",
       },
       {
@@ -1372,33 +1995,43 @@ export const FR_C2_U02: Lesson[] = [
     number: 7,
     title: "Text Detective: Un Courrier des Impôts",
     summary: "Read a letter from the tax office (proposition de rectification, majoration de 10 %, intérêts de retard) and extract the deadlines, obligations, options and the consequences of silence.",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
-        heading: "Part 1: what is the letter about?",
+        heading: "Part 1: the letter",
         body: [
           "Thomas Garnier, who rents out a studio in Montpellier, receives this letter (written for this course in the style of a real one): \"Direction générale des Finances publiques. Service des impôts des particuliers de Montpellier. Proposition de rectification. Monsieur, L'examen de votre dossier fiscal fait apparaître que les revenus fonciers perçus au titre de l'année 2024, soit 7 200 euros, n'ont pas été portés sur votre déclaration de revenus. En application de l'article L. 55 du Livre des procédures fiscales, j'ai l'honneur de vous faire connaître les rectifications que je me propose d'apporter à vos bases d'imposition.\"",
-          "Decode it. \"La DGFiP\" is the tax administration; \"le SIP\" (service des impôts des particuliers) is the local tax office for individuals. \"Une proposition de rectification\" is a formal proposal to correct your tax: not yet a demand for payment, but the opening of a procedure with rights attached. \"Les revenus fonciers\" are income from property (rent). \"Au titre de l'année 2024\" means in respect of 2024. \"Portés sur votre déclaration\" means entered on your tax return. \"Les bases d'imposition\" are the amounts on which tax is calculated.",
-          "The style is pure administrative French: nominal subjects (\"l'examen de votre dossier fait apparaître que\": the examination reveals that), \"soit\" introducing a precise figure (that is, namely), \"en application de\" + a legal text, and \"je me propose de\" (I intend to) in the first person of the official who signs.",
         ],
         examples: [
-          { es: "L'examen de votre dossier fait apparaître une erreur de déclaration.", en: "An examination of your file reveals an error in your return." },
-          { es: "Les revenus fonciers perçus au titre de l'année 2024 n'ont pas été déclarés.", en: "The rental income received for 2024 was not declared." },
-          { es: "Ces revenus n'ont pas été portés sur votre déclaration.", en: "This income was not entered on your tax return." },
-          { es: "Le montant des loyers, soit 7 200 euros, sera ajouté à vos revenus imposables.", en: "The amount of rent, namely 7,200 euros, will be added to your taxable income." },
           { es: "En application de l'article L. 55 du Livre des procédures fiscales,", en: "Pursuant to article L. 55 of the Tax Procedures Code," },
           { es: "Je me propose d'apporter les rectifications suivantes.", en: "I intend to make the following corrections." },
+          { es: "Le montant des loyers, soit 7 200 euros, sera ajouté à vos revenus imposables.", en: "The amount of rent, namely 7,200 euros, will be added to your taxable income." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "According to the letter, what did Thomas fail to do?",
+            options: ["Declare the 7,200 euros of rent he received for 2024.", "Pay his 2024 income tax on time.", "Reply to an earlier letter from the tax office.", "Declare the sale of his studio."],
+            correctIndex: 0,
+            explanation: "\"Les revenus fonciers perçus au titre de l'année 2024, soit 7 200 euros, n'ont pas été portés sur votre déclaration\": the rent was received but never entered on his tax return.",
+          },
+        ],
+      },
+      {
+        heading: "Decoding the vocabulary",
+        body: [
+          "Decode it. \"La DGFiP\" is the tax administration; \"le SIP\" (service des impôts des particuliers) is the local tax office for individuals. \"Une proposition de rectification\" is a formal proposal to correct your tax: not yet a demand for payment, but the opening of a procedure with rights attached. \"Les revenus fonciers\" are income from property (rent). \"Au titre de l'année 2024\" means in respect of 2024. \"Portés sur votre déclaration\" means entered on your tax return. \"Les bases d'imposition\" are the amounts on which tax is calculated.",
+        ],
+        examples: [
+          { es: "Les revenus fonciers perçus au titre de l'année 2024 n'ont pas été déclarés.", en: "The rental income received for 2024 was not declared." },
+          { es: "Ces revenus n'ont pas été portés sur votre déclaration.", en: "This income was not entered on your tax return." },
+          { es: "Le SIP de Montpellier a examiné son dossier fiscal.", en: "The Montpellier tax office examined his tax file." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "What is \"une proposition de rectification\"?",
-            options: [
-              "A formal proposal to correct your tax, which you can answer.",
-              "A final demand for immediate payment.",
-              "An invitation to reduce your taxes.",
-              "A request to fill in your return for the first time.",
-            ],
+            options: ["A formal proposal to correct your tax, which you can answer.", "A final demand for immediate payment.", "An invitation to reduce your taxes.", "A request to fill in your return for the first time."],
             correctIndex: 0,
             explanation: "It opens a procedure: the tax office proposes a correction and you have the right to reply before anything is charged.",
           },
@@ -1406,27 +2039,72 @@ export const FR_C2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French in administrative style.",
-            source: "The rental income received in respect of 2024 was not declared.",
-            answer: "Les revenus fonciers perçus au titre de l'année 2024 n'ont pas été déclarés.",
-            altAnswers: ["Les revenus fonciers perçus au titre de 2024 n'ont pas été déclarés.", "Les loyers perçus au titre de l'année 2024 n'ont pas été déclarés.", "Les revenus fonciers perçus au titre de l'année 2024 n'ont pas été portés sur la déclaration."],
-            explanation: "\"Revenus fonciers\" = property income; \"perçus\" (from percevoir) = received; \"au titre de\" = in respect of.",
+            source: "The rent received in respect of 2025, namely 6,000 euros, was not entered on the return.",
+            answer: "Les loyers perçus au titre de l'année 2025, soit 6 000 euros, n'ont pas été portés sur la déclaration.",
+            altAnswers: ["Les loyers perçus au titre de 2025, soit 6 000 euros, n'ont pas été portés sur la déclaration.", "Les loyers perçus au titre de l'année 2025, soit 6 000 euros, n'ont pas été portés sur la déclaration de revenus.", "Les revenus fonciers perçus au titre de l'année 2025, soit 6 000 euros, n'ont pas été portés sur la déclaration.", "Les loyers perçus au titre de l'année 2025, soit 6 000 €, n'ont pas été portés sur la déclaration."],
+            explanation: "\"Au titre de\" = in respect of; \"soit\" introduces the precise figure; \"porter sur la déclaration\" = to enter on the return. \"Perçus\" agrees with \"les loyers\".",
           },
         ],
       },
       {
-        heading: "Part 2: how much, and what are the extras?",
+        heading: "The administrative style",
+        body: [
+          "The style is pure administrative French: nominal subjects (\"l'examen de votre dossier fait apparaître que\": the examination reveals that), \"soit\" introducing a precise figure (that is, namely), \"en application de\" + a legal text, and \"je me propose de\" (I intend to) in the first person of the official who signs.",
+        ],
+        examples: [
+          { es: "L'examen de votre dossier fait apparaître une erreur de déclaration.", en: "An examination of your file reveals an error in your return." },
+          { es: "L'examen des pièces fait apparaître un écart de 1 500 euros.", en: "Examination of the documents reveals a discrepancy of 1,500 euros." },
+          { es: "En application de l'article 1727 du Code général des impôts, des intérêts de retard sont dus.", en: "Pursuant to article 1727 of the General Tax Code, late-payment interest is due." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The rent, [namely] 600 euros a month, was not declared.",
+            sentence: "Le loyer, ___ 600 euros par mois, n'a pas été déclaré.",
+            answer: "soit",
+            explanation: "\"Soit\" introduces a precise equivalent or figure: that is, namely.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into administrative style with « fait apparaître ».",
+            source: "Quand on a contrôlé vos comptes, on a découvert un oubli.",
+            answer: "Le contrôle de vos comptes fait apparaître un oubli.",
+            altAnswers: ["Le contrôle de vos comptes a fait apparaître un oubli."],
+            explanation: "Administrative French makes the action a noun subject (\"le contrôle de vos comptes\") and lets it \"faire apparaître\" the finding, instead of a vague \"on\".",
+          },
+        ],
+      },
+      {
+        heading: "Part 2: the sums claimed",
         body: [
           "The letter continues: \"Les rectifications envisagées entraînent un rappel d'impôt sur le revenu de 2 160 euros et de prélèvements sociaux de 1 238 euros. Ces droits seront assortis de l'intérêt de retard prévu à l'article 1727 du Code général des impôts, au taux de 0,20 % par mois, ainsi que de la majoration de 10 % prévue à l'article 1758 A du même code. Toutefois, votre bonne foi n'étant pas mise en cause, aucune majoration pour manquement délibéré ne sera appliquée.\"",
-          "\"Un rappel d'impôt\" is the extra tax claimed (the 'reminder' of what was owed). \"Les prélèvements sociaux\" are the social contributions levied on property income. \"Être assorti de\" means to come with, to be accompanied by: the tax comes with \"l'intérêt de retard\" (interest for late payment, 0.20% per month) and \"une majoration\" (a surcharge, here 10%). \"Le manquement délibéré\" (deliberate failure) would carry a 40% surcharge; because his \"bonne foi\" is not questioned, Thomas escapes it.",
-          "Notice again the absolute participle that justifies a decision: \"votre bonne foi n'étant pas mise en cause, aucune majoration... ne sera appliquée\". And \"du même code\": legal texts avoid repeating a long name by using \"même\" or \"précité\" (cited above).",
         ],
         examples: [
           { es: "Les rectifications envisagées entraînent un rappel d'impôt de 2 160 euros.", en: "The proposed corrections result in additional tax of 2,160 euros." },
-          { es: "Ces droits seront assortis de l'intérêt de retard.", en: "This tax will be subject to late-payment interest." },
           { es: "Une majoration de 10 % sera appliquée.", en: "A 10% surcharge will be applied." },
-          { es: "Votre bonne foi n'étant pas mise en cause, aucune pénalité ne sera appliquée.", en: "As your good faith is not in question, no penalty will be applied." },
-          { es: "L'article 1758 A du même code prévoit une majoration de 10 %.", en: "Article 1758 A of the same code provides for a 10% surcharge." },
           { es: "En cas de manquement délibéré, la majoration est portée à 40 %.", en: "In the event of deliberate failure, the surcharge is raised to 40%." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How much extra income tax does the letter claim, before interest and surcharge?",
+            options: ["2,160 euros", "1,238 euros", "3,398 euros", "7,200 euros"],
+            correctIndex: 0,
+            explanation: "\"Un rappel d'impôt sur le revenu de 2 160 euros\". The 1,238 euros are social contributions, 3,398 is both together, and 7,200 is the undeclared rent itself.",
+          },
+        ],
+      },
+      {
+        heading: "Rappel, prélèvements, intérêt de retard, majoration",
+        body: [
+          "\"Un rappel d'impôt\" is the extra tax claimed (the 'reminder' of what was owed). \"Les prélèvements sociaux\" are the social contributions levied on property income. \"Être assorti de\" means to come with, to be accompanied by: the tax comes with \"l'intérêt de retard\" (interest for late payment, 0.20% per month) and \"une majoration\" (a surcharge, here 10%). \"Le manquement délibéré\" (deliberate failure) would carry a 40% surcharge; because his \"bonne foi\" is not questioned, Thomas escapes it.",
+        ],
+        examples: [
+          { es: "Ces droits seront assortis de l'intérêt de retard.", en: "This tax will be subject to late-payment interest." },
+          { es: "En cas de manquement délibéré, la majoration est portée à 40 %.", en: "In the event of deliberate failure, the surcharge is raised to 40%." },
+          { es: "Les prélèvements sociaux s'ajoutent à l'impôt sur le revenu.", en: "Social contributions come on top of income tax." },
         ],
         checkpoint: [
           {
@@ -1438,44 +2116,96 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "\"Être assorti de\" (to come with, be accompanied by) is the administrative way to attach a penalty or a condition.",
           },
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French in administrative style.",
-            source: "As your good faith is not in question, no surcharge will be applied.",
-            answer: "Votre bonne foi n'étant pas mise en cause, aucune majoration ne sera appliquée.",
-            altAnswers: ["Votre bonne foi n'étant pas en cause, aucune majoration ne sera appliquée.", "Votre bonne foi n'étant pas mise en doute, aucune majoration ne sera appliquée.", "Comme votre bonne foi n'est pas mise en cause, aucune majoration ne sera appliquée."],
-            explanation: "The absolute participle clause \"n'étant pas mise en cause\" gives the reason; \"mise\" agrees with \"bonne foi\".",
+            type: "multiple-choice",
+            question: "\"Une majoration de 10 %\" is:",
+            options: ["a 10% surcharge added to the tax owed", "a 10% reduction for good faith", "a 10% monthly interest rate", "a 10% refund"],
+            correctIndex: 0,
+            explanation: "\"Majorer\" = to increase; \"une majoration\" is a surcharge, separate from the late-payment interest (\"intérêt de retard\").",
           },
         ],
       },
       {
-        heading: "Part 3: deadlines, options and the cost of silence",
+        heading: "Justifying with an absolute participle; du même code",
+        body: [
+          "Notice again the absolute participle that justifies a decision: \"votre bonne foi n'étant pas mise en cause, aucune majoration... ne sera appliquée\". And \"du même code\": legal texts avoid repeating a long name by using \"même\" or \"précité\" (cited above).",
+        ],
+        examples: [
+          { es: "Votre bonne foi n'étant pas mise en cause, aucune pénalité ne sera appliquée.", en: "As your good faith is not in question, no penalty will be applied." },
+          { es: "L'article 1758 A du même code prévoit une majoration de 10 %.", en: "Article 1758 A of the same code provides for a 10% surcharge." },
+          { es: "Les dispositions de l'article précité restent applicables.", en: "The provisions of the above-cited article remain applicable." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French in administrative style.",
+            source: "As the error has been corrected, no penalty will be applied.",
+            answer: "L'erreur ayant été corrigée, aucune pénalité ne sera appliquée.",
+            altAnswers: ["L'erreur ayant été rectifiée, aucune pénalité ne sera appliquée.", "L'erreur ayant été corrigée, aucune majoration ne sera appliquée.", "L'erreur ayant été rectifiée, aucune majoration ne sera appliquée.", "L'erreur étant corrigée, aucune pénalité ne sera appliquée."],
+            explanation: "The absolute participle \"l'erreur ayant été corrigée\" states the ground for the decision; \"corrigée\" agrees with its own subject, \"l'erreur\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La déclaration ayant été déposé en retard, une majoration s'applique.",
+            answer: "La déclaration ayant été déposée en retard, une majoration s'applique.",
+            explanation: "In an absolute participle clause the participle agrees with its own subject: \"la déclaration ayant été déposée\".",
+          },
+        ],
+      },
+      {
+        heading: "Part 3: the deadline and the options",
         body: [
           "The last paragraph: \"Vous disposez d'un délai de trente jours à compter de la réception de la présente pour faire parvenir vos observations ou votre acceptation. Ce délai peut être prorogé de trente jours sur demande expresse formulée avant son expiration. Si vous contestez les rectifications, vous pourrez, en cas de désaccord persistant, solliciter un entretien avec mon supérieur hiérarchique, puis avec l'interlocuteur départemental. À défaut de réponse dans le délai imparti, vous serez réputé avoir accepté les rectifications proposées, qui seront mises en recouvrement.\"",
-          "Extract the facts. The deadline: thirty days from receipt. It can be extended (\"prorogé\") by thirty days, but only if he asks expressly before it expires. His options: accept, or send \"des observations\" (his arguments), then ask for a meeting with the official's superior and then with \"l'interlocuteur départemental\". The consequence of silence: \"vous serez réputé avoir accepté\" (you will be deemed to have accepted), and the tax will be \"mis en recouvrement\" (put up for collection).",
-          "Two verbs to keep: \"proroger\" (to extend a deadline; \"une prorogation\"), and \"être réputé\" + past infinitive (to be deemed to have done). And in tax matters, unlike a recours against a refusal, silence means yes: here, yes to paying.",
         ],
         examples: [
           { es: "Vous disposez d'un délai de trente jours pour faire parvenir vos observations.", en: "You have thirty days to send your comments." },
-          { es: "Ce délai peut être prorogé de trente jours sur demande expresse.", en: "This deadline can be extended by thirty days on express request." },
           { es: "Il a sollicité un entretien avec le supérieur hiérarchique du vérificateur.", en: "He requested a meeting with the inspector's superior." },
-          { es: "À défaut de réponse, vous serez réputé avoir accepté les rectifications.", en: "If you do not reply, you will be deemed to have accepted the corrections." },
           { es: "Les sommes dues seront mises en recouvrement le mois prochain.", en: "The sums due will be put up for collection next month." },
-          { es: "J'ai demandé une prorogation du délai de réponse.", en: "I asked for an extension of the time to reply." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "Thomas doesn't answer within thirty days. What happens?",
-            options: [
-              "He is deemed to have accepted, and the tax will be collected.",
-              "The procedure is automatically cancelled.",
-              "The deadline is automatically extended.",
-              "He is presumed to contest the corrections.",
-            ],
+            options: ["He is deemed to have accepted, and the tax will be collected.", "The procedure is automatically cancelled.", "The deadline is automatically extended.", "He is presumed to contest the corrections."],
             correctIndex: 0,
             explanation: "\"Vous serez réputé avoir accepté\": in this procedure silence counts as acceptance.",
           },
+        ],
+      },
+      {
+        heading: "Extracting the facts: what silence costs",
+        body: [
+          "Extract the facts. The deadline: thirty days from receipt. It can be extended (\"prorogé\") by thirty days, but only if he asks expressly before it expires. His options: accept, or send \"des observations\" (his arguments), then ask for a meeting with the official's superior and then with \"l'interlocuteur départemental\". The consequence of silence: \"vous serez réputé avoir accepté\" (you will be deemed to have accepted), and the tax will be \"mis en recouvrement\" (put up for collection).",
+        ],
+        examples: [
+          { es: "Ce délai peut être prorogé de trente jours sur demande expresse.", en: "This deadline can be extended by thirty days on express request." },
+          { es: "À défaut de réponse, vous serez réputé avoir accepté les rectifications.", en: "If you do not reply, you will be deemed to have accepted the corrections." },
+          { es: "Sans réponse de votre part, les rectifications seront considérées comme acceptées.", en: "Without a reply from you, the corrections will be considered accepted." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Vous serez réputé avoir accepté les rectifications proposées.",
+            question: "What does it mean?",
+            options: ["You will be deemed to have accepted the proposed corrections.", "You are reputed to accept corrections easily.", "You will be asked to accept the corrections.", "Your reputation depends on accepting the corrections."],
+            correctIndex: 0,
+            explanation: "\"Être réputé\" + infinitive is a legal fiction (deemed), not reputation.",
+          },
+        ],
+      },
+      {
+        heading: "Proroger and être réputé",
+        body: [
+          "Two verbs to keep: \"proroger\" (to extend a deadline; \"une prorogation\"), and \"être réputé\" + past infinitive (to be deemed to have done). And in tax matters, unlike a recours against a refusal, silence means yes: here, yes to paying.",
+        ],
+        examples: [
+          { es: "J'ai demandé une prorogation du délai de réponse.", en: "I asked for an extension of the time to reply." },
+          { es: "Le délai a été prorogé jusqu'au 15 juillet.", en: "The deadline was extended until 15 July." },
+          { es: "Faute de réponse, il est réputé avoir renoncé à son recours.", en: "Having not replied, he is deemed to have abandoned his appeal." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1486,17 +2216,12 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "\"Solliciter une prorogation\" (formal ask for an extension); \"proroger\" is to extend a deadline, \"prolonger\" its everyday cousin.",
           },
           {
-            type: "listen-choose",
-            audio: "Vous serez réputé avoir accepté les rectifications proposées.",
-            question: "What does it mean?",
-            options: [
-              "You will be deemed to have accepted the proposed corrections.",
-              "You are reputed to accept corrections easily.",
-              "You will be asked to accept the corrections.",
-              "Your reputation depends on accepting the corrections.",
-            ],
-            correctIndex: 0,
-            explanation: "\"Être réputé\" + infinitive is a legal fiction (deemed), not reputation.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Sans réponse, la société sera réputée d'avoir accepté le redressement.",
+            answer: "Sans réponse, la société sera réputée avoir accepté le redressement.",
+            explanation: "\"Être réputé\" takes the past infinitive directly, with no \"de\": \"réputée avoir accepté\".",
           },
         ],
       },
@@ -1521,14 +2246,6 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "\"Disposer d'un délai de\" + \"à compter de la réception de la présente\": the full administrative formula.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The rent, [namely] 600 euros a month, was not declared.",
-        sentence: "Le loyer, ___ 600 euros par mois, n'a pas été déclaré.",
-        answer: "soit",
-        explanation: "\"Soit\" introduces a precise equivalent or figure: that is, namely.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -1536,13 +2253,6 @@ export const FR_C2_U02: Lesson[] = [
         answer: "Ces revenus n'ont pas été portés sur ma déclaration de revenus.",
         altAnswers: ["Ces revenus n'ont pas été portés sur ma déclaration.", "Ces revenus n'ont pas été reportés sur ma déclaration de revenus.", "Ces revenus n'ont pas été mentionnés sur ma déclaration de revenus.", "Ces revenus n'ont pas été déclarés."],
         explanation: "\"Porter une somme sur un document\" = to enter it on the form.",
-      },
-      {
-        type: "multiple-choice",
-        question: "\"Une majoration de 10 %\" is:",
-        options: ["a 10% surcharge added to the tax owed", "a 10% reduction for good faith", "a 10% monthly interest rate", "a 10% refund"],
-        correctIndex: 0,
-        explanation: "\"Majorer\" = to increase; \"une majoration\" is a surcharge, separate from the late-payment interest (\"intérêt de retard\").",
       },
       {
         type: "translate",
@@ -1576,8 +2286,8 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Si je ne réponds pas, je serai réputé avoir accepté, c'est bien ça ?",
         prompt: "Say it in French to the tax officer (as a man): If I don't reply, I'll be deemed to have accepted, is that right?",
+        text: "Si je ne réponds pas, je serai réputé avoir accepté, c'est bien ça ?",
         explanation: "\"Être réputé avoir accepté\": a woman says \"réputée\". \"C'est bien ça ?\" checks understanding politely.",
       },
       {
@@ -1597,22 +2307,17 @@ export const FR_C2_U02: Lesson[] = [
     number: 8,
     title: "Mastery Vocabulary: Precise Verbs Instead of Faire",
     summary: "Faire says everything and therefore nothing: effectuer, procéder à, opérer, accomplir, mener, dresser, établir, pratiquer, commettre, perpétrer, infliger; and why réaliser does not mean to realise.",
-    duration: "17 min",
+    duration: "18 min",
     sections: [
       {
-        heading: "Effectuer, procéder à, opérer: carrying out an operation",
+        heading: "Effectuer: operations and transactions",
         body: [
           "\"Faire\" is the first verb every learner masters and the one a Mastery writer uses least in formal texts. Each noun has a verb that fits it better, and choosing it shows command of the language. For operations and transactions, administrative and business French reaches for \"effectuer\": \"effectuer un virement\" (make a transfer), \"effectuer un paiement\", \"effectuer une réservation\", \"effectuer des travaux\". It is neutral, precise and a little formal.",
-          "\"Procéder à\" + noun is even more official: it announces a formal step by an authority. \"La police a procédé à trois interpellations\", \"il sera procédé au tirage au sort\", \"nous allons procéder à la vérification de vos documents\". Note that it takes \"à\", and that the impersonal passive \"il a été procédé à\" is very common in reports. \"Opérer\" is used for choices, changes and transformations (\"opérer un choix\", \"opérer un revirement\", \"opérer une sélection\"), and of course for surgeons (\"opérer un patient\").",
-          "Do not overdo it: \"effectuer une promenade\" sounds absurd. These verbs belong to transactions, procedures and reports. In conversation, \"faire un virement\" is perfectly natural.",
         ],
         examples: [
           { es: "Le virement a été effectué le 3 juin.", en: "The transfer was made on 3 June." },
           { es: "Le paiement s'effectue en ligne, par carte bancaire.", en: "Payment is made online, by card." },
-          { es: "La police a procédé à trois interpellations.", en: "The police made three arrests." },
-          { es: "Il sera procédé au tirage au sort à 18 heures.", en: "The draw will take place at 6 p.m." },
-          { es: "Le gouvernement a opéré un revirement spectaculaire.", en: "The government made a spectacular U-turn." },
-          { es: "Le jury a dû opérer un choix difficile entre les deux finalistes.", en: "The jury had to make a difficult choice between the two finalists." },
+          { es: "Les travaux seront effectués pendant les vacances scolaires.", en: "The works will be carried out during the school holidays." },
         ],
         checkpoint: [
           {
@@ -1625,6 +2330,29 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "\"Effectuer un virement\": the standard verb for a transaction in formal French.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it formal: replace « faire » with « effectuer ».",
+            source: "J'ai fait la réservation en ligne.",
+            answer: "J'ai effectué la réservation en ligne.",
+            altAnswers: ["La réservation a été effectuée en ligne."],
+            explanation: "For transactions such as a booking, a transfer or a payment, formal French prefers \"effectuer\" to \"faire\".",
+          },
+        ],
+      },
+      {
+        heading: "Procéder à and opérer",
+        body: [
+          "\"Procéder à\" + noun is even more official: it announces a formal step by an authority. \"La police a procédé à trois interpellations\", \"il sera procédé au tirage au sort\", \"nous allons procéder à la vérification de vos documents\". Note that it takes \"à\", and that the impersonal passive \"il a été procédé à\" is very common in reports. \"Opérer\" is used for choices, changes and transformations (\"opérer un choix\", \"opérer un revirement\", \"opérer une sélection\"), and of course for surgeons (\"opérer un patient\").",
+        ],
+        examples: [
+          { es: "La police a procédé à trois interpellations.", en: "The police made three arrests." },
+          { es: "Il sera procédé au tirage au sort à 18 heures.", en: "The draw will take place at 6 p.m." },
+          { es: "Le gouvernement a opéré un revirement spectaculaire.", en: "The government made a spectacular U-turn." },
+          { es: "Le jury a dû opérer un choix difficile entre les deux finalistes.", en: "The jury had to make a difficult choice between the two finalists." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "We will now [carry out] the check of your documents.",
@@ -1632,39 +2360,53 @@ export const FR_C2_U02: Lesson[] = [
             answer: "procéder à",
             explanation: "\"Procéder à\" + noun announces a formal step; don't forget the \"à\" (\"procéder à la\").",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La police a procédé trois perquisitions.",
+            answer: "La police a procédé à trois perquisitions.",
+            explanation: "\"Procéder\" needs \"à\" before its noun: \"procéder à trois perquisitions\", \"il a été procédé à\".",
+          },
         ],
       },
       {
-        heading: "Accomplir, mener, dresser, établir, pratiquer",
+        heading: "Don't overdo it",
+        body: [
+          "Do not overdo it: \"effectuer une promenade\" sounds absurd. These verbs belong to transactions, procedures and reports. In conversation, \"faire un virement\" is perfectly natural.",
+        ],
+        examples: [
+          { es: "On a fait une belle promenade au bord de la Loire.", en: "We went for a lovely walk along the Loire." },
+          { es: "Tu peux me faire un virement ce soir ?", en: "Can you send me a transfer tonight?" },
+          { es: "Le paiement doit être effectué avant la livraison.", en: "Payment must be made before delivery." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which noun does NOT go naturally with « effectuer » ?",
+            options: ["une promenade", "un virement", "une réservation", "un paiement"],
+            correctIndex: 0,
+            explanation: "\"Effectuer\" belongs to transactions, procedures and reports: a transfer, a booking, a payment. \"Effectuer une promenade\" sounds absurd: you \"faites une promenade\".",
+          },
+        ],
+      },
+      {
+        heading: "Accomplir, mener, réaliser",
         body: [
           "Tasks and missions: \"accomplir\" stresses completion (\"accomplir des formalités\", \"accomplir son devoir\", \"accomplir un exploit\"). \"Mener\" stresses direction over time (\"mener une enquête\", \"mener des négociations\", \"mener à bien un projet\": to see it through). \"Réaliser\" means to carry out or make something concrete: \"réaliser un projet\", \"réaliser un film\", \"réaliser des économies\", \"réaliser un rêve\".",
-          "Documents have their own verbs. \"Dresser\" goes with official lists and reports: \"dresser un constat\" (an official finding, by a commissaire de justice or after a car accident: \"le constat amiable\"), \"dresser un procès-verbal\", \"dresser une liste\", \"dresser un bilan\" (draw up an assessment). \"Établir\" goes with documents that certify or estimate: \"établir un devis\" (a quote), \"établir un certificat\", \"établir une facture\", \"établir un diagnostic\".",
-          "\"Pratiquer\" is used for activities and for prices: \"pratiquer un sport\", \"pratiquer la médecine\", \"pratiquer des prix élevés\", \"pratiquer une incision\" (a surgeon). \"Les tarifs pratiqués\" are the prices charged. Note also \"faire un discours\" → \"prononcer un discours\", \"faire une promesse\" → \"formuler\" or \"tenir une promesse\" (keep), \"faire une enquête\" → \"mener une enquête\".",
         ],
         examples: [
           { es: "Vous devez accomplir les formalités avant le 31 mars.", en: "You must complete the formalities before 31 March." },
           { es: "La gendarmerie mène l'enquête.", en: "The gendarmerie is leading the investigation." },
           { es: "Elle a mené à bien un projet très ambitieux.", en: "She saw a very ambitious project through to completion." },
-          { es: "Le commissaire de justice a dressé un constat de dégât des eaux.", en: "The bailiff drew up an official report of the water damage." },
-          { es: "Le plombier a établi un devis de 850 euros.", en: "The plumber drew up a quote for 850 euros." },
-          { es: "Les tarifs pratiqués par cette clinique sont très élevés.", en: "The rates charged by this clinic are very high." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French in formal style, without faire.",
-            source: "The electrician drew up a quote for the work.",
-            answer: "L'électricien a établi un devis pour les travaux.",
-            altAnswers: ["L'électricien a établi un devis des travaux.", "L'électricien a établi un devis concernant les travaux.", "L'électricienne a établi un devis pour les travaux."],
-            explanation: "\"Établir un devis\" (a quote), like \"établir une facture, un certificat\".",
-          },
-          {
             type: "multiple-choice",
-            question: "After a minor car accident, what do the two drivers fill in together?",
-            options: ["Ils dressent un constat amiable.", "Ils accomplissent un constat amiable.", "Ils pratiquent un constat amiable.", "Ils mènent un constat amiable."],
+            question: "« Elle a mené à bien sa thèse. » What does it mean?",
+            options: ["She saw her thesis through to completion.", "She wrote her thesis well.", "She led a team on her thesis.", "She improved her thesis."],
             correctIndex: 0,
-            explanation: "\"Dresser un constat\" is the fixed collocation (insurers also say \"établir un constat\", and in speech \"remplir un constat\"). \"Accomplir\" goes with formalities, \"pratiquer\" with activities and prices, \"mener\" with investigations.",
+            explanation: "\"Mener à bien\" means to see something through: \"mener\" stresses direction over time, and \"à bien\" its successful end.",
           },
           {
             type: "translate",
@@ -1678,19 +2420,93 @@ export const FR_C2_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Commettre, perpétrer, infliger; and the réaliser trap",
+        heading: "Documents: dresser and établir",
+        body: [
+          "Documents have their own verbs. \"Dresser\" goes with official lists and reports: \"dresser un constat\" (an official finding, by a commissaire de justice or after a car accident: \"le constat amiable\"), \"dresser un procès-verbal\", \"dresser une liste\", \"dresser un bilan\" (draw up an assessment). \"Établir\" goes with documents that certify or estimate: \"établir un devis\" (a quote), \"établir un certificat\", \"établir une facture\", \"établir un diagnostic\".",
+        ],
+        examples: [
+          { es: "Le commissaire de justice a dressé un constat de dégât des eaux.", en: "The bailiff drew up an official report of the water damage." },
+          { es: "Le plombier a établi un devis de 850 euros.", en: "The plumber drew up a quote for 850 euros." },
+          { es: "Le médecin a établi un certificat d'aptitude.", en: "The doctor issued a certificate of fitness." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "After a minor car accident, what do the two drivers fill in together?",
+            options: ["Ils dressent un constat amiable.", "Ils accomplissent un constat amiable.", "Ils pratiquent un constat amiable.", "Ils mènent un constat amiable."],
+            correctIndex: 0,
+            explanation: "\"Dresser un constat\" is the fixed collocation (insurers also say \"établir un constat\", and in speech \"remplir un constat\"). \"Accomplir\" goes with formalities, \"pratiquer\" with activities and prices, \"mener\" with investigations.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French in formal style, without faire.",
+            source: "The electrician drew up a quote for the work.",
+            answer: "L'électricien a établi un devis pour les travaux.",
+            altAnswers: ["L'électricien a établi un devis des travaux.", "L'électricien a établi un devis concernant les travaux.", "L'électricienne a établi un devis pour les travaux."],
+            explanation: "\"Établir un devis\" (a quote), like \"établir une facture, un certificat\".",
+          },
+        ],
+      },
+      {
+        heading: "Pratiquer, prononcer, tenir",
+        body: [
+          "\"Pratiquer\" is used for activities and for prices: \"pratiquer un sport\", \"pratiquer la médecine\", \"pratiquer des prix élevés\", \"pratiquer une incision\" (a surgeon). \"Les tarifs pratiqués\" are the prices charged. Note also \"faire un discours\" → \"prononcer un discours\", \"faire une promesse\" → \"formuler\" or \"tenir une promesse\" (keep), \"faire une enquête\" → \"mener une enquête\".",
+        ],
+        examples: [
+          { es: "Les tarifs pratiqués par cette clinique sont très élevés.", en: "The rates charged by this clinic are very high." },
+          { es: "Le président a prononcé un discours devant l'Assemblée.", en: "The president delivered a speech to the Assembly." },
+          { es: "Il pratique la natation depuis l'enfance.", en: "He has been swimming since childhood." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The minister [delivered] a speech in Brussels.",
+            sentence: "La ministre a ___ un discours à Bruxelles.",
+            answer: "prononcé",
+            explanation: "A speech is \"prononcé\", not \"fait\", in formal French: \"prononcer un discours\".",
+          },
+        ],
+      },
+      {
+        heading: "Commettre, perpétrer, infliger",
         body: [
           "Wrongdoing has its own verbs. \"Commettre\" goes with errors, faults, offences and crimes: \"commettre une erreur\", \"commettre une faute\", \"commettre une infraction\", \"commettre un meurtre\". \"Perpétrer\" is stronger and almost only used for grave crimes and attacks: \"l'attentat a été perpétré par un groupe armé\". \"Infliger\" is what an authority does to someone: \"infliger une amende\", \"infliger une sanction\", \"infliger une défaite\" (in sport and politics).",
-          "Now the trap. \"Réaliser\" in the sense of 'to realise, to become aware' is an anglicism. It is so common in speech that dictionaries now record it, but in careful writing it is still marked as a calque, and examiners at DALF level notice it. Write \"se rendre compte que\" or \"prendre conscience de\": \"Je me suis rendu compte que j'avais oublié mon passeport.\" \"Il a pris conscience de la gravité de la situation.\"",
-          "Keep \"réaliser\" for its French sense, to make real: \"réaliser un rêve\" (fulfil a dream), \"réaliser un bénéfice\" (make a profit), \"réaliser un film\" (direct it: \"le réalisateur\"). So \"Il a réalisé son rêve\" is impeccable, and \"Il a réalisé qu'il était en retard\" is the anglicism.",
         ],
         examples: [
           { es: "Le comptable a commis une erreur de calcul.", en: "The accountant made a calculation error." },
           { es: "L'attentat a été perpétré en plein centre-ville.", en: "The attack was carried out in the city centre." },
           { es: "La CNIL a infligé une amende de deux millions d'euros à l'entreprise.", en: "The CNIL imposed a two-million-euro fine on the company." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The witness [made] a serious mistake in his statement.",
+            sentence: "Le témoin a ___ une grave erreur dans sa déposition.",
+            answer: "commis",
+            explanation: "\"Commettre une erreur\" (past participle \"commis\"). \"Faire une erreur\" is fine in speech.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The referee [imposed] a heavy penalty on the club.",
+            sentence: "L'arbitre a ___ une lourde sanction au club.",
+            answer: "infligé",
+            explanation: "\"Infliger une sanction / une amende à quelqu'un\": the authority imposes it.",
+          },
+        ],
+      },
+      {
+        heading: "The trap: réaliser for 'realise'",
+        body: [
+          "Now the trap. \"Réaliser\" in the sense of 'to realise, to become aware' is an anglicism. It is so common in speech that dictionaries now record it, but in careful writing it is still marked as a calque, and examiners at DALF level notice it. Write \"se rendre compte que\" or \"prendre conscience de\": \"Je me suis rendu compte que j'avais oublié mon passeport.\" \"Il a pris conscience de la gravité de la situation.\"",
+        ],
+        examples: [
           { es: "Je me suis rendu compte que j'avais oublié mon passeport.", en: "I realised I had forgotten my passport." },
           { es: "Elle a pris conscience de la gravité de la situation.", en: "She became aware of how serious the situation was." },
-          { es: "Après vingt ans, il a enfin réalisé son rêve : ouvrir une librairie.", en: "After twenty years he finally fulfilled his dream: opening a bookshop." },
+          { es: "Il ne s'est pas rendu compte de l'heure.", en: "He didn't realise what time it was." },
         ],
         checkpoint: [
           {
@@ -1703,12 +2519,33 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "\"Se rendre compte que\" (or \"s'apercevoir que\"), not \"réaliser que\". Note: in \"se rendre compte\" the participle stays invariable (\"rendu\"), even for a woman, because \"compte\" is the direct object: \"elle s'est rendu compte\". With \"s'apercevoir\" it agrees: \"je me suis aperçue\".",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "The referee [imposed] a heavy penalty on the club.",
-            sentence: "L'arbitre a ___ une lourde sanction au club.",
-            answer: "infligé",
-            explanation: "\"Infliger une sanction / une amende à quelqu'un\": the authority imposes it.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "J'ai réalisé que la porte était ouverte.",
+            answer: "Je me suis rendu compte que la porte était ouverte.",
+            altAnswers: ["Je me suis aperçu que la porte était ouverte.", "Je me suis aperçue que la porte était ouverte.", "J'ai pris conscience que la porte était ouverte."],
+            explanation: "\"Réaliser\" for to become aware is a calque of English; careful French says \"se rendre compte que\" or \"prendre conscience que\".",
+          },
+        ],
+      },
+      {
+        heading: "Réaliser in its French sense: to make real",
+        body: [
+          "Keep \"réaliser\" for its French sense, to make real: \"réaliser un rêve\" (fulfil a dream), \"réaliser un bénéfice\" (make a profit), \"réaliser un film\" (direct it: \"le réalisateur\"). So \"Il a réalisé son rêve\" is impeccable, and \"Il a réalisé qu'il était en retard\" is the anglicism.",
+        ],
+        examples: [
+          { es: "Après vingt ans, il a enfin réalisé son rêve : ouvrir une librairie.", en: "After twenty years he finally fulfilled his dream: opening a bookshop." },
+          { es: "Le magasin a réalisé un bénéfice de dix mille euros.", en: "The shop made a profit of ten thousand euros." },
+          { es: "Ce film a été réalisé par une jeune cinéaste lyonnaise.", en: "This film was directed by a young film-maker from Lyon." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence would an examiner mark as an anglicism?",
+            options: ["Elle a réalisé qu'elle s'était trompée de train.", "Elle a réalisé un court métrage sur les migrants.", "L'entreprise a réalisé un bénéfice record.", "Il a enfin réalisé son rêve d'enfant."],
+            correctIndex: 0,
+            explanation: "\"Réaliser que\" = to realise (become aware) is the calque; write \"elle s'est rendu compte qu'elle s'était trompée\".",
           },
         ],
       },
@@ -1733,14 +2570,6 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "\"Procéder à des interpellations\": press and police style. \"Une interpellation\" is the arrest itself.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The witness [made] a serious mistake in his statement.",
-        sentence: "Le témoin a ___ une grave erreur dans sa déposition.",
-        answer: "commis",
-        explanation: "\"Commettre une erreur\" (past participle \"commis\"). \"Faire une erreur\" is fine in speech.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French in formal style, without faire.",
@@ -1748,18 +2577,6 @@ export const FR_C2_U02: Lesson[] = [
         answer: "L'inspecteur a dressé un procès-verbal de l'incident.",
         altAnswers: ["L'inspecteur a dressé un rapport sur l'incident.", "L'inspectrice a dressé un procès-verbal de l'incident.", "L'inspecteur a établi un rapport sur l'incident.", "L'inspecteur a rédigé un rapport sur l'incident."],
         explanation: "\"Dresser un procès-verbal\" (official report); \"rédiger un rapport\" for a written report.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence would an examiner mark as an anglicism?",
-        options: [
-          "Elle a réalisé qu'elle s'était trompée de train.",
-          "Elle a réalisé un court métrage sur les migrants.",
-          "L'entreprise a réalisé un bénéfice record.",
-          "Il a enfin réalisé son rêve d'enfant.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Réaliser que\" = to realise (become aware) is the calque; write \"elle s'est rendu compte qu'elle s'était trompée\".",
       },
       {
         type: "translate",
@@ -1799,19 +2616,14 @@ export const FR_C2_U02: Lesson[] = [
         type: "listen-choose",
         audio: "Il sera procédé à l'ouverture des plis à dix heures.",
         question: "What does it mean?",
-        options: [
-          "The envelopes will be opened at ten o'clock.",
-          "The procedure will be explained at ten o'clock.",
-          "The folds of the fabric will be opened at ten.",
-          "The offices will open at ten o'clock.",
-        ],
+        options: ["The envelopes will be opened at ten o'clock.", "The procedure will be explained at ten o'clock.", "The folds of the fabric will be opened at ten.", "The offices will open at ten o'clock."],
         correctIndex: 0,
         explanation: "\"Il sera procédé à\" (impersonal passive) + \"l'ouverture des plis\": in a call for tenders, the bids (sealed envelopes) are opened.",
       },
       {
         type: "speak",
-        text: "Je me suis rendu compte de mon erreur trop tard.",
         prompt: "Say it in French (as a man): I realised my mistake too late.",
+        text: "Je me suis rendu compte de mon erreur trop tard.",
         explanation: "\"Se rendre compte de\" + noun or \"que\" + clause: the correct French for to realise.",
       },
       {
@@ -1834,29 +2646,40 @@ export const FR_C2_U02: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "Case 1: a disputed flatshare lease",
+        heading: "Case 1: the facts",
         body: [
           "Read the facts: \"Mathilde, Yanis et Chloé ont signé en 2024 un bail de colocation pour un appartement à Rennes, assorti d'une clause de solidarité. Chloé a donné congé en janvier 2026 et a quitté les lieux à l'issue de son préavis d'un mois. Depuis mars, Yanis ne paie plus sa part. Le bailleur réclame désormais à Mathilde la totalité de l'arriéré, soit 1 650 euros, et menace de faire délivrer un commandement de payer visant la clause résolutoire.\"",
-          "What does Mathilde need to know? With a clause de solidarité she is \"tenue solidairement\": the landlord can claim the whole debt from her, and she can then turn against Yanis (\"se retourner contre lui\", \"exercer un recours contre lui\"). Chloé's position is subtler: under the 1989 law, a departing co-tenant remains jointly liable until a new co-tenant replaces her, and at the latest for six months after her notice ends. Since Chloé left at the end of February, she may still be liable for the March to August arrears.",
-          "Notice the language: \"assorti d'une clause\", \"donner congé\", \"à l'issue de son préavis\", \"l'arriéré\" (the arrears), \"faire délivrer un commandement de payer\" (have an order to pay served by a commissaire de justice): \"faire\" + infinitive, because the landlord does not serve it himself.",
         ],
         examples: [
           { es: "Le bail est assorti d'une clause de solidarité.", en: "The lease includes a joint liability clause." },
           { es: "Chloé a donné congé et quitté les lieux à l'issue de son préavis.", en: "Chloe gave notice and left the premises at the end of her notice period." },
           { es: "Le bailleur réclame à Mathilde la totalité de l'arriéré.", en: "The landlord is claiming all the arrears from Mathilde." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What has Chloé done?",
+            options: ["She gave notice and left at the end of her one-month notice period.", "She stopped paying her share in March.", "She signed a new lease with the landlord.", "She stood as guarantor for Yanis."],
+            correctIndex: 0,
+            explanation: "\"Chloé a donné congé en janvier 2026 et a quitté les lieux à l'issue de son préavis d'un mois\": she gave notice and left. It is Yanis who stopped paying (\"ne paie plus sa part\").",
+          },
+        ],
+      },
+      {
+        heading: "Case 1: who owes what",
+        body: [
+          "What does Mathilde need to know? With a clause de solidarité she is \"tenue solidairement\": the landlord can claim the whole debt from her, and she can then turn against Yanis (\"se retourner contre lui\", \"exercer un recours contre lui\"). Chloé's position is subtler: under the 1989 law, a departing co-tenant remains jointly liable until a new co-tenant replaces her, and at the latest for six months after her notice ends. Since Chloé left at the end of February, she may still be liable for the March to August arrears.",
+        ],
+        examples: [
           { es: "Mathilde pourra ensuite se retourner contre Yanis.", en: "Mathilde will then be able to take action against Yanis." },
-          { es: "Le bailleur menace de faire délivrer un commandement de payer.", en: "The landlord is threatening to have an order to pay served." },
+          { es: "La colocataire sortante reste solidaire six mois au plus.", en: "The departing flatmate remains jointly liable for six months at most." },
+          { es: "Elle a exercé un recours contre son ancien colocataire.", en: "She took action against her former flatmate." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "Why can the landlord claim the full 1,650 euros from Mathilde alone?",
-            options: [
-              "Because the lease has a clause de solidarité.",
-              "Because she signed first.",
-              "Because Yanis has been mis en examen.",
-              "Because the clause résolutoire makes her the guarantor.",
-            ],
+            options: ["Because the lease has a clause de solidarité.", "Because she signed first.", "Because Yanis has been mis en examen.", "Because the clause résolutoire makes her the guarantor."],
             correctIndex: 0,
             explanation: "\"La clause de solidarité\" makes each co-tenant liable for the whole rent; she can recover Yanis's share from him afterwards.",
           },
@@ -1872,20 +2695,92 @@ export const FR_C2_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Case 2: a late delivery",
+        heading: "Case 1: the language",
+        body: [
+          "Notice the language: \"assorti d'une clause\", \"donner congé\", \"à l'issue de son préavis\", \"l'arriéré\" (the arrears), \"faire délivrer un commandement de payer\" (have an order to pay served by a commissaire de justice): \"faire\" + infinitive, because the landlord does not serve it himself.",
+        ],
+        examples: [
+          { es: "Le bailleur menace de faire délivrer un commandement de payer.", en: "The landlord is threatening to have an order to pay served." },
+          { es: "Le propriétaire a fait délivrer une sommation par un commissaire de justice.", en: "The owner had a formal summons served by a bailiff." },
+          { es: "L'arriéré s'élève désormais à deux mois de loyer.", en: "The arrears now amount to two months' rent." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Le bailleur a délivré un commandement de payer par un commissaire de justice.",
+            answer: "Le bailleur a fait délivrer un commandement de payer par un commissaire de justice.",
+            explanation: "The landlord does not serve the order himself: he has it served, \"faire délivrer\", with \"faire\" + infinitive, by a commissaire de justice.",
+          },
+        ],
+      },
+      {
+        heading: "Case 2: the facts",
         body: [
           "\"Le 2 février, l'entreprise Bois & Sens a commandé à la société Ateliers Morvan quarante tables destinées à son nouveau restaurant, livrables au plus tard le 15 avril. Le contrat prévoit des pénalités de retard de 100 euros par jour ouvré et stipule que les parties ne pourront être tenues responsables en cas de force majeure. Le 20 avril, aucune table n'a été livrée. Ateliers Morvan invoque la grève d'un transporteur.\"",
+        ],
+        examples: [
+          { es: "Les tables étaient livrables au plus tard le 15 avril.", en: "The tables were to be delivered by 15 April at the latest." },
+          { es: "Le fournisseur invoque la grève d'un transporteur.", en: "The supplier cites a strike by a carrier." },
+          { es: "La commande portait sur quarante tables.", en: "The order was for forty tables." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "By what date did Ateliers Morvan have to deliver the tables?",
+            options: ["15 April at the latest", "2 February", "20 April", "30 April"],
+            correctIndex: 0,
+            explanation: "\"Livrables au plus tard le 15 avril\": the adjective in -able sets the deadline. 2 February is the order date, and on 20 April nothing had arrived.",
+          },
+        ],
+      },
+      {
+        heading: "Case 2: stipuler, and is a strike force majeure?",
+        body: [
           "\"Stipuler\" is to state in a contract (\"le contrat stipule que...\"): a false friend for some learners, since it doesn't mean to insist. \"Livrables au plus tard le 15 avril\" uses an adjective in -able for a deadline. Does a strike by a transport company count as force majeure? Usually not: a strike at a third party, if it was foreseeable or if another carrier could have been used, is not \"irrésistible\". Bois & Sens will send a mise en demeure, claim the penalties for every working day of delay and, if needed, seek \"la résolution du contrat pour inexécution\".",
-          "Compute in French: from 15 April to the delivery, \"les pénalités courent à compter du premier jour ouvré de retard\". If the tables are finally delivered on 30 April, the penalties cover the working days from 16 to 30 April: eleven days, so 1,100 euros.",
         ],
         examples: [
           { es: "Le contrat stipule des pénalités de retard de 100 euros par jour ouvré.", en: "The contract stipulates late penalties of 100 euros per working day." },
-          { es: "Les tables étaient livrables au plus tard le 15 avril.", en: "The tables were to be delivered by 15 April at the latest." },
-          { es: "Le fournisseur invoque la grève d'un transporteur.", en: "The supplier cites a strike by a carrier." },
           { es: "Une grève prévisible ne constitue pas un cas de force majeure.", en: "A foreseeable strike does not constitute force majeure." },
-          { es: "Les pénalités courent à compter du premier jour ouvré de retard.", en: "Penalties run from the first working day of delay." },
+          { es: "Le client a demandé la résolution du contrat pour inexécution.", en: "The client sought rescission of the contract for non-performance." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "\"Le contrat stipule que...\" What does \"stipuler\" mean here?",
+            options: ["to state as a term of the contract", "to insist strongly", "to suggest", "to forbid"],
+            correctIndex: 0,
+            explanation: "\"Stipuler\" = to lay down as a contractual term; \"une stipulation\" is a contractual provision.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "A rise in the price of wood [does not constitute] a case of force majeure.",
+            sentence: "La hausse du prix du bois ___ un cas de force majeure.",
+            answer: "ne constitue pas",
+            explanation: "\"Ne constitue pas\" (does not amount to): a price rise is foreseeable and not irresistible, so it is not force majeure.",
+          },
+        ],
+      },
+      {
+        heading: "Case 2: computing the penalties",
+        body: [
+          "Compute in French: from 15 April to the delivery, \"les pénalités courent à compter du premier jour ouvré de retard\". If the tables are finally delivered on 30 April, the penalties cover the working days from 16 to 30 April: eleven days, so 1,100 euros.",
+        ],
+        examples: [
+          { es: "Les pénalités courent à compter du premier jour ouvré de retard.", en: "Penalties run from the first working day of delay." },
+          { es: "Les pénalités s'élèvent à 100 euros par jour ouvré de retard.", en: "The penalties amount to 100 euros per working day of delay." },
+          { es: "Le samedi et le dimanche ne sont pas des jours ouvrés.", en: "Saturday and Sunday are not working days." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "The tables were due on Wednesday 15 April and arrive on Friday 24 April. At 100 euros per working day, what are the penalties?",
+            options: ["700 euros", "900 euros", "600 euros", "1,100 euros"],
+            correctIndex: 0,
+            explanation: "Penalties run from the first working day of delay, Thursday 16 April, to Friday 24 April: the 16th, 17th, 20th, 21st, 22nd, 23rd and 24th, seven \"jours ouvrés\" (the weekend doesn't count), so 700 euros.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1895,29 +2790,37 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["Le contrat stipule que les pénalités de retard sont dues dès le premier jour de retard.", "Le contrat stipule que des pénalités de retard sont dues à compter du premier jour de retard.", "Le contrat stipule que les pénalités de retard sont dues à compter du premier jour de retard.", "Le contrat prévoit que des pénalités de retard sont dues dès le premier jour de retard."],
             explanation: "\"Stipuler que\" (to state in a contract) + indicative; \"dues\" agrees with \"pénalités\".",
           },
+        ],
+      },
+      {
+        heading: "Case 3: the facts",
+        body: [
+          "\"M. et Mme Lambert ont signé le 3 mars un compromis de vente pour une maison à Aix-en-Provence, au prix de 420 000 euros, sous la condition suspensive de l'obtention d'un prêt de 300 000 euros avant le 30 avril. Le compromis leur ayant été notifié par lettre recommandée présentée le 6 mars, ils ont reçu une meilleure offre de crédit le 14 mars et hésitent. Le 2 mai, la banque leur a notifié un refus de prêt.\"",
+        ],
+        examples: [
+          { es: "Le compromis leur a été notifié par lettre recommandée présentée le 6 mars.", en: "The agreement was notified to them by registered letter first presented on 6 March." },
+          { es: "La banque leur a notifié un refus de prêt.", en: "The bank formally notified them that the loan was refused." },
+          { es: "Le prix de vente s'élève à 420 000 euros.", en: "The sale price is 420,000 euros." },
+        ],
+        checkpoint: [
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "A foreseeable strike [does not constitute] a case of force majeure.",
-            sentence: "Une grève prévisible ___ un cas de force majeure.",
-            answer: "ne constitue pas",
-            explanation: "\"Constituer\" is the precise verb for to amount to, to count as, in legal reasoning.",
+            type: "multiple-choice",
+            question: "On what does the Lamberts' purchase depend?",
+            options: ["Obtaining a 300,000-euro loan before 30 April.", "Selling their current house.", "The notaire's personal approval.", "Finding a better loan offer before 14 March."],
+            correctIndex: 0,
+            explanation: "The compromis was signed \"sous la condition suspensive de l'obtention d'un prêt de 300 000 euros avant le 30 avril\". The better offer on 14 March is only what makes them hesitate.",
           },
         ],
       },
       {
-        heading: "Case 3: a property sale",
+        heading: "Case 3: withdrawal and the failed condition",
         body: [
-          "\"M. et Mme Lambert ont signé le 3 mars un compromis de vente pour une maison à Aix-en-Provence, au prix de 420 000 euros, sous la condition suspensive de l'obtention d'un prêt de 300 000 euros avant le 30 avril. Le compromis leur ayant été notifié par lettre recommandée présentée le 6 mars, ils ont reçu une meilleure offre de crédit le 14 mars et hésitent. Le 2 mai, la banque leur a notifié un refus de prêt.\"",
           "Two legal questions. First, can they still withdraw on 14 March? The ten-day delay de rétractation starts the day after the first presentation of the registered letter, so it runs from 7 March to 16 March: yes, they can withdraw, without reason or penalty, by registered letter before the end of the 16th. Second, the loan refusal on 2 May: the condition suspensive had to be met by 30 April. If the buyers applied for the loan in good faith and on the terms stated in the compromis, the condition has failed (\"la condition suspensive est défaillie\") and they recover their deposit.",
-          "The notaire would explain it this way: \"La condition n'étant pas réalisée dans le délai, le compromis est caduc et le dépôt de garantie vous sera restitué.\" \"Caduc\" (feminine \"caduque\") means lapsed, no longer in force: \"un accord caduc\", \"une loi devenue caduque\".",
         ],
         examples: [
-          { es: "Le compromis leur a été notifié par lettre recommandée présentée le 6 mars.", en: "The agreement was notified to them by registered letter first presented on 6 March." },
           { es: "Le délai de rétractation court du 7 au 16 mars inclus.", en: "The cooling-off period runs from 7 to 16 March inclusive." },
-          { es: "La banque leur a notifié un refus de prêt.", en: "The bank formally notified them that the loan was refused." },
-          { es: "La condition suspensive n'ayant pas été réalisée, le compromis est caduc.", en: "As the condition was not met, the agreement has lapsed." },
-          { es: "Cette convention est devenue caduque.", en: "This agreement has lapsed." },
+          { es: "Ils peuvent se rétracter sans motif ni pénalité.", en: "They can withdraw without giving a reason or paying a penalty." },
+          { es: "Les acquéreurs avaient demandé le prêt de bonne foi.", en: "The buyers had applied for the loan in good faith." },
         ],
         checkpoint: [
           {
@@ -1927,6 +2830,28 @@ export const FR_C2_U02: Lesson[] = [
             correctIndex: 0,
             explanation: "The ten days start the day after the first presentation (7 March) and end on 16 March.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The buyers withdrew by registered letter on the eighth day.",
+            answer: "Les acquéreurs se sont rétractés par lettre recommandée le huitième jour.",
+            altAnswers: ["Les acheteurs se sont rétractés par lettre recommandée le huitième jour.", "Les acquéreurs ont exercé leur droit de rétractation par lettre recommandée le huitième jour.", "Les acquéreurs se sont rétractés le huitième jour par lettre recommandée.", "Les acheteurs se sont rétractés le huitième jour par lettre recommandée."],
+            explanation: "\"Se rétracter\" (or \"exercer son droit de rétractation\"), with the registered letter as proof.",
+          },
+        ],
+      },
+      {
+        heading: "Case 3: caduc",
+        body: [
+          "The notaire would explain it this way: \"La condition n'étant pas réalisée dans le délai, le compromis est caduc et le dépôt de garantie vous sera restitué.\" \"Caduc\" (feminine \"caduque\") means lapsed, no longer in force: \"un accord caduc\", \"une loi devenue caduque\".",
+        ],
+        examples: [
+          { es: "La condition suspensive n'ayant pas été réalisée, le compromis est caduc.", en: "As the condition was not met, the agreement has lapsed." },
+          { es: "Cette convention est devenue caduque.", en: "This agreement has lapsed." },
+          { es: "La promesse de vente est caduque depuis le 1er mai.", en: "The promise to sell has lapsed since 1 May." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1969,10 +2894,11 @@ export const FR_C2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The tables were to be delivered [by 15 April at the latest].",
-        sentence: "Les tables étaient livrables ___.",
-        answer: "au plus tard le 15 avril",
-        explanation: "\"Au plus tard le\" + date sets the final deadline.",
+        en: "The chairs were to be delivered [by 30 May at the latest].",
+        sentence: "Les chaises étaient livrables ___.",
+        answer: "au plus tard le 30 mai",
+        altAnswers: ["le 30 mai au plus tard"],
+        explanation: "\"Au plus tard le...\" fixes the end date; \"livrables\" is the adjective in -able used for a deadline.",
       },
       {
         type: "translate",
@@ -1982,22 +2908,6 @@ export const FR_C2_U02: Lesson[] = [
         answer: "Je vous mets en demeure de livrer les quarante tables sous huitaine, faute de quoi je demanderai la résolution du contrat.",
         altAnswers: ["Je vous mets en demeure de livrer les quarante tables sous huitaine, faute de quoi je solliciterai la résolution du contrat.", "Je vous mets en demeure de livrer les quarante tables dans un délai de huit jours, faute de quoi je demanderai la résolution du contrat.", "Je vous mets en demeure de livrer les quarante tables sous huitaine, à défaut de quoi je demanderai la résolution du contrat.", "Je vous mets en demeure de procéder à la livraison des quarante tables sous huitaine, faute de quoi je demanderai la résolution du contrat."],
         explanation: "\"Mettre en demeure de\" + \"sous huitaine\" + \"faute de quoi\"; non-delivery leads to \"la résolution\", not \"la résiliation\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "\"Le contrat stipule que...\" What does \"stipuler\" mean here?",
-        options: ["to state as a term of the contract", "to insist strongly", "to suggest", "to forbid"],
-        correctIndex: 0,
-        explanation: "\"Stipuler\" = to lay down as a contractual term; \"une stipulation\" is a contractual provision.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The buyers withdrew by registered letter on the eighth day.",
-        answer: "Les acquéreurs se sont rétractés par lettre recommandée le huitième jour.",
-        altAnswers: ["Les acheteurs se sont rétractés par lettre recommandée le huitième jour.", "Les acquéreurs ont exercé leur droit de rétractation par lettre recommandée le huitième jour.", "Les acquéreurs se sont rétractés le huitième jour par lettre recommandée.", "Les acheteurs se sont rétractés le huitième jour par lettre recommandée."],
-        explanation: "\"Se rétracter\" (or \"exercer son droit de rétractation\"), with the registered letter as proof.",
       },
       {
         type: "translate",
@@ -2019,10 +2929,10 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The lease includes a joint liability clause.",
-        words: ["Le bail", "est", "assorti", "d'une clause", "de solidarité."],
-        translation: "The lease includes a joint liability clause.",
-        explanation: "\"Être assorti de\" (to come with, include) is common in contract summaries.",
+        prompt: "Put the words in order to say: The contract includes a confidentiality clause.",
+        words: ["Le", "contrat", "est", "assorti", "d'une", "clause", "de", "confidentialité."],
+        translation: "The contract includes a confidentiality clause.",
+        explanation: "\"Être assorti de\" means to come with, to include: \"le contrat est assorti d'une clause de confidentialité\".",
       },
       {
         type: "dictation",
@@ -2031,8 +2941,8 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Maître, si la banque refuse le prêt, est-ce que je récupère mon dépôt de garantie ?",
         prompt: "Say it in French to the notary: If the bank refuses the loan, do I get my deposit back?",
+        text: "Maître, si la banque refuse le prêt, est-ce que je récupère mon dépôt de garantie ?",
         explanation: "\"Maître\" as address; \"récupérer\" is the everyday get back, \"le dépôt de garantie\" the precise term.",
       },
       {
@@ -2044,6 +2954,14 @@ export const FR_C2_U02: Lesson[] = [
         altAnswers: ["Les colocataires sont redevables de la totalité de l'arriéré.", "Les colocataires sont tenus solidairement de la totalité de l'arriéré.", "Les colocataires sont tenus de l'intégralité de l'arriéré.", "Les colocataires sont redevables de l'intégralité de l'arriéré."],
         explanation: "\"Être tenu de\" or \"redevable de\" + a debt; \"l'arriéré\" (singular) = the arrears.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn it into an absolute participle clause.",
+        source: "Comme la banque a refusé le prêt, le compromis est caduc.",
+        answer: "La banque ayant refusé le prêt, le compromis est caduc.",
+        explanation: "The absolute participle \"la banque ayant refusé le prêt\" states the completed fact that grounds the conclusion, replacing \"comme\" + passé composé.",
+      },
     ],
   },
   {
@@ -2052,33 +2970,63 @@ export const FR_C2_U02: Lesson[] = [
     number: 10,
     title: "Dialogue Lab: Chez le Notaire",
     summary: "Signing a compromis de vente: the notaire explains the conditions suspensives, the loan and the séquestre, and you ask questions and reply in the right register (Maître, si je comprends bien, pourriez-vous me préciser).",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
-        heading: "Scene 1: welcome and the conditions suspensives",
+        heading: "Scene 1: the welcome",
         body: [
-          "Sophie Marchand is buying a flat in Nantes. She meets Maître Bertrand Leclerc in his étude to sign the compromis. Read the opening: \"— Bonjour Madame Marchand, asseyez-vous, je vous en prie. Avant de signer, je vais vous lire les principales clauses, et n'hésitez surtout pas à m'interrompre. — Merci, Maître. Je préfère tout comprendre, c'est mon premier achat. — C'est bien naturel. La vente est conclue sous deux conditions suspensives : l'obtention de votre prêt et l'absence de servitude d'urbanisme qui rendrait le bien impropre à l'habitation. — Si je comprends bien, si la banque refuse mon prêt, la vente ne se fait pas ? — Exactement. La condition est alors défaillie et vous récupérez l'intégralité de votre dépôt de garantie.\"",
-          "Register markers: the notaire says \"je vous en prie\" and \"n'hésitez surtout pas\"; Sophie addresses him as \"Maître\" and checks her understanding with \"Si je comprends bien,\". That phrase is the most useful tool in any meeting with a professional: it reformulates without accusing anyone of being unclear. Its variants: \"Autrement dit,...\", \"Si je vous suis bien,...\", \"Vous voulez dire que...?\"",
-          "Vocabulary: \"une servitude\" is an easement (a right of way, a ban on building), \"une servitude d'urbanisme\" a planning restriction; \"impropre à\" means unfit for; \"la condition est défaillie\" (from \"défaillir\") means it has failed, a technical word you mostly meet in this phrase.",
+          "Sophie Marchand is buying a flat in Nantes. She meets Maître Bertrand Leclerc in his étude to sign the compromis. Read the opening: \"— Bonjour Madame Marchand, asseyez-vous, je vous en prie. Avant de signer, je vais vous lire les principales clauses, et n'hésitez surtout pas à m'interrompre. — Merci, Maître. Je préfère tout comprendre, c'est mon premier achat.\"",
         ],
         examples: [
           { es: "Asseyez-vous, je vous en prie.", en: "Please, have a seat." },
           { es: "N'hésitez surtout pas à m'interrompre.", en: "Please don't hesitate to interrupt me." },
-          { es: "Si je comprends bien, la vente dépend de mon prêt ?", en: "If I understand correctly, the sale depends on my loan?" },
+          { es: "Je préfère tout comprendre, c'est mon premier achat.", en: "I'd rather understand everything, it's my first purchase." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "The notaire wants Sophie to feel free to ask questions as he reads. What does he say?",
+            options: ["N'hésitez surtout pas à m'interrompre.", "Vous poserez vos questions à la fin.", "Ne m'interrompez pas, s'il vous plaît.", "Taisez-vous jusqu'à la fin."],
+            correctIndex: 0,
+            explanation: "\"N'hésitez surtout pas à m'interrompre\" invites questions politely; \"surtout\" strengthens the invitation. The other three ask her to stay quiet.",
+          },
+        ],
+      },
+      {
+        heading: "Scene 1: the conditions suspensives",
+        body: [
+          "It continues: \"— C'est bien naturel. La vente est conclue sous deux conditions suspensives : l'obtention de votre prêt et l'absence de servitude d'urbanisme qui rendrait le bien impropre à l'habitation. — Si je comprends bien, si la banque refuse mon prêt, la vente ne se fait pas ? — Exactement. La condition est alors défaillie et vous récupérez l'intégralité de votre dépôt de garantie.\"",
+        ],
+        examples: [
           { es: "La vente est conclue sous deux conditions suspensives.", en: "The sale is subject to two conditions." },
-          { es: "Si je vous suis bien, je peux encore changer d'avis ?", en: "If I follow you, I can still change my mind?" },
           { es: "La condition est défaillie : la vente n'aura pas lieu.", en: "The condition has failed: the sale will not go ahead." },
+          { es: "Exactement. Vous récupérez l'intégralité de votre dépôt de garantie.", en: "Exactly. You get the whole of your deposit back." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "According to Maître Leclerc, what happens if the bank refuses Sophie's loan?",
+            options: ["The sale doesn't go ahead and she gets her whole deposit back.", "She loses her deposit.", "The notaire finds her another bank.", "The seller keeps half the deposit."],
+            correctIndex: 0,
+            explanation: "The sale is \"conclue sous condition suspensive de l'obtention du prêt\": if the loan is refused, \"la condition est défaillie\" and she recovers \"l'intégralité\" of her deposit.",
+          },
+        ],
+      },
+      {
+        heading: "Si je comprends bien: checking without accusing",
+        body: [
+          "Register markers: the notaire says \"je vous en prie\" and \"n'hésitez surtout pas\"; Sophie addresses him as \"Maître\" and checks her understanding with \"Si je comprends bien,\". That phrase is the most useful tool in any meeting with a professional: it reformulates without accusing anyone of being unclear. Its variants: \"Autrement dit,...\", \"Si je vous suis bien,...\", \"Vous voulez dire que...?\"",
+        ],
+        examples: [
+          { es: "Si je comprends bien, la vente dépend de mon prêt ?", en: "If I understand correctly, the sale depends on my loan?" },
+          { es: "Si je vous suis bien, je peux encore changer d'avis ?", en: "If I follow you, I can still change my mind?" },
+          { es: "Autrement dit, je ne m'engage à rien aujourd'hui ?", en: "In other words, I'm not committing to anything today?" },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "The notaire has just explained a clause you only half understood. What is the most natural way to check?",
-            options: [
-              "Si je comprends bien, Maître, je ne perds rien si le prêt est refusé ?",
-              "Vous n'avez pas été clair, Maître.",
-              "Hein ? Quoi ?",
-              "Explique-moi ça encore une fois.",
-            ],
+            options: ["Si je comprends bien, Maître, je ne perds rien si le prêt est refusé ?", "Vous n'avez pas été clair, Maître.", "Hein ? Quoi ?", "Explique-moi ça encore une fois."],
             correctIndex: 0,
             explanation: "\"Si je comprends bien\" + your reformulation checks without blaming. \"Tu\" and \"Hein ?\" are out of register.",
           },
@@ -2094,16 +3042,59 @@ export const FR_C2_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Scene 2: the loan and the séquestre",
+        heading: "Servitude, impropre à, défaillie",
         body: [
-          "\"— Pour le prêt, le compromis prévoit un montant maximal de 250 000 euros, sur vingt-cinq ans, à un taux n'excédant pas 3,8 %. Vous devrez déposer au moins deux demandes de prêt dans les quinze jours et justifier de votre démarche. — Pourriez-vous me préciser pourquoi ces chiffres figurent dans le compromis ? — Bien sûr. Si le prêt vous est refusé, il faut qu'on puisse vérifier que vous l'avez demandé aux conditions prévues, et non à des conditions impossibles. Sinon, le vendeur pourrait estimer que vous avez fait échouer la condition. — Je vois. Et le dépôt de garantie, je vous le verse à vous ? — Il sera versé sur le compte séquestre de l'étude : il n'appartient ni au vendeur ni à moi, il reste bloqué jusqu'à la signature de l'acte définitif.\"",
-          "\"Pourriez-vous me préciser...\" is the polite request for detail; \"Je vois\" acknowledges. Note the conditional of hypothesis in \"le vendeur pourrait estimer\" and the subjunctive after \"il faut que\": \"il faut qu'on puisse vérifier\". \"Justifier de\" + noun means to provide proof of (\"justifier de ses revenus\", \"justifier de sa démarche\").",
-          "\"Le séquestre\" is an escrow: \"verser une somme sous séquestre\" or \"sur le compte séquestre\". The neutral third party (here the notaire) holds the money until the conditions are met. The verb \"faire échouer\" (to cause to fail) is what a dishonest buyer might do to get out of the sale: the law then treats the condition as fulfilled.",
+          "Vocabulary: \"une servitude\" is an easement (a right of way, a ban on building), \"une servitude d'urbanisme\" a planning restriction; \"impropre à\" means unfit for; \"la condition est défaillie\" (from \"défaillir\") means it has failed, a technical word you mostly meet in this phrase.",
+        ],
+        examples: [
+          { es: "Une servitude de passage permet au voisin de traverser le jardin.", en: "A right of way lets the neighbour cross the garden." },
+          { es: "Ce local est impropre à l'habitation.", en: "These premises are unfit for habitation." },
+          { es: "Faute de prêt, la condition suspensive est défaillie.", en: "With no loan, the condition precedent has failed." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "The notaire says: \"La condition est défaillie.\" What has happened?",
+            options: ["The condition has failed.", "The condition has been fulfilled.", "The condition has been waived.", "The condition has been forgotten."],
+            correctIndex: 0,
+            explanation: "\"Défaillie\" (from défaillir) = failed; the opposite is \"réalisée\".",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The cellar is [unfit for] habitation.",
+            sentence: "La cave est ___ l'habitation.",
+            answer: "impropre à",
+            explanation: "\"Impropre à\" means unfit for: \"impropre à l'habitation\", \"impropre à la consommation\".",
+          },
+        ],
+      },
+      {
+        heading: "Scene 2: the loan terms",
+        body: [
+          "\"— Pour le prêt, le compromis prévoit un montant maximal de 250 000 euros, sur vingt-cinq ans, à un taux n'excédant pas 3,8 %. Vous devrez déposer au moins deux demandes de prêt dans les quinze jours et justifier de votre démarche. — Pourriez-vous me préciser pourquoi ces chiffres figurent dans le compromis ?\"",
         ],
         examples: [
           { es: "Le compromis prévoit un taux n'excédant pas 3,8 %.", en: "The agreement provides for a rate not exceeding 3.8%." },
-          { es: "Vous devrez justifier de vos démarches auprès des banques.", en: "You will have to provide proof of your applications to banks." },
           { es: "Pourriez-vous me préciser pourquoi ce chiffre figure dans le compromis ?", en: "Could you tell me exactly why this figure is in the agreement?" },
+          { es: "Le prêt est prévu sur vingt-cinq ans.", en: "The loan is planned over twenty-five years." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Why does the compromis state a maximum amount, duration and rate for the loan?",
+            options: ["So that one can check Sophie applied on the agreed, realistic terms.", "So that the bank can charge more.", "Because the notaire chooses the bank.", "Because the seller lends her the money."],
+            correctIndex: 0,
+            explanation: "If the loan is refused, the seller must be able to check that she applied \"aux conditions prévues\", not on impossible terms designed to make the condition fail.",
+          },
+        ],
+      },
+      {
+        heading: "Scene 2: who holds the deposit?",
+        body: [
+          "It continues: \"— Bien sûr. Si le prêt vous est refusé, il faut qu'on puisse vérifier que vous l'avez demandé aux conditions prévues, et non à des conditions impossibles. Sinon, le vendeur pourrait estimer que vous avez fait échouer la condition. — Je vois. Et le dépôt de garantie, je vous le verse à vous ? — Il sera versé sur le compte séquestre de l'étude : il n'appartient ni au vendeur ni à moi, il reste bloqué jusqu'à la signature de l'acte définitif.\"",
+        ],
+        examples: [
           { es: "Il faut qu'on puisse vérifier que vous avez demandé le prêt aux conditions prévues.", en: "It must be possible to check that you applied for the loan on the agreed terms." },
           { es: "Le dépôt de garantie sera versé sur le compte séquestre de l'étude.", en: "The deposit will be paid into the office's escrow account." },
           { es: "La somme reste bloquée jusqu'à la signature de l'acte définitif.", en: "The sum stays frozen until the final deed is signed." },
@@ -2118,6 +3109,49 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["Pourriez-vous me préciser qui garde le dépôt de garantie jusqu'à la vente ?", "Pourriez-vous me préciser qui détient le dépôt de garantie jusqu'à la vente ?", "Pourriez-vous m'indiquer qui conserve le dépôt de garantie jusqu'à la vente ?", "Pourriez-vous me préciser qui conserve le dépôt de garantie jusqu'à la signature ?"],
             explanation: "\"Pourriez-vous me préciser\" + indirect question (no inversion after \"qui\" as subject).",
           },
+        ],
+      },
+      {
+        heading: "Pourriez-vous me préciser...; il faut qu'on puisse",
+        body: [
+          "\"Pourriez-vous me préciser...\" is the polite request for detail; \"Je vois\" acknowledges. Note the conditional of hypothesis in \"le vendeur pourrait estimer\" and the subjunctive after \"il faut que\": \"il faut qu'on puisse vérifier\". \"Justifier de\" + noun means to provide proof of (\"justifier de ses revenus\", \"justifier de sa démarche\").",
+        ],
+        examples: [
+          { es: "Vous devrez justifier de vos démarches auprès des banques.", en: "You will have to provide proof of your applications to banks." },
+          { es: "Je vois. Et ensuite, que se passe-t-il ?", en: "I see. And then what happens?" },
+          { es: "Il faut que vous puissiez justifier de vos revenus.", en: "You must be able to provide proof of your income." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[Could you tell me exactly] what a servitude is?",
+            sentence: "___ ce qu'est une servitude ?",
+            answer: "Pourriez-vous me préciser",
+            altAnswers: ["Pourriez-vous m'expliquer", "Pourriez-vous me dire"],
+            explanation: "\"Pourriez-vous me préciser\" + indirect question (\"ce qu'est\", with inversion after \"ce que\").",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il faut qu'on peut vérifier vos démarches.",
+            answer: "Il faut qu'on puisse vérifier vos démarches.",
+            explanation: "\"Il faut que\" takes the subjunctive: \"qu'on puisse\", not the indicative \"qu'on peut\".",
+          },
+        ],
+      },
+      {
+        heading: "Le séquestre, faire échouer",
+        body: [
+          "\"Le séquestre\" is an escrow: \"verser une somme sous séquestre\" or \"sur le compte séquestre\". The neutral third party (here the notaire) holds the money until the conditions are met. The verb \"faire échouer\" (to cause to fail) is what a dishonest buyer might do to get out of the sale: the law then treats the condition as fulfilled.",
+        ],
+        examples: [
+          { es: "Les fonds restent sous séquestre jusqu'à la vente.", en: "The funds stay in escrow until the sale." },
+          { es: "Il a tout fait pour faire échouer la négociation.", en: "He did everything to make the negotiation fail." },
+          { es: "Le notaire agit comme séquestre entre les parties.", en: "The notary acts as escrow agent between the parties." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -2127,22 +3161,74 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["sur le compte séquestre", "sur un compte séquestre"],
             explanation: "\"Sous séquestre\": held by a neutral third party until the conditions are met.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The seller could claim that you made the condition fail.",
+            answer: "Le vendeur pourrait estimer que vous avez fait échouer la condition.",
+            altAnswers: ["Le vendeur pourrait prétendre que vous avez fait échouer la condition.", "Le vendeur pourrait soutenir que vous avez fait échouer la condition.", "Le vendeur pourrait considérer que vous avez fait échouer la condition."],
+            explanation: "The conditional \"pourrait\" for a possibility; \"faire échouer\" = to cause to fail. \"Prétendre\" here means to claim.",
+          },
         ],
       },
       {
-        heading: "Scene 3: last questions and the signature",
+        heading: "Scene 3: the dates",
         body: [
-          "\"— Une dernière question, Maître : la date de signature de l'acte est-elle déjà fixée ? — Nous l'avons prévue au plus tard le 15 juillet. Si votre banque tarde, nous pourrons la reporter d'un commun accord, par avenant. — Très bien. Et le délai de rétractation, il court à partir d'aujourd'hui ? — Non : il court à compter du lendemain de la première présentation de la lettre recommandée qui vous notifiera le compromis signé. Vous aurez alors dix jours. — Parfait, c'est très clair. Où dois-je parapher ? — En bas de chaque page, et vous signerez en dernière page, sous la mention manuscrite « Lu et approuvé ». — Voilà. Je vous remercie infiniment pour vos explications, Maître. — Je vous en prie, c'est mon rôle. Et toutes mes félicitations pour ce premier achat.\"",
-          "Formal questions often use inversion (\"la date est-elle déjà fixée ?\"); everyday questions can keep statement order with a rising tone (\"il court à partir d'aujourd'hui ?\"). Sophie mixes both, which is natural: a formal frame with spoken touches. \"Reporter d'un commun accord\" (postpone by mutual agreement) and \"par avenant\" (by an amendment) bring back Unit 2 vocabulary.",
-          "Thanks and replies: \"Je vous remercie infiniment pour vos explications\" (\"pour\" + noun; \"de\" + noun is more formal: \"je vous remercie de votre patience\"). The professional answers \"Je vous en prie\", the formal you're welcome. And \"Où dois-je parapher ?\": to initial the pages.",
+          "\"— Une dernière question, Maître : la date de signature de l'acte est-elle déjà fixée ? — Nous l'avons prévue au plus tard le 15 juillet. Si votre banque tarde, nous pourrons la reporter d'un commun accord, par avenant. — Très bien. Et le délai de rétractation, il court à partir d'aujourd'hui ? — Non : il court à compter du lendemain de la première présentation de la lettre recommandée qui vous notifiera le compromis signé. Vous aurez alors dix jours.\"",
         ],
         examples: [
           { es: "La date de signature de l'acte est-elle déjà fixée ?", en: "Has the date for signing the deed already been set?" },
           { es: "Nous pourrons la reporter d'un commun accord, par avenant.", en: "We can postpone it by mutual agreement, through an amendment." },
           { es: "Il court à compter du lendemain de la première présentation de la lettre.", en: "It runs from the day after the letter is first presented." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "When does Sophie's ten-day cooling-off period start?",
+            options: ["The day after the registered letter notifying the signed compromis is first presented.", "Today, at the signature.", "On 15 July.", "When the bank answers."],
+            correctIndex: 0,
+            explanation: "\"Il court à compter du lendemain de la première présentation de la lettre recommandée\": not today, and not tied to the loan or to the final deed.",
+          },
+        ],
+      },
+      {
+        heading: "Scene 3: initialling and thanks",
+        body: [
+          "It continues: \"— Parfait, c'est très clair. Où dois-je parapher ? — En bas de chaque page, et vous signerez en dernière page, sous la mention manuscrite « Lu et approuvé ». — Voilà. Je vous remercie infiniment pour vos explications, Maître. — Je vous en prie, c'est mon rôle. Et toutes mes félicitations pour ce premier achat.\"",
+        ],
+        examples: [
           { es: "Où dois-je parapher ?", en: "Where do I initial?" },
           { es: "Je vous remercie infiniment pour vos explications, Maître.", en: "Thank you so much for your explanations." },
           { es: "Je vous en prie, c'est mon rôle.", en: "You're welcome, that's my job." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Vous signerez en dernière page, sous la mention « Lu et approuvé ».",
+            question: "What does it mean?",
+            options: ["You'll sign on the last page, after writing 'Read and approved'.", "You'll sign on the first page, before reading the contract.", "You'll sign the last page after the notary approves it.", "You'll sign every page and then write 'approved'."],
+            correctIndex: 0,
+            explanation: "\"Sous la mention\": the handwritten words \"Lu et approuvé\" come just above the signature.",
+          },
+          {
+            type: "multiple-choice",
+            question: "Sophie thanks the notaire warmly. What does he most naturally answer?",
+            options: ["Je vous en prie.", "De rien, ma belle.", "Pas de souci !", "Il n'y a pas de quoi rire."],
+            correctIndex: 0,
+            explanation: "\"Je vous en prie\" is the formal you're welcome. \"Pas de souci\" is casual, \"ma belle\" inappropriate, and the last means there's nothing to laugh about.",
+          },
+        ],
+      },
+      {
+        heading: "Formal and spoken questions",
+        body: [
+          "Formal questions often use inversion (\"la date est-elle déjà fixée ?\"); everyday questions can keep statement order with a rising tone (\"il court à partir d'aujourd'hui ?\"). Sophie mixes both, which is natural: a formal frame with spoken touches. \"Reporter d'un commun accord\" (postpone by mutual agreement) and \"par avenant\" (by an amendment) bring back Unit 2 vocabulary.",
+        ],
+        examples: [
+          { es: "Le notaire est-il disponible jeudi ?", en: "Is the notary available on Thursday?" },
+          { es: "Ça vous convient, jeudi ?", en: "Does Thursday suit you?" },
+          { es: "La date a été reportée d'un commun accord.", en: "The date was postponed by mutual agreement." },
         ],
         checkpoint: [
           {
@@ -2155,24 +3241,43 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "Complex inversion: noun subject + verb + hyphenated pronoun (\"est-elle\", \"a-t-elle\").",
           },
           {
-            type: "multiple-choice",
-            question: "Sophie thanks the notaire warmly. What does he most naturally answer?",
-            options: ["Je vous en prie.", "De rien, ma belle.", "Pas de souci !", "Il n'y a pas de quoi rire."],
-            correctIndex: 0,
-            explanation: "\"Je vous en prie\" is the formal you're welcome. \"Pas de souci\" is casual, \"ma belle\" inappropriate, and the last means there's nothing to laugh about.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into a formal question with inversion.",
+            source: "Le vendeur a déjà signé ?",
+            answer: "Le vendeur a-t-il déjà signé ?",
+            explanation: "With a noun subject, formal inversion keeps the noun and adds a pronoun after the verb: \"le vendeur a-t-il\", with \"-t-\" between two vowels.",
+          },
+        ],
+      },
+      {
+        heading: "Thanks and « je vous en prie »",
+        body: [
+          "Thanks and replies: \"Je vous remercie infiniment pour vos explications\" (\"pour\" + noun; \"de\" + noun is more formal: \"je vous remercie de votre patience\"). The professional answers \"Je vous en prie\", the formal you're welcome. And \"Où dois-je parapher ?\": to initial the pages.",
+        ],
+        examples: [
+          { es: "Je vous remercie de votre disponibilité.", en: "Thank you for making yourself available." },
+          { es: "Merci pour votre aide précieuse.", en: "Thank you for your invaluable help." },
+          { es: "Il faut parapher chaque page du compromis.", en: "You have to initial every page of the agreement." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French, speaking to the notary.",
+            source: "Thank you very much for your patience.",
+            answer: "Je vous remercie infiniment de votre patience.",
+            altAnswers: ["Je vous remercie infiniment pour votre patience.", "Je vous remercie beaucoup de votre patience.", "Je vous remercie beaucoup pour votre patience.", "Merci infiniment pour votre patience."],
+            explanation: "\"Remercier de\" (more formal) or \"pour\" + noun; \"infiniment\" is the warm formal intensifier.",
           },
           {
-            type: "listen-choose",
-            audio: "Vous signerez en dernière page, sous la mention « Lu et approuvé ».",
-            question: "What does it mean?",
-            options: [
-              "You'll sign on the last page, after writing 'Read and approved'.",
-              "You'll sign on the first page, before reading the contract.",
-              "You'll sign the last page after the notary approves it.",
-              "You'll sign every page and then write 'approved'.",
-            ],
-            correctIndex: 0,
-            explanation: "\"Sous la mention\": the handwritten words \"Lu et approuvé\" come just above the signature.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Nous vous remercions à votre accueil.",
+            answer: "Nous vous remercions de votre accueil.",
+            altAnswers: ["Nous vous remercions pour votre accueil."],
+            explanation: "\"Remercier\" takes \"de\" (formal) or \"pour\" + noun, never \"à\": \"nous vous remercions de votre accueil\".",
           },
         ],
       },
@@ -2197,15 +3302,6 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "\"Justifier de\" + noun = to provide proof of.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "[Could you tell me exactly] what a servitude is?",
-        sentence: "___ ce qu'est une servitude ?",
-        answer: "Pourriez-vous me préciser",
-        altAnswers: ["Pourriez-vous m'expliquer", "Pourriez-vous me dire"],
-        explanation: "\"Pourriez-vous me préciser\" + indirect question (\"ce qu'est\", with inversion after \"ce que\").",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -2215,13 +3311,6 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "\"D'un commun accord\" = by mutual agreement; \"reporter\" = to postpone.",
       },
       {
-        type: "multiple-choice",
-        question: "The notaire says: \"La condition est défaillie.\" What has happened?",
-        options: ["The condition has failed.", "The condition has been fulfilled.", "The condition has been waived.", "The condition has been forgotten."],
-        correctIndex: 0,
-        explanation: "\"Défaillie\" (from défaillir) = failed; the opposite is \"réalisée\".",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -2229,15 +3318,6 @@ export const FR_C2_U02: Lesson[] = [
         answer: "L'argent reste bloqué jusqu'à la signature de l'acte définitif.",
         altAnswers: ["La somme reste bloquée jusqu'à la signature de l'acte définitif.", "L'argent reste bloqué jusqu'à la signature de l'acte authentique.", "L'argent reste bloqué jusqu'à ce que l'acte définitif soit signé.", "La somme reste bloquée jusqu'à ce que l'acte définitif soit signé."],
         explanation: "\"Jusqu'à\" + noun, or \"jusqu'à ce que\" + subjunctive (\"soit signé\").",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French, speaking to the notary.",
-        source: "Thank you very much for your patience.",
-        answer: "Je vous remercie infiniment de votre patience.",
-        altAnswers: ["Je vous remercie infiniment pour votre patience.", "Je vous remercie beaucoup de votre patience.", "Je vous remercie beaucoup pour votre patience.", "Merci infiniment pour votre patience."],
-        explanation: "\"Remercier de\" (more formal) or \"pour\" + noun; \"infiniment\" is the warm formal intensifier.",
       },
       {
         type: "word-order",
@@ -2253,18 +3333,9 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Si je comprends bien, le délai de rétractation ne commence pas aujourd'hui ?",
         prompt: "Say it in French to the notary: If I understand correctly, the cooling-off period doesn't start today?",
+        text: "Si je comprends bien, le délai de rétractation ne commence pas aujourd'hui ?",
         explanation: "\"Si je comprends bien\" + statement with rising intonation: the polite checking question.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The seller could claim that you made the condition fail.",
-        answer: "Le vendeur pourrait estimer que vous avez fait échouer la condition.",
-        altAnswers: ["Le vendeur pourrait prétendre que vous avez fait échouer la condition.", "Le vendeur pourrait soutenir que vous avez fait échouer la condition.", "Le vendeur pourrait considérer que vous avez fait échouer la condition."],
-        explanation: "The conditional \"pourrait\" for a possibility; \"faire échouer\" = to cause to fail. \"Prétendre\" here means to claim.",
       },
     ],
   },
@@ -2274,22 +3345,17 @@ export const FR_C2_U02: Lesson[] = [
     number: 11,
     title: "Spiral Review: Legal Style with Advanced Grammar",
     summary: "Legal style packs in Advanced structures: absolute participles, the present and perfect participle, impersonal passives, nominalisation, the subjunctive after à condition que and à moins que, and the deontic future.",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
-        heading: "Participles that carry the reasoning",
+        heading: "Remember: participles compress the reasoning",
         body: [
           "At the Advanced level you learnt the perfect participle (\"ayant signé\", \"étant parti\") and the absolute participle clause. Legal French uses them constantly because they compress a whole \"comme\" or \"après que\" clause into a few words, leaving the main clause for the decision. \"Le bail étant résilié, le preneur devra libérer les lieux.\" \"Le locataire ayant quitté les lieux sans préavis, le bailleur conserve le dépôt de garantie.\"",
-          "Two rules to keep. First, the absolute participle has its own subject, different from the main clause's subject: \"Le délai expiré, la demande est irrecevable\" (the deadline ≠ the request). If the subjects are the same, use a plain participle phrase: \"Ayant reçu la mise en demeure, le débiteur a payé.\" Second, the participle agrees with its own subject: \"la somme ayant été versée\", \"les clés une fois remises\".",
-          "The present participle (\"-ant\") is also frequent as a reduced relative: \"toute personne souhaitant consulter le dossier\" (any person wishing to...), \"les sommes restant dues\" (the sums still owing). It is invariable, unlike the verbal adjective you met at the Advanced level (\"les sommes restantes\" is also correct, as an adjective).",
         ],
         examples: [
           { es: "Le bail étant résilié, le preneur devra libérer les lieux sous huitaine.", en: "The lease having been terminated, the tenant must vacate the premises within eight days." },
           { es: "Le locataire ayant quitté les lieux sans préavis, le bailleur conserve le dépôt de garantie.", en: "As the tenant left without notice, the landlord keeps the deposit." },
-          { es: "Le délai expiré, la demande est irrecevable.", en: "The deadline having passed, the application is inadmissible." },
-          { es: "Ayant reçu la mise en demeure, le débiteur s'est acquitté de sa dette.", en: "Having received the formal notice, the debtor paid his debt." },
-          { es: "Toute personne souhaitant consulter le dossier doit en faire la demande par écrit.", en: "Anyone wishing to consult the file must apply in writing." },
-          { es: "Les sommes restant dues seront prélevées le mois prochain.", en: "The sums still owing will be debited next month." },
+          { es: "Le dossier étant complet, il sera instruit sous quinzaine.", en: "The file being complete, it will be processed within a fortnight." },
         ],
         checkpoint: [
           {
@@ -2301,34 +3367,75 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["Le contrat étant signé, les travaux peuvent commencer.", "Le contrat signé, les travaux peuvent commencer.", "Le contrat ayant été signé, les travaux pourront commencer.", "Le contrat une fois signé, les travaux peuvent commencer."],
             explanation: "\"Le contrat ayant été signé\" (or simply \"le contrat signé\"): its own subject, different from \"les travaux\".",
           },
+        ],
+      },
+      {
+        heading: "Its own subject, its own agreement",
+        body: [
+          "Two rules to keep. First, the absolute participle has its own subject, different from the main clause's subject: \"Le délai expiré, la demande est irrecevable\" (the deadline ≠ the request). If the subjects are the same, use a plain participle phrase: \"Ayant reçu la mise en demeure, le débiteur a payé.\" Second, the participle agrees with its own subject: \"la somme ayant été versée\", \"les clés une fois remises\".",
+        ],
+        examples: [
+          { es: "Le délai expiré, la demande est irrecevable.", en: "The deadline having passed, the application is inadmissible." },
+          { es: "Ayant reçu la mise en demeure, le débiteur s'est acquitté de sa dette.", en: "Having received the formal notice, the debtor paid his debt." },
+          { es: "Les clés une fois remises, le bailleur restitue le dépôt.", en: "Once the keys have been handed over, the landlord returns the deposit." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: [
-              "La somme ayant été versée, le dossier est clos.",
-              "La somme ayant été versé, le dossier est clos.",
-              "Ayant été versée la somme, le dossier est clos.",
-              "La somme ayant versée, le dossier est clos.",
-            ],
+            options: ["La somme ayant été versée, le dossier est clos.", "La somme ayant été versé, le dossier est clos.", "Ayant été versée la somme, le dossier est clos.", "La somme ayant versée, le dossier est clos."],
             correctIndex: 0,
             explanation: "The compound passive participle \"ayant été versée\" agrees with its subject \"la somme\" and follows it.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La facture ayant été réglé, le dossier est clos.",
+            answer: "La facture ayant été réglée, le dossier est clos.",
+            explanation: "The participle agrees with its own subject, here \"la facture\" (feminine): \"ayant été réglée\".",
           },
         ],
       },
       {
-        heading: "Impersonal passives and nominal style",
+        heading: "The present participle as a short relative",
+        body: [
+          "The present participle (\"-ant\") is also frequent as a reduced relative: \"toute personne souhaitant consulter le dossier\" (any person wishing to...), \"les sommes restant dues\" (the sums still owing). It is invariable, unlike the verbal adjective you met at the Advanced level (\"les sommes restantes\" is also correct, as an adjective).",
+        ],
+        examples: [
+          { es: "Toute personne souhaitant consulter le dossier doit en faire la demande par écrit.", en: "Anyone wishing to consult the file must apply in writing." },
+          { es: "Les sommes restant dues seront prélevées le mois prochain.", en: "The sums still owing will be debited next month." },
+          { es: "Les candidats ne remplissant pas les conditions seront exclus.", en: "Candidates not meeting the conditions will be excluded." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Any person [wishing] to attend must register.",
+            sentence: "Toute personne ___ assister à la réunion doit s'inscrire.",
+            answer: "souhaitant",
+            altAnswers: ["désirant"],
+            explanation: "The present participle as a reduced relative (\"qui souhaite\"); invariable.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn the relative clause into a present participle.",
+            source: "Les locataires qui souhaitent partir doivent prévenir le bailleur.",
+            answer: "Les locataires souhaitant partir doivent prévenir le bailleur.",
+            explanation: "\"Qui souhaitent\" becomes the invariable present participle \"souhaitant\", the reduced relative of legal notices.",
+          },
+        ],
+      },
+      {
+        heading: "The impersonal passive",
         body: [
           "The impersonal passive (Advanced Unit 5) removes the agent and puts the action first: \"il a été procédé à la vérification\", \"il a été constaté que\", \"il est rappelé que\", \"il sera statué sur la demande\". In legal letters it lets the author state facts and decisions without saying \"I\" or \"we\": \"Il a été constaté, lors de l'état des lieux de sortie, que la moquette était tachée.\"",
-          "Nominalisation (Advanced Unit 3) does the same for verbs: \"après vérification\", \"dès réception\", \"sous réserve d'acceptation\", \"en cas de non-paiement\", \"à défaut de restitution\". Combining both gives the typical density of an administrative sentence: \"Après examen de votre dossier, il a été décidé de procéder au remboursement des sommes indûment perçues.\" (After examining your file, it has been decided to refund the sums wrongly received.)",
-          "To read such sentences, unpack them: who examined (the administration), who decided (the administration), who receives the refund (you). To write them, compress: find the verb, make it a noun, find the agent, make it disappear. Keep a human version ready for when you need to explain it to someone else.",
         ],
         examples: [
           { es: "Il a été constaté que la moquette était tachée.", en: "It was noted that the carpet was stained." },
           { es: "Il est rappelé que le stationnement est interdit dans la cour.", en: "Please note that parking in the courtyard is prohibited." },
           { es: "Il sera statué sur votre demande lors de la prochaine commission.", en: "Your application will be decided at the next committee meeting." },
-          { es: "Dès réception de votre paiement, le dossier sera clôturé.", en: "As soon as your payment is received, the file will be closed." },
-          { es: "Après examen de votre dossier, il a été décidé de vous accorder un délai.", en: "After examining your file, it has been decided to grant you extra time." },
-          { es: "Sous réserve d'acceptation de votre candidature, vous serez convoqué en juin.", en: "Subject to your application being accepted, you will be called in June." },
         ],
         checkpoint: [
           {
@@ -2341,6 +3448,27 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "\"Il a été décidé de\" + infinitive: the decision without the decider.",
           },
           {
+            type: "listen-choose",
+            audio: "Il est rappelé aux usagers que les animaux sont interdits.",
+            question: "What does it mean?",
+            options: ["Users are reminded that animals are not allowed.", "Users were called back because of the animals.", "Animals must be reminded to stay outside.", "Users must call if they see animals."],
+            correctIndex: 0,
+            explanation: "\"Il est rappelé que\" is the impersonal passive of notices: a reminder without a named author.",
+          },
+        ],
+      },
+      {
+        heading: "Nominal style: dès réception, sous réserve de",
+        body: [
+          "Nominalisation (Advanced Unit 3) does the same for verbs: \"après vérification\", \"dès réception\", \"sous réserve d'acceptation\", \"en cas de non-paiement\", \"à défaut de restitution\". Combining both gives the typical density of an administrative sentence: \"Après examen de votre dossier, il a été décidé de procéder au remboursement des sommes indûment perçues.\" (After examining your file, it has been decided to refund the sums wrongly received.)",
+        ],
+        examples: [
+          { es: "Dès réception de votre paiement, le dossier sera clôturé.", en: "As soon as your payment is received, the file will be closed." },
+          { es: "Après examen de votre dossier, il a été décidé de vous accorder un délai.", en: "After examining your file, it has been decided to grant you extra time." },
+          { es: "Sous réserve d'acceptation de votre candidature, vous serez convoqué en juin.", en: "Subject to your application being accepted, you will be called in June." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "[As soon as we receive] the documents, your file will be processed.",
@@ -2349,34 +3477,54 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "\"Dès réception de\" (nominal) replaces \"dès que nous aurons reçu\".",
           },
           {
-            type: "listen-choose",
-            audio: "Il est rappelé aux usagers que les animaux sont interdits.",
-            question: "What does it mean?",
-            options: [
-              "Users are reminded that animals are not allowed.",
-              "Users were called back because of the animals.",
-              "Animals must be reminded to stay outside.",
-              "Users must call if they see animals.",
-            ],
-            correctIndex: 0,
-            explanation: "\"Il est rappelé que\" is the impersonal passive of notices: a reminder without a named author.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it nominal with « dès réception de ».",
+            source: "Dès que nous aurons reçu votre chèque, nous vous enverrons la facture.",
+            answer: "Dès réception de votre chèque, nous vous enverrons la facture.",
+            altAnswers: ["Dès réception de votre chèque, la facture vous sera envoyée."],
+            explanation: "Nominalisation turns the clause \"dès que nous aurons reçu\" into \"dès réception de\": shorter, and without the agent.",
           },
         ],
       },
       {
-        heading: "Conditions with the subjunctive, obligations in the future",
+        heading: "Unpack to read, compress to write",
+        body: [
+          "To read such sentences, unpack them: who examined (the administration), who decided (the administration), who receives the refund (you). To write them, compress: find the verb, make it a noun, find the agent, make it disappear. Keep a human version ready for when you need to explain it to someone else.",
+        ],
+        examples: [
+          { es: "Après vérification, il a été procédé au remboursement.", en: "After checking, the refund was made." },
+          { es: "En clair : ils ont vérifié et ils vous remboursent.", en: "In plain terms: they checked and they're refunding you." },
+          { es: "À défaut de restitution des clés, une indemnité sera due.", en: "If the keys are not returned, compensation will be due." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "« Il a été procédé à la clôture de votre compte. » What is the plain version?",
+            options: ["On a fermé votre compte.", "Vous avez fermé votre compte.", "Votre compte va peut-être être fermé.", "Vous devez fermer votre compte."],
+            correctIndex: 0,
+            explanation: "Unpack it: \"il a été procédé à\" hides the agent (the bank), \"la clôture\" is the verb \"clôturer / fermer\", and the passé composé says it is done. So: they have closed your account.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French in nominal style.",
+            source: "After examining your file, we have decided to grant you a reduction.",
+            answer: "Après examen de votre dossier, il a été décidé de vous accorder une réduction.",
+            altAnswers: ["Après examen de votre dossier, nous avons décidé de vous accorder une réduction.", "Après examen de votre dossier, il a été décidé de vous accorder une remise.", "Après étude de votre dossier, il a été décidé de vous accorder une réduction."],
+            explanation: "\"Après examen de\" (nominal, no article) + the impersonal passive \"il a été décidé de\".",
+          },
+        ],
+      },
+      {
+        heading: "Conditions with the subjunctive",
         body: [
           "Conditions in legal style use conjunctions you know from the Advanced level: \"à condition que\", \"pour autant que\", \"sous réserve que\", \"pourvu que\" + subjunctive; \"à moins que\" + subjunctive (often with ne explétif); \"sauf si\" and \"si\" + indicative. \"Le preneur pourra sous-louer, à condition que le bailleur y consente par écrit.\" \"La vente sera conclue, à moins que l'acquéreur n'exerce son droit de rétractation.\"",
-          "When the subject is the same in both clauses, prefer the infinitive: \"à condition de\", \"à moins de\", \"sous réserve de\": \"Le preneur pourra résilier le bail à condition de respecter un préavis de trois mois.\"",
-          "Obligations are in the deontic future or present: \"le preneur devra\", \"le loyer sera payable\", \"le vendeur s'engage à\". The combination is the backbone of any clause: obligation + condition + consequence. \"Le preneur devra restituer les clés au plus tard le jour de son départ, faute de quoi il sera redevable d'une indemnité d'occupation, à moins qu'un accord écrit n'ait été conclu avec le bailleur.\"",
         ],
         examples: [
           { es: "Le preneur pourra sous-louer, à condition que le bailleur y consente par écrit.", en: "The tenant may sublet, provided the landlord consents in writing." },
           { es: "La vente sera conclue, à moins que l'acquéreur n'exerce son droit de rétractation.", en: "The sale will go ahead unless the buyer exercises his right to withdraw." },
-          { es: "Le preneur pourra résilier le bail à condition de respecter un préavis de trois mois.", en: "The tenant may end the lease provided he gives three months' notice." },
           { es: "L'aide sera maintenue pour autant que votre situation n'ait pas changé.", en: "The benefit will continue provided your situation hasn't changed." },
-          { es: "Le loyer sera révisé chaque année à la date anniversaire du bail.", en: "The rent will be reviewed every year on the anniversary of the lease." },
-          { es: "Le preneur devra restituer les clés, faute de quoi il sera redevable d'une indemnité.", en: "The tenant must return the keys, failing which he will owe compensation." },
         ],
         checkpoint: [
           {
@@ -2391,11 +3539,62 @@ export const FR_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Le preneur pourra sous-louer, pourvu que le bailleur est d'accord.",
+            answer: "Le preneur pourra sous-louer, pourvu que le bailleur soit d'accord.",
+            explanation: "\"Pourvu que\", like \"à condition que\" and \"pour autant que\", takes the subjunctive: \"soit\", not \"est\".",
+          },
+        ],
+      },
+      {
+        heading: "Same subject: use the infinitive",
+        body: [
+          "When the subject is the same in both clauses, prefer the infinitive: \"à condition de\", \"à moins de\", \"sous réserve de\": \"Le preneur pourra résilier le bail à condition de respecter un préavis de trois mois.\"",
+        ],
+        examples: [
+          { es: "Le preneur pourra résilier le bail à condition de respecter un préavis de trois mois.", en: "The tenant may end the lease provided he gives three months' notice." },
+          { es: "Vous pourrez vous inscrire sous réserve de fournir un justificatif.", en: "You may register provided you supply proof." },
+          { es: "Il ne pourra pas partir à moins de trouver un remplaçant.", en: "He won't be able to leave unless he finds a replacement." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
             prompt: "Translate into French in legal style, using an infinitive.",
             source: "The buyer may withdraw provided he informs the seller within ten days.",
             answer: "L'acquéreur pourra se rétracter à condition d'en informer le vendeur dans un délai de dix jours.",
             altAnswers: ["L'acquéreur pourra se rétracter à condition d'en informer le vendeur dans les dix jours.", "L'acquéreur pourra se rétracter à condition d'informer le vendeur dans un délai de dix jours.", "L'acheteur pourra se rétracter à condition d'en informer le vendeur dans un délai de dix jours.", "L'acquéreur pourra se rétracter sous réserve d'en informer le vendeur dans un délai de dix jours."],
             explanation: "Same subject in both clauses → \"à condition de\" + infinitive; \"en informer\" = inform him of it.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it an infinitive construction: the subject is the same.",
+            source: "Le salarié pourra télétravailler à condition qu'il prévienne son responsable.",
+            answer: "Le salarié pourra télétravailler à condition de prévenir son responsable.",
+            explanation: "When both clauses share the subject (\"le salarié\"), \"à condition que\" + subjunctive becomes \"à condition de\" + infinitive.",
+          },
+        ],
+      },
+      {
+        heading: "Obligation + condition + consequence",
+        body: [
+          "Obligations are in the deontic future or present: \"le preneur devra\", \"le loyer sera payable\", \"le vendeur s'engage à\". The combination is the backbone of any clause: obligation + condition + consequence. \"Le preneur devra restituer les clés au plus tard le jour de son départ, faute de quoi il sera redevable d'une indemnité d'occupation, à moins qu'un accord écrit n'ait été conclu avec le bailleur.\"",
+        ],
+        examples: [
+          { es: "Le loyer sera révisé chaque année à la date anniversaire du bail.", en: "The rent will be reviewed every year on the anniversary of the lease." },
+          { es: "Le preneur devra restituer les clés, faute de quoi il sera redevable d'une indemnité.", en: "The tenant must return the keys, failing which he will owe compensation." },
+          { es: "Le vendeur s'engage à livrer le bien libre de toute occupation.", en: "The seller undertakes to deliver the property free of any occupant." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French in legal style.",
+            source: "The rent will be payable on the first of each month.",
+            answer: "Le loyer sera payable le premier de chaque mois.",
+            altAnswers: ["Le loyer sera payable le 1er de chaque mois.", "Le loyer est payable le premier de chaque mois.", "Le loyer devra être payé le premier de chaque mois."],
+            explanation: "The deontic future \"sera payable\": a rule, not a forecast.",
           },
         ],
       },
@@ -2404,11 +3603,11 @@ export const FR_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with an absolute participle clause.",
-        source: "The keys having been returned, the deposit will be refunded.",
+        prompt: "Correct the sentence.",
+        source: "Les clés ayant été restitué, le dépôt de garantie sera remboursé.",
         answer: "Les clés ayant été restituées, le dépôt de garantie sera remboursé.",
         altAnswers: ["Les clés ayant été rendues, le dépôt de garantie sera remboursé.", "Les clés ayant été restituées, le dépôt de garantie sera restitué.", "Les clés restituées, le dépôt de garantie sera remboursé.", "Les clés ayant été rendues, le dépôt de garantie sera restitué."],
-        explanation: "\"Ayant été restituées\" agrees with \"les clés\" (feminine plural).",
+        explanation: "The participle agrees with its own subject, \"les clés\" (feminine plural): \"ayant été restituées\".",
       },
       {
         type: "translate",
@@ -2420,15 +3619,6 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "\"Il a été constaté que\" + indicative; the imperfect \"ne fonctionnait pas\" describes the state at the time.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "Any person [wishing] to attend must register.",
-        sentence: "Toute personne ___ assister à la réunion doit s'inscrire.",
-        answer: "souhaitant",
-        altAnswers: ["désirant"],
-        explanation: "The present participle as a reduced relative (\"qui souhaite\"); invariable.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French in legal style.",
@@ -2438,43 +3628,20 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "\"À moins que\" + subjunctive with optional ne explétif; \"sauf si\" + indicative.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French in nominal style.",
-        source: "After examining your file, we have decided to grant you a reduction.",
-        answer: "Après examen de votre dossier, il a été décidé de vous accorder une réduction.",
-        altAnswers: ["Après examen de votre dossier, nous avons décidé de vous accorder une réduction.", "Après examen de votre dossier, il a été décidé de vous accorder une remise.", "Après étude de votre dossier, il a été décidé de vous accorder une réduction."],
-        explanation: "\"Après examen de\" (nominal, no article) + the impersonal passive \"il a été décidé de\".",
-      },
-      {
         type: "multiple-choice",
         question: "Which sentence uses the absolute participle correctly?",
-        options: [
-          "Le délai étant expiré, la candidature a été rejetée.",
-          "Étant expiré, la candidature a été rejetée.",
-          "Ayant expiré le délai, la candidature a été rejetée.",
-          "Le délai expirant, la candidature avait été rejetée avant.",
-        ],
+        options: ["Le délai étant expiré, la candidature a été rejetée.", "Étant expiré, la candidature a été rejetée.", "Ayant expiré le délai, la candidature a été rejetée.", "Le délai expirant, la candidature avait été rejetée avant."],
         correctIndex: 0,
         explanation: "The absolute participle needs its own subject (\"le délai\"). Option 2 makes the application itself 'expired', a dangling participle.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French in legal style.",
-        source: "The benefit will continue provided your income has not changed.",
+        prompt: "Correct the sentence.",
+        source: "L'aide sera maintenue pour autant que vos revenus n'ont pas changé.",
         answer: "L'aide sera maintenue pour autant que vos revenus n'aient pas changé.",
         altAnswers: ["L'aide sera maintenue à condition que vos revenus n'aient pas changé.", "L'aide sera maintenue sous réserve que vos revenus n'aient pas changé.", "L'allocation sera maintenue pour autant que vos revenus n'aient pas changé.", "L'aide sera maintenue à condition que vos revenus n'aient pas évolué."],
-        explanation: "\"Pour autant que\" + past subjunctive (\"n'aient pas changé\").",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French in legal style.",
-        source: "The rent will be payable on the first of each month.",
-        answer: "Le loyer sera payable le premier de chaque mois.",
-        altAnswers: ["Le loyer sera payable le 1er de chaque mois.", "Le loyer est payable le premier de chaque mois.", "Le loyer devra être payé le premier de chaque mois."],
-        explanation: "The deontic future \"sera payable\": a rule, not a forecast.",
+        explanation: "\"Pour autant que\" takes the subjunctive: \"n'aient pas changé\", not the indicative \"n'ont pas changé\".",
       },
       {
         type: "word-order",
@@ -2490,8 +3657,8 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Le bail étant résilié, vous devrez libérer les lieux avant la fin du mois.",
         prompt: "Say it in French: The lease having been terminated, you will have to vacate the premises before the end of the month.",
+        text: "Le bail étant résilié, vous devrez libérer les lieux avant la fin du mois.",
         explanation: "Absolute participle + deontic future: the classic pair of a legal notice.",
       },
       {
@@ -2511,24 +3678,26 @@ export const FR_C2_U02: Lesson[] = [
     number: 12,
     title: "Mastery Vocabulary: Precise Verbs Instead of Dire",
     summary: "Verbs of saying that also tell how and why: affirmer, prétendre, alléguer, arguer, invoquer, objecter, rétorquer, répliquer, souligner, faire valoir, insinuer, marmonner, lâcher, asséner.",
-    duration: "17 min",
+    duration: "18 min",
     sections: [
       {
-        heading: "Claiming: affirmer, prétendre, alléguer, arguer, invoquer",
+        heading: "Affirmer, prétendre (and faire semblant)",
         body: [
           "\"Dire\" reports words; a precise verb also reports the speaker's stance and your own. \"Affirmer\" presents a claim as certain (\"il affirme n'avoir rien vu\"). \"Prétendre\" means to claim, usually with a hint that you doubt it: \"Il prétend avoir été malade\" = he claims he was ill (and I'm not sure). It does not mean to pretend, which is \"faire semblant\": \"il fait semblant d'être malade\". With \"à\", you met it in Unit 1: \"prétendre à une indemnité\" = to be entitled to, to aspire to.",
-          "\"Alléguer\" (to allege) belongs to argument and law: it advances a fact or a reason, often as an excuse, without proving it: \"Il a allégué un empêchement de dernière minute.\" \"Arguer\" means to put forward as an argument: \"arguer de son inexpérience\" (to plead one's inexperience), \"arguer que\" + indicative. Its pronunciation is a trap: the u is heard, [aʁɡɥe], ar-gu-é, \"il argue\" [aʁɡy], so the 1990 spelling reform allows \"argüer\" with a tréma to show it.",
-          "\"Invoquer\" means to call on a reason, a principle or a text in your support: \"invoquer la force majeure\", \"invoquer l'article 1218\", \"invoquer son droit au silence\". In English 'invoke' is close, but French uses it far more, in every argument and every legal letter.",
         ],
         examples: [
           { es: "Le témoin affirme n'avoir rien entendu cette nuit-là.", en: "The witness states that he heard nothing that night." },
           { es: "Il prétend qu'il n'a jamais reçu la lettre.", en: "He claims he never received the letter." },
           { es: "Elle fait semblant de ne pas comprendre.", en: "She's pretending not to understand." },
-          { es: "L'entreprise a allégué des difficultés d'approvisionnement.", en: "The company cited supply difficulties." },
-          { es: "Il a argué de son état de santé pour obtenir un report.", en: "He pleaded his state of health to obtain a postponement." },
-          { es: "Le locataire invoque l'article 1719 du Code civil.", en: "The tenant relies on article 1719 of the Civil Code." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "\"Elle fait semblant de dormir.\" What does it mean?",
+            options: ["She's pretending to sleep.", "She claims to be asleep.", "She seems to be asleep.", "She's about to fall asleep."],
+            correctIndex: 0,
+            explanation: "To pretend = \"faire semblant de\". \"Prétendre\" = to claim.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2538,39 +3707,69 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["Il prétend qu'il a payé la facture, mais nous n'en avons aucune preuve.", "Il prétend avoir réglé la facture, mais nous n'en avons aucune preuve.", "Il prétend avoir payé la facture, mais nous n'avons aucune preuve.", "Il prétend avoir payé la facture, mais on n'en a aucune preuve."],
             explanation: "\"Prétendre\" + past infinitive (or \"que\" + indicative) = to claim, with a note of doubt. Not to pretend.",
           },
+        ],
+      },
+      {
+        heading: "Alléguer and arguer",
+        body: [
+          "\"Alléguer\" (to allege) belongs to argument and law: it advances a fact or a reason, often as an excuse, without proving it: \"Il a allégué un empêchement de dernière minute.\" \"Arguer\" means to put forward as an argument: \"arguer de son inexpérience\" (to plead one's inexperience), \"arguer que\" + indicative. Its pronunciation is a trap: the u is heard, [aʁɡɥe], ar-gu-é, \"il argue\" [aʁɡy], so the 1990 spelling reform allows \"argüer\" with a tréma to show it.",
+        ],
+        examples: [
+          { es: "L'entreprise a allégué des difficultés d'approvisionnement.", en: "The company cited supply difficulties." },
+          { es: "Il a argué de son état de santé pour obtenir un report.", en: "He pleaded his state of health to obtain a postponement." },
+          { es: "La défense argue que le témoin était absent.", en: "The defence argues that the witness was absent." },
+        ],
+        checkpoint: [
           {
-            type: "multiple-choice",
-            question: "\"Elle fait semblant de dormir.\" What does it mean?",
-            options: ["She's pretending to sleep.", "She claims to be asleep.", "She seems to be asleep.", "She's about to fall asleep."],
-            correctIndex: 0,
-            explanation: "To pretend = \"faire semblant de\". \"Prétendre\" = to claim.",
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "He [pleaded] his young age to obtain leniency.",
+            sentence: "Il a ___ son jeune âge pour obtenir l'indulgence du tribunal.",
+            answer: "argué de",
+            altAnswers: ["argüé de", "invoqué"],
+            explanation: "\"Arguer de\" + noun (with the u pronounced: ar-gu-é); \"invoquer\" is a direct alternative.",
           },
         ],
       },
       {
-        heading: "Answering: objecter, rétorquer, répliquer, souligner, faire valoir",
+        heading: "Invoquer",
         body: [
-          "In a discussion, \"objecter\" introduces a counter-argument (\"On m'objectera que le coût est élevé\": people will object that...). \"Répliquer\" is to reply, often quickly or firmly; \"rétorquer\" is to retort, to turn the argument back against the speaker, with more edge. \"Riposter\" is sharper still: to hit back. All three are perfect in narrative and in reports of debates: \"« C'est faux », a rétorqué la ministre.\"",
-          "\"Souligner\" (to underline, stress) and \"insister sur\" give weight: \"Le rapport souligne que les délais n'ont pas été tenus.\" \"Rappeler\" reminds what is already known: \"Elle a rappelé que la loi interdit ce type de clause.\" \"Faire valoir\" is the essential legal-and-business verb: to put forward an argument or assert a right: \"faire valoir ses droits\", \"Son avocat a fait valoir que le contrat était nul.\"",
-          "As you saw at the Advanced level, in a quotation these verbs come after the quote, with inversion: \"« Je n'ai rien à ajouter », a-t-il répliqué.\" \"« Encore faudrait-il le prouver », rétorqua l'avocate.\" The choice of verb carries the narrator's interpretation, so in a neutral report use \"a déclaré\", \"a indiqué\" or \"a précisé\".",
+          "\"Invoquer\" means to call on a reason, a principle or a text in your support: \"invoquer la force majeure\", \"invoquer l'article 1218\", \"invoquer son droit au silence\". In English 'invoke' is close, but French uses it far more, in every argument and every legal letter.",
         ],
         examples: [
-          { es: "On m'objectera que cette solution coûte cher.", en: "It will be objected that this solution is expensive." },
-          { es: "« C'est faux », a rétorqué la ministre.", en: "'That's false,' the minister retorted." },
-          { es: "« Je n'ai rien à ajouter », a-t-il répliqué sèchement.", en: "'I have nothing to add,' he replied curtly." },
-          { es: "Le rapport souligne que les délais n'ont pas été tenus.", en: "The report stresses that the deadlines were not met." },
-          { es: "Son avocat a fait valoir que le contrat était nul.", en: "His lawyer argued that the contract was void." },
-          { es: "Elle a tenu à rappeler que la loi interdit ce type de clause.", en: "She made a point of reminding everyone that the law prohibits this kind of clause." },
+          { es: "Le locataire invoque l'article 1719 du Code civil.", en: "The tenant relies on article 1719 of the Civil Code." },
+          { es: "Le salarié invoque son droit de retrait.", en: "The employee invokes his right to stop work." },
+          { es: "Elle a invoqué un motif familial pour justifier son absence.", en: "She cited a family reason to justify her absence." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "The defence lawyer argued that the evidence had been obtained illegally.",
-            answer: "L'avocat de la défense a fait valoir que les preuves avaient été obtenues illégalement.",
-            altAnswers: ["L'avocate de la défense a fait valoir que les preuves avaient été obtenues illégalement.", "L'avocat de la défense a fait valoir que les preuves avaient été obtenues de manière illégale.", "L'avocat de la défense a soutenu que les preuves avaient été obtenues illégalement.", "L'avocat de la défense a fait valoir que les preuves avaient été obtenues de façon illégale.", "L'avocat de la défense a argué que les preuves avaient été obtenues illégalement.", "L'avocate de la défense a soutenu que les preuves avaient été obtenues illégalement."],
-            explanation: "\"Faire valoir que\" (or \"soutenir que\", \"arguer que\") is the precise verb for advancing a legal argument. Avoid \"argumenter\", which means to reason at length, not to argue that.",
+            source: "The company cited a computer failure to explain the delay.",
+            answer: "L'entreprise a invoqué une panne informatique pour expliquer le retard.",
+            altAnswers: ["L'entreprise a allégué une panne informatique pour expliquer le retard.", "La société a invoqué une panne informatique pour expliquer le retard.", "La société a allégué une panne informatique pour expliquer le retard.", "L'entreprise a invoqué une panne informatique pour justifier le retard."],
+            explanation: "\"Invoquer\" or \"alléguer\" a reason: \"alléguer\" suggests it's an unproven excuse.",
+          },
+        ],
+      },
+      {
+        heading: "Objecter, répliquer, rétorquer, riposter",
+        body: [
+          "In a discussion, \"objecter\" introduces a counter-argument (\"On m'objectera que le coût est élevé\": people will object that...). \"Répliquer\" is to reply, often quickly or firmly; \"rétorquer\" is to retort, to turn the argument back against the speaker, with more edge. \"Riposter\" is sharper still: to hit back. All three are perfect in narrative and in reports of debates: \"« C'est faux », a rétorqué la ministre.\"",
+        ],
+        examples: [
+          { es: "On m'objectera que cette solution coûte cher.", en: "It will be objected that this solution is expensive." },
+          { es: "« C'est faux », a rétorqué la ministre.", en: "'That's false,' the minister retorted." },
+          { es: "« Je n'ai rien à ajouter », a-t-il répliqué sèchement.", en: "'I have nothing to add,' he replied curtly." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which verb best reports a speaker turning an argument sharply back on his opponent?",
+            options: ["rétorquer", "marmonner", "rappeler", "affirmer"],
+            correctIndex: 0,
+            explanation: "\"Rétorquer\" = to retort; \"marmonner\" = mumble, \"rappeler\" = remind, \"affirmer\" = state firmly.",
           },
           {
             type: "fill-blank",
@@ -2584,21 +3783,73 @@ export const FR_C2_U02: Lesson[] = [
         ],
       },
       {
-        heading: "How it is said: insinuer, marmonner, lâcher, asséner",
+        heading: "Souligner, rappeler, faire valoir",
+        body: [
+          "\"Souligner\" (to underline, stress) and \"insister sur\" give weight: \"Le rapport souligne que les délais n'ont pas été tenus.\" \"Rappeler\" reminds what is already known: \"Elle a rappelé que la loi interdit ce type de clause.\" \"Faire valoir\" is the essential legal-and-business verb: to put forward an argument or assert a right: \"faire valoir ses droits\", \"Son avocat a fait valoir que le contrat était nul.\"",
+        ],
+        examples: [
+          { es: "Le rapport souligne que les délais n'ont pas été tenus.", en: "The report stresses that the deadlines were not met." },
+          { es: "Son avocat a fait valoir que le contrat était nul.", en: "His lawyer argued that the contract was void." },
+          { es: "Elle a tenu à rappeler que la loi interdit ce type de clause.", en: "She made a point of reminding everyone that the law prohibits this kind of clause." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which verb reports that a speaker reminded people of something already known?",
+            options: ["rappeler", "souligner", "faire valoir", "objecter"],
+            correctIndex: 0,
+            explanation: "\"Rappeler\" recalls what is already known (\"elle a rappelé que la loi interdit...\"). \"Souligner\" stresses, \"faire valoir\" asserts an argument or a right, \"objecter\" raises a counter-argument.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The defence lawyer argued that the evidence had been obtained illegally.",
+            answer: "L'avocat de la défense a fait valoir que les preuves avaient été obtenues illégalement.",
+            altAnswers: ["L'avocate de la défense a fait valoir que les preuves avaient été obtenues illégalement.", "L'avocat de la défense a fait valoir que les preuves avaient été obtenues de manière illégale.", "L'avocat de la défense a soutenu que les preuves avaient été obtenues illégalement.", "L'avocat de la défense a fait valoir que les preuves avaient été obtenues de façon illégale.", "L'avocat de la défense a argué que les preuves avaient été obtenues illégalement.", "L'avocate de la défense a soutenu que les preuves avaient été obtenues illégalement."],
+            explanation: "\"Faire valoir que\" (or \"soutenir que\", \"arguer que\") is the precise verb for advancing a legal argument. Avoid \"argumenter\", which means to reason at length, not to argue that.",
+          },
+        ],
+      },
+      {
+        heading: "In quotations: inversion, and neutral verbs",
+        body: [
+          "As you saw at the Advanced level, in a quotation these verbs come after the quote, with inversion: \"« Je n'ai rien à ajouter », a-t-il répliqué.\" \"« Encore faudrait-il le prouver », rétorqua l'avocate.\" The choice of verb carries the narrator's interpretation, so in a neutral report use \"a déclaré\", \"a indiqué\" or \"a précisé\".",
+        ],
+        examples: [
+          { es: "« Nous verrons », a-t-elle répondu.", en: "'We'll see,' she answered." },
+          { es: "« Le dossier est complet », a indiqué le porte-parole.", en: "'The file is complete,' the spokesman said." },
+          { es: "« La séance est levée », a déclaré le président.", en: "'The meeting is closed,' the chairman declared." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "« C'est inacceptable », il a rétorqué.",
+            answer: "« C'est inacceptable », a-t-il rétorqué.",
+            explanation: "After a quotation the reporting verb comes first, with inversion: \"a-t-il rétorqué\", with \"-t-\" between the two vowels.",
+          },
+        ],
+      },
+      {
+        heading: "Insinuer, marmonner, bredouiller",
         body: [
           "Some verbs paint the manner. \"Insinuer\" is to hint at something unpleasant without saying it: \"Qu'est-ce que tu insinues ?\" (what are you implying?). \"Sous-entendre\" is the neutral to imply. \"Marmonner\" and \"marmotter\" are to mumble, \"murmurer\" to murmur, \"chuchoter\" to whisper. \"Bredouiller\" is to stammer out an excuse: \"Il a bredouillé quelques excuses.\"",
-          "\"Lâcher\" (to let go) also means to let slip a word, often abruptly or reluctantly: \"« Bon, d'accord », a-t-il lâché.\" \"Lâcher une information\" = to let it out. \"Asséner\" (or \"assener\") is to deliver a blow, and figuratively to hammer home a statement: \"asséner des vérités\", \"asséner des chiffres\". \"S'exclamer\", \"s'écrier\" are to exclaim, cry out.",
-          "Used well, these verbs replace whole adverbial phrases. Instead of \"il a dit à voix basse et sans conviction\", write \"il a marmonné\"; instead of \"elle a dit brutalement\", write \"elle a asséné\". But choose one per sentence: stacking them is a typical over-written learner text.",
         ],
         examples: [
           { es: "Qu'est-ce que tu insinues, exactement ?", en: "What exactly are you implying?" },
           { es: "Il a marmonné une vague excuse avant de partir.", en: "He mumbled a vague excuse before leaving." },
-          { es: "« Bon, d'accord », a-t-elle lâché après un long silence.", en: "'All right, fine,' she said at last after a long silence." },
-          { es: "Le ministre a asséné des chiffres impressionnants.", en: "The minister hammered home some impressive figures." },
           { es: "L'enfant a bredouillé qu'il n'avait rien fait.", en: "The child stammered that he hadn't done anything." },
-          { es: "« Enfin ! » s'est-elle écriée.", en: "'At last!' she cried." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A shy pupil, caught out, stammers an excuse. Which verb fits?",
+            options: ["bredouiller", "asséner", "riposter", "s'écrier"],
+            correctIndex: 0,
+            explanation: "\"Bredouiller\" is to stammer out an excuse. \"Asséner\" hammers a statement home, \"riposter\" hits back, \"s'écrier\" cries out: all far too forceful here.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2608,6 +3859,19 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["Vous insinuez que j'ai menti ?", "Insinuez-vous que j'ai menti ?", "Insinues-tu que j'ai menti ?", "Est-ce que tu insinues que j'ai menti ?", "Est-ce que vous insinuez que j'ai menti ?", "Tu sous-entends que j'ai menti ?", "Vous sous-entendez que j'ai menti ?"],
             explanation: "\"Insinuer\" for an unpleasant hint; \"sous-entendre\" is more neutral. \"Insinuer que\" + indicative.",
           },
+        ],
+      },
+      {
+        heading: "Lâcher, asséner, s'écrier",
+        body: [
+          "\"Lâcher\" (to let go) also means to let slip a word, often abruptly or reluctantly: \"« Bon, d'accord », a-t-il lâché.\" \"Lâcher une information\" = to let it out. \"Asséner\" (or \"assener\") is to deliver a blow, and figuratively to hammer home a statement: \"asséner des vérités\", \"asséner des chiffres\". \"S'exclamer\", \"s'écrier\" are to exclaim, cry out.",
+        ],
+        examples: [
+          { es: "« Bon, d'accord », a-t-elle lâché après un long silence.", en: "'All right, fine,' she said at last after a long silence." },
+          { es: "Le ministre a asséné des chiffres impressionnants.", en: "The minister hammered home some impressive figures." },
+          { es: "« Enfin ! » s'est-elle écriée.", en: "'At last!' she cried." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "« Je m'en fiche », a-t-il lâché.",
@@ -2616,6 +3880,36 @@ export const FR_C2_U02: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Lâcher\" a word = to let it slip, abruptly or reluctantly. \"Je m'en fiche\" is colloquial: I don't care.",
           },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "'Fine, I'll go,' he [let out] after a long silence.",
+            sentence: "« Bon, j'y vais », a-t-il ___ après un long silence.",
+            answer: "lâché",
+            explanation: "\"Lâcher\" a word: to let it slip, abruptly or reluctantly.",
+          },
+        ],
+      },
+      {
+        heading: "One precise verb instead of a phrase",
+        body: [
+          "Used well, these verbs replace whole adverbial phrases. Instead of \"il a dit à voix basse et sans conviction\", write \"il a marmonné\"; instead of \"elle a dit brutalement\", write \"elle a asséné\". But choose one per sentence: stacking them is a typical over-written learner text.",
+        ],
+        examples: [
+          { es: "Il a marmonné une réponse.", en: "He mumbled an answer." },
+          { es: "Elle a chuchoté quelques mots à l'oreille de sa voisine.", en: "She whispered a few words in her neighbour's ear." },
+          { es: "« Sortez ! » s'est écrié le directeur.", en: "'Get out!' cried the head teacher." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into one precise verb instead of « a dit à voix basse et sans conviction ».",
+            source: "Il a dit à voix basse et sans conviction qu'il viendrait.",
+            answer: "Il a marmonné qu'il viendrait.",
+            altAnswers: ["Il a marmotté qu'il viendrait."],
+            explanation: "\"Marmonner\" (to mumble) says \"à voix basse et sans conviction\" in one word; that is the point of precise verbs.",
+          },
         ],
       },
     ],
@@ -2623,29 +3917,11 @@ export const FR_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "She claims she was never informed.",
+        prompt: "Correct the sentence. (She claims it; she isn't pretending.)",
+        source: "Elle fait semblant de n'avoir jamais été informée.",
         answer: "Elle prétend n'avoir jamais été informée.",
         altAnswers: ["Elle prétend qu'elle n'a jamais été informée.", "Elle prétend ne jamais avoir été informée.", "Elle affirme n'avoir jamais été informée.", "Elle affirme qu'elle n'a jamais été informée."],
-        explanation: "\"Prétendre\" + past infinitive: claim, with doubt. \"Affirmer\" if you report it neutrally.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The company cited a computer failure to explain the delay.",
-        answer: "L'entreprise a invoqué une panne informatique pour expliquer le retard.",
-        altAnswers: ["L'entreprise a allégué une panne informatique pour expliquer le retard.", "La société a invoqué une panne informatique pour expliquer le retard.", "La société a allégué une panne informatique pour expliquer le retard.", "L'entreprise a invoqué une panne informatique pour justifier le retard."],
-        explanation: "\"Invoquer\" or \"alléguer\" a reason: \"alléguer\" suggests it's an unproven excuse.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "He [pleaded] his young age to obtain leniency.",
-        sentence: "Il a ___ son jeune âge pour obtenir l'indulgence du tribunal.",
-        answer: "argué de",
-        altAnswers: ["argüé de", "invoqué"],
-        explanation: "\"Arguer de\" + noun (with the u pronounced: ar-gu-é); \"invoquer\" is a direct alternative.",
+        explanation: "To claim is \"prétendre\": \"elle prétend n'avoir jamais été informée\". \"Faire semblant\" means to pretend, to act as if.",
       },
       {
         type: "translate",
@@ -2655,13 +3931,6 @@ export const FR_C2_U02: Lesson[] = [
         answer: "Le rapport souligne que les règles n'ont pas été respectées.",
         altAnswers: ["Le rapport souligne que les règles n'ont pas été appliquées.", "Le rapport insiste sur le fait que les règles n'ont pas été respectées.", "Le rapport met en évidence que les règles n'ont pas été respectées."],
         explanation: "\"Souligner que\" + indicative: to stress a fact.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which verb best reports a speaker turning an argument sharply back on his opponent?",
-        options: ["rétorquer", "marmonner", "rappeler", "affirmer"],
-        correctIndex: 0,
-        explanation: "\"Rétorquer\" = to retort; \"marmonner\" = mumble, \"rappeler\" = remind, \"affirmer\" = state firmly.",
       },
       {
         type: "translate",
@@ -2704,8 +3973,8 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Son avocat a fait valoir que le délai n'avait pas commencé à courir.",
         prompt: "Say it in French: His lawyer argued that the deadline had not started to run.",
+        text: "Son avocat a fait valoir que le délai n'avait pas commencé à courir.",
         explanation: "\"Faire valoir que\" + pluperfect for the earlier state of affairs.",
       },
       {
@@ -2725,24 +3994,26 @@ export const FR_C2_U02: Lesson[] = [
     number: 13,
     title: "Vocabulary in Context: Replacing All-Purpose Verbs",
     summary: "Raise the register by replacing faire, mettre, avoir, dire and donner: commettre une erreur, instaurer un dispositif, jouer un rôle, disposer de, apporter une réponse, formuler une demande, émettre un avis.",
-    duration: "17 min",
+    duration: "18 min",
     sections: [
       {
-        heading: "Mettre: instaurer, instituer, déployer, consacrer",
+        heading: "Instead of mettre en place: instaurer, instituer, déployer",
         body: [
           "\"Mettre en place\" is the bureaucratic workhorse: it is correct, but used three times in a page it makes a text flat. Replace it according to what is being put in place. A rule, a system or a tax is \"instauré\" (\"instaurer un couvre-feu\", \"instaurer un dialogue\"); an institution or a prize is \"institué\" (\"la loi institue un médiateur\"); means, staff or a network are \"déployés\" (\"déployer des moyens\", \"déployer la fibre\"); a procedure is \"engagée\" (\"engager une procédure\"). And to set something up for a specific person, \"aménager\" (\"aménager les horaires d'un salarié\").",
-          "Other uses of \"mettre\": \"mettre du temps / de l'argent dans\" → \"consacrer du temps à\", \"investir\"; \"mettre sa signature\" → \"apposer sa signature\"; \"mettre fin à\" is fine and formal; \"mettre en œuvre\" (implement) is the formal partner of \"mettre en place\" and should be kept, as it is precise: one \"met en œuvre une réforme\", one \"met en place un groupe de travail\".",
-          "Each of these verbs brings its own collocations and grammar: \"consacrer du temps à quelque chose\" (à + noun), \"instaurer un climat de confiance\", \"apposer sa signature au bas du document\". Learn them in blocks, as you did with legal collocations.",
         ],
         examples: [
           { es: "Le maire a instauré un couvre-feu pour les mineurs.", en: "The mayor introduced a curfew for minors." },
           { es: "La loi institue un médiateur national de l'énergie.", en: "The law establishes a national energy ombudsman." },
           { es: "L'opérateur a déployé la fibre dans tout le département.", en: "The operator rolled out fibre across the whole county." },
-          { es: "Elle consacre deux heures par jour à ses recherches.", en: "She devotes two hours a day to her research." },
-          { es: "Veuillez apposer votre signature au bas du document.", en: "Please sign at the bottom of the document." },
-          { es: "Le gouvernement peine à mettre en œuvre la réforme.", en: "The government is struggling to implement the reform." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which verb fits: \"La loi ___ une nouvelle autorité de contrôle.\" (creates as an institution)",
+            options: ["institue", "possède", "dispose", "apporte"],
+            correctIndex: 0,
+            explanation: "\"Instituer\" = to establish an institution; \"instaurer\" would fit a rule or a regime.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2752,6 +4023,19 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["La société a instauré un dispositif de télétravail.", "L'entreprise a instauré le télétravail.", "L'entreprise a instauré un système de télétravail.", "La société a instauré le télétravail."],
             explanation: "A system or rule is \"instauré\"; \"un dispositif\" is the administrative word for a scheme.",
           },
+        ],
+      },
+      {
+        heading: "Other mettre: consacrer, apposer, mettre en œuvre",
+        body: [
+          "Other uses of \"mettre\": \"mettre du temps / de l'argent dans\" → \"consacrer du temps à\", \"investir\"; \"mettre sa signature\" → \"apposer sa signature\"; \"mettre fin à\" is fine and formal; \"mettre en œuvre\" (implement) is the formal partner of \"mettre en place\" and should be kept, as it is precise: one \"met en œuvre une réforme\", one \"met en place un groupe de travail\".",
+        ],
+        examples: [
+          { es: "Elle consacre deux heures par jour à ses recherches.", en: "She devotes two hours a day to her research." },
+          { es: "Veuillez apposer votre signature au bas du document.", en: "Please sign at the bottom of the document." },
+          { es: "Le gouvernement peine à mettre en œuvre la réforme.", en: "The government is struggling to implement the reform." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -2760,22 +4044,46 @@ export const FR_C2_U02: Lesson[] = [
             answer: "consacre",
             explanation: "\"Consacrer du temps à\" replaces \"mettre du temps dans\".",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il consacre ses soirées pour la musique.",
+            answer: "Il consacre ses soirées à la musique.",
+            explanation: "\"Consacrer\" takes \"à\": one \"consacre du temps à quelque chose\", never \"pour\".",
+          },
         ],
       },
       {
-        heading: "Avoir: disposer de, bénéficier de, jouer un rôle, présenter",
+        heading: "Learn them in blocks",
+        body: [
+          "Each of these verbs brings its own collocations and grammar: \"consacrer du temps à quelque chose\" (à + noun), \"instaurer un climat de confiance\", \"apposer sa signature au bas du document\". Learn them in blocks, as you did with legal collocations.",
+        ],
+        examples: [
+          { es: "La direction souhaite instaurer un climat de confiance.", en: "Management wants to create a climate of trust." },
+          { es: "Il a apposé sa signature au bas du contrat.", en: "He signed at the bottom of the contract." },
+          { es: "Nous consacrons ce numéro à l'histoire du quartier.", en: "We are devoting this issue to the history of the neighbourhood." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Complete: Il faut ___ un climat de confiance entre les équipes.",
+            options: ["instaurer", "apposer", "consacrer", "déployer"],
+            correctIndex: 0,
+            explanation: "\"Instaurer un climat de confiance\" is the set block. One \"appose\" a signature, \"consacre\" time to something, and \"déploie\" means or staff.",
+          },
+        ],
+      },
+      {
+        heading: "Instead of avoir: disposer de, bénéficier de, jouer, occuper",
         body: [
           "\"Avoir\" is hard to avoid and should not always be avoided, but in formal writing many of its uses have better partners. \"Avoir des moyens, du temps, d'un délai\" → \"disposer de\": \"vous disposez de quinze jours\". \"Avoir une aide, un avantage\" → \"bénéficier de\": \"les étudiants bénéficient d'une réduction\". \"Avoir un rôle\" → \"jouer un rôle\" (\"jouer un rôle clé\") or \"tenir un rôle\" (in a play, a function); \"avoir un poste\" → \"occuper un poste\".",
-          "\"Avoir des risques, des avantages, des difficultés\" (of a thing) → \"présenter\": \"ce projet présente plusieurs risques\". \"Avoir des pièces, des clauses, des chapitres\" → \"comporter\" or \"compter\": \"le contrat comporte douze articles\", \"la ville compte 40 000 habitants\". \"Avoir lieu\" stays: it is the precise verb for events.",
-          "Be careful with \"posséder\": it means to own (\"posséder une maison\") or to master (\"posséder parfaitement l'anglais\"), not simply to have. \"Il possède un rôle\" or \"je possède une question\" are learner errors.",
         ],
         examples: [
           { es: "Vous disposez d'un délai de quinze jours pour répondre.", en: "You have fifteen days to reply." },
           { es: "Les demandeurs d'emploi bénéficient d'un tarif réduit.", en: "Job seekers are entitled to a reduced rate." },
           { es: "Les associations jouent un rôle essentiel dans le quartier.", en: "Associations play an essential role in the neighbourhood." },
           { es: "Elle occupe le poste de directrice financière depuis 2022.", en: "She has held the post of finance director since 2022." },
-          { es: "Ce projet présente plusieurs risques juridiques.", en: "This project carries several legal risks." },
-          { es: "Le règlement comporte douze articles.", en: "The rules contain twelve articles." },
         ],
         checkpoint: [
           {
@@ -2788,32 +4096,77 @@ export const FR_C2_U02: Lesson[] = [
             explanation: "\"Bénéficier de\" + an advantage replaces \"avoir\" in formal French.",
           },
           {
-            type: "multiple-choice",
-            question: "Which sentence is natural in a formal report?",
-            options: [
-              "Cette solution présente deux inconvénients majeurs.",
-              "Cette solution possède deux inconvénients majeurs.",
-              "Cette solution dispose de deux inconvénients majeurs.",
-              "Cette solution bénéficie de deux inconvénients majeurs.",
-            ],
-            correctIndex: 0,
-            explanation: "A thing \"présente\" advantages or drawbacks. \"Disposer de\" and \"bénéficier de\" suggest something positive that one can use.",
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Volunteers [play] a key role in the festival.",
+            sentence: "Les bénévoles ___ un rôle clé dans le festival.",
+            answer: "jouent",
+            altAnswers: ["tiennent"],
+            explanation: "\"Jouer un rôle\" (not \"avoir un rôle\" in careful writing).",
           },
         ],
       },
       {
-        heading: "Dire and donner: apporter, fournir, formuler, émettre, exprimer",
+        heading: "Présenter, comporter, compter",
+        body: [
+          "\"Avoir des risques, des avantages, des difficultés\" (of a thing) → \"présenter\": \"ce projet présente plusieurs risques\". \"Avoir des pièces, des clauses, des chapitres\" → \"comporter\" or \"compter\": \"le contrat comporte douze articles\", \"la ville compte 40 000 habitants\". \"Avoir lieu\" stays: it is the precise verb for events.",
+        ],
+        examples: [
+          { es: "Ce projet présente plusieurs risques juridiques.", en: "This project carries several legal risks." },
+          { es: "Le règlement comporte douze articles.", en: "The rules contain twelve articles." },
+          { es: "La commune compte 12 000 habitants.", en: "The town has 12,000 inhabitants." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is natural in a formal report?",
+            options: ["Cette solution présente deux inconvénients majeurs.", "Cette solution possède deux inconvénients majeurs.", "Cette solution dispose de deux inconvénients majeurs.", "Cette solution bénéficie de deux inconvénients majeurs."],
+            correctIndex: 0,
+            explanation: "A thing \"présente\" advantages or drawbacks. \"Disposer de\" and \"bénéficier de\" suggest something positive that one can use.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into formal French, without avoir.",
+            source: "The contract contains a confidentiality clause.",
+            answer: "Le contrat comporte une clause de confidentialité.",
+            altAnswers: ["Le contrat contient une clause de confidentialité.", "Le contrat comprend une clause de confidentialité.", "Le contrat inclut une clause de confidentialité."],
+            explanation: "\"Comporter\" (to include, contain) for the parts of a document.",
+          },
+        ],
+      },
+      {
+        heading: "Posséder means to own or to master",
+        body: [
+          "Be careful with \"posséder\": it means to own (\"posséder une maison\") or to master (\"posséder parfaitement l'anglais\"), not simply to have. \"Il possède un rôle\" or \"je possède une question\" are learner errors.",
+        ],
+        examples: [
+          { es: "Il possède une maison en Bretagne.", en: "He owns a house in Brittany." },
+          { es: "Elle possède parfaitement l'allemand.", en: "She has a perfect command of German." },
+          { es: "Le festival a lieu chaque année en juillet.", en: "The festival takes place every year in July." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Elle possède un rôle important dans l'entreprise.",
+            answer: "Elle joue un rôle important dans l'entreprise.",
+            altAnswers: ["Elle tient un rôle important dans l'entreprise."],
+            explanation: "\"Posséder\" means to own or to master; a role is \"joué\" (or \"tenu\"): \"jouer un rôle important\".",
+          },
+        ],
+      },
+      {
+        heading: "Instead of donner and dire: apporter, fournir, émettre, formuler",
         body: [
           "\"Donner une réponse\" → \"apporter une réponse\" (\"apporter une solution, des précisions, une modification\"). \"Donner des documents, des informations\" → \"fournir\" (\"fournir les pièces justificatives\"). \"Donner une autorisation, un délai\" → \"accorder\". \"Donner son avis\" → \"émettre un avis\" (\"la commission a émis un avis favorable\"). \"Dire son accord\" → \"donner son accord\" is fine, but \"exprimer\" or \"manifester son accord / son désaccord\" is more formal. \"Dire une demande\" (wrong) → \"formuler une demande\".",
-          "Now see them in context. A first draft of a report: \"Le comité a fait une erreur en mettant en place ce système sans avoir l'accord des salariés. Les syndicats ont dit leur désaccord et ont donné une autre proposition. La direction doit maintenant donner une réponse et mettre plus de moyens.\" The revised version: \"Le comité a commis une erreur en instaurant ce dispositif sans avoir recueilli l'accord des salariés. Les syndicats ont exprimé leur désaccord et formulé une contre-proposition. Il appartient désormais à la direction d'apporter une réponse et de déployer des moyens supplémentaires.\"",
-          "The revised text is not longer, but every verb now carries meaning: \"commettre\" (a fault), \"instaurer\" (a system), \"recueillir\" (gather consent), \"exprimer\" (an attitude), \"formuler\" (a proposal), \"apporter\" (an answer), \"déployer\" (resources). This is the single fastest way to make your writing sound like Mastery-level French.",
         ],
         examples: [
           { es: "Le ministère n'a pas encore apporté de réponse.", en: "The ministry has not yet provided an answer." },
           { es: "Veuillez fournir une copie de votre pièce d'identité.", en: "Please provide a copy of your ID." },
           { es: "Le juge lui a accordé un délai de paiement.", en: "The judge granted him extra time to pay." },
           { es: "La commission a émis un avis favorable.", en: "The committee gave a favourable opinion." },
-          { es: "Les syndicats ont exprimé leur désaccord.", en: "The unions expressed their disagreement." },
           { es: "Les habitants ont formulé plusieurs demandes auprès de la mairie.", en: "The residents submitted several requests to the town hall." },
         ],
         checkpoint: [
@@ -2835,18 +4188,56 @@ export const FR_C2_U02: Lesson[] = [
             altAnswers: ["fournir"],
             explanation: "\"Apporter une réponse / une solution / des précisions\": the formal partner of \"donner\".",
           },
+        ],
+      },
+      {
+        heading: "A report, before and after",
+        body: [
+          "Now see them in context. A first draft of a report: \"Le comité a fait une erreur en mettant en place ce système sans avoir l'accord des salariés. Les syndicats ont dit leur désaccord et ont donné une autre proposition. La direction doit maintenant donner une réponse et mettre plus de moyens.\" The revised version: \"Le comité a commis une erreur en instaurant ce dispositif sans avoir recueilli l'accord des salariés. Les syndicats ont exprimé leur désaccord et formulé une contre-proposition. Il appartient désormais à la direction d'apporter une réponse et de déployer des moyens supplémentaires.\"",
+        ],
+        examples: [
+          { es: "Les syndicats ont exprimé leur désaccord.", en: "The unions expressed their disagreement." },
+          { es: "Il appartient désormais à la direction de trancher.", en: "It is now up to management to decide." },
+          { es: "Les syndicats ont recueilli l'accord des salariés.", en: "The unions obtained the employees' consent." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Le juge a accordé au locataire un délai de six mois.",
             question: "What does it mean?",
-            options: [
-              "The judge granted the tenant six months' extra time.",
-              "The judge agreed with the tenant for six months.",
-              "The judge ordered the tenant to leave within six months.",
-              "The judge tuned the tenant's six-month lease.",
-            ],
+            options: ["The judge granted the tenant six months' extra time.", "The judge agreed with the tenant for six months.", "The judge ordered the tenant to leave within six months.", "The judge tuned the tenant's six-month lease."],
             correctIndex: 0,
             explanation: "\"Accorder un délai\" = to grant extra time. (\"Accorder\" also means to tune an instrument, but not here.)",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite in formal French: \"Les syndicats ont donné une autre proposition.\"",
+            source: "The unions put forward a counter-proposal.",
+            answer: "Les syndicats ont formulé une contre-proposition.",
+            altAnswers: ["Les syndicats ont présenté une contre-proposition.", "Les syndicats ont avancé une contre-proposition.", "Les syndicats ont soumis une contre-proposition."],
+            explanation: "\"Formuler\" (or \"présenter\", \"soumettre\") a proposal, not \"donner\".",
+          },
+        ],
+      },
+      {
+        heading: "Every verb carries meaning",
+        body: [
+          "The revised text is not longer, but every verb now carries meaning: \"commettre\" (a fault), \"instaurer\" (a system), \"recueillir\" (gather consent), \"exprimer\" (an attitude), \"formuler\" (a proposal), \"apporter\" (an answer), \"déployer\" (resources). This is the single fastest way to make your writing sound like Mastery-level French.",
+        ],
+        examples: [
+          { es: "Le maire a instauré un nouveau dispositif d'aide.", en: "The mayor introduced a new support scheme." },
+          { es: "La région a déployé des moyens supplémentaires.", en: "The region deployed extra resources." },
+          { es: "Le conseil a formulé une proposition alternative.", en: "The council put forward an alternative proposal." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it in formal French, without « mettre ».",
+            source: "Le gouvernement a mis en place une nouvelle taxe.",
+            answer: "Le gouvernement a instauré une nouvelle taxe.",
+            explanation: "A rule, a system or a tax is \"instauré\": the precise verb replaces the all-purpose \"mettre en place\".",
           },
         ],
       },
@@ -2871,24 +4262,6 @@ export const FR_C2_U02: Lesson[] = [
         explanation: "\"Instaurer un dialogue / un climat de confiance\".",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "Volunteers [play] a key role in the festival.",
-        sentence: "Les bénévoles ___ un rôle clé dans le festival.",
-        answer: "jouent",
-        altAnswers: ["tiennent"],
-        explanation: "\"Jouer un rôle\" (not \"avoir un rôle\" in careful writing).",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into formal French, without avoir.",
-        source: "The contract contains a confidentiality clause.",
-        answer: "Le contrat comporte une clause de confidentialité.",
-        altAnswers: ["Le contrat contient une clause de confidentialité.", "Le contrat comprend une clause de confidentialité.", "Le contrat inclut une clause de confidentialité."],
-        explanation: "\"Comporter\" (to include, contain) for the parts of a document.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal French, without donner.",
@@ -2896,13 +4269,6 @@ export const FR_C2_U02: Lesson[] = [
         answer: "Veuillez fournir les pièces justificatives avant vendredi.",
         altAnswers: ["Merci de fournir les pièces justificatives avant vendredi.", "Veuillez nous fournir les pièces justificatives avant vendredi.", "Veuillez fournir les justificatifs avant vendredi.", "Vous voudrez bien fournir les pièces justificatives avant vendredi."],
         explanation: "\"Fournir des documents / des informations\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which verb fits: \"La loi ___ une nouvelle autorité de contrôle.\" (creates as an institution)",
-        options: ["institue", "possède", "dispose", "apporte"],
-        correctIndex: 0,
-        explanation: "\"Instituer\" = to establish an institution; \"instaurer\" would fit a rule or a regime.",
       },
       {
         type: "translate",
@@ -2936,18 +4302,9 @@ export const FR_C2_U02: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Il appartient désormais à la direction d'apporter une réponse.",
         prompt: "Say it in French: It is now up to management to provide an answer.",
+        text: "Il appartient désormais à la direction d'apporter une réponse.",
         explanation: "\"Il appartient à... de\" + \"apporter une réponse\": two formal turns in one sentence.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Rewrite in formal French: \"Les syndicats ont donné une autre proposition.\"",
-        source: "The unions put forward a counter-proposal.",
-        answer: "Les syndicats ont formulé une contre-proposition.",
-        altAnswers: ["Les syndicats ont présenté une contre-proposition.", "Les syndicats ont avancé une contre-proposition.", "Les syndicats ont soumis une contre-proposition."],
-        explanation: "\"Formuler\" (or \"présenter\", \"soumettre\") a proposal, not \"donner\".",
       },
     ],
   },

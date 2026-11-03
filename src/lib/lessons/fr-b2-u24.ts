@@ -28,18 +28,13 @@ export const FR_B2_U24: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Units 21-22: traditions, villages and the press",
+        heading: "Units 21-22: villages and inheritance",
         body: [
-          "Rural life: \"la transhumance\", \"un troupeau\", \"les alpages\", \"un berger\", \"un éleveur\"; the coast: \"un port de pêche\", \"un chalutier\", \"les filets\", \"la criée\", \"une conserverie\", \"se vider\", \"se dépeupler\".",
-          "Journalism: \"une source\", \"une fuite\", \"un lanceur d'alerte\", \"une enquête\", \"la rédaction\", \"démentir\", \"prétendre\" (to claim: not to pretend). Heritage and family: \"un héritage\", \"hériter de\", \"le notaire\", \"le testament\", \"la succession\", \"se brouiller\", \"une valeur sentimentale\".",
-          "Gender checks that often catch learners: \"le patrimoine\", \"la rédaction\", \"le témoignage\", \"la fuite\", \"le moulin\", \"la récolte\".",
+          "Rural life: \"la transhumance\", \"un troupeau\", \"les alpages\", \"un éleveur\". The coast: \"un port de pêche\", \"un chalutier\", \"la criée\", \"une conserverie\", \"se dépeupler\". Inheritance: \"un héritage\", \"hériter de\" (always with \"de\"), \"le notaire\", \"la succession\", \"se brouiller\", \"une valeur sentimentale\".",
         ],
         examples: [
           { es: "Les troupeaux montent aux alpages en juin.", en: "The flocks go up to the summer pastures in June." },
           { es: "Le village s'est dépeuplé depuis la fermeture de la conserverie.", en: "The village has lost its population since the cannery closed." },
-          { es: "Le journal a refusé de révéler sa source.", en: "The newspaper refused to reveal its source." },
-          { es: "Le ministre a démenti l'information.", en: "The minister denied the report." },
-          { es: "Nous avons hérité d'une vieille maison en Bretagne.", en: "We inherited an old house in Brittany." },
           { es: "Ce buffet a surtout une valeur sentimentale.", en: "This sideboard mainly has sentimental value." },
         ],
         checkpoint: [
@@ -47,13 +42,42 @@ export const FR_B2_U24: Lesson[] = [
             type: "matching",
             instructions: "Match the French to the English.",
             pairs: [
-              { left: "une fuite", right: "a leak" },
-              { left: "démentir", right: "to deny officially" },
+              { left: "un troupeau", right: "a flock" },
               { left: "un chalutier", right: "a trawler" },
               { left: "la succession", right: "the estate" },
               { left: "se dépeupler", right: "to lose its population" },
+              { left: "se brouiller", right: "to fall out" },
             ],
             explanation: "Vocabulary from Units 21-22.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Nous avons hérité une vieille ferme.",
+            answer: "Nous avons hérité d'une vieille ferme.",
+            explanation: "\"Hériter\" takes \"de\" before the thing inherited: \"hériter d'une ferme\".",
+          },
+        ],
+      },
+      {
+        heading: "Unit 22: the press",
+        body: [
+          "Journalism: \"une source\", \"une fuite\" (a leak), \"un lanceur d'alerte\" (whistle-blower), \"une enquête\", \"la rédaction\" (the newsroom), \"démentir\" (to deny officially), \"prétendre\" (to claim: not to pretend, which is \"faire semblant\"). Watch the genders: \"la rédaction\", \"le témoignage\", \"la fuite\".",
+        ],
+        examples: [
+          { es: "Le journal a refusé de révéler sa source.", en: "The newspaper refused to reveal its source." },
+          { es: "Le ministre a démenti l'information.", en: "The minister denied the report." },
+          { es: "Il prétend être écrivain.", en: "He claims to be a writer." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The spokeswoman [denied] the rumour.",
+            sentence: "La porte-parole a ___ la rumeur.",
+            answer: "démenti",
+            explanation: "\"Démentir\" = to deny officially; past participle \"démenti\".",
           },
           {
             type: "translate",
@@ -67,21 +91,45 @@ export const FR_B2_U24: Lesson[] = [
         ],
       },
       {
-        heading: "Unit 23: land, interpreting, crafts, surveillance, memory",
+        heading: "Unit 23: land, interpreting and crafts",
         body: [
-          "Land: \"une oliveraie\", \"une parcelle\", \"la récolte\", \"cueillir\", \"assurer la relève\". Interpreting: \"un interprète\", \"un contresens\", \"la fidélité\", \"laisser entendre que\".",
-          "Crafts: \"un apprenti\", \"un maître d'apprentissage\", \"un ébéniste\", \"un devis\", \"restaurer\", \"abîmé\", \"d'époque\", \"en valoir la peine\". Surveillance: \"la vie privée\", \"les données personnelles\", \"la reconnaissance faciale\", \"porter atteinte à\", \"encadrer\".",
-          "Memory: \"la mémoire\" (faculty) vs \"un souvenir\" (a memory), \"un aidant\", \"perdre la mémoire\", \"reconnaître\".",
+          "Land: \"une oliveraie\", \"une parcelle\", \"la récolte\", \"assurer la relève\" (to take over). Interpreting: \"un contresens\" (a mistranslation), \"laisser entendre que\" (to hint). Crafts: \"un apprenti\", \"un ébéniste\", \"un devis\" (a quote), \"restaurer\", \"d'époque\" (period), \"en valoir la peine\" (to be worth it).",
         ],
         examples: [
           { es: "Personne ne veut assurer la relève à la ferme.", en: "Nobody wants to take over the farm." },
           { es: "Un seul contresens peut tout changer.", en: "A single mistranslation can change everything." },
-          { es: "L'ébéniste nous a fait un devis pour la table.", en: "The cabinetmaker gave us a quote for the table." },
-          { es: "Cette loi porte atteinte à la vie privée.", en: "This law infringes on privacy." },
-          { es: "C'est l'un de mes plus beaux souvenirs.", en: "It's one of my loveliest memories." },
-          { es: "Restaurer ce fauteuil coûte cher, mais ça en vaut la peine.", en: "Restoring this armchair is expensive, but it's worth it." },
+          { es: "L'ébéniste a restauré une commode d'époque.", en: "The cabinetmaker restored a period chest of drawers." },
         ],
         checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "It's expensive, but [it's worth it].",
+            sentence: "C'est cher, mais ___.",
+            answer: "ça en vaut la peine",
+            altAnswers: ["cela en vaut la peine"],
+            explanation: "\"En valoir la peine\": \"en\" stands for the effort or cost.",
+          },
+        ],
+      },
+      {
+        heading: "Unit 23: surveillance and memory",
+        body: [
+          "Surveillance: \"la vie privée\" (privacy), \"les données personnelles\" (feminine plural), \"la reconnaissance faciale\", \"porter atteinte à\" (to infringe on), \"encadrer\" (to regulate). Memory: \"la mémoire\" is the faculty, \"un souvenir\" is one thing you remember; \"un aidant\" is a carer.",
+        ],
+        examples: [
+          { es: "Cette loi porte atteinte à la vie privée.", en: "This law infringes on privacy." },
+          { es: "C'est l'un de mes plus beaux souvenirs.", en: "It's one of my loveliest memories." },
+          { es: "Il a une excellente mémoire des visages.", en: "He has an excellent memory for faces." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is correct for: I have a terrible memory?",
+            options: ["J'ai une mémoire terrible.", "J'ai un souvenir terrible.", "J'ai une terrible souvenance.", "Je me souviens terrible."],
+            correctIndex: 0,
+            explanation: "The faculty is \"la mémoire\". \"Un souvenir\" is tempting, but it means one remembered event. (\"Une très mauvaise mémoire\" is more idiomatic still.)",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -90,27 +138,16 @@ export const FR_B2_U24: Lesson[] = [
             answer: "Nos données personnelles doivent être protégées.",
             explanation: "\"Les données\" is feminine plural: \"protégées\".",
           },
-          {
-            type: "multiple-choice",
-            question: "Which is correct for: I have a terrible memory?",
-            options: ["J'ai une mémoire terrible.", "J'ai un souvenir terrible.", "J'ai une terrible souvenance.", "Je me souviens terrible."],
-            correctIndex: 0,
-            explanation: "The faculty is \"la mémoire\"; \"un souvenir\" is one remembered event. (\"Une très mauvaise mémoire\" is more idiomatic still.)",
-          },
         ],
       },
       {
-        heading: "Final sweep: false friends of the whole level",
+        heading: "Final sweep: false friends",
         body: [
-          "The Upper-intermediate false friends you must not miss: \"actuellement\" (currently), \"éventuellement\" (possibly), \"en effet\" (indeed, as a matter of fact), \"prétendre\" (to claim), \"assister à\" (to attend), \"rester\" (to stay), \"sensible\" (sensitive), \"une librairie\" (a bookshop), \"un collège\" (a secondary school), \"la monnaie\" (change, currency), \"rendre visite à\" (to visit a person).",
-          "And from this unit's themes: \"un roman\" (a novel), \"une nouvelle\" (a short story, also a piece of news), \"la politique\" (politics and policy).",
+          "The false friends of the whole level: \"actuellement\" (currently), \"éventuellement\" (possibly), \"assister à\" (to attend), \"sensible\" (sensitive), \"une librairie\" (a bookshop), \"un collège\" (a secondary school), \"rendre visite à\" (to visit a person), \"une nouvelle\" (a short story, or a piece of news). Eventually is \"finalement\".",
         ],
         examples: [
-          { es: "Actuellement, je travaille à mi-temps.", en: "I'm currently working part-time." },
           { es: "Nous pourrions éventuellement décaler la réunion.", en: "We could possibly move the meeting." },
           { es: "Elle est très sensible aux critiques.", en: "She's very sensitive to criticism." },
-          { es: "J'ai assisté à la conférence de presse.", en: "I attended the press conference." },
-          { es: "Il prétend être écrivain.", en: "He claims to be a writer." },
           { es: "J'ai acheté ce roman dans une petite librairie.", en: "I bought this novel in a small bookshop." },
         ],
         checkpoint: [
@@ -124,9 +161,9 @@ export const FR_B2_U24: Lesson[] = [
           },
           {
             type: "speak",
-            text: "Actuellement, je travaille à mi-temps.",
-            prompt: "Say it in French: I'm currently working part-time.",
-            explanation: "\"Actuellement\" = currently.",
+            text: "Actuellement, elle vit chez ses parents.",
+            prompt: "Say it in French: She's currently living with her parents.",
+            explanation: "\"Actuellement\" = currently, not actually (\"en fait\").",
           },
         ],
       },
@@ -148,6 +185,15 @@ export const FR_B2_U24: Lesson[] = [
         answer: "Nous pourrions éventuellement vendre la parcelle.",
         altAnswers: ["On pourrait éventuellement vendre la parcelle."],
         explanation: "\"Éventuellement\" = possibly, not eventually (\"finalement\").",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Éventuellement, après des années d'efforts, il a réussi.",
+        answer: "Finalement, après des années d'efforts, il a réussi.",
+        altAnswers: ["Enfin, après des années d'efforts, il a réussi."],
+        explanation: "\"Éventuellement\" means possibly. For eventually, in the end, use \"finalement\".",
       },
       {
         type: "translate",
@@ -182,6 +228,14 @@ export const FR_B2_U24: Lesson[] = [
         explanation: "A library is \"une bibliothèque\".",
       },
       {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Make it passive.",
+        source: "La rédaction a vérifié l'information.",
+        answer: "L'information a été vérifiée par la rédaction.",
+        explanation: "\"L'information\" is feminine, so the passive participle agrees: \"vérifiée\".",
+      },
+      {
         type: "word-order",
         prompt: "Put the words in order to say: The cabinetmaker gave us a quote.",
         words: ["L'ébéniste", "nous", "a", "fait", "un", "devis."],
@@ -206,13 +260,13 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Le ministre a démenti l'information.",
-        explanation: "\"Démentir\" = to deny officially.",
+        audio: "Le lanceur d'alerte a transmis les documents à la rédaction.",
+        explanation: "\"Un lanceur d'alerte\" = a whistle-blower; \"la rédaction\" = the newsroom.",
       },
       {
         type: "speak",
-        text: "Nous avons hérité d'une vieille maison.",
-        prompt: "Say it in French: We inherited an old house.",
+        text: "Ma tante a hérité d'un moulin en Provence.",
+        prompt: "Say it in French: My aunt inherited a mill in Provence.",
         explanation: "\"Hériter de\" + noun.",
       },
     ],
@@ -226,21 +280,23 @@ export const FR_B2_U24: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Literature: genres and false friends",
+        heading: "Literature: genres",
         body: [
-          "\"Une œuvre\" (a work, feminine; \"l'œuvre de Zola\" = his whole body of work), \"un chef-d'œuvre\" (masculine! plural \"des chefs-d'œuvre\"), \"un roman\" (a novel, any novel: a romance novel is \"un roman d'amour\" or \"un roman sentimental\"), \"une nouvelle\" (a short story), \"un recueil\" (a collection: \"un recueil de nouvelles / de poèmes\"), \"un essai\", \"une pièce de théâtre\", \"un polar\" (a crime novel, informal), \"une bande dessinée\" / \"une BD\".",
-          "People: \"un écrivain / une écrivaine\", \"un auteur / une autrice\" (or \"une auteure\"), \"un romancier / une romancière\" (novelist), \"un poète\", \"un éditeur\" (publisher: false friend; an editor at a newspaper is \"un rédacteur\").",
-          "Verbs: \"publier un roman\", \"paraître\" (to come out: \"son roman est paru en 2019\"), \"écrire\", \"adapter au cinéma\", \"traduire\".",
+          "\"Une œuvre\" is a work (feminine; \"l'œuvre de Zola\" = his whole body of work), but \"un chef-d'œuvre\" is masculine. \"Un roman\" is any novel; \"une nouvelle\" is a short story; \"un recueil\" is a collection (\"un recueil de poèmes\"). Also: \"un essai\", \"une pièce de théâtre\", \"un polar\" (crime novel), \"une BD\".",
         ],
         examples: [
-          { es: "Son dernier roman est paru en septembre.", en: "Her latest novel came out in September." },
           { es: "C'est un recueil de nouvelles sur la vie en banlieue.", en: "It's a collection of short stories about life in the suburbs." },
           { es: "« Madame Bovary » est un chef-d'œuvre.", en: "Madame Bovary is a masterpiece." },
           { es: "L'œuvre de Victor Hugo est immense.", en: "Victor Hugo's body of work is huge." },
-          { es: "Son éditeur a refusé son deuxième manuscrit.", en: "Her publisher rejected her second manuscript." },
-          { es: "Le roman a été adapté au cinéma en 2021.", en: "The novel was adapted for the cinema in 2021." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What is \"une nouvelle\" in a bookshop?",
+            options: ["A short story", "A new novel", "A romance novel", "A newspaper"],
+            correctIndex: 0,
+            explanation: "\"Une nouvelle\" = a short story (also a piece of news). A new novel is tempting, but a novel is \"un roman\".",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -250,29 +306,38 @@ export const FR_B2_U24: Lesson[] = [
             altAnswers: ["C'est un recueil de poésie.", "C'est un recueil de poésies."],
             explanation: "\"Un recueil\" = a collection (of poems, stories).",
           },
+        ],
+      },
+      {
+        heading: "Literature: people and verbs",
+        body: [
+          "People: \"un écrivain / une écrivaine\", \"un auteur / une autrice\", \"un romancier / une romancière\" (novelist), \"un éditeur\" (a publisher: false friend; a newspaper editor is \"un rédacteur\"). Verbs: \"publier\", \"paraître\" (to come out: \"son roman est paru\"), \"adapter au cinéma\", \"traduire\".",
+        ],
+        examples: [
+          { es: "Son dernier roman est paru en septembre.", en: "Her latest novel came out in September." },
+          { es: "Son éditeur a refusé son deuxième manuscrit.", en: "Her publisher rejected her second manuscript." },
+          { es: "Le roman a été adapté au cinéma en 2021.", en: "The novel was adapted for the cinema in 2021." },
+        ],
+        checkpoint: [
           {
-            type: "multiple-choice",
-            question: "What is \"une nouvelle\" in a bookshop?",
-            options: ["A short story", "A new novel", "A romance novel", "A newspaper"],
-            correctIndex: 0,
-            explanation: "\"Une nouvelle\" = a short story (also a piece of news). A novel is \"un roman\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Son livre est paru en mars, et c'est une chef-d'œuvre.",
+            answer: "Son livre est paru en mars, et c'est un chef-d'œuvre.",
+            explanation: "\"Chef-d'œuvre\" is masculine (its head word is \"chef\"), even though \"œuvre\" is feminine.",
           },
         ],
       },
       {
-        heading: "Art: exhibitions and techniques",
+        heading: "Art: works and techniques",
         body: [
-          "\"Un tableau\" (a painting, the object), \"une peinture\" (painting as an art, or a painting), \"une toile\" (a canvas), \"un portrait\", \"un paysage\", \"une nature morte\" (still life), \"une sculpture\", \"une gravure\" (engraving), \"une aquarelle\" (watercolour), \"une huile\" (an oil painting).",
-          "Events: \"une exposition\" / \"une expo\", \"un vernissage\" (private view, opening night), \"une rétrospective\", \"une galerie\", \"exposer\" (to exhibit), \"un commissaire d'exposition\" (curator).",
-          "Criticism: \"une critique\" (a review, or criticism), \"un critique\" (a critic), \"saluer\" (to praise), \"éreinter\" (to slate), \"bouleversant\" (deeply moving), \"novateur\" (innovative).",
+          "\"Un tableau\" is a painting as an object; \"la peinture\" is the art (or the paint); \"une toile\" is a canvas. Genres: \"un portrait\", \"un paysage\" (landscape), \"une nature morte\" (still life). Techniques: \"une aquarelle\" (watercolour), \"une huile\" (an oil painting), \"une gravure\" (engraving), \"une sculpture\".",
         ],
         examples: [
-          { es: "Le musée consacre une rétrospective à Rosa Bonheur.", en: "The museum is devoting a retrospective to Rosa Bonheur." },
-          { es: "Je suis invitée au vernissage jeudi soir.", en: "I'm invited to the private view on Thursday evening." },
-          { es: "Elle expose ses aquarelles dans une petite galerie.", en: "She's exhibiting her watercolours in a small gallery." },
-          { es: "Les critiques ont salué une œuvre novatrice.", en: "Critics praised an innovative work." },
           { es: "Ce tableau est une nature morte du XVIIe siècle.", en: "This painting is a 17th-century still life." },
-          { es: "Le film a été éreinté par la critique.", en: "The film was slated by the critics." },
+          { es: "Elle expose ses aquarelles dans une petite galerie.", en: "She's exhibiting her watercolours in a small gallery." },
+          { es: "Ce portrait est une huile sur toile.", en: "This portrait is an oil on canvas." },
         ],
         checkpoint: [
           {
@@ -282,8 +347,22 @@ export const FR_B2_U24: Lesson[] = [
             source: "She's exhibiting her paintings in Lyon.",
             answer: "Elle expose ses tableaux à Lyon.",
             altAnswers: ["Elle expose ses toiles à Lyon.", "Elle expose ses peintures à Lyon."],
-            explanation: "\"Exposer\" = to exhibit.",
+            explanation: "\"Exposer\" = to exhibit; \"tableaux\" for the paintings as objects.",
           },
+        ],
+      },
+      {
+        heading: "Exhibitions and criticism",
+        body: [
+          "Events: \"une exposition\", \"un vernissage\" (private view), \"une rétrospective\", \"un commissaire d'exposition\" (curator). Criticism: \"une critique\" is a review or the critics as a body, \"un critique\" is one critic. Verdicts: \"saluer\" (to praise), \"éreinter\" (to slate), \"bouleversant\" (deeply moving), \"novateur\" (innovative).",
+        ],
+        examples: [
+          { es: "Le musée consacre une rétrospective à Rosa Bonheur.", en: "The museum is devoting a retrospective to Rosa Bonheur." },
+          { es: "Je suis invitée au vernissage jeudi soir.", en: "I'm invited to the private view on Thursday evening." },
+          { es: "Les critiques ont salué une œuvre novatrice.", en: "Critics praised an innovative work." },
+          { es: "Le film a été éreinté par la critique.", en: "The film was slated by the critics." },
+        ],
+        checkpoint: [
           {
             type: "matching",
             instructions: "Match the French to the English.",
@@ -301,17 +380,13 @@ export const FR_B2_U24: Lesson[] = [
       {
         heading: "Praising a work: subjunctive relatives",
         body: [
-          "Superlatives and \"le seul / le premier / le dernier\" take the subjunctive in the relative clause (Unit 1): \"C'est le seul roman qui m'ait fait pleurer\", \"le plus beau tableau que j'aie jamais vu\", \"le premier livre que j'aie lu en français\".",
-          "A sought work takes it too: \"Je cherche un roman qui soit drôle et intelligent.\" A negated one: \"Il n'y a aucun film qui me fasse autant rire.\"",
-          "Add the passive for the work's history: \"Ce tableau a été peint en 1889 et n'a été exposé qu'en 1950.\"",
+          "Superlatives and \"le seul / le premier / le dernier\" take the subjunctive in the relative clause: \"le seul roman qui m'ait fait pleurer\". So does a work you are looking for (\"un roman qui soit drôle\") or one that is negated (\"aucun film qui me fasse autant rire\").",
         ],
         examples: [
           { es: "C'est le seul roman qui m'ait fait pleurer.", en: "It's the only novel that has made me cry." },
           { es: "C'est le plus beau tableau que j'aie jamais vu.", en: "It's the most beautiful painting I've ever seen." },
-          { es: "C'est le premier livre que j'aie lu en français.", en: "It's the first book I read in French." },
           { es: "Je cherche un roman qui soit à la fois drôle et intelligent.", en: "I'm looking for a novel that's both funny and intelligent." },
           { es: "Il n'y a aucune exposition qui m'ait autant marqué.", en: "There's no exhibition that has made such an impression on me." },
-          { es: "Ce tableau n'a été exposé qu'en 1950.", en: "This painting wasn't exhibited until 1950." },
         ],
         checkpoint: [
           {
@@ -325,9 +400,9 @@ export const FR_B2_U24: Lesson[] = [
           },
           {
             type: "speak",
-            text: "C'est le plus beau tableau que j'aie jamais vu.",
-            prompt: "Say it in French: It's the most beautiful painting I've ever seen.",
-            explanation: "Superlative → subjunctive \"aie vu\".",
+            text: "C'est la plus belle exposition que j'aie visitée cette année.",
+            prompt: "Say it in French: It's the most beautiful exhibition I've visited this year.",
+            explanation: "Superlative → subjunctive \"aie visitée\", agreeing with \"que\" (= l'exposition).",
           },
         ],
       },
@@ -353,10 +428,26 @@ export const FR_B2_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Les critiques ont salué cet œuvre novateur.",
+        answer: "Les critiques ont salué cette œuvre novatrice.",
+        explanation: "\"Une œuvre\" (a single work) is feminine: \"cette\", and the adjective becomes \"novatrice\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
         prompt: "Translate into French.",
         source: "I'm looking for a novel that's easy to read.",
         answer: "Je cherche un roman qui soit facile à lire.",
         explanation: "Sought antecedent → subjunctive \"soit\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Make it negative with aucun.",
+        source: "Il y a un film qui me fait rire.",
+        answer: "Il n'y a aucun film qui me fasse rire.",
+        explanation: "A negated antecedent (\"aucun film\") switches the relative to the subjunctive: \"fait\" → \"fasse\".",
       },
       {
         type: "fill-blank",
@@ -380,14 +471,14 @@ export const FR_B2_U24: Lesson[] = [
         question: "Which is correct for: the most moving film I've ever seen?",
         options: ["le film le plus bouleversant que j'aie jamais vu", "le film le plus bouleversant que j'ai jamais vu hier", "le film plus bouleversant que j'aie jamais vu", "le film le plus bouleversant dont j'aie jamais vu"],
         correctIndex: 0,
-        explanation: "\"Le film le plus...\" + subjunctive relative.",
+        explanation: "\"Le film le plus...\" + subjunctive relative. \"Dont\" is tempting, but \"voir\" takes a direct object.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The novel was adapted for the cinema.",
-        words: ["Le", "roman", "a été", "adapté", "au", "cinéma."],
-        translation: "The novel was adapted for the cinema.",
-        explanation: "Passive passé composé.",
+        prompt: "Put the words in order to say: The play was translated into ten languages",
+        words: ["La", "pièce", "a", "été", "traduite", "en", "dix", "langues"],
+        translation: "The play was translated into ten languages",
+        explanation: "Passive passé composé; \"traduite\" agrees with \"la pièce\".",
       },
       {
         type: "translate",
@@ -408,14 +499,14 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "C'est le seul roman qui m'ait fait pleurer.",
-        explanation: "\"Le seul\" + subjunctive \"ait\".",
+        audio: "C'est la seule pièce qui m'ait vraiment ému.",
+        explanation: "\"La seule\" + subjunctive \"ait ému\".",
       },
       {
         type: "speak",
-        text: "Je cherche un roman qui soit à la fois drôle et intelligent.",
-        prompt: "Say it in French: I'm looking for a novel that's both funny and intelligent.",
-        explanation: "Sought antecedent → subjunctive.",
+        text: "Il n'y a aucun poème qui me touche autant que celui-ci.",
+        prompt: "Say it in French: There's no poem that moves me as much as this one.",
+        explanation: "Negated antecedent → subjunctive \"touche\".",
       },
     ],
   },
@@ -428,30 +519,17 @@ export const FR_B2_U24: Lesson[] = [
     duration: "13 min",
     sections: [
       {
-        heading: "What we've become",
+        heading: "Remember the rule: verbs of change",
         body: [
-          "Sophie and Karim meet at a school reunion (\"des retrouvailles\", always plural; \"une soirée d'anciens élèves\"). They talk about how they've changed: \"Tu n'as pas changé !\", \"Je suis devenu prof, tu te rends compte ?\", \"Tu t'es mis à la course à pied ?\", \"J'ai fini par quitter Paris.\"",
-          "Verbs of change: \"devenir\", \"se mettre à\", \"finir par\", \"changer de\", \"rendre\" + adjective, \"grossir / maigrir / vieillir\". \"Ça fait\" + duration + \"que\": \"Ça fait vingt ans qu'on ne s'est pas vus !\"",
-          "Note the negative \"ça fait vingt ans qu'on ne s'est pas vus\": with \"ne... pas\", the passé composé is used.",
+          "Sophie and Karim meet at a school reunion (\"des retrouvailles\", always plural) and talk about how they've changed. \"Devenir\" + noun or adjective, \"se mettre à\" (to take up), \"finir par\" + infinitive (to end up), and \"rendre\" + adjective when something changes you: \"les enfants m'ont rendu patient\", never \"devenu\".",
         ],
         examples: [
-          { es: "Ça fait vingt ans qu'on ne s'est pas vus !", en: "We haven't seen each other for twenty years!" },
-          { es: "Tu n'as pas changé du tout !", en: "You haven't changed at all!" },
           { es: "Je suis devenu prof de maths, tu te rends compte ?", en: "I became a maths teacher, can you believe it?" },
           { es: "Je me suis mise à la course à pied il y a cinq ans.", en: "I took up running five years ago." },
           { es: "J'ai fini par quitter Paris pour la Bretagne.", en: "I ended up leaving Paris for Brittany." },
           { es: "Les enfants m'ont rendu plus patient.", en: "Having kids has made me more patient." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "We haven't seen each other for ten years!",
-            answer: "Ça fait dix ans qu'on ne s'est pas vus !",
-            altAnswers: ["Ça fait dix ans qu'on ne s'est pas vues !", "Cela fait dix ans que nous ne nous sommes pas vus !", "On ne s'est pas vus depuis dix ans !", "Nous ne nous sommes pas vus depuis dix ans !", "On ne s'est pas vues depuis dix ans !"],
-            explanation: "\"Ça fait\" + duration + \"que\" + negative passé composé.",
-          },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -461,18 +539,66 @@ export const FR_B2_U24: Lesson[] = [
             altAnswers: ["me suis mise à"],
             explanation: "\"Se mettre à\" + noun or infinitive = to take up, to start.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Ce voyage l'a devenu plus ouvert.",
+            answer: "Ce voyage l'a rendu plus ouvert.",
+            explanation: "When something changes a person, use \"rendre\" + adjective. \"Devenir\" has no object and takes \"être\".",
+          },
         ],
       },
       {
-        heading: "Regrets and what others said",
+        heading: "Ça fait... que for how long",
         body: [
-          "Regrets: \"J'aurais dû garder contact\", \"On aurait pu se revoir plus tôt\", \"Si j'avais su que tu habitais si près, je t'aurais appelé\", \"Je regrette de ne pas être venu à ton mariage\".",
-          "Reported news of old friends: \"Julie m'a dit qu'elle s'était installée au Canada\", \"Thomas m'a demandé si tu viendrais ce soir\", \"Le prof de français nous avait dit qu'on deviendrait tous écrivains !\"",
+          "To say how long something has lasted, put the duration first: \"ça fait\" + duration + \"que\". A situation still going on takes the present (\"ça fait trois ans que j'habite ici\"). In the negative, use the passé composé: \"ça fait vingt ans qu'on ne s'est pas vus\".",
+        ],
+        examples: [
+          { es: "Ça fait vingt ans qu'on ne s'est pas vus !", en: "We haven't seen each other for twenty years!" },
+          { es: "Ça fait trois ans que j'habite à Rennes.", en: "I've been living in Rennes for three years." },
+          { es: "Ça fait longtemps qu'elle travaille dans cette école.", en: "She's been working at this school for a long time." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "We haven't spoken to each other for five years!",
+            answer: "Ça fait cinq ans qu'on ne s'est pas parlé !",
+            altAnswers: ["Cela fait cinq ans que nous ne nous sommes pas parlé !", "On ne s'est pas parlé depuis cinq ans !", "Nous ne nous sommes pas parlé depuis cinq ans !", "Ça fait cinq ans que nous ne nous sommes pas parlé !"],
+            explanation: "\"Ça fait\" + duration + \"que\" + negative passé composé. \"Parlé\" doesn't agree: \"se\" is an indirect object (\"parler à\").",
+          },
+        ],
+      },
+      {
+        heading: "Regrets",
+        body: [
+          "Past regrets use the conditionnel passé: \"j'aurais dû\" + infinitive (I should have), \"on aurait pu\" (we could have). An unreal past condition: \"si\" + plus-que-parfait, then conditionnel passé. \"Regretter de\" takes a past infinitive: \"je regrette de ne pas être venu\".",
         ],
         examples: [
           { es: "J'aurais dû garder contact avec toi.", en: "I should have kept in touch with you." },
           { es: "Si j'avais su que tu habitais si près, je t'aurais appelée.", en: "If I'd known you lived so close, I'd have called you." },
           { es: "Je regrette de ne pas être venu à ton mariage.", en: "I'm sorry I didn't come to your wedding." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "We should have called each other more often.",
+            answer: "On aurait dû s'appeler plus souvent.",
+            altAnswers: ["Nous aurions dû nous appeler plus souvent.", "On aurait dû se téléphoner plus souvent.", "Nous aurions dû nous téléphoner plus souvent."],
+            explanation: "\"Aurait dû\" + infinitive; the reflexive pronoun matches the subject (\"on... s'appeler\").",
+          },
+        ],
+      },
+      {
+        heading: "What others said: backshift",
+        body: [
+          "News of old friends comes in reported speech. After a past reporting verb, shift the tenses back: passé composé → plus-que-parfait (\"elle s'était installée\"), futur → conditionnel (\"si tu viendrais\"), présent → imparfait.",
+        ],
+        examples: [
           { es: "Julie m'a dit qu'elle s'était installée au Canada.", en: "Julie told me she'd settled in Canada." },
           { es: "Thomas m'a demandé si tu viendrais ce soir.", en: "Thomas asked me if you'd come tonight." },
           { es: "Le prof nous disait qu'on deviendrait tous écrivains.", en: "The teacher used to tell us we'd all become writers." },
@@ -481,16 +607,16 @@ export const FR_B2_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I should have kept in touch.",
-            answer: "J'aurais dû garder contact.",
-            altAnswers: ["J'aurais dû garder le contact.", "J'aurais dû rester en contact."],
-            explanation: "\"J'aurais dû\" + infinitive.",
+            prompt: "Turn it into reported speech, starting with Lena m'a dit.",
+            source: "Lena : « J'ai changé de travail. »",
+            answer: "Lena m'a dit qu'elle avait changé de travail.",
+            altAnswers: ["Lena m'a dit qu'elle avait changé d'emploi."],
+            explanation: "Passé composé → plus-que-parfait after a past reporting verb; \"je\" → \"elle\".",
           },
           {
             type: "speak",
-            text: "Julie m'a dit qu'elle s'était installée au Canada.",
-            prompt: "Say it in French: Julie told me she'd settled in Canada.",
+            text: "Marc m'a dit qu'il avait divorcé l'an dernier.",
+            prompt: "Say it in French: Marc told me he had got divorced last year.",
             explanation: "Backshift passé composé → plus-que-parfait.",
           },
         ],
@@ -500,11 +626,11 @@ export const FR_B2_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "You haven't changed at all! (to a friend)",
-        answer: "Tu n'as pas changé du tout !",
-        altAnswers: ["Tu n'as pas du tout changé !"],
-        explanation: "\"Pas du tout\" = not at all.",
+        prompt: "Correct the sentence.",
+        source: "Tu n'as changé pas du tout !",
+        answer: "Tu n'as pas du tout changé !",
+        altAnswers: ["Tu n'as pas changé du tout !"],
+        explanation: "In a compound tense, \"pas\" sits between the auxiliary and the participle: \"n'as pas (du tout) changé\".",
       },
       {
         type: "translate",
@@ -514,6 +640,14 @@ export const FR_B2_U24: Lesson[] = [
         answer: "J'ai fini par devenir professeur.",
         altAnswers: ["J'ai fini par devenir prof.", "J'ai fini par devenir enseignant.", "J'ai fini par devenir enseignante.", "J'ai fini par devenir professeure."],
         explanation: "\"Finir par\" + infinitive; no article before a job.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change it to use finir par.",
+        source: "Finalement, j'ai déménagé à Nantes.",
+        answer: "J'ai fini par déménager à Nantes.",
+        explanation: "\"Finir par\" + infinitive replaces \"finalement\" + conjugated verb.",
       },
       {
         type: "translate",
@@ -547,13 +681,13 @@ export const FR_B2_U24: Lesson[] = [
         question: "Which is correct for: Having children made me calmer?",
         options: ["Les enfants m'ont rendu plus calme.", "Les enfants m'ont fait plus calme.", "Les enfants m'ont devenu plus calme.", "Les enfants ont rendu moi plus calme."],
         correctIndex: 0,
-        explanation: "\"Rendre\" + adjective.",
+        explanation: "\"Rendre\" + adjective. \"Faire\" is tempting from English made, but it isn't used with an adjective this way.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: We could have seen each other earlier.",
-        words: ["On", "aurait", "pu", "se", "revoir", "plus tôt."],
-        translation: "We could have seen each other earlier.",
+        prompt: "Put the words in order to say: We could have seen each other earlier",
+        words: ["On", "aurait", "pu", "se", "revoir", "plus", "tôt"],
+        translation: "We could have seen each other earlier",
         explanation: "\"Aurait pu\" + infinitive.",
       },
       {
@@ -566,14 +700,14 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Je me suis mise à la course à pied.",
-        explanation: "\"Se mettre à\"; feminine agreement \"mise\".",
+        audio: "Elle s'est mise au piano à cinquante ans.",
+        explanation: "\"Se mettre à\" + \"le piano\" → \"au piano\"; feminine agreement \"mise\".",
       },
       {
         type: "speak",
-        text: "J'aurais dû garder contact avec toi.",
-        prompt: "Say it in French: I should have kept in touch with you.",
-        explanation: "\"J'aurais dû\" + infinitive.",
+        text: "Ça me fait vraiment plaisir de te revoir.",
+        prompt: "Say it in French: I'm really glad to see you again.",
+        explanation: "\"Ça me fait plaisir de\" + infinitive.",
       },
     ],
   },
@@ -586,59 +720,76 @@ export const FR_B2_U24: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Contrast and concession",
+        heading: "Remember the rule: contrast and concession",
         body: [
-          "Formal contrast: \"cependant\", \"toutefois\", \"néanmoins\" (nevertheless), \"pourtant\" (yet), \"en revanche\" (on the other hand). In dictation, watch the spelling: \"néanmoins\" (two accents, -oins), \"toutefois\" (one word), \"en revanche\" (with -an-).",
-          "\"Or\" (but, now, yet) is a one-word connector that introduces a decisive fact; don't confuse it with \"or\" (gold) or \"hors\" (outside): the context and the comma tell you.",
+          "Formal contrast: \"cependant\", \"toutefois\", \"néanmoins\" (nevertheless), \"pourtant\" (yet), \"en revanche\" (on the other hand). Choose by function: these announce a fact that goes against the first one. In dictation, watch the spelling: \"néanmoins\" (two accents, -oins), \"toutefois\" (one word), \"en revanche\" (with -an-).",
         ],
         examples: [
           { es: "Le projet est ambitieux ; néanmoins, il est réaliste.", en: "The project is ambitious; nevertheless, it's realistic." },
-          { es: "Il avait promis de venir. Or, personne ne l'a vu.", en: "He had promised to come. Yet nobody saw him." },
           { es: "Les loyers ont augmenté ; en revanche, les salaires stagnent.", en: "Rents have risen; wages, on the other hand, are stagnating." },
-          { es: "Toutefois, certaines questions restent sans réponse.", en: "However, some questions remain unanswered." },
           { es: "Il pleuvait ; pourtant, le match a eu lieu.", en: "It was raining; yet the match took place." },
         ],
         checkpoint: [
           {
+            type: "multiple-choice",
+            question: "Which connector fits: « Il a beaucoup travaillé ; ___, il a échoué »?",
+            options: ["pourtant", "par conséquent", "en outre", "c'est pourquoi"],
+            correctIndex: 0,
+            explanation: "Failing goes against the hard work: contrast → \"pourtant\". \"Par conséquent\" is tempting, but it would make the failure a result of the work.",
+          },
+          {
             type: "dictation",
-            audio: "Le projet est ambitieux ; néanmoins, il est réaliste.",
+            audio: "Le prix est élevé ; néanmoins, la qualité est excellente.",
             explanation: "\"Néanmoins\": é, a, -oins.",
           },
+        ],
+      },
+      {
+        heading: "Or: the decisive fact",
+        body: [
+          "\"Or\" (yet, now) is a one-word connector that brings in a decisive fact, often one that undermines what came before. It usually starts a sentence and is followed by a comma. Don't confuse it with \"hors\" (outside) or \"or\" (gold): the position and the comma tell you.",
+        ],
+        examples: [
+          { es: "Il avait promis de venir. Or, personne ne l'a vu.", en: "He had promised to come. Yet nobody saw him." },
+          { es: "Le contrat exigeait deux signatures. Or, il n'y en a qu'une.", en: "The contract required two signatures. Now, there's only one." },
+          { es: "Tous les élèves devaient rendre le devoir. Or, trois l'ont oublié.", en: "All the pupils had to hand in the homework. Yet three forgot it." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French.",
-            source: "Rents have risen; on the other hand, wages are stagnating.",
-            answer: "Les loyers ont augmenté ; en revanche, les salaires stagnent.",
-            altAnswers: ["Les loyers ont augmenté ; par contre, les salaires stagnent.", "Les loyers ont augmenté, en revanche les salaires stagnent."],
-            explanation: "\"En revanche\" contrasts two facts.",
+            prompt: "Correct the sentence.",
+            source: "Il prétend être malade. Hors, on l'a vu au cinéma.",
+            answer: "Il prétend être malade. Or, on l'a vu au cinéma.",
+            altAnswers: ["Il prétend être malade. Or on l'a vu au cinéma."],
+            explanation: "The connector is \"or\" (no h). \"Hors\" means outside and can't start a sentence like this.",
           },
         ],
       },
       {
         heading: "Consequence and addition",
         body: [
-          "Consequence: \"par conséquent\", \"c'est pourquoi\", \"donc\", \"ainsi\", \"si bien que\" + indicative. Addition: \"en outre\" (moreover), \"de plus\", \"par ailleurs\" (besides, in another respect), \"d'ailleurs\" (by the way, what's more).",
-          "Spelling traps: \"par conséquent\" (é, -ent), \"en outre\" (two words), \"d'ailleurs\" (apostrophe, -eurs).",
+          "Consequence: \"par conséquent\", \"c'est pourquoi\", \"donc\", \"si bien que\" + indicative. Addition: \"en outre\" (moreover), \"de plus\", \"par ailleurs\" (in addition, in another respect), \"d'ailleurs\" (besides). Spelling traps: \"par conséquent\" (é, -ent), \"en outre\" (two words), \"d'ailleurs\" (apostrophe, -eurs).",
         ],
         examples: [
           { es: "La route est fermée ; par conséquent, il faut faire un détour.", en: "The road is closed; consequently, we have to make a detour." },
           { es: "En outre, le bâtiment ne respecte pas les normes.", en: "Moreover, the building doesn't meet the standards." },
           { es: "Par ailleurs, la mairie a lancé une consultation.", en: "In addition, the town hall has launched a consultation." },
-          { es: "Il a beaucoup neigé, si bien que l'école a fermé.", en: "It snowed heavily, so the school closed." },
-          { es: "C'est pourquoi nous vous demandons de patienter.", en: "That's why we ask you to be patient." },
+          { es: "Les prix ont baissé, si bien que les ventes ont augmenté.", en: "Prices fell, so sales went up." },
         ],
         checkpoint: [
           {
             type: "dictation",
-            audio: "En outre, le bâtiment ne respecte pas les normes.",
-            explanation: "\"En outre\": two words.",
+            audio: "Les stocks sont épuisés ; par conséquent, la vente est suspendue.",
+            explanation: "\"Par conséquent\": é, and -ent at the end.",
           },
           {
-            type: "speak",
-            text: "La route est fermée ; par conséquent, il faut faire un détour.",
-            prompt: "Say it in French: The road is closed; consequently, we have to make a detour.",
-            explanation: "\"Par conséquent\" introduces the consequence.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn the two sentences into one with si bien que.",
+            source: "Il a beaucoup plu. La rivière a débordé.",
+            answer: "Il a beaucoup plu, si bien que la rivière a débordé.",
+            explanation: "\"Si bien que\" introduces a result, a fact → indicative \"a débordé\".",
           },
         ],
       },
@@ -646,12 +797,12 @@ export const FR_B2_U24: Lesson[] = [
     exercises: [
       {
         type: "dictation",
-        audio: "Il avait promis de venir. Or, personne ne l'a vu.",
+        audio: "Tout le monde attendait le ministre. Or, il n'est jamais venu.",
         explanation: "\"Or\": a one-word connector introducing a decisive fact.",
       },
       {
         type: "dictation",
-        audio: "Toutefois, certaines questions restent sans réponse.",
+        audio: "Toutefois, la décision finale appartient au conseil.",
         explanation: "\"Toutefois\": one word.",
       },
       {
@@ -662,6 +813,15 @@ export const FR_B2_U24: Lesson[] = [
         answer: "Le train était en retard ; par conséquent, j'ai manqué la réunion.",
         altAnswers: ["Le train avait du retard ; par conséquent, j'ai manqué la réunion.", "Le train était en retard ; par conséquent, j'ai raté la réunion.", "Le train avait du retard ; par conséquent, j'ai raté la réunion."],
         explanation: "\"Par conséquent\" + consequence.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Le bus était en retard ; en outre, je suis arrivé après le début.",
+        answer: "Le bus était en retard ; par conséquent, je suis arrivé après le début.",
+        altAnswers: ["Le bus était en retard ; c'est pourquoi je suis arrivé après le début.", "Le bus était en retard ; donc je suis arrivé après le début.", "Le bus était en retard ; par conséquent, je suis arrivée après le début."],
+        explanation: "Arriving late is a result of the bus, not an extra point: consequence → \"par conséquent\", not \"en outre\".",
       },
       {
         type: "translate",
@@ -728,7 +888,7 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "Par ailleurs, la mairie a lancé une consultation.",
+        audio: "Par ailleurs, le maire a annoncé sa démission.",
         question: "What did you hear?",
         options: ["Par ailleurs", "D'ailleurs", "Par contre", "Pareillement"],
         correctIndex: 0,
@@ -736,9 +896,9 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Le projet est ambitieux ; néanmoins, il est réaliste.",
-        prompt: "Say it in French: The project is ambitious; nevertheless, it's realistic.",
-        explanation: "\"Néanmoins\" = nevertheless.",
+        text: "Les résultats sont bons ; toutefois, il reste des progrès à faire.",
+        prompt: "Say it in French: The results are good; however, there's still room for improvement.",
+        explanation: "\"Toutefois\" = however, in formal speech and writing.",
       },
     ],
   },

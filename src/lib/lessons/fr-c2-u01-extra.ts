@@ -14,14 +14,38 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Recap: Latin tags and fixed formulas",
+        heading: "Recap: Latin tags in French legal writing",
         body: [
           "French lawyers use a stock of Latin phrases, written in italics in print and without French accents: \"de jure\" (in law) vs \"de facto\" (in fact), \"a fortiori\" (all the more so), \"in fine\" (at the end, finally), \"ad hoc\" (set up for the purpose), \"ultra petita\" (beyond what was asked: a judge cannot rule ultra petita), \"erga omnes\" (binding on everyone, not only the parties).",
-          "French formulas do the same job: \"en l'espèce\" (in the case at hand), \"en l'état\" (as things stand; also 'as is' for goods: \"vendu en l'état\"), \"sous réserve de\" (subject to), \"à titre gracieux\" (free of charge, as a favour) vs \"à titre onéreux\" (for payment). Note that \"un recours gracieux\" is a different thing: an appeal to the authority's goodwill, which you meet in Unit 2.",
         ],
         examples: [
           { es: "De facto, c'est le directeur adjoint qui dirige l'établissement.", en: "In practice, it's the deputy director who runs the establishment." },
           { es: "Si le locataire n'a pas droit à cette aide, a fortiori son colocataire non plus.", en: "If the tenant isn't entitled to this benefit, still less is his flatmate." },
+          { es: "Le juge ne peut pas statuer ultra petita.", en: "The judge cannot rule beyond what was claimed." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A judge awards the claimant more than she asked for. What has the judge done?",
+            options: ["statué ultra petita", "statué erga omnes", "statué de jure", "statué ad hoc"],
+            correctIndex: 0,
+            explanation: "\"Ultra petita\": beyond the claims. French judges are forbidden to rule beyond what the parties ask.",
+          },
+          {
+            type: "multiple-choice",
+            question: "\"Cette décision s'impose erga omnes.\" What does it mean?",
+            options: ["The decision is binding on everyone.", "The decision only binds the two parties.", "The decision applies retroactively.", "The decision is provisional."],
+            correctIndex: 0,
+            explanation: "\"Erga omnes\" (towards all) means the effect reaches everyone, not only the parties to the case.",
+          },
+        ],
+      },
+      {
+        heading: "Recap: French formulas that do the same job",
+        body: [
+          "French formulas do the same job: \"en l'espèce\" (in the case at hand), \"en l'état\" (as things stand; also 'as is' for goods: \"vendu en l'état\"), \"sous réserve de\" (subject to), \"à titre gracieux\" (free of charge, as a favour) vs \"à titre onéreux\" (for payment). Note that \"un recours gracieux\" is a different thing: an appeal to the authority's goodwill, which you meet in Unit 2.",
+        ],
+        examples: [
           { es: "En l'espèce, le vendeur avait connaissance du vice caché.", en: "In this case, the seller knew about the hidden defect." },
           { es: "Le véhicule est vendu en l'état, sans garantie.", en: "The vehicle is sold as is, without warranty." },
           { es: "L'avocat a accepté de la conseiller à titre gracieux.", en: "The lawyer agreed to advise her free of charge." },
@@ -37,11 +61,12 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
             explanation: "\"En l'espèce\" applies the rule to the particular facts: in the case at hand.",
           },
           {
-            type: "multiple-choice",
-            question: "A judge awards the claimant more than she asked for. What has the judge done?",
-            options: ["statué ultra petita", "statué erga omnes", "statué de jure", "statué ad hoc"],
-            correctIndex: 0,
-            explanation: "\"Ultra petita\": beyond the claims. French judges are forbidden to rule beyond what the parties ask.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it so that the transfer is paid for.",
+            source: "Le terrain a été cédé à titre gracieux.",
+            answer: "Le terrain a été cédé à titre onéreux.",
+            explanation: "\"À titre gracieux\" means free of charge, as a favour; its opposite, for payment, is \"à titre onéreux\". The rest of the sentence stays as it is.",
           },
         ],
       },
@@ -101,20 +126,13 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         explanation: "\"À titre onéreux\" (against payment) is opposed to \"à titre gratuit\" (as a gift). \"Onéreux\" in everyday French means expensive.",
       },
       {
-        type: "multiple-choice",
-        question: "\"Cette décision s'impose erga omnes.\" What does it mean?",
-        options: ["The decision is binding on everyone.", "The decision only binds the two parties.", "The decision applies retroactively.", "The decision is provisional."],
-        correctIndex: 0,
-        explanation: "\"Erga omnes\" (towards all) means the effect reaches everyone, not only the parties to the case.",
-      },
-      {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "As things stand, no decision has been made.",
+        prompt: "Correct the sentence.",
+        source: "Dans l'état, aucune décision n'a été prise.",
         answer: "En l'état, aucune décision n'a été prise.",
         altAnswers: ["En l'état actuel des choses, aucune décision n'a été prise.", "Dans l'état actuel des choses, aucune décision n'a été prise.", "À ce stade, aucune décision n'a été prise."],
-        explanation: "\"En l'état\" (as things stand) with \"aucune... ne\"; a decision is \"prise\", not \"faite\".",
+        explanation: "As things stand is \"en l'état\", a fixed formula with \"en\", like \"en l'espèce\". \"Dans l'état\" means in the condition (of something) and needs a complement.",
       },
       {
         type: "fill-blank",
@@ -143,6 +161,22 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         explanation: "\"Sous réserve de\" + noun states a condition; \"les travaux\" is plural for building work.",
       },
       {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Dans l'espèce, le locataire a toujours payé son loyer avec retard.",
+        answer: "En l'espèce, le locataire a toujours payé son loyer avec retard.",
+        altAnswers: ["En l'espèce, le locataire a toujours payé son loyer en retard."],
+        explanation: "In the case at hand is \"en l'espèce\": the formula is frozen with \"en\", never \"dans\".",
+      },
+      {
+        type: "multiple-choice",
+        question: "« Il a formé un recours gracieux auprès du maire. » What did he do?",
+        options: ["He asked the mayor himself to reconsider the decision.", "He asked the mayor for a free service.", "He took the mayor to court.", "He paid the mayor a fee."],
+        correctIndex: 0,
+        explanation: "\"Un recours gracieux\" is an appeal to the authority's own goodwill: you ask the person who decided to think again. It has nothing to do with \"à titre gracieux\" (free of charge), and it is not a lawsuit.",
+      },
+      {
         type: "matching",
         instructions: "Match each formula to its meaning.",
         pairs: [
@@ -164,8 +198,8 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        text: "En l'état actuel du dossier, je ne peux pas me prononcer.",
         prompt: "Say it in French: As the file stands, I can't give an opinion.",
+        text: "En l'état actuel du dossier, je ne peux pas me prononcer.",
         explanation: "\"En l'état actuel du dossier\" and \"se prononcer\" (to give a ruling or an opinion) are favourite lawyers' phrases.",
       },
     ],
@@ -180,17 +214,15 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Recap: pointing back, obliging, conditioning",
+        heading: "Recap: pointing back with ledit, susdit, le présent",
         body: [
           "Legal French points back with \"ledit / ladite / lesdits / lesdites\", written as one word and contracting with à and de: \"audit\", \"auxdits\", \"dudit\", \"desdites\". \"Susdit\" and \"susmentionné\" (above-mentioned) do the same job further away. \"Le présent contrat\", \"la présente\" (this letter) refer to the document itself. \"Respectivement\" pairs two lists in order, and \"le cas échéant\" means where applicable.",
-          "Obligation is expressed by the deontic present (\"le preneur s'engage à\", \"le vendeur garantit\") and the deontic future (\"le preneur devra\", \"le loyer sera payable\"): neither describes or predicts; both command. Conditions take \"à condition que\" or the more formal \"pour autant que\" + subjunctive, and \"sous réserve que\" + subjunctive.",
         ],
         examples: [
           { es: "Le vendeur garantit l'acquéreur contre tout vice caché affectant ledit bien.", en: "The seller guarantees the buyer against any hidden defect affecting the said property." },
           { es: "Les loyers seront versés sur le compte susmentionné.", en: "The rent will be paid into the above-mentioned account." },
           { es: "M. et Mme Petit détiennent respectivement 60 % et 40 % des parts.", en: "Mr and Mrs Petit hold 60% and 40% of the shares respectively." },
           { es: "Le cas échéant, les frais seront partagés à parts égales.", en: "Where applicable, costs will be shared equally." },
-          { es: "Le preneur pourra sous-louer, pour autant que le bailleur y ait consenti par écrit.", en: "The tenant may sublet, provided the landlord has consented in writing." },
         ],
         checkpoint: [
           {
@@ -200,6 +232,35 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
             sentence: "Les clés seront remises à l'acquéreur le jour de ___ vente.",
             answer: "ladite",
             explanation: "\"Ladite\" refers back to the sale already mentioned; \"de\" + \"ladite\" doesn't contract (only \"le\" and \"les\" do: \"dudit\", \"desdits\").",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Le locataire renonce à ledit droit.",
+            answer: "Le locataire renonce audit droit.",
+            altAnswers: ["Le preneur renonce audit droit."],
+            explanation: "\"Ledit\" contracts with \"à\" exactly like \"le\": \"à + ledit\" becomes \"audit\" (and \"de + ledit\" becomes \"dudit\"), written as one word.",
+          },
+        ],
+      },
+      {
+        heading: "Recap: obliging and conditioning",
+        body: [
+          "Obligation is expressed by the deontic present (\"le preneur s'engage à\", \"le vendeur garantit\") and the deontic future (\"le preneur devra\", \"le loyer sera payable\"): neither describes or predicts; both command. Conditions take \"à condition que\" or the more formal \"pour autant que\" + subjunctive, and \"sous réserve que\" + subjunctive.",
+        ],
+        examples: [
+          { es: "Le preneur pourra sous-louer, pour autant que le bailleur y ait consenti par écrit.", en: "The tenant may sublet, provided the landlord has consented in writing." },
+          { es: "Le locataire devra souscrire une assurance habitation.", en: "The tenant shall take out home insurance." },
+          { es: "La vente sera conclue sous réserve que le prêt soit accordé.", en: "The sale will be concluded subject to the loan being granted." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Complete: Le preneur pourra installer une antenne, pour autant que le bailleur ___ donné son accord.",
+            options: ["ait", "a", "aura", "avait"],
+            correctIndex: 0,
+            explanation: "\"Pour autant que\", like \"à condition que\" and \"sous réserve que\", takes the subjunctive: \"ait donné\". The indicative forms \"a\", \"aura\" and \"avait\" are wrong after it.",
           },
           {
             type: "translate",
@@ -270,23 +331,18 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correctly written?",
-        options: [
-          "Il est fait référence audit article dans l'annexe.",
-          "Il est fait référence à le dit article dans l'annexe.",
-          "Il est fait référence à ledit article dans l'annexe.",
-          "Il est fait référence au dit article dans l'annexe.",
-        ],
+        options: ["Il est fait référence audit article dans l'annexe.", "Il est fait référence à le dit article dans l'annexe.", "Il est fait référence à ledit article dans l'annexe.", "Il est fait référence au dit article dans l'annexe."],
         correctIndex: 0,
         explanation: "\"À + ledit\" contracts to \"audit\", in one word, exactly like \"à + le\" → \"au\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French in legal style.",
-        source: "This contract is concluded for a period of three years.",
+        prompt: "Correct the sentence.",
+        source: "Ce présent contrat est conclu pour une durée de trois ans.",
         answer: "Le présent contrat est conclu pour une durée de trois ans.",
         altAnswers: ["Le présent contrat est conclu pour une période de trois ans.", "Le présent contrat est consenti pour une durée de trois ans."],
-        explanation: "\"Le présent contrat\" (this contract): \"présent\" before the noun is the legal self-reference. A contract is \"conclu\".",
+        explanation: "\"Présent\" already does the pointing: \"le présent contrat\" means this contract. \"Ce présent contrat\" says this twice.",
       },
       {
         type: "fill-blank",
@@ -314,6 +370,15 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         answer: "Le vendeur devra remettre les clés, à moins que l'acquéreur n'y renonce.",
         altAnswers: ["Le vendeur devra remettre les clés, à moins que l'acquéreur y renonce.", "Le vendeur devra remettre les clés, sauf si l'acquéreur y renonce.", "Le vendeur devra remettre les clés, à moins que l'acheteur n'y renonce.", "Le vendeur devra remettre les clés, à moins que l'acheteur y renonce."],
         explanation: "\"À moins que\" + subjunctive, often with the ne explétif (\"n'y renonce\"); \"sauf si\" takes the indicative.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn it into a legal obligation with the deontic future.",
+        source: "Le locataire paie le loyer avant le 5 du mois.",
+        answer: "Le locataire devra payer le loyer avant le 5 du mois.",
+        altAnswers: ["Le locataire paiera le loyer avant le 5 du mois.", "Le locataire devra régler le loyer avant le 5 du mois.", "Le locataire réglera le loyer avant le 5 du mois."],
+        explanation: "In a contract the future commands rather than predicts: \"devra payer\" (or simply \"paiera\") states the obligation. The present \"paie\" only describes a habit.",
       },
       {
         type: "word-order",
@@ -351,14 +416,38 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         heading: "Recap: the clauses every contract has",
         body: [
           "A French contract is a series of \"articles\", each headed by the name of its clause: \"Objet\" (what the contract is about), \"Durée\" (how long it lasts), \"Prix\" or \"Rémunération\", \"Obligations des parties\", \"Confidentialité\", \"Non-concurrence\" (a ban on competing, which in employment must be limited in time and space and paid), \"Clause résolutoire\" (automatic termination if one party fails, for example to pay rent), \"Force majeure\" (an unforeseeable, irresistible event that excuses non-performance) and \"Juridiction compétente\" or \"Attribution de juridiction\" (which court will hear disputes).",
+        ],
+        examples: [
+          { es: "Le Prestataire s'engage à ne divulguer aucune information confidentielle.", en: "The Service Provider undertakes not to disclose any confidential information." },
+          { es: "Aucune des parties ne pourra être tenue responsable en cas de force majeure.", en: "Neither party may be held liable in the event of force majeure." },
+          { es: "Tout litige sera soumis au tribunal de commerce de Lyon.", en: "Any dispute will be submitted to the Lyon commercial court." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A lease says the lease ends automatically if the rent is unpaid two months after a formal reminder. What is this clause?",
+            options: ["une clause résolutoire", "une clause de non-concurrence", "une clause de confidentialité", "une clause attributive de juridiction"],
+            correctIndex: 0,
+            explanation: "\"La clause résolutoire\" provides for automatic termination (\"résolution\") when one party fails a key obligation.",
+          },
+          {
+            type: "multiple-choice",
+            question: "Which event would most likely count as force majeure?",
+            options: ["A flood that destroys the supplier's warehouse.", "A rise in the price of raw materials.", "The supplier's accountant forgetting an invoice.", "A strike announced six months in advance."],
+            correctIndex: 0,
+            explanation: "French law requires an event that is unforeseeable, irresistible and beyond the party's control; price rises and foreseeable events don't qualify.",
+          },
+        ],
+      },
+      {
+        heading: "Recap: the style of a clause",
+        body: [
           "Each clause uses the deontic present or future and a nominal style: \"Le présent contrat a pour objet la fourniture de...\", \"Il prendra effet à compter de sa signature\", \"Tout litige relatif à son exécution sera soumis aux tribunaux de Paris.\"",
         ],
         examples: [
           { es: "Le présent contrat a pour objet la maintenance du parc informatique du Client.", en: "The purpose of this contract is the maintenance of the Client's computer equipment." },
           { es: "Le contrat est conclu pour une durée d'un an à compter de sa signature.", en: "The contract is concluded for one year from its signature." },
-          { es: "Le Prestataire s'engage à ne divulguer aucune information confidentielle.", en: "The Service Provider undertakes not to disclose any confidential information." },
-          { es: "Aucune des parties ne pourra être tenue responsable en cas de force majeure.", en: "Neither party may be held liable in the event of force majeure." },
-          { es: "Tout litige sera soumis au tribunal de commerce de Lyon.", en: "Any dispute will be submitted to the Lyon commercial court." },
+          { es: "Le Client devra régler chaque facture sous trente jours.", en: "The Client shall pay each invoice within thirty days." },
         ],
         checkpoint: [
           {
@@ -371,11 +460,13 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
             explanation: "\"Avoir pour objet\" + noun is the standard opening of the Objet clause; \"mobilier\" is the collective furniture.",
           },
           {
-            type: "multiple-choice",
-            question: "A lease says the lease ends automatically if the rent is unpaid two months after a formal reminder. What is this clause?",
-            options: ["une clause résolutoire", "une clause de non-concurrence", "une clause de confidentialité", "une clause attributive de juridiction"],
-            correctIndex: 0,
-            explanation: "\"La clause résolutoire\" provides for automatic termination (\"résolution\") when one party fails a key obligation.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into contract style with « a pour objet ».",
+            source: "Ce contrat sert à organiser le transport des marchandises.",
+            answer: "Le présent contrat a pour objet le transport des marchandises.",
+            altAnswers: ["Le présent contrat a pour objet l'organisation du transport des marchandises."],
+            explanation: "The Objet clause is nominal: \"le présent contrat a pour objet\" + a noun (\"le transport\", \"l'organisation du transport\"), instead of a verb like \"sert à organiser\".",
           },
         ],
       },
@@ -402,10 +493,10 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Neither party may be held liable [in the event of force majeure].",
-        sentence: "Aucune des parties ne pourra être tenue responsable ___.",
+        en: "Delivery delays [in the event of force majeure] will not give rise to any compensation.",
+        sentence: "Les retards de livraison ___ ne donneront lieu à aucune indemnité.",
         answer: "en cas de force majeure",
-        explanation: "\"En cas de\" + noun; \"force majeure\" stays in French in English contracts too.",
+        explanation: "\"En cas de force majeure\": an unforeseeable, irresistible event excuses non-performance, so no compensation is due.",
       },
       {
         type: "translate",
@@ -433,18 +524,6 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         answer: "Tout litige relatif au présent contrat sera soumis aux tribunaux de Bordeaux.",
         altAnswers: ["Tout litige relatif au présent contrat sera porté devant les tribunaux de Bordeaux.", "Tout litige relatif au présent contrat relèvera de la compétence des tribunaux de Bordeaux.", "Tout différend relatif au présent contrat sera soumis aux tribunaux de Bordeaux."],
         explanation: "\"Tout litige\" (any dispute), \"relatif à\", and \"soumis aux tribunaux de\": the juridiction compétente clause.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which event would most likely count as force majeure?",
-        options: [
-          "A flood that destroys the supplier's warehouse.",
-          "A rise in the price of raw materials.",
-          "The supplier's accountant forgetting an invoice.",
-          "A strike announced six months in advance.",
-        ],
-        correctIndex: 0,
-        explanation: "French law requires an event that is unforeseeable, irresistible and beyond the party's control; price rises and foreseeable events don't qualify.",
       },
       {
         type: "fill-blank",
@@ -485,6 +564,14 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         explanation: "Each clause name describes its effect: \"résolutoire\" from \"résolution\" (termination for breach).",
       },
       {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Le salarié s'engage à ne pas divulguer aucun document interne.",
+        answer: "Le salarié s'engage à ne divulguer aucun document interne.",
+        explanation: "\"Aucun\" already carries the negation with \"ne\": \"ne... aucun\". Adding \"pas\" makes a double negative, which is wrong in written French.",
+      },
+      {
         type: "word-order",
         prompt: "Put the words in order to say: The contract will take effect on 1 March.",
         words: ["Le contrat", "prendra", "effet", "le 1er mars."],
@@ -493,14 +580,14 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Tout litige sera soumis au tribunal de commerce.",
-        explanation: "\"Tout litige\" (any dispute): \"tout\" + singular noun is the legal any.",
+        audio: "Tout litige relatif à la livraison sera soumis au tribunal de commerce de Nantes.",
+        explanation: "The jurisdiction clause: \"tout litige\" (any dispute) \"sera soumis à\" a named court, in the deontic future.",
       },
       {
         type: "speak",
-        text: "Le présent contrat a pour objet la fourniture de mobilier de bureau.",
-        prompt: "Say it in French: The purpose of this contract is the supply of office furniture.",
-        explanation: "\"Avoir pour objet\" opens the first article of almost every contract.",
+        prompt: "Say it in French: The purpose of this agreement is the cleaning of the offices.",
+        text: "Le présent accord a pour objet le nettoyage des bureaux.",
+        explanation: "The Objet clause: \"le présent accord a pour objet\" + a noun phrase.",
       },
     ],
   },
@@ -514,17 +601,41 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Recap: the verb goes with the noun",
+        heading: "Recap: complaints, actions, appeals",
         body: [
           "Legal French pairs each noun with one verb, and the wrong verb sounds amateur. You \"porter plainte\" (file a complaint for an offence) but \"déposer une main courante\" (have an incident recorded at the police station without starting proceedings). You \"intenter une action\" (bring an action) against someone, \"interjeter appel\" of a jugement and \"se pourvoir en cassation\" against an arrêt.",
-          "The court \"fait droit à une demande\" (grants it) or \"déboute\" the claimant \"de sa demande\" (dismisses it: the person is the object, the claim follows with \"de\"). In criminal cases the court \"prononce une peine\", and the convicted person \"purge sa peine\" (serves the sentence). \"Une peine avec sursis\" is suspended; \"une peine ferme\" is to be served.",
         ],
         examples: [
           { es: "Elle a porté plainte pour vol au commissariat.", en: "She reported the theft to the police." },
           { es: "Il a déposé une main courante après les menaces de son voisin.", en: "He had the neighbour's threats recorded by the police." },
           { es: "Le syndicat a intenté une action contre l'entreprise.", en: "The union brought an action against the company." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Your neighbour shouts threats at you but you don't want to start proceedings yet. What do you do at the police station?",
+            options: ["déposer une main courante", "porter plainte", "intenter une action", "se pourvoir en cassation"],
+            correctIndex: 0,
+            explanation: "\"Une main courante\" records the facts officially, with a date, without triggering prosecution; useful evidence if things escalate.",
+          },
+          {
+            type: "multiple-choice",
+            question: "Which pairing is wrong?",
+            options: ["faire une plainte", "porter plainte", "déposer plainte", "retirer sa plainte"],
+            correctIndex: 0,
+            explanation: "One \"porte\" or \"dépose\" plainte, and can later \"retirer sa plainte\". \"Faire une plainte\" is an anglicism.",
+          },
+        ],
+      },
+      {
+        heading: "Recap: what the court does with a claim and a sentence",
+        body: [
+          "The court \"fait droit à une demande\" (grants it) or \"déboute\" the claimant \"de sa demande\" (dismisses it: the person is the object, the claim follows with \"de\"). In criminal cases the court \"prononce une peine\", and the convicted person \"purge sa peine\" (serves the sentence). \"Une peine avec sursis\" is suspended; \"une peine ferme\" is to be served.",
+        ],
+        examples: [
           { es: "Le tribunal l'a débouté de toutes ses demandes.", en: "The court dismissed all his claims." },
           { es: "Il a purgé sa peine et vient d'être libéré.", en: "He has served his sentence and has just been released." },
+          { es: "Elle a été condamnée à six mois avec sursis.", en: "She was given a six-month suspended sentence." },
         ],
         checkpoint: [
           {
@@ -537,11 +648,13 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
             explanation: "\"Faire droit à une demande\" is the legal 'grant'; \"accueillir une demande\" is a close synonym.",
           },
           {
-            type: "multiple-choice",
-            question: "Your neighbour shouts threats at you but you don't want to start proceedings yet. What do you do at the police station?",
-            options: ["déposer une main courante", "porter plainte", "intenter une action", "se pourvoir en cassation"],
-            correctIndex: 0,
-            explanation: "\"Une main courante\" records the facts officially, with a date, without triggering prosecution; useful evidence if things escalate.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Le juge a débouté la demande du locataire.",
+            answer: "Le juge a débouté le locataire de sa demande.",
+            altAnswers: ["Le juge a rejeté la demande du locataire."],
+            explanation: "\"Débouter\" takes the person as its object and the claim with \"de\": \"débouter quelqu'un de sa demande\". You can \"rejeter la demande\", but you cannot \"débouter la demande\".",
           },
         ],
       },
@@ -601,13 +714,6 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         explanation: "\"Interjeter appel\" (formal) or \"faire appel\", with no article before \"appel\".",
       },
       {
-        type: "multiple-choice",
-        question: "Which pairing is wrong?",
-        options: ["faire une plainte", "porter plainte", "déposer plainte", "retirer sa plainte"],
-        correctIndex: 0,
-        explanation: "One \"porte\" or \"dépose\" plainte, and can later \"retirer sa plainte\". \"Faire une plainte\" is an anglicism.",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "The minister [appealed to the Court of Cassation].",
@@ -637,11 +743,19 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "His request was granted on appeal.",
+        prompt: "Correct the sentence.",
+        source: "Sa demande a été faite droit en appel.",
         answer: "Il a été fait droit à sa demande en appel.",
         altAnswers: ["Sa demande a été accueillie en appel.", "La cour d'appel a fait droit à sa demande.", "Sa demande a été acceptée en appel."],
-        explanation: "\"Faire droit à\" cannot be passive with \"sa demande\" as subject, so French uses the impersonal \"il a été fait droit à\".",
+        explanation: "\"Faire droit à une demande\" can't be turned into a personal passive. The passive is impersonal: \"il a été fait droit à sa demande\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Make it a suspended sentence.",
+        source: "Il a été condamné à un an de prison ferme.",
+        answer: "Il a été condamné à un an de prison avec sursis.",
+        explanation: "\"Une peine ferme\" is to be served; \"une peine avec sursis\" is suspended. Only that part of the sentence changes.",
       },
       {
         type: "matching",
@@ -665,8 +779,8 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Bonjour, je viens déposer une main courante.",
         prompt: "Say it in French at the police station: Hello, I've come to have an incident recorded.",
+        text: "Bonjour, je viens déposer une main courante.",
         explanation: "\"Déposer une main courante\": an official record without starting proceedings.",
       },
     ],
@@ -681,17 +795,41 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Recap: three questions, plain answers",
+        heading: "Recap: three questions to ask of the letter",
         body: [
           "Your grandmother hands you a letter from the CAF (the family benefits office): \"Madame, Dans le cadre du réexamen de vos droits à l'allocation de logement, nous vous remercions de bien vouloir nous transmettre, dans un délai de quinze jours à compter de la date du présent courrier, les pièces justificatives listées ci-dessous. À défaut de réception de ces documents dans le délai imparti, le versement de votre prestation sera suspendu.\" To explain it, answer three questions: what do they want, by when, and what happens if she does nothing?",
+        ],
+        examples: [
+          { es: "La préfecture te demande de prendre rendez-vous pour renouveler ta carte.", en: "The prefecture is asking you to book an appointment to renew your card." },
+          { es: "Tu as jusqu'au 20 pour le faire.", en: "You have until the 20th to do it." },
+          { es: "Sinon, ils arrêtent de te verser l'aide.", en: "Otherwise they'll stop paying you the benefit." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "The letter says: \"À défaut de réception de ces documents dans le délai imparti, le versement de votre prestation sera suspendu.\" How do you explain it to your grandfather?",
+            options: ["Si tu n'envoies pas les papiers à temps, ils arrêtent de te payer.", "Si tu envoies les papiers, ils te paieront plus.", "Ils ont déjà arrêté de te payer.", "Ils vont te rembourser les papiers."],
+            correctIndex: 0,
+            explanation: "\"À défaut de réception\" = if they don't receive; \"le versement sera suspendu\" = they will stop paying.",
+          },
+          {
+            type: "multiple-choice",
+            question: "\"Vous disposez d'un délai de deux mois pour contester cette décision.\" How do you explain it to your uncle?",
+            options: ["Si tu n'es pas d'accord, tu as deux mois pour le dire.", "Ils vont réexaminer la décision dans deux mois.", "La décision sera appliquée dans deux mois.", "Tu dois payer dans deux mois."],
+            correctIndex: 0,
+            explanation: "\"Disposer d'un délai de deux mois pour contester\" = you have two months to challenge it.",
+          },
+        ],
+      },
+      {
+        heading: "Recap: saying it at the kitchen table",
+        body: [
           "Then say it as you would at her kitchen table, with \"tu\" if that's how you speak to her: \"Ils vérifient ton aide au logement. Il faut que tu leur envoies les papiers de la liste avant le 20, sinon ils arrêtent de te la verser. Ne t'inquiète pas, on le fait ensemble ce soir.\" Notice the moves: \"ils\" for the faceless administration, \"il faut que\" + subjunctive for the obligation, a real date instead of \"quinze jours à compter de\", and \"sinon\" for \"à défaut de\".",
         ],
         examples: [
           { es: "Ils veulent que tu leur envoies ton dernier avis d'imposition.", en: "They want you to send them your last tax notice." },
-          { es: "Tu as jusqu'au 20 pour le faire.", en: "You have until the 20th to do it." },
-          { es: "Sinon, ils arrêtent de te verser l'aide.", en: "Otherwise they'll stop paying you the benefit." },
           { es: "C'est juste un contrôle, ce n'est pas grave.", en: "It's just a routine check, it's nothing serious." },
-          { es: "La préfecture te demande de prendre rendez-vous pour renouveler ta carte.", en: "The prefecture is asking you to book an appointment to renew your card." },
+          { es: "Il faut que tu signes ici et que tu le renvoies.", en: "You need to sign here and send it back." },
         ],
         checkpoint: [
           {
@@ -704,16 +842,13 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
             explanation: "\"Vouloir que\" + subjunctive (\"tu envoies\"); \"le RIB\" (relevé d'identité bancaire) is what everyone calls bank details.",
           },
           {
-            type: "multiple-choice",
-            question: "The letter says: \"À défaut de réception de ces documents dans le délai imparti, le versement de votre prestation sera suspendu.\" How do you explain it to your grandfather?",
-            options: [
-              "Si tu n'envoies pas les papiers à temps, ils arrêtent de te payer.",
-              "Si tu envoies les papiers, ils te paieront plus.",
-              "Ils ont déjà arrêté de te payer.",
-              "Ils vont te rembourser les papiers.",
-            ],
-            correctIndex: 0,
-            explanation: "\"À défaut de réception\" = if they don't receive; \"le versement sera suspendu\" = they will stop paying.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into everyday French with « il faut que », speaking to your grandmother as « tu ».",
+            source: "Vous devez transmettre votre RIB à la caisse.",
+            answer: "Il faut que tu envoies ton RIB à la caisse.",
+            altAnswers: ["Il faut que tu transmettes ton RIB à la caisse.", "Il faut que tu leur envoies ton RIB.", "Il faut que tu leur transmettes ton RIB.", "Il faut que tu envoies ton RIB à la Caisse."],
+            explanation: "The plain version swaps the administrative \"vous devez transmettre\" for \"il faut que\" + subjunctive and \"tu\": \"il faut que tu envoies\".",
           },
         ],
       },
@@ -757,23 +892,11 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, speaking to your grandmother as \"tu\".",
-        source: "You don't have to do anything, it's just for information.",
+        prompt: "Correct the sentence.",
+        source: "Tu n'as pas rien à faire, c'est juste pour information.",
         answer: "Tu n'as rien à faire, c'est juste pour information.",
         altAnswers: ["Tu n'as rien à faire, c'est juste pour t'informer.", "Tu n'as rien à faire, c'est seulement pour information.", "Tu n'as rien à faire, c'est juste pour te prévenir.", "Tu n'as rien à faire, c'est juste à titre d'information."],
-        explanation: "\"Ne... rien à faire\": nothing to do. Many official letters are \"pour information\" only, and saying so is the most reassuring part.",
-      },
-      {
-        type: "multiple-choice",
-        question: "\"Vous disposez d'un délai de deux mois pour contester cette décision.\" How do you explain it to your uncle?",
-        options: [
-          "Si tu n'es pas d'accord, tu as deux mois pour le dire.",
-          "Ils vont réexaminer la décision dans deux mois.",
-          "La décision sera appliquée dans deux mois.",
-          "Tu dois payer dans deux mois.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Disposer d'un délai de deux mois pour contester\" = you have two months to challenge it.",
+        explanation: "\"Rien\" already carries the negation with \"ne\": \"tu n'as rien à faire\". \"Ne pas rien\" is a double negative.",
       },
       {
         type: "translate",
@@ -811,6 +934,14 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         explanation: "\"On le fait\" (present with future meaning) is warmer than \"Faisons-le\"; both are correct.",
       },
       {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Il faut que tu fais une copie de ta carte Vitale.",
+        answer: "Il faut que tu fasses une copie de ta carte Vitale.",
+        explanation: "\"Il faut que\" always takes the subjunctive: \"que tu fasses\", not the indicative \"tu fais\".",
+      },
+      {
         type: "word-order",
         prompt: "Put the words in order to say: They want you to book an appointment.",
         words: ["Ils", "veulent", "que", "tu", "prennes", "rendez-vous."],
@@ -827,8 +958,8 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Ne t'inquiète pas, ce n'est qu'un contrôle de routine.",
         prompt: "Say it in French to your grandmother: Don't worry, it's only a routine check.",
+        text: "Ne t'inquiète pas, ce n'est qu'un contrôle de routine.",
         explanation: "\"Ne... que\" (only) and \"un contrôle de routine\": the reassurance comes first.",
       },
       {
@@ -852,17 +983,14 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Recap: the money, the inspections, the exit",
+        heading: "Recap: rent and service charges",
         body: [
-          "A French lease (\"le bail d'habitation\", plural \"les baux\") separates \"le loyer hors charges\" (the rent itself) from \"les charges\" (service charges: stairwell cleaning, rubbish collection tax, communal heating), paid as a monthly advance (\"provisions sur charges\") and adjusted once a year (\"la régularisation des charges\"). \"Le dépôt de garantie\" (one month's rent excluding charges for an unfurnished flat, two for a furnished one) is returned within one month of leaving if the flat is in the same state, two months if not. Everyone calls it \"la caution\", but strictly \"la caution\" is the guarantor: \"se porter caution solidaire\" means guaranteeing the whole rent.",
-          "\"L'état des lieux d'entrée\" and \"l'état des lieux de sortie\" are the move-in and move-out inspections, compared line by line. \"Le préavis\" is the notice the tenant gives: three months for an unfurnished flat, one month for a furnished one or in a \"zone tendue\" (high-demand area). Finally, \"la trêve hivernale\" (1 November to 31 March) is the winter period during which tenants cannot be evicted.",
+          "A French lease (\"le bail d'habitation\", plural \"les baux\") separates \"le loyer hors charges\" (the rent itself) from \"les charges\" (service charges: stairwell cleaning, rubbish collection tax, communal heating), paid as a monthly advance (\"provisions sur charges\") and adjusted once a year (\"la régularisation des charges\").",
         ],
         examples: [
           { es: "Le loyer s'élève à 780 euros hors charges, plus 60 euros de provisions sur charges.", en: "The rent is 780 euros excluding charges, plus 60 euros in advance service charges." },
-          { es: "Le dépôt de garantie vous sera restitué dans un délai d'un mois.", en: "Your deposit will be returned to you within one month." },
-          { es: "Ses parents se sont portés caution solidaire.", en: "His parents stood as joint and several guarantors." },
-          { es: "Sur l'état des lieux d'entrée, la moquette était déjà tachée.", en: "On the move-in inventory, the carpet was already stained." },
-          { es: "Aucune expulsion ne peut avoir lieu pendant la trêve hivernale.", en: "No eviction can take place during the winter truce." },
+          { es: "Les charges comprennent l'entretien des parties communes.", en: "Service charges include the upkeep of the common areas." },
+          { es: "La régularisation des charges a lieu chaque année en mars.", en: "The service charges are adjusted every year in March." },
         ],
         checkpoint: [
           {
@@ -875,11 +1003,70 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
             explanation: "\"Hors charges\" (HC) vs \"charges comprises\" (CC); \"s'élever à\" is the formal to amount to.",
           },
           {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The rent is 900 euros [including charges].",
+            sentence: "Le loyer est de 900 euros ___.",
+            answer: "charges comprises",
+            altAnswers: ["CC"],
+            explanation: "\"Charges comprises\" (CC), the opposite of \"hors charges\" (HC).",
+          },
+        ],
+      },
+      {
+        heading: "Recap: the deposit and the guarantor",
+        body: [
+          "\"Le dépôt de garantie\" (one month's rent excluding charges for an unfurnished flat, two for a furnished one) is returned within one month of leaving if the flat is in the same state, two months if not. Everyone calls it \"la caution\", but strictly \"la caution\" is the guarantor: \"se porter caution solidaire\" means guaranteeing the whole rent.",
+        ],
+        examples: [
+          { es: "Le dépôt de garantie vous sera restitué dans un délai d'un mois.", en: "Your deposit will be returned to you within one month." },
+          { es: "Ses parents se sont portés caution solidaire.", en: "His parents stood as joint and several guarantors." },
+          { es: "Pour un meublé, le dépôt de garantie est de deux mois de loyer.", en: "For a furnished flat, the deposit is two months' rent." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A friend says: « J'ai versé une caution de 800 euros. » Strictly speaking, what did she pay?",
+            options: ["le dépôt de garantie", "la caution solidaire", "les provisions sur charges", "le préavis"],
+            correctIndex: 0,
+            explanation: "Everyone says \"la caution\" for the money, but strictly it is \"le dépôt de garantie\". \"La caution\" is the guarantor, the person who \"se porte caution\". Provisions are the monthly service charges, and \"le préavis\" is notice, not money.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "My parents [stood as guarantors] for my flat.",
+            sentence: "Mes parents ___ pour mon appartement.",
+            answer: "se sont portés caution",
+            altAnswers: ["se sont portés garants"],
+            explanation: "\"Se porter caution\": \"caution\" stays invariable in this phrase, \"portés\" agrees with the subject.",
+          },
+        ],
+      },
+      {
+        heading: "Recap: inspections, notice and the winter truce",
+        body: [
+          "\"L'état des lieux d'entrée\" and \"l'état des lieux de sortie\" are the move-in and move-out inspections, compared line by line. \"Le préavis\" is the notice the tenant gives: three months for an unfurnished flat, one month for a furnished one or in a \"zone tendue\" (high-demand area). Finally, \"la trêve hivernale\" (1 November to 31 March) is the winter period during which tenants cannot be evicted.",
+        ],
+        examples: [
+          { es: "Sur l'état des lieux d'entrée, la moquette était déjà tachée.", en: "On the move-in inventory, the carpet was already stained." },
+          { es: "Aucune expulsion ne peut avoir lieu pendant la trêve hivernale.", en: "No eviction can take place during the winter truce." },
+          { es: "Elle a donné son préavis le 2 mai, par lettre recommandée.", en: "She gave notice on 2 May, by registered letter." },
+        ],
+        checkpoint: [
+          {
             type: "multiple-choice",
             question: "Antoine leaves an unfurnished flat in Bordeaux, a zone tendue. How much notice must he give?",
             options: ["un mois", "trois mois", "deux semaines", "six mois"],
             correctIndex: 0,
             explanation: "Normally three months for unfurnished housing, reduced to one month in a \"zone tendue\" (and always one month for furnished lets).",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "L'état de lieux d'entrée a été signé par les deux parties.",
+            answer: "L'état des lieux d'entrée a été signé par les deux parties.",
+            explanation: "The inspection is \"l'état des lieux\", with \"des\": it records the state of the premises (\"les lieux\", always plural).",
           },
         ],
       },
@@ -902,15 +1089,6 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         answer: "Nous ferons l'état des lieux de sortie samedi matin.",
         altAnswers: ["On fera l'état des lieux de sortie samedi matin.", "Nous allons faire l'état des lieux de sortie samedi matin.", "On va faire l'état des lieux de sortie samedi matin.", "L'état des lieux de sortie aura lieu samedi matin."],
         explanation: "\"Faire l'état des lieux\" (the noun is singular: \"état\", while \"lieux\" is always plural).",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "My parents [stood as guarantors] for my flat.",
-        sentence: "Mes parents ___ pour mon appartement.",
-        answer: "se sont portés caution",
-        altAnswers: ["se sont portés garants"],
-        explanation: "\"Se porter caution\": \"caution\" stays invariable in this phrase, \"portés\" agrees with the subject.",
       },
       {
         type: "translate",
@@ -947,15 +1125,6 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         explanation: "\"Faire l'objet de\" + noun is a favourite nominal turn; \"régulariser les charges\" compares advances and real costs.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The rent is 900 euros [including charges].",
-        sentence: "Le loyer est de 900 euros ___.",
-        answer: "charges comprises",
-        altAnswers: ["CC"],
-        explanation: "\"Charges comprises\" (CC), the opposite of \"hors charges\" (HC).",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -974,6 +1143,14 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         explanation: "Two months when the move-in and move-out inventories differ, one month when they match. Plural: \"les états des lieux\".",
       },
       {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Make it plural.",
+        source: "Le bail du locataire a été renouvelé.",
+        answer: "Les baux des locataires ont été renouvelés.",
+        explanation: "\"Bail\" has an irregular plural, \"les baux\" (like \"travail\", \"travaux\"); \"du\" becomes \"des\", and the verb and participle agree: \"ont été renouvelés\".",
+      },
+      {
         type: "word-order",
         prompt: "Put the words in order to say: The lease is signed for three years.",
         words: ["Le bail", "est", "conclu", "pour", "trois ans."],
@@ -982,13 +1159,13 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Le dépôt de garantie vous sera restitué dans un délai d'un mois.",
-        explanation: "\"Restituer\" is the legal give back; \"dans un délai de\" = within.",
+        audio: "Le propriétaire doit restituer le dépôt de garantie sous un mois.",
+        explanation: "\"Restituer le dépôt de garantie\": the landlord returns the deposit, within one month if the flat is in the same state.",
       },
       {
         type: "speak",
-        text: "Pourriez-vous m'indiquer le montant des charges, s'il vous plaît ?",
         prompt: "Say it in French to the letting agent: Could you tell me the amount of the service charges, please?",
+        text: "Pourriez-vous m'indiquer le montant des charges, s'il vous plaît ?",
         explanation: "\"Le montant des charges\": always ask whether a quoted rent is \"hors charges\" or \"charges comprises\".",
       },
     ],

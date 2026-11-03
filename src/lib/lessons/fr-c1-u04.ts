@@ -28,30 +28,16 @@ export const FR_C1_U04: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Ayant + past participle: having done",
+        heading: "The perfect participle: done before",
         body: [
           "At the Upper-intermediate level you met the present participle (\"étant malade, il est resté chez lui\"). Its compound form, the perfect participle, presents an action as completed before the main verb: \"Ayant terminé son rapport, elle est partie\" (having finished her report, she left). It's the written equivalent of \"Après avoir terminé son rapport, elle est partie\" or \"Comme elle avait terminé son rapport, elle est partie\".",
-          "Form: \"ayant\" + past participle for avoir verbs (\"ayant compris\", \"ayant lu\", \"n'ayant rien dit\"), \"étant\" + past participle for être verbs (\"étant arrivé\", \"étant partis\"), and \"s'étant\" + participle for pronominal verbs (\"s'étant trompé\").",
-          "The perfect participle often adds a nuance of cause: \"N'ayant pas reçu de réponse, je me permets de vous relancer\" (having received no answer = since I haven't received an answer). This is a classic phrase in formal emails. In speech, people prefer \"comme\" or \"après avoir\"; the participle is a marker of written, formal style.",
         ],
         examples: [
           { es: "Ayant terminé son rapport, elle est partie.", en: "Having finished her report, she left." },
-          { es: "N'ayant pas reçu de réponse, je me permets de vous relancer.", en: "Not having received a reply, I'm following up." },
           { es: "Ayant vécu dix ans à Montréal, il parle avec l'accent québécois.", en: "Having lived in Montreal for ten years, he speaks with a Quebec accent." },
-          { es: "Ayant tout compris, les élèves ont commencé l'exercice.", en: "Having understood everything, the pupils started the exercise." },
-          { es: "N'ayant rien mangé depuis le matin, il mourait de faim.", en: "Having eaten nothing since the morning, he was starving." },
           { es: "Ayant raté le dernier métro, nous sommes rentrés à pied.", en: "Having missed the last metro, we walked home." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into formal French with a perfect participle.",
-            source: "Not having received your reply, I'm writing to you again.",
-            answer: "N'ayant pas reçu votre réponse, je vous écris de nouveau.",
-            altAnswers: ["N'ayant pas reçu de réponse de votre part, je vous écris de nouveau.", "N'ayant pas reçu votre réponse, je vous écris à nouveau.", "N'ayant pas reçu votre réponse, je me permets de vous relancer.", "N'ayant pas reçu de réponse, je vous écris de nouveau."],
-            explanation: "\"N'ayant pas reçu\": the negation surrounds \"ayant\".",
-          },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -64,21 +50,65 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "Étant + past participle: agreement",
+        heading: "Forming it: ayant, étant, s'étant",
+        body: [
+          "Form: \"ayant\" + past participle for avoir verbs (\"ayant compris\", \"ayant lu\", \"n'ayant rien dit\"), \"étant\" + past participle for être verbs (\"étant arrivé\", \"étant partis\"), and \"s'étant\" + participle for pronominal verbs (\"s'étant trompé\").",
+        ],
+        examples: [
+          { es: "Ayant tout compris, les élèves ont commencé l'exercice.", en: "Having understood everything, the pupils started the exercise." },
+          { es: "Étant arrivé le premier, il a choisi sa place.", en: "Having arrived first, he chose his seat." },
+          { es: "S'étant trompé d'adresse, le livreur a appelé.", en: "Having gone to the wrong address, the courier phoned." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which form completes '___ sans parapluie, il a été trempé' (sortir)?",
+            options: ["Étant sorti", "Ayant sorti", "S'étant sorti", "Étant sortant"],
+            correctIndex: 0,
+            explanation: "\"Sortir\" (to go out) takes être, so the perfect participle is \"étant sorti\". \"Ayant\" is for avoir verbs; \"s'étant\" only for pronominal verbs.",
+          },
+        ],
+      },
+      {
+        heading: "A nuance of cause, a formal style",
+        body: [
+          "The perfect participle often adds a nuance of cause: \"N'ayant pas reçu de réponse, je me permets de vous relancer\" (having received no answer = since I haven't received an answer). This is a classic phrase in formal emails. In speech, people prefer \"comme\" or \"après avoir\"; the participle is a marker of written, formal style.",
+        ],
+        examples: [
+          { es: "N'ayant pas reçu de réponse, je me permets de vous relancer.", en: "Not having received a reply, I'm following up." },
+          { es: "N'ayant rien mangé depuis le matin, il mourait de faim.", en: "Having eaten nothing since the morning, he was starving." },
+          { es: "N'ayant pas pu venir, elle a envoyé un message.", en: "Not having been able to come, she sent a message." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into formal French with a perfect participle.",
+            source: "Not having received your reply, I'm writing to you again.",
+            answer: "N'ayant pas reçu votre réponse, je vous écris de nouveau.",
+            altAnswers: ["N'ayant pas reçu de réponse de votre part, je vous écris de nouveau.", "N'ayant pas reçu votre réponse, je vous écris à nouveau.", "N'ayant pas reçu votre réponse, je me permets de vous relancer.", "N'ayant pas reçu de réponse, je vous écris de nouveau."],
+            explanation: "\"N'ayant pas reçu\": the negation surrounds \"ayant\".",
+          },
+        ],
+      },
+      {
+        heading: "Être verbs: agreement",
         body: [
           "With être verbs, the participle agrees with the subject of the main clause, exactly as in the passé composé: \"Étant arrivée en retard, elle s'est excusée.\" \"Étant partis tôt, ils ont évité les bouchons.\" \"Étant nées à Lyon, elles connaissent bien la ville.\"",
-          "Pronominal verbs: \"S'étant levée tôt, elle a eu le temps de courir.\" \"S'étant trompés de route, ils sont arrivés en retard.\" The usual pronominal agreement rules apply.",
-          "With avoir verbs, \"ayant\" + participle normally doesn't agree (no preceding direct object): \"Ayant fini ses devoirs, Léa est sortie.\" But if a direct object pronoun comes before: \"Cette lettre, l'ayant relue, il l'a envoyée\" (relue agrees with l' = la lettre).",
         ],
         examples: [
           { es: "Étant arrivée en retard, elle s'est excusée.", en: "Having arrived late, she apologised." },
           { es: "Étant partis tôt, ils ont évité les bouchons.", en: "Having left early, they avoided the traffic jams." },
           { es: "Étant nées à Lyon, elles connaissent bien la ville.", en: "Having been born in Lyon, they know the city well." },
-          { es: "S'étant levée tôt, elle a eu le temps de courir.", en: "Having got up early, she had time to go for a run." },
-          { es: "S'étant trompés de route, ils sont arrivés en retard.", en: "Having taken the wrong road, they arrived late." },
-          { es: "Cette lettre, l'ayant relue deux fois, il l'a enfin envoyée.", en: "Having reread this letter twice, he finally sent it." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Étant née à Bordeaux, elle adore le vin.", "Ayant née à Bordeaux, elle adore le vin.", "Étant né à Bordeaux, elle adore le vin.", "Ayant naître à Bordeaux, elle adore le vin."],
+            correctIndex: 0,
+            explanation: "\"Naître\" takes être; agreement with \"elle\": \"étant née\".",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -88,17 +118,45 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Étant arrivées en avance, les filles ont aidé à installer la salle.", "Étant arrivées tôt, les filles ont aidé à préparer la salle.", "Étant arrivées en avance, les filles ont aidé à préparer la salle."],
             explanation: "\"Arriver\" takes être: \"étant arrivées\", agreeing with \"les filles\".",
           },
+        ],
+      },
+      {
+        heading: "Pronominal verbs",
+        body: [
+          "Pronominal verbs: \"S'étant levée tôt, elle a eu le temps de courir.\" \"S'étant trompés de route, ils sont arrivés en retard.\" The usual pronominal agreement rules apply.",
+        ],
+        examples: [
+          { es: "S'étant levée tôt, elle a eu le temps de courir.", en: "Having got up early, she had time to go for a run." },
+          { es: "S'étant trompés de route, ils sont arrivés en retard.", en: "Having taken the wrong road, they arrived late." },
+          { es: "S'étant disputées, les deux sœurs ne se parlent plus.", en: "Having fallen out, the two sisters no longer speak." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which sentence is correct? (The speaker is a woman.)",
-            options: [
-              "M'étant trompée d'adresse, je suis arrivée en retard.",
-              "M'ayant trompée d'adresse, je suis arrivée en retard.",
-              "M'étant trompé d'adresse, je suis arrivé en retard.",
-              "Étant me trompée d'adresse, je suis arrivée en retard.",
-            ],
+            options: ["M'étant trompée d'adresse, je suis arrivée en retard.", "M'ayant trompée d'adresse, je suis arrivée en retard.", "M'étant trompé d'adresse, je suis arrivé en retard.", "Étant me trompée d'adresse, je suis arrivée en retard."],
             correctIndex: 0,
             explanation: "Pronominal → \"m'étant trompée\", agreeing with the female speaker.",
+          },
+        ],
+      },
+      {
+        heading: "Avoir verbs: usually no agreement",
+        body: [
+          "With avoir verbs, \"ayant\" + participle normally doesn't agree (no preceding direct object): \"Ayant fini ses devoirs, Léa est sortie.\" But if a direct object pronoun comes before: \"Cette lettre, l'ayant relue, il l'a envoyée\" (relue agrees with l' = la lettre).",
+        ],
+        examples: [
+          { es: "Cette lettre, l'ayant relue deux fois, il l'a enfin envoyée.", en: "Having reread this letter twice, he finally sent it." },
+          { es: "Ayant fini ses devoirs, Léa est sortie.", en: "Having finished her homework, Lea went out." },
+          { es: "Ces photos, les ayant triées, elle les a imprimées.", en: "Having sorted these photos, she printed them." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Ayant lu la lettre, elle l'a déchirée.", "Ayant lue la lettre, elle l'a déchirée.", "Étant lu la lettre, elle l'a déchirée.", "Ayant lu la lettre, elle l'a déchiré."],
+            correctIndex: 0,
+            explanation: "\"Ayant lu\" doesn't agree: the object \"la lettre\" comes after it. \"Déchirée\" does agree, because \"l'\" (the letter) comes before \"a\".",
           },
         ],
       },
@@ -106,29 +164,41 @@ export const FR_C1_U04: Lesson[] = [
         heading: "The same-subject rule",
         body: [
           "The perfect participle (like the gérondif) must refer to the subject of the main clause. \"Ayant terminé son rapport, elle est partie\": she finished, she left. If the subjects differ, the sentence becomes ambiguous or absurd: \"*Ayant terminé son rapport, son chef l'a félicitée\" literally says the boss finished the report.",
-          "Fixes: change the main clause so the subjects match (\"Ayant terminé son rapport, elle a été félicitée par son chef\"), or use a conjunction (\"Comme elle avait terminé son rapport, son chef l'a félicitée\" / \"Une fois qu'elle a eu terminé...\"). Next lesson shows a third fix: the absolute participial clause with its own subject.",
-          "English writers dangle participles too ('Having finished the report, the boss congratulated her'), but English readers tolerate it more. French grammar is stricter, and examiners notice. This unit's Error Hunt lesson is dedicated to it.",
         ],
         examples: [
-          { es: "Ayant terminé son rapport, elle a été félicitée par son chef.", en: "Having finished her report, she was congratulated by her boss." },
-          { es: "Comme elle avait terminé son rapport, son chef l'a félicitée.", en: "As she had finished her report, her boss congratulated her." },
           { es: "Ayant perdu ses clés, Paul a dû appeler un serrurier.", en: "Having lost his keys, Paul had to call a locksmith." },
-          { es: "Comme Paul avait perdu ses clés, sa voisine l'a hébergé.", en: "As Paul had lost his keys, his neighbour put him up." },
           { es: "Ayant obtenu son diplôme, Karim a trouvé un emploi à Nantes.", en: "Having got his degree, Karim found a job in Nantes." },
+          { es: "Ayant raté l'examen, Hugo a décidé de le repasser.", en: "Having failed the exam, Hugo decided to retake it." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "Which sentence respects the same-subject rule?",
-            options: [
-              "Ayant fini ses devoirs, Léa a regardé un film.",
-              "Ayant fini ses devoirs, la télé a été allumée.",
-              "Ayant fini ses devoirs, sa mère lui a permis de sortir.",
-              "Ayant fini ses devoirs, le film a commencé.",
-            ],
+            options: ["Ayant fini ses devoirs, Léa a regardé un film.", "Ayant fini ses devoirs, la télé a été allumée.", "Ayant fini ses devoirs, sa mère lui a permis de sortir.", "Ayant fini ses devoirs, le film a commencé."],
             correctIndex: 0,
             explanation: "Only in the first does the subject of the main clause (Léa) do the finishing.",
           },
+          {
+            type: "listen-choose",
+            audio: "Ayant perdu son portefeuille, elle a dû rentrer à pied.",
+            question: "What does it mean?",
+            options: ["Having lost her wallet, she had to walk home.", "She lost her wallet while walking home.", "Before losing her wallet, she walked home.", "Losing her wallet made her late home."],
+            correctIndex: 0,
+            explanation: "\"Ayant perdu\": the loss is completed before the main action, and it's the same subject (elle) who lost and walked.",
+          },
+        ],
+      },
+      {
+        heading: "Two fixes",
+        body: [
+          "Fixes: change the main clause so the subjects match (\"Ayant terminé son rapport, elle a été félicitée par son chef\"), or use a conjunction (\"Comme elle avait terminé son rapport, son chef l'a félicitée\" / \"Une fois qu'elle a eu terminé...\"). Next lesson shows a third fix: the absolute participial clause with its own subject.",
+        ],
+        examples: [
+          { es: "Ayant terminé son rapport, elle a été félicitée par son chef.", en: "Having finished her report, she was congratulated by her boss." },
+          { es: "Comme elle avait terminé son rapport, son chef l'a félicitée.", en: "As she had finished her report, her boss congratulated her." },
+          { es: "Comme Paul avait perdu ses clés, sa voisine l'a hébergé.", en: "As Paul had lost his keys, his neighbour put him up." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -138,13 +208,27 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Comme il avait perdu son passeport, l'ambassade lui a donné un document provisoire.", "Comme il avait perdu son passeport, l'ambassade lui a délivré un document provisoire.", "Comme il avait perdu son passeport, l'ambassade lui a remis un document temporaire."],
             explanation: "Different subjects (il / l'ambassade): use a conjunction, not \"ayant perdu\".",
           },
+        ],
+      },
+      {
+        heading: "Stricter than English",
+        body: [
+          "English writers dangle participles too ('Having finished the report, the boss congratulated her'), but English readers tolerate it more. French grammar is stricter, and examiners notice. This unit's Error Hunt lesson is dedicated to it.",
+        ],
+        examples: [
+          { es: "Comme il pleuvait, le match a été annulé.", en: "As it was raining, the match was called off." },
+          { es: "Une fois qu'elle a eu fini, son chef l'a félicitée.", en: "Once she had finished, her boss congratulated her." },
+          { es: "Ayant fini à temps, elle a été félicitée.", en: "Having finished on time, she was congratulated." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "Ayant obtenu son diplôme, elle a trouvé un emploi à Lille.",
-            question: "What does it mean?",
-            options: ["Having got her degree, she found a job in Lille.", "She got her degree while working in Lille.", "Before getting her degree, she found a job in Lille.", "Her job in Lille got her a degree."],
-            correctIndex: 0,
-            explanation: "\"Ayant obtenu\" = having obtained (before the main action).",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Ayant fini le rapport, le chef l'a félicitée.",
+            answer: "Ayant fini le rapport, elle a été félicitée par le chef.",
+            altAnswers: ["Comme elle avait fini le rapport, le chef l'a félicitée.", "Ayant fini le rapport, elle a été félicitée par son chef.", "Une fois qu'elle a eu fini le rapport, le chef l'a félicitée.", "Comme elle avait fini le rapport, son chef l'a félicitée."],
+            explanation: "As written, the participle refers to \"le chef\", who didn't write the report. Make the subjects match (\"elle a été félicitée\") or use a conjunction: \"Comme elle avait fini le rapport, le chef l'a félicitée.\"",
           },
         ],
       },
@@ -185,18 +269,6 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "Pronominal → \"s'étant perdus\", agreeing with \"les randonneurs\".",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: [
-          "Étant née à Bordeaux, elle adore le vin.",
-          "Ayant née à Bordeaux, elle adore le vin.",
-          "Étant né à Bordeaux, elle adore le vin.",
-          "Ayant naître à Bordeaux, elle adore le vin.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Naître\" takes être; agreement with \"elle\": \"étant née\".",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with a perfect participle.",
@@ -231,8 +303,9 @@ export const FR_C1_U04: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "N'ayant pas reçu de réponse, je vous relance.",
-        explanation: "\"N'ayant pas reçu\": a classic formula in follow-up emails.",
+        audio: "N'ayant pas trouvé de place, nous avons dîné ailleurs.",
+        answer: "N'ayant pas trouvé de place, nous avons dîné ailleurs.",
+        explanation: "Negative perfect participle: \"n'ayant pas\" + past participle, with a nuance of cause.",
       },
       {
         type: "speak",
@@ -249,6 +322,14 @@ export const FR_C1_U04: Lesson[] = [
         altAnswers: ["Ayant déjà vu le film, je suis restée à la maison.", "Ayant déjà vu le film, je suis resté chez moi.", "Ayant déjà vu le film, je suis restée chez moi."],
         explanation: "Adverbs like \"déjà\" go between \"ayant\" and the participle.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Étant fini sa thèse, elle est partie en vacances.",
+        answer: "Ayant fini sa thèse, elle est partie en vacances.",
+        explanation: "\"Finir\" takes avoir in compound tenses, so the perfect participle is \"ayant fini\". \"Étant\" is only for être verbs (\"étant partie\").",
+      },
     ],
   },
   {
@@ -263,16 +344,11 @@ export const FR_C1_U04: Lesson[] = [
         heading: "A participle with its own subject",
         body: [
           "An absolute participial clause (\"proposition participiale\") has its own subject, different from the main clause: \"La réunion terminée, chacun est rentré chez soi\" (the meeting over, everyone went home). \"Les enfants partis, la maison était calme\" (with the children gone, the house was quiet).",
-          "It's the elegant solution to the same-subject problem of Part 1: instead of a dangling \"*Ayant terminé la réunion, chacun est rentré\", French gives the participle its own subject. The meaning is usually time (once, when) or cause (since).",
-          "Typical of written narration, reports and journalism. In speech, people say \"Une fois la réunion terminée\" (very common and natural) or use a clause: \"Quand la réunion a été terminée...\".",
         ],
         examples: [
           { es: "La réunion terminée, chacun est rentré chez soi.", en: "The meeting over, everyone went home." },
           { es: "Les enfants partis, la maison était calme.", en: "With the children gone, the house was quiet." },
           { es: "Le dîner fini, nous sommes passés au salon.", en: "Dinner over, we moved into the living room." },
-          { es: "Une fois la décision prise, il faut s'y tenir.", en: "Once the decision is made, you have to stick to it." },
-          { es: "Les vacances terminées, il a fallu reprendre le travail.", en: "With the holidays over, we had to go back to work." },
-          { es: "Le contrat signé, les travaux pourront commencer.", en: "Once the contract is signed, the work can begin." },
         ],
         checkpoint: [
           {
@@ -284,6 +360,41 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Le film fini, nous sommes allés boire un verre.", "Le film terminé, on est allés boire un verre.", "Le film fini, on est allés boire un verre.", "Une fois le film terminé, nous sommes allés boire un verre.", "Une fois le film fini, on est allés boire un verre."],
             explanation: "Subject (\"le film\") + past participle, then a main clause with a different subject.",
           },
+        ],
+      },
+      {
+        heading: "The fix for a dangling participle",
+        body: [
+          "It's the elegant solution to the same-subject problem of Part 1: instead of a dangling \"*Ayant terminé la réunion, chacun est rentré\", French gives the participle its own subject. The meaning is usually time (once, when) or cause (since).",
+        ],
+        examples: [
+          { es: "Les vacances terminées, il a fallu reprendre le travail.", en: "With the holidays over, we had to go back to work." },
+          { es: "Le contrat signé, les travaux pourront commencer.", en: "Once the contract is signed, the work can begin." },
+          { es: "Les invités arrivés, la fête a commencé.", en: "The guests having arrived, the party started." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Ayant fini le match, les spectateurs sont partis.",
+            answer: "Le match fini, les spectateurs sont partis.",
+            altAnswers: ["Le match terminé, les spectateurs sont partis.", "Une fois le match fini, les spectateurs sont partis.", "Une fois le match terminé, les spectateurs sont partis."],
+            explanation: "The spectators didn't finish the match, so \"ayant fini\" dangles. Give the participle its own subject: \"Le match fini\".",
+          },
+        ],
+      },
+      {
+        heading: "In speech: une fois...",
+        body: [
+          "Typical of written narration, reports and journalism. In speech, people say \"Une fois la réunion terminée\" (very common and natural) or use a clause: \"Quand la réunion a été terminée...\".",
+        ],
+        examples: [
+          { es: "Une fois la décision prise, il faut s'y tenir.", en: "Once the decision is made, you have to stick to it." },
+          { es: "Une fois les courses faites, on rentre.", en: "Once the shopping's done, we go home." },
+          { es: "Quand la réunion a été terminée, tout le monde est parti.", en: "When the meeting was over, everyone left." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -296,33 +407,16 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "Past participle, present participle, perfect participle",
+        heading: "Three forms of participle",
         body: [
           "Three forms can appear. Past participle alone (passive or completed meaning): \"La porte fermée, il a allumé la lumière.\" Present participle (simultaneous, often cause): \"Le temps se dégradant, nous avons fait demi-tour\" (as the weather was getting worse). Perfect participle (completed, active): \"Le soleil s'étant levé, nous avons repris la route\" (the sun having risen).",
-          "Agreement: the past participle agrees with its own subject (\"la porte fermée\", \"les valises bouclées\"). The present participle is invariable (\"les prix augmentant\"). With \"s'étant\" / \"étant\", agreement follows the être rule (\"la nuit étant tombée\").",
-          "These clauses are always separated by a comma and usually placed at the start. They give reports a crisp, chronological rhythm.",
         ],
         examples: [
           { es: "La porte fermée, il a allumé la lumière.", en: "With the door shut, he switched on the light." },
           { es: "Le temps se dégradant, nous avons fait demi-tour.", en: "As the weather was getting worse, we turned back." },
           { es: "Le soleil s'étant levé, nous avons repris la route.", en: "The sun having risen, we set off again." },
-          { es: "La nuit étant tombée, on ne voyait plus le sentier.", en: "Night having fallen, we couldn't see the path any more." },
-          { es: "Les prix augmentant sans cesse, les ménages réduisent leurs dépenses.", en: "With prices constantly rising, households are cutting spending." },
-          { es: "Les valises bouclées, nous avons appelé un taxi.", en: "Our suitcases packed, we called a taxi." },
         ],
         checkpoint: [
-          {
-            type: "multiple-choice",
-            question: "Which sentence is correct?",
-            options: [
-              "La nuit étant tombée, nous sommes rentrés.",
-              "La nuit ayant tombée, nous sommes rentrés.",
-              "La nuit étant tombé, nous sommes rentrés.",
-              "La nuit tombant hier, nous sommes rentrés.",
-            ],
-            correctIndex: 0,
-            explanation: "\"Tomber\" takes être; agreement with \"la nuit\": \"étant tombée\".",
-          },
           {
             type: "translate",
             direction: "en-es",
@@ -335,29 +429,57 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "In reports and narration",
+        heading: "Agreement, and the comma",
+        body: [
+          "Agreement: the past participle agrees with its own subject (\"la porte fermée\", \"les valises bouclées\"). The present participle is invariable (\"les prix augmentant\"). With \"s'étant\" / \"étant\", agreement follows the être rule (\"la nuit étant tombée\").",
+          "These clauses are always separated by a comma and usually placed at the start. They give reports a crisp, chronological rhythm.",
+        ],
+        examples: [
+          { es: "La nuit étant tombée, on ne voyait plus le sentier.", en: "Night having fallen, we couldn't see the path any more." },
+          { es: "Les prix augmentant sans cesse, les ménages réduisent leurs dépenses.", en: "With prices constantly rising, households are cutting spending." },
+          { es: "Les valises bouclées, nous avons appelé un taxi.", en: "Our suitcases packed, we called a taxi." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["La nuit étant tombée, nous sommes rentrés.", "La nuit ayant tombée, nous sommes rentrés.", "La nuit étant tombé, nous sommes rentrés.", "La nuit tombant hier, nous sommes rentrés."],
+            correctIndex: 0,
+            explanation: "\"Tomber\" takes être; agreement with \"la nuit\": \"étant tombée\".",
+          },
+        ],
+      },
+      {
+        heading: "A police report",
         body: [
           "A paragraph from a police report shows the style at work: \"Les secours prévenus, l'agent a sécurisé la zone. Le conducteur, blessé, a été transporté à l'hôpital. La circulation ayant été rétablie vers 18 heures, l'enquête s'est poursuivie au commissariat.\"",
-          "And from a novel: \"Le repas achevé, les invités partis, Hélène resta seule dans la cuisine.\" (\"Resta\" is a passé simple, coming in Unit 6.) Two absolute clauses in a row set the scene before the main event.",
-          "When you rewrite such sentences in everyday French, use \"une fois que\", \"quand\", \"après que\" + indicative, or \"comme\" for cause: \"Une fois les secours prévenus...\", \"Comme la circulation avait été rétablie...\".",
         ],
         examples: [
           { es: "Les secours prévenus, l'agent a sécurisé la zone.", en: "With the emergency services alerted, the officer secured the area." },
           { es: "La circulation ayant été rétablie vers 18 heures, l'enquête s'est poursuivie.", en: "Traffic having been restored around 6 p.m., the investigation continued." },
-          { es: "Le repas achevé, les invités partis, Hélène resta seule.", en: "The meal over and the guests gone, Helene was left alone." },
-          { es: "Une fois les secours prévenus, l'agent a sécurisé la zone.", en: "Once the emergency services had been alerted, the officer secured the area." },
-          { es: "Comme la circulation avait été rétablie, l'enquête a pu continuer.", en: "As traffic had been restored, the investigation could continue." },
+          { es: "Le blessé, conscient, a été transporté à l'hôpital.", en: "The injured man, still conscious, was taken to hospital." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French (rewrite in everyday French with une fois): \"Les secours prévenus, l'agent a sécurisé la zone.\"",
-            source: "Once the emergency services had been called, the officer secured the area.",
-            answer: "Une fois les secours prévenus, l'agent a sécurisé la zone.",
-            altAnswers: ["Une fois que les secours ont été prévenus, l'agent a sécurisé la zone.", "Une fois que les secours ont été appelés, l'agent a sécurisé la zone."],
-            explanation: "\"Une fois\" + absolute clause is the natural spoken form.",
+            type: "multiple-choice",
+            question: "In \"Les pompiers alertés, le gardien a ouvert les portes\", who was alerted?",
+            options: ["the firefighters", "the caretaker", "the doors", "nobody"],
+            correctIndex: 0,
+            explanation: "In an absolute clause the participle has its own subject: \"les pompiers\" were alerted; \"le gardien\" is the subject of the main verb.",
           },
+        ],
+      },
+      {
+        heading: "In a novel",
+        body: [
+          "And from a novel: \"Le repas achevé, les invités partis, Hélène resta seule dans la cuisine.\" (\"Resta\" is a passé simple, coming in Unit 6.) Two absolute clauses in a row set the scene before the main event.",
+        ],
+        examples: [
+          { es: "Le repas achevé, les invités partis, Hélène resta seule.", en: "The meal over and the guests gone, Helene was left alone." },
+          { es: "La lettre cachetée, elle sortit la poster.", en: "The letter sealed, she went out to post it." },
+          { es: "La pluie ayant cessé, ils reprirent la route.", en: "The rain having stopped, they set off again." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Les invités partis, la maison était silencieuse.",
@@ -365,6 +487,28 @@ export const FR_C1_U04: Lesson[] = [
             options: ["With the guests gone, the house was silent.", "The guests left the silent house.", "The guests were leaving silently.", "When the guests arrived, the house went silent."],
             correctIndex: 0,
             explanation: "\"Les invités partis\" = once the guests had left.",
+          },
+        ],
+      },
+      {
+        heading: "Back to everyday French",
+        body: [
+          "When you rewrite such sentences in everyday French, use \"une fois que\", \"quand\", \"après que\" + indicative, or \"comme\" for cause: \"Une fois les secours prévenus...\", \"Comme la circulation avait été rétablie...\".",
+        ],
+        examples: [
+          { es: "Une fois les secours prévenus, l'agent a sécurisé la zone.", en: "Once the emergency services had been alerted, the officer secured the area." },
+          { es: "Comme la circulation avait été rétablie, l'enquête a pu continuer.", en: "As traffic had been restored, the investigation could continue." },
+          { es: "Une fois le bébé endormi, ils ont dîné.", en: "Once the baby was asleep, they had dinner." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it in everyday French with comme.",
+            source: "Le pont ayant été fermé, les camions ont fait un détour.",
+            answer: "Comme le pont avait été fermé, les camions ont fait un détour.",
+            altAnswers: ["Comme le pont était fermé, les camions ont fait un détour.", "Comme le pont a été fermé, les camions ont fait un détour."],
+            explanation: "The participle clause gives a cause, so everyday French uses \"comme\" + indicative; the earlier event goes in the pluperfect.",
           },
         ],
       },
@@ -409,12 +553,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence avoids a dangling participle?",
-        options: [
-          "Le rapport terminé, le directeur l'a lu.",
-          "Ayant terminé le rapport, le directeur l'a lu (Léa wrote it).",
-          "En terminant le rapport, le directeur a été content (Léa wrote it).",
-          "Terminant le rapport, le directeur l'a lu (Léa wrote it).",
-        ],
+        options: ["Le rapport terminé, le directeur l'a lu.", "Ayant terminé le rapport, le directeur l'a lu (Léa wrote it).", "En terminant le rapport, le directeur a été content (Léa wrote it).", "Terminant le rapport, le directeur l'a lu (Léa wrote it)."],
         correctIndex: 0,
         explanation: "The absolute clause \"le rapport terminé\" has its own subject, so no confusion.",
       },
@@ -462,14 +601,15 @@ export const FR_C1_U04: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "La réunion terminée, chacun est rentré chez soi.",
-        explanation: "\"Terminée\" agrees with \"la réunion\".",
+        audio: "Le concert terminé, chacun a repris sa voiture.",
+        answer: "Le concert terminé, chacun a repris sa voiture.",
+        explanation: "Absolute clause: its own subject (\"le concert\") + past participle agreeing with it, then a comma.",
       },
       {
         type: "speak",
-        text: "Une fois la décision prise, il faut s'y tenir.",
-        prompt: "Say it in French: Once the decision is made, you have to stick to it.",
-        explanation: "\"Une fois\" + noun + participle: natural in speech.",
+        text: "Une fois le prix fixé, nous signerons.",
+        prompt: "Say it in French: Once the price is agreed, we'll sign.",
+        explanation: "\"Une fois\" + noun + past participle: the natural spoken form of the absolute clause.",
       },
     ],
   },
@@ -482,15 +622,32 @@ export const FR_C1_U04: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Two words that sound the same",
+        heading: "Participle or adjective?",
         body: [
           "French distinguishes the present participle (a verb form, invariable, describing an action) from the verbal adjective (\"adjectif verbal\", describing a quality, agreeing like any adjective). Usually they look the same: \"une histoire passionnante\" (adjective) vs \"une histoire passionnant les enfants depuis des siècles\" (participle, with an object).",
-          "The test: if you can add an object, an adverb after it, or a negation around it, or replace it with \"qui\" + verb, it's a participle → invariable. If it describes a quality, can take \"très\" before it, and can be replaced by another adjective, it's an adjective → agreement.",
-          "\"Des enfants obéissant à leurs parents\" (participle, with an object: who obey) vs \"des enfants obéissants\" (adjective: obedient). \"Des femmes souriant au photographe\" vs \"des femmes souriantes\".",
         ],
         examples: [
           { es: "C'est une histoire passionnante.", en: "It's a fascinating story." },
           { es: "Ce conte, passionnant les enfants depuis des siècles, est encore lu aujourd'hui.", en: "This tale, which has fascinated children for centuries, is still read today." },
+          { es: "Des débats passionnants ont eu lieu.", en: "Some fascinating debates took place." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence uses the verbal adjective correctly?",
+            options: ["Ce sont des collègues très charmants.", "Ce sont des collègues très charmant.", "Ce sont des collègues charmants tout le monde.", "Ce sont des collègues charmant très."],
+            correctIndex: 0,
+            explanation: "A quality with \"très\" → adjective → agreement: \"charmants\".",
+          },
+        ],
+      },
+      {
+        heading: "The test",
+        body: [
+          "The test: if you can add an object, an adverb after it, or a negation around it, or replace it with \"qui\" + verb, it's a participle → invariable. If it describes a quality, can take \"très\" before it, and can be replaced by another adjective, it's an adjective → agreement.",
+          "\"Des enfants obéissant à leurs parents\" (participle, with an object: who obey) vs \"des enfants obéissants\" (adjective: obedient). \"Des femmes souriant au photographe\" vs \"des femmes souriantes\".",
+        ],
+        examples: [
           { es: "Ce sont des enfants très obéissants.", en: "They're very obedient children." },
           { es: "On cherche des enfants obéissant aux consignes de sécurité.", en: "We're looking for children who follow the safety instructions." },
           { es: "Les photos montrent des femmes souriantes.", en: "The photos show smiling women." },
@@ -498,79 +655,87 @@ export const FR_C1_U04: Lesson[] = [
         ],
         checkpoint: [
           {
-            type: "multiple-choice",
-            question: "Which sentence uses the verbal adjective correctly?",
-            options: [
-              "Ce sont des collègues très charmants.",
-              "Ce sont des collègues très charmant.",
-              "Ce sont des collègues charmants tout le monde.",
-              "Ce sont des collègues charmant très.",
-            ],
-            correctIndex: 0,
-            explanation: "A quality with \"très\" → adjective → agreement: \"charmants\".",
-          },
-          {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "They're very obedient dogs.",
-            answer: "Ce sont des chiens très obéissants.",
-            explanation: "Adjective → agreement (-s).",
+            source: "They're very demanding customers.",
+            answer: "Ce sont des clients très exigeants.",
+            altAnswers: ["Ce sont des clientes très exigeantes.", "Ce sont des clients vraiment exigeants."],
+            explanation: "\"Très\" before it marks a quality, so it's the verbal adjective and agrees: \"exigeants\".",
           },
         ],
       },
       {
-        heading: "Pairs with different spellings",
+        heading: "-guant / -gant and -quant / -cant",
         body: [
           "For some verbs the two forms are spelled differently, a classic dictation trap. -guant (participle) vs -gant (adjective): \"fatiguant / fatigant\", \"naviguant / navigant\" (le personnel navigant), \"intriguant / intrigant\", \"extravaguant / extravagant\". -quant vs -cant: \"convainquant / convaincant\", \"provoquant / provocant\", \"suffoquant / suffocant\", \"communiquant / communicant\".",
-          "-ant (participle) vs -ent (adjective): \"différant / différent\", \"précédant / précédent\", \"négligeant / négligent\", \"excellant / excellent\", \"influant / influent\", \"divergeant / divergent\", \"équivalant / équivalent\", \"somnolant / somnolent\".",
-          "So: \"Une journée fatigante\" (a tiring day) but \"En me fatiguant trop, j'ai fini malade\". \"Un argument convaincant\" but \"Convainquant ses collègues un par un, elle a gagné le vote\". \"Le jour précédent\" (the previous day) but \"la semaine précédant les examens\" (the week before the exams: participle with an object).",
         ],
         examples: [
           { es: "C'était une journée très fatigante.", en: "It was a very tiring day." },
           { es: "Se fatiguant vite, il fait des pauses fréquentes.", en: "Tiring quickly, he takes frequent breaks." },
           { es: "Ses arguments sont convaincants.", en: "Her arguments are convincing." },
           { es: "Convainquant ses collègues un par un, elle a gagné le vote.", en: "Convincing her colleagues one by one, she won the vote." },
-          { es: "Je l'ai vu le jour précédent.", en: "I saw him the previous day." },
-          { es: "La semaine précédant les examens, la bibliothèque est pleine.", en: "In the week before the exams, the library is full." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Write the French for the bold word.",
-            en: "Her arguments were [convincing].",
-            sentence: "Ses arguments étaient ___.",
-            answer: "convaincants",
-            explanation: "Adjective (a quality) → \"convaincant\" (-cant), agreeing in the plural.",
+            prompt: "Write the French for the bold words.",
+            en: "It's a really [intriguing] story.",
+            sentence: "C'est une histoire vraiment ___.",
+            answer: "intrigante",
+            explanation: "A quality, so the verbal adjective: spelled -gant (no u) and agreeing with \"histoire\". The participle would be \"intriguant\".",
           },
+        ],
+      },
+      {
+        heading: "-ant / -ent",
+        body: [
+          "-ant (participle) vs -ent (adjective): \"différant / différent\", \"précédant / précédent\", \"négligeant / négligent\", \"excellant / excellent\", \"influant / influent\", \"divergeant / divergent\", \"équivalant / équivalent\", \"somnolant / somnolent\".",
+        ],
+        examples: [
+          { es: "Je l'ai vu le jour précédent.", en: "I saw him the previous day." },
+          { es: "Elle a été très négligente.", en: "She was very careless." },
+          { es: "Les deux sommes sont équivalentes.", en: "The two sums are equivalent." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which is spelled correctly?",
-            options: [
-              "Les jours précédant le mariage ont été stressants.",
-              "Les jours précédents le mariage ont été stressants.",
-              "Les jours précédant le mariage ont été stressant.",
-              "Les jours précédent le mariage ont été stressants.",
-            ],
+            options: ["Les jours précédant le mariage ont été stressants.", "Les jours précédents le mariage ont été stressants.", "Les jours précédant le mariage ont été stressant.", "Les jours précédent le mariage ont été stressants."],
             correctIndex: 0,
             explanation: "\"Précédant le mariage\" has an object → participle (-ant, invariable). \"Stressants\" is an adjective → agrees.",
           },
         ],
       },
       {
-        heading: "Choosing in context",
+        heading: "Same verb, two spellings",
+        body: [
+          "So: \"Une journée fatigante\" (a tiring day) but \"En me fatiguant trop, j'ai fini malade\". \"Un argument convaincant\" but \"Convainquant ses collègues un par un, elle a gagné le vote\". \"Le jour précédent\" (the previous day) but \"la semaine précédant les examens\" (the week before the exams: participle with an object).",
+        ],
+        examples: [
+          { es: "La semaine précédant les examens, la bibliothèque est pleine.", en: "In the week before the exams, the library is full." },
+          { es: "Provoquant la colère des habitants, le maire a fermé la piscine.", en: "Provoking the residents' anger, the mayor closed the pool." },
+          { es: "C'était une remarque provocante.", en: "It was a provocative remark." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence contains a spelling mistake?",
+            options: ["Elle a trouvé un argument convainquant.", "Convainquant ses collègues, elle a gagné.", "C'est un argument convaincant.", "Ses arguments étaient convaincants."],
+            correctIndex: 0,
+            explanation: "\"Un argument convaincant\" is a quality, so it needs the adjective spelling -cant. \"Convainquant\" is right only as a participle with an object (\"convainquant ses collègues\").",
+          },
+        ],
+      },
+      {
+        heading: "Read for function",
         body: [
           "Read the sentence for function. \"Un travail fatigant\" (tiring: a quality) vs \"En fatiguant les muscles, on les renforce\" (the action of tiring). \"Des résultats différents\" (different results) vs \"Les résultats différant selon les régions, il faut nuancer\" (since results differ: verb, cause).",
-          "Some -ant adjectives became nouns too: \"un fabricant\" (manufacturer, from fabriquer), \"un président\", \"un adhérent\", \"un intrigant\". And \"un excédent\" (surplus) vs \"excédant\" (exceeding).",
-          "In everyday writing, the cases that matter most are \"fatigant\", \"convaincant\", \"différent\", \"précédent\", \"négligent\" and \"provocant\": learn the adjective spelling first, because it is far more frequent.",
         ],
         examples: [
           { es: "Les résultats sont très différents d'une région à l'autre.", en: "Results are very different from one region to another." },
           { es: "Les résultats différant selon les régions, il faut nuancer.", en: "Since results differ from region to region, we need to qualify the conclusions." },
-          { es: "C'est un fabricant de meubles basé à Nantes.", en: "It's a furniture manufacturer based in Nantes." },
-          { es: "Ce conducteur négligent a provoqué l'accident.", en: "This careless driver caused the accident." },
-          { es: "Négligeant les consignes, il a provoqué l'accident.", en: "Ignoring the instructions, he caused the accident." },
-          { es: "Sa tenue provocante a fait scandale.", en: "Her provocative outfit caused a scandal." },
+          { es: "En fatiguant les muscles, on les renforce.", en: "By tiring the muscles, you strengthen them." },
         ],
         checkpoint: [
           {
@@ -582,13 +747,28 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["C'est un boulot fatigant.", "C'est un métier fatigant.", "C'est un emploi fatigant."],
             explanation: "Adjective → \"fatigant\" (no u).",
           },
+        ],
+      },
+      {
+        heading: "Nouns from -ant, and the ones to learn first",
+        body: [
+          "Some -ant adjectives became nouns too: \"un fabricant\" (manufacturer, from fabriquer), \"un président\", \"un adhérent\", \"un intrigant\". And \"un excédent\" (surplus) vs \"excédant\" (exceeding).",
+          "In everyday writing, the cases that matter most are \"fatigant\", \"convaincant\", \"différent\", \"précédent\", \"négligent\" and \"provocant\": learn the adjective spelling first, because it is far more frequent.",
+        ],
+        examples: [
+          { es: "C'est un fabricant de meubles basé à Nantes.", en: "It's a furniture manufacturer based in Nantes." },
+          { es: "Ce conducteur négligent a provoqué l'accident.", en: "This careless driver caused the accident." },
+          { es: "Négligeant les consignes, il a provoqué l'accident.", en: "Ignoring the instructions, he caused the accident." },
+          { es: "Sa tenue provocante a fait scandale.", en: "Her provocative outfit caused a scandal." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
-            audio: "Négligeant les consignes, il a provoqué un accident.",
+            audio: "Négligeant ses devoirs, elle a raté son examen.",
             question: "What does it mean?",
-            options: ["Ignoring the instructions, he caused an accident.", "The careless instructions caused an accident.", "He was careless and the instructions caused an accident.", "Following the instructions, he avoided an accident."],
+            options: ["Neglecting her homework, she failed her exam.", "Her careless homework cost her the exam.", "She neglected her exam to do her homework.", "Doing her homework carefully, she passed her exam."],
             correctIndex: 0,
-            explanation: "Participle with an object (\"les consignes\") → \"négligeant\".",
+            explanation: "\"Négligeant\" has an object (\"ses devoirs\"), so it's the present participle (spelled -geant), describing an action; the adjective would be \"négligent\".",
           },
         ],
       },
@@ -631,12 +811,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: [
-          "C'est un argument convaincant.",
-          "C'est un argument convainquant.",
-          "C'est un argument convaincants.",
-          "C'est un argument convainquants.",
-        ],
+        options: ["C'est un argument convaincant.", "C'est un argument convainquant.", "C'est un argument convaincants.", "C'est un argument convainquants."],
         correctIndex: 0,
         explanation: "Adjective → \"convaincant\" (-cant).",
       },
@@ -696,6 +871,15 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Say it in French: It was a really tiring week.",
         explanation: "\"Fatigante\": adjective, no u.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn it into a participle clause.",
+        source: "Comme les prix diffèrent selon les magasins, comparez.",
+        answer: "Les prix différant selon les magasins, comparez.",
+        altAnswers: ["Les prix différant d'un magasin à l'autre, comparez."],
+        explanation: "A verb with a complement giving a cause: the present participle, spelled -ant and invariable (\"différant\"). The adjective is \"différent\".",
+      },
     ],
   },
   {
@@ -707,16 +891,13 @@ export const FR_C1_U04: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Quick reference",
+        heading: "Recap: perfect participles and absolute clauses",
         body: [
           "Perfect participle: \"ayant\" + participle (\"ayant fini\"), \"étant\" + participle with agreement (\"étant partie\"), \"s'étant\" + participle (\"s'étant trompés\"); same subject as the main clause. Absolute clause: own subject + participle (\"la réunion terminée\", \"le temps se dégradant\", \"la nuit étant tombée\").",
-          "Participle (verb, invariable, often with an object) vs verbal adjective (quality, agreeing): \"fatiguant / fatigant\", \"convainquant / convaincant\", \"différant / différent\", \"précédant / précédent\", \"négligeant / négligent\".",
-          "This lesson gives no hints: decide the form yourself in each sentence.",
         ],
         examples: [
           { es: "Ayant tout préparé la veille, elle était détendue.", en: "Having prepared everything the day before, she was relaxed." },
           { es: "Les élèves partis, le professeur a corrigé les copies.", en: "Once the pupils had gone, the teacher marked the papers." },
-          { es: "Ce voyage a été fatigant mais passionnant.", en: "This trip was tiring but fascinating." },
           { es: "Étant arrivés en avance, nous avons pris un café.", en: "Having arrived early, we had a coffee." },
         ],
         checkpoint: [
@@ -724,11 +905,25 @@ export const FR_C1_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "Having prepared everything, she was relaxed.",
-            answer: "Ayant tout préparé, elle était détendue.",
-            altAnswers: ["Ayant tout préparé, elle était sereine.", "Ayant tout préparé, elle était calme."],
-            explanation: "\"Tout\" goes between \"ayant\" and the participle.",
+            source: "Having read the instructions, he started the machine.",
+            answer: "Ayant lu les instructions, il a démarré la machine.",
+            altAnswers: ["Ayant lu le mode d'emploi, il a démarré la machine.", "Ayant lu les instructions, il a mis la machine en marche.", "Ayant lu les consignes, il a démarré la machine.", "Ayant lu le mode d'emploi, il a mis la machine en marche."],
+            explanation: "A completed earlier action with the same subject: \"ayant\" + past participle, no agreement with avoir.",
           },
+        ],
+      },
+      {
+        heading: "Recap: participle or adjective",
+        body: [
+          "Participle (verb, invariable, often with an object) vs verbal adjective (quality, agreeing): \"fatiguant / fatigant\", \"convainquant / convaincant\", \"différant / différent\", \"précédant / précédent\", \"négligeant / négligent\".",
+          "This lesson gives no hints: decide the form yourself in each sentence.",
+        ],
+        examples: [
+          { es: "Ce voyage a été fatigant mais passionnant.", en: "This trip was tiring but fascinating." },
+          { es: "Les jours précédant le départ, elle était nerveuse.", en: "In the days before leaving, she was nervous." },
+          { es: "Leurs avis sont très différents.", en: "Their opinions are very different." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold word.",
@@ -744,10 +939,10 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Having lost his wallet, he went to the police station.",
+        prompt: "Rewrite it with a perfect participle.",
+        source: "Comme il avait perdu son portefeuille, il est allé au commissariat.",
         answer: "Ayant perdu son portefeuille, il est allé au commissariat.",
-        explanation: "\"Ayant perdu\" + same subject.",
+        explanation: "Same subject (il), earlier action with a nuance of cause: \"comme il avait perdu\" becomes \"ayant perdu\".",
       },
       {
         type: "translate",
@@ -785,12 +980,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which is correct?",
-        options: [
-          "Le personnel navigant est en grève.",
-          "Le personnel naviguant est en grève.",
-          "Le personnel navigants est en grève.",
-          "Le personnel naviguants est en grève.",
-        ],
+        options: ["Le personnel navigant est en grève.", "Le personnel naviguant est en grève.", "Le personnel navigants est en grève.", "Le personnel naviguants est en grève."],
         correctIndex: 0,
         explanation: "\"Navigant\" (adjective, cabin crew) has no u.",
       },
@@ -841,23 +1031,18 @@ export const FR_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has a dangling participle?",
-        options: [
-          "Ayant fini le repas, le serveur nous a apporté l'addition.",
-          "Ayant fini le repas, nous avons demandé l'addition.",
-          "Le repas fini, le serveur nous a apporté l'addition.",
-          "Une fois le repas fini, nous avons demandé l'addition.",
-        ],
+        question: "Which sentence contains a mistake (a dangling participle)?",
+        options: ["Ayant fini le repas, le serveur nous a apporté l'addition.", "Ayant fini le repas, nous avons demandé l'addition.", "Le repas fini, le serveur nous a apporté l'addition.", "Une fois le repas fini, nous avons demandé l'addition."],
         correctIndex: 0,
-        explanation: "It says the waiter finished the meal. Fix it with an absolute clause or a matching subject.",
+        explanation: "\"Ayant fini le repas\" must refer to the subject of the main clause, here \"le serveur\", who didn't eat. The absolute clause (\"Le repas fini\") or a matching subject (\"nous\") fixes it.",
       },
       {
         type: "listen-choose",
-        audio: "Ayant tout préparé la veille, elle était détendue.",
+        audio: "Ayant tout rangé la veille, il est parti tranquille.",
         question: "What does it mean?",
-        options: ["Having prepared everything the day before, she was relaxed.", "She relaxed the day before, then prepared everything.", "She prepared everything because she was relaxed.", "The day before, she was preparing to relax."],
+        options: ["Having tidied everything the day before, he left with peace of mind.", "He tidied everything quietly before leaving.", "The day before, he left everything untidy.", "He left the day before, so everything was tidy."],
         correctIndex: 0,
-        explanation: "\"Ayant tout préparé\": anteriority and cause.",
+        explanation: "\"Ayant tout rangé la veille\": completed before the main action (\"il est parti\"), same subject.",
       },
       {
         type: "speak",
@@ -879,37 +1064,61 @@ export const FR_C1_U04: Lesson[] = [
         heading: "Gérondifs with the wrong subject",
         body: [
           "Rule: the gérondif (\"en\" + -ant) refers to the subject of the main verb. \"*En sortant du métro, la pluie a commencé\" literally means the rain came out of the metro. The writer meant: \"En sortant du métro, j'ai été surpris par la pluie\" or \"Quand je suis sorti du métro, la pluie a commencé.\"",
-          "Two repairs, always. 1) Change the main clause so that its subject is the one doing the gérondif's action. 2) Replace the gérondif with a full clause (\"quand\", \"pendant que\", \"comme\") that has its own subject.",
-          "This error is common in learners' writing because English tolerates it more. Dictionaries of usage call it \"l'anacoluthe\" when it's deliberate (in literature) and a mistake when it isn't. Some fixed formulas are tolerated, such as administrative \"En vous remerciant par avance, veuillez agréer...\", but avoid imitating them.",
         ],
         examples: [
           { es: "En sortant du métro, j'ai été surpris par la pluie.", en: "As I came out of the metro, I was caught in the rain." },
           { es: "Quand je suis sorti du métro, il a commencé à pleuvoir.", en: "When I came out of the metro, it started to rain." },
+          { es: "En lisant ta lettre, j'ai beaucoup ri.", en: "Reading your letter, I laughed a lot." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["En ouvrant la porte, j'ai entendu un bruit.", "En ouvrant la porte, un bruit s'est fait entendre.", "En ouvrant la porte, le chat est sorti (I opened it).", "En ouvrant la porte, la lumière s'est allumée (I opened it)."],
+            correctIndex: 0,
+            explanation: "Only the first has \"je\" as the subject of both actions.",
+          },
+        ],
+      },
+      {
+        heading: "Two repairs",
+        body: [
+          "Two repairs, always. 1) Change the main clause so that its subject is the one doing the gérondif's action. 2) Replace the gérondif with a full clause (\"quand\", \"pendant que\", \"comme\") that has its own subject.",
+        ],
+        examples: [
           { es: "En arrivant à la gare, j'ai vu que le train était parti.", en: "On arriving at the station, I saw the train had left." },
           { es: "Quand nous sommes arrivés à la gare, le train était parti.", en: "When we got to the station, the train had left." },
-          { es: "En lisant ta lettre, j'ai beaucoup ri.", en: "Reading your letter, I laughed a lot." },
+          { es: "En attendant le bus, j'ai lu le journal.", en: "While waiting for the bus, I read the paper." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: \"En sortant du métro, la pluie a commencé.\" Write a correct version with quand.",
-            source: "When I came out of the metro, it started raining.",
-            answer: "Quand je suis sorti du métro, il a commencé à pleuvoir.",
-            altAnswers: ["Quand je suis sortie du métro, il a commencé à pleuvoir.", "Quand je suis sorti du métro, la pluie a commencé.", "Quand je suis sortie du métro, la pluie a commencé.", "Lorsque je suis sorti du métro, il a commencé à pleuvoir.", "Lorsque je suis sortie du métro, il a commencé à pleuvoir."],
-            explanation: "A clause with its own subject (\"je\") removes the dangling gérondif.",
+            prompt: "Correct the sentence.",
+            source: "En entrant dans la salle, les applaudissements ont commencé.",
+            answer: "Quand je suis entré dans la salle, les applaudissements ont commencé.",
+            altAnswers: ["Quand je suis entrée dans la salle, les applaudissements ont commencé.", "Lorsque je suis entré dans la salle, les applaudissements ont commencé.", "Lorsque je suis entrée dans la salle, les applaudissements ont commencé.", "Quand nous sommes entrés dans la salle, les applaudissements ont commencé.", "En entrant dans la salle, j'ai été accueilli par des applaudissements.", "En entrant dans la salle, j'ai été accueillie par des applaudissements.", "Quand il est entré dans la salle, les applaudissements ont commencé.", "Quand elle est entrée dans la salle, les applaudissements ont commencé."],
+            explanation: "The applause didn't walk in. Either give the clause its own subject (\"quand je suis entré\") or make the person the main subject: \"En entrant dans la salle, j'ai été accueilli par des applaudissements.\"",
           },
+        ],
+      },
+      {
+        heading: "Why learners make it",
+        body: [
+          "This error is common in learners' writing because English tolerates it more. Dictionaries of usage call it \"l'anacoluthe\" when it's deliberate (in literature) and a mistake when it isn't. Some fixed formulas are tolerated, such as administrative \"En vous remerciant par avance, veuillez agréer...\", but avoid imitating them.",
+        ],
+        examples: [
+          { es: "En vieillissant, on devient plus patient.", en: "As you get older, you become more patient." },
+          { es: "En écrivant ce livre, l'auteur a voulu choquer.", en: "In writing this book, the author set out to shock." },
+          { es: "En vous remerciant, je vous prie d'agréer mes salutations.", en: "Thanking you, yours faithfully." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
-            options: [
-              "En ouvrant la porte, j'ai entendu un bruit.",
-              "En ouvrant la porte, un bruit s'est fait entendre.",
-              "En ouvrant la porte, le chat est sorti (I opened it).",
-              "En ouvrant la porte, la lumière s'est allumée (I opened it).",
-            ],
+            question: "Which repair of \"En arrivant au bureau, le téléphone sonnait\" keeps the gérondif?",
+            options: ["En arrivant au bureau, j'ai entendu le téléphone sonner.", "Quand je suis arrivé au bureau, le téléphone sonnait.", "En arrivant au bureau, le téléphone a sonné.", "Le téléphone, en arrivant au bureau, sonnait."],
             correctIndex: 0,
-            explanation: "Only the first has \"je\" as the subject of both actions.",
+            explanation: "Repair 1 changes the main clause so its subject (\"je\") is the one arriving. The second option is also correct French, but it uses repair 2 and drops the gérondif; the last two still have the phone arriving.",
           },
         ],
       },
@@ -917,26 +1126,55 @@ export const FR_C1_U04: Lesson[] = [
         heading: "Participles with the wrong subject",
         body: [
           "The same problem affects present and perfect participles: \"*Étant malade, le médecin m'a prescrit des antibiotiques\" (the doctor was ill?). Fix: \"Comme j'étais malade, le médecin m'a prescrit des antibiotiques\" or \"Étant malade, j'ai consulté un médecin, qui m'a prescrit...\".",
-          "\"*Ayant envoyé mon CV, l'entreprise m'a convoqué à un entretien\" (the company sent my CV?). Fix: \"Après avoir envoyé mon CV, j'ai été convoqué à un entretien\" (passive: \"je\" becomes the subject) or \"J'ai envoyé mon CV, et l'entreprise m'a convoqué...\".",
-          "The passive is a neat repair when you want to keep the participle: it turns the person into the subject. \"Ayant envoyé mon CV, j'ai été convoqué\": I sent, I was invited.",
         ],
         examples: [
           { es: "Comme j'étais malade, le médecin m'a prescrit des antibiotiques.", en: "As I was ill, the doctor prescribed me antibiotics." },
           { es: "Étant malade, j'ai consulté un médecin.", en: "Being ill, I saw a doctor." },
-          { es: "Ayant envoyé mon CV, j'ai été convoqué à un entretien.", en: "Having sent my CV, I was invited to an interview." },
-          { es: "Après avoir envoyé mon CV, j'ai été convoquée à un entretien.", en: "After sending my CV, I was invited to an interview." },
           { es: "Comme elle connaissait bien la ville, on lui a demandé de nous guider.", en: "As she knew the town well, we asked her to guide us." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: \"Étant en retard, le professeur m'a grondé.\" Write a correct version with comme.",
-            source: "As I was late, the teacher told me off.",
+            prompt: "Correct the sentence.",
+            source: "Étant en retard, le professeur m'a grondé.",
             answer: "Comme j'étais en retard, le professeur m'a grondé.",
-            altAnswers: ["Comme j'étais en retard, le professeur m'a grondée.", "Comme j'étais en retard, la professeure m'a grondé.", "Comme j'étais en retard, le prof m'a grondé.", "Comme j'étais en retard, le prof m'a grondée."],
-            explanation: "Different subjects (je / le professeur) → a clause with \"comme\".",
+            altAnswers: ["Comme j'étais en retard, le professeur m'a grondée.", "Comme j'étais en retard, la professeure m'a grondé.", "Comme j'étais en retard, le prof m'a grondé.", "Comme j'étais en retard, le prof m'a grondée.", "Étant en retard, j'ai été grondé par le professeur.", "Étant en retard, j'ai été grondée par le professeur."],
+            explanation: "\"Étant en retard\" refers to the subject, \"le professeur\". Repair with a clause that has its own subject: \"comme j'étais en retard\".",
           },
+        ],
+      },
+      {
+        heading: "Perfect participles: two repairs",
+        body: [
+          "\"*Ayant envoyé mon CV, l'entreprise m'a convoqué à un entretien\" (the company sent my CV?). Fix: \"Après avoir envoyé mon CV, j'ai été convoqué à un entretien\" (passive: \"je\" becomes the subject) or \"J'ai envoyé mon CV, et l'entreprise m'a convoqué...\".",
+        ],
+        examples: [
+          { es: "Après avoir envoyé mon CV, j'ai été convoquée à un entretien.", en: "After sending my CV, I was invited to an interview." },
+          { es: "J'ai envoyé mon CV, et l'entreprise m'a convoqué.", en: "I sent my CV, and the company called me in." },
+          { es: "Comme j'avais envoyé mon CV, l'entreprise m'a convoqué.", en: "As I had sent my CV, the company called me in." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Ayant raté le bus, elle est arrivée en retard.", "Ayant raté le bus, son patron l'a attendue.", "Ayant raté le bus, la réunion a commencé sans elle.", "Ayant raté le bus, le taxi l'a emmenée."],
+            correctIndex: 0,
+            explanation: "Only in the first does the subject of the main verb miss the bus.",
+          },
+        ],
+      },
+      {
+        heading: "The passive repair",
+        body: [
+          "The passive is a neat repair when you want to keep the participle: it turns the person into the subject. \"Ayant envoyé mon CV, j'ai été convoqué\": I sent, I was invited.",
+        ],
+        examples: [
+          { es: "Ayant envoyé mon CV, j'ai été convoqué à un entretien.", en: "Having sent my CV, I was invited to an interview." },
+          { es: "Ayant gagné le concours, elle a été reçue par le maire.", en: "Having won the competition, she was received by the mayor." },
+          { es: "Ayant posé sa candidature, il a été retenu.", en: "Having applied, he was shortlisted." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "A learner wrote: \"Ayant passé l'entretien, le directeur m'a embauché.\" Write the French for the bold words.",
@@ -949,36 +1187,46 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "Spotting the problem in longer texts",
+        heading: "Spotting it in an email",
         body: [
           "An email from Tom, again: \"Bonjour Claire, en relisant le contrat, plusieurs erreurs m'ont sauté aux yeux. Ayant parlé au juriste, il m'a conseillé de tout vérifier. Étant donné l'urgence, je propose qu'on se voie demain.\"",
           "Sentence 1: \"en relisant\" (I) vs \"plusieurs erreurs\" → \"En relisant le contrat, j'ai remarqué plusieurs erreurs.\" Sentence 2: \"ayant parlé\" (I) vs \"il\" → \"J'ai parlé au juriste, qui m'a conseillé...\" or \"Après avoir parlé au juriste, j'ai décidé de tout vérifier.\" Sentence 3 is fine: \"étant donné\" is a fixed preposition (given), not a participle with a subject.",
-          "Like \"étant donné\", some participles have become prepositions and are free of the rule: \"vu\" (given), \"compte tenu de\", \"y compris\", \"excepté\", \"suivant\" (according to), \"concernant\" (regarding), \"moyennant\" (in return for).",
         ],
         examples: [
           { es: "En relisant le contrat, j'ai remarqué plusieurs erreurs.", en: "Rereading the contract, I noticed several mistakes." },
           { es: "J'ai parlé au juriste, qui m'a conseillé de tout vérifier.", en: "I spoke to the lawyer, who advised me to check everything." },
           { es: "Étant donné l'urgence, je propose qu'on se voie demain.", en: "Given the urgency, I suggest we meet tomorrow." },
-          { es: "Concernant votre demande, nous vous répondrons sous huit jours.", en: "Regarding your request, we'll reply within a week." },
-          { es: "Vu la météo, la sortie est annulée.", en: "Given the weather, the outing is cancelled." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: \"En relisant le contrat, plusieurs erreurs m'ont sauté aux yeux.\" Write a correct version.",
-            source: "Rereading the contract, I noticed several mistakes.",
-            answer: "En relisant le contrat, j'ai remarqué plusieurs erreurs.",
-            altAnswers: ["En relisant le contrat, j'ai repéré plusieurs erreurs.", "En relisant le contrat, j'ai vu plusieurs erreurs.", "Quand j'ai relu le contrat, plusieurs erreurs m'ont sauté aux yeux."],
-            explanation: "Make \"je\" the subject of the main clause, or use a full clause.",
+            prompt: "Correct the sentence.",
+            source: "En lisant votre message, une question m'est venue.",
+            answer: "En lisant votre message, je me suis posé une question.",
+            altAnswers: ["En lisant votre message, je me suis posée une question.", "Quand j'ai lu votre message, une question m'est venue.", "En lisant votre message, j'ai eu une question.", "Lorsque j'ai lu votre message, une question m'est venue."],
+            explanation: "The question didn't read the message: the gérondif needs \"je\" as subject (\"je me suis posé une question\"), or use a clause: \"Quand j'ai lu votre message, une question m'est venue.\"",
           },
+        ],
+      },
+      {
+        heading: "Participles that became prepositions",
+        body: [
+          "Like \"étant donné\", some participles have become prepositions and are free of the rule: \"vu\" (given), \"compte tenu de\", \"y compris\", \"excepté\", \"suivant\" (according to), \"concernant\" (regarding), \"moyennant\" (in return for).",
+        ],
+        examples: [
+          { es: "Concernant votre demande, nous vous répondrons sous huit jours.", en: "Regarding your request, we'll reply within a week." },
+          { es: "Vu la météo, la sortie est annulée.", en: "Given the weather, the outing is cancelled." },
+          { es: "Tous les élèves, y compris les nouveaux, sont invités.", en: "All pupils, including the new ones, are invited." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
-            audio: "Vu la météo, la sortie est annulée.",
+            audio: "Compte tenu des grèves, le salon est reporté.",
             question: "What does it mean?",
-            options: ["Given the weather, the outing is cancelled.", "Having seen the weather, I cancelled the outing.", "The outing was seen in bad weather.", "The weather saw the outing cancelled."],
+            options: ["Given the strikes, the fair is postponed.", "Having counted the strikers, the fair went ahead.", "The fair was held during the strikes.", "The strikers have postponed the fair."],
             correctIndex: 0,
-            explanation: "\"Vu\" here is a preposition (given), not a dangling participle.",
+            explanation: "\"Compte tenu de\" is a fixed preposition (given), so it's free of the same-subject rule.",
           },
         ],
       },
@@ -987,20 +1235,20 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"En traversant la rue, une voiture m'a renversé.\" Write a correct version with a matching subject.",
-        source: "While crossing the street, I was knocked down by a car.",
+        prompt: "Correct the sentence.",
+        source: "En traversant la rue, une voiture m'a renversé.",
         answer: "En traversant la rue, j'ai été renversé par une voiture.",
-        altAnswers: ["En traversant la rue, j'ai été renversée par une voiture.", "Pendant que je traversais la rue, une voiture m'a renversé.", "Pendant que je traversais la rue, une voiture m'a renversée.", "Alors que je traversais la rue, une voiture m'a renversé."],
-        explanation: "Passive (\"j'ai été renversé\") or a \"pendant que\" clause.",
+        altAnswers: ["En traversant la rue, j'ai été renversée par une voiture.", "Pendant que je traversais la rue, une voiture m'a renversé.", "Pendant que je traversais la rue, une voiture m'a renversée.", "Alors que je traversais la rue, une voiture m'a renversé.", "Alors que je traversais la rue, une voiture m'a renversée."],
+        explanation: "The car wasn't crossing the street. The passive makes \"je\" the subject, so the gérondif fits; or use \"pendant que je traversais\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"Étant fatigué, ma femme a conduit.\" Write a correct version with comme.",
-        source: "As I was tired, my wife drove.",
+        prompt: "Correct the sentence.",
+        source: "Étant fatigué, ma femme a conduit.",
         answer: "Comme j'étais fatigué, ma femme a conduit.",
         altAnswers: ["Comme j'étais fatigué, c'est ma femme qui a conduit.", "Comme j'étais fatigué, ma femme a pris le volant.", "Comme j'étais fatiguée, ma femme a conduit."],
-        explanation: "Different subjects → \"comme\" + clause.",
+        explanation: "\"Étant fatigué\" would describe \"ma femme\" (and doesn't agree). A clause with its own subject repairs it.",
       },
       {
         type: "fill-blank",
@@ -1012,25 +1260,13 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "\"Nous\" becomes the subject, matching \"en arrivant\".",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: [
-          "Ayant raté le bus, elle est arrivée en retard.",
-          "Ayant raté le bus, son patron l'a attendue.",
-          "Ayant raté le bus, la réunion a commencé sans elle.",
-          "Ayant raté le bus, le taxi l'a emmenée.",
-        ],
-        correctIndex: 0,
-        explanation: "Only in the first does the subject of the main verb miss the bus.",
-      },
-      {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"Ayant fini mes études, mon père m'a offert un voyage.\" Write a correct version with comme.",
-        source: "As I had finished my studies, my father gave me a trip.",
+        prompt: "Correct the sentence.",
+        source: "Ayant fini mes études, mon père m'a offert un voyage.",
         answer: "Comme j'avais fini mes études, mon père m'a offert un voyage.",
-        altAnswers: ["Comme j'avais terminé mes études, mon père m'a offert un voyage."],
-        explanation: "Different subjects: a clause, not \"ayant\".",
+        altAnswers: ["Comme j'avais terminé mes études, mon père m'a offert un voyage.", "Quand j'ai eu fini mes études, mon père m'a offert un voyage.", "Après que j'ai fini mes études, mon père m'a offert un voyage."],
+        explanation: "My father didn't finish my studies: the perfect participle needs the same subject. Use \"comme\" + pluperfect.",
       },
       {
         type: "translate",
@@ -1044,11 +1280,11 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"En faisant les courses, mon portefeuille a été volé.\" Write a correct version with a matching subject.",
-        source: "While I was shopping, someone stole my wallet.",
+        prompt: "Correct the sentence.",
+        source: "En faisant les courses, mon portefeuille a été volé.",
         answer: "Pendant que je faisais les courses, on m'a volé mon portefeuille.",
-        altAnswers: ["En faisant les courses, je me suis fait voler mon portefeuille.", "Pendant que je faisais les courses, quelqu'un m'a volé mon portefeuille.", "Alors que je faisais les courses, on m'a volé mon portefeuille."],
-        explanation: "\"Pendant que je...\" or \"je me suis fait voler\" (the subject becomes \"je\").",
+        altAnswers: ["En faisant les courses, je me suis fait voler mon portefeuille.", "Pendant que je faisais les courses, quelqu'un m'a volé mon portefeuille.", "Alors que je faisais les courses, on m'a volé mon portefeuille.", "Pendant que je faisais les courses, mon portefeuille a été volé."],
+        explanation: "The wallet wasn't shopping. Use a clause with its own subject, or make \"je\" the subject: \"En faisant les courses, je me suis fait voler mon portefeuille.\"",
       },
       {
         type: "word-order",
@@ -1085,6 +1321,14 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Say it in French: Leaving the office, I saw it was raining.",
         explanation: "\"En sortant\" and \"j'ai vu\": same subject.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn the time clause into a gérondif.",
+        source: "Quand je suis sorti de la banque, j'ai vu Julie.",
+        answer: "En sortant de la banque, j'ai vu Julie.",
+        explanation: "Same subject in both clauses (je), so \"quand je suis sorti\" can become the gérondif \"en sortant\".",
+      },
     ],
   },
   {
@@ -1099,16 +1343,52 @@ export const FR_C1_U04: Lesson[] = [
         heading: "Finir de vs finir par",
         body: [
           "These two are the classic trap. \"Finir de\" + infinitive = to finish doing something: \"J'ai fini de lire le rapport\" (I've finished reading it). \"Finir par\" + infinitive = to end up doing something, eventually: \"J'ai fini par lire le rapport\" (I ended up reading it, after resisting or putting it off).",
-          "English uses different verbs ('finish' / 'end up'), so the problem isn't meaning but the preposition. A mistake reverses the story: \"Il a fini de pleurer\" (he stopped crying) vs \"Il a fini par pleurer\" (he ended up in tears).",
-          "\"Finir par\" is very frequent in storytelling and is often paired with \"après\" or \"au bout de\": \"Au bout d'une heure, elle a fini par accepter.\" Its synonym in writing is \"en venir à\" (\"il en est venu à douter de tout\").",
         ],
         examples: [
           { es: "J'ai fini de lire le rapport.", en: "I've finished reading the report." },
           { es: "J'ai fini par lire le rapport.", en: "I ended up reading the report." },
+          { es: "Elle a fini de ranger sa chambre.", en: "She's finished tidying her room." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "\"Elle a fini de manger.\" What does it mean?",
+            options: ["She's finished eating.", "She ended up eating.", "She stopped eating for good.", "She eventually agreed to eat."],
+            correctIndex: 0,
+            explanation: "\"Finir de\" = to complete the activity.",
+          },
+        ],
+      },
+      {
+        heading: "The preposition reverses the story",
+        body: [
+          "English uses different verbs ('finish' / 'end up'), so the problem isn't meaning but the preposition. A mistake reverses the story: \"Il a fini de pleurer\" (he stopped crying) vs \"Il a fini par pleurer\" (he ended up in tears).",
+        ],
+        examples: [
           { es: "Il a fini de pleurer.", en: "He's stopped crying." },
           { es: "Il a fini par pleurer.", en: "He ended up in tears." },
+          { es: "Nous avons fini par rire.", en: "We ended up laughing." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Après des heures de discussion, il a fini de céder.",
+            answer: "Après des heures de discussion, il a fini par céder.",
+            explanation: "After hours of resisting, he eventually gave in: that's \"finir par\". \"Finir de céder\" would mean he finished giving in.",
+          },
+        ],
+      },
+      {
+        heading: "Finir par in storytelling",
+        body: [
+          "\"Finir par\" is very frequent in storytelling and is often paired with \"après\" or \"au bout de\": \"Au bout d'une heure, elle a fini par accepter.\" Its synonym in writing is \"en venir à\" (\"il en est venu à douter de tout\").",
+        ],
+        examples: [
           { es: "Au bout d'une heure, elle a fini par accepter.", en: "After an hour, she eventually agreed." },
           { es: "Il en est venu à douter de tout.", en: "He came to doubt everything." },
+          { es: "Après trois essais, il a fini par réussir.", en: "After three attempts, he eventually succeeded." },
         ],
         checkpoint: [
           {
@@ -1120,40 +1400,40 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["On a fini par acheter la maison.", "Finalement, nous avons acheté la maison.", "Finalement, on a acheté la maison."],
             explanation: "End up / eventually → \"finir par\" + infinitive.",
           },
+        ],
+      },
+      {
+        heading: "Continuer à or continuer de",
+        body: [
+          "\"Continuer à\" or \"continuer de\" + infinitive = to keep (on) doing: both prepositions are correct; \"de\" is slightly more formal. \"Il continue à pleuvoir.\" \"Les prix continuent d'augmenter.\"",
+        ],
+        examples: [
+          { es: "Les prix continuent d'augmenter.", en: "Prices keep rising." },
+          { es: "Elle continue de travailler le samedi.", en: "She still works on Saturdays." },
+          { es: "Malgré la pluie, ils ont continué à jouer.", en: "Despite the rain, they kept playing." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
-            question: "\"Elle a fini de manger.\" What does it mean?",
-            options: ["She's finished eating.", "She ended up eating.", "She stopped eating for good.", "She eventually agreed to eat."],
+            question: "Which is correct for 'Sales keep falling'?",
+            options: ["Les ventes continuent de baisser.", "Les ventes continuent baisser.", "Les ventes continuent par baisser.", "Les ventes finissent de baisser."],
             correctIndex: 0,
-            explanation: "\"Finir de\" = to complete the activity.",
+            explanation: "\"Continuer\" needs \"à\" or \"de\" before the infinitive. \"Par\" belongs to \"finir par\", and \"finir de baisser\" would mean they stop falling.",
           },
         ],
       },
       {
-        heading: "Continuing, stopping, starting again",
+        heading: "Stopping: arrêter, cesser, ne cesser de",
         body: [
-          "\"Continuer à\" or \"continuer de\" + infinitive = to keep (on) doing: both prepositions are correct; \"de\" is slightly more formal. \"Il continue à pleuvoir.\" \"Les prix continuent d'augmenter.\"",
           "Stopping: \"arrêter de\" (everyday), \"cesser de\" (more formal), \"s'arrêter de\" (to stop in the middle of an action: \"il s'est arrêté de parler\"). In the negative, \"ne cesser de\" (literary, often without \"pas\") means to keep on, constantly: \"Il ne cesse de se plaindre\" (he never stops complaining). \"Ne pas arrêter de\" is the spoken equivalent: \"Il n'arrête pas de se plaindre.\"",
-          "Starting again: \"se remettre à\" + infinitive or noun = to take up again: \"Je me suis remis au piano\", \"Elle s'est remise à fumer.\" \"Recommencer à\" is also common: \"Il recommence à neiger.\"",
         ],
         examples: [
-          { es: "Les prix continuent d'augmenter.", en: "Prices keep rising." },
           { es: "Il a arrêté de fumer il y a cinq ans.", en: "He stopped smoking five years ago." },
           { es: "L'entreprise a cessé de fabriquer ce modèle.", en: "The company has stopped making this model." },
           { es: "Il ne cesse de se plaindre.", en: "He's constantly complaining." },
           { es: "Il n'arrête pas de se plaindre.", en: "He never stops complaining." },
-          { es: "Je me suis remis au piano cet hiver.", en: "I took up the piano again this winter." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "She took up running again.",
-            answer: "Elle s'est remise à courir.",
-            altAnswers: ["Elle s'est remise à la course.", "Elle a recommencé à courir.", "Elle s'est remise à la course à pied."],
-            explanation: "\"Se remettre à\" + infinitive or noun = to take up again.",
-          },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1166,30 +1446,60 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "Where you're at: en être à, être en passe de",
+        heading: "Starting again",
         body: [
-          "\"En être à\" + noun or infinitive says what stage you've reached: \"On en est où ?\" (where are we up to?), \"J'en suis au chapitre 5\", \"Il en est à son troisième divorce\", \"J'en suis à me demander si ça vaut la peine\" (I've got to the point of wondering...).",
-          "\"Être en passe de\" + infinitive = to be on the point of, well on the way to: \"L'équipe est en passe de remporter le championnat.\" \"Être sur le point de\" (about to) is more immediate: \"Le train est sur le point de partir.\" \"Être en train de\" (in the middle of) comes in this unit's next Contrast Clinic.",
-          "Together these verbs let French express aspect (beginning, continuation, end, stage) without any special tense, exactly as English does with 'keep on', 'end up', 'get to the point of'.",
+          "Starting again: \"se remettre à\" + infinitive or noun = to take up again: \"Je me suis remis au piano\", \"Elle s'est remise à fumer.\" \"Recommencer à\" is also common: \"Il recommence à neiger.\"",
         ],
         examples: [
-          { es: "On en est où du projet ?", en: "Where are we up to with the project?" },
-          { es: "J'en suis au chapitre 5.", en: "I'm on chapter 5." },
-          { es: "J'en suis à me demander si ça vaut la peine.", en: "I've got to the point of wondering if it's worth it." },
-          { es: "L'équipe est en passe de remporter le championnat.", en: "The team is well on the way to winning the championship." },
-          { es: "Le train est sur le point de partir.", en: "The train is about to leave." },
-          { es: "Ce quartier est en passe de devenir le plus cher de la ville.", en: "This neighbourhood is on its way to becoming the most expensive in town." },
+          { es: "Je me suis remis au piano cet hiver.", en: "I took up the piano again this winter." },
+          { es: "Il recommence à neiger.", en: "It's starting to snow again." },
+          { es: "Elle s'est remise à la peinture.", en: "She's taken up painting again." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "Where are we up to? (informal)",
-            answer: "On en est où ?",
-            altAnswers: ["Où est-ce qu'on en est ?", "Où en est-on ?"],
-            explanation: "\"En être\" + où = what stage have we reached.",
+            source: "She took up running again.",
+            answer: "Elle s'est remise à courir.",
+            altAnswers: ["Elle s'est remise à la course.", "Elle a recommencé à courir.", "Elle s'est remise à la course à pied."],
+            explanation: "\"Se remettre à\" + infinitive or noun = to take up again.",
           },
+        ],
+      },
+      {
+        heading: "Where you're at: en être à",
+        body: [
+          "\"En être à\" + noun or infinitive says what stage you've reached: \"On en est où ?\" (where are we up to?), \"J'en suis au chapitre 5\", \"Il en est à son troisième divorce\", \"J'en suis à me demander si ça vaut la peine\" (I've got to the point of wondering...).",
+        ],
+        examples: [
+          { es: "On en est où du projet ?", en: "Where are we up to with the project?" },
+          { es: "J'en suis au chapitre 5.", en: "I'm on chapter 5." },
+          { es: "J'en suis à me demander si ça vaut la peine.", en: "I've got to the point of wondering if it's worth it." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "I'm on page 200.",
+            answer: "J'en suis à la page 200.",
+            altAnswers: ["J'en suis page 200.", "J'en suis à la page deux cents."],
+            explanation: "\"En être à\" + noun says what stage you've reached: \"j'en suis à la page 200\".",
+          },
+        ],
+      },
+      {
+        heading: "En passe de, sur le point de",
+        body: [
+          "\"Être en passe de\" + infinitive = to be on the point of, well on the way to: \"L'équipe est en passe de remporter le championnat.\" \"Être sur le point de\" (about to) is more immediate: \"Le train est sur le point de partir.\" \"Être en train de\" (in the middle of) comes in this unit's next Contrast Clinic.",
+        ],
+        examples: [
+          { es: "L'équipe est en passe de remporter le championnat.", en: "The team is well on the way to winning the championship." },
+          { es: "Le train est sur le point de partir.", en: "The train is about to leave." },
+          { es: "Ce quartier est en passe de devenir le plus cher de la ville.", en: "This neighbourhood is on its way to becoming the most expensive in town." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Cette start-up est en passe de devenir un leader européen.",
@@ -1197,6 +1507,31 @@ export const FR_C1_U04: Lesson[] = [
             options: ["This start-up is well on the way to becoming a European leader.", "This start-up has just become a European leader.", "This start-up passed a European leader.", "This start-up stopped being a European leader."],
             correctIndex: 0,
             explanation: "\"Être en passe de\" = to be on the way to.",
+          },
+        ],
+      },
+      {
+        heading: "Aspect without a special tense",
+        body: [
+          "Together these verbs let French express aspect (beginning, continuation, end, stage) without any special tense, exactly as English does with 'keep on', 'end up', 'get to the point of'.",
+        ],
+        examples: [
+          { es: "Elle continue de chercher du travail.", en: "She's still looking for work." },
+          { es: "Ils en sont venus à se détester.", en: "They got to the point of hating each other." },
+          { es: "Je suis sur le point de craquer.", en: "I'm about to crack." },
+        ],
+        checkpoint: [
+          {
+            type: "matching",
+            instructions: "Match each expression with its meaning.",
+            pairs: [
+              { left: "finir de", right: "to finish doing" },
+              { left: "finir par", right: "to end up doing" },
+              { left: "se remettre à", right: "to take up again" },
+              { left: "être en passe de", right: "to be on the way to" },
+              { left: "ne cesser de", right: "to keep on doing" },
+            ],
+            explanation: "Aspect expressed with verbs + prepositions.",
           },
         ],
       },
@@ -1280,18 +1615,6 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "Literary \"ne cesser de\" without \"pas\" = keep on.",
       },
       {
-        type: "matching",
-        instructions: "Match each expression with its meaning.",
-        pairs: [
-          { left: "finir de", right: "to finish doing" },
-          { left: "finir par", right: "to end up doing" },
-          { left: "se remettre à", right: "to take up again" },
-          { left: "être en passe de", right: "to be on the way to" },
-          { left: "ne cesser de", right: "to keep on doing" },
-        ],
-        explanation: "Aspect expressed with verbs + prepositions.",
-      },
-      {
         type: "dictation",
         audio: "Elle a fini par accepter notre proposition.",
         explanation: "\"Finir par\" = to end up, eventually.",
@@ -1301,6 +1624,15 @@ export const FR_C1_U04: Lesson[] = [
         text: "J'ai fini par comprendre.",
         prompt: "Say it in French: I got it in the end.",
         explanation: "\"Finir par comprendre\" = eventually understand.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it with ne cesser de.",
+        source: "Elle parle de son voyage tout le temps.",
+        answer: "Elle ne cesse de parler de son voyage.",
+        altAnswers: ["Elle ne cesse pas de parler de son voyage.", "Elle n'arrête pas de parler de son voyage."],
+        explanation: "\"Ne cesser de\" (literary, usually without \"pas\") means to keep on constantly; \"tout le temps\" disappears into the verb.",
       },
     ],
   },
@@ -1313,28 +1645,43 @@ export const FR_C1_U04: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Je crois avoir compris: same subject, no que",
+        heading: "Same subject, no que",
         body: [
           "When the subject of the main verb and of the que-clause are the same, French often prefers an infinitive: \"Je crois que j'ai compris\" → \"Je crois avoir compris.\" \"Il affirme qu'il l'a vue\" → \"Il affirme l'avoir vue.\" \"J'espère que je pourrai venir\" → \"J'espère pouvoir venir.\"",
-          "This works with verbs of opinion and declaration: \"croire\", \"penser\", \"estimer\", \"espérer\", \"affirmer\", \"déclarer\", \"reconnaître\", \"nier\", \"avouer\", \"se souvenir de\". The present infinitive expresses simultaneity or future (\"j'espère pouvoir\"); the past infinitive (avoir / être + participle) expresses anteriority (\"je crois avoir compris\").",
-          "With verbs of will (\"vouloir\", \"souhaiter\", \"préférer\"), the infinitive is not a choice but an obligation with the same subject: \"Je veux partir\", never \"*je veux que je parte\". With opinion verbs, both are correct, but the infinitive sounds more elegant in writing.",
         ],
         examples: [
           { es: "Je crois avoir compris.", en: "I think I've understood." },
           { es: "Il affirme l'avoir vue sortir.", en: "He claims he saw her leave." },
           { es: "J'espère pouvoir venir samedi.", en: "I hope to be able to come on Saturday." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it with an infinitive.",
+            source: "Elle pense qu'elle a réussi l'examen.",
+            answer: "Elle pense avoir réussi l'examen.",
+            explanation: "Same subject in both clauses (elle), so the que-clause becomes an infinitive; the exam came first, so the past infinitive: \"avoir réussi\".",
+          },
+        ],
+      },
+      {
+        heading: "Which verbs, and which infinitive",
+        body: [
+          "This works with verbs of opinion and declaration: \"croire\", \"penser\", \"estimer\", \"espérer\", \"affirmer\", \"déclarer\", \"reconnaître\", \"nier\", \"avouer\", \"se souvenir de\". The present infinitive expresses simultaneity or future (\"j'espère pouvoir\"); the past infinitive (avoir / être + participle) expresses anteriority (\"je crois avoir compris\").",
+        ],
+        examples: [
           { es: "Elle reconnaît s'être trompée.", en: "She admits she was wrong." },
           { es: "Il nie avoir pris l'argent.", en: "He denies taking the money." },
           { es: "Je ne me souviens pas d'avoir dit ça.", en: "I don't remember saying that." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French with an infinitive.",
-            source: "He denies having lied.",
-            answer: "Il nie avoir menti.",
-            explanation: "Same subject → past infinitive \"avoir menti\".",
+            type: "multiple-choice",
+            question: "Which sentence means 'I remember meeting him'?",
+            options: ["Je me souviens de l'avoir rencontré.", "Je me souviens de le rencontrer.", "Je me souviens que je le rencontre.", "Je me souviens l'avoir rencontrer."],
+            correctIndex: 0,
+            explanation: "The meeting came before the remembering, so the past infinitive: \"avoir rencontré\". The present infinitive would mean remembering to meet him.",
           },
           {
             type: "fill-blank",
@@ -1348,21 +1695,45 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "Après avoir, après s'être; sans avoir",
+        heading: "Will verbs: the infinitive is compulsory",
+        body: [
+          "With verbs of will (\"vouloir\", \"souhaiter\", \"préférer\"), the infinitive is not a choice but an obligation with the same subject: \"Je veux partir\", never \"*je veux que je parte\". With opinion verbs, both are correct, but the infinitive sounds more elegant in writing.",
+        ],
+        examples: [
+          { es: "Je veux partir tôt.", en: "I want to leave early." },
+          { es: "Elle préfère rester ici.", en: "She prefers to stay here." },
+          { es: "Nous souhaitons vous remercier.", en: "We'd like to thank you." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Je voudrais que je parte plus tôt.",
+            answer: "Je voudrais partir plus tôt.",
+            explanation: "With a verb of will and the same subject, the infinitive is compulsory: \"je voudrais partir\", never \"que je parte\".",
+          },
+        ],
+      },
+      {
+        heading: "Après + past infinitive",
         body: [
           "\"Après\" always takes the past infinitive: \"Après avoir mangé, nous sommes sortis.\" With être verbs, \"après être\" + agreeing participle: \"Après être arrivée, elle a appelé sa mère.\" With pronominal verbs, the reflexive pronoun changes with the person: \"Après m'être levé, j'ai pris une douche\", \"Après s'être levés, ils ont pris le petit déjeuner.\"",
-          "\"Sans avoir\" + past participle = without having: \"Il est parti sans avoir prévenu\" (without telling anyone). \"Sans\" + present infinitive is more common: \"sans prévenir\". The past form stresses that something should have been done beforehand.",
-          "Learners often forget to adapt the pronoun: \"*après se être levé, je...\" must be \"après m'être levé\". And \"après\" + present infinitive (\"*après manger\") is heard in speech but avoided in writing.",
         ],
         examples: [
           { es: "Après avoir mangé, nous sommes sortis.", en: "After eating, we went out." },
           { es: "Après être arrivée, elle a appelé sa mère.", en: "After arriving, she called her mother." },
           { es: "Après m'être levé, j'ai pris une douche.", en: "After getting up, I had a shower." },
           { es: "Après nous être disputés, nous nous sommes réconciliés.", en: "After arguing, we made up." },
-          { es: "Il est parti sans avoir prévenu personne.", en: "He left without having told anyone." },
-          { es: "Elle a signé sans lire le contrat.", en: "She signed without reading the contract." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is correct?",
+            options: ["Après s'être reposés, ils sont repartis.", "Après se être reposés, ils sont repartis.", "Après avoir reposés, ils sont repartis.", "Après se reposer, ils sont repartis."],
+            correctIndex: 0,
+            explanation: "\"S'être\" (elided) + participle agreeing with \"ils\".",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1372,34 +1743,60 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Après m'être habillée, j'ai pris le petit déjeuner.", "Après m'être habillé, j'ai pris mon petit déjeuner.", "Après m'être habillée, j'ai pris mon petit déjeuner.", "Après m'être habillé, j'ai petit-déjeuné.", "Après m'être habillée, j'ai petit-déjeuné."],
             explanation: "Pronominal: \"après m'être\" + participle (the pronoun matches \"je\").",
           },
+        ],
+      },
+      {
+        heading: "Sans avoir",
+        body: [
+          "\"Sans avoir\" + past participle = without having: \"Il est parti sans avoir prévenu\" (without telling anyone). \"Sans\" + present infinitive is more common: \"sans prévenir\". The past form stresses that something should have been done beforehand.",
+        ],
+        examples: [
+          { es: "Il est parti sans avoir prévenu personne.", en: "He left without having told anyone." },
+          { es: "Elle a signé sans lire le contrat.", en: "She signed without reading the contract." },
+          { es: "Elle a réussi sans avoir révisé.", en: "She passed without having revised." },
+        ],
+        checkpoint: [
           {
-            type: "multiple-choice",
-            question: "Which is correct?",
-            options: [
-              "Après s'être reposés, ils sont repartis.",
-              "Après se être reposés, ils sont repartis.",
-              "Après avoir reposés, ils sont repartis.",
-              "Après se reposer, ils sont repartis.",
-            ],
-            correctIndex: 0,
-            explanation: "\"S'être\" (elided) + participle agreeing with \"ils\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "They left without saying goodbye.",
+            answer: "Ils sont partis sans dire au revoir.",
+            altAnswers: ["Elles sont parties sans dire au revoir.", "Ils sont partis sans avoir dit au revoir.", "Elles sont parties sans avoir dit au revoir."],
+            explanation: "\"Sans\" + infinitive (present or past).",
           },
         ],
       },
       {
-        heading: "Pour avoir + participle: cause",
+        heading: "Two classic slips",
+        body: [
+          "Learners often forget to adapt the pronoun: \"*après se être levé, je...\" must be \"après m'être levé\". And \"après\" + present infinitive (\"*après manger\") is heard in speech but avoided in writing.",
+        ],
+        examples: [
+          { es: "Après nous être promenés, nous avons dîné.", en: "After going for a walk, we had dinner." },
+          { es: "Après t'être reposé, tu iras mieux.", en: "After a rest, you'll feel better." },
+          { es: "Après avoir déjeuné, on repart.", en: "After lunch, we set off again." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Après se être levée, je suis allée courir.",
+            answer: "Après m'être levée, je suis allée courir.",
+            explanation: "The reflexive pronoun changes with the person: \"je\" needs \"m'être levée\", not \"se être\".",
+          },
+        ],
+      },
+      {
+        heading: "Pour + past infinitive: cause",
         body: [
           "\"Pour\" + past infinitive expresses a cause, typically a past action that led to a consequence, often a punishment or reward: \"Il a été condamné pour avoir menti sous serment\" (for lying under oath). \"Elle a été récompensée pour avoir sauvé un enfant\" (for saving a child).",
-          "Don't confuse it with \"pour\" + present infinitive, which expresses purpose: \"Il travaille pour payer ses études.\" Past infinitive → cause; present infinitive → purpose.",
-          "This construction is very frequent in news reports: \"arrêté pour avoir volé\", \"licencié pour avoir critiqué\", \"félicité pour avoir...\". English uses 'for' + -ing; French needs the past infinitive.",
         ],
         examples: [
           { es: "Il a été condamné pour avoir menti sous serment.", en: "He was convicted for lying under oath." },
           { es: "Elle a été récompensée pour avoir sauvé un enfant.", en: "She was rewarded for saving a child." },
           { es: "Le joueur a été suspendu pour avoir insulté l'arbitre.", en: "The player was suspended for insulting the referee." },
-          { es: "Merci de m'avoir aidé.", en: "Thanks for helping me." },
-          { es: "Il travaille le soir pour payer ses études.", en: "He works in the evenings to pay for his studies." },
-          { es: "Je m'excuse d'être arrivé en retard.", en: "I apologise for being late." },
         ],
         checkpoint: [
           {
@@ -1410,6 +1807,28 @@ export const FR_C1_U04: Lesson[] = [
             answer: "Il a reçu une amende pour avoir stationné sur le trottoir.",
             altAnswers: ["Il a eu une amende pour avoir stationné sur le trottoir.", "Il a reçu une amende pour s'être garé sur le trottoir.", "Il a eu une amende pour s'être garé sur le trottoir.", "Il a été verbalisé pour avoir stationné sur le trottoir.", "Il a été verbalisé pour s'être garé sur le trottoir."],
             explanation: "Cause of a punishment → \"pour\" + past infinitive.",
+          },
+        ],
+      },
+      {
+        heading: "Cause or purpose?",
+        body: [
+          "Don't confuse it with \"pour\" + present infinitive, which expresses purpose: \"Il travaille pour payer ses études.\" Past infinitive → cause; present infinitive → purpose.",
+          "This construction is very frequent in news reports: \"arrêté pour avoir volé\", \"licencié pour avoir critiqué\", \"félicité pour avoir...\". English uses 'for' + -ing; French needs the past infinitive.",
+        ],
+        examples: [
+          { es: "Il travaille le soir pour payer ses études.", en: "He works in the evenings to pay for his studies." },
+          { es: "Merci de m'avoir aidé.", en: "Thanks for helping me." },
+          { es: "Je m'excuse d'être arrivé en retard.", en: "I apologise for being late." },
+          { es: "Le maire a été critiqué pour avoir fermé la piscine.", en: "The mayor was criticised for closing the pool." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence expresses a cause (not a purpose)?",
+            options: ["Elle a été félicitée pour avoir aidé les victimes.", "Elle est venue pour aider les victimes.", "Elle travaille pour aider les victimes.", "Elle donne de l'argent pour aider les victimes."],
+            correctIndex: 0,
+            explanation: "\"Pour\" + past infinitive = because she had helped.",
           },
           {
             type: "listen-choose",
@@ -1468,27 +1887,6 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "Cause → \"pour avoir\" + participle.",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence expresses a cause (not a purpose)?",
-        options: [
-          "Elle a été félicitée pour avoir aidé les victimes.",
-          "Elle est venue pour aider les victimes.",
-          "Elle travaille pour aider les victimes.",
-          "Elle donne de l'argent pour aider les victimes.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Pour\" + past infinitive = because she had helped.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "They left without saying goodbye.",
-        answer: "Ils sont partis sans dire au revoir.",
-        altAnswers: ["Elles sont parties sans dire au revoir.", "Ils sont partis sans avoir dit au revoir.", "Elles sont parties sans avoir dit au revoir."],
-        explanation: "\"Sans\" + infinitive (present or past).",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with an infinitive.",
@@ -1523,9 +1921,9 @@ export const FR_C1_U04: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Je crois avoir compris.",
-        prompt: "Say it in French: I think I've understood.",
-        explanation: "Same subject → infinitive instead of \"que j'ai compris\".",
+        text: "Je crois m'être trompé.",
+        prompt: "Say it in French: I think I've made a mistake.",
+        explanation: "Same subject, earlier action: past infinitive of a pronominal verb, with the pronoun matching \"je\": \"m'être trompé\".",
       },
     ],
   },
@@ -1538,19 +1936,33 @@ export const FR_C1_U04: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Fumer tue: the infinitive as a subject",
+        heading: "The infinitive as a subject",
         body: [
           "Where English uses an -ing form as the subject of a sentence (Smoking kills, Travelling broadens the mind), French uses the infinitive: \"Fumer tue\", \"Voyager forme la jeunesse.\" Never \"*Fumant tue\": the present participle can't be a noun in French.",
-          "In everyday French, the infinitive subject is usually picked up by \"c'est\": \"Partir, c'est mourir un peu\" (to leave is to die a little), \"Apprendre une langue, c'est s'ouvrir au monde.\" Without \"c'est\", the sentence sounds more aphoristic or written: \"Gouverner est prévoir\" is a maxim, \"Gouverner, c'est prévoir\" is how people actually quote it.",
-          "The infinitive can also be the real subject after an impersonal \"il\": \"Il est interdit de fumer\", \"Il est difficile de savoir.\" Compare \"Savoir, c'est difficile\" (spoken, topic first) and \"Il est difficile de savoir\" (neutral). Note the \"de\" that appears only in the impersonal version.",
         ],
         examples: [
           { es: "Fumer tue.", en: "Smoking kills." },
+          { es: "Courir le matin me met de bonne humeur.", en: "Running in the morning puts me in a good mood." },
+          { es: "Se plaindre ne sert à rien.", en: "Complaining is pointless." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct French?",
+            options: ["Voyager seul, c'est une autre expérience.", "Voyageant seul, c'est une autre expérience.", "Le voyageant seul est une autre expérience.", "En voyageant seul est une autre expérience."],
+            correctIndex: 0,
+            explanation: "Only the infinitive can act as a noun subject; the participle and gérondif can't.",
+          },
+        ],
+      },
+      {
+        heading: "Picked up by c'est",
+        body: [
+          "In everyday French, the infinitive subject is usually picked up by \"c'est\": \"Partir, c'est mourir un peu\" (to leave is to die a little), \"Apprendre une langue, c'est s'ouvrir au monde.\" Without \"c'est\", the sentence sounds more aphoristic or written: \"Gouverner est prévoir\" is a maxim, \"Gouverner, c'est prévoir\" is how people actually quote it.",
+        ],
+        examples: [
           { es: "Partir, c'est mourir un peu.", en: "To leave is to die a little." },
           { es: "Apprendre une langue, c'est s'ouvrir au monde.", en: "Learning a language means opening up to the world." },
-          { es: "Courir le matin me met de bonne humeur.", en: "Running in the morning puts me in a good mood." },
-          { es: "Il est interdit de fumer dans l'enceinte de la gare.", en: "Smoking is forbidden on station premises." },
-          { es: "Se plaindre ne sert à rien.", en: "Complaining is pointless." },
           { es: "Bien manger, c'est d'abord bien choisir ses produits.", en: "Eating well means first of all choosing your ingredients well." },
         ],
         checkpoint: [
@@ -1563,45 +1975,41 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Lire, c'est mon passe-temps préféré.", "La lecture est mon passe-temps préféré."],
             explanation: "English -ing subject → French infinitive (or a noun, \"la lecture\").",
           },
+        ],
+      },
+      {
+        heading: "Il est + adjective + de",
+        body: [
+          "The infinitive can also be the real subject after an impersonal \"il\": \"Il est interdit de fumer\", \"Il est difficile de savoir.\" Compare \"Savoir, c'est difficile\" (spoken, topic first) and \"Il est difficile de savoir\" (neutral). Note the \"de\" that appears only in the impersonal version.",
+        ],
+        examples: [
+          { es: "Il est interdit de fumer dans l'enceinte de la gare.", en: "Smoking is forbidden on station premises." },
+          { es: "Il est important de bien dormir.", en: "It's important to sleep well." },
+          { es: "Bien dormir, c'est important.", en: "Sleeping well is important." },
+        ],
+        checkpoint: [
           {
-            type: "multiple-choice",
-            question: "Which sentence is correct French?",
-            options: [
-              "Voyager seul, c'est une autre expérience.",
-              "Voyageant seul, c'est une autre expérience.",
-              "Le voyageant seul est une autre expérience.",
-              "En voyageant seul est une autre expérience.",
-            ],
-            correctIndex: 0,
-            explanation: "Only the infinitive can act as a noun subject; the participle and gérondif can't.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it with an impersonal il.",
+            source: "Se garer ici, c'est interdit.",
+            answer: "Il est interdit de se garer ici.",
+            altAnswers: ["Il est défendu de se garer ici."],
+            explanation: "The infinitive becomes the real subject after impersonal \"il est\", and a \"de\" appears: \"il est interdit de se garer\".",
           },
         ],
       },
       {
-        heading: "Laisser reposer: infinitives in instructions and signs",
+        heading: "The infinitive as an impersonal order",
         body: [
           "Recipes, user manuals, forms and public signs use the infinitive as an impersonal imperative. It addresses nobody in particular, so it avoids choosing between \"tu\" and \"vous\": \"Laisser reposer la pâte 30 minutes\", \"Agiter avant emploi\", \"Remplir en lettres capitales.\"",
-          "Negation puts both parts before the infinitive: \"Ne pas se pencher au dehors\" (the famous old train-window sign), \"Ne pas jeter sur la voie publique\", \"Ne rien laisser dans le véhicule.\" Object pronouns go after \"ne pas\": \"Ne pas le laisser à la portée des enfants.\"",
-          "In a recipe, both styles exist. Cookbooks and packaging prefer infinitives (\"Faire fondre le beurre\"); food blogs and TV chefs prefer \"vous\" imperatives (\"Faites fondre le beurre\"). Pick one and keep it consistent throughout the text. Note \"faire\" + infinitive for processes: \"faire cuire\", \"faire fondre\", \"faire revenir\" (to brown), and \"laisser refroidir\".",
         ],
         examples: [
-          { es: "Laisser reposer la pâte trente minutes au frais.", en: "Leave the dough to rest for thirty minutes in the fridge." },
-          { es: "Faire fondre le beurre à feu doux.", en: "Melt the butter over a low heat." },
           { es: "Agiter avant emploi.", en: "Shake before use." },
-          { es: "Ne pas se pencher au dehors.", en: "Do not lean out of the window." },
-          { es: "Ne pas laisser à la portée des enfants.", en: "Keep out of the reach of children." },
           { es: "Conserver dans un endroit sec, à l'abri de la lumière.", en: "Store in a dry place, away from light." },
           { es: "Remplir le formulaire en lettres capitales.", en: "Fill in the form in block capitals." },
         ],
         checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "[Do not exceed] the prescribed dose.",
-            sentence: "___ la dose prescrite.",
-            answer: "Ne pas dépasser",
-            explanation: "Negative infinitive: both parts, \"ne pas\", go before the verb.",
-          },
           {
             type: "translate",
             direction: "en-es",
@@ -1614,39 +2022,105 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
+        heading: "Negative instructions",
+        body: [
+          "Negation puts both parts before the infinitive: \"Ne pas se pencher au dehors\" (the famous old train-window sign), \"Ne pas jeter sur la voie publique\", \"Ne rien laisser dans le véhicule.\" Object pronouns go after \"ne pas\": \"Ne pas le laisser à la portée des enfants.\"",
+        ],
+        examples: [
+          { es: "Ne pas se pencher au dehors.", en: "Do not lean out of the window." },
+          { es: "Ne pas laisser à la portée des enfants.", en: "Keep out of the reach of children." },
+          { es: "Ne rien jeter dans les toilettes.", en: "Do not flush anything down the toilet." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[Do not exceed] the prescribed dose.",
+            sentence: "___ la dose prescrite.",
+            answer: "Ne pas dépasser",
+            explanation: "Negative infinitive: both parts, \"ne pas\", go before the verb.",
+          },
+        ],
+      },
+      {
+        heading: "Recipes: two styles",
+        body: [
+          "In a recipe, both styles exist. Cookbooks and packaging prefer infinitives (\"Faire fondre le beurre\"); food blogs and TV chefs prefer \"vous\" imperatives (\"Faites fondre le beurre\"). Pick one and keep it consistent throughout the text. Note \"faire\" + infinitive for processes: \"faire cuire\", \"faire fondre\", \"faire revenir\" (to brown), and \"laisser refroidir\".",
+        ],
+        examples: [
+          { es: "Laisser reposer la pâte trente minutes au frais.", en: "Leave the dough to rest for thirty minutes in the fridge." },
+          { es: "Faire fondre le beurre à feu doux.", en: "Melt the butter over a low heat." },
+          { es: "Faites cuire les pâtes dix minutes.", en: "Cook the pasta for ten minutes." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which recipe step is wrong because it mixes the two styles?",
+            options: ["Faire fondre le chocolat, puis ajoutez le sucre.", "Faire fondre le chocolat, puis ajouter le sucre.", "Faites fondre le chocolat, puis ajoutez le sucre.", "Faire fondre le chocolat et ajouter le sucre."],
+            correctIndex: 0,
+            explanation: "A recipe uses either infinitives (\"faire fondre... ajouter\") or \"vous\" imperatives (\"faites fondre... ajoutez\") throughout. The first option switches halfway.",
+          },
+        ],
+      },
+      {
         heading: "Que faire ? Deliberative questions",
         body: [
           "A bare infinitive in a question expresses deliberation: what should one do? \"Que faire ?\" (What is to be done? What can we do?), \"Où aller ?\", \"Comment le lui dire ?\", \"Qui croire ?\" No subject, no modal verb: the infinitive carries the idea of 'should'.",
-          "This is common in headlines, essay titles and inner monologue: \"Que faire de ses vieux vêtements ?\", \"Pourquoi apprendre le latin aujourd'hui ?\" It's more concise and more literary than \"Qu'est-ce qu'on doit faire ?\"",
-          "\"À quoi bon\" + infinitive asks a rhetorical question (what's the point of...?): \"À quoi bon insister ?\" The answer is understood: none. The infinitive also appears in indignant exclamations: \"Moi, mentir ? Jamais !\" (Me, lie? Never!)",
         ],
         examples: [
           { es: "Que faire ?", en: "What is to be done?" },
-          { es: "Que faire de ses vieux vêtements ?", en: "What to do with your old clothes?" },
           { es: "Où aller cet été ?", en: "Where to go this summer?" },
           { es: "Comment le lui annoncer sans la blesser ?", en: "How can I tell her without hurting her?" },
-          { es: "À quoi bon insister ? Il ne changera pas d'avis.", en: "What's the point of insisting? He won't change his mind." },
-          { es: "Moi, mentir ? Jamais !", en: "Me, lie? Never!" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French with a bare infinitive.",
-            source: "Who should we believe?",
-            answer: "Qui croire ?",
-            explanation: "Deliberative infinitive: \"Qui croire ?\"",
+            source: "Who should I ask?",
+            answer: "À qui demander ?",
+            altAnswers: ["À qui m'adresser ?", "À qui poser la question ?", "Qui interroger ?", "À qui le demander ?"],
+            explanation: "A bare infinitive in a question carries the idea of 'should': no subject, no modal verb.",
           },
+        ],
+      },
+      {
+        heading: "In headlines and essay titles",
+        body: [
+          "This is common in headlines, essay titles and inner monologue: \"Que faire de ses vieux vêtements ?\", \"Pourquoi apprendre le latin aujourd'hui ?\" It's more concise and more literary than \"Qu'est-ce qu'on doit faire ?\"",
+        ],
+        examples: [
+          { es: "Que faire de ses vieux vêtements ?", en: "What to do with your old clothes?" },
+          { es: "Pourquoi apprendre le latin aujourd'hui ?", en: "Why learn Latin today?" },
+          { es: "Comment choisir son vélo ?", en: "How to choose your bike?" },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with a bare infinitive.",
+            source: "Where to eat in Lyon?",
+            answer: "Où manger à Lyon ?",
+            explanation: "Deliberative infinitive, typical of a headline.",
+          },
+        ],
+      },
+      {
+        heading: "À quoi bon, and indignant exclamations",
+        body: [
+          "\"À quoi bon\" + infinitive asks a rhetorical question (what's the point of...?): \"À quoi bon insister ?\" The answer is understood: none. The infinitive also appears in indignant exclamations: \"Moi, mentir ? Jamais !\" (Me, lie? Never!)",
+        ],
+        examples: [
+          { es: "À quoi bon insister ? Il ne changera pas d'avis.", en: "What's the point of insisting? He won't change his mind." },
+          { es: "Moi, mentir ? Jamais !", en: "Me, lie? Never!" },
+          { es: "À quoi bon se presser ? Le train est parti.", en: "What's the point of hurrying? The train has gone." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "À quoi bon se disputer pour si peu ?",
             question: "What does it mean?",
-            options: [
-              "What's the point of arguing over so little?",
-              "Why did we argue over so little?",
-              "Who argued over so little?",
-              "We must not argue over so little.",
-            ],
+            options: ["What's the point of arguing over so little?", "Why did we argue over so little?", "Who argued over so little?", "We must not argue over so little."],
             correctIndex: 0,
             explanation: "\"À quoi bon\" + infinitive = what's the point of.",
           },
@@ -1709,14 +2183,6 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with a bare infinitive.",
-        source: "Where to eat in Lyon?",
-        answer: "Où manger à Lyon ?",
-        explanation: "Deliberative infinitive, typical of a headline.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
         prompt: "Translate into French with à quoi bon.",
         source: "What's the point of complaining?",
         answer: "À quoi bon se plaindre ?",
@@ -1725,12 +2191,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which negative instruction is correctly formed?",
-        options: [
-          "Ne pas le laisser au soleil.",
-          "Ne le laisser pas au soleil.",
-          "Ne laisser pas le au soleil.",
-          "Pas le laisser au soleil.",
-        ],
+        options: ["Ne pas le laisser au soleil.", "Ne le laisser pas au soleil.", "Ne laisser pas le au soleil.", "Pas le laisser au soleil."],
         correctIndex: 0,
         explanation: "\"Ne pas\" + pronoun + infinitive.",
       },
@@ -1746,13 +2207,12 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "Packaging instructions use the infinitive.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Saying no is sometimes necessary.",
-        answer: "Dire non est parfois nécessaire.",
-        altAnswers: ["Dire non, c'est parfois nécessaire.", "Il est parfois nécessaire de dire non."],
-        explanation: "Infinitive subject, or impersonal \"il est\" + adjective + \"de\".",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "[Saying no] is sometimes necessary.",
+        sentence: "___ est parfois nécessaire.",
+        answer: "Dire non",
+        explanation: "Where English uses an -ing subject, French uses the infinitive: \"dire non\".",
       },
       {
         type: "dictation",
@@ -1777,19 +2237,14 @@ export const FR_C1_U04: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "The trap: English progressive = French simple tense",
+        heading: "No progressive tense in French",
         body: [
           "French has no grammatical progressive. \"Je travaille\" covers both I work and I'm working; \"Je travaillais\" covers I was working and I used to work. Most of the time, that's all you need: \"Qu'est-ce que tu fais ? – Je lis\" is perfectly natural.",
-          "The classic learner error is to translate every English -ing with \"être en train de\": \"*Je suis en train d'habiter à Lyon\", \"*Il est en train de pleuvoir depuis trois jours.\" This sounds odd, because \"être en train de\" isn't a neutral tense but an emphasis: it stresses that the action is happening right now, in the middle, often with a nuance of interruption or surprise.",
-          "Use \"être en train de\" when the 'in the middle of' meaning matters: \"Ne me dérange pas, je suis en train de travailler\", \"Quand tu as appelé, j'étais en train de cuisiner.\" With states (habiter, savoir, aimer, avoir), it's almost always wrong.",
         ],
         examples: [
           { es: "Qu'est-ce que tu fais ? – Je lis.", en: "What are you doing? – I'm reading." },
           { es: "J'habite à Lyon depuis deux ans.", en: "I've been living in Lyon for two years." },
-          { es: "Ne me dérange pas, je suis en train de travailler.", en: "Don't disturb me, I'm in the middle of working." },
-          { es: "Quand tu as appelé, j'étais en train de cuisiner.", en: "When you called, I was busy cooking." },
           { es: "Il pleut depuis trois jours.", en: "It's been raining for three days." },
-          { es: "Le monde est en train de changer.", en: "The world is changing before our eyes." },
         ],
         checkpoint: [
           {
@@ -1801,45 +2256,60 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["On habite à Bordeaux en ce moment.", "Nous vivons à Bordeaux en ce moment.", "On vit à Bordeaux en ce moment.", "En ce moment, nous habitons à Bordeaux.", "En ce moment, on habite à Bordeaux."],
             explanation: "A state: simple present, not \"en train de\".",
           },
+        ],
+      },
+      {
+        heading: "The classic error",
+        body: [
+          "The classic learner error is to translate every English -ing with \"être en train de\": \"*Je suis en train d'habiter à Lyon\", \"*Il est en train de pleuvoir depuis trois jours.\" This sounds odd, because \"être en train de\" isn't a neutral tense but an emphasis: it stresses that the action is happening right now, in the middle, often with a nuance of interruption or surprise.",
+        ],
+        examples: [
+          { es: "Le monde est en train de changer.", en: "The world is changing before our eyes." },
+          { es: "Je connais bien ce quartier.", en: "I know this neighbourhood well." },
+          { es: "Nous habitons à Lille cette année.", en: "We're living in Lille this year." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il est en train d'avoir de la fièvre depuis hier.",
+            answer: "Il a de la fièvre depuis hier.",
+            explanation: "\"Avoir de la fièvre\" is a state, so \"être en train de\" sounds wrong; the simple present with \"depuis\" says it all.",
+          },
+        ],
+      },
+      {
+        heading: "When être en train de is right",
+        body: [
+          "Use \"être en train de\" when the 'in the middle of' meaning matters: \"Ne me dérange pas, je suis en train de travailler\", \"Quand tu as appelé, j'étais en train de cuisiner.\" With states (habiter, savoir, aimer, avoir), it's almost always wrong.",
+        ],
+        examples: [
+          { es: "Ne me dérange pas, je suis en train de travailler.", en: "Don't disturb me, I'm in the middle of working." },
+          { es: "Quand tu as appelé, j'étais en train de cuisiner.", en: "When you called, I was busy cooking." },
+          { es: "Chut, le bébé est en train de s'endormir.", en: "Shh, the baby is falling asleep." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Where is \"être en train de\" natural?",
-            options: [
-              "Rappelle-moi plus tard, je suis en train de conduire.",
-              "Je suis en train de savoir la réponse.",
-              "Elle est en train d'avoir deux enfants.",
-              "Nous sommes en train d'aimer ce film.",
-            ],
+            options: ["Rappelle-moi plus tard, je suis en train de conduire.", "Je suis en train de savoir la réponse.", "Elle est en train d'avoir deux enfants.", "Nous sommes en train d'aimer ce film."],
             correctIndex: 0,
             explanation: "An action in progress that explains an interruption; the others are states.",
           },
         ],
       },
       {
-        heading: "Aller en + participle: gradual change",
+        heading: "Aller en + participle: a trend",
         body: [
           "\"Aller (en)\" + present participle expresses a progressive increase or decrease, a trend: \"Le chômage va en augmentant\" (unemployment keeps rising), \"Sa santé allait en s'aggravant\" (his health was steadily deteriorating), \"Les écarts vont en se creusant\" (the gaps are widening).",
-          "It's a written, rather formal structure found in reports and journalism. In speech, people say \"de plus en plus\": \"Le chômage augmente de plus en plus.\" The verbs used are mostly verbs of change: augmenter, diminuer, croître, décroître, s'aggraver, s'améliorer, s'élargir, se dégrader.",
-          "The pronoun of a pronominal verb stays: \"aller en s'améliorant\", \"aller en se dégradant\". And \"aller\" is conjugated in any tense: \"La situation ira en s'améliorant\" (will gradually improve).",
         ],
         examples: [
           { es: "Le chômage va en augmentant.", en: "Unemployment keeps rising." },
           { es: "Sa santé allait en s'aggravant.", en: "His health was steadily getting worse." },
           { es: "Les inégalités vont en se creusant.", en: "Inequalities are steadily widening." },
-          { es: "Le nombre d'abonnés va en diminuant depuis 2020.", en: "The number of subscribers has been falling steadily since 2020." },
-          { es: "Espérons que la situation ira en s'améliorant.", en: "Let's hope the situation gradually improves." },
-          { es: "Le bruit augmente de plus en plus.", en: "The noise is getting louder and louder." },
         ],
         checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "Traffic [keeps getting worse].",
-            sentence: "La circulation ___.",
-            answer: "va en s'aggravant",
-            altAnswers: ["va en empirant", "s'aggrave de plus en plus", "empire de plus en plus"],
-            explanation: "\"Aller en\" + participle; the pronoun \"s'\" stays.",
-          },
           {
             type: "translate",
             direction: "en-es",
@@ -1852,18 +2322,57 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "Ne faire que, ne pas arrêter de: repetition",
+        heading: "A written structure for verbs of change",
+        body: [
+          "It's a written, rather formal structure found in reports and journalism. In speech, people say \"de plus en plus\": \"Le chômage augmente de plus en plus.\" The verbs used are mostly verbs of change: augmenter, diminuer, croître, décroître, s'aggraver, s'améliorer, s'élargir, se dégrader.",
+        ],
+        examples: [
+          { es: "Le nombre d'abonnés va en diminuant depuis 2020.", en: "The number of subscribers has been falling steadily since 2020." },
+          { es: "Le bruit augmente de plus en plus.", en: "The noise is getting louder and louder." },
+          { es: "La pollution augmente de plus en plus.", en: "Pollution is getting worse and worse." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it in formal style with aller en.",
+            source: "Les ventes baissent de plus en plus.",
+            answer: "Les ventes vont en baissant.",
+            altAnswers: ["Les ventes vont en diminuant."],
+            explanation: "\"De plus en plus\" is the spoken way to show a trend; writing uses \"aller en\" + present participle: \"vont en baissant\".",
+          },
+        ],
+      },
+      {
+        heading: "Pronouns and tenses with aller en",
+        body: [
+          "The pronoun of a pronominal verb stays: \"aller en s'améliorant\", \"aller en se dégradant\". And \"aller\" is conjugated in any tense: \"La situation ira en s'améliorant\" (will gradually improve).",
+        ],
+        examples: [
+          { es: "Espérons que la situation ira en s'améliorant.", en: "Let's hope the situation gradually improves." },
+          { es: "La qualité allait en se dégradant.", en: "Quality was steadily declining." },
+          { es: "Les jours vont en raccourcissant.", en: "The days are getting shorter and shorter." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Traffic [keeps getting worse].",
+            sentence: "La circulation ___.",
+            answer: "va en s'aggravant",
+            altAnswers: ["va en empirant", "s'aggrave de plus en plus", "empire de plus en plus"],
+            explanation: "\"Aller en\" + participle; the pronoun \"s'\" stays.",
+          },
+        ],
+      },
+      {
+        heading: "Ne faire que: nothing but, or only",
         body: [
           "\"Ne faire que\" + infinitive has two meanings. Most often it's 'to keep on doing, to do nothing but': \"Il ne fait que se plaindre\" (all he does is complain). It can also mean 'only': \"Je ne fais que passer\" (I'm only dropping by). Context decides.",
-          "Don't confuse it with \"ne faire que de\" + infinitive, an older form meaning 'to have just': \"Il ne fait que d'arriver\" (he's only just arrived). It's rare and literary today; \"il vient (juste) d'arriver\" is normal.",
-          "In speech, repetition is usually \"ne pas arrêter de\" (to keep on): \"Il n'arrête pas de pleuvoir\", \"Le téléphone n'a pas arrêté de sonner.\" More formal: \"ne cesser de\" (without \"pas\"): \"Les prix ne cessent d'augmenter.\" Three registers for one idea.",
         ],
         examples: [
           { es: "Il ne fait que se plaindre.", en: "All he does is complain." },
           { es: "Je ne fais que passer.", en: "I'm only dropping by." },
-          { es: "Il n'arrête pas de pleuvoir.", en: "It keeps on raining." },
-          { es: "Le téléphone n'a pas arrêté de sonner.", en: "The phone didn't stop ringing." },
-          { es: "Les prix ne cessent d'augmenter.", en: "Prices keep rising." },
           { es: "Elle ne fait que répéter ce qu'on lui dit.", en: "She only repeats what she's told." },
         ],
         checkpoint: [
@@ -1876,6 +2385,39 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Il ne fait rien d'autre que dormir."],
             explanation: "\"Ne faire que\" + infinitive = do nothing but.",
           },
+        ],
+      },
+      {
+        heading: "Ne faire que de: only just",
+        body: [
+          "Don't confuse it with \"ne faire que de\" + infinitive, an older form meaning 'to have just': \"Il ne fait que d'arriver\" (he's only just arrived). It's rare and literary today; \"il vient (juste) d'arriver\" is normal.",
+        ],
+        examples: [
+          { es: "Il ne fait que d'arriver.", en: "He's only just arrived." },
+          { es: "Il vient juste d'arriver.", en: "He has only just arrived." },
+          { es: "Elle vient de partir.", en: "She's just left." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does \"Elle ne fait que travailler\" mean?",
+            options: ["She does nothing but work.", "She has just started working.", "She doesn't work.", "She's working at the moment."],
+            correctIndex: 0,
+            explanation: "\"Ne faire que\" = nothing but.",
+          },
+        ],
+      },
+      {
+        heading: "Three registers for repetition",
+        body: [
+          "In speech, repetition is usually \"ne pas arrêter de\" (to keep on): \"Il n'arrête pas de pleuvoir\", \"Le téléphone n'a pas arrêté de sonner.\" More formal: \"ne cesser de\" (without \"pas\"): \"Les prix ne cessent d'augmenter.\" Three registers for one idea.",
+        ],
+        examples: [
+          { es: "Il n'arrête pas de pleuvoir.", en: "It keeps on raining." },
+          { es: "Le téléphone n'a pas arrêté de sonner.", en: "The phone didn't stop ringing." },
+          { es: "Les prix ne cessent d'augmenter.", en: "Prices keep rising." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1908,13 +2450,12 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "Interrupted action → \"être en train de\" in the imperfect.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French naturally.",
-        source: "She's been working here for ten years.",
-        answer: "Elle travaille ici depuis dix ans.",
-        altAnswers: ["Ça fait dix ans qu'elle travaille ici.", "Il y a dix ans qu'elle travaille ici."],
-        explanation: "\"Depuis\" + present; no progressive needed.",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "She [has been working] here for ten years.",
+        sentence: "Elle ___ ici depuis dix ans.",
+        answer: "travaille",
+        explanation: "French has no progressive: an action still going on uses the simple present with \"depuis\".",
       },
       {
         type: "translate",
@@ -1938,9 +2479,10 @@ export const FR_C1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with ne faire que.",
-        source: "I'm only passing through.",
-        answer: "Je ne fais que passer.",
-        explanation: "Here \"ne faire que\" = only.",
+        source: "I'm only asking.",
+        answer: "Je ne fais que demander.",
+        altAnswers: ["Je demande juste.", "Je ne fais que poser la question.", "Je pose juste la question."],
+        explanation: "\"Ne faire que\" + infinitive can mean 'only': \"je ne fais que demander\".",
       },
       {
         type: "translate",
@@ -1959,13 +2501,6 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "\"Ne faire que\" + pronominal infinitive.",
       },
       {
-        type: "multiple-choice",
-        question: "What does \"Elle ne fait que travailler\" mean?",
-        options: ["She does nothing but work.", "She has just started working.", "She doesn't work.", "She's working at the moment."],
-        correctIndex: 0,
-        explanation: "\"Ne faire que\" = nothing but.",
-      },
-      {
         type: "matching",
         instructions: "Match each French phrase with its English meaning.",
         pairs: [
@@ -1977,24 +2512,17 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "Four periphrases, four nuances.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French naturally.",
-        source: "Look, it's snowing!",
-        answer: "Regarde, il neige !",
-        altAnswers: ["Regardez, il neige !"],
-        explanation: "Simple present is enough.",
+        type: "multiple-choice",
+        question: "You notice snow falling and tell a friend. What do you say?",
+        options: ["Regarde, il neige !", "Regarde, il est en train de neiger depuis !", "Regarde, il neigeant !", "Regarde, il va en neigeant !"],
+        correctIndex: 0,
+        explanation: "The simple present covers 'it's snowing'. A present participle can't be a main verb, and \"aller en\" + participle describes a gradual trend, not an event.",
       },
       {
         type: "listen-choose",
         audio: "La situation économique va en se dégradant.",
         question: "What does it mean?",
-        options: [
-          "The economic situation is steadily deteriorating.",
-          "The economic situation is about to improve.",
-          "The economic situation deteriorated suddenly.",
-          "The economic situation will soon deteriorate.",
-        ],
+        options: ["The economic situation is steadily deteriorating.", "The economic situation is about to improve.", "The economic situation deteriorated suddenly.", "The economic situation will soon deteriorate."],
         correctIndex: 0,
         explanation: "\"Aller en se dégradant\" = a gradual decline.",
       },
@@ -2015,20 +2543,14 @@ export const FR_C1_U04: Lesson[] = [
     duration: "19 min",
     sections: [
       {
-        heading: "After prepositions: an infinitive, except after en",
+        heading: "After prepositions: the infinitive",
         body: [
           "English puts -ing after every preposition: before leaving, without saying, instead of complaining, for being late. French uses the infinitive after all prepositions: \"avant de partir\", \"sans dire\", \"au lieu de se plaindre\", \"pour être arrivé en retard\" (past infinitive for a cause). The single exception is \"en\", which takes the present participle: \"en travaillant\" (by / while working).",
-          "So 'by' + -ing is \"en\" + participle when it means the means: \"C'est en forgeant qu'on devient forgeron\" (practice makes perfect, literally 'it's by forging that one becomes a blacksmith'). But 'by' after verbs of beginning and ending is \"par\" + infinitive: \"commencer par\", \"finir par\": \"Il a commencé par s'excuser\" (he began by apologising).",
-          "'After' + -ing needs the past infinitive: \"après avoir mangé\", \"après être sorti\". 'On' + -ing (on arriving) is \"en\" + participle: \"En arrivant, j'ai vu...\". 'Instead of' = \"au lieu de\" or, more formal, \"plutôt que de\".",
         ],
         examples: [
           { es: "Éteins la lumière avant de partir.", en: "Turn off the light before leaving." },
           { es: "Il est parti sans dire au revoir.", en: "He left without saying goodbye." },
-          { es: "C'est en forgeant qu'on devient forgeron.", en: "Practice makes perfect." },
-          { es: "Il a commencé par s'excuser.", en: "He began by apologising." },
           { es: "Au lieu de te plaindre, aide-moi.", en: "Instead of complaining, help me." },
-          { es: "En arrivant à la gare, j'ai vu que le train était parti.", en: "On arriving at the station, I saw that the train had left." },
-          { es: "Après avoir lu ta lettre, j'ai pleuré.", en: "After reading your letter, I cried." },
         ],
         checkpoint: [
           {
@@ -2040,6 +2562,19 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Réfléchissez avant de parler.", "Il faut réfléchir avant de parler.", "Réfléchir avant de parler."],
             explanation: "\"Avant de\" + infinitive.",
           },
+        ],
+      },
+      {
+        heading: "By + -ing: en or par",
+        body: [
+          "So 'by' + -ing is \"en\" + participle when it means the means: \"C'est en forgeant qu'on devient forgeron\" (practice makes perfect, literally 'it's by forging that one becomes a blacksmith'). But 'by' after verbs of beginning and ending is \"par\" + infinitive: \"commencer par\", \"finir par\": \"Il a commencé par s'excuser\" (he began by apologising).",
+        ],
+        examples: [
+          { es: "C'est en forgeant qu'on devient forgeron.", en: "Practice makes perfect." },
+          { es: "Il a commencé par s'excuser.", en: "He began by apologising." },
+          { es: "On apprend en pratiquant.", en: "You learn by practising." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -2051,31 +2586,38 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "After verbs: infinitive, de / à + infinitive, or a noun",
+        heading: "After, on, instead of",
         body: [
-          "After verbs of liking, the -ing form becomes an infinitive with no preposition: \"J'aime nager\", \"Je préfère marcher\", \"Je déteste attendre.\" After many others, French uses \"de\" or \"à\": \"J'ai arrêté de fumer\" (I stopped smoking), \"Il a continué à parler\", \"J'ai fini de manger\", \"Elle passe son temps à lire.\"",
-          "Be careful with 'be used to' and 'look forward to': both are followed by -ing in English, but in French they take an infinitive: \"J'ai l'habitude de travailler tard\" or \"Je suis habitué à travailler tard\" (I'm used to working late), \"J'ai hâte de te voir\" (I'm looking forward to seeing you). 'It's worth' + -ing → \"Ça vaut la peine de\" / \"Ça vaut le coup de\": \"Ça vaut le coup d'essayer.\"",
-          "When the -ing word is really a noun (I love cooking, she does the shopping), French often prefers a noun: \"J'adore la cuisine\", \"Elle fait les courses\", \"Le jardinage me détend.\" The infinitive is also possible (\"J'adore cuisiner\"), but nouns are more natural with activities that have a set name.",
+          "'After' + -ing needs the past infinitive: \"après avoir mangé\", \"après être sorti\". 'On' + -ing (on arriving) is \"en\" + participle: \"En arrivant, j'ai vu...\". 'Instead of' = \"au lieu de\" or, more formal, \"plutôt que de\".",
         ],
         examples: [
-          { es: "J'aime nager le matin.", en: "I like swimming in the morning." },
-          { es: "J'ai arrêté de fumer il y a cinq ans.", en: "I stopped smoking five years ago." },
-          { es: "Elle passe ses week-ends à lire.", en: "She spends her weekends reading." },
-          { es: "J'ai l'habitude de travailler tard.", en: "I'm used to working late." },
-          { es: "J'ai hâte de te revoir.", en: "I'm looking forward to seeing you again." },
-          { es: "Ça vaut le coup d'essayer.", en: "It's worth trying." },
-          { es: "Le jardinage me détend.", en: "Gardening relaxes me." },
+          { es: "En arrivant à la gare, j'ai vu que le train était parti.", en: "On arriving at the station, I saw that the train had left." },
+          { es: "Après avoir lu ta lettre, j'ai pleuré.", en: "After reading your letter, I cried." },
+          { es: "Plutôt que de râler, agis.", en: "Rather than moaning, do something." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I'm looking forward to meeting you.",
-            answer: "J'ai hâte de vous rencontrer.",
-            altAnswers: ["J'ai hâte de te rencontrer.", "Je me réjouis de vous rencontrer.", "Je me réjouis de te rencontrer.", "J'ai hâte de faire votre connaissance.", "J'ai hâte de faire ta connaissance."],
-            explanation: "\"Avoir hâte de\" + infinitive.",
+            prompt: "Correct the sentence.",
+            source: "Au lieu de te plaignant, aide-nous.",
+            answer: "Au lieu de te plaindre, aide-nous.",
+            altAnswers: ["Plutôt que de te plaindre, aide-nous."],
+            explanation: "\"Au lieu de\" is a preposition, so it takes the infinitive (\"te plaindre\"); only \"en\" takes the present participle.",
           },
+        ],
+      },
+      {
+        heading: "Verbs of liking; de and à",
+        body: [
+          "After verbs of liking, the -ing form becomes an infinitive with no preposition: \"J'aime nager\", \"Je préfère marcher\", \"Je déteste attendre.\" After many others, French uses \"de\" or \"à\": \"J'ai arrêté de fumer\" (I stopped smoking), \"Il a continué à parler\", \"J'ai fini de manger\", \"Elle passe son temps à lire.\"",
+        ],
+        examples: [
+          { es: "J'aime nager le matin.", en: "I like swimming in the morning." },
+          { es: "J'ai arrêté de fumer il y a cinq ans.", en: "I stopped smoking five years ago." },
+          { es: "Elle passe ses week-ends à lire.", en: "She spends her weekends reading." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -2088,19 +2630,58 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "I saw him leaving: perception and description",
+        heading: "Used to, looking forward to, worth it",
+        body: [
+          "Be careful with 'be used to' and 'look forward to': both are followed by -ing in English, but in French they take an infinitive: \"J'ai l'habitude de travailler tard\" or \"Je suis habitué à travailler tard\" (I'm used to working late), \"J'ai hâte de te voir\" (I'm looking forward to seeing you). 'It's worth' + -ing → \"Ça vaut la peine de\" / \"Ça vaut le coup de\": \"Ça vaut le coup d'essayer.\"",
+        ],
+        examples: [
+          { es: "J'ai l'habitude de travailler tard.", en: "I'm used to working late." },
+          { es: "J'ai hâte de te revoir.", en: "I'm looking forward to seeing you again." },
+          { es: "Ça vaut le coup d'essayer.", en: "It's worth trying." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "I'm looking forward to meeting you.",
+            answer: "J'ai hâte de vous rencontrer.",
+            altAnswers: ["J'ai hâte de te rencontrer.", "Je me réjouis de vous rencontrer.", "Je me réjouis de te rencontrer.", "J'ai hâte de faire votre connaissance.", "J'ai hâte de faire ta connaissance."],
+            explanation: "\"Avoir hâte de\" + infinitive.",
+          },
+        ],
+      },
+      {
+        heading: "When -ing is really a noun",
+        body: [
+          "When the -ing word is really a noun (I love cooking, she does the shopping), French often prefers a noun: \"J'adore la cuisine\", \"Elle fait les courses\", \"Le jardinage me détend.\" The infinitive is also possible (\"J'adore cuisiner\"), but nouns are more natural with activities that have a set name.",
+        ],
+        examples: [
+          { es: "Le jardinage me détend.", en: "Gardening relaxes me." },
+          { es: "Elle fait les courses le samedi.", en: "She does the shopping on Saturdays." },
+          { es: "La lecture me passionne.", en: "I'm passionate about reading." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Cooking relaxes me.",
+            answer: "Cuisiner me détend.",
+            altAnswers: ["La cuisine me détend.", "Faire la cuisine me détend."],
+            explanation: "-ing subject → infinitive or noun.",
+          },
+        ],
+      },
+      {
+        heading: "I saw him leave: perception verbs",
         body: [
           "After verbs of perception, English uses -ing (I saw him leaving, I heard her singing). French has two options. The infinitive presents the action as a whole: \"Je l'ai vu partir.\" A relative clause with the imperfect presents it in progress: \"Je l'ai vu qui partait\" (I saw him as he was leaving). The infinitive is the default; the relative clause adds a descriptive, vivid touch.",
-          "When -ing describes a noun (the man sitting by the window, a box containing letters), French uses a relative clause or, in writing, a present participle: \"l'homme qui est assis près de la fenêtre\" (note: \"assis\", a past participle, for a position), \"une boîte contenant des lettres\" / \"une boîte qui contient des lettres\". Positions are past participles: assis, couché, debout (invariable), penché, agenouillé.",
-          "Finally, -ing as a progressive tense (I'm working) is a simple French tense, as you saw in the previous lesson. Run through the checklist for every -ing you translate: preposition? verb + infinitive? perception? description? progressive?",
         ],
         examples: [
           { es: "Je l'ai vu partir.", en: "I saw him leave." },
           { es: "Je l'ai vue qui traversait la rue.", en: "I saw her crossing the street." },
           { es: "J'entends les enfants jouer dans le jardin.", en: "I can hear the children playing in the garden." },
-          { es: "L'homme assis près de la fenêtre est mon oncle.", en: "The man sitting by the window is my uncle." },
-          { es: "On a trouvé une boîte contenant des lettres anciennes.", en: "We found a box containing old letters." },
-          { es: "Elle dormait, couchée sur le canapé.", en: "She was asleep, lying on the sofa." },
         ],
         checkpoint: [
           {
@@ -2111,39 +2692,67 @@ export const FR_C1_U04: Lesson[] = [
             answer: "Je l'ai entendue chanter.",
             explanation: "Perception verb + infinitive (agreement of \"entendue\" is covered in the next lesson).",
           },
+        ],
+      },
+      {
+        heading: "-ing describing a noun",
+        body: [
+          "When -ing describes a noun (the man sitting by the window, a box containing letters), French uses a relative clause or, in writing, a present participle: \"l'homme qui est assis près de la fenêtre\" (note: \"assis\", a past participle, for a position), \"une boîte contenant des lettres\" / \"une boîte qui contient des lettres\". Positions are past participles: assis, couché, debout (invariable), penché, agenouillé.",
+        ],
+        examples: [
+          { es: "L'homme assis près de la fenêtre est mon oncle.", en: "The man sitting by the window is my uncle." },
+          { es: "On a trouvé une boîte contenant des lettres anciennes.", en: "We found a box containing old letters." },
+          { es: "Elle dormait, couchée sur le canapé.", en: "She was asleep, lying on the sofa." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "How do you say: the woman standing at the door?",
-            options: [
-              "la femme debout à la porte",
-              "la femme étant debout à la porte",
-              "la femme se levant à la porte",
-              "la femme en se tenant à la porte",
-            ],
+            options: ["la femme debout à la porte", "la femme étant debout à la porte", "la femme se levant à la porte", "la femme en se tenant à la porte"],
             correctIndex: 0,
             explanation: "Positions are expressed with an adjective or past participle: \"debout\", \"assis\", \"couché\". \"Étant\" is heavy here, and \"en\" + participle can't describe a noun.",
+          },
+        ],
+      },
+      {
+        heading: "The -ing checklist",
+        body: [
+          "Finally, -ing as a progressive tense (I'm working) is a simple French tense, as you saw in the previous lesson. Run through the checklist for every -ing you translate: preposition? verb + infinitive? perception? description? progressive?",
+        ],
+        examples: [
+          { es: "Je travaille.", en: "I'm working." },
+          { es: "En partant, ferme la porte.", en: "When you leave, close the door." },
+          { es: "Il est assis au premier rang.", en: "He's sitting in the front row." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is the correct translation of: after having lunch, we went for a walk?",
+            options: ["Après avoir déjeuné, nous nous sommes promenés.", "Après déjeunant, nous nous sommes promenés.", "En ayant déjeuné, nous nous promenions.", "Après de déjeuner, nous nous sommes promenés."],
+            correctIndex: 0,
+            explanation: "\"Après\" + past infinitive.",
           },
         ],
       },
     ],
     exercises: [
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "She left without paying.",
-        answer: "Elle est partie sans payer.",
-        altAnswers: ["Elle est partie sans avoir payé.", "Elle s'en est allée sans payer."],
-        explanation: "\"Sans\" + infinitive.",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "She left [without paying].",
+        sentence: "Elle est partie ___.",
+        answer: "sans payer",
+        altAnswers: ["sans avoir payé"],
+        explanation: "After a preposition, English -ing becomes an infinitive: \"sans payer\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "He learned French by watching films.",
+        prompt: "Turn the cause into en + present participle.",
+        source: "Il a appris le français parce qu'il regardait des films.",
         answer: "Il a appris le français en regardant des films.",
-        altAnswers: ["Il a appris le français en regardant des films en français.", "C'est en regardant des films qu'il a appris le français."],
-        explanation: "Means → \"en\" + participle.",
+        altAnswers: ["C'est en regardant des films qu'il a appris le français."],
+        explanation: "'By' + -ing for the means is \"en\" + present participle, the one preposition that doesn't take an infinitive.",
       },
       {
         type: "translate",
@@ -2157,11 +2766,11 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Instead of watching TV, read a book.",
-        answer: "Au lieu de regarder la télé, lis un livre.",
-        altAnswers: ["Au lieu de regarder la télévision, lis un livre.", "Au lieu de regarder la télé, lisez un livre.", "Plutôt que de regarder la télé, lis un livre.", "Plutôt que de regarder la télévision, lis un livre."],
-        explanation: "\"Au lieu de\" + infinitive.",
+        prompt: "Rewrite it with plutôt que de.",
+        source: "Au lieu de regarder la télé, lis un livre.",
+        answer: "Plutôt que de regarder la télé, lis un livre.",
+        altAnswers: ["Plutôt que de regarder la télévision, lis un livre."],
+        explanation: "'Instead of' + -ing is \"au lieu de\" or, more formal, \"plutôt que de\", both followed by an infinitive.",
       },
       {
         type: "fill-blank",
@@ -2181,22 +2790,13 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "Perception verb + infinitive.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The man sitting next to me was snoring.",
-        answer: "L'homme assis à côté de moi ronflait.",
-        altAnswers: ["L'homme qui était assis à côté de moi ronflait.", "Le monsieur assis à côté de moi ronflait."],
-        explanation: "A position → past participle \"assis\", not \"*s'asseyant\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Cooking relaxes me.",
-        answer: "Cuisiner me détend.",
-        altAnswers: ["La cuisine me détend.", "Faire la cuisine me détend."],
-        explanation: "-ing subject → infinitive or noun.",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "The man [sitting] next to me was snoring.",
+        sentence: "L'homme ___ à côté de moi ronflait.",
+        answer: "assis",
+        altAnswers: ["qui était assis"],
+        explanation: "A position is a past participle in French: \"assis\" (sitting), not a present participle.",
       },
       {
         type: "word-order",
@@ -2204,18 +2804,6 @@ export const FR_C1_U04: Lesson[] = [
         words: ["Il", "a", "fini", "par", "remercier", "tout", "le", "monde."],
         translation: "He finished by thanking everyone.",
         explanation: "\"Finir par\" + infinitive.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which is the correct translation of: after having lunch, we went for a walk?",
-        options: [
-          "Après avoir déjeuné, nous nous sommes promenés.",
-          "Après déjeunant, nous nous sommes promenés.",
-          "En ayant déjeuné, nous nous promenions.",
-          "Après de déjeuner, nous nous sommes promenés.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Après\" + past infinitive.",
       },
       {
         type: "translate",
@@ -2230,20 +2818,15 @@ export const FR_C1_U04: Lesson[] = [
         type: "listen-choose",
         audio: "Je l'ai aperçu qui sortait de la banque.",
         question: "What does it mean?",
-        options: [
-          "I caught sight of him coming out of the bank.",
-          "I noticed that he works at the bank.",
-          "He saw me coming out of the bank.",
-          "I saw him go into the bank.",
-        ],
+        options: ["I caught sight of him coming out of the bank.", "I noticed that he works at the bank.", "He saw me coming out of the bank.", "I saw him go into the bank."],
         correctIndex: 0,
         explanation: "\"Qui sortait\" = in progress: coming out.",
       },
       {
         type: "speak",
-        text: "J'ai hâte de te revoir.",
-        prompt: "Say it in French (to a friend): I'm looking forward to seeing you again.",
-        explanation: "\"Avoir hâte de\" + infinitive.",
+        text: "J'ai hâte d'être en vacances.",
+        prompt: "Say it in French (to a friend): I'm looking forward to being on holiday.",
+        explanation: "'Look forward to' + -ing is \"avoir hâte de\" + infinitive.",
       },
     ],
   },
@@ -2256,18 +2839,13 @@ export const FR_C1_U04: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "J'entends les oiseaux chanter: word order",
+        heading: "Perception verbs + infinitive",
         body: [
           "The perception verbs (voir, regarder, entendre, écouter, sentir, apercevoir) and \"laisser\" take a bare infinitive whose subject is the object of the main verb: \"J'entends les oiseaux chanter\" (the birds sing). When the infinitive has no object of its own, the noun can come before or after it: \"J'entends les oiseaux chanter\" or \"J'entends chanter les oiseaux.\" The second order is very common in writing.",
-          "When the infinitive has its own object, keep the noun before it to avoid confusion: \"J'ai vu Paul réparer la voiture\" (not \"*j'ai vu réparer Paul la voiture\"). With a pronoun, it goes before the main verb: \"Je les entends chanter\", \"Je l'ai vu partir\", \"Laisse-le parler.\"",
-          "Don't confuse this with \"faire\" + infinitive (Upper-intermediate), where the noun always follows the infinitive: \"Je fais réparer la voiture.\" With \"laisser\" and perception verbs, the order is freer, because the noun is the real agent of the action.",
         ],
         examples: [
           { es: "J'entends chanter les oiseaux.", en: "I can hear the birds singing." },
           { es: "J'entends les oiseaux chanter.", en: "I can hear the birds singing." },
-          { es: "J'ai vu Paul réparer la voiture.", en: "I saw Paul repair the car." },
-          { es: "Je les ai regardés jouer pendant une heure.", en: "I watched them play for an hour." },
-          { es: "Laisse-le parler !", en: "Let him speak!" },
           { es: "Elle a senti la colère monter en elle.", en: "She felt the anger rising in her." },
           { es: "On voyait passer les trains au loin.", en: "You could see the trains going past in the distance." },
         ],
@@ -2281,6 +2859,19 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["J'ai regardé se coucher le soleil.", "J'ai vu le soleil se coucher.", "J'ai vu se coucher le soleil."],
             explanation: "Perception verb + infinitive; both orders are possible because \"se coucher\" has no object.",
           },
+        ],
+      },
+      {
+        heading: "Objects and pronouns",
+        body: [
+          "When the infinitive has its own object, keep the noun before it to avoid confusion: \"J'ai vu Paul réparer la voiture\" (not \"*j'ai vu réparer Paul la voiture\"). With a pronoun, it goes before the main verb: \"Je les entends chanter\", \"Je l'ai vu partir\", \"Laisse-le parler.\"",
+        ],
+        examples: [
+          { es: "J'ai vu Paul réparer la voiture.", en: "I saw Paul repair the car." },
+          { es: "Je les ai regardés jouer pendant une heure.", en: "I watched them play for an hour." },
+          { es: "Laisse-le parler !", en: "Let him speak!" },
+        ],
+        checkpoint: [
           {
             type: "word-order",
             prompt: "Put the words in order to say: Let the children play.",
@@ -2288,22 +2879,45 @@ export const FR_C1_U04: Lesson[] = [
             translation: "Let the children play.",
             explanation: "\"Laisser\" + noun + infinitive.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Replace the noun with a pronoun.",
+            source: "J'ai vu les voisins partir.",
+            answer: "Je les ai vus partir.",
+            explanation: "The pronoun goes before the main verb: \"je les ai vus\". \"Vus\" agrees because the neighbours are the ones leaving (more on that agreement in the next section).",
+          },
         ],
       },
       {
-        heading: "Agreement: la chanteuse que j'ai entendue chanter",
+        heading: "Not the same as faire + infinitive",
+        body: [
+          "Don't confuse this with \"faire\" + infinitive (Upper-intermediate), where the noun always follows the infinitive: \"Je fais réparer la voiture.\" With \"laisser\" and perception verbs, the order is freer, because the noun is the real agent of the action.",
+        ],
+        examples: [
+          { es: "Je fais réparer la voiture.", en: "I'm having the car repaired." },
+          { es: "Elle fait construire une maison.", en: "She's having a house built." },
+          { es: "Laisse passer le bus.", en: "Let the bus go past." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Je fais réparer mon vélo.", "Je fais mon vélo réparer.", "Je fais mon vélo à réparer.", "Je fais réparé mon vélo."],
+            correctIndex: 0,
+            explanation: "With \"faire\" + infinitive, the noun always follows the infinitive: \"je fais réparer mon vélo\". Only perception verbs and \"laisser\" allow the noun before it.",
+          },
+        ],
+      },
+      {
+        heading: "Agreement when the object does the action",
         body: [
           "Here is the rule that even many French people get wrong. When a direct object comes before a perception verb + infinitive, the past participle agrees only if that object is the one performing the infinitive's action. \"La chanteuse que j'ai entendue chanter\": the singer sings, so \"entendue\" agrees with \"chanteuse\".",
-          "But \"La chanson que j'ai entendu chanter\": the song doesn't sing, it is sung (by someone else). The object belongs to the infinitive, not to \"entendre\", so the participle doesn't agree. Test: can you rephrase with \"qui\" + verb? \"J'ai entendu la chanteuse qui chantait\" works → agreement. \"*J'ai entendu la chanson qui chantait\" is nonsense → no agreement.",
-          "The same logic applies with pronouns: \"Ces musiciens, je les ai vus jouer\" (they play: agreement) vs \"Ces pièces, je les ai vu jouer\" (the plays are performed: no agreement). In speech, you can't hear the difference with most participles, but in writing it's a classic test of mastery.",
         ],
         examples: [
           { es: "La chanteuse que j'ai entendue chanter était extraordinaire.", en: "The singer I heard singing was extraordinary." },
-          { es: "La chanson que j'ai entendu chanter était très ancienne.", en: "The song I heard sung was very old." },
-          { es: "Ces musiciens, je les ai vus jouer à Montréal.", en: "I saw those musicians play in Montreal." },
-          { es: "Ces pièces, je les ai vu jouer à la Comédie-Française.", en: "I saw those plays performed at the Comedie-Francaise." },
           { es: "Les enfants que nous avons regardés danser étaient ravis.", en: "The children we watched dancing were delighted." },
-          { es: "La maison que j'ai vu construire a été vendue.", en: "The house I saw being built has been sold." },
+          { es: "La petite fille que j'ai vue tomber va bien.", en: "The little girl I saw fall is fine." },
         ],
         checkpoint: [
           {
@@ -2314,34 +2928,81 @@ export const FR_C1_U04: Lesson[] = [
             answer: "j'ai vue",
             explanation: "The actress acts → agreement with \"que\" (= l'actrice).",
           },
+        ],
+      },
+      {
+        heading: "No agreement when the object undergoes it",
+        body: [
+          "But \"La chanson que j'ai entendu chanter\": the song doesn't sing, it is sung (by someone else). The object belongs to the infinitive, not to \"entendre\", so the participle doesn't agree. Test: can you rephrase with \"qui\" + verb? \"J'ai entendu la chanteuse qui chantait\" works → agreement. \"*J'ai entendu la chanson qui chantait\" is nonsense → no agreement.",
+        ],
+        examples: [
+          { es: "La chanson que j'ai entendu chanter était très ancienne.", en: "The song I heard sung was very old." },
+          { es: "La maison que j'ai vu construire a été vendue.", en: "The house I saw being built has been sold." },
+          { es: "Les lettres que j'ai entendu lire étaient émouvantes.", en: "The letters I heard read out were moving." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which sentence is correctly spelled?",
-            options: [
-              "Les arbres que j'ai vu abattre étaient centenaires.",
-              "Les arbres que j'ai vus abattre étaient centenaires.",
-              "Les arbres que j'ai vue abattre étaient centenaires.",
-              "Les arbres que j'ai vues abattre étaient centenaires.",
-            ],
+            options: ["Les arbres que j'ai vu abattre étaient centenaires.", "Les arbres que j'ai vus abattre étaient centenaires.", "Les arbres que j'ai vue abattre étaient centenaires.", "Les arbres que j'ai vues abattre étaient centenaires."],
             correctIndex: 0,
             explanation: "The trees don't cut anything down; they are cut down → no agreement.",
           },
         ],
       },
       {
-        heading: "Laissé is invariable; fait always is",
+        heading: "The same test with pronouns",
+        body: [
+          "The same logic applies with pronouns: \"Ces musiciens, je les ai vus jouer\" (they play: agreement) vs \"Ces pièces, je les ai vu jouer\" (the plays are performed: no agreement). In speech, you can't hear the difference with most participles, but in writing it's a classic test of mastery.",
+        ],
+        examples: [
+          { es: "Ces musiciens, je les ai vus jouer à Montréal.", en: "I saw those musicians play in Montreal." },
+          { es: "Ces pièces, je les ai vu jouer à la Comédie-Française.", en: "I saw those plays performed at the Comedie-Francaise." },
+          { es: "Ces chansons, je les ai entendu chanter cent fois.", en: "I've heard those songs sung a hundred times." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The pianists [we heard] play were Japanese.",
+            sentence: "Les pianistes que ___ jouer étaient japonais.",
+            answer: "nous avons entendus",
+            altAnswers: ["on a entendus"],
+            explanation: "The pianists play → agreement in the masculine plural.",
+          },
+        ],
+      },
+      {
+        heading: "Laissé: invariable since 1990",
         body: [
           "Since the 1990 spelling reform, the past participle of \"laisser\" followed by an infinitive is invariable, like \"fait\": \"Elle s'est laissé convaincre\", \"Ces enfants, je les ai laissé partir.\" The old rule (applying the perception-verb test to \"laissé\") is still found in older texts and is tolerated, but the invariable form is now recommended.",
-          "\"Fait\" + infinitive never agrees, under any spelling: \"La robe qu'elle s'est fait faire\", \"Elle s'est fait opérer\", \"Ils se sont fait avoir\" (they got conned). This is a frequent error even in the press: \"*elle s'est faite opérer\" is wrong.",
-          "Summary: perception verbs (vu, entendu, regardé, senti) → agreement only if the preceding object performs the action; \"laissé\" → invariable (modern spelling); \"fait\" → always invariable.",
         ],
         examples: [
           { es: "Elle s'est laissé convaincre.", en: "She let herself be persuaded." },
           { es: "Ces enfants, je les ai laissé partir seuls.", en: "I let those children leave on their own." },
+          { es: "Nous nous sommes laissé surprendre par l'orage.", en: "We got caught out by the storm." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "They (f.) [let themselves] be fooled.",
+            sentence: "Elles se sont ___ tromper.",
+            answer: "laissé",
+            explanation: "Modern spelling: \"laissé\" + infinitive is invariable.",
+          },
+        ],
+      },
+      {
+        heading: "Fait: never agrees",
+        body: [
+          "\"Fait\" + infinitive never agrees, under any spelling: \"La robe qu'elle s'est fait faire\", \"Elle s'est fait opérer\", \"Ils se sont fait avoir\" (they got conned). This is a frequent error even in the press: \"*elle s'est faite opérer\" is wrong.",
+          "Summary: perception verbs (vu, entendu, regardé, senti) → agreement only if the preceding object performs the action; \"laissé\" → invariable (modern spelling); \"fait\" → always invariable.",
+        ],
+        examples: [
           { es: "Elle s'est fait opérer du genou.", en: "She had a knee operation." },
           { es: "Ils se sont fait avoir.", en: "They got conned." },
           { es: "La robe qu'elle s'est fait faire est magnifique.", en: "The dress she had made for herself is magnificent." },
-          { es: "Nous nous sommes laissé surprendre par l'orage.", en: "We got caught out by the storm." },
         ],
         checkpoint: [
           {
@@ -2351,14 +3012,6 @@ export const FR_C1_U04: Lesson[] = [
             source: "She had her hair cut.",
             answer: "Elle s'est fait couper les cheveux.",
             explanation: "\"Fait\" + infinitive is invariable: never \"*faite\".",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "They (f.) [let themselves] be fooled.",
-            sentence: "Elles se sont ___ tromper.",
-            answer: "laissé",
-            explanation: "Modern spelling: \"laissé\" + infinitive is invariable.",
           },
         ],
       },
@@ -2381,15 +3034,6 @@ export const FR_C1_U04: Lesson[] = [
         answer: "Laisse-moi finir !",
         altAnswers: ["Laissez-moi finir !"],
         explanation: "\"Laisser\" + pronoun + infinitive.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The pianists [we heard] play were Japanese.",
-        sentence: "Les pianistes que ___ jouer étaient japonais.",
-        answer: "nous avons entendus",
-        altAnswers: ["on a entendus"],
-        explanation: "The pianists play → agreement in the masculine plural.",
       },
       {
         type: "fill-blank",
@@ -2420,12 +3064,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence follows the modern recommended spelling?",
-        options: [
-          "Elle s'est laissé tenter par le dessert.",
-          "Elle s'est laissée tenter par le dessert.",
-          "Elle s'est laissés tenter par le dessert.",
-          "Elle a laissée se tenter par le dessert.",
-        ],
+        options: ["Elle s'est laissé tenter par le dessert.", "Elle s'est laissée tenter par le dessert.", "Elle s'est laissés tenter par le dessert.", "Elle a laissée se tenter par le dessert."],
         correctIndex: 0,
         explanation: "\"Laissé\" + infinitive is invariable since 1990 (the old agreement is tolerated).",
       },
@@ -2468,12 +3107,7 @@ export const FR_C1_U04: Lesson[] = [
         type: "listen-choose",
         audio: "Je les ai laissé partir sans rien dire.",
         question: "What does it mean?",
-        options: [
-          "I let them leave without saying anything.",
-          "They left me without saying anything.",
-          "I left them without saying anything.",
-          "I made them leave without a word.",
-        ],
+        options: ["I let them leave without saying anything.", "They left me without saying anything.", "I left them without saying anything.", "I made them leave without a word."],
         correctIndex: 0,
         explanation: "\"Laisser\" + infinitive = to let someone do something.",
       },
@@ -2482,6 +3116,13 @@ export const FR_C1_U04: Lesson[] = [
         text: "J'entends chanter les oiseaux dans le jardin.",
         prompt: "Say it in French: I can hear the birds singing in the garden.",
         explanation: "Perception verb + infinitive + noun.",
+      },
+      {
+        type: "multiple-choice",
+        question: "Which sentence contains a mistake?",
+        options: ["Elle s'est faite opérer hier.", "Elle s'est fait opérer hier.", "Elle s'est fait couper les cheveux.", "Ils se sont fait avoir."],
+        correctIndex: 0,
+        explanation: "\"Fait\" followed by an infinitive never agrees, whatever the subject: \"elle s'est fait opérer\". \"Faite\" is the classic error, even in the press.",
       },
     ],
   },
@@ -2494,17 +3135,13 @@ export const FR_C1_U04: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Quick reference",
+        heading: "Recap: infinitive clauses",
         body: [
           "Same-subject infinitive clauses: \"je crois avoir compris\", \"après m'être levé\", \"pour avoir menti\" (cause), \"sans avoir prévenu\". The infinitive as subject (\"Fumer tue\", \"Partir, c'est...\"), in instructions (\"Ne pas jeter\") and in deliberative questions (\"Que faire ?\").",
-          "English -ing: preposition + infinitive (except \"en\" + participle), verb + (de / à) infinitive, perception verb + infinitive, position → past participle (\"assis\"), progressive → simple tense. Agreement: perception participle agrees only if the preceding object performs the action; \"fait\" and \"laissé\" + infinitive are invariable.",
-          "This lesson gives no hints: decide the form yourself in each sentence.",
         ],
         examples: [
           { es: "Il affirme ne jamais l'avoir rencontrée.", en: "He claims never to have met her." },
           { es: "Ne pas stationner devant la sortie.", en: "Do not park in front of the exit." },
-          { es: "Les danseuses que j'ai vues répéter étaient épuisées.", en: "The dancers I saw rehearsing were exhausted." },
-          { es: "Elle s'est fait voler son portable dans le métro.", en: "She had her phone stolen on the metro." },
           { es: "Il passe ses soirées à jouer aux échecs.", en: "He spends his evenings playing chess." },
         ],
         checkpoint: [
@@ -2512,18 +3149,32 @@ export const FR_C1_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "He claims never to have met her.",
-            answer: "Il affirme ne jamais l'avoir rencontrée.",
-            altAnswers: ["Il prétend ne jamais l'avoir rencontrée.", "Il affirme ne l'avoir jamais rencontrée.", "Il prétend ne l'avoir jamais rencontrée."],
-            explanation: "Same subject → past infinitive; \"ne jamais\" before \"l'avoir\"; \"rencontrée\" agrees with \"l'\" (her).",
+            source: "She claims never to have said that.",
+            answer: "Elle affirme ne jamais avoir dit ça.",
+            altAnswers: ["Elle affirme n'avoir jamais dit ça.", "Elle affirme ne jamais avoir dit cela.", "Elle affirme n'avoir jamais dit cela.", "Elle prétend ne jamais avoir dit ça.", "Elle prétend n'avoir jamais dit ça.", "Elle prétend ne jamais avoir dit cela.", "Elle prétend n'avoir jamais dit cela."],
+            explanation: "Same subject, earlier action: \"affirmer\" + past infinitive. Both parts of the negation can go before the infinitive (\"ne jamais avoir dit\"), or \"jamais\" after \"avoir\".",
           },
+        ],
+      },
+      {
+        heading: "Recap: English -ing and agreement",
+        body: [
+          "English -ing: preposition + infinitive (except \"en\" + participle), verb + (de / à) infinitive, perception verb + infinitive, position → past participle (\"assis\"), progressive → simple tense. Agreement: perception participle agrees only if the preceding object performs the action; \"fait\" and \"laissé\" + infinitive are invariable.",
+          "This lesson gives no hints: decide the form yourself in each sentence.",
+        ],
+        examples: [
+          { es: "Les danseuses que j'ai vues répéter étaient épuisées.", en: "The dancers I saw rehearsing were exhausted." },
+          { es: "Elle s'est fait voler son portable dans le métro.", en: "She had her phone stolen on the metro." },
+          { es: "L'homme assis là-bas est mon voisin.", en: "The man sitting over there is my neighbour." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "The dancers (f.) [I saw] rehearse were exhausted.",
-            sentence: "Les danseuses que ___ répéter étaient épuisées.",
-            answer: "j'ai vues",
-            explanation: "The dancers rehearse → agreement.",
+            en: "The players (f.) we [watched] train were very young.",
+            sentence: "Les joueuses que nous avons ___ s'entraîner étaient très jeunes.",
+            answer: "regardées",
+            explanation: "The players are the ones training, so the perception participle agrees with the preceding \"que\" (= les joueuses): \"regardées\".",
           },
         ],
       },
@@ -2541,11 +3192,11 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "After getting up, they went for a run.",
+        prompt: "Correct the sentence.",
+        source: "Après se lever, ils sont allés courir.",
         answer: "Après s'être levés, ils sont allés courir.",
-        altAnswers: ["Après s'être levées, elles sont allées courir.", "Après s'être levés, ils sont partis courir.", "Après s'être levés, ils sont allés faire un jogging."],
-        explanation: "\"Après s'être\" + agreeing participle.",
+        altAnswers: ["Après s'être levées, elles sont allées courir."],
+        explanation: "\"Après\" takes the past infinitive in writing: \"après s'être levés\", with the être agreement.",
       },
       {
         type: "translate",
@@ -2559,11 +3210,11 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Travelling alone is a great experience.",
+        prompt: "Correct the sentence.",
+        source: "Voyageant seul est une belle expérience.",
         answer: "Voyager seul est une belle expérience.",
-        altAnswers: ["Voyager seul, c'est une belle expérience.", "Voyager seul est une expérience formidable.", "Voyager seul, c'est une expérience formidable.", "Voyager seule est une belle expérience.", "Voyager seul est une super expérience."],
-        explanation: "-ing subject → infinitive.",
+        altAnswers: ["Voyager seul, c'est une belle expérience.", "Voyager seule est une belle expérience."],
+        explanation: "A present participle can't be the subject of a sentence: English -ing as subject is a French infinitive.",
       },
       {
         type: "translate",
@@ -2577,11 +3228,11 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "How to explain this to the children?",
+        prompt: "Turn it into a deliberative question with a bare infinitive.",
+        source: "Comment est-ce qu'on doit expliquer cela aux enfants ?",
         answer: "Comment expliquer cela aux enfants ?",
         altAnswers: ["Comment expliquer ça aux enfants ?", "Comment l'expliquer aux enfants ?"],
-        explanation: "Deliberative infinitive.",
+        explanation: "A bare infinitive carries the idea of 'should': no subject, no \"devoir\".",
       },
       {
         type: "translate",
@@ -2637,12 +3288,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: [
-          "Il ne fait que se plaindre depuis lundi.",
-          "Il est en train de se plaindre depuis lundi.",
-          "Il ne fait pas que de se plaindre depuis lundi.",
-          "Il est se plaignant depuis lundi.",
-        ],
+        options: ["Il ne fait que se plaindre depuis lundi.", "Il est en train de se plaindre depuis lundi.", "Il ne fait pas que de se plaindre depuis lundi.", "Il est se plaignant depuis lundi."],
         correctIndex: 0,
         explanation: "\"Ne faire que\" = keep on doing; \"en train de\" with \"depuis lundi\" is unnatural.",
       },
@@ -2650,12 +3296,7 @@ export const FR_C1_U04: Lesson[] = [
         type: "listen-choose",
         audio: "Ils se sont laissé convaincre trop facilement.",
         question: "What does it mean?",
-        options: [
-          "They let themselves be persuaded too easily.",
-          "They persuaded each other too easily.",
-          "They gave up too easily.",
-          "They were too easy to leave.",
-        ],
+        options: ["They let themselves be persuaded too easily.", "They persuaded each other too easily.", "They gave up too easily.", "They were too easy to leave."],
         correctIndex: 0,
         explanation: "\"Se laisser\" + infinitive = to let oneself be...",
       },
@@ -2676,19 +3317,34 @@ export const FR_C1_U04: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "The mission: a coffee machine manual",
+        heading: "The mission",
         body: [
           "Your mission: you work for a small company that imports an Italian espresso machine, la Rapida 3. You must write the French \"mode d'emploi\" (instructions for use) for the first use and for daily cleaning. French manuals follow strict conventions: infinitives for each step, \"ne pas\" + infinitive for warnings, and short participial or gérondif clauses for conditions.",
-          "Here's a model of the first-use section: \"Avant la première utilisation, retirer tous les éléments d'emballage. Remplir le réservoir d'eau froide jusqu'au repère MAX. Brancher l'appareil et appuyer sur la touche marche/arrêt. Le voyant étant devenu vert, l'appareil est prêt à l'emploi.\"",
-          "Notice the absolute clause \"le voyant étant devenu vert\" (once the light has turned green), elegant and compact. In a manual, you could also write \"Une fois le voyant vert, ...\" or \"Lorsque le voyant devient vert, ...\" Vary these to avoid a monotonous list.",
         ],
         examples: [
           { es: "Avant la première utilisation, retirer tous les éléments d'emballage.", en: "Before using for the first time, remove all packaging." },
           { es: "Remplir le réservoir d'eau froide jusqu'au repère MAX.", en: "Fill the tank with cold water up to the MAX mark." },
+          { es: "Ne jamais utiliser l'appareil sans eau.", en: "Never use the machine without water." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which line follows French manual conventions?",
+            options: ["Remplir le réservoir d'eau.", "Vous remplissez le réservoir d'eau.", "Tu remplis le réservoir d'eau.", "Remplissant le réservoir d'eau."],
+            correctIndex: 0,
+            explanation: "French manuals give each step as an infinitive, addressing nobody in particular. A present participle can't stand alone as an instruction.",
+          },
+        ],
+      },
+      {
+        heading: "A model first-use section",
+        body: [
+          "Here's a model of the first-use section: \"Avant la première utilisation, retirer tous les éléments d'emballage. Remplir le réservoir d'eau froide jusqu'au repère MAX. Brancher l'appareil et appuyer sur la touche marche/arrêt. Le voyant étant devenu vert, l'appareil est prêt à l'emploi.\"",
+        ],
+        examples: [
           { es: "Brancher l'appareil et appuyer sur la touche marche/arrêt.", en: "Plug the machine in and press the on/off button." },
           { es: "Le voyant étant devenu vert, l'appareil est prêt à l'emploi.", en: "Once the light has turned green, the machine is ready to use." },
-          { es: "Une fois la tasse placée sous le bec, appuyer sur la touche café.", en: "Once the cup is placed under the spout, press the coffee button." },
-          { es: "Ne jamais utiliser l'appareil sans eau.", en: "Never use the machine without water." },
+          { es: "Retirer le film de protection.", en: "Remove the protective film." },
         ],
         checkpoint: [
           {
@@ -2700,6 +3356,19 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Vider le bac récolte-gouttes après chaque utilisation.", "Vider l'égouttoir après chaque utilisation.", "Vider le bac d'égouttage après chaque usage."],
             explanation: "Manual style: infinitive at the start of each step.",
           },
+        ],
+      },
+      {
+        heading: "Varying the conditions",
+        body: [
+          "Notice the absolute clause \"le voyant étant devenu vert\" (once the light has turned green), elegant and compact. In a manual, you could also write \"Une fois le voyant vert, ...\" or \"Lorsque le voyant devient vert, ...\" Vary these to avoid a monotonous list.",
+        ],
+        examples: [
+          { es: "Une fois la tasse placée sous le bec, appuyer sur la touche café.", en: "Once the cup is placed under the spout, press the coffee button." },
+          { es: "Lorsque le voyant devient vert, l'appareil est prêt.", en: "When the light turns green, the machine is ready." },
+          { es: "L'eau une fois chaude, sélectionner la taille de la tasse.", en: "Once the water is hot, select the cup size." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -2709,22 +3378,26 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Le réservoir rempli", "Le réservoir une fois rempli"],
             explanation: "Absolute clause with \"une fois\": noun + past participle.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it with une fois.",
+            source: "Lorsque la tasse est pleine, la retirer.",
+            answer: "Une fois la tasse pleine, la retirer.",
+            altAnswers: ["La tasse une fois pleine, la retirer."],
+            explanation: "\"Une fois\" + noun + adjective or participle is the compact manual style for a condition: \"une fois la tasse pleine\".",
+          },
         ],
       },
       {
-        heading: "Warnings and conditions",
+        heading: "Warnings",
         body: [
           "Safety notices use \"ne pas\" / \"ne jamais\" + infinitive, sometimes with \"Attention :\" or \"Important :\" in front. Typical phrases: \"Ne pas plonger l'appareil dans l'eau\", \"Ne jamais toucher les parties chaudes\", \"Tenir hors de portée des enfants\", \"Débrancher l'appareil avant tout nettoyage.\"",
-          "Conditions and simultaneous actions are often expressed with a gérondif whose subject is the implied reader: \"En cas de doute, contacter le service client\", \"Nettoyer la buse en la faisant fonctionner quelques secondes à vide.\" Careful: the gérondif must refer to the person following the instructions, not to the machine (no \"*En chauffant, ne pas toucher l'appareil\" meaning while the machine heats).",
-          "For a machine's own action, use an absolute clause or a temporal clause: \"L'appareil chauffant, ne pas toucher la plaque\" is correct but stiff; \"Pendant la chauffe, ne pas toucher la plaque\" (nominalization) is what a real manual would say.",
         ],
         examples: [
           { es: "Ne pas plonger l'appareil dans l'eau.", en: "Do not immerse the machine in water." },
           { es: "Débrancher l'appareil avant tout nettoyage.", en: "Unplug the machine before any cleaning." },
-          { es: "Nettoyer la buse en la faisant fonctionner quelques secondes à vide.", en: "Clean the nozzle by running it empty for a few seconds." },
-          { es: "Pendant la chauffe, ne pas toucher la plaque.", en: "While the machine is heating up, do not touch the plate." },
-          { es: "En cas de doute, contacter le service client.", en: "If in doubt, contact customer service." },
-          { es: "Détartrer l'appareil tous les trois mois en utilisant le produit fourni.", en: "Descale the machine every three months using the product supplied." },
+          { es: "Tenir hors de portée des enfants.", en: "Keep out of the reach of children." },
         ],
         checkpoint: [
           {
@@ -2736,35 +3409,79 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Ne jamais toucher les surfaces chaudes."],
             explanation: "\"Ne jamais\" + infinitive.",
           },
+        ],
+      },
+      {
+        heading: "Gérondifs refer to the reader",
+        body: [
+          "Conditions and simultaneous actions are often expressed with a gérondif whose subject is the implied reader: \"En cas de doute, contacter le service client\", \"Nettoyer la buse en la faisant fonctionner quelques secondes à vide.\" Careful: the gérondif must refer to the person following the instructions, not to the machine (no \"*En chauffant, ne pas toucher l'appareil\" meaning while the machine heats).",
+        ],
+        examples: [
+          { es: "Nettoyer la buse en la faisant fonctionner quelques secondes à vide.", en: "Clean the nozzle by running it empty for a few seconds." },
+          { es: "En cas de doute, contacter le service client.", en: "If in doubt, contact customer service." },
+          { es: "Détartrer l'appareil tous les trois mois en utilisant le produit fourni.", en: "Descale the machine every three months using the product supplied." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which instruction has a dangling gérondif?",
-            options: [
-              "En chauffant, ne pas toucher la plaque.",
-              "Pendant la chauffe, ne pas toucher la plaque.",
-              "Nettoyer la buse en la faisant fonctionner à vide.",
-              "Détartrer l'appareil en utilisant le produit fourni.",
-            ],
+            question: "Which instruction contains a mistake (a dangling gérondif)?",
+            options: ["En chauffant, ne pas toucher la plaque.", "Pendant la chauffe, ne pas toucher la plaque.", "Nettoyer la buse en la faisant fonctionner à vide.", "Détartrer l'appareil en utilisant le produit fourni."],
             correctIndex: 0,
             explanation: "\"En chauffant\" refers to the machine, but the implied subject of the instruction is the reader.",
           },
         ],
       },
       {
-        heading: "The recipe: tarte aux pommes",
+        heading: "When the machine is acting",
+        body: [
+          "For a machine's own action, use an absolute clause or a temporal clause: \"L'appareil chauffant, ne pas toucher la plaque\" is correct but stiff; \"Pendant la chauffe, ne pas toucher la plaque\" (nominalization) is what a real manual would say.",
+        ],
+        examples: [
+          { es: "Pendant la chauffe, ne pas toucher la plaque.", en: "While the machine is heating up, do not touch the plate." },
+          { es: "Pendant le détartrage, ne pas utiliser l'appareil.", en: "Do not use the machine during descaling." },
+          { es: "Lors de la mise en marche, l'appareil émet un bip.", en: "When switched on, the machine beeps." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "En refroidissant, ne pas ouvrir le couvercle.",
+            answer: "Pendant le refroidissement, ne pas ouvrir le couvercle.",
+            altAnswers: ["Lorsque l'appareil refroidit, ne pas ouvrir le couvercle.", "Pendant que l'appareil refroidit, ne pas ouvrir le couvercle.", "L'appareil refroidissant, ne pas ouvrir le couvercle."],
+            explanation: "The reader isn't cooling down, the machine is: the gérondif dangles. A noun (\"pendant le refroidissement\") or a clause with its own subject fixes it.",
+          },
+        ],
+      },
+      {
+        heading: "Second task: the recipe card",
         body: [
           "Second task: the recipe card included in the box, \"tarte aux pommes normande\". A French recipe has \"Ingrédients\", \"Préparation\" and sometimes \"Le conseil du chef\". The steps use infinitives and \"faire\" / \"laisser\" + infinitive: \"Préchauffer le four à 180 °C. Éplucher les pommes et les couper en lamelles. Étaler la pâte dans un moule beurré.\"",
-          "Use gérondifs for manner and simultaneity: \"Mélanger les œufs et le sucre en fouettant énergiquement\", \"Verser la crème en remuant.\" Use absolute clauses for sequence: \"La tarte cuite, la laisser tiédir avant de la démouler.\" Position pronouns after the infinitive as objects: \"les couper\", \"la laisser tiédir\".",
-          "Model ending: \"Enfourner pour 35 minutes en surveillant la coloration. La tarte une fois dorée, la sortir du four et la saupoudrer de sucre glace. Servir tiède, accompagnée d'une boule de glace vanille.\" Note \"accompagnée\" agreeing with the implied \"la tarte\".",
         ],
         examples: [
           { es: "Préchauffer le four à 180 °C.", en: "Preheat the oven to 180°C." },
           { es: "Éplucher les pommes et les couper en lamelles.", en: "Peel the apples and cut them into thin slices." },
+          { es: "Étaler la pâte dans un moule beurré.", en: "Roll the pastry out in a buttered tin." },
+        ],
+        checkpoint: [
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: Wash the pears and cut them in half.",
+            words: ["Laver", "les", "poires", "et", "les", "couper", "en", "deux."],
+            translation: "Wash the pears and cut them in half.",
+            explanation: "Recipe steps use the infinitive; the object pronoun goes before the infinitive it belongs to: \"les couper\".",
+          },
+        ],
+      },
+      {
+        heading: "Gérondifs and absolute clauses in recipes",
+        body: [
+          "Use gérondifs for manner and simultaneity: \"Mélanger les œufs et le sucre en fouettant énergiquement\", \"Verser la crème en remuant.\" Use absolute clauses for sequence: \"La tarte cuite, la laisser tiédir avant de la démouler.\" Position pronouns after the infinitive as objects: \"les couper\", \"la laisser tiédir\".",
+        ],
+        examples: [
           { es: "Mélanger les œufs et le sucre en fouettant énergiquement.", en: "Mix the eggs and sugar, whisking vigorously." },
           { es: "Verser la crème sur les pommes en remuant.", en: "Pour the cream over the apples while stirring." },
           { es: "La tarte cuite, la laisser tiédir avant de la démouler.", en: "Once the tart is baked, leave it to cool slightly before turning it out." },
-          { es: "Enfourner pour 35 minutes en surveillant la coloration.", en: "Bake for 35 minutes, keeping an eye on the colour." },
-          { es: "Servir tiède, accompagnée d'une boule de glace vanille.", en: "Serve warm, with a scoop of vanilla ice cream." },
         ],
         checkpoint: [
           {
@@ -2776,12 +3493,27 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["Verser lentement le lait en remuant.", "Verser le lait doucement en remuant.", "Verser doucement le lait en remuant.", "Verser le lait petit à petit en remuant."],
             explanation: "Infinitive + gérondif for a simultaneous action.",
           },
+        ],
+      },
+      {
+        heading: "The ending, and agreement",
+        body: [
+          "Model ending: \"Enfourner pour 35 minutes en surveillant la coloration. La tarte une fois dorée, la sortir du four et la saupoudrer de sucre glace. Servir tiède, accompagnée d'une boule de glace vanille.\" Note \"accompagnée\" agreeing with the implied \"la tarte\".",
+        ],
+        examples: [
+          { es: "Enfourner pour 35 minutes en surveillant la coloration.", en: "Bake for 35 minutes, keeping an eye on the colour." },
+          { es: "Servir tiède, accompagnée d'une boule de glace vanille.", en: "Serve warm, with a scoop of vanilla ice cream." },
+          { es: "La tarte une fois dorée, la sortir du four.", en: "Once the tart is golden, take it out of the oven." },
+        ],
+        checkpoint: [
           {
-            type: "word-order",
-            prompt: "Put the words in order to say: Peel the apples and cut them into quarters.",
-            words: ["Éplucher", "les", "pommes", "et", "les", "couper", "en", "quartiers."],
-            translation: "Peel the apples and cut them into quarters.",
-            explanation: "Object pronoun before the infinitive: \"les couper\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate this recipe step into French.",
+            source: "Serve chilled, with a red fruit coulis.",
+            answer: "Servir frais, accompagné d'un coulis de fruits rouges.",
+            altAnswers: ["Servir bien frais, accompagné d'un coulis de fruits rouges.", "Servir frais, avec un coulis de fruits rouges.", "Servir frais avec un coulis de fruits rouges."],
+            explanation: "\"Servir\" + adjective; \"accompagné de\".",
           },
         ],
       },
@@ -2841,13 +3573,13 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "\"Laisser reposer\".",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate this recipe step into French.",
-        source: "Whisk the egg whites until stiff.",
-        answer: "Battre les blancs en neige ferme.",
-        altAnswers: ["Monter les blancs en neige ferme.", "Battre les blancs d'œufs en neige ferme.", "Monter les blancs en neige.", "Battre les blancs en neige."],
-        explanation: "Fixed culinary phrase \"battre / monter les blancs en neige\".",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "[Whisk] the egg whites until stiff.",
+        sentence: "___ les blancs en neige ferme.",
+        answer: "Battre",
+        altAnswers: ["Monter"],
+        explanation: "Recipe steps use the infinitive as an impersonal order: \"battre\" (or \"monter\") \"les blancs en neige\".",
       },
       {
         type: "matching",
@@ -2863,23 +3595,9 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which recipe step is correctly formed?",
-        options: [
-          "La pâte étalée, la piquer avec une fourchette.",
-          "La pâte étalée, piquer la avec une fourchette.",
-          "Étalée, piquer la pâte en la fourchette.",
-          "La pâte étalant, la piquer avec une fourchette.",
-        ],
+        options: ["La pâte étalée, la piquer avec une fourchette.", "La pâte étalée, piquer la avec une fourchette.", "Étalée, piquer la pâte en la fourchette.", "La pâte étalant, la piquer avec une fourchette."],
         correctIndex: 0,
         explanation: "Absolute clause (\"la pâte étalée\") + pronoun before the infinitive.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate this recipe step into French.",
-        source: "Serve chilled, with a red fruit coulis.",
-        answer: "Servir frais, accompagné d'un coulis de fruits rouges.",
-        altAnswers: ["Servir bien frais, accompagné d'un coulis de fruits rouges.", "Servir frais, avec un coulis de fruits rouges.", "Servir frais avec un coulis de fruits rouges."],
-        explanation: "\"Servir\" + adjective; \"accompagné de\".",
       },
       {
         type: "translate",
@@ -2892,9 +3610,9 @@ export const FR_C1_U04: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Débrancher l'appareil avant tout nettoyage et le laisser refroidir.",
-        answer: "Débrancher l'appareil avant tout nettoyage et le laisser refroidir.",
-        explanation: "Manual style: infinitives and \"laisser\" + infinitive.",
+        audio: "Vider le réservoir et le rincer à l'eau claire.",
+        answer: "Vider le réservoir et le rincer à l'eau claire.",
+        explanation: "Two infinitive steps; the pronoun \"le\" (the tank) comes before \"rincer\".",
       },
       {
         type: "listen-choose",
@@ -2924,27 +3642,14 @@ export const FR_C1_U04: Lesson[] = [
         heading: "One idea, four forms",
         body: [
           "In Unit 3 you learned to turn verbs into nouns (\"après l'arrivée des secours\"). This unit gave you non-finite verb forms. An Advanced writer chooses among them to vary the rhythm of a report. Take the idea 'when the meeting had ended, everyone went home': \"Une fois la réunion terminée, chacun est rentré\" (absolute clause), \"À l'issue de la réunion, chacun est rentré\" (nominal), \"Après avoir terminé la réunion, nous sommes rentrés\" (infinitive, same subject needed), \"La réunion s'étant terminée tard, chacun est rentré directement\" (absolute + cause).",
-          "Each form has its constraints. The infinitive and the gérondif need the same subject as the main clause. The absolute clause has its own subject. The nominal phrase is the most compact and the most impersonal, ideal for headlines and administrative texts, but too many nouns make a text heavy.",
-          "A good report alternates: one nominal phrase, then a participial clause, then a full clause with a conjunction. Read the model sentences below and identify which form each one uses.",
         ],
         examples: [
           { es: "Une fois la réunion terminée, chacun est rentré chez soi.", en: "Once the meeting was over, everyone went home." },
           { es: "À l'issue de la réunion, chacun est rentré chez soi.", en: "At the end of the meeting, everyone went home." },
           { es: "Après avoir clôturé la réunion, la directrice est partie.", en: "After closing the meeting, the director left." },
           { es: "La réunion s'étant prolongée, plusieurs participants ont manqué leur train.", en: "As the meeting ran over, several participants missed their train." },
-          { es: "En raison de la prolongation de la réunion, plusieurs participants ont manqué leur train.", en: "Owing to the meeting running over, several participants missed their train." },
-          { es: "Dès son arrivée, il a demandé à voir le responsable.", en: "As soon as he arrived, he asked to see the manager." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French with a nominal phrase.",
-            source: "As soon as she arrived, she called her lawyer.",
-            answer: "Dès son arrivée, elle a appelé son avocat.",
-            altAnswers: ["Dès son arrivée, elle a téléphoné à son avocat.", "Dès son arrivée, elle a appelé son avocate."],
-            explanation: "\"Dès\" + nominal (\"son arrivée\").",
-          },
           {
             type: "translate",
             direction: "en-es",
@@ -2957,30 +3662,60 @@ export const FR_C1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "Rewriting a heavy report",
+        heading: "Each form's constraints",
+        body: [
+          "Each form has its constraints. The infinitive and the gérondif need the same subject as the main clause. The absolute clause has its own subject. The nominal phrase is the most compact and the most impersonal, ideal for headlines and administrative texts, but too many nouns make a text heavy.",
+          "A good report alternates: one nominal phrase, then a participial clause, then a full clause with a conjunction. Read the model sentences below and identify which form each one uses.",
+        ],
+        examples: [
+          { es: "En raison de la prolongation de la réunion, plusieurs participants ont manqué leur train.", en: "Owing to the meeting running over, several participants missed their train." },
+          { es: "Dès son arrivée, il a demandé à voir le responsable.", en: "As soon as he arrived, he asked to see the manager." },
+          { es: "En quittant la salle, elle a éteint la lumière.", en: "As she left the room, she switched off the light." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with a nominal phrase.",
+            source: "As soon as she arrived, she called her lawyer.",
+            answer: "Dès son arrivée, elle a appelé son avocat.",
+            altAnswers: ["Dès son arrivée, elle a téléphoné à son avocat.", "Dès son arrivée, elle a appelé son avocate."],
+            explanation: "\"Dès\" + nominal (\"son arrivée\").",
+          },
+        ],
+      },
+      {
+        heading: "A heavy first draft",
         body: [
           "Here's a first draft of an incident report: \"Quand les techniciens sont arrivés, ils ont constaté que la canalisation avait cédé. Comme le sous-sol était inondé, ils ont coupé l'eau. Après qu'ils ont coupé l'eau, ils ont pompé le sous-sol. Parce qu'ils ont réagi rapidement, les dégâts ont été limités.\" Correct, but every sentence has the same shape: conjunction + full clause.",
+        ],
+        examples: [
+          { es: "Quand les techniciens sont arrivés, ils ont constaté les dégâts.", en: "When the technicians arrived, they noted the damage." },
+          { es: "Comme le sous-sol était inondé, ils ont coupé l'eau.", en: "As the basement was flooded, they turned off the water." },
+          { es: "Parce qu'ils ont réagi vite, les dégâts ont été limités.", en: "Because they reacted quickly, the damage was limited." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What's the weakness of this first draft?",
+            options: ["Every sentence has the same shape.", "It has grammar mistakes.", "It uses too many nouns.", "It's in the wrong tense."],
+            correctIndex: 0,
+            explanation: "The draft is correct, but every sentence is conjunction + full clause. Varying the forms (noun, participle, infinitive) gives a report rhythm.",
+          },
+        ],
+      },
+      {
+        heading: "The rewrite",
+        body: [
           "Rewritten: \"Dès leur arrivée, les techniciens ont constaté la rupture de la canalisation. Le sous-sol étant inondé, ils ont coupé l'eau avant de procéder au pompage. Grâce à leur intervention rapide, les dégâts ont été limités.\" The ideas are identical, but the forms vary: nominal (\"dès leur arrivée\", \"la rupture\"), absolute clause (\"le sous-sol étant inondé\"), infinitive (\"avant de procéder\"), nominal cause (\"grâce à leur intervention rapide\").",
-          "Note: \"après qu'ils ont coupé\" takes the indicative (Upper-intermediate), but writers often avoid it altogether by turning it into \"après avoir coupé\" or \"après la coupure de l'eau\".",
         ],
         examples: [
           { es: "Dès leur arrivée, les techniciens ont constaté la rupture de la canalisation.", en: "As soon as they arrived, the technicians noted that the pipe had burst." },
           { es: "Le sous-sol étant inondé, ils ont coupé l'eau.", en: "As the basement was flooded, they turned off the water." },
           { es: "Ils ont coupé l'eau avant de procéder au pompage.", en: "They turned off the water before pumping." },
           { es: "Grâce à leur intervention rapide, les dégâts ont été limités.", en: "Thanks to their quick intervention, the damage was limited." },
-          { es: "Après avoir coupé l'eau, ils ont pompé le sous-sol.", en: "After turning off the water, they pumped out the basement." },
-          { es: "L'eau coupée, ils ont pu commencer le pompage.", en: "With the water off, they could start pumping." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French with grâce à + noun.",
-            source: "Because they reacted quickly, nobody was hurt.",
-            answer: "Grâce à leur réaction rapide, personne n'a été blessé.",
-            altAnswers: ["Grâce à leur réaction rapide, il n'y a pas eu de blessés.", "Grâce à leur intervention rapide, personne n'a été blessé.", "Grâce à leur réactivité, personne n'a été blessé."],
-            explanation: "Cause clause → \"grâce à\" + nominal.",
-          },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -2990,43 +3725,98 @@ export const FR_C1_U04: Lesson[] = [
             altAnswers: ["La route étant barrée", "La route étant coupée"],
             explanation: "Absolute clause with its own subject and \"étant\".",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with grâce à + noun.",
+            source: "Because they reacted quickly, nobody was hurt.",
+            answer: "Grâce à leur réaction rapide, personne n'a été blessé.",
+            altAnswers: ["Grâce à leur réaction rapide, il n'y a pas eu de blessés.", "Grâce à leur intervention rapide, personne n'a été blessé.", "Grâce à leur réactivité, personne n'a été blessé."],
+            explanation: "Cause clause → \"grâce à\" + nominal.",
+          },
         ],
       },
       {
-        heading: "Choosing the right form",
+        heading: "Avoiding après que",
         body: [
-          "Checklist when rewriting: (1) Same subject? → infinitive (\"avant de\", \"après avoir\") or gérondif. (2) Different subject? → absolute clause (\"la route étant bloquée\") or nominal (\"en raison du blocage de la route\"). (3) Need a formal, impersonal tone? → nominal. (4) Telling a story? → participial clauses keep the action moving.",
-          "Watch out for dangling forms when rewriting: \"*En arrivant, la canalisation avait cédé\" is wrong because the pipe didn't arrive. Fix: \"En arrivant, les techniciens ont constaté que...\" or \"À leur arrivée, la canalisation avait déjà cédé.\" Nominal phrases are a safe way out of a dangling participle, because they don't need a subject.",
-          "Don't overdo it. A paragraph of nominal phrases only (\"Suite à la constatation de la rupture, mise en place d'une coupure...\") is administrative jargon. Keep at least one finite verb per sentence and mix forms.",
+          "Note: \"après qu'ils ont coupé\" takes the indicative (Upper-intermediate), but writers often avoid it altogether by turning it into \"après avoir coupé\" or \"après la coupure de l'eau\".",
         ],
         examples: [
-          { es: "À leur arrivée, la canalisation avait déjà cédé.", en: "When they arrived, the pipe had already burst." },
-          { es: "En arrivant, les techniciens ont constaté les dégâts.", en: "On arriving, the technicians noted the damage." },
+          { es: "Après avoir coupé l'eau, ils ont pompé le sous-sol.", en: "After turning off the water, they pumped out the basement." },
+          { es: "L'eau coupée, ils ont pu commencer le pompage.", en: "With the water off, they could start pumping." },
+          { es: "Après la coupure de l'eau, ils ont pompé le sous-sol.", en: "After the water was cut off, they pumped out the basement." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Après qu'elle ait fermé le magasin, elle est rentrée.",
+            answer: "Après avoir fermé le magasin, elle est rentrée.",
+            altAnswers: ["Après qu'elle a fermé le magasin, elle est rentrée.", "Après la fermeture du magasin, elle est rentrée."],
+            explanation: "\"Après que\" takes the indicative, not the subjunctive \"ait\". With the same subject, writers avoid it altogether: \"après avoir fermé\".",
+          },
+        ],
+      },
+      {
+        heading: "A checklist for rewriting",
+        body: [
+          "Checklist when rewriting: (1) Same subject? → infinitive (\"avant de\", \"après avoir\") or gérondif. (2) Different subject? → absolute clause (\"la route étant bloquée\") or nominal (\"en raison du blocage de la route\"). (3) Need a formal, impersonal tone? → nominal. (4) Telling a story? → participial clauses keep the action moving.",
+        ],
+        examples: [
           { es: "En raison du blocage de la route, nous avons fait un détour.", en: "Because the road was blocked, we took a detour." },
           { es: "Ayant pris du retard, l'équipe a travaillé tard.", en: "Having fallen behind, the team worked late." },
           { es: "Les travaux achevés, le bâtiment a rouvert ses portes.", en: "With the work completed, the building reopened its doors." },
         ],
         checkpoint: [
           {
-            type: "multiple-choice",
-            question: "Which sentence avoids the dangling participle?",
-            options: [
-              "À notre arrivée, le magasin était déjà fermé.",
-              "En arrivant, le magasin était déjà fermé.",
-              "Étant arrivés, le magasin était déjà fermé.",
-              "Arrivant tard, le magasin était déjà fermé.",
-            ],
-            correctIndex: 0,
-            explanation: "The nominal \"à notre arrivée\" doesn't need the subject to be \"nous\".",
-          },
-          {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French with a perfect participle.",
-            source: "Having fallen behind, the team worked all weekend.",
-            answer: "Ayant pris du retard, l'équipe a travaillé tout le week-end.",
-            altAnswers: ["Ayant pris du retard, l'équipe a travaillé pendant tout le week-end.", "Ayant accumulé du retard, l'équipe a travaillé tout le week-end."],
-            explanation: "Same subject → \"ayant\" + participle.",
+            source: "Having missed the bus, she walked to work.",
+            answer: "Ayant raté le bus, elle est allée au travail à pied.",
+            altAnswers: ["Ayant manqué le bus, elle est allée au travail à pied.", "Ayant raté le bus, elle est allée travailler à pied.", "Ayant manqué le bus, elle est allée travailler à pied.", "Ayant raté son bus, elle est allée au travail à pied.", "Ayant raté le bus, elle est partie au travail à pied."],
+            explanation: "Same subject (elle) and an earlier action: the perfect participle \"ayant raté\".",
+          },
+        ],
+      },
+      {
+        heading: "Dangling forms when rewriting",
+        body: [
+          "Watch out for dangling forms when rewriting: \"*En arrivant, la canalisation avait cédé\" is wrong because the pipe didn't arrive. Fix: \"En arrivant, les techniciens ont constaté que...\" or \"À leur arrivée, la canalisation avait déjà cédé.\" Nominal phrases are a safe way out of a dangling participle, because they don't need a subject.",
+        ],
+        examples: [
+          { es: "À leur arrivée, la canalisation avait déjà cédé.", en: "When they arrived, the pipe had already burst." },
+          { es: "En arrivant, les techniciens ont constaté les dégâts.", en: "On arriving, the technicians noted the damage." },
+          { es: "À son retour, tout avait changé.", en: "When he got back, everything had changed." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence avoids the dangling participle?",
+            options: ["À notre arrivée, le magasin était déjà fermé.", "En arrivant, le magasin était déjà fermé.", "Étant arrivés, le magasin était déjà fermé.", "Arrivant tard, le magasin était déjà fermé."],
+            correctIndex: 0,
+            explanation: "The nominal \"à notre arrivée\" doesn't need the subject to be \"nous\".",
+          },
+        ],
+      },
+      {
+        heading: "Don't overdo it",
+        body: [
+          "Don't overdo it. A paragraph of nominal phrases only (\"Suite à la constatation de la rupture, mise en place d'une coupure...\") is administrative jargon. Keep at least one finite verb per sentence and mix forms.",
+        ],
+        examples: [
+          { es: "Suite à la panne, nous avons appelé un technicien.", en: "Following the breakdown, we called a technician." },
+          { es: "Après la réunion, chacun a repris son poste.", en: "After the meeting, everyone went back to work." },
+          { es: "Faute de temps, nous avons reporté la visite.", en: "For lack of time, we postponed the visit." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is the administrative jargon to avoid?",
+            options: ["Suite à la constatation de la panne, mise en place d'une intervention.", "Après avoir constaté la panne, nous avons appelé un technicien.", "La panne constatée, nous avons appelé un technicien.", "Dès la constatation de la panne, nous avons appelé un technicien."],
+            correctIndex: 0,
+            explanation: "The first one has no finite verb at all, just a chain of nouns. The others mix a nominal or participial phrase with a clear main verb.",
           },
         ],
       },
@@ -3051,13 +3841,12 @@ export const FR_C1_U04: Lesson[] = [
         explanation: "\"Après\" + noun (\"le départ\") avoids a clause.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with an infinitive.",
-        source: "Before signing, read the conditions carefully.",
-        answer: "Avant de signer, lisez attentivement les conditions.",
-        altAnswers: ["Avant de signer, lisez bien les conditions.", "Avant de signer, lire attentivement les conditions.", "Avant de signer, lis attentivement les conditions.", "Avant de signer, lisez les conditions attentivement."],
-        explanation: "Same subject → \"avant de\" + infinitive.",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "[Before signing], read the conditions carefully.",
+        sentence: "___, lisez attentivement les conditions.",
+        answer: "Avant de signer",
+        explanation: "Same subject: \"avant de\" + infinitive (never a present participle after a preposition other than \"en\").",
       },
       {
         type: "translate",
@@ -3097,12 +3886,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which rewrite is correct for \"Comme le train avait du retard, nous avons raté la correspondance\"?",
-        options: [
-          "Le train ayant du retard, nous avons raté la correspondance.",
-          "Ayant du retard, nous avons raté la correspondance à cause du train.",
-          "En ayant du retard, le train, nous avons raté la correspondance.",
-          "Le train en retardant, nous avons raté la correspondance.",
-        ],
+        options: ["Le train ayant du retard, nous avons raté la correspondance.", "Ayant du retard, nous avons raté la correspondance à cause du train.", "En ayant du retard, le train, nous avons raté la correspondance.", "Le train en retardant, nous avons raté la correspondance."],
         correctIndex: 0,
         explanation: "Different subject → absolute clause \"le train ayant du retard\".",
       },
@@ -3135,12 +3919,7 @@ export const FR_C1_U04: Lesson[] = [
         type: "listen-choose",
         audio: "Les secours arrivés, la foule s'est dispersée.",
         question: "What happened?",
-        options: [
-          "Once the rescue services arrived, the crowd dispersed.",
-          "The crowd dispersed before the rescue services arrived.",
-          "The rescue services dispersed the crowd on arrival.",
-          "The crowd waited for the rescue services.",
-        ],
+        options: ["Once the rescue services arrived, the crowd dispersed.", "The crowd dispersed before the rescue services arrived.", "The rescue services dispersed the crowd on arrival.", "The crowd waited for the rescue services."],
         correctIndex: 0,
         explanation: "Absolute clause marking sequence.",
       },

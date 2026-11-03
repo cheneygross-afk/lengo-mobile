@@ -17,10 +17,8 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
         heading: "Recap: when the subjunctive comes back",
         body: [
           "Subjunctive: wishes and necessity, emotions, doubt and negative opinions, \"il est possible que\", \"il semble que\", the conjunctions \"pour que, avant que, bien que, à moins que, sans que, jusqu'à ce que, à condition que, de peur que\", and relatives after a sought, non-existent or unique antecedent. Indicative: \"espérer\", \"penser\", \"il est probable\", \"il me semble\", \"après que\", \"même si\", \"parce que\", \"dès que\".",
-          "Past subjunctive for an earlier action: \"je suis content qu'il soit venu\". After a past main verb, keep the present subjunctive for simultaneity.",
         ],
         examples: [
-          { es: "Je doute qu'il ait reçu ma lettre.", en: "I doubt he's received my letter." },
           { es: "C'est la seule personne qui me comprenne vraiment.", en: "She's the only person who really understands me." },
           { es: "Il faudrait que nous partions avant que la neige tombe.", en: "We ought to leave before the snow falls." },
           { es: "Il semble que le magasin soit fermé.", en: "It seems the shop is closed." },
@@ -28,20 +26,28 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I doubt he's received my letter.",
-            answer: "Je doute qu'il ait reçu ma lettre.",
-            explanation: "\"Douter que\" + past subjunctive.",
-          },
-          {
             type: "multiple-choice",
             question: "Which sentence is correct?",
             options: ["Il semble que le magasin soit fermé.", "Il est possible que le magasin est fermé.", "Il me semble que le magasin soit fermé.", "J'espère que le magasin soit ouvert."],
             correctIndex: 0,
             explanation: "\"Il semble que\" and \"il est possible que\" + subjunctive; \"il me semble que\" and \"espérer\" + indicative.",
           },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Je pense qu'il soit malade.", answer: "Je pense qu'il est malade.", explanation: "An affirmative \"penser que\" states what you believe to be true, so it takes the indicative \"est\". Only the negative or question form (\"je ne pense pas qu'il soit\") can take the subjunctive." },
+        ],
+      },
+      {
+        heading: "Recap: the past subjunctive",
+        body: [
+          "Past subjunctive for an earlier action: \"je suis content qu'il soit venu\". After a past main verb, keep the present subjunctive for simultaneity.",
+        ],
+        examples: [
+          { es: "Je doute qu'il ait reçu ma lettre.", en: "I doubt he's received my letter." },
+          { es: "Je suis content qu'il soit venu.", en: "I'm glad he came." },
+          { es: "Elle voulait que je reste.", en: "She wanted me to stay." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Yesterday your boss wanted you to stay late. Which sentence says so?", options: ["Il voulait que je reste tard.", "Il voulait que je sois resté tard.", "Il voulait que je restais tard.", "Il voulait que je resterais tard."], correctIndex: 0, explanation: "The wish and the staying happen at the same time, so the present subjunctive \"reste\" follows the past main verb. The past subjunctive would place the staying before the wish; \"restais\" and \"resterais\" aren't subjunctives." },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "I'm sorry [you missed] the train.", sentence: "Je suis désolé que tu ___ le train.", answer: "aies raté", altAnswers: ["aies manqué"], explanation: "Emotion + subjunctive, and the missing happened before the regret, so the past subjunctive: \"que tu aies raté\"." },
         ],
       },
     ],
@@ -100,15 +106,7 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
         altAnswers: ["à moins qu'il ne pleuve"],
         explanation: "\"À moins que\" + subjunctive, optional \"ne\".",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "It's possible that he's lying.",
-        answer: "Il est possible qu'il mente.",
-        altAnswers: ["Il se peut qu'il mente.", "C'est possible qu'il mente."],
-        explanation: "\"Il est possible que\" + subjunctive \"mente\".",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Il est possible que tu as raison.", answer: "Il est possible que tu aies raison.", explanation: "\"Il est possible que\" expresses mere possibility, so it takes the subjunctive: \"tu aies\". Compare \"il est probable que\", which keeps the indicative." },
       {
         type: "translate",
         direction: "en-es",
@@ -158,12 +156,7 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
         correctIndex: 0,
         explanation: "Present main verb + past subjunctive.",
       },
-      {
-        type: "speak",
-        text: "Il faudrait que nous partions avant que la neige tombe.",
-        prompt: "Say it in French: We ought to leave before the snow falls.",
-        explanation: "Two subjunctives: after \"il faudrait que\" and \"avant que\".",
-      },
+      { type: "speak", text: "Il faudrait que tu partes avant qu'il fasse nuit.", prompt: "Say it in French: You ought to leave before it gets dark.", explanation: "Two subjunctives: \"partes\" after \"il faudrait que\", \"fasse\" after \"avant que\"." },
     ],
   },
   {
@@ -176,36 +169,33 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
     duration: "13 min",
     sections: [
       {
-        heading: "Recap: si-clauses and tense shifts",
+        heading: "Recap: the three si-clauses",
         body: [
           "\"Si\" + présent → futur; \"si\" + imparfait → conditionnel; \"si\" + plus-que-parfait → conditionnel passé; mix them when the times differ. Regrets: \"j'aurais dû\", \"tu aurais pu\", \"si seulement\".",
-          "Reported speech after a past verb: présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel; \"si\", \"ce que\", \"ce qui\" for questions; \"de\" + infinitive for orders.",
         ],
         examples: [
           { es: "Si tu viens, je préparerai un gâteau.", en: "If you come, I'll make a cake." },
           { es: "S'il faisait beau, on irait à la plage.", en: "If the weather were nice, we'd go to the beach." },
           { es: "Si tu m'avais écouté, tu n'aurais pas eu cet accident.", en: "If you'd listened to me, you wouldn't have had that accident." },
-          { es: "Elle m'a dit qu'elle serait en retard.", en: "She told me she'd be late." },
-          { es: "Il m'a demandé ce qui me faisait peur.", en: "He asked me what scared me." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "If the weather were nice, we'd go to the beach.",
-            answer: "S'il faisait beau, on irait à la plage.",
-            altAnswers: ["S'il faisait beau, nous irions à la plage."],
-            explanation: "\"Si\" + imparfait → conditionnel.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "She told me she [would be] late.",
-            sentence: "Elle m'a dit qu'elle ___ en retard.",
-            answer: "serait",
-            explanation: "Futur → conditionnel.",
-          },
+          { type: "multiple-choice", question: "You're sure your sister is coming on Sunday. Which sentence fits?", options: ["Si elle vient dimanche, on ira au marché.", "Si elle venait dimanche, on irait au marché.", "Si elle était venue dimanche, on serait allés au marché.", "Si elle viendra dimanche, on ira au marché."], correctIndex: 0, explanation: "A real, likely condition: \"si\" + présent, then the futur. The imparfait and plus-que-parfait versions make it imaginary or past, and \"si\" never takes the futur." },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Si j'aurais le temps, je viendrais avec vous.", answer: "Si j'avais le temps, je viendrais avec vous.", explanation: "Never the conditional after \"si\": an imagined condition takes the imparfait (\"j'avais\"), and the conditional goes in the result (\"je viendrais\")." },
+        ],
+      },
+      {
+        heading: "Recap: reported speech",
+        body: [
+          "Reported speech after a past verb: présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel; \"si\", \"ce que\", \"ce qui\" for questions; \"de\" + infinitive for orders.",
+        ],
+        examples: [
+          { es: "Elle m'a dit qu'elle serait en retard.", en: "She told me she'd be late." },
+          { es: "Il m'a demandé ce qui me faisait peur.", en: "He asked me what scared me." },
+          { es: "Il m'a dit de fermer la porte.", en: "He told me to close the door." },
+        ],
+        checkpoint: [
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "He told me he [would call] me back.", sentence: "Il m'a dit qu'il me ___.", answer: "rappellerait", altAnswers: ["téléphonerait"], explanation: "After a past reporting verb the futur becomes the conditionnel: \"je te rappellerai\" → \"qu'il me rappellerait\" (double l, like \"appeler\")." },
+          { type: "translate", direction: "en-es", prompt: "Turn it into reported speech after « Il m'a demandé ».", source: "Tu as fini ton rapport ?", answer: "Il m'a demandé si j'avais fini mon rapport.", explanation: "A yes/no question is reported with \"si\"; the passé composé moves back to the plus-que-parfait, and \"tu / ton\" become \"je / mon\"." },
         ],
       },
     ],
@@ -228,15 +218,7 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
         altAnswers: ["Si j'étais vous, je ne dirais rien.", "À ta place, je ne dirais rien.", "À votre place, je ne dirais rien."],
         explanation: "Imparfait → conditionnel.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "If she had studied, she would have passed.",
-        answer: "Si elle avait étudié, elle aurait réussi.",
-        altAnswers: ["Si elle avait révisé, elle aurait réussi.", "Si elle avait travaillé, elle aurait réussi.", "Si elle avait étudié, elle aurait réussi son examen."],
-        explanation: "Plus-que-parfait → conditionnel passé.",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: If she had studied, she would have passed.", words: ["Si", "elle", "avait", "étudié,", "elle", "aurait", "réussi."], translation: "If she had studied, she would have passed.", explanation: "Unreal past: \"si\" + plus-que-parfait, then the conditionnel passé." },
       {
         type: "translate",
         direction: "en-es",
@@ -263,22 +245,8 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
         answer: "Si seulement",
         explanation: "\"Si seulement\" + plus-que-parfait.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "He said he was hungry.",
-        answer: "Il a dit qu'il avait faim.",
-        explanation: "Présent → imparfait.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "She said she had seen the film.",
-        answer: "Elle a dit qu'elle avait vu le film.",
-        explanation: "Passé composé → plus-que-parfait.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Turn it into reported speech after « Il a dit ».", source: "J'ai faim.", answer: "Il a dit qu'il avait faim.", explanation: "Présent → imparfait after a past reporting verb; \"je\" becomes \"il\"." },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "She said she [had seen] the film.", sentence: "Elle a dit qu'elle ___ le film.", answer: "avait vu", explanation: "The passé composé she used (\"j'ai vu\") moves back to the plus-que-parfait after \"elle a dit\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -287,15 +255,7 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
         answer: "Il m'a demandé si je l'aiderais.",
         explanation: "\"Si\" + conditionnel (future in the past).",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "She asked me what was wrong.",
-        answer: "Elle m'a demandé ce qui n'allait pas.",
-        altAnswers: ["Elle m'a demandé ce qui se passait.", "Elle m'a demandé ce qui clochait."],
-        explanation: "\"Qu'est-ce qui ne va pas ?\" → \"ce qui n'allait pas\".",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Elle m'a demandé qu'est-ce qui n'allait pas.", answer: "Elle m'a demandé ce qui n'allait pas.", explanation: "In an indirect question \"qu'est-ce qui\" becomes \"ce qui\"; the direct-question form can't follow \"demander\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -312,17 +272,8 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
         correctIndex: 0,
         explanation: "Indirect questions: no inversion, no \"est-ce que\".",
       },
-      {
-        type: "dictation",
-        audio: "Si tu m'avais écouté, tu n'aurais pas eu cet accident.",
-        explanation: "Plus-que-parfait → conditionnel passé.",
-      },
-      {
-        type: "speak",
-        text: "Il m'a demandé ce qui me faisait peur.",
-        prompt: "Say it in French: He asked me what scared me.",
-        explanation: "\"Ce qui\" for a reported subject question.",
-      },
+      { type: "dictation", audio: "Si nous étions partis plus tôt, nous n'aurions pas raté le train.", explanation: "Unreal past: plus-que-parfait \"étions partis\" → conditionnel passé \"n'aurions pas raté\"." },
+      { type: "speak", text: "Il m'a demandé ce que je ferais à sa place.", prompt: "Say it in French: He asked me what I would do in his place.", explanation: "\"Qu'est-ce que\" becomes \"ce que\" in a reported question; the conditional \"ferais\" stays." },
     ],
   },
   {
@@ -335,27 +286,17 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Recap: the Upper-intermediate word webs",
+        heading: "Recap: art, politics, dreams, tech and media",
         body: [
           "Art: \"une œuvre\", \"un roman\", \"une nouvelle\", \"un vernissage\". Politics: \"un projet de loi\", \"un sondage\", \"une grève\". Dreams: \"rêver de\", \"faire semblant\". Tech: \"les données\", \"un logiciel\", \"le numérique\". Media: \"un quotidien\", \"la une\", \"la rédaction\", \"une infox\".",
-          "Mind: \"sensible\", \"susceptible\", \"déçu\", \"épanoui\". Decisions: \"prendre une décision\", \"renoncer à\". Growth: \"une formation\", \"réussir à\". Debate: \"avoir raison\", \"être d'accord avec\". Stage: \"une répétition\", \"un comédien\", \"la première\".",
         ],
         examples: [
           { es: "Le vernissage de l'exposition aura lieu jeudi soir.", en: "The private view of the exhibition is on Thursday evening." },
           { es: "D'après un sondage, la réforme est impopulaire.", en: "According to a poll, the reform is unpopular." },
           { es: "Il fait semblant de ne pas comprendre.", en: "He's pretending not to understand." },
           { es: "Cette infox a fait la une d'un quotidien sérieux.", en: "This fake news made the front page of a serious daily." },
-          { es: "Elle a pris la décision de suivre une formation.", en: "She decided to do a training course." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "He's pretending not to understand.",
-            answer: "Il fait semblant de ne pas comprendre.",
-            explanation: "\"Faire semblant de\" + negative infinitive.",
-          },
           {
             type: "multiple-choice",
             question: "What is \"une nouvelle\" in a bookshop?",
@@ -363,6 +304,22 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Une nouvelle\" is a short story; a novel is \"un roman\".",
           },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "The newspaper's [editorial team] is on strike.", sentence: "La ___ du journal est en grève.", answer: "rédaction", explanation: "\"La rédaction\" is the editorial team (and the newsroom); \"un rédacteur\" is one of its writers." },
+        ],
+      },
+      {
+        heading: "Recap: mind, decisions, growth, debate and the stage",
+        body: [
+          "Mind: \"sensible\", \"susceptible\", \"déçu\", \"épanoui\". Decisions: \"prendre une décision\", \"renoncer à\". Growth: \"une formation\", \"réussir à\". Debate: \"avoir raison\", \"être d'accord avec\". Stage: \"une répétition\", \"un comédien\", \"la première\".",
+        ],
+        examples: [
+          { es: "Elle a pris la décision de suivre une formation.", en: "She decided to do a training course." },
+          { es: "Ne sois pas si susceptible, c'était une blague !", en: "Don't be so touchy, it was a joke!" },
+          { es: "Depuis sa formation, elle se sent enfin épanouie.", en: "Since her training she finally feels fulfilled." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "What does it mean? « Mon frère est très sensible. »", options: ["My brother is very sensitive.", "My brother is very sensible.", "My brother is very reasonable.", "My brother is very practical."], correctIndex: 0, explanation: "\"Sensible\" is a false friend: it means sensitive. Sensible is \"raisonnable\" or \"sensé\"." },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Nous sommes d'accord de toi.", answer: "Nous sommes d'accord avec toi.", explanation: "You agree with a person: \"être d'accord avec\". \"D'accord de\" + infinitive means agreeing to do something." },
         ],
       },
     ],
@@ -392,15 +349,7 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
         answer: "J'ai fait un cauchemar.",
         explanation: "\"Faire un cauchemar\" (and \"faire un rêve\").",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The data has been deleted.",
-        answer: "Les données ont été supprimées.",
-        altAnswers: ["Les données ont été effacées."],
-        explanation: "\"Les données\" is feminine plural.",
-      },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "The [data] has been deleted.", sentence: "Les ___ ont été supprimées.", answer: "données", explanation: "\"Les données\" is feminine plural, which is why the participle is \"supprimées\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -444,14 +393,7 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
         answer: "formation",
         explanation: "\"Une formation\" = a training course.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I don't agree with him.",
-        answer: "Je ne suis pas d'accord avec lui.",
-        explanation: "\"Être d'accord avec\".",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: I don't agree with him.", words: ["Je", "ne", "suis", "pas", "d'accord", "avec", "lui."], translation: "I don't agree with him.", explanation: "\"Être d'accord avec\" + person; the negation wraps \"suis\"." },
       {
         type: "translate",
         direction: "en-es",

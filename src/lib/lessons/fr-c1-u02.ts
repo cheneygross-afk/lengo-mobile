@@ -28,30 +28,16 @@ export const FR_C1_U02: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Même si: a hypothesis or a fact, always indicative",
+        heading: "Même si follows the rules of si",
         body: [
           "\"Même si\" is \"si\" (if) reinforced by \"même\" (even), and it follows exactly the same tense rules as \"si\": never the subjunctive, never the future or conditional right after it. \"Même s'il pleut, on sortira\" (even if it rains, we'll go out). \"Même s'il pleuvait, on sortirait\" (even if it were raining, hypothetically). \"Même s'il avait plu, on serait sortis\" (even if it had rained).",
-          "It can also concede a real fact, much like 'even though': \"Même s'il est tard, je vais finir ce chapitre\" (it is late, I know). In speech, \"même si\" is by far the most frequent way of conceding, precisely because it avoids the subjunctive.",
-          "Watch the elision. \"Si\" only elides before \"il\" and \"ils\": \"même s'il\", \"même s'ils\", but \"même si elle\", \"même si on\", \"même si elles\". Writing \"*même s'elle\" is a classic slip. And never \"*même si il soit\": two errors in three words.",
         ],
         examples: [
           { es: "Même s'il pleut, on sortira.", en: "Even if it rains, we'll go out." },
           { es: "Même s'il pleuvait, on sortirait.", en: "Even if it were raining, we'd go out." },
           { es: "Même s'il avait plu, on serait sortis.", en: "Even if it had rained, we'd have gone out." },
-          { es: "Même s'il est tard, je vais finir ce chapitre.", en: "Even though it's late, I'm going to finish this chapter." },
-          { es: "Même si elle a raison, elle aurait pu le dire autrement.", en: "Even if she's right, she could have said it differently." },
-          { es: "Même si on part maintenant, on arrivera en retard.", en: "Even if we leave now, we'll arrive late." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "Even if she apologises, I won't change my mind.",
-            answer: "Même si elle s'excuse, je ne changerai pas d'avis.",
-            altAnswers: ["Même si elle me présente des excuses, je ne changerai pas d'avis.", "Même si elle s'excuse, je ne changerai pas d'idée."],
-            explanation: "\"Même si\" + present indicative, future in the main clause, as with plain \"si\". No elision before \"elle\".",
-          },
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
@@ -67,21 +53,41 @@ export const FR_C1_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Bien que and quoique: a fact conceded, always subjunctive",
+        heading: "Conceding a fact, and the elision",
+        body: [
+          "It can also concede a real fact, much like 'even though': \"Même s'il est tard, je vais finir ce chapitre\" (it is late, I know). In speech, \"même si\" is by far the most frequent way of conceding, precisely because it avoids the subjunctive.",
+          "Watch the elision. \"Si\" only elides before \"il\" and \"ils\": \"même s'il\", \"même s'ils\", but \"même si elle\", \"même si on\", \"même si elles\". Writing \"*même s'elle\" is a classic slip. And never \"*même si il soit\": two errors in three words.",
+        ],
+        examples: [
+          { es: "Même s'il est tard, je vais finir ce chapitre.", en: "Even though it's late, I'm going to finish this chapter." },
+          { es: "Même si elle a raison, elle aurait pu le dire autrement.", en: "Even if she's right, she could have said it differently." },
+          { es: "Même si on part maintenant, on arrivera en retard.", en: "Even if we leave now, we'll arrive late." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which sentence is correct?", options: ["Même si elles partent tôt, elles arriveront tard.", "Même s'elles partent tôt, elles arriveront tard.", "Même si elles partiront tôt, elles arriveront tard.", "Même si qu'elles partent tôt, elles arriveront tard."], correctIndex: 0, explanation: "\"Si\" elides only before \"il\" and \"ils\", so \"même si elles\" stays in full. After \"même si\" comes the present indicative, never the futur, and no \"que\" is added." },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Even if she apologises, I won't change my mind.",
+            answer: "Même si elle s'excuse, je ne changerai pas d'avis.",
+            altAnswers: ["Même si elle me présente des excuses, je ne changerai pas d'avis.", "Même si elle s'excuse, je ne changerai pas d'idée."],
+            explanation: "\"Même si\" + present indicative, future in the main clause, as with plain \"si\". No elision before \"elle\".",
+          },
+        ],
+      },
+      {
+        heading: "Bien que: a fact set aside",
         body: [
           "\"Bien que\" and \"quoique\" mean although. They concede a fact the speaker accepts as true, but they take the subjunctive: \"Bien qu'il pleuve, on sort\" (although it's raining). The subjunctive here doesn't signal doubt; it signals that the fact is set aside, its normal consequence blocked. Think of it as 'granted that... still'.",
-          "\"Quoique\" is a slightly more literary synonym, with the same mood. Both elide: \"bien qu'il\", \"quoiqu'elle\". With the same subject in both clauses and the verb être, French often drops subject and verb: \"Bien que fatiguée, elle a continué\" (although tired, she carried on); \"Quoique très jeune, il dirige l'équipe.\"",
-          "Choosing: \"même si\" can be hypothetical or factual and keeps the indicative; \"bien que\" is factual and needs the subjunctive. In formal writing, \"bien que\" sounds more measured; in conversation \"même si\" is more natural. What you must never do is cross the wires: \"*bien qu'il est\" and \"*même s'il soit\" are both marked as errors.",
         ],
         examples: [
           { es: "Bien qu'il pleuve, on sort faire un tour.", en: "Although it's raining, we're going out for a walk." },
-          { es: "Quoiqu'elle soit très occupée, elle prend toujours le temps de répondre.", en: "Although she's very busy, she always takes the time to reply." },
-          { es: "Bien que fatiguée, elle a continué à travailler.", en: "Although tired, she kept on working." },
-          { es: "Quoique très jeune, il dirige toute l'équipe.", en: "Though very young, he runs the whole team." },
           { es: "Bien qu'ils aient prévenu, personne ne les attendait.", en: "Although they'd given notice, nobody was expecting them." },
           { es: "Bien qu'on se connaisse depuis peu, je lui fais confiance.", en: "Although we've only known each other a short time, I trust him." },
         ],
         checkpoint: [
+          { type: "multiple-choice", question: "Which form completes: Bien qu'il ___ tard, on reste encore un peu.", options: ["soit", "est", "sera", "serait"], correctIndex: 0, explanation: "\"Bien que\" concedes a fact but always takes the subjunctive: \"soit\". The indicative \"est\" is the classic crossed wire, and the futur and conditional never follow \"bien que\"." },
           {
             type: "translate",
             direction: "en-es",
@@ -91,6 +97,19 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Bien qu'il soit malade, il est venu au travail.", "Bien que malade, il est venu travailler.", "Bien que malade, il est venu au travail.", "Bien qu'il soit malade, il est venu au bureau."],
             explanation: "\"Bien que\" + subjunctive \"soit\"; with the same subject, \"bien que malade\" is an elegant short form.",
           },
+        ],
+      },
+      {
+        heading: "Quoique, elision and the short form",
+        body: [
+          "\"Quoique\" is a slightly more literary synonym, with the same mood. Both elide: \"bien qu'il\", \"quoiqu'elle\". With the same subject in both clauses and the verb être, French often drops subject and verb: \"Bien que fatiguée, elle a continué\" (although tired, she carried on); \"Quoique très jeune, il dirige l'équipe.\"",
+        ],
+        examples: [
+          { es: "Quoiqu'elle soit très occupée, elle prend toujours le temps de répondre.", en: "Although she's very busy, she always takes the time to reply." },
+          { es: "Bien que fatiguée, elle a continué à travailler.", en: "Although tired, she kept on working." },
+          { es: "Quoique très jeune, il dirige toute l'équipe.", en: "Though very young, he runs the whole team." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -100,33 +119,69 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Quoiqu'elle"],
             explanation: "\"Bien que\" / \"quoique\" elide before \"elle\" (unlike \"si\"). \"Habite\" is the subjunctive here, identical to the indicative.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French, using the short form without a verb.",
+            source: "Although tired, the runners kept going.",
+            answer: "Bien que fatigués, les coureurs ont continué.",
+            altAnswers: ["Quoique fatigués, les coureurs ont continué.", "Bien que fatigués, les coureurs ont poursuivi.", "Bien que fatigués, les coureurs ont tenu bon."],
+            explanation: "Same subject + être dropped: \"bien que fatigués\", agreeing with \"les coureurs\".",
+          },
         ],
       },
       {
-        heading: "Same idea, two moods",
+        heading: "Don't cross the wires",
+        body: [
+          "Choosing: \"même si\" can be hypothetical or factual and keeps the indicative; \"bien que\" is factual and needs the subjunctive. In formal writing, \"bien que\" sounds more measured; in conversation \"même si\" is more natural. What you must never do is cross the wires: \"*bien qu'il est\" and \"*même s'il soit\" are both marked as errors.",
+        ],
+        examples: [
+          { es: "Même si le loyer est cher, l'appartement vaut le coup.", en: "Even though the rent is high, the flat is worth it." },
+          { es: "Bien que le loyer soit cher, l'appartement vaut le coup.", en: "Although the rent is high, the flat is worth it." },
+          { es: "Même si tu insistes, je ne viendrai pas.", en: "Even if you insist, I won't come." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: [
+              "Même si elle part demain, on la reverra cet été.",
+              "Même s'elle part demain, on la reverra cet été.",
+              "Même si elle parte demain, on la reverra cet été.",
+              "Même si elle partira demain, on la reverra cet été.",
+            ],
+            correctIndex: 0,
+            explanation: "No elision before \"elle\", indicative present after \"même si\", even for a future event.",
+          },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Bien qu'il est en retard, il prend son temps.", answer: "Bien qu'il soit en retard, il prend son temps.", altAnswers: ["Même s'il est en retard, il prend son temps.", "Quoiqu'il soit en retard, il prend son temps."], explanation: "\"Bien que\" always takes the subjunctive, so \"est\" becomes \"soit\". Only \"même si\" keeps the indicative." },
+        ],
+      },
+      {
+        heading: "Rephrasing one as the other",
         body: [
           "Because the two structures overlap in meaning, rephrasing one into the other is a good Advanced exercise. \"Même s'il fait froid, je me baigne\" ↔ \"Bien qu'il fasse froid, je me baigne\". \"Même si les prix ont augmenté, la demande reste forte\" ↔ \"Bien que les prix aient augmenté, la demande reste forte\". The tense in the subjunctive version follows aspect: completed action → past subjunctive.",
-          "Only \"même si\" can express a pure hypothesis: 'even if it rained tomorrow' has no \"bien que\" version, since \"bien que\" assumes the fact. And only \"bien que\" allows the elliptical form without a verb (\"bien que malade\").",
-          "One exception you will hear: a polite conditional of wish right after \"même si\": \"Même si j'aimerais bien venir, je ne peux pas.\" Here \"j'aimerais\" is not a hypothesis but a softened present (I'd like = I want), so speakers accept it. In formal writing, prefer \"Bien que j'aie très envie de venir, je ne peux pas.\"",
         ],
         examples: [
           { es: "Même s'il fait froid, je me baigne.", en: "Even if it's cold, I go swimming." },
           { es: "Bien qu'il fasse froid, je me baigne.", en: "Although it's cold, I'm going swimming." },
           { es: "Même si les prix ont augmenté, la demande reste forte.", en: "Even though prices have risen, demand remains strong." },
           { es: "Bien que les prix aient augmenté, la demande reste forte.", en: "Although prices have risen, demand remains strong." },
-          { es: "Même s'il neigeait demain, le marché aurait lieu.", en: "Even if it snowed tomorrow, the market would take place." },
-          { es: "Même si j'aimerais bien venir, je ne peux pas ce soir.", en: "Much as I'd like to come, I can't tonight." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French (rewrite with bien que): \"Même si les loyers ont baissé, il est difficile de se loger.\"",
-            source: "Although rents have gone down, it's hard to find somewhere to live.",
-            answer: "Bien que les loyers aient baissé, il est difficile de se loger.",
-            altAnswers: ["Quoique les loyers aient baissé, il est difficile de se loger."],
-            explanation: "\"Ont baissé\" (indicative after même si) becomes \"aient baissé\" (past subjunctive after bien que).",
-          },
+          { type: "translate", direction: "en-es", prompt: "Change même si to bien que.", source: "Même si les loyers ont baissé, il est difficile de se loger.", answer: "Bien que les loyers aient baissé, il est difficile de se loger.", altAnswers: ["Quoique les loyers aient baissé, il est difficile de se loger."], explanation: "\"Ont baissé\" (indicative after même si) becomes \"aient baissé\" (past subjunctive after bien que): the action is completed, so the past subjunctive." },
+        ],
+      },
+      {
+        heading: "What only each one can do",
+        body: [
+          "Only \"même si\" can express a pure hypothesis: 'even if it rained tomorrow' has no \"bien que\" version, since \"bien que\" assumes the fact. And only \"bien que\" allows the elliptical form without a verb (\"bien que malade\").",
+        ],
+        examples: [
+          { es: "Même s'il neigeait demain, le marché aurait lieu.", en: "Even if it snowed tomorrow, the market would take place." },
+          { es: "Même si tu me le demandais à genoux, je refuserais.", en: "Even if you begged me on your knees, I'd refuse." },
+          { es: "Bien que très âgée, elle voyage seule.", en: "Although very old, she travels alone." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Même s'il neigeait, ils viendraient.",
@@ -135,6 +190,20 @@ export const FR_C1_U02: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Même si\" + imperfect + conditional: a hypothesis.",
           },
+        ],
+      },
+      {
+        heading: "A tolerated exception: j'aimerais",
+        body: [
+          "One exception you will hear: a polite conditional of wish right after \"même si\": \"Même si j'aimerais bien venir, je ne peux pas.\" Here \"j'aimerais\" is not a hypothesis but a softened present (I'd like = I want), so speakers accept it. In formal writing, prefer \"Bien que j'aie très envie de venir, je ne peux pas.\"",
+        ],
+        examples: [
+          { es: "Même si j'aimerais bien venir, je ne peux pas ce soir.", en: "Much as I'd like to come, I can't tonight." },
+          { es: "Même si je voudrais rester, je dois rentrer.", en: "Much as I'd like to stay, I have to go home." },
+          { es: "Bien que j'aie très envie de sortir, je reste travailler.", en: "Although I really want to go out, I'm staying in to work." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "In a formal letter, which version is best?", options: ["Bien que j'aie très envie de vous aider, je ne le peux pas.", "Même si j'aimerais vous aider, je ne peux pas.", "Bien que j'aimerais vous aider, je ne peux pas.", "Même si j'aie envie de vous aider, je ne peux pas."], correctIndex: 0, explanation: "Formal writing prefers \"bien que\" + subjunctive \"j'aie\". \"Même si j'aimerais\" is tolerated only in speech, \"bien que\" never takes the conditional, and \"même si\" never takes the subjunctive." },
         ],
       },
     ],
@@ -175,27 +244,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "Past subjunctive \"ait été\" for a completed event (the present \"soit\" is also accepted in a past narrative).",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: [
-          "Même si elle part demain, on la reverra cet été.",
-          "Même s'elle part demain, on la reverra cet été.",
-          "Même si elle parte demain, on la reverra cet été.",
-          "Même si elle partira demain, on la reverra cet été.",
-        ],
-        correctIndex: 0,
-        explanation: "No elision before \"elle\", indicative present after \"même si\", even for a future event.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French, using the short form without a verb.",
-        source: "Although tired, the runners kept going.",
-        answer: "Bien que fatigués, les coureurs ont continué.",
-        altAnswers: ["Quoique fatigués, les coureurs ont continué.", "Bien que fatigués, les coureurs ont poursuivi.", "Bien que fatigués, les coureurs ont tenu bon."],
-        explanation: "Same subject + être dropped: \"bien que fatigués\", agreeing with \"les coureurs\".",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -211,15 +259,7 @@ export const FR_C1_U02: Lesson[] = [
         translation: "Although they're neighbours, they never speak to each other.",
         explanation: "\"Bien que\" + subjunctive \"soient\".",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Even if we leave now, we'll miss the beginning.",
-        answer: "Même si on part maintenant, on va rater le début.",
-        altAnswers: ["Même si on part maintenant, on ratera le début.", "Même si nous partons maintenant, nous raterons le début.", "Même si nous partons maintenant, nous allons rater le début.", "Même si on part maintenant, on va manquer le début.", "Même si nous partons maintenant, nous manquerons le début."],
-        explanation: "\"Même si\" + present, future in the main clause.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Even if we take a taxi, we'll miss the beginning.", answer: "Même si on prend un taxi, on va rater le début.", altAnswers: ["Même si on prend un taxi, on ratera le début.", "Même si nous prenons un taxi, nous raterons le début.", "Même si nous prenons un taxi, nous allons rater le début.", "Même si on prend un taxi, on va manquer le début.", "Même si nous prenons un taxi, nous manquerons le début."], explanation: "\"Même si\" + present, future in the main clause." },
       {
         type: "listen-choose",
         audio: "Bien qu'il ait beaucoup plu, la récolte est bonne.",
@@ -259,29 +299,27 @@ export const FR_C1_U02: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Quel que soit: whatever + noun",
+        heading: "Quel que soit + noun, with agreement",
         body: [
           "When 'whatever' or 'whichever' is followed by a noun, French uses \"quel que soit\" + the noun: \"Quel que soit le prix, je l'achète\" (whatever the price). \"Quel\" is an adjective here and agrees with the noun that follows the verb: \"quelle que soit la météo\", \"quels que soient les risques\", \"quelles que soient vos raisons\". And \"être\" agrees in number: \"soit\" in the singular, \"soient\" in the plural.",
-          "The noun is the subject of \"être\", placed after it. So you're really saying 'whatever may be the price'. That's why \"quel\" agrees with it: \"quelle que soit l'heure\" (heure is feminine), \"quel que soit l'âge\" (âge is masculine). Gender traps abound: \"la météo\", \"la raison\", \"le moment\", \"la solution\", \"le problème\".",
-          "The misspelling \"*quelque soit\" (one word) is everywhere, even in professional writing, and it's always wrong before \"soit\". If \"être\" follows directly, write \"quel que\" in two words, with agreement.",
         ],
         examples: [
           { es: "Quel que soit le prix, je l'achète.", en: "Whatever the price, I'm buying it." },
           { es: "Quelle que soit la météo, on part samedi.", en: "Whatever the weather, we're leaving on Saturday." },
           { es: "Quels que soient les risques, il faut essayer.", en: "Whatever the risks, we have to try." },
           { es: "Quelles que soient vos raisons, ce comportement est inacceptable.", en: "Whatever your reasons, this behaviour is unacceptable." },
-          { es: "Le musée est gratuit pour tous, quel que soit l'âge.", en: "The museum is free for everyone, whatever their age." },
-          { es: "Quelle que soit l'heure, appelle-moi.", en: "Whatever the time, call me." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "Whatever the result, we'll celebrate.",
-            answer: "Quel que soit le résultat, on fera la fête.",
-            altAnswers: ["Quel que soit le résultat, nous ferons la fête.", "Quel que soit le résultat, on fêtera ça.", "Quel que soit le résultat, nous fêterons ça.", "Quel que soit le résultat, on va faire la fête."],
-            explanation: "\"Le résultat\" is masculine singular → \"quel que soit\".",
+            type: "matching",
+            instructions: "Match each beginning with the correct form.",
+            pairs: [
+              { left: "___ le danger", right: "Quel que soit" },
+              { left: "___ la distance", right: "Quelle que soit" },
+              { left: "___ les enjeux", right: "Quels que soient" },
+              { left: "___ les méthodes", right: "Quelles que soient" },
+            ],
+            explanation: "\"Quel\" agrees in gender and number with the noun after \"soit\"; \"être\" agrees in number.",
           },
           {
             type: "fill-blank",
@@ -294,18 +332,15 @@ export const FR_C1_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Pronouns and other verbs",
+        heading: "The noun is the subject; never quelque soit",
         body: [
-          "\"Quel que soit\" can also stand with a pronoun or with modal verbs: \"Quelle qu'elle soit, ta décision sera respectée\" (whatever it may be, your decision will be respected). Here the noun has been mentioned and \"elle\" refers back to it. \"Quel que puisse être le résultat\" (whatever the result may be) is a formal variant with \"pouvoir\".",
-          "In the past, modern French keeps the present subjunctive: \"Quelle que soit sa réponse, il partait.\" The imperfect subjunctive \"quelle que fût\" belongs to literature.",
-          "Don't confuse \"quel que soit\" (whatever + noun) with \"quoi qu'il en soit\" (anyway, in any case) from Unit 1, or with \"n'importe quel\" (any... at all): \"Prends n'importe quel livre\" (take any book) is not a concession.",
+          "The noun is the subject of \"être\", placed after it. So you're really saying 'whatever may be the price'. That's why \"quel\" agrees with it: \"quelle que soit l'heure\" (heure is feminine), \"quel que soit l'âge\" (âge is masculine). Gender traps abound: \"la météo\", \"la raison\", \"le moment\", \"la solution\", \"le problème\".",
+          "The misspelling \"*quelque soit\" (one word) is everywhere, even in professional writing, and it's always wrong before \"soit\". If \"être\" follows directly, write \"quel que\" in two words, with agreement.",
         ],
         examples: [
-          { es: "Quelle qu'elle soit, ta décision sera respectée.", en: "Whatever it may be, your decision will be respected." },
-          { es: "Quel que puisse être le résultat, nous l'accepterons.", en: "Whatever the result may be, we'll accept it." },
-          { es: "Quelle que soit sa réponse, il était décidé à partir.", en: "Whatever her answer, he was determined to leave." },
-          { es: "Quoi qu'il en soit, nous partirons demain.", en: "In any case, we'll leave tomorrow." },
-          { es: "Prends n'importe quel livre sur l'étagère.", en: "Take any book on the shelf." },
+          { es: "Le musée est gratuit pour tous, quel que soit l'âge.", en: "The museum is free for everyone, whatever their age." },
+          { es: "Quelle que soit l'heure, appelle-moi.", en: "Whatever the time, call me." },
+          { es: "Quel que soit le moment, je suis disponible.", en: "Whatever the time, I'm available." },
         ],
         checkpoint: [
           {
@@ -324,6 +359,44 @@ export const FR_C1_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
+            source: "Whatever the result, we'll celebrate.",
+            answer: "Quel que soit le résultat, on fera la fête.",
+            altAnswers: ["Quel que soit le résultat, nous ferons la fête.", "Quel que soit le résultat, on fêtera ça.", "Quel que soit le résultat, nous fêterons ça.", "Quel que soit le résultat, on va faire la fête."],
+            explanation: "\"Le résultat\" is masculine singular → \"quel que soit\".",
+          },
+        ],
+      },
+      {
+        heading: "With a pronoun, or with pouvoir",
+        body: [
+          "\"Quel que soit\" can also stand with a pronoun or with modal verbs: \"Quelle qu'elle soit, ta décision sera respectée\" (whatever it may be, your decision will be respected). Here the noun has been mentioned and \"elle\" refers back to it. \"Quel que puisse être le résultat\" (whatever the result may be) is a formal variant with \"pouvoir\".",
+        ],
+        examples: [
+          { es: "Quelle qu'elle soit, ta décision sera respectée.", en: "Whatever it may be, your decision will be respected." },
+          { es: "Quel que puisse être le résultat, nous l'accepterons.", en: "Whatever the result may be, we'll accept it." },
+          { es: "Quelles qu'elles soient, vos remarques seront lues.", en: "Whatever they may be, your comments will be read." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Your colleague mentions les propositions. Which completes: ___, elles seront étudiées.", options: ["Quelles qu'elles soient", "Quels qu'ils soient", "Quelle qu'elle soit", "Quelques qu'elles soient"], correctIndex: 0, explanation: "The pronoun \"elles\" refers back to \"les propositions\" (feminine plural), so \"quelles qu'elles soient\". The other forms have the wrong gender or number, and \"quelques\" in one word belongs to another pattern." },
+        ],
+      },
+      {
+        heading: "In the past, and look-alikes",
+        body: [
+          "In the past, modern French keeps the present subjunctive: \"Quelle que soit sa réponse, il partait.\" The imperfect subjunctive \"quelle que fût\" belongs to literature.",
+          "Don't confuse \"quel que soit\" (whatever + noun) with \"quoi qu'il en soit\" (anyway, in any case) from Unit 1, or with \"n'importe quel\" (any... at all): \"Prends n'importe quel livre\" (take any book) is not a concession.",
+        ],
+        examples: [
+          { es: "Quelle que soit sa réponse, il était décidé à partir.", en: "Whatever her answer, he was determined to leave." },
+          { es: "Quoi qu'il en soit, nous partirons demain.", en: "In any case, we'll leave tomorrow." },
+          { es: "Prends n'importe quel livre sur l'étagère.", en: "Take any book on the shelf." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which sentence means 'whatever + noun'?", options: ["Quelle que soit ta décision, je t'aiderai.", "Prends n'importe quelle décision.", "Quoi qu'il en soit, je t'aiderai.", "Quelle décision as-tu prise ?"], correctIndex: 0, explanation: "\"Quelle que soit ta décision\" = whatever your decision. \"N'importe quelle\" means any at all, \"quoi qu'il en soit\" means anyway, and the last is a plain question." },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
             source: "Whatever your choice, I'll support you. (to a friend)",
             answer: "Quel que soit ton choix, je te soutiendrai.",
             altAnswers: ["Quel que soit ton choix, je serai là pour toi."],
@@ -332,18 +405,29 @@ export const FR_C1_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Quelque... que: however much, however + adjective",
+        heading: "Quelque + noun + que agrees",
         body: [
           "\"Quelque\" in one word appears in two literary concessive patterns. First, \"quelque\" + noun + \"que\" + subjunctive = whatever (quantity of) + noun: \"Quelques efforts que tu fasses, tu n'y arriveras pas seul\" (whatever efforts you make). Here \"quelque\" is an adjective and agrees with the noun: \"quelques efforts\", \"quelque courage qu'il ait\".",
+        ],
+        examples: [
+          { es: "Quelques efforts que tu fasses, tu n'y arriveras pas seul.", en: "Whatever efforts you make, you won't manage it alone." },
+          { es: "Quelques conseils qu'on lui donne, il n'en fait qu'à sa tête.", en: "Whatever advice he's given, he does exactly as he pleases." },
+          { es: "Quelque argent qu'il gagne, il le dépense.", en: "However much money he earns, he spends it." },
+        ],
+        checkpoint: [
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "[Whatever mistakes] you make, keep going. (to a friend)", sentence: "___ que tu fasses, continue.", answer: "Quelques erreurs", explanation: "\"Quelque\" + noun + \"que\" + subjunctive: here \"quelque\" is an adjective and agrees with the plural noun, so \"quelques erreurs\"." },
+        ],
+      },
+      {
+        heading: "Quelque + adjective stays invariable",
+        body: [
           "Second, \"quelque\" + adjective + \"que\" + subjunctive = however + adjective: \"Quelque riches qu'ils soient, ils ne peuvent pas tout acheter\" (however rich they are). In this pattern \"quelque\" is an adverb and is invariable: no s, even with a plural adjective. It is very formal; Part 3 will show the more common \"si riches qu'ils soient\".",
           "So: \"quel que\" (two words) + être + noun; \"quelque\" (one word) + noun or adjective + que. Spotting which pattern you're in is the key to the spelling.",
         ],
         examples: [
-          { es: "Quelques efforts que tu fasses, tu n'y arriveras pas seul.", en: "Whatever efforts you make, you won't manage it alone." },
           { es: "Quelque courage qu'il ait, il ne pourra pas affronter ça seul.", en: "However brave he may be, he won't be able to face that alone." },
           { es: "Quelque riches qu'ils soient, ils ne peuvent pas tout acheter.", en: "However rich they are, they can't buy everything." },
           { es: "Quelque habile qu'elle soit, elle a fait une erreur.", en: "However skilful she is, she made a mistake." },
-          { es: "Quelques conseils qu'on lui donne, il n'en fait qu'à sa tête.", en: "Whatever advice he's given, he does exactly as he pleases." },
         ],
         checkpoint: [
           {
@@ -359,12 +443,13 @@ export const FR_C1_U02: Lesson[] = [
             explanation: "Before an adjective, \"quelque\" is an adverb (however) and stays invariable.",
           },
           {
-            type: "listen-choose",
-            audio: "Quels que soient les obstacles, nous continuerons.",
-            question: "What does it mean?",
-            options: ["Whatever the obstacles, we'll carry on.", "Whatever obstacles there were, we carried on.", "If there are obstacles, we'll stop.", "Some obstacles will make us carry on."],
-            correctIndex: 0,
-            explanation: "\"Quels que soient\" + plural noun = whatever the...",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into formal French with quelque.",
+            source: "However talented they are, they need to work.",
+            answer: "Quelque talentueux qu'ils soient, ils doivent travailler.",
+            altAnswers: ["Quelque doués qu'ils soient, ils doivent travailler.", "Si talentueux qu'ils soient, ils doivent travailler.", "Si doués qu'ils soient, ils doivent travailler.", "Quelque talentueuses qu'elles soient, elles doivent travailler."],
+            explanation: "\"Quelque\" + adjective is invariable (however); the subjunctive follows. \"Si... que\" (Part 3) is the more common alternative.",
           },
         ],
       },
@@ -425,15 +510,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "\"Les conséquences\": feminine plural → \"quelles que soient\".",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into formal French with quelque.",
-        source: "However talented they are, they need to work.",
-        answer: "Quelque talentueux qu'ils soient, ils doivent travailler.",
-        altAnswers: ["Quelque doués qu'ils soient, ils doivent travailler.", "Si talentueux qu'ils soient, ils doivent travailler.", "Si doués qu'ils soient, ils doivent travailler.", "Quelque talentueuses qu'elles soient, elles doivent travailler."],
-        explanation: "\"Quelque\" + adjective is invariable (however); the subjunctive follows. \"Si... que\" (Part 3) is the more common alternative.",
-      },
-      {
         type: "word-order",
         prompt: "Put the words in order to say: Whatever efforts we make, nothing changes.",
         words: ["Quelques efforts", "que nous", "fassions,", "rien ne", "change."],
@@ -450,17 +526,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "\"La saison\" → \"quelle que soit\".",
       },
       {
-        type: "matching",
-        instructions: "Match each beginning with the correct form.",
-        pairs: [
-          { left: "___ le danger", right: "Quel que soit" },
-          { left: "___ la distance", right: "Quelle que soit" },
-          { left: "___ les enjeux", right: "Quels que soient" },
-          { left: "___ les méthodes", right: "Quelles que soient" },
-        ],
-        explanation: "\"Quel\" agrees in gender and number with the noun after \"soit\"; \"être\" agrees in number.",
-      },
-      {
         type: "dictation",
         audio: "Quelles que soient vos questions, nous y répondrons.",
         explanation: "\"Quelles que soient\": feminine plural, in three words.",
@@ -472,6 +537,16 @@ export const FR_C1_U02: Lesson[] = [
         tip: "\"Quel que\" sounds like \"quelque\": the difference is only on paper.",
         explanation: "\"Le prix\" is masculine → \"quel que soit\".",
       },
+      {
+        type: "listen-choose",
+        audio: "Quels que soient les obstacles, nous continuerons.",
+        question: "What does it mean?",
+        options: ["Whatever the obstacles, we'll carry on.", "Whatever obstacles there were, we carried on.", "If there are obstacles, we'll stop.", "Some obstacles will make us carry on."],
+        correctIndex: 0,
+        explanation: "\"Quels que soient\" + plural noun = whatever the...",
+      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Quelque soit la raison, il aurait dû prévenir.", answer: "Quelle que soit la raison, il aurait dû prévenir.", explanation: "Before \"soit\", write \"quel que\" in two words, agreeing with the noun: \"la raison\" is feminine singular, so \"quelle que soit\"." },
+      { type: "translate", direction: "en-es", prompt: "Change the noun to les décisions.", source: "Quelle que soit la décision, je la respecterai.", answer: "Quelles que soient les décisions, je les respecterai.", explanation: "\"Quel\" agrees with the noun after the verb (feminine plural: \"quelles\"), \"être\" goes into the plural \"soient\", and the pronoun becomes \"les\"." },
     ],
   },
   {
@@ -483,18 +558,14 @@ export const FR_C1_U02: Lesson[] = [
     duration: "16 min",
     sections: [
       {
-        heading: "Quoique vs quoi que",
+        heading: "Quoique or quoi que",
         body: [
           "\"Quoique\" (one word) = although, synonym of \"bien que\": \"Quoiqu'il soit tard, je t'appelle.\" \"Quoi que\" (two words) = whatever, object of the next verb: \"Quoi que tu fasses, je t'aiderai.\" Both take the subjunctive and both are pronounced the same.",
-          "The substitution test: replace with \"bien que\". If the sentence still works, write \"quoique\". If not, try 'whatever thing': \"quelle que soit la chose que\". If that works, write \"quoi que\". Another clue: after \"quoi que\" the verb lacks an object (\"quoi que tu fasses\": faire what? the 'whatever' is the object). After \"quoique\" the clause is complete.",
-          "Bonus: \"quoique\" can also connect two adjectives or phrases without a verb: \"une maison agréable, quoique petite\" (a pleasant house, though small).",
         ],
         examples: [
           { es: "Quoiqu'il soit tard, je t'appelle.", en: "Although it's late, I'm calling you." },
           { es: "Quoi que tu fasses, je t'aiderai.", en: "Whatever you do, I'll help you." },
-          { es: "C'est une maison agréable, quoique petite.", en: "It's a pleasant house, though small." },
           { es: "Quoi qu'il dise, ne le crois pas.", en: "Whatever he says, don't believe him." },
-          { es: "Quoiqu'il dise souvent la vérité, on se méfie de lui.", en: "Although he often tells the truth, people are wary of him." },
         ],
         checkpoint: [
           {
@@ -505,6 +576,21 @@ export const FR_C1_U02: Lesson[] = [
             answer: "Quoi que",
             explanation: "Whatever = \"quoi que\" (two words); \"décider\" lacks an object.",
           },
+        ],
+      },
+      {
+        heading: "The bien que test",
+        body: [
+          "The substitution test: replace with \"bien que\". If the sentence still works, write \"quoique\". If not, try 'whatever thing': \"quelle que soit la chose que\". If that works, write \"quoi que\". Another clue: after \"quoi que\" the verb lacks an object (\"quoi que tu fasses\": faire what? the 'whatever' is the object). After \"quoique\" the clause is complete.",
+          "Bonus: \"quoique\" can also connect two adjectives or phrases without a verb: \"une maison agréable, quoique petite\" (a pleasant house, though small).",
+        ],
+        examples: [
+          { es: "Quoiqu'il dise souvent la vérité, on se méfie de lui.", en: "Although he often tells the truth, people are wary of him." },
+          { es: "C'est une maison agréable, quoique petite.", en: "It's a pleasant house, though small." },
+          { es: "Quoi qu'on lui reproche, il sourit.", en: "Whatever he's blamed for, he smiles." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Apply the bien que test: which gap needs quoique in one word?", options: ["___ il fasse beau, je reste à l'intérieur.", "___ tu manges, mange lentement.", "___ vous pensiez, il a raison.", "___ on lui offre, il refuse."], correctIndex: 0, explanation: "\"Il fasse beau\" is a complete clause and \"bien qu'il fasse beau\" works, so \"quoique\" (although). In the others the verb lacks its object (manger what? penser what? offrir what?), so the gap is \"quoi que\" (whatever)." },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -517,18 +603,14 @@ export const FR_C1_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Quel que vs quelque",
+        heading: "Quel que: always before être",
         body: [
           "\"Quel que\" (two words) is always followed by \"être\" (or \"pouvoir être\", \"devoir être\") and a noun or pronoun subject: \"Quelle que soit ta décision\". \"Quel\" agrees with that subject.",
-          "\"Quelque\" (one word) has three uses. Before a noun + que: whatever + noun, agreeing (\"quelques efforts que tu fasses\"). Before an adjective + que: however, invariable (\"quelque riches qu'ils soient\"). And ordinary \"quelque(s)\" meaning some, a few, with no concessive meaning (\"quelques amis\", \"quelque temps\"). Before a number, \"quelque\" means about and is invariable: \"quelque deux cents personnes\".",
-          "Summary for writing: if \"soit / soient\" comes immediately next, you need \"quel que\". If a noun or adjective comes next, you need \"quelque\".",
         ],
         examples: [
           { es: "Quelle que soit ta décision, je la respecterai.", en: "Whatever your decision, I'll respect it." },
-          { es: "Quelques erreurs qu'il ait commises, il reste le meilleur.", en: "Whatever mistakes he's made, he's still the best." },
-          { es: "Quelque fatiguées qu'elles soient, elles finiront la course.", en: "However tired they are, they'll finish the race." },
-          { es: "J'ai invité quelques amis samedi.", en: "I've invited a few friends on Saturday." },
-          { es: "Quelque deux cents personnes ont assisté à la réunion.", en: "Some two hundred people attended the meeting." },
+          { es: "Quels que soient tes projets, préviens-moi.", en: "Whatever your plans, let me know." },
+          { es: "Quelle que puisse être la réponse, je l'accepterai.", en: "Whatever the answer may be, I'll accept it." },
         ],
         checkpoint: [
           {
@@ -544,6 +626,37 @@ export const FR_C1_U02: Lesson[] = [
             explanation: "\"Soient\" follows directly → \"quel que\" in two words, agreeing with \"les critiques\" (feminine plural).",
           },
           {
+            type: "multiple-choice",
+            question: "Fill the gap: \"___ soient leurs arguments, je ne céderai pas.\"",
+            options: ["Quels que", "Quelque", "Quoique", "Quoi que"],
+            correctIndex: 0,
+            explanation: "\"Soient\" + masculine plural noun \"arguments\" → \"quels que\".",
+          },
+        ],
+      },
+      {
+        heading: "Quelque: three uses",
+        body: [
+          "\"Quelque\" (one word) has three uses. Before a noun + que: whatever + noun, agreeing (\"quelques efforts que tu fasses\"). Before an adjective + que: however, invariable (\"quelque riches qu'ils soient\"). And ordinary \"quelque(s)\" meaning some, a few, with no concessive meaning (\"quelques amis\", \"quelque temps\"). Before a number, \"quelque\" means about and is invariable: \"quelque deux cents personnes\".",
+          "Summary for writing: if \"soit / soient\" comes immediately next, you need \"quel que\". If a noun or adjective comes next, you need \"quelque\".",
+        ],
+        examples: [
+          { es: "Quelques erreurs qu'il ait commises, il reste le meilleur.", en: "Whatever mistakes he's made, he's still the best." },
+          { es: "Quelque fatiguées qu'elles soient, elles finiront la course.", en: "However tired they are, they'll finish the race." },
+          { es: "J'ai invité quelques amis samedi.", en: "I've invited a few friends on Saturday." },
+          { es: "Quelque deux cents personnes ont assisté à la réunion.", en: "Some two hundred people attended the meeting." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[However] tired they are, they'll come.",
+            sentence: "___ fatigués qu'ils soient, ils viendront.",
+            answer: "Quelque",
+            altAnswers: ["Si", "Aussi"],
+            explanation: "Before an adjective, \"quelque\" = however, invariable.",
+          },
+          {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
@@ -555,34 +668,33 @@ export const FR_C1_U02: Lesson[] = [
         ],
       },
       {
-        heading: "All four in one paragraph",
+        heading: "All four in one note",
         body: [
           "Read this note from a sports coach to her team: \"Quoique la saison ait été difficile, je suis fière de vous. Quoi qu'en disent les journalistes, vous avez progressé. Quelles que soient nos chances au prochain tournoi, nous jouerons pour gagner. Et quelque fatigués que vous soyez, je compte sur vous lundi à 18 h, avec quelques bonnes résolutions !\"",
-          "1) \"Quoique\" = although (the season was difficult). 2) \"Quoi qu'en disent\" = whatever they say about it. 3) \"Quelles que soient nos chances\" = whatever our chances (feminine plural). 4) \"Quelque fatigués que vous soyez\" = however tired you are (invariable adverb, while \"fatigués\" agrees). 5) \"Quelques bonnes résolutions\" = a few good resolutions, no concession at all.",
-          "Read aloud, all four sound roughly alike: [kwak], [kɛlkə]. That's precisely why they are a favourite of dictations and DALF proofreading tasks.",
         ],
         examples: [
           { es: "Quoique la saison ait été difficile, je suis fière de vous.", en: "Although the season has been hard, I'm proud of you." },
           { es: "Quoi qu'en disent les journalistes, vous avez progressé.", en: "Whatever the journalists say, you've made progress." },
-          { es: "Quelles que soient nos chances, nous jouerons pour gagner.", en: "Whatever our chances, we'll play to win." },
-          { es: "Quelque fatigués que vous soyez, je compte sur vous lundi.", en: "However tired you are, I'm counting on you on Monday." },
           { es: "Venez avec quelques bonnes résolutions !", en: "Come with a few good resolutions!" },
         ],
         checkpoint: [
-          {
-            type: "dictation",
-            audio: "Quoi qu'en disent les journalistes, vous avez progressé.",
-            explanation: "\"Quoi qu'en\" in two words: whatever (they say about it).",
-          },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "Whatever our chances, we'll play to win.",
-            answer: "Quelles que soient nos chances, nous jouerons pour gagner.",
-            altAnswers: ["Quelles que soient nos chances, on jouera pour gagner.", "Quelles que soient nos chances, nous allons jouer pour gagner.", "Quelles que soient nos chances, on va jouer pour gagner."],
-            explanation: "\"Les chances\" (feminine plural) → \"quelles que soient\".",
-          },
+          { type: "multiple-choice", question: "In the coach's note, why is it Quelles que soient nos chances?", options: ["\"Soient\" follows, and \"chances\" is feminine plural.", "\"Quelles\" is invariable before a verb.", "\"Chances\" is masculine plural.", "It means although, so it agrees."], correctIndex: 0, explanation: "Before \"être\", write \"quel que\" in two words, agreeing with the noun subject after the verb: \"les chances\" is feminine plural. It is not invariable (that's \"quelque\" + adjective), and it means whatever, not although." },
+          { type: "dictation", audio: "Quoi qu'en dise la presse, le film a du succès.", explanation: "\"Quoi qu'en\" in two words: whatever (the press says about it). The verb \"dire\" lacks its object, so it can't be \"quoique\"." },
+        ],
+      },
+      {
+        heading: "Decoding the note",
+        body: [
+          "1) \"Quoique\" = although (the season was difficult). 2) \"Quoi qu'en disent\" = whatever they say about it. 3) \"Quelles que soient nos chances\" = whatever our chances (feminine plural). 4) \"Quelque fatigués que vous soyez\" = however tired you are (invariable adverb, while \"fatigués\" agrees). 5) \"Quelques bonnes résolutions\" = a few good resolutions, no concession at all.",
+          "Read aloud, all four sound roughly alike: [kwak], [kɛlkə]. That's precisely why they are a favourite of dictations and DALF proofreading tasks.",
+        ],
+        examples: [
+          { es: "Quelles que soient nos chances, nous jouerons pour gagner.", en: "Whatever our chances, we'll play to win." },
+          { es: "Quelque fatigués que vous soyez, je compte sur vous lundi.", en: "However tired you are, I'm counting on you on Monday." },
+          { es: "Quoi qu'en pense ton frère, tu as bien fait.", en: "Whatever your brother thinks of it, you did the right thing." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Whatever our results, we'll keep training.", answer: "Quels que soient nos résultats, nous continuerons à nous entraîner.", altAnswers: ["Quels que soient nos résultats, on continuera à s'entraîner.", "Quels que soient nos résultats, nous continuerons de nous entraîner.", "Quels que soient nos résultats, on continuera de s'entraîner."], explanation: "\"Les résultats\" is masculine plural → \"quels que soient\", in two words before the verb." },
         ],
       },
     ],
@@ -611,22 +723,6 @@ export const FR_C1_U02: Lesson[] = [
         source: "Whatever her age, she's very shy.",
         answer: "Quel que soit son âge, elle est très timide.",
         explanation: "\"L'âge\" is masculine → \"quel que soit\" (even though it's her age: \"son âge\").",
-      },
-      {
-        type: "multiple-choice",
-        question: "Fill the gap: \"___ soient leurs arguments, je ne céderai pas.\"",
-        options: ["Quels que", "Quelque", "Quoique", "Quoi que"],
-        correctIndex: 0,
-        explanation: "\"Soient\" + masculine plural noun \"arguments\" → \"quels que\".",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "[However] tired they are, they'll come.",
-        sentence: "___ fatigués qu'ils soient, ils viendront.",
-        answer: "Quelque",
-        altAnswers: ["Si", "Aussi"],
-        explanation: "Before an adjective, \"quelque\" = however, invariable.",
       },
       {
         type: "translate",
@@ -693,6 +789,8 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Say it in French (as a man, to a friend): Whatever you choose, I'll be happy.",
         explanation: "\"Quoi que\" + subjunctive \"choisisses\".",
       },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Quelque soient tes raisons, je refuse.", answer: "Quelles que soient tes raisons, je refuse.", explanation: "\"Soient\" follows directly, so \"quel que\" in two words, agreeing with \"les raisons\" (feminine plural): \"quelles que\"." },
+      { type: "translate", direction: "en-es", prompt: "Turn it into a quoique sentence.", source: "Le film est long, mais il est passionnant.", answer: "Quoique le film soit long, il est passionnant.", altAnswers: ["Bien que le film soit long, il est passionnant.", "Quoique long, le film est passionnant."], explanation: "\"Quoique\" (although) concedes the fact and takes the subjunctive: \"est\" becomes \"soit\", and \"mais\" disappears." },
     ],
   },
   {
@@ -704,52 +802,68 @@ export const FR_C1_U02: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "A restaurant review with mood errors",
+        heading: "A restaurant review",
         body: [
           "A diner posted this review of a bistro in Nantes: \"Bien que le service est un peu lent, la cuisine est excellente. Même si le dessert soit un peu sucré, je le recommande. Quoique on a attendu vingt minutes, le serveur s'est excusé.\"",
+        ],
+        examples: [
+          { es: "Bien que la salle soit bruyante, l'ambiance est agréable.", en: "Although the dining room is noisy, the atmosphere is pleasant." },
+          { es: "Même si les prix ont augmenté, le rapport qualité-prix reste bon.", en: "Even though prices have gone up, it's still good value for money." },
+          { es: "Bien que la carte soit courte, tout est fait maison.", en: "Although the menu is short, everything is homemade." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which sentence has no mood error?", options: ["Bien que le parking soit payant, on revient souvent.", "Bien que le parking est payant, on revient souvent.", "Même si le parking soit payant, on revient souvent.", "Quoique le parking est payant, on revient souvent."], correctIndex: 0, explanation: "\"Bien que\" and \"quoique\" need the subjunctive \"soit\"; \"même si\" needs the indicative \"est\". The other three cross the wires." },
+        ],
+      },
+      {
+        heading: "The three fixes",
+        body: [
           "Error 1: \"bien que\" + indicative → \"bien que le service soit un peu lent\". Error 2: \"même si\" + subjunctive → \"même si le dessert est un peu sucré\". Error 3: two problems in \"quoique on a attendu\": \"quoique\" elides before a vowel (\"quoiqu'on\"), and it needs the subjunctive, past here since the wait is over: \"quoiqu'on ait attendu vingt minutes\".",
-          "These are the two most common concession errors at advanced level, and they're mirror images: learners mix up which conjunction takes which mood. Remember the pair: \"si\" family → indicative; \"bien que / quoique\" → subjunctive.",
         ],
         examples: [
           { es: "Bien que le service soit un peu lent, la cuisine est excellente.", en: "Although the service is a bit slow, the food is excellent." },
           { es: "Même si le dessert est un peu sucré, je le recommande.", en: "Even if the dessert is a bit sweet, I recommend it." },
           { es: "Quoiqu'on ait attendu vingt minutes, le serveur s'est excusé.", en: "Although we waited twenty minutes, the waiter apologised." },
-          { es: "Bien que la salle soit bruyante, l'ambiance est agréable.", en: "Although the dining room is noisy, the atmosphere is pleasant." },
-          { es: "Même si les prix ont augmenté, le rapport qualité-prix reste bon.", en: "Even though prices have gone up, it's still good value for money." },
+        ],
+        checkpoint: [
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "Even if the menu [is] short, there's something for everyone.", sentence: "Même si la carte ___ courte, il y en a pour tous les goûts.", answer: "est", explanation: "\"Même si\" belongs to the si family and always takes the indicative: \"est\", never \"soit\"." },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Bien que la terrasse est petite, on y mange bien.", answer: "Bien que la terrasse soit petite, on y mange bien.", altAnswers: ["Quoique la terrasse soit petite, on y mange bien.", "Même si la terrasse est petite, on y mange bien."], explanation: "\"Bien que\" always takes the subjunctive: \"est\" becomes \"soit\"." },
+        ],
+      },
+      {
+        heading: "Mirror-image errors",
+        body: [
+          "These are the two most common concession errors at advanced level, and they're mirror images: learners mix up which conjunction takes which mood. Remember the pair: \"si\" family → indicative; \"bien que / quoique\" → subjunctive.",
+        ],
+        examples: [
+          { es: "Même si le film est long, on ne s'ennuie pas.", en: "Even though the film is long, you don't get bored." },
+          { es: "Bien que le film soit long, on ne s'ennuie pas.", en: "Although the film is long, you don't get bored." },
+          { es: "Quoiqu'il fasse froid, la terrasse est pleine.", en: "Although it's cold, the terrace is full." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "A reviewer wrote: \"Bien que le service est lent...\" Translate correctly: Although the service is slow, the food is excellent.",
-            source: "Although the service is slow, the food is excellent.",
-            answer: "Bien que le service soit lent, la cuisine est excellente.",
-            altAnswers: ["Quoique le service soit lent, la cuisine est excellente.", "Bien que le service soit lent, la nourriture est excellente.", "Bien que le service soit lent, les plats sont excellents."],
-            explanation: "\"Bien que\" always takes the subjunctive: \"soit\".",
-          },
-          {
-            type: "fill-blank",
-            prompt: "A reviewer wrote: \"Même si le dessert soit sucré...\" Write the French for the bold words.",
-            en: "Even if the dessert [is] sweet, I recommend it.",
-            sentence: "Même si le dessert ___ sucré, je le recommande.",
-            answer: "est",
-            explanation: "\"Même si\" always takes the indicative.",
+            type: "multiple-choice",
+            question: "Which sentence has no error?",
+            options: [
+              "Quoiqu'elle ait refusé, il insiste.",
+              "Quoique elle ait refusé, il insiste.",
+              "Quoiqu'elle a refusé, il insiste.",
+              "Quoi qu'elle a refusé, il insiste.",
+            ],
+            correctIndex: 0,
+            explanation: "\"Quoique\" elides before \"elle\" and takes the subjunctive.",
           },
         ],
       },
       {
-        heading: "A forum post with agreement errors",
+        heading: "A forum post",
         body: [
           "On a parents' forum: \"Quelque soit l'école que vous choisissez, l'important c'est le dialogue. Quel que soient les notes, encouragez vos enfants. Quelques difficiles que soient les devoirs, ne les faites pas à leur place !\"",
-          "Error 1: \"*quelque soit\" → \"quelle que soit l'école\" (two words, feminine). And the relative after it describes any school at all, so the subjunctive is better: \"l'école que vous choisissiez\". Error 2: \"*quel que soient les notes\" → \"quelles que soient les notes\" (feminine plural). Error 3: before an adjective, \"quelque\" is invariable: \"quelque difficiles que soient les devoirs\" (or simply \"si difficiles que soient les devoirs\").",
-          "Note the inversion in \"quelque difficiles que soient les devoirs\": when the subject is a noun, French often puts it after the verb in these structures, which is elegant and avoids a long gap.",
         ],
         examples: [
-          { es: "Quelle que soit l'école que vous choisissiez, l'important, c'est le dialogue.", en: "Whatever school you choose, what matters is dialogue." },
-          { es: "Quelles que soient les notes, encouragez vos enfants.", en: "Whatever the marks, encourage your children." },
-          { es: "Quelque difficiles que soient les devoirs, ne les faites pas à leur place.", en: "However hard the homework is, don't do it for them." },
-          { es: "Si difficiles que soient les devoirs, ne les faites pas à leur place.", en: "However hard the homework is, don't do it for them." },
           { es: "Quel que soit le collège, les premières semaines sont difficiles.", en: "Whatever the secondary school, the first weeks are tough." },
+          { es: "Quelle que soit la matière, demandez de l'aide.", en: "Whatever the subject, ask for help." },
+          { es: "Quels que soient leurs résultats, restez patients.", en: "Whatever their results, stay patient." },
         ],
         checkpoint: [
           {
@@ -758,6 +872,27 @@ export const FR_C1_U02: Lesson[] = [
             options: ["Quelle que soit l'école", "Quel que soit l'école", "Quelque soit l'école", "Quelle que soient l'école"],
             correctIndex: 0,
             explanation: "\"L'école\" is feminine singular → \"quelle que soit\", in three words.",
+          },
+        ],
+      },
+      {
+        heading: "The three agreement fixes",
+        body: [
+          "Error 1: \"*quelque soit\" → \"quelle que soit l'école\" (two words, feminine). And the relative after it describes any school at all, so the subjunctive is better: \"l'école que vous choisissiez\". Error 2: \"*quel que soient les notes\" → \"quelles que soient les notes\" (feminine plural). Error 3: before an adjective, \"quelque\" is invariable: \"quelque difficiles que soient les devoirs\" (or simply \"si difficiles que soient les devoirs\").",
+        ],
+        examples: [
+          { es: "Quelle que soit l'école que vous choisissiez, l'important, c'est le dialogue.", en: "Whatever school you choose, what matters is dialogue." },
+          { es: "Quelles que soient les notes, encouragez vos enfants.", en: "Whatever the marks, encourage your children." },
+          { es: "Quelque difficiles que soient les devoirs, ne les faites pas à leur place.", en: "However hard the homework is, don't do it for them." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "A learner wrote: \"Quelque soit ton avis...\" Write the French for the bold words.",
+            en: "[Whatever] your opinion, I'm going.",
+            sentence: "___ ton avis, j'y vais.",
+            answer: "Quel que soit",
+            explanation: "\"L'avis\" is masculine → \"quel que soit\", three words.",
           },
           {
             type: "translate",
@@ -771,20 +906,38 @@ export const FR_C1_U02: Lesson[] = [
         ],
       },
       {
-        heading: "English calques of although and despite",
+        heading: "Inversion after quelque... que",
+        body: [
+          "Note the inversion in \"quelque difficiles que soient les devoirs\": when the subject is a noun, French often puts it after the verb in these structures, which is elegant and avoids a long gap.",
+        ],
+        examples: [
+          { es: "Si difficiles que soient les devoirs, ne les faites pas à leur place.", en: "However hard the homework is, don't do it for them." },
+          { es: "Si longues que soient les vacances, elles passent vite.", en: "However long the holidays are, they go by fast." },
+          { es: "Quelque lourdes que soient les valises, je les porterai.", en: "However heavy the suitcases are, I'll carry them." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Turn it into si + adjective + que, with the noun after the verb.", source: "Les journées sont courtes, mais on travaille beaucoup.", answer: "Si courtes que soient les journées, on travaille beaucoup.", altAnswers: ["Quelque courtes que soient les journées, on travaille beaucoup.", "Aussi courtes que soient les journées, on travaille beaucoup.", "Si courtes que soient les journées, nous travaillons beaucoup."], explanation: "\"Si\" + adjective + \"que\" + subjunctive = however; with a noun subject, French inverts it after the verb: \"que soient les journées\". The adjective agrees with \"journées\"." },
+        ],
+      },
+      {
+        heading: "Malgré takes a noun, not a clause",
         body: [
           "A third set of errors comes straight from English. 'Despite he was tired' gives \"*malgré il était fatigué\": \"malgré\" is a preposition, followed by a noun, never a clause. Fix: \"malgré sa fatigue\" or \"bien qu'il soit fatigué\". The spoken form \"malgré que\" + subjunctive exists but is criticised in writing; avoid it in an exam.",
-          "'Although, I disagree' at the start of a sentence as a sort of 'however' gives \"*Quoique, je ne suis pas d'accord.\" In French, \"quoique\" alone as an afterthought is a colloquial spoken tic (\"C'est cher... quoique...\" 'although... come to think of it'), but in writing you need \"cependant\", \"toutefois\" or \"pourtant\".",
-          "Finally, 'even though' is not \"*même bien que\" and 'although' is not \"*bien que\" + a comma + a clause. Choose \"même si\" + indicative or \"bien que\" + subjunctive, directly followed by the clause.",
         ],
         examples: [
           { es: "Malgré sa fatigue, il a fini le marathon.", en: "Despite his tiredness, he finished the marathon." },
           { es: "Bien qu'il soit fatigué, il a fini le marathon.", en: "Although he's tired, he finished the marathon." },
-          { es: "Je comprends ton point de vue. Toutefois, je ne suis pas d'accord.", en: "I understand your point of view. However, I disagree." },
-          { es: "C'est un peu cher... quoique, pour la qualité, ça se défend.", en: "It's a bit pricey... although, for the quality, it's fair enough." },
-          { es: "Même si je t'aime bien, je ne te prêterai pas ma voiture.", en: "Even though I like you, I won't lend you my car." },
+          { es: "Malgré le bruit, le bébé dort.", en: "Despite the noise, the baby is sleeping." },
         ],
         checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Malgré sa fatigue, elle a continué.",
+            question: "What does it mean?",
+            options: ["Despite her tiredness, she carried on.", "Because of her tiredness, she stopped.", "Although she continued, she was tired.", "Thanks to her tiredness, she carried on."],
+            correctIndex: 0,
+            explanation: "\"Malgré\" + noun = despite.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -794,14 +947,34 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Malgré la pluie, nous sommes sortis.", "En dépit de la pluie, nous sommes sortis.", "En dépit de la pluie, on est sortis.", "Malgré la pluie, on est sorties.", "Malgré la pluie, nous sommes sorties."],
             explanation: "\"Malgré\" + noun, never + clause.",
           },
-          {
-            type: "listen-choose",
-            audio: "Malgré sa fatigue, elle a continué.",
-            question: "What does it mean?",
-            options: ["Despite her tiredness, she carried on.", "Because of her tiredness, she stopped.", "Although she continued, she was tired.", "Thanks to her tiredness, she carried on."],
-            correctIndex: 0,
-            explanation: "\"Malgré\" + noun = despite.",
-          },
+        ],
+      },
+      {
+        heading: "Quoique is not however",
+        body: [
+          "'Although, I disagree' at the start of a sentence as a sort of 'however' gives \"*Quoique, je ne suis pas d'accord.\" In French, \"quoique\" alone as an afterthought is a colloquial spoken tic (\"C'est cher... quoique...\" 'although... come to think of it'), but in writing you need \"cependant\", \"toutefois\" or \"pourtant\".",
+        ],
+        examples: [
+          { es: "Je comprends ton point de vue. Toutefois, je ne suis pas d'accord.", en: "I understand your point of view. However, I disagree." },
+          { es: "C'est un peu cher... quoique, pour la qualité, ça se défend.", en: "It's a bit pricey... although, for the quality, it's fair enough." },
+          { es: "Le projet est ambitieux. Pourtant, le budget est limité.", en: "The project is ambitious. Yet the budget is limited." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "In a written report, which word opens the sentence 'However, the results are disappointing'?", options: ["Toutefois", "Quoique", "Bien que", "Malgré"], correctIndex: 0, explanation: "As a sentence connector in writing, use \"toutefois\" (or \"cependant\", \"pourtant\"). \"Quoique\" alone is a spoken afterthought, \"bien que\" must introduce a clause, and \"malgré\" needs a noun." },
+        ],
+      },
+      {
+        heading: "No hybrids",
+        body: [
+          "Finally, 'even though' is not \"*même bien que\" and 'although' is not \"*bien que\" + a comma + a clause. Choose \"même si\" + indicative or \"bien que\" + subjunctive, directly followed by the clause.",
+        ],
+        examples: [
+          { es: "Même si je t'aime bien, je ne te prêterai pas ma voiture.", en: "Even though I like you, I won't lend you my car." },
+          { es: "Même si tu as raison, il faut rester poli.", en: "Even if you're right, you have to stay polite." },
+          { es: "Bien que tu aies raison, il faut rester poli.", en: "Although you're right, you have to stay polite." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Même bien qu'il soit tard, je reste.", answer: "Bien qu'il soit tard, je reste.", altAnswers: ["Même s'il est tard, je reste.", "Quoiqu'il soit tard, je reste."], explanation: "There is no \"même bien que\": choose \"bien que\" + subjunctive, or \"même si\" + indicative." },
         ],
       },
     ],
@@ -815,23 +988,7 @@ export const FR_C1_U02: Lesson[] = [
         altAnswers: ["Quoiqu'il ait plu, le concert a eu lieu.", "Malgré la pluie, le concert a eu lieu."],
         explanation: "\"Bien que\" + past subjunctive \"ait plu\".",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "A learner wrote: \"Même s'il fasse beau demain, je resterai.\" Translate correctly.",
-        source: "Even if it's nice tomorrow, I'll stay at home.",
-        answer: "Même s'il fait beau demain, je resterai à la maison.",
-        altAnswers: ["Même s'il fait beau demain, je resterai chez moi.", "Même s'il fait beau demain, je vais rester à la maison.", "Même s'il fait beau demain, je vais rester chez moi."],
-        explanation: "\"Même si\" + present indicative, even for tomorrow.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "A learner wrote: \"Quelque soit ton avis...\" Write the French for the bold words.",
-        en: "[Whatever] your opinion, I'm going.",
-        sentence: "___ ton avis, j'y vais.",
-        answer: "Quel que soit",
-        explanation: "\"L'avis\" is masculine → \"quel que soit\", three words.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Même s'il fasse beau demain, je resterai à la maison.", answer: "Même s'il fait beau demain, je resterai à la maison.", explanation: "\"Même si\" follows the rules of \"si\": present indicative \"fait\", even for tomorrow, never the subjunctive." },
       {
         type: "translate",
         direction: "en-es",
@@ -841,26 +998,7 @@ export const FR_C1_U02: Lesson[] = [
         altAnswers: ["Quoiqu'il soit riche, il est radin.", "Bien qu'il soit riche, il est avare.", "Quoiqu'il soit riche, il est avare.", "Malgré sa richesse, il est avare.", "Malgré sa richesse, il est radin."],
         explanation: "\"Malgré que\" is criticised and here was even followed by the indicative. Use \"bien que\" + subjunctive or \"malgré\" + noun.",
       },
-      {
-        type: "multiple-choice",
-        question: "Which sentence has no error?",
-        options: [
-          "Quoiqu'elle ait refusé, il insiste.",
-          "Quoique elle ait refusé, il insiste.",
-          "Quoiqu'elle a refusé, il insiste.",
-          "Quoi qu'elle a refusé, il insiste.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Quoique\" elides before \"elle\" and takes the subjunctive.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "A learner wrote: \"Quels que soient la raison, c'est interdit.\" Translate correctly.",
-        source: "Whatever the reason, it's forbidden.",
-        answer: "Quelle que soit la raison, c'est interdit.",
-        explanation: "\"La raison\": feminine singular → \"quelle que soit\".",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Quels que soient la raison, c'est interdit.", answer: "Quelle que soit la raison, c'est interdit.", explanation: "\"La raison\" is feminine singular, so both words agree: \"quelle que soit\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -920,21 +1058,17 @@ export const FR_C1_U02: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Si riche qu'il soit: however rich he may be",
+        heading: "Si or aussi + adjective + que",
         body: [
           "To concede a quality at its highest degree and still deny its consequence, French uses \"si\" + adjective (or adverb) + \"que\" + subjunctive: \"Si riche qu'il soit, il ne peut pas tout acheter\" (however rich he is). \"Aussi\" works the same way and is slightly more common in speech: \"Aussi étrange que cela paraisse, c'est vrai\" (strange as it may seem).",
-          "With a noun subject, French usually inverts: \"Si grands que soient les risques, nous continuerons.\" \"Aussi incroyable que cela puisse paraître...\" is a fixed formula in journalism and speeches.",
-          "Don't confuse this with the consequence structure \"si... que\" + indicative from the Intermediate level: \"Il est si riche qu'il ne travaille plus\" (he's so rich that he doesn't work any more). The concessive version has the clause first and the subjunctive; the consequence version has \"si + adjective\" after the verb and the indicative.",
         ],
         examples: [
           { es: "Si riche qu'il soit, il ne peut pas tout acheter.", en: "However rich he is, he can't buy everything." },
           { es: "Aussi étrange que cela paraisse, c'est vrai.", en: "Strange as it may seem, it's true." },
-          { es: "Si grands que soient les risques, nous continuerons.", en: "However great the risks, we'll carry on." },
-          { es: "Aussi incroyable que cela puisse paraître, il n'a jamais pris l'avion.", en: "Incredible as it may sound, he's never flown." },
           { es: "Si vite qu'elle coure, elle n'arrivera pas à temps.", en: "However fast she runs, she won't get there in time." },
-          { es: "Il est si riche qu'il ne travaille plus.", en: "He's so rich that he doesn't work any more." },
         ],
         checkpoint: [
+          { type: "multiple-choice", question: "Which form completes: Si fatigués qu'ils ___, ils ont fini le match.", options: ["soient", "sont", "seront", "étaient"], correctIndex: 0, explanation: "Concessive \"si\" + adjective + \"que\" always takes the subjunctive: \"soient\". The indicative forms belong to the consequence structure (\"ils sont si fatigués que...\"), not to however." },
           {
             type: "translate",
             direction: "en-es",
@@ -944,6 +1078,20 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Aussi étrange que cela puisse paraître, je n'ai jamais vu la mer.", "Si étrange que cela paraisse, je n'ai jamais vu la mer.", "Si étrange que cela puisse paraître, je n'ai jamais vu la mer.", "Aussi bizarre que cela paraisse, je n'ai jamais vu la mer.", "Aussi étrange que ça paraisse, je n'ai jamais vu la mer."],
             explanation: "\"Aussi / si\" + adjective + \"que\" + subjunctive (\"paraisse\").",
           },
+        ],
+      },
+      {
+        heading: "Inversion, and the consequence look-alike",
+        body: [
+          "With a noun subject, French usually inverts: \"Si grands que soient les risques, nous continuerons.\" \"Aussi incroyable que cela puisse paraître...\" is a fixed formula in journalism and speeches.",
+          "Don't confuse this with the consequence structure \"si... que\" + indicative from the Intermediate level: \"Il est si riche qu'il ne travaille plus\" (he's so rich that he doesn't work any more). The concessive version has the clause first and the subjunctive; the consequence version has \"si + adjective\" after the verb and the indicative.",
+        ],
+        examples: [
+          { es: "Si grands que soient les risques, nous continuerons.", en: "However great the risks, we'll carry on." },
+          { es: "Aussi incroyable que cela puisse paraître, il n'a jamais pris l'avion.", en: "Incredible as it may sound, he's never flown." },
+          { es: "Il est si riche qu'il ne travaille plus.", en: "He's so rich that he doesn't work any more." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which sentence is concessive (however...)?",
@@ -956,18 +1104,37 @@ export const FR_C1_U02: Lesson[] = [
             correctIndex: 0,
             explanation: "Fronted \"si + adjective + que\" + subjunctive = however. The second is a consequence (so tired that).",
           },
+          { type: "word-order", prompt: "Put the words in order to say: However high the prices, we're buying the house.", words: ["Si", "élevés", "que", "soient", "les", "prix,", "nous", "achetons", "la", "maison."], translation: "However high the prices, we're buying the house.", explanation: "Concessive \"si\" + adjective + \"que\" + subjunctive \"soient\", with the noun subject \"les prix\" inverted after the verb; \"élevés\" agrees with it." },
         ],
       },
       {
-        heading: "Pour + adjective + que: a literary variant",
+        heading: "Pour + adjective + que: literary",
         body: [
           "\"Pour\" + adjective + \"que\" + subjunctive is a more literary equivalent: \"Pour intelligent qu'il soit, il manque de bon sens\" (intelligent as he may be). You'll find it in essays, reviews and political speeches, often with an ironic tone that grants a quality only to undermine it.",
-          "So you now have four ways to say 'however + adjective': \"si... que\", \"aussi... que\", \"pour... que\" and \"quelque... que\" (Part 2), all with the subjunctive, all with the adjective agreeing with the subject: \"si intelligentes qu'elles soient\".",
-          "In everyday speech, people often prefer \"avoir beau\" (Part 4) or simply \"même si\": \"Même s'il est intelligent, il manque de bon sens.\" Use the \"si / aussi... que\" forms to raise the register in writing.",
         ],
         examples: [
           { es: "Pour intelligent qu'il soit, il manque de bon sens.", en: "Intelligent as he may be, he lacks common sense." },
           { es: "Pour séduisante que soit l'idée, elle est irréaliste.", en: "Attractive as the idea may be, it's unrealistic." },
+          { es: "Pour habile qu'il soit, il s'est fait prendre.", en: "Clever as he may be, he got caught." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Attractive as the offer [may be], I'm refusing it.",
+            sentence: "Pour séduisante que ___ l'offre, je la refuse.",
+            answer: "soit",
+            explanation: "\"Pour + adjective + que\" + subjunctive, with the noun subject inverted.",
+          },
+        ],
+      },
+      {
+        heading: "Four ways, and the everyday option",
+        body: [
+          "So you now have four ways to say 'however + adjective': \"si... que\", \"aussi... que\", \"pour... que\" and \"quelque... que\" (Part 2), all with the subjunctive, all with the adjective agreeing with the subject: \"si intelligentes qu'elles soient\".",
+          "In everyday speech, people often prefer \"avoir beau\" (Part 4) or simply \"même si\": \"Même s'il est intelligent, il manque de bon sens.\" Use the \"si / aussi... que\" forms to raise the register in writing.",
+        ],
+        examples: [
           { es: "Si intelligentes qu'elles soient, elles ont besoin d'aide.", en: "However clever they are, they need help." },
           { es: "Aussi bien payé qu'il soit, il n'est pas heureux.", en: "However well paid he is, he's not happy." },
           { es: "Même s'il est intelligent, il manque de bon sens.", en: "Even though he's intelligent, he lacks common sense." },
@@ -982,31 +1149,32 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Aussi bien payée qu'elle soit, elle n'est pas contente.", "Aussi bien payée qu'elle soit, elle n'est pas épanouie."],
             explanation: "\"Aussi\" + adjective phrase + \"que\" + subjunctive; \"payée\" agrees with \"elle\".",
           },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "Attractive as the offer [may be], I'm refusing it.",
-            sentence: "Pour séduisante que ___ l'offre, je la refuse.",
-            answer: "soit",
-            explanation: "\"Pour + adjective + que\" + subjunctive, with the noun subject inverted.",
-          },
+          { type: "translate", direction: "en-es", prompt: "Change même si to si... que.", source: "Même si elle est douée, elle doit travailler.", answer: "Si douée qu'elle soit, elle doit travailler.", altAnswers: ["Aussi douée qu'elle soit, elle doit travailler.", "Pour douée qu'elle soit, elle doit travailler.", "Quelque douée qu'elle soit, elle doit travailler."], explanation: "\"Même si\" + indicative becomes the higher-register \"si\" + adjective + \"que\" + subjunctive: \"est\" turns into \"soit\", and \"douée\" still agrees with \"elle\"." },
         ],
       },
       {
         heading: "Tout + adjective + que + indicative",
         body: [
           "\"Tout\" + adjective or noun + \"que\" + indicative concedes a quality presented as a real, established fact: \"Tout ministre qu'il est, il doit respecter la loi\" (minister though he is). \"Toute riche qu'elle est, elle vit simplement.\" Unlike the \"si... que\" family, this one takes the indicative: the speaker states the fact, not a possible degree.",
-          "\"Tout\" agrees like the adverb \"tout\": invariable except before a feminine adjective starting with a consonant or aspirated h: \"tout intelligente qu'elle est\" but \"toute petite qu'elle est\". With a noun (\"tout ministre\", \"tout PDG\") it stays invariable.",
-          "Modern usage sometimes allows the subjunctive here by analogy with the other forms (\"tout riche qu'il soit\"), but the indicative is the standard. The structure has a slightly ironic, literary flavour.",
         ],
         examples: [
           { es: "Tout ministre qu'il est, il doit respecter la loi.", en: "Minister though he is, he has to obey the law." },
           { es: "Toute riche qu'elle est, elle vit simplement.", en: "Rich though she is, she lives simply." },
-          { es: "Tout intelligente qu'elle est, elle a échoué.", en: "Intelligent as she is, she failed." },
           { es: "Tout célèbres qu'ils sont, ils prennent le métro.", en: "Famous though they are, they take the metro." },
-          { es: "Toute petite qu'elle est, cette entreprise a battu les géants.", en: "Small as it is, this company has beaten the giants." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence takes the indicative correctly?",
+            options: [
+              "Tout directeur qu'il est, il fait la queue comme tout le monde.",
+              "Si directeur qu'il est, il fait la queue.",
+              "Aussi riche qu'il est, il fait la queue.",
+              "Pour riche qu'il est, il fait la queue.",
+            ],
+            correctIndex: 0,
+            explanation: "Only \"tout... que\" takes the indicative; \"si / aussi / pour... que\" need the subjunctive.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1016,6 +1184,20 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Tout célèbre qu'il soit, il est très modeste."],
             explanation: "\"Tout + adjective + que\" + indicative (\"il est\") for an established fact.",
           },
+        ],
+      },
+      {
+        heading: "How tout agrees",
+        body: [
+          "\"Tout\" agrees like the adverb \"tout\": invariable except before a feminine adjective starting with a consonant or aspirated h: \"tout intelligente qu'elle est\" but \"toute petite qu'elle est\". With a noun (\"tout ministre\", \"tout PDG\") it stays invariable.",
+          "Modern usage sometimes allows the subjunctive here by analogy with the other forms (\"tout riche qu'il soit\"), but the indicative is the standard. The structure has a slightly ironic, literary flavour.",
+        ],
+        examples: [
+          { es: "Tout intelligente qu'elle est, elle a échoué.", en: "Intelligent as she is, she failed." },
+          { es: "Toute petite qu'elle est, cette entreprise a battu les géants.", en: "Small as it is, this company has beaten the giants." },
+          { es: "Tout honnête qu'elle est, elle a menti une fois.", en: "Honest as she is, she lied once." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Toute petite qu'elle est, elle porte des cartons très lourds.",
@@ -1065,18 +1247,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "Concessive \"si + adverb + que\" + subjunctive \"conduises\" (or \"roules\", same form as indicative).",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence takes the indicative correctly?",
-        options: [
-          "Tout directeur qu'il est, il fait la queue comme tout le monde.",
-          "Si directeur qu'il est, il fait la queue.",
-          "Aussi riche qu'il est, il fait la queue.",
-          "Pour riche qu'il est, il fait la queue.",
-        ],
-        correctIndex: 0,
-        explanation: "Only \"tout... que\" takes the indicative; \"si / aussi / pour... que\" need the subjunctive.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with pour... que.",
@@ -1094,22 +1264,7 @@ export const FR_C1_U02: Lesson[] = [
         altAnswers: ["Tout riches qu'ils soient, ils vivent dans un petit appartement.", "Si riches qu'ils soient, ils vivent dans un petit appartement.", "Aussi riches qu'ils soient, ils vivent dans un petit appartement.", "Bien qu'ils soient riches, ils vivent dans un petit appartement."],
         explanation: "\"Tout\" stays invariable before a masculine plural adjective; indicative \"sont\".",
       },
-      {
-        type: "word-order",
-        prompt: "Put the words in order to say: However great the risks, we're going.",
-        words: ["Si grands", "que", "soient", "les risques,", "nous y allons."],
-        translation: "However great the risks, we're going.",
-        explanation: "Inversion of the noun subject after the subjunctive \"soient\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "However kind she is, she can't help everyone.",
-        answer: "Si gentille qu'elle soit, elle ne peut pas aider tout le monde.",
-        altAnswers: ["Aussi gentille qu'elle soit, elle ne peut pas aider tout le monde.", "Pour gentille qu'elle soit, elle ne peut pas aider tout le monde.", "Quelque gentille qu'elle soit, elle ne peut pas aider tout le monde."],
-        explanation: "Concession of a quality → subjunctive; \"gentille\" agrees.",
-      },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "[However kind she is], she can't help everyone.", sentence: "___, elle ne peut pas aider tout le monde.", answer: "Si gentille qu'elle soit", altAnswers: ["Aussi gentille qu'elle soit", "Pour gentille qu'elle soit", "Quelque gentille qu'elle soit"], explanation: "Concession of a quality: \"si\" + adjective + \"que\" + subjunctive \"soit\"; \"gentille\" agrees with \"elle\"." },
       {
         type: "listen-choose",
         audio: "Aussi surprenant que cela paraisse, il a dit oui.",
@@ -1129,6 +1284,7 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Say it in French: Strange as it may seem, I love Mondays.",
         explanation: "\"Aussi + adjective + que\" + subjunctive \"paraisse\".",
       },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Si cher qu'il est, ce vélo se vend bien.", answer: "Si cher qu'il soit, ce vélo se vend bien.", altAnswers: ["Aussi cher qu'il soit, ce vélo se vend bien.", "Tout cher qu'il est, ce vélo se vend bien."], explanation: "Concessive \"si... que\" needs the subjunctive: \"est\" becomes \"soit\". Only \"tout... que\" keeps the indicative." },
     ],
   },
   {
@@ -1140,21 +1296,17 @@ export const FR_C1_U02: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Avoir beau: no matter how hard",
+        heading: "Avoir beau: the effort fails",
         body: [
           "\"Avoir beau\" + infinitive is one of the most idiomatic ways to concede in French, and it has no word-for-word English equivalent. \"J'ai beau chercher, je ne trouve rien\" = however hard I look, I can't find anything / I can look all I like, I can't find anything. The effort is real, the result fails to follow.",
-          "The structure is fixed: subject + \"avoir\" (conjugated) + \"beau\" (invariable) + infinitive, then a comma and the main clause stating the disappointing result. No \"que\", no subjunctive. \"Beau\" never agrees: \"elles ont beau protester\".",
-          "It's used across all registers, from conversation (\"T'as beau dire, c'est pas normal\") to journalism (\"Le gouvernement a beau multiplier les annonces, le chômage ne baisse pas\"). Saying it right instantly makes your French sound more native.",
         ],
         examples: [
           { es: "J'ai beau chercher, je ne trouve pas mes lunettes.", en: "However hard I look, I can't find my glasses." },
-          { es: "Elles ont beau protester, rien ne change.", en: "They can protest all they like, nothing changes." },
-          { es: "Tu as beau dire, ce n'est pas normal.", en: "Say what you like, it's not normal." },
-          { es: "Le gouvernement a beau multiplier les annonces, le chômage ne baisse pas.", en: "The government can make as many announcements as it likes, unemployment isn't falling." },
           { es: "On a beau lui expliquer, il ne comprend pas.", en: "No matter how often you explain it to him, he doesn't understand." },
           { es: "Nous avons beau nous dépêcher, nous sommes toujours en retard.", en: "However much we hurry, we're always late." },
         ],
         checkpoint: [
+          { type: "multiple-choice", question: "What does 'Il a beau courir, il rate toujours le bus' mean?", options: ["However fast he runs, he always misses the bus.", "He runs beautifully to catch the bus.", "He runs because he always misses the bus.", "He enjoys a nice run before the bus."], correctIndex: 0, explanation: "\"Avoir beau\" + infinitive = however much you do it, the result fails to follow. \"Beau\" here has nothing to do with beauty, and there is no cause-and-effect." },
           {
             type: "translate",
             direction: "en-es",
@@ -1164,6 +1316,20 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["J'ai beau essayer, je ne peux pas dormir.", "J'ai beau faire des efforts, je n'arrive pas à dormir.", "J'ai beau essayer, je n'arrive pas à m'endormir."],
             explanation: "\"Avoir beau\" + infinitive, comma, then the failed result.",
           },
+        ],
+      },
+      {
+        heading: "A fixed structure, in every register",
+        body: [
+          "The structure is fixed: subject + \"avoir\" (conjugated) + \"beau\" (invariable) + infinitive, then a comma and the main clause stating the disappointing result. No \"que\", no subjunctive. \"Beau\" never agrees: \"elles ont beau protester\".",
+          "It's used across all registers, from conversation (\"T'as beau dire, c'est pas normal\") to journalism (\"Le gouvernement a beau multiplier les annonces, le chômage ne baisse pas\"). Saying it right instantly makes your French sound more native.",
+        ],
+        examples: [
+          { es: "Elles ont beau protester, rien ne change.", en: "They can protest all they like, nothing changes." },
+          { es: "Tu as beau dire, ce n'est pas normal.", en: "Say what you like, it's not normal." },
+          { es: "Le gouvernement a beau multiplier les annonces, le chômage ne baisse pas.", en: "The government can make as many announcements as it likes, unemployment isn't falling." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
@@ -1179,29 +1345,17 @@ export const FR_C1_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Avoir beau in other tenses",
+        heading: "Avoir carries the tense",
         body: [
           "Tense is carried by \"avoir\", and the main clause follows logically. Past: \"Il a eu beau insister, elle a refusé\" (he insisted all he could, she refused) or, for a repeated or ongoing effort, \"il avait beau insister, elle refusait\". Future: \"Elle aura beau dire, je ne changerai pas d'avis\" (she can say what she likes, I won't change my mind). Conditional: \"Tu aurais beau le supplier, il ne céderait pas\" (even if you begged him...).",
-          "The infinitive can be past too, when the effort is completed: \"J'ai beau avoir révisé, je ne me sens pas prêt\" (I may have revised, but I don't feel ready).",
-          "A common mistake is to put \"avoir beau\" in the main clause or to add \"mais\": \"*j'ai beau chercher, mais je ne trouve rien\". The contrast is built in; \"mais\" is redundant.",
         ],
         examples: [
           { es: "Il a eu beau insister, elle a refusé.", en: "However hard he insisted, she refused." },
           { es: "Il avait beau insister, elle refusait toujours.", en: "No matter how much he insisted, she always refused." },
           { es: "Elle aura beau dire, je ne changerai pas d'avis.", en: "She can say what she likes, I won't change my mind." },
           { es: "Tu aurais beau le supplier, il ne céderait pas.", en: "Even if you begged him, he wouldn't give in." },
-          { es: "J'ai beau avoir révisé, je ne me sens pas prêt.", en: "Even though I've revised, I don't feel ready." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French with avoir beau.",
-            source: "However much he apologised, she didn't forgive him.",
-            answer: "Il a eu beau s'excuser, elle ne lui a pas pardonné.",
-            altAnswers: ["Il avait beau s'excuser, elle ne lui pardonnait pas.", "Il a eu beau présenter ses excuses, elle ne lui a pas pardonné."],
-            explanation: "Past: \"il a eu beau\" (one completed attempt) or \"il avait beau\" (repeated).",
-          },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1211,23 +1365,63 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Elles auront beau"],
             explanation: "Future concession: \"auront beau\" + infinitive.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with avoir beau.",
+            source: "However much he apologised, she didn't forgive him.",
+            answer: "Il a eu beau s'excuser, elle ne lui a pas pardonné.",
+            altAnswers: ["Il avait beau s'excuser, elle ne lui pardonnait pas.", "Il a eu beau présenter ses excuses, elle ne lui a pas pardonné."],
+            explanation: "Past: \"il a eu beau\" (one completed attempt) or \"il avait beau\" (repeated).",
+          },
         ],
       },
       {
-        heading: "Quand bien même + conditional: even if, even supposing",
+        heading: "A past infinitive, and no mais",
+        body: [
+          "The infinitive can be past too, when the effort is completed: \"J'ai beau avoir révisé, je ne me sens pas prêt\" (I may have revised, but I don't feel ready).",
+          "A common mistake is to put \"avoir beau\" in the main clause or to add \"mais\": \"*j'ai beau chercher, mais je ne trouve rien\". The contrast is built in; \"mais\" is redundant.",
+        ],
+        examples: [
+          { es: "J'ai beau avoir révisé, je ne me sens pas prêt.", en: "Even though I've revised, I don't feel ready." },
+          { es: "Elle a beau avoir dormi dix heures, elle est encore fatiguée.", en: "Even though she's slept ten hours, she's still tired." },
+          { es: "On a beau crier, personne ne nous entend.", en: "We can shout all we like, nobody hears us." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is correct?",
+            options: [
+              "J'ai beau appeler, personne ne répond.",
+              "J'ai beau appeler, mais personne ne répond.",
+              "J'ai beau que j'appelle, personne ne répond.",
+              "J'ai beau appelé, personne ne répond.",
+            ],
+            correctIndex: 0,
+            explanation: "\"Avoir beau\" + infinitive (\"appeler\", not the participle), with no \"mais\".",
+          },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "J'ai beau téléphoner, mais personne ne décroche.", answer: "J'ai beau téléphoner, personne ne décroche.", explanation: "The contrast is built into \"avoir beau\", so \"mais\" is redundant: a comma, then the failed result." },
+        ],
+      },
+      {
+        heading: "Quand bien même + conditional",
         body: [
           "\"Quand bien même\" is a strong, formal 'even if', reserved for pure hypotheses, and it takes the conditional (unlike \"même si\"): \"Quand bien même il le voudrait, il ne pourrait pas\" (even if he wanted to, he couldn't). \"Quand bien même tu aurais raison, ce n'est pas une raison pour crier\" (even supposing you're right...).",
-          "Both clauses are usually in the conditional, present or past: \"Quand bien même nous serions partis plus tôt, nous aurions raté le train.\" It's frequent in argumentative writing and in speeches, where it pushes a hypothesis to the extreme to dismiss it.",
-          "Comparison: \"même si\" + imperfect (\"même s'il le voulait\") is the neutral form; \"quand bien même\" + conditional (\"quand bien même il le voudrait\") is more emphatic and formal. You can also find \"alors même que\" + indicative (even though, at the very moment when): \"Il a démissionné alors même qu'on venait de le promouvoir.\"",
         ],
         examples: [
           { es: "Quand bien même il le voudrait, il ne pourrait pas.", en: "Even if he wanted to, he couldn't." },
           { es: "Quand bien même tu aurais raison, ce n'est pas une raison pour crier.", en: "Even supposing you're right, that's no reason to shout." },
-          { es: "Quand bien même nous serions partis plus tôt, nous aurions raté le train.", en: "Even if we'd left earlier, we'd have missed the train." },
-          { es: "Même s'il le voulait, il ne pourrait pas.", en: "Even if he wanted to, he couldn't." },
-          { es: "Il a démissionné alors même qu'on venait de le promouvoir.", en: "He resigned even though he'd just been promoted." },
+          { es: "Quand bien même on m'offrirait le double, je refuserais.", en: "Even if they offered me double, I'd refuse." },
         ],
         checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Quand bien même il serait d'accord, ce serait trop tard.",
+            question: "What does it mean?",
+            options: ["Even if he agreed, it would be too late.", "When he agrees, it'll be too late.", "Since he agreed, it was too late.", "He agreed, even though it was too late."],
+            correctIndex: 0,
+            explanation: "\"Quand bien même\" + conditional = even if (hypothetical).",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1237,14 +1431,34 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Quand bien même elle me le demanderait, je n'y irais pas.", "Quand bien même elle me demanderait, je n'irais pas.", "Quand bien même elle me demanderait, je n'y irais pas."],
             explanation: "\"Quand bien même\" + conditional in both clauses.",
           },
-          {
-            type: "listen-choose",
-            audio: "Quand bien même il serait d'accord, ce serait trop tard.",
-            question: "What does it mean?",
-            options: ["Even if he agreed, it would be too late.", "When he agrees, it'll be too late.", "Since he agreed, it was too late.", "He agreed, even though it was too late."],
-            correctIndex: 0,
-            explanation: "\"Quand bien même\" + conditional = even if (hypothetical).",
-          },
+        ],
+      },
+      {
+        heading: "Both clauses in the conditional",
+        body: [
+          "Both clauses are usually in the conditional, present or past: \"Quand bien même nous serions partis plus tôt, nous aurions raté le train.\" It's frequent in argumentative writing and in speeches, where it pushes a hypothesis to the extreme to dismiss it.",
+        ],
+        examples: [
+          { es: "Quand bien même nous serions partis plus tôt, nous aurions raté le train.", en: "Even if we'd left earlier, we'd have missed the train." },
+          { es: "Quand bien même il aurait couru, il serait arrivé trop tard.", en: "Even if he'd run, he'd have arrived too late." },
+          { es: "Quand bien même ils seraient d'accord, le budget ne suffirait pas.", en: "Even if they agreed, the budget wouldn't be enough." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Change même si to quand bien même.", source: "Même s'il pleuvait, le concert aurait lieu.", answer: "Quand bien même il pleuvrait, le concert aurait lieu.", explanation: "\"Même si\" takes the imperfect, but \"quand bien même\" takes the conditional: \"pleuvait\" becomes \"pleuvrait\"; the main clause stays in the conditional." },
+        ],
+      },
+      {
+        heading: "Même si, quand bien même, alors même que",
+        body: [
+          "Comparison: \"même si\" + imperfect (\"même s'il le voulait\") is the neutral form; \"quand bien même\" + conditional (\"quand bien même il le voudrait\") is more emphatic and formal. You can also find \"alors même que\" + indicative (even though, at the very moment when): \"Il a démissionné alors même qu'on venait de le promouvoir.\"",
+        ],
+        examples: [
+          { es: "Même s'il le voulait, il ne pourrait pas.", en: "Even if he wanted to, he couldn't." },
+          { es: "Il a démissionné alors même qu'on venait de le promouvoir.", en: "He resigned even though he'd just been promoted." },
+          { es: "Elle est partie alors même que la fête commençait.", en: "She left just as the party was starting." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which one is followed by the indicative?", options: ["alors même que", "quand bien même", "bien que", "pour que"], correctIndex: 0, explanation: "\"Alors même que\" (even though, at the very moment when) takes the indicative. \"Quand bien même\" takes the conditional, and \"bien que\" and \"pour que\" take the subjunctive." },
         ],
       },
     ],
@@ -1258,15 +1472,7 @@ export const FR_C1_U02: Lesson[] = [
         altAnswers: ["J'ai beau manger beaucoup, j'ai toujours faim."],
         explanation: "\"Avoir beau\" + infinitive; no \"mais\" in the main clause.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with avoir beau.",
-        source: "We can explain all we like, they don't listen.",
-        answer: "On a beau expliquer, ils n'écoutent pas.",
-        altAnswers: ["Nous avons beau expliquer, ils n'écoutent pas.", "On a beau leur expliquer, ils n'écoutent pas.", "Nous avons beau leur expliquer, ils n'écoutent pas.", "On a beau expliquer, elles n'écoutent pas."],
-        explanation: "\"On a beau\" + infinitive = no matter how much we...",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: We can explain all we like, they don't listen.", words: ["On", "a", "beau", "leur", "expliquer,", "ils", "n'écoutent", "pas."], translation: "We can explain all we like, they don't listen.", explanation: "\"On a beau\" + infinitive = no matter how much we..., then the failed result, with no \"mais\"." },
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
@@ -1285,27 +1491,7 @@ export const FR_C1_U02: Lesson[] = [
         altAnswers: ["Quand bien même j'aurais l'argent, je n'achèterais pas cette voiture-là.", "Quand bien même j'aurais les moyens, je n'achèterais pas cette voiture."],
         explanation: "Conditional after \"quand bien même\", and in the main clause.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with même si.",
-        source: "Even if I had the money, I wouldn't buy that car.",
-        answer: "Même si j'avais l'argent, je n'achèterais pas cette voiture.",
-        altAnswers: ["Même si j'avais les moyens, je n'achèterais pas cette voiture."],
-        explanation: "\"Même si\" + imperfect: same meaning, neutral register.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which is correct?",
-        options: [
-          "J'ai beau appeler, personne ne répond.",
-          "J'ai beau appeler, mais personne ne répond.",
-          "J'ai beau que j'appelle, personne ne répond.",
-          "J'ai beau appelé, personne ne répond.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Avoir beau\" + infinitive (\"appeler\", not the participle), with no \"mais\".",
-      },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "[Even if I had] the money, I wouldn't buy that car.", sentence: "___ l'argent, je n'achèterais pas cette voiture.", answer: "Même si j'avais", altAnswers: ["Quand bien même j'aurais"], explanation: "Neutral register: \"même si\" + imperfect, conditional in the main clause. With \"quand bien même\" you'd need the conditional \"j'aurais\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -1339,12 +1525,7 @@ export const FR_C1_U02: Lesson[] = [
         correctIndex: 0,
         explanation: "\"Avoir beau être\" = may well be, however... they are.",
       },
-      {
-        type: "speak",
-        text: "J'ai beau chercher, je ne trouve pas mes clés.",
-        prompt: "Say it in French: However hard I look, I can't find my keys.",
-        explanation: "\"J'ai beau\" + infinitive, then the failed result.",
-      },
+      { type: "speak", text: "J'ai beau ranger, la maison est toujours en désordre.", prompt: "Say it in French: However much I tidy up, the house is always a mess.", explanation: "\"J'ai beau\" + infinitive, then the failed result." },
       {
         type: "translate",
         direction: "en-es",
@@ -1364,99 +1545,99 @@ export const FR_C1_U02: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "One idea, six frames",
+        heading: "One idea: frames 1 to 3",
         body: [
           "Take a simple idea: Thomas works a lot; he doesn't earn much. Here are six ways to put it, each with its own ripple effects. 1) \"Bien que Thomas travaille beaucoup, il ne gagne pas grand-chose\" (subjunctive). 2) \"Même si Thomas travaille beaucoup, il ne gagne pas grand-chose\" (indicative). 3) \"Thomas a beau travailler beaucoup, il ne gagne pas grand-chose\" (infinitive, emphasis on wasted effort).",
-          "4) \"Malgré son travail acharné, Thomas ne gagne pas grand-chose\" (a noun phrase: the verb disappears, the adverb becomes an adjective). 5) \"Si dur qu'il travaille, Thomas ne gagne pas grand-chose\" (subjunctive, focus on degree). 6) \"Thomas travaille beaucoup ; pourtant, il ne gagne pas grand-chose\" (two independent clauses joined by a connector, indicative).",
-          "Each frame changes something: the mood (subjunctive with 1 and 5), the structure (infinitive in 3, noun in 4), the punctuation (semicolon and comma in 6), and the register (5 is the most literary, 3 the most idiomatic, 6 the most neutral).",
         ],
         examples: [
           { es: "Bien que Thomas travaille beaucoup, il ne gagne pas grand-chose.", en: "Although Thomas works a lot, he doesn't earn much." },
           { es: "Même si Thomas travaille beaucoup, il ne gagne pas grand-chose.", en: "Even though Thomas works a lot, he doesn't earn much." },
           { es: "Thomas a beau travailler beaucoup, il ne gagne pas grand-chose.", en: "Thomas may work hard, but he doesn't earn much." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Change it to avoir beau.", source: "Bien qu'elle s'entraîne tous les jours, elle ne progresse pas.", answer: "Elle a beau s'entraîner tous les jours, elle ne progresse pas.", explanation: "\"Bien qu'elle s'entraîne\" (subjunctive clause) becomes \"elle a beau s'entraîner\": \"avoir beau\" + infinitive, then the failed result." },
+        ],
+      },
+      {
+        heading: "Frames 4 to 6",
+        body: [
+          "4) \"Malgré son travail acharné, Thomas ne gagne pas grand-chose\" (a noun phrase: the verb disappears, the adverb becomes an adjective). 5) \"Si dur qu'il travaille, Thomas ne gagne pas grand-chose\" (subjunctive, focus on degree). 6) \"Thomas travaille beaucoup ; pourtant, il ne gagne pas grand-chose\" (two independent clauses joined by a connector, indicative).",
+        ],
+        examples: [
           { es: "Malgré son travail acharné, Thomas ne gagne pas grand-chose.", en: "Despite his hard work, Thomas doesn't earn much." },
           { es: "Si dur qu'il travaille, Thomas ne gagne pas grand-chose.", en: "However hard he works, Thomas doesn't earn much." },
           { es: "Thomas travaille beaucoup ; pourtant, il ne gagne pas grand-chose.", en: "Thomas works a lot; yet he doesn't earn much." },
         ],
         checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Change it to malgré + noun.", source: "Bien qu'il pleuve, le match continue.", answer: "Malgré la pluie, le match continue.", altAnswers: ["En dépit de la pluie, le match continue."], explanation: "\"Malgré\" is a preposition and needs a noun: the clause \"qu'il pleuve\" becomes \"la pluie\", and the verb disappears." },
+        ],
+      },
+      {
+        heading: "What each frame changes",
+        body: [
+          "Each frame changes something: the mood (subjunctive with 1 and 5), the structure (infinitive in 3, noun in 4), the punctuation (semicolon and comma in 6), and the register (5 is the most literary, 3 the most idiomatic, 6 the most neutral).",
+        ],
+        examples: [
+          { es: "Bien qu'elle soit timide, elle chante sur scène.", en: "Although she's shy, she sings on stage." },
+          { es: "Elle a beau être timide, elle chante sur scène.", en: "She may be shy, but she sings on stage." },
+          { es: "Elle est timide ; pourtant, elle chante sur scène.", en: "She's shy; yet she sings on stage." },
+        ],
+        checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French (rewrite with avoir beau): \"Bien qu'elle s'entraîne tous les jours, elle ne progresse pas.\"",
-            source: "She may train every day, but she isn't improving.",
-            answer: "Elle a beau s'entraîner tous les jours, elle ne progresse pas.",
-            explanation: "\"Bien qu'elle s'entraîne\" → \"elle a beau s'entraîner\": the subjunctive clause becomes avoir beau + infinitive.",
-          },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French (rewrite with malgré + noun): \"Bien qu'il pleuve, le match continue.\"",
-            source: "Despite the rain, the match goes on.",
-            answer: "Malgré la pluie, le match continue.",
-            altAnswers: ["En dépit de la pluie, le match continue."],
-            explanation: "The clause \"qu'il pleuve\" becomes the noun \"la pluie\".",
+            type: "matching",
+            instructions: "Match each frame with what follows it.",
+            pairs: [
+              { left: "bien que", right: "a subjunctive clause" },
+              { left: "même si", right: "an indicative clause" },
+              { left: "avoir beau", right: "an infinitive" },
+              { left: "malgré", right: "a noun" },
+              { left: "si + adjective + que", right: "a subjunctive verb" },
+            ],
+            explanation: "Five concessive frames, five different constructions.",
           },
         ],
       },
       {
-        heading: "From clause to noun: the malgré transformation",
+        heading: "Malgré needs a noun",
         body: [
           "The trickiest transformation is the one with \"malgré\" (or \"en dépit de\"), because you need a noun for the verb or adjective: \"bien qu'il soit fatigué\" → \"malgré sa fatigue\"; \"bien que les prix aient augmenté\" → \"malgré la hausse des prix\"; \"bien qu'elle soit jeune\" → \"malgré son jeune âge\" / \"malgré sa jeunesse\"; \"bien qu'il ait insisté\" → \"malgré son insistance\".",
-          "The subject turns into a possessive (\"il\" → \"sa\", \"elle\" → \"son\") or a de-phrase (\"les prix ont augmenté\" → \"la hausse des prix\"). Adverbs become adjectives (\"il travaille dur\" → \"son travail acharné\"). This is a preview of Unit 3 on nominalisation.",
-          "When no noun exists, use the verb-free \"bien que + adjective\" (\"bien que très occupée\") or keep the clause. Not every sentence can be nominalised elegantly, and forcing it produces heavy French.",
         ],
         examples: [
           { es: "Malgré sa fatigue, il a fini le travail.", en: "Despite his tiredness, he finished the job." },
           { es: "Malgré la hausse des prix, les ventes progressent.", en: "Despite rising prices, sales are growing." },
-          { es: "Malgré son jeune âge, elle dirige une équipe de vingt personnes.", en: "Despite her young age, she manages a team of twenty." },
           { es: "En dépit de son insistance, la banque a refusé le prêt.", en: "Despite his insistence, the bank refused the loan." },
-          { es: "Malgré le froid, les enfants ont joué dehors toute la journée.", en: "Despite the cold, the children played outside all day." },
         ],
         checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "[Despite her young age], she runs the company.",
-            sentence: "___, elle dirige l'entreprise.",
-            answer: "Malgré son jeune âge",
-            altAnswers: ["Malgré sa jeunesse", "En dépit de son jeune âge", "En dépit de sa jeunesse"],
-            explanation: "\"Âge\" is masculine, so \"son jeune âge\" even for a woman.",
-          },
-          {
-            type: "listen-choose",
-            audio: "Malgré la hausse des prix, les ventes progressent.",
-            question: "What does it mean?",
-            options: ["Despite rising prices, sales are growing.", "Because of rising prices, sales are growing.", "Prices are rising because sales are growing.", "Despite falling prices, sales are growing."],
-            correctIndex: 0,
-            explanation: "\"La hausse\" = the rise; \"malgré\" = despite.",
-          },
+          { type: "listen-choose", audio: "Malgré la baisse du chômage, la consommation recule.", question: "What does it mean?", options: ["Despite falling unemployment, consumer spending is going down.", "Because of falling unemployment, consumer spending is going down.", "Unemployment is falling because consumer spending is going down.", "Despite rising unemployment, consumer spending is going down."], correctIndex: 0, explanation: "\"La baisse\" = the fall (\"la hausse\" would be the rise); \"malgré\" = despite, not because of." },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "[Despite his absence], the meeting went ahead.", sentence: "___, la réunion a eu lieu.", answer: "Malgré son absence", altAnswers: ["En dépit de son absence"], explanation: "\"Il était absent\" → the noun \"l'absence\" (feminine), and \"il\" → \"son\" because \"absence\" starts with a vowel." },
         ],
       },
       {
-        heading: "Connectors: pourtant, cependant, toutefois, néanmoins",
+        heading: "Possessives, adjectives, and when to stop",
+        body: [
+          "The subject turns into a possessive (\"il\" → \"sa\", \"elle\" → \"son\") or a de-phrase (\"les prix ont augmenté\" → \"la hausse des prix\"). Adverbs become adjectives (\"il travaille dur\" → \"son travail acharné\"). This is a preview of Unit 3 on nominalisation.",
+          "When no noun exists, use the verb-free \"bien que + adjective\" (\"bien que très occupée\") or keep the clause. Not every sentence can be nominalised elegantly, and forcing it produces heavy French.",
+        ],
+        examples: [
+          { es: "Malgré son jeune âge, elle dirige une équipe de vingt personnes.", en: "Despite her young age, she manages a team of twenty." },
+          { es: "Malgré le froid, les enfants ont joué dehors toute la journée.", en: "Despite the cold, the children played outside all day." },
+          { es: "Bien que très occupée, elle nous a reçus.", en: "Although very busy, she saw us." },
+        ],
+        checkpoint: [
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "[Despite his shyness], he gave a speech.", sentence: "___, il a fait un discours.", answer: "Malgré sa timidité", altAnswers: ["En dépit de sa timidité"], explanation: "\"Il est timide\" → the noun \"la timidité\" (feminine), and \"il\" → \"sa\": the possessive agrees with the noun, not with the owner." },
+        ],
+      },
+      {
+        heading: "The sixth way: connectors",
         body: [
           "The Upper-intermediate connectors give the sixth way: two independent clauses, the second introduced by \"pourtant\" (yet, and yet: surprise against expectation), \"cependant\" / \"toutefois\" (however: neutral to formal), \"néanmoins\" (nevertheless: formal) or \"quand même\" (all the same: spoken, often after the verb).",
-          "Position matters. These connectors can begin the clause (\"Pourtant, il ne gagne pas grand-chose\") or sit after the verb (\"Il ne gagne cependant pas grand-chose\"), which is very elegant in writing. With a compound tense they go between auxiliary and participle: \"Il a pourtant beaucoup travaillé.\"",
-          "Concessive frames and connectors combine well with \"certes\" (admittedly): \"Certes, Thomas travaille beaucoup ; il ne gagne pourtant pas grand-chose.\" This 'certes... mais / pourtant' rhythm is the backbone of French argumentative writing, and the next lesson puts it into a debate.",
         ],
         examples: [
           { es: "Il a beaucoup travaillé ; pourtant, il a raté son examen.", en: "He worked hard; yet he failed his exam." },
-          { es: "Il ne gagne cependant pas grand-chose.", en: "He doesn't, however, earn much." },
           { es: "Le projet est ambitieux. Toutefois, il reste réalisable.", en: "The project is ambitious. However, it remains feasible." },
-          { es: "La route était glissante ; nous sommes néanmoins arrivés à l'heure.", en: "The road was slippery; we nevertheless arrived on time." },
           { es: "Il pleuvait, mais on est sortis quand même.", en: "It was raining, but we went out all the same." },
-          { es: "Certes, Thomas travaille beaucoup ; il ne gagne pourtant pas grand-chose.", en: "Admittedly, Thomas works a lot; yet he doesn't earn much." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French (rewrite with pourtant, placed after the auxiliary): \"Bien qu'elle ait beaucoup révisé, elle a échoué.\"",
-            source: "She revised a lot; yet she failed.",
-            answer: "Elle a beaucoup révisé ; elle a pourtant échoué.",
-            altAnswers: ["Elle a beaucoup révisé, elle a pourtant échoué."],
-            explanation: "Two independent clauses in the indicative; \"pourtant\" between auxiliary and participle is elegant.",
-          },
           {
             type: "multiple-choice",
             question: "Which version is the most formal?",
@@ -1469,6 +1650,34 @@ export const FR_C1_U02: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Néanmoins\" placed after the verb is the most formal; \"quand même\" and \"n'empêche\" are spoken.",
           },
+        ],
+      },
+      {
+        heading: "Where the connector goes",
+        body: [
+          "Position matters. These connectors can begin the clause (\"Pourtant, il ne gagne pas grand-chose\") or sit after the verb (\"Il ne gagne cependant pas grand-chose\"), which is very elegant in writing. With a compound tense they go between auxiliary and participle: \"Il a pourtant beaucoup travaillé.\"",
+        ],
+        examples: [
+          { es: "Il ne gagne cependant pas grand-chose.", en: "He doesn't, however, earn much." },
+          { es: "La route était glissante ; nous sommes néanmoins arrivés à l'heure.", en: "The road was slippery; we nevertheless arrived on time." },
+          { es: "Elle a cependant accepté l'offre.", en: "She did, however, accept the offer." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Change it to pourtant, placed after the auxiliary.", source: "Bien qu'elle ait beaucoup révisé, elle a échoué.", answer: "Elle a beaucoup révisé ; elle a pourtant échoué.", altAnswers: ["Elle a beaucoup révisé, elle a pourtant échoué.", "Elle a beaucoup révisé ; pourtant, elle a échoué."], explanation: "Two independent clauses, both indicative; with a compound tense \"pourtant\" sits between the auxiliary and the participle." },
+        ],
+      },
+      {
+        heading: "Certes... pourtant",
+        body: [
+          "Concessive frames and connectors combine well with \"certes\" (admittedly): \"Certes, Thomas travaille beaucoup ; il ne gagne pourtant pas grand-chose.\" This 'certes... mais / pourtant' rhythm is the backbone of French argumentative writing, and the next lesson puts it into a debate.",
+        ],
+        examples: [
+          { es: "Certes, Thomas travaille beaucoup ; il ne gagne pourtant pas grand-chose.", en: "Admittedly, Thomas works a lot; yet he doesn't earn much." },
+          { es: "Certes, la ville est chère ; on y vit pourtant très bien.", en: "Admittedly, the city is expensive; yet life there is very good." },
+          { es: "Certes, le trajet est long, mais le paysage est magnifique.", en: "Admittedly, the journey is long, but the scenery is magnificent." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which sentence follows the certes... pourtant rhythm correctly?", options: ["Certes, il est doué ; il manque pourtant de rigueur.", "Certes, il est doué ; pourtant qu'il manque de rigueur.", "Certes qu'il soit doué, il manque de rigueur.", "Il est doué ; certes pourtant il manque de rigueur."], correctIndex: 0, explanation: "\"Certes\" concedes in an ordinary indicative clause, then \"pourtant\" (here after the verb) brings the counter-point. \"Pourtant\" and \"certes\" are adverbs, so they never take \"que\" or a subjunctive." },
         ],
       },
     ],
@@ -1510,15 +1719,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "\"Avoir beau\" + infinitive, result in the main clause.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "[Despite his insistence], they said no.",
-        sentence: "___, ils ont dit non.",
-        answer: "Malgré son insistance",
-        altAnswers: ["En dépit de son insistance"],
-        explanation: "\"Insister\" → \"l'insistance\" (feminine), \"il\" → \"son\" (before a vowel).",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with même si.",
@@ -1556,18 +1756,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "\"Avoir beau être\" + adjective: a common way to concede a quality.",
       },
       {
-        type: "matching",
-        instructions: "Match each frame with what follows it.",
-        pairs: [
-          { left: "bien que", right: "a subjunctive clause" },
-          { left: "même si", right: "an indicative clause" },
-          { left: "avoir beau", right: "an infinitive" },
-          { left: "malgré", right: "a noun" },
-          { left: "si + adjective + que", right: "a subjunctive verb" },
-        ],
-        explanation: "Five concessive frames, five different constructions.",
-      },
-      {
         type: "dictation",
         audio: "Il a beau pleuvoir, nous sortirons.",
         explanation: "Even impersonal verbs work with \"avoir beau\": \"il a beau pleuvoir\".",
@@ -1578,6 +1766,7 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Say it in French: Admittedly, it's expensive; yet it's the best option.",
         explanation: "\"Certes... pourtant\": the classic concession-then-point rhythm.",
       },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Malgré qu'il fait froid, la piscine reste ouverte.", answer: "Malgré le froid, la piscine reste ouverte.", altAnswers: ["Bien qu'il fasse froid, la piscine reste ouverte.", "Même s'il fait froid, la piscine reste ouverte.", "Quoiqu'il fasse froid, la piscine reste ouverte.", "En dépit du froid, la piscine reste ouverte."], explanation: "\"Malgré\" is a preposition: it takes a noun (\"le froid\"), not a clause. To keep a clause, switch to \"bien que\" + subjunctive or \"même si\" + indicative." },
     ],
   },
   {
@@ -1592,11 +1781,23 @@ export const FR_C1_U02: Lesson[] = [
         heading: "Scene 1: the shopkeeper objects",
         body: [
           "A public meeting at the town hall of a small city near Grenoble. The deputy mayor, Mme Bertrand, presents a project for a cycle lane on the avenue Jean-Jaurès. M. Lopez, who runs a bakery on the avenue, speaks first: \"Certes, le vélo, c'est bien pour la planète. Mais si vous supprimez vingt places de parking, mes clients n'auront plus où se garer.\"",
+        ],
+        examples: [
+          { es: "Certes, le vélo, c'est bien pour la planète. Mais mes clients n'auront plus où se garer.", en: "Admittedly, cycling is good for the planet. But my customers won't have anywhere to park." },
+          { es: "Certes, le marché est bruyant. Mais il fait vivre le quartier.", en: "Admittedly, the market is noisy. But it keeps the neighbourhood alive." },
+          { es: "Certes, les travaux seront longs, mais le quartier sera plus calme.", en: "Admittedly, the works will take a long time, but the area will be quieter." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "What does M. Lopez do with 'Certes..., mais...'?", options: ["He grants a point, then objects.", "He rejects the project outright.", "He agrees with the deputy mayor completely.", "He asks the deputy mayor a question."], correctIndex: 0, explanation: "\"Certes\" concedes (admittedly, cycling is good for the planet) and \"mais\" brings in his objection about parking. He neither rejects everything nor agrees fully." },
+        ],
+      },
+      {
+        heading: "Conceding, then coming back",
+        body: [
           "Mme Bertrand replies: \"Je vous l'accorde, la question du stationnement est importante. Il n'en reste pas moins que la moitié de vos clients viennent à pied, d'après l'enquête de la chambre de commerce.\"",
           "Two key moves. \"Certes... mais\" concedes then objects. \"Je vous l'accorde\" (I grant you that) concedes politely to the other person; \"il n'en reste pas moins que\" (the fact remains that) + indicative brings back your own argument with force. Conceding first makes the counter-argument sound fairer, and more convincing.",
         ],
         examples: [
-          { es: "Certes, le vélo, c'est bien pour la planète. Mais mes clients n'auront plus où se garer.", en: "Admittedly, cycling is good for the planet. But my customers won't have anywhere to park." },
           { es: "Je vous l'accorde, la question du stationnement est importante.", en: "I grant you, the parking issue is important." },
           { es: "Il n'en reste pas moins que la moitié de vos clients viennent à pied.", en: "The fact remains that half your customers come on foot." },
           { es: "Je vous accorde que le projet a un coût.", en: "I grant you that the project has a cost." },
@@ -1631,25 +1832,13 @@ export const FR_C1_U02: Lesson[] = [
         body: [
           "Léa, a young cyclist, joins in: \"Vous n'avez pas tort, monsieur Lopez, le commerce de proximité doit être protégé. Toujours est-il que je me suis fait renverser deux fois sur cette avenue l'année dernière.\"",
           "Mme Garnier, a pensioner, is unconvinced: \"C'est bien joli, tout ça. N'empêche que moi, avec ma hanche, je ne vais pas me mettre au vélo à soixante-dix-huit ans !\" Laughter in the room.",
-          "\"Vous n'avez pas tort\" (you're not wrong) is a warm concession, a classic French understatement for 'you're right'. \"Toujours est-il que\" (the fact is, still) + indicative returns to an undeniable fact. \"N'empêche que\" (all the same, even so) is its spoken, punchy equivalent; in very casual speech it's just \"N'empêche, ...\". Note the inversion in \"toujours est-il\": a fixed formal phrase.",
         ],
         examples: [
           { es: "Vous n'avez pas tort, le commerce de proximité doit être protégé.", en: "You're not wrong: local shops must be protected." },
           { es: "Toujours est-il que je me suis fait renverser deux fois l'année dernière.", en: "The fact is, I got knocked down twice last year." },
           { es: "N'empêche que je ne vais pas me mettre au vélo à mon âge !", en: "All the same, I'm not going to take up cycling at my age!" },
-          { es: "C'est bien joli, tout ça, mais qui va payer ?", en: "That's all very well, but who's going to pay?" },
-          { es: "N'empêche, il a raison sur un point.", en: "Still, he's right about one thing." },
         ],
         checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "I understand your concerns. [The fact is that] the project has been voted.",
-            sentence: "Je comprends vos inquiétudes. ___ le projet a été voté.",
-            answer: "Toujours est-il que",
-            altAnswers: ["Il n'en reste pas moins que", "N'empêche que", "Il n'empêche que"],
-            explanation: "\"Toujours est-il que\" + indicative brings the discussion back to an undeniable fact.",
-          },
           {
             type: "listen-choose",
             audio: "Vous n'avez pas tort, mais il faut penser aux commerçants.",
@@ -1661,35 +1850,61 @@ export const FR_C1_U02: Lesson[] = [
         ],
       },
       {
+        heading: "Three ways to say 'still'",
+        body: [
+          "\"Vous n'avez pas tort\" (you're not wrong) is a warm concession, a classic French understatement for 'you're right'. \"Toujours est-il que\" (the fact is, still) + indicative returns to an undeniable fact. \"N'empêche que\" (all the same, even so) is its spoken, punchy equivalent; in very casual speech it's just \"N'empêche, ...\". Note the inversion in \"toujours est-il\": a fixed formal phrase.",
+        ],
+        examples: [
+          { es: "C'est bien joli, tout ça, mais qui va payer ?", en: "That's all very well, but who's going to pay?" },
+          { es: "N'empêche, il a raison sur un point.", en: "Still, he's right about one thing." },
+          { es: "Toujours est-il que la piste sera construite.", en: "The fact is, the lane will be built." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which expression is the most colloquial way to say 'all the same'?",
+            options: ["N'empêche", "Il n'en reste pas moins que", "Toujours est-il que", "Néanmoins"],
+            correctIndex: 0,
+            explanation: "\"N'empêche\" alone is spoken and punchy; the others are formal or neutral.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "I understand your concerns. [The fact is that] the project has been voted.",
+            sentence: "Je comprends vos inquiétudes. ___ le projet a été voté.",
+            answer: "Toujours est-il que",
+            altAnswers: ["Il n'en reste pas moins que", "N'empêche que", "Il n'empêche que"],
+            explanation: "\"Toujours est-il que\" + indicative brings the discussion back to an undeniable fact.",
+          },
+        ],
+      },
+      {
         heading: "Scene 3: the compromise",
         body: [
           "Mme Bertrand concludes: \"Je vous remercie. Vous avez tous de bonnes raisons. Bien que le projet soit voté, rien n'empêche de l'améliorer. Nous allons créer dix places de livraison et une navette gratuite pour les personnes âgées. Quoi qu'on en pense, cette piste sera utile à tous, y compris aux piétons.\"",
-          "M. Lopez: \"Bon. J'ai beau ne pas être convaincu, je reconnais que vous avez fait un effort. On verra à l'usage.\"",
-          "Notice how every speaker concedes before persuading. Mme Bertrand uses \"bien que\" + subjunctive and a universal formula; M. Lopez uses \"avoir beau\" with a negative infinitive (\"ne pas être convaincu\": the two parts of the negation go together before the infinitive) and \"je reconnais que\" + indicative. That give-and-take is what French debate culture values: the 'oui, mais'.",
         ],
         examples: [
           { es: "Bien que le projet soit voté, rien n'empêche de l'améliorer.", en: "Although the project has been voted through, nothing stops us improving it." },
           { es: "Quoi qu'on en pense, cette piste sera utile à tous.", en: "Whatever people think, this lane will be useful to everyone." },
+          { es: "Bien que le budget soit serré, nous ajouterons des bancs.", en: "Although the budget is tight, we'll add some benches." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Mme Bertrand says: Bien que le projet soit voté. Why soit?", options: ["\"Bien que\" always takes the subjunctive.", "The vote is only a hypothesis.", "\"Voté\" is a past participle.", "It's a polite conditional."], correctIndex: 0, explanation: "\"Bien que\" concedes a real fact (the vote has happened) but always takes the subjunctive. It is not a hypothesis, and \"soit\" is the subjunctive of être, not a conditional." },
+        ],
+      },
+      {
+        heading: "Every speaker concedes",
+        body: [
+          "M. Lopez: \"Bon. J'ai beau ne pas être convaincu, je reconnais que vous avez fait un effort. On verra à l'usage.\"",
+          "Notice how every speaker concedes before persuading. Mme Bertrand uses \"bien que\" + subjunctive and a universal formula; M. Lopez uses \"avoir beau\" with a negative infinitive (\"ne pas être convaincu\": the two parts of the negation go together before the infinitive) and \"je reconnais que\" + indicative. That give-and-take is what French debate culture values: the 'oui, mais'.",
+        ],
+        examples: [
           { es: "J'ai beau ne pas être convaincu, je reconnais que vous avez fait un effort.", en: "I may not be convinced, but I admit you've made an effort." },
           { es: "On verra à l'usage.", en: "We'll see how it works in practice." },
           { es: "Je reconnais que vous avez fait un effort.", en: "I admit you've made an effort." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French with avoir beau.",
-            source: "I may not be convinced, but I admit it's a good idea.",
-            answer: "J'ai beau ne pas être convaincu, je reconnais que c'est une bonne idée.",
-            altAnswers: ["J'ai beau ne pas être convaincue, je reconnais que c'est une bonne idée.", "J'ai beau ne pas être convaincu, j'admets que c'est une bonne idée.", "J'ai beau ne pas être convaincue, j'admets que c'est une bonne idée."],
-            explanation: "\"Avoir beau\" + negative infinitive \"ne pas être\"; \"reconnaître que\" + indicative.",
-          },
-          {
-            type: "speak",
-            text: "Je vous l'accorde, mais il n'en reste pas moins que c'est trop cher.",
-            prompt: "Say it in French: I grant you that, but the fact remains that it's too expensive.",
-            explanation: "Concede (\"je vous l'accorde\"), then return to your point (\"il n'en reste pas moins que\").",
-          },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "J'ai beau ne être pas d'accord, je reconnais que l'idée est bonne.", answer: "J'ai beau ne pas être d'accord, je reconnais que l'idée est bonne.", explanation: "With an infinitive, both parts of the negation go together before it: \"ne pas être\", never \"ne être pas\"." },
         ],
       },
     ],
@@ -1730,13 +1945,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "\"Il n'en reste pas moins que\" / \"toujours est-il que\" + indicative.",
       },
       {
-        type: "multiple-choice",
-        question: "Which expression is the most colloquial way to say 'all the same'?",
-        options: ["N'empêche", "Il n'en reste pas moins que", "Toujours est-il que", "Néanmoins"],
-        correctIndex: 0,
-        explanation: "\"N'empêche\" alone is spoken and punchy; the others are formal or neutral.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French (spoken).",
@@ -1745,15 +1953,7 @@ export const FR_C1_U02: Lesson[] = [
         altAnswers: ["N'empêche, il a raison.", "Il a quand même raison.", "Il n'empêche qu'il a raison."],
         explanation: "\"N'empêche que\" + indicative, or \"n'empêche\" + comma in casual speech.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "That's all very well, but who's going to pay?",
-        answer: "C'est bien joli, tout ça, mais qui va payer ?",
-        altAnswers: ["C'est bien beau, tout ça, mais qui va payer ?", "Tout ça, c'est bien joli, mais qui va payer ?", "C'est bien joli, mais qui va payer ?", "C'est bien beau, mais qui va payer ?"],
-        explanation: "\"C'est bien joli / bien beau\" = that's all very well (ironic concession).",
-      },
+      { type: "multiple-choice", question: "A neighbour says: Une piste cyclable, c'est l'avenir ! You want to concede with irony, then raise a doubt. What do you say?", options: ["C'est bien beau, tout ça, mais qui va l'entretenir ?", "Bien que c'est l'avenir, qui va l'entretenir ?", "Quoi que l'avenir, qui va l'entretenir ?", "Vous avez tort, c'est l'avenir."], correctIndex: 0, explanation: "\"C'est bien beau / bien joli, tout ça, mais...\" is the ironic concession before an objection. \"Bien que\" would need the subjunctive \"ce soit\", \"quoi que\" needs a verb, and the last one contradicts instead of conceding." },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The fact is, nobody asked us.",
@@ -1771,17 +1971,21 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "\"Bien que\" + passive past subjunctive; \"empêcher de\" + infinitive.",
       },
       {
-        type: "listen-choose",
-        audio: "Toujours est-il que la décision est prise.",
-        question: "What does it mean?",
-        options: ["The fact is, the decision has been made.", "The decision is always made.", "The decision is still being made.", "Is the decision always made?"],
-        correctIndex: 0,
-        explanation: "\"Toujours est-il que\" = be that as it may, the fact is.",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "[All the same], the decision has been made. (spoken)",
+        sentence: "___ la décision est prise.",
+        answer: "N'empêche que",
+        altAnswers: ["Il n'empêche que", "Toujours est-il que", "Il n'en reste pas moins que"],
+        explanation: "\"N'empêche que\" + indicative is the spoken way to come back to a fact; \"toujours est-il que\" and \"il n'en reste pas moins que\" say the same in a more formal register.",
       },
       {
-        type: "dictation",
-        audio: "Je vous l'accorde, le stationnement pose problème.",
-        explanation: "\"Je vous l'accorde\": I grant you that.",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "[I grant you that], parking is a problem. (formal)",
+        sentence: "___, le stationnement pose problème.",
+        answer: "Je vous l'accorde",
+        explanation: "\"Je vous l'accorde\" concedes politely to the other person (\"l'\" stands for the point they made) before you bring back your own argument.",
       },
       {
         type: "speak",
@@ -1789,6 +1993,13 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Say it in French: You have a point, but the fact is that safety comes first.",
         explanation: "Concession (\"vous n'avez pas tort\"), then return to the key fact (\"toujours est-il que\").",
       },
+      {
+        type: "speak",
+        text: "Je vous l'accorde, mais il n'en reste pas moins que c'est trop cher.",
+        prompt: "Say it in French: I grant you that, but the fact remains that it's too expensive.",
+        explanation: "Concede (\"je vous l'accorde\"), then return to your point (\"il n'en reste pas moins que\").",
+      },
+      { type: "translate", direction: "en-es", prompt: "Make it more spoken with n'empêche que.", source: "Il n'en reste pas moins que les travaux dureront six mois.", answer: "N'empêche que les travaux dureront six mois.", altAnswers: ["Il n'empêche que les travaux dureront six mois.", "N'empêche, les travaux dureront six mois."], explanation: "\"N'empêche que\" is the punchy spoken equivalent of \"il n'en reste pas moins que\"; both are followed by the indicative." },
     ],
   },
   {
@@ -1800,30 +2011,16 @@ export const FR_C1_U02: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Alors que and tandis que: contrast or simultaneity",
+        heading: "Alors que: time or contrast",
         body: [
           "\"Alors que\" and \"tandis que\" have two meanings each: while (at the same time) and whereas (contrast). Both take the indicative. \"Il est arrivé alors que je partais\" (he arrived just as I was leaving: time). \"Elle adore la montagne, alors que son mari préfère la mer\" (whereas: contrast).",
-          "In modern French, \"alors que\" is the everyday choice for contrast; \"tandis que\" is slightly more written and still often carries a temporal nuance: \"Tandis que les enfants dormaient, nous avons rangé la maison.\" For contrast in a formal text: \"Les exportations augmentent, tandis que les importations reculent.\"",
-          "\"Alors que\" can also express a scandalous contradiction: \"Il se plaint, alors qu'il a tout ce qu'il veut\" (he complains, when he has everything he wants). That indignant 'when' is common in arguments and editorials.",
         ],
         examples: [
           { es: "Il est arrivé alors que je partais.", en: "He arrived just as I was leaving." },
           { es: "Elle adore la montagne, alors que son mari préfère la mer.", en: "She loves the mountains, whereas her husband prefers the sea." },
-          { es: "Tandis que les enfants dormaient, nous avons rangé la maison.", en: "While the children were asleep, we tidied the house." },
-          { es: "Les exportations augmentent, tandis que les importations reculent.", en: "Exports are rising, while imports are falling." },
-          { es: "Il se plaint, alors qu'il a tout ce qu'il veut.", en: "He complains, when he has everything he wants." },
-          { es: "Pourquoi prendre la voiture alors qu'il y a un bus direct ?", en: "Why take the car when there's a direct bus?" },
+          { es: "Elle est sortie alors qu'il commençait à pleuvoir.", en: "She went out just as it was starting to rain." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French with alors que.",
-            source: "I like tea, whereas my sister only drinks coffee.",
-            answer: "J'aime le thé, alors que ma sœur ne boit que du café.",
-            altAnswers: ["J'aime le thé, tandis que ma sœur ne boit que du café.", "Moi, j'aime le thé, alors que ma sœur ne boit que du café."],
-            explanation: "\"Alors que\" + indicative = whereas.",
-          },
           {
             type: "multiple-choice",
             question: "What does \"Le téléphone a sonné alors que je prenais ma douche\" mean?",
@@ -1836,24 +2033,81 @@ export const FR_C1_U02: Lesson[] = [
             correctIndex: 0,
             explanation: "Temporal \"alors que\" + imperfect = while, just as.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with alors que.",
+            source: "I like tea, whereas my sister only drinks coffee.",
+            answer: "J'aime le thé, alors que ma sœur ne boit que du café.",
+            altAnswers: ["J'aime le thé, tandis que ma sœur ne boit que du café.", "Moi, j'aime le thé, alors que ma sœur ne boit que du café."],
+            explanation: "\"Alors que\" + indicative = whereas.",
+          },
         ],
       },
       {
-        heading: "Au lieu de, loin de, contrairement à, à l'inverse de",
+        heading: "Tandis que: a little more written",
+        body: [
+          "In modern French, \"alors que\" is the everyday choice for contrast; \"tandis que\" is slightly more written and still often carries a temporal nuance: \"Tandis que les enfants dormaient, nous avons rangé la maison.\" For contrast in a formal text: \"Les exportations augmentent, tandis que les importations reculent.\"",
+        ],
+        examples: [
+          { es: "Tandis que les enfants dormaient, nous avons rangé la maison.", en: "While the children were asleep, we tidied the house." },
+          { es: "Les exportations augmentent, tandis que les importations reculent.", en: "Exports are rising, while imports are falling." },
+          { es: "Paris grandit, tandis que les villages se vident.", en: "Paris is growing, while the villages are emptying." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with tandis que.",
+            source: "The north is rainy, while the south is sunny.",
+            answer: "Le nord est pluvieux, tandis que le sud est ensoleillé.",
+            altAnswers: ["Dans le nord il pleut, tandis que le sud est ensoleillé.", "Le Nord est pluvieux, tandis que le Sud est ensoleillé."],
+            explanation: "\"Tandis que\" + indicative = while, whereas.",
+          },
+        ],
+      },
+      {
+        heading: "The indignant alors que",
+        body: [
+          "\"Alors que\" can also express a scandalous contradiction: \"Il se plaint, alors qu'il a tout ce qu'il veut\" (he complains, when he has everything he wants). That indignant 'when' is common in arguments and editorials.",
+        ],
+        examples: [
+          { es: "Il se plaint, alors qu'il a tout ce qu'il veut.", en: "He complains, when he has everything he wants." },
+          { es: "Pourquoi prendre la voiture alors qu'il y a un bus direct ?", en: "Why take the car when there's a direct bus?" },
+          { es: "Tu prends l'ascenseur alors que tu habites au premier !", en: "You take the lift when you live on the first floor!" },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Why are you walking when you have a car? (to a friend)",
+            answer: "Pourquoi tu marches alors que tu as une voiture ?",
+            altAnswers: ["Pourquoi marches-tu alors que tu as une voiture ?", "Pourquoi est-ce que tu marches alors que tu as une voiture ?", "Pourquoi tu vas à pied alors que tu as une voiture ?", "Pourquoi vas-tu à pied alors que tu as une voiture ?"],
+            explanation: "Indignant \"alors que\" + indicative = when (you could do otherwise).",
+          },
+        ],
+      },
+      {
+        heading: "Au lieu de: instead of",
         body: [
           "\"Au lieu de\" + infinitive or noun = instead of: \"Au lieu de te plaindre, aide-moi\" (instead of complaining). English uses the -ing form; French uses the infinitive. \"Au lieu du train, on a pris le car.\"",
-          "\"Loin de\" + infinitive = far from: \"Loin de se décourager, elle a recommencé\" (far from giving up). It's stronger than \"au lieu de\": the actual reaction is the opposite of what you'd expect. \"Loin de moi l'idée de te critiquer\" (far be it from me to criticise you) is a fixed phrase.",
-          "\"Contrairement à\" (unlike, contrary to) and \"à l'inverse de\" (in contrast to, conversely) + noun or pronoun compare two subjects: \"Contrairement à son frère, il adore lire.\" \"Contrairement à ce qu'on pense, ...\" (contrary to popular belief). \"À l'inverse\" alone is a connector: conversely.",
         ],
         examples: [
           { es: "Au lieu de te plaindre, aide-moi à porter les sacs.", en: "Instead of complaining, help me carry the bags." },
           { es: "Au lieu du train, on a pris le car.", en: "Instead of the train, we took the coach." },
-          { es: "Loin de se décourager, elle a recommencé avec encore plus d'énergie.", en: "Far from giving up, she started again with even more energy." },
-          { es: "Loin de moi l'idée de te critiquer.", en: "Far be it from me to criticise you." },
-          { es: "Contrairement à son frère, il adore lire.", en: "Unlike his brother, he loves reading." },
-          { es: "Contrairement à ce qu'on pense, les chats s'attachent à leurs maîtres.", en: "Contrary to popular belief, cats get attached to their owners." },
+          { es: "Au lieu de prendre l'avion, ils sont partis en train.", en: "Instead of flying, they went by train." },
         ],
         checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[Instead of] waiting, let's go.",
+            sentence: "___ attendre, allons-y.",
+            answer: "Au lieu d'",
+            altAnswers: ["Plutôt que d'"],
+            explanation: "\"Au lieu de\" elides before a vowel: \"au lieu d'attendre\".",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1863,6 +2117,48 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Au lieu de regarder la télévision, lis un livre.", "Plutôt que de regarder la télé, lis un livre.", "Plutôt que regarder la télé, lis un livre."],
             explanation: "\"Au lieu de\" + infinitive, not the -ing form.",
           },
+        ],
+      },
+      {
+        heading: "Loin de: the very opposite",
+        body: [
+          "\"Loin de\" + infinitive = far from: \"Loin de se décourager, elle a recommencé\" (far from giving up). It's stronger than \"au lieu de\": the actual reaction is the opposite of what you'd expect. \"Loin de moi l'idée de te critiquer\" (far be it from me to criticise you) is a fixed phrase.",
+        ],
+        examples: [
+          { es: "Loin de se décourager, elle a recommencé avec encore plus d'énergie.", en: "Far from giving up, she started again with even more energy." },
+          { es: "Loin de moi l'idée de te critiquer.", en: "Far be it from me to criticise you." },
+          { es: "Loin de l'aider, ses conseils l'ont embrouillé.", en: "Far from helping him, her advice confused him." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "\"Loin de moi l'idée de vous critiquer.\" What does it mean?",
+            options: ["Far be it from me to criticise you.", "I'm far away, so I can't criticise you.", "I had the idea of criticising you from afar.", "Criticising you is a distant idea for later."],
+            correctIndex: 0,
+            explanation: "A fixed polite phrase, often followed by a criticism anyway.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Far from calming down, he started shouting.",
+            answer: "Loin de se calmer, il s'est mis à crier.",
+            altAnswers: ["Loin de se calmer, il a commencé à crier.", "Bien loin de se calmer, il s'est mis à crier."],
+            explanation: "\"Loin de\" + infinitive: the opposite happened.",
+          },
+        ],
+      },
+      {
+        heading: "Contrairement à, à l'inverse de",
+        body: [
+          "\"Contrairement à\" (unlike, contrary to) and \"à l'inverse de\" (in contrast to, conversely) + noun or pronoun compare two subjects: \"Contrairement à son frère, il adore lire.\" \"Contrairement à ce qu'on pense, ...\" (contrary to popular belief). \"À l'inverse\" alone is a connector: conversely.",
+        ],
+        examples: [
+          { es: "Contrairement à son frère, il adore lire.", en: "Unlike his brother, he loves reading." },
+          { es: "Contrairement à ce qu'on pense, les chats s'attachent à leurs maîtres.", en: "Contrary to popular belief, cats get attached to their owners." },
+          { es: "À l'inverse, les jeunes lisent moins la presse.", en: "Conversely, young people read the press less." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1875,18 +2171,36 @@ export const FR_C1_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Malgré, en dépit de, malgré que",
+        heading: "Malgré and en dépit de + noun",
         body: [
           "\"Malgré\" (despite, in spite of) and the more formal \"en dépit de\" are prepositions: they're followed by a noun or pronoun, never a clause. \"Malgré la crise, l'entreprise embauche.\" \"En dépit des critiques, le ministre maintient sa réforme.\" \"Il est venu malgré tout\" (all the same, in spite of everything).",
-          "\"Malgré que\" + subjunctive (\"malgré qu'il pleuve\") is widely used in speech, but purists and examiners criticise it. The one accepted use is the literary \"malgré que j'en aie\" (much as I dislike it). In your writing, use \"bien que\" for a clause and \"malgré\" for a noun.",
-          "Finally, \"il n'empêche que\" + indicative (that doesn't change the fact that) bridges concession and opposition: \"Il a des excuses ; il n'empêche qu'il aurait dû prévenir.\" Spoken: \"N'empêche qu'il aurait dû prévenir.\"",
         ],
         examples: [
           { es: "Malgré la crise, l'entreprise continue d'embaucher.", en: "Despite the crisis, the company is still hiring." },
           { es: "En dépit des critiques, le ministre maintient sa réforme.", en: "Despite the criticism, the minister is standing by his reform." },
           { es: "Il est venu malgré tout.", en: "He came all the same." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "En dépit des critiques, il maintient sa décision.",
+            question: "What does it mean?",
+            options: ["Despite the criticism, he's sticking to his decision.", "Because of the criticism, he's changing his decision.", "He's criticising the decision.", "Without criticism, he maintains his decision."],
+            correctIndex: 0,
+            explanation: "\"En dépit de\" = despite (formal).",
+          },
+          { type: "translate", direction: "en-es", prompt: "Change it to malgré + noun.", source: "Bien qu'il y ait des embouteillages, nous arriverons à l'heure.", answer: "Malgré les embouteillages, nous arriverons à l'heure.", altAnswers: ["En dépit des embouteillages, nous arriverons à l'heure."], explanation: "\"Malgré\" is a preposition, so the clause \"qu'il y ait des embouteillages\" becomes the noun phrase \"les embouteillages\"." },
+        ],
+      },
+      {
+        heading: "Malgré que: avoid it in writing",
+        body: [
+          "\"Malgré que\" + subjunctive (\"malgré qu'il pleuve\") is widely used in speech, but purists and examiners criticise it. The one accepted use is the literary \"malgré que j'en aie\" (much as I dislike it). In your writing, use \"bien que\" for a clause and \"malgré\" for a noun.",
+        ],
+        examples: [
           { es: "Bien qu'il pleuve, le marché a lieu.", en: "Although it's raining, the market is on." },
-          { es: "Il a des excuses ; il n'empêche qu'il aurait dû prévenir.", en: "He has his excuses; that doesn't change the fact he should have warned us." },
+          { es: "Bien qu'il y ait eu une panne, le spectacle a commencé.", en: "Although there was a power cut, the show started." },
+          { es: "Malgré la panne, le spectacle a commencé.", en: "Despite the power cut, the show started." },
         ],
         checkpoint: [
           {
@@ -1901,13 +2215,27 @@ export const FR_C1_U02: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Malgré\" + noun. \"Malgré que\" is criticised, and \"malgré\" + clause is ungrammatical.",
           },
+        ],
+      },
+      {
+        heading: "Il n'empêche que",
+        body: [
+          "Finally, \"il n'empêche que\" + indicative (that doesn't change the fact that) bridges concession and opposition: \"Il a des excuses ; il n'empêche qu'il aurait dû prévenir.\" Spoken: \"N'empêche qu'il aurait dû prévenir.\"",
+        ],
+        examples: [
+          { es: "Il a des excuses ; il n'empêche qu'il aurait dû prévenir.", en: "He has his excuses; that doesn't change the fact he should have warned us." },
+          { es: "Elle a raison sur le fond ; il n'empêche que le ton était blessant.", en: "She's right in substance; that doesn't change the fact the tone was hurtful." },
+          { es: "N'empêche qu'on aurait pu nous prévenir.", en: "All the same, someone could have warned us." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "En dépit des critiques, il maintient sa décision.",
-            question: "What does it mean?",
-            options: ["Despite the criticism, he's sticking to his decision.", "Because of the criticism, he's changing his decision.", "He's criticising the decision.", "Without criticism, he maintains his decision."],
-            correctIndex: 0,
-            explanation: "\"En dépit de\" = despite (formal).",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "He was tired; that doesn't change the fact that he was rude.",
+            answer: "Il était fatigué ; il n'empêche qu'il a été impoli.",
+            altAnswers: ["Il était fatigué ; n'empêche qu'il a été impoli.", "Il était fatigué ; il n'en reste pas moins qu'il a été impoli.", "Il était fatigué, il n'empêche qu'il a été grossier.", "Il était fatigué ; il n'empêche qu'il a été grossier."],
+            explanation: "\"Il n'empêche que\" + indicative.",
           },
         ],
       },
@@ -1917,72 +2245,12 @@ export const FR_C1_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Why are you walking when you have a car? (to a friend)",
-        answer: "Pourquoi tu marches alors que tu as une voiture ?",
-        altAnswers: ["Pourquoi marches-tu alors que tu as une voiture ?", "Pourquoi est-ce que tu marches alors que tu as une voiture ?", "Pourquoi tu vas à pied alors que tu as une voiture ?", "Pourquoi vas-tu à pied alors que tu as une voiture ?"],
-        explanation: "Indignant \"alors que\" + indicative = when (you could do otherwise).",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with tandis que.",
-        source: "The north is rainy, while the south is sunny.",
-        answer: "Le nord est pluvieux, tandis que le sud est ensoleillé.",
-        altAnswers: ["Dans le nord il pleut, tandis que le sud est ensoleillé.", "Le Nord est pluvieux, tandis que le Sud est ensoleillé."],
-        explanation: "\"Tandis que\" + indicative = while, whereas.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Far from calming down, he started shouting.",
-        answer: "Loin de se calmer, il s'est mis à crier.",
-        altAnswers: ["Loin de se calmer, il a commencé à crier.", "Bien loin de se calmer, il s'est mis à crier."],
-        explanation: "\"Loin de\" + infinitive: the opposite happened.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "[Instead of] waiting, let's go.",
-        sentence: "___ attendre, allons-y.",
-        answer: "Au lieu d'",
-        altAnswers: ["Plutôt que d'"],
-        explanation: "\"Au lieu de\" elides before a vowel: \"au lieu d'attendre\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
         source: "Contrary to what people think, it's not expensive.",
         answer: "Contrairement à ce qu'on pense, ce n'est pas cher.",
         altAnswers: ["Contrairement à ce que les gens pensent, ce n'est pas cher.", "Contrairement à ce qu'on croit, ce n'est pas cher.", "Contrairement aux idées reçues, ce n'est pas cher."],
         explanation: "\"Contrairement à ce que\" + indicative.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into formal French.",
-        source: "Despite the delays, the building work will be finished in June.",
-        answer: "En dépit des retards, les travaux seront terminés en juin.",
-        altAnswers: ["Malgré les retards, les travaux seront terminés en juin.", "En dépit des retards, les travaux seront achevés en juin.", "Malgré les retards, les travaux seront achevés en juin."],
-        explanation: "\"En dépit de\" + plural noun → \"des\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "\"Loin de moi l'idée de vous critiquer.\" What does it mean?",
-        options: ["Far be it from me to criticise you.", "I'm far away, so I can't criticise you.", "I had the idea of criticising you from afar.", "Criticising you is a distant idea for later."],
-        correctIndex: 0,
-        explanation: "A fixed polite phrase, often followed by a criticism anyway.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "He was tired; that doesn't change the fact that he was rude.",
-        answer: "Il était fatigué ; il n'empêche qu'il a été impoli.",
-        altAnswers: ["Il était fatigué ; n'empêche qu'il a été impoli.", "Il était fatigué ; il n'en reste pas moins qu'il a été impoli.", "Il était fatigué, il n'empêche qu'il a été grossier.", "Il était fatigué ; il n'empêche qu'il a été grossier."],
-        explanation: "\"Il n'empêche que\" + indicative.",
-      },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "[Despite the delays], the building work will be finished in June. (formal)", sentence: "___, les travaux seront terminés en juin.", answer: "En dépit des retards", altAnswers: ["Malgré les retards"], explanation: "Formal \"en dépit de\" + noun; \"de\" + \"les retards\" contracts to \"des\". \"Malgré les retards\" is the neutral equivalent." },
       {
         type: "word-order",
         prompt: "Put the words in order to say: Unlike last year, the summer was cool.",
@@ -2013,6 +2281,7 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Say it in French (formal): Instead of criticising, suggest a solution.",
         explanation: "\"Au lieu de\" + infinitive.",
       },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Malgré il fait nuit, les enfants jouent dehors.", answer: "Bien qu'il fasse nuit, les enfants jouent dehors.", altAnswers: ["Malgré la nuit, les enfants jouent dehors.", "Même s'il fait nuit, les enfants jouent dehors.", "Quoiqu'il fasse nuit, les enfants jouent dehors."], explanation: "\"Malgré\" is a preposition and can't introduce a clause. Keep the clause with \"bien que\" + subjunctive, or use \"malgré\" + a noun." },
     ],
   },
   {
@@ -2024,20 +2293,42 @@ export const FR_C1_U02: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "The mission and a model opening",
+        heading: "The mission",
         body: [
           "Your mission: post a review of a restaurant you visited in Bordeaux, Le Comptoir des Quais, on a review site. The meal was mixed: superb fish, a charming terrace, but slow service and a disappointing dessert. A French reader trusts a review that weighs pros and cons; a pure rant or pure praise sounds suspicious.",
+        ],
+        examples: [
+          { es: "La terrasse donne sur la Garonne.", en: "The terrace overlooks the Garonne." },
+          { es: "Le poisson était superbe, mais le service était lent.", en: "The fish was superb, but the service was slow." },
+          { es: "La terrasse est charmante, même si elle est un peu bruyante.", en: "The terrace is charming, even if it's a bit noisy." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "According to the brief, which review will a French reader trust most?", options: ["One that weighs strengths against weaknesses.", "One that only praises the restaurant.", "One that only lists complaints.", "One that just gives a score."], correctIndex: 0, explanation: "A balanced review that concedes strengths before criticising sounds credible; pure praise or a pure rant sounds suspicious, and a bare score says nothing." },
+        ],
+      },
+      {
+        heading: "A model opening",
+        body: [
           "Here's a model opening: \"Bien que nous ayons dû attendre quarante minutes avant d'être servis, nous avons passé une belle soirée. Le cadre, il faut le reconnaître, est superbe : la terrasse donne sur la Garonne et, si simple qu'elle soit, la décoration est pleine de charme.\"",
-          "Structure your review like a French essay in miniature: start with a concession or a nuanced overall verdict, develop strengths and weaknesses with concessive links, and conclude with a balanced recommendation. Use \"il faut le reconnaître\" / \"il faut l'avouer\" (admittedly) as a parenthetical concession.",
         ],
         examples: [
           { es: "Bien que nous ayons dû attendre quarante minutes, nous avons passé une belle soirée.", en: "Although we had to wait forty minutes, we had a lovely evening." },
           { es: "Le cadre, il faut le reconnaître, est superbe.", en: "The setting, admittedly, is superb." },
           { es: "Si simple qu'elle soit, la décoration est pleine de charme.", en: "Simple as it is, the decor is full of charm." },
-          { es: "La terrasse donne sur la Garonne.", en: "The terrace overlooks the Garonne." },
-          { es: "Il faut l'avouer, le poisson était d'une fraîcheur exceptionnelle.", en: "It must be said, the fish was exceptionally fresh." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which opening sounds most like a balanced Advanced review?",
+            options: [
+              "Bien que le service laisse à désirer, la cuisine vaut à elle seule le déplacement.",
+              "Le service est nul mais la cuisine est bien.",
+              "C'est le pire restaurant de la ville.",
+              "Même si le service soit lent, la cuisine est bonne.",
+            ],
+            correctIndex: 0,
+            explanation: "A concession with \"bien que\" + subjunctive, precise vocabulary (\"laisser à désirer\", \"valoir le déplacement\"). The last option has a mood error.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2047,6 +2338,19 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Bien qu'on ait dû attendre longtemps, le repas était excellent.", "Quoique nous ayons dû attendre longtemps, le repas était excellent.", "Bien que nous ayons dû attendre longtemps, le repas a été excellent.", "Même si nous avons dû attendre longtemps, le repas était excellent."],
             explanation: "\"Bien que\" + past subjunctive of devoir: \"nous ayons dû\".",
           },
+        ],
+      },
+      {
+        heading: "The shape of the review",
+        body: [
+          "Structure your review like a French essay in miniature: start with a concession or a nuanced overall verdict, develop strengths and weaknesses with concessive links, and conclude with a balanced recommendation. Use \"il faut le reconnaître\" / \"il faut l'avouer\" (admittedly) as a parenthetical concession.",
+        ],
+        examples: [
+          { es: "Il faut l'avouer, le poisson était d'une fraîcheur exceptionnelle.", en: "It must be said, the fish was exceptionally fresh." },
+          { es: "Le service, il faut l'avouer, laisse à désirer.", en: "The service, it must be said, leaves something to be desired." },
+          { es: "Bien que la carte soit courte, chaque plat est soigné.", en: "Although the menu is short, every dish is carefully made." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -2059,29 +2363,16 @@ export const FR_C1_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Developing pros and cons",
+        heading: "Balancing praise and criticism",
         body: [
           "The middle of the review balances praise and criticism. Model: \"Le bar en croûte de sel était parfait, tandis que les accompagnements manquaient un peu d'assaisonnement. Quant au dessert, on a beau aimer le chocolat, ce fondant était beaucoup trop sucré. Le serveur, quoique débordé, est resté aimable du début à la fin.\"",
-          "Notice the variety: \"tandis que\" for a contrast between two dishes, \"avoir beau\" for an expectation disappointed, \"quoique\" + adjective as a verb-free aside. Using the same connector three times (\"mais... mais... mais\") is the hallmark of an Intermediate text; Advanced readers expect variety.",
-          "Be precise with your vocabulary of evaluation: \"copieux\" (generous), \"fade\" (bland), \"trop cuit\" (overcooked), \"un rapport qualité-prix correct\" (decent value for money), \"débordé\" (overwhelmed), \"aux petits soins\" (attentive).",
         ],
         examples: [
           { es: "Le bar était parfait, tandis que les accompagnements manquaient d'assaisonnement.", en: "The sea bass was perfect, whereas the side dishes lacked seasoning." },
           { es: "On a beau aimer le chocolat, ce fondant était beaucoup trop sucré.", en: "Much as you might love chocolate, this fondant was far too sweet." },
           { es: "Le serveur, quoique débordé, est resté aimable.", en: "The waiter, though overwhelmed, remained friendly." },
-          { es: "Les portions sont copieuses, mais certains plats sont un peu fades.", en: "The portions are generous, but some dishes are a little bland." },
-          { es: "Malgré quelques défauts, le rapport qualité-prix est correct.", en: "Despite a few flaws, it's decent value for money." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French with avoir beau.",
-            source: "Much as you might love spicy food, this curry is inedible.",
-            answer: "On a beau aimer les plats épicés, ce curry est immangeable.",
-            altAnswers: ["On a beau aimer la cuisine épicée, ce curry est immangeable.", "On a beau adorer les plats épicés, ce curry est immangeable.", "On a beau aimer épicé, ce curry est immangeable."],
-            explanation: "\"On a beau\" + infinitive = much as one might...",
-          },
           {
             type: "multiple-choice",
             question: "Which sentence best contrasts two dishes in a review?",
@@ -2094,21 +2385,42 @@ export const FR_C1_U02: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Tandis que\" + indicative contrasts two subjects; the others are ungrammatical.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with avoir beau.",
+            source: "Much as you might love spicy food, this curry is inedible.",
+            answer: "On a beau aimer les plats épicés, ce curry est immangeable.",
+            altAnswers: ["On a beau aimer la cuisine épicée, ce curry est immangeable.", "On a beau adorer les plats épicés, ce curry est immangeable.", "On a beau aimer épicé, ce curry est immangeable."],
+            explanation: "\"On a beau\" + infinitive = much as one might...",
+          },
+        ],
+      },
+      {
+        heading: "Vary the links, sharpen the words",
+        body: [
+          "Notice the variety: \"tandis que\" for a contrast between two dishes, \"avoir beau\" for an expectation disappointed, \"quoique\" + adjective as a verb-free aside. Using the same connector three times (\"mais... mais... mais\") is the hallmark of an Intermediate text; Advanced readers expect variety.",
+          "Be precise with your vocabulary of evaluation: \"copieux\" (generous), \"fade\" (bland), \"trop cuit\" (overcooked), \"un rapport qualité-prix correct\" (decent value for money), \"débordé\" (overwhelmed), \"aux petits soins\" (attentive).",
+        ],
+        examples: [
+          { es: "Les portions sont copieuses, mais certains plats sont un peu fades.", en: "The portions are generous, but some dishes are a little bland." },
+          { es: "Malgré quelques défauts, le rapport qualité-prix est correct.", en: "Despite a few flaws, it's decent value for money." },
+          { es: "Le personnel est aux petits soins, quoiqu'un peu lent.", en: "The staff are very attentive, though a little slow." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Change mais to tandis que.", source: "Le poisson était parfait, mais les légumes étaient trop cuits.", answer: "Le poisson était parfait, tandis que les légumes étaient trop cuits.", altAnswers: ["Le poisson était parfait, alors que les légumes étaient trop cuits."], explanation: "\"Tandis que\" + indicative contrasts two subjects (the fish, the vegetables) and avoids repeating \"mais\"." },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Bien que les portions sont copieuses, les plats sont un peu fades.", answer: "Bien que les portions soient copieuses, les plats sont un peu fades.", altAnswers: ["Même si les portions sont copieuses, les plats sont un peu fades.", "Quoique les portions soient copieuses, les plats sont un peu fades."], explanation: "\"Bien que\" always takes the subjunctive: \"sont\" becomes \"soient\"." },
         ],
       },
       {
         heading: "The conclusion",
         body: [
           "End with a balanced verdict: \"En somme, même si tout n'est pas parfait, Le Comptoir des Quais mérite le détour, ne serait-ce que pour sa terrasse et son poisson. Quelles que soient vos attentes, réservez et évitez le samedi soir, quand l'équipe est visiblement dépassée. Note : 3,5 sur 5.\"",
-          "\"En somme\" or \"Bref\" introduce the conclusion (\"au final\" is very common but frowned on in careful writing; Unit 7 comes back to it); \"mériter le détour\" (to be worth the trip) is a Michelin Guide phrase used everywhere. \"Ne serait-ce que pour\" (if only for), from Unit 1, is perfect in a recommendation.",
-          "Checklist before posting: at least four different concessive or oppositive structures, moods checked (\"bien que\" + subjunctive, \"même si\" + indicative), agreements of \"quel que\" and of adjectives in short forms (\"quoique débordée\" for a waitress).",
         ],
         examples: [
           { es: "En somme, même si tout n'est pas parfait, le restaurant mérite le détour.", en: "All in all, even if not everything is perfect, the restaurant is worth the trip." },
-          { es: "Allez-y, ne serait-ce que pour la terrasse.", en: "Go there, if only for the terrace." },
           { es: "Quelles que soient vos attentes, réservez à l'avance.", en: "Whatever your expectations, book ahead." },
           { es: "Évitez le samedi soir, quand l'équipe est visiblement dépassée.", en: "Avoid Saturday evenings, when the staff are clearly overwhelmed." },
-          { es: "Bref, une adresse agréable, quoiqu'un peu chère.", en: "In short, a pleasant place, though a little pricey." },
         ],
         checkpoint: [
           {
@@ -2120,12 +2432,46 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["En somme, même si le service est lent, le restaurant vaut le détour.", "Bref, même si le service est lent, le restaurant mérite le détour.", "Bref, même si le service est lent, le restaurant vaut le détour.", "Tout compte fait, même si le service est lent, le restaurant mérite le détour."],
             explanation: "\"En somme\" (or \"bref\") for the conclusion; \"même si\" + indicative; \"mériter / valoir le détour\". \"Au final\" is common in speech but frowned on in a written review.",
           },
+        ],
+      },
+      {
+        heading: "Words for the verdict",
+        body: [
+          "\"En somme\" or \"Bref\" introduce the conclusion (\"au final\" is very common but frowned on in careful writing; Unit 7 comes back to it); \"mériter le détour\" (to be worth the trip) is a Michelin Guide phrase used everywhere. \"Ne serait-ce que pour\" (if only for), from Unit 1, is perfect in a recommendation.",
+        ],
+        examples: [
+          { es: "Allez-y, ne serait-ce que pour la terrasse.", en: "Go there, if only for the terrace." },
+          { es: "En somme, cette exposition mérite le détour.", en: "All in all, this exhibition is worth the trip." },
+          { es: "Lisez-le, ne serait-ce que pour la dernière page.", en: "Read it, if only for the last page." },
+        ],
+        checkpoint: [
           {
-            type: "speak",
-            text: "Allez-y, ne serait-ce que pour la vue.",
-            prompt: "Say it in French (formal): Go there, if only for the view.",
-            explanation: "\"Ne serait-ce que pour\" + noun = if only for.",
+            type: "listen-choose",
+            audio: "Le restaurant mérite le détour, ne serait-ce que pour sa terrasse.",
+            question: "What does it mean?",
+            options: [
+              "The restaurant is worth the trip, if only for its terrace.",
+              "The restaurant isn't worth the trip, except for its terrace.",
+              "The restaurant would be worth the trip if it had a terrace.",
+              "The restaurant's terrace is a detour from the entrance.",
+            ],
+            correctIndex: 0,
+            explanation: "\"Mériter le détour\" = to be worth the trip; \"ne serait-ce que pour\" = if only for.",
           },
+        ],
+      },
+      {
+        heading: "Checklist before posting",
+        body: [
+          "Checklist before posting: at least four different concessive or oppositive structures, moods checked (\"bien que\" + subjunctive, \"même si\" + indicative), agreements of \"quel que\" and of adjectives in short forms (\"quoique débordée\" for a waitress).",
+        ],
+        examples: [
+          { es: "Bref, une adresse agréable, quoiqu'un peu chère.", en: "In short, a pleasant place, though a little pricey." },
+          { es: "Bien que le décor soit simple, l'ambiance est chaleureuse.", en: "Although the decor is simple, the atmosphere is warm." },
+          { es: "Le cuisinier, bien que débordé, est venu nous saluer.", en: "The cook, though overwhelmed, came out to greet us." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Quelque soient vos goûts, la carte vous plaira.", answer: "Quels que soient vos goûts, la carte vous plaira.", explanation: "Before \"soient\", write \"quel que\" in two words, agreeing with \"vos goûts\" (masculine plural): \"quels que\"." },
         ],
       },
     ],
@@ -2176,18 +2522,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "\"Le budget\" (masculine) → \"quel que soit\".",
       },
       {
-        type: "multiple-choice",
-        question: "Which opening sounds most like a balanced Advanced review?",
-        options: [
-          "Bien que le service laisse à désirer, la cuisine vaut à elle seule le déplacement.",
-          "Le service est nul mais la cuisine est bien.",
-          "C'est le pire restaurant de la ville.",
-          "Même si le service soit lent, la cuisine est bonne.",
-        ],
-        correctIndex: 0,
-        explanation: "A concession with \"bien que\" + subjunctive, precise vocabulary (\"laisser à désirer\", \"valoir le déplacement\"). The last option has a mood error.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with avoir beau.",
@@ -2213,19 +2547,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "\"Même si\" + indicative.",
       },
       {
-        type: "listen-choose",
-        audio: "Le restaurant mérite le détour, ne serait-ce que pour sa terrasse.",
-        question: "What does it mean?",
-        options: [
-          "The restaurant is worth the trip, if only for its terrace.",
-          "The restaurant isn't worth the trip, except for its terrace.",
-          "The restaurant would be worth the trip if it had a terrace.",
-          "The restaurant's terrace is a detour from the entrance.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Mériter le détour\" = to be worth the trip; \"ne serait-ce que pour\" = if only for.",
-      },
-      {
         type: "dictation",
         audio: "Bien que la salle soit bruyante, l'ambiance est agréable.",
         explanation: "\"Bien que\" + subjunctive \"soit\".",
@@ -2236,6 +2557,7 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Say it in French: All in all, even if not everything is perfect, I recommend this film.",
         explanation: "Concluding concession with \"en somme\" and \"même si\".",
       },
+      { type: "speak", text: "Venez, ne serait-ce que pour goûter le pain maison.", prompt: "Say it in French (formal): Come, if only to taste the homemade bread.", explanation: "\"Ne serait-ce que pour\" + infinitive or noun = if only for / to." },
     ],
   },
   {
@@ -2247,21 +2569,44 @@ export const FR_C1_U02: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "If, even if, unless, provided that",
+        heading: "Condition or concession?",
         body: [
           "Condition and concession are close relatives. A condition says the result depends on something (\"si\", \"à condition que\", \"pourvu que\", \"à moins que\"); a concession says the result happens regardless (\"même si\", \"quand bien même\", \"avoir beau\"). Compare: \"Je viendrai s'il fait beau\" (only if) vs \"Je viendrai même s'il pleut\" (regardless).",
-          "Moods, reviewed: \"si\" and \"même si\" + indicative (present, imperfect, pluperfect, never conditional or subjunctive). \"À condition que\", \"pourvu que\", \"à moins que\" + subjunctive (Upper-intermediate), with the ne explétif after \"à moins que\" in formal style. \"Quand bien même\" + conditional. With the same subject, the infinitive: \"à condition de\", \"à moins de\".",
-          "Arguments at home often mix them: \"D'accord pour la soirée, à condition que tu rentres avant minuit. Et même si tes amis restent, toi, tu rentres.\" \"Pourvu que\" alone at the start of a sentence expresses a hope: \"Pourvu qu'il fasse beau !\" (let's hope it's sunny!).",
         ],
         examples: [
           { es: "Je viendrai s'il fait beau.", en: "I'll come if it's nice." },
           { es: "Je viendrai même s'il pleut.", en: "I'll come even if it rains." },
+          { es: "On ira à la plage même s'il fait froid.", en: "We'll go to the beach even if it's cold." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence means 'I'll go even if you don't come'?",
+            options: ["J'irai même si tu ne viens pas.", "J'irai à moins que tu ne viennes.", "J'irai si tu ne viens pas.", "J'irai pourvu que tu ne viennes pas."],
+            correctIndex: 0,
+            explanation: "Regardless → \"même si\" + indicative.",
+          },
+        ],
+      },
+      {
+        heading: "Which mood after each",
+        body: [
+          "Moods, reviewed: \"si\" and \"même si\" + indicative (present, imperfect, pluperfect, never conditional or subjunctive). \"À condition que\", \"pourvu que\", \"à moins que\" + subjunctive (Upper-intermediate), with the ne explétif after \"à moins que\" in formal style. \"Quand bien même\" + conditional. With the same subject, the infinitive: \"à condition de\", \"à moins de\".",
+        ],
+        examples: [
           { es: "D'accord pour la soirée, à condition que tu rentres avant minuit.", en: "OK for the party, provided you're home before midnight." },
           { es: "On partira à huit heures, à moins qu'il y ait des bouchons.", en: "We'll leave at eight, unless there are traffic jams." },
-          { es: "Pourvu qu'il fasse beau demain !", en: "Let's hope it's sunny tomorrow!" },
           { es: "Tu peux emprunter la voiture, à condition de faire le plein.", en: "You can borrow the car, as long as you fill up the tank." },
         ],
         checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Même s'il ferait beau, je resterais à la maison.",
+            answer: "Même s'il faisait beau, je resterais à la maison.",
+            explanation: "\"Même si\", like \"si\", never takes the conditional: the hypothesis goes in the imperfect (\"faisait\") and the conditional stays in the main clause.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2271,36 +2616,50 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Tu peux sortir à condition de finir tes devoirs d'abord.", "Tu peux sortir, à condition d'avoir fini tes devoirs.", "Tu peux sortir, à condition que tu finisses tes devoirs d'abord.", "Tu peux sortir, pourvu que tu finisses tes devoirs d'abord."],
             explanation: "Same subject → \"à condition de\" + infinitive (\"à condition que tu finisses\" is also heard).",
           },
+        ],
+      },
+      {
+        heading: "Pourvu que on its own: a hope",
+        body: [
+          "Arguments at home often mix them: \"D'accord pour la soirée, à condition que tu rentres avant minuit. Et même si tes amis restent, toi, tu rentres.\" \"Pourvu que\" alone at the start of a sentence expresses a hope: \"Pourvu qu'il fasse beau !\" (let's hope it's sunny!).",
+        ],
+        examples: [
+          { es: "Pourvu qu'il fasse beau demain !", en: "Let's hope it's sunny tomorrow!" },
+          { es: "Pourvu que le colis arrive avant Noël !", en: "Let's hope the parcel arrives before Christmas!" },
+          { es: "Pourvu qu'elle ne soit pas en retard !", en: "Let's hope she isn't late!" },
+        ],
+        checkpoint: [
           {
-            type: "multiple-choice",
-            question: "Which sentence means 'I'll go even if you don't come'?",
-            options: [
-              "J'irai même si tu ne viens pas.",
-              "J'irai à moins que tu ne viennes.",
-              "J'irai si tu ne viens pas.",
-              "J'irai pourvu que tu ne viennes pas.",
-            ],
-            correctIndex: 0,
-            explanation: "Regardless → \"même si\" + indicative.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Let's hope the train is on time!",
+            answer: "Pourvu que le train soit à l'heure !",
+            altAnswers: ["Pourvu que le train arrive à l'heure !", "Espérons que le train sera à l'heure !"],
+            explanation: "\"Pourvu que\" + subjunctive at the start = let's hope.",
           },
         ],
       },
       {
-        heading: "Hypotheses: si j'avais, même si j'avais, quand bien même j'aurais",
+        heading: "Three hypothetical patterns",
         body: [
           "The three hypothetical patterns line up neatly. Condition: \"Si j'avais le temps, je t'aiderais.\" Concession: \"Même si j'avais le temps, je ne t'aiderais pas.\" Emphatic concession: \"Quand bien même j'aurais le temps, je ne t'aiderais pas.\" Past: \"Si j'avais su\" / \"Même si j'avais su\" / \"Quand bien même j'aurais su\".",
-          "\"Avoir beau\" in the conditional adds the idea of effort: \"Tu aurais beau insister, je ne t'aiderais pas.\" Remember: \"si\" never takes the conditional, \"quand bien même\" always does.",
-          "Spoken French has a handy alternative for hypotheses: the conditional in both halves without \"si\": \"Il me le demanderait, je ne le ferais pas\" (even if he asked me, I wouldn't). Recognise it; it's very natural in speech.",
         ],
         examples: [
           { es: "Si j'avais le temps, je t'aiderais.", en: "If I had time, I'd help you." },
           { es: "Même si j'avais le temps, je ne t'aiderais pas.", en: "Even if I had time, I wouldn't help you." },
           { es: "Quand bien même j'aurais le temps, je ne t'aiderais pas.", en: "Even supposing I had time, I wouldn't help you." },
           { es: "Si j'avais su, je serais venu plus tôt.", en: "If I'd known, I'd have come earlier." },
-          { es: "Tu aurais beau insister, je ne changerais pas d'avis.", en: "You could insist all you liked, I wouldn't change my mind." },
-          { es: "Il me le demanderait, je ne le ferais pas.", en: "Even if he asked me, I wouldn't do it." },
         ],
         checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[If I had known], I wouldn't have come.",
+            sentence: "___, je ne serais pas venu.",
+            answer: "Si j'avais su",
+            explanation: "Past condition: \"si\" + pluperfect, never \"*si j'aurais su\".",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2310,13 +2669,27 @@ export const FR_C1_U02: Lesson[] = [
             altAnswers: ["Quand bien même il m'aurait présenté des excuses, je ne lui aurais pas pardonné."],
             explanation: "\"Quand bien même\" + past conditional, past conditional in the main clause.",
           },
+        ],
+      },
+      {
+        heading: "Avoir beau, and the conditional without si",
+        body: [
+          "\"Avoir beau\" in the conditional adds the idea of effort: \"Tu aurais beau insister, je ne t'aiderais pas.\" Remember: \"si\" never takes the conditional, \"quand bien même\" always does.",
+          "Spoken French has a handy alternative for hypotheses: the conditional in both halves without \"si\": \"Il me le demanderait, je ne le ferais pas\" (even if he asked me, I wouldn't). Recognise it; it's very natural in speech.",
+        ],
+        examples: [
+          { es: "Tu aurais beau insister, je ne changerais pas d'avis.", en: "You could insist all you liked, I wouldn't change my mind." },
+          { es: "Il me le demanderait, je ne le ferais pas.", en: "Even if he asked me, I wouldn't do it." },
+          { es: "Elle aurait beau courir, elle raterait le train.", en: "However fast she ran, she'd miss the train." },
+        ],
+        checkpoint: [
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "[If I had known], I wouldn't have come.",
-            sentence: "___, je ne serais pas venu.",
-            answer: "Si j'avais su",
-            explanation: "Past condition: \"si\" + pluperfect, never \"*si j'aurais su\".",
+            type: "listen-choose",
+            audio: "Tu aurais beau me supplier, je ne céderais pas.",
+            question: "What does it mean?",
+            options: ["You could beg me all you liked, I wouldn't give in.", "If you begged me nicely, I'd give in.", "You begged me, but I didn't give in.", "You'd have to beg me before I gave in."],
+            correctIndex: 0,
+            explanation: "Conditional \"avoir beau\": a hypothetical effort that wouldn't work.",
           },
         ],
       },
@@ -2324,34 +2697,52 @@ export const FR_C1_U02: Lesson[] = [
         heading: "A family argument",
         body: [
           "Read this exchange between Inès, 17, and her father: \"Papa, je peux aller au festival ce week-end ? — Pas question, à moins que ta mère ne t'accompagne. — Mais j'ai dix-sept ans ! — Tu aurais beau en avoir vingt, ce serait pareil : c'est à trois cents kilomètres. — Même si Chloé vient avec moi ? Ses parents sont d'accord, pourvu qu'on dorme chez sa tante. — Bon... à condition que tu m'appelles tous les soirs. Et quand bien même ce serait génial, tu rentres dimanche !\"",
-          "Count the structures: \"à moins que... ne\" + subjunctive, \"avoir beau\" in the conditional, \"même si\" + indicative, \"pourvu que\" + subjunctive, \"à condition que\" + subjunctive, \"quand bien même\" + conditional. Conditions narrow the permission; concessions show what won't change.",
-          "Notice the register: the father uses the formal ne explétif even in a family argument; that's a personal style, and many speakers would drop it.",
         ],
         examples: [
           { es: "Pas question, à moins que ta mère ne t'accompagne.", en: "Out of the question, unless your mother goes with you." },
           { es: "Tu aurais beau en avoir vingt, ce serait pareil.", en: "Even if you were twenty, it would be the same." },
           { es: "Même si Chloé vient avec moi ?", en: "Even if Chloe comes with me?" },
           { es: "Ses parents sont d'accord, pourvu qu'on dorme chez sa tante.", en: "Her parents are OK with it, as long as we sleep at her aunt's." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Pas question, à moins que ton frère ne vienne avec toi.",
+            question: "What does it mean?",
+            options: ["No way, unless your brother comes with you.", "No way, even if your brother comes with you.", "No way, because your brother isn't coming with you.", "No way, unless your brother doesn't come with you."],
+            correctIndex: 0,
+            explanation: "\"À moins que\" means unless; the \"ne\" after it is the formal ne explétif, not a negation, so the brother does come.",
+          },
+        ],
+      },
+      {
+        heading: "Counting the structures",
+        body: [
+          "Count the structures: \"à moins que... ne\" + subjunctive, \"avoir beau\" in the conditional, \"même si\" + indicative, \"pourvu que\" + subjunctive, \"à condition que\" + subjunctive, \"quand bien même\" + conditional. Conditions narrow the permission; concessions show what won't change.",
+          "Notice the register: the father uses the formal ne explétif even in a family argument; that's a personal style, and many speakers would drop it.",
+        ],
+        examples: [
           { es: "D'accord, à condition que tu m'appelles tous les soirs.", en: "All right, on condition that you call me every evening." },
           { es: "Quand bien même ce serait génial, tu rentres dimanche !", en: "Even if it's amazing, you're coming home on Sunday!" },
+          { es: "Tu peux y aller, à moins que ton père ne refuse.", en: "You can go, unless your father says no." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French.",
-            source: "All right, on condition that you call me every evening. (to your daughter)",
-            answer: "D'accord, à condition que tu m'appelles tous les soirs.",
-            altAnswers: ["D'accord, à condition de m'appeler tous les soirs.", "D'accord, pourvu que tu m'appelles tous les soirs.", "Bon, d'accord, à condition que tu m'appelles tous les soirs.", "D'accord, à condition que tu me téléphones tous les soirs."],
-            explanation: "\"À condition que\" + subjunctive (different subjects).",
+            prompt: "Correct the sentence.",
+            source: "Je te prête la voiture, à condition que tu fais le plein.",
+            answer: "Je te prête la voiture, à condition que tu fasses le plein.",
+            explanation: "\"À condition que\" always takes the subjunctive: \"que tu fasses\", not the indicative \"tu fais\".",
           },
           {
-            type: "listen-choose",
-            audio: "Pas question, à moins que ta mère ne t'accompagne.",
-            question: "What does it mean?",
-            options: ["No way, unless your mother goes with you.", "No way, even if your mother goes with you.", "No way, because your mother isn't going with you.", "No way, unless your mother doesn't go with you."],
-            correctIndex: 0,
-            explanation: "\"À moins que... ne\": the ne is expletive, so unless your mother goes.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "OK, provided you text me when you get there. (to your son)",
+            answer: "D'accord, à condition que tu m'envoies un message quand tu arrives.",
+            altAnswers: ["D'accord, pourvu que tu m'envoies un message quand tu arrives.", "D'accord, à condition de m'envoyer un message quand tu arrives.", "D'accord, à condition que tu m'envoies un SMS quand tu arrives.", "D'accord, à condition que tu m'envoies un texto quand tu arrives.", "D'accord, à condition que tu m'envoies un message en arrivant.", "D'accord, à condition de m'envoyer un message en arrivant."],
+            explanation: "\"À condition que\" narrows the permission and takes the subjunctive: \"tu m'envoies\". \"Pourvu que\" works too; \"même si\" would turn the condition into a concession.",
           },
         ],
       },
@@ -2376,15 +2767,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "\"Même si\" + indicative: regardless.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Let's hope the train is on time!",
-        answer: "Pourvu que le train soit à l'heure !",
-        altAnswers: ["Pourvu que le train arrive à l'heure !", "Espérons que le train sera à l'heure !"],
-        explanation: "\"Pourvu que\" + subjunctive at the start = let's hope.",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "[However hard you try], you won't convince him. (to a friend)",
@@ -2396,12 +2778,7 @@ export const FR_C1_U02: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: [
-          "Quand bien même il viendrait, je ne lui parlerais pas.",
-          "Quand bien même il viendra, je ne lui parlerais pas.",
-          "Même s'il viendrait, je ne lui parlerais pas.",
-          "Si il viendrait, je lui parlerais.",
-        ],
+        options: ["Quand bien même il viendrait, je ne lui parlerais pas.", "Quand bien même il viendra, je ne lui parlerais pas.", "Même s'il viendrait, je ne lui parlerais pas.", "Si il viendrait, je lui parlerais."],
         correctIndex: 0,
         explanation: "\"Quand bien même\" + conditional; \"si / même si\" never take the conditional.",
       },
@@ -2440,14 +2817,6 @@ export const FR_C1_U02: Lesson[] = [
         explanation: "Mixed condition: pluperfect after \"si\", present conditional for a present consequence.",
       },
       {
-        type: "listen-choose",
-        audio: "Tu aurais beau me supplier, je ne céderais pas.",
-        question: "What does it mean?",
-        options: ["You could beg me all you liked, I wouldn't give in.", "If you begged me nicely, I'd give in.", "You begged me, but I didn't give in.", "You'd have to beg me before I gave in."],
-        correctIndex: 0,
-        explanation: "Conditional \"avoir beau\": a hypothetical effort that wouldn't work.",
-      },
-      {
         type: "dictation",
         audio: "Pourvu qu'il ne pleuve pas samedi !",
         explanation: "\"Pourvu que\" + subjunctive \"pleuve\" with a real negation.",
@@ -2457,6 +2826,15 @@ export const FR_C1_U02: Lesson[] = [
         text: "Même si tu as raison, ce n'est pas une raison pour crier.",
         prompt: "Say it in French to a friend: Even if you're right, that's no reason to shout.",
         explanation: "\"Même si\" + indicative; note the play on \"avoir raison\" / \"une raison\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn it into an emphatic concession with quand bien même.",
+        source: "Même s'il me le proposait, je refuserais.",
+        answer: "Quand bien même il me le proposerait, je refuserais.",
+        altAnswers: ["Quand bien même il me le proposerait, je le refuserais."],
+        explanation: "\"Même si\" takes the imperfect, but \"quand bien même\" always takes the conditional: \"il me le proposerait\". The main clause stays in the conditional.",
       },
     ],
   },

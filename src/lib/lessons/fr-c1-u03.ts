@@ -31,58 +31,107 @@ export const FR_C1_U03: Lesson[] = [
         heading: "Why French loves nouns",
         body: [
           "Open any French newspaper, official letter or company report and you'll see far more nouns than verbs: \"la hausse des prix\", \"la fermeture du guichet\", \"le licenciement de 200 salariés\". This nominal style is one of the clearest markers of formal written French, much more than in English, which tends to keep verbs ('prices have risen', 'the counter will close').",
+        ],
+        examples: [
+          { es: "Le guichet fermera samedi. → Fermeture du guichet samedi.", en: "The counter will close on Saturday. → Counter closed on Saturday." },
+          { es: "L'entreprise a licencié 200 salariés. → Le licenciement de 200 salariés a choqué la ville.", en: "The firm laid off 200 staff. → The dismissal of 200 staff shocked the town." },
+          { es: "La baisse des ventes se confirme.", en: "The fall in sales is confirmed." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which headline is written in the nominal style of a French newspaper?",
+            options: ["Hausse des températures dans le Sud", "Les températures montent dans le Sud", "Il fait de plus en plus chaud dans le Sud", "Ça chauffe dans le Sud"],
+            correctIndex: 0,
+            explanation: "Formal written French prefers a noun: \"hausse des températures\" packs the event into a noun phrase. The other three keep a verb (\"montent\", \"fait\", \"chauffe\"), the everyday spoken way.",
+          },
+        ],
+      },
+      {
+        heading: "Packing a clause into a noun",
+        body: [
           "Nominalising a verb lets you pack a whole clause into a noun phrase: \"Les prix ont augmenté\" → \"l'augmentation des prix\". The noun can then become the subject or object of another verb: \"L'augmentation des prix inquiète les ménages.\" It's compact, impersonal and authoritative, which is exactly why administrations and journalists love it.",
-          "At the Advanced level you need to do it both ways: produce the right noun from a verb, with the right gender and spelling, and understand dense nominal texts. The first step is the suffixes. The most productive three are -tion / -sion (feminine), -ment (masculine) and -age (masculine).",
         ],
         examples: [
           { es: "Les prix ont augmenté. → L'augmentation des prix inquiète les ménages.", en: "Prices have risen. → The rise in prices is worrying households." },
-          { es: "Le guichet fermera samedi. → Fermeture du guichet samedi.", en: "The counter will close on Saturday. → Counter closed on Saturday." },
-          { es: "L'entreprise a licencié 200 salariés. → Le licenciement de 200 salariés a choqué la ville.", en: "The firm laid off 200 staff. → The dismissal of 200 staff shocked the town." },
           { es: "La construction du nouveau pont a pris trois ans.", en: "Building the new bridge took three years." },
-          { es: "Le nettoyage des rues commence à six heures.", en: "Street cleaning starts at six." },
+          { es: "La fermeture de l'usine a surpris les habitants.", en: "The closure of the factory surprised the locals." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, using a noun for 'the rise in prices'.",
-            source: "The rise in prices worries households.",
-            answer: "L'augmentation des prix inquiète les ménages.",
-            altAnswers: ["La hausse des prix inquiète les ménages.", "L'augmentation des prix inquiète les foyers.", "La hausse des prix inquiète les foyers."],
-            explanation: "\"Augmenter\" → \"l'augmentation\" (feminine, -tion). The subject of the verb becomes \"des prix\".",
-          },
-          {
-            type: "multiple-choice",
-            question: "Which noun phrase says 'the closure of the station'?",
-            options: ["la fermeture de la gare", "le fermement de la gare", "la fermation de la gare", "le fermage de la gare"],
-            correctIndex: 0,
-            explanation: "\"Fermer\" → \"la fermeture\" (-ure, next lesson). Not every verb takes -tion or -ment: the noun must be learned.",
+            prompt: "Turn the clause into a noun subject.",
+            source: "Les tarifs ont augmenté, ce qui inquiète les familles.",
+            answer: "L'augmentation des tarifs inquiète les familles.",
+            altAnswers: ["La hausse des tarifs inquiète les familles.", "L'augmentation des tarifs inquiète les foyers.", "L'augmentation des tarifs inquiète les ménages."],
+            explanation: "\"Les tarifs ont augmenté\" packs into one noun phrase: \"l'augmentation des tarifs\" (augmenter → -ation, feminine), which then becomes the subject of \"inquiète\".",
           },
         ],
       },
       {
-        heading: "-tion and -sion: feminine",
+        heading: "Three suffixes to start with",
+        body: [
+          "At the Advanced level you need to do it both ways: produce the right noun from a verb, with the right gender and spelling, and understand dense nominal texts. The first step is the suffixes. The most productive three are -tion / -sion (feminine), -ment (masculine) and -age (masculine).",
+        ],
+        examples: [
+          { es: "Le nettoyage des rues commence à six heures.", en: "Street cleaning starts at six." },
+          { es: "La réparation du toit est terminée.", en: "The repair of the roof is finished." },
+          { es: "Le remboursement arrive sous dix jours.", en: "The refund arrives within ten days." },
+        ],
+        checkpoint: [
+          {
+            type: "matching",
+            instructions: "Match each verb with its noun.",
+            pairs: [
+              { left: "licencier", right: "le licenciement" },
+              { left: "réduire", right: "la réduction" },
+              { left: "démarrer", right: "le démarrage" },
+              { left: "interdire", right: "l'interdiction" },
+              { left: "payer", right: "le paiement" },
+            ],
+            explanation: "-ment and -age are masculine; -tion is feminine.",
+          },
+        ],
+      },
+      {
+        heading: "-tion and -sion are feminine",
         body: [
           "Nouns in -tion / -sion are always feminine: \"la décision\", \"la réduction\", \"l'organisation\". Many verbs in -er form them with -ation: \"augmenter → l'augmentation\", \"organiser → l'organisation\", \"rénover → la rénovation\", \"créer → la création\", \"réparer → la réparation\".",
-          "Verbs in -uire take -uction: \"réduire → la réduction\", \"produire → la production\", \"construire → la construction\", \"introduire → l'introduction\". Verbs in -ndre often give -nsion or -ntion: \"suspendre → la suspension\", \"prétendre → la prétention\", \"comprendre → la compréhension\". Others: \"décider → la décision\", \"diffuser → la diffusion\", \"inscrire → l'inscription\", \"interdire → l'interdiction\", \"élire → l'élection\".",
-          "Because these words look like English, they're easy to recognise but easy to misspell: French writes \"la connexion\" (connection), \"la réflexion\" (reflection), and double letters differ (\"l'adresse\" vs address, \"la personnalité\"). And the English -tion noun doesn't always exist in French: the noun from \"licencier\" (to lay off) is \"le licenciement\", not \"*la licenciation\" (see -ment).",
         ],
         examples: [
           { es: "La rénovation de la gare durera deux ans.", en: "The renovation of the station will take two years." },
+          { es: "La création de cent emplois est prévue d'ici 2028.", en: "The creation of a hundred jobs is planned by 2028." },
+          { es: "La décision du conseil sera publiée lundi.", en: "The council's decision will be published on Monday." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which noun phrase is correct for 'the presentation of the project'?",
+            options: ["la présentation du projet", "le présentation du projet", "le présentement du projet", "la présentage du projet"],
+            correctIndex: 0,
+            explanation: "\"Présenter\" is an -er verb, so it takes -ation: \"la présentation\", feminine like every -tion noun. \"Le présentation\" has the wrong gender, and -ment / -age don't exist with this verb.",
+          },
+        ],
+      },
+      {
+        heading: "-uire, -ndre and other verbs",
+        body: [
+          "Verbs in -uire take -uction: \"réduire → la réduction\", \"produire → la production\", \"construire → la construction\", \"introduire → l'introduction\". Verbs in -ndre often give -nsion or -ntion: \"suspendre → la suspension\", \"prétendre → la prétention\", \"comprendre → la compréhension\". Others: \"décider → la décision\", \"diffuser → la diffusion\", \"inscrire → l'inscription\", \"interdire → l'interdiction\", \"élire → l'élection\".",
+        ],
+        examples: [
           { es: "La réduction des effectifs a été annoncée hier.", en: "The staff cuts were announced yesterday." },
           { es: "L'inscription en ligne est obligatoire.", en: "Online registration is compulsory." },
           { es: "L'interdiction de fumer s'applique aussi aux terrasses.", en: "The smoking ban also applies to terraces." },
-          { es: "La décision du conseil sera publiée lundi.", en: "The council's decision will be published on Monday." },
-          { es: "La création de cent emplois est prévue d'ici 2028.", en: "The creation of a hundred jobs is planned by 2028." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "[The building] of the stadium will start in May.",
-            sentence: "___ du stade commencera en mai.",
-            answer: "La construction",
-            explanation: "\"Construire\" → \"la construction\" (-uction), feminine.",
+            en: "[The translation] of the novel will come out in May.",
+            sentence: "___ du roman sortira en mai.",
+            answer: "La traduction",
+            explanation: "Like \"réduire → la réduction\", verbs in -uire give -uction: \"traduire → la traduction\", feminine like every -tion noun.",
           },
           {
             type: "translate",
@@ -96,27 +145,45 @@ export const FR_C1_U03: Lesson[] = [
         ],
       },
       {
-        heading: "-ment and -age: masculine, with six exceptions",
+        heading: "Look-alikes and missing -tion nouns",
+        body: [
+          "Because these words look like English, they're easy to recognise but easy to misspell: French writes \"la connexion\" (connection), \"la réflexion\" (reflection), and double letters differ (\"l'adresse\" vs address, \"la personnalité\"). And the English -tion noun doesn't always exist in French: the noun from \"licencier\" (to lay off) is \"le licenciement\", not \"*la licenciation\" (see -ment).",
+        ],
+        examples: [
+          { es: "La connexion est coupée depuis ce matin.", en: "The connection has been down since this morning." },
+          { es: "Après réflexion, nous refusons l'offre.", en: "On reflection, we're turning down the offer." },
+          { es: "Envoyez-nous votre adresse complète.", en: "Send us your full address." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La licenciation du directeur a surpris tout le monde.",
+            answer: "Le licenciement du directeur a surpris tout le monde.",
+            explanation: "\"Licencier\" has no -tion noun: the French noun is \"le licenciement\" (-ment, masculine), so the article changes too.",
+          },
+        ],
+      },
+      {
+        heading: "-ment: masculine",
         body: [
           "Nouns in -ment derived from verbs are masculine: \"licencier → le licenciement\", \"développer → le développement\", \"lancer → le lancement\", \"recruter → le recrutement\", \"payer → le paiement\", \"stationner → le stationnement\", \"remplacer → le remplacement\", \"changer → le changement\". They often name the action or its result.",
-          "Nouns in -age are also masculine: \"nettoyer → le nettoyage\", \"chauffer → le chauffage\", \"tourner → le tournage\" (filming), \"démarrer → le démarrage\", \"arroser → l'arrosage\", \"apprendre → l'apprentissage\", \"passer → le passage\". This suffix often names a technical process.",
-          "The famous exceptions in -age are feminine (only \"la nage\" comes from a verb): \"la page\", \"l'image\", \"la plage\", \"la cage\", \"la nage\", \"la rage\". Learn them as a chant. Apart from those, an -age noun is masculine, which goes against many learners' instinct: \"le chômage\", \"le fromage\", \"le courage\", \"le message\", \"le garage\".",
         ],
         examples: [
           { es: "Le licenciement de trente salariés a provoqué une grève.", en: "The dismissal of thirty employees triggered a strike." },
           { es: "Le lancement du produit est reporté à l'automne.", en: "The product launch has been postponed to the autumn." },
           { es: "Le paiement s'effectue en trois fois sans frais.", en: "Payment is made in three interest-free instalments." },
           { es: "Le stationnement est interdit devant l'école.", en: "Parking is prohibited in front of the school." },
-          { es: "Le chauffage collectif sera coupé pendant les travaux.", en: "The communal heating will be cut off during the works." },
-          { es: "Le tournage du film a lieu à Marseille.", en: "The film is being shot in Marseille." },
         ],
         checkpoint: [
           {
-            type: "multiple-choice",
-            question: "Which noun phrase is correct?",
-            options: ["le nettoyage des bureaux", "la nettoyage des bureaux", "la nettoyation des bureaux", "le nettoyement des bureaux"],
+            type: "listen-choose",
+            audio: "Le stationnement est interdit devant l'entrée du garage.",
+            question: "What does it mean?",
+            options: ["Parking is prohibited in front of the garage entrance.", "The garage entrance is closed.", "The station entrance is closed to cars.", "Parking is free in front of the garage entrance."],
             correctIndex: 0,
-            explanation: "\"Nettoyer\" → \"le nettoyage\" (-age, masculine).",
+            explanation: "\"Le stationnement\" (from stationner) = parking, the act of parking; \"un parking\" is a car park.",
           },
           {
             type: "translate",
@@ -127,13 +194,45 @@ export const FR_C1_U03: Lesson[] = [
             altAnswers: ["Le recrutement de nouveaux professeurs est une priorité.", "Le recrutement de nouveaux profs est une priorité."],
             explanation: "\"Recruter\" → \"le recrutement\" (-ment, masculine). \"De\" (not \"des\") before an adjective + plural noun in careful style.",
           },
+        ],
+      },
+      {
+        heading: "-age: masculine too",
+        body: [
+          "Nouns in -age are also masculine: \"nettoyer → le nettoyage\", \"chauffer → le chauffage\", \"tourner → le tournage\" (filming), \"démarrer → le démarrage\", \"arroser → l'arrosage\", \"apprendre → l'apprentissage\", \"passer → le passage\". This suffix often names a technical process.",
+        ],
+        examples: [
+          { es: "Le chauffage collectif sera coupé pendant les travaux.", en: "The communal heating will be cut off during the works." },
+          { es: "Le tournage du film a lieu à Marseille.", en: "The film is being shot in Marseille." },
+          { es: "L'arrosage des jardins est interdit en été.", en: "Watering gardens is banned in summer." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "Le stationnement est interdit devant l'entrée du garage.",
-            question: "What does it mean?",
-            options: ["Parking is prohibited in front of the garage entrance.", "The garage entrance is closed.", "The station entrance is closed to cars.", "Parking is free in front of the garage entrance."],
+            type: "multiple-choice",
+            question: "Which noun phrase is correct?",
+            options: ["le nettoyage des bureaux", "la nettoyage des bureaux", "la nettoyation des bureaux", "le nettoyement des bureaux"],
             correctIndex: 0,
-            explanation: "\"Le stationnement\" (from stationner) = parking, the act of parking; \"un parking\" is a car park.",
+            explanation: "\"Nettoyer\" → \"le nettoyage\" (-age, masculine).",
+          },
+        ],
+      },
+      {
+        heading: "The feminine exceptions in -age",
+        body: [
+          "The famous exceptions in -age are feminine (only \"la nage\" comes from a verb): \"la page\", \"l'image\", \"la plage\", \"la cage\", \"la nage\", \"la rage\". Learn them as a chant. Apart from those, an -age noun is masculine, which goes against many learners' instinct: \"le chômage\", \"le fromage\", \"le courage\", \"le message\", \"le garage\".",
+        ],
+        examples: [
+          { es: "Tournez la page, s'il vous plaît.", en: "Please turn the page." },
+          { es: "L'image est un peu floue.", en: "The picture is a bit blurry." },
+          { es: "Le courage ne lui manque pas.", en: "He doesn't lack courage." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which -age noun is feminine?",
+            options: ["la plage", "le passage", "le chômage", "le message"],
+            correctIndex: 0,
+            explanation: "\"La plage\" is one of the six feminine -age nouns (page, image, plage, cage, nage, rage).",
           },
         ],
       },
@@ -172,25 +271,6 @@ export const FR_C1_U03: Lesson[] = [
         answer: "La réparation du chauffage aura lieu la semaine prochaine.",
         altAnswers: ["Le chauffage sera réparé la semaine prochaine.", "La réparation du chauffage est prévue la semaine prochaine.", "La réparation du chauffage se fera la semaine prochaine."],
         explanation: "\"Réparer\" → \"la réparation\"; \"chauffer\" → \"le chauffage\": both nouns.",
-      },
-      {
-        type: "matching",
-        instructions: "Match each verb with its noun.",
-        pairs: [
-          { left: "licencier", right: "le licenciement" },
-          { left: "réduire", right: "la réduction" },
-          { left: "démarrer", right: "le démarrage" },
-          { left: "interdire", right: "l'interdiction" },
-          { left: "payer", right: "le paiement" },
-        ],
-        explanation: "-ment and -age are masculine; -tion is feminine.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which -age noun is feminine?",
-        options: ["la plage", "le passage", "le chômage", "le message"],
-        correctIndex: 0,
-        explanation: "\"La plage\" is one of the six feminine -age nouns (page, image, plage, cage, nage, rage).",
       },
       {
         type: "translate",
@@ -249,16 +329,52 @@ export const FR_C1_U03: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "-ée, -ance / -ence, -ure, -ade: feminine",
+        heading: "-ée: an action or a period",
         body: [
           "Four more suffixes, all producing feminine nouns. -ée names an action or a period: \"arriver → l'arrivée\", \"entrer → l'entrée\", \"rentrer → la rentrée\", \"durer → la durée\", \"monter → la montée\", \"penser → la pensée\". (\"Le musée\" and \"le lycée\" are masculine, but they don't come from verbs.)",
-          "-ance / -ence often names a state or a process: \"naître → la naissance\", \"croître → la croissance\", \"souffrir → la souffrance\", \"résister → la résistance\", \"dépendre → la dépendance\", \"préférer → la préférence\", \"exiger → l'exigence\". The spelling (a or e) often matches the present participle (\"résistant → la résistance\", \"dépendant → la dépendance\"), but not always (\"exigeant → l'exigence\", \"préférant → la préférence\"); check in a dictionary when unsure.",
-          "-ure names an action or its result: \"ouvrir → l'ouverture\", \"fermer → la fermeture\", \"signer → la signature\", \"couper → la coupure\", \"lire → la lecture\", \"écrire → l'écriture\", \"brûler → la brûlure\". -ade, rarer, often names a single action: \"promener → la promenade\", \"baigner → la baignade\", \"glisser → la glissade\", \"embrasser → l'embrassade\".",
         ],
         examples: [
           { es: "L'arrivée des coureurs est prévue vers seize heures.", en: "The runners are expected to arrive around 4 p.m." },
           { es: "La rentrée scolaire aura lieu le 2 septembre.", en: "The new school year starts on 2 September." },
+          { es: "La montée des eaux inquiète les riverains.", en: "The rising water is worrying local residents." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which noun phrase says 'the length of the contract'?",
+            options: ["la durée du contrat", "le durée du contrat", "la durance du contrat", "le durement du contrat"],
+            correctIndex: 0,
+            explanation: "\"Durer\" gives \"la durée\": -ée names a period and is feminine. \"Le durée\" has the wrong gender; the other two nouns don't exist.",
+          },
+        ],
+      },
+      {
+        heading: "-ance and -ence: states and processes",
+        body: [
+          "-ance / -ence often names a state or a process: \"naître → la naissance\", \"croître → la croissance\", \"souffrir → la souffrance\", \"résister → la résistance\", \"dépendre → la dépendance\", \"préférer → la préférence\", \"exiger → l'exigence\". The spelling (a or e) often matches the present participle (\"résistant → la résistance\", \"dépendant → la dépendance\"), but not always (\"exigeant → l'exigence\", \"préférant → la préférence\"); check in a dictionary when unsure.",
+        ],
+        examples: [
           { es: "La croissance économique ralentit depuis six mois.", en: "Economic growth has been slowing for six months." },
+          { es: "La résistance des habitants a duré des mois.", en: "The residents' resistance lasted for months." },
+          { es: "La dépendance au téléphone touche surtout les ados.", en: "Phone dependency mainly affects teenagers." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[The existence] of the problem is undeniable.",
+            sentence: "___ du problème est indéniable.",
+            answer: "L'existence",
+            explanation: "\"Exister\" (present participle \"existant\") gives \"l'existence\", feminine like all -ance / -ence nouns. Here the participle has an a but the noun has e: one of the cases to check.",
+          },
+        ],
+      },
+      {
+        heading: "-ure and -ade",
+        body: [
+          "-ure names an action or its result: \"ouvrir → l'ouverture\", \"fermer → la fermeture\", \"signer → la signature\", \"couper → la coupure\", \"lire → la lecture\", \"écrire → l'écriture\", \"brûler → la brûlure\". -ade, rarer, often names a single action: \"promener → la promenade\", \"baigner → la baignade\", \"glisser → la glissade\", \"embrasser → l'embrassade\".",
+        ],
+        examples: [
           { es: "L'ouverture du magasin est retardée d'une heure.", en: "The shop's opening is delayed by an hour." },
           { es: "Une coupure d'électricité a touché tout le quartier.", en: "A power cut affected the whole neighbourhood." },
           { es: "La baignade est interdite sur cette plage.", en: "Swimming is prohibited on this beach." },
@@ -276,27 +392,42 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, using a noun.",
-            source: "Swimming is prohibited after 7 p.m.",
-            answer: "La baignade est interdite après 19 heures.",
-            altAnswers: ["La baignade est interdite après 19 h.", "La baignade est interdite après sept heures du soir.", "Baignade interdite après 19 heures."],
-            explanation: "\"Se baigner\" → \"la baignade\" (-ade), the standard word on beach signs.",
+            prompt: "Turn it into a headline with a noun.",
+            source: "Le musée fermera lundi.",
+            answer: "Fermeture du musée lundi",
+            altAnswers: ["La fermeture du musée aura lieu lundi.", "Fermeture du musée ce lundi", "La fermeture du musée est prévue lundi.", "Fermeture du musée le lundi"],
+            explanation: "\"Fermer\" gives \"la fermeture\" (-ure, feminine). A headline drops the verb and the article: \"Fermeture du musée lundi\".",
           },
         ],
       },
       {
-        heading: "Nouns with no suffix: le choix, la baisse, la hausse",
+        heading: "No suffix: the masculine ones",
         body: [
           "Many very common nouns are formed from the verb stem with no suffix at all, and their gender has to be learned. Masculine: \"choisir → le choix\", \"acheter → l'achat\", \"reculer → le recul\", \"appeler → l'appel\", \"refuser → le refus\", \"accorder → l'accord\", \"débattre → le débat\", \"soutenir → le soutien\", \"retarder → le retard\", \"reporter → le report\", \"partir → le départ\".",
+        ],
+        examples: [
+          { es: "Le report du vote a surpris les députés.", en: "The postponement of the vote surprised MPs." },
+          { es: "Le recul de la consommation inquiète les commerçants.", en: "The drop in consumer spending is worrying shopkeepers." },
+          { es: "Les syndicats ont lancé un appel à la grève.", en: "The unions have called a strike." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which noun is masculine?",
+            options: ["le départ", "la demande", "l'attente", "la marche"],
+            correctIndex: 0,
+            explanation: "\"Partir → le départ\" (masculine); the others are feminine.",
+          },
+        ],
+      },
+      {
+        heading: "No suffix: the feminine ones",
+        body: [
           "Feminine: \"baisser → la baisse\", \"hausser → la hausse\", \"demander → la demande\", \"aider → l'aide\", \"visiter → la visite\", \"marcher → la marche\", \"attendre → l'attente\", \"embaucher → l'embauche\", \"relancer → la relance\", \"chuter → la chute\".",
-          "These short nouns are the staple of economic and political news: \"la baisse du chômage\", \"la hausse des taux\", \"le recul de la consommation\", \"l'appel à la grève\", \"le report du vote\". They're shorter and punchier than suffixed forms; \"la hausse\" is preferred to \"l'augmentation\" in headlines.",
         ],
         examples: [
           { es: "La baisse du chômage se confirme.", en: "The fall in unemployment is confirmed." },
           { es: "La hausse des taux d'intérêt pénalise les emprunteurs.", en: "The rise in interest rates penalises borrowers." },
-          { es: "Le recul de la consommation inquiète les commerçants.", en: "The drop in consumer spending is worrying shopkeepers." },
-          { es: "Les syndicats ont lancé un appel à la grève.", en: "The unions have called a strike." },
-          { es: "Le report du vote a surpris les députés.", en: "The postponement of the vote surprised MPs." },
           { es: "L'attente aux urgences dépasse parfois six heures.", en: "The wait in A&E sometimes exceeds six hours." },
         ],
         checkpoint: [
@@ -307,6 +438,19 @@ export const FR_C1_U03: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Hausser\" → \"la hausse\" (no suffix, feminine). The h is aspirated: \"la hausse\", not \"l'hausse\".",
           },
+        ],
+      },
+      {
+        heading: "Short nouns for the news",
+        body: [
+          "These short nouns are the staple of economic and political news: \"la baisse du chômage\", \"la hausse des taux\", \"le recul de la consommation\", \"l'appel à la grève\", \"le report du vote\". They're shorter and punchier than suffixed forms; \"la hausse\" is preferred to \"l'augmentation\" in headlines.",
+        ],
+        examples: [
+          { es: "Report du match à cause de la pluie", en: "Match postponed because of rain" },
+          { es: "Appel à la mobilisation devant la mairie", en: "Call to rally outside the town hall" },
+          { es: "Nouvelle hausse du prix de l'essence", en: "Petrol prices rise again" },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -322,16 +466,11 @@ export const FR_C1_U03: Lesson[] = [
         heading: "Irregular pairs",
         body: [
           "Some nouns come from an older or different root, so you can't derive them by rule: \"mourir → la mort\", \"naître → la naissance\", \"vivre → la vie\", \"perdre → la perte\", \"vendre → la vente\", \"offrir → l'offre\", \"finir → la fin\", \"voir → la vue\", \"venir → la venue\", \"croire → la croyance\", \"plaire → le plaisir\", \"rire → le rire\", \"savoir → le savoir\" / \"la connaissance\" (from connaître).",
-          "In admin and business language several of these are everywhere: \"la vente\" (sale), \"la perte\" (loss), \"l'offre\" (offer, supply: \"l'offre et la demande\"), \"la mise en vente\" (putting on sale). Note \"la mise\" from mettre, used in many compounds: \"la mise en place\" (setting up), \"la mise en œuvre\" (implementation), \"la mise à jour\" (update).",
-          "Likewise \"prendre → la prise\" (\"la prise de décision\", \"la prise en charge\" = covering costs, taking care of) and \"faire → le fait\" or \"la façon\". These mise / prise compounds are among the most useful nominal expressions at the Advanced level.",
         ],
         examples: [
           { es: "La vente de la maison a pris six mois.", en: "Selling the house took six months." },
           { es: "L'entreprise a annoncé une perte de dix millions d'euros.", en: "The company announced a loss of ten million euros." },
-          { es: "Les prix dépendent de l'offre et de la demande.", en: "Prices depend on supply and demand." },
-          { es: "La mise en place du nouveau système prendra du temps.", en: "Setting up the new system will take time." },
-          { es: "La mise à jour du logiciel est obligatoire.", en: "The software update is compulsory." },
-          { es: "Les frais de transport font l'objet d'une prise en charge partielle.", en: "Travel costs are partly covered." },
+          { es: "La fin du film m'a déçu.", en: "The ending of the film disappointed me." },
         ],
         checkpoint: [
           {
@@ -346,6 +485,27 @@ export const FR_C1_U03: Lesson[] = [
             ],
             explanation: "Irregular pairs: learn them as vocabulary.",
           },
+        ],
+      },
+      {
+        heading: "La mise: nouns from mettre",
+        body: [
+          "In admin and business language several of these are everywhere: \"la vente\" (sale), \"la perte\" (loss), \"l'offre\" (offer, supply: \"l'offre et la demande\"), \"la mise en vente\" (putting on sale). Note \"la mise\" from mettre, used in many compounds: \"la mise en place\" (setting up), \"la mise en œuvre\" (implementation), \"la mise à jour\" (update).",
+        ],
+        examples: [
+          { es: "Les prix dépendent de l'offre et de la demande.", en: "Prices depend on supply and demand." },
+          { es: "La mise en place du nouveau système prendra du temps.", en: "Setting up the new system will take time." },
+          { es: "La mise à jour du logiciel est obligatoire.", en: "The software update is compulsory." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "La mise en vente de l'appartement est prévue en juin.",
+            question: "What does it mean?",
+            options: ["The flat will be put on sale in June.", "The flat was sold in June.", "The flat's update is planned for June.", "The flat will be set up in June."],
+            correctIndex: 0,
+            explanation: "\"La mise en vente\" (from \"mettre en vente\") is the putting on sale, not the sale itself (\"la vente\") or an update (\"la mise à jour\").",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -355,13 +515,29 @@ export const FR_C1_U03: Lesson[] = [
             altAnswers: ["La mise en œuvre de la réforme va prendre deux ans.", "La mise en place de la réforme prendra deux ans.", "La mise en place de la réforme va prendre deux ans."],
             explanation: "\"Mettre en œuvre\" → \"la mise en œuvre\" (implementation).",
           },
+        ],
+      },
+      {
+        heading: "La prise: nouns from prendre",
+        body: [
+          "Likewise \"prendre → la prise\" (\"la prise de décision\", \"la prise en charge\" = covering costs, taking care of) and \"faire → le fait\" or \"la façon\". These mise / prise compounds are among the most useful nominal expressions at the Advanced level.",
+        ],
+        examples: [
+          { es: "Les frais de transport font l'objet d'une prise en charge partielle.", en: "Travel costs are partly covered." },
+          { es: "La prise de décision est trop lente ici.", en: "Decision-making is too slow here." },
+          { es: "La prise en charge des patients commence dès l'accueil.", en: "Patient care begins at reception." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "La mise à jour du logiciel est obligatoire.",
-            question: "What does it mean?",
-            options: ["The software update is compulsory.", "Setting up the software is optional.", "The software is updated daily.", "The software is on sale."],
-            correctIndex: 0,
-            explanation: "\"La mise à jour\" = the update.",
+            type: "matching",
+            instructions: "Match each noun with its meaning.",
+            pairs: [
+              { left: "la mise en place", right: "the setting up" },
+              { left: "la mise à jour", right: "the update" },
+              { left: "la prise en charge", right: "the covering of costs / care" },
+              { left: "la prise de décision", right: "decision-making" },
+            ],
+            explanation: "\"Mise\" (from mettre) and \"prise\" (from prendre) form many compound nouns.",
           },
         ],
       },
@@ -412,13 +588,6 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "\"La baisse\" or \"le recul\" + \"du chômage\".",
       },
       {
-        type: "multiple-choice",
-        question: "Which noun is masculine?",
-        options: ["le départ", "la demande", "l'attente", "la marche"],
-        correctIndex: 0,
-        explanation: "\"Partir → le départ\" (masculine); the others are feminine.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French, using a noun.",
@@ -444,17 +613,6 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "\"Attendre\" → \"l'attente\" (feminine) → \"longue\".",
       },
       {
-        type: "matching",
-        instructions: "Match each noun with its meaning.",
-        pairs: [
-          { left: "la mise en place", right: "the setting up" },
-          { left: "la mise à jour", right: "the update" },
-          { left: "la prise en charge", right: "the covering of costs / care" },
-          { left: "la prise de décision", right: "decision-making" },
-        ],
-        explanation: "\"Mise\" (from mettre) and \"prise\" (from prendre) form many compound nouns.",
-      },
-      {
         type: "dictation",
         audio: "La hausse des prix pèse sur les ménages.",
         explanation: "\"La hausse\": aspirated h, so no elision.",
@@ -464,6 +622,23 @@ export const FR_C1_U03: Lesson[] = [
         text: "La rentrée a lieu début septembre.",
         prompt: "Say it in French: The new school year starts in early September.",
         explanation: "\"Rentrer\" → \"la rentrée\" (-ée), a key word of French life.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn it into a headline with a short noun.",
+        source: "Les taux d'intérêt baissent encore.",
+        answer: "Nouvelle baisse des taux d'intérêt",
+        altAnswers: ["Baisse des taux d'intérêt", "Encore une baisse des taux d'intérêt", "Nouvelle baisse des taux", "La baisse des taux d'intérêt continue."],
+        explanation: "\"Baisser\" gives the suffix-less noun \"la baisse\", the headline favourite; \"encore\" becomes the adjective \"nouvelle\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "La prise à jour du site est prévue demain.",
+        answer: "La mise à jour du site est prévue demain.",
+        explanation: "An update is \"la mise à jour\", from \"mettre à jour\". \"La prise\" (from prendre) goes in other compounds: \"la prise de décision\", \"la prise en charge\".",
       },
     ],
   },
@@ -476,88 +651,158 @@ export const FR_C1_U03: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "-ité and -eur: qualities, mostly feminine",
+        heading: "-ité: naming a quality",
         body: [
           "Adjectives become nouns to name a quality: 'fast' → 'speed', 'slow' → 'slowness'. French has a set of suffixes for this, and almost all of them produce feminine nouns. -ité is the most productive (English -ity): \"rapide → la rapidité\", \"sincère → la sincérité\", \"fiable → la fiabilité\", \"rentable → la rentabilité\", \"précaire → la précarité\", \"actif → l'activité\". Many adjectives in -ble give -bilité: \"responsable → la responsabilité\", \"disponible → la disponibilité\".",
-          "Some -ité nouns drop or change letters: \"beau → la beauté\", \"fier → la fierté\", \"propre → la propreté\", \"sale → la saleté\", \"lâche → la lâcheté\", \"pauvre → la pauvreté\". Note the é ending without -it-.",
-          "-eur names physical qualities and sensations, often measurements: \"lent → la lenteur\", \"grand → la grandeur\", \"large → la largeur\", \"épais → l'épaisseur\", \"doux → la douceur\", \"chaud → la chaleur\", \"frais → la fraîcheur\", \"blanc → la blancheur\". These are feminine, unlike the agent nouns in -eur (\"le chanteur\") and the exceptions \"le bonheur\", \"le malheur\", \"l'honneur\".",
         ],
         examples: [
           { es: "La rapidité du service nous a surpris.", en: "The speed of the service surprised us." },
           { es: "La fiabilité de ces voitures n'est plus à prouver.", en: "These cars' reliability is well established." },
-          { es: "La lenteur de l'administration décourage les usagers.", en: "The slowness of the administration discourages users." },
-          { es: "La largeur de la route ne permet pas aux camions de passer.", en: "The road isn't wide enough for lorries to get through." },
-          { es: "La propreté des rues s'est beaucoup améliorée.", en: "The cleanliness of the streets has greatly improved." },
-          { es: "La douceur du climat attire de nombreux retraités.", en: "The mild climate attracts many retired people." },
+          { es: "La rentabilité du projet reste à démontrer.", en: "The project's profitability has yet to be shown." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French, using a noun.",
-            source: "The slowness of the procedure is unacceptable.",
-            answer: "La lenteur de la procédure est inacceptable.",
-            altAnswers: ["La lenteur de la procédure est inadmissible."],
-            explanation: "\"Lent\" → \"la lenteur\" (-eur, feminine).",
-          },
-          {
             type: "multiple-choice",
-            question: "Which noun means 'reliability'?",
-            options: ["la fiabilité", "la fiableté", "le fiabilisme", "la fiablesse"],
+            question: "Which noun means 'visibility'?",
+            options: ["la visibilité", "la visibleté", "la visiblesse", "le visibilisme"],
             correctIndex: 0,
-            explanation: "\"Fiable\" → \"la fiabilité\" (-ble → -bilité).",
+            explanation: "Adjectives in -ble give -bilité: \"visible → la visibilité\", like \"disponible → la disponibilité\". The other forms aren't French.",
           },
         ],
       },
       {
-        heading: "-esse, -ise, -ude",
+        heading: "-té without -it-",
         body: [
-          "-esse is used with a set of common adjectives, especially for moral or physical qualities: \"faible → la faiblesse\", \"riche → la richesse\", \"jeune → la jeunesse\", \"sage → la sagesse\", \"tendre → la tendresse\", \"souple → la souplesse\", \"politesse\" (from poli), \"justesse\" (from juste: accuracy; \"de justesse\" = narrowly).",
-          "-ise appears with a handful of adjectives, often for a character trait: \"franc → la franchise\", \"bête → la bêtise\", \"gourmand → la gourmandise\", \"sot → la sottise\", \"maladroit → la maladresse\" (careful: -esse here). \"La franchise\" also means an insurance excess or a franchise; context decides.",
-          "-ude is learned with its words: \"exact → l'exactitude\", \"certain → la certitude\", \"inquiet → l'inquiétude\", \"seul → la solitude\", \"apte → l'aptitude\", \"plein → la plénitude\". All feminine. Note the sense difference: \"la certitude\" (certainty, the feeling of being sure) vs \"la sécurité\" (safety).",
+          "Some -ité nouns drop or change letters: \"beau → la beauté\", \"fier → la fierté\", \"propre → la propreté\", \"sale → la saleté\", \"lâche → la lâcheté\", \"pauvre → la pauvreté\". Note the é ending without -it-.",
         ],
         examples: [
-          { es: "La faiblesse de l'euro favorise les exportations.", en: "The weakness of the euro favours exports." },
-          { es: "La richesse du vocabulaire de ce poète est étonnante.", en: "The richness of this poet's vocabulary is astonishing." },
-          { es: "J'apprécie sa franchise, même quand elle blesse.", en: "I appreciate her frankness, even when it hurts." },
-          { es: "L'exactitude des chiffres a été vérifiée.", en: "The accuracy of the figures has been checked." },
-          { es: "L'inquiétude des parents grandit.", en: "Parents' concern is growing." },
-          { es: "Il a eu son train de justesse.", en: "He caught his train by the skin of his teeth." },
+          { es: "La propreté des rues s'est beaucoup améliorée.", en: "The cleanliness of the streets has greatly improved." },
+          { es: "La beauté du paysage nous a coupé le souffle.", en: "The beauty of the landscape took our breath away." },
+          { es: "La pauvreté recule dans la région.", en: "Poverty is falling in the region." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "[The frankness] of her answer shocked the journalists.",
-            sentence: "___ de sa réponse a choqué les journalistes.",
-            answer: "La franchise",
-            explanation: "\"Franc\" → \"la franchise\" (-ise).",
+            en: "[The sharpness] of the picture is remarkable.",
+            sentence: "___ de l'image est remarquable.",
+            answer: "La netteté",
+            explanation: "\"Net\" gives \"la netteté\" (é ending, no -it-), feminine like the other quality nouns.",
+          },
+        ],
+      },
+      {
+        heading: "-eur: physical qualities, feminine",
+        body: [
+          "-eur names physical qualities and sensations, often measurements: \"lent → la lenteur\", \"grand → la grandeur\", \"large → la largeur\", \"épais → l'épaisseur\", \"doux → la douceur\", \"chaud → la chaleur\", \"frais → la fraîcheur\", \"blanc → la blancheur\". These are feminine, unlike the agent nouns in -eur (\"le chanteur\") and the exceptions \"le bonheur\", \"le malheur\", \"l'honneur\".",
+        ],
+        examples: [
+          { es: "La lenteur de l'administration décourage les usagers.", en: "The slowness of the administration discourages users." },
+          { es: "La largeur de la route ne permet pas aux camions de passer.", en: "The road isn't wide enough for lorries to get through." },
+          { es: "La douceur du climat attire de nombreux retraités.", en: "The mild climate attracts many retired people." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which noun is masculine?",
+            options: ["le bonheur", "la chaleur", "la lenteur", "la grandeur"],
+            correctIndex: 0,
+            explanation: "\"Le bonheur\" (with \"le malheur\", \"l'honneur\") is an exception; quality nouns in -eur are feminine.",
           },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French, using a noun.",
-            source: "The accuracy of the data is essential.",
-            answer: "L'exactitude des données est essentielle.",
-            altAnswers: ["La précision des données est essentielle.", "L'exactitude des données est indispensable."],
-            explanation: "\"Exact\" → \"l'exactitude\" (feminine, so \"essentielle\").",
+            source: "The freshness of the fish is guaranteed.",
+            answer: "La fraîcheur du poisson est garantie.",
+            altAnswers: ["La fraîcheur des poissons est garantie.", "La fraicheur du poisson est garantie."],
+            explanation: "\"Frais\" gives \"la fraîcheur\": -eur nouns of quality are feminine, so \"garantie\" agrees.",
           },
         ],
       },
       {
-        heading: "-isme and other masculine nouns",
+        heading: "-esse",
+        body: [
+          "-esse is used with a set of common adjectives, especially for moral or physical qualities: \"faible → la faiblesse\", \"riche → la richesse\", \"jeune → la jeunesse\", \"sage → la sagesse\", \"tendre → la tendresse\", \"souple → la souplesse\", \"politesse\" (from poli), \"justesse\" (from juste: accuracy; \"de justesse\" = narrowly).",
+        ],
+        examples: [
+          { es: "La faiblesse de l'euro favorise les exportations.", en: "The weakness of the euro favours exports." },
+          { es: "La richesse du vocabulaire de ce poète est étonnante.", en: "The richness of this poet's vocabulary is astonishing." },
+          { es: "Il a eu son train de justesse.", en: "He caught his train by the skin of his teeth." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French, using a noun.",
+            source: "Her kindness touched everyone.",
+            answer: "Sa gentillesse a touché tout le monde.",
+            altAnswers: ["Sa gentillesse a ému tout le monde.", "Sa bonté a touché tout le monde."],
+            explanation: "\"Gentil\" → \"la gentillesse\" (-esse).",
+          },
+        ],
+      },
+      {
+        heading: "-ise",
+        body: [
+          "-ise appears with a handful of adjectives, often for a character trait: \"franc → la franchise\", \"bête → la bêtise\", \"gourmand → la gourmandise\", \"sot → la sottise\", \"maladroit → la maladresse\" (careful: -esse here). \"La franchise\" also means an insurance excess or a franchise; context decides.",
+        ],
+        examples: [
+          { es: "J'apprécie sa franchise, même quand elle blesse.", en: "I appreciate her frankness, even when it hurts." },
+          { es: "Quelle bêtise !", en: "What a silly thing to do!" },
+          { es: "La gourmandise n'est pas un si vilain défaut.", en: "Having a sweet tooth isn't such a bad fault." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[The clumsiness] of the waiter made us laugh.",
+            sentence: "___ du serveur nous a fait rire.",
+            answer: "La maladresse",
+            explanation: "\"Maladroit\" gives \"la maladresse\" with -esse, not -ise: the trap listed with the -ise nouns.",
+          },
+        ],
+      },
+      {
+        heading: "-ude",
+        body: [
+          "-ude is learned with its words: \"exact → l'exactitude\", \"certain → la certitude\", \"inquiet → l'inquiétude\", \"seul → la solitude\", \"apte → l'aptitude\", \"plein → la plénitude\". All feminine. Note the sense difference: \"la certitude\" (certainty, the feeling of being sure) vs \"la sécurité\" (safety).",
+        ],
+        examples: [
+          { es: "L'exactitude des chiffres a été vérifiée.", en: "The accuracy of the figures has been checked." },
+          { es: "L'inquiétude des parents grandit.", en: "Parents' concern is growing." },
+          { es: "La solitude lui pèse le dimanche.", en: "Loneliness weighs on him on Sundays." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La certaineté du résultat rassure l'équipe.",
+            answer: "La certitude du résultat rassure l'équipe.",
+            explanation: "\"Certain\" takes -ude: \"la certitude\". There is no noun \"certaineté\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French, using a noun.",
+            source: "Uncertainty paralyses investment.",
+            answer: "L'incertitude paralyse l'investissement.",
+            altAnswers: ["L'incertitude paralyse les investissements."],
+            explanation: "\"Incertain\" → \"l'incertitude\"; \"investir\" → \"l'investissement\".",
+          },
+        ],
+      },
+      {
+        heading: "-isme: masculine",
         body: [
           "-isme (English -ism) is masculine and names attitudes, doctrines and movements: \"optimiste → l'optimisme\", \"réaliste → le réalisme\", \"égoïste → l'égoïsme\", \"individualiste → l'individualisme\", \"touristique → le tourisme\", \"populiste → le populisme\". The corresponding adjectives / people often end in -iste.",
-          "A few other adjective-nouns are masculine: the neuter \"le + adjective\" (\"le vrai\", \"le beau\", studied later in this unit), and \"l'isolement\" (isolation), which goes with the adjective \"isolé\" but is formed on the verb \"isoler\". But the overwhelming tendency of adjective-derived nouns is feminine: if in doubt between -ité, -eur, -esse, -ise or -ude, the article is \"la\".",
-          "Watch for meaning shifts: \"la grandeur\" (greatness, grandeur) vs \"la taille\" (size, height); \"la propreté\" (cleanliness) vs \"le propre\" (the distinctive feature: \"le propre de l'homme\"); \"la sûreté\" (safety, security in law) vs \"la sécurité\" (safety, security in daily life).",
         ],
         examples: [
           { es: "Son optimisme est contagieux.", en: "His optimism is contagious." },
           { es: "L'individualisme progresse dans les grandes villes.", en: "Individualism is growing in big cities." },
           { es: "Le tourisme représente dix pour cent du PIB.", en: "Tourism accounts for ten per cent of GDP." },
           { es: "Le réalisme de ce film est saisissant.", en: "The realism of this film is striking." },
-          { es: "Le rire est le propre de l'homme.", en: "Laughter is what makes us human." },
-          { es: "L'isolement des personnes âgées est un vrai problème.", en: "The isolation of elderly people is a real problem." },
         ],
         checkpoint: [
           {
@@ -569,11 +814,56 @@ export const FR_C1_U03: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "La douceur du climat attire les retraités.",
+            audio: "L'égoïsme de son frère la choque.",
             question: "What does it mean?",
-            options: ["The mild climate attracts retired people.", "The sweet climate repels retired people.", "Retired people make the climate milder.", "The climate is becoming milder for retired people."],
+            options: ["Her brother's selfishness shocks her.", "Her brother's optimism shocks her.", "She shocks her selfish brother.", "Her brother's loneliness shocks her."],
             correctIndex: 0,
-            explanation: "\"Doux\" → \"la douceur\": mildness, sweetness.",
+            explanation: "\"L'égoïsme\" (from \"égoïste\") is selfishness: an -isme noun, masculine. \"La\" is the object pronoun: it shocks her.",
+          },
+        ],
+      },
+      {
+        heading: "If in doubt, it's la",
+        body: [
+          "A few other adjective-nouns are masculine: the neuter \"le + adjective\" (\"le vrai\", \"le beau\", studied later in this unit), and \"l'isolement\" (isolation), which goes with the adjective \"isolé\" but is formed on the verb \"isoler\". But the overwhelming tendency of adjective-derived nouns is feminine: if in doubt between -ité, -eur, -esse, -ise or -ude, the article is \"la\".",
+        ],
+        examples: [
+          { es: "L'isolement des personnes âgées est un vrai problème.", en: "The isolation of elderly people is a real problem." },
+          { es: "Sa gentillesse et sa douceur rassurent les enfants.", en: "Her kindness and gentleness reassure the children." },
+          { es: "La disponibilité de l'équipe est remarquable.", en: "The team's availability is remarkable." },
+        ],
+        checkpoint: [
+          {
+            type: "matching",
+            instructions: "Match each adjective with its noun.",
+            pairs: [
+              { left: "certain", right: "la certitude" },
+              { left: "bête", right: "la bêtise" },
+              { left: "large", right: "la largeur" },
+              { left: "fier", right: "la fierté" },
+              { left: "égoïste", right: "l'égoïsme" },
+            ],
+            explanation: "-ude, -ise, -eur, -té are feminine; -isme is masculine.",
+          },
+        ],
+      },
+      {
+        heading: "Watch the meaning shifts",
+        body: [
+          "Watch for meaning shifts: \"la grandeur\" (greatness, grandeur) vs \"la taille\" (size, height); \"la propreté\" (cleanliness) vs \"le propre\" (the distinctive feature: \"le propre de l'homme\"); \"la sûreté\" (safety, security in law) vs \"la sécurité\" (safety, security in daily life).",
+        ],
+        examples: [
+          { es: "Le rire est le propre de l'homme.", en: "Laughter is what makes us human." },
+          { es: "La sécurité routière est une priorité.", en: "Road safety is a priority." },
+          { es: "Quelle est votre taille ?", en: "How tall are you?" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Telling a friend why to wear a seatbelt: 'C'est une question de ___.' Which noun fits?",
+            options: ["sécurité", "sûreté", "certitude", "propreté"],
+            correctIndex: 0,
+            explanation: "Everyday safety is \"la sécurité\". \"La sûreté\" belongs to legal and technical language, and \"la certitude\" is certainty, the feeling of being sure.",
           },
         ],
       },
@@ -609,38 +899,10 @@ export const FR_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French, using a noun.",
-        source: "Her kindness touched everyone.",
-        answer: "Sa gentillesse a touché tout le monde.",
-        altAnswers: ["Sa gentillesse a ému tout le monde.", "Sa bonté a touché tout le monde."],
-        explanation: "\"Gentil\" → \"la gentillesse\" (-esse).",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French, using a noun.",
         source: "The availability of staff is a problem in August.",
         answer: "La disponibilité du personnel pose problème en août.",
         altAnswers: ["La disponibilité du personnel est un problème en août.", "La disponibilité des employés pose problème en août.", "La disponibilité du personnel pose un problème en août."],
         explanation: "\"Disponible\" → \"la disponibilité\" (-bilité).",
-      },
-      {
-        type: "matching",
-        instructions: "Match each adjective with its noun.",
-        pairs: [
-          { left: "certain", right: "la certitude" },
-          { left: "bête", right: "la bêtise" },
-          { left: "large", right: "la largeur" },
-          { left: "fier", right: "la fierté" },
-          { left: "égoïste", right: "l'égoïsme" },
-        ],
-        explanation: "-ude, -ise, -eur, -té are feminine; -isme is masculine.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which noun is masculine?",
-        options: ["le bonheur", "la chaleur", "la lenteur", "la grandeur"],
-        correctIndex: 0,
-        explanation: "\"Le bonheur\" (with \"le malheur\", \"l'honneur\") is an exception; quality nouns in -eur are feminine.",
       },
       {
         type: "translate",
@@ -658,15 +920,6 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "\"Épais\" → \"l'épaisseur\" (feminine).",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French, using a noun.",
-        source: "Uncertainty paralyses investment.",
-        answer: "L'incertitude paralyse l'investissement.",
-        altAnswers: ["L'incertitude paralyse les investissements."],
-        explanation: "\"Incertain\" → \"l'incertitude\"; \"investir\" → \"l'investissement\".",
-      },
-      {
         type: "dictation",
         audio: "La lenteur des travaux exaspère les riverains.",
         explanation: "\"Lent\" → \"la lenteur\"; \"les riverains\" = local residents.",
@@ -676,6 +929,15 @@ export const FR_C1_U03: Lesson[] = [
         text: "J'apprécie beaucoup sa franchise.",
         prompt: "Say it in French: I really appreciate her frankness.",
         explanation: "\"Franc\" → \"la franchise\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it with a noun as the subject.",
+        source: "Les rues sont sales, ce qui exaspère les habitants.",
+        answer: "La saleté des rues exaspère les habitants.",
+        altAnswers: ["La saleté des rues exaspère les riverains.", "La saleté des rues agace les habitants."],
+        explanation: "\"Sale\" gives \"la saleté\" (é without -it-), which packs the clause into the subject of \"exaspère\".",
       },
     ],
   },
@@ -688,18 +950,42 @@ export const FR_C1_U03: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Quick reference: suffixes and gender",
+        heading: "The masculine endings",
         body: [
           "Masculine: -ment (\"le remplacement\"), -age (\"le chauffage\", except page, image, plage, cage, nage, rage), -isme (\"le tourisme\"), and many suffix-less nouns (\"le choix\", \"le recul\", \"l'achat\", \"le départ\").",
+        ],
+        examples: [
+          { es: "Le report de la réunion a été annoncé ce matin.", en: "The postponement of the meeting was announced this morning." },
+          { es: "Le recrutement est terminé.", en: "Recruitment is over." },
+          { es: "L'arrosage des jardins est limité en été.", en: "Garden watering is restricted in summer." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct for 'Garden watering is prohibited'?",
+            options: ["L'arrosage des jardins est interdit.", "L'arrosage des jardins est interdite.", "L'arrosement des jardins est interdit.", "L'arrosation des jardins est interdite."],
+            correctIndex: 0,
+            explanation: "\"Arroser\" gives \"l'arrosage\", and -age nouns are masculine, so the participle stays \"interdit\". \"Interdite\" treats it as feminine; \"arrosement\" and \"arrosation\" don't exist.",
+          },
+          {
+            type: "multiple-choice",
+            question: "Which noun phrase has the wrong gender?",
+            options: ["une image floue", "une page blanche", "un message urgent", "une chômage élevée"],
+            correctIndex: 3,
+            explanation: "\"Le chômage\" is masculine (\"un chômage élevé\"); \"image\" and \"page\" are among the feminine -age exceptions.",
+          },
+        ],
+      },
+      {
+        heading: "The feminine endings, and how to check",
+        body: [
           "Feminine: -tion / -sion (\"la réduction\"), -ée (\"l'arrivée\"), -ance / -ence (\"la croissance\"), -ure (\"la fermeture\"), -ade (\"la baignade\"), -ité / -té (\"la sécurité\"), -eur for qualities (\"la lenteur\"), -esse (\"la faiblesse\"), -ise (\"la franchise\"), -ude (\"la certitude\"), and suffix-less \"la baisse\", \"la hausse\", \"la demande\", \"l'attente\".",
           "This lesson gives no hints in the exercises: you produce the noun and its article. Check the gender each time by the adjective or participle that agrees with it.",
         ],
         examples: [
-          { es: "Le report de la réunion a été annoncé ce matin.", en: "The postponement of the meeting was announced this morning." },
           { es: "La fermeture définitive de l'usine est confirmée.", en: "The permanent closure of the factory is confirmed." },
-          { es: "Le recrutement est terminé.", en: "Recruitment is over." },
           { es: "La croissance a été plus forte que prévu.", en: "Growth was stronger than expected." },
-          { es: "L'arrosage des jardins est limité en été.", en: "Garden watering is restricted in summer." },
+          { es: "La baisse des ventes inquiète la direction.", en: "The fall in sales is worrying the management." },
         ],
         checkpoint: [
           {
@@ -710,14 +996,6 @@ export const FR_C1_U03: Lesson[] = [
             answer: "La fermeture du bureau de poste est confirmée.",
             altAnswers: ["La fermeture de la poste est confirmée."],
             explanation: "\"La fermeture\" (feminine) → \"confirmée\".",
-          },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French, using a noun.",
-            source: "Garden watering is prohibited.",
-            answer: "L'arrosage des jardins est interdit.",
-            explanation: "\"L'arrosage\" (-age, masculine) → \"interdit\".",
           },
         ],
       },
@@ -735,11 +1013,11 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French, using a noun.",
-        source: "The payment must be made before the 10th.",
+        prompt: "Correct the sentence.",
+        source: "La payation doit être effectuée avant le 10.",
         answer: "Le paiement doit être effectué avant le 10.",
-        altAnswers: ["Le paiement doit être fait avant le 10.", "Le paiement doit être effectué avant le dix.", "Le règlement doit être effectué avant le 10."],
-        explanation: "\"Payer\" → \"le paiement\" (masculine).",
+        altAnswers: ["Le payement doit être effectué avant le 10.", "Le paiement doit être effectué avant le dix."],
+        explanation: "\"Payer\" gives \"le paiement\" (-ment, masculine), so the participle becomes \"effectué\". There is no -tion noun for this verb.",
       },
       {
         type: "translate",
@@ -768,12 +1046,12 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "\"La hausse\" (no suffix, feminine) or \"l'augmentation\".",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French, using a noun.",
-        source: "The richness of the region attracts investors.",
-        answer: "La richesse de la région attire les investisseurs.",
-        explanation: "\"Riche\" → \"la richesse\".",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "[The richness] of the region attracts investors.",
+        sentence: "___ de la région attire les investisseurs.",
+        answer: "La richesse",
+        explanation: "\"Riche\" gives \"la richesse\": -esse names a quality and is feminine.",
       },
       {
         type: "translate",
@@ -794,13 +1072,6 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "\"Tourner\" (to shoot a film) → \"le tournage\".",
       },
       {
-        type: "multiple-choice",
-        question: "Which noun phrase has the wrong gender?",
-        options: ["une image floue", "une page blanche", "un message urgent", "une chômage élevée"],
-        correctIndex: 3,
-        explanation: "\"Le chômage\" is masculine (\"un chômage élevé\"); \"image\" and \"page\" are among the feminine -age exceptions.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French, using a noun.",
@@ -812,10 +1083,10 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French, using a noun.",
-        source: "The safety of the passengers is our priority.",
-        answer: "La sécurité des passagers est notre priorité.",
-        explanation: "\"La sécurité\" (-ité, feminine).",
+        prompt: "Turn the clause into a noun subject.",
+        source: "Le magasin a été rénové, ce qui a attiré de nouveaux clients.",
+        answer: "La rénovation du magasin a attiré de nouveaux clients.",
+        explanation: "\"Rénover\" gives \"la rénovation\" (-ation, feminine); the old subject becomes \"du magasin\" and the noun phrase is the subject of \"a attiré\".",
       },
       {
         type: "matching",
@@ -839,9 +1110,9 @@ export const FR_C1_U03: Lesson[] = [
       },
       {
         type: "speak",
-        text: "La croissance a été plus forte que prévu.",
-        prompt: "Say it in French: Growth was stronger than expected.",
-        explanation: "\"La croissance\" (feminine) → \"forte\".",
+        text: "La croissance a été plus faible que prévu cette année.",
+        prompt: "Say it in French: Growth was weaker than expected this year.",
+        explanation: "\"La croissance\" (from croître) is feminine, so \"plus faible\" agrees; \"que prévu\" stays invariable.",
       },
     ],
   },
@@ -854,19 +1125,14 @@ export const FR_C1_U03: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "The subject becomes de + noun",
+        heading: "Rule one: the subject becomes de + noun",
         body: [
           "Turning a whole clause into a noun phrase follows a few predictable rules. Rule one: the verb becomes its noun, and the subject of the verb becomes a complement introduced by \"de\": \"Les prix augmentent\" → \"l'augmentation des prix\". \"Le train arrive\" → \"l'arrivée du train\". \"Les salariés ont fait grève\" → \"la grève des salariés\".",
-          "Contractions apply as usual: \"de + le = du\", \"de + les = des\". With a proper noun or a possessive, it's simply \"de\" or the possessive moves onto the noun: \"Le ministre a démissionné\" → \"la démission du ministre\"; \"Elle est arrivée\" → \"son arrivée\".",
-          "The tense disappears. \"Les prix ont augmenté\", \"augmentent\" and \"augmenteront\" all become \"l'augmentation des prix\". If time matters, it moves into an adjective or a date: \"la récente augmentation des prix\", \"l'augmentation des prix prévue en janvier\".",
         ],
         examples: [
           { es: "Les prix augmentent. → L'augmentation des prix.", en: "Prices are rising. → The rise in prices." },
-          { es: "Le ministre a démissionné. → La démission du ministre.", en: "The minister resigned. → The minister's resignation." },
-          { es: "Elle est arrivée à Paris. → Son arrivée à Paris.", en: "She arrived in Paris. → Her arrival in Paris." },
           { es: "Les salariés ont fait grève. → La grève des salariés.", en: "The employees went on strike. → The employees' strike." },
-          { es: "La récente augmentation des prix inquiète les familles.", en: "The recent rise in prices is worrying families." },
-          { es: "L'augmentation des tarifs prévue en janvier a été annulée.", en: "The price increase planned for January has been cancelled." },
+          { es: "Les pompiers interviennent. → L'intervention des pompiers.", en: "The firefighters step in. → The firefighters' intervention." },
         ],
         checkpoint: [
           {
@@ -877,6 +1143,19 @@ export const FR_C1_U03: Lesson[] = [
             answer: "L'arrivée du président",
             explanation: "\"Arriver\" → \"l'arrivée\"; the subject \"le président\" → \"du président\".",
           },
+        ],
+      },
+      {
+        heading: "Contractions and possessives",
+        body: [
+          "Contractions apply as usual: \"de + le = du\", \"de + les = des\". With a proper noun or a possessive, it's simply \"de\" or the possessive moves onto the noun: \"Le ministre a démissionné\" → \"la démission du ministre\"; \"Elle est arrivée\" → \"son arrivée\".",
+        ],
+        examples: [
+          { es: "Le ministre a démissionné. → La démission du ministre.", en: "The minister resigned. → The minister's resignation." },
+          { es: "Elle est arrivée à Paris. → Son arrivée à Paris.", en: "She arrived in Paris. → Her arrival in Paris." },
+          { es: "Les enfants sont revenus. → Le retour des enfants.", en: "The children came back. → The children's return." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -888,56 +1167,107 @@ export const FR_C1_U03: Lesson[] = [
         ],
       },
       {
-        heading: "The adverb becomes an adjective",
+        heading: "The tense disappears",
+        body: [
+          "The tense disappears. \"Les prix ont augmenté\", \"augmentent\" and \"augmenteront\" all become \"l'augmentation des prix\". If time matters, it moves into an adjective or a date: \"la récente augmentation des prix\", \"l'augmentation des prix prévue en janvier\".",
+        ],
+        examples: [
+          { es: "La récente augmentation des prix inquiète les familles.", en: "The recent rise in prices is worrying families." },
+          { es: "L'augmentation des tarifs prévue en janvier a été annulée.", en: "The price increase planned for January has been cancelled." },
+          { es: "La fermeture de la piscine prévue en mai est reportée.", en: "The pool closure planned for May has been postponed." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which noun phrase says 'the fare rise planned for March'?",
+            options: ["l'augmentation des tarifs prévue en mars", "l'augmentation des tarifs prévu en mars", "l'augmentera des tarifs en mars", "les tarifs augmentation en mars"],
+            correctIndex: 0,
+            explanation: "The future tense disappears; the time moves into a participle and a date: \"prévue en mars\", feminine to agree with \"l'augmentation\". \"Prévu\" misses that agreement.",
+          },
+        ],
+      },
+      {
+        heading: "Rule two: the adverb becomes an adjective",
         body: [
           "Rule two: an adverb modifying the verb becomes an adjective modifying the noun, and it must agree: \"Les prix ont fortement augmenté\" → \"la forte augmentation des prix\". \"Le chômage baisse légèrement\" → \"la légère baisse du chômage\". \"Il est parti brusquement\" → \"son départ brusque\" / \"son brusque départ\".",
-          "Position: short, common adjectives (\"forte\", \"légère\", \"nette\", \"brusque\", \"récente\", \"lente\") often go before the noun in this style; longer ones go after: \"une augmentation considérable\", \"une baisse spectaculaire\". \"Nettement\" → \"net\" (\"une nette amélioration\"), \"rapidement\" → \"rapide\" (\"une rapide progression\" or \"une progression rapide\").",
-          "Some adverbs have no matching adjective; then use a different one: \"beaucoup augmenté\" → \"une forte augmentation\" / \"une augmentation importante\"; \"un peu baissé\" → \"une légère baisse\".",
         ],
         examples: [
           { es: "Les prix ont fortement augmenté. → La forte augmentation des prix.", en: "Prices rose sharply. → The sharp rise in prices." },
           { es: "Le chômage baisse légèrement. → La légère baisse du chômage.", en: "Unemployment is falling slightly. → The slight fall in unemployment." },
           { es: "La situation s'est nettement améliorée. → La nette amélioration de la situation.", en: "The situation has clearly improved. → The clear improvement in the situation." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which noun phrase corresponds to \"La qualité s'est nettement améliorée\"?",
+            options: ["la nette amélioration de la qualité", "la nettement amélioration de la qualité", "le net amélioration de la qualité", "l'amélioration nettement de la qualité"],
+            correctIndex: 0,
+            explanation: "Adverb → adjective (\"nettement\" → \"nette\"), agreeing with the feminine \"amélioration\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn the clause into a noun phrase.",
+            source: "Les inscriptions ont légèrement augmenté.",
+            answer: "La légère augmentation des inscriptions",
+            altAnswers: ["La légère hausse des inscriptions", "La faible augmentation des inscriptions", "La faible hausse des inscriptions"],
+            explanation: "The verb becomes its noun (\"augmenter → l'augmentation\"), the subject takes \"des\", and the adverb \"légèrement\" becomes the adjective \"légère\", agreeing with the feminine noun.",
+          },
+        ],
+      },
+      {
+        heading: "Before or after the noun",
+        body: [
+          "Position: short, common adjectives (\"forte\", \"légère\", \"nette\", \"brusque\", \"récente\", \"lente\") often go before the noun in this style; longer ones go after: \"une augmentation considérable\", \"une baisse spectaculaire\". \"Nettement\" → \"net\" (\"une nette amélioration\"), \"rapidement\" → \"rapide\" (\"une rapide progression\" or \"une progression rapide\").",
+          "Some adverbs have no matching adjective; then use a different one: \"beaucoup augmenté\" → \"une forte augmentation\" / \"une augmentation importante\"; \"un peu baissé\" → \"une légère baisse\".",
+        ],
+        examples: [
           { es: "Les ventes ont progressé rapidement. → La progression rapide des ventes.", en: "Sales grew rapidly. → The rapid growth in sales." },
           { es: "Les températures ont beaucoup baissé. → La forte baisse des températures.", en: "Temperatures dropped a lot. → The sharp drop in temperatures." },
+          { es: "Le trafic a diminué de façon spectaculaire. → La diminution spectaculaire du trafic.", en: "Traffic fell dramatically. → The dramatic fall in traffic." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (turn the clause into a noun phrase): \"Le chômage a légèrement baissé.\"",
-            source: "The slight fall in unemployment",
-            answer: "La légère baisse du chômage",
-            altAnswers: ["Le léger recul du chômage", "La légère diminution du chômage"],
-            explanation: "\"Légèrement\" → \"légère\", agreeing with \"la baisse\".",
-          },
-          {
-            type: "multiple-choice",
-            question: "Which noun phrase corresponds to \"La qualité s'est nettement améliorée\"?",
-            options: [
-              "la nette amélioration de la qualité",
-              "la nettement amélioration de la qualité",
-              "le net amélioration de la qualité",
-              "l'amélioration nettement de la qualité",
-            ],
-            correctIndex: 0,
-            explanation: "Adverb → adjective (\"nettement\" → \"nette\"), agreeing with the feminine \"amélioration\".",
+            prompt: "Correct the sentence.",
+            source: "La beaucoup baisse des ventes inquiète les commerçants.",
+            answer: "La forte baisse des ventes inquiète les commerçants.",
+            altAnswers: ["La baisse importante des ventes inquiète les commerçants.", "La nette baisse des ventes inquiète les commerçants.", "La baisse considérable des ventes inquiète les commerçants."],
+            explanation: "\"Beaucoup\" has no matching adjective, so a noun phrase needs another one: \"une forte baisse\" or \"une baisse importante\".",
           },
         ],
       },
       {
-        heading: "Objects keep their preposition, or take de",
+        heading: "Rule three: object with de, agent with par",
         body: [
           "Rule three: a direct object of the verb usually becomes \"de\" + noun as well: \"On construit un pont\" → \"la construction d'un pont\"; \"L'État a vendu l'entreprise\" → \"la vente de l'entreprise par l'État\". When both subject and object are present, the object takes \"de\" and the subject (agent) takes \"par\": \"la vente de l'entreprise par l'État\".",
-          "An indirect object keeps its preposition: \"participer à un projet\" → \"la participation à un projet\"; \"renoncer à un droit\" → \"la renonciation à un droit\"; \"lutter contre le racisme\" → \"la lutte contre le racisme\"; \"s'intéresser à la politique\" → \"l'intérêt pour la politique\" (a change: Part 5 covers prepositions after nouns).",
-          "Putting it all together: \"Le gouvernement a brutalement réduit les aides aux étudiants\" → \"la brutale réduction des aides aux étudiants par le gouvernement\". It's compact but heavy; Part 6 will show when to stop.",
         ],
         examples: [
           { es: "On construit un pont. → La construction d'un pont.", en: "A bridge is being built. → The building of a bridge." },
           { es: "L'État a vendu l'entreprise. → La vente de l'entreprise par l'État.", en: "The State sold the company. → The sale of the company by the State." },
+          { es: "On a fermé la route. → La fermeture de la route.", en: "The road has been closed. → The closure of the road." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "La réparation du pont par la commune a pris un an.",
+            question: "What does it mean?",
+            options: ["The council's repair of the bridge took a year.", "The bridge was repaired by the region in a year.", "The council took a year to choose a bridge.", "The repair of the council building took a year."],
+            correctIndex: 0,
+            explanation: "In a noun phrase the object takes \"de\" (\"du pont\": what was repaired) and the agent takes \"par\" (\"par la commune\": who repaired it).",
+          },
+        ],
+      },
+      {
+        heading: "Indirect objects keep their preposition",
+        body: [
+          "An indirect object keeps its preposition: \"participer à un projet\" → \"la participation à un projet\"; \"renoncer à un droit\" → \"la renonciation à un droit\"; \"lutter contre le racisme\" → \"la lutte contre le racisme\"; \"s'intéresser à la politique\" → \"l'intérêt pour la politique\" (a change: Part 5 covers prepositions after nouns).",
+        ],
+        examples: [
           { es: "Les habitants participent au projet. → La participation des habitants au projet.", en: "Residents take part in the project. → Residents' participation in the project." },
           { es: "La ville lutte contre la pollution. → La lutte de la ville contre la pollution.", en: "The city is fighting pollution. → The city's fight against pollution." },
-          { es: "La brutale réduction des aides aux étudiants a provoqué des manifestations.", en: "The abrupt cut in student grants sparked protests." },
+          { es: "Les jeunes s'engagent dans l'association. → L'engagement des jeunes dans l'association.", en: "Young people get involved in the association. → Young people's involvement in the association." },
         ],
         checkpoint: [
           {
@@ -948,13 +1278,25 @@ export const FR_C1_U03: Lesson[] = [
             answer: "La participation des habitants à la consultation",
             explanation: "Subject → \"des habitants\"; the indirect object keeps \"à\".",
           },
+        ],
+      },
+      {
+        heading: "Putting it all together",
+        body: [
+          "Putting it all together: \"Le gouvernement a brutalement réduit les aides aux étudiants\" → \"la brutale réduction des aides aux étudiants par le gouvernement\". It's compact but heavy; Part 6 will show when to stop.",
+        ],
+        examples: [
+          { es: "La brutale réduction des aides aux étudiants a provoqué des manifestations.", en: "The abrupt cut in student grants sparked protests." },
+          { es: "L'État a fortement augmenté les taxes sur le tabac. → La forte augmentation des taxes sur le tabac par l'État.", en: "The State sharply raised taxes on tobacco. → The State's sharp increase in tobacco taxes." },
+          { es: "La lente reconstruction de la ville par ses habitants a duré dix ans.", en: "The townspeople's slow rebuilding of the city took ten years." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "La vente de l'entreprise par l'État a été critiquée.",
-            question: "What does it mean?",
-            options: ["The State's sale of the company was criticised.", "The company criticised the State's sale.", "The State criticised the company's sale.", "The company sold the State's shares."],
+            type: "multiple-choice",
+            question: "Which is the noun phrase for \"Les étudiants ont massivement participé au vote\"?",
+            options: ["la participation massive des étudiants au vote", "la participation massivement des étudiants au vote", "la participation des étudiants de vote massive", "le participement massif des étudiants au vote"],
             correctIndex: 0,
-            explanation: "Object → \"de l'entreprise\", agent → \"par l'État\".",
+            explanation: "Adverb → adjective (\"massive\"), subject → \"des étudiants\", indirect object keeps \"au\".",
           },
         ],
       },
@@ -1002,18 +1344,6 @@ export const FR_C1_U03: Lesson[] = [
         source: "The government's fight against fraud is intensifying.",
         answer: "La lutte du gouvernement contre la fraude s'intensifie.",
         explanation: "\"Lutter contre\" → \"la lutte contre\": the preposition stays.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which is the noun phrase for \"Les étudiants ont massivement participé au vote\"?",
-        options: [
-          "la participation massive des étudiants au vote",
-          "la participation massivement des étudiants au vote",
-          "la participation des étudiants de vote massive",
-          "le participement massif des étudiants au vote",
-        ],
-        correctIndex: 0,
-        explanation: "Adverb → adjective (\"massive\"), subject → \"des étudiants\", indirect object keeps \"au\".",
       },
       {
         type: "translate",
@@ -1074,15 +1404,11 @@ export const FR_C1_U03: Lesson[] = [
         heading: "Le fait que: when there's no noun",
         body: [
           "Not every clause has a convenient noun. 'The fact that he didn't call' can't become \"*le non-appel\". When no derived noun exists, or when you want to keep the subject and tense, French uses \"le fait que\": \"Le fait qu'il n'ait pas appelé m'inquiète.\" It turns a full clause into a noun phrase that can be a subject or object.",
-          "As seen in Unit 1, the mood depends on the meaning: evaluation or reaction → subjunctive (\"le fait qu'il soit absent m'étonne\"); plain factual statement, especially after a preposition → indicative (\"compte tenu du fait que la salle est petite\"). After \"du fait que\" (because), always the indicative.",
-          "\"Le fait que\" is also a way of keeping a clause where a noun would lose information: \"son départ\" says nothing about tense or circumstances, but \"le fait qu'elle soit partie sans prévenir\" does.",
         ],
         examples: [
           { es: "Le fait qu'il n'ait pas appelé m'inquiète.", en: "The fact that he didn't call worries me." },
-          { es: "Le fait qu'elle soit partie sans prévenir a choqué l'équipe.", en: "The fact that she left without warning shocked the team." },
-          { es: "Compte tenu du fait que la salle est petite, il faut s'inscrire.", en: "Given that the room is small, you need to register." },
-          { es: "Du fait qu'il habite loin, il arrive souvent en retard.", en: "Because he lives far away, he's often late." },
           { es: "Le fait que les prix aient baissé n'a pas relancé les ventes.", en: "The fact that prices fell didn't revive sales." },
+          { es: "Le fait que les bus soient en grève complique tout.", en: "The fact that the buses are on strike complicates everything." },
         ],
         checkpoint: [
           {
@@ -1094,44 +1420,115 @@ export const FR_C1_U03: Lesson[] = [
             altAnswers: ["Le fait que personne n'a répondu m'inquiète."],
             explanation: "\"Le fait que\" + subjunctive (reaction \"m'inquiète\"); past subjunctive for a completed event.",
           },
+        ],
+      },
+      {
+        heading: "Which mood after le fait que",
+        body: [
+          "As seen in Unit 1, the mood depends on the meaning: evaluation or reaction → subjunctive (\"le fait qu'il soit absent m'étonne\"); plain factual statement, especially after a preposition → indicative (\"compte tenu du fait que la salle est petite\"). After \"du fait que\" (because), always the indicative.",
+        ],
+        examples: [
+          { es: "Compte tenu du fait que la salle est petite, il faut s'inscrire.", en: "Given that the room is small, you need to register." },
+          { es: "Du fait qu'il habite loin, il arrive souvent en retard.", en: "Because he lives far away, he's often late." },
+          { es: "Le fait qu'il ait menti me déçoit.", en: "The fact that he lied disappoints me." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: [
-              "Du fait qu'il pleut, le concert est annulé.",
-              "Du fait qu'il pleuve, le concert est annulé.",
-              "Du fait de il pleut, le concert est annulé.",
-              "Du fait qu'il pleuvrait, le concert soit annulé.",
-            ],
+            options: ["Du fait qu'il pleut, le concert est annulé.", "Du fait qu'il pleuve, le concert est annulé.", "Du fait de il pleut, le concert est annulé.", "Du fait qu'il pleuvrait, le concert soit annulé."],
             correctIndex: 0,
             explanation: "\"Du fait que\" (because) + indicative.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Du fait qu'il soit malade, il ne viendra pas.",
+            answer: "Du fait qu'il est malade, il ne viendra pas.",
+            explanation: "\"Du fait que\" means because and states a fact, so it always takes the indicative: \"il est\", not the subjunctive \"il soit\".",
           },
         ],
       },
       {
-        heading: "Infinitives used as nouns",
+        heading: "Keeping what a noun would lose",
+        body: [
+          "\"Le fait que\" is also a way of keeping a clause where a noun would lose information: \"son départ\" says nothing about tense or circumstances, but \"le fait qu'elle soit partie sans prévenir\" does.",
+        ],
+        examples: [
+          { es: "Le fait qu'elle soit partie sans prévenir a choqué l'équipe.", en: "The fact that she left without warning shocked the team." },
+          { es: "Le fait qu'il soit revenu si vite nous a surpris.", en: "The fact that he came back so quickly surprised us." },
+          { es: "Le fait qu'elle soit absente depuis lundi inquiète ses collègues.", en: "The fact that she has been away since Monday worries her colleagues." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which phrase keeps the information that she resigned without warning?",
+            options: ["le fait qu'elle ait démissionné sans prévenir", "sa démission", "la démission", "le fait de sa démission"],
+            correctIndex: 0,
+            explanation: "A noun like \"sa démission\" names the event but loses the circumstances; \"le fait que\" keeps a whole clause, with its tense and details (\"sans prévenir\").",
+          },
+        ],
+      },
+      {
+        heading: "Infinitives that became nouns",
         body: [
           "Some infinitives have become full nouns, with an article, a gender (masculine) and sometimes a plural: \"le rire\" (laughter), \"le sourire\", \"le devoir\" (duty) / \"les devoirs\" (homework), \"le pouvoir\" (power), \"le savoir\" (knowledge), \"le dîner\", \"le déjeuner\", \"le souvenir\", \"le repentir\", \"l'avenir\". Compounds too: \"le savoir-faire\" (know-how), \"le savoir-vivre\" (good manners), \"le laisser-aller\" (sloppiness), \"le va-et-vient\".",
-          "Others are used as nouns only in fixed contexts: \"le boire et le manger\" (food and drink), \"le manger\" (colloquial: food), \"le vivre et le couvert\" (board and lodging), \"le lever du soleil\", \"le coucher du soleil\".",
-          "Don't overgeneralise: English 'the swimming', 'the reading' are not \"*le nager\", \"*le lire\"; French uses the derived noun (\"la natation\", \"la lecture\") or the bare infinitive without an article as subject (\"Lire est un plaisir\", covered in Unit 4).",
         ],
         examples: [
           { es: "Son rire résonnait dans toute la maison.", en: "Her laughter echoed through the whole house." },
           { es: "Le savoir-faire des artisans locaux est reconnu.", en: "The know-how of local craftsmen is recognised." },
           { es: "C'est notre devoir d'aider les réfugiés.", en: "It's our duty to help refugees." },
           { es: "Le pouvoir d'achat des ménages a baissé.", en: "Household purchasing power has fallen." },
-          { es: "On s'est levés tôt pour voir le lever du soleil.", en: "We got up early to watch the sunrise." },
           { es: "Il y a un certain laisser-aller dans ce service.", en: "There's a certain sloppiness in this department." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "Household [purchasing power] is falling.",
-            sentence: "___ des ménages diminue.",
-            answer: "Le pouvoir d'achat",
-            explanation: "\"Le pouvoir\" (infinitive used as a noun) + \"d'achat\".",
+            en: "Her [smile] lit up the room.",
+            sentence: "Son ___ illuminait la pièce.",
+            answer: "sourire",
+            explanation: "\"Le sourire\" is an infinitive that became a full noun: masculine, with an article or possessive (\"son sourire\").",
           },
+        ],
+      },
+      {
+        heading: "Infinitive nouns in fixed phrases",
+        body: [
+          "Others are used as nouns only in fixed contexts: \"le boire et le manger\" (food and drink), \"le manger\" (colloquial: food), \"le vivre et le couvert\" (board and lodging), \"le lever du soleil\", \"le coucher du soleil\".",
+        ],
+        examples: [
+          { es: "On s'est levés tôt pour voir le lever du soleil.", en: "We got up early to watch the sunrise." },
+          { es: "On a regardé le coucher du soleil sur la plage.", en: "We watched the sunset on the beach." },
+          { es: "Le boire et le manger sont compris.", en: "Food and drink are included." },
+        ],
+        checkpoint: [
+          {
+            type: "matching",
+            instructions: "Match each French noun with its meaning.",
+            pairs: [
+              { left: "le savoir-vivre", right: "good manners" },
+              { left: "le laisser-aller", right: "sloppiness" },
+              { left: "le devoir", right: "duty" },
+              { left: "le lever du soleil", right: "sunrise" },
+              { left: "le pouvoir d'achat", right: "purchasing power" },
+            ],
+            explanation: "Infinitives used as masculine nouns.",
+          },
+        ],
+      },
+      {
+        heading: "Don't overgeneralise",
+        body: [
+          "Don't overgeneralise: English 'the swimming', 'the reading' are not \"*le nager\", \"*le lire\"; French uses the derived noun (\"la natation\", \"la lecture\") or the bare infinitive without an article as subject (\"Lire est un plaisir\", covered in Unit 4).",
+        ],
+        examples: [
+          { es: "La natation est excellente pour le dos.", en: "Swimming is excellent for your back." },
+          { es: "Voyager coûte cher.", en: "Travelling is expensive." },
+          { es: "La lecture du soir m'aide à dormir.", en: "Reading in the evening helps me sleep." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1144,19 +1541,14 @@ export const FR_C1_U03: Lesson[] = [
         ],
       },
       {
-        heading: "Le + adjective: the essential, the hardest part",
+        heading: "Le + adjective: the essential, the worst",
         body: [
           "French turns adjectives into abstract nouns simply by putting \"le\" in front: \"l'essentiel\" (the essential thing), \"l'important\" (what matters), \"le plus dur\" (the hardest part), \"le pire\" (the worst), \"le mieux\" (the best thing), \"le vrai\", \"le beau\". English usually needs 'thing' or 'part'.",
-          "Very common frames: \"L'important, c'est que...\" + subjunctive (\"l'important, c'est que tu sois heureux\"), \"Le plus dur, c'est de...\" + infinitive (\"le plus dur, c'est de commencer\"), \"Le mieux serait de...\", \"Le pire, c'est que...\" + indicative (a fact: \"le pire, c'est qu'il ne s'excuse même pas\").",
-          "The adjective is masculine singular whatever it refers to: \"l'essentiel\", never \"*l'essentielle\". This neuter use is a precious tool for compact writing: \"L'essentiel du budget va à la santé\" (most of the budget).",
         ],
         examples: [
-          { es: "L'important, c'est que tu sois heureux.", en: "What matters is that you're happy." },
-          { es: "Le plus dur, c'est de commencer.", en: "The hardest part is getting started." },
-          { es: "Le pire, c'est qu'il ne s'excuse même pas.", en: "The worst thing is that he doesn't even apologise." },
           { es: "Le mieux serait de partir tôt.", en: "The best thing would be to leave early." },
-          { es: "L'essentiel du budget va à la santé.", en: "Most of the budget goes to health." },
           { es: "Le plus étonnant, c'est son calme.", en: "The most surprising thing is how calm he is." },
+          { es: "Le pire est derrière nous.", en: "The worst is behind us." },
         ],
         checkpoint: [
           {
@@ -1168,6 +1560,19 @@ export const FR_C1_U03: Lesson[] = [
             altAnswers: ["Le plus difficile, c'est d'attendre.", "Le plus dur, c'est l'attente.", "Le plus difficile, c'est l'attente."],
             explanation: "\"Le plus dur, c'est de\" + infinitive.",
           },
+        ],
+      },
+      {
+        heading: "Common frames and their moods",
+        body: [
+          "Very common frames: \"L'important, c'est que...\" + subjunctive (\"l'important, c'est que tu sois heureux\"), \"Le plus dur, c'est de...\" + infinitive (\"le plus dur, c'est de commencer\"), \"Le mieux serait de...\", \"Le pire, c'est que...\" + indicative (a fact: \"le pire, c'est qu'il ne s'excuse même pas\").",
+        ],
+        examples: [
+          { es: "L'important, c'est que tu sois heureux.", en: "What matters is that you're happy." },
+          { es: "Le plus dur, c'est de commencer.", en: "The hardest part is getting started." },
+          { es: "Le pire, c'est qu'il ne s'excuse même pas.", en: "The worst thing is that he doesn't even apologise." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "L'important, c'est que vous soyez en bonne santé.",
@@ -1175,6 +1580,26 @@ export const FR_C1_U03: Lesson[] = [
             options: ["What matters is that you're healthy.", "It's important to be healthy.", "The important person is in good health.", "You're important when you're healthy."],
             correctIndex: 0,
             explanation: "\"L'important, c'est que\" + subjunctive.",
+          },
+        ],
+      },
+      {
+        heading: "Always masculine singular",
+        body: [
+          "The adjective is masculine singular whatever it refers to: \"l'essentiel\", never \"*l'essentielle\". This neuter use is a precious tool for compact writing: \"L'essentiel du budget va à la santé\" (most of the budget).",
+        ],
+        examples: [
+          { es: "L'essentiel du budget va à la santé.", en: "Most of the budget goes to health." },
+          { es: "Le plus beau, c'est la vue.", en: "The best part is the view." },
+          { es: "L'essentiel des dépenses concerne le loyer.", en: "Most of the spending goes on rent." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["L'essentiel, c'est d'avoir essayé.", "L'essentielle, c'est d'avoir essayé.", "Le essentiel, c'est d'avoir essayé.", "L'essentiel, c'est qu'avoir essayé."],
+            correctIndex: 0,
+            explanation: "Neuter \"le + adjective\" is always masculine singular, elided before a vowel.",
           },
         ],
       },
@@ -1225,18 +1650,6 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "\"Le mieux serait de\" + infinitive.",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: [
-          "L'essentiel, c'est d'avoir essayé.",
-          "L'essentielle, c'est d'avoir essayé.",
-          "Le essentiel, c'est d'avoir essayé.",
-          "L'essentiel, c'est qu'avoir essayé.",
-        ],
-        correctIndex: 0,
-        explanation: "Neuter \"le + adjective\" is always masculine singular, elided before a vowel.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -1253,27 +1666,16 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "\"L'essentiel de\" = most of, the main part of.",
       },
       {
-        type: "matching",
-        instructions: "Match each French noun with its meaning.",
-        pairs: [
-          { left: "le savoir-vivre", right: "good manners" },
-          { left: "le laisser-aller", right: "sloppiness" },
-          { left: "le devoir", right: "duty" },
-          { left: "le lever du soleil", right: "sunrise" },
-          { left: "le pouvoir d'achat", right: "purchasing power" },
-        ],
-        explanation: "Infinitives used as masculine nouns.",
-      },
-      {
         type: "dictation",
-        audio: "Le plus dur, c'est de commencer.",
-        explanation: "\"Le plus dur\" = the hardest part.",
+        audio: "Le plus dur, c'est de rester motivé.",
+        answer: "Le plus dur, c'est de rester motivé.",
+        explanation: "\"Le plus dur\" (le + adjective, masculine singular) followed by \"c'est de\" + infinitive.",
       },
       {
         type: "speak",
-        text: "L'important, c'est que tu sois heureux.",
-        prompt: "Say it in French to a friend: What matters is that you're happy.",
-        explanation: "\"L'important, c'est que\" + subjunctive \"sois\".",
+        text: "L'important, c'est que tu te reposes.",
+        prompt: "Say it in French to a friend: What matters is that you get some rest.",
+        explanation: "\"L'important, c'est que\" takes the subjunctive: \"que tu te reposes\".",
       },
       {
         type: "translate",
@@ -1283,6 +1685,24 @@ export const FR_C1_U03: Lesson[] = [
         answer: "Le plus étonnant, c'est sa patience.",
         altAnswers: ["Le plus surprenant, c'est sa patience.", "Ce qui est le plus étonnant, c'est sa patience."],
         explanation: "\"Le plus + adjective\" as a neuter noun.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it with le fait que.",
+        source: "Elle n'est pas venue, ce qui m'étonne.",
+        answer: "Le fait qu'elle ne soit pas venue m'étonne.",
+        altAnswers: ["Le fait qu'elle ne soit pas venue m'a étonné.", "Le fait qu'elle ne soit pas venue m'a étonnée."],
+        explanation: "\"Le fait que\" turns the clause into the subject. A reaction (\"m'étonne\") triggers the subjunctive: \"qu'elle ne soit pas venue\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Le nager est mon sport préféré.",
+        answer: "La natation est mon sport préféré.",
+        altAnswers: ["Nager est mon sport préféré."],
+        explanation: "French doesn't make a noun from every infinitive: the sport is \"la natation\". You could also use the bare infinitive: \"Nager est mon sport préféré.\"",
       },
     ],
   },
@@ -1295,21 +1715,45 @@ export const FR_C1_U03: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Headlines: no verb, often no article",
+        heading: "Headlines: no verb",
         body: [
           "French headlines rely heavily on nouns and often drop the verb altogether: \"Hausse des loyers à Lyon\" (Rents rising in Lyon), \"Grève à la SNCF : report du vote\" (SNCF strike: vote postponed), \"Victoire des Bleus à Wembley\". English headlines keep a verb in the present ('Rents rise in Lyon'); French prefers the noun.",
-          "Articles disappear at the start: \"Hausse des loyers\" rather than \"La hausse des loyers\". But the internal articles stay (\"des loyers\", \"du vote\"). The colon is a key headline device: topic, then development. \"Réforme des retraites : les syndicats appellent à manifester\" mixes a nominal topic and a verbal sentence.",
-          "Common headline nouns: \"hausse\" / \"baisse\" / \"recul\" / \"chute\" / \"envolée\" (soaring), \"grève\", \"report\", \"annulation\", \"ouverture\" / \"fermeture\", \"démission\", \"nomination\", \"adoption\" (of a law), \"rejet\", \"victoire\" / \"défaite\", \"polémique\" (controversy), \"feu vert\" (go-ahead).",
         ],
         examples: [
           { es: "Hausse des loyers à Lyon", en: "Rents rising in Lyon" },
           { es: "Grève à la SNCF : report du vote", en: "SNCF strike: vote postponed" },
           { es: "Démission surprise du ministre de la Santé", en: "Health minister resigns unexpectedly" },
-          { es: "Adoption de la loi sur le logement", en: "Housing bill passed" },
-          { es: "Feu vert pour le nouveau tramway de Nantes", en: "Green light for Nantes's new tramway" },
-          { es: "Réforme des retraites : les syndicats appellent à manifester", en: "Pension reform: unions call for protests" },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is the most typical French headline?",
+            options: ["Annulation du festival d'Avignon", "Le festival d'Avignon a été annulé hier par les organisateurs", "On annule le festival d'Avignon", "Annuler le festival d'Avignon"],
+            correctIndex: 0,
+            explanation: "Noun + complement, no initial article: \"Annulation du festival\".",
+          },
+        ],
+      },
+      {
+        heading: "No article at the start; the colon",
+        body: [
+          "Articles disappear at the start: \"Hausse des loyers\" rather than \"La hausse des loyers\". But the internal articles stay (\"des loyers\", \"du vote\"). The colon is a key headline device: topic, then development. \"Réforme des retraites : les syndicats appellent à manifester\" mixes a nominal topic and a verbal sentence.",
+        ],
+        examples: [
+          { es: "Réforme des retraites : les syndicats appellent à manifester", en: "Pension reform: unions call for protests" },
+          { es: "Tour de France : abandon du favori dans les Alpes", en: "Tour de France: favourite pulls out in the Alps" },
+          { es: "Santé : fermeture de deux maternités en Auvergne", en: "Health: two maternity units close in Auvergne" },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into a headline.",
+            source: "La mairie a annulé le marché de Noël.",
+            answer: "Annulation du marché de Noël",
+            altAnswers: ["Annulation du marché de Noël par la mairie", "Marché de Noël : annulation"],
+            explanation: "\"Annuler\" gives \"l'annulation\". The headline drops the verb and the opening article but keeps the internal \"du\".",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1319,17 +1763,30 @@ export const FR_C1_U03: Lesson[] = [
             altAnswers: ["Recul du chômage en Bretagne", "Chômage : baisse en Bretagne", "Chômage en baisse en Bretagne"],
             explanation: "Nominal headline: noun (\"baisse\") + \"du chômage\" + place; no article at the start.",
           },
+        ],
+      },
+      {
+        heading: "Headline nouns to know",
+        body: [
+          "Common headline nouns: \"hausse\" / \"baisse\" / \"recul\" / \"chute\" / \"envolée\" (soaring), \"grève\", \"report\", \"annulation\", \"ouverture\" / \"fermeture\", \"démission\", \"nomination\", \"adoption\" (of a law), \"rejet\", \"victoire\" / \"défaite\", \"polémique\" (controversy), \"feu vert\" (go-ahead).",
+        ],
+        examples: [
+          { es: "Adoption de la loi sur le logement", en: "Housing bill passed" },
+          { es: "Feu vert pour le nouveau tramway de Nantes", en: "Green light for Nantes's new tramway" },
+          { es: "Polémique autour du nouveau stade", en: "Controversy over the new stadium" },
+        ],
+        checkpoint: [
           {
-            type: "multiple-choice",
-            question: "Which is the most typical French headline?",
-            options: [
-              "Annulation du festival d'Avignon",
-              "Le festival d'Avignon a été annulé hier par les organisateurs",
-              "On annule le festival d'Avignon",
-              "Annuler le festival d'Avignon",
+            type: "matching",
+            instructions: "Match each headline noun with its verb.",
+            pairs: [
+              { left: "l'arrestation", right: "arrêter" },
+              { left: "l'envolée", right: "s'envoler" },
+              { left: "la nomination", right: "nommer" },
+              { left: "le rejet", right: "rejeter" },
+              { left: "l'adoption", right: "adopter" },
             ],
-            correctIndex: 0,
-            explanation: "Noun + complement, no initial article: \"Annulation du festival\".",
+            explanation: "Decoding a headline starts with finding the verb behind the noun.",
           },
         ],
       },
@@ -1337,16 +1794,11 @@ export const FR_C1_U03: Lesson[] = [
         heading: "Signs and notices",
         body: [
           "The same style appears on signs, posters and notices in public spaces: \"Fermeture exceptionnelle du guichet le 14 juillet\", \"Accès interdit au public\", \"Travaux : déviation\", \"Stationnement interdit sauf livraisons\", \"Sortie de véhicules\" (vehicle exit, keep clear), \"Baignade surveillée\".",
-          "Often a noun + a past participle or adjective, with no verb: \"Entrée libre\" (free entry), \"Prochain départ : 14 h 30\", \"Ouverture des portes à 19 heures\", \"Fin des travaux prévue en juin\". The participle agrees with the noun: \"Baignade interdite\", \"Pêche interdite\", \"Chiens admis en laisse\".",
-          "Understanding these notices fast is a real-life Advanced skill, and writing them is the task of anyone organising an event or working in an office.",
         ],
         examples: [
           { es: "Fermeture exceptionnelle du guichet le 14 juillet.", en: "Ticket office closed on 14 July." },
           { es: "Accès interdit au public.", en: "No public access." },
           { es: "Stationnement interdit sauf livraisons.", en: "No parking except for deliveries." },
-          { es: "Ouverture des portes à 19 heures.", en: "Doors open at 7 p.m." },
-          { es: "Fin des travaux prévue en juin.", en: "Work expected to finish in June." },
-          { es: "Chiens admis en laisse.", en: "Dogs allowed on a lead." },
         ],
         checkpoint: [
           {
@@ -1358,13 +1810,27 @@ export const FR_C1_U03: Lesson[] = [
             altAnswers: ["Fermeture de la bibliothèque samedi après-midi.", "Bibliothèque fermée le samedi après-midi.", "Bibliothèque fermée samedi après-midi.", "Fermeture exceptionnelle de la bibliothèque samedi après-midi."],
             explanation: "A notice: noun \"fermeture\" + \"de la bibliothèque\", or \"bibliothèque fermée\".",
           },
+        ],
+      },
+      {
+        heading: "Noun + participle, with agreement",
+        body: [
+          "Often a noun + a past participle or adjective, with no verb: \"Entrée libre\" (free entry), \"Prochain départ : 14 h 30\", \"Ouverture des portes à 19 heures\", \"Fin des travaux prévue en juin\". The participle agrees with the noun: \"Baignade interdite\", \"Pêche interdite\", \"Chiens admis en laisse\".",
+          "Understanding these notices fast is a real-life Advanced skill, and writing them is the task of anyone organising an event or working in an office.",
+        ],
+        examples: [
+          { es: "Ouverture des portes à 19 heures.", en: "Doors open at 7 p.m." },
+          { es: "Fin des travaux prévue en juin.", en: "Work expected to finish in June." },
+          { es: "Chiens admis en laisse.", en: "Dogs allowed on a lead." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
-            audio: "Ouverture des portes à dix-neuf heures.",
+            audio: "Fermeture des caisses à vingt heures.",
             question: "What does it mean?",
-            options: ["Doors open at 7 p.m.", "Doors close at 7 p.m.", "Open the doors at 9 p.m.", "The opening lasts nineteen hours."],
+            options: ["Checkouts close at 8 p.m.", "Checkouts open at 8 p.m.", "Close the checkouts at 10 p.m.", "The checkouts are closed for twenty hours."],
             correctIndex: 0,
-            explanation: "\"Ouverture des portes\" = doors open.",
+            explanation: "A notice built on a noun: \"fermeture\" (closing) + a time. \"Vingt heures\" is 8 p.m. on the 24-hour clock.",
           },
         ],
       },
@@ -1372,15 +1838,11 @@ export const FR_C1_U03: Lesson[] = [
         heading: "Reading a headline back into a sentence",
         body: [
           "To understand a nominal headline, rebuild the sentence: identify the noun's verb, then its subject (the \"de\" complement) and the missing tense from context. \"Report du vote sur le budget\" → \"Le vote sur le budget a été reporté\". \"Envolée des prix de l'énergie\" → \"Les prix de l'énergie s'envolent\". \"Nomination d'une femme à la tête de la BnF\" → \"Une femme a été nommée à la tête de la BnF\".",
-          "Watch for the passive: many nominal headlines hide an agent. \"Arrestation de deux suspects\" = two suspects have been arrested (by the police). \"Fermeture de l'usine Renault\" may mean the plant will close, is closing or has closed; only the text of the news story tells you which.",
-          "Being able to switch between nominal and verbal style is a DALF skill: summaries (\"synthèse\") reward compact nominal phrasing, but oral presentations sound more natural with verbs.",
         ],
         examples: [
           { es: "Report du vote sur le budget → Le vote sur le budget a été reporté.", en: "Budget vote postponed → The vote on the budget has been postponed." },
           { es: "Envolée des prix de l'énergie → Les prix de l'énergie s'envolent.", en: "Energy prices soar." },
-          { es: "Arrestation de deux suspects à Marseille → Deux suspects ont été arrêtés à Marseille.", en: "Two suspects arrested in Marseille." },
           { es: "Nomination d'une femme à la tête de la BnF → Une femme a été nommée à la tête de la BnF.", en: "Woman appointed head of the National Library." },
-          { es: "Rejet de l'amendement → L'amendement a été rejeté.", en: "Amendment rejected." },
         ],
         checkpoint: [
           {
@@ -1391,6 +1853,27 @@ export const FR_C1_U03: Lesson[] = [
             answer: "Le concert de Stromae a été annulé.",
             altAnswers: ["Le concert de Stromae est annulé."],
             explanation: "\"Annulation\" → \"a été annulé\": the noun hides a passive.",
+          },
+        ],
+      },
+      {
+        heading: "Hidden passives, hidden tenses",
+        body: [
+          "Watch for the passive: many nominal headlines hide an agent. \"Arrestation de deux suspects\" = two suspects have been arrested (by the police). \"Fermeture de l'usine Renault\" may mean the plant will close, is closing or has closed; only the text of the news story tells you which.",
+          "Being able to switch between nominal and verbal style is a DALF skill: summaries (\"synthèse\") reward compact nominal phrasing, but oral presentations sound more natural with verbs.",
+        ],
+        examples: [
+          { es: "Arrestation de deux suspects à Marseille → Deux suspects ont été arrêtés à Marseille.", en: "Two suspects arrested in Marseille." },
+          { es: "Rejet de l'amendement → L'amendement a été rejeté.", en: "Amendment rejected." },
+          { es: "Évacuation d'un lycée à Lille → Un lycée a été évacué à Lille.", en: "High school evacuated in Lille → A high school has been evacuated in Lille." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does the headline \"Feu vert pour la ligne de TGV Bordeaux-Toulouse\" mean?",
+            options: ["The Bordeaux-Toulouse high-speed line gets the go-ahead.", "A fire broke out on the Bordeaux-Toulouse line.", "The Bordeaux-Toulouse line goes green.", "Traffic lights installed on the Bordeaux-Toulouse line."],
+            correctIndex: 0,
+            explanation: "\"Feu vert\" = green light, approval.",
           },
           {
             type: "speak",
@@ -1447,18 +1930,6 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "Noun + agreeing participle: \"stationnement interdit\".",
       },
       {
-        type: "multiple-choice",
-        question: "What does the headline \"Feu vert pour la ligne de TGV Bordeaux-Toulouse\" mean?",
-        options: [
-          "The Bordeaux-Toulouse high-speed line gets the go-ahead.",
-          "A fire broke out on the Bordeaux-Toulouse line.",
-          "The Bordeaux-Toulouse line goes green.",
-          "Traffic lights installed on the Bordeaux-Toulouse line.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Feu vert\" = green light, approval.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Write the French notice for:",
@@ -1484,28 +1955,24 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "Two nominal blocks joined by a colon.",
       },
       {
-        type: "matching",
-        instructions: "Match each headline noun with its verb.",
-        pairs: [
-          { left: "l'arrestation", right: "arrêter" },
-          { left: "l'envolée", right: "s'envoler" },
-          { left: "la nomination", right: "nommer" },
-          { left: "le rejet", right: "rejeter" },
-          { left: "l'adoption", right: "adopter" },
-        ],
-        explanation: "Decoding a headline starts with finding the verb behind the noun.",
-      },
-      {
         type: "dictation",
-        audio: "Fermeture exceptionnelle du guichet le 14 juillet.",
-        explanation: "A notice: noun + adjective + complement, no verb.",
+        audio: "Fermeture exceptionnelle de la médiathèque le 1er mai.",
+        answer: "Fermeture exceptionnelle de la médiathèque le 1er mai.",
+        explanation: "A notice with no verb: noun + adjective (\"exceptionnelle\" agrees with \"fermeture\") + date.",
       },
       {
         type: "speak",
-        text: "Grève à la SNCF : report du vote.",
-        prompt: "Say it in French, as a headline: SNCF strike: vote postponed.",
-        tip: "Pause slightly at the colon, as a newsreader would.",
-        explanation: "\"Report\" from \"reporter\" (to postpone), not 'report'.",
+        text: "Grève des bus à Lyon : report des négociations.",
+        prompt: "Say it in French, as a headline: Bus strike in Lyon: talks postponed.",
+        explanation: "Headline style: no verb, no article at the start, a colon between the topic and the development.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Fermage exceptionnel de la piscine le 15 août.",
+        answer: "Fermeture exceptionnelle de la piscine le 15 août.",
+        explanation: "The noun from \"fermer\" is \"la fermeture\" (-ure, feminine), so the adjective becomes \"exceptionnelle\". \"Le fermage\" is a different word (tenant farming).",
       },
     ],
   },
@@ -1518,19 +1985,14 @@ export const FR_C1_U03: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Nouns that keep the verb's preposition",
+        heading: "Nouns keep the verb's preposition",
         body: [
           "When a verb takes a preposition, its noun usually keeps it: \"accéder à → l'accès à\" (\"l'accès à l'emploi\"), \"participer à → la participation à\", \"recourir à → le recours à\" (\"le recours à la force\"), \"lutter contre → la lutte contre\", \"s'opposer à → l'opposition à\", \"renoncer à → la renonciation à\", \"aider à → l'aide à\" (\"l'aide à domicile\").",
-          "English often uses 'to' or 'against' in the same places, so this part is fairly intuitive. The traps come where English says 'of' or 'in' and French doesn't, or vice versa. 'Access to' = \"accès à\" (fine), but 'an increase in prices' = \"une hausse des prix\", and 'interest in' = \"l'intérêt pour\".",
-          "With a nominal style, a preposition error stands out immediately to a French reader: \"*l'accès de l'emploi\" or \"*la lutte de la pollution\" changes or blurs the meaning (\"la lutte de\" would introduce who is fighting).",
         ],
         examples: [
           { es: "L'accès à l'emploi reste difficile pour les jeunes.", en: "Access to employment remains difficult for young people." },
-          { es: "La participation au vote a dépassé 70 %.", en: "Turnout exceeded 70%." },
-          { es: "Le recours à l'intérim a fortement augmenté.", en: "The use of temporary staff has risen sharply." },
           { es: "La lutte contre la pollution est une priorité régionale.", en: "The fight against pollution is a regional priority." },
           { es: "L'opposition au projet s'organise.", en: "Opposition to the project is getting organised." },
-          { es: "L'aide à domicile permet aux personnes âgées de rester chez elles.", en: "Home help allows elderly people to stay in their own homes." },
         ],
         checkpoint: [
           {
@@ -1553,21 +2015,65 @@ export const FR_C1_U03: Lesson[] = [
         ],
       },
       {
-        heading: "Figures and changes: de + amount, de + thing",
+        heading: "Where English and French part ways",
+        body: [
+          "English often uses 'to' or 'against' in the same places, so this part is fairly intuitive. The traps come where English says 'of' or 'in' and French doesn't, or vice versa. 'Access to' = \"accès à\" (fine), but 'an increase in prices' = \"une hausse des prix\", and 'interest in' = \"l'intérêt pour\".",
+        ],
+        examples: [
+          { es: "L'intérêt pour le vélo grandit en ville.", en: "Interest in cycling is growing in cities." },
+          { es: "Une hausse des impôts est prévue.", en: "An increase in taxes is planned." },
+          { es: "L'accès au parking est gratuit.", en: "Access to the car park is free." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is correct for 'interest in cinema'?",
+            options: ["l'intérêt pour le cinéma", "l'intérêt dans le cinéma", "l'intérêt en cinéma", "l'intérêt au cinéma"],
+            correctIndex: 0,
+            explanation: "'Interest in' is \"l'intérêt pour\". English 'in' tempts learners into \"dans\" or \"en\", but this noun takes \"pour\".",
+          },
+        ],
+      },
+      {
+        heading: "Why a wrong preposition stands out",
+        body: [
+          "With a nominal style, a preposition error stands out immediately to a French reader: \"*l'accès de l'emploi\" or \"*la lutte de la pollution\" changes or blurs the meaning (\"la lutte de\" would introduce who is fighting).",
+        ],
+        examples: [
+          { es: "La participation au vote a dépassé 70 %.", en: "Turnout exceeded 70%." },
+          { es: "Le recours à l'intérim a fortement augmenté.", en: "The use of temporary staff has risen sharply." },
+          { es: "L'aide à domicile permet aux personnes âgées de rester chez elles.", en: "Home help allows elderly people to stay in their own homes." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "L'accès de l'eau potable est un droit.",
+            answer: "L'accès à l'eau potable est un droit.",
+            explanation: "\"Accéder à\" gives \"l'accès à\". With \"de\", the reader expects the thing that has access, not the thing reached.",
+          },
+        ],
+      },
+      {
+        heading: "De for the amount and for the thing",
         body: [
           "Nouns of change take \"de\" for the amount and \"de\" for the thing that changes: \"une hausse de 3 %\" (a 3% rise), \"une baisse de 10 euros\", \"une augmentation de salaire\" (a pay rise). With both: \"une hausse de 3 % des prix\" or, more commonly, \"une hausse des prix de 3 %\".",
           "English 'an increase in' or 'a fall in' is \"de\" + article: \"la hausse des loyers\", \"la baisse du chômage\", \"l'augmentation du nombre de chômeurs\". Never \"*une hausse en prix\".",
-          "Other useful patterns: \"un écart de\" (a gap of), \"un retard de deux heures\", \"une économie de 200 euros\" (a saving of), \"un taux de 5 %\" (a rate of), \"une croissance de 1,2 %\". French writes the decimal comma and a space before % : \"3,5 %\".",
         ],
         examples: [
           { es: "Les loyers ont connu une hausse de 3 %.", en: "Rents have risen by 3%." },
           { es: "La hausse des prix de l'énergie atteint 12 %.", en: "The rise in energy prices has reached 12%." },
           { es: "Il a obtenu une augmentation de salaire.", en: "He got a pay rise." },
-          { es: "Le train a un retard de deux heures.", en: "The train is two hours late." },
-          { es: "Ce changement représente une économie de 200 euros par an.", en: "This change represents a saving of 200 euros a year." },
-          { es: "La croissance a été de 1,2 % au troisième trimestre.", en: "Growth was 1.2% in the third quarter." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is correct for 'a fall in unemployment'?",
+            options: ["une baisse du chômage", "une baisse en chômage", "une baisse dans le chômage", "une baisse au chômage"],
+            correctIndex: 0,
+            explanation: "'A fall in' = \"une baisse de\" + article.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1577,31 +2083,48 @@ export const FR_C1_U03: Lesson[] = [
             altAnswers: ["Une hausse des tarifs de 5 %", "Une augmentation de 5 % des tarifs", "Une augmentation des tarifs de 5 %"],
             explanation: "\"De\" + amount and \"de\" + thing: \"une hausse de 5 % des tarifs\".",
           },
+        ],
+      },
+      {
+        heading: "Gaps, delays, savings, rates",
+        body: [
+          "Other useful patterns: \"un écart de\" (a gap of), \"un retard de deux heures\", \"une économie de 200 euros\" (a saving of), \"un taux de 5 %\" (a rate of), \"une croissance de 1,2 %\". French writes the decimal comma and a space before % : \"3,5 %\".",
+        ],
+        examples: [
+          { es: "Le train a un retard de deux heures.", en: "The train is two hours late." },
+          { es: "Ce changement représente une économie de 200 euros par an.", en: "This change represents a saving of 200 euros a year." },
+          { es: "La croissance a été de 1,2 % au troisième trimestre.", en: "Growth was 1.2% in the third quarter." },
+        ],
+        checkpoint: [
           {
-            type: "multiple-choice",
-            question: "Which is correct for 'a fall in unemployment'?",
-            options: ["une baisse du chômage", "une baisse en chômage", "une baisse dans le chômage", "une baisse au chômage"],
-            correctIndex: 0,
-            explanation: "'A fall in' = \"une baisse de\" + article.",
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "There is [a gap of] ten points between the two candidates.",
+            sentence: "Il y a ___ dix points entre les deux candidats.",
+            answer: "un écart de",
+            explanation: "Amounts after nouns of measure take \"de\": \"un écart de dix points\", like \"un retard de deux heures\".",
           },
         ],
       },
       {
-        heading: "Where English of is not de",
+        heading: "In, for, of: the prepositions English hides",
         body: [
           "A list of nouns whose preposition differs from what English suggests: \"l'intérêt pour\" (interest in), \"la passion pour\", \"le goût pour / de\" (taste for), \"le respect de / pour\" (respect for: \"le respect des règles\" but \"le respect pour ses parents\"), \"la confiance en / dans\" (confidence in), \"la responsabilité de\" (responsibility for: \"la responsabilité de l'accident\"), \"la demande de\" (the request for: \"une demande de remboursement\").",
-          "Also: \"l'attention à\" (attention to), \"l'atteinte à\" (harm to, infringement of: \"une atteinte à la vie privée\"), \"la réponse à\" (the answer to), \"la solution à / au problème\", \"l'alternative à\" (alternative to), \"la préférence pour\", \"la dépendance à\" (addiction to: \"la dépendance au tabac\"), \"la menace pour\" (a threat to).",
-          "When two nouns are joined by 'of' in English to express material, purpose or type, French often uses \"de\" without an article (\"une demande d'emploi\", \"un taux de chômage\") or \"à\" for purpose / feature (\"une machine à laver\", \"un bateau à voile\").",
         ],
         examples: [
           { es: "Son intérêt pour la politique date de l'université.", en: "Her interest in politics dates back to university." },
           { es: "Le respect des règles est la base de la vie en collectivité.", en: "Respect for the rules is the basis of communal life." },
           { es: "La confiance dans les institutions recule.", en: "Confidence in institutions is falling." },
-          { es: "C'est une atteinte grave à la vie privée.", en: "It's a serious infringement of privacy." },
-          { es: "La dépendance au téléphone touche surtout les adolescents.", en: "Phone addiction mostly affects teenagers." },
-          { es: "Le réchauffement climatique est une menace pour la biodiversité.", en: "Global warming is a threat to biodiversity." },
         ],
         checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "La confiance en l'avenir progresse chez les jeunes.",
+            question: "What does it mean?",
+            options: ["Young people's confidence in the future is growing.", "The future depends on young people's confidence.", "Young people are losing confidence in the future.", "Confidence in young people is growing."],
+            correctIndex: 0,
+            explanation: "\"La confiance en\" (or \"dans\") is confidence in; \"progresse\" means it is growing.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1611,13 +2134,45 @@ export const FR_C1_U03: Lesson[] = [
             altAnswers: ["Son intérêt pour la musique est né très tôt.", "Son intérêt pour la musique remonte à son enfance."],
             explanation: "'Interest in' = \"l'intérêt pour\", never \"*intérêt en\".",
           },
+        ],
+      },
+      {
+        heading: "More nouns with à and pour",
+        body: [
+          "Also: \"l'attention à\" (attention to), \"l'atteinte à\" (harm to, infringement of: \"une atteinte à la vie privée\"), \"la réponse à\" (the answer to), \"la solution à / au problème\", \"l'alternative à\" (alternative to), \"la préférence pour\", \"la dépendance à\" (addiction to: \"la dépendance au tabac\"), \"la menace pour\" (a threat to).",
+        ],
+        examples: [
+          { es: "C'est une atteinte grave à la vie privée.", en: "It's a serious infringement of privacy." },
+          { es: "La dépendance au téléphone touche surtout les adolescents.", en: "Phone addiction mostly affects teenagers." },
+          { es: "Le réchauffement climatique est une menace pour la biodiversité.", en: "Global warming is a threat to biodiversity." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "La confiance dans les institutions recule.",
-            question: "What does it mean?",
-            options: ["Confidence in institutions is falling.", "Institutions trust people less.", "Confidence is growing in institutions.", "Institutions are stepping back from trust."],
+            type: "multiple-choice",
+            question: "Which phrase means 'a threat to democracy'?",
+            options: ["une menace pour la démocratie", "une menace de la démocratie", "une menace en démocratie", "une menace à démocratie"],
             correctIndex: 0,
-            explanation: "\"La confiance dans / en\" = confidence in.",
+            explanation: "\"Une menace pour\" = a threat to. \"Une menace de\" would announce what is threatened (une menace de grève = a strike threat).",
+          },
+        ],
+      },
+      {
+        heading: "Of for type and purpose",
+        body: [
+          "When two nouns are joined by 'of' in English to express material, purpose or type, French often uses \"de\" without an article (\"une demande d'emploi\", \"un taux de chômage\") or \"à\" for purpose / feature (\"une machine à laver\", \"un bateau à voile\").",
+        ],
+        examples: [
+          { es: "Elle a envoyé une demande d'emploi.", en: "She sent a job application." },
+          { es: "Le taux de chômage baisse.", en: "The unemployment rate is falling." },
+          { es: "J'ai acheté une machine à laver.", en: "I bought a washing machine." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "You need an empty cup for coffee. Which do you ask for?",
+            options: ["une tasse à café", "une tasse de café", "une tasse pour du café", "une tasse en café"],
+            correctIndex: 0,
+            explanation: "\"À\" gives the purpose or type: \"une tasse à café\" (a coffee cup). \"Une tasse de café\" is a cup full of coffee, and \"en\" gives the material.",
           },
         ],
       },
@@ -1668,13 +2223,6 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "\"De\" + amount, \"de\" + what changes.",
       },
       {
-        type: "multiple-choice",
-        question: "Which phrase means 'a threat to democracy'?",
-        options: ["une menace pour la démocratie", "une menace de la démocratie", "une menace en démocratie", "une menace à démocratie"],
-        correctIndex: 0,
-        explanation: "\"Une menace pour\" = a threat to. \"Une menace de\" would announce what is threatened (une menace de grève = a strike threat).",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -1722,6 +2270,15 @@ export const FR_C1_U03: Lesson[] = [
         prompt: "Say it in French: Access to healthcare must be guaranteed for everyone.",
         explanation: "\"L'accès à\" → \"aux soins\".",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn it into a noun phrase.",
+        source: "Les jeunes accèdent difficilement au logement.",
+        answer: "L'accès difficile des jeunes au logement",
+        altAnswers: ["Le difficile accès des jeunes au logement", "L'accès difficile au logement des jeunes"],
+        explanation: "\"Accéder à\" gives \"l'accès à\": the noun keeps the preposition (\"au logement\"), the subject takes \"des\", and the adverb becomes the adjective \"difficile\".",
+      },
     ],
   },
   {
@@ -1736,26 +2293,33 @@ export const FR_C1_U03: Lesson[] = [
         heading: "The chatty draft",
         body: [
           "Sophie lives in a street in Rennes where the lights have been broken for weeks. She drafts an email to the town hall: \"Bonjour, je vous écris parce que les lampadaires de ma rue ne marchent plus depuis trois semaines. C'est vraiment dangereux le soir, surtout pour les enfants qui rentrent de l'école. En plus, des voitures se garent n'importe comment sur le trottoir. Est-ce que vous pourriez réparer les lampadaires vite et faire quelque chose pour les voitures ? Merci !\"",
-          "The French is correct, but the register is too familiar for an official letter: \"ne marchent plus\", \"en plus\", \"n'importe comment\", \"est-ce que vous pourriez\", \"faire quelque chose\". It's also built on verbs, like speech. Turning key verbs into nouns will make it sound like a formal request.",
-          "Step one: find the core events and turn them into nouns. \"Les lampadaires ne marchent plus\" → \"la panne des lampadaires\". \"Des voitures se garent sur le trottoir\" → \"le stationnement sauvage sur le trottoir\". \"Réparer les lampadaires\" → \"la réparation des lampadaires\". \"Faire quelque chose pour les voitures\" → \"la mise en place de mesures contre le stationnement illicite\".",
         ],
         examples: [
-          { es: "Les lampadaires ne marchent plus. → La panne des lampadaires.", en: "The streetlights don't work any more. → The streetlight failure." },
-          { es: "Des voitures se garent sur le trottoir. → Le stationnement sauvage sur le trottoir.", en: "Cars park on the pavement. → Illegal parking on the pavement." },
-          { es: "Réparer les lampadaires. → La réparation des lampadaires.", en: "Repair the streetlights. → The repair of the streetlights." },
-          { es: "Faire quelque chose. → La mise en place de mesures.", en: "Do something. → The introduction of measures." },
-          { es: "C'est dangereux. → Le danger que cela représente.", en: "It's dangerous. → The danger this poses." },
+          { es: "Les lampadaires de ma rue ne marchent plus depuis trois semaines.", en: "The streetlights in my street haven't worked for three weeks." },
+          { es: "C'est vraiment dangereux le soir.", en: "It's really dangerous in the evening." },
+          { es: "Est-ce que vous pourriez réparer les lampadaires vite ?", en: "Could you fix the streetlights quickly?" },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French (turn into a formal noun phrase): \"Les lampadaires ne marchent plus.\"",
-            source: "The streetlight failure",
-            answer: "La panne des lampadaires",
-            altAnswers: ["Le dysfonctionnement des lampadaires", "La panne de l'éclairage public", "L'arrêt des lampadaires"],
-            explanation: "\"Ne plus marcher\" → \"la panne\" (breakdown) or \"le dysfonctionnement\".",
+            type: "multiple-choice",
+            question: "Why isn't Sophie's draft right for the town hall?",
+            options: ["Its register is too familiar for an official letter.", "It has grammar mistakes.", "It's far too long.", "It's written in the wrong tense."],
+            correctIndex: 0,
+            explanation: "The French is correct; the problem is register: \"ne marchent plus\", \"en plus\", \"est-ce que vous pourriez\" belong to speech, not to a formal request.",
           },
+        ],
+      },
+      {
+        heading: "What makes it sound familiar",
+        body: [
+          "The French is correct, but the register is too familiar for an official letter: \"ne marchent plus\", \"en plus\", \"n'importe comment\", \"est-ce que vous pourriez\", \"faire quelque chose\". It's also built on verbs, like speech. Turning key verbs into nouns will make it sound like a formal request.",
+        ],
+        examples: [
+          { es: "Faire quelque chose. → La mise en place de mesures.", en: "Do something. → The introduction of measures." },
+          { es: "C'est dangereux. → Le danger que cela représente.", en: "It's dangerous. → The danger this poses." },
+          { es: "En plus, le bruit continue. → De plus, le bruit persiste.", en: "On top of that, the noise goes on. → Moreover, the noise persists." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which phrase is the formal equivalent of \"des voitures se garent n'importe comment\"?",
@@ -1766,29 +2330,60 @@ export const FR_C1_U03: Lesson[] = [
         ],
       },
       {
+        heading: "Step one: turn the events into nouns",
+        body: [
+          "Step one: find the core events and turn them into nouns. \"Les lampadaires ne marchent plus\" → \"la panne des lampadaires\". \"Des voitures se garent sur le trottoir\" → \"le stationnement sauvage sur le trottoir\". \"Réparer les lampadaires\" → \"la réparation des lampadaires\". \"Faire quelque chose pour les voitures\" → \"la mise en place de mesures contre le stationnement illicite\".",
+        ],
+        examples: [
+          { es: "Les lampadaires ne marchent plus. → La panne des lampadaires.", en: "The streetlights don't work any more. → The streetlight failure." },
+          { es: "Des voitures se garent sur le trottoir. → Le stationnement sauvage sur le trottoir.", en: "Cars park on the pavement. → Illegal parking on the pavement." },
+          { es: "Réparer les lampadaires. → La réparation des lampadaires.", en: "Repair the streetlights. → The repair of the streetlights." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into a formal noun phrase.",
+            source: "Les feux de circulation ne marchent plus.",
+            answer: "La panne des feux de circulation",
+            altAnswers: ["Le dysfonctionnement des feux de circulation", "La panne des feux", "Le dysfonctionnement des feux"],
+            explanation: "\"Ne marchent plus\" is familiar; the formal letter names the event with a noun: \"la panne\" (or \"le dysfonctionnement\") + \"des feux\".",
+          },
+        ],
+      },
+      {
         heading: "The formal paragraph",
         body: [
           "Here is the rewritten version: \"Madame, Monsieur, je me permets d'attirer votre attention sur la panne des lampadaires de la rue des Tanneurs, constatée depuis trois semaines. L'absence d'éclairage représente un réel danger pour les piétons, notamment pour les enfants à la sortie de l'école. S'y ajoute le stationnement anarchique de véhicules sur le trottoir. Je sollicite donc la réparation rapide de l'éclairage public ainsi que la mise en place de mesures contre le stationnement illicite. Je vous remercie par avance de l'attention que vous porterez à ma demande.\"",
-          "Notice: \"constatée depuis\" (a participle replaces 'which has been noted'); \"l'absence de\" turns a negative clause into a noun; \"à la sortie de l'école\" replaces \"qui rentrent de l'école\"; \"je sollicite\" + noun is a formal request verb. \"S'y ajoute\" (inverted: 'added to this is') is a formal connector.",
-          "Nominal style isn't only nouns: the verbs that remain are formal and general (\"représenter\", \"solliciter\", \"constater\", \"porter attention à\"), and the nouns carry the meaning. This division of labour is the key.",
         ],
         examples: [
           { es: "Je me permets d'attirer votre attention sur la panne des lampadaires.", en: "I'm writing to draw your attention to the failure of the streetlights." },
           { es: "L'absence d'éclairage représente un réel danger pour les piétons.", en: "The lack of lighting poses a real danger for pedestrians." },
           { es: "S'y ajoute le stationnement anarchique de véhicules sur le trottoir.", en: "In addition, vehicles are parking haphazardly on the pavement." },
-          { es: "Je sollicite la réparation rapide de l'éclairage public.", en: "I request the prompt repair of the street lighting." },
-          { es: "Je vous remercie par avance de l'attention que vous porterez à ma demande.", en: "Thank you in advance for your attention to my request." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into formal French, using a noun.",
-            source: "The lack of lighting is dangerous.",
-            answer: "L'absence d'éclairage est dangereuse.",
-            altAnswers: ["L'absence d'éclairage représente un danger.", "Le manque d'éclairage est dangereux.", "L'absence d'éclairage constitue un danger.", "Le manque d'éclairage représente un danger."],
-            explanation: "\"Il n'y a pas de lumière\" → \"l'absence d'éclairage\" (feminine → \"dangereuse\").",
+            source: "The lack of parking spaces is a problem for residents.",
+            answer: "Le manque de places de stationnement pose problème aux riverains.",
+            altAnswers: ["Le manque de places de stationnement pose un problème aux riverains.", "Le manque de places de stationnement représente un problème pour les riverains.", "Le manque de places de stationnement pose problème aux habitants.", "Le manque de places de stationnement pose un problème aux habitants.", "Le manque de places de stationnement est un problème pour les riverains.", "Le manque de places de stationnement est un problème pour les habitants.", "Le manque de places de stationnement représente un problème pour les habitants."],
+            explanation: "\"Il n'y a pas assez de places\" becomes a noun: \"le manque de\" (or \"l'absence de\"). A formal, general verb (\"pose problème\", \"représente un problème\") carries the rest.",
           },
+        ],
+      },
+      {
+        heading: "How the rewrite works",
+        body: [
+          "Notice: \"constatée depuis\" (a participle replaces 'which has been noted'); \"l'absence de\" turns a negative clause into a noun; \"à la sortie de l'école\" replaces \"qui rentrent de l'école\"; \"je sollicite\" + noun is a formal request verb. \"S'y ajoute\" (inverted: 'added to this is') is a formal connector.",
+        ],
+        examples: [
+          { es: "Je sollicite la réparation rapide de l'éclairage public.", en: "I request the prompt repair of the street lighting." },
+          { es: "Je vous remercie par avance de l'attention que vous porterez à ma demande.", en: "Thank you in advance for your attention to my request." },
+          { es: "S'y ajoute le bruit des travaux nocturnes.", en: "Added to this is the noise of night-time works." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1801,18 +2396,34 @@ export const FR_C1_U03: Lesson[] = [
         ],
       },
       {
-        heading: "Toolbox: verbs to nouns for formal letters",
+        heading: "Formal verbs, meaningful nouns",
         body: [
-          "A useful list for administrative letters: \"ne pas marcher\" → \"la panne\" / \"le dysfonctionnement\"; \"il n'y a pas de\" → \"l'absence de\" / \"le manque de\"; \"se plaindre\" → \"la plainte\" / \"la réclamation\"; \"rembourser\" → \"le remboursement\"; \"intervenir\" → \"l'intervention\"; \"régler un problème\" → \"le règlement d'un litige\"; \"répondre\" → \"la réponse\"; \"demander\" → \"la demande\".",
-          "Formal request verbs that take a noun: \"solliciter\", \"demander\", \"réclamer\" (claim), \"souhaiter\", \"je vous saurais gré de\" (I would be grateful if you would) + infinitive. And formal openings: \"Je me permets de vous écrire au sujet de...\", \"Suite à...\" (following), \"Dans l'attente de votre réponse...\".",
-          "Combined with the softening subjunctive (Unit 1) and concessions (Unit 2), you now have a full formal toolkit: \"Bien que j'aie déjà signalé le problème, aucune intervention n'a eu lieu.\"",
+          "Nominal style isn't only nouns: the verbs that remain are formal and general (\"représenter\", \"solliciter\", \"constater\", \"porter attention à\"), and the nouns carry the meaning. This division of labour is the key.",
         ],
         examples: [
-          { es: "Je vous écris suite à la panne de l'ascenseur.", en: "I'm writing following the lift breakdown." },
+          { es: "Je constate la dégradation de la chaussée.", en: "I note the deterioration of the road surface." },
+          { es: "Cette situation représente une gêne considérable.", en: "This situation is a considerable nuisance." },
+          { es: "Je vous remercie de l'attention portée à ce dossier.", en: "Thank you for your attention to this matter." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is the most formal?",
+            options: ["Je sollicite l'intervention rapide d'un technicien.", "Est-ce que vous pourriez envoyer un technicien vite ?", "Envoyez-moi un technicien, s'il vous plaît.", "Faudrait qu'un technicien passe vite."],
+            correctIndex: 0,
+            explanation: "\"Solliciter\" + noun (\"l'intervention\") is the formal register.",
+          },
+        ],
+      },
+      {
+        heading: "Toolbox: verbs to nouns",
+        body: [
+          "A useful list for administrative letters: \"ne pas marcher\" → \"la panne\" / \"le dysfonctionnement\"; \"il n'y a pas de\" → \"l'absence de\" / \"le manque de\"; \"se plaindre\" → \"la plainte\" / \"la réclamation\"; \"rembourser\" → \"le remboursement\"; \"intervenir\" → \"l'intervention\"; \"régler un problème\" → \"le règlement d'un litige\"; \"répondre\" → \"la réponse\"; \"demander\" → \"la demande\".",
+        ],
+        examples: [
           { es: "Je sollicite le remboursement intégral de mon billet.", en: "I request a full refund of my ticket." },
-          { es: "Bien que j'aie déjà signalé le problème, aucune intervention n'a eu lieu.", en: "Although I have already reported the problem, no action has been taken." },
-          { es: "Je vous saurais gré de bien vouloir examiner ma réclamation.", en: "I would be grateful if you would kindly look into my complaint." },
-          { es: "Dans l'attente de votre réponse, je vous prie d'agréer mes salutations distinguées.", en: "I look forward to your reply. Yours faithfully." },
+          { es: "Je dépose une réclamation auprès du service client.", en: "I'm lodging a complaint with customer services." },
+          { es: "Nous attendons l'intervention du plombier.", en: "We're waiting for the plumber to come." },
         ],
         checkpoint: [
           {
@@ -1824,11 +2435,46 @@ export const FR_C1_U03: Lesson[] = [
             altAnswers: ["Je demande un remboursement intégral.", "Je sollicite le remboursement intégral.", "Je demande le remboursement intégral.", "Je réclame un remboursement intégral."],
             explanation: "\"Rembourser\" → \"le remboursement\"; \"solliciter\" + noun.",
           },
+        ],
+      },
+      {
+        heading: "Formal request verbs and openings",
+        body: [
+          "Formal request verbs that take a noun: \"solliciter\", \"demander\", \"réclamer\" (claim), \"souhaiter\", \"je vous saurais gré de\" (I would be grateful if you would) + infinitive. And formal openings: \"Je me permets de vous écrire au sujet de...\", \"Suite à...\" (following), \"Dans l'attente de votre réponse...\".",
+        ],
+        examples: [
+          { es: "Je vous écris suite à la panne de l'ascenseur.", en: "I'm writing following the lift breakdown." },
+          { es: "Je vous saurais gré de bien vouloir examiner ma réclamation.", en: "I would be grateful if you would kindly look into my complaint." },
+          { es: "Dans l'attente de votre réponse, je vous prie d'agréer mes salutations distinguées.", en: "I look forward to your reply. Yours faithfully." },
+        ],
+        checkpoint: [
           {
             type: "speak",
             text: "Je me permets d'attirer votre attention sur la panne de l'ascenseur.",
             prompt: "Say it in French, formally: I'm writing to draw your attention to the lift breakdown.",
             explanation: "A classic formal opening + nominal \"la panne\".",
+          },
+        ],
+      },
+      {
+        heading: "Adding the subjunctive and concessions",
+        body: [
+          "Combined with the softening subjunctive (Unit 1) and concessions (Unit 2), you now have a full formal toolkit: \"Bien que j'aie déjà signalé le problème, aucune intervention n'a eu lieu.\"",
+        ],
+        examples: [
+          { es: "Bien que j'aie déjà signalé le problème, aucune intervention n'a eu lieu.", en: "Although I have already reported the problem, no action has been taken." },
+          { es: "Bien que le contrat le prévoie, aucun remboursement n'a été effectué.", en: "Although the contract provides for it, no refund has been made." },
+          { es: "Je souhaiterais que le problème soit réglé rapidement.", en: "I would like the problem to be resolved quickly." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Bien que la panne est signalée depuis un mois, rien n'a été fait.",
+            answer: "Bien que la panne soit signalée depuis un mois, rien n'a été fait.",
+            altAnswers: ["Bien que la panne ait été signalée il y a un mois, rien n'a été fait."],
+            explanation: "\"Bien que\" always takes the subjunctive: \"soit signalée\", not \"est\".",
           },
         ],
       },
@@ -1880,18 +2526,6 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "\"Je vous saurais gré de\" + infinitive; or nominal \"je sollicite le remplacement\".",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is the most formal?",
-        options: [
-          "Je sollicite l'intervention rapide d'un technicien.",
-          "Est-ce que vous pourriez envoyer un technicien vite ?",
-          "Envoyez-moi un technicien, s'il vous plaît.",
-          "Faudrait qu'un technicien passe vite.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Solliciter\" + noun (\"l'intervention\") is the formal register.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French (rewrite formally, using a noun): \"Les voisins font du bruit tous les soirs.\"",
@@ -1918,22 +2552,23 @@ export const FR_C1_U03: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "L'absence d'éclairage représente un danger pour les piétons.",
+        audio: "Le manque de signalisation représente un risque pour les cyclistes.",
         question: "What does it mean?",
-        options: ["The lack of lighting poses a danger for pedestrians.", "Pedestrians are absent because of the lighting.", "The lighting is dangerous for pedestrians.", "Pedestrians represent a danger without lighting."],
+        options: ["The lack of signage poses a risk for cyclists.", "Cyclists are missing the signs.", "The signs are dangerous for cyclists.", "Cyclists represent a risk for signage."],
         correctIndex: 0,
-        explanation: "\"L'absence de\" = the lack of.",
+        explanation: "\"Le manque de\" turns 'there aren't enough' into a noun; \"représente un risque\" is the formal general verb that carries it.",
       },
       {
         type: "dictation",
-        audio: "Je sollicite la réparation rapide de l'éclairage public.",
-        explanation: "\"Solliciter\" + a nominal phrase.",
+        audio: "Je sollicite le remplacement rapide de la chaudière.",
+        answer: "Je sollicite le remplacement rapide de la chaudière.",
+        explanation: "Formal request: \"je sollicite\" + a noun (\"le remplacement\", from remplacer).",
       },
       {
         type: "speak",
-        text: "Je vous remercie par avance de l'attention que vous porterez à ma demande.",
-        prompt: "Say the formal closing: Thank you in advance for your attention to my request.",
-        explanation: "A fixed formal closing built on nouns (\"l'attention\", \"ma demande\").",
+        text: "Je vous remercie par avance de votre réponse.",
+        prompt: "Say the formal closing: Thank you in advance for your reply.",
+        explanation: "A standard formal closing: \"remercier de\" + noun.",
       },
     ],
   },
@@ -1950,94 +2585,135 @@ export const FR_C1_U03: Lesson[] = [
         body: [
           "A report written by an English-speaking intern in a Lyon company: \"La licenciation de dix salariés a été annoncée. L'arrivement du nouveau directeur est prévu en mars. La payation des fournisseurs sera retardée.\" Each sentence uses a noun that doesn't exist, built by analogy with English (-tion) or by the wrong French suffix.",
           "Corrections: \"*la licenciation\" → \"le licenciement\"; \"*l'arrivement\" → \"l'arrivée\"; \"*la payation\" → \"le paiement\" (or \"le règlement\"). Note that each correction also changes the gender, and therefore the agreement: \"le licenciement... a été annoncé\".",
-          "The lesson: suffixes are not interchangeable. If you're unsure, check a dictionary for the noun; a quick search for \"nom de licencier\" gives the answer. Over time, you'll develop a feel for which verbs take -ment (often transitive actions on people or things: licencier, recruter, remplacer) and which take -tion (often learned Latin verbs: réduire, organiser).",
         ],
         examples: [
           { es: "Le licenciement de dix salariés a été annoncé.", en: "The dismissal of ten employees has been announced." },
           { es: "L'arrivée du nouveau directeur est prévue en mars.", en: "The new director's arrival is planned for March." },
           { es: "Le paiement des fournisseurs sera retardé.", en: "Payment of suppliers will be delayed." },
-          { es: "Le recrutement d'un comptable est en cours.", en: "Recruitment of an accountant is under way." },
-          { es: "L'organisation du séminaire a été confiée à Inès.", en: "Organising the seminar has been entrusted to Ines." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A report says: \"La licenciation de dix salariés a été annoncée.\" Write the correct French.",
-            source: "The dismissal of ten employees has been announced.",
-            answer: "Le licenciement de dix salariés a été annoncé.",
-            explanation: "\"Licencier\" → \"le licenciement\" (masculine), so \"annoncé\" without -e.",
+            prompt: "Correct the sentence.",
+            source: "L'envoiement des colis a pris du retard.",
+            answer: "L'envoi des colis a pris du retard.",
+            explanation: "\"Envoyer\" gives the suffix-less noun \"l'envoi\" (masculine); \"*l'envoiement\" is invented by analogy with -ment.",
           },
           {
-            type: "fill-blank",
-            prompt: "A report says: \"L'arrivement du directeur...\" Write the French for the bold words.",
-            en: "[The arrival] of the director is planned for March.",
-            sentence: "___ du directeur est prévue en mars.",
-            answer: "L'arrivée",
-            explanation: "\"Arriver\" → \"l'arrivée\" (-ée, feminine) → \"prévue\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La remboursation des frais sera effectuée en juin.",
+            answer: "Le remboursement des frais sera effectué en juin.",
+            explanation: "\"Rembourser\" takes -ment: \"le remboursement\", masculine, so the participle becomes \"effectué\". The gender change ripples through the agreement.",
           },
         ],
       },
       {
-        heading: "Gender errors",
+        heading: "-ment or -tion? Building a feel",
+        body: [
+          "The lesson: suffixes are not interchangeable. If you're unsure, check a dictionary for the noun; a quick search for \"nom de licencier\" gives the answer. Over time, you'll develop a feel for which verbs take -ment (often transitive actions on people or things: licencier, recruter, remplacer) and which take -tion (often learned Latin verbs: réduire, organiser).",
+        ],
+        examples: [
+          { es: "Le recrutement d'un comptable est en cours.", en: "Recruitment of an accountant is under way." },
+          { es: "L'organisation du séminaire a été confiée à Inès.", en: "Organising the seminar has been entrusted to Ines." },
+          { es: "Le traitement des dossiers prend trois semaines.", en: "Processing the files takes three weeks." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which noun phrase says 'the equipping of the classrooms'?",
+            options: ["l'équipement des salles", "l'équipation des salles", "l'équipage des salles", "l'équipure des salles"],
+            correctIndex: 0,
+            explanation: "\"Équiper\" takes -ment: \"l'équipement\". \"L'équipage\" exists but means a crew, and the other two are invented.",
+          },
+        ],
+      },
+      {
+        heading: "Gender errors ripple",
         body: [
           "Next, an email from a project manager: \"Le réduction des coûts est indispensable. La développement du produit a pris du retard. Une nouvelle message a été envoyée. La chômage reste élevée.\"",
           "Corrections: \"la réduction\" (-tion is feminine); \"le développement\" (-ment is masculine); \"un nouveau message\" (-age is masculine, so \"nouveau... envoyé\"); \"le chômage reste élevé\". The gender error propagates: every agreeing word must change too.",
-          "English speakers are especially prone to making -age nouns feminine (because of \"la plage\", \"la page\", \"l'image\" from early lessons). Remember: masculine by default, and only six feminine exceptions.",
         ],
         examples: [
           { es: "La réduction des coûts est indispensable.", en: "Cutting costs is essential." },
           { es: "Le développement du produit a pris du retard.", en: "Product development has fallen behind schedule." },
           { es: "Un nouveau message a été envoyé.", en: "A new message has been sent." },
           { es: "Le chômage reste élevé.", en: "Unemployment remains high." },
-          { es: "Le courage des pompiers a été salué.", en: "The firefighters' courage was praised." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: [
-              "Le chômage reste élevé.",
-              "La chômage reste élevée.",
-              "Le chômage reste élevée.",
-              "La chômage reste élevé.",
-            ],
+            options: ["Le recyclage est obligatoire.", "La recyclage est obligatoire.", "Le recyclation est obligatoire.", "La recyclement est obligatoire."],
             correctIndex: 0,
-            explanation: "\"Le chômage\" (-age, masculine) → \"élevé\".",
+            explanation: "\"Recycler\" gives \"le recyclage\": -age is masculine (only page, image, plage, cage, nage and rage are feminine). The other nouns don't exist.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "An email says: \"La développement du produit a pris du retard.\" Write the correct French.",
-            source: "Product development has fallen behind schedule.",
-            answer: "Le développement du produit a pris du retard.",
-            explanation: "-ment nouns from verbs are masculine.",
+            prompt: "Correct the sentence.",
+            source: "Une nouvelle bâtiment a été construite.",
+            answer: "Un nouveau bâtiment a été construit.",
+            explanation: "\"Le bâtiment\" is masculine (-ment), so every agreeing word changes: \"un nouveau\", \"construit\".",
           },
         ],
       },
       {
-        heading: "Wrong noun for the meaning",
+        heading: "Why -age trips English speakers",
+        body: [
+          "English speakers are especially prone to making -age nouns feminine (because of \"la plage\", \"la page\", \"l'image\" from early lessons). Remember: masculine by default, and only six feminine exceptions.",
+        ],
+        examples: [
+          { es: "Le courage des pompiers a été salué.", en: "The firefighters' courage was praised." },
+          { es: "Le fromage est affiné pendant deux ans.", en: "The cheese is matured for two years." },
+          { es: "Ce voyage a été très fatigant.", en: "This trip was very tiring." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which noun phrase is correct?",
+            options: ["une image floue", "un image flou", "un image floue", "un imagement flou"],
+            correctIndex: 0,
+            explanation: "\"L'image\" is one of the feminine -age exceptions.",
+          },
+        ],
+      },
+      {
+        heading: "Real nouns, wrong meaning",
         body: [
           "Some errors use a real French noun with the wrong meaning: \"*la location de l'usine\" for 'the location of the factory' (\"la location\" = renting; 'location' = \"l'emplacement\" / \"la situation\"). \"*Les arrêts de deux suspects\" for 'the arrest of two suspects' (\"l'arrêt\" = a stop or a court ruling; a person's arrest is \"l'arrestation\"). \"*Une demande pour 200 euros\" for 'a 200-euro demand' (\"une demande de 200 euros\").",
-          "False friends in nominal style: \"la formation\" (training, not formation), \"l'actualité\" (current events), \"la manifestation\" (demonstration or event), \"le report\" (postponement, not a report: that's \"le rapport\"), \"la délivrance\" (issuing of a document), \"la résignation\" (resignation in the sense of acceptance; quitting a job is \"la démission\").",
-          "These are the slips that make an Advanced text unreliable for the reader. When you nominalise, check that the noun really means what you want.",
         ],
         examples: [
           { es: "L'emplacement de l'usine a été choisi pour son accès à l'autoroute.", en: "The location of the factory was chosen for its motorway access." },
           { es: "La location d'un appartement à Paris coûte cher.", en: "Renting a flat in Paris is expensive." },
-          { es: "La démission du ministre a été acceptée.", en: "The minister's resignation was accepted." },
-          { es: "Le rapport annuel sera publié en avril.", en: "The annual report will be published in April." },
-          { es: "La délivrance des passeports prend six semaines.", en: "Issuing passports takes six weeks." },
+          { es: "L'arrestation du suspect a eu lieu à l'aube.", en: "The suspect was arrested at dawn." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French (careful with false friends).",
-            source: "The minister's resignation surprised everyone.",
-            answer: "La démission du ministre a surpris tout le monde.",
-            explanation: "Quitting a job = \"la démission\"; \"la résignation\" means acceptance of one's fate.",
+            source: "The location of the hotel is ideal.",
+            answer: "L'emplacement de l'hôtel est idéal.",
+            altAnswers: ["La situation de l'hôtel est idéale.", "La localisation de l'hôtel est idéale."],
+            explanation: "\"La location\" means renting; use \"l'emplacement\" or \"la situation\".",
           },
+        ],
+      },
+      {
+        heading: "False friends in nominal style",
+        body: [
+          "False friends in nominal style: \"la formation\" (training, not formation), \"l'actualité\" (current events), \"la manifestation\" (demonstration or event), \"le report\" (postponement, not a report: that's \"le rapport\"), \"la délivrance\" (issuing of a document), \"la résignation\" (resignation in the sense of acceptance; quitting a job is \"la démission\").",
+          "These are the slips that make an Advanced text unreliable for the reader. When you nominalise, check that the noun really means what you want.",
+        ],
+        examples: [
+          { es: "La démission du ministre a été acceptée.", en: "The minister's resignation was accepted." },
+          { es: "Le rapport annuel sera publié en avril.", en: "The annual report will be published in April." },
+          { es: "La délivrance des passeports prend six semaines.", en: "Issuing passports takes six weeks." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Le report de la réunion a été annoncé ce matin.",
@@ -2046,6 +2722,15 @@ export const FR_C1_U03: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Le report\" = postponement (from reporter); a report is \"un rapport\".",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French (careful with false friends).",
+            source: "Her resignation from the club surprised everyone.",
+            answer: "Sa démission du club a surpris tout le monde.",
+            altAnswers: ["Sa démission du club a étonné tout le monde.", "Sa démission du club a surpris tous les membres."],
+            explanation: "Quitting a post is \"la démission\"; \"la résignation\" is the false friend (accepting your fate).",
+          },
         ],
       },
     ],
@@ -2053,19 +2738,19 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: \"La réduisation des impôts...\" Write the correct French: The tax cut was voted.",
-        source: "The tax cut was voted.",
+        prompt: "Correct the sentence.",
+        source: "La réduisation des impôts a été votée.",
         answer: "La réduction des impôts a été votée.",
         altAnswers: ["La baisse des impôts a été votée."],
-        explanation: "\"Réduire\" → \"la réduction\".",
+        explanation: "Verbs in -uire take -uction: \"réduire → la réduction\". \"*La réduisation\" is built on the stem \"réduis-\", which French doesn't do.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: \"Le remplaçage du directeur...\" Write the correct French: The director's replacement is planned.",
-        source: "The director's replacement is planned.",
-        answer: "Le remplacement du directeur est prévu.",
-        explanation: "\"Remplacer\" → \"le remplacement\" (-ment).",
+        prompt: "Correct the sentence.",
+        source: "Le remplaçage des vitres coûtera cher.",
+        answer: "Le remplacement des vitres coûtera cher.",
+        explanation: "\"Remplacer\" takes -ment: \"le remplacement\". -age is a real suffix, but not for this verb.",
       },
       {
         type: "fill-blank",
@@ -2078,27 +2763,10 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (careful with false friends).",
-        source: "The location of the hotel is ideal.",
-        answer: "L'emplacement de l'hôtel est idéal.",
-        altAnswers: ["La situation de l'hôtel est idéale.", "La localisation de l'hôtel est idéale."],
-        explanation: "\"La location\" means renting; use \"l'emplacement\" or \"la situation\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which noun phrase is correct?",
-        options: ["une image floue", "un image flou", "un image floue", "un imagement flou"],
-        correctIndex: 0,
-        explanation: "\"L'image\" is one of the feminine -age exceptions.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "A text says: \"La payement est refusée.\" Write the correct French: The payment has been refused.",
-        source: "The payment has been refused.",
-        answer: "Le paiement a été refusé.",
-        altAnswers: ["Le paiement est refusé."],
-        explanation: "\"Le paiement\" (masculine; \"payement\" is an old spelling).",
+        prompt: "Correct the sentence.",
+        source: "La développation du tourisme profite à la région.",
+        answer: "Le développement du tourisme profite à la région.",
+        explanation: "\"Développer\" takes -ment: \"le développement\", masculine, so the article changes too.",
       },
       {
         type: "translate",
@@ -2111,11 +2779,11 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says \"Les arrêts de deux suspects...\" Translate into French correctly: The arrest of two suspects.",
-        source: "The arrest of two suspects",
-        answer: "L'arrestation de deux suspects",
-        altAnswers: ["L'interpellation de deux suspects"],
-        explanation: "\"Arrêter\" (a person) → \"l'arrestation\".",
+        prompt: "Correct the sentence.",
+        source: "Les arrêts de deux suspects ont eu lieu hier.",
+        answer: "L'arrestation de deux suspects a eu lieu hier.",
+        altAnswers: ["L'interpellation de deux suspects a eu lieu hier."],
+        explanation: "A person's arrest is \"l'arrestation\" (one event, so the verb is singular). \"L'arrêt\" is a stop or a court ruling.",
       },
       {
         type: "word-order",
@@ -2137,14 +2805,24 @@ export const FR_C1_U03: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Le licenciement de trente salariés a été annoncé.",
-        explanation: "Masculine \"le licenciement\" → \"annoncé\".",
+        audio: "Le licenciement du gardien a été contesté.",
+        answer: "Le licenciement du gardien a été contesté.",
+        explanation: "\"Licencier\" gives \"le licenciement\" (masculine), so \"contesté\" has no -e.",
       },
       {
         type: "speak",
-        text: "Le développement du projet a pris du retard.",
-        prompt: "Say it in French: The project's development has fallen behind.",
-        explanation: "\"Le développement\" (masculine).",
+        text: "La rénovation du gymnase a pris du retard.",
+        prompt: "Say it in French: The renovation of the gym has fallen behind.",
+        explanation: "\"Rénover\" gives \"la rénovation\" (-ation, feminine).",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn the clause into a noun subject.",
+        source: "Les loyers ont été réduits, ce qui a soulagé les étudiants.",
+        answer: "La réduction des loyers a soulagé les étudiants.",
+        altAnswers: ["La baisse des loyers a soulagé les étudiants."],
+        explanation: "\"Réduire\" gives \"la réduction\" (-uction), which becomes the subject of \"a soulagé\".",
       },
     ],
   },
@@ -2160,54 +2838,73 @@ export const FR_C1_U03: Lesson[] = [
         heading: "When nouns pile up",
         body: [
           "Nominal style is efficient up to a point. Beyond it, you get what French critics call \"le jargon administratif\" or \"la langue de bois\": \"La mise en œuvre de la réalisation de l'amélioration de l'accueil des usagers fera l'objet d'une évaluation.\" Five nouns in a chain, three of them saying almost the same thing (mise en œuvre, réalisation, amélioration), and no clear agent.",
-          "The cure is to find the real action and who does it, then use a verb: \"Nous allons améliorer l'accueil des usagers, puis nous évaluerons les résultats.\" Shorter, clearer, and it tells the reader who is responsible.",
-          "French administrations themselves now promote plain language (\"le langage clair\"): official guides recommend one idea per sentence, active verbs, and limiting chains of \"de\". At the Advanced level you should be able to write the dense style when the genre demands it, and to undo it when clarity matters.",
         ],
         examples: [
           { es: "La mise en œuvre de l'amélioration de l'accueil fera l'objet d'une évaluation.", en: "The implementation of the improvement of reception will be the subject of an assessment." },
-          { es: "Nous allons améliorer l'accueil, puis nous évaluerons les résultats.", en: "We're going to improve reception, then we'll assess the results." },
           { es: "La réalisation de la réparation de la toiture est prévue.", en: "Execution of the roof repair is planned." },
-          { es: "Nous réparerons le toit en juin.", en: "We'll repair the roof in June." },
           { es: "Il est procédé à la vérification des compteurs.", en: "Meter checking is being carried out." },
-          { es: "Un technicien vérifie les compteurs.", en: "A technician is checking the meters." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French (rewrite in plain French with a verb): \"La réalisation de la réparation de la toiture est prévue en juin.\"",
-            source: "We'll repair the roof in June.",
-            answer: "Nous réparerons le toit en juin.",
-            altAnswers: ["Nous allons réparer le toit en juin.", "On réparera le toit en juin.", "On va réparer le toit en juin.", "Le toit sera réparé en juin.", "Nous réparerons la toiture en juin."],
-            explanation: "\"La réalisation de la réparation\" is a redundant chain; the real action is \"réparer\".",
-          },
-          {
             type: "multiple-choice",
             question: "Which version is plain language?",
-            options: [
-              "Remplissez le formulaire et renvoyez-le avant le 30 juin.",
-              "Le renvoi du formulaire après remplissage doit intervenir avant le 30 juin.",
-              "Il est procédé au renvoi du formulaire rempli avant le 30 juin.",
-              "Le remplissage et le renvoi du formulaire font l'objet d'une date limite au 30 juin.",
-            ],
+            options: ["Remplissez le formulaire et renvoyez-le avant le 30 juin.", "Le renvoi du formulaire après remplissage doit intervenir avant le 30 juin.", "Il est procédé au renvoi du formulaire rempli avant le 30 juin.", "Le remplissage et le renvoi du formulaire font l'objet d'une date limite au 30 juin."],
             correctIndex: 0,
             explanation: "Imperatives with clear verbs and a direct address are the plain-language choice.",
           },
         ],
       },
       {
-        heading: "Five techniques for denominalising",
+        heading: "The cure: the action and who does it",
+        body: [
+          "The cure is to find the real action and who does it, then use a verb: \"Nous allons améliorer l'accueil des usagers, puis nous évaluerons les résultats.\" Shorter, clearer, and it tells the reader who is responsible.",
+        ],
+        examples: [
+          { es: "Nous allons améliorer l'accueil, puis nous évaluerons les résultats.", en: "We're going to improve reception, then we'll assess the results." },
+          { es: "Nous réparerons le toit en juin.", en: "We'll repair the roof in June." },
+          { es: "Un technicien vérifie les compteurs.", en: "A technician is checking the meters." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it in plain French with a verb.",
+            source: "La réalisation de la rénovation de la cantine est prévue en juillet.",
+            answer: "Nous rénoverons la cantine en juillet.",
+            altAnswers: ["Nous allons rénover la cantine en juillet.", "On rénovera la cantine en juillet.", "On va rénover la cantine en juillet.", "La cantine sera rénovée en juillet."],
+            explanation: "Find the real action (\"rénover\") and who does it (\"nous\"), then use a verb: the chain \"la réalisation de la rénovation de\" disappears.",
+          },
+        ],
+      },
+      {
+        heading: "Plain language, officially",
+        body: [
+          "French administrations themselves now promote plain language (\"le langage clair\"): official guides recommend one idea per sentence, active verbs, and limiting chains of \"de\". At the Advanced level you should be able to write the dense style when the genre demands it, and to undo it when clarity matters.",
+        ],
+        examples: [
+          { es: "Envoyez votre dossier avant le 1er mars.", en: "Send your file before 1 March." },
+          { es: "Nous vous répondrons sous dix jours.", en: "We'll reply within ten days." },
+          { es: "Le guichet ouvre à 9 heures.", en: "The counter opens at 9." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which piece of advice is wrong for plain language?",
+            options: ["Chain several nouns with de.", "Put one idea in each sentence.", "Use active verbs.", "Say who does the action."],
+            correctIndex: 0,
+            explanation: "Official plain-language guides recommend limiting chains of \"de\"; the other three are exactly what they advise.",
+          },
+        ],
+      },
+      {
+        heading: "Verb, agent, and faire l'objet de",
         body: [
           "1) Turn the main noun back into a verb: \"la vérification des comptes\" → \"vérifier les comptes\". 2) Bring back the agent as subject: \"la prise en charge des frais par la mutuelle\" → \"la mutuelle prend en charge les frais\". 3) Replace \"faire l'objet de\" + noun with a passive or active verb: \"Ce dossier fera l'objet d'un examen\" → \"Nous examinerons ce dossier\".",
-          "4) Replace \"il est procédé à\" + noun (very bureaucratic) with an active verb: \"Il est procédé au contrôle des billets\" → \"Les contrôleurs vérifient les billets\". 5) Break a long sentence into two: one idea, one sentence.",
-          "Also cut empty nouns that add nothing: \"au niveau de\" ('at the level of', often meaningless: \"au niveau du budget\" → \"pour le budget\"), \"en termes de\" (\"en termes de coûts\" → \"pour les coûts\"), \"la question de\" (\"la question du stationnement\" → \"le stationnement\").",
         ],
         examples: [
           { es: "La mutuelle prend en charge les frais.", en: "The health insurer covers the costs." },
           { es: "Ce dossier fera l'objet d'un examen. → Nous examinerons ce dossier.", en: "This file will be the subject of a review. → We'll review this file." },
-          { es: "Il est procédé au contrôle des billets. → Les contrôleurs vérifient les billets.", en: "Ticket inspection is being carried out. → The inspectors are checking tickets." },
-          { es: "Au niveau du budget, on a un problème. → Nous avons un problème de budget.", en: "Budget-wise, we have a problem. → We have a budget problem." },
-          { es: "En termes de coûts, c'est intéressant. → C'est intéressant pour les coûts.", en: "In terms of costs, it's attractive. → It's attractive cost-wise." },
+          { es: "La signature du contrat par le client → Le client signe le contrat.", en: "The signing of the contract by the client → The client signs the contract." },
         ],
         checkpoint: [
           {
@@ -2221,46 +2918,119 @@ export const FR_C1_U03: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Write the French for the bold words, with an active verb.",
-            en: "[The insurer covers] the costs.",
-            sentence: "___ les frais.",
-            answer: "L'assureur prend en charge",
-            altAnswers: ["L'assurance prend en charge", "La mutuelle prend en charge"],
-            explanation: "\"La prise en charge des frais par l'assureur\" → \"l'assureur prend en charge les frais\".",
+            prompt: "Write the French for the bold words.",
+            en: "The town hall [is covering] the cost of the trip.",
+            sentence: "La mairie ___ les frais du voyage.",
+            answer: "prend en charge",
+            altAnswers: ["paie", "paye", "rembourse"],
+            explanation: "Technique 2: the agent comes back as subject, with an active verb: \"la mairie prend en charge\" rather than \"la prise en charge des frais par la mairie\".",
           },
         ],
       },
       {
-        heading: "Choosing the right style",
+        heading: "Il est procédé à, and splitting sentences",
         body: [
-          "Neither style is wrong; each fits a genre. Headlines, notices, summaries, reports, legal texts, academic abstracts: nominal style. Emails to colleagues, explanations to the public, instructions, speeches, presentations: verbal style, or a mix.",
-          "A balanced professional text often uses nouns for topics and verbs for actions: \"La hausse des tarifs (topic) s'explique par l'augmentation des coûts de l'énergie. Nous avons toutefois décidé (action) de maintenir les tarifs réduits.\" Notice the agent \"nous\" and the clear verb \"décider\" at the decisive moment.",
-          "When you read a heavy official text, practise mentally 'translating' it into verbs. When you write a DALF summary, do the reverse. Being able to move between the two is an Advanced skill in itself.",
+          "4) Replace \"il est procédé à\" + noun (very bureaucratic) with an active verb: \"Il est procédé au contrôle des billets\" → \"Les contrôleurs vérifient les billets\". 5) Break a long sentence into two: one idea, one sentence.",
         ],
         examples: [
-          { es: "La hausse des tarifs s'explique par l'augmentation des coûts de l'énergie.", en: "The fare increase is due to rising energy costs." },
-          { es: "Nous avons toutefois décidé de maintenir les tarifs réduits.", en: "We have, however, decided to keep the reduced fares." },
-          { es: "Les tarifs augmentent parce que l'énergie coûte plus cher.", en: "Fares are going up because energy costs more." },
-          { es: "Report de la réunion au jeudi 12.", en: "Meeting postponed to Thursday the 12th." },
-          { es: "Nous reportons la réunion à jeudi 12, car le directeur est absent.", en: "We're postponing the meeting to Thursday the 12th, as the director is away." },
+          { es: "Il est procédé au contrôle des billets. → Les contrôleurs vérifient les billets.", en: "Ticket inspection is being carried out. → The inspectors are checking tickets." },
+          { es: "Il est procédé au nettoyage des vitres. → Une équipe nettoie les vitres.", en: "Window cleaning is being carried out. → A team is cleaning the windows." },
+          { es: "Il est procédé à l'évacuation du bâtiment. → On évacue le bâtiment.", en: "The building is being evacuated. → We're evacuating the building." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (rewrite in plain spoken French): \"La hausse des tarifs s'explique par l'augmentation des coûts de l'énergie.\"",
-            source: "Fares are going up because energy costs more.",
-            answer: "Les tarifs augmentent parce que l'énergie coûte plus cher.",
-            altAnswers: ["Les tarifs augmentent parce que l'énergie est plus chère.", "Les prix augmentent parce que l'énergie coûte plus cher.", "Les tarifs augmentent car l'énergie coûte plus cher."],
-            explanation: "Nouns back into verbs: \"la hausse\" → \"augmentent\", \"l'augmentation des coûts\" → \"coûte plus cher\".",
+            prompt: "Translate into French (rewrite in plain French): \"Il est procédé à la fermeture des portes à 18 heures.\"",
+            source: "We close the doors at 6 p.m.",
+            answer: "Nous fermons les portes à 18 heures.",
+            altAnswers: ["On ferme les portes à 18 heures.", "Les portes ferment à 18 heures.", "Nous fermons les portes à 18 h.", "Les portes sont fermées à 18 heures."],
+            explanation: "\"Il est procédé à la fermeture\" → an active verb with a subject.",
           },
+        ],
+      },
+      {
+        heading: "Cut the empty nouns",
+        body: [
+          "Also cut empty nouns that add nothing: \"au niveau de\" ('at the level of', often meaningless: \"au niveau du budget\" → \"pour le budget\"), \"en termes de\" (\"en termes de coûts\" → \"pour les coûts\"), \"la question de\" (\"la question du stationnement\" → \"le stationnement\").",
+        ],
+        examples: [
+          { es: "Au niveau du budget, on a un problème. → Nous avons un problème de budget.", en: "Budget-wise, we have a problem. → We have a budget problem." },
+          { es: "En termes de coûts, c'est intéressant. → C'est intéressant pour les coûts.", en: "In terms of costs, it's attractive. → It's attractive cost-wise." },
+          { es: "La question du stationnement sera abordée. → Nous parlerons du stationnement.", en: "The issue of parking will be addressed. → We'll talk about parking." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French (rewrite with fewer nouns): \"Au niveau de la communication, il y a eu un manque de clarté.\"",
+            source: "Communication wasn't clear.",
+            answer: "La communication n'a pas été claire.",
+            altAnswers: ["La communication n'était pas claire.", "Nous n'avons pas communiqué clairement.", "On n'a pas communiqué clairement."],
+            explanation: "Cut \"au niveau de\" and turn \"un manque de clarté\" into \"pas clair\".",
+          },
+        ],
+      },
+      {
+        heading: "Each style has its genre",
+        body: [
+          "Neither style is wrong; each fits a genre. Headlines, notices, summaries, reports, legal texts, academic abstracts: nominal style. Emails to colleagues, explanations to the public, instructions, speeches, presentations: verbal style, or a mix.",
+        ],
+        examples: [
+          { es: "Report de la réunion au jeudi 12.", en: "Meeting postponed to Thursday the 12th." },
+          { es: "Nous reportons la réunion à jeudi 12, car le directeur est absent.", en: "We're postponing the meeting to Thursday the 12th, as the director is away." },
+          { es: "Hausse du prix du ticket au 1er janvier", en: "Ticket price rises on 1 January" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "You're sending a quick email to colleagues about tomorrow's meeting. Which sentence fits best?",
+            options: ["On se retrouve demain à 10 heures en salle B.", "Tenue de la réunion demain à 10 heures en salle B.", "Il est procédé à la tenue d'une réunion demain à 10 heures.", "La réunion fera l'objet d'une tenue demain à 10 heures."],
+            correctIndex: 0,
+            explanation: "An email to colleagues calls for verbal style: a subject and an active verb. A nominal line suits a notice; the last two are bureaucratic jargon.",
+          },
+        ],
+      },
+      {
+        heading: "Nouns for topics, verbs for actions",
+        body: [
+          "A balanced professional text often uses nouns for topics and verbs for actions: \"La hausse des tarifs (topic) s'explique par l'augmentation des coûts de l'énergie. Nous avons toutefois décidé (action) de maintenir les tarifs réduits.\" Notice the agent \"nous\" and the clear verb \"décider\" at the decisive moment.",
+        ],
+        examples: [
+          { es: "La hausse des tarifs s'explique par l'augmentation des coûts de l'énergie.", en: "The fare increase is due to rising energy costs." },
+          { es: "Nous avons toutefois décidé de maintenir les tarifs réduits.", en: "We have, however, decided to keep the reduced fares." },
+          { es: "La fermeture du site s'explique par des travaux. Nous rouvrirons lundi.", en: "The site is closed because of works. We'll reopen on Monday." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
-            audio: "Nous reportons la réunion à jeudi, car le directeur est absent.",
+            audio: "La fermeture de la piscine s'explique par une fuite. Nous rouvrirons en mars.",
             question: "What does it mean?",
-            options: ["We're postponing the meeting to Thursday because the director is away.", "We're reporting on Thursday's meeting with the director.", "The director is postponing the meeting until he's back.", "The meeting on Thursday was reported absent."],
+            options: ["The pool is closed because of a leak; it will reopen in March.", "The pool will close in March to repair a leak.", "The pool reopened in March after a leak.", "The leak explains why the pool reopened."],
             correctIndex: 0,
-            explanation: "\"Reporter\" = to postpone; plain verbal style.",
+            explanation: "A balanced text: a noun for the topic (\"la fermeture de la piscine\"), then an agent and an active verb for the action (\"nous rouvrirons\").",
+          },
+        ],
+      },
+      {
+        heading: "Switching between the two",
+        body: [
+          "When you read a heavy official text, practise mentally 'translating' it into verbs. When you write a DALF summary, do the reverse. Being able to move between the two is an Advanced skill in itself.",
+        ],
+        examples: [
+          { es: "Les tarifs augmentent parce que l'énergie coûte plus cher.", en: "Fares are going up because energy costs more." },
+          { es: "Les inscriptions ferment vendredi. → Clôture des inscriptions vendredi.", en: "Registration closes on Friday. → Registration closing Friday." },
+          { es: "Nous avons recruté deux infirmières. → Recrutement de deux infirmières.", en: "We've hired two nurses. → Two nurses hired." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it in plain spoken French.",
+            source: "La fermeture du musée s'explique par le manque de personnel.",
+            answer: "Le musée ferme parce qu'il manque de personnel.",
+            altAnswers: ["Le musée est fermé parce qu'il manque de personnel.", "Le musée ferme parce qu'il n'y a pas assez de personnel.", "Le musée est fermé parce qu'il n'y a pas assez de personnel.", "Le musée ferme car il manque de personnel.", "Le musée ferme parce qu'il manque du personnel.", "Le musée ferme parce qu'il n'a pas assez de personnel."],
+            explanation: "Undo the nominal style: \"la fermeture du musée\" → \"le musée ferme\", and \"s'explique par le manque de\" → \"parce qu'il manque de\".",
           },
         ],
       },
@@ -2269,29 +3039,11 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (rewrite in plain French): \"Il est procédé à la fermeture des portes à 18 heures.\"",
-        source: "We close the doors at 6 p.m.",
-        answer: "Nous fermons les portes à 18 heures.",
-        altAnswers: ["On ferme les portes à 18 heures.", "Les portes ferment à 18 heures.", "Nous fermons les portes à 18 h.", "Les portes sont fermées à 18 heures."],
-        explanation: "\"Il est procédé à la fermeture\" → an active verb with a subject.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
         prompt: "Translate into French (rewrite in plain French): \"La vérification de vos documents sera effectuée par nos services.\"",
         source: "Our staff will check your documents.",
         answer: "Nos services vérifieront vos documents.",
         altAnswers: ["Nos services vont vérifier vos documents.", "Nous vérifierons vos documents.", "Nos équipes vérifieront vos documents."],
         explanation: "Agent \"par nos services\" → subject; \"la vérification\" → \"vérifier\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French (rewrite with fewer nouns): \"Au niveau de la communication, il y a eu un manque de clarté.\"",
-        source: "Communication wasn't clear.",
-        answer: "La communication n'a pas été claire.",
-        altAnswers: ["La communication n'était pas claire.", "Nous n'avons pas communiqué clairement.", "On n'a pas communiqué clairement."],
-        explanation: "Cut \"au niveau de\" and turn \"un manque de clarté\" into \"pas clair\".",
       },
       {
         type: "fill-blank",
@@ -2305,12 +3057,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is over-nominalised?",
-        options: [
-          "La réalisation de la mise en place de la procédure de traitement des demandes est en cours.",
-          "Nous mettons en place une nouvelle procédure pour traiter les demandes.",
-          "Une nouvelle procédure pour traiter les demandes est en cours de mise en place.",
-          "Nous traiterons les demandes plus vite grâce à une nouvelle procédure.",
-        ],
+        options: ["La réalisation de la mise en place de la procédure de traitement des demandes est en cours.", "Nous mettons en place une nouvelle procédure pour traiter les demandes.", "Une nouvelle procédure pour traiter les demandes est en cours de mise en place.", "Nous traiterons les demandes plus vite grâce à une nouvelle procédure."],
         correctIndex: 0,
         explanation: "Four nouns chained with \"de\", two of them redundant (réalisation, mise en place).",
       },
@@ -2368,6 +3115,14 @@ export const FR_C1_U03: Lesson[] = [
         altAnswers: ["Nous vous livrons sous 48 heures.", "La livraison est garantie sous 48 heures.", "Nous garantissons une livraison sous 48 heures.", "Nous livrons sous 48 heures."],
         explanation: "Cut \"en termes de délais\" and give the action an agent.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Il est procédé de l'inspection des ascenseurs.",
+        answer: "Il est procédé à l'inspection des ascenseurs.",
+        explanation: "The bureaucratic formula is \"il est procédé à\" + noun (from \"procéder à\"). In plain French you'd say \"Un technicien inspecte les ascenseurs.\"",
+      },
     ],
   },
   {
@@ -2379,53 +3134,117 @@ export const FR_C1_U03: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "The front page: politics and economy",
+        heading: "The front page",
         body: [
           "Here is the front page of a regional daily, La Dépêche du Sud-Ouest (an invented title), on a Tuesday in November. First block: \"Budget 2027 : adoption en première lecture à l'Assemblée\" ; \"Retraites : nouvelle mobilisation des syndicats jeudi\" ; \"Carburants : légère baisse des prix à la pompe\" ; \"Airbus : embauche de 800 personnes à Toulouse d'ici juin\".",
-          "Rebuild them: \"L'Assemblée a adopté le budget 2027 en première lecture.\" \"Les syndicats se mobilisent de nouveau jeudi contre la réforme des retraites.\" \"Les prix des carburants ont légèrement baissé à la pompe.\" \"Airbus va embaucher 800 personnes à Toulouse d'ici juin.\"",
-          "Detective method: 1) name the verb behind the noun (adoption → adopter, mobilisation → se mobiliser, baisse → baisser, embauche → embaucher); 2) find the subject (often the de-complement or the topic before the colon); 3) choose the tense from context (done → passé composé, planned → futur proche or futur); 4) turn adjectives back into adverbs (\"légère\" → \"légèrement\", \"nouvelle\" → \"de nouveau\").",
         ],
         examples: [
           { es: "Budget 2027 : adoption en première lecture à l'Assemblée", en: "2027 budget passed at first reading in the National Assembly" },
-          { es: "L'Assemblée a adopté le budget 2027 en première lecture.", en: "The National Assembly passed the 2027 budget at first reading." },
           { es: "Carburants : légère baisse des prix à la pompe", en: "Fuel: pump prices dip slightly" },
-          { es: "Les prix des carburants ont légèrement baissé à la pompe.", en: "Fuel prices at the pump have fallen slightly." },
           { es: "Airbus : embauche de 800 personnes à Toulouse d'ici juin", en: "Airbus to hire 800 in Toulouse by June" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does \"Rugby : victoire du Stade toulousain à Clermont\" mean?",
+            options: ["Stade Toulousain won at Clermont.", "Clermont beat Stade Toulousain.", "Stade Toulousain will play at Clermont.", "Rugby fans celebrate in Clermont."],
+            correctIndex: 0,
+            explanation: "\"Victoire du Stade toulousain\": the de-complement is the subject (Toulouse won); \"à Clermont\" is where. The event is done, so the passé composé: \"Le Stade toulousain a gagné à Clermont.\"",
+          },
+        ],
+      },
+      {
+        heading: "The same news, rebuilt",
+        body: [
+          "Rebuild them: \"L'Assemblée a adopté le budget 2027 en première lecture.\" \"Les syndicats se mobilisent de nouveau jeudi contre la réforme des retraites.\" \"Les prix des carburants ont légèrement baissé à la pompe.\" \"Airbus va embaucher 800 personnes à Toulouse d'ici juin.\"",
+        ],
+        examples: [
+          { es: "L'Assemblée a adopté le budget 2027 en première lecture.", en: "The National Assembly passed the 2027 budget at first reading." },
+          { es: "Les prix des carburants ont légèrement baissé à la pompe.", en: "Fuel prices at the pump have fallen slightly." },
           { es: "Airbus va embaucher 800 personnes à Toulouse d'ici juin.", en: "Airbus is going to hire 800 people in Toulouse by June." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (rebuild the sentence behind the headline): \"Retraites : nouvelle mobilisation des syndicats jeudi\"",
-            source: "The unions are mobilising again on Thursday over pensions.",
-            answer: "Les syndicats se mobilisent de nouveau jeudi sur les retraites.",
-            altAnswers: ["Les syndicats vont se mobiliser de nouveau jeudi pour les retraites.", "Les syndicats se mobilisent à nouveau jeudi contre la réforme des retraites.", "Les syndicats se mobilisent de nouveau jeudi contre la réforme des retraites.", "Les syndicats se mobiliseront de nouveau jeudi sur les retraites.", "Les syndicats se mobilisent à nouveau jeudi sur les retraites."],
-            explanation: "\"Nouvelle mobilisation\" → \"se mobilisent de nouveau\": the adjective becomes an adverbial phrase.",
-          },
-          {
-            type: "multiple-choice",
-            question: "What does \"Airbus : embauche de 800 personnes d'ici juin\" mean?",
-            options: ["Airbus will hire 800 people by June.", "Airbus hired 800 people last June.", "800 people left Airbus in June.", "Airbus has been hiring since June."],
-            correctIndex: 0,
-            explanation: "\"Embauche\" (from embaucher, to hire) + \"d'ici juin\" (by June) → future.",
+            prompt: "Turn the headline back into a sentence.",
+            source: "SNCF : suppression de 200 trains ce week-end",
+            answer: "La SNCF supprime 200 trains ce week-end.",
+            altAnswers: ["La SNCF va supprimer 200 trains ce week-end.", "La SNCF supprimera 200 trains ce week-end.", "200 trains sont supprimés ce week-end.", "La SNCF supprime deux cents trains ce week-end.", "La SNCF va supprimer deux cents trains ce week-end.", "200 trains seront supprimés ce week-end."],
+            explanation: "Name the verb behind the noun (\"suppression → supprimer\"), find the subject (the topic before the colon, \"la SNCF\"), and choose a tense: planned, so present or future.",
           },
         ],
       },
       {
-        heading: "Local news and society",
+        heading: "The detective method",
+        body: [
+          "Detective method: 1) name the verb behind the noun (adoption → adopter, mobilisation → se mobiliser, baisse → baisser, embauche → embaucher); 2) find the subject (often the de-complement or the topic before the colon); 3) choose the tense from context (done → passé composé, planned → futur proche or futur); 4) turn adjectives back into adverbs (\"légère\" → \"légèrement\", \"nouvelle\" → \"de nouveau\").",
+        ],
+        examples: [
+          { es: "Nouvelle hausse du gaz → Le prix du gaz augmente de nouveau.", en: "Gas up again → The price of gas is rising again." },
+          { es: "Fermeture prochaine de l'usine → L'usine va fermer.", en: "Factory to close → The factory is going to close." },
+          { es: "Forte chute des ventes → Les ventes ont fortement chuté.", en: "Sales slump → Sales have fallen sharply." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "In \"Lente reprise du tourisme à Biarritz\", what does \"lente\" become in the rebuilt sentence?",
+            options: ["lentement", "lent", "de nouveau", "la lenteur"],
+            correctIndex: 0,
+            explanation: "Step 4: the adjective goes back to an adverb, because the noun goes back to a verb: \"Le tourisme reprend lentement à Biarritz.\"",
+          },
+        ],
+      },
+      {
+        heading: "Local news",
         body: [
           "Second block: \"Bordeaux : fermeture provisoire du pont de pierre aux voitures\" ; \"Agen : réouverture de la piscine Josette-Vidal après deux ans de travaux\" ; \"Santé : forte progression des cas de grippe dans la région\" ; \"Faits divers : interpellation d'un cambrioleur en série à Pau\".",
-          "Rebuilt: \"À Bordeaux, le pont de pierre est provisoirement fermé aux voitures.\" \"À Agen, la piscine Josette-Vidal rouvre après deux ans de travaux.\" \"Les cas de grippe progressent fortement dans la région.\" \"À Pau, un cambrioleur en série a été interpellé (by the police).\"",
-          "Vocabulary to notice: \"provisoire\" (temporary) → \"provisoirement\"; \"la réouverture\" (re- + ouverture) → \"rouvrir\" (note the spelling: \"rouvrir\", not \"*réouvrir\"); \"l'interpellation\" = arrest for questioning, a police term; \"les faits divers\" = local crime and accident news.",
         ],
         examples: [
           { es: "Bordeaux : fermeture provisoire du pont de pierre aux voitures", en: "Bordeaux: stone bridge temporarily closed to cars" },
-          { es: "À Bordeaux, le pont de pierre est provisoirement fermé aux voitures.", en: "In Bordeaux, the stone bridge is temporarily closed to cars." },
           { es: "Agen : réouverture de la piscine après deux ans de travaux", en: "Agen: pool reopens after two years of works" },
-          { es: "À Agen, la piscine rouvre après deux ans de travaux.", en: "In Agen, the pool reopens after two years of works." },
           { es: "Santé : forte progression des cas de grippe dans la région", en: "Health: sharp rise in flu cases in the region" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does \"Rentrée : légère hausse des effectifs dans les lycées\" mean?",
+            options: ["New school year: slight rise in student numbers in sixth-form colleges.", "Back to school: lycée staff slightly increased their effort.", "Return: lycées slightly raise their fees.", "New school year: lycées are slightly higher."],
+            correctIndex: 0,
+            explanation: "\"Les effectifs\" = numbers (of students / staff); \"légère hausse\" = slight rise.",
+          },
+        ],
+      },
+      {
+        heading: "Local news, rebuilt",
+        body: [
+          "Rebuilt: \"À Bordeaux, le pont de pierre est provisoirement fermé aux voitures.\" \"À Agen, la piscine Josette-Vidal rouvre après deux ans de travaux.\" \"Les cas de grippe progressent fortement dans la région.\" \"À Pau, un cambrioleur en série a été interpellé (by the police).\"",
+        ],
+        examples: [
+          { es: "À Bordeaux, le pont de pierre est provisoirement fermé aux voitures.", en: "In Bordeaux, the stone bridge is temporarily closed to cars." },
+          { es: "À Agen, la piscine rouvre après deux ans de travaux.", en: "In Agen, the pool reopens after two years of works." },
           { es: "À Pau, un cambrioleur en série a été interpellé.", en: "In Pau, a serial burglar has been arrested." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French (rebuild the sentence behind the headline): \"Démission du directeur de l'hôpital de Nantes\"",
+            source: "The director of Nantes hospital has resigned.",
+            answer: "Le directeur de l'hôpital de Nantes a démissionné.",
+            explanation: "\"Démission\" → \"a démissionné\".",
+          },
+        ],
+      },
+      {
+        heading: "Words to notice",
+        body: [
+          "Vocabulary to notice: \"provisoire\" (temporary) → \"provisoirement\"; \"la réouverture\" (re- + ouverture) → \"rouvrir\" (note the spelling: \"rouvrir\", not \"*réouvrir\"); \"l'interpellation\" = arrest for questioning, a police term; \"les faits divers\" = local crime and accident news.",
+        ],
+        examples: [
+          { es: "La médiathèque rouvre ses portes samedi.", en: "The media library reopens on Saturday." },
+          { es: "Le parking est provisoirement fermé.", en: "The car park is temporarily closed." },
+          { es: "Les faits divers sont en page 6.", en: "Local crime news is on page 6." },
         ],
         checkpoint: [
           {
@@ -2440,11 +3259,11 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (rebuild the sentence behind the headline): \"Santé : forte progression des cas de grippe dans la région\"",
-            source: "Flu cases are rising sharply in the region.",
-            answer: "Les cas de grippe progressent fortement dans la région.",
-            altAnswers: ["Les cas de grippe augmentent fortement dans la région.", "Les cas de grippe sont en forte progression dans la région.", "Les cas de grippe ont fortement progressé dans la région."],
-            explanation: "\"Forte progression\" → \"progressent fortement\".",
+            prompt: "Correct the sentence.",
+            source: "La bibliothèque a été provisoire fermée.",
+            answer: "La bibliothèque a été provisoirement fermée.",
+            altAnswers: ["La bibliothèque a été fermée provisoirement."],
+            explanation: "Rebuilding a headline turns the adjective back into an adverb: \"fermeture provisoire\" → \"provisoirement fermée\". The adjective can't modify a participle.",
           },
         ],
       },
@@ -2452,12 +3271,49 @@ export const FR_C1_U03: Lesson[] = [
         heading: "Writing your own headlines",
         body: [
           "Now the reverse. A journalist's notes say: \"Le conseil municipal a voté hier soir la gratuité des transports pour les moins de 18 ans.\" Headline: \"Transports gratuits pour les moins de 18 ans : feu vert du conseil municipal\" or \"Gratuité des transports pour les moins de 18 ans : le conseil municipal dit oui\".",
-          "Good French headlines play with rhythm and contrast: a topic, a colon, a nominal phrase or a short verbal punchline. They avoid the passé composé and often use the present for drama: \"Le conseil municipal dit oui\".",
-          "Common nouns built on adjectives in headlines: \"gratuit → la gratuité\", \"accessible → l'accessibilité\", \"sécurisé → la sécurisation\", \"piéton → la piétonnisation\" (making a street pedestrian), \"végétal → la végétalisation\" (greening). These -isation nouns are typical of urban-planning news.",
         ],
         examples: [
           { es: "Transports gratuits pour les moins de 18 ans : feu vert du conseil municipal", en: "Free transport for under-18s: council gives green light" },
           { es: "Gratuité des transports : le conseil municipal dit oui", en: "Free transport: council says yes" },
+          { es: "Vélo : feu vert de la région pour un plan ambitieux", en: "Cycling: region gives go-ahead for ambitious plan" },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Write a French headline (no verb) for:",
+            source: "Nantes: new tram line opens",
+            answer: "Nantes : ouverture d'une nouvelle ligne de tramway",
+            altAnswers: ["Nantes : ouverture de la nouvelle ligne de tramway", "Nantes : ouverture d'une nouvelle ligne de tram", "Nantes : inauguration d'une nouvelle ligne de tramway"],
+            explanation: "Topic + colon + nominal phrase.",
+          },
+        ],
+      },
+      {
+        heading: "Rhythm and the present",
+        body: [
+          "Good French headlines play with rhythm and contrast: a topic, a colon, a nominal phrase or a short verbal punchline. They avoid the passé composé and often use the present for drama: \"Le conseil municipal dit oui\".",
+        ],
+        examples: [
+          { es: "Stationnement : la mairie dit stop", en: "Parking: town hall says stop" },
+          { es: "Grève des éboueurs : la ville étouffe", en: "Bin strike: the city is choking" },
+          { es: "Budget : le département serre la ceinture", en: "Budget: county tightens its belt" },
+        ],
+        checkpoint: [
+          {
+            type: "speak",
+            text: "Nouvelle piscine : la mairie dit non.",
+            prompt: "Say it in French, as a headline: New pool: town hall says no.",
+            explanation: "Topic, colon, then a short verbal punchline in the present for drama.",
+          },
+        ],
+      },
+      {
+        heading: "-ité and -isation nouns",
+        body: [
+          "Common nouns built on adjectives in headlines: \"gratuit → la gratuité\", \"accessible → l'accessibilité\", \"sécurisé → la sécurisation\", \"piéton → la piétonnisation\" (making a street pedestrian), \"végétal → la végétalisation\" (greening). These -isation nouns are typical of urban-planning news.",
+        ],
+        examples: [
           { es: "Piétonnisation du centre-ville : les commerçants divisés", en: "Pedestrianising the town centre: shopkeepers divided" },
           { es: "Végétalisation des cours d'école : douze établissements concernés", en: "Greening school playgrounds: twelve schools involved" },
           { es: "Accessibilité des gares : encore beaucoup de retard", en: "Station accessibility: still a long way behind" },
@@ -2472,24 +3328,10 @@ export const FR_C1_U03: Lesson[] = [
             altAnswers: ["Piétonnisation du centre historique", "Vieille ville : piétonnisation en vue"],
             explanation: "\"Rendre piéton\" → \"la piétonnisation\".",
           },
-          {
-            type: "speak",
-            text: "Gratuité des transports : le conseil municipal dit oui.",
-            prompt: "Say it in French, as a headline: Free transport: council says yes.",
-            explanation: "Nominal topic + colon + short verbal punchline.",
-          },
         ],
       },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French (rebuild the sentence behind the headline): \"Démission du directeur de l'hôpital de Nantes\"",
-        source: "The director of Nantes hospital has resigned.",
-        answer: "Le directeur de l'hôpital de Nantes a démissionné.",
-        explanation: "\"Démission\" → \"a démissionné\".",
-      },
       {
         type: "translate",
         direction: "en-es",
@@ -2525,27 +3367,6 @@ export const FR_C1_U03: Lesson[] = [
         answer: "À Pau, deux suspects ont été interpellés.",
         altAnswers: ["À Pau, deux suspects ont été arrêtés.", "Deux suspects ont été interpellés à Pau.", "Deux suspects ont été arrêtés à Pau."],
         explanation: "\"Interpellation\" → passive \"ont été interpellés\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "What does \"Rentrée : légère hausse des effectifs dans les lycées\" mean?",
-        options: [
-          "New school year: slight rise in student numbers in sixth-form colleges.",
-          "Back to school: lycée staff slightly increased their effort.",
-          "Return: lycées slightly raise their fees.",
-          "New school year: lycées are slightly higher.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Les effectifs\" = numbers (of students / staff); \"légère hausse\" = slight rise.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Write a French headline (no verb) for:",
-        source: "Nantes: new tram line opens",
-        answer: "Nantes : ouverture d'une nouvelle ligne de tramway",
-        altAnswers: ["Nantes : ouverture de la nouvelle ligne de tramway", "Nantes : ouverture d'une nouvelle ligne de tram", "Nantes : inauguration d'une nouvelle ligne de tramway"],
-        explanation: "Topic + colon + nominal phrase.",
       },
       {
         type: "translate",
@@ -2585,8 +3406,18 @@ export const FR_C1_U03: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Réouverture de la piscine après deux ans de travaux.",
-        explanation: "\"Réouverture\" keeps the é, while the verb is \"rouvrir\".",
+        audio: "Réouverture du cinéma après six mois de travaux.",
+        answer: "Réouverture du cinéma après six mois de travaux.",
+        explanation: "\"La réouverture\" keeps \"ré-\", but the verb is \"rouvrir\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn the headline back into a sentence.",
+        source: "Toulouse : réouverture du musée des Augustins en mai",
+        answer: "À Toulouse, le musée des Augustins rouvre en mai.",
+        altAnswers: ["Le musée des Augustins rouvre en mai à Toulouse.", "À Toulouse, le musée des Augustins rouvrira en mai.", "À Toulouse, le musée des Augustins va rouvrir en mai.", "Le musée des Augustins rouvrira en mai à Toulouse.", "Le musée des Augustins va rouvrir en mai à Toulouse.", "À Toulouse, le musée des Augustins rouvre ses portes en mai."],
+        explanation: "\"La réouverture\" goes back to the verb \"rouvrir\" (not \"*réouvrir\"); the place before the colon becomes \"À Toulouse\".",
       },
     ],
   },
@@ -2599,15 +3430,32 @@ export const FR_C1_U03: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Bien que ↔ malgré, avant que ↔ avant",
+        heading: "Each conjunction has a preposition partner",
         body: [
           "Nominalisation offers an elegant way to avoid a subjunctive clause, and vice versa. Each subjunctive conjunction has a preposition partner that takes a noun: \"bien que\" ↔ \"malgré\" / \"en dépit de\"; \"avant que\" ↔ \"avant\"; \"pour que\" / \"afin que\" ↔ \"pour\" / \"en vue de\"; \"jusqu'à ce que\" ↔ \"jusqu'à\"; \"sans que\" ↔ \"sans\"; \"de peur que\" ↔ \"par peur de\" / \"de peur de\".",
-          "\"Bien que les prix aient augmenté, les ventes progressent\" ↔ \"Malgré la hausse des prix, les ventes progressent.\" \"Partons avant que la nuit tombe\" ↔ \"Partons avant la tombée de la nuit.\" \"Il faut tout ranger avant que les invités arrivent\" ↔ \"avant l'arrivée des invités\".",
-          "The noun version is shorter, more formal and avoids the mood decision entirely. The clause version keeps the subject, tense and nuance. In formal writing, mixing the two avoids monotony.",
         ],
         examples: [
           { es: "Bien que les prix aient augmenté, les ventes progressent.", en: "Although prices have risen, sales are growing." },
           { es: "Malgré la hausse des prix, les ventes progressent.", en: "Despite rising prices, sales are growing." },
+          { es: "Restez jusqu'à ce que la réunion finisse. ↔ Restez jusqu'à la fin de la réunion.", en: "Stay until the meeting ends. ↔ Stay until the end of the meeting." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is the noun-phrase version of \"avant que les magasins ferment\"?",
+            options: ["avant la fermeture des magasins", "avant le fermement des magasins", "avant que la fermeture des magasins", "avant de fermeture des magasins"],
+            correctIndex: 0,
+            explanation: "\"Fermer\" → \"la fermeture\"; \"avant\" + noun directly.",
+          },
+        ],
+      },
+      {
+        heading: "Before: clause or noun",
+        body: [
+          "\"Bien que les prix aient augmenté, les ventes progressent\" ↔ \"Malgré la hausse des prix, les ventes progressent.\" \"Partons avant que la nuit tombe\" ↔ \"Partons avant la tombée de la nuit.\" \"Il faut tout ranger avant que les invités arrivent\" ↔ \"avant l'arrivée des invités\".",
+          "The noun version is shorter, more formal and avoids the mood decision entirely. The clause version keeps the subject, tense and nuance. In formal writing, mixing the two avoids monotony.",
+        ],
+        examples: [
           { es: "Partons avant que la nuit tombe.", en: "Let's leave before night falls." },
           { es: "Partons avant la tombée de la nuit.", en: "Let's leave before nightfall." },
           { es: "Il faut tout ranger avant que les invités arrivent.", en: "We must tidy up before the guests arrive." },
@@ -2635,15 +3483,34 @@ export const FR_C1_U03: Lesson[] = [
         ],
       },
       {
-        heading: "Pour que ↔ pour / en vue de; sans que ↔ sans",
+        heading: "Purpose: pour que or pour + noun",
         body: [
           "Purpose: \"Nous avons tout fait pour que le projet réussisse\" ↔ \"pour la réussite du projet\". \"Afin que les habitants soient informés\" ↔ \"en vue de l'information des habitants\" (rather heavy) or better \"pour informer les habitants\" (infinitive). Sometimes the infinitive is the best middle way.",
-          "Manner: \"Il est parti sans que personne le remarque\" ↔ \"Il est parti sans être remarqué\" (passive infinitive) or \"en toute discrétion\" (noun). \"Sans que nous ayons été consultés\" ↔ \"sans consultation préalable\".",
-          "Time: \"jusqu'à ce que les travaux soient terminés\" ↔ \"jusqu'à la fin des travaux\"; \"en attendant que le technicien vienne\" ↔ \"en attendant la venue du technicien\" / \"l'arrivée du technicien\".",
         ],
         examples: [
           { es: "Nous avons tout fait pour que le projet réussisse.", en: "We did everything to make the project succeed." },
           { es: "Nous avons tout fait pour la réussite du projet.", en: "We did everything for the project's success." },
+          { es: "Il économise pour que ses enfants fassent des études. ↔ Il économise pour les études de ses enfants.", en: "He's saving so that his children can study. ↔ He's saving for his children's studies." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French (rewrite with pour + noun): \"Tout le monde a travaillé pour que la soirée réussisse.\"",
+            source: "Everyone worked for the success of the evening.",
+            answer: "Tout le monde a travaillé pour la réussite de la soirée.",
+            altAnswers: ["Tout le monde a travaillé pour le succès de la soirée."],
+            explanation: "\"Pour que la soirée réussisse\" → \"pour la réussite de la soirée\".",
+          },
+        ],
+      },
+      {
+        heading: "Manner and time",
+        body: [
+          "Manner: \"Il est parti sans que personne le remarque\" ↔ \"Il est parti sans être remarqué\" (passive infinitive) or \"en toute discrétion\" (noun). \"Sans que nous ayons été consultés\" ↔ \"sans consultation préalable\".",
+          "Time: \"jusqu'à ce que les travaux soient terminés\" ↔ \"jusqu'à la fin des travaux\"; \"en attendant que le technicien vienne\" ↔ \"en attendant la venue du technicien\" / \"l'arrivée du technicien\".",
+        ],
+        examples: [
           { es: "La décision a été prise sans que nous ayons été consultés.", en: "The decision was taken without our being consulted." },
           { es: "La décision a été prise sans consultation préalable.", en: "The decision was taken without prior consultation." },
           { es: "La rue restera fermée jusqu'à ce que les travaux soient terminés.", en: "The street will stay closed until the work is finished." },
@@ -2652,11 +3519,11 @@ export const FR_C1_U03: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Write the French for the bold words, using a noun.",
-            en: "The shop will stay closed [until the end of the works].",
-            sentence: "Le magasin restera fermé ___.",
-            answer: "jusqu'à la fin des travaux",
-            explanation: "\"Jusqu'à ce que les travaux soient terminés\" → \"jusqu'à la fin des travaux\".",
+            prompt: "Write the French for the bold words.",
+            en: "The pool will stay closed [until the end of the holidays].",
+            sentence: "La piscine restera fermée ___.",
+            answer: "jusqu'à la fin des vacances",
+            explanation: "\"Jusqu'à ce que\" + subjunctive has a noun partner: \"jusqu'à\" + noun (\"la fin des vacances\").",
           },
           {
             type: "translate",
@@ -2670,39 +3537,65 @@ export const FR_C1_U03: Lesson[] = [
         ],
       },
       {
-        heading: "Choosing in context",
+        heading: "A council report",
         body: [
           "A paragraph from a town council report mixes both styles: \"Malgré la hausse du coût des matériaux, les travaux de la médiathèque se poursuivent. Afin que les usagers ne soient pas pénalisés, une bibliothèque provisoire sera ouverte jusqu'à la réouverture du bâtiment. Bien que le calendrier ait pris trois mois de retard, l'inauguration reste prévue avant la fin de l'année.\"",
-          "Notice the rhythm: noun (\"malgré la hausse\"), clause (\"afin que... ne soient pas pénalisés\", a negative idea that would be clumsy as a noun), noun (\"jusqu'à la réouverture\"), clause (\"bien que... ait pris\"), noun (\"avant la fin de l'année\"). Good formal writing alternates.",
-          "Rule of thumb: use the noun when a natural, common one exists (arrivée, départ, fin, hausse, réussite); keep the clause when you need a subject, a negation, a precise tense or a nuance the noun can't carry.",
         ],
         examples: [
           { es: "Malgré la hausse du coût des matériaux, les travaux se poursuivent.", en: "Despite the rising cost of materials, the works are continuing." },
           { es: "Afin que les usagers ne soient pas pénalisés, une bibliothèque provisoire sera ouverte.", en: "So that users aren't penalised, a temporary library will be opened." },
           { es: "Une bibliothèque provisoire restera ouverte jusqu'à la réouverture du bâtiment.", en: "A temporary library will stay open until the building reopens." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Malgré la baisse des subventions, le festival aura bien lieu.",
+            question: "What does it mean?",
+            options: ["Despite the cut in subsidies, the festival will go ahead.", "Because of the cut in subsidies, the festival is cancelled.", "The festival has cut its subsidies.", "Although subsidies are rising, the festival is cancelled."],
+            correctIndex: 0,
+            explanation: "\"Malgré\" + noun is the noun partner of \"bien que\": a concession, so the festival goes ahead despite the cut (\"la baisse\").",
+          },
+        ],
+      },
+      {
+        heading: "The rhythm: noun, clause, noun",
+        body: [
+          "Notice the rhythm: noun (\"malgré la hausse\"), clause (\"afin que... ne soient pas pénalisés\", a negative idea that would be clumsy as a noun), noun (\"jusqu'à la réouverture\"), clause (\"bien que... ait pris\"), noun (\"avant la fin de l'année\"). Good formal writing alternates.",
+        ],
+        examples: [
           { es: "Bien que le calendrier ait pris trois mois de retard, l'inauguration reste prévue cette année.", en: "Although the schedule is three months behind, the opening is still planned for this year." },
           { es: "L'inauguration reste prévue avant la fin de l'année.", en: "The opening is still planned before the end of the year." },
+          { es: "Malgré la pluie, le marché a lieu, bien que les exposants soient moins nombreux.", en: "Despite the rain, the market is going ahead, although there are fewer stallholders." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Bien que la neige, l'école reste ouverte.",
+            answer: "Malgré la neige, l'école reste ouverte.",
+            altAnswers: ["En dépit de la neige, l'école reste ouverte.", "Bien qu'il neige, l'école reste ouverte."],
+            explanation: "\"Bien que\" introduces a clause with a subjunctive verb; before a plain noun you need its partner \"malgré\" (or \"en dépit de\").",
+          },
+        ],
+      },
+      {
+        heading: "Rule of thumb",
+        body: [
+          "Rule of thumb: use the noun when a natural, common one exists (arrivée, départ, fin, hausse, réussite); keep the clause when you need a subject, a negation, a precise tense or a nuance the noun can't carry.",
+        ],
+        examples: [
+          { es: "Avant la fin du film, il s'est endormi.", en: "Before the end of the film, he fell asleep." },
+          { es: "Bien qu'il n'ait rien dit, tout le monde avait compris.", en: "Although he said nothing, everyone had understood." },
+          { es: "Jusqu'à son retour, c'est moi qui décide.", en: "Until he gets back, I'm the one in charge." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "Which idea is best kept as a subjunctive clause rather than a noun?",
-            options: [
-              "afin que les usagers ne soient pas pénalisés",
-              "avant que l'année finisse",
-              "bien que le coût ait augmenté",
-              "jusqu'à ce que le bâtiment rouvre",
-            ],
+            options: ["afin que les usagers ne soient pas pénalisés", "avant que l'année finisse", "bien que le coût ait augmenté", "jusqu'à ce que le bâtiment rouvre"],
             correctIndex: 0,
             explanation: "A negative purpose has no natural noun (\"*la non-pénalisation\"); the other three have \"avant la fin\", \"malgré la hausse\", \"jusqu'à la réouverture\".",
-          },
-          {
-            type: "listen-choose",
-            audio: "Malgré la hausse du coût des matériaux, les travaux se poursuivent.",
-            question: "What does it mean?",
-            options: ["Despite the rising cost of materials, the works are continuing.", "Because of rising material costs, the works have stopped.", "The works are raising the cost of materials.", "Although materials are cheaper, the works are continuing."],
-            correctIndex: 0,
-            explanation: "\"Malgré\" + nominal phrase \"la hausse du coût\".",
           },
         ],
       },
@@ -2725,15 +3618,6 @@ export const FR_C1_U03: Lesson[] = [
         answer: "Rentrons avant que la nuit tombe.",
         altAnswers: ["Rentrons avant que la nuit ne tombe.", "Rentrons avant qu'il fasse nuit.", "Rentrons avant qu'il ne fasse nuit."],
         explanation: "\"Avant la tombée de la nuit\" → \"avant que la nuit (ne) tombe\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French (rewrite with pour + noun): \"Tout le monde a travaillé pour que la soirée réussisse.\"",
-        source: "Everyone worked for the success of the evening.",
-        answer: "Tout le monde a travaillé pour la réussite de la soirée.",
-        altAnswers: ["Tout le monde a travaillé pour le succès de la soirée."],
-        explanation: "\"Pour que la soirée réussisse\" → \"pour la réussite de la soirée\".",
       },
       {
         type: "fill-blank",
@@ -2762,20 +3646,12 @@ export const FR_C1_U03: Lesson[] = [
         explanation: "\"Sans qu'on l'ait prévenu\" → \"sans avertissement préalable\". A passive infinitive (\"sans avoir été prévenu\") is the other way to drop the subjunctive, but here the task is a noun.",
       },
       {
-        type: "multiple-choice",
-        question: "Which is the noun-phrase version of \"avant que les magasins ferment\"?",
-        options: ["avant la fermeture des magasins", "avant le fermement des magasins", "avant que la fermeture des magasins", "avant de fermeture des magasins"],
-        correctIndex: 0,
-        explanation: "\"Fermer\" → \"la fermeture\"; \"avant\" + noun directly.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French, using a noun after avant.",
-        source: "Book your seats before the end of the month.",
-        answer: "Réservez vos places avant la fin du mois.",
-        altAnswers: ["Réserve tes places avant la fin du mois.", "Réservez vos billets avant la fin du mois."],
-        explanation: "\"Avant que le mois finisse\" → \"avant la fin du mois\".",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "Book your seats [before the end of the month].",
+        sentence: "Réservez vos places ___.",
+        answer: "avant la fin du mois",
+        explanation: "\"Avant que\" + subjunctive has a noun partner: \"avant\" + noun (\"la fin du mois\").",
       },
       {
         type: "word-order",
@@ -2795,14 +3671,15 @@ export const FR_C1_U03: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Il faut tout ranger avant l'arrivée des invités.",
-        explanation: "\"Avant l'arrivée de\" replaces \"avant que... arrivent\".",
+        audio: "Il faut tout préparer avant l'arrivée du public.",
+        answer: "Il faut tout préparer avant l'arrivée du public.",
+        explanation: "\"Avant\" + noun replaces \"avant que le public arrive\": no subjunctive needed.",
       },
       {
         type: "speak",
-        text: "Malgré la hausse des prix, les ventes progressent.",
-        prompt: "Say it in French: Despite rising prices, sales are growing.",
-        explanation: "\"Malgré\" + noun: no subjunctive needed.",
+        text: "Malgré le mauvais temps, le concert a eu lieu.",
+        prompt: "Say it in French: Despite the bad weather, the concert went ahead.",
+        explanation: "\"Malgré\" + noun replaces \"bien qu'il ait fait mauvais\".",
       },
     ],
   },
