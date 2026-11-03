@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "e6836e5bea78f89332bfe54ec7291fec0cefb6e6",
+  "commit": "815c5ff540260175995c63492822c2388d3c5df2",
   "files": {
     "src/lib/lessons/a1-additions.ts": "aa502ae0a7915653459334e5d1f3c7d665a105d15ae77a380e8e87f266cbd43d",
     "src/lib/lessons/a1-core.ts": "baa6dcd7d5e1934b736a31de8a602bc96ad9da5bfac1c7c78e102f1466db8cca",
@@ -1675,7 +1675,7 @@
     "src/lib/lessons/ko-hangul.ts": "f885c75b470f228e1fae7dc4d6f249fe9fdbc7907388f0d2f4cce31fa2e8aa62",
     "src/lib/lessons/ko-unit-reviews.ts": "d9f40a8a4d66972c0fbc08ebfe405fe3b278395598183e61b0787309daa98794",
     "src/lib/lessons/ko-units.ts": "4525920fe566074edf1103d7b97014f448f73dc3156ef04c36c7340e72b6b9d9",
-    "src/lib/lessons/lessonFlow.ts": "81fb217825814bf483690bfec0b7ed9d1505d582b88a80c35529b897bfa40cd2",
+    "src/lib/lessons/lessonFlow.ts": "b360707fdbd85a9c35cbaed5a5078fa9c1ffbffb332fe0a04a4f7a76e738b5dc",
     "src/lib/lessons/lessonTime.ts": "bcb414b49fd83f6b72cc0680a275898ffb60ff7b7a7b58184f663f4e61c88edf",
     "src/lib/lessons/lessonVideos.ts": "2a049a3e9c0535465cf8af74a9c620c1ecc6e0711bec4b663fd5a8e3a935fc82",
     "src/lib/lessons/level-exits.ts": "1df7ce26a4941aacf649a33a07678fc32378c61f768960108871a1b6ea457c73",
