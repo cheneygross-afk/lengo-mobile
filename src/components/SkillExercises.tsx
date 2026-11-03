@@ -352,27 +352,36 @@ type WriteState =
   | { kind: "selfcheck" };
 
 async function fetchWritingFeedback(exercise: WriteExercise, level: string, text: string): Promise<WritingFeedback | null> {
+  const result = await postWritingFeedback({
+    level,
+    prompt: exercise.prompt,
+    rubric: exercise.rubric,
+    minWords: exercise.minWords,
+    maxWords: exercise.maxWords,
+    text,
+  });
+  return "feedback" in result ? result.feedback : null;
+}
+
+/** Sends a piece of writing to the website's /api/writing-feedback (see
+ * src/lib/writingFeedback.ts for the body) and says what came back. */
+export async function postWritingFeedback(body: Record<string, unknown>): Promise<{ feedback: WritingFeedback } | { reason: string }> {
   try {
     const { data } = await supabase.auth.getSession();
     const token = data.session?.access_token;
-    if (!token) return null;
+    if (!token) return { reason: "Please log in." };
     const res = await fetch(WRITING_FEEDBACK_API_URL, {
       method: "POST",
       headers: { "content-type": "application/json", Authorization: `Bearer ${token}` },
-      body: JSON.stringify({
-        level,
-        prompt: exercise.prompt,
-        rubric: exercise.rubric,
-        minWords: exercise.minWords,
-        maxWords: exercise.maxWords,
-        text,
-      }),
+      body: JSON.stringify(body),
     });
     const json = await res.json().catch(() => null);
-    if (!res.ok || !json?.ok) return null;
-    return parseWritingFeedback(json.feedback);
+    const feedback = res.ok && json?.ok ? parseWritingFeedback(json.feedback) : null;
+    if (feedback) return { feedback };
+    if (!json) return { reason: `server ${res.status}` };
+    return { reason: typeof json.error === "string" && json.error ? json.error : `server ${res.status}` };
   } catch {
-    return null;
+    return { reason: "no connection" };
   }
 }
 
@@ -469,9 +478,9 @@ export function Write({
   );
 }
 
-function FeedbackView({ feedback, lang }: { feedback: WritingFeedback; lang: SpeechLang }) {
+export function FeedbackView({ feedback, lang, green = false }: { feedback: WritingFeedback; lang: SpeechLang; green?: boolean }) {
   return (
-    <View style={s.panel}>
+    <View style={[s.panel, green && s.panelGreen]}>
       <Text style={s.score}>
         {"★".repeat(feedback.score)}
         <Text style={s.scoreOff}>{"★".repeat(5 - feedback.score)}</Text> {feedback.score}/5
@@ -561,6 +570,7 @@ const s = StyleSheet.create({
   wordCount: { fontSize: 12, color: "#2A151366", marginTop: 4 },
   wordCountOff: { color: "#b45309" },
   panel: { borderWidth: 1, borderColor: "#2A151315", borderRadius: 10, padding: 12, marginTop: 12 },
+  panelGreen: { borderColor: "#16a34a40", backgroundColor: "#16a34a12" },
   checkRow: { flexDirection: "row", gap: 8, alignItems: "flex-start", marginTop: 6 },
   checkBox: { fontSize: 16 },
   score: { fontSize: 16, fontWeight: "700", color: "#b45309" },
