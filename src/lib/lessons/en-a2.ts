@@ -66,6 +66,7 @@ import { EN_A2_U17_DRILLS } from "./en-a2-u17-drills";
 import { EN_A2_U18_DRILLS } from "./en-a2-u18-drills";
 import { EN_A2_U20_DRILLS } from "./en-a2-u20-drills";
 import { EN_A2_U21_DRILLS } from "./en-a2-u21-drills";
+import { splitLongLessons, withSplitSlugs } from "./questionCap";
 
 // English for Spanish speakers (beta), A2. Conventions as in en-a1.ts.
 
@@ -96,5 +97,5 @@ const UNITS: EnglishUnitDef[] = [
 ];
 
 const LEVEL = buildEnglishLevel("en/a2", UNITS);
-export const EN_A2_LESSONS: Lesson[] = withUnitWriting(LEVEL.lessons, EN_A2_WRITING);
-export const EN_A2_UNITS: UnitOutline[] = LEVEL.units;
+export const EN_A2_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(LEVEL.lessons, EN_A2_WRITING));
+export const EN_A2_UNITS: UnitOutline[] = withSplitSlugs(LEVEL.units, EN_A2_LESSONS);

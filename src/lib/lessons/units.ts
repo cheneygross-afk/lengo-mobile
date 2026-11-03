@@ -231,17 +231,19 @@ export function checkUnits(): string[] {
       }
       // The unit's closing review (unit-reviews.ts) doesn't count: it
       // teaches nothing new.
-      const n = unit.required.filter((l) => !l.unitReview).length;
+      const n = unit.required.filter((l) => !l.unitReview && !l.continues).length;
       const min = levelPath === "cosas-coloquiales" ? 4 : UNIT_MIN_REQUIRED;
       if (n < min || n > UNIT_MAX_REQUIRED) {
         problems.push(`units (${levelPath}): ${unit.label} has ${n} required lessons (keep it ${min}-${UNIT_MAX_REQUIRED})`);
       }
-      const last = unit.required[unit.required.length - 1];
-      const review = unit.required.filter((l) => l.unitReview);
+      // Later parts of a split lesson (questionCap.ts) belong to part 1.
+      const req = unit.required.filter((l) => !l.continues);
+      const last = req[req.length - 1];
+      const review = req.filter((l) => l.unitReview);
       if (levelPath !== "cosas-coloquiales") {
         // Every A1-C2 unit ends with its review; the last unit's comes
         // just before the level test.
-        const ok = review.length === 1 && (last.unitReview || unit.required[unit.required.length - 2]?.unitReview);
+        const ok = review.length === 1 && (last.unitReview || req[req.length - 2]?.unitReview);
         if (!ok) problems.push(`units (${levelPath}): ${unit.label} doesn't end with its unit review`);
       }
       if (!unit.required.some((l) => l.exercises.length > 0)) {

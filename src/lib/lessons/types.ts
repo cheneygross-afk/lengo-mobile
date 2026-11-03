@@ -170,6 +170,10 @@ export type Lesson = {
   // a short unit quiz plus listening, speaking and writing practice built
   // from the unit's lessons. Required, but never used for testing out.
   unitReview?: boolean;
+  // Set on part 2, 3... of a lesson split to keep every lesson at 30
+  // questions or fewer (questionCap.ts): the slug of the lesson it
+  // continues, whose part 1 keeps the original slug.
+  continues?: string;
   // "JA-Alphabets", "JA-A1", "JA-A2", "JA-B1", "JA-B2", "JA-C1", and "JA-C2" are the hidden
   // Japanese track's pre-A1 hiragana/katakana module and its first four real
   // grammar modules (see src/lib/lessons/ja-alphabets.ts, ja-a1.ts, ja-a2.ts,

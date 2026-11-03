@@ -39,6 +39,7 @@ import { EN_A1_U7_EXTRA } from "./en-a1-u7-extra";
 import { EN_A1_U8_EXTRA } from "./en-a1-u8-extra";
 import { EN_A1_WRITING } from "./en-a1-writing";
 import { withUnitWriting } from "./unitWriting";
+import { splitLongLessons, withSplitSlugs } from "./questionCap";
 
 // English for Spanish speakers (beta), A1. The same Lesson/Exercise shapes
 // as the Spanish course, with the roles of the two languages swapped:
@@ -70,5 +71,5 @@ const UNITS: EnglishUnitDef[] = [
 ];
 
 const LEVEL = buildEnglishLevel("en/a1", UNITS);
-export const EN_A1_LESSONS: Lesson[] = withUnitWriting(LEVEL.lessons, EN_A1_WRITING);
-export const EN_A1_UNITS: UnitOutline[] = LEVEL.units;
+export const EN_A1_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(LEVEL.lessons, EN_A1_WRITING));
+export const EN_A1_UNITS: UnitOutline[] = withSplitSlugs(LEVEL.units, EN_A1_LESSONS);
