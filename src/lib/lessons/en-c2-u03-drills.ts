@@ -239,7 +239,7 @@ export const EN_C2_U03_DRILLS: Lesson[] = [
         "With patients and families, use the lay term. \"Epistaxis\" is accurate but useless to a worried mother and belongs in the notes.",
       ),
       fb(
-        "On your letter you'll see it written as ___, but most people just call it high blood pressure.",
+        "In your report you'll see it written as ___, but most people just call it high blood pressure.",
         "hypertension",
         "En su informe lo verá escrito como [hipertensión], pero casi todo el mundo lo llama presión alta.",
         [],
@@ -782,7 +782,7 @@ export const EN_C2_U03_DRILLS: Lesson[] = [
       sp(
         "It's very unlikely to be anything serious, but let's do a blood test to be sure.",
         "Es muy poco probable que sea algo grave, pero hagamos un análisis de sangre para estar seguros.",
-        "Stress \"UN-likely\" and \"SURE\"; keep \"to be\" weak.",
+        "Stress \"un-LIKE-ly\" and \"SURE\"; keep \"to be\" weak.",
         "\"Unlikely to be\" + noun is the standard reassurance: a precise hedge, not a vague one.",
       ),
       sp(

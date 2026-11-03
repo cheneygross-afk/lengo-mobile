@@ -1616,7 +1616,7 @@ export const EN_C2_U10: Lesson[] = [
         heading: "Money words: balance, rent and renta",
         body: [
           "English \"balance\" means the amount left in an account (\"your balance is 300 dollars\"), the amount still owed (\"the balance is due on delivery\") or equilibrium. Spanish «hacer balance» is \"take stock\" or \"review\", and «el balance del año» is \"the year's results\" or \"a review of the year\". «El balance» in accounting is \"the balance sheet\".",
-          "«Renta» is income: «la renta per cápita» is \"per capita income\", «la declaración de la renta» is \"the tax return\", «renta fija» is \"fixed income\". English \"rent\" is only the money paid to use a property: «el alquiler».",
+          "«Renta» is income: «la renta per cápita» is \"per capita income\", «la declaración de la renta» is \"the tax return\", «renta fija» is \"fixed income\". English \"rent\" is only the money paid to use a property: «el alquiler» (in Mexico and parts of Latin America also «la renta», where the two words do match).",
           "«Rentable» is \"profitable\" (or \"cost-effective\" for a measure that saves money). English \"rentable\" exists but only means \"available to rent\", so *The business is very rentable is a real misunderstanding.",
         ],
         examples: [
@@ -1833,7 +1833,7 @@ export const EN_C2_U10: Lesson[] = [
           "I can attend to you with the booking.",
         ],
         correctIndex: 0,
-        explanation: "\"Assist\" means help. \"Attend\" means be present at an event, and \"attend to\" means deal with, not help a person with something.",
+        explanation: "\"Assist\" means help. \"Attend\" means be present at an event, and \"attend to\" means deal with or serve (\"A colleague will attend to you\"), but it does not take \"with + task\", so \"attend to you with the booking\" is not idiomatic.",
       },
       {
         type: "write",
@@ -1847,7 +1847,7 @@ export const EN_C2_U10: Lesson[] = [
           "Keeps a friendly, informal email tone",
         ],
         modelAnswer: "Hi Tom, we are currently working with two suppliers. If necessary, we could replace one of them, but it's a sensitive issue. I carried out a price comparison and saved it in the Q3 folder. The bottom line is that the new supplier would be more cost-effective. I won't be able to attend the meeting on Monday, so let's talk on Tuesday.",
-        explanation: "Eight false friends in one short email: \"currently\", \"if necessary\", \"sensitive\", \"carried out\", \"folder\", \"the bottom line\", \"profitable\" and \"attend\". Note also \"suppliers\", since a \"provider\" is more often a service provider.",
+        explanation: "Eight false friends in one short email: \"currently\", \"if necessary\", \"sensitive\", \"carried out\", \"folder\", \"the bottom line\", \"cost-effective\" (or \"profitable\") and \"attend\". Note also \"suppliers\", since a \"provider\" is more often a service provider.",
       },
     ],
   },
@@ -1908,10 +1908,10 @@ export const EN_C2_U10: Lesson[] = [
             type: "multiple-choice",
             question: "You are chatting with a friend. Which sentence sounds most natural?",
             options: [
-              "I need to find out when the shop opens.",
-              "I need to ascertain when the shop opens.",
-              "I need to determine the opening time of the shop.",
-              "I need to obtain information regarding the shop's opening hours.",
+              "I need to find out when the store opens.",
+              "I need to ascertain when the store opens.",
+              "I need to determine the opening time of the store.",
+              "I need to obtain information regarding the store's opening hours.",
             ],
             correctIndex: 0,
             explanation: "\"Find out\" is the everyday verb. \"Ascertain\" and \"obtain information regarding\" belong in formal reports and sound comic in casual speech.",

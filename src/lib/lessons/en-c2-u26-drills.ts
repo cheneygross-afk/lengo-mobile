@@ -119,7 +119,7 @@ export const EN_C2_U26_DRILLS: Lesson[] = [
       ),
       tx(
         "Los datos no respaldaron nuestra hipótesis.",
-        ["The data did not support our hypothesis.", "Our hypothesis was not supported by the data."],
+        ["The data did not support our hypothesis.", "The data {failed to support|did not back up} our hypothesis.", "Our hypothesis was not supported by the data."],
         "Data \"support\" or \"do not support\" a hypothesis; scientists \"test\" it rather than *prove it. «Respaldar» here is simply \"support\".",
       ),
       mc(

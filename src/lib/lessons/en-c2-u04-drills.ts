@@ -81,7 +81,7 @@ export const EN_C2_U04_DRILLS: Lesson[] = [
     "Use idioms in their exact frozen form and grammar, match them to the right situation, register and audience, decode twisted headlines and game idioms, and recall idioms by image.",
     "Recap: frozen form, the right situation, the right audience",
     [
-      "An idiom is a frozen block: only the tense and the possessive slot change (\"You're pulling my leg\", \"I put my foot in it\"), and the small words are fixed: \"on the other hand\", \"by the skin of my teeth\". Analysable idioms allow the passive (\"strings were pulled\"); others never do (*the bucket was kicked). Many live in the negative: \"won't lift a finger\", \"can't hold a candle to\", \"don't have a leg to stand on\".",
+      "An idiom is a frozen block: only the tense and the possessive slot change (\"You're pulling my leg\", \"I put my foot in it\"), and the small words are fixed: \"on the other hand\", \"by the skin of my teeth\". Analyzable idioms allow the passive (\"strings were pulled\"); others never do (*the bucket was kicked). Many live in the negative: \"won't lift a finger\", \"can't hold a candle to\", \"don't have a leg to stand on\".",
       "Register and attitude: \"pass away\" in a condolence, \"kick the bucket\" only as a joke; \"jump on the bandwagon\" and \"cut corners\" criticize. Match the situation: \"bite the bullet\" for something you dread, \"take the plunge\" for an exciting risk, \"back to square one\" after a failure.",
       "Regional pairs: take the biscuit/cake, touch/knock on wood, spanner/monkey wrench, pinch/grain of salt; baseball gives \"ballpark figure\", \"off base\", \"out of left field\". Headlines twist one word of a familiar idiom; poker and boxing give \"call someone's bluff\" and \"throw in the towel\". By image: \"cost an arm and a leg\", \"smell a rat\", \"under the weather\", \"a piece of cake\".",
     ],
@@ -141,7 +141,7 @@ export const EN_C2_U04_DRILLS: Lesson[] = [
           "A foot was put in it at the meeting.",
         ],
         0,
-        "Idioms whose parts have meaning allow the passive: in \"pull strings\" the strings are contacts. \"Kick the bucket\", \"pull someone's leg\" and \"put your foot in it\" cannot be analysed, so their passives sound absurd.",
+        "Idioms whose parts have meaning allow the passive: in \"pull strings\" the strings are contacts. \"Kick the bucket\", \"pull someone's leg\" and \"put your foot in it\" cannot be analyzed, so their passives sound absurd.",
       ),
       tr(
         "Su hermano no mueve un dedo para ayudar en casa.",
@@ -222,7 +222,7 @@ export const EN_C2_U04_DRILLS: Lesson[] = [
       fb(
         "The funding fell through, so we're back to ___ one.",
         "square",
-        "Se cayó la financiación, así que volvemos a [empezar de cero].",
+        "Se cayó el financiamiento, así que volvemos a [empezar de cero].",
         [],
         "\"Back to square one\" is for a plan that has failed completely and must start again. *Back to zero is a calque.",
       ),
@@ -336,6 +336,8 @@ export const EN_C2_U04_DRILLS: Lesson[] = [
           "Talks between the two parties remain at a stalemate.",
           "The talks between the two parties are still in stalemate.",
           "The talks between the two parties have reached a stalemate.",
+          "The talks between the two parties remain deadlocked.",
+          "The talks between the two parties are still deadlocked.",
         ],
         "\"Stalemate\" comes from chess: neither side can make progress. It is neutral enough for political journalism.",
       ),
@@ -463,7 +465,7 @@ export const EN_C2_U04_DRILLS: Lesson[] = [
     ],
     [
       ["I really put my foot in it when I asked about her job.", "Metí la pata hasta el fondo al preguntarle por su trabajo."],
-      ["The funding increase is negligible.", "El aumento de la financiación es insignificante."],
+      ["The funding increase is negligible.", "El aumento del financiamiento es insignificante."],
       ["A: This traffic is unbelievable. B: Tell me about it.", "A: Este tráfico es increíble. B: Ni me lo digas."],
       ["We need to nip this in the bud.", "Tenemos que cortar esto de raíz."],
     ],
@@ -526,7 +528,7 @@ export const EN_C2_U04_DRILLS: Lesson[] = [
         "Match each Spanish idiom with its English equivalent.",
         [
           ["no tener pelos en la lengua", "not mince your words"],
-          ["estar hasta las narices", "be sick and tired of"],
+          ["estar hasta la coronilla", "be sick and tired of"],
           ["tirar la casa por la ventana", "go all out"],
           ["ser la gota que colma el vaso", "be the last straw"],
           ["ponerse las pilas", "get your act together"],
@@ -542,6 +544,7 @@ export const EN_C2_U04_DRILLS: Lesson[] = [
           "I was dumbfounded when I saw the price.",
           "I was speechless when I saw the price tag.",
           "I was stunned when I saw the price tag.",
+          "I was shocked when I saw the price.",
         ],
         "«Quedarse de piedra» = \"be stunned\", \"be speechless\" or British \"be gobsmacked\". *I stayed of stone is a calque.",
       ),

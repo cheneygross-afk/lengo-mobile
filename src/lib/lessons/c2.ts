@@ -18336,9 +18336,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "source": "On the pretext of restoring order, the general suspended the constitution.",
         "answer": "So pretexto de restablecer el orden, el general suspendió la constitución.",
         "altAnswers": [
-          "Con el pretexto de restablecer el orden, el general suspendió la constitución.",
-          "So pretexto de restablecer el orden, el general suspendió la Constitución.",
-          "Con el pretexto de restablecer el orden, el general suspendió la Constitución."
+          "Con el pretexto de restablecer el orden, el general suspendió la constitución."
         ],
         "explanation": "«So pretexto de» (culto) = con el pretexto de; «restablecer el orden» es la colocación."
       },

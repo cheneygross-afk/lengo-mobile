@@ -645,12 +645,12 @@ export const EN_C1_U11: Lesson[] = [
         body: [
           "Word formation is a tool, not a goal. In conversation, a chain of derived nouns sounds stiff: \"We have made the decision regarding the implementation of the change\" is correct but heavy; \"We've decided to go ahead with the change\" is what people actually say.",
           "Compare this exchange. A: \"So, did they hire her?\" B: \"Yes, they were impressed by how decisive she was.\" A natural speaker uses \"how decisive she was\", not \"by her decisiveness\", which is fine in a report but odd in a chat.",
-          "Also, not every combination exists. You can \"reopen\" a shop, but you \"close it again\", not *reclose it. You can be \"unemployed\", but not *unworking. When you are not sure a derived word exists, a short phrase is safer.",
+          "Also, not every combination exists. You can \"reopen\" a store, but you \"close it again\", not *reclose it. You can be \"unemployed\", but not *unworking. When you are not sure a derived word exists, a short phrase is safer.",
         ],
         examples: [
           { es: "We've decided to go ahead with the change.", en: "Hemos decidido seguir adelante con el cambio." },
           { es: "They were impressed by how decisive she was.", en: "Les impresionó lo decidida que era." },
-          { es: "The shop reopened after the summer.", en: "La tienda volvió a abrir después del verano." },
+          { es: "The store reopened after the summer.", en: "La tienda volvió a abrir después del verano." },
           { es: "They closed the road again after the storm.", en: "Volvieron a cerrar la carretera después de la tormenta." },
         ],
         checkpoint: [
@@ -1500,13 +1500,13 @@ export const EN_C1_U11: Lesson[] = [
         heading: "Health and safety: casualty, constipated, preservative, molest",
         body: [
           "A \"casualty\" is a person killed or injured in an accident or a war («víctima», «herido», «baja»): \"There were no casualties\". It has nothing to do with «casualidad», which is \"coincidence\" or \"chance\": «¡Qué casualidad!» is \"What a coincidence!\". In British English, \"Casualty\" is also the hospital's emergency department (\"the ER\" in the US).",
-          "\"Constipated\" means «estreñido». If you have a cold, say \"I have a cold\" or \"I'm congested\" («estoy resfriado», «estoy constipado», «tengo la nariz tapada»).",
+          "\"Constipated\" means «estreñido». If you have a cold, say \"I have a cold\" or \"I'm congested\" («estoy resfriado», «tengo la nariz tapada»; in Spain also «estoy constipado», which is exactly what triggers the error).",
           "A \"preservative\" is «conservante»: \"no artificial preservatives\". «Preservativo» is \"condom\". And \"molest\" is a very serious word: it means to sexually abuse someone. «Molestar» is \"bother\", \"annoy\" or \"disturb\": «No me molestes» is \"Don't bother me\", and «¿Le molesta si...?» is \"Do you mind if...?\".",
         ],
         examples: [
           { es: "Luckily, there were no casualties.", en: "Por suerte, no hubo víctimas." },
           { es: "What a coincidence! I was just thinking about you.", en: "¡Qué casualidad! Justo estaba pensando en ti." },
-          { es: "I've had a cold all week.", en: "He estado constipado toda la semana." },
+          { es: "I've had a cold all week.", en: "He estado resfriado toda la semana." },
           { es: "This bread contains no preservatives.", en: "Este pan no contiene conservantes." },
           { es: "Sorry to bother you, but could you help me?", en: "Perdona que te moleste, pero ¿me podrías ayudar?" },
           { es: "Do you mind if I open the window?", en: "¿Te molesta si abro la ventana?" },
@@ -1516,10 +1516,10 @@ export const EN_C1_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No puedo ir; estoy constipado.",
+            source: "No puedo ir; estoy resfriado.",
             answer: "I can't go; I have a cold.",
             altAnswers: ["I can't go; I've got a cold.", "I can't go. I have a cold.", "I can't go. I've got a cold.", "I can't go, I have a cold.", "I can't go, I've got a cold.", "I can't come; I have a cold.", "I can't come; I've got a cold.", "I can't go because I have a cold.", "I can't go because I've got a cold."],
-            explanation: "«Estar constipado» is \"have a cold\". \"Constipated\" means «estreñido».",
+            explanation: "«Estar resfriado» (in Spain, «constipado») is \"have a cold\". \"Constipated\" means «estreñido».",
           },
           {
             type: "fill-blank",
@@ -1805,7 +1805,7 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "In a work email",
         body: [
-          "Here is a typical first draft by a Spanish speaker: *Dear Ms Clark, Actually I am responsible for the marketing area. Last week I assisted the conference in Boston, where I realized a presentation about our new products. Eventually, we could organise a meeting to discuss a possible collaboration.",
+          "Here is a typical first draft by a Spanish speaker: *Dear Ms. Clark, Actually I am responsible for the marketing area. Last week I assisted the conference in Boston, where I realized a presentation about our new products. Eventually, we could organise a meeting to discuss a possible collaboration.",
           "Each starred word is a false friend. The writer meant «actualmente» (\"currently\"), «asistir a» (\"attend\"), «realizar» (\"give\" or \"deliver\" a presentation) and «eventualmente» (\"perhaps\", \"if you are interested\").",
           "The corrected version: \"I am currently responsible for marketing. Last week I attended the conference in Boston, where I gave a presentation on our new products. If you are interested, we could arrange a meeting to discuss a possible collaboration.\" Notice that \"conference\" was right all along: it is the whole event.",
         ],
@@ -1879,7 +1879,7 @@ export const EN_C1_U11: Lesson[] = [
         body: [
           "Spoken mistakes are less visible but more embarrassing. Listen to this exchange. A: \"How was the party?\" B: \"Great, everyone was really nice. Ana is pregnant, by the way! And I was so embarrassed: I spilled wine on their new rug.\"",
           "A Spanish speaker might have said *everyone was very sympathetic, *Ana is embarrassed and *their new carpet when they meant a small rug. Only the first two change the meaning completely, but all of them are worth fixing.",
-          "Other everyday traps: «¿Te molesta el ruido?» is \"Does the noise bother you?\"; «Estoy constipado» is \"I have a cold\"; «Busco una librería» is \"I'm looking for a bookstore\"; «una persona muy sensible» is \"a very sensitive person\".",
+          "Other everyday traps: «¿Te molesta el ruido?» is \"Does the noise bother you?\"; «Estoy resfriado» (in Spain, «constipado») is \"I have a cold\"; «Busco una librería» is \"I'm looking for a bookstore\"; «una persona muy sensible» is \"a very sensitive person\".",
         ],
         examples: [
           { es: "Everyone at the party was really nice.", en: "Todo el mundo en la fiesta era muy simpático." },
@@ -2142,7 +2142,7 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "Recap: Part 2",
         body: [
-          "casualty («víctima») vs coincidence («casualidad»); constipated («estreñido») vs have a cold («estar constipado»); preservative («conservante»); molest (sexual abuse) vs bother («molestar»); relatives («parientes») vs parents («padres»); fabric («tela») vs factory («fábrica»); scholar («erudito») vs schoolchild («escolar»); record vs remember, remind («recordar»).",
+          "casualty («víctima») vs coincidence («casualidad»); constipated («estreñido») vs have a cold («estar resfriado», in Spain «constipado»); preservative («conservante»); molest (sexual abuse) vs bother («molestar»); relatives («parientes») vs parents («padres»); fabric («tela») vs factory («fábrica»); scholar («erudito») vs schoolchild («escolar»); record vs remember, remind («recordar»).",
           "career («trayectoria») vs degree («carrera universitaria»); lecture vs reading («lectura»); conference («congreso») vs talk («conferencia»); topic («tema») vs cliche («tópico»); consistent («coherente», «constante»); introduce (people, laws) vs insert, enter («introducir»); involve («implicar») vs wrap («envolver»); notice vs news («noticia»); prevent vs warn («prevenir a alguien»); contest («concurso») vs answer («contestar»); argument («discusión», «argumento» lógico) vs plot («argumento» de una historia).",
         ],
         examples: [
@@ -2682,8 +2682,8 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "Error 3: false friends in emails",
         body: [
-          "Email 1: *Dear Mr Lee, I am writing to inform you that I will not be able to assist the meeting on Friday because I am constipated. I will send you the actual figures by Monday.",
-          "Fixed: \"I will not be able to attend the meeting on Friday because I have a cold. I will send you the current figures by Monday.\" Three false friends: «asistir» (attend), «constipado» (a cold), «actual» (\"current\" or \"latest\").",
+          "Email 1: *Dear Mr. Lee, I am writing to inform you that I will not be able to assist the meeting on Friday because I am constipated. I will send you the actual figures by Monday.",
+          "Fixed: \"I will not be able to attend the meeting on Friday because I have a cold. I will send you the current figures by Monday.\" Three false friends: «asistir» (attend), «constipado» (Spain: a cold; neutral «resfriado»), «actual» (\"current\" or \"latest\").",
           "Email 2: *Thank you for your sympathetic welcome. The realization of the project was a big success, and we hope to discuss the economical results soon. Fixed: \"Thank you for your warm welcome. The project was carried out very successfully, and we hope to discuss the financial results soon.\" «Simpático» is \"warm\" or \"friendly\" for a welcome; «la realización» is \"carrying out\"; and «resultados económicos» are \"financial results\".",
         ],
         examples: [
@@ -2807,7 +2807,7 @@ export const EN_C1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No podré asistir porque estoy constipada.",
+        source: "No podré asistir porque estoy resfriada.",
         answer: "I won't be able to attend because I have a cold.",
         altAnswers: [
           "I won't be able to attend because I've got a cold.",
@@ -2821,7 +2821,7 @@ export const EN_C1_U11: Lesson[] = [
           "I won't be able to attend as I have a cold.",
           "I can't come because I've got a cold.",
         ],
-        explanation: "«Asistir» = \"attend\"; «estar constipado» = \"have a cold\". *I am constipated means «estoy estreñida».",
+        explanation: "«Asistir» = \"attend\"; «estar resfriada» (in Spain, «constipada») = \"have a cold\". *I am constipated means «estoy estreñida».",
       },
       {
         type: "word-order",

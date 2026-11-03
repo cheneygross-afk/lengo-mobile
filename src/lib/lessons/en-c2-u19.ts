@@ -426,7 +426,7 @@ export const EN_C2_U19: Lesson[] = [
               "Remote work is a type of work. What type? A type of work done from home.",
             ],
             correctIndex: 0,
-            explanation: "The first asks a question the audience really has and answers it with a surprise. The others are circular or simply list the essay plan.",
+            explanation: "\"Does working from home make us lazier?\" asks a question the audience really has and answers it with a surprise. The others are circular or simply list the essay plan.",
           },
         ],
       },

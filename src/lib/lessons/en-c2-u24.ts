@@ -2020,10 +2020,10 @@ export const EN_C2_U24: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Si los aliados hubieran bombardeado las vías, habrían salvado miles de vidas.",
-            answer: "If the Allies had bombed the railway lines, they would have saved thousands of lives.",
+            answer: "If the Allies had bombed the railroad tracks, they would have saved thousands of lives.",
             altAnswers: [
               "If the Allies had bombed the railways, they would have saved thousands of lives.",
-              "If the Allies had bombed the railroad tracks, they would have saved thousands of lives.",
+              "If the Allies had bombed the railway lines, they would have saved thousands of lives.",
               "If the Allies had bombed the tracks, they would have saved thousands of lives.",
               "If the Allies had bombed the railway lines, they could have saved thousands of lives.",
               "If the Allies had bombed the railways, they could have saved thousands of lives.",
@@ -2498,7 +2498,7 @@ export const EN_C2_U24: Lesson[] = [
           "Having abdicated in 1556, the emperor retired to a monastery.",
         ],
         correctIndex: 0,
-        explanation: "The first sentence starts in the historic present (\"abdicates\") and switches to the past (\"retired\") in the same chain of events. Choose one frame and keep it.",
+        explanation: "The faulty sentence starts in the historic present (\"abdicates\") and switches to the past (\"retired\") in the same chain of events. Choose one frame and keep it.",
       },
       {
         type: "translate",

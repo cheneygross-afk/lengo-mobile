@@ -594,7 +594,7 @@ export const EN_C2_U26: Lesson[] = [
           "No article with general \"AI\", \"technology\" or \"automation\"",
           "Accurate tenses for past change and present situation",
         ],
-        modelAnswer: "Streaming was a genuinely disruptive technology. When services such as Netflix rolled out their platforms worldwide, early adopters were mainly young people with fast internet, but uptake soon spread to every age group. Within a decade, video rental shops had disappeared and DVDs were close to obsolete. Television channels are now phasing out some of their traditional schedules, and the real challenge for streaming companies is no longer the technology but producing original content at scale and at a profit.",
+        modelAnswer: "Streaming was a genuinely disruptive technology. When services such as Netflix rolled out their platforms worldwide, early adopters were mainly young people with fast internet, but uptake soon spread to every age group. Within a decade, video rental stores had disappeared and DVDs were close to obsolete. Television channels are now phasing out some of their traditional schedules, and the real challenge for streaming companies is no longer the technology but producing original content at scale and at a profit.",
         explanation: "Collocations matter more than individual words: \"roll out a platform\", \"uptake spread\", \"close to obsolete\", \"at scale\".",
       },
     ],

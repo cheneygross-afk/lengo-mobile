@@ -295,7 +295,7 @@ export const EN_C2_U16: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["A", "short", "pause", "sounds", "far", "more", "confident", "than", "a", "filler"],
+        words: ["A", "short", "pause", "sounds", "far", "more", "confident", "than", "a", "filler."],
         translation: "Una pausa breve suena mucho más segura que una muletilla.",
         explanation: "\"Far more\" (or \"much more\") intensifies a comparative. The comparison is \"more confident than\".",
       },
@@ -1492,7 +1492,7 @@ export const EN_C2_U16: Lesson[] = [
           "Flags that the deal is \"subject to\" legal review or contract",
           "Asks the client to confirm the summary and closes courteously",
         ],
-        modelAnswer: "Dear Ms. Lopez,\n\nThank you for your time this morning. Further to our meeting, please find below a summary of what we agreed.\n\n1. Volume and price: 2,000 units at $18 per unit, excluding tax.\n2. Delivery: in two batches of 1,000 units, by 1 March and by 1 April 2027.\n3. Payment: each delivery will be invoiced separately and paid within 30 days of receipt.\n4. Warranty: all units will carry a one-year warranty from the date of delivery.\n\nPlease note that this agreement is subject to review by our legal team, and we expect to send you the draft contract by 15 February.\n\nCould you confirm that this reflects your understanding? If I've missed anything, please let me know.\n\nMany thanks again for a productive meeting.\n\nBest regards,\nCarlos Ruiz",
+        modelAnswer: "Dear Ms. Lopez,\n\nThank you for your time this morning. Further to our meeting, please find below a summary of what we agreed.\n\n1. Volume and price: 2,000 units at $18 per unit, excluding tax.\n2. Delivery: in two batches of 1,000 units, by March 1 and by April 1, 2027.\n3. Payment: each delivery will be invoiced separately and paid within 30 days of receipt.\n4. Warranty: all units will carry a one-year warranty from the date of delivery.\n\nPlease note that this agreement is subject to review by our legal team, and we expect to send you the draft contract by February 15.\n\nCould you confirm that this reflects your understanding? If I've missed anything, please let me know.\n\nMany thanks again for a productive meeting.\n\nBest regards,\nCarlos Ruiz",
         explanation: "A good summary is numbered, precise and explicit about what is still conditional, and it ends by asking for confirmation.",
       },
     ],

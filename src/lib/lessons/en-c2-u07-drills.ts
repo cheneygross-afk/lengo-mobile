@@ -242,6 +242,8 @@ export const EN_C2_U07_DRILLS: Lesson[] = [
           "We need all hands on deck this week.",
           "This week we need all hands on deck.",
           "It is all hands on deck this week.",
+          "We need everyone to pitch in this week.",
+          "This week we need everyone to pitch in.",
         ],
         "Synecdoche: \"hands\" (sailors) stand for everybody. \"All hands on deck\" means everyone must help.",
       ),
@@ -786,7 +788,7 @@ export const EN_C2_U07_DRILLS: Lesson[] = [
       ),
       sp(
         "Never had the town seemed so quiet; even the dogs had stopped barking.",
-        "Nunca le había parecido tan silencioso el pueblo; hasta los perros habían dejado de ladrar.",
+        "Nunca había parecido tan silencioso el pueblo; hasta los perros habían dejado de ladrar.",
         "Slow down on \"Never had the town\"; the inversion is dramatic.",
         "Inversion after \"never\" plus a vivid detail: the proverb-like, literary rhythm of the unit.",
       ),

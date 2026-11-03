@@ -286,7 +286,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
           "Let's return at the subject.",
         ],
         correctIndex: 0,
-        explanation: "Meetings have topics, issues or points. \"Theme\" is for a novel, a film or a party, so «volvamos al tema» is never *return to the theme. \"Return at\" is also wrong: you return to something.",
+        explanation: "Meetings have topics, issues or points. \"Theme\" is for a novel, a movie or a party, so «volvamos al tema» is never *return to the theme. \"Return at\" is also wrong: you return to something.",
       },
       {
         type: "matching",
@@ -532,7 +532,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
           "No. That's not true.",
         ],
         correctIndex: 0,
-        explanation: "Acknowledge, then disagree with a hedge (\"I'm not sure...\"). \"You are wrong\" is too blunt, and the stacked hedges in the third option sound so unsure that people will ignore them.",
+        explanation: "Acknowledge, then disagree with a hedge (\"I'm not sure...\"). \"You are wrong\" is too blunt, and the stacked hedges in \"I don't know, maybe, perhaps...\" sound so unsure that people will ignore them.",
       },
       {
         type: "word-order",
@@ -2632,7 +2632,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
       {
         type: "dictation",
         audio: "The central bank raised interest rates to fight inflation.",
-        explanation: "\"Interest rates\" are «tipos de interés» (or «tasas de interés»); \"raise\" takes an object, while \"rise\" does not.",
+        explanation: "\"Interest rates\" are «tasas de interés» («tipos de interés» in Spain); \"raise\" takes an object, while \"rise\" does not.",
       },
       {
         type: "translate",

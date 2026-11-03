@@ -784,7 +784,7 @@ export const EN_C2_U33: Lesson[] = [
           { es: "Energy prices soared over the winter.", en: "Los precios de la energía se dispararon durante el invierno." },
           { es: "The crisis stems from years of cheap credit.", en: "La crisis se deriva de años de crédito barato." },
           { es: "She twisted her ring until her finger went white.", en: "Giraba el anillo hasta que se le quedó el dedo blanco." },
-          { es: "He trudged home through the snow.", en: "Volvió a casa arrastrando los pies por la nieve." },
+          { es: "He trudged home through the snow.", en: "Volvió a casa caminando penosamente por la nieve." },
         ],
         checkpoint: [
           {
@@ -1833,7 +1833,7 @@ export const EN_C2_U33: Lesson[] = [
           { es: "He was always punctual and well-dressed.", en: "Siempre era puntual e iba bien vestido (insinúa: nada más que decir de su trabajo)." },
           { es: "Oh, brilliant. Another meeting.", en: "Ah, genial. Otra reunión (ironía)." },
           { es: "The fire was a bit of a setback.", en: "El incendio fue un pequeño contratiempo (atenuación irónica: fue un desastre)." },
-          { es: "Well, that went well.", en: "Bueno, eso ha ido de maravilla (ironía: fue fatal)." },
+          { es: "Well, that went well.", en: "Bueno, eso salió de maravilla (ironía: fue fatal)." },
         ],
         checkpoint: [
           {
@@ -2148,7 +2148,7 @@ export const EN_C2_U33: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English (formal letter).",
-            source: "Por medio de la presente, le comunico mi dimisión.",
+            source: "Por medio de la presente, le comunico mi renuncia.",
             answer: "I am writing to inform you of my resignation.",
             altAnswers: [
               "I hereby inform you of my resignation.",
@@ -2163,7 +2163,7 @@ export const EN_C2_U33: Lesson[] = [
               "I hereby give notice of my resignation.",
               "I am writing to let you know that I am resigning.",
             ],
-            explanation: "«Por medio de la presente» becomes \"I am writing to...\" or, more formally, \"I hereby...\". «Dimisión» is \"resignation\", not *dimission.",
+            explanation: "«Por medio de la presente» becomes \"I am writing to...\" or, more formally, \"I hereby...\". «Renuncia» (Spain: «dimisión») is \"resignation\", not *renounce or *dimission.",
           },
         ],
       },
@@ -2863,7 +2863,7 @@ export const EN_C2_U33: Lesson[] = [
           { left: "liable for", right: "responsable de (legalmente)" },
           { left: "be diagnosed with", right: "ser diagnosticado de" },
           { left: "priced out", right: "expulsado por los precios" },
-          { left: "cut corners", right: "escatimar, hacer chapuzas" },
+          { left: "cut corners", right: "escatimar, hacer las cosas a la ligera" },
           { left: "straw man", right: "falacia del hombre de paja" },
           { left: "in the red", right: "en números rojos" },
         ],

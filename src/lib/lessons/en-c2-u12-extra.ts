@@ -25,7 +25,7 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
           "Noun stacks pack a whole sentence into nouns: \"Rail fare rise anger\" = «indignación por la subida de las tarifas del tren». Read them from right to left: the last noun is the head.",
         ],
         examples: [
-          { es: "Minister resigns over expenses row", en: "El ministro dimite por la polémica de los gastos." },
+          { es: "Minister resigns over expenses row", en: "Renuncia el ministro por la polémica de los gastos." },
           { es: "PM to visit flood-hit towns", en: "El primer ministro visitará los pueblos afectados por las inundaciones." },
           { es: "Two held after bank raid", en: "Dos detenidos tras el atraco al banco." },
           { es: "Council to axe 200 jobs", en: "El concejo municipal suprimirá 200 puestos de trabajo." },
@@ -66,7 +66,7 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
           { es: "Unions slam pay offer", en: "Los sindicatos critican duramente la oferta salarial." },
           { es: "Police probe museum theft", en: "La policía investiga el robo en el museo." },
           { es: "Mayor vows to cut traffic", en: "El alcalde promete reducir el tráfico." },
-          { es: "Storms hit holiday flights", en: "Las tormentas afectan a los vuelos de vacaciones." },
+          { es: "Storms hit holiday travel", en: "Las tormentas afectan a los viajes de las fiestas de fin de año." },
         ],
         checkpoint: [
           {
@@ -304,7 +304,7 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
           "The boss wants to stay until next year.",
         ],
         correctIndex: 0,
-        explanation: "\"Is to\" + verb is the formal future of plans and announcements (headlines drop \"is\"). \"Step down\" means «dimitir» or «dejar el cargo».",
+        explanation: "\"Is to\" + verb is the formal future of plans and announcements (headlines drop \"is\"). \"Step down\" means «renunciar» or «dejar el cargo».",
       },
       {
         type: "write",

@@ -654,7 +654,7 @@ export const EN_C2_U07: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Que piensa dimitir es un secreto a voces.",
+            source: "Que piensa renunciar es un secreto a voces.",
             answer: "It's an open secret that he plans to resign.",
             altAnswers: [
               "It's an open secret that she plans to resign.",
@@ -1863,7 +1863,7 @@ export const EN_C2_U07: Lesson[] = [
           { es: "The report glosses over the environmental costs.", en: "El informe pasa de puntillas por los costos ambientales." },
           { es: "Let's not dwell on the past.", en: "No nos recreemos en el pasado." },
           { es: "You need to flesh out the second section.", en: "Tienes que desarrollar más la segunda parte." },
-          { es: "The talk only touched on the issue of funding.", en: "La charla solo mencionó de pasada el tema de la financiación." },
+          { es: "The talk only touched on the issue of funding.", en: "La charla solo mencionó de pasada el tema del financiamiento." },
         ],
         checkpoint: [
           {

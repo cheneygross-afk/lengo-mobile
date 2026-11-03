@@ -156,7 +156,7 @@ export const EN_C2_U20: Lesson[] = [
           { es: "That's a false choice.", en: "Ese es un falso dilema." },
           { es: "The question isn't whether we change, but how.", en: "La cuestión no es si cambiamos, sino cómo." },
           { es: "I think the real question is who benefits.", en: "Creo que la verdadera pregunta es quién sale ganando." },
-          { es: "With respect, that's not what I said.", en: "Con todo respeto, yo no he dicho eso." },
+          { es: "With respect, that's not what I said.", en: "Con todo respeto, yo no dije eso." },
         ],
         checkpoint: [
           {
@@ -195,7 +195,7 @@ export const EN_C2_U20: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Con todo respeto, yo no he dicho eso.",
+        source: "Con todo respeto, yo no dije eso.",
         answer: "With respect, that's not what I said.",
         altAnswers: [
           "With all due respect, that's not what I said.",
@@ -206,7 +206,7 @@ export const EN_C2_U20: Lesson[] = [
           "With respect, that isn't what I said.",
           "With all due respect, that isn't what I said.",
         ],
-        explanation: "For a finished statement English uses the past simple (\"I didn't say that\"), where Spain's Spanish often uses «he dicho». \"That's not what I said\" is the most natural rebuttal.",
+        explanation: "For a finished statement English uses the past simple (\"I didn't say that\"), as in «no dije» (Spain often says «no he dicho» here). \"That's not what I said\" is the most natural rebuttal.",
       },
       {
         type: "translate",
@@ -1840,7 +1840,7 @@ export const EN_C2_U20: Lesson[] = [
           "Ends with a cleft, a fronted structure or negative inversion.",
           "Uses \"despite\" and \"even though\" correctly if they appear.",
         ],
-        modelAnswer: "Granted, banning cars will inconvenience some drivers at first. Critics argue that local shops will lose customers, but the evidence from Oslo and Pontevedra refutes that: foot traffic actually rose. Even though the change is uncomfortable, it is temporary, while the benefits last for decades. What we need is not another study but the courage to act.",
+        modelAnswer: "Granted, banning cars will inconvenience some drivers at first. Critics argue that local stores will lose customers, but the evidence from Oslo and Pontevedra refutes that: foot traffic actually rose. Even though the change is uncomfortable, it is temporary, while the benefits last for decades. What we need is not another study but the courage to act.",
         explanation: "Concede, cite, turn, and finish with emphasis: the same shape works in debates, op-eds and speeches.",
       },
     ],

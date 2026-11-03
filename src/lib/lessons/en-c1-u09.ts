@@ -3520,7 +3520,7 @@ export const EN_C1_U09: Lesson[] = [
         heading: "Heat and cold",
         body: [
           "For heat: \"scorching heat\" or \"a scorching day\" («un calor abrasador»), \"sweltering\" (hot and humid), \"a heatwave\" («una ola de calor»). A long period without rain is \"a drought\" (pronounced like \"out\", not like \"thought\").",
-          "For cold: \"bitterly cold\", \"freezing\", \"a cold snap\" (a short, sudden «ola de frío»), \"frost\" («escarcha», «helada»). «Hace un frío que pela» is \"It's freezing\".",
+          "For cold: \"bitterly cold\", \"freezing\", \"a cold snap\" (a short, sudden «ola de frío»), \"frost\" («escarcha», «helada»). «Hace muchísimo frío» is \"It's freezing\".",
           "Remember that \"weather\" is uncountable: \"We had lovely weather\", never *a lovely weather. And English describes the weather with \"it\" + \"be\": \"It's hot\", \"It's sunny\", never *makes heat.",
         ],
         examples: [
@@ -3557,7 +3557,7 @@ export const EN_C1_U09: Lesson[] = [
             answer: "freezing",
             altAnswers: ["bitterly cold", "freezing cold", "really cold", "very cold", "extremely cold", "absolutely freezing"],
             en: "Toma un abrigo. Afuera [hace muchísimo frío].",
-            explanation: "«Hace un frío que pela» is \"It's freezing\" or \"bitterly cold\". Weather uses \"it\" + \"be\", never *makes cold.",
+            explanation: "«Hace muchísimo frío» is \"It's freezing\" or \"bitterly cold\". Weather uses \"it\" + \"be\", never *makes cold.",
           },
         ],
       },

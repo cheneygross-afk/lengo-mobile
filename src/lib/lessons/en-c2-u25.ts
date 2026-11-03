@@ -71,7 +71,7 @@ export const EN_C2_U25: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "A raíz del escándalo, el primer ministro dimitió.",
+            source: "A raíz del escándalo, el primer ministro renunció.",
             answer: "In the wake of the scandal, the prime minister resigned.",
             altAnswers: [
               "In the wake of the scandal, the Prime Minister resigned.",
@@ -82,7 +82,7 @@ export const EN_C2_U25: Lesson[] = [
               "The prime minister resigned in the wake of the scandal.",
               "The prime minister resigned following the scandal.",
             ],
-            explanation: "«A raíz de» is best rendered \"in the wake of\" + noun phrase. Remember that «dimitir» is \"resign\", not *dimit.",
+            explanation: "«A raíz de» is best rendered \"in the wake of\" + noun phrase. Remember that «renunciar» (Spain: «dimitir») to a post is \"resign\", not *renounce or *dimit.",
           },
           {
             type: "multiple-choice",
@@ -1532,7 +1532,7 @@ export const EN_C2_U25: Lesson[] = [
           { left: "abdication", right: "abdicación" },
           { left: "campaign", right: "campaña militar" },
         ],
-        explanation: "Each belongs to a different branch of the web: social, social, economic, political and military.",
+        explanation: "Together they cover all four branches of the web: unrest and suffrage are social, slump is economic, abdication is political and campaign is military.",
       },
       {
         type: "word-order",
@@ -1570,7 +1570,7 @@ export const EN_C2_U25: Lesson[] = [
         heading: "Adjective pairs: historic/historical, economic/economical, classic/classical",
         body: [
           "Spanish has one adjective where English has two. «Histórico» is \"historic\" when it means important, likely to be remembered (\"a historic victory\", \"a historic agreement\"), and \"historical\" when it simply means related to the past or to history as a subject (\"historical documents\", \"a historical novel\"). A historic building is one that matters; a historical building is merely an old one, and this second use is rare.",
-          "«Económico» splits the same way. \"Economic\" refers to the economy (\"economic policy\", \"economic growth\", \"the economic crisis\"). \"Economical\" means cheap to run, not wasteful (\"an economical car\", \"economical with the truth\"). A Spanish speaker writing *economical policy or *the economical crisis has fallen into a cognate trap that native readers notice at once. For «barato» in shops, say \"cheap\" or \"inexpensive\", not \"economic\".",
+          "«Económico» splits the same way. \"Economic\" refers to the economy (\"economic policy\", \"economic growth\", \"the economic crisis\"). \"Economical\" means cheap to run, not wasteful (\"an economical car\", \"economical with the truth\"). A Spanish speaker writing *economical policy or *the economical crisis has fallen into a cognate trap that native readers notice at once. For «barato» in stores, say \"cheap\" or \"inexpensive\", not \"economic\".",
           "\"Classic\" means typical or of lasting excellence (\"a classic mistake\", \"a classic movie\"); \"classical\" refers to ancient Greece and Rome or to serious music (\"classical architecture\", \"classical music\"). «Música clásica» is always \"classical music\".",
         ],
         examples: [

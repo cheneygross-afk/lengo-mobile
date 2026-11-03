@@ -483,7 +483,7 @@ export const EN_C2_U21_DRILLS: Lesson[] = [
     [
       ["I led a new onboarding program, and staff turnover dropped by 15%.", "Dirigí un nuevo programa de incorporación y la rotación de personal bajó un 15%."],
       ["I did a six-month internship at a law firm.", "Hice unas prácticas de seis meses en un despacho de abogados."],
-      ["We secured a three-year contract with the city council.", "Conseguimos un contrato de tres años con el ayuntamiento."],
+      ["We secured a three-year contract with the city council.", "Conseguimos un contrato de tres años con el municipio."],
       ["My manager encouraged me to apply for the position.", "Mi jefa me animó a postularme al puesto."],
     ],
     [

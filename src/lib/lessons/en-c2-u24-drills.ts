@@ -167,7 +167,7 @@ export const EN_C2_U24_DRILLS: Lesson[] = [
       ),
       wo(
         "After the general resigned, the army split into rival factions.",
-        "Tras la dimisión del general, el ejército se dividió en facciones rivales.",
+        "Tras la renuncia del general, el ejército se dividió en facciones rivales.",
         "\"After\" already makes the order clear, so the past simple is fine in both clauses (\"after he had resigned\" is also correct and more formal).",
       ),
       // --- Part 2: flashbacks and inversion ---
@@ -341,7 +341,7 @@ export const EN_C2_U24_DRILLS: Lesson[] = [
       fb(
         "1969: Apollo 11 ___ on the Moon.",
         "lands",
-        "1969: el Apolo 11 [llega] a la Luna.",
+        "1969: el Apolo 11 [aluniza].",
         [],
         "Timelines and captions use the present simple for past events, just as Spanish does. Keep the habit out of the paragraphs of an essay.",
       ),
@@ -602,8 +602,8 @@ export const EN_C2_U24_DRILLS: Lesson[] = [
         "«Desde hace» + present is the present perfect + \"for\" in English. *I live in Montevideo since five years combines two errors: the tense and the preposition.",
       ),
       fb(
-        "I ___ known the director since we were at university together.",
-        "have",
+        "I ___ the director since we were at university together.",
+        "have known",
         "[Conozco] al director desde que estábamos juntos en la universidad.",
         [],
         "\"Know\" is stative, so only the simple form is possible: \"I have known\", never *I have been knowing. \"Since\" introduces a starting point.",

@@ -1152,7 +1152,7 @@ export const EN_C1_U06: Lesson[] = [
         ],
         examples: [
           { es: "In light of these findings, the policy will be reviewed.", en: "A la luz de estos resultados, se revisará la medida." },
-          { es: "In view of the circumstances, the meeting has been postponed.", en: "En vista de las circunstancias, se ha aplazado la reunión." },
+          { es: "In view of the circumstances, the meeting has been postponed.", en: "En vista de las circunstancias, se ha pospuesto la reunión." },
           { es: "The sample was small; therefore, the results must be treated with caution.", en: "La muestra era pequeña; por lo tanto, los resultados deben tomarse con cautela." },
           { es: "The sample was small. The results must therefore be treated with caution.", en: "La muestra era pequeña. Por lo tanto, los resultados deben tomarse con cautela." },
           { es: "Given that the sample was small, the results are only provisional.", en: "Dado que la muestra era pequeña, los resultados son solo provisionales." },
@@ -1450,7 +1450,7 @@ export const EN_C1_U06: Lesson[] = [
         ],
         examples: [
           { es: "Prices rose while wages fell. This squeeze on household budgets led to a fall in consumption.", en: "Los precios subieron mientras bajaban los salarios. Esta presión sobre los presupuestos familiares provocó una caída del consumo." },
-          { es: "The council introduced a congestion charge. This measure cut traffic by a fifth.", en: "El ayuntamiento introdujo un peaje urbano. Esta medida redujo el tráfico en una quinta parte." },
+          { es: "The council introduced a congestion charge. This measure cut traffic by a fifth.", en: "La alcaldía introdujo un peaje urbano. Esta medida redujo el tráfico en una quinta parte." },
           { es: "Unemployment fell to 6%, which was the lowest figure in a decade.", en: "El desempleo bajó al 6%, la cifra más baja en una década." },
           { es: "These findings challenge the traditional view.", en: "Estos resultados cuestionan la visión tradicional." },
         ],
@@ -1715,7 +1715,7 @@ export const EN_C1_U06: Lesson[] = [
         ],
         examples: [
           { es: "The rise was small, albeit significant.", en: "El aumento fue pequeño, si bien significativo." },
-          { es: "The roads were icy; therefore, the race was postponed.", en: "Las carreteras estaban heladas; por lo tanto, se aplazó la carrera." },
+          { es: "The roads were icy; therefore, the race was postponed.", en: "Las carreteras estaban heladas; por lo tanto, se pospuso la carrera." },
           { es: "She lived in Tokyo for ten years, hence her fluent Japanese.", en: "Vivió diez años en Tokio, de ahí su japonés fluido." },
           { es: "Lastly, I would like to thank the organizers.", en: "Por último, quisiera dar las gracias a los organizadores." },
         ],
@@ -2033,7 +2033,7 @@ export const EN_C1_U06: Lesson[] = [
         examples: [
           { es: "We got lost, but we eventually found the hotel.", en: "Nos perdimos, pero al final encontramos el hotel." },
           { es: "You'll get used to it eventually.", en: "Con el tiempo te acostumbrarás." },
-          { es: "If necessary, we can postpone the launch.", en: "Eventualmente, podemos aplazar el lanzamiento." },
+          { es: "If necessary, we can postpone the launch.", en: "Eventualmente, podemos posponer el lanzamiento." },
           { es: "Spain was the eventual winner of the tournament.", en: "España acabó ganando el torneo." },
           { es: "She has a temporary job at a hotel.", en: "Tiene un trabajo eventual en un hotel." },
         ],
@@ -2961,7 +2961,7 @@ export const EN_C1_U06: Lesson[] = [
         ],
         examples: [
           { es: "There was a power cut, hence the closure of the office.", en: "Hubo un apagón, de ahí el cierre de la oficina." },
-          { es: "The council planted 10,000 trees, thereby reducing the temperature in the city.", en: "El ayuntamiento plantó 10 000 árboles, con lo que redujo la temperatura de la ciudad." },
+          { es: "The council planted 10,000 trees, thereby reducing the temperature in the city.", en: "La alcaldía plantó 10 000 árboles, con lo que redujo la temperatura de la ciudad." },
           { es: "She was born in Ireland, hence her accent.", en: "Nació en Irlanda, de ahí su acento." },
           { es: "The company merged with its rival, thereby becoming the market leader.", en: "La empresa se fusionó con su rival, convirtiéndose así en líder del mercado." },
         ],

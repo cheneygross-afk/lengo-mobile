@@ -391,9 +391,9 @@ export const EN_C2_U19_EXTRA: Lesson[] = [
       {
         heading: "Wh-clefts, reversed clefts and all-clefts",
         body: [
-          "A wh-cleft starts with \"what\" + clause + \"be\" + focus: \"What I need is a holiday.\" It translates «Lo que necesito es...». The commonest Spanish-speaker error is *The what I need, or *That what I need. English \"what\" already means «lo que». For actions, use \"do\" and a bare infinitive or \"to\": \"What we did was (to) call a lawyer.\"",
+          "A wh-cleft starts with \"what\" + clause + \"be\" + focus: \"What I need is a vacation.\" It translates «Lo que necesito es...». The commonest Spanish-speaker error is *The what I need, or *That what I need. English \"what\" already means «lo que». For actions, use \"do\" and a bare infinitive or \"to\": \"What we did was (to) call a lawyer.\"",
           "Agreement: a wh-clause is normally treated as singular (\"What I need is...\"). With a plural focus, both \"What we need is more teachers\" and \"What we need are more teachers\" are heard; \"is\" is the safer choice in writing. If it sounds awkward, switch to an it-cleft: \"It's the costs that worry me.\"",
-          "A reversed wh-cleft puts the focus first: \"A holiday is what I need.\" \"That's what I meant.\" \"This is where it gets tricky.\" An all-cleft means «lo único que»: \"All I want is some peace\"; \"All she did was ask a question.\" Do not add \"the\": *The all I want, *The only what I want. (\"The only thing I want is...\" is fine.)",
+          "A reversed wh-cleft puts the focus first: \"A vacation is what I need.\" \"That's what I meant.\" \"This is where it gets tricky.\" An all-cleft means «lo único que»: \"All I want is some peace\"; \"All she did was ask a question.\" Do not add \"the\": *The all I want, *The only what I want. (\"The only thing I want is...\" is fine.)",
         ],
         examples: [
           { es: "What I need is a good night's sleep.", en: "Lo que necesito es dormir bien. (incorrecto: *The what I need)" },

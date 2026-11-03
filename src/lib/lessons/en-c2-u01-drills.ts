@@ -400,7 +400,7 @@ export const EN_C2_U01_DRILLS: Lesson[] = [
       sp(
         "The court adjourned the hearing until Thursday.",
         "El tribunal aplazó la audiencia hasta el jueves.",
-        "\"Adjourned\" is /əˈdʒɜːrnd/: the d in the spelling is silent.",
+        "\"Adjourned\" is /əˈdʒɜːrnd/: the \"dj\" spells one sound, /dʒ/, like the j in \"journey\".",
         "\"Adjourn\" = «aplazar, suspender». It has nothing to do with «adjuntar» (\"attach\").",
       ),
       dt(
@@ -589,6 +589,8 @@ export const EN_C2_U01_DRILLS: Lesson[] = [
           "The defendant had a public defender.",
           "The defendant had a legal aid lawyer.",
           "The accused had a court-appointed lawyer.",
+          "The defendant had a court-appointed attorney.",
+          "The accused had a court-appointed attorney.",
           "The accused had a public defender.",
           "The defendant was represented by a court-appointed lawyer.",
           "The defendant was represented by a public defender.",
@@ -674,6 +676,9 @@ export const EN_C2_U01_DRILLS: Lesson[] = [
           "It is an offense to drive without a seatbelt.",
           "It is an offence to drive without a seat belt.",
           "Driving without a seat belt is a traffic offense.",
+          "Driving without a seat belt is a traffic violation.",
+          "Driving without a seat belt is a violation.",
+          "Driving without a seat belt is an infraction.",
         ],
         "\"Offense\" (UK \"offence\") is the technical term for any breach of the law, however minor. \"Crime\" sounds serious, and *delict is a term of Scots law.",
       ),

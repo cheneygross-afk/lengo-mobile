@@ -1467,7 +1467,7 @@ export const EN_C1_U08: Lesson[] = [
       {
         heading: "\"Were\" in unreal clauses",
         body: [
-          "The past subjunctive survives only in one form: \"were\" for all persons, in unreal situations. \"If I were you\" is the fixed phrase for advice, and \"was\" is not possible in it. In other unreal clauses (after \"if\", \"wish\", \"as if\", \"suppose\"), \"were\" is formal and \"was\" is common in informal speech: \"If she were here...\" / \"If she was here...\".",
+          "The past subjunctive survives only in one form: \"were\" for all persons, in unreal situations. \"If I were you\" is the fixed phrase for advice: \"If I was you\" is heard in casual speech, but \"were\" is the standard form. In other unreal clauses (after \"if\", \"wish\", \"as if\", \"suppose\"), \"were\" is formal and \"was\" is common in informal speech: \"If she were here...\" / \"If she was here...\".",
           "\"Were\" also allows a formal inversion without \"if\": \"Were she to resign, the party would collapse\" (= If she were to resign). \"Were it not for\" means \"if it weren't for\": \"Were it not for the bridge, the village would be cut off\".",
           "Only use \"were\" for unreal situations. For a real possibility in the past, keep \"was\": \"If he was at the meeting, he must have heard\" (maybe he was). Spanish does the same: «si estuvo en la reunión» versus «si estuviera aquí».",
         ],
@@ -2661,7 +2661,7 @@ export const EN_C1_U08: Lesson[] = [
               "I recommended that film to my parents.",
               "I recommended that movie to my parents.",
             ],
-            explanation: "\"Recommend something to someone\": *I recommended my parents this film is a calque of the Spanish indirect object.",
+            explanation: "\"Recommend something to someone\": *I recommended my parents this movie is a calque of the Spanish indirect object.",
           },
           {
             type: "fill-blank",

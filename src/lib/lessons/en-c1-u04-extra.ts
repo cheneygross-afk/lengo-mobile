@@ -97,7 +97,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Will the shops be open on Sunday? I expect ___.",
+        sentence: "Will the stores be open on Sunday? I expect ___.",
         answer: "so",
         en: "¿Estarán abiertas las tiendas el domingo? Supongo que [sí].",
         explanation: "\"I expect so\" is a very common British way to say «supongo que sí». Americans also say \"I guess so\" or \"I suppose so\".",
@@ -456,7 +456,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["I", "prefer", "the", "ones", "on", "the", "top", "shelf"],
-        translation: "Prefiero los de la estantería de arriba.",
+        translation: "Prefiero los del estante de arriba.",
         explanation: "«Los de» + place is \"the ones on/in\" + place.",
       },
       {
@@ -765,7 +765,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
           "«Lo cual» / «lo que» referring to a whole clause is \", which\": \"He failed the exam, which surprised me\". *He failed, what surprised me is a very common error.",
         ],
         examples: [
-          { es: "The council closed the library. This angered local residents.", en: "El ayuntamiento cerró la biblioteca. Esto indignó a los vecinos." },
+          { es: "The council closed the library. This angered local residents.", en: "La alcaldía cerró la biblioteca. Esto indignó a los vecinos." },
           { es: "He failed the exam, which surprised everyone.", en: "Reprobó el examen, lo cual sorprendió a todos." },
           { es: "If that's the case, we'll have to wait.", en: "Si ese es el caso, tendremos que esperar." },
           { es: "She refused to apologize, which made things worse.", en: "Se negó a disculparse, lo que empeoró las cosas." },
@@ -960,7 +960,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["She", "refused", "to", "apologize", "which", "made", "things", "worse"],
+        words: ["She", "refused", "to", "apologize,", "which", "made", "things", "worse."],
         translation: "Se negó a disculparse, lo que empeoró las cosas.",
         explanation: "\", which\" refers back to her whole refusal. In writing, put a comma before \"which\".",
       },

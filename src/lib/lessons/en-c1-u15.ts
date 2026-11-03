@@ -652,7 +652,7 @@ export const EN_C1_U15: Lesson[] = [
               "You are wrong. Let's start smaller.",
             ],
             correctIndex: 0,
-            explanation: "\"I'm not entirely convinced\" softens the disagreement, and the question offers an alternative. The third option over-hedges and loses all force; the second and fourth are too blunt.",
+            explanation: "\"I'm not entirely convinced\" softens the disagreement, and the question offers an alternative. The \"Maybe, I don't know, perhaps...\" reply over-hedges and loses all force; \"That won't work\" and \"You are wrong\" are too blunt.",
           },
           {
             type: "translate",
@@ -1097,7 +1097,7 @@ export const EN_C1_U15: Lesson[] = [
           "Good morning. The theme of this presentation is customers.",
         ],
         correctIndex: 0,
-        explanation: "A striking figure grabs attention and leads straight into the purpose. The second option is correct but flat; the third and fourth contain errors (*will to explain, \"theme\" for «tema»).",
+        explanation: "A striking figure grabs attention and leads straight into the purpose. \"My name is Diego and I'm going to talk about customers\" is correct but flat; the other two openings contain errors (*will to explain, \"theme\" for «tema»).",
       },
       {
         type: "translate",
@@ -3650,7 +3650,7 @@ export const EN_C1_U15: Lesson[] = [
         body: [
           "This pair confuses many learners. Your bank \"balance\" is the amount of money in your account: «saldo». \"Check your balance\" is «consultar el saldo». So in this case English \"balance\" does translate «saldo».",
           "Spanish «balance», however, usually means something else. In accounting, «el balance» is \"the balance sheet\". In everyday speech, «hacer balance» is \"to take stock\" or \"to review\": «El balance del año es positivo» → \"Overall, it's been a good year\" or \"The year has been positive overall\".",
-          "And «saldos» in a shop are \"sales\" or \"clearance\": «precios de saldo» is \"knockdown prices\" or \"clearance prices\".",
+          "And «saldos» in a store are \"sales\" or \"clearance\": «precios de saldo» is \"knockdown prices\" or \"clearance prices\".",
         ],
         examples: [
           { es: "I checked my balance before paying.", en: "Consulté el saldo antes de pagar." },

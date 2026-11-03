@@ -218,7 +218,7 @@ Lucia`,
   u10: t(
     `You manage a project whose product launch has had to be postponed because of a last-minute technical problem. Write an email to your team explaining the setback, the plan and the timeline. Use business idioms where they make the message sharper, not where they obscure it.`,
     [
-      `At least five business idioms used accurately ("hit a snag", "in the loop", "back to square one", "take stock")`,
+      `At least five business idioms from the unit used accurately ("touch base", "on the same page", "back to the drawing board", "weather the storm", "the bottom line")`,
       `The problem, the plan and the timeline stated clearly`,
       `An honest, calm, motivating tone`,
       `No empty jargon that hides who does what`,

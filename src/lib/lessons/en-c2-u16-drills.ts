@@ -760,7 +760,7 @@ export const EN_C2_U16_DRILLS: Lesson[] = [
         "We recommend that the company ___ now.",
         "invest",
         ["should invest"],
-        "After \"recommend that\", formal English uses the base form for every person: \"the company invest\", not *invests. British English also allows \"should invest\".",
+        "After \"recommend that\", formal English uses the base form for every person: \"the company invest\". British English also allows \"should invest\" or, less formally, \"invests\".",
       ),
       wo(
         "We were thinking of a slightly longer trial period.",

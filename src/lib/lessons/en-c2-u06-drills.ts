@@ -93,12 +93,12 @@ export const EN_C2_U06_DRILLS: Lesson[] = [
     ],
     [
       mc(
-        "\"I used to work in a shoe recycling shop. It was sole destroying.\" What does the joke hinge on?",
+        "\"I used to work in a shoe recycling store. It was sole destroying.\" What does the joke hinge on?",
         [
           "\"Sole\" (the bottom of a shoe) sounds exactly like \"soul\"",
           "\"Destroying\" has a second meaning in the shoe trade",
           "\"Recycling\" can also mean riding a bicycle again",
-          "The shop was literally destroyed",
+          "The store was literally destroyed",
         ],
         0,
         "A homophone pun: \"soul-destroying\" means depressing and dull, and \"sole\" is the part of the shoe. Say it aloud and the second word appears.",
@@ -310,6 +310,7 @@ export const EN_C2_U06_DRILLS: Lesson[] = [
         "I'm hopeless with maps; I once got lost in my own building.",
         "Soy un desastre con los mapas; una vez me perdí en mi propio edificio.",
         "Self-deprecation, the British way to seem modest and approachable: \"hopeless with\" + noun.",
+        ["I'm hopeless with maps; I got lost once in my own building."],
       ),
       tr(
         "Toco un poco la guitarra, nada serio.",
@@ -678,7 +679,7 @@ export const EN_C2_U06_DRILLS: Lesson[] = [
           "They refuse to agree until the end",
         ],
         0,
-        "\"In principle\" = in general, in theory. Never confuse \"principle\" (a rule or belief) with «principio» meaning beginning, which is \"beginning\".",
+        "\"In principle\" = in general, in theory. Do not confuse it with «al principio», which is \"at first\" or \"at the beginning\".",
       ),
       tr(
         "El equipo hizo una temporada discreta.",

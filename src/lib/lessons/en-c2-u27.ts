@@ -185,7 +185,7 @@ export const EN_C2_U27: Lesson[] = [
         type: "multiple-choice",
         question: "Which of these is a mitigation measure?",
         options: [
-          "Replacing coal-fired power stations with wind farms",
+          "Replacing coal-fired power plants with wind farms",
           "Raising the height of flood barriers",
           "Introducing heat wave alerts for elderly people",
           "Planting drought-resistant crops",
@@ -371,7 +371,7 @@ export const EN_C2_U27: Lesson[] = [
         examples: [
           { es: "Mistakes were made.", en: "Se cometieron errores." },
           { es: "When will the minister stop misleading voters?", en: "¿Cuándo dejará el ministro de engañar a los votantes?" },
-          { es: "The so-called experts got it wrong again.", en: "Los supuestos expertos se han vuelto a equivocar." },
+          { es: "The so-called experts got it wrong again.", en: "Los supuestos expertos se equivocaron otra vez." },
           { es: "Ordinary hard-working people are sick of being ignored.", en: "La gente corriente que trabaja duro está harta de que la ignoren." },
           { es: "The phrase works as a dog whistle for a small but loyal group of voters.", en: "La expresión funciona como un mensaje en clave para un grupo de votantes pequeño pero fiel." },
         ],
@@ -412,7 +412,7 @@ export const EN_C2_U27: Lesson[] = [
         examples: [
           { es: "New EU rules have significantly increased paperwork for farmers.", en: "Las nuevas normas de la UE han aumentado considerablemente el papeleo de los agricultores." },
           { es: "The government has announced new benefits six weeks before the election.", en: "El gobierno ha anunciado nuevas ayudas seis semanas antes de las elecciones." },
-          { es: "Critics say the scheme rewards people who broke the rules.", en: "Los críticos dicen que el plan premia a quienes incumplieron las normas." },
+          { es: "Critics say the program rewards people who broke the rules.", en: "Los críticos dicen que el plan premia a quienes incumplieron las normas." },
           { es: "Supporters argue that the tax will fund cleaner public transport.", en: "Sus partidarios sostienen que el impuesto financiará un transporte público más limpio." },
         ],
         checkpoint: [
@@ -628,7 +628,7 @@ export const EN_C2_U27: Lesson[] = [
         ],
         examples: [
           { es: "She has been the MP for this constituency since 2015.", en: "Es la diputada por esta circunscripción desde 2015." },
-          { es: "The by-election was triggered by the MP's resignation.", en: "Las elecciones parciales se convocaron por la dimisión del diputado." },
+          { es: "The by-election was triggered by the MP's resignation.", en: "Las elecciones parciales se convocaron por la renuncia del diputado." },
           { es: "The Leader of the Opposition attacked the government's energy policy.", en: "El líder de la oposición criticó la política energética del gobierno." },
           { es: "The election resulted in a hung parliament.", en: "Las elecciones dieron lugar a un parlamento sin mayoría absoluta." },
           { es: "Several Conservative backbenchers rebelled against the government.", en: "Varios diputados conservadores sin cargo se rebelaron contra el gobierno." },
@@ -2076,7 +2076,7 @@ export const EN_C2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Se cree que el ministro está a punto de dimitir.",
+            source: "Se cree que el ministro está a punto de renunciar.",
             answer: "The minister is believed to be about to resign.",
             altAnswers: [
               "It is believed that the minister is about to resign.",
@@ -2087,7 +2087,7 @@ export const EN_C2_U27: Lesson[] = [
               "The minister is thought to be about to resign.",
               "It is thought that the minister is about to resign.",
             ],
-            explanation: "Pattern 2 makes \"the minister\" the subject and uses \"to be\" for a present state. «Dimitir» is \"resign\", not *dimit.",
+            explanation: "Pattern 2 makes \"the minister\" the subject and uses \"to be\" for a present state. «Renunciar» (Spain: «dimitir») is \"resign\", not *renounce or *dimit.",
           },
           {
             type: "word-order",
@@ -2106,7 +2106,7 @@ export const EN_C2_U27: Lesson[] = [
           "This is one of the most frequent errors in translated news, so treat every journalistic «habría» as a red flag.",
         ],
         examples: [
-          { es: "The senator is alleged to have accepted bribes from a developer.", en: "El senador habría aceptado sobornos de una promotora." },
+          { es: "The senator is alleged to have accepted bribes from a developer.", en: "El senador habría aceptado sobornos de una desarrolladora inmobiliaria." },
           { es: "Police have reportedly arrested three people.", en: "La policía habría detenido a tres personas." },
           { es: "The company is reported to have paid no tax for a decade.", en: "La empresa no habría pagado impuestos durante una década." },
           { es: "The documents are thought to have been destroyed.", en: "Se cree que los documentos fueron destruidos." },

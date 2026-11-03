@@ -560,7 +560,7 @@ export const EN_C1_U02_DRILLS: Lesson[] = [
     "Recap: small words, strong emphasis",
     [
       "Emphatic do/does/did + base verb insists something is true: \"I did call you!\" (never *I did called). \"The very\" + noun = «justo», «mismísimo»; \"no + noun + whatsoever\" or \"at all\" strengthens a negative; \"on earth\" after a question word shows disbelief: \"Why on earth...?\".",
-      "\"I did it myself\" = «yo mismo»; \"by far the best\" = «con diferencia». \"Such a + adjective + noun\" but \"so + adjective\". And never put \"very much\" between the verb and its object: \"I like this city very much\".",
+      "\"I did it myself\" = «yo mismo»; \"by far the best\" = «por mucho». \"Such a + adjective + noun\" but \"so + adjective\". And never put \"very much\" between the verb and its object: \"I like this city very much\".",
     ],
     [
       ["I do like your new haircut!", "¡De verdad me gusta tu nuevo corte de pelo!"],
@@ -613,8 +613,8 @@ export const EN_C1_U02_DRILLS: Lesson[] = [
         "Emphatic \"do\" + \"appreciate\": a polite, warm way to thank customers."),
       tr("¿Qué demonios estás haciendo?", "What {on earth|in the world} are you doing?",
         "\"On earth\" goes right after \"what\", before the auxiliary.", "Translate into English."),
-      fb("This is ___ the best pizza in town.", "by far", "Esta es [con diferencia] la mejor pizza de la ciudad.",
-        "\"By far\" + superlative = «con diferencia». It can also go at the end: \"the best pizza in town by far\"."),
+      fb("This is ___ the best pizza in town.", "by far", "Esta es [por mucho] la mejor pizza de la ciudad.",
+        "\"By far\" + superlative = «por mucho». It can also go at the end: \"the best pizza in town by far\"."),
       mc("«El atardecer fue precioso.» (very beautiful, no comparison) Which is the best English?", [
         "The sunset was absolutely beautiful.",
         "The sunset was the most beautiful.",
@@ -629,7 +629,7 @@ export const EN_C1_U02_DRILLS: Lesson[] = [
         "No te hablé de la fiesta.",
         "Te voy a hablar de la fiesta.",
       ], "Emphatic \"did\" insists that it really happened, against someone's doubt."),
-      tr("Es con diferencia el mejor jugador del equipo.", ["He's by far the best player on the team.", "He's the best player on the team by far.", "He's by far the best player in the team.", "He's the best player in the team by far."],
+      tr("Es por mucho el mejor jugador del equipo.", ["He's by far the best player on the team.", "He's the best player on the team by far.", "He's by far the best player in the team.", "He's the best player in the team by far."],
         "\"By far\" before the superlative or at the end. \"On the team\" is American; \"in the team\" British.", "Translate into English."),
       wo("I have no idea whatsoever where he lives.", "No tengo ni la menor idea de dónde vive.",
         "\"No idea whatsoever\", then an indirect question in normal order: \"where he lives\"."),
@@ -639,7 +639,7 @@ export const EN_C1_U02_DRILLS: Lesson[] = [
         ["justo / mismísimo", "the very"],
         ["en absoluto (after no + noun)", "whatsoever"],
         ["demonios (in questions)", "on earth"],
-        ["con diferencia", "by far"],
+        ["por mucho", "by far"],
       ], "Four ways to add force without changing the sentence structure."),
       mc("Which sentence is correct?", [
         "There's no evidence whatsoever.",

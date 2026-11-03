@@ -741,7 +741,7 @@ export const EN_C2_U23_DRILLS: Lesson[] = [
       fb(
         "If you keep missing deadlines, the client is ___ to notice.",
         "bound",
-        "Si sigues sin cumplir los plazos, el cliente [se va a dar cuenta seguro].",
+        "Si sigues sin cumplir los plazos, [seguro] que el cliente se va a dar cuenta.",
         [],
         "\"Be bound to\" expresses certainty: «seguro que...», «sí o sí». *The client is sure that he notices changes the meaning to the client's own belief.",
       ),

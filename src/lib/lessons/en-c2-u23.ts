@@ -571,7 +571,7 @@ export const EN_C2_U23: Lesson[] = [
               "I'm sorry I shouted at you. It won't happen again.",
             ],
             correctIndexes: [0, 1, 2],
-            explanation: "The first blames their feelings, the second hides the agent, the third cancels itself with \"but\". Only the last names the action and commits to change.",
+            explanation: "\"I'm sorry you feel that way\" blames their feelings, \"Mistakes were made\" hides the agent, and \"I'm sorry, but you started it\" cancels itself with \"but\". Only \"I'm sorry I shouted at you\" names the action and commits to change.",
           },
         ],
       },
@@ -892,7 +892,7 @@ export const EN_C2_U23: Lesson[] = [
             sentence: "You want 1,000 and I'm offering 800. Why don't we ___ and call it 900?",
             answer: "split the difference",
             altAnswers: ["meet halfway", "meet in the middle", "meet each other halfway"],
-            en: "Tú quieres 1000 y yo te ofrezco 800. ¿Por qué no [nos quedamos a mitad de camino] y lo dejamos en 900?",
+            en: "Tú quieres 1000 y yo te ofrezco 800. ¿Por qué no [partimos la diferencia] y lo dejamos en 900?",
             explanation: "\"Split the difference\" is used above all with prices and numbers; \"call it 900\" means «lo dejamos en 900».",
           },
         ],
@@ -1120,7 +1120,7 @@ export const EN_C2_U23: Lesson[] = [
               "I think you're making everyone's life harder.",
             ],
             correctIndex: 0,
-            explanation: "Only the first names an emotion and a specific situation. The others use \"I feel that\", \"I feel like\" or \"I think\" to deliver a judgment.",
+            explanation: "Only \"I feel stressed when changes come in the day before a deadline\" names an emotion and a specific situation. The others use \"I feel that\", \"I feel like\" or \"I think\" to deliver a judgment.",
           },
           {
             type: "translate",
@@ -1225,7 +1225,7 @@ export const EN_C2_U23: Lesson[] = [
           "Everyone thinks you're disorganized.",
         ],
         correctIndex: 0,
-        explanation: "The first describes specific behavior and its impact. The others label the person, and \"I feel that\" is a fake I-statement.",
+        explanation: "The sentence about the client files describes specific behavior and its impact. The others label the person, and \"I feel that\" is a fake I-statement.",
       },
       {
         type: "translate",
@@ -1791,7 +1791,7 @@ export const EN_C2_U23: Lesson[] = [
           "We have received yet another complaint from you.",
         ],
         correctIndex: 0,
-        explanation: "It thanks the customer without conceding or disputing anything yet. The second is a non-apology; the others sound defensive or hostile.",
+        explanation: "It thanks the customer without conceding or disputing anything yet. \"We are sorry you feel our service was poor\" is a non-apology; the others sound defensive or hostile.",
       },
       {
         type: "translate",
@@ -1902,7 +1902,7 @@ export const EN_C2_U23: Lesson[] = [
           "Intonation changes everything. \"Excuse me?\" or \"I beg your pardon?\" with a sharp rise means «¿cómo dices?» in the offended sense: the speaker has heard perfectly and is challenging what was said.",
         ],
         examples: [
-          { es: "Sorry, I didn't catch that. Could you say it again?", en: "Perdona, no lo he oído bien. ¿Puedes repetirlo?" },
+          { es: "Sorry, I didn't catch that. Could you say it again?", en: "Perdona, no lo oí bien. ¿Puedes repetirlo?" },
           { es: "Sorry, could you speak up a little?", en: "Perdona, ¿podrías hablar un poco más alto?" },
           { es: "Pardon?", en: "¿Perdón? (sobre todo británico)" },
           { es: "Excuse me? Did you just call me lazy?", en: "¿Cómo dices? ¿Me acabas de llamar vago? (ofendido)" },
@@ -2737,7 +2737,7 @@ export const EN_C2_U23: Lesson[] = [
         examples: [
           { es: "So what I'm hearing is that you felt left out.", en: "Entonces, lo que oigo es que te sentiste excluido." },
           { es: "I request that the decision be reviewed.", en: "Solicito que se revise la decisión." },
-          { es: "Sorry, I didn't catch that.", en: "Perdona, no lo he oído bien." },
+          { es: "Sorry, I didn't catch that.", en: "Perdona, no lo oí bien." },
           { es: "You should have told me.", en: "Deberías habérmelo dicho." },
         ],
         checkpoint: [

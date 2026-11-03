@@ -2293,7 +2293,7 @@ export const EN_C2_U02: Lesson[] = [
               "Taking into account that the sign was hidden by a tree which is why I could not see it.",
             ],
             correctIndex: 0,
-            explanation: "Short sentences with one idea each and a clear connector (\"As a result\") are what English-speaking officials expect. The others pile up clauses Spanish-style; the last one is not even a complete sentence.",
+            explanation: "Short sentences with one idea each and a clear connector (\"As a result\") are what English-speaking officials expect. The others pile up clauses Spanish-style; the one beginning \"Taking into account that\" is not even a complete sentence.",
           },
           {
             type: "fill-blank",

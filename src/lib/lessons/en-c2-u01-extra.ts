@@ -700,7 +700,7 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
           "\"Thereof\" follows its noun: \"the property or any part thereof\" («o cualquier parte del mismo»).",
         ],
         examples: [
-          { es: "I hereby give notice of my resignation.", en: "Por la presente comunico mi dimisión." },
+          { es: "I hereby give notice of my resignation.", en: "Por medio de la presente comunico mi renuncia." },
           { es: "The terms set out herein are binding on both parties.", en: "Las condiciones aquí establecidas son vinculantes para ambas partes." },
           { es: "The schedules attached hereto form part of this Agreement.", en: "Los anexos al presente Contrato forman parte del mismo." },
           { es: "The building or any part thereof may not be sublet.", en: "No se podrá subarrendar el edificio ni ninguna parte del mismo." },

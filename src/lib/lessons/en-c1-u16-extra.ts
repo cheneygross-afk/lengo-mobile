@@ -39,7 +39,7 @@ export const EN_C1_U16_EXTRA: Lesson[] = [
               "color, organise, centre, traveled",
             ],
             correctIndex: 0,
-            explanation: "British: -our, -ise (or -ize), -re and double l. The second set is consistently American; the last two mix the varieties.",
+            explanation: "British: -our, -ise (or -ize), -re and double l. \"color, organize, center, traveled\" is consistently American; the other two sets mix the varieties.",
           },
           {
             type: "multi-select",

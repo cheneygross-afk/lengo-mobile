@@ -324,20 +324,20 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: feelings and health",
         body: [
-          "The most embarrassing false friends are about people. «Embarazada» is \"pregnant\" (\"embarrassed\" = «avergonzado»). «Constipado» is \"have a cold\" (\"constipated\" = «estreñido»). «Simpático» is \"nice\" or \"friendly\" (\"sympathetic\" = «comprensivo»). «Sensible» is \"sensitive\" (\"sensible\" = «sensato»).",
+          "The most embarrassing false friends are about people. «Embarazada» is \"pregnant\" (\"embarrassed\" = «avergonzado»). «Resfriado» (in Spain, «constipado») is \"have a cold\" (\"constipated\" = «estreñido»). «Simpático» is \"nice\" or \"friendly\" (\"sympathetic\" = «comprensivo»). «Sensible» is \"sensitive\" (\"sensible\" = «sensato»).",
           "«Carrera» can be a \"degree\" (what you study at university) or a \"career\" (your professional life). «Grabar» is \"record\"; «recordar» is \"remember\". «Introducir» is \"put in\", \"insert\" or \"enter\" (a code); \"introduce\" is «presentar» (a person) or «introducir» only in the sense of bringing in something new (a law, a product).",
         ],
         examples: [
           { es: "I felt really embarrassed.", en: "Me dio mucha vergüenza." },
           { es: "She's six months pregnant.", en: "Está embarazada de seis meses." },
-          { es: "I can't come, I have a bad cold.", en: "No puedo ir, estoy muy constipado." },
+          { es: "I can't come, I have a bad cold.", en: "No puedo ir, estoy muy resfriado." },
           { es: "After her degree, she started a career in banking.", en: "Después de la carrera, empezó a trabajar en la banca." },
           { es: "Please enter your PIN.", en: "Introduzca su PIN, por favor." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«No pude ir a la fiesta porque estaba constipado.» Choose the correct translation.",
+            question: "«No pude ir a la fiesta porque estaba resfriado.» Choose the correct translation.",
             options: [
               "I couldn't go to the party because I had a cold.",
               "I couldn't go to the party because I was constipated.",
@@ -345,7 +345,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
               "I couldn't go to the party because I had a constipation.",
             ],
             correctIndex: 0,
-            explanation: "«Estar constipado» is \"have a cold\". \"Constipated\" means «estreñido», which is not what you want to say at work.",
+            explanation: "«Estar resfriado» (in Spain, «constipado») is \"have a cold\". \"Constipated\" means «estreñido», which is not what you want to say at work.",
           },
         ],
       },
@@ -581,13 +581,13 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "I didn't realize the shop had closed down.",
+        audio: "I didn't realize the store had closed down.",
         question: "What does the speaker say?",
         options: [
-          "She didn't know the shop had closed.",
-          "She didn't close the shop herself.",
-          "She didn't carry out the closure of the shop.",
-          "She forgot to close the shop.",
+          "She didn't know the store had closed.",
+          "She didn't close the store herself.",
+          "She didn't carry out the closure of the store.",
+          "She forgot to close the store.",
         ],
         correctIndex: 0,
         explanation: "\"Realize\" means «darse cuenta». «Realizar» (carry out) is a false friend.",
@@ -615,7 +615,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: one Spanish word, two English words",
         body: [
-          "«Prestar» has two directions: you \"lend\" something to someone (you give it), you \"borrow\" something from someone (you take it). «Robar» also splits: you \"steal\" a thing, you \"rob\" a person, a bank or a shop.",
+          "«Prestar» has two directions: you \"lend\" something to someone (you give it), you \"borrow\" something from someone (you take it). «Robar» also splits: you \"steal\" a thing, you \"rob\" a person, a bank or a store.",
           "«Subir» splits into \"rise\" (no object: \"Prices rose\") and \"raise\" (with an object: \"They raised prices\"). «Afectar» is the verb \"affect\"; its noun «efecto» is \"effect\". \"Have an effect on\" = \"affect\".",
         ],
         examples: [
@@ -690,7 +690,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         answer: "rise",
         altAnswers: ["go up", "increase"],
         en: "Los expertos dicen que los precios [subirán] de nuevo el año que viene.",
-        explanation: "Prices \"rise\" on their own, with no object. \"Raise\" needs an object: \"Shops will raise prices.\"",
+        explanation: "Prices \"rise\" on their own, with no object. \"Raise\" needs an object: \"Stores will raise prices.\"",
       },
       {
         type: "translate",

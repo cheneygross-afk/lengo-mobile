@@ -512,7 +512,7 @@ export const EN_C2_U13_DRILLS: Lesson[] = [
           "I take the point, but I'm not sure it applies to our case.",
           "I take your point, but I am not sure it applies to our case.",
         ],
-        "\"I take your point, but...\" concedes and disagrees in one breath. *I understand your point is possible but flatter, and *I am not sure if it applies is less natural than \"that\" or no conjunction.",
+        "\"I take your point, but...\" concedes and disagrees in one breath. \"I understand your point\" is possible but flatter, and \"I'm not sure if it applies\" is correct too, though \"that\" or no conjunction is slightly more usual here.",
       ),
       mc(
         "In a team meeting, a colleague says sales will double next year. You doubt it. Which response suits the context?",
@@ -608,7 +608,7 @@ export const EN_C2_U13_DRILLS: Lesson[] = [
       ),
       lc(
         "Millions of drivers can't be wrong: choose the country's favorite car insurer.",
-        "Which fallacy does this advert rely on?",
+        "Which fallacy does this ad rely on?",
         [
           "The bandwagon fallacy",
           "A slippery slope",

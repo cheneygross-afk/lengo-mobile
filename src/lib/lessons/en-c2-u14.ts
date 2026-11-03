@@ -1517,7 +1517,7 @@ export const EN_C2_U14: Lesson[] = [
         examples: [
           { es: "On the one hand, the plan saves money; on the other hand, it costs jobs.", en: "Por un lado, el plan ahorra dinero; por otro, cuesta empleos." },
           { es: "In the end, the committee rejected the proposal.", en: "Al final, el comité rechazó la propuesta." },
-          { es: "At the end of the meeting, she resigned.", en: "Al final de la reunión, dimitió." },
+          { es: "At the end of the meeting, she resigned.", en: "Al final de la reunión, renunció." },
           { es: "The north voted yes. By contrast, the south voted no.", en: "El norte votó que sí. En cambio, el sur votó que no." },
           { es: "The report was ready; however, nobody read it.", en: "El informe estaba listo; sin embargo, nadie lo leyó." },
         ],
@@ -1688,10 +1688,10 @@ export const EN_C2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which order makes the most cohesive paragraph? (A) This shift has hit small shops hardest. (B) Over the last decade, more and more shoppers have moved online. (C) Many, as a result, have been forced to close.",
+        question: "Which order makes the most cohesive paragraph? (A) This shift has hit small stores hardest. (B) Over the last decade, more and more shoppers have moved online. (C) Many, as a result, have been forced to close.",
         options: ["B - A - C", "A - B - C", "C - B - A", "B - C - A"],
         correctIndex: 0,
-        explanation: "B states the trend; A labels it with \"This shift\" and adds who suffers; C follows from A (\"Many\" refers to the small shops, \"as a result\" shows consequence).",
+        explanation: "B states the trend; A labels it with \"This shift\" and adds who suffers; C follows from A (\"Many\" refers to the small stores, \"as a result\" shows consequence).",
       },
       {
         type: "translate",
@@ -1718,7 +1718,7 @@ export const EN_C2_U14: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["She", "spoke", "out", "and,", "in", "so", "doing,", "lost", "her", "job"],
+        words: ["She", "spoke", "out", "and,", "in", "so", "doing,", "lost", "her", "job."],
         translation: "Ella denunció la situación y, al hacerlo, perdió su trabajo.",
         explanation: "\"In so doing\" sits between commas after \"and\", linking an action to its consequence.",
       },
@@ -2085,7 +2085,7 @@ export const EN_C2_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Va a dimitir? Espero que no.",
+            source: "¿Va a renunciar? Espero que no.",
             answer: "Is she going to resign? I hope not.",
             altAnswers: [
               "Is he going to resign? I hope not.",
@@ -2323,7 +2323,7 @@ export const EN_C2_U14: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["I", "haven't", "read", "it", "yet,", "but", "my", "colleague", "has"],
+        words: ["I", "haven't", "read", "it", "yet,", "but", "my", "colleague", "has."],
         translation: "Todavía no lo he leído, pero mi compañero sí.",
         explanation: "«Sí» after a contrast becomes the auxiliary: \"but my colleague has\". Never *but my colleague yes.",
       },

@@ -99,7 +99,7 @@ export const EN_C1_U03: Lesson[] = [
           { es: "We have no evidence of the existence of life on Mars.", en: "No tenemos pruebas de la existencia de vida en Marte." },
           { es: "The complexity of the problem surprised the experts.", en: "La complejidad del problema sorprendió a los expertos." },
           { es: "Public awareness of the issue is growing.", en: "La concientización pública sobre el tema está creciendo." },
-          { es: "The release of the report was postponed.", en: "La publicación del informe se aplazó." },
+          { es: "The release of the report was postponed.", en: "La publicación del informe se pospuso." },
         ],
         checkpoint: [
           {
@@ -200,7 +200,7 @@ export const EN_C1_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The ___ of many small shops depends on tourism.",
+        sentence: "The ___ of many small stores depends on tourism.",
         answer: "survival",
         en: "La [supervivencia] de muchas tiendas pequeñas depende del turismo.",
         explanation: "\"Survive\" > \"survival\". Spanish «-encia» does not help here; the English suffix is -al.",
@@ -2690,8 +2690,8 @@ export const EN_C1_U03: Lesson[] = [
         examples: [
           { es: "It has been decided that the office will close.", en: "Se ha decidido que la oficina cerrará." },
           { es: "A decision has been made to close the office.", en: "Se ha tomado la decisión de cerrar la oficina." },
-          { es: "It was agreed that the meeting would be postponed.", en: "Se acordó aplazar la reunión." },
-          { es: "An agreement was reached to postpone the meeting.", en: "Se llegó a un acuerdo para aplazar la reunión." },
+          { es: "It was agreed that the meeting would be postponed.", en: "Se acordó posponer la reunión." },
+          { es: "An agreement was reached to postpone the meeting.", en: "Se llegó a un acuerdo para posponer la reunión." },
           { es: "No explanation has been given.", en: "No se ha dado ninguna explicación." },
         ],
         checkpoint: [

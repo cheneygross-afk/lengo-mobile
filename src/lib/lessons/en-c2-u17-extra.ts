@@ -69,7 +69,7 @@ export const EN_C2_U17_EXTRA: Lesson[] = [
           "\"Admit\" takes -ing, \"to\" + -ing, or \"that\": \"He admitted (to) copying the passage\", \"He admitted that he had copied it\". *Admitted to copy is wrong.",
         ],
         examples: [
-          { es: "She threatened to resign if the law was passed.", en: "Amenazó con dimitir si se aprobaba la ley." },
+          { es: "She threatened to resign if the law was passed.", en: "Amenazó con renunciar si se aprobaba la ley." },
           { es: "He insisted on reading the contract before signing.", en: "Insistió en leer el contrato antes de firmar." },
           { es: "The author admits to having simplified the data.", en: "El autor reconoce haber simplificado los datos." },
           { es: "They congratulated her on winning the award.", en: "La felicitaron por haber ganado el premio." },

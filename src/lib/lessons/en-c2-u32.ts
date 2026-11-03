@@ -1213,7 +1213,7 @@ export const EN_C2_U32: Lesson[] = [
           { es: "\"Fine.\" She slammed the door.", en: "—Muy bien. —Dio un portazo." },
           { es: "He smiled. \"You're early.\"", en: "Sonrió. —Llegas temprano." },
           { es: "\"You're early,\" he said, smiling.", en: "—Llegas temprano —dijo sonriendo." },
-          { es: "Emma put down her pen. \"Who told you?\"", en: "Emma dejó el bolígrafo. —¿Quién te lo ha dicho?" },
+          { es: "Emma put down her pen. \"Who told you?\"", en: "Emma dejó el bolígrafo. —¿Quién te lo dijo?" },
         ],
         checkpoint: [
           {
@@ -1884,7 +1884,7 @@ export const EN_C2_U32: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "On the last day before the shop closed ___, Mr. Patel boxed the biggest cake and waited.",
+        sentence: "On the last day before the bakery closed ___, Mr. Patel boxed the biggest cake and waited.",
         answer: "for good",
         altAnswers: ["forever", "permanently", "for ever"],
         en: "El último día antes de que la tienda cerrara [para siempre], el señor Patel metió en una caja el pastel más grande y esperó.",
@@ -1937,7 +1937,7 @@ export const EN_C2_U32: Lesson[] = [
           "At least two precise sensory details or strong verbs; no stacked adjectives or intensifiers.",
           "Dialogue in quotation marks, commas inside the closing marks, lowercase tags, a new line per speaker.",
         ],
-        modelAnswer: "Eleven Coins\n\nThe bakery closed at seven, but at five to, the boy was always there.\n\nHe never bought anything. He just pressed his nose to the glass and counted the coins in his palm.\n\n\"Not enough, kid,\" Mr. Patel would say, not unkindly.\n\nOn the last day before the shop closed for good, Mr. Patel boxed the biggest cake and waited.\n\nSeven o'clock came. Then eight.\n\nThe street stayed empty, the glass clean.\n\nAt nine he finally locked up and walked home with the box.\n\nOn his doormat, in a paper bag, lay eleven coins and a note: \"For the cake.\"",
+        modelAnswer: "Eleven Coins\n\nThe bakery closed at seven, but at five to, the boy was always there.\n\nHe never bought anything. He just pressed his nose to the glass and counted the coins in his palm.\n\n\"Not enough, kid,\" Mr. Patel would say, not unkindly.\n\nOn the last day before the bakery closed for good, Mr. Patel boxed the biggest cake and waited.\n\nSeven o'clock came. Then eight.\n\nThe street stayed empty, the glass clean.\n\nAt nine he finally locked up and walked home with the box.\n\nOn his doormat, in a paper bag, lay eleven coins and a note: \"For the cake.\"",
         explanation: "The counted coins are the planted clue; the ending pays it off with an object, not an explanation.",
       },
     ],

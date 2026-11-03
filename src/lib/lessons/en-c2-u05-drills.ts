@@ -579,7 +579,7 @@ export const EN_C2_U05_DRILLS: Lesson[] = [
         "Fue una tormenta en un vaso de agua.",
         "It was a tempest in a teapot.",
         ["It was a storm in a teacup.", "It was just a tempest in a teapot.", "It was just a storm in a teacup."],
-        "US \"a tempest in a teapot\", UK \"a storm in a teacup\". Mixing them (*a storm in a glass of water) breaks the frozen form.",
+        "US \"a tempest in a teapot\", UK \"a storm in a teacup\". A word-for-word *a storm in a glass of water is not English, and mixing the halves (*a storm in a teapot) breaks the frozen form.",
       ),
       cp(
         "I've only been learning the cello for a month. Rome wasn't ___ in a day.",
@@ -636,7 +636,7 @@ export const EN_C2_U05_DRILLS: Lesson[] = [
       tr(
         "Dime con quién andas y te diré quién eres.",
         "A man is known by the company he keeps.",
-        ["You are known by the company you keep.", "You're known by the company you keep.", "A person is known by the company they keep.", "You are who you hang out with."],
+        ["You are known by the company you keep.", "You're known by the company you keep.", "A person is known by the company they keep.", "You are who you hang out with.", "Birds of a feather flock together."],
         "The formal equivalent is \"A man is known by the company he keeps\"; in conversation people say \"You are who you hang out with\" or half-quote \"Birds of a feather...\".",
       ),
       mc(

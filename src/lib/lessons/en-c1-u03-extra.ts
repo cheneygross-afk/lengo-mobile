@@ -106,7 +106,7 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The ___ of the new law has been postponed until next year.",
         answer: "approval",
-        en: "La [aprobación] de la nueva ley se ha aplazado hasta el año que viene.",
+        en: "La [aprobación] de la nueva ley se ha pospuesto hasta el año que viene.",
         explanation: "\"Approve\" > \"approval\" (-al). *Approvation and *approbation (in this sense) are Spanish calques.",
       },
       {

@@ -388,7 +388,7 @@ export const EN_C2_U29_DRILLS: Lesson[] = [
       gap(
         "I'm not disappointed ___ you; I'm disappointed with the result.",
         "in",
-        [],
+        ["with"],
         "With a person, \"disappointed in\" (or \"with\"); with a thing, \"disappointed with\". Spanish «decepcionado con» covers both, so learners often miss \"in\".",
       ),
       tr(
@@ -407,7 +407,7 @@ export const EN_C2_U29_DRILLS: Lesson[] = [
       sp(
         "We were utterly devastated when the project was canceled.",
         "Nos quedamos completamente destrozados cuando cancelaron el proyecto.",
-        "Stress \"utterly\" and the second syllable of \"devastated\": /ˈdɛvəsteɪɾɪd/.",
+        "Stress \"utterly\" and the first syllable of \"devastated\": /ˈdɛvəsteɪɾɪd/.",
         "\"Devastated\" is extreme, so it pairs with \"utterly\" or \"absolutely\". \"Canceled\" is the American spelling (British \"cancelled\").",
       ),
       tr(

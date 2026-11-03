@@ -73,7 +73,7 @@ export const EN_C2_U28: Lesson[] = [
           { es: "Agency is the capacity to act on one's own intentions.", en: "La capacidad de actuar es la facultad de obrar según las propias intenciones." },
           { es: "Children gradually acquire a sense of agency.", en: "Los niños adquieren poco a poco la conciencia de que pueden actuar por sí mismos." },
           { es: "Correlation does not imply causation.", en: "La correlación no implica causalidad." },
-          { es: "What caused him to resign?", en: "¿Qué hizo que dimitiera?" },
+          { es: "What caused him to resign?", en: "¿Qué hizo que renunciara?" },
           { es: "Every decision can be traced back to prior causes.", en: "Toda decisión puede remontarse a causas anteriores." },
           { es: "Her choice stemmed from a deep sense of duty.", en: "Su decisión nació de un profundo sentido del deber." },
         ],
@@ -1513,7 +1513,7 @@ export const EN_C2_U28: Lesson[] = [
           { es: "She studied at the University of Salamanca.", en: "Estudió en la Universidad de Salamanca." },
           { es: "Spain joined NATO in 1982.", en: "España entró en la OTAN en 1982." },
           { es: "The EU has published new guidelines.", en: "La UE ha publicado nuevas directrices." },
-          { es: "Minister Resigns Over Expenses Scandal", en: "Dimite el ministro por el escándalo de los gastos (titular)" },
+          { es: "Minister Resigns Over Expenses Scandal", en: "Renuncia el ministro por el escándalo de los gastos (titular)" },
         ],
         checkpoint: [
           {

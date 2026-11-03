@@ -465,7 +465,7 @@ export const EN_C2_U13: Lesson[] = [
           { es: "The trains were canceled; hence the chaos at the station.", en: "Se cancelaron los trenes; de ahí el caos en la estación." },
           { es: "The data was incomplete, hence the delay.", en: "Los datos estaban incompletos; de ahí el retraso." },
           { es: "The bank cut interest rates, thereby making loans cheaper.", en: "El banco bajó las tasas de interés, abaratando así los préstamos." },
-          { es: "She resigned, thereby avoiding a public scandal.", en: "Dimitió, evitando con ello un escándalo público." },
+          { es: "She resigned, thereby avoiding a public scandal.", en: "Renunció, evitando con ello un escándalo público." },
           { es: "They set up a scheme whereby employees can buy shares.", en: "Crearon un plan mediante el cual los empleados pueden comprar acciones." },
           { es: "It is a process whereby old laws are reviewed every ten years.", en: "Es un proceso por el que las leyes antiguas se revisan cada diez años." },
         ],
@@ -2221,7 +2221,7 @@ export const EN_C2_U13: Lesson[] = [
         ],
         examples: [
           { es: "I propose that the motion be adopted.", en: "Propongo que se apruebe la moción." },
-          { es: "We insist that he resign immediately.", en: "Insistimos en que dimita de inmediato." },
+          { es: "We insist that he resign immediately.", en: "Insistimos en que renuncie de inmediato." },
           { es: "It is essential that every voice be heard.", en: "Es fundamental que se escuchen todas las voces." },
           { es: "The committee recommends that the plan not be approved.", en: "El comité recomienda que no se apruebe el plan." },
           { es: "It is vital that the public be informed.", en: "Es vital que se informe a la ciudadanía." },
@@ -2650,7 +2650,7 @@ export const EN_C2_U13: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "De no ser por la presión de la prensa, nunca habría dimitido.",
+        source: "De no ser por la presión de la prensa, nunca habría renunciado.",
         answer: "Had it not been for the pressure from the press, he would never have resigned.",
         altAnswers: [
           "Had it not been for the pressure from the press, she would never have resigned.",

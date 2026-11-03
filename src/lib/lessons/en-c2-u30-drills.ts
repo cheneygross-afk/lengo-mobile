@@ -424,7 +424,7 @@ export const EN_C2_U30_DRILLS: Lesson[] = [
     [
       ["The acting is perfectly adequate.", "La actuación es correcta, sin más."],
       ["In the background, a man is silhouetted against the window.", "Al fondo, un hombre se recorta contra la ventana."],
-      ["She trudged home as the streetlights flickered on.", "Volvió a casa arrastrando los pies mientras las farolas se encendían parpadeando."],
+      ["She trudged home as the streetlights flickered on.", "Volvió a casa con paso cansado mientras las luces de la calle se encendían parpadeando."],
       ["I'd recommend reading it slowly.", "Recomiendo leerlo despacio."],
     ],
     [

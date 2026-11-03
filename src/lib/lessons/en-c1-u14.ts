@@ -133,7 +133,7 @@ export const EN_C1_U14: Lesson[] = [
         body: [
           "A claim without support is just an opinion. Support it with an example (\"for instance\", \"a case in point is...\"), a figure, or a logical consequence. In an exam essay you may use general knowledge; you do not need real statistics, but invented precise data can sound fake.",
           "A strong essay also deals with the other side. Present the counterargument fairly (\"Admittedly, ...\", \"It is true that...\") and then answer it (\"However, this overlooks the fact that...\"). This shows you have thought the issue through and makes your position more convincing, not weaker.",
-          "Note that \"argument\" in English is a line of reasoning (or a quarrel). The «argumento» of a film or novel is the \"plot\".",
+          "Note that \"argument\" in English is a line of reasoning (or a quarrel). The «argumento» of a movie or novel is the \"plot\".",
         ],
         examples: [
           { es: "A case in point is the city of Copenhagen.", en: "Un buen ejemplo es la ciudad de Copenhague." },
@@ -1308,7 +1308,7 @@ export const EN_C1_U14: Lesson[] = [
               "Dear Principal, I hope you are well.",
             ],
             correctIndex: 0,
-            explanation: "A report opens by stating its purpose. A greeting or chatty \"I will talk about\" belongs in a speech or a letter. Note also: a \"library\" lends books; a «librería» is a \"bookshop\" or \"bookstore\".",
+            explanation: "A report opens by stating its purpose. A greeting or chatty \"I will talk about\" belongs in a speech or a letter. Note also: a \"library\" lends books; a «librería» is a \"bookstore\" (British \"bookshop\").",
           },
         ],
       },
@@ -1364,7 +1364,7 @@ export const EN_C1_U14: Lesson[] = [
         body: [
           "Headings should be short and informative: \"Current situation\", \"Staff opinions\", \"Recommendations\". Avoid full sentences or questions as headings in a formal report.",
           "Bullet points are useful for lists of findings or recommendations, but each bullet must be grammatically parallel: all noun phrases, or all sentences starting with a verb. Don't use bullets for the whole report; the introduction and conclusion stay in full sentences.",
-          "The recommendations follow logically from the findings: \"In the light of these findings, it is recommended that...\", \"The following measures are suggested:\". In Part 2 you will practice this language in detail.",
+          "The recommendations follow logically from the findings: \"In light of these findings, it is recommended that...\", \"The following measures are suggested:\". In Part 2 you will practice this language in detail.",
         ],
         examples: [
           { es: "In light of these findings, the following measures are suggested:", en: "A la vista de estos resultados, se proponen las siguientes medidas:" },
@@ -1490,7 +1490,7 @@ export const EN_C1_U14: Lesson[] = [
           "Only a few students use the library after six o'clock.",
           "Only a small number of students use the library after six.",
         ],
-        explanation: "\"A handful of\" means a very small number. The «biblioteca» is the \"library\"; a «librería» is a \"bookshop\" or \"bookstore\".",
+        explanation: "\"A handful of\" means a very small number. The «biblioteca» is the \"library\"; a «librería» is a \"bookstore\" (British \"bookshop\").",
       },
       {
         type: "multiple-choice",
@@ -2446,13 +2446,13 @@ export const EN_C1_U14: Lesson[] = [
         minWords: 70,
         maxWords: 100,
         rubric: [
-          "Has a heading and an introductory phrase such as \"In the light of these findings\"",
+          "Has a heading and an introductory phrase such as \"In light of these findings\"",
           "Uses \"It is recommended that\" + base form, \"I would suggest\" + -ing or similar",
           "Avoids *recommend to do and *suggest to do",
           "Each recommendation follows from a finding",
           "Uses \"would\" to describe expected benefits",
         ],
-        modelAnswer: "Recommendations\nIn the light of these findings, the following measures are recommended. Firstly, it is recommended that the center introduce an online booking system for the pool, which would reduce waiting times at peak hours. Secondly, the broken lockers should be repaired or replaced as a matter of urgency, since this issue affects every member. Finally, I would suggest offering two evening yoga classes on a trial basis. If demand proved strong, these could become a permanent part of the schedule.",
+        modelAnswer: "Recommendations\nIn light of these findings, the following measures are recommended. Firstly, it is recommended that the center introduce an online booking system for the pool, which would reduce waiting times at peak hours. Secondly, the broken lockers should be repaired or replaced as a matter of urgency, since this issue affects every member. Finally, I would suggest offering two evening yoga classes on a trial basis. If demand proved strong, these could become a permanent part of the schedule.",
         explanation: "Recommendations linked to findings, formal patterns and \"would\" for results. If this was hard, revisit Part 2 and In Practice.",
       },
     ],
@@ -2868,7 +2868,7 @@ export const EN_C1_U14: Lesson[] = [
               "Heart disease is caused by not taking the new drug.",
             ],
             correctIndex: 0,
-            explanation: "It changes vocabulary and structure but keeps the meaning and the hedge (\"may\" becomes \"could\"). \"Will\" overclaims, the third option copies the original, and the last changes the meaning.",
+            explanation: "It changes vocabulary and structure but keeps the meaning and the hedge (\"may\" becomes \"could\"). \"Will\" overclaims, adding \"the study says\" just copies the original, and \"Heart disease is caused by not taking the new drug\" changes the meaning.",
           },
           {
             type: "translate",
@@ -3218,9 +3218,9 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Capital letters: Monday, English, the President",
         body: [
-          "Spanish writes days, months, nationalities and languages in lower case («lunes», «abril», «español», «inglés»). English capitalizes them all: \"Monday\", \"April\", \"Spanish\", \"English\". This includes adjectives: \"a French film\", \"Mexican food\", \"my English teacher\". Seasons stay lower case: \"spring\", \"winter\".",
+          "Spanish writes days, months, nationalities and languages in lower case («lunes», «abril», «español», «inglés»). English capitalizes them all: \"Monday\", \"April\", \"Spanish\", \"English\". This includes adjectives: \"a French movie\", \"Mexican food\", \"my English teacher\". Seasons stay lower case: \"spring\", \"winter\".",
           "Titles before a name are capitalized (\"President Lopez\", \"Professor Smith\", \"Doctor Ruiz\"), and job titles referring to a specific office often are too (\"the President of Chile\"). A general use is lower case: \"She wants to be a doctor.\"",
-          "Titles of books, films and articles usually capitalize every main word (title case): \"The Lord of the Rings\", \"One Hundred Years of Solitude\". Short articles, prepositions and conjunctions stay lower case unless they come first. Spanish capitalizes only the first word («Cien años de soledad»).",
+          "Titles of books, movies and articles usually capitalize every main word (title case): \"The Lord of the Rings\", \"One Hundred Years of Solitude\". Short articles, prepositions and conjunctions stay lower case unless they come first. Spanish capitalizes only the first word («Cien años de soledad»).",
         ],
         examples: [
           { es: "The course starts on Monday, April 3.", en: "El curso empieza el lunes 3 de abril." },
@@ -3447,7 +3447,7 @@ export const EN_C1_U14: Lesson[] = [
         examples: [
           { es: "There is evidence that social media may contribute to depression.", en: "Hay indicios de que las redes sociales pueden contribuir a la depresión." },
           { es: "On the other hand, it has clear advantages.", en: "Por otro lado, tiene ventajas evidentes." },
-          { es: "The film wasn't boring. On the contrary, it was fascinating.", en: "La película no era aburrida. Al contrario, era fascinante." },
+          { es: "The movie wasn't boring. On the contrary, it was fascinating.", en: "La película no era aburrida. Al contrario, era fascinante." },
           { es: "For example, it helps people stay in touch.", en: "Por ejemplo, ayuda a la gente a mantener el contacto." },
         ],
         checkpoint: [
@@ -3537,7 +3537,7 @@ export const EN_C1_U14: Lesson[] = [
         body: [
           "The report ends: *To sum up, kids don't get enough stuff from school, so the government should do a lot of things about it.",
           "Each word is acceptable in conversation, but together they clash with a formal report. \"Kids\" becomes \"children\", \"don't\" becomes \"do not\", \"get\" becomes \"receive\" or \"obtain\", \"stuff\" becomes a precise noun (\"support\", \"resources\"), and \"do a lot of things about it\" becomes a concrete action: \"take measures to address this\".",
-          "Spanish speakers often mix registers because informal English words are what they hear most in films and songs. A useful habit: after writing a formal text, check every phrasal verb and every vague word (\"thing\", \"stuff\", \"a lot\", \"get\", \"nice\") and ask whether a more precise, formal word exists.",
+          "Spanish speakers often mix registers because informal English words are what they hear most in movies and songs. A useful habit: after writing a formal text, check every phrasal verb and every vague word (\"thing\", \"stuff\", \"a lot\", \"get\", \"nice\") and ask whether a more precise, formal word exists.",
         ],
         examples: [
           { es: "In conclusion, children do not receive enough support at school.", en: "En conclusión, los niños no reciben suficiente apoyo en el colegio." },

@@ -401,7 +401,7 @@ export const EN_C2_U04: Lesson[] = [
           { es: "The product launch was a real home run.", en: "El lanzamiento del producto fue un éxito rotundo." },
           { es: "Can you give me a ballpark figure for the renovation?", en: "¿Me puedes dar una cifra aproximada para la remodelación?" },
           { es: "If you think he did it for the money, you're way off base.", en: "Si crees que lo hizo por dinero, vas muy desencaminado." },
-          { es: "When the manager quit, Lucia stepped up to the plate.", en: "Cuando el gerente dimitió, Lucia dio un paso al frente." },
+          { es: "When the manager quit, Lucia stepped up to the plate.", en: "Cuando el gerente renunció, Lucia dio un paso al frente." },
           { es: "Her question came completely out of left field.", en: "Su pregunta salió de la nada." },
           { es: "Let's touch base on Friday to see how it's going.", en: "Hablamos el viernes para ver cómo va." },
           { es: "Right off the bat, I could tell something was wrong.", en: "Desde el primer momento me di cuenta de que algo iba mal." },
@@ -879,7 +879,7 @@ export const EN_C2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Amenazó con dimitir, así que su jefa le vio el farol.",
+        source: "Amenazó con renunciar, así que su jefa le vio el farol.",
         answer: "He threatened to resign, so his boss called his bluff.",
         altAnswers: [
           "She threatened to resign, so her boss called her bluff.",
@@ -1660,7 +1660,7 @@ export const EN_C2_U04: Lesson[] = [
           "In a chat with friends, almost anything goes, but even here one idiom per message is plenty. Overloading a casual message with idioms makes you sound like a textbook, not a native speaker.",
         ],
         examples: [
-          { es: "The funding increase is negligible compared with the scale of the problem.", en: "El aumento de la financiación es insignificante en comparación con la magnitud del problema. (ensayo; en vez de \"a drop in the bucket\")" },
+          { es: "The funding increase is negligible compared with the scale of the problem.", en: "El aumento del financiamiento es insignificante en comparación con la magnitud del problema. (ensayo; en vez de \"a drop in the bucket\")" },
           { es: "Social media has both advantages and disadvantages for teenagers.", en: "Las redes sociales tienen ventajas e inconvenientes para los adolescentes. (ensayo; en vez de \"a double-edged sword\")" },
           { es: "Poverty and poor health often form a vicious circle.", en: "La pobreza y la mala salud suelen formar un círculo vicioso. (aceptable en un ensayo)" },
           { es: "Just to make sure we're on the same page, the deadline is Friday.", en: "Para asegurarnos de que estamos de acuerdo: la fecha límite es el viernes. (correo de trabajo)" },

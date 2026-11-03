@@ -841,7 +841,7 @@ export const EN_C2_U15: Lesson[] = [
         body: [
           "The first figure mentioned in a negotiation tends to become the reference point for everything that follows. This is called anchoring. Experienced negotiators often try to set the anchor themselves, with an ambitious but defensible figure and a reason.",
           "English rarely states an opening figure bluntly. It frames it: \"We'd be looking at something in the region of 50,000.\", \"Our standard rate for this volume is...\", \"Based on what similar projects cost, we think a fair figure would be...\". \"In the region of\" and \"in the ballpark of\" mean «del orden de» or «alrededor de»; \"ballpark figure\" means a rough estimate.",
-          "Spanish speakers sometimes say *We offer you a price of, which sounds like a shop. In a negotiation, \"We'd be prepared to offer...\" or \"We could offer...\" is more natural, and you make (not *do) an offer.",
+          "Spanish speakers sometimes say *We offer you a price of, which sounds like a store. In a negotiation, \"We'd be prepared to offer...\" or \"We could offer...\" is more natural, and you make (not *do) an offer.",
         ],
         examples: [
           { es: "We'd be looking at something in the region of 50,000 dollars.", en: "Estaríamos hablando de algo del orden de 50.000 dólares." },
