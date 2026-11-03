@@ -218,6 +218,14 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Text style={styles.subtitle}>Reference and practice tools to use alongside your lessons, whenever you need them.</Text>
       <View style={styles.list}>
+        {/* At the top (user, 2026-11-03): every lesson notepad (NotesScreen). */}
+        <NavCard
+          icon="notes"
+          tint="rose"
+          title="My Notes"
+          body="Everything you've written in your lesson notepads, with the lesson each note is from."
+          onPress={() => navigation.navigate("Notes", { course: "es" })}
+        />
         {TOOLS.map((t) => (
           <NavCard key={t.route} {...toolLook(t.title)} title={t.title} body={t.body} onPress={() => navigation.navigate(t.route)} />
         ))}
