@@ -13,19 +13,34 @@ export const FR_C2_U10: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Latin in the meeting room: grosso modo, ad hoc, statu quo",
+        heading: "Latin in the meeting room: how it behaves",
         body: [
           "Educated French uses more Latin phrases than English does, and in more ordinary situations: a manager says \"grosso modo\" (roughly) in a meeting, a newspaper writes \"le statu quo\" in a headline. They are invariable, normally written in italics in print, and they follow French pronunciation rules: every letter is pronounced, \"u\" sounds like French u in \"statu\", and final consonants are sounded (\"ad hoc\" [adɔk]).",
-          "\"Grosso modo\" means roughly, broadly speaking: \"grosso modo, le projet coûtera deux millions\". \"Ad hoc\" means set up for the purpose: \"une commission ad hoc\", \"une solution ad hoc\". \"Le statu quo\" is the existing state of affairs: \"maintenir le statu quo\". Trap: French writes \"statu quo\", not English \"status quo\" (from Latin \"in statu quo\", in the state in which).",
-          "\"Le quorum\" is the minimum number of members needed for a vote: \"le quorum n'est pas atteint\". It is usually pronounced [kɔʁɔm], like \"corps-homme\" ([kwɔʁɔm] is also heard), with two open French o sounds rather than an English '-um'. \"Un lapsus\" is a slip of the tongue (\"un lapsus révélateur\", a Freudian slip); its plural is invariable: \"des lapsus\".",
         ],
         examples: [
           { es: "Grosso modo, il nous faudra six mois pour terminer le chantier.", en: "Roughly speaking, we'll need six months to finish the building work." },
           { es: "Le conseil a créé une commission ad hoc pour étudier le dossier.", en: "The council set up a special committee to look into the matter." },
           { es: "Les syndicats refusent le statu quo sur les salaires.", en: "The unions reject the status quo on wages." },
-          { es: "Faute de quorum, l'assemblée générale a été reportée.", en: "For lack of a quorum, the general meeting was postponed." },
-          { es: "Le ministre a fait un lapsus révélateur en pleine conférence de presse.", en: "The minister made a telling slip of the tongue in the middle of a press conference." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How are these Latin phrases pronounced in French?",
+            options: ["Every letter is sounded, including final consonants.", "Final consonants stay silent, as in French words.", "They keep an English pronunciation.", "They are pronounced like Church Latin, with no French vowels."],
+            correctIndex: 0,
+            explanation: "French sounds them out letter by letter: \"ad hoc\" ends in an audible k, and the u of \"statu\" is the French u. They are also invariable in the plural.",
+          },
+        ],
+      },
+      {
+        heading: "Grosso modo, ad hoc, statu quo",
+        body: [
+          "\"Grosso modo\" means roughly, broadly speaking: \"grosso modo, le projet coûtera deux millions\". \"Ad hoc\" means set up for the purpose: \"une commission ad hoc\", \"une solution ad hoc\". \"Le statu quo\" is the existing state of affairs: \"maintenir le statu quo\". Trap: French writes \"statu quo\", not English \"status quo\" (from Latin \"in statu quo\", in the state in which).",
+        ],
+        examples: [
           { es: "Il faudra trouver une solution ad hoc pour ce client.", en: "We'll need to find a tailor-made solution for this client." },
+          { es: "Grosso modo, nous avons perdu deux semaines.", en: "Broadly speaking, we have lost two weeks." },
+          { es: "Maintenir le statu quo n'arrangera personne.", en: "Keeping the status quo will suit nobody." },
         ],
         checkpoint: [
           {
@@ -46,6 +61,19 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["En gros"],
             explanation: "\"Grosso modo\" (roughly) is a Latin phrase; \"en gros\" is the everyday French equivalent.",
           },
+        ],
+      },
+      {
+        heading: "Quorum and lapsus",
+        body: [
+          "\"Le quorum\" is the minimum number of members needed for a vote: \"le quorum n'est pas atteint\". It is usually pronounced [kɔʁɔm], like \"corps-homme\" ([kwɔʁɔm] is also heard), with two open French o sounds rather than an English '-um'. \"Un lapsus\" is a slip of the tongue (\"un lapsus révélateur\", a Freudian slip); its plural is invariable: \"des lapsus\".",
+        ],
+        examples: [
+          { es: "Faute de quorum, l'assemblée générale a été reportée.", en: "For lack of a quorum, the general meeting was postponed." },
+          { es: "Le ministre a fait un lapsus révélateur en pleine conférence de presse.", en: "The minister made a telling slip of the tongue in the middle of a press conference." },
+          { es: "Ses lapsus successifs ont amusé toute la salle.", en: "His successive slips of the tongue amused the whole room." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Le quorum n'est pas atteint.",
@@ -54,22 +82,26 @@ export const FR_C2_U10: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Quorum\" is pronounced [kɔʁɔm]; \"atteindre le quorum\" is to have enough members present.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "It was a slip of the tongue.",
+            answer: "C'était un lapsus.",
+            altAnswers: ["C'est un lapsus.", "Ce n'était qu'un lapsus.", "Il s'agissait d'un lapsus."],
+            explanation: "\"Un lapsus\" is a slip of the tongue (\"des lapsus\" in the plural).",
+          },
         ],
       },
       {
-        heading: "Timing and logic: in extremis, a priori, a posteriori, a fortiori",
+        heading: "In extremis, and what it is not",
         body: [
           "\"In extremis\" means at the very last moment: \"il a attrapé le train in extremis\". Trap: it does not mean 'in extreme cases' (\"dans les cas extrêmes\"). It comes from the language of the deathbed (in extremis, at the point of death), and survives in sports reports: \"un but marqué in extremis\".",
-          "\"A priori\" means at first sight, in principle: \"a priori, rien ne s'y oppose\" (in principle nothing stands in the way). As a noun, \"un a priori\" is a preconception, a prejudice: \"avoir des a priori sur quelqu'un\". \"A posteriori\" means after the event, with hindsight: \"on peut, a posteriori, juger cette décision imprudente\". \"A fortiori\" means all the more so, even more: \"s'il est interdit aux adultes, a fortiori aux enfants\".",
-          "Spelling: the traditional and still most common written form keeps Latin \"a\" with no accent (\"a priori\", \"a posteriori\", \"a fortiori\"). The 1990 spelling reform allows \"à priori\", and you will see it, but careful writers and exam correctors still expect the Latin form. As nouns, they are traditionally invariable: \"des a priori\".",
         ],
         examples: [
           { es: "Le cycliste a évité la chute in extremis.", en: "The cyclist avoided a fall at the very last moment." },
-          { es: "A priori, la réunion aura lieu jeudi, mais je vous le confirme demain.", en: "In principle, the meeting will take place on Thursday, but I'll confirm tomorrow." },
-          { es: "Il a beaucoup d'a priori sur les gens de la capitale.", en: "He has a lot of preconceptions about people from the capital." },
-          { es: "A posteriori, on comprend mieux pourquoi elle est partie.", en: "With hindsight, it's easier to understand why she left." },
-          { es: "Si la route est dangereuse en été, elle l'est a fortiori en hiver.", en: "If the road is dangerous in summer, it's all the more so in winter." },
           { es: "L'accord a été signé in extremis, à minuit moins cinq.", en: "The agreement was signed at the eleventh hour, at five to midnight." },
+          { es: "Le dossier est arrivé in extremis, vendredi à 23 heures.", en: "The file arrived at the eleventh hour, on Friday at eleven at night." },
         ],
         checkpoint: [
           {
@@ -81,6 +113,27 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["On a attrapé le train in extremis.", "Nous avons eu le train in extremis.", "On a eu le train in extremis.", "Nous avons pris le train in extremis.", "On a pris le train in extremis.", "On a attrapé le train de justesse.", "Nous avons attrapé le train de justesse."],
             explanation: "\"In extremis\" means at the very last moment, not 'in extreme cases'.",
           },
+        ],
+      },
+      {
+        heading: "A priori, a posteriori, a fortiori",
+        body: [
+          "\"A priori\" means at first sight, in principle: \"a priori, rien ne s'y oppose\" (in principle nothing stands in the way). As a noun, \"un a priori\" is a preconception, a prejudice: \"avoir des a priori sur quelqu'un\". \"A posteriori\" means after the event, with hindsight: \"on peut, a posteriori, juger cette décision imprudente\". \"A fortiori\" means all the more so, even more: \"s'il est interdit aux adultes, a fortiori aux enfants\".",
+        ],
+        examples: [
+          { es: "A priori, la réunion aura lieu jeudi, mais je vous le confirme demain.", en: "In principle, the meeting will take place on Thursday, but I'll confirm tomorrow." },
+          { es: "Il a beaucoup d'a priori sur les gens de la capitale.", en: "He has a lot of preconceptions about people from the capital." },
+          { es: "A posteriori, on comprend mieux pourquoi elle est partie.", en: "With hindsight, it's easier to understand why she left." },
+          { es: "Si la route est dangereuse en été, elle l'est a fortiori en hiver.", en: "If the road is dangerous in summer, it's all the more so in winter." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence uses « a fortiori » correctly?",
+            options: ["Ce livre est difficile pour un adulte, a fortiori pour un enfant.", "A fortiori, j'ai oublié mon parapluie.", "Il est arrivé a fortiori, juste avant la fin.", "Nous avons voté a fortiori la semaine dernière."],
+            correctIndex: 0,
+            explanation: "\"A fortiori\" means all the more so: the argument is even stronger in the second case.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -90,29 +143,90 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["Elle n'a aucun a priori sur le projet.", "Elle n'a pas d'à priori sur le projet.", "Elle n'a aucun à priori sur le projet.", "Elle n'a pas d'idées préconçues sur le projet."],
             explanation: "\"Un a priori\" as a noun is a preconception; the Latin form keeps a with no accent.",
           },
+        ],
+      },
+      {
+        heading: "The spelling an exam expects",
+        body: [
+          "Spelling: the traditional and still most common written form keeps Latin \"a\" with no accent (\"a priori\", \"a posteriori\", \"a fortiori\"). The 1990 spelling reform allows \"à priori\", and you will see it, but careful writers and exam correctors still expect the Latin form. As nouns, they are traditionally invariable: \"des a priori\".",
+        ],
+        examples: [
+          { es: "Les correcteurs attendent « a priori », sans accent.", en: "Examiners expect \"a priori\", with no accent." },
+          { es: "La réforme de 1990 autorise « à priori ».", en: "The 1990 reform allows \"à priori\"." },
+          { es: "Comme noms, ces locutions restent invariables.", en: "As nouns, these phrases stay invariable." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence uses « a fortiori » correctly?",
-            options: ["Ce livre est difficile pour un adulte, a fortiori pour un enfant.", "A fortiori, j'ai oublié mon parapluie.", "Il est arrivé a fortiori, juste avant la fin.", "Nous avons voté a fortiori la semaine dernière."],
+            question: "Which spelling would an exam corrector expect?",
+            options: ["le statu quo", "le status quo", "le statut quo", "le statu-quo"],
             correctIndex: 0,
-            explanation: "\"A fortiori\" means all the more so: the argument is even stronger in the second case.",
+            explanation: "French writes \"statu quo\", from Latin \"in statu quo\".",
           },
         ],
       },
       {
-        heading: "Seeing, acting and conditions: de visu, in situ, motu proprio, ipso facto, sine qua non",
+        heading: "De visu and in situ",
         body: [
           "\"De visu\" means with one's own eyes, in person: \"je préfère constater les dégâts de visu\". \"In situ\" means in its original place: \"les fresques ont été restaurées in situ\". Both are common in reports, insurance claims and science.",
-          "\"Motu proprio\" means of one's own accord, without being asked: \"il a démissionné motu proprio\". It is formal and slightly old-fashioned; \"de sa propre initiative\" is the everyday equivalent. \"Ipso facto\" means automatically, by that very fact: \"tout retard de paiement entraîne ipso facto des pénalités\".",
-          "\"Une condition sine qua non\" is an essential condition, without which nothing happens: \"la confiance est une condition sine qua non de la réussite\". It is almost always used with \"condition\" and is invariable. Learners sometimes say \"*la condition sine qua none\" or drop \"condition\"; keep the whole phrase.",
         ],
         examples: [
           { es: "L'expert de l'assurance viendra constater les dégâts de visu.", en: "The insurance assessor will come to see the damage in person." },
           { es: "Les vestiges ont été conservés in situ, sous une dalle de verre.", en: "The remains have been preserved in place, under a glass floor." },
+          { es: "Je ne signerai rien sans avoir vu l'appartement de visu.", en: "I won't sign anything without having seen the flat with my own eyes." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "I want to see the house [in person] before buying.",
+            sentence: "Je veux voir la maison ___ avant d'acheter.",
+            answer: "de visu",
+            altAnswers: ["en personne", "de mes propres yeux"],
+            explanation: "\"De visu\" means with one's own eyes, in person.",
+          },
+        ],
+      },
+      {
+        heading: "Motu proprio and ipso facto",
+        body: [
+          "\"Motu proprio\" means of one's own accord, without being asked: \"il a démissionné motu proprio\". It is formal and slightly old-fashioned; \"de sa propre initiative\" is the everyday equivalent. \"Ipso facto\" means automatically, by that very fact: \"tout retard de paiement entraîne ipso facto des pénalités\".",
+        ],
+        examples: [
           { es: "Il a quitté le parti motu proprio, sans aucune pression.", en: "He left the party of his own accord, without any pressure." },
           { es: "Tout retard de paiement entraîne ipso facto des pénalités.", en: "Any late payment automatically incurs penalties." },
+          { es: "La signature entraîne ipso facto la fin du litige.", en: "Signing automatically ends the dispute." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "She resigned [of her own accord].",
+            sentence: "Elle a démissionné ___.",
+            answer: "motu proprio",
+            altAnswers: ["de sa propre initiative", "de son plein gré"],
+            explanation: "\"Motu proprio\" (formal) or \"de sa propre initiative\" (everyday).",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Any breach of the rules automatically leads to exclusion.",
+            answer: "Toute infraction au règlement entraîne ipso facto l'exclusion.",
+            altAnswers: ["Toute infraction au règlement entraîne automatiquement l'exclusion.", "Tout manquement au règlement entraîne ipso facto l'exclusion.", "Toute violation du règlement entraîne ipso facto l'exclusion."],
+            explanation: "\"Ipso facto\" (automatically) sits after the verb in formal rules.",
+          },
+        ],
+      },
+      {
+        heading: "Une condition sine qua non",
+        body: [
+          "\"Une condition sine qua non\" is an essential condition, without which nothing happens: \"la confiance est une condition sine qua non de la réussite\". It is almost always used with \"condition\" and is invariable. Learners sometimes say \"*la condition sine qua none\" or drop \"condition\"; keep the whole phrase.",
+        ],
+        examples: [
           { es: "Un bon niveau d'anglais est une condition sine qua non pour ce poste.", en: "Good English is an absolute requirement for this job." },
-          { es: "Je ne signerai rien sans avoir vu l'appartement de visu.", en: "I won't sign anything without having seen the flat with my own eyes." },
+          { es: "Le permis est une condition sine qua non pour ce poste.", en: "A driving licence is an absolute requirement for this job." },
+          { es: "La transparence est une condition sine qua non du dialogue.", en: "Transparency is an essential condition of any dialogue." },
         ],
         checkpoint: [
           {
@@ -123,15 +237,6 @@ export const FR_C2_U10: Lesson[] = [
             answer: "La confiance est une condition sine qua non de la réussite.",
             altAnswers: ["La confiance est une condition sine qua non du succès.", "La confiance est une condition sine qua non pour réussir.", "La confiance est une condition sine qua non de réussite."],
             explanation: "\"Une condition sine qua non\" is the fixed phrase: keep \"condition\".",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "I want to see the house [in person] before buying.",
-            sentence: "Je veux voir la maison ___ avant d'acheter.",
-            answer: "de visu",
-            altAnswers: ["en personne", "de mes propres yeux"],
-            explanation: "\"De visu\" means with one's own eyes, in person.",
           },
         ],
       },
@@ -165,15 +270,6 @@ export const FR_C2_U10: Lesson[] = [
         explanation: "\"Ad hoc\" follows the noun and is invariable.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "She resigned [of her own accord].",
-        sentence: "Elle a démissionné ___.",
-        answer: "motu proprio",
-        altAnswers: ["de sa propre initiative", "de son plein gré"],
-        explanation: "\"Motu proprio\" (formal) or \"de sa propre initiative\" (everyday).",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -181,22 +277,6 @@ export const FR_C2_U10: Lesson[] = [
         answer: "Le but a été marqué in extremis.",
         altAnswers: ["Le but a été marqué à la dernière minute.", "Le but a été inscrit in extremis.", "Le but a été marqué à la toute dernière minute."],
         explanation: "\"In extremis\" is common in sports reporting for a last-gasp goal.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which spelling would an exam corrector expect?",
-        options: ["le statu quo", "le status quo", "le statut quo", "le statu-quo"],
-        correctIndex: 0,
-        explanation: "French writes \"statu quo\", from Latin \"in statu quo\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "It was a slip of the tongue.",
-        answer: "C'était un lapsus.",
-        altAnswers: ["C'est un lapsus.", "Ce n'était qu'un lapsus.", "Il s'agissait d'un lapsus."],
-        explanation: "\"Un lapsus\" is a slip of the tongue (\"des lapsus\" in the plural).",
       },
       {
         type: "matching",
@@ -212,15 +292,6 @@ export const FR_C2_U10: Lesson[] = [
         explanation: "These phrases are invariable and normally italicised in print.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Any breach of the rules automatically leads to exclusion.",
-        answer: "Toute infraction au règlement entraîne ipso facto l'exclusion.",
-        altAnswers: ["Toute infraction au règlement entraîne automatiquement l'exclusion.", "Tout manquement au règlement entraîne ipso facto l'exclusion.", "Toute violation du règlement entraîne ipso facto l'exclusion."],
-        explanation: "\"Ipso facto\" (automatically) sits after the verb in formal rules.",
-      },
-      {
         type: "dictation",
         audio: "Faute de quorum, le vote est reporté.",
         explanation: "\"Faute de\" + noun: for lack of. \"Quorum\" is pronounced like \"corps-homme\".",
@@ -230,6 +301,32 @@ export const FR_C2_U10: Lesson[] = [
         text: "Grosso modo, le projet coûtera deux millions d'euros.",
         prompt: "Say it in French: Roughly speaking, the project will cost two million euros.",
         explanation: "Pronounce Latin the French way, with clear, unreduced vowels: gro-sso mo-do.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Le diplôme est une condition sine qua none pour ce concours.",
+        answer: "Le diplôme est une condition sine qua non pour ce concours.",
+        explanation: "\"Sine qua non\" is invariable Latin: it never takes a French feminine -e, even after \"une condition\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it with the Latin phrase instead of « à peu près ».",
+        source: "À peu près, les travaux dureront trois mois.",
+        answer: "Grosso modo, les travaux dureront trois mois.",
+        altAnswers: ["Grosso modo, les travaux dureront trois mois environ."],
+        explanation: "\"Grosso modo\" opens the sentence like \"à peu près\" but belongs to the educated register of meetings and reports.",
+      },
+      {
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "[With hindsight], the decision looks reckless.",
+        sentence: "___, la décision paraît imprudente.",
+        answer: "A posteriori",
+        altAnswers: ["À posteriori"],
+        explanation: "\"A posteriori\" = after the event; the traditional spelling keeps the Latin \"a\" with no accent.",
       },
     ],
   },
@@ -242,21 +339,44 @@ export const FR_C2_U10: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Words for ideas: paradigme, dichotomie, idiosyncrasie, panacée",
+        heading: "Paradigme and dichotomie",
         body: [
           "Many of these words exist in English too, but French uses them more often, especially in newspapers, essays and on France Culture. \"Un paradigme\" is a model or framework of thought: \"un changement de paradigme\" (a paradigm shift). \"Une dichotomie\" is a split into two opposed parts: \"la dichotomie entre théorie et pratique\". Note the genders, \"un paradigme\" but \"une dichotomie\": learn each word with its article.",
-          "\"L'idiosyncrasie\" (feminine) is a person's or group's peculiar temperament or way of reacting. Spelling trap: it ends in \"-crasie\" (Greek krasis, mixture), not \"-cratie\" like \"démocratie\". \"Une panacée\" is a cure-all: \"le numérique n'est pas une panacée\". Trap: \"une panacée universelle\" is a pleonasm, since \"panacée\" already means universal remedy (pan, all).",
-          "These words are signals of an educated register. Used precisely, they make an essay sharper; scattered for show, they sound pretentious. One per paragraph is plenty.",
         ],
         examples: [
           { es: "Le télétravail a provoqué un véritable changement de paradigme.", en: "Remote working has brought about a real paradigm shift." },
           { es: "Il faut dépasser la dichotomie entre écologie et économie.", en: "We need to move beyond the split between ecology and the economy." },
-          { es: "Chaque équipe a ses idiosyncrasies, qu'il faut apprendre à respecter.", en: "Every team has its quirks, which you have to learn to respect." },
-          { es: "La réduction des impôts n'est pas une panacée.", en: "Tax cuts are not a cure-all." },
-          { es: "Les auteurs présentent l'intelligence artificielle comme la panacée.", en: "The authors present artificial intelligence as the answer to everything." },
           { es: "Ce modèle de croissance appartient à un paradigme dépassé.", en: "This growth model belongs to an outdated way of thinking." },
         ],
         checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "We are witnessing a [paradigm shift].",
+            sentence: "Nous assistons à un ___.",
+            answer: "changement de paradigme",
+            explanation: "\"Un changement de paradigme\" is the fixed phrase.",
+          },
+        ],
+      },
+      {
+        heading: "Idiosyncrasie and panacée",
+        body: [
+          "\"L'idiosyncrasie\" (feminine) is a person's or group's peculiar temperament or way of reacting. Spelling trap: it ends in \"-crasie\" (Greek krasis, mixture), not \"-cratie\" like \"démocratie\". \"Une panacée\" is a cure-all: \"le numérique n'est pas une panacée\". Trap: \"une panacée universelle\" is a pleonasm, since \"panacée\" already means universal remedy (pan, all).",
+        ],
+        examples: [
+          { es: "Chaque équipe a ses idiosyncrasies, qu'il faut apprendre à respecter.", en: "Every team has its quirks, which you have to learn to respect." },
+          { es: "La réduction des impôts n'est pas une panacée.", en: "Tax cuts are not a cure-all." },
+          { es: "Les auteurs présentent l'intelligence artificielle comme la panacée.", en: "The authors present artificial intelligence as the answer to everything." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which spelling is correct?",
+            options: ["idiosyncrasie", "idiosyncratie", "idyosincrasie", "idiosyncracie"],
+            correctIndex: 0,
+            explanation: "\"-crasie\" comes from Greek krasis (mixture), not from -cratie (power).",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -266,36 +386,36 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["La technologie n'est pas la panacée.", "La technique n'est pas une panacée.", "La technologie n'est pas un remède miracle."],
             explanation: "\"Une panacée\" already means a universal remedy: never add \"universelle\".",
           },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "We are witnessing a [paradigm shift].",
-            sentence: "Nous assistons à un ___.",
-            answer: "changement de paradigme",
-            explanation: "\"Un changement de paradigme\" is the fixed phrase.",
-          },
+        ],
+      },
+      {
+        heading: "One per paragraph is plenty",
+        body: [
+          "These words are signals of an educated register. Used precisely, they make an essay sharper; scattered for show, they sound pretentious. One per paragraph is plenty.",
+        ],
+        examples: [
+          { es: "Employés avec précision, ces mots rendent une analyse plus nette.", en: "Used precisely, these words make an analysis sharper." },
+          { es: "Semés pour l'effet, ils sonnent prétentieux.", en: "Scattered for show, they sound pretentious." },
+          { es: "Un mot savant par paragraphe suffit largement.", en: "One learned word per paragraph is quite enough." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which spelling is correct?",
-            options: ["idiosyncrasie", "idiosyncratie", "idyosincrasie", "idiosyncracie"],
+            question: "Which phrase is a pleonasm an editor would cut?",
+            options: ["une panacée universelle", "un changement de paradigme", "un parangon de vertu", "une diatribe contre les élites"],
             correctIndex: 0,
-            explanation: "\"-crasie\" comes from Greek krasis (mixture), not from -cratie (power).",
+            explanation: "\"Panacée\" already means a remedy for everything, so \"universelle\" repeats it.",
           },
         ],
       },
       {
-        heading: "Words for extremes: paroxysme, hécatombe, catharsis, parangon",
+        heading: "Paroxysme and hécatombe",
         body: [
           "\"Le paroxysme\" is the highest point of intensity: \"la tension atteint son paroxysme\", \"au paroxysme de la crise\". \"Une hécatombe\" was a sacrifice of a hundred oxen; today it is a massacre or, by hyperbole, a mass failure: \"une hécatombe sur les routes\", \"une hécatombe au premier tour\" (in an election or exam).",
-          "\"La catharsis\" is emotional purging through art, from Aristotle's theory of tragedy: \"le théâtre comme catharsis\", and by extension any liberating release (\"cathartique\"). \"Un parangon\" is a perfect model, often ironic in the press: \"un parangon de vertu\" (a paragon of virtue), \"le parangon du capitalisme\".",
-          "These words carry a dramatic weight English cognates sometimes lack. \"Hécatombe\" in a headline about a rugby match (\"hécatombe chez les Bleus\", many injuries) is hyperbolic and slightly comic, a typical press effect.",
         ],
         examples: [
           { es: "La tension entre les deux pays a atteint son paroxysme cet été.", en: "Tension between the two countries reached its peak this summer." },
           { es: "Le week-end de Pâques a été une hécatombe sur les routes.", en: "The Easter weekend was a bloodbath on the roads." },
-          { es: "Ce fut une hécatombe à l'examen : un tiers de reçus seulement.", en: "The exam was a massacre: only a third passed." },
-          { es: "Pour beaucoup de spectateurs, ce film a été une catharsis.", en: "For many viewers, the film was a catharsis." },
-          { es: "On le présentait comme un parangon d'honnêteté, jusqu'au scandale.", en: "He was presented as a paragon of honesty, until the scandal." },
           { es: "Au paroxysme de la crise, les banques ont fermé leurs guichets.", en: "At the height of the crisis, the banks closed their counters." },
         ],
         checkpoint: [
@@ -308,6 +428,19 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["La colère atteignit son paroxysme.", "La colère était à son paroxysme.", "La colère a atteint son comble."],
             explanation: "\"Atteindre son paroxysme\" is the fixed collocation for reaching a peak of intensity.",
           },
+        ],
+      },
+      {
+        heading: "Catharsis and parangon",
+        body: [
+          "\"La catharsis\" is emotional purging through art, from Aristotle's theory of tragedy: \"le théâtre comme catharsis\", and by extension any liberating release (\"cathartique\"). \"Un parangon\" is a perfect model, often ironic in the press: \"un parangon de vertu\" (a paragon of virtue), \"le parangon du capitalisme\".",
+        ],
+        examples: [
+          { es: "Pour beaucoup de spectateurs, ce film a été une catharsis.", en: "For many viewers, the film was a catharsis." },
+          { es: "On le présentait comme un parangon d'honnêteté, jusqu'au scandale.", en: "He was presented as a paragon of honesty, until the scandal." },
+          { es: "Le concert a eu quelque chose de cathartique.", en: "The concert had something cathartic about it." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -317,6 +450,19 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["Elle est un parangon de patience.", "C'est un modèle de patience.", "Elle est un modèle de patience."],
             explanation: "\"Parangon\" is masculine even for a woman: \"un parangon de\".",
           },
+        ],
+      },
+      {
+        heading: "The press and its hyperbole",
+        body: [
+          "These words carry a dramatic weight English cognates sometimes lack. \"Hécatombe\" in a headline about a rugby match (\"hécatombe chez les Bleus\", many injuries) is hyperbolic and slightly comic, a typical press effect.",
+        ],
+        examples: [
+          { es: "Ce fut une hécatombe à l'examen : un tiers de reçus seulement.", en: "The exam was a massacre: only a third passed." },
+          { es: "« Hécatombe chez les Bleus » annonce surtout des blessés.", en: "\"Hécatombe chez les Bleus\" mostly announces injuries." },
+          { es: "Le mot garde un poids dramatique que l'anglais a perdu.", en: "The word keeps a dramatic weight the English cognate has lost." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Le premier tour a été une hécatombe.",
@@ -328,20 +474,14 @@ export const FR_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Words for speech and people: apologie, diatribe, néophyte, thuriféraire",
+        heading: "Apologie is not an apology",
         body: [
           "\"Une apologie\" is a defence or a eulogy, never an apology: \"l'apologie du terrorisme\" (glorifying terrorism, a crime in French law), \"faire l'apologie de la lenteur\" (to sing the praises of slowness). An apology is \"des excuses\". This false friend causes real misunderstandings in translation.",
-          "\"Une diatribe\" is a violent, bitter attack in speech or writing: \"une diatribe contre les élites\". \"Un néophyte\" is a newcomer, a novice: \"un guide accessible aux néophytes\". \"Un thuriféraire\", literally the altar boy who carries the censer, is a flatterer, a sycophantic admirer: \"les thuriféraires du président\". It is always critical.",
-          "Note the pairs of opposites useful for an essay: \"apologie\" / \"diatribe\" or \"réquisitoire\" (for and against), \"thuriféraire\" / \"détracteur\" (admirer and critic). They let you describe the positions in a debate with precision.",
         ],
         examples: [
           { es: "L'essai fait l'apologie d'une vie plus lente et plus sobre.", en: "The essay sings the praises of a slower, simpler life." },
           { es: "Il a été condamné pour apologie du terrorisme.", en: "He was convicted of glorifying terrorism." },
           { es: "Je vous dois des excuses pour mon retard.", en: "I owe you an apology for being late." },
-          { es: "Son discours s'est transformé en diatribe contre les journalistes.", en: "His speech turned into a tirade against journalists." },
-          { es: "Ce manuel est parfait pour les néophytes.", en: "This manual is perfect for beginners." },
-          { es: "Les thuriféraires du ministre saluent une réforme historique.", en: "The minister's cheerleaders are hailing a historic reform." },
-          { es: "Ses détracteurs, eux, dénoncent un passage en force.", en: "His critics, for their part, condemn it as being forced through." },
         ],
         checkpoint: [
           {
@@ -354,6 +494,28 @@ export const FR_C2_U10: Lesson[] = [
             explanation: "An apology is \"des excuses\"; \"une apologie\" is a defence or praise.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The article sings the praises of rail travel.",
+            answer: "L'article fait l'apologie du train.",
+            altAnswers: ["L'article fait l'éloge du train.", "L'article fait l'apologie des voyages en train.", "L'article fait l'éloge des voyages en train."],
+            explanation: "\"Faire l'apologie de\" is to praise or defend, not to apologise.",
+          },
+        ],
+      },
+      {
+        heading: "Diatribe, néophyte, thuriféraire",
+        body: [
+          "\"Une diatribe\" is a violent, bitter attack in speech or writing: \"une diatribe contre les élites\". \"Un néophyte\" is a newcomer, a novice: \"un guide accessible aux néophytes\". \"Un thuriféraire\", literally the altar boy who carries the censer, is a flatterer, a sycophantic admirer: \"les thuriféraires du président\". It is always critical.",
+        ],
+        examples: [
+          { es: "Son discours s'est transformé en diatribe contre les journalistes.", en: "His speech turned into a tirade against journalists." },
+          { es: "Ce manuel est parfait pour les néophytes.", en: "This manual is perfect for beginners." },
+          { es: "Les thuriféraires du ministre saluent une réforme historique.", en: "The minister's cheerleaders are hailing a historic reform." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "The book is accessible to [beginners].",
@@ -362,19 +524,39 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["débutants", "novices", "profanes"],
             explanation: "\"Néophyte\" (Greek, newly planted) means novice.",
           },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The president's [sycophants] applauded every word.",
+            sentence: "Les ___ du président ont applaudi chaque mot.",
+            answer: "thuriféraires",
+            altAnswers: ["flatteurs", "courtisans", "laudateurs"],
+            explanation: "\"Thuriféraire\" (censer-bearer) is a critical word for a flatterer.",
+          },
+        ],
+      },
+      {
+        heading: "Pairs of opposites for an essay",
+        body: [
+          "Note the pairs of opposites useful for an essay: \"apologie\" / \"diatribe\" or \"réquisitoire\" (for and against), \"thuriféraire\" / \"détracteur\" (admirer and critic). They let you describe the positions in a debate with precision.",
+        ],
+        examples: [
+          { es: "Ses détracteurs, eux, dénoncent un passage en force.", en: "His critics, for their part, condemn it as being forced through." },
+          { es: "L'apologie loue, le réquisitoire accuse.", en: "An \"apologie\" praises; a \"réquisitoire\" accuses." },
+          { es: "Thuriféraires et détracteurs occupent les deux camps du débat.", en: "Flatterers and detractors occupy the two camps of the debate." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "You are summarising a debate. Which pair names the two sides?",
+            options: ["les thuriféraires et les détracteurs", "les néophytes et les thuriféraires", "la catharsis et le paroxysme", "le paradigme et la panacée"],
+            correctIndex: 0,
+            explanation: "\"Thuriféraire\" (admirer, flatterer) and \"détracteur\" (critic) are the two camps. \"Néophyte\" is a newcomer, not a position in an argument.",
+          },
         ],
       },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The article sings the praises of rail travel.",
-        answer: "L'article fait l'apologie du train.",
-        altAnswers: ["L'article fait l'éloge du train.", "L'article fait l'apologie des voyages en train.", "L'article fait l'éloge des voyages en train."],
-        explanation: "\"Faire l'apologie de\" is to praise or defend, not to apologise.",
-      },
       {
         type: "translate",
         direction: "en-es",
@@ -385,15 +567,6 @@ export const FR_C2_U10: Lesson[] = [
         explanation: "\"Une diatribe contre\": a bitter verbal attack.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The president's [sycophants] applauded every word.",
-        sentence: "Les ___ du président ont applaudi chaque mot.",
-        answer: "thuriféraires",
-        altAnswers: ["flatteurs", "courtisans", "laudateurs"],
-        explanation: "\"Thuriféraire\" (censer-bearer) is a critical word for a flatterer.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -401,13 +574,6 @@ export const FR_C2_U10: Lesson[] = [
         answer: "Il faut dépasser cette dichotomie entre ville et campagne.",
         altAnswers: ["Nous devons dépasser cette dichotomie entre ville et campagne.", "Il faut dépasser cette dichotomie entre la ville et la campagne.", "Nous devons dépasser cette dichotomie entre la ville et la campagne."],
         explanation: "\"Dichotomie entre A et B\": a division into two opposed parts.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which phrase is a pleonasm an editor would cut?",
-        options: ["une panacée universelle", "un changement de paradigme", "un parangon de vertu", "une diatribe contre les élites"],
-        correctIndex: 0,
-        explanation: "\"Panacée\" already means a remedy for everything, so \"universelle\" repeats it.",
       },
       {
         type: "translate",
@@ -453,9 +619,36 @@ export const FR_C2_U10: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Il a été condamné pour apologie du terrorisme.",
-        prompt: "Say it in French: He was convicted of glorifying terrorism.",
-        explanation: "\"Apologie\" means glorification or defence.",
+        text: "L'essai fait l'apologie de la lenteur.",
+        prompt: "Say it in French: The essay sings the praises of slowness.",
+        explanation: "\"Faire l'apologie de\" = to sing the praises of; an apology would be \"des excuses\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Cette solution est une panacée universelle pour les transports.",
+        answer: "Cette solution est une panacée pour les transports.",
+        altAnswers: ["Cette solution n'est pas une panacée pour les transports."],
+        explanation: "\"Panacée\" already contains pan-, all: \"une panacée universelle\" says universal twice, and an editor would cut it.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it with the learned noun instead of « le point le plus intense ».",
+        source: "La crise a atteint le point le plus intense en juillet.",
+        answer: "La crise a atteint son paroxysme en juillet.",
+        altAnswers: ["La crise a atteint son paroxysme au mois de juillet."],
+        explanation: "\"Atteindre son paroxysme\" is the fixed phrase for reaching the peak of intensity.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "The newcomers are the ones this guide is written for.",
+        answer: "C'est aux néophytes que ce guide s'adresse.",
+        altAnswers: ["Ce guide s'adresse aux néophytes."],
+        explanation: "\"S'adresser à quelqu'un\" = to be aimed at; \"un néophyte\" is a novice, with no hint of criticism.",
       },
     ],
   },
@@ -468,19 +661,15 @@ export const FR_C2_U10: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Quietly: chuchoter, murmurer, susurrer, marmonner",
+        heading: "Whispering: chuchoter, murmurer, susurrer",
         body: [
           "French narrative avoids repeating \"dire\" and chooses a verb that carries the manner of speaking. Quiet speech first. \"Chuchoter\" is to whisper, deliberately, so as not to be overheard: \"chuchoter à l'oreille de quelqu'un\". \"Murmurer\" is to murmur, softly, often with tenderness or discretion, and is also used for water and leaves. \"Susurrer\" is to whisper seductively or sweetly: \"susurrer des mots doux\".",
-          "\"Marmonner\" is to mutter, indistinctly and often in a bad mood, between one's teeth: \"marmonner dans sa barbe\". Contrast with \"chuchoter\": a whisperer wants to be understood by one person; a mutterer doesn't care to be understood at all.",
-          "In narrative, these verbs often appear in an incise, with subject-verb inversion: « Ne fais pas de bruit, chuchota-t-elle. » Note the \"-t-\" between vowels, and the passé simple in literary narration, or the passé composé in a conversational story: « Ne fais pas de bruit, a-t-elle chuchoté. »",
         ],
         examples: [
           { es: "« Le bébé dort », chuchota-t-elle en refermant la porte.", en: "'The baby's asleep,' she whispered, closing the door." },
           { es: "Il lui a murmuré quelques mots de réconfort.", en: "He murmured a few words of comfort to her." },
           { es: "Le ruisseau murmurait au fond du jardin.", en: "The stream was murmuring at the bottom of the garden." },
           { es: "Dans le film, le séducteur lui susurre des mots doux.", en: "In the film, the charmer whispers sweet nothings to her." },
-          { es: "Il est reparti en marmonnant quelque chose d'incompréhensible.", en: "He went off muttering something incomprehensible." },
-          { es: "Arrête de marmonner dans ta barbe, parle plus fort !", en: "Stop muttering under your breath, speak up!" },
         ],
         checkpoint: [
           {
@@ -492,6 +681,19 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["Elle m'a soufflé la réponse à l'oreille.", "Elle m'a murmuré la réponse à l'oreille.", "Elle me chuchota la réponse à l'oreille."],
             explanation: "\"Chuchoter quelque chose à l'oreille de quelqu'un\"; with a pronoun: \"m'a chuchoté ... à l'oreille\". \"Souffler\" is used for prompting an answer.",
           },
+        ],
+      },
+      {
+        heading: "Marmonner: muttering, not whispering",
+        body: [
+          "\"Marmonner\" is to mutter, indistinctly and often in a bad mood, between one's teeth: \"marmonner dans sa barbe\". Contrast with \"chuchoter\": a whisperer wants to be understood by one person; a mutterer doesn't care to be understood at all.",
+        ],
+        examples: [
+          { es: "Il est reparti en marmonnant quelque chose d'incompréhensible.", en: "He went off muttering something incomprehensible." },
+          { es: "Arrête de marmonner dans ta barbe, parle plus fort !", en: "Stop muttering under your breath, speak up!" },
+          { es: "Il marmonne des reproches que personne ne comprend.", en: "He mutters reproaches that nobody understands." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -501,22 +703,45 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["maugréant", "grommelant", "bougonnant"],
             explanation: "\"Marmonner dans sa barbe\" is to mutter indistinctly; the gérondif gives the manner.",
           },
+          {
+            type: "multiple-choice",
+            question: "In a novel, a seducer speaks sweet words to someone in a low, honeyed voice. Which verb does the author choose?",
+            options: ["susurrer", "marmonner", "vociférer", "bredouiller"],
+            correctIndex: 0,
+            explanation: "\"Susurrer\" is to whisper sweetly or seductively.",
+          },
         ],
       },
       {
-        heading: "Hesitantly or grumpily: balbutier, bredouiller, maugréer, ronchonner",
+        heading: "The incise: inversion and the -t-",
+        body: [
+          "In narrative, these verbs often appear in an incise, with subject-verb inversion: « Ne fais pas de bruit, chuchota-t-elle. » Note the \"-t-\" between vowels, and the passé simple in literary narration, or the passé composé in a conversational story: « Ne fais pas de bruit, a-t-elle chuchoté. »",
+        ],
+        examples: [
+          { es: "« Attention », murmura-t-il en montrant la porte.", en: "'Careful,' he murmured, pointing at the door." },
+          { es: "« Tu es sûre ? », a-t-elle chuchoté à mon oreille.", en: "'Are you sure?' she whispered in my ear." },
+          { es: "« Suivez-moi », souffla le gardien.", en: "'Follow me,' breathed the attendant." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "« Les enfants dorment », chuchota-elle en fermant la porte.",
+            answer: "« Les enfants dorment », chuchota-t-elle en fermant la porte.",
+            explanation: "In an incise, a -t- is inserted between the verb's final vowel and \"elle\" or \"il\": \"chuchota-t-elle\".",
+          },
+        ],
+      },
+      {
+        heading: "Balbutier and bredouiller",
         body: [
           "\"Balbutier\" and \"bredouiller\" both describe faltering speech. \"Balbutier\" is to stammer from emotion or shyness (and, figuratively, to be in its infancy: \"une science qui balbutie\", \"les balbutiements d'Internet\"). \"Bredouiller\" is to mumble hastily and confusedly, often from embarrassment: \"bredouiller une excuse\".",
-          "\"Maugréer\" is to grumble in a low voice against something, a literary word: \"maugréer contre le mauvais temps\". \"Ronchonner\" is the everyday equivalent, familiar: \"il ronchonne toute la journée\". \"Râler\" (to moan, complain loudly) is the most colloquial and the most French of all.",
-          "These verbs work both as reporting verbs (\"« Désolé », bredouilla-t-il\") and as ordinary transitive verbs (\"il a bredouillé des excuses\"). Choose them by what the reader should feel about the character: \"balbutier\" makes them sympathetic, \"bredouiller\" slightly ridiculous, \"maugréer\" sour.",
         ],
         examples: [
           { es: "Intimidé, l'enfant balbutia son prénom.", en: "Overawed, the child stammered his name." },
           { es: "À l'époque, Internet n'en était qu'à ses balbutiements.", en: "At that time, the internet was still in its infancy." },
           { es: "Pris en faute, il a bredouillé une vague excuse.", en: "Caught out, he mumbled some vague excuse." },
-          { es: "Le vieux pêcheur maugréait contre le vent.", en: "The old fisherman was grumbling about the wind." },
-          { es: "Arrête de ronchonner, on part dans dix minutes.", en: "Stop grumbling, we're leaving in ten minutes." },
-          { es: "Tout le monde râle contre les travaux, mais personne ne propose rien.", en: "Everyone moans about the roadworks, but nobody suggests anything." },
         ],
         checkpoint: [
           {
@@ -535,6 +760,19 @@ export const FR_C2_U10: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Balbutier\" is to stammer from emotion or shyness, a sympathetic verb.",
           },
+        ],
+      },
+      {
+        heading: "Maugréer, ronchonner, râler",
+        body: [
+          "\"Maugréer\" is to grumble in a low voice against something, a literary word: \"maugréer contre le mauvais temps\". \"Ronchonner\" is the everyday equivalent, familiar: \"il ronchonne toute la journée\". \"Râler\" (to moan, complain loudly) is the most colloquial and the most French of all.",
+        ],
+        examples: [
+          { es: "Le vieux pêcheur maugréait contre le vent.", en: "The old fisherman was grumbling about the wind." },
+          { es: "Arrête de ronchonner, on part dans dix minutes.", en: "Stop grumbling, we're leaving in ten minutes." },
+          { es: "Tout le monde râle contre les travaux, mais personne ne propose rien.", en: "Everyone moans about the roadworks, but nobody suggests anything." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Il maugréait contre la pluie.",
@@ -546,19 +784,58 @@ export const FR_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Loudly or sharply: s'écrier, hurler, rétorquer",
+        heading: "Choosing by the feeling you want",
+        body: [
+          "These verbs work both as reporting verbs (\"« Désolé », bredouilla-t-il\") and as ordinary transitive verbs (\"il a bredouillé des excuses\"). Choose them by what the reader should feel about the character: \"balbutier\" makes them sympathetic, \"bredouiller\" slightly ridiculous, \"maugréer\" sour.",
+        ],
+        examples: [
+          { es: "« Désolé », bredouilla-t-il, le rouge aux joues.", en: "'Sorry,' he mumbled, blushing." },
+          { es: "Il a bredouillé des explications confuses.", en: "He mumbled some confused explanations." },
+          { es: "« Balbutier » rend le personnage touchant, « bredouiller » un peu ridicule.", en: "\"Balbutier\" makes the character touching, \"bredouiller\" slightly ridiculous." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "At the time, the technology was [in its infancy].",
+            sentence: "À l'époque, la technologie en était à ses ___.",
+            answer: "balbutiements",
+            altAnswers: ["débuts", "premiers pas"],
+            explanation: "\"En être à ses balbutiements\": figurative use of \"balbutier\".",
+          },
+        ],
+      },
+      {
+        heading: "S'écrier, hurler, crier",
         body: [
           "\"S'écrier\" is to exclaim, cry out (with surprise, joy, indignation): \"« C'est magnifique ! » s'écria-t-elle.\" \"Hurler\" is to scream, to yell, and figuratively to be glaringly out of place: \"ces couleurs hurlent ensemble\" (these colours clash). \"Crier\" is the neutral shout; \"vociférer\" is to bawl furiously.",
-          "\"Rétorquer\" is to retort, to answer back sharply, turning an argument against its author: \"« Et toi ? » rétorqua-t-il.\" Compare \"répliquer\" (to reply, often with a touch of defiance) and \"riposter\" (to hit back, also in the military sense). \"Objecter\" is to raise an objection, calmly.",
-          "When you report speech in the past, these verbs replace \"dire\" and set the tone: \"il a rétorqué que ce n'était pas son problème\", \"elle s'est écriée qu'elle n'avait jamais rien vu de pareil\". Remember the agreement of \"s'écrier\" with \"être\" in compound tenses.",
         ],
         examples: [
           { es: "« Nous avons gagné ! » s'écria-t-il en levant les bras.", en: "'We've won!' he cried, raising his arms." },
           { es: "Les supporters hurlaient dans les tribunes.", en: "The fans were screaming in the stands." },
           { es: "Ce rideau rose hurle avec le canapé orange.", en: "That pink curtain clashes horribly with the orange sofa." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "These two colours clash horribly.",
+            answer: "Ces deux couleurs hurlent ensemble.",
+            altAnswers: ["Ces deux couleurs jurent ensemble.", "Ces deux couleurs jurent horriblement.", "Ces deux couleurs hurlent."],
+            explanation: "\"Hurler\" (and \"jurer\") are used figuratively for clashing colours.",
+          },
+        ],
+      },
+      {
+        heading: "Rétorquer, répliquer, riposter",
+        body: [
+          "\"Rétorquer\" is to retort, to answer back sharply, turning an argument against its author: \"« Et toi ? » rétorqua-t-il.\" Compare \"répliquer\" (to reply, often with a touch of defiance) and \"riposter\" (to hit back, also in the military sense). \"Objecter\" is to raise an objection, calmly.",
+        ],
+        examples: [
           { es: "« C'est toi qui as commencé », rétorqua-t-elle sèchement.", en: "'You started it,' she retorted curtly." },
           { es: "Le ministre a répliqué que les chiffres étaient faux.", en: "The minister replied that the figures were wrong." },
-          { es: "Elle s'est écriée qu'elle n'avait jamais rien vu d'aussi beau.", en: "She exclaimed that she had never seen anything so beautiful." },
+          { es: "Elle a riposté par un argument chiffré.", en: "She hit back with an argument backed by figures." },
         ],
         checkpoint: [
           {
@@ -570,6 +847,19 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["« Et toi ? » a-t-il rétorqué.", "« Et vous ? » rétorqua-t-il.", "« Et vous ? » a-t-il rétorqué.", "« Et toi ? » répliqua-t-il.", "« Et toi ? » a-t-il répliqué."],
             explanation: "In the incise, the reporting verb comes before its subject: \"rétorqua-t-il\", with -t- between vowels.",
           },
+        ],
+      },
+      {
+        heading: "Reporting speech in the past",
+        body: [
+          "When you report speech in the past, these verbs replace \"dire\" and set the tone: \"il a rétorqué que ce n'était pas son problème\", \"elle s'est écriée qu'elle n'avait jamais rien vu de pareil\". Remember the agreement of \"s'écrier\" with \"être\" in compound tenses.",
+        ],
+        examples: [
+          { es: "Elle s'est écriée qu'elle n'avait jamais rien vu d'aussi beau.", en: "She exclaimed that she had never seen anything so beautiful." },
+          { es: "Il a rétorqué que ce n'était pas son problème.", en: "He retorted that it was not his problem." },
+          { es: "Elles se sont écriées qu'elles n'y croyaient pas.", en: "They exclaimed that they did not believe it." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -593,22 +883,13 @@ export const FR_C2_U10: Lesson[] = [
         explanation: "\"Chuchoter\" in the incise, with inversion and -t-.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "He's always grumbling about his boss.",
-        answer: "Il ronchonne toujours contre son patron.",
-        altAnswers: ["Il râle toujours contre son patron.", "Il maugrée toujours contre son patron.", "Il est toujours en train de ronchonner contre son patron.", "Il est toujours en train de râler contre son patron.", "Il ronchonne toujours contre son chef.", "Il râle toujours contre son chef."],
-        explanation: "\"Ronchonner\" and \"râler\" are the everyday verbs; \"maugréer\" is literary.",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "At the time, the technology was [in its infancy].",
-        sentence: "À l'époque, la technologie en était à ses ___.",
-        answer: "balbutiements",
-        altAnswers: ["débuts", "premiers pas"],
-        explanation: "\"En être à ses balbutiements\": figurative use of \"balbutier\".",
+        answer: "ronchonne",
+        altAnswers: ["râle", "maugrée"],
+        explanation: "\"Ronchonner\" is the everyday grumble; \"maugréer\" is its literary cousin and \"râler\" the loudest of the three.",
+        en: "He is always [grumbling] about his boss.",
+        sentence: "Il ___ toujours contre son patron.",
       },
       {
         type: "translate",
@@ -620,29 +901,13 @@ export const FR_C2_U10: Lesson[] = [
         explanation: "\"Balbutier\" is to stammer from shyness or emotion.",
       },
       {
-        type: "multiple-choice",
-        question: "In a novel, a seducer speaks sweet words to someone in a low, honeyed voice. Which verb does the author choose?",
-        options: ["susurrer", "marmonner", "vociférer", "bredouiller"],
-        correctIndex: 0,
-        explanation: "\"Susurrer\" is to whisper sweetly or seductively.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "These two colours clash horribly.",
-        answer: "Ces deux couleurs hurlent ensemble.",
-        altAnswers: ["Ces deux couleurs jurent ensemble.", "Ces deux couleurs jurent horriblement.", "Ces deux couleurs hurlent."],
-        explanation: "\"Hurler\" (and \"jurer\") are used figuratively for clashing colours.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The minister retorted that the figures were wrong.",
-        answer: "Le ministre a rétorqué que les chiffres étaient faux.",
-        altAnswers: ["Le ministre rétorqua que les chiffres étaient faux.", "Le ministre a répliqué que les chiffres étaient faux.", "Le ministre répliqua que les chiffres étaient faux.", "La ministre a rétorqué que les chiffres étaient faux."],
-        explanation: "\"Rétorquer que\" + indicative, with the tense shift of reported speech.",
+        source: "The spokesman replied that the report was out of date.",
+        answer: "Le porte-parole a répliqué que le rapport était dépassé.",
+        altAnswers: ["La porte-parole a répliqué que le rapport était dépassé.", "Le porte-parole a rétorqué que le rapport était dépassé."],
+        explanation: "\"Répliquer\" is to answer back with a touch of defiance; the reported clause goes into the imparfait.",
       },
       {
         type: "matching",
@@ -665,14 +930,32 @@ export const FR_C2_U10: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "« C'est toi qui as commencé », rétorqua-t-elle.",
-        explanation: "\"C'est toi qui as\": the verb agrees with \"toi\" (second person).",
+        audio: "« Et vous ? », rétorqua-t-il sèchement.",
+        explanation: "\"Rétorquer\" turns the question back on its author; note the inversion and the -t- of the incise.",
       },
       {
         type: "speak",
         text: "Arrête de marmonner, parle plus fort !",
         prompt: "Say it in French to a friend: Stop muttering, speak up!",
         explanation: "\"Marmonner\" is indistinct speech; \"parler plus fort\" is to speak up.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite the sentence with the verb that says how he spoke (hasty, embarrassed mumbling).",
+        source: "Devant le jury, il a dit une excuse maladroite.",
+        answer: "Devant le jury, il a bredouillé une excuse maladroite.",
+        altAnswers: ["Devant le jury, il a bredouillé une maladroite excuse."],
+        explanation: "\"Bredouiller\" carries the manner: hurried, confused speech from embarrassment, where \"dire\" says nothing about the voice.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "Overawed, the little girl stammered a few words.",
+        answer: "Intimidée, la petite fille a balbutié quelques mots.",
+        altAnswers: ["Intimidée, la fillette a balbutié quelques mots."],
+        explanation: "\"Balbutier\" is stammering from emotion or shyness, and makes the reader sympathetic; the participle agrees with \"la petite fille\".",
       },
     ],
   },
@@ -685,19 +968,14 @@ export const FR_C2_U10: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Getting started: faire le point, avoir le feu vert, du pain sur la planche",
+        heading: "Faire le point, and the article trap",
         body: [
           "French office talk is full of idioms, and they are used by everyone from interns to CEOs. \"Faire le point\" is to take stock, review where things stand: \"faisons le point sur le projet\". Trap: \"faire un point\" (with the indefinite article) is office jargon for a quick catch-up meeting: \"on fait un point demain à 10 h ?\". The article changes the meaning.",
-          "\"Avoir le feu vert\" (to get the green light) and \"donner le feu vert à\" work as in English, but note the determiner: it is \"le feu vert\" (or a possessive, \"son feu vert\"), not a 'green light'. \"Avoir du pain sur la planche\" (literally bread on the board) means to have a lot of work ahead: \"avec ce nouveau client, on a du pain sur la planche\".",
-          "\"Mettre la main à la pâte\" (to put one's hand in the dough) is to pitch in, to roll up one's sleeves, especially when someone senior helps with the practical work: \"même la directrice a mis la main à la pâte pour le salon\". The fixed articles and possessives in these idioms cannot be changed: \"*mettre sa main à la pâte\" sounds wrong.",
         ],
         examples: [
           { es: "Avant de lancer la campagne, faisons le point sur le budget.", en: "Before launching the campaign, let's take stock of the budget." },
           { es: "On fait un point rapide demain matin avec l'équipe ?", en: "Shall we have a quick catch-up with the team tomorrow morning?" },
-          { es: "La direction nous a enfin donné le feu vert pour recruter.", en: "Management has finally given us the green light to hire." },
-          { es: "Avec trois salons en un mois, on a du pain sur la planche.", en: "With three trade fairs in one month, we've got our work cut out." },
-          { es: "Pour tenir les délais, tout le monde a mis la main à la pâte.", en: "To meet the deadline, everyone pitched in." },
-          { es: "Le projet n'a pas encore reçu le feu vert du conseil d'administration.", en: "The project hasn't yet been given the go-ahead by the board." },
+          { es: "Nous faisons le point chaque lundi à neuf heures.", en: "We take stock every Monday at nine." },
         ],
         checkpoint: [
           {
@@ -710,14 +988,6 @@ export const FR_C2_U10: Lesson[] = [
             explanation: "\"Faire le point\" (with \"le\") is to take stock; \"faire un point\" is a quick meeting.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "We've [got our work cut out] this week.",
-            sentence: "On ___ cette semaine.",
-            answer: "a du pain sur la planche",
-            explanation: "\"Avoir du pain sur la planche\": a lot of work ahead.",
-          },
-          {
             type: "multiple-choice",
             question: "Your manager writes: « On se fait un point jeudi ? » What is she proposing?",
             options: ["A short catch-up meeting on Thursday", "A full review of the year on Thursday", "A celebration on Thursday", "A deadline on Thursday"],
@@ -727,16 +997,118 @@ export const FR_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Working together: même longueur d'onde, tirer son épingle du jeu, mettre les bouchées doubles",
+        heading: "Le feu vert, du pain sur la planche",
         body: [
-          "\"Être sur la même longueur d'onde\" (on the same wavelength) is used as in English, for people who understand each other easily: \"avec mon associé, on est sur la même longueur d'onde\". \"Mettre les bouchées doubles\" (to take double mouthfuls) is to speed up, work twice as hard to catch up: \"il faut mettre les bouchées doubles si on veut livrer en mars\".",
-          "\"Tirer son épingle du jeu\" (to pull one's pin out of the game) is to get out of a difficult situation without loss, or to do well where others fail: \"dans un marché en crise, cette PME tire son épingle du jeu\". It is a favourite of economic journalism.",
-          "\"Avoir le vent en poupe\" (to have the wind in the stern) means to be doing very well, to be on a roll: \"les vélos électriques ont le vent en poupe\". It applies to people, companies and trends alike. Its opposite in the press is often \"être à la peine\" or \"marquer le pas\" (to mark time).",
+          "\"Avoir le feu vert\" (to get the green light) and \"donner le feu vert à\" work as in English, but note the determiner: it is \"le feu vert\" (or a possessive, \"son feu vert\"), not a 'green light'. \"Avoir du pain sur la planche\" (literally bread on the board) means to have a lot of work ahead: \"avec ce nouveau client, on a du pain sur la planche\".",
+        ],
+        examples: [
+          { es: "La direction nous a enfin donné le feu vert pour recruter.", en: "Management has finally given us the green light to hire." },
+          { es: "Avec trois salons en un mois, on a du pain sur la planche.", en: "With three trade fairs in one month, we've got our work cut out." },
+          { es: "Le projet n'a pas encore reçu le feu vert du conseil d'administration.", en: "The project hasn't yet been given the go-ahead by the board." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "We've [got our work cut out] this week.",
+            sentence: "On ___ cette semaine.",
+            answer: "a du pain sur la planche",
+            explanation: "\"Avoir du pain sur la planche\": a lot of work ahead.",
+          },
+        ],
+      },
+      {
+        heading: "Mettre la main à la pâte: fixed words",
+        body: [
+          "\"Mettre la main à la pâte\" (to put one's hand in the dough) is to pitch in, to roll up one's sleeves, especially when someone senior helps with the practical work: \"même la directrice a mis la main à la pâte pour le salon\". The fixed articles and possessives in these idioms cannot be changed: \"*mettre sa main à la pâte\" sounds wrong.",
+        ],
+        examples: [
+          { es: "Pour tenir les délais, tout le monde a mis la main à la pâte.", en: "To meet the deadline, everyone pitched in." },
+          { es: "Le directeur a mis la main à la pâte pour monter le stand.", en: "The director pitched in to put up the stand." },
+          { es: "Chacun a mis la main à la pâte pendant l'inventaire.", en: "Everyone pitched in during the stocktaking." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Même le directeur a mis sa main à la pâte pour le salon.",
+            answer: "Même le directeur a mis la main à la pâte pour le salon.",
+            explanation: "The idiom keeps the definite article: \"mettre la main à la pâte\". A possessive breaks it.",
+          },
+        ],
+      },
+      {
+        heading: "Being on the same wavelength",
+        body: [
+          "\"Être sur la même longueur d'onde\" (on the same wavelength) is used as in English, for people who understand each other easily:",
         ],
         examples: [
           { es: "Avec la nouvelle cheffe de projet, on est tout de suite sur la même longueur d'onde.", en: "With the new project manager, we were on the same wavelength straight away." },
+          { es: "Nous ne sommes pas sur la même longueur d'onde sur ce point.", en: "We are not on the same wavelength on that point." },
+          { es: "Avec mon associé, on se comprend en deux mots.", en: "My business partner and I understand each other in two words." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "We're on the same wavelength.",
+            answer: "Nous sommes sur la même longueur d'onde.",
+            altAnswers: ["On est sur la même longueur d'onde."],
+            explanation: "The idiom matches English exactly; note \"longueur d'onde\".",
+          },
+        ],
+      },
+      {
+        heading: "Mettre les bouchées doubles",
+        body: [
+          "\"avec mon associé, on est sur la même longueur d'onde\". \"Mettre les bouchées doubles\" (to take double mouthfuls) is to speed up, work twice as hard to catch up: \"il faut mettre les bouchées doubles si on veut livrer en mars\".",
+        ],
+        examples: [
           { es: "Si on veut livrer en mars, il va falloir mettre les bouchées doubles.", en: "If we want to deliver in March, we'll have to step it up." },
+          { es: "L'atelier met les bouchées doubles avant les fêtes.", en: "The workshop is working flat out before the holidays." },
+          { es: "Nous avons mis les bouchées doubles pour rattraper le retard.", en: "We worked twice as hard to catch up." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "We'll have to work twice as hard.",
+            answer: "Il va falloir mettre les bouchées doubles.",
+            altAnswers: ["On va devoir mettre les bouchées doubles.", "Nous allons devoir mettre les bouchées doubles.", "Il faudra mettre les bouchées doubles.", "Il faut mettre les bouchées doubles."],
+            explanation: "\"Mettre les bouchées doubles\": to speed up, to redouble efforts.",
+          },
+        ],
+      },
+      {
+        heading: "Tirer son épingle du jeu",
+        body: [
+          "\"Tirer son épingle du jeu\" (to pull one's pin out of the game) is to get out of a difficult situation without loss, or to do well where others fail: \"dans un marché en crise, cette PME tire son épingle du jeu\". It is a favourite of economic journalism.",
+        ],
+        examples: [
           { es: "Malgré la crise, cette petite entreprise tire son épingle du jeu.", en: "Despite the crisis, this small company is doing well." },
+          { es: "Les petits producteurs tirent leur épingle du jeu grâce à la vente directe.", en: "Small producers come out of it well thanks to direct selling." },
+          { es: "Elle a su tirer son épingle du jeu pendant la réorganisation.", en: "She managed to come out of the reorganisation unscathed." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Cette entreprise tire son épingle du jeu.",
+            question: "What does it mean?",
+            options: ["This company is doing well despite the circumstances.", "This company is pulling out of the market.", "This company is playing games.", "This company is cheating its rivals."],
+            correctIndex: 0,
+            explanation: "\"Tirer son épingle du jeu\" is to come out well from a difficult situation.",
+          },
+        ],
+      },
+      {
+        heading: "Avoir le vent en poupe, marquer le pas",
+        body: [
+          "\"Avoir le vent en poupe\" (to have the wind in the stern) means to be doing very well, to be on a roll: \"les vélos électriques ont le vent en poupe\". It applies to people, companies and trends alike. Its opposite in the press is often \"être à la peine\" or \"marquer le pas\" (to mark time).",
+        ],
+        examples: [
           { es: "Le marché de la seconde main a le vent en poupe.", en: "The second-hand market is booming." },
           { es: "La jeune candidate a le vent en poupe dans les sondages.", en: "The young candidate is riding high in the polls." },
           { es: "Le secteur automobile marque le pas cette année.", en: "The car industry is marking time this year." },
@@ -751,39 +1123,17 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["Le vélo électrique a le vent en poupe.", "Les vélos électriques cartonnent.", "Les vélos électriques sont en plein essor."],
             explanation: "\"Avoir le vent en poupe\" describes something doing very well.",
           },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "We'll have to work twice as hard.",
-            answer: "Il va falloir mettre les bouchées doubles.",
-            altAnswers: ["On va devoir mettre les bouchées doubles.", "Nous allons devoir mettre les bouchées doubles.", "Il faudra mettre les bouchées doubles.", "Il faut mettre les bouchées doubles."],
-            explanation: "\"Mettre les bouchées doubles\": to speed up, to redouble efforts.",
-          },
-          {
-            type: "listen-choose",
-            audio: "Cette entreprise tire son épingle du jeu.",
-            question: "What does it mean?",
-            options: ["This company is doing well despite the circumstances.", "This company is pulling out of the market.", "This company is playing games.", "This company is cheating its rivals."],
-            correctIndex: 0,
-            explanation: "\"Tirer son épingle du jeu\" is to come out well from a difficult situation.",
-          },
         ],
       },
       {
-        heading: "Money trouble: être dans le rouge, se serrer la ceinture",
+        heading: "Être dans le rouge, repasser dans le vert",
         body: [
           "\"Être dans le rouge\" means to be in the red, in deficit or overdrawn: \"le compte est dans le rouge\", \"les finances de la ville sont dans le rouge\". Its opposite, \"repasser dans le vert\", is used in the press for a return to profit. Note \"être à découvert\", the standard banking term for being overdrawn.",
-          "\"Se serrer la ceinture\" (to tighten one's belt) means to cut spending: \"cette année, on va devoir se serrer la ceinture\". In an official statement, this becomes \"des mesures d'économie\" or \"une politique de rigueur\" (austerity).",
-          "Related idioms: \"joindre les deux bouts\" (to make ends meet), \"ça coûte les yeux de la tête\" (it costs an arm and a leg), \"jeter l'argent par les fenêtres\" (to waste money). They let you talk about money without sounding like an accountant, but in a report you would use \"le déficit\", \"les dépenses\", \"la trésorerie\".",
         ],
         examples: [
           { es: "Depuis le départ de notre plus gros client, nous sommes dans le rouge.", en: "Since our biggest client left, we've been in the red." },
           { es: "Le groupe est repassé dans le vert au troisième trimestre.", en: "The group returned to profit in the third quarter." },
-          { es: "Cette année, tout le monde va devoir se serrer la ceinture.", en: "This year, everyone is going to have to tighten their belts." },
-          { es: "Avec un seul salaire, ils ont du mal à joindre les deux bouts.", en: "On one salary, they're struggling to make ends meet." },
-          { es: "Ce logiciel coûte les yeux de la tête.", en: "This software costs an arm and a leg." },
-          { es: "Le gouvernement annonce un plan de rigueur.", en: "The government is announcing an austerity plan." },
+          { es: "Mon compte est à découvert depuis le 20 du mois.", en: "My account has been overdrawn since the twentieth." },
         ],
         checkpoint: [
           {
@@ -796,11 +1146,43 @@ export const FR_C2_U10: Lesson[] = [
             explanation: "\"Être dans le rouge\" + \"depuis\" with the present for an ongoing situation.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The group returned to profit last year.",
+            answer: "Le groupe est repassé dans le vert l'année dernière.",
+            altAnswers: ["Le groupe est repassé dans le vert l'an dernier.", "Le groupe est redevenu bénéficiaire l'année dernière.", "Le groupe est redevenu bénéficiaire l'an dernier."],
+            explanation: "\"Repasser dans le vert\" is the press idiom for returning to profit.",
+          },
+        ],
+      },
+      {
+        heading: "Se serrer la ceinture, and the official version",
+        body: [
+          "\"Se serrer la ceinture\" (to tighten one's belt) means to cut spending: \"cette année, on va devoir se serrer la ceinture\". In an official statement, this becomes \"des mesures d'économie\" or \"une politique de rigueur\" (austerity).",
+          "Related idioms: \"joindre les deux bouts\" (to make ends meet), \"ça coûte les yeux de la tête\" (it costs an arm and a leg), \"jeter l'argent par les fenêtres\" (to waste money). They let you talk about money without sounding like an accountant, but in a report you would use \"le déficit\", \"les dépenses\", \"la trésorerie\".",
+        ],
+        examples: [
+          { es: "Cette année, tout le monde va devoir se serrer la ceinture.", en: "This year, everyone is going to have to tighten their belts." },
+          { es: "Avec un seul salaire, ils ont du mal à joindre les deux bouts.", en: "On one salary, they're struggling to make ends meet." },
+          { es: "Ce logiciel coûte les yeux de la tête.", en: "This software costs an arm and a leg." },
+          { es: "Le gouvernement annonce un plan de rigueur.", en: "The government is announcing an austerity plan." },
+        ],
+        checkpoint: [
+          {
             type: "word-order",
             prompt: "Put the words in order to say: We're going to have to tighten our belts.",
             words: ["On", "va", "devoir", "se", "serrer", "la", "ceinture."],
             translation: "We're going to have to tighten our belts.",
             explanation: "With \"on\", the reflexive pronoun is \"se\": \"on va devoir se serrer la ceinture\".",
+          },
+          {
+            type: "listen-choose",
+            audio: "Ce logiciel coûte les yeux de la tête.",
+            question: "What does it mean?",
+            options: ["This software costs a fortune.", "This software hurts your eyes.", "This software is worth the money.", "This software is free."],
+            correctIndex: 0,
+            explanation: "\"Coûter les yeux de la tête\" is to cost an arm and a leg.",
           },
         ],
       },
@@ -825,15 +1207,6 @@ export const FR_C2_U10: Lesson[] = [
         explanation: "\"Mettre la main à la pâte\": the article \"la\" is fixed.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "We're on the same wavelength.",
-        answer: "Nous sommes sur la même longueur d'onde.",
-        altAnswers: ["On est sur la même longueur d'onde."],
-        explanation: "The idiom matches English exactly; note \"longueur d'onde\".",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "With the new contracts, we've [got our work cut out].",
@@ -842,13 +1215,13 @@ export const FR_C2_U10: Lesson[] = [
         explanation: "\"Avoir du pain sur la planche\" conjugated with \"nous\".",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Many families struggle to make ends meet.",
-        answer: "Beaucoup de familles ont du mal à joindre les deux bouts.",
-        altAnswers: ["De nombreuses familles ont du mal à joindre les deux bouts.", "Beaucoup de familles peinent à joindre les deux bouts.", "De nombreuses familles peinent à joindre les deux bouts."],
-        explanation: "\"Joindre les deux bouts\" is to make ends meet.",
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        answer: "ont du mal à joindre les deux bouts",
+        altAnswers: ["n'arrivent pas à joindre les deux bouts"],
+        explanation: "\"Joindre les deux bouts\" = to make ends meet; \"avoir du mal à\" + infinitive says that it is a struggle.",
+        en: "On one salary, many families [struggle to make ends meet].",
+        sentence: "Avec un seul salaire, beaucoup de familles ___.",
       },
       {
         type: "multiple-choice",
@@ -856,15 +1229,6 @@ export const FR_C2_U10: Lesson[] = [
         options: ["Faisons le point sur l'année.", "Mettons un point final à l'année.", "Mettons le point sur l'année.", "Prenons le stock de l'année."],
         correctIndex: 0,
         explanation: "\"Faire le point\" (take stock); \"mettre un point final à\" means to put an end to something.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The group returned to profit last year.",
-        answer: "Le groupe est repassé dans le vert l'année dernière.",
-        altAnswers: ["Le groupe est repassé dans le vert l'an dernier.", "Le groupe est redevenu bénéficiaire l'année dernière.", "Le groupe est redevenu bénéficiaire l'an dernier."],
-        explanation: "\"Repasser dans le vert\" is the press idiom for returning to profit.",
       },
       {
         type: "matching",
@@ -888,18 +1252,28 @@ export const FR_C2_U10: Lesson[] = [
         explanation: "\"Faire un point\" (indefinite article) is the office catch-up meeting.",
       },
       {
-        type: "listen-choose",
-        audio: "Ce logiciel coûte les yeux de la tête.",
-        question: "What does it mean?",
-        options: ["This software costs a fortune.", "This software hurts your eyes.", "This software is worth the money.", "This software is free."],
-        correctIndex: 0,
-        explanation: "\"Coûter les yeux de la tête\" is to cost an arm and a leg.",
+        type: "speak",
+        text: "Tout le monde a mis la main à la pâte pour finir à temps.",
+        prompt: "Say it in French: Everyone pitched in to finish on time.",
+        explanation: "\"Mettre la main à la pâte\" = to pitch in, with the definite article kept as it is.",
       },
       {
-        type: "speak",
-        text: "Il va falloir mettre les bouchées doubles.",
-        prompt: "Say it in French: We're going to have to step it up.",
-        explanation: "\"Mettre les bouchées doubles\": to work twice as hard.",
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite the sentence for an official statement (no idiom).",
+        source: "Cette année, tout le monde va devoir se serrer la ceinture.",
+        answer: "Cette année, des mesures d'économie seront nécessaires.",
+        altAnswers: ["Cette année, une politique de rigueur sera nécessaire.", "Cette année, des mesures d'économie s'imposeront."],
+        explanation: "\"Se serrer la ceinture\" is spoken; a press release says \"des mesures d'économie\" or \"une politique de rigueur\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "The textile industry is marking time, but this workshop is doing well.",
+        answer: "Le secteur du textile marque le pas, mais cet atelier tire son épingle du jeu.",
+        altAnswers: ["L'industrie textile marque le pas, mais cet atelier tire son épingle du jeu."],
+        explanation: "\"Marquer le pas\" (to stall) and \"tirer son épingle du jeu\" (to come out of it well) are the two poles of economic journalism.",
       },
     ],
   },
@@ -912,19 +1286,34 @@ export const FR_C2_U10: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "The situation: a project in trouble",
+        heading: "The situation at Ateliers Morel",
         body: [
-          "A Monday morning at Ateliers Morel, a family furniture maker near Nantes. The managing director, Sophie Morel, meets her finance director, Bruno, and her sales director, Nadia, about a big order from a hotel chain. Read the first part of the meeting: « Sophie : Bon, faisons le point. Le groupe hôtelier veut quatre cents chambres meublées pour septembre. Nadia, où en est-on ? Nadia : Ils sont très intéressés, mais ils veulent une remise de quinze pour cent. Bruno : Quinze pour cent ? On n'a pas les reins assez solides pour ça. Avec la hausse du bois, on serait dans le rouge dès la première livraison. »",
-          "\"Ne pas avoir les reins assez solides\" (not to have strong enough kidneys, i.e. back) means not to be financially strong enough to take on a risk. Its positive is \"avoir les reins solides\". \"Où en est-on ?\" (where are we with this?) is the standard question to start a status update; in speech it is often \"on en est où ?\".",
-          "Note the register: everyone uses idioms, but the sentences remain well formed, with \"ne\" mostly kept by Bruno and Sophie. It is the standard register (\"registre courant\") of a French meeting: relaxed, but not slangy.",
+          "A Monday morning at Ateliers Morel, a family furniture maker near Nantes. The managing director, Sophie Morel, meets her finance director, Bruno, and her sales director, Nadia, about a big order from a hotel chain. Read the first part of the meeting: « Sophie :",
         ],
         examples: [
           { es: "Bon, faisons le point. Où en est-on avec le groupe hôtelier ?", en: "Right, let's take stock. Where are we with the hotel group?" },
           { es: "Ils veulent une remise de quinze pour cent.", en: "They want a fifteen per cent discount." },
+          { es: "On en est où, avec le devis ?", en: "Where are we with the quote?" },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Sophie opens with « Bon, faisons le point. Où en est-on ? ». What is she asking for?",
+            options: ["A status update on the hotel order.", "A decision on the discount.", "A written report by Friday.", "A celebration of the new contract."],
+            correctIndex: 0,
+            explanation: "\"Faire le point\" + \"où en est-on ?\" is the standard opening of a status round; no decision has been asked for yet.",
+          },
+        ],
+      },
+      {
+        heading: "The first exchange",
+        body: [
+          "Bon, faisons le point. Le groupe hôtelier veut quatre cents chambres meublées pour septembre. Nadia, où en est-on ? Nadia : Ils sont très intéressés, mais ils veulent une remise de quinze pour cent. Bruno : Quinze pour cent ? On n'a pas les reins assez solides pour ça. Avec la hausse du bois, on serait dans le rouge dès la première livraison. »",
+        ],
+        examples: [
           { es: "On n'a pas les reins assez solides pour prendre ce risque.", en: "We're not strong enough financially to take that risk." },
           { es: "Avec la hausse du bois, on serait dans le rouge dès la première livraison.", en: "With the rise in timber prices, we'd be in the red from the first delivery." },
           { es: "Leur concurrent a les reins solides : il peut se permettre de baisser ses prix.", en: "Their competitor has deep pockets: it can afford to cut its prices." },
-          { es: "On en est où, avec le devis ?", en: "Where are we with the quote?" },
         ],
         checkpoint: [
           {
@@ -936,6 +1325,19 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["Nous n'avons pas les reins assez solides pour ce projet.", "On a pas les reins assez solides pour ce projet."],
             explanation: "\"Ne pas avoir les reins assez solides\": not financially strong enough.",
           },
+        ],
+      },
+      {
+        heading: "Les reins solides, où en est-on",
+        body: [
+          "\"Ne pas avoir les reins assez solides\" (not to have strong enough kidneys, i.e. back) means not to be financially strong enough to take on a risk. Its positive is \"avoir les reins solides\". \"Où en est-on ?\" (where are we with this?) is the standard question to start a status update; in speech it is often \"on en est où ?\".",
+        ],
+        examples: [
+          { es: "Cette PME a les reins solides : trois ans de trésorerie d'avance.", en: "This small firm has deep pockets: three years of cash in hand." },
+          { es: "On en est où du recrutement ?", en: "Where are we with the recruitment?" },
+          { es: "Nous n'avons pas les reins assez solides pour racheter l'usine.", en: "We are not financially strong enough to buy the factory." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -948,37 +1350,36 @@ export const FR_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "The debate: trancher dans le vif, c'est pas gagné",
+        heading: "The register of a French meeting",
         body: [
-          "The meeting continues: « Nadia : Si on refuse, ils iront chez Durand, et on perd le marché de l'hôtellerie pour des années. Sophie : Il faut trancher dans le vif. Soit on accepte et on réduit nos marges, soit on refuse et on se concentre sur les particuliers. Bruno : Je propose de couper la poire en deux : huit pour cent, et un acompte de trente pour cent à la commande. Nadia : Huit pour cent... c'est pas gagné, mais je peux essayer. »",
-          "\"Trancher dans le vif\" (to cut into living flesh) is to take a radical, painful decision without delay. \"Couper la poire en deux\" (to cut the pear in half) is to split the difference, reach a compromise. \"C'est pas gagné\" (it's not won yet) is a shrugging way to say success is far from certain: 'it's going to be tough'.",
-          "Notice how Nadia switches to a more colloquial \"c'est pas gagné\" (\"ne\" dropped): she is thinking aloud and showing doubt. Idioms often mark such changes of tone in a meeting; recognising them tells you where people really stand.",
+          "Note the register: everyone uses idioms, but the sentences remain well formed, with \"ne\" mostly kept by Bruno and Sophie. It is the standard register (\"registre courant\") of a French meeting: relaxed, but not slangy.",
+        ],
+        examples: [
+          { es: "Bruno garde le « ne » : « on n'a pas les moyens ».", en: "Bruno keeps the \"ne\": \"on n'a pas les moyens\"." },
+          { es: "Nadia le laisse tomber : « c'est pas simple ».", en: "Nadia drops it: \"c'est pas simple\"." },
+          { es: "Le registre courant mêle idiomes et phrases bien construites.", en: "The standard register mixes idioms with well-made sentences." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does the register of this meeting tell you?",
+            options: ["Relaxed but standard French: idioms, full sentences, mostly with « ne ».", "Slang: the grammar is broken on purpose.", "Formal written French, as in a report.", "Technical jargon only the directors understand."],
+            correctIndex: 0,
+            explanation: "The \"registre courant\" of a meeting keeps the grammar intact; the idioms carry the relaxed tone, and dropping \"ne\" marks a shift to thinking aloud.",
+          },
+        ],
+      },
+      {
+        heading: "The debate: trancher dans le vif",
+        body: [
+          "The meeting continues: « Nadia : Si on refuse, ils iront chez Durand, et on perd le marché de l'hôtellerie pour des années. Sophie : Il faut trancher dans le vif.",
         ],
         examples: [
           { es: "Il faut trancher dans le vif : on arrête cette gamme.", en: "We have to make a tough call: we're dropping this product line." },
           { es: "Soit on accepte et on réduit nos marges, soit on refuse.", en: "Either we accept and cut our margins, or we say no." },
-          { es: "Je propose de couper la poire en deux : huit pour cent.", en: "I suggest we split the difference: eight per cent." },
-          { es: "Convaincre leur directeur des achats ? C'est pas gagné.", en: "Convince their purchasing director? That won't be easy." },
-          { es: "Un acompte de trente pour cent à la commande.", en: "A thirty per cent deposit on ordering." },
           { es: "Si on refuse, ils iront chez la concurrence.", en: "If we say no, they'll go to the competition." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "Let's split the difference.",
-            answer: "Coupons la poire en deux.",
-            altAnswers: ["On coupe la poire en deux.", "Coupons la poire en deux, alors.", "Et si on coupait la poire en deux ?"],
-            explanation: "\"Couper la poire en deux\" is to compromise halfway.",
-          },
-          {
-            type: "multiple-choice",
-            question: "Nadia says « C'est pas gagné ». What does she mean?",
-            options: ["It's going to be difficult.", "We've lost.", "It's free.", "We haven't earned anything."],
-            correctIndex: 0,
-            explanation: "\"C'est pas gagné\" means success is far from guaranteed.",
-          },
           {
             type: "translate",
             direction: "en-es",
@@ -991,19 +1392,106 @@ export const FR_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Your turn: closing the meeting",
+        heading: "Couper la poire en deux",
+        body: [
+          "Soit on accepte et on réduit nos marges, soit on refuse et on se concentre sur les particuliers. Bruno : Je propose de couper la poire en deux : huit pour cent, et un acompte de trente pour cent à la commande. Nadia : Huit pour cent... c'est pas gagné, mais je peux essayer. »",
+        ],
+        examples: [
+          { es: "Je propose de couper la poire en deux : huit pour cent.", en: "I suggest we split the difference: eight per cent." },
+          { es: "Un acompte de trente pour cent à la commande.", en: "A thirty per cent deposit on ordering." },
+          { es: "Coupons la poire en deux : dix pour cent et paiement comptant.", en: "Let's split the difference: ten per cent and payment in cash." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Let's split the difference.",
+            answer: "Coupons la poire en deux.",
+            altAnswers: ["On coupe la poire en deux.", "Coupons la poire en deux, alors.", "Et si on coupait la poire en deux ?"],
+            explanation: "\"Couper la poire en deux\" is to compromise halfway.",
+          },
+        ],
+      },
+      {
+        heading: "What the three idioms mean",
+        body: [
+          "\"Trancher dans le vif\" (to cut into living flesh) is to take a radical, painful decision without delay. \"Couper la poire en deux\" (to cut the pear in half) is to split the difference, reach a compromise. \"C'est pas gagné\" (it's not won yet) is a shrugging way to say success is far from certain: 'it's going to be tough'.",
+        ],
+        examples: [
+          { es: "Convaincre leur directeur des achats ? C'est pas gagné.", en: "Convince their purchasing director? That won't be easy." },
+          { es: "Trancher dans le vif, c'est décider sans attendre et sans plaisir.", en: "\"Trancher dans le vif\" is to decide at once, and without pleasure." },
+          { es: "Le directeur a tranché dans le vif : deux ateliers fermeront.", en: "The director made the tough call: two workshops will close." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Nadia says « C'est pas gagné ». What does she mean?",
+            options: ["It's going to be difficult.", "We've lost.", "It's free.", "We haven't earned anything."],
+            correctIndex: 0,
+            explanation: "\"C'est pas gagné\" means success is far from guaranteed.",
+          },
+        ],
+      },
+      {
+        heading: "What Nadia's change of register reveals",
+        body: [
+          "Notice how Nadia switches to a more colloquial \"c'est pas gagné\" (\"ne\" dropped): she is thinking aloud and showing doubt. Idioms often mark such changes of tone in a meeting; recognising them tells you where people really stand.",
+        ],
+        examples: [
+          { es: "« C'est pas gagné » montre qu'elle doute à voix haute.", en: "\"C'est pas gagné\" shows her doubting out loud." },
+          { es: "Les idiomes signalent souvent un changement de ton.", en: "Idioms often signal a change of tone." },
+          { es: "Repérer ce moment, c'est savoir où chacun se situe.", en: "Spotting that moment tells you where everyone stands." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A colleague is already planning the celebration before the contract is signed. What do you say to cool things down?",
+            options: ["On n'en est pas là.", "On a le vent en poupe.", "On coupe la poire en deux.", "On a du pain sur la planche."],
+            correctIndex: 0,
+            explanation: "\"On n'en est pas là\" means we haven't reached that stage yet.",
+          },
+        ],
+      },
+      {
+        heading: "Closing the meeting",
         body: [
           "The end of the meeting: « Sophie : Très bien. Nadia, tu as le feu vert pour proposer huit pour cent. Bruno, tu prépares un scénario au cas où ça capoterait. On refait un point vendredi. Bruno : Et si ça passe, il faudra mettre les bouchées doubles à l'atelier. Sophie : On n'en est pas là. Chaque chose en son temps. »",
-          "\"Capoter\" (to capsize) is to fall through: \"le projet a capoté\". \"Si ça passe\" (if it goes through) is its positive. \"On n'en est pas là\" (we're not there yet) cools down someone who is getting ahead of themselves, and \"chaque chose en son temps\" (one thing at a time) closes the subject.",
-          "When you take part in such a meeting, pick idioms that the room uses, keep the grammar standard, and avoid stacking several idioms in one sentence: \"on a du pain sur la planche, il faut mettre les bouchées doubles et tirer notre épingle du jeu\" sounds like a parody of management talk.",
         ],
         examples: [
           { es: "Tu as le feu vert pour proposer huit pour cent.", en: "You've got the go-ahead to offer eight per cent." },
           { es: "Prépare un scénario au cas où ça capoterait.", en: "Prepare a plan in case it falls through." },
+          { es: "On refait un point vendredi.", en: "We'll catch up again on Friday." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "On refait un point vendredi.",
+            question: "What does it mean?",
+            options: ["We'll catch up again on Friday.", "We'll redo the full stop on Friday.", "We'll start again from scratch on Friday.", "We'll make a decision on Friday."],
+            correctIndex: 0,
+            explanation: "\"Refaire un point\": to have another catch-up meeting.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "You've got the go-ahead. (to a colleague you call tu)",
+            answer: "Tu as le feu vert.",
+            altAnswers: ["T'as le feu vert.", "Je te donne le feu vert."],
+            explanation: "\"Avoir le feu vert\": permission to go ahead.",
+          },
+        ],
+      },
+      {
+        heading: "Capoter, si ça passe, on n'en est pas là",
+        body: [
+          "\"Capoter\" (to capsize) is to fall through: \"le projet a capoté\". \"Si ça passe\" (if it goes through) is its positive. \"On n'en est pas là\" (we're not there yet) cools down someone who is getting ahead of themselves, and \"chaque chose en son temps\" (one thing at a time) closes the subject.",
+        ],
+        examples: [
           { es: "Le rachat a capoté à la dernière minute.", en: "The takeover fell through at the last minute." },
           { es: "Et si ça passe, il faudra embaucher.", en: "And if it goes through, we'll have to hire." },
           { es: "On n'en est pas là. Chaque chose en son temps.", en: "We're not there yet. One thing at a time." },
-          { es: "On refait un point vendredi.", en: "We'll catch up again on Friday." },
         ],
         checkpoint: [
           {
@@ -1017,18 +1505,32 @@ export const FR_C2_U10: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: We're not there yet. One thing at a time.",
-            words: ["On", "n'en", "est", "pas", "là.", "Chaque", "chose", "en", "son", "temps."],
-            translation: "We're not there yet. One thing at a time.",
-            explanation: "\"On n'en est pas là\" cools down premature planning.",
+            prompt: "Put the words in order to say: We're not there yet, one step at a time.",
+            words: ["On n'en est pas là,", "une étape", "à la fois."],
+            translation: "We're not there yet, one step at a time.",
+            explanation: "\"On n'en est pas là\" cools down someone getting ahead of themselves.",
           },
+        ],
+      },
+      {
+        heading: "Don't stack idioms",
+        body: [
+          "When you take part in such a meeting, pick idioms that the room uses, keep the grammar standard, and avoid stacking several idioms in one sentence: \"on a du pain sur la planche, il faut mettre les bouchées doubles et tirer notre épingle du jeu\" sounds like a parody of management talk.",
+        ],
+        examples: [
+          { es: "Un idiome par phrase suffit pour sonner naturel.", en: "One idiom per sentence is enough to sound natural." },
+          { es: "Trois idiomes d'affilée, et c'est une parodie de manager.", en: "Three idioms in a row, and it is a parody of a manager." },
+          { es: "Choisissez ceux que la salle emploie déjà.", en: "Choose the ones the room already uses." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "On refait un point vendredi.",
-            question: "What does it mean?",
-            options: ["We'll catch up again on Friday.", "We'll redo the full stop on Friday.", "We'll start again from scratch on Friday.", "We'll make a decision on Friday."],
-            correctIndex: 0,
-            explanation: "\"Refaire un point\": to have another catch-up meeting.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it with one idiom instead of three.",
+            source: "On a du pain sur la planche, il faut mettre les bouchées doubles et tirer notre épingle du jeu.",
+            answer: "On a du pain sur la planche, mais nous y arriverons.",
+            altAnswers: ["On a du pain sur la planche : il faudra s'organiser.", "On a du pain sur la planche, et nous allons nous organiser."],
+            explanation: "Stacking idioms sounds like a parody. Keep one, then say the rest in plain French.",
           },
         ],
       },
@@ -1071,13 +1573,6 @@ export const FR_C2_U10: Lesson[] = [
         explanation: "\"Soit... soit...\" presents two alternatives, a staple of decision-making.",
       },
       {
-        type: "multiple-choice",
-        question: "A colleague is already planning the celebration before the contract is signed. What do you say to cool things down?",
-        options: ["On n'en est pas là.", "On a le vent en poupe.", "On coupe la poire en deux.", "On a du pain sur la planche."],
-        correctIndex: 0,
-        explanation: "\"On n'en est pas là\" means we haven't reached that stage yet.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -1085,15 +1580,6 @@ export const FR_C2_U10: Lesson[] = [
         answer: "Je propose de couper la poire en deux à dix pour cent.",
         altAnswers: ["Je propose qu'on coupe la poire en deux à dix pour cent.", "Je propose que nous coupions la poire en deux à dix pour cent.", "Je propose de couper la poire en deux : dix pour cent."],
         explanation: "\"Proposer de\" + infinitive, or \"proposer que\" + subjunctive.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "You've got the go-ahead. (to a colleague you call tu)",
-        answer: "Tu as le feu vert.",
-        altAnswers: ["T'as le feu vert.", "Je te donne le feu vert."],
-        explanation: "\"Avoir le feu vert\": permission to go ahead.",
       },
       {
         type: "matching",
@@ -1109,10 +1595,10 @@ export const FR_C2_U10: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: If it goes through, we'll have to hire.",
-        words: ["Si", "ça", "passe,", "il", "faudra", "embaucher."],
-        translation: "If it goes through, we'll have to hire.",
-        explanation: "\"Si\" + present, then future in the main clause.",
+        prompt: "Put the words in order to say: If it goes through, we'll have to invest.",
+        words: ["Si ça passe,", "il faudra", "investir."],
+        translation: "If it goes through, we'll have to invest.",
+        explanation: "\"Si\" + present, then the future in the main clause: \"si ça passe, il faudra\".",
       },
       {
         type: "dictation",
@@ -1125,6 +1611,15 @@ export const FR_C2_U10: Lesson[] = [
         prompt: "Say it in French: Right, let's take stock. Where are we?",
         explanation: "The classic opening of a status meeting.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Prévois une solution de repli au cas où le contrat capote.",
+        answer: "Prévois une solution de repli au cas où le contrat capoterait.",
+        altAnswers: ["Prévois une solution de repli au cas où le contrat viendrait à capoter."],
+        explanation: "\"Au cas où\" takes the conditional in French: \"au cas où ça capoterait\".",
+      },
     ],
   },
   {
@@ -1136,19 +1631,44 @@ export const FR_C2_U10: Lesson[] = [
     duration: "19 min",
     sections: [
       {
-        heading: "Crisis: sauver les meubles, éteindre l'incendie, jeter l'éponge",
+        heading: "Éteindre l'incendie, sauver les meubles",
         body: [
           "When things go wrong, French business talk turns to firefighting and boxing. \"Éteindre l'incendie\" (to put out the fire) is to deal with an urgent crisis; a manager who does nothing else \"passe son temps à éteindre des incendies\". \"Sauver les meubles\" (to save the furniture) is to salvage what can be salvaged from a disaster: \"on a perdu le client, mais on a sauvé les meubles en gardant la filiale belge\".",
-          "\"Jeter l'éponge\" (to throw in the sponge) is to give up, from boxing, where English throws in the towel. \"*Jeter la serviette\" is a calque in France (Quebec French does use it). \"Mettre la clé sous la porte\" (to put the key under the door) is to close down a business, usually after bankruptcy: \"le restaurant a mis la clé sous la porte\". Note the fixed articles: \"la clé\", \"la porte\"; also spelt \"clef\".",
-          "\"En avoir sous le pied\" (to have some left under the foot, from cycling) means to have reserves, not to have given everything yet: \"le groupe en a encore sous le pied\". The pronoun \"en\" is part of the idiom and never changes.",
         ],
         examples: [
           { es: "Depuis la cyberattaque, l'équipe informatique passe ses journées à éteindre des incendies.", en: "Since the cyberattack, the IT team has spent its days firefighting." },
           { es: "On a perdu le contrat, mais on a sauvé les meubles.", en: "We lost the contract, but we salvaged what we could." },
+          { es: "Il faut d'abord éteindre l'incendie, on analysera les causes après.", en: "First we have to deal with the crisis; we'll look at the causes afterwards." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "On a sauvé les meubles.",
+            question: "What does it mean?",
+            options: ["We salvaged what we could.", "We saved the furniture from a fire.", "We sold the furniture.", "We moved the furniture."],
+            correctIndex: 0,
+            explanation: "\"Sauver les meubles\" is figurative: to limit the damage.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The IT team spends its days firefighting.",
+            answer: "L'équipe informatique passe ses journées à éteindre des incendies.",
+            altAnswers: ["L'équipe informatique passe son temps à éteindre des incendies."],
+            explanation: "\"Passer ses journées à\" + infinitive; the plural \"des incendies\" is what makes it firefighting as a way of life.",
+          },
+        ],
+      },
+      {
+        heading: "Jeter l'éponge, mettre la clé sous la porte",
+        body: [
+          "\"Jeter l'éponge\" (to throw in the sponge) is to give up, from boxing, where English throws in the towel. \"*Jeter la serviette\" is a calque in France (Quebec French does use it). \"Mettre la clé sous la porte\" (to put the key under the door) is to close down a business, usually after bankruptcy: \"le restaurant a mis la clé sous la porte\". Note the fixed articles: \"la clé\", \"la porte\"; also spelt \"clef\".",
+        ],
+        examples: [
           { es: "Après trois ans de procès, l'inventeur a jeté l'éponge.", en: "After three years of litigation, the inventor threw in the towel." },
           { es: "La librairie du quartier a mis la clé sous la porte.", en: "The local bookshop has closed down." },
-          { es: "Ne vous inquiétez pas, l'entreprise en a encore sous le pied.", en: "Don't worry, the company still has something in reserve." },
-          { es: "Il faut d'abord éteindre l'incendie, on analysera les causes après.", en: "First we have to deal with the crisis; we'll look at the causes afterwards." },
+          { es: "Après deux mauvaises saisons, l'hôtel a mis la clé sous la porte.", en: "After two bad seasons, the hotel closed down." },
         ],
         checkpoint: [
           {
@@ -1169,30 +1689,38 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["a mis la clef sous la porte", "a fermé"],
             explanation: "\"Mettre la clé (clef) sous la porte\": to shut down for good.",
           },
+        ],
+      },
+      {
+        heading: "En avoir sous le pied",
+        body: [
+          "\"En avoir sous le pied\" (to have some left under the foot, from cycling) means to have reserves, not to have given everything yet: \"le groupe en a encore sous le pied\". The pronoun \"en\" is part of the idiom and never changes.",
+        ],
+        examples: [
+          { es: "Ne vous inquiétez pas, l'entreprise en a encore sous le pied.", en: "Don't worry, the company still has something in reserve." },
+          { es: "Le coureur en avait encore sous le pied dans la dernière montée.", en: "The rider still had something in reserve on the last climb." },
+          { es: "Cette équipe en a sous le pied pour la fin de saison.", en: "This team has reserves for the end of the season." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "On a sauvé les meubles.",
-            question: "What does it mean?",
-            options: ["We salvaged what we could.", "We saved the furniture from a fire.", "We sold the furniture.", "We moved the furniture."],
-            correctIndex: 0,
-            explanation: "\"Sauver les meubles\" is figurative: to limit the damage.",
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Don't worry, the team [still has something in reserve].",
+            sentence: "Ne t'inquiète pas, l'équipe ___.",
+            answer: "en a encore sous le pied",
+            explanation: "\"En avoir sous le pied\": the pronoun \"en\" is fixed.",
           },
         ],
       },
       {
-        heading: "Relations and timing: renvoyer l'ascenseur, couper la poire en deux, prendre le train en marche",
+        heading: "Renvoyer l'ascenseur",
         body: [
           "\"Renvoyer l'ascenseur\" (to send the lift back) is to return a favour: \"il m'a recommandé pour ce poste, je lui renverrai l'ascenseur\". It is everywhere in professional networking, sometimes with a hint of cronyism (\"un renvoi d'ascenseur\").",
-          "\"Prendre le train en marche\" (to jump on the moving train) is to join something already under way: a project, a trend, a meeting. It can be neutral (\"elle a pris le train en marche mais s'est vite adaptée\") or critical (jumping on the bandwagon). \"Couper la poire en deux\", seen in the meeting lab, is to compromise.",
-          "Other common ones: \"avoir plusieurs fers au feu\" (to have several irons in the fire; beware \"avoir des casseroles\", which means to have skeletons in the cupboard), \"faire cavalier seul\" (to go it alone), \"monter au créneau\" (to step up and defend a position publicly), \"avoir le dernier mot\".",
         ],
         examples: [
           { es: "Il m'a recommandée auprès de son directeur : je lui renverrai l'ascenseur.", en: "He recommended me to his director: I'll return the favour." },
-          { es: "Je suis arrivé en mars, j'ai pris le train en marche.", en: "I arrived in March, so I joined halfway through." },
-          { es: "Beaucoup de marques prennent le train en marche de l'écologie.", en: "Many brands are jumping on the green bandwagon." },
-          { es: "Elle a plusieurs fers au feu : trois entretiens cette semaine.", en: "She has several irons in the fire: three interviews this week." },
-          { es: "Le PDG est monté au créneau pour défendre la stratégie.", en: "The CEO stepped up to defend the strategy." },
-          { es: "Au lieu de faire cavalier seul, rejoignez le consortium.", en: "Instead of going it alone, join the consortium." },
+          { es: "Un renvoi d'ascenseur un peu trop visible a fait scandale.", en: "A rather too visible exchange of favours caused a scandal." },
+          { es: "Elle m'a aidé, je lui renverrai l'ascenseur volontiers.", en: "She helped me; I'll gladly return the favour." },
         ],
         checkpoint: [
           {
@@ -1204,6 +1732,19 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["Je vous renverrai l'ascenseur.", "Je lui renverrai l'ascenseur.", "Je te rendrai la pareille.", "Je vous rendrai la pareille.", "Je renverrai l'ascenseur."],
             explanation: "\"Renvoyer l'ascenseur à quelqu'un\": to return a favour.",
           },
+        ],
+      },
+      {
+        heading: "Prendre le train en marche",
+        body: [
+          "\"Prendre le train en marche\" (to jump on the moving train) is to join something already under way: a project, a trend, a meeting. It can be neutral (\"elle a pris le train en marche mais s'est vite adaptée\") or critical (jumping on the bandwagon). \"Couper la poire en deux\", seen in the meeting lab, is to compromise.",
+        ],
+        examples: [
+          { es: "Je suis arrivé en mars, j'ai pris le train en marche.", en: "I arrived in March, so I joined halfway through." },
+          { es: "Beaucoup de marques prennent le train en marche de l'écologie.", en: "Many brands are jumping on the green bandwagon." },
+          { es: "Il a pris le train en marche et s'est adapté en deux semaines.", en: "He joined halfway through and adapted in two weeks." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1213,22 +1754,46 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["Elle a rejoint le projet en cours de route.", "Elle a pris le train en marche sur ce projet."],
             explanation: "\"Prendre le train en marche\": to join something already under way.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Our competitors joined the trend two years late.",
+            answer: "Nos concurrents ont pris le train en marche avec deux ans de retard.",
+            altAnswers: ["Nos concurrents ont pris le train en marche deux ans trop tard."],
+            explanation: "\"Prendre le train en marche\" is to join something already under way, here with a critical edge.",
+          },
+        ],
+      },
+      {
+        heading: "Fers au feu, cavalier seul, créneau",
+        body: [
+          "Other common ones: \"avoir plusieurs fers au feu\" (to have several irons in the fire; beware \"avoir des casseroles\", which means to have skeletons in the cupboard), \"faire cavalier seul\" (to go it alone), \"monter au créneau\" (to step up and defend a position publicly), \"avoir le dernier mot\".",
+        ],
+        examples: [
+          { es: "Elle a plusieurs fers au feu : trois entretiens cette semaine.", en: "She has several irons in the fire: three interviews this week." },
+          { es: "Le PDG est monté au créneau pour défendre la stratégie.", en: "The CEO stepped up to defend the strategy." },
+          { es: "Au lieu de faire cavalier seul, rejoignez le consortium.", en: "Instead of going it alone, join the consortium." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A candidate is said to « avoir des casseroles ». What does that mean?",
+            options: ["He has skeletons in the cupboard.", "He has several projects on the go.", "He cooks for his staff.", "He defends his position publicly."],
+            correctIndex: 0,
+            explanation: "\"Avoir des casseroles\" (literally to drag saucepans behind you) means to have a shady past; the irons in the fire are \"plusieurs fers au feu\".",
+          },
         ],
       },
       {
         heading: "Franglais and its official equivalents",
         body: [
           "French offices are full of English: \"une deadline\", \"un brainstorming\", \"un feedback\", \"un call\", \"le reporting\", \"être overbooké\", \"checker\", \"forwarder un mail\". The official commission for the French language proposes equivalents: \"une échéance\" or \"une date butoir\", \"un remue-méninges\", \"un retour\", \"une réunion téléphonique\" or \"un appel\", \"le compte rendu\", \"débordé\", \"vérifier\", \"transférer un courriel\". In formal writing and in the public sector, these French terms are expected.",
-          "Then there is French corporate jargon in French words, mocked as \"le jargon managérial\": \"je reviens vers vous\" (I'll get back to you, a calque of the English), \"on se cale un point\" (let's schedule a catch-up), \"impacter\" (to affect), \"prioriser\", \"être force de proposition\" (to be proactive), \"monter en compétences\". Satirical books and TV sketches love to parody them.",
-          "Practical advice for a Mastery speaker: understand all of it, use some of it in a startup or a multinational where everyone does, and switch to plain French in letters, reports and with older or public-sector interlocutors. \"Je reviens vers vous\" is now standard in emails, but \"je vous recontacte\" or \"je vous tiens informé\" is never wrong.",
         ],
         examples: [
           { es: "La date butoir pour le dépôt des dossiers est fixée au 15 mai.", en: "The deadline for submitting applications is 15 May." },
           { es: "On organise un remue-méninges jeudi pour trouver un nom au produit.", en: "We're holding a brainstorming session on Thursday to find a name for the product." },
           { es: "Merci pour votre retour, je vais corriger le document.", en: "Thanks for your feedback, I'll correct the document." },
-          { es: "Je reviens vers vous dès que j'ai la réponse du client.", en: "I'll get back to you as soon as I have the client's answer." },
-          { es: "On se cale un point la semaine prochaine ?", en: "Shall we schedule a catch-up next week?" },
-          { es: "Je suis complètement débordé cette semaine.", en: "I'm completely swamped this week." },
           { es: "Pouvez-vous me transférer le courriel du fournisseur ?", en: "Could you forward me the supplier's email?" },
         ],
         checkpoint: [
@@ -1242,6 +1807,31 @@ export const FR_C2_U10: Lesson[] = [
             explanation: "\"Date butoir\", \"date limite\" or \"échéance\" replace \"deadline\" in formal French.",
           },
           {
+            type: "matching",
+            instructions: "Match each franglais term with its official French equivalent.",
+            pairs: [
+              { left: "une deadline", right: "une date butoir" },
+              { left: "un brainstorming", right: "un remue-méninges" },
+              { left: "un feedback", right: "un retour" },
+              { left: "overbooké", right: "débordé" },
+              { left: "forwarder", right: "transférer" },
+            ],
+            explanation: "The French terms are expected in formal and public-sector writing.",
+          },
+        ],
+      },
+      {
+        heading: "Jargon in French words",
+        body: [
+          "Then there is French corporate jargon in French words, mocked as \"le jargon managérial\": \"je reviens vers vous\" (I'll get back to you, a calque of the English), \"on se cale un point\" (let's schedule a catch-up), \"impacter\" (to affect), \"prioriser\", \"être force de proposition\" (to be proactive), \"monter en compétences\". Satirical books and TV sketches love to parody them.",
+        ],
+        examples: [
+          { es: "Je reviens vers vous dès que j'ai la réponse du client.", en: "I'll get back to you as soon as I have the client's answer." },
+          { es: "On se cale un point la semaine prochaine ?", en: "Shall we schedule a catch-up next week?" },
+          { es: "Nous attendons de vous que vous soyez force de proposition.", en: "We expect you to be proactive." },
+        ],
+        checkpoint: [
+          {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
@@ -1250,6 +1840,19 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["Merci pour ton retour.", "Merci de votre retour.", "Merci de ton retour.", "Merci pour vos retours.", "Merci pour tes retours."],
             explanation: "\"Un retour\" is the French for feedback; \"un feedback\" is franglais.",
           },
+        ],
+      },
+      {
+        heading: "When to switch to plain French",
+        body: [
+          "Practical advice for a Mastery speaker: understand all of it, use some of it in a startup or a multinational where everyone does, and switch to plain French in letters, reports and with older or public-sector interlocutors. \"Je reviens vers vous\" is now standard in emails, but \"je vous recontacte\" or \"je vous tiens informé\" is never wrong.",
+        ],
+        examples: [
+          { es: "Je suis complètement débordé cette semaine.", en: "I'm completely swamped this week." },
+          { es: "Je vous recontacte dès que possible.", en: "I'll get back to you as soon as I can." },
+          { es: "Je vous tiens informé de la suite du dossier.", en: "I'll keep you informed about the file." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which phrase would you avoid in a letter to the town hall?",
@@ -1271,39 +1874,13 @@ export const FR_C2_U10: Lesson[] = [
         explanation: "\"Mettre la clé sous la porte\": fixed articles.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "We spend our time firefighting.",
-        answer: "On passe notre temps à éteindre des incendies.",
-        altAnswers: ["Nous passons notre temps à éteindre des incendies.", "On passe notre temps à éteindre les incendies.", "Nous passons notre temps à éteindre les incendies.", "On passe son temps à éteindre des incendies."],
-        explanation: "\"Passer son temps à\" + infinitive; \"éteindre des incendies\" is crisis management.",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Don't worry, the team [still has something in reserve].",
-        sentence: "Ne t'inquiète pas, l'équipe ___.",
-        answer: "en a encore sous le pied",
-        explanation: "\"En avoir sous le pied\": the pronoun \"en\" is fixed.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I'll get back to you tomorrow.",
-        answer: "Je reviens vers vous demain.",
-        altAnswers: ["Je reviens vers toi demain.", "Je vous recontacte demain.", "Je te recontacte demain.", "Je reviendrai vers vous demain.", "Je vous recontacterai demain.", "Je vous rappelle demain.", "Je te rappelle demain."],
-        explanation: "\"Je reviens vers vous\" is standard office French; \"je vous recontacte\" is never wrong.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Many brands are jumping on the bandwagon.",
-        answer: "Beaucoup de marques prennent le train en marche.",
-        altAnswers: ["De nombreuses marques prennent le train en marche.", "Beaucoup de marques suivent le mouvement."],
-        explanation: "\"Prendre le train en marche\" can mean jumping on the bandwagon.",
+        answer: "Je reviens vers vous",
+        altAnswers: ["Je vous recontacte", "Je vous tiens informé"],
+        explanation: "\"Je reviens vers vous\" is a calque that has become standard in emails; \"je vous recontacte\" is never wrong.",
+        en: "[I'll get back to you] as soon as I have the figures.",
+        sentence: "___ dès que j'ai les chiffres.",
       },
       {
         type: "multiple-choice",
@@ -1311,18 +1888,6 @@ export const FR_C2_U10: Lesson[] = [
         options: ["jeter l'éponge", "jeter le chiffon", "lancer la serviette", "jeter le torchon"],
         correctIndex: 0,
         explanation: "French boxing throws in the sponge: \"jeter l'éponge\".",
-      },
-      {
-        type: "matching",
-        instructions: "Match each franglais term with its official French equivalent.",
-        pairs: [
-          { left: "une deadline", right: "une date butoir" },
-          { left: "un brainstorming", right: "un remue-méninges" },
-          { left: "un feedback", right: "un retour" },
-          { left: "overbooké", right: "débordé" },
-          { left: "forwarder", right: "transférer" },
-        ],
-        explanation: "The French terms are expected in formal and public-sector writing.",
       },
       {
         type: "translate",
@@ -1335,10 +1900,10 @@ export const FR_C2_U10: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I'm completely swamped this week.",
-        words: ["Je", "suis", "complètement", "débordé", "cette", "semaine."],
-        translation: "I'm completely swamped this week.",
-        explanation: "\"Débordé\" (overflowing) replaces franglais \"overbooké\".",
+        prompt: "Put the words in order to say: I am completely swamped until Thursday.",
+        words: ["Je suis", "complètement débordé", "jusqu'à jeudi."],
+        translation: "I am completely swamped until Thursday.",
+        explanation: "\"Débordé\" is the French for overbooked or swamped.",
       },
       {
         type: "listen-choose",
@@ -1350,9 +1915,35 @@ export const FR_C2_U10: Lesson[] = [
       },
       {
         type: "speak",
-        text: "On a perdu le contrat, mais on a sauvé les meubles.",
-        prompt: "Say it in French: We lost the contract, but we salvaged what we could.",
-        explanation: "\"Sauver les meubles\": limiting the damage.",
+        text: "On a perdu l'appel d'offres, mais on a gardé la filiale belge.",
+        prompt: "Say it in French: We lost the tender, but we kept the Belgian subsidiary.",
+        explanation: "The plain version of \"sauver les meubles\": say what was lost, then what was kept.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Après deux ans de démarches, la chercheuse a jeté la serviette.",
+        answer: "Après deux ans de démarches, la chercheuse a jeté l'éponge.",
+        explanation: "In France the boxing image is the sponge, not the towel: \"jeter l'éponge\". \"Jeter la serviette\" is a calque of the English.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite the email sentence in plain French, without franglais.",
+        source: "Je te forwarde le mail et on se cale un call pour checker la deadline.",
+        answer: "Je te transfère le courriel et nous fixons un appel pour vérifier l'échéance.",
+        altAnswers: ["Je te transfère le courriel et on fixe un appel pour vérifier l'échéance.", "Je te transfère le courriel et nous convenons d'un appel pour vérifier la date butoir."],
+        explanation: "The official equivalents are \"transférer\", \"un appel\" or \"une réunion téléphonique\", \"vérifier\", \"une échéance\" or \"une date butoir\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "The team put out the fire, then looked for the causes.",
+        answer: "L'équipe a éteint l'incendie, puis elle a cherché les causes.",
+        altAnswers: ["L'équipe a éteint l'incendie, puis a cherché les causes."],
+        explanation: "\"Éteindre l'incendie\" is dealing with the emergency; the analysis comes afterwards.",
       },
     ],
   },
@@ -1365,18 +1956,33 @@ export const FR_C2_U10: Lesson[] = [
     duration: "19 min",
     sections: [
       {
-        heading: "The tools: nominalisation, the impersonal and the passive",
+        heading: "Two ways of telling the same facts",
         body: [
           "The same facts can be told at the coffee machine or in a board report. Corridor French uses idioms, \"on\", verbs and short clauses: \"on a sauvé les meubles\". Report French uses nouns, impersonal constructions and the passive, and avoids images: \"les pertes ont pu être contenues\". Converting between the two is a core DALF C2 skill, and a daily one in French companies.",
-          "Three tools do most of the work. Nominalisation turns a verb into a noun: \"on a baissé les prix\" → \"la baisse des prix\". The impersonal removes the speaker: \"il convient de\", \"il apparaît que\", \"il a été décidé de\". The passive or a pronominal verb hides the agent: \"les objectifs ont été atteints\", \"la situation s'est stabilisée\".",
-          "The trap is losing precision. \"On a sauvé les meubles\" says the result was bad but not catastrophic; \"les pertes ont pu être contenues\" keeps both ideas (losses, but limited). \"La situation est bonne\" would betray the meaning. Always ask: what exactly does the idiom say about scale, cause and attitude?",
         ],
         examples: [
           { es: "On a sauvé les meubles. → Les pertes ont pu être contenues.", en: "We salvaged what we could. → Losses were contained." },
-          { es: "On a baissé les prix. → La baisse des prix a été décidée.", en: "We cut prices. → A price cut was decided." },
-          { es: "Il faut se serrer la ceinture. → Il convient de réduire les dépenses.", en: "We need to tighten our belts. → Spending should be reduced." },
           { es: "On a le feu vert. → Le projet a été validé par la direction.", en: "We've got the green light. → The project has been approved by management." },
           { es: "Ça a capoté. → Les négociations n'ont pas abouti.", en: "It fell through. → The negotiations were unsuccessful." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What marks report French, as opposed to corridor French?",
+            options: ["Nouns, impersonal constructions and the passive, with no images.", "Short clauses with \"on\" and vivid idioms.", "The present tense and the second person.", "Longer words but the same sentence patterns."],
+            correctIndex: 0,
+            explanation: "The report prefers \"la baisse des prix\" to \"on a baissé les prix\", and drops the images: that is exactly what the three tools do.",
+          },
+        ],
+      },
+      {
+        heading: "The three tools",
+        body: [
+          "Three tools do most of the work. Nominalisation turns a verb into a noun: \"on a baissé les prix\" → \"la baisse des prix\". The impersonal removes the speaker: \"il convient de\", \"il apparaît que\", \"il a été décidé de\". The passive or a pronominal verb hides the agent: \"les objectifs ont été atteints\", \"la situation s'est stabilisée\".",
+        ],
+        examples: [
+          { es: "On a baissé les prix. → La baisse des prix a été décidée.", en: "We cut prices. → A price cut was decided." },
+          { es: "Il faut se serrer la ceinture. → Il convient de réduire les dépenses.", en: "We need to tighten our belts. → Spending should be reduced." },
           { es: "On est dans le rouge. → L'exercice se solde par un déficit.", en: "We're in the red. → The financial year ends in a deficit." },
         ],
         checkpoint: [
@@ -1398,6 +2004,19 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["Il conviendra de réduire les dépenses", "Il y a lieu de réduire les dépenses", "Les dépenses devront être réduites"],
             explanation: "\"Il convient de\" + infinitive is the impersonal recommendation of reports.",
           },
+        ],
+      },
+      {
+        heading: "The trap: losing precision",
+        body: [
+          "The trap is losing precision. \"On a sauvé les meubles\" says the result was bad but not catastrophic; \"les pertes ont pu être contenues\" keeps both ideas (losses, but limited). \"La situation est bonne\" would betray the meaning. Always ask: what exactly does the idiom say about scale, cause and attitude?",
+        ],
+        examples: [
+          { es: "Les pertes ont pu être contenues : il y a des pertes, mais limitées.", en: "\"Les pertes ont pu être contenues\": there are losses, but limited ones." },
+          { es: "« La situation est bonne » trahirait le sens de l'expression.", en: "\"La situation est bonne\" would betray the meaning of the idiom." },
+          { es: "Demandez-vous ce que l'idiome dit de l'ampleur et de la cause.", en: "Ask yourself what the idiom says about scale and cause." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "Which report sentence keeps the exact meaning of « on a sauvé les meubles »?",
@@ -1408,19 +2027,57 @@ export const FR_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "From the corridor to the report",
+        heading: "The corridor version",
         body: [
           "Read this corridor exchange at Ateliers Morel after the hotel deal: « On a mis les bouchées doubles tout l'été, mais avec la hausse du bois, on a juste sauvé les meubles. Si les prix ne baissent pas, il va falloir se serrer la ceinture, et pas qu'un peu. Bref, c'est pas gagné pour l'an prochain. »",
+        ],
+        examples: [
+          { es: "On a mis les bouchées doubles tout l'été.", en: "We worked flat out all summer." },
+          { es: "Avec la hausse du bois, on a juste sauvé les meubles.", en: "With timber prices up, we only just limited the damage." },
+          { es: "Bref, c'est pas gagné pour l'an prochain.", en: "In short, next year is far from certain." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which report sentence matches « Il va falloir se serrer la ceinture, et pas qu'un peu » ?",
+            options: ["Des mesures d'économie significatives s'imposeront.", "Quelques économies seront peut-être utiles.", "Il convient de porter une ceinture.", "Les dépenses ont été maîtrisées."],
+            correctIndex: 0,
+            explanation: "\"Significatives\" renders the intensity of \"et pas qu'un peu\"; the others change the meaning.",
+          },
+        ],
+      },
+      {
+        heading: "The report version",
+        body: [
           "Now the report version: « Malgré une intensification de la production au cours de l'été, l'entreprise n'a pu, face à la hausse du coût des matières premières, que limiter les pertes. En l'absence de baisse des prix, des mesures d'économie significatives s'imposeront. Les perspectives pour l'exercice suivant demeurent incertaines. »",
-          "Look at the transformations: \"mettre les bouchées doubles\" → \"une intensification de la production\" (nominalisation); \"on a juste sauvé les meubles\" → \"n'a pu... que limiter les pertes\" (restriction with \"ne... que\"); \"il va falloir se serrer la ceinture, et pas qu'un peu\" → \"des mesures d'économie significatives s'imposeront\" (the adjective replaces the colloquial intensifier); \"c'est pas gagné\" → \"les perspectives demeurent incertaines\".",
         ],
         examples: [
           { es: "Malgré une intensification de la production au cours de l'été...", en: "Despite a step-up in production over the summer..." },
           { es: "Face à la hausse du coût des matières premières, l'entreprise n'a pu que limiter les pertes.", en: "Faced with rising raw material costs, the company could only limit its losses." },
           { es: "En l'absence de baisse des prix, des mesures d'économie s'imposeront.", en: "If prices do not fall, cost-cutting measures will be necessary." },
           { es: "Les perspectives pour l'exercice suivant demeurent incertaines.", en: "The outlook for the next financial year remains uncertain." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French. (report style)",
+            source: "Cost-cutting measures will be necessary.",
+            answer: "Des mesures d'économie s'imposeront.",
+            altAnswers: ["Des mesures d'économie seront nécessaires.", "Des mesures d'économies s'imposeront.", "Des mesures d'économies seront nécessaires.", "Des économies s'imposeront."],
+            explanation: "\"S'imposer\" (to be necessary) is a pronominal verb that avoids naming who must act.",
+          },
+        ],
+      },
+      {
+        heading: "Transformation by transformation",
+        body: [
+          "Look at the transformations: \"mettre les bouchées doubles\" → \"une intensification de la production\" (nominalisation); \"on a juste sauvé les meubles\" → \"n'a pu... que limiter les pertes\" (restriction with \"ne... que\"); \"il va falloir se serrer la ceinture, et pas qu'un peu\" → \"des mesures d'économie significatives s'imposeront\" (the adjective replaces the colloquial intensifier); \"c'est pas gagné\" → \"les perspectives demeurent incertaines\".",
+        ],
+        examples: [
           { es: "Le chiffre d'affaires a progressé de 12 % sur un an.", en: "Turnover grew 12% year on year." },
           { es: "La société a enregistré une perte nette de deux millions d'euros.", en: "The company posted a net loss of two million euros." },
+          { es: "La restriction « ne... que » remplace l'adverbe « juste ».", en: "The restriction \"ne... que\" replaces the adverb \"juste\"." },
         ],
         checkpoint: [
           {
@@ -1436,10 +2093,10 @@ export const FR_C2_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French. (report style)",
-            source: "Cost-cutting measures will be necessary.",
-            answer: "Des mesures d'économie s'imposeront.",
-            altAnswers: ["Des mesures d'économie seront nécessaires.", "Des mesures d'économies s'imposeront.", "Des mesures d'économies seront nécessaires.", "Des économies s'imposeront."],
-            explanation: "\"S'imposer\" (to be necessary) is a pronominal verb that avoids naming who must act.",
+            source: "Losses could only be limited.",
+            answer: "Les pertes n'ont pu être que limitées.",
+            altAnswers: ["On n'a pu que limiter les pertes.", "Les pertes ont seulement pu être limitées.", "Il n'a été possible que de limiter les pertes."],
+            explanation: "\"Ne... que\" expresses restriction: the losses could be limited but not avoided, exactly what \"on a sauvé les meubles\" means.",
           },
         ],
       },
@@ -1447,13 +2104,28 @@ export const FR_C2_U10: Lesson[] = [
         heading: "From the report back to plain speech",
         body: [
           "The opposite direction is just as useful: explaining a dense report to colleagues or to a friend. Report: « Compte tenu d'une conjoncture défavorable, la direction a procédé à une réorganisation des services, qui s'est traduite par la suppression de quarante postes. » Corridor: « Avec la crise, la direction a tout réorganisé, et ils ont supprimé quarante postes. »",
-          "Undo the tools: replace nouns by verbs (\"a procédé à une réorganisation\" → \"a réorganisé\"), name the agent (\"ils\", \"la direction\"), use \"on\" and the passé composé, and allow a well-chosen idiom: \"ça a été la douche froide\" (it came as a cold shower).",
-          "Don't overdo it: a plain-speech version is not a slang version. \"La direction a viré quarante personnes\" is accurate but adds anger; \"ils ont supprimé quarante postes\" stays neutral. Decide which attitude you want to express.",
         ],
         examples: [
           { es: "La direction a procédé à une réorganisation des services.", en: "Management carried out a reorganisation of departments." },
           { es: "La direction a tout réorganisé.", en: "Management reorganised everything." },
           { es: "Cela s'est traduit par la suppression de quarante postes.", en: "This resulted in forty jobs being cut." },
+        ],
+        checkpoint: [
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: This resulted in two sites closing.",
+            words: ["Cela s'est traduit", "par la fermeture", "de deux sites."],
+            translation: "This resulted in two sites closing.",
+            explanation: "\"Se traduire par\" + noun is the report verb for resulting in; the participle agrees with \"cela\".",
+          },
+        ],
+      },
+      {
+        heading: "Undoing the three tools",
+        body: [
+          "Undo the tools: replace nouns by verbs (\"a procédé à une réorganisation\" → \"a réorganisé\"), name the agent (\"ils\", \"la direction\"), use \"on\" and the passé composé, and allow a well-chosen idiom: \"ça a été la douche froide\" (it came as a cold shower).",
+        ],
+        examples: [
           { es: "Ils ont supprimé quarante postes, ça a été la douche froide.", en: "They cut forty jobs, it came as a real blow." },
           { es: "Les objectifs n'ont pas été atteints. → On n'a pas atteint les objectifs.", en: "The targets were not met. → We didn't hit our targets." },
           { es: "Il a été décidé de reporter le lancement. → On a repoussé le lancement.", en: "It was decided to postpone the launch. → We've pushed back the launch." },
@@ -1469,19 +2141,34 @@ export const FR_C2_U10: Lesson[] = [
             explanation: "Plain speech names the agent (\"on\") and uses a simple verb in the passé composé.",
           },
           {
-            type: "word-order",
-            prompt: "Put the words in order to say: This resulted in forty jobs being cut.",
-            words: ["Cela", "s'est", "traduit", "par", "la", "suppression", "de", "quarante", "postes."],
-            translation: "This resulted in forty jobs being cut.",
-            explanation: "\"Se traduire par\" + noun: a typical report link between cause and effect.",
-          },
-          {
             type: "listen-choose",
             audio: "Ça a été la douche froide.",
             question: "What does it mean?",
             options: ["It came as a nasty shock.", "The shower was cold.", "It was a refreshing change.", "It was an easy decision."],
             correctIndex: 0,
             explanation: "\"La douche froide\" is a brutal disappointment.",
+          },
+        ],
+      },
+      {
+        heading: "Plain is not slangy",
+        body: [
+          "Don't overdo it: a plain-speech version is not a slang version. \"La direction a viré quarante personnes\" is accurate but adds anger; \"ils ont supprimé quarante postes\" stays neutral. Decide which attitude you want to express.",
+        ],
+        examples: [
+          { es: "« Ils ont supprimé quarante postes » reste neutre.", en: "\"Ils ont supprimé quarante postes\" stays neutral." },
+          { es: "« La direction a viré quarante personnes » ajoute la colère.", en: "\"La direction a viré quarante personnes\" adds anger." },
+          { es: "Choisissez l'attitude que vous voulez faire entendre.", en: "Choose the attitude you want to be heard." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it in neutral plain French, without the anger.",
+            source: "La direction a viré quarante personnes du jour au lendemain.",
+            answer: "La direction a supprimé quarante postes du jour au lendemain.",
+            altAnswers: ["Ils ont supprimé quarante postes du jour au lendemain."],
+            explanation: "\"Virer\" carries indignation; \"supprimer des postes\" states the same fact without taking sides.",
           },
         ],
       },
@@ -1527,26 +2214,10 @@ export const FR_C2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French. (report style)",
-        source: "Losses could only be limited.",
-        answer: "Les pertes n'ont pu être que limitées.",
-        altAnswers: ["On n'a pu que limiter les pertes.", "Les pertes ont seulement pu être limitées.", "Il n'a été possible que de limiter les pertes."],
-        explanation: "\"Ne... que\" expresses restriction: the losses could be limited but not avoided, exactly what \"on a sauvé les meubles\" means.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which report sentence matches « Il va falloir se serrer la ceinture, et pas qu'un peu » ?",
-        options: ["Des mesures d'économie significatives s'imposeront.", "Quelques économies seront peut-être utiles.", "Il convient de porter une ceinture.", "Les dépenses ont été maîtrisées."],
-        correctIndex: 0,
-        explanation: "\"Significatives\" renders the intensity of \"et pas qu'un peu\"; the others change the meaning.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French. (report style)",
-        source: "It was decided to postpone the launch.",
-        answer: "Il a été décidé de reporter le lancement.",
-        altAnswers: ["Il a été décidé de repousser le lancement.", "Le report du lancement a été décidé.", "La décision a été prise de reporter le lancement."],
-        explanation: "\"Il a été décidé de\" is the impersonal passive of reports.",
+        source: "It was decided to suspend deliveries.",
+        answer: "Il a été décidé de suspendre les livraisons.",
+        altAnswers: ["Il a été décidé de suspendre les livraisons jusqu'à nouvel ordre."],
+        explanation: "The impersonal passive \"il a été décidé de\" removes the decision-maker, which is the point of report style.",
       },
       {
         type: "translate",
@@ -1571,14 +2242,22 @@ export const FR_C2_U10: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Les perspectives demeurent incertaines.",
-        explanation: "\"Demeurer\" is the formal \"rester\".",
+        audio: "Les perspectives pour l'exercice en cours demeurent prudentes.",
+        explanation: "\"Demeurer\" + adjective is the report verb for remaining; \"prudentes\" agrees with \"les perspectives\".",
       },
       {
         type: "speak",
         text: "Avec la crise, la direction a tout réorganisé.",
         prompt: "Say it in French: Because of the crisis, management reorganised everything.",
         explanation: "Plain speech: an agent, an active verb and \"avec\" for the cause.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "Compte tenu d'une conjoncture défavorable, la direction a procédé à une réorganisation qui s'est traduit par la suppression de quarante postes.",
+        answer: "Compte tenu d'une conjoncture défavorable, la direction a procédé à une réorganisation qui s'est traduite par la suppression de quarante postes.",
+        explanation: "With \"être\", the participle of a pronominal verb agrees with the subject: \"une réorganisation... s'est traduite\".",
       },
     ],
   },
@@ -1591,30 +2270,36 @@ export const FR_C2_U10: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Calques of English idioms",
+        heading: "Remember the rule: it is the images that betray you",
         body: [
           "Advanced learners rarely make grammar mistakes in meetings; they make idiom mistakes, because they translate an English image word for word. The result is French that is grammatically perfect and instantly foreign. Here are the most common, all heard in real French offices.",
-          "\"*Donner la lumière verte\" → \"donner le feu vert\". \"*Jeter la serviette\" → \"jeter l'éponge\". \"*Penser en dehors de la boîte\" → \"sortir des sentiers battus\" (to leave the beaten paths) or \"penser autrement\"; some startups say \"sortir du cadre\". \"*À la fin de la journée\" (for 'at the end of the day') → \"en fin de compte\", \"au bout du compte\", \"finalement\"; \"à la fin de la journée\" only means at 6 pm.",
-          "\"*Être dans le noir\" (for 'to be in the dark') → \"être dans le flou\" or \"ne pas être au courant\"; and if you meant 'in the black' (in profit), French says \"être dans le vert\" or \"être bénéficiaire\". The opposite, 'in the red', is the same in both languages: \"être dans le rouge\".",
         ],
         examples: [
           { es: "La direction nous a donné le feu vert.", en: "Management gave us the green light." },
           { es: "Il ne faut pas jeter l'éponge au premier refus.", en: "You mustn't throw in the towel at the first refusal." },
           { es: "Pour ce projet, il faut sortir des sentiers battus.", en: "For this project, we need to think outside the box." },
-          { es: "En fin de compte, c'est le client qui décide.", en: "At the end of the day, it's the client who decides." },
-          { es: "On est complètement dans le flou sur le budget de l'an prochain.", en: "We're completely in the dark about next year's budget." },
-          { es: "Personne ne nous a tenus au courant de la fusion.", en: "Nobody kept us informed about the merger." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "At the end of the day, it's a question of money.",
-            answer: "En fin de compte, c'est une question d'argent.",
-            altAnswers: ["Au bout du compte, c'est une question d'argent.", "Finalement, c'est une question d'argent.", "En définitive, c'est une question d'argent.", "En fin de compte, c'est une histoire d'argent."],
-            explanation: "\"En fin de compte\" or \"au bout du compte\"; \"à la fin de la journée\" is a calque that only means at the end of the working day.",
+            type: "multiple-choice",
+            question: "Why do advanced learners get caught in meetings?",
+            options: ["They translate English images word for word.", "They make agreement mistakes.", "They use tenses that do not exist.", "They speak too fast for the room."],
+            correctIndex: 0,
+            explanation: "The grammar is fine; the image is English. \"Donner la lumière verte\" is perfectly formed French that no French speaker says.",
           },
+        ],
+      },
+      {
+        heading: "Calques: feu vert, éponge, sentiers battus",
+        body: [
+          "\"*Donner la lumière verte\" → \"donner le feu vert\". \"*Jeter la serviette\" → \"jeter l'éponge\". \"*Penser en dehors de la boîte\" → \"sortir des sentiers battus\" (to leave the beaten paths) or \"penser autrement\"; some startups say \"sortir du cadre\". \"*À la fin de la journée\" (for 'at the end of the day') → \"en fin de compte\", \"au bout du compte\", \"finalement\"; \"à la fin de la journée\" only means at 6 pm.",
+        ],
+        examples: [
+          { es: "En fin de compte, c'est le client qui décide.", en: "At the end of the day, it's the client who decides." },
+          { es: "Ne jetez pas l'éponge avant d'avoir essayé.", en: "Don't throw in the towel before you have tried." },
+          { es: "Cette équipe sait sortir du cadre quand il faut.", en: "That team knows how to think outside the box when it needs to." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1626,10 +2311,39 @@ export const FR_C2_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
+            question: "Which sentence is correct French?",
+            options: ["Il faut couper la poire en deux.", "Il faut couper la poire en quatre.", "Il faut mettre sa main à la pâte.", "Il faut tirer son aiguille du jeu."],
+            correctIndex: 0,
+            explanation: "Only \"couper la poire en deux\" is intact; the others alter a frozen element.",
+          },
+        ],
+      },
+      {
+        heading: "In the dark, in the black, in the red",
+        body: [
+          "\"*Être dans le noir\" (for 'to be in the dark') → \"être dans le flou\" or \"ne pas être au courant\"; and if you meant 'in the black' (in profit), French says \"être dans le vert\" or \"être bénéficiaire\". The opposite, 'in the red', is the same in both languages: \"être dans le rouge\".",
+        ],
+        examples: [
+          { es: "On est complètement dans le flou sur le budget de l'an prochain.", en: "We're completely in the dark about next year's budget." },
+          { es: "Personne ne nous a tenus au courant de la fusion.", en: "Nobody kept us informed about the merger." },
+          { es: "L'entreprise est enfin bénéficiaire depuis janvier.", en: "The company has been in profit since January." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
             question: "A colleague writes: « Je suis dans le noir sur ce dossier. » What should she have written to mean she's not informed?",
             options: ["Je suis dans le flou sur ce dossier.", "Je suis dans le vert sur ce dossier.", "Je suis dans le rouge sur ce dossier.", "Je suis dans la boîte sur ce dossier."],
             correctIndex: 0,
             explanation: "'In the dark' is \"dans le flou\" or \"pas au courant\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The company is back in the black.",
+            answer: "L'entreprise est repassée dans le vert.",
+            altAnswers: ["La société est repassée dans le vert.", "L'entreprise est de nouveau bénéficiaire.", "La société est de nouveau bénéficiaire.", "L'entreprise est redevenue bénéficiaire."],
+            explanation: "'In the black' is \"dans le vert\" in French.",
           },
         ],
       },
@@ -1637,12 +2351,29 @@ export const FR_C2_U10: Lesson[] = [
         heading: "Altered French idioms",
         body: [
           "The second family of errors: real French idioms with one element changed. They show that the speaker half-remembers the phrase. \"*Mettre sa main à la pâte\" → \"mettre la main à la pâte\". \"*Avoir le pain sur la planche\" → \"avoir du pain sur la planche\". \"*Mettre la clé sous le paillasson\" → \"mettre la clé sous la porte\". \"*Tirer son aiguille du jeu\" → \"tirer son épingle du jeu\".",
-          "Others mix two idioms: \"*couper la poire en quatre\" (a confusion with \"se couper en quatre\", to bend over backwards) → \"couper la poire en deux\". \"*Mettre les bouchées triples\" is a joke at best. \"Renvoyer la balle\" exists but means to return the ball in an argument (to answer back, or pass the buck); to return a favour is \"renvoyer l'ascenseur\".",
-          "The fix is to learn idioms as frozen blocks with their articles and possessives, and to check doubtful ones in a dictionary of expressions (the Robert's \"Dictionnaire des expressions et locutions\" is the classic).",
         ],
         examples: [
           { es: "Tout le monde a mis la main à la pâte.", en: "Everyone pitched in." },
           { es: "Avec ce salon, on a du pain sur la planche.", en: "With this trade fair, we've got plenty on our plate." },
+          { es: "Ce commerce a mis la clé sous la porte en novembre.", en: "That shop closed down in November." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence: two idioms have been altered.",
+            source: "Pour ce salon, chacun devra mettre sa main à la pâte et avoir le pain sur la planche.",
+            answer: "Pour ce salon, chacun devra mettre la main à la pâte et avoir du pain sur la planche.",
+            explanation: "Both idioms are frozen: \"mettre la main à la pâte\" with the definite article, \"avoir du pain sur la planche\" with the partitive.",
+          },
+        ],
+      },
+      {
+        heading: "Idioms mixed with each other",
+        body: [
+          "Others mix two idioms: \"*couper la poire en quatre\" (a confusion with \"se couper en quatre\", to bend over backwards) → \"couper la poire en deux\". \"*Mettre les bouchées triples\" is a joke at best. \"Renvoyer la balle\" exists but means to return the ball in an argument (to answer back, or pass the buck); to return a favour is \"renvoyer l'ascenseur\".",
+        ],
+        examples: [
           { es: "Elle se coupe en quatre pour ses clients.", en: "She bends over backwards for her clients." },
           { es: "On a coupé la poire en deux : livraison partagée.", en: "We split the difference: shared delivery costs." },
           { es: "Quand je lui ai reproché son retard, il m'a renvoyé la balle.", en: "When I criticised him for being late, he turned it back on me." },
@@ -1662,6 +2393,28 @@ export const FR_C2_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
+            source: "When I criticised him, he turned it back on me.",
+            answer: "Quand je l'ai critiqué, il m'a renvoyé la balle.",
+            altAnswers: ["Quand je lui ai fait un reproche, il m'a renvoyé la balle.", "Lorsque je l'ai critiqué, il m'a renvoyé la balle."],
+            explanation: "\"Renvoyer la balle\" is to answer back; \"renvoyer l'ascenseur\" is to return a favour.",
+          },
+        ],
+      },
+      {
+        heading: "Learn them as frozen blocks",
+        body: [
+          "The fix is to learn idioms as frozen blocks with their articles and possessives, and to check doubtful ones in a dictionary of expressions (the Robert's \"Dictionnaire des expressions et locutions\" is the classic).",
+        ],
+        examples: [
+          { es: "Un idiome s'apprend avec son article et son possessif.", en: "An idiom is learnt with its article and its possessive." },
+          { es: "En cas de doute, ouvrez un dictionnaire des expressions.", en: "When in doubt, open a dictionary of expressions." },
+          { es: "Les artisans tirent leur épingle du jeu grâce au bouche-à-oreille.", en: "Craftspeople come out of it well thanks to word of mouth." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
             source: "Despite the crisis, our company is doing well.",
             answer: "Malgré la crise, notre entreprise tire son épingle du jeu.",
             altAnswers: ["Malgré la crise, notre société tire son épingle du jeu.", "En dépit de la crise, notre entreprise tire son épingle du jeu.", "Malgré la crise, notre boîte tire son épingle du jeu."],
@@ -1670,30 +2423,69 @@ export const FR_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Repairing a whole email",
+        heading: "The manager's email, as written",
         body: [
           "Here is an email written by an English-speaking manager to her French team. Every idiom is wrong: « Bonjour à tous, bonne nouvelle : la direction nous a donné la lumière verte pour le projet Atlas. On aura le pain sur la planche, donc il faudra penser en dehors de la boîte et mettre sa main à la pâte. À la fin de la journée, c'est le client qui décidera. Ne jetez pas la serviette ! »",
-          "Corrected: « Bonjour à tous, bonne nouvelle : la direction nous a donné le feu vert pour le projet Atlas. Nous aurons du pain sur la planche, il faudra donc sortir des sentiers battus et que chacun mette la main à la pâte. En fin de compte, c'est le client qui décidera. Ne baissez pas les bras ! »",
-          "Notice two extra improvements: \"il faudra que chacun mette la main à la pâte\" (subjunctive after \"il faut que\") makes everyone the subject and restores the fixed article in \"la main\", and \"ne baissez pas les bras\" (don't lower your arms, don't give up) is a more encouraging, natural exhortation than \"n'abandonnez pas\".",
         ],
         examples: [
-          { es: "La direction nous a donné le feu vert pour le projet Atlas.", en: "Management has given us the green light for the Atlas project." },
-          { es: "Nous aurons du pain sur la planche.", en: "We'll have a lot on our plate." },
-          { es: "Il faudra que chacun mette la main à la pâte.", en: "Everyone will need to pitch in." },
-          { es: "En fin de compte, c'est le client qui décidera.", en: "At the end of the day, the client will decide." },
-          { es: "Ne baissez pas les bras !", en: "Don't give up!" },
-          { es: "Il faudra donc sortir des sentiers battus.", en: "So we'll need to think outside the box." },
+          { es: "« La direction nous a donné la lumière verte » : calque de l'anglais.", en: "\"La direction nous a donné la lumière verte\": a calque of the English." },
+          { es: "« Penser en dehors de la boîte » n'existe pas en français.", en: "\"Penser en dehors de la boîte\" does not exist in French." },
+          { es: "« À la fin de la journée » ne veut dire qu'à dix-huit heures.", en: "\"À la fin de la journée\" only means at six in the evening." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "Don't give up! (to the team)",
-            answer: "Ne baissez pas les bras !",
-            altAnswers: ["Ne jetez pas l'éponge !", "N'abandonnez pas !", "Ne lâchez rien !"],
-            explanation: "\"Ne pas baisser les bras\" is the natural encouragement; \"*ne jetez pas la serviette\" is a calque.",
+            source: "At the end of the day, it's a question of money.",
+            answer: "En fin de compte, c'est une question d'argent.",
+            altAnswers: ["Au bout du compte, c'est une question d'argent.", "Finalement, c'est une question d'argent.", "En définitive, c'est une question d'argent.", "En fin de compte, c'est une histoire d'argent."],
+            explanation: "\"En fin de compte\" or \"au bout du compte\"; \"à la fin de la journée\" is a calque that only means at the end of the working day.",
           },
+        ],
+      },
+      {
+        heading: "The email, repaired",
+        body: [
+          "Corrected: « Bonjour à tous, bonne nouvelle : la direction nous a donné le feu vert pour le projet Atlas. Nous aurons du pain sur la planche, il faudra donc sortir des sentiers battus et que chacun mette la main à la pâte. En fin de compte, c'est le client qui décidera. Ne baissez pas les bras ! »",
+        ],
+        examples: [
+          { es: "La direction nous a donné le feu vert pour le projet Atlas.", en: "Management has given us the green light for the Atlas project." },
+          { es: "Nous aurons du pain sur la planche.", en: "We'll have a lot on our plate." },
+          { es: "En fin de compte, c'est le client qui décidera.", en: "At the end of the day, the client will decide." },
+          { es: "Il faudra donc sortir des sentiers battus.", en: "So we'll need to think outside the box." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "On a du pain sur la planche.",
+            question: "What did you hear?",
+            options: ["On a du pain sur la planche.", "On a le pain sur la planche.", "On a du bain sur la planche.", "On a du pain sur la plage."],
+            correctIndex: 0,
+            explanation: "The partitive \"du pain\" is part of the idiom.",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "He's [thrown in the towel].",
+            sentence: "Il ___.",
+            answer: "a jeté l'éponge",
+            altAnswers: ["a baissé les bras", "a abandonné"],
+            explanation: "\"Jeter l'éponge\", not \"*jeter la serviette\".",
+          },
+        ],
+      },
+      {
+        heading: "Two extra improvements",
+        body: [
+          "Notice two extra improvements: \"il faudra que chacun mette la main à la pâte\" (subjunctive after \"il faut que\") makes everyone the subject and restores the fixed article in \"la main\", and \"ne baissez pas les bras\" (don't lower your arms, don't give up) is a more encouraging, natural exhortation than \"n'abandonnez pas\".",
+        ],
+        examples: [
+          { es: "Il faut que chacun participe au montage du stand.", en: "Everyone needs to help put up the stand." },
+          { es: "Ne baisse pas les bras si vite, le client hésite encore.", en: "Don't give up so quickly: the client is still hesitating." },
+          { es: "« Ne baissez pas les bras » encourage mieux que « n'abandonnez pas ».", en: "\"Ne baissez pas les bras\" encourages better than \"n'abandonnez pas\"." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1703,12 +2495,13 @@ export const FR_C2_U10: Lesson[] = [
             explanation: "Subjunctive \"mette\" after \"il faudra que\", and the fixed article \"la main\".",
           },
           {
-            type: "listen-choose",
-            audio: "On a du pain sur la planche.",
-            question: "What did you hear?",
-            options: ["On a du pain sur la planche.", "On a le pain sur la planche.", "On a du bain sur la planche.", "On a du pain sur la plage."],
-            correctIndex: 0,
-            explanation: "The partitive \"du pain\" is part of the idiom.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Don't give up! (to the team)",
+            answer: "Ne baissez pas les bras !",
+            altAnswers: ["Ne jetez pas l'éponge !", "N'abandonnez pas !", "Ne lâchez rien !"],
+            explanation: "\"Ne pas baisser les bras\" is the natural encouragement; \"*ne jetez pas la serviette\" is a calque.",
           },
         ],
       },
@@ -1736,44 +2529,10 @@ export const FR_C2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "The company is back in the black.",
-        answer: "L'entreprise est repassée dans le vert.",
-        altAnswers: ["La société est repassée dans le vert.", "L'entreprise est de nouveau bénéficiaire.", "La société est de nouveau bénéficiaire.", "L'entreprise est redevenue bénéficiaire."],
-        explanation: "'In the black' is \"dans le vert\" in French.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "He's [thrown in the towel].",
-        sentence: "Il ___.",
-        answer: "a jeté l'éponge",
-        altAnswers: ["a baissé les bras", "a abandonné"],
-        explanation: "\"Jeter l'éponge\", not \"*jeter la serviette\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence is correct French?",
-        options: ["Il faut couper la poire en deux.", "Il faut couper la poire en quatre.", "Il faut mettre sa main à la pâte.", "Il faut tirer son aiguille du jeu."],
-        correctIndex: 0,
-        explanation: "Only \"couper la poire en deux\" is intact; the others alter a frozen element.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
         source: "At the end of the day, nobody was satisfied.",
         answer: "En fin de compte, personne n'était satisfait.",
         altAnswers: ["Au bout du compte, personne n'était satisfait.", "Finalement, personne n'était satisfait.", "En fin de compte, personne n'a été satisfait.", "En définitive, personne n'était satisfait."],
         explanation: "'At the end of the day' meaning 'ultimately' is \"en fin de compte\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "When I criticised him, he turned it back on me.",
-        answer: "Quand je l'ai critiqué, il m'a renvoyé la balle.",
-        altAnswers: ["Quand je lui ai fait un reproche, il m'a renvoyé la balle.", "Lorsque je l'ai critiqué, il m'a renvoyé la balle."],
-        explanation: "\"Renvoyer la balle\" is to answer back; \"renvoyer l'ascenseur\" is to return a favour.",
       },
       {
         type: "matching",
@@ -1789,21 +2548,39 @@ export const FR_C2_U10: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: We'll need to think outside the box.",
-        words: ["Il", "faudra", "sortir", "des", "sentiers", "battus."],
-        translation: "We'll need to think outside the box.",
-        explanation: "\"Sortir des sentiers battus\": leave the beaten paths.",
+        prompt: "Put the words in order to say: For this launch, we'll have to leave the beaten track.",
+        words: ["Pour ce lancement,", "il faudra", "sortir des", "sentiers battus."],
+        translation: "For this launch, we'll have to leave the beaten track.",
+        explanation: "\"Sortir des sentiers battus\" is the French for thinking outside the box.",
       },
       {
         type: "dictation",
-        audio: "Ne baissez pas les bras !",
-        explanation: "\"Baisser les bras\" is to give up; the negative imperative encourages.",
+        audio: "Surtout, ne baissons pas les bras maintenant.",
+        explanation: "\"Baisser les bras\" = to give up; the nous imperative turns it into encouragement.",
       },
       {
         type: "speak",
-        text: "En fin de compte, c'est le client qui décide.",
-        prompt: "Say it in French: At the end of the day, it's the client who decides.",
-        explanation: "\"En fin de compte\" replaces the calque \"à la fin de la journée\".",
+        text: "En fin de compte, rien n'a été décidé.",
+        prompt: "Say it in French: At the end of the day, nothing has been decided.",
+        explanation: "\"En fin de compte\" is the French for at the end of the day; \"à la fin de la journée\" would mean at six in the evening.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Rewrite it with the French idiom instead of the calque.",
+        source: "Le conseil nous a donné la lumière verte pour le chantier.",
+        answer: "Le conseil nous a donné le feu vert pour le chantier.",
+        altAnswers: ["Le conseil nous a donné son feu vert pour le chantier."],
+        explanation: "The French image is the traffic light: \"donner le feu vert\". \"La lumière verte\" is word-for-word English.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "He half-remembers the idiom, so he says it wrong.",
+        answer: "Il se souvient à moitié de l'expression, alors il la dit mal.",
+        altAnswers: ["Il ne se souvient qu'à moitié de l'expression, alors il la dit mal."],
+        explanation: "\"Se souvenir de\" takes \"de\"; the sentence names the real cause of altered idioms.",
       },
     ],
   },
@@ -1816,18 +2593,35 @@ export const FR_C2_U10: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Prepositional locutions: à l'aune de, en vertu de, à l'instar de, sous couvert de",
+        heading: "À l'aune de, en vertu de",
         body: [
           "These locutions are the hallmark of educated written French: in an editorial, a legal text or a DALF essay, they replace vaguer everyday words. \"À l'aune de\" means by the yardstick of, judged by (the \"aune\" was an old unit of length): \"juger une politique à l'aune de ses résultats\". \"En vertu de\" means by virtue of, under (a law, an agreement): \"en vertu de l'article 12\".",
-          "\"À l'instar de\" means like, following the example of: \"à l'instar de ses voisins, la France a légiféré\". It introduces a model or a parallel, never a physical resemblance. \"Sous couvert de\" means under the pretext of, under cover of: \"sous couvert de modernisation, on supprime des postes\". It always implies a hidden real motive.",
-          "These are fixed: \"à l'instar de\" (not \"*à l'instar que\"), \"en vertu de\" (not \"*par vertu de\"). They take a noun, not a clause.",
         ],
         examples: [
           { es: "Il faut juger cette réforme à l'aune de ses résultats.", en: "This reform must be judged by its results." },
           { es: "En vertu de l'article 12 du contrat, le locataire doit assurer le logement.", en: "Under Article 12 of the contract, the tenant must insure the property." },
+          { es: "À l'aune des critères actuels, ce bâtiment ne serait jamais autorisé.", en: "By today's standards, this building would never be allowed." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[Under] the law of 1905, the State does not fund any religion.",
+            sentence: "___ la loi de 1905, l'État ne subventionne aucun culte.",
+            answer: "En vertu de",
+            altAnswers: ["Conformément à"],
+            explanation: "\"En vertu de\" introduces the legal basis.",
+          },
+        ],
+      },
+      {
+        heading: "À l'instar de, sous couvert de",
+        body: [
+          "\"À l'instar de\" means like, following the example of: \"à l'instar de ses voisins, la France a légiféré\". It introduces a model or a parallel, never a physical resemblance. \"Sous couvert de\" means under the pretext of, under cover of: \"sous couvert de modernisation, on supprime des postes\". It always implies a hidden real motive.",
+        ],
+        examples: [
           { es: "À l'instar de plusieurs pays européens, la France a interdit ces pesticides.", en: "Like several European countries, France has banned these pesticides." },
           { es: "Sous couvert de modernisation, la direction supprime des postes.", en: "Under the pretext of modernisation, management is cutting jobs." },
-          { es: "À l'aune des critères actuels, ce bâtiment ne serait jamais autorisé.", en: "By today's standards, this building would never be allowed." },
           { es: "À l'instar de son père, elle a choisi la médecine.", en: "Following in her father's footsteps, she chose medicine." },
         ],
         checkpoint: [
@@ -1841,15 +2635,6 @@ export const FR_C2_U10: Lesson[] = [
             explanation: "\"À l'instar de\" + noun introduces a model followed.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "[Under] the law of 1905, the State does not fund any religion.",
-            sentence: "___ la loi de 1905, l'État ne subventionne aucun culte.",
-            answer: "En vertu de",
-            altAnswers: ["Conformément à"],
-            explanation: "\"En vertu de\" introduces the legal basis.",
-          },
-          {
             type: "multiple-choice",
             question: "What does « sous couvert de solidarité » suggest?",
             options: ["That solidarity is a pretext hiding another motive", "That the action is protected by solidarity", "That solidarity is the official policy", "That the action is anonymous"],
@@ -1859,18 +2644,35 @@ export const FR_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Adverbial locutions: au demeurant, de surcroît, de concert",
+        heading: "They are fixed, and they take a noun",
+        body: [
+          "These are fixed: \"à l'instar de\" (not \"*à l'instar que\"), \"en vertu de\" (not \"*par vertu de\"). They take a noun, not a clause.",
+        ],
+        examples: [
+          { es: "On dit « à l'instar de », jamais autrement.", en: "You say \"à l'instar de\", never anything else." },
+          { es: "Ces locutions sont suivies d'un nom, pas d'une proposition.", en: "These phrases are followed by a noun, not by a clause." },
+          { es: "En vertu du règlement, l'accès est réservé aux adhérents.", en: "Under the rules, access is restricted to members." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "À l'instar que ses voisins, la commune a voté le budget.",
+            answer: "À l'instar de ses voisins, la commune a voté le budget.",
+            explanation: "\"À l'instar de\" is fixed and takes a noun: \"à l'instar de ses voisins\". There is no \"*à l'instar que\".",
+          },
+        ],
+      },
+      {
+        heading: "Au demeurant, de surcroît",
         body: [
           "\"Au demeurant\" means moreover, for that matter, all things considered: \"l'idée, au demeurant excellente, n'a pas été retenue\". It adds a remark in passing. \"De surcroît\" means in addition, what's more: \"le projet est coûteux et, de surcroît, inutile\". It adds an argument, often the decisive one.",
-          "\"De concert\" means together, in concert: \"agir de concert avec les partenaires\". Trap: it has nothing to do with music in this sense and is not \"de concerts\". \"En concertation avec\" is the administrative noun phrase.",
-          "These locutions replace the overused \"en plus\" and \"ensemble\" in writing. One well-placed \"de surcroît\" in an essay signals control of register; three in a paragraph sound mannered.",
         ],
         examples: [
           { es: "Sa proposition, au demeurant fort intéressante, arrive trop tard.", en: "Her proposal, which is very interesting for that matter, comes too late." },
           { es: "Le trajet est long et, de surcroît, très cher.", en: "The journey is long and, what's more, very expensive." },
-          { es: "Les deux ministères ont agi de concert.", en: "The two ministries acted together." },
           { es: "Il est compétent et, de surcroît, d'une grande honnêteté.", en: "He is competent and, on top of that, extremely honest." },
-          { es: "La décision a été prise en concertation avec les syndicats.", en: "The decision was taken in consultation with the unions." },
           { es: "C'est un homme charmant, au demeurant.", en: "He's a charming man, for that matter." },
         ],
         checkpoint: [
@@ -1883,6 +2685,19 @@ export const FR_C2_U10: Lesson[] = [
             altAnswers: ["Le plan est coûteux et, de surcroît, risqué.", "Le projet est cher et, de surcroît, risqué.", "Le plan est cher et, de surcroît, risqué.", "Le projet est onéreux et, de surcroît, risqué."],
             explanation: "\"De surcroît\" adds a further, often decisive argument.",
           },
+        ],
+      },
+      {
+        heading: "De concert, en concertation avec",
+        body: [
+          "\"De concert\" means together, in concert: \"agir de concert avec les partenaires\". Trap: it has nothing to do with music in this sense and is not \"de concerts\". \"En concertation avec\" is the administrative noun phrase.",
+        ],
+        examples: [
+          { es: "Les deux ministères ont agi de concert.", en: "The two ministries acted together." },
+          { es: "La décision a été prise en concertation avec les syndicats.", en: "The decision was taken in consultation with the unions." },
+          { es: "Les deux services travaillent de concert depuis mars.", en: "The two departments have been working together since March." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -1895,15 +2710,61 @@ export const FR_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Manner: à l'envi, à dessein, à la dérobée, à son corps défendant, à brûle-pourpoint",
+        heading: "One per paragraph, not three",
+        body: [
+          "These locutions replace the overused \"en plus\" and \"ensemble\" in writing. One well-placed \"de surcroît\" in an essay signals control of register; three in a paragraph sound mannered.",
+        ],
+        examples: [
+          { es: "« De surcroît » remplace « en plus » à l'écrit.", en: "\"De surcroît\" replaces \"en plus\" in writing." },
+          { es: "Un seul bien placé signale la maîtrise du registre.", en: "One well-placed example signals control of register." },
+          { es: "Trois dans le même paragraphe sonnent affectés.", en: "Three in the same paragraph sound mannered." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it in formal written French (replace « en plus »).",
+            source: "Le dossier est incomplet et, en plus, il est arrivé en retard.",
+            answer: "Le dossier est incomplet et, de surcroît, il est arrivé en retard.",
+            altAnswers: ["Le dossier est incomplet et, de surcroît, est arrivé en retard."],
+            explanation: "\"De surcroît\" is the written equivalent of \"en plus\", and adds the decisive argument.",
+          },
+        ],
+      },
+      {
+        heading: "À l'envi and à dessein",
         body: [
           "\"À l'envi\" means as much as one likes, endlessly, in competition: \"les journaux ont commenté l'affaire à l'envi\". Trap: it is not \"à l'envie\" (envy, desire); the word is the old noun \"envi\" (challenge). \"À dessein\" means on purpose, deliberately: \"il a omis ce détail à dessein\".",
-          "\"À la dérobée\" means furtively, on the sly: \"elle le regardait à la dérobée\". \"À son corps défendant\" means reluctantly, against one's will: \"il a accepté, à son corps défendant\"; the possessive changes with the person (\"à mon corps défendant\"). \"À brûle-pourpoint\" means point-blank, abruptly, without warning: \"il m'a demandé à brûle-pourpoint si j'étais heureuse\".",
-          "These locutions are common in literature and in the quality press. They are also excellent listening markers on France Culture: hearing \"à son corps défendant\" tells you the speaker is about to describe a reluctant decision.",
         ],
         examples: [
           { es: "Les chaînes d'information ont repassé les images à l'envi.", en: "The news channels replayed the footage over and over." },
           { es: "Je crois qu'il a laissé ce passage ambigu à dessein.", en: "I think he left that passage ambiguous on purpose." },
+          { es: "Les commentateurs ont répété l'argument à l'envi.", en: "The commentators repeated the argument endlessly." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The media commented on the affair [endlessly].",
+            sentence: "Les médias ont commenté l'affaire ___.",
+            answer: "à l'envi",
+            explanation: "\"À l'envi\" (as much as one likes), not \"à l'envie\".",
+          },
+          {
+            type: "multiple-choice",
+            question: "Which spelling is correct?",
+            options: ["Ils en ont parlé à l'envi.", "Ils en ont parlé à l'envie.", "Ils en ont parlé à l'envis.", "Ils en ont parlé à l'envies."],
+            correctIndex: 0,
+            explanation: "\"À l'envi\" comes from the old noun \"envi\" (challenge), not from \"envie\".",
+          },
+        ],
+      },
+      {
+        heading: "À la dérobée, à son corps défendant, à brûle-pourpoint",
+        body: [
+          "\"À la dérobée\" means furtively, on the sly: \"elle le regardait à la dérobée\". \"À son corps défendant\" means reluctantly, against one's will: \"il a accepté, à son corps défendant\"; the possessive changes with the person (\"à mon corps défendant\"). \"À brûle-pourpoint\" means point-blank, abruptly, without warning: \"il m'a demandé à brûle-pourpoint si j'étais heureuse\".",
+        ],
+        examples: [
           { es: "Pendant le discours, elle consultait son téléphone à la dérobée.", en: "During the speech, she was secretly checking her phone." },
           { es: "Il est devenu porte-parole à son corps défendant.", en: "He became spokesman reluctantly." },
           { es: "J'ai dû annuler la réunion, à mon corps défendant.", en: "I had to cancel the meeting, much against my will." },
@@ -1920,20 +2781,34 @@ export const FR_C2_U10: Lesson[] = [
             explanation: "\"À dessein\" is the formal equivalent of \"exprès\".",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "The media commented on the affair [endlessly].",
-            sentence: "Les médias ont commenté l'affaire ___.",
-            answer: "à l'envi",
-            explanation: "\"À l'envi\" (as much as one likes), not \"à l'envie\".",
-          },
-          {
             type: "listen-choose",
             audio: "Il m'a posé la question à brûle-pourpoint.",
             question: "What does it mean?",
             options: ["He asked me the question point-blank.", "He asked me the question angrily.", "He asked me the question in writing.", "He asked me the question in secret."],
             correctIndex: 0,
             explanation: "\"À brûle-pourpoint\" (at a range that burns the doublet): abruptly, without warning.",
+          },
+        ],
+      },
+      {
+        heading: "Listening markers in the quality press",
+        body: [
+          "These locutions are common in literature and in the quality press. They are also excellent listening markers on France Culture: hearing \"à son corps défendant\" tells you the speaker is about to describe a reluctant decision.",
+        ],
+        examples: [
+          { es: "Entendre « à son corps défendant » annonce une décision subie.", en: "Hearing \"à son corps défendant\" announces a reluctant decision." },
+          { es: "« À brûle-pourpoint » annonce une question brutale.", en: "\"À brûle-pourpoint\" announces an abrupt question." },
+          { es: "Ces locutions abondent dans la presse de qualité.", en: "These phrases abound in the quality press." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "She accepted reluctantly.",
+            answer: "Elle a accepté à son corps défendant.",
+            altAnswers: ["Elle a accepté à contrecœur.", "Elle accepta à son corps défendant.", "Elle a accepté, à son corps défendant."],
+            explanation: "\"À son corps défendant\" (against one's will); \"à contrecœur\" is the everyday equivalent.",
           },
         ],
       },
@@ -1952,15 +2827,6 @@ export const FR_C2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "She accepted reluctantly.",
-        answer: "Elle a accepté à son corps défendant.",
-        altAnswers: ["Elle a accepté à contrecœur.", "Elle accepta à son corps défendant.", "Elle a accepté, à son corps défendant."],
-        explanation: "\"À son corps défendant\" (against one's will); \"à contrecœur\" is the everyday equivalent.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
         source: "He was looking at her furtively.",
         answer: "Il la regardait à la dérobée.",
         altAnswers: ["Il la regardait furtivement.", "Il la regardait en cachette."],
@@ -1974,13 +2840,6 @@ export const FR_C2_U10: Lesson[] = [
         answer: "Sous couvert de",
         altAnswers: ["Sous prétexte de"],
         explanation: "\"Sous couvert de\" implies a hidden motive.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which spelling is correct?",
-        options: ["Ils en ont parlé à l'envi.", "Ils en ont parlé à l'envie.", "Ils en ont parlé à l'envis.", "Ils en ont parlé à l'envies."],
-        correctIndex: 0,
-        explanation: "\"À l'envi\" comes from the old noun \"envi\" (challenge), not from \"envie\".",
       },
       {
         type: "translate",
@@ -2030,6 +2889,15 @@ export const FR_C2_U10: Lesson[] = [
         text: "J'ai dû accepter, à mon corps défendant.",
         prompt: "Say it in French: I had to accept, much against my will.",
         explanation: "The possessive changes with the person: \"à mon corps défendant\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "The committee examined the file point-blank, with no warning.",
+        answer: "La commission a examiné le dossier à brûle-pourpoint, sans prévenir.",
+        altAnswers: ["La commission a examiné le dossier à brûle-pourpoint, sans avertissement."],
+        explanation: "\"À brûle-pourpoint\" = abruptly, with no warning; it qualifies the manner, like \"à dessein\" or \"à la dérobée\".",
       },
     ],
   },
