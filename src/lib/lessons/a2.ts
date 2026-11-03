@@ -9,6 +9,7 @@ import { A2_GAPS } from "./a2-gaps";
 import { A2_SURVIVAL } from "./survival-a2";
 import { A2_WRITING_TASKS } from "./writing-tasks-a2";
 import { withUnitWriting } from "./unitWriting";
+import { splitLongLessons } from "./questionCap";
 
 const A2_BASE_LESSONS: Lesson[] = [
   {
@@ -20990,4 +20991,4 @@ const A2_BASE_LESSONS: Lesson[] = [
 // the same way; at a shared anchor they follow the reinforcement lessons.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const A2_LESSONS: Lesson[] = withUnitWriting(buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS, ...A2_COMMON_WORDS, ...A2_GAPS, ...A2_SURVIVAL, ...A2_PERFECT_PRONOUNS]), A2_WRITING_TASKS);
+export const A2_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS, ...A2_COMMON_WORDS, ...A2_GAPS, ...A2_SURVIVAL, ...A2_PERFECT_PRONOUNS]), A2_WRITING_TASKS));

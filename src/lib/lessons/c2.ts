@@ -6,6 +6,7 @@ import { C2_PRACTICE } from "./c2-practice";
 import { C2_REINFORCEMENT } from "./c2-reinforcement";
 import { C2_WRITING_TASKS } from "./writing-tasks-c2";
 import { withUnitWriting } from "./unitWriting";
+import { splitLongLessons } from "./questionCap";
 
 const C2_BASE_LESSONS: Lesson[] = [
   {
@@ -42393,4 +42394,4 @@ const C2_BASE_LESSONS: Lesson[] = [
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
 // c2-practice.ts adds questions to the lessons that had too few.
-export const C2_LESSONS: Lesson[] = withUnitWriting(addPractice(buildLevel("C2", C2_BASE_LESSONS, C2_REINFORCEMENT), C2_PRACTICE), C2_WRITING_TASKS);
+export const C2_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(addPractice(buildLevel("C2", C2_BASE_LESSONS, C2_REINFORCEMENT), C2_PRACTICE), C2_WRITING_TASKS));

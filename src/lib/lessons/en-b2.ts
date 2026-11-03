@@ -89,6 +89,7 @@ import { EN_B2_U25_DRILLS } from "./en-b2-u25-drills";
 import { EN_B2_U26_DRILLS } from "./en-b2-u26-drills";
 import { EN_B2_U27_DRILLS } from "./en-b2-u27-drills";
 import { EN_B2_U28_DRILLS } from "./en-b2-u28-drills";
+import { splitLongLessons, withSplitSlugs } from "./questionCap";
 
 // English for Spanish speakers (beta), B2. Conventions as in en-a1.ts, except that from B1 up
 // the teaching text is in English (Spanish words in «guillemets»), mirroring
@@ -128,5 +129,5 @@ const UNITS: EnglishUnitDef[] = [
 ];
 
 const LEVEL = buildEnglishLevel("en/b2", UNITS);
-export const EN_B2_LESSONS: Lesson[] = LEVEL.lessons;
-export const EN_B2_UNITS: UnitOutline[] = LEVEL.units;
+export const EN_B2_LESSONS: Lesson[] = splitLongLessons(LEVEL.lessons);
+export const EN_B2_UNITS: UnitOutline[] = withSplitSlugs(LEVEL.units, EN_B2_LESSONS);

@@ -4,6 +4,7 @@ import { weaveLessons } from "./weave";
 import { COSAS_COLOQUIALES_REINFORCEMENT } from "./cosas-coloquiales-reinforcement";
 import { COSAS_COLOQUIALES_WRITING_TASKS } from "./writing-tasks-cosas-coloquiales";
 import { withUnitWriting } from "./unitWriting";
+import { splitLongLessons } from "./questionCap";
 
 const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
   {
@@ -1925,4 +1926,4 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
 // right after the lesson each one reinforces, and the whole level is
 // renumbered -- see weave.ts. Everything above this line is the original
 // lesson data.
-export const COSAS_COLOQUIALES_LESSONS: Lesson[] = withUnitWriting(weaveLessons(COSAS_COLOQUIALES_BASE_LESSONS, COSAS_COLOQUIALES_REINFORCEMENT), COSAS_COLOQUIALES_WRITING_TASKS);
+export const COSAS_COLOQUIALES_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(weaveLessons(COSAS_COLOQUIALES_BASE_LESSONS, COSAS_COLOQUIALES_REINFORCEMENT), COSAS_COLOQUIALES_WRITING_TASKS));
