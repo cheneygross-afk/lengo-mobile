@@ -32,6 +32,10 @@ export type WritingFeedbackRequest = {
   minWords: number;
   maxWords: number;
   text: string;
+  /** Set for the end-of-lesson "Try it yourself" box: what the lesson
+   * taught (its title and summary). The score then weighs correctness
+   * most and content less -- see writingUserMessage. */
+  focus?: string;
 };
 
 /** Longest text the route accepts, in characters: room for the two-page
@@ -46,8 +50,7 @@ export const LONG_TEXT_WORDS = 350;
 /** Words in a learner's text, as the word-count hint counts them. */
 // Han characters and kana: each one counts as a word, since Chinese and
 // Japanese aren't written with spaces between words. Korean is spaced, so
-// a Korean word is a spaced unit (학교에 is one word) like any other, as
-// on the website.
+// a Korean word is a spaced unit (학교에 is one word) like any other.
 const CJK_CHAR = /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/g;
 
 /** Words in a learner's text, as the word-count hint counts them. For
@@ -107,7 +110,8 @@ export function parseWritingRequest(body: unknown): WritingFeedbackRequest | str
     ? b.rubric.filter((r): r is string => typeof r === "string").map((r) => r.trim()).filter(Boolean).slice(0, 10)
     : [];
   const num = (v: unknown, d: number) => (typeof v === "number" && Number.isFinite(v) && v > 0 ? Math.round(v) : d);
-  return { level, prompt, rubric, minWords: num(b.minWords, 10), maxWords: num(b.maxWords, 200), text };
+  const focus = str(b.focus).slice(0, 600);
+  return { level, prompt, rubric, minWords: num(b.minWords, 10), maxWords: num(b.maxWords, 200), text, ...(focus ? { focus } : {}) };
 }
 
 // JSON schema for structured output -- Claude's reply is constrained to it.
@@ -167,7 +171,10 @@ export function writingSystemPrompt(level: string): string {
     ...(target === "Japanese"
       ? ["Kana, kanji or a mix are all fine; don't mark a word wrong only for being written in kana."]
       : target === "Mandarin Chinese"
-        ? ["Simplified or traditional characters are both fine; pinyin alone counts as Chinese at the beginner levels."]
+        ? [
+            "Simplified or traditional characters are both fine; pinyin alone counts as Chinese at the beginner levels.",
+            "When the learner writes pinyin, check the tones too (tone marks or tone numbers): a wrong or missing tone is a mistake to correct. Don't mark pinyin wrong only for where a tone mark sits on the syllable.",
+          ]
         : target === "Brazilian Portuguese"
           ? [
               "Judge the text by the norms of Brazilian Portuguese as written in Brazil today, and write every correction in Brazilian Portuguese.",
@@ -198,6 +205,15 @@ export function writingUserMessage(req: WritingFeedbackRequest): string {
     `Task: ${req.prompt}`,
     `Length asked for: ${req.minWords}-${req.maxWords} words.`,
     ...(countWords(req.text) > LONG_TEXT_WORDS ? [`This text is longer than ${LONG_TEXT_WORDS} words: leave corrected empty.`] : []),
+    ...(req.focus
+      ? [
+          `This is the short "Try it yourself" writing task at the end of a lesson. The lesson taught: ${req.focus}`,
+          "Score it mainly on correctness (about three quarters of the score): grammar, spelling, accents" +
+            (writingLanguage(req.level) === "Mandarin Chinese" ? ", characters and tones" : "") +
+            ", and whether what the lesson taught is used correctly. Score it partly on content (about a quarter): it stays on topic and does what the task asks.",
+          "A sentence or two is all that's asked: don't mark it down for being short. If it doesn't use what the lesson taught, say so and show one way it could.",
+        ]
+      : []),
     `Rubric:\n${rubric}`,
     "Learner's text:",
     "<text>",
