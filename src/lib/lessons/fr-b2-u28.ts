@@ -28,17 +28,27 @@ export const FR_B2_U28: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "The decision tree",
+        heading: "The decision tree: triggers and conjunctions",
         body: [
           "A gauntlet is a run through challenges with nobody to help. Before you start, here is the whole subjunctive decision in four questions. Is there a trigger verb or expression of will, necessity, emotion, doubt or possibility? Is there a conjunction that always takes it (\"pour que, afin que, avant que, jusqu'à ce que, bien que, quoique, à condition que, pourvu que, à moins que, sans que, de peur que, en attendant que\")?",
-          "Is it a relative clause whose antecedent is sought, denied, questioned or singled out (\"le seul, le premier, le meilleur\")? Is the subject the same in both clauses? If yes, use an infinitive instead (\"je veux partir\", \"pour partir\", \"avant de partir\").",
-          "Then the tense: present subjunctive for something simultaneous or later, past subjunctive for something completed before the main verb, whatever the tense of the main verb.",
         ],
         examples: [
-          { es: "Je ne connais personne qui ait vécu à Marseille.", en: "I don't know anyone who's lived in Marseille." },
           { es: "Il faut que je parte avant que les bouchons commencent.", en: "I need to leave before the traffic jams start." },
           { es: "Quoiqu'il ait beaucoup voyagé, il n'a jamais vu la mer.", en: "Although he's travelled a lot, he's never seen the sea." },
           { es: "Elle voulait que je l'accompagne à l'aéroport.", en: "She wanted me to go with her to the airport." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which sentence is correct?", options: ["Je t'attends jusqu'à ce que tu reviennes.", "Je t'attends jusqu'à ce que tu reviens.", "Je t'attends jusqu'à ce que tu reviendras.", "Je t'attends jusqu'à tu reviennes."], correctIndex: 0, explanation: "\"Jusqu'à ce que\" is on the list of conjunctions that always take the subjunctive: \"reviennes\". The indicative and the futur are wrong after it, and the conjunction can't lose \"ce que\"." },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Il faut que tu viens demain matin.", answer: "Il faut que tu viennes demain matin.", explanation: "Necessity (\"il faut que\") is a trigger, so \"venir\" goes into the subjunctive: \"que tu viennes\", with the stem of \"ils viennent\"." },
+        ],
+      },
+      {
+        heading: "Relatives and the same-subject test",
+        body: [
+          "Is it a relative clause whose antecedent is sought, denied, questioned or singled out (\"le seul, le premier, le meilleur\")? Is the subject the same in both clauses? If yes, use an infinitive instead (\"je veux partir\", \"pour partir\", \"avant de partir\").",
+        ],
+        examples: [
+          { es: "Je ne connais personne qui ait vécu à Marseille.", en: "I don't know anyone who's lived in Marseille." },
           { es: "C'est le premier hôtel qui nous ait répondu.", en: "It's the first hotel that's replied to us." },
           { es: "Je veux partir tôt pour éviter la foule.", en: "I want to leave early to avoid the crowds." },
         ],
@@ -62,44 +72,50 @@ export const FR_B2_U28: Lesson[] = [
         ],
       },
       {
-        heading: "Traps on the run",
+        heading: "Present or past subjunctive?",
+        body: [
+          "Then the tense: present subjunctive for something simultaneous or later, past subjunctive for something completed before the main verb, whatever the tense of the main verb.",
+        ],
+        examples: [
+          { es: "Je suis ravi que tu sois venu hier.", en: "I'm delighted you came yesterday." },
+          { es: "Elle doutait que nous arrivions à l'heure.", en: "She doubted we'd arrive on time." },
+          { es: "Je regrette qu'il soit déjà parti.", en: "I'm sorry he's already left." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Your friend won the race last Sunday. Which sentence says you're glad about it?", options: ["Je suis content qu'elle ait gagné.", "Je suis content qu'elle gagne.", "Je suis content qu'elle a gagné.", "Je suis content qu'elle gagnait."], correctIndex: 0, explanation: "The win is finished before your feeling, so the past subjunctive \"ait gagné\". \"Qu'elle gagne\" would mean she's winning now or will win; the indicative forms don't follow an emotion." },
+          { type: "translate", direction: "en-es", prompt: "Change the main verb to the imparfait (je voulais).", source: "Je veux que tu viennes avec moi.", answer: "Je voulais que tu viennes avec moi.", explanation: "Only the main verb moves into the past. The coming is simultaneous with the wish, so it stays in the present subjunctive \"viennes\", not \"sois venu\" and not \"venais\"." },
+        ],
+      },
+      {
+        heading: "Traps: false triggers take the indicative",
         body: [
           "Expressions that look like triggers but aren't: \"espérer que\", \"penser que\", \"croire que\" (affirmative), \"il est probable que\", \"il me semble que\", \"après que\", \"pendant que\", \"même si\", \"si bien que\" (result), \"dès que\". They take the indicative.",
+        ],
+        examples: [
+          { es: "J'espère que vous avez fait bon voyage.", en: "I hope you had a good journey." },
+          { es: "Dès qu'il sera arrivé, nous passerons à table.", en: "As soon as he's arrived, we'll sit down to eat." },
+          { es: "Il me semble que tu as maigri.", en: "It seems to me you've lost weight." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which sentence is correct?", options: ["J'espère qu'il viendra ce soir.", "J'espère qu'il vienne ce soir.", "J'espère qu'il soit venu ce soir.", "J'espère de venir ce soir."], correctIndex: 0, explanation: "\"Espérer que\" looks like a wish but takes the indicative, usually the futur: \"qu'il viendra\". It's the classic false trigger." },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Après qu'il soit parti, on a fait la vaisselle.", answer: "Après qu'il est parti, on a fait la vaisselle.", explanation: "\"Après que\" introduces something that really happened, so it takes the indicative (\"est parti\"). The subjunctive is common in speech by analogy with \"avant que\", but it is still considered a mistake." },
+        ],
+      },
+      {
+        heading: "Traps: when meaning decides the mood",
+        body: [
           "And pairs where meaning decides: \"de sorte que\" + subjunctive is purpose (so that), + indicative is result (so); \"comprendre que\" + indicative is to realise, + subjunctive is to accept someone's feeling; \"dire que\" + indicative reports, \"dire de\" + infinitive orders.",
           "\"Le seul / le premier\" + subjunctive for a judgement, + indicative for a plain fact. Both are correct; the subjunctive is what the exam expects.",
         ],
         examples: [
-          { es: "J'espère que vous avez fait bon voyage.", en: "I hope you had a good journey." },
           { es: "Il parle lentement de sorte que tout le monde le comprenne.", en: "He speaks slowly so that everyone can understand him." },
           { es: "Il a parlé lentement, de sorte que tout le monde l'a compris.", en: "He spoke slowly, so everyone understood him." },
           { es: "Je comprends que tu sois déçu.", en: "I understand that you're disappointed." },
           { es: "J'ai compris qu'il ne viendrait pas.", en: "I realised he wouldn't come." },
-          { es: "Dès qu'il sera arrivé, nous passerons à table.", en: "As soon as he's arrived, we'll sit down to eat." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I understand that you're disappointed.",
-            answer: "Je comprends que tu sois déçu.",
-            altAnswers: ["Je comprends que tu sois déçue.", "Je comprends que vous soyez déçu.", "Je comprends que vous soyez déçue.", "Je comprends que vous soyez déçus."],
-            explanation: "\"Comprendre que\" accepting a feeling → subjunctive.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "I realised [he wouldn't come].",
-            sentence: "J'ai compris ___.",
-            answer: "qu'il ne viendrait pas",
-            explanation: "\"Comprendre que\" = to realise → indicative (conditional as the future in the past).",
-          },
-          {
-            type: "speak",
-            text: "J'espère que vous avez fait bon voyage.",
-            prompt: "Say it in French, to guests: I hope you had a good journey.",
-            explanation: "\"Espérer\" + indicative.",
-          },
+          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I understand that she's angry.", answer: "Je comprends qu'elle soit fâchée.", altAnswers: ["Je comprends qu'elle soit en colère.", "Je comprends qu'elle soit énervée."], explanation: "Here \"comprendre que\" means accepting her feeling, so it takes the subjunctive \"soit\". If you meant I realise she's angry, the indicative \"qu'elle est fâchée\" would be right." },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "I realised [she had lied to me].", sentence: "J'ai compris ___.", answer: "qu'elle m'avait menti", explanation: "\"Comprendre que\" meaning to realise reports a fact, so the indicative; the lie came first, so the plus-que-parfait \"m'avait menti\"." },
         ],
       },
     ],
@@ -131,15 +147,7 @@ export const FR_B2_U28: Lesson[] = [
         altAnswers: ["Après son départ, j'ai pleuré.", "Une fois qu'elle est partie, j'ai pleuré."],
         explanation: "\"Après que\" + indicative. With a passé composé main verb, use \"est partie\": English had left doesn't become a plus-que-parfait here.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Decision 4. Translate into French.",
-        source: "It's the only museum that's free.",
-        answer: "C'est le seul musée qui soit gratuit.",
-        altAnswers: ["C'est le seul musée qui est gratuit."],
-        explanation: "\"Le seul\" + subjunctive (judgement) or indicative (plain fact).",
-      },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "It's the only museum [that's free].", sentence: "C'est le seul musée ___.", answer: "qui soit gratuit", altAnswers: ["qui est gratuit"], explanation: "\"Le seul\" singles out one item, so the subjunctive \"soit\" is the expected, judging choice; \"qui est gratuit\" states a plain fact and is also correct." },
       {
         type: "translate",
         direction: "en-es",
@@ -149,24 +157,8 @@ export const FR_B2_U28: Lesson[] = [
         altAnswers: ["Je suis heureuse que tu aies trouvé un travail.", "Je suis content que tu aies trouvé un travail.", "Je suis contente que tu aies trouvé un travail.", "Je suis heureux que tu aies trouvé un emploi.", "Je suis contente que tu aies trouvé un emploi.", "Je suis content que vous ayez trouvé un travail.", "Je suis heureux que vous ayez trouvé un emploi."],
         explanation: "Emotion + past subjunctive.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Decision 6. Translate into French.",
-        source: "I think it's a good idea.",
-        answer: "Je pense que c'est une bonne idée.",
-        altAnswers: ["Je crois que c'est une bonne idée.", "Je trouve que c'est une bonne idée."],
-        explanation: "Affirmative \"penser que\" → indicative.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Decision 7. Translate into French.",
-        source: "I don't think it's a good idea.",
-        answer: "Je ne pense pas que ce soit une bonne idée.",
-        altAnswers: ["Je ne crois pas que ce soit une bonne idée.", "Je ne trouve pas que ce soit une bonne idée."],
-        explanation: "Negative opinion → subjunctive \"soit\".",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Je crois qu'il ait raison.", answer: "Je crois qu'il a raison.", explanation: "An affirmative \"croire que\" presents what you hold as true, so the indicative \"a\". Only \"je ne crois pas que\" can take the subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Make it negative.", source: "Je pense que c'est une bonne idée.", answer: "Je ne pense pas que ce soit une bonne idée.", altAnswers: ["Je ne pense pas que ça soit une bonne idée."], explanation: "A negative opinion casts doubt, so the clause switches to the subjunctive: \"c'est\" becomes \"ce soit\"." },
       {
         type: "fill-blank",
         prompt: "Decision 8. Write the French for the bold words.",
@@ -194,15 +186,7 @@ export const FR_B2_U28: Lesson[] = [
         altAnswers: ["Il a dû partir avant que les autres ne se réveillent.", "Il fallait qu'il parte avant que les autres se réveillent.", "Il a fallu qu'il parte avant que les autres se réveillent.", "Il devait partir avant que les autres se réveillent."],
         explanation: "Present subjunctive after a past main verb (sequence of tenses).",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Decision 11. Translate into French.",
-        source: "He speaks loudly so that everyone hears him.",
-        answer: "Il parle fort pour que tout le monde l'entende.",
-        altAnswers: ["Il parle fort afin que tout le monde l'entende.", "Il parle fort de sorte que tout le monde l'entende."],
-        explanation: "Purpose → subjunctive \"entende\".",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: He speaks loudly so that everyone hears him.", words: ["Il", "parle", "fort", "pour", "que", "tout", "le", "monde", "l'entende."], translation: "He speaks loudly so that everyone hears him.", explanation: "Purpose with a different subject: \"pour que\" + subjunctive \"entende\"; \"tout le monde\" is singular." },
       {
         type: "multiple-choice",
         question: "Decision 12. Which sentence is correct?",
@@ -210,17 +194,14 @@ export const FR_B2_U28: Lesson[] = [
         correctIndex: 0,
         explanation: "\"Probable\" and \"il me semble\" → indicative; \"possible\" → subjunctive.",
       },
-      {
-        type: "dictation",
-        audio: "Quoiqu'il ait beaucoup voyagé, il n'a jamais vu la mer.",
-        explanation: "\"Quoique\" (= \"bien que\") + past subjunctive; distinct from \"quoi que\" (whatever).",
-      },
+      { type: "dictation", audio: "Bien qu'il ait beaucoup plu, la fête a eu lieu dehors.", explanation: "\"Bien que\" + past subjunctive \"ait plu\": the rain came before the party." },
       {
         type: "speak",
         text: "Je ne connais personne qui puisse t'aider.",
         prompt: "Say it in French: I don't know anyone who can help you.",
         explanation: "Denied antecedent → \"puisse\".",
       },
+      { type: "speak", text: "J'espère que vous avez bien dormi.", prompt: "Say it in French, to guests: I hope you slept well.", explanation: "\"Espérer que\" takes the indicative, here the passé composé \"avez dormi\"." },
     ],
   },
   {
@@ -236,7 +217,6 @@ export const FR_B2_U28: Lesson[] = [
         body: [
           "In this gauntlet, each item is a situation, not a grammar label. Ask: is the condition possible or imaginary? Is it about now, the future or the past? Is the result in the same time as the condition?",
           "Possible: \"si\" + présent. Imaginary now: \"si\" + imparfait → conditionnel. Imaginary past: \"si\" + plus-que-parfait → conditionnel passé. Past condition, present result: plus-que-parfait → conditionnel présent. Present (permanent) condition, past result: imparfait → conditionnel passé (\"si j'étais plus courageux, je lui aurais parlé hier\").",
-          "Other ways to express a condition: \"au cas où\" + conditionnel, \"à condition que\" + subjunctive, \"sans\" + noun (\"sans toi, je me serais perdu\"), the gérondif (\"en partant tôt, tu éviterais les bouchons\").",
         ],
         examples: [
           { es: "Si tu as besoin d'aide, appelle-moi.", en: "If you need help, call me." },
@@ -244,43 +224,37 @@ export const FR_B2_U28: Lesson[] = [
           { es: "Si nous avions réservé, nous aurions eu une table.", en: "If we'd booked, we'd have got a table." },
           { es: "Si j'avais fait médecine, je serais chirurgien aujourd'hui.", en: "If I'd studied medicine, I'd be a surgeon today." },
           { es: "Si j'étais plus courageux, je lui aurais parlé hier.", en: "If I were braver, I'd have spoken to her yesterday." },
-          { es: "Sans ton aide, je n'aurais jamais fini.", en: "Without your help, I'd never have finished." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "If I were braver, I'd have spoken to her yesterday.",
-            answer: "Si j'étais plus courageux, je lui aurais parlé hier.",
-            altAnswers: ["Si j'étais plus courageuse, je lui aurais parlé hier."],
-            explanation: "Permanent present condition (imparfait), past result (conditionnel passé).",
-          },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "Without your help, I'd never have finished.",
-            answer: "Sans ton aide, je n'aurais jamais fini.",
-            altAnswers: ["Sans votre aide, je n'aurais jamais fini.", "Sans ton aide, je n'aurais jamais terminé.", "Sans votre aide, je n'aurais jamais terminé."],
-            explanation: "\"Sans\" + noun as an implicit past condition.",
-          },
+          { type: "multiple-choice", question: "Situation: you didn't study law, and today you're not a lawyer. Which sentence fits?", options: ["Si j'avais fait du droit, je serais avocat aujourd'hui.", "Si j'avais fait du droit, j'aurais été avocat aujourd'hui.", "Si je faisais du droit, je serais avocat aujourd'hui.", "Si j'aurais fait du droit, je serais avocat aujourd'hui."], correctIndex: 0, explanation: "Past condition, present result: plus-que-parfait (\"j'avais fait\"), then the conditionnel présent (\"je serais\") because of \"aujourd'hui\". The conditionnel passé would move the result into the past; \"si\" never takes the conditional." },
+          { type: "translate", direction: "en-es", prompt: "Change it to an imaginary past (si + plus-que-parfait).", source: "Si tu pars à l'heure, tu auras ton train.", answer: "Si tu étais parti à l'heure, tu aurais eu ton train.", altAnswers: ["Si tu étais partie à l'heure, tu aurais eu ton train."], explanation: "Imaginary past: \"si\" + plus-que-parfait (\"étais parti\", with être), then the conditionnel passé (\"aurais eu\")." },
+        ],
+      },
+      {
+        heading: "Other ways to set a condition",
+        body: [
+          "Other ways to express a condition: \"au cas où\" + conditionnel, \"à condition que\" + subjunctive, \"sans\" + noun (\"sans toi, je me serais perdu\"), the gérondif (\"en partant tôt, tu éviterais les bouchons\").",
+        ],
+        examples: [
+          { es: "Sans ton aide, je n'aurais jamais fini.", en: "Without your help, I'd never have finished." },
+          { es: "Au cas où tu aurais faim, il reste du poulet.", en: "In case you're hungry, there's some chicken left." },
+          { es: "En prenant le métro, vous arriveriez plus vite.", en: "If you took the metro, you'd get there faster." },
+        ],
+        checkpoint: [
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "Call me [in case you get lost].", sentence: "Appelle-moi ___.", answer: "au cas où tu te perdrais", explanation: "\"Au cas où\" is followed by the conditional, not the present: \"au cas où tu te perdrais\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Without the map, we'd have got lost.", answer: "Sans la carte, nous nous serions perdus.", altAnswers: ["Sans la carte, on se serait perdus.", "Sans la carte, on se serait perdu.", "Sans le plan, nous nous serions perdus.", "Sans le plan, on se serait perdus.", "Sans la carte, nous nous serions perdues."], explanation: "\"Sans\" + noun replaces a whole past condition (if we hadn't had the map), so the result is in the conditionnel passé; \"se perdre\" takes être." },
         ],
       },
       {
         heading: "Regrets and reproaches",
         body: [
           "When the situation is a regret about your own past, use \"j'aurais dû\" + infinitive, \"j'aurais mieux fait de\", \"je regrette de\" + infinitif passé, or \"si seulement\" + plus-que-parfait. When it's a reproach to someone else: \"tu aurais dû\", \"tu aurais pu\", \"il aurait fallu que tu\" + subjunctive, \"tu n'aurais pas dû\".",
-          "A wish about the present: \"si seulement\" + imparfait (\"si seulement j'avais plus de temps !\"), \"j'aimerais que\" + subjunctive.",
-          "Hearing the difference: \"je devrais\" (I should, now) vs \"j'aurais dû\" (I should have); \"tu pourrais\" (you could) vs \"tu aurais pu\" (you could have).",
         ],
         examples: [
           { es: "J'aurais mieux fait de prendre le train.", en: "I'd have done better to take the train." },
           { es: "Tu n'aurais pas dû lui parler sur ce ton.", en: "You shouldn't have spoken to him in that tone." },
           { es: "Il aurait fallu que tu me préviennes.", en: "You should have warned me." },
-          { es: "Si seulement j'avais plus de temps !", en: "If only I had more time!" },
           { es: "Si seulement je ne lui avais rien dit !", en: "If only I hadn't told him anything!" },
-          { es: "Je devrais l'appeler ce soir.", en: "I should call her tonight." },
         ],
         checkpoint: [
           {
@@ -300,12 +274,22 @@ export const FR_B2_U28: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Si seulement\" + plus-que-parfait: a regret about the past.",
           },
-          {
-            type: "speak",
-            text: "J'aurais mieux fait de prendre le train.",
-            prompt: "Say it in French: I'd have done better to take the train.",
-            explanation: "\"J'aurais mieux fait de\" + infinitive.",
-          },
+        ],
+      },
+      {
+        heading: "Wishes, and should versus should have",
+        body: [
+          "A wish about the present: \"si seulement\" + imparfait (\"si seulement j'avais plus de temps !\"), \"j'aimerais que\" + subjunctive.",
+          "Hearing the difference: \"je devrais\" (I should, now) vs \"j'aurais dû\" (I should have); \"tu pourrais\" (you could) vs \"tu aurais pu\" (you could have).",
+        ],
+        examples: [
+          { es: "Si seulement j'avais plus de temps !", en: "If only I had more time!" },
+          { es: "Je devrais l'appeler ce soir.", en: "I should call her tonight." },
+          { es: "Tu aurais pu me le dire plus tôt.", en: "You could have told me sooner." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "You want to reproach a friend: You could have helped me!", options: ["Tu aurais pu m'aider !", "Tu pourrais m'aider !", "Tu as pu m'aider !", "Tu pouvais m'aider !"], correctIndex: 0, explanation: "A reproach about the past needs the conditionnel passé: \"tu aurais pu\". \"Tu pourrais m'aider\" is a request for now (could you help me), and the other two simply state what happened." },
+          { type: "speak", text: "Si seulement il faisait moins froid !", prompt: "Say it in French: If only it were less cold!", explanation: "A wish about the present: \"si seulement\" + imparfait (\"faisait\")." },
         ],
       },
     ],
@@ -354,15 +338,7 @@ export const FR_B2_U28: Lesson[] = [
         answer: "au cas où il pleuvrait",
         explanation: "\"Au cas où\" + conditionnel.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "If I were you, I'd accept.",
-        answer: "Si j'étais toi, j'accepterais.",
-        altAnswers: ["Si j'étais vous, j'accepterais.", "À ta place, j'accepterais.", "À votre place, j'accepterais."],
-        explanation: "Imparfait → conditionnel.",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: If I were you, I'd accept.", words: ["Si", "j'étais", "toi,", "j'accepterais."], translation: "If I were you, I'd accept.", explanation: "Imaginary present: \"si\" + imparfait \"étais\", then the conditional \"accepterais\"." },
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
@@ -379,14 +355,7 @@ export const FR_B2_U28: Lesson[] = [
         altAnswers: ["Vous auriez pu m'appeler !", "Tu aurais pu me téléphoner !", "Vous auriez pu me téléphoner !"],
         explanation: "Reproach: \"tu aurais pu\" + infinitive.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "If only I had more time!",
-        answer: "Si seulement j'avais plus de temps !",
-        explanation: "Present wish: \"si seulement\" + imparfait.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Si seulement j'aurais su !", answer: "Si seulement j'avais su !", explanation: "\"Si seulement\" works like \"si\": never the conditional after it. A regret about the past takes the plus-que-parfait \"j'avais su\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -396,33 +365,10 @@ export const FR_B2_U28: Lesson[] = [
         altAnswers: ["En partant maintenant, vous éviteriez les bouchons.", "En partant maintenant, tu éviterais les embouteillages.", "En partant maintenant, vous éviteriez les embouteillages.", "Si tu partais maintenant, tu éviterais les bouchons."],
         explanation: "Gérondif as a condition + conditionnel.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I should call her tonight.",
-        answer: "Je devrais l'appeler ce soir.",
-        altAnswers: ["Je devrais lui téléphoner ce soir."],
-        explanation: "Present advice to yourself: conditionnel présent of \"devoir\".",
-      },
-      {
-        type: "word-order",
-        prompt: "Put the words in order to say: You should have warned me.",
-        words: ["Il aurait", "fallu", "que", "tu", "me", "préviennes."],
-        translation: "You should have warned me.",
-        explanation: "\"Il aurait fallu que\" + subjunctive.",
-      },
-      {
-        type: "dictation",
-        audio: "Si nous avions réservé, nous aurions eu une table en terrasse.",
-        explanation: "Plus-que-parfait → conditionnel passé.",
-      },
-      {
-        type: "speak",
-        text: "Si j'étais maire, je fermerais le centre aux voitures.",
-        prompt: "Say it in French: If I were mayor, I'd close the centre to cars.",
-        explanation: "Imaginary present.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Change it to a regret about yesterday.", source: "Je devrais l'appeler.", answer: "J'aurais dû l'appeler hier.", altAnswers: ["J'aurais dû l'appeler.", "J'aurais dû lui téléphoner hier."], explanation: "\"Je devrais\" is advice for now; a regret about the past needs the conditionnel passé \"j'aurais dû\" + infinitive." },
+      { type: "word-order", prompt: "Put the words in order to say: You should have told me.", words: ["Il", "aurait", "fallu", "que", "tu", "me", "le", "dises."], translation: "You should have told me.", explanation: "\"Il aurait fallu que\" + subjunctive (\"dises\"); the pronouns \"me le\" sit before the verb." },
+      { type: "dictation", audio: "Si on avait pris l'autoroute, on serait déjà arrivés.", explanation: "Unreal past: plus-que-parfait \"avait pris\", then the conditionnel passé \"serait arrivés\" (\"arriver\" takes être; with \"on\" meaning we, the participle can be plural)." },
+      { type: "speak", text: "Si j'étais ministre, je rendrais les transports gratuits.", prompt: "Say it in French: If I were a minister, I'd make public transport free.", explanation: "Imaginary present: imparfait \"étais\" → conditionnel \"rendrais\"; \"rendre\" + adjective = to make something free." },
     ],
   },
   {
@@ -434,17 +380,14 @@ export const FR_B2_U28: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "The full shift table",
+        heading: "The shift table: tenses",
         body: [
           "From the past (\"il a dit que\", \"elle m'a demandé si\"): présent → imparfait; passé composé → plus-que-parfait; futur → conditionnel; futur proche (\"je vais partir\") → \"allait partir\"; futur antérieur → conditionnel passé; imparfait, plus-que-parfait, conditionnel and subjunctive don't change.",
-          "Pronouns and possessives follow the new speaker: \"je t'aime\" → \"il m'a dit qu'il m'aimait\". Time and place words move: \"aujourd'hui\" → \"ce jour-là\", \"demain\" → \"le lendemain\", \"hier\" → \"la veille\", \"la semaine prochaine\" → \"la semaine suivante\", \"ici\" → \"là\".",
-          "Statements: \"dire que\", \"affirmer que\", \"annoncer que\". Promises: \"promettre que\" + conditionnel, or \"promettre de\" + infinitive. Admissions: \"avouer que\", \"reconnaître que\".",
         ],
         examples: [
           { es: "« Je suis fatigué. » → Il a dit qu'il était fatigué.", en: "I'm tired → He said he was tired." },
           { es: "« J'ai raté le bus. » → Elle a expliqué qu'elle avait raté le bus.", en: "I missed the bus → She explained she'd missed the bus." },
           { es: "« Je vais déménager. » → Il a annoncé qu'il allait déménager.", en: "I'm going to move → He announced he was going to move." },
-          { es: "« Je t'appellerai demain. » → Elle m'a promis qu'elle m'appellerait le lendemain.", en: "I'll call you tomorrow → She promised she'd call me the next day." },
           { es: "« Quand j'aurai fini, je partirai. » → Il a dit que quand il aurait fini, il partirait.", en: "When I've finished, I'll leave → He said that when he'd finished, he'd leave." },
         ],
         checkpoint: [
@@ -457,6 +400,22 @@ export const FR_B2_U28: Lesson[] = [
             altAnswers: ["Paul a dit qu'il allait changer d'emploi.", "Paul a annoncé qu'il allait changer de travail.", "Paul a dit qu'il allait changer de poste."],
             explanation: "Futur proche \"vais\" → \"allait\".",
           },
+          { type: "translate", direction: "en-es", prompt: "Turn it into reported speech after « Elle a dit ».", source: "« Je finirai le rapport ce soir. »", answer: "Elle a dit qu'elle finirait le rapport ce soir-là.", altAnswers: ["Elle a dit qu'elle finirait le rapport le soir même."], explanation: "After a past reporting verb the futur becomes the conditionnel (\"finirait\"), \"je\" becomes \"elle\" and \"ce soir\" moves to \"ce soir-là\"." },
+        ],
+      },
+      {
+        heading: "Pronouns, time words and reporting verbs",
+        body: [
+          "Pronouns and possessives follow the new speaker: \"je t'aime\" → \"il m'a dit qu'il m'aimait\". Time and place words move: \"aujourd'hui\" → \"ce jour-là\", \"demain\" → \"le lendemain\", \"hier\" → \"la veille\", \"la semaine prochaine\" → \"la semaine suivante\", \"ici\" → \"là\".",
+          "Statements: \"dire que\", \"affirmer que\", \"annoncer que\". Promises: \"promettre que\" + conditionnel, or \"promettre de\" + infinitive. Admissions: \"avouer que\", \"reconnaître que\".",
+        ],
+        examples: [
+          { es: "« Je t'appellerai demain. » → Elle m'a promis qu'elle m'appellerait le lendemain.", en: "I'll call you tomorrow → She promised she'd call me the next day." },
+          { es: "« J'ai menti hier. » → Elle a avoué qu'elle avait menti la veille.", en: "I lied yesterday → She admitted she'd lied the day before." },
+          { es: "« Je vous rendrai la clé la semaine prochaine. » → Il a promis qu'il nous rendrait la clé la semaine suivante.", en: "I'll give you the key back next week → He promised he'd give us the key back the following week." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "A week later you report « Je t'ai vu hier. » Which ending is right? Il m'a dit qu'il m'avait vu ___.", options: ["la veille", "hier", "le lendemain", "ce jour-là"], correctIndex: 0, explanation: "Seen from later, \"hier\" becomes \"la veille\" (the day before). \"Le lendemain\" is the day after, and \"hier\" would point to the wrong day." },
           {
             type: "translate",
             direction: "en-es",
@@ -469,29 +428,38 @@ export const FR_B2_U28: Lesson[] = [
         ],
       },
       {
-        heading: "Questions and orders",
+        heading: "Reported questions",
         body: [
           "Yes/no questions: \"si\" + statement order. \"Tu viens ?\" → \"il m'a demandé si je venais\". Open questions keep the question word: \"où, quand, comment, pourquoi, combien, quel\". \"Qu'est-ce que\" / \"que\" → \"ce que\"; \"qu'est-ce qui\" → \"ce qui\"; \"qui\" stays \"qui\". No inversion, no \"est-ce que\", no question mark.",
-          "Orders and requests: imperative → \"dire de\", \"demander de\", \"ordonner de\", \"conseiller de\" + infinitive. \"Ne bouge pas !\" → \"il m'a dit de ne pas bouger\". \"Asseyez-vous\" → \"il nous a demandé de nous asseoir\" (the reflexive pronoun follows the new person).",
-          "Suggestions: \"si on allait au cinéma ?\" → \"elle a proposé qu'on aille au cinéma\" (subjunctive) or \"elle a proposé d'aller au cinéma\".",
         ],
         examples: [
           { es: "« Tu viens ce soir ? » → Il m'a demandé si je venais ce soir-là.", en: "Are you coming tonight? → He asked me if I was coming that night." },
           { es: "« Qu'est-ce que tu fais ? » → Elle m'a demandé ce que je faisais.", en: "What are you doing? → She asked me what I was doing." },
           { es: "« Qui a appelé ? » → Il voulait savoir qui avait appelé.", en: "Who called? → He wanted to know who had called." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Il m'a demandé où est-ce que j'habitais.", answer: "Il m'a demandé où j'habitais.", explanation: "A reported question keeps its question word but drops \"est-ce que\" and any inversion: \"où j'habitais\"." },
+          {
+            type: "speak",
+            text: "Elle m'a demandé ce que je faisais.",
+            prompt: "Report it aloud: « Qu'est-ce que tu fais ? » (she asked me)",
+            explanation: "\"Qu'est-ce que\" → \"ce que\" + imparfait.",
+          },
+        ],
+      },
+      {
+        heading: "Reported orders and suggestions",
+        body: [
+          "Orders and requests: imperative → \"dire de\", \"demander de\", \"ordonner de\", \"conseiller de\" + infinitive. \"Ne bouge pas !\" → \"il m'a dit de ne pas bouger\". \"Asseyez-vous\" → \"il nous a demandé de nous asseoir\" (the reflexive pronoun follows the new person).",
+          "Suggestions: \"si on allait au cinéma ?\" → \"elle a proposé qu'on aille au cinéma\" (subjunctive) or \"elle a proposé d'aller au cinéma\".",
+        ],
+        examples: [
           { es: "« Ne bouge pas ! » → Il m'a dit de ne pas bouger.", en: "Don't move! → He told me not to move." },
           { es: "« Asseyez-vous. » → Le médecin nous a demandé de nous asseoir.", en: "Sit down → The doctor asked us to sit down." },
           { es: "« Si on allait à la plage ? » → Elle a proposé qu'on aille à la plage.", en: "How about going to the beach? → She suggested we go to the beach." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Report it in French: « Qui a appelé ? » (he wanted to know)",
-            source: "He wanted to know who had called.",
-            answer: "Il voulait savoir qui avait appelé.",
-            explanation: "\"Qui\" stays; passé composé → plus-que-parfait.",
-          },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "She advised me [not to sign].", sentence: "Elle m'a conseillé ___.", answer: "de ne pas signer", explanation: "An order or advice becomes \"de\" + infinitive; in the negative both \"ne pas\" come before the infinitive." },
           {
             type: "translate",
             direction: "en-es",
@@ -500,12 +468,6 @@ export const FR_B2_U28: Lesson[] = [
             answer: "Le médecin nous a demandé de nous asseoir.",
             altAnswers: ["La médecin nous a demandé de nous asseoir.", "Le docteur nous a demandé de nous asseoir.", "Le médecin nous a dit de nous asseoir."],
             explanation: "Imperative → \"demander de\" + infinitive; reflexive \"nous\".",
-          },
-          {
-            type: "speak",
-            text: "Elle m'a demandé ce que je faisais.",
-            prompt: "Report it aloud: « Qu'est-ce que tu fais ? » (she asked me)",
-            explanation: "\"Qu'est-ce que\" → \"ce que\" + imparfait.",
           },
         ],
       },
@@ -519,14 +481,7 @@ export const FR_B2_U28: Lesson[] = [
         answer: "Elle a dit qu'elle avait perdu son portefeuille.",
         explanation: "Passé composé → plus-que-parfait; \"mon\" → \"son\".",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Report it in French: « Je pars aujourd'hui. » (he told me)",
-        source: "He told me he was leaving that day.",
-        answer: "Il m'a dit qu'il partait ce jour-là.",
-        explanation: "Présent → imparfait; \"aujourd'hui\" → \"ce jour-là\".",
-      },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "He told me he [was leaving that day].", sentence: "Il m'a dit qu'il ___.", answer: "partait ce jour-là", explanation: "Présent → imparfait (\"partait\"); \"aujourd'hui\" → \"ce jour-là\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -544,15 +499,7 @@ export const FR_B2_U28: Lesson[] = [
         altAnswers: ["La policière nous a demandé où nous habitions.", "Le policier nous a demandé où on habitait.", "La policière nous a demandé où on habitait."],
         explanation: "Question word kept, no \"est-ce que\".",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Report it in French: « Qu'est-ce qui s'est passé ? » (they asked)",
-        source: "They asked what had happened.",
-        answer: "Ils ont demandé ce qui s'était passé.",
-        altAnswers: ["Elles ont demandé ce qui s'était passé.", "Ils ont demandé ce qui était arrivé.", "On a demandé ce qui s'était passé."],
-        explanation: "\"Qu'est-ce qui\" → \"ce qui\".",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Ils ont demandé qu'est-ce qui s'était passé.", answer: "Ils ont demandé ce qui s'était passé.", explanation: "In a reported question \"qu'est-ce qui\" becomes \"ce qui\"; the direct-question form can't follow \"demander\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -623,12 +570,7 @@ export const FR_B2_U28: Lesson[] = [
         correctIndex: 0,
         explanation: "\"Ce qui\" + plus-que-parfait; causative \"faire changer d'avis\".",
       },
-      {
-        type: "speak",
-        text: "Il m'a dit de ne pas bouger.",
-        prompt: "Report it aloud: « Ne bouge pas ! » (he told me)",
-        explanation: "Negative order: \"de ne pas\" + infinitive.",
-      },
+      { type: "speak", text: "Elle m'a dit de ne pas m'inquiéter.", prompt: "Report it aloud: « Ne t'inquiète pas ! » (she told me)", explanation: "Negative order: \"de ne pas\" + infinitive; the reflexive pronoun follows the new person (\"m'inquiéter\")." },
     ],
   },
   {
@@ -640,21 +582,18 @@ export const FR_B2_U28: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "English -ing is not always en + -ant",
+        heading: "English -ing after prepositions and after",
         body: [
           "English -ing has many French translations. Manner, means or simultaneity with the same subject: gérondif (\"il est entré en courant\", \"en travaillant\"). After a preposition: infinitive (\"avant de partir\", \"sans rien dire\", \"au lieu de travailler\"). After \"after\": infinitif passé (\"après avoir mangé\", \"après être arrivée\"). As a noun: infinitive or noun (\"nager est bon pour la santé\", \"la natation\").",
-          "Ongoing action: present tense or \"être en train de\" (\"je suis en train de cuisiner\"), never *\"je suis cuisinant\". Descriptive -ing after a noun: \"qui\" + verb or a present participle in writing (\"un homme qui portait un chapeau\", \"les passagers voyageant sans billet\").",
-          "Two classics: \"il est entré en courant\" (he ran in: French puts the movement in the verb and the manner in the gérondif), and \"c'est en forgeant qu'on devient forgeron\" (practice makes perfect).",
         ],
         examples: [
-          { es: "Il est entré en courant dans la cuisine.", en: "He ran into the kitchen." },
           { es: "Après avoir mangé, nous sommes allés nous promener.", en: "After eating, we went for a walk." },
           { es: "Elle est partie sans dire au revoir.", en: "She left without saying goodbye." },
           { es: "Au lieu de travailler, il regardait des vidéos.", en: "Instead of working, he was watching videos." },
-          { es: "Je suis en train de préparer le dîner.", en: "I'm making dinner." },
           { es: "Nager est excellent pour le dos.", en: "Swimming is excellent for your back." },
         ],
         checkpoint: [
+          { type: "multiple-choice", question: "Which is the French for: He crossed the street without looking?", options: ["Il a traversé la rue sans regarder.", "Il a traversé la rue sans regardant.", "Il a traversé la rue sans en regardant.", "Il a traversé la rue sans de regarder."], correctIndex: 0, explanation: "After a preposition like \"sans\", French uses the infinitive. The -ant forms copy English -ing, and \"sans\" never takes \"de\"." },
           {
             type: "translate",
             direction: "en-es",
@@ -664,42 +603,50 @@ export const FR_B2_U28: Lesson[] = [
             altAnswers: ["Après avoir mangé, on est sortis.", "Après avoir mangé, nous sommes sorties.", "Après avoir mangé, on est sorti.", "Après manger, on est sortis."],
             explanation: "After + -ing → \"après\" + infinitif passé.",
           },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "He ran into the kitchen.",
-            answer: "Il est entré en courant dans la cuisine.",
-            altAnswers: ["Il est entré dans la cuisine en courant."],
-            explanation: "French: movement in the verb (\"entrer\"), manner in the gérondif (\"en courant\").",
-          },
         ],
       },
       {
-        heading: "Faire, laisser, rendre, devenir",
+        heading: "Ongoing and descriptive -ing",
+        body: [
+          "Ongoing action: present tense or \"être en train de\" (\"je suis en train de cuisiner\"), never *\"je suis cuisinant\". Descriptive -ing after a noun: \"qui\" + verb or a present participle in writing (\"un homme qui portait un chapeau\", \"les passagers voyageant sans billet\").",
+        ],
+        examples: [
+          { es: "Je suis en train de préparer le dîner.", en: "I'm making dinner." },
+          { es: "J'ai croisé un homme qui portait un chapeau rouge.", en: "I passed a man wearing a red hat." },
+          { es: "Les passagers voyageant sans billet paieront une amende.", en: "Passengers travelling without a ticket will pay a fine." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Je suis lisant le journal.", answer: "Je suis en train de lire le journal.", altAnswers: ["Je lis le journal."], explanation: "French has no 'be + -ing' tense: use the present (\"je lis\") or \"être en train de\" + infinitive." },
+          { type: "word-order", prompt: "Put the words in order to say: I'm writing to my grandmother.", words: ["Je", "suis", "en", "train", "d'écrire", "à", "ma", "grand-mère."], translation: "I'm writing to my grandmother.", explanation: "An action in progress: \"être en train de\" + infinitive (\"d'écrire\")." },
+        ],
+      },
+      {
+        heading: "Movement in the verb, manner in the gérondif",
+        body: [
+          "Two classics: \"il est entré en courant\" (he ran in: French puts the movement in the verb and the manner in the gérondif), and \"c'est en forgeant qu'on devient forgeron\" (practice makes perfect).",
+        ],
+        examples: [
+          { es: "Il est entré en courant dans la cuisine.", en: "He ran into the kitchen." },
+          { es: "Elle est sortie en claquant la porte.", en: "She slammed the door on her way out." },
+          { es: "Les enfants sont descendus en courant.", en: "The children ran downstairs." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "What's the natural French for: He swam across the lake?", options: ["Il a traversé le lac en nageant.", "Il a nagé traverser le lac.", "Il a nagé traversant le lac.", "Il est nagé à travers le lac."], correctIndex: 0, explanation: "French puts the direction in the main verb (\"traverser\") and the manner in the gérondif (\"en nageant\"). The other versions copy the English order or use the wrong auxiliary." },
+          { type: "translate", direction: "en-es", prompt: "Turn it round: put the movement in the verb (sortir) and the manner in the gérondif.", source: "Elle a couru dehors.", answer: "Elle est sortie en courant.", explanation: "Going out is the movement, so it becomes the verb \"sortir\" (with être); running is the manner, so \"en courant\"." },
+        ],
+      },
+      {
+        heading: "Faire and laisser + infinitive",
         body: [
           "\"Faire\" + infinitive (cause or have done): \"je fais réparer\", \"il me fait rire\", \"elle s'est fait opérer\". Pronouns before \"faire\"; \"fait\" invariable. \"Laisser\" + infinitive: \"laisse-moi parler\", \"ils l'ont laissé partir\".",
-          "\"Rendre\" + adjective (make someone + adjective): \"le café me rend nerveux\". \"Devenir\" (become): \"elle est devenue directrice\". \"Se faire\" + infinitive when something happens to you: \"il s'est fait arrêter\", \"je me suis fait avoir\" (I got ripped off).",
-          "Translation traps: make someone happy → \"rendre heureux\"; make someone wait → \"faire attendre\"; get your hair cut → \"se faire couper les cheveux\"; let me know → \"tiens-moi au courant\" or \"fais-moi savoir\".",
         ],
         examples: [
           { es: "Désolé de vous avoir fait attendre.", en: "Sorry to have kept you waiting." },
           { es: "Laisse-moi finir ma phrase !", en: "Let me finish my sentence!" },
           { es: "Elle s'est fait opérer du genou en mars.", en: "She had a knee operation in March." },
-          { es: "Je me suis fait avoir par un faux vendeur.", en: "I got ripped off by a fake seller." },
-          { es: "Le café me rend nerveux le soir.", en: "Coffee makes me jittery in the evening." },
-          { es: "Tiens-moi au courant !", en: "Let me know!" },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "Sorry to have kept you waiting.",
-            answer: "Désolé de vous avoir fait attendre.",
-            altAnswers: ["Désolée de vous avoir fait attendre.", "Désolé de t'avoir fait attendre.", "Désolée de t'avoir fait attendre."],
-            explanation: "Make someone wait → \"faire attendre\"; infinitif passé after \"désolé de\".",
-          },
+          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Her jokes make me laugh.", answer: "Ses blagues me font rire.", altAnswers: ["Ses plaisanteries me font rire."], explanation: "Making someone do something is \"faire\" + infinitive; the pronoun \"me\" goes before \"faire\"." },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -709,12 +656,22 @@ export const FR_B2_U28: Lesson[] = [
             altAnswers: ["Laissez-moi"],
             explanation: "\"Laisser\" + infinitive; affirmative imperative → \"moi\" after the verb.",
           },
-          {
-            type: "speak",
-            text: "Je me suis fait avoir par un faux vendeur.",
-            prompt: "Say it in French: I got ripped off by a fake seller.",
-            explanation: "\"Se faire avoir\" (familiar): to be cheated.",
-          },
+        ],
+      },
+      {
+        heading: "Rendre, devenir, se faire and the traps",
+        body: [
+          "\"Rendre\" + adjective (make someone + adjective): \"le café me rend nerveux\". \"Devenir\" (become): \"elle est devenue directrice\". \"Se faire\" + infinitive when something happens to you: \"il s'est fait arrêter\", \"je me suis fait avoir\" (I got ripped off).",
+          "Translation traps: make someone happy → \"rendre heureux\"; make someone wait → \"faire attendre\"; get your hair cut → \"se faire couper les cheveux\"; let me know → \"tiens-moi au courant\" or \"fais-moi savoir\".",
+        ],
+        examples: [
+          { es: "Je me suis fait avoir par un faux vendeur.", en: "I got ripped off by a fake seller." },
+          { es: "Le café me rend nerveux le soir.", en: "Coffee makes me jittery in the evening." },
+          { es: "Tiens-moi au courant !", en: "Let me know!" },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which is right for: The news made him happy?", options: ["La nouvelle l'a rendu heureux.", "La nouvelle l'a fait heureux.", "La nouvelle l'a fait être heureux.", "La nouvelle l'a devenu heureux."], correctIndex: 0, explanation: "Make + adjective is \"rendre\" + adjective. \"Faire\" needs an infinitive after it, and \"devenir\" can't take an object." },
+          { type: "speak", text: "Ce voyage l'a rendue plus sûre d'elle.", prompt: "Say it in French: This trip made her more self-confident.", explanation: "\"Rendre\" + adjective; the participle agrees with \"l'\" (her) placed before the verb: \"rendue\"." },
         ],
       },
     ],
@@ -770,15 +727,7 @@ export const FR_B2_U28: Lesson[] = [
         answer: "Ce film m'a fait pleurer.",
         explanation: "\"Faire\" + infinitive.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "This film made me sad.",
-        answer: "Ce film m'a rendu triste.",
-        altAnswers: ["Ce film m'a rendue triste.", "Ce film m'a attristé.", "Ce film m'a attristée."],
-        explanation: "Make + adjective → \"rendre\".",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Ce film m'a fait triste.", answer: "Ce film m'a rendu triste.", altAnswers: ["Ce film m'a rendue triste."], explanation: "Make + adjective is \"rendre\", not \"faire\": \"m'a rendu triste\" (\"rendue\" if the speaker is a woman)." },
       {
         type: "translate",
         direction: "en-es",
@@ -819,17 +768,8 @@ export const FR_B2_U28: Lesson[] = [
         translation: "Let me know what you decide!",
         explanation: "\"Tenir quelqu'un au courant\" = to keep someone informed.",
       },
-      {
-        type: "dictation",
-        audio: "Elle s'est fait opérer du genou en mars.",
-        explanation: "\"Se faire opérer\": \"fait\" invariable.",
-      },
-      {
-        type: "speak",
-        text: "Désolé de vous avoir fait attendre.",
-        prompt: "Say it in French, to clients: Sorry to have kept you waiting.",
-        explanation: "\"Faire attendre\" + infinitif passé.",
-      },
+      { type: "dictation", audio: "Il s'est fait couper les cheveux avant le mariage.", explanation: "\"Se faire couper les cheveux\": someone else cuts them; \"fait\" stays invariable." },
+      { type: "speak", text: "Il nous a fait visiter toute la maison.", prompt: "Say it in French: He showed us round the whole house.", explanation: "\"Faire visiter\" = to show someone round; the pronoun \"nous\" goes before \"faire\"." },
     ],
   },
   {
@@ -862,15 +802,7 @@ export const FR_B2_U28: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Je m'attendais à une ville calme ; or, le Vieux-Port était noir de monde\": \"or\" introduces the fact that contradicts her expectation.",
           },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I'll send you my notes as soon as I've met the locals.",
-            answer: "Je vous enverrai mes notes dès que j'aurai rencontré les habitants.",
-            altAnswers: ["Je t'enverrai mes notes dès que j'aurai rencontré les habitants.", "Je vous enverrai mes notes dès que j'aurai rencontré les gens du coin."],
-            explanation: "\"Dès que\" + futur antérieur for the earlier future action.",
-          },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Je vous enverrai mes notes dès que j'ai rencontré le maire.", answer: "Je vous enverrai mes notes dès que j'aurai rencontré le maire.", explanation: "Laura's note mixes times: the sending is future, and the meeting comes before it, so \"dès que\" needs the futur antérieur \"j'aurai rencontré\", not the passé composé." },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -936,15 +868,7 @@ export const FR_B2_U28: Lesson[] = [
           { es: "« Aujourd'hui, la plupart des gens comprennent qu'il faut protéger cet endroit. »", en: "Today most people understand that this place has to be protected." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "We had to limit numbers so that nature could regenerate.",
-            answer: "Il fallait que nous limitions la fréquentation pour que la nature puisse se régénérer.",
-            altAnswers: ["Nous avons dû limiter la fréquentation pour que la nature puisse se régénérer.", "Il a fallu que nous limitions la fréquentation pour que la nature puisse se régénérer.", "Il fallait limiter la fréquentation pour que la nature puisse se régénérer.", "Nous devions limiter la fréquentation pour que la nature puisse se régénérer.", "Il fallait que nous limitions le nombre de visiteurs pour que la nature puisse se régénérer.", "Nous avons dû limiter le nombre de visiteurs pour que la nature puisse se régénérer."],
-            explanation: "\"Il fallait que\" + subjunctive (\"limitions\"), \"pour que\" + subjunctive (\"puisse\").",
-          },
+          { type: "translate", direction: "en-es", prompt: "Change it so the vegetation is the subject: use « pour que ».", source: "Nous limitons les visites pour régénérer la végétation.", answer: "Nous limitons les visites pour que la végétation puisse se régénérer.", altAnswers: ["Nous limitons les visites pour que la végétation se régénère."], explanation: "With a new subject (\"la végétation\"), \"pour\" + infinitive becomes \"pour que\" + subjunctive: \"puisse se régénérer\" or simply \"se régénère\"." },
           {
             type: "listen-choose",
             audio: "Bien que la réservation soit gratuite, beaucoup de gens l'ont mal acceptée au début.",
@@ -1051,12 +975,7 @@ export const FR_B2_U28: Lesson[] = [
         audio: "Trois paquebots de croisière venaient d'arriver.",
         explanation: "\"Venir de\" in the imparfait = had just; \"un paquebot\" is a liner.",
       },
-      {
-        type: "speak",
-        text: "Si on ne fait rien, le quartier deviendra un musée sans habitants.",
-        prompt: "Say Rachid's warning in French: If nothing is done, the neighbourhood will become a museum with no residents.",
-        explanation: "\"Si\" + présent → futur.",
-      },
+      { type: "speak", text: "Si les loyers continuent d'augmenter, les familles quitteront le centre.", prompt: "Say it in French: If rents keep going up, families will leave the centre.", explanation: "A real condition: \"si\" + présent (\"continuent\"), then the futur (\"quitteront\")." },
     ],
   },
   {
@@ -1081,15 +1000,7 @@ export const FR_B2_U28: Lesson[] = [
           { es: "Pour la première fois de la semaine, la ville appartenait à ses habitants.", en: "For the first time that week, the city belonged to its residents." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "The boats stayed in port, so the passengers couldn't go ashore.",
-            answer: "Les bateaux sont restés à quai, si bien que les passagers n'ont pas pu débarquer.",
-            altAnswers: ["Les bateaux sont restés au port, si bien que les passagers n'ont pas pu débarquer.", "Les bateaux sont restés à quai, donc les passagers n'ont pas pu débarquer.", "Les bateaux sont restés à quai, de sorte que les passagers n'ont pas pu débarquer.", "Les bateaux sont restés au port, donc les passagers n'ont pas pu descendre."],
-            explanation: "\"Si bien que\" + indicative for a result.",
-          },
+          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "The market was cancelled, so the stallholders went home.", answer: "Le marché a été annulé, si bien que les commerçants sont rentrés chez eux.", altAnswers: ["Le marché a été annulé, donc les commerçants sont rentrés chez eux.", "Le marché a été annulé, de sorte que les commerçants sont rentrés chez eux.", "Le marché a été annulé, si bien que les marchands sont rentrés chez eux.", "Le marché a été annulé, si bien que les commerçants sont repartis chez eux."], explanation: "\"Si bien que\" introduces a result, so it takes the indicative (\"sont rentrés\"); the cancellation is in the passive passé composé." },
           {
             type: "multiple-choice",
             question: "What was unusual about Thursday?",
@@ -1114,23 +1025,8 @@ export const FR_B2_U28: Lesson[] = [
           { es: "Rachid m'a écrit qu'il était fier qu'on ait enfin parlé de son quartier.", en: "Rachid wrote to me that he was proud his neighbourhood had finally been talked about." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "It isn't tourism that's the problem, it's too much of it.",
-            answer: "Ce n'est pas le tourisme qui pose problème, c'est son excès.",
-            altAnswers: ["Ce n'est pas le tourisme qui pose problème, c'est l'excès de tourisme.", "Ce n'est pas le tourisme qui est le problème, c'est son excès."],
-            explanation: "Negative cleft + positive cleft to correct a view.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "The deputy mayor acknowledged that the situation [was] worrying.",
-            sentence: "L'adjoint au maire a reconnu que la situation ___ préoccupante.",
-            answer: "était",
-            explanation: "Présent → imparfait after a past reporting verb.",
-          },
+          { type: "translate", direction: "en-es", prompt: "Turn it into a cleft that corrects the view: Ce ne sont pas... c'est...", source: "Les touristes ne posent pas problème ; leur nombre pose problème.", answer: "Ce ne sont pas les touristes qui posent problème, c'est leur nombre.", altAnswers: ["Ce n'est pas les touristes qui posent problème, c'est leur nombre."], explanation: "A negative cleft rejects one subject and a positive cleft puts the right one forward. \"Ce ne sont pas\" before a plural; \"qui posent\" agrees with \"les touristes\"." },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "The hotel owner claimed that the city [needed] tourists.", sentence: "L'hôtelier a affirmé que la ville ___ besoin des touristes.", answer: "avait", explanation: "After a past reporting verb the present \"a besoin\" moves to the imparfait \"avait besoin\"." },
           {
             type: "listen-choose",
             audio: "Rachid m'a écrit qu'il était fier qu'on ait enfin parlé de son quartier.",
@@ -1174,12 +1070,7 @@ export const FR_B2_U28: Lesson[] = [
             altAnswers: ["Je lui ai promis de revenir."],
             explanation: "Promise in the past: conditionnel, or \"promettre de\" + infinitive.",
           },
-          {
-            type: "speak",
-            text: "Ce que je retiendrai de Marseille, ce sont ses habitants.",
-            prompt: "Say it in French, as Laura: What I'll remember about Marseille is its people.",
-            explanation: "Pseudo-cleft; \"ce sont\" before a plural.",
-          },
+          { type: "speak", text: "Ce qui me manquera le plus, c'est la lumière du matin sur le port.", prompt: "Say it in French, as Laura: What I'll miss most is the morning light on the port.", explanation: "\"Manquer\" has the thing missed as its subject, so \"ce qui\"; \"c'est\" before a singular noun." },
         ],
       },
     ],
@@ -1191,15 +1082,7 @@ export const FR_B2_U28: Lesson[] = [
         correctIndex: 0,
         explanation: "« La ville qu'on visite mais où l'on ne peut plus vivre. »",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "As I was crossing the square, I saw a terrace blow away.",
-        answer: "En traversant la place, j'ai vu une terrasse s'envoler.",
-        altAnswers: ["Alors que je traversais la place, j'ai vu une terrasse s'envoler.", "Pendant que je traversais la place, j'ai vu une terrasse s'envoler."],
-        explanation: "Gérondif for simultaneity; \"voir\" + infinitive.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "While walking along the beach, I saw a hat blow away.", answer: "En marchant sur la plage, j'ai vu un chapeau s'envoler.", altAnswers: ["En me promenant sur la plage, j'ai vu un chapeau s'envoler.", "Pendant que je marchais sur la plage, j'ai vu un chapeau s'envoler."], explanation: "The gérondif \"en marchant\" shows two actions at the same time with the same subject; \"voir\" + infinitive (\"s'envoler\") for what you saw happen." },
       {
         type: "translate",
         direction: "en-es",
@@ -1209,32 +1092,9 @@ export const FR_B2_U28: Lesson[] = [
         altAnswers: ["On a interdit la baignade.", "La baignade était interdite."],
         explanation: "Passive passé composé; \"la baignade\" (swimming in open water).",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French (formal).",
-        source: "Admittedly, tourism creates jobs; nevertheless, it drives residents away.",
-        answer: "Certes, le tourisme crée des emplois ; néanmoins, il chasse les habitants.",
-        altAnswers: ["Certes, le tourisme crée des emplois ; toutefois, il chasse les habitants.", "Certes, le tourisme crée des emplois ; cependant, il chasse les habitants.", "Certes, le tourisme crée des emplois, mais il chasse les habitants."],
-        explanation: "\"Certes... néanmoins\" for concession.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Report it in French: « Le tourisme fait vivre la ville. » (a hotel owner claimed)",
-        source: "A hotel owner claimed that tourism kept the city alive.",
-        answer: "Un hôtelier a affirmé que le tourisme faisait vivre la ville.",
-        altAnswers: ["Un hôtelier a prétendu que le tourisme faisait vivre la ville.", "Une hôtelière a affirmé que le tourisme faisait vivre la ville."],
-        explanation: "Présent → imparfait; \"affirmer\" or \"prétendre\" (to claim).",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "'I'd like you [to come back] in the summer,' he said.",
-        sentence: "« J'aimerais que tu ___ en été », a-t-il dit.",
-        answer: "reviennes",
-        explanation: "\"Aimer que\" + subjunctive.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Bien que le tourisme crée des emplois, mais il chasse les habitants.", answer: "Bien que le tourisme crée des emplois, il chasse les habitants.", altAnswers: ["Certes, le tourisme crée des emplois, mais il chasse les habitants."], explanation: "\"Bien que\" already concedes the point, so the main clause can't add \"mais\". Either drop \"mais\" or start with \"certes\" and keep \"mais\"." },
+      { type: "translate", direction: "en-es", prompt: "Turn it into reported speech after « Une habitante a affirmé ».", source: "« Je ne trouve plus de logement dans mon quartier. »", answer: "Une habitante a affirmé qu'elle ne trouvait plus de logement dans son quartier.", explanation: "Présent → imparfait (\"trouvait\"), and \"je / mon\" become \"elle / son\" after a past reporting verb." },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "'I'd like you [to write] about our neighbourhood,' he said.", sentence: "« J'aimerais que tu ___ sur notre quartier », a-t-il dit.", answer: "écrives", explanation: "A wish about someone else: \"aimer que\" + subjunctive, \"que tu écrives\" (from \"ils écrivent\")." },
       {
         type: "translate",
         direction: "en-es",
@@ -1251,15 +1111,7 @@ export const FR_B2_U28: Lesson[] = [
         correctIndex: 0,
         explanation: "\"La Bonne Mère\" is the nickname of Notre-Dame de la Garde.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "From up there, the city looked calm, as if nothing could disturb it.",
-        answer: "D'en haut, la ville paraissait calme, comme si rien ne pouvait la troubler.",
-        altAnswers: ["De là-haut, la ville paraissait calme, comme si rien ne pouvait la troubler.", "D'en haut, la ville semblait calme, comme si rien ne pouvait la troubler.", "De là-haut, la ville semblait calme, comme si rien ne pouvait la troubler.", "D'en haut, la ville avait l'air calme, comme si rien ne pouvait la troubler."],
-        explanation: "\"Comme si\" + imparfait.",
-      },
+      { type: "multiple-choice", question: "Rachid asks: « Tu reviendras, hein ? » Which reply is a firm promise?", options: ["C'est promis, je reviendrai l'été prochain.", "C'est promis, je reviendrais l'été prochain.", "J'aurais aimé revenir l'été prochain.", "Si je reviendrai, je t'appellerai."], correctIndex: 0, explanation: "A promise about the future takes the futur \"reviendrai\". \"Reviendrais\" is a conditional (I would), \"j'aurais aimé\" is a regret, and \"si\" never takes the futur." },
       {
         type: "word-order",
         prompt: "Put the words in order to say: What I'll remember is its people.",
@@ -1272,12 +1124,7 @@ export const FR_B2_U28: Lesson[] = [
         audio: "Le mistral a soufflé toute la nuit.",
         explanation: "\"Le mistral\" is masculine; \"souffler\" = to blow.",
       },
-      {
-        type: "speak",
-        text: "J'aurais aimé rester plus longtemps, mais le journal m'attend.",
-        prompt: "Say it in French, as Laura: I'd have liked to stay longer, but the magazine is expecting me.",
-        explanation: "Regret in the conditionnel passé + \"mais\".",
-      },
+      { type: "speak", text: "J'aurais voulu voir les Calanques au printemps.", prompt: "Say it in French, as Laura: I'd have liked to see the Calanques in spring.", explanation: "Regret: conditionnel passé of \"vouloir\" + infinitive." },
     ],
   },
   {
@@ -1289,18 +1136,37 @@ export const FR_B2_U28: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "L'introduction: amener le sujet et poser la problématique",
+        heading: "L'introduction: three opening moves",
         body: [
           "A DELF B2 essay opens in three moves: \"amener le sujet\" (a fact or a figure that sets the scene), \"poser la problématique\" (the question your essay answers) and \"annoncer le plan\" (one sentence saying how you will proceed).",
-          "The \"problématique\" is usually an indirect question: \"on peut se demander si...\", \"il convient de se demander dans quelle mesure...\". Remember that an indirect question keeps statement word order and has no question mark: \"on peut se demander si le tourisme est une chance\", never \"si est-ce que\".",
-          "Avoid \"je\" in the introduction. Use \"on\" or impersonal phrases (\"il s'agit de\", \"il convient de\"); your personal opinion comes later, in the arguments and the conclusion.",
         ],
         examples: [
           { es: "Chaque été, des millions de visiteurs se pressent dans les rues de Venise, de Barcelone ou de Dubrovnik.", en: "Every summer, millions of visitors crowd into the streets of Venice, Barcelona or Dubrovnik." },
           { es: "Ce phénomène, que l'on appelle désormais le surtourisme, suscite la colère de nombreux habitants.", en: "This phenomenon, now known as overtourism, is angering many residents." },
+          { es: "Nous verrons d'abord les avantages du tourisme, puis ses effets pervers, avant de proposer quelques solutions.", en: "We will first look at the benefits of tourism, then its harmful effects, before suggesting some solutions." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which sentence does the first move, amener le sujet?", options: ["Chaque année, des millions de touristes visitent Paris.", "On peut se demander si Paris accueille trop de touristes.", "Nous verrons d'abord les avantages, puis les inconvénients.", "Pour conclure, il faudrait limiter le tourisme."], correctIndex: 0, explanation: "\"Amener le sujet\" sets the scene with a fact or a figure. The second sentence poses the problématique, the third announces the plan, and the last belongs in the conclusion." },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "We will first look at the advantages, then the drawbacks.",
+            answer: "Nous verrons d'abord les avantages, puis les inconvénients.",
+            altAnswers: ["Nous examinerons d'abord les avantages, puis les inconvénients.", "Nous verrons d'abord les avantages, ensuite les inconvénients.", "Nous examinerons d'abord les avantages, ensuite les inconvénients."],
+            explanation: "\"D'abord... puis/ensuite\" announces the plan.",
+          },
+        ],
+      },
+      {
+        heading: "La problématique: an indirect question, without je",
+        body: [
+          "The \"problématique\" is usually an indirect question: \"on peut se demander si...\", \"il convient de se demander dans quelle mesure...\". Remember that an indirect question keeps statement word order and has no question mark: \"on peut se demander si le tourisme est une chance\", never \"si est-ce que\".",
+          "Avoid \"je\" in the introduction. Use \"on\" or impersonal phrases (\"il s'agit de\", \"il convient de\"); your personal opinion comes later, in the arguments and the conclusion.",
+        ],
+        examples: [
           { es: "On peut donc se demander si le tourisme de masse est encore une chance pour les villes.", en: "One may therefore wonder whether mass tourism is still an opportunity for cities." },
           { es: "Il convient de se demander dans quelle mesure il faut limiter l'accès aux sites les plus fréquentés.", en: "We should ask to what extent access to the busiest sites should be restricted." },
-          { es: "Nous verrons d'abord les avantages du tourisme, puis ses effets pervers, avant de proposer quelques solutions.", en: "We will first look at the benefits of tourism, then its harmful effects, before suggesting some solutions." },
           { es: "Il s'agit de trouver un équilibre entre l'économie locale et la qualité de vie des habitants.", en: "The point is to find a balance between the local economy and the residents' quality of life." },
         ],
         checkpoint: [
@@ -1319,15 +1185,6 @@ export const FR_B2_U28: Lesson[] = [
             correctIndex: 0,
             explanation: "Indirect questions keep statement word order: no \"est-ce que\", no inversion, no question mark.",
           },
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "We will first look at the advantages, then the drawbacks.",
-            answer: "Nous verrons d'abord les avantages, puis les inconvénients.",
-            altAnswers: ["Nous examinerons d'abord les avantages, puis les inconvénients.", "Nous verrons d'abord les avantages, ensuite les inconvénients.", "Nous examinerons d'abord les avantages, ensuite les inconvénients."],
-            explanation: "\"D'abord... puis/ensuite\" announces the plan.",
-          },
         ],
       },
       {
@@ -1335,7 +1192,6 @@ export const FR_B2_U28: Lesson[] = [
         body: [
           "Each argument paragraph follows the same pattern: a connector, the idea, an example, and a consequence. The DELF examiners reward \"des exemples précis\": a figure, a place, a personal observation.",
           "To add an argument: \"d'une part... d'autre part\", \"en outre\", \"de plus\", \"par ailleurs\". To give a cause: \"en effet\", \"étant donné que\", \"dans la mesure où\". To give a consequence: \"par conséquent\", \"c'est pourquoi\", \"si bien que\" (+ indicative).",
-          "Avoid starting every sentence with \"aussi\" or \"et\": in formal French, \"aussi\" at the start of a sentence means 'therefore' and triggers inversion (\"aussi faut-il agir\").",
         ],
         examples: [
           { es: "D'une part, le tourisme fait vivre des milliers de commerces et crée des emplois.", en: "On the one hand, tourism keeps thousands of shops alive and creates jobs." },
@@ -1344,7 +1200,6 @@ export const FR_B2_U28: Lesson[] = [
           { es: "En outre, les locations de courte durée font flamber les loyers dans les centres historiques.", en: "Moreover, short-term rentals send rents soaring in historic centres." },
           { es: "Les habitants partent, si bien que certains quartiers se transforment en décors de cinéma.", en: "Residents leave, so some neighbourhoods turn into film sets." },
           { es: "Dans la mesure où la nature ne se régénère pas assez vite, il faudrait limiter le nombre de visiteurs dans les Calanques.", en: "Insofar as nature does not regenerate fast enough, the number of visitors to the Calanques should be limited." },
-          { es: "Aussi faut-il repenser notre façon de voyager.", en: "We must therefore rethink the way we travel." },
         ],
         checkpoint: [
           {
@@ -1355,13 +1210,6 @@ export const FR_B2_U28: Lesson[] = [
             answer: "si bien que",
             altAnswers: ["de sorte que", "de telle sorte que"],
             explanation: "\"Si bien que\" expresses a result and takes the indicative.",
-          },
-          {
-            type: "word-order",
-            prompt: "Put the words in order to say: We must therefore rethink the way we travel.",
-            words: ["Aussi", "faut-il", "repenser", "notre façon", "de voyager."],
-            translation: "We must therefore rethink the way we travel.",
-            explanation: "Sentence-initial \"aussi\" (= therefore) triggers inversion: \"aussi faut-il\".",
           },
           {
             type: "translate",
@@ -1375,20 +1223,31 @@ export const FR_B2_U28: Lesson[] = [
         ],
       },
       {
-        heading: "La concession et la conclusion",
+        heading: "Aussi at the start means therefore",
+        body: [
+          "Avoid starting every sentence with \"aussi\" or \"et\": in formal French, \"aussi\" at the start of a sentence means 'therefore' and triggers inversion (\"aussi faut-il agir\").",
+        ],
+        examples: [
+          { es: "Aussi faut-il repenser notre façon de voyager.", en: "We must therefore rethink the way we travel." },
+          { es: "Le site est fragile ; aussi faut-il limiter les visites.", en: "The site is fragile; visits must therefore be limited." },
+          { es: "Les loyers ont doublé ; aussi beaucoup de familles sont-elles parties.", en: "Rents have doubled; many families have therefore left." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which sentence uses aussi to mean therefore, correctly?", options: ["Aussi faut-il agir vite.", "Aussi il faut agir vite.", "Aussi faut agir vite il.", "Aussi, il faut-il agir vite."], correctIndex: 0, explanation: "Sentence-initial \"aussi\" (therefore) is followed by subject-verb inversion: \"aussi faut-il\". Without inversion it reads as a mistake; \"il faut aussi agir vite\" would mean also, not therefore." },
+          { type: "word-order", prompt: "Put the words in order to say: We must therefore change our habits.", words: ["Aussi", "devons-nous", "changer", "nos", "habitudes."], translation: "We must therefore change our habits.", explanation: "Sentence-initial \"aussi\" means therefore and triggers inversion of the subject pronoun: \"aussi devons-nous\", not \"aussi nous devons\"." },
+        ],
+      },
+      {
+        heading: "La concession",
         body: [
           "An Upper-intermediate essay must show that you have considered the other side. The classic pair is \"certes..., mais / toutefois / néanmoins...\": you grant a point, then you limit it. With a conjunction, use the subjunctive: \"bien que le tourisme soit utile, il...\", \"quoique ce soit...\".",
           "\"Il est vrai que\" takes the indicative (it states a fact); \"il n'en reste pas moins que\" (the fact remains that) takes the indicative too and is a strong way to return to your thesis.",
-          "The conclusion sums up (\"en définitive\", \"en somme\", \"pour conclure\"), answers the \"problématique\" clearly and opens the debate (\"une ouverture\"), often with a proposal in the conditional or with \"il faudrait que\" + subjunctive.",
         ],
         examples: [
           { es: "Certes, le tourisme rapporte beaucoup d'argent ; toutefois, il ne profite pas à tout le monde.", en: "Admittedly, tourism brings in a lot of money; however, not everyone benefits from it." },
           { es: "Bien que les quotas soient impopulaires, ils ont permis de sauver certains sites.", en: "Although quotas are unpopular, they have saved some sites." },
           { es: "Il est vrai que les touristes font vivre les restaurants du port.", en: "It is true that tourists keep the harbour restaurants going." },
           { es: "Il n'en reste pas moins que les habitants ont le droit de vivre dans leur ville.", en: "The fact remains that residents have the right to live in their own city." },
-          { es: "En définitive, le tourisme n'est ni une malédiction ni une bénédiction : tout dépend de la façon dont on le gère.", en: "In the end, tourism is neither a curse nor a blessing: it all depends on how it is managed." },
-          { es: "Il faudrait que chaque ville fixe un nombre maximal de visiteurs par jour.", en: "Each city should set a maximum number of visitors per day." },
-          { es: "Reste à savoir si les voyageurs accepteront de changer leurs habitudes.", en: "It remains to be seen whether travellers will agree to change their habits." },
         ],
         checkpoint: [
           {
@@ -1417,17 +1276,24 @@ export const FR_B2_U28: Lesson[] = [
           },
         ],
       },
+      {
+        heading: "La conclusion",
+        body: [
+          "The conclusion sums up (\"en définitive\", \"en somme\", \"pour conclure\"), answers the \"problématique\" clearly and opens the debate (\"une ouverture\"), often with a proposal in the conditional or with \"il faudrait que\" + subjunctive.",
+        ],
+        examples: [
+          { es: "En définitive, le tourisme n'est ni une malédiction ni une bénédiction : tout dépend de la façon dont on le gère.", en: "In the end, tourism is neither a curse nor a blessing: it all depends on how it is managed." },
+          { es: "Il faudrait que chaque ville fixe un nombre maximal de visiteurs par jour.", en: "Each city should set a maximum number of visitors per day." },
+          { es: "Reste à savoir si les voyageurs accepteront de changer leurs habitudes.", en: "It remains to be seen whether travellers will agree to change their habits." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which sentence works as an ouverture at the very end of the essay?", options: ["Reste à savoir si les habitants accepteront ces nouvelles règles.", "D'une part, le tourisme crée des emplois.", "On peut se demander si le tourisme est une chance.", "En effet, les loyers ont beaucoup augmenté."], correctIndex: 0, explanation: "An ouverture widens the debate after you've answered the question, typically with \"reste à savoir si\". The other sentences belong to the arguments or the introduction." },
+          { type: "translate", direction: "en-es", prompt: "Turn it into a proposal with « il faudrait que ».", source: "Les mairies limitent les locations de courte durée.", answer: "Il faudrait que les mairies limitent les locations de courte durée.", explanation: "\"Il faudrait que\" + subjunctive makes a polite proposal; for -er verbs the \"ils\" subjunctive looks like the present: \"limitent\"." },
+        ],
+      },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "One may wonder whether mass tourism is still an opportunity for our cities.",
-        answer: "On peut se demander si le tourisme de masse est encore une chance pour nos villes.",
-        altAnswers: ["On peut se demander si le tourisme de masse reste une chance pour nos villes.", "On peut se demander si le tourisme de masse est toujours une chance pour nos villes."],
-        explanation: "Indirect question with \"si\" and statement word order.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Il convient de se demander si est-ce que les croisières doivent être interdites.", answer: "Il convient de se demander si les croisières doivent être interdites.", altAnswers: ["Il convient de se demander si les croisières devraient être interdites."], explanation: "An indirect question needs \"si\" + statement order: \"est-ce que\" belongs only to direct questions." },
       {
         type: "translate",
         direction: "en-es",
@@ -1462,15 +1328,7 @@ export const FR_B2_U28: Lesson[] = [
         translation: "The fact remains that residents have rights.",
         explanation: "\"Il n'en reste pas moins que\" + indicative restates your thesis after a concession.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Each city should set a maximum number of visitors.",
-        answer: "Il faudrait que chaque ville fixe un nombre maximal de visiteurs.",
-        altAnswers: ["Chaque ville devrait fixer un nombre maximal de visiteurs.", "Il faudrait que chaque ville fixe un nombre maximum de visiteurs.", "Chaque ville devrait fixer un nombre maximum de visiteurs."],
-        explanation: "\"Il faudrait que\" + subjunctive, or \"devoir\" in the conditional.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Each region should protect its coastline.", answer: "Il faudrait que chaque région protège son littoral.", altAnswers: ["Chaque région devrait protéger son littoral.", "Il faudrait que chaque région protège ses côtes.", "Chaque région devrait protéger ses côtes."], explanation: "A proposal: \"il faudrait que\" + subjunctive (\"protège\"), or \"devoir\" in the conditional + infinitive." },
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
@@ -1598,15 +1456,7 @@ export const FR_B2_U28: Lesson[] = [
             correctIndex: 0,
             explanation: "\"C'est l'inverse qui s'est produit\" = the opposite happened.",
           },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "[Provided that] public transport is up to the job.",
-            sentence: "___ les transports en commun soient à la hauteur.",
-            answer: "À condition que",
-            altAnswers: ["à condition que", "Pourvu que", "pourvu que"],
-            explanation: "\"À condition que\" + subjunctive: \"soient\".",
-          },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "I'd leave my car at home, [provided that] the buses ran more often.", sentence: "Je laisserais ma voiture au garage, ___ les bus passent plus souvent.", answer: "à condition que", altAnswers: ["pourvu que"], explanation: "\"À condition que\" sets a condition and takes the subjunctive (\"passent\"); \"si\" would need the imparfait instead." },
           {
             type: "translate",
             direction: "en-es",
@@ -1634,15 +1484,7 @@ export const FR_B2_U28: Lesson[] = [
           { es: "Actuellement, je travaille à mi-temps ; je pourrais éventuellement passer à plein temps.", en: "At the moment I work part-time; I could possibly go full-time." },
         ],
         checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "If we had left earlier, we [would not have missed] the train.",
-            sentence: "Si nous étions partis plus tôt, nous ___ le train.",
-            answer: "n'aurions pas raté",
-            altAnswers: ["n'aurions pas manqué"],
-            explanation: "\"Si\" + plus-que-parfait → conditionnel passé.",
-          },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "If you had warned me, I [would have come] earlier.", sentence: "Si tu m'avais prévenu, je ___ plus tôt.", answer: "serais venu", altAnswers: ["serais venue", "serais arrivé", "serais arrivée"], explanation: "Unreal past: \"si\" + plus-que-parfait, then the conditionnel passé; \"venir\" takes être: \"je serais venu(e)\"." },
           {
             type: "multiple-choice",
             question: "Choose the correct meaning: \"actuellement\" means...",
@@ -1650,14 +1492,7 @@ export const FR_B2_U28: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Actuellement\" is a false friend: 'actually' is \"en fait\".",
           },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "It is the project [that] I care about most.",
-            sentence: "C'est le projet ___ je tiens le plus.",
-            answer: "auquel",
-            explanation: "\"Tenir à\" → \"à\" + \"lequel\" = \"auquel\".",
-          },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "These are the values [to which] we are attached.", sentence: "Ce sont les valeurs ___ nous sommes attachés.", answer: "auxquelles", explanation: "\"Être attaché à\" + feminine plural \"les valeurs\": à + lesquelles = \"auxquelles\"." },
         ],
       },
       {
@@ -1675,21 +1510,8 @@ export const FR_B2_U28: Lesson[] = [
           { es: "Pour résumer, je dirais que tout est une question d'équilibre.", en: "To sum up, I would say that it is all a question of balance." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I understand your objection, but I do not share it.",
-            answer: "Je comprends votre objection, mais je ne la partage pas.",
-            altAnswers: ["Je comprends ton objection, mais je ne la partage pas."],
-            explanation: "\"L'objection\" is feminine → \"la\".",
-          },
-          {
-            type: "speak",
-            text: "Le document soulève la question du droit à la déconnexion.",
-            prompt: "Say it in French: The document raises the question of the right to disconnect.",
-            explanation: "\"Soulever une question\" = to raise a question.",
-          },
+          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I respect your point of view, but I don't share it.", answer: "Je respecte votre point de vue, mais je ne le partage pas.", altAnswers: ["Je respecte ton point de vue, mais je ne le partage pas.", "Je respecte votre point de vue, mais je ne le partage pas entièrement."], explanation: "\"Le point de vue\" is masculine, so the object pronoun is \"le\" (compare \"l'objection... je ne la partage pas\")." },
+          { type: "speak", text: "Ce texte pose le problème de la place des écrans à l'école.", prompt: "Say it in French: This text raises the issue of screens at school.", explanation: "\"Poser le problème de\" or \"soulever la question de\" to present the issue of a document." },
         ],
       },
     ],
@@ -1718,20 +1540,8 @@ export const FR_B2_U28: Lesson[] = [
         correctIndex: 0,
         explanation: "\"Bannir, non\" rejects the ban; \"il me semble qu'il faut\" is a hedged proposal.",
       },
-      {
-        type: "dictation",
-        audio: "Il faudrait que chaque entreprise garantisse un véritable droit à la déconnexion.",
-        explanation: "\"Il faudrait que\" + subjunctive: \"garantisse\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I doubt that he has understood what is at stake.",
-        answer: "Je doute qu'il ait compris l'enjeu.",
-        altAnswers: ["Je doute qu'il ait compris ce qui est en jeu.", "Je doute qu'il ait saisi l'enjeu."],
-        explanation: "\"Douter que\" + subjonctif passé.",
-      },
+      { type: "dictation", audio: "Il faudrait que les entreprises respectent le droit au repos.", explanation: "\"Il faudrait que\" + subjunctive: \"respectent\" (same form as the present for -er verbs in the \"ils\" form)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I'm not sure she has read the report.", answer: "Je ne suis pas sûr qu'elle ait lu le rapport.", altAnswers: ["Je ne suis pas sûre qu'elle ait lu le rapport.", "Je ne suis pas certain qu'elle ait lu le rapport.", "Je ne suis pas certaine qu'elle ait lu le rapport."], explanation: "Doubt (\"ne pas être sûr que\") + past subjunctive \"ait lu\"." },
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
@@ -1767,13 +1577,7 @@ export const FR_B2_U28: Lesson[] = [
         altAnswers: ["Elle a fait peindre son appartement avant de le vendre.", "Elle a fait repeindre son appart avant de le vendre."],
         explanation: "Causative \"faire\" + infinitive; \"fait\" never agrees in this structure.",
       },
-      {
-        type: "word-order",
-        prompt: "Put the words in order to say: By reading this article, I changed my mind.",
-        words: ["En lisant", "cet article,", "j'ai", "changé", "d'avis."],
-        translation: "By reading this article, I changed my mind.",
-        explanation: "Gérondif \"en lisant\" expresses the means.",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: By talking to the residents, I understood the problem.", words: ["En", "parlant", "aux", "habitants,", "j'ai", "compris", "le", "problème."], translation: "By talking to the residents, I understood the problem.", explanation: "Gérondif \"en parlant\" expresses the means; same subject as \"j'ai compris\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -1868,12 +1672,7 @@ export const FR_B2_U28: Lesson[] = [
         tip: "Speak at a steady pace and stress the connectors \"à condition que\" and \"pour illustrer\".",
         explanation: "A structured opening: position, condition, then announcement of an example.",
       },
-      {
-        type: "speak",
-        text: "Pour résumer, je dirais que tout est une question d'équilibre.",
-        prompt: "Conclude your exposé. Say in French: To sum up, I would say it is all a question of balance.",
-        explanation: "The conditional \"je dirais\" softens the conclusion.",
-      },
+      { type: "speak", text: "En somme, je dirais que tout dépend de la manière dont on l'organise.", prompt: "Conclude your exposé. Say in French: In short, I would say it all depends on how it is organised.", explanation: "\"Je dirais\" softens the conclusion; \"la manière dont\" because you organise something \"d'une manière\"." },
     ],
   },
 ];

@@ -28,21 +28,14 @@ export const FR_C1_U05: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "The passive in every tense: être carries the tense",
+        heading: "Être carries the tense",
         body: [
           "You met the passive at the Intermediate level: \"être\" + past participle, agreeing with the subject. At the Advanced level the challenge is not the form but the range. The rule never changes: put \"être\" in the tense you need and keep the participle as it is. \"Le pont sera construit\" (future), \"le tableau avait été vendu\" (pluperfect), \"le concert aurait été annulé\" (past conditional), \"il faut que le dossier soit validé\" (subjunctive).",
-          "In compound tenses there are two participles, and only the second one agrees: \"la maison a été vendue\", \"les lettres avaient été envoyées\". \"Été\" never agrees; it is the participle of \"être\" conjugated with \"avoir\". The most common written slip at this level is *\"la décision a étée prise\".",
-          "The passive conditional is the workhorse of French journalism for unconfirmed facts: \"le suspect aurait été arrêté à Marseille\" means 'the suspect has reportedly been arrested'. English needs an adverb (reportedly, allegedly); French does it with the tense alone. Recognise it in headlines and use it whenever you report something you can't vouch for.",
-          "Long passives get heavy quickly (\"le projet aura dû être présenté\"), and good writers notice. If the agent is unknown or unimportant, a French speaker often prefers \"on\" or a pronominal verb (see the Transformations lesson and Part 6); keep the passive for when the thing done is your true topic.",
         ],
         examples: [
           { es: "Le nouveau pont sera inauguré au printemps prochain.", en: "The new bridge will be opened next spring." },
           { es: "Le tableau avait été vendu bien avant l'ouverture de la vente aux enchères.", en: "The painting had been sold long before the auction opened." },
-          { es: "Selon nos informations, le concert aurait été annulé à la dernière minute.", en: "According to our sources, the concert was reportedly cancelled at the last minute." },
           { es: "Il faut que le dossier soit validé avant vendredi.", en: "The file has to be approved before Friday." },
-          { es: "Ces maisons ont été construites juste après la guerre.", en: "These houses were built just after the war." },
-          { es: "Si la route avait été entretenue, l'accident aurait pu être évité.", en: "If the road had been maintained, the accident could have been avoided." },
-          { es: "La décision est prise : nous déménageons à Nantes.", en: "The decision has been made: we're moving to Nantes." },
         ],
         checkpoint: [
           {
@@ -54,6 +47,39 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["Le musée sera fermé deux ans.", "Le musée va être fermé pendant deux ans.", "Le musée va être fermé deux ans."],
             explanation: "Future passive: \"sera\" + \"fermé\". For a period of time, use \"pendant\" or nothing at all, never \"pour\" here.",
           },
+        ],
+      },
+      {
+        heading: "Two participles: été never agrees",
+        body: [
+          "In compound tenses there are two participles, and only the second one agrees: \"la maison a été vendue\", \"les lettres avaient été envoyées\". \"Été\" never agrees; it is the participle of \"être\" conjugated with \"avoir\". The most common written slip at this level is *\"la décision a étée prise\".",
+        ],
+        examples: [
+          { es: "Ces maisons ont été construites juste après la guerre.", en: "These houses were built just after the war." },
+          { es: "La décision est prise : nous déménageons à Nantes.", en: "The decision has been made: we're moving to Nantes." },
+          { es: "Les lettres avaient été envoyées trop tard.", en: "The letters had been sent too late." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correctly spelled?",
+            options: ["La décision a été prise hier soir.", "La décision a étée prise hier soir.", "La décision a été pris hier soir.", "La décision est été prise hier soir."],
+            correctIndex: 0,
+            explanation: "\"Été\" is invariable; only the last participle agrees with the subject: \"a été prise\".",
+          },
+        ],
+      },
+      {
+        heading: "The passive conditional: reportedly",
+        body: [
+          "The passive conditional is the workhorse of French journalism for unconfirmed facts: \"le suspect aurait été arrêté à Marseille\" means 'the suspect has reportedly been arrested'. English needs an adverb (reportedly, allegedly); French does it with the tense alone. Recognise it in headlines and use it whenever you report something you can't vouch for.",
+        ],
+        examples: [
+          { es: "Selon nos informations, le concert aurait été annulé à la dernière minute.", en: "According to our sources, the concert was reportedly cancelled at the last minute." },
+          { es: "Le tableau aurait été volé pendant la nuit.", en: "The painting was reportedly stolen during the night." },
+          { es: "Trois personnes auraient été blessées.", en: "Three people have reportedly been injured." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -66,29 +92,38 @@ export const FR_C1_U05: Lesson[] = [
         ],
       },
       {
-        heading: "Par or de? Action versus state",
+        heading: "When the passive gets heavy",
+        body: [
+          "Long passives get heavy quickly (\"le projet aura dû être présenté\"), and good writers notice. If the agent is unknown or unimportant, a French speaker often prefers \"on\" or a pronominal verb (see the Transformations lesson and Part 6); keep the passive for when the thing done is your true topic.",
+        ],
+        examples: [
+          { es: "Si la route avait été entretenue, l'accident aurait pu être évité.", en: "If the road had been maintained, the accident could have been avoided." },
+          { es: "On construira une nouvelle école.", en: "A new school will be built." },
+          { es: "On a présenté le projet en juin.", en: "The project was presented in June." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it with on.",
+            source: "Le bureau a été cambriolé pendant le week-end.",
+            answer: "On a cambriolé le bureau pendant le week-end.",
+            explanation: "The agent is unknown, so \"on\" + active verb is lighter than the passive; the tense stays the same (passé composé).",
+          },
+        ],
+      },
+      {
+        heading: "Par for an action, de for a state",
         body: [
           "The agent is normally introduced by \"par\": \"le vol a été commis par deux adolescents\". \"Par\" goes with a real action performed by someone at a given moment.",
           "\"De\" introduces the agent after verbs of feeling and of lasting state or description: \"aimé de tous\", \"respecté de ses collègues\", \"craint de ses élèves\", \"connu de la police\", \"couvert de neige\", \"entouré d'arbres\", \"rempli d'eau\", \"suivi de\" (followed by). With these, \"par\" is possible but sounds either stiff or deliberately active.",
-          "Some verbs take both with a change of meaning: \"accompagné de\" (simply with, a description: \"un poisson accompagné de légumes\") vs \"accompagné par\" (escorted by someone acting: \"le ministre était accompagné par deux gardes du corps\"). \"Le village est entouré de montagnes\" (state) vs \"la maison a été entourée par la police\" (an operation).",
-          "After \"de\", the article \"des\" or the partitive disappears: \"couvert de neige\" (not *\"de la neige\"), \"rempli de touristes\", but a specific, determined noun keeps its article: \"couvert de la poussière du chantier\".",
         ],
         examples: [
           { es: "Ce professeur est respecté de tous ses élèves.", en: "This teacher is respected by all his pupils." },
           { es: "Les cambrioleurs ont été arrêtés par une patrouille de nuit.", en: "The burglars were arrested by a night patrol." },
-          { es: "Le sommet était couvert de neige jusqu'en juin.", en: "The summit was covered in snow until June." },
-          { es: "Le magret est servi accompagné de pommes sarladaises.", en: "The duck breast is served with fried potatoes." },
-          { es: "La présidente était accompagnée par son directeur de cabinet.", en: "The president was accompanied by her chief of staff." },
           { es: "Ce quartier, connu de tous les Lyonnais, a beaucoup changé.", en: "This neighbourhood, known to everyone in Lyon, has changed a lot." },
         ],
         checkpoint: [
-          {
-            type: "multiple-choice",
-            question: "How do you say: The garden was full of weeds.",
-            options: ["Le jardin était rempli de mauvaises herbes.", "Le jardin était rempli par des mauvaises herbes.", "Le jardin était rempli des mauvaises herbes.", "Le jardin a été rempli par mauvaises herbes."],
-            correctIndex: 0,
-            explanation: "\"Rempli\" describes a state, so \"de\", and \"des\" disappears after it: \"rempli de mauvaises herbes\". \"Par\" would suggest someone actively filled it.",
-          },
           {
             type: "translate",
             direction: "en-es",
@@ -101,20 +136,74 @@ export const FR_C1_U05: Lesson[] = [
         ],
       },
       {
-        heading: "Passives English makes and French refuses",
+        heading: "Accompagné de or par",
+        body: [
+          "Some verbs take both with a change of meaning: \"accompagné de\" (simply with, a description: \"un poisson accompagné de légumes\") vs \"accompagné par\" (escorted by someone acting: \"le ministre était accompagné par deux gardes du corps\"). \"Le village est entouré de montagnes\" (state) vs \"la maison a été entourée par la police\" (an operation).",
+        ],
+        examples: [
+          { es: "Le magret est servi accompagné de pommes sarladaises.", en: "The duck breast is served with fried potatoes." },
+          { es: "La présidente était accompagnée par son directeur de cabinet.", en: "The president was accompanied by her chief of staff." },
+          { es: "La maison a été entourée par la police.", en: "The house was surrounded by the police." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say: The castle is surrounded by a moat?",
+            options: ["Le château est entouré de douves.", "Le château est entouré avec des douves.", "Le château est entouré des douves.", "Le château a été entouré par douves."],
+            correctIndex: 0,
+            explanation: "A permanent state takes \"de\", and after \"de\" the article \"des\" disappears: \"entouré de douves\". \"Par\" would describe an operation.",
+          },
+        ],
+      },
+      {
+        heading: "After de, no des",
+        body: [
+          "After \"de\", the article \"des\" or the partitive disappears: \"couvert de neige\" (not *\"de la neige\"), \"rempli de touristes\", but a specific, determined noun keeps its article: \"couvert de la poussière du chantier\".",
+        ],
+        examples: [
+          { es: "Le sommet était couvert de neige jusqu'en juin.", en: "The summit was covered in snow until June." },
+          { es: "La salle était remplie de journalistes.", en: "The room was full of journalists." },
+          { es: "Ses chaussures étaient couvertes de la boue du jardin.", en: "His shoes were covered in the mud from the garden." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say: The garden was full of weeds.",
+            options: ["Le jardin était rempli de mauvaises herbes.", "Le jardin était rempli par des mauvaises herbes.", "Le jardin était rempli des mauvaises herbes.", "Le jardin a été rempli par mauvaises herbes."],
+            correctIndex: 0,
+            explanation: "\"Rempli\" describes a state, so \"de\", and \"des\" disappears after it: \"rempli de mauvaises herbes\". \"Par\" would suggest someone actively filled it.",
+          },
+        ],
+      },
+      {
+        heading: "Only a direct object can become the subject",
         body: [
           "Only a direct object can become the subject of a French passive. English happily passivises indirect objects: 'I was given a book', 'She was told the truth', 'We were asked to wait'. French can't: *\"j'ai été donné un livre\" is impossible, because \"donner\" takes \"à quelqu'un\". Use \"on\" instead: \"on m'a donné un livre\", \"on lui a dit la vérité\", \"on nous a demandé d'attendre\".",
-          "The same goes for verbs with an indirect object in French even when English has a direct one: \"obéir à\", \"répondre à\", \"téléphoner à\", \"permettre à\", \"interdire à\", \"conseiller à\", \"promettre à\". 'He was phoned' is \"on lui a téléphoné\"; 'Smokers are not allowed to...' is \"il est interdit aux fumeurs de...\" (an impersonal passive, Part 4).",
-          "Watch out for exceptions you will see in the press: \"obéir\", \"désobéir\" and \"pardonner\" keep an old passive (\"vous serez pardonnés\", \"il veut être obéi\"), but these are fixed and formal. Don't generalise them.",
-          "Finally, French avoids the passive when the agent is a vague 'people': 'It is said that...' is \"on dit que...\", not *\"il est dit que\" in ordinary prose.",
         ],
         examples: [
           { es: "On m'a offert un stage à Bruxelles.", en: "I was offered an internship in Brussels." },
           { es: "On leur a demandé de patienter dans le hall.", en: "They were asked to wait in the lobby." },
           { es: "On ne nous a jamais expliqué les nouvelles règles.", en: "We were never told the new rules." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say: Hugo was given a second chance.",
+            options: ["On a donné une deuxième chance à Hugo.", "Hugo a été donné une deuxième chance.", "Hugo a été donnée une deuxième chance.", "Il a été donné Hugo une deuxième chance."],
+            correctIndex: 0,
+            explanation: "\"Donner\" takes \"à quelqu'un\", and only a direct object can become a French passive subject. Use \"on\": \"on a donné une deuxième chance à Hugo\".",
+          },
+        ],
+      },
+      {
+        heading: "French indirect objects",
+        body: [
+          "The same goes for verbs with an indirect object in French even when English has a direct one: \"obéir à\", \"répondre à\", \"téléphoner à\", \"permettre à\", \"interdire à\", \"conseiller à\", \"promettre à\". 'He was phoned' is \"on lui a téléphoné\"; 'Smokers are not allowed to...' is \"il est interdit aux fumeurs de...\" (an impersonal passive, Part 4).",
+        ],
+        examples: [
           { es: "Il est interdit aux visiteurs de nourrir les animaux.", en: "Visitors are not allowed to feed the animals." },
           { es: "On a conseillé à Karim de changer d'avocat.", en: "Karim was advised to change lawyers." },
-          { es: "On dit que ce restaurant va fermer.", en: "It's said that this restaurant is going to close." },
+          { es: "On lui a téléphoné hier soir.", en: "He was phoned last night." },
         ],
         checkpoint: [
           {
@@ -126,18 +215,27 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["On m'a dit que la réunion était reportée.", "On m'a dit que la réunion avait été repoussée."],
             explanation: "'I was told' passivises an indirect object (\"dire à quelqu'un\"), so French uses \"on m'a dit\". The postponement itself is a real passive: \"avait été reportée\".",
           },
+        ],
+      },
+      {
+        heading: "Old exceptions, and on dit que",
+        body: [
+          "Watch out for exceptions you will see in the press: \"obéir\", \"désobéir\" and \"pardonner\" keep an old passive (\"vous serez pardonnés\", \"il veut être obéi\"), but these are fixed and formal. Don't generalise them.",
+          "Finally, French avoids the passive when the agent is a vague 'people': 'It is said that...' is \"on dit que...\", not *\"il est dit que\" in ordinary prose.",
+        ],
+        examples: [
+          { es: "On dit que ce restaurant va fermer.", en: "It's said that this restaurant is going to close." },
+          { es: "Vous serez pardonnés.", en: "You will be forgiven." },
+          { es: "On dit qu'il va pleuvoir tout le week-end.", en: "They say it's going to rain all weekend." },
+        ],
+        checkpoint: [
           {
-            type: "multiple-choice",
-            question: "How do you say: Léa was given a second chance.",
-            options: ["On a donné une deuxième chance à Léa.", "Léa a été donnée une deuxième chance.", "Léa a été donné une deuxième chance.", "Il a été donné Léa une deuxième chance."],
-            correctIndex: 0,
-            explanation: "Léa is the indirect object of \"donner\" (\"donner à Léa\"), so she can't be the subject of a passive. French uses \"on\".",
-          },
-          {
-            type: "speak",
-            text: "On ne nous a jamais expliqué les nouvelles règles.",
-            prompt: "Say it in French: We were never told the new rules.",
-            explanation: "'We were told / explained' has no French passive: \"on ne nous a jamais expliqué\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il est dit que le maire va démissionner.",
+            answer: "On dit que le maire va démissionner.",
+            explanation: "When the agent is a vague 'people', ordinary French uses \"on dit que\", not a passive \"il est dit que\".",
           },
         ],
       },
@@ -194,13 +292,6 @@ export const FR_C1_U05: Lesson[] = [
         explanation: "With a modal, the passive infinitive is \"être présenté\": \"aurait dû être présenté\". Only the final participle agrees with the subject.",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is correctly spelled?",
-        options: ["La décision a été prise hier soir.", "La décision a étée prise hier soir.", "La décision a été pris hier soir.", "La décision est été prise hier soir."],
-        correctIndex: 0,
-        explanation: "\"Été\" is invariable; only the last participle agrees with the subject: \"a été prise\".",
-      },
-      {
         type: "listen-choose",
         audio: "Le directeur aurait été licencié la semaine dernière.",
         question: "What does it mean?",
@@ -210,8 +301,9 @@ export const FR_C1_U05: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Ces maisons ont été construites après la guerre.",
-        explanation: "\"Ont été construites\": the participle agrees with \"ces maisons\" (feminine plural); \"été\" never changes.",
+        audio: "Ces immeubles ont été rénovés l'an dernier.",
+        answer: "Ces immeubles ont été rénovés l'an dernier.",
+        explanation: "Passé composé passive: \"ont été\" + participle agreeing with \"ces immeubles\"; \"été\" never agrees.",
       },
       {
         type: "translate",
@@ -224,10 +316,9 @@ export const FR_C1_U05: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Si la route avait été entretenue, l'accident aurait pu être évité.",
-        prompt: "Say it in French: If the road had been maintained, the accident could have been avoided.",
-        tip: "Keep \"aurait pu être évité\" in one breath.",
-        explanation: "Pluperfect passive in the si-clause, and the passive infinitive \"être évité\" after \"aurait pu\".",
+        text: "Si l'alarme avait été vérifiée, l'incendie aurait pu être évité.",
+        prompt: "Say it in French: If the alarm had been checked, the fire could have been avoided.",
+        explanation: "Pluperfect passive after \"si\" (\"avait été vérifiée\"), past conditional in the main clause.",
       },
     ],
   },
@@ -240,21 +331,25 @@ export const FR_C1_U05: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Il s'agit de: always il, never a noun",
+        heading: "Il s'agit de: always il",
         body: [
           "\"Il s'agit de\" means 'it's about', 'it's a matter of', 'what we're dealing with is'. Its subject is always the empty \"il\", in every tense: \"il s'agit de\", \"il s'agissait de\", \"il s'agira de\", \"il s'est agi de\". English says 'The film is about a family', but French can't make \"le film\" the subject: you say \"dans ce film, il s'agit d'une famille\" or simply \"ce film parle d'une famille\" / \"ce film raconte l'histoire d'une famille\".",
-          "With an infinitive, \"il s'agit de\" means 'what matters is to', 'the point is to': \"il ne s'agit pas de gagner, il s'agit de participer\". In a report it introduces a classification: \"il s'agit d'un homme d'une quarantaine d'années\" (the person concerned is a man in his forties).",
-          "\"Il est question de\" is close but means 'there is talk of' or 'it's a question of'. \"Il est question de fermer l'usine\" means a closure is being discussed; \"il n'est pas question que tu sortes\" (+ subjunctive) or \"pas question !\" means 'out of the question'.",
         ],
         examples: [
           { es: "Dans ce roman, il s'agit d'une femme qui quitte tout pour la mer.", en: "This novel is about a woman who leaves everything behind for the sea." },
-          { es: "Il ne s'agit pas de gagner, il s'agit de bien jouer.", en: "It's not about winning, it's about playing well." },
-          { es: "La victime ? Il s'agit d'un homme d'une cinquantaine d'années.", en: "The victim? He's a man in his fifties." },
           { es: "De quoi s'agit-il exactement ?", en: "What is it about exactly?" },
-          { es: "Il est question de supprimer la ligne de bus 12.", en: "There's talk of cutting the number 12 bus route." },
-          { es: "Il n'est pas question que tu conduises dans cet état.", en: "There's no way you're driving in that state." },
+          { es: "Ce documentaire parle des abeilles.", en: "This documentary is about bees." },
         ],
         checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Ce livre s'agit d'un enfant perdu.",
+            answer: "Dans ce livre, il s'agit d'un enfant perdu.",
+            altAnswers: ["Ce livre parle d'un enfant perdu.", "Ce livre raconte l'histoire d'un enfant perdu.", "Dans ce livre, il est question d'un enfant perdu."],
+            explanation: "\"S'agir\" only ever has the empty subject \"il\". Put the book in a complement (\"dans ce livre\") or use another verb: \"ce livre parle d'un enfant perdu\".",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -264,6 +359,40 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["Dans cet article, il s'agit de la crise du logement.", "L'article parle de la crise du logement.", "L'article porte sur la crise du logement.", "Cet article parle de la crise du logement.", "Cet article porte sur la crise du logement.", "L'article traite de la crise du logement.", "Cet article traite de la crise du logement."],
             explanation: "\"L'article s'agit de\" is impossible: \"s'agir\" only takes \"il\". Use \"dans l'article, il s'agit de\" or a verb like \"parler de\", \"porter sur\", \"traiter de\".",
           },
+        ],
+      },
+      {
+        heading: "The point is to; the person concerned is",
+        body: [
+          "With an infinitive, \"il s'agit de\" means 'what matters is to', 'the point is to': \"il ne s'agit pas de gagner, il s'agit de participer\". In a report it introduces a classification: \"il s'agit d'un homme d'une quarantaine d'années\" (the person concerned is a man in his forties).",
+        ],
+        examples: [
+          { es: "Il ne s'agit pas de gagner, il s'agit de bien jouer.", en: "It's not about winning, it's about playing well." },
+          { es: "La victime ? Il s'agit d'un homme d'une cinquantaine d'années.", en: "The victim? He's a man in his fifties." },
+          { es: "Il s'agit de rester calme.", en: "The point is to stay calm." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[The person concerned is] a woman in her thirties.",
+            sentence: "___ d'une femme d'une trentaine d'années.",
+            answer: "Il s'agit",
+            explanation: "In a report, \"il s'agit de\" identifies who or what is concerned.",
+          },
+        ],
+      },
+      {
+        heading: "Il est question de",
+        body: [
+          "\"Il est question de\" is close but means 'there is talk of' or 'it's a question of'. \"Il est question de fermer l'usine\" means a closure is being discussed; \"il n'est pas question que tu sortes\" (+ subjunctive) or \"pas question !\" means 'out of the question'.",
+        ],
+        examples: [
+          { es: "Il est question de supprimer la ligne de bus 12.", en: "There's talk of cutting the number 12 bus route." },
+          { es: "Il n'est pas question que tu conduises dans cet état.", en: "There's no way you're driving in that state." },
+          { es: "Pas question !", en: "No way!" },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -275,21 +404,14 @@ export const FR_C1_U05: Lesson[] = [
         ],
       },
       {
-        heading: "Il reste, il manque, il suffit",
+        heading: "Il reste, il manque: a singular verb",
         body: [
           "These verbs put the real subject after the verb, and the verb stays singular because its grammatical subject is \"il\": \"il reste trois places\" (there are three seats left), \"il manque deux pages\" (two pages are missing), never *\"il restent\" or *\"il manquent\". Compare the personal version: \"trois places restent libres\", \"deux pages manquent\", which sound more literary.",
-          "\"Il reste à\" + infinitive means 'it remains to', 'we still have to': \"il reste à trouver un financement\". \"Reste à savoir si...\" (without il) is a common journalistic way of saying 'the question is whether...'.",
-          "\"Il manque\" has a personal twin that English speakers get backwards: \"tu me manques\" (I miss you). The impersonal version takes an indirect object for the person who lacks: \"il me manque dix euros\" (I'm ten euros short).",
-          "\"Il suffit de\" + noun or infinitive means 'all it takes is', 'you only need to': \"il suffit d'un clic\", \"il suffit de demander\". \"Il suffit que\" takes the subjunctive: \"il suffit qu'il pleuve pour que tout soit bloqué\". \"Ça suffit !\" means 'that's enough!'.",
         ],
         examples: [
           { es: "Il reste encore quelques billets pour samedi.", en: "There are still a few tickets left for Saturday." },
-          { es: "Il reste à convaincre le conseil municipal.", en: "We still have to convince the town council." },
           { es: "Il manque deux chaises pour le dîner de ce soir.", en: "We're two chairs short for tonight's dinner." },
-          { es: "Il me manque juste une signature.", en: "I just need one more signature." },
-          { es: "Il suffit d'une étincelle pour déclencher un incendie.", en: "All it takes is a spark to start a fire." },
-          { es: "Il suffit que tu m'envoies le fichier ce soir.", en: "You only need to send me the file tonight." },
-          { es: "Reste à savoir si le projet sera financé.", en: "The question is whether the project will be funded." },
+          { es: "Il manque une pièce au puzzle.", en: "A piece of the puzzle is missing." },
         ],
         checkpoint: [
           {
@@ -301,6 +423,65 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["Il manque trois fichiers.", "Trois dossiers manquent.", "Trois fichiers manquent."],
             explanation: "Impersonal \"il manque\" stays singular whatever follows: \"il manque trois dossiers\", never *\"il manquent\".",
           },
+        ],
+      },
+      {
+        heading: "Il reste à, reste à savoir",
+        body: [
+          "\"Il reste à\" + infinitive means 'it remains to', 'we still have to': \"il reste à trouver un financement\". \"Reste à savoir si...\" (without il) is a common journalistic way of saying 'the question is whether...'.",
+        ],
+        examples: [
+          { es: "Il reste à convaincre le conseil municipal.", en: "We still have to convince the town council." },
+          { es: "Reste à savoir si le projet sera financé.", en: "The question is whether the project will be funded." },
+          { es: "Il reste à fixer la date.", en: "We still have to set the date." },
+        ],
+        checkpoint: [
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: The question is whether he will accept.",
+            words: ["Reste", "à savoir", "s'il", "acceptera."],
+            translation: "The question is whether he will accept.",
+            explanation: "\"Reste à savoir si\", without \"il\", is a set journalistic formula: it remains to be seen whether.",
+          },
+          {
+            type: "speak",
+            text: "Il reste à trouver une salle.",
+            prompt: "Say it in French: We still have to find a room.",
+            explanation: "\"Il reste à\" + infinitive: what still has to be done. The subject is the empty \"il\".",
+          },
+        ],
+      },
+      {
+        heading: "Il me manque vs tu me manques",
+        body: [
+          "\"Il manque\" has a personal twin that English speakers get backwards: \"tu me manques\" (I miss you). The impersonal version takes an indirect object for the person who lacks: \"il me manque dix euros\" (I'm ten euros short).",
+        ],
+        examples: [
+          { es: "Il me manque juste une signature.", en: "I just need one more signature." },
+          { es: "Tu me manques beaucoup.", en: "I miss you a lot." },
+          { es: "Il lui manque deux points pour avoir son diplôme.", en: "She's two points short of getting her degree." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say 'I miss my parents'?",
+            options: ["Mes parents me manquent.", "Je manque mes parents.", "Je manque à mes parents.", "Mes parents manquent moi."],
+            correctIndex: 0,
+            explanation: "With \"manquer\", the person missed is the subject and the person who misses is the indirect object: \"mes parents me manquent\". \"Je manque à mes parents\" means they miss me.",
+          },
+        ],
+      },
+      {
+        heading: "Il suffit de, il suffit que",
+        body: [
+          "\"Il suffit de\" + noun or infinitive means 'all it takes is', 'you only need to': \"il suffit d'un clic\", \"il suffit de demander\". \"Il suffit que\" takes the subjunctive: \"il suffit qu'il pleuve pour que tout soit bloqué\". \"Ça suffit !\" means 'that's enough!'.",
+        ],
+        examples: [
+          { es: "Il suffit d'une étincelle pour déclencher un incendie.", en: "All it takes is a spark to start a fire." },
+          { es: "Il suffit que tu m'envoies le fichier ce soir.", en: "You only need to send me the file tonight." },
+          { es: "Ça suffit maintenant !", en: "That's enough now!" },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -310,27 +491,16 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["Tu n'as qu'à demander.", "Vous n'avez qu'à demander."],
             explanation: "\"Il suffit de\" + infinitive: 'all you have to do is', with no subject pronoun for 'you'.",
           },
-          {
-            type: "speak",
-            text: "Il reste à convaincre le conseil municipal.",
-            prompt: "Say it in French: We still have to convince the town council.",
-            explanation: "\"Il reste à\" + infinitive: what still needs doing, without naming who does it.",
-          },
         ],
       },
       {
-        heading: "Il arrive que, il paraît que",
+        heading: "Il arrive que, il m'arrive de",
         body: [
           "\"Il arrive que\" means 'it happens that', 'sometimes': \"il arrive que le train ait du retard\". It takes the subjunctive, because it presents an occasional possibility, not a fact. Its infinitive version: \"il m'arrive de\" + infinitive (I sometimes...): \"il m'arrive de travailler le dimanche\". This is a very natural way to say 'sometimes I...'.",
-          "\"Il paraît que\" (+ indicative) means 'apparently', 'I've heard that': \"il paraît que Sophie s'est mariée\". It's hearsay, and it's very spoken. Don't confuse it with \"il semble que\" (+ subjunctive, 'it seems that', a cautious judgement) and \"il me semble que\" (+ indicative, 'I think that'), which you met at the Upper-intermediate level.",
-          "\"Il arrive\" can also introduce an event with the real subject after it: \"il est arrivé un accident\" (an accident happened), \"il lui est arrivé quelque chose\" (something happened to him). Part 4 develops this.",
         ],
         examples: [
           { es: "Il arrive que la ligne soit coupée en hiver.", en: "The line is sometimes cut off in winter." },
           { es: "Il m'arrive de lire jusqu'à deux heures du matin.", en: "I sometimes read until two in the morning." },
-          { es: "Il paraît que le nouveau directeur est très exigeant.", en: "Apparently the new director is very demanding." },
-          { es: "Il semble que la situation se soit améliorée.", en: "It seems the situation has improved." },
-          { es: "Qu'est-ce qui lui est arrivé ?", en: "What happened to him?" },
           { es: "Il arrive à tout le monde de se tromper.", en: "Everyone makes mistakes sometimes." },
         ],
         checkpoint: [
@@ -353,16 +523,59 @@ export const FR_C1_U05: Lesson[] = [
           },
         ],
       },
+      {
+        heading: "Il paraît que vs il semble que",
+        body: [
+          "\"Il paraît que\" (+ indicative) means 'apparently', 'I've heard that': \"il paraît que Sophie s'est mariée\". It's hearsay, and it's very spoken. Don't confuse it with \"il semble que\" (+ subjunctive, 'it seems that', a cautious judgement) and \"il me semble que\" (+ indicative, 'I think that'), which you met at the Upper-intermediate level.",
+        ],
+        examples: [
+          { es: "Il paraît que le nouveau directeur est très exigeant.", en: "Apparently the new director is very demanding." },
+          { es: "Il semble que la situation se soit améliorée.", en: "It seems the situation has improved." },
+          { es: "Il me semble que tu as raison.", en: "I think you're right." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Apparently they're getting divorced.",
+            answer: "Il paraît qu'ils divorcent.",
+            altAnswers: ["Il paraît qu'elles divorcent.", "Il paraît qu'ils vont divorcer.", "Il paraît qu'elles vont divorcer."],
+            explanation: "\"Il paraît que\" + indicative reports hearsay: 'apparently', 'I've heard'.",
+          },
+        ],
+      },
+      {
+        heading: "Il arrive + an event",
+        body: [
+          "\"Il arrive\" can also introduce an event with the real subject after it: \"il est arrivé un accident\" (an accident happened), \"il lui est arrivé quelque chose\" (something happened to him). Part 4 develops this.",
+        ],
+        examples: [
+          { es: "Qu'est-ce qui lui est arrivé ?", en: "What happened to him?" },
+          { es: "Il est arrivé un accident sur l'autoroute.", en: "There's been an accident on the motorway." },
+          { es: "Il lui est arrivé une drôle d'histoire.", en: "Something funny happened to her." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it with impersonal il.",
+            source: "Un accident grave est arrivé hier soir.",
+            answer: "Il est arrivé un accident grave hier soir.",
+            explanation: "Impersonal \"il\" puts the real subject after the verb; the participle stays masculine singular, agreeing with \"il\".",
+          },
+        ],
+      },
     ],
     exercises: [
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "What is it about?",
-        answer: "De quoi s'agit-il ?",
-        altAnswers: ["De quoi est-ce qu'il s'agit ?", "Il s'agit de quoi ?"],
-        explanation: "The question version keeps \"il\" and puts \"de quoi\" first: \"de quoi s'agit-il ?\". *\"Qu'est-ce que ça s'agit\" is impossible.",
+        source: "What was it about?",
+        answer: "De quoi s'agissait-il ?",
+        altAnswers: ["De quoi est-ce qu'il s'agissait ?", "Il s'agissait de quoi ?"],
+        explanation: "\"Il s'agir de\" works in every tense, always with the empty \"il\": imperfect \"il s'agissait\".",
       },
       {
         type: "translate",
@@ -372,15 +585,6 @@ export const FR_C1_U05: Lesson[] = [
         answer: "Il reste encore du gâteau.",
         altAnswers: ["Il reste du gâteau.", "Il reste encore un peu de gâteau.", "Il reste un peu de gâteau."],
         explanation: "\"Il reste\" + the partitive: the real subject comes after the verb.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Apparently they're getting divorced.",
-        answer: "Il paraît qu'ils divorcent.",
-        altAnswers: ["Il paraît qu'elles divorcent.", "Il paraît qu'ils vont divorcer.", "Il paraît qu'elles vont divorcer."],
-        explanation: "\"Il paraît que\" + indicative reports hearsay: 'apparently', 'I've heard'.",
       },
       {
         type: "fill-blank",
@@ -416,13 +620,6 @@ export const FR_C1_U05: Lesson[] = [
         explanation: "\"Il n'est pas question de\" + infinitive: out of the question.",
       },
       {
-        type: "word-order",
-        prompt: "Put the words in order to say: The question is whether he will accept.",
-        words: ["Reste", "à savoir", "s'il", "acceptera."],
-        translation: "The question is whether he will accept.",
-        explanation: "\"Reste à savoir si\", without \"il\", is a set journalistic formula: it remains to be seen whether.",
-      },
-      {
         type: "listen-choose",
         audio: "Il m'arrive de travailler le dimanche.",
         question: "What does it mean?",
@@ -437,9 +634,9 @@ export const FR_C1_U05: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Il ne s'agit pas de gagner, il s'agit de bien jouer.",
-        prompt: "Say it in French: It's not about winning, it's about playing well.",
-        explanation: "\"Il s'agit de\" + infinitive: what really matters is to...",
+        text: "Il ne s'agit pas d'avoir raison, il s'agit de comprendre.",
+        prompt: "Say it in French: It's not about being right, it's about understanding.",
+        explanation: "\"Il s'agit de\" + infinitive: what matters, the point is to.",
       },
       {
         type: "translate",
@@ -464,13 +661,31 @@ export const FR_C1_U05: Lesson[] = [
         heading: "One fact, five frames",
         body: [
           "Start from an active sentence with a vague agent: \"Quelqu'un a volé mon vélo devant la gare.\" French gives you five ways to push the thief out of the picture, and each one changes the focus and the register.",
-          "1. Passive: \"Mon vélo a été volé devant la gare.\" Neutral to formal; the bike is the topic. 2. On: \"On m'a volé mon vélo devant la gare.\" Spoken and natural; the victim appears as \"m'\". 3. Se faire + infinitive: \"Je me suis fait voler mon vélo devant la gare.\" Spoken; the victim is the subject and the sentence sounds like a misfortune (Part 5). 4. Impersonal il: \"Il a été volé un vélo devant la gare.\" Very administrative, police-report style; the event is the topic. 5. A pronominal verb, possible only for repeated or general facts: \"Les vélos se volent facilement devant la gare.\" (Bikes get stolen easily outside the station.)",
-          "The ripple effects matter. With \"on\", the possessive often becomes a pronoun (\"on m'a volé mon vélo\"). With \"se faire\", \"fait\" never agrees: \"elle s'est fait voler son sac\". With the impersonal passive, the participle stays masculine singular: \"il a été volé trois vélos\".",
+          "1. Passive: \"Mon vélo a été volé devant la gare.\" Neutral to formal; the bike is the topic. 2. On: \"On m'a volé mon vélo devant la gare.\" Spoken and natural; the victim appears as \"m'\".",
         ],
         examples: [
           { es: "Quelqu'un a volé mon vélo devant la gare.", en: "Someone stole my bike outside the station." },
           { es: "Mon vélo a été volé devant la gare.", en: "My bike was stolen outside the station." },
           { es: "On m'a volé mon vélo devant la gare.", en: "My bike got stolen outside the station." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it with on.",
+            source: "Mon portefeuille a été volé dans le bus.",
+            answer: "On m'a volé mon portefeuille dans le bus.",
+            altAnswers: ["On a volé mon portefeuille dans le bus."],
+            explanation: "With \"on\", the victim usually appears as an indirect pronoun (\"m'\"): spoken and natural.",
+          },
+        ],
+      },
+      {
+        heading: "Three more frames",
+        body: [
+          "3. Se faire + infinitive: \"Je me suis fait voler mon vélo devant la gare.\" Spoken; the victim is the subject and the sentence sounds like a misfortune (Part 5). 4. Impersonal il: \"Il a été volé un vélo devant la gare.\" Very administrative, police-report style; the event is the topic. 5. A pronominal verb, possible only for repeated or general facts: \"Les vélos se volent facilement devant la gare.\" (Bikes get stolen easily outside the station.)",
+        ],
+        examples: [
           { es: "Je me suis fait voler mon vélo devant la gare.", en: "I had my bike stolen outside the station." },
           { es: "Il a été volé trois vélos devant la gare cette semaine.", en: "Three bikes were stolen outside the station this week." },
           { es: "Les vélos se volent facilement dans ce quartier.", en: "Bikes get stolen easily in this neighbourhood." },
@@ -479,19 +694,31 @@ export const FR_C1_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, using se faire.",
-            source: "She had her bag stolen on the metro.",
-            answer: "Elle s'est fait voler son sac dans le métro.",
-            explanation: "\"Se faire\" + infinitive with the victim as subject; \"fait\" never agrees (*\"s'est faite\" is wrong). On the metro is \"dans le métro\".",
+            prompt: "Rewrite it with se faire.",
+            source: "On lui a volé sa voiture.",
+            answer: "Il s'est fait voler sa voiture.",
+            altAnswers: ["Elle s'est fait voler sa voiture."],
+            explanation: "With \"se faire\" + infinitive, the victim becomes the subject and \"fait\" never agrees.",
           },
+        ],
+      },
+      {
+        heading: "The ripple effects",
+        body: [
+          "The ripple effects matter. With \"on\", the possessive often becomes a pronoun (\"on m'a volé mon vélo\"). With \"se faire\", \"fait\" never agrees: \"elle s'est fait voler son sac\". With the impersonal passive, the participle stays masculine singular: \"il a été volé trois vélos\".",
+        ],
+        examples: [
+          { es: "Elle s'est fait voler son sac.", en: "She had her bag stolen." },
+          { es: "On lui a pris son téléphone.", en: "Her phone got taken." },
+          { es: "Il a été retrouvé deux sacs à la gare.", en: "Two bags were found at the station." },
+        ],
+        checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French, using on.",
-            source: "My wallet was stolen.",
-            answer: "On m'a volé mon portefeuille.",
-            altAnswers: ["On a volé mon portefeuille."],
-            explanation: "With \"on\", French likes to mark the victim with an indirect pronoun: \"on m'a volé mon portefeuille\".",
+            type: "multiple-choice",
+            question: "Which sentence contains a mistake?",
+            options: ["Il a été volés trois vélos.", "Il a été volé trois vélos.", "Elle s'est fait voler son sac.", "On m'a volé mon vélo."],
+            correctIndex: 0,
+            explanation: "In the impersonal passive the participle agrees with \"il\", so it stays masculine singular: \"il a été volé trois vélos\".",
           },
         ],
       },
@@ -500,25 +727,14 @@ export const FR_C1_U05: Lesson[] = [
         body: [
           "Now a decision instead of a theft: \"La direction a reporté la réunion à jeudi.\" Rewrite it and feel the register shift.",
           "Passive: \"La réunion a été reportée à jeudi.\" The standard choice in an email. On: \"On a reporté la réunion à jeudi.\" Chatty, between colleagues. Pronominal: impossible here, because \"se reporter\" would mean the meeting did it itself, or refer to something else (\"se reporter à\" = to refer to). Impersonal il: \"Il a été décidé de reporter la réunion à jeudi.\" Typical of minutes and official letters. Se faire: impossible, because nobody suffers anything.",
-          "So not every frame works every time. The pronominal passive needs a general or habitual fact; \"se faire\" needs a person affected; impersonal \"il\" needs a verb of saying, deciding or a verb of event (\"il a été décidé / convenu / constaté que\", \"il est arrivé\").",
         ],
         examples: [
           { es: "La direction a reporté la réunion à jeudi.", en: "Management has postponed the meeting to Thursday." },
           { es: "La réunion a été reportée à jeudi.", en: "The meeting has been postponed to Thursday." },
           { es: "On a reporté la réunion à jeudi.", en: "They've moved the meeting to Thursday." },
           { es: "Il a été décidé de reporter la réunion à jeudi.", en: "It has been decided to postpone the meeting to Thursday." },
-          { es: "Il a été convenu que chaque service enverrait un représentant.", en: "It was agreed that each department would send a representative." },
-          { es: "Il a été constaté que plusieurs dossiers étaient incomplets.", en: "It was noted that several files were incomplete." },
         ],
         checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "[It was agreed] that the office would close at 4 pm on Friday.",
-            sentence: "___ que le bureau fermerait à 16 h vendredi.",
-            answer: "Il a été convenu",
-            explanation: "Impersonal passive of a verb of deciding: \"il a été convenu que\", the style of meeting minutes.",
-          },
           {
             type: "multiple-choice",
             question: "Which version of 'The meeting has been cancelled' is wrong?",
@@ -529,19 +745,35 @@ export const FR_C1_U05: Lesson[] = [
         ],
       },
       {
-        heading: "Choosing: register and focus",
+        heading: "Not every frame works every time",
         body: [
-          "Rules of thumb. In speech, \"on\" wins almost every time: it's light and natural. In a news report, the passive and the pronominal verb dominate. In administrative prose, the impersonal passive (\"il est rappelé que\", \"il a été décidé que\") is everywhere. For personal mishaps told to friends, \"se faire\" is the most vivid.",
-          "Focus matters too. The subject of a French sentence is its topic. If you're talking about the building, \"le bâtiment a été rénové\". If you're talking about yourself, \"je me suis fait rembourser\". If you want to state an event as such, with no topic at all, impersonal \"il\".",
-          "And one constraint: \"on\" always refers to people. \"On a construit l'école en 1970\" is fine; it implies builders. But the pronominal \"l'école s'est construite en 1970\" sounds odd, as if it built itself, because a single, dated event is not a general fact.",
+          "So not every frame works every time. The pronominal passive needs a general or habitual fact; \"se faire\" needs a person affected; impersonal \"il\" needs a verb of saying, deciding or a verb of event (\"il a été décidé / convenu / constaté que\", \"il est arrivé\").",
         ],
         examples: [
-          { es: "Le bâtiment a été entièrement rénové en 2019.", en: "The building was completely renovated in 2019." },
-          { es: "On a rénové tout le bâtiment l'an dernier.", en: "They renovated the whole building last year." },
-          { es: "Je me suis fait rembourser mon billet sans problème.", en: "I got my ticket refunded without any problem." },
+          { es: "Il a été convenu que chaque service enverrait un représentant.", en: "It was agreed that each department would send a representative." },
+          { es: "Il a été constaté que plusieurs dossiers étaient incomplets.", en: "It was noted that several files were incomplete." },
+          { es: "Ce vin se boit frais.", en: "This wine is drunk chilled." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[It was agreed] that the office would close at 4 pm on Friday.",
+            sentence: "___ que le bureau fermerait à 16 h vendredi.",
+            answer: "Il a été convenu",
+            explanation: "Impersonal passive of a verb of deciding: \"il a été convenu que\", the style of meeting minutes.",
+          },
+        ],
+      },
+      {
+        heading: "Choosing by register",
+        body: [
+          "Rules of thumb. In speech, \"on\" wins almost every time: it's light and natural. In a news report, the passive and the pronominal verb dominate. In administrative prose, the impersonal passive (\"il est rappelé que\", \"il a été décidé que\") is everywhere. For personal mishaps told to friends, \"se faire\" is the most vivid.",
+        ],
+        examples: [
           { es: "Il est rappelé aux usagers que le stationnement est interdit.", en: "Users are reminded that parking is not allowed." },
           { es: "Ce genre de produit se vend surtout en ligne.", en: "This kind of product sells mostly online." },
-          { es: "On construit beaucoup dans ce quartier depuis cinq ans.", en: "There has been a lot of building in this area for five years." },
+          { es: "On m'a piqué mon téléphone !", en: "Someone nicked my phone!" },
         ],
         checkpoint: [
           {
@@ -553,11 +785,45 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["Il est rappelé aux habitants que le parking sera fermé.", "Il est rappelé aux riverains que le parking sera fermé.", "On rappelle aux résidents que le parking sera fermé.", "On rappelle aux habitants que le parking sera fermé."],
             explanation: "'Residents are reminded' passivises an indirect object (\"rappeler à\"), so French uses the impersonal \"il est rappelé aux résidents que\", or \"on rappelle\".",
           },
+        ],
+      },
+      {
+        heading: "Choosing by focus",
+        body: [
+          "Focus matters too. The subject of a French sentence is its topic. If you're talking about the building, \"le bâtiment a été rénové\". If you're talking about yourself, \"je me suis fait rembourser\". If you want to state an event as such, with no topic at all, impersonal \"il\".",
+        ],
+        examples: [
+          { es: "Le bâtiment a été entièrement rénové en 2019.", en: "The building was completely renovated in 2019." },
+          { es: "Je me suis fait rembourser mon billet sans problème.", en: "I got my ticket refunded without any problem." },
+          { es: "Il est arrivé un accident.", en: "There's been an accident." },
+        ],
+        checkpoint: [
           {
             type: "speak",
-            text: "Je me suis fait rembourser mon billet sans problème.",
-            prompt: "Say it in French: I got my ticket refunded without any problem.",
-            explanation: "\"Se faire rembourser\": the subject gets something done for them; \"fait\" doesn't agree.",
+            text: "Je me suis fait rembourser sans difficulté.",
+            prompt: "Say it in French: I got my money back without any trouble.",
+            explanation: "\"Se faire\" + infinitive puts you, the person affected, in subject position; \"fait\" stays invariable.",
+          },
+        ],
+      },
+      {
+        heading: "On always means people",
+        body: [
+          "And one constraint: \"on\" always refers to people. \"On a construit l'école en 1970\" is fine; it implies builders. But the pronominal \"l'école s'est construite en 1970\" sounds odd, as if it built itself, because a single, dated event is not a general fact.",
+        ],
+        examples: [
+          { es: "On a rénové tout le bâtiment l'an dernier.", en: "They renovated the whole building last year." },
+          { es: "On construit beaucoup dans ce quartier depuis cinq ans.", en: "There has been a lot of building in this area for five years." },
+          { es: "L'école a été construite en 1970.", en: "The school was built in 1970." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it with a pronominal verb.",
+            source: "On mange ce plat froid.",
+            answer: "Ce plat se mange froid.",
+            explanation: "A general, habitual fact can use a pronominal passive: \"se mange\".",
           },
         ],
       },
@@ -566,20 +832,20 @@ export const FR_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French, using the passive.",
-        source: "The road was closed because of the snow.",
+        prompt: "Rewrite it in the passive.",
+        source: "On a fermé la route à cause de la neige.",
         answer: "La route a été fermée à cause de la neige.",
         altAnswers: ["La route a été coupée à cause de la neige."],
-        explanation: "A dated event, so passé composé passive \"a été fermée\", agreeing with \"la route\".",
+        explanation: "The object \"la route\" becomes the subject, \"être\" takes the tense (passé composé: \"a été\") and the participle agrees: \"fermée\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French, using on.",
-        source: "I was offered a coffee.",
+        prompt: "Rewrite it with on.",
+        source: "Un café m'a été offert.",
         answer: "On m'a offert un café.",
         altAnswers: ["On m'a proposé un café."],
-        explanation: "'I' is the indirect object of \"offrir à\", so no French passive: \"on m'a offert\".",
+        explanation: "Between people, \"on\" + active verb is far more natural than the passive.",
       },
       {
         type: "translate",
@@ -593,19 +859,11 @@ export const FR_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French, using a pronominal verb.",
-        source: "This dish is eaten cold.",
-        answer: "Ce plat se mange froid.",
-        explanation: "The pronominal passive states a general rule or habit: \"se mange froid\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French, using impersonal il.",
-        source: "It was decided to close the school for a week.",
+        prompt: "Rewrite it with impersonal il.",
+        source: "Nous avons décidé de fermer l'école pendant une semaine.",
         answer: "Il a été décidé de fermer l'école pendant une semaine.",
-        altAnswers: ["Il a été décidé de fermer l'école une semaine.", "Il a été décidé de fermer l'établissement pendant une semaine."],
-        explanation: "\"Il a été décidé de\" + infinitive: the administrative way to state a decision without naming who took it.",
+        altAnswers: ["Il a été décidé de fermer l'école une semaine."],
+        explanation: "Minutes and official letters hide the agent with impersonal \"il a été décidé de\" + infinitive.",
       },
       {
         type: "multiple-choice",
@@ -645,9 +903,9 @@ export const FR_C1_U05: Lesson[] = [
       },
       {
         type: "speak",
-        text: "On m'a volé mon vélo devant la gare.",
-        prompt: "Say it in French, the way you'd tell a friend: My bike got stolen outside the station.",
-        explanation: "\"On m'a volé\" is the everyday version; the passive \"mon vélo a été volé\" is more written.",
+        text: "On m'a volé mon scooter devant le cinéma.",
+        prompt: "Say it in French, the way you'd tell a friend: My scooter got stolen outside the cinema.",
+        explanation: "Telling a friend, \"on\" is the natural choice; the victim appears as \"m'\".",
       },
     ],
   },
@@ -663,27 +921,56 @@ export const FR_C1_U05: Lesson[] = [
         heading: "Error 1: a noun as the subject of s'agir",
         body: [
           "A film review on a forum: *\"Le film s'agit d'un jeune boxeur qui rêve de Paris.\" This is the single most frequent error with impersonal verbs, a direct calque of 'The film is about'. \"S'agir\" has no personal subject at all: only \"il\".",
-          "Three clean repairs: move the noun into a prepositional phrase (\"Dans ce film, il s'agit d'un jeune boxeur...\"), change the verb (\"Le film raconte l'histoire d'un jeune boxeur...\", \"Le film parle de...\", \"Le film porte sur...\" for a topic, \"Le film traite de...\" in formal writing), or use \"il s'agit de\" alone if the context is clear (\"Il s'agit d'un premier film.\").",
-          "A related slip in speech: *\"Ça s'agit de quoi ?\" \"Ça\" can't replace \"il\" here either. Say \"De quoi il s'agit ?\" (spoken), \"De quoi s'agit-il ?\" (careful), or simply \"Ça parle de quoi ?\".",
         ],
         examples: [
-          { es: "Dans ce film, il s'agit d'un jeune boxeur qui rêve de Paris.", en: "This film is about a young boxer who dreams of Paris." },
-          { es: "Le film raconte l'histoire d'un jeune boxeur.", en: "The film tells the story of a young boxer." },
-          { es: "Son dernier livre porte sur l'histoire de l'immigration.", en: "Her latest book is about the history of immigration." },
-          { es: "Ça parle de quoi, ta série ?", en: "What's your series about?" },
-          { es: "De quoi s'agit-il dans ce rapport ?", en: "What is this report about?" },
           { es: "Il s'agit de son premier roman.", en: "It's her first novel." },
+          { es: "Son dernier livre porte sur l'histoire de l'immigration.", en: "Her latest book is about the history of immigration." },
+          { es: "Dans cet article, il s'agit des retraites.", en: "This article is about pensions." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error in \"*Ce podcast s'agit de la vie à la campagne.\" and write the corrected French.",
-            source: "This podcast is about life in the countryside.",
+            prompt: "Correct the sentence.",
+            source: "Ce podcast s'agit de la vie à la campagne.",
             answer: "Ce podcast parle de la vie à la campagne.",
             altAnswers: ["Dans ce podcast, il s'agit de la vie à la campagne.", "Ce podcast porte sur la vie à la campagne.", "Ce podcast traite de la vie à la campagne.", "Dans ce podcast, on parle de la vie à la campagne."],
-            explanation: "\"S'agir\" only takes \"il\". Change the verb (\"parle de\", \"porte sur\") or say \"dans ce podcast, il s'agit de\".",
+            explanation: "\"S'agir\" never takes a noun subject, only \"il\". Change the verb or move the noun into a phrase: \"Dans ce podcast, il s'agit de...\".",
           },
+        ],
+      },
+      {
+        heading: "Three clean repairs",
+        body: [
+          "Three clean repairs: move the noun into a prepositional phrase (\"Dans ce film, il s'agit d'un jeune boxeur...\"), change the verb (\"Le film raconte l'histoire d'un jeune boxeur...\", \"Le film parle de...\", \"Le film porte sur...\" for a topic, \"Le film traite de...\" in formal writing), or use \"il s'agit de\" alone if the context is clear (\"Il s'agit d'un premier film.\").",
+        ],
+        examples: [
+          { es: "Dans ce film, il s'agit d'un jeune boxeur qui rêve de Paris.", en: "This film is about a young boxer who dreams of Paris." },
+          { es: "Le film raconte l'histoire d'un jeune boxeur.", en: "The film tells the story of a young boxer." },
+          { es: "Le film porte sur la guerre d'Algérie.", en: "The film is about the Algerian war." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it without s'agir, using porter sur.",
+            source: "Dans ce rapport, il s'agit de la pollution de l'air.",
+            answer: "Ce rapport porte sur la pollution de l'air.",
+            explanation: "\"Porter sur\" takes a real subject, so \"ce rapport\" can move into subject position.",
+          },
+        ],
+      },
+      {
+        heading: "Ça s'agit de quoi ?",
+        body: [
+          "A related slip in speech: *\"Ça s'agit de quoi ?\" \"Ça\" can't replace \"il\" here either. Say \"De quoi il s'agit ?\" (spoken), \"De quoi s'agit-il ?\" (careful), or simply \"Ça parle de quoi ?\".",
+        ],
+        examples: [
+          { es: "Ça parle de quoi, ta série ?", en: "What's your series about?" },
+          { es: "De quoi s'agit-il dans ce rapport ?", en: "What is this report about?" },
+          { es: "Il s'agit de quoi, ton film ?", en: "What's your film about?" },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "A friend asks what your new book is about. Which question is correct French?",
@@ -694,17 +981,35 @@ export const FR_C1_U05: Lesson[] = [
         ],
       },
       {
-        heading: "Error 2: wrong preposition or article after il s'agit",
+        heading: "Error 2: s'agir de is not 'it is'",
         body: [
           "From a work email: *\"Il s'agissait des enfants qui avaient cassé la vitre.\" The writer meant 'It was the children who had broken the window'. \"Il s'agit de\" means 'it's about' or 'it concerns', not 'it is'. To identify someone, use \"c'était\": \"C'étaient les enfants qui avaient cassé la vitre\" (or \"c'était\" in speech). \"Il s'agissait des enfants\" is grammatical, but it means 'it concerned the children', which is not what the writer wanted.",
-          "Watch the contraction: \"de + le\" gives \"du\", \"de + les\" gives \"des\": \"il s'agit du projet\", \"il s'agit des nouveaux horaires\". But before an infinitive or a noun with \"un / une\": \"il s'agit de partir\", \"il s'agit d'une erreur\".",
-          "And the tense: \"il s'est agi\" is rare but correct; \"il s'agissait\" for an ongoing past situation is the usual choice in narration: \"Il s'agissait d'une vieille maison au bord du lac.\"",
         ],
         examples: [
           { es: "C'étaient les enfants des voisins qui avaient cassé la vitre.", en: "It was the neighbours' children who had broken the window." },
+          { es: "C'était ma sœur qui conduisait.", en: "It was my sister who was driving." },
+          { es: "Il s'agissait de la sécurité des enfants.", en: "It concerned the children's safety." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il s'agissait mon frère qui a appelé.",
+            answer: "C'était mon frère qui a appelé.",
+            altAnswers: ["C'est mon frère qui a appelé.", "C'était mon frère qui avait appelé."],
+            explanation: "To identify someone, French uses \"c'est / c'était\"; \"il s'agit de\" means 'it concerns' (and would need \"de\" anyway).",
+          },
+        ],
+      },
+      {
+        heading: "Contractions after de",
+        body: [
+          "Watch the contraction: \"de + le\" gives \"du\", \"de + les\" gives \"des\": \"il s'agit du projet\", \"il s'agit des nouveaux horaires\". But before an infinitive or a noun with \"un / une\": \"il s'agit de partir\", \"il s'agit d'une erreur\".",
+        ],
+        examples: [
           { es: "Il s'agit des nouveaux horaires d'ouverture.", en: "It's about the new opening hours." },
           { es: "Il s'agit d'une erreur de facturation, rien de plus.", en: "It's a billing error, nothing more." },
-          { es: "Il s'agissait d'une vieille maison au bord du lac.", en: "It was an old house by the lake." },
           { es: "Il ne s'agit pas du même dossier.", en: "It's not the same file." },
         ],
         checkpoint: [
@@ -716,14 +1021,26 @@ export const FR_C1_U05: Lesson[] = [
             answer: "des",
             explanation: "\"De + les\" contracts to \"des\": \"il s'agit des nouvelles règles\".",
           },
+        ],
+      },
+      {
+        heading: "The tense",
+        body: [
+          "And the tense: \"il s'est agi\" is rare but correct; \"il s'agissait\" for an ongoing past situation is the usual choice in narration: \"Il s'agissait d'une vieille maison au bord du lac.\"",
+        ],
+        examples: [
+          { es: "Il s'agissait d'une vieille maison au bord du lac.", en: "It was an old house by the lake." },
+          { es: "Il s'est agi d'un simple malentendu.", en: "It was a simple misunderstanding." },
+          { es: "Il s'agira de convaincre le jury.", en: "The point will be to convince the jury." },
+        ],
+        checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Fix the error in \"*Il s'agissait mon frère qui a appelé.\" and write the corrected French.",
-            source: "It was my brother who called.",
-            answer: "C'était mon frère qui a appelé.",
-            altAnswers: ["C'est mon frère qui a appelé.", "C'était mon frère qui avait appelé."],
-            explanation: "To identify a person, use the cleft \"c'est / c'était... qui\". \"Il s'agit de\" means 'it's about', and it always needs \"de\".",
+            type: "listen-choose",
+            audio: "Il s'agissait d'un petit village de pêcheurs.",
+            question: "What does it mean?",
+            options: ["It was a small fishing village.", "It was about a fisherman from a small village.", "He was acting in a small fishing village.", "There will be a small fishing village."],
+            correctIndex: 0,
+            explanation: "\"Il s'agissait de\" in narration presents what the place or thing was; the imperfect describes an ongoing past situation.",
           },
         ],
       },
@@ -731,30 +1048,41 @@ export const FR_C1_U05: Lesson[] = [
         heading: "Error 3: plural impersonal verbs",
         body: [
           "From a parents' WhatsApp group: *\"Il manquent encore trois inscriptions pour la sortie.\" The writer made the verb agree with \"trois inscriptions\". But the grammatical subject is \"il\", so the verb is singular: \"Il manque encore trois inscriptions.\" The same with \"il reste\", \"il existe\", \"il faut\", \"il arrive\", \"il se passe\": \"il reste deux places\", \"il existe plusieurs solutions\".",
-          "And with compound tenses, the participle stays masculine singular: \"il est arrivé deux accidents\" (not *\"il est arrivés\"), \"il a été vendu trois cents billets\".",
-          "If you want the plural agreement, make the noun the real subject: \"Trois inscriptions manquent encore.\" That's correct but more formal or literary; the impersonal version is the everyday one.",
         ],
         examples: [
           { es: "Il manque encore trois inscriptions pour la sortie.", en: "We still need three more sign-ups for the outing." },
           { es: "Il reste deux places dans le car.", en: "There are two seats left on the coach." },
           { es: "Il existe plusieurs solutions à ce problème.", en: "There are several solutions to this problem." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il restent quatre parts de tarte.",
+            answer: "Il reste quatre parts de tarte.",
+            altAnswers: ["Il reste encore quatre parts de tarte."],
+            explanation: "The grammatical subject is the empty \"il\", so the verb stays singular: \"il reste\", whatever follows.",
+          },
+        ],
+      },
+      {
+        heading: "Compound tenses, and the personal version",
+        body: [
+          "And with compound tenses, the participle stays masculine singular: \"il est arrivé deux accidents\" (not *\"il est arrivés\"), \"il a été vendu trois cents billets\".",
+          "If you want the plural agreement, make the noun the real subject: \"Trois inscriptions manquent encore.\" That's correct but more formal or literary; the impersonal version is the everyday one.",
+        ],
+        examples: [
           { es: "Il est arrivé deux accidents sur cette route depuis lundi.", en: "There have been two accidents on this road since Monday." },
           { es: "Il a été vendu plus de trois cents billets en une heure.", en: "More than three hundred tickets were sold in an hour." },
           { es: "Trois inscriptions manquent encore.", en: "Three sign-ups are still missing." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Fix the error in \"*Il restent quatre parts de tarte.\" and write the corrected French.",
-            source: "There are four slices of tart left.",
-            answer: "Il reste quatre parts de tarte.",
-            explanation: "\"Il reste\" is impersonal: the verb stays singular whatever follows.",
-          },
-          {
             type: "dictation",
-            audio: "Il existe plusieurs solutions à ce problème.",
-            explanation: "\"Il existe\" + plural noun: the verb stays singular.",
+            audio: "Il a été retrouvé deux portefeuilles dans le bus.",
+            answer: "Il a été retrouvé deux portefeuilles dans le bus.",
+            explanation: "Impersonal passive: the participle agrees with \"il\", so \"retrouvé\" stays masculine singular.",
           },
         ],
       },
@@ -763,38 +1091,38 @@ export const FR_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error in \"*Cette exposition s'agit de la photographie de guerre.\" and write the corrected French.",
-        source: "This exhibition is about war photography.",
+        prompt: "Correct the sentence.",
+        source: "Cette exposition s'agit de la photographie de guerre.",
         answer: "Cette exposition porte sur la photographie de guerre.",
         altAnswers: ["Cette exposition est consacrée à la photographie de guerre.", "Dans cette exposition, il s'agit de la photographie de guerre.", "Cette exposition parle de la photographie de guerre.", "Cette exposition traite de la photographie de guerre."],
-        explanation: "No noun subject for \"s'agir\". For an exhibition, \"porter sur\" or \"être consacrée à\" is the natural choice.",
+        explanation: "A noun can't be the subject of \"s'agir\". Use \"porter sur\", \"être consacré à\", \"parler de\", or \"Dans cette exposition, il s'agit de...\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error in \"*Il manquent deux joueurs dans l'équipe.\" and write the corrected French.",
-        source: "The team is two players short.",
+        prompt: "Correct the sentence.",
+        source: "Il manquent deux joueurs dans l'équipe.",
         answer: "Il manque deux joueurs dans l'équipe.",
         altAnswers: ["Il manque deux joueurs à l'équipe.", "Il manque deux joueuses dans l'équipe.", "Il manque deux joueuses à l'équipe."],
-        explanation: "Impersonal \"il manque\" is singular.",
+        explanation: "Impersonal \"il manque\" stays singular even before a plural noun.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error in \"*Ça s'agit d'un malentendu.\" and write the corrected French.",
-        source: "It's a misunderstanding.",
+        prompt: "Correct the sentence.",
+        source: "Ça s'agit d'un malentendu.",
         answer: "Il s'agit d'un malentendu.",
         altAnswers: ["C'est un malentendu."],
-        explanation: "\"Ça\" can't be the subject of \"s'agir\": \"il s'agit d'un malentendu\", or simply \"c'est un malentendu\".",
+        explanation: "\"Ça\" can't replace the empty \"il\" of \"s'agir\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error in \"*Il est arrivés trois colis ce matin.\" and write the corrected French.",
-        source: "Three parcels arrived this morning.",
+        prompt: "Correct the sentence.",
+        source: "Il sont arrivés trois colis ce matin.",
         answer: "Il est arrivé trois colis ce matin.",
         altAnswers: ["Trois colis sont arrivés ce matin."],
-        explanation: "In the impersonal construction the participle stays masculine singular: \"il est arrivé trois colis\". With \"trois colis\" as subject, it agrees: \"sont arrivés\".",
+        explanation: "Impersonal \"il\" is singular: \"il est arrivé\", with the participle masculine singular. For agreement, make the parcels the subject: \"Trois colis sont arrivés ce matin.\"",
       },
       {
         type: "fill-blank",
@@ -829,18 +1157,10 @@ export const FR_C1_U05: Lesson[] = [
         explanation: "\"Raconter l'histoire de\" is one of the clean ways to avoid *\"ce roman s'agit de\".",
       },
       {
-        type: "listen-choose",
-        audio: "Il s'agissait d'une vieille maison au bord du lac.",
-        question: "What does it mean?",
-        options: ["It was an old house by the lake.", "He was acting in an old house by the lake.", "It was about an old man by the lake.", "There was going to be an old house by the lake."],
-        correctIndex: 0,
-        explanation: "\"Il s'agissait de\" introduces what the story or description is about: it was an old house.",
-      },
-      {
         type: "speak",
-        text: "Il manque encore trois inscriptions pour la sortie.",
-        prompt: "Say it in French: We still need three more sign-ups for the outing.",
-        explanation: "Impersonal \"il manque\": singular verb, real subject after it.",
+        text: "Il manque encore deux bénévoles pour samedi.",
+        prompt: "Say it in French: We still need two more volunteers for Saturday.",
+        explanation: "Impersonal \"il manque\": singular verb, the missing people after it.",
       },
       {
         type: "translate",
@@ -865,16 +1185,11 @@ export const FR_C1_U05: Lesson[] = [
         heading: "Il est + adjective + de + infinitive",
         body: [
           "When the infinitive phrase is the real subject and comes after the adjective, French uses \"de\": \"il est difficile de trouver un logement à Paris\" (finding a flat in Paris is difficult). The \"il\" is empty; it announces the infinitive coming later. Anything the infinitive needs (its object, its complements) follows it.",
-          "In writing and formal speech, use \"il est\": \"il est important de\", \"il est interdit de\", \"il est conseillé de\", \"il est possible de\". In conversation, French replaces \"il\" with \"c'\" and keeps \"de\": \"c'est difficile de trouver un logement\". Both are correct; the register differs.",
-          "The same frame works with \"que\": \"il est important que vous soyez là\" (subjunctive after adjectives of judgement, Upper-intermediate), \"il est clair que\", \"il est évident que\", \"il est vrai que\" + indicative (certainty).",
         ],
         examples: [
           { es: "Il est difficile de trouver un logement abordable à Paris.", en: "It's difficult to find an affordable flat in Paris." },
           { es: "Il est interdit de fumer dans l'enceinte de l'établissement.", en: "Smoking is not allowed anywhere on the premises." },
           { es: "Il est vivement conseillé de réserver à l'avance.", en: "Booking in advance is strongly recommended." },
-          { es: "C'est difficile de dire non à sa propre mère.", en: "It's hard to say no to your own mother." },
-          { es: "Il est essentiel que chacun puisse s'exprimer.", en: "It's essential that everyone can speak." },
-          { es: "Il est évident que le projet a pris du retard.", en: "It's obvious that the project has fallen behind." },
         ],
         checkpoint: [
           {
@@ -886,6 +1201,19 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["Il est interdit de se garer devant le portail.", "Il est interdit de stationner devant la grille.", "Il est interdit de se garer devant la grille."],
             explanation: "Formal notice: \"il est\" + adjective + \"de\" + infinitive, with the infinitive's complement after it.",
           },
+        ],
+      },
+      {
+        heading: "Il est or c'est: a matter of register",
+        body: [
+          "In writing and formal speech, use \"il est\": \"il est important de\", \"il est interdit de\", \"il est conseillé de\", \"il est possible de\". In conversation, French replaces \"il\" with \"c'\" and keeps \"de\": \"c'est difficile de trouver un logement\". Both are correct; the register differs.",
+        ],
+        examples: [
+          { es: "C'est difficile de dire non à sa propre mère.", en: "It's hard to say no to your own mother." },
+          { es: "C'est important de bien dormir.", en: "It's important to sleep well." },
+          { es: "Il est possible de payer en ligne.", en: "You can pay online." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -898,19 +1226,34 @@ export const FR_C1_U05: Lesson[] = [
         ],
       },
       {
-        heading: "C'est + adjective + à + infinitive",
+        heading: "The same frame with que",
+        body: [
+          "The same frame works with \"que\": \"il est important que vous soyez là\" (subjunctive after adjectives of judgement, Upper-intermediate), \"il est clair que\", \"il est évident que\", \"il est vrai que\" + indicative (certainty).",
+        ],
+        examples: [
+          { es: "Il est essentiel que chacun puisse s'exprimer.", en: "It's essential that everyone can speak." },
+          { es: "Il est évident que le projet a pris du retard.", en: "It's obvious that the project has fallen behind." },
+          { es: "Il est vrai que le prix a augmenté.", en: "It's true that the price has gone up." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Il est évident qu'elle a raison.", "Il est évident qu'elle ait raison.", "Il est évident de qu'elle a raison.", "C'est évident à qu'elle a raison."],
+            correctIndex: 0,
+            explanation: "\"Il est évident que\" expresses certainty, so it takes the indicative: \"elle a raison\". The subjunctive goes with adjectives of judgement (\"il est important que\").",
+          },
+        ],
+      },
+      {
+        heading: "C'est + adjective + à",
         body: [
           "When the thing being judged has already been mentioned (or is \"ce\" itself), and the infinitive has no object after it, French uses \"c'est\" + adjective + \"à\": \"Ce problème ? C'est difficile à résoudre.\" Here the infinitive's object is \"ce\" (the problem), placed before the verb. Think of 'it's hard to solve' where 'it' is the problem itself.",
-          "Compare the pair: \"Il est difficile de résoudre ce problème\" (object after the infinitive → de) and \"Ce problème est difficile à résoudre\" or \"C'est difficile à résoudre\" (object before → à). The test is simple: if the infinitive is followed by its object, use \"de\"; if it ends the sentence with its object understood before, use \"à\".",
-          "So: \"c'est facile à dire\" (that's easy to say, but...), \"c'est bon à savoir\" (that's good to know), \"c'est lourd à porter\", \"une recette simple à préparer\", \"un texte difficile à traduire\". Using \"de\" here (*\"c'est facile de dire\" meaning 'that's easy to say') is a classic error; \"c'est facile de dire ça\" needs \"ça\" after the infinitive.",
         ],
         examples: [
           { es: "Ce problème est difficile à résoudre.", en: "This problem is hard to solve." },
-          { es: "C'est facile à dire, mais pas à faire.", en: "That's easy to say, but not to do." },
           { es: "Merci, c'est bon à savoir.", en: "Thanks, that's good to know." },
-          { es: "C'est une recette très simple à préparer.", en: "It's a very easy recipe to make." },
-          { es: "Ce texte juridique est difficile à traduire.", en: "This legal text is difficult to translate." },
-          { es: "C'est facile de critiquer quand on ne fait rien.", en: "It's easy to criticise when you don't do anything." },
+          { es: "Ce meuble ? C'est lourd à porter.", en: "This piece of furniture? It's heavy to carry." },
         ],
         checkpoint: [
           {
@@ -920,36 +1263,91 @@ export const FR_C1_U05: Lesson[] = [
             correctIndex: 0,
             explanation: "The thing judged (\"son accent\") is the subject and the infinitive has no object after it, so \"à\". With the object after, you'd say \"il est difficile de comprendre son accent\".",
           },
+        ],
+      },
+      {
+        heading: "The object test",
+        body: [
+          "Compare the pair: \"Il est difficile de résoudre ce problème\" (object after the infinitive → de) and \"Ce problème est difficile à résoudre\" or \"C'est difficile à résoudre\" (object before → à). The test is simple: if the infinitive is followed by its object, use \"de\"; if it ends the sentence with its object understood before, use \"à\".",
+        ],
+        examples: [
+          { es: "Ce texte juridique est difficile à traduire.", en: "This legal text is difficult to translate." },
+          { es: "C'est facile de critiquer quand on ne fait rien.", en: "It's easy to criticise when you don't do anything." },
+          { es: "Il est difficile de traduire ce texte.", en: "It's difficult to translate this text." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Rewrite it with the noun as the subject.",
+            source: "Il est difficile de lire cette écriture.",
+            answer: "Cette écriture est difficile à lire.",
+            explanation: "When the object moves in front as the subject, nothing follows the infinitive, so \"de\" becomes \"à\".",
+          },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "That's easy to say!",
-            answer: "C'est facile à dire !",
-            explanation: "No object after \"dire\" (the 'that' is \"c'\"), so \"à\": \"c'est facile à dire\".",
-          },
-          {
-            type: "speak",
-            text: "C'est facile à dire, mais pas à faire.",
-            prompt: "Say it in French: That's easy to say, but not to do.",
-            explanation: "\"Facile à dire\", \"pas à faire\": \"à\" because the object comes before.",
+            source: "That's hard to believe!",
+            answer: "C'est difficile à croire !",
+            altAnswers: ["C'est dur à croire !", "C'est difficile à croire.", "C'est dur à croire."],
+            explanation: "The thing judged is \"ce\", placed before the infinitive, and nothing follows \"croire\": so \"à\".",
           },
         ],
       },
       {
-        heading: "Choosing in context: register and the object test",
+        heading: "Fixed phrases with à",
+        body: [
+          "So: \"c'est facile à dire\" (that's easy to say, but...), \"c'est bon à savoir\" (that's good to know), \"c'est lourd à porter\", \"une recette simple à préparer\", \"un texte difficile à traduire\". Using \"de\" here (*\"c'est facile de dire\" meaning 'that's easy to say') is a classic error; \"c'est facile de dire ça\" needs \"ça\" after the infinitive.",
+        ],
+        examples: [
+          { es: "C'est facile à dire, mais pas à faire.", en: "That's easy to say, but not to do." },
+          { es: "C'est une recette très simple à préparer.", en: "It's a very easy recipe to make." },
+          { es: "C'est agréable à entendre.", en: "That's nice to hear." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Cette notice est difficile de comprendre.",
+            answer: "Cette notice est difficile à comprendre.",
+            altAnswers: ["Il est difficile de comprendre cette notice."],
+            explanation: "The subject (\"cette notice\") is the object of the infinitive, which ends the sentence: use \"à\". \"De\" needs the object after the infinitive: \"Il est difficile de comprendre cette notice.\"",
+          },
+        ],
+      },
+      {
+        heading: "Putting the tests together",
         body: [
           "Put the two tests together. Object after the infinitive → \"de\", with \"il est\" (written) or \"c'est\" (spoken). No object after it → \"à\", with \"c'est\" or the noun itself as subject. \"Il est\" + adjective + \"à\" is almost never right in modern French: *\"il est difficile à dire\" sounds wrong unless \"il\" is a real person or thing ('he/it is hard to...').",
+        ],
+        examples: [
+          { es: "Il est difficile de vivre ici sans voiture.", en: "It's hard to live here without a car." },
+          { es: "Il est difficile d'interpréter ces chiffres sans contexte.", en: "It's hard to interpret these figures without context." },
+          { es: "C'est impossible à réparer.", en: "It can't be repaired." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "It's hard to convince him.",
+            answer: "Il est difficile de le convaincre.",
+            altAnswers: ["C'est difficile de le convaincre."],
+            explanation: "The object \"le\" belongs to the infinitive, which follows the adjective: \"de\". Compare \"il est difficile à convaincre\" (he is hard to convince).",
+          },
+        ],
+      },
+      {
+        heading: "Il est difficile à vivre: a person",
+        body: [
           "That last point is a useful trap. \"Il est difficile à vivre\" means 'he is hard to live with': here \"il\" is a man. \"Il est difficile de vivre ici\" means 'it's hard to live here'. The preposition tells you whether \"il\" is a person or empty.",
-          "In formal writing, the noun-subject version is often the most elegant: \"Ces chiffres sont difficiles à interpréter\" rather than \"Il est difficile d'interpréter ces chiffres\". Both are correct; the first puts the figures in topic position.",
         ],
         examples: [
           { es: "Il est difficile à vivre depuis qu'il a perdu son travail.", en: "He's been hard to live with since he lost his job." },
-          { es: "Il est difficile de vivre ici sans voiture.", en: "It's hard to live here without a car." },
-          { es: "Ces chiffres sont difficiles à interpréter.", en: "These figures are hard to interpret." },
-          { es: "Il est difficile d'interpréter ces chiffres sans contexte.", en: "It's hard to interpret these figures without context." },
-          { es: "Cette décision n'a pas été facile à prendre.", en: "This decision wasn't easy to make." },
-          { es: "Elle est agréable à regarder, cette vieille ville.", en: "It's lovely to look at, this old town." },
+          { es: "Il est pénible à écouter.", en: "He's tiresome to listen to." },
+          { es: "Il est agréable de se promener ici.", en: "It's nice to walk around here." },
         ],
         checkpoint: [
           {
@@ -960,14 +1358,27 @@ export const FR_C1_U05: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Il est\" + adjective + \"à\": \"il\" is a real person, the object of convincing. 'It's hard to convince him' would be \"il est difficile de le convaincre\".",
           },
+        ],
+      },
+      {
+        heading: "The noun as subject: the elegant version",
+        body: [
+          "In formal writing, the noun-subject version is often the most elegant: \"Ces chiffres sont difficiles à interpréter\" rather than \"Il est difficile d'interpréter ces chiffres\". Both are correct; the first puts the figures in topic position.",
+        ],
+        examples: [
+          { es: "Ces chiffres sont difficiles à interpréter.", en: "These figures are hard to interpret." },
+          { es: "Cette décision n'a pas été facile à prendre.", en: "This decision wasn't easy to make." },
+          { es: "Elle est agréable à regarder, cette vieille ville.", en: "It's lovely to look at, this old town." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "It's hard to convince him.",
-            answer: "Il est difficile de le convaincre.",
-            altAnswers: ["C'est difficile de le convaincre."],
-            explanation: "The object \"le\" belongs to the infinitive, which follows the adjective: \"de\". Compare \"il est difficile à convaincre\" (he is hard to convince).",
+            source: "These instructions are impossible to follow.",
+            answer: "Ces instructions sont impossibles à suivre.",
+            altAnswers: ["Ces consignes sont impossibles à suivre."],
+            explanation: "\"Impossibles à suivre\": the adjective agrees with \"ces instructions\", and \"à\" because the object comes first.",
           },
         ],
       },
@@ -1015,15 +1426,6 @@ export const FR_C1_U05: Lesson[] = [
         explanation: "\"Facile à vivre\" describes a person: \"elle est facile à vivre\".",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "These instructions are impossible to follow.",
-        answer: "Ces instructions sont impossibles à suivre.",
-        altAnswers: ["Ces consignes sont impossibles à suivre."],
-        explanation: "\"Impossibles à suivre\": the adjective agrees with \"ces instructions\", and \"à\" because the object comes first.",
-      },
-      {
         type: "word-order",
         prompt: "Put the words in order to say: It's essential that everyone be informed.",
         words: ["Il est", "essentiel", "que chacun", "soit", "informé."],
@@ -1041,8 +1443,9 @@ export const FR_C1_U05: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "C'est une recette très simple à préparer.",
-        explanation: "\"Simple à préparer\": \"à\" because \"une recette\" is what gets prepared.",
+        audio: "C'est une sauce très facile à réussir.",
+        answer: "C'est une sauce très facile à réussir.",
+        explanation: "The noun comes first and the infinitive ends the phrase: adjective + \"à\".",
       },
       {
         type: "listen-choose",
@@ -1054,9 +1457,9 @@ export const FR_C1_U05: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Il est vivement conseillé de réserver à l'avance.",
-        prompt: "Say it in French, as on a museum website: Booking in advance is strongly recommended.",
-        explanation: "Formal \"il est vivement conseillé de\" + infinitive.",
+        text: "Il est vivement conseillé de venir tôt.",
+        prompt: "Say it in French, as on a museum website: Coming early is strongly recommended.",
+        explanation: "Written register: \"il est\" + adjective + \"de\" + infinitive.",
       },
     ],
   },
@@ -1066,24 +1469,75 @@ export const FR_C1_U05: Lesson[] = [
     number: 6,
     title: "Passive and Impersonal Constructions, Part 4 of 6",
     summary: "Impersonal verbs that push the real subject after the verb: il a été décidé que, il est arrivé un accident, il existe, il se passe, il se peut que, il convient de and il importe que.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
-        heading: "Il est arrivé un accident: the event comes after the verb",
+        heading: "Il est arrivé un accident: news after the verb",
         body: [
           "French dislikes starting a sentence with a new, indefinite subject. \"Un accident est arrivé\" is grammatical but sounds abrupt; the impersonal \"il est arrivé un accident\" presents the event as news. This works with verbs of happening, existing and appearing: \"il arrive\", \"il se passe\", \"il se produit\", \"il existe\", \"il vient\", \"il se trouve\", \"il apparaît\".",
+        ],
+        examples: [
+          { es: "Il est arrivé un accident au carrefour ce matin.", en: "There was an accident at the crossroads this morning." },
+          { es: "Il existe une version plus courte de ce formulaire.", en: "There's a shorter version of this form." },
+          { es: "Il se produit souvent des embouteillages à cette heure-ci.", en: "Traffic jams often happen at this time of day." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A colleague tells you, as news, that a strange thing happened. Which sounds most natural?",
+            options: ["Une chose étrange est arrivée à elle.", "Il est arrivé une chose étrange.", "Elle est arrivée une chose étrange.", "Il a arrivé une chose étrange."],
+            correctIndex: 1,
+            explanation: "Impersonal \"il est arrivé\" presents the event as news, with the indefinite subject after the verb. \"Arriver\" takes \"être\", so \"il a arrivé\" is wrong, and \"elle\" can't stand for the empty subject.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into an impersonal sentence.",
+            source: "Un incendie s'est déclaré dans l'entrepôt.",
+            answer: "Il s'est déclaré un incendie dans l'entrepôt.",
+            explanation: "Verbs of happening take impersonal \"il\" with the new, indefinite subject moved after the verb: \"il s'est déclaré un incendie\".",
+          },
+        ],
+      },
+      {
+        heading: "Singular verb, masculine participle",
+        body: [
           "The real subject is usually indefinite (\"un\", \"des\", numbers, \"quelque chose\", \"rien\"). The verb stays singular and the participle stays masculine singular: \"il est venu beaucoup de monde\", \"il s'est produit trois coupures de courant\".",
+        ],
+        examples: [
+          { es: "Il est venu beaucoup de monde à l'inauguration.", en: "A lot of people came to the opening." },
+          { es: "Il s'est produit trois coupures de courant cette semaine.", en: "There have been three power cuts this week." },
+          { es: "Il manquait encore deux signatures au dossier.", en: "Two signatures were still missing from the file." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Il s'est produit deux incidents ce matin.", "Il se sont produits deux incidents ce matin.", "Il s'est produits deux incidents ce matin.", "Il se sont produit deux incidents ce matin."],
+            correctIndex: 0,
+            explanation: "Impersonal \"il\": singular verb, masculine singular participle: \"il s'est produit deux incidents\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Ils sont arrivés trois lettres pour vous ce matin.",
+            answer: "Il est arrivé trois lettres pour vous ce matin.",
+            altAnswers: ["Trois lettres sont arrivées pour vous ce matin."],
+            explanation: "The impersonal subject is always singular \"il\": the verb stays singular and the participle masculine singular (\"il est arrivé\"), however many letters follow.",
+          },
+        ],
+      },
+      {
+        heading: "Il se passe, il se trouve que",
+        body: [
           "\"Il se passe\" is the everyday one: \"qu'est-ce qui se passe ?\" (what's going on?), \"il ne se passe rien ici le dimanche\", \"il s'est passé quelque chose de grave\". Note the structure \"quelque chose de\" + masculine adjective.",
           "\"Il se trouve que\" means 'as it happens': \"il se trouve que je connais le directeur\". It's a polite way to introduce a coincidence that helps your case.",
         ],
         examples: [
-          { es: "Il est arrivé un accident au carrefour ce matin.", en: "There was an accident at the crossroads this morning." },
           { es: "Il s'est passé quelque chose de grave pendant la nuit.", en: "Something serious happened during the night." },
-          { es: "Il existe une version plus courte de ce formulaire.", en: "There's a shorter version of this form." },
-          { es: "Il est venu beaucoup de monde à l'inauguration.", en: "A lot of people came to the opening." },
-          { es: "Il s'est produit trois coupures de courant cette semaine.", en: "There have been three power cuts this week." },
-          { es: "Il se trouve que je connais bien la directrice.", en: "As it happens, I know the director well." },
           { es: "Il ne se passe jamais rien dans ce village.", en: "Nothing ever happens in this village." },
+          { es: "Il se trouve que je connais bien la directrice.", en: "As it happens, I know the director well." },
         ],
         checkpoint: [
           {
@@ -1109,16 +1563,41 @@ export const FR_C1_U05: Lesson[] = [
         heading: "Impersonal passives: il a été décidé que",
         body: [
           "Administrative French loves the impersonal passive: \"il\" + passive of a verb of saying, deciding or noting + \"que\" or \"de\". \"Il a été décidé que les cours reprendraient lundi.\" \"Il est rappelé aux usagers que...\" \"Il est demandé aux candidats de...\" \"Il a été constaté que...\". The decision-maker vanishes completely.",
-          "This frame is also the French answer to English passives of indirect objects (Part 1): 'Candidates are asked to arrive early' → \"il est demandé aux candidats d'arriver en avance\"; 'Employees are reminded that...' → \"il est rappelé aux salariés que...\". The person keeps their \"à\".",
-          "Even intransitive verbs can be used this way in very formal French: \"il sera procédé à un contrôle des billets\" (tickets will be checked), \"il a été procédé à l'arrestation du suspect\". You'll see it in official notices; you don't need it in conversation.",
         ],
         examples: [
           { es: "Il a été décidé que les cours reprendraient lundi.", en: "It has been decided that classes will resume on Monday." },
+          { es: "Il a été constaté plusieurs anomalies dans les comptes.", en: "Several irregularities were found in the accounts." },
+          { es: "Il a été convenu que le loyer serait payé en deux fois.", en: "It was agreed that the rent would be paid in two instalments." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it an impersonal passive.",
+            source: "On a décidé que la réunion aurait lieu en ligne.",
+            answer: "Il a été décidé que la réunion aurait lieu en ligne.",
+            explanation: "\"On a décidé que\" becomes \"il a été décidé que\": \"il\" + passive of the verb of deciding, and the decision-maker disappears.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French (official style).",
+            source: "It has been decided that the library will close at 6 pm.",
+            answer: "Il a été décidé que la bibliothèque fermerait à 18 h.",
+            altAnswers: ["Il a été décidé que la bibliothèque fermera à 18 h.", "Il a été décidé que la bibliothèque fermerait à 18 heures.", "Il a été décidé que la bibliothèque fermera à 18 heures."],
+            explanation: "Impersonal passive \"il a été décidé que\"; after a past main verb the future becomes the conditional \"fermerait\" (the future also passes if the decision applies from now on).",
+          },
+        ],
+      },
+      {
+        heading: "The person keeps their à",
+        body: [
+          "This frame is also the French answer to English passives of indirect objects (Part 1): 'Candidates are asked to arrive early' → \"il est demandé aux candidats d'arriver en avance\"; 'Employees are reminded that...' → \"il est rappelé aux salariés que...\". The person keeps their \"à\".",
+        ],
+        examples: [
           { es: "Il est demandé aux candidats de se présenter quinze minutes à l'avance.", en: "Candidates are asked to arrive fifteen minutes early." },
           { es: "Il est rappelé aux salariés que le badge est obligatoire.", en: "Employees are reminded that badges are compulsory." },
-          { es: "Il a été constaté plusieurs anomalies dans les comptes.", en: "Several irregularities were found in the accounts." },
-          { es: "Il sera procédé à un contrôle des titres de transport.", en: "Tickets will be checked." },
-          { es: "Il n'a pas été tenu compte de nos remarques.", en: "Our comments were not taken into account." },
+          { es: "Il est conseillé aux voyageurs de réserver à l'avance.", en: "Travellers are advised to book in advance." },
         ],
         checkpoint: [
           {
@@ -1131,29 +1610,52 @@ export const FR_C1_U05: Lesson[] = [
             explanation: "\"Demander à quelqu'un de\": passengers are an indirect object, so the impersonal \"il est demandé aux voyageurs de\". (\"Sont priés de\" also works, because \"prier\" takes a direct object: \"prier quelqu'un de\".)",
           },
           {
-            type: "multiple-choice",
-            question: "Which is the correct official wording of 'Our comments were not taken into account'?",
-            options: ["Il n'a pas été tenu compte de nos remarques.", "Nos remarques n'ont pas été tenues compte.", "Nos remarques n'ont pas été tenu compte.", "Il n'a pas été tenu compte nos remarques."],
-            correctIndex: 0,
-            explanation: "\"Tenir compte de\" has no direct object, so no personal passive: only the impersonal \"il n'a pas été tenu compte de\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Les visiteurs sont demandés de laisser leur sac à l'entrée.",
+            answer: "Il est demandé aux visiteurs de laisser leur sac à l'entrée.",
+            altAnswers: ["Les visiteurs sont priés de laisser leur sac à l'entrée.", "On demande aux visiteurs de laisser leur sac à l'entrée."],
+            explanation: "\"Demander à quelqu'un de\": the visitors are an indirect object, so they can't become the subject of a passive. Use \"il est demandé aux visiteurs de\" (or \"sont priés de\", since \"prier\" takes a direct object).",
           },
         ],
       },
       {
-        heading: "Il se peut que, il convient de, il importe que",
+        heading: "Il sera procédé à: the language of notices",
+        body: [
+          "Even intransitive verbs can be used this way in very formal French: \"il sera procédé à un contrôle des billets\" (tickets will be checked), \"il a été procédé à l'arrestation du suspect\". You'll see it in official notices; you don't need it in conversation.",
+        ],
+        examples: [
+          { es: "Il sera procédé à un contrôle des titres de transport.", en: "Tickets will be checked." },
+          { es: "Il n'a pas été tenu compte de nos remarques.", en: "Our comments were not taken into account." },
+          { es: "Il a été procédé au remplacement des compteurs.", en: "The meters have been replaced." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is the correct official wording of 'His objections were not taken into account'?",
+            options: ["Ses objections n'ont pas été tenues compte.", "Il n'a pas été tenu compte de ses objections.", "Ses objections n'ont pas été tenu compte.", "Il n'a pas été tenu compte ses objections."],
+            correctIndex: 1,
+            explanation: "\"Tenir compte de\" has no direct object, so there is no personal passive: only the impersonal \"il n'a pas été tenu compte de\", which keeps its \"de\".",
+          },
+          {
+            type: "multiple-choice",
+            question: "Which is the notice wording of 'The building will be evacuated'?",
+            options: ["Il sera procédé l'évacuation du bâtiment.", "Le bâtiment sera procédé à l'évacuation.", "Il sera procédé à l'évacuation du bâtiment.", "Il sera procédé de l'évacuation du bâtiment."],
+            correctIndex: 2,
+            explanation: "\"Procéder à\" is intransitive, so only the impersonal passive works, and it keeps its preposition: \"il sera procédé à\" + noun.",
+          },
+        ],
+      },
+      {
+        heading: "Il se peut que + subjunctive",
         body: [
           "A set of impersonal verbs of judgement that belong to careful French. \"Il se peut que\" + subjunctive = it may be that, possibly: \"il se peut que le vol soit retardé\". It's more formal than \"peut-être\" and always takes the subjunctive.",
-          "\"Il convient de\" + infinitive = it is advisable / appropriate to: \"il convient de distinguer deux cas\". Academic and administrative writing uses it constantly. \"Il convient que\" + subjunctive exists but is rarer.",
-          "\"Il importe de\" / \"il importe que\" + subjunctive = it is important to / that: \"il importe que chacun prenne ses responsabilités\". Formal; in speech you'd say \"c'est important que\".",
-          "Also useful: \"il vaut mieux\" (it's better to), \"il s'avère que\" (it turns out that) + indicative, \"il en va de même pour\" (the same goes for), \"il n'empêche que\" (Unit 2).",
         ],
         examples: [
           { es: "Il se peut que le vol soit retardé à cause de la grève.", en: "The flight may be delayed because of the strike." },
-          { es: "Il convient de distinguer deux cas de figure.", en: "Two scenarios should be distinguished." },
-          { es: "Il importe que chacun prenne ses responsabilités.", en: "It's important that everyone take responsibility." },
-          { es: "Il s'avère que le dossier n'avait jamais été transmis.", en: "It turns out the file had never been passed on." },
-          { es: "Il en va de même pour les contrats à durée déterminée.", en: "The same goes for fixed-term contracts." },
-          { es: "Il vaut mieux prévenir que guérir.", en: "Better safe than sorry." },
+          { es: "Il se peut que nous ayons pris du retard.", en: "We may have fallen behind." },
+          { es: "Il se peut qu'elle ne vienne pas ce soir.", en: "She may not come tonight." },
         ],
         checkpoint: [
           {
@@ -1165,6 +1667,60 @@ export const FR_C1_U05: Lesson[] = [
             explanation: "\"Il se peut que\" + subjunctive: \"qu'il pleuve\". Note the two different empty \"il\"s.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into a sentence with \"il se peut que\".",
+            source: "Le train a peut-être du retard.",
+            answer: "Il se peut que le train ait du retard.",
+            altAnswers: ["Il se peut que le train soit en retard."],
+            explanation: "\"Il se peut que\" always takes the subjunctive: \"a\" becomes \"ait\". It replaces \"peut-être\" in careful French.",
+          },
+        ],
+      },
+      {
+        heading: "Il convient de, il importe que",
+        body: [
+          "\"Il convient de\" + infinitive = it is advisable / appropriate to: \"il convient de distinguer deux cas\". Academic and administrative writing uses it constantly. \"Il convient que\" + subjunctive exists but is rarer.",
+          "\"Il importe de\" / \"il importe que\" + subjunctive = it is important to / that: \"il importe que chacun prenne ses responsabilités\". Formal; in speech you'd say \"c'est important que\".",
+        ],
+        examples: [
+          { es: "Il convient de distinguer deux cas de figure.", en: "Two scenarios should be distinguished." },
+          { es: "Il importe que chacun prenne ses responsabilités.", en: "It's important that everyone take responsibility." },
+          { es: "Il importe de vérifier chaque chiffre avant publication.", en: "It is important to check every figure before publication." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[It is advisable to] keep a copy of all documents.",
+            sentence: "___ conserver une copie de tous les documents.",
+            answer: "Il convient de",
+            altAnswers: ["Il est conseillé de", "Il est recommandé de"],
+            explanation: "\"Il convient de\" + infinitive: the formal 'one should'.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il importe que chacun est présent à la réunion.",
+            answer: "Il importe que chacun soit présent à la réunion.",
+            altAnswers: ["Il est important que chacun soit présent à la réunion."],
+            explanation: "\"Il importe que\" expresses importance, so it takes the subjunctive: \"soit\", not \"est\".",
+          },
+        ],
+      },
+      {
+        heading: "Il s'avère que, il en va de même",
+        body: [
+          "Also useful: \"il vaut mieux\" (it's better to), \"il s'avère que\" (it turns out that) + indicative, \"il en va de même pour\" (the same goes for), \"il n'empêche que\" (Unit 2).",
+        ],
+        examples: [
+          { es: "Il s'avère que le dossier n'avait jamais été transmis.", en: "It turns out the file had never been passed on." },
+          { es: "Il en va de même pour les contrats à durée déterminée.", en: "The same goes for fixed-term contracts." },
+          { es: "Il vaut mieux prévenir que guérir.", en: "Better safe than sorry." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "[It turns out that] the supplier had already been paid.",
@@ -1173,12 +1729,6 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["Il se trouve que", "Il apparaît que"],
             explanation: "\"Il s'avère que\" + indicative: it turns out that (a verified fact).",
           },
-          {
-            type: "speak",
-            text: "Il se peut que le vol soit retardé à cause de la grève.",
-            prompt: "Say it in French: The flight may be delayed because of the strike.",
-            explanation: "\"Il se peut que\" + subjunctive \"soit retardé\" (a passive subjunctive).",
-          },
         ],
       },
     ],
@@ -1186,20 +1736,10 @@ export const FR_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French.",
-        source: "A lot of people came to the funeral.",
-        answer: "Il est venu beaucoup de monde à l'enterrement.",
-        altAnswers: ["Beaucoup de gens sont venus à l'enterrement.", "Il est venu beaucoup de monde aux obsèques.", "Beaucoup de gens sont venus aux obsèques."],
-        explanation: "The impersonal \"il est venu beaucoup de monde\" keeps \"venu\" masculine singular.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French (official style).",
-        source: "It has been decided that the library will close at 6 pm.",
-        answer: "Il a été décidé que la bibliothèque fermerait à 18 h.",
-        altAnswers: ["Il a été décidé que la bibliothèque fermera à 18 h.", "Il a été décidé que la bibliothèque fermerait à 18 heures.", "Il a été décidé que la bibliothèque fermera à 18 heures."],
-        explanation: "Impersonal passive \"il a été décidé que\"; after a past main verb the future becomes the conditional \"fermerait\" (the future also passes if the decision applies from now on).",
+        prompt: "Make it impersonal.",
+        source: "Beaucoup de spectateurs sont venus au concert de dimanche.",
+        answer: "Il est venu beaucoup de spectateurs au concert de dimanche.",
+        explanation: "Impersonal \"il est venu\" + the real subject after the verb; \"venu\" stays masculine singular even though the spectators are plural.",
       },
       {
         type: "translate",
@@ -1211,15 +1751,6 @@ export const FR_C1_U05: Lesson[] = [
         explanation: "\"Il existe\" is the written equivalent of \"il y a\" for things that exist.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "[It is advisable to] keep a copy of all documents.",
-        sentence: "___ conserver une copie de tous les documents.",
-        answer: "Il convient de",
-        altAnswers: ["Il est conseillé de", "Il est recommandé de"],
-        explanation: "\"Il convient de\" + infinitive: the formal 'one should'.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -1227,13 +1758,6 @@ export const FR_C1_U05: Lesson[] = [
         answer: "Il en va de même pour les autres membres.",
         altAnswers: ["C'est la même chose pour les autres membres."],
         explanation: "\"Il en va de même pour\": a formal set phrase.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Il s'est produit deux incidents ce matin.", "Il se sont produits deux incidents ce matin.", "Il s'est produits deux incidents ce matin.", "Il se sont produit deux incidents ce matin."],
-        correctIndex: 0,
-        explanation: "Impersonal \"il\": singular verb, masculine singular participle: \"il s'est produit deux incidents\".",
       },
       {
         type: "translate",
@@ -1261,14 +1785,20 @@ export const FR_C1_U05: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Il se trouve que je connais bien la directrice.",
+        audio: "Il se trouve que la directrice est une amie d'enfance.",
         explanation: "\"Il se trouve que\" + indicative: as it happens.",
       },
       {
         type: "speak",
-        text: "Il s'avère que le dossier n'avait jamais été transmis.",
-        prompt: "Say it in French: It turns out the file had never been passed on.",
-        explanation: "\"Il s'avère que\" + indicative, then a pluperfect passive.",
+        text: "Il s'avère que personne n'avait lu le rapport.",
+        prompt: "Say it in French: It turns out nobody had read the report.",
+        explanation: "\"Il s'avère que\" + indicative states a verified fact; \"personne n'avait lu\" is a pluperfect with the negative subject.",
+      },
+      {
+        type: "speak",
+        text: "Il se peut que la réunion soit annulée à cause de la grève.",
+        prompt: "Say it in French: The meeting may be cancelled because of the strike.",
+        explanation: "\"Il se peut que\" + subjunctive, here a passive subjunctive \"soit annulée\" agreeing with \"la réunion\".",
       },
     ],
   },
@@ -1278,19 +1808,62 @@ export const FR_C1_U05: Lesson[] = [
     number: 7,
     title: "Contrast Clinic: Le Magasin Est Fermé / A Été Fermé",
     summary: "Est fermé can be a state or a present passive: learn to tell the result from the action, and when to say en cours de construction instead of est construit.",
-    duration: "16 min",
+    duration: "17 min",
     sections: [
       {
-        heading: "State or action? Two readings of être + participle",
+        heading: "Est fermé: a state you can see now",
         body: [
           "\"Le magasin est fermé\" usually describes a state: the shop is closed (now). The participle works like an adjective. \"Le magasin a été fermé\" is a passive action: the shop was closed (by someone, at some point), often permanently, by decision: \"le magasin a été fermé par la préfecture\".",
-          "But \"est fermé\" can also be a present passive of a repeated action: \"le magasin est fermé chaque soir à 20 h\" (the shop is closed every evening at 8). The adverb of frequency or the agent tips it to the action reading.",
-          "English has the same ambiguity ('The door is closed' vs 'The door is closed every night'), but English speakers often reach for the wrong French tense with past events. 'The shop was closed when I got there' (state) is \"le magasin était fermé\"; 'The shop was closed in 2015' (event) is \"le magasin a été fermé en 2015\".",
         ],
         examples: [
           { es: "Désolé, le magasin est fermé.", en: "Sorry, the shop is closed." },
           { es: "Le magasin a été fermé par la préfecture pour raisons d'hygiène.", en: "The shop was closed down by the prefecture for hygiene reasons." },
+          { es: "Le guichet est fermé, revenez demain.", en: "The counter is closed; come back tomorrow." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "You find the chemist's shut at lunchtime. Which sentence describes what you see?",
+            options: ["La pharmacie a été fermée.", "La pharmacie est fermée.", "La pharmacie a fermée.", "La pharmacie s'est fermée."],
+            correctIndex: 1,
+            explanation: "A state you observe now is \"être\" + participle used like an adjective: \"est fermée\". \"A été fermée\" reports an action (often a closure by decision), and \"a fermée\" is wrong: no agreement with \"avoir\" here.",
+          },
+          {
+            type: "multiple-choice",
+            question: "'The mine was closed in 1985.' Which is right?",
+            options: ["La mine a été fermée en 1985.", "La mine était fermée en 1985.", "La mine est fermée en 1985.", "La mine avait fermé en 1985."],
+            correctIndex: 0,
+            explanation: "A dated event: passé composé passive \"a été fermée\". \"Était fermée\" would only say it was in a closed state that year.",
+          },
+        ],
+      },
+      {
+        heading: "Est fermé chaque soir: a repeated action",
+        body: [
+          "But \"est fermé\" can also be a present passive of a repeated action: \"le magasin est fermé chaque soir à 20 h\" (the shop is closed every evening at 8). The adverb of frequency or the agent tips it to the action reading.",
+        ],
+        examples: [
           { es: "Le parc est fermé chaque soir à la tombée de la nuit.", en: "The park is closed every evening at nightfall." },
+          { es: "Les grilles sont ouvertes tous les matins à 7 h.", en: "The gates are opened every morning at 7." },
+          { es: "La piscine est nettoyée chaque lundi.", en: "The pool is cleaned every Monday." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Les portes sont fermées par le gardien à vingt-deux heures.",
+            question: "What does it mean?",
+            options: ["The caretaker shuts the doors at 10 pm.", "The doors were closed by the caretaker at 10 pm.", "The doors are already shut; the caretaker left at 10 pm.", "The caretaker has been shut out since 10 pm."],
+            correctIndex: 0,
+            explanation: "\"Par le gardien\" and a regular time make it a present passive of a habitual action.",
+          },
+        ],
+      },
+      {
+        heading: "Était fermé or a été fermé?",
+        body: [
+          "English has the same ambiguity ('The door is closed' vs 'The door is closed every night'), but English speakers often reach for the wrong French tense with past events. 'The shop was closed when I got there' (state) is \"le magasin était fermé\"; 'The shop was closed in 2015' (event) is \"le magasin a été fermé en 2015\".",
+        ],
+        examples: [
           { es: "Quand je suis arrivée, la porte était fermée.", en: "When I arrived, the door was closed." },
           { es: "L'usine a été fermée en 2015.", en: "The factory was closed in 2015." },
           { es: "La porte a été fermée à clé de l'intérieur.", en: "The door was locked from the inside." },
@@ -1306,28 +1879,55 @@ export const FR_C1_U05: Lesson[] = [
             explanation: "A state in the past is the imparfait of \"être\" + adjective-like participle: \"était fermé\". \"A été fermé\" would mean someone closed it.",
           },
           {
-            type: "multiple-choice",
-            question: "'The mine was closed in 1985.' Which is right?",
-            options: ["La mine a été fermée en 1985.", "La mine était fermée en 1985.", "La mine est fermée en 1985.", "La mine avait fermé en 1985."],
-            correctIndex: 0,
-            explanation: "A dated event: passé composé passive \"a été fermée\". \"Était fermée\" would only say it was in a closed state that year.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into an event: add \"en 2019\".",
+            source: "La boutique était fermée.",
+            answer: "La boutique a été fermée en 2019.",
+            explanation: "A dated event that changed things takes the passé composé passive \"a été fermée\"; \"était fermée\" only describes the situation at the time.",
           },
         ],
       },
       {
-        heading: "Est construit vs est en cours de construction",
+        heading: "No progressive passive: est en cours de",
         body: [
           "English uses the progressive passive for an action in progress: 'The bridge is being built'. French has no progressive passive. \"Le pont est construit\" means it is built, finished. For 'is being built', use \"est en cours de construction\", \"est en construction\", \"on est en train de construire le pont\", or the pronominal \"le pont se construit\".",
-          "Same for other processes: 'The road is being repaired' → \"la route est en travaux\" / \"on refait la route\"; 'Your request is being processed' → \"votre demande est en cours de traitement\"; 'The house was being renovated' → \"la maison était en (cours de) rénovation\".",
-          "So: \"La maison est vendue\" = sold (done). \"La maison est en vente\" = for sale. \"La maison a été vendue\" = was sold (event). \"La maison se vend bien\" = sells well / is selling well.",
         ],
         examples: [
           { es: "Le nouveau stade est en cours de construction.", en: "The new stadium is being built." },
           { es: "Le nouveau stade est construit, il ouvrira en mai.", en: "The new stadium is built; it opens in May." },
+          { es: "On est en train de repeindre la façade.", en: "The front of the building is being repainted." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The tower [is being restored].",
+            sentence: "La tour ___.",
+            answer: "est en cours de restauration",
+            altAnswers: ["est en restauration", "est en train d'être restaurée"],
+            explanation: "\"En cours de\" + noun expresses a process underway. (\"Est restaurée\" would mean the restoration is finished.)",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to mean the work is still going on.",
+            source: "Le nouvel hôpital est construit.",
+            answer: "Le nouvel hôpital est en cours de construction.",
+            altAnswers: ["Le nouvel hôpital est en construction.", "On est en train de construire le nouvel hôpital.", "Le nouvel hôpital se construit."],
+            explanation: "\"Est construit\" means it is finished. French has no progressive passive, so 'is being built' is \"est en cours de construction\" (or \"en construction\", \"on est en train de construire\", \"se construit\").",
+          },
+        ],
+      },
+      {
+        heading: "Other processes: en travaux, en cours de traitement",
+        body: [
+          "Same for other processes: 'The road is being repaired' → \"la route est en travaux\" / \"on refait la route\"; 'Your request is being processed' → \"votre demande est en cours de traitement\"; 'The house was being renovated' → \"la maison était en (cours de) rénovation\".",
+        ],
+        examples: [
           { es: "Votre commande est en cours de traitement.", en: "Your order is being processed." },
           { es: "La route est en travaux jusqu'à la fin du mois.", en: "The road is being repaired until the end of the month." },
           { es: "À l'époque, la maison était en rénovation.", en: "At the time, the house was being renovated." },
-          { es: "La maison est vendue, je signe demain chez le notaire.", en: "The house is sold; I'm signing at the notary's tomorrow." },
         ],
         checkpoint: [
           {
@@ -1340,29 +1940,71 @@ export const FR_C1_U05: Lesson[] = [
             explanation: "No progressive passive in French: \"est en cours de traitement\". \"Est traitée\" would mean it's done.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "The tower [is being restored].",
-            sentence: "La tour ___.",
-            answer: "est en cours de restauration",
-            altAnswers: ["est en restauration", "est en train d'être restaurée"],
-            explanation: "\"En cours de\" + noun expresses a process underway. (\"Est restaurée\" would mean the restoration is finished.)",
+            type: "word-order",
+            prompt: "Put the words in order to say: Your file is being reviewed.",
+            words: ["Votre dossier", "est", "en cours", "d'examen."],
+            translation: "Your file is being reviewed.",
+            explanation: "\"En cours de\" + noun: a process underway.",
           },
         ],
       },
       {
-        heading: "Agreement and tense: the ripple effects",
+        heading: "Vendue, en vente, a été vendue, se vend",
+        body: [
+          "So: \"La maison est vendue\" = sold (done). \"La maison est en vente\" = for sale. \"La maison a été vendue\" = was sold (event). \"La maison se vend bien\" = sells well / is selling well.",
+        ],
+        examples: [
+          { es: "La maison est vendue, je signe demain chez le notaire.", en: "The house is sold; I'm signing at the notary's tomorrow." },
+          { es: "La maison est en vente depuis six mois.", en: "The house has been for sale for six months." },
+          { es: "Ce modèle se vend très bien en hiver.", en: "This model sells very well in winter." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say: The flat is for sale.",
+            options: ["L'appartement est vendu.", "L'appartement est en vente.", "L'appartement a été vendu.", "L'appartement se vendait."],
+            correctIndex: 1,
+            explanation: "'For sale' is \"en vente\". \"Est vendu\" means it is already sold (a result), \"a été vendu\" reports the sale as an event, and \"se vendait\" means it used to sell.",
+          },
+        ],
+      },
+      {
+        heading: "Agreement, and the clues: déjà, par, a date",
         body: [
           "Whatever the reading, the participle agrees with the subject: \"les portes sont fermées\", \"la ville a été détruite\". With the state reading you can add \"déjà\" or \"toujours\"; with the action reading you can add \"par\" + agent or a date.",
+        ],
+        examples: [
+          { es: "Les portes sont déjà fermées, il faut passer par derrière.", en: "The doors are already shut; you have to go round the back." },
+          { es: "Les portes sont fermées par le gardien à 22 h.", en: "The doors are shut by the caretaker at 10 pm." },
+          { es: "La ville a été presque entièrement détruite en 1944.", en: "The town was almost completely destroyed in 1944." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Complete: Les volets ___ chaque soir par ma grand-mère.",
+            options: ["sont fermées", "ont fermé", "sont fermés", "est fermé"],
+            correctIndex: 2,
+            explanation: "\"Par ma grand-mère\" and \"chaque soir\" give the action reading, a present passive; the participle agrees with \"les volets\" (masculine plural): \"sont fermés\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it plural.",
+            source: "La porte a été repeinte par le gardien.",
+            answer: "Les portes ont été repeintes par le gardien.",
+            explanation: "Whatever the reading, the participle agrees with the subject: \"les portes\" is feminine plural, so \"ont été repeintes\"; \"été\" never changes.",
+          },
+        ],
+      },
+      {
+        heading: "Present + depuis for a situation still true",
+        body: [
           "Choose the past tense by asking: description of a situation (imparfait \"était fermé\"), or event that changed things (passé composé \"a été fermé\")? And for a result that's true now because of an earlier event, the present: \"la route est coupée depuis ce matin\" (the road has been closed since this morning) uses \"est\" + \"depuis\", not *\"a été coupée depuis\".",
           "This last point catches many learners: with \"depuis\" French uses the present for a situation still true now. \"Le pont est fermé depuis mardi\" = the bridge has been closed since Tuesday.",
         ],
         examples: [
           { es: "La route est coupée depuis ce matin.", en: "The road has been closed since this morning." },
           { es: "La route a été coupée ce matin à 6 heures.", en: "The road was closed this morning at 6." },
-          { es: "Les portes sont déjà fermées, il faut passer par derrière.", en: "The doors are already shut; you have to go round the back." },
-          { es: "Les portes sont fermées par le gardien à 22 h.", en: "The doors are shut by the caretaker at 10 pm." },
-          { es: "La ville a été presque entièrement détruite en 1944.", en: "The town was almost completely destroyed in 1944." },
           { es: "Le pont est fermé depuis mardi pour inspection.", en: "The bridge has been closed since Tuesday for inspection." },
         ],
         checkpoint: [
@@ -1375,12 +2017,12 @@ export const FR_C1_U05: Lesson[] = [
             explanation: "A state still true now + \"depuis\": present tense \"est fermée\", not *\"a été fermée depuis\".",
           },
           {
-            type: "listen-choose",
-            audio: "Les portes sont fermées par le gardien à vingt-deux heures.",
-            question: "What does it mean?",
-            options: ["The caretaker shuts the doors at 10 pm.", "The doors were closed by the caretaker at 10 pm.", "The doors are already shut; the caretaker left at 10 pm.", "The caretaker has been shut out since 10 pm."],
-            correctIndex: 0,
-            explanation: "\"Par le gardien\" and a regular time make it a present passive of a habitual action.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La piscine a été fermée depuis trois semaines pour travaux.",
+            answer: "La piscine est fermée depuis trois semaines pour travaux.",
+            explanation: "With \"depuis\" for a situation still true now, French uses the present: \"est fermée depuis\". The passé composé \"a été fermée\" is for the dated event itself.",
           },
         ],
       },
@@ -1446,22 +2088,15 @@ export const FR_C1_U05: Lesson[] = [
         explanation: "A dated event with an agent: passive \"a été détruite par\".",
       },
       {
-        type: "word-order",
-        prompt: "Put the words in order to say: Your file is being reviewed.",
-        words: ["Votre dossier", "est", "en cours", "d'examen."],
-        translation: "Your file is being reviewed.",
-        explanation: "\"En cours de\" + noun: a process underway.",
-      },
-      {
         type: "dictation",
         audio: "Le pont est fermé depuis mardi.",
         explanation: "Present tense with \"depuis\" for a situation that's still true.",
       },
       {
         type: "speak",
-        text: "Le nouveau stade est en cours de construction.",
-        prompt: "Say it in French: The new stadium is being built.",
-        explanation: "\"En cours de construction\" replaces the English progressive passive.",
+        text: "La bibliothèque est en cours de rénovation.",
+        prompt: "Say it in French: The library is being renovated.",
+        explanation: "No progressive passive in French: an action in progress is \"est en cours de\" + noun.",
       },
     ],
   },
@@ -1474,37 +2109,74 @@ export const FR_C1_U05: Lesson[] = [
     duration: "20 min",
     sections: [
       {
-        heading: "The brief and the model opening",
+        heading: "The brief",
         body: [
           "You work for the town hall of Villeneuve-sur-Lot. The main avenue will be resurfaced for three weeks, a bus line will be diverted and parking will be banned. Your press release must announce the works, explain why, list the restrictions and tell residents what to do, in the neutral, agentless style of French public communication.",
-          "Read the opening of a model release: \"Des travaux de réfection de la chaussée seront réalisés avenue de la République du 3 au 24 mars. Il s'agit de la dernière tranche du programme de rénovation de la voirie lancé en 2023. Pendant toute la durée du chantier, la circulation sera interdite entre 8 h et 18 h et le stationnement sera neutralisé.\"",
-          "Notice what's missing: no \"nous\", no named company, no \"la mairie va...\". Everything is a passive (\"seront réalisés\", \"sera interdite\", \"sera neutralisé\"), an impersonal frame (\"il s'agit de\") or a nominalised phrase (\"travaux de réfection\", \"la durée du chantier\"). Press releases also favour the future tense for planned measures.",
         ],
         examples: [
-          { es: "Des travaux de réfection de la chaussée seront réalisés du 3 au 24 mars.", en: "Road resurfacing work will be carried out from 3 to 24 March." },
-          { es: "Il s'agit de la dernière tranche du programme de rénovation.", en: "This is the last phase of the renovation programme." },
-          { es: "La circulation sera interdite entre 8 h et 18 h.", en: "Traffic will be banned between 8 am and 6 pm." },
           { es: "Le stationnement sera neutralisé sur toute la longueur de l'avenue.", en: "Parking will be suspended along the whole avenue." },
           { es: "Une déviation sera mise en place par la rue Victor-Hugo.", en: "A diversion will be set up via Rue Victor-Hugo." },
           { es: "Ces travaux avaient été reportés en raison des intempéries.", en: "This work had been postponed because of bad weather." },
         ],
         checkpoint: [
           {
+            type: "multiple-choice",
+            question: "Which sentence fits the neutral style of a town-hall release?",
+            options: ["On va déplacer le marché, désolés !", "La mairie, elle va déplacer le marché.", "Nous, on déplace le marché.", "Le marché sera déplacé place de la Gare."],
+            correctIndex: 3,
+            explanation: "Public communication keeps the agent in the background: a passive in the future, \"sera déplacé\". The other three put a speaker (\"on\", \"nous\", \"la mairie, elle\") at the front and sound spoken.",
+          },
+        ],
+      },
+      {
+        heading: "The model opening",
+        body: [
+          "Read the opening of a model release: \"Des travaux de réfection de la chaussée seront réalisés avenue de la République du 3 au 24 mars. Il s'agit de la dernière tranche du programme de rénovation de la voirie lancé en 2023. Pendant toute la durée du chantier, la circulation sera interdite entre 8 h et 18 h et le stationnement sera neutralisé.\"",
+        ],
+        examples: [
+          { es: "Des travaux de réfection de la chaussée seront réalisés du 3 au 24 mars.", en: "Road resurfacing work will be carried out from 3 to 24 March." },
+          { es: "Il s'agit de la dernière tranche du programme de rénovation.", en: "This is the last phase of the renovation programme." },
+          { es: "La circulation sera interdite entre 8 h et 18 h.", en: "Traffic will be banned between 8 am and 6 pm." },
+        ],
+        checkpoint: [
+          {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French (press-release style).",
-            source: "A diversion will be set up.",
-            answer: "Une déviation sera mise en place.",
-            altAnswers: ["Une déviation sera installée.", "Une déviation sera organisée."],
-            explanation: "Future passive, feminine agreement: \"sera mise en place\".",
+            source: "A temporary car park will be set up near the station.",
+            answer: "Un parking provisoire sera aménagé près de la gare.",
+            altAnswers: ["Un parking provisoire sera mis en place près de la gare.", "Un parking temporaire sera aménagé près de la gare.", "Un parking temporaire sera mis en place près de la gare."],
+            explanation: "A planned measure: future passive \"sera aménagé\" / \"sera mis en place\", agreeing with \"un parking\" (masculine). No \"nous\", no named firm.",
           },
+        ],
+      },
+      {
+        heading: "What's missing: the agent",
+        body: [
+          "Notice what's missing: no \"nous\", no named company, no \"la mairie va...\". Everything is a passive (\"seront réalisés\", \"sera interdite\", \"sera neutralisé\"), an impersonal frame (\"il s'agit de\") or a nominalised phrase (\"travaux de réfection\", \"la durée du chantier\"). Press releases also favour the future tense for planned measures.",
+        ],
+        examples: [
+          { es: "Les horaires de collecte des déchets seront modifiés.", en: "Waste collection times will be changed." },
+          { es: "Il s'agit de remplacer des canalisations datant de 1960.", en: "The aim is to replace pipes dating from 1960." },
+          { es: "La durée du chantier est estimée à trois semaines.", en: "The work is expected to last three weeks." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "[This is] the last phase of the programme.",
-            sentence: "___ la dernière tranche du programme.",
-            answer: "Il s'agit de",
-            explanation: "\"Il s'agit de\" presents the work in official style; \"c'est\" would sound spoken.",
+            en: "[This is] a temporary measure.",
+            sentence: "___ d'une mesure provisoire.",
+            answer: "Il s'agit",
+            explanation: "\"Il s'agit de\" presents what the measure is without naming who decided it; \"de\" + \"une\" becomes \"d'une\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it agentless, as in a press release.",
+            source: "La mairie va fermer la piscine du 1er au 15 juillet.",
+            answer: "La piscine sera fermée du 1er au 15 juillet.",
+            altAnswers: ["La piscine municipale sera fermée du 1er au 15 juillet."],
+            explanation: "Drop the agent and use the future passive: \"sera fermée\", agreeing with \"la piscine\". Releases favour the future for planned measures.",
           },
         ],
       },
@@ -1512,16 +2184,60 @@ export const FR_C1_U05: Lesson[] = [
         heading: "Instructions without imperatives",
         body: [
           "A release doesn't order residents about (\"Garez-vous ailleurs !\"). It uses impersonal frames: \"il est demandé aux riverains de...\", \"les usagers sont invités à...\", \"il est conseillé de...\", \"il est rappelé que...\". \"Être invité à\" + infinitive is the courteous formula: \"les automobilistes sont invités à emprunter les itinéraires de déviation\".",
-          "To apologise without naming who's sorry: \"La municipalité remercie les riverains de leur compréhension\" (the town is the one subject allowed, for thanks) or \"Nous vous prions de bien vouloir excuser la gêne occasionnée\" (the standard closing line, where \"nous\" is acceptable).",
-          "For uncertainty, use \"il se peut que\" + subjunctive or \"des perturbations sont à prévoir\" (disruption is to be expected): \"être à\" + infinitive is another passive-like frame (\"des retards sont à craindre\").",
         ],
         examples: [
           { es: "Il est demandé aux riverains de libérer la chaussée avant 7 h.", en: "Residents are asked to clear the road before 7 am." },
           { es: "Les automobilistes sont invités à emprunter les itinéraires de déviation.", en: "Drivers are asked to use the diversion routes." },
+          { es: "Il est rappelé que les véhicules en infraction seront enlevés.", en: "Please note that vehicles parked illegally will be towed." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which line suits a press release asking residents to move their cars?",
+            options: ["Il est demandé aux riverains de déplacer leur véhicule.", "Déplacez vos voitures, merci !", "Les riverains sont demandés de déplacer leur véhicule.", "On demande les riverains de déplacer leur véhicule."],
+            correctIndex: 0,
+            explanation: "\"Demander à quelqu'un de\": no personal passive (*\"sont demandés\"), so \"il est demandé aux riverains de\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Les cyclistes sont invités de descendre de leur vélo.",
+            answer: "Les cyclistes sont invités à descendre de leur vélo.",
+            altAnswers: ["Il est demandé aux cyclistes de descendre de leur vélo."],
+            explanation: "The courteous formula is \"être invité à\" + infinitive, with \"à\". (\"Il est demandé aux cyclistes de\" is the other standard frame.)",
+          },
+        ],
+      },
+      {
+        heading: "Thanks and apologies",
+        body: [
+          "To apologise without naming who's sorry: \"La municipalité remercie les riverains de leur compréhension\" (the town is the one subject allowed, for thanks) or \"Nous vous prions de bien vouloir excuser la gêne occasionnée\" (the standard closing line, where \"nous\" is acceptable).",
+        ],
+        examples: [
+          { es: "Nous vous prions de bien vouloir excuser la gêne occasionnée.", en: "We apologise for any inconvenience caused." },
+          { es: "La municipalité remercie les usagers de leur patience.", en: "The town thanks users for their patience." },
+          { es: "La ville vous remercie de votre compréhension.", en: "The town thanks you for your understanding." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which line thanks residents in the accepted style?",
+            options: ["La municipalité remercie les riverains à leur compréhension.", "Merci les riverains de comprendre !", "Les riverains sont remerciés à leur compréhension.", "La municipalité remercie les riverains de leur compréhension."],
+            correctIndex: 3,
+            explanation: "\"Remercier quelqu'un de quelque chose\": the town is the one subject allowed, for thanks, and the thing you thank for takes \"de\".",
+          },
+        ],
+      },
+      {
+        heading: "Uncertainty: il se peut que, sont à prévoir",
+        body: [
+          "For uncertainty, use \"il se peut que\" + subjunctive or \"des perturbations sont à prévoir\" (disruption is to be expected): \"être à\" + infinitive is another passive-like frame (\"des retards sont à craindre\").",
+        ],
+        examples: [
           { es: "Des perturbations sont à prévoir sur la ligne 4.", en: "Disruption is to be expected on line 4." },
           { es: "Il se peut que l'accès aux commerces soit ponctuellement restreint.", en: "Access to shops may occasionally be restricted." },
-          { es: "Il est rappelé que les véhicules en infraction seront enlevés.", en: "Please note that vehicles parked illegally will be towed." },
-          { es: "Nous vous prions de bien vouloir excuser la gêne occasionnée.", en: "We apologise for any inconvenience caused." },
+          { es: "Des embouteillages sont à craindre aux heures de pointe.", en: "Traffic jams are to be expected at rush hour." },
         ],
         checkpoint: [
           {
@@ -1534,11 +2250,12 @@ export const FR_C1_U05: Lesson[] = [
             explanation: "\"Être à\" + infinitive has a passive meaning: are to be expected.",
           },
           {
-            type: "multiple-choice",
-            question: "Which line suits a press release asking residents to move their cars?",
-            options: ["Il est demandé aux riverains de déplacer leur véhicule.", "Déplacez vos voitures, merci !", "Les riverains sont demandés de déplacer leur véhicule.", "On demande les riverains de déplacer leur véhicule."],
-            correctIndex: 0,
-            explanation: "\"Demander à quelqu'un de\": no personal passive (*\"sont demandés\"), so \"il est demandé aux riverains de\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into a sentence with \"il se peut que\".",
+            source: "Le marché sera peut-être déplacé.",
+            answer: "Il se peut que le marché soit déplacé.",
+            explanation: "\"Il se peut que\" + subjunctive expresses possibility without naming anyone: \"sera\" becomes the subjunctive \"soit\".",
           },
         ],
       },
@@ -1546,32 +2263,69 @@ export const FR_C1_U05: Lesson[] = [
         heading: "Assembling the release",
         body: [
           "Structure: a nominal headline (\"Avenue de la République : travaux de réfection du 3 au 24 mars\"), a lead paragraph with what, where, when (passive, future), an explanation (\"il s'agit de\", a pluperfect passive for background), the practical measures (passives and \"il est demandé\"), and the closing formula.",
-          "Vary your agent-hiding devices so the text doesn't drone: one \"il s'agit\", two or three passives, one \"être invité à\", one \"il est rappelé que\", one \"sont à prévoir\". And use \"par\" only if the agent is newsworthy: \"les travaux seront réalisés par une entreprise locale\" might be worth saying; \"par la mairie\" rarely is.",
-          "Check your agreements one last time: \"la circulation sera interdite\", \"les arrêts seront déplacés\", \"une navette gratuite sera mise à disposition\".",
         ],
         examples: [
           { es: "Avenue de la République : travaux de réfection du 3 au 24 mars", en: "Main avenue: resurfacing works from 3 to 24 March" },
           { es: "Les arrêts de bus seront provisoirement déplacés derrière la mairie.", en: "Bus stops will be temporarily moved behind the town hall." },
           { es: "Une navette gratuite sera mise à disposition des personnes âgées.", en: "A free shuttle will be provided for elderly residents." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which headline is in press-release style?",
+            options: ["Rue Pasteur : fermeture temporaire du 5 au 9 juin", "On ferme la rue Pasteur du 5 au 9 juin !", "La mairie, elle ferme la rue Pasteur", "Nous allons fermer la rue Pasteur"],
+            correctIndex: 0,
+            explanation: "French headlines are nominal and agentless: \"fermeture temporaire\".",
+          },
+        ],
+      },
+      {
+        heading: "Vary the devices; par only when newsworthy",
+        body: [
+          "Vary your agent-hiding devices so the text doesn't drone: one \"il s'agit\", two or three passives, one \"être invité à\", one \"il est rappelé que\", one \"sont à prévoir\". And use \"par\" only if the agent is newsworthy: \"les travaux seront réalisés par une entreprise locale\" might be worth saying; \"par la mairie\" rarely is.",
+        ],
+        examples: [
           { es: "Les travaux seront réalisés par une entreprise de la région.", en: "The work will be carried out by a local firm." },
           { es: "L'accès des piétons aux commerces sera maintenu.", en: "Pedestrian access to the shops will be maintained." },
+          { es: "Le chantier sera supervisé par l'architecte des Bâtiments de France.", en: "The site will be supervised by the national heritage architect." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence names an agent that is worth naming?",
+            options: ["Les panneaux seront installés par la mairie.", "Les trottoirs seront nettoyés par des gens.", "La rue sera fermée par quelqu'un.", "La fresque sera restaurée par une artiste de renommée internationale."],
+            correctIndex: 3,
+            explanation: "Use \"par\" only when the agent is news: a famous artist is; the town hall, people or someone are obvious or empty, so the plain passive is better.",
+          },
+        ],
+      },
+      {
+        heading: "Final check: agreements",
+        body: [
+          "Check your agreements one last time: \"la circulation sera interdite\", \"les arrêts seront déplacés\", \"une navette gratuite sera mise à disposition\".",
+        ],
+        examples: [
           { es: "Toutes les informations seront mises à jour sur le site de la ville.", en: "All information will be updated on the town's website." },
+          { es: "Les places de livraison seront maintenues.", en: "Delivery bays will be kept." },
+          { es: "La rue Pasteur sera rouverte le 10 juin.", en: "Rue Pasteur will reopen on 10 June." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French (press-release style).",
-            source: "Pedestrian access will be maintained.",
-            answer: "L'accès piéton sera maintenu.",
-            altAnswers: ["L'accès des piétons sera maintenu.", "L'accès pour les piétons sera maintenu."],
-            explanation: "Future passive \"sera maintenu\" (\"l'accès\" is masculine).",
+            source: "Access to the car park will be maintained.",
+            answer: "L'accès au parking sera maintenu.",
+            altAnswers: ["L'accès au parc de stationnement sera maintenu."],
+            explanation: "Future passive agreeing with \"l'accès\" (masculine singular): \"sera maintenu\".",
           },
           {
-            type: "speak",
-            text: "Nous vous prions de bien vouloir excuser la gêne occasionnée.",
-            prompt: "Say it in French (the standard closing line): We apologise for any inconvenience caused.",
-            explanation: "A fixed formula of French public communication.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Les nouveaux horaires sera affichés en mairie.",
+            answer: "Les nouveaux horaires seront affichés en mairie.",
+            explanation: "The auxiliary agrees with the plural subject \"les nouveaux horaires\": \"seront affichés\".",
           },
         ],
       },
@@ -1607,10 +2361,11 @@ export const FR_C1_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[Disruption is to be expected] on line 2.",
-        sentence: "___ sur la ligne 2.",
-        answer: "Des perturbations sont à prévoir",
-        explanation: "\"Être à prévoir\": a passive-like frame for what must be expected.",
+        en: "[Delays are to be feared] on the ring road.",
+        sentence: "___ sur le périphérique.",
+        answer: "Des retards sont à craindre",
+        altAnswers: ["Des retards sont à prévoir"],
+        explanation: "\"Être à\" + infinitive is a passive-like frame: \"sont à craindre\" = are to be feared.",
       },
       {
         type: "translate",
@@ -1620,13 +2375,6 @@ export const FR_C1_U05: Lesson[] = [
         answer: "Il est rappelé que le marché sera déplacé sur la place de l'Église.",
         altAnswers: ["Il est rappelé que le marché sera transféré sur la place de l'Église.", "Il est précisé que le marché sera déplacé sur la place de l'Église.", "Il est rappelé que le marché sera déplacé place de l'Église."],
         explanation: "\"Il est rappelé que\" + a future passive \"sera déplacé\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which headline is in press-release style?",
-        options: ["Rue Pasteur : fermeture temporaire du 5 au 9 juin", "On ferme la rue Pasteur du 5 au 9 juin !", "La mairie, elle ferme la rue Pasteur", "Nous allons fermer la rue Pasteur"],
-        correctIndex: 0,
-        explanation: "French headlines are nominal and agentless: \"fermeture temporaire\".",
       },
       {
         type: "word-order",
@@ -1663,6 +2411,12 @@ export const FR_C1_U05: Lesson[] = [
         prompt: "Say it in French: Residents are asked to clear the road before 7 am.",
         explanation: "Impersonal passive \"il est demandé aux riverains de\", because \"demander\" takes \"à\".",
       },
+      {
+        type: "speak",
+        text: "Nous vous remercions de votre compréhension.",
+        prompt: "Say it in French: Thank you for your understanding.",
+        explanation: "A standard closing line, where \"nous\" is acceptable; \"remercier de\" + noun.",
+      },
     ],
   },
   {
@@ -1671,34 +2425,48 @@ export const FR_C1_U05: Lesson[] = [
     number: 9,
     title: "Passive and Impersonal Constructions, Part 5 of 6",
     summary: "Se faire + infinitive as the passive of things that happen to you (il s'est fait voler son vélo) and se voir + infinitive for what you're granted or refused.",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
-        heading: "Se faire + infinitive: the passive of mishaps",
+        heading: "Se faire + infinitive: things that happen to you",
         body: [
           "At the Upper-intermediate level you met causative \"se faire\": \"je me suis fait couper les cheveux\" (I had my hair cut, I arranged it). At the Advanced level, notice its second, very common use: a passive of things that happen to you, usually unpleasant and not arranged at all. \"Il s'est fait voler son vélo\" (he had his bike stolen), \"elle s'est fait renverser par une voiture\" (she got knocked over by a car), \"je me suis fait avoir\" (I got conned).",
-          "English 'get + past participle' is the best match: 'get fired' = \"se faire renvoyer / virer\", 'get caught' = \"se faire prendre / attraper\", 'get told off' = \"se faire engueuler\" (familiar) / \"se faire gronder\" (children) / \"se faire reprendre\".",
-          "It can be positive too: \"elle s'est fait remarquer par un éditeur\" (she got noticed by a publisher), \"il s'est fait élire\" (he got himself elected; here there's a nuance of effort). Context decides between 'arranged' and 'suffered'.",
-          "The agent, if any, comes with \"par\": \"il s'est fait arrêter par la douane\".",
         ],
         examples: [
           { es: "Il s'est fait voler son vélo devant la fac.", en: "He had his bike stolen outside the university." },
           { es: "Elle s'est fait renverser par un scooter en traversant.", en: "She got knocked over by a scooter while crossing." },
           { es: "Je me suis fait avoir par un faux site de réservation.", en: "I got conned by a fake booking site." },
-          { es: "Ils se sont fait prendre en train de tricher.", en: "They got caught cheating." },
-          { es: "Tu vas te faire gronder si tu rentres si tard.", en: "You'll get told off if you come home so late." },
-          { es: "Elle s'est fait remarquer dès son premier court-métrage.", en: "She got noticed with her very first short film." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say: He had his suitcase stolen.",
+            options: ["Il a fait voler sa valise.", "Il s'est volé sa valise.", "Il s'est fait voler sa valise.", "Sa valise s'est fait voler."],
+            correctIndex: 2,
+            explanation: "A mishap that happens to you is \"se faire\" + infinitive: \"il s'est fait voler sa valise\". \"Il a fait voler\" means he had someone steal it (he arranged it).",
+          },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "I got conned.",
-            answer: "Je me suis fait avoir.",
-            altAnswers: ["Je me suis fait arnaquer.", "Je me suis fait rouler."],
-            explanation: "\"Se faire avoir\" = to get conned or tricked; \"fait\" stays invariable.",
+            source: "We got burgled during the holidays.",
+            answer: "On s'est fait cambrioler pendant les vacances.",
+            altAnswers: ["Nous nous sommes fait cambrioler pendant les vacances.", "On s'est fait cambrioler pendant nos vacances.", "Nous nous sommes fait cambrioler pendant nos vacances."],
+            explanation: "'Get' + participle for something you suffer: \"se faire cambrioler\", with \"être\" in the passé composé.",
           },
+        ],
+      },
+      {
+        heading: "Get fired, get caught: the English match",
+        body: [
+          "English 'get + past participle' is the best match: 'get fired' = \"se faire renvoyer / virer\", 'get caught' = \"se faire prendre / attraper\", 'get told off' = \"se faire engueuler\" (familiar) / \"se faire gronder\" (children) / \"se faire reprendre\".",
+        ],
+        examples: [
+          { es: "Ils se sont fait prendre en train de tricher.", en: "They got caught cheating." },
+          { es: "Tu vas te faire gronder si tu rentres si tard.", en: "You'll get told off if you come home so late." },
+          { es: "Mon frère s'est fait attraper en train de fumer.", en: "My brother got caught smoking." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1708,22 +2476,48 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["s'est fait licencier", "s'est fait virer"],
             explanation: "\"Se faire renvoyer / licencier\" (or familiar \"virer\"); \"fait\" doesn't take an -e even though the subject is feminine.",
           },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "We [got caught] by the ticket inspector.",
+            sentence: "Nous ___ par le contrôleur.",
+            answer: "nous sommes fait prendre",
+            altAnswers: ["nous sommes fait attraper", "nous sommes fait choper"],
+            explanation: "\"Se faire prendre / attraper\" = to get caught; \"fait\" stays invariable.",
+          },
+        ],
+      },
+      {
+        heading: "Positive too, and the agent takes par",
+        body: [
+          "It can be positive too: \"elle s'est fait remarquer par un éditeur\" (she got noticed by a publisher), \"il s'est fait élire\" (he got himself elected; here there's a nuance of effort). Context decides between 'arranged' and 'suffered'.",
+          "The agent, if any, comes with \"par\": \"il s'est fait arrêter par la douane\".",
+        ],
+        examples: [
+          { es: "Elle s'est fait remarquer dès son premier court-métrage.", en: "She got noticed with her very first short film." },
+          { es: "Il s'est fait élire maire à trente ans.", en: "He got himself elected mayor at thirty." },
+          { es: "Elle s'est fait engager par une grande maison d'édition.", en: "She got hired by a big publishing house." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "She got bitten by a dog.",
+            answer: "Elle s'est fait mordre par un chien.",
+            explanation: "\"S'est fait mordre\": no -e on \"fait\", agent with \"par\".",
+          },
         ],
       },
       {
         heading: "Fait never agrees",
         body: [
           "This is the spelling trap of the unit. In \"se faire\" + infinitive, the participle \"fait\" is always invariable, whatever the subject: \"elle s'est fait voler\", \"elles se sont fait arrêter\", \"nous nous sommes fait avoir\". Writing *\"elle s'est faite voler\" is one of the most frequent mistakes even among native speakers, and examiners notice it.",
-          "Why? Because the real object belongs to the infinitive, not to \"faire\". The same rule as at the Upper-intermediate level (\"la voiture que j'ai fait réparer\"). Contrast with \"se faire\" + adjective, where \"faite\" agrees normally: \"elle s'est faite belle\" (she made herself beautiful).",
-          "Also note the possessive: French says \"il s'est fait voler son portefeuille\" with the object after the infinitive. You can also say \"on lui a volé son portefeuille\". Both are natural.",
         ],
         examples: [
           { es: "Elle s'est fait voler son téléphone dans le bus.", en: "She had her phone stolen on the bus." },
           { es: "Elles se sont fait arrêter à la frontière.", en: "They got stopped at the border." },
-          { es: "Nous nous sommes fait surprendre par l'orage.", en: "We got caught in the storm." },
-          { es: "Elle s'est faite belle pour la soirée.", en: "She got dressed up for the party." },
           { es: "Les deux joueuses se sont fait expulser à la mi-temps.", en: "The two players got sent off at half-time." },
-          { es: "Ma grand-mère s'est fait opérer de la hanche.", en: "My grandmother had a hip operation." },
         ],
         checkpoint: [
           {
@@ -1736,36 +2530,83 @@ export const FR_C1_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Mes cousines se sont faites cambrioler l'été dernier.",
+            answer: "Mes cousines se sont fait cambrioler l'été dernier.",
+            explanation: "In \"se faire\" + infinitive, \"fait\" is always invariable, even with a feminine plural subject: \"se sont fait cambrioler\".",
+          },
+        ],
+      },
+      {
+        heading: "Why: the object belongs to the infinitive",
+        body: [
+          "Why? Because the real object belongs to the infinitive, not to \"faire\". The same rule as at the Upper-intermediate level (\"la voiture que j'ai fait réparer\"). Contrast with \"se faire\" + adjective, where \"faite\" agrees normally: \"elle s'est faite belle\" (she made herself beautiful).",
+        ],
+        examples: [
+          { es: "Nous nous sommes fait surprendre par l'orage.", en: "We got caught in the storm." },
+          { es: "Elle s'est faite belle pour la soirée.", en: "She got dressed up for the party." },
+          { es: "Ma grand-mère s'est fait opérer de la hanche.", en: "My grandmother had a hip operation." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Complete: Pour le mariage, elle s'est ___ très élégante.",
+            options: ["fait", "faites", "faite", "faire"],
+            correctIndex: 2,
+            explanation: "Here \"se faire\" is followed by an adjective, not an infinitive, so the participle agrees normally: \"elle s'est faite élégante\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
             prompt: "Translate into French.",
             source: "They (women) got caught in the rain.",
             answer: "Elles se sont fait surprendre par la pluie.",
             altAnswers: ["Elles se sont fait prendre par la pluie.", "Elles se sont fait saucer.", "Elles se sont fait tremper."],
             explanation: "\"Se sont fait\" + infinitive: no agreement on \"fait\", even with \"elles\".",
           },
+        ],
+      },
+      {
+        heading: "Il s'est fait voler son portefeuille, on lui a volé",
+        body: [
+          "Also note the possessive: French says \"il s'est fait voler son portefeuille\" with the object after the infinitive. You can also say \"on lui a volé son portefeuille\". Both are natural.",
+        ],
+        examples: [
+          { es: "Il s'est fait voler son portefeuille au marché.", en: "He had his wallet stolen at the market." },
+          { es: "On lui a volé son portefeuille au marché.", en: "Someone stole his wallet at the market." },
+          { es: "Nous nous sommes fait rayer la voiture.", en: "We had our car scratched." },
+        ],
+        checkpoint: [
           {
-            type: "speak",
-            text: "Elle s'est fait voler son téléphone dans le bus.",
-            prompt: "Say it in French: She had her phone stolen on the bus.",
-            explanation: "\"S'est fait voler\": the sound is the same whatever the gender, but the spelling never takes -e.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to a sentence with \"se faire\".",
+            source: "On lui a volé son ordinateur portable.",
+            answer: "Il s'est fait voler son ordinateur portable.",
+            altAnswers: ["Elle s'est fait voler son ordinateur portable."],
+            explanation: "The indirect object \"lui\" becomes the subject of \"se faire voler\", and the stolen object follows the infinitive with a possessive.",
           },
         ],
       },
       {
-        heading: "Se voir + infinitive: granted, refused, awarded",
+        heading: "Se voir + infinitive: granted, refused",
         body: [
           "\"Se voir\" + infinitive is a formal, journalistic passive used mostly with verbs of giving, refusing and imposing: \"il s'est vu refuser l'entrée\" (he was refused entry), \"elle s'est vu décerner le prix\" (she was awarded the prize), \"ils se sont vu imposer une amende\" (they were fined).",
-          "Its great advantage: it lets an indirect object become the subject. 'He was refused entry' can't be *\"il a été refusé l'entrée\", because it's \"refuser quelque chose à quelqu'un\". \"Se voir refuser\" solves it in one move, just like \"se voir offrir\", \"se voir confier\", \"se voir attribuer\", \"se voir retirer\" (to have something taken away).",
-          "Agreement: with \"se voir\" + infinitive, \"vu\" stays invariable when the subject is the indirect object (\"elle s'est vu refuser\"). You'll see variation in the press; invariable is the safe choice. \"Se voir\" + adjective or participle also exists: \"il s'est vu contraint de démissionner\" (he found himself forced to resign), and there \"vu\" and \"contraint\" agree: \"elle s'est vue contrainte\".",
         ],
         examples: [
           { es: "Il s'est vu refuser l'entrée de la boîte de nuit.", en: "He was refused entry to the nightclub." },
           { es: "Elle s'est vu décerner le prix Goncourt.", en: "She was awarded the Prix Goncourt." },
           { es: "L'entreprise s'est vu imposer une lourde amende.", en: "The company was given a heavy fine." },
-          { es: "Le chauffeur s'est vu retirer son permis.", en: "The driver had his licence taken away." },
-          { es: "Notre équipe s'est vu confier un projet passionnant.", en: "Our team was entrusted with a fascinating project." },
-          { es: "La ministre s'est vue contrainte de démissionner.", en: "The minister found herself forced to resign." },
         ],
         checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "La joueuse s'est vu retirer sa médaille.",
+            question: "What does it mean?",
+            options: ["The player had her medal taken away.", "The player saw her medal being taken.", "The player got her medal back.", "The player took her medal off."],
+            correctIndex: 0,
+            explanation: "\"Se voir retirer\" = to have something taken away: the player is the one who loses the medal.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1775,13 +2616,61 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["Elle s'est vu refuser son visa.", "Elle s'est vu refuser le visa."],
             explanation: "\"Refuser quelque chose à quelqu'un\": no ordinary passive is possible, so \"se voir refuser\". \"Vu\" stays invariable.",
           },
+        ],
+      },
+      {
+        heading: "Why se voir: the indirect object becomes subject",
+        body: [
+          "Its great advantage: it lets an indirect object become the subject. 'He was refused entry' can't be *\"il a été refusé l'entrée\", because it's \"refuser quelque chose à quelqu'un\". \"Se voir refuser\" solves it in one move, just like \"se voir offrir\", \"se voir confier\", \"se voir attribuer\", \"se voir retirer\" (to have something taken away).",
+        ],
+        examples: [
+          { es: "Le chauffeur s'est vu retirer son permis.", en: "The driver had his licence taken away." },
+          { es: "Notre équipe s'est vu confier un projet passionnant.", en: "Our team was entrusted with a fascinating project." },
+          { es: "Les habitants se sont vu proposer un relogement.", en: "The residents were offered rehousing." },
+        ],
+        checkpoint: [
           {
-            type: "listen-choose",
-            audio: "Le chauffeur s'est vu retirer son permis.",
-            question: "What does it mean?",
-            options: ["The driver had his licence taken away.", "The driver saw his licence being taken.", "The driver got his licence back.", "The driver took his licence out."],
+            type: "multiple-choice",
+            question: "Which sentence means 'She was entrusted with the file'?",
+            options: ["Elle s'est vu confier le dossier.", "Elle a été confiée le dossier.", "Elle s'est faite confier le dossier.", "On l'a confiée le dossier."],
             correctIndex: 0,
-            explanation: "\"Se voir retirer\" = to have something taken away (officially); nobody 'sees' anything.",
+            explanation: "\"Confier quelque chose à quelqu'un\": the person can only become the subject with \"se voir confier\" (or use \"on lui a confié\").",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il a été refusé un prêt par la banque.",
+            answer: "Il s'est vu refuser un prêt par la banque.",
+            altAnswers: ["La banque lui a refusé un prêt."],
+            explanation: "\"Refuser quelque chose à quelqu'un\": the person is an indirect object, so no ordinary passive. \"Se voir refuser\" lets him be the subject.",
+          },
+        ],
+      },
+      {
+        heading: "Vu stays invariable; vue contrainte agrees",
+        body: [
+          "Agreement: with \"se voir\" + infinitive, \"vu\" stays invariable when the subject is the indirect object (\"elle s'est vu refuser\"). You'll see variation in the press; invariable is the safe choice. \"Se voir\" + adjective or participle also exists: \"il s'est vu contraint de démissionner\" (he found himself forced to resign), and there \"vu\" and \"contraint\" agree: \"elle s'est vue contrainte\".",
+        ],
+        examples: [
+          { es: "La ministre s'est vue contrainte de démissionner.", en: "The minister found herself forced to resign." },
+          { es: "Elle s'est vu offrir un poste à Bruxelles.", en: "She was offered a job in Brussels." },
+          { es: "Les deux sœurs se sont vues obligées de vendre la maison.", en: "The two sisters found themselves forced to sell the house." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Complete: La présidente s'est ___ attribuer une prime.",
+            options: ["vue", "vus", "faite", "vu"],
+            correctIndex: 3,
+            explanation: "Before an infinitive, with the subject as the indirect object (the bonus is given to her), \"vu\" stays invariable: \"s'est vu attribuer\".",
+          },
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: The mayor found himself forced to resign.",
+            words: ["Le maire", "s'est vu", "contraint", "de démissionner."],
+            translation: "The mayor found himself forced to resign.",
+            explanation: "\"Se voir contraint de\" + infinitive: forced by circumstances.",
           },
         ],
       },
@@ -1800,34 +2689,10 @@ export const FR_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "She got bitten by a dog.",
-        answer: "Elle s'est fait mordre par un chien.",
-        explanation: "\"S'est fait mordre\": no -e on \"fait\", agent with \"par\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
         source: "The club was given a two-match ban.",
         answer: "Le club s'est vu infliger une suspension de deux matchs.",
         altAnswers: ["Le club s'est vu imposer une suspension de deux matchs.", "Le club s'est vu infliger deux matchs de suspension.", "Le club s'est vu imposer deux matchs de suspension."],
         explanation: "\"Se voir infliger / imposer\": the press passive for sanctions.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "We [got caught] by the ticket inspector.",
-        sentence: "Nous ___ par le contrôleur.",
-        answer: "nous sommes fait prendre",
-        altAnswers: ["nous sommes fait attraper", "nous sommes fait choper"],
-        explanation: "\"Se faire prendre / attraper\" = to get caught; \"fait\" stays invariable.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence means 'She was entrusted with the file'?",
-        options: ["Elle s'est vu confier le dossier.", "Elle a été confiée le dossier.", "Elle s'est faite confier le dossier.", "On l'a confiée le dossier."],
-        correctIndex: 0,
-        explanation: "\"Confier quelque chose à quelqu'un\": the person can only become the subject with \"se voir confier\" (or use \"on lui a confié\").",
       },
       {
         type: "translate",
@@ -1847,22 +2712,15 @@ export const FR_C1_U05: Lesson[] = [
         explanation: "\"Se faire opérer de\" + body part: here an arranged procedure.",
       },
       {
-        type: "word-order",
-        prompt: "Put the words in order to say: The minister found himself forced to resign.",
-        words: ["Le ministre", "s'est vu", "contraint", "de démissionner."],
-        translation: "The minister found himself forced to resign.",
-        explanation: "\"Se voir contraint de\" + infinitive: forced by circumstances.",
-      },
-      {
         type: "dictation",
-        audio: "Elles se sont fait arrêter à la frontière.",
+        audio: "Elles se sont fait contrôler à l'entrée du stade.",
         explanation: "\"Se sont fait arrêter\": no agreement on \"fait\" + infinitive.",
       },
       {
         type: "speak",
-        text: "Il s'est vu refuser l'entrée de la boîte de nuit.",
-        prompt: "Say it in French: He was refused entry to the nightclub.",
-        explanation: "\"Se voir refuser\" makes the person refused the subject.",
+        text: "Les supporters se sont vu interdire l'accès au stade.",
+        prompt: "Say it in French: The fans were banned from the stadium.",
+        explanation: "\"Se voir interdire quelque chose\": the fans are the indirect object of \"interdire\", so \"se voir\" makes them the subject; \"vu\" stays invariable.",
       },
       {
         type: "listen-choose",
@@ -1872,6 +2730,20 @@ export const FR_C1_U05: Lesson[] = [
         correctIndex: 0,
         explanation: "\"Se faire avoir\" = to get tricked.",
       },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Make it feminine plural.",
+        source: "Il s'est fait renvoyer du lycée.",
+        answer: "Elles se sont fait renvoyer du lycée.",
+        explanation: "Only the pronoun and \"être\" change: \"elles se sont fait renvoyer\". \"Fait\" before an infinitive never agrees.",
+      },
+      {
+        type: "speak",
+        text: "Mon voisin s'est fait voler sa trottinette.",
+        prompt: "Say it in French: My neighbour had his scooter stolen.",
+        explanation: "\"Se faire voler\" + the stolen object after the infinitive, with a possessive.",
+      },
     ],
   },
   {
@@ -1880,33 +2752,56 @@ export const FR_C1_U05: Lesson[] = [
     number: 10,
     title: "Passive and Impersonal Constructions, Part 6 of 6",
     summary: "The pronominal passive for norms and habits (ça ne se fait pas, ce vin se boit frais), on vs les gens vs nous, and the written l'on.",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
-        heading: "Ça ne se fait pas: the pronominal passive",
+        heading: "Ce vin se boit frais: a pronominal passive",
         body: [
           "A pronominal verb with a thing as subject can work as a passive: \"ce vin se boit frais\" (this wine is drunk chilled), \"ce livre se lit en une soirée\" (this book can be read in an evening), \"ces pulls se lavent à la main\". The agent is never expressed: it's 'people in general'.",
-          "This is how French states social norms and usage: \"ça ne se fait pas\" (that's not done), \"ça ne se dit pas\" (you don't say that), \"ça se mange avec les doigts\", \"ce mot s'écrit avec deux r\", \"ça se prononce comment ?\". In each case, English uses 'you', 'one' or a passive.",
-          "The pronominal passive works best for general truths, habits and properties, usually in the present. For a single dated event, prefer a real passive or \"on\": \"son album s'est vendu à un million d'exemplaires\" is fine (many repeated sales), but \"la maison s'est vendue hier\" sounds odd to many ears (say \"a été vendue\"). Spoken French does stretch it: \"ça s'est fait en deux jours\".",
         ],
         examples: [
           { es: "Ce vin se boit frais, à huit ou dix degrés.", en: "This wine is served chilled, at eight to ten degrees." },
+          { es: "Ce roman se lit d'une traite.", en: "This novel can be read in one sitting." },
+          { es: "Les asperges se mangent avec les doigts.", en: "Asparagus is eaten with your fingers." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does \"Ce tissu se repasse facilement\" mean?",
+            options: ["This fabric is easy to iron.", "This fabric irons itself.", "This fabric was ironed quickly.", "Someone is ironing this fabric."],
+            correctIndex: 0,
+            explanation: "A pronominal verb with a thing as subject works as a passive stating a property: \"se repasse facilement\" = is easily ironed, by anyone.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "This cheese is eaten with a spoon.",
+            answer: "Ce fromage se mange à la cuillère.",
+            altAnswers: ["Ce fromage se mange avec une cuillère.", "Ce fromage se mange à la cuiller."],
+            explanation: "The pronominal passive for a habit of use: \"se mange\".",
+          },
+        ],
+      },
+      {
+        heading: "Ça ne se fait pas: stating norms",
+        body: [
+          "This is how French states social norms and usage: \"ça ne se fait pas\" (that's not done), \"ça ne se dit pas\" (you don't say that), \"ça se mange avec les doigts\", \"ce mot s'écrit avec deux r\", \"ça se prononce comment ?\". In each case, English uses 'you', 'one' or a passive.",
+        ],
+        examples: [
           { es: "Ça ne se fait pas d'arriver les mains vides.", en: "It's not done to arrive empty-handed." },
           { es: "Ce mot s'écrit avec deux r.", en: "This word is spelled with two r's." },
           { es: "Ça se prononce comment, ce nom ?", en: "How do you pronounce that name?" },
-          { es: "Ce roman se lit d'une traite.", en: "This novel can be read in one sitting." },
-          { es: "Son premier album s'est vendu à un million d'exemplaires.", en: "Her first album sold a million copies." },
-          { es: "Les asperges se mangent avec les doigts.", en: "Asparagus is eaten with your fingers." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "That's just not done.",
-            answer: "Ça ne se fait pas.",
-            altAnswers: ["Cela ne se fait pas.", "Ça se fait pas."],
-            explanation: "The pronominal passive states a social norm: \"ça ne se fait pas\".",
+            source: "It's not done to phone after ten pm.",
+            answer: "Ça ne se fait pas d'appeler après vingt-deux heures.",
+            altAnswers: ["Ça ne se fait pas d'appeler après 22 h.", "Ça ne se fait pas d'appeler après dix heures du soir.", "Ça ne se fait pas de téléphoner après vingt-deux heures.", "Ça ne se fait pas de téléphoner après 22 h."],
+            explanation: "A social norm is stated with the pronominal passive \"ça ne se fait pas\" + \"de\" + infinitive.",
           },
           {
             type: "fill-blank",
@@ -1919,21 +2814,43 @@ export const FR_C1_U05: Lesson[] = [
         ],
       },
       {
-        heading: "On, les gens, nous",
+        heading: "General truths, not one dated event",
+        body: [
+          "The pronominal passive works best for general truths, habits and properties, usually in the present. For a single dated event, prefer a real passive or \"on\": \"son album s'est vendu à un million d'exemplaires\" is fine (many repeated sales), but \"la maison s'est vendue hier\" sounds odd to many ears (say \"a été vendue\"). Spoken French does stretch it: \"ça s'est fait en deux jours\".",
+        ],
+        examples: [
+          { es: "Son premier album s'est vendu à un million d'exemplaires.", en: "Her first album sold a million copies." },
+          { es: "Ce genre d'appartement se loue très vite.", en: "This kind of flat rents out very quickly." },
+          { es: "Le contrat a été signé hier soir.", en: "The contract was signed last night." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is the safest way to say: The painting was sold yesterday at auction.",
+            options: ["Le tableau s'est vendu hier aux enchères.", "Le tableau se vend hier aux enchères.", "Le tableau a été vendu hier aux enchères.", "Le tableau se vendait hier aux enchères."],
+            correctIndex: 2,
+            explanation: "For a single dated event, prefer the real passive \"a été vendu\". The pronominal passive suits habits and general truths; \"s'est vendu hier\" sounds odd to many ears.",
+          },
+        ],
+      },
+      {
+        heading: "On: three lives",
         body: [
           "\"On\" has three lives. As a general subject it means 'people', 'you', 'one': \"en France, on dîne vers 20 h\". As an unspecified agent it means 'someone', 'they': \"on a sonné\" (someone rang the bell). And in speech it replaces \"nous\": \"on part demain\".",
-          "In formal writing, choose deliberately. For a general statement, \"on\" is perfectly correct and elegant. \"Les gens\" sounds more spoken and slightly distanced ('people', not including me). \"Nous\" includes the writer and the reader explicitly (\"nous savons tous que...\"), typical of essays and speeches.",
-          "Agreement with \"on\": the verb is always 3rd person singular. When \"on\" clearly means a group or a woman, adjectives and participles can agree in meaning: \"on est arrivés en retard\" (we, plural), \"on est contentes\" (a group of women). This is accepted in modern usage.",
         ],
         examples: [
           { es: "En France, on dîne rarement avant vingt heures.", en: "In France, people rarely have dinner before 8 pm." },
           { es: "On a sonné, tu peux aller ouvrir ?", en: "Someone rang the doorbell, can you get it?" },
-          { es: "Les gens ne lisent plus les modes d'emploi.", en: "People don't read instructions anymore." },
-          { es: "Nous savons tous que la situation est difficile.", en: "We all know the situation is difficult." },
-          { es: "On est arrivés en retard à cause des bouchons.", en: "We arrived late because of the traffic jams." },
           { es: "On ne sait jamais ce qui peut arriver.", en: "You never know what might happen." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "In \"On m'a volé mon vélo\", what does \"on\" mean?",
+            options: ["we", "someone, an unknown person", "people in general", "I"],
+            correctIndex: 1,
+            explanation: "\"On\" as an unspecified agent means 'someone': nobody knows who stole the bike.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1943,6 +2860,19 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["Quelqu'un a frappé à la porte."],
             explanation: "\"On\" as an unspecified agent: someone.",
           },
+        ],
+      },
+      {
+        heading: "Formal writing: on, les gens or nous",
+        body: [
+          "In formal writing, choose deliberately. For a general statement, \"on\" is perfectly correct and elegant. \"Les gens\" sounds more spoken and slightly distanced ('people', not including me). \"Nous\" includes the writer and the reader explicitly (\"nous savons tous que...\"), typical of essays and speeches.",
+        ],
+        examples: [
+          { es: "Les gens ne lisent plus les modes d'emploi.", en: "People don't read instructions anymore." },
+          { es: "Nous savons tous que la situation est difficile.", en: "We all know the situation is difficult." },
+          { es: "On admet aujourd'hui que le climat se réchauffe.", en: "It is now accepted that the climate is warming." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "In a formal essay, which opening sounds best?",
@@ -1950,21 +2880,47 @@ export const FR_C1_U05: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Nous\" including writer and reader suits an essay. \"Les gens\" and the dislocated or \"quoi\" versions are spoken.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change \"les gens\" to \"on\".",
+            source: "Les gens disent souvent que Paris est hors de prix.",
+            answer: "On dit souvent que Paris est hors de prix.",
+            explanation: "\"On\" is the correct, neutral general subject in writing; the verb is always 3rd person singular: \"on dit\".",
+          },
+        ],
+      },
+      {
+        heading: "Agreement with on",
+        body: [
+          "Agreement with \"on\": the verb is always 3rd person singular. When \"on\" clearly means a group or a woman, adjectives and participles can agree in meaning: \"on est arrivés en retard\" (we, plural), \"on est contentes\" (a group of women). This is accepted in modern usage.",
+        ],
+        examples: [
+          { es: "On est arrivés en retard à cause des bouchons.", en: "We arrived late because of the traffic jams." },
+          { es: "Ma sœur et moi, on est nées à Lille.", en: "My sister and I were born in Lille." },
+          { es: "On est tous fatigués après ce voyage.", en: "We're all tired after this trip." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Mon mari et moi, on sommes partis tôt.",
+            answer: "Mon mari et moi, on est partis tôt.",
+            altAnswers: ["Mon mari et moi, nous sommes partis tôt."],
+            explanation: "With \"on\" the verb is always 3rd person singular (\"on est\"), even when it means 'we'; only the participle may agree in meaning (\"partis\").",
+          },
         ],
       },
       {
         heading: "L'on: a written courtesy",
         body: [
           "In careful writing, \"on\" sometimes becomes \"l'on\". The \"l'\" is a historical article (\"on\" comes from the Latin for 'man') and adds no meaning. It is used for sound, to avoid a hiatus or an awkward sequence, mainly after \"et\", \"ou\", \"où\", \"si\", \"que\": \"si l'on veut\", \"où l'on trouve\", \"et l'on sait que\".",
-          "After \"que\", \"l'on\" avoids \"qu'on\", which some writers find unattractive: \"il faut que l'on parte\". But never use \"l'on\" before a word starting with l: \"si on le savait\", not *\"si l'on le savait\" (too many l's).",
-          "In speech, \"l'on\" sounds formal or even pompous. Recognise it; use it in essays and formal letters if you like, but you never need it.",
         ],
         examples: [
           { es: "Si l'on veut réussir, il faut travailler régulièrement.", en: "If you want to succeed, you have to work regularly." },
           { es: "C'est une région où l'on parle encore occitan.", en: "It's a region where people still speak Occitan." },
           { es: "Et l'on sait combien ces réformes sont impopulaires.", en: "And we know how unpopular these reforms are." },
-          { es: "Il faut que l'on trouve une solution rapidement.", en: "We need to find a solution quickly." },
-          { es: "Si on le lui demande, il acceptera.", en: "If we ask him, he'll accept." },
         ],
         checkpoint: [
           {
@@ -1977,25 +2933,45 @@ export const FR_C1_U05: Lesson[] = [
             explanation: "After \"où\", formal writing often uses \"l'on\"; plain \"on\" is also correct.",
           },
           {
-            type: "speak",
-            text: "Si l'on veut réussir, il faut travailler régulièrement.",
-            prompt: "Say it in French (formal written style): If you want to succeed, you have to work regularly.",
-            tip: "Say \"si l'on\" as one smooth unit: si-lon.",
-            explanation: "\"L'on\" after \"si\" avoids the hiatus of \"si on\".",
+            type: "word-order",
+            prompt: "Put the words in order to say: It's a village where people still grow vines.",
+            words: ["C'est", "un village", "où l'on", "cultive encore", "la vigne."],
+            translation: "It's a village where people still grow vines.",
+            explanation: "\"Où l'on\": the written \"l'on\" after \"où\".",
+          },
+        ],
+      },
+      {
+        heading: "Not before l; formal in speech",
+        body: [
+          "After \"que\", \"l'on\" avoids \"qu'on\", which some writers find unattractive: \"il faut que l'on parte\". But never use \"l'on\" before a word starting with l: \"si on le savait\", not *\"si l'on le savait\" (too many l's).",
+          "In speech, \"l'on\" sounds formal or even pompous. Recognise it; use it in essays and formal letters if you like, but you never need it.",
+        ],
+        examples: [
+          { es: "Il faut que l'on trouve une solution rapidement.", en: "We need to find a solution quickly." },
+          { es: "Si on le lui demande, il acceptera.", en: "If we ask him, he'll accept." },
+          { es: "Il est indispensable que l'on puisse vérifier ces chiffres.", en: "It is essential that we be able to check these figures." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is NOT good French?",
+            options: ["Si l'on le savait, on partirait.", "Si l'on veut, on peut.", "C'est un pays où l'on vit bien.", "Il faut que l'on se parle."],
+            correctIndex: 0,
+            explanation: "\"L'on\" is avoided before a word beginning with l: \"si on le savait\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Si l'on le prévient trop tard, il sera furieux.",
+            answer: "Si on le prévient trop tard, il sera furieux.",
+            explanation: "Never \"l'on\" before a word starting with l: \"si on le prévient\", not \"si l'on le\" (too many l's).",
           },
         ],
       },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "This cheese is eaten with a spoon.",
-        answer: "Ce fromage se mange à la cuillère.",
-        altAnswers: ["Ce fromage se mange avec une cuillère.", "Ce fromage se mange à la cuiller."],
-        explanation: "The pronominal passive for a habit of use: \"se mange\".",
-      },
       {
         type: "translate",
         direction: "en-es",
@@ -2024,13 +3000,6 @@ export const FR_C1_U05: Lesson[] = [
         explanation: "English 'reads like' is exactly the French pronominal passive \"se lit comme\".",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is NOT good French?",
-        options: ["Si l'on le savait, on partirait.", "Si l'on veut, on peut.", "C'est un pays où l'on vit bien.", "Il faut que l'on se parle."],
-        correctIndex: 0,
-        explanation: "\"L'on\" is avoided before a word beginning with l: \"si on le savait\".",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -2049,13 +3018,6 @@ export const FR_C1_U05: Lesson[] = [
         explanation: "Care instructions use the pronominal passive: \"se lavent à 30 degrés\".",
       },
       {
-        type: "word-order",
-        prompt: "Put the words in order to say: It's a region where people still speak Breton.",
-        words: ["C'est", "une région", "où l'on", "parle encore", "breton."],
-        translation: "It's a region where people still speak Breton.",
-        explanation: "\"Où l'on\": the written \"l'on\" after \"où\".",
-      },
-      {
         type: "listen-choose",
         audio: "Ça ne se fait pas d'arriver les mains vides.",
         question: "What does it mean?",
@@ -2070,9 +3032,23 @@ export const FR_C1_U05: Lesson[] = [
       },
       {
         type: "speak",
-        text: "En France, on dîne rarement avant vingt heures.",
-        prompt: "Say it in French: In France, people rarely have dinner before 8 pm.",
-        explanation: "General \"on\": people, you.",
+        text: "C'est un quartier où l'on se sent en sécurité.",
+        prompt: "Say it in French: It's a neighbourhood where people feel safe.",
+        explanation: "Written \"l'on\" after \"où\" avoids the hiatus \"où on\"; it adds no meaning.",
+      },
+      {
+        type: "speak",
+        text: "En Espagne, on dîne souvent après vingt-deux heures.",
+        prompt: "Say it in French: In Spain, people often have dinner after 10 pm.",
+        explanation: "General \"on\" = people, with a 3rd person singular verb.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn it into a pronominal passive.",
+        source: "On boit ce thé sans sucre.",
+        answer: "Ce thé se boit sans sucre.",
+        explanation: "The thing becomes the subject of a pronominal verb, and the general agent disappears: \"ce thé se boit\".",
       },
     ],
   },
@@ -2082,23 +3058,55 @@ export const FR_C1_U05: Lesson[] = [
     number: 11,
     title: "Contrast Clinic: On, Se, Être + Participle, Il",
     summary: "Four ways to leave out the agent, compared side by side so you can pick the most natural one for the register and the focus.",
-    duration: "17 min",
+    duration: "18 min",
     sections: [
       {
-        heading: "Same idea, different register",
+        heading: "Four candidates for one idea",
         body: [
           "'French is spoken in Quebec.' Four candidates: \"On parle français au Québec\" (neutral, natural, the default), \"Le français se parle au Québec\" (fine, a general fact, slightly bookish), \"Le français est parlé au Québec\" (correct, a bit heavy for a general truth), and impersonal \"il\": impossible here (*\"il est parlé français\"), because impersonal passives need verbs of saying or deciding, or an indefinite subject.",
-          "French writers rank them roughly like this. Speech: \"on\" first by far, then the pronominal verb, then the passive. Journalism: passive and pronominal, then \"on\". Administration: impersonal passive and passive. English, by contrast, uses the passive everywhere, so English speakers overuse \"être\" + participle. When in doubt in conversation, \"on\".",
         ],
         examples: [
           { es: "On parle français dans une grande partie de l'Afrique de l'Ouest.", en: "French is spoken across much of West Africa." },
           { es: "Le français se parle aussi en Louisiane.", en: "French is also spoken in Louisiana." },
           { es: "Le français est parlé par plus de 300 millions de personnes.", en: "French is spoken by more than 300 million people." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which version of 'More than 300 million people speak French' keeps the number as the agent in a passive?",
+            options: ["Le français est parlé par plus de 300 millions de personnes.", "Le français se parle par plus de 300 millions de personnes.", "On parle français par plus de 300 millions de personnes.", "Il est parlé français par plus de 300 millions de personnes."],
+            correctIndex: 0,
+            explanation: "Only the \"être\" passive can take an agent with \"par\". The pronominal passive and \"on\" never express the agent.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to a sentence with \"on\".",
+            source: "Le basque est parlé des deux côtés de la frontière.",
+            answer: "On parle basque des deux côtés de la frontière.",
+            altAnswers: ["On parle le basque des deux côtés de la frontière."],
+            explanation: "\"On\" + active verb is the neutral default for a general fact; the passive \"est parlé\" is correct but heavier.",
+          },
+        ],
+      },
+      {
+        heading: "Who uses which: speech, press, administration",
+        body: [
+          "French writers rank them roughly like this. Speech: \"on\" first by far, then the pronominal verb, then the passive. Journalism: passive and pronominal, then \"on\". Administration: impersonal passive and passive. English, by contrast, uses the passive everywhere, so English speakers overuse \"être\" + participle. When in doubt in conversation, \"on\".",
+        ],
+        examples: [
           { es: "On a retrouvé la voiture deux jours plus tard.", en: "The car was found two days later." },
           { es: "La voiture a été retrouvée deux jours plus tard dans un parking.", en: "The car was found two days later in a car park." },
           { es: "Il a été retrouvé une voiture calcinée près de l'autoroute.", en: "A burnt-out car was found near the motorway." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which version of 'My keys were found at the station' sounds most natural in conversation?",
+            options: ["Mes clés ont été retrouvées à la gare.", "Il a été retrouvé mes clés à la gare.", "On a retrouvé mes clés à la gare.", "Mes clés se sont retrouvées à la gare."],
+            correctIndex: 2,
+            explanation: "In speech \"on\" comes first by far. The passive is correct but heavy; impersonal \"il\" needs an indefinite subject, not \"mes clés\"; and \"se sont retrouvées\" means the keys ended up there.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2108,27 +3116,17 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["On a retrouvé le chien dans les bois.", "On a trouvé le chien dans la forêt."],
             explanation: "In speech, \"on\" is the default way to hide the agent.",
           },
-          {
-            type: "multiple-choice",
-            question: "Which version of 'More than 300 million people speak French' keeps the number as the agent in a passive?",
-            options: ["Le français est parlé par plus de 300 millions de personnes.", "Le français se parle par plus de 300 millions de personnes.", "On parle français par plus de 300 millions de personnes.", "Il est parlé français par plus de 300 millions de personnes."],
-            correctIndex: 0,
-            explanation: "Only the \"être\" passive can take an agent with \"par\". The pronominal passive and \"on\" never express the agent.",
-          },
         ],
       },
       {
-        heading: "Focus: what is the sentence about?",
+        heading: "Focus: the subject is the topic",
         body: [
           "The subject is the topic. If the topic is a person who suffers something, \"se faire\" puts them first: \"Karim s'est fait agresser\". If the topic is the thing, a passive or a pronominal verb: \"Le tableau a été restauré\". If there's no topic and you just announce an event, impersonal \"il\": \"Il a été découvert des traces d'amiante\". If the topic is 'people in general', \"on\".",
-          "One test: what would the next sentence talk about? 'My phone was stolen. It had all my photos on it.' → topic = phone → \"Mon téléphone a été volé. Il contenait toutes mes photos.\" 'I had my phone stolen. I was furious.' → topic = me → \"Je me suis fait voler mon téléphone. J'étais furieuse.\"",
         ],
         examples: [
           { es: "Karim s'est fait agresser en rentrant du travail.", en: "Karim was attacked on his way home from work." },
           { es: "Le tableau a été restauré ; il a retrouvé ses couleurs d'origine.", en: "The painting has been restored; it has its original colours back." },
           { es: "Il a été découvert des traces d'amiante dans le gymnase.", en: "Traces of asbestos have been found in the gym." },
-          { es: "Mon téléphone a été volé. Il contenait toutes mes photos.", en: "My phone was stolen. It had all my photos on it." },
-          { es: "Je me suis fait voler mon téléphone. J'étais furieuse.", en: "I had my phone stolen. I was furious." },
         ],
         checkpoint: [
           {
@@ -2152,16 +3150,71 @@ export const FR_C1_U05: Lesson[] = [
         ],
       },
       {
+        heading: "A test: what does the next sentence talk about?",
+        body: [
+          "One test: what would the next sentence talk about? 'My phone was stolen. It had all my photos on it.' → topic = phone → \"Mon téléphone a été volé. Il contenait toutes mes photos.\" 'I had my phone stolen. I was furious.' → topic = me → \"Je me suis fait voler mon téléphone. J'étais furieuse.\"",
+        ],
+        examples: [
+          { es: "Mon téléphone a été volé. Il contenait toutes mes photos.", en: "My phone was stolen. It had all my photos on it." },
+          { es: "Je me suis fait voler mon téléphone. J'étais furieuse.", en: "I had my phone stolen. I was furious." },
+          { es: "Le colis a été livré chez la voisine. Il était abîmé.", en: "The parcel was delivered to the neighbour's. It was damaged." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "The next sentence is « J'ai dû tout racheter. » Which first sentence fits best?",
+            options: ["Ma valise a été volée.", "On a volé une valise.", "Il a été volé une valise.", "Je me suis fait voler ma valise."],
+            correctIndex: 3,
+            explanation: "The next sentence is about me (\"j'ai dû\"), so the person should be the topic: \"je me suis fait voler ma valise\". The passive makes the suitcase the topic, and the other two lose the link to me.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it so the person is the topic.",
+            source: "Sa voiture a été rayée sur le parking.",
+            answer: "Il s'est fait rayer sa voiture sur le parking.",
+            altAnswers: ["Elle s'est fait rayer sa voiture sur le parking."],
+            explanation: "\"Se faire\" + infinitive puts the affected person first; \"fait\" stays invariable and the car follows the infinitive.",
+          },
+        ],
+      },
+      {
         heading: "Where each one is impossible",
         body: [
           "Each structure has limits. The \"être\" passive: only from a direct object (no *\"je suis donné un livre\"). The pronominal passive: no agent, and best for general or repeated facts. \"Se faire\": needs a subject who is affected, normally a person. Impersonal \"il\": needs an indefinite logical subject (\"il est arrivé un accident\", not *\"il est arrivé l'accident\") or a verb of saying, deciding, noting. \"On\": always human agents.",
-          "So 'The tree was struck by lightning' can't use \"on\" (lightning isn't a person): \"l'arbre a été frappé par la foudre\". 'Silence is required' can't use \"se faire\": \"le silence est exigé\" or \"il est demandé de faire silence\". Learning the limits is what makes your choices feel native.",
         ],
         examples: [
           { es: "L'arbre a été frappé par la foudre.", en: "The tree was struck by lightning." },
           { es: "Le silence est exigé pendant l'examen.", en: "Silence is required during the exam." },
-          { es: "Il est demandé de faire silence dans la salle de lecture.", en: "Please keep quiet in the reading room." },
           { es: "On lui a répondu que le dossier était complet.", en: "He was told that the file was complete." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "On leur a conseillé de porter plainte.",
+            question: "What does it mean?",
+            options: ["They were advised to file a complaint.", "They advised us to file a complaint.", "We advised them not to complain.", "They complained about the advice."],
+            correctIndex: 0,
+            explanation: "\"Conseiller à quelqu'un de\": 'they' is an indirect object, so no passive is possible; French uses \"on leur a conseillé\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "J'ai été donné un nouveau badge.",
+            answer: "On m'a donné un nouveau badge.",
+            altAnswers: ["On m'a remis un nouveau badge.", "Je me suis vu remettre un nouveau badge.", "Je me suis vu donner un nouveau badge."],
+            explanation: "The \"être\" passive only comes from a direct object. \"Donner quelque chose à quelqu'un\": I am the indirect object, so use \"on m'a donné\" (or \"je me suis vu remettre\").",
+          },
+        ],
+      },
+      {
+        heading: "Applying the limits",
+        body: [
+          "So 'The tree was struck by lightning' can't use \"on\" (lightning isn't a person): \"l'arbre a été frappé par la foudre\". 'Silence is required' can't use \"se faire\": \"le silence est exigé\" or \"il est demandé de faire silence\". Learning the limits is what makes your choices feel native.",
+        ],
+        examples: [
+          { es: "Il est demandé de faire silence dans la salle de lecture.", en: "Please keep quiet in the reading room." },
           { es: "Il est arrivé un accident grave sur l'A7.", en: "A serious accident happened on the A7." },
           { es: "L'accident est arrivé vers minuit.", en: "The accident happened around midnight." },
         ],
@@ -2176,12 +3229,20 @@ export const FR_C1_U05: Lesson[] = [
             explanation: "A non-human agent: only the \"être\" passive with \"par\" works; \"on\" is for people.",
           },
           {
-            type: "listen-choose",
-            audio: "On lui a répondu que le dossier était complet.",
-            question: "What does it mean?",
-            options: ["He was told the file was complete.", "He answered that the file was complete.", "We answered him that the file was incomplete.", "He replied to us about the complete file."],
+            type: "multiple-choice",
+            question: "Which sentence is impossible?",
+            options: ["Il a été arrivé un accident.", "Il est arrivé un accident.", "Un accident est arrivé.", "Un accident s'est produit."],
             correctIndex: 0,
-            explanation: "'He was told / answered' passivises an indirect object, so French uses \"on lui a répondu\".",
+            explanation: "\"Arriver\" is intransitive: it has no passive. The impersonal form is \"il est arrivé un accident\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il s'est produit la panne vers midi.",
+            answer: "La panne s'est produite vers midi.",
+            altAnswers: ["Il s'est produit une panne vers midi."],
+            explanation: "Impersonal \"il\" needs an indefinite logical subject: with the definite \"la panne\", make it the real subject (\"la panne s'est produite\").",
           },
         ],
       },
@@ -2224,13 +3285,6 @@ export const FR_C1_U05: Lesson[] = [
         explanation: "Official style favours the impersonal \"il a été constaté\" (participle invariable) or the passive \"ont été constatées\".",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is impossible?",
-        options: ["Il a été arrivé un accident.", "Il est arrivé un accident.", "Un accident est arrivé.", "Un accident s'est produit."],
-        correctIndex: 0,
-        explanation: "\"Arriver\" is intransitive: it has no passive. The impersonal form is \"il est arrivé un accident\".",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "Léa [got stopped] by the police for speeding.",
@@ -2262,9 +3316,17 @@ export const FR_C1_U05: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Le français est parlé par plus de trois cents millions de personnes.",
-        prompt: "Say it in French: French is spoken by more than 300 million people.",
-        explanation: "The \"être\" passive is needed when you name the agent.",
+        text: "Le portugais est parlé sur quatre continents.",
+        prompt: "Say it in French: Portuguese is spoken on four continents.",
+        explanation: "A general fact in a written or formal register: the \"être\" passive agreeing with \"le portugais\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Turn it into an impersonal sentence.",
+        source: "Une fuite de gaz a été signalée rue Pasteur.",
+        answer: "Il a été signalé une fuite de gaz rue Pasteur.",
+        explanation: "The administrative impersonal passive: \"il a été signalé\" + indefinite subject; \"signalé\" stays masculine singular.",
       },
     ],
   },
@@ -2274,24 +3336,26 @@ export const FR_C1_U05: Lesson[] = [
     number: 12,
     title: "Spiral Review: Impersonality and Formal Register",
     summary: "An official notice that mixes the passive, impersonal il, nominalization and the subjunctive after il faut que and il se peut que.",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
         heading: "Reading an official notice",
         body: [
           "Here is a notice from a university, the kind of text you'll meet in a DALF reading paper: \"Avis aux étudiants. Suite à la découverte d'une fuite dans la toiture, la bibliothèque universitaire sera fermée du 12 au 16 février. Il est rappelé que les ouvrages empruntés doivent être rendus dans les délais. Il se peut que certaines salles de lecture soient rouvertes avant la date prévue ; il convient donc de consulter régulièrement l'intranet.\"",
-          "Count the devices: a nominalisation for the cause (\"suite à la découverte d'une fuite\", Unit 3), a future passive (\"sera fermée\"), an impersonal passive (\"il est rappelé que\"), a passive infinitive after a modal (\"doivent être rendus\"), \"il se peut que\" + passive subjunctive (\"soient rouvertes\"), and \"il convient de\". Not a single human agent.",
-          "\"Suite à\" (following) is widely used in administrative French, though purists prefer \"à la suite de\". Both are fine in a notice.",
         ],
         examples: [
           { es: "Suite à la découverte d'une fuite, la bibliothèque sera fermée.", en: "Following the discovery of a leak, the library will be closed." },
           { es: "Les ouvrages empruntés doivent être rendus dans les délais.", en: "Borrowed books must be returned on time." },
-          { es: "Il se peut que certaines salles soient rouvertes plus tôt.", en: "Some rooms may reopen earlier." },
-          { es: "Il convient de consulter régulièrement l'intranet.", en: "Students should check the intranet regularly." },
           { es: "En raison de la fermeture, les examens seront décalés.", en: "Because of the closure, the exams will be rescheduled." },
-          { es: "Il faut que les dossiers soient déposés avant le 1er mars.", en: "Files must be submitted before 1 March." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "According to the notice, what should students do?",
+            options: ["Check the intranet regularly.", "Return their books before 12 February.", "Use another library until 16 February.", "Report any leak they see."],
+            correctIndex: 0,
+            explanation: "\"Il convient donc de consulter régulièrement l'intranet\": \"il convient de\" + infinitive is the formal 'you should'.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2301,6 +3365,20 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["Le matériel emprunté devra être rendu avant vendredi.", "Il faut que le matériel emprunté soit rendu avant vendredi."],
             explanation: "A passive infinitive after a modal: \"doit être rendu\".",
           },
+        ],
+      },
+      {
+        heading: "Count the devices",
+        body: [
+          "Count the devices: a nominalisation for the cause (\"suite à la découverte d'une fuite\", Unit 3), a future passive (\"sera fermée\"), an impersonal passive (\"il est rappelé que\"), a passive infinitive after a modal (\"doivent être rendus\"), \"il se peut que\" + passive subjunctive (\"soient rouvertes\"), and \"il convient de\". Not a single human agent.",
+          "\"Suite à\" (following) is widely used in administrative French, though purists prefer \"à la suite de\". Both are fine in a notice.",
+        ],
+        examples: [
+          { es: "Il se peut que certaines salles soient rouvertes plus tôt.", en: "Some rooms may reopen earlier." },
+          { es: "Il convient de consulter régulièrement l'intranet.", en: "Students should check the intranet regularly." },
+          { es: "Il faut que les dossiers soient déposés avant le 1er mars.", en: "Files must be submitted before 1 March." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -2310,21 +3388,26 @@ export const FR_C1_U05: Lesson[] = [
             altAnswers: ["soient décalés", "soient reportés"],
             explanation: "\"Il se peut que\" + present subjunctive passive: \"soient déplacés\".",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Les clés doivent rendues à l'accueil.",
+            answer: "Les clés doivent être rendues à l'accueil.",
+            explanation: "After a modal, the passive needs its infinitive \"être\": \"doivent être rendues\", agreeing with \"les clés\".",
+          },
         ],
       },
       {
         heading: "From verbs to nouns and back",
         body: [
           "Official French alternates between clauses and noun phrases. \"Parce que le chauffage est tombé en panne\" → \"en raison d'une panne de chauffage\". \"Avant que les travaux ne commencent\" → \"avant le début des travaux\". \"Pour que la sécurité des usagers soit garantie\" → \"pour garantir la sécurité des usagers\" or \"afin d'assurer la sécurité des usagers\".",
-          "The nominal version is shorter and more impersonal; the clause version is clearer and requires the subjunctive after \"avant que\", \"pour que\", \"bien que\". Skilful writers mix both so the text breathes.",
         ],
         examples: [
           { es: "En raison d'une panne de chauffage, les cours sont annulés.", en: "Because of a heating failure, classes are cancelled." },
           { es: "Parce que le chauffage est tombé en panne, les cours sont annulés.", en: "Because the heating has broken down, classes are cancelled." },
           { es: "Avant le début des travaux, le bâtiment sera évacué.", en: "Before work begins, the building will be evacuated." },
           { es: "Avant que les travaux ne commencent, le bâtiment sera évacué.", en: "Before the work starts, the building will be evacuated." },
-          { es: "Afin d'assurer la sécurité des usagers, l'accès sera filtré.", en: "To ensure users' safety, access will be controlled." },
-          { es: "Bien que la panne ait été réparée, le bâtiment reste fermé.", en: "Although the fault has been repaired, the building remains closed." },
         ],
         checkpoint: [
           {
@@ -2337,10 +3420,32 @@ export const FR_C1_U05: Lesson[] = [
             explanation: "\"En raison de\" + noun is the formal 'because of'; the passive \"a été reportée\" agrees with \"la réunion\".",
           },
           {
-            type: "speak",
-            text: "Bien que la panne ait été réparée, le bâtiment reste fermé.",
-            prompt: "Say it in French: Although the fault has been repaired, the building remains closed.",
-            explanation: "\"Bien que\" + past subjunctive passive \"ait été réparée\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn the clause into a noun phrase.",
+            source: "Avant que le concert ne commence, les portes seront fermées.",
+            answer: "Avant le début du concert, les portes seront fermées.",
+            explanation: "\"Avant que\" + subjunctive becomes \"avant\" + noun: \"avant le début du concert\". Shorter and more impersonal.",
+          },
+        ],
+      },
+      {
+        heading: "Clause or noun: let the text breathe",
+        body: [
+          "The nominal version is shorter and more impersonal; the clause version is clearer and requires the subjunctive after \"avant que\", \"pour que\", \"bien que\". Skilful writers mix both so the text breathes.",
+        ],
+        examples: [
+          { es: "Afin d'assurer la sécurité des usagers, l'accès sera filtré.", en: "To ensure users' safety, access will be controlled." },
+          { es: "Bien que la panne ait été réparée, le bâtiment reste fermé.", en: "Although the fault has been repaired, the building remains closed." },
+          { es: "Pour que les délais soient respectés, une équipe supplémentaire sera recrutée.", en: "So that deadlines are met, an extra team will be hired." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is grammatical?",
+            options: ["Bien que la salle ait été réservée, la réunion a lieu en ligne.", "Bien que la salle a été réservée, la réunion a lieu en ligne.", "Bien que la salle soit été réservée, la réunion a lieu en ligne.", "Bien que la salle ait été réservé, la réunion a lieu en ligne."],
+            correctIndex: 0,
+            explanation: "\"Bien que\" + past subjunctive passive: \"ait été réservée\", agreeing with \"la salle\".",
           },
         ],
       },
@@ -2348,15 +3453,11 @@ export const FR_C1_U05: Lesson[] = [
         heading: "Writing the notice",
         body: [
           "Now look at sentences for a residents' association notice about a lift that's out of order. They use \"il est demandé aux résidents de\", a future passive, \"il se peut que\" + subjunctive, a nominal cause (\"suite à\", \"faute de\") and \"il faut que\" + passive subjunctive.",
-          "Notice how the future perfect passive (\"aura été validée\") and the future passive (\"sera remplacé\") coexist easily once you treat \"être\" as the only verb that carries tense.",
         ],
         examples: [
           { es: "Suite à une panne, l'ascenseur du bâtiment B est à l'arrêt.", en: "Following a breakdown, the lift in building B is out of service." },
           { es: "Le moteur sera remplacé la semaine prochaine.", en: "The motor will be replaced next week." },
-          { es: "Il se peut que l'intervention soit retardée faute de pièces.", en: "The repair may be delayed because of a lack of parts." },
           { es: "Il est demandé aux résidents de ne pas forcer les portes.", en: "Residents are asked not to force the doors." },
-          { es: "Il faut que la facture soit validée par le syndic.", en: "The invoice has to be approved by the property manager." },
-          { es: "L'intervention ne pourra commencer qu'une fois que la commande aura été validée.", en: "The repair can only begin once the order has been approved." },
         ],
         checkpoint: [
           {
@@ -2370,11 +3471,39 @@ export const FR_C1_U05: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Il se peut que l'intervention soit retardée faute de pièces.",
+            audio: "Il se peut que la livraison soit retardée faute de personnel.",
             question: "What does it mean?",
-            options: ["The repair may be delayed for lack of parts.", "The repair was delayed because of faulty parts.", "The repair must be delayed until the parts arrive.", "The parts may be delivered late."],
+            options: ["The delivery may be delayed for lack of staff.", "The delivery was delayed because staff were ill.", "The delivery must wait until staff arrive.", "Staff may be delivered late."],
             correctIndex: 0,
-            explanation: "\"Il se peut que\" = may; \"faute de\" = for lack of.",
+            explanation: "\"Il se peut que\" + passive subjunctive \"soit retardée\"; \"faute de\" + noun = for lack of.",
+          },
+        ],
+      },
+      {
+        heading: "Être carries the tense",
+        body: [
+          "Notice how the future perfect passive (\"aura été validée\") and the future passive (\"sera remplacé\") coexist easily once you treat \"être\" as the only verb that carries tense.",
+        ],
+        examples: [
+          { es: "Il se peut que l'intervention soit retardée faute de pièces.", en: "The repair may be delayed because of a lack of parts." },
+          { es: "Il faut que la facture soit validée par le syndic.", en: "The invoice has to be approved by the property manager." },
+          { es: "L'intervention ne pourra commencer qu'une fois que la commande aura été validée.", en: "The repair can only begin once the order has been approved." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Complete: Une fois que les travaux ___, l'ascenseur sera remis en service.",
+            options: ["auront été terminés", "seront été terminés", "auront été terminées", "auront terminés"],
+            correctIndex: 0,
+            explanation: "Future perfect passive: \"auront été\" + participle agreeing with \"les travaux\" (masculine plural). \"Être\" has no compound with itself (\"seront été\").",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to the future perfect.",
+            source: "Le contrat sera signé avant lundi.",
+            answer: "Le contrat aura été signé avant lundi.",
+            explanation: "Only the \"être\" part changes tense: \"sera signé\" becomes \"aura été signé\".",
           },
         ],
       },
@@ -2419,18 +3548,10 @@ export const FR_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (official style).",
-        source: "It is possible that the deadline will be extended.",
+        prompt: "Correct the sentence.",
+        source: "Il se peut que la date limite sera prolongée.",
         answer: "Il se peut que la date limite soit prolongée.",
-        altAnswers: ["Il se peut que le délai soit prolongé.", "Il est possible que la date limite soit prolongée.", "Il est possible que le délai soit prolongé.", "Il se peut que la date limite soit repoussée.", "Il est possible que la date limite soit repoussée."],
-        explanation: "\"Il se peut que / il est possible que\" + passive subjunctive.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence is grammatical?",
-        options: ["Bien que la salle ait été réservée, la réunion a lieu en ligne.", "Bien que la salle a été réservée, la réunion a lieu en ligne.", "Bien que la salle soit été réservée, la réunion a lieu en ligne.", "Bien que la salle ait été réservé, la réunion a lieu en ligne."],
-        correctIndex: 0,
-        explanation: "\"Bien que\" + past subjunctive passive: \"ait été réservée\", agreeing with \"la salle\".",
+        explanation: "\"Il se peut que\" always takes the subjunctive: the passive subjunctive is \"soit prolongée\", not the future \"sera\".",
       },
       {
         type: "translate",
@@ -2455,9 +3576,9 @@ export const FR_C1_U05: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Suite à une panne, l'ascenseur du bâtiment B est à l'arrêt.",
-        prompt: "Say it in French: Following a breakdown, the lift in building B is out of service.",
-        explanation: "\"Suite à\" + noun for the cause; \"être à l'arrêt\" = out of service.",
+        text: "Suite à un dégât des eaux, la salle de sport est fermée.",
+        prompt: "Say it in French: Following water damage, the gym is closed.",
+        explanation: "A nominal cause with \"suite à\" + noun, then a state with \"est fermée\".",
       },
       {
         type: "translate",
@@ -2467,6 +3588,12 @@ export const FR_C1_U05: Lesson[] = [
         answer: "Il s'avère que la commande n'avait jamais été envoyée.",
         altAnswers: ["Il se trouve que la commande n'avait jamais été envoyée.", "Il s'avère que la commande n'avait jamais été transmise."],
         explanation: "\"Il s'avère que\" + indicative, then a negative pluperfect passive.",
+      },
+      {
+        type: "speak",
+        text: "Bien que le chauffage ait été réparé, les cours restent annulés.",
+        prompt: "Say it in French: Although the heating has been repaired, classes are still cancelled.",
+        explanation: "\"Bien que\" + past subjunctive passive \"ait été réparé\".",
       },
     ],
   },

@@ -25,21 +25,16 @@ export const FR_C1_U07: Lesson[] = [
     number: 1,
     title: "Prepositions: Professional Precision, Part 1 of 6",
     summary: "Time prepositions for deadlines and schedules: en trois jours vs dans trois jours, d'ici vendredi, à partir de / à compter du, jusqu'au, au plus tard le, dans un délai de and sous huitaine.",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
-        heading: "En trois jours or dans trois jours?",
+        heading: "En or dans + a duration",
         body: [
           "English 'in three days' is ambiguous: it can mean the time something takes, or a point three days from now. French splits it. \"En\" + duration = the time taken to do something: \"j'ai lu ce livre en trois jours\" (it took me three days). \"Dans\" + duration = a point in the future, counted from now: \"je pars dans trois jours\" (three days from now).",
-          "So \"le chantier sera terminé en six mois\" means the works will take six months; \"le chantier sera terminé dans six mois\" means it will be finished six months from today. In a contract, mixing them up changes the deadline.",
-          "\"Dans\" with the past is impossible in this sense: 'three days later' in a past story is \"trois jours plus tard\" or \"au bout de trois jours\" (after three days had passed).",
         ],
         examples: [
           { es: "Nous avons rénové l'appartement en deux mois.", en: "We renovated the flat in two months." },
           { es: "La livraison aura lieu dans dix jours.", en: "Delivery will take place in ten days' time." },
-          { es: "Le chantier sera terminé en six mois.", en: "The works will take six months to complete." },
-          { es: "Le chantier sera terminé dans six mois.", en: "The works will be finished six months from now." },
-          { es: "Au bout de trois jours, il a enfin répondu.", en: "After three days, he finally replied." },
           { es: "Elle a appris l'italien en un an.", en: "She learned Italian in a year." },
         ],
         checkpoint: [
@@ -63,19 +58,120 @@ export const FR_C1_U07: Lesson[] = [
         ],
       },
       {
-        heading: "Starting points and end points",
+        heading: "In a contract, it changes the deadline",
+        body: [
+          "So \"le chantier sera terminé en six mois\" means the works will take six months; \"le chantier sera terminé dans six mois\" means it will be finished six months from today. In a contract, mixing them up changes the deadline.",
+        ],
+        examples: [
+          { es: "Le chantier sera terminé en six mois.", en: "The works will take six months to complete." },
+          { es: "Le chantier sera terminé dans six mois.", en: "The works will be finished six months from now." },
+          { es: "Je vous rappelle dans une heure.", en: "I'll call you back in an hour." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A builder writes « Le toit sera refait dans un mois. » What is he promising?",
+            options: ["The roof will be redone one month from now.", "The work will take a month.", "The roof was redone a month ago.", "The roof will be redone every month."],
+            correctIndex: 0,
+            explanation: "\"Dans\" + duration counts from now to a point in the future. 'The work will take a month' would be \"en un mois\".",
+          },
+          {
+            type: "listen-choose",
+            audio: "Le chantier sera terminé en six mois.",
+            question: "What does it mean?",
+            options: ["The works will take six months.", "The works will be finished six months from now.", "The works finished six months ago.", "The works have lasted six months so far."],
+            correctIndex: 0,
+            explanation: "\"En\" + duration = time taken.",
+          },
+        ],
+      },
+      {
+        heading: "Three days later, in a past story",
+        body: [
+          "\"Dans\" with the past is impossible in this sense: 'three days later' in a past story is \"trois jours plus tard\" or \"au bout de trois jours\" (after three days had passed).",
+        ],
+        examples: [
+          { es: "Au bout de trois jours, il a enfin répondu.", en: "After three days, he finally replied." },
+          { es: "Trois jours plus tard, le colis est arrivé.", en: "Three days later, the parcel arrived." },
+          { es: "Au bout d'une semaine, elle a trouvé un travail.", en: "After a week, she found a job." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il est parti en mars et il est revenu dans deux semaines.",
+            answer: "Il est parti en mars et il est revenu deux semaines plus tard.",
+            altAnswers: ["Il est parti en mars et il est revenu au bout de deux semaines."],
+            explanation: "\"Dans\" + duration only points forward from now. In a past story, 'two weeks later' is \"deux semaines plus tard\" or \"au bout de deux semaines\".",
+          },
+        ],
+      },
+      {
+        heading: "From: à partir de, à compter de, dès",
         body: [
           "From: \"à partir de\" is the everyday choice (\"à partir de lundi\", \"à partir du 1er mars\"). \"À compter de\" is the contract and administrative equivalent: \"le présent contrat prend effet à compter du 1er mars\". \"Dès\" means 'from... onwards' with an idea of 'as early as': \"dès demain\", \"dès 8 heures\".",
-          "Until: \"jusqu'à\" (\"jusqu'au 30 juin\", \"jusqu'à vendredi\"). Note the contraction \"jusqu'au\". For the latest acceptable date: \"au plus tard le 15 mars\" (no later than 15 March), and \"au plus tôt\" for the earliest.",
-          "By: \"d'ici\" + date or duration means 'between now and', 'by': \"d'ici vendredi\" (by Friday), \"d'ici la fin du mois\", \"d'ici deux semaines\". It's the most natural way to set a deadline in an email. Avoid translating 'by Friday' with *\"par vendredi\": \"par\" never introduces a deadline.",
         ],
         examples: [
           { es: "Le nouveau tarif s'applique à compter du 1er janvier.", en: "The new rate applies from 1 January." },
           { es: "Le magasin est ouvert dès 7 heures.", en: "The shop opens as early as 7 am." },
-          { es: "L'exposition est prolongée jusqu'au 30 juin.", en: "The exhibition has been extended until 30 June." },
-          { es: "Merci de me renvoyer le contrat signé d'ici vendredi.", en: "Please send me back the signed contract by Friday." },
-          { es: "Le dossier doit être déposé au plus tard le 15 mars.", en: "The application must be submitted no later than 15 March." },
           { es: "À partir de lundi, je travaille à distance le mercredi.", en: "From Monday, I'm working from home on Wednesdays." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Complete (contract style): Le loyer sera révisé ___ 1er juillet.",
+            options: ["par le", "dès que le", "pour le", "à compter du"],
+            correctIndex: 3,
+            explanation: "\"À compter de\" is the contract and administrative 'from'; \"de\" + \"le\" contracts to \"du\". \"Dès que\" needs a verb, and \"par\" and \"pour\" don't introduce a starting date.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French (contract style).",
+            source: "This contract takes effect from 1 April.",
+            answer: "Le présent contrat prend effet à compter du 1er avril.",
+            altAnswers: ["Ce contrat prend effet à compter du 1er avril.", "Le présent contrat prend effet à partir du 1er avril.", "Ce contrat prend effet à partir du 1er avril."],
+            explanation: "\"À compter du\" is the contract formula for a start date; \"le présent contrat\" = this contract.",
+          },
+        ],
+      },
+      {
+        heading: "Until, and at the latest",
+        body: [
+          "Until: \"jusqu'à\" (\"jusqu'au 30 juin\", \"jusqu'à vendredi\"). Note the contraction \"jusqu'au\". For the latest acceptable date: \"au plus tard le 15 mars\" (no later than 15 March), and \"au plus tôt\" for the earliest.",
+        ],
+        examples: [
+          { es: "L'exposition est prolongée jusqu'au 30 juin.", en: "The exhibition has been extended until 30 June." },
+          { es: "Le dossier doit être déposé au plus tard le 15 mars.", en: "The application must be submitted no later than 15 March." },
+          { es: "Le bureau est fermé jusqu'à lundi.", en: "The office is closed until Monday." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The offer is valid [until] 31 December.",
+            sentence: "L'offre est valable ___ 31 décembre.",
+            answer: "jusqu'au",
+            explanation: "\"Jusqu'à\" + \"le\" → \"jusqu'au\".",
+          },
+          {
+            type: "speak",
+            text: "Le rapport doit être rendu au plus tard le 2 juin.",
+            prompt: "Say it in French: The report must be handed in no later than 2 June.",
+            explanation: "\"Au plus tard le\" + date gives the latest acceptable day.",
+          },
+        ],
+      },
+      {
+        heading: "By: d'ici, never par",
+        body: [
+          "By: \"d'ici\" + date or duration means 'between now and', 'by': \"d'ici vendredi\" (by Friday), \"d'ici la fin du mois\", \"d'ici deux semaines\". It's the most natural way to set a deadline in an email. Avoid translating 'by Friday' with *\"par vendredi\": \"par\" never introduces a deadline.",
+        ],
+        examples: [
+          { es: "Merci de me renvoyer le contrat signé d'ici vendredi.", en: "Please send me back the signed contract by Friday." },
+          { es: "D'ici la fin du mois, tout sera réglé.", en: "By the end of the month, everything will be settled." },
+          { es: "Je vous envoie le devis d'ici deux jours.", en: "I'll send you the quote within the next two days." },
         ],
         checkpoint: [
           {
@@ -90,32 +186,23 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (contract style).",
-            source: "This contract takes effect from 1 April.",
-            answer: "Le présent contrat prend effet à compter du 1er avril.",
-            altAnswers: ["Ce contrat prend effet à compter du 1er avril.", "Le présent contrat prend effet à partir du 1er avril.", "Ce contrat prend effet à partir du 1er avril."],
-            explanation: "\"À compter du\" is the contract formula for a start date; \"le présent contrat\" = this contract.",
-          },
-          {
-            type: "speak",
-            text: "Le dossier doit être déposé au plus tard le 15 mars.",
-            prompt: "Say it in French: The application must be submitted no later than 15 March.",
-            explanation: "\"Au plus tard le\" + date: the latest acceptable day.",
+            prompt: "Correct the sentence.",
+            source: "Pouvez-vous me répondre par lundi ?",
+            answer: "Pouvez-vous me répondre d'ici lundi ?",
+            altAnswers: ["Pouvez-vous me répondre avant lundi ?"],
+            explanation: "\"Par\" never introduces a deadline. 'By Monday' is \"d'ici lundi\" (or \"avant lundi\").",
           },
         ],
       },
       {
-        heading: "Formal deadlines: dans un délai de, sous huitaine",
+        heading: "Délai: a time limit, not a delay",
         body: [
           "Administrative and legal French express deadlines with \"délai\" (a time limit, not a delay!): \"dans un délai de quinze jours\" (within fifteen days), \"dans les délais\" (on time), \"dans les meilleurs délais\" (as soon as possible), \"hors délai\" (late, after the deadline).",
-          "\"Sous\" + duration is a compact formal variant: \"sous huitaine\" (within a week, literally eight days), \"sous quinzaine\" (within two weeks), \"sous 48 heures\" (within 48 hours). You'll see it in invoices, delivery terms and lawyers' letters.",
           "False friend alert: \"un délai\" is a time allowed; 'a delay' is \"un retard\". \"Le délai de livraison est de cinq jours\" = delivery takes five days.",
         ],
         examples: [
           { es: "Vous disposez d'un délai de quatorze jours pour vous rétracter.", en: "You have fourteen days to withdraw." },
           { es: "Nous vous répondrons dans les meilleurs délais.", en: "We'll reply as soon as possible." },
-          { es: "La facture est payable sous huitaine.", en: "The invoice is payable within a week." },
-          { es: "Les pièces vous seront livrées sous 48 heures.", en: "The parts will be delivered to you within 48 hours." },
           { es: "Votre candidature est arrivée hors délai.", en: "Your application arrived after the deadline." },
           { es: "Le délai de livraison est de cinq jours ouvrés.", en: "Delivery takes five working days." },
         ],
@@ -124,10 +211,10 @@ export const FR_C1_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French (formal).",
-            source: "We will reply as soon as possible.",
-            answer: "Nous vous répondrons dans les meilleurs délais.",
-            altAnswers: ["Nous répondrons dans les meilleurs délais.", "Nous vous répondrons dès que possible.", "Nous vous répondrons le plus rapidement possible."],
-            explanation: "\"Dans les meilleurs délais\": the standard formal 'as soon as possible'.",
+            source: "We will deliver as soon as possible.",
+            answer: "Nous livrerons dans les meilleurs délais.",
+            altAnswers: ["Nous vous livrerons dans les meilleurs délais.", "Nous effectuerons la livraison dans les meilleurs délais."],
+            explanation: "\"Dans les meilleurs délais\" is the formal 'as soon as possible': \"délai\" is a time allowed.",
           },
           {
             type: "multiple-choice",
@@ -135,6 +222,28 @@ export const FR_C1_U07: Lesson[] = [
             options: ["You'll get an answer within ten days.", "The answer is ten days late.", "The answer was delayed by ten days.", "The answer will come in exactly ten days' time."],
             correctIndex: 0,
             explanation: "\"Délai\" = a time limit, not a delay (\"un retard\").",
+          },
+        ],
+      },
+      {
+        heading: "Sous huitaine, sous 48 heures",
+        body: [
+          "\"Sous\" + duration is a compact formal variant: \"sous huitaine\" (within a week, literally eight days), \"sous quinzaine\" (within two weeks), \"sous 48 heures\" (within 48 hours). You'll see it in invoices, delivery terms and lawyers' letters.",
+        ],
+        examples: [
+          { es: "La facture est payable sous huitaine.", en: "The invoice is payable within a week." },
+          { es: "Les pièces vous seront livrées sous 48 heures.", en: "The parts will be delivered to you within 48 hours." },
+          { es: "Le remboursement sera effectué sous dix jours.", en: "The refund will be made within ten days." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to formal style with \"sous\".",
+            source: "Le colis arrivera dans les deux semaines.",
+            answer: "Le colis arrivera sous quinzaine.",
+            altAnswers: ["Le colis sera livré sous quinzaine."],
+            explanation: "\"Sous quinzaine\" is the compact formal way to say within two weeks, as \"sous huitaine\" is within a week.",
           },
         ],
       },
@@ -165,14 +274,6 @@ export const FR_C1_U07: Lesson[] = [
         answer: "Merci de confirmer votre présence d'ici la fin de la semaine.",
         altAnswers: ["Merci de confirmer votre présence avant la fin de la semaine.", "Veuillez confirmer votre présence d'ici la fin de la semaine.", "Veuillez confirmer votre présence avant la fin de la semaine."],
         explanation: "\"D'ici\" for a deadline; never *\"par la fin de la semaine\".",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The offer is valid [until] 31 December.",
-        sentence: "L'offre est valable ___ 31 décembre.",
-        answer: "jusqu'au",
-        explanation: "\"Jusqu'à\" + \"le\" → \"jusqu'au\".",
       },
       {
         type: "translate",
@@ -216,23 +317,15 @@ export const FR_C1_U07: Lesson[] = [
         explanation: "\"À compter du\": formal 'from'.",
       },
       {
-        type: "listen-choose",
-        audio: "Le chantier sera terminé en six mois.",
-        question: "What does it mean?",
-        options: ["The works will take six months.", "The works will be finished six months from now.", "The works finished six months ago.", "The works have lasted six months so far."],
-        correctIndex: 0,
-        explanation: "\"En\" + duration = time taken.",
-      },
-      {
         type: "dictation",
-        audio: "Nous vous répondrons dans les meilleurs délais.",
+        audio: "Le devis vous sera envoyé dans les meilleurs délais.",
         explanation: "\"Délais\" = time limits; the formula means as soon as possible.",
       },
       {
         type: "speak",
-        text: "Merci de me renvoyer le contrat signé d'ici vendredi.",
-        prompt: "Say it in French: Please send me back the signed contract by Friday.",
-        explanation: "\"D'ici vendredi\" = by Friday.",
+        text: "Merci de me rendre les clés d'ici samedi.",
+        prompt: "Say it in French: Please give me back the keys by Saturday.",
+        explanation: "\"D'ici\" + day sets a deadline: by Saturday.",
       },
     ],
   },
@@ -245,19 +338,15 @@ export const FR_C1_U07: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Par: means, rate, manner",
+        heading: "Par: means, rate, route, manner",
         body: [
           "\"Par\" answers 'how?' and 'per': the means (\"payer par virement / par chèque / par carte\", \"envoyer par courrier / par mail\", \"par téléphone\"), the rate or distribution (\"trois fois par mois\", \"20 euros par personne\", \"un par un\"), the route (\"passer par Lyon\", \"entrer par la fenêtre\"), the agent of a passive (\"signé par le directeur\"), and manner in fixed phrases (\"par écrit\", \"par hasard\", \"par erreur\", \"par cœur\").",
-          "\"Par ailleurs\" means 'moreover' or 'in other respects' (an Upper-intermediate connector), \"par contre\" 'on the other hand' (informal), \"par conséquent\" 'consequently'.",
-          "No article after \"par\" in most fixed means: \"par virement\", \"par avion\", \"par écrit\". But \"par le train\" (also \"en train\") and \"par la poste\".",
         ],
         examples: [
           { es: "Le loyer est payé par virement le 5 de chaque mois.", en: "The rent is paid by bank transfer on the 5th of each month." },
           { es: "Nous nous réunissons trois fois par mois.", en: "We meet three times a month." },
           { es: "Le menu est à 35 euros par personne.", en: "The set menu is 35 euros per person." },
-          { es: "Merci de confirmer votre demande par écrit.", en: "Please confirm your request in writing." },
           { es: "Je suis tombée sur lui par hasard à la gare.", en: "I bumped into him by chance at the station." },
-          { es: "Pour aller à Nice, on passe par Marseille.", en: "To get to Nice, you go via Marseille." },
         ],
         checkpoint: [
           {
@@ -270,6 +359,27 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "Rate: \"par personne\".",
           },
           {
+            type: "multiple-choice",
+            question: "How do you say: She sent the contract by post.",
+            options: ["Elle a envoyé le contrat par la poste.", "Elle a envoyé le contrat pour la poste.", "Elle a envoyé le contrat en poste.", "Elle a envoyé le contrat avec la poste."],
+            correctIndex: 0,
+            explanation: "\"Par\" answers 'how?': the means of sending. \"Pour\" would mean for (the benefit of) the post office.",
+          },
+        ],
+      },
+      {
+        heading: "Par in connectors, and no article",
+        body: [
+          "\"Par ailleurs\" means 'moreover' or 'in other respects' (an Upper-intermediate connector), \"par contre\" 'on the other hand' (informal), \"par conséquent\" 'consequently'.",
+          "No article after \"par\" in most fixed means: \"par virement\", \"par avion\", \"par écrit\". But \"par le train\" (also \"en train\") and \"par la poste\".",
+        ],
+        examples: [
+          { es: "Merci de confirmer votre demande par écrit.", en: "Please confirm your request in writing." },
+          { es: "Pour aller à Nice, on passe par Marseille.", en: "To get to Nice, you go via Marseille." },
+          { es: "Nous avons voyagé par le train de nuit.", en: "We travelled by the night train." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "Please confirm [in writing].",
@@ -277,22 +387,51 @@ export const FR_C1_U07: Lesson[] = [
             answer: "par écrit",
             explanation: "Manner: \"par écrit\", no article.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "J'ai payé par le virement.",
+            answer: "J'ai payé par virement.",
+            explanation: "Fixed means after \"par\" take no article: \"par virement\", \"par chèque\", \"par écrit\".",
+          },
         ],
       },
       {
-        heading: "Pour: purpose, destination, beneficiary, planned period",
+        heading: "Pour: purpose, beneficiary, destination",
         body: [
           "\"Pour\" answers 'for whom?', 'for what?', 'where to?': purpose (\"pour gagner du temps\"), beneficiary (\"un cadeau pour toi\", \"pour le compte de la société X\" = on behalf of), destination (\"le train pour Bordeaux\", \"partir pour l'Espagne\"), and a planned or intended period: \"je pars pour six mois\" (I'm going for six months; that's the plan).",
-          "\"Pour\" + period is only for intentions, usually with \"partir\", \"venir\", \"louer\", \"être embauché\": \"j'ai loué l'appartement pour un an\". For a period that actually happened or is happening, use \"pendant\" or nothing (\"j'ai vécu six mois à Rome\", \"j'ai travaillé pendant dix ans chez eux\").",
-          "\"Pour\" also gives opinions and proportions: \"pour moi, c'est une erreur\", \"cinq pour cent\", \"pour ma part\".",
         ],
         examples: [
           { es: "Je signe pour le compte de la société Arvel.", en: "I'm signing on behalf of the Arvel company." },
+          { es: "Le prochain train pour Bordeaux part à 14 h 10.", en: "The next train to Bordeaux leaves at 2:10 pm." },
+          { es: "Je l'ai fait pour gagner du temps.", en: "I did it to save time." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Complete: J'ai acheté des fleurs ___ ma mère.",
+            options: ["par", "de", "pour", "chez"],
+            correctIndex: 2,
+            explanation: "The beneficiary takes \"pour\": flowers for my mother. \"Par\" would make her the agent or the route.",
+          },
+          {
+            type: "speak",
+            text: "Elle signe pour le compte de son associé.",
+            prompt: "Say it in French: She's signing on behalf of her partner.",
+            explanation: "\"Pour le compte de\" = on behalf of: \"pour\" for the beneficiary.",
+          },
+        ],
+      },
+      {
+        heading: "Pour + a period: only for plans",
+        body: [
+          "\"Pour\" + period is only for intentions, usually with \"partir\", \"venir\", \"louer\", \"être embauché\": \"j'ai loué l'appartement pour un an\". For a period that actually happened or is happening, use \"pendant\" or nothing (\"j'ai vécu six mois à Rome\", \"j'ai travaillé pendant dix ans chez eux\").",
+        ],
+        examples: [
           { es: "Elle part à Montréal pour six mois.", en: "She's going to Montreal for six months." },
           { es: "Il a vécu six mois à Montréal.", en: "He lived in Montreal for six months." },
-          { es: "Le prochain train pour Bordeaux part à 14 h 10.", en: "The next train to Bordeaux leaves at 2:10 pm." },
           { es: "Nous avons loué un bureau pour un an.", en: "We've rented an office for a year." },
-          { es: "Pour ma part, je préférerais attendre.", en: "For my part, I'd rather wait." },
         ],
         checkpoint: [
           {
@@ -311,27 +450,39 @@ export const FR_C1_U07: Lesson[] = [
             altAnswers: ["Je vais à Berlin pour un mois."],
             explanation: "A planned period with \"partir\": \"pour un mois\".",
           },
+        ],
+      },
+      {
+        heading: "Pour for opinions and proportions",
+        body: [
+          "\"Pour\" also gives opinions and proportions: \"pour moi, c'est une erreur\", \"cinq pour cent\", \"pour ma part\".",
+        ],
+        examples: [
+          { es: "Pour ma part, je préférerais attendre.", en: "For my part, I'd rather wait." },
+          { es: "Pour moi, c'est une erreur.", en: "In my view, it's a mistake." },
+          { es: "Le prix a augmenté de cinq pour cent.", en: "The price went up by five per cent." },
+        ],
+        checkpoint: [
           {
-            type: "speak",
-            text: "Je signe pour le compte de la société Arvel.",
-            prompt: "Say it in French: I'm signing on behalf of the Arvel company.",
-            explanation: "\"Pour le compte de\" = on behalf of.",
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[In my view], the project is too expensive.",
+            sentence: "___, le projet est trop cher.",
+            answer: "Pour moi",
+            altAnswers: ["À mon avis", "Selon moi", "D'après moi"],
+            explanation: "\"Pour moi\" gives an opinion (as do \"à mon avis\", \"selon moi\").",
           },
         ],
       },
       {
-        heading: "English 'for': four French answers",
+        heading: "English 'for' + time: four French answers",
         body: [
           "English 'for' + time hides four different French structures. Completed period: \"pendant\" or nothing (\"j'ai attendu (pendant) deux heures\"). Ongoing situation started in the past: \"depuis\" + present (\"j'attends depuis deux heures\" = I've been waiting for two hours). Intended period: \"pour\" (\"je pars pour deux semaines\"). Negative 'not for ages': \"ça fait longtemps que je ne l'ai pas vu\", \"je ne l'ai pas vu depuis des mois\".",
-          "Other 'for' traps: 'thanks for' = \"merci de\" + infinitive or \"merci pour\" + noun; 'to look for' = \"chercher\" (no preposition), 'to pay for' = \"payer\" (no preposition: \"j'ai payé le repas\"), 'to ask for' = \"demander\" (\"demander l'addition\"), 'to wait for' = \"attendre\" (\"j'attends le bus\").",
         ],
         examples: [
           { es: "J'attends depuis deux heures.", en: "I've been waiting for two hours." },
           { es: "J'ai attendu deux heures, puis je suis parti.", en: "I waited for two hours, then left." },
           { es: "Je ne l'ai pas vue depuis des mois.", en: "I haven't seen her for months." },
-          { es: "C'est moi qui ai payé le dîner.", en: "I'm the one who paid for dinner." },
-          { es: "Nous cherchons un appartement près du centre.", en: "We're looking for a flat near the centre." },
-          { es: "Merci de votre patience.", en: "Thank you for your patience." },
         ],
         checkpoint: [
           {
@@ -350,6 +501,34 @@ export const FR_C1_U07: Lesson[] = [
             options: ["I've been waiting for two hours.", "I waited for two hours.", "I'll wait until two o'clock.", "I've been waiting since two hours ago, then left."],
             correctIndex: 0,
             explanation: "\"Depuis\" + present = an ongoing situation.",
+          },
+        ],
+      },
+      {
+        heading: "Other 'for' traps: chercher, payer, attendre",
+        body: [
+          "Other 'for' traps: 'thanks for' = \"merci de\" + infinitive or \"merci pour\" + noun; 'to look for' = \"chercher\" (no preposition), 'to pay for' = \"payer\" (no preposition: \"j'ai payé le repas\"), 'to ask for' = \"demander\" (\"demander l'addition\"), 'to wait for' = \"attendre\" (\"j'attends le bus\").",
+        ],
+        examples: [
+          { es: "C'est moi qui ai payé le dîner.", en: "I'm the one who paid for dinner." },
+          { es: "Nous cherchons un appartement près du centre.", en: "We're looking for a flat near the centre." },
+          { es: "Merci de votre patience.", en: "Thank you for your patience." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is wrong?",
+            options: ["Je cherche pour mes clés.", "Je cherche mes clés.", "J'attends le bus.", "Je demande l'addition."],
+            correctIndex: 0,
+            explanation: "\"Chercher\" takes a direct object: no 'for'.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Nous attendons pour le médecin depuis une heure.",
+            answer: "Nous attendons le médecin depuis une heure.",
+            explanation: "\"Attendre\" takes a direct object: 'to wait for the doctor' is \"attendre le médecin\", with no \"pour\".",
           },
         ],
       },
@@ -417,13 +596,6 @@ export const FR_C1_U07: Lesson[] = [
         explanation: "\"Payer quelque chose\": no preposition.",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence is wrong?",
-        options: ["Je cherche pour mes clés.", "Je cherche mes clés.", "J'attends le bus.", "Je demande l'addition."],
-        correctIndex: 0,
-        explanation: "\"Chercher\" takes a direct object: no 'for'.",
-      },
-      {
         type: "word-order",
         prompt: "Put the words in order to say: I came across this book by chance.",
         words: ["Je suis", "tombé", "sur ce livre", "par hasard."],
@@ -437,9 +609,18 @@ export const FR_C1_U07: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Elle part à Montréal pour six mois.",
-        prompt: "Say it in French: She's going to Montreal for six months.",
-        explanation: "Intended period: \"pour\".",
+        text: "Il part à Tokyo pour trois mois.",
+        prompt: "Say it in French: He's going to Tokyo for three months.",
+        explanation: "\"Pour\" + period for a planned stay.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change it so the stay is over.",
+        source: "Je pars à Rome pour six mois.",
+        answer: "J'ai vécu six mois à Rome.",
+        altAnswers: ["J'ai vécu à Rome pendant six mois.", "J'ai vécu pendant six mois à Rome.", "J'ai passé six mois à Rome.", "J'ai vécu à Rome six mois."],
+        explanation: "\"Pour\" + period is only for a plan. Once the stay has happened, use \"pendant\" or nothing: \"j'ai vécu six mois à Rome\".",
       },
     ],
   },
@@ -452,20 +633,23 @@ export const FR_C1_U07: Lesson[] = [
     duration: "19 min",
     sections: [
       {
-        heading: "Authority and compliance: en vertu de, conformément à, aux termes de",
+        heading: "En vertu de, conformément à, aux termes de",
         body: [
           "Contracts constantly refer to rules. \"En vertu de\" = by virtue of, under (the legal basis): \"en vertu de l'article 3\", \"en vertu de la loi du 6 juillet 1989\". \"Conformément à\" = in accordance with (compliance): \"conformément aux dispositions du contrat\", \"conformément à votre demande\". \"Aux termes de\" = under the terms of (what a text says): \"aux termes du bail, le locataire doit...\".",
-          "Subtle but useful: \"en vertu de\" gives the authority that allows or obliges something; \"conformément à\" says an action matches a rule or a request; \"aux termes de\" quotes the content of a document. In emails, \"conformément à\" is by far the most common: \"conformément à notre conversation de ce matin\".",
-          "Watch the contractions: \"conformément au contrat\", \"aux termes du contrat\", \"en vertu des articles 5 et 6\".",
         ],
         examples: [
           { es: "En vertu de l'article 7, le bailleur peut résilier le bail.", en: "Under article 7, the landlord may terminate the lease." },
           { es: "Conformément à votre demande, nous avons annulé la commande.", en: "As you requested, we have cancelled the order." },
           { es: "Aux termes du contrat, le salarié est soumis à une période d'essai.", en: "Under the terms of the contract, the employee is subject to a trial period." },
-          { es: "Conformément à notre conversation de ce matin, je vous envoie le devis.", en: "Following our conversation this morning, I'm sending you the quote." },
-          { es: "En vertu de la loi, ces données doivent être conservées cinq ans.", en: "By law, this data must be kept for five years." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which phrase introduces the legal basis (by virtue of, under)?",
+            options: ["conformément à", "à titre de", "en vertu de", "faute de"],
+            correctIndex: 2,
+            explanation: "\"En vertu de\" gives the authority that allows or obliges; \"conformément à\" says an action matches a rule; \"à titre de\" says what something counts as; \"faute de\" gives a lack.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -475,6 +659,20 @@ export const FR_C1_U07: Lesson[] = [
             altAnswers: ["Conformément à votre demande, vous trouverez ci-joint la facture.", "Conformément à votre demande, je vous envoie la facture.", "Comme vous me l'avez demandé, je vous joins la facture.", "Conformément à votre demande, veuillez trouver ci-joint la facture."],
             explanation: "\"Conformément à\" + the request: the standard business formula.",
           },
+        ],
+      },
+      {
+        heading: "Authority, compliance or content?",
+        body: [
+          "Subtle but useful: \"en vertu de\" gives the authority that allows or obliges something; \"conformément à\" says an action matches a rule or a request; \"aux termes de\" quotes the content of a document. In emails, \"conformément à\" is by far the most common: \"conformément à notre conversation de ce matin\".",
+          "Watch the contractions: \"conformément au contrat\", \"aux termes du contrat\", \"en vertu des articles 5 et 6\".",
+        ],
+        examples: [
+          { es: "Conformément à notre conversation de ce matin, je vous envoie le devis.", en: "Following our conversation this morning, I'm sending you the quote." },
+          { es: "En vertu de la loi, ces données doivent être conservées cinq ans.", en: "By law, this data must be kept for five years." },
+          { es: "Conformément au règlement, les animaux sont interdits.", en: "In accordance with the rules, animals are not allowed." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -484,21 +682,50 @@ export const FR_C1_U07: Lesson[] = [
             altAnswers: ["En vertu du", "Selon le"],
             explanation: "\"Aux termes du bail\" = according to what the lease says.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Conformément avec votre demande, nous avons modifié le devis.",
+            answer: "Conformément à votre demande, nous avons modifié le devis.",
+            explanation: "\"Conformément\" is always followed by \"à\": \"conformément à votre demande\". 'In accordance with' tempts English speakers into \"avec\".",
+          },
         ],
       },
       {
-        heading: "Conditions: en cas de, sous réserve de, à défaut de, faute de",
+        heading: "En cas de, sous réserve de",
         body: [
           "\"En cas de\" + noun = in the event of: \"en cas de retard de paiement\", \"en cas d'urgence\". \"Sous réserve de\" = subject to (a condition that must be met): \"sous réserve d'acceptation du dossier\", \"sous réserve de disponibilité\".",
-          "\"À défaut de\" and \"faute de\" both mean 'failing', 'for lack of', but differ. \"À défaut de\" introduces a fallback condition: \"à défaut de paiement dans les huit jours, le contrat sera résilié\" (if payment is not made...), or a substitute: \"à défaut de champagne, on boira du crémant\" (in the absence of champagne...). \"Faute de\" explains a cause by lack: \"faute de temps, je n'ai pas pu finir\" (for lack of time). \"Faute de quoi\" = otherwise, failing which: \"payez avant le 10, faute de quoi des pénalités s'appliqueront\".",
-          "No article usually after \"faute de\" and \"à défaut de\" before an abstract noun: \"faute d'argent\", \"faute de preuves\", \"à défaut d'accord\".",
         ],
         examples: [
           { es: "En cas de retard de paiement, des pénalités seront appliquées.", en: "In the event of late payment, penalties will be applied." },
           { es: "La réservation est confirmée sous réserve de disponibilité.", en: "The booking is confirmed subject to availability." },
+          { es: "En cas d'urgence, appelez le 112.", en: "In an emergency, call 112." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which phrase fits \"___ acceptation de votre dossier, le prêt vous sera accordé\" (subject to approval)?",
+            options: ["Sous réserve d'", "Faute d'", "En vertu d'", "À titre d'"],
+            correctIndex: 0,
+            explanation: "\"Sous réserve de\" = subject to a condition.",
+          },
+          {
+            type: "speak",
+            text: "En cas de panne, contactez le service technique.",
+            prompt: "Say it in French: In the event of a breakdown, contact technical support.",
+            explanation: "\"En cas de\" + noun = in the event of.",
+          },
+        ],
+      },
+      {
+        heading: "À défaut de or faute de?",
+        body: [
+          "\"À défaut de\" and \"faute de\" both mean 'failing', 'for lack of', but differ. \"À défaut de\" introduces a fallback condition: \"à défaut de paiement dans les huit jours, le contrat sera résilié\" (if payment is not made...), or a substitute: \"à défaut de champagne, on boira du crémant\" (in the absence of champagne...). \"Faute de\" explains a cause by lack: \"faute de temps, je n'ai pas pu finir\" (for lack of time). \"Faute de quoi\" = otherwise, failing which: \"payez avant le 10, faute de quoi des pénalités s'appliqueront\".",
+        ],
+        examples: [
           { es: "À défaut de paiement sous huitaine, le contrat sera résilié.", en: "Failing payment within a week, the contract will be terminated." },
           { es: "Faute de preuves, le suspect a été relâché.", en: "For lack of evidence, the suspect was released." },
-          { es: "Merci de répondre avant le 10, faute de quoi votre place sera attribuée.", en: "Please reply before the 10th, otherwise your place will be given to someone else." },
           { es: "À défaut d'accord amiable, le litige sera porté devant le tribunal.", en: "Failing an amicable agreement, the dispute will be taken to court." },
         ],
         checkpoint: [
@@ -512,45 +739,77 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "\"Faute de\" + noun without article: a cause by lack.",
           },
           {
-            type: "multiple-choice",
-            question: "Which phrase fits \"___ acceptation de votre dossier, le prêt vous sera accordé\" (subject to approval)?",
-            options: ["Sous réserve d'", "Faute d'", "En vertu d'", "À titre d'"],
-            correctIndex: 0,
-            explanation: "\"Sous réserve de\" = subject to a condition.",
-          },
-          {
-            type: "speak",
-            text: "En cas de retard de paiement, des pénalités seront appliquées.",
-            prompt: "Say it in French: In the event of late payment, penalties will be applied.",
-            explanation: "\"En cas de\" + noun.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to a sentence with \"faute de\".",
+            source: "Comme nous n'avions pas d'argent, nous avons renoncé au voyage.",
+            answer: "Faute d'argent, nous avons renoncé au voyage.",
+            explanation: "\"Faute de\" + noun explains a cause by lack, and replaces the whole clause: \"faute d'argent\", with no article.",
           },
         ],
       },
       {
-        heading: "À titre de and a clause read in full",
+        heading: "Faute de quoi, and no article",
+        body: [
+          "No article usually after \"faute de\" and \"à défaut de\" before an abstract noun: \"faute d'argent\", \"faute de preuves\", \"à défaut d'accord\".",
+        ],
+        examples: [
+          { es: "Merci de répondre avant le 10, faute de quoi votre place sera attribuée.", en: "Please reply before the 10th, otherwise your place will be given to someone else." },
+          { es: "Faute de place, la réunion aura lieu en ligne.", en: "For lack of space, the meeting will be held online." },
+          { es: "Faute de personnel, le musée ferme le lundi.", en: "For lack of staff, the museum closes on Mondays." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Faute de les preuves, il a été acquitté.",
+            answer: "Faute de preuves, il a été acquitté.",
+            explanation: "No article after \"faute de\" before an abstract noun: \"faute de preuves\", \"faute d'argent\".",
+          },
+        ],
+      },
+      {
+        heading: "À titre de: as, by way of",
         body: [
           "\"À titre de\" = as, by way of, in the capacity of: \"à titre d'exemple\" (as an example), \"à titre indicatif\" (for information only, non-binding), \"à titre gracieux\" (free of charge), \"à titre personnel\" (in a personal capacity), \"à titre de dédommagement\" (as compensation), \"une somme versée à titre de dépôt de garantie\".",
-          "Now a clause from a rental contract: \"Article 4. Aux termes du présent bail, le locataire verse, à titre de dépôt de garantie, une somme de 900 euros. Conformément à la loi, celle-ci lui sera restituée dans un délai maximal de deux mois à compter de la remise des clés, déduction faite, le cas échéant, des sommes restant dues. En cas de dégradations, et à défaut d'accord entre les parties, le montant des réparations sera fixé par un expert.\"",
-          "Every key condition hangs on a preposition: what the money is (à titre de), the legal basis (conformément à), the deadline (dans un délai de, à compter de), the condition (en cas de, à défaut de).",
         ],
         examples: [
           { es: "À titre d'exemple, citons le cas de la ville de Nantes.", en: "As an example, let's take the case of Nantes." },
           { es: "Ces prix sont donnés à titre indicatif.", en: "These prices are given for information only." },
           { es: "La consultation est offerte à titre gracieux.", en: "The consultation is free of charge." },
           { es: "Je m'exprime ici à titre personnel.", en: "I'm speaking here in a personal capacity." },
-          { es: "Le locataire verse 900 euros à titre de dépôt de garantie.", en: "The tenant pays 900 euros as a security deposit." },
-          { es: "Le dépôt sera restitué dans un délai de deux mois à compter de la remise des clés.", en: "The deposit will be returned within two months of the keys being handed back." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "These figures are given for information only.",
-            answer: "Ces chiffres sont donnés à titre indicatif.",
-            altAnswers: ["Ces chiffres sont communiqués à titre indicatif.", "Ces chiffres sont fournis à titre indicatif."],
-            explanation: "\"À titre indicatif\" = non-binding, for information.",
+            source: "I'm giving you this advice in a personal capacity.",
+            answer: "Je vous donne ce conseil à titre personnel.",
+            altAnswers: ["Je te donne ce conseil à titre personnel."],
+            explanation: "\"À titre personnel\" = in a personal capacity: \"à titre de\" says in what role or as what something is done.",
           },
+          {
+            type: "multiple-choice",
+            question: "\"La séance d'essai est offerte à titre gracieux.\" What does it mean?",
+            options: ["The trial session is free of charge.", "The trial session is offered as a favour to friends.", "The trial session is offered graciously by the director.", "The trial session is only for information."],
+            correctIndex: 0,
+            explanation: "\"À titre gracieux\" = free of charge.",
+          },
+        ],
+      },
+      {
+        heading: "A clause read in full",
+        body: [
+          "Now a clause from a rental contract: \"Article 4. Aux termes du présent bail, le locataire verse, à titre de dépôt de garantie, une somme de 900 euros. Conformément à la loi, celle-ci lui sera restituée dans un délai maximal de deux mois à compter de la remise des clés, déduction faite, le cas échéant, des sommes restant dues. En cas de dégradations, et à défaut d'accord entre les parties, le montant des réparations sera fixé par un expert.\"",
+        ],
+        examples: [
+          { es: "Le locataire verse 900 euros à titre de dépôt de garantie.", en: "The tenant pays 900 euros as a security deposit." },
+          { es: "Le dépôt sera restitué dans un délai de deux mois à compter de la remise des clés.", en: "The deposit will be returned within two months of the keys being handed back." },
+          { es: "Le cas échéant, les sommes dues seront déduites.", en: "Where applicable, the sums owed will be deducted." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "Le dépôt sera restitué dans un délai de deux mois à compter de la remise des clés.",
@@ -558,6 +817,30 @@ export const FR_C1_U07: Lesson[] = [
             options: ["Within two months of handing back the keys", "Two months before handing back the keys", "Exactly two months late", "When the keys are copied"],
             correctIndex: 0,
             explanation: "\"Dans un délai de\" (within) + \"à compter de\" (counted from).",
+          },
+        ],
+      },
+      {
+        heading: "Every condition hangs on a preposition",
+        body: [
+          "Every key condition hangs on a preposition: what the money is (à titre de), the legal basis (conformément à), the deadline (dans un délai de, à compter de), the condition (en cas de, à défaut de).",
+        ],
+        examples: [
+          { es: "Le loyer est payable à compter du 1er du mois.", en: "Rent is payable from the 1st of the month." },
+          { es: "En cas de litige, le tribunal de Lyon sera compétent.", en: "In the event of a dispute, the Lyon court will have jurisdiction." },
+          { es: "Une indemnité est versée à titre de compensation.", en: "An allowance is paid by way of compensation." },
+        ],
+        checkpoint: [
+          {
+            type: "matching",
+            instructions: "Match each phrase to its job in a clause.",
+            pairs: [
+              { left: "à titre de", right: "what the money counts as" },
+              { left: "conformément à", right: "the rule that is followed" },
+              { left: "à compter de", right: "the starting point" },
+              { left: "en cas de", right: "the condition" },
+            ],
+            explanation: "Each key condition of a contract hangs on a preposition: what the money is (\"à titre de\"), the rule (\"conformément à\"), the start (\"à compter de\"), the condition (\"en cas de\").",
           },
         ],
       },
@@ -618,13 +901,6 @@ export const FR_C1_U07: Lesson[] = [
         explanation: "\"Faute de quoi\" = failing which, otherwise.",
       },
       {
-        type: "multiple-choice",
-        question: "\"La séance d'essai est offerte à titre gracieux.\" What does it mean?",
-        options: ["The trial session is free of charge.", "The trial session is offered as a favour to friends.", "The trial session is offered graciously by the director.", "The trial session is only for information."],
-        correctIndex: 0,
-        explanation: "\"À titre gracieux\" = free of charge.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -642,14 +918,14 @@ export const FR_C1_U07: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Faute de preuves, le suspect a été relâché.",
+        audio: "Faute de temps, la visite a été écourtée.",
         explanation: "\"Faute de\" + noun without article.",
       },
       {
         type: "speak",
-        text: "Conformément à votre demande, nous avons annulé la commande.",
-        prompt: "Say it in French: As you requested, we have cancelled the order.",
-        explanation: "\"Conformément à\": the business email formula.",
+        text: "Conformément à nos accords, je vous adresse le contrat.",
+        prompt: "Say it in French: In accordance with our agreement, I'm sending you the contract.",
+        explanation: "\"Conformément à\" + noun: in accordance with; \"à\" + \"nos\" doesn't contract.",
       },
     ],
   },
@@ -662,19 +938,14 @@ export const FR_C1_U07: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Calques with adjectives and verbs",
+        heading: "Calques: responsable de, intéressé par",
         body: [
           "From a LinkedIn profile: *\"Je suis responsable pour la communication et très intéressée dans le marketing digital.\" Two calques. French says \"responsable de\" (not pour) and \"intéressé par\" (not dans): \"Je suis responsable de la communication et très intéressée par le marketing digital.\"",
-          "More of the same: *\"dépendre sur\" → \"dépendre de\" (\"ça dépend de toi\"); *\"être en charge de\" → \"être chargé de\" or \"être responsable de\" (\"en charge de\" is very common in business French but criticised by careful writers; at the Advanced level, prefer \"chargé de\"); *\"participer dans\" → \"participer à\"; 'good at' is not *\"bon à\" but \"doué pour\" or \"bon en\" (\"elle est bonne en maths\"); *\"consister de\" → \"consister en\" / \"consister à\" + infinitive.",
-          "These verbs and adjectives simply have to be learned with their preposition. When in doubt, look it up: the English one is a poor guide.",
         ],
         examples: [
           { es: "Je suis responsable de la communication interne.", en: "I'm responsible for internal communication." },
           { es: "Elle est très intéressée par le marketing digital.", en: "She's very interested in digital marketing." },
-          { es: "Tout dépend de la réponse du client.", en: "It all depends on the client's answer." },
-          { es: "Il est chargé du recrutement depuis janvier.", en: "He's been in charge of recruitment since January." },
-          { es: "Nous avons participé à un salon à Lille.", en: "We took part in a trade fair in Lille." },
-          { es: "La mission consiste à auditer les comptes.", en: "The assignment consists of auditing the accounts." },
+          { es: "Il est responsable du service client.", en: "He's responsible for customer service." },
         ],
         checkpoint: [
           {
@@ -687,6 +958,27 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "\"Responsable de\" (+ les → des), never *\"pour\".",
           },
           {
+            type: "multiple-choice",
+            question: "How do you say: She's interested in the project.",
+            options: ["Elle est intéressée dans le projet.", "Elle est intéressée pour le projet.", "Elle est intéressée sur le projet.", "Elle est intéressée par le projet."],
+            correctIndex: 3,
+            explanation: "\"Intéressé\" takes \"par\". 'Interested in' tempts English speakers into \"dans\", a calque.",
+          },
+        ],
+      },
+      {
+        heading: "More verb calques",
+        body: [
+          "More of the same: *\"dépendre sur\" → \"dépendre de\" (\"ça dépend de toi\"); *\"être en charge de\" → \"être chargé de\" or \"être responsable de\" (\"en charge de\" is very common in business French but criticised by careful writers; at the Advanced level, prefer \"chargé de\"); *\"participer dans\" → \"participer à\"; 'good at' is not *\"bon à\" but \"doué pour\" or \"bon en\" (\"elle est bonne en maths\"); *\"consister de\" → \"consister en\" / \"consister à\" + infinitive.",
+        ],
+        examples: [
+          { es: "Tout dépend de la réponse du client.", en: "It all depends on the client's answer." },
+          { es: "Il est chargé du recrutement depuis janvier.", en: "He's been in charge of recruitment since January." },
+          { es: "Nous avons participé à un salon à Lille.", en: "We took part in a trade fair in Lille." },
+          { es: "La mission consiste à auditer les comptes.", en: "The assignment consists of auditing the accounts." },
+        ],
+        checkpoint: [
+          {
             type: "translate",
             direction: "en-es",
             prompt: "Fix the error in \"*Ça dépend sur la météo.\" and write the corrected French.",
@@ -695,22 +987,74 @@ export const FR_C1_U07: Lesson[] = [
             altAnswers: ["Cela dépend de la météo.", "Ça dépend du temps.", "Cela dépend du temps."],
             explanation: "\"Dépendre de\": never *\"sur\".",
           },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "She's very good [at] languages.",
+            sentence: "Elle est très douée ___ les langues.",
+            answer: "pour",
+            explanation: "\"Doué pour\" (or \"bon en\"), never a calque of 'at'.",
+          },
         ],
       },
       {
-        heading: "Places on screens and in documents",
+        heading: "Learn each verb with its preposition",
+        body: [
+          "These verbs and adjectives simply have to be learned with their preposition. When in doubt, look it up: the English one is a poor guide.",
+        ],
+        examples: [
+          { es: "Il s'intéresse beaucoup à l'histoire.", en: "He's very interested in history." },
+          { es: "Elle est bonne en maths.", en: "She's good at maths." },
+          { es: "Le dossier se compose de trois parties.", en: "The file consists of three parts." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to use \"s'intéresser\".",
+            source: "Elle est intéressée par l'architecture.",
+            answer: "Elle s'intéresse à l'architecture.",
+            explanation: "The preposition belongs to the word, not the meaning: \"intéressé par\" but \"s'intéresser à\".",
+          },
+        ],
+      },
+      {
+        heading: "Sur le site, dans le document",
         body: [
           "English is 'on the website', 'in the document', 'on the list'. French: \"sur le site\" (on the website: fine), \"sur Internet\", \"sur la page d'accueil\", \"sur la liste\"; but \"dans le document\", \"dans le fichier\", \"dans le tableau\", \"dans le rapport\", \"dans le mail\" (or \"dans le courriel\"). And \"à la télé\", \"à la radio\" (not *\"sur la télé\" for content, which means physically on top of the TV set).",
-          "*\"Sur le journal\" is a classic error: you read something \"dans le journal\" (in the paper), and \"dans un magazine\", \"dans un livre\". But \"sur une affiche\", \"sur un panneau\", \"sur un écran\".",
-          "Another everyday trap: *\"au final\" is widespread in speech but criticised; in careful writing, use \"finalement\", \"en fin de compte\" or \"au bout du compte\".",
         ],
         examples: [
           { es: "Vous trouverez le formulaire sur notre site.", en: "You'll find the form on our website." },
           { es: "Les chiffres sont dans le tableau en annexe.", en: "The figures are in the table in the appendix." },
-          { es: "J'ai lu un article intéressant dans le journal.", en: "I read an interesting article in the paper." },
           { es: "Je l'ai entendu à la radio ce matin.", en: "I heard it on the radio this morning." },
           { es: "Votre nom n'est pas sur la liste.", en: "Your name isn't on the list." },
-          { es: "En fin de compte, le projet a été abandonné.", en: "In the end, the project was abandoned." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The details are [in the] attached file.",
+            sentence: "Les détails sont ___ fichier joint.",
+            answer: "dans le",
+            explanation: "Documents and files: \"dans\".",
+          },
+          {
+            type: "speak",
+            text: "J'ai vu l'annonce à la télé hier.",
+            prompt: "Say it in French: I saw the ad on TV yesterday.",
+            explanation: "Content on TV or radio is \"à la télé\", \"à la radio\"; \"sur la télé\" means on top of the set.",
+          },
+        ],
+      },
+      {
+        heading: "Dans le journal, sur une affiche",
+        body: [
+          "*\"Sur le journal\" is a classic error: you read something \"dans le journal\" (in the paper), and \"dans un magazine\", \"dans un livre\". But \"sur une affiche\", \"sur un panneau\", \"sur un écran\".",
+        ],
+        examples: [
+          { es: "J'ai lu un article intéressant dans le journal.", en: "I read an interesting article in the paper." },
+          { es: "L'horaire est affiché sur un panneau à l'entrée.", en: "The timetable is on a sign at the entrance." },
+          { es: "J'ai trouvé la recette dans un magazine.", en: "I found the recipe in a magazine." },
         ],
         checkpoint: [
           {
@@ -723,34 +1067,45 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "Newspapers, books, magazines: \"dans\".",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "The details are [in the] attached file.",
-            sentence: "Les détails sont ___ fichier joint.",
-            answer: "dans le",
-            explanation: "Documents and files: \"dans\".",
-          },
-          {
-            type: "speak",
-            text: "Je l'ai entendu à la radio ce matin.",
-            prompt: "Say it in French: I heard it on the radio this morning.",
-            explanation: "\"À la radio\", \"à la télé\": not \"sur\".",
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Je l'ai vu à la télé hier soir.", "Je l'ai vu sur la télé hier soir.", "Je l'ai vu dans la télé hier soir.", "Je l'ai vu par la télé hier soir."],
+            correctIndex: 0,
+            explanation: "Programmes: \"à la télé\", \"à la radio\".",
           },
         ],
       },
       {
-        heading: "Business-email calques",
+        heading: "Au final? Finalement",
+        body: [
+          "Another everyday trap: *\"au final\" is widespread in speech but criticised; in careful writing, use \"finalement\", \"en fin de compte\" or \"au bout du compte\".",
+        ],
+        examples: [
+          { es: "En fin de compte, le projet a été abandonné.", en: "In the end, the project was abandoned." },
+          { es: "Finalement, nous avons choisi l'autre offre.", en: "In the end, we chose the other offer." },
+          { es: "Au bout du compte, tout s'est bien passé.", en: "When all's said and done, everything went well." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Fix the error in \"*Au final, on a gagné.\" and write the corrected French (careful style).",
+            source: "In the end, we won.",
+            answer: "Finalement, nous avons gagné.",
+            altAnswers: ["En fin de compte, nous avons gagné.", "Finalement, on a gagné.", "En fin de compte, on a gagné.", "Au bout du compte, nous avons gagné."],
+            explanation: "\"Au final\" is criticised; \"finalement\" or \"en fin de compte\" is safe.",
+          },
+        ],
+      },
+      {
+        heading: "An anglicised email",
         body: [
           "A typical anglicised email: *\"Merci pour me contacter. Je vous reviens sur ce point dans les prochains jours. Je suis disponible pour un call sur mardi.\" Corrections: \"Merci de m'avoir contacté\" (merci de + infinitive, past infinitive for a past action), \"Je reviens vers vous à ce sujet\" (\"revenir vers quelqu'un\" is itself criticised; \"je vous recontacte\" or \"je vous tiendrai informé\" is cleaner), \"Je suis disponible pour un appel mardi\" (no preposition before a day).",
-          "More: *\"sur une base mensuelle\" → \"mensuellement\", \"chaque mois\"; *\"en ligne avec\" (in line with) → \"conforme à\", \"en accord avec\"; *\"opportunité\" for 'chance' is widespread but \"occasion\" is the better word; *\"adresser un problème\" → \"traiter / régler un problème\".",
         ],
         examples: [
           { es: "Merci de m'avoir contacté.", en: "Thank you for contacting me." },
           { es: "Je vous recontacte à ce sujet dans les prochains jours.", en: "I'll get back to you about this in the next few days." },
           { es: "Je suis disponible pour un appel mardi.", en: "I'm available for a call on Tuesday." },
-          { es: "Le rapport est mis à jour chaque mois.", en: "The report is updated on a monthly basis." },
-          { es: "Cette décision est conforme à notre stratégie.", en: "This decision is in line with our strategy." },
-          { es: "Nous devons régler ce problème rapidement.", en: "We need to address this problem quickly." },
         ],
         checkpoint: [
           {
@@ -763,11 +1118,41 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "\"Merci de\" + infinitive (past infinitive for something done); \"merci pour\" only before a noun.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Je suis disponible pour une réunion sur jeudi.",
+            answer: "Je suis disponible pour une réunion jeudi.",
+            explanation: "No preposition before a day of the week: \"jeudi\", not \"sur jeudi\" (a calque of 'on Thursday').",
+          },
+        ],
+      },
+      {
+        heading: "More calques: monthly, in line with, address",
+        body: [
+          "More: *\"sur une base mensuelle\" → \"mensuellement\", \"chaque mois\"; *\"en ligne avec\" (in line with) → \"conforme à\", \"en accord avec\"; *\"opportunité\" for 'chance' is widespread but \"occasion\" is the better word; *\"adresser un problème\" → \"traiter / régler un problème\".",
+        ],
+        examples: [
+          { es: "Le rapport est mis à jour chaque mois.", en: "The report is updated on a monthly basis." },
+          { es: "Cette décision est conforme à notre stratégie.", en: "This decision is in line with our strategy." },
+          { es: "Nous devons régler ce problème rapidement.", en: "We need to address this problem quickly." },
+        ],
+        checkpoint: [
+          {
             type: "multiple-choice",
             question: "Which is the best French for 'This is in line with our values'?",
             options: ["C'est conforme à nos valeurs.", "C'est en ligne avec nos valeurs.", "C'est sur la ligne de nos valeurs.", "C'est dans la ligne avec nos valeurs."],
             correctIndex: 0,
             explanation: "\"En ligne avec\" is a calque; \"conforme à\" or \"en accord avec\" is correct French.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to careful French.",
+            source: "Nous devons adresser ce problème sur une base mensuelle.",
+            answer: "Nous devons traiter ce problème chaque mois.",
+            altAnswers: ["Nous devons régler ce problème chaque mois.", "Nous devons traiter ce problème mensuellement.", "Nous devons régler ce problème mensuellement.", "Nous devons traiter ce problème tous les mois.", "Nous devons régler ce problème tous les mois."],
+            explanation: "\"Adresser un problème\" and \"sur une base mensuelle\" are calques: say \"traiter\" or \"régler un problème\", and \"chaque mois\" or \"mensuellement\".",
           },
         ],
       },
@@ -812,35 +1197,11 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error in \"*Au final, on a gagné.\" and write the corrected French (careful style).",
-        source: "In the end, we won.",
-        answer: "Finalement, nous avons gagné.",
-        altAnswers: ["En fin de compte, nous avons gagné.", "Finalement, on a gagné.", "En fin de compte, on a gagné.", "Au bout du compte, nous avons gagné."],
-        explanation: "\"Au final\" is criticised; \"finalement\" or \"en fin de compte\" is safe.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "She's very good [at] languages.",
-        sentence: "Elle est très douée ___ les langues.",
-        answer: "pour",
-        explanation: "\"Doué pour\" (or \"bon en\"), never a calque of 'at'.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
         prompt: "Translate into French.",
         source: "The job consists of managing a team of ten.",
         answer: "Le poste consiste à gérer une équipe de dix personnes.",
         altAnswers: ["Le travail consiste à gérer une équipe de dix personnes.", "Le poste consiste à encadrer une équipe de dix personnes."],
         explanation: "\"Consister à\" + infinitive (\"consister en\" + noun).",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Je l'ai vu à la télé hier soir.", "Je l'ai vu sur la télé hier soir.", "Je l'ai vu dans la télé hier soir.", "Je l'ai vu par la télé hier soir."],
-        correctIndex: 0,
-        explanation: "Programmes: \"à la télé\", \"à la radio\".",
       },
       {
         type: "word-order",
@@ -859,14 +1220,14 @@ export const FR_C1_U07: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Merci de m'avoir contacté.",
+        audio: "Merci de nous avoir prévenus à temps.",
         explanation: "\"Merci de\" + past infinitive.",
       },
       {
         type: "speak",
-        text: "Je suis responsable de la communication interne.",
-        prompt: "Say it in French: I'm responsible for internal communication.",
-        explanation: "\"Responsable de\", not *\"pour\".",
+        text: "Je suis chargée des relations avec la presse.",
+        prompt: "Say it in French: I'm in charge of press relations.",
+        explanation: "\"Chargé de\" (here \"chargée des\") is the careful French for 'in charge of'.",
       },
     ],
   },
@@ -882,16 +1243,11 @@ export const FR_C1_U07: Lesson[] = [
         heading: "À for purpose, de for contents",
         body: [
           "French builds compound nouns with a preposition where English just stacks nouns. Two prepositions compete. \"À\" gives the purpose or function: \"une tasse à café\" (a coffee cup, for coffee), \"un verre à vin\", \"une brosse à dents\", \"une boîte à outils\". \"De\" gives the contents or a quantity: \"une tasse de café\" (a cup of coffee, full of it), \"un verre de vin\", \"une boîte de chocolats\".",
-          "So in a café you order \"une tasse de thé\", and in a shop you buy \"des tasses à thé\". In an inventory or a contract (furnished-flat lists, insurance claims), the difference matters.",
-          "\"À\" + infinitive also gives function: \"une machine à laver\", \"une salle à manger\", \"une machine à coudre\", \"du papier à lettres\". And \"à\" introduces a characteristic feature: \"un bateau à voile\", \"un moulin à vent\", \"une chemise à manches courtes\", \"la fille aux cheveux roux\".",
         ],
         examples: [
           { es: "Je voudrais une tasse de café, s'il vous plaît.", en: "I'd like a cup of coffee, please." },
           { es: "L'appartement est livré avec six tasses à café.", en: "The flat comes with six coffee cups." },
           { es: "N'oublie pas ta brosse à dents.", en: "Don't forget your toothbrush." },
-          { es: "La machine à laver est en panne depuis lundi.", en: "The washing machine has been broken since Monday." },
-          { es: "Il a acheté un bateau à voile d'occasion.", en: "He bought a second-hand sailing boat." },
-          { es: "Une chemise à manches courtes suffira.", en: "A short-sleeved shirt will do." },
         ],
         checkpoint: [
           {
@@ -914,29 +1270,72 @@ export const FR_C1_U07: Lesson[] = [
         ],
       },
       {
-        heading: "De for belonging, type and origin",
+        heading: "Why it matters in an inventory",
+        body: [
+          "So in a café you order \"une tasse de thé\", and in a shop you buy \"des tasses à thé\". In an inventory or a contract (furnished-flat lists, insurance claims), the difference matters.",
+        ],
+        examples: [
+          { es: "L'inventaire compte huit verres à eau.", en: "The inventory lists eight water glasses." },
+          { es: "Il a cassé un verre à vin en le lavant.", en: "He broke a wine glass while washing it." },
+          { es: "Elle a bu un verre de vin avec le dîner.", en: "She had a glass of wine with dinner." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "In a café, which is the natural order?",
+            options: ["Un verre de vin rouge, s'il vous plaît.", "Un verre à vin rouge, s'il vous plaît.", "Un verre en vin rouge, s'il vous plaît.", "Un vin de verre rouge, s'il vous plaît."],
+            correctIndex: 0,
+            explanation: "You want the wine itself: contents → \"de\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Pour l'inventaire : six tasses de thé en porcelaine.",
+            answer: "Pour l'inventaire : six tasses à thé en porcelaine.",
+            explanation: "Empty cups listed in an inventory are cups for tea: \"à\" for purpose. \"Des tasses de thé\" would be cups full of tea.",
+          },
+        ],
+      },
+      {
+        heading: "À + infinitive, and distinctive features",
+        body: [
+          "\"À\" + infinitive also gives function: \"une machine à laver\", \"une salle à manger\", \"une machine à coudre\", \"du papier à lettres\". And \"à\" introduces a characteristic feature: \"un bateau à voile\", \"un moulin à vent\", \"une chemise à manches courtes\", \"la fille aux cheveux roux\".",
+        ],
+        examples: [
+          { es: "La machine à laver est en panne depuis lundi.", en: "The washing machine has been broken since Monday." },
+          { es: "Il a acheté un bateau à voile d'occasion.", en: "He bought a second-hand sailing boat." },
+          { es: "Une chemise à manches courtes suffira.", en: "A short-sleeved shirt will do." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say: a sewing machine",
+            options: ["une machine de coudre", "une coudre machine", "une machine à coudre", "une machine en couture"],
+            correctIndex: 2,
+            explanation: "\"À\" + infinitive gives the function: \"une machine à coudre\", like \"une machine à laver\".",
+          },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The girl [with red hair] is my cousin.",
+            sentence: "La fille ___ est ma cousine.",
+            answer: "aux cheveux roux",
+            explanation: "A characteristic feature: \"à\" + article (\"aux cheveux roux\").",
+          },
+        ],
+      },
+      {
+        heading: "De for belonging and type",
         body: [
           "\"De\" also marks belonging and type: \"la clé du bureau\" (the office key), \"la porte d'entrée\", \"le directeur de l'agence\", \"une salle de bains\", \"un billet de train\", \"un professeur de maths\", \"une agence de voyages\", \"un vin de Bourgogne\".",
-          "Notice the difference between the article and no article: \"la clé du bureau\" is the key of one particular office; \"une clé de bureau\" is an office-type key. \"Un billet de train\", \"une carte de crédit\" have no article because they name a type.",
-          "English compounds like 'a hotel room', 'a city map', 'a job interview' all become \"de\" + noun: \"une chambre d'hôtel\", \"un plan de la ville\", \"un entretien d'embauche\".",
         ],
         examples: [
           { es: "Qui a la clé du bureau ?", en: "Who has the office key?" },
           { es: "J'ai perdu mon billet de train.", en: "I've lost my train ticket." },
-          { es: "Elle a un entretien d'embauche à 10 heures.", en: "She has a job interview at 10." },
           { es: "La salle de bains est au fond du couloir.", en: "The bathroom is at the end of the corridor." },
-          { es: "C'est un excellent vin de Bourgogne.", en: "It's an excellent Burgundy wine." },
-          { es: "Le directeur de l'agence vous recevra lundi.", en: "The branch manager will see you on Monday." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "I have a job interview tomorrow.",
-            answer: "J'ai un entretien d'embauche demain.",
-            explanation: "English noun + noun → \"un entretien d'embauche\".",
-          },
           {
             type: "word-order",
             prompt: "Put the words in order to say: Who has the key to the meeting room?",
@@ -947,19 +1346,57 @@ export const FR_C1_U07: Lesson[] = [
         ],
       },
       {
+        heading: "With or without the article",
+        body: [
+          "Notice the difference between the article and no article: \"la clé du bureau\" is the key of one particular office; \"une clé de bureau\" is an office-type key. \"Un billet de train\", \"une carte de crédit\" have no article because they name a type.",
+        ],
+        examples: [
+          { es: "Le directeur de l'agence vous recevra lundi.", en: "The branch manager will see you on Monday." },
+          { es: "C'est une clé de voiture, pas une clé de maison.", en: "It's a car key, not a house key." },
+          { es: "Où est la clé de la voiture ?", en: "Where's the car key?" },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "Where is the hotel room key?",
+            answer: "Où est la clé de la chambre d'hôtel ?",
+            altAnswers: ["Où est la clef de la chambre d'hôtel ?", "Où est la clé de la chambre ?"],
+            explanation: "Belonging (\"de la chambre\") + type (\"d'hôtel\").",
+          },
+        ],
+      },
+      {
+        heading: "English compounds become de + noun",
+        body: [
+          "English compounds like 'a hotel room', 'a city map', 'a job interview' all become \"de\" + noun: \"une chambre d'hôtel\", \"un plan de la ville\", \"un entretien d'embauche\".",
+        ],
+        examples: [
+          { es: "Elle a un entretien d'embauche à 10 heures.", en: "She has a job interview at 10." },
+          { es: "C'est un excellent vin de Bourgogne.", en: "It's an excellent Burgundy wine." },
+          { es: "Je cherche un plan de la ville.", en: "I'm looking for a city map." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "I have a job interview tomorrow.",
+            answer: "J'ai un entretien d'embauche demain.",
+            explanation: "English noun + noun → \"un entretien d'embauche\".",
+          },
+        ],
+      },
+      {
         heading: "Materials: en or de",
         body: [
           "For what something is made of, French uses \"en\" or \"de\". \"En\" is the more common and neutral choice, especially in descriptions and catalogues: \"une table en bois\", \"une bague en or\", \"un sac en cuir\", \"une maison en pierre\". \"De\" is more literary or fixed: \"un pull de laine\", \"une bague d'or\", \"un cœur de pierre\" (figurative).",
-          "In a product listing or a lost-property form, \"en\" is the safe choice: \"veste en coton\", \"montre en acier inoxydable\". \"De\" survives in set phrases: \"un fil de fer\", \"une robe de soie\" (literary), \"une salle de marbre\".",
-          "Figurative uses take \"de\": \"une volonté de fer\" (an iron will), \"un cœur d'or\" (a heart of gold), \"des nerfs d'acier\".",
         ],
         examples: [
           { es: "Nous cherchons une table en chêne massif.", en: "We're looking for a solid oak table." },
           { es: "J'ai perdu une montre en acier avec un bracelet en cuir.", en: "I've lost a steel watch with a leather strap." },
-          { es: "Ma grand-mère m'a tricoté un pull de laine.", en: "My grandmother knitted me a wool jumper." },
           { es: "C'est une vieille maison en pierre.", en: "It's an old stone house." },
-          { es: "Elle a une volonté de fer.", en: "She has an iron will." },
-          { es: "Il a un cœur d'or.", en: "He has a heart of gold." },
         ],
         checkpoint: [
           {
@@ -973,17 +1410,39 @@ export const FR_C1_U07: Lesson[] = [
           },
           {
             type: "speak",
-            text: "J'ai perdu une montre en acier avec un bracelet en cuir.",
-            prompt: "Say it in French: I've lost a steel watch with a leather strap.",
-            explanation: "\"En\" + material, twice.",
+            text: "J'ai perdu un portefeuille en cuir marron.",
+            prompt: "Say it in French: I've lost a brown leather wallet.",
+            explanation: "\"En\" for the material is the safe, neutral choice in a lost-property description.",
           },
+        ],
+      },
+      {
+        heading: "Listings take en; set phrases and images take de",
+        body: [
+          "In a product listing or a lost-property form, \"en\" is the safe choice: \"veste en coton\", \"montre en acier inoxydable\". \"De\" survives in set phrases: \"un fil de fer\", \"une robe de soie\" (literary), \"une salle de marbre\".",
+          "Figurative uses take \"de\": \"une volonté de fer\" (an iron will), \"un cœur d'or\" (a heart of gold), \"des nerfs d'acier\".",
+        ],
+        examples: [
+          { es: "Ma grand-mère m'a tricoté un pull de laine.", en: "My grandmother knitted me a wool jumper." },
+          { es: "Elle a une volonté de fer.", en: "She has an iron will." },
+          { es: "Il a un cœur d'or.", en: "He has a heart of gold." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
-            audio: "Il a un cœur d'or.",
+            audio: "Elle a des nerfs d'acier.",
             question: "What does it mean?",
-            options: ["He has a heart of gold.", "He has a golden heart pendant.", "He has a hard heart.", "He's made of gold."],
+            options: ["She has nerves of steel.", "She has steel wires.", "She's very nervous.", "She's made of steel."],
             correctIndex: 0,
-            explanation: "Figurative material: \"de\".",
+            explanation: "Figurative uses take \"de\": \"des nerfs d'acier\" = nerves of steel, a very calm person.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to catalogue style.",
+            source: "Une robe de soie bleue.",
+            answer: "Une robe en soie bleue.",
+            explanation: "\"De\" for a material is literary; product listings use \"en\": \"une robe en soie\".",
           },
         ],
       },
@@ -1026,36 +1485,12 @@ export const FR_C1_U07: Lesson[] = [
         explanation: "Material: \"en or\" (neutral) or \"d'or\" (literary).",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Where is the hotel room key?",
-        answer: "Où est la clé de la chambre d'hôtel ?",
-        altAnswers: ["Où est la clef de la chambre d'hôtel ?", "Où est la clé de la chambre ?"],
-        explanation: "Belonging (\"de la chambre\") + type (\"d'hôtel\").",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The girl [with red hair] is my cousin.",
-        sentence: "La fille ___ est ma cousine.",
-        answer: "aux cheveux roux",
-        explanation: "A characteristic feature: \"à\" + article (\"aux cheveux roux\").",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "There's a [box of chocolates] on the table.",
         sentence: "Il y a une ___ sur la table.",
         answer: "boîte de chocolats",
         explanation: "Contents: \"une boîte de chocolats\".",
-      },
-      {
-        type: "multiple-choice",
-        question: "In a café, which is the natural order?",
-        options: ["Un verre de vin rouge, s'il vous plaît.", "Un verre à vin rouge, s'il vous plaît.", "Un verre en vin rouge, s'il vous plaît.", "Un vin de verre rouge, s'il vous plaît."],
-        correctIndex: 0,
-        explanation: "You want the wine itself: contents → \"de\".",
       },
       {
         type: "translate",
@@ -1080,9 +1515,9 @@ export const FR_C1_U07: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Je voudrais une tasse de café, s'il vous plaît.",
-        prompt: "Say it in French: I'd like a cup of coffee, please.",
-        explanation: "Contents: \"de\".",
+        text: "Je voudrais un verre de jus d'orange, s'il vous plaît.",
+        prompt: "Say it in French: I'd like a glass of orange juice, please.",
+        explanation: "\"Un verre de\": a glass full of something, so \"de\" for contents.",
       },
     ],
   },
@@ -1095,19 +1530,14 @@ export const FR_C1_U07: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "Sur: basis, place, proportion",
+        heading: "Sur: a basis or condition",
         body: [
           "Beyond 'on', \"sur\" has professional uses English expresses differently. Basis or condition: \"sur rendez-vous\" (by appointment), \"sur demande\" (on request), \"sur présentation d'un justificatif\" (on presentation of proof), \"sur ordonnance\" (on prescription), \"sur recommandation\".",
-          "Place: \"sur place\" (on site, on the spot; also 'eat in' at a bakery), \"sur Lyon\" (spoken, 'in the Lyon area': common but informal; write \"à Lyon\" or \"dans la région lyonnaise\").",
-          "Proportion and measurement: \"un sur dix\" (one in ten), \"neuf fois sur dix\", \"une note de 15 sur 20\", \"une pièce de 4 mètres sur 5\" (4 by 5 metres). And topic: \"un rapport sur la sécurité\", \"une conférence sur le climat\".",
         ],
         examples: [
           { es: "Le cabinet reçoit uniquement sur rendez-vous.", en: "The practice sees patients by appointment only." },
           { es: "Ce médicament est délivré sur ordonnance.", en: "This medicine is only available on prescription." },
-          { es: "Sur place ou à emporter ?", en: "Eat in or take away?" },
-          { es: "Un salarié sur cinq travaille à distance.", en: "One employee in five works remotely." },
-          { es: "Elle a eu 17 sur 20 à l'oral.", en: "She got 17 out of 20 in the oral exam." },
-          { es: "Le salon fait 5 mètres sur 4.", en: "The living room is 5 metres by 4." },
+          { es: "Le remboursement se fait sur présentation du ticket.", en: "Refunds are made on presentation of the receipt." },
         ],
         checkpoint: [
           {
@@ -1120,6 +1550,57 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "\"Sur rendez-vous\" = by appointment.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The brochure is available on request.",
+            answer: "La brochure est disponible sur demande.",
+            altAnswers: ["La plaquette est disponible sur demande.", "La brochure est envoyée sur demande."],
+            explanation: "\"Sur demande\" = on request.",
+          },
+        ],
+      },
+      {
+        heading: "Sur place, and the spoken sur Lyon",
+        body: [
+          "Place: \"sur place\" (on site, on the spot; also 'eat in' at a bakery), \"sur Lyon\" (spoken, 'in the Lyon area': common but informal; write \"à Lyon\" or \"dans la région lyonnaise\").",
+        ],
+        examples: [
+          { es: "Sur place ou à emporter ?", en: "Eat in or take away?" },
+          { es: "Nous réglerons les détails sur place.", en: "We'll sort out the details on site." },
+          { es: "Il travaille à Lyon depuis deux ans.", en: "He's been working in Lyon for two years." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "At the bakery you're asked « Sur place ou à emporter ? » What does the assistant want to know?",
+            options: ["Where you live", "Whether you want it wrapped as a gift", "Whether you'll pay on the spot", "Whether you'll eat in or take it away"],
+            correctIndex: 3,
+            explanation: "\"Sur place\" = on the spot, here: eaten in the shop; \"à emporter\" = to take away.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Notre agence est implantée sur Bordeaux depuis 2010.",
+            answer: "Notre agence est implantée à Bordeaux depuis 2010.",
+            altAnswers: ["Notre agence est implantée dans la région bordelaise depuis 2010."],
+            explanation: "\"Sur\" + city is spoken and informal; in writing use \"à Bordeaux\" (or \"dans la région bordelaise\").",
+          },
+        ],
+      },
+      {
+        heading: "Proportion, measurement, topic",
+        body: [
+          "Proportion and measurement: \"un sur dix\" (one in ten), \"neuf fois sur dix\", \"une note de 15 sur 20\", \"une pièce de 4 mètres sur 5\" (4 by 5 metres). And topic: \"un rapport sur la sécurité\", \"une conférence sur le climat\".",
+        ],
+        examples: [
+          { es: "Un salarié sur cinq travaille à distance.", en: "One employee in five works remotely." },
+          { es: "Elle a eu 17 sur 20 à l'oral.", en: "She got 17 out of 20 in the oral exam." },
+          { es: "Le salon fait 5 mètres sur 4.", en: "The living room is 5 metres by 4." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "One French person [in three] reads every day.",
@@ -1127,21 +1608,24 @@ export const FR_C1_U07: Lesson[] = [
             answer: "sur trois",
             explanation: "Proportion: \"un Français sur trois\". The noun goes between \"un\" and \"sur\"; *\"un sur trois Français\" is wrong.",
           },
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: The room is 4 metres by 3.",
+            words: ["La pièce", "fait", "4 mètres", "sur 3."],
+            translation: "The room is 4 metres by 3.",
+            explanation: "Dimensions: \"sur\".",
+          },
         ],
       },
       {
-        heading: "Sous: condition and status",
+        heading: "Sous: subject to something",
         body: [
           "\"Sous\" expresses being subject to something. \"Sous peine de\" = on pain of, or else: \"interdit sous peine d'amende\" (prohibited, subject to a fine). \"Sous contrat\" (under contract), \"sous la direction de\" (under the supervision of), \"sous la responsabilité de\", \"sous garantie\" (under warranty), \"sous huitaine\" (Part 1), \"sous réserve de\" (Lesson 3).",
-          "Also: \"sous prétexte que\" (on the pretext that), \"sous forme de\" (in the form of: \"une aide sous forme de prêt\"), \"sous le nom de\" (under the name of), \"sous ce rapport\" (in this respect, formal).",
         ],
         examples: [
           { es: "Stationnement interdit sous peine d'amende.", en: "No parking: offenders will be fined." },
           { es: "Votre ordinateur est encore sous garantie.", en: "Your computer is still under warranty." },
           { es: "Elle a fait sa thèse sous la direction du professeur Martin.", en: "She did her thesis under the supervision of Professor Martin." },
-          { es: "L'aide est versée sous forme de prêt à taux zéro.", en: "The aid is paid in the form of an interest-free loan." },
-          { es: "Il a refusé sous prétexte qu'il était trop occupé.", en: "He refused on the pretext that he was too busy." },
-          { es: "Il voyage sous un faux nom.", en: "He's travelling under a false name." },
         ],
         checkpoint: [
           {
@@ -1163,19 +1647,73 @@ export const FR_C1_U07: Lesson[] = [
         ],
       },
       {
-        heading: "Chez, auprès de, parmi",
+        heading: "Sous prétexte que, sous forme de",
+        body: [
+          "Also: \"sous prétexte que\" (on the pretext that), \"sous forme de\" (in the form of: \"une aide sous forme de prêt\"), \"sous le nom de\" (under the name of), \"sous ce rapport\" (in this respect, formal).",
+        ],
+        examples: [
+          { es: "L'aide est versée sous forme de prêt à taux zéro.", en: "The aid is paid in the form of an interest-free loan." },
+          { es: "Il a refusé sous prétexte qu'il était trop occupé.", en: "He refused on the pretext that he was too busy." },
+          { es: "Il voyage sous un faux nom.", en: "He's travelling under a false name." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "The scholarship is paid in the form of a monthly allowance.",
+            answer: "La bourse est versée sous forme d'allocation mensuelle.",
+            altAnswers: ["La bourse est versée sous la forme d'une allocation mensuelle."],
+            explanation: "\"Sous forme de\" = in the form of.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Il est parti sur prétexte qu'il était malade.",
+            answer: "Il est parti sous prétexte qu'il était malade.",
+            explanation: "The fixed phrase is \"sous prétexte que\" (on the pretext that), with \"sous\", like \"sous forme de\" and \"sous le nom de\".",
+          },
+        ],
+      },
+      {
+        heading: "Chez: people, companies, authors",
         body: [
           "\"Chez\" + a person or company: at someone's place, or working for a company: \"chez le médecin\", \"chez moi\", \"elle travaille chez Renault\", \"un stage chez L'Oréal\". It also means 'in the work of' (\"chez Proust, le temps...\") and 'among' (\"chez les jeunes, ce mot est courant\").",
-          "\"Auprès de\" is the professional preposition for organisations and officials you deal with: \"se renseigner auprès de la mairie\" (ask the town hall), \"déposer une plainte auprès de la police\", \"faire une demande auprès de la CAF\", \"s'excuser auprès de quelqu'un\". It also means 'next to, with' in literary style (\"elle resta auprès de lui\").",
-          "\"Parmi\" = among, for three or more (\"parmi les candidats\"); \"entre\" for two, or in \"entre nous\". Never *\"parmi nous deux\".",
         ],
         examples: [
           { es: "Elle a fait un stage chez Airbus à Toulouse.", en: "She did an internship at Airbus in Toulouse." },
+          { es: "Chez les jeunes, cette expression est très courante.", en: "Among young people, this expression is very common." },
+          { es: "J'ai rendez-vous chez le dentiste à midi.", en: "I have a dentist's appointment at noon." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "He works at Michelin.",
+            answer: "Il travaille chez Michelin.",
+            explanation: "Company: \"chez\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to use \"chez\".",
+            source: "Elle travaille pour la société Renault.",
+            answer: "Elle travaille chez Renault.",
+            explanation: "Working for a company is \"travailler chez\" + its name, with no article.",
+          },
+        ],
+      },
+      {
+        heading: "Auprès de: dealing with organisations",
+        body: [
+          "\"Auprès de\" is the professional preposition for organisations and officials you deal with: \"se renseigner auprès de la mairie\" (ask the town hall), \"déposer une plainte auprès de la police\", \"faire une demande auprès de la CAF\", \"s'excuser auprès de quelqu'un\". It also means 'next to, with' in literary style (\"elle resta auprès de lui\").",
+        ],
+        examples: [
           { es: "Renseignez-vous auprès de votre mairie.", en: "Ask your town hall for information." },
           { es: "Il a déposé plainte auprès de la gendarmerie.", en: "He filed a complaint with the gendarmerie." },
           { es: "Je tiens à m'excuser auprès de vous.", en: "I'd like to apologise to you." },
-          { es: "Parmi les candidats, trois ont été retenus.", en: "Among the candidates, three were shortlisted." },
-          { es: "Chez les jeunes, cette expression est très courante.", en: "Among young people, this expression is very common." },
         ],
         checkpoint: [
           {
@@ -1188,40 +1726,35 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "\"Se renseigner auprès de\" + an organisation.",
           },
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "He works at Michelin.",
-            answer: "Il travaille chez Michelin.",
-            explanation: "Company: \"chez\".",
-          },
-          {
             type: "speak",
-            text: "Je tiens à m'excuser auprès de vous.",
-            prompt: "Say it in French (formal): I'd like to apologise to you.",
-            explanation: "\"S'excuser auprès de quelqu'un\".",
+            text: "Je vais me renseigner auprès de la banque.",
+            prompt: "Say it in French: I'll ask the bank for information.",
+            explanation: "\"Se renseigner auprès de\" + an organisation: the professional way to say ask.",
+          },
+        ],
+      },
+      {
+        heading: "Parmi or entre",
+        body: [
+          "\"Parmi\" = among, for three or more (\"parmi les candidats\"); \"entre\" for two, or in \"entre nous\". Never *\"parmi nous deux\".",
+        ],
+        examples: [
+          { es: "Parmi les candidats, trois ont été retenus.", en: "Among the candidates, three were shortlisted." },
+          { es: "Entre nous, je ne lui fais pas confiance.", en: "Between you and me, I don't trust him." },
+          { es: "Le choix est entre ces deux appartements.", en: "The choice is between these two flats." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Entre nous deux, il n'y a pas de secret.", "Parmi nous deux, il n'y a pas de secret.", "Chez nous deux, il n'y a pas de secret.", "Auprès nous deux, il n'y a pas de secret."],
+            correctIndex: 0,
+            explanation: "Two people: \"entre\"; \"parmi\" needs three or more.",
           },
         ],
       },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Eat in or take away?",
-        answer: "Sur place ou à emporter ?",
-        explanation: "\"Sur place\" = on the premises.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The brochure is available on request.",
-        answer: "La brochure est disponible sur demande.",
-        altAnswers: ["La plaquette est disponible sur demande.", "La brochure est envoyée sur demande."],
-        explanation: "\"Sur demande\" = on request.",
-      },
       {
         type: "translate",
         direction: "en-es",
@@ -1257,29 +1790,6 @@ export const FR_C1_U07: Lesson[] = [
         explanation: "\"Sur présentation de\" = on showing.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "The scholarship is paid in the form of a monthly allowance.",
-        answer: "La bourse est versée sous forme d'allocation mensuelle.",
-        altAnswers: ["La bourse est versée sous la forme d'une allocation mensuelle."],
-        explanation: "\"Sous forme de\" = in the form of.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Entre nous deux, il n'y a pas de secret.", "Parmi nous deux, il n'y a pas de secret.", "Chez nous deux, il n'y a pas de secret.", "Auprès nous deux, il n'y a pas de secret."],
-        correctIndex: 0,
-        explanation: "Two people: \"entre\"; \"parmi\" needs three or more.",
-      },
-      {
-        type: "word-order",
-        prompt: "Put the words in order to say: The room is 4 metres by 3.",
-        words: ["La pièce", "fait", "4 mètres", "sur 3."],
-        translation: "The room is 4 metres by 3.",
-        explanation: "Dimensions: \"sur\".",
-      },
-      {
         type: "listen-choose",
         audio: "Le cabinet reçoit uniquement sur rendez-vous.",
         question: "What does it mean?",
@@ -1289,14 +1799,14 @@ export const FR_C1_U07: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Elle a fait un stage chez Airbus.",
+        audio: "Mon frère est en stage chez Peugeot.",
         explanation: "\"Chez\" + company.",
       },
       {
         type: "speak",
-        text: "Renseignez-vous auprès de votre mairie.",
-        prompt: "Say it in French: Ask your town hall for information.",
-        explanation: "\"Auprès de\" + an organisation.",
+        text: "Déposez votre dossier auprès du secrétariat.",
+        prompt: "Say it in French: Submit your file to the secretary's office.",
+        explanation: "\"Auprès de\" for the office you deal with; \"de\" + \"le\" contracts to \"du\".",
       },
     ],
   },
@@ -1309,9 +1819,28 @@ export const FR_C1_U07: Lesson[] = [
     duration: "19 min",
     sections: [
       {
-        heading: "The situation and the opening",
+        heading: "The situation",
         body: [
           "You work for an office-furniture supplier in Nantes. A client, M. Lefèvre of the firm Batiself, has ordered 25 desks and 25 chairs. You must confirm the order: quantities and materials, price per unit, delivery window, payment terms, deadlines for changes, and a contact. The email must be unambiguous, because it will serve as proof if there's a dispute.",
+        ],
+        examples: [
+          { es: "Nous avons le plaisir de vous confirmer votre commande.", en: "We are pleased to confirm your order." },
+          { es: "Le prix unitaire s'élève à 320 euros hors taxes.", en: "The unit price is 320 euros excluding VAT." },
+          { es: "La commande porte sur 25 bureaux et 25 fauteuils.", en: "The order covers 25 desks and 25 chairs." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Why must this email be unambiguous?",
+            options: ["It will be published online.", "The client doesn't read French well.", "It replaces the invoice.", "It will serve as proof if there's a dispute."],
+            correctIndex: 3,
+            explanation: "A confirmation email is evidence: every date, amount and deadline must have one reading, so each preposition is chosen deliberately.",
+          },
+        ],
+      },
+      {
+        heading: "The opening",
+        body: [
           "Opening: \"Monsieur, Suite à notre entretien téléphonique du 3 juin et conformément à votre bon de commande n° 4521, nous avons le plaisir de vous confirmer votre commande de 25 bureaux en chêne et de 25 fauteuils de bureau à roulettes.\"",
           "Prepositions so far: \"suite à\" (following), \"conformément à\" (in accordance with), \"de\" for type (\"fauteuils de bureau\"), \"en\" for material (\"en chêne\"), \"à\" for a feature (\"à roulettes\").",
         ],
@@ -1319,8 +1848,6 @@ export const FR_C1_U07: Lesson[] = [
           { es: "Suite à notre entretien téléphonique du 3 juin...", en: "Following our phone conversation of 3 June..." },
           { es: "Conformément à votre bon de commande n° 4521...", en: "In accordance with your purchase order no. 4521..." },
           { es: "25 bureaux en chêne et 25 fauteuils de bureau à roulettes", en: "25 oak desks and 25 office chairs on castors" },
-          { es: "Nous avons le plaisir de vous confirmer votre commande.", en: "We are pleased to confirm your order." },
-          { es: "Le prix unitaire s'élève à 320 euros hors taxes.", en: "The unit price is 320 euros excluding VAT." },
         ],
         checkpoint: [
           {
@@ -1346,41 +1873,91 @@ export const FR_C1_U07: Lesson[] = [
         heading: "Dates, deadlines and payment",
         body: [
           "The core of the email: \"La livraison sera effectuée dans un délai de trois semaines à compter de la réception de l'acompte, soit au plus tard le 5 juillet. Toute modification de la commande devra nous être communiquée par écrit d'ici le 15 juin. Le montant total s'élève à 12 500 euros hors taxes, soit 500 euros par poste de travail. Un acompte de 30 % est payable par virement sous huitaine ; le solde sera réglé à la livraison.\"",
-          "Notice \"soit\" (that is, i.e.) to restate a figure or date precisely, and \"à la livraison\" (on delivery), \"à réception de la facture\" (on receipt of the invoice), \"à 30 jours\" (payment within 30 days).",
-          "Every deadline is anchored: \"à compter de\" what? \"d'ici\" when? \"au plus tard\" which date? Ambiguity in a business email costs money.",
         ],
         examples: [
           { es: "La livraison sera effectuée dans un délai de trois semaines.", en: "Delivery will take place within three weeks." },
           { es: "à compter de la réception de l'acompte, soit au plus tard le 5 juillet", en: "from receipt of the deposit, that is, no later than 5 July" },
           { es: "Toute modification devra nous être communiquée par écrit d'ici le 15 juin.", en: "Any change must be sent to us in writing by 15 June." },
           { es: "Un acompte de 30 % est payable par virement sous huitaine.", en: "A 30% deposit is payable by bank transfer within a week." },
-          { es: "Le solde sera réglé à la livraison.", en: "The balance will be paid on delivery." },
-          { es: "La facture est payable à 30 jours.", en: "The invoice is payable within 30 days." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French (business email).",
-            source: "The balance will be paid on delivery.",
-            answer: "Le solde sera réglé à la livraison.",
-            altAnswers: ["Le solde sera payé à la livraison.", "Le solde est payable à la livraison."],
-            explanation: "\"À la livraison\" = on delivery.",
+            source: "The deposit will be paid on signature.",
+            answer: "L'acompte sera réglé à la signature.",
+            altAnswers: ["L'acompte sera versé à la signature.", "L'acompte sera payé à la signature."],
+            explanation: "\"À\" + the moment of an event: \"à la signature\", like \"à la livraison\".",
           },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French (business email).",
-            source: "Any change must be sent to us in writing by 15 June.",
-            answer: "Toute modification devra nous être communiquée par écrit d'ici le 15 juin.",
-            altAnswers: ["Toute modification doit nous être communiquée par écrit d'ici le 15 juin.", "Toute modification devra nous être communiquée par écrit avant le 15 juin.", "Toute modification devra nous être transmise par écrit d'ici le 15 juin."],
-            explanation: "\"Par écrit\" (manner) + \"d'ici le\" (deadline).",
+            source: "Please let us know of any cancellation by 30 June at the latest.",
+            answer: "Merci de nous signaler toute annulation au plus tard le 30 juin.",
+            altAnswers: ["Merci de nous signaler toute annulation d'ici le 30 juin au plus tard.", "Merci de nous communiquer toute annulation au plus tard le 30 juin."],
+            explanation: "\"Au plus tard le\" + date anchors the deadline precisely.",
+          },
+        ],
+      },
+      {
+        heading: "Soit, à la livraison, à réception",
+        body: [
+          "Notice \"soit\" (that is, i.e.) to restate a figure or date precisely, and \"à la livraison\" (on delivery), \"à réception de la facture\" (on receipt of the invoice), \"à 30 jours\" (payment within 30 days).",
+        ],
+        examples: [
+          { es: "Le solde sera réglé à la livraison.", en: "The balance will be paid on delivery." },
+          { es: "La facture est payable à 30 jours.", en: "The invoice is payable within 30 days." },
+          { es: "Le loyer s'élève à 900 euros, soit 10 800 euros par an.", en: "The rent is 900 euros, that is 10,800 euros a year." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "The invoice is payable [on receipt].",
+            sentence: "La facture est payable ___.",
+            answer: "à réception",
+            altAnswers: ["dès réception"],
+            explanation: "\"À réception\" = on receipt.",
           },
           {
-            type: "speak",
-            text: "Un acompte de trente pour cent est payable par virement sous huitaine.",
-            prompt: "Say it in French: A 30% deposit is payable by bank transfer within a week.",
-            explanation: "\"Par virement\" (means), \"sous huitaine\" (deadline).",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "La facture est payable sur réception.",
+            answer: "La facture est payable à réception.",
+            altAnswers: ["La facture est payable dès réception."],
+            explanation: "Payment terms take \"à\": \"à réception\", \"à la livraison\", \"à 30 jours\". \"Sur réception\" is a calque.",
+          },
+        ],
+      },
+      {
+        heading: "Anchor every deadline",
+        body: [
+          "Every deadline is anchored: \"à compter de\" what? \"d'ici\" when? \"au plus tard\" which date? Ambiguity in a business email costs money.",
+        ],
+        examples: [
+          { es: "Livraison sous dix jours à compter de la commande.", en: "Delivery within ten days of the order." },
+          { es: "Merci de nous répondre d'ici vendredi.", en: "Please reply by Friday." },
+          { es: "Le dossier doit être complet au plus tard le 1er mars.", en: "The file must be complete by 1 March at the latest." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence sets a clear deadline?",
+            options: ["Merci de confirmer au plus tard le 12 mai.", "Merci de confirmer par le 12 mai.", "Merci de confirmer sur le 12 mai.", "Merci de confirmer dans le 12 mai."],
+            correctIndex: 0,
+            explanation: "\"Au plus tard le\" (or \"d'ici le\"): the others are calques or wrong.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it precise: the deadline is 30 April.",
+            source: "Merci de régler la facture bientôt.",
+            answer: "Merci de régler la facture au plus tard le 30 avril.",
+            altAnswers: ["Merci de régler la facture d'ici le 30 avril.", "Merci de régler la facture avant le 30 avril.", "Merci de régler la facture d'ici le 30 avril au plus tard."],
+            explanation: "\"Bientôt\" is vague; anchor the deadline with \"au plus tard le\" (or \"d'ici le\") + the date.",
           },
         ],
       },
@@ -1388,14 +1965,32 @@ export const FR_C1_U07: Lesson[] = [
         heading: "Closing: contact and courtesy",
         body: [
           "End with the practical contact and the formula: \"Pour toute question relative à cette commande, vous pouvez vous adresser à Mme Roux, chargée de clientèle, au 02 40 12 34 56 ou par courriel. Nous restons à votre disposition pour tout renseignement complémentaire. Nous vous prions d'agréer, Monsieur, l'expression de nos salutations distinguées.\"",
-          "\"Relative à\" (relating to), \"s'adresser à\" (to contact), \"au\" + phone number, \"par courriel\", \"à votre disposition\". \"Chargée de clientèle\" uses \"chargé de\", not *\"en charge de\".",
         ],
         examples: [
           { es: "Pour toute question relative à cette commande...", en: "For any question about this order..." },
-          { es: "vous pouvez vous adresser à Mme Roux, chargée de clientèle", en: "you can contact Mrs Roux, account manager" },
-          { es: "au 02 40 12 34 56 ou par courriel", en: "on 02 40 12 34 56 or by email" },
           { es: "Nous restons à votre disposition pour tout renseignement complémentaire.", en: "We remain at your disposal for any further information." },
           { es: "Nous vous prions d'agréer, Monsieur, l'expression de nos salutations distinguées.", en: "Yours faithfully." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Nous restons à votre disposition pour tout renseignement complémentaire.",
+            question: "What does it mean?",
+            options: ["We remain at your disposal for any further information.", "We are waiting for your additional information.", "We need more information from you.", "We will send you further information."],
+            correctIndex: 0,
+            explanation: "The standard closing offer of help.",
+          },
+        ],
+      },
+      {
+        heading: "Relative à, s'adresser à, chargé de",
+        body: [
+          "\"Relative à\" (relating to), \"s'adresser à\" (to contact), \"au\" + phone number, \"par courriel\", \"à votre disposition\". \"Chargée de clientèle\" uses \"chargé de\", not *\"en charge de\".",
+        ],
+        examples: [
+          { es: "vous pouvez vous adresser à Mme Roux, chargée de clientèle", en: "you can contact Mrs Roux, account manager" },
+          { es: "au 02 40 12 34 56 ou par courriel", en: "on 02 40 12 34 56 or by email" },
+          { es: "Elle est chargée des commandes internationales.", en: "She's in charge of international orders." },
         ],
         checkpoint: [
           {
@@ -1408,12 +2003,13 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "\"Relative à\" / \"concernant\"; \"s'adresser à\" a department.",
           },
           {
-            type: "listen-choose",
-            audio: "Nous restons à votre disposition pour tout renseignement complémentaire.",
-            question: "What does it mean?",
-            options: ["We remain at your disposal for any further information.", "We are waiting for your additional information.", "We need more information from you.", "We will send you further information."],
-            correctIndex: 0,
-            explanation: "The standard closing offer of help.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Mme Roux, en charge de la clientèle, vous répondra.",
+            answer: "Mme Roux, chargée de clientèle, vous répondra.",
+            altAnswers: ["Mme Roux, chargée de la clientèle, vous répondra."],
+            explanation: "Careful business French prefers \"chargé(e) de\" to the criticised calque \"en charge de\".",
           },
         ],
       },
@@ -1432,10 +2028,10 @@ export const FR_C1_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French (business email).",
-        source: "The unit price is 85 euros excluding VAT.",
-        answer: "Le prix unitaire s'élève à 85 euros hors taxes.",
-        altAnswers: ["Le prix unitaire est de 85 euros hors taxes.", "Le prix unitaire est de 85 euros HT.", "Le prix unitaire s'élève à 85 euros HT."],
-        explanation: "\"S'élever à\" = to amount to; \"hors taxes\" (HT).",
+        source: "The unit price is 140 euros including VAT.",
+        answer: "Le prix unitaire est de 140 euros toutes taxes comprises.",
+        altAnswers: ["Le prix unitaire s'élève à 140 euros toutes taxes comprises.", "Le prix unitaire est de 140 euros TTC.", "Le prix unitaire s'élève à 140 euros TTC."],
+        explanation: "\"S'élever à\" or \"être de\" + amount; 'including VAT' is \"toutes taxes comprises\" (TTC).",
       },
       {
         type: "translate",
@@ -1447,15 +2043,6 @@ export const FR_C1_U07: Lesson[] = [
         explanation: "\"Dans un délai de\" + \"à compter de\": a deadline with its starting point.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "The invoice is payable [on receipt].",
-        sentence: "La facture est payable ___.",
-        answer: "à réception",
-        altAnswers: ["dès réception"],
-        explanation: "\"À réception\" = on receipt.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French (business email).",
@@ -1463,13 +2050,6 @@ export const FR_C1_U07: Lesson[] = [
         answer: "Le montant total s'élève à 6 000 euros, soit 150 euros par unité.",
         altAnswers: ["Le total s'élève à 6 000 euros, soit 150 euros par unité.", "Le montant total s'élève à 6 000 euros, soit 150 euros l'unité.", "Le montant total est de 6 000 euros, soit 150 euros par unité."],
         explanation: "\"Soit\" restates a figure precisely; \"par unité\" for the rate.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence sets a clear deadline?",
-        options: ["Merci de confirmer au plus tard le 12 mai.", "Merci de confirmer par le 12 mai.", "Merci de confirmer sur le 12 mai.", "Merci de confirmer dans le 12 mai."],
-        correctIndex: 0,
-        explanation: "\"Au plus tard le\" (or \"d'ici le\"): the others are calques or wrong.",
       },
       {
         type: "translate",
@@ -1489,23 +2069,22 @@ export const FR_C1_U07: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Le solde sera réglé à la livraison.",
+        audio: "Le solde sera versé à réception de la facture.",
         explanation: "\"À la livraison\" = on delivery.",
       },
       {
         type: "speak",
-        text: "Nous avons le plaisir de vous confirmer votre commande.",
-        prompt: "Say it in French: We are pleased to confirm your order.",
-        explanation: "A standard business opening.",
+        text: "Nous avons le plaisir de vous adresser notre devis.",
+        prompt: "Say it in French: We are pleased to send you our quote.",
+        explanation: "\"Avoir le plaisir de\" + infinitive: the standard courteous opener.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (business email).",
-        source: "Please send us any changes in writing.",
+        prompt: "Correct the sentence.",
+        source: "Merci de nous communiquer toute modification en écrit.",
         answer: "Merci de nous communiquer toute modification par écrit.",
-        altAnswers: ["Veuillez nous communiquer toute modification par écrit.", "Merci de nous transmettre toute modification par écrit.", "Merci de nous faire part de toute modification par écrit."],
-        explanation: "\"Par écrit\"; \"toute modification\" = any change.",
+        explanation: "'In writing' is the fixed phrase \"par écrit\", with no article.",
       },
     ],
   },
@@ -1518,20 +2097,23 @@ export const FR_C1_U07: Lesson[] = [
     duration: "17 min",
     sections: [
       {
-        heading: "En ce qui concerne and concernant: the neutral topic markers",
+        heading: "En ce qui concerne: the neutral topic marker",
         body: [
           "To introduce a new topic ('as for', 'regarding', 'as far as... is concerned'), the neutral workhorse is \"en ce qui concerne\": \"En ce qui concerne le budget, nous attendons la validation.\" It's correct in every register and in every position, usually at the head of the sentence.",
-          "Shorter variants: \"concernant\" (\"concernant votre demande, ...\"), \"pour ce qui est de\" (slightly spoken), \"au sujet de\" (about), \"à propos de\" (about, by the way). In an email subject or a heading: \"Objet : votre demande de remboursement\".",
-          "Trap: \"en ce qui me concerne\" means 'as far as I'm concerned', 'for my part', not 'what worries me'.",
         ],
         examples: [
           { es: "En ce qui concerne le budget, nous attendons la validation.", en: "As regards the budget, we're waiting for approval." },
           { es: "Concernant votre demande, je vous réponds dès demain.", en: "Regarding your request, I'll reply tomorrow." },
-          { es: "Pour ce qui est des horaires, rien ne change.", en: "As for the schedule, nothing changes." },
-          { es: "En ce qui me concerne, je suis prêt à signer.", en: "As far as I'm concerned, I'm ready to sign." },
-          { es: "Je vous écris au sujet de la réunion de jeudi.", en: "I'm writing about Thursday's meeting." },
+          { es: "En ce qui concerne les congés, adressez-vous aux RH.", en: "As for leave, please speak to HR." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is the best first line of an email about the budget?",
+            options: ["Quant au budget, nous attendons votre accord.", "En ce qui concerne le budget, nous attendons votre accord.", "Vis-à-vis du budget, nous attendons votre accord.", "Quand au budget, nous attendons votre accord."],
+            correctIndex: 1,
+            explanation: "\"En ce qui concerne\" works anywhere, including the first sentence. \"Quant à\" needs an earlier topic to contrast with, \"vis-à-vis de\" is for attitudes, and \"quand\" is a misspelling.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -1541,6 +2123,20 @@ export const FR_C1_U07: Lesson[] = [
             altAnswers: ["Concernant la livraison, tout est dans les temps.", "En ce qui concerne la livraison, tout se déroule comme prévu.", "Concernant la livraison, tout se déroule comme prévu.", "Pour ce qui est de la livraison, tout est dans les temps."],
             explanation: "\"En ce qui concerne\" / \"concernant\": neutral topic markers.",
           },
+        ],
+      },
+      {
+        heading: "Variants, and en ce qui me concerne",
+        body: [
+          "Shorter variants: \"concernant\" (\"concernant votre demande, ...\"), \"pour ce qui est de\" (slightly spoken), \"au sujet de\" (about), \"à propos de\" (about, by the way). In an email subject or a heading: \"Objet : votre demande de remboursement\".",
+          "Trap: \"en ce qui me concerne\" means 'as far as I'm concerned', 'for my part', not 'what worries me'.",
+        ],
+        examples: [
+          { es: "Pour ce qui est des horaires, rien ne change.", en: "As for the schedule, nothing changes." },
+          { es: "En ce qui me concerne, je suis prêt à signer.", en: "As far as I'm concerned, I'm ready to sign." },
+          { es: "Je vous écris au sujet de la réunion de jeudi.", en: "I'm writing about Thursday's meeting." },
+        ],
+        checkpoint: [
           {
             type: "multiple-choice",
             question: "\"En ce qui me concerne, ce projet est une erreur.\" What does it mean?",
@@ -1555,14 +2151,11 @@ export const FR_C1_U07: Lesson[] = [
         body: [
           "\"Quant à\" introduces a topic that contrasts with a previous one: 'as for'. \"Les enfants sont partis en colonie ; quant à moi, je reste à Paris.\" It needs a prior topic to contrast with; it's awkward as the very first sentence of an email.",
           "It contracts: \"quant au directeur\", \"quant aux résultats\". And it's very often followed by a stressed pronoun: \"quant à moi\", \"quant à lui\", \"quant à eux\".",
-          "Spelling trap: \"quant à\" (with t, from Latin 'quantum') vs \"quand\" (when). *\"Quand à moi\" is one of the most frequent spelling mistakes in French; examiners notice it.",
         ],
         examples: [
           { es: "Les enfants partent en colonie ; quant à moi, je reste à Paris.", en: "The children are going to summer camp; as for me, I'm staying in Paris." },
-          { es: "Le prix est raisonnable. Quant aux délais, ils sont trop longs.", en: "The price is reasonable. As for the deadlines, they're too long." },
           { es: "Quant au directeur, il n'a fait aucun commentaire.", en: "As for the director, he made no comment." },
           { es: "Sa sœur a accepté ; quant à lui, il hésite encore.", en: "His sister has accepted; as for him, he's still hesitating." },
-          { es: "Quant à savoir qui paiera, c'est une autre question.", en: "As for who will pay, that's another question." },
         ],
         checkpoint: [
           {
@@ -1575,6 +2168,25 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "\"Quant à moi\" contrasts with the previous topic.",
           },
           {
+            type: "speak",
+            text: "Quant à la directrice, elle était absente.",
+            prompt: "Say it in French: As for the director, she was absent.",
+            explanation: "\"Quant à\" + a new topic that contrasts with what came before; no contraction with \"la\".",
+          },
+        ],
+      },
+      {
+        heading: "Quant, not quand",
+        body: [
+          "Spelling trap: \"quant à\" (with t, from Latin 'quantum') vs \"quand\" (when). *\"Quand à moi\" is one of the most frequent spelling mistakes in French; examiners notice it.",
+        ],
+        examples: [
+          { es: "Le prix est raisonnable. Quant aux délais, ils sont trop longs.", en: "The price is reasonable. As for the deadlines, they're too long." },
+          { es: "Quant à savoir qui paiera, c'est une autre question.", en: "As for who will pay, that's another question." },
+          { es: "Quand elle a appelé, j'étais sorti.", en: "When she called, I was out." },
+        ],
+        checkpoint: [
+          {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "The room is fine. [As for the] meals, they were excellent.",
@@ -1583,28 +2195,54 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "\"Quant à\" + \"les\" → \"quant aux\"; spelled with t.",
           },
           {
-            type: "speak",
-            text: "Quant au directeur, il n'a fait aucun commentaire.",
-            prompt: "Say it in French: As for the director, he made no comment.",
-            tip: "Liaison: quan-t-au.",
-            explanation: "\"Quant au\": the t links to the vowel.",
+            type: "multiple-choice",
+            question: "Which spelling is correct?",
+            options: ["Quant à moi, je refuse.", "Quand à moi, je refuse.", "Qu'en à moi, je refuse.", "Quan à moi, je refuse."],
+            correctIndex: 0,
+            explanation: "\"Quant à\" with t; \"quand\" means when.",
           },
         ],
       },
       {
-        heading: "À l'égard de and vis-à-vis de: attitudes",
+        heading: "À l'égard de: attitudes and obligations",
         body: [
           "\"À l'égard de\" means 'towards', 'with regard to', especially for attitudes, behaviour and obligations: \"il est très exigeant à l'égard de ses employés\", \"nos obligations à l'égard de nos clients\", \"une méfiance à l'égard des institutions\". It's formal and precise.",
-          "\"Vis-à-vis de\" is close and very common: \"son attitude vis-à-vis de ses collègues\", \"je me sens coupable vis-à-vis d'elle\". Some purists dislike it for 'concerning' (\"vis-à-vis de ce dossier\"); keep it for attitudes and relationships, where it's unimpeachable. Its literal meaning is 'facing' (\"un vis-à-vis\" = a building or person facing yours).",
-          "\"Envers\" is the simplest word for attitudes towards people: \"être gentil envers quelqu'un\", \"sa reconnaissance envers ses parents\".",
         ],
         examples: [
           { es: "Il est très exigeant à l'égard de ses collaborateurs.", en: "He's very demanding towards his staff." },
           { es: "Nous avons des obligations à l'égard de nos clients.", en: "We have obligations towards our customers." },
+          { es: "On observe une méfiance croissante à l'égard des institutions.", en: "There's growing distrust of institutions." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Elle éprouve une grande reconnaissance à l'égard de ses professeurs.",
+            question: "What does it mean?",
+            options: ["She feels deep gratitude towards her teachers.", "Her teachers are very grateful to her.", "She looks closely at her teachers.", "She is recognised by her teachers."],
+            correctIndex: 0,
+            explanation: "\"À l'égard de\" = towards, for feelings and attitudes.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it to formal style with \"à l'égard de\".",
+            source: "Il est dur avec ses enfants.",
+            answer: "Il est dur à l'égard de ses enfants.",
+            altAnswers: ["Il est dur envers ses enfants."],
+            explanation: "For an attitude towards people, formal French uses \"à l'égard de\" (or \"envers\").",
+          },
+        ],
+      },
+      {
+        heading: "Vis-à-vis de and envers",
+        body: [
+          "\"Vis-à-vis de\" is close and very common: \"son attitude vis-à-vis de ses collègues\", \"je me sens coupable vis-à-vis d'elle\". Some purists dislike it for 'concerning' (\"vis-à-vis de ce dossier\"); keep it for attitudes and relationships, where it's unimpeachable. Its literal meaning is 'facing' (\"un vis-à-vis\" = a building or person facing yours).",
+          "\"Envers\" is the simplest word for attitudes towards people: \"être gentil envers quelqu'un\", \"sa reconnaissance envers ses parents\".",
+        ],
+        examples: [
           { es: "Je me sens un peu coupable vis-à-vis d'elle.", en: "I feel a bit guilty towards her." },
           { es: "Son attitude vis-à-vis de la presse a changé.", en: "His attitude towards the press has changed." },
           { es: "Elle a toujours été très généreuse envers nous.", en: "She's always been very generous to us." },
-          { es: "On observe une méfiance croissante à l'égard des institutions.", en: "There's growing distrust of institutions." },
         ],
         checkpoint: [
           {
@@ -1617,12 +2255,13 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "Attitude towards people: \"envers\", \"avec\", \"à l'égard de\".",
           },
           {
-            type: "listen-choose",
-            audio: "On observe une méfiance croissante à l'égard des institutions.",
-            question: "What does it mean?",
-            options: ["There's growing distrust of institutions.", "Institutions are increasingly watched.", "People are increasingly looking at institutions.", "Institutions distrust people more and more."],
-            correctIndex: 0,
-            explanation: "\"À l'égard de\" introduces the object of the attitude.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Elle est très reconnaissante vers ses parents.",
+            answer: "Elle est très reconnaissante envers ses parents.",
+            altAnswers: ["Elle est très reconnaissante à l'égard de ses parents.", "Elle est très reconnaissante vis-à-vis de ses parents."],
+            explanation: "Attitudes towards people take \"envers\" (or \"à l'égard de\"). \"Vers\" is for physical direction: \"vers la gare\".",
           },
         ],
       },
@@ -1665,13 +2304,6 @@ export const FR_C1_U07: Lesson[] = [
         explanation: "Obligations and attitudes towards people.",
       },
       {
-        type: "multiple-choice",
-        question: "Which spelling is correct?",
-        options: ["Quant à moi, je refuse.", "Quand à moi, je refuse.", "Qu'en à moi, je refuse.", "Quan à moi, je refuse."],
-        correctIndex: 0,
-        explanation: "\"Quant à\" with t; \"quand\" means when.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -1703,9 +2335,9 @@ export const FR_C1_U07: Lesson[] = [
       },
       {
         type: "speak",
-        text: "En ce qui concerne le budget, nous attendons la validation.",
-        prompt: "Say it in French: As regards the budget, we're waiting for approval.",
-        explanation: "The neutral topic marker.",
+        text: "En ce qui concerne le planning, rien n'est décidé.",
+        prompt: "Say it in French: As regards the schedule, nothing has been decided.",
+        explanation: "\"En ce qui concerne\": the neutral way to introduce a topic.",
       },
       {
         type: "translate",
@@ -1727,19 +2359,34 @@ export const FR_C1_U07: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Regions, provinces and US states",
+        heading: "Countries: the rule you already know",
         body: [
           "You know the country rule from the Elementary level: \"en\" + feminine country or one starting with a vowel (\"en France\", \"en Iran\"), \"au\" + masculine (\"au Japon\"), \"aux\" + plural (\"aux États-Unis\"). The same logic extends to regions and states.",
+        ],
+        examples: [
+          { es: "Elle travaille au Japon depuis un an.", en: "She's been working in Japan for a year." },
+          { es: "Nous partons en Iran cet été.", en: "We're going to Iran this summer." },
+          { es: "Ils vivent aux Pays-Bas.", en: "They live in the Netherlands." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "How do you say: He lives in Mexico.",
+            options: ["Il habite en Mexique.", "Il habite au Mexique.", "Il habite à Mexique.", "Il habite dans Mexique."],
+            correctIndex: 1,
+            explanation: "\"Le Mexique\" is masculine and starts with a consonant, so \"au\". (\"Mexico\", the city, would be \"à Mexico\".)",
+          },
+        ],
+      },
+      {
+        heading: "French regions and départements",
+        body: [
           "French regions: most are feminine → \"en\": \"en Bretagne\", \"en Normandie\", \"en Provence\", \"en Occitanie\", \"en Alsace\" (vowel). Masculine ones → \"dans le\" (more common) or \"en\" before a vowel: \"dans le Limousin\", \"dans le Périgord\", \"en Languedoc\" (fixed usage). Départements take \"dans le / la / les\": \"dans le Var\", \"dans la Drôme\", \"dans les Landes\", \"dans le Nord\".",
-          "US states and Canadian provinces: feminine → \"en\": \"en Californie\", \"en Floride\", \"en Virginie\", \"en Louisiane\", \"en Colombie-Britannique\"; masculine → \"au\": \"au Texas\", \"au Nevada\", \"au Québec\", \"au Colorado\"; vowel-initial masculine → \"en\" or \"dans l'\": \"en Ohio\" / \"dans l'Ohio\". When a state has a city namesake, specify: \"dans l'État de New York\" vs \"à New York\".",
         ],
         examples: [
           { es: "Nous passons nos vacances en Bretagne.", en: "We spend our holidays in Brittany." },
           { es: "Ils ont une maison dans le Périgord.", en: "They have a house in the Perigord." },
           { es: "Mes parents habitent dans le Var.", en: "My parents live in the Var." },
-          { es: "Elle a fait ses études en Californie.", en: "She studied in California." },
-          { es: "Il travaille au Texas depuis deux ans.", en: "He's been working in Texas for two years." },
-          { es: "On parle français au Québec et en Louisiane.", en: "French is spoken in Quebec and Louisiana." },
         ],
         checkpoint: [
           {
@@ -1751,26 +2398,79 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "Feminine region: \"en\".",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Nous avons une maison en le Var.",
+            answer: "Nous avons une maison dans le Var.",
+            explanation: "Départements take \"dans le / la / les\": \"dans le Var\". \"En\" never combines with an article like this.",
+          },
+        ],
+      },
+      {
+        heading: "US states and Canadian provinces",
+        body: [
+          "US states and Canadian provinces: feminine → \"en\": \"en Californie\", \"en Floride\", \"en Virginie\", \"en Louisiane\", \"en Colombie-Britannique\"; masculine → \"au\": \"au Texas\", \"au Nevada\", \"au Québec\", \"au Colorado\"; vowel-initial masculine → \"en\" or \"dans l'\": \"en Ohio\" / \"dans l'Ohio\". When a state has a city namesake, specify: \"dans l'État de New York\" vs \"à New York\".",
+        ],
+        examples: [
+          { es: "Elle a fait ses études en Californie.", en: "She studied in California." },
+          { es: "Il travaille au Texas depuis deux ans.", en: "He's been working in Texas for two years." },
+          { es: "On parle français au Québec et en Louisiane.", en: "French is spoken in Quebec and Louisiana." },
+        ],
+        checkpoint: [
+          {
             type: "multiple-choice",
             question: "How do you say: They live in Florida, and we live in Texas.",
             options: ["Ils habitent en Floride, et nous au Texas.", "Ils habitent au Floride, et nous en Texas.", "Ils habitent à la Floride, et nous au Texas.", "Ils habitent dans Floride, et nous dans Texas."],
             correctIndex: 0,
             explanation: "Feminine state → \"en\"; masculine → \"au\".",
           },
+          {
+            type: "word-order",
+            prompt: "Put the words in order to say: I lived in Washington State for two years.",
+            words: ["J'ai vécu", "deux ans", "dans l'État", "de Washington."],
+            translation: "I lived in Washington State for two years.",
+            explanation: "\"Dans l'État de\" distinguishes the state from the city.",
+          },
         ],
       },
       {
-        heading: "Islands: à, en or dans",
+        heading: "Islands: à for small ones",
         body: [
           "Islands are irregular, and native speakers simply know them. Small islands, and islands treated like cities, take \"à\": \"à Cuba\", \"à Madagascar\", \"à Malte\", \"à Chypre\", \"à Tahiti\", \"à la Réunion\", \"à la Martinique\" (also \"en Martinique\"), \"à Hawaï\".",
+        ],
+        examples: [
+          { es: "Il a passé un an à Madagascar.", en: "He spent a year in Madagascar." },
+          { es: "Elle est née à la Réunion.", en: "She was born on Reunion Island." },
+          { es: "Ils se sont mariés à Cuba.", en: "They got married in Cuba." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "He works [in] Cuba.",
+            sentence: "Il travaille ___ Cuba.",
+            answer: "à",
+            explanation: "Cuba, like many islands, takes \"à\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French.",
+            source: "She was born in Madagascar.",
+            answer: "Elle est née à Madagascar.",
+            explanation: "Island-state: \"à\".",
+          },
+        ],
+      },
+      {
+        heading: "Large islands take en, plural ones aux",
+        body: [
           "Large or European islands often take \"en\": \"en Corse\", \"en Sardaigne\", \"en Sicile\", \"en Crète\", \"en Islande\", \"en Irlande\" (they're treated like countries or regions). \"En Guadeloupe\" and \"en Martinique\" are now more common than \"à la\".",
           "Some take \"aux\" or \"dans les\" because they're plural: \"aux Antilles\", \"aux Baléares\", \"aux Canaries\", \"aux Seychelles\".",
         ],
         examples: [
-          { es: "Il a passé un an à Madagascar.", en: "He spent a year in Madagascar." },
           { es: "Nous partons en Corse en juillet.", en: "We're going to Corsica in July." },
-          { es: "Elle est née à la Réunion.", en: "She was born on Reunion Island." },
-          { es: "Ils se sont mariés à Cuba.", en: "They got married in Cuba." },
           { es: "Je rêve de vacances aux Seychelles.", en: "I dream of a holiday in the Seychelles." },
           { es: "Ma tante vit en Martinique.", en: "My aunt lives in Martinique." },
         ],
@@ -1785,33 +2485,50 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "Large island → \"en Sicile\"; small island-state → \"à Malte\".",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "He works [in] Cuba.",
-            sentence: "Il travaille ___ Cuba.",
-            answer: "à",
-            explanation: "Cuba, like many islands, takes \"à\".",
-          },
-          {
             type: "speak",
-            text: "Nous partons en Corse en juillet.",
-            prompt: "Say it in French: We're going to Corsica in July.",
-            explanation: "\"En Corse\": a large Mediterranean island.",
+            text: "Nous partons en Sardaigne en août.",
+            prompt: "Say it in French: We're going to Sardinia in August.",
+            explanation: "Large Mediterranean islands are treated like regions: \"en Sardaigne\", \"en Corse\".",
           },
         ],
       },
       {
-        heading: "Means of transport: en, à, dans, par",
+        heading: "Transport: en inside, à on top",
         body: [
           "Rule of thumb: \"en\" for vehicles you travel inside (\"en voiture\", \"en train\", \"en bus\", \"en avion\", \"en métro\", \"en bateau\"), \"à\" for those you sit on or for your own body (\"à vélo\", \"à moto\", \"à cheval\", \"à pied\", \"à trottinette\"). \"En vélo\" and \"en moto\" are very common in speech but criticised in writing; at Advanced write \"à vélo\".",
-          "\"Dans\" describes being physically inside a specific vehicle, not the means of travel: \"j'ai oublié mon sac dans le train\", \"il y avait du monde dans le bus\", \"on a discuté dans la voiture\". Compare: \"je vais à Lille en train\" (means) vs \"je dormais dans le train\" (location).",
-          "\"Par\" is for the route or a formal means: \"par avion\" (by air mail), \"par la route\", \"par le train\" (formal), \"par voie maritime\". Getting on/off: \"monter dans le train\", \"descendre du bus\", \"monter à vélo\" / \"monter sur un vélo\".",
         ],
         examples: [
           { es: "Je vais au bureau à vélo quand il fait beau.", en: "I cycle to the office when the weather's nice." },
           { es: "Ils sont venus en voiture depuis Strasbourg.", en: "They drove from Strasbourg." },
-          { es: "J'ai oublié mon parapluie dans le train.", en: "I left my umbrella on the train." },
           { es: "Elle va à Lille en train tous les lundis.", en: "She goes to Lille by train every Monday." },
+        ],
+        checkpoint: [
+          {
+            type: "listen-choose",
+            audio: "Je vais au bureau à vélo.",
+            question: "What did you hear?",
+            options: ["Je vais au bureau à vélo.", "Je vais au bureau en vélo.", "Je vais au bureau avec vélo.", "Je vais au bureau au vélo."],
+            correctIndex: 0,
+            explanation: "\"À vélo\" is the correct written form; \"en vélo\" is spoken.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Je vais au travail en vélo tous les jours.",
+            answer: "Je vais au travail à vélo tous les jours.",
+            explanation: "You sit on a bike, so careful written French says \"à vélo\" (like \"à moto\", \"à cheval\"); \"en vélo\" is spoken.",
+          },
+        ],
+      },
+      {
+        heading: "Dans for the place, par for the route",
+        body: [
+          "\"Dans\" describes being physically inside a specific vehicle, not the means of travel: \"j'ai oublié mon sac dans le train\", \"il y avait du monde dans le bus\", \"on a discuté dans la voiture\". Compare: \"je vais à Lille en train\" (means) vs \"je dormais dans le train\" (location).",
+          "\"Par\" is for the route or a formal means: \"par avion\" (by air mail), \"par la route\", \"par le train\" (formal), \"par voie maritime\". Getting on/off: \"monter dans le train\", \"descendre du bus\", \"monter à vélo\" / \"monter sur un vélo\".",
+        ],
+        examples: [
+          { es: "J'ai oublié mon parapluie dans le train.", en: "I left my umbrella on the train." },
           { es: "Les marchandises sont expédiées par voie maritime.", en: "The goods are shipped by sea." },
           { es: "Il est descendu du bus devant la mairie.", en: "He got off the bus in front of the town hall." },
         ],
@@ -1826,12 +2543,11 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "Location inside a vehicle: \"dans\", not \"sur\" or \"en\".",
           },
           {
-            type: "listen-choose",
-            audio: "Je vais au bureau à vélo.",
-            question: "What did you hear?",
-            options: ["Je vais au bureau à vélo.", "Je vais au bureau en vélo.", "Je vais au bureau avec vélo.", "Je vais au bureau au vélo."],
-            correctIndex: 0,
-            explanation: "\"À vélo\" is the correct written form; \"en vélo\" is spoken.",
+            type: "multiple-choice",
+            question: "Complete: Il y avait beaucoup de monde ___ métro ce matin.",
+            options: ["en", "à", "par le", "dans le"],
+            correctIndex: 3,
+            explanation: "Being physically inside a specific vehicle is \"dans le\"; \"en métro\" is the means of travel (\"je vais au bureau en métro\").",
           },
         ],
       },
@@ -1868,14 +2584,6 @@ export const FR_C1_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "She was born in Madagascar.",
-        answer: "Elle est née à Madagascar.",
-        explanation: "Island-state: \"à\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
         source: "He goes to work on foot.",
         answer: "Il va au travail à pied.",
         altAnswers: ["Il va travailler à pied.", "Il se rend au travail à pied."],
@@ -1906,22 +2614,23 @@ export const FR_C1_U07: Lesson[] = [
         explanation: "\"À vélo\" is the recommended written form.",
       },
       {
-        type: "word-order",
-        prompt: "Put the words in order to say: I lived in Washington State for two years.",
-        words: ["J'ai vécu", "deux ans", "dans l'État", "de Washington."],
-        translation: "I lived in Washington State for two years.",
-        explanation: "\"Dans l'État de\" distinguishes the state from the city.",
-      },
-      {
         type: "dictation",
-        audio: "J'ai oublié mon parapluie dans le train.",
+        audio: "J'ai laissé mes clés dans la voiture.",
         explanation: "\"Dans le train\": inside the vehicle.",
       },
       {
         type: "speak",
-        text: "On parle français au Québec et en Louisiane.",
-        prompt: "Say it in French: French is spoken in Quebec and Louisiana.",
-        explanation: "\"Au\" + masculine province, \"en\" + feminine state.",
+        text: "On parle aussi français au Nouveau-Brunswick.",
+        prompt: "Say it in French: French is also spoken in New Brunswick.",
+        explanation: "A masculine Canadian province takes \"au\": \"au Nouveau-Brunswick\", like \"au Québec\".",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Change it to Texas.",
+        source: "Mon frère habite en Floride.",
+        answer: "Mon frère habite au Texas.",
+        explanation: "Feminine states take \"en\" (\"en Floride\"); masculine ones take \"au\" (\"au Texas\").",
       },
     ],
   },
@@ -1937,15 +2646,11 @@ export const FR_C1_U07: Lesson[] = [
         heading: "Repeat à, de and en",
         body: [
           "English can share one preposition across a list: 'in Paris and Lyon', 'to the director and his assistant'. French grammar requires you to repeat \"à\", \"de\" and \"en\" before each noun: \"à Paris et à Lyon\", \"au directeur et à son assistante\", \"en France et en Italie\", \"la lettre de Paul et de Marie\".",
-          "Other prepositions (\"dans\", \"pour\", \"avec\", \"sur\", \"par\") can be shared when the nouns form a close unit, but repeating them is never wrong and often clearer: \"pour les parents et les enfants\" or \"pour les parents et pour les enfants\".",
-          "Articles follow the same logic: repeat them too (\"le directeur et la directrice adjointe\"). In lists in contracts, this repetition is what makes each item legally distinct.",
         ],
         examples: [
           { es: "Nous avons des bureaux à Paris et à Lyon.", en: "We have offices in Paris and Lyon." },
           { es: "Le courrier est adressé au directeur et à son assistante.", en: "The letter is addressed to the director and his assistant." },
           { es: "Elle a vécu en Espagne et en Italie.", en: "She has lived in Spain and Italy." },
-          { es: "Il a besoin de calme et de temps.", en: "He needs peace and quiet and time." },
-          { es: "C'est un atelier pour les parents et les enfants.", en: "It's a workshop for parents and children." },
           { es: "Je pense à toi et à ta famille.", en: "I'm thinking of you and your family." },
         ],
         checkpoint: [
@@ -1958,6 +2663,28 @@ export const FR_C1_U07: Lesson[] = [
             altAnswers: ["L'entreprise opère en Belgique et en Suisse.", "La société est présente en Belgique et en Suisse.", "L'entreprise travaille en Belgique et en Suisse.", "La société opère en Belgique et en Suisse."],
             explanation: "\"En\" is repeated before each country.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Nous avons des clients en France et Belgique.",
+            answer: "Nous avons des clients en France et en Belgique.",
+            explanation: "\"En\" must be repeated before each noun: \"en France et en Belgique\".",
+          },
+        ],
+      },
+      {
+        heading: "Other prepositions, and articles too",
+        body: [
+          "Other prepositions (\"dans\", \"pour\", \"avec\", \"sur\", \"par\") can be shared when the nouns form a close unit, but repeating them is never wrong and often clearer: \"pour les parents et les enfants\" or \"pour les parents et pour les enfants\".",
+          "Articles follow the same logic: repeat them too (\"le directeur et la directrice adjointe\"). In lists in contracts, this repetition is what makes each item legally distinct.",
+        ],
+        examples: [
+          { es: "Il a besoin de calme et de temps.", en: "He needs peace and quiet and time." },
+          { es: "C'est un atelier pour les parents et les enfants.", en: "It's a workshop for parents and children." },
+          { es: "Le directeur et la directrice adjointe sont absents.", en: "The director and the deputy director are away." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -1973,16 +2700,11 @@ export const FR_C1_U07: Lesson[] = [
         heading: "No preposition stranding",
         body: [
           "English loves leaving a preposition at the end: 'the person I work with', 'the project we talked about', 'Who are you waiting for?'. French never does this. The preposition goes before the relative or question word: \"la personne avec qui je travaille\", \"le projet dont nous avons parlé\" (de → dont), \"Qui attends-tu ?\" (no preposition with \"attendre\").",
-          "With \"à\": \"la collègue à qui j'ai envoyé le dossier\", \"le problème auquel je pense\". With longer prepositions, use \"lequel\" (Upper-intermediate): \"l'entreprise pour laquelle je travaille\", \"la table sur laquelle j'ai posé les clés\". For people, \"qui\" is preferred after a preposition: \"l'homme pour qui elle a tout quitté\".",
-          "Questions too: 'What are you talking about?' = \"De quoi parles-tu ?\" / \"Tu parles de quoi ?\" (spoken, preposition still before the word). 'Who is it for?' = \"C'est pour qui ?\".",
         ],
         examples: [
           { es: "C'est la personne avec qui je travaille.", en: "That's the person I work with." },
           { es: "Voici le projet dont nous avons parlé.", en: "Here's the project we talked about." },
-          { es: "L'entreprise pour laquelle je travaille est à Lille.", en: "The company I work for is in Lille." },
           { es: "De quoi parles-tu ?", en: "What are you talking about?" },
-          { es: "C'est pour qui, ce cadeau ?", en: "Who's this present for?" },
-          { es: "La collègue à qui j'ai envoyé le dossier est absente.", en: "The colleague I sent the file to is away." },
         ],
         checkpoint: [
           {
@@ -2003,11 +2725,61 @@ export const FR_C1_U07: Lesson[] = [
             altAnswers: ["Avec qui est-ce que tu travailles ?", "Tu travailles avec qui ?", "Avec qui travaillez-vous ?", "Avec qui est-ce que vous travaillez ?", "Vous travaillez avec qui ?"],
             explanation: "The preposition stays with \"qui\": never at the end alone.",
           },
+        ],
+      },
+      {
+        heading: "À qui, auquel, lequel",
+        body: [
+          "With \"à\": \"la collègue à qui j'ai envoyé le dossier\", \"le problème auquel je pense\". With longer prepositions, use \"lequel\" (Upper-intermediate): \"l'entreprise pour laquelle je travaille\", \"la table sur laquelle j'ai posé les clés\". For people, \"qui\" is preferred after a preposition: \"l'homme pour qui elle a tout quitté\".",
+        ],
+        examples: [
+          { es: "L'entreprise pour laquelle je travaille est à Lille.", en: "The company I work for is in Lille." },
+          { es: "La collègue à qui j'ai envoyé le dossier est absente.", en: "The colleague I sent the file to is away." },
+          { es: "Le problème auquel je pense est plus grave.", en: "The problem I'm thinking about is more serious." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct French?",
+            options: ["C'est le collègue à qui j'ai prêté ma voiture.", "C'est le collègue que j'ai prêté ma voiture à.", "C'est le collègue qui j'ai prêté ma voiture.", "C'est le collègue j'ai prêté ma voiture à."],
+            correctIndex: 0,
+            explanation: "No stranding: \"à qui\" before the clause.",
+          },
           {
             type: "speak",
-            text: "L'entreprise pour laquelle je travaille est à Lille.",
-            prompt: "Say it in French: The company I work for is in Lille.",
-            explanation: "\"Pour laquelle\": preposition + lequel.",
+            text: "La société pour laquelle elle travaille a fermé.",
+            prompt: "Say it in French: The company she works for has closed.",
+            explanation: "The preposition goes before the relative: \"pour laquelle\", agreeing with \"la société\".",
+          },
+        ],
+      },
+      {
+        heading: "Questions keep the preposition in front",
+        body: [
+          "Questions too: 'What are you talking about?' = \"De quoi parles-tu ?\" / \"Tu parles de quoi ?\" (spoken, preposition still before the word). 'Who is it for?' = \"C'est pour qui ?\".",
+        ],
+        examples: [
+          { es: "C'est pour qui, ce cadeau ?", en: "Who's this present for?" },
+          { es: "À qui as-tu donné les clés ?", en: "Who did you give the keys to?" },
+          { es: "Avec quoi as-tu réparé la chaise ?", en: "What did you fix the chair with?" },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "[What] is this book [about]?",
+            sentence: "___ parle ce livre ?",
+            answer: "De quoi",
+            explanation: "\"Parler de\" → \"de quoi\" at the front.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into a question about the person.",
+            source: "Elle travaille avec Paul.",
+            answer: "Avec qui travaille-t-elle ?",
+            altAnswers: ["Avec qui elle travaille ?", "Elle travaille avec qui ?", "Avec qui est-ce qu'elle travaille ?"],
+            explanation: "The preposition stays in front of the question word: \"avec qui\", never at the end of the sentence.",
           },
         ],
       },
@@ -2015,15 +2787,12 @@ export const FR_C1_U07: Lesson[] = [
         heading: "Spoken adverbial prepositions",
         body: [
           "In everyday speech, some prepositions appear without a noun, as adverbs. \"Je suis pour\" (I'm in favour), \"je suis contre\" (I'm against), \"il est parti avec\" (he left with it), \"on fait avec\" (we make do), \"il faut faire sans\" (we'll have to do without), \"je passe devant tous les jours\" (I walk past it every day), \"cours après !\" (run after it!).",
-          "These are perfectly natural in conversation but avoided in formal writing, where the object is stated or replaced: \"je suis favorable à cette mesure\", \"il est parti avec le dossier\".",
-          "This is not the English stranding pattern: the noun has simply been dropped because it's obvious. \"C'est la personne avec qui je travaille\" can never become *\"c'est la personne que je travaille avec\" (you may hear it in very informal Quebec French, but never in standard French).",
         ],
         examples: [
           { es: "La semaine de quatre jours ? Moi, je suis pour.", en: "The four-day week? I'm all for it." },
           { es: "Il a pris mon stylo et il est parti avec.", en: "He took my pen and walked off with it." },
           { es: "Le budget est serré, mais on fait avec.", en: "The budget is tight, but we make do." },
           { es: "Pas de wifi ? Tant pis, on fera sans.", en: "No wifi? Never mind, we'll do without." },
-          { es: "Je suis favorable à cette mesure.", en: "I'm in favour of this measure. (formal)" },
         ],
         checkpoint: [
           {
@@ -2036,11 +2805,42 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "\"Faire avec\": spoken adverbial use.",
           },
           {
+            type: "listen-choose",
+            audio: "Il a pris mon stylo et il est parti avec.",
+            question: "What does it mean?",
+            options: ["He took my pen and walked off with it.", "He took my pen and left with someone.", "He left with his own pen.", "He went off with my friend."],
+            correctIndex: 0,
+            explanation: "\"Partir avec\" without a noun: the object (the pen) is obvious.",
+          },
+        ],
+      },
+      {
+        heading: "Formal writing states the object",
+        body: [
+          "These are perfectly natural in conversation but avoided in formal writing, where the object is stated or replaced: \"je suis favorable à cette mesure\", \"il est parti avec le dossier\".",
+          "This is not the English stranding pattern: the noun has simply been dropped because it's obvious. \"C'est la personne avec qui je travaille\" can never become *\"c'est la personne que je travaille avec\" (you may hear it in very informal Quebec French, but never in standard French).",
+        ],
+        examples: [
+          { es: "Je suis favorable à cette mesure.", en: "I'm in favour of this measure. (formal)" },
+          { es: "Il est parti avec le dossier.", en: "He left with the file." },
+          { es: "Nous ferons sans ce financement.", en: "We'll do without this funding." },
+        ],
+        checkpoint: [
+          {
             type: "multiple-choice",
             question: "Which version suits a formal report?",
             options: ["La direction est favorable à cette proposition.", "La direction, elle est pour.", "La direction est pour, quoi.", "Cette proposition, la direction est pour elle."],
             correctIndex: 0,
             explanation: "Formal writing states the object: \"favorable à\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "C'est le client que je parlais avec.",
+            answer: "C'est le client avec qui je parlais.",
+            altAnswers: ["C'est le client avec lequel je parlais."],
+            explanation: "Standard French never strands a preposition: it moves before the relative, \"avec qui je parlais\".",
           },
         ],
       },
@@ -2082,14 +2882,6 @@ export const FR_C1_U07: Lesson[] = [
         explanation: "Preposition before the relative: \"avec qui\".",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "[What] is this book [about]?",
-        sentence: "___ parle ce livre ?",
-        answer: "De quoi",
-        explanation: "\"Parler de\" → \"de quoi\" at the front.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
@@ -2097,13 +2889,6 @@ export const FR_C1_U07: Lesson[] = [
         answer: "La table sur laquelle j'ai posé mes clés a disparu.",
         altAnswers: ["La table sur laquelle j'avais posé mes clés a disparu.", "La table sur laquelle j'ai mis mes clés a disparu."],
         explanation: "\"Sur laquelle\": preposition + lequel for a thing.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence is correct French?",
-        options: ["C'est le collègue à qui j'ai prêté ma voiture.", "C'est le collègue que j'ai prêté ma voiture à.", "C'est le collègue qui j'ai prêté ma voiture.", "C'est le collègue j'ai prêté ma voiture à."],
-        correctIndex: 0,
-        explanation: "No stranding: \"à qui\" before the clause.",
       },
       {
         type: "translate",
@@ -2122,23 +2907,15 @@ export const FR_C1_U07: Lesson[] = [
         explanation: "\"Pour qui\" at the front.",
       },
       {
-        type: "listen-choose",
-        audio: "Il a pris mon stylo et il est parti avec.",
-        question: "What does it mean?",
-        options: ["He took my pen and walked off with it.", "He took my pen and left with someone.", "He left with his own pen.", "He went off with my friend."],
-        correctIndex: 0,
-        explanation: "\"Partir avec\" without a noun: the object (the pen) is obvious.",
-      },
-      {
         type: "dictation",
-        audio: "Nous avons des bureaux à Paris et à Lyon.",
+        audio: "Nous avons des agences à Nice et à Marseille.",
         explanation: "\"À\" repeated before each city.",
       },
       {
         type: "speak",
-        text: "C'est la personne avec qui je travaille.",
-        prompt: "Say it in French: That's the person I work with.",
-        explanation: "The preposition comes before \"qui\".",
+        text: "C'est la voisine avec qui je fais du sport.",
+        prompt: "Say it in French: That's the neighbour I do sport with.",
+        explanation: "\"Avec qui\": the preposition comes before the relative pronoun.",
       },
     ],
   },
@@ -2151,18 +2928,14 @@ export const FR_C1_U07: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "The clause",
+        heading: "Article 9.1 and 9.2: the clause",
         body: [
           "Here's article 9 of a mobile phone contract: \"Article 9 – Résiliation. 9.1 L'abonné peut résilier le contrat à tout moment, par lettre recommandée avec accusé de réception ou depuis son espace client. La résiliation prend effet dans un délai de dix jours à compter de la réception de la demande par l'opérateur. 9.2 En cas de résiliation avant le terme de la période d'engagement de douze mois, l'abonné reste redevable des mensualités restant dues jusqu'à l'échéance, sous réserve des dispositions de l'article 9.3.\"",
-          "Before reading the details, spot the prepositions that structure the meaning: \"à tout moment\" (at any time), \"par lettre recommandée\" (means), \"depuis son espace client\" (from: the starting point of an online action), \"dans un délai de... à compter de\" (deadline and its start), \"en cas de\" (condition), \"avant le terme de\" (before the end of), \"jusqu'à l'échéance\" (until the due date), \"sous réserve de\" (subject to).",
         ],
         examples: [
           { es: "L'abonné peut résilier le contrat à tout moment.", en: "The subscriber may terminate the contract at any time." },
           { es: "par lettre recommandée avec accusé de réception", en: "by recorded-delivery letter with proof of receipt" },
           { es: "ou depuis son espace client", en: "or from their online account" },
-          { es: "La résiliation prend effet dans un délai de dix jours.", en: "Termination takes effect within ten days." },
-          { es: "à compter de la réception de la demande par l'opérateur", en: "from the date the operator receives the request" },
-          { es: "jusqu'à l'échéance de la période d'engagement", en: "until the end of the minimum term" },
         ],
         checkpoint: [
           {
@@ -2173,40 +2946,60 @@ export const FR_C1_U07: Lesson[] = [
             explanation: "\"Dans un délai de dix jours à compter de la réception de la demande par l'opérateur\": the clock starts when the operator receives it.",
           },
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French (contract style).",
-            source: "The subscriber may cancel at any time.",
-            answer: "L'abonné peut résilier à tout moment.",
-            altAnswers: ["L'abonné peut résilier le contrat à tout moment.", "L'abonnée peut résilier à tout moment."],
-            explanation: "\"À tout moment\" = at any time.",
+            type: "multiple-choice",
+            question: "A subscriber leaves after six months. Under 9.2, what does she still owe?",
+            options: ["Nothing at all", "The remaining monthly fees up to the end of the twelve months", "One extra month only", "A flat-rate penalty of 80 euros"],
+            correctIndex: 1,
+            explanation: "\"Reste redevable des mensualités restant dues jusqu'à l'échéance\": she pays every month left until the end date. The 80-euro penalty is for equipment (9.4), not for leaving early.",
           },
         ],
       },
       {
-        heading: "Exceptions and penalties",
+        heading: "The prepositions that carry the meaning",
         body: [
-          "The clause continues: \"9.3 Par dérogation à l'article 9.2, aucune somme n'est due en cas de résiliation pour motif légitime, notamment en cas de déménagement à l'étranger, de perte d'emploi ou de surendettement, sur présentation d'un justificatif. 9.4 À défaut de restitution du matériel dans un délai de trente jours suivant la résiliation, une pénalité forfaitaire de 80 euros sera facturée à l'abonné.\"",
-          "\"Par dérogation à\" = by way of exception to. \"Pour motif légitime\" = for a legitimate reason. \"Notamment\" = in particular. \"Sur présentation de\" = upon showing. \"À défaut de restitution\" = if the equipment is not returned. \"Suivant la résiliation\" = following the termination (here 'counted from').",
-          "So: if you move abroad and can prove it, you pay nothing more. If you don't return the router within 30 days, you pay 80 euros.",
+          "Before reading the details, spot the prepositions that structure the meaning: \"à tout moment\" (at any time), \"par lettre recommandée\" (means), \"depuis son espace client\" (from: the starting point of an online action), \"dans un délai de... à compter de\" (deadline and its start), \"en cas de\" (condition), \"avant le terme de\" (before the end of), \"jusqu'à l'échéance\" (until the due date), \"sous réserve de\" (subject to).",
         ],
         examples: [
-          { es: "Par dérogation à l'article 9.2, aucune somme n'est due.", en: "By way of exception to article 9.2, nothing is owed." },
-          { es: "en cas de résiliation pour motif légitime", en: "in the event of termination for a legitimate reason" },
-          { es: "notamment en cas de déménagement à l'étranger", en: "in particular in the event of moving abroad" },
-          { es: "sur présentation d'un justificatif", en: "upon presentation of supporting documents" },
-          { es: "À défaut de restitution du matériel, une pénalité sera facturée.", en: "If the equipment is not returned, a penalty will be charged." },
-          { es: "dans un délai de trente jours suivant la résiliation", en: "within thirty days of termination" },
+          { es: "La résiliation prend effet dans un délai de dix jours.", en: "Termination takes effect within ten days." },
+          { es: "à compter de la réception de la demande par l'opérateur", en: "from the date the operator receives the request" },
+          { es: "jusqu'à l'échéance de la période d'engagement", en: "until the end of the minimum term" },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "In \"La garantie court à compter de la date d'achat\", what does \"à compter de\" mark?",
+            options: ["The end of the period", "A condition", "The starting point of the period", "The means of payment"],
+            correctIndex: 2,
+            explanation: "\"À compter de\" sets the moment a period starts running; the end would be \"jusqu'à\" and a condition \"en cas de\".",
+          },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French (contract style).",
-            source: "If the equipment is not returned, a fee will be charged.",
-            answer: "À défaut de restitution du matériel, des frais seront facturés.",
-            altAnswers: ["À défaut de restitution du matériel, une pénalité sera facturée.", "En l'absence de restitution du matériel, des frais seront facturés.", "Faute de restitution du matériel, des frais seront facturés."],
-            explanation: "\"À défaut de\" + noun = if X doesn't happen.",
+            source: "The tenant may leave the flat at any time, by recorded letter.",
+            answer: "Le locataire peut quitter le logement à tout moment, par lettre recommandée.",
+            altAnswers: ["Le locataire peut quitter l'appartement à tout moment, par lettre recommandée.", "Le locataire peut quitter le logement à tout moment par lettre recommandée.", "Le locataire peut quitter l'appartement à tout moment par lettre recommandée.", "Le locataire peut partir à tout moment, par lettre recommandée."],
+            explanation: "Time: \"à tout moment\" (not \"à tout temps\"). Means: \"par lettre recommandée\", with \"par\" for the channel used.",
+          },
+        ],
+      },
+      {
+        heading: "Article 9.3 and 9.4: exceptions and penalties",
+        body: [
+          "The clause continues: \"9.3 Par dérogation à l'article 9.2, aucune somme n'est due en cas de résiliation pour motif légitime, notamment en cas de déménagement à l'étranger, de perte d'emploi ou de surendettement, sur présentation d'un justificatif. 9.4 À défaut de restitution du matériel dans un délai de trente jours suivant la résiliation, une pénalité forfaitaire de 80 euros sera facturée à l'abonné.\"",
+        ],
+        examples: [
+          { es: "Par dérogation à l'article 9.2, aucune somme n'est due.", en: "By way of exception to article 9.2, nothing is owed." },
+          { es: "en cas de résiliation pour motif légitime", en: "in the event of termination for a legitimate reason" },
+          { es: "À défaut de restitution du matériel, une pénalité sera facturée.", en: "If the equipment is not returned, a penalty will be charged." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A subscriber loses her job and sends proof. What does she owe under 9.3?",
+            options: ["The remaining monthly fees", "Half of the remaining fees", "Nothing", "80 euros"],
+            correctIndex: 2,
+            explanation: "Job loss is listed as a \"motif légitime\", and \"sur présentation d'un justificatif\" means proof is enough: \"aucune somme n'est due\".",
           },
           {
             type: "listen-choose",
@@ -2216,28 +3009,77 @@ export const FR_C1_U07: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Sur présentation de\" = upon showing.",
           },
+        ],
+      },
+      {
+        heading: "Decoding the legal formulas",
+        body: [
+          "\"Par dérogation à\" = by way of exception to. \"Pour motif légitime\" = for a legitimate reason. \"Notamment\" = in particular. \"Sur présentation de\" = upon showing. \"À défaut de restitution\" = if the equipment is not returned. \"Suivant la résiliation\" = following the termination (here 'counted from').",
+          "So: if you move abroad and can prove it, you pay nothing more. If you don't return the router within 30 days, you pay 80 euros.",
+        ],
+        examples: [
+          { es: "notamment en cas de déménagement à l'étranger", en: "in particular in the event of moving abroad" },
+          { es: "sur présentation d'un justificatif", en: "upon presentation of supporting documents" },
+          { es: "dans un délai de trente jours suivant la résiliation", en: "within thirty days of termination" },
+        ],
+        checkpoint: [
           {
-            type: "speak",
-            text: "La résiliation prend effet dans un délai de dix jours.",
-            prompt: "Say it in French: Termination takes effect within ten days.",
-            explanation: "\"Dans un délai de\" = within.",
+            type: "multiple-choice",
+            question: "\"Sur présentation de votre billet\" means:",
+            options: ["On top of your ticket", "Before buying your ticket", "Upon showing your ticket", "Instead of your ticket"],
+            correctIndex: 2,
+            explanation: "\"Sur présentation de\" = upon showing. \"Sur\" here marks the condition that triggers something, not a position 'on top of'.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it formal with \"à défaut de\".",
+            source: "Si le loyer n'est pas payé, le bail sera résilié.",
+            answer: "À défaut de paiement du loyer, le bail sera résilié.",
+            altAnswers: ["À défaut de paiement du loyer, le bail sera résilié de plein droit.", "Le bail sera résilié à défaut de paiement du loyer."],
+            explanation: "\"À défaut de\" + noun replaces a negative condition: \"si le loyer n'est pas payé\" becomes \"à défaut de paiement du loyer\".",
           },
         ],
       },
       {
-        heading: "Rewriting the clause in plain French",
+        heading: "The plain-French version",
         body: [
           "A consumer website explains the clause in plain French: \"Vous pouvez résilier quand vous voulez, par courrier recommandé ou en ligne. Votre ligne sera coupée dix jours après réception de votre demande. Si vous partez avant la fin de votre engagement d'un an, vous devrez payer les mois restants, sauf si vous avez une bonne raison (déménagement à l'étranger, perte d'emploi...) et que vous pouvez le prouver. Pensez à renvoyer votre box dans le mois, sinon on vous facturera 80 euros.\"",
-          "Compare: \"à tout moment\" → \"quand vous voulez\"; \"à compter de la réception\" → \"après réception\"; \"en cas de résiliation avant le terme\" → \"si vous partez avant la fin\"; \"pour motif légitime\" → \"si vous avez une bonne raison\"; \"à défaut de restitution\" → \"sinon\". Nominal prepositional phrases become verbs and conjunctions in plain French (Unit 3).",
         ],
         examples: [
           { es: "Vous pouvez résilier quand vous voulez.", en: "You can cancel whenever you like." },
           { es: "Votre ligne sera coupée dix jours après réception de votre demande.", en: "Your line will be cut off ten days after your request is received." },
-          { es: "Si vous partez avant la fin de votre engagement, vous devrez payer les mois restants.", en: "If you leave before your contract ends, you'll have to pay the remaining months." },
-          { es: "sauf si vous avez une bonne raison et que vous pouvez le prouver", en: "unless you have a good reason and can prove it" },
           { es: "Pensez à renvoyer votre box dans le mois.", en: "Remember to send back your router within a month." },
         ],
         checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words (plain French).",
+            en: "Send back the router within a month, [otherwise] you'll pay 80 euros.",
+            sentence: "Renvoyez la box dans le mois, ___ vous paierez 80 euros.",
+            answer: "sinon",
+            explanation: "\"À défaut de\" in a contract becomes \"sinon\" in plain French.",
+          },
+        ],
+      },
+      {
+        heading: "From nouns to verbs",
+        body: [
+          "Compare: \"à tout moment\" → \"quand vous voulez\"; \"à compter de la réception\" → \"après réception\"; \"en cas de résiliation avant le terme\" → \"si vous partez avant la fin\"; \"pour motif légitime\" → \"si vous avez une bonne raison\"; \"à défaut de restitution\" → \"sinon\". Nominal prepositional phrases become verbs and conjunctions in plain French (Unit 3).",
+        ],
+        examples: [
+          { es: "Si vous partez avant la fin de votre engagement, vous devrez payer les mois restants.", en: "If you leave before your contract ends, you'll have to pay the remaining months." },
+          { es: "sauf si vous avez une bonne raison et que vous pouvez le prouver", en: "unless you have a good reason and can prove it" },
+          { es: "Dès que vous aurez signé, le contrat s'appliquera.", en: "As soon as you've signed, the contract will apply." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which is the plain-French version of \"À défaut de réponse sous huit jours, la demande sera refusée\"?",
+            options: ["Si vous ne répondez pas dans les huit jours, votre demande sera refusée.", "À défaut de réponse dans huit jours, la demande est refusée.", "Sans réponse, vous refuserez la demande dans huit jours.", "Vous répondez huit jours après le refus de la demande."],
+            correctIndex: 0,
+            explanation: "Plain French turns the noun phrase \"à défaut de réponse\" into a verb with a subject: \"si vous ne répondez pas\". The second option just keeps the legal style.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2246,14 +3088,6 @@ export const FR_C1_U07: Lesson[] = [
             answer: "Si vous résiliez avant la fin, vous devez quand même payer les mensualités.",
             altAnswers: ["Si vous résiliez avant la fin, vous devez quand même payer les mois restants.", "Si vous résiliez avant la fin, vous devrez quand même payer les mensualités.", "Si tu résilies avant la fin, tu dois quand même payer les mensualités.", "Si vous partez avant la fin, vous devez quand même payer les mensualités."],
             explanation: "\"En cas de\" + noun → \"si\" + verb in plain French.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words (plain French).",
-            en: "Send back the router within a month, [otherwise] you'll pay 80 euros.",
-            sentence: "Renvoyez la box dans le mois, ___ vous paierez 80 euros.",
-            answer: "sinon",
-            explanation: "\"À défaut de\" in a contract becomes \"sinon\" in plain French.",
           },
         ],
       },
@@ -2289,11 +3123,10 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (rewrite in plain French): \"L'abonné peut résilier à tout moment.\"",
-        source: "You can cancel whenever you like.",
-        answer: "Vous pouvez résilier quand vous voulez.",
-        altAnswers: ["Vous pouvez résilier quand vous le souhaitez.", "Tu peux résilier quand tu veux.", "Vous pouvez arrêter quand vous voulez."],
-        explanation: "\"À tout moment\" → \"quand vous voulez\".",
+        prompt: "Correct the sentence.",
+        source: "Le remboursement interviendra dans un délai de quinze jours à compter à la date d'annulation.",
+        answer: "Le remboursement interviendra dans un délai de quinze jours à compter de la date d'annulation.",
+        explanation: "The fixed phrase is \"à compter de\" (counting from), never \"à compter à\".",
       },
       {
         type: "fill-blank",
@@ -2328,14 +3161,14 @@ export const FR_C1_U07: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "L'abonné peut résilier à tout moment.",
+        audio: "Le contrat peut être résilié depuis l'espace client.",
         explanation: "\"À tout moment\" = at any time.",
       },
       {
         type: "speak",
-        text: "Pensez à renvoyer votre box dans le mois.",
-        prompt: "Say it in French: Remember to send back your router within a month.",
-        explanation: "\"Dans le mois\" = within the month.",
+        text: "Pensez à envoyer le justificatif avant la fin du mois.",
+        prompt: "Say it in French: Remember to send the proof before the end of the month.",
+        explanation: "\"Avant la fin du mois\": a deadline before a point in time, unlike \"dans le mois\" (within the month).",
       },
       {
         type: "listen-choose",
@@ -2344,6 +3177,30 @@ export const FR_C1_U07: Lesson[] = [
         options: ["A flat-rate penalty of 80 euros will be charged.", "A penalty of 80 euros per day will be charged.", "A refund of 80 euros will be made.", "An 80-euro penalty was waived."],
         correctIndex: 0,
         explanation: "\"Forfaitaire\" = flat-rate; \"sera facturée\" = will be charged.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French (contract style).",
+        source: "If the equipment is not returned, a fee will be charged.",
+        answer: "À défaut de restitution du matériel, des frais seront facturés.",
+        altAnswers: ["À défaut de restitution du matériel, une pénalité sera facturée.", "En l'absence de restitution du matériel, des frais seront facturés.", "Faute de restitution du matériel, des frais seront facturés."],
+        explanation: "\"À défaut de\" + noun = if X doesn't happen.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Correct the sentence.",
+        source: "En cas du départ anticipé, les mensualités restent dues.",
+        answer: "En cas de départ anticipé, les mensualités restent dues.",
+        explanation: "\"En cas de\" is fixed and takes a bare noun with no article: \"en cas de départ\", not \"en cas du départ\".",
+      },
+      {
+        type: "word-order",
+        prompt: "Put the words in order to say: The penalty will be charged in the event of late payment.",
+        words: ["La", "pénalité", "sera", "facturée", "en", "cas", "de", "retard", "de", "paiement."],
+        translation: "The penalty will be charged in the event of late payment.",
+        explanation: "\"En cas de\" + bare noun states the condition; the passive \"sera facturée\" keeps the contract impersonal.",
       },
     ],
   },
@@ -2356,20 +3213,24 @@ export const FR_C1_U07: Lesson[] = [
     duration: "18 min",
     sections: [
       {
-        heading: "Formal notices: preposition + noun",
+        heading: "Formal French: preposition + noun",
         body: [
           "Formal French leans on prepositional phrases built around nouns, where everyday French uses verbs and conjunctions (Unit 3). \"En raison de travaux\" (because there are works), \"à la suite de la panne\" (after the breakdown), \"dans l'attente de votre réponse\" (while waiting for your reply), \"en vue de la réunion\" (for / in preparation for the meeting), \"lors de\" (during, at the time of), \"à l'occasion de\" (on the occasion of), \"compte tenu de\" (given, considering).",
-          "Combine with the passive (Unit 5): \"En raison de travaux de rénovation, l'accueil sera exceptionnellement fermé du 3 au 7 mars. Lors de la réouverture, les horaires seront modifiés. Compte tenu de l'affluence attendue, il est conseillé de prendre rendez-vous.\"",
         ],
         examples: [
           { es: "En raison de travaux, l'accueil sera fermé du 3 au 7 mars.", en: "Because of works, reception will be closed from 3 to 7 March." },
-          { es: "Lors de la réouverture, les horaires seront modifiés.", en: "When it reopens, the opening hours will change." },
-          { es: "Compte tenu de l'affluence, il est conseillé de réserver.", en: "Given the crowds, booking is recommended." },
           { es: "En vue de la réunion, merci de lire le rapport.", en: "Please read the report ahead of the meeting." },
           { es: "Dans l'attente de votre réponse, je vous prie d'agréer mes salutations.", en: "I look forward to your reply. Yours faithfully." },
           { es: "À l'occasion de son départ, un pot sera organisé.", en: "There will be drinks to mark her departure." },
         ],
         checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which version suits a notice on a museum door?",
+            options: ["Le musée est fermé parce que y a grève.", "En raison de la grève, le musée est fermé.", "Vu qu'il y a grève, c'est fermé, quoi.", "Le musée, il est fermé à cause qu'il y a la grève."],
+            correctIndex: 1,
+            explanation: "A formal notice uses the compact \"en raison de\" + noun. The other options are spoken (and \"à cause que\" is non-standard).",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -2379,6 +3240,19 @@ export const FR_C1_U07: Lesson[] = [
             altAnswers: ["En raison de la grève, les bureaux seront fermés jeudi.", "En raison d'un mouvement de grève, le bureau sera fermé jeudi.", "En raison de la grève, le bureau sera fermé ce jeudi."],
             explanation: "\"En raison de\" + noun, future passive.",
           },
+        ],
+      },
+      {
+        heading: "Add the passive",
+        body: [
+          "Combine with the passive (Unit 5): \"En raison de travaux de rénovation, l'accueil sera exceptionnellement fermé du 3 au 7 mars. Lors de la réouverture, les horaires seront modifiés. Compte tenu de l'affluence attendue, il est conseillé de prendre rendez-vous.\"",
+        ],
+        examples: [
+          { es: "Lors de la réouverture, les horaires seront modifiés.", en: "When it reopens, the opening hours will change." },
+          { es: "Compte tenu de l'affluence, il est conseillé de réserver.", en: "Given the crowds, booking is recommended." },
+          { es: "À la suite de l'incendie, le bâtiment a été évacué.", en: "Following the fire, the building was evacuated." },
+        ],
+        checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -2388,47 +3262,100 @@ export const FR_C1_U07: Lesson[] = [
             altAnswers: ["Pendant", "Durant", "Au cours de"],
             explanation: "\"Lors de\" = during, at the time of (formal).",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it formal with \"en raison de\".",
+            source: "Le match est annulé parce qu'il pleut.",
+            answer: "En raison de la pluie, le match est annulé.",
+            altAnswers: ["Le match est annulé en raison de la pluie.", "En raison de la pluie, le match a été annulé.", "Le match a été annulé en raison de la pluie."],
+            explanation: "\"Parce qu'il pleut\" (verb clause) becomes \"en raison de la pluie\" (preposition + noun): the formal register prefers the noun.",
+          },
         ],
       },
       {
-        heading: "Back to everyday French",
+        heading: "Translating down to everyday French",
         body: [
           "Now translate down. \"En raison de travaux\" → \"parce qu'il y a des travaux\". \"Lors de la réouverture\" → \"quand ça rouvrira\". \"Compte tenu de l'affluence\" → \"comme il y aura beaucoup de monde\". \"À la suite de la panne\" → \"après la panne\" / \"depuis que c'est tombé en panne\". \"Dans l'attente de\" → \"en attendant\".",
-          "The everyday version needs subjects, verbs and tenses. That's why it's longer, and why formal writing prefers the compact noun style. At the Advanced level you must be able to move in both directions: decode the notice, and say it to a friend.",
         ],
         examples: [
           { es: "C'est fermé parce qu'il y a des travaux.", en: "It's closed because there's work going on." },
           { es: "Quand ça rouvrira, les horaires vont changer.", en: "When it reopens, the hours are going to change." },
+          { es: "En attendant ta réponse, je garde la date libre.", en: "While I wait for your answer, I'm keeping the date free." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A friend asks what \"À la suite de la panne, le métro est arrêté\" means. What do you say?",
+            options: ["À la suite de la panne, le métro est arrêté, quoi.", "Le métro roulera après la panne.", "Le métro ne roule plus depuis qu'il est tombé en panne.", "Le métro est en panne à cause de la suite."],
+            correctIndex: 2,
+            explanation: "Everyday French turns \"à la suite de la panne\" into a clause with a verb: \"depuis qu'il est tombé en panne\". Adding \"quoi\" to the notice just clashes registers.",
+          },
+          {
+            type: "speak",
+            text: "La piscine est fermée parce qu'il y a une grève.",
+            prompt: "Say it in French: The pool's closed because there's a strike.",
+            explanation: "Spoken French replaces \"en raison de la grève\" with a full clause: \"parce qu'il y a une grève\".",
+          },
+        ],
+      },
+      {
+        heading: "Why the everyday version is longer",
+        body: [
+          "The everyday version needs subjects, verbs and tenses. That's why it's longer, and why formal writing prefers the compact noun style. At the Advanced level you must be able to move in both directions: decode the notice, and say it to a friend.",
+        ],
+        examples: [
           { es: "Comme il y aura beaucoup de monde, mieux vaut réserver.", en: "Since there'll be lots of people, you'd better book." },
           { es: "Depuis que l'ascenseur est tombé en panne, on prend l'escalier.", en: "Since the lift broke down, we've been taking the stairs." },
-          { es: "En attendant ta réponse, je garde la date libre.", en: "While I wait for your answer, I'm keeping the date free." },
+          { es: "Dès que le colis arrivera, je te préviens.", en: "As soon as the parcel arrives, I'll let you know." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (rewrite for a friend in everyday French): \"Compte tenu de l'affluence, il est conseillé de réserver.\"",
-            source: "Since there'll be lots of people, you'd better book.",
-            answer: "Comme il y aura beaucoup de monde, mieux vaut réserver.",
-            altAnswers: ["Comme il y aura beaucoup de monde, il vaut mieux réserver.", "Comme il va y avoir beaucoup de monde, il vaut mieux réserver.", "Il va y avoir beaucoup de monde, donc il vaut mieux réserver.", "Comme il y aura du monde, mieux vaut réserver."],
-            explanation: "\"Compte tenu de\" + noun → \"comme\" + clause.",
-          },
-          {
-            type: "speak",
-            text: "C'est fermé parce qu'il y a des travaux.",
-            prompt: "Tell a friend: It's closed because there's work going on.",
-            explanation: "Everyday version of \"en raison de travaux\".",
+            prompt: "Translate into French (rewrite for a friend in everyday French): \"En raison de la fermeture du magasin, merci de revenir demain.\"",
+            source: "Since the shop will be closed, come back tomorrow.",
+            answer: "Comme le magasin sera fermé, reviens demain.",
+            altAnswers: ["Comme le magasin sera fermé, reviens demain !", "Puisque le magasin sera fermé, reviens demain.", "Comme la boutique sera fermée, reviens demain.", "Puisque la boutique sera fermée, reviens demain.", "Le magasin sera fermé, alors reviens demain."],
+            explanation: "The noun \"la fermeture\" becomes a verb with a subject and a tense: \"le magasin sera fermé\", introduced by \"comme\".",
           },
         ],
       },
       {
-        heading: "Register mix-ups to avoid",
+        heading: "Register clashes",
         body: [
           "Two classic register mistakes. Mixing formal prepositions with spoken grammar: *\"En raison de la grève, on est fermés, quoi\" (clashing registers). And using spoken shortcuts in formal writing: \"suite à\" is tolerated, but *\"rapport à\" (meaning 'about': \"je t'appelle rapport à ta lettre\") is very familiar and should never appear in an email to a client.",
-          "Similarly, *\"au niveau de\" used for 'regarding' (\"au niveau du budget, c'est bon\") is everywhere in speech but criticised in writing; use \"en ce qui concerne\" or \"pour\". And *\"par rapport à\" for 'about' (\"je vous appelle par rapport à l'annonce\") is common but loose; \"au sujet de\" or \"concernant\" is better in writing.",
         ],
         examples: [
           { es: "En raison de la grève, nos bureaux sont fermés.", en: "Because of the strike, our offices are closed." },
+          { es: "Je t'appelle à propos de ta lettre.", en: "I'm calling about your letter." },
+          { es: "Suite à votre appel, je vous envoie le devis.", en: "Following your call, I'm sending you the quote." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence mixes registers?",
+            options: ["En raison du mauvais temps, on annule, quoi.", "En raison du mauvais temps, la sortie est annulée.", "Comme il fait mauvais, on annule.", "La sortie est annulée à cause du mauvais temps."],
+            correctIndex: 0,
+            explanation: "\"En raison de\" is formal written French, while \"on annule, quoi\" is spoken: the two clash in one sentence.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Je vous écris rapport à votre facture.",
+            answer: "Je vous écris au sujet de votre facture.",
+            altAnswers: ["Je vous écris concernant votre facture.", "Je vous écris à propos de votre facture.", "Je vous écris en ce qui concerne votre facture."],
+            explanation: "\"Rapport à\" meaning 'about' is very familiar. To a client, write \"au sujet de\" or \"concernant\".",
+          },
+        ],
+      },
+      {
+        heading: "Au niveau de and par rapport à",
+        body: [
+          "Similarly, *\"au niveau de\" used for 'regarding' (\"au niveau du budget, c'est bon\") is everywhere in speech but criticised in writing; use \"en ce qui concerne\" or \"pour\". And *\"par rapport à\" for 'about' (\"je vous appelle par rapport à l'annonce\") is common but loose; \"au sujet de\" or \"concernant\" is better in writing.",
+        ],
+        examples: [
           { es: "En ce qui concerne le budget, tout est validé.", en: "As regards the budget, everything has been approved." },
           { es: "Je vous contacte au sujet de votre annonce.", en: "I'm contacting you about your advert." },
           { es: "Au niveau du budget, c'est bon.", en: "Budget-wise, it's fine. (spoken)" },
@@ -2436,21 +3363,21 @@ export const FR_C1_U07: Lesson[] = [
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French (rewrite for a formal email): \"Je vous appelle par rapport à votre annonce.\"",
-            source: "I'm contacting you about your advert.",
-            answer: "Je vous contacte au sujet de votre annonce.",
-            altAnswers: ["Je vous contacte concernant votre annonce.", "Je vous écris au sujet de votre annonce.", "Je vous écris concernant votre annonce.", "Je me permets de vous contacter au sujet de votre annonce."],
-            explanation: "\"Au sujet de\" / \"concernant\" in writing; \"par rapport à\" is loose spoken usage.",
+            type: "listen-choose",
+            audio: "Au niveau des horaires, ça me va.",
+            question: "What does it mean?",
+            options: ["Formal written: regarding the timetable, it is acceptable.", "Legal: the hours are binding.", "Spoken, informal: the times suit me.", "Literary: at the level of the hours, all is well."],
+            correctIndex: 2,
+            explanation: "\"Au niveau de\" for 'regarding' plus \"ça me va\" is everyday speech; in writing use \"en ce qui concerne\" or \"pour\".",
           },
           {
-            type: "listen-choose",
-            audio: "Au niveau du budget, c'est bon.",
-            question: "Which register is this?",
-            options: ["Spoken, informal", "Formal written", "Legal", "Literary"],
-            correctIndex: 0,
-            explanation: "\"Au niveau de\" for 'regarding' is spoken; in writing use \"en ce qui concerne\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Make it suitable for a formal email.",
+            source: "Je vous appelle par rapport à la facture.",
+            answer: "Je vous appelle au sujet de la facture.",
+            altAnswers: ["Je vous appelle concernant la facture.", "Je vous appelle à propos de la facture.", "Je vous contacte au sujet de la facture.", "Je vous contacte concernant la facture."],
+            explanation: "\"Par rapport à\" for 'about' is loose; \"au sujet de\" or \"concernant\" is better in writing.",
           },
         ],
       },
@@ -2486,11 +3413,11 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (rewrite for a friend in everyday French): \"Lors de la réouverture, les horaires seront modifiés.\"",
-        source: "When it reopens, the hours will change.",
-        answer: "Quand ça rouvrira, les horaires vont changer.",
-        altAnswers: ["Quand ça va rouvrir, les horaires vont changer.", "Quand ça rouvrira, les horaires changeront.", "À la réouverture, les horaires vont changer."],
-        explanation: "\"Lors de\" + noun → \"quand\" + clause.",
+        prompt: "Translate into French (rewrite for a friend in everyday French): \"Lors de son départ, un cadeau lui sera offert.\"",
+        source: "When she leaves, we'll give her a present.",
+        answer: "Quand elle partira, on lui offrira un cadeau.",
+        altAnswers: ["Quand elle partira, on va lui offrir un cadeau.", "Quand elle partira, on lui fera un cadeau.", "Quand elle partira, nous lui offrirons un cadeau."],
+        explanation: "\"Lors de son départ\" becomes a clause with a subject and a future verb: \"quand elle partira\".",
       },
       {
         type: "fill-blank",
@@ -2510,11 +3437,10 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (formal email).",
-        source: "I look forward to your reply. Yours faithfully.",
-        answer: "Dans l'attente de votre réponse, je vous prie d'agréer mes salutations distinguées.",
-        altAnswers: ["Dans l'attente de votre réponse, veuillez agréer mes salutations distinguées.", "Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.", "Dans l'attente de votre réponse, je vous adresse mes salutations distinguées."],
-        explanation: "\"Dans l'attente de\" opens the standard closing formula.",
+        prompt: "Correct the sentence.",
+        source: "Compte tenu la météo, la sortie est reportée.",
+        answer: "Compte tenu de la météo, la sortie est reportée.",
+        explanation: "The fixed phrase is \"compte tenu de\": the \"de\" cannot be dropped.",
       },
       {
         type: "word-order",
@@ -2525,14 +3451,14 @@ export const FR_C1_U07: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Lors de la visite, les photos sont interdites.",
+        audio: "À la suite de l'orage, la route a été coupée.",
         explanation: "\"Lors de\" = during.",
       },
       {
         type: "speak",
-        text: "Comme il y aura beaucoup de monde, mieux vaut réserver.",
-        prompt: "Tell a friend: Since there'll be lots of people, you'd better book.",
-        explanation: "Everyday version of \"compte tenu de l'affluence\".",
+        text: "Comme il pleuvait, on est restés à la maison.",
+        prompt: "Say it in French: Since it was raining, we stayed at home.",
+        explanation: "Everyday French uses \"comme\" + a verb where a notice would write \"en raison de la pluie\".",
       },
       {
         type: "translate",

@@ -14,28 +14,16 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
     duration: "14 min",
     sections: [
       {
-        heading: "Recap: judgements and ideas held up for inspection",
+        heading: "Recap: judgements in relative clauses",
         body: [
           "A superlative, \"le seul / l'unique / le premier / le dernier\" or a negative antecedent (\"personne\", \"rien\", \"aucun\") makes the relative clause a judgement: \"le meilleur livre que j'aie lu\", \"la seule qui puisse\", \"il n'y a rien qui vaille\". A plain chronological or historical fact keeps the indicative (\"le premier qui est arrivé\").",
-          "A que-clause placed at the head of the sentence takes the subjunctive (\"Qu'il ait raison, je le sais\"), as do \"que... ou non\" (whether or not) and evaluative \"le fait que\" (\"le fait qu'il soit absent m'inquiète\").",
         ],
         examples: [
           { es: "C'est la randonnée la plus belle que nous ayons faite.", en: "It's the most beautiful hike we've done." },
           { es: "Tu es la seule personne à qui je puisse le dire.", en: "You're the only person I can tell." },
           { es: "Il n'y a aucun magasin qui soit ouvert le dimanche ici.", en: "There's no shop that's open on Sundays here." },
-          { es: "Qu'elle soit douée, tout le monde le voit.", en: "Everyone can see she's gifted." },
-          { es: "Le fait qu'il n'ait rien dit m'étonne.", en: "The fact that he said nothing surprises me." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "You're the only person I can tell. (to a friend)",
-            answer: "Tu es la seule personne à qui je puisse le dire.",
-            altAnswers: ["Tu es la seule personne à qui je peux le dire.", "Tu es le seul à qui je puisse le dire.", "Tu es la seule à qui je puisse le dire."],
-            explanation: "\"La seule personne à qui\" + subjunctive \"puisse\".",
-          },
           {
             type: "multiple-choice",
             question: "Which sentence states a fact rather than a judgement?",
@@ -48,6 +36,22 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
             correctIndex: 0,
             explanation: "The last passenger to board is a matter of sequence, so the indicative \"est monté\". The others are judgements or negative antecedents.",
           },
+          { type: "fill-blank", prompt: "Write the French for the bold words.", en: "It's the only film [that's worth] seeing this week.", sentence: "C'est le seul film ___ la peine d'être vu cette semaine.", answer: "qui vaille", explanation: "\"Le seul... qui\" turns the relative clause into a judgement, so the subjunctive of valoir: \"qui vaille\". The indicative \"qui vaut\" is heard in speech but not in careful style." },
+        ],
+      },
+      {
+        heading: "Recap: ideas held up for inspection",
+        body: [
+          "A que-clause placed at the head of the sentence takes the subjunctive (\"Qu'il ait raison, je le sais\"), as do \"que... ou non\" (whether or not) and evaluative \"le fait que\" (\"le fait qu'il soit absent m'inquiète\").",
+        ],
+        examples: [
+          { es: "Qu'elle soit douée, tout le monde le voit.", en: "Everyone can see she's gifted." },
+          { es: "Le fait qu'il n'ait rien dit m'étonne.", en: "The fact that he said nothing surprises me." },
+          { es: "Que tu le veuilles ou non, il faut partir.", en: "Whether you like it or not, we have to leave." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which form completes: Que le projet ___ ou non, on doit essayer.", options: ["réussisse", "réussit", "réussira", "réussir"], correctIndex: 0, explanation: "\"Que... ou non\" (whether or not) always takes the subjunctive: \"réussisse\". \"Réussit\" and \"réussira\" are indicative, and the infinitive cannot follow \"que\" with a subject." },
+          { type: "translate", direction: "en-es", prompt: "Change it to a fronted que-clause.", source: "Tout le monde sait qu'elle est compétente.", answer: "Qu'elle soit compétente, tout le monde le sait.", explanation: "A que-clause moved to the head of the sentence becomes an idea held up for inspection, so \"est\" turns into the subjunctive \"soit\", and the main clause picks it up with \"le\"." },
         ],
       },
     ],
@@ -61,15 +65,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         altAnswers: ["C'est l'exposition la plus intéressante que j'ai vue cette année.", "C'est l'expo la plus intéressante que j'aie vue cette année."],
         explanation: "Superlative → past subjunctive; \"vue\" agrees with \"que\" (= l'exposition).",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "There's nobody in the family who speaks German.",
-        answer: "Il n'y a personne dans la famille qui parle allemand.",
-        altAnswers: ["Personne dans la famille ne parle allemand.", "Il n'y a personne dans la famille qui sache parler allemand."],
-        explanation: "Negative antecedent → subjunctive (\"parle\", identical in form).",
-      },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "There's nobody in the family [who speaks] German.", sentence: "Il n'y a personne dans la famille ___ allemand.", answer: "qui parle", altAnswers: ["qui sache parler"], explanation: "Negative antecedent (\"personne\") → subjunctive; \"parle\" has the same form in both moods." },
       {
         type: "translate",
         direction: "en-es",
@@ -95,15 +91,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         answer: "Qu'il soit honnête, je n'en ai jamais douté.",
         explanation: "Fronted que → \"soit\"; \"douter de\" → \"en\".",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Whether she comes or not, we'll eat at eight.",
-        answer: "Qu'elle vienne ou non, on mangera à huit heures.",
-        altAnswers: ["Qu'elle vienne ou non, nous mangerons à huit heures.", "Qu'elle vienne ou pas, on mangera à huit heures.", "Qu'elle vienne ou pas, nous mangerons à huit heures.", "Qu'elle vienne ou non, on dînera à huit heures.", "Qu'elle vienne ou non, nous dînerons à huit heures."],
-        explanation: "'Whether or not' = \"que\" + subjunctive + \"ou non\".",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: Whether she comes or not, we'll eat at eight.", words: ["Qu'elle", "vienne", "ou", "non,", "on", "mangera", "à", "huit", "heures."], translation: "Whether she comes or not, we'll eat at eight.", explanation: "'Whether or not' = \"que\" + subjunctive \"vienne\" + \"ou non\"; the main clause is an ordinary futur." },
       {
         type: "translate",
         direction: "en-es",
@@ -174,6 +162,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         prompt: "Say it in French: It's the best cake I've ever tasted.",
         explanation: "Superlative + past subjunctive \"j'aie goûté\".",
       },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Qu'il pleut ou non, nous sortirons.", answer: "Qu'il pleuve ou non, nous sortirons.", altAnswers: ["Qu'il pleuve ou pas, nous sortirons.", "Qu'il pleuve ou non, on sortira."], explanation: "\"Que... ou non\" never takes the indicative: the clause is a possibility, not a fact, so \"pleut\" must become the subjunctive \"pleuve\"." },
     ],
   },
   {
@@ -186,19 +175,17 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
     duration: "14 min",
     sections: [
       {
-        heading: "Recap: aspect and the expletive ne",
+        heading: "Recap: present or past subjunctive",
         body: [
           "The present subjunctive presents an action as simultaneous with the main verb or still to come (\"je suis contente qu'il vienne\"); the past subjunctive presents it as completed (\"qu'il soit venu\"). Être verbs and pronominal verbs keep être and agreement: \"qu'elles soient parties\", \"qu'elle se soit trompée\".",
-          "The ne explétif (\"avant qu'il ne parte\", \"à moins qu'il ne pleuve\", \"je crains qu'il ne soit trop tard\", \"plus cher que je ne pensais\") negates nothing; it marks formal style. Only \"ne... pas\" is a real negation.",
         ],
         examples: [
           { es: "Je suis contente qu'il vienne demain.", en: "I'm glad he's coming tomorrow." },
           { es: "Je suis contente qu'il soit venu hier.", en: "I'm glad he came yesterday." },
-          { es: "Rentrons avant qu'il ne fasse trop froid.", en: "Let's go home before it gets too cold." },
-          { es: "Je crains qu'elle ne soit déjà partie.", en: "I'm afraid she's already left." },
-          { es: "Le repas était meilleur que je ne l'espérais.", en: "The meal was better than I'd hoped." },
+          { es: "Je regrette qu'elles se soient disputées.", en: "I'm sorry they argued." },
         ],
         checkpoint: [
+          { type: "multiple-choice", question: "Which sentence says the arrival is already over?", options: ["Je suis ravi qu'ils soient arrivés.", "Je suis ravi qu'ils arrivent.", "Je suis ravi qu'ils arriveront.", "Je suis ravi qu'ils sont arrivés."], correctIndex: 0, explanation: "A completed action takes the past subjunctive \"soient arrivés\" (être verb, plural agreement). \"Arrivent\" presents it as happening now or soon; \"arriveront\" and \"sont arrivés\" are indicative, which \"ravi que\" does not allow." },
           {
             type: "translate",
             direction: "en-es",
@@ -208,6 +195,19 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
             altAnswers: ["Je suis désolée que tu te sois perdue.", "Je regrette que tu te sois perdue."],
             explanation: "Completed → past subjunctive; pronominal → être; agreement with \"tu\" (a woman): \"perdue\".",
           },
+        ],
+      },
+      {
+        heading: "Recap: the ne explétif negates nothing",
+        body: [
+          "The ne explétif (\"avant qu'il ne parte\", \"à moins qu'il ne pleuve\", \"je crains qu'il ne soit trop tard\", \"plus cher que je ne pensais\") negates nothing; it marks formal style. Only \"ne... pas\" is a real negation.",
+        ],
+        examples: [
+          { es: "Rentrons avant qu'il ne fasse trop froid.", en: "Let's go home before it gets too cold." },
+          { es: "Je crains qu'elle ne soit déjà partie.", en: "I'm afraid she's already left." },
+          { es: "Le repas était meilleur que je ne l'espérais.", en: "The meal was better than I'd hoped." },
+        ],
+        checkpoint: [
           {
             type: "listen-choose",
             audio: "J'ai peur qu'il ne se fâche.",
@@ -216,6 +216,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
             correctIndex: 0,
             explanation: "A lone \"ne\" after a verb of fear is expletive.",
           },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "C'était plus difficile que je ne le croie.", answer: "C'était plus difficile que je ne le croyais.", altAnswers: ["C'était plus difficile que je ne croyais.", "C'était plus difficile que je le croyais.", "C'était plus difficile que je ne l'avais cru."], explanation: "After a comparison of inequality the clause stays in the indicative (\"croyais\"); the ne explétif marks style, not the subjunctive." },
         ],
       },
     ],
@@ -229,24 +230,8 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         altAnswers: ["Je suis surprise qu'elle ait accepté.", "Je suis étonné qu'elle ait accepté.", "Je suis étonnée qu'elle ait accepté.", "Ça m'étonne qu'elle ait accepté."],
         explanation: "Completed action → \"qu'elle ait accepté\".",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I'm surprised she's accepting.",
-        answer: "Je suis surpris qu'elle accepte.",
-        altAnswers: ["Je suis surprise qu'elle accepte.", "Je suis étonné qu'elle accepte.", "Je suis étonnée qu'elle accepte.", "Ça m'étonne qu'elle accepte."],
-        explanation: "Ongoing → present subjunctive \"accepte\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "It's possible that they've already gone to bed.",
-        answer: "Il est possible qu'ils se soient déjà couchés.",
-        altAnswers: ["Il se peut qu'ils se soient déjà couchés.", "C'est possible qu'ils se soient déjà couchés.", "Il est possible qu'elles se soient déjà couchées."],
-        explanation: "Pronominal, completed: \"se soient couchés\", with plural agreement.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Make it a completed action.", source: "Je suis ravie que vous veniez.", answer: "Je suis ravie que vous soyez venus.", altAnswers: ["Je suis ravie que vous soyez venu.", "Je suis ravie que vous soyez venue.", "Je suis ravie que vous soyez venues."], explanation: "Completed → past subjunctive; \"venir\" takes être, so \"soyez venu(s)\" agrees with \"vous\"." },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "It's possible that they [have already gone to bed].", sentence: "Il est possible qu'ils ___.", answer: "se soient déjà couchés", explanation: "Pronominal verb, completed action: past subjunctive with être, \"se soient couchés\", agreeing in the plural." },
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
@@ -295,15 +280,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         correctIndex: 0,
         explanation: "\"Avant que\" + present subjunctive, optional expletive \"ne\". Adding \"pas\" reverses the meaning.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "He went out without his parents knowing.",
-        answer: "Il est sorti sans que ses parents le sachent.",
-        altAnswers: ["Il est sorti sans que ses parents soient au courant.", "Il est sorti sans que ses parents ne le sachent."],
-        explanation: "\"Sans que\" + subjunctive \"sachent\", no ne explétif in careful usage.",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: He went out without his parents knowing.", words: ["Il", "est", "sorti", "sans", "que", "ses", "parents", "le", "sachent."], translation: "He went out without his parents knowing.", explanation: "\"Sans que\" + subjunctive \"sachent\"; careful usage adds no ne explétif here." },
       {
         type: "word-order",
         prompt: "Put the words in order to say: I doubt they've finished.",
@@ -320,15 +297,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         altAnswers: ["Parlez bas de peur que les enfants ne se réveillent.", "Parlez doucement de crainte que les enfants ne se réveillent.", "Parle doucement de peur que les enfants ne se réveillent."],
         explanation: "\"De peur que\" + subjunctive + expletive \"ne\".",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I'm glad you've found a job. (to a friend)",
-        answer: "Je suis content que tu aies trouvé un travail.",
-        altAnswers: ["Je suis contente que tu aies trouvé un travail.", "Je suis content que tu aies trouvé du travail.", "Je suis contente que tu aies trouvé du travail.", "Je suis ravi que tu aies trouvé un travail.", "Je suis ravie que tu aies trouvé un travail.", "Je suis content que tu aies trouvé un boulot.", "Je suis contente que tu aies trouvé un boulot."],
-        explanation: "Completed → \"aies trouvé\".",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Je suis content que tu as trouvé un travail.", answer: "Je suis content que tu aies trouvé un travail.", altAnswers: ["Je suis contente que tu aies trouvé un travail."], explanation: "Emotion (\"content que\") requires the subjunctive: the completed action becomes the past subjunctive \"aies trouvé\", not the indicative \"as trouvé\"." },
       {
         type: "dictation",
         audio: "Je crains qu'il ne soit trop tard.",
@@ -352,27 +321,31 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
     duration: "13 min",
     sections: [
       {
-        heading: "Recap: reading the old forms",
+        heading: "Recap: the imparfait du subjonctif",
         body: [
           "The imparfait du subjonctif (\"qu'il fût\", \"qu'il eût\", \"qu'il vînt\", \"qu'il fît\", \"qu'il allât\", \"qu'ils fussent\") replaces the present subjunctive after a past main verb in classical style. Read it as \"qu'il soit\", \"qu'il ait\", \"qu'il vienne\", and so on.",
-          "The plus-que-parfait du subjonctif (\"qu'il eût fini\", \"qu'elle fût partie\") reads as a past subjunctive, or as a conditionnel passé (\"j'eusse aimé\" = \"j'aurais aimé\", \"on eût dit\" = \"on aurait dit\"). Survivals: \"fût-ce\", \"ne fût-ce que\", \"qui l'eût cru\", \"dût-il\".",
         ],
         examples: [
           { es: "Il voulait qu'elle restât près de lui.", en: "He wanted her to stay near him." },
           { es: "Bien qu'il eût froid, il ne se plaignait pas.", en: "Although he was cold, he didn't complain." },
+          { es: "Il fallait que nous partissions avant l'aube.", en: "We had to leave before dawn." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "A novel says: Il souhaitait qu'elle vînt seule. Which modern form replaces vînt?", options: ["vienne", "venait", "viendra", "vint"], correctIndex: 0, explanation: "The imparfait du subjonctif \"vînt\" reads as the present subjunctive \"vienne\" (after \"souhaiter que\"). \"Vint\" without the circumflex is the passé simple, a different tense, and \"venait\" is indicative." },
+          { type: "translate", direction: "en-es", prompt: "Change it to modern French.", source: "Elle doutait qu'il fût sincère.", answer: "Elle doutait qu'il soit sincère.", explanation: "\"Fût\" is the imparfait du subjonctif of être; modern French uses the present subjunctive \"soit\" even after a past main verb." },
+        ],
+      },
+      {
+        heading: "Recap: the plus-que-parfait and its survivals",
+        body: [
+          "The plus-que-parfait du subjonctif (\"qu'il eût fini\", \"qu'elle fût partie\") reads as a past subjunctive, or as a conditionnel passé (\"j'eusse aimé\" = \"j'aurais aimé\", \"on eût dit\" = \"on aurait dit\"). Survivals: \"fût-ce\", \"ne fût-ce que\", \"qui l'eût cru\", \"dût-il\".",
+        ],
+        examples: [
           { es: "J'eusse préféré qu'on m'en parlât.", en: "I would have preferred to be told about it." },
           { es: "On eût dit que la maison était abandonnée.", en: "You'd have thought the house was abandoned." },
           { es: "Il refusait de céder, fût-ce un centimètre.", en: "He refused to give way, even by a centimetre." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "A text says: \"Il voulait qu'elle restât.\" Write it in modern French: He wanted her to stay.",
-            source: "He wanted her to stay.",
-            answer: "Il voulait qu'elle reste.",
-            explanation: "\"Restât\" → \"reste\".",
-          },
           {
             type: "multiple-choice",
             question: "What does \"J'eusse préféré rester\" mean?",
@@ -380,28 +353,13 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
             correctIndex: 0,
             explanation: "\"J'eusse préféré\" = \"j'aurais préféré\".",
           },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Si nous aurions su, nous serions partis plus tôt.", answer: "Si nous avions su, nous serions partis plus tôt.", altAnswers: ["Si on avait su, on serait partis plus tôt."], explanation: "The literary \"si nous eussions su\" becomes the plus-que-parfait \"avions su\" in modern French, never the conditional: \"si\" does not take \"aurions\"." },
         ],
       },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "A text says: \"Il fallait qu'il partît.\" Write the modern French: He had to leave.",
-        source: "He had to leave.",
-        answer: "Il fallait qu'il parte.",
-        altAnswers: ["Il devait partir."],
-        explanation: "\"Partît\" → \"parte\".",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "A text says: \"Bien qu'elle eût peur, elle avança.\" Write the first part in modern French: Although she was afraid...",
-        source: "Although she was afraid",
-        answer: "Bien qu'elle ait peur",
-        altAnswers: ["Quoiqu'elle ait peur"],
-        explanation: "\"Eût\" → \"ait\"; \"avoir peur\" = to be afraid.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Change it to modern French.", source: "Il fallait qu'il partît.", answer: "Il fallait qu'il parte.", explanation: "\"Partît\" is the imparfait du subjonctif; modern French uses the present subjunctive \"parte\" after \"il fallait que\"." },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Bien qu'elle avait peur, elle a avancé.", answer: "Bien qu'elle ait peur, elle a avancé.", altAnswers: ["Bien qu'elle ait eu peur, elle a avancé.", "Quoiqu'elle ait peur, elle a avancé."], explanation: "A text had \"bien qu'elle eût peur\". Modernised, \"bien que\" still needs the subjunctive: \"ait\", never the indicative \"avait\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -515,19 +473,37 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
     duration: "13 min",
     sections: [
       {
-        heading: "Recap: one verb, two meanings",
+        heading: "Recap: the indicative states a fact",
         body: [
           "Indicative = a fact, a statement or an assumption: \"comprendre que\" (realise), \"admettre que\" (acknowledge), \"dire que\" (state), \"supposer que\" (assume), \"entendre (dire) que\" (hear that), \"prétendre que\" (claim).",
-          "Subjunctive = sympathy, acceptance, an order, a hypothesis, a requirement or an insistence: \"je comprends qu'il soit fâché\", \"je n'admets pas qu'on me mente\", \"dis-lui qu'il vienne\", \"supposons qu'il refuse\", \"ce poste suppose qu'on voyage\", \"j'entends qu'on me respecte\".",
         ],
         examples: [
           { es: "J'ai compris qu'elle ne voulait pas venir.", en: "I realised she didn't want to come." },
-          { es: "Je comprends qu'elle ne veuille pas venir.", en: "I can understand her not wanting to come." },
           { es: "Il écrit que tout va bien.", en: "He writes that everything's fine." },
-          { es: "Il écrit qu'on lui envoie de l'argent.", en: "He's writing to ask us to send him money." },
           { es: "Je suppose que vous êtes Mme Garnier ?", en: "I take it you're Mrs Garnier?" },
         ],
         checkpoint: [
+          { type: "multiple-choice", question: "Which form completes: J'ai entendu dire que le musée ___ fermé le lundi.", options: ["est", "soit", "sois", "être"], correctIndex: 0, explanation: "\"Entendre dire que\" = to hear that, a report of a fact, so the indicative \"est\". The subjunctive \"soit\" belongs to \"j'entends que\" (I insist), which is a different meaning; \"sois\" is the wrong person." },
+        ],
+      },
+      {
+        heading: "Recap: the subjunctive accepts, orders or supposes",
+        body: [
+          "Subjunctive = sympathy, acceptance, an order, a hypothesis, a requirement or an insistence: \"je comprends qu'il soit fâché\", \"je n'admets pas qu'on me mente\", \"dis-lui qu'il vienne\", \"supposons qu'il refuse\", \"ce poste suppose qu'on voyage\", \"j'entends qu'on me respecte\".",
+        ],
+        examples: [
+          { es: "Je comprends qu'elle ne veuille pas venir.", en: "I can understand her not wanting to come." },
+          { es: "Il écrit qu'on lui envoie de l'argent.", en: "He's writing to ask us to send him money." },
+          { es: "Supposons que la réunion soit annulée.", en: "Suppose the meeting is cancelled." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "What does \"Il dit que tu sois prudent\" mean?",
+            options: ["He says you should be careful.", "He says you're careful.", "He says you were careful.", "He says he'll be careful."],
+            correctIndex: 0,
+            explanation: "\"Dire que\" + subjunctive \"sois\" = an instruction.",
+          },
           {
             type: "translate",
             direction: "en-es",
@@ -536,13 +512,6 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
             answer: "Je comprends qu'il veuille partir.",
             altAnswers: ["Je peux comprendre qu'il veuille partir.", "Je comprends qu'il ait envie de partir."],
             explanation: "Sympathy → subjunctive \"veuille\".",
-          },
-          {
-            type: "multiple-choice",
-            question: "What does \"Il dit que tu sois prudent\" mean?",
-            options: ["He says you should be careful.", "He says you're careful.", "He says you were careful.", "He says he'll be careful."],
-            correctIndex: 0,
-            explanation: "\"Dire que\" + subjunctive \"sois\" = an instruction.",
           },
         ],
       },
@@ -575,15 +544,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         altAnswers: ["J'admets avoir fait une erreur.", "Je reconnais que j'ai fait une erreur.", "Je reconnais avoir fait une erreur.", "J'admets que je me suis trompé.", "J'admets que je me suis trompée."],
         explanation: "Acknowledging a fact → indicative.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I won't accept you being late every day. (to an employee, formal)",
-        answer: "Je n'admets pas que vous soyez en retard tous les jours.",
-        altAnswers: ["Je n'accepte pas que vous soyez en retard tous les jours.", "Je ne tolère pas que vous soyez en retard tous les jours.", "Je n'admets pas que vous arriviez en retard tous les jours."],
-        explanation: "Tolerate → subjunctive \"soyez\".",
-      },
+      { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Je n'admets pas que vous êtes en retard tous les jours.", answer: "Je n'admets pas que vous soyez en retard tous les jours.", altAnswers: ["Je n'admets pas que vous arriviez en retard tous les jours."], explanation: "\"Ne pas admettre que\" = to refuse to tolerate: that is acceptance (or refusal), not acknowledging a fact, so the subjunctive \"soyez\"." },
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
@@ -610,15 +571,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         altAnswers: ["Supposons que nous rations l'avion : que se passe-t-il ?", "Supposons qu'on rate l'avion : que se passe-t-il ?", "Admettons qu'on rate l'avion : qu'est-ce qui se passe ?", "Supposons qu'on manque l'avion : qu'est-ce qui se passe ?", "Supposons que nous manquions l'avion : que se passe-t-il ?"],
         explanation: "Hypothesis → subjunctive.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I suppose you've already eaten. (to a friend)",
-        answer: "Je suppose que tu as déjà mangé.",
-        altAnswers: ["Je suppose que tu as déjà dîné.", "Je suppose que tu as déjà déjeuné."],
-        explanation: "Assumption → indicative.",
-      },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "I suppose [you've already eaten]. (to a friend)", sentence: "Je suppose que tu ___.", answer: "as déjà mangé", altAnswers: ["as déjà dîné", "as déjà déjeuné"], explanation: "\"Supposer que\" = to assume: an assumption takes the indicative \"as mangé\". The subjunctive would turn it into a requirement." },
       {
         type: "multiple-choice",
         question: "Which sentence means 'I insist that the rules be followed'?",
@@ -672,6 +625,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         prompt: "Say it in French to a friend: Tell Paul to come and see me.",
         explanation: "\"Dire que\" + subjunctive = an order passed on.",
       },
+      { type: "translate", direction: "en-es", prompt: "Make it a hypothesis with Supposons que.", source: "Le train est en retard.", answer: "Supposons que le train soit en retard.", altAnswers: ["Supposons que le train ait du retard.", "Admettons que le train soit en retard."], explanation: "\"Supposons que\" sets up a hypothesis, so \"est\" becomes the subjunctive \"soit\"." },
     ],
   },
   {
@@ -684,28 +638,32 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
     duration: "13 min",
     sections: [
       {
-        heading: "Recap: -ever in French",
+        heading: "Recap: whoever, whatever, wherever",
         body: [
           "Whoever = \"qui que\" + être (\"qui que vous soyez\"); whatever (object) = \"quoi que\" + subjunctive (\"quoi que tu dises\"); wherever = \"où que\" + subjunctive (\"où qu'il aille\"). Whatever + noun = \"quel que soit\" (agreeing), developed in Unit 2.",
-          "Set phrases: \"quoi qu'il arrive\", \"quoi qu'il en soit\", \"qui que ce soit\" (anyone at all), \"quoi que ce soit\" (anything at all), \"coûte que coûte\", \"vaille que vaille\". Don't confuse \"quoi que\" (whatever) with \"quoique\" (although).",
         ],
         examples: [
           { es: "Qui que tu sois, tu dois attendre ton tour.", en: "Whoever you are, you have to wait your turn." },
           { es: "Quoi qu'on lui propose, il refuse.", en: "Whatever you offer him, he refuses." },
           { es: "Où que nous soyons, nous nous appelons le dimanche.", en: "Wherever we are, we call each other on Sundays." },
-          { es: "Je n'ai rien dit à qui que ce soit.", en: "I haven't said anything to anyone at all." },
-          { es: "Il veut réussir coûte que coûte.", en: "He wants to succeed at all costs." },
         ],
         checkpoint: [
-          {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into French.",
-            source: "Whatever you offer him, he refuses.",
-            answer: "Quoi qu'on lui propose, il refuse.",
-            altAnswers: ["Quoi que tu lui proposes, il refuse.", "Quoi que vous lui proposiez, il refuse."],
-            explanation: "\"Quoi que\" + subjunctive; generic 'you' = \"on\".",
-          },
+          { type: "multiple-choice", question: "How do you say 'Wherever you live'? (to a friend)", options: ["Où que tu habites", "Où tu habites", "Partout que tu habites", "Où que tu habiteras"], correctIndex: 0, explanation: "Wherever = \"où que\" + subjunctive \"habites\". Plain \"où tu habites\" means where you live, \"partout que\" does not exist, and the futur is indicative." },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Où qu'il va, il se fait des amis.", answer: "Où qu'il aille, il se fait des amis.", explanation: "\"Où que\" (wherever) is a universal formula and takes the subjunctive: \"aille\", not \"va\"." },
+        ],
+      },
+      {
+        heading: "Recap: set phrases, and quoi que vs quoique",
+        body: [
+          "Set phrases: \"quoi qu'il arrive\", \"quoi qu'il en soit\", \"qui que ce soit\" (anyone at all), \"quoi que ce soit\" (anything at all), \"coûte que coûte\", \"vaille que vaille\". Don't confuse \"quoi que\" (whatever) with \"quoique\" (although).",
+        ],
+        examples: [
+          { es: "Je n'ai rien dit à qui que ce soit.", en: "I haven't said anything to anyone at all." },
+          { es: "Il veut réussir coûte que coûte.", en: "He wants to succeed at all costs." },
+          { es: "Quoique pressé, il a pris le temps de nous saluer.", en: "Although in a hurry, he took the time to greet us." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which phrase means 'anything at all'?", options: ["quoi que ce soit", "qui que ce soit", "quoique ce soit", "quoi qu'il en soit"], correctIndex: 0, explanation: "\"Quoi que ce soit\" (two words) = anything at all. \"Qui que ce soit\" is anyone at all, \"quoique\" in one word means although, and \"quoi qu'il en soit\" means be that as it may." },
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
@@ -793,15 +751,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         altAnswers: ["Si tu as besoin de quoi que ce soit, dis-le-moi.", "Si tu as besoin de quoi que ce soit, n'hésite pas à me demander."],
         explanation: "\"Quoi que ce soit\" = anything at all.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Wherever you are, I'll find you. (to a friend)",
-        answer: "Où que tu sois, je te trouverai.",
-        altAnswers: ["Où que tu sois, je te retrouverai."],
-        explanation: "\"Où que\" + \"sois\".",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: Wherever you are, I'll find you.", words: ["Où", "que", "tu", "sois,", "je", "te", "trouverai."], translation: "Wherever you are, I'll find you.", explanation: "\"Où que\" + subjunctive \"sois\"; the main clause is in the futur." },
       {
         type: "translate",
         direction: "en-es",
@@ -843,6 +793,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         prompt: "Say it in French to a friend: Wherever you go, call me.",
         explanation: "\"Où que tu ailles\": subjunctive of aller.",
       },
+      { type: "translate", direction: "en-es", prompt: "Make it formal with vous.", source: "Quoi que tu fasses, je te soutiendrai.", answer: "Quoi que vous fassiez, je vous soutiendrai.", explanation: "\"Quoi que\" keeps the subjunctive in every person: \"tu fasses\" becomes \"vous fassiez\", and \"te\" becomes \"vous\"." },
     ],
   },
   {
@@ -855,17 +806,14 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Recap: the decision tree",
+        heading: "Recap: the subjunctive side",
         body: [
           "Subjunctive after will, emotion, doubt, necessity and evaluation (\"je veux que\", \"je suis ravi que\", \"je doute que\", \"il faut que\", \"il est normal que\"), after \"bien que\", \"pour que\", \"avant que\", \"à moins que\", \"sans que\", \"de peur que\", after superlatives, \"le seul\" and negative antecedents, after a fronted que, and in the universal formulas.",
-          "Indicative after certainty and affirmative opinion (\"je pense que\", \"il est clair que\", \"il paraît que\"), \"même si\", \"après que\", \"du fait que\", \"pendant que\", \"tandis que\", and with the fact / statement meanings of comprendre, dire, supposer.",
         ],
         examples: [
-          { es: "Il est clair qu'il a menti.", en: "It's clear he lied." },
           { es: "Il est normal qu'il ait peur.", en: "It's normal for him to be scared." },
-          { es: "Je pense qu'elle viendra.", en: "I think she'll come." },
           { es: "Je ne pense pas qu'elle vienne.", en: "I don't think she'll come." },
-          { es: "Pendant que tu cuisines, je mets la table.", en: "While you cook, I'll lay the table." },
+          { es: "Je cherche quelqu'un qui sache réparer ce vélo.", en: "I'm looking for someone who can fix this bike." },
         ],
         checkpoint: [
           {
@@ -875,6 +823,21 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
             correctIndex: 0,
             explanation: "\"Il est possible que\" + subjunctive; \"probable\", \"certain\" and \"il paraît que\" take the indicative.",
           },
+          { type: "translate", direction: "en-es", prompt: "Correct the sentence.", source: "Bien qu'il fait froid, ils se baignent.", answer: "Bien qu'il fasse froid, ils se baignent.", explanation: "\"Bien que\" always takes the subjunctive: \"fasse\", not the indicative \"fait\"." },
+        ],
+      },
+      {
+        heading: "Recap: the indicative side",
+        body: [
+          "Indicative after certainty and affirmative opinion (\"je pense que\", \"il est clair que\", \"il paraît que\"), \"même si\", \"après que\", \"du fait que\", \"pendant que\", \"tandis que\", and with the fact / statement meanings of comprendre, dire, supposer.",
+        ],
+        examples: [
+          { es: "Il est clair qu'il a menti.", en: "It's clear he lied." },
+          { es: "Je pense qu'elle viendra.", en: "I think she'll come." },
+          { es: "Pendant que tu cuisines, je mets la table.", en: "While you cook, I'll lay the table." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Which one takes the indicative?", options: ["Même si...", "Bien que...", "Pour que...", "À moins que..."], correctIndex: 0, explanation: "\"Même si\" (even if) takes the indicative. \"Bien que\", \"pour que\" and \"à moins que\" are conjunctions that require the subjunctive." },
           {
             type: "translate",
             direction: "en-es",
@@ -897,15 +860,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         altAnswers: ["Il se peut que le magasin soit fermé.", "C'est possible que le magasin soit fermé."],
         explanation: "Possibility → subjunctive.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I'm sure the shop is closed.",
-        answer: "Je suis sûr que le magasin est fermé.",
-        altAnswers: ["Je suis sûre que le magasin est fermé.", "Je suis certain que le magasin est fermé.", "Je suis certaine que le magasin est fermé."],
-        explanation: "Certainty → indicative.",
-      },
+      { type: "translate", direction: "en-es", prompt: "Change it to je doute que.", source: "Je suis sûr que le magasin est fermé.", answer: "Je doute que le magasin soit fermé.", explanation: "Certainty (\"je suis sûr que\") takes the indicative \"est\"; doubt (\"je doute que\") takes the subjunctive \"soit\"." },
       {
         type: "translate",
         direction: "en-es",
@@ -924,15 +879,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         altAnswers: ["Même si c'est cher, nous l'achèterons.", "Même si ça coûte cher, on l'achètera.", "Même si ça coûte cher, nous l'achèterons."],
         explanation: "\"Même si\" → indicative.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "Although it's expensive, we'll buy it.",
-        answer: "Bien que ce soit cher, on l'achètera.",
-        altAnswers: ["Bien que ce soit cher, nous l'achèterons.", "Quoique ce soit cher, on l'achètera.", "Quoique ce soit cher, nous l'achèterons."],
-        explanation: "\"Bien que\" → subjunctive \"ce soit\".",
-      },
+      { type: "translate", direction: "en-es", prompt: "Change même si to bien que.", source: "Même si c'est loin, on ira à pied.", answer: "Bien que ce soit loin, on ira à pied.", altAnswers: ["Bien que ce soit loin, nous irons à pied."], explanation: "\"Même si\" keeps the indicative \"c'est\"; \"bien que\" requires the subjunctive \"ce soit\"." },
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
@@ -951,15 +898,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         altAnswers: ["Après son départ, la maison était calme.", "Une fois qu'elle est partie, la maison était calme.", "Après qu'elle était partie, la maison était calme."],
         explanation: "\"Après que\" → indicative in standard grammar; the noun \"après son départ\" sidesteps the issue.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "I want you to tell me the truth. (to a friend)",
-        answer: "Je veux que tu me dises la vérité.",
-        altAnswers: ["Je voudrais que tu me dises la vérité."],
-        explanation: "Will → subjunctive \"dises\".",
-      },
+      { type: "fill-blank", prompt: "Write the French for the bold words.", en: "I want [you to tell] me the truth. (to a friend)", sentence: "Je veux que tu me ___ la vérité.", answer: "dises", explanation: "Will (\"je veux que\") → subjunctive \"dises\"; the indicative \"dis\" is wrong after a wish." },
       {
         type: "translate",
         direction: "en-es",
@@ -997,15 +936,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         translation: "While you were sleeping, it snowed.",
         explanation: "\"Pendant que\" → indicative.",
       },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French.",
-        source: "There's no restaurant that's open after midnight.",
-        answer: "Il n'y a aucun restaurant qui soit ouvert après minuit.",
-        altAnswers: ["Il n'y a pas de restaurant qui soit ouvert après minuit.", "Aucun restaurant n'est ouvert après minuit."],
-        explanation: "Negative antecedent → \"qui soit\".",
-      },
+      { type: "word-order", prompt: "Put the words in order to say: There's no restaurant that's open after midnight.", words: ["Il", "n'y", "a", "aucun", "restaurant", "qui", "soit", "ouvert", "après", "minuit."], translation: "There's no restaurant that's open after midnight.", explanation: "Negative antecedent (\"aucun restaurant\") → subjunctive \"qui soit\"." },
       {
         type: "listen-choose",
         audio: "Il faut que tu sois là à huit heures.",

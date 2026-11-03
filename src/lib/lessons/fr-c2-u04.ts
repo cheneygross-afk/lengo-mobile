@@ -25,22 +25,37 @@ export const FR_C2_U04: Lesson[] = [
     number: 1,
     title: "Les Expressions Idiomatiques, Part 1 of 2",
     summary: "High-frequency idioms native speakers use every day: avoir le cafard, poser un lapin, coûter les yeux de la tête, tomber dans les pommes, avoir d'autres chats à fouetter, mettre son grain de sel, casser les pieds and en faire tout un plat, with their image, register and frozen form.",
-    duration: "18 min",
+    duration: "19 min",
     sections: [
       {
-        heading: "Moods and people: avoir le cafard, poser un lapin, casser les pieds",
+        heading: "Avoir le cafard: feeling low",
         body: [
           "\"Avoir le cafard\" means to feel low, to have the blues. \"Le cafard\" is a cockroach, and Baudelaire used the word for gloom in the nineteenth century; the image of a dark insect crawling around the mind stuck. It is everyday, not vulgar: \"J'ai un peu le cafard depuis qu'il est parti\", \"ce temps gris me donne le cafard\". Note the article: \"le cafard\", not \"un cafard\" in this sense.",
-          "\"Poser un lapin à quelqu'un\" means to stand someone up. The origin is nineteenth-century slang where \"un lapin\" was an unpaid service. The form is frozen: always \"un lapin\", always \"poser\". You cannot say \"il m'a posé le lapin\", and the passive (\"un lapin m'a été posé\") sounds absurd; to focus on the victim, French says \"je me suis fait poser un lapin\".",
-          "\"Casser les pieds à quelqu'un\" means to annoy, to bore someone stiff: \"il me casse les pieds avec ses histoires\", \"tu nous casses les pieds\". It is familiar but polite enough between friends or with a grumbling colleague; the adjective is \"casse-pieds\" (\"quel casse-pieds !\"). Its ruder cousins with other body parts belong to slang, not to this course's register.",
         ],
         examples: [
           { es: "J'ai un peu le cafard depuis la rentrée.", en: "I've been feeling a bit down since the start of term." },
           { es: "Ce ciel gris me donne le cafard.", en: "This grey sky gets me down." },
+          { es: "Ne reste pas seul quand tu as le cafard.", en: "Don't stay on your own when you're feeling down." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence says you are feeling low?",
+            options: ["J'ai le cafard.", "J'ai un cafard.", "Je suis le cafard.", "J'ai des cafards."],
+            correctIndex: 0,
+            explanation: "In this sense the article is fixed: \"avoir le cafard\". \"Un cafard\" or \"des cafards\" would be the insects themselves, and \"être le cafard\" means nothing.",
+          },
+        ],
+      },
+      {
+        heading: "Poser un lapin: standing someone up",
+        body: [
+          "\"Poser un lapin à quelqu'un\" means to stand someone up. The origin is nineteenth-century slang where \"un lapin\" was an unpaid service. The form is frozen: always \"un lapin\", always \"poser\". You cannot say \"il m'a posé le lapin\", and the passive (\"un lapin m'a été posé\") sounds absurd; to focus on the victim, French says \"je me suis fait poser un lapin\".",
+        ],
+        examples: [
           { es: "Elle m'a posé un lapin, j'ai attendu une heure au café.", en: "She stood me up; I waited an hour at the cafe." },
           { es: "Je me suis encore fait poser un lapin.", en: "I've been stood up again." },
-          { es: "Arrête de me casser les pieds avec ton match !", en: "Stop going on at me about your match!" },
-          { es: "Son voisin est un vrai casse-pieds.", en: "His neighbour is a real pain." },
+          { es: "Ne me pose pas un lapin, j'ai réservé une table.", en: "Don't stand me up, I've booked a table." },
         ],
         checkpoint: [
           {
@@ -55,31 +70,111 @@ export const FR_C2_U04: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence keeps the idiom's frozen form?",
-            options: [
-              "Je me suis fait poser un lapin.",
-              "Il m'a posé le lapin.",
-              "Un lapin m'a été posé.",
-              "Il m'a mis un lapin.",
-            ],
+            options: ["Je me suis fait poser un lapin.", "Il m'a posé le lapin.", "Un lapin m'a été posé.", "Il m'a mis un lapin."],
             correctIndex: 0,
             explanation: "To focus on the victim, use \"se faire poser un lapin\"; the article and verb never change.",
           },
         ],
       },
       {
-        heading: "Exaggeration: coûter les yeux de la tête, tomber dans les pommes, en faire tout un plat",
+        heading: "Casser les pieds: boring someone stiff",
+        body: [
+          "\"Casser les pieds à quelqu'un\" means to annoy, to bore someone stiff: \"il me casse les pieds avec ses histoires\", \"tu nous casses les pieds\". It is familiar but polite enough between friends or with a grumbling colleague; the adjective is \"casse-pieds\" (\"quel casse-pieds !\"). Its ruder cousins with other body parts belong to slang, not to this course's register.",
+        ],
+        examples: [
+          { es: "Arrête de me casser les pieds avec ton match !", en: "Stop going on at me about your match!" },
+          { es: "Son voisin est un vrai casse-pieds.", en: "His neighbour is a real pain." },
+          { es: "Ces formulaires administratifs me cassent les pieds.", en: "These official forms are a real nuisance to me." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "He [is getting on my nerves] with his questions.",
+            sentence: "Il me ___ avec ses questions.",
+            answer: "casse les pieds",
+            altAnswers: ["tape sur les nerfs"],
+            explanation: "\"Casser les pieds à quelqu'un\": \"me\" is the indirect object.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Mon voisin me casse le pied avec ses travaux.",
+            answer: "Mon voisin me casse les pieds avec ses travaux.",
+            explanation: "The idiom is frozen in the plural: \"casser les pieds à quelqu'un\". The singular \"casser le pied\" is not French in this sense.",
+          },
+        ],
+      },
+      {
+        heading: "Coûter les yeux de la tête",
         body: [
           "\"Coûter les yeux de la tête\" means to cost a fortune, an arm and a leg. Variants: \"payer quelque chose les yeux de la tête\". The plural is fixed (\"les yeux\"), and so is \"de la tête\". A neutral equivalent: \"coûter très cher\", \"coûter une fortune\". Close cousins: \"ça coûte un bras\" (very familiar, also Québec).",
-          "\"Tomber dans les pommes\" means to faint. The \"pommes\" are probably a deformation of the old \"être dans les pâmes\" (\"se pâmer\", to swoon), but today everyone hears apples. It is familiar and fine in everyday speech; a doctor would write \"perte de connaissance\" or \"malaise\". You also hear \"tourner de l'œil\".",
-          "\"En faire tout un plat\" (or \"en faire tout un fromage\") means to make a big fuss about something: \"Il a renversé un verre, pas la peine d'en faire tout un plat !\" Note the \"en\": it refers to the thing being fussed about, and it is fused into the idiom. In the negative imperative: \"N'en fais pas tout un plat.\"",
         ],
         examples: [
           { es: "Ce canapé nous a coûté les yeux de la tête.", en: "That sofa cost us an arm and a leg." },
           { es: "À Paris, les loyers coûtent les yeux de la tête.", en: "In Paris, rents cost a fortune." },
+          { es: "Ces lunettes m'ont coûté un bras.", en: "These glasses cost me a small fortune." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "This repair [cost us a fortune].",
+            sentence: "Cette réparation nous a ___.",
+            answer: "coûté les yeux de la tête",
+            altAnswers: ["coûté une fortune", "coûté très cher"],
+            explanation: "\"Coûter les yeux de la tête\": the past participle \"coûté\" stays invariable here.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change the sentence so the price is exaggerated with an idiom about eyes.",
+            source: "Ce canapé était vraiment très cher.",
+            answer: "Ce canapé a coûté les yeux de la tête.",
+            altAnswers: ["Ce canapé nous a coûté les yeux de la tête."],
+            explanation: "\"Coûter les yeux de la tête\" replaces a plain \"très cher\"; both parts are fixed, the plural \"les yeux\" and \"de la tête\".",
+          },
+        ],
+      },
+      {
+        heading: "Tomber dans les pommes: fainting",
+        body: [
+          "\"Tomber dans les pommes\" means to faint. The \"pommes\" are probably a deformation of the old \"être dans les pâmes\" (\"se pâmer\", to swoon), but today everyone hears apples. It is familiar and fine in everyday speech; a doctor would write \"perte de connaissance\" or \"malaise\". You also hear \"tourner de l'œil\".",
+        ],
+        examples: [
           { es: "Il fait si chaud qu'une touriste est tombée dans les pommes.", en: "It's so hot that a tourist fainted." },
           { es: "J'ai failli tomber dans les pommes en voyant la facture.", en: "I nearly passed out when I saw the bill." },
+          { es: "Le patient a tourné de l'œil dans la salle d'attente.", en: "The patient passed out in the waiting room." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with an idiom.",
+            source: "She fainted in the metro.",
+            answer: "Elle est tombée dans les pommes dans le métro.",
+            altAnswers: ["Elle est tombée dans les pommes dans le métro ce matin.", "Elle a tourné de l'œil dans le métro.", "Elle s'est évanouie dans le métro."],
+            explanation: "\"Tomber dans les pommes\" (familiar) or \"s'évanouir\" (neutral). \"Tomber\" takes \"être\".",
+          },
+          {
+            type: "multiple-choice",
+            question: "A doctor is writing up the episode. Which phrase belongs in the file?",
+            options: ["une perte de connaissance", "une tombée dans les pommes", "un tour de l'œil", "une chute des pommes"],
+            correctIndex: 0,
+            explanation: "\"Tomber dans les pommes\" is familiar speech; in writing a doctor uses \"une perte de connaissance\" or \"un malaise\". The other three phrases do not exist.",
+          },
+        ],
+      },
+      {
+        heading: "En faire tout un plat: making a fuss",
+        body: [
+          "\"En faire tout un plat\" (or \"en faire tout un fromage\") means to make a big fuss about something: \"Il a renversé un verre, pas la peine d'en faire tout un plat !\" Note the \"en\": it refers to the thing being fussed about, and it is fused into the idiom. In the negative imperative: \"N'en fais pas tout un plat.\"",
+        ],
+        examples: [
           { es: "Ce n'est qu'une rayure, n'en fais pas tout un plat.", en: "It's only a scratch, don't make such a fuss." },
           { es: "Elle en a fait tout un fromage.", en: "She made a huge fuss about it." },
+          { es: "On en a fait tout un plat pendant des semaines.", en: "People made a huge fuss about it for weeks." },
         ],
         checkpoint: [
           {
@@ -92,29 +187,24 @@ export const FR_C2_U04: Lesson[] = [
             explanation: "\"En faire tout un plat\": in the negative imperative, \"en\" comes before the verb.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "This repair [cost us a fortune].",
-            sentence: "Cette réparation nous a ___.",
-            answer: "coûté les yeux de la tête",
-            altAnswers: ["coûté une fortune", "coûté très cher"],
-            explanation: "\"Coûter les yeux de la tête\": the past participle \"coûté\" stays invariable here.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Ne fais pas tout un plat pour une rayure !",
+            answer: "N'en fais pas tout un plat pour une rayure !",
+            explanation: "The \"en\" is fused into the idiom and cannot be left out: \"en faire tout un plat\", so the negative imperative is \"n'en fais pas\".",
           },
         ],
       },
       {
-        heading: "Priorities and meddling: avoir d'autres chats à fouetter, mettre son grain de sel",
+        heading: "D'autres chats à fouetter",
         body: [
           "\"Avoir d'autres chats à fouetter\" means to have more important things to do, bigger fish to fry. It is often used to dismiss something: \"Ses remarques ? J'ai d'autres chats à fouetter.\" The negative form is also common: \"il n'y a pas de quoi fouetter un chat\" (it's nothing to make a fuss about), a close relative of \"en faire tout un plat\".",
-          "\"Mettre son grain de sel\" means to put in one's two cents, usually uninvited: \"Il faut toujours qu'elle mette son grain de sel\" (\"il faut que\" + subjunctive). The possessive agrees with the subject and is fixed in form: \"je mets mon grain de sel\", \"ils mettent leur grain de sel\". It is mildly critical; with a self-deprecating \"si je peux me permettre de mettre mon grain de sel\", you soften your own interruption.",
-          "Register summary for the unit: all the idioms in this lesson are \"familier\" or \"courant\". They are perfect among friends, at the family table and in relaxed workplaces, and out of place in a formal letter or in an exam essay unless quoted. Their frozen grammar is the real Mastery test: a native ear instantly notices \"il a des autres chats à fouetter\" (it must be \"d'autres\").",
         ],
         examples: [
           { es: "Désolé, j'ai d'autres chats à fouetter ce matin.", en: "Sorry, I've got bigger fish to fry this morning." },
           { es: "Il n'y a pas de quoi fouetter un chat.", en: "It's nothing to make a fuss about." },
-          { es: "Il faut toujours que ma belle-mère mette son grain de sel.", en: "My mother-in-law always has to have her say." },
-          { es: "Si je peux me permettre de mettre mon grain de sel...", en: "If I may put in my two cents..." },
-          { es: "Les voisins sont venus mettre leur grain de sel.", en: "The neighbours came to have their say." },
+          { es: "Ses reproches ? Nous avons d'autres chats à fouetter.", en: "His criticism? We have bigger fish to fry." },
         ],
         checkpoint: [
           {
@@ -129,14 +219,58 @@ export const FR_C2_U04: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your colleague's mistake is minor. Which idiom says so?",
-            options: [
-              "Il n'y a pas de quoi fouetter un chat.",
-              "Il a d'autres chats à fouetter.",
-              "Il a mis son grain de sel.",
-              "Il m'a posé un lapin.",
-            ],
+            options: ["Il n'y a pas de quoi fouetter un chat.", "Il a d'autres chats à fouetter.", "Il a mis son grain de sel.", "Il m'a posé un lapin."],
             correctIndex: 0,
             explanation: "\"Il n'y a pas de quoi fouetter un chat\" = it's not a big deal.",
+          },
+        ],
+      },
+      {
+        heading: "Mettre son grain de sel",
+        body: [
+          "\"Mettre son grain de sel\" means to put in one's two cents, usually uninvited: \"Il faut toujours qu'elle mette son grain de sel\" (\"il faut que\" + subjunctive). The possessive agrees with the subject and is fixed in form: \"je mets mon grain de sel\", \"ils mettent leur grain de sel\". It is mildly critical; with a self-deprecating \"si je peux me permettre de mettre mon grain de sel\", you soften your own interruption.",
+        ],
+        examples: [
+          { es: "Il faut toujours que ma belle-mère mette son grain de sel.", en: "My mother-in-law always has to have her say." },
+          { es: "Si je peux me permettre de mettre mon grain de sel...", en: "If I may put in my two cents..." },
+          { es: "Les voisins sont venus mettre leur grain de sel.", en: "The neighbours came to have their say." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Il faut toujours qu'il mette son grain de sel.", "Il faut toujours qu'il met son grain de sel.", "Il faut toujours qu'il mette le grain de sel.", "Il faut toujours qu'il mette un grain de sel."],
+            correctIndex: 0,
+            explanation: "\"Il faut que\" + subjunctive \"mette\", and the possessive \"son\" is part of the idiom.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into French with « mettre son grain de sel ».",
+            source: "The neighbours always have to have their say.",
+            answer: "Il faut toujours que les voisins mettent leur grain de sel.",
+            altAnswers: ["Les voisins mettent toujours leur grain de sel."],
+            explanation: "\"Il faut toujours que\" takes the subjunctive (\"mettent\"), and the possessive follows the subject: \"leur grain de sel\".",
+          },
+        ],
+      },
+      {
+        heading: "Register: where these idioms belong",
+        body: [
+          "Register summary for the unit: all the idioms in this lesson are \"familier\" or \"courant\". They are perfect among friends, at the family table and in relaxed workplaces, and out of place in a formal letter or in an exam essay unless quoted. Their frozen grammar is the real Mastery test: a native ear instantly notices \"il a des autres chats à fouetter\" (it must be \"d'autres\").",
+        ],
+        examples: [
+          { es: "À l'oral, « ça m'a coûté un bras » passe très bien.", en: "In speech, saying it cost you a small fortune works perfectly well." },
+          { es: "Dans une lettre de motivation, écrivez plutôt que la dépense est élevée.", en: "In a cover letter, write instead that the expense is high." },
+          { es: "Un essai universitaire évitera ces tournures familières.", en: "A university essay will avoid these colloquial turns of phrase." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Where do the idioms of this lesson belong?",
+            options: ["A relaxed conversation with colleagues", "A cover letter for a job", "An examination essay", "A court judgment"],
+            correctIndex: 0,
+            explanation: "They are \"familier\" or \"courant\": fine among friends, at the family table and in a relaxed workplace, out of place in formal writing unless quoted.",
           },
         ],
       },
@@ -164,36 +298,6 @@ export const FR_C2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with an idiom.",
-        source: "She fainted in the metro.",
-        answer: "Elle est tombée dans les pommes dans le métro.",
-        altAnswers: ["Elle est tombée dans les pommes dans le métro ce matin.", "Elle a tourné de l'œil dans le métro.", "Elle s'est évanouie dans le métro."],
-        explanation: "\"Tomber dans les pommes\" (familiar) or \"s'évanouir\" (neutral). \"Tomber\" takes \"être\".",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "He [is getting on my nerves] with his questions.",
-        sentence: "Il me ___ avec ses questions.",
-        answer: "casse les pieds",
-        altAnswers: ["tape sur les nerfs"],
-        explanation: "\"Casser les pieds à quelqu'un\": \"me\" is the indirect object.",
-      },
-      {
-        type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: [
-          "Il faut toujours qu'il mette son grain de sel.",
-          "Il faut toujours qu'il met son grain de sel.",
-          "Il faut toujours qu'il mette le grain de sel.",
-          "Il faut toujours qu'il mette un grain de sel.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Il faut que\" + subjunctive \"mette\", and the possessive \"son\" is part of the idiom.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with an idiom.",
         source: "My brother stood me up again.",
         answer: "Mon frère m'a encore posé un lapin.",
         altAnswers: ["Mon frère m'a de nouveau posé un lapin.", "Je me suis encore fait poser un lapin par mon frère."],
@@ -202,18 +306,17 @@ export const FR_C2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with an idiom.",
-        source: "It's nothing to make a fuss about.",
-        answer: "Il n'y a pas de quoi fouetter un chat.",
-        altAnswers: ["Il n'y a pas de quoi en faire tout un plat.", "Ce n'est pas la peine d'en faire tout un plat.", "Il n'y a pas de quoi en faire un fromage."],
-        explanation: "Two idioms for the same idea: \"fouetter un chat\" and \"en faire tout un plat\".",
+        prompt: "Correct the sentence.",
+        source: "Il a des autres chats à fouetter en ce moment.",
+        answer: "Il a d'autres chats à fouetter en ce moment.",
+        explanation: "After \"de\", the plural article \"des\" disappears: \"d'autres chats\", never \"des autres chats\". A native ear catches this immediately.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Don't make such a fuss about it.",
-        words: ["N'en", "fais", "pas", "tout", "un", "plat."],
-        translation: "Don't make such a fuss about it.",
-        explanation: "\"En\" before the verb in the negative imperative.",
+        prompt: "Put the words in order to say: My sister stood me up twice.",
+        words: ["Ma", "sœur", "m'a", "posé", "un", "lapin", "deux", "fois."],
+        translation: "My sister stood me up twice.",
+        explanation: "\"Poser un lapin à quelqu'un\" keeps \"un lapin\" unchanged, and the person stood up is the indirect object pronoun \"m'\".",
       },
       {
         type: "matching",
@@ -230,12 +333,7 @@ export const FR_C2_U04: Lesson[] = [
         type: "listen-choose",
         audio: "Laisse tomber, j'ai d'autres chats à fouetter.",
         question: "What does the speaker mean?",
-        options: [
-          "Forget it, I have more important things to do.",
-          "Forget it, I have to feed the cats.",
-          "Forget it, I'm in a bad mood.",
-          "Forget it, I'll deal with it later.",
-        ],
+        options: ["Forget it, I have more important things to do.", "Forget it, I have to feed the cats.", "Forget it, I'm in a bad mood.", "Forget it, I'll deal with it later."],
         correctIndex: 0,
         explanation: "\"Avoir d'autres chats à fouetter\" = to have more important things to deal with.",
       },
@@ -250,8 +348,8 @@ export const FR_C2_U04: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Ce n'est qu'une petite rayure, il n'y a pas de quoi en faire tout un plat.",
         prompt: "Say it in French: It's only a small scratch, it's nothing to make a fuss about.",
+        text: "Ce n'est qu'une petite rayure, il n'y a pas de quoi en faire tout un plat.",
         tip: "Relaxed, slightly amused tone; \"tout un plat\" is said in one breath.",
         explanation: "\"Il n'y a pas de quoi\" + infinitive, with the idiom \"en faire tout un plat\".",
       },
@@ -263,21 +361,16 @@ export const FR_C2_U04: Lesson[] = [
     number: 2,
     title: "Word Web: De l'Image au Sens",
     summary: "Group idioms by their image (the body, food, animals) and learn to work out their meaning from the picture: avoir la tête dans les nuages, se mettre le doigt dans l'œil, raconter des salades, ne pas être dans son assiette, avoir un chat dans la gorge, quand les poules auront des dents and more.",
-    duration: "17 min",
+    duration: "18 min",
     sections: [
       {
-        heading: "The body: head, eyes, hands, feet",
+        heading: "The head and the eye",
         body: [
           "The body is the richest source of French idioms. The head: \"avoir la tête dans les nuages\" (to be absent-minded, daydreaming), \"perdre la tête\" (to lose one's mind), \"en avoir par-dessus la tête\" (to be fed up), \"se creuser la tête\" (to rack one's brains). The eye: \"se mettre le doigt dans l'œil\" (to be completely wrong, literally to put one's finger in one's eye), \"mon œil !\" (my foot! I don't believe you), \"coûter les yeux de la tête\".",
-          "The hands and arms: \"avoir le bras long\" (to have influence, connections), \"donner un coup de main\" (to lend a hand), \"mettre la main à la pâte\" (to pitch in, literally to put one's hand in the dough). The feet and legs: \"casser les pieds\", \"ça me fait une belle jambe\" (a lot of good that does me, ironic), \"prendre ses jambes à son cou\" (to run off as fast as possible).",
-          "The trick for working out meaning: ask what the gesture would do in real life. A finger in the eye blinds you: you see wrongly. Arms that reach far: you can pull strings far away. Legs around your neck: the image is so absurd that only speed explains it. When the image fails, as with \"une belle jambe\", the idiom is usually ironic.",
         ],
         examples: [
           { es: "Tu as encore la tête dans les nuages, tu n'as rien écouté !", en: "You're daydreaming again, you didn't listen to a thing!" },
           { es: "S'il croit que je vais céder, il se met le doigt dans l'œil.", en: "If he thinks I'm going to give in, he's got another think coming." },
-          { es: "Son oncle a le bras long, il lui a trouvé un stage.", en: "Her uncle has connections; he found her an internship." },
-          { es: "Tout le monde a mis la main à la pâte pour la fête.", en: "Everyone pitched in for the party." },
-          { es: "Quand ils ont vu le chien, ils ont pris leurs jambes à leur cou.", en: "When they saw the dog, they ran for their lives." },
           { es: "Il dit qu'il a fini ses devoirs ? Mon œil !", en: "He says he's finished his homework? My foot!" },
         ],
         checkpoint: [
@@ -291,28 +384,72 @@ export const FR_C2_U04: Lesson[] = [
             explanation: "\"Se mettre le doigt dans l'œil\": the reflexive pronoun changes with the subject; the rest is frozen.",
           },
           {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "I've [had enough] of these delays.",
+            sentence: "J'en ai ___ de ces retards.",
+            answer: "par-dessus la tête",
+            explanation: "\"En avoir par-dessus la tête\" is to be fed up: the \"en\" is fused into the idiom and \"la tête\" stays singular.",
+          },
+        ],
+      },
+      {
+        heading: "Hands, arms, feet and legs",
+        body: [
+          "The hands and arms: \"avoir le bras long\" (to have influence, connections), \"donner un coup de main\" (to lend a hand), \"mettre la main à la pâte\" (to pitch in, literally to put one's hand in the dough). The feet and legs: \"casser les pieds\", \"ça me fait une belle jambe\" (a lot of good that does me, ironic), \"prendre ses jambes à son cou\" (to run off as fast as possible).",
+        ],
+        examples: [
+          { es: "Son oncle a le bras long, il lui a trouvé un stage.", en: "Her uncle has connections; he found her an internship." },
+          { es: "Tout le monde a mis la main à la pâte pour la fête.", en: "Everyone pitched in for the party." },
+          { es: "Quand ils ont vu le chien, ils ont pris leurs jambes à leur cou.", en: "When they saw the dog, they ran for their lives." },
+        ],
+        checkpoint: [
+          {
             type: "multiple-choice",
             question: "\"Elle a le bras long\" means...",
             options: ["She has influential connections.", "She is very tall.", "She is lazy.", "She is generous."],
             correctIndex: 0,
             explanation: "Long arms reach far: influence and connections.",
           },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "En entendant l'alarme, les voleurs ont pris leurs jambes à leurs cous.",
+            answer: "En entendant l'alarme, les voleurs ont pris leurs jambes à leur cou.",
+            explanation: "In this frozen idiom \"cou\" stays singular even with a plural subject: \"prendre ses jambes à son cou\", so \"leurs jambes à leur cou\".",
+          },
         ],
       },
       {
-        heading: "Food: salades, assiettes, oignons and carottes",
+        heading: "Reading the image behind the words",
+        body: [
+          "The trick for working out meaning: ask what the gesture would do in real life. A finger in the eye blinds you: you see wrongly. Arms that reach far: you can pull strings far away. Legs around your neck: the image is so absurd that only speed explains it. When the image fails, as with \"une belle jambe\", the idiom is usually ironic.",
+        ],
+        examples: [
+          { es: "Tu peux me donner un coup de main ?", en: "Can you give me a hand?" },
+          { es: "Ça me fait une belle jambe, cette promesse !", en: "A lot of good that promise does me!" },
+          { es: "Depuis son accident, il perd un peu la tête.", en: "Since his accident he has been losing his grip a little." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Why does the image not help with « ça me fait une belle jambe » ?",
+            options: ["The phrase is ironic, so it means the opposite of a compliment.", "It describes someone's appearance.", "It is a medical term about the leg.", "It is a regional expression with no meaning elsewhere."],
+            correctIndex: 0,
+            explanation: "When the picture makes no sense, the idiom is usually ironic: a fine leg does you no good at all, so the phrase means the thing is useless to you.",
+          },
+        ],
+      },
+      {
+        heading: "Salades, assiette, oignons",
         body: [
           "French food idioms are everywhere. \"Raconter des salades\" means to tell tall stories, to spin a line: a salad is a mix of anything. \"Ne pas être dans son assiette\" means to feel out of sorts, not oneself (\"assiette\" once meant one's position or seat, not a plate). \"Ce ne sont pas tes oignons\" or \"occupe-toi de tes oignons\" means none of your business, mind your own business.",
-          "\"Les carottes sont cuites\" means it's all over, nothing more can be done. \"Avoir un cœur d'artichaut\" means to fall in love easily (every leaf goes to someone). \"Tomber comme un cheveu sur la soupe\" means to arrive at a bad moment, out of place. \"C'est la fin des haricots\" means it's the end of everything, all is lost, said half-jokingly (not the last straw, which is \"la goutte d'eau qui fait déborder le vase\").",
-          "A good habit: when you meet a food idiom, note its register. Most are familiar (\"occupe-toi de tes oignons\" can sound rude), some are neutral enough for the press (\"les carottes sont cuites pour le gouvernement\"), and a few are old-fashioned (\"c'est la fin des haricots\").",
         ],
         examples: [
           { es: "Arrête de me raconter des salades, je sais où tu étais.", en: "Stop spinning me stories, I know where you were." },
           { es: "Je ne suis pas dans mon assiette aujourd'hui.", en: "I'm not feeling myself today." },
           { es: "Occupe-toi de tes oignons !", en: "Mind your own business!" },
-          { es: "À dix minutes de la fin, les carottes étaient cuites.", en: "Ten minutes from the end, it was all over." },
-          { es: "Il a un cœur d'artichaut, il tombe amoureux tous les mois.", en: "He falls in love at the drop of a hat; it happens every month." },
-          { es: "Sa remarque est tombée comme un cheveu sur la soupe.", en: "His remark was completely out of place." },
         ],
         checkpoint: [
           {
@@ -335,20 +472,92 @@ export const FR_C2_U04: Lesson[] = [
         ],
       },
       {
-        heading: "Animals: chats, poules, loups and puces",
+        heading: "Carottes, artichaut, cheveu, haricots",
+        body: [
+          "\"Les carottes sont cuites\" means it's all over, nothing more can be done. \"Avoir un cœur d'artichaut\" means to fall in love easily (every leaf goes to someone). \"Tomber comme un cheveu sur la soupe\" means to arrive at a bad moment, out of place. \"C'est la fin des haricots\" means it's the end of everything, all is lost, said half-jokingly (not the last straw, which is \"la goutte d'eau qui fait déborder le vase\").",
+        ],
+        examples: [
+          { es: "À dix minutes de la fin, les carottes étaient cuites.", en: "Ten minutes from the end, it was all over." },
+          { es: "Il a un cœur d'artichaut, il tombe amoureux tous les mois.", en: "He falls in love at the drop of a hat; it happens every month." },
+          { es: "Sa remarque est tombée comme un cheveu sur la soupe.", en: "His remark was completely out of place." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Someone arrives in the middle of a private argument and asks about the weather. His question...",
+            options: ["tombe comme un cheveu sur la soupe.", "met la puce à l'oreille.", "coûte les yeux de la tête.", "a le bras long."],
+            correctIndex: 0,
+            explanation: "\"Tomber comme un cheveu sur la soupe\" = to come at the wrong moment, out of place.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Turn it into French with the idiom about carrots.",
+            source: "For this candidate, nothing can be done now.",
+            answer: "Pour ce candidat, les carottes sont cuites.",
+            altAnswers: ["Les carottes sont cuites pour ce candidat."],
+            explanation: "\"Les carottes sont cuites\" says that it is all over; the phrase is impersonal and always plural.",
+          },
+        ],
+      },
+      {
+        heading: "The register of food idioms",
+        body: [
+          "A good habit: when you meet a food idiom, note its register. Most are familiar (\"occupe-toi de tes oignons\" can sound rude), some are neutral enough for the press (\"les carottes sont cuites pour le gouvernement\"), and a few are old-fashioned (\"c'est la fin des haricots\").",
+        ],
+        examples: [
+          { es: "Les carottes sont cuites pour le gouvernement, titre le journal.", en: "The paper's headline says it is all over for the government." },
+          { es: "« C'est la fin des haricots », disait ma grand-mère.", en: "My grandmother used to say that it was the end of everything." },
+          { es: "Mêle-toi de tes affaires, c'est un peu moins brutal.", en: "Mind your own business, put a little less bluntly." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which of these is neutral enough for a newspaper headline?",
+            options: ["les carottes sont cuites", "occupe-toi de tes oignons", "c'est la fin des haricots", "raconter des salades"],
+            correctIndex: 0,
+            explanation: "\"Les carottes sont cuites\" is used in the press; \"occupe-toi de tes oignons\" can sound rude, and \"c'est la fin des haricots\" sounds old-fashioned.",
+          },
+        ],
+      },
+      {
+        heading: "Chat, poules, loup, canard",
         body: [
           "\"Avoir un chat dans la gorge\" means to have a frog in one's throat: English chose a frog, French a cat. \"Quand les poules auront des dents\" means never, when pigs fly (note the future: hens will never have teeth). \"Avoir une faim de loup\" means to be ravenous; \"il fait un froid de canard\" means it's freezing (ducks were hunted in the cold).",
-          "\"Mettre la puce à l'oreille\" means to make someone suspicious, to arouse their suspicion: \"c'est son silence qui m'a mis la puce à l'oreille\". \"Être comme un poisson dans l'eau\" means to be in one's element. \"Revenons à nos moutons\" means let's get back to the subject, a line from the medieval farce \"La Farce de maître Pathelin\" (fifteenth century), where a judge keeps trying to bring a trial back to the stolen sheep.",
-          "Animal idioms are often the easiest to guess because the image is vivid. But beware of false friends of the image: \"un froid de canard\" says nothing about ducks being cold, and \"une faim de loup\" is not aggressive.",
         ],
         examples: [
           { es: "Excusez-moi, j'ai un chat dans la gorge.", en: "Excuse me, I have a frog in my throat." },
           { es: "Il rangera sa chambre quand les poules auront des dents.", en: "He'll tidy his room when pigs fly." },
           { es: "Après la randonnée, j'avais une faim de loup.", en: "After the hike, I was starving." },
           { es: "Il fait un froid de canard ce matin.", en: "It's freezing this morning." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "\"Il te remboursera quand les poules auront des dents.\" When will he pay you back?",
+            options: ["Never", "Very soon", "Next spring", "Little by little"],
+            correctIndex: 0,
+            explanation: "Hens will never have teeth: never.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Je te rembourserai quand les poules ont des dents.",
+            answer: "Je te rembourserai quand les poules auront des dents.",
+            explanation: "The idiom keeps the future after \"quand\": \"quand les poules auront des dents\". French uses the future in a \"quand\" clause where English uses the present.",
+          },
+        ],
+      },
+      {
+        heading: "Puce à l'oreille, poisson dans l'eau, moutons",
+        body: [
+          "\"Mettre la puce à l'oreille\" means to make someone suspicious, to arouse their suspicion: \"c'est son silence qui m'a mis la puce à l'oreille\". \"Être comme un poisson dans l'eau\" means to be in one's element. \"Revenons à nos moutons\" means let's get back to the subject, a line from the medieval farce \"La Farce de maître Pathelin\" (fifteenth century), where a judge keeps trying to bring a trial back to the stolen sheep.",
+        ],
+        examples: [
           { es: "C'est son hésitation qui m'a mis la puce à l'oreille.", en: "It was his hesitation that made me suspicious." },
-          { es: "Bon, revenons à nos moutons.", en: "Right, let's get back to the point." },
           { es: "Dans sa nouvelle équipe, elle est comme un poisson dans l'eau.", en: "In her new team, she's in her element." },
+          { es: "Si vous le permettez, revenons à nos moutons : le budget.", en: "If you don't mind, let's get back to the main subject: the budget." },
         ],
         checkpoint: [
           {
@@ -361,11 +570,33 @@ export const FR_C2_U04: Lesson[] = [
             explanation: "From the medieval farce of maître Pathelin; \"nos\" is fixed.",
           },
           {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with an idiom.",
+            source: "Her silence made me suspicious.",
+            answer: "Son silence m'a mis la puce à l'oreille.",
+            altAnswers: ["C'est son silence qui m'a mis la puce à l'oreille.", "Son silence m'a mis la puce à l'oreille tout de suite."],
+            explanation: "\"Mettre la puce à l'oreille à quelqu'un\".",
+          },
+        ],
+      },
+      {
+        heading: "When the image misleads",
+        body: [
+          "Animal idioms are often the easiest to guess because the image is vivid. But beware of false friends of the image: \"un froid de canard\" says nothing about ducks being cold, and \"une faim de loup\" is not aggressive.",
+        ],
+        examples: [
+          { es: "Un froid de canard n'a rien à voir avec les oiseaux.", en: "A bitter cold spell has nothing to do with birds." },
+          { es: "Une faim de loup décrit l'appétit, pas la colère.", en: "A ravenous hunger describes the appetite, not anger." },
+          { es: "L'image aide à retenir, mais l'usage décide du sens.", en: "The picture helps you remember, but usage decides the meaning." },
+        ],
+        checkpoint: [
+          {
             type: "multiple-choice",
-            question: "\"Il te remboursera quand les poules auront des dents.\" When will he pay you back?",
-            options: ["Never", "Very soon", "Next spring", "Little by little"],
+            question: "A learner hears « il fait un froid de canard » and concludes that ducks dislike the cold. What went wrong?",
+            options: ["The image is only a historical trace; the idiom simply means that it is very cold.", "The learner mixed it up with a hunting term still in use.", "The idiom really is about ducks feeling cold.", "The idiom only works in writing."],
             correctIndex: 0,
-            explanation: "Hens will never have teeth: never.",
+            explanation: "Animal images are vivid but not reliable: \"un froid de canard\" says nothing about ducks, and \"une faim de loup\" says nothing about aggression.",
           },
         ],
       },
@@ -410,15 +641,6 @@ export const FR_C2_U04: Lesson[] = [
         explanation: "Body, animal and food images, each with a fixed meaning.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with an idiom.",
-        source: "Her silence made me suspicious.",
-        answer: "Son silence m'a mis la puce à l'oreille.",
-        altAnswers: ["C'est son silence qui m'a mis la puce à l'oreille.", "Son silence m'a mis la puce à l'oreille tout de suite."],
-        explanation: "\"Mettre la puce à l'oreille à quelqu'un\".",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "Everyone [pitched in] to repaint the classroom.",
@@ -427,25 +649,12 @@ export const FR_C2_U04: Lesson[] = [
         explanation: "\"Mettre la main à la pâte\": \"la main\" stays singular even with \"tout le monde\".",
       },
       {
-        type: "multiple-choice",
-        question: "Someone arrives in the middle of a private argument and asks about the weather. His question...",
-        options: [
-          "tombe comme un cheveu sur la soupe.",
-          "met la puce à l'oreille.",
-          "coûte les yeux de la tête.",
-          "a le bras long.",
-        ],
-        correctIndex: 0,
-        explanation: "\"Tomber comme un cheveu sur la soupe\" = to come at the wrong moment, out of place.",
-      },
-      {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with an idiom.",
-        source: "At her new school, she's in her element.",
-        answer: "Dans sa nouvelle école, elle est comme un poisson dans l'eau.",
-        altAnswers: ["Elle est comme un poisson dans l'eau dans sa nouvelle école.", "Dans son nouvel établissement, elle est comme un poisson dans l'eau."],
-        explanation: "\"Être comme un poisson dans l'eau\".",
+        prompt: "Change the sentence to say he is in his element, with an idiom.",
+        source: "Dans ce nouveau poste, il se sent parfaitement à l'aise.",
+        answer: "Dans ce nouveau poste, il est comme un poisson dans l'eau.",
+        explanation: "\"Être comme un poisson dans l'eau\" replaces \"se sentir à l'aise\"; the comparison keeps \"comme un\" and the singular.",
       },
       {
         type: "word-order",
@@ -456,8 +665,8 @@ export const FR_C2_U04: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Excusez-moi, j'ai un chat dans la gorge.",
-        explanation: "French has a cat where English has a frog.",
+        audio: "Il fait un froid de canard, couvre-toi bien.",
+        explanation: "\"Un froid de canard\" is a bitter cold spell. Note the familiar imperative \"couvre-toi\", with the pronoun after the verb and a hyphen.",
       },
       {
         type: "translate",
@@ -470,8 +679,8 @@ export const FR_C2_U04: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Bon, assez parlé de vacances : revenons à nos moutons.",
         prompt: "Say it in French: Right, enough about holidays: let's get back to the point.",
+        text: "Bon, assez parlé de vacances : revenons à nos moutons.",
         tip: "Light, good-humoured tone; stress \"moutons\".",
         explanation: "\"Revenons à nos moutons\" brings a conversation back on track.",
       },
@@ -483,18 +692,43 @@ export const FR_C2_U04: Lesson[] = [
     number: 3,
     title: "Contrast Clinic: Idiom or Not? Register and Occasion",
     summary: "The same idiom can be charming at the bar and disastrous in a meeting. Pair colloquial idioms with their neutral equivalents (se casser la tête vs se donner du mal, ça me gonfle vs cela m'agace, être à côté de la plaque vs faire fausse route) and decide which one the situation calls for.",
-    duration: "17 min",
+    duration: "18 min",
     sections: [
       {
         heading: "Three registers, one idea",
         body: [
           "French speakers are very sensitive to register (\"le registre de langue\"): \"familier\", \"courant\" and \"soutenu\". Idioms are mostly familiar or courant, and each has a neutral counterpart. \"Se casser la tête\" (familiar: to rack one's brains, to go to a lot of trouble) corresponds to \"se donner du mal\" or \"se donner de la peine\" (courant), and to \"ne ménager aucun effort\" (soutenu).",
-          "\"Ça me gonfle\" (familiar, fairly rude: it's getting on my nerves) corresponds to \"ça m'agace\" or \"cela m'agace\" (courant) and to \"cela m'importune\" or \"je trouve cela fâcheux\" (soutenu). \"Être à côté de la plaque\" (familiar: to be way off the mark) corresponds to \"faire fausse route\" or \"se tromper\" (courant), and to \"commettre une erreur d'appréciation\" (soutenu).",
-          "Notice the grammatical markers of register as well: \"ça\" vs \"cela\", dropped \"ne\" (\"je sais pas\") vs full negation, \"on\" vs \"nous\". An idiom placed in a sentence with \"cela\" and full negation will sound slightly comic, which some writers exploit on purpose. The point at the Mastery level is to choose, not to avoid idioms altogether.",
         ],
         examples: [
           { es: "Je me suis cassé la tête pour trouver un cadeau.", en: "I racked my brains to find a present." },
           { es: "Nous nous sommes donné beaucoup de mal pour respecter les délais.", en: "We went to a lot of trouble to meet the deadlines." },
+          { es: "Nous n'avons ménagé aucun effort pour vous satisfaire.", en: "We spared no effort to satisfy you." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which version suits a report to your director?",
+            options: ["L'équipe s'est donné beaucoup de mal pour respecter le calendrier.", "L'équipe s'est cassé la tête pour respecter le calendrier.", "L'équipe s'est décarcassée pour tenir les délais.", "L'équipe a ramé comme pas possible."],
+            correctIndex: 0,
+            explanation: "\"Se donner du mal\" is courant; the others are familiar.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it into the formal register, with « ménager ».",
+            source: "On s'est cassé la tête pour finir le rapport à temps.",
+            answer: "Nous n'avons ménagé aucun effort pour finir le rapport à temps.",
+            altAnswers: ["Nous n'avons ménagé aucun effort pour achever le rapport à temps."],
+            explanation: "The three registers of the same idea: \"se casser la tête\" (familier), \"se donner du mal\" (courant), \"ne ménager aucun effort\" (soutenu), with \"nous\" instead of \"on\".",
+          },
+        ],
+      },
+      {
+        heading: "Ça me gonfle, à côté de la plaque",
+        body: [
+          "\"Ça me gonfle\" (familiar, fairly rude: it's getting on my nerves) corresponds to \"ça m'agace\" or \"cela m'agace\" (courant) and to \"cela m'importune\" or \"je trouve cela fâcheux\" (soutenu). \"Être à côté de la plaque\" (familiar: to be way off the mark) corresponds to \"faire fausse route\" or \"se tromper\" (courant), and to \"commettre une erreur d'appréciation\" (soutenu).",
+        ],
+        examples: [
           { es: "Ses remarques me gonflent.", en: "His comments really get on my nerves." },
           { es: "Ses remarques répétées m'agacent.", en: "His repeated comments annoy me." },
           { es: "Franchement, il est complètement à côté de la plaque.", en: "Honestly, he's completely off the mark." },
@@ -502,41 +736,109 @@ export const FR_C2_U04: Lesson[] = [
         ],
         checkpoint: [
           {
+            type: "multiple-choice",
+            question: "Which is the neutral equivalent of \"être à côté de la plaque\"?",
+            options: ["faire fausse route", "se casser la tête", "prendre la mouche", "mettre son grain de sel"],
+            correctIndex: 0,
+            explanation: "\"Faire fausse route\" = to be on the wrong track, usable at work.",
+          },
+          {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into neutral French, as in a work email.",
-            source: "I'm afraid we're on the wrong track.",
-            answer: "Je crains que nous fassions fausse route.",
-            altAnswers: ["Je crains que nous ne fassions fausse route.", "J'ai peur que nous fassions fausse route.", "Je crains que nous soyons sur une mauvaise piste.", "Je crains que nous ne soyons sur une mauvaise piste."],
-            explanation: "\"Craindre que\" + subjunctive (optional \"ne\" explétif); \"faire fausse route\" is the neutral equivalent.",
-          },
-          {
-            type: "multiple-choice",
-            question: "Which version suits a report to your director?",
-            options: [
-              "L'équipe s'est donné beaucoup de mal pour respecter le calendrier.",
-              "L'équipe s'est cassé la tête pour respecter le calendrier.",
-              "L'équipe s'est décarcassée pour tenir les délais.",
-              "L'équipe a ramé comme pas possible.",
-            ],
-            correctIndex: 0,
-            explanation: "\"Se donner du mal\" is courant; the others are familiar.",
+            source: "These repeated delays annoy me.",
+            answer: "Ces retards répétés m'agacent.",
+            altAnswers: ["Ces retards à répétition m'agacent.", "Ces retards répétés m'irritent.", "Ces retards répétés me contrarient."],
+            explanation: "\"Agacer\" is courant; \"ça me gonfle\" would be too familiar.",
           },
         ],
       },
       {
-        heading: "When the idiom helps and when it hurts",
+        heading: "The grammar that marks register",
+        body: [
+          "Notice the grammatical markers of register as well: \"ça\" vs \"cela\", dropped \"ne\" (\"je sais pas\") vs full negation, \"on\" vs \"nous\". An idiom placed in a sentence with \"cela\" and full negation will sound slightly comic, which some writers exploit on purpose. The point at the Mastery level is to choose, not to avoid idioms altogether.",
+        ],
+        examples: [
+          { es: "J'sais pas, on verra demain.", en: "Dunno, we'll see tomorrow." },
+          { es: "Je ne sais pas si cela sera possible.", en: "I don't know whether that will be possible." },
+          { es: "Nous vous prions de bien vouloir patienter.", en: "We kindly ask you to wait." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which pair of markers signals the soutenu register?",
+            options: ["« cela » with a full negation", "« ça » with a dropped « ne »", "« on » with a dropped « ne »", "« ça » with « nous »"],
+            correctIndex: 0,
+            explanation: "Register shows in the grammar as much as in the words: \"cela\" and a complete \"ne... pas\" are formal, while \"ça\", \"on\" and a dropped \"ne\" are familiar.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Je crains que ça soit pas possible, Monsieur le Directeur.",
+            answer: "Je crains que cela ne soit pas possible, Monsieur le Directeur.",
+            explanation: "A formal address needs the formal markers: \"cela\" rather than \"ça\", and the full negation \"ne... pas\" after \"je crains que\" + subjunctive.",
+          },
+        ],
+      },
+      {
+        heading: "When an idiom helps, and when it hurts",
         body: [
           "An idiom can warm a situation: a manager who says at the coffee machine \"on ne va pas en faire tout un plat\" reassures; written in an official reply to a client's complaint, the same words sound dismissive. A teacher who tells a pupil \"tu as la tête dans les nuages\" is affectionate; the same words in a school report would read as a reproach. Ask: who is listening, in what medium, and can they answer back?",
+        ],
+        examples: [
+          { es: "Devant la classe, il lui a dit qu'elle avait la tête dans les nuages.", en: "In front of the class, he told her she was daydreaming." },
+          { es: "Dans un bulletin scolaire, la même phrase devient un reproche.", en: "In a school report, the same sentence becomes a reproach." },
+          { es: "Demandez-vous qui vous lit et s'il peut vous répondre.", en: "Ask yourself who is reading you and whether they can answer back." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "You reply in writing to a customer's formal complaint. Which sentence is appropriate?",
+            options: ["Nous regrettons sincèrement ce désagrément.", "Il n'y a pas de quoi fouetter un chat.", "On ne va pas en faire tout un plat.", "Ça arrive, faut pas se prendre la tête."],
+            correctIndex: 0,
+            explanation: "In a written reply to a complaint, idioms that minimise the problem sound dismissive.",
+          },
+        ],
+      },
+      {
+        heading: "Who uses idioms on purpose",
+        body: [
           "Journalists and politicians use idioms deliberately to sound close to people: \"Le gouvernement botte en touche\", \"les carottes sont cuites pour le candidat\". In a cover letter, a legal text or an academic essay, idioms are almost always a mistake, unless you quote them. In a wedding speech, a toast or a friendly message, a total absence of idioms sounds stiff.",
+        ],
+        examples: [
+          { es: "Le gouvernement botte en touche sur la réforme.", en: "The government is dodging the issue on the reform." },
+          { es: "Les carottes sont cuites pour le candidat sortant.", en: "It is all over for the sitting candidate." },
+          { es: "Un discours de mariage sans images sonne guindé.", en: "A wedding speech with no colourful turns of phrase sounds stiff." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "In which text are idioms almost always a mistake?",
+            options: ["A cover letter", "A friendly text message", "A wedding toast", "A newspaper column"],
+            correctIndex: 0,
+            explanation: "Journalists and politicians use idioms deliberately, and a toast or a message to a friend needs them; a cover letter, a legal text or an essay does not.",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it into the neutral French of a press release.",
+            source: "Le gouvernement botte en touche sur la réforme.",
+            answer: "Le gouvernement élude la question de la réforme.",
+            altAnswers: ["Le gouvernement esquive la question de la réforme."],
+            explanation: "\"Botter en touche\" is a rugby image for dodging a question; the neutral verbs are \"éluder\" or \"esquiver\".",
+          },
+        ],
+      },
+      {
+        heading: "The middle path: figurative but neutral",
+        body: [
           "A middle path in professional French: the slightly figurative but neutral expressions that are not felt as idioms, such as \"faire fausse route\", \"tirer la sonnette d'alarme\" (to sound the alarm), \"mettre l'accent sur\", \"prendre du recul\" (to step back), \"tourner la page\". They give colour without sounding casual.",
         ],
         examples: [
           { es: "Le directeur a tiré la sonnette d'alarme sur les finances.", en: "The director sounded the alarm about the finances." },
           { es: "Il faudrait prendre un peu de recul avant de décider.", en: "We should step back a little before deciding." },
           { es: "Après ce conflit, l'équipe a su tourner la page.", en: "After this conflict, the team managed to move on." },
-          { es: "Ce projet m'a pris la tête tout le week-end.", en: "This project did my head in all weekend." },
-          { es: "Ce dossier a exigé une réflexion approfondie.", en: "This file required careful thought." },
         ],
         checkpoint: [
           {
@@ -549,31 +851,55 @@ export const FR_C2_U04: Lesson[] = [
             explanation: "\"Prendre du recul\": figurative but neutral, fine at work.",
           },
           {
-            type: "multiple-choice",
-            question: "You reply in writing to a customer's formal complaint. Which sentence is appropriate?",
-            options: [
-              "Nous regrettons sincèrement ce désagrément.",
-              "Il n'y a pas de quoi fouetter un chat.",
-              "On ne va pas en faire tout un plat.",
-              "Ça arrive, faut pas se prendre la tête.",
-            ],
-            correctIndex: 0,
-            explanation: "In a written reply to a complaint, idioms that minimise the problem sound dismissive.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into neutral professional French.",
+            source: "The auditor sounded the alarm about the accounts.",
+            answer: "L'auditeur a tiré la sonnette d'alarme sur les comptes.",
+            altAnswers: ["L'auditrice a tiré la sonnette d'alarme sur les comptes.", "L'auditeur a tiré la sonnette d'alarme concernant les comptes.", "Le commissaire aux comptes a tiré la sonnette d'alarme sur les comptes."],
+            explanation: "\"Tirer la sonnette d'alarme\": figurative but neutral.",
           },
         ],
       },
       {
-        heading: "Translating register as well as meaning",
+        heading: "Prendre la tête: irritation or fatigue",
         body: [
-          "When you turn an idiom into neutral French, you must keep the meaning and the attitude. \"Il m'a pris la tête\" (familiar: he wound me up) becomes \"il m'a exaspéré\" or \"cette discussion m'a épuisé\", depending on whether the irritation or the fatigue matters most. \"Laisser tomber\" (to drop it) becomes \"renoncer\" or \"abandonner\". \"Ça ne casse pas trois pattes à un canard\" (it's nothing special) becomes \"c'est sans grand intérêt\" or \"c'est assez ordinaire\".",
-          "The reverse is just as useful: if a friend writes \"je suis exaspéré\", you can answer \"je comprends, il te prend la tête\". Matching your partner's register is a Mastery social skill. Mirroring in the wrong direction (answering a friend's joke in soutenu) can sound sarcastic.",
+          "When you turn an idiom into neutral French, you must keep the meaning and the attitude. \"Il m'a pris la tête\" (familiar: he wound me up) becomes \"il m'a exaspéré\" or \"cette discussion m'a épuisé\", depending on whether the irritation or the fatigue matters most.",
+        ],
+        examples: [
+          { es: "Ce projet m'a pris la tête tout le week-end.", en: "This project did my head in all weekend." },
+          { es: "Ce dossier a exigé une réflexion approfondie.", en: "This file required careful thought." },
+          { es: "Arrête, tu me prends la tête !", en: "Stop it, you're winding me up!" },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it into neutral French, keeping the irritation.",
+            source: "Il m'a pris la tête toute la matinée.",
+            answer: "Il m'a exaspéré toute la matinée.",
+            altAnswers: ["Il m'a agacé toute la matinée."],
+            explanation: "\"Prendre la tête\" covers both irritation and tiredness, so you must choose: \"exaspérer\" for the irritation, \"épuiser\" for the fatigue.",
+          },
+          {
+            type: "multiple-choice",
+            question: "Which neutral version of « cette réunion m'a pris la tête » keeps the fatigue rather than the anger?",
+            options: ["Cette réunion m'a épuisé.", "Cette réunion m'a exaspéré.", "Cette réunion m'a convaincu.", "Cette réunion m'a étonné."],
+            correctIndex: 0,
+            explanation: "Translating an idiom means keeping the attitude as well as the sense: \"épuiser\" renders the tiredness, \"exaspérer\" the irritation.",
+          },
+        ],
+      },
+      {
+        heading: "Laisser tomber, trois pattes à un canard",
+        body: [
+          "\"Laisser tomber\" (to drop it) becomes \"renoncer\" or \"abandonner\". \"Ça ne casse pas trois pattes à un canard\" (it's nothing special) becomes \"c'est sans grand intérêt\" or \"c'est assez ordinaire\".",
         ],
         examples: [
           { es: "Ce film ne casse pas trois pattes à un canard.", en: "That film is nothing to write home about." },
           { es: "Ce film est assez ordinaire.", en: "That film is fairly ordinary." },
           { es: "Laisse tomber, ça ne vaut pas le coup.", en: "Drop it, it's not worth it." },
           { es: "Nous avons décidé de renoncer à ce projet.", en: "We have decided to abandon this project." },
-          { es: "Arrête, tu me prends la tête !", en: "Stop it, you're winding me up!" },
         ],
         checkpoint: [
           {
@@ -593,6 +919,26 @@ export const FR_C2_U04: Lesson[] = [
             answer: "ça ne vaut pas le coup",
             altAnswers: ["ça vaut pas le coup", "ça n'en vaut pas la peine"],
             explanation: "\"Ça ne vaut pas le coup\": everyday and natural; spoken French often drops the \"ne\".",
+          },
+        ],
+      },
+      {
+        heading: "Mirroring your partner's register",
+        body: [
+          "The reverse is just as useful: if a friend writes \"je suis exaspéré\", you can answer \"je comprends, il te prend la tête\". Matching your partner's register is a Mastery social skill. Mirroring in the wrong direction (answering a friend's joke in soutenu) can sound sarcastic.",
+        ],
+        examples: [
+          { es: "Je comprends, ce collègue te prend la tête.", en: "I understand, that colleague is winding you up." },
+          { es: "Elle a repris mon ton familier pour me mettre à l'aise.", en: "She picked up my casual tone to put me at ease." },
+          { es: "Répondre « je compatis » à une blague paraît ironique.", en: "Answering a joke with a formal expression of sympathy sounds ironic." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A friend texts that he is exasperated. Which reply matches his register?",
+            options: ["Je comprends, il te prend la tête.", "Je compatis à votre contrariété.", "Cela m'importune également.", "Je crains que ce ne soit fâcheux."],
+            correctIndex: 0,
+            explanation: "Matching your partner's register is a Mastery social skill: answering a familiar message in soutenu French reads as sarcasm.",
           },
         ],
       },
@@ -617,22 +963,6 @@ export const FR_C2_U04: Lesson[] = [
         explanation: "\"Se casser la tête\" or \"se creuser la tête\"; \"cassé\" is invariable because the direct object \"la tête\" comes after the verb and \"me\" is only an indirect object.",
       },
       {
-        type: "multiple-choice",
-        question: "Which is the neutral equivalent of \"être à côté de la plaque\"?",
-        options: ["faire fausse route", "se casser la tête", "prendre la mouche", "mettre son grain de sel"],
-        correctIndex: 0,
-        explanation: "\"Faire fausse route\" = to be on the wrong track, usable at work.",
-      },
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into neutral French, as in a work email.",
-        source: "These repeated delays annoy me.",
-        answer: "Ces retards répétés m'agacent.",
-        altAnswers: ["Ces retards à répétition m'agacent.", "Ces retards répétés m'irritent.", "Ces retards répétés me contrarient."],
-        explanation: "\"Agacer\" is courant; \"ça me gonfle\" would be too familiar.",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into familiar French, to a friend, with an idiom.",
@@ -642,21 +972,21 @@ export const FR_C2_U04: Lesson[] = [
         explanation: "Several familiar options; \"me gonflent\" is the most colloquial.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into neutral professional French.",
-        source: "The auditor sounded the alarm about the accounts.",
-        answer: "L'auditeur a tiré la sonnette d'alarme sur les comptes.",
-        altAnswers: ["L'auditrice a tiré la sonnette d'alarme sur les comptes.", "L'auditeur a tiré la sonnette d'alarme concernant les comptes.", "Le commissaire aux comptes a tiré la sonnette d'alarme sur les comptes."],
-        explanation: "\"Tirer la sonnette d'alarme\": figurative but neutral.",
-      },
-      {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "After the conflict, they managed to [move on].",
         sentence: "Après le conflit, ils ont su ___.",
         answer: "tourner la page",
         explanation: "\"Tourner la page\": neutral and widely used.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into neutral French, as in a work email.",
+        source: "I'm afraid we're on the wrong track.",
+        answer: "Je crains que nous fassions fausse route.",
+        altAnswers: ["Je crains que nous ne fassions fausse route.", "J'ai peur que nous fassions fausse route.", "Je crains que nous soyons sur une mauvaise piste.", "Je crains que nous ne soyons sur une mauvaise piste."],
+        explanation: "\"Craindre que\" + subjunctive (optional \"ne\" explétif); \"faire fausse route\" is the neutral equivalent.",
       },
       {
         type: "matching",
@@ -682,19 +1012,14 @@ export const FR_C2_U04: Lesson[] = [
         type: "listen-choose",
         audio: "Franchement, ce film ne casse pas trois pattes à un canard.",
         question: "What does the speaker think of the film?",
-        options: [
-          "It's nothing special.",
-          "It's excellent.",
-          "It's too violent.",
-          "It's about animals.",
-        ],
+        options: ["It's nothing special.", "It's excellent.", "It's too violent.", "It's about animals."],
         correctIndex: 0,
         explanation: "\"Ne pas casser trois pattes à un canard\" = to be unremarkable.",
       },
       {
         type: "speak",
-        text: "Je crains que nous ayons fait fausse route ; il faudrait prendre un peu de recul.",
         prompt: "Say it in French, in a meeting: I'm afraid we've been on the wrong track; we should step back a little.",
+        text: "Je crains que nous ayons fait fausse route ; il faudrait prendre un peu de recul.",
         tip: "Measured, calm tone; pause at the semicolon.",
         explanation: "Two neutral figurative expressions suitable for a meeting.",
       },
@@ -706,19 +1031,43 @@ export const FR_C2_U04: Lesson[] = [
     number: 4,
     title: "Les Expressions Idiomatiques, Part 2 of 2",
     summary: "Idioms with fused pronouns and fixed grammar (s'en sortir, en avoir marre, en vouloir à quelqu'un, s'y prendre, ne pas y aller par quatre chemins, il y a anguille sous roche, prendre la mouche, se faire rouler dans la farine), plus regional variants from Québec, Belgium and Switzerland.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
-        heading: "Idioms built on en: s'en sortir, en avoir marre, en vouloir à",
+        heading: "S'en sortir, en avoir marre",
         body: [
           "In many idiomatic verbs, \"en\" no longer refers to anything specific: it is part of the verb. \"S'en sortir\" means to cope, to manage, to get through: \"Tu t'en sors avec ton nouveau boulot ?\", \"elle s'en est bien sortie\". \"En avoir marre\" (familiar) means to be fed up: \"j'en ai marre de ce bruit\"; \"en avoir ras le bol\" is a stronger, still familiar variant, and \"en avoir assez\" the neutral one.",
-          "\"En vouloir à quelqu'un\" means to bear a grudge, to hold something against someone: \"je lui en veux de m'avoir menti\", \"ne m'en veux pas\" (don't be angry with me), \"tu m'en veux ?\". Note the pronoun order: indirect object pronoun first, then \"en\" (\"je lui en veux\", \"il m'en veut\"). In the imperative, French says \"ne m'en veux pas\" (tu) and \"ne m'en voulez pas\" (vous); the more formal \"ne m'en veuillez pas\" also exists.",
-          "In compound tenses, \"en\" stays before the auxiliary and the participle does not agree with it: \"Elle s'en est sortie\" (agreement with the subject through \"être\"), \"Je lui en ai voulu pendant des années.\"",
         ],
         examples: [
           { es: "Tu t'en sors avec les enfants et le travail ?", en: "Are you coping with the kids and work?" },
           { es: "Elle s'en est très bien sortie à l'oral.", en: "She did very well in the oral exam." },
           { es: "J'en ai marre de ces réunions interminables.", en: "I'm fed up with these endless meetings." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Which sentence is correct?",
+            options: ["Elle s'en est bien sortie.", "Elle s'est en bien sortie.", "Elle en s'est bien sortie.", "Elle s'en a bien sorti."],
+            correctIndex: 0,
+            explanation: "Pronouns \"s'\" + \"en\" before the auxiliary \"être\"; participle agrees with \"elle\".",
+          },
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into French with an idiom.",
+            source: "I'm fed up with this noise.",
+            answer: "J'en ai marre de ce bruit.",
+            altAnswers: ["J'en ai assez de ce bruit.", "J'en ai ras le bol de ce bruit.", "J'en ai par-dessus la tête de ce bruit."],
+            explanation: "\"En avoir marre de\": \"en\" is fused into the idiom, but \"de\" still introduces the cause.",
+          },
+        ],
+      },
+      {
+        heading: "En vouloir à quelqu'un",
+        body: [
+          "\"En vouloir à quelqu'un\" means to bear a grudge, to hold something against someone: \"je lui en veux de m'avoir menti\", \"ne m'en veux pas\" (don't be angry with me), \"tu m'en veux ?\". Note the pronoun order: indirect object pronoun first, then \"en\" (\"je lui en veux\", \"il m'en veut\"). In the imperative, French says \"ne m'en veux pas\" (tu) and \"ne m'en voulez pas\" (vous); the more formal \"ne m'en veuillez pas\" also exists.",
+        ],
+        examples: [
           { es: "Je lui en veux encore de ne pas être venu.", en: "I still hold it against him that he didn't come." },
           { es: "Ne m'en veux pas, j'ai oublié ton anniversaire.", en: "Don't be cross with me, I forgot your birthday." },
           { es: "Il lui en a voulu pendant des années.", en: "He bore her a grudge for years." },
@@ -734,34 +1083,72 @@ export const FR_C2_U04: Lesson[] = [
             explanation: "\"En vouloir à quelqu'un\": \"m'\" (indirect object) before \"en\".",
           },
           {
-            type: "multiple-choice",
-            question: "Which sentence is correct?",
-            options: [
-              "Elle s'en est bien sortie.",
-              "Elle s'est en bien sortie.",
-              "Elle en s'est bien sortie.",
-              "Elle s'en a bien sorti.",
-            ],
-            correctIndex: 0,
-            explanation: "Pronouns \"s'\" + \"en\" before the auxiliary \"être\"; participle agrees with \"elle\".",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Je veux lui en de m'avoir menti.",
+            answer: "Je lui en veux de m'avoir menti.",
+            explanation: "The pronouns come before the verb and in a fixed order: the indirect object first, then \"en\": \"je lui en veux\".",
           },
         ],
       },
       {
-        heading: "Idioms built on y and frozen phrases",
+        heading: "En in compound tenses",
         body: [
-          "\"S'y prendre\" means to go about something: \"Je ne sais pas comment m'y prendre\", \"tu t'y prends mal\", \"il faut s'y prendre à l'avance\" (do it in good time). \"Ne pas y aller par quatre chemins\" means to be blunt, to not beat about the bush: \"Il n'y est pas allé par quatre chemins : il m'a dit non.\" Note \"y\" placed before the auxiliary in the past. \"Y tenir\" means to be attached to something, to insist: \"j'y tiens\" (I insist; it matters to me).",
-          "Frozen phrases with a fixed structure: \"il y a anguille sous roche\" (there's something fishy going on, literally an eel under the rock), always impersonal. \"Prendre la mouche\" (to take offence quickly, literally to take the fly): \"il prend la mouche pour un rien\". \"Se faire rouler dans la farine\" (to be conned, taken in): \"je me suis fait rouler dans la farine par le vendeur\".",
-          "The structure \"se faire\" + infinitive appears in many idioms where the subject is the victim: \"se faire avoir\" (to be had), \"se faire poser un lapin\", \"se faire rouler\". It is the natural French equivalent of an English passive with get, as in I got conned.",
+          "In compound tenses, \"en\" stays before the auxiliary and the participle does not agree with it: \"Elle s'en est sortie\" (agreement with the subject through \"être\"), \"Je lui en ai voulu pendant des années.\"",
+        ],
+        examples: [
+          { es: "Elle s'en est sortie sans aucune aide.", en: "She got through it without any help at all." },
+          { es: "Nous nous en sommes sortis de justesse.", en: "We got out of it by the skin of our teeth." },
+          { es: "Je lui en ai voulu longtemps.", en: "I held it against him for a long time." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "Why is there no agreement in « je lui en ai voulu » ?",
+            options: ["\"En\" never makes a past participle agree.", "\"Vouloir\" has no feminine participle.", "The participle agrees with \"lui\" instead.", "The sentence is in the imperative."],
+            correctIndex: 0,
+            explanation: "\"En\" stays before the auxiliary and never triggers agreement; in \"elle s'en est sortie\" the agreement comes from \"être\" and the subject, not from \"en\".",
+          },
+        ],
+      },
+      {
+        heading: "S'y prendre: going about it",
+        body: [
+          "\"S'y prendre\" means to go about something: \"Je ne sais pas comment m'y prendre\", \"tu t'y prends mal\", \"il faut s'y prendre à l'avance\" (do it in good time).",
         ],
         examples: [
           { es: "Je ne sais vraiment pas comment m'y prendre.", en: "I really don't know how to go about it." },
           { es: "Pour les billets, il faut s'y prendre trois mois à l'avance.", en: "For tickets, you need to book three months ahead." },
+          { es: "Il faut s'y prendre autrement avec les adolescents.", en: "You have to go about it differently with teenagers." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Correct the sentence.",
+            source: "Tu te prends mal avec ce client.",
+            answer: "Tu t'y prends mal avec ce client.",
+            explanation: "\"S'y prendre\" keeps its \"y\" in every form: \"je m'y prends\", \"tu t'y prends\". Without the \"y\" the verb means to take something for oneself.",
+          },
+          {
+            type: "multiple-choice",
+            question: "« Pour les visas, il faut s'y prendre à l'avance. » What does it tell you to do?",
+            options: ["See to it in good time.", "Take the visas with you.", "Insist with the embassy.", "Learn the rules by heart."],
+            correctIndex: 0,
+            explanation: "\"S'y prendre à l'avance\" is to set about something in good time; \"s'y prendre mal\" is to go about it the wrong way.",
+          },
+        ],
+      },
+      {
+        heading: "Quatre chemins and y tenir",
+        body: [
+          "\"Ne pas y aller par quatre chemins\" means to be blunt, to not beat about the bush: \"Il n'y est pas allé par quatre chemins : il m'a dit non.\" Note \"y\" placed before the auxiliary in the past. \"Y tenir\" means to be attached to something, to insist: \"j'y tiens\" (I insist; it matters to me).",
+        ],
+        examples: [
           { es: "Elle n'y est pas allée par quatre chemins.", en: "She didn't beat about the bush." },
-          { es: "Ils se taisent quand j'arrive : il y a anguille sous roche.", en: "They go quiet when I arrive: something fishy is going on." },
-          { es: "Il prend la mouche dès qu'on le contredit.", en: "He takes offence as soon as anyone contradicts him." },
-          { es: "Je me suis fait rouler dans la farine par ce garagiste.", en: "I got taken in by that mechanic." },
           { es: "Viens au mariage, j'y tiens.", en: "Come to the wedding, it really matters to me." },
+          { es: "Je tiens à ce que tout le monde soit prévenu.", en: "I insist that everyone be told." },
         ],
         checkpoint: [
           {
@@ -774,42 +1161,125 @@ export const FR_C2_U04: Lesson[] = [
             explanation: "\"Y\" before the auxiliary; the version without \"y\" is common in speech. Avoid \"il n'y a pas été\": \"aller\" takes \"être\" here.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the French for the bold words.",
-            en: "You're [going about it] the wrong way.",
-            sentence: "Tu ___ mal.",
-            answer: "t'y prends",
-            explanation: "\"S'y prendre\": reflexive pronoun + \"y\" + verb.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change it into the past, keeping the idiom.",
+            source: "Je n'y vais pas par quatre chemins : je refuse.",
+            answer: "Je n'y suis pas allé par quatre chemins : j'ai refusé.",
+            altAnswers: ["Je n'y suis pas allée par quatre chemins : j'ai refusé."],
+            explanation: "In a compound tense the \"y\" stays before the auxiliary: \"il n'y est pas allé par quatre chemins\".",
           },
         ],
       },
       {
-        heading: "Regional variants: Québec, Belgium, Switzerland",
+        heading: "Anguille, mouche, farine",
         body: [
-          "French is spoken across many countries, and everyday idioms differ. In Québec: \"avoir de la misère à\" means to have difficulty (\"j'ai de la misère à comprendre\"), not to be miserable; \"tiguidou\" means great, all good (\"c'est tiguidou\"); \"avoir de la broue dans le toupet\" means to be very busy; \"il fait frette\" means it is very cold. In Belgium: \"ça va, hein\" often closes a sentence and asks for agreement, and \"savoir\" is often used for \"pouvoir\" (\"tu sais me passer le sel ?\"); \"une fois\" is a famous Brussels filler (\"viens ici une fois\").",
-          "In Switzerland: \"ça joue\" means that works, that's fine (\"Mardi à 10 h, ça joue ?\" \"Ça joue !\"); \"il y a pas le feu au lac\" means there's no rush (a reference to Lake Geneva); \"septante\" and \"nonante\" replace \"soixante-dix\" and \"quatre-vingt-dix\" (also in Belgium). These variants are not errors: they are standard locally, and understanding them is part of Mastery comprehension. Use them yourself only when speaking with people from the region, or you risk sounding like you are imitating them.",
+          "Frozen phrases with a fixed structure: \"il y a anguille sous roche\" (there's something fishy going on, literally an eel under the rock), always impersonal. \"Prendre la mouche\" (to take offence quickly, literally to take the fly): \"il prend la mouche pour un rien\". \"Se faire rouler dans la farine\" (to be conned, taken in): \"je me suis fait rouler dans la farine par le vendeur\".",
+        ],
+        examples: [
+          { es: "Ils se taisent quand j'arrive : il y a anguille sous roche.", en: "They go quiet when I arrive: something fishy is going on." },
+          { es: "Il prend la mouche dès qu'on le contredit.", en: "He takes offence as soon as anyone contradicts him." },
+          { es: "Je me suis fait rouler dans la farine par ce garagiste.", en: "I got taken in by that mechanic." },
+        ],
+        checkpoint: [
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "Everyone is whispering: [something fishy is going on].",
+            sentence: "Tout le monde chuchote : ___.",
+            answer: "il y a anguille sous roche",
+            explanation: "A frozen impersonal phrase: no article before \"anguille\".",
+          },
+          {
+            type: "multiple-choice",
+            question: "\"Elle prend la mouche pour un rien.\" What kind of person is she?",
+            options: ["Touchy, easily offended", "Very hungry", "Restless and busy", "Easily fooled"],
+            correctIndex: 0,
+            explanation: "\"Prendre la mouche\" = to take offence quickly.",
+          },
+        ],
+      },
+      {
+        heading: "Se faire + infinitive: the victim",
+        body: [
+          "The structure \"se faire\" + infinitive appears in many idioms where the subject is the victim: \"se faire avoir\" (to be had), \"se faire poser un lapin\", \"se faire rouler\". It is the natural French equivalent of an English passive with get, as in I got conned.",
+        ],
+        examples: [
+          { es: "Je me suis fait avoir sur le prix.", en: "I got had on the price." },
+          { es: "Elle s'est fait poser un lapin deux fois de suite.", en: "She got stood up twice in a row." },
+          { es: "Il s'est fait voler son vélo devant la gare.", en: "He got his bike stolen outside the station." },
+        ],
+        checkpoint: [
+          {
+            type: "translate",
+            direction: "en-es",
+            prompt: "Change the sentence so the subject is the victim, with « se faire ».",
+            source: "Un garagiste l'a roulé dans la farine.",
+            answer: "Il s'est fait rouler dans la farine par un garagiste.",
+            altAnswers: ["Il s'est fait rouler dans la farine par ce garagiste."],
+            explanation: "\"Se faire\" + infinitive is the French equivalent of an English passive with get; the agent follows with \"par\".",
+          },
+        ],
+      },
+      {
+        heading: "Québec: misère, tiguidou, frette",
+        body: [
+          "French is spoken across many countries, and everyday idioms differ. In Québec: \"avoir de la misère à\" means to have difficulty (\"j'ai de la misère à comprendre\"), not to be miserable; \"tiguidou\" means great, all good (\"c'est tiguidou\"); \"avoir de la broue dans le toupet\" means to be very busy; \"il fait frette\" means it is very cold.",
         ],
         examples: [
           { es: "J'ai de la misère à suivre quand ils parlent vite.", en: "I have trouble following when they talk fast." },
           { es: "On se voit demain ? C'est tiguidou !", en: "See you tomorrow? Great!" },
           { es: "Il fait frette ce matin, habille-toi chaudement.", en: "It's freezing this morning, dress warmly." },
-          { es: "Tu sais me passer le pain, s'il te plaît ?", en: "Can you pass me the bread, please?" },
-          { es: "Rendez-vous jeudi à 14 heures, ça joue pour toi ?", en: "Meeting on Thursday at 2 pm, does that work for you?" },
-          { es: "Prends ton temps, il n'y a pas le feu au lac.", en: "Take your time, there's no rush." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "A Québécois friend says \"J'ai eu de la misère à trouver ta maison.\" What happened?",
-            options: [
-              "He had trouble finding your house.",
-              "He was unhappy at your house.",
-              "He found your house miserable.",
-              "He found your house easily.",
-            ],
+            options: ["He had trouble finding your house.", "He was unhappy at your house.", "He found your house miserable.", "He found your house easily."],
             correctIndex: 0,
             explanation: "In Québec, \"avoir de la misère à\" = to have difficulty doing something.",
           },
+          {
+            type: "fill-blank",
+            prompt: "Write the French for the bold words.",
+            en: "In Québec: [I have trouble] understanding him.",
+            sentence: "Au Québec : j'___ à le comprendre.",
+            answer: "ai de la misère",
+            explanation: "\"Avoir de la misère à\" is the Québec expression for having difficulty doing something; it says nothing about being unhappy.",
+          },
+        ],
+      },
+      {
+        heading: "Belgium: savoir, une fois",
+        body: [
+          "In Belgium: \"ça va, hein\" often closes a sentence and asks for agreement, and \"savoir\" is often used for \"pouvoir\" (\"tu sais me passer le sel ?\"); \"une fois\" is a famous Brussels filler (\"viens ici une fois\").",
+        ],
+        examples: [
+          { es: "Tu sais me passer le pain, s'il te plaît ?", en: "Can you pass me the bread, please?" },
+          { es: "Tu sais venir demain matin ?", en: "Can you come tomorrow morning?" },
+          { es: "Viens ici une fois, j'ai besoin de toi.", en: "Come here a moment, I need you." },
+        ],
+        checkpoint: [
+          {
+            type: "multiple-choice",
+            question: "A Belgian colleague asks « Tu sais m'ouvrir la porte ? ». What is he asking?",
+            options: ["Whether you can open the door for him", "Whether you know where the door is", "Whether the door is locked", "Whether you remembered to lock up"],
+            correctIndex: 0,
+            explanation: "In Belgium \"savoir\" is often used where standard French has \"pouvoir\", so the question means whether you are able to do it.",
+          },
+        ],
+      },
+      {
+        heading: "Switzerland: ça joue, septante",
+        body: [
+          "In Switzerland: \"ça joue\" means that works, that's fine (\"Mardi à 10 h, ça joue ?\" \"Ça joue !\"); \"il y a pas le feu au lac\" means there's no rush (a reference to Lake Geneva); \"septante\" and \"nonante\" replace \"soixante-dix\" and \"quatre-vingt-dix\" (also in Belgium). These variants are not errors: they are standard locally, and understanding them is part of Mastery comprehension. Use them yourself only when speaking with people from the region, or you risk sounding like you are imitating them.",
+        ],
+        examples: [
+          { es: "Rendez-vous jeudi à 14 heures, ça joue pour toi ?", en: "Meeting on Thursday at 2 pm, does that work for you?" },
+          { es: "Prends ton temps, il n'y a pas le feu au lac.", en: "Take your time, there's no rush." },
+          { es: "Il y a septante élèves dans cette école.", en: "There are seventy pupils in this school." },
+        ],
+        checkpoint: [
           {
             type: "translate",
             direction: "en-es",
@@ -819,19 +1289,17 @@ export const FR_C2_U04: Lesson[] = [
             altAnswers: ["Ça joue !", "Pour moi, ça joue !"],
             explanation: "Swiss French \"ça joue\" = that's fine, that works.",
           },
+          {
+            type: "multiple-choice",
+            question: "A Swiss supplier writes « nonante-cinq francs ». How much is that?",
+            options: ["95 francs", "75 francs", "85 francs", "59 francs"],
+            correctIndex: 0,
+            explanation: "\"Septante\" is seventy and \"nonante\" ninety, used in Switzerland and Belgium, so \"nonante-cinq\" is ninety-five.",
+          },
         ],
       },
     ],
     exercises: [
-      {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into French with an idiom.",
-        source: "I'm fed up with this noise.",
-        answer: "J'en ai marre de ce bruit.",
-        altAnswers: ["J'en ai assez de ce bruit.", "J'en ai ras le bol de ce bruit.", "J'en ai par-dessus la tête de ce bruit."],
-        explanation: "\"En avoir marre de\": \"en\" is fused into the idiom, but \"de\" still introduces the cause.",
-      },
       {
         type: "translate",
         direction: "en-es",
@@ -851,14 +1319,6 @@ export const FR_C2_U04: Lesson[] = [
         explanation: "\"S'en sortir\" in the passé composé with \"être\".",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the French for the bold words.",
-        en: "Everyone is whispering: [something fishy is going on].",
-        sentence: "Tout le monde chuchote : ___.",
-        answer: "il y a anguille sous roche",
-        explanation: "A frozen impersonal phrase: no article before \"anguille\".",
-      },
-      {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with an idiom.",
@@ -866,13 +1326,6 @@ export const FR_C2_U04: Lesson[] = [
         answer: "Je me suis fait rouler dans la farine par le vendeur.",
         altAnswers: ["Je me suis fait avoir par le vendeur.", "Je me suis fait rouler par le vendeur.", "Le vendeur m'a roulé dans la farine."],
         explanation: "\"Se faire\" + infinitive: \"fait\" stays invariable.",
-      },
-      {
-        type: "multiple-choice",
-        question: "\"Elle prend la mouche pour un rien.\" What kind of person is she?",
-        options: ["Touchy, easily offended", "Very hungry", "Restless and busy", "Easily fooled"],
-        correctIndex: 0,
-        explanation: "\"Prendre la mouche\" = to take offence quickly.",
       },
       {
         type: "translate",
@@ -914,21 +1367,24 @@ export const FR_C2_U04: Lesson[] = [
         type: "listen-choose",
         audio: "Prends ton temps, il n'y a pas le feu au lac.",
         question: "What does the speaker mean?",
-        options: [
-          "Take your time, there's no rush.",
-          "Hurry up, there's a fire.",
-          "Let's go swimming in the lake.",
-          "Be careful near the lake.",
-        ],
+        options: ["Take your time, there's no rush.", "Hurry up, there's a fire.", "Let's go swimming in the lake.", "Be careful near the lake."],
         correctIndex: 0,
         explanation: "Swiss idiom, now heard across France too: no urgency.",
       },
       {
         type: "speak",
-        text: "Je ne sais pas comment m'y prendre, mais je vais m'en sortir.",
         prompt: "Say it in French: I don't know how to go about it, but I'll manage.",
+        text: "Je ne sais pas comment m'y prendre, mais je vais m'en sortir.",
         tip: "\"M'y\" and \"m'en\" are each one syllable; don't separate the pronouns.",
         explanation: "Two idiomatic verbs with fused pronouns.",
+      },
+      {
+        type: "fill-blank",
+        prompt: "Write the French for the bold words.",
+        en: "You're [going about it] the wrong way.",
+        sentence: "Tu ___ mal.",
+        answer: "t'y prends",
+        explanation: "\"S'y prendre\": reflexive pronoun + \"y\" + verb.",
       },
     ],
   },
