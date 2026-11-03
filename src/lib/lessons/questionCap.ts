@@ -13,8 +13,8 @@ import { familyOf, keepsAuthoredOrder, stageOf } from "./lessonFlow";
 //   part, still teach-then-test.
 // - Practice is dealt out across the parts by task family and stage, so
 //   every part keeps a mix (choose, transform, spot the error, produce;
-//   warm-up to on your own). Reviews and tests keep their authored order
-//   and are cut into consecutive runs.
+//   warm-up to on your own). Each part keeps the authored order of its
+//   items, so reviews and tests still run in their set order.
 // - A part with no section of its own opens with a short recap of the
 //   rule (tested by the part's first question). In a review or test, it
 //   repeats the sections' text (a passage, instructions) without their
@@ -27,7 +27,7 @@ import { familyOf, keepsAuthoredOrder, stageOf } from "./lessonFlow";
 // limit.
 
 export const MAX_LESSON_QUESTIONS = 30;
-const MIN_PRACTICE = 5;
+const MIN_PRACTICE = 6;
 
 export const checkpointCount = (s: LessonSection) => s.checkpoint?.length ?? 0;
 export const questionCount = (l: Lesson) => l.sections.reduce((n, s) => n + checkpointCount(s), 0) + l.exercises.length;
@@ -123,11 +123,7 @@ const echoed = (example: Set<string>, items: Exercise[]) => items.some((e) => wo
  * each to a part that doesn't have the family yet, and items close to an
  * example go to a part that doesn't show that example. Within a part,
  * items keep their authored order. */
-function deal(exercises: Exercise[], q: number[], ordered: boolean, checkpoints: Exercise[][], examples: string[][]): Exercise[][] {
-  if (ordered) {
-    let i = 0;
-    return q.map((n) => exercises.slice(i, (i += n)));
-  }
+function deal(exercises: Exercise[], q: number[], checkpoints: Exercise[][], examples: string[][]): Exercise[][] {
   const k = q.length;
   const all = exercises.length + checkpoints.reduce((n, c) => n + c.length, 0);
   const trAll = exercises.filter(isTranslation).length + checkpoints.reduce((n, c) => n + c.filter(isTranslation).length, 0);
@@ -192,8 +188,8 @@ function recap(lesson: Lesson, first: Exercise | undefined, items: Exercise[]): 
   const list = headings.slice(0, 4).join("; ").replace(/[.:;,]$/, "");
   const end = /[.!?]$/.test(list) ? "" : ".";
   const body = spanish
-    ? [`Esta parte continúa «${lesson.title}»${list ? `, que trató: ${list}${end}` : "."} Un repaso rápido y, después, más práctica con frases nuevas.`]
-    : [`This part continues "${lesson.title}"${list ? `, which covered: ${list}${end}` : "."} A quick look back, then more practice with new sentences.`];
+    ? [`Esta parte sigue con la lección anterior${list ? `, que trató: ${list}${end}` : "."} Un repaso rápido y, después, más práctica con frases nuevas.`]
+    : [`This part carries on from the lesson before${list ? `, which covered: ${list}${end}` : "."} A quick look back, then more practice with new sentences.`];
   const examples = lesson.sections
     .flatMap((s) => (s.examples ?? []).filter((x) => !echoed(tokens(x.es), items)).slice(0, 1))
     .slice(0, 3);
@@ -235,7 +231,6 @@ function splitParts(lesson: Lesson): Lesson[] {
     const practice = deal(
       lesson.exercises,
       q,
-      ordered,
       sections.map((ss) => ss.flatMap((s) => s.checkpoint ?? [])),
       sections.map((ss) => ss.flatMap((s) => (s.examples ?? []).map((x) => x.es))),
     );
@@ -268,7 +263,7 @@ function splitParts(lesson: Lesson): Lesson[] {
       if (mins !== null) {
         const share = i === sections.length - 1 ? minsLeft : Math.max(1, Math.round((mins * questionCount(part)) / total));
         minsLeft -= share;
-        part.duration = `${Math.max(1, share)} min`;
+        part.duration = `${Math.max(Math.min(4, mins), share)} min`;
       }
       return part;
     });
