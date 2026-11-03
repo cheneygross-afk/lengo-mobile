@@ -51,6 +51,8 @@ import { planCovers, useAuth } from "@/lib/auth/AuthContext";
 import { freeSlugs } from "@/lib/freeLessons";
 import { courseOfLevelPath } from "@/lib/courses";
 import PlanLock from "@/components/PlanLock";
+import { NotepadChip, NotepadSheet, useLessonNotepad } from "@/components/LessonNotepad";
+import { SPANISH_LEVELS } from "@/lib/lessons/levels";
 import { supabase } from "@/lib/supabase/client";
 import {
   deleteLessonHighlight,
@@ -479,6 +481,17 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentStep, lesson]);
 
+  // The lesson's notepad: kept here, above the steps, so the same note
+  // stays with the learner from step to step (components/LessonNotepad).
+  const notepad = useLessonNotepad({
+    levelPath,
+    lessonSlug: lesson?.slug ?? "",
+    lessonTitle: shownTitle,
+    levelLabel:
+      SPANISH_LEVELS.find((l) => l.levelPath === levelPath)?.name ?? (lesson ? shortLevel(lesson.level) : ""),
+  });
+  const [notepadOpen, setNotepadOpen] = useState(false);
+
   if (lazyPath && !track) {
     return (
       <View style={s.center}>
@@ -598,6 +611,17 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   return (
     <View style={s.screen}>
       <LessonBackdrop accent={accent} glyph={COURSE_GLYPHS[course][0]} />
+      <NotepadSheet
+        visible={notepadOpen}
+        onClose={() => setNotepadOpen(false)}
+        onOpenAll={() => {
+          setNotepadOpen(false);
+          navigation.navigate("Notes", { course });
+        }}
+        lessonTitle={shownTitle}
+        accent={accent}
+        pad={notepad}
+      />
       <View style={s.topbar}>
         <Pressable hitSlop={12} onPress={handleExit}>
           <Text style={s.closeBtn}>✕</Text>
@@ -610,6 +634,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             <Text style={s.inARowText}>🔥 {inARow}</Text>
           </View>
         )}
+        <NotepadChip onPress={() => setNotepadOpen(true)} hasText={notepad.hasText} accent={accent} />
         {isSpanishLessonLevel(lesson.level) && (
           <Pressable
             hitSlop={10}

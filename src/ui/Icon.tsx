@@ -21,6 +21,7 @@ const PATHS = {
   flame: "M12 21c4 0 7-2.7 7-6.5 0-3.5-2.5-5.5-4-8.5-1 2-2 3-3.5 3.5C11 7 11 5 10 3 7 6 5 9.5 5 14.5 5 18.3 8 21 12 21z",
   clock: "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z M12 7v5l3 2",
   check: "M5 12.5l4.5 4.5L19 7",
+  notes: "M6 3h9l3 3v15H6z M9 9h6 M9 13h6 M9 17h4",
 } as const;
 
 export type IconName = keyof typeof PATHS;

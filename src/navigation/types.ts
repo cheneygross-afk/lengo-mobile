@@ -115,6 +115,9 @@ export type AppStackParamList = {
   // The Chinese placement test -- see ChinesePlacementScreen.
   ChinesePlacement: undefined;
   Settings: undefined;
+  // Every lesson notepad, by course (lib/lessonNotepad.ts); course opens
+  // with that course selected.
+  Notes: { course?: string } | undefined;
   // First-run setup (starting level + daily goal) -- opened by Home when
   // the account hasn't done it here or on the website.
   Onboarding: undefined;
