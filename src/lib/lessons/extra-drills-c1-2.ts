@@ -10,7 +10,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
     toEs(
       "It's true that the new schedule saves time; that said, it tires the staff.",
       "Es cierto que el nuevo horario ahorra tiempo; ahora bien, cansa al personal.",
-      "«Es cierto que» concede con indicativo (un hecho admitido) y «ahora bien» introduce la refutación; no uses «pero» sin más si quieres el tono de debate.",
+      "«Es cierto que» concede con indicativo (un hecho admitido) y «ahora bien» introduce la refutación; «pero» también vale, aunque «ahora bien» da un tono más de debate.",
       ["Es verdad que el nuevo horario ahorra tiempo; ahora bien, cansa al personal.", "Es cierto que el nuevo horario ahorra tiempo; ahora bien, cansa a la plantilla.", "Es verdad que el nuevo horario ahorra tiempo; ahora bien, cansa a la plantilla.", "Es cierto que el nuevo horario ahorra tiempo; sin embargo, cansa al personal."],
     ),
     toEs(
@@ -399,7 +399,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       "Saldremos al amanecer aunque el pronóstico sea malo.",
       "La condición (si) pone un requisito; la concesión (aunque) un obstáculo que no frena el plan. Como el pronóstico aún no se conoce, «aunque» va con subjuntivo (sea), mientras que «si» real va con indicativo (es).",
       ["Saldremos al amanecer aun si el pronóstico es malo."],
-      "Transforma la condición en concesión: saldréis igualmente con mal pronóstico.",
+      "Transforma la condición en concesión: saldremos igualmente con mal pronóstico.",
     ),
     toEs(
       "Si no ordenas tu cuarto, no irás a la fiesta.",
@@ -557,7 +557,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       "The fact that nobody applied for the position doesn't prove that the salary is too low.",
       "El hecho de que nadie se haya presentado al puesto no demuestra que el sueldo sea demasiado bajo.",
       "El bloque nominal es sujeto de «demuestra», y tras «no demostrar que» se usa subjuntivo; no repitas «no» como en «nadie no».",
-      ["El hecho de que nadie se haya presentado a la plaza no demuestra que el sueldo sea demasiado bajo.", "El hecho de que nadie haya solicitado el puesto no demuestra que el sueldo sea demasiado bajo.", "El hecho de que nadie se haya presentado al puesto no prueba que el sueldo sea demasiado bajo.", "El hecho de que nadie se haya presentado al puesto no demuestra que el salario sea demasiado bajo.", "El hecho de que nadie haya solicitado el puesto no prueba que el salario sea demasiado bajo.", "El hecho de que nadie se ha presentado al puesto no demuestra que el sueldo sea demasiado bajo."],
+      ["El hecho de que nadie se presentara al puesto no demuestra que el sueldo sea demasiado bajo.", "El hecho de que nadie se haya presentado a la plaza no demuestra que el sueldo sea demasiado bajo.", "El hecho de que nadie haya solicitado el puesto no demuestra que el sueldo sea demasiado bajo.", "El hecho de que nadie se haya presentado al puesto no prueba que el sueldo sea demasiado bajo.", "El hecho de que nadie se haya presentado al puesto no demuestra que el salario sea demasiado bajo.", "El hecho de que nadie haya solicitado el puesto no prueba que el salario sea demasiado bajo.", "El hecho de que nadie se ha presentado al puesto no demuestra que el sueldo sea demasiado bajo."],
     ),
     toEs(
       "Siempre llegas tarde, y eso me molesta.",
@@ -932,7 +932,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       "La ___ de la situación es más dura de lo que parece.",
       "realidad",
       "The [reality] of the situation is harsher than it seems.",
-      "«Real» da «realidad» con -dad, sufijo de abstractos de registro elevado; no confundir con «realeza», que significa otra cosa.",
+      "«Real» da «realidad» con -dad, sufijo productivo de abstractos; no confundir con «realeza», que significa otra cosa.",
     ),
     fe(
       "Expresó su ___ con una carta manuscrita.",
@@ -1977,7 +1977,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       ["Una oración farragosa de ochenta palabras es más difícil de leer que tres breves.", "Una frase enrevesada de ochenta palabras es más difícil de leer que tres breves.", "Una oración enrevesada de ochenta palabras es más difícil de leer que tres cortas.", "Una oración enrevesada de ochenta palabras es más difícil de leer que tres oraciones breves.", "Una oración enrevesada de ochenta palabras resulta más difícil de leer que tres breves.", "Una frase enrevesada de ochenta palabras es más difícil de leer que tres cortas.", "Una oración enrevesada de ochenta palabras es más difícil de leer que tres oraciones cortas."],
     ),
     toEs(
-      "His far-fetched style bores readers, who prefer simple language.",
+      "His over-elaborate style bores readers, who prefer simple language.",
       "Su estilo rebuscado aburre a los lectores, que prefieren un lenguaje sencillo.",
       "Rebuscado es lo poco natural por exceso de afectación; el relativo explicativo «que» va entre comas y lleva verbo plural.",
       ["Su estilo rebuscado aburre a los lectores, que prefieren un lenguaje simple.", "Su estilo rebuscado aburre a los lectores, que prefieren un lenguaje llano.", "Su estilo rebuscado aburre a los lectores, que prefieren el lenguaje sencillo.", "Su rebuscado estilo aburre a los lectores, que prefieren un lenguaje sencillo.", "Su estilo rebuscado aburre a los lectores, que prefieren un lenguaje claro."],
@@ -2030,7 +2030,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
     fe(
       "Es un estilo tan ___ que parece una parodia.",
       "rebuscado",
-      "It is such a [far-fetched] style that it seems a parody.",
+      "It is such an [affected] style that it seems a parody.",
       "Rebuscado describe el lenguaje poco natural por exceso de afectación; concuerda con «estilo» en masculino singular.",
       ["afectado"],
     ),
@@ -2127,10 +2127,10 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       ["Inauguración de la nueva biblioteca con la presencia del rey", "Inauguración de la nueva biblioteca con la asistencia del rey", "Inauguración de la nueva biblioteca en presencia del monarca", "Inauguración de la nueva biblioteca ante el rey"],
     ),
     toEs(
-      "Four flights have been cancelled because of the air traffic controllers' strike.",
-      "Se han cancelado cuatro vuelos por la huelga de controladores.",
-      "Para reconstruir la oración se pasa el sustantivo a verbo («cancelación» → «cancelar») y se usa el pretérito perfecto en pasiva refleja («se han cancelado»), que evita nombrar al agente.",
-      ["Cuatro vuelos se han cancelado por la huelga de controladores.", "Han cancelado cuatro vuelos por la huelga de controladores.", "Se han cancelado cuatro vuelos a causa de la huelga de controladores.", "Han cancelado cuatro vuelos a causa de la huelga de controladores.", "Se han suspendido cuatro vuelos por la huelga de controladores.", "Cuatro vuelos han sido cancelados por la huelga de controladores."],
+      "Cancellation of four flights because of the air traffic controllers' strike",
+      "Cancelación de cuatro vuelos por la huelga de controladores",
+      "El titular nominal usa el sustantivo «cancelación» (de «cancelar») en lugar de un verbo conjugado y omite los artículos; «por» introduce la causa.",
+      ["Cancelación de cuatro vuelos a causa de la huelga de controladores", "Cancelación de cuatro vuelos por la huelga de controladores aéreos", "Cancelación de cuatro vuelos por la huelga de los controladores", "Suspensión de cuatro vuelos por la huelga de controladores"],
       "Traduce al español.",
     ),
     toEs(
@@ -2144,14 +2144,14 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       "«Reapertura del puerto tras la tormenta»",
       "Se ha reabierto el puerto tras la tormenta.",
       "Reapertura vuelve a «reabrir», con participio irregular (reabierto). Como el puerto es lo reabierto y no quien actúa, la pasiva refleja con «se» es la versión más natural.",
-      ["El puerto se ha reabierto tras la tormenta.", "El puerto ha reabierto tras la tormenta.", "Ha reabierto el puerto tras la tormenta."],
+      ["El puerto se ha reabierto tras la tormenta."],
       "Transforma el titular en una oración completa en pretérito perfecto con «se».",
     ),
     toEs(
       "The Cervantes Prize has been awarded to a Mexican poet.",
-      "Se ha entregado el premio Cervantes a un poeta mexicano.",
-      "El sustantivo «entrega» se convierte en el verbo «entregar» y se usa el perfecto en pasiva refleja («se ha entregado»); el participio es «entregado».",
-      ["Han entregado el premio Cervantes a un poeta mexicano.", "El premio Cervantes se ha entregado a un poeta mexicano.", "El premio Cervantes ha sido entregado a un poeta mexicano."],
+      "Se ha concedido el premio Cervantes a un poeta mexicano.",
+      "«Awarded» se dice «conceder» u «otorgar» (también «entregar», que subraya el acto de dar el premio); aquí se usa el perfecto en pasiva refleja («se ha concedido»), que no nombra al agente.",
+      ["Se ha otorgado el premio Cervantes a un poeta mexicano.", "Se ha entregado el premio Cervantes a un poeta mexicano.", "Han concedido el premio Cervantes a un poeta mexicano.", "Han otorgado el premio Cervantes a un poeta mexicano.", "Han entregado el premio Cervantes a un poeta mexicano.", "El premio Cervantes se ha concedido a un poeta mexicano.", "El premio Cervantes se ha otorgado a un poeta mexicano.", "El premio Cervantes se ha entregado a un poeta mexicano.", "El premio Cervantes ha sido concedido a un poeta mexicano.", "El premio Cervantes ha sido otorgado a un poeta mexicano.", "El premio Cervantes ha sido entregado a un poeta mexicano."],
       "Traduce al español.",
     ),
     fe(

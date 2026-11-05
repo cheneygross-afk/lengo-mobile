@@ -181,7 +181,7 @@ export const LEVEL_TEST_B2: LevelTest = {
         fe("La fiesta ___ en casa de Luis.", "es", "The party [is] at Luis's house.", "Para el lugar de un evento se usa ser: la fiesta es en casa de Luis."),
         fe("Esta manzana todavía no ___ madura.", "está", "This apple [is] not ripe yet.", "Estado: estar maduro (ser maduro es una cualidad de una persona)."),
         fe("Al oír la noticia, ___ muy nervioso.", "se puso", "When he heard the news, [he got] very nervous.", "Cambio rápido y pasajero de estado: ponerse."),
-        fe("Después de años de estudio, ___ médica.", "se hizo", "After years of study, [she became] a doctor.", "Cambio por esfuerzo propio: hacerse (o llegar a ser).", ["llegó a ser"]),
+        fe("Después de años de estudio, ___ médica.", "se hizo", "After years of study, [she became] a doctor.", "Cambio por esfuerzo propio: hacerse (o llegar a ser).", ["llegó a ser", "se convirtió en"]),
         fe("La rana ___ en un príncipe.", "se convirtió", "The frog [turned] into a prince.", "Transformación completa: convertirse en.", ["se transformó"]),
         fe("Está lloviendo; ___, saldremos.", "sin embargo", "It's raining; [however], we'll go out.", "Contraste: sin embargo (no obstante, aun así, de todos modos).", ["no obstante", "aun así", "de todos modos", "de todas formas"]),
         fe("___ estaba enfermo, no fue a clase.", "Como", "[Since] he was ill, he didn't go to class.", "Causa al principio de la frase: como (ya que, puesto que, dado que).", ["Ya que", "Puesto que", "Dado que"]),

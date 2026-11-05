@@ -211,7 +211,7 @@ export const LEVEL_TEST_C1: LevelTest = {
           "habré puesto",
           "Where [could I have put] my keys? I can't find them.",
           "Conjetura sobre un pasado reciente: futuro compuesto, habré puesto.",
-          ["habré dejado"]
+          ["habré dejado", "habré metido", "habré guardado"]
         ),
         fe("Fue entonces ___ comprendí todo.", "cuando", "It was then [that] I understood everything.", "En la oración hendida con un adverbio de tiempo, la norma culta prefiere cuando: fue entonces cuando. «Fue entonces que» es frecuente en América, pero se evita en registro cuidado.", ["que"]),
         fe("¡Lo ___ que es tu hermano!", "alto", "How [tall] your brother is!", "Lo + adjetivo + que, con valor ponderativo: ¡lo alto que es!"),

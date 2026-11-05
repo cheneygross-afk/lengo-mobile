@@ -740,7 +740,7 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
       "It could be that you (tú) are right.",
       "Pudiera ser que tuvieras razón.",
       "«Pudiera» solo en -ra funciona como posibilidad literaria; en lengua corriente se prefiere «podría ser que».",
-      ["Podría ser que tuvieras razón.", "Pudiera ser que tengas razón.", "Puede ser que tengas razón.", "Podría ser que tengas razón."],
+      ["Podría ser que tuvieras razón.", "Pudiera ser que tengas razón.", "Puede ser que tengas razón.", "Puede que tengas razón.", "Podría ser que tengas razón."],
     ),
     toEs(
       "If they had more patience, they wouldn't shout.",
@@ -977,8 +977,8 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
     toEs(
       "I've always wanted you (tú) to be proud of me.",
       "Siempre he querido que estés orgulloso de mí.",
-      "El pretérito perfecto (he querido) se comporta como presente: presente de subjuntivo (estés). Orgullosa también vale.",
-      ["Siempre he querido que estés orgullosa de mí.", "Siempre he querido que te sientas orgulloso de mí.", "Siempre he querido que te sientas orgullosa de mí."],
+      "El pretérito perfecto (he querido) normalmente se comporta como presente: presente de subjuntivo (estés). Orgullosa también vale; si el deseo se ve como pasado, también se oye estuvieras.",
+      ["Siempre he querido que estuvieras orgulloso de mí.", "Siempre he querido que estés orgullosa de mí.", "Siempre he querido que te sientas orgulloso de mí.", "Siempre he querido que te sientas orgullosa de mí."],
     ),
     toEs(
       "It would be a shame if the bad weather spoiled the party.",
@@ -1146,7 +1146,7 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
       "Mentir → mintieron → mintiera; la raíz cambia e → i.",
     ),
     wo(
-      "Quería que lo supieran todos",
+      "Quería que todos lo supieran",
       "Saber → supieron → supieran.",
       "He wanted everyone to know it",
     ),
@@ -1702,7 +1702,7 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
     toEs(
       "I'd prefer that you (formal) didn't tell anyone yet.",
       "Preferiría que no se lo dijera a nadie todavía.",
-      "Preferiría + imperfecto de subjuntivo (dijera); «no se lo diga» sería un mandato directo.",
+      "Preferiría + imperfecto de subjuntivo (dijera); «no se lo diga» rompería la secuencia: tras un condicional (preferiría) va el imperfecto de subjuntivo.",
       ["Preferiría que no se lo dijera a nadie aún.", "Preferiría que no se lo dijese a nadie todavía.", "Preferiría que no se lo contara a nadie todavía."],
     ),
     toEs(
@@ -1783,8 +1783,8 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
     toEs(
       "My parents have always wanted me to be happy.",
       "Mis padres siempre han querido que sea feliz.",
-      "El pretérito perfecto se agrupa con el presente: presente de subjuntivo (sea), no «fuera».",
-      ["Mis padres han querido siempre que sea feliz."],
+      "El pretérito perfecto normalmente se agrupa con el presente: presente de subjuntivo (sea); «fuera» también es posible si el deseo se ve como pasado.",
+      ["Mis padres han querido siempre que sea feliz.", "Mis padres siempre han querido que fuera feliz.", "Mis padres siempre han querido que fuese feliz."],
     ),
     toEs(
       "My parents wanted me to be happy.",
@@ -2068,7 +2068,7 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
     toEs(
       "I'm begging you (tú) not to tell my mother.",
       "Te suplico que no se lo digas a mi madre.",
-      "Presente → presente de subjuntivo (digas); en el mandato negativo se usa subjuntivo también.",
+      "Presente → presente de subjuntivo (digas); «se lo» = «le» + «lo» (le se convierte en se ante lo).",
       ["Te ruego que no se lo digas a mi madre.", "Te suplico que no se lo cuentes a mi madre.", "Te ruego que no se lo cuentes a mi madre."],
     ),
     toEs(
@@ -2416,7 +2416,7 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
     toEs(
       "If I had your talent, I would be a singer.",
       "Si tuviera tu talento, sería cantante.",
-      "Sin artículo ante profesión: «sería cantante», no «sería un cantante». Tuviera/sería es el par del Tipo 2.",
+      "Con ser, la profesión suele ir sin artículo («sería cantante»); con un adjetivo lleva artículo («un gran cantante»). Tuviera/sería es el par del Tipo 2.",
       ["Sería cantante si tuviera tu talento."],
     ),
     toEs(
@@ -2684,7 +2684,7 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
     ),
     wo(
       "Si tuviera más paciencia, daría clase a niños pequeños",
-      "Imperfecto de subjuntivo (tuviera) + condicional irregular (daría, de dar).",
+      "Imperfecto de subjuntivo (tuviera) + condicional regular (daría, de dar).",
       "If I had more patience, I would teach small children",
     ),
     wo(

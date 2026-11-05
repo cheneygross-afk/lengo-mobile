@@ -43,7 +43,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "La suscrita declaran por lo presente que…"
             ],
             "correctIndex": 0,
-            "explanation": "«Suscrito» es un participio y concuerda con quienes firman: dos mujeres, «las suscritas», con el verbo en plural. La fórmula «por la presente» no cambia nunca, porque «la presente» es la carta o el escrito; «por el presente» y «por lo presente» son errores."
+            "explanation": "«Suscrito» es un participio y concuerda con quienes firman: dos mujeres, «las suscritas», con el verbo en plural. La fórmula «por la presente» no cambia nunca, porque «la presente» es la carta o el escrito; «por lo presente» es un error, y «por el presente» solo funciona con un sustantivo expreso («por el presente documento»)."
           }
         ]
       },
@@ -106,7 +106,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué función cumple, según el texto, una fórmula como en virtud de dentro de un documento jurídico?",
+        "question": "¿Qué función cumple una fórmula como en virtud de dentro de un documento jurídico?",
         "options": [
           "Añadir un adorno estilístico sin ninguna función práctica",
           "Indicar el fundamento o la autoridad que justifica una acción",
@@ -185,7 +185,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El género: -nte no cambia, suscrito concuerda",
         "body": [
-          "Fíjate en el género: los nombres en -nte no cambian (el otorgante, la otorgante; el compareciente, la compareciente), mientras que suscrito es un participio y concuerda (la suscrita, los suscritos)."
+          "Fíjate en el género: los nombres jurídicos en -nte suelen ser invariables (el otorgante, la otorgante; el compareciente, la compareciente), mientras que suscrito es un participio y concuerda (la suscrita, los suscritos)."
         ],
         "checkpoint": [
           {
@@ -205,7 +205,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "-nte da, -ario recibe",
         "body": [
-          "El mismo mecanismo funciona en muchas parejas del derecho civil: el sufijo -nte (o -dor) señala a quien realiza el acto y el sufijo -ario a quien lo recibe. El mandante encarga y el mandatario ejecuta el encargo; el arrendador alquila y el arrendatario toma en alquiler. Lo mismo vale para el fedatario: es quien tiene la fe pública que le confía la ley.",
+          "El mismo mecanismo funciona en muchas parejas del derecho civil: el sufijo -nte (o -dor) señala a quien realiza el acto y el sufijo -ario a quien lo recibe. El mandante encarga y el mandatario ejecuta el encargo; el arrendador alquila y el arrendatario toma en alquiler. El fedatario es una excepción aparente: termina en -ario, pero no recibe nada; es quien tiene encomendada la fe pública y la da.",
           "Así puedes deducir términos que no has visto: si alguien dona, es el donante; quien recibe la donación es el donatario."
         ],
         "examples": [
@@ -244,7 +244,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Una abuela regala un piso a su nieta ante notario. ¿Qué pareja de términos describe a las dos partes?",
+        "question": "Una abuela regala un piso a su nieta ante notario. ¿Qué pareja de términos describe, por ese orden, a la abuela y a su nieta?",
         "options": [
           "La donante y la donataria",
           "La donataria y la donante",
@@ -316,7 +316,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "La aseguradora demandanta recurrió la sentencia."
             ],
             "correctIndex": 0,
-            "explanation": "La aseguradora recibe la demanda, así que lleva la forma en -do, que concuerda en femenino: «demandada». «Demandante» invertiría los papeles (sería el cliente), «demandado» no concuerda y la forma en -nte nunca cambia a «-nta»."
+            "explanation": "La aseguradora recibe la demanda, así que lleva la forma en -do, que concuerda en femenino: «demandada». «Demandante» invertiría los papeles (sería el cliente), «demandado» no concuerda y la forma en -nte (demandante) no se convierte en «-nta»: no existe «demandanta»."
           }
         ]
       },
@@ -339,7 +339,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Cuáles de las siguientes afirmaciones son correctas según el texto?",
+            "question": "¿Cuáles de las siguientes afirmaciones son correctas?",
             "options": [
               "El demandante es quien inicia una acción legal contra otra persona",
               "Una prórroga extingue automáticamente cualquier plazo perentorio",
@@ -374,7 +374,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuáles de los siguientes términos corresponden al ámbito judicial según lo estudiado?",
         "options": [
           "el demandante",
-          "el apoderado",
+          "el otorgante",
           "la sentencia",
           "el demandado"
         ],
@@ -383,7 +383,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "El demandante, la sentencia y el demandado son términos propios del proceso judicial; el apoderado pertenece más bien al ámbito de la representación notarial."
+        "explanation": "El demandante, la sentencia y el demandado son términos propios del proceso judicial; el otorgante pertenece al ámbito notarial: concede un poder o una escritura."
       }
     ]
   },
@@ -615,7 +615,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Según el texto, ¿por qué el lenguaje jurídico resulta, a primera vista, más difícil de leer que un texto periodístico?",
+        "question": "¿Por qué el lenguaje jurídico resulta, a primera vista, más difícil de leer que un texto periodístico?",
         "options": [
           "Porque está escrito en un idioma distinto del español estándar.",
           "Porque las oraciones son largas, las subordinadas se acumulan y el vocabulario técnico abunda, aunque esa complejidad responde a una lógica interna sistemática.",
@@ -721,7 +721,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Familias de palabras: del verbo al sustantivo y al adverbio",
         "body": [
           "El vocabulario contractual se organiza en familias, y conviene elegir la pieza que pide la sintaxis. Del verbo cumplir salen incumplir y el incumplimiento; de legalizar, la legalización; de solidario, el adverbio solidariamente. Un verbo o un adjetivo se modifican con el adverbio (responden solidariamente, son solidariamente responsables); un sustantivo, con el adjetivo (responsabilidad solidaria, obligación solidaria).",
-          "Fíjate también en las preposiciones fijas: se responde de los daños (no «a» los daños) y un incumplimiento da lugar a la rescisión (no «en»)."
+          "Fíjate también en las preposiciones fijas: se responde de los daños (no «a» los daños) y un incumplimiento da lugar a la resolución del contrato (no «en»)."
         ],
         "examples": [
           {
@@ -814,7 +814,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Tres expresiones fijas (y la legalización de firma)",
         "body": [
-          "Tres expresiones fijan esa relación en cualquier escritura: el apoderado actúa en nombre de (o en representación de) el otorgante, en virtud de las facultades que le confiere el poder, y en su calidad de apoderado. La legalización de firma es otra cosa: certifica ante una autoridad que la firma pertenece a quien la estampó, pero no dice nada del contenido."
+          "Tres expresiones fijan esa relación en cualquier escritura: el apoderado actúa en nombre del otorgante (o en su representación), en virtud de las facultades que le confiere el poder, y en su calidad de apoderado. La legalización de firma es otra cosa: certifica ante una autoridad que la firma pertenece a quien la estampó, pero no dice nada del contenido."
         ],
         "examples": [
           {
@@ -988,7 +988,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Banco de vocabulario: el español jurídico y administrativo",
         "body": [
-          "18 palabras relacionadas con el español jurídico y administrativo. Antes de memorizarlas, fíjate en su terminación: casi todas siguen uno de los patrones de la sección anterior."
+          "18 palabras relacionadas con el español jurídico y administrativo. Antes de memorizarlas, fíjate en su terminación: varias siguen uno de los patrones de la sección anterior."
         ],
         "examples": [
           {
@@ -1083,15 +1083,15 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué consecuencia tiene, según lo estudiado, el vencimiento de un plazo perentorio?",
+        "question": "¿Qué significa «cláusula resolutoria», según lo estudiado?",
         "options": [
-          "El derecho a actuar se extingue",
-          "El plazo se renueva automáticamente sin necesidad de solicitud",
-          "El trámite queda suspendido de forma indefinida sin consecuencias",
-          "La resolución administrativa pierde toda validez legal"
+          "Una cláusula que permite extinguir el contrato si una parte incumple",
+          "Una cláusula que reparte la deuda por partes iguales entre los obligados",
+          "Una cláusula que certifica que una firma pertenece a quien la estampó",
+          "Una cláusula que fija el plazo para presentar un recurso"
         ],
         "correctIndex": 0,
-        "explanation": "Una vez vencido un plazo perentorio, el derecho a actuar se extingue, porque ese plazo no admite prórroga. El plazo no se renueva automáticamente, el trámite no queda suspendido sin más y la resolución no pierde su validez."
+        "explanation": "El adjetivo en -oria produce el efecto del verbo de partida: la cláusula resolutoria permite resolver (extinguir) el contrato cuando una parte incumple. Repartir la deuda es la responsabilidad mancomunada, certificar una firma es la legalización y el plazo del recurso no depende de esta cláusula."
       }
     ]
   },
@@ -1133,14 +1133,14 @@ const C2_BASE_LESSONS: Lesson[] = [
               "recurso → requerimiento formal → sentencia → demanda"
             ],
             "correctIndex": 0,
-            "explanation": "Primero se exige el pago con un requerimiento formal; si no se cumple, se presenta la demanda; el juez dicta sentencia, y solo contra una sentencia cabe recurso, que lleva el asunto a la segunda instancia. Los demás órdenes ponen el recurso o la sentencia antes de que exista algo que recurrir o decidir."
+            "explanation": "Primero se exige el pago con un requerimiento formal; si no se cumple, se presenta la demanda; el juez dicta sentencia, y el recurso se interpone contra la resolución dictada (aquí, la sentencia), que lleva el asunto a la segunda instancia. Los demás órdenes ponen el recurso o la sentencia antes de que exista algo que recurrir o decidir."
           }
         ]
       },
       {
         "heading": "El momento decide lo que todavía es posible",
         "body": [
-          "Por qué importa: el momento decide lo que todavía es posible. Una prórroga solo puede pedirse antes de que venza el plazo, y si el plazo es perentorio, al vencer se pierde el derecho. Los trámites administrativos siguen la misma lógica: el timbre fiscal se abona antes de presentar la solicitud."
+          "Por qué importa: el momento decide lo que todavía es posible. Una prórroga solo puede pedirse antes de que venza el plazo; un plazo perentorio, en cambio, no admite prórroga y, al vencer, se pierde el derecho. Los trámites administrativos siguen la misma lógica: el timbre fiscal se abona antes de presentar la solicitud."
         ],
         "checkpoint": [
           {
@@ -1428,7 +1428,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "options": [
           "El apoderado firmó el contrato en representación del otorgante, conforme al poder notarial recibido.",
           "El otorgante es quien recibe un poder para actuar en nombre de otra persona.",
-          "El incumplimiento de una cláusula puede dar lugar a responsabilidad solidaria entre los obligados.",
+          "Si los obligados responden solidariamente, el acreedor puede reclamar la deuda entera a cualquiera de ellos.",
           "La legalización de firma certifica el contenido íntegro y la veracidad de un contrato."
         ],
         "correctIndexes": [
@@ -1559,7 +1559,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Según el espíritu general de esta lección, ¿qué ventaja principal obtiene quien domina el vocabulario jurídico y administrativo estudiado?",
+        "question": "¿Qué ventaja principal obtiene quien domina el vocabulario jurídico y administrativo estudiado?",
         "options": [
           "Puede evitar por completo la necesidad de firmar cualquier documento oficial.",
           "Puede leer con criterio propio un contrato o un formulario oficial, en lugar de firmar documentos sin entender plenamente su alcance.",
@@ -1668,12 +1668,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         "question": "¿Qué distingue, según el texto, a un dolor punzante de uno sordo?",
         "options": [
           "Ambos términos significan exactamente lo mismo",
-          "El dolor punzante es agudo y repentino; el sordo es continuo y de intensidad moderada",
+          "El dolor punzante es como un pinchazo; el sordo es continuo y poco localizado",
           "El dolor sordo solo aparece durante el sueño",
           "El dolor punzante nunca requiere atención médica"
         ],
         "correctIndex": 1,
-        "explanation": "El texto distingue el dolor punzante, agudo y repentino, del dolor sordo, continuo y de intensidad moderada. No son sinónimos, el dolor sordo no aparece solo durante el sueño y un dolor punzante puede requerir atención médica."
+        "explanation": "El texto distingue el dolor punzante, como un pinchazo, del dolor sordo, continuo y poco localizado. No son sinónimos, el dolor sordo no aparece solo durante el sueño y un dolor punzante puede requerir atención médica."
       }
     ]
   },
@@ -1688,12 +1688,12 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cada dato de la anamnesis va en su casilla",
         "body": [
-          "La regla: la anamnesis es la entrevista con la que el médico reconstruye el historial clínico, y cada dato que aporta el paciente va en una casilla fija. Para saber cuál, pregúntate de quién es y de qué trata. Si la enfermedad la tuvo un familiar directo, es un antecedente familiar (riesgo heredado). Si la tuvo el propio paciente antes, es un antecedente patológico personal. Si un fármaco le provocó una reacción, es una alergia medicamentosa. Y lo que toma ahora es su tratamiento actual."
+          "La regla: la anamnesis es la entrevista con la que el médico reconstruye el historial clínico, y cada dato que aporta el paciente va en una casilla fija. Para saber cuál, pregúntate de quién es y de qué trata. Si la enfermedad la tuvo un familiar, es un antecedente familiar (riesgo heredado). Si la tuvo el propio paciente antes, es un antecedente patológico personal. Si un fármaco le provocó una reacción alérgica (urticaria, dificultad para respirar), es una alergia medicamentosa. Y lo que toma ahora es su tratamiento actual."
         ],
         "examples": [
           {
             "es": "Mi madre y mi tía tuvieron cáncer de colon.",
-            "en": "My mother and my aunt had colon cancer. (familiares directos → antecedente familiar)"
+            "en": "My mother and my aunt had colon cancer. (madre y tía: familiares → antecedente familiar)"
           },
           {
             "es": "Me operaron de apendicitis a los doce años.",
@@ -1868,7 +1868,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "la percutida"
             ],
             "correctIndex": 0,
-            "explanation": "Como palpar → palpación o explorar → exploración, el verbo da el nombre de la técnica: percutir → percusión. Las otras formas no existen como término médico. Y como se hace con los dedos y el oído en la consulta, es exploración física."
+            "explanation": "Como palpar → palpación o explorar → exploración, «percusión» viene de «percutir», pero no sigue el patrón -ación (del latín percussio): es una excepción que hay que memorizar; «percutación» y las demás formas no existen como término médico. Y como se hace con los dedos y el oído en la consulta, es exploración física."
           }
         ]
       }
@@ -2124,7 +2124,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la exacerbación",
-            "en": "el empeoramiento notable de un síntoma previamente controlado"
+            "en": "el empeoramiento notable de un síntoma o enfermedad ya presente"
           },
           {
             "es": "la remisión",
@@ -2160,7 +2160,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el antecedente familiar",
-            "en": "una enfermedad o condición presente en los familiares directos de un paciente"
+            "en": "una enfermedad o condición presente en los familiares de un paciente"
           }
         ],
         "checkpoint": [
@@ -2425,7 +2425,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "no tener pelos en la lengua",
-            "en": "hablar con una franqueza que no se guarda nada"
+            "en": "hablar con total franqueza, sin callarse nada"
           },
           {
             "es": "hacer la vista gorda",
@@ -2534,7 +2534,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "estar hasta las narices (España)",
+            "es": "estar hasta las narices (España) / estar hasta la coronilla",
             "en": "haber llegado al límite de la paciencia con algo"
           },
           {
@@ -2705,7 +2705,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Según el texto, ¿qué debe hacer quien teme equivocarse con los modismos?",
+            "question": "Un amigo evita los modismos por miedo a equivocarse. Según el texto, ¿qué le conviene hacer?",
             "options": [
               "aprenderlos como bloques completos e inseparables",
               "evitarlos por miedo a equivocarse",
@@ -2804,7 +2804,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "no tener pelos en la lengua",
-            "en": "hablar con una franqueza que no se guarda nada"
+            "en": "hablar con total franqueza, sin callarse nada"
           },
           {
             "es": "dar en el clavo",
@@ -2812,7 +2812,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "estar como una cabra",
-            "en": "tener un comportamiento extravagante o poco convencional"
+            "en": "estar loco o comportarse de forma muy extravagante"
           },
           {
             "es": "hacer la vista gorda",
@@ -3071,7 +3071,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La estructura poética del refrán: rima, ritmo y elipsis",
         "body": [
-          "Los refranes se apoyan en recursos poéticos que facilitan la memoria: rima asonante o consonante (ladrador / mordedor), paralelismo entre dos mitades (quien… / quien…; tal… / tal…) y elipsis, es decir, la omisión de verbos, artículos o nexos que una oración normal exigiría: «De tal palo, tal astilla» = «La astilla es como el palo del que sale»."
+          "Los refranes se apoyan en recursos poéticos que facilitan la memoria: rima asonante o consonante (madruga / ayuda), paralelismo entre dos mitades (quien… / quien…; tal… / tal…) y elipsis, es decir, la omisión de verbos, artículos o nexos que una oración normal exigiría: «De tal palo, tal astilla» = «La astilla es como el palo del que sale»."
         ],
         "examples": [
           {
@@ -3420,7 +3420,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Dos sustantivos con su complemento, sin verbo (elipsis)",
               "Quien + verbo + consecuencia",
               "Imperativo + consecuencia",
-              "Negación absoluta (no hay… sin…)"
+              "Negación (no hay… sin…)"
             ],
             "correctIndex": 0,
             "explanation": "«Año de nieves, año de bienes» (un invierno con nieve trae buena cosecha) repite «año de…» en cada mitad y no tiene verbo: es el molde elíptico de «barriga llena, corazón contento». No empieza por quien, no da una orden y no niega nada."
@@ -3430,7 +3430,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los moldes del refrán (3 y 4), y por qué funcionan",
         "body": [
-          "3) Negación absoluta: «no hay atajo sin trabajo», «no es oro todo lo que reluce». 4) Imperativo + consecuencia: «cría cuervos y te sacarán los ojos», «no dejes para mañana lo que puedas hacer hoy». Por qué funciona: el molde fija el ritmo, y el ritmo fija las palabras; por eso al refrán no se le añaden artículos ni se le cambia el tiempo verbal."
+          "3) Negación: «no hay atajo sin trabajo», «no es oro todo lo que reluce». 4) Imperativo + consecuencia: «cría cuervos y te sacarán los ojos», «no dejes para mañana lo que puedas hacer hoy». Por qué funciona: el molde fija el ritmo, y el ritmo fija las palabras; por eso al refrán no se le añaden artículos ni se le cambia el tiempo verbal."
         ],
         "examples": [
           {
@@ -3581,7 +3581,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "options": [
               "Imperativo + consecuencia",
               "Quien / El que + verbo + consecuencia",
-              "Negación absoluta",
+              "Negación",
               "Dos sustantivos con su complemento, sin verbo"
             ],
             "correctIndex": 0,
@@ -3648,7 +3648,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Chiste nuevo: «—Doctor, nadie me hace caso. —Siguiente, por favor.» ¿Dónde está el doble sentido?",
+            "question": "Chiste nuevo: «—Doctor, nadie me hace caso. —Siguiente, por favor.» ¿Dónde está la gracia?",
             "options": [
               "El médico confirma la queja con su propia conducta: tampoco le hace caso",
               "En la palabra «doctor»",
@@ -3943,7 +3943,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuáles de los siguientes términos designan estilos de humor asociados a una región concreta del mundo hispanohablante?",
         "options": [
           "el albur",
-          "la retranca",
+          "la guasa",
           "el choteo",
           "el humor blanco"
         ],
@@ -3952,7 +3952,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "El albur, la retranca y el choteo son estilos de humor asociados respectivamente a México, Galicia y Cuba; el humor blanco es una categoría general sin marca regional específica."
+        "explanation": "El albur, la guasa y el choteo son estilos de humor asociados respectivamente a México, el sur de España y Cuba; el humor blanco es una categoría general sin marca regional específica."
       },
       {
         "type": "matching",
@@ -4036,7 +4036,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: el humor y los juegos de palabras",
         "body": [
-          "Dos claves para usar bien este vocabulario. Primera: cada sustantivo del humor va con su verbo, y cambiarlo suena a extranjero: un chiste se cuenta, una broma se gasta, una carcajada se suelta, y algo te hace gracia (o tiene gracia). Segunda: los compuestos de verbo + sustantivo plural, como trabalenguas (traba + lenguas), son masculinos y no cambian en plural: el trabalenguas / los trabalenguas, igual que el paraguas o el sacacorchos.",
+          "Dos claves para usar bien este vocabulario. Primera: cada sustantivo del humor va con su verbo, y cambiarlo suena a extranjero: un chiste se cuenta, una broma se gasta, una carcajada se suelta, y algo te hace gracia (o tiene gracia). Segunda: los compuestos de verbo + sustantivo plural, como trabalenguas (traba + lenguas), suelen ser masculinos (los que nombran personas, como el cascarrabias, sirven para ambos géneros) y no cambian en plural: el trabalenguas / los trabalenguas, igual que el paraguas o el sacacorchos.",
           "El banco reúne términos que describen los mecanismos y estilos del humor verbal en español, útiles para analizar chistes, conversaciones informales y textos humorísticos."
         ],
         "examples": [
@@ -4902,7 +4902,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "En el pueblo dicen de una vecina: «Falta desde la primavera». ¿Qué mecanismo usa ese eufemismo, que no está en la lista?",
+            "question": "En el pueblo dicen de una vecina: «Nos faltó en primavera». ¿Qué mecanismo usa ese eufemismo, que no está en la lista?",
             "options": [
               "una palabra de menor intensidad: «faltar» (no estar) en lugar de «morir»",
               "un término técnico que oculta el sentido",
@@ -5678,7 +5678,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Fórmulas congeladas: la gramática no se toca",
         "body": [
-          "Además, estas fórmulas son fijas: su gramática está congelada y no se adapta. «¡Y que lo digas!» siempre lleva subjuntivo, «¡Faltaría más!» siempre va en condicional, y en «¡No me lo puedo creer!» los pronombres van delante del verbo conjugado o, si se prefiere, pegados al infinitivo con tilde (¡No puedo creérmelo!). Cambiar el tiempo o el modo rompe la fórmula."
+          "Además, estas fórmulas son fijas: su gramática está congelada y no se adapta. «¡Y que lo digas!» siempre lleva subjuntivo, «¡Faltaría más!» va normalmente en condicional (también se oye «¡Faltaba más!»), y en «¡No me lo puedo creer!» los pronombres van delante del verbo conjugado o, si se prefiere, pegados al infinitivo con tilde (¡No puedo creérmelo!). Cambiar el tiempo o el modo rompe la fórmula."
         ],
         "examples": [
           {
@@ -5874,7 +5874,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Moldes para crear exclamaciones",
         "body": [
-          "La idea clave: muchas exclamaciones de fastidio, sorpresa o censura se construyen con unos pocos moldes gramaticales, y conocerlos permite crear exclamaciones nuevas. «¡Vaya + sustantivo!» (vaya lío, vaya tela). «¡Menudo/menuda + sustantivo!», donde «menudo» concuerda con el sustantivo (menudo lío, menuda sorpresa). «¡Qué + sustantivo + más/tan + adjetivo!» (qué cara más dura, qué día tan largo). Y para prohibir con fuerza, «¡Ni se te ocurra + infinitivo!». En estos moldes no hay verbo conjugado: la exclamación entera funciona como un comentario sobre lo que acaba de pasar."
+          "La idea clave: muchas exclamaciones de fastidio, sorpresa o censura se construyen con unos pocos moldes gramaticales, y conocerlos permite crear exclamaciones nuevas. «¡Vaya + sustantivo!» (vaya lío, vaya tela). «¡Menudo/menuda + sustantivo!», donde «menudo» concuerda con el sustantivo (menudo lío, menuda sorpresa). «¡Qué + sustantivo + más/tan + adjetivo!» (qué cara más dura, qué día tan largo). Y para prohibir con fuerza, «¡Ni se te ocurra + infinitivo!». En los tres primeros moldes no hay verbo conjugado: la exclamación entera funciona como un comentario sobre lo que acaba de pasar."
         ],
         "examples": [
           {
@@ -6231,13 +6231,13 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 32,
     "title": "Diminutivos, Aumentativos y su Valor Expresivo, Part 1 of 2",
-    "summary": "Reconoce el valor afectivo, irónico y despectivo del diminutivo, y el aumentativo y el superlativo, que expresan torpeza, admiración o intensidad (manazas, golazo, buenísimo).",
+    "summary": "Aprende a formar el diminutivo (-ito, -cito, -ecito) y a reconocer sus valores afectivo, cortés, irónico y despectivo, además de los aumentativos (manazas, golazo) y el superlativo en -ísimo.",
     "duration": "10 min",
     "sections": [
       {
         "heading": "La forma del diminutivo: -ito, -cito, -ecito",
         "body": [
-          "La idea clave: el sufijo apreciativo tiene una forma que sigue reglas y un valor que depende del contexto. La forma: las palabras en -o/-a toman -ito/-ita (casa → casita); las terminadas en -e, -n o -r toman -cito (café → cafecito, ratón → ratoncito); muchos monosílabos toman -ecito (flor → florecita, pez → pececito). Al añadir el sufijo se mantiene el sonido de la raíz, así que cambia la ortografía: poco → poquito, amigo → amiguito, taza → tacita. El diminutivo conserva el género de la palabra base (el problema → el problemita)."
+          "La idea clave: el sufijo apreciativo tiene una forma que sigue reglas y un valor que depende del contexto. La forma: las palabras en -o/-a toman -ito/-ita (casa → casita); las terminadas en -e, -n o -r toman -cito (café → cafecito, ratón → ratoncito, mujer → mujercita); pero los monosílabos suelen tomar -ecito (flor → florecita, pez → pececito). Al añadir el sufijo se mantiene el sonido de la raíz, así que cambia la ortografía: poco → poquito, amigo → amiguito, taza → tacita. El diminutivo conserva el género de la palabra base (el problema → el problemita)."
         ],
         "examples": [
           {
@@ -6582,7 +6582,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "chiquitín",
-            "en": "diminutivo reduplicado que intensifica la ternura hacia algo o alguien muy pequeño"
+            "en": "doble diminutivo (chico + -ito + -ín) que intensifica la ternura hacia algo o alguien muy pequeño"
           },
           {
             "es": "vejete",
@@ -6604,7 +6604,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "chiquitín",
-                "right": "diminutivo reduplicado que intensifica la ternura"
+                "right": "doble diminutivo que intensifica la ternura"
               },
               {
                 "left": "vejete",
@@ -6792,7 +6792,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el amigote",
-            "en": "aumentativo coloquial y afectuoso que designa a un amigo cercano"
+            "en": "aumentativo coloquial, jocoso o levemente despectivo, que designa a un amigo o compañero de juergas"
           },
           {
             "es": "la palabrota",
@@ -6824,7 +6824,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "chiquitín",
-            "en": "diminutivo reduplicado que intensifica la ternura hacia algo o alguien muy pequeño"
+            "en": "doble diminutivo (chico + -ito + -ín) que intensifica la ternura hacia algo o alguien muy pequeño"
           }
         ],
         "checkpoint": [
@@ -7230,7 +7230,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Crisis y cambio de rumbo: variedad y uso",
         "body": [
-          "Fíjate también en la variedad: «tirar de la manta» es sobre todo de España, y «dar la talla» casi siempre aparece en negativo o en pregunta (no dio la talla, ¿dará la talla?).",
+          "Fíjate también en la variedad: «tirar de la manta» es sobre todo de España, y «dar la talla» se usa sobre todo en negativo o en pregunta (no dio la talla, ¿dará la talla?), aunque también aparece en positivo (dio la talla).",
           "En situaciones de gran incertidumbre, dar palos de ciego describe actuar sin un plan claro, tomando decisiones casi al azar ante la falta de información fiable. Estar en el punto de mira, por su parte, señala que una empresa o persona se ha convertido en objeto de especial atención o crítica, a menudo en un momento particularmente delicado."
         ],
         "examples": [
@@ -7322,12 +7322,12 @@ const C2_BASE_LESSONS: Lesson[] = [
             "question": "Completa con la forma fija del modismo: «Si ___ ahora a la auditoría, la terminaremos en marzo.»",
             "options": [
               "le hincamos el diente",
-              "le metemos el diente",
+              "le mordemos el diente",
               "le hincamos la muela",
               "le damos el diente"
             ],
             "correctIndex": 0,
-            "explanation": "El modismo es «hincar el diente a algo», como dice el director del diálogo: se conjuga el verbo (hincamos), pero no se cambian el verbo por otro (meter, dar) ni el sustantivo (muela), porque la imagen del bocado duro solo funciona entera."
+            "explanation": "El modismo es «hincar el diente a algo», como dice el director del diálogo: se conjuga el verbo (hincamos), pero no se cambian el verbo por otro (morder, dar) ni el sustantivo (muela), porque la imagen del bocado duro solo funciona entera."
           }
         ]
       },
@@ -7755,7 +7755,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "type": "multi-select",
         "question": "¿Cuándo conviene seguir adelante sin resolver una duda?",
         "options": [
-          "Cuando solo se trata de una palabra desconocida",
+          "Cuando la duda no afecta a lo esencial del texto",
           "Cuando la ambigüedad es intencionada y conviene dejar la interpretación abierta",
           "Cuando la duda afecta a la tesis central del texto",
           "Nunca: hay que aclarar cada palabra antes de continuar"
@@ -7764,7 +7764,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "Ante una palabra desconocida, lo mejor es seguir leyendo para no perder el hilo; ante una ambigüedad intencionada, conviene dejar la interpretación abierta. Si la duda afecta a la tesis central, sí hay que resolverla, y detenerse en cada palabra rompe la lectura."
+        "explanation": "Ante una duda que no afecta a lo esencial (por ejemplo, una palabra secundaria), lo mejor es seguir leyendo para no perder el hilo; ante una ambigüedad intencionada, conviene dejar la interpretación abierta. Si la duda afecta a la tesis central, sí hay que resolverla, y detenerse en cada palabra rompe la lectura."
       }
     ]
   },
@@ -7874,7 +7874,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la frase sobre los cambios de registro.",
         "sentence": "Un cambio brusco de registro suele servir para ___ cercanía, ironía o distancia.",
         "answer": "marcar",
-        "altAnswers": ["transmitir", "expresar", "mostrar", "indicar", "señalar", "comunicar"],
+        "altAnswers": ["transmitir", "expresar", "mostrar", "indicar", "señalar", "comunicar", "crear", "generar", "producir"],
         "explanation": "El paso de un registro a otro dentro del mismo discurso no es casual: suele marcar cercanía (bajar el registro), ironía (citar con retintín) o distancia (pasar al usted).",
         "hint": "infinitivo de un verbo que significa señalar o poner de manifiesto"
       }
@@ -8102,7 +8102,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Tónicas y átonas",
         "body": [
-          "La regla para el oído: en español solo se pronuncian con fuerza las palabras tónicas, que son las que llevan el contenido (sustantivos, verbos principales, adjetivos, negaciones). Las átonas (artículos, preposiciones, pronombres como me, te, lo, se) se funden con la palabra vecina por sinalefa y casi desaparecen. Por eso la estrategia es anclarse en las tónicas y reponer las átonas después por la gramática; intentar captar cada sonido lleva al bloqueo."
+          "La regla para el oído: en español solo se pronuncian con fuerza las palabras tónicas, que son las que llevan el contenido (sustantivos, verbos principales, adjetivos, negaciones). Las átonas (artículos, preposiciones, pronombres como me, te, lo, se) se pronuncian débilmente y se apoyan en la palabra vecina (a menudo por sinalefa, cuando las vocales coinciden). Por eso la estrategia es anclarse en las tónicas y reponer las átonas después por la gramática; intentar captar cada sonido lleva al bloqueo."
         ],
         "examples": [
           {
@@ -8166,7 +8166,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "¿Qué hora eh?",
+            "es": "¿Qué hora e'?",
             "en": "aspiración de la -s final, típica de Andalucía, Canarias o el Caribe"
           },
           {
@@ -8227,7 +8227,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lo que cambia es el sonido",
         "body": [
-          "La regla: las variedades del español apenas se diferencian en la gramática; lo que cambia es el sonido. La -s final se aspira o se pierde (Andalucía, Canarias, el Caribe: «ehto» por «esto»), la ll y la y suenan «sh» en el Río de la Plata, la j es suave en el Caribe y la velocidad y las reducciones varían de una zona a otra."
+          "La regla: las variedades del español comparten lo esencial de la gramática; lo que más desconcierta al oído es el sonido. La -s final se aspira o se pierde (Andalucía, Canarias, el Caribe: «ehto» por «esto»), la ll y la y suenan «sh» en el Río de la Plata, la j es suave en el Caribe y la velocidad y las reducciones varían de una zona a otra."
         ],
         "examples": [
           {
@@ -8449,7 +8449,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cohesión y eje temático; el registro",
         "body": [
-          "La cohesión es el enlace gramatical entre las partes (conectores, pronombres) y el eje temático, la idea que las unifica. Por qué importa: si confundes el plano literal con el implícito, o el de la palabra con el del texto, el análisis se derrumba. Y fíjate en el registro: «colegir» es un sinónimo culto de «deducir», propio del texto escrito."
+          "La cohesión es el enlace gramatical entre las partes (conectores, pronombres) y el eje temático, la idea que las unifica. Por qué importa: si confundes el plano literal con el implícito, o el de la palabra con el del texto, el análisis se derrumba. Y fíjate en el registro, el nivel de formalidad adecuado a la situación: «colegir» es un sinónimo culto de «deducir», propio del texto escrito."
         ],
         "examples": [
           {
@@ -9215,7 +9215,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "question": "¿Cuáles de las siguientes descripciones corresponden a una falacia argumentativa?",
             "options": [
               "Atacar a la persona en vez de discutir sus ideas",
-              "Deformar el argumento contrario para refutarlo con más facilidad",
+              "Encadenar consecuencias extremas sin justificar cada paso",
               "Conceder un punto válido antes de presentar el contraargumento",
               "Dar por probado, sin evidencia, precisamente lo que se pretende demostrar"
             ],
@@ -9224,7 +9224,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "Atacar a la persona, deformar su postura y dar por probado lo que se pretende demostrar son falacias reconocidas; conceder un punto válido es, en cambio, una estrategia argumentativa legítima."
+            "explanation": "Atacar a la persona, encadenar consecuencias sin justificarlas y dar por probado lo que se pretende demostrar son falacias reconocidas; conceder un punto válido es, en cambio, una estrategia argumentativa legítima."
           },
           {
             "type": "multiple-choice",
@@ -9452,11 +9452,11 @@ const C2_BASE_LESSONS: Lesson[] = [
             "options": [
               "de",
               "a",
-              "sobre",
+              "para",
               "por"
             ],
             "correctIndex": 0,
-            "explanation": "Lo que se rechaza va con «de» (o «con»): discrepar de una conclusión. «En» se reserva para el punto concreto (discrepo en el plazo); «a», «sobre» y «por» no forman esta construcción."
+            "explanation": "Lo que se rechaza va con «de» (o «con»): discrepar de una conclusión. «En» se reserva para el punto concreto (discrepo en el plazo); «a», «para» y «por» no forman esta construcción."
           }
         ]
       }
@@ -9726,7 +9726,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: el debate y la persuasión",
         "body": [
-          "La regla: agrupa los verbos de la réplica según lo que hacen con el argumento ajeno. Conceder lo admite (concedo que + indicativo); contrarrestar lo debilita oponiéndole razones propias; desestimar lo rechaza por poco sólido (no lo confundas con «subestimar», que es menospreciar); impugnar lo rechaza de manera formal, ante un tribunal o un comité. Separa también dos planos. El lógico (premisa mayor, premisa menor, sofisma) dice si el razonamiento se sostiene; el retórico (elocuencia, llamamiento emocional, matiz) dice cómo se presenta. Por qué importa: un discurso puede ser elocuente y descansar en un sofisma.",
+          "La regla: agrupa los verbos de la réplica según lo que hacen con el argumento ajeno. Conceder lo admite (concedo que + indicativo); contrarrestar lo debilita oponiéndole razones propias; desestimar lo rechaza por poco sólido (no lo confundas con «subestimar», que es menospreciar); impugnar lo rechaza de manera formal, ante un tribunal o un comité. Aparte, hay dos planos: el lógico (premisa mayor, premisa menor, sofisma) y el retórico (elocuencia, llamamiento emocional, matiz). Por qué importa: un discurso puede ser elocuente y descansar en un sofisma.",
         ],
         "examples": [
           {
@@ -9906,7 +9906,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 52,
     "title": "El Debate y la Argumentación Persuasiva, Part 9 of 9",
-    "summary": "Más vocabulario del debate: la réplica, las falacias y las actitudes ante el desacuerdo.",
+    "summary": "Aprende a formar y entender el léxico del debate con sufijos (-ble, -miento, -ción, -encia, -dor, contra-) y a reconocer dos falacias y los turnos de réplica.",
     "duration": "4 min",
     "sections": [
       {
@@ -10029,7 +10029,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El turno de réplica y sus tonos",
         "body": [
-          "Para responder existe un orden fijo: la intervención, el turno de réplica (responder al oponente) y, si el reglamento lo permite, la contrarréplica. Desmontar un argumento es señalar su punto débil hasta anularlo; una respuesta contundente lo hace con firmeza y con datos contrastados (verificados). El matiz persuasivo y el matiz conciliador son tonos: el primero busca convencer; el segundo, acercar posturas."
+          "Para responder existe un orden fijo: la intervención, el turno de réplica (responder al oponente) y, si el reglamento lo permite, la contrarréplica. Desmontar un argumento es señalar su punto débil hasta anularlo; una respuesta contundente lo hace con firmeza y con datos contrastados (verificados). El tono persuasivo y el tono conciliador son dos actitudes del discurso: el primero busca convencer; el segundo, acercar posturas."
         ],
         "examples": [
           {
@@ -10357,7 +10357,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Al auditorio, de ustedes",
         "body": [
-          "Ante un auditorio se habla de ustedes («Fíjense en este gráfico», «Les propongo…»): el tuteo colectivo suena a aula, no a sala de conferencias."
+          "En una conferencia formal se habla de ustedes («Fíjense en este gráfico», «Les propongo…»): es la opción neutra en todo el mundo hispano. En España, ante un público cercano, también se oye «vosotros» (fijaos), pero suena más informal."
         ],
         "examples": [
           {
@@ -10375,7 +10375,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Fíjate en la segunda columna de la tabla."
             ],
             "correctIndex": 0,
-            "explanation": "Ante un auditorio se habla de ustedes (fíjense). «Fijaos» es el tuteo colectivo, que suena a aula, y «fíjate» se dirige a una sola persona."
+            "explanation": "Ante un auditorio se habla de ustedes (fíjense). «Fijaos» (vosotros) es más informal, propio de un público cercano en España, y «fíjate» se dirige a una sola persona."
           }
         ]
       }
@@ -10489,7 +10489,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 54,
     "title": "Presentaciones Orales y Negociación, Part 2 of 8",
-    "summary": "Cierra una presentación con fuerza (cierre memorable y ronda de preguntas) y repasa la función del preámbulo en la apertura.",
+    "summary": "Aprende a cerrar una presentación con fuerza: un cierre memorable que recupere el gancho y una ronda de preguntas que refuerce los puntos clave.",
     "duration": "5 min",
     "sections": [
       {
@@ -10519,15 +10519,15 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la función principal del preámbulo en una presentación oral de alto nivel?",
+            "question": "¿Por qué el cierre es tan importante en una presentación oral?",
             "options": [
-              "Repetir en detalle todo el contenido que se expondrá después",
-              "Situar el tema y captar la atención del auditorio desde el inicio",
-              "Presentar todas las diapositivas antes de comenzar a hablar",
-              "Evitar cualquier pregunta por parte del público"
+              "Porque permite añadir datos nuevos",
+              "Porque lo último que se oye es lo que más se recuerda",
+              "Porque sustituye a la ronda de preguntas",
+              "Porque evita anunciar el final"
             ],
             "correctIndex": 1,
-            "explanation": "El preámbulo debe ser breve y funcional: sitúa el tema, anticipa la estructura y capta la atención del auditorio en los primeros segundos. No debe resumir todo el contenido, ni mostrar todas las diapositivas antes de empezar, ni cerrar la puerta a las preguntas."
+            "explanation": "Por el efecto de recencia, el público retiene sobre todo lo último que oye. Por eso el cierre condensa la idea central en vez de añadir datos nuevos, se anuncia («Para terminar…») y se complementa con la ronda de preguntas, no la sustituye."
           },
           {
             "type": "multiple-choice",
@@ -10582,6 +10582,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         "source": "Para terminar, quiero presentarles un estudio nuevo que no he mencionado.",
         "answer": "Para terminar, quiero recordarles la idea central de la presentación.",
         "altAnswers": [
+          "Para terminar, quiero resumirles la idea central de la presentación.",
+          "Para terminar, quiero repetirles la idea central de la presentación.",
           "Para terminar, quiero recordarles la idea central de mi presentación.",
           "Para terminar, quisiera recordarles la idea central de la presentación."
         ],
@@ -10717,7 +10719,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         "answer": "llegar a",
         "altAnswers": [
           "alcanzar",
-          "cerrar"
+          "cerrar",
+          "firmar",
+          "sellar"
         ],
         "explanation": "«Llegar a un acuerdo» es la fórmula habitual para describir la conclusión exitosa de una negociación.",
         "hint": "expresión verbal seguida de la preposición «a»"
@@ -11165,7 +11169,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "de",
           "preguntas"
         ],
-        "translation": "She kept a decisive figure for the question round.",
+        "translation": "She kept a decisive piece of data for the question round.",
         "explanation": "Guardar un as bajo la manga es reservar un recurso para el momento en que puede inclinar la balanza; «para» marca ese momento."
       }
     ]
@@ -11198,7 +11202,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "type": "multi-select",
             "question": "¿Qué actitudes refuerzan la credibilidad de quien negocia o expone en público?",
             "options": [
-              "Mantener una postura erguida y un contacto visual constante",
+              "Escuchar de verdad los argumentos ajenos en lugar de interrumpir",
               "Mostrarse completamente inamovible desde el primer minuto",
               "Mostrarse dispuesto a escuchar argumentos sólidos sin perder autoridad",
               "Reservar un recurso decisivo para el momento más oportuno"
@@ -11208,7 +11212,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               2,
               3
             ],
-            "explanation": "La seguridad se construye con un lenguaje corporal firme y con la disposición a escuchar sin ceder en lo esencial, no con una rigidez absoluta. Mostrarse inamovible desde el primer minuto transmite rigidez y bloquea la negociación."
+            "explanation": "La credibilidad se construye escuchando de verdad, mostrando disposición a considerar buenos argumentos sin ceder en lo esencial y guardando un recurso para el momento oportuno, no con una rigidez absoluta. Mostrarse inamovible desde el primer minuto transmite rigidez y bloquea la negociación."
           }
         ]
       },
@@ -11295,15 +11299,15 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Por qué resulta importante formalizar con precisión el cierre de una negociación?",
+        "question": "¿Por qué conviene reservar un as bajo la manga en una negociación?",
         "options": [
-          "Porque así se evita cualquier ronda de preguntas posterior",
-          "Porque las ambigüedades en las cláusulas suelen generar conflictos futuros",
-          "Porque un acuerdo formal nunca necesita plazo de vigencia",
-          "Porque solo así se puede emplear la estrategia de anclaje"
+          "Para esconder la oferta a la otra parte para siempre",
+          "Para responder con fuerza en el momento oportuno",
+          "Para evitar cualquier ronda de preguntas posterior",
+          "Para que el acuerdo no necesite plazo de vigencia"
         ],
         "correctIndex": 1,
-        "explanation": "Un cierre ambiguo, con cláusulas mal definidas, suele dar lugar a nuevos desacuerdos una vez pasado el entusiasmo inicial del acuerdo. La precisión no busca evitar preguntas, un acuerdo sí necesita plazo de vigencia y el anclaje es una táctica de apertura, no de cierre."
+        "explanation": "El as bajo la manga es un recurso decisivo que se guarda en secreto para usarlo en el momento oportuno y responder con fuerza. No se esconde para siempre (se emplea llegado el momento) ni tiene que ver con evitar preguntas o con el plazo de vigencia."
       },
       {
         "type": "multiple-choice",
@@ -11870,7 +11874,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "tal como afirma la autora",
-            "en": "fórmula que introduce una cita textual atribuida directamente a su fuente"
+            "en": "fórmula que introduce una idea atribuida a su fuente, con comillas (cita textual) o sin ellas (cita indirecta)"
           },
           {
             "es": "según lo expuesto por el investigador",
@@ -12296,6 +12300,10 @@ const C2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la fórmula de atribución.",
             "sentence": "___ los datos recogidos en el estudio, el fenómeno se ha intensificado en la última década.",
             "answer": "Según",
+            "altAnswers": [
+              "De acuerdo con",
+              "Conforme a"
+            ],
             "explanation": "«Según» introduce de forma neutra la fuente de una afirmación sin emitir un juicio sobre su validez.",
             "hint": "preposición breve que introduce una fuente"
           },
@@ -12789,8 +12797,8 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: el léxico de la citación viene en familias",
         "body": [
-          "Casi todos estos términos forman familia con un verbo o un sustantivo que ya conoces, y eso te permite usar la palabra que pide cada frase. Citar → la cita, el autor citado. Autor → la autoría. Comillas → entrecomillar (en- + comillas + -ar: poner entre comillas) → el entrecomillado. Glosa → glosar (comentar un texto con palabras propias). Remitir → la remisión (enviar al lector a otra fuente).",
-          "Y las fórmulas de atribución se ordenan por actitud: «según» y «de acuerdo con» son neutras, «tal como afirma» introduce una cita directa, «como bien señala» muestra adhesión y «cabe citar a» destaca una fuente pertinente."
+          "Casi todos estos términos forman familia con un verbo o un sustantivo que ya conoces. Citar → la cita, el autor citado. Autor → la autoría. Comillas → entrecomillar (poner entre comillas) → el entrecomillado. Glosa → glosar (comentar un texto con palabras propias). Remitir → la remisión (enviar al lector a otra fuente).",
+          "Las fórmulas de atribución se ordenan por actitud: «según» y «de acuerdo con» son neutras, «tal como afirma» atribuye una idea o un dato, «como bien señala» muestra adhesión y «cabe citar a» destaca una fuente pertinente."
         ],
         "examples": [
           {
@@ -12799,7 +12807,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "tal como afirma",
-            "en": "fórmula que introduce una cita directa de un autor"
+            "en": "fórmula neutra que atribuye una idea o un dato a un autor"
           },
           {
             "es": "cabe citar a",
@@ -12851,7 +12859,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "como bien señala",
-            "en": "fórmula que introduce una idea atribuida directamente a un autor"
+            "en": "fórmula que atribuye una idea a un autor mostrando adhesión"
           },
           {
             "es": "el autor citado",
@@ -13347,14 +13355,14 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Corrige la frase.",
+        "prompt": "Reescribe la pregunta con «alguna vez» en lugar de «nunca».",
         "source": "¿Quién no ha cometido nunca un error?",
         "answer": "¿Quién no ha cometido alguna vez un error?",
         "altAnswers": [
           "¿Quién no ha cometido un error alguna vez?",
           "¿Quién no se ha equivocado alguna vez?"
         ],
-        "explanation": "«¿Quién no…?» ya contiene la negación y equivale a «todos»; con «nunca» la frase significaría «¿quién no ha dejado nunca de equivocarse?». El complemento correcto es «alguna vez»."
+        "explanation": "«¿Quién no…?» ya contiene la negación y equivale a «todos»; con «nunca» se acumulan dos negaciones y la frase suena más forzada, aunque se entiende igual. Lo habitual es «alguna vez»."
       },
       {
         "type": "fill-blank",
@@ -13702,7 +13710,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 72,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 4 of 7",
-    "summary": "El efecto y el riesgo de la anáfora, y otras estructuras de énfasis: la interpelación y la duda fingida.",
+    "summary": "El efecto y el riesgo de la anáfora, y otras estructuras de énfasis: la interpelación, la duda retórica y la pregunta ecoica.",
     "duration": "10 min",
     "sections": [
       {
@@ -13742,7 +13750,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Tres preguntas que no buscan respuesta",
         "body": [
-          "La regla común: estas tres estructuras tienen forma de pregunta, pero buscan un efecto, no una respuesta. Se distinguen por su destinatario y su tono: la interpelación señala a alguien concreto, la duda retórica finge no saber algo que el hablante tiene claro, y la pregunta ecoica repite las palabras del otro para cuestionarlas. Fíjate en la gramática de la duda fingida: «¿Será posible que + subjuntivo?»."
+          "La regla común: estas tres estructuras tienen forma de pregunta, pero buscan un efecto, no una respuesta. Se distinguen por su destinatario y su tono: la interpelación señala a alguien concreto, la duda retórica finge no saber algo que el hablante tiene claro, y la pregunta ecoica repite las palabras del otro para cuestionarlas. Fíjate en la gramática de la duda retórica: «¿Será posible que + subjuntivo?»."
         ],
         "checkpoint": [
           {
@@ -13941,7 +13949,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La interpelación",
         "body": [
-          "La interpelación se dirige a alguien concreto con un vocativo entre comas y una pregunta en segunda persona gramatical: «Y usted, señor ministro, ¿qué habría hecho?». Funciona porque convierte al oyente en responsable: ya no puede escuchar desde fuera. Ojo a la concordancia: con «usted / ustedes» el verbo va en tercera persona (¿qué propone?, ¿qué proponen?), nunca en la de «tú / vosotros»."
+          "La interpelación se dirige a alguien concreto con un vocativo entre comas y una pregunta dirigida a él (con «usted» o con «tú»): «Y usted, señor ministro, ¿qué habría hecho?». Funciona porque convierte al oyente en responsable: ya no puede escuchar desde fuera. Ojo a la concordancia: con «usted / ustedes» el verbo va en tercera persona (¿qué propone?, ¿qué proponen?), nunca en la de «tú / vosotros»."
         ],
         "examples": [
           {
@@ -14182,7 +14190,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Siguiendo la familia interpelar → interpelación → interpelativo, ¿cuál es el adjetivo de «exhortar» (animar a hacer algo)?",
+            "question": "Siguiendo la familia interrogar → interrogación → interrogativo, ¿cuál es el adjetivo de «exhortar» (animar a hacer algo)?",
             "options": [
               "exhortativo",
               "exhortación",
@@ -14271,7 +14279,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 75,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 7 of 7",
-    "summary": "Más vocabulario de la pregunta retórica y las estructuras de énfasis.",
+    "summary": "Aprenderás vocabulario para analizar preguntas retóricas: fuerza ilocutiva, modalidad interrogativa, ironía interrogativa, insinuación y artificio retórico.",
     "duration": "4 min",
     "sections": [
       {
@@ -14839,7 +14847,12 @@ const C2_BASE_LESSONS: Lesson[] = [
               "implanté",
               "adopté",
               "puse en marcha",
-              "creé"
+              "creé",
+              "he implementado",
+              "he implantado",
+              "he adoptado",
+              "he puesto en marcha",
+              "he creado"
             ],
             "explanation": "Mostrar una acción concreta ya emprendida para corregir la debilidad refuerza la credibilidad de la respuesta.",
             "hint": "verbo en pretérito que significa poner en práctica"
@@ -14889,7 +14902,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Corrige la frase.",
         "source": "Yo cuesto delegar tareas.",
         "answer": "Me cuesta delegar tareas.",
-        "explanation": "«Costar» se construye como «gustar»: la persona va en dativo (me) y el sujeto es el infinitivo (delegar). «Yo cuesto» significaría que tú tienes un precio."
+        "explanation": "«Costar» se construye como «gustar»: la persona va en dativo (me) y el sujeto es el infinitivo (delegar). «Yo cuesto» significaría «yo tengo un precio»."
       },
       {
         "type": "translate",
@@ -15320,7 +15333,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 80,
     "title": "Español para Entrevistas de Trabajo, Part 5 of 7",
-    "summary": "Lee una entrevista de trabajo completa, de las fortalezas al cierre, y aprende el léxico clave que usa la candidata (trayectoria laboral, proactividad, valor añadido).",
+    "summary": "Lee una entrevista de trabajo completa, de las fortalezas al cierre, y comprueba cómo la candidata aplica cada jugada: fortaleza, punto de mejora, relato STAR y pregunta final.",
     "duration": "8 min",
     "sections": [
       {
@@ -15632,7 +15645,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         "answer": "Le adjunto mi currículum, donde resumo mi formación y mi experiencia.",
         "altAnswers": [
           "Le adjunto mi currículo, donde resumo mi formación y mi experiencia.",
-          "Le adjunto mi CV, donde resumo mi formación y mi experiencia."
+          "Le adjunto mi CV, donde resumo mi formación y mi experiencia.",
+          "Le adjunto mi carta de presentación, donde expongo mi motivación."
         ],
         "explanation": "El documento que resume formación y experiencia es el currículum (o currículo). La carta de presentación lo acompaña para explicar la motivación del candidato."
       },
@@ -15949,7 +15963,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La gramática de la desescalada",
         "body": [
-          "La gramática de la desescalada: para validar la emoción, «Entiendo que» + subjuntivo (entiendo que estés molesto), porque no constatas un hecho, lo aceptas; para percibirla, «Veo que» + indicativo (veo que te afecta). Para proponer calma, el imperativo de «nosotros» (hablemos, intentemos), que te incluye en el esfuerzo, en lugar del imperativo de «tú» (¡cálmate!), que se lo exige solo al otro."
+          "La gramática de la desescalada: para validar la emoción, «Entiendo que» + subjuntivo (entiendo que estés molesto) para aceptar la emoción sin discutirla; con indicativo («entiendo que estás molesto») solo constatas un hecho; para percibirla, «Veo que» + indicativo (veo que te afecta). Para proponer calma, el imperativo de «nosotros» (hablemos, intentemos), que te incluye en el esfuerzo, en lugar del imperativo de «tú» (¡cálmate!), que se lo exige solo al otro."
         ],
         "examples": [
           {
@@ -15979,7 +15993,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "«Entiendo que ___ molesta por el retraso.»",
+            "question": "«Es comprensible que ___ molesta por el retraso.»",
             "options": [
               "estés",
               "estás",
@@ -15987,7 +16001,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "estabas"
             ],
             "correctIndex": 0,
-            "explanation": "Para validar una emoción, «entiendo que» + subjuntivo: no constatas un hecho, lo aceptas. El indicativo (estás, estarás, estabas) corresponde a «veo que», que percibe la emoción."
+            "explanation": "Para validar una emoción, «es comprensible que» + subjuntivo: no constatas un hecho, lo aceptas. El indicativo (estás, estarás, estabas) corresponde a «veo que», que percibe la emoción."
           }
         ]
       },
@@ -16204,6 +16218,9 @@ const C2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa con el modo adecuado.",
             "sentence": "Entiendo por qué te ___ injusto el reparto de turnos.",
             "answer": "parece",
+            "altAnswers": [
+              "resulta"
+            ],
             "explanation": "«Entiendo por qué» introduce una pregunta indirecta y va con indicativo: parece. El subjuntivo (parezca) corresponde a «entiendo que», con el que valoras la emoción.",
             "hint": "parecer"
           }
@@ -16930,7 +16947,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Cambia el verbo por el sustantivo en -ción.",
+        "prompt": "Cambia el verbo por el sustantivo en -ción y usa «llegó».",
         "source": "Se reconciliaron tras años de silencio.",
         "answer": "La reconciliación llegó tras años de silencio.",
         "altAnswers": [
@@ -16979,7 +16996,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Vocabulario: más términos de la mediación",
         "body": [
           "Segunda tanda: acciones del mediador (moderar la discusión, tender puentes, bajar el tono), actitudes (bajar la guardia, la voluntad de entendimiento, el desacuerdo constructivo) y resultados (el pacto de convivencia, restaurar la relación).",
-          "Muchas de estas expresiones son metáforas físicas y por eso son fijas: se tienden puentes (no se construyen), se baja la guardia (como un boxeador que baja los brazos), se deponen las hostilidades (como quien deja las armas). Cambiar el verbo o el sustantivo rompe la imagen. «Deponer» se conjuga como «poner»: depuso, depusieron."
+          "Muchas de estas expresiones son metáforas físicas y por eso son fijas: se tienden puentes (también se dice «construir puentes», pero «tender» es el verbo característico), se baja la guardia (como un boxeador que baja los brazos), se deponen las hostilidades (como quien deja las armas). Cambiar el verbo o el sustantivo rompe la imagen. «Deponer» se conjuga como «poner»: depuso, depusieron."
         ],
         "examples": [
           {
@@ -17151,7 +17168,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Corrige la frase.",
         "source": "El mediador intentó tender muros entre las dos partes.",
         "answer": "El mediador intentó tender puentes entre las dos partes.",
-        "explanation": "La locución es «tender puentes»: crear vías de entendimiento. Los muros separan; además, «tender» solo se combina con puentes, la mano o una trampa."
+        "explanation": "La locución es «tender puentes»: crear vías de entendimiento. Los muros separan; además, «tender» va con «puentes», «la mano» o «una trampa», no con «muros»."
       },
       {
         "type": "translate",
@@ -17311,32 +17328,35 @@ const C2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce al español.",
-        "source": "Three days later, the general died in exile. (use the narrative imperfect)",
-        "answer": "Tres días después, el general moría en el exilio.",
+        "source": "Four days later, the minister resigned in Lisbon. (use the narrative imperfect)",
+        "answer": "Cuatro días después, el ministro dimitía en Lisboa.",
         "altAnswers": [
-          "Tres días más tarde, el general moría en el exilio.",
-          "Tres días después, el general murió en el exilio.",
-          "Tres días más tarde, el general murió en el exilio."
+          "Cuatro días más tarde, el ministro dimitía en Lisboa.",
+          "Cuatro días después, el ministro dimitió en Lisboa.",
+          "Cuatro días después, el ministro renunciaba en Lisboa.",
+          "Cuatro días después, el ministro renunció en Lisboa.",
+          "Cuatro días más tarde, el ministro dimitió en Lisboa."
         ],
-        "explanation": "Imperfecto narrativo con complemento temporal que lo delimita. El indefinido «murió» es igualmente correcto, pero más neutro."
+        "explanation": "Imperfecto narrativo con complemento temporal que lo delimita. El indefinido «dimitió» es igualmente correcto, pero más neutro."
       },
       {
         "type": "word-order",
         "prompt": "Ordena las palabras.",
         "words": [
           "El",
-          "14",
+          "2",
           "de",
-          "abril",
+          "mayo",
           "de",
-          "1931",
+          "1808",
+          "Madrid",
           "se",
-          "proclamaba",
-          "la",
-          "Segunda",
-          "República."
+          "sublevaba",
+          "contra",
+          "los",
+          "franceses."
         ],
-        "translation": "On 14 April 1931 the Second Republic was proclaimed.",
+        "translation": "On 2 May 1808 Madrid rose up against the French.",
         "explanation": "Imperfecto narrativo con fecha: hecho puntual con efecto de inmediatez."
       },
       {
@@ -17384,7 +17404,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El pretérito anterior: forma y conectores",
         "body": [
-          "El pretérito anterior («hubo terminado», «hubieron llegado») expresa una acción inmediatamente anterior a otra pasada. Aparece casi siempre tras conectores temporales de anterioridad inmediata: «cuando», «apenas», «no bien», «tan pronto como», «así que», «luego que», «una vez que», «después (de) que»: «Apenas hubo firmado el tratado, se retiró a su finca»."
+          "El pretérito anterior («hubo terminado», «hubieron llegado») expresa una acción inmediatamente anterior a otra pasada. Aparece casi siempre tras conectores temporales de anterioridad inmediata: «apenas», «no bien», «en cuanto», «tan pronto como», «así que», «luego que», «una vez que», «después (de) que»: «Apenas hubo firmado el tratado, se retiró a su finca»."
         ],
         "examples": [
           {
@@ -19238,9 +19258,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Completa con el término que designa la capacidad de otros equipos de obtener de nuevo el mismo resultado.",
-            "sentence": "La llamada crisis de ___ ha obligado a muchas disciplinas a revisar sus estándares de publicación.",
+            "sentence": "Un equipo independiente repitió el experimento y no obtuvo el mismo resultado: falló la ___ del hallazgo.",
             "answer": "reproducibilidad",
-            "explanation": "El texto menciona explícitamente la crisis de reproducibilidad como un problema que afecta a numerosas disciplinas científicas.",
+            "explanation": "Si otro equipo no puede obtener el mismo resultado, falla la reproducibilidad del hallazgo: el problema que el texto llama «crisis de reproducibilidad».",
             "hint": "Es la capacidad de replicar un hallazgo de forma independiente."
           }
         ]
@@ -19255,9 +19275,12 @@ const C2_BASE_LESSONS: Lesson[] = [
             "type": "translate",
             "direction": "en-es",
             "prompt": "Transforma la frase con el adjetivo en -ble.",
-            "source": "Es un resultado que se puede reproducir en cualquier laboratorio.",
-            "answer": "Es un resultado reproducible en cualquier laboratorio.",
-            "explanation": "-ble significa «que puede ser…»: «que se puede reproducir» → reproducible, como falsable o verificable. El adjetivo condensa toda la relativa."
+            "source": "Es una hipótesis que se puede refutar con un experimento.",
+            "answer": "Es una hipótesis refutable con un experimento.",
+            "altAnswers": [
+              "Es una hipótesis falsable con un experimento."
+            ],
+            "explanation": "-ble significa «que puede ser…»: «que se puede refutar» → refutable, como falsable o verificable. El adjetivo condensa toda la relativa."
           }
         ]
       },
@@ -20933,7 +20956,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El libre albedrío y la responsabilidad moral",
         "body": [
-          "Frente a esta postura, quienes defienden el libre albedrío argumentan que existe al menos un margen genuino de indeterminación en el que el agente puede haber actuado de otro modo, y que esa capacidad es precisamente lo que fundamenta la responsabilidad moral. Sin ese margen, castigar o elogiar una conducta perdería buena parte de su sentido, pues nadie podría haber elegido de manera distinta."
+          "Frente a esta postura, quienes defienden el libre albedrío argumentan que existe al menos un margen genuino de indeterminación en el que el agente podría haber actuado de otro modo, y que esa capacidad es precisamente lo que fundamenta la responsabilidad moral. Sin ese margen, castigar o elogiar una conducta perdería buena parte de su sentido, pues nadie podría haber elegido de manera distinta."
         ],
         "examples": [
           {
@@ -21047,8 +21070,8 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa con el término que designa la reflexión crítica sobre las normas.",
-            "sentence": "La ___ examina críticamente los fundamentos de las normas que la moral simplemente sostiene.",
+            "prompt": "Completa con el término adecuado.",
+            "sentence": "Ante una costumbre heredada, la ___ pregunta si está justificada; la moral se limita a practicarla.",
             "answer": "ética",
             "explanation": "El texto distingue la moral, como conjunto de costumbres vigentes, de la ética, como reflexión crítica sobre esas costumbres.",
             "hint": "Es la disciplina que somete las costumbres a un examen racional."
@@ -21152,7 +21175,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "injustificable",
           "reprochable",
-          "indefendible"
+          "indefendible",
+          "discutible",
+          "criticable",
+          "censurable"
         ],
         "explanation": "Una práctica puede ser moral (ajustarse a las costumbres vigentes) y, aun así, éticamente cuestionable si descansa sobre premisas injustas, como la esclavitud.",
         "hint": "Adjetivo: que se puede poner en duda o discutir."
@@ -21240,7 +21266,9 @@ const C2_BASE_LESSONS: Lesson[] = [
             "source": "Berkeley defendía el idealismo.",
             "answer": "Berkeley era idealista.",
             "altAnswers": [
-              "Berkeley era un idealista."
+              "Berkeley era un idealista.",
+              "Berkeley fue idealista.",
+              "Berkeley fue un idealista."
             ],
             "explanation": "-ismo nombra la doctrina; -ista, a quien la defiende: idealismo → idealista, como materialismo → materialista o dualismo → dualista."
           }
@@ -21552,7 +21580,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la dialéctica",
-            "en": "método que avanza el conocimiento mediante la confrontación de tesis opuestas"
+            "en": "método que hace avanzar el conocimiento mediante la confrontación de tesis opuestas"
           },
           {
             "es": "el relativismo",
@@ -23069,7 +23097,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La intertextualidad",
         "body": [
-          "La intertextualidad, entendida como el diálogo consciente que una obra establece con otras obras previas, mediante alusiones, homenajes o incluso paródicas subversiones, añade una capa de significado accesible sobre todo a quien reconoce esas referencias, sin que su desconocimiento impida necesariamente disfrutar de la obra en un nivel más inmediato."
+          "La intertextualidad, entendida como el diálogo consciente que una obra establece con otras obras previas, mediante alusiones, homenajes o incluso subversiones paródicas, añade una capa de significado accesible sobre todo a quien reconoce esas referencias, sin que su desconocimiento impida necesariamente disfrutar de la obra en un nivel más inmediato."
         ],
         "examples": [
           {
@@ -23195,7 +23223,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La idea: un recurso vale por lo que hace, no por lo que luce",
         "body": [
-          "En cine y en pintura el crítico separa forma y función. Un plano bellísimo o una pincelada virtuosa no son méritos en sí mismos: lo son si están al servicio del sentido de la obra. Por eso el vocabulario de la crítica es casi siempre relacional: la fotografía «refuerza» o «contradice» el guion, la composición «guía» la mirada, la paleta «sugiere» un estado. Y para describir el efecto en el espectador sin hablar de uno mismo, la crítica prefiere el «se» impersonal: «se percibe», «se intuye», «se echa en falta»."
+          "En cine y en pintura el crítico separa forma y función. Un plano bellísimo o una pincelada virtuosa no son méritos en sí mismos: lo son si están al servicio del sentido de la obra. Por eso el vocabulario de la crítica es casi siempre relacional: la fotografía «refuerza» o «contradice» el guion, la composición «guía» la mirada, la paleta «sugiere» un estado. Y para describir el efecto en el espectador sin hablar de uno mismo, la crítica prefiere el «se» sin agente (pasiva refleja o impersonal): «se percibe», «se intuye», «se echa en falta»."
         ],
         "examples": [
           {
@@ -23445,7 +23473,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Reescribe con «se» impersonal.",
+        "prompt": "Reescribe con «se» para no nombrar a quien percibe.",
         "source": "El espectador percibe la soledad del protagonista en cada encuadre.",
         "answer": "Se percibe la soledad del protagonista en cada encuadre.",
         "altAnswers": [
@@ -24496,13 +24524,13 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Pasa a hipótesis: «Si el banco central…».",
+        "prompt": "Convierte la afirmación en una hipótesis poco probable: «Si el banco central…».",
         "source": "El banco central bajará los tipos y el crédito se abaratará.",
         "answer": "Si el banco central bajara los tipos, el crédito se abarataría.",
         "altAnswers": [
           "Si el banco central bajase los tipos, el crédito se abarataría."
         ],
-        "explanation": "La hipótesis sobre el presente o el futuro se construye con si + imperfecto de subjuntivo (bajara o bajase) y condicional simple en la consecuencia (se abarataría)."
+        "explanation": "El imperfecto de subjuntivo (bajara o bajase) marca una condición poco probable o irreal; la consecuencia va en condicional simple (se abarataría). Con «si + presente» la condición sería abierta y probable."
       },
       {
         "type": "translate",
@@ -24827,7 +24855,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "En el diálogo, ¿qué preocupación plantea la presentadora sobre la fusión de las aerolíneas?",
+        "question": "Presentadora: «¿Y qué opina de las críticas que hablan de un riesgo de monopolio en ciertas rutas?». ¿Qué preocupación plantea?",
         "options": [
           "Que la fusión reduzca demasiado los precios de los billetes",
           "Que exista un riesgo de monopolio en ciertas rutas",
@@ -24932,7 +24960,11 @@ const C2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la prefiguración.",
             "sentence": "Aquel verano conoció a Tomás, el hombre con quien, diez años después, ___. (casarse)",
             "answer": "se casaría",
-            "explanation": "Desde el pasado del relato, el narrador mira hacia delante con el condicional (se casaría): el lector percibe lo que vendrá sin conocerlo todavía. «Se casó» solo informaría y «se casará» saldría del eje del pasado.",
+            "altAnswers": [
+              "se iba a casar",
+              "iba a casarse"
+            ],
+            "explanation": "Desde el pasado del relato, el narrador mira hacia delante con el condicional (se casaría) o con «iba a + infinitivo»: el lector percibe lo que vendrá sin conocerlo todavía. «Se casó» solo informaría y «se casará» saldría del eje del pasado.",
             "hint": "condicional: futuro visto desde el pasado"
           }
         ]
@@ -25352,7 +25384,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Llegué a las ocho y media."
             ],
             "correctIndex": 0,
-            "explanation": "La hipérbole exagera hasta un extremo que nadie toma en sentido literal («un siglo») para transmitir intensidad. «El viento golpeaba» es personificación, «como terciopelo» es un símil y la última frase es literal."
+            "explanation": "La hipérbole exagera hasta un extremo que nadie toma en sentido literal («un siglo») para transmitir intensidad. «El viento golpeaba» es una descripción literal, «como terciopelo» es un símil y la última frase tampoco exagera."
           }
         ]
       },
@@ -25829,7 +25861,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "En el diálogo, ¿por qué recomienda la editora un narrador poco confiable?",
+        "question": "Editora: «Dado que tu protagonista se autoengaña constantemente, un narrador poco confiable encajaría mejor con esa psicología.». ¿Qué razón da para recomendar ese narrador?",
         "options": [
           "Porque resulta más fácil de escribir que un narrador confiable",
           "Porque encaja mejor con un protagonista que se autoengaña constantemente",
@@ -26722,7 +26754,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 124,
     "title": "Refranes C2: el refrán a medias, Part 1 of 3",
-    "summary": "Los nativos casi nunca citan el refrán entero: dicen la primera mitad y dan por sabida la segunda. Aprende a completarlos, a entender lo que se calla y a citarlos con las fórmulas de introducción habituales.",
+    "summary": "Los nativos suelen citar solo la primera mitad del refrán y dar por sabida la segunda. Aprende a completarlos, a entender lo que se calla y a citarlos con las fórmulas de introducción habituales.",
     "duration": "9 min",
     "sections": [
       {
@@ -26734,7 +26766,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Charlas con un amigo de que ha perdido una oferta por esperar demasiado. ¿Qué es lo más natural?",
+            "question": "Hablas con un amigo que ha perdido una oferta por esperar demasiado. ¿Qué es lo más natural?",
             "options": [
               "Decir «Ya sabes: más vale pájaro en mano…» y callar el resto.",
               "Decir «Como reza el refrán, más vale pájaro en mano que ciento volando».",
@@ -26964,7 +26996,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Recuerda la regla: el refrán conserva su gramática",
         "body": [
-          "Recuerda la regla: el refrán conserva la gramática de cuando nació. Para entenderlo, reconoce el fósil (futuro de subjuntivo, «do», «quien» genérico); para usarlo hoy fuera del refrán, sustitúyelo por la forma actual: fuere → sea / vaya, causare → cause."
+          "Recuerda la regla: el refrán conserva la gramática de cuando nació. Reconoce el fósil (futuro de subjuntivo en -re: fuere, dijere, hubiere; «do» = «donde»); hoy se sustituye: fuere → sea / vaya, causare → cause."
         ],
         "checkpoint": [
           {
@@ -27417,7 +27449,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Recuerda la regla: latinismos exactos, partes fijas",
         "body": [
-          "Recuerda la regla: el foro conserva latinismos con un sentido técnico preciso, que se escriben en cursiva, sin tilde y sin añadidos («motu proprio», no «de motu propio»); los escritos procesales tienen partes fijas (EXPONE, SUPLICO, FALLO), y la misma figura jurídica cambia de nombre de un país a otro."
+          "Recuerda la regla: el foro conserva latinismos con un sentido técnico preciso, que se escriben en cursiva y sin añadidos («motu proprio», no «de motu propio»); los escritos procesales tienen partes fijas (EXPONE, SUPLICO, FALLO), y la misma figura jurídica cambia de nombre de un país a otro."
         ],
         "checkpoint": [
           {
@@ -27469,9 +27501,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Cómo se escriben: cursiva, sin tilde, sin añadidos",
+        "heading": "Cómo se escriben: cursiva, acentuación y sin añadidos",
         "body": [
-          "Según la Ortografía de la RAE (2010), los latinismos no adaptados se escriben en cursiva y sin tildes: «sub iudice», no «sub júdice» (aunque la forma adaptada «subjúdice» también existe). Y se dicen sin añadidos: «a priori», no «a prioris»; «motu proprio», no «de motu propio»."
+          "Según la Ortografía de la RAE (2010), los latinismos no adaptados se escriben en cursiva y siguen las reglas de acentuación del español: «sub iudice» (llana acabada en vocal) no lleva tilde, y por eso no se escribe «sub júdice» (aunque la forma adaptada «subjúdice» también existe). Y se dicen sin añadidos: «a priori», no «a prioris»; «motu proprio», no «de motu propio»."
         ],
         "checkpoint": [
           {
@@ -27825,12 +27857,12 @@ const C2_BASE_LESSONS: Lesson[] = [
             "question": "Pie de una resolución administrativa: «Contra esta resolución ___ recurso de alzada en el plazo de un mes.»",
             "options": [
               "cabe",
-              "procede",
+              "urge",
               "ha lugar",
               "conviene"
             ],
             "correctIndex": 0,
-            "explanation": "Para indicar qué recurso es posible se usa «cabe» (es admisible). «Procede» expresa lo que corresponde decidir, «ha lugar» es la fórmula de acceder a lo pedido y «conviene» es una simple recomendación."
+            "explanation": "Para indicar qué recurso es posible se usa «cabe» (es admisible). «Urge» expresa necesidad inmediata, «ha lugar» es la fórmula de acceder a lo pedido y «conviene» es una simple recomendación."
           }
         ]
       }
@@ -27865,7 +27897,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "Se presentó el recurso, que se admitió a trámite."
         ],
-        "explanation": "La RAE desaconseja «el mismo / la misma» como pronombre: es un relleno burocrático. El referente ya está claro, así que basta con omitirlo (o usar un pronombre: «y se lo admitió», que aquí resulta forzado)."
+        "explanation": "La RAE desaconseja «el mismo / la misma» como pronombre: es un relleno burocrático. El referente ya está claro, así que basta con omitirlo (o una oración de relativo: «el recurso, que se admitió a trámite»)."
       },
       {
         "type": "multiple-choice",
@@ -27943,9 +27975,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Corrige la frase.",
-        "source": "Contra esta resolución procede recurso de alzada en el plazo de un mes.",
+        "source": "Contra esta resolución conviene recurso de alzada en el plazo de un mes.",
         "answer": "Contra esta resolución cabe recurso de alzada en el plazo de un mes.",
-        "explanation": "El pie de recurso informa de una posibilidad: «cabe recurso» (se puede recurrir). «Procede» afirmaría que corresponde recurrir según la norma, como si fuera obligatorio, y se reserva para la conclusión («procede estimar el recurso»)."
+        "altAnswers": [
+          "Contra esta resolución procede recurso de alzada en el plazo de un mes."
+        ],
+        "explanation": "El pie de recurso informa de una posibilidad: «cabe recurso» (se puede recurrir). «Conviene» es una simple recomendación y no sirve para informar de un recurso; «cabe» indica que es admisible."
       }
     ]
   },
@@ -29078,6 +29113,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la antítesis: dos ideas opuestas en construcciones paralelas.",
         "sentence": "Es tan fácil prometer, y es tan ___ cumplir.",
         "answer": "difícil",
+        "altAnswers": [
+          "complicado",
+          "duro"
+        ],
         "explanation": "La antítesis contrapone ideas en dos miembros paralelos («es tan… y es tan…»): a «fácil» se le opone «difícil». Es el mismo molde del verso de Neruda, aplicado a otras ideas."
       },
       {
@@ -29132,11 +29171,11 @@ const C2_BASE_LESSONS: Lesson[] = [
         "direction": "en-es",
         "prompt": "Convierte la frase en una hipálage: traslada el adjetivo al objeto.",
         "source": "Distraída, hojeaba una revista.",
-        "answer": "Hojeaba una revista distraída.",
+        "answer": "Hojeaba una distraída revista.",
         "altAnswers": [
-          "Ella hojeaba una revista distraída."
+          "Ella hojeaba una distraída revista."
         ],
-        "explanation": "En la hipálage el adjetivo que corresponde a la persona (ella está distraída) se traslada al objeto: «una revista distraída». Igual que en «un cigarrillo pensativo»."
+        "explanation": "En la hipálage el adjetivo que corresponde a la persona (ella está distraída) se traslada al objeto y se antepone: «una distraída revista» (pospuesto, «una revista distraída» se lee como atributo de ella). Igual que en «un cigarrillo pensativo»."
       },
       {
         "type": "translate",
@@ -30333,6 +30372,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Corrige la frase.",
         "source": "Conviene archivar el expediente, ya que así lo exige el reglamento.",
         "answer": "Procede archivar el expediente, ya que así lo exige el reglamento.",
+        "altAnswers": [
+          "Es preciso archivar el expediente, ya que así lo exige el reglamento."
+        ],
         "explanation": "Si lo exige el reglamento, no es un consejo («conviene») sino lo que corresponde según la norma: «procede»."
       },
       {
@@ -31236,10 +31278,6 @@ const C2_BASE_LESSONS: Lesson[] = [
               {
                 "left": "formular",
                 "right": "expresar con precisión una pregunta, una queja, una teoría o una objeción"
-              },
-              {
-                "left": "ejercer",
-                "right": "practicar una profesión o hacer uso de un derecho, una influencia o una presión"
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
@@ -31261,7 +31299,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ejercer, desempeñar, practicar, llevar a cabo",
         "body": [
-          "«ejercer»: practicar una profesión o hacer uso de un derecho, una influencia o una presión.",
+          "«ejercer»: practicar una profesión o hacer uso de un derecho, una influencia o una presión (un cargo también se ejerce, pero «desempeñar» destaca sus funciones).",
           "«desempeñar»: cumplir las funciones de un cargo o un papel.",
           "«practicar»: realizar una actuación técnica u oficial (una detención, una autopsia, un registro).",
           "«llevar a cabo»: realizar una acción, un proyecto o un estudio de cierta extensión."
@@ -31751,7 +31789,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Dar: conferir, otorgar, suscitar, infundir",
         "body": [
           "La regla: «dar» y «causar» se sustituyen mirando qué se da o se provoca, y a quién. Un poder, una dignidad o un carácter se confiere; un premio o una merced se otorga, de quien tiene autoridad a quien lo recibe. Una reacción, un interés o una polémica se suscita. Un sentimiento (miedo, respeto, confianza) se infunde a alguien.",
-          "Por qué funciona: cada verbo lleva dentro el tipo de complemento que admite, así que el complemento te dice el verbo. «Suscitar confianza» o «infundir una polémica» chirrían porque cruzan dos casillas."
+          "Por qué funciona: cada verbo lleva dentro el tipo de complemento que admite, así que el complemento te dice el verbo. «Infundir una polémica» o «otorgar un debate» chirrían porque cruzan dos casillas."
         ],
         "examples": [
           {
@@ -31811,12 +31849,12 @@ const C2_BASE_LESSONS: Lesson[] = [
             "question": "Con su arrogancia, el entrenador ___ la antipatía de toda la plantilla.",
             "options": [
               "se granjeó",
-              "granjeó",
+              "otorgó",
               "deparó",
               "infundió"
             ],
             "correctIndex": 0,
-            "explanation": "El afecto o la enemistad de los demás uno se lo granjea, y el verbo es pronominal porque el perjudicado es el propio sujeto: «se granjeó». Sin «se» la frase queda incompleta; «deparar» es lo que trae el futuro y «infundir» comunica un sentimiento a otros."
+            "explanation": "El afecto o la enemistad de los demás uno se lo granjea, y el verbo es pronominal porque el perjudicado es el propio sujeto: «se granjeó». «Otorgar» es para premios y mercedes; «deparar» es lo que trae el futuro y «infundir» comunica un sentimiento a otros."
           }
         ]
       },
@@ -32218,7 +32256,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Razonar y subordinar",
         "body": [
-          "La regla: estos verbos nombran operaciones del razonamiento, y cada uno pide su complemento. Se matiza una afirmación propia o ajena (precisándola o suavizándola). Se colige una conclusión a partir de indicios, y por eso va con «que» + indicativo: «se colige que dimitirá». Se dilucida un asunto dudoso, y se desentraña algo oscuro o enrevesado que hay que desmontar pieza a pieza. Para la jerarquía: una cosa se supedita a otra (queda supeditada a una condición) y lo más importante prima. Y lo que se daba por cierto se cuestiona."
+          "La regla: estos verbos nombran operaciones del razonamiento (matizar, colegir, dilucidar, desentrañar), y cada uno pide su complemento. Se matiza una afirmación, precisándola o suavizándola. Se colige una conclusión a partir de indicios, con «que» + indicativo: «se colige que dimitirá». Dilucidar y desentrañar se distinguen en la sección siguiente. Para la jerarquía: una cosa se supedita a otra y lo más importante prima; lo que se daba por cierto se cuestiona."
         ],
         "examples": [
           {
@@ -32353,10 +32391,10 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra adecuada.",
-        "sentence": "La directora ___ la reunión con un «se acabó» que nadie se atrevió a discutir.",
+        "sentence": "La directora ___ la discusión con un «se acabó» que nadie se atrevió a replicar.",
         "answer": "zanjó",
         "explanation": "Poner fin a algo de forma tajante, sin dejar réplica, es zanjarlo.",
-        "en": "The director [ended] the meeting with a 'that's enough' that nobody dared to argue with.",
+        "en": "The director [ended] the argument with a 'that's enough' that nobody dared to challenge.",
         "altAnswers": [
           "cerró"
         ]
@@ -32473,7 +32511,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Aliviar o corregir: qué haces con el daño",
         "body": [
-          "La regla: ante un daño o un error, el verbo dice qué haces con él, y no son intercambiables. Si atenúas los efectos de un mal sin eliminar su causa, lo palias (un analgésico palia el dolor). Si suavizas algo negativo que todavía puede llegar o crecer (un riesgo, un impacto), lo mitigas. Si reparas un defecto o un error concreto, lo subsanas; y si corriges un texto, una ley o una conducta, la enmiendas."
+          "La regla: ante un daño o un error, el verbo dice qué haces con él; paliar y mitigar se acercan mucho y la diferencia es de matiz. Si atenúas los efectos de un mal sin eliminar su causa, lo palias (un analgésico palia el dolor). Si suavizas algo negativo que todavía puede llegar o crecer (un riesgo, un impacto), lo mitigas. Si reparas un defecto o un error concreto, lo subsanas; y si corriges un texto, una ley o una conducta, la enmiendas."
         ],
         "examples": [
           {
@@ -32582,7 +32620,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Debilitar y reforzar",
         "body": [
-          "La regla: aquí el verbo depende de qué gana o pierde fuerza. Una cantidad o una capacidad merma; algo abstracto (fama, poder, temor) se acrecienta. Lo que ya está en pie se afianza (gana firmeza), y lo que amenaza con caer se apuntala. Lo que pierde su sentido original se desvirtúa. Y para las consecuencias: algo redunda en beneficio o perjuicio de alguien, y repercute en otra cosa de forma indirecta. Estos dos últimos llevan siempre «en»: redundar en, repercutir en."
+          "La regla: aquí el verbo depende de qué gana o pierde fuerza. Una cantidad o una capacidad merma; algo abstracto (fama, poder, temor) se acrecienta. Lo que ya está en pie se afianza (gana firmeza), y lo que amenaza con caer se apuntala. Lo que pierde su sentido original se desvirtúa. Redundar y repercutir llevan siempre «en»."
         ],
         "examples": [
           {
@@ -32797,7 +32835,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "nuevos",
           "fármacos",
           "han",
-          "mitigado",
+          "paliado",
           "los",
           "síntomas",
           "de",
@@ -32806,7 +32844,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "pacientes."
         ],
         "translation": "The new drugs have eased the symptoms of thousands of patients.",
-        "explanation": "Suavizar algo negativo, como unos síntomas, es mitigarlo."
+        "explanation": "Atenuar los efectos de una enfermedad sin eliminar su causa, como hace un fármaco con los síntomas, es paliar."
       }
     ]
   },
@@ -32847,7 +32885,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Dos reglas de uso: género y ser/estar",
         "body": [
-          "Dos reglas de uso: los adjetivos en -e o en consonante (displicente, pertinaz, ecuánime) no cambian de género, mientras que los en -o sí (taimada, mezquina). Con ser describen un rasgo de carácter (es adusto); con estar, un estado pasajero (está abúlico desde que perdió el trabajo)."
+          "Dos reglas de uso: los adjetivos en -e y la mayoría de los acabados en consonante (displicente, pertinaz, ecuánime) no cambian de género (salvo los en -or, -ón, -án), mientras que los en -o sí (taimada, mezquina). Con ser describen un rasgo de carácter (es adusto); con estar, un estado pasajero (está abúlico desde que perdió el trabajo)."
         ],
         "examples": [
           {
@@ -32862,7 +32900,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué frase concuerda bien?",
+            "question": "¿Qué frase concuerda bien en género?",
             "options": [
               "Es una jefa displicente y mezquina.",
               "Es una jefa displicenta y mezquina.",
@@ -32926,7 +32964,7 @@ const C2_BASE_LESSONS: Lesson[] = [
                 "right": "que carece de generosidad o de nobleza de ánimo"
               }
             ],
-            "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+            "explanation": "Cada adjetivo nombra un defecto distinto: pusilánime, falta de valor; taimado, astucia para engañar; displicente, desdén en el trato; mezquino, falta de generosidad."
           }
         ]
       },
@@ -32994,7 +33032,7 @@ const C2_BASE_LESSONS: Lesson[] = [
                 "right": "llano, cordial y de trato sencillo, sin ceremonias"
               }
             ],
-            "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
+            "explanation": "Circunspecto es comedido, ecuánime es imparcial, adusto es severo y campechano es llano y cordial: cuatro rasgos distintos."
           },
           {
             "type": "multiple-choice",
@@ -33373,9 +33411,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         "explanation": "«Acérrimo» (superlativo culto de acre) = muy decidido y tenaz en una afición u opinión; no admite «muy», porque ya es el grado máximo.",
         "en": "My grandfather was a [devoted] reader of crime novels.",
         "altAnswers": [
-          "férreo",
-          "firme",
-          "convencido"
+          "empedernido",
+          "incondicional"
         ]
       },
       {
@@ -33479,7 +33516,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El sufijo decide el género",
         "body": [
-          "La clave de estos sustantivos abstractos: casi todos se forman a partir de un adjetivo o de un verbo, y el sufijo decide el género. Entero → entereza, acre → acritud, probo → probidad, contumaz → contumacia, templar → templanza: los sufijos -eza, -tud, -dad, -ia y -anza dan sustantivos femeninos. Ensañarse → ensañamiento, y los terminados en -or (pundonor, resquemor) son masculinos. Por eso se dice «la acritud» y «el pundonor», aunque «acritud» acabe en consonante y «pundonor» parezca abstracto como «la honradez»."
+          "La clave de estos sustantivos abstractos: casi todos se forman a partir de un adjetivo o de un verbo, y el sufijo decide el género. Entero → entereza, acre → acritud, probo → probidad, contumaz → contumacia, templar → templanza: los sufijos -eza, -tud, -dad, -ia y -anza dan sustantivos femeninos. Ensañarse → ensañamiento, y casi todos los terminados en -or (pundonor, resquemor) son masculinos. Por eso se dice «la acritud» y «el pundonor», aunque «acritud» acabe en consonante y «pundonor» parezca abstracto como «la honradez»."
         ],
         "examples": [
           {
@@ -33975,7 +34012,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Consistente, injuria, compromiso",
         "body": [
-          "«consistente»: sólido, espeso, con consistencia (lo que no se contradice es «coherente»).",
+          "«consistente»: sólido, espeso, con cierta densidad (lo que no se contradice es «coherente»).",
           "«injuria»: agravio u ofensa grave de palabra (una lesión física es «lesión»).",
           "«compromiso»: obligación contraída o cita (un término medio es una «solución de compromiso» o «concesión»)."
         ],
@@ -34036,7 +34073,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué palabra corresponde a esta definición: «sólido, espeso, con consistencia (lo que no se contradice es «coherente»)»?",
+        "question": "¿Qué palabra corresponde a esta definición: «sólido, espeso, con cierta densidad»?",
         "options": [
           "consistente",
           "agenda",
@@ -34044,7 +34081,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "argumento"
         ],
         "correctIndex": 0,
-        "explanation": "«consistente» significa sólido, espeso, con consistencia (lo que no se contradice es «coherente»). En cambio, «agenda» significa cuaderno o calendario de citas (para los temas de una reunión, en registro formal se prefiere «orden del día», aunque también se dice «agenda»); «soportar» significa aguantar algo molesto (no «apoyar», to support); «argumento» significa razonamiento, o trama de una obra (una pelea es «discusión»)."
+        "explanation": "«consistente» significa sólido, espeso, con cierta densidad (lo que no se contradice es «coherente»). En cambio, «agenda» significa cuaderno o calendario de citas (para los temas de una reunión, en registro formal se prefiere «orden del día», aunque también se dice «agenda»); «soportar» significa aguantar algo molesto (no «apoyar», to support); «argumento» significa razonamiento, o trama de una obra (una pelea es «discusión»)."
       },
       {
         "type": "fill-blank",
@@ -34100,10 +34137,10 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra adecuada.",
-        "sentence": "Ninguno cedió: no hubo forma de alcanzar un acuerdo de ___.",
+        "sentence": "Ninguno cedió: no hubo forma de alcanzar una solución de ___.",
         "answer": "compromiso",
-        "explanation": "Solo en locuciones como «solución de compromiso» o «acuerdo de compromiso» equivale a «compromise»; fuera de ellas, «compromiso» suele ser obligación contraída o cita.",
-        "en": "Neither gave way: there was no way to reach a [compromise] agreement."
+        "explanation": "Solo en locuciones como «solución de compromiso» equivale a «compromise»; fuera de ellas, «compromiso» suele ser obligación contraída o cita.",
+        "en": "Neither gave way: there was no way to reach a [compromise] solution."
       },
       {
         "type": "matching",
@@ -34123,7 +34160,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "consistente",
-            "right": "sólido, espeso, con consistencia (lo que no se contradice es «coherente»)"
+            "right": "sólido, espeso, con cierta densidad (lo que no se contradice es «coherente»)"
           }
         ],
         "explanation": "Repaso de las definiciones de la lección."
@@ -34423,10 +34460,11 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "Te lo digo con toda franqueza: hay que ser ___ con los pacientes, aunque duela.",
         "answer": "sincero",
-        "explanation": "Quien dice la verdad es «sincero»; «honesto» describe sobre todo la conducta honrada y decente, no la franqueza al hablar.",
+        "explanation": "Quien dice la verdad es «sincero» (o «franco»); «honesto» también vale aquí, aunque describe sobre todo la conducta honrada y decente.",
         "en": "I'm telling you quite frankly: you have to be [honest] with patients, even if it hurts.",
         "altAnswers": [
-          "franco"
+          "franco",
+          "honesto"
         ]
       },
       {
@@ -34537,7 +34575,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La regla: piezas cerradas con su propia gramática",
         "body": [
-          "La regla: una locución latina es una pieza cerrada que ya trae dentro su propia gramática. «Grosso modo» ya significa 'de modo aproximado' y «statu quo» viene de «in statu quo» ('en el estado en que'), así que no se les añade preposición («a grosso modo» es un error) ni se «corrigen» a la forma inglesa («status quo»). Por la misma razón son invariables (los lapsus) y, si no están adaptadas, se escriben sin tilde y, en textos cuidados, en cursiva."
+          "La regla: una locución latina es una pieza cerrada que ya trae dentro su propia gramática. «Grosso modo» ya significa 'de modo aproximado' y «statu quo» viene de «in statu quo» ('en el estado en que'), así que no se les añade preposición («a grosso modo» es un error) ni se «corrigen» a la forma inglesa («status quo»). Por la misma razón son invariables (los lapsus) y, si no están adaptadas, se acentúan según las reglas del español (a priori, in situ, pero per cápita, álter ego) y, en textos cuidados, se escriben en cursiva."
         ],
         "examples": [
           {
@@ -34560,7 +34598,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Los técnicos revisaron la avería in sítu."
             ],
             "correctIndex": 0,
-            "explanation": "«In situ» ya contiene la preposición latina «in» ('en'), igual que «grosso modo» ya significa 'de modo aproximado': añadir «en» o «a» la duplica. Y, como locución latina no adaptada, no lleva tilde."
+            "explanation": "«In situ» ya contiene la preposición latina «in» ('en'), igual que «grosso modo» ya significa 'de modo aproximado': añadir «en» o «a» la duplica. Y «situ» se pronuncia llano y termina en vocal, así que, según las reglas de acentuación del español, no lleva tilde."
           }
         ]
       },
@@ -34626,7 +34664,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Adaptados o no: la tilde",
         "body": [
-          "Algunos se han adaptado a la ortografía española («cuórum»); otros, como «motu proprio», «a priori» o «modus operandi», siguen siendo locuciones latinas y se escriben sin tilde (salvo «per cápita» y «álter ego», que sí la llevan según las reglas del español)."
+          "Algunos se han adaptado a la ortografía española («cuórum»); otros, como «motu proprio», «a priori» o «modus operandi», siguen siendo locuciones latinas y se acentúan según las reglas del español: «a priori», «modus operandi» y «motu proprio» no llevan tilde, pero «per cápita» y «álter ego» sí."
         ],
         "examples": [
           {
@@ -34653,7 +34691,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "motu proprio"
             ],
             "correctIndex": 0,
-            "explanation": "Las locuciones latinas no adaptadas se escriben sin tilde (a priori, modus operandi, motu proprio). «Per cápita» y «álter ego» son las excepciones que sí la llevan según las reglas del español."
+            "explanation": "Los latinismos se acentúan según las reglas del español: «a priori», «modus operandi» y «motu proprio» no llevan tilde, pero «per cápita» y «álter ego» sí (son esdrújulas). No son excepciones, sino la misma regla."
           }
         ]
       },
@@ -34869,7 +34907,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Pista 1: el género de -ma y -sis",
         "body": [
-          "La regla: estos cultismos griegos se usan bien con dos pistas. 1) El género: las palabras en -ma que vienen del neutro griego son masculinas (el paradigma, el anatema, como el problema o el tema), y las terminadas en -sis son femeninas e invariables en plural (la catarsis / las catarsis, como la crisis / las crisis)."
+          "La regla: estos cultismos griegos se usan bien con dos pistas. 1) El género: las palabras en -ma que vienen del neutro griego son masculinas (el paradigma, el anatema, como el problema o el tema), y la mayoría de las terminadas en -sis son femeninas e invariables en plural (excepciones: el análisis, el énfasis, el paréntesis; la catarsis / las catarsis, como la crisis / las crisis)."
         ],
         "examples": [
           {
@@ -35213,7 +35251,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "envejecimiento."
         ],
         "translation": "No drug is the cure-all for ageing.",
-        "explanation": "«La panacea» (pan- 'todo') es el supuesto remedio para todos los males; casi siempre aparece en frases negativas."
+        "explanation": "«La panacea» (pan- 'todo') es el supuesto remedio para todos los males; suele aparecer en frases negativas (no es la panacea), aunque también se usa en afirmativas."
       }
     ]
   },
@@ -35703,7 +35741,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbo, preposición y matiz",
         "body": [
-          "Estas son propias de la prensa y el ensayo, y además del verbo fijan la preposición: se tiende una trampa a alguien, se entabla conversación con alguien y una orden se acata, sin preposición. Algunos verbos sirven para una familia entera: se entabla conversación, amistad o negociaciones; se contraen deudas, matrimonio o una enfermedad. Y el verbo aporta matiz: «desatar» una crisis dice que estalla de golpe, mientras que «provocar» es neutro."
+          "Estas colocaciones son propias de la prensa y el ensayo, y además del verbo fijan la preposición: se tiende una trampa a alguien, se entabla conversación con alguien y una orden se acata, sin preposición. Algunos verbos sirven para una familia entera: se entabla conversación, amistad o negociaciones; se contraen deudas, matrimonio o una enfermedad. Y el verbo aporta matiz: «desatar» una crisis dice que estalla de golpe, mientras que «provocar» es neutro."
         ],
         "examples": [
           {
@@ -35833,7 +35871,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "Con el empate, el equipo ___ su tercera decepción consecutiva.",
         "answer": "cosechó",
         "explanation": "«Cosechar» es 'obtener como resultado' y no solo se cosechan éxitos: también fracasos, derrotas o decepciones.",
-        "en": "With the draw, the team [suffered] its third disappointment in a row.",
+        "en": "With the draw, the team [reaped] its third disappointment in a row.",
         "altAnswers": [
           "obtuvo"
         ]
@@ -35843,7 +35881,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "Vecinos y comerciantes ___ esfuerzos para salvar el mercado del barrio.",
         "answer": "aunaron",
-        "explanation": "«Aunar esfuerzos» es unirlos para un fin común; por eso pide un sujeto plural (vecinos y comerciantes).",
+        "explanation": "«Aunar esfuerzos» es unirlos para un fin común; aquí el sujeto plural (vecinos y comerciantes) los suma; con sujeto singular se dice «aunar esfuerzos con alguien».",
         "en": "Residents and shopkeepers [joined] forces to save the neighbourhood market.",
         "altAnswers": [
           "unieron",
@@ -35856,7 +35894,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "___ el último suspiro en su casa de la costa, a los noventa años.",
         "answer": "Exhaló",
         "explanation": "«Exhalar el último suspiro» es morir, en registro literario o de necrológica; en una conversación se diría «murió».",
-        "en": "[She breathed her] last at her house on the coast, at the age of ninety."
+        "en": "[She breathed her] last at her house on the coast, at the age of ninety.",
+        "altAnswers": [
+          "Dio"
+        ]
       },
       {
         "type": "fill-blank",
@@ -35934,7 +35975,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "casa."
         ],
         "translation": "After the earthquake, the residents still hold out hope of returning home.",
-        "explanation": "«albergar esperanzas»: tener esperanzas."
+        "explanation": "«Albergar esperanzas» es la colocación fija (no «sostener»); «de + infinitivo» dice qué se espera."
       }
     ]
   },
@@ -36189,7 +36230,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "type": "multi-select",
         "question": "¿Qué colocaciones son naturales?",
         "options": [
-          "una diferencia abismal",
+          "una ignorancia supina",
           "una ignorancia garrafal",
           "un fracaso rotundo",
           "una lluvia encarnizada",
@@ -36200,7 +36241,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "Abismal (de abismo) intensifica una diferencia enorme; rotundo, un fracaso sin paliativos; visceral, un rechazo irracional. La ignorancia total es supina («garrafal» es para errores) y la lluvia intensa es torrencial («encarnizado» es para luchas)."
+        "explanation": "Supina es la ignorancia total e inexcusable; rotundo, un fracaso sin paliativos; visceral, un rechazo irracional. «Garrafal» es para errores, no para la ignorancia y la lluvia intensa es torrencial («encarnizado» es para luchas)."
       },
       {
         "type": "translate",
@@ -36208,9 +36249,6 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Sustituye «muy grave» por el intensificador fijo.",
         "source": "Cometió un error muy grave al calcular el presupuesto.",
         "answer": "Cometió un error garrafal al calcular el presupuesto.",
-        "altAnswers": [
-          "Cometió un garrafal error al calcular el presupuesto."
-        ],
         "explanation": "«Muy grave» aplicado a un error se sustituye por su intensificador fijo: garrafal."
       },
       {
@@ -36654,7 +36692,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "«La ___ de fondos públicos llevó al tesorero a prisión.» ¿Qué delito concreto es?",
+            "question": "«El tesorero fue a prisión por ___ de fondos públicos.» ¿Qué delito concreto es?",
             "options": [
               "malversación",
               "clientelismo",
@@ -36743,7 +36781,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "una cuestión de confianza",
               "una moción de censura",
               "una investidura",
-              "un transfuguismo"
+              "un caso de transfuguismo"
             ],
             "correctIndex": 0,
             "explanation": "La iniciativa es del propio Gobierno: cuestión de confianza. La moción de censura la presenta la oposición, la investidura elige a un presidente y el transfuguismo es cambiar de partido."
@@ -36828,7 +36866,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "Sin mayoría absoluta, la candidata necesitó dos votaciones para superar la ___.",
         "answer": "investidura",
-        "en": "Without an absolute majority, the candidate needed two votes to get through the [investiture].",
+        "en": "Without an absolute majority, the candidate needed two rounds of voting to get through the [investiture].",
         "explanation": "La investidura es la votación que elige al presidente del Gobierno."
       },
       {
@@ -37432,10 +37470,10 @@ const C2_BASE_LESSONS: Lesson[] = [
               "la falsabilidad",
               "la falsedad",
               "la falsación",
-              "la falsificabilidad"
+              "la falsabilencia"
             ],
             "correctIndex": 0,
-            "explanation": "-ble → -bilidad: falsable → falsabilidad, la cualidad de poder ser refutada (criterio de Popper). «Falsedad» es ser falso, «falsación» es el acto de refutar y «falsificabilidad» remite a falsificar (falsear un documento)."
+            "explanation": "-ble → -bilidad: falsable → falsabilidad, la cualidad de poder ser refutada (criterio de Popper). «Falsedad» es ser falso, «falsación» es el acto de refutar y «falsabilencia» no existe."
           }
         ]
       },
@@ -38392,6 +38430,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Corrige la frase.",
         "source": "El tumor era maligno, así que no hubo que tratarlo.",
         "answer": "El tumor era benigno, así que no hubo que tratarlo.",
+        "altAnswers": [
+          "El tumor era maligno, así que hubo que tratarlo."
+        ],
         "explanation": "Si no hizo falta tratarlo, no era canceroso: benigno. Un tumor maligno invade otros tejidos y siempre exige tratamiento."
       },
       {
@@ -38415,7 +38456,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Tristeza y desánimo: familias de palabras",
         "body": [
-          "No todo es «tristeza»: cada palabra tiene su intensidad y su causa. Y casi todas pertenecen a una familia, lo que permite deducir palabras nuevas: des- niega la base (amparo → el desamparo; encanto → el desencanto; sazón, el «buen gusto», → la desazón); -miento y -ción nombran el estado que deja un verbo (abatir → el abatimiento; exaltar → la exaltación; desolar → la desolación); y cada sustantivo tiene su adjetivo (abatido, desolado, desencantado, desamparado, rencoroso, aprensivo, ufano). Si conoces la base, entiendes la palabra nueva y puedes pasar de «sentir desolación» a «estar desolado»."
+          "No todo es «tristeza»: cada palabra tiene su intensidad y su causa. Y casi todas pertenecen a una familia, lo que permite deducir palabras nuevas: des- niega la base (amparo → el desamparo; encanto → el desencanto; sazón, el «buen sabor», → la desazón); -miento y -ción nombran el estado que deja un verbo (abatir → el abatimiento; exaltar → la exaltación; desolar → la desolación); y cada sustantivo tiene su adjetivo (abatido, desolado, desencantado, desamparado, rencoroso, aprensivo, ufano). Si conoces la base, entiendes la palabra nueva y puedes pasar de «sentir desolación» a «estar desolado»."
         ],
         "checkpoint": [
           {
@@ -38708,7 +38749,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Corrige la frase.",
+        "prompt": "Corrige la frase: quien habla en público es la propia persona.",
         "source": "Le da vergüenza ajena hablar en público.",
         "answer": "Le da vergüenza hablar en público.",
         "altAnswers": [
@@ -38806,7 +38847,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El aspecto de las personas: los sufijos",
         "body": [
-          "Adjetivos de la narrativa para describir cuerpos y rostros. El patrón que los une está en los sufijos: -ento indica «que tiene o tiende a» (macilento, y también amarillento, polvoriento, sediento); -izo, «que tira a, parecido a» (plomizo, rojizo, cobrizo, enfermizo); -oso, «abundante en» (frondoso, lluvioso). Con el sufijo puedes deducir adjetivos que no conoces. Y recuerda que concuerdan siempre: unas flores mustias, unos campos yermos."
+          "Adjetivos de la narrativa para describir cuerpos y rostros. El patrón que los une está en los sufijos: -ento / -iento indica «que tiene o tiende a» (macilento, y también amarillento, polvoriento, sediento); -izo, «que tira a, parecido a» (plomizo, rojizo, cobrizo, enfermizo); -oso, «abundante en» (frondoso, lluvioso). Con el sufijo puedes deducir adjetivos que no conoces. Y recuerda que concuerdan siempre: unas flores mustias, unos campos yermos."
         ],
         "checkpoint": [
           {
@@ -39794,7 +39835,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Transforma la frase: sustituye la explicación por un solo verbo pronominal.",
-        "source": "Se sentó en el sofá muy cómodo, con el cuerpo estirado.",
+        "source": "Se sentó muy cómodo en el sofá, con el cuerpo estirado.",
         "answer": "Se repantigó en el sofá.",
         "altAnswers": [
           "Se repantingó en el sofá."
@@ -39999,12 +40040,12 @@ const C2_BASE_LESSONS: Lesson[] = [
               "absténganse en"
             ],
             "correctIndex": 0,
-            "explanation": "«Abstenerse de» es privarse de algo: «absténganse de fumar». «Obstinarse» (en) es mantenerse firme contra toda razón, «dignarse» es aceptar hacer algo que se considera inferior, y «abstenerse» rige «de», no «en»."
+            "explanation": "«Abstenerse de» es privarse de algo: «absténganse de fumar». «Obstinarse» (en) es mantenerse firme contra toda razón, «dignarse» es aceptar hacer algo que se considera inferior, y «abstenerse» lleva «de» ante lo que uno evita (absténganse de fumar); «en» solo introduce el ámbito (abstenerse en la votación)."
           }
         ]
       },
       {
-        "heading": "Conocer, aceptar, desentenderse",
+        "heading": "Percatarse, cerciorarse, desentenderse, avenirse, atenerse",
         "body": [
           "Más verbos de régimen fijo, con errores frecuentes.",
           "«percatarse de»: darse cuenta de algo (no «percatarse que»).",
@@ -40507,8 +40548,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "en": "Right now I haven't got [money] to go to the cinema.",
         "altAnswers": [
           "dinero",
-          "plata",
-          "pasta"
+          "plata"
         ]
       },
       {
@@ -40530,9 +40570,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "explanation": "«chido»: estupendo (coloquial, México).",
         "en": "Your new apartment is really [cool].",
         "altAnswers": [
-          "padre",
-          "chévere",
-          "bacán"
+          "padre"
         ]
       },
       {
@@ -40664,7 +40702,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 169,
     "title": "Vocabulario C2: el léxico del titular, Part 28 of 30",
-    "summary": "Varapalo, revés, espaldarazo, órdago, pulso, guiño, desplante, mazazo, debacle, desaire, rifirrafe, batacazo: sustantivos expresivos que la prensa usa para condensar una noticia.",
+    "summary": "Varapalo, revés, espaldarazo, órdago, pulso, guiño, desplante, mazazo, debacle, desaire, rifirrafe, batacazo: sustantivos expresivos de la prensa y los verbos que los acompañan (dar un varapalo, sufrir un revés, lanzar un órdago, mantener un pulso).",
     "duration": "10 min",
     "sections": [
       {
@@ -40675,15 +40713,15 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Aplica la idea. «La selección ___ un batacazo histórico en el Mundial.»",
+            "question": "Aplica la idea. «El Gobierno ___ un revés histórico en el Parlamento: perdió la votación.»",
             "options": [
-              "se da",
+              "sufre",
               "da",
               "lanza",
               "mantiene"
             ],
             "correctIndex": 0,
-            "explanation": "El batacazo es una caída que uno se lleva: «darse un batacazo» (pronominal, porque el golpe lo recibe el propio sujeto). «Dar» sin pronombre implicaría golpear a otro; «lanzar» va con «órdago» y «mantener» con «pulso»."
+            "explanation": "El Gobierno es quien recibe el golpe: «sufrir un revés». «Dar» implicaría golpear a otro (dar un varapalo); «lanzar» va con «órdago» y «mantener» con «pulso»."
           }
         ]
       },
@@ -41055,7 +41093,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 170,
     "title": "Vocabulario C2: crítica literaria y artística, Part 29 of 30",
-    "summary": "Verosimilitud, hipérbaton, écfrasis, leitmotiv, pastiche, epígono, polifonía, esperpento, tremendismo, costumbrismo, metaficción, manido: el léxico de la reseña y el comentario de texto.",
+    "summary": "Verosimilitud, hipérbaton, écfrasis, leitmotiv, pastiche, epígono, polifonía, esperpento, tremendismo, costumbrismo, metaficción, manido: el léxico de la reseña y el comentario de texto, y cómo descifrarlo por sus piezas (meta-, poli-, -ismo → -ista).",
     "duration": "10 min",
     "sections": [
       {
@@ -41423,7 +41461,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 171,
     "title": "Vocabulario C2: filosofía y pensamiento, Part 30 of 30",
-    "summary": "Ontología, epistemología, teleología, aporía, solipsismo, dialéctica, relativismo, nihilismo, sofisma, tautología, falacia ad hominem, apriorístico: conceptos para leer ensayo y debatir ideas.",
+    "summary": "Ontología, epistemología, teleología, aporía, solipsismo, dialéctica, relativismo, nihilismo, sofisma, tautología, falacia ad hominem, apriorístico: conceptos para leer ensayo y debatir ideas, con los sufijos -logía (estudio) e -ismo (doctrina) como pista.",
     "duration": "10 min",
     "sections": [
       {
@@ -41656,11 +41694,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "Para Hegel, la historia avanza por la ___: tesis, antítesis y síntesis.",
         "answer": "dialéctica",
         "explanation": "«la dialéctica»: arte de razonar confrontando ideas opuestas; en Hegel, proceso de tesis, antítesis y síntesis.",
-        "en": "For Hegel, history moves forward through [dialectics]: thesis, antithesis and synthesis.",
-        "altAnswers": [
-          "retórica",
-          "oratoria"
-        ]
+        "en": "For Hegel, history moves forward through [dialectics]: thesis, antithesis and synthesis."
       },
       {
         "type": "fill-blank",
@@ -41790,7 +41824,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 172,
     "title": "C1/C2 Comprehensive Review, Part 1 of 3",
-    "summary": "Repasarás los grandes temas gramaticales de C1/C2 (subjuntivo, concesivas, nominalización, gerundio, pasiva, por/para, ser/estar, conectores, énfasis, conjetura, registro) y los pondrás a prueba en ejercicios.",
+    "summary": "Repasarás los grandes temas gramaticales de C1/C2 (subjuntivo, concesivas, nominalización, gerundio, pasiva y se impersonal, estilo indirecto libre, por/para, ser/estar) y los pondrás a prueba en ejercicios.",
     "duration": "10 min",
     "sections": [
       {
@@ -42394,4 +42428,4 @@ const C2_BASE_LESSONS: Lesson[] = [
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
 // c2-practice.ts adds questions to the lessons that had too few.
-export const C2_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(addPractice(buildLevel("C2", C2_BASE_LESSONS, C2_REINFORCEMENT), C2_PRACTICE), C2_WRITING_TASKS));
+export const C2_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(addPractice(buildLevel("C2", C2_BASE_LESSONS, C2_REINFORCEMENT), C2_PRACTICE), C2_WRITING_TASKS), { spanish: true });

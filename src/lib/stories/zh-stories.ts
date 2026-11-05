@@ -223,7 +223,7 @@ export const ZH_STORIES: ZhStory[] = [
         explanation: "以前他都坐飞机: he always used to fly.",
       },
       {
-        question: "What happened at the station?",
+        question: "What happened at the station in Beijing?",
         options: ["He missed the train", "It took him a long time to find his carriage", "He met his mother", "He bought coffee for a friend"],
         correctIndex: 1,
         explanation: "他找了半天才找到自己的车厢: it took him ages to find his carriage.",
@@ -252,7 +252,7 @@ export const ZH_STORIES: ZhStory[] = [
       {
         zh: "我 问 妈妈 。 妈妈 说 ： “ 你 妹妹 最近 很 喜欢 画画 ， 你 可以 给 她 买 一些 彩笔 。 ”",
         pinyin: "wǒ wèn māma 。 māma shuō ： “ nǐ mèimei zuìjìn hěn xǐhuan huàhuà ， nǐ kěyǐ gěi tā mǎi yìxiē cǎibǐ 。 ”",
-        en: "I ask Mum. She says, \"Your sister has really been into drawing lately. You could buy her some coloured pens.\"",
+        en: "I asked Mum. She said, \"Your sister has really been into drawing lately. You could buy her some coloured pens.\"",
       },
       {
         zh: "星期六 ， 我 去 了 商店 。 彩笔 有 很多 种 ， 有 便宜 的 ， 也 有 贵 的 。 我 选 了 一 盒 二十四 色 的 ， 一百二十 块 。",
@@ -267,7 +267,7 @@ export const ZH_STORIES: ZhStory[] = [
       {
         zh: "生日 那 天 ， 妹妹 打开 礼物 ， 高兴 得 跳 了 起来 。 她 说 ： “ 哥哥 ， 我 第一 张 画 就 给 你 画 ！ ”",
         pinyin: "shēngrì nà tiān ， mèimei dǎkāi lǐwù ， gāoxìng de tiào le qǐlai 。 tā shuō ： “ gēge ， wǒ dì-yī zhāng huà jiù gěi nǐ huà ！ ”",
-        en: "On her birthday my sister opened the present and jumped for joy. She said, \"Big brother, my first picture is for you!\"",
+        en: "On her birthday my sister opened the present and jumped for joy. She said, \"Big brother, I'll draw my very first picture for you!\"",
       },
     ],
     keyWords: [
@@ -327,7 +327,7 @@ export const ZH_STORIES: ZhStory[] = [
       {
         zh: "钱包 里 不但 有 两百 多 块 钱 ， 而且 有 她 的 身份证 、 银行卡 和 几 张 名片 。 她 越 想 越 着急 ， 一 晚上 都 没 睡 好 。",
         pinyin: "qiánbāo li búdàn yǒu liǎngbǎi duō kuài qián ， érqiě yǒu tā de shēnfènzhèng 、 yínhángkǎ hé jǐ zhāng míngpiàn 。 tā yuè xiǎng yuè zháojí ， yì wǎnshang dōu méi shuì hǎo 。",
-        en: "There wasn't just two hundred-odd kuai in it, but her ID card, her bank card and a few business cards too. The more she thought about it the more worried she got, and she slept badly all night.",
+        en: "It held not just two hundred-odd kuai but also her ID card, her bank card and a few business cards. The more she thought about it the more worried she got, and she slept badly all night.",
       },
       {
         zh: "第二 天 早上 ， 她 正 准备 去 银行 ， 手机 突然 响 了 。 是 一个 陌生 的 号码 。",
@@ -337,7 +337,7 @@ export const ZH_STORIES: ZhStory[] = [
       {
         zh: "“ 您好 ， 请问 您 是 陈静 吗 ？ 我 是 昨天 那 位 出租车 司机 。 您 的 钱包 掉 在 我 车 上 了 ， 我 是 从 里面 的 名片 上 找到 您 的 电话 的 。 ”",
         pinyin: "“ nínhǎo ， qǐngwèn nín shì Chén_Jìng ma ？ wǒ shì zuótiān nà wèi chūzūchē sījī 。 nín de qiánbāo diào zài wǒ chē shang le ， wǒ shì cóng lǐmiàn de míngpiàn shang zhǎodào nín de diànhuà de 。 ”",
-        en: "\"Hello, is this Chen Jing? I'm the taxi driver from yesterday. Your wallet fell out in my car. I found your number on the business cards inside.\"",
+        en: "\"Hello, is this Chen Jing? I'm the taxi driver from yesterday. You dropped your wallet in my car. I found your number on the business cards inside.\"",
       },
       {
         zh: "一个 小时 以后 ， 司机 把 钱包 送 来 了 。 里面 的 东西 一样 都 没 少 。 陈静 想 给 他 两百 块 钱 表示 感谢 ， 可是 他 怎么 也 不 要 。",
@@ -387,7 +387,7 @@ export const ZH_STORIES: ZhStory[] = [
         question: "Why didn't the driver take the money?",
         options: ["He thought it was too little", "He felt he was only doing what anyone should", "He was in a hurry", "He wanted a present instead"],
         correctIndex: 1,
-        explanation: "这是我应该做的: \"This is what I should do.\"",
+        explanation: "这是我应该做的: \"I was only doing what I should.\" He saw returning it as his duty, not something to be paid for.",
       },
     ],
   },

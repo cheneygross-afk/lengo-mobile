@@ -66,7 +66,7 @@ export const C2_WRITING_TASKS: UnitWriting = {
         "Registro formal (usted) coherente"
       ],
       "modelAnswer": "—Buenos días, señor Martín. Antes de explorarle, necesito hacerle unas preguntas. ¿Tiene antecedentes familiares de alguna enfermedad importante? —Sí, mi padre era diabético y mi madre tuvo un infarto a los sesenta años. —¿Y usted padece alguna patología crónica? —Tengo la tensión alta desde hace cinco años. —¿Toma alguna medicación de forma habitual? —Enalapril, un comprimido por la mañana. —¿Es alérgico a algún medicamento? —A la penicilina; me salió una erupción por todo el cuerpo. —Lo anoto, es muy importante. ¿Le han operado alguna vez? —Del apéndice, de niño. —¿Fuma o consume alcohol? —Dejé de fumar hace dos años; bebo una copa de vino los fines de semana. —Muy bien. ¿Hace ejercicio? —Camino una hora al día. —Perfecto. Ahora vamos a tomarle la tensión.",
-      "explanation": "La anamnesis sigue un orden fijo: antecedentes familiares, patologías crónicas, medicación, alergias medicamentosas, intervenciones previas y hábitos. La médica usa preguntas cerradas y el usted profesional; el paciente responde con datos concretos (fármaco, dosis, reacción alérgica)."
+      "explanation": "La anamnesis sigue un orden lógico (motivo de consulta, antecedentes personales y familiares, alergias, medicación, hábitos), aunque puede variar. La médica usa preguntas cerradas y el usted profesional; el paciente responde con datos concretos (fármaco, dosis, reacción alérgica)."
     }
   ],
   "c2r-contrast-technical-colloquial-medical": [
@@ -184,17 +184,17 @@ export const C2_WRITING_TASKS: UnitWriting = {
   "c2r-figurative-metaphor-simile": [
     {
       "type": "write",
-      "prompt": "Escribe una postal a una amiga desde un pueblo de costa en otoño. Describe el lugar usando al menos un símil, una metáfora pura (sin «como») y una metáfora lexicalizada.",
+      "prompt": "Escribe una postal a una amiga desde un pueblo de costa en otoño. Describe el lugar usando al menos un símil, una metáfora (sin «como») y una metáfora lexicalizada.",
       "minWords": 60,
       "maxWords": 120,
       "rubric": [
         "Al menos un símil con «como» o «parece»",
-        "Al menos una metáfora pura que intensifique el símil",
+        "Al menos una metáfora sin nexo que intensifique el símil",
         "Una metáfora lexicalizada de uso común (el pie de la montaña, la falda del monte…)",
         "Formato de postal: saludo, descripción, despedida"
       ],
       "modelAnswer": "Querida Inés: Te escribo desde Cudillero, que en otoño es otro pueblo. Las casas, pintadas de colores, bajan por la ladera como un rebaño que quisiera beber en el puerto. Por las tardes, el mar es una lámina de plomo y las gaviotas, puntadas blancas que lo cosen al cielo. He subido hasta la falda del monte para ver el atardecer y, desde allí, las barcas parecen juguetes olvidados en la orilla. Apenas quedan turistas y el silencio se oye. Te echo de menos. Un abrazo enorme, Teresa",
-      "explanation": "El símil compara de forma explícita (como un rebaño, parecen juguetes); la metáfora pura identifica sin nexo (el mar es una lámina de plomo, las gaviotas, puntadas blancas). «La falda del monte» es una metáfora lexicalizada: ya no se percibe como figura."
+      "explanation": "El símil compara de forma explícita (como un rebaño, parecen juguetes); la metáfora identifica sin nexo (el mar es una lámina de plomo, las gaviotas, puntadas blancas). «La falda del monte» es una metáfora lexicalizada: ya no se percibe como figura."
     }
   ],
   "c2r-figurative-spiral-literature": [

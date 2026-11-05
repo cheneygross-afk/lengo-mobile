@@ -1,10 +1,13 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/listLessons.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Exercise, Lesson } from "./types";
 
-// Test-out asks UNIT_TEST_QUESTIONS (10) questions round-robin over a
-// unit's 6-15 required lessons, so a few per lesson is plenty; a fresh
-// random few on each page load keeps retakes varied.
-const PER_LESSON = 6;
+// Test-out takes one exercise from each required lesson in turn
+// (pickUnitTestQuestions, UNIT_TEST_QUESTIONS = 10), so the list needs only
+// one random exercise per lesson: units have 8-31 required lessons, so a
+// second round is rarely used, and every exercise sent here is repeated in
+// the page HTML (the C2 index was 2 MB with 6 per lesson). A fresh random
+// pick on each page load keeps retakes varied.
+const PER_LESSON = 1;
 const testable = (e: Exercise) => e.type !== "speak" && e.type !== "write";
 function sample(exercises: Exercise[]): Exercise[] {
   const pool = exercises.filter(testable);

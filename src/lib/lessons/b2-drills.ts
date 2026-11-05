@@ -56,8 +56,8 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "Dos detalles: la a personal y la raíz de yo",
         [
-          "Dos detalles del marco: con personas desconocidas la a personal es opcional (Busco un médico / Busco a alguien), pero con alguien y nadie siempre va: «Busco a alguien que…».",
-          "Y los verbos irregulares mantienen su raíz de yo: conozco → conozca, quepo → quepa, hago → haga.",
+          "Dos detalles del marco: con personas desconocidas la a personal es opcional (Busco un médico / Busco a un médico), pero con alguien y nadie siempre va: «Busco a alguien que…».",
+          "Y muchos verbos irregulares mantienen su raíz de yo: conozco → conozca, quepo → quepa, hago → haga.",
         ],
         [
           ["Necesitamos a alguien que hable chino.", "We need someone who speaks Chinese. (a personal delante de alguien)"],
@@ -79,7 +79,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       fb("Mismo marco.", "Busco un coche que no ___ mucha gasolina. (gastar)", "gaste", "Coche aún sin elegir → subjuntivo. En los verbos en -ar, el subjuntivo cambia la a por e: gasta → gaste."),
       fb("Mismo marco.", "Necesito un portátil que ___ poco. (pesar)", "pese", "Portátil desconocido → subjuntivo: pesa → pese (-ar cambia a e)."),
       fb("Mismo marco.", "Necesitamos una niñera que ___ los fines de semana. (poder)", "pueda", "Niñera aún desconocida → subjuntivo. Poder diptonga o → ue en las formas acentuadas: pueda."),
-      fb("Mismo marco.", "Quiero un trabajo que me ___ viajar. (permitir)", "permita", "Querer + trabajo que aún no tienes → subjuntivo. En -ir, la i/e del indicativo pasa a a: permite → permita."),
+      fb("Mismo marco.", "Quiero un trabajo que me ___ viajar. (permitir)", "permita", "Querer + trabajo que aún no tienes → subjuntivo. En -er/-ir, la e final del indicativo pasa a a: permite → permita."),
       fb("Mismo marco.", "Buscamos un restaurante que ___ abierto a medianoche. (estar)", "esté", "Restaurante desconocido → subjuntivo de estar: esté, con tilde. Estar abierto es un estado, por eso estar y no ser."),
       mc(
         "«Busco una academia que ___ clases por la tarde.»",
@@ -244,7 +244,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         ],
         [
           fb("Responde.", "—¿Hay alguien aquí que hable ruso? —Sí, Iván ___ ruso. (hablar)", "habla", "La respuesta afirma algo de una persona concreta (Iván) → indicativo (habla). «Hable» solo cabía en la pregunta."),
-          fb("Responde.", "—¿Tienes algún paraguas que me ___? —No, no tengo ninguno que te pueda dejar. (prestar)", "prestes", "En la pregunta no sabes si hay alguno → subjuntivo (prestes, tú). La respuesta negativa también lleva subjuntivo (pueda)."),
+          fb("Completa el diálogo con el verbo entre paréntesis.", "—¿Tienes algún paraguas que me ___? —No, no tengo ninguno que te pueda dejar. (prestar)", "prestes", "En la pregunta no sabes si hay alguno → subjuntivo (prestes, tú). La respuesta negativa también lleva subjuntivo (pueda)."),
         ]
       ),
     ],
@@ -385,7 +385,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Afirmar y negar",
         [
           "Recuerda la regla: si afirmas que algo existe, la relativa va en indicativo; si lo niegas, en subjuntivo. Al negar cambian tres cosas a la vez: alguien → nadie, algo → nada, un / una / algún → ningún / ninguna; aparece el no delante del verbo (doble negación), y el verbo de la relativa pasa a subjuntivo.",
-          "Al revés también funciona: si conviertes una negación en afirmación, el antecedente vuelve a existir y vuelve el indicativo. El subjuntivo se forma desde la primera persona del presente: conozco → conozca, salgo → salga, traduzco → traduzca.",
+          "Al revés también funciona: si conviertes una negación en afirmación, el antecedente vuelve a existir y vuelve el indicativo. El subjuntivo se forma, salvo en unos pocos verbos (ser, ir, saber, estar, dar), desde la primera persona del presente: conozco → conozca, salgo → salga, traduzco → traduzca.",
         ],
         [
           ["Hay algo que me preocupa. → No hay nada que me preocupe.", "There's something that worries me. → There's nothing that worries me."],
@@ -426,7 +426,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         ],
         [
           fb("Rápido.", "El chico que ___ en la recepción es muy amable. (trabajar)", "trabaja", "«El chico» es una persona concreta que puedes señalar → indicativo (trabaja)."),
-          fb("Rápido.", "Pide una habitación que no ___ ruido. (hacer)", "haga", "Cualquier habitación que cumpla la condición → subjuntivo; hacer toma la raíz de hago: haga."),
+          fb("Completa con el verbo en la forma correcta.", "Pide una habitación que no ___ ruido. (hacer)", "haga", "Cualquier habitación que cumpla la condición → subjuntivo; hacer toma la raíz de hago: haga."),
         ]
       ),
     ],
@@ -527,7 +527,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       wo("Quiero una bici que pese poco.", "Desconocida.", "I want a bike that weighs little."),
       toEs("There's no one who can replace you.", "No hay nadie que pueda sustituirte.", "Con un antecedente negativo («nadie»), la relativa va en subjuntivo: «pueda».", ["No hay nadie que te pueda sustituir.", "No hay nadie que pueda reemplazarte."]),
       toEs("Conozco a alguien que repara relojes antiguos.", "No conozco a nadie que repare relojes antiguos.", "Al negar, alguien pasa a nadie y el antecedente deja de existir: la relativa pasa a subjuntivo (repara → repare).", ["Yo no conozco a nadie que repare relojes antiguos."], "Cambia la frase a negativa con «nadie»."),
-      toEs("Tengo un primo que vive en Noruega.", "Busco a alguien que viva en Noruega.", "Con buscar el antecedente es desconocido: la relativa pasa de indicativo (vive) a subjuntivo (viva).", ["Busco alguien que viva en Noruega.", "Busco a una persona que viva en Noruega."], "Cambia «Tengo un primo» por «Busco a alguien» y adapta el verbo."),
+      toEs("Tengo un primo que vive en Noruega.", "Busco a alguien que viva en Noruega.", "Con buscar el antecedente es desconocido: la relativa pasa de indicativo (vive) a subjuntivo (viva).", ["Busco a una persona que viva en Noruega."], "Cambia «Tengo un primo» por «Busco a alguien» y adapta el verbo."),
       toEs("No hay ningún restaurante en el pueblo que sirva comida vegana.", "Hay un restaurante en el pueblo que sirve comida vegana.", "Al afirmar, el restaurante existe y es concreto: la relativa vuelve al indicativo (sirva → sirve).", ["En el pueblo hay un restaurante que sirve comida vegana."], "Cambia la frase a afirmativa."),
     ]
   ),
@@ -692,7 +692,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Recuerda la regla",
         [
           "Recuerda la regla: con el mismo antecedente puedes usar los dos modos, y cada uno dice algo distinto. Indicativo = el hablante sabe cuál es (quiero leer el libro que me recomendaste: uno concreto). Subjuntivo = todavía no sabe cuál es o si existe (quiero leer un libro que me recomiendes: cualquiera, aún no me lo has dicho).",
-          "Por qué: el modo de la relativa no depende del verbo principal, sino de lo que el hablante sabe del antecedente. Pistas: el/la + algo ya pasado → indicativo; un/cualquier/los que + algo futuro o por elegir → subjuntivo.",
+          "Por qué: el modo depende de lo que el hablante sabe del antecedente, no del verbo principal. Ya pasado o identificado → indicativo (los que vinieron ayer); futuro o por elegir → subjuntivo (los que vengan mañana).",
         ],
         [
           ["Llamaré al técnico que vino ayer.", "I'll call the technician who came yesterday."],
@@ -765,8 +765,8 @@ export const B2_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Tu búsqueda.", "Quería un perro que ___ tranquilo. (ser)", "fuera", "Perro deseado (subjuntivo) con quería en pasado (imperfecto): fuera."),
-      fb("Tu búsqueda.", "Encontré uno que ___ todo el día. (dormir, imperfecto)", "dormía", "El perro encontrado es real → indicativo (dormía)."),
-      fb("Tu búsqueda.", "No había ningún piso que ___ dentro de mi presupuesto. (entrar)", "entrara", "Ningún piso no existe y había está en pasado: imperfecto de subjuntivo (entrara)."),
+      fb("Tu búsqueda.", "Encontré un perro que ___ todo el día. (dormir, imperfecto)", "dormía", "El perro encontrado es real → indicativo (dormía)."),
+      fb("Tu búsqueda.", "No había ningún piso que ___ en mi presupuesto. (entrar)", "entrara", "Ningún piso no existe y había está en pasado: imperfecto de subjuntivo (entrara)."),
       fb("Tu búsqueda.", "Al final encontré una empresa que ___ el teletrabajo. (permitir, presente)", "permite", "La empresa encontrada es real → indicativo (permite)."),
       fb("Tu búsqueda.", "Ahora busco una escuela que ___ clases de cerámica. (ofrecer)", "ofrezca", "Escuela desconocida con busco en presente: presente de subjuntivo (ofrezca)."),
       toEs("I was looking for someone who shared my hobbies.", "Buscaba a alguien que compartiera mis aficiones.", "Antecedente desconocido con verbo en pasado → imperfecto de subjuntivo: «compartiera».", ["Buscaba a alguien que compartiese mis aficiones.", "Buscaba a alguien que tuviera mis mismas aficiones."]),
@@ -850,7 +850,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "El futuro todavía no ha pasado",
         [
           "Recuerda la regla: cuando hablas de algo que todavía no ha ocurrido, cuando lleva presente de subjuntivo, y la oración principal va en futuro, en presente con valor de futuro o en imperativo: Cuando llegue a casa, te llamo. Cuando termines, avísame. Nunca: «cuando llegaré».",
-          "¿Por qué? Lo que aún no ha pasado no se presenta como un hecho, y el subjuntivo es el modo de lo no realizado. El futuro solo cabe en la otra mitad de la frase. Los irregulares mantienen la raíz de yo: tengo → tenga, salgo → salga, voy → vaya.",
+          "¿Por qué? Lo que aún no ha pasado no se presenta como un hecho, y el subjuntivo es el modo de lo no realizado. El futuro solo cabe en la otra mitad de la frase. Muchos irregulares parten de la forma de yo: tengo → tenga, salgo → salga; otros, como ir (vaya) o ser (sea), son aparte.",
         ],
         [
           ["Cuando llegue a casa, te llamo.", "When I get home, I'll call you. (presente con valor de futuro)"],
@@ -997,7 +997,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       fb("Rápido.", "Dímelo antes de que ___ tarde. (ser)", "sea", "Antes de que + subjuntivo irregular de ser: sea."),
       fb("Rápido.", "Hay que decidir antes de que se ___ las plazas. (agotar)", "agoten", "Antes de que + subjuntivo, en plural porque concuerda con las plazas: agoten."),
       mc(
-        "«Piénsalo bien antes de ___.» (tú decides)",
+        "«Piénsalo bien antes de ___.» (Think it over carefully before you decide.)",
         ["decidir", "que decidan", "que decides", "decidas"],
         0,
         "Si el sujeto es el mismo (tú piensas, tú decides), se usa antes de + infinitivo: antes de decidir. «Que decidan» introduce otro sujeto distinto de «tú», «que decides» usa indicativo y «decidas» sin «que» no es posible."
@@ -1025,12 +1025,12 @@ export const B2_DRILLS: AnchoredLesson[] = [
         ],
         [
           mc(
-            "«Hablo despacio para que me ___.» (tú entiendes)",
+            "«Hablo despacio para que me ___.» (I speak slowly so that you understand me.)",
             ["entiendas", "entender", "entiendes", "entenderás"],
             0,
             "Con sujeto distinto (yo hablo, tú entiendes) se usa para que + subjuntivo: entiendas. «Entender» sería para el mismo sujeto, y «entiendes» y «entenderás» son indicativo."
           ),
-          fb("Elige.", "Pongo la alarma para no ___ dormido. (quedarse, yo)", "quedarme", "Yo pongo la alarma y yo no me quedo dormido: mismo sujeto → para + infinitivo, con el pronombre pegado (quedarme)."),
+          fb("Completa con el verbo en la forma correcta.", "Pongo la alarma para no ___ dormido. (quedarse, yo)", "quedarme", "Yo pongo la alarma y yo no me quedo dormido: mismo sujeto → para + infinitivo, con el pronombre pegado (quedarme)."),
         ]
       ),
     ],
@@ -1216,16 +1216,16 @@ export const B2_DRILLS: AnchoredLesson[] = [
           ["Antes de que acabe el año, quiero aprender a nadar.", "Before the year ends, I want to learn to swim. (antes de que: siempre subjuntivo)"],
         ],
         [
-          fb("Tus planes.", "Cuando ___ el examen de inglés, lo celebraré. (aprobar)", "apruebe", "El examen está en el futuro (celebraré) → cuando + subjuntivo; aprobar diptonga o → ue: apruebe."),
+          fb("Completa con el verbo en la forma correcta.", "Cuando ___ el examen de inglés, lo celebraré. (aprobar)", "apruebe", "El examen está en el futuro (celebraré) → cuando + subjuntivo; aprobar diptonga o → ue: apruebe."),
         ]
       ),
     ],
     [
-      fb("Tus planes.", "En cuanto ___ un buen trabajo, me independizaré. (encontrar)", "encuentre", "Plan futuro → en cuanto + subjuntivo; encontrar diptonga: encuentre."),
-      fb("Tus planes.", "Antes de que ___ el verano, quiero perder dos kilos. (llegar)", "llegue", "Antes de que lleva siempre subjuntivo; g → gu delante de e: llegue."),
-      fb("Tus planes.", "No dejaré de estudiar hasta que ___ el nivel C1. (conseguir)", "consiga", "Hasta que + acción futura → subjuntivo. Conseguir pierde la u delante de a: consiga."),
-      fb("Tus planes.", "Cuando mis padres se ___, iré a vivir cerca de ellos. (jubilar)", "jubilen", "La jubilación aún no ha llegado → cuando + subjuntivo (se jubilen)."),
-      fb("Tus planes.", "Voy a ahorrar para que mis hijos ___ estudiar fuera. (poder)", "puedan", "Yo ahorro, mis hijos pueden: sujetos distintos → para que + subjuntivo (puedan)."),
+      fb("Completa con el verbo en la forma correcta.", "En cuanto ___ un buen trabajo, me independizaré. (encontrar)", "encuentre", "Plan futuro → en cuanto + subjuntivo; encontrar diptonga: encuentre."),
+      fb("Completa con el verbo en la forma correcta.", "Antes de que ___ el verano, quiero perder dos kilos. (llegar)", "llegue", "Antes de que lleva siempre subjuntivo; g → gu delante de e: llegue."),
+      fb("Completa con el verbo en la forma correcta.", "No dejaré de estudiar hasta que ___ el nivel C1. (conseguir)", "consiga", "Hasta que + acción futura → subjuntivo. Conseguir pierde la u delante de a: consiga."),
+      fb("Completa con el verbo en la forma correcta.", "Cuando mis padres se ___, iré a vivir cerca de ellos. (jubilar)", "jubilen", "La jubilación aún no ha llegado → cuando + subjuntivo (se jubilen)."),
+      fb("Completa con el verbo en la forma correcta.", "Voy a ahorrar para que mis hijos ___ estudiar fuera. (poder)", "puedan", "Yo ahorro, mis hijos pueden: sujetos distintos → para que + subjuntivo (puedan)."),
       toEs("When I retire, I'll live by the sea.", "Cuando me jubile, viviré junto al mar.", "«Cuando» + acción futura exige subjuntivo: «me jubile».", ["Cuando me jubile, viviré cerca del mar.", "Cuando me jubile, voy a vivir junto al mar."]),
       toEs("I want to travel before I turn forty.", "Quiero viajar antes de cumplir cuarenta años.", "Yo viajo y yo cumplo: mismo sujeto → antes de + infinitivo, aunque en inglés diga «before I turn».", ["Quiero viajar antes de cumplir los cuarenta."]),
       toEs("Cuando tengo vacaciones, voy a la playa.", "Cuando tenga vacaciones, iré a la playa.", "De costumbre a plan: cuando pasa a subjuntivo (tenga) y la principal a futuro (iré).", ["Cuando tenga vacaciones, voy a ir a la playa."], "Cambia de costumbre a plan para el próximo verano."),
@@ -1342,7 +1342,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       fb("Rápido.", "Me voy antes de que ___ los atascos. (empezar)", "empiecen", "«Antes de que» siempre pide subjuntivo: los atascos aún no han empezado cuando me voy. Empezar diptonga (e → ie) y cambia z → c: empiecen."),
       fb("Rápido.", "No cuelgues hasta que te ___. (contestar, ellos)", "contesten", "Con una orden (no cuelgues), la respuesta todavía no ha llegado → hasta que + subjuntivo: contesten."),
       fb("Rápido.", "Aunque ___ mucho, no adelgazará. (correr, él — hipótesis)", "corra", "Es una suposición sobre el futuro (aunque llegue a correr mucho) → aunque + subjuntivo: corra."),
-      fb("Rápido.", "En cuanto ___ la puerta, entra el perro. (abrir, yo — siempre)", "abro", "«Siempre» marca un hábito → en cuanto + indicativo (abro). Con una sola vez futura diríamos «en cuanto abra la puerta, entrará»."),
+      fb("Rápido.", "En cuanto ___ la puerta, siempre entra el perro. (abrir, yo)", "abro", "«Siempre» marca un hábito → en cuanto + indicativo (abro). Con una sola vez futura diríamos «en cuanto abra la puerta, entrará»."),
       toEs("Ayer me llamó antes de que salía de casa.", "Ayer me llamó antes de que saliera de casa.", "«Antes de que» lleva subjuntivo incluso en pasado, porque cuando me llamó yo aún no había salido: en pasado se usa el imperfecto de subjuntivo (saliera / saliese). «Salía» es indicativo y es el error.", ["Ayer me llamó antes de que saliese de casa."], "Corrige la frase."),
     ]
   ),
@@ -1550,16 +1550,16 @@ export const B2_DRILLS: AnchoredLesson[] = [
       ),
       sec(
         "Dos trampas: siempre que y por si",
-        "Dos trampas: siempre que + indicativo significa «cada vez que» (un hábito real), y por si, que expresa casi lo mismo que en caso de que, va con indicativo.",
+        "Dos trampas: siempre que + indicativo significa «cada vez que» (un hábito real), y por si, que expresa casi lo mismo que en caso de que, va normalmente con indicativo (en pasado también admite el imperfecto de subjuntivo).",
         [
           ["Siempre que voy a Sevilla, como en el mismo bar.", "Whenever I go to Seville, I eat at the same bar. (siempre que = cada vez que → indicativo)"],
         ],
         [
           mc(
             "«Llévate el paraguas por si ___ esta tarde.»",
-            ["llueve", "llueva", "lloverá", "lloviera"],
+            ["llueve", "llueva", "lloverá", "llovió"],
             0,
-            "Por si va con indicativo, aunque signifique casi lo mismo que en caso de que: por si llueve. «Llueva» sería lo correcto tras en caso de que, no tras por si; «lloverá» y «lloviera» no encajan aquí."
+            "Por si va con indicativo, aunque signifique casi lo mismo que en caso de que: por si llueve. «Llueva» sería lo correcto tras en caso de que, no tras por si; «lloverá» y «llovió» no encajan aquí."
           ),
           mc(
             "«Siempre que ___ a casa de mi abuela, me prepara croquetas.» (cada vez que voy)",
@@ -1861,7 +1861,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      mc("Está lloviendo ahora. «Aunque ___, voy a correr.»", ["llueve", "llueva", "lloviera", "llovió"], 0, "Está lloviendo ahora: es un hecho, así que aunque + indicativo, llueve. «Llueva» sería posible, «lloviera» hipotético y «llovió» pasado."),
+      mc("Está lloviendo ahora y lo dices como un hecho que comunicas. «Aunque ___, voy a correr.»", ["llueve", "llueva", "lloviera", "llovió"], 0, "Está lloviendo ahora: es un hecho, así que aunque + indicativo, llueve. «Llueva» sería posible, «lloviera» hipotético y «llovió» pasado."),
       mc("Mañana puede haber tormenta. «Aunque ___, iremos de excursión.»", ["llueva", "llueve", "llovió", "llovía"], 0, "Quizá llueva mañana: es posible, así que aunque + presente de subjuntivo, llueva. «Llueve» sería un hecho, y «llovió» y «llovía» son pasado."),
       fb("Elige.", "Aunque ___ millonario, no me compraría un yate. (ser, yo — no lo soy)", "fuera", "No lo soy: hipótesis contraria a la realidad → aunque + imperfecto de subjuntivo (fuera), con la principal en condicional (compraría)."),
       fb("Elige.", "Aunque ___ poco dinero, vivimos bien. (tener, nosotros — es un hecho)", "tenemos", "Es un hecho que comunicamos: aunque + indicativo, tenemos."),
@@ -1877,10 +1877,10 @@ export const B2_DRILLS: AnchoredLesson[] = [
       ),
       toEs(
         "Aunque me lo pidas, no iré.",
-        "Aunque me lo pidió, no fui.",
-        "Contado como hecho pasado (te lo pidió de verdad), aunque va con indicativo: pidió; la principal también en indefinido (fui).",
-        ["Aunque me lo pidió, no me fui."],
-        "Pasa la frase al pasado: te lo pidió de verdad."
+        "Aunque me lo pediste, no fui.",
+        "Contado como hecho pasado (me lo pediste de verdad), aunque va con indicativo: pediste; la principal también en indefinido (fui).",
+        ["Aunque me lo pediste, no me fui."],
+        "Pasa la frase al pasado: me lo pediste de verdad."
       ),
       toEs(
         "Aunque fuera rico, no dejaría de trabajar.",
@@ -2433,7 +2433,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         [
           fb("Completa el par con el presente de subjuntivo.", "Espero que ___ bien. (estar, tú) → Esperaba que estuvieras bien.", "estés", "Con «espero» (presente), la subordinada va en presente de subjuntivo: estés; con «esperaba», estuvieras."),
           mc(
-            "«Nos dirán que ___ en la puerta.» (esperar, nosotros)",
+            "«Nos dirán que ___ en la puerta (es una orden).» (esperar, nosotros)",
             ["esperemos", "esperáramos", "esperamos", "esperaríamos"],
             0,
             "Dirán (futuro, como orden) → presente de subjuntivo: esperemos. «Esperáramos» iría con un pasado (nos dijeron), «esperamos» es indicativo (sería información, no una orden) y «esperaríamos» es condicional."
@@ -2610,7 +2610,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "«De niña quería ser bailarina, pero mis padres preferían que estudiara Medicina. Mi madre me decía que era importante que tuviera un trabajo estable. Mi abuela, en cambio, me pedía que nunca dejara de bailar. Me alegraba mucho que ella me apoyara.»",
         [],
         [
-          fb("Completa la continuación del relato.", "Mi abuelo me compraba discos de música clásica para que ___ en casa. (ensayar, yo)", "ensayara", "Para que con otro sujeto lleva subjuntivo, y con el verbo principal en pasado (compraba) va en imperfecto: ensayara."),
+          fb("Completa la continuación del relato.", "Mi abuelo quería que ___ en casa cada tarde. (ensayar, yo)", "ensayara", "Querer (deseo) + otra persona → subjuntivo, y con el verbo principal en pasado (quería) va en imperfecto: ensayaron → ensayara."),
         ]
       ),
     ],
@@ -2935,7 +2935,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "La regla: dos grupos de verbos principales",
         [
-          "Recuerda la regla: los tiempos del verbo principal forman dos grupos. Presente, futuro, imperativo y pretérito perfecto → presente de subjuntivo (quiero / querré / he querido que vengas). Indefinido, imperfecto, pluscuamperfecto y condicional → imperfecto de subjuntivo (quise / quería / querría que vinieras).",
+          "Recuerda la regla: los tiempos del verbo principal forman dos grupos. Presente, futuro, imperativo y, normalmente, pretérito perfecto → presente de subjuntivo (quiero / querré / he querido que vengas). Indefinido, imperfecto, pluscuamperfecto y condicional → imperfecto de subjuntivo (quise / quería / querría que vinieras).",
           "¿Por qué el condicional va con el pasado? El condicional nació como «futuro del pasado» y además expresa lo hipotético; en los dos casos se aleja del presente real, y el imperfecto de subjuntivo es la forma «alejada» del subjuntivo. Por eso «querría que vengas» suena mal en la norma: mezcla los dos grupos.",
         ],
         [
@@ -3005,9 +3005,9 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Corrige la frase."
       ),
       toEs(
-        "Te he dicho mil veces que no dejaras la puerta abierta.",
-        "Te he dicho mil veces que no dejes la puerta abierta.",
-        "El pretérito perfecto (he dicho) se siente cercano al presente y pide presente de subjuntivo: dejes.",
+        "Te digo que no dejaras la puerta abierta.",
+        "Te digo que no dejes la puerta abierta.",
+        "Digo (presente) pide presente de subjuntivo: dejes.",
         [],
         "Corrige la frase."
       ),
@@ -3467,7 +3467,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     [
       fb("Suaviza.", "Quiero que me mande el presupuesto. → Le agradecería que me ___ el presupuesto.", "mandara", "Tras condicional de cortesía («agradecería»), la subordinada va en imperfecto de subjuntivo."),
       fb("Suaviza.", "Es mejor que nos veamos el lunes. → Sería mejor que nos ___ el lunes.", "viéramos", "Tras «sería mejor que», imperfecto de subjuntivo; «viéramos» lleva tilde."),
-      toEs("Corrige la secuencia: «Le agradecería que me responda pronto.»", "Le agradecería que me respondiera pronto.", "Tras «agradecería» (condicional), la norma culta prefiere el imperfecto de subjuntivo: «respondiera» («responda» se oye mucho, sobre todo en América, pero en un correo formal es mejor el imperfecto).", ["Le agradecería que me respondiese pronto.", "Le agradecería que me contestara pronto."]),
+      toEs("Escribe la versión de registro formal con imperfecto de subjuntivo: «Le agradecería que me responda pronto.»", "Le agradecería que me respondiera pronto.", "Tras «agradecería» (condicional), la norma culta prefiere el imperfecto de subjuntivo: «respondiera» («responda» se oye mucho, sobre todo en América, pero en un correo formal es mejor el imperfecto).", ["Le agradecería que me respondiese pronto.", "Le agradecería que me contestara pronto."]),
       toEs("Corrige la secuencia: «Me gustaría que venga usted a la reunión.»", "Me gustaría que viniera usted a la reunión.", "Tras «me gustaría» (condicional), la subordinada va en imperfecto de subjuntivo: «viniera»."),
       toEs("Corrige la secuencia: «Sería conveniente que lo revisen.»", "Sería conveniente que lo revisaran.", "Tras «sería conveniente» (condicional), la subordinada va en imperfecto de subjuntivo: «revisaran»."),
       mc(
@@ -3509,7 +3509,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "Recuerda la regla: localiza el verbo principal",
         [
-          "Recuerda la regla: antes de escribir el subjuntivo, localiza el verbo principal y su tiempo. Presente, futuro, imperativo o pretérito perfecto → presente de subjuntivo (espero que os lo paséis bien). Indefinido, imperfecto o condicional → imperfecto de subjuntivo (les pedí que me dijeran).",
+          "Recuerda la regla: antes de escribir el subjuntivo, localiza el verbo principal y su tiempo. Presente, futuro, imperativo o, normalmente, pretérito perfecto → presente de subjuntivo (espero que os lo paséis bien). Indefinido, imperfecto o condicional → imperfecto de subjuntivo (les pedí que me dijeran).",
           "En el dictado, escucha la sílaba tónica: el imperfecto de subjuntivo en nosotros es esdrújulo y lleva tilde (ganáramos, supiéramos); el presente de subjuntivo cambia la vocal (-ar → -e, -er/-ir → -a: llame, coma, viva).",
         ],
         [
@@ -3567,9 +3567,9 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Corrige la frase."
       ),
       toEs(
-        "Os he pedido muchas veces que no gritarais.",
-        "Os he pedido muchas veces que no gritéis.",
-        "El pretérito perfecto (he pedido) pide presente de subjuntivo: gritéis.",
+        "Os pido que no gritarais.",
+        "Os pido que no gritéis.",
+        "Pido (presente) pide presente de subjuntivo: gritéis.",
         [],
         "Corrige la frase."
       ),
@@ -3672,7 +3672,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     "imperfect-subjunctive-sequence-tenses-drill-3",
     "b2d-circuito-verbos-influencia",
     "Circuito: verbos de influencia en pasado",
-    "Pedir, exigir, prohibir, aconsejar, permitir: todos piden la secuencia.",
+    "Aprenderás a usar el subjuntivo (presente o imperfecto) tras verbos de influencia como pedir, exigir, prohibir, aconsejar y permitir.",
     "6 min",
     [
       sec(
@@ -3839,7 +3839,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "Como si",
         [
-          "La regla: como si compara la realidad con algo que no es verdad (o que el hablante no cree), así que va siempre con imperfecto de subjuntivo: Habla como si fuera el jefe (no lo es). Si la comparación se refiere a algo anterior, pluscuamperfecto: como si no hubiera pasado nada.",
+          "La regla: como si compara la realidad con algo que no es verdad, así que va siempre con imperfecto de subjuntivo: Habla como si fuera el jefe (no lo es). Para algo anterior, pluscuamperfecto de subjuntivo (hubiera + participio): como si no hubiera pasado nada.",
           "A diferencia de la secuencia normal, el tiempo del verbo principal no cambia nada: Habla / Hablaba / Hablará como si fuera el jefe. Nunca indicativo ni presente de subjuntivo tras como si (✗ como si es, ✗ como si sea).",
         ],
         [
@@ -3921,7 +3921,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Recuerda la regla",
         [
           "Recuerda la regla: en la hipótesis, cada mitad tiene su tiempo. La mitad con si lleva imperfecto de subjuntivo (si tuviera); la otra mitad lleva condicional (aprendería). El error típico es poner condicional en las dos (✗ si tendría... aprendería), porque en inglés «would» a veces aparece en las dos partes.",
-          "Truco: busca el si. Si el verbo que lo sigue acaba en -ría, está mal. El segundo error típico es el contrario: poner presente o subjuntivo en la consecuencia (✗ si fuera rico, compre un barco).",
+          "Truco: busca el si de condición (no el de «whether»: No sé si podría ir). Si el verbo que lo sigue acaba en -ría, está mal. El segundo error típico es el contrario: poner presente o subjuntivo en la consecuencia (✗ si fuera rico, compre un barco).",
         ],
         [
           ["Si tuviera más tiempo, aprendería a tocar la guitarra.", "If I had more time, I'd learn to play the guitar. (si + -ra, consecuencia en -ría)"],
@@ -4261,7 +4261,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       wo("Me lo dirías si lo supieras.", "Orden invertido: el condicional (dirías) va primero y si + imperfecto de subjuntivo (supieras) al final, sin coma.", "You'd tell me if you knew."),
       wo("Si no hiciera tanto calor, saldríamos a correr.", "Hipótesis sobre el presente: si + imperfecto de subjuntivo (hiciera) + condicional (saldríamos).", "If it weren't so hot, we'd go running."),
       wo("¿Qué harías si te ofrecieran ese puesto?", "Pregunta hipotética: condicional (harías) + si + imperfecto de subjuntivo (ofrecieran).", "What would you do if they offered you that job?"),
-      wo("Me mira como si no me conociera.", "Como si va siempre con imperfecto de subjuntivo: conociera.", "He looks at me as if he didn't know me."),
+      wo("Compraría ese coche si tuviera dinero.", "Condicional en la consecuencia (compraría) e imperfecto de subjuntivo tras «si» (tuviera), aunque la condición vaya al final.", "I would buy that car if I had money."),
       toEs("If you asked me, I would help you.", "Si me lo pidieras, te ayudaría.", "Condición hipotética: «si me lo pidieras» + condicional «te ayudaría».", ["Si me lo pidieses, te ayudaría.", "Te ayudaría si me lo pidieras."]),
       toEs("I would call him if I had his number.", "Lo llamaría si tuviera su número.", "Condición hipotética: si + imperfecto de subjuntivo (tuviera) + condicional (llamaría).", ["Lo llamaría si tuviese su número.", "Si tuviera su número, lo llamaría.", "Si tuviese su número, lo llamaría.", "Le llamaría si tuviera su número.", "Si tuviera su número, le llamaría."]),
       { type: "dictation", audio: "Si me tocara la lotería, dejaría de trabajar.", explanation: "Si + imperfecto de subjuntivo (tocara) y coma; la consecuencia en condicional (dejaría)." },
@@ -4304,7 +4304,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         ],
         [
           ["Si pudiera, conocería a Frida Kahlo.", "If I could, I'd meet Frida Kahlo. (pudiera + conocería)"],
-          ["Me quedaría un mes entero en el Egipto antiguo.", "I'd stay a whole month in ancient Egypt. (la historia sigue en condicional)"],
+          ["Me quedaría un mes entero en el antiguo Egipto.", "I'd stay a whole month in ancient Egypt. (la historia sigue en condicional)"],
         ],
         [
           fb("Completa.", "Si ___ una máquina del tiempo, viajaría al siglo XVI. (tener)", "tuviera", "Situación imposible: si + imperfecto de subjuntivo, tuviera."),
@@ -4332,9 +4332,9 @@ export const B2_DRILLS: AnchoredLesson[] = [
       toEs("If I could travel in time, I would go to ancient Rome.", "Si pudiera viajar en el tiempo, iría a la antigua Roma.", "Condición imposible: «si pudiera» + condicional «iría».", ["Si pudiese viajar en el tiempo, iría a la antigua Roma.", "Si pudiera viajar en el tiempo, iría a la Roma antigua."]),
       toEs(
         "Si tengo vacaciones, iré a Roma.",
-        "Si tuviera una máquina del tiempo, iría a la Roma antigua.",
+        "Si tuviera una máquina del tiempo, iría a Roma.",
         "El plan real (si tengo…, iré) pasa a hipótesis imposible: si + imperfecto de subjuntivo (tuviera) y condicional (iría).",
-        ["Si tuviese una máquina del tiempo, iría a la Roma antigua.", "Si tuviera una máquina del tiempo, iría a la antigua Roma."],
+        ["Si tuviera una máquina del tiempo, iría a la Roma antigua.", "Si tuviese una máquina del tiempo, iría a Roma.", "Si tuviese una máquina del tiempo, iría a la Roma antigua.", "Si tuviera una máquina del tiempo, iría a la antigua Roma."],
         "Transforma el plan en una fantasía: «Si tuviera una máquina del tiempo…»."
       ),
       toEs(
@@ -4653,7 +4653,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "¿Mentirías a un amigo si eso lo salvara de un problema?",
         "Una pregunta hipotética lleva condicional (mentirías) y si + imperfecto de subjuntivo (salvara).",
         ["¿Le mentirías a un amigo si eso lo salvara de un problema?", "¿Mentirías a un amigo si eso le salvara de un problema?"],
-        "Transforma la frase en una pregunta hipotética: «¿Mentirías a un amigo si eso lo salvara…?»."
+        "Transforma la frase en una pregunta hipotética que termine en «…si eso lo salvara de un problema»: «¿Mentirías…?»."
       ),
       toEs(
         "Si un compañero copiaría en el examen, no diría nada.",
@@ -4733,7 +4733,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Si supiera conducir, iría a trabajar en coche.",
         "El mismo imperfecto de subjuntivo (supiera) sirve para la hipótesis; solo hay que añadir la consecuencia en condicional.",
         ["Si supiese conducir, iría a trabajar en coche.", "Si supiera manejar, iría a trabajar en carro."],
-        "Transforma el deseo en una hipótesis: «Si supiera conducir, iría a trabajar en coche»."
+        "Transforma el deseo en una hipótesis y añade qué harías: «Si supiera conducir, iría a trabajar en…»."
       ),
       toEs(
         "Habla como un profesor.",
@@ -4941,7 +4941,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Los participios de siempre",
         [
           "Recuerda la regla: habría y hubiera se combinan con el mismo participio que ya usas en he hecho o había dicho. Los irregulares no cambian por estar en una estructura nueva: hecho, dicho, visto, puesto, vuelto, escrito, abierto, roto, muerto, resuelto, cubierto.",
-          "Pista para los compuestos: heredan el participio de su base. Volver → vuelto, así que devolver → devuelto y resolver → resuelto; poner → puesto, así que proponer → propuesto; cubrir → cubierto, así que descubrir → descubierto.",
+          "Pista para los compuestos: heredan el participio de su base. Volver → vuelto, así que devolver → devuelto (y resolver, que sigue el mismo modelo, → resuelto); poner → puesto, así que proponer → propuesto; cubrir → cubierto, así que descubrir → descubierto.",
         ],
         [
           ["Yo lo habría hecho de otra manera.", "I would have done it differently. (hacer → hecho)"],
@@ -4987,7 +4987,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
           ["Si hubiera aprendido inglés de niño, ahora lo hablaría perfectamente.", "If I had learned English as a child, I'd speak it perfectly now. (resultado presente)"],
         ],
         [
-          fb("Tu vida.", "Si ___ Arte, habría sido más feliz. (estudiar)", "hubiera estudiado", "La decisión pasada no tomada va en pluscuamperfecto de subjuntivo: hubiera estudiado."),
+          fb("Tu vida.", "Si hubiera estudiado Derecho, ahora ___ abogado. (ser, yo)", "sería", "Condición pasada (hubiera estudiado) con resultado en tu vida de ahora: condicional simple, sería (no «habría sido»)."),
         ]
       ),
     ],
@@ -5135,7 +5135,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "Por qué se cuela el error: el mensaje",
         [
-          "Por qué se cuela el error: en inglés «would have» aparece a veces en las dos partes en el habla coloquial, y en algunas zonas de España se oye «si habría». En la norma culta es incorrecto, y en un examen o un correo de trabajo se nota.",
+          "Por qué se cuela el error: en inglés «would have» aparece a veces en las dos partes en el habla coloquial, y en algunas zonas de España y de América se oye «si habría». En la norma culta es incorrecto, y en un examen o un correo de trabajo se nota.",
           "El mensaje: «Si habría sabido que venías, te habría esperado. Si hubieras llamado, te hubiera abierto. Si me habrías avisado, no habría pasado nada.» Dos errores; una frase es correcta.",
         ],
         [],
@@ -5179,7 +5179,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Rápido.", "Si hubieras estudiado, ___ aprobado. (tú)", "habrías", "Es la consecuencia de una condición pasada: condicional compuesto, habrías aprobado (también se acepta hubieras)."),
+      { ...fb("Rápido.", "Si hubieras estudiado, ___ aprobado. (tú)", "habrías", "Es la consecuencia de una condición pasada: condicional compuesto, habrías aprobado (también se acepta hubieras)."), altAnswers: ["hubieras"] },
       fb("Rápido.", "Ojalá ___ llegado a tiempo. (nosotros)", "hubiéramos", "Ojalá siempre pide subjuntivo: hubiéramos llegado. «Habríamos» es condicional y no va tras ojalá."),
       fb("Rápido.", "Me miró como si ___ visto un fantasma. (él)", "hubiera", "Como si siempre va con imperfecto o pluscuamperfecto de subjuntivo; para algo anterior, hubiera visto."),
       fb("Rápido.", "Yo no lo ___ comprado. (yo)", "habría", "No hay si ni ojalá: es una opinión sobre lo que habrías hecho, con la condición implícita (si hubiera sido yo). Va habría."),
@@ -5584,7 +5584,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Mismo marco.", "«Estoy de vacaciones.» → Dijo que ___ de vacaciones.", "estaba", "Presente → imperfecto: estoy → estaba."),
-      fb("Mismo marco.", "«Perdí las llaves.» → Dijo que ___ las llaves.", "había perdido", "El pretérito pasa a pluscuamperfecto: perdí → había perdido."),
+      { ...fb("Mismo marco.", "«Perdí las llaves.» → Dijo que ___ las llaves.", "había perdido", "El pretérito suele pasar a pluscuamperfecto: perdí → había perdido (también se oye «perdió»)."), altAnswers: ["perdió"] },
       fb("Mismo marco.", "«He terminado.» → Dijo que ___.", "había terminado", "El pretérito perfecto pasa a pluscuamperfecto: he terminado → había terminado."),
       fb("Mismo marco.", "«Llamaré a mi madre.» → Dijo que ___ a su madre.", "llamaría", "El futuro pasa a condicional: llamaré → llamaría."),
       fb("Mismo marco.", "«No puedo ir.» → Dijo que no ___ ir.", "podía", "Presente → imperfecto: no puedo → no podía."),
@@ -5623,7 +5623,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       fb("Estación 1.", "«Mañana voy al médico.» → Dijo que ___ iba al médico.", "al día siguiente", "«Mañana» pasa a «al día siguiente»."),
       fb("Estación 1.", "«Ayer llovió.» → Dijo que ___ había llovido.", "el día anterior", "«Ayer» pasa a «el día anterior»."),
       fb("Estación 2.", "«Aquí se come muy bien.» → Dijo que ___ se comía muy bien.", "allí", "«Aquí» pasa a «allí», porque el que cuenta ya no está en ese lugar."),
-      fb("Estación 2.", "«Ahora estoy ocupado.» → Dijo que ___ estaba ocupado.", "entonces", "«Ahora» pasa a «entonces» (o «en ese momento»)."),
+      { ...fb("Estación 2.", "«Ahora estoy ocupado.» → Dijo que ___ estaba ocupado.", "entonces", "«Ahora» pasa a «entonces» (o «en ese momento»)."), altAnswers: ["en ese momento", "en aquel momento"] },
       fb("Estación 3.", "«Este libro es mío.» → Dijo que ___ libro era suyo.", "ese", "Los demostrativos se alejan: «este» pasa a «ese» (o «aquel»)."),
       fb("Estación 3.", "«Volveré la semana que viene.» → Dijo que volvería la semana ___.", "siguiente", "«La semana que viene» pasa a «la semana siguiente»."),
       mc(
@@ -5678,7 +5678,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Dos decir",
         [
           "Recuerda la regla: decir, escribir o avisar tienen dos usos. Si informan de un hecho, la subordinada va en indicativo: «Vengo mañana» → Dijo que venía al día siguiente. Si transmiten una orden o petición, va en subjuntivo: «Ven mañana» → Dijo que viniera al día siguiente.",
-          "Por qué: el subjuntivo marca lo que alguien quiere que pase, no lo que pasa. Por eso el modo es la única pista de lo que se dijo: «Me dijo que lo llamaba» (él me iba a llamar) frente a «Me dijo que lo llamara» (yo tenía que llamarlo).",
+          "Por qué: el subjuntivo marca lo que alguien quiere que pase, no lo que pasa. Por eso el modo es la única pista de lo que se dijo: «Me dijo que me llamaba» (él me iba a llamar) frente a «Me dijo que lo llamara» (yo tenía que llamarlo).",
         ],
         [
           ["Dijo que salía temprano.", "He said he was leaving early."],
@@ -5792,7 +5792,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         ],
         [
           ["Me dijo que tenía prisa.", "He told me he was in a hurry. (tengo → tenía)"],
-          ["Me pidió que lo esperara.", "She asked me to wait for her. (petición → imperfecto de subjuntivo)"],
+          ["Me pidió que lo esperara.", "He asked me to wait for him. (petición → imperfecto de subjuntivo)"],
         ],
         [
           mc(
@@ -6246,7 +6246,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         0,
         "«Estar despierto» describe un estado: no estar dormido. «Es despierto» describiría su carácter (listo), «hay» no lleva sujeto así y «sea» es subjuntivo sin motivo."
       ),
-      toEs("The soup is delicious.", "La sopa está riquísima.", "«Estar rico» significa tener buen sabor; «ser rico» es tener dinero.", ["La sopa está buenísima.", "La sopa está muy rica.", "La sopa está deliciosa."]),
+      toEs("The soup is delicious.", "La sopa está riquísima.", "«Estar rico» significa tener buen sabor; «ser rico» es tener dinero.", ["La sopa es deliciosa.", "La sopa está buenísima.", "La sopa está muy rica.", "La sopa está deliciosa."]),
     ]
   ),
   L(
@@ -6436,7 +6436,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     ],
     [
       toEs("Hay la piscina en la azotea.", "La piscina está en la azotea.", "Con artículo definido («la piscina») se usa «estar» para la ubicación, no «hay».", ["Hay una piscina en la azotea."], "Corrige la frase."),
-      toEs("La habitación era muy limpia.", "La habitación estaba muy limpia.", "Al valorar cómo encontraste la habitación se usa «estar limpia»; «era limpia» presenta la limpieza como cualidad habitual y suena menos natural aquí.", undefined, "Corrige la frase."),
+      toEs("La habitación era limpia cuando llegamos.", "La habitación estaba limpia cuando llegamos.", "Al valorar cómo encontraste la habitación al llegar se usa «estar limpia»; «era limpia» presenta la limpieza como cualidad habitual y suena menos natural aquí.", undefined, "Corrige la frase."),
       toEs("El desayuno fue rico.", "El desayuno estaba rico.", "Para el sabor de una comida se usa «estar rico», no «ser rico».", ["El desayuno estaba muy rico.", "El desayuno estuvo rico.", "El desayuno estuvo muy rico."], "Corrige la frase."),
       toEs("Hubieron muchos problemas con el wifi.", "Hubo muchos problemas con el wifi.", "«Haber» impersonal va siempre en singular: «hubo», nunca «hubieron».", undefined, "Corrige la frase."),
     ]
@@ -6552,7 +6552,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         [
           ["La tienda fue cerrada por la policía.", "The shop was closed by the police. (acción)"],
           ["La tienda está cerrada.", "The shop is closed. (resultado)"],
-          ["Las cartas fueron enviadas ayer y ya están recibidas.", "The letters were sent yesterday and have already been received."],
+          ["Las cartas fueron enviadas ayer y ya están entregadas.", "The letters were sent yesterday and have already been delivered."],
         ],
         [
           fb("Acción.", "El cuadro ___ pintado en 1890. (ser, indefinido)", "fue", "Una fecha concreta indica la acción de pintar: ser en pretérito + participio."),
@@ -6649,7 +6649,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       wo("Ese chico es muy listo para su edad.", "Ser listo = inteligente, una cualidad.", "That boy is very clever for his age."),
       toEs("There was a lot of traffic yesterday.", "Ayer hubo mucho tráfico.", "«Haber» impersonal va en singular; para un hecho pasado concreto, indefinido: «hubo».", ["Ayer había mucho tráfico.", "Hubo mucho tráfico ayer."]),
       toEs("Where is the party being held?", "¿Dónde es la fiesta?", "Para preguntar dónde tiene lugar un evento se usa «ser»: «¿Dónde es la fiesta?»."),
-      toEs("Hay un concierto en el parque.", "El concierto es en el parque.", "Con «el concierto» ya no se presenta con hay; pero, como es un evento, su lugar va con ser, no con estar.", [], "Sustituye «un concierto» por «el concierto». ¡Cuidado: es un evento!"),
+      toEs("Hay un concierto en el parque.", "El concierto es en el parque.", "Con «el concierto» ya no se presenta con hay; pero, como es un evento, su lugar va con ser, no con estar.", [], "Sustituye «un concierto» por «el concierto»."),
       toEs("Hay una tormenta esta noche.", "Anoche hubo una tormenta.", "Un suceso concreto del pasado se expresa con hubo (pretérito de haber), en singular.", [], "Pasa la frase al pasado con «anoche»."),
       toEs("Ayer estuvo un accidente en la autopista.", "Ayer hubo un accidente en la autopista.", "Para decir que un suceso ocurrió se usa haber (hubo), no estar.", [], "Corrige la frase."),
       toEs("La cena es lista; ya podemos comer.", "La cena está lista; ya podemos comer.", "Estar listo = preparado. «Ser listo» significa inteligente.", [], "Corrige la frase."),
@@ -6852,7 +6852,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
             0,
             "«Cada vez que veía» marca una reacción que se repetía en el pasado → imperfecto: se ponía. «Se puso» contaría una sola vez, y «pone» y «pondrá» no son pasado."
           ),
-          fb("Completa.", "Su madre se ___ a llorar el día que Rosa se fue a Madrid. (ponerse, indefinido)", "puso", "Una reacción en un momento concreto del pasado (el día que se fue) → indefinido: se puso. «Ponerse a» + infinitivo significa empezar a hacer algo."),
+          fb("Completa.", "Su madre se ___ muy triste el día que Rosa se fue a Madrid. (ponerse, indefinido)", "puso", "Una reacción en un momento concreto del pasado (el día que se fue) → indefinido: se puso triste. Ponerse + adjetivo expresa un cambio de estado pasajero."),
         ]
       ),
       sec(
@@ -6862,7 +6862,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         ],
         [],
         [
-          fb("Completa.", "El teatro se ___ en el más visitado del país. (convertirse, indefinido)", "convirtió", "El teatro pasa a ser otra cosa (el más visitado) → convertirse en; indefinido: se convirtió."),
+          fb("Completa.", "El viejo mercado se ___ en el más visitado de la región. (convertirse, indefinido)", "convirtió", "El mercado pasa a ser otra cosa (el más visitado) → convertirse en; indefinido: se convirtió."),
         ]
       ),
     ],
@@ -6966,7 +6966,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         [0, 1],
         "«Se puso contento» (estado pasajero) y «Se hizo famoso» (logro) son correctas. «Se volvió en rana» añade un «en» que volverse no lleva, y «Se convirtió contento» usa convertirse con un adjetivo."
       ),
-      fb("Transforma el estado en el cambio.", "Es muy desconfiada. → Desde el robo, ___ muy desconfiada. (pretérito perfecto)", "se ha vuelto", "Un rasgo de carácter que cambia de forma duradera y sin querer («desde el robo») → volverse: se ha vuelto desconfiada."),
+      { ...fb("Transforma el estado en el cambio.", "Es muy desconfiada. → Desde el robo, ___ muy desconfiada. (pretérito perfecto)", "se ha vuelto", "Un rasgo de carácter que cambia de forma duradera y sin querer («desde el robo») → volverse: se ha vuelto desconfiada. Se ha puesto desconfiada también se oye, pero describiría una reacción más pasajera."), altAnswers: ["se ha puesto"] },
     ]
   ),
   L(
@@ -7025,7 +7025,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     "verbs-of-change-drill-3",
     "b2d-habla-de-ti-cambios",
     "Habla de ti: cómo has cambiado",
-    "Cuenta tus propios cambios con los cinco verbos.",
+    "Cuenta tus propios cambios eligiendo entre ponerse, volverse, hacerse, convertirse en, quedarse y llegar a ser.",
     "6 min",
     [
       sec(
@@ -7075,7 +7075,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
   L(
     "verbs-of-change-drill-3",
     "b2d-ronda-verbos-cambio",
-    "Ronda rápida: cinco verbos de cambio",
+    "Ronda rápida: verbos de cambio",
     "Practicarás en una ronda rápida la elección entre ponerse, volverse, hacerse, llegar a ser, quedarse y convertirse en según el tipo de cambio.",
     "5 min",
     [
@@ -7115,7 +7115,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     "verbs-of-change-drill-3",
     "b2d-mezcla-cambio-ciudad",
     "Práctica mezclada: mi ciudad antes y ahora",
-    "Verbos de cambio, ser/estar y haber en una descripción.",
+    "Aprenderás a describir un lugar y su evolución combinando ser, estar, haber y los verbos de cambio.",
     "7 min",
     [
       sec(
@@ -7158,7 +7158,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       fb("Completa la descripción.", "Hace veinte años, ___ fábricas por todas partes. (haber)", "había", "Existencia en el fondo del pasado: había, en singular aunque fábricas sea plural."),
       fb("Completa la descripción.", "Poco a poco la zona del puerto se ___ en un barrio turístico. (convertir)", "convirtió", "Una cosa pasa a ser otra (un barrio turístico, sustantivo): convertirse en, en indefinido porque es un cambio completado."),
       fb("Completa la descripción.", "Con el tiempo los vecinos se ___ más abiertos. (volverse)", "volvieron", "Abiertos describe el carácter, que cambia poco a poco: volverse."),
-      fb("Completa la descripción.", "Aunque algunos se ___ furiosos con la subida de precios. (ponerse)", "pusieron", "El enfado es una reacción emocional ante un hecho: ponerse."),
+      fb("Completa la descripción.", "Algunos se ___ furiosos con la subida de precios. (ponerse)", "pusieron", "El enfado es una reacción emocional ante un hecho: ponerse."),
       fb("Completa la descripción.", "Hoy la avenida principal ___ irreconocible. (ser/estar)", "está", "Irreconocible describe el estado que resulta del cambio, no la identidad: estar."),
       mc(
         "«El alcalde de entonces ___ ministro años después.»",
@@ -7209,7 +7209,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     ],
     [
       { ...fb("Transforma.", "Estaba cansado. ___, siguió trabajando.", "Sin embargo", "Tras punto empieza una oración nueva: el contraste lo abre sin embargo (o no obstante), con coma detrás. Aunque no puede abrir una oración principal sola."), altAnswers: ["No obstante"] },
-      fb("Transforma.", "___ estar cansado, siguió trabajando.", "A pesar de", "Detrás hay un infinitivo (estar) y el sujeto es el mismo en las dos partes: a pesar de + infinitivo. Aunque necesitaría un verbo conjugado (aunque estaba)."),
+      { ...fb("Transforma.", "___ estar cansado, siguió trabajando.", "A pesar de", "Detrás hay un infinitivo (estar) y el sujeto es el mismo en las dos partes: a pesar de + infinitivo. Aunque necesitaría un verbo conjugado (aunque estaba)."), altAnswers: ["Pese a"] },
       fb("Transforma.", "A pesar de ___ estaba cansado, siguió trabajando.", "que", "Estaba es un verbo conjugado, así que a pesar de necesita que: a pesar de que estaba."),
       { ...fb("Completa con un conector de contraste.", "El examen era difícil. ___, aprobaron todos.", "No obstante", "Oración nueva tras punto, con coma detrás: no obstante (formal) o sin embargo."), altAnswers: ["Sin embargo"] },
       { ...fb("Completa con un conector de concesión.", "___ precio, compraron la casa.", "A pesar del", "Precio es un sustantivo: a pesar de + el precio = a pesar del precio. Pese a funciona igual (pese al precio)."), altAnswers: ["Pese al"] },
@@ -7429,24 +7429,34 @@ export const B2_DRILLS: AnchoredLesson[] = [
     "6 min",
     [
       sec(
-        "Las piezas",
+        "Tesis, causa y otro argumento",
         [
-          "Recuerda la regla: un párrafo argumentativo se monta pieza a pieza, y cada pieza tiene sus conectores. Tesis + causa (creo que…, ya que / puesto que…) → otro argumento (además, asimismo) → concesión: reconoces lo que dirían en contra (aunque, a pesar de que, si bien + indicativo, porque es un hecho que admites) → contraste: vuelves a tu postura (sin embargo, no obstante) → conclusión (por lo tanto, por consiguiente) con un condicional que suaviza la recomendación (deberían…).",
-          "¿Por qué conceder? Porque reconocer una objeción antes de rebatirla hace el argumento más convincente. Vas a construir, paso a paso, un párrafo a favor del teletrabajo.",
+          "Recuerda la regla: un párrafo argumentativo se monta pieza a pieza, y cada pieza tiene sus conectores. Tesis + causa (creo que…, ya que / puesto que…) → otro argumento (además, asimismo). Vas a construir, paso a paso, un párrafo a favor del teletrabajo.",
         ],
         [
           ["Creo que leer en papel es mejor, ya que cansa menos la vista.", "I think reading on paper is better, since it's less tiring for the eyes. (tesis + causa)"],
+        ],
+        [
+          { ...fb("Paso 1: da la causa con un conector.", "Creo que el teletrabajo es positivo, ___ reduce el tráfico.", "ya que", "Después de la tesis, la razón que la justifica va con un conector de causa: ya que (o puesto que, porque)."), altAnswers: ["porque", "puesto que", "dado que"] },
+      { ...fb("Paso 2: añade otro argumento con un conector.", "___, ahorra tiempo a los trabajadores.", "Además", "«Además» añade otro argumento a favor en la misma dirección."), altAnswers: ["Asimismo"] },
+        ]
+      ),
+      sec(
+        "Concesión, contraste y conclusión",
+        [
+          "Concesión: reconoces lo que dirían en contra (aunque, a pesar de que, si bien + indicativo, porque es un hecho que admites) → contraste: vuelves a tu postura (sin embargo, no obstante) → conclusión (por lo tanto, por consiguiente) con un condicional que suaviza la recomendación (deberían…).",
+          "¿Por qué conceder? Porque reconocer una objeción antes de rebatirla hace el argumento más convincente.",
+        ],
+        [
           ["Si bien el libro digital es práctico, no transmite lo mismo.", "Although e-books are practical, they don't convey the same feeling. (concesión)"],
           ["Por consiguiente, las bibliotecas deberían mantener sus fondos en papel.", "Consequently, libraries should keep their paper collections. (conclusión + condicional)"],
         ],
         [
-          { ...fb("Paso 1: da la causa con un conector.", "Creo que el teletrabajo es positivo, ___ reduce el tráfico.", "ya que", "Después de la tesis, la razón que la justifica va con un conector de causa: ya que (o puesto que, porque)."), altAnswers: ["porque", "puesto que", "dado que"] },
+      { ...fb("Paso 3: reconoce una objeción con un conector de concesión.", "___ algunos se sienten aislados, la mayoría está satisfecha.", "Aunque", "La concesión admite un hecho contrario que no impide lo principal: aunque + indicativo (se sienten), porque reconoces que es verdad."), altAnswers: ["A pesar de que", "Si bien"] },
         ]
       ),
     ],
     [
-      { ...fb("Paso 2: añade otro argumento con un conector.", "___, ahorra tiempo a los trabajadores.", "Además", "«Además» añade otro argumento a favor en la misma dirección."), altAnswers: ["Asimismo"] },
-      { ...fb("Paso 3: reconoce una objeción con un conector de concesión.", "___ algunos se sienten aislados, la mayoría está satisfecha.", "Aunque", "La concesión admite un hecho contrario que no impide lo principal: aunque + indicativo (se sienten), porque reconoces que es verdad."), altAnswers: ["A pesar de que", "Si bien"] },
       { ...fb("Paso 4: contrasta con un conector.", "Hay problemas de comunicación; ___, existen herramientas para resolverlos.", "sin embargo", "Tras el problema, sin embargo devuelve el párrafo a tu postura (la solución)."), altAnswers: ["no obstante"] },
       { ...fb("Paso 5: concluye con un conector de consecuencia.", "___, las empresas deberían ofrecerlo.", "Por lo tanto", "«Por lo tanto» introduce la conclusión del razonamiento; el condicional deberían suaviza la recomendación."), altAnswers: ["Por consiguiente", "Por tanto", "En conclusión"] },
       { ...fb("Paso 6: da la causa con un conector.", "___ que los beneficios son claros, no hay motivo para esperar.", "Dado", "«Dado que» introduce una causa conocida en registro formal."), altAnswers: ["Puesto", "Ya"] },
@@ -7501,7 +7511,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "«Los deberes ya ___ he hecho.»",
         ["los", "les", "lo", "—"],
         0,
-        "Si el complemento directo va delante del verbo, se repite con un pronombre obligatorio que concuerda: los deberes → los. «Les» es indirecto, «lo» es singular y sin pronombre la frase es incorrecta."
+        "Si el complemento directo va delante del verbo, se repite con un pronombre obligatorio que concuerda: los deberes → los. «Les» sería leísmo de plural (se prefiere «los»), «lo» es singular y sin pronombre falta la huella del complemento antepuesto."
       ),
       toEs("I'll pay for the coffee (start with «el café»).", "El café lo pago yo.", "Al anteponer el complemento directo para destacar al sujeto, se repite con pronombre: «el café lo pago yo».", ["El café lo pagaré yo.", "El café lo pago yo, tranquilo."]),
     ]
@@ -7568,7 +7578,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "De ¡qué…! a lo … que",
         [
-          "Recuerda la regla: una exclamación con qué (¡Qué difícil es!) puede meterse dentro de otra frase con lo + adjetivo o adverbio + que: No sabes lo difícil que es. Así el grado se convierte en el objeto de verbos como saber, imaginar, sorprender, encantar o darse cuenta de.",
+          "Recuerda la regla: una exclamación con qué (¡Qué difícil es!) puede meterse dentro de otra frase con lo + adjetivo o adverbio + que: No sabes lo difícil que es. Así el grado pasa a ser el contenido de verbos como saber, imaginar, sorprender, encantar o darse cuenta de (como complemento o como sujeto: Me sorprende lo rápido que aprendes).",
           "Y el nexo es siempre que, no como ni cuánto: lo mal que juega, no «lo mal como juega».",
         ],
         [
@@ -7648,7 +7658,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
             "¿Qué frase es correcta?",
             ["Jamás he estado en Asia.", "Jamás no he estado en Asia.", "No jamás he estado en Asia.", "He no estado jamás en Asia."],
             0,
-            "Cuando jamás va delante del verbo, el no desaparece: Jamás he estado en Asia. El no solo aparece si jamás va detrás (No he estado jamás en Asia), y nunca entre haber y el participio."
+            "Cuando jamás va delante del verbo, el no desaparece: Jamás he estado en Asia. El no solo aparece si jamás va detrás (No he estado jamás en Asia), y el adverbio no se coloca entre haber y el participio."
           ),
         ]
       ),
@@ -7657,7 +7667,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       mc("Hablas de las fotos (tema ya conocido) y dices quién las hizo:", ["Las fotos las hizo mi hermano.", "Mi hermano hizo fotos.", "Hizo las fotos.", "Las fotos hizo mi hermano."], 0, "Un tema conocido se antepone y se repite con pronombre: Las fotos las hizo mi hermano. «Las fotos hizo mi hermano» omite el pronombre que marca el tema conocido (sin él la frase pasa a ser un contraste), y las otras no anteponen el tema."),
       mc("Di lo mismo con «jamás» al principio: nunca había estado tan feliz.", ["Jamás había estado tan feliz.", "Había estado jamás tan feliz.", "Tan feliz jamás.", "Estado jamás feliz."], 0, "«Jamás» puede ir al principio, sin «no» y con el verbo detrás: Jamás había estado tan feliz. Las otras opciones colocan jamás en mal lugar o dejan la frase sin verbo completo."),
       fb("Transforma la frase para destacar lo que necesitas.", "Necesito tiempo. → ___ necesito es tiempo.", "Lo que", "Para destacar una cosa se usa «lo que» + verbo + es: «Lo que necesito es tiempo». Quien solo sirve para personas."),
-      { ...fb("Enfatiza.", "No he visto nunca un lugar tan bonito. → ___ he visto un lugar tan bonito. (adverbio negativo al principio, sin «no»)", "Jamás", "Con jamás o nunca delante del verbo, el no desaparece: «Jamás he visto…». «No he visto nunca» es la versión neutra con el adverbio detrás."), altAnswers: ["Nunca"] },
+      { ...fb("Enfatiza.", "No he visto nunca un lugar tan bonito. → ___ he visto un lugar tan bonito. (con un adverbio negativo)", "Jamás", "Con jamás o nunca delante del verbo, el no desaparece: «Jamás he visto…». «No he visto nunca» es la versión neutra con el adverbio detrás."), altAnswers: ["Nunca"] },
       fb("Transforma la frase: antepón el tema.", "Mi abuela cantaba esa canción. → Esa canción ___ cantaba mi abuela.", "la", "Un complemento directo antepuesto como tema se retoma con pronombre: «la» (sin pronombre solo es posible con un contraste muy marcado)."),
       toEs("What surprises me is his attitude.", "Lo que me sorprende es su actitud.", "Para destacar una cosa se usa «lo que»: «Lo que me sorprende es…».", ["Lo que me sorprende es la actitud que tiene."]),
     ]
@@ -7911,7 +7921,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
           ["La sala, en la cual se exponen los grabados, es nueva.", "The hall, in which the prints are displayed, is new. (la cual → sala)"],
         ],
         [
-          fb("Completa.", "El museo, ___ colección supera las diez mil piezas…", "cuya", "Detrás del hueco hay un sustantivo poseído (la colección del museo): cuyo, que concuerda con colección (femenino singular)."),
+          fb("Completa.", "El archivo, ___ documentos datan del siglo XV…", "cuyos", "Detrás del hueco hay un sustantivo poseído (los documentos del archivo): cuyo, que concuerda con documentos (masculino plural)."),
         ]
       ),
     ],
@@ -7943,7 +7953,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
           ["Había huelga; sin embargo, llegamos a tiempo.", "There was a strike; however, we arrived on time. (contraste: resultado inesperado)"],
         ],
         [
-          fb("Rápido.", "___ no contestabas, te dejé un mensaje.", "Como", "Causa al principio de la oración: como (o ya que, puesto que). «Porque» no suele abrir la frase, y «aunque» expresaría contraste."),
+          { ...fb("Rápido.", "___ no contestabas, te dejé un mensaje.", "Como", "Causa al principio de la oración: como (o ya que, puesto que). «Porque» no suele abrir la frase, y «aunque» expresaría contraste."), altAnswers: ["Ya que", "Puesto que", "Dado que"] },
         ]
       ),
     ],
@@ -8037,8 +8047,8 @@ export const B2_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa tu argumento.", "Prefiero el campo porque hay menos estrés. ___, la vivienda es más barata.", "Además", "«Además» añade otro argumento en la misma dirección que el anterior."),
-      { ...fb("Completa tu argumento.", "La vivienda es más barata. ___, hay menos servicios.", "Sin embargo", "Tener menos servicios va en contra de lo anterior: «sin embargo» introduce un argumento contrario en una oración nueva."), altAnswers: ["No obstante", "Aun así"] },
+      { ...fb("Completa tu argumento.", "Prefiero el campo porque hay menos estrés. ___, la vivienda es más barata.", "Además", "«Además» añade otro argumento en la misma dirección que el anterior."), altAnswers: ["Asimismo", "Es más"] },
+      { ...fb("Completa tu argumento.", "La vivienda es más barata. ___, hay menos servicios.", "Sin embargo", "Tener menos servicios va en contra de lo anterior: «sin embargo» introduce un argumento contrario en una oración nueva."), altAnswers: ["No obstante", "En cambio"] },
       { ...fb("Completa tu argumento.", "___ vivir lejos, se puede trabajar para empresas de la ciudad.", "A pesar de", "Detrás va un infinitivo (vivir): hace falta la preposición «a pesar de» (o «pese a»). «Aunque» necesitaría verbo conjugado: aunque vivas lejos."), altAnswers: ["Pese a"] },
       { ...fb("Completa tu argumento.", "Hay ventajas e inconvenientes. ___, la respuesta cambia según la etapa de la vida.", "Por lo tanto", "«Por lo tanto» introduce la conclusión que se saca de lo anterior."), altAnswers: ["Por consiguiente", "Por eso", "Por ello", "Por tanto", "En definitiva"] },
       { ...fb("Completa tu argumento.", "___ la ciudad ofrece más cultura, yo elijo el campo.", "Aunque", "«Aunque» + verbo conjugado (ofrece) presenta una objeción que no cambia la decisión. «A pesar de» necesitaría un sustantivo."), altAnswers: ["A pesar de que", "Si bien"] },
@@ -8078,7 +8088,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       wo("No tenemos presupuesto, así que tendremos que esperar.", "Así que introduce la consecuencia; va tras coma y sin coma detrás.", "We don't have a budget, so we'll have to wait."),
       wo("El producto es barato y, además, muy resistente.", "Además intercalado va entre comas: «y, además,».", "The product is cheap and, moreover, very durable."),
       wo("Aunque llovía mucho, el partido continuó.", "Aunque + indicativo (llovía) para un hecho real que no impidió la acción.", "Although it was raining hard, the match went on."),
-      toEs("Since you're tired, I'll drive.", "Ya que estás cansado, conduzco yo.", "«Ya que» introduce una causa conocida por el oyente y puede abrir la oración; conduzco yo pone el foco en quién conduce.", ["Como estás cansado, conduzco yo.", "Puesto que estás cansada, conduzco yo."]),
+      toEs("Since you're tired, I'll drive.", "Ya que estás cansado, conduzco yo.", "«Ya que» introduce una causa conocida por el oyente y puede abrir la oración; conduzco yo pone el foco en quién conduce.", ["Como estás cansado, conduzco yo.", "Puesto que estás cansada, conduzco yo.", "Ya que estás cansado, conduciré yo.", "Ya que estás cansado, voy a conducir yo.", "Ya que estás cansado, manejo yo.", "Puesto que estás cansado, conduzco yo."]),
     ]
   ),
   L(
@@ -8275,7 +8285,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       ),
       sec(
         "El cual concuerda con el antecedente",
-        "El cual / la cual / los cuales / las cuales es un relativo con artículo que recoge al ANTECEDENTE, sobre todo detrás de una preposición: la casa en la cual vivo, los amigos con los cuales viajé. Y el cual / la que son intercambiables tras preposición; el cual suena más formal y se prefiere tras preposiciones largas (detrás de las cuales).",
+        "El cual / la cual / los cuales / las cuales es un relativo con artículo que recoge al ANTECEDENTE, sobre todo detrás de una preposición: la casa en la cual vivo, los amigos con los cuales viajé. Y el cual / el que son intercambiables tras preposición; el cual suena más formal y se prefiere tras preposiciones largas (detrás de las cuales).",
         [
           ["Es la mesa sobre la cual dejé las llaves.", "It's the table on which I left the keys. (la cual → mesa)"],
         ],
@@ -8475,7 +8485,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       fb("Rápido.", "No me iré hasta que me lo ___. (explicar, tú)", "expliques", "Me iré es futuro: la explicación todavía no ha ocurrido → presente de subjuntivo, expliques."),
       fb("Rápido.", "No me fui hasta que me lo ___. (explicar, tú)", "explicaste", "No me fui es pasado: la explicación ya ocurrió → indefinido, explicaste."),
       fb("Rápido.", "Cuando ___ jubilado, viajaré. (estar)", "esté", "Viajaré indica futuro → cuando + presente de subjuntivo: esté. Nunca «estaré» tras cuando."),
-      fb("Rápido.", "Después de que ___ los invitados, recogimos todo. (irse)", "se fueron", "Recogimos es pasado: los invitados ya se fueron → indicativo. (En registro culto también se oye «después de que se fueran».)"),
+      fb("Rápido.", "Después de que ___ los invitados, recogimos todo. (irse)", "se fueron", "Recogimos es pasado: los invitados ya se fueron → indicativo. (Con un hecho pasado la norma es el indicativo; «después de que se fueran» también se oye, pero la norma es el indicativo.)"),
       fb("Rápido.", "Mañana, tan pronto como ___ el sol, salimos. (salir)", "salga", "Mañana: el sol todavía no ha salido → presente de subjuntivo, salga. El presente salimos en la principal tiene aquí valor de futuro."),
       toEs("Cuando llegue a casa, te escribo.", "Cuando llegué a casa, te escribí.", "Al contarlo en pasado, el hecho ya es real: cuando + indefinido (llegué), no subjuntivo.", [], "Cambia la frase al pasado (indefinido)."),
       toEs("Cuando salgo del trabajo, voy al gimnasio.", "Cuando salga del trabajo, iré al gimnasio.", "Un hábito (salgo) se vuelve plan futuro: cuando + presente de subjuntivo (salga) y futuro en la principal (iré).", ["Cuando salga del trabajo, voy a ir al gimnasio.", "Cuando salga del trabajo, voy al gimnasio."], "Cambia el hábito por un plan para mañana."),
@@ -8679,7 +8689,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     [
       toEs("Si yo sería alcalde, bajaría los impuestos.", "Si yo fuera alcalde, bajaría los impuestos.", "Tras «si» condicional nunca va condicional: «si fuera», no «si sería».", ["Si fuera alcalde, bajaría los impuestos."], "Corrige la frase."),
       toEs("Si tendríamos más tiempo, viajaríamos.", "Si tuviéramos más tiempo, viajaríamos.", "Tras «si» condicional nunca va condicional: «si tuviéramos», no «si tendríamos».", ["Si tuviésemos más tiempo, viajaríamos."], "Corrige la frase."),
-      toEs("Si hace buen tiempo, iríamos a la playa.", "Si hace buen tiempo, iremos a la playa.", "Con «si» + presente (condición real), la consecuencia va en futuro: «iremos».", ["Si hiciera buen tiempo, iríamos a la playa.", "Si hace buen tiempo, vamos a la playa."], "Corrige la frase."),
+      toEs("Si hace buen tiempo, fuimos a la playa.", "Si hace buen tiempo, iremos a la playa.", "Con «si» + presente (condición real), la consecuencia no va en pasado: va en futuro, «iremos».", ["Si hiciera buen tiempo, iríamos a la playa.", "Si hace buen tiempo, vamos a la playa."], "Corrige la frase."),
       toEs("Si lo sabría, te lo diría.", "Si lo supiera, te lo diría.", "Tras «si» condicional nunca va condicional: «si supiera», no «si sabría».", ["Si lo supiese, te lo diría."], "Corrige la frase."),
     ]
   ),
@@ -8748,7 +8758,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
             "«¿Cuándo empieza la reunión?» → Me preguntó ___",
             ["cuándo empezaba la reunión.", "si empezaba la reunión.", "cuándo empezara la reunión.", "que empezaba la reunión."],
             0,
-            "Pregunta con interrogativo: se mantiene cuándo, con tilde, y el presente retrocede a imperfecto de indicativo: empezaba. Si es solo para preguntas de sí o no, empezara es subjuntivo sin motivo y «que» convertiría la pregunta en una afirmación."
+            "Pregunta con interrogativo: se mantiene cuándo, con tilde, y el presente retrocede a imperfecto de indicativo: empezaba. «Si» es solo para preguntas de sí o no; «empezara» es subjuntivo sin motivo y «que» convertiría la pregunta en una afirmación."
           ),
         ]
       ),
@@ -8809,17 +8819,17 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "Adjetivos que cambian de significado",
         [
-          "Algunos adjetivos cambian de significado: ser rico (tener dinero) / estar rico (tener buen sabor); ser malo (portarse mal) / estar malo (estar enfermo); ser aburrido (aburrir) / estar aburrido (sentir aburrimiento); ser listo (inteligente) / estar listo (preparado).",
+          "Algunos adjetivos cambian de significado: ser rico (tener dinero; de una comida, ser sabrosa en general) / estar rico (de una comida, saber muy bien al probarla); ser malo (portarse mal) / estar malo (estar enfermo); ser aburrido (aburrir) / estar aburrido (sentir aburrimiento); ser listo (inteligente) / estar listo (preparado).",
         ],
         [
           ["Los niños están listos, pero la película es aburrida.", "The kids are ready, but the film is boring. (estar listo = preparado; ser aburrido = que aburre)"],
         ],
         [
           mc(
-            "Elige: «Esta sopa ___ muy rica; ¿quién la ha hecho?»",
+            "Elige: «Acabo de probar esta sopa: ___ muy rica; ¿quién la ha hecho?»",
             ["está", "es", "hay", "son"],
             0,
-            "Estar rico = tener buen sabor, que es lo que dices de la sopa. Ser rico significa tener dinero, y hay presenta algo nuevo, no lleva un adjetivo así."
+            "Estar rico = saber muy bien al probarlo, que es lo que dices de la sopa. Ser rico significa tener dinero, y hay presenta algo nuevo, no lleva un adjetivo así."
           ),
         ]
       ),
@@ -8942,7 +8952,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "Recuerda la regla: subjuntivo = no lo afirmo como hecho",
         [
-          "Todos los usos del subjuntivo comparten una idea: lo que va en subjuntivo no se presenta como un hecho real y comprobado, sino como algo buscado, futuro, deseado, valorado o dudoso. Relativa con antecedente desconocido (busco a alguien que sepa), adverbial con futuro (cuando llegues), influencia (quiero que vengas), emoción o valoración (me alegra que estés), duda (dudo que sea), finalidad (para que lo sepas), ojalá, y aunque para una hipótesis (aunque sea tarde).",
+          "Todos los usos del subjuntivo comparten una idea: lo que va en subjuntivo no se afirma como información nueva: es algo buscado, futuro, deseado o dudoso o, con emociones y valoraciones, un hecho sobre el que opinas (me alegra que estés). Relativa con antecedente desconocido (busco a alguien que sepa), adverbial con futuro (cuando llegues), influencia (quiero que vengas), emoción o valoración (me alegra que estés), duda (dudo que sea), finalidad (para que lo sepas), ojalá, y aunque para una hipótesis (aunque sea tarde).",
         ],
         [
           ["Cuando termines, avísame.", "When you finish, let me know. (futuro → presente de subjuntivo)"],
@@ -9053,7 +9063,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
           ["No conozco a nadie que cumpla todo eso.", "I don't know anyone who meets all that. (negado: subjuntivo)"],
         ],
         [
-          fb("Tu ideal.", "Busco a alguien que no ___ en el coche. (fumar)", "fume", "Describes un perfil, no a una persona concreta → subjuntivo (fume)."),
+          fb("Completa con el verbo en la forma correcta.", "Busco a alguien que no ___ en el coche. (fumar)", "fume", "Describes un perfil, no a una persona concreta → subjuntivo (fume)."),
           mc(
             "Hablas de tu compañera del año pasado: «Era una chica que ___ muchísimo.»",
             ["hablaba", "hablara", "hable", "hablaría"],
@@ -9064,11 +9074,11 @@ export const B2_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Tu ideal.", "…que no se ___ a las diez de la noche. (dormir)", "duerma", "Perfil desconocido → subjuntivo. Dormir diptonga o → ue: se duerma."),
-      fb("Tu ideal.", "…y que ___ conducir de noche. (poder)", "pueda", "Sigue el mismo perfil → subjuntivo; poder diptonga: pueda."),
-      fb("Tu ideal.", "No conozco a nadie que ___ ocho horas de coche sin quejarse. (aguantar)", "aguante", "«No conozco a nadie que…» niega que exista → subjuntivo (aguante)."),
-      fb("Tu ideal.", "Mi última compañera, que siempre ___ las rutas, era fantástica. (planear, imperfecto)", "planeaba", "Persona real del pasado → indicativo, en imperfecto porque describe un hábito: planeaba."),
-      fb("Tu ideal.", "Quiero encontrar a alguien que ___ cocinar. (saber)", "sepa", "Persona aún desconocida → subjuntivo irregular de saber: sepa."),
+      fb("Completa con el verbo en la forma correcta.", "…que no se ___ a las diez de la noche. (dormir)", "duerma", "Perfil desconocido → subjuntivo. Dormir diptonga o → ue: se duerma."),
+      fb("Completa con el verbo en la forma correcta.", "…y que ___ conducir de noche. (poder)", "pueda", "Sigue el mismo perfil → subjuntivo; poder diptonga: pueda."),
+      fb("Completa con el verbo en la forma correcta.", "No conozco a nadie que ___ ocho horas de coche sin quejarse. (aguantar)", "aguante", "«No conozco a nadie que…» niega que exista → subjuntivo (aguante)."),
+      fb("Completa con el verbo en la forma correcta.", "Mi última compañera, que siempre ___ las rutas, era fantástica. (planear, imperfecto)", "planeaba", "Persona real del pasado → indicativo, en imperfecto porque describe un hábito: planeaba."),
+      fb("Completa con el verbo en la forma correcta.", "Quiero encontrar a alguien que ___ cocinar. (saber)", "sepa", "Persona aún desconocida → subjuntivo irregular de saber: sepa."),
       toEs("I'm looking for someone who likes hiking.", "Busco a alguien a quien le guste el senderismo.", "Antecedente desconocido → subjuntivo; con «gustar» se usa «a quien le guste».", ["Busco a alguien que disfrute del senderismo.", "Busco a alguien al que le guste el senderismo.", "Busco a alguien al que le guste hacer senderismo.", "Busco a alguien a quien le guste hacer senderismo."]),
       toEs("Tengo un compañero que siempre llega puntual.", "Quiero un compañero que siempre llegue puntual.", "Con «quiero» describes un perfil, no a tu compañero real → subjuntivo (llegue, con u para mantener el sonido de la g).", [], "Cambia «Tengo» por «Quiero»."),
       { type: "speak", prompt: "Responde en voz alta: ¿cómo es tu compañero de viaje ideal? Di dos cosas.", text: "Busco a alguien que sea tranquilo y que no ronque.", explanation: "Describes un perfil, no a una persona real: las dos relativas van en subjuntivo (sea, ronque). Puedes cambiar los adjetivos y los verbos; lo importante es el modo." },
@@ -9264,7 +9274,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Tres tipos",
         [
           "Recuerda la regla: elige según cómo ve el hablante la condición. Real o posible: si + presente → presente, futuro o imperativo (Si lo ves, díselo). Irreal ahora: si + imperfecto de subjuntivo → condicional (Si lo vieras, se lo dirías). Irreal en el pasado: si + pluscuamperfecto de subjuntivo → condicional perfecto (Si lo hubieras visto, se lo habrías dicho).",
-          "En ningún caso va futuro, condicional o presente de subjuntivo justo detrás de si.",
+          "En una condición nunca va futuro, condicional ni presente de subjuntivo justo detrás de si (en «No sé si vendrá», si significa «whether»: es otro caso).",
         ],
         [
           ["Si lo ves, díselo.", "If you see him, tell him. (posible)"],
@@ -9358,7 +9368,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         0,
         "Un reproche sobre el pasado: deberías haber + participio (deberías haber reservado; también se oye «debías haber reservado»). «Habrías debido reservado» y «deberías reservado» son agramaticales, y «hubieras debes» no existe."
       ),
-      toEs("What would you have done?", "¿Qué habrías hecho tú?", "El condicional perfecto («habrías hecho») habla de una acción hipotética en el pasado.", ["¿Tú qué habrías hecho?", "¿Qué hubieras hecho tú?"]),
+      toEs("What would you (informal) have done?", "¿Qué habrías hecho tú?", "El condicional perfecto («habrías hecho») habla de una acción hipotética en el pasado.", ["¿Tú qué habrías hecho?", "¿Qué hubieras hecho tú?"]),
     ]
   ),
   L(
@@ -9456,7 +9466,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     ],
     [
       toEs("Me dijo que viene el domingo.", "Me dijo que venía el domingo.", "Lo dijo hace dos semanas: con «dijo», el presente pasa a imperfecto, venía.", ["Me dijo que vendría el domingo."], "Corrige la frase: lo dijo hace dos semanas."),
-      toEs("Me dijo que me traiga un regalo.", "Me dijo que me traería un regalo.", "Era información («Te traeré un regalo»), no una petición: indicativo con retroceso, futuro → condicional, traería. «Traiga» convertiría la frase en un encargo.", [], "Corrige la frase."),
+      toEs("Me dijo que me traiga un regalo.", "Me dijo que me traería un regalo.", "Era información («Te traeré un regalo»), no una petición: indicativo con retroceso, futuro → condicional, traería. «Traiga» convertiría la frase en un encargo.", [], "Corrige la frase: era una promesa."),
       toEs("Me preguntó que si estaba bien.", "Me preguntó si estaba bien.", "En registro cuidado, la pregunta indirecta va con «si» solo: «me preguntó si…». «Que si» es normal en la conversación, pero no en un texto escrito.", [], "Corrige la frase para un texto escrito."),
       toEs("Me pidió que la llamo más a menudo.", "Me pidió que la llamara más a menudo.", "«Pedir que» en pasado exige imperfecto de subjuntivo: «llamara», no «llamo».", ["Me pidió que la llamase más a menudo."], "Corrige la frase."),
       toEs("Me preguntó cuando volveré.", "Me preguntó cuándo volvería.", "Dos errores: el interrogativo mantiene la tilde (cuándo) y, contado dos semanas después, el futuro pasa a condicional (volveré → volvería).", [], "Corrige la frase: hay dos errores."),
@@ -9479,7 +9489,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Acción o resultado",
         [
           "Recuerda la regla: ser + participio es la voz pasiva y cuenta una acción (alguien hizo algo en un momento): El libro fue publicado en 2010. Estar + participio describe el estado que queda después de esa acción: El libro está publicado en tres idiomas.",
-          "Pistas: una fecha, un momento puntual o un agente con «por» (por el viento, por la policía) → ser. «Ya», «todavía», «desde ayer» o una descripción de cómo se encuentra algo ahora → estar. En los dos casos el participio concuerda con el sujeto.",
+          "Pistas: una fecha, un momento puntual o un agente que realiza la acción (por el viento, por la policía) → ser; si «por» solo indica la causa de un estado que dura (cortada por la nieve desde ayer), va estar. «Ya», «todavía», «desde ayer» o una descripción de cómo se encuentra algo ahora → estar. En los dos casos el participio concuerda con el sujeto.",
         ],
         [
           ["La puerta fue abierta por el viento.", "The door was blown open by the wind. (acción con agente → ser)"],
@@ -9516,7 +9526,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "1) Anteposición",
         [
-          "Recuerda la regla: hay tres maneras de poner el foco. 1) Anteposición: mueves el complemento directo al principio para convertirlo en el tema, y entonces el español exige repetirlo con un pronombre (lo, la, los, las) que concuerda con él: El libro lo tengo yo. Sin ese pronombre la frase es incorrecta.",
+          "Recuerda la regla: hay tres maneras de poner el foco. 1) Anteposición: mueves el complemento directo al principio para convertirlo en el tema, y entonces el español exige repetirlo con un pronombre (lo, la, los, las) que concuerda con él: El libro lo tengo yo. Con un tema ya conocido, sin ese pronombre la frase suena incompleta.",
         ],
         [],
         [
@@ -9546,7 +9556,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
           "3) Grado: lo + adjetivo o adverbio + que expresa intensidad. Lo es neutro, pero el adjetivo concuerda con el sustantivo (lo cara que es la casa); un adverbio (bien, rápido) no cambia.",
         ],
         [
-          ["No sabes lo cansadas que estábamos.", "You don't know how tired we were. (cansadas concuerda con nosotras)"],
+          ["No sabes lo cansadas que estábamos.", "You don't know how tired we (women) were. (cansadas concuerda con nosotras)"],
         ],
         [
           mc(
@@ -9606,14 +9616,12 @@ export const B2_DRILLS: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Las reglas del registro formal",
+        "Las peticiones formales",
         [
-          "Recuerda las reglas del registro formal: las peticiones se suavizan con el condicional (les agradecería, quisiera) y, como piden algo a otra persona, van seguidas de que + imperfecto de subjuntivo (les agradecería que me devolvieran…). Nunca «agradecería si…» con condicional. Las hipótesis usan si + imperfecto de subjuntivo (si no fuera posible), lo que te dijeron se cuenta con el futuro pasado a condicional (me aseguraron que llegaría) y los conectores formales (por lo tanto, dado que) ordenan el texto.",
+          "Recuerda la regla: en una carta formal las peticiones se suavizan con el condicional (les agradecería, quisiera) y, como piden algo a otra persona, van seguidas de que + imperfecto de subjuntivo (les agradecería que me devolvieran…). Nunca «agradecería si…» con condicional.",
         ],
         [
           ["Le agradecería que me enviara el formulario.", "I'd be grateful if you sent me the form. (agradecería que + imperfecto de subjuntivo)"],
-          ["Me prometieron que el técnico vendría el martes.", "They promised me the technician would come on Tuesday. (futuro → condicional)"],
-          ["Si no fuera molestia, quisiera hablar con el director.", "If it's no trouble, I'd like to speak to the director. (si + imperfecto de subjuntivo)"],
         ],
         [
           mc(
@@ -9625,8 +9633,22 @@ export const B2_DRILLS: AnchoredLesson[] = [
         ]
       ),
       sec(
+        "Hipótesis, lo que dijeron y conectores",
+        [
+          "Las hipótesis usan si + imperfecto de subjuntivo (si no fuera posible). Lo que te dijeron se cuenta con el futuro pasado a condicional (me aseguraron que llegaría). Y los conectores formales (por lo tanto, dado que) ordenan el texto.",
+        ],
+        [
+          ["Me prometieron que el técnico vendría el martes.", "They promised me the technician would come on Tuesday. (futuro → condicional)"],
+          ["Si no fuera molestia, quisiera hablar con el director.", "If it's no trouble, I'd like to speak to the director. (si + imperfecto de subjuntivo)"],
+        ],
+        [
+          fb("Completa la hipótesis.", "Si no ___ posible… (ser)", "fuera", "Hipótesis: si + imperfecto de subjuntivo. «Si no sería» es un error frecuente: el condicional nunca va detrás de si."),
+        ]
+      ),
+      sec(
         "La carta de Elena",
         [
+          "Para añadir un dato sobre algo, usa cuyo, que concuerda con lo poseído: el pedido, cuyo número adjunto… (número es masculino singular).",
           "Completa la carta de Elena: «Estimados señores: les escribo porque el pedido, (1) ___ número adjunto, no ha llegado. Aunque me aseguraron que (2) ___ el lunes, todavía no lo he recibido. (3) ___, les agradecería que me (4) ___ el dinero. Si no (5) ___ posible, quisiera que me (6) ___ otro.»",
         ],
         [],
@@ -9639,7 +9661,6 @@ export const B2_DRILLS: AnchoredLesson[] = [
       fb("Hueco 2.", "Aunque me aseguraron que ___ el lunes… (llegar)", "llegaría", "Lo que dijeron («llegará») se cuenta desde el pasado: el futuro pasa a condicional, llegaría."),
       fb("Hueco 3.", "___, les agradecería que me devolvieran el dinero.", "Por lo tanto", "La petición es la consecuencia lógica del retraso: por lo tanto (o por consiguiente), formal y seguido de coma."),
       fb("Hueco 4.", "…les agradecería que me ___ el dinero. (devolver)", "devolvieran", "Agradecería (condicional) + que con otro sujeto pide imperfecto de subjuntivo: devolvieran."),
-      fb("Hueco 5.", "Si no ___ posible… (ser)", "fuera", "Hipótesis: si + imperfecto de subjuntivo. «Si no sería» es un error frecuente: el condicional nunca va detrás de si."),
       fb("Hueco 6.", "…quisiera que me ___ otro. (enviar)", "enviaran", "Quisiera (forma cortés) + que + imperfecto de subjuntivo: enviaran."),
       toEs("If you had informed me, I would have waited (ustedes).", "Si me hubieran informado, habría esperado.", "Condición irreal en el pasado: «si» + pluscuamperfecto de subjuntivo y «habría» + participio.", ["Si me hubiesen informado, habría esperado.", "Si me hubieran avisado, habría esperado."]),
     ]
@@ -9730,7 +9751,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       wo("Cualquiera que lo pruebe lo recomendará.", "Cualquiera que + subjuntivo (pruebe): no sabemos quién lo probará.", "Anyone who tries it will recommend it."),
       wo("Dime lo que necesites.", "Lo que + subjuntivo (necesites): cualquier cosa que necesites.", "Tell me whatever you need."),
       wo("Pase lo que pase, estaré contigo.", "Fórmula reduplicada: el mismo verbo en subjuntivo dos veces (pase lo que pase) = da igual lo que pase.", "Whatever happens, I'll be with you."),
-      toEs("Te compro lo que necesitas.", "Te compro lo que necesites.", "Si todavía no sabes qué necesita, lo que es abierto (= cualquier cosa) y va en subjuntivo: necesites.", ["Te compraré lo que necesites."], "Cambia la frase: todavía no sabes qué necesita."),
+      toEs("Te compro lo que necesitas.", "Te compro lo que necesites.", "Si todavía no sabes qué necesitará esa persona, lo que es abierto (= cualquier cosa) y va en subjuntivo: necesites.", ["Te compraré lo que necesites."], "Cambia la frase: todavía no sabes qué necesitará esa persona."),
       toEs("Pase lo que pasa, estaré contigo.", "Pase lo que pase, estaré contigo.", "La fórmula reduplicada repite el mismo verbo en subjuntivo: pase lo que pase. «Pasa» es indicativo.", [], "Corrige la frase."),
       toEs("Say whatever you want.", "Di lo que quieras.", "«Lo que» + subjuntivo significa «cualquier cosa que»: «lo que quieras».", ["Di lo que te dé la gana."]),
     ]
@@ -9846,7 +9867,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       mc("¿Por qué el relato dice «me sorprendió que nadie me saludara» y no «que nadie me saluda»?", ["Una reacción (sorprender) pide subjuntivo, y en pasado va en imperfecto.", "Porque nadie siempre exige el condicional.", "Porque saludar es un verbo irregular.", "Porque el imperfecto de subjuntivo es más educado."], 0, "Los verbos de emoción o reacción (sorprender, alegrar, molestar) llevan subjuntivo en la subordinada. Como sorprendió está en pasado, el subjuntivo va en imperfecto: saludara. «Saluda» es indicativo, imposible aquí."),
       toEs("Necesito un compañero que me enseñe dónde está la cafetería.", "Necesitaba un compañero que me enseñara dónde estaba la cafetería.", "Al pasar necesito a necesitaba, el subjuntivo de la relativa (antecedente desconocido) pasa al imperfecto: enseñara. Estaba también acompaña al pasado.", ["Necesitaba un compañero que me enseñase dónde estaba la cafetería.", "Necesitaba a un compañero que me enseñara dónde estaba la cafetería."], "Pasa la frase al pasado: empieza con «Necesitaba»."),
       toEs("En la oficina no había nadie que sabía usar la impresora.", "En la oficina no había nadie que supiera usar la impresora.", "Con un antecedente que no existe (no había nadie que) la relativa va en subjuntivo; en pasado, imperfecto: supiera (de saber, irregular). «Sabía» sería indicativo.", ["En la oficina no había nadie que supiese usar la impresora."], "Corrige la frase."),
-      toEs("Mi compañera me dibuja un plano para que no me pierda.", "Mi compañera me dibujó un plano para que no me perdiera.", "Para que siempre lleva subjuntivo; si el verbo principal pasa al pretérito (dibujó), el subjuntivo pasa al imperfecto: perdiera.", ["Mi compañera me dibujó un plano para que no me perdiese."], "Pasa la frase al pasado: el plano te lo dibujó ayer."),
+      toEs("Mi compañera me dibuja un plano para que no me pierda.", "Mi compañera me dibujó un plano para que no me perdiera.", "Para que siempre lleva subjuntivo; si el verbo principal pasa al pretérito (dibujó), el subjuntivo pasa al imperfecto: perdiera.", ["Mi compañera me dibujó un plano para que no me perdiese."], "Pasa la frase al pasado: ocurrió ayer."),
       fb("Completa.", "Hoy me alegra que mis compañeros ___ tan amables. (ser)", "sean", "Aquí el verbo principal está en presente (hoy me alegra), así que el subjuntivo vuelve al presente: sean. «Fueran» solo iría con «me alegró» o «me alegraba»."),
       toEs("They asked me to sign a lot of papers.", "Me pidieron que firmara muchos papeles.", "«Pedir que» en pasado exige imperfecto de subjuntivo: «firmara».", ["Me pidieron que firmase muchos papeles.", "Me pidieron que firmara muchos documentos."]),
     ]
@@ -9916,7 +9937,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       wo("Si hubiera tenido hambre, habría comido algo.", "Irreal de pasado: hubiera + participio y habría + participio, los dos con h.", "If I had been hungry, I'd have eaten something."),
       wo("Si no fuera tan caro, lo compraría.", "Irreal de presente con ser: fuera + compraría.", "If it weren't so expensive, I'd buy it."),
       wo("Si me lo hubieras pedido, te lo habría prestado.", "Irreal de pasado; los pronombres van delante de los auxiliares (me lo hubieras, te lo habría).", "If you had asked me, I would have lent it to you."),
-      toEs("Si tengo dinero, te ayudo.", "Si tuviera dinero, te ayudaría.", "De condición real a irreal de presente: tengo → tuviera (imperfecto de subjuntivo) y ayudo → ayudaría (condicional).", ["Si tuviese dinero, te ayudaría."], "Cambia a irreal de presente: no tienes dinero."),
+      toEs("Si tengo dinero, te ayudo.", "Si tuviera dinero, te ayudaría.", "De condición real a irreal de presente: tengo → tuviera (imperfecto de subjuntivo) y ayudo → ayudaría (condicional).", ["Si tuviese dinero, te ayudaría."], "Cambia a irreal de presente: no tengo dinero."),
     ]
   ),
   L(
@@ -10264,7 +10285,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "El plan",
         [
-          "Recuerda la regla: cuando, en cuanto, hasta que o después de que llevan subjuntivo si hablan de algo que aún no ha pasado (cuando lleguen) e indicativo si hablan de un hábito o del pasado (cuando vinieron). Para que y antes de que llevan siempre subjuntivo, porque lo que introducen todavía no es un hecho. Con el mismo sujeto se usa el infinitivo: antes de salir, para poder pasear.",
+          "Recuerda la regla: cuando, en cuanto, hasta que, después de que y aunque (si es solo una posibilidad) llevan subjuntivo si hablan de algo que aún no ha pasado (cuando lleguen) e indicativo si hablan de un hábito o del pasado (cuando vinieron). Para que y antes de que llevan siempre subjuntivo. Con el mismo sujeto se usa el infinitivo: antes de salir.",
           "«Cuando lleguen los abuelos, iremos a buscarlos a la estación. Antes de que lleguen, limpiaremos la habitación de invitados. Les compraremos un mapa para que puedan pasear solos. Y en cuanto se vayan, ¡a dormir la siesta!»",
         ],
         [
@@ -10277,7 +10298,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     ],
     [
       mc("¿Por qué el plan dice «antes de que lleguen, limpiaremos» y no «antes de llegar, limpiaremos»?", ["Porque los sujetos son distintos: ellos llegan, nosotros limpiamos.", "Porque antes de nunca va con infinitivo.", "Porque llegar es irregular.", "Porque el plan está en futuro y el futuro exige que."], 0, "Con sujetos distintos se usa antes de que + subjuntivo (lleguen). «Antes de llegar» significaría que nosotros llegamos. Antes de + infinitivo es correcto cuando el sujeto es el mismo."),
-      toEs("Les dejo una bici para que vayan solos al pueblo.", "Les dejé una bici para que fueran solos al pueblo.", "Para que siempre lleva subjuntivo; si el verbo principal pasa al pretérito (dejé), el subjuntivo pasa al imperfecto: fueran (de ir).", ["Les dejé una bici para que fuesen solos al pueblo.", "Les dejé una bicicleta para que fueran solos al pueblo."], "Pasa la frase al pasado: la bici se la dejaste el verano pasado."),
+      toEs("Les dejo una bici para que vayan solos al pueblo.", "Les dejé una bici para que fueran solos al pueblo.", "Para que siempre lleva subjuntivo; si el verbo principal pasa al pretérito (dejé), el subjuntivo pasa al imperfecto: fueran (de ir).", ["Les dejé una bici para que fuesen solos al pueblo.", "Les dejé una bicicleta para que fueran solos al pueblo."], "Pasa la frase al pasado: ocurrió el verano pasado."),
       toEs("En cuanto el abuelo se despertará, iremos al mercado.", "En cuanto el abuelo se despierte, iremos al mercado.", "En cuanto con valor de futuro lleva presente de subjuntivo (se despierte), nunca futuro. El futuro va solo en la oración principal (iremos).", ["En cuanto se despierte el abuelo, iremos al mercado."], "Corrige la frase."),
       fb("Completa.", "La última vez, cuando ___, nos trajeron turrón. (venir)", "vinieron", "«La última vez» habla de un hecho pasado: cuando + indicativo (vinieron). El subjuntivo (vengan) solo va con cuando si la acción es futura."),
       fb("Completa.", "Aunque ___ cansados del viaje, querrán salir. (estar — no lo sabemos)", "estén", "No sabemos si estarán cansados: aunque + subjuntivo (estén) presenta una posibilidad. Con indicativo (aunque están) afirmarías que ya lo sabes."),
@@ -10294,7 +10315,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "Futuro visto desde el pasado",
         [
-          "Recuerda la regla: cuando, en cuanto, hasta que y antes de que llevan subjuntivo si lo que introducen todavía no ha pasado. El tiempo del subjuntivo depende del punto de vista: desde ahora, presente (te llamaré cuando llegue); desde un momento pasado, imperfecto (dijo que me llamaría cuando llegara).",
+          "Recuerda la regla: cuando, en cuanto y hasta que llevan subjuntivo si lo que introducen todavía no ha pasado; antes de que lo lleva siempre. El tiempo del subjuntivo depende del punto de vista: desde ahora, presente (te llamaré cuando llegue); desde un momento pasado, imperfecto (dijo que me llamaría cuando llegara).",
           "Por qué: en «dijo que me llamaría cuando llegara», la llegada era futura para él cuando lo dijo, aunque para ti ya sea pasado. El condicional (llamaría) y el imperfecto de subjuntivo (llegara) son el «futuro visto desde el pasado».",
         ],
         [
@@ -10325,7 +10346,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "La regla: el subjuntivo sigue al verbo principal",
         [
-          "Recuerda la regla de la secuencia de tiempos: si el verbo que pide el subjuntivo está en pasado (querían, prefería, permitieron), el subjuntivo también se pone en pasado: imperfecto de subjuntivo (trabajara, dejaran, fuera). El presente de subjuntivo (trabaje) solo sigue a un verbo en presente o futuro.",
+          "Recuerda la regla de la secuencia de tiempos: si el verbo que pide el subjuntivo está en pasado (querían, prefería, permitieron), el subjuntivo también se pone en pasado: imperfecto de subjuntivo (trabajara, dejaran, fuera). El presente de subjuntivo (trabaje) sigue normalmente a un verbo en presente, pretérito perfecto o futuro.",
           "¿Por qué? El subjuntivo se ancla en el tiempo del verbo principal: una petición hecha en el pasado se cumplía (o no) en ese pasado.",
         ],
         [
@@ -10377,7 +10398,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Imagina",
         [
           "Recuerda la regla: para imaginar un presente distinto del real se usa si + imperfecto de subjuntivo (existiera, hubiera, tuviera) y, en la consecuencia, condicional (escribiría, iría). El imperfecto de subjuntivo marca que la condición no es real ahora.",
-          "Dos trampas: después de si nunca va el condicional (✗ si tendría) ni el presente de subjuntivo (✗ si tenga); y haber impersonal sigue en singular: si no hubiera coches. El orden de las dos partes puede cambiar: Dormiría más si los días tuvieran treinta horas.",
+          "Dos trampas: en una condición con si no va el condicional (✗ si tendría) ni el presente de subjuntivo (✗ si tenga); y haber impersonal sigue en singular: si no hubiera coches. El orden de las dos partes puede cambiar: Dormiría más si los días tuvieran treinta horas.",
         ],
         [
           ["Si no existiera internet, escribiría cartas.", "If the internet didn't exist, I'd write letters."],
@@ -10459,9 +10480,9 @@ export const B2_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Tu pasado.", "Si me hubieran ofrecido ese puesto, lo ___ sin dudar. (aceptar, yo)", "habría aceptado", "Consecuencia de una condición pasada → condicional compuesto: habría aceptado (también se oye «hubiera aceptado»)."),
+      { ...fb("Tu pasado.", "Si me hubieran ofrecido ese puesto, lo ___ sin dudar. (aceptar, yo)", "habría aceptado", "Consecuencia de una condición pasada → condicional compuesto: habría aceptado (también se oye «hubiera aceptado»)."), altAnswers: ["hubiera aceptado"] },
       fb("Tu pasado.", "Ojalá ___ más de joven. (leer, yo)", "hubiera leído", "Lamento sobre el pasado → ojalá + pluscuamperfecto de subjuntivo; ojo a la tilde del participio: leído."),
-      fb("Tu pasado.", "Yo en aquella situación ___ de otra manera. (actuar)", "habría actuado", "«En aquella situación» funciona como condición escondida (si yo hubiera estado allí) → condicional compuesto: habría actuado."),
+      { ...fb("Tu pasado.", "Yo en aquella situación ___ de otra manera. (actuar)", "habría actuado", "«En aquella situación» funciona como condición escondida (si yo hubiera estado allí) → condicional compuesto: habría actuado."), altAnswers: ["hubiera actuado"] },
       fb("Tu pasado.", "Si no me ___ a esta ciudad, no te habría conocido. (mudar)", "hubiera mudado", "Tras si, condición pasada irreal → pluscuamperfecto de subjuntivo; el pronombre va delante del auxiliar: me hubiera mudado."),
       fb("Tu pasado.", "Si hubiera empezado antes, ahora ___ mejor. (hablar)", "hablaría", "«Ahora» lleva la consecuencia al presente → condicional simple: hablaría. «Habría hablado» situaría la consecuencia en el pasado."),
       toEs("I wish I had said yes.", "Ojalá hubiera dicho que sí.", "«Ojalá» + pluscuamperfecto de subjuntivo expresa lamento por algo pasado.", ["Ojalá hubiese dicho que sí."]),
@@ -10478,7 +10499,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "¿Cuándo es la consecuencia?",
         [
           "Recuerda la regla: en las dos frases la condición es pasada (si + pluscuamperfecto de subjuntivo: si hubiera ahorrado). Lo que decide el tiempo de la consecuencia es CUÁNDO habría ocurrido: si habría sido entonces, en el pasado → condicional compuesto (habría comprado un coche); si se notaría hoy → condicional simple (ahora tendría un coche).",
-          "Las palabras de tiempo lo delatan: ayer, el año pasado, en 2015, anoche → habría + participio; ahora, hoy, ya, todavía → condicional simple. Estas frases se llaman condicionales mixtas.",
+          "Las palabras de tiempo lo delatan: ayer, el año pasado, en 2015, anoche → habría + participio; ahora, hoy, ya, todavía → condicional simple. Cuando la condición es pasada y la consecuencia presente, se habla de condicional mixta.",
         ],
         [
           ["Si hubiera ahorrado, habría comprado un coche.", "If I had saved, I would have bought a car. (entonces)"],
@@ -10716,10 +10737,10 @@ export const B2_DRILLS: AnchoredLesson[] = [
         ],
         [
           mc(
-            "Pablo dice: «Me han contado que ya no vives en Valencia.» ¿Qué le contesta Marta?",
-            ["Sí, me mudé a Bilbao hace dos años.", "Sí, me mudaría a Bilbao hace dos años.", "Sí, me hubiera mudado a Bilbao hace dos años.", "Sí, me mude a Bilbao hace dos años."],
+            "Marta cuenta lo que le dijo Pablo: «Luis ha vuelto de Chile.» ¿Cómo lo repite?",
+            ["Me dijo que Luis había vuelto de Chile.", "Me dijo que Luis ha vuelto de Chile.", "Me dijo que Luis hubiera vuelto de Chile.", "Me dijo que Luis vuelva de Chile."],
             0,
-            "Con «hace dos años» se cuenta un hecho terminado: pretérito indefinido (me mudé). El condicional y el pluscuamperfecto de subjuntivo hablarían de algo hipotético, y «me mude» es presente de subjuntivo."
+            "Tras «me dijo» (pasado), el pretérito perfecto retrocede a pluscuamperfecto: había vuelto. «Ha vuelto» no retrocede, «hubiera vuelto» es subjuntivo y «vuelva» es presente de subjuntivo; ninguno vale en estilo indirecto."
           ),
         ]
       ),
@@ -10773,7 +10794,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Ojalá, como si, aunque y yo que tú",
         [
           "3) Ojalá + subjuntivo: presente si es posible (ojalá venga), imperfecto si es difícil (ojalá viniera). 4) Como si + imperfecto o pluscuamperfecto de subjuntivo, nunca indicativo. 5) Aunque + indicativo para un hecho que se sabe, + subjuntivo para una posibilidad.",
-          "¿Por qué cambian los modos? El indicativo presenta hechos o condiciones reales; el subjuntivo, lo irreal, lo deseado o lo que no se sabe. Y el consejo con yo que tú va siempre con condicional, porque te imaginas en el lugar del otro.",
+          "¿Por qué cambian los modos? El indicativo presenta hechos o condiciones reales; el subjuntivo, lo irreal, lo deseado o lo que no se sabe. Y el consejo con yo que tú suele ir con condicional, porque te imaginas en el lugar del otro.",
         ],
         [
           ["Yo que tú, aceptaría la oferta.", "If I were you, I'd accept the offer. (consejo → condicional)"],
@@ -10853,7 +10874,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
           ["Lo haré con tal de que me ayudes.", "I'll do it as long as you help me."],
         ],
         [
-          fb("Rápido.", "Lo haré con tal de que me ___. (ayudar, tú)", "ayudes", "Siempre subjuntivo."),
+          fb("Rápido.", "Te lo presto con tal de que me lo ___ mañana. (devolver, tú)", "devuelvas", "Con tal de que siempre lleva subjuntivo: devuelvas."),
         ]
       ),
     ],
@@ -10947,7 +10968,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "Suavizar",
         [
           "Recuerda la regla: para suavizar un deseo, una petición o una valoración, el verbo principal pasa del presente al condicional (quiero → querría / me gustaría, es mejor → sería mejor). Y como el subjuntivo sigue al verbo principal (concordancia de tiempos), la subordinada pasa del presente al imperfecto de subjuntivo: Quiero que me ayudes → Me gustaría que me ayudaras.",
-          "«Me gustaría que me ayudes» es un error muy frecuente: el condicional nunca va con presente de subjuntivo. Y si el sujeto es el mismo, no hay que: preferiría ir yo.",
+          "«Me gustaría que me ayudes» es un error muy frecuente: con un condicional de cortesía lo normal y cuidado es el imperfecto de subjuntivo; el presente (me gustaría que me ayudes) suena a error de concordancia. Y si el sujeto es el mismo, no hay que: preferiría ir yo.",
         ],
         [
           ["Sería mejor que vinieras.", "It would be better if you came. (es mejor que vengas → sería mejor que vinieras)"],
@@ -10990,7 +11011,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "Dos errores que hay que evitar",
         [
-          "Dos errores que hay que evitar: tras si nunca va el futuro, el condicional ni el presente de subjuntivo. Y como si, que compara con algo irreal, siempre pide imperfecto o pluscuamperfecto de subjuntivo.",
+          "Dos errores que hay que evitar: en una condición, tras si no van el futuro, el condicional ni el presente de subjuntivo. Y como si, que compara con algo irreal, siempre pide imperfecto o pluscuamperfecto de subjuntivo.",
           "Vas a completar este discurso: «Si me ___, bajaré los impuestos. Si yo ___ alcaldesa, nadie viviría en la calle. Si el anterior gobierno ___ más, hoy ___ mejores hospitales.»",
         ],
         [],
@@ -11153,7 +11174,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     "buenas-noches-elena",
     "b2d-rep-verbos-cambio-corrige",
     "Corrige el párrafo: los cambios de Lucía",
-    "Repaso espaciado: verbos de cambio mal elegidos.",
+    "Repaso espaciado: elige entre ponerse, volverse, hacerse, convertirse en, quedarse y llegar a ser, y corrige los errores de un párrafo.",
     "6 min",
     [
       sec(
@@ -11256,7 +11277,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
           ["A pesar de que llovía, la feria abrió sus puertas.", "Even though it was raining, the fair opened its doors."],
         ],
         [
-          mc("Elige: «___ el mal tiempo, el congreso se celebró al aire libre.»", ["A pesar de", "A pesar de que", "Dado que", "Dado de que"], 0, "Detrás viene un sustantivo (el mal tiempo): a pesar de, sin que. A pesar de que necesita un verbo conjugado, dado que daría una causa sin lógica (el mal tiempo no explica celebrarlo fuera) y «dado de que» no existe."),
+          mc("Elige: «___ la lluvia, el congreso se celebró al aire libre.»", ["A pesar de", "A pesar de que", "Dado que", "Dado de que"], 0, "Detrás viene un sustantivo (la lluvia): a pesar de, sin «que». A pesar de que necesita un verbo conjugado, dado que daría una causa sin lógica (la lluvia no explica celebrarlo fuera) y «dado de que» no existe."),
         ]
       ),
     ],
@@ -11301,7 +11322,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
           ["Junto al río se levanta un molino.", "A mill stands beside the river."],
         ],
         [
-          fb("Completa.", "Es un pueblo ___ casas son de piedra.", "cuyas", "«Cuyo» concuerda con lo poseído: «casas» es femenino plural."),
+          fb("Completa.", "Es una aldea ___ calles son muy estrechas.", "cuyas", "«Cuyo» concuerda con lo poseído: «calles» es femenino plural."),
         ]
       ),
     ],
@@ -11359,7 +11380,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       fb("Completa.", "Le sugiero que ___ con un asesor. (hablar)", "hable", "Sugerir que + subjuntivo."),
       fb("Completa.", "…antes de que ___ tarde. (ser)", "sea", "Antes de que siempre lleva subjuntivo."),
       fb("Completa.", "Si ___ un contrato claro, sería distinto. (haber)", "hubiera", "Irreal presente: si + imperfecto de subjuntivo."),
-      fb("Completa.", "___, la decisión es suya.", "No obstante", "«No obstante» marca contraste en registro formal, como «sin embargo»."),
+      { ...fb("Completa.", "___, la decisión es suya.", "No obstante", "«No obstante» marca contraste en registro formal, como «sin embargo»."), altAnswers: ["Sin embargo"] },
       toEs("If I were you, I would ask for advice.", "Yo en tu lugar, pediría consejo.", "«Yo en tu lugar» + condicional es otra forma de aconsejar, equivalente a «si yo fuera tú» (con usted: «yo en su lugar»).", ["Yo en su lugar, pediría consejo.", "Si yo fuera tú, pediría consejo.", "Si yo fuera usted, pediría consejo.", "Yo que tú, pediría consejo."]),
       toEs("Deberías dormir más.", "Yo en tu lugar, dormiría más.", "Yo en tu lugar + condicional da el consejo poniéndote en la situación del otro.", ["Yo que tú, dormiría más.", "Si yo fuera tú, dormiría más.", "Yo en tu lugar dormiría más."], "Cambia el consejo a «yo en tu lugar» + condicional."),
       toEs("Te recomiendo que descanses.", "Le recomiendo que descanse.", "Con usted, el pronombre pasa a le y el subjuntivo a tercera persona: descanse.", [], "Cambia a usted."),
@@ -11450,20 +11471,23 @@ export const B2_DRILLS: AnchoredLesson[] = [
     [
       sec(
         "Las instrucciones del profesor",
-        "«Cuando lleguemos al hotel, dejad las maletas. No salgáis sin que yo lo sepa. Os doy mi número para que me llaméis si hay problemas. Aunque llueva, haremos la excursión. Volveremos antes de que anochezca.»",
+        [
+          "Recuerda la regla: cuando, en cuanto o hasta que miran al futuro, y para que, sin que, antes de que o a menos que, piden subjuntivo; aunque lleva subjuntivo si es una hipótesis. Compara con las instrucciones del profesor:",
+          "«Cuando lleguemos al hotel, dejad las maletas. No salgáis sin que yo lo sepa. Os doy mi número para que me llaméis si hay problemas. Aunque llueva, haremos la excursión. Volveremos antes de que anochezca.»",
+        ],
         [
           ["No salgáis sin que yo lo sepa.", "Don't go out without me knowing."],
         ],
         [
-          fb("Completa.", "Cuando ___ al hotel, dejad las maletas. (llegar, nosotros)", "lleguemos", "Futuro."),
+          fb("Completa.", "Cuando ___ al hotel, dejad las maletas. (llegar, nosotros)", "lleguemos", "Cuando mira a un momento futuro (todavía no ha llegado) va en subjuntivo: lleguemos, no llegamos ni llegaremos."),
         ]
       ),
     ],
     [
-      fb("Completa.", "No salgáis sin que yo lo ___. (saber)", "sepa", "Sin que."),
-      fb("Completa.", "Os doy mi número para que me ___. (llamar)", "llaméis", "Para que."),
-      fb("Completa.", "Aunque ___, haremos la excursión. (llover)", "llueva", "Hipótesis."),
-      fb("Completa.", "Volveremos antes de que ___. (anochecer)", "anochezca", "Antes de que."),
+      fb("Completa.", "No salgáis sin que yo lo ___. (saber)", "sepa", "Sin que presenta una acción que aún no es un hecho (sin que yo lo sepa), así que lleva siempre subjuntivo: sepa."),
+      fb("Completa.", "Os doy mi número para que me ___. (llamar)", "llaméis", "Para que expresa finalidad, algo que se busca y aún no ha ocurrido, así que lleva subjuntivo: llaméis."),
+      fb("Completa.", "Aunque ___, haremos la excursión. (llover)", "llueva", "Aunque + subjuntivo presenta la lluvia como una posibilidad que no cambia el plan; con indicativo (aunque llueve) sería un hecho ya conocido."),
+      fb("Completa.", "Volveremos antes de que ___. (anochecer)", "anochezca", "Antes de que lleva siempre subjuntivo porque lo que introduce todavía no ha ocurrido respecto a la acción principal: anochezca."),
       fb("Completa.", "El año pasado, cuando ___ al hotel, estaba cerrado. (llegar, nosotros)", "llegamos", "Pasado."),
       toEs("We'll leave as soon as everyone is ready.", "Saldremos en cuanto todos estén listos.", "«En cuanto» + acción futura exige subjuntivo: «estén».", ["Nos iremos en cuanto todos estén listos.", "Saldremos tan pronto como todos estén listos."]),
     ]
@@ -11541,8 +11565,8 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "Tres miradas al pasado",
         [
-          "Recuerda la regla: hay tres maneras de mirar algo que ya no se puede cambiar, y cada una tiene su forma. Lamento sobre ti mismo o sobre algo que deseabas: ojalá + pluscuamperfecto de subjuntivo (ojalá hubiera ido). Reproche a alguien: deberías / tendrías que / podrías + haber + participio (deberías haber avisado). Hipótesis con otro resultado: si + pluscuamperfecto de subjuntivo → condicional compuesto (si hubiera ido, habría disfrutado).",
-          "Dos errores frecuentes: tras si y tras ojalá nunca va el condicional ni el indicativo (si habría…, ojalá había…), y en el reproche el verbo deber va en condicional seguido de haber, no de un participio solo (deberías avisado).",
+          "Recuerda la regla: hay tres maneras de mirar algo que ya no se puede cambiar. Lamento: ojalá + pluscuamperfecto de subjuntivo (ojalá hubiera ido). Reproche a alguien: deberías / tendrías que / podrías + haber + participio (deberías haber avisado). Hipótesis con otro resultado: si + pluscuamperfecto de subjuntivo → condicional compuesto (si hubiera ido, habría disfrutado).",
+          "Errores frecuentes: tras si no va el condicional (si habría…), tras ojalá no va el indicativo (ojalá había…) y el reproche necesita haber (deberías avisado es incorrecto).",
         ],
         [
           ["Ojalá hubiera aceptado aquel trabajo.", "I wish I had accepted that job. (lamento)"],
@@ -11564,7 +11588,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       fb("Completa.", "Ojalá ___ caso a mi madre. (hacer, yo)", "hubiera hecho", "Lamento propio sobre el pasado: ojalá + pluscuamperfecto de subjuntivo (hubiera hecho caso). «Ojalá haga» sería un deseo todavía posible."),
       fb("Completa.", "Deberías ___ antes. (avisar, tú)", "habernos avisado", "Reproche sobre el pasado: deberías + haber + participio; el pronombre puede ir pegado a haber (habernos avisado) o delante de deberías (nos deberías haber avisado)."),
       fb("Completa.", "Si me hubieras avisado, ___ antes. (venir, yo)", "habría venido", "Hipótesis sobre el pasado: si + pluscuamperfecto de subjuntivo (hubieras avisado) → condicional compuesto (habría venido). «Había venido» es indicativo y no expresa hipótesis."),
-      toEs("You could have told me.", "Me lo podrías haber dicho.", "«Podrías haber» + participio expresa un reproche sobre el pasado.", ["Podrías habérmelo dicho.", "Me lo habrías podido decir.", "Pudiste habérmelo dicho.", "Podías habérmelo dicho."]),
+      toEs("You could have told me.", "Me lo podrías haber dicho.", "«Podrías haber» + participio expresa un reproche sobre el pasado.", ["Podrías habérmelo dicho.", "Podrías haberme dicho.", "Me podrías haber dicho.", "Me lo habrías podido decir.", "Pudiste habérmelo dicho.", "Podías habérmelo dicho."]),
     ]
   ),
   L(
@@ -11576,7 +11600,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     [
       sec(
         "Lo que dijo el médico",
-        "El médico dijo: «Los análisis han salido bien. ¿Sigue tomando la medicación? Tómela un mes más y vuelva en junio. No se preocupe.» Recuerda la regla para contarlo con un verbo en pasado (me dijo, me preguntó, me pidió): los tiempos dan un paso atrás. El presente pasa a imperfecto (sigue → seguía), el perfecto y el indefinido a pluscuamperfecto (han salido → habían salido) y el futuro a condicional (irá → iría).",
+        "El médico dijo: «Los análisis han salido bien. ¿Sigue tomando la medicación? Tómela un mes más y vuelva en junio. No se preocupe.» Recuerda la regla para contarlo con un verbo en pasado (me dijo, me preguntó, me pidió): los tiempos dan un paso atrás. El presente pasa a imperfecto (sigue → seguía), el perfecto (y a menudo el indefinido) a pluscuamperfecto (han salido → habían salido) y el futuro a condicional (irá → iría).",
         [
           ["Me dijo que los análisis habían salido bien.", "He told me the tests had come back fine."],
         ],
@@ -11715,7 +11739,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       { ...fb("Su historia.", "Cuando le dieron el premio, se ___ a llorar. (poner, indefinido)", "puso", "Ponerse a + infinitivo: empezar de repente a hacer algo."), altAnswers: ["echó"] },
       toEs("She has become more confident.", "Se ha vuelto más segura de sí misma.", "«Volverse» + adjetivo expresa un cambio de carácter gradual y duradero.", ["Se ha vuelto más segura.", "Se ha hecho más segura de sí misma."]),
       toEs("Con los años se hizo abogado.", "Con los años se volvió muy desconfiado.", "Hacerse va con la profesión; para un rasgo de carácter que se instala con el tiempo, volverse + adjetivo.", [], "Cambia «abogado» por «muy desconfiado» y adapta el verbo."),
-      toEs("El castillo se convirtió en un hotel.", "El castillo se hizo muy famoso.", "Convertirse en va con un sustantivo; con el adjetivo famoso se usa hacerse (o volverse).", ["El castillo se volvió muy famoso."], "Cambia «un hotel» por «muy famoso» y adapta el verbo."),
+      toEs("El castillo se convirtió en un hotel.", "El castillo se hizo muy famoso.", "Convertirse en va con un sustantivo; con el adjetivo famoso se usa hacerse (o llegar a ser): es algo que se consigue con el tiempo, no un cambio de carácter.", ["El castillo llegó a ser muy famoso."], "Cambia «un hotel» por «muy famoso» y adapta el verbo."),
       toEs("Al final consiguió ser campeona del mundo.", "Al final llegó a ser campeona del mundo.", "Llegar a ser resume una meta alcanzada tras un largo esfuerzo.", [], "Transforma la frase con «llegar a ser»."),
     ]
   ),
@@ -11744,7 +11768,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     ],
     [
       toEs("Corrige: «A pesar de que los problemas, la ciudad ha mejorado.»", "A pesar de los problemas, la ciudad ha mejorado.", "«A pesar de» + sustantivo va sin «que»; «a pesar de que» necesita un verbo conjugado."),
-      toEs("Corrige: «Sin embargo que hay más tráfico, hay más zonas verdes.»", "Aunque hay más tráfico, hay más zonas verdes.", "«Sin embargo» no une dos oraciones con «que»; para una concesión en una sola oración se usa «aunque».", ["A pesar de que hay más tráfico, hay más zonas verdes."]),
+      toEs("Corrige: «Sin embargo que hay más tráfico, hay más zonas verdes.»", "Aunque hay más tráfico, hay más zonas verdes.", "«Sin embargo» no une dos oraciones con «que»; para una concesión en una sola oración se usa «aunque».", ["A pesar de que hay más tráfico, hay más zonas verdes.", "Aunque haya más tráfico, hay más zonas verdes.", "Pese a que hay más tráfico, hay más zonas verdes."]),
       toEs("Corrige: «Por lo tanto que el balance es positivo.»", "Por lo tanto, el balance es positivo.", "«Por lo tanto» es un conector independiente: va seguido de coma, no de «que»."),
       toEs("Corrige: «Ya que por eso llovía, nos quedamos.»", "Ya que llovía, nos quedamos.", "Basta un solo conector causal: «ya que» ya expresa la causa, así que «por eso» sobra."),
       ms(
@@ -11765,7 +11789,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
       sec(
         "Hendida: ser + lo destacado + relativo",
         [
-          "Para destacar algo, el español lo mueve al principio. Con una hendida: ser + lo destacado + el relativo que le corresponde (quien para personas, donde para lugares, cuando para tiempos, lo que para cosas o ideas): Fue allí donde aprendí a cocinar.",
+          "Para destacar algo, el español lo mueve al principio. Con una hendida: ser + lo destacado + el relativo que le corresponde (quien para personas, donde para lugares, cuando para tiempos): Fue allí donde aprendí a cocinar. Para destacar una cosa también se puede empezar por «lo que»: Lo que más me gusta es el mercado.",
         ],
         [
           ["Fue allí donde aprendí a cocinar.", "It was there that I learned to cook. (lugar: donde)"],
@@ -11817,7 +11841,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     [
       fb("Completa la frase enfática sobre tu ciudad.", "Fue allí ___ aprendí a cocinar.", "donde", "En las hendidas de lugar se usa «donde»: «Fue allí donde…»."),
       fb("Completa la frase enfática sobre tu ciudad.", "El pescado ___ compro siempre en el mismo puesto.", "lo", "El complemento directo antepuesto se retoma con pronombre: «el pescado» → «lo»."),
-      fb("Tu ciudad.", "No te imaginas lo ___ que está. (fresco)", "fresco", "Lo + adjetivo + que: lo no cambia y el adjetivo concuerda con el pescado (masculino)."),
+      fb("Tu ciudad.", "No te imaginas lo ___ que está el pescado. (fresco)", "fresco", "Lo + adjetivo + que: lo no cambia y el adjetivo concuerda con el pescado (masculino)."),
       { ...fb("Completa la frase enfática sobre tu ciudad.", "Fue mi abuelo ___ me llevó allí por primera vez.", "quien", "En las oraciones hendidas de persona se usa «quien» (o «el que»): «Fue mi abuelo quien…»."), altAnswers: ["el que"] },
       fb("Completa la frase enfática sobre tu ciudad.", "Las flores ___ cultiva una señora del pueblo.", "las", "El complemento directo antepuesto se retoma con pronombre: «las flores» → «las»."),
       toEs("What I miss most is the sea.", "Lo que más echo de menos es el mar.", "Para destacar una cosa se usa «lo que»: «Lo que más echo de menos es…».", ["Lo que más extraño es el mar."]),

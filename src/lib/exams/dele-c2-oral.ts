@@ -15,7 +15,7 @@ export const DELE_C2_ORAL: ExamPaper = {
     {
       title: "Tarea 1",
       instructions:
-        "Lea los textos sobre el tema propuesto y prepare una presentación. Exponga durante 3 a 5 minutos la información principal, contraste los puntos de vista y dé su opinión argumentada.",
+        "Lea los textos sobre el tema propuesto y prepare una presentación. Exponga durante un tiempo de entre 3 y 5 minutos la información principal, contraste los puntos de vista y dé su opinión argumentada.",
       speak: {
         prompt: "La semana laboral de cuatro días: ¿utopía o futuro inmediato?",
         material: [

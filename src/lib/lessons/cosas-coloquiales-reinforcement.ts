@@ -77,7 +77,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     "festivals-traditions-hispanic-world-2",
     "ccr-festival-dialogue-invitation",
     "Laboratorio de diálogo: te invitan a una fiesta del pueblo",
-    "Un amigo te invita a las fiestas de su pueblo: acepta, pregunta por las costumbres y reacciona como un nativo.",
+    "Un amigo te invita a las fiestas de su pueblo: aprende el vocabulario de las fiestas patronales (verbena, peña, charanga) y fórmulas coloquiales para aceptar y comentar la invitación.",
     "7 min",
     [
       sec(
@@ -142,7 +142,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "No se trata de dar miedo, ___ de recordar.", "sino", "«No… sino…» corrige una negación: tras «no», la alternativa verdadera se introduce con «sino» (no «pero»)."),
+      fb("Completa.", "No se trata de gastar mucho, ___ de recordar.", "sino", "«No… sino…» corrige una negación: tras «no», la alternativa verdadera se introduce con «sino» (no «pero»)."),
       { ...fb("Completa.", "Se cree que las almas ___ a visitar a sus familias. (volver)", "vuelven", "Tras «se cree que» se usa indicativo (vuelven), porque se presenta la creencia como afirmación."), altAnswers: ["regresan"] },
       fb("Completa.", "Las calaveritas ___ son versos humorísticos sobre la muerte. (de literatura)", "literarias", "El adjetivo concuerda con «calaveritas» (femenino plural): calaveritas literarias."),
       mc(
@@ -157,7 +157,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "En la ofrenda se ponen fotos del difunto, velas y su comida favorita para recibir su visita. La calabaza con cara de miedo es un símbolo de Halloween, ajeno a esta tradición."
       ),
-      toEs("It's not about being scared; it's about remembering.", "No se trata de tener miedo, sino de recordar.", "«No se trata de X, sino de Y» corrige la idea: tras la negación, «sino» introduce la alternativa verdadera.", ["No se trata de asustarse, sino de recordar.", "No es cuestión de tener miedo, sino de recordar."]),
+      toEs("It's not about the costumes; it's about remembering.", "No se trata de los disfraces, sino de recordar.", "«No se trata de X, sino de Y» corrige la idea: tras la negación, «sino» introduce la alternativa verdadera.", ["No es cuestión de los disfraces, sino de recordar.", "No se trata de disfrazarse, sino de recordar."]),
       wo("Ese día las familias visitan el panteón y comparten comida con sus difuntos.", "«Panteón» es la palabra mexicana habitual para el cementerio; «compartir comida con sus difuntos» refleja la idea de que los muertos vuelven a convivir con la familia.", "That day families visit the cemetery and share food with their departed."),
     ]
   ),
@@ -206,7 +206,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "El picoteo es una comida informal a base de cosas variadas para picar. Una cena de gala con varios platos es lo contrario; «solo bebidas» no incluye comida, y llevar la comida de casa no es lo que indica la palabra."
       ),
       toEs("We stayed chatting at the table for hours.", "Nos quedamos de sobremesa durante horas.", "«Quedarse (o estar) de sobremesa» es la forma natural de decir que se sigue charlando en la mesa tras comer.", ["Estuvimos de sobremesa durante horas.", "Nos quedamos horas de sobremesa.", "Nos quedamos charlando en la mesa durante horas.", "Pasamos horas de sobremesa.", "Estuvimos horas de sobremesa."]),
-      wo("Antes de comer siempre tomamos el aperitivo en el bar de la esquina.", "«Tomar el aperitivo» (con artículo) es la colocación fija para la bebida y la tapa antes de comer; «siempre» va delante del verbo.", "Before lunch we always have a drink and snack at the corner bar."),
+      wo("Antes de comer siempre tomamos el aperitivo en el bar de la esquina.", "«Tomar el aperitivo» (con artículo) es la colocación fija para la bebida y la tapa antes de comer; «siempre» suele ir delante del verbo, como en la frase inglesa.", "Before lunch we always have a drink and snack at the corner bar."),
     ]
   ),
   L(
@@ -218,7 +218,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Normas tácitas",
-        "No empezar a comer antes que el anfitrión («¡Que aproveche!» o «¡Buen provecho!» da la señal). No levantarse nada más terminar. Rechazar la segunda ración una vez es cortesía; la anfitriona insistirá. Elogiar la comida. Pedir la cuenta cuesta: todos quieren invitar («Esta la pago yo», «Ni hablar, invito yo»).",
+        "No empezar a comer antes que el anfitrión («¡Que aproveche!» o «¡Buen provecho!» da la señal). No levantarse nada más terminar. Rechazar la segunda ración una vez es cortesía; la anfitriona insistirá. Elogiar la comida. Cuesta pedir la cuenta: todos quieren invitar («Esta la pago yo», «Ni hablar, invito yo»).",
         [
           ["¡Que aproveche!", "Enjoy your meal!"],
           ["Ni hablar, esta vez invito yo.", "No way, this time it's on me."],
@@ -251,9 +251,9 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       { ...fb("Completa.", "Esto está ___: tienes que darme la receta. (muy bueno, coloquial)", "buenísimo", "El superlativo coloquial de «bueno» es «buenísimo» (también «riquísimo», hablando de comida); «bonísimo» existe pero suena culto y raro en la conversación."), altAnswers: ["riquísimo"] },
       ms(
         "¿Qué comportamientos son adecuados?",
-        ["elogiar la comida", "quedarse a la sobremesa", "insistir en pagar", "levantarse sin despedirse"],
+        ["elogiar la comida", "quedarse a la sobremesa", "dar las gracias al anfitrión", "levantarse sin despedirse"],
         [0, 1, 2],
-        "Elogiar la comida, quedarse a la sobremesa e insistir en pagar son gestos esperados de buena educación. Levantarse sin despedirse, en cambio, se considera descortés."
+        "Elogiar la comida, quedarse a la sobremesa y dar las gracias al anfitrión son gestos esperados de buena educación. Levantarse sin despedirse, en cambio, se considera descortés."
       ),
       wo("Esta vez no te dejo pagar, que la última vez invitaste tú.", "«No te dejo pagar» (dejar + infinitivo) rechaza que el otro pague; «que» introduce la justificación coloquial (= porque) e «invitar» es pagar por otros.", "This time I won't let you pay, since you treated last time."),
     ]
@@ -285,7 +285,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Bueno, ya me voy ___. (gerundio de ir)", "yendo", "«Irse yendo» (ir + gerundio) presenta la marcha como un proceso gradual; el gerundio de ir es «yendo»."),
       fb("Completa.", "—¿Ya te vas? ¡Si es ___! (muy pronto)", "prontísimo", "El sufijo -ísimo intensifica también adverbios: pronto → prontísimo."),
-      fb("Completa.", "Es que mañana ___ mucho. (levantarse muy temprano, en una palabra)", "madrugo", "«Madrugar» ya significa levantarse temprano; en presente con valor de futuro: mañana madrugo."),
+      { ...fb("Completa.", "Es que mañana ___ mucho. (levantarse muy temprano, en una palabra)", "madrugo", "«Madrugar» ya significa levantarse temprano; en presente con valor de futuro: mañana madrugo (también vale «madrugaré»)."), altAnswers: ["madrugaré"] },
       mc(
         "Tras despedirte, seguís hablando veinte minutos en la puerta. Esto es…",
         ["normal y parte del ritual", "una grosería", "muy raro", "un error del anfitrión"],
@@ -301,7 +301,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "«Ya me voy yendo» anuncia la salida, «¿Ya? Quédate un poco más» es la resistencia del anfitrión y «Venga, lo he pasado genial» cierra la despedida de verdad."
       ),
-      toEs("Well, I'd better get going.", "Bueno, ya me voy yendo.", "«Me voy yendo» es la fórmula coloquial para empezar a despedirse, con el gerundio que suaviza la marcha.", ["Bueno, me voy yendo.", "Bueno, me tengo que ir.", "Bueno, tengo que irme.", "Bueno, será mejor que me vaya."]),
+      toEs("It's late, so I'm going to start heading out.", "Es tarde, así que ya me voy yendo.", "«Me voy yendo» es la fórmula coloquial para empezar a despedirse, con el gerundio que suaviza la marcha.", ["Se hace tarde, así que me voy yendo.", "Es tarde, así que me tengo que ir.", "Es tarde, así que tengo que irme."]),
       wo("Venga, que lo he pasado genial; a la próxima invito yo.", "«Venga» marca el cierre definitivo; «que lo he pasado genial» justifica la despedida con «que» causal, y «a la próxima invito yo» deja abierto el reencuentro.", "Come on, I've had a great time; next time it's on me."),
     ]
   ),
@@ -314,7 +314,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Del campo a la calle",
-        "Meterle un gol a alguien: engañarlo, colarle algo. Estar en fuera de juego: estar desinformado o fuera de lugar. Echar balones fuera: eludir una responsabilidad. Casarse de penalti (España): por un embarazo inesperado (coloquial). Pasar la pelota: transferir la responsabilidad. Llegar en el descuento / en el último minuto: lograr algo justo a tiempo (en América también: en el tiempo de descuento o de reposición). Sacar tarjeta roja: rechazar o expulsar.",
+        "Meterle un gol a alguien: engañarlo, colarle algo. Estar en fuera de juego: estar desinformado o fuera de lugar. Echar balones fuera: eludir una responsabilidad. Casarse de penalti (España): por un embarazo inesperado (coloquial). Pasar la pelota: transferir la responsabilidad. Llegar en el descuento: lograr algo justo a tiempo. Sacar tarjeta roja: rechazar o expulsar.",
         [
           ["Cuando le pregunté, echó balones fuera.", "When I asked him, he dodged the question."],
           ["Me han metido un gol con este coche usado.", "They've conned me with this used car."],
@@ -357,7 +357,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     "soccer-popular-passion-2",
     "ccr-soccer-commentator-style",
     "Taller de estilo: narra como un comentarista",
-    "Convierte una jugada contada con frialdad en una narración radiofónica apasionada, con el léxico del fútbol.",
+    "Aprende el léxico del fútbol y los recursos del comentarista (presente narrativo, hipérboles, frases cortas) y cómo cambia el vocabulario entre España y América.",
     "7 min",
     [
       sec(
@@ -483,7 +483,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Janguear (Puerto Rico) = salir de fiesta; parcero (Colombia) = amigo; morfar (lunfardo rioplatense) = comer; gozar (en la salsa) = disfrutar bailando."
       ),
-      fb("Completa (lunfardo).", "La ___ del barrio bailaba como nadie. (mujer)", "mina", "En lunfardo, «mina» significa mujer; es muy frecuente en las letras de tango."),
+      fb("Completa (lunfardo).", "La ___ del barrio bailaba como nadie. (palabra del lunfardo para «mujer»)", "mina", "En lunfardo, «mina» significa mujer; es muy frecuente en las letras de tango."),
       fb("Completa (salsa).", "¡A ___ se ha dicho! Que suene la orquesta. (disfrutar bailando)", "gozar", "«¡A gozar!» es el grito típico de la salsa para disfrutar bailando; tras «a» va el infinitivo."),
       mc(
         "«Ese cantante tiene mucho flow» significa que…",
@@ -497,7 +497,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "El lunfardo nació en Buenos Aires y Montevideo, a orillas del Río de la Plata. Madrid, La Habana y Ciudad de México tienen sus propias jergas (el cheli, la jerga cubana, el caló mexicano), pero no el lunfardo."
       ),
-      toEs("Tonight we're going out dancing, bro. (Colombia)", "Esta noche salimos a bailar, parce.", "«Parce» o «parcero» es la forma colombiana, sobre todo de Medellín, de decir amigo o colega.", ["Esta noche nos vamos a bailar, parcero.", "Esta noche nos vamos a bailar, parce.", "Esta noche salimos a bailar, parcero.", "Esta noche vamos a salir a bailar, parce.", "Esta noche vamos a salir a bailar, parcero."]),
+      toEs("Tonight we're going out dancing, bro. (Colombia)", "Esta noche salimos a bailar, parce.", "«Parce» o «parcero» es la forma colombiana, sobre todo de Medellín, de decir amigo o colega.", ["Esta noche nos vamos a bailar, parcero.", "Esta noche nos vamos a bailar, parce.", "Esta noche salimos a bailar, parcero.", "Esta noche vamos a salir a bailar, parce.", "Esta noche vamos a salir a bailar, parcero.", "Esta noche vamos a bailar, parce.", "Esta noche vamos a bailar, parcero."]),
       wo("Después del laburo nos vamos a la milonga del barrio.", "«Laburo» es lunfardo por «trabajo» (del italiano lavoro) y «la milonga» es la reunión o el local donde se baila tango.", "After work we're going to the neighborhood tango dance."),
     ]
   ),
@@ -510,17 +510,17 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "La mala suerte cambia de fecha",
-        "En España y en buena parte de Latinoamérica, el día de mala suerte es el martes 13: «En martes, ni te cases ni te embarques». Comunes: tocar madera, no pasar por debajo de una escalera, derramar sal, romper un espejo (siete años de mala suerte), abrir un paraguas en casa, gato negro. Expresiones: «¡Lagarto, lagarto!» (España, para ahuyentar la mala suerte), «Toco madera».",
+        "En España y en gran parte de Sudamérica, el día de mala suerte es el martes 13: «En martes, ni te cases ni te embarques». Comunes: tocar madera, no pasar por debajo de una escalera, derramar sal, romper un espejo (siete años de mala suerte), abrir un paraguas en casa, gato negro. Expresiones: «¡Lagarto, lagarto!» (España, para ahuyentar la mala suerte), «Toco madera».",
         [
           ["En martes, ni te cases ni te embarques.", "On Tuesday, neither marry nor set sail."],
           ["Todo va bien, toco madera.", "Everything's going well, knock on wood."],
         ],
         [
           mc(
-            "El día de mala suerte en la mayor parte del mundo hispano es…",
+            "El día de mala suerte en España y en buena parte de Latinoamérica es…",
             ["el martes 13", "el viernes 13", "el lunes 1", "el domingo 7"],
             0,
-            "En la mayor parte del mundo hispano el día aciago es el martes 13 («en martes, ni te cases ni te embarques»). El viernes 13 es la superstición anglosajona, y el lunes 1 y el domingo 7 no tienen fama de mala suerte."
+            "En España y en buena parte de Latinoamérica el día aciago es el martes 13 («en martes, ni te cases ni te embarques»). El viernes 13 es la superstición anglosajona (también conocida en otros países), y el lunes 1 y el domingo 7 no tienen fama de mala suerte."
           ),
         ]
       ),
@@ -541,7 +541,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "Abrir un paraguas bajo techo, derramar la sal y pasar por debajo de una escalera son supersticiones clásicas de mala suerte. El trébol de cuatro hojas, en cambio, trae buena suerte."
       ),
-      toEs("Everything's going fine, knock on wood.", "Todo va bien, toco madera.", "El equivalente de «knock on wood» es «toco madera», en presente y primera persona.", ["Todo marcha bien, toco madera.", "Va todo bien, toco madera."]),
+      toEs("Everything is going well at the new job, knock on wood.", "Todo va bien en el trabajo nuevo, toco madera.", "El equivalente de «knock on wood» es «toco madera», en presente y primera persona.", ["Todo marcha bien en el trabajo nuevo, toco madera.", "En el trabajo nuevo todo va bien, toco madera."]),
       wo("Mi abuela nunca abre un paraguas dentro de casa.", "Abrir un paraguas dentro de casa se considera de mala suerte; «dentro de casa» (sin artículo) es la forma habitual de decir indoors.", "My grandmother never opens an umbrella indoors."),
     ]
   ),
@@ -554,10 +554,10 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Rituales para el año nuevo",
-        "Doce uvas con las campanadas (España, y hoy también en muchos países latinoamericanos): una por cada mes de suerte. Ropa interior amarilla (dinero y felicidad) o roja (amor). Salir con una maleta a dar la vuelta a la manzana (viajes) — típico de varios países latinoamericanos. Comer lentejas (prosperidad). Tirar un cubo de agua por la ventana (alejar lo malo; Cuba, Puerto Rico). Poner un anillo de oro en la copa de cava (España). Actitud muy común: «creer sin creer del todo», es decir, cumplir los rituales por si acaso aunque uno diga que no es supersticioso.",
+        "Doce uvas con las campanadas (España, y hoy también en muchos países latinoamericanos): una por cada mes de suerte. Ropa interior amarilla (dinero y felicidad) o roja (amor). Salir con una maleta vacía a dar la vuelta a la manzana (viajes) — típico de varios países latinoamericanos. Comer lentejas (prosperidad). Tirar un cubo de agua por la ventana (alejar lo malo; Cuba, Puerto Rico). Poner un anillo de oro en la copa de cava (España). Actitud común: «creer sin creer del todo» (cumplir los rituales por si acaso).",
         [
           ["Llevo ropa interior amarilla para atraer la abundancia.", "I'm wearing yellow underwear to attract abundance."],
-          ["Salimos con la maleta para viajar mucho este año.", "We went out with a suitcase so we'd travel a lot this year."],
+          ["Salimos con la maleta para viajar mucho este año.", "We go out with a suitcase so we travel a lot this year."],
         ],
         [
           mc(
@@ -651,7 +651,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Recibir un cumplido a la hispana",
-        "Restar importancia: «¿Esto? Si me costó dos euros», «Qué va, es viejísimo». Devolver: «Pues anda que tú, que estás estupenda». Agradecer con humildad: «Gracias, eres muy amable», «Eso es que me miras con buenos ojos» (mirar a alguien con buenos ojos = verlo con simpatía). Aceptarlo sin más («Sí, lo sé») puede sonar arrogante en muchos contextos.",
+        "Restar importancia: «¿Esto? Si me costó dos euros», «Qué va, es viejísimo». Devolver: «Pues tú sí que estás estupenda». Agradecer con humildad: «Gracias, eres muy amable», «Eso es que me miras con buenos ojos» (mirar a alguien con buenos ojos = verlo con simpatía). Aceptarlo sin más («Sí, lo sé») puede sonar arrogante en muchos contextos.",
         [
           ["—¡Qué bien cocinas! —Qué va, es una receta facilísima.", "—You cook so well! —Oh no, it's a super easy recipe."],
           ["Eso es que me miras con buenos ojos.", "You just see me through kind eyes."],
@@ -667,7 +667,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "—¡Qué guapa estás! —Pues ___ que tú, que estás estupenda.", "anda", "«Pues anda que tú» devuelve el cumplido con naturalidad: «y tú todavía más»."),
+      fb("Completa.", "—¡Qué guapa estás! —Pues ___ sí que estás estupenda.", "tú", "«Pues tú sí que…» devuelve el cumplido con naturalidad: «y tú todavía más»."),
       fb("Completa.", "Eso es que tú me miras con buenos ___.", "ojos", "Mirar (o ver) a alguien con buenos ojos = verlo con simpatía, favorablemente."),
       fb("Completa.", "—¡Cocinas de maravilla! —Qué ___, si es lo más fácil del mundo.", "va", "«Qué va» niega con suavidad y resta importancia al elogio."),
       mc(
@@ -680,12 +680,12 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Relaciona la respuesta con su estrategia.",
         [
           ["¿Esto? Si es viejísimo.", "restar importancia"],
-          ["Pues anda que tú…", "devolver el cumplido"],
+          ["Pues tú sí que estás estupenda", "devolver el cumplido"],
           ["Gracias, eres muy amable.", "agradecer con humildad"],
         ],
-        "«Si es viejísimo» quita valor al objeto elogiado, «Pues anda que tú» devuelve el elogio y «Eres muy amable» agradece sin presumir."
+        "«Si es viejísimo» quita valor al objeto elogiado, «Pues tú sí que…» devuelve el elogio y «Eres muy amable» agradece sin presumir."
       ),
-      toEs("You're just being kind.", "Lo dices por amabilidad.", "«Lo dices por amabilidad» atribuye el elogio a la bondad del otro en lugar de aceptarlo sin más, que es la respuesta cortés y modesta; «solo estás siendo amable» añade el matiz de «no es para tanto».", ["Solo estás siendo amable.", "Lo dices por ser amable."]),
+      toEs("You're just being kind.", "Lo dices por amabilidad.", "«Lo dices por amabilidad» atribuye el elogio a la bondad del otro en lugar de aceptarlo sin más, que es la respuesta cortés y modesta; «solo estás siendo amable» añade el matiz de «no es para tanto».", ["Solo estás siendo amable.", "Lo dices por ser amable.", "Lo dices por educación.", "Lo dices por cortesía.", "Lo dices para ser amable."]),
       wo("Qué va, si esta camisa la compré en un mercadillo.", "«Qué va» resta importancia al cumplido y el «si» enfático introduce la justificación; el objeto antepuesto «esta camisa» se retoma con «la».", "Oh no, I bought this shirt at a street market."),
     ]
   ),

@@ -15,7 +15,7 @@ export const C1_GUIDES: GrammarGuide[] = [
     ],
     sections: [
       {
-        heading: "The three meanings",
+        heading: "The main patterns",
         body: [
           "Indicative: a fact the listener may not know. Present subjunctive: a possibility, or a known fact the speaker dismisses. Imperfect subjunctive: a situation contrary to reality.",
         ],
@@ -843,7 +843,7 @@ export const C1_GUIDES: GrammarGuide[] = [
       },
       {
         q: "Is a comma before \"pero\" required?",
-        a: "Yes, generally: a comma goes before pero, aunque and sino when they join clauses: Quería ir, pero no pude.",
+        a: "Yes, generally: a comma goes before pero and sino when they join clauses, and usually before aunque when it introduces a fact (Es caro, aunque vale la pena): Quería ir, pero no pude.",
       },
     ],
     related: ["spanish-accent-marks", "spanish-connectors", "register-and-politeness"],

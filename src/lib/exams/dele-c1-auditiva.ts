@@ -14,7 +14,7 @@ export const DELE_C1_AUDITIVA: ExamPaper = {
     {
       title: "Tarea 1",
       instructions:
-        "Usted va a escuchar un fragmento de una conferencia. Escuchará la conferencia dos veces. Mientras escucha, complete las notas (1-6) con la opción correcta (a, b o c).",
+        "Usted va a escuchar un fragmento de una conferencia. Escuchará la conferencia dos veces. Después, conteste a las preguntas (1-6). Seleccione la opción correcta (a, b o c).",
       audio: [
         {
           label: "Conferencia: los mapas que nos engañan",

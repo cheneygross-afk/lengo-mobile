@@ -728,7 +728,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración se refiere a un evento futuro?",
+            "question": "¿Cuál oración usa bien «hasta que» para una espera futura, con la llegada aún sin ocurrir?",
             "options": [
               "Esperé hasta que llegó.",
               "Esperaré hasta que llegue.",
@@ -1208,7 +1208,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "manifestarse → la manifestación → la manifestante",
-            "en": "to demonstrate → demonstration → demonstrator (-ción: la acción)"
+            "en": "to demonstrate → demonstration → demonstrator (-ción: la acción; -ante: la persona)"
           }
         ],
         "checkpoint": [
@@ -1416,7 +1416,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "pidan"
             ],
             "correctIndex": 0,
-            "explanation": "Ellos del pretérito: pidieron → quita -ron → pidiera-n: pidieran, con la misma i del pretérito. «Pedirían» es condicional, «pedían» es imperfecto de indicativo y «pidan» es presente de subjuntivo."
+            "explanation": "Ellos del pretérito: pidieron → quita -ron → pidie- + -ran: pidieran, con la misma i del pretérito. «Pedirían» es condicional, «pedían» es imperfecto de indicativo y «pidan» es presente de subjuntivo."
           }
         ]
       },
@@ -1492,7 +1492,8 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El condicional cuenta como pasado",
         "body": [
-          "El condicional (me gustaría, preferiría) se comporta como un pasado porque aleja la idea de la realidad. Lo que decide el subjuntivo sigue siendo el verbo de deseo, duda o emoción; la secuencia solo decide qué tiempo de subjuntivo."
+          "El condicional (me gustaría, preferiría) se comporta como un pasado porque aleja la idea de la realidad. Lo que decide el subjuntivo sigue siendo el verbo de deseo, duda o emoción; la secuencia solo decide qué tiempo de subjuntivo.",
+          "Con «si» hipotético ocurre algo parecido: si + imperfecto de subjuntivo y condicional en la otra parte (Si pudiera, cambiaría de trabajo)."
         ],
         "examples": [
           {
@@ -4138,7 +4139,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Más allá de «decir»: verbos que informan",
         "body": [
-          "Un periodista casi nunca repite «dijo que». Elige el verbo que muestra qué hizo la fuente, y el verbo decide el modo. Verbos que informan (afirmar, asegurar, aclarar, explicar, anunciar, advertir, manifestar) → indicativo, con el retroceso de tiempos habitual: aclaró que el titular había sido un error."
+          "Un periodista casi nunca repite «dijo que». Elige el verbo que muestra qué hizo la fuente, y el verbo decide el modo. Verbos que informan (afirmar, asegurar, aclarar, explicar, anunciar, manifestar, y advertir cuando avisa de un hecho) → indicativo, con el retroceso de tiempos habitual: aclaró que el titular había sido un error."
         ],
         "examples": [
           {
@@ -4889,7 +4890,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Volverse: cambios más permanentes, a menudo involuntarios",
         "body": [
           "Volverse + adjetivo (o + un/una + sustantivo) describe una transformación más duradera, frecuentemente gradual e involuntaria: un cambio en la forma de ser de alguien o en la naturaleza de una situación. No es «pasar a estar», sino «pasar a ser»: se volvió desconfiado = ahora es desconfiado.",
-          "Pista: aparece mucho con con los años, con el tiempo, desde que, cada vez más. Ojo: volver sin «se» o volverse a + lugar significan regresar (se volvió a casa)."
+          "Pista: aparece mucho con expresiones como con los años, con el tiempo, desde que, cada vez más. Ojo: volver sin «se» o volverse a + lugar significan regresar (se volvió a casa)."
         ],
         "examples": [
           {
@@ -5120,7 +5121,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "evolucionar",
-            "en": "desarrollarse gradualmente hacia algo mejor"
+            "en": "cambiar y desarrollarse gradualmente"
           },
           {
             "es": "la evolución personal",
@@ -5680,6 +5681,10 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce al inglés.",
         "source": "Tras mucho esfuerzo, se hizo un referente en su campo, y con el tiempo llegó a ser mentor de cientos de jóvenes.",
         "answer": "After a lot of effort, he became a leading figure in his field, and over time he came to be a mentor to hundreds of young people.",
+        "altAnswers": [
+          "After a lot of effort, she became a leading figure in her field, and over time she came to be a mentor to hundreds of young people.",
+          "After much effort, he became a leading figure in his field, and eventually became a mentor to hundreds of young people."
+        ],
         "explanation": "\"Se hizo\" (esfuerzo voluntario) y \"llegó a ser\" (logro gradual y positivo) se traducen ambos como \"became\"/\"came to be\", aunque matizan procesos distintos en español."
       },
       {
@@ -5723,7 +5728,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "pairs": [
           {
             "left": "evolucionar",
-            "right": "desarrollarse gradualmente hacia algo mejor"
+            "right": "cambiar y desarrollarse gradualmente"
           },
           {
             "left": "progresar",
@@ -5796,7 +5801,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Sin embargo o aunque: dos sistemas",
         "body": [
-          "Sin embargo, no obstante y aunque expresan contraste, pero no funcionan igual dentro de la frase. Sin embargo y no obstante son conectores del discurso: enlazan dos oraciones completas, por eso van detrás de un punto o de un punto y coma y llevan coma después. Aunque es una conjunción: abre una oración subordinada dentro de la misma frase y no lleva coma detrás."
+          "Sin embargo, no obstante y aunque expresan contraste, pero no funcionan igual dentro de la frase. Sin embargo y no obstante son conectores del discurso: enlazan dos oraciones completas, por eso suelen ir detrás de un punto o de un punto y coma y llevan coma después (también pueden ir entre comas dentro de la segunda oración: El plan, sin embargo, fracasó). Aunque es una conjunción: abre una oración subordinada dentro de la misma frase y no lleva coma detrás."
         ],
         "examples": [
           {
@@ -5846,7 +5851,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "A pesar de (que)",
         "body": [
           "A pesar de se comporta como una preposición: detrás necesita un sustantivo (a pesar de la lluvia) o un infinitivo (a pesar de estar cansada). Si detrás viene un verbo conjugado, hace falta que: a pesar de que llovía. Es la misma lógica que antes de / antes de que.",
-          "El infinitivo solo funciona cuando el sujeto es el mismo en las dos partes: A pesar de tener poco tiempo, (ella) nos ayudó. No olvides el de: «a pesar que» es un error frecuente (queísmo)."
+          "El infinitivo funciona sobre todo cuando el sujeto es el mismo en las dos partes: A pesar de tener poco tiempo, (ella) nos ayudó. No olvides el de: «a pesar que» es un error frecuente (queísmo)."
         ],
         "examples": [
           {
@@ -5925,8 +5930,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "type": "multi-select",
             "question": "¿Qué conectores introducen una consecuencia? (Elige todas las correctas)",
             "options": [
-              "en consecuencia",
-              "debido a que",
+              "por consiguiente",
+              "ya que",
               "de modo que",
               "asimismo"
             ],
@@ -5934,7 +5939,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "En consecuencia y de modo que presentan un resultado (en inglés, «so / as a result»). Debido a que introduce una causa («because»), igual que puesto que, y asimismo añade información, como además."
+            "explanation": "Por consiguiente y de modo que presentan un resultado (en inglés, «so / as a result»). Ya que introduce una causa («because»), igual que puesto que, y asimismo añade información, como además."
           }
         ]
       },
@@ -6404,8 +6409,8 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Anteposición para dar énfasis",
         "body": [
-          "Mover un complemento al inicio de la oración lo convierte en el tema: aquello de lo que vas a hablar, algo ya conocido en la conversación (¿Y ese libro? — Ese libro ya lo leí). Si es un complemento directo, se retoma con un pronombre que concuerda con él (Ese libro ya lo leí, no ✗ Ese libro ya leí): el pronombre es la huella que deja en su sitio original.",
-          "Con verbos como gustar o encantar el pronombre (me, te, le, nos…) es obligatorio siempre, se anteponga o no el complemento; «a mí», «a ella» solo añaden énfasis o contraste (A mí me encanta, pero a ella no)."
+          "Mover un complemento al inicio de la oración lo convierte en el tema: aquello de lo que vas a hablar, algo ya conocido (¿Y ese libro? — Ese libro ya lo leí). Si es un complemento directo, se retoma con un pronombre que concuerda con él: el pronombre es la huella que deja en su sitio original (sin él, «Ese libro ya leí» solo se oye como contraste).",
+          "Con gustar o encantar el pronombre (me, te, le…) es siempre obligatorio; «a mí», «a ella» solo añaden énfasis o contraste (A mí me encanta, pero a ella no)."
         ],
         "examples": [
           {
@@ -6505,18 +6510,18 @@ const B2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿En qué oraciones se usa correctamente una estructura enfática? (Elige todas las correctas)",
+            "question": "¿En qué oraciones se coloca correctamente el adverbio enfático al inicio? (Elige todas las correctas)",
             "options": [
-              "Fue él quien lo propuso primero.",
-              "Él fue quien propuso primero lo.",
-              "No sabes lo difícil que fue esto.",
-              "No sabes que difícil fue esto lo."
+              "Jamás había oído algo igual.",
+              "Jamás no había oído algo igual.",
+              "Apenas había llegado cuando sonó el teléfono.",
+              "Apenas no había llegado cuando sonó el teléfono."
             ],
             "correctIndexes": [
               0,
               2
             ],
-            "explanation": "En las estructuras enfáticas el pronombre va delante del verbo conjugado y «lo» + adjetivo + que expresa grado: Fue él quien lo propuso, lo difícil que fue. «Propuso primero lo» y «que difícil fue esto lo» colocan mal los elementos."
+            "explanation": "Con un adverbio negativo o restrictivo delante del verbo (jamás, apenas), no se añade «no»: Jamás había oído algo igual. «Jamás no había oído» y «Apenas no había llegado» duplican la negación."
           }
         ]
       },
@@ -7259,7 +7264,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Lo cual: referirse a toda una idea",
         "body": [
           "«Lo cual» es una forma neutra que no concuerda con ningún sustantivo, porque no se refiere a una persona o cosa concreta, sino a toda una idea, acción o situación mencionada antes. Equivale a «lo que» cuando este mira hacia atrás, y al inglés «which» tras coma.",
-          "Se usa siempre después de una coma, para añadir un comentario sobre lo que se acaba de decir. La prueba para elegir: si puedes sustituirlo por «y eso», necesitas lo cual; si se refiere a un sustantivo concreto, usa el cual / la cual concordando con él."
+          "Se usa casi siempre después de una coma (o de una preposición: por lo cual, con lo cual), para añadir un comentario sobre lo que se acaba de decir. La prueba para elegir: si puedes sustituirlo por «y eso», necesitas lo cual; si se refiere a un sustantivo concreto, usa el cual / la cual concordando con él."
         ],
         "examples": [
           {
@@ -9011,7 +9016,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "«El entrenador quería que ___ al gimnasio tres veces por semana.» ¿Qué verbo es «fuéramos»?",
+            "question": "«El entrenador quería que fuéramos al gimnasio tres veces por semana.» ¿De qué verbo es aquí la forma «fuéramos»?",
             "options": [
               "ir",
               "ser",
@@ -9432,7 +9437,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "La regla: si + imperfecto de subjuntivo, condicional",
         "body": [
           "Recuerda la regla: para imaginar algo que no es real ahora, o que ves poco probable, se usa si + imperfecto de subjuntivo en la condición y condicional simple en la consecuencia: Si tuviera más tiempo, viajaría más.",
-          "¿Por qué el subjuntivo? Porque la condición no es un hecho: el subjuntivo marca que solo la imaginas. El condicional presenta la consecuencia como lo que pasaría en ese mundo imaginado. Por eso el condicional nunca va justo detrás de si."
+          "¿Por qué el subjuntivo? Porque la condición no es un hecho: el subjuntivo marca que solo la imaginas. El condicional presenta la consecuencia como lo que pasaría en ese mundo imaginado. Por eso, en una condición hipotética, el condicional no va detrás de si (no se dice «si tendría»)."
         ],
         "examples": [
           {
@@ -9580,14 +9585,14 @@ const B2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué tipo de condicional es esta oración: 'Si hubiéramos salido antes, no habríamos perdido el tren'?",
+        "question": "¿Qué tipo de condicional es esta oración: 'Si tuviéramos coche, no tomaríamos el autobús'?",
         "options": [
           "Tipo 1 (real/posible)",
           "Tipo 2 (hipotético presente)",
           "Tipo 3 (hipotético pasado)"
         ],
-        "correctIndex": 2,
-        "explanation": "Pluscuamperfecto de subjuntivo (hubiéramos salido) + condicional perfecto (habríamos perdido) = Tipo 3: un pasado que ya no se puede cambiar. El Tipo 1 usa presente y el Tipo 2, imperfecto de subjuntivo + condicional."
+        "correctIndex": 1,
+        "explanation": "Imperfecto de subjuntivo (tuviéramos) + condicional (tomaríamos) = Tipo 2: una situación imaginaria en el presente. El Tipo 1 usa presente tras si y el Tipo 3, pluscuamperfecto de subjuntivo."
       },
       {
         "type": "translate",
@@ -9671,7 +9676,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Real o hipotético: Tipo 1 y Tipo 2",
         "body": [
           "Recuerda la regla: si + presente (Tipo 1) presenta la condición como posible: Si llueve, no saldremos. Si + imperfecto de subjuntivo con condicional (Tipo 2) la presenta como imaginaria o poco probable: Si lloviera, no saldríamos.",
-          "¿Por qué cambiar de tipo? Porque el hablante elige cómo ve la situación: los tiempos no dicen cuándo pasa algo, sino cuánto crees que puede pasar. Los dos tipos no se mezclan: si tengo va con futuro, si tuviera con condicional."
+          "¿Por qué cambiar de tipo? Porque el hablante elige cómo ve la situación: los tiempos no dicen cuándo pasa algo, sino cuánto crees que puede pasar. Los dos tipos no se mezclan: si tengo va con futuro (o presente / imperativo), si tuviera con condicional."
         ],
         "examples": [
           {
@@ -9780,7 +9785,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es el equivalente de 'Yo que tú, se lo diría'?",
+        "question": "¿Cuál es la traducción de 'If I were you, I would tell her'?",
         "options": [
           "Si yo fuera tú, se lo diría.",
           "Si yo soy tú, se lo digo.",
@@ -9788,7 +9793,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Si yo sería tú, se lo diría."
         ],
         "correctIndex": 0,
-        "explanation": "«Yo que tú» equivale a «si yo fuera tú» + condicional. «Si yo soy tú» no es posible, «Si yo fui tú… habría dicho» mezcla tiempos y «si yo sería» usa condicional tras si, algo incorrecto."
+        "explanation": "«Si yo fuera tú» + condicional (diría) expresa un consejo hipotético; «yo que tú» lo resume. «Si yo soy tú» no es posible, «Si yo fui tú… habría dicho» mezcla tiempos y «si yo sería» usa condicional tras si, algo incorrecto."
       },
       {
         "type": "translate",
@@ -10359,24 +10364,27 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Ordena las palabras para formar una oración condicional de tipo 3.",
             "words": [
               "Si",
-              "hubiera",
-              "estudiado",
-              "más,",
-              "habría",
-              "aprobado",
+              "hubiéramos",
+              "madrugado,",
+              "habríamos",
+              "visto",
               "el",
-              "examen."
+              "amanecer."
             ],
-            "translation": "If I had studied more, I would have passed the exam.",
+            "translation": "If we had got up early, we would have seen the sunrise.",
             "explanation": "La cláusula con 'si' lleva el pluscuamperfecto de subjuntivo y la cláusula principal lleva el condicional perfecto."
           },
           {
             "type": "translate",
             "direction": "es-en",
             "prompt": "Traduce la oración al inglés.",
-            "source": "Si hubieras llegado a tiempo, no te habrías perdido el inicio.",
-            "answer": "If you had arrived on time, you wouldn't have missed the beginning.",
-            "explanation": "El pluscuamperfecto de subjuntivo (hubieras llegado) corresponde a 'had arrived' y el condicional perfecto (no te habrías perdido) a 'wouldn't have missed'."
+            "source": "Si hubieras cerrado la ventana, no se habría mojado el suelo.",
+            "answer": "If you had closed the window, the floor wouldn't have got wet.",
+            "altAnswers": [
+              "If you had closed the window, the floor wouldn't have gotten wet.",
+              "If you had shut the window, the floor wouldn't have got wet."
+            ],
+            "explanation": "El pluscuamperfecto de subjuntivo (hubieras cerrado) corresponde a 'had closed' y el condicional perfecto (no se habría mojado) a 'wouldn't have got wet'."
           }
         ]
       },
@@ -10443,16 +10451,17 @@ const B2_BASE_LESSONS: Lesson[] = [
             "type": "word-order",
             "prompt": "Ordena las palabras para formar la oración con el orden invertido.",
             "words": [
-              "Habríamos",
-              "ganado",
+              "Habrían",
+              "encontrado",
               "el",
-              "partido",
+              "error",
               "si",
-              "hubiéramos",
-              "entrenado",
-              "más."
+              "hubieran",
+              "revisado",
+              "el",
+              "informe."
             ],
-            "translation": "We would have won the match if we had trained more.",
+            "translation": "They would have found the mistake if they had checked the report.",
             "explanation": "Cuando la cláusula principal va primero, no se usa coma antes de 'si' y el significado no cambia."
           }
         ]
@@ -10477,10 +10486,10 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con la forma correcta.",
-        "sentence": "Ojalá ___ (poder) verte ayer.",
+        "sentence": "Si ___ (poder) verte ayer, habría ido.",
         "answer": "hubiera podido",
-        "hint": "ojalá + pluscuamperfecto de subjuntivo",
-        "explanation": "'Ojalá' con pluscuamperfecto de subjuntivo expresa un deseo no cumplido: ojalá hubiera podido."
+        "hint": "si + pluscuamperfecto de subjuntivo",
+        "explanation": "Con 'si' + pasado irreal se usa el pluscuamperfecto de subjuntivo: si hubiera podido, habría ido."
       },
       {
         "type": "matching",
@@ -10513,12 +10522,14 @@ const B2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce la oración al español.",
-        "source": "I wish I had studied more for the exam.",
-        "answer": "Ojalá hubiera estudiado más para el examen.",
+        "source": "If I had saved more money, I would have bought the flat.",
+        "answer": "Si hubiera ahorrado más dinero, habría comprado el piso.",
         "altAnswers": [
-          "Ojalá hubiese estudiado más para el examen."
+          "Si hubiese ahorrado más dinero, habría comprado el piso.",
+          "Si hubiera ahorrado más dinero, hubiera comprado el piso.",
+          "Si hubiera ahorrado más, habría comprado el piso."
         ],
-        "explanation": "'Ojalá' + pluscuamperfecto de subjuntivo expresa arrepentimiento por algo que no se hizo en el pasado."
+        "explanation": "Si + pluscuamperfecto de subjuntivo (hubiera ahorrado) en la condición y condicional perfecto (habría comprado) en la consecuencia."
       },
       {
         "type": "word-order",
@@ -10622,12 +10633,14 @@ const B2_BASE_LESSONS: Lesson[] = [
             "type": "translate",
             "direction": "en-es",
             "prompt": "Traduce la oración al español.",
-            "source": "I wish you hadn't said that.",
-            "answer": "Ojalá no hubieras dicho eso.",
+            "source": "I wish we had listened to her advice.",
+            "answer": "Ojalá hubiéramos escuchado su consejo.",
             "altAnswers": [
-              "Ojalá no hubieses dicho eso."
+              "Ojalá hubiésemos escuchado su consejo.",
+              "Ojalá hubiéramos hecho caso a su consejo.",
+              "Ojalá hubiéramos escuchado sus consejos."
             ],
-            "explanation": "'Ojalá' + pluscuamperfecto de subjuntivo (hubieras dicho) traduce el arrepentimiento de 'I wish... had(n't)...'."
+            "explanation": "'Ojalá' + pluscuamperfecto de subjuntivo (hubiéramos escuchado) traduce el arrepentimiento de 'I wish... had...'."
           }
         ]
       },
@@ -10716,12 +10729,13 @@ const B2_BASE_LESSONS: Lesson[] = [
             "type": "translate",
             "direction": "en-es",
             "prompt": "Traduce la oración al español.",
-            "source": "If they had left earlier, they wouldn't have missed the flight.",
-            "answer": "Si hubieran salido antes, no habrían perdido el vuelo.",
+            "source": "If they had called a taxi, they wouldn't have arrived late.",
+            "answer": "Si hubieran llamado a un taxi, no habrían llegado tarde.",
             "altAnswers": [
-              "Si hubiesen salido antes, no habrían perdido el vuelo."
+              "Si hubiesen llamado a un taxi, no habrían llegado tarde.",
+              "Si hubieran llamado un taxi, no habrían llegado tarde."
             ],
-            "explanation": "La cláusula 'si' usa hubieran salido (pluscuamperfecto de subjuntivo) y la principal usa habrían perdido (condicional perfecto)."
+            "explanation": "La cláusula 'si' usa hubieran llamado (pluscuamperfecto de subjuntivo) y la principal usa habrían llegado (condicional perfecto)."
           }
         ]
       }
@@ -10985,7 +10999,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "contento"
         ],
         "translation": "He told us that he was very happy.",
-        "explanation": "La estructura correcta es 'Nos dijo que estaba muy contento', con el verbo introductor seguido de 'que' y el verbo en imperfecto."
+        "explanation": "El presente de la cita («está muy contento») retrocede a imperfecto (estaba) porque «dijo» está en pasado; «que» sustituye a los dos puntos y las comillas."
       },
       {
         "type": "multiple-choice",
@@ -11002,10 +11016,10 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con la forma correcta.",
-        "sentence": "Elena preguntó: '¿Trabajas los fines de semana?' → Elena preguntó si ___ los fines de semana.",
+        "sentence": "Elena dijo: 'Trabajo los fines de semana.' → Elena dijo que ___ los fines de semana.",
         "answer": "trabajaba",
-        "hint": "pregunta cerrada + presente → imperfecto",
-        "explanation": "Al introducir la pregunta con 'si', el verbo en presente 'trabajas' pasa a imperfecto 'trabajaba'."
+        "hint": "presente → imperfecto",
+        "explanation": "Al contar lo que dijo Elena, el verbo en presente 'trabajo' pasa a imperfecto 'trabajaba'."
       },
       {
         "type": "translate",
@@ -11223,12 +11237,13 @@ const B2_BASE_LESSONS: Lesson[] = [
           "nos",
           "dijo",
           "que",
-          "termináramos",
           "el",
-          "trabajo"
+          "trabajo",
+          "estaba",
+          "terminado"
         ],
-        "translation": "The director told us to finish the work.",
-        "explanation": "Un mandato se cuenta con «dijo que» + subjuntivo, en imperfecto si el verbo introductor está en pasado: 'Terminen el trabajo' → 'nos dijo que termináramos el trabajo'."
+        "translation": "The director told us that the work was finished.",
+        "explanation": "El presente de la cita («el trabajo está terminado») retrocede a imperfecto (estaba) porque «dijo» está en pasado."
       },
       {
         "type": "translate",
@@ -11473,7 +11488,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 43,
     "title": "Usos Matizados de Ser, Estar y Haber: Práctica Extra, Part 1 of 3",
-    "summary": "Practica los usos avanzados y con frecuencia confusos de ser, estar y haber: adjetivos que cambian de significado, estar + gerundio, la diferencia entre haber y estar para expresar existencia o ubicación, y ser para la ubicación de eventos.",
+    "summary": "Practica los usos de ser y estar con adjetivos que cambian de significado: listo, aburrido, rico, malo y verde.",
     "duration": "9 min",
     "sections": [
       {
@@ -11598,12 +11613,13 @@ const B2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce la oración al español.",
-        "source": "The soup is very tasty.",
-        "answer": "La sopa está muy rica.",
+        "source": "The soup is very tasty today.",
+        "answer": "La sopa está muy rica hoy.",
         "altAnswers": [
-          "La sopa está muy sabrosa.",
-          "La sopa está muy buena.",
-          "La sopa está buenísima."
+          "La sopa está muy sabrosa hoy.",
+          "La sopa está muy buena hoy.",
+          "La sopa está buenísima hoy.",
+          "Hoy la sopa está muy rica."
         ],
         "explanation": "'Estar rico/a' se usa para describir el sabor de la comida en un momento dado."
       },
@@ -11717,7 +11733,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 44,
     "title": "Usos Matizados de Ser, Estar y Haber: Práctica Extra, Part 2 of 3",
-    "summary": "Practica los usos avanzados y con frecuencia confusos de ser, estar y haber: adjetivos que cambian de significado, estar + gerundio, la diferencia entre haber y estar para expresar existencia o ubicación, y ser para la ubicación de eventos.",
+    "summary": "Practica los usos avanzados y con frecuencia confusos de ser, estar y haber: estar + gerundio para acciones en curso, la diferencia entre haber y estar para expresar existencia o ubicación, y ser para la ubicación de eventos.",
     "duration": "9 min",
     "sections": [
       {
@@ -11930,7 +11946,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 45,
     "title": "Usos Matizados de Ser, Estar y Haber: Práctica Extra, Part 3 of 3",
-    "summary": "Practica los usos avanzados y con frecuencia confusos de ser, estar y haber: adjetivos que cambian de significado, estar + gerundio, la diferencia entre haber y estar para expresar existencia o ubicación, y ser para la ubicación de eventos.",
+    "summary": "Practica los usos avanzados y con frecuencia confusos de ser, estar y haber: la ubicación con estar y un repaso combinado de ser, estar y haber.",
     "duration": "6 min",
     "sections": [
       {
@@ -12110,7 +12126,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 46,
     "title": "Los Verbos de Cambio: Práctica Extra, Part 1 of 3",
-    "summary": "Practica la diferencia entre ponerse, volverse, hacerse, llegar a ser y quedarse a través de ejercicios de repetición y contraste.",
+    "summary": "Practica ponerse, volverse y hacerse: cambio temporal, cambio involuntario y duradero, y cambio logrado con esfuerzo.",
     "duration": "8 min",
     "sections": [
       {
@@ -12202,15 +12218,15 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué verbo se usa típicamente para un cargo alcanzado tras una larga trayectoria, como '___ presidente'?",
+        "question": "¿Qué verbo se usa para una profesión elegida con esfuerzo, como 'Se ___ abogado'?",
         "options": [
           "ponerse",
           "volverse",
-          "llegar a ser",
+          "hacerse",
           "quedarse"
         ],
         "correctIndex": 2,
-        "explanation": "«Llegar a ser» expresa un logro gradual y prestigioso: llegar a ser presidente. Ponerse y volverse no se usan con cargos, y quedarse expresa un estado resultante."
+        "explanation": "«Hacerse» expresa un cambio logrado con esfuerzo, sobre todo con profesiones: se hizo abogado. Ponerse y volverse no se usan con profesiones, y quedarse expresa un estado resultante."
       },
       {
         "type": "fill-blank",
@@ -12224,12 +12240,14 @@ const B2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "es-en",
         "prompt": "Traduce la oración al inglés.",
-        "source": "Se quedó dormido durante la película.",
-        "answer": "He fell asleep during the movie.",
+        "source": "Se puso muy nervioso durante la entrevista.",
+        "answer": "He got very nervous during the interview.",
         "altAnswers": [
-          "He ended up asleep during the movie."
+          "He became very nervous during the interview.",
+          "He got really nervous during the interview.",
+          "He became really nervous during the interview."
         ],
-        "explanation": "«Quedarse» + participio o adjetivo expresa el estado en que alguien acaba: «se quedó dormido» = 'fell asleep'."
+        "explanation": "«Ponerse» + adjetivo expresa un cambio pasajero de estado o de emoción: «se puso nervioso» = 'got nervous'."
       },
       {
         "type": "translate",
@@ -12334,7 +12352,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 47,
     "title": "Los Verbos de Cambio: Práctica Extra, Part 2 of 3",
-    "summary": "Practica la diferencia entre ponerse, volverse, hacerse, llegar a ser y quedarse a través de ejercicios de repetición y contraste.",
+    "summary": "Practica llegar a ser, quedarse y el contraste entre ponerse y volverse.",
     "duration": "9 min",
     "sections": [
       {
@@ -12570,7 +12588,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 48,
     "title": "Los Verbos de Cambio: Práctica Extra, Part 3 of 3",
-    "summary": "Practica la diferencia entre ponerse, volverse, hacerse, llegar a ser y quedarse a través de ejercicios de repetición y contraste.",
+    "summary": "Practica hacerse frente a llegar a ser y elige entre los cinco verbos de cambio y convertirse en.",
     "duration": "7 min",
     "sections": [
       {
@@ -12779,13 +12797,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 49,
     "title": "Conectores Avanzados y Estructuras de Énfasis: Práctica Extra, Part 1 of 3",
-    "summary": "Practica el uso de conectores de contraste, causa, consecuencia y adición, además de las estructuras enfáticas con 'lo que...es que...' y 'ser + relativo'. Este es un repaso intensivo; se asume que ya conoces estas estructuras.",
+    "summary": "Practica los conectores de contraste (sin embargo, no obstante, aunque, en cambio) y de causa (ya que, puesto que). Este es un repaso intensivo; se asume que ya conoces estas estructuras.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "Recuerda la regla — contraste I: sin embargo / no obstante",
         "body": [
-          "Recuerda la regla: sin embargo y no obstante son conectores, no conjunciones. Unen dos oraciones completas que ya podrían ir solas, por eso van detrás de punto o punto y coma y llevan coma detrás: «Era caro; sin embargo, lo compré». No pueden abrir una subordinada como aunque («Sin embargo es caro, lo compro» es incorrecto).",
+          "Recuerda la regla: sin embargo y no obstante son conectores, no conjunciones. Unen dos oraciones completas que ya podrían ir solas, por eso suelen ir detrás de punto o punto y coma y llevan coma detrás (o van entre comas dentro de la frase): «Era caro; sin embargo, lo compré». No pueden abrir una subordinada como aunque («Sin embargo es caro, lo compro» es incorrecto).",
           "Registro: «sin embargo» es neutro y sirve al hablar y al escribir; «no obstante» es formal y escrito. En lengua muy formal, «no obstante» también funciona como preposición (= a pesar de): «No obstante las dificultades…»."
         ],
         "examples": [
@@ -12918,19 +12936,14 @@ const B2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración enfática.",
         "words": [
-          "lo",
-          "que",
-          "más",
-          "me",
-          "sorprendió",
-          "fue",
-          "que",
-          "no",
-          "dijera",
-          "nada"
+          "aunque",
+          "era",
+          "tarde",
+          "seguimos",
+          "trabajando"
         ],
-        "translation": "What surprised me most was that he/she said nothing.",
-        "explanation": "La estructura 'lo que + verbo + fue que' destaca el hecho de que no dijera nada como la información principal."
+        "translation": "Although it was late, we kept working.",
+        "explanation": "'Aunque' + indicativo (era tarde) reconoce un hecho real y abre una subordinada concesiva; la oración principal (seguimos trabajando) va después de la coma."
       },
       {
         "type": "matching",
@@ -13081,26 +13094,29 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es el uso correcto de 'es por eso que'?",
+        "question": "¿Cuál es el uso correcto de 'de modo que'?",
         "options": [
-          "Es por eso que él llegó tarde porque había tráfico.",
-          "Había mucho tráfico; es por eso que él llegó tarde.",
-          "Es por eso él llegó tarde por el tráfico.",
-          "El tráfico es por eso que llegó tarde."
+          "De modo que había mucho tráfico, él llegó tarde.",
+          "Había mucho tráfico, de modo que él llegó tarde.",
+          "Había mucho tráfico de modo que, él llegó tarde.",
+          "El tráfico de modo que llegó tarde."
         ],
         "correctIndex": 1,
-        "explanation": "«Es por eso que» (muy frecuente; en registro formal se prefiere «es por eso por lo que») introduce la consecuencia de una causa ya mencionada antes. Repetir la causa con «porque» en la misma frase, omitir el «que» o usarlo como sujeto son errores."
+        "explanation": "«De modo que» introduce la consecuencia de una causa ya mencionada: va tras una coma y sin coma detrás. No abre la frase para dar la causa ni lleva coma después, ni funciona como sujeto."
       },
       {
         "type": "translate",
         "direction": "es-en",
         "prompt": "Traduce la oración al inglés.",
-        "source": "Fue entonces cuando comprendí que había cometido un error.",
-        "answer": "It was then that I realized I had made a mistake.",
+        "source": "Estudió poco; por lo tanto, suspendió el examen.",
+        "answer": "He studied little; therefore, he failed the exam.",
         "altAnswers": [
-          "That was when I realized I had made a mistake."
+          "He did not study much; therefore, he failed the exam.",
+          "He studied little, so he failed the exam.",
+          "He studied little; as a result, he failed the exam.",
+          "He barely studied; therefore, he failed the exam."
         ],
-        "explanation": "La estructura 'fue entonces cuando' equivale a 'it was then that', y sirve para destacar el momento en que ocurrió la acción."
+        "explanation": "«Por lo tanto» introduce la consecuencia (suspender) de la causa anterior (estudiar poco); es un conector formal que lleva coma detrás."
       },
       {
         "type": "fill-blank",
@@ -13118,16 +13134,16 @@ const B2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración enfática.",
         "words": [
-          "fue",
-          "entonces",
-          "cuando",
-          "decidimos",
-          "mudarnos",
+          "empezó",
+          "a",
+          "llover",
           "de",
-          "ciudad"
+          "modo",
+          "que",
+          "entramos"
         ],
-        "translation": "It was then that we decided to move to another city.",
-        "explanation": "La estructura 'fue entonces cuando' destaca el momento exacto de la decisión: ser + expresión de tiempo + cuando."
+        "translation": "It started to rain, so we went inside.",
+        "explanation": "«De modo que» introduce la consecuencia: primero la causa (empezó a llover) y después el resultado (entramos)."
       },
       {
         "type": "multiple-choice",
@@ -13167,7 +13183,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Recuerda la regla — énfasis con «lo que… es (que)…»",
         "body": [
-          "Recuerda la regla: para destacar una información, el español la saca de la oración y la pone al final, detrás de ser: «Me gusta que todo quede cerca» → «Lo que más me gusta es que todo queda cerca». Lo que (neutro) recoge una cosa o una idea; ser va en el mismo tiempo que el verbo (lo que pasó FUE que…).",
+          "Recuerda la regla: para destacar una información, el español la saca de la oración y la pone al final, detrás de ser: «Me gusta que todo quede cerca» → «Lo que más me gusta es que todo quede cerca». Lo que (neutro) recoge una cosa o una idea; ser va en el mismo tiempo que el verbo (lo que pasó FUE que…).",
           "Ser concuerda con lo destacado: «Lo que necesito es descanso», pero «Lo que necesito son vacaciones». Y si lo destacado es una oración, ser va seguido de que: es que + oración."
         ],
         "examples": [
@@ -13196,7 +13212,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "tarde"
             ],
             "translation": "What bothers me most is that he/she arrives late.",
-            "explanation": "La estructura enfática 'lo que + verbo + es que' coloca el elemento destacado al principio, seguido del verbo 'ser' y la cláusula con 'que'."
+            "explanation": "La estructura enfática 'lo que + verbo + es que' lleva «lo que» al principio y deja la información destacada al final, detrás de 'ser' (es que + oración). Tras una reacción emocional como molestar se usa el subjuntivo (llegue), aunque con hechos también se oye el indicativo."
           }
         ]
       },
@@ -13249,7 +13265,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "no obstante",
               "así que",
               "por consiguiente",
-              "pero",
+              "o sea que",
               "puesto que"
             ],
             "correctIndexes": [
@@ -13257,7 +13273,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               2,
               4
             ],
-            "explanation": "'No obstante', 'por consiguiente' y 'puesto que' son propios del registro formal; 'así que' y 'pero' son más coloquiales."
+            "explanation": "'No obstante', 'por consiguiente' y 'puesto que' son propios del registro formal; 'así que' y 'o sea que' son más coloquiales."
           }
         ]
       }
@@ -13636,13 +13652,13 @@ const B2_BASE_LESSONS: Lesson[] = [
               "restauración",
               "lienzo",
               "escultura",
-              "mecenas"
+              "pincel"
             ],
             "correctIndexes": [
               0,
               2
             ],
-            "explanation": "-ción y -ura son terminaciones femeninas: la restauración, la escultura. «El lienzo» acaba en -o (masculino) y «el mecenas» es masculino aunque acabe en -s (la mujer que financia es «la mecenas»)."
+            "explanation": "-ción y -ura son terminaciones femeninas: la restauración, la escultura. «El lienzo» acaba en -o (masculino) y «el pincel» acaba en -l: los dos son masculinos."
           }
         ]
       },
@@ -13683,7 +13699,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "altAnswers": [
               "El crítico escribió una reseña muy positiva sobre la exposición del museo."
             ],
-            "explanation": "Una muestra de arte en un museo es una exposición; «exhibición» se usa sobre todo para espectáculos o demostraciones (una exhibición de baile). «El crítico» y «una crítica» sí son correctos: persona y juicio."
+            "explanation": "Una muestra de arte en un museo es una exposición: en España es lo habitual; «exhibición» se usa más para espectáculos o demostraciones (una exhibición de baile), aunque en América también se dice de una muestra de arte. «El crítico» y «una crítica» sí son correctos: persona y juicio."
           }
         ]
       },
@@ -13757,7 +13773,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "La idea: las piezas de las palabras políticas",
         "body": [
           "El vocabulario político se construye con pocas piezas, y casi todas tienen equivalente en inglés. Si reconoces la pieza, puedes entender y formar palabras que no has estudiado.",
-          "-ción / -sión → sustantivo femenino de acción (constitución, abstención, coalición, manifestación; inglés -tion). -cracia → tipo de gobierno (democracia, burocracia; inglés -cracy). -ista → persona que defiende algo, igual en masculino y femenino (el activista, la activista; nunca «activisto»). -ado/-ido → participio que funciona como adjetivo (electorado, polarizado, electo).",
+          "-ción / -sión → sustantivo femenino de acción (constitución, abstención, coalición, manifestación; inglés -tion). -cracia → tipo de gobierno (democracia, burocracia; inglés -cracy). -ista → persona que defiende algo, igual en masculino y femenino (el activista, la activista; nunca «activisto»). -ado/-ido → participio que funciona como adjetivo (polarizado, moderado, elegido).",
           "Muchas palabras forman familia con un verbo: votar → el voto, el votante; gobernar → el gobierno, el gobernante; elegir → la elección, el electorado; legislar → la ley, el legislador."
         ],
         "examples": [
@@ -14053,7 +14069,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra correcta.",
-        "sentence": "El candidato perdió su ___ en el parlamento tras las elecciones.",
+        "sentence": "El diputado perdió su ___ (puesto de parlamentario) tras las elecciones.",
         "answer": "escaño",
         "explanation": "\"El escaño\" es el puesto que ocupa un representante en el parlamento."
       },
@@ -14420,7 +14436,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "a"
             ],
             "correctIndex": 0,
-            "explanation": "Soñar va con «con»: soñar con algo. «Soñar de» y «soñar en» son calcos de otras lenguas, y «a» es la preposición de aspirar (aspirar a algo)."
+            "explanation": "Soñar va con «con»: soñar con algo. «Soñar de» es un calco de otras lenguas y «soñar en» es mucho menos frecuente; la forma normal es «soñar con». «A» es la preposición de aspirar (aspirar a algo)."
           },
           {
             "type": "fill-blank",
@@ -14716,7 +14732,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El patrón: -izar, -ización, -idad, -encia",
         "body": [
-          "El patrón que te ahorra memoria: casi todo este vocabulario es culto y se parece al inglés con terminaciones fijas. -ize → -izar (automatizar, optimizar), y de ahí el sustantivo en -ización, siempre femenino (la automatización, la optimización). -ity → -idad (la privacidad, la singularidad). -ency / -ence → -encia (la eficiencia, la transparencia). Todas estas son femeninas."
+          "El patrón que te ahorra memoria: casi todo este vocabulario es culto y se parece al inglés con terminaciones fijas. -ize → -izar (automatizar, optimizar), y de ahí el sustantivo en -ización, siempre femenino (la automatización, la optimización). -ity → -idad (la privacidad, la singularidad). -ency / -ence → -encia (la eficiencia, la transparencia). Los sustantivos en -ización, -idad y -encia son siempre femeninos."
         ],
         "examples": [
           {
@@ -15053,7 +15069,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Patrón 1: verbos con se y preposición fija",
         "body": [
-          "Patrón 1, los verbos con se y preposición fija: arrepentirse de, liberarse de, replantearse, cuestionarse, perdonarse. El se forma parte del verbo (no existe «arrepentir» solo) y la preposición se aprende con él: me arrepiento de, se liberó de. Lo mismo pasa con verbos que ya conoces: atreverse a, olvidarse de, darse cuenta de."
+          "Patrón 1, los verbos con se: arrepentirse de y liberarse de llevan además una preposición fija; replantearse, cuestionarse y perdonarse son reflexivos y no llevan preposición. En arrepentirse el se forma parte del verbo (no existe «arrepentir» solo): me arrepiento de, se liberó de. Lo mismo pasa con verbos que ya conoces: atreverse a, olvidarse de, darse cuenta de."
         ],
         "examples": [
           {
@@ -15460,7 +15476,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "Con des- = lo contrario, ¿qué significa «desmentir una noticia»?",
+            "question": "¿Qué significa «desmentir una noticia»?",
             "options": [
               "Decir públicamente que es falsa",
               "Publicarla antes que nadie",
@@ -15468,7 +15484,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Retrasar su publicación"
             ],
             "correctIndex": 0,
-            "explanation": "Des- invierte el sentido de la base: mentir es decir algo falso; desmentir es negar públicamente que algo sea verdad. Las otras opciones son primicia, parafrasear y embargo informativo."
+            "explanation": "Desmentir es negar públicamente que una información sea verdadera (decir que lo dicho es falso); no es simplemente «lo contrario de mentir». Las otras opciones son primicia, parafrasear y embargo informativo."
           }
         ]
       }
@@ -15517,7 +15533,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "«___ ha publicado este año tres novelas de autores jóvenes.»",
+        "question": "«Trabajo en ___, que ha publicado este año tres novelas de autores jóvenes.»",
         "options": [
           "La editorial",
           "El editorial",
@@ -15525,7 +15541,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "El editor"
         ],
         "correctIndex": 0,
-        "explanation": "Una empresa que publica libros es «la editorial» (femenino). «El editorial» es el artículo de opinión de un periódico; «la edición» es un ejemplar o la tirada, y «el editor» es una persona."
+        "explanation": "Una empresa que publica libros es «la editorial» (femenino). «El editorial» es el artículo de opinión de un periódico; «la edición» es un ejemplar o la tirada, y «el editor» es una persona (no se trabaja «en el editor» para hablar de la empresa)."
       }
     ]
   },
@@ -15820,7 +15836,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Auto- = a uno mismo; el género lo da la segunda palabra",
         "body": [
-          "El prefijo auto- significa «a uno mismo» y forma palabras de la psicología: la autoestima, el autocontrol, el autoconocimiento, la autocompasión. ¿Por qué el género varía? Porque lo decide la segunda palabra: la estima → la autoestima (femenino, aunque empiece por a: la baja autoestima), el control → el autocontrol."
+          "El prefijo auto- significa «a uno mismo» y forma palabras de la psicología: la autoestima, el autocontrol, el autoconocimiento, la autocompasión. ¿Por qué el género varía? Porque lo decide la segunda palabra: la estima → la autoestima (femenino: la baja autoestima), el control → el autocontrol."
         ],
         "examples": [
           {
@@ -15952,7 +15968,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "evolucionar",
-                "right": "desarrollarse gradualmente hacia algo mejor"
+                "right": "cambiar y desarrollarse gradualmente"
               },
               {
                 "left": "la evolución personal",
@@ -16175,7 +16191,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "El patrón: cómo se forman las palabras del cambio",
         "body": [
           "Casi todo este vocabulario se construye con unas pocas piezas que puedes reutilizar. Verbo → sustantivo con -ción (transformar → la transformación, evolucionar → la evolución, adaptarse → la adaptación) o con -miento (estancarse → el estancamiento, crecer → el crecimiento). Los sustantivos en -ción son femeninos y los de -miento, masculinos.",
-          "Adjetivo → verbo de cambio con en-/a- … -ecer: fuerte → fortalecer(se), rico → enriquecer(se), duro → endurecer(se): significan «volverse más…». El prefijo re- añade «otra vez» (renacer, reinventarse) y auto- indica que la acción recae en uno mismo (autoexigencia, autoeficacia). Con estas piezas entiendes palabras que nunca has estudiado."
+          "Adjetivo → verbo de cambio con -ecer (a veces con en-): fuerte → fortalecer(se), rico → enriquecer(se), duro → endurecer(se): significan «volverse más…». El prefijo re- añade «otra vez» (renacer, reinventarse) y auto- indica que la acción recae en uno mismo (autoexigencia, autoeficacia). Con estas piezas entiendes palabras que nunca has estudiado."
         ],
         "examples": [
           {
@@ -16261,7 +16277,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 60,
     "title": "Advanced Vocabulary Practice, Part 9 of 10",
-    "summary": "Pon a prueba las 50 palabras de «El debate y la argumentación», una de las diez listas del vocabulario del nivel Avanzado.",
+    "summary": "Aprende a formar sustantivos y adjetivos a partir de verbos (-ación, -ización, -sión, -ducción, -clusión, -ivo) y practica las 50 palabras de «El debate y la argumentación».",
     "duration": "8 min",
     "sections": [
       {
@@ -16288,7 +16304,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "-ar → -ación, -izar → -ización",
         "body": [
-          "Las más útiles: verbo en -ar → sustantivo en -ación (refutar → la refutación, fundamentar → la fundamentación); verbo en -izar → -ización (generalizar → la generalización, polarizar → la polarización). Todos los sustantivos en -ción y -sión son femeninos, y en plural pierden la tilde: las objeciones."
+          "Las más útiles: verbo en -ar → sustantivo en -ación (refutar → la refutación, fundamentar → la fundamentación); verbo en -izar → -ización (generalizar → la generalización, polarizar → la polarización). Ojo: no todos los verbos en -ar dan -ación (razonar → el razonamiento, pensar → el pensamiento). Los sustantivos en -ción y -sión son femeninos, y en plural pierden la tilde: las objeciones."
         ],
         "examples": [
           {
@@ -17032,7 +17048,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cláusulas Hipotéticas con Si",
         "body": [
-          "Si + imperfecto de subjuntivo, + condicional describe situaciones hipotéticas o contrarias a la realidad actual (si tuviera tiempo, viajaría). No se usa el presente de subjuntivo después de \"si\"."
+          "Si + imperfecto de subjuntivo, + condicional describe situaciones hipotéticas o contrarias a la realidad actual (si tuviera tiempo, viajaría). Para el pasado: si + pluscuamperfecto de subjuntivo, + condicional perfecto (si hubiera sabido, habría actuado). No se usa el presente de subjuntivo después de \"si\"."
         ]
       }
     ],
@@ -17131,7 +17147,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 63,
     "title": "Advanced Comprehensive Review, Part 2 of 3",
-    "summary": "Repasa condicionales del pasado, estilo indirecto, ser/estar/haber, verbos de cambio y conectores, y compruébalos con un test breve.",
+    "summary": "Repasa condicionales del pasado, estilo indirecto y ser/estar/haber, con unas preguntas sueltas de verbos de cambio y conectores.",
     "duration": "7 min",
     "sections": [
       {
@@ -17149,7 +17165,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ser, Estar y Haber: Usos Matizados",
         "body": [
-          "Ser describe identidad y características esenciales; estar describe estados, ubicación y condiciones que pueden cambiar. Ciertos adjetivos cambian de significado según el verbo: \"ser aburrido\" describe una cualidad permanente de la persona o cosa, mientras que \"estar aburrido\" describe un estado temporal en un momento dado. Haber impersonal siempre es singular."
+          "Ser describe identidad y características esenciales; estar describe estados, ubicación y condiciones que pueden cambiar. Ciertos adjetivos cambian de significado según el verbo: \"ser aburrido\" describe cómo es la persona o cosa (tedioso), mientras que \"estar aburrido\" describe un estado temporal en un momento dado. Haber impersonal siempre es singular."
         ]
       }
     ],
@@ -17279,7 +17295,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Conectores Avanzados",
         "body": [
-          "Conectores como sin embargo, no obstante, por consiguiente, en cambio y a pesar de organizan ideas complejas: contraste, consecuencia y concesión. Muchos van seguidos de coma y ayudan a estructurar un argumento formal."
+          "Conectores como sin embargo, no obstante, por consiguiente y en cambio, y la locución a pesar de (preposición), organizan ideas complejas: contraste, consecuencia y concesión. Muchos van seguidos de coma y ayudan a estructurar un argumento formal."
         ]
       },
       {
@@ -17302,7 +17318,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál palabra describe el lienzo, el pincel y la exposición?",
+        "question": "¿A qué tema pertenecen el lienzo, el pincel y la exposición?",
         "options": [
           "el arte",
           "la política",
@@ -17410,7 +17426,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración reporta correctamente un mandato?",
+        "question": "¿Cuál oración reporta correctamente el mandato que te dieron ayer («Llámala»)?",
         "options": [
           "Me dijo que la llame.",
           "Me dijo que la llamara.",
@@ -21892,4 +21908,4 @@ const B2_BASE_LESSONS: Lesson[] = [
 // the same way; at a shared anchor they follow the reinforcement lessons.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const B2_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(buildLevel("B2", B2_BASE_LESSONS, [...B2_REINFORCEMENT, ...B2_DRILLS]), B2_WRITING_TASKS));
+export const B2_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(buildLevel("B2", B2_BASE_LESSONS, [...B2_REINFORCEMENT, ...B2_DRILLS]), B2_WRITING_TASKS), { spanish: true });

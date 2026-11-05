@@ -30,7 +30,7 @@ export const C1_GAPS: AnchoredLesson[] = [
       sec(
         "La norma general: lo para el CD, le para el CI",
         [
-          "En la norma general, lo / la / los / las son pronombres de complemento directo (CD) y le / les de complemento indirecto (CI): Vi a Juan → Lo vi. Di un libro a Juan → Le di un libro. ¿Por qué? Porque el sistema viene del latín, donde el pronombre marcaba la función (illum, illam: CD; illi: CI), no el género de la persona.",
+          "En la norma general, lo / la / los / las son pronombres de complemento directo (CD) y le / les de complemento indirecto (CI): Vi a Juan → Lo vi. Di un libro a Juan → Le di un libro. ¿Por qué? Porque el sistema viene del latín, donde el pronombre marcaba el caso (illum, illam: acusativo, el CD; illi: dativo, el CI).",
         ],
         [
           ["Vi a Juan ayer. → Lo vi ayer. (general)", "I saw Juan yesterday. → I saw him yesterday."],
@@ -229,9 +229,9 @@ export const C1_GAPS: AnchoredLesson[] = [
           "¿Por qué ocurre? Los hablantes laístas reorganizan el sistema por género (la para mujer, le para hombre) en lugar de por función. La norma mantiene la función: el CI es le / les sea hombre o mujer, porque lo que se regala o se dice ya ocupa el lugar de CD.",
         ],
         [
-          ["La dije que viniera. (laísmo)", "I told her to come."],
+          ["✗ La dije que viniera. (laísmo)", "I told her to come."],
           ["Le dije que viniera. (norma)", "I told her to come."],
-          ["A Laura la di las llaves. (laísmo)", "I gave Laura the keys."],
+          ["✗ A Laura la di las llaves. (laísmo)", "I gave Laura the keys."],
           ["A Laura le di las llaves. (norma)", "I gave Laura the keys."],
         ],
         [
@@ -272,7 +272,7 @@ export const C1_GAPS: AnchoredLesson[] = [
           "Es mucho menos frecuente que el leísmo y el laísmo, y está más estigmatizado: se asocia a hablas rurales de algunas zonas de Castilla y se percibe como un error claro.",
         ],
         [
-          ["Lo di un regalo a Pablo. (loísmo)", "I gave Pablo a present."],
+          ["✗ Lo di un regalo a Pablo. (loísmo)", "I gave Pablo a present."],
           ["Le di un regalo a Pablo. (norma)", "I gave Pablo a present."],
         ],
         [
@@ -291,7 +291,7 @@ export const C1_GAPS: AnchoredLesson[] = [
           "Otro caso frecuente en América, que no es loísmo sino una concordancia coloquial: «Se los dije» con sentido de «se lo dije a ustedes». Es muy común en México y otros países, aunque la norma culta prefiere «se lo dije».",
         ],
         [
-          ["¿Los resultados? Ya se los dije. (correcto: los = los resultados)", "The results? I already told him what they were."],
+          ["¿Los resultados? Ya se los dije. (correcto: los = los resultados)", "The results? I already told him."],
           ["Ya se los dije, chicos. (coloquial en América: se lo dije a ustedes)", "I already told you, guys."],
         ],
         [
@@ -374,7 +374,7 @@ export const C1_GAPS: AnchoredLesson[] = [
       fe(
         "Cuando vi a mis alumnos, ___ di la enhorabuena.",
         "les",
-        "When I saw my students, I congratulated [them].",
+        "When I saw my students, I gave [them] my congratulations.",
         "Dar la enhorabuena a alguien: la enhorabuena es CD, los alumnos CI: les."
       ),
       toEs(

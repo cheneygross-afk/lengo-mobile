@@ -33,7 +33,18 @@ export const checkpointCount = (s: LessonSection) => s.checkpoint?.length ?? 0;
 export const questionCount = (l: Lesson) => l.sections.reduce((n, s) => n + checkpointCount(s), 0) + l.exercises.length;
 
 const PART_SUFFIX = /,?\s*(?:Part|Parte) (\d+) (?:of|de) (\d+)$/;
-const SPANISH_TITLE = /\b(de|del|la|el|los|las|y|con|en|para|por|que|práctica|repaso|subjuntivo|pretérito|imperativo|pronombres|verbos|prueba)\b/i;
+const SPANISH_TITLE = /(de|del|la|el|los|las|y|con|en|para|por|que|práctica|repaso|subjuntivo|pretérito|imperativo|pronombres|verbos|prueba|ronda|circuito|pares|contraste|mezcla|cuento|dictado|corrige|elige|habla|frase|cadena|línea|diálogo|misión)/i;
+
+// A Spanish-course lesson with an English title ("Advanced Vocabulary Practice") still has a Spanish summary.
+const SPANISH_SUMMARY = /\b(los|las|del|para|con|una|tu|tus|pon|usa|repaso)\b/i;
+const ENGLISH_SUMMARY = /\b(the|and|with|your|you|to|of|for)\b/i;
+
+// An English title does not make a Spanish-explained lesson English: judge by the teaching text itself.
+function spanishBodies(lesson: Lesson): boolean {
+  const text = lesson.sections.flatMap((s) => s.body).join(" ").toLowerCase();
+  const count = (re: RegExp) => (text.match(re) ?? []).length;
+  return count(/\b(que|los|las|del|una|con|para|se)\b/g) > count(/\b(the|and|is|are|with|for|you)\b/g);
+}
 
 function partTitle(title: string, i: number, k: number): string {
   if (PART_SUFFIX.test(title)) return `${title} · ${i}/${k}`;
@@ -181,9 +192,17 @@ function deal(exercises: Exercise[], q: number[], checkpoints: Exercise[][], exa
   return got.map((g) => g.sort((a, b) => a.index - b.index).map((x) => x.e));
 }
 
+// Set by splitLongLessons(lessons, { spanish: true }) for the Spanish course's B1+ levels, whose
+// explanations are in Spanish whatever a lesson's title looks like.
+let FORCE_SPANISH: boolean | undefined;
+
 /** A short tested recap for a part that teaches no section of its own. */
 function recap(lesson: Lesson, first: Exercise | undefined, items: Exercise[]): LessonSection {
-  const spanish = lesson.level.length === 2 && !["A1", "A2"].includes(lesson.level) && SPANISH_TITLE.test(lesson.title);
+  const spanish =
+    FORCE_SPANISH ??
+    (lesson.level.length === 2 &&
+    !["A1", "A2"].includes(lesson.level) &&
+    (SPANISH_TITLE.test(lesson.title) || (SPANISH_SUMMARY.test(lesson.summary) && !ENGLISH_SUMMARY.test(lesson.summary)) || spanishBodies(lesson)));
   const headings = lesson.sections.map((s) => s.heading.trim()).filter(Boolean);
   const list = headings.slice(0, 4).join("; ").replace(/[.:;,]$/, "");
   const end = /[.!?]$/.test(list) ? "" : ".";
@@ -273,10 +292,17 @@ function splitParts(lesson: Lesson): Lesson[] {
 
 /** The lessons with every lesson over the limit split into parts. Lesson
  * numbers that ran 1..n are renumbered so they still do. */
-export function splitLongLessons(lessons: Lesson[]): Lesson[] {
+export function splitLongLessons(lessons: Lesson[], opts?: { spanish?: boolean }): Lesson[] {
   if (!lessons.some((l) => questionCount(l) > MAX_LESSON_QUESTIONS)) return lessons;
   const counted = lessons.every((l, i) => l.number === i + 1);
-  const out = lessons.flatMap(splitLesson);
+  const prev = FORCE_SPANISH;
+  FORCE_SPANISH = opts?.spanish;
+  let out: Lesson[];
+  try {
+    out = lessons.flatMap((l) => splitLesson(l));
+  } finally {
+    FORCE_SPANISH = prev;
+  }
   if (!counted) return out;
   return out.map((l, i) => {
     if (l.number === i + 1) return l;

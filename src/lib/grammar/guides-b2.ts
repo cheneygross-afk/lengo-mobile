@@ -571,7 +571,7 @@ export const B2_GUIDES: GrammarGuide[] = [
     faqs: [
       {
         q: "Is \"estar casado\" or \"ser casado\" correct?",
-        a: "Estar casado is by far the most common. Ser casado exists, meaning \"to be a married man\" as a category, but you'll rarely need it.",
+        a: "Estar casado is by far the most common. Ser casado also occurs when classifying someone by marital status (Es casado y tiene dos hijos; es casada works too), but estar casado is the usual choice.",
       },
       {
         q: "Why \"estar embarazada\" but \"ser joven\"?",

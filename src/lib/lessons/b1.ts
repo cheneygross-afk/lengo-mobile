@@ -22974,4 +22974,4 @@ const B1_BASE_LESSONS: Lesson[] = [
 // the same way; at a shared anchor they follow the reinforcement lessons.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const B1_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS, ...B1_COMMON_WORDS, ...B1_GAPS, ...B1_SURVIVAL]), B1_WRITING_TASKS));
+export const B1_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS, ...B1_COMMON_WORDS, ...B1_GAPS, ...B1_SURVIVAL]), B1_WRITING_TASKS), { spanish: true });
